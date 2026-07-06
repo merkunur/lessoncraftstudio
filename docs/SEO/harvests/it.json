@@ -4,8 +4,8 @@
   "hl": "it",
   "gl": "it"
  },
- "generatedAt": "2026-07-06T16:28:12.831Z",
- "requestCount": 412,
+ "generatedAt": "2026-07-06T17:42:22.454Z",
+ "requestCount": 582,
  "seedCounts": {
   "core": 4,
   "types": 177,
@@ -15,89 +15,8 @@
   "online": 8,
   "alphabet": 52
  },
- "errorCount": 41,
- "errors": [
-  {
-   "seed": "sequenze e ritmi prima elementare",
-   "err": "HTTP 403"
-  },
-  {
-   "seed": "indicatori spaziali scuola dell’infanzia",
-   "err": "HTTP 403"
-  },
-  {
-   "seed": "indicatori spaziali classe prima",
-   "err": "HTTP 403"
-  },
-  {
-   "seed": "indicatori spaziali classe seconda",
-   "err": "HTTP 403"
-  },
-  {
-   "seed": "indicatori spaziali prima elementare",
-   "err": "HTTP 403"
-  },
-  {
-   "seed": "classificare per categorie scuola dell’infanzia",
-   "err": "HTTP 403"
-  },
-  {
-   "seed": "classificare per categorie classe prima",
-   "err": "HTTP 403"
-  },
-  {
-   "seed": "classificare per categorie classe seconda",
-   "err": "HTTP 403"
-  },
-  {
-   "seed": "classificare per categorie prima elementare",
-   "err": "HTTP 403"
-  },
-  {
-   "seed": "calcolo con le immagini scuola dell’infanzia",
-   "err": "HTTP 403"
-  },
-  {
-   "seed": "calcolo con le immagini classe prima",
-   "err": "HTTP 403"
-  },
-  {
-   "seed": "calcolo con le immagini classe seconda",
-   "err": "HTTP 403"
-  },
-  {
-   "seed": "calcolo con le immagini prima elementare",
-   "err": "HTTP 403"
-  },
-  {
-   "seed": "classifichiamo le scienze scuola dell’infanzia",
-   "err": "HTTP 403"
-  },
-  {
-   "seed": "classifichiamo le scienze classe prima",
-   "err": "HTTP 403"
-  },
-  {
-   "seed": "classifichiamo le scienze classe seconda",
-   "err": "HTTP 403"
-  },
-  {
-   "seed": "classifichiamo le scienze prima elementare",
-   "err": "HTTP 403"
-  },
-  {
-   "seed": "sequenze e cicli di vita scuola dell’infanzia",
-   "err": "HTTP 403"
-  },
-  {
-   "seed": "sequenze e cicli di vita classe prima",
-   "err": "HTTP 403"
-  },
-  {
-   "seed": "sequenze e cicli di vita classe seconda",
-   "err": "HTTP 403"
-  }
- ],
+ "errorCount": 0,
+ "errors": [],
  "suggestions": {
   "schede didattiche": {
    "cls": "core",
@@ -882,13 +801,13 @@
     "frazioni equivalenti",
     "frazioni",
     "frazioni algebriche",
-    "frazioni complementari",
     "frazioni apparenti",
     "frazioni decimali",
     "frazioni proprie improprie apparenti",
     "frazioni improprie",
     "frazioni algebriche esercizi",
-    "frazioni decimali scuola primaria"
+    "frazioni decimali scuola primaria",
+    "frazioni equivalenti esempi"
    ]
   },
   "frazioni schede": {
@@ -1682,10 +1601,1467 @@
    "s": [
     "sequenze e ritmi classe prima"
    ]
+  },
+  "sequenze e ritmi prima elementare": {
+   "cls": "typeGrade",
+   "s": [
+    "ritmi e sequenze prima elementare"
+   ]
+  },
+  "indicatori spaziali classe prima": {
+   "cls": "typeGrade",
+   "s": [
+    "indicatori spaziali classe prima",
+    "indicatori spaziali classe prima wordwall",
+    "indicatori spaziali classe prima schede",
+    "indicatori spaziali classe prima matematica",
+    "verifica indicatori spaziali classe prima",
+    "geografia indicatori spaziali classe prima",
+    "indicatori spaziali classe quinta primaria",
+    "indicatori spaziali classe seconda primaria",
+    "video sugli indicatori spaziali classe prima",
+    "giochi su indicatori spaziali classe prima"
+   ]
+  },
+  "indicatori spaziali classe seconda": {
+   "cls": "typeGrade",
+   "s": [
+    "indicatori spaziali classe seconda",
+    "indicatori spaziali classe seconda geografia",
+    "indicatori spaziali classe seconda primaria",
+    "verifica indicatori spaziali classe seconda",
+    "wordwall indicatori spaziali classe seconda",
+    "schede indicatori spaziali classe seconda"
+   ]
+  },
+  "indicatori spaziali prima elementare": {
+   "cls": "typeGrade",
+   "s": [
+    "indicatori spaziali prima elementare",
+    "wordwall indicatori spaziali prima elementare"
+   ]
+  },
+  "accessori schede": {
+   "cls": "themes",
+   "s": [
+    "accessori per schede elettroniche"
+   ]
+  },
+  "attività schede": {
+   "cls": "themes",
+   "s": [
+    "attività schede figure geometriche scuola primaria",
+    "attività schede autismo",
+    "attività schede",
+    "schede attività alternativa classe prima",
+    "schede attività bambini 5 anni",
+    "schede attività alternativa classe quarta",
+    "schede attività bambini 4 anni",
+    "schede attività alternativa classe seconda",
+    "schede attività bambini 3 anni",
+    "schede attività bambini"
+   ]
+  },
+  "animali schede": {
+   "cls": "themes",
+   "s": [
+    "animali schede didattiche",
+    "animali schede",
+    "animali schede inglese",
+    "animali schede didattiche inglese",
+    "animali schede per bambini",
+    "schede animali da stampare",
+    "schede animali in letargo scuola infanzia",
+    "schede animali in inglese da stampare",
+    "schede animali scuola primaria",
+    "schede animali erbivori carnivori onnivori"
+   ]
+  },
+  "al supermercato schede": {
+   "cls": "themes",
+   "s": [
+    "al supermercato schede didattiche"
+   ]
+  },
+  "uccelli schede": {
+   "cls": "themes",
+   "s": [
+    "uccelli schede scuola primaria",
+    "schede uccelli",
+    "gli uccelli schede didattiche"
+   ]
+  },
+  "parti del corpo schede": {
+   "cls": "themes",
+   "s": [
+    "parti del corpo schede didattiche",
+    "parti del corpo schede didattiche inglese",
+    "parti del corpo schede",
+    "le parti del corpo schede per bambini",
+    "parti del corpo in inglese schede da stampare",
+    "parti del corpo in inglese schede",
+    "parti del corpo in spagnolo schede didattiche",
+    "schede parti del corpo infanzia",
+    "schede parti del corpo prima elementare",
+    "schede parti del corpo autismo"
+   ]
+  },
+  "natale schede": {
+   "cls": "themes",
+   "s": [
+    "natale schede didattiche",
+    "natale schede didattiche infanzia",
+    "natale schede",
+    "natale schede didattiche scuola primaria",
+    "natale schede da colorare",
+    "natale schede infanzia",
+    "natale schede inglese",
+    "natale schede didattiche inglese",
+    "natale schede bambini",
+    "schede natale infanzia 3 anni"
+   ]
+  },
+  "abbigliamento schede": {
+   "cls": "themes",
+   "s": [
+    "abbigliamento schede didattiche",
+    "abbigliamento schede didattiche vestiti italiano",
+    "abbigliamento schede",
+    "schede abbigliamento inglese",
+    "schede abbigliamento invernale scuola infanzia",
+    "schede abbigliamento inglese scuola primaria",
+    "schede abbigliamento invernale",
+    "schede abbigliamento invernale infanzia",
+    "schede abbigliamento scuola primaria",
+    "schede abbigliamento in francese"
+   ]
+  },
+  "colori schede": {
+   "cls": "themes",
+   "s": [
+    "colori schede elettorali referendum 2026",
+    "colori schede elettorali",
+    "colori schede referendum",
+    "colori schede",
+    "colori schede elettorali referendum",
+    "colori schede referendum 2025",
+    "colori schede elettorali 2025",
+    "colori schede referendum 8 9 giugno",
+    "colori schede referendum giugno 2025",
+    "colori schede didattiche"
+   ]
+  },
+  "dinosauri schede": {
+   "cls": "themes",
+   "s": [
+    "dinosauri schede didattiche",
+    "dinosauri schede didattiche scuola primaria",
+    "dinosauri schede",
+    "dinosauri schede didattiche per bambini",
+    "dinosauri schede classe terza",
+    "schede dinosauri terza elementare",
+    "schede dinosauri pdf",
+    "schede dinosauri da stampare",
+    "schede dinosauri da colorare",
+    "schede dinosauri scuola infanzia"
+   ]
+  },
+  "pasqua schede": {
+   "cls": "themes",
+   "s": [
+    "pasqua schede didattiche",
+    "pasqua schede infanzia",
+    "pasqua schede didattiche infanzia",
+    "pasqua schede",
+    "pasqua schede da colorare",
+    "pasqua schede primaria",
+    "pasqua schede inglese",
+    "pasqua schede didattiche scuola primaria",
+    "schede pasqua infanzia 3 anni",
+    "schede pasqua infanzia 5 anni"
+   ]
+  },
+  "emozioni schede": {
+   "cls": "themes",
+   "s": [
+    "emozioni schede didattiche",
+    "emozioni schede",
+    "emozioni schede infanzia",
+    "emozioni schede didattiche scuola primaria",
+    "emozioni schede da colorare",
+    "emozioni schede per bambini",
+    "emozioni schede autismo",
+    "schede emozioni pdf",
+    "schede emozioni bambini pdf",
+    "schede emozioni adolescenti"
+   ]
+  },
+  "animali della fattoria schede": {
+   "cls": "themes",
+   "s": [
+    "animali della fattoria schede didattiche",
+    "animali della fattoria schede",
+    "animali della fattoria in inglese schede",
+    "schede sugli animali della fattoria da colorare",
+    "schede didattiche sugli animali della fattoria",
+    "schede didattiche sugli animali della fattoria in inglese"
+   ]
+  },
+  "fiori schede": {
+   "cls": "themes",
+   "s": [
+    "fiori schede didattiche",
+    "fiori schede",
+    "schede fiori da colorare",
+    "schede fiori di bach",
+    "schede fiori scuola infanzia",
+    "schede fiori da stampare"
+   ]
+  },
+  "frutta schede": {
+   "cls": "themes",
+   "s": [
+    "frutta schede didattiche",
+    "frutta schede",
+    "schede frutta primavera scuola infanzia",
+    "schede frutta primaverile da colorare",
+    "schede frutta autunnale infanzia",
+    "schede frutta invernale scuola infanzia",
+    "schede frutta estiva infanzia",
+    "schede frutta e verdura",
+    "schede frutta in inglese",
+    "schede frutta autunnale"
+   ]
+  },
+  "mobili schede": {
+   "cls": "themes",
+   "s": [
+    "schede mobili",
+    "schede mobili museo",
+    "offerte schede mobili",
+    "mobili in inglese schede"
+   ]
+  },
+  "varie schede": {
+   "cls": "themes",
+   "s": [
+    "schede varie"
+   ]
+  },
+  "musica schede": {
+   "cls": "themes",
+   "s": [
+    "musica schede didattiche",
+    "musica schede didattiche scuola primaria",
+    "musica schede classe prima",
+    "musica schede",
+    "musica schede scuola primaria",
+    "musica schede prima elementare",
+    "musica schede classe seconda",
+    "musica schede autismo",
+    "musica schede didattiche classe terza",
+    "musica schede bambini"
+   ]
+  },
+  "professioni schede": {
+   "cls": "themes",
+   "s": [
+    "mestieri e professioni schede didattiche"
+   ]
+  },
+  "animali domestici schede": {
+   "cls": "themes",
+   "s": [
+    "animali domestici schede didattiche",
+    "animali selvatici e domestici schede didattiche",
+    "animali domestici in inglese schede",
+    "schede animali domestici"
+   ]
+  },
+  "forme schede": {
+   "cls": "themes",
+   "s": [
+    "forme schede didattiche",
+    "schede forme geometriche infanzia",
+    "schede forme geometriche classe prima",
+    "schede forme geometriche 3 anni",
+    "schede forme geometriche",
+    "schede forme geometriche autismo",
+    "schede forme",
+    "schede forme infanzia",
+    "schede forme geometriche 5 anni",
+    "schede forme e colori scuola infanzia"
+   ]
+  },
+  "spazio schede": {
+   "cls": "themes",
+   "s": [
+    "schede spazio tempo scuola infanzia",
+    "schede spazio tempo prima elementare",
+    "schede spazio",
+    "schede spazio temporali",
+    "lo spazio schede didattiche",
+    "orientarsi nello spazio schede di geografia",
+    "spazio scuola primaria schede"
+   ]
+  },
+  "primavera schede": {
+   "cls": "themes",
+   "s": [
+    "primavera schede infanzia",
+    "primavera schede didattiche",
+    "primavera schede",
+    "primavera schede didattiche scuola primaria",
+    "primavera schede da colorare",
+    "primavera schede da colorare per bambini",
+    "primavera schede primaria",
+    "schede primavera infanzia fantavolando",
+    "schede primavera infanzia 3 anni fantavolando",
+    "schede primavera infanzia 3 anni"
+   ]
+  },
+  "estate schede": {
+   "cls": "themes",
+   "s": [
+    "estate schede didattiche",
+    "estate schede infanzia",
+    "estate schede da colorare",
+    "estate schede didattiche scuola infanzia",
+    "estate schede",
+    "schede estate scuola infanzia",
+    "schede estate infanzia 5 anni",
+    "schede estate infanzia 3 anni",
+    "schede estate fantavolando",
+    "schede estate prima elementare"
+   ]
+  },
+  "giorno del ringraziamento schede": {
+   "cls": "themes",
+   "s": [
+    "il giorno del ringraziamento schede didattiche"
+   ]
+  },
+  "attrezzi schede": {
+   "cls": "themes",
+   "s": [
+    "schede attrezzi palestra"
+   ]
+  },
+  "giocattoli schede": {
+   "cls": "themes",
+   "s": [
+    "schede giocattoli in inglese",
+    "giocattoli in inglese schede didattiche"
+   ]
+  },
+  "alberi schede": {
+   "cls": "themes",
+   "s": [
+    "alberi schede",
+    "schede alberi pdf",
+    "schede alberi scuola primaria",
+    "schede alberi da colorare",
+    "alberi 101 schede",
+    "saremo alberi schede didattiche",
+    "gli alberi schede didattiche",
+    "festa degli alberi schede didattiche",
+    "festa degli alberi schede da colorare",
+    "giornata degli alberi schede"
+   ]
+  },
+  "verdure schede": {
+   "cls": "themes",
+   "s": [
+    "schede verdure"
+   ]
+  },
+  "veicoli schede": {
+   "cls": "themes",
+   "s": [
+    "schede veicoli"
+   ]
+  },
+  "meteo schede": {
+   "cls": "themes",
+   "s": [
+    "meteo schede",
+    "schede meteo inglese",
+    "schede meteo per bambini",
+    "il meteo schede didattiche",
+    "meteo in francese schede",
+    "meteo in inglese schede didattiche"
+   ]
+  },
+  "inverno schede": {
+   "cls": "themes",
+   "s": [
+    "inverno schede didattiche",
+    "inverno schede infanzia",
+    "inverno schede didattiche scuola infanzia",
+    "inverno schede",
+    "inverno schede didattiche scuola primaria classe prima",
+    "inverno schede da colorare",
+    "inverno schede da colorare infanzia",
+    "schede inverno infanzia 3 anni",
+    "schede inverno scuola infanzia da stampare",
+    "schede inverno infanzia 4 anni"
+   ]
+  },
+  "matematica scuola dell’infanzia schede": {
+   "cls": "subjects",
+   "s": [
+    "schede matematica scuola dell infanzia",
+    "schede didattiche matematica scuola dell infanzia"
+   ]
+  },
+  "matematica classe prima schede": {
+   "cls": "subjects",
+   "s": [
+    "matematica classe prima schede",
+    "matematica classe prima schede didattiche",
+    "matematica classe prima schede da stampare",
+    "matematica classe prima primaria schede didattiche",
+    "schede matematica classe prima primaria",
+    "schede matematica classe prima pdf",
+    "schede matematica classe prima elementare",
+    "schede matematica classe prima natale",
+    "schede matematica classe prima carnevale",
+    "schede matematica classe prima halloween"
+   ]
+  },
+  "matematica classe seconda schede": {
+   "cls": "subjects",
+   "s": [
+    "matematica classe seconda schede",
+    "matematica classe seconda schede didattiche",
+    "matematica classe seconda schede didattiche miste",
+    "matematica classe seconda schede da stampare",
+    "matematica classe seconda elementare schede didattiche",
+    "matematica classe seconda primaria schede",
+    "schede matematica classe seconda primi giorni di scuola",
+    "schede matematica classe seconda carnevale",
+    "schede matematica classe seconda natale",
+    "schede matematica classe seconda halloween"
+   ]
+  },
+  "matematica prima elementare schede": {
+   "cls": "subjects",
+   "s": [
+    "matematica prima elementare schede",
+    "matematica prima elementare schede didattiche",
+    "schede matematica prima elementare pdf",
+    "schede matematica prima elementare da stampare",
+    "schede matematica prima elementare pdf gratis",
+    "schede matematica prima elementare da stampare gratis",
+    "schede matematica prima elementare addizioni",
+    "schede matematica prima elementare pdf sostegno",
+    "schede matematica prima elementare scuola primaria",
+    "schede matematica prima elementare numeri fino a 20"
+   ]
+  },
+  "italiano classe prima schede": {
+   "cls": "subjects",
+   "s": [
+    "italiano classe prima schede",
+    "italiano classe prima schede didattiche",
+    "schede italiano classe prima primaria",
+    "schede italiano classe prima stampato maiuscolo",
+    "schede italiano classe prima pdf",
+    "schede italiano classe prima sostegno",
+    "schede italiano classe prima natale",
+    "schede italiano classe prima sillabe",
+    "schede italiano classe prima vocali",
+    "schede italiano classe prima da stampare"
+   ]
+  },
+  "italiano classe seconda schede": {
+   "cls": "subjects",
+   "s": [
+    "italiano classe seconda schede",
+    "italiano classe seconda schede didattiche",
+    "italiano classe seconda elementare schede didattiche",
+    "schede italiano classe seconda primaria",
+    "schede italiano classe seconda sostegno",
+    "schede italiano classe seconda pdf",
+    "schede italiano classe seconda pianetabambini",
+    "schede didattiche italiano classe seconda da stampare",
+    "schede halloween italiano classe seconda",
+    "schede facilitate italiano classe seconda"
+   ]
+  },
+  "italiano prima elementare schede": {
+   "cls": "subjects",
+   "s": [
+    "italiano prima elementare schede",
+    "italiano prima elementare schede didattiche",
+    "schede italiano prima elementare pdf",
+    "schede italiano prima elementare da stampare",
+    "schede italiano prima elementare sostegno",
+    "schede italiano prima elementare autismo",
+    "schede italiano prima elementare sillabe",
+    "schede italiano prima elementare natale",
+    "schede italiano prima elementare pdf gratis",
+    "schede italiano prima elementare vocali"
+   ]
+  },
+  "scienze classe prima schede": {
+   "cls": "subjects",
+   "s": [
+    "scienze classe prima schede",
+    "scienze classe prima schede didattiche",
+    "scienze classe prima scuola primaria schede didattiche",
+    "schede scienze classe prima primaria",
+    "schede scienze classe prima i cinque sensi",
+    "schede scienze classe prima le piante",
+    "schede scienze classe prima la vista",
+    "schede di scienze classe prima",
+    "schede di scienze classe prima esseri viventi e non viventi",
+    "schede autunno scienze classe prima"
+   ]
+  },
+  "scienze classe seconda schede": {
+   "cls": "subjects",
+   "s": [
+    "scienze classe seconda schede didattiche",
+    "scienze classe seconda schede",
+    "scienze classe seconda primaria schede didattiche",
+    "scienze classe seconda gli animali schede didattiche",
+    "schede scienze classe seconda elementare",
+    "schede scienze classe seconda le piante",
+    "schede di scienze classe seconda da stampare",
+    "schede didattiche scienze classe seconda pdf",
+    "schede didattiche scienze classe seconda esseri viventi e non viventi",
+    "schede di scienze classe seconda elementare"
+   ]
+  },
+  "scienze prima elementare schede": {
+   "cls": "subjects",
+   "s": [
+    "scienze prima elementare schede",
+    "schede scienze prima elementare pdf",
+    "schede scienze prima elementare da stampare",
+    "schede scienze prima elementare animali",
+    "schede didattiche scienze prima elementare",
+    "schede verifica scienze prima elementare"
+   ]
+  },
+  "logica scuola dell’infanzia schede": {
+   "cls": "subjects",
+   "s": [
+    "schede di logica scuola dell'infanzia"
+   ]
+  },
+  "logica classe prima schede": {
+   "cls": "subjects",
+   "s": [
+    "schede logica classe prima",
+    "schede di logica classe prima elementare"
+   ]
+  },
+  "logica classe seconda schede": {
+   "cls": "subjects",
+   "s": [
+    "schede logica classe seconda",
+    "schede di logica classe seconda primaria"
+   ]
+  },
+  "logica prima elementare schede": {
+   "cls": "subjects",
+   "s": [
+    "schede logica prima elementare",
+    "schede logica matematica prima elementare"
+   ]
+  },
+  "schede di matematica scuola dell’infanzia": {
+   "cls": "subjects",
+   "s": [
+    "schede di matematica scuola dell infanzia",
+    "schede di logico matematica per la scuola dell infanzia"
+   ]
+  },
+  "schede di matematica classe prima": {
+   "cls": "subjects",
+   "s": [
+    "schede di matematica classe prima",
+    "schede di matematica classe prima elementare",
+    "schede di matematica classe prima scuola primaria",
+    "schede di matematica classe prima fantavolando",
+    "schede di matematica classe prima halloween",
+    "schede di matematica classe prima ordine crescente e decrescente",
+    "schede di matematica classe prima da stampare",
+    "schede di matematica classe prima elementare da stampare",
+    "schede di matematica classe prima da stampare pdf",
+    "schede di matematica classe prima sul carnevale"
+   ]
+  },
+  "schede di matematica classe seconda": {
+   "cls": "subjects",
+   "s": [
+    "schede di matematica classe seconda",
+    "schede di matematica classe seconda elementare",
+    "schede di matematica classe seconda elementare da stampare",
+    "schede di matematica classe seconda operazioni in colonna",
+    "schede di matematica classe seconda halloween",
+    "schede di matematica classe seconda addizioni in colonna",
+    "schede di matematica classe seconda accoglienza",
+    "schede di matematica classe seconda fantavolando",
+    "schede di matematica classe seconda natale",
+    "schede di matematica classe seconda da stampare"
+   ]
+  },
+  "schede di matematica prima elementare": {
+   "cls": "subjects",
+   "s": [
+    "schede di matematica prima elementare",
+    "schede di matematica prima elementare da stampare",
+    "schede di matematica prima elementare addizioni e sottrazioni",
+    "schede di matematica prima elementare addizioni",
+    "schede di matematica prima elementare sottrazioni",
+    "schede di matematica prima elementare sostegno",
+    "schede di matematica prima elementare pdf",
+    "schede di matematica prima elementare natale",
+    "schede di matematica prima elementare primi giorni",
+    "schede di matematica prima elementare precedente e successivo"
+   ]
+  },
+  "esercizi di matematica classe prima": {
+   "cls": "subjects",
+   "s": [
+    "esercizi di matematica classe prima",
+    "esercizi di matematica classe prima primaria",
+    "esercizi di matematica classe prima elementare da stampare",
+    "esercizi di matematica classe prima media",
+    "esercizi di matematica classe terza primaria",
+    "esercizi di matematica classe seconda primaria",
+    "wordwall esercizi di matematica classe prima",
+    "esercizi di consolidamento matematica classe prima",
+    "esercizi di logica matematica classe prima",
+    "esercizi di matematica classe 4 primaria"
+   ]
+  },
+  "esercizi di matematica classe seconda": {
+   "cls": "subjects",
+   "s": [
+    "esercizi di matematica classe seconda",
+    "esercizi di matematica classe seconda elementare",
+    "esercizi di matematica classe seconda primaria",
+    "esercizi di matematica classe seconda elementare da stampare",
+    "esercizi di matematica classe seconda media",
+    "esercizi di logica matematica classe seconda primaria",
+    "esercizi di consolidamento matematica classe seconda",
+    "wordwall esercizi di matematica classe seconda",
+    "esercizi di logica matematica classe seconda",
+    "esercizi interattivi di matematica classe seconda primaria"
+   ]
+  },
+  "esercizi di matematica prima elementare": {
+   "cls": "subjects",
+   "s": [
+    "esercizi di matematica prima elementare",
+    "esercizi di matematica prima elementare da stampare",
+    "esercizi di matematica prima elementare online",
+    "esercizi di matematica prima elementare pdf",
+    "esercizi di matematica prima elementare sostegno",
+    "esercizi di matematica prima elementare da stampare gratis",
+    "esercizi di matematica prima elementare wordwall",
+    "esercizi di matematica classe prima elementare",
+    "esercizi di logica matematica prima elementare",
+    "esercizi di matematica sottrazioni prima elementare"
+   ]
+  },
+  "schede di italiano classe prima": {
+   "cls": "subjects",
+   "s": [
+    "schede di italiano classe prima",
+    "schede di italiano classe prima elementare da stampare",
+    "schede di italiano classe prima elementare",
+    "schede di italiano classe prima fantavolando",
+    "schede di natale italiano classe prima",
+    "schede didattiche di italiano classe prima",
+    "schede di verifica italiano classe prima",
+    "schede di ripasso italiano classe prima",
+    "schede di rinforzo italiano classe prima",
+    "schede di italiano classe seconda primaria"
+   ]
+  },
+  "schede di italiano classe seconda": {
+   "cls": "subjects",
+   "s": [
+    "schede di italiano classe seconda",
+    "schede di italiano classe seconda elementare da stampare",
+    "schede di italiano classe seconda primaria",
+    "schede di natale italiano classe seconda",
+    "schede di ripasso italiano classe seconda",
+    "schede di recupero italiano classe seconda",
+    "schede di verifica italiano classe seconda elementare",
+    "schede didattiche di italiano classe seconda primaria",
+    "schede di carnevale italiano classe seconda"
+   ]
+  },
+  "schede di italiano prima elementare": {
+   "cls": "subjects",
+   "s": [
+    "schede di italiano prima elementare",
+    "schede di italiano prima elementare sostegno",
+    "schede di italiano prima elementare da stampare",
+    "schede di italiano prima elementare pdf",
+    "schede di italiano classe prima elementare",
+    "schede di verifica italiano prima elementare",
+    "schede di italiano e matematica per la prima elementare",
+    "schede didattiche italiano di lettura e comprensione classe prima elementare"
+   ]
+  },
+  "esercizi online": {
+   "cls": "online",
+   "s": [
+    "esercizi online inglese",
+    "esercizi online analisi logica",
+    "esercizi online",
+    "esercizi online analisi del periodo",
+    "esercizi online di grammatica",
+    "esercizi online present simple e continuous",
+    "esercizi online present simple",
+    "esercizi online di italiano",
+    "esercizi online sui verbi",
+    "esercizi online present perfect simple e continuous"
+   ]
+  },
+  "esercizi online classe prima": {
+   "cls": "online",
+   "s": [
+    "esercizi online classe prima italiano",
+    "esercizi online matematica classe prima",
+    "esercizi online di grammatica classe seconda primaria",
+    "esercizi online di matematica classe seconda primaria"
+   ]
+  },
+  "esercizi online classe seconda": {
+   "cls": "online",
+   "s": [
+    "esercizi online matematica classe seconda",
+    "esercizi online di grammatica classe seconda primaria",
+    "esercizi online di matematica classe seconda primaria"
+   ]
+  },
+  "giochi didattici online": {
+   "cls": "online",
+   "s": [
+    "giochi didattici online",
+    "giochi didattici online gratis",
+    "giochi didattici online scuola primaria",
+    "giochi didattici online gratis wordwall",
+    "giochi didattici online per bambini",
+    "giochi didattici online italiano",
+    "giochi didattici online inglese",
+    "giochi didattici online wordwall",
+    "giochi didattici online matematica",
+    "giochi didattici online scuola infanzia"
+   ]
+  },
+  "giochi didattici online scuola dell’infanzia": {
+   "cls": "online",
+   "s": [
+    "giochi didattici online scuola dell infanzia"
+   ]
+  },
+  "giochi didattici online classe prima": {
+   "cls": "online",
+   "s": [
+    "giochi didattici online classe prima",
+    "giochi didattici online italiano classe prima"
+   ]
+  },
+  "giochi didattici online classe seconda": {
+   "cls": "online",
+   "s": [
+    "giochi didattici online classe seconda"
+   ]
+  },
+  "schede didattiche a": {
+   "cls": "alphabet",
+   "s": [
+    "schede didattiche autismo",
+    "schede didattiche alfabeto da stampare",
+    "schede didattiche autismo da stampare",
+    "schede didattiche aggettivi qualificativi",
+    "schede didattiche arte preistorica scuola primaria",
+    "schede didattiche aggettivi qualificativi classe seconda",
+    "schede didattiche apparato riproduttore scuola primaria",
+    "schede didattiche api",
+    "schede didattiche api scuola infanzia",
+    "schede didattiche apparato digerente scuola primaria"
+   ]
+  },
+  "schede didattiche b": {
+   "cls": "alphabet",
+   "s": [
+    "schede didattiche bambini 2 anni da stampare",
+    "schede didattiche bambini 5 anni",
+    "schede didattiche bambini",
+    "schede didattiche bambini 3 anni",
+    "schede didattiche bambini 4 anni",
+    "schede didattiche bes",
+    "schede didattiche bambini autistici",
+    "schede didattiche ba be bi bo bu",
+    "schede didattiche b",
+    "schede didattiche bing"
+   ]
+  },
+  "schede didattiche c": {
+   "cls": "alphabet",
+   "s": [
+    "schede didattiche classe prima italiano",
+    "schede didattiche corpo umano scuola infanzia",
+    "schede didattiche cantico delle creature per bambini scuola primaria",
+    "schede didattiche classe prima matematica",
+    "schede didattiche classe prima",
+    "schede didattiche comprensione del testo scuola primaria",
+    "schede didattiche classe seconda italiano",
+    "schede didattiche cia cio ciu",
+    "schede didattiche classe seconda matematica",
+    "schede didattiche che chi ghe ghi"
+   ]
+  },
+  "schede didattiche d": {
+   "cls": "alphabet",
+   "s": [
+    "schede didattiche da stampare pdf",
+    "schede didattiche di francese per sostegno pdf",
+    "schede didattiche da stampare gratis",
+    "schede didattiche di francese per bambini da stampare",
+    "schede didattiche da stampare",
+    "schede didattiche di pasqua",
+    "schede didattiche doppie",
+    "schede didattiche di geografia per stranieri",
+    "schede didattiche di matematica",
+    "schede didattiche da colorare"
+   ]
+  },
+  "schede didattiche e": {
+   "cls": "alphabet",
+   "s": [
+    "schede didattiche euro pdf",
+    "schede didattiche educazione motoria scuola primaria",
+    "schede didattiche estate scuola infanzia",
+    "schede didattiche euro",
+    "schede didattiche estate",
+    "schede didattiche euro scuola primaria",
+    "schede didattiche educazione fisica scuola media",
+    "schede didattiche europa scuola primaria",
+    "schede didattiche elementari",
+    "schede didattiche e risorse didattiche per la scuola primaria"
+   ]
+  },
+  "schede didattiche f": {
+   "cls": "alphabet",
+   "s": [
+    "schede didattiche festa della mamma",
+    "schede didattiche festa della mamma scuola infanzia",
+    "schede didattiche frazioni",
+    "schede didattiche francese",
+    "schede didattiche forme geometriche",
+    "schede didattiche francese sostegno",
+    "schede didattiche frase minima",
+    "schede didattiche frase minima con immagini",
+    "schede didattiche fine anno scuola primaria",
+    "schede didattiche festa della repubblica"
+   ]
+  },
+  "schede didattiche g": {
+   "cls": "alphabet",
+   "s": [
+    "schede didattiche geografia classe prima",
+    "schede didattiche giornata della terra",
+    "schede didattiche gn",
+    "schede didattiche giorno e notte scuola infanzia",
+    "schede didattiche gandhi spiegato ai bambini scuola primaria",
+    "schede didattiche gli",
+    "schede didattiche giornata delle api",
+    "schede didattiche giorni della settimana",
+    "schede didattiche geografia classe seconda",
+    "schede didattiche geografia classe terza"
+   ]
+  },
+  "schede didattiche h": {
+   "cls": "alphabet",
+   "s": [
+    "schede didattiche ho hai ha hanno",
+    "schede didattiche h",
+    "schede didattiche homo sapiens classe terza",
+    "schede didattiche h classe seconda",
+    "schede didattiche h si h no",
+    "schede didattiche homo sapiens",
+    "schede didattiche harry potter",
+    "schede didattiche happy easter",
+    "schede didattiche hanno anno",
+    "schede didattiche have got"
+   ]
+  },
+  "schede didattiche i": {
+   "cls": "alphabet",
+   "s": [
+    "schede didattiche italiano",
+    "schede didattiche infanzia da stampare",
+    "schede didattiche inglese",
+    "schede didattiche inglese pdf",
+    "schede didattiche inglese scuola primaria",
+    "schede didattiche infanzia",
+    "schede didattiche italiano prima elementare",
+    "schede didattiche inglese da stampare",
+    "schede didattiche infanzia 5 anni",
+    "schede didattiche italiano scuola primaria"
+   ]
+  },
+  "schede didattiche j": {
+   "cls": "alphabet",
+   "s": [
+    "schede didattiche jobs",
+    "schede didattiche jobs scuola primaria",
+    "schede didattiche jobs inglese",
+    "schede didattiche inglese union jack",
+    "schede didattiche maestra in bluejeans"
+   ]
+  },
+  "schede didattiche k": {
+   "cls": "alphabet",
+   "s": [
+    "schede didattiche kandinsky",
+    "schede didattiche united kingdom scuola primaria",
+    "schede didattiche frida kahlo",
+    "klimt schede didattiche",
+    "schede didattiche su martin luther king scuola primaria"
+   ]
+  },
+  "schede didattiche l": {
+   "cls": "alphabet",
+   "s": [
+    "schede didattiche lettura e comprensione del testo classe terza pdf",
+    "schede didattiche laboratorio linguistico infanzia",
+    "schede didattiche lettera n",
+    "schede didattiche lettera q classe prima",
+    "schede didattiche lettera g",
+    "schede didattiche le parole della primavera",
+    "schede didattiche lettere",
+    "schede didattiche lettera q",
+    "schede didattiche le stagioni classe prima",
+    "schede didattiche lettera b"
+   ]
+  },
+  "schede didattiche m": {
+   "cls": "alphabet",
+   "s": [
+    "schede didattiche matematica",
+    "schede didattiche matematica classe prima",
+    "schede didattiche matematica classe seconda",
+    "schede didattiche matematica prima elementare",
+    "schede didattiche matematica pdf",
+    "schede didattiche matematica classe terza",
+    "schede didattiche matematica scuola primaria",
+    "schede didattiche matematica seconda elementare",
+    "schede didattiche matematica classe quarta",
+    "schede didattiche mp mb"
+   ]
+  },
+  "schede didattiche n": {
+   "cls": "alphabet",
+   "s": [
+    "schede didattiche numeri",
+    "schede didattiche numeri fino a 20",
+    "schede didattiche nomi propri e comuni",
+    "schede didattiche numeri infanzia",
+    "schede didattiche numeri decimali",
+    "schede didattiche numeri da 1 a 10",
+    "schede didattiche numeri decimali classe terza",
+    "schede didattiche numero 11",
+    "schede didattiche nomi maschili e femminili",
+    "schede didattiche numeri fino a 10"
+   ]
+  },
+  "schede didattiche o": {
+   "cls": "alphabet",
+   "s": [
+    "schede didattiche orologio maestra mary",
+    "schede didattiche orologio da stampare",
+    "schede didattiche orologio",
+    "schede didattiche orologio pdf",
+    "schede didattiche orologio classe seconda",
+    "schede didattiche orologio sostegno",
+    "schede didattiche operazioni inverse classe prima",
+    "schede didattiche orologio in inglese",
+    "schede didattiche orologio scuola primaria",
+    "schede didattiche operazioni con numeri decimali"
+   ]
+  },
+  "schede didattiche p": {
+   "cls": "alphabet",
+   "s": [
+    "schede didattiche prima elementare",
+    "schede didattiche primavera scuola infanzia",
+    "schede didattiche pasqua scuola infanzia",
+    "schede didattiche pasqua",
+    "schede didattiche primavera",
+    "schede didattiche prima elementare da stampare pdf",
+    "schede didattiche per potenziare l'attenzione",
+    "schede didattiche per bambini autistici da stampare pdf infanzia",
+    "schede didattiche prima elementare da stampare gratis",
+    "schede didattiche prima elementare da stampare"
+   ]
+  },
+  "schede didattiche q": {
+   "cls": "alphabet",
+   "s": [
+    "schede didattiche quarta elementare da stampare",
+    "schede didattiche quinta elementare",
+    "schede didattiche q",
+    "schede didattiche qua que qui quo",
+    "schede didattiche quarta elementare",
+    "schede didattiche qu cu",
+    "schede didattiche qu",
+    "schede didattiche quinta elementare italiano",
+    "schede didattiche quinta elementare matematica",
+    "schede didattiche quinta elementare da stampare"
+   ]
+  },
+  "schede didattiche r": {
+   "cls": "alphabet",
+   "s": [
+    "schede didattiche religione scuola secondaria secondo grado",
+    "schede didattiche ritaglia e incolla",
+    "schede didattiche religione sostegno",
+    "schede didattiche risparmio energetico scuola primaria",
+    "schede didattiche raccolta differenziata",
+    "schede didattiche religione",
+    "schede didattiche regioni italiane",
+    "schede didattiche romani scuola primaria",
+    "schede didattiche raccolta differenziata scuola infanzia",
+    "schede didattiche raccolta differenziata per bambini schede"
+   ]
+  },
+  "schede didattiche s": {
+   "cls": "alphabet",
+   "s": [
+    "schede didattiche sulla primavera",
+    "schede didattiche scuola primaria",
+    "schede didattiche sulla primavera scuola infanzia",
+    "schede didattiche seconda elementare",
+    "schede didattiche sulle vocali da stampare",
+    "schede didattiche sull'acqua scuola primaria",
+    "schede didattiche spagnolo pdf",
+    "schede didattiche scuola infanzia",
+    "schede didattiche sostegno pdf",
+    "schede didattiche sulla primavera scuola primaria"
+   ]
+  },
+  "schede didattiche t": {
+   "cls": "alphabet",
+   "s": [
+    "schede didattiche terza elementare",
+    "schede didattiche tabelline",
+    "schede didattiche tabellina del 2",
+    "schede didattiche toys inglese scuola primaria",
+    "schede didattiche tabellina del 7",
+    "schede didattiche tabellina del 3",
+    "schede didattiche terza elementare matematica",
+    "schede didattiche tabellina del 6",
+    "schede didattiche tabelline classe seconda",
+    "schede didattiche terza elementare da stampare"
+   ]
+  },
+  "schede didattiche u": {
+   "cls": "alphabet",
+   "s": [
+    "schede didattiche ultimo giorno di scuola",
+    "schede didattiche uova di pasqua",
+    "schede didattiche uso dell'h",
+    "schede didattiche unità frazionaria classe terza",
+    "schede didattiche umbria scuola primaria",
+    "schede didattiche unire i puntini",
+    "schede didattiche uomo di neanderthal",
+    "schede didattiche unisci i puntini da 1 a 10",
+    "schede didattiche umbria",
+    "schede didattiche udito classe prima"
+   ]
+  },
+  "schede didattiche v": {
+   "cls": "alphabet",
+   "s": [
+    "schede didattiche vocali pdf",
+    "schede didattiche verbi scuola primaria",
+    "schede didattiche verbo avere classe seconda",
+    "schede didattiche verbi",
+    "schede didattiche verbo essere",
+    "schede didattiche vocali",
+    "schede didattiche verbo avere",
+    "schede didattiche verbi classe seconda",
+    "schede didattiche vertebrati e invertebrati scuola primaria",
+    "schede didattiche verbo essere presente"
+   ]
+  },
+  "schede didattiche w": {
+   "cls": "alphabet",
+   "s": [
+    "schede didattiche word",
+    "schede didattiche wall-e",
+    "schede didattiche weather",
+    "schede didattiche wordwall",
+    "schede didattiche what's the weather like",
+    "schede didattiche wh questions",
+    "schede didattiche was were",
+    "schede didattiche wonder",
+    "schede didattiche winnie the pooh",
+    "schede didattiche where are you from"
+   ]
+  },
+  "schede didattiche x": {
+   "cls": "alphabet",
+   "s": [
+    "schede didattiche x fragile",
+    "schede didattiche x bambini autistici",
+    "schede didattiche x bambini di 5 anni",
+    "schede didattiche papa leone xiv"
+   ]
+  },
+  "schede didattiche y": {
+   "cls": "alphabet",
+   "s": [
+    "schede didattiche do you like scuola primaria",
+    "schede didattiche where are you from",
+    "schede didattiche inglese where are you from"
+   ]
+  },
+  "schede didattiche z": {
+   "cls": "alphabet",
+   "s": [
+    "schede didattiche za ze zi zo zu",
+    "schede didattiche z",
+    "schede didattiche zucca",
+    "schede didattiche zone climatiche",
+    "schede didattiche zero",
+    "schede didattiche lettera z",
+    "schede didattiche sullo zero prima elementare",
+    "schede didattiche lettera z classe prima",
+    "schede didattiche consonante z",
+    "schede didattiche numero zero"
+   ]
+  },
+  "schede da stampare a": {
+   "cls": "alphabet",
+   "s": [
+    "schede da stampare autismo",
+    "schede da stampare autunno",
+    "schede da stampare articoli determinativi e indeterminativi",
+    "schede da stampare autunno scuola infanzia",
+    "schede da stampare accoglienza infanzia",
+    "schede da stampare alfabeto",
+    "schede da stampare asilo",
+    "schede da stampare animali",
+    "schede da stampare addizioni prima elementare",
+    "schede da stampare aggettivi qualificativi"
+   ]
+  },
+  "schede da stampare b": {
+   "cls": "alphabet",
+   "s": [
+    "schede da stampare bambini",
+    "schede da stampare bambini 5 anni",
+    "schede da stampare bambini 4 anni",
+    "schede da stampare bambini 3 anni",
+    "schede cognitive da stampare bambini",
+    "schede da stampare per bambini autistici",
+    "schede da stampare per bambini di prima elementare",
+    "schede da stampare per bambini scuola dell infanzia",
+    "schede da stampare per bambini di 6 anni",
+    "schede memory da stampare bianco e nero"
+   ]
+  },
+  "schede da stampare c": {
+   "cls": "alphabet",
+   "s": [
+    "schede da stampare con le doppie",
+    "schede da stampare calzini spaiati",
+    "schede da stampare classe prima italiano",
+    "schede da stampare concetti topologici",
+    "schede da stampare classe prima matematica",
+    "schede da stampare caa",
+    "schede da stampare carnevale",
+    "schede da stampare classe seconda",
+    "schede da stampare con chi che ghi ghe",
+    "schede da stampare con cu qu cqu"
+   ]
+  },
+  "schede da stampare d": {
+   "cls": "alphabet",
+   "s": [
+    "schede da stampare di italiano",
+    "schede da stampare di matematica",
+    "schede da stampare di pasqua",
+    "schede da stampare di stitch",
+    "schede da stampare di matematica prima elementare",
+    "schede da stampare di halloween",
+    "schede da stampare di natale",
+    "schede da stampare destra e sinistra",
+    "schede da stampare di pregrafismo",
+    "schede da stampare di inglese"
+   ]
+  },
+  "schede da stampare e": {
+   "cls": "alphabet",
+   "s": [
+    "schede da stampare e colorare",
+    "schede da stampare e colorare di natale",
+    "schede da stampare e colorare per bambini",
+    "schede da stampare e colorare di stitch",
+    "schede da stampare e ritagliare",
+    "schede da stampare elementari",
+    "schede da stampare prima elementare",
+    "schede da stampare seconda elementare",
+    "schede da stampare sulle emozioni",
+    "schede da stampare terza elementare"
+   ]
+  },
+  "schede da stampare f": {
+   "cls": "alphabet",
+   "s": [
+    "schede da stampare festa della mamma",
+    "schede da stampare festa del papà",
+    "schede da stampare festa dei nonni",
+    "schede da stampare frazioni",
+    "schede da stampare motricità fine",
+    "schede pregrafismo da stampare fantavolando",
+    "schede da stampare dentro fuori",
+    "schede da stampare sulle frazioni quarta elementare",
+    "schede da stampare sulle frazioni classe terza",
+    "schede autunno infanzia da stampare fantavolando"
+   ]
+  },
+  "schede da stampare g": {
+   "cls": "alphabet",
+   "s": [
+    "schede da stampare giornata della terra",
+    "schede da stampare gratis",
+    "schede da stampare geografia prima elementare",
+    "schede da stampare giorni della settimana",
+    "schede da stampare grammatica",
+    "schede didattiche da stampare gratis",
+    "schede cognitive da stampare gratis",
+    "schede pregrafismo da stampare gratis",
+    "schede tombola da stampare gratis",
+    "schede da stampare grammatica schede italiano terza elementare"
+   ]
+  },
+  "schede da stampare h": {
+   "cls": "alphabet",
+   "s": [
+    "schede da stampare halloween",
+    "schede da stampare di hello kitty",
+    "schede haccp da stampare",
+    "schede didattiche halloween da stampare",
+    "schede di halloween da stampare e colorare",
+    "schede didattiche sull'h da stampare"
+   ]
+  },
+  "schede da stampare i": {
+   "cls": "alphabet",
+   "s": [
+    "schede da stampare infanzia",
+    "schede da stampare italiano prima elementare",
+    "schede da stampare inglese prima elementare",
+    "schede da stampare italiano seconda elementare",
+    "schede da stampare italiano",
+    "schede da stampare italiano classe prima",
+    "schede da stampare inglese",
+    "schede da stampare inglese seconda elementare",
+    "schede da stampare i giorni della merla",
+    "schede da stampare inverno"
+   ]
+  },
+  "schede da stampare j": {
+   "cls": "alphabet",
+   "s": [
+    "schede cluedo junior da stampare"
+   ]
+  },
+  "schede da stampare k": {
+   "cls": "alphabet",
+   "s": [
+    "schede da stampare di hello kitty",
+    "schede kaleidos da stampare",
+    "schede kamishibai da stampare"
+   ]
+  },
+  "schede da stampare l": {
+   "cls": "alphabet",
+   "s": [
+    "schede da stampare lettura parole bisillabe e trisillabe",
+    "schede da stampare lettere",
+    "schede da stampare con le doppie",
+    "schede pregrafismo da stampare lettere",
+    "schede da stampare per la festa della mamma",
+    "schede da stampare per la festa dei nonni",
+    "schede da stampare con le tabelline",
+    "schede da stampare per la prima elementare",
+    "schede da stampare trova le differenze",
+    "schede da stampare per la festa del papà"
+   ]
+  },
+  "schede da stampare m": {
+   "cls": "alphabet",
+   "s": [
+    "schede da stampare matematica prima elementare",
+    "schede da stampare matematica terza elementare",
+    "schede da stampare matematica classe seconda",
+    "schede da stampare motricità fine",
+    "schede da stampare matematica seconda elementare",
+    "schede da stampare matematica",
+    "schede da stampare matematica classe prima",
+    "schede da stampare maggiore minore uguale",
+    "schede da stampare matematica quarta elementare",
+    "schede da stampare matematica classe terza"
+   ]
+  },
+  "schede da stampare n": {
+   "cls": "alphabet",
+   "s": [
+    "schede da stampare numeri",
+    "schede da stampare natale",
+    "schede pregrafismo da stampare numeri",
+    "schede da stampare sui nomi",
+    "schede pregrafismo montessori da stampare numeri",
+    "schede da stampare festa dei nonni",
+    "schede di religione da stampare natale",
+    "schede da stampare e colorare di natale",
+    "schede da stampare esseri viventi e non viventi",
+    "schede prescrittura 5 anni da stampare numeri"
+   ]
+  },
+  "schede da stampare o": {
+   "cls": "alphabet",
+   "s": [
+    "schede da stampare orologio",
+    "schede da stampare orologio in inglese",
+    "schede da stampare sull orologio classe seconda",
+    "schede da stampare per imparare l'orologio",
+    "schede di ortografia da stampare",
+    "da stampare schede didattiche orologio maestra mary",
+    "schede orologio seconda elementare da stampare",
+    "schede quaderni operativi autismo da stampare",
+    "le 4 operazioni schede da stampare"
+   ]
+  },
+  "schede da stampare p": {
+   "cls": "alphabet",
+   "s": [
+    "schede da stampare prima elementare",
+    "schede da stampare primavera infanzia",
+    "schede da stampare per bambini di 5 anni",
+    "schede da stampare per bambini",
+    "schede da stampare pregrafismo",
+    "schede da stampare pasqua",
+    "schede da stampare per bambini autistici",
+    "schede da stampare prima elementare italiano",
+    "schede da stampare prima elementare matematica",
+    "schede da stampare per la festa della mamma"
+   ]
+  },
+  "schede da stampare q": {
+   "cls": "alphabet",
+   "s": [
+    "schede da stampare quinta verifiche di geografia regioni",
+    "schede da stampare quinta elementare",
+    "schede da stampare quarta elementare",
+    "schede da stampare matematica quarta elementare",
+    "schede da stampare aggettivi qualificativi",
+    "schede da stampare con cu qu cqu",
+    "schede da stampare sulle frazioni quarta elementare",
+    "schede coding da stampare classe quarta",
+    "schede didattiche da stampare classe quinta",
+    "schede da stampare di matematica classe quarta"
+   ]
+  },
+  "schede da stampare r": {
+   "cls": "alphabet",
+   "s": [
+    "schede da stampare e ritagliare",
+    "ritmi schede da stampare",
+    "schede ricette da stampare",
+    "schede tabelline da stampare senza risultato",
+    "schede di religione da stampare",
+    "schede monete euro da stampare e ritagliare",
+    "schede sul riciclo da stampare",
+    "schede da stampare quinta verifiche di geografia regioni",
+    "schede regole infanzia da stampare",
+    "schede di religione da stampare natale"
+   ]
+  },
+  "schede da stampare s": {
+   "cls": "alphabet",
+   "s": [
+    "schede da stampare sulla primavera",
+    "schede da stampare sulla giornata della terra",
+    "schede da stampare sulle emozioni",
+    "schede da stampare sopra sotto",
+    "schede da stampare sull orologio classe seconda",
+    "schede da stampare seconda elementare",
+    "schede da stampare scuola primaria",
+    "schede da stampare sui diritti dei bambini",
+    "schede da stampare sulle doppie",
+    "schede da stampare sillabe"
+   ]
+  },
+  "schede da stampare t": {
+   "cls": "alphabet",
+   "s": [
+    "schede da stampare tabelline",
+    "schede da stampare terza elementare",
+    "schede da stampare tabellina del 4",
+    "schede da stampare trova le differenze",
+    "schede da stampare tombola",
+    "schede da stampare tabellina del 2",
+    "schede da stampare matematica terza elementare",
+    "schede da stampare concetti topologici",
+    "schede da stampare classe terza",
+    "schede da stampare italiano terza elementare"
+   ]
+  },
+  "schede da stampare u": {
+   "cls": "alphabet",
+   "s": [
+    "schede da stampare sul corpo umano per bambini",
+    "schede da stampare maggiore minore uguale",
+    "schede unicorno da stampare",
+    "schede make up da stampare",
+    "maggiore minore uguale schede da stampare classe prima",
+    "unisci i puntini schede da stampare",
+    "maggiore minore uguale schede da stampare fantavolando"
+   ]
+  },
+  "schede da stampare v": {
+   "cls": "alphabet",
+   "s": [
+    "schede da stampare vocali",
+    "schede da stampare vicino lontano",
+    "schede da stampare quinta verifiche di geografia regioni",
+    "schede da stampare sui verbi essere e avere",
+    "schede da stampare esseri viventi e non viventi",
+    "schede da stampare sui verbi",
+    "schede grammatica terza elementare da stampare verbi",
+    "da stampare verifiche schede di matematica classe seconda",
+    "schede didattiche prima elementare da stampare vocali",
+    "schede attenzione visiva da stampare"
+   ]
+  },
+  "schede da stampare w": {
+   "cls": "alphabet",
+   "s": [
+    "wordwall schede da stampare"
+   ]
   }
  },
  "unique": [
   "abaco decine e unità da stampare",
+  "abbigliamento schede",
+  "abbigliamento schede didattiche",
+  "abbigliamento schede didattiche vestiti italiano",
   "abbina le ombre",
   "abbina le ombre gioco",
   "abbina le ombre montessori",
@@ -1701,6 +3077,7 @@
   "abbinamento marrone",
   "abbinamento nero e marrone",
   "abbinamento tortora e grigio",
+  "accessori per schede elettroniche",
   "addizione",
   "addizione classe prima",
   "addizione classe prima elementare",
@@ -1738,6 +3115,9 @@
   "addizioni sulla linea dei numeri classe seconda",
   "addizioni sulla linea dei numeri prima elementare",
   "addizioni sulla linea dei numeri schede",
+  "al supermercato schede didattiche",
+  "alberi 101 schede",
+  "alberi schede",
   "anagrammi",
   "anagrammi classe prima",
   "anagrammi classe prima wordwall",
@@ -1756,8 +3136,22 @@
   "anagrammi schede didattiche",
   "anagrammi significato",
   "anagrammi wordwall",
+  "animali della fattoria in inglese schede",
+  "animali della fattoria schede",
+  "animali della fattoria schede didattiche",
+  "animali domestici in inglese schede",
+  "animali domestici schede didattiche",
+  "animali schede",
+  "animali schede didattiche",
+  "animali schede didattiche inglese",
+  "animali schede inglese",
+  "animali schede per bambini",
+  "animali selvatici e domestici schede didattiche",
   "attività di matematica scuola dell infanzia",
   "attività forme geometriche scuola dell infanzia",
+  "attività schede",
+  "attività schede autismo",
+  "attività schede figure geometriche scuola primaria",
   "bicchiere grande o piccolo per il vino",
   "biglietti caccia al tesoro da stampare",
   "bingo",
@@ -1833,6 +3227,16 @@
   "christmas bingo da stampare",
   "classe quinta tabella dei grandi numeri scuola primaria",
   "classificare per categorie",
+  "colori schede",
+  "colori schede didattiche",
+  "colori schede elettorali",
+  "colori schede elettorali 2025",
+  "colori schede elettorali referendum",
+  "colori schede elettorali referendum 2026",
+  "colori schede referendum",
+  "colori schede referendum 2025",
+  "colori schede referendum 8 9 giugno",
+  "colori schede referendum giugno 2025",
   "come presentare la linea dei numeri in prima elementare",
   "come spiegare la linea dei numeri in prima elementare",
   "confronto di grandezze",
@@ -1925,6 +3329,8 @@
   "cruciverba schede didattiche",
   "cruciverba sillabico classe seconda",
   "cruciverba treccani",
+  "da stampare schede didattiche orologio maestra mary",
+  "da stampare verifiche schede di matematica classe seconda",
   "dati grafici e tabelle",
   "decine e unità",
   "decine e unità classe prima",
@@ -1950,6 +3356,11 @@
   "di matematica prima elementare",
   "di più o di meno schede didattiche",
   "diario misurazione pressione da stampare",
+  "dinosauri schede",
+  "dinosauri schede classe terza",
+  "dinosauri schede didattiche",
+  "dinosauri schede didattiche per bambini",
+  "dinosauri schede didattiche scuola primaria",
   "discriminazione visiva",
   "discriminazione visiva ae",
   "discriminazione visiva autismo",
@@ -1962,6 +3373,13 @@
   "discriminazione visiva wordwall",
   "divisioni sulla linea dei numeri classe seconda",
   "domino frazioni da stampare",
+  "emozioni schede",
+  "emozioni schede autismo",
+  "emozioni schede da colorare",
+  "emozioni schede didattiche",
+  "emozioni schede didattiche scuola primaria",
+  "emozioni schede infanzia",
+  "emozioni schede per bambini",
   "esercizi addizione prima elementare",
   "esercizi da stampare",
   "esercizi da stampare inglese",
@@ -1976,15 +3394,66 @@
   "esercizi decine e unità classe seconda",
   "esercizi decine e unità da stampare",
   "esercizi decine e unità prima elementare",
+  "esercizi di consolidamento matematica classe prima",
+  "esercizi di consolidamento matematica classe seconda",
+  "esercizi di logica matematica classe prima",
+  "esercizi di logica matematica classe seconda",
+  "esercizi di logica matematica classe seconda primaria",
+  "esercizi di logica matematica prima elementare",
+  "esercizi di matematica classe 4 primaria",
+  "esercizi di matematica classe prima",
+  "esercizi di matematica classe prima elementare",
+  "esercizi di matematica classe prima elementare da stampare",
+  "esercizi di matematica classe prima media",
+  "esercizi di matematica classe prima primaria",
+  "esercizi di matematica classe seconda",
+  "esercizi di matematica classe seconda elementare",
+  "esercizi di matematica classe seconda elementare da stampare",
+  "esercizi di matematica classe seconda media",
+  "esercizi di matematica classe seconda primaria",
+  "esercizi di matematica classe terza primaria",
+  "esercizi di matematica prima elementare",
+  "esercizi di matematica prima elementare da stampare",
+  "esercizi di matematica prima elementare da stampare gratis",
+  "esercizi di matematica prima elementare online",
+  "esercizi di matematica prima elementare pdf",
+  "esercizi di matematica prima elementare sostegno",
+  "esercizi di matematica prima elementare wordwall",
+  "esercizi di matematica sottrazioni prima elementare",
   "esercizi forme geometriche prima elementare",
   "esercizi frazioni da stampare",
+  "esercizi interattivi di matematica classe seconda primaria",
   "esercizi linea dei numeri prima elementare",
   "esercizi logica visiva",
+  "esercizi online",
+  "esercizi online analisi del periodo",
+  "esercizi online analisi logica",
+  "esercizi online classe prima italiano",
+  "esercizi online di grammatica",
+  "esercizi online di grammatica classe seconda primaria",
+  "esercizi online di italiano",
+  "esercizi online di matematica classe seconda primaria",
+  "esercizi online inglese",
+  "esercizi online matematica classe prima",
+  "esercizi online matematica classe seconda",
+  "esercizi online present perfect simple e continuous",
+  "esercizi online present simple",
+  "esercizi online present simple e continuous",
+  "esercizi online sui verbi",
   "esercizi sottrazione prima elementare",
   "esercizi sulla linea dei numeri classe prima",
   "esercizi sulla linea dei numeri classe seconda",
   "espressioni con frazioni classe seconda media",
+  "estate schede",
+  "estate schede da colorare",
+  "estate schede didattiche",
+  "estate schede didattiche scuola infanzia",
+  "estate schede infanzia",
+  "festa degli alberi schede da colorare",
+  "festa degli alberi schede didattiche",
   "filastrocca forme geometriche classe prima",
+  "fiori schede",
+  "fiori schede didattiche",
   "forme geometriche",
   "forme geometriche 3d",
   "forme geometriche 3d da stampare",
@@ -2018,6 +3487,7 @@
   "forme geometriche scuola infanzia",
   "forme geometriche solide",
   "forme geometriche solide da stampare",
+  "forme schede didattiche",
   "frazioni",
   "frazioni algebriche",
   "frazioni algebriche esercizi",
@@ -2028,12 +3498,12 @@
   "frazioni classe seconda",
   "frazioni classe terza primaria schede",
   "frazioni classe terza primaria wordwall",
-  "frazioni complementari",
   "frazioni da stampare",
   "frazioni decimali",
   "frazioni decimali da stampare",
   "frazioni decimali scuola primaria",
   "frazioni equivalenti",
+  "frazioni equivalenti esempi",
   "frazioni improprie",
   "frazioni prima elementare",
   "frazioni primaria classe terza",
@@ -2049,12 +3519,34 @@
   "frazioni schede semplificate",
   "frazioni schede terza elementare",
   "frazioni sulla linea dei numeri schede",
+  "frutta schede",
+  "frutta schede didattiche",
+  "geografia indicatori spaziali classe prima",
+  "giocattoli in inglese schede didattiche",
   "giochi di logica visiva",
+  "giochi didattici online",
+  "giochi didattici online classe prima",
+  "giochi didattici online classe seconda",
+  "giochi didattici online gratis",
+  "giochi didattici online gratis wordwall",
+  "giochi didattici online inglese",
+  "giochi didattici online italiano",
+  "giochi didattici online italiano classe prima",
+  "giochi didattici online matematica",
+  "giochi didattici online per bambini",
+  "giochi didattici online scuola dell infanzia",
+  "giochi didattici online scuola infanzia",
+  "giochi didattici online scuola primaria",
+  "giochi didattici online wordwall",
   "giochi frazioni da stampare",
   "giochi sottrazione classe seconda",
+  "giochi su indicatori spaziali classe prima",
   "gioco trova e conta",
+  "giornata degli alberi schede",
+  "gli alberi schede didattiche",
   "gli oggetti classe prima",
   "gli oggetti prima elementare",
+  "gli uccelli schede didattiche",
   "grafici e dati",
   "grande o piccolo",
   "grande o piccolo baby montessori",
@@ -2063,6 +3555,8 @@
   "grande o piccolo nel bridge",
   "grande o piccolo nel bridge cruciverba",
   "grande o piccolo pevero",
+  "il giorno del ringraziamento schede didattiche",
+  "il meteo schede didattiche",
   "il treno dell alfabeto canzone",
   "immagini scuola dell infanzia",
   "immagini scuola dell infanzia bambini",
@@ -2071,10 +3565,17 @@
   "imparare a leggere l orologio classe seconda",
   "indicatori spaziali",
   "indicatori spaziali classe prima",
+  "indicatori spaziali classe prima matematica",
   "indicatori spaziali classe prima schede",
+  "indicatori spaziali classe prima wordwall",
+  "indicatori spaziali classe quinta primaria",
+  "indicatori spaziali classe seconda",
+  "indicatori spaziali classe seconda geografia",
+  "indicatori spaziali classe seconda primaria",
   "indicatori spaziali cosa sono",
   "indicatori spaziali esempi",
   "indicatori spaziali in inglese",
+  "indicatori spaziali prima elementare",
   "indicatori spaziali primaria",
   "indicatori spaziali quali sono",
   "indicatori spaziali schede",
@@ -2094,6 +3595,21 @@
   "indovina la parola storia",
   "insegnare a leggere l orologio ai bambini schede",
   "insegnare a leggere l orologio classe seconda",
+  "inverno schede",
+  "inverno schede da colorare",
+  "inverno schede da colorare infanzia",
+  "inverno schede didattiche",
+  "inverno schede didattiche scuola infanzia",
+  "inverno schede didattiche scuola primaria classe prima",
+  "inverno schede infanzia",
+  "italiano classe prima schede",
+  "italiano classe prima schede didattiche",
+  "italiano classe seconda elementare schede didattiche",
+  "italiano classe seconda schede",
+  "italiano classe seconda schede didattiche",
+  "italiano prima elementare schede",
+  "italiano prima elementare schede didattiche",
+  "klimt schede didattiche",
   "l addizione classe prima elementare",
   "l addizione prima elementare",
   "l intruso classe prima",
@@ -2116,8 +3632,10 @@
   "laboratorio forme geometriche scuola dell infanzia",
   "lapbook frazioni da stampare",
   "lavori sulle forme geometriche scuola dell infanzia",
+  "le 4 operazioni schede da stampare",
   "le forme geometriche classe prima maestra mihaela",
   "le frazioni classe prima media",
+  "le parti del corpo schede per bambini",
   "le preposizioni classe quinta primaria",
   "leggere l orologio classe seconda primaria",
   "leggere l orologio classe seconda schede didattiche",
@@ -2162,11 +3680,30 @@
   "linea dei numeri prima elementare",
   "linea dei numeri prima elementare da stampare",
   "linea dei numeri schede didattiche",
+  "lo spazio schede didattiche",
   "logica visiva",
   "logica visiva mininterno",
   "logica visiva test",
+  "maggiore minore uguale schede da stampare classe prima",
+  "maggiore minore uguale schede da stampare fantavolando",
   "mappa caccia al tesoro da stampare",
+  "matematica classe prima primaria schede didattiche",
+  "matematica classe prima schede",
+  "matematica classe prima schede da stampare",
+  "matematica classe prima schede didattiche",
+  "matematica classe seconda elementare schede didattiche",
+  "matematica classe seconda primaria schede",
+  "matematica classe seconda schede",
+  "matematica classe seconda schede da stampare",
+  "matematica classe seconda schede didattiche",
+  "matematica classe seconda schede didattiche miste",
+  "matematica prima elementare schede",
+  "matematica prima elementare schede didattiche",
   "memory forme geometriche da stampare",
+  "mestieri e professioni schede didattiche",
+  "meteo in francese schede",
+  "meteo in inglese schede didattiche",
+  "meteo schede",
   "misurazione",
   "misurazione decibel",
   "misurazione del tempo classe seconda",
@@ -2178,13 +3715,49 @@
   "misurazione pressione oculare",
   "misurazione ufficiale",
   "misurazione velocità internet",
+  "mobili in inglese schede",
   "moltiplicazioni sulla linea dei numeri classe seconda",
   "moltiplicazioni sulla linea dei numeri schede",
   "muretto delle frazioni da stampare",
+  "musica schede",
+  "musica schede autismo",
+  "musica schede bambini",
+  "musica schede classe prima",
+  "musica schede classe seconda",
+  "musica schede didattiche",
+  "musica schede didattiche classe terza",
+  "musica schede didattiche scuola primaria",
+  "musica schede prima elementare",
+  "musica schede scuola primaria",
+  "natale schede",
+  "natale schede bambini",
+  "natale schede da colorare",
+  "natale schede didattiche",
+  "natale schede didattiche infanzia",
+  "natale schede didattiche inglese",
+  "natale schede didattiche scuola primaria",
+  "natale schede infanzia",
+  "natale schede inglese",
+  "offerte schede mobili",
   "oggetti scuola dell'infanzia",
   "ordina cronologicamente le immagini",
   "ordina le immagini",
+  "orientarsi nello spazio schede di geografia",
   "orologio per imparare a leggere l ora da stampare",
+  "parti del corpo in inglese schede",
+  "parti del corpo in inglese schede da stampare",
+  "parti del corpo in spagnolo schede didattiche",
+  "parti del corpo schede",
+  "parti del corpo schede didattiche",
+  "parti del corpo schede didattiche inglese",
+  "pasqua schede",
+  "pasqua schede da colorare",
+  "pasqua schede didattiche",
+  "pasqua schede didattiche infanzia",
+  "pasqua schede didattiche scuola primaria",
+  "pasqua schede infanzia",
+  "pasqua schede inglese",
+  "pasqua schede primaria",
   "pezzi mancanti",
   "pezzi mancanti ikea",
   "pezzi mancanti lego",
@@ -2236,6 +3809,13 @@
   "preposizioni semplici scuola primaria classe terza",
   "prima elementare linea dei numeri da costruire",
   "prima elementare quadretto grande o piccolo",
+  "primavera schede",
+  "primavera schede da colorare",
+  "primavera schede da colorare per bambini",
+  "primavera schede didattiche",
+  "primavera schede didattiche scuola primaria",
+  "primavera schede infanzia",
+  "primavera schede primaria",
   "problema sottrazione classe seconda",
   "problemi addizione classe prima",
   "problemi addizione classe seconda",
@@ -2261,7 +3841,10 @@
   "racconto sulle forme geometriche scuola dell infanzia",
   "regola della sottrazione prima elementare",
   "ripasso decine e unità classe seconda",
+  "ritmi e sequenze prima elementare",
+  "ritmi schede da stampare",
   "salti sulla linea dei numeri classe prima",
+  "saremo alberi schede didattiche",
   "scheda di logica scuola dell infanzia",
   "scheda di matematica",
   "scheda di matematica 4 elementare",
@@ -2279,6 +3862,13 @@
   "scheda didattica di matematica classe prima",
   "scheda didattica di matematica classe seconda",
   "scheda sottrazione prima elementare",
+  "schede abbigliamento in francese",
+  "schede abbigliamento inglese",
+  "schede abbigliamento inglese scuola primaria",
+  "schede abbigliamento invernale",
+  "schede abbigliamento invernale infanzia",
+  "schede abbigliamento invernale scuola infanzia",
+  "schede abbigliamento scuola primaria",
   "schede abbinamento",
   "schede abbinamento autismo",
   "schede abbinamento cibo vino",
@@ -2291,29 +3881,269 @@
   "schede addizione ripetuta",
   "schede addizione ripetuta classe seconda",
   "schede addizione seconda elementare",
+  "schede alberi da colorare",
+  "schede alberi pdf",
+  "schede alberi scuola primaria",
+  "schede animali da stampare",
+  "schede animali domestici",
+  "schede animali erbivori carnivori onnivori",
+  "schede animali in inglese da stampare",
+  "schede animali in letargo scuola infanzia",
+  "schede animali scuola primaria",
+  "schede attenzione visiva da stampare",
+  "schede attività alternativa classe prima",
+  "schede attività alternativa classe quarta",
+  "schede attività alternativa classe seconda",
+  "schede attività bambini",
+  "schede attività bambini 3 anni",
+  "schede attività bambini 4 anni",
+  "schede attività bambini 5 anni",
+  "schede attrezzi palestra",
+  "schede autunno infanzia da stampare fantavolando",
+  "schede autunno scienze classe prima",
   "schede bingo da stampare",
   "schede caccia al tesoro",
+  "schede cluedo junior da stampare",
+  "schede coding da stampare classe quarta",
+  "schede cognitive da stampare bambini",
+  "schede cognitive da stampare gratis",
   "schede confronto tra numeri",
   "schede cruciverba con le doppie",
   "schede cruciverba per bambini",
   "schede cruciverba scuola primaria",
   "schede da stampare",
+  "schede da stampare accoglienza infanzia",
+  "schede da stampare addizioni prima elementare",
+  "schede da stampare aggettivi qualificativi",
+  "schede da stampare alfabeto",
+  "schede da stampare animali",
+  "schede da stampare articoli determinativi e indeterminativi",
+  "schede da stampare asilo",
+  "schede da stampare autismo",
+  "schede da stampare autunno",
+  "schede da stampare autunno scuola infanzia",
+  "schede da stampare bambini",
+  "schede da stampare bambini 3 anni",
+  "schede da stampare bambini 4 anni",
+  "schede da stampare bambini 5 anni",
+  "schede da stampare caa",
+  "schede da stampare calzini spaiati",
+  "schede da stampare carnevale",
+  "schede da stampare classe prima italiano",
+  "schede da stampare classe prima matematica",
+  "schede da stampare classe seconda",
+  "schede da stampare classe terza",
+  "schede da stampare con chi che ghi ghe",
+  "schede da stampare con cu qu cqu",
+  "schede da stampare con le doppie",
+  "schede da stampare con le tabelline",
+  "schede da stampare concetti topologici",
+  "schede da stampare dentro fuori",
+  "schede da stampare destra e sinistra",
+  "schede da stampare di halloween",
+  "schede da stampare di hello kitty",
+  "schede da stampare di inglese",
   "schede da stampare di italiano",
+  "schede da stampare di matematica",
+  "schede da stampare di matematica classe quarta",
+  "schede da stampare di matematica prima elementare",
+  "schede da stampare di natale",
+  "schede da stampare di pasqua",
+  "schede da stampare di pregrafismo",
+  "schede da stampare di stitch",
   "schede da stampare e colorare",
+  "schede da stampare e colorare di natale",
+  "schede da stampare e colorare di stitch",
+  "schede da stampare e colorare per bambini",
+  "schede da stampare e ritagliare",
+  "schede da stampare elementari",
+  "schede da stampare esseri viventi e non viventi",
+  "schede da stampare festa dei nonni",
+  "schede da stampare festa del papà",
   "schede da stampare festa della mamma",
+  "schede da stampare frazioni",
+  "schede da stampare geografia prima elementare",
+  "schede da stampare giornata della terra",
+  "schede da stampare giorni della settimana",
+  "schede da stampare grammatica",
+  "schede da stampare grammatica schede italiano terza elementare",
+  "schede da stampare gratis",
+  "schede da stampare halloween",
+  "schede da stampare i giorni della merla",
+  "schede da stampare infanzia",
+  "schede da stampare inglese",
+  "schede da stampare inglese prima elementare",
+  "schede da stampare inglese seconda elementare",
+  "schede da stampare inverno",
+  "schede da stampare italiano",
+  "schede da stampare italiano classe prima",
+  "schede da stampare italiano prima elementare",
+  "schede da stampare italiano seconda elementare",
+  "schede da stampare italiano terza elementare",
+  "schede da stampare lettere",
   "schede da stampare lettura parole bisillabe e trisillabe",
+  "schede da stampare maggiore minore uguale",
+  "schede da stampare matematica",
+  "schede da stampare matematica classe prima",
+  "schede da stampare matematica classe seconda",
+  "schede da stampare matematica classe terza",
   "schede da stampare matematica prima elementare",
+  "schede da stampare matematica quarta elementare",
+  "schede da stampare matematica seconda elementare",
+  "schede da stampare matematica terza elementare",
+  "schede da stampare motricità fine",
+  "schede da stampare natale",
+  "schede da stampare numeri",
+  "schede da stampare orologio",
+  "schede da stampare orologio in inglese",
   "schede da stampare pasqua",
+  "schede da stampare per bambini",
+  "schede da stampare per bambini autistici",
+  "schede da stampare per bambini di 5 anni",
+  "schede da stampare per bambini di 6 anni",
+  "schede da stampare per bambini di prima elementare",
+  "schede da stampare per bambini scuola dell infanzia",
+  "schede da stampare per imparare l'orologio",
+  "schede da stampare per la festa dei nonni",
+  "schede da stampare per la festa del papà",
+  "schede da stampare per la festa della mamma",
+  "schede da stampare per la prima elementare",
+  "schede da stampare pregrafismo",
   "schede da stampare prima elementare",
+  "schede da stampare prima elementare italiano",
+  "schede da stampare prima elementare matematica",
   "schede da stampare primavera infanzia",
+  "schede da stampare quarta elementare",
+  "schede da stampare quinta elementare",
+  "schede da stampare quinta verifiche di geografia regioni",
+  "schede da stampare scuola primaria",
+  "schede da stampare seconda elementare",
+  "schede da stampare sillabe",
+  "schede da stampare sopra sotto",
+  "schede da stampare sui diritti dei bambini",
+  "schede da stampare sui nomi",
+  "schede da stampare sui verbi",
+  "schede da stampare sui verbi essere e avere",
+  "schede da stampare sul corpo umano per bambini",
+  "schede da stampare sull orologio classe seconda",
+  "schede da stampare sulla giornata della terra",
   "schede da stampare sulla primavera",
+  "schede da stampare sulle doppie",
+  "schede da stampare sulle emozioni",
+  "schede da stampare sulle frazioni classe terza",
+  "schede da stampare sulle frazioni quarta elementare",
+  "schede da stampare tabellina del 2",
+  "schede da stampare tabellina del 4",
+  "schede da stampare tabelline",
+  "schede da stampare terza elementare",
+  "schede da stampare tombola",
+  "schede da stampare trova le differenze",
+  "schede da stampare vicino lontano",
+  "schede da stampare vocali",
   "schede decine e unità classe seconda",
   "schede decine e unità prima elementare",
+  "schede di carnevale italiano classe seconda",
+  "schede di halloween da stampare e colorare",
+  "schede di italiano classe prima",
+  "schede di italiano classe prima elementare",
+  "schede di italiano classe prima elementare da stampare",
+  "schede di italiano classe prima fantavolando",
+  "schede di italiano classe seconda",
+  "schede di italiano classe seconda elementare da stampare",
+  "schede di italiano classe seconda primaria",
+  "schede di italiano e matematica per la prima elementare",
+  "schede di italiano prima elementare",
+  "schede di italiano prima elementare da stampare",
+  "schede di italiano prima elementare pdf",
+  "schede di italiano prima elementare sostegno",
+  "schede di logica classe prima elementare",
+  "schede di logica classe seconda primaria",
+  "schede di logica scuola dell'infanzia",
+  "schede di logico matematica per la scuola dell infanzia",
+  "schede di matematica classe prima",
+  "schede di matematica classe prima da stampare",
+  "schede di matematica classe prima da stampare pdf",
+  "schede di matematica classe prima elementare",
+  "schede di matematica classe prima elementare da stampare",
+  "schede di matematica classe prima fantavolando",
+  "schede di matematica classe prima halloween",
+  "schede di matematica classe prima ordine crescente e decrescente",
+  "schede di matematica classe prima scuola primaria",
+  "schede di matematica classe prima sul carnevale",
+  "schede di matematica classe seconda",
+  "schede di matematica classe seconda accoglienza",
+  "schede di matematica classe seconda addizioni in colonna",
+  "schede di matematica classe seconda da stampare",
+  "schede di matematica classe seconda elementare",
+  "schede di matematica classe seconda elementare da stampare",
+  "schede di matematica classe seconda fantavolando",
+  "schede di matematica classe seconda halloween",
+  "schede di matematica classe seconda natale",
+  "schede di matematica classe seconda operazioni in colonna",
+  "schede di matematica prima elementare",
+  "schede di matematica prima elementare addizioni",
+  "schede di matematica prima elementare addizioni e sottrazioni",
+  "schede di matematica prima elementare da stampare",
+  "schede di matematica prima elementare natale",
+  "schede di matematica prima elementare pdf",
+  "schede di matematica prima elementare precedente e successivo",
+  "schede di matematica prima elementare primi giorni",
+  "schede di matematica prima elementare sostegno",
+  "schede di matematica prima elementare sottrazioni",
   "schede di matematica scuola dell infanzia",
+  "schede di natale italiano classe prima",
+  "schede di natale italiano classe seconda",
+  "schede di ortografia da stampare",
+  "schede di recupero italiano classe seconda",
+  "schede di religione da stampare",
+  "schede di religione da stampare natale",
+  "schede di rinforzo italiano classe prima",
+  "schede di ripasso italiano classe prima",
+  "schede di ripasso italiano classe seconda",
+  "schede di scienze classe prima",
+  "schede di scienze classe prima esseri viventi e non viventi",
+  "schede di scienze classe seconda da stampare",
+  "schede di scienze classe seconda elementare",
+  "schede di verifica italiano classe prima",
+  "schede di verifica italiano classe seconda elementare",
+  "schede di verifica italiano prima elementare",
   "schede didattiche",
+  "schede didattiche aggettivi qualificativi",
+  "schede didattiche aggettivi qualificativi classe seconda",
+  "schede didattiche alfabeto da stampare",
+  "schede didattiche api",
+  "schede didattiche api scuola infanzia",
+  "schede didattiche apparato digerente scuola primaria",
+  "schede didattiche apparato riproduttore scuola primaria",
+  "schede didattiche arte preistorica scuola primaria",
+  "schede didattiche autismo",
+  "schede didattiche autismo da stampare",
+  "schede didattiche b",
+  "schede didattiche ba be bi bo bu",
+  "schede didattiche bambini",
+  "schede didattiche bambini 2 anni da stampare",
+  "schede didattiche bambini 3 anni",
+  "schede didattiche bambini 4 anni",
+  "schede didattiche bambini 5 anni",
+  "schede didattiche bambini autistici",
+  "schede didattiche bes",
+  "schede didattiche bing",
+  "schede didattiche cantico delle creature per bambini scuola primaria",
+  "schede didattiche che chi ghe ghi",
+  "schede didattiche cia cio ciu",
+  "schede didattiche classe prima",
+  "schede didattiche classe prima italiano",
+  "schede didattiche classe prima matematica",
+  "schede didattiche classe seconda italiano",
+  "schede didattiche classe seconda matematica",
+  "schede didattiche comprensione del testo scuola primaria",
+  "schede didattiche consonante z",
+  "schede didattiche corpo umano scuola infanzia",
+  "schede didattiche da colorare",
   "schede didattiche da stampare",
   "schede didattiche da stampare 5 elementare",
   "schede didattiche da stampare autismo",
+  "schede didattiche da stampare classe quinta",
   "schede didattiche da stampare gratis",
   "schede didattiche da stampare infanzia",
   "schede didattiche da stampare italiano",
@@ -2321,35 +4151,342 @@
   "schede didattiche da stampare pdf",
   "schede didattiche da stampare prima elementare",
   "schede didattiche da stampare seconda elementare",
+  "schede didattiche di francese per bambini da stampare",
   "schede didattiche di francese per sostegno pdf",
+  "schede didattiche di geografia per stranieri",
+  "schede didattiche di italiano classe prima",
+  "schede didattiche di italiano classe seconda primaria",
+  "schede didattiche di matematica",
+  "schede didattiche di pasqua",
+  "schede didattiche do you like scuola primaria",
+  "schede didattiche doppie",
+  "schede didattiche e risorse didattiche per la scuola primaria",
+  "schede didattiche educazione fisica scuola media",
+  "schede didattiche educazione motoria scuola primaria",
+  "schede didattiche elementari",
+  "schede didattiche estate",
+  "schede didattiche estate scuola infanzia",
+  "schede didattiche euro",
+  "schede didattiche euro pdf",
+  "schede didattiche euro scuola primaria",
+  "schede didattiche europa scuola primaria",
+  "schede didattiche festa della mamma",
+  "schede didattiche festa della mamma scuola infanzia",
+  "schede didattiche festa della repubblica",
+  "schede didattiche fine anno scuola primaria",
+  "schede didattiche forme geometriche",
+  "schede didattiche francese",
+  "schede didattiche francese sostegno",
+  "schede didattiche frase minima",
+  "schede didattiche frase minima con immagini",
+  "schede didattiche frazioni",
+  "schede didattiche frida kahlo",
+  "schede didattiche gandhi spiegato ai bambini scuola primaria",
+  "schede didattiche geografia classe prima",
+  "schede didattiche geografia classe seconda",
+  "schede didattiche geografia classe terza",
+  "schede didattiche giornata della terra",
+  "schede didattiche giornata delle api",
+  "schede didattiche giorni della settimana",
+  "schede didattiche giorno e notte scuola infanzia",
+  "schede didattiche gli",
+  "schede didattiche gn",
+  "schede didattiche h",
+  "schede didattiche h classe seconda",
+  "schede didattiche h si h no",
+  "schede didattiche halloween da stampare",
+  "schede didattiche hanno anno",
+  "schede didattiche happy easter",
+  "schede didattiche harry potter",
+  "schede didattiche have got",
+  "schede didattiche ho hai ha hanno",
+  "schede didattiche homo sapiens",
+  "schede didattiche homo sapiens classe terza",
+  "schede didattiche infanzia",
+  "schede didattiche infanzia 5 anni",
   "schede didattiche infanzia da stampare",
+  "schede didattiche inglese",
+  "schede didattiche inglese da stampare",
+  "schede didattiche inglese pdf",
+  "schede didattiche inglese scuola primaria",
+  "schede didattiche inglese union jack",
+  "schede didattiche inglese where are you from",
   "schede didattiche italiano",
+  "schede didattiche italiano classe seconda da stampare",
+  "schede didattiche italiano di lettura e comprensione classe prima elementare",
+  "schede didattiche italiano prima elementare",
+  "schede didattiche italiano scuola primaria",
+  "schede didattiche jobs",
+  "schede didattiche jobs inglese",
+  "schede didattiche jobs scuola primaria",
+  "schede didattiche kandinsky",
+  "schede didattiche laboratorio linguistico infanzia",
+  "schede didattiche le parole della primavera",
+  "schede didattiche le stagioni classe prima",
+  "schede didattiche lettera b",
+  "schede didattiche lettera g",
+  "schede didattiche lettera n",
+  "schede didattiche lettera q",
+  "schede didattiche lettera q classe prima",
+  "schede didattiche lettera z",
+  "schede didattiche lettera z classe prima",
+  "schede didattiche lettere",
+  "schede didattiche lettura e comprensione del testo classe terza pdf",
+  "schede didattiche maestra in bluejeans",
   "schede didattiche matematica",
   "schede didattiche matematica classe prima",
+  "schede didattiche matematica classe quarta",
+  "schede didattiche matematica classe seconda",
+  "schede didattiche matematica classe terza",
+  "schede didattiche matematica pdf",
+  "schede didattiche matematica prima elementare",
+  "schede didattiche matematica scuola dell infanzia",
+  "schede didattiche matematica scuola primaria",
+  "schede didattiche matematica seconda elementare",
+  "schede didattiche mp mb",
+  "schede didattiche nomi maschili e femminili",
+  "schede didattiche nomi propri e comuni",
+  "schede didattiche numeri",
+  "schede didattiche numeri da 1 a 10",
+  "schede didattiche numeri decimali",
+  "schede didattiche numeri decimali classe terza",
+  "schede didattiche numeri fino a 10",
+  "schede didattiche numeri fino a 20",
+  "schede didattiche numeri infanzia",
+  "schede didattiche numero 11",
+  "schede didattiche numero zero",
+  "schede didattiche operazioni con numeri decimali",
+  "schede didattiche operazioni inverse classe prima",
+  "schede didattiche orologio",
+  "schede didattiche orologio classe seconda",
+  "schede didattiche orologio da stampare",
+  "schede didattiche orologio in inglese",
   "schede didattiche orologio maestra mary",
+  "schede didattiche orologio pdf",
+  "schede didattiche orologio scuola primaria",
+  "schede didattiche orologio sostegno",
+  "schede didattiche papa leone xiv",
+  "schede didattiche pasqua",
+  "schede didattiche pasqua scuola infanzia",
+  "schede didattiche per bambini autistici da stampare pdf infanzia",
+  "schede didattiche per potenziare l'attenzione",
   "schede didattiche prima elementare",
+  "schede didattiche prima elementare da stampare",
+  "schede didattiche prima elementare da stampare gratis",
+  "schede didattiche prima elementare da stampare pdf",
+  "schede didattiche prima elementare da stampare vocali",
+  "schede didattiche primavera",
   "schede didattiche primavera scuola infanzia",
+  "schede didattiche q",
+  "schede didattiche qu",
+  "schede didattiche qu cu",
+  "schede didattiche qua que qui quo",
+  "schede didattiche quarta elementare",
+  "schede didattiche quarta elementare da stampare",
+  "schede didattiche quinta elementare",
+  "schede didattiche quinta elementare da stampare",
+  "schede didattiche quinta elementare italiano",
+  "schede didattiche quinta elementare matematica",
+  "schede didattiche raccolta differenziata",
+  "schede didattiche raccolta differenziata per bambini schede",
+  "schede didattiche raccolta differenziata scuola infanzia",
+  "schede didattiche regioni italiane",
+  "schede didattiche religione",
+  "schede didattiche religione scuola secondaria secondo grado",
+  "schede didattiche religione sostegno",
+  "schede didattiche risparmio energetico scuola primaria",
+  "schede didattiche ritaglia e incolla",
+  "schede didattiche romani scuola primaria",
+  "schede didattiche scienze classe seconda esseri viventi e non viventi",
+  "schede didattiche scienze classe seconda pdf",
+  "schede didattiche scienze prima elementare",
+  "schede didattiche scuola infanzia",
+  "schede didattiche scuola primaria",
+  "schede didattiche seconda elementare",
+  "schede didattiche sostegno pdf",
+  "schede didattiche spagnolo pdf",
+  "schede didattiche su martin luther king scuola primaria",
+  "schede didattiche sugli animali della fattoria",
+  "schede didattiche sugli animali della fattoria in inglese",
+  "schede didattiche sull'acqua scuola primaria",
+  "schede didattiche sull'h da stampare",
+  "schede didattiche sulla primavera",
+  "schede didattiche sulla primavera scuola infanzia",
+  "schede didattiche sulla primavera scuola primaria",
   "schede didattiche sulle forme geometriche scuola dell infanzia",
+  "schede didattiche sulle vocali da stampare",
+  "schede didattiche sullo zero prima elementare",
+  "schede didattiche tabellina del 2",
+  "schede didattiche tabellina del 3",
+  "schede didattiche tabellina del 6",
+  "schede didattiche tabellina del 7",
+  "schede didattiche tabelline",
+  "schede didattiche tabelline classe seconda",
+  "schede didattiche terza elementare",
+  "schede didattiche terza elementare da stampare",
+  "schede didattiche terza elementare matematica",
+  "schede didattiche toys inglese scuola primaria",
+  "schede didattiche udito classe prima",
+  "schede didattiche ultimo giorno di scuola",
+  "schede didattiche umbria",
+  "schede didattiche umbria scuola primaria",
+  "schede didattiche unire i puntini",
+  "schede didattiche unisci i puntini da 1 a 10",
+  "schede didattiche united kingdom scuola primaria",
+  "schede didattiche unità frazionaria classe terza",
+  "schede didattiche uomo di neanderthal",
+  "schede didattiche uova di pasqua",
+  "schede didattiche uso dell'h",
+  "schede didattiche verbi",
+  "schede didattiche verbi classe seconda",
+  "schede didattiche verbi scuola primaria",
+  "schede didattiche verbo avere",
+  "schede didattiche verbo avere classe seconda",
+  "schede didattiche verbo essere",
+  "schede didattiche verbo essere presente",
+  "schede didattiche vertebrati e invertebrati scuola primaria",
+  "schede didattiche vocali",
+  "schede didattiche vocali pdf",
+  "schede didattiche wall-e",
+  "schede didattiche was were",
+  "schede didattiche weather",
+  "schede didattiche wh questions",
+  "schede didattiche what's the weather like",
+  "schede didattiche where are you from",
+  "schede didattiche winnie the pooh",
+  "schede didattiche wonder",
+  "schede didattiche word",
+  "schede didattiche wordwall",
+  "schede didattiche x bambini autistici",
+  "schede didattiche x bambini di 5 anni",
+  "schede didattiche x fragile",
+  "schede didattiche z",
+  "schede didattiche za ze zi zo zu",
+  "schede didattiche zero",
+  "schede didattiche zone climatiche",
+  "schede didattiche zucca",
+  "schede dinosauri da colorare",
+  "schede dinosauri da stampare",
+  "schede dinosauri pdf",
+  "schede dinosauri scuola infanzia",
+  "schede dinosauri terza elementare",
+  "schede emozioni adolescenti",
+  "schede emozioni bambini pdf",
+  "schede emozioni pdf",
+  "schede estate fantavolando",
+  "schede estate infanzia 3 anni",
+  "schede estate infanzia 5 anni",
+  "schede estate prima elementare",
+  "schede estate scuola infanzia",
+  "schede facilitate italiano classe seconda",
+  "schede fiori da colorare",
+  "schede fiori da stampare",
+  "schede fiori di bach",
+  "schede fiori scuola infanzia",
+  "schede forme",
+  "schede forme e colori scuola infanzia",
+  "schede forme geometriche",
   "schede forme geometriche 3 anni",
   "schede forme geometriche 5 anni",
   "schede forme geometriche autismo",
   "schede forme geometriche classe prima",
   "schede forme geometriche classe seconda",
+  "schede forme geometriche infanzia",
   "schede forme geometriche prima elementare",
+  "schede forme infanzia",
   "schede forme.geometriche scuola dell'infanzia",
   "schede frazioni da stampare",
+  "schede frutta autunnale",
+  "schede frutta autunnale infanzia",
+  "schede frutta e verdura",
+  "schede frutta estiva infanzia",
+  "schede frutta in inglese",
+  "schede frutta invernale scuola infanzia",
+  "schede frutta primavera scuola infanzia",
+  "schede frutta primaverile da colorare",
+  "schede giocattoli in inglese",
+  "schede grammatica terza elementare da stampare verbi",
+  "schede haccp da stampare",
+  "schede halloween italiano classe seconda",
   "schede indicatori spaziali classe seconda",
+  "schede inverno infanzia 3 anni",
+  "schede inverno infanzia 4 anni",
+  "schede inverno scuola infanzia da stampare",
+  "schede italiano classe prima da stampare",
+  "schede italiano classe prima natale",
+  "schede italiano classe prima pdf",
+  "schede italiano classe prima primaria",
+  "schede italiano classe prima sillabe",
+  "schede italiano classe prima sostegno",
+  "schede italiano classe prima stampato maiuscolo",
+  "schede italiano classe prima vocali",
+  "schede italiano classe seconda pdf",
+  "schede italiano classe seconda pianetabambini",
+  "schede italiano classe seconda primaria",
+  "schede italiano classe seconda sostegno",
+  "schede italiano prima elementare autismo",
+  "schede italiano prima elementare da stampare",
+  "schede italiano prima elementare natale",
+  "schede italiano prima elementare pdf",
+  "schede italiano prima elementare pdf gratis",
+  "schede italiano prima elementare sillabe",
+  "schede italiano prima elementare sostegno",
+  "schede italiano prima elementare vocali",
+  "schede kaleidos da stampare",
+  "schede kamishibai da stampare",
   "schede la casa delle decine e delle unità da stampare",
   "schede linea dei numeri classe prima",
   "schede linea dei numeri fino a 20",
   "schede linea dei numeri prima elementare",
+  "schede logica classe prima",
+  "schede logica classe seconda",
+  "schede logica matematica prima elementare",
+  "schede logica prima elementare",
+  "schede make up da stampare",
+  "schede matematica classe prima carnevale",
+  "schede matematica classe prima elementare",
+  "schede matematica classe prima halloween",
+  "schede matematica classe prima natale",
+  "schede matematica classe prima pdf",
+  "schede matematica classe prima primaria",
+  "schede matematica classe seconda carnevale",
+  "schede matematica classe seconda halloween",
+  "schede matematica classe seconda natale",
+  "schede matematica classe seconda primi giorni di scuola",
   "schede matematica decine e unità",
   "schede matematica linea dei numeri",
+  "schede matematica prima elementare addizioni",
+  "schede matematica prima elementare da stampare",
+  "schede matematica prima elementare da stampare gratis",
+  "schede matematica prima elementare numeri fino a 20",
+  "schede matematica prima elementare pdf",
+  "schede matematica prima elementare pdf gratis",
+  "schede matematica prima elementare pdf sostegno",
+  "schede matematica prima elementare scuola primaria",
+  "schede matematica scuola dell infanzia",
+  "schede memory da stampare bianco e nero",
+  "schede meteo inglese",
+  "schede meteo per bambini",
   "schede misurazione angoli",
   "schede misurazione angoli scuola primaria",
   "schede misurazione pressione",
+  "schede mobili",
+  "schede mobili museo",
+  "schede monete euro da stampare e ritagliare",
+  "schede natale infanzia 3 anni",
+  "schede orologio seconda elementare da stampare",
+  "schede parti del corpo autismo",
+  "schede parti del corpo infanzia",
+  "schede parti del corpo prima elementare",
+  "schede pasqua infanzia 3 anni",
+  "schede pasqua infanzia 5 anni",
   "schede per leggere l'orologio",
   "schede più o meno classe prima",
+  "schede pregrafismo da stampare fantavolando",
+  "schede pregrafismo da stampare gratis",
+  "schede pregrafismo da stampare lettere",
+  "schede pregrafismo da stampare numeri",
+  "schede pregrafismo montessori da stampare numeri",
   "schede preposizioni articolate",
   "schede preposizioni di luogo in inglese",
   "schede preposizioni di luogo in inglese esercizi pdf scuola primaria",
@@ -2358,6 +4495,22 @@
   "schede preposizioni semplici",
   "schede preposizioni semplici e articolate",
   "schede preposizioni semplici scuola primaria",
+  "schede prescrittura 5 anni da stampare numeri",
+  "schede primavera infanzia 3 anni",
+  "schede primavera infanzia 3 anni fantavolando",
+  "schede primavera infanzia fantavolando",
+  "schede quaderni operativi autismo da stampare",
+  "schede regole infanzia da stampare",
+  "schede ricette da stampare",
+  "schede scienze classe prima i cinque sensi",
+  "schede scienze classe prima la vista",
+  "schede scienze classe prima le piante",
+  "schede scienze classe prima primaria",
+  "schede scienze classe seconda elementare",
+  "schede scienze classe seconda le piante",
+  "schede scienze prima elementare animali",
+  "schede scienze prima elementare da stampare",
+  "schede scienze prima elementare pdf",
   "schede sottrazione autismo",
   "schede sottrazione classe seconda",
   "schede sottrazione come differenza classe prima",
@@ -2365,9 +4518,31 @@
   "schede sottrazione prima elementare",
   "schede sottrazione seconda elementare",
   "schede sottrazioni linea dei numeri",
+  "schede spazio",
+  "schede spazio tempo prima elementare",
+  "schede spazio tempo scuola infanzia",
+  "schede spazio temporali",
+  "schede sugli animali della fattoria da colorare",
+  "schede sul riciclo da stampare",
+  "schede tabelline da stampare senza risultato",
+  "schede tombola da stampare gratis",
   "schede trova gli oggetti",
+  "schede uccelli",
+  "schede unicorno da stampare",
+  "schede varie",
+  "schede veicoli",
+  "schede verdure",
+  "schede verifica scienze prima elementare",
   "schema preposizioni articolate da stampare",
   "schieramenti e moltiplicazione",
+  "scienze classe prima schede",
+  "scienze classe prima schede didattiche",
+  "scienze classe prima scuola primaria schede didattiche",
+  "scienze classe seconda gli animali schede didattiche",
+  "scienze classe seconda primaria schede didattiche",
+  "scienze classe seconda schede",
+  "scienze classe seconda schede didattiche",
+  "scienze prima elementare schede",
   "scomposizione decine e unità classe prima",
   "scomposizione decine e unità classe seconda",
   "scuola dell infanzia cruciverba",
@@ -2402,6 +4577,7 @@
   "sottrazione tra frazioni",
   "sottrazioni linea dei numeri classe prima",
   "sottrazioni sulla linea dei numeri prima elementare",
+  "spazio scuola primaria schede",
   "spiegare addizione prima elementare",
   "spiegazione addizione classe seconda",
   "spiegazione decine e unità classe prima",
@@ -2463,15 +4639,20 @@
   "trova l'intruso da stampare",
   "trova l'intruso nell'insieme classe prima",
   "trova l'intruso prima elementare",
+  "uccelli schede scuola primaria",
   "uda forme geometriche classe prima",
   "uda sulle forme geometriche scuola dell infanzia",
+  "unisci i puntini schede da stampare",
   "verifica decine e unità classe seconda",
   "verifica forme geometriche classe prima",
   "verifica forme geometriche classe seconda",
   "verifica frazioni classe prima media",
+  "verifica indicatori spaziali classe prima",
+  "verifica indicatori spaziali classe seconda",
   "video forme geometriche classe prima",
   "video sottrazione prima elementare",
   "video su decine e unità prima elementare",
+  "video sugli indicatori spaziali classe prima",
   "vocabolario illustrato",
   "vocabolario illustrato della lingua italiana devoto oli",
   "vocabolario illustrato erickson",
@@ -2487,13 +4668,18 @@
   "wordwall anagrammi prima elementare",
   "wordwall decine e unità classe prima entro il 20",
   "wordwall decine e unità prima elementare",
+  "wordwall esercizi di matematica classe prima",
+  "wordwall esercizi di matematica classe seconda",
   "wordwall forme geometriche classe seconda",
   "wordwall frazioni classe prima",
   "wordwall frazioni classe prima media",
   "wordwall frazioni classe seconda",
   "wordwall frazioni classe seconda media",
   "wordwall grafici e dati",
+  "wordwall indicatori spaziali classe seconda",
+  "wordwall indicatori spaziali prima elementare",
   "wordwall matematica decine e unità classe seconda",
+  "wordwall schede da stampare",
   "wordwall sottrazione classe seconda",
   "wordwall sottrazione prima elementare",
   "wordwall trova l'intruso classe prima"

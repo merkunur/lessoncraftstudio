@@ -1,0 +1,391 @@
+{
+  "$comment": "Demand-keyed SEO overrides authored from docs/SEO/demand-map-pt.md (+ demand-terms-pt.json). Validated by scripts/seo/validate-topic-overrides.js.",
+  "singleAxis": {
+    "addition": {
+      "title": "Continhas de adição para imprimir – grátis (PDF)",
+      "h1": "Continhas de adição para imprimir",
+      "metaDescription": "Continhas de adição com figuras para a educação infantil: some, complete e confira com o gabarito. Jogue online ou baixe o PDF grátis para imprimir."
+    },
+    "subtraction": {
+      "title": "Continhas de subtração para imprimir (PDF)",
+      "h1": "Continhas de subtração para imprimir",
+      "metaDescription": "Atividades de subtração simples com apoio de figuras: continhas de menos para resolver online ou imprimir em PDF grátis, com gabarito para conferir."
+    },
+    "more-less": {
+      "title": "Atividades de mais ou menos para imprimir",
+      "h1": "Atividades de mais ou menos",
+      "metaDescription": "A criança compara grupos de figuras e marca onde tem mais ou menos: noções de quantidade para a educação infantil, online e em PDF grátis."
+    },
+    "big-small": {
+      "title": "Grande ou pequeno – atividades para imprimir",
+      "h1": "Atividades de grande ou pequeno",
+      "metaDescription": "Compare tamanhos com figuras coloridas: a criança identifica o grande e o pequeno em cada grupo. Atividades para imprimir grátis ou jogar online."
+    },
+    "math-puzzle": {
+      "title": "Quebra-cabeça matemático para imprimir – grátis",
+      "h1": "Quebra-cabeça matemático",
+      "metaDescription": "Quebra-cabeças matemáticos que unem continhas e montagem de figuras: resolva as operações para completar a imagem. Online e em PDF grátis, com gabarito."
+    },
+    "math-worksheet": {
+      "title": "Contas de matemática para imprimir – pré-escola",
+      "h1": "Contas de matemática para a pré-escola",
+      "metaDescription": "Contas de matemática para a pré-escola: adição e subtração com números pequenos para resolver online ou imprimir grátis em PDF, com gabarito."
+    },
+    "code-addition": {
+      "title": "Adição com código – jogo de somar para imprimir",
+      "h1": "Adição com código",
+      "metaDescription": "Cada figura vale um número: a criança decifra o código e resolve as somas. Um jeito divertido de treinar adição — online ou em PDF para imprimir grátis."
+    },
+    "sudoku": {
+      "title": "Sudoku infantil para imprimir – com figuras",
+      "h1": "Sudoku infantil com figuras",
+      "metaDescription": "Sudoku ilustrado 4x4 para crianças: complete a grade sem repetir as figuras. Jogue online ou imprima grátis em PDF — raciocínio lógico para a pré-escola."
+    },
+    "cryptogram": {
+      "title": "Criptograma infantil para imprimir – grátis",
+      "h1": "Criptograma infantil",
+      "metaDescription": "Criptogramas para crianças: decifre o código letra por letra e descubra a frase secreta. Para imprimir grátis em PDF ou resolver online, com gabarito."
+    },
+    "picture-path": {
+      "title": "Labirintos para imprimir – educação infantil",
+      "h1": "Labirintos ilustrados",
+      "metaDescription": "Labirintos ilustrados para a educação infantil: trace o caminho certo entre as figuras até a saída. Jogue online ou imprima grátis em PDF."
+    },
+    "treasure-hunt": {
+      "title": "Caça ao tesouro para imprimir – grátis (PDF)",
+      "h1": "Caça ao tesouro no tabuleiro",
+      "metaDescription": "Tabuleiros de caça ao tesouro: a criança percorre o labirinto de figuras até chegar ao baú. Jogue online ou imprima grátis em PDF — atenção e lógica."
+    },
+    "pattern-train": {
+      "title": "Sequências e padrões – atividades para imprimir",
+      "h1": "Sequências e padrões",
+      "metaDescription": "O trem dos padrões: a criança observa a sequência de figuras e descobre o que vem a seguir. Atividades de padrões online e em PDF grátis para imprimir."
+    },
+    "pattern-worksheet": {
+      "title": "Atividade de padrões para imprimir – grátis",
+      "h1": "Atividades de padrões",
+      "metaDescription": "Complete cada sequência de figuras seguindo o padrão: atividades de padrões prontas para resolver online ou imprimir grátis em PDF, com gabarito."
+    },
+    "patterns": {
+      "title": "Padrões e regularidades – atividades (PDF)",
+      "h1": "Padrões e regularidades",
+      "metaDescription": "Atividades de padrões e regularidades: identifique e continue sequências de cores e formas com apoio visual. PDF grátis para imprimir na alfabetização."
+    },
+    "bingo": {
+      "title": "Bingo infantil para imprimir – cartelas grátis",
+      "h1": "Bingo infantil para imprimir",
+      "metaDescription": "Cartelas de bingo com figuras, letras e números para a sala de aula: baixe em PDF, imprima grátis e jogue com a turma. Também dá para jogar online."
+    },
+    "matching": {
+      "title": "Atividades de pareamento para imprimir (PDF)",
+      "h1": "Atividades de pareamento",
+      "metaDescription": "Pareamento de figuras, cores e objetos: a criança liga cada par correspondente. Atividades muito usadas na educação infantil e com alunos com TEA."
+    },
+    "grid-match": {
+      "title": "Pareamento em grade – jogo para imprimir",
+      "h1": "Pareamento em grade",
+      "metaDescription": "Jogo de pareamento em grade: encontre a posição certa de cada figura e complete o tabuleiro. Jogue online ou imprima grátis em PDF, com gabarito."
+    },
+    "shadow-match": {
+      "title": "Pareamento de sombras para imprimir – grátis",
+      "h1": "Pareamento de sombras",
+      "metaDescription": "Ligue cada figura à sua sombra: pareamento de sombras com animais, frutas e objetos. Percepção visual para a educação infantil — PDF grátis e online."
+    },
+    "picture-sort": {
+      "title": "Ordenar e classificar imagens – atividades",
+      "h1": "Ordenar e classificar imagens",
+      "metaDescription": "A criança arrasta e organiza figuras por categoria: atividades de classificar imagens para jogar online ou imprimir grátis em PDF, com gabarito."
+    },
+    "alphabet-train": {
+      "title": "Trem do alfabeto para imprimir – atividades",
+      "h1": "Trem do alfabeto",
+      "metaDescription": "O trenzinho das letras: a criança completa os vagões na ordem do alfabeto. Atividades de alfabetização para jogar online ou imprimir grátis em PDF."
+    },
+    "prepositions": {
+      "title": "Preposições – atividades para imprimir (PDF)",
+      "h1": "Atividades com preposições e posições",
+      "metaDescription": "Em cima, embaixo, dentro, fora: a criança observa a cena e escolhe a posição certa. Noções espaciais para jogar online ou imprimir grátis em PDF."
+    },
+    "word-guess": {
+      "title": "Adivinhe a palavra – jogo educativo infantil",
+      "h1": "Adivinhe a palavra",
+      "metaDescription": "Jogo de adivinhar palavras com dicas de figuras: a criança completa as letras que faltam. Vocabulário e escrita — online e em PDF para imprimir."
+    },
+    "word-scramble": {
+      "title": "Letras embaralhadas para formar palavras (PDF)",
+      "h1": "Letras embaralhadas",
+      "metaDescription": "Desembaralhe as letras e forme a palavra de cada figura: atividades de alfabetização para jogar online ou imprimir grátis em PDF, com gabarito."
+    },
+    "wordsearch": {
+      "title": "Caça-palavras infantil para imprimir – grátis",
+      "h1": "Caça-palavras infantil",
+      "metaDescription": "Caça-palavras infantis com temas de animais, frutas e muito mais: jogue online ou imprima grátis em PDF, com gabarito. Ideal para o 1º ano."
+    },
+    "crossword": {
+      "title": "Palavras cruzadas infantil para imprimir (PDF)",
+      "h1": "Palavras cruzadas infantil",
+      "metaDescription": "Cruzadinhas ilustradas: a criança escreve o nome de cada figura nos quadradinhos. Palavras cruzadas infantis online e em PDF grátis, com gabarito."
+    },
+    "find-and-count": {
+      "title": "Encontre e conte – atividades de contagem",
+      "h1": "Encontre e conte",
+      "metaDescription": "Encontre cada figura na cena e conte quantas aparecem: atividades de contagem para a educação infantil, online e em PDF grátis para imprimir."
+    },
+    "find-objects": {
+      "title": "Encontre os objetos escondidos – para imprimir",
+      "h1": "Encontre os objetos escondidos",
+      "metaDescription": "Cenas cheias de detalhes para procurar e encontrar os objetos escondidos: atenção e percepção visual. Jogue online ou imprima grátis em PDF."
+    },
+    "missing-pieces": {
+      "title": "Peças faltantes – complete a figura (imprimir)",
+      "h1": "Complete a figura: peças faltantes",
+      "metaDescription": "Qual peça completa a figura? A criança observa a imagem e escolhe a parte que falta. Percepção visual — jogue online ou imprima grátis em PDF."
+    },
+    "odd-one-out": {
+      "title": "Qual é o intruso? Atividades para imprimir",
+      "h1": "Qual é o intruso?",
+      "metaDescription": "Ache o intruso em cada grupo de figuras: a criança compara e descobre qual não pertence. Raciocínio lógico — online e em PDF grátis para imprimir."
+    },
+    "chart-count": {
+      "title": "Contagem em gráfico – atividades infantis",
+      "h1": "Contagem em gráfico",
+      "metaDescription": "Conte as figuras e pinte o gráfico de colunas: primeira leitura de gráficos para a educação infantil. Jogue online ou imprima grátis em PDF."
+    },
+    "counting-pictures": {
+      "title": "Números e quantidades – atividades (imprimir)",
+      "h1": "Números e quantidades",
+      "metaDescription": "Conte as figuras e registre o número: atividades de contagem, números e quantidades para a educação infantil, prontas em PDF grátis para imprimir."
+    },
+    "counting-frames": {
+      "title": "Quadro de dez – contagem até 10 (imprimir)",
+      "h1": "Quadro de dez",
+      "metaDescription": "Quadros de dez para contar e completar: a base da contagem até 10 e do cálculo mental na educação infantil. Atividades em PDF grátis para imprimir."
+    },
+    "tally-counting": {
+      "title": "Marcas de contagem – atividades (PDF)",
+      "h1": "Marcas de contagem",
+      "metaDescription": "Registre quantidades com marcas de contagem (risquinhos) e compare os totais: atividades simples de estatística em PDF grátis para imprimir."
+    },
+    "number-charts": {
+      "title": "Quadro numérico para imprimir e completar",
+      "h1": "Quadro numérico para completar",
+      "metaDescription": "Quadros numéricos para preencher os números que faltam: sequência numérica para a educação infantil e o 1º ano, em PDF grátis para imprimir."
+    },
+    "comparing-numbers": {
+      "title": "Comparar números – maior ou menor (atividades)",
+      "h1": "Comparar números: maior ou menor",
+      "metaDescription": "Qual número é maior? Atividades de comparar números naturais com apoio visual para os anos iniciais, em PDF grátis para imprimir e usar na aula."
+    },
+    "comparing-groups": {
+      "title": "Comparar grupos e quantidades – atividades",
+      "h1": "Comparar grupos",
+      "metaDescription": "Compare dois grupos de figuras e diga qual tem mais elementos: noção de quantidade para a educação infantil, em PDF grátis para imprimir."
+    },
+    "comparing-sizes": {
+      "title": "Comparar tamanhos – atividades infantis",
+      "h1": "Comparar tamanhos",
+      "metaDescription": "Maior, menor, mais comprido: atividades de comparar tamanhos com figuras do dia a dia, em PDF grátis para imprimir na educação infantil."
+    },
+    "number-lines": {
+      "title": "Reta numérica para imprimir – atividades",
+      "h1": "Reta numérica",
+      "metaDescription": "Atividades com reta numérica: localize números e conte saltos para somar e subtrair. PDF grátis para imprimir — educação infantil e 1º ano."
+    },
+    "base-ten": {
+      "title": "Valor posicional – atividades para imprimir",
+      "h1": "Valor posicional: dezenas e unidades",
+      "metaDescription": "Dezenas e unidades com blocos ilustrados: atividades de valor posicional para o 1º e o 2º ano do fundamental, em PDF grátis para imprimir."
+    },
+    "telling-time": {
+      "title": "Atividades de relógio e horas para imprimir",
+      "h1": "Aprendendo a ver as horas",
+      "metaDescription": "Relógios de ponteiro para ler e marcar as horas: atividades para aprender a ver as horas do 1º ao 3º ano, em PDF grátis para imprimir."
+    },
+    "fractions": {
+      "title": "Frações – atividades para imprimir (2º/3º ano)",
+      "h1": "Atividades de frações",
+      "metaDescription": "Metades, terços e quartos com figuras divididas: primeiras noções de fração para o 2º e o 3º ano do fundamental, em PDF grátis para imprimir."
+    },
+    "graphing-data": {
+      "title": "Gráficos e tabelas – atividades para imprimir",
+      "h1": "Gráficos e tabelas",
+      "metaDescription": "Leia gráficos simples e organize dados em tabelas: atividades de estatística para os anos iniciais do fundamental, em PDF grátis para imprimir."
+    },
+    "arrays-multiplication": {
+      "title": "Multiplicação para imprimir – 2º e 3º ano",
+      "h1": "Introdução à multiplicação",
+      "metaDescription": "Multiplicação com apoio visual: organize figuras em fileiras e colunas e some os grupos iguais. Atividades para o 2º e o 3º ano em PDF grátis."
+    },
+    "geometry": {
+      "title": "Geometria – atividades 1º ao 3º ano (imprimir)",
+      "h1": "Atividades de geometria",
+      "metaDescription": "Reconheça formas e figuras geométricas em objetos do cotidiano: atividades de geometria do 1º ao 3º ano do fundamental, em PDF grátis para imprimir."
+    },
+    "measurement": {
+      "title": "Medidas de comprimento – atividades (imprimir)",
+      "h1": "Medidas de comprimento",
+      "metaDescription": "Compare comprimentos e meça com unidades simples: atividades de grandezas e medidas para os anos iniciais, em PDF grátis para imprimir."
+    },
+    "visual-logic": {
+      "title": "Raciocínio lógico – atividades para imprimir",
+      "h1": "Raciocínio lógico",
+      "metaDescription": "Desafios visuais de raciocínio lógico para a educação infantil: observe, compare e complete os padrões. Atividades em PDF grátis para imprimir."
+    },
+    "visual-discrimination": {
+      "title": "Discriminação visual – atividades de atenção",
+      "h1": "Discriminação visual",
+      "metaDescription": "Atividades de discriminação visual, atenção e concentração: encontre diferenças e semelhanças entre figuras. PDF grátis — apoio também para TEA."
+    },
+    "visual-matching": {
+      "title": "Associação visual – atividades para imprimir",
+      "h1": "Associação visual",
+      "metaDescription": "Associe figuras que combinam entre si: percepção e memória visual para a educação infantil, em atividades PDF grátis para imprimir."
+    },
+    "position-words": {
+      "title": "Palavras de posição – atividades infantis",
+      "h1": "Palavras de posição",
+      "metaDescription": "Em cima ou embaixo? Na frente ou atrás? Atividades com palavras de posição e noções espaciais para a educação infantil, em PDF grátis."
+    },
+    "picture-arithmetic": {
+      "title": "Continhas ilustradas para imprimir – 1º ano",
+      "h1": "Continhas ilustradas",
+      "metaDescription": "Continhas de somar e subtrair com figuras: a criança conta as imagens e resolve. Adição e subtração ilustradas para o 1º ano, em PDF grátis."
+    },
+    "science-sort": {
+      "title": "Atividades de ciências – classificar (imprimir)",
+      "h1": "Ciências: classificar animais e objetos",
+      "metaDescription": "Classifique animais e objetos: vertebrados e invertebrados, vivo e não vivo e muito mais. Atividades de ciências em PDF grátis para imprimir."
+    },
+    "beginning-sounds": {
+      "title": "Sons iniciais – atividades de alfabetização",
+      "h1": "Sons iniciais das palavras",
+      "metaDescription": "Com que som começa? A criança liga cada figura à letra do som inicial: consciência fonêmica para a alfabetização, em PDF grátis para imprimir."
+    },
+    "letter-knowledge": {
+      "title": "Atividades com letras do alfabeto – imprimir",
+      "h1": "Atividades com as letras do alfabeto",
+      "metaDescription": "Reconheça e escreva as letras do alfabeto: atividades com maiúsculas e minúsculas para a educação infantil, em PDF grátis para imprimir."
+    },
+    "word-building": {
+      "title": "Montagem de palavras com sílabas – atividades",
+      "h1": "Montagem de palavras",
+      "metaDescription": "Junte as sílabas e monte a palavra de cada figura: atividades de formação de palavras para a alfabetização, em PDF grátis para imprimir."
+    },
+    "picture-vocabulary": {
+      "title": "Vocabulário com figuras – atividades infantis",
+      "h1": "Vocabulário com figuras",
+      "metaDescription": "Amplie o vocabulário ligando palavras às figuras: atividades ilustradas de vocabulário para a educação infantil, em PDF grátis para imprimir."
+    },
+    "phonological-awareness": {
+      "title": "Consciência fonológica – atividades (PDF)",
+      "h1": "Consciência fonológica",
+      "metaDescription": "Sílabas, rimas e sons das palavras: atividades de consciência fonológica para a educação infantil e a alfabetização, em PDF grátis para imprimir."
+    },
+    "preschool": {
+      "title": "Atividades para crianças de 3 a 5 anos – imprimir",
+      "h1": "Atividades para crianças de 3 a 5 anos",
+      "metaDescription": "Atividades educativas para crianças de 3 a 5 anos: cores, tamanhos, contagem e percepção visual. Jogue online ou imprima grátis em PDF."
+    },
+    "kindergarten": {
+      "title": "Atividades para educação infantil – imprimir grátis",
+      "h1": "Atividades para educação infantil",
+      "metaDescription": "Centenas de atividades para a educação infantil: matemática, letras, jogos e percepção visual. Para imprimir grátis em PDF ou jogar online."
+    },
+    "grade-1": {
+      "title": "Atividades para imprimir – 1º ano (grátis, PDF)",
+      "h1": "Atividades para o 1º ano",
+      "metaDescription": "Atividades para o 1º ano do ensino fundamental: caça-palavras, quebra-cabeças matemáticos, labirintos e mais. PDF grátis e jogos online."
+    },
+    "grade-2": {
+      "title": "Atividades para imprimir – 2º ano (grátis, PDF)",
+      "h1": "Atividades para o 2º ano",
+      "metaDescription": "Atividades para o 2º ano: palavras cruzadas, frações, geometria e horas no relógio. Para imprimir grátis em PDF ou resolver online."
+    },
+    "grade-3": {
+      "title": "Atividades para imprimir – 3º ano (grátis, PDF)",
+      "h1": "Atividades para o 3º ano",
+      "metaDescription": "Atividades para o 3º ano: multiplicação, frações, medidas e leitura de horas. Baixe grátis em PDF para imprimir ou pratique online."
+    },
+    "animals": {
+      "title": "Atividades com animais – educação infantil",
+      "h1": "Atividades com animais",
+      "metaDescription": "Caça-palavras, contagem, pareamento e sudoku com animais: atividades ilustradas para a educação infantil, online e em PDF grátis para imprimir."
+    },
+    "fruits": {
+      "title": "Atividades com frutas para imprimir – grátis",
+      "h1": "Atividades com frutas",
+      "metaDescription": "Conte, compare e escreva os nomes das frutas: atividades ilustradas com frutas para a educação infantil, online e em PDF grátis para imprimir."
+    },
+    "vehicles": {
+      "title": "Meios de transporte – atividades para imprimir",
+      "h1": "Atividades com meios de transporte",
+      "metaDescription": "Carros, aviões e barcos em caça-palavras, contagem e pareamento: atividades sobre os meios de transporte, online e em PDF grátis para imprimir."
+    },
+    "toys": {
+      "title": "Brinquedos e brincadeiras – atividades infantis",
+      "h1": "Atividades com brinquedos",
+      "metaDescription": "Atividades ilustradas com brinquedos: contagem, pareamento de sombras e jogos de atenção para a educação infantil, online e em PDF grátis."
+    },
+    "shapes": {
+      "title": "Atividades de formas geométricas – imprimir",
+      "h1": "Atividades de formas geométricas",
+      "metaDescription": "Círculo, quadrado, triângulo: reconheça as formas geométricas em jogos de pareamento, contagem e classificação. Online e em PDF grátis."
+    },
+    "dinosaurs": {
+      "title": "Atividades de dinossauros para imprimir",
+      "h1": "Atividades de dinossauros",
+      "metaDescription": "Dinossauros em caça-palavras, labirintos, contagem e pareamento: atividades para quem ama dinos, online e em PDF grátis para imprimir."
+    },
+    "body_parts": {
+      "title": "Partes do corpo – atividades educação infantil",
+      "h1": "Atividades sobre as partes do corpo",
+      "metaDescription": "Nomeie e localize as partes do corpo em jogos ilustrados: vocabulário e percepção corporal para a educação infantil, online e em PDF grátis."
+    },
+    "farm_animals": {
+      "title": "Animais da fazenda – atividades para imprimir",
+      "h1": "Atividades com animais da fazenda",
+      "metaDescription": "Vaca, porco, galinha e outros bichos da fazenda em atividades de contagem, sombras e caça-palavras. Online e em PDF grátis para imprimir."
+    },
+    "zoo_animals": {
+      "title": "Animais do zoológico – atividades infantis",
+      "h1": "Atividades com animais do zoológico",
+      "metaDescription": "Leão, girafa e elefante em jogos de parear, contar e procurar: atividades com animais do zoológico para crianças, online e em PDF grátis."
+    },
+    "pets": {
+      "title": "Animais de estimação – atividades infantis",
+      "h1": "Atividades com animais de estimação",
+      "metaDescription": "Cachorros, gatos e outros bichinhos de estimação em atividades de pareamento, contagem e escrita. Online e em PDF grátis para imprimir."
+    },
+    "emotions": {
+      "title": "Atividades sobre emoções – educação infantil",
+      "h1": "Atividades sobre emoções",
+      "metaDescription": "Alegria, tristeza, medo e raiva: a criança reconhece expressões e emoções em jogos ilustrados. Online e em PDF grátis para imprimir."
+    },
+    "occupations": {
+      "title": "Atividades sobre profissões para imprimir",
+      "h1": "Atividades sobre profissões",
+      "metaDescription": "Médico, bombeiro, professora: conheça as profissões em jogos de parear, contar e escrever. Online e em PDF grátis para imprimir."
+    },
+    "colors": {
+      "title": "Atividades com cores – educação infantil",
+      "h1": "Atividades com cores",
+      "metaDescription": "Reconheça e pareie as cores em jogos ilustrados: atividades com cores para a educação infantil, online e em PDF grátis para imprimir."
+    },
+    "ocean_life": {
+      "title": "Vida marinha – atividades para imprimir",
+      "h1": "Atividades sobre a vida marinha",
+      "metaDescription": "Peixes, baleias e o fundo do mar em jogos de contar, procurar e parear: atividades de vida marinha para crianças, online e em PDF grátis."
+    },
+    "vegetables": {
+      "title": "Atividades com vegetais – educação infantil",
+      "h1": "Atividades com vegetais",
+      "metaDescription": "Legumes e verduras em jogos ilustrados de contagem, pareamento e escrita: atividades com vegetais na educação infantil, em PDF grátis e online."
+    },
+    "flowers": {
+      "title": "Atividades com flores – educação infantil",
+      "h1": "Atividades com flores",
+      "metaDescription": "Flores coloridas em atividades de contar, parear sombras e caça-palavras para a educação infantil, online e em PDF grátis para imprimir."
+    }
+  },
+  "intersection": {}
+}

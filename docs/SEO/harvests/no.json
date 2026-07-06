@@ -4,8 +4,8 @@
   "hl": "no",
   "gl": "no"
  },
- "generatedAt": "2026-07-06T16:33:44.798Z",
- "requestCount": 40,
+ "generatedAt": "2026-07-06T18:18:22.354Z",
+ "requestCount": 588,
  "seedCounts": {
   "core": 4,
   "types": 177,
@@ -15,89 +15,2330 @@
   "online": 8,
   "alphabet": 58
  },
- "errorCount": 41,
- "errors": [
-  {
-   "seed": "oppgaver til utskrift",
-   "err": "HTTP 403"
+ "errorCount": 0,
+ "errors": [],
+ "suggestions": {
+  "oppgaver til utskrift": {
+   "cls": "core",
+   "s": [
+    "oppgaver til utskrift"
+   ]
   },
-  {
-   "seed": "arbeidsark",
-   "err": "HTTP 403"
+  "arbeidsark": {
+   "cls": "core",
+   "s": [
+    "arbeidsark",
+    "arbeidsark matematikk",
+    "arbeidsark klokka",
+    "arbeidsark norsk",
+    "arbeidsark påske",
+    "arbeidsark verb",
+    "arbeidsark engelsk",
+    "arbeidsark areal og omkrets",
+    "arbeidsark divisjon",
+    "arbeidsark multiplikasjon"
+   ]
   },
-  {
-   "seed": "gratis oppgaver",
-   "err": "HTTP 403"
+  "gratis oppgaver": {
+   "cls": "core",
+   "s": [
+    "gratis oppgaver for barn",
+    "gratis oppgaver",
+    "gratis oppgaver for barn engelsk",
+    "gratis løko oppgaver",
+    "gratis norsk oppgaver",
+    "gratis halloween oppgaver",
+    "leseforståelse oppgaver gratis",
+    "sudoku oppgaver gratis",
+    "løko oppgaver gratis matematikk",
+    "hjernetrim oppgaver gratis"
+   ]
   },
-  {
-   "seed": "oppgaver for barn",
-   "err": "HTTP 403"
+  "oppgaver for barn": {
+   "cls": "core",
+   "s": [
+    "oppgaver for barn",
+    "oppgaver for barn utskrift",
+    "oppgaver for barn i barnehage",
+    "oppgaver for barn med autisme",
+    "oppgaver for barn hjemme",
+    "oppgaver for barn i naturen",
+    "oppgaver for barn 8 år",
+    "gratis oppgaver for barn",
+    "logiske oppgaver for barn",
+    "morsomme oppgaver for barn"
+   ]
   },
-  {
-   "seed": "addisjon",
-   "err": "HTTP 403"
+  "addisjon": {
+   "cls": "types",
+   "s": [
+    "addisjon",
+    "addisjonsmetoden",
+    "addisjon og subtraksjon",
+    "addisjon med brøk",
+    "addisjonsmetoden likningssett",
+    "addisjonsreaksjon",
+    "addisjon med tierovergang",
+    "addisjonsoppgaver",
+    "addisjonspolymer",
+    "addisjon og subtraksjon med brøk"
+   ]
   },
-  {
-   "seed": "addisjon oppgaver",
-   "err": "HTTP 403"
+  "addisjon oppgaver": {
+   "cls": "types",
+   "s": [
+    "addisjon oppgaver",
+    "addisjon oppgaver utskrift",
+    "addisjon oppgaver 2. trinn",
+    "addisjon oppgaver 1 trinn",
+    "oppgaver addisjon og subtraksjon",
+    "oppgaver addisjon med tierovergang",
+    "oppstilt addisjon oppgaver",
+    "gjentatt addisjon oppgaver",
+    "addisjon oppstilling oppgaver",
+    "oppstilt addisjon oppgaver utskrift"
+   ]
   },
-  {
-   "seed": "addisjon gratis",
-   "err": "HTTP 403"
+  "kryptogram": {
+   "cls": "types",
+   "s": [
+    "kryptogram",
+    "kryptogrammer",
+    "kryptogram how long have you been away lyrics",
+    "kryptogram woman like you lyrics",
+    "kryptogram midnight fever",
+    "kryptogram look how far we ve come",
+    "kryptogram online",
+    "kryptogramm rätsel",
+    "kryptogram składający się z gwiazdek",
+    "kryptogram korsord"
+   ]
   },
-  {
-   "seed": "bildesudoku",
-   "err": "HTTP 403"
+  "subtraksjon": {
+   "cls": "types",
+   "s": [
+    "subtraksjon",
+    "subtraksjon med låning",
+    "subtraksjon med tierovergang",
+    "subtraksjon med brøk",
+    "subtraksjon oppgaver",
+    "subtraksjon med veksling",
+    "subtraksjon spill",
+    "subtraksjon på tallinje",
+    "subtraksjonsmetoden",
+    "subtraksjon 1 trinn"
+   ]
   },
-  {
-   "seed": "bildesudoku oppgaver",
-   "err": "HTTP 403"
+  "subtraksjon oppgaver": {
+   "cls": "types",
+   "s": [
+    "subtraksjon oppgaver",
+    "subtraksjon oppgaver utskrift",
+    "subtraksjon oppgaver 2 trinn",
+    "subtraksjon oppgaver 1 trinn",
+    "subtraksjon oppgaver 3 trinn",
+    "subtraksjon oppgaver 4 trinn",
+    "subtraksjon oppgaver pdf",
+    "oppgaver subtraksjon med låning",
+    "oppstilt subtraksjon oppgaver",
+    "oppstilling subtraksjon oppgaver"
+   ]
   },
-  {
-   "seed": "bildesudoku gratis",
-   "err": "HTTP 403"
+  "mer eller mindre": {
+   "cls": "types",
+   "s": [
+    "mer eller mindre tegn",
+    "mer eller mindre mann",
+    "mer eller mindre",
+    "mer eller mindre enn tegn",
+    "mer eller mindre synonym",
+    "mer eller mindre symbol",
+    "mer eller mindre mann 2012",
+    "mer eller mindre enn",
+    "mer eller mindre betydning",
+    "mer eller mindre glutenfritt mel"
+   ]
   },
-  {
-   "seed": "kryptogram",
-   "err": "HTTP 403"
+  "mattepuslespill": {
+   "cls": "types",
+   "s": [
+    "mattepuslespill"
+   ]
   },
-  {
-   "seed": "kryptogram oppgaver",
-   "err": "HTTP 403"
+  "matteark": {
+   "cls": "types",
+   "s": [
+    "matteark",
+    "matteark 1 trinn",
+    "matteark 3.trinn",
+    "matteark 2. trinn",
+    "matteark 5 trinn",
+    "matteark 4 trinn",
+    "matteark subtraksjon",
+    "matteark ganging",
+    "matteark addisjon",
+    "matteark 4 klasse"
+   ]
   },
-  {
-   "seed": "kryptogram gratis",
-   "err": "HTTP 403"
+  "matteark gratis": {
+   "cls": "types",
+   "s": [
+    "gratis matteark"
+   ]
   },
-  {
-   "seed": "bildevei",
-   "err": "HTTP 403"
+  "stor eller liten": {
+   "cls": "types",
+   "s": [
+    "stor eller liten bokstav etter kolon",
+    "stor eller liten bokstav etter semikolon",
+    "stor eller liten sølje øverst",
+    "stor eller liten forbokstav",
+    "stor eller liten bokstav",
+    "stor eller liten bokstav etter tankestrek",
+    "stor eller liten forbokstav på månader",
+    "stor eller liten s i statsforvalteren",
+    "stor eller liten service bil",
+    "stor eller liten bokstav i punktlista"
+   ]
   },
-  {
-   "seed": "bildevei oppgaver",
-   "err": "HTTP 403"
+  "tell i diagram": {
+   "cls": "types",
+   "s": [
+    "cell diagram"
+   ]
   },
-  {
-   "seed": "bildevei gratis",
-   "err": "HTTP 403"
+  "mønsterark": {
+   "cls": "types",
+   "s": [
+    "mønsterark",
+    "mønsterark sy",
+    "mønsterark scrapbooking",
+    "mønsterark strikking",
+    "mønsterark til broderi",
+    "mønsterark jul",
+    "mønsterark bunad",
+    "mønsterark søm",
+    "mønsterark panduro",
+    "mønsterark selfmade"
+   ]
   },
-  {
-   "seed": "subtraksjon",
-   "err": "HTTP 403"
+  "bingo": {
+   "cls": "types",
+   "s": [
+    "bingolotto",
+    "bingo rimér",
+    "bingo",
+    "bingolotto rätta lotten",
+    "bingolotto i dag",
+    "bingolotto tv4",
+    "bingo spill",
+    "bingobrett",
+    "bingokanalen",
+    "bingo generator"
+   ]
   },
-  {
-   "seed": "subtraksjon oppgaver",
-   "err": "HTTP 403"
+  "bingo oppgaver": {
+   "cls": "types",
+   "s": [
+    "bingo oppgaver"
+   ]
   },
-  {
-   "seed": "subtraksjon gratis",
-   "err": "HTTP 403"
+  "bingo gratis": {
+   "cls": "types",
+   "s": [
+    "bingo gratis",
+    "bingo gratis online",
+    "bingo gratis en español",
+    "bingo gratis tombola",
+    "bingo gratis para jugar en casa",
+    "bingo gratis italiano",
+    "bingo gratis sin registrarse",
+    "bingo gratis promatic",
+    "bingo tragamonedas gratis",
+    "bingo gratis zitro"
+   ]
   },
-  {
-   "seed": "kodeaddisjon",
-   "err": "HTTP 403"
+  "matching": {
+   "cls": "types",
+   "s": [
+    "matching set",
+    "matching",
+    "matching set dame",
+    "matching pyjamas",
+    "matching sett",
+    "matching sett dame",
+    "matching pfp",
+    "matching tattoos",
+    "matching sets women",
+    "matching underwear for couples"
+   ]
+  },
+  "matching oppgaver": {
+   "cls": "types",
+   "s": [
+    "matching oppgaver",
+    "matching oppgaver autisme",
+    "matching oppgaver barnehage",
+    "matching oppgaver barn"
+   ]
+  },
+  "matching gratis": {
+   "cls": "types",
+   "s": [
+    "matching gratis",
+    "matching story gratis",
+    "e matching gratis",
+    "matching gioco gratis",
+    "job matching gratis",
+    "matching story gratis leben",
+    "vidas gratis matching story",
+    "e matching gratis week",
+    "matching story gratis spielen",
+    "e matching gratis lidmaatschap"
+   ]
+  },
+  "sorter bilder": {
+   "cls": "types",
+   "s": [
+    "dahlia sorter bilder",
+    "sushi sorter bilder",
+    "klematis sorter bilder",
+    "thuja sorter bilder",
+    "hosta sorter bilder",
+    "palettblad sorter bilder",
+    "lösgodis sorter bilder",
+    "sommaräpplen sorter bilder",
+    "rosor sorter bilder"
+   ]
+  },
+  "preposisjoner": {
+   "cls": "types",
+   "s": [
+    "preposisjoner",
+    "preposisjoner tysk",
+    "preposisjoner engelsk",
+    "preposisjoner kryssord",
+    "preposisjoner norsk",
+    "preposisjoner spansk",
+    "preposisjoner fransk",
+    "preposisjoner eksempler",
+    "preposisjoner oppgaver",
+    "preposisjoner norsk som andrespråk"
+   ]
+  },
+  "preposisjoner oppgaver": {
+   "cls": "types",
+   "s": [
+    "preposisjoner oppgaver",
+    "preposisjoner oppgaver pdf",
+    "preposisjoner oppgaver utskrift",
+    "preposisjoner oppgaver barnehage",
+    "preposisjoner oppgaver norsk",
+    "preposisjoner oppgaver barn",
+    "preposisjoner oppgaver engelsk",
+    "preposisjoner spansk oppgaver"
+   ]
+  },
+  "gjett ordet": {
+   "cls": "types",
+   "s": [
+    "gjett ordet",
+    "gjett ordet spill",
+    "gjett ordet coop",
+    "gjett ordet fasit",
+    "gjett ordet app",
+    "gjett ordet norsk",
+    "gjett ordet nivå 8",
+    "gjett ordet brettspill",
+    "gjett ordet ordnett",
+    "gjett ordet kortspill"
+   ]
+  },
+  "bokstavspill": {
+   "cls": "types",
+   "s": [
+    "bokstavspill",
+    "bokstavspill på nett",
+    "bokstavspill barn",
+    "bokstavspill gratis",
+    "bokstavspill kryssord",
+    "bokstavspill app",
+    "bokstavspill barn app",
+    "bokstavspill ark",
+    "bokstavspill app store"
+   ]
+  },
+  "bokstavspill gratis": {
+   "cls": "types",
+   "s": [
+    "bokstavspill gratis"
+   ]
+  },
+  "ordleting": {
+   "cls": "types",
+   "s": [
+    "ordletingsvansker",
+    "ordleting",
+    "ordleting oppgaver",
+    "ordletingsvansker afasi",
+    "ordletingsvansker demens",
+    "ordletingsvansker adhd",
+    "ordletingsvansker barn",
+    "ordleting jul",
+    "ordleting kryssord",
+    "ordletingsvansker tiltak"
+   ]
+  },
+  "ordleting oppgaver": {
+   "cls": "types",
+   "s": [
+    "ordleting oppgaver"
+   ]
+  },
+  "kryssord": {
+   "cls": "types",
+   "s": [
+    "kryssordhjelpen",
+    "kryssord",
+    "kryssordbok",
+    "kryssordkjempen",
+    "kryssord ordbok",
+    "kryssord på nett",
+    "kryssord org",
+    "kryssord gratis",
+    "kryssord hjelperen",
+    "kryssordhjelpen gratis"
+   ]
+  },
+  "kryssord oppgaver": {
+   "cls": "types",
+   "s": [
+    "kryssord oppgaver",
+    "kryssord oppgaver barn",
+    "engelsk kryssord oppgaver",
+    "trivielle oppgaver kryssord",
+    "kittys oppgaver kryssord",
+    "politiske oppgaver kryssord"
+   ]
+  },
+  "kryssord gratis": {
+   "cls": "types",
+   "s": [
+    "kryssord gratis",
+    "kryssord gratis skyss",
+    "kryssord gratis online",
+    "kryssord gratiskryssord",
+    "kryssord gratis hjelp",
+    "kryssord gratis synonym",
+    "kryssord gratis barn",
+    "kryssord gratis google søk",
+    "gratis kryssord hjelp synonym",
+    "gratis kryssord startsiden"
+   ]
+  },
+  "finn og tell": {
+   "cls": "types",
+   "s": [
+    "finn tells tony about vito episode",
+    "finn tells about vito episode",
+    "finn teller",
+    "finn tellsgård",
+    "finn tells billy about mosley",
+    "finn tellefsen",
+    "finn teller nesodden",
+    "finn tells tony about vito",
+    "finn tells about vito",
+    "finn tells the crew about vito episode"
+   ]
+  },
+  "skattejakt": {
+   "cls": "types",
+   "s": [
+    "skattejakt rebus barn",
+    "skattejakt rebus barn påske",
+    "skattejakt",
+    "skattejakt for barn",
+    "skattejakten",
+    "skattejakt barnebursdag",
+    "skattejakten as",
+    "skattejakt i fjæra nrk",
+    "skattejakt filmer",
+    "skattejakten nrk"
+   ]
+  },
+  "skattejakt oppgaver": {
+   "cls": "types",
+   "s": [
+    "skattejakt oppgaver",
+    "skattejakt oppgaver barn"
+   ]
+  },
+  "skattejakt gratis": {
+   "cls": "types",
+   "s": [
+    "påske skattejakt gratis"
+   ]
+  },
+  "manglende brikker": {
+   "cls": "types",
+   "s": [
+    "manglende brikker lego",
+    "manglende brikker"
+   ]
+  },
+  "hvilken passer ikke": {
+   "cls": "types",
+   "s": [
+    "hvilken passer ikke ind",
+    "hvilken stjernetegn passer ikke sammen"
+   ]
+  },
+  "tierramme": {
+   "cls": "types",
+   "s": [
+    "tierramme",
+    "tierrammer",
+    "tierramme oppgaver"
+   ]
+  },
+  "tierramme oppgaver": {
+   "cls": "types",
+   "s": [
+    "tierramme oppgaver"
+   ]
+  },
+  "tellestreker": {
+   "cls": "types",
+   "s": [
+    "tellestreker",
+    "tellestreker oppgaver",
+    "tellestreker 5",
+    "tellestreker på engelsk"
+   ]
+  },
+  "tellestreker oppgaver": {
+   "cls": "types",
+   "s": [
+    "tellestreker oppgaver"
+   ]
+  },
+  "hundrerute": {
+   "cls": "types",
+   "s": [
+    "hundrerrute",
+    "hundrerutenett"
+   ]
+  },
+  "sammenligne tall": {
+   "cls": "types",
+   "s": [
+    "sammenligne tall",
+    "sammenligne tall i to kolonner i excel",
+    "sammenligne tall i excel"
+   ]
+  },
+  "sammenligne mengder": {
+   "cls": "types",
+   "s": [
+    "sammenligne mengder"
+   ]
+  },
+  "sammenligne størrelser": {
+   "cls": "types",
+   "s": [
+    "sammenligne størrelser",
+    "sammenligne iphone størrelser"
+   ]
+  },
+  "tallinje": {
+   "cls": "types",
+   "s": [
+    "tallinje",
+    "tallinje 0-20",
+    "tallinje 0-100",
+    "tallinje oppgaver",
+    "tallinjer",
+    "tallinje 0 100 utskrift",
+    "tallinje med negative tall",
+    "tallinje til 20",
+    "tallinje 1-20",
+    "tallinje 0 100 gratis"
+   ]
+  },
+  "tallinje oppgaver": {
+   "cls": "types",
+   "s": [
+    "tallinje oppgaver",
+    "tallinje oppgaver 2 trinn",
+    "tallinje oppgaver 1 trinn",
+    "tallinje oppgaver 3 trinn",
+    "tallinje oppgaver 4 trinn",
+    "tom tallinje oppgaver",
+    "brøk på tallinje oppgaver",
+    "desimaltall på tallinje oppgaver",
+    "tallinje 0-20 oppgaver"
+   ]
+  },
+  "tallinje gratis": {
+   "cls": "types",
+   "s": [
+    "gratis tallinje",
+    "tallinje 0 100 gratis",
+    "tallinje 0 20 gratis",
+    "tallinje arbetsblad gratis"
+   ]
+  },
+  "lese klokka": {
+   "cls": "types",
+   "s": [
+    "hvordan lese klokka"
+   ]
+  },
+  "brøk": {
+   "cls": "types",
+   "s": [
+    "brøk",
+    "brøk kryssord",
+    "brøk kalkulator",
+    "brøkregning",
+    "brøkregelen",
+    "brøkreser",
+    "brøkregelen derivasjon",
+    "brøk oppgaver",
+    "brøk på engelsk",
+    "brøk til prosent"
+   ]
+  },
+  "brøk oppgaver": {
+   "cls": "types",
+   "s": [
+    "brøk oppgaver",
+    "brøk oppgaver 5 trinn",
+    "brøk oppgaver 4 trinn",
+    "brøk oppgaver utskrift",
+    "brøk oppgaver 7 trinn",
+    "brøk oppgaver 8 trinn",
+    "brøk oppgaver 6 trinn",
+    "brøk oppgaver 3 trinn",
+    "brøk oppgaver pdf",
+    "brøk oppgaver med fasit"
+   ]
+  },
+  "diagram og data": {
+   "cls": "types",
+   "s": [
+    "diagram data",
+    "diagram database",
+    "diagram data flow",
+    "diagram database online",
+    "diagram database design",
+    "diagram data warehouse architecture",
+    "diagram data model",
+    "diagram database tool",
+    "diagram database architecture",
+    "diagram data warehouse"
+   ]
+  },
+  "geometri": {
+   "cls": "types",
+   "s": [
+    "geometrisk figur kryssord",
+    "geometry dash",
+    "geometry dash lite",
+    "geometri",
+    "geometriske figurer",
+    "geometriske former",
+    "geometrisk rekke",
+    "geometriske figurer 3d",
+    "geometriske figurer navn",
+    "geometri formler"
+   ]
+  },
+  "geometri oppgaver": {
+   "cls": "types",
+   "s": [
+    "geometri oppgaver",
+    "geometri oppgaver 9 trinn",
+    "geometri oppgaver 6 trinn",
+    "geometri oppgaver 10 trinn",
+    "geometri oppgaver 2p",
+    "geometri oppgaver 4 trinn",
+    "geometri oppgaver 7 trinn",
+    "geometri oppgaver 1 trinn",
+    "oppgaver geometri 2. trinn",
+    "geometri oppgaver pdf"
+   ]
+  },
+  "geometri gratis": {
+   "cls": "types",
+   "s": [
+    "geometri gratis",
+    "deontologia geometri gratis",
+    "corsi gratuiti geometri",
+    "cfp geometri gratis",
+    "webinar geometri gratis",
+    "crediti geometri gratis",
+    "geometri online gratis",
+    "formazione geometri gratis",
+    "webinar geometri gratis 2025",
+    "calcolo parcelle geometri gratis"
+   ]
+  },
+  "måling": {
+   "cls": "types",
+   "s": [
+    "måling av blodsukker",
+    "måling",
+    "måling av blodtrykk",
+    "måling kryssord",
+    "målingsdivisjon",
+    "måling av bentetthet",
+    "måling av langtidsblodsukker",
+    "måling av radon",
+    "måling av luftkvalitet innendørs",
+    "målinger"
+   ]
+  },
+  "måling oppgaver": {
+   "cls": "types",
+   "s": [
+    "måling oppgaver",
+    "måling oppgaver 3 trinn",
+    "måling oppgaver 2 trinn",
+    "oppgaver måling 4 trinn",
+    "oppgaver måling 1 trinn",
+    "måling vekt oppgaver",
+    "matematikk måling oppgaver",
+    "måling lengde oppgaver",
+    "praktiske oppgaver måling",
+    "kittys oppgaver måling"
+   ]
+  },
+  "måling gratis": {
+   "cls": "types",
+   "s": [
+    "radon måling gratis",
+    "blodsukker måling gratis"
+   ]
+  },
+  "logiske gåter": {
+   "cls": "types",
+   "s": [
+    "logiske gåter",
+    "logiske gåter for barn",
+    "logiske gåter for voksne",
+    "logiske gåter med svar",
+    "vanskelige logiske gåter"
+   ]
+  },
+  "visuell oppmerksomhet": {
+   "cls": "types",
+   "s": [
+    "visuell oppmerksomhet"
+   ]
+  },
+  "finne par": {
+   "cls": "types",
+   "s": [
+    "finne parkeringsbot",
+    "finne partner i voksen alder",
+    "finne parkeringsbot på nett",
+    "finne parameterframstilling",
+    "finne partner",
+    "finne parfyme",
+    "finne parkering",
+    "finne partner på nett",
+    "finne parkeringsplass",
+    "finne parkering i oslo"
+   ]
+  },
+  "mønster": {
+   "cls": "types",
+   "s": [
+    "mønsterdybde sommerdekk",
+    "mønster energidrikk",
+    "mønsterdybde vinterdekk",
+    "mønster kryssord",
+    "mønster",
+    "mønsterdybde nye sommerdekk",
+    "mønsterdybde dekk",
+    "mønsterdybde",
+    "mønsterdybdemåler",
+    "mønsterpapir"
+   ]
+  },
+  "mønster oppgaver": {
+   "cls": "types",
+   "s": [
+    "mønster oppgaver",
+    "mønster oppgaver barnehage",
+    "mønster oppgaver matematikk",
+    "geometriske mønster oppgaver"
+   ]
+  },
+  "mønster gratis": {
+   "cls": "types",
+   "s": [
+    "mønster gratis",
+    "gratis mønster på traktorgenser til barn",
+    "gratis mønster toalettmappe",
+    "gratis mønster kjole barn",
+    "gratis mønster forkle",
+    "gratisoppskrift mønster strikkeoppskrift kaptein sabeltann genser dale garn",
+    "gratis mønster lue",
+    "gratis mønster skjørt",
+    "gratis mønster lappeteknikk",
+    "gratis mønster forkle barn"
+   ]
+  },
+  "plasseringsord": {
+   "cls": "types",
+   "s": [
+    "plasseringsord"
+   ]
+  },
+  "førstelyd": {
+   "cls": "types",
+   "s": [
+    "første lydfilm",
+    "første lydopptak"
+   ]
+  },
+  "førstelyd oppgaver": {
+   "cls": "types",
+   "s": [
+    "første lyd oppgaver"
+   ]
+  },
+  "språklig bevissthet": {
+   "cls": "types",
+   "s": [
+    "språklig bevissthet",
+    "språklig bevissthet aktiviteter",
+    "språklig bevissthet barn",
+    "språklig bevissthet definisjon",
+    "språklig bevissthet i barnehagen",
+    "språklig bevissthet prøve",
+    "tras språklig bevissthet",
+    "jørgen frost språklig bevissthet",
+    "språkforståelse og språklig bevissthet"
+   ]
+  },
+  "addisjon 1. trinn": {
+   "cls": "typeGrade",
+   "s": [
+    "addisjon 1 trinn",
+    "addisjon oppgaver 1 trinn"
+   ]
+  },
+  "addisjon 2. trinn": {
+   "cls": "typeGrade",
+   "s": [
+    "addisjon 2 trinn",
+    "addisjon oppgaver 2. trinn",
+    "addisjon med tierovergang 2 trinn",
+    "addisjon og subtraksjon 2 trinn",
+    "addisjon og subtraksjon oppgaver 2 trinn"
+   ]
+  },
+  "subtraksjon 1. trinn": {
+   "cls": "typeGrade",
+   "s": [
+    "subtraksjon 1. trinn",
+    "subtraksjon oppgaver 1 trinn"
+   ]
+  },
+  "subtraksjon 2. trinn": {
+   "cls": "typeGrade",
+   "s": [
+    "subtraksjon 2 trinn",
+    "subtraksjon oppgaver 2 trinn",
+    "addisjon og subtraksjon 2 trinn",
+    "subtraksjon med tierovergang 2 trinn"
+   ]
+  },
+  "matteark 1. trinn": {
+   "cls": "typeGrade",
+   "s": [
+    "matteark 1 trinn"
+   ]
+  },
+  "matteark 2. trinn": {
+   "cls": "typeGrade",
+   "s": [
+    "matteark 2. trinn"
+   ]
+  },
+  "stor eller liten barnehage": {
+   "cls": "typeGrade",
+   "s": [
+    "stor eller liten barnehage"
+   ]
+  },
+  "bingo barnehage": {
+   "cls": "typeGrade",
+   "s": [
+    "bingo barnehage",
+    "vårtegn bingo barnehage",
+    "høst bingo barnehage",
+    "trafikk bingo barnehage",
+    "vårbingo barnehage",
+    "bjørnis barnehagebingo"
+   ]
+  },
+  "bingo 1. trinn": {
+   "cls": "typeGrade",
+   "s": [
+    "bingo 1 trinn"
+   ]
+  },
+  "bingo 2. trinn": {
+   "cls": "typeGrade",
+   "s": [
+    "bingo 2 trinn"
+   ]
+  },
+  "preposisjoner barnehage": {
+   "cls": "typeGrade",
+   "s": [
+    "preposisjoner barnehage",
+    "preposisjoner oppgaver barnehage"
+   ]
+  },
+  "kryssord barnehage": {
+   "cls": "typeGrade",
+   "s": [
+    "barnehage kryssord",
+    "barnehagebarn kryssord",
+    "barnehagelærer kryssord",
+    "barnehageaktivitet kryssord"
+   ]
+  },
+  "kryssord 1. trinn": {
+   "cls": "typeGrade",
+   "s": [
+    "kryssord 1 trinn"
+   ]
+  },
+  "kryssord 2. trinn": {
+   "cls": "typeGrade",
+   "s": [
+    "kryssord 2. trinn"
+   ]
+  },
+  "skattejakt barnehage": {
+   "cls": "typeGrade",
+   "s": [
+    "skattejakt barnehage"
+   ]
+  },
+  "tallinje 1. trinn": {
+   "cls": "typeGrade",
+   "s": [
+    "tallinje 1 trinn",
+    "tallinje oppgaver 1 trinn"
+   ]
+  },
+  "tallinje 2. trinn": {
+   "cls": "typeGrade",
+   "s": [
+    "tallinje 2 trinn",
+    "tallinje oppgaver 2 trinn"
+   ]
+  },
+  "geometri barnehage": {
+   "cls": "typeGrade",
+   "s": [
+    "geometri barnehage"
+   ]
+  },
+  "geometri 1. trinn": {
+   "cls": "typeGrade",
+   "s": [
+    "geometri 1. trinn",
+    "geometri oppgaver 1 trinn"
+   ]
+  },
+  "geometri 2. trinn": {
+   "cls": "typeGrade",
+   "s": [
+    "geometri 2 trinn",
+    "oppgaver geometri 2. trinn"
+   ]
+  },
+  "måling barnehage": {
+   "cls": "typeGrade",
+   "s": [
+    "måling barnehage",
+    "måling aktivitet i barnehagen"
+   ]
+  },
+  "måling 1. trinn": {
+   "cls": "typeGrade",
+   "s": [
+    "måling 1 trinn",
+    "oppgaver måling 1 trinn"
+   ]
+  },
+  "måling 2. trinn": {
+   "cls": "typeGrade",
+   "s": [
+    "måling 2. trinn",
+    "oppgaver måling 2 trinn"
+   ]
+  },
+  "mønster barnehage": {
+   "cls": "typeGrade",
+   "s": [
+    "mønster barnehagevotter",
+    "mønster barnehage",
+    "gratis mønster barnehagevotter",
+    "mønster oppgaver barnehage"
+   ]
+  },
+  "mønster 1. trinn": {
+   "cls": "typeGrade",
+   "s": [
+    "mønster 1 trinn",
+    "former og mønster 1 trinn"
+   ]
+  },
+  "mønster 2. trinn": {
+   "cls": "typeGrade",
+   "s": [
+    "mønster 2 trinn",
+    "mønster matematikk 2 trinn"
+   ]
+  },
+  "språklig bevissthet barnehage": {
+   "cls": "typeGrade",
+   "s": [
+    "språklig bevissthet barnehage"
+   ]
+  },
+  "dyr oppgaver": {
+   "cls": "themes",
+   "s": [
+    "oppgaver dyr"
+   ]
+  },
+  "kroppsdeler oppgaver": {
+   "cls": "themes",
+   "s": [
+    "kroppsdeler oppgaver"
+   ]
+  },
+  "jul oppgaver": {
+   "cls": "themes",
+   "s": [
+    "jul oppgaver",
+    "oppgaver jul 1 trinn",
+    "oppgaver jul norsk",
+    "oppgaver jul engelsk",
+    "oppgaver jul skole",
+    "oppgaver jul barn",
+    "oppgaver jul 5 trinn",
+    "oppgaver jul 6.trinn",
+    "karens jul oppgaver",
+    "matematikk oppgaver jul"
+   ]
+  },
+  "klasserom oppgaver": {
+   "cls": "themes",
+   "s": [
+    "tenkende klasserom oppgaver"
+   ]
+  },
+  "klær oppgaver": {
+   "cls": "themes",
+   "s": [
+    "klær oppgaver",
+    "klær oppgaver norsk",
+    "klær og farger oppgaver"
+   ]
+  },
+  "farger oppgaver": {
+   "cls": "themes",
+   "s": [
+    "farger oppgaver",
+    "klær og farger oppgaver"
+   ]
+  },
+  "dinosaurer oppgaver": {
+   "cls": "themes",
+   "s": [
+    "dinosaurer oppgaver"
+   ]
+  },
+  "påske oppgaver": {
+   "cls": "themes",
+   "s": [
+    "påske oppgaver",
+    "påske oppgaver barn",
+    "påske oppgaver matematikk",
+    "påske oppgaver skole",
+    "påske oppgaver 1 trinn",
+    "påske rebusløp oppgaver"
+   ]
+  },
+  "følelser oppgaver": {
+   "cls": "themes",
+   "s": [
+    "følelser oppgaver",
+    "følelser oppgaver barn"
+   ]
+  },
+  "sykehus oppgaver": {
+   "cls": "themes",
+   "s": [
+    "helsefagarbeider sykehus oppgaver"
+   ]
+  },
+  "diverse oppgaver": {
+   "cls": "themes",
+   "s": [
+    "diverse oppgaver"
+   ]
+  },
+  "musikk oppgaver": {
+   "cls": "themes",
+   "s": [
+    "oppgaver musikk"
+   ]
+  },
+  "yrker oppgaver": {
+   "cls": "themes",
+   "s": [
+    "yrker oppgaver"
+   ]
+  },
+  "former oppgaver": {
+   "cls": "themes",
+   "s": [
+    "oppgaver former",
+    "geometriske former oppgaver"
+   ]
+  },
+  "verdensrommet oppgaver": {
+   "cls": "themes",
+   "s": [
+    "verdensrommet oppgaver"
+   ]
+  },
+  "vår oppgaver": {
+   "cls": "themes",
+   "s": [
+    "vår oppgaver"
+   ]
+  },
+  "sommer oppgaver": {
+   "cls": "themes",
+   "s": [
+    "sommer oppgaver",
+    "sommeroppgaver skole"
+   ]
+  },
+  "grønnsaker oppgaver": {
+   "cls": "themes",
+   "s": [
+    "frukt og grønnsaker oppgaver"
+   ]
+  },
+  "vær oppgaver": {
+   "cls": "themes",
+   "s": [
+    "vær oppgaver"
+   ]
+  },
+  "vinter oppgaver": {
+   "cls": "themes",
+   "s": [
+    "vinter oppgaver",
+    "vinter ol oppgaver"
+   ]
+  },
+  "matematikk barnehage oppgaver": {
+   "cls": "subjects",
+   "s": [
+    "matematikk oppgaver barnehage"
+   ]
+  },
+  "matematikk 1. trinn oppgaver": {
+   "cls": "subjects",
+   "s": [
+    "matematikk 1 trinn oppgaver"
+   ]
+  },
+  "matematikk 2. trinn oppgaver": {
+   "cls": "subjects",
+   "s": [
+    "matematikk 2 trinn oppgaver",
+    "åpne oppgaver matematikk 2 trinn"
+   ]
+  },
+  "norsk 1. trinn oppgaver": {
+   "cls": "subjects",
+   "s": [
+    "norsk oppgaver 1 trinn"
+   ]
+  },
+  "norsk 2. trinn oppgaver": {
+   "cls": "subjects",
+   "s": [
+    "norsk 2 trinn oppgaver"
+   ]
+  },
+  "matteoppgaver barnehage": {
+   "cls": "subjects",
+   "s": [
+    "matteoppgaver barnehage",
+    "enkle matteoppgaver barnehage"
+   ]
+  },
+  "matteoppgaver 1. trinn": {
+   "cls": "subjects",
+   "s": [
+    "matteoppgaver 1. trinn",
+    "matteoppgaver 1 trinn utskrift gratis",
+    "matteoppgaver 1 trinn utskrift",
+    "matteoppgaver 1 trinn gratis",
+    "matteoppgaver 1 trinn pdf",
+    "praktiske matteoppgaver 1. trinn",
+    "enkle matteoppgaver 1 trinn",
+    "morsomme matteoppgaver 1 trinn"
+   ]
+  },
+  "matteoppgaver 2. trinn": {
+   "cls": "subjects",
+   "s": [
+    "matteoppgaver 2. trinn",
+    "matteoppgaver 2 trinn gratis",
+    "matteoppgaver 2 trinn utskrift",
+    "matteoppgaver 2 trinn pdf",
+    "matteoppgaver 2 trinn utskrift gratis",
+    "enkle matteoppgaver 2 trinn",
+    "morsomme matteoppgaver 2 trinn",
+    "praktiske matteoppgaver 2 trinn"
+   ]
+  },
+  "norskoppgaver 1. trinn": {
+   "cls": "subjects",
+   "s": [
+    "norskoppgaver 1 trinn utskrift",
+    "norskoppgaver 1.trinn"
+   ]
+  },
+  "norskoppgaver 2. trinn": {
+   "cls": "subjects",
+   "s": [
+    "norskoppgaver 2 trinn utskrift",
+    "norskoppgaver 2 trinn"
+   ]
+  },
+  "oppgaver for barnehage": {
+   "cls": "subjects",
+   "s": [
+    "oppgaver for barnehagebarn",
+    "oppgaver barnehage",
+    "oppgaver barnehageassistent",
+    "oppgaver barnehagelærer"
+   ]
+  },
+  "oppgaver for skolestartere": {
+   "cls": "subjects",
+   "s": [
+    "oppgaver for skolestartere"
+   ]
+  },
+  "oppgaver for 1. trinn": {
+   "cls": "subjects",
+   "s": [
+    "oppgaver for 1 trinn",
+    "oppgaver norsk 1 trinn",
+    "oppgaver jul 1 trinn",
+    "oppgaver matematikk 1 trinn",
+    "oppgaver måling 1 trinn",
+    "oppgaver engelsk 1 trinn"
+   ]
+  },
+  "oppgaver for 2. trinn": {
+   "cls": "subjects",
+   "s": [
+    "oppgaver for 2 trinn",
+    "oppgaver måling 2 trinn",
+    "oppgaver norsk 2 trinn",
+    "oppgaver klokka 2 trinn",
+    "oppgaver matematikk 2 trinn",
+    "oppgaver tallinje 2 trinn",
+    "oppgaver geometri 2. trinn",
+    "oppgaver engelsk 2 trinn",
+    "oppgaver diftonger 2 trinn"
+   ]
+  },
+  "oppgaver på nett": {
+   "cls": "online",
+   "s": [
+    "oppgaver på nett",
+    "klokke oppgaver på nett",
+    "norsk oppgaver på nett",
+    "matematikk oppgaver på nett",
+    "engelsk oppgaver på nett",
+    "spansk oppgaver på nett",
+    "brøk oppgaver på nett",
+    "tyskoppgaver på nett",
+    "verb oppgaver på nett",
+    "sudoku oppgaver på nett"
+   ]
+  },
+  "matte på nett": {
+   "cls": "online",
+   "s": [
+    "matte på nett",
+    "matte på nett for barn",
+    "matteoppgaver på nett",
+    "lære matte på nett",
+    "mattespill på nett",
+    "r1 matte på nett",
+    "matte kalkulator på nett",
+    "matte hjelp på nett",
+    "t matte på nett",
+    "matte nettsider"
+   ]
+  },
+  "oppgaver til utskrift b": {
+   "cls": "alphabet",
+   "s": [
+    "prikk til prikk oppgaver utskrift barn"
+   ]
+  },
+  "arbeidsark a": {
+   "cls": "alphabet",
+   "s": [
+    "arbeidsark areal og omkrets",
+    "arbeidsark areal",
+    "arbeidsark addisjon",
+    "arbeidsark addisjon og subtraksjon",
+    "arbeidsark adjektiv",
+    "arbeidsark adverb",
+    "arbeidsark alfabetet",
+    "arbeidsark algebra",
+    "arbeidsark alfabetisk rekkefølge",
+    "arbeidsark analog klokke"
+   ]
+  },
+  "arbeidsark b": {
+   "cls": "alphabet",
+   "s": [
+    "arbeidsark brøk",
+    "arbeidsark bokstaver",
+    "arbeidsark buddhismen",
+    "arbeidsark barnehage",
+    "arbeidsark bokstaven s",
+    "arbeidsark bokstavinnlæring",
+    "bokstavhus arbeidsark",
+    "arbeidsark likeverdige brøker",
+    "arbeidsark om brøk",
+    "arbeidsark oppgaver for barn"
+   ]
+  },
+  "arbeidsark c": {
+   "cls": "alphabet",
+   "s": [
+    "arbeidsark clipart"
+   ]
+  },
+  "arbeidsark d": {
+   "cls": "alphabet",
+   "s": [
+    "arbeidsark divisjon",
+    "arbeidsark dobbel konsonant",
+    "arbeidsark diftonger",
+    "arbeidsark desimaltall",
+    "arbeidsark deling",
+    "arbeidsark dobling og halvering",
+    "arbeidsark de fire regneartene",
+    "arbeidsark dobling",
+    "arbeidsark dyr",
+    "dbt arbeidsark"
+   ]
+  },
+  "arbeidsark e": {
+   "cls": "alphabet",
+   "s": [
+    "arbeidsark engelsk",
+    "arbeidsark enkel og dobbel konsonant",
+    "arbeidsark engelsk 4 trinn",
+    "arbeidsark engelsk 2 trinn",
+    "arbeidsark engelsk 5 trinn",
+    "arbeidsark engelsk 3 trinn",
+    "arbeidsark eventyr",
+    "arbeidsark engelsk 1 trinn",
+    "arbeidsark engelsk 6 trinn",
+    "arbeidsark preposisjoner engelsk"
+   ]
+  },
+  "arbeidsark f": {
+   "cls": "alphabet",
+   "s": [
+    "arbeidsark følelser",
+    "arbeidsark fotball vm",
+    "arbeidsark førskole",
+    "fn arbeidsark",
+    "arbeidsark geometriske figurer",
+    "arbeidsark de fire regneartene",
+    "arbeidsark oppgaver for barn",
+    "arbeidsark tredimensjonale figurer",
+    "arbeidsark utvidet form"
+   ]
+  },
+  "arbeidsark g": {
+   "cls": "alphabet",
+   "s": [
+    "arbeidsark gangetabellen",
+    "arbeidsark geometri",
+    "arbeidsark grammatikk",
+    "arbeidsark ganging",
+    "arbeidsark geometriske figurer",
+    "gange arbeidsark",
+    "arbeidsark norsk grammatikk",
+    "arbeidsark 2 gangen",
+    "arbeidsark 7 gangen",
+    "6 gangen arbeidsark"
+   ]
+  },
+  "arbeidsark h": {
+   "cls": "alphabet",
+   "s": [
+    "arbeidsark hinduismen",
+    "arbeidsark halloween",
+    "arbeidsark høyfrekvente ord",
+    "arbeidsark høst",
+    "hoderegning arbeidsark",
+    "halloween arbeidsark engelsk",
+    "arbeidsark mat og helse",
+    "arbeidsark dobling og halvering"
+   ]
+  },
+  "arbeidsark i": {
+   "cls": "alphabet",
+   "s": [
+    "arbeidsark i norsk",
+    "arbeidsark islam",
+    "arbeidsark insekter",
+    "imal arbeidsark"
+   ]
+  },
+  "arbeidsark j": {
+   "cls": "alphabet",
+   "s": [
+    "arbeidsark jul",
+    "arbeidsark jødedommen",
+    "arbeidsark juleevangeliet"
+   ]
+  },
+  "arbeidsark k": {
+   "cls": "alphabet",
+   "s": [
+    "arbeidsark klokka",
+    "arbeidsark krle",
+    "arbeidsark kroppen",
+    "arbeidsark komma",
+    "arbeidsark kj lyden",
+    "arbeidsark kristendommen",
+    "arbeidsark koordinatsystem",
+    "koding arbeidsark",
+    "arbeidsark dobbel konsonant",
+    "arbeidsark 1 klasse"
+   ]
+  },
+  "arbeidsark l": {
+   "cls": "alphabet",
+   "s": [
+    "arbeidsark likninger",
+    "arbeidsark leseforståelse",
+    "arbeidsark likeverdige brøker",
+    "arbeidsark lesing",
+    "arbeidsark lengde",
+    "løkkeskrift arbeidsark",
+    "lucia arbeidsark",
+    "lage arbeidsark",
+    "arbeidsark sj lyden",
+    "arbeidsark kj lyden"
+   ]
+  },
+  "arbeidsark m": {
+   "cls": "alphabet",
+   "s": [
+    "arbeidsark matematikk",
+    "arbeidsark multiplikasjon",
+    "arbeidsark matematikk 2 trinn",
+    "arbeidsark måling",
+    "arbeidsark multiplikasjon og divisjon",
+    "arbeidsark matematikk 1 trinn",
+    "arbeidsark matematikk 3 trinn",
+    "arbeidsark matematikk 5 trinn",
+    "arbeidsark matematikk 4 trinn",
+    "arbeidsark mat og helse"
+   ]
+  },
+  "arbeidsark n": {
+   "cls": "alphabet",
+   "s": [
+    "arbeidsark norsk",
+    "arbeidsark naturfag",
+    "arbeidsark norsk 5 trinn",
+    "arbeidsark norsk 1 trinn",
+    "arbeidsark norsk 2 trinn",
+    "arbeidsark no",
+    "arbeidsark norsk 4 trinn",
+    "arbeidsark norsk 3 trinn",
+    "arbeidsark nynorsk",
+    "arbeidsark negative tall"
+   ]
+  },
+  "arbeidsark o": {
+   "cls": "alphabet",
+   "s": [
+    "arbeidsark omkrets",
+    "arbeidsark om pinse",
+    "arbeidsark om klokka",
+    "arbeidsark ordklasser",
+    "arbeidsark oppstilt addisjon",
+    "arbeidsark om verb",
+    "arbeidsark om kroppen",
+    "arbeidsark om følelser",
+    "arbeidsark og å",
+    "arbeidsark om adjektiv"
+   ]
+  },
+  "arbeidsark p": {
+   "cls": "alphabet",
+   "s": [
+    "arbeidsark påske",
+    "arbeidsark penger",
+    "arbeidsark prosent",
+    "arbeidsark preposisjoner",
+    "arbeidsark partall og oddetall",
+    "arbeidsark posisjonssystemet",
+    "arbeidsark preposisjoner engelsk",
+    "arbeidsark på engelsk",
+    "arbeidsark plassverdisystemet",
+    "arbeidsark pluss og minus"
+   ]
+  },
+  "arbeidsark r": {
+   "cls": "alphabet",
+   "s": [
+    "arbeidsark rettskriving",
+    "arbeidsark rimord",
+    "arbeidsark rim",
+    "arbeidsark ramadan",
+    "arbeidsark alfabetisk rekkefølge",
+    "barns rettigheter arbeidsark",
+    "arbeidsark de fire regneartene"
+   ]
+  },
+  "arbeidsark s": {
+   "cls": "alphabet",
+   "s": [
+    "arbeidsark substantiv",
+    "arbeidsark sommer",
+    "arbeidsark subtraksjon",
+    "arbeidsark salaby",
+    "arbeidsark skrive tall",
+    "arbeidsark samer",
+    "arbeidsark sj lyden",
+    "arbeidsark synonymer",
+    "arbeidsark spørreord",
+    "arbeidsark skole"
+   ]
+  },
+  "arbeidsark t": {
+   "cls": "alphabet",
+   "s": [
+    "arbeidsark tallene til 20",
+    "arbeidsark tegnsetting",
+    "arbeidsark tiervenner",
+    "arbeidsark tiere og enere",
+    "arbeidsark tredimensjonale figurer",
+    "arbeidsark tallinje",
+    "tallrekker arbeidsark",
+    "tallvenner arbeidsark",
+    "arbeidsark 1 trinn",
+    "arbeidsark 2 trinn"
+   ]
+  },
+  "arbeidsark u": {
+   "cls": "alphabet",
+   "s": [
+    "arbeidsark utvidet form"
+   ]
+  },
+  "arbeidsark v": {
+   "cls": "alphabet",
+   "s": [
+    "arbeidsark verb",
+    "arbeidsark vår",
+    "arbeidsark vinkler",
+    "arbeidsark vikingtiden",
+    "arbeidsark volum",
+    "arbeidsark vokaler",
+    "arbeidsark vennskap",
+    "arbeidsark verdensrommet",
+    "arbeidsark vokaler og konsonanter"
+   ]
+  },
+  "arbeidsark å": {
+   "cls": "alphabet",
+   "s": [
+    "arbeidsark årstider",
+    "arbeidsark og å"
+   ]
   }
- ],
- "suggestions": {},
- "unique": []
+ },
+ "unique": [
+  "6 gangen arbeidsark",
+  "addisjon",
+  "addisjon 1 trinn",
+  "addisjon 2 trinn",
+  "addisjon med brøk",
+  "addisjon med tierovergang",
+  "addisjon med tierovergang 2 trinn",
+  "addisjon og subtraksjon",
+  "addisjon og subtraksjon 2 trinn",
+  "addisjon og subtraksjon med brøk",
+  "addisjon og subtraksjon oppgaver 2 trinn",
+  "addisjon oppgaver",
+  "addisjon oppgaver 1 trinn",
+  "addisjon oppgaver 2. trinn",
+  "addisjon oppgaver utskrift",
+  "addisjon oppstilling oppgaver",
+  "addisjonsmetoden",
+  "addisjonsmetoden likningssett",
+  "addisjonsoppgaver",
+  "addisjonspolymer",
+  "addisjonsreaksjon",
+  "arbeidsark",
+  "arbeidsark 1 klasse",
+  "arbeidsark 1 trinn",
+  "arbeidsark 2 gangen",
+  "arbeidsark 2 trinn",
+  "arbeidsark 7 gangen",
+  "arbeidsark addisjon",
+  "arbeidsark addisjon og subtraksjon",
+  "arbeidsark adjektiv",
+  "arbeidsark adverb",
+  "arbeidsark alfabetet",
+  "arbeidsark alfabetisk rekkefølge",
+  "arbeidsark algebra",
+  "arbeidsark analog klokke",
+  "arbeidsark areal",
+  "arbeidsark areal og omkrets",
+  "arbeidsark barnehage",
+  "arbeidsark bokstaven s",
+  "arbeidsark bokstaver",
+  "arbeidsark bokstavinnlæring",
+  "arbeidsark brøk",
+  "arbeidsark buddhismen",
+  "arbeidsark clipart",
+  "arbeidsark de fire regneartene",
+  "arbeidsark deling",
+  "arbeidsark desimaltall",
+  "arbeidsark diftonger",
+  "arbeidsark divisjon",
+  "arbeidsark dobbel konsonant",
+  "arbeidsark dobling",
+  "arbeidsark dobling og halvering",
+  "arbeidsark dyr",
+  "arbeidsark engelsk",
+  "arbeidsark engelsk 1 trinn",
+  "arbeidsark engelsk 2 trinn",
+  "arbeidsark engelsk 3 trinn",
+  "arbeidsark engelsk 4 trinn",
+  "arbeidsark engelsk 5 trinn",
+  "arbeidsark engelsk 6 trinn",
+  "arbeidsark enkel og dobbel konsonant",
+  "arbeidsark eventyr",
+  "arbeidsark fotball vm",
+  "arbeidsark følelser",
+  "arbeidsark førskole",
+  "arbeidsark gangetabellen",
+  "arbeidsark ganging",
+  "arbeidsark geometri",
+  "arbeidsark geometriske figurer",
+  "arbeidsark grammatikk",
+  "arbeidsark halloween",
+  "arbeidsark hinduismen",
+  "arbeidsark høst",
+  "arbeidsark høyfrekvente ord",
+  "arbeidsark i norsk",
+  "arbeidsark insekter",
+  "arbeidsark islam",
+  "arbeidsark jul",
+  "arbeidsark juleevangeliet",
+  "arbeidsark jødedommen",
+  "arbeidsark kj lyden",
+  "arbeidsark klokka",
+  "arbeidsark komma",
+  "arbeidsark koordinatsystem",
+  "arbeidsark kristendommen",
+  "arbeidsark krle",
+  "arbeidsark kroppen",
+  "arbeidsark lengde",
+  "arbeidsark leseforståelse",
+  "arbeidsark lesing",
+  "arbeidsark likeverdige brøker",
+  "arbeidsark likninger",
+  "arbeidsark mat og helse",
+  "arbeidsark matematikk",
+  "arbeidsark matematikk 1 trinn",
+  "arbeidsark matematikk 2 trinn",
+  "arbeidsark matematikk 3 trinn",
+  "arbeidsark matematikk 4 trinn",
+  "arbeidsark matematikk 5 trinn",
+  "arbeidsark multiplikasjon",
+  "arbeidsark multiplikasjon og divisjon",
+  "arbeidsark måling",
+  "arbeidsark naturfag",
+  "arbeidsark negative tall",
+  "arbeidsark no",
+  "arbeidsark norsk",
+  "arbeidsark norsk 1 trinn",
+  "arbeidsark norsk 2 trinn",
+  "arbeidsark norsk 3 trinn",
+  "arbeidsark norsk 4 trinn",
+  "arbeidsark norsk 5 trinn",
+  "arbeidsark norsk grammatikk",
+  "arbeidsark nynorsk",
+  "arbeidsark og å",
+  "arbeidsark om adjektiv",
+  "arbeidsark om brøk",
+  "arbeidsark om følelser",
+  "arbeidsark om klokka",
+  "arbeidsark om kroppen",
+  "arbeidsark om pinse",
+  "arbeidsark om verb",
+  "arbeidsark omkrets",
+  "arbeidsark oppgaver for barn",
+  "arbeidsark oppstilt addisjon",
+  "arbeidsark ordklasser",
+  "arbeidsark partall og oddetall",
+  "arbeidsark penger",
+  "arbeidsark plassverdisystemet",
+  "arbeidsark pluss og minus",
+  "arbeidsark posisjonssystemet",
+  "arbeidsark preposisjoner",
+  "arbeidsark preposisjoner engelsk",
+  "arbeidsark prosent",
+  "arbeidsark på engelsk",
+  "arbeidsark påske",
+  "arbeidsark ramadan",
+  "arbeidsark rettskriving",
+  "arbeidsark rim",
+  "arbeidsark rimord",
+  "arbeidsark salaby",
+  "arbeidsark samer",
+  "arbeidsark sj lyden",
+  "arbeidsark skole",
+  "arbeidsark skrive tall",
+  "arbeidsark sommer",
+  "arbeidsark spørreord",
+  "arbeidsark substantiv",
+  "arbeidsark subtraksjon",
+  "arbeidsark synonymer",
+  "arbeidsark tallene til 20",
+  "arbeidsark tallinje",
+  "arbeidsark tegnsetting",
+  "arbeidsark tiere og enere",
+  "arbeidsark tiervenner",
+  "arbeidsark tredimensjonale figurer",
+  "arbeidsark utvidet form",
+  "arbeidsark vennskap",
+  "arbeidsark verb",
+  "arbeidsark verdensrommet",
+  "arbeidsark vikingtiden",
+  "arbeidsark vinkler",
+  "arbeidsark vokaler",
+  "arbeidsark vokaler og konsonanter",
+  "arbeidsark volum",
+  "arbeidsark vår",
+  "arbeidsark årstider",
+  "barnehage kryssord",
+  "barnehageaktivitet kryssord",
+  "barnehagebarn kryssord",
+  "barnehagelærer kryssord",
+  "barns rettigheter arbeidsark",
+  "bingo",
+  "bingo 1 trinn",
+  "bingo 2 trinn",
+  "bingo barnehage",
+  "bingo generator",
+  "bingo gratis",
+  "bingo gratis en español",
+  "bingo gratis italiano",
+  "bingo gratis online",
+  "bingo gratis para jugar en casa",
+  "bingo gratis promatic",
+  "bingo gratis sin registrarse",
+  "bingo gratis tombola",
+  "bingo gratis zitro",
+  "bingo oppgaver",
+  "bingo rimér",
+  "bingo spill",
+  "bingo tragamonedas gratis",
+  "bingobrett",
+  "bingokanalen",
+  "bingolotto",
+  "bingolotto i dag",
+  "bingolotto rätta lotten",
+  "bingolotto tv4",
+  "bjørnis barnehagebingo",
+  "blodsukker måling gratis",
+  "bokstavhus arbeidsark",
+  "bokstavspill",
+  "bokstavspill app",
+  "bokstavspill app store",
+  "bokstavspill ark",
+  "bokstavspill barn",
+  "bokstavspill barn app",
+  "bokstavspill gratis",
+  "bokstavspill kryssord",
+  "bokstavspill på nett",
+  "brøk",
+  "brøk kalkulator",
+  "brøk kryssord",
+  "brøk oppgaver",
+  "brøk oppgaver 3 trinn",
+  "brøk oppgaver 4 trinn",
+  "brøk oppgaver 5 trinn",
+  "brøk oppgaver 6 trinn",
+  "brøk oppgaver 7 trinn",
+  "brøk oppgaver 8 trinn",
+  "brøk oppgaver med fasit",
+  "brøk oppgaver pdf",
+  "brøk oppgaver på nett",
+  "brøk oppgaver utskrift",
+  "brøk på engelsk",
+  "brøk på tallinje oppgaver",
+  "brøk til prosent",
+  "brøkregelen",
+  "brøkregelen derivasjon",
+  "brøkregning",
+  "brøkreser",
+  "calcolo parcelle geometri gratis",
+  "cell diagram",
+  "cfp geometri gratis",
+  "corsi gratuiti geometri",
+  "crediti geometri gratis",
+  "dahlia sorter bilder",
+  "dbt arbeidsark",
+  "deontologia geometri gratis",
+  "desimaltall på tallinje oppgaver",
+  "diagram data",
+  "diagram data flow",
+  "diagram data model",
+  "diagram data warehouse",
+  "diagram data warehouse architecture",
+  "diagram database",
+  "diagram database architecture",
+  "diagram database design",
+  "diagram database online",
+  "diagram database tool",
+  "dinosaurer oppgaver",
+  "diverse oppgaver",
+  "e matching gratis",
+  "e matching gratis lidmaatschap",
+  "e matching gratis week",
+  "engelsk kryssord oppgaver",
+  "engelsk oppgaver på nett",
+  "enkle matteoppgaver 1 trinn",
+  "enkle matteoppgaver 2 trinn",
+  "enkle matteoppgaver barnehage",
+  "farger oppgaver",
+  "finn tellefsen",
+  "finn teller",
+  "finn teller nesodden",
+  "finn tells about vito",
+  "finn tells about vito episode",
+  "finn tells billy about mosley",
+  "finn tells the crew about vito episode",
+  "finn tells tony about vito",
+  "finn tells tony about vito episode",
+  "finn tellsgård",
+  "finne parameterframstilling",
+  "finne parfyme",
+  "finne parkering",
+  "finne parkering i oslo",
+  "finne parkeringsbot",
+  "finne parkeringsbot på nett",
+  "finne parkeringsplass",
+  "finne partner",
+  "finne partner i voksen alder",
+  "finne partner på nett",
+  "fn arbeidsark",
+  "formazione geometri gratis",
+  "former og mønster 1 trinn",
+  "frukt og grønnsaker oppgaver",
+  "følelser oppgaver",
+  "følelser oppgaver barn",
+  "første lyd oppgaver",
+  "første lydfilm",
+  "første lydopptak",
+  "gange arbeidsark",
+  "geometri",
+  "geometri 1. trinn",
+  "geometri 2 trinn",
+  "geometri barnehage",
+  "geometri formler",
+  "geometri gratis",
+  "geometri online gratis",
+  "geometri oppgaver",
+  "geometri oppgaver 1 trinn",
+  "geometri oppgaver 10 trinn",
+  "geometri oppgaver 2p",
+  "geometri oppgaver 4 trinn",
+  "geometri oppgaver 6 trinn",
+  "geometri oppgaver 7 trinn",
+  "geometri oppgaver 9 trinn",
+  "geometri oppgaver pdf",
+  "geometrisk figur kryssord",
+  "geometrisk rekke",
+  "geometriske figurer",
+  "geometriske figurer 3d",
+  "geometriske figurer navn",
+  "geometriske former",
+  "geometriske former oppgaver",
+  "geometriske mønster oppgaver",
+  "geometry dash",
+  "geometry dash lite",
+  "gjentatt addisjon oppgaver",
+  "gjett ordet",
+  "gjett ordet app",
+  "gjett ordet brettspill",
+  "gjett ordet coop",
+  "gjett ordet fasit",
+  "gjett ordet kortspill",
+  "gjett ordet nivå 8",
+  "gjett ordet norsk",
+  "gjett ordet ordnett",
+  "gjett ordet spill",
+  "gratis halloween oppgaver",
+  "gratis kryssord hjelp synonym",
+  "gratis kryssord startsiden",
+  "gratis løko oppgaver",
+  "gratis matteark",
+  "gratis mønster barnehagevotter",
+  "gratis mønster forkle",
+  "gratis mønster forkle barn",
+  "gratis mønster kjole barn",
+  "gratis mønster lappeteknikk",
+  "gratis mønster lue",
+  "gratis mønster på traktorgenser til barn",
+  "gratis mønster skjørt",
+  "gratis mønster toalettmappe",
+  "gratis norsk oppgaver",
+  "gratis oppgaver",
+  "gratis oppgaver for barn",
+  "gratis oppgaver for barn engelsk",
+  "gratis tallinje",
+  "gratisoppskrift mønster strikkeoppskrift kaptein sabeltann genser dale garn",
+  "halloween arbeidsark engelsk",
+  "helsefagarbeider sykehus oppgaver",
+  "hjernetrim oppgaver gratis",
+  "hoderegning arbeidsark",
+  "hosta sorter bilder",
+  "hundrerrute",
+  "hundrerutenett",
+  "hvilken passer ikke ind",
+  "hvilken stjernetegn passer ikke sammen",
+  "hvordan lese klokka",
+  "høst bingo barnehage",
+  "imal arbeidsark",
+  "job matching gratis",
+  "jul oppgaver",
+  "jørgen frost språklig bevissthet",
+  "karens jul oppgaver",
+  "kittys oppgaver kryssord",
+  "kittys oppgaver måling",
+  "klematis sorter bilder",
+  "klokke oppgaver på nett",
+  "klær og farger oppgaver",
+  "klær oppgaver",
+  "klær oppgaver norsk",
+  "koding arbeidsark",
+  "kroppsdeler oppgaver",
+  "kryptogram",
+  "kryptogram how long have you been away lyrics",
+  "kryptogram korsord",
+  "kryptogram look how far we ve come",
+  "kryptogram midnight fever",
+  "kryptogram online",
+  "kryptogram składający się z gwiazdek",
+  "kryptogram woman like you lyrics",
+  "kryptogramm rätsel",
+  "kryptogrammer",
+  "kryssord",
+  "kryssord 1 trinn",
+  "kryssord 2. trinn",
+  "kryssord gratis",
+  "kryssord gratis barn",
+  "kryssord gratis google søk",
+  "kryssord gratis hjelp",
+  "kryssord gratis online",
+  "kryssord gratis skyss",
+  "kryssord gratis synonym",
+  "kryssord gratiskryssord",
+  "kryssord hjelperen",
+  "kryssord oppgaver",
+  "kryssord oppgaver barn",
+  "kryssord ordbok",
+  "kryssord org",
+  "kryssord på nett",
+  "kryssordbok",
+  "kryssordhjelpen",
+  "kryssordhjelpen gratis",
+  "kryssordkjempen",
+  "lage arbeidsark",
+  "leseforståelse oppgaver gratis",
+  "logiske gåter",
+  "logiske gåter for barn",
+  "logiske gåter for voksne",
+  "logiske gåter med svar",
+  "logiske oppgaver for barn",
+  "lucia arbeidsark",
+  "lære matte på nett",
+  "lösgodis sorter bilder",
+  "løkkeskrift arbeidsark",
+  "løko oppgaver gratis matematikk",
+  "manglende brikker",
+  "manglende brikker lego",
+  "matching",
+  "matching gioco gratis",
+  "matching gratis",
+  "matching oppgaver",
+  "matching oppgaver autisme",
+  "matching oppgaver barn",
+  "matching oppgaver barnehage",
+  "matching pfp",
+  "matching pyjamas",
+  "matching set",
+  "matching set dame",
+  "matching sets women",
+  "matching sett",
+  "matching sett dame",
+  "matching story gratis",
+  "matching story gratis leben",
+  "matching story gratis spielen",
+  "matching tattoos",
+  "matching underwear for couples",
+  "matematikk 1 trinn oppgaver",
+  "matematikk 2 trinn oppgaver",
+  "matematikk måling oppgaver",
+  "matematikk oppgaver barnehage",
+  "matematikk oppgaver jul",
+  "matematikk oppgaver på nett",
+  "matte hjelp på nett",
+  "matte kalkulator på nett",
+  "matte nettsider",
+  "matte på nett",
+  "matte på nett for barn",
+  "matteark",
+  "matteark 1 trinn",
+  "matteark 2. trinn",
+  "matteark 3.trinn",
+  "matteark 4 klasse",
+  "matteark 4 trinn",
+  "matteark 5 trinn",
+  "matteark addisjon",
+  "matteark ganging",
+  "matteark subtraksjon",
+  "matteoppgaver 1 trinn gratis",
+  "matteoppgaver 1 trinn pdf",
+  "matteoppgaver 1 trinn utskrift",
+  "matteoppgaver 1 trinn utskrift gratis",
+  "matteoppgaver 1. trinn",
+  "matteoppgaver 2 trinn gratis",
+  "matteoppgaver 2 trinn pdf",
+  "matteoppgaver 2 trinn utskrift",
+  "matteoppgaver 2 trinn utskrift gratis",
+  "matteoppgaver 2. trinn",
+  "matteoppgaver barnehage",
+  "matteoppgaver på nett",
+  "mattepuslespill",
+  "mattespill på nett",
+  "mer eller mindre",
+  "mer eller mindre betydning",
+  "mer eller mindre enn",
+  "mer eller mindre enn tegn",
+  "mer eller mindre glutenfritt mel",
+  "mer eller mindre mann",
+  "mer eller mindre mann 2012",
+  "mer eller mindre symbol",
+  "mer eller mindre synonym",
+  "mer eller mindre tegn",
+  "morsomme matteoppgaver 1 trinn",
+  "morsomme matteoppgaver 2 trinn",
+  "morsomme oppgaver for barn",
+  "måling",
+  "måling 1 trinn",
+  "måling 2. trinn",
+  "måling aktivitet i barnehagen",
+  "måling av bentetthet",
+  "måling av blodsukker",
+  "måling av blodtrykk",
+  "måling av langtidsblodsukker",
+  "måling av luftkvalitet innendørs",
+  "måling av radon",
+  "måling barnehage",
+  "måling kryssord",
+  "måling lengde oppgaver",
+  "måling oppgaver",
+  "måling oppgaver 2 trinn",
+  "måling oppgaver 3 trinn",
+  "måling vekt oppgaver",
+  "målinger",
+  "målingsdivisjon",
+  "mønster",
+  "mønster 1 trinn",
+  "mønster 2 trinn",
+  "mønster barnehage",
+  "mønster barnehagevotter",
+  "mønster energidrikk",
+  "mønster gratis",
+  "mønster kryssord",
+  "mønster matematikk 2 trinn",
+  "mønster oppgaver",
+  "mønster oppgaver barnehage",
+  "mønster oppgaver matematikk",
+  "mønsterark",
+  "mønsterark bunad",
+  "mønsterark jul",
+  "mønsterark panduro",
+  "mønsterark scrapbooking",
+  "mønsterark selfmade",
+  "mønsterark strikking",
+  "mønsterark sy",
+  "mønsterark søm",
+  "mønsterark til broderi",
+  "mønsterdybde",
+  "mønsterdybde dekk",
+  "mønsterdybde nye sommerdekk",
+  "mønsterdybde sommerdekk",
+  "mønsterdybde vinterdekk",
+  "mønsterdybdemåler",
+  "mønsterpapir",
+  "norsk 2 trinn oppgaver",
+  "norsk oppgaver 1 trinn",
+  "norsk oppgaver på nett",
+  "norskoppgaver 1 trinn utskrift",
+  "norskoppgaver 1.trinn",
+  "norskoppgaver 2 trinn",
+  "norskoppgaver 2 trinn utskrift",
+  "oppgaver addisjon med tierovergang",
+  "oppgaver addisjon og subtraksjon",
+  "oppgaver barnehage",
+  "oppgaver barnehageassistent",
+  "oppgaver barnehagelærer",
+  "oppgaver diftonger 2 trinn",
+  "oppgaver dyr",
+  "oppgaver engelsk 1 trinn",
+  "oppgaver engelsk 2 trinn",
+  "oppgaver for 1 trinn",
+  "oppgaver for 2 trinn",
+  "oppgaver for barn",
+  "oppgaver for barn 8 år",
+  "oppgaver for barn hjemme",
+  "oppgaver for barn i barnehage",
+  "oppgaver for barn i naturen",
+  "oppgaver for barn med autisme",
+  "oppgaver for barn utskrift",
+  "oppgaver for barnehagebarn",
+  "oppgaver for skolestartere",
+  "oppgaver former",
+  "oppgaver geometri 2. trinn",
+  "oppgaver jul 1 trinn",
+  "oppgaver jul 5 trinn",
+  "oppgaver jul 6.trinn",
+  "oppgaver jul barn",
+  "oppgaver jul engelsk",
+  "oppgaver jul norsk",
+  "oppgaver jul skole",
+  "oppgaver klokka 2 trinn",
+  "oppgaver matematikk 1 trinn",
+  "oppgaver matematikk 2 trinn",
+  "oppgaver musikk",
+  "oppgaver måling 1 trinn",
+  "oppgaver måling 2 trinn",
+  "oppgaver måling 4 trinn",
+  "oppgaver norsk 1 trinn",
+  "oppgaver norsk 2 trinn",
+  "oppgaver på nett",
+  "oppgaver subtraksjon med låning",
+  "oppgaver tallinje 2 trinn",
+  "oppgaver til utskrift",
+  "oppstilling subtraksjon oppgaver",
+  "oppstilt addisjon oppgaver",
+  "oppstilt addisjon oppgaver utskrift",
+  "oppstilt subtraksjon oppgaver",
+  "ordleting",
+  "ordleting jul",
+  "ordleting kryssord",
+  "ordleting oppgaver",
+  "ordletingsvansker",
+  "ordletingsvansker adhd",
+  "ordletingsvansker afasi",
+  "ordletingsvansker barn",
+  "ordletingsvansker demens",
+  "ordletingsvansker tiltak",
+  "palettblad sorter bilder",
+  "plasseringsord",
+  "politiske oppgaver kryssord",
+  "praktiske matteoppgaver 1. trinn",
+  "praktiske matteoppgaver 2 trinn",
+  "praktiske oppgaver måling",
+  "preposisjoner",
+  "preposisjoner barnehage",
+  "preposisjoner eksempler",
+  "preposisjoner engelsk",
+  "preposisjoner fransk",
+  "preposisjoner kryssord",
+  "preposisjoner norsk",
+  "preposisjoner norsk som andrespråk",
+  "preposisjoner oppgaver",
+  "preposisjoner oppgaver barn",
+  "preposisjoner oppgaver barnehage",
+  "preposisjoner oppgaver engelsk",
+  "preposisjoner oppgaver norsk",
+  "preposisjoner oppgaver pdf",
+  "preposisjoner oppgaver utskrift",
+  "preposisjoner spansk",
+  "preposisjoner spansk oppgaver",
+  "preposisjoner tysk",
+  "prikk til prikk oppgaver utskrift barn",
+  "påske oppgaver",
+  "påske oppgaver 1 trinn",
+  "påske oppgaver barn",
+  "påske oppgaver matematikk",
+  "påske oppgaver skole",
+  "påske rebusløp oppgaver",
+  "påske skattejakt gratis",
+  "r1 matte på nett",
+  "radon måling gratis",
+  "rosor sorter bilder",
+  "sammenligne iphone størrelser",
+  "sammenligne mengder",
+  "sammenligne størrelser",
+  "sammenligne tall",
+  "sammenligne tall i excel",
+  "sammenligne tall i to kolonner i excel",
+  "skattejakt",
+  "skattejakt barnebursdag",
+  "skattejakt barnehage",
+  "skattejakt filmer",
+  "skattejakt for barn",
+  "skattejakt i fjæra nrk",
+  "skattejakt oppgaver",
+  "skattejakt oppgaver barn",
+  "skattejakt rebus barn",
+  "skattejakt rebus barn påske",
+  "skattejakten",
+  "skattejakten as",
+  "skattejakten nrk",
+  "sommaräpplen sorter bilder",
+  "sommer oppgaver",
+  "sommeroppgaver skole",
+  "spansk oppgaver på nett",
+  "språkforståelse og språklig bevissthet",
+  "språklig bevissthet",
+  "språklig bevissthet aktiviteter",
+  "språklig bevissthet barn",
+  "språklig bevissthet barnehage",
+  "språklig bevissthet definisjon",
+  "språklig bevissthet i barnehagen",
+  "språklig bevissthet prøve",
+  "stor eller liten barnehage",
+  "stor eller liten bokstav",
+  "stor eller liten bokstav etter kolon",
+  "stor eller liten bokstav etter semikolon",
+  "stor eller liten bokstav etter tankestrek",
+  "stor eller liten bokstav i punktlista",
+  "stor eller liten forbokstav",
+  "stor eller liten forbokstav på månader",
+  "stor eller liten s i statsforvalteren",
+  "stor eller liten service bil",
+  "stor eller liten sølje øverst",
+  "subtraksjon",
+  "subtraksjon 1 trinn",
+  "subtraksjon 1. trinn",
+  "subtraksjon 2 trinn",
+  "subtraksjon med brøk",
+  "subtraksjon med låning",
+  "subtraksjon med tierovergang",
+  "subtraksjon med tierovergang 2 trinn",
+  "subtraksjon med veksling",
+  "subtraksjon oppgaver",
+  "subtraksjon oppgaver 1 trinn",
+  "subtraksjon oppgaver 2 trinn",
+  "subtraksjon oppgaver 3 trinn",
+  "subtraksjon oppgaver 4 trinn",
+  "subtraksjon oppgaver pdf",
+  "subtraksjon oppgaver utskrift",
+  "subtraksjon på tallinje",
+  "subtraksjon spill",
+  "subtraksjonsmetoden",
+  "sudoku oppgaver gratis",
+  "sudoku oppgaver på nett",
+  "sushi sorter bilder",
+  "t matte på nett",
+  "tallinje",
+  "tallinje 0 100 gratis",
+  "tallinje 0 100 utskrift",
+  "tallinje 0 20 gratis",
+  "tallinje 0-100",
+  "tallinje 0-20",
+  "tallinje 0-20 oppgaver",
+  "tallinje 1 trinn",
+  "tallinje 1-20",
+  "tallinje 2 trinn",
+  "tallinje arbetsblad gratis",
+  "tallinje med negative tall",
+  "tallinje oppgaver",
+  "tallinje oppgaver 1 trinn",
+  "tallinje oppgaver 2 trinn",
+  "tallinje oppgaver 3 trinn",
+  "tallinje oppgaver 4 trinn",
+  "tallinje til 20",
+  "tallinjer",
+  "tallrekker arbeidsark",
+  "tallvenner arbeidsark",
+  "tellestreker",
+  "tellestreker 5",
+  "tellestreker oppgaver",
+  "tellestreker på engelsk",
+  "tenkende klasserom oppgaver",
+  "thuja sorter bilder",
+  "tierramme",
+  "tierramme oppgaver",
+  "tierrammer",
+  "tom tallinje oppgaver",
+  "trafikk bingo barnehage",
+  "tras språklig bevissthet",
+  "trivielle oppgaver kryssord",
+  "tyskoppgaver på nett",
+  "vanskelige logiske gåter",
+  "verb oppgaver på nett",
+  "verdensrommet oppgaver",
+  "vidas gratis matching story",
+  "vinter ol oppgaver",
+  "vinter oppgaver",
+  "visuell oppmerksomhet",
+  "vår oppgaver",
+  "vårbingo barnehage",
+  "vårtegn bingo barnehage",
+  "vær oppgaver",
+  "webinar geometri gratis",
+  "webinar geometri gratis 2025",
+  "yrker oppgaver",
+  "åpne oppgaver matematikk 2 trinn"
+ ]
 }

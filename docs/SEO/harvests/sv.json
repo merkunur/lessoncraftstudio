@@ -4,8 +4,8 @@
   "hl": "sv",
   "gl": "se"
  },
- "generatedAt": "2026-07-06T16:30:58.472Z",
- "requestCount": 40,
+ "generatedAt": "2026-07-06T18:00:42.458Z",
+ "requestCount": 655,
  "seedCounts": {
   "core": 4,
   "types": 177,
@@ -15,89 +15,3435 @@
   "online": 8,
   "alphabet": 58
  },
- "errorCount": 41,
- "errors": [
-  {
-   "seed": "arbetsblad",
-   "err": "HTTP 403"
+ "errorCount": 0,
+ "errors": [],
+ "suggestions": {
+  "arbetsblad": {
+   "cls": "core",
+   "s": [
+    "arbetsblad",
+    "arbetsblad xyz",
+    "arbetsblad matematik åk 2",
+    "arbetsblad matematik",
+    "arbetsblad matematik åk 1",
+    "arbetsblad engelska åk 3",
+    "arbetsblad förskoleklass",
+    "arbetsblad matematik åk 3",
+    "arbetsblad matematik åk 5",
+    "arbetsblad vår"
+   ]
   },
-  {
-   "seed": "arbetsblad att skriva ut",
-   "err": "HTTP 403"
+  "arbetsblad att skriva ut": {
+   "cls": "core",
+   "s": [
+    "arbetsblad att skriva ut matematik",
+    "arbetsblad att skriva ut matematik förskoleklass",
+    "arbetsblad att skriva ut",
+    "arbetsblad att skriva ut svenska",
+    "arbetsblad att skriva ut matematik förskola",
+    "arbetsblad sekvensbilder att skriva ut",
+    "engelska arbetsblad att skriva ut",
+    "arbetsblad förskola skriva ut",
+    "arbetsblad skrivövningar för barn att skriva ut"
+   ]
   },
-  {
-   "seed": "övningsblad",
-   "err": "HTTP 403"
+  "övningsblad": {
+   "cls": "core",
+   "s": [
+    "övningsblad skrivstil",
+    "övningsblad bokstäver",
+    "övningsblad multiplikationstabellen",
+    "övningsblad lettering",
+    "övningsblad klockan",
+    "övningsblad matematik",
+    "övningsblad multiplikation",
+    "övningsblad siffror",
+    "övningsblad hockey",
+    "övningsblad ekvationer"
+   ]
   },
-  {
-   "seed": "arbetsblad gratis",
-   "err": "HTTP 403"
+  "arbetsblad gratis": {
+   "cls": "core",
+   "s": [
+    "arbetsblad gratis",
+    "gratis arbetsblad förskola",
+    "gratis arbetsblad förskoleklass",
+    "gratis arbetsblad matematik",
+    "gratis arbetsblad svenska",
+    "tiokompisar arbetsblad gratis",
+    "symmetri arbetsblad gratis",
+    "dubbelteckning arbetsblad gratis",
+    "tallinje arbetsblad gratis",
+    "skiljetecken arbetsblad gratis"
+   ]
   },
-  {
-   "seed": "addition",
-   "err": "HTTP 403"
+  "addition": {
+   "cls": "types",
+   "s": [
+    "addition",
+    "additionsmetoden",
+    "additional",
+    "additional svenska",
+    "addition med bråk",
+    "additionally synonym",
+    "additionals polestar",
+    "additionally svenska",
+    "addition och subtraktion",
+    "additional materials"
+   ]
   },
-  {
-   "seed": "addition arbetsblad",
-   "err": "HTTP 403"
+  "addition arbetsblad": {
+   "cls": "types",
+   "s": [
+    "addition arbetsblad",
+    "arbetsblad addition och subtraktion",
+    "arbetsblad addition 0 20",
+    "arbetsblad addition 0 10",
+    "arbetsblad addition uppställning",
+    "arbetsblad addition åk 1",
+    "enkel addition arbetsblad",
+    "upprepad addition arbetsblad",
+    "matematik addition arbetsblad",
+    "addition med tiotalsövergång arbetsblad"
+   ]
   },
-  {
-   "seed": "addition gratis",
-   "err": "HTTP 403"
+  "addition gratis": {
+   "cls": "types",
+   "s": [
+    "plus gratis",
+    "plus gratis ps4",
+    "plus gratis ps5",
+    "add gratis test",
+    "plus gratis chatgpt",
+    "plus gratis playstation",
+    "plus gratis tv",
+    "plus gratis zalando",
+    "plus gratis ps",
+    "plus gratis roblox"
+   ]
   },
-  {
-   "seed": "bildsudoku",
-   "err": "HTTP 403"
+  "bildsudoku": {
+   "cls": "types",
+   "s": [
+    "bildsudoku"
+   ]
   },
-  {
-   "seed": "bildsudoku arbetsblad",
-   "err": "HTTP 403"
+  "kryptogram": {
+   "cls": "types",
+   "s": [
+    "kryptogram",
+    "kryptogram korsord",
+    "kryptogram synonym",
+    "kryptogram 8 bokstäver",
+    "kryptogram svenska",
+    "kryptogram ab",
+    "kryptogram online",
+    "kryptogram woman like you"
+   ]
   },
-  {
-   "seed": "bildsudoku gratis",
-   "err": "HTTP 403"
+  "bildväg": {
+   "cls": "types",
+   "s": [
+    "bildvägg",
+    "bildvägg 9 bokstäver",
+    "bildvägg korsord 9 bokstäver",
+    "bildvägg tapet"
+   ]
   },
-  {
-   "seed": "kryptogram",
-   "err": "HTTP 403"
+  "subtraktion": {
+   "cls": "types",
+   "s": [
+    "subtraktion",
+    "subtraktion uppställning",
+    "subtraktion med bråk",
+    "subtraktion med växling",
+    "subtraktion termer",
+    "subtraktion av bråk",
+    "subtraktion med uppställning",
+    "subtraktionsangiografi",
+    "subtraktion med tiotalsövergång",
+    "subtraktion uppställning låna"
+   ]
   },
-  {
-   "seed": "kryptogram arbetsblad",
-   "err": "HTTP 403"
+  "subtraktion arbetsblad": {
+   "cls": "types",
+   "s": [
+    "subtraktion arbetsblad",
+    "arbetsblad subtraktion uppställning",
+    "arbetsblad subtraktion 0 10",
+    "addition och subtraktion arbetsblad",
+    "subtraktion med växling arbetsblad"
+   ]
   },
-  {
-   "seed": "kryptogram gratis",
-   "err": "HTTP 403"
+  "subtraktion gratis": {
+   "cls": "types",
+   "s": [
+    "minus gratis"
+   ]
   },
-  {
-   "seed": "bildväg",
-   "err": "HTTP 403"
+  "mer eller mindre": {
+   "cls": "types",
+   "s": [
+    "mer eller mindre tecken",
+    "mer eller mindre",
+    "mer eller mindre spel",
+    "mer eller mindre bredd i grafiken",
+    "mer eller mindre synonym",
+    "mer eller mindre bredd i grafiken korsord",
+    "mer eller mindre symbol",
+    "mer eller mindre berusande korsord",
+    "mer eller mindre taggade",
+    "mer eller mindre regler"
+   ]
   },
-  {
-   "seed": "bildväg arbetsblad",
-   "err": "HTTP 403"
+  "mattepussel": {
+   "cls": "types",
+   "s": [
+    "mattepussel",
+    "ko mattepussel"
+   ]
   },
-  {
-   "seed": "bildväg gratis",
-   "err": "HTTP 403"
+  "matteblad": {
+   "cls": "types",
+   "s": [
+    "matteblad",
+    "matteblad åk 2",
+    "matteblad förskoleklass",
+    "matteblad åk 1",
+    "matteblad förskola",
+    "matteblad åk 3",
+    "matteblad åk 4",
+    "matteblad att skriva ut",
+    "matteblad multiplikation",
+    "matteblad åk 5"
+   ]
   },
-  {
-   "seed": "subtraktion",
-   "err": "HTTP 403"
+  "stor eller liten": {
+   "cls": "types",
+   "s": [
+    "stor eller liten bokstav efter kolon",
+    "stor eller liten bokstav månad",
+    "stor eller liten bokstav efter semikolon",
+    "stor eller liten bokstav",
+    "stor eller liten sättpotatis",
+    "stor eller liten bokstav i punktlista",
+    "stor eller liten bokstav efter",
+    "stor eller liten service bil",
+    "stor eller liten bokstav i mailadress",
+    "stor eller liten kruka till pelargon"
+   ]
   },
-  {
-   "seed": "subtraktion arbetsblad",
-   "err": "HTTP 403"
+  "mönsterblad": {
+   "cls": "types",
+   "s": [
+    "mönsterblad föreningen för svensk hemslöjd"
+   ]
   },
-  {
-   "seed": "subtraktion gratis",
-   "err": "HTTP 403"
+  "bingo": {
+   "cls": "types",
+   "s": [
+    "bingolotto",
+    "bingolotto idag",
+    "bingo rimer",
+    "bingo",
+    "bingolottos sommarfest",
+    "bingolotto programledare",
+    "bingolotto ikväll",
+    "bingo online",
+    "bingo uddevalla",
+    "bingo trollhättan"
+   ]
   },
-  {
-   "seed": "kodaddition",
-   "err": "HTTP 403"
+  "bingo gratis": {
+   "cls": "types",
+   "s": [
+    "bingo gratis",
+    "bingo gratis online",
+    "bingo gratis casino",
+    "bingo gratis app",
+    "bingo gratis para jugar en casa",
+    "bingo gratis italiano",
+    "bingo gratis en español",
+    "bingo gratis sin registrarse",
+    "bingo gratis promatic",
+    "bingo gratis juego"
+   ]
+  },
+  "matchning": {
+   "cls": "types",
+   "s": [
+    "matchningsprincipen",
+    "matchnings app",
+    "matchning",
+    "matchningar",
+    "matchning synonym",
+    "matchningsprincipen redovisning",
+    "matchning på arbetsmarknaden",
+    "matchning från dag 1",
+    "matchnings app synonym",
+    "matchningsprincipen k3"
+   ]
+  },
+  "matchning gratis": {
+   "cls": "types",
+   "s": [
+    "matcha gratis",
+    "goodnews matcha gratis",
+    "matcha gratis testen"
+   ]
+  },
+  "sortera bilder": {
+   "cls": "types",
+   "s": [
+    "sortera bilder iphone",
+    "sortera bilder",
+    "sortera bilder mac",
+    "sortera bilder på datorn",
+    "sortera bilder efter storlek iphone",
+    "sortera bilder med ai",
+    "sortera bilder efter datum iphone",
+    "sortera bilder samsung",
+    "sortera bilder ipad",
+    "sortera bilder i album iphone"
+   ]
+  },
+  "prepositioner": {
+   "cls": "types",
+   "s": [
+    "prepositioner",
+    "prepositioner svenska",
+    "prepositioner lista",
+    "prepositioner som styr ackusativ tyska",
+    "prepositioner engelska",
+    "prepositioner som styr dativ tyska",
+    "prepositioner spanska",
+    "prepositioner tyska",
+    "prepositioner som styr ackusativ och dativ tyska",
+    "prepositioner franska"
+   ]
+  },
+  "prepositioner arbetsblad": {
+   "cls": "types",
+   "s": [
+    "prepositioner arbetsblad",
+    "arbetsblad prepositioner engelska"
+   ]
+  },
+  "gissa ordet": {
+   "cls": "types",
+   "s": [
+    "gissa ordet",
+    "gissa ordet spel",
+    "gissa ordet lek",
+    "gissa ordet svenska",
+    "gissa ordet app",
+    "gissa ordet barn",
+    "gissa ordet skolplus",
+    "gissa ordet hjälp",
+    "gissa ordet bok",
+    "gissa ordet sällskapsspel"
+   ]
+  },
+  "bokstavspussel": {
+   "cls": "types",
+   "s": [
+    "bokstavspussel",
+    "bokstavspussel trä",
+    "bokstavspussel app",
+    "bokstavspussel att skriva ut",
+    "bokstavspussel lekia",
+    "bokstavspussel lena andersson",
+    "bokstavspussel a ö",
+    "bokstavspussel djur",
+    "bokstavspussel smartare än en femteklassare",
+    "bokstavspussel app store"
+   ]
+  },
+  "ordleta": {
+   "cls": "types",
+   "s": [
+    "ordletare"
+   ]
+  },
+  "korsord": {
+   "cls": "types",
+   "s": [
+    "korsordshjälp",
+    "korsord",
+    "korsord online",
+    "korsordslexikon",
+    "korsord gratis",
+    "korsord barn",
+    "korsordshjälp 6 bokstäver",
+    "korsordshjälp 7 bokstäver",
+    "korsord hjälp",
+    "korsord 4 bokstäver"
+   ]
+  },
+  "korsord arbetsblad": {
+   "cls": "types",
+   "s": [
+    "korsord arbetsblad"
+   ]
+  },
+  "korsord gratis": {
+   "cls": "types",
+   "s": [
+    "korsord gratis",
+    "korsord gratis online",
+    "korsord gratis skriva ut",
+    "korsord gratis barn",
+    "korsord gratis lätt",
+    "korsord gratis pdf",
+    "korsord gratis skriva ut barn",
+    "korsord gratis ladda ner",
+    "korsord gratistidning com"
+   ]
+  },
+  "hitta och räkna": {
+   "cls": "types",
+   "s": [
+    "titta hitta och räkna med oss"
+   ]
+  },
+  "skattjakt": {
+   "cls": "types",
+   "s": [
+    "skattjakt barnkalas",
+    "skattjakt",
+    "skattjakt barn",
+    "skattjakt för vuxna",
+    "skattjakt med uppdrag barn",
+    "skattjakt barnkalas 7 år",
+    "skattjakten",
+    "skattjakt påsk",
+    "skattjakt med uppdrag barn gratis",
+    "skattjakt ledtrådar"
+   ]
+  },
+  "skattjakt gratis": {
+   "cls": "types",
+   "s": [
+    "skattjakt gratis",
+    "gratis skattjakt att skriva ut",
+    "gratis skattjakt barn",
+    "gratis skattjakt till barnkalas",
+    "halloween skattjakt gratis",
+    "skattjakt jul gratis",
+    "skattjakt ledtrådar gratis",
+    "skattjakt påsk gratis",
+    "färdig skattjakt gratis",
+    "skattjakt barnkalas gratis pdf"
+   ]
+  },
+  "saknade bitar": {
+   "cls": "types",
+   "s": [
+    "saknade bitar lego",
+    "saknar bitar korsord",
+    "saknar bitar",
+    "saknar bitar 3 bokstäver",
+    "saknar bitar webbkryss",
+    "saknar bitar 3 bokstäver korsord",
+    "saknas bitar i pussel"
+   ]
+  },
+  "vilken passar inte": {
+   "cls": "types",
+   "s": [
+    "vilka passar inte vågen med",
+    "vad passar inte bättre än",
+    "vem passar inte i lugg",
+    "vem passar inte kräftan med",
+    "vem passar inte stenbocken med",
+    "vem passar inte vattumannen med",
+    "vem passar inte jungfrun med",
+    "vad passar inte till champagne",
+    "vilken medicin passar inte med grapefrukt",
+    "vilken måltid passar inte för män"
+   ]
+  },
+  "räkna bilder": {
+   "cls": "types",
+   "s": [
+    "räkna bilder",
+    "räkna om bilder för tryck",
+    "räkna om i bilder för tryck korsord"
+   ]
+  },
+  "tioramar": {
+   "cls": "types",
+   "s": [
+    "tioramar",
+    "miramar 2025",
+    "miramar so high",
+    "tioramar valin ady",
+    "terramar 2026",
+    "miramar aza manahy",
+    "miramar hold up",
+    "miramar album",
+    "miramar victory",
+    "miramar victory parole"
+   ]
+  },
+  "räkna med streck": {
+   "cls": "types",
+   "s": [
+    "räkna med streck",
+    "räkna gånger med streck",
+    "räknestreck"
+   ]
+  },
+  "hundraruta": {
+   "cls": "types",
+   "s": [
+    "hundraruta",
+    "hundraruta skriva ut",
+    "hundrarutan",
+    "hundraruta att skriva ut gratis",
+    "hundraruta tom",
+    "hundraruta multiplikation",
+    "hundraruta skolplus",
+    "hundraruta ncm",
+    "hundraruta gratis",
+    "hundraruta utan siffror"
+   ]
+  },
+  "hundraruta gratis": {
+   "cls": "types",
+   "s": [
+    "hundraruta gratis"
+   ]
+  },
+  "jämföra tal": {
+   "cls": "types",
+   "s": [
+    "jämföra tal",
+    "jämföra tal i bråkform",
+    "compare tall",
+    "compare tallest buildings in the world",
+    "compare talents wow",
+    "compare tall buildings",
+    "compare talent builds wow",
+    "jämföra två tal i excel",
+    "compare tall and short",
+    "compare tally and zoho"
+   ]
+  },
+  "tallinje": {
+   "cls": "types",
+   "s": [
+    "tallinje",
+    "tallinjen",
+    "tallinje arbetsblad",
+    "tallinje 0-20",
+    "tallinje 0-100",
+    "tallinjen korsord",
+    "tallinje att skriva ut",
+    "tallinjen åk 3",
+    "tallinje med negativa tal",
+    "tallinje arbetsblad gratis"
+   ]
+  },
+  "tallinje arbetsblad": {
+   "cls": "types",
+   "s": [
+    "tallinje arbetsblad",
+    "tallinje arbetsblad gratis",
+    "tallinje arbetsblad åk 3 gratis",
+    "tallinje arbetsblad åk 3",
+    "tallinjen arbetsblad åk 1",
+    "tallinje 0 100 arbetsblad",
+    "tallinje 0 20 arbetsblad"
+   ]
+  },
+  "tallinje gratis": {
+   "cls": "types",
+   "s": [
+    "tallinje gratis",
+    "tallinje arbetsblad gratis",
+    "tallinje 0 100 gratis",
+    "tallinje 0 20 gratis"
+   ]
+  },
+  "tiotal och ental": {
+   "cls": "types",
+   "s": [
+    "tiotal och ental",
+    "tiotal och ental arbetsblad",
+    "tiotal och ental film",
+    "tiotal och ental åk 1",
+    "tiotal ental hundratal",
+    "vad är tiotal och ental"
+   ]
+  },
+  "tiotal och ental arbetsblad": {
+   "cls": "types",
+   "s": [
+    "tiotal och ental arbetsblad"
+   ]
+  },
+  "klockan": {
+   "cls": "types",
+   "s": [
+    "klockan nu",
+    "klockan",
+    "klockan i thailand",
+    "klockan i new york",
+    "klockan i usa",
+    "klockan i sverige",
+    "klockan just nu",
+    "klockan i japan",
+    "klockan i australien",
+    "klockan i los angeles"
+   ]
+  },
+  "klockan arbetsblad": {
+   "cls": "types",
+   "s": [
+    "klockan arbetsblad",
+    "klockan arbetsblad åk 3",
+    "arbetsblad klockan hel och halv",
+    "klocka arbetsblad",
+    "arbetsblad klockan åk 2",
+    "arbetsblad klockan hel timme",
+    "arbetsblad klockan förskoleklass",
+    "arbetsblad klockan engelska",
+    "arbetsblad klockan åk 4",
+    "arbetsblad klockan gratis"
+   ]
+  },
+  "klockan gratis": {
+   "cls": "types",
+   "s": [
+    "klockan gratis spel",
+    "skolmagi klockan gratis",
+    "klockan patiens gratis",
+    "träna klockan gratis",
+    "arbetsblad klockan gratis",
+    "lära sig klockan gratis app"
+   ]
+  },
+  "bråk": {
+   "cls": "types",
+   "s": [
+    "bråk",
+    "bråk korsord",
+    "bråkar med clouseau",
+    "bråk synonym",
+    "bråk matte",
+    "bråkdel",
+    "bråk korsord 5 bokstäver",
+    "bråk sofielund",
+    "bråkform",
+    "bråkar med clouseau korsord"
+   ]
+  },
+  "bråk arbetsblad": {
+   "cls": "types",
+   "s": [
+    "bråk arbetsblad",
+    "bråk arbetsblad åk 3",
+    "arbetsblad bråk åk 4",
+    "arbetsblad bråk åk 2",
+    "arbetsblad bråk åk 5",
+    "arbetsblad bråk och procent",
+    "arbetsblad bråk åk 6",
+    "jämföra bråk arbetsblad",
+    "förkorta bråk arbetsblad",
+    "räkna med bråk arbetsblad"
+   ]
+  },
+  "diagram": {
+   "cls": "types",
+   "s": [
+    "diagram",
+    "diagram excel",
+    "diagrammet",
+    "diagram maker",
+    "diagram engelska",
+    "diagram synonym",
+    "diagrammatisk",
+    "diagrams",
+    "diagram korsord",
+    "diagrammen"
+   ]
+  },
+  "diagram arbetsblad": {
+   "cls": "types",
+   "s": [
+    "diagram arbetsblad",
+    "tabeller och diagram arbetsblad"
+   ]
+  },
+  "diagram gratis": {
+   "cls": "types",
+   "s": [
+    "diagram gratis",
+    "design gratis",
+    "flowchart gratis online",
+    "schema gratis amigurumi",
+    "schema gratis mall",
+    "canva gratis design",
+    "design gratis app",
+    "schema gratis online",
+    "skapa diagram gratis",
+    "flowchart gratis"
+   ]
+  },
+  "geometri": {
+   "cls": "types",
+   "s": [
+    "geometri",
+    "geometriska former",
+    "geometriska figurer",
+    "geometrisk summa",
+    "geometri korsord",
+    "geometrisk talföljd",
+    "geometri synonym",
+    "geometrisk summa formel",
+    "geometry dash",
+    "geometrins fader"
+   ]
+  },
+  "geometri arbetsblad": {
+   "cls": "types",
+   "s": [
+    "geometri arbetsblad",
+    "geometri arbetsblad åk 1",
+    "geografi arbetsblad"
+   ]
+  },
+  "geometri gratis": {
+   "cls": "types",
+   "s": [
+    "geometri gratis",
+    "geometry gratis",
+    "geografi gratis",
+    "geometry gratis online",
+    "deontologia geometri gratis",
+    "corsi gratuiti geometri",
+    "cfp geometri gratis",
+    "webinar geometri gratis",
+    "crediti geometri gratis",
+    "geometri online gratis"
+   ]
+  },
+  "mätning": {
+   "cls": "types",
+   "s": [
+    "mätningsingenjör",
+    "mätningsingenjör lön",
+    "mätning partier",
+    "mätning",
+    "mätning inför valet 2026",
+    "mätningstekniker lön",
+    "mätningarnas mätning",
+    "mätningstekniker",
+    "mätningsingenjör utbildning",
+    "mätningar politik"
+   ]
+  },
+  "mätning arbetsblad": {
+   "cls": "types",
+   "s": [
+    "mätning arbetsblad",
+    "mäta arbetsblad"
+   ]
+  },
+  "mätning gratis": {
+   "cls": "types",
+   "s": [
+    "gratis test",
+    "test gratis de personalidad",
+    "test gratis constitucion española",
+    "test gratis de autismo",
+    "test gratis adhd",
+    "test gratis de iq",
+    "iq test gratis",
+    "test gratis de coeficiente intelectual",
+    "test gratis para saber que carrera estudiar",
+    "test depression gratis"
+   ]
+  },
+  "logiska pussel": {
+   "cls": "types",
+   "s": [
+    "logiska pussel",
+    "logiska pussel barn",
+    "logiska pussel online",
+    "logiska pussel bok"
+   ]
+  },
+  "visuell perception": {
+   "cls": "types",
+   "s": [
+    "visuell perception",
+    "visuell perception betyder",
+    "visuell perceptionsstörning",
+    "visuell perception styrka",
+    "visuella perceptionssvårigheter",
+    "visuel perceptionsforstyrrelse",
+    "visuel perception dansk"
+   ]
+  },
+  "para ihop bilder": {
+   "cls": "types",
+   "s": [
+    "para ihop bilder förskolan",
+    "para ihop bilder",
+    "para ihop bilder spel",
+    "slå ihop bilder iphone",
+    "slå ihop bilder",
+    "slå ihop bilder till en pdf",
+    "slå ihop bilder gratis",
+    "slå ihop bilder ai",
+    "slå ihop bilder powerpoint",
+    "para ihop två bilder"
+   ]
+  },
+  "para ihop bilder gratis": {
+   "cls": "types",
+   "s": [
+    "slå ihop bilder gratis"
+   ]
+  },
+  "mönster": {
+   "cls": "types",
+   "s": [
+    "mönsterdjup sommardäck",
+    "mönsterås",
+    "mönsterdjup vinterdäck",
+    "mönster",
+    "mönsterdjup nya sommardäck",
+    "mönsterbetong",
+    "mönsterås kommun",
+    "mönsterfabriken",
+    "mönster stickad tröja",
+    "mönsterdjup däck"
+   ]
+  },
+  "mönster arbetsblad": {
+   "cls": "types",
+   "s": [
+    "mönster arbetsblad",
+    "mönster arbetsblad förskoleklass",
+    "mönster arbetsblad åk 1",
+    "arbetsblad mönster förskolan"
+   ]
+  },
+  "mönster gratis": {
+   "cls": "types",
+   "s": [
+    "mönster gratis",
+    "mönster gratis stickning",
+    "mönster gratis virka",
+    "mönster gratis barn",
+    "mönster gratis sy",
+    "mönster gratis baby",
+    "mönster gratis vantar",
+    "mönster gratis raggsockor",
+    "mönster gratis mössa",
+    "mönster gratis torgvantar"
+   ]
+  },
+  "räkna med bilder": {
+   "cls": "types",
+   "s": [
+    "räkna bilder"
+   ]
+  },
+  "första ljudet": {
+   "cls": "types",
+   "s": [
+    "första ljudet",
+    "första ljudet förskoleklass",
+    "första ljudet arbetsblad",
+    "första ljudet bingo",
+    "första ljudet tärningsbingo",
+    "första ljudet i ord",
+    "första ljudet spel",
+    "första ljudet film",
+    "första ljudet wordwall",
+    "första inspelade ljudet"
+   ]
+  },
+  "första ljudet arbetsblad": {
+   "cls": "types",
+   "s": [
+    "första ljudet arbetsblad"
+   ]
+  },
+  "bokstavskunskap": {
+   "cls": "types",
+   "s": [
+    "bokstavskunskap",
+    "bokstavskunskap legilexi"
+   ]
+  },
+  "bygga ord": {
+   "cls": "types",
+   "s": [
+    "bygga ord",
+    "bygga ord med bokstäver",
+    "bygga ordförråd",
+    "bygga ord av bokstäver",
+    "bygga ord wordfeud",
+    "bygga ord spel",
+    "bygga ordmoln",
+    "bygg ordlista",
+    "bygg ordlista engelska svenska",
+    "bygga lasagne ordning"
+   ]
+  },
+  "fonologisk medvetenhet": {
+   "cls": "types",
+   "s": [
+    "fonologisk medvetenhet",
+    "fonologisk medvetenhet övningar",
+    "fonologisk medvetenhet i förskolan",
+    "fonologisk medvetenhet trappa",
+    "fonologisk medvetenhet skolverket",
+    "fonologisk medvetenhet dyslexi",
+    "fonologisk medvetenhet test",
+    "fonologisk medvetenhet betyder",
+    "fonologisk medvetenhet engelska",
+    "fonologisk medvetenhet exempel"
+   ]
+  },
+  "addition förskola": {
+   "cls": "typeGrade",
+   "s": [
+    "addition förskola",
+    "addition.i förskolan"
+   ]
+  },
+  "addition förskoleklass": {
+   "cls": "typeGrade",
+   "s": [
+    "addition förskoleklass",
+    "räkna addition förskoleklass",
+    "enkel addition förskoleklass",
+    "addition och subtraktion förskoleklass"
+   ]
+  },
+  "addition åk 1": {
+   "cls": "typeGrade",
+   "s": [
+    "addition åk 1",
+    "addition årskurs 1",
+    "matematik addition åk 1",
+    "introducera addition åk 1",
+    "arbetsblad addition åk 1",
+    "addition och subtraktion åk 1",
+    "addition med tre termer åk 1"
+   ]
+  },
+  "addition åk 2": {
+   "cls": "typeGrade",
+   "s": [
+    "addition åk 2",
+    "uppställning addition åk 2",
+    "addition med uppställning åk 2",
+    "addition och subtraktion åk 2"
+   ]
+  },
+  "addition årskurs 1": {
+   "cls": "typeGrade",
+   "s": [
+    "addition årskurs 1",
+    "addition åk 1",
+    "matematik addition åk 1",
+    "introducera addition åk 1",
+    "arbetsblad addition åk 1"
+   ]
+  },
+  "subtraktion förskola": {
+   "cls": "typeGrade",
+   "s": [
+    "subtraktion förskola"
+   ]
+  },
+  "subtraktion förskoleklass": {
+   "cls": "typeGrade",
+   "s": [
+    "subtraktion förskoleklass",
+    "addition och subtraktion förskoleklass"
+   ]
+  },
+  "subtraktion åk 1": {
+   "cls": "typeGrade",
+   "s": [
+    "subtraktion åk 1",
+    "multiplikation åk 1",
+    "division åk 1",
+    "subtraktion film åk 1",
+    "subtraktion övningar åk 1",
+    "matte subtraktion åk 1",
+    "problemlösning subtraktion åk 1",
+    "addition och subtraktion åk 1",
+    "samband addition och subtraktion åk 1"
+   ]
+  },
+  "subtraktion åk 2": {
+   "cls": "typeGrade",
+   "s": [
+    "subtraktion åk 2",
+    "subtraktion årskurs 2",
+    "division åk 2",
+    "multiplikation åk 2",
+    "uppställning subtraktion åk 2",
+    "problemlösning subtraktion åk 2",
+    "uppställning subtraktion årskurs 2",
+    "subtraktion med växling åk 2",
+    "addition och subtraktion åk 2"
+   ]
+  },
+  "subtraktion årskurs 1": {
+   "cls": "typeGrade",
+   "s": [
+    "subtraktion årskurs 1",
+    "multiplikation årskurs 1",
+    "subtraktion film åk 1",
+    "subtraktion övningar åk 1",
+    "matte subtraktion åk 1",
+    "problemlösning subtraktion åk 1"
+   ]
+  },
+  "matteblad förskola": {
+   "cls": "typeGrade",
+   "s": [
+    "matteblad förskola"
+   ]
+  },
+  "matteblad förskoleklass": {
+   "cls": "typeGrade",
+   "s": [
+    "matteblad förskoleklass"
+   ]
+  },
+  "matteblad åk 1": {
+   "cls": "typeGrade",
+   "s": [
+    "matteblad åk 1",
+    "matteuppgifter åk 1",
+    "mattetal åk 1",
+    "matteuppgifter åk 1 att skriva ut",
+    "matteuppgifter åk 1 gymnasiet",
+    "mattetal åk 1 skriva ut",
+    "matteuppgifter åk 1 gratis"
+   ]
+  },
+  "matteblad åk 2": {
+   "cls": "typeGrade",
+   "s": [
+    "matteblad åk 2",
+    "matteuppgifter åk 2",
+    "mattetal åk 2",
+    "matteuppgifter åk 2 skriva ut",
+    "mattetal åk 2 att skriva ut"
+   ]
+  },
+  "matteblad årskurs 1": {
+   "cls": "typeGrade",
+   "s": [
+    "matteblad åk 1",
+    "matteuppgifter årskurs 1",
+    "mattetal årskurs 1"
+   ]
+  },
+  "stor eller liten förskola": {
+   "cls": "typeGrade",
+   "s": [
+    "stor eller liten förskola"
+   ]
+  },
+  "bingo förskola": {
+   "cls": "typeGrade",
+   "s": [
+    "bingo förskola",
+    "vårtecken bingo förskola",
+    "matematik bingo förskola",
+    "vår bingo förskola"
+   ]
+  },
+  "bingo förskoleklass": {
+   "cls": "typeGrade",
+   "s": [
+    "bingo förskoleklass"
+   ]
+  },
+  "bingo åk 1": {
+   "cls": "typeGrade",
+   "s": [
+    "bingo åk 1"
+   ]
+  },
+  "bingo årskurs 1": {
+   "cls": "typeGrade",
+   "s": [
+    "bingo åk 1"
+   ]
+  },
+  "prepositioner förskola": {
+   "cls": "typeGrade",
+   "s": [
+    "prepositioner förskola",
+    "lägesord förskola",
+    "lägesord förskola syfte",
+    "lägesord förskola aktivitet",
+    "prepositioner matematik förskola",
+    "lägesord prepositioner förskola",
+    "träna prepositioner förskola"
+   ]
+  },
+  "prepositioner förskoleklass": {
+   "cls": "typeGrade",
+   "s": [
+    "prepositioner förskoleklass"
+   ]
+  },
+  "prepositioner åk 1": {
+   "cls": "typeGrade",
+   "s": [
+    "prepositioner åk 1"
+   ]
+  },
+  "prepositioner årskurs 1": {
+   "cls": "typeGrade",
+   "s": [
+    "prepositioner åk 1"
+   ]
+  },
+  "korsord förskola": {
+   "cls": "typeGrade",
+   "s": [
+    "korsord förskola",
+    "korsord barn förskola",
+    "på förskolan korsord",
+    "i förskolan korsord 8 bokstäver"
+   ]
+  },
+  "korsord förskoleklass": {
+   "cls": "typeGrade",
+   "s": [
+    "korsord förskoleklass",
+    "efter förskoleklassen korsord"
+   ]
+  },
+  "korsord åk 1": {
+   "cls": "typeGrade",
+   "s": [
+    "korsord åk 1",
+    "korsord årskurs 1",
+    "åk korsord 11 bokstäver"
+   ]
+  },
+  "korsord åk 2": {
+   "cls": "typeGrade",
+   "s": [
+    "korsord åk 2",
+    "korsord årskurs 2",
+    "åk korsord 2 bokstäver",
+    "klass korsord 2 bokstäver",
+    "korsord engelska åk 2",
+    "litet åk korsord 2 bokstäver"
+   ]
+  },
+  "korsord årskurs 1": {
+   "cls": "typeGrade",
+   "s": [
+    "korsord årskurs 1",
+    "korsord åk 1",
+    "åk korsord 11 bokstäver"
+   ]
+  },
+  "skattjakt förskola": {
+   "cls": "typeGrade",
+   "s": [
+    "skattjakt förskola",
+    "skattjakt skogen förskola",
+    "skattjakt utomhus förskola",
+    "skattjakt inomhus förskola"
+   ]
+  },
+  "skattjakt förskoleklass": {
+   "cls": "typeGrade",
+   "s": [
+    "skattjakt förskoleklass"
+   ]
+  },
+  "skattjakt åk 1": {
+   "cls": "typeGrade",
+   "s": [
+    "skattjakt åk 1"
+   ]
+  },
+  "skattjakt årskurs 1": {
+   "cls": "typeGrade",
+   "s": [
+    "skattjakt åk 1"
+   ]
+  },
+  "jämföra storlekar förskola": {
+   "cls": "typeGrade",
+   "s": [
+    "jämföra storlek förskola"
+   ]
+  },
+  "tallinje förskola": {
+   "cls": "typeGrade",
+   "s": [
+    "tallinje förskola"
+   ]
+  },
+  "tallinje förskoleklass": {
+   "cls": "typeGrade",
+   "s": [
+    "tallinje förskoleklass"
+   ]
+  },
+  "tallinje åk 1": {
+   "cls": "typeGrade",
+   "s": [
+    "tallinje åk 1",
+    "tallinjen arbetsblad åk 1",
+    "tallinjen övningar åk 1"
+   ]
+  },
+  "tallinje åk 2": {
+   "cls": "typeGrade",
+   "s": [
+    "tallinje åk 2"
+   ]
+  },
+  "tallinje årskurs 1": {
+   "cls": "typeGrade",
+   "s": [
+    "tallinje åk 1"
+   ]
+  },
+  "tiotal och ental åk 1": {
+   "cls": "typeGrade",
+   "s": [
+    "tiotal och ental åk 1"
+   ]
+  },
+  "tiotal och ental åk 2": {
+   "cls": "typeGrade",
+   "s": [
+    "ental och tiotal åk 2"
+   ]
+  },
+  "tiotal och ental årskurs 1": {
+   "cls": "typeGrade",
+   "s": [
+    "tiotal och ental åk 1"
+   ]
+  },
+  "klockan förskola": {
+   "cls": "typeGrade",
+   "s": [
+    "klockan förskola",
+    "klockan förskola norrköping",
+    "klocka förskola",
+    "klockans förskola årstad",
+    "jobba med klockan förskola",
+    "lära sig klockan förskola"
+   ]
+  },
+  "klockan förskoleklass": {
+   "cls": "typeGrade",
+   "s": [
+    "klockan förskoleklass",
+    "klocka förskoleklass",
+    "arbetsblad klockan förskoleklass",
+    "träna klockan förskoleklass",
+    "film om klockan förskoleklass"
+   ]
+  },
+  "klockan åk 1": {
+   "cls": "typeGrade",
+   "s": [
+    "klockan åk 1",
+    "klockan årskurs 1",
+    "klockan film åk 1",
+    "träna klockan åk 1",
+    "introducera klockan åk 1",
+    "lära sig klockan åk 1"
+   ]
+  },
+  "klockan åk 2": {
+   "cls": "typeGrade",
+   "s": [
+    "klockan åk 2",
+    "klockan årskurs 2",
+    "klockan uppgifter åk 2",
+    "arbetsblad klockan åk 2",
+    "problemlösning klockan åk 2",
+    "träna klockan åk 2",
+    "lära sig klockan åk 2",
+    "film om klockan åk 2"
+   ]
+  },
+  "klockan årskurs 1": {
+   "cls": "typeGrade",
+   "s": [
+    "klockan årskurs 1",
+    "klockan åk 1",
+    "klockan film åk 1",
+    "träna klockan åk 1",
+    "introducera klockan åk 1"
+   ]
+  },
+  "bråk förskola": {
+   "cls": "typeGrade",
+   "s": [
+    "bråk på förskolan"
+   ]
+  },
+  "bråk åk 1": {
+   "cls": "typeGrade",
+   "s": [
+    "bråk åk 1"
+   ]
+  },
+  "bråk åk 2": {
+   "cls": "typeGrade",
+   "s": [
+    "bråk åk 2",
+    "bråk årskurs 2",
+    "bråk matte åk 2",
+    "arbetsblad bråk åk 2"
+   ]
+  },
+  "bråk årskurs 1": {
+   "cls": "typeGrade",
+   "s": [
+    "bråk åk 1"
+   ]
+  },
+  "diagram förskola": {
+   "cls": "typeGrade",
+   "s": [
+    "diagram förskola",
+    "schema förskola hudiksvall",
+    "schema förskola",
+    "schema förskola personal",
+    "schema förskola oskarshamn",
+    "schema förskola boden",
+    "schema förskola örnsköldsvik",
+    "schema förskola vimmerby",
+    "schema förskola skellefteå",
+    "schema förskola hudiksvalls kommun"
+   ]
+  },
+  "diagram förskoleklass": {
+   "cls": "typeGrade",
+   "s": [
+    "diagram förskoleklass",
+    "schema förskoleklass",
+    "schema förskoleklass stockholm"
+   ]
+  },
+  "diagram åk 1": {
+   "cls": "typeGrade",
+   "s": [
+    "diagram åk 1",
+    "schema åk 1",
+    "diagram årskurs 1",
+    "schema klass 1",
+    "schema årskurs 1 grundskola",
+    "tabeller och diagram åk 1"
+   ]
+  },
+  "diagram åk 2": {
+   "cls": "typeGrade",
+   "s": [
+    "diagram åk 2",
+    "schema åk 2",
+    "moped klass 2",
+    "schema 24 åkersberga",
+    "tabeller och diagram åk 2",
+    "klass model 2025"
+   ]
+  },
+  "diagram årskurs 1": {
+   "cls": "typeGrade",
+   "s": [
+    "diagram årskurs 1",
+    "schema årskurs 1",
+    "diagram åk 1",
+    "schema årskurs 1 grundskola"
+   ]
+  },
+  "geometri förskola": {
+   "cls": "typeGrade",
+   "s": [
+    "geometri förskola",
+    "geografi förskola"
+   ]
+  },
+  "geometri förskoleklass": {
+   "cls": "typeGrade",
+   "s": [
+    "geometri förskoleklass"
+   ]
+  },
+  "geometri åk 1": {
+   "cls": "typeGrade",
+   "s": [
+    "geometri åk 1",
+    "matte åk 1",
+    "matte åk 1 gymnasiet",
+    "matte åk 1 skriva ut",
+    "geometri årskurs 1",
+    "geografi åk 1",
+    "matte åk 1 3",
+    "geografi åk 1-3",
+    "matte åk 1 pdf",
+    "matte årskurs 1"
+   ]
+  },
+  "geometri åk 2": {
+   "cls": "typeGrade",
+   "s": [
+    "geometri åk 2",
+    "matte åk 2",
+    "matte åk 2 skriva ut",
+    "geografi åk 2",
+    "matte åk 2 multiplikation",
+    "matte åk 2 gymnasiet",
+    "geometri årskurs 2",
+    "matte årskurs 2",
+    "matte klass 2",
+    "matte årskurs 2 övningar"
+   ]
+  },
+  "geometri årskurs 1": {
+   "cls": "typeGrade",
+   "s": [
+    "geometri årskurs 1",
+    "geometri åk 1",
+    "geografi årskurs 1",
+    "geografi åk 1",
+    "geografi åk 1-3",
+    "geometri arbetsblad åk 1",
+    "geometriska former årskurs 1",
+    "geometri och bedömning i årskurs 1 3"
+   ]
+  },
+  "mätning förskola": {
+   "cls": "typeGrade",
+   "s": [
+    "mätning förskola",
+    "mäta förskola",
+    "tema mätning förskola",
+    "mätning på förskolan"
+   ]
+  },
+  "mätning förskoleklass": {
+   "cls": "typeGrade",
+   "s": [
+    "mätning förskoleklass",
+    "mäta förskoleklass",
+    "test förskoleklass"
+   ]
+  },
+  "mätning åk 1": {
+   "cls": "typeGrade",
+   "s": [
+    "mätning åk 1",
+    "mäta åk 1",
+    "h4 test åk 1",
+    "legilexi test åk 1",
+    "mäta längd åk 1",
+    "dls test åk 1",
+    "test 1 klass"
+   ]
+  },
+  "mätning åk 2": {
+   "cls": "typeGrade",
+   "s": [
+    "mäta åk 2",
+    "legilexi test åk 2",
+    "h4 test åk 2",
+    "dls test åk 2",
+    "matte test åk 2",
+    "läsförståelse test åk 2",
+    "mäta tid åk 2",
+    "тест 2 класс"
+   ]
+  },
+  "mätning årskurs 1": {
+   "cls": "typeGrade",
+   "s": [
+    "mäta årskurs 1",
+    "mätning åk 1"
+   ]
+  },
+  "para ihop bilder förskola": {
+   "cls": "typeGrade",
+   "s": [
+    "para ihop bilder förskolan"
+   ]
+  },
+  "mönster förskola": {
+   "cls": "typeGrade",
+   "s": [
+    "mönster förskola",
+    "tema mönster förskola",
+    "följa mönster förskola",
+    "mönster matematik förskola",
+    "skapa mönster förskola",
+    "träna mönster förskolan",
+    "lego mönster förskola",
+    "projekt mönster förskola",
+    "aktivitet mönster förskola",
+    "mandala mönster förskola"
+   ]
+  },
+  "mönster förskoleklass": {
+   "cls": "typeGrade",
+   "s": [
+    "mönster förskoleklass",
+    "mönster förskoleklass film",
+    "mönster matematik förskoleklass",
+    "arbetsblad mönster förskoleklass",
+    "mönster uppgifter förskoleklass",
+    "följa mönster förskoleklass",
+    "mönster övning förskoleklass",
+    "kartläggning mönster förskoleklass",
+    "mönster stencil förskoleklass",
+    "måla mönster förskoleklass"
+   ]
+  },
+  "mönster åk 1": {
+   "cls": "typeGrade",
+   "s": [
+    "mönster åk 1",
+    "mönster årskurs 1",
+    "mönster matematik åk 1",
+    "mönster arbetsblad åk 1"
+   ]
+  },
+  "mönster åk 2": {
+   "cls": "typeGrade",
+   "s": [
+    "mönster åk 2",
+    "mönster matematik åk 2"
+   ]
+  },
+  "mönster årskurs 1": {
+   "cls": "typeGrade",
+   "s": [
+    "mönster årskurs 1",
+    "mönster åk 1",
+    "mönster matematik åk 1",
+    "mönster arbetsblad åk 1"
+   ]
+  },
+  "första ljudet förskoleklass": {
+   "cls": "typeGrade",
+   "s": [
+    "första ljudet förskoleklass"
+   ]
+  },
+  "fonologisk medvetenhet förskola": {
+   "cls": "typeGrade",
+   "s": [
+    "fonologisk medvetenhet förskola"
+   ]
+  },
+  "djur arbetsblad": {
+   "cls": "themes",
+   "s": [
+    "arbetsblad djur på vintern",
+    "arbetsblad djur",
+    "engelska djur arbetsblad"
+   ]
+  },
+  "fåglar arbetsblad": {
+   "cls": "themes",
+   "s": [
+    "fåglar arbetsblad"
+   ]
+  },
+  "kroppsdelar arbetsblad": {
+   "cls": "themes",
+   "s": [
+    "kroppsdelar arbetsblad",
+    "kroppen arbetsblad",
+    "kroppen arbetsblad åk 1",
+    "människokroppen arbetsblad",
+    "kroppsdelar engelska arbetsblad"
+   ]
+  },
+  "jul arbetsblad": {
+   "cls": "themes",
+   "s": [
+    "jul arbetsblad",
+    "arbetsblad jul åk 1",
+    "arbetsblad jul förskoleklass",
+    "arbetsblad jul förskola"
+   ]
+  },
+  "kläder arbetsblad": {
+   "cls": "themes",
+   "s": [
+    "clothes arbetsblad",
+    "arbetsblad kläder engelska"
+   ]
+  },
+  "färger arbetsblad": {
+   "cls": "themes",
+   "s": [
+    "arbetsblad färger engelska"
+   ]
+  },
+  "dinosaurier arbetsblad": {
+   "cls": "themes",
+   "s": [
+    "dinosaurier arbetsblad"
+   ]
+  },
+  "påsk arbetsblad": {
+   "cls": "themes",
+   "s": [
+    "påsk arbetsblad",
+    "påsk arbetsblad åk 1",
+    "påsk arbetsblad gratis",
+    "påsk arbetsblad engelska"
+   ]
+  },
+  "känslor arbetsblad": {
+   "cls": "themes",
+   "s": [
+    "känslor arbetsblad"
+   ]
+  },
+  "bondgårdsdjur arbetsblad": {
+   "cls": "themes",
+   "s": [
+    "bondgården arbetsblad",
+    "arbetsblad bondgårdsdjur"
+   ]
+  },
+  "blommor arbetsblad": {
+   "cls": "themes",
+   "s": [
+    "blommor arbetsblad"
+   ]
+  },
+  "musik arbetsblad": {
+   "cls": "themes",
+   "s": [
+    "musik arbetsblad"
+   ]
+  },
+  "yrken arbetsblad": {
+   "cls": "themes",
+   "s": [
+    "yrken arbetsblad",
+    "yrken arbetsblad åk 1"
+   ]
+  },
+  "former arbetsblad": {
+   "cls": "themes",
+   "s": [
+    "former arbetsblad",
+    "geometriska former arbetsblad",
+    "vattnets former arbetsblad"
+   ]
+  },
+  "rymden arbetsblad": {
+   "cls": "themes",
+   "s": [
+    "rymden arbetsblad",
+    "arbetsblad rymden åk 2"
+   ]
+  },
+  "vår arbetsblad": {
+   "cls": "themes",
+   "s": [
+    "vår arbetsblad"
+   ]
+  },
+  "sommar arbetsblad": {
+   "cls": "themes",
+   "s": [
+    "sommar arbetsblad",
+    "arbetsblad sommar åk 1"
+   ]
+  },
+  "träd arbetsblad": {
+   "cls": "themes",
+   "s": [
+    "träd arbetsblad",
+    "svenska träd arbetsblad"
+   ]
+  },
+  "väder arbetsblad": {
+   "cls": "themes",
+   "s": [
+    "väder arbetsblad"
+   ]
+  },
+  "vinter arbetsblad": {
+   "cls": "themes",
+   "s": [
+    "vinter arbetsblad",
+    "vinter arbetsblad åk 1",
+    "arbetsblad vinter förskoleklass",
+    "arbetsblad vinter os"
+   ]
+  },
+  "matematik förskola arbetsblad": {
+   "cls": "subjects",
+   "s": [
+    "matematik förskola arbetsblad"
+   ]
+  },
+  "matematik förskoleklass arbetsblad": {
+   "cls": "subjects",
+   "s": [
+    "matematik förskoleklass arbetsblad"
+   ]
+  },
+  "matematik åk 1 arbetsblad": {
+   "cls": "subjects",
+   "s": [
+    "matematik åk 1 arbetsblad",
+    "arbetsblad matematik åk 1 gratis"
+   ]
+  },
+  "matematik åk 2 arbetsblad": {
+   "cls": "subjects",
+   "s": [
+    "arbetsblad matematik åk 2"
+   ]
+  },
+  "matematik årskurs 1 arbetsblad": {
+   "cls": "subjects",
+   "s": [
+    "matematik åk 1 arbetsblad"
+   ]
+  },
+  "svenska förskoleklass arbetsblad": {
+   "cls": "subjects",
+   "s": [
+    "svenska förskoleklass arbetsblad",
+    "matte arbetsblad förskoleklass"
+   ]
+  },
+  "svenska åk 1 arbetsblad": {
+   "cls": "subjects",
+   "s": [
+    "svenska åk 1 arbetsblad",
+    "arbetsblad svenska uppgifter åk 1"
+   ]
+  },
+  "svenska åk 2 arbetsblad": {
+   "cls": "subjects",
+   "s": [
+    "svenska åk 2 arbetsblad"
+   ]
+  },
+  "svenska årskurs 1 arbetsblad": {
+   "cls": "subjects",
+   "s": [
+    "svenska åk 1 arbetsblad"
+   ]
+  },
+  "matteuppgifter förskola": {
+   "cls": "subjects",
+   "s": [
+    "matteuppgifter förskola",
+    "matematik förskola",
+    "matematik förskola skriva ut",
+    "matematik förskola yngre barn",
+    "matematik förskola material",
+    "matematik förskolan 1 3 år",
+    "matematik förskola aktivitet",
+    "matematik förskola bok",
+    "matteövningar förskola",
+    "matematik förskolan skolverket"
+   ]
+  },
+  "matteuppgifter förskoleklass": {
+   "cls": "subjects",
+   "s": [
+    "matteuppgifter förskoleklass",
+    "matematik förskoleklass",
+    "matte förskoleklass",
+    "matematik förskoleklass övningar",
+    "matte förskoleklass skriva ut",
+    "matematik förskoleklass arbetsblad",
+    "matteövningar förskoleklass",
+    "matematik förskoleklass skolverket",
+    "matematik förskoleklass övningar pdf",
+    "matematik förskoleklass film"
+   ]
+  },
+  "matteuppgifter åk 1": {
+   "cls": "subjects",
+   "s": [
+    "matteuppgifter åk 1",
+    "matteuppgifter åk 1 skriva ut",
+    "matteuppgifter åk 1 gratis",
+    "matteuppgifter åk 1 gymnasiet",
+    "matte åk 1",
+    "matte åk 1 gymnasiet",
+    "matte åk 1 skriva ut",
+    "matteproblem åk 1",
+    "matteprov åk 1",
+    "räkneuppgifter åk 1"
+   ]
+  },
+  "matteuppgifter åk 2": {
+   "cls": "subjects",
+   "s": [
+    "matteuppgifter åk 2",
+    "matteuppgifter åk 2 skriva ut",
+    "matte åk 2",
+    "mattekluringar åk 2",
+    "matte åk 2 skriva ut",
+    "matteprov åk 2",
+    "mattefrågor åk 2",
+    "matteproblem åk 2",
+    "matte åk 2 multiplikation",
+    "matte åk 2 gymnasiet"
+   ]
+  },
+  "matteuppgifter årskurs 1": {
+   "cls": "subjects",
+   "s": [
+    "matteuppgifter årskurs 1",
+    "matematik årskurs 1",
+    "matteuppgifter åk 1 att skriva ut",
+    "matematik årskurs 1 övningar",
+    "matte årskurs 1 grundskolan",
+    "matte årskurs 1 gymnasiet",
+    "matteuppgifter åk 1 gymnasiet",
+    "matteövningar årskurs 1",
+    "matteuppgifter åk 1 gratis",
+    "matematik årskurs 1 skolverket"
+   ]
+  },
+  "arbetsblad matematik förskola": {
+   "cls": "subjects",
+   "s": [
+    "arbetsblad matematik förskola",
+    "arbetsblad att skriva ut matematik förskola"
+   ]
+  },
+  "arbetsblad matematik förskoleklass": {
+   "cls": "subjects",
+   "s": [
+    "arbetsblad matematik förskoleklass",
+    "arbetsblad att skriva ut matematik förskoleklass"
+   ]
+  },
+  "arbetsblad matematik åk 1": {
+   "cls": "subjects",
+   "s": [
+    "arbetsblad matematik åk 1",
+    "arbetsblad matematik åk 1 gratis"
+   ]
+  },
+  "arbetsblad matematik åk 2": {
+   "cls": "subjects",
+   "s": [
+    "arbetsblad matematik åk 2"
+   ]
+  },
+  "arbetsblad matematik årskurs 1": {
+   "cls": "subjects",
+   "s": [
+    "arbetsblad matematik åk 1",
+    "arbetsblad matematik åk 1 gratis"
+   ]
+  },
+  "övningar svenska förskoleklass": {
+   "cls": "subjects",
+   "s": [
+    "svenska övningar förskoleklass",
+    "träna matte förskoleklass"
+   ]
+  },
+  "övningar svenska åk 1": {
+   "cls": "subjects",
+   "s": [
+    "svenska övningar åk 1",
+    "läsförståelse svenska övningar pdf åk 1",
+    "läsförståelse svenska åk 1 övningar"
+   ]
+  },
+  "övningar svenska åk 2": {
+   "cls": "subjects",
+   "s": [
+    "svenska övningar åk 2",
+    "läsförståelse svenska övningar åk 2",
+    "läsförståelse svenska övningar pdf åk 2"
+   ]
+  },
+  "övningar svenska årskurs 1": {
+   "cls": "subjects",
+   "s": [
+    "svenska övningar åk 1"
+   ]
+  },
+  "matte online": {
+   "cls": "online",
+   "s": [
+    "matte online",
+    "math online",
+    "mat online",
+    "math online games",
+    "mat online 2",
+    "math online test",
+    "math online tutor",
+    "mat online shopping",
+    "math online programs",
+    "free math online"
+   ]
+  },
+  "matte online åk 1": {
+   "cls": "online",
+   "s": [
+    "mattespel åk 1"
+   ]
+  },
+  "övningar online": {
+   "cls": "online",
+   "s": [
+    "exercises online",
+    "träna online",
+    "exercises online present simple",
+    "exercises online english",
+    "exercises online present continuous",
+    "exercises online past simple",
+    "exercises online present simple and continuous",
+    "exercises online conditionals",
+    "exercises online verb to be",
+    "exercises online passive voice"
+   ]
+  },
+  "arbetsblad a": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad alfabetet",
+    "arbetsblad alfa beta gamma",
+    "arbetsblad adjektiv",
+    "arbetsblad area",
+    "arbetsblad alfabetisk ordning",
+    "arbetsblad addition",
+    "arbetsblad avrundning",
+    "arbetsblad area åk 3",
+    "arbetsblad adhd",
+    "arbetsblad abg"
+   ]
+  },
+  "arbetsblad b": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad bokstäver",
+    "arbetsblad bråk",
+    "arbetsblad bråk åk 3",
+    "arbetsblad bråk åk 2",
+    "arbetsblad bråk åk 4",
+    "arbetsblad bokstäver förskola",
+    "arbetsblad bondgården",
+    "arbetsblad blommans delar",
+    "arbetsblad barn",
+    "arbetsblad bokstaven j"
+   ]
+  },
+  "arbetsblad c": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad cirkelns omkrets",
+    "arbetsblad centimeter",
+    "arbetsblad cirkeldiagram",
+    "arbetsblad c",
+    "arbetsblad cykel",
+    "arbetsblad clothes",
+    "arbetsblad cirkel",
+    "arbetsblad canva",
+    "christmas arbetsblad",
+    "arbetsblad bokstaven c"
+   ]
+  },
+  "arbetsblad d": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad demokrati",
+    "arbetsblad dubbelt",
+    "arbetsblad dubbelt och hälften",
+    "arbetsblad digitala klockan",
+    "arbetsblad de fyra räknesätten",
+    "arbetsblad diagram",
+    "arbetsblad dubblor",
+    "arbetsblad division",
+    "arbetsblad dubbelteckning",
+    "arbetsblad division åk 3"
+   ]
+  },
+  "arbetsblad e": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad engelska åk 3",
+    "arbetsblad engelska åk 1",
+    "arbetsblad engelska",
+    "arbetsblad engelska åk 2",
+    "arbetsblad engelska åk 4",
+    "arbetsblad ekvationer",
+    "arbetsblad engelska åk 5",
+    "arbetsblad europa",
+    "arbetsblad exponering",
+    "arbetsblad enkla ekvationer"
+   ]
+  },
+  "arbetsblad f": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad förskoleklass",
+    "arbetsblad förskola",
+    "arbetsblad förskola skriva ut",
+    "arbetsblad fjäril",
+    "arbetsblad fjärilens livscykel",
+    "arbetsblad första ljudet",
+    "arbetsblad fåglar",
+    "arbetsblad för barn",
+    "arbetsblad fler färre",
+    "arbetsblad fotosyntes"
+   ]
+  },
+  "arbetsblad g": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad geometriska former",
+    "arbetsblad gamma",
+    "arbetsblad geometri",
+    "arbetsblad geometriska objekt",
+    "arbetsblad geometriska former förskoleklass",
+    "arbetsblad geometriska figurer",
+    "arbetsblad geografi",
+    "arbetsblad grundvux",
+    "arbetsblad gångertabell",
+    "arbetsblad gratis"
+   ]
+  },
+  "arbetsblad h": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad hlr",
+    "arbetsblad hälften",
+    "arbetsblad hälften dubbelt",
+    "arbetsblad hlr.nu",
+    "arbetsblad h"
+   ]
+  },
+  "arbetsblad i": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad insekter",
+    "arbetsblad istiden",
+    "arbetsblad islam",
+    "arbetsblad igelkott",
+    "arbetsblad instrument",
+    "arbetsblad idrott och hälsa",
+    "arbetsblad ingen panik",
+    "innehållsdivision arbetsblad",
+    "arbetsblad bokstaven i",
+    "arbetsblad am is are"
+   ]
+  },
+  "arbetsblad j": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad jul",
+    "arbetsblad jul förskoleklass",
+    "arbetsblad jultema",
+    "arbetsblad judendom",
+    "arbetsblad jul åk 1",
+    "arbetsblad jämna tal",
+    "arbetsblad j ljudet",
+    "arbetsblad jorden",
+    "arbetsblad jul förskola",
+    "arbetsblad jämna och udda tal"
+   ]
+  },
+  "arbetsblad k": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad klockan",
+    "arbetsblad kroppen",
+    "arbetsblad kort division",
+    "arbetsblad kombinatorik",
+    "arbetsblad källsortering",
+    "arbetsblad klockan förskoleklass",
+    "arbetsblad klocka",
+    "arbetsblad ko",
+    "arbetsblad klockan engelska",
+    "arbetsblad kbt"
+   ]
+  },
+  "arbetsblad l": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad längd",
+    "arbetsblad läsförståelse",
+    "arbetsblad längd förskoleklass",
+    "arbetsblad länken",
+    "arbetsblad landskap",
+    "arbetsblad lägesord",
+    "arbetsblad likhetstecknets betydelse",
+    "arbetsblad likhetstecknet",
+    "arbetsblad lucia",
+    "arbetsblad längdenheter"
+   ]
+  },
+  "arbetsblad m": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad matematik åk 2",
+    "arbetsblad matematik",
+    "arbetsblad matematik åk 1",
+    "arbetsblad matematik åk 3",
+    "arbetsblad matematik åk 5",
+    "arbetsblad matematik åk 4",
+    "arbetsblad matematik förskoleklass",
+    "arbetsblad matematik xyz",
+    "arbetsblad multiplikation",
+    "arbetsblad mäta med linjal"
+   ]
+  },
+  "arbetsblad n": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad nordisk mytologi",
+    "arbetsblad nyckelpiga",
+    "arbetsblad nationaldagen",
+    "arbetsblad när det hälsosamma blir ohälsosamt",
+    "arbetsblad negativa tal",
+    "arbetsblad nobel",
+    "arbetsblad näringskedja",
+    "arbetsblad noter",
+    "arbetsblad no",
+    "arbetsblad norden"
+   ]
+  },
+  "arbetsblad o": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad om påsken",
+    "arbetsblad ordklasser",
+    "arbetsblad omkrets",
+    "arbetsblad om våren",
+    "arbetsblad ordningstal",
+    "arbetsblad om klockan",
+    "arbetsblad om allemansrätten",
+    "arbetsblad om sommaren",
+    "arbetsblad om grodan",
+    "arbetsblad om bin"
+   ]
+  },
+  "arbetsblad p": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad påsk",
+    "arbetsblad procent",
+    "arbetsblad på engelska",
+    "arbetsblad påsk engelska",
+    "arbetsblad positionssystemet",
+    "arbetsblad prepositioner",
+    "arbetsblad pengar",
+    "arbetsblad påsk gratis",
+    "arbetsblad programmering",
+    "arbetsblad prioriteringsregeln"
+   ]
+  },
+  "arbetsblad q": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad q"
+   ]
+  },
+  "arbetsblad r": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad rocka sockorna",
+    "arbetsblad romerska siffror",
+    "arbetsblad rim",
+    "arbetsblad rimord",
+    "arbetsblad ramadan",
+    "arbetsblad rymden",
+    "arbetsblad rymden åk 2",
+    "arbetsblad reflexer",
+    "arbetsblad rim förskoleklass",
+    "arbetsblad religion"
+   ]
+  },
+  "arbetsblad s": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad svenska",
+    "arbetsblad sommar",
+    "arbetsblad svenska åk 1",
+    "arbetsblad svenska förskoleklass",
+    "arbetsblad symmetri",
+    "arbetsblad skala",
+    "arbetsblad sammansatta ord",
+    "arbetsblad sekvensbilder att skriva ut",
+    "arbetsblad substantiv",
+    "arbetsblad sannolikhet"
+   ]
+  },
+  "arbetsblad t": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad tallinjen",
+    "arbetsblad trafik åk 1",
+    "arbetsblad tiokompisar",
+    "arbetsblad talföljder",
+    "arbetsblad the game",
+    "arbetsblad tiotal och ental",
+    "arbetsblad teknik",
+    "arbetsblad talens grannar",
+    "arbetsblad trafik",
+    "arbetsblad tiokamrater"
+   ]
+  },
+  "arbetsblad u": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad uppställning",
+    "arbetsblad udda och jämna tal",
+    "arbetsblad uppställning addition",
+    "arbetsblad uppställning multiplikation",
+    "arbetsblad uppställning subtraktion",
+    "arbetsblad unified protocol",
+    "arbetsblad udda jämna tal",
+    "arbetsblad u",
+    "ur arbetsblad",
+    "up arbetsblad"
+   ]
+  },
+  "arbetsblad v": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad vår",
+    "arbetsblad vinklar",
+    "arbetsblad vid hjärtstopp",
+    "arbetsblad volym",
+    "arbetsblad vårblommor",
+    "arbetsblad valborg",
+    "arbetsblad vokaler",
+    "arbetsblad vattnets kretslopp",
+    "arbetsblad vikt",
+    "arbetsblad veckodagar"
+   ]
+  },
+  "arbetsblad x": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad xyz",
+    "arbetsblad x",
+    "arbetsblad matematik xyz",
+    "arbetsblad matematik x",
+    "matematikboken xyz arbetsblad"
+   ]
+  },
+  "arbetsblad y": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad yrken",
+    "arbetsblad y",
+    "yrken arbetsblad åk 1",
+    "yggdrasil arbetsblad",
+    "arbetsblad matematik y",
+    "bokstaven y arbetsblad",
+    "matematik y arbetsblad 82",
+    "matematik y arbetsblad 83",
+    "arbetsblad 41 matematik y"
+   ]
+  },
+  "arbetsblad z": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad z",
+    "arbetsblad matematik z",
+    "matematik z arbetsblad facit",
+    "arbetsblad 60 matematik z"
+   ]
+  },
+  "arbetsblad å": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad åk 1",
+    "arbetsblad återvinning",
+    "arbetsblad åk 2",
+    "arbetsblad återfallsprevention",
+    "arbetsblad årstider",
+    "arbetsblad åk 6",
+    "arbetsblad åk 3",
+    "arbetsblad åk 4",
+    "arbetsblad åk 9",
+    "arbetsblad åk 1 svenska"
+   ]
+  },
+  "arbetsblad ä": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad ä",
+    "arbetsblad äpple",
+    "arbetsblad älg",
+    "arbetsblad större än mindre än",
+    "arbetsblad bokstaven ä"
+   ]
+  },
+  "arbetsblad ö": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad öppna utsagor",
+    "arbetsblad ö",
+    "arbetsblad öva skriva bokstäver skriv ut",
+    "arbetsblad örat",
+    "arbetsblad öva skriva bokstäver skriv ut gratis",
+    "arbetsblad ögat",
+    "överslagsräkning arbetsblad",
+    "skolplus arbetsblad öva skriva bokstäver skriv ut",
+    "arbetsblad bokstaven ö",
+    "arbetsblad engelska översättning"
+   ]
+  },
+  "arbetsblad att skriva ut b": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad skrivövningar för barn att skriva ut"
+   ]
+  },
+  "arbetsblad att skriva ut e": {
+   "cls": "alphabet",
+   "s": [
+    "engelska arbetsblad att skriva ut"
+   ]
+  },
+  "arbetsblad att skriva ut f": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad att skriva ut matematik förskoleklass",
+    "arbetsblad att skriva ut matematik förskola",
+    "arbetsblad skrivövningar för barn att skriva ut"
+   ]
+  },
+  "arbetsblad att skriva ut m": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad att skriva ut matematik",
+    "arbetsblad att skriva ut matematik förskoleklass",
+    "arbetsblad att skriva ut matematik förskola"
+   ]
+  },
+  "arbetsblad att skriva ut o": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad att skriva ut matematik",
+    "arbetsblad att skriva ut matematik förskoleklass",
+    "arbetsblad att skriva ut",
+    "arbetsblad att skriva ut svenska",
+    "arbetsblad att skriva ut matematik förskola",
+    "arbetsblad sekvensbilder att skriva ut",
+    "engelska arbetsblad att skriva ut",
+    "arbetsblad förskola skriva ut",
+    "arbetsblad skrivövningar för barn att skriva ut"
+   ]
+  },
+  "arbetsblad att skriva ut s": {
+   "cls": "alphabet",
+   "s": [
+    "arbetsblad att skriva ut svenska",
+    "arbetsblad sekvensbilder att skriva ut",
+    "arbetsblad skrivövningar för barn att skriva ut"
+   ]
   }
- ],
- "suggestions": {},
- "unique": []
+ },
+ "unique": [
+  "add gratis test",
+  "addition",
+  "addition arbetsblad",
+  "addition förskola",
+  "addition förskoleklass",
+  "addition med bråk",
+  "addition med tiotalsövergång arbetsblad",
+  "addition med tre termer åk 1",
+  "addition med uppställning åk 2",
+  "addition och subtraktion",
+  "addition och subtraktion arbetsblad",
+  "addition och subtraktion förskoleklass",
+  "addition och subtraktion åk 1",
+  "addition och subtraktion åk 2",
+  "addition åk 1",
+  "addition åk 2",
+  "addition årskurs 1",
+  "addition.i förskolan",
+  "additional",
+  "additional materials",
+  "additional svenska",
+  "additionally svenska",
+  "additionally synonym",
+  "additionals polestar",
+  "additionsmetoden",
+  "aktivitet mönster förskola",
+  "arbetsblad",
+  "arbetsblad 41 matematik y",
+  "arbetsblad 60 matematik z",
+  "arbetsblad abg",
+  "arbetsblad addition",
+  "arbetsblad addition 0 10",
+  "arbetsblad addition 0 20",
+  "arbetsblad addition och subtraktion",
+  "arbetsblad addition uppställning",
+  "arbetsblad addition åk 1",
+  "arbetsblad adhd",
+  "arbetsblad adjektiv",
+  "arbetsblad alfa beta gamma",
+  "arbetsblad alfabetet",
+  "arbetsblad alfabetisk ordning",
+  "arbetsblad am is are",
+  "arbetsblad area",
+  "arbetsblad area åk 3",
+  "arbetsblad att skriva ut",
+  "arbetsblad att skriva ut matematik",
+  "arbetsblad att skriva ut matematik förskola",
+  "arbetsblad att skriva ut matematik förskoleklass",
+  "arbetsblad att skriva ut svenska",
+  "arbetsblad avrundning",
+  "arbetsblad barn",
+  "arbetsblad blommans delar",
+  "arbetsblad bokstaven c",
+  "arbetsblad bokstaven i",
+  "arbetsblad bokstaven j",
+  "arbetsblad bokstaven ä",
+  "arbetsblad bokstaven ö",
+  "arbetsblad bokstäver",
+  "arbetsblad bokstäver förskola",
+  "arbetsblad bondgården",
+  "arbetsblad bondgårdsdjur",
+  "arbetsblad bråk",
+  "arbetsblad bråk och procent",
+  "arbetsblad bråk åk 2",
+  "arbetsblad bråk åk 3",
+  "arbetsblad bråk åk 4",
+  "arbetsblad bråk åk 5",
+  "arbetsblad bråk åk 6",
+  "arbetsblad c",
+  "arbetsblad canva",
+  "arbetsblad centimeter",
+  "arbetsblad cirkel",
+  "arbetsblad cirkeldiagram",
+  "arbetsblad cirkelns omkrets",
+  "arbetsblad clothes",
+  "arbetsblad cykel",
+  "arbetsblad de fyra räknesätten",
+  "arbetsblad demokrati",
+  "arbetsblad diagram",
+  "arbetsblad digitala klockan",
+  "arbetsblad division",
+  "arbetsblad division åk 3",
+  "arbetsblad djur",
+  "arbetsblad djur på vintern",
+  "arbetsblad dubbelt",
+  "arbetsblad dubbelt och hälften",
+  "arbetsblad dubbelteckning",
+  "arbetsblad dubblor",
+  "arbetsblad ekvationer",
+  "arbetsblad engelska",
+  "arbetsblad engelska åk 1",
+  "arbetsblad engelska åk 2",
+  "arbetsblad engelska åk 3",
+  "arbetsblad engelska åk 4",
+  "arbetsblad engelska åk 5",
+  "arbetsblad engelska översättning",
+  "arbetsblad enkla ekvationer",
+  "arbetsblad europa",
+  "arbetsblad exponering",
+  "arbetsblad fjäril",
+  "arbetsblad fjärilens livscykel",
+  "arbetsblad fler färre",
+  "arbetsblad fotosyntes",
+  "arbetsblad färger engelska",
+  "arbetsblad fåglar",
+  "arbetsblad för barn",
+  "arbetsblad förskola",
+  "arbetsblad förskola skriva ut",
+  "arbetsblad förskoleklass",
+  "arbetsblad första ljudet",
+  "arbetsblad gamma",
+  "arbetsblad geografi",
+  "arbetsblad geometri",
+  "arbetsblad geometriska figurer",
+  "arbetsblad geometriska former",
+  "arbetsblad geometriska former förskoleklass",
+  "arbetsblad geometriska objekt",
+  "arbetsblad gratis",
+  "arbetsblad grundvux",
+  "arbetsblad gångertabell",
+  "arbetsblad h",
+  "arbetsblad hlr",
+  "arbetsblad hlr.nu",
+  "arbetsblad hälften",
+  "arbetsblad hälften dubbelt",
+  "arbetsblad idrott och hälsa",
+  "arbetsblad igelkott",
+  "arbetsblad ingen panik",
+  "arbetsblad insekter",
+  "arbetsblad instrument",
+  "arbetsblad islam",
+  "arbetsblad istiden",
+  "arbetsblad j ljudet",
+  "arbetsblad jorden",
+  "arbetsblad judendom",
+  "arbetsblad jul",
+  "arbetsblad jul förskola",
+  "arbetsblad jul förskoleklass",
+  "arbetsblad jul åk 1",
+  "arbetsblad jultema",
+  "arbetsblad jämna och udda tal",
+  "arbetsblad jämna tal",
+  "arbetsblad kbt",
+  "arbetsblad klocka",
+  "arbetsblad klockan",
+  "arbetsblad klockan engelska",
+  "arbetsblad klockan förskoleklass",
+  "arbetsblad klockan gratis",
+  "arbetsblad klockan hel och halv",
+  "arbetsblad klockan hel timme",
+  "arbetsblad klockan åk 2",
+  "arbetsblad klockan åk 4",
+  "arbetsblad kläder engelska",
+  "arbetsblad ko",
+  "arbetsblad kombinatorik",
+  "arbetsblad kort division",
+  "arbetsblad kroppen",
+  "arbetsblad källsortering",
+  "arbetsblad landskap",
+  "arbetsblad likhetstecknet",
+  "arbetsblad likhetstecknets betydelse",
+  "arbetsblad lucia",
+  "arbetsblad lägesord",
+  "arbetsblad längd",
+  "arbetsblad längd förskoleklass",
+  "arbetsblad längdenheter",
+  "arbetsblad länken",
+  "arbetsblad läsförståelse",
+  "arbetsblad matematik",
+  "arbetsblad matematik förskola",
+  "arbetsblad matematik förskoleklass",
+  "arbetsblad matematik x",
+  "arbetsblad matematik xyz",
+  "arbetsblad matematik y",
+  "arbetsblad matematik z",
+  "arbetsblad matematik åk 1",
+  "arbetsblad matematik åk 1 gratis",
+  "arbetsblad matematik åk 2",
+  "arbetsblad matematik åk 3",
+  "arbetsblad matematik åk 4",
+  "arbetsblad matematik åk 5",
+  "arbetsblad multiplikation",
+  "arbetsblad mäta med linjal",
+  "arbetsblad mönster förskolan",
+  "arbetsblad mönster förskoleklass",
+  "arbetsblad nationaldagen",
+  "arbetsblad negativa tal",
+  "arbetsblad no",
+  "arbetsblad nobel",
+  "arbetsblad norden",
+  "arbetsblad nordisk mytologi",
+  "arbetsblad noter",
+  "arbetsblad nyckelpiga",
+  "arbetsblad när det hälsosamma blir ohälsosamt",
+  "arbetsblad näringskedja",
+  "arbetsblad om allemansrätten",
+  "arbetsblad om bin",
+  "arbetsblad om grodan",
+  "arbetsblad om klockan",
+  "arbetsblad om påsken",
+  "arbetsblad om sommaren",
+  "arbetsblad om våren",
+  "arbetsblad omkrets",
+  "arbetsblad ordklasser",
+  "arbetsblad ordningstal",
+  "arbetsblad pengar",
+  "arbetsblad positionssystemet",
+  "arbetsblad prepositioner",
+  "arbetsblad prepositioner engelska",
+  "arbetsblad prioriteringsregeln",
+  "arbetsblad procent",
+  "arbetsblad programmering",
+  "arbetsblad på engelska",
+  "arbetsblad påsk",
+  "arbetsblad påsk engelska",
+  "arbetsblad påsk gratis",
+  "arbetsblad q",
+  "arbetsblad ramadan",
+  "arbetsblad reflexer",
+  "arbetsblad religion",
+  "arbetsblad rim",
+  "arbetsblad rim förskoleklass",
+  "arbetsblad rimord",
+  "arbetsblad rocka sockorna",
+  "arbetsblad romerska siffror",
+  "arbetsblad rymden",
+  "arbetsblad rymden åk 2",
+  "arbetsblad sammansatta ord",
+  "arbetsblad sannolikhet",
+  "arbetsblad sekvensbilder att skriva ut",
+  "arbetsblad skala",
+  "arbetsblad skrivövningar för barn att skriva ut",
+  "arbetsblad sommar",
+  "arbetsblad sommar åk 1",
+  "arbetsblad större än mindre än",
+  "arbetsblad substantiv",
+  "arbetsblad subtraktion 0 10",
+  "arbetsblad subtraktion uppställning",
+  "arbetsblad svenska",
+  "arbetsblad svenska förskoleklass",
+  "arbetsblad svenska uppgifter åk 1",
+  "arbetsblad svenska åk 1",
+  "arbetsblad symmetri",
+  "arbetsblad talens grannar",
+  "arbetsblad talföljder",
+  "arbetsblad tallinjen",
+  "arbetsblad teknik",
+  "arbetsblad the game",
+  "arbetsblad tiokamrater",
+  "arbetsblad tiokompisar",
+  "arbetsblad tiotal och ental",
+  "arbetsblad trafik",
+  "arbetsblad trafik åk 1",
+  "arbetsblad u",
+  "arbetsblad udda jämna tal",
+  "arbetsblad udda och jämna tal",
+  "arbetsblad unified protocol",
+  "arbetsblad uppställning",
+  "arbetsblad uppställning addition",
+  "arbetsblad uppställning multiplikation",
+  "arbetsblad uppställning subtraktion",
+  "arbetsblad valborg",
+  "arbetsblad vattnets kretslopp",
+  "arbetsblad veckodagar",
+  "arbetsblad vid hjärtstopp",
+  "arbetsblad vikt",
+  "arbetsblad vinklar",
+  "arbetsblad vinter förskoleklass",
+  "arbetsblad vinter os",
+  "arbetsblad vokaler",
+  "arbetsblad volym",
+  "arbetsblad vår",
+  "arbetsblad vårblommor",
+  "arbetsblad x",
+  "arbetsblad xyz",
+  "arbetsblad y",
+  "arbetsblad yrken",
+  "arbetsblad z",
+  "arbetsblad ä",
+  "arbetsblad älg",
+  "arbetsblad äpple",
+  "arbetsblad åk 1",
+  "arbetsblad åk 1 svenska",
+  "arbetsblad åk 2",
+  "arbetsblad åk 3",
+  "arbetsblad åk 4",
+  "arbetsblad åk 6",
+  "arbetsblad åk 9",
+  "arbetsblad årstider",
+  "arbetsblad återfallsprevention",
+  "arbetsblad återvinning",
+  "arbetsblad ö",
+  "arbetsblad ögat",
+  "arbetsblad öppna utsagor",
+  "arbetsblad örat",
+  "arbetsblad öva skriva bokstäver skriv ut",
+  "arbetsblad öva skriva bokstäver skriv ut gratis",
+  "bildsudoku",
+  "bildvägg",
+  "bildvägg 9 bokstäver",
+  "bildvägg korsord 9 bokstäver",
+  "bildvägg tapet",
+  "bingo",
+  "bingo förskola",
+  "bingo förskoleklass",
+  "bingo gratis",
+  "bingo gratis app",
+  "bingo gratis casino",
+  "bingo gratis en español",
+  "bingo gratis italiano",
+  "bingo gratis juego",
+  "bingo gratis online",
+  "bingo gratis para jugar en casa",
+  "bingo gratis promatic",
+  "bingo gratis sin registrarse",
+  "bingo online",
+  "bingo rimer",
+  "bingo trollhättan",
+  "bingo uddevalla",
+  "bingo åk 1",
+  "bingolotto",
+  "bingolotto idag",
+  "bingolotto ikväll",
+  "bingolotto programledare",
+  "bingolottos sommarfest",
+  "blommor arbetsblad",
+  "bokstaven y arbetsblad",
+  "bokstavskunskap",
+  "bokstavskunskap legilexi",
+  "bokstavspussel",
+  "bokstavspussel a ö",
+  "bokstavspussel app",
+  "bokstavspussel app store",
+  "bokstavspussel att skriva ut",
+  "bokstavspussel djur",
+  "bokstavspussel lekia",
+  "bokstavspussel lena andersson",
+  "bokstavspussel smartare än en femteklassare",
+  "bokstavspussel trä",
+  "bondgården arbetsblad",
+  "bråk",
+  "bråk arbetsblad",
+  "bråk arbetsblad åk 3",
+  "bråk korsord",
+  "bråk korsord 5 bokstäver",
+  "bråk matte",
+  "bråk matte åk 2",
+  "bråk på förskolan",
+  "bråk sofielund",
+  "bråk synonym",
+  "bråk åk 1",
+  "bråk åk 2",
+  "bråk årskurs 2",
+  "bråkar med clouseau",
+  "bråkar med clouseau korsord",
+  "bråkdel",
+  "bråkform",
+  "bygg ordlista",
+  "bygg ordlista engelska svenska",
+  "bygga lasagne ordning",
+  "bygga ord",
+  "bygga ord av bokstäver",
+  "bygga ord med bokstäver",
+  "bygga ord spel",
+  "bygga ord wordfeud",
+  "bygga ordförråd",
+  "bygga ordmoln",
+  "canva gratis design",
+  "cfp geometri gratis",
+  "christmas arbetsblad",
+  "clothes arbetsblad",
+  "compare talent builds wow",
+  "compare talents wow",
+  "compare tall",
+  "compare tall and short",
+  "compare tall buildings",
+  "compare tallest buildings in the world",
+  "compare tally and zoho",
+  "corsi gratuiti geometri",
+  "crediti geometri gratis",
+  "deontologia geometri gratis",
+  "design gratis",
+  "design gratis app",
+  "diagram",
+  "diagram arbetsblad",
+  "diagram engelska",
+  "diagram excel",
+  "diagram förskola",
+  "diagram förskoleklass",
+  "diagram gratis",
+  "diagram korsord",
+  "diagram maker",
+  "diagram synonym",
+  "diagram åk 1",
+  "diagram åk 2",
+  "diagram årskurs 1",
+  "diagrammatisk",
+  "diagrammen",
+  "diagrammet",
+  "diagrams",
+  "dinosaurier arbetsblad",
+  "division åk 1",
+  "division åk 2",
+  "dls test åk 1",
+  "dls test åk 2",
+  "dubbelteckning arbetsblad gratis",
+  "efter förskoleklassen korsord",
+  "engelska arbetsblad att skriva ut",
+  "engelska djur arbetsblad",
+  "enkel addition arbetsblad",
+  "enkel addition förskoleklass",
+  "ental och tiotal åk 2",
+  "exercises online",
+  "exercises online conditionals",
+  "exercises online english",
+  "exercises online passive voice",
+  "exercises online past simple",
+  "exercises online present continuous",
+  "exercises online present simple",
+  "exercises online present simple and continuous",
+  "exercises online verb to be",
+  "film om klockan förskoleklass",
+  "film om klockan åk 2",
+  "flowchart gratis",
+  "flowchart gratis online",
+  "fonologisk medvetenhet",
+  "fonologisk medvetenhet betyder",
+  "fonologisk medvetenhet dyslexi",
+  "fonologisk medvetenhet engelska",
+  "fonologisk medvetenhet exempel",
+  "fonologisk medvetenhet förskola",
+  "fonologisk medvetenhet i förskolan",
+  "fonologisk medvetenhet skolverket",
+  "fonologisk medvetenhet test",
+  "fonologisk medvetenhet trappa",
+  "fonologisk medvetenhet övningar",
+  "former arbetsblad",
+  "free math online",
+  "färdig skattjakt gratis",
+  "fåglar arbetsblad",
+  "följa mönster förskola",
+  "följa mönster förskoleklass",
+  "förkorta bråk arbetsblad",
+  "första inspelade ljudet",
+  "första ljudet",
+  "första ljudet arbetsblad",
+  "första ljudet bingo",
+  "första ljudet film",
+  "första ljudet förskoleklass",
+  "första ljudet i ord",
+  "första ljudet spel",
+  "första ljudet tärningsbingo",
+  "första ljudet wordwall",
+  "geografi arbetsblad",
+  "geografi förskola",
+  "geografi gratis",
+  "geografi åk 1",
+  "geografi åk 1-3",
+  "geografi åk 2",
+  "geografi årskurs 1",
+  "geometri",
+  "geometri arbetsblad",
+  "geometri arbetsblad åk 1",
+  "geometri förskola",
+  "geometri förskoleklass",
+  "geometri gratis",
+  "geometri korsord",
+  "geometri och bedömning i årskurs 1 3",
+  "geometri online gratis",
+  "geometri synonym",
+  "geometri åk 1",
+  "geometri åk 2",
+  "geometri årskurs 1",
+  "geometri årskurs 2",
+  "geometrins fader",
+  "geometrisk summa",
+  "geometrisk summa formel",
+  "geometrisk talföljd",
+  "geometriska figurer",
+  "geometriska former",
+  "geometriska former arbetsblad",
+  "geometriska former årskurs 1",
+  "geometry dash",
+  "geometry gratis",
+  "geometry gratis online",
+  "gissa ordet",
+  "gissa ordet app",
+  "gissa ordet barn",
+  "gissa ordet bok",
+  "gissa ordet hjälp",
+  "gissa ordet lek",
+  "gissa ordet skolplus",
+  "gissa ordet spel",
+  "gissa ordet svenska",
+  "gissa ordet sällskapsspel",
+  "goodnews matcha gratis",
+  "gratis arbetsblad förskola",
+  "gratis arbetsblad förskoleklass",
+  "gratis arbetsblad matematik",
+  "gratis arbetsblad svenska",
+  "gratis skattjakt att skriva ut",
+  "gratis skattjakt barn",
+  "gratis skattjakt till barnkalas",
+  "gratis test",
+  "h4 test åk 1",
+  "h4 test åk 2",
+  "halloween skattjakt gratis",
+  "hundraruta",
+  "hundraruta att skriva ut gratis",
+  "hundraruta gratis",
+  "hundraruta multiplikation",
+  "hundraruta ncm",
+  "hundraruta skolplus",
+  "hundraruta skriva ut",
+  "hundraruta tom",
+  "hundraruta utan siffror",
+  "hundrarutan",
+  "i förskolan korsord 8 bokstäver",
+  "innehållsdivision arbetsblad",
+  "introducera addition åk 1",
+  "introducera klockan åk 1",
+  "iq test gratis",
+  "jobba med klockan förskola",
+  "jul arbetsblad",
+  "jämföra bråk arbetsblad",
+  "jämföra storlek förskola",
+  "jämföra tal",
+  "jämföra tal i bråkform",
+  "jämföra två tal i excel",
+  "kartläggning mönster förskoleklass",
+  "klass korsord 2 bokstäver",
+  "klass model 2025",
+  "klocka arbetsblad",
+  "klocka förskola",
+  "klocka förskoleklass",
+  "klockan",
+  "klockan arbetsblad",
+  "klockan arbetsblad åk 3",
+  "klockan film åk 1",
+  "klockan förskola",
+  "klockan förskola norrköping",
+  "klockan förskoleklass",
+  "klockan gratis spel",
+  "klockan i australien",
+  "klockan i japan",
+  "klockan i los angeles",
+  "klockan i new york",
+  "klockan i sverige",
+  "klockan i thailand",
+  "klockan i usa",
+  "klockan just nu",
+  "klockan nu",
+  "klockan patiens gratis",
+  "klockan uppgifter åk 2",
+  "klockan åk 1",
+  "klockan åk 2",
+  "klockan årskurs 1",
+  "klockan årskurs 2",
+  "klockans förskola årstad",
+  "ko mattepussel",
+  "korsord",
+  "korsord 4 bokstäver",
+  "korsord arbetsblad",
+  "korsord barn",
+  "korsord barn förskola",
+  "korsord engelska åk 2",
+  "korsord förskola",
+  "korsord förskoleklass",
+  "korsord gratis",
+  "korsord gratis barn",
+  "korsord gratis ladda ner",
+  "korsord gratis lätt",
+  "korsord gratis online",
+  "korsord gratis pdf",
+  "korsord gratis skriva ut",
+  "korsord gratis skriva ut barn",
+  "korsord gratistidning com",
+  "korsord hjälp",
+  "korsord online",
+  "korsord åk 1",
+  "korsord åk 2",
+  "korsord årskurs 1",
+  "korsord årskurs 2",
+  "korsordshjälp",
+  "korsordshjälp 6 bokstäver",
+  "korsordshjälp 7 bokstäver",
+  "korsordslexikon",
+  "kroppen arbetsblad",
+  "kroppen arbetsblad åk 1",
+  "kroppsdelar arbetsblad",
+  "kroppsdelar engelska arbetsblad",
+  "kryptogram",
+  "kryptogram 8 bokstäver",
+  "kryptogram ab",
+  "kryptogram korsord",
+  "kryptogram online",
+  "kryptogram svenska",
+  "kryptogram synonym",
+  "kryptogram woman like you",
+  "känslor arbetsblad",
+  "legilexi test åk 1",
+  "legilexi test åk 2",
+  "lego mönster förskola",
+  "litet åk korsord 2 bokstäver",
+  "logiska pussel",
+  "logiska pussel barn",
+  "logiska pussel bok",
+  "logiska pussel online",
+  "lägesord förskola",
+  "lägesord förskola aktivitet",
+  "lägesord förskola syfte",
+  "lägesord prepositioner förskola",
+  "lära sig klockan förskola",
+  "lära sig klockan gratis app",
+  "lära sig klockan åk 1",
+  "lära sig klockan åk 2",
+  "läsförståelse svenska åk 1 övningar",
+  "läsförståelse svenska övningar pdf åk 1",
+  "läsförståelse svenska övningar pdf åk 2",
+  "läsförståelse svenska övningar åk 2",
+  "läsförståelse test åk 2",
+  "mandala mönster förskola",
+  "mat online",
+  "mat online 2",
+  "mat online shopping",
+  "matcha gratis",
+  "matcha gratis testen",
+  "matchning",
+  "matchning från dag 1",
+  "matchning på arbetsmarknaden",
+  "matchning synonym",
+  "matchningar",
+  "matchnings app",
+  "matchnings app synonym",
+  "matchningsprincipen",
+  "matchningsprincipen k3",
+  "matchningsprincipen redovisning",
+  "matematik addition arbetsblad",
+  "matematik addition åk 1",
+  "matematik bingo förskola",
+  "matematik förskola",
+  "matematik förskola aktivitet",
+  "matematik förskola arbetsblad",
+  "matematik förskola bok",
+  "matematik förskola material",
+  "matematik förskola skriva ut",
+  "matematik förskola yngre barn",
+  "matematik förskolan 1 3 år",
+  "matematik förskolan skolverket",
+  "matematik förskoleklass",
+  "matematik förskoleklass arbetsblad",
+  "matematik förskoleklass film",
+  "matematik förskoleklass skolverket",
+  "matematik förskoleklass övningar",
+  "matematik förskoleklass övningar pdf",
+  "matematik y arbetsblad 82",
+  "matematik y arbetsblad 83",
+  "matematik z arbetsblad facit",
+  "matematik åk 1 arbetsblad",
+  "matematik årskurs 1",
+  "matematik årskurs 1 skolverket",
+  "matematik årskurs 1 övningar",
+  "matematikboken xyz arbetsblad",
+  "math online",
+  "math online games",
+  "math online programs",
+  "math online test",
+  "math online tutor",
+  "matte arbetsblad förskoleklass",
+  "matte förskoleklass",
+  "matte förskoleklass skriva ut",
+  "matte klass 2",
+  "matte online",
+  "matte subtraktion åk 1",
+  "matte test åk 2",
+  "matte åk 1",
+  "matte åk 1 3",
+  "matte åk 1 gymnasiet",
+  "matte åk 1 pdf",
+  "matte åk 1 skriva ut",
+  "matte åk 2",
+  "matte åk 2 gymnasiet",
+  "matte åk 2 multiplikation",
+  "matte åk 2 skriva ut",
+  "matte årskurs 1",
+  "matte årskurs 1 grundskolan",
+  "matte årskurs 1 gymnasiet",
+  "matte årskurs 2",
+  "matte årskurs 2 övningar",
+  "matteblad",
+  "matteblad att skriva ut",
+  "matteblad förskola",
+  "matteblad förskoleklass",
+  "matteblad multiplikation",
+  "matteblad åk 1",
+  "matteblad åk 2",
+  "matteblad åk 3",
+  "matteblad åk 4",
+  "matteblad åk 5",
+  "mattefrågor åk 2",
+  "mattekluringar åk 2",
+  "matteproblem åk 1",
+  "matteproblem åk 2",
+  "matteprov åk 1",
+  "matteprov åk 2",
+  "mattepussel",
+  "mattespel åk 1",
+  "mattetal åk 1",
+  "mattetal åk 1 skriva ut",
+  "mattetal åk 2",
+  "mattetal åk 2 att skriva ut",
+  "mattetal årskurs 1",
+  "matteuppgifter förskola",
+  "matteuppgifter förskoleklass",
+  "matteuppgifter åk 1",
+  "matteuppgifter åk 1 att skriva ut",
+  "matteuppgifter åk 1 gratis",
+  "matteuppgifter åk 1 gymnasiet",
+  "matteuppgifter åk 1 skriva ut",
+  "matteuppgifter åk 2",
+  "matteuppgifter åk 2 skriva ut",
+  "matteuppgifter årskurs 1",
+  "matteövningar förskola",
+  "matteövningar förskoleklass",
+  "matteövningar årskurs 1",
+  "mer eller mindre",
+  "mer eller mindre berusande korsord",
+  "mer eller mindre bredd i grafiken",
+  "mer eller mindre bredd i grafiken korsord",
+  "mer eller mindre regler",
+  "mer eller mindre spel",
+  "mer eller mindre symbol",
+  "mer eller mindre synonym",
+  "mer eller mindre taggade",
+  "mer eller mindre tecken",
+  "minus gratis",
+  "miramar 2025",
+  "miramar album",
+  "miramar aza manahy",
+  "miramar hold up",
+  "miramar so high",
+  "miramar victory",
+  "miramar victory parole",
+  "moped klass 2",
+  "multiplikation åk 1",
+  "multiplikation åk 2",
+  "multiplikation årskurs 1",
+  "musik arbetsblad",
+  "människokroppen arbetsblad",
+  "mäta arbetsblad",
+  "mäta förskola",
+  "mäta förskoleklass",
+  "mäta längd åk 1",
+  "mäta tid åk 2",
+  "mäta åk 1",
+  "mäta åk 2",
+  "mäta årskurs 1",
+  "mätning",
+  "mätning arbetsblad",
+  "mätning förskola",
+  "mätning förskoleklass",
+  "mätning inför valet 2026",
+  "mätning partier",
+  "mätning på förskolan",
+  "mätning åk 1",
+  "mätningar politik",
+  "mätningarnas mätning",
+  "mätningsingenjör",
+  "mätningsingenjör lön",
+  "mätningsingenjör utbildning",
+  "mätningstekniker",
+  "mätningstekniker lön",
+  "måla mönster förskoleklass",
+  "mönster",
+  "mönster arbetsblad",
+  "mönster arbetsblad förskoleklass",
+  "mönster arbetsblad åk 1",
+  "mönster förskola",
+  "mönster förskoleklass",
+  "mönster förskoleklass film",
+  "mönster gratis",
+  "mönster gratis baby",
+  "mönster gratis barn",
+  "mönster gratis mössa",
+  "mönster gratis raggsockor",
+  "mönster gratis stickning",
+  "mönster gratis sy",
+  "mönster gratis torgvantar",
+  "mönster gratis vantar",
+  "mönster gratis virka",
+  "mönster matematik förskola",
+  "mönster matematik förskoleklass",
+  "mönster matematik åk 1",
+  "mönster matematik åk 2",
+  "mönster stencil förskoleklass",
+  "mönster stickad tröja",
+  "mönster uppgifter förskoleklass",
+  "mönster åk 1",
+  "mönster åk 2",
+  "mönster årskurs 1",
+  "mönster övning förskoleklass",
+  "mönsterbetong",
+  "mönsterblad föreningen för svensk hemslöjd",
+  "mönsterdjup däck",
+  "mönsterdjup nya sommardäck",
+  "mönsterdjup sommardäck",
+  "mönsterdjup vinterdäck",
+  "mönsterfabriken",
+  "mönsterås",
+  "mönsterås kommun",
+  "ordletare",
+  "para ihop bilder",
+  "para ihop bilder förskolan",
+  "para ihop bilder spel",
+  "para ihop två bilder",
+  "plus gratis",
+  "plus gratis chatgpt",
+  "plus gratis playstation",
+  "plus gratis ps",
+  "plus gratis ps4",
+  "plus gratis ps5",
+  "plus gratis roblox",
+  "plus gratis tv",
+  "plus gratis zalando",
+  "prepositioner",
+  "prepositioner arbetsblad",
+  "prepositioner engelska",
+  "prepositioner franska",
+  "prepositioner förskola",
+  "prepositioner förskoleklass",
+  "prepositioner lista",
+  "prepositioner matematik förskola",
+  "prepositioner som styr ackusativ och dativ tyska",
+  "prepositioner som styr ackusativ tyska",
+  "prepositioner som styr dativ tyska",
+  "prepositioner spanska",
+  "prepositioner svenska",
+  "prepositioner tyska",
+  "prepositioner åk 1",
+  "problemlösning klockan åk 2",
+  "problemlösning subtraktion åk 1",
+  "problemlösning subtraktion åk 2",
+  "projekt mönster förskola",
+  "på förskolan korsord",
+  "påsk arbetsblad",
+  "påsk arbetsblad engelska",
+  "påsk arbetsblad gratis",
+  "påsk arbetsblad åk 1",
+  "rymden arbetsblad",
+  "räkna addition förskoleklass",
+  "räkna bilder",
+  "räkna gånger med streck",
+  "räkna med bråk arbetsblad",
+  "räkna med streck",
+  "räkna om bilder för tryck",
+  "räkna om i bilder för tryck korsord",
+  "räknestreck",
+  "räkneuppgifter åk 1",
+  "saknade bitar lego",
+  "saknar bitar",
+  "saknar bitar 3 bokstäver",
+  "saknar bitar 3 bokstäver korsord",
+  "saknar bitar korsord",
+  "saknar bitar webbkryss",
+  "saknas bitar i pussel",
+  "samband addition och subtraktion åk 1",
+  "schema 24 åkersberga",
+  "schema förskola",
+  "schema förskola boden",
+  "schema förskola hudiksvall",
+  "schema förskola hudiksvalls kommun",
+  "schema förskola oskarshamn",
+  "schema förskola personal",
+  "schema förskola skellefteå",
+  "schema förskola vimmerby",
+  "schema förskola örnsköldsvik",
+  "schema förskoleklass",
+  "schema förskoleklass stockholm",
+  "schema gratis amigurumi",
+  "schema gratis mall",
+  "schema gratis online",
+  "schema klass 1",
+  "schema åk 1",
+  "schema åk 2",
+  "schema årskurs 1",
+  "schema årskurs 1 grundskola",
+  "skapa diagram gratis",
+  "skapa mönster förskola",
+  "skattjakt",
+  "skattjakt barn",
+  "skattjakt barnkalas",
+  "skattjakt barnkalas 7 år",
+  "skattjakt barnkalas gratis pdf",
+  "skattjakt för vuxna",
+  "skattjakt förskola",
+  "skattjakt förskoleklass",
+  "skattjakt gratis",
+  "skattjakt inomhus förskola",
+  "skattjakt jul gratis",
+  "skattjakt ledtrådar",
+  "skattjakt ledtrådar gratis",
+  "skattjakt med uppdrag barn",
+  "skattjakt med uppdrag barn gratis",
+  "skattjakt påsk",
+  "skattjakt påsk gratis",
+  "skattjakt skogen förskola",
+  "skattjakt utomhus förskola",
+  "skattjakt åk 1",
+  "skattjakten",
+  "skiljetecken arbetsblad gratis",
+  "skolmagi klockan gratis",
+  "skolplus arbetsblad öva skriva bokstäver skriv ut",
+  "slå ihop bilder",
+  "slå ihop bilder ai",
+  "slå ihop bilder gratis",
+  "slå ihop bilder iphone",
+  "slå ihop bilder powerpoint",
+  "slå ihop bilder till en pdf",
+  "sommar arbetsblad",
+  "sortera bilder",
+  "sortera bilder efter datum iphone",
+  "sortera bilder efter storlek iphone",
+  "sortera bilder i album iphone",
+  "sortera bilder ipad",
+  "sortera bilder iphone",
+  "sortera bilder mac",
+  "sortera bilder med ai",
+  "sortera bilder på datorn",
+  "sortera bilder samsung",
+  "stor eller liten bokstav",
+  "stor eller liten bokstav efter",
+  "stor eller liten bokstav efter kolon",
+  "stor eller liten bokstav efter semikolon",
+  "stor eller liten bokstav i mailadress",
+  "stor eller liten bokstav i punktlista",
+  "stor eller liten bokstav månad",
+  "stor eller liten förskola",
+  "stor eller liten kruka till pelargon",
+  "stor eller liten service bil",
+  "stor eller liten sättpotatis",
+  "subtraktion",
+  "subtraktion arbetsblad",
+  "subtraktion av bråk",
+  "subtraktion film åk 1",
+  "subtraktion förskola",
+  "subtraktion förskoleklass",
+  "subtraktion med bråk",
+  "subtraktion med tiotalsövergång",
+  "subtraktion med uppställning",
+  "subtraktion med växling",
+  "subtraktion med växling arbetsblad",
+  "subtraktion med växling åk 2",
+  "subtraktion termer",
+  "subtraktion uppställning",
+  "subtraktion uppställning låna",
+  "subtraktion åk 1",
+  "subtraktion åk 2",
+  "subtraktion årskurs 1",
+  "subtraktion årskurs 2",
+  "subtraktion övningar åk 1",
+  "subtraktionsangiografi",
+  "svenska förskoleklass arbetsblad",
+  "svenska träd arbetsblad",
+  "svenska åk 1 arbetsblad",
+  "svenska åk 2 arbetsblad",
+  "svenska övningar förskoleklass",
+  "svenska övningar åk 1",
+  "svenska övningar åk 2",
+  "symmetri arbetsblad gratis",
+  "tabeller och diagram arbetsblad",
+  "tabeller och diagram åk 1",
+  "tabeller och diagram åk 2",
+  "tallinje",
+  "tallinje 0 100 arbetsblad",
+  "tallinje 0 100 gratis",
+  "tallinje 0 20 arbetsblad",
+  "tallinje 0 20 gratis",
+  "tallinje 0-100",
+  "tallinje 0-20",
+  "tallinje arbetsblad",
+  "tallinje arbetsblad gratis",
+  "tallinje arbetsblad åk 3",
+  "tallinje arbetsblad åk 3 gratis",
+  "tallinje att skriva ut",
+  "tallinje förskola",
+  "tallinje förskoleklass",
+  "tallinje gratis",
+  "tallinje med negativa tal",
+  "tallinje åk 1",
+  "tallinje åk 2",
+  "tallinjen",
+  "tallinjen arbetsblad åk 1",
+  "tallinjen korsord",
+  "tallinjen åk 3",
+  "tallinjen övningar åk 1",
+  "tema mätning förskola",
+  "tema mönster förskola",
+  "terramar 2026",
+  "test 1 klass",
+  "test depression gratis",
+  "test förskoleklass",
+  "test gratis adhd",
+  "test gratis constitucion española",
+  "test gratis de autismo",
+  "test gratis de coeficiente intelectual",
+  "test gratis de iq",
+  "test gratis de personalidad",
+  "test gratis para saber que carrera estudiar",
+  "tiokompisar arbetsblad gratis",
+  "tioramar",
+  "tioramar valin ady",
+  "tiotal ental hundratal",
+  "tiotal och ental",
+  "tiotal och ental arbetsblad",
+  "tiotal och ental film",
+  "tiotal och ental åk 1",
+  "titta hitta och räkna med oss",
+  "träd arbetsblad",
+  "träna klockan förskoleklass",
+  "träna klockan gratis",
+  "träna klockan åk 1",
+  "träna klockan åk 2",
+  "träna matte förskoleklass",
+  "träna mönster förskolan",
+  "träna online",
+  "träna prepositioner förskola",
+  "up arbetsblad",
+  "upprepad addition arbetsblad",
+  "uppställning addition åk 2",
+  "uppställning subtraktion åk 2",
+  "uppställning subtraktion årskurs 2",
+  "ur arbetsblad",
+  "vad passar inte bättre än",
+  "vad passar inte till champagne",
+  "vad är tiotal och ental",
+  "vattnets former arbetsblad",
+  "vem passar inte i lugg",
+  "vem passar inte jungfrun med",
+  "vem passar inte kräftan med",
+  "vem passar inte stenbocken med",
+  "vem passar inte vattumannen med",
+  "vilka passar inte vågen med",
+  "vilken medicin passar inte med grapefrukt",
+  "vilken måltid passar inte för män",
+  "vinter arbetsblad",
+  "vinter arbetsblad åk 1",
+  "visuel perception dansk",
+  "visuel perceptionsforstyrrelse",
+  "visuell perception",
+  "visuell perception betyder",
+  "visuell perception styrka",
+  "visuell perceptionsstörning",
+  "visuella perceptionssvårigheter",
+  "väder arbetsblad",
+  "vår arbetsblad",
+  "vår bingo förskola",
+  "vårtecken bingo förskola",
+  "webinar geometri gratis",
+  "yggdrasil arbetsblad",
+  "yrken arbetsblad",
+  "yrken arbetsblad åk 1",
+  "åk korsord 11 bokstäver",
+  "åk korsord 2 bokstäver",
+  "överslagsräkning arbetsblad",
+  "övningsblad bokstäver",
+  "övningsblad ekvationer",
+  "övningsblad hockey",
+  "övningsblad klockan",
+  "övningsblad lettering",
+  "övningsblad matematik",
+  "övningsblad multiplikation",
+  "övningsblad multiplikationstabellen",
+  "övningsblad siffror",
+  "övningsblad skrivstil",
+  "тест 2 класс"
+ ]
 }

@@ -4,8 +4,8 @@
   "hl": "da",
   "gl": "dk"
  },
- "generatedAt": "2026-07-06T16:32:21.759Z",
- "requestCount": 40,
+ "generatedAt": "2026-07-06T18:09:54.106Z",
+ "requestCount": 655,
  "seedCounts": {
   "core": 4,
   "types": 177,
@@ -15,89 +15,2234 @@
   "online": 8,
   "alphabet": 58
  },
- "errorCount": 41,
- "errors": [
-  {
-   "seed": "opgaver til print",
-   "err": "HTTP 403"
+ "errorCount": 0,
+ "errors": [],
+ "suggestions": {
+  "opgaver til print": {
+   "cls": "core",
+   "s": [
+    "opgaver til print",
+    "opgaver til print matematik",
+    "opgaver til print dansk",
+    "opgaver til print 1 klasse",
+    "opgaver til print 0 klasse",
+    "opgaver til print engelsk",
+    "opgaver til print 4 år",
+    "tysk opgaver til print",
+    "dansk opgaver til print 7 klasse",
+    "dansk opgaver til print udskoling"
+   ]
   },
-  {
-   "seed": "opgaveark",
-   "err": "HTTP 403"
+  "opgaveark": {
+   "cls": "core",
+   "s": [
+    "opgaver",
+    "opgaver for børn",
+    "opgaver krydsord",
+    "opgaver engelsk",
+    "opgaver på engelsk",
+    "opgaver 0 klasse",
+    "opgaver for børn 5 år gratis",
+    "opgaver synonym",
+    "opgaver med de 120 ord",
+    "opgaver med ligninger"
+   ]
   },
-  {
-   "seed": "gratis opgaver",
-   "err": "HTTP 403"
+  "gratis opgaver": {
+   "cls": "core",
+   "s": [
+    "gratis opgaver til børn",
+    "gratis opgaver",
+    "gratis opgaver til køreturen",
+    "gratis opgaver dansk",
+    "gratis opgaver til 0 klasse",
+    "gratis opgaver til print",
+    "gratis opgaver til ordblinde",
+    "gratis opgaver til førskolebørn",
+    "gratis opgaver til børnehavebørn",
+    "gratis opgaver 1 klasse"
+   ]
   },
-  {
-   "seed": "opgaver til børn",
-   "err": "HTTP 403"
+  "opgaver til børn": {
+   "cls": "core",
+   "s": [
+    "opgaver til børn",
+    "opgaver til børnehavebørn",
+    "opgaver til børn print",
+    "opgaver til børn 5 år",
+    "opgaver til børnehaveklassen",
+    "opgaver til børn 6 år",
+    "opgaver til børn 3 år",
+    "opgaver til børn på 4 år",
+    "opgaver til børnehave",
+    "opgaver til børn på 5-6 år"
+   ]
   },
-  {
-   "seed": "addition",
-   "err": "HTTP 403"
+  "addition": {
+   "cls": "types",
+   "s": [
+    "addition",
+    "additional dansk",
+    "additional",
+    "additionsreaktion",
+    "additionally synonym",
+    "additionsprincippet",
+    "addition dansk",
+    "additionally dansk",
+    "additional synonym",
+    "addition af brøker"
+   ]
   },
-  {
-   "seed": "addition opgaver",
-   "err": "HTTP 403"
+  "addition opgaver": {
+   "cls": "types",
+   "s": [
+    "addition opgaver",
+    "matematik opgaver addition"
+   ]
   },
-  {
-   "seed": "addition gratis",
-   "err": "HTTP 403"
+  "addition gratis": {
+   "cls": "types",
+   "s": [
+    "addition gratis"
+   ]
   },
-  {
-   "seed": "billedsudoku",
-   "err": "HTTP 403"
+  "kryptogram": {
+   "cls": "types",
+   "s": [
+    "kryptogram",
+    "kryptogrammer",
+    "kryptogram synonym",
+    "kryptogram dj",
+    "kryptogramme",
+    "kryptogram krydsord",
+    "kryptogram sagrada familia",
+    "kryptogram tour",
+    "kryptogram how long have you been away lyrics",
+    "kryptogram woman like you lyrics"
+   ]
   },
-  {
-   "seed": "billedsudoku opgaver",
-   "err": "HTTP 403"
+  "billedvej": {
+   "cls": "types",
+   "s": [
+    "billedvej 6",
+    "billedvej 6 2150 nordhavn",
+    "billedvej nordhavn",
+    "billedvej 2 2150 nordhavn",
+    "billedvej 3",
+    "billedvej 2",
+    "billedvej 3 nordhavn",
+    "billedvej 2 nordhavn",
+    "billedvej 4 nordhavn",
+    "billedvej 6 nordhavn"
+   ]
   },
-  {
-   "seed": "billedsudoku gratis",
-   "err": "HTTP 403"
+  "subtraktion": {
+   "cls": "types",
+   "s": [
+    "subtraktion",
+    "subtraktion krydsord",
+    "subtraktion af vektorer",
+    "subtraktion opgaver",
+    "subtraktion med brøker",
+    "subtraktion kryds",
+    "subtraktion synonym",
+    "subtraktionsangiografi",
+    "subtraktion excel",
+    "subtraktion med decimaltal"
+   ]
   },
-  {
-   "seed": "kryptogram",
-   "err": "HTTP 403"
+  "subtraktion opgaver": {
+   "cls": "types",
+   "s": [
+    "subtraktion opgaver"
+   ]
   },
-  {
-   "seed": "kryptogram opgaver",
-   "err": "HTTP 403"
+  "mere eller mindre": {
+   "cls": "types",
+   "s": [
+    "mere eller mindre tegn",
+    "mere eller mindre",
+    "mere eller mindre synonym",
+    "mere eller mindre end tegn",
+    "mere eller mindre engelsk",
+    "mere eller mindre end",
+    "mere eller mindre betydning",
+    "mere eller mindre spil",
+    "mere eller mindre på spansk",
+    "mere eller mindre forkortelse"
+   ]
   },
-  {
-   "seed": "kryptogram gratis",
-   "err": "HTTP 403"
+  "matematikark": {
+   "cls": "types",
+   "s": [
+    "matematik ark",
+    "matematik ark til print",
+    "matematikarka cz"
+   ]
   },
-  {
-   "seed": "billedvej",
-   "err": "HTTP 403"
+  "stor eller lille": {
+   "cls": "types",
+   "s": [
+    "stor eller lille kålsommerfugl",
+    "stor eller lille vandsalamander",
+    "stor eller lille fatninger",
+    "stor eller lille knallert",
+    "stor eller lille flagspætte",
+    "stor eller lille service",
+    "stor eller lille terts",
+    "stor eller lille septim",
+    "stor eller lille stat",
+    "stor eller lille barnevogn"
+   ]
   },
-  {
-   "seed": "billedvej opgaver",
-   "err": "HTTP 403"
+  "mønsterark": {
+   "cls": "types",
+   "s": [
+    "mønsterark til broderi",
+    "mønsterark",
+    "mønsterark sy",
+    "mønsterark til strikking",
+    "mønsterark broderi",
+    "mønsterark scrapbooking",
+    "mønsterark bunad",
+    "mønsterark selfmade",
+    "reprint mønsterark",
+    "mønsterark strikking"
+   ]
   },
-  {
-   "seed": "billedvej gratis",
-   "err": "HTTP 403"
+  "bingo": {
+   "cls": "types",
+   "s": [
+    "bingolotto",
+    "bingo loco",
+    "bingo",
+    "bingo banko",
+    "bingo loco aarhus",
+    "bingo dorthe",
+    "bingo spil",
+    "bingo loco københavn",
+    "bingo loco odense",
+    "bingo card generator"
+   ]
   },
-  {
-   "seed": "subtraktion",
-   "err": "HTTP 403"
+  "bingo gratis": {
+   "cls": "types",
+   "s": [
+    "bingo gratis",
+    "bingo gratis online",
+    "bingo gratis casino",
+    "bingo gratis bet365",
+    "bingo gratis para jugar en casa",
+    "bingo gratis italiano",
+    "bingo gratis en español",
+    "bingo gratis sin registrarse",
+    "bingo gratis promatic",
+    "bingo tragamonedas gratis"
+   ]
   },
-  {
-   "seed": "subtraktion opgaver",
-   "err": "HTTP 403"
+  "matchning": {
+   "cls": "types",
+   "s": [
+    "matchning",
+    "matchningskonsulent region midt",
+    "matchning synonym",
+    "matchning från dag ett",
+    "matchningsgruppen kristianstad",
+    "matchning region midtjylland",
+    "matchningsmidler hjørring kommune",
+    "matchningsprincipen redovisning",
+    "matchning region syddanmark",
+    "matchning region nordjylland"
+   ]
   },
-  {
-   "seed": "subtraktion gratis",
-   "err": "HTTP 403"
+  "sortér billeder": {
+   "cls": "types",
+   "s": [
+    "sorter billeder iphone",
+    "sorter billeder",
+    "sorter billeder efter dato",
+    "sorter billeder app",
+    "sorter billeder efter dato iphone",
+    "klematis sorter billeder",
+    "hosta sorter billeder",
+    "thuja sorter billeder"
+   ]
   },
-  {
-   "seed": "kodeaddition",
-   "err": "HTTP 403"
+  "præpositioner": {
+   "cls": "types",
+   "s": [
+    "præpositioner",
+    "præpositioner engelsk",
+    "præpositioner tysk",
+    "præpositioner dansk",
+    "præpositioner spansk",
+    "præpositioner fransk",
+    "præpositioner tysk skema",
+    "præpositioner der styrer akkusativ tysk",
+    "præpositioner (forholdsord)",
+    "præpositioner der styrer dativ"
+   ]
+  },
+  "præpositioner opgaver": {
+   "cls": "types",
+   "s": [
+    "præpositioner opgaver",
+    "præpositioner dansk opgaver"
+   ]
+  },
+  "gæt ordet": {
+   "cls": "types",
+   "s": [
+    "gæt ordet",
+    "gæt ordet spil",
+    "gæt ordet hjælp",
+    "gæt ordet dansk",
+    "gæt ordet brætspil",
+    "gæt ordet app",
+    "gæt ordet 5 bogstaver",
+    "gæt ordet kortspil",
+    "gæt ordet engelsk",
+    "gæt ordet online"
+   ]
+  },
+  "ordsøgning": {
+   "cls": "types",
+   "s": [
+    "ordsøgning",
+    "ordsøgning spil find ord",
+    "ordsøgning ordspil",
+    "ordsøgning spil",
+    "ordsøgning i word",
+    "ordsøgning dansk",
+    "ordsøgning bog"
+   ]
+  },
+  "krydsord": {
+   "cls": "types",
+   "s": [
+    "krydsord",
+    "krydsord hjælp",
+    "krydsordbog",
+    "krydsordseksperten",
+    "krydsord net",
+    "krydsord gratis",
+    "krydsordexperten",
+    "krydsord ordbog",
+    "krydsord online",
+    "krydsord 5 bogstaver"
+   ]
+  },
+  "krydsord opgaver": {
+   "cls": "types",
+   "s": [
+    "krydsord opgaver",
+    "krydsord opgaver gratis",
+    "krydsord opgaver børn",
+    "krydsord engelsk opgaver til print",
+    "håndværker opgaver krydsord"
+   ]
+  },
+  "krydsord gratis": {
+   "cls": "types",
+   "s": [
+    "krydsord gratis",
+    "krydsord gratis ældre sagen",
+    "krydsord gratis spil",
+    "krydsord gratis print",
+    "krydsord gratis børn",
+    "krydsord gratis kristeligt dagblad",
+    "krydsord gratis nem",
+    "krydsord gratis let",
+    "krydsord gratis jyllandsposten",
+    "krydsord gratis tankesport"
+   ]
+  },
+  "find og tæl": {
+   "cls": "types",
+   "s": [
+    "find og tæl"
+   ]
+  },
+  "skattejagt": {
+   "cls": "types",
+   "s": [
+    "skattejagt",
+    "skattejagt ideer",
+    "skattejagt for voksne",
+    "skattejagt til børn",
+    "skattejagt københavn",
+    "skattejagt 7 år",
+    "skattejagt børn 3 4 år",
+    "skattejagt 6 år",
+    "skattejagt på museet",
+    "skattejagt app"
+   ]
+  },
+  "skattejagt opgaver": {
+   "cls": "types",
+   "s": [
+    "skattejagt opgaver",
+    "skattejagt opgaver børn",
+    "skattejagt opgaver 7 år",
+    "skattejagt opgaver voksne",
+    "skattejagt med opgaver"
+   ]
+  },
+  "skattejagt gratis": {
+   "cls": "types",
+   "s": [
+    "skattejagt gratis",
+    "gratis skattejagt for børn",
+    "gratis skattejagt københavn",
+    "påske skattejagt gratis",
+    "udendørs skattejagt gratis",
+    "halloween skattejagt gratis",
+    "skattejagt for voksne gratis",
+    "skattejagt for børn gratis print"
+   ]
+  },
+  "manglende brikker": {
+   "cls": "types",
+   "s": [
+    "manglende brikker lego",
+    "manglende brikker"
+   ]
+  },
+  "hvilken passer ikke": {
+   "cls": "types",
+   "s": [
+    "hvilken passer ikke ind",
+    "hvilken stjernetegn passer ikke sammen"
+   ]
+  },
+  "tæl billeder": {
+   "cls": "types",
+   "s": [
+    "tæl kalorier med billeder"
+   ]
+  },
+  "tierramme": {
+   "cls": "types",
+   "s": [
+    "tierrammer",
+    "tierramme oppgaver"
+   ]
+  },
+  "sammenlign tal": {
+   "cls": "types",
+   "s": [
+    "sammenlign tal i excel",
+    "sammenlign tal for områder i danmark",
+    "excel sammenlign tal i 2 kolonner"
+   ]
+  },
+  "flest og færrest": {
+   "cls": "types",
+   "s": [
+    "flest og færrest opgaver",
+    "flest og færrest",
+    "flest færrest",
+    "flest færrest like mange",
+    "kommunene med flest og færrest innbyggere"
+   ]
+  },
+  "flest og færrest opgaver": {
+   "cls": "types",
+   "s": [
+    "flest og færrest opgaver"
+   ]
+  },
+  "størst og mindst": {
+   "cls": "types",
+   "s": [
+    "størst og mindst",
+    "størst og mindst københavn",
+    "størst og mindst tegn",
+    "museum størst og mindst"
+   ]
+  },
+  "tallinje": {
+   "cls": "types",
+   "s": [
+    "tallinje",
+    "tallinje til print",
+    "tallinje matematik",
+    "tallinje med negative tal",
+    "tallinjen",
+    "tallinjer",
+    "tallinje med decimaltal",
+    "tallinje 0-100",
+    "tallinje 1-20",
+    "tallinje print"
+   ]
+  },
+  "tallinje opgaver": {
+   "cls": "types",
+   "s": [
+    "tallinje opgaver",
+    "brøker tallinje opgaver"
+   ]
+  },
+  "tallinje gratis": {
+   "cls": "types",
+   "s": [
+    "tallinje gratis",
+    "tallinje 0 100 gratis",
+    "tallinje 0 20 gratis",
+    "tallinje arbetsblad gratis"
+   ]
+  },
+  "tiere og enere": {
+   "cls": "types",
+   "s": [
+    "tiere og enere",
+    "tiere og enere opgaver",
+    "tiere og enere arbeidsark",
+    "tiere og enere spil",
+    "tiere og enere oppgaver",
+    "tiere og enere multi",
+    "tiere og enere 2 trinn",
+    "enere tiere",
+    "hvor mange tiere og enere",
+    "hundrere tiere og enere"
+   ]
+  },
+  "tiere og enere opgaver": {
+   "cls": "types",
+   "s": [
+    "tiere og enere opgaver"
+   ]
+  },
+  "hvad er klokken": {
+   "cls": "types",
+   "s": [
+    "hvad er klokken i danmark",
+    "hvad er klokken",
+    "hvad er klokken i sverige",
+    "hvad er klokken præcist med sekunder",
+    "hvad er klokken i thailand",
+    "hvad er klokken i usa",
+    "hvad er klokken i australien",
+    "hvad er klokken i new york",
+    "hvad er klokken i japan",
+    "hvad er klokken på bali"
+   ]
+  },
+  "hvad er klokken opgaver": {
+   "cls": "types",
+   "s": [
+    "hvad er klokken opgaver"
+   ]
+  },
+  "brøker": {
+   "cls": "types",
+   "s": [
+    "brøker",
+    "brøker regneregler",
+    "brøker krydsord",
+    "brøker engelsk",
+    "brøker opgaver",
+    "brøker til decimaltal",
+    "brøker til procent",
+    "brøker plus",
+    "brøker brøndboring",
+    "brøker minus"
+   ]
+  },
+  "brøker opgaver": {
+   "cls": "types",
+   "s": [
+    "brøker opgaver",
+    "brøker opgaver 3 klasse",
+    "brøker opgaver pdf",
+    "brøker opgaver 9 klasse",
+    "brøker opgaver 7 klasse",
+    "brøker opgaver 6 klasse",
+    "brøker opgaver 8 klasse",
+    "brøker opgaver 5 klasse",
+    "brøker opgaver 4 klasse",
+    "brøker opgaver online"
+   ]
+  },
+  "brøker gratis": {
+   "cls": "types",
+   "s": [
+    "gratisskole brøker"
+   ]
+  },
+  "geometri og former": {
+   "cls": "types",
+   "s": [
+    "geometri former",
+    "geometri former navn",
+    "geometri former 3d",
+    "geometri former namn"
+   ]
+  },
+  "måling": {
+   "cls": "types",
+   "s": [
+    "målinger folketingsvalg",
+    "måling af blodtryk",
+    "måling",
+    "måling af blodsukker",
+    "måling valg",
+    "måling af blodtryk hjemme",
+    "måling af blodtryk efter måltid",
+    "måling af internethastighed",
+    "måling af skimmelsvamp",
+    "målinger dmi"
+   ]
+  },
+  "måling opgaver": {
+   "cls": "types",
+   "s": [
+    "måling opgaver",
+    "måling opgaver indskoling",
+    "geometri og måling opgaver",
+    "måling af vinkler opgaver"
+   ]
+  },
+  "måling gratis": {
+   "cls": "types",
+   "s": [
+    "radon måling gratis",
+    "blodsukker måling gratis"
+   ]
+  },
+  "find forskellen": {
+   "cls": "types",
+   "s": [
+    "find forskellen",
+    "find forskellen billeder",
+    "find forskellen spil",
+    "find forskellen i procent",
+    "find forskellen mellem 2 tal i procent"
+   ]
+  },
+  "find par": {
+   "cls": "types",
+   "s": [
+    "find parkering",
+    "find parkeringsplads",
+    "find parkeret bil",
+    "find parterapeut",
+    "find parcel",
+    "find parkeringsbøde",
+    "find part på hest",
+    "find partner",
+    "find paragraf 3 områder",
+    "find parameter format not correct"
+   ]
+  },
+  "mønstre": {
+   "cls": "types",
+   "s": [
+    "mønstre",
+    "mønstre krydsord",
+    "mønstrede bukser",
+    "mønstret tapet",
+    "mønstret trøje",
+    "mønster",
+    "mønstret kjole",
+    "mønstrede strømpebukser",
+    "mønstrede bukser dame",
+    "mønstret stof"
+   ]
+  },
+  "mønstre opgaver": {
+   "cls": "types",
+   "s": [
+    "mønstre opgaver matematik",
+    "mønstre opgaver"
+   ]
+  },
+  "mønstre gratis": {
+   "cls": "types",
+   "s": [
+    "gratis mønstre barbie",
+    "gratis mønstre på tasker",
+    "gratis mønstre",
+    "gratis mønstre til hama perler",
+    "gratis mønstre dame",
+    "gratis mønstre til perleplader",
+    "gratis mønstre til dukketøj",
+    "gratis mønstre selfmade",
+    "gratis mønstre børnetøj",
+    "gratis mønstre til baby born"
+   ]
+  },
+  "forlyd": {
+   "cls": "types",
+   "s": [
+    "forlyder krydsord",
+    "forlyde",
+    "forlydender",
+    "forlyd",
+    "forlyder",
+    "forlyde kryds",
+    "forlydender krydsord",
+    "forlyder på 5 bogstaver",
+    "forlydende",
+    "forlydsopgaver"
+   ]
+  },
+  "forlyd opgaver": {
+   "cls": "types",
+   "s": [
+    "forlyd opgaver",
+    "forlyd opgaver 0 klasse"
+   ]
+  },
+  "bogstavkendskab": {
+   "cls": "types",
+   "s": [
+    "bogstavkendskab test",
+    "bogstavkendskab opgaver",
+    "funktionelt bogstavkendskab"
+   ]
+  },
+  "bogstavkendskab opgaver": {
+   "cls": "types",
+   "s": [
+    "bogstavkendskab opgaver"
+   ]
+  },
+  "ordforråd": {
+   "cls": "types",
+   "s": [
+    "ordforråd",
+    "ordforråd engelsk",
+    "ordforråd krydsord",
+    "ordforråd tysk",
+    "ordforrådstest",
+    "ordforråd dansk",
+    "ordforråd 2 år",
+    "ordforråd test",
+    "ordforrådstest dansk",
+    "ordforråd betydning"
+   ]
+  },
+  "ordforråd opgaver": {
+   "cls": "types",
+   "s": [
+    "ordforråd opgaver"
+   ]
+  },
+  "sproglig opmærksomhed": {
+   "cls": "types",
+   "s": [
+    "sproglig opmærksomhed",
+    "sproglig opmærksomhed i børnehaveklassen",
+    "sproglig opmærksomhed opgaver",
+    "sproglig opmærksomhed 0 klasse",
+    "hvad er sproglig opmærksomhed"
+   ]
+  },
+  "sproglig opmærksomhed opgaver": {
+   "cls": "types",
+   "s": [
+    "sproglig opmærksomhed opgaver"
+   ]
+  },
+  "addition 1. klasse": {
+   "cls": "typeGrade",
+   "s": [
+    "addition 1. klasse",
+    "addition 1 klasse bis 20",
+    "addition 1 klasse arbeitsblätter",
+    "addition 1 klasse pdf",
+    "addition 1 klasse bis 10",
+    "addition klasse 1 einführung",
+    "mathe addition 1 klasse",
+    "addition subtraktion 1 klasse",
+    "tauschaufgaben addition 1 klasse",
+    "schriftliche addition 1 klasse"
+   ]
+  },
+  "addition 2. klasse": {
+   "cls": "typeGrade",
+   "s": [
+    "addition 2. klasse",
+    "addition 2 klasse pdf",
+    "addition 2 klasse arbeitsblatt",
+    "addition 2 klasse aufgaben",
+    "addition 2 klasse erklären",
+    "addition 2 klasse mit lösung",
+    "addition 2 klasse aufgaben pdf",
+    "rechenstrategien addition 2 klasse",
+    "addition und subtraktion 2 klasse",
+    "addition klasse 2 kopfrechnen"
+   ]
+  },
+  "subtraktion 1. klasse": {
+   "cls": "typeGrade",
+   "s": [
+    "subtraktion 1. klasse",
+    "subtraktion 1. klasse arbeitsblätter",
+    "subtraktion 1 klasse erklären",
+    "subtraktion 1 klasse pdf",
+    "nachbaraufgaben subtraktion klasse 1",
+    "subtraktion klasse 1 einführung",
+    "subtraktion klasse 1 übungen",
+    "subtraktion klasse 1 spiele",
+    "rechenstrategien subtraktion 1 klasse",
+    "subtraktion grundschule 1 klasse"
+   ]
+  },
+  "subtraktion 2. klasse": {
+   "cls": "typeGrade",
+   "s": [
+    "subtraktion 2. klasse",
+    "subtraktion 2 klasse arbeitsblätter",
+    "subtraktion 2 klasse bis 100",
+    "subtraktion 2 klasse erklären",
+    "subtraktion 2 klasse pdf",
+    "subtraktion 2 klasse übungen",
+    "subtraktion 2 klasse rechenweg",
+    "subtraktion 2 klasse mathe arbeitsblätter zum ausdrucken",
+    "addition und subtraktion 2 klasse",
+    "subtraktion mit zehnerübergang 2 klasse"
+   ]
+  },
+  "matematikark 1. klasse": {
+   "cls": "typeGrade",
+   "s": [
+    "matematik ark 1 klasse"
+   ]
+  },
+  "matematikark 2. klasse": {
+   "cls": "typeGrade",
+   "s": [
+    "matematik ark 2 klasse"
+   ]
+  },
+  "bingo 1. klasse": {
+   "cls": "typeGrade",
+   "s": [
+    "bingo 1. klasse",
+    "bingo 1 klasse deutsch",
+    "bingo 1 klasse mathe",
+    "kennenlern bingo 1 klasse",
+    "silben bingo 1 klasse",
+    "osterferien bingo klasse 1",
+    "bingo lesen klasse 1",
+    "weihnachtsferien bingo klasse 1",
+    "herbstferien bingo klasse 1",
+    "sommerferien bingo klasse 1"
+   ]
+  },
+  "bingo 2. klasse": {
+   "cls": "typeGrade",
+   "s": [
+    "bingo 2.klasse",
+    "mathe bingo 2 klasse",
+    "sommerferien bingo 2 klasse",
+    "ferien bingo 2. klasse",
+    "herbstferien bingo klasse 2",
+    "lese bingo klasse 2",
+    "kennenlern bingo klasse 2"
+   ]
+  },
+  "krydsord børnehave": {
+   "cls": "typeGrade",
+   "s": [
+    "børnehave krydsord"
+   ]
+  },
+  "krydsord 0. klasse": {
+   "cls": "typeGrade",
+   "s": [
+    "krydsord 0 klasse"
+   ]
+  },
+  "krydsord 1. klasse": {
+   "cls": "typeGrade",
+   "s": [
+    "krydsord 1 klasse"
+   ]
+  },
+  "krydsord 2. klasse": {
+   "cls": "typeGrade",
+   "s": [
+    "krydsord 2. klasse"
+   ]
+  },
+  "skattejagt børnehave": {
+   "cls": "typeGrade",
+   "s": [
+    "skattejagt børnehave",
+    "skattejagt børnehavebørn",
+    "skattejagt børnehaveklasse",
+    "nem skattejagt børnehave"
+   ]
+  },
+  "skattejagt børnehaveklasse": {
+   "cls": "typeGrade",
+   "s": [
+    "skattejagt børnehaveklasse"
+   ]
+  },
+  "skattejagt 0. klasse": {
+   "cls": "typeGrade",
+   "s": [
+    "skattejagt 0 klasse"
+   ]
+  },
+  "skattejagt 1. klasse": {
+   "cls": "typeGrade",
+   "s": [
+    "skattejagt 1 klasse"
+   ]
+  },
+  "skattejagt 2. klasse": {
+   "cls": "typeGrade",
+   "s": [
+    "skattejagt 2 klasse"
+   ]
+  },
+  "tallinje 1. klasse": {
+   "cls": "typeGrade",
+   "s": [
+    "tallinje 1 klasse"
+   ]
+  },
+  "tallinje 2. klasse": {
+   "cls": "typeGrade",
+   "s": [
+    "tallinje regnestykker 2 klasse"
+   ]
+  },
+  "brøker 2. klasse": {
+   "cls": "typeGrade",
+   "s": [
+    "brøker 2 klasse"
+   ]
+  },
+  "måling 0. klasse": {
+   "cls": "typeGrade",
+   "s": [
+    "måling 0 klasse"
+   ]
+  },
+  "måling 1. klasse": {
+   "cls": "typeGrade",
+   "s": [
+    "måling 1. klasse"
+   ]
+  },
+  "måling 2. klasse": {
+   "cls": "typeGrade",
+   "s": [
+    "måling 2 klasse"
+   ]
+  },
+  "mønstre 0. klasse": {
+   "cls": "typeGrade",
+   "s": [
+    "mønstre 0 klasse"
+   ]
+  },
+  "mønstre 1. klasse": {
+   "cls": "typeGrade",
+   "s": [
+    "mønstre 1 klasse"
+   ]
+  },
+  "forlyd 0. klasse": {
+   "cls": "typeGrade",
+   "s": [
+    "forlyd 0 klasse",
+    "forlyd opgaver 0 klasse"
+   ]
+  },
+  "ordforråd 1. klasse": {
+   "cls": "typeGrade",
+   "s": [
+    "ordforråd 1 klasse"
+   ]
+  },
+  "sproglig opmærksomhed børnehave": {
+   "cls": "typeGrade",
+   "s": [
+    "sproglig opmærksomhed i børnehaveklassen"
+   ]
+  },
+  "sproglig opmærksomhed børnehaveklasse": {
+   "cls": "typeGrade",
+   "s": [
+    "sproglig opmærksomhed i børnehaveklassen"
+   ]
+  },
+  "sproglig opmærksomhed 0. klasse": {
+   "cls": "typeGrade",
+   "s": [
+    "sproglig opmærksomhed 0 klasse"
+   ]
+  },
+  "dyr opgaver": {
+   "cls": "themes",
+   "s": [
+    "dyr opgaver",
+    "skovens dyr opgaver",
+    "engelsk opgaver dyr"
+   ]
+  },
+  "fugle opgaver": {
+   "cls": "themes",
+   "s": [
+    "fugle opgaver børn",
+    "fugle opgaver"
+   ]
+  },
+  "jul opgaver": {
+   "cls": "themes",
+   "s": [
+    "juleopgaver",
+    "opgaver jul indskoling",
+    "opgaver jul mellemtrin",
+    "tysk jul opgaver",
+    "peters jul opgaver",
+    "stormester jul opgaver",
+    "engelsk jul opgaver",
+    "valdes jul opgaver",
+    "kristendom jul opgaver",
+    "dansk jul opgaver"
+   ]
+  },
+  "tøj opgaver": {
+   "cls": "themes",
+   "s": [
+    "tøj opgaver"
+   ]
+  },
+  "farver opgaver": {
+   "cls": "themes",
+   "s": [
+    "tysk farver opgaver"
+   ]
+  },
+  "dinosaurer opgaver": {
+   "cls": "themes",
+   "s": [
+    "dinosaurer opgaver"
+   ]
+  },
+  "påske opgaver": {
+   "cls": "themes",
+   "s": [
+    "påske opgaver",
+    "påske opgaver kristendom",
+    "påske opgaver indskoling",
+    "påske opgaver 0 klasse",
+    "påske opgaver børn",
+    "påske opgaver engelsk",
+    "påske opgaver dansk",
+    "påske opgaver 1 klasse",
+    "påske opgaver print"
+   ]
+  },
+  "følelser opgaver": {
+   "cls": "themes",
+   "s": [
+    "følelser opgaver"
+   ]
+  },
+  "bondegårdsdyr opgaver": {
+   "cls": "themes",
+   "s": [
+    "bondegårdsdyr opgaver"
+   ]
+  },
+  "diverse opgaver": {
+   "cls": "themes",
+   "s": [
+    "diverse opgaver",
+    "diverse opgaver engelsk",
+    "diverse ad hoc opgaver"
+   ]
+  },
+  "musik opgaver": {
+   "cls": "themes",
+   "s": [
+    "musik opgaver indskoling",
+    "musik opgaver mellemtrin",
+    "musik opgaver",
+    "musik opgaver for børn",
+    "musik opgaver 3 klasse",
+    "musik opgaver 5 klasse",
+    "musik opgaver 1 klasse",
+    "musik opgaver 4 klasse",
+    "musik opgaver 6 klasse",
+    "m1 opgaver musik"
+   ]
+  },
+  "kæledyr opgaver": {
+   "cls": "themes",
+   "s": [
+    "kæledyr opgaver"
+   ]
+  },
+  "former opgaver": {
+   "cls": "themes",
+   "s": [
+    "former opgaver",
+    "former og figurer opgaver"
+   ]
+  },
+  "rummet opgaver": {
+   "cls": "themes",
+   "s": [
+    "rummet opgaver"
+   ]
+  },
+  "forår opgaver": {
+   "cls": "themes",
+   "s": [
+    "forår opgaver indskoling",
+    "forår opgaver",
+    "forår opgaver 0 klasse",
+    "det forsømte forår opgaver"
+   ]
+  },
+  "sommer opgaver": {
+   "cls": "themes",
+   "s": [
+    "sommer opgaver",
+    "sommer opgaver indskoling",
+    "garmanns sommer opgaver",
+    "sommer matematik opgaver",
+    "engelsk sommer opgaver",
+    "tysk sommer opgaver"
+   ]
+  },
+  "thanksgiving opgaver": {
+   "cls": "themes",
+   "s": [
+    "thanksgiving opgaver",
+    "thanksgiving opgaver engelsk"
+   ]
+  },
+  "vejr opgaver": {
+   "cls": "themes",
+   "s": [
+    "vejr opgaver"
+   ]
+  },
+  "vinter opgaver": {
+   "cls": "themes",
+   "s": [
+    "vinter opgaver indskoling",
+    "vinter opgaver 0 klasse",
+    "vinter opgaver",
+    "engelsk vinter opgaver"
+   ]
+  },
+  "matematik børnehave opgaver": {
+   "cls": "subjects",
+   "s": [
+    "matematik opgaver børnehave"
+   ]
+  },
+  "matematik børnehaveklasse opgaver": {
+   "cls": "subjects",
+   "s": [
+    "matematik opgaver børnehaveklasse"
+   ]
+  },
+  "matematik 0. klasse opgaver": {
+   "cls": "subjects",
+   "s": [
+    "matematik 0 klasse opgaver",
+    "matematik opgaver 0 klasse print",
+    "matematik opgaver 0 klasse gratis",
+    "sjove matematik opgaver 0 klasse"
+   ]
+  },
+  "matematik 1. klasse opgaver": {
+   "cls": "subjects",
+   "s": [
+    "matematik 1. klasse opgaver",
+    "matematik opgaver 1 klasse print",
+    "matematik opgaver 1 klasse online",
+    "ekstra opgaver matematik 1 klasse",
+    "gratis matematik opgaver 1 klasse",
+    "sjove matematik opgaver 1 klasse"
+   ]
+  },
+  "matematik 2. klasse opgaver": {
+   "cls": "subjects",
+   "s": [
+    "matematik 2 klasse opgaver",
+    "matematik opgaver 2 klasse pdf",
+    "matematik opgaver 2 klasse til print",
+    "matematik opgaver 2 klasse online",
+    "matematik opgaver 2 klasse gratis",
+    "ekstra opgaver matematik 2 klasse",
+    "blandede opgaver matematik 2. klasse",
+    "sjove matematik opgaver 2 klasse"
+   ]
+  },
+  "dansk børnehaveklasse opgaver": {
+   "cls": "subjects",
+   "s": [
+    "dansk opgaver børnehaveklasse"
+   ]
+  },
+  "dansk 0. klasse opgaver": {
+   "cls": "subjects",
+   "s": [
+    "dansk 0 klasse opgaver",
+    "dansk opgaver 0 klasse print"
+   ]
+  },
+  "dansk 1. klasse opgaver": {
+   "cls": "subjects",
+   "s": [
+    "dansk 1. klasse opgaver",
+    "dansk opgaver 1 klasse print",
+    "dansk opgaver 1 klasse online",
+    "ekstra opgaver dansk 1 klasse",
+    "halloween opgaver dansk 1 klasse",
+    "gratis dansk opgaver 1 klasse",
+    "sjove dansk opgaver 1 klasse"
+   ]
+  },
+  "dansk 2. klasse opgaver": {
+   "cls": "subjects",
+   "s": [
+    "dansk 2 klasse opgaver",
+    "dansk opgaver 2 klasse til print",
+    "dansk opgaver 2 klasse online",
+    "dansk opgaver til 2 klasse",
+    "ekstra opgaver dansk 2 klasse",
+    "halloween opgaver dansk 2 klasse",
+    "sjove dansk opgaver 2 klasse",
+    "gratis dansk opgaver 2 klasse"
+   ]
+  },
+  "matematikopgaver 0. klasse": {
+   "cls": "subjects",
+   "s": [
+    "matematikopgaver 0. klasse",
+    "matematikopgaver 0 klasse print"
+   ]
+  },
+  "matematikopgaver 1. klasse": {
+   "cls": "subjects",
+   "s": [
+    "matematikopgaver 1. klasse",
+    "matematikopgaver 1 klasse print",
+    "matematikopgaver 1 klasse gratis",
+    "matematikopgaver 1 klasse online",
+    "sjove matematikopgaver 1 klasse",
+    "blandede matematikopgaver 1 klasse"
+   ]
+  },
+  "matematikopgaver 2. klasse": {
+   "cls": "subjects",
+   "s": [
+    "matematikopgaver 2. klasse",
+    "matematikopgaver 2 klasse print",
+    "matematikopgaver 2 klasse gratis",
+    "matematikopgaver online 2. klasse",
+    "sjove matematikopgaver 2 klasse",
+    "blandede matematikopgaver 2 klasse"
+   ]
+  },
+  "danskopgaver 0. klasse": {
+   "cls": "subjects",
+   "s": [
+    "danskopgaver 0. klasse"
+   ]
+  },
+  "danskopgaver 1. klasse": {
+   "cls": "subjects",
+   "s": [
+    "danskopgaver 1. klasse",
+    "danskopgaver 1 klasse print",
+    "sjove danskopgaver 1. klasse"
+   ]
+  },
+  "danskopgaver 2. klasse": {
+   "cls": "subjects",
+   "s": [
+    "danskopgaver 2. klasse",
+    "sjove danskopgaver 2 klasse"
+   ]
+  },
+  "opgaver til børnehave": {
+   "cls": "subjects",
+   "s": [
+    "opgaver til børnehavebørn",
+    "opgaver til børnehaveklassen",
+    "opgaver til børnehave",
+    "gratis opgaver til børnehavebørn",
+    "opgaver til store børnehavebørn"
+   ]
+  },
+  "opgaver til børnehaveklasse": {
+   "cls": "subjects",
+   "s": [
+    "opgaver til børnehaveklassen"
+   ]
+  },
+  "opgaver til 0. klasse": {
+   "cls": "subjects",
+   "s": [
+    "opgaver til 0. klasse",
+    "opgaver til 0. klasse dansk",
+    "opgaver til 0 klasse matematik",
+    "gratis opgaver til 0 klasse",
+    "print opgaver til 0 klasse",
+    "sjove opgaver til 0 klasse",
+    "nemme opgaver til 0 klasse",
+    "opgaver til børn 0 klasse",
+    "opgaver 0 klasse print",
+    "opgaver 0 klasse bogstaver"
+   ]
+  },
+  "opgaver til 1. klasse": {
+   "cls": "subjects",
+   "s": [
+    "opgaver til 1. klasse",
+    "opgaver til 1 klasse dansk",
+    "opgaver til 1 klasse matematik",
+    "opgaver til print 1 klasse",
+    "opgaver til børn 1 klasse",
+    "sjove opgaver til 1 klasse",
+    "opgaver 1 klasse gratis",
+    "opgaver kristendom 1 klasse",
+    "opgaver engelsk 1 klasse",
+    "matematik opgaver til print 1 klasse"
+   ]
+  },
+  "opgaver til 2. klasse": {
+   "cls": "subjects",
+   "s": [
+    "opgaver til 2. klasse",
+    "opgaver til 2 klasse dansk",
+    "matematik opgaver til 2 klasse",
+    "engelsk opgaver til 2 klasse",
+    "sjove opgaver til 2 klasse",
+    "opgaver navneord 2 klasse",
+    "opgaver kristendom 2 klasse",
+    "engelsk opgaver til print 2 klasse",
+    "matematik opgaver til print 2 klasse",
+    "opgaver til nationale test dansk 2 klasse"
+   ]
+  },
+  "opgaver online": {
+   "cls": "online",
+   "s": [
+    "opgaver online",
+    "online opgaver dansk",
+    "online opgaver matematik",
+    "online opgaver engelsk",
+    "online opgaver 0 klasse",
+    "online opgaver alinea",
+    "online opgaver tysk",
+    "online opgaver for børn",
+    "online opgaver 2 klasse",
+    "matematik opgaver online gratis"
+   ]
+  },
+  "opgaver online 0. klasse": {
+   "cls": "online",
+   "s": [
+    "online opgaver 0 klasse"
+   ]
+  },
+  "matematik online": {
+   "cls": "online",
+   "s": [
+    "matematik online",
+    "matematik online gratis",
+    "matematik online alinea",
+    "matematik online spil",
+    "matematik online opgaver",
+    "matematik online games",
+    "matematik online test",
+    "matematik online undervisning",
+    "matematik online indskoling",
+    "matematik online kursus"
+   ]
+  },
+  "matematik online 0. klasse": {
+   "cls": "online",
+   "s": [
+    "matematik online 0 klasse"
+   ]
+  },
+  "opgaver til print b": {
+   "cls": "alphabet",
+   "s": [
+    "opgaver til børn print",
+    "opgaver til børn print selv",
+    "biologi opgaver til print",
+    "brøker opgaver til print",
+    "gratis print opgaver til børn"
+   ]
+  },
+  "opgaver til print d": {
+   "cls": "alphabet",
+   "s": [
+    "opgaver til print dansk",
+    "dansk opgaver til print 7 klasse",
+    "dansk opgaver til print udskoling",
+    "divisions opgaver til print",
+    "dansk opgaver til print 5 klasse",
+    "dansk opgaver til print 8 klasse",
+    "dansk opgaver til print 0 klasse",
+    "dansk opgaver til print 1 klasse",
+    "dansk opgaver til print 9 klasse",
+    "dansk opgaver til print 6 klasse"
+   ]
+  },
+  "opgaver til print e": {
+   "cls": "alphabet",
+   "s": [
+    "opgaver til print engelsk",
+    "engelsk opgaver til print 6 klasse",
+    "engelsk opgaver til print 4 klasse",
+    "engelsk opgaver til print 8 klasse",
+    "engelsk opgaver til print 9 klasse",
+    "engelsk opgaver til print 7 klasse",
+    "engelsk opgaver til print 2 klasse",
+    "engelsk opgaver til print 5 klasse",
+    "engelsk opgaver til print 3 klasse",
+    "engelsk opgaver til print 1 klasse"
+   ]
+  },
+  "opgaver til print f": {
+   "cls": "alphabet",
+   "s": [
+    "find ord opgaver til print",
+    "opgaver for børn til print",
+    "læs og forstå opgaver til print"
+   ]
+  },
+  "opgaver til print g": {
+   "cls": "alphabet",
+   "s": [
+    "geografi opgaver til print",
+    "gange opgaver til print",
+    "gratis opgaver til print",
+    "geometri opgaver til print",
+    "dansk grammatik opgaver til print",
+    "gratis matematik opgaver til print",
+    "gratis engelsk opgaver til print",
+    "gratis dansk opgaver til print",
+    "gratis print opgaver til børn"
+   ]
+  },
+  "opgaver til print h": {
+   "cls": "alphabet",
+   "s": [
+    "historie opgaver til print",
+    "halloween opgaver til print"
+   ]
+  },
+  "opgaver til print k": {
+   "cls": "alphabet",
+   "s": [
+    "opgaver til print 1 klasse",
+    "opgaver til print 0 klasse",
+    "dansk opgaver til print 7 klasse",
+    "engelsk opgaver til print 6 klasse",
+    "engelsk opgaver til print 4 klasse",
+    "engelsk opgaver til print 8 klasse",
+    "tysk opgaver til print 5 klasse",
+    "engelsk opgaver til print 9 klasse",
+    "engelsk opgaver til print 7 klasse",
+    "engelsk opgaver til print 2 klasse"
+   ]
+  },
+  "opgaver til print l": {
+   "cls": "alphabet",
+   "s": [
+    "labyrint opgaver til print",
+    "ligninger opgaver til print",
+    "læs og forstå opgaver til print"
+   ]
+  },
+  "opgaver til print m": {
+   "cls": "alphabet",
+   "s": [
+    "opgaver til print matematik",
+    "minus opgaver til print",
+    "matematik opgaver til print 2 klasse",
+    "matematik opgaver til print 1 klasse",
+    "matematik opgaver til print 4 klasse",
+    "matematik opgaver til print 6 klasse",
+    "matematik opgaver til print 0 klasse",
+    "matematik opgaver til print 5 klasse",
+    "gratis matematik opgaver til print",
+    "plus og minus opgaver til print"
+   ]
+  },
+  "opgaver til print o": {
+   "cls": "alphabet",
+   "s": [
+    "find ord opgaver til print",
+    "plus og minus opgaver til print",
+    "kryds og tværs opgaver til print",
+    "læs og forstå opgaver til print"
+   ]
+  },
+  "opgaver til print p": {
+   "cls": "alphabet",
+   "s": [
+    "plus opgaver til print",
+    "procentregning opgaver til print",
+    "plus og minus opgaver til print"
+   ]
+  },
+  "opgaver til print s": {
+   "cls": "alphabet",
+   "s": [
+    "opgaver til børn print selv",
+    "sudoku opgaver til print",
+    "sjove opgaver til print",
+    "skoleopgaver til print"
+   ]
+  },
+  "opgaver til print t": {
+   "cls": "alphabet",
+   "s": [
+    "opgaver tysk print",
+    "tysk opgaver til print",
+    "tysk opgaver til print 5 klasse",
+    "tangram opgaver til print",
+    "tal opgaver til print",
+    "opgaver til børn til print",
+    "kryds og tværs opgaver til print"
+   ]
+  },
+  "opgaver til print u": {
+   "cls": "alphabet",
+   "s": [
+    "dansk opgaver til print udskoling",
+    "engelsk opgaver til print udskoling"
+   ]
+  },
+  "opgaver til print å": {
+   "cls": "alphabet",
+   "s": [
+    "opgaver til print 4 år"
+   ]
+  },
+  "opgaveark m": {
+   "cls": "alphabet",
+   "s": [
+    "matematik opgave ark"
+   ]
+  },
+  "opgaveark t": {
+   "cls": "alphabet",
+   "s": [
+    "opgave ark til børn"
+   ]
   }
- ],
- "suggestions": {},
- "unique": []
+ },
+ "unique": [
+  "addition",
+  "addition 1 klasse arbeitsblätter",
+  "addition 1 klasse bis 10",
+  "addition 1 klasse bis 20",
+  "addition 1 klasse pdf",
+  "addition 1. klasse",
+  "addition 2 klasse arbeitsblatt",
+  "addition 2 klasse aufgaben",
+  "addition 2 klasse aufgaben pdf",
+  "addition 2 klasse erklären",
+  "addition 2 klasse mit lösung",
+  "addition 2 klasse pdf",
+  "addition 2. klasse",
+  "addition af brøker",
+  "addition dansk",
+  "addition gratis",
+  "addition klasse 1 einführung",
+  "addition klasse 2 kopfrechnen",
+  "addition opgaver",
+  "addition subtraktion 1 klasse",
+  "addition und subtraktion 2 klasse",
+  "additional",
+  "additional dansk",
+  "additional synonym",
+  "additionally dansk",
+  "additionally synonym",
+  "additionsprincippet",
+  "additionsreaktion",
+  "billedvej 2",
+  "billedvej 2 2150 nordhavn",
+  "billedvej 2 nordhavn",
+  "billedvej 3",
+  "billedvej 3 nordhavn",
+  "billedvej 4 nordhavn",
+  "billedvej 6",
+  "billedvej 6 2150 nordhavn",
+  "billedvej 6 nordhavn",
+  "billedvej nordhavn",
+  "bingo",
+  "bingo 1 klasse deutsch",
+  "bingo 1 klasse mathe",
+  "bingo 1. klasse",
+  "bingo 2.klasse",
+  "bingo banko",
+  "bingo card generator",
+  "bingo dorthe",
+  "bingo gratis",
+  "bingo gratis bet365",
+  "bingo gratis casino",
+  "bingo gratis en español",
+  "bingo gratis italiano",
+  "bingo gratis online",
+  "bingo gratis para jugar en casa",
+  "bingo gratis promatic",
+  "bingo gratis sin registrarse",
+  "bingo lesen klasse 1",
+  "bingo loco",
+  "bingo loco aarhus",
+  "bingo loco københavn",
+  "bingo loco odense",
+  "bingo spil",
+  "bingo tragamonedas gratis",
+  "bingolotto",
+  "biologi opgaver til print",
+  "blandede matematikopgaver 1 klasse",
+  "blandede matematikopgaver 2 klasse",
+  "blandede opgaver matematik 2. klasse",
+  "blodsukker måling gratis",
+  "bogstavkendskab opgaver",
+  "bogstavkendskab test",
+  "bondegårdsdyr opgaver",
+  "brøker",
+  "brøker 2 klasse",
+  "brøker brøndboring",
+  "brøker engelsk",
+  "brøker krydsord",
+  "brøker minus",
+  "brøker opgaver",
+  "brøker opgaver 3 klasse",
+  "brøker opgaver 4 klasse",
+  "brøker opgaver 5 klasse",
+  "brøker opgaver 6 klasse",
+  "brøker opgaver 7 klasse",
+  "brøker opgaver 8 klasse",
+  "brøker opgaver 9 klasse",
+  "brøker opgaver online",
+  "brøker opgaver pdf",
+  "brøker opgaver til print",
+  "brøker plus",
+  "brøker regneregler",
+  "brøker tallinje opgaver",
+  "brøker til decimaltal",
+  "brøker til procent",
+  "børnehave krydsord",
+  "dansk 0 klasse opgaver",
+  "dansk 1. klasse opgaver",
+  "dansk 2 klasse opgaver",
+  "dansk grammatik opgaver til print",
+  "dansk jul opgaver",
+  "dansk opgaver 0 klasse print",
+  "dansk opgaver 1 klasse online",
+  "dansk opgaver 1 klasse print",
+  "dansk opgaver 2 klasse online",
+  "dansk opgaver 2 klasse til print",
+  "dansk opgaver børnehaveklasse",
+  "dansk opgaver til 2 klasse",
+  "dansk opgaver til print 0 klasse",
+  "dansk opgaver til print 1 klasse",
+  "dansk opgaver til print 5 klasse",
+  "dansk opgaver til print 6 klasse",
+  "dansk opgaver til print 7 klasse",
+  "dansk opgaver til print 8 klasse",
+  "dansk opgaver til print 9 klasse",
+  "dansk opgaver til print udskoling",
+  "danskopgaver 0. klasse",
+  "danskopgaver 1 klasse print",
+  "danskopgaver 1. klasse",
+  "danskopgaver 2. klasse",
+  "det forsømte forår opgaver",
+  "dinosaurer opgaver",
+  "diverse ad hoc opgaver",
+  "diverse opgaver",
+  "diverse opgaver engelsk",
+  "divisions opgaver til print",
+  "dyr opgaver",
+  "ekstra opgaver dansk 1 klasse",
+  "ekstra opgaver dansk 2 klasse",
+  "ekstra opgaver matematik 1 klasse",
+  "ekstra opgaver matematik 2 klasse",
+  "enere tiere",
+  "engelsk jul opgaver",
+  "engelsk opgaver dyr",
+  "engelsk opgaver til 2 klasse",
+  "engelsk opgaver til print 1 klasse",
+  "engelsk opgaver til print 2 klasse",
+  "engelsk opgaver til print 3 klasse",
+  "engelsk opgaver til print 4 klasse",
+  "engelsk opgaver til print 5 klasse",
+  "engelsk opgaver til print 6 klasse",
+  "engelsk opgaver til print 7 klasse",
+  "engelsk opgaver til print 8 klasse",
+  "engelsk opgaver til print 9 klasse",
+  "engelsk opgaver til print udskoling",
+  "engelsk sommer opgaver",
+  "engelsk vinter opgaver",
+  "excel sammenlign tal i 2 kolonner",
+  "ferien bingo 2. klasse",
+  "find forskellen",
+  "find forskellen billeder",
+  "find forskellen i procent",
+  "find forskellen mellem 2 tal i procent",
+  "find forskellen spil",
+  "find og tæl",
+  "find ord opgaver til print",
+  "find paragraf 3 områder",
+  "find parameter format not correct",
+  "find parcel",
+  "find parkeret bil",
+  "find parkering",
+  "find parkeringsbøde",
+  "find parkeringsplads",
+  "find part på hest",
+  "find parterapeut",
+  "find partner",
+  "flest færrest",
+  "flest færrest like mange",
+  "flest og færrest",
+  "flest og færrest opgaver",
+  "forlyd",
+  "forlyd 0 klasse",
+  "forlyd opgaver",
+  "forlyd opgaver 0 klasse",
+  "forlyde",
+  "forlyde kryds",
+  "forlydende",
+  "forlydender",
+  "forlydender krydsord",
+  "forlyder",
+  "forlyder krydsord",
+  "forlyder på 5 bogstaver",
+  "forlydsopgaver",
+  "former og figurer opgaver",
+  "former opgaver",
+  "forår opgaver",
+  "forår opgaver 0 klasse",
+  "forår opgaver indskoling",
+  "fugle opgaver",
+  "fugle opgaver børn",
+  "funktionelt bogstavkendskab",
+  "følelser opgaver",
+  "gange opgaver til print",
+  "garmanns sommer opgaver",
+  "geografi opgaver til print",
+  "geometri former",
+  "geometri former 3d",
+  "geometri former namn",
+  "geometri former navn",
+  "geometri og måling opgaver",
+  "geometri opgaver til print",
+  "gratis dansk opgaver 1 klasse",
+  "gratis dansk opgaver 2 klasse",
+  "gratis dansk opgaver til print",
+  "gratis engelsk opgaver til print",
+  "gratis matematik opgaver 1 klasse",
+  "gratis matematik opgaver til print",
+  "gratis mønstre",
+  "gratis mønstre barbie",
+  "gratis mønstre børnetøj",
+  "gratis mønstre dame",
+  "gratis mønstre på tasker",
+  "gratis mønstre selfmade",
+  "gratis mønstre til baby born",
+  "gratis mønstre til dukketøj",
+  "gratis mønstre til hama perler",
+  "gratis mønstre til perleplader",
+  "gratis opgaver",
+  "gratis opgaver 1 klasse",
+  "gratis opgaver dansk",
+  "gratis opgaver til 0 klasse",
+  "gratis opgaver til børn",
+  "gratis opgaver til børnehavebørn",
+  "gratis opgaver til førskolebørn",
+  "gratis opgaver til køreturen",
+  "gratis opgaver til ordblinde",
+  "gratis opgaver til print",
+  "gratis print opgaver til børn",
+  "gratis skattejagt for børn",
+  "gratis skattejagt københavn",
+  "gratisskole brøker",
+  "gæt ordet",
+  "gæt ordet 5 bogstaver",
+  "gæt ordet app",
+  "gæt ordet brætspil",
+  "gæt ordet dansk",
+  "gæt ordet engelsk",
+  "gæt ordet hjælp",
+  "gæt ordet kortspil",
+  "gæt ordet online",
+  "gæt ordet spil",
+  "halloween opgaver dansk 1 klasse",
+  "halloween opgaver dansk 2 klasse",
+  "halloween opgaver til print",
+  "halloween skattejagt gratis",
+  "herbstferien bingo klasse 1",
+  "herbstferien bingo klasse 2",
+  "historie opgaver til print",
+  "hosta sorter billeder",
+  "hundrere tiere og enere",
+  "hvad er klokken",
+  "hvad er klokken i australien",
+  "hvad er klokken i danmark",
+  "hvad er klokken i japan",
+  "hvad er klokken i new york",
+  "hvad er klokken i sverige",
+  "hvad er klokken i thailand",
+  "hvad er klokken i usa",
+  "hvad er klokken opgaver",
+  "hvad er klokken præcist med sekunder",
+  "hvad er klokken på bali",
+  "hvad er sproglig opmærksomhed",
+  "hvilken passer ikke ind",
+  "hvilken stjernetegn passer ikke sammen",
+  "hvor mange tiere og enere",
+  "håndværker opgaver krydsord",
+  "juleopgaver",
+  "kennenlern bingo 1 klasse",
+  "kennenlern bingo klasse 2",
+  "klematis sorter billeder",
+  "kommunene med flest og færrest innbyggere",
+  "kristendom jul opgaver",
+  "kryds og tværs opgaver til print",
+  "krydsord",
+  "krydsord 0 klasse",
+  "krydsord 1 klasse",
+  "krydsord 2. klasse",
+  "krydsord 5 bogstaver",
+  "krydsord engelsk opgaver til print",
+  "krydsord gratis",
+  "krydsord gratis børn",
+  "krydsord gratis jyllandsposten",
+  "krydsord gratis kristeligt dagblad",
+  "krydsord gratis let",
+  "krydsord gratis nem",
+  "krydsord gratis print",
+  "krydsord gratis spil",
+  "krydsord gratis tankesport",
+  "krydsord gratis ældre sagen",
+  "krydsord hjælp",
+  "krydsord net",
+  "krydsord online",
+  "krydsord opgaver",
+  "krydsord opgaver børn",
+  "krydsord opgaver gratis",
+  "krydsord ordbog",
+  "krydsordbog",
+  "krydsordexperten",
+  "krydsordseksperten",
+  "kryptogram",
+  "kryptogram dj",
+  "kryptogram how long have you been away lyrics",
+  "kryptogram krydsord",
+  "kryptogram sagrada familia",
+  "kryptogram synonym",
+  "kryptogram tour",
+  "kryptogram woman like you lyrics",
+  "kryptogramme",
+  "kryptogrammer",
+  "kæledyr opgaver",
+  "labyrint opgaver til print",
+  "lese bingo klasse 2",
+  "ligninger opgaver til print",
+  "læs og forstå opgaver til print",
+  "m1 opgaver musik",
+  "manglende brikker",
+  "manglende brikker lego",
+  "matchning",
+  "matchning från dag ett",
+  "matchning region midtjylland",
+  "matchning region nordjylland",
+  "matchning region syddanmark",
+  "matchning synonym",
+  "matchningsgruppen kristianstad",
+  "matchningskonsulent region midt",
+  "matchningsmidler hjørring kommune",
+  "matchningsprincipen redovisning",
+  "matematik 0 klasse opgaver",
+  "matematik 1. klasse opgaver",
+  "matematik 2 klasse opgaver",
+  "matematik ark",
+  "matematik ark 1 klasse",
+  "matematik ark 2 klasse",
+  "matematik ark til print",
+  "matematik online",
+  "matematik online 0 klasse",
+  "matematik online alinea",
+  "matematik online games",
+  "matematik online gratis",
+  "matematik online indskoling",
+  "matematik online kursus",
+  "matematik online opgaver",
+  "matematik online spil",
+  "matematik online test",
+  "matematik online undervisning",
+  "matematik opgave ark",
+  "matematik opgaver 0 klasse gratis",
+  "matematik opgaver 0 klasse print",
+  "matematik opgaver 1 klasse online",
+  "matematik opgaver 1 klasse print",
+  "matematik opgaver 2 klasse gratis",
+  "matematik opgaver 2 klasse online",
+  "matematik opgaver 2 klasse pdf",
+  "matematik opgaver 2 klasse til print",
+  "matematik opgaver addition",
+  "matematik opgaver børnehave",
+  "matematik opgaver børnehaveklasse",
+  "matematik opgaver online gratis",
+  "matematik opgaver til 2 klasse",
+  "matematik opgaver til print 0 klasse",
+  "matematik opgaver til print 1 klasse",
+  "matematik opgaver til print 2 klasse",
+  "matematik opgaver til print 4 klasse",
+  "matematik opgaver til print 5 klasse",
+  "matematik opgaver til print 6 klasse",
+  "matematikarka cz",
+  "matematikopgaver 0 klasse print",
+  "matematikopgaver 0. klasse",
+  "matematikopgaver 1 klasse gratis",
+  "matematikopgaver 1 klasse online",
+  "matematikopgaver 1 klasse print",
+  "matematikopgaver 1. klasse",
+  "matematikopgaver 2 klasse gratis",
+  "matematikopgaver 2 klasse print",
+  "matematikopgaver 2. klasse",
+  "matematikopgaver online 2. klasse",
+  "mathe addition 1 klasse",
+  "mathe bingo 2 klasse",
+  "mere eller mindre",
+  "mere eller mindre betydning",
+  "mere eller mindre end",
+  "mere eller mindre end tegn",
+  "mere eller mindre engelsk",
+  "mere eller mindre forkortelse",
+  "mere eller mindre på spansk",
+  "mere eller mindre spil",
+  "mere eller mindre synonym",
+  "mere eller mindre tegn",
+  "minus opgaver til print",
+  "museum størst og mindst",
+  "musik opgaver",
+  "musik opgaver 1 klasse",
+  "musik opgaver 3 klasse",
+  "musik opgaver 4 klasse",
+  "musik opgaver 5 klasse",
+  "musik opgaver 6 klasse",
+  "musik opgaver for børn",
+  "musik opgaver indskoling",
+  "musik opgaver mellemtrin",
+  "måling",
+  "måling 0 klasse",
+  "måling 1. klasse",
+  "måling 2 klasse",
+  "måling af blodsukker",
+  "måling af blodtryk",
+  "måling af blodtryk efter måltid",
+  "måling af blodtryk hjemme",
+  "måling af internethastighed",
+  "måling af skimmelsvamp",
+  "måling af vinkler opgaver",
+  "måling opgaver",
+  "måling opgaver indskoling",
+  "måling valg",
+  "målinger dmi",
+  "målinger folketingsvalg",
+  "mønster",
+  "mønsterark",
+  "mønsterark broderi",
+  "mønsterark bunad",
+  "mønsterark scrapbooking",
+  "mønsterark selfmade",
+  "mønsterark strikking",
+  "mønsterark sy",
+  "mønsterark til broderi",
+  "mønsterark til strikking",
+  "mønstre",
+  "mønstre 0 klasse",
+  "mønstre 1 klasse",
+  "mønstre krydsord",
+  "mønstre opgaver",
+  "mønstre opgaver matematik",
+  "mønstrede bukser",
+  "mønstrede bukser dame",
+  "mønstrede strømpebukser",
+  "mønstret kjole",
+  "mønstret stof",
+  "mønstret tapet",
+  "mønstret trøje",
+  "nachbaraufgaben subtraktion klasse 1",
+  "nem skattejagt børnehave",
+  "nemme opgaver til 0 klasse",
+  "online opgaver 0 klasse",
+  "online opgaver 2 klasse",
+  "online opgaver alinea",
+  "online opgaver dansk",
+  "online opgaver engelsk",
+  "online opgaver for børn",
+  "online opgaver matematik",
+  "online opgaver tysk",
+  "opgave ark til børn",
+  "opgaver",
+  "opgaver 0 klasse",
+  "opgaver 0 klasse bogstaver",
+  "opgaver 0 klasse print",
+  "opgaver 1 klasse gratis",
+  "opgaver engelsk",
+  "opgaver engelsk 1 klasse",
+  "opgaver for børn",
+  "opgaver for børn 5 år gratis",
+  "opgaver for børn til print",
+  "opgaver jul indskoling",
+  "opgaver jul mellemtrin",
+  "opgaver kristendom 1 klasse",
+  "opgaver kristendom 2 klasse",
+  "opgaver krydsord",
+  "opgaver med de 120 ord",
+  "opgaver med ligninger",
+  "opgaver navneord 2 klasse",
+  "opgaver online",
+  "opgaver på engelsk",
+  "opgaver synonym",
+  "opgaver til 0 klasse matematik",
+  "opgaver til 0. klasse",
+  "opgaver til 0. klasse dansk",
+  "opgaver til 1 klasse dansk",
+  "opgaver til 1 klasse matematik",
+  "opgaver til 1. klasse",
+  "opgaver til 2 klasse dansk",
+  "opgaver til 2. klasse",
+  "opgaver til børn",
+  "opgaver til børn 0 klasse",
+  "opgaver til børn 1 klasse",
+  "opgaver til børn 3 år",
+  "opgaver til børn 5 år",
+  "opgaver til børn 6 år",
+  "opgaver til børn print",
+  "opgaver til børn print selv",
+  "opgaver til børn på 4 år",
+  "opgaver til børn på 5-6 år",
+  "opgaver til børn til print",
+  "opgaver til børnehave",
+  "opgaver til børnehavebørn",
+  "opgaver til børnehaveklassen",
+  "opgaver til nationale test dansk 2 klasse",
+  "opgaver til print",
+  "opgaver til print 0 klasse",
+  "opgaver til print 1 klasse",
+  "opgaver til print 4 år",
+  "opgaver til print dansk",
+  "opgaver til print engelsk",
+  "opgaver til print matematik",
+  "opgaver til store børnehavebørn",
+  "opgaver tysk print",
+  "ordforråd",
+  "ordforråd 1 klasse",
+  "ordforråd 2 år",
+  "ordforråd betydning",
+  "ordforråd dansk",
+  "ordforråd engelsk",
+  "ordforråd krydsord",
+  "ordforråd opgaver",
+  "ordforråd test",
+  "ordforråd tysk",
+  "ordforrådstest",
+  "ordforrådstest dansk",
+  "ordsøgning",
+  "ordsøgning bog",
+  "ordsøgning dansk",
+  "ordsøgning i word",
+  "ordsøgning ordspil",
+  "ordsøgning spil",
+  "ordsøgning spil find ord",
+  "osterferien bingo klasse 1",
+  "peters jul opgaver",
+  "plus og minus opgaver til print",
+  "plus opgaver til print",
+  "print opgaver til 0 klasse",
+  "procentregning opgaver til print",
+  "præpositioner",
+  "præpositioner (forholdsord)",
+  "præpositioner dansk",
+  "præpositioner dansk opgaver",
+  "præpositioner der styrer akkusativ tysk",
+  "præpositioner der styrer dativ",
+  "præpositioner engelsk",
+  "præpositioner fransk",
+  "præpositioner opgaver",
+  "præpositioner spansk",
+  "præpositioner tysk",
+  "præpositioner tysk skema",
+  "påske opgaver",
+  "påske opgaver 0 klasse",
+  "påske opgaver 1 klasse",
+  "påske opgaver børn",
+  "påske opgaver dansk",
+  "påske opgaver engelsk",
+  "påske opgaver indskoling",
+  "påske opgaver kristendom",
+  "påske opgaver print",
+  "påske skattejagt gratis",
+  "radon måling gratis",
+  "rechenstrategien addition 2 klasse",
+  "rechenstrategien subtraktion 1 klasse",
+  "reprint mønsterark",
+  "rummet opgaver",
+  "sammenlign tal for områder i danmark",
+  "sammenlign tal i excel",
+  "schriftliche addition 1 klasse",
+  "silben bingo 1 klasse",
+  "sjove dansk opgaver 1 klasse",
+  "sjove dansk opgaver 2 klasse",
+  "sjove danskopgaver 1. klasse",
+  "sjove danskopgaver 2 klasse",
+  "sjove matematik opgaver 0 klasse",
+  "sjove matematik opgaver 1 klasse",
+  "sjove matematik opgaver 2 klasse",
+  "sjove matematikopgaver 1 klasse",
+  "sjove matematikopgaver 2 klasse",
+  "sjove opgaver til 0 klasse",
+  "sjove opgaver til 1 klasse",
+  "sjove opgaver til 2 klasse",
+  "sjove opgaver til print",
+  "skattejagt",
+  "skattejagt 0 klasse",
+  "skattejagt 1 klasse",
+  "skattejagt 2 klasse",
+  "skattejagt 6 år",
+  "skattejagt 7 år",
+  "skattejagt app",
+  "skattejagt børn 3 4 år",
+  "skattejagt børnehave",
+  "skattejagt børnehavebørn",
+  "skattejagt børnehaveklasse",
+  "skattejagt for børn gratis print",
+  "skattejagt for voksne",
+  "skattejagt for voksne gratis",
+  "skattejagt gratis",
+  "skattejagt ideer",
+  "skattejagt københavn",
+  "skattejagt med opgaver",
+  "skattejagt opgaver",
+  "skattejagt opgaver 7 år",
+  "skattejagt opgaver børn",
+  "skattejagt opgaver voksne",
+  "skattejagt på museet",
+  "skattejagt til børn",
+  "skoleopgaver til print",
+  "skovens dyr opgaver",
+  "sommer matematik opgaver",
+  "sommer opgaver",
+  "sommer opgaver indskoling",
+  "sommerferien bingo 2 klasse",
+  "sommerferien bingo klasse 1",
+  "sorter billeder",
+  "sorter billeder app",
+  "sorter billeder efter dato",
+  "sorter billeder efter dato iphone",
+  "sorter billeder iphone",
+  "sproglig opmærksomhed",
+  "sproglig opmærksomhed 0 klasse",
+  "sproglig opmærksomhed i børnehaveklassen",
+  "sproglig opmærksomhed opgaver",
+  "stor eller lille barnevogn",
+  "stor eller lille fatninger",
+  "stor eller lille flagspætte",
+  "stor eller lille knallert",
+  "stor eller lille kålsommerfugl",
+  "stor eller lille septim",
+  "stor eller lille service",
+  "stor eller lille stat",
+  "stor eller lille terts",
+  "stor eller lille vandsalamander",
+  "stormester jul opgaver",
+  "størst og mindst",
+  "størst og mindst københavn",
+  "størst og mindst tegn",
+  "subtraktion",
+  "subtraktion 1 klasse erklären",
+  "subtraktion 1 klasse pdf",
+  "subtraktion 1. klasse",
+  "subtraktion 1. klasse arbeitsblätter",
+  "subtraktion 2 klasse arbeitsblätter",
+  "subtraktion 2 klasse bis 100",
+  "subtraktion 2 klasse erklären",
+  "subtraktion 2 klasse mathe arbeitsblätter zum ausdrucken",
+  "subtraktion 2 klasse pdf",
+  "subtraktion 2 klasse rechenweg",
+  "subtraktion 2 klasse übungen",
+  "subtraktion 2. klasse",
+  "subtraktion af vektorer",
+  "subtraktion excel",
+  "subtraktion grundschule 1 klasse",
+  "subtraktion klasse 1 einführung",
+  "subtraktion klasse 1 spiele",
+  "subtraktion klasse 1 übungen",
+  "subtraktion kryds",
+  "subtraktion krydsord",
+  "subtraktion med brøker",
+  "subtraktion med decimaltal",
+  "subtraktion mit zehnerübergang 2 klasse",
+  "subtraktion opgaver",
+  "subtraktion synonym",
+  "subtraktionsangiografi",
+  "sudoku opgaver til print",
+  "tal opgaver til print",
+  "tallinje",
+  "tallinje 0 100 gratis",
+  "tallinje 0 20 gratis",
+  "tallinje 0-100",
+  "tallinje 1 klasse",
+  "tallinje 1-20",
+  "tallinje arbetsblad gratis",
+  "tallinje gratis",
+  "tallinje matematik",
+  "tallinje med decimaltal",
+  "tallinje med negative tal",
+  "tallinje opgaver",
+  "tallinje print",
+  "tallinje regnestykker 2 klasse",
+  "tallinje til print",
+  "tallinjen",
+  "tallinjer",
+  "tangram opgaver til print",
+  "tauschaufgaben addition 1 klasse",
+  "thanksgiving opgaver",
+  "thanksgiving opgaver engelsk",
+  "thuja sorter billeder",
+  "tiere og enere",
+  "tiere og enere 2 trinn",
+  "tiere og enere arbeidsark",
+  "tiere og enere multi",
+  "tiere og enere opgaver",
+  "tiere og enere oppgaver",
+  "tiere og enere spil",
+  "tierramme oppgaver",
+  "tierrammer",
+  "tysk farver opgaver",
+  "tysk jul opgaver",
+  "tysk opgaver til print",
+  "tysk opgaver til print 5 klasse",
+  "tysk sommer opgaver",
+  "tæl kalorier med billeder",
+  "tøj opgaver",
+  "udendørs skattejagt gratis",
+  "valdes jul opgaver",
+  "vejr opgaver",
+  "vinter opgaver",
+  "vinter opgaver 0 klasse",
+  "vinter opgaver indskoling",
+  "weihnachtsferien bingo klasse 1"
+ ]
 }

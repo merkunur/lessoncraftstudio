@@ -217,7 +217,10 @@
         x: inter.zone.x, y: inter.zone.y, w: inter.zone.w, h: inter.zone.h
       }),
       scale: opts.scale,
-      storyBase: '/mini-tools/stories/' + opts.storyId + '/',
+      /* the module media base: the player passes it (tenant links serve
+         binaries ONLY under /api/play/<link>/m/…); the static fallback keeps
+         old callers (qa harness, operator ?activity=) working unchanged */
+      storyBase: opts.base || ('/mini-tools/stories/' + opts.storyId + '/'),
       locale: opts.locale,
       t: t,
       taskData: deepFreeze(JSON.parse(JSON.stringify(inter.taskData || {}))),

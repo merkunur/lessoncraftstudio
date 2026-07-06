@@ -140,6 +140,11 @@
   .stu-dpoint { position:absolute; width:56px; height:56px; margin:-28px 0 0 -28px; border-radius:50%; background:#fff; border:5px solid var(--teal); color:var(--teal); font-weight:900; font-size:22px; display:flex; align-items:center; justify-content:center; cursor:move; }
   .stu-dpoint.stu-selected { border-color:var(--coral); color:var(--coral); }
   .stu-offstage { position:absolute; left:16px; bottom:16px; background:#f6d2a4; border-radius:10px; padding:6px 12px; font-weight:800; font-size:20px; }
+  /* on-page text (page.text[]) — WYSIWYG match of the player's .sb-text */
+  .stu-text { position:absolute; z-index:25; cursor:move; color:#3d2f21; font-weight:800;
+    font-family:"Nunito","Baloo 2","Segoe UI",system-ui,sans-serif; line-height:1.25;
+    text-shadow:0 1px 0 rgba(255,255,255,.5); user-select:none; }
+  .stu-text.stu-selected { outline:3px dashed var(--coral); outline-offset:4px; }
   .stu-placing .stu-stage { cursor:crosshair; }
   /* inspector */
   .stu-panel-collapse { float:right; border:none; background:transparent; color:#a49478; font-weight:900;
@@ -273,7 +278,7 @@
 
 <!-- the modules ARE the schema: their meta.studio drives the forms;
      their validateTask drives inline validation -->
-<script src="/mini-tools/storybook-interaction.js?v=2"></script>
+<script src="/mini-tools/storybook-interaction.js?v=3"></script>
 <script src="/mini-tools/sb-legacy-adapter.js?v=2"></script>
 <script src="/mini-tools/sb-mod-choice-board.js?v=3"></script>
 <script src="/mini-tools/sb-mod-sort-bins.js?v=2"></script>
@@ -302,11 +307,11 @@
 <script src="/mini-tools/sb-mod-worksheet-exercise.js?v=4"></script>
 <script src="/worksheet-generators/js/image-vocabulary.js?v=3"></script>
 
-<script src="/mini-tools/studio-core.js?v=2"></script>
-<script src="/mini-tools/studio-canvas.js?v=4"></script>
+<script src="/mini-tools/studio-core.js?v=3"></script>
+<script src="/mini-tools/studio-canvas.js?v=5"></script>
 <script src="/mini-tools/studio-generator-bridge.js?v=2"></script>
 <script src="/mini-tools/studio-tour.js?v=2"></script>
-<script src="/mini-tools/studio-inspector.js?v=5"></script>
+<script src="/mini-tools/studio-inspector.js?v=6"></script>
 <script>
   (function () {
     var expected = 24;

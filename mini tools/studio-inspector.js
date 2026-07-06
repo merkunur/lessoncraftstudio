@@ -859,6 +859,7 @@
     if (!pg) return;
 
     if (sel && sel.kind === 'character') { renderCharPanel(p, sel); return; }
+    if (sel && sel.kind === 'text') { renderTextPanel(p, sel); return; }
     if (sel && (sel.kind === 'drawable' || sel.kind === 'point')) { renderDrawablePanel(p, sel); return; }
 
     /* -------- page panel -------- */
@@ -880,6 +881,20 @@
         ? T('Change the picture', 'Bild ändern') : T('Pick a picture', 'Bild auswählen'));
       btn.addEventListener('click', openScenePicker);
       box.appendChild(btn);
+    });
+
+    /* text on the page (page.text[] — titles, labels, instructions) */
+    section(p, step('Text on the page', 'Text auf der Seite'), function (box) {
+      (pg.text || []).forEach(function (tx, ti) {
+        var label = (global.Studio.str(tx.stringKey) || '…');
+        if (label.length > 18) label = label.slice(0, 18) + '…';
+        var chip = el('button', 'stu-chip stu-chip-btn', label);
+        chip.addEventListener('click', function () { global.StudioCanvas.select({ kind: 'text', index: ti }); });
+        box.appendChild(chip);
+      });
+      var add = el('button', 'stu-btn', T('+ Add text (then click the picture where it goes)', '+ Text hinzufügen (dann gewünschte Stelle anklicken)'));
+      add.addEventListener('click', function () { global.StudioCanvas.startPlaceText(); });
+      box.appendChild(add);
     });
 
     /* characters */
@@ -1411,6 +1426,88 @@
     var b = el('button', 'stu-btn stu-btn-small', '← Back to the page');
     b.addEventListener('click', function () { global.StudioCanvas.select(null); });
     p.insertBefore(b, p.firstChild);
+  }
+
+  /* ---- on-page text panel (selection kind 'text') ---- */
+  function renderTextPanel(p, sel) {
+    var pg = pageObj();
+    var tx = (pg.text || [])[sel.index];
+    if (!tx) { global.StudioCanvas.select(null); return; }
+    p.appendChild(el('h2', 'stu-h2', T('Text', 'Text')));
+
+    var row = el('div', 'stu-frow');
+    row.appendChild(el('label', 'stu-flabel', T('What it says', 'Was dort steht')));
+    var ta = el('textarea', 'stu-cuetext');
+    ta.rows = 2;
+    ta.value = global.Studio.str(tx.stringKey);
+    ta.addEventListener('change', function () { global.Studio.setStr(tx.stringKey, ta.value); });
+    row.appendChild(ta);
+    p.appendChild(row);
+
+    var commit = function (label, fn) {
+      mutate(label, function (draft) {
+        var item = (draft.story.pages[pgIdx()].text || [])[sel.index];
+        if (!item) return false;
+        fn(item);
+      });
+    };
+
+    var sizeRow = el('div', 'stu-frow');
+    sizeRow.appendChild(el('label', 'stu-flabel', T('Size', 'Größe')));
+    var sizeSel = el('select');
+    [[24, T('Small', 'Klein')], [32, T('Medium', 'Mittel')], [40, T('Normal', 'Normal')],
+     [56, T('Big', 'Groß')], [72, T('Huge', 'Riesig')]].forEach(function (def) {
+      var o = el('option'); o.value = String(def[0]); o.textContent = def[1] + ' (' + def[0] + ')';
+      sizeSel.appendChild(o);
+    });
+    sizeSel.value = String(tx.size || 40);
+    sizeSel.addEventListener('change', function () {
+      commit('text size', function (item) { item.size = Number(sizeSel.value); });
+    });
+    sizeRow.appendChild(sizeSel);
+    p.appendChild(sizeRow);
+
+    var alignRow = el('div', 'stu-frow');
+    alignRow.appendChild(el('label', 'stu-flabel', T('Alignment', 'Ausrichtung')));
+    var alignSel = el('select');
+    [['left', T('Left', 'Links')], ['center', T('Center', 'Zentriert')], ['right', T('Right', 'Rechts')]].forEach(function (def) {
+      var o = el('option'); o.value = def[0]; o.textContent = def[1];
+      alignSel.appendChild(o);
+    });
+    alignSel.value = tx.align || 'left';
+    alignSel.addEventListener('change', function () {
+      commit('text alignment', function (item) { item.align = alignSel.value; });
+    });
+    alignRow.appendChild(alignSel);
+    p.appendChild(alignRow);
+
+    var widthRow = el('div', 'stu-frow');
+    widthRow.appendChild(el('label', 'stu-flabel', T('Width on the page', 'Breite auf der Seite')));
+    var widthInp = el('input'); widthInp.type = 'number'; widthInp.min = 120; widthInp.max = 1560; widthInp.step = 8;
+    widthInp.value = tx.w || '';
+    widthInp.placeholder = T('automatic', 'automatisch');
+    widthInp.addEventListener('change', function () {
+      commit('text width', function (item) {
+        var v = Number(widthInp.value);
+        if (v >= 120) item.w = Math.min(1560, v); else delete item.w;
+      });
+    });
+    widthRow.appendChild(widthInp);
+    p.appendChild(widthRow);
+
+    p.appendChild(el('div', 'stu-note', T('Drag the text on the picture to move it. Arrow keys nudge it.',
+      'Ziehen Sie den Text auf dem Bild an seinen Platz. Pfeiltasten verschieben ihn fein.')));
+
+    var del = el('button', 'stu-btn stu-btn-danger', T('Remove this text', 'Diesen Text entfernen'));
+    del.addEventListener('click', function () {
+      mutate('remove text', function (draft) {
+        var arr = draft.story.pages[pgIdx()].text;
+        if (arr) arr.splice(sel.index, 1);
+      });
+      global.StudioCanvas.select(null);
+    });
+    p.appendChild(del);
+    backLink(p);
   }
 
   /* ---- narration ---- */
@@ -1993,6 +2090,14 @@
       });
       bar.appendChild(fromStart);
       body.appendChild(bar);
+      /* an unfinished activity plays as an empty board — say so, don't let
+         the preview read as broken */
+      var pgNow = pageObj();
+      if (pgNow && pgNow.interaction && global.Studio.validateInteraction(pgNow.interaction).length) {
+        body.appendChild(el('div', 'stu-vcard',
+          T('This page\'s activity isn\'t finished yet — students would see an empty activity. Close the preview and finish the steps under "Activity".',
+            'Die Aufgabe dieser Seite ist noch nicht fertig – die Kinder würden eine leere Aufgabe sehen. Schließen Sie die Vorschau und vervollständigen Sie die Schritte unter „Aufgabe“.')));
+      }
       iframe.src = makeSrc();
       iframe.style.width = '900px';
       body.appendChild(iframe);

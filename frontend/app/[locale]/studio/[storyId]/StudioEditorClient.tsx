@@ -15,7 +15,7 @@ import { studioStrings } from '../studio-strings';
 // token dies mid-session; autosave's localStorage backup protects the work),
 // and the lcs-studio-nav listener (the studio toolbar's "← My stories").
 
-const STUDIO_CLIENT_VERSION = 4; // bump with any storybook-studio.html/js change (§A.13.42)
+const STUDIO_CLIENT_VERSION = 5; // bump with any storybook-studio.html/js change (§A.13.42)
 
 export default function StudioEditorClient({
   locale,
@@ -26,7 +26,7 @@ export default function StudioEditorClient({
 }) {
   const s = studioStrings(locale);
   const router = useRouter();
-  const { user, loading: authLoading } = useAuth();
+  const { user, loading: authLoading, refreshToken } = useAuth();
   const [authLost, setAuthLost] = useState(false);
   const [tooSmall, setTooSmall] = useState(false);
 
@@ -39,10 +39,24 @@ export default function StudioEditorClient({
       if (e.data && e.data.type === 'lcs-studio-nav' && e.data.target === 'stories') {
         router.push(`/${locale}/studio`);
       }
+      // The studio hit a 401 (token rotated by a refresh/sign-in elsewhere):
+      // run the app's token refresh and tell the studio to retry. The studio
+      // only shows the sign-in pill if its retry ALSO fails.
+      if (e.data && e.data.type === 'lcs-studio-refresh') {
+        const src = e.source as Window | null;
+        refreshToken()
+          .then(() => {
+            const ok = !!localStorage.getItem('accessToken');
+            if (src) src.postMessage({ type: 'lcs-studio-refresh-done', ok }, window.location.origin);
+          })
+          .catch(() => {
+            if (src) src.postMessage({ type: 'lcs-studio-refresh-done', ok: false }, window.location.origin);
+          });
+      }
     };
     window.addEventListener('message', onMessage);
     return () => window.removeEventListener('message', onMessage);
-  }, [locale, router]);
+  }, [locale, router, refreshToken]);
 
   useEffect(() => {
     const check = () => setTooSmall(window.innerWidth < 1024);

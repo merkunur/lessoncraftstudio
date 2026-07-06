@@ -383,6 +383,10 @@
 
     var policy = detectPolicy();
     var base = srcBase || ('/mini-tools/stories/' + storyId + '/');
+    /* the MEDIA base modules resolve their own binaries against (SEP packages
+       etc.): tenant links serve binaries ONLY under /api/play/<link>/m/…;
+       operator/static stories serve them from the story folder itself */
+    var mediaBase = /^\/api\/play\//.test(srcBase) ? (srcBase + 'm/') : base;
 
     var stage = null;
     var story = null;
@@ -759,6 +763,7 @@
             host = global.SBInteractionHost.create({
               interaction: page.interaction,
               storyId: storyId,
+              base: mediaBase,
               locale: _locale,
               strings: strings,
               zoneEl: zoneEl,

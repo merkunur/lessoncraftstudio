@@ -308,6 +308,70 @@ const sleep = (ms) => new Promise(r => setTimeout(r, ms));
     await app.close();
   }
 
+  /* ================= E. the TEXT TOOL (page.text[] authoring) ================= */
+  {
+    await page.evaluate(() => { Studio.state.pageIndex = 0; StudioCanvas.select(null); });
+    await sleep(250);
+    await clickPanelBtn('+ Add text');
+    /* click the stage at design-point (400, 300) */
+    const sp = await page.evaluate(() => {
+      const st = document.querySelector('.stu-stage');
+      const r = st.getBoundingClientRect();
+      const s = parseFloat(getComputedStyle(st).transform.split('(')[1]);
+      return { x: r.left + 400 * s, y: r.top + 300 * s };
+    });
+    await page.mouse.click(sp.x, sp.y);
+    await sleep(300);
+    const placedText = await page.evaluate(() => {
+      const tx = (Studio.page().text || [])[0];
+      return tx ? { x: tx.x, y: tx.y, size: tx.size, words: Studio.str(tx.stringKey),
+                    sel: Studio.state.selection,
+                    inDom: !!document.querySelector('.stu-text.stu-selected') } : null;
+    });
+    assert(!!placedText, 'E: clicking after "+ Add text" creates a page.text item');
+    assert(placedText && Math.abs(placedText.x - 400) <= 8 && Math.abs(placedText.y - 300) <= 8 && placedText.size === 40,
+      'E: text placed at the clicked point ±1 snap step, default size (got ' + JSON.stringify(placedText) + ')');
+    assert(placedText && placedText.words === 'Your text', 'E: seeded with editable default words');
+    assert(placedText && placedText.sel && placedText.sel.kind === 'text' && placedText.inDom,
+      'E: the new text is SELECTED on the canvas');
+
+    /* edit the words through the panel */
+    await page.evaluate(() => {
+      const ta = document.querySelector('#stu-panel textarea.stu-cuetext');
+      ta.value = 'Hello class!';
+      ta.dispatchEvent(new Event('change', { bubbles: true }));
+    });
+    await sleep(250);
+    const edited = await page.evaluate(() => ({
+      words: Studio.str(Studio.page().text[0].stringKey),
+      canvas: (document.querySelector('.stu-text') || {}).textContent
+    }));
+    assert(edited.words === 'Hello class!' && edited.canvas === 'Hello class!',
+      'E: panel edit updates the string AND the canvas (got ' + JSON.stringify(edited) + ')');
+
+    /* drag it */
+    const before = await page.evaluate(() => ({ x: Studio.page().text[0].x, y: Studio.page().text[0].y }));
+    const tb = await (await page.$('.stu-text')).boundingBox();
+    const scale = await page.evaluate(() =>
+      parseFloat(getComputedStyle(document.querySelector('.stu-stage')).transform.split('(')[1]));
+    await page.mouse.move(tb.x + 20, tb.y + 10);
+    await page.mouse.down();
+    await page.mouse.move(tb.x + 20 + 160, tb.y + 10 + 80, { steps: 8 });
+    await page.mouse.up();
+    await sleep(250);
+    const after2 = await page.evaluate(() => ({ x: Studio.page().text[0].x, y: Studio.page().text[0].y }));
+    const expX = Math.round((before.x + 160 / scale) / 8) * 8;
+    const expY = Math.round((before.y + 80 / scale) / 8) * 8;
+    assert(after2.x === expX && after2.y === expY,
+      'E: dragging the text commits snapped du (' + after2.x + ',' + after2.y + ' expected ' + expX + ',' + expY + ')');
+
+    /* remove through the panel */
+    await clickPanelBtn('Remove this text');
+    await sleep(250);
+    const cleared = await page.evaluate(() => (Studio.page().text || []).length);
+    assert(cleared === 0, 'E: "Remove this text" clears the item');
+  }
+
   await browser.close();
   srv.close();
   fs.rmSync(path.join(STORIES, SCRATCH), { recursive: true, force: true });

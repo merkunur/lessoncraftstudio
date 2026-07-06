@@ -1,0 +1,103 @@
+{
+ "locale": "da",
+ "market": {
+  "hl": "da",
+  "gl": "dk"
+ },
+ "generatedAt": "2026-07-06T16:32:21.759Z",
+ "requestCount": 40,
+ "seedCounts": {
+  "core": 4,
+  "types": 177,
+  "typeGrade": 295,
+  "themes": 73,
+  "subjects": 40,
+  "online": 8,
+  "alphabet": 58
+ },
+ "errorCount": 41,
+ "errors": [
+  {
+   "seed": "opgaver til print",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "opgaveark",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "gratis opgaver",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "opgaver til børn",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "addition",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "addition opgaver",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "addition gratis",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "billedsudoku",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "billedsudoku opgaver",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "billedsudoku gratis",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "kryptogram",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "kryptogram opgaver",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "kryptogram gratis",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "billedvej",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "billedvej opgaver",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "billedvej gratis",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "subtraktion",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "subtraktion opgaver",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "subtraktion gratis",
+   "err": "HTTP 403"
+  },
+  {
+   "seed": "kodeaddition",
+   "err": "HTTP 403"
+  }
+ ],
+ "suggestions": {},
+ "unique": []
+}

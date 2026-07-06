@@ -1,0 +1,6242 @@
+{
+ "locale": "fr",
+ "market": {
+  "hl": "fr",
+  "gl": "fr"
+ },
+ "generatedAt": "2026-07-06T16:20:08.518Z",
+ "requestCount": 653,
+ "seedCounts": {
+  "core": 4,
+  "types": 177,
+  "typeGrade": 295,
+  "themes": 73,
+  "subjects": 40,
+  "online": 8,
+  "alphabet": 56
+ },
+ "errorCount": 0,
+ "errors": [],
+ "suggestions": {
+  "fiches à imprimer": {
+   "cls": "core",
+   "s": [
+    "fiches à imprimer maternelle",
+    "fiches à imprimer cp",
+    "fiches à imprimer cm1",
+    "fiches à imprimer ce1",
+    "fiches à imprimer moyenne section",
+    "fiche à imprimer",
+    "fichier à imprimer",
+    "fiche à imprimer grande section",
+    "fiche à imprimer table de multiplication",
+    "fiche à imprimer ce2"
+   ]
+  },
+  "fiches maternelle": {
+   "cls": "core",
+   "s": [
+    "fiches maternelle",
+    "fiches maternelle à imprimer",
+    "fiches maternelle gs",
+    "fiches maternelle ms",
+    "fiches maternelle printemps",
+    "fiches maternelle paques",
+    "fiches maternelles graphisme",
+    "fiches maternelle ps",
+    "fiches maternelle moyenne section",
+    "fiches maternelle été"
+   ]
+  },
+  "exercices à imprimer": {
+   "cls": "core",
+   "s": [
+    "exercices à imprimer",
+    "exercices à imprimer cp",
+    "exercices à imprimer ce2",
+    "exercices à imprimer ce1",
+    "exercices à imprimer sur le passé composé",
+    "exercices à imprimer cm2",
+    "exercices à imprimer cm1",
+    "exercices à imprimer grande section",
+    "exercices à imprimer tables de multiplication",
+    "exercices à imprimer homophones"
+   ]
+  },
+  "fiches d’exercices": {
+   "cls": "core",
+   "s": [
+    "fiches d'exercices",
+    "fiches d'exercices de maths",
+    "fiches d exercices circuler à bicyclette",
+    "fiches d exercices taoki",
+    "fiches d exercices pour cp a imprimer",
+    "fiches d exercices de maths cp à imprimer",
+    "fiches d exercices différenciées taoki",
+    "fiches d exercices sur les tables de multiplication",
+    "fiches d exercices cp",
+    "fiches d exercices cm2"
+   ]
+  },
+  "addition": {
+   "cls": "types",
+   "s": [
+    "addition en anglais",
+    "addition",
+    "addition heure",
+    "addition de fraction",
+    "addition posée cp",
+    "addition en italien",
+    "addition elle",
+    "addition en espagnol",
+    "additionner des fractions",
+    "addition temps"
+   ]
+  },
+  "addition fiche": {
+   "cls": "types",
+   "s": [
+    "addition fiche cp",
+    "addition fiche",
+    "addition fiche gs",
+    "addition fiche ce2",
+    "fiche addition posée cp",
+    "fiche addition posée ce1",
+    "fiche addition ce1",
+    "fiche addition posée ce2",
+    "fiche addition posée",
+    "fiche addition cp a imprimer"
+   ]
+  },
+  "addition exercices pdf": {
+   "cls": "types",
+   "s": [
+    "addition exercice pdf",
+    "addition de fractions exercices pdf",
+    "exercices addition soustraction ce2 pdf",
+    "addition des nombres décimaux exercices pdf",
+    "addition soustraction multiplication division exercices pdf",
+    "addition soustraction multiplication division exercices pdf cm2",
+    "addition soustraction multiplication division exercices pdf cm1"
+   ]
+  },
+  "cryptogramme": {
+   "cls": "types",
+   "s": [
+    "cryptogramme",
+    "cryptogramme visuel",
+    "cryptogramme dynamique",
+    "cryptogramme veut dire quoi",
+    "cryptogramme la buse",
+    "cryptogramme carte bancaire",
+    "cryptogramme visa",
+    "cryptogramme visuel carte bancaire",
+    "cryptogramme carte",
+    "cryptogramme carte visa"
+   ]
+  },
+  "cryptogramme fiche": {
+   "cls": "types",
+   "s": [
+    "code fiche de paie fonction publique territoriale",
+    "code fiche de paie",
+    "code fiche",
+    "code fiche de paie fonction publique",
+    "code fiche de paie fonction publique hospitalière",
+    "code fiche de paie ieg",
+    "code fiche de revision",
+    "code fiche de paie sd worx",
+    "code fiche de paie belgique",
+    "code fiche roblox"
+   ]
+  },
+  "cryptogramme exercices pdf": {
+   "cls": "types",
+   "s": [
+    "cryptographie exercices corrigés pdf"
+   ]
+  },
+  "soustraction": {
+   "cls": "types",
+   "s": [
+    "soustraction",
+    "soustraction avec retenue",
+    "soustraction avec retenue ce1",
+    "soustraction excel",
+    "soustraction heure",
+    "soustraction posée",
+    "soustraction de fraction",
+    "soustraction ce1",
+    "soustraction posée ce1",
+    "soustraction avec retenue ce2"
+   ]
+  },
+  "soustraction fiche": {
+   "cls": "types",
+   "s": [
+    "soustraction fiche",
+    "soustraction fiche cp",
+    "soustraction fiche ce1",
+    "soustraction fiche ce2",
+    "fiche soustraction posée ce1",
+    "fiche soustraction cp à imprimer",
+    "fiche soustraction cm1",
+    "fiche soustraction posée ce2",
+    "fiche soustraction avec retenue ce1",
+    "fiche soustraction posée"
+   ]
+  },
+  "soustraction exercices pdf": {
+   "cls": "types",
+   "s": [
+    "soustraction exercices pdf",
+    "exercice soustraction pdf ce1",
+    "exercice soustraction pdf cp",
+    "soustraction ce2 exercices pdf",
+    "soustraction cm1 exercices pdf",
+    "soustraction cm2 exercices pdf",
+    "soustraction écrite exercices pdf",
+    "addition soustraction exercices pdf",
+    "fraction addition soustraction exercices pdf",
+    "soustraction avec retenue exercices pdf"
+   ]
+  },
+  "plus ou moins": {
+   "cls": "types",
+   "s": [
+    "plus ou moins",
+    "plus ou moins symbole",
+    "plus ou moins synonyme",
+    "plus ou moins en anglais",
+    "plus ou moins signe",
+    "plus ou moins bien disposé",
+    "plus ou moins latex",
+    "plus ou moins en arabe",
+    "plus ou moins clavier",
+    "plus ou moins définition"
+   ]
+  },
+  "puzzle mathématique": {
+   "cls": "types",
+   "s": [
+    "puzzle mathématique",
+    "puzzle mathématique gratuit",
+    "puzzle mathématiques à imprimer",
+    "puzzle mathématique gratuit en ligne"
+   ]
+  },
+  "fiche de mathématiques": {
+   "cls": "types",
+   "s": [
+    "fiche de mathématiques",
+    "fiche de mathématiques ce2",
+    "fiche de mathématiques ce1",
+    "fiche de mathématiques cm1",
+    "fiche de mathématiques cp1",
+    "fiche de mathématiques cp",
+    "fiche de mathématiques cp2",
+    "fiche de mathématiques cm2",
+    "fiche de mathématiques ce1 pnapas",
+    "fiche de mathématiques à imprimer"
+   ]
+  },
+  "grand ou petit": {
+   "cls": "types",
+   "s": [
+    "grand ou petit",
+    "grand ou petit il s'agit des cartes en mains",
+    "grand ou petit épeautre",
+    "grand ou petit plateau velo",
+    "grand ou petit à versailles",
+    "grand ou petit anne sylvestre",
+    "grand ou petit verre pour le vin",
+    "grand ou petit carrelage pour petite piece",
+    "grand ou petit capricorne",
+    "grand ou petit cousin"
+   ]
+  },
+  "grand ou petit exercices pdf": {
+   "cls": "types",
+   "s": [
+    "plus grand plus petit ou égal exercices pdf"
+   ]
+  },
+  "comptage graphique": {
+   "cls": "types",
+   "s": [
+    "compteur graphique",
+    "compteur graphique excel"
+   ]
+  },
+  "loto": {
+   "cls": "types",
+   "s": [
+    "loto",
+    "loto fdj",
+    "loto resultat",
+    "loto foot",
+    "loto max",
+    "loto quebec",
+    "loto bonheur",
+    "loto ce soir",
+    "loto samedi",
+    "loto mercredi"
+   ]
+  },
+  "loto fiche": {
+   "cls": "types",
+   "s": [
+    "loto fiche",
+    "fiche loto à imprimer",
+    "fiche loto consignation",
+    "fiche loto max",
+    "tirage fiche de paie",
+    "fiche loto quebec",
+    "fiche loto machine",
+    "nouvelle fiche loto max"
+   ]
+  },
+  "appariement": {
+   "cls": "types",
+   "s": [
+    "appariement",
+    "appariement def",
+    "appariement synonyme",
+    "appariement en arabe",
+    "appariement def ses",
+    "appariement télécommande orange",
+    "appariement des chromosomes homologues",
+    "appariement ses",
+    "appariement des données",
+    "appariement par score de propension"
+   ]
+  },
+  "appariement fiche": {
+   "cls": "types",
+   "s": [
+    "fiche appariement"
+   ]
+  },
+  "appariement exercices pdf": {
+   "cls": "types",
+   "s": [
+    "matching exercise pdf"
+   ]
+  },
+  "trier les images": {
+   "cls": "types",
+   "s": [
+    "trier images"
+   ]
+  },
+  "train de l'alphabet": {
+   "cls": "types",
+   "s": [
+    "train de l'alphabet",
+    "train alphabet duplo",
+    "train alphabet mega bloks",
+    "train alphabet lego duplo",
+    "train alphabet lego",
+    "train alphabet youtube",
+    "train alphabet letters",
+    "train alphabet chart",
+    "train alphabet puzzle",
+    "train alphabet song"
+   ]
+  },
+  "prépositions": {
+   "cls": "types",
+   "s": [
+    "prépositions",
+    "prépositions français",
+    "prépositions en anglais",
+    "prépositions de lieu en anglais",
+    "prépositions de lieu",
+    "prépositions allemand",
+    "prépositions liste",
+    "prépositions en espagnol",
+    "prépositions de lieu en espagnol",
+    "prépositions anglais liste"
+   ]
+  },
+  "prépositions fiche": {
+   "cls": "types",
+   "s": [
+    "fiche prepositions",
+    "fiche prepositions de lieu",
+    "fiche prépositions anglais"
+   ]
+  },
+  "prépositions exercices pdf": {
+   "cls": "types",
+   "s": [
+    "prépositions exercices pdf",
+    "prepositions exercises pdf",
+    "prépositions français exercices pdf",
+    "adjectives prepositions exercises pdf",
+    "time prepositions exercises pdf",
+    "adjectives prepositions exercises pdf with answers",
+    "mixed prepositions exercises pdf with answers",
+    "prépositions de lieu exercices pdf",
+    "prépositions pays villes exercices pdf",
+    "exercices prépositions anglais pdf"
+   ]
+  },
+  "devine le mot": {
+   "cls": "types",
+   "s": [
+    "devine le mot",
+    "devine le mot du jour",
+    "devine le mot du jour solution",
+    "devine le mot solution",
+    "devine le mot jeu",
+    "devine le mot.fr",
+    "devine le mot du jour indice",
+    "devine le mot en emoji",
+    "devine le mot indice",
+    "devine le mot reponse"
+   ]
+  },
+  "lettres mélangées": {
+   "cls": "types",
+   "s": [
+    "lettres mélangées",
+    "lettres mélangées solution",
+    "lettres mélangées pour former un mot",
+    "lettres mélangées gs",
+    "lettres mélangées trouver un mot",
+    "lettres mélangées scrabble",
+    "lettres mélangées en anglais",
+    "lettres mélangées cp",
+    "lettres mélangées à imprimer",
+    "lettres mélangées jeu"
+   ]
+  },
+  "mots mêlés": {
+   "cls": "types",
+   "s": [
+    "mots mêlés",
+    "mots mêlés à imprimer",
+    "mots mêlés gratuit",
+    "mots mêlés à imprimer pdf",
+    "mots mêlés générateur",
+    "mots mêlés - jeu de mots",
+    "mots mêlés à imprimer pour personnes âgées",
+    "mots mêlés à imprimer adulte",
+    "mots mêlés à imprimer gratuit",
+    "mots mêlés enfant à imprimer"
+   ]
+  },
+  "mots mêlés fiche": {
+   "cls": "types",
+   "s": [
+    "mots croisés fiche",
+    "mots meles grille",
+    "mots meles grille gratuite",
+    "fiche mots meles",
+    "fiche mots meles ce1"
+   ]
+  },
+  "mots croisés": {
+   "cls": "types",
+   "s": [
+    "mots croisés",
+    "mots croisés en ligne",
+    "mots croisés le parisien",
+    "mots croisés solutions",
+    "mots croisés gratuits",
+    "mots croisés faciles",
+    "mots croisés le devoir",
+    "mots croisés france info",
+    "mots croisés la croix",
+    "mots croisés notre temps"
+   ]
+  },
+  "mots croisés fiche": {
+   "cls": "types",
+   "s": [
+    "mots croisés fiche",
+    "fiche mots croisés gs",
+    "fiche mots croisés ce1",
+    "fiche mots croisés cm2",
+    "fiche mots croisés imparfait ce1"
+   ]
+  },
+  "mots croisés exercices pdf": {
+   "cls": "types",
+   "s": [
+    "mots croisés exercices et corrigés"
+   ]
+  },
+  "trouve et compte": {
+   "cls": "types",
+   "s": [
+    "cherche trouve et compte",
+    "cherche trouve et compte jusqu à 10",
+    "cherche trouve et compte les animaux",
+    "cherche trouve et compte livre"
+   ]
+  },
+  "trouve les objets": {
+   "cls": "types",
+   "s": [
+    "trouver les objets",
+    "trouver les objets cachés",
+    "trouver les objets mentionné par ariel",
+    "trouver les objets de maegu",
+    "trouver les objets cachés à imprimer",
+    "trouver les objets volés dans le repaire souterrain",
+    "trouver les objets jeux"
+   ]
+  },
+  "chasse au trésor": {
+   "cls": "types",
+   "s": [
+    "chasse au trésor dofus",
+    "chasse au trésor",
+    "chasse au trésor gratuite à imprimer pdf",
+    "chasse au trésor forza horizon 6",
+    "chasse au trésor gratuite à imprimer pdf 10 ans",
+    "chasse au trésor éléments de décoration wow",
+    "chasse au trésor gratuite à imprimer pdf 6 ans",
+    "chasse au trésor quotidienne dofus",
+    "chasse au trésor gratuite à imprimer pdf 5 ans",
+    "chasse au trésor archéologique"
+   ]
+  },
+  "chasse au trésor fiche": {
+   "cls": "types",
+   "s": [
+    "chasse au tresor fiche d'activité",
+    "fiche chasse au trésor",
+    "fiche technique chasse au trésor"
+   ]
+  },
+  "pièces manquantes": {
+   "cls": "types",
+   "s": [
+    "pièces manquantes lego",
+    "pièces manquantes jeux de société",
+    "pièces manquantes",
+    "pièces manquantes ikea",
+    "pièces manquantes puzzle",
+    "pièces manquantes playmobil",
+    "pièces manquantes puzzle ravensburger"
+   ]
+  },
+  "pièces manquantes fiche": {
+   "cls": "types",
+   "s": [
+    "pièces détachées serrure fichet"
+   ]
+  },
+  "l'intrus": {
+   "cls": "types",
+   "s": [
+    "l'intruse",
+    "l'intruse freida mcfadden",
+    "l'intrusion",
+    "l'intruse freida",
+    "l'intruse livre",
+    "l'intrus",
+    "l'intrusion film",
+    "l'intruse freida mcfadden date de sortie",
+    "l'intruse mcfadden",
+    "l'intruse serie"
+   ]
+  },
+  "l'intrus exercices pdf": {
+   "cls": "types",
+   "s": [
+    "trouvez l intrus exercices pdf"
+   ]
+  },
+  "boîtes de dix": {
+   "cls": "types",
+   "s": [
+    "boite de dix"
+   ]
+  },
+  "tableau des nombres": {
+   "cls": "types",
+   "s": [
+    "tableau des nombres",
+    "tableau des nombres décimaux",
+    "tableau des nombres jusqu'à 100",
+    "tableau des nombres cp",
+    "tableau des nombres cp à compléter",
+    "tableau des nombres premiers",
+    "tableau des nombres de 0 à 100 en chiffres et en lettres pdf",
+    "tableau des nombres à imprimer",
+    "tableau des nombres de 0 à 100",
+    "tableau des nombres décimaux cm2"
+   ]
+  },
+  "tableau des nombres fiche": {
+   "cls": "types",
+   "s": [
+    "fiche tableau des nombres ce1"
+   ]
+  },
+  "comparer les nombres": {
+   "cls": "types",
+   "s": [
+    "comparer les nombres décimaux",
+    "comparer les nombres cp",
+    "comparer les nombres",
+    "comparer les nombres décimaux cm1",
+    "comparer les nombres décimaux cm2",
+    "comparer les nombres décimaux exercices",
+    "comparer les nombres ce1",
+    "comparer les nombres décimaux cm2 pdf",
+    "comparer les nombres gs",
+    "comparer les nombres ce2"
+   ]
+  },
+  "comparer les nombres fiche": {
+   "cls": "types",
+   "s": [
+    "fiche comparer les nombres cp",
+    "fiche comparer les nombres gs",
+    "fiche comparer les nombres"
+   ]
+  },
+  "comparer les nombres exercices pdf": {
+   "cls": "types",
+   "s": [
+    "comparaison de nombres exercices pdf"
+   ]
+  },
+  "comparer les quantités": {
+   "cls": "types",
+   "s": [
+    "comparer les quantités gs",
+    "comparer les quantités ms",
+    "comparer les quantités",
+    "comparer les quantités cp",
+    "comparer quantités maternelle"
+   ]
+  },
+  "comparer les quantités fiche": {
+   "cls": "types",
+   "s": [
+    "comparer des quantités fiche"
+   ]
+  },
+  "comparer les tailles": {
+   "cls": "types",
+   "s": [
+    "comparer les tailles",
+    "comparer les tailles des pays",
+    "comparer les tailles de personnes",
+    "comparer les tailles d iphone",
+    "comparer les tailles de voitures",
+    "comparer les tailles gs",
+    "comment comparer les tailles us et française",
+    "site comparer les tailles",
+    "comparer tailles villes",
+    "site pour comparer les tailles des pays"
+   ]
+  },
+  "droite numérique": {
+   "cls": "types",
+   "s": [
+    "droite numérique",
+    "droite numérique à imprimer",
+    "droite numérique cp",
+    "droite numérique vierge",
+    "droite numérique ce1",
+    "droite numérique 0 à 100",
+    "droite numérique exercices",
+    "droite numérique nombre décimaux",
+    "droite numérique fraction",
+    "droite numérique vierge à imprimer"
+   ]
+  },
+  "droite numérique exercices pdf": {
+   "cls": "types",
+   "s": [
+    "droite numérique vierge pdf",
+    "droite numérique exercices corrigés pdf"
+   ]
+  },
+  "dizaines et unités": {
+   "cls": "types",
+   "s": [
+    "dizaines et unités",
+    "dizaines et unités cp",
+    "dizaines et unités exercices cp",
+    "dizaines et unités exercices",
+    "dizaines et unités ce1",
+    "dizaines et unités à imprimer",
+    "dizaines et unités gs",
+    "dizaines et unités maitre lucas",
+    "dizaines et unités exercices ce1",
+    "dizaines et unités cp exercices en ligne"
+   ]
+  },
+  "dizaines et unités fiche": {
+   "cls": "types",
+   "s": [
+    "dizaine unité fiche",
+    "fiche dizaines et unités cp"
+   ]
+  },
+  "dizaines et unités exercices pdf": {
+   "cls": "types",
+   "s": [
+    "les dizaines et les unités exercices pdf",
+    "les dizaines et les unités exercices pdf ce1",
+    "les dizaines et les unités exercices pdf cp",
+    "les dizaines et les unités exercices pdf ce2",
+    "les unités et les dizaines cp exercices pdf avec corrections"
+   ]
+  },
+  "lire l'heure": {
+   "cls": "types",
+   "s": [
+    "lire l'heure",
+    "lire l'heure ce1",
+    "lire l'heure ce2",
+    "lire l'heure cp",
+    "lire l'heure sur une horloge",
+    "lire l'heure en anglais",
+    "lire l'heure maitre lucas",
+    "lire l'heure exercices",
+    "lire l'heure cm1",
+    "lire l'heure ce2 exercices"
+   ]
+  },
+  "lire l'heure fiche": {
+   "cls": "types",
+   "s": [
+    "lire l'heure fiche",
+    "lire l heure fiche exercice",
+    "lire l heure fiche ce1",
+    "lire l heure fiche ce2",
+    "lire l heure fiche cp",
+    "maitre lucas lire l heure fiche",
+    "apprendre à lire l heure fiche",
+    "fiche lecture de l'heure",
+    "fiche lire l heure cm1",
+    "fiche lire l heure cm2"
+   ]
+  },
+  "lire l'heure exercices pdf": {
+   "cls": "types",
+   "s": [
+    "lire l'heure exercices pdf",
+    "lire l'heure cm1 exercices pdf",
+    "lire l'heure ce2 exercices pdf",
+    "lire l heure exercices pdf ce1",
+    "exercices lire l'heure cm2 pdf",
+    "lire l heure cp exercices pdf",
+    "lire l'heure ce1 exercices pdf bout de gomme",
+    "lire l'heure en allemand exercices pdf",
+    "apprendre à lire l heure exercices pdf",
+    "lire l heure en anglais exercices pdf"
+   ]
+  },
+  "fractions": {
+   "cls": "types",
+   "s": [
+    "fractions",
+    "fractions ce1",
+    "fractions ce2",
+    "fractions décimales cm1",
+    "fractions cm1",
+    "fractions décimales",
+    "fractions cm2",
+    "fractions équivalentes",
+    "fractions ce2 exercices",
+    "fractions exercices"
+   ]
+  },
+  "fractions fiche": {
+   "cls": "types",
+   "s": [
+    "fractions fiche",
+    "fractions fiche de revision",
+    "fractions fiche ce2",
+    "fractions fiche cm1",
+    "fiche fractions ce1",
+    "fiche fractions cm2",
+    "math fiche de revision",
+    "math fiche de revision brevet",
+    "math fiche",
+    "fiche fractions décimales cm1"
+   ]
+  },
+  "fractions exercices pdf": {
+   "cls": "types",
+   "s": [
+    "fractions exercices pdf",
+    "fractions exercices pdf ce2",
+    "les fractions exercices pdf cm2",
+    "les fractions exercices pdf cm1",
+    "fractions 5ème exercices pdf",
+    "les fractions exercices pdf ce1",
+    "simplifier des fractions exercices pdf",
+    "comparaison de fractions exercices pdf",
+    "exercices fractions 3ème pdf corrigés",
+    "opérations sur les fractions exercices pdf"
+   ]
+  },
+  "géométrie": {
+   "cls": "types",
+   "s": [
+    "geometry dash",
+    "geometry dash lite",
+    "géométrie",
+    "géométrie dans l'espace",
+    "géométrie voiture",
+    "géométrie sacrée",
+    "géométrie analytique",
+    "géométrie voiture prix",
+    "géométrie dash lite",
+    "géométrie euclidienne"
+   ]
+  },
+  "géométrie fiche": {
+   "cls": "types",
+   "s": [
+    "géométrie fiche",
+    "géométrie fiche de revision",
+    "géométrie fiche cp",
+    "fiche géométrie ce2",
+    "fiche geometrie dans l espace terminale",
+    "fiche géométrie ce1",
+    "fiche géométrie cm2",
+    "fiche géométrie cm1",
+    "fiche geometrie dans l'espace",
+    "géomètre fiche métier"
+   ]
+  },
+  "géométrie exercices pdf": {
+   "cls": "types",
+   "s": [
+    "exercice géométrie pdf",
+    "géométrie exercices corrigés",
+    "géométrie cm1 exercices pdf",
+    "géométrie exercices corrigés pdf",
+    "géométrie cm2 exercices pdf",
+    "géométrie ce2 exercices pdf",
+    "géométrie plane exercices pdf",
+    "géographie 3ème exercices pdf",
+    "suites géométriques exercices pdf",
+    "géographie 6ème exercices pdf"
+   ]
+  },
+  "mesures": {
+   "cls": "types",
+   "s": [
+    "mesures",
+    "mesures conservatoires",
+    "mesures bas de contention",
+    "mesures agraires",
+    "mesures en anglais",
+    "mesures coercitives",
+    "mesures conservatoires def",
+    "mesures individuelles conseil des ministres",
+    "mesures chaussettes de contention",
+    "mesures soutien gorge"
+   ]
+  },
+  "mesures fiche": {
+   "cls": "types",
+   "s": [
+    "fiche mesures radiante",
+    "fiche mesures tension",
+    "mesure fiche bristol",
+    "fiche mesures",
+    "fiche mesures bas de contention",
+    "fiche mesures de longueurs cm1",
+    "fiche mesures ce2",
+    "fiche mesures manchon radiante",
+    "fiche mesures de longueurs ce2",
+    "fiche mesures cp"
+   ]
+  },
+  "mesures exercices pdf": {
+   "cls": "types",
+   "s": [
+    "exercices mesures cm2 pdf",
+    "exercices mesures ce1 pdf",
+    "exercices mesures ce2 pdf",
+    "exercices mesures cm1 pdf",
+    "conversion de mesures exercices pdf",
+    "mesures électriques exercices corrigés pdf",
+    "les mesures agraires exercices pdf",
+    "mesures de capacité cm1 exercices pdf"
+   ]
+  },
+  "logique visuelle": {
+   "cls": "types",
+   "s": [
+    "logique visuelle",
+    "logique integrative visuelle",
+    "suite logique visuelle",
+    "enigme logique visuelle",
+    "test logique visuelle",
+    "jeux de logique visuelle",
+    "exercice de logique visuelle"
+   ]
+  },
+  "discrimination visuelle": {
+   "cls": "types",
+   "s": [
+    "discrimination visuelle",
+    "discrimination visuelle maternelle",
+    "discrimination visuelle gs",
+    "discrimination visuelle ps",
+    "discrimination visuelle ms",
+    "discrimination visuelle cp",
+    "discrimination visuelle à imprimer",
+    "discrimination visuelle petite section",
+    "discrimination visuelle maternelle à imprimer",
+    "discrimination visuelle gs pdf"
+   ]
+  },
+  "discrimination visuelle fiche": {
+   "cls": "types",
+   "s": [
+    "discrimination visuelle fiche",
+    "discrimination visuelle maternelle fiche",
+    "fiche discrimination visuelle gs",
+    "fiche discrimination visuelle ms",
+    "fiche discrimination visuelle cp",
+    "fiche discrimination visuelle ps",
+    "fiche discrimination visuelle petite section",
+    "fiche discrimination visuelle automne ms",
+    "fiche discrimination visuelle moyenne section",
+    "fiche discrimination visuelle automne"
+   ]
+  },
+  "discrimination visuelle exercices pdf": {
+   "cls": "types",
+   "s": [
+    "discrimination visuelle exercices pdf"
+   ]
+  },
+  "suites logiques": {
+   "cls": "types",
+   "s": [
+    "suites logiques",
+    "suites logiques cp",
+    "suites logiques maternelle",
+    "suites logiques ce1",
+    "suites logiques cm2",
+    "suites logiques exercices",
+    "suites logiques cycle 3",
+    "suites logiques gs",
+    "suites logiques ce2",
+    "suites logiques cm1"
+   ]
+  },
+  "suites logiques exercices pdf": {
+   "cls": "types",
+   "s": [
+    "suite logique exercices pdf",
+    "suite logique exercices corrigés",
+    "suite logique exercice corrigé pdf"
+   ]
+  },
+  "se repérer dans l'espace": {
+   "cls": "types",
+   "s": [
+    "se repérer dans l'espace",
+    "se repérer dans l'espace cp",
+    "se repérer dans l'espace ce1",
+    "se repérer dans l'espace gs",
+    "se repérer dans l'espace ce2",
+    "se repérer dans l'espace maternelle",
+    "se repérer dans l'espace 4eme",
+    "se repérer dans l'espace cycle 2",
+    "se repérer dans l'espace ms",
+    "se repérer dans l'espace ps"
+   ]
+  },
+  "se repérer dans l'espace fiche": {
+   "cls": "types",
+   "s": [
+    "fiche se repérer dans l'espace",
+    "se repérer dans l'espace gs fiche",
+    "se repérer dans l'espace ps fiche",
+    "se repérer dans l'espace ms fiche",
+    "fiche se repérer dans l espace cp",
+    "fiche se repérer dans l espace ce1",
+    "fiche se repérer dans l espace maternelle",
+    "fiche de préparation se repérer dans l espace ce1"
+   ]
+  },
+  "se repérer dans l'espace exercices pdf": {
+   "cls": "types",
+   "s": [
+    "se repérer dans l'espace exercices pdf",
+    "se situer dans l'espace exercices pdf",
+    "se situer dans l'espace exercices pdf ce2",
+    "se situer dans l'espace exercices pdf ce1",
+    "se repérer dans l'espace cp exercices pdf",
+    "se repérer dans l espace ce1 exercices pdf",
+    "se repérer dans l'espace ce2 exercices pdf",
+    "maternelle se situer dans l'espace exercices pdf",
+    "se situer dans l'espace exercices fle pdf",
+    "exercice se repérer dans l espace 3eme pdf"
+   ]
+  },
+  "trier par catégories": {
+   "cls": "types",
+   "s": [
+    "trier par catégories"
+   ]
+  },
+  "associations en sciences": {
+   "cls": "types",
+   "s": [
+    "associations sciences po paris",
+    "associations sciences po"
+   ]
+  },
+  "sons initiaux": {
+   "cls": "types",
+   "s": [
+    "sons initiaux"
+   ]
+  },
+  "connaissance des lettres": {
+   "cls": "types",
+   "s": [
+    "connaissance des lettres gs",
+    "connaissance des lettres ms",
+    "connaissance des lettres maternelle",
+    "connaissance des lettres",
+    "connaissance des lettres cp",
+    "connaissance des lettres hatier",
+    "évaluation connaissance des lettres gs",
+    "evaluation connaissance des lettres maternelle",
+    "évaluation connaissance des lettres",
+    "jeu connaissance des lettres gs"
+   ]
+  },
+  "construction de mots": {
+   "cls": "types",
+   "s": [
+    "construction de mots avec lettres",
+    "construction de mots",
+    "construction de mots croisés",
+    "construction de jardin mots fléchés",
+    "construction de rues mots fléchés",
+    "construction de treillage mots fléchés",
+    "construction de charpentes mots fléchés",
+    "construction de pont mots fléchés",
+    "construction de jardin mots fléchés 7 lettres",
+    "construction de castor mots fléchés"
+   ]
+  },
+  "vocabulaire en images": {
+   "cls": "types",
+   "s": [
+    "vocabulaire en images",
+    "vocabulaire en images français à imprimer",
+    "mots en images",
+    "vocabulaire de la bd en images"
+   ]
+  },
+  "conscience phonologique": {
+   "cls": "types",
+   "s": [
+    "conscience phonologique",
+    "conscience phonologique def",
+    "conscience phonologique maternelle",
+    "conscience phonologique et phonémique",
+    "conscience phonologique gs",
+    "conscience phonologique exercices à imprimer",
+    "conscience phonologique et principe alphabétique",
+    "conscience phonologique pdf",
+    "conscience phonologique cp",
+    "conscience phonologique jeux"
+   ]
+  },
+  "conscience phonologique fiche": {
+   "cls": "types",
+   "s": [
+    "fiche conscience phonologique"
+   ]
+  },
+  "addition maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "addition maternelle",
+    "addition maternelle pdf",
+    "addition maternelle grande section",
+    "addition maternelle à imprimer",
+    "addition maternelle en ligne",
+    "addition maternelle ms",
+    "exercice addition maternelle",
+    "coloriage addition maternelle",
+    "fiche addition maternelle",
+    "jeu addition maternelle"
+   ]
+  },
+  "addition grande section": {
+   "cls": "typeGrade",
+   "s": [
+    "addition grande section",
+    "addition grande section maternelle",
+    "addition grande section maternelle pdf",
+    "addition grande section pdf",
+    "addition grande section à imprimer",
+    "addition moyenne section",
+    "exercice addition grande section",
+    "fiche addition grande section",
+    "coloriage addition grande section",
+    "exercice addition grande section pdf"
+   ]
+  },
+  "addition cp": {
+   "cls": "typeGrade",
+   "s": [
+    "addition cp",
+    "addition cp exercices",
+    "addition cp à imprimer pdf",
+    "addition cp à imprimer",
+    "addition cp avec retenue",
+    "addition cp sans retenue",
+    "addition cp en ligne",
+    "addition cp pdf",
+    "addition cp en colonne",
+    "addition cp bout de gomme"
+   ]
+  },
+  "addition ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "addition ce1",
+    "addition ce1 avec retenue",
+    "addition ce1 à imprimer",
+    "addition ce1 pdf",
+    "addition ce1 sans retenue",
+    "addition ce1 en ligne",
+    "addition ce1 exercices",
+    "addition ce1 la classe bleue",
+    "addition ce1 retenue",
+    "addition ce1 exercices à imprimer"
+   ]
+  },
+  "addition ce2": {
+   "cls": "typeGrade",
+   "s": [
+    "addition ce2",
+    "addition ce2 à imprimer",
+    "addition ce2 avec retenue",
+    "addition ce2 exercices",
+    "addition ce2 pdf",
+    "addition ce2 exercice à imprimer",
+    "addition ce2 en ligne",
+    "addition ce2 evaluation",
+    "addition ce2 sans retenue",
+    "addition ce2 exercices pdf"
+   ]
+  },
+  "cryptogramme maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "code maternelle"
+   ]
+  },
+  "cryptogramme grande section": {
+   "cls": "typeGrade",
+   "s": [
+    "coloriage code grande section",
+    "code couleur grande section",
+    "code secret grande section"
+   ]
+  },
+  "cryptogramme cp": {
+   "cls": "typeGrade",
+   "s": [
+    "code cpam",
+    "code cp",
+    "crypto cpool",
+    "code cpv",
+    "code cpp",
+    "code cpc",
+    "code cpt",
+    "code cpt 99213",
+    "code cpt 99214",
+    "code cpt 99203"
+   ]
+  },
+  "cryptogramme ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "code ce1"
+   ]
+  },
+  "cryptogramme ce2": {
+   "cls": "typeGrade",
+   "s": [
+    "code ce2",
+    "cidb ce21"
+   ]
+  },
+  "soustraction maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "soustraction maternelle",
+    "soustraction maternelle grande section",
+    "exercice soustraction maternelle",
+    "addition soustraction maternelle",
+    "fiche soustraction maternelle",
+    "jeu soustraction maternelle",
+    "jeu addition soustraction maternelle"
+   ]
+  },
+  "soustraction grande section": {
+   "cls": "typeGrade",
+   "s": [
+    "soustraction grande section",
+    "soustraction grande section a imprimer",
+    "soustraction moyenne section",
+    "soustraction maternelle grande section",
+    "exercice soustraction grande section",
+    "addition soustraction grande section"
+   ]
+  },
+  "soustraction cp": {
+   "cls": "typeGrade",
+   "s": [
+    "soustraction cp",
+    "soustraction cp exercices",
+    "soustraction cp à imprimer pdf",
+    "soustraction cp à imprimer",
+    "soustraction cp pdf",
+    "soustraction cp en ligne",
+    "soustraction cp sans retenue",
+    "soustraction cp maitre lucas",
+    "soustraction cp1",
+    "soustraction cp ce1"
+   ]
+  },
+  "soustraction ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "soustraction ce1",
+    "soustraction ce1 avec retenue",
+    "soustraction ce1 à imprimer",
+    "soustraction ce1 exercices",
+    "soustraction ce1 sans retenue",
+    "soustraction ce1 retenue",
+    "soustraction ce1 pdf",
+    "soustraction ce1 avec et sans retenue",
+    "soustraction ce1 avec retenue 3 chiffres",
+    "soustraction ce1 en ligne"
+   ]
+  },
+  "soustraction ce2": {
+   "cls": "typeGrade",
+   "s": [
+    "soustraction ce2",
+    "soustraction ce2 avec retenue",
+    "soustraction ce2 à imprimer",
+    "soustraction ce2 exercices",
+    "soustraction ce2 exercices pdf",
+    "soustraction ce2 avec retenue pdf",
+    "soustraction ce2 pdf",
+    "soustraction ce2 evaluation",
+    "soustraction ce2 maitre lucas",
+    "soustraction ce2 sans retenue"
+   ]
+  },
+  "addition codée cp": {
+   "cls": "typeGrade",
+   "s": [
+    "add cpt code",
+    "total cpt codes",
+    "additional cpc codes cds",
+    "total cpt codes in 2025",
+    "additional cpc codes",
+    "total cpt codes in 2026",
+    "additional cpt code",
+    "addition code in cpp"
+   ]
+  },
+  "plus ou moins maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "plus ou moins maternelle",
+    "jeu plus ou moins maternelle"
+   ]
+  },
+  "plus ou moins cp": {
+   "cls": "typeGrade",
+   "s": [
+    "plus ou moins cp",
+    "plus ou moins value cpt",
+    "plus ou moins value latente cpt"
+   ]
+  },
+  "puzzle mathématique maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "puzzle mathématiques maternelle",
+    "puzzle numération maternelle"
+   ]
+  },
+  "puzzle mathématique cp": {
+   "cls": "typeGrade",
+   "s": [
+    "puzzle mathématique cp",
+    "puzzle calcul cp"
+   ]
+  },
+  "puzzle mathématique ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "puzzle maths ce1"
+   ]
+  },
+  "fiche de mathématiques maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "fiche de maths maternelle",
+    "fiche de numération maternelle",
+    "fiche math maternelle a imprimer",
+    "fiche numération maternelle ps",
+    "fiche maths maternelle pdf",
+    "fiche maths maternelle gs",
+    "fiche maths maternelle ms"
+   ]
+  },
+  "fiche de mathématiques grande section": {
+   "cls": "typeGrade",
+   "s": [
+    "fiche de mathématiques grande section",
+    "fiche mathématiques grande section maternelle"
+   ]
+  },
+  "fiche de mathématiques cp": {
+   "cls": "typeGrade",
+   "s": [
+    "fiche de mathématiques cp1",
+    "fiche de mathématiques cp",
+    "fiche de mathématiques cp2",
+    "fiche de mathématiques cp2 api",
+    "fiche de maths cp a imprimer",
+    "fiche de math cp gratuit a imprimer",
+    "fiche de maths cp ce1",
+    "fiche de maths cp pdf",
+    "fiche de mathematique cp2 pnapas",
+    "fiche de calcul cp"
+   ]
+  },
+  "fiche de mathématiques ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "fiche de mathématiques ce1",
+    "fiche de mathématiques ce1 pnapas",
+    "fiche de maths ce1 a imprimer gratuit",
+    "fiche de math ce1 a imprimer",
+    "fiche de maths ce1 pdf",
+    "fiche de révision maths ce1",
+    "fiche de préparation maths ce1",
+    "fiche de revision math ce1d",
+    "fiche de travail maths ce1",
+    "fiche exercice de math ce1 a imprimer"
+   ]
+  },
+  "fiche de mathématiques ce2": {
+   "cls": "typeGrade",
+   "s": [
+    "fiche de mathématiques ce2",
+    "fiche de maths ce2 pdf",
+    "fiche de maths ce2 à imprimer",
+    "fiche de maths ce2 a imprimer gratuit",
+    "fiche de maths ce2 maitre lucas",
+    "fiche de calcul ce2",
+    "fiche de calcul ce2 à imprimer",
+    "fiche de préparation mathématiques ce2",
+    "fiche de préparation mathématiques ce2 pdf",
+    "fiche pédagogique de mathématiques ce2"
+   ]
+  },
+  "grand ou petit maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "grand petit maternelle",
+    "grand moyen petit maternelle"
+   ]
+  },
+  "grand ou petit cp": {
+   "cls": "typeGrade",
+   "s": [
+    "plus grand ou plus petit cp",
+    "cp company taille grand ou petit"
+   ]
+  },
+  "fiche de modèles maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "fiche de préparation maternelle exemple"
+   ]
+  },
+  "fiche de modèles cp": {
+   "cls": "typeGrade",
+   "s": [
+    "fiche de lecture exemple cp"
+   ]
+  },
+  "fiche de modèles ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "fiche de lecture exemple ce1"
+   ]
+  },
+  "fiche de modèles ce2": {
+   "cls": "typeGrade",
+   "s": [
+    "fiche de lecture exemple ce2",
+    "fiche de préparation exemple ce2"
+   ]
+  },
+  "loto maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "loto maternelle",
+    "loto maternelle à imprimer",
+    "loto maternelle chiffre",
+    "loto maternelle hiver",
+    "loto maternelle pdf",
+    "loto maternelle ps",
+    "loto maternelle animaux",
+    "loto maternelle moustache",
+    "maternelle loto sonore",
+    "maternelle loto des lettres"
+   ]
+  },
+  "loto grande section": {
+   "cls": "typeGrade",
+   "s": [
+    "loto grande section",
+    "loto moyenne section",
+    "loto sonore grande section",
+    "loto des nombres grande section",
+    "loto des lettres grande section",
+    "jeu de loto grande section",
+    "loto des sons grande section",
+    "loto des syllabes grande section",
+    "loto des formes grande section",
+    "loto de noel grande section"
+   ]
+  },
+  "loto cp": {
+   "cls": "typeGrade",
+   "s": [
+    "loto cp",
+    "loto cp à imprimer",
+    "loto cp lecture",
+    "loto cp ce1",
+    "loto cpam 2026",
+    "loto cpam",
+    "loto cpam marseille",
+    "cpe loto quebec",
+    "tirage cpf",
+    "tirage cpm"
+   ]
+  },
+  "loto ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "loto ce1",
+    "loto numération ce1",
+    "loto conjugaison ce1",
+    "loto fractions ce1",
+    "loto lecture ce1",
+    "loto maths ce1",
+    "jeu loto ce1",
+    "loto nombre ce1",
+    "loto cp ce1",
+    "loto multiplication ce1"
+   ]
+  },
+  "loto ce2": {
+   "cls": "typeGrade",
+   "s": [
+    "loto ce2",
+    "loto numération ce2",
+    "loto multiplication ce2",
+    "loto nombres ce2",
+    "loto conjugaison ce2",
+    "loto des heures ce2",
+    "loto des fractions ce2"
+   ]
+  },
+  "appariement maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "appariement maternelle",
+    "jeu d appariement maternelle"
+   ]
+  },
+  "appariement cp": {
+   "cls": "typeGrade",
+   "s": [
+    "appairer cpl tp link",
+    "appairer cpl",
+    "appairage cpl",
+    "appairer cpl tp link av500",
+    "appairer cpl tp link av600",
+    "appairer cpl tp link av1000",
+    "appairer cpl boulanger",
+    "appairage cpl orange",
+    "associer cpl freebox",
+    "appairage cpl devolo"
+   ]
+  },
+  "trier les images maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "tri images maternelle"
+   ]
+  },
+  "train de l'alphabet maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "le train de l'alphabet maternelle"
+   ]
+  },
+  "prépositions maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "prepositions maternelle",
+    "prépositions spatiales maternelle",
+    "prépositions de lieu maternelle"
+   ]
+  },
+  "prépositions cp": {
+   "cls": "typeGrade",
+   "s": [
+    "préposition cp",
+    "prépositions spatiales cp",
+    "cpe prepositions"
+   ]
+  },
+  "prépositions ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "prépositions ce1"
+   ]
+  },
+  "prépositions ce2": {
+   "cls": "typeGrade",
+   "s": [
+    "prépositions ce2",
+    "exercices prépositions ce2",
+    "les prépositions ce2 pdf",
+    "leçon les prépositions ce2"
+   ]
+  },
+  "devine le mot cp": {
+   "cls": "typeGrade",
+   "s": [
+    "trouver le bon mot cp"
+   ]
+  },
+  "devine le mot ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "trouver le mot étiquette ce1"
+   ]
+  },
+  "lettres mélangées cp": {
+   "cls": "typeGrade",
+   "s": [
+    "lettres mélangées cp",
+    "alphabet mélangé cp"
+   ]
+  },
+  "lettres mélangées ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "lettres mélangées ce1"
+   ]
+  },
+  "mots mêlés maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "mots mêlés maternelle",
+    "mots mêlés maternelle à imprimer",
+    "mots mêlés maternelle grande section",
+    "mots croisés maternelle",
+    "mots fléchés maternelle à imprimer",
+    "mots fléchés maternelle",
+    "mots croisés maternelle pdf",
+    "mots croisés maternelle à imprimer",
+    "mots cachés maternelle",
+    "mots cachés maternelle à imprimer"
+   ]
+  },
+  "mots mêlés grande section": {
+   "cls": "typeGrade",
+   "s": [
+    "mots mélés grande section",
+    "mots mêlés grande section à imprimer",
+    "mots croisés grande section",
+    "mots croisés grande section pdf",
+    "mots fléchés grande section",
+    "mots cachés grande section",
+    "mots meles moyenne section",
+    "mots croisés grande section à imprimer",
+    "mots fléchés grande section à imprimer",
+    "mots croisés grande section maternelle"
+   ]
+  },
+  "mots mêlés cp": {
+   "cls": "typeGrade",
+   "s": [
+    "mots mélés cp",
+    "mots mêlés cp à imprimer pdf",
+    "mots mêlés cp à imprimer",
+    "mots mêlés cp ce1",
+    "mots mêlés cp taoki",
+    "mots mêlés cp pdf",
+    "mots meles cp gratuits à imprimer",
+    "mots meles cp noel",
+    "mots mêlés cp en ligne",
+    "mots mêlés cp bout de gomme"
+   ]
+  },
+  "mots mêlés ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "mots mêlés ce1 à imprimer pdf",
+    "mots mélés ce1",
+    "mots mêlés ce1 ce2",
+    "mots mêlés ce1 à imprimer",
+    "mots mêlés ce1 bout de gomme",
+    "mots meles ce1 pdf",
+    "mots meles ce1 gratuits à imprimer",
+    "mots meles ce1 ce2 à imprimer",
+    "mots mêlés ce1 en ligne",
+    "mots mélés ce1 noel"
+   ]
+  },
+  "mots mêlés ce2": {
+   "cls": "typeGrade",
+   "s": [
+    "mots mêlés ce2",
+    "mots mêlés ce2 à imprimer pdf",
+    "mots mêlés ce2 à imprimer",
+    "mots mêlés ce2 pdf",
+    "mots mêlés ce2 cm1",
+    "mots mêlés ce2 gratuits à imprimer",
+    "mots mêlés ce2 en ligne",
+    "mots mélés ce2 noel",
+    "mots meles ce2 autonomie",
+    "mots mêlés ce2 rentrée"
+   ]
+  },
+  "mots croisés maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "mots croisés maternelle",
+    "mots croisés maternelle à imprimer",
+    "mots croisés maternelle pdf",
+    "mots croisés maternelle grande section à imprimer",
+    "mots croisés maternelle printemps",
+    "mots croisés maternelle hiver",
+    "mots croisés maternelle noel",
+    "mots croisés maternelle gs",
+    "mots fléchés maternelle à imprimer",
+    "mots meles maternelle"
+   ]
+  },
+  "mots croisés grande section": {
+   "cls": "typeGrade",
+   "s": [
+    "mots croisés grande section",
+    "mots croisés grande section à imprimer",
+    "mots croisés grande section pdf",
+    "mots croisés grande section maternelle",
+    "mots mêlés grande section à imprimer",
+    "mots mêlés grande section",
+    "mots fléchés grande section",
+    "mots croisés moyenne section",
+    "mots fléchés grande section à imprimer",
+    "mots croisés moyenne section à imprimer"
+   ]
+  },
+  "mots croisés cp": {
+   "cls": "typeGrade",
+   "s": [
+    "mots croisés cp",
+    "mots croisés cp à imprimer pdf",
+    "mots croisés cp ce1",
+    "mots croisés cp à imprimer",
+    "mots croisés cp piano",
+    "mots croisés cp pdf",
+    "mots croisés cp sons",
+    "mots croisés cp printemps",
+    "mots croisés cp oin",
+    "mots croisés cp pilotis"
+   ]
+  },
+  "mots croisés ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "mots croisés ce1",
+    "mots croisés ce1 à imprimer pdf",
+    "mots croisés ce1 ce2",
+    "mots croisés ce1 à imprimer",
+    "mots croisés ce1 conjugaison",
+    "mots croisés ce1 pdf",
+    "mots croisés ce1 en ligne",
+    "mots croisés ce1 sons",
+    "mots croisés ce1 autonomie",
+    "mots croisés ce1 noel"
+   ]
+  },
+  "mots croisés ce2": {
+   "cls": "typeGrade",
+   "s": [
+    "mots croisés ce2",
+    "mots croisés ce2 à imprimer pdf",
+    "mots croisés ce2 autonomie",
+    "mots croisés ce2 vocabulaire",
+    "mots croisés ce2 conjugaison",
+    "mots croisés ce2 cm1",
+    "mots croisés ce2 à imprimer",
+    "mots croisés ce2 pdf",
+    "mots croisés ce2 futur",
+    "mots croisés ce2 en ligne"
+   ]
+  },
+  "trouve et compte cp": {
+   "cls": "typeGrade",
+   "s": [
+    "trouver compte cpf"
+   ]
+  },
+  "chasse au trésor maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "chasse au trésor maternelle",
+    "chasse au trésor maternelle pdf",
+    "chasse au trésor maternelle à imprimer",
+    "chasse au trésor maternelle gratuite à imprimer pdf",
+    "chasse au trésor maternelle gratuite",
+    "chasse au trésor maternelle gratuite à imprimer",
+    "chasse au trésor automne maternelle",
+    "chasse au trésor pirate maternelle",
+    "chasse au trésor nature maternelle",
+    "chasse au tresor printemps maternelle"
+   ]
+  },
+  "chasse au trésor grande section": {
+   "cls": "typeGrade",
+   "s": [
+    "chasse au trésor grande section maternelle",
+    "chasse au trésor grande section",
+    "chasse au trésor moyenne section"
+   ]
+  },
+  "chasse au trésor cp": {
+   "cls": "typeGrade",
+   "s": [
+    "chasse au trésor cp",
+    "chasse au trésor cp ce1",
+    "chasse au trésor cp pdf",
+    "chasse au tresor cpe",
+    "chasse au trésor gs cp",
+    "chasse au trésor automne cp",
+    "chasse au trésor enfant cp",
+    "chasse au trésor pirate cp",
+    "preparer une chasse au tresor halloween cp"
+   ]
+  },
+  "chasse au trésor ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "chasse au trésor ce1",
+    "chasse au trésor ce1 ce2",
+    "chasse au trésor cp ce1",
+    "chasse au trésor gratuite ce1"
+   ]
+  },
+  "chasse au trésor ce2": {
+   "cls": "typeGrade",
+   "s": [
+    "chasse au trésor ce2",
+    "chasse au trésor ce2 cm1",
+    "chasse au trésor ce1 ce2",
+    "chasse au trésor maths ce2"
+   ]
+  },
+  "pièces manquantes cp": {
+   "cls": "typeGrade",
+   "s": [
+    "pièces détachées adoucisseur cped"
+   ]
+  },
+  "l'intrus maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "l'intrus maternelle",
+    "trouver l'intrus maternelle",
+    "barre l'intrus maternelle",
+    "jeu de l'intrus maternelle",
+    "exercice trouver l'intrus maternelle",
+    "l intrus claude boujon maternelle",
+    "trouver l'intrus image maternelle"
+   ]
+  },
+  "l'intrus grande section": {
+   "cls": "typeGrade",
+   "s": [
+    "trouver l intrus grande section",
+    "trouver l intrus moyenne section"
+   ]
+  },
+  "l'intrus cp": {
+   "cls": "typeGrade",
+   "s": [
+    "l intrus cp",
+    "trouver l intrus cp",
+    "barre l'intrus cp",
+    "l'intrus claude boujon cp",
+    "jeu de 'l'intrus cp"
+   ]
+  },
+  "l'intrus ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "l intrus ce1",
+    "trouver l intrus ce1",
+    "l intrus claude boujon ce1"
+   ]
+  },
+  "l'intrus ce2": {
+   "cls": "typeGrade",
+   "s": [
+    "trouver l'intrus ce2",
+    "barre l'intrus ce2"
+   ]
+  },
+  "compter des images cp": {
+   "cls": "typeGrade",
+   "s": [
+    "computer images cpu"
+   ]
+  },
+  "boîtes de dix maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "boite de 10 maternelle"
+   ]
+  },
+  "boîtes de dix cp": {
+   "cls": "typeGrade",
+   "s": [
+    "boites de 10 cp"
+   ]
+  },
+  "tableau des nombres maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "tableau des nombres maternelle"
+   ]
+  },
+  "tableau des nombres cp": {
+   "cls": "typeGrade",
+   "s": [
+    "tableau des nombres cp",
+    "tableau des nombres cp à compléter",
+    "tableau des nombres cp exercices",
+    "tableau des nombres cp à imprimer",
+    "tableau des nombres cp affichage",
+    "tableau des nombres cp pdf",
+    "tableau des nombres cp mhm",
+    "tableau des nombres cp ce1",
+    "tableau des nombres cp vierge",
+    "chateau des nombres cp"
+   ]
+  },
+  "tableau des nombres ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "tableau des nombres ce1",
+    "tableau des nombres ce1 exercices",
+    "tableau des nombres ce1 à imprimer",
+    "tableau des nombres ce1 ce2",
+    "tableau des nombres ce1 affichage",
+    "tableau des nombres ce1 à compléter",
+    "grille des nombres ce1",
+    "leçon tableau des nombres ce1",
+    "tableau des nombres acces ce1",
+    "tableau des nombres cp ce1"
+   ]
+  },
+  "tableau des nombres ce2": {
+   "cls": "typeGrade",
+   "s": [
+    "tableau des nombres ce2",
+    "abaque des nombres ce2",
+    "affichage tableau des nombres ce2",
+    "tableau classe des nombres ce2",
+    "tableau des nombres ce1 ce2",
+    "tableau des nombres à compléter ce2",
+    "tableau de décomposition des nombres ce2"
+   ]
+  },
+  "comparer les nombres maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "comparer les nombres maternelle"
+   ]
+  },
+  "comparer les nombres grande section": {
+   "cls": "typeGrade",
+   "s": [
+    "comparer des nombres grande section"
+   ]
+  },
+  "comparer les nombres cp": {
+   "cls": "typeGrade",
+   "s": [
+    "comparer les nombres cp",
+    "comparer les nombres cp exercices",
+    "comparer les nombres cp maitre lucas",
+    "comparer les nombres cp pdf",
+    "comparer les nombres cp leçon",
+    "fiche comparer les nombres cp",
+    "atelier comparer les nombres cp",
+    "jeu comparer les nombres cp",
+    "comparer ranger les nombres cp",
+    "comparer et ordonner les nombres cp"
+   ]
+  },
+  "comparer les nombres ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "comparer les nombres ce1",
+    "comparer les nombres ce1 exercices",
+    "comparer les nombres ce1 pdf",
+    "comparer les nombres ce1 leçon",
+    "comparer les nombres ce1 mhm",
+    "evaluation comparer les nombres ce1",
+    "comparer ordonner les nombres ce1",
+    "comparer ranger les nombres ce1",
+    "comparer les nombres entiers ce1",
+    "vidéo comparer les nombres ce1 mhm"
+   ]
+  },
+  "comparer les nombres ce2": {
+   "cls": "typeGrade",
+   "s": [
+    "comparer les nombres ce2",
+    "comparer les nombres ce2 pdf",
+    "comparer les nombres ce2 exercices",
+    "comparer les nombres ce2 leçon",
+    "comparer ranger les nombres ce2",
+    "evaluation comparer les nombres ce2",
+    "comparer les grands nombres ce2",
+    "comparer les nombres entiers ce2",
+    "comparaison nombres ce2",
+    "comparer et ranger les nombres ce2 pdf"
+   ]
+  },
+  "comparer les quantités maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "comparer les quantités ms",
+    "comparer quantités maternelle"
+   ]
+  },
+  "comparer les quantités grande section": {
+   "cls": "typeGrade",
+   "s": [
+    "comparer des quantités grande section",
+    "comparer des quantités moyenne section"
+   ]
+  },
+  "comparer les quantités cp": {
+   "cls": "typeGrade",
+   "s": [
+    "comparer les quantités cp",
+    "comparer deux quantités cp",
+    "comparer collections cp"
+   ]
+  },
+  "comparer les tailles maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "comparer les longueurs maternelle",
+    "comparer taille maternelle"
+   ]
+  },
+  "comparer les tailles grande section": {
+   "cls": "typeGrade",
+   "s": [
+    "comparer des longueurs grande section"
+   ]
+  },
+  "comparer les tailles cp": {
+   "cls": "typeGrade",
+   "s": [
+    "comparer les longueurs cp",
+    "exercice comparer les longueurs cp"
+   ]
+  },
+  "comparer les tailles ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "comparer les longueurs ce1"
+   ]
+  },
+  "comparer les tailles ce2": {
+   "cls": "typeGrade",
+   "s": [
+    "comparer les longueurs ce2"
+   ]
+  },
+  "droite numérique maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "droite numérique maternelle",
+    "ligne numérique maternelle"
+   ]
+  },
+  "droite numérique cp": {
+   "cls": "typeGrade",
+   "s": [
+    "droite numérique cp",
+    "droite numérique cp affichage",
+    "droite numérique cp à imprimer",
+    "droite numérique cp1",
+    "droite numérique cp2",
+    "ligne numérique cp",
+    "exercice droite numérique cp",
+    "droite numérique individuelle cp",
+    "droite numérique vierge cp",
+    "droite numérique graduée cp"
+   ]
+  },
+  "droite numérique ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "droite numérique ce1",
+    "droite numérique ce1 affichage",
+    "ligne numérique ce1",
+    "exercice droite numérique ce1",
+    "droite numérique graduée ce1"
+   ]
+  },
+  "droite numérique ce2": {
+   "cls": "typeGrade",
+   "s": [
+    "droite numérique ce2",
+    "droite numérique ce2 exercice",
+    "droite numérique ce2 affichage",
+    "ligne numérique ce2",
+    "droite numérique graduée ce2",
+    "évaluation droite numérique ce2",
+    "leçon droite numérique ce2",
+    "exercice droite numérique graduée ce2"
+   ]
+  },
+  "dizaines et unités maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "dizaine unite maternelle"
+   ]
+  },
+  "dizaines et unités grande section": {
+   "cls": "typeGrade",
+   "s": [
+    "dizaine et unité grande section"
+   ]
+  },
+  "dizaines et unités cp": {
+   "cls": "typeGrade",
+   "s": [
+    "dizaines et unités cp",
+    "dizaines et unités cp exercices",
+    "dizaines et unités cp exercices en ligne",
+    "dizaines et unités cp maitre lucas",
+    "dizaines et unités cp pdf",
+    "cartes dizaines et unités cp",
+    "fiche dizaines et unités cp",
+    "mathématiques dizaines et unités cp",
+    "leçon dizaines et unités cp",
+    "additionner dizaines et unités cp"
+   ]
+  },
+  "dizaines et unités ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "dizaines et unités ce1",
+    "dizaines et unités ce1 exercices",
+    "leçon dizaines et unités ce1",
+    "centaines dizaines et unités ce1",
+    "évaluation dizaines et unités ce1",
+    "décomposer en dizaines et unités ce1",
+    "addition dizaine et unité ce1",
+    "jeu dizaine et unité ce1",
+    "dizaine unité ce1 exercices pdf"
+   ]
+  },
+  "dizaines et unités ce2": {
+   "cls": "typeGrade",
+   "s": [
+    "dizaines et unités ce2",
+    "exercices dizaines et unités ce2",
+    "décomposer en dizaines et unités ce2",
+    "dizaines centaines unités ce2",
+    "exercices sur les centaines dizaines et unités ce2",
+    "décomposer un nombre en centaines dizaines et unités ce2"
+   ]
+  },
+  "lire l'heure maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "lire l heure maternelle",
+    "apprendre a lire l heure maternelle"
+   ]
+  },
+  "lire l'heure cp": {
+   "cls": "typeGrade",
+   "s": [
+    "lire l'heure cp",
+    "lire l'heure cp exercices",
+    "lire l'heure cp ce1",
+    "lire l'heure cp pdf",
+    "lire l'heure cp maitre lucas",
+    "lire l'heure cp leçon",
+    "lire l'heure cp ce1 maitre lucas",
+    "lire l heure cp exercices pdf",
+    "lire l heure cp en ligne",
+    "lire l'heure cp logiciel"
+   ]
+  },
+  "lire l'heure ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "lire l'heure ce1",
+    "lire l'heure ce1 exercices",
+    "lire l'heure ce1 exercices pdf",
+    "lire l'heure ce1 ce2",
+    "lire l'heure ce1 leçon",
+    "lire l'heure ce1 maitre lucas",
+    "lire l'heure ce1 pdf",
+    "lire l'heure ce1 évaluation",
+    "lire l'heure ce1 en ligne",
+    "lire l'heure ce1 exercices pdf bout de gomme"
+   ]
+  },
+  "lire l'heure ce2": {
+   "cls": "typeGrade",
+   "s": [
+    "lire l'heure ce2",
+    "lire l'heure ce2 exercices",
+    "lire l'heure ce2 exercices pdf",
+    "lire l'heure ce2 leçon",
+    "lire l'heure ce2 pdf",
+    "lire l'heure ce2 évaluation",
+    "lire l'heure ce2 cm1",
+    "lire l'heure ce2 lutin bazar",
+    "lire l'heure ce2 maitre lucas",
+    "lire l'heure ce2 la classe bleue"
+   ]
+  },
+  "fractions maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "fractions maternelle",
+    "math maternelle",
+    "math maternelle grande section",
+    "math maternelle moyenne section",
+    "math maternelle pdf",
+    "math maternelle petite section",
+    "math maternelle noel"
+   ]
+  },
+  "fractions grande section": {
+   "cls": "typeGrade",
+   "s": [
+    "math grande section",
+    "math grande section pdf",
+    "math grande section a imprimer",
+    "math grande section maternelle gratuit en ligne",
+    "math grande section maternelle",
+    "math moyenne section",
+    "math moyenne section pdf",
+    "math moyenne section imprimer",
+    "exercice math grande section pdf",
+    "exercice math grande section pdf gratuit"
+   ]
+  },
+  "fractions cp": {
+   "cls": "typeGrade",
+   "s": [
+    "fractions cp",
+    "fractions cp maitre lucas",
+    "fractions cp ce1",
+    "fractions cp nouveaux programmes",
+    "fractions cp exercices",
+    "math cp",
+    "math cp exercice",
+    "math cp pdf",
+    "math cp à imprimer",
+    "math cpge"
+   ]
+  },
+  "fractions ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "fractions ce1",
+    "fractions ce1 exercices",
+    "fractions ce1 ce2",
+    "fractions ce1 bout de gomme",
+    "fractions ce1 évaluation",
+    "fractions ce1 maitre lucas",
+    "fractions ce1 leçon",
+    "fractions ce1 ce2 exercices",
+    "fractions ce1 pdf",
+    "fractions ce1 séquence"
+   ]
+  },
+  "fractions ce2": {
+   "cls": "typeGrade",
+   "s": [
+    "fractions ce2",
+    "fractions ce2 exercices",
+    "fractions ce2 à imprimer",
+    "fractions ce2 évaluation",
+    "fractions ce2 maitre lucas",
+    "fractions ce2 pdf",
+    "fractions ce2 leçon",
+    "fractions ce2 exercices pdf",
+    "fractions ce2 mhm",
+    "fractions ce2 nouveaux programmes"
+   ]
+  },
+  "géométrie maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "géométrie maternelle",
+    "géométrie maternelle grande section",
+    "géométrie maternelle eduscol",
+    "géographie maternelle",
+    "géographie maternelle montessori",
+    "activité géométrie maternelle",
+    "exercice géométrie maternelle",
+    "fiche géométrie maternelle",
+    "jeu géométrie maternelle",
+    "programme géométrie maternelle"
+   ]
+  },
+  "géométrie grande section": {
+   "cls": "typeGrade",
+   "s": [
+    "géométrie grande section",
+    "geometrie grande section maternelle",
+    "géométrie moyenne section",
+    "exercice geometrie grande section",
+    "fiche géométrie grande section",
+    "forme géométrique grande section",
+    "forme geometrique grande section maternelle",
+    "frise géométrique grande section"
+   ]
+  },
+  "géométrie cp": {
+   "cls": "typeGrade",
+   "s": [
+    "géométrie cp",
+    "géométrie cp à imprimer",
+    "géométrie cp pdf",
+    "géométrie cp exercices",
+    "géométrie cp ce1",
+    "géométrie cp bout de gomme",
+    "géométrie cp tracer à la règle",
+    "géométrie cp période 1",
+    "géométrie cp période 5",
+    "géométrie cp programme"
+   ]
+  },
+  "géométrie ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "géométrie ce1",
+    "géométrie ce1 à imprimer",
+    "géométrie ce1 pdf",
+    "géométrie ce1 exercices",
+    "géométrie ce1 ce2",
+    "géométrie ce1 reproduction sur quadrillage",
+    "géométrie ce1 bout de gomme",
+    "géométrie ce1 période 5",
+    "géométrie ce1 symétrie",
+    "géométrie ce1 autonomie"
+   ]
+  },
+  "géométrie ce2": {
+   "cls": "typeGrade",
+   "s": [
+    "géométrie ce2",
+    "géométrie ce2 à imprimer",
+    "géométrie ce2 exercices",
+    "géométrie ce2 pdf",
+    "géométrie ce2 programme",
+    "géométrie ce2 cm1",
+    "géométrie ce2 leçon",
+    "géométrie ce2 symétrie",
+    "géométrie ce2 programme de construction",
+    "géométrie ce2 bout de gomme"
+   ]
+  },
+  "mesures maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "mesures maternelle",
+    "mesure maternelle 4 ans",
+    "grandeurs et mesures maternelle"
+   ]
+  },
+  "mesures grande section": {
+   "cls": "typeGrade",
+   "s": [
+    "mesure grande section",
+    "grandeurs et mesures grande section"
+   ]
+  },
+  "mesures cp": {
+   "cls": "typeGrade",
+   "s": [
+    "mesures cp",
+    "mesures cp ce1",
+    "mesures cp ipotame",
+    "mesures cpam",
+    "mesure cpk",
+    "mesure cp exercices",
+    "cpce mesures conservatoires",
+    "cp mesures de longueurs",
+    "cpc mesures provisionnelles",
+    "mesure cpe"
+   ]
+  },
+  "mesures ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "mesures ce1",
+    "mesures ce1 ce2",
+    "mesures ce1 bout de gomme",
+    "mesures ce1 exercices",
+    "mesures ce1 cm m km",
+    "mesures ce1 lutin bazar",
+    "mesure ce1 pdf",
+    "mesure ce1 evaluation",
+    "mesure ce1 maitre lucas",
+    "ce1 mesures de longueur exercices"
+   ]
+  },
+  "mesures ce2": {
+   "cls": "typeGrade",
+   "s": [
+    "mesures ce2",
+    "mesures ce2 exercices",
+    "mesures ce2 longueurs",
+    "mesures ce2 cm1",
+    "mesures ce2 bout de gomme",
+    "mesures ce2 pdf",
+    "mesures ce2 lutin bazar",
+    "mesures ce2 maitre lucas",
+    "mesure ce2 evaluation",
+    "mesure ce2 leçon"
+   ]
+  },
+  "discrimination visuelle maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "discrimination visuelle maternelle",
+    "discrimination visuelle maternelle à imprimer",
+    "discrimination visuelle maternelle quel domaine",
+    "discrimination visuelle maternelle pdf",
+    "discrimination visuelle maternelle ps",
+    "discrimination visuelle maternelle gs",
+    "discrimination visuelle maternelle compétences",
+    "discrimination visuelle maternelle objectif",
+    "discrimination visuelle maternelle ms",
+    "discrimination visuelle maternelle noel"
+   ]
+  },
+  "discrimination visuelle grande section": {
+   "cls": "typeGrade",
+   "s": [
+    "discrimination visuelle grande section",
+    "discrimination visuelle grande section maternelle",
+    "discrimination visuelle moyenne section",
+    "fiche discrimination visuelle grande section",
+    "discrimination visuelle maternelle moyenne section",
+    "fiche discrimination visuelle moyenne section"
+   ]
+  },
+  "discrimination visuelle cp": {
+   "cls": "typeGrade",
+   "s": [
+    "discrimination visuelle cp",
+    "discrimination visuelle cp pdf",
+    "discrimination visuelle cp1",
+    "discrimination visuelle cp ce1",
+    "discrimination visuelle cp lettres",
+    "exercices discrimination visuelle cp",
+    "fiche discrimination visuelle cp",
+    "exercices discrimination visuelle cp imprimer",
+    "discrimination visuelle mots cp",
+    "discrimination visuelle gs cp"
+   ]
+  },
+  "discrimination visuelle ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "discrimination visuelle ce1",
+    "discrimination visuelle cp ce1",
+    "exercices discrimination visuelle ce1"
+   ]
+  },
+  "discrimination visuelle ce2": {
+   "cls": "typeGrade",
+   "s": [
+    "discrimination visuelle ce2"
+   ]
+  },
+  "suites logiques maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "suites logiques maternelle",
+    "suites logiques maternelle en ligne",
+    "suite logique maternelle à imprimer",
+    "suite logique maternelle pdf"
+   ]
+  },
+  "suites logiques grande section": {
+   "cls": "typeGrade",
+   "s": [
+    "suites logiques grande section",
+    "suite logique moyenne section"
+   ]
+  },
+  "suites logiques cp": {
+   "cls": "typeGrade",
+   "s": [
+    "suites logiques cp",
+    "suite logique cp à imprimer",
+    "exercices suites logiques cp"
+   ]
+  },
+  "suites logiques ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "suites logiques ce1",
+    "suite logique ce1 à imprimer",
+    "suite logique ce1 ce2"
+   ]
+  },
+  "suites logiques ce2": {
+   "cls": "typeGrade",
+   "s": [
+    "suites logiques ce2",
+    "suite logique ce2 cm1"
+   ]
+  },
+  "se repérer dans l'espace maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "se repérer dans l'espace maternelle",
+    "se repérer dans l'espace maternelle motricité",
+    "se repérer dans l espace maternelle domaine",
+    "se situer dans l espace maternelle",
+    "se reperer dans l'espace enfant",
+    "séquence se repérer dans l'espace maternelle",
+    "exercice se repérer dans l'espace maternelle",
+    "jeu se repérer dans l espace maternelle",
+    "compétence se repérer dans l espace maternelle",
+    "fiche se repérer dans l espace maternelle"
+   ]
+  },
+  "se repérer dans l'espace grande section": {
+   "cls": "typeGrade",
+   "s": [
+    "se repérer dans l espace grande section",
+    "se repérer dans l espace moyenne section",
+    "se situer dans l'espace grande section",
+    "repérage dans l espace grande section",
+    "exercice grande section se repérer dans l espace"
+   ]
+  },
+  "se repérer dans l'espace cp": {
+   "cls": "typeGrade",
+   "s": [
+    "se repérer dans l'espace cp",
+    "se repérer dans l'espace cp ce1",
+    "se repérer dans l'espace cp exercices pdf",
+    "se repérer dans l'espace cp lutin bazar",
+    "se repérer dans l'espace cp pdf",
+    "se repérer dans l'espace cp exercices à imprimer",
+    "se repérer dans l'espace cp exercices",
+    "se repérer dans l espace cp maitre lucas",
+    "se repérer dans l espace cp bout de gomme",
+    "évaluation se repérer dans l'espace cp"
+   ]
+  },
+  "se repérer dans l'espace ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "se repérer dans l'espace ce1",
+    "se repérer dans l'espace ce1 qlm",
+    "se repérer dans l'espace ce1 ce2",
+    "se repérer dans l'espace ce1 lutin bazar",
+    "se repérer dans l espace ce1 exercices pdf",
+    "se repérer dans l'espace ce1 evaluation",
+    "se repérer dans l'espace ce1 pdf",
+    "se repérer dans l'espace ce1 bout de gomme",
+    "se repérer dans l espace ce1 exercices",
+    "se repérer dans l espace ce1 exercices à imprimer"
+   ]
+  },
+  "se repérer dans l'espace ce2": {
+   "cls": "typeGrade",
+   "s": [
+    "se repérer dans l'espace ce2",
+    "se repérer dans l'espace ce2 lutin bazar",
+    "se repérer dans l'espace ce2 pdf",
+    "se repérer dans l'espace ce2 exercices",
+    "se repérer dans l'espace ce2 bout de gomme",
+    "se repérer dans l'espace ce2 exercices pdf",
+    "se repérer dans l'espace ce2 géométrie",
+    "se repérer dans l espace ce2 évaluation",
+    "se repérer dans l espace ce2 cm1",
+    "se repérer dans l espace ce2 maths"
+   ]
+  },
+  "trier par catégories cp": {
+   "cls": "typeGrade",
+   "s": [
+    "trier des mots par catégorie cp"
+   ]
+  },
+  "sons initiaux maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "son initial maternelle"
+   ]
+  },
+  "connaissance des lettres maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "connaissance des lettres maternelle",
+    "evaluation connaissance des lettres maternelle"
+   ]
+  },
+  "connaissance des lettres cp": {
+   "cls": "typeGrade",
+   "s": [
+    "connaissance des lettres cp"
+   ]
+  },
+  "vocabulaire en images maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "mots images maternelle",
+    "langage image maternelle"
+   ]
+  },
+  "vocabulaire en images grande section": {
+   "cls": "typeGrade",
+   "s": [
+    "mot image grande section",
+    "vocabulaire en grande section",
+    "langage en grande section",
+    "mot en grande section"
+   ]
+  },
+  "vocabulaire en images cp": {
+   "cls": "typeGrade",
+   "s": [
+    "mots images cp"
+   ]
+  },
+  "conscience phonologique maternelle": {
+   "cls": "typeGrade",
+   "s": [
+    "conscience phonologique maternelle",
+    "conscience phonologique maternelle activités",
+    "conscience phonologique maternelle pdf",
+    "conscience phonologique maternelle jeux en ligne",
+    "conscience phonologique maternelle 4 ans",
+    "conscience phonologique maternelle eduscol",
+    "conscience phonologique préscolaire",
+    "jeu conscience phonologique maternelle",
+    "progression conscience phonologique maternelle",
+    "exercice conscience phonologique maternelle"
+   ]
+  },
+  "conscience phonologique grande section": {
+   "cls": "typeGrade",
+   "s": [
+    "conscience phonologique grande section",
+    "conscience phonologique moyenne section"
+   ]
+  },
+  "conscience phonologique cp": {
+   "cls": "typeGrade",
+   "s": [
+    "conscience phonologique cp",
+    "conscience phonologique cp la cigale",
+    "conscience phonologique cp exercice",
+    "atelier conscience phonologique cp",
+    "jeux conscience phonologique cp"
+   ]
+  },
+  "conscience phonologique ce1": {
+   "cls": "typeGrade",
+   "s": [
+    "conscience phonologique ce1"
+   ]
+  },
+  "accessoires fiche": {
+   "cls": "themes",
+   "s": [
+    "fiche accessoires"
+   ]
+  },
+  "activités fiche": {
+   "cls": "themes",
+   "s": [
+    "fiches activités classe de neige",
+    "fiche activités numériques ci",
+    "fiche activités numériques cp",
+    "fiches activités enfants",
+    "fiches activités maternelle",
+    "fiche activités",
+    "fiche activités animation",
+    "fiche activités moyenne section",
+    "fiche activités grande section",
+    "fiches activités cp"
+   ]
+  },
+  "animaux fiche": {
+   "cls": "themes",
+   "s": [
+    "animaux fiche",
+    "animaux fiche maternelle",
+    "fiche animaux pdf",
+    "fiche animaux à imprimer",
+    "fiche animaux de la savane maternelle",
+    "fiche animaux en anglais",
+    "fiche animaux maternelle pdf",
+    "fiche animaux de la ferme maternelle",
+    "fiche animaux zoo maternelle",
+    "fiche animaux de la ferme"
+   ]
+  },
+  "boulangerie fiche": {
+   "cls": "themes",
+   "s": [
+    "boulangerie fiche",
+    "boulangerie fiche strasbourg",
+    "boulangerie fiche saint etienne",
+    "boulangerie fiche nogent sur oise",
+    "boulangerie fischer",
+    "boulangerie fischer hunspach",
+    "boulangerie fischer luxembourg",
+    "boulangerie fischer thionville",
+    "boulangerie fischer creutzwald",
+    "boulangerie fischer reims"
+   ]
+  },
+  "oiseaux fiche": {
+   "cls": "themes",
+   "s": [
+    "oiseaux fisher",
+    "fiche oiseaux des jardins pdf",
+    "fiche oiseaux des jardins",
+    "fiche oiseaux lpo",
+    "fiche oiseaux des jardins lpo",
+    "fiche oiseaux maternelle",
+    "fiche oiseaux pdf",
+    "seor fiches oiseaux",
+    "identification fiche oiseaux des jardins"
+   ]
+  },
+  "parties du corps fiche": {
+   "cls": "themes",
+   "s": [
+    "parties du corps fiche",
+    "les parties du corps fiche pedagogique",
+    "les parties du corps fiche fle",
+    "fiche parties du corps maternelle",
+    "fiche les parties du corps humain",
+    "fiche les parties du corps cp",
+    "fiche vocabulaire parties du corps",
+    "fiche sur les parties du corps en anglais",
+    "les parties du corps fiche de travail",
+    "les parties du corps humain fiche de travail"
+   ]
+  },
+  "petit-déjeuner fiche": {
+   "cls": "themes",
+   "s": [
+    "responsable petit déjeuner fiche de poste",
+    "fiche petit déjeuner ehpad",
+    "fiche petit dejeuner",
+    "fiche petit dejeuner hotel",
+    "fiche petit déjeuner équilibré maternelle",
+    "fiche petit dejeuner room service",
+    "fiche petit déjeuner équilibré",
+    "fiche petit dejeuner enfant"
+   ]
+  },
+  "camping fiche": {
+   "cls": "themes",
+   "s": [
+    "fiche camping car",
+    "fiche camping",
+    "fiche camping car 220v",
+    "réceptionniste camping fiche métier",
+    "camping car fiche technique",
+    "quicksilver 650 camping fiche technique",
+    "ancienne fiche camping la franqui photos",
+    "animateur de camping fiche métier",
+    "ancienne fiche camping la franqui",
+    "directeur de camping fiche métier"
+   ]
+  },
+  "noël fiche": {
+   "cls": "themes",
+   "s": [
+    "noel fiche pedagogique",
+    "noel fiche maternelle",
+    "noel fiche",
+    "noel fiche fle",
+    "noel fiche ms",
+    "noel fiche gs",
+    "noel fichet",
+    "fiche noel ps",
+    "fiche noel cp",
+    "fiche noel petite section"
+   ]
+  },
+  "salle de classe fiche": {
+   "cls": "themes",
+   "s": [
+    "fiche technique nettoyage salle de classe",
+    "la salle de classe fiche de travail",
+    "ma salle de classe fiche de travail"
+   ]
+  },
+  "vêtements fiche": {
+   "cls": "themes",
+   "s": [
+    "vetements fiche",
+    "fiche vêtements maternelle",
+    "fiche vêtements en anglais",
+    "fiche vetements espagnol",
+    "fiche vetements fle",
+    "les vetements fiche pédagogique",
+    "fiche de travail les vêtements",
+    "les vetements fiches",
+    "les vetements fiche pdf"
+   ]
+  },
+  "couleurs fiche": {
+   "cls": "themes",
+   "s": [
+    "couleurs fiche rj45",
+    "couleurs fiche",
+    "fiche couleurs maternelle",
+    "couleur fiche remorque",
+    "fiche couleurs anglais",
+    "couleur fiche electrique",
+    "couleur fiche iso autoradio",
+    "fiche couleurs ps",
+    "fiche couleurs anglais cp",
+    "couleur fiche remorque 7 broches"
+   ]
+  },
+  "dinosaures fiche": {
+   "cls": "themes",
+   "s": [
+    "dinosaures fiches",
+    "fiches dinosaures maternelle",
+    "dinosaure fiche d identité",
+    "dinobot fiche de revision",
+    "les dinosaures fiches pédagogiques",
+    "dino fichera",
+    "dino fichera metra"
+   ]
+  },
+  "pâques fiche": {
+   "cls": "themes",
+   "s": [
+    "paques fiche maternelle",
+    "paques fiche",
+    "paques fiches pedagogiques",
+    "fiche de travail paques",
+    "fiche paques gs",
+    "fiche paques ms",
+    "fiche paques ps",
+    "fiche paques petite section",
+    "les paques fiche de travail"
+   ]
+  },
+  "émotions fiche": {
+   "cls": "themes",
+   "s": [
+    "emotions fiche",
+    "emoji fiche",
+    "fiche emotions enfant",
+    "fiche émotions maternelle",
+    "fiche émotions cp",
+    "fiche émotions à imprimer",
+    "fiche émotions anglais",
+    "fiche émotions gs",
+    "emoji fiche de paie",
+    "emoji fiche technique"
+   ]
+  },
+  "animaux de la ferme fiche": {
+   "cls": "themes",
+   "s": [
+    "animaux de la ferme fiche maternelle",
+    "animaux de la ferme fiche",
+    "les animaux de la ferme fiche pedagogique",
+    "fiche animaux de la ferme gs",
+    "fiche animaux de la ferme ps",
+    "fiche animaux de la ferme cp",
+    "fiche animaux de la ferme ms",
+    "fiche animaux de la ferme pdf",
+    "fiche identité animaux de la ferme maternelle",
+    "fiche documentaire animaux de la ferme"
+   ]
+  },
+  "fleurs fiche": {
+   "cls": "themes",
+   "s": [
+    "fleuriste fiche métier",
+    "fleuriste fiche rome",
+    "fiche fleurs maternelle",
+    "fiche fleurs",
+    "fiche fleurs de bach",
+    "fleuriste fiche de poste",
+    "fiches fleurs pdf",
+    "fleuriste fichera franconville"
+   ]
+  },
+  "fruits fiche": {
+   "cls": "themes",
+   "s": [
+    "fruits fiche",
+    "fiche fruits et légumes de saison",
+    "fiche fruits maternelle",
+    "fiche fruits et légumes",
+    "fiche fruits et légumes maternelle",
+    "fichet fruits allonne",
+    "fruit fiche nutritionnelle",
+    "fiche fruits en anglais cm1",
+    "fiche fruits en anglais",
+    "fruits et légumes fiches pédagogiques"
+   ]
+  },
+  "meubles fiche": {
+   "cls": "themes",
+   "s": [
+    "meuble fiche bibliotheque",
+    "meuble fiche",
+    "les meubles fiche de travail"
+   ]
+  },
+  "hôpital fiche": {
+   "cls": "themes",
+   "s": [
+    "hopital fiche",
+    "hopital fiche de paie",
+    "chu fiche de paie",
+    "macron hopital fiche de paie",
+    "ash hôpital fiche métier",
+    "directeur d hôpital fiche métier"
+   ]
+  },
+  "ustensiles de cuisine fiche": {
+   "cls": "themes",
+   "s": [
+    "fiche ustensiles de cuisine"
+   ]
+  },
+  "divers fiche": {
+   "cls": "themes",
+   "s": [
+    "divers fiche de paie",
+    "different fiche",
+    "different fiche usb",
+    "divers net fiche de paie",
+    "le fait divers fiche pédagogique",
+    "le fait divers fiche pédagogique 1as"
+   ]
+  },
+  "musique fiche": {
+   "cls": "themes",
+   "s": [
+    "musique fiche",
+    "musique fiche le camp jack",
+    "fiche musique pdf",
+    "fiche musique crpe",
+    "fiche musique cycle 3",
+    "fiche musique maternelle",
+    "fiche musique cycle 2",
+    "fiche musique cm2",
+    "fiche musique cp",
+    "fiche musique ce2"
+   ]
+  },
+  "métiers fiche": {
+   "cls": "themes",
+   "s": [
+    "metiers fiche",
+    "fiches métiers france travail",
+    "fiches métiers apec",
+    "fiches métiers onisep",
+    "fiches métiers cnfpt",
+    "fiches métiers rome",
+    "fiches métiers siep",
+    "fiche metiers pole emploi",
+    "fiches métiers cidj"
+   ]
+  },
+  "animaux de compagnie fiche": {
+   "cls": "themes",
+   "s": [
+    "fiche animaux de compagnie"
+   ]
+  },
+  "bureau de poste fiche": {
+   "cls": "themes",
+   "s": [
+    "fiche de poste bureau des entreprises",
+    "fiche de poste bureau des admissions",
+    "fiche de poste bureau d études",
+    "fiche de poste bureau association",
+    "fiche de poste bureau d ordre",
+    "fiche de poste bureau vallee",
+    "fiche de poste bureau des entrées",
+    "fiche de poste bureau des méthodes"
+   ]
+  },
+  "formes fiche": {
+   "cls": "themes",
+   "s": [
+    "formation fiche de paie",
+    "formation ficheben",
+    "fiche formes géométriques gs",
+    "fiche formes ms",
+    "fiche formes gs",
+    "ficheben formation",
+    "fiche formes géométriques ms",
+    "fiche formes ps",
+    "fiche formes maternelle",
+    "fiche formation"
+   ]
+  },
+  "espace fiche": {
+   "cls": "themes",
+   "s": [
+    "espace fiche de paie",
+    "espace fiche de paie fonction publique",
+    "espace fiche technique",
+    "espace fiche de paie enseignant",
+    "fiche espace",
+    "fiche espace programme",
+    "fiche espace clos",
+    "fiche espace architecture",
+    "fiche espace vectoriel",
+    "fiche espace cp"
+   ]
+  },
+  "printemps fiche": {
+   "cls": "themes",
+   "s": [
+    "printemps fiche maternelle",
+    "printemps fiche gs",
+    "printemps fiche",
+    "printemps fiche ms",
+    "printemps fiche ps",
+    "fiche printemps cp",
+    "fiche printemps ce1",
+    "fiche printemps moyenne section",
+    "fiche printemps ms gs",
+    "fiche printemps maternelle ps"
+   ]
+  },
+  "été fiche": {
+   "cls": "themes",
+   "s": [
+    "fiche été maternelle",
+    "fiche été gs",
+    "fiche été ms",
+    "fiche été",
+    "fiche été cp",
+    "fiche été moyenne section"
+   ]
+  },
+  "outils fiche": {
+   "cls": "themes",
+   "s": [
+    "outils fiche de paie",
+    "outils fiche de révision",
+    "outils fiche",
+    "fiches outils dae",
+    "fiche outils français",
+    "fiches outils aménagements raisonnables",
+    "fiches outils achats éco responsables",
+    "fiches outils dgitm",
+    "fiches outils achats responsables",
+    "fiche outils mathématiques cycle 3"
+   ]
+  },
+  "jouets fiche": {
+   "cls": "themes",
+   "s": [
+    "jeux fiche",
+    "jeu fiche wikipedia",
+    "jeux fichier psp",
+    "jeu fiche s"
+   ]
+  },
+  "arbres fiche": {
+   "cls": "themes",
+   "s": [
+    "arbres fiches pédagogiques",
+    "fiche arbres",
+    "arbres aux faisans fiche technique",
+    "arbres de judée fiche technique"
+   ]
+  },
+  "légumes fiche": {
+   "cls": "themes",
+   "s": [
+    "legumes fiche",
+    "fiche légumes à imprimer",
+    "fiche légumes maternelle",
+    "fiche legumes de saison",
+    "fiche legumes diversification",
+    "fiches legumes potager",
+    "légumes glacés fiche technique",
+    "chartreuse de légumes fiche technique",
+    "fruits et légumes fiches pédagogiques",
+    "flan de légumes fiche technique"
+   ]
+  },
+  "véhicules fiche": {
+   "cls": "themes",
+   "s": [
+    "auto fiche",
+    "auto fiche technique",
+    "car fiche de paie",
+    "vehicule fiche",
+    "auto fiche fiabilité",
+    "vehicule fiche d identification",
+    "car fiche",
+    "véhicule fiche technique",
+    "automobile fiche technique",
+    "automobile fiche de poste"
+   ]
+  },
+  "météo fiche": {
+   "cls": "themes",
+   "s": [
+    "météo ficheux",
+    "meteo ficheux 62",
+    "meteo fiche",
+    "metro fiche hygiene",
+    "fiche météo en anglais",
+    "metro fiche de paie",
+    "fiche météo projet",
+    "metro fiche technique",
+    "metro fiche haccp",
+    "fiche meteo maternelle"
+   ]
+  },
+  "hiver fiche": {
+   "cls": "themes",
+   "s": [
+    "hiver fiche maternelle",
+    "hiver fiche gs",
+    "fiche hiver cp",
+    "fiche hiver",
+    "fiche hiver ms",
+    "fiche hiver ps",
+    "fiche hiver maternelle gs",
+    "fiche hiver ce1",
+    "fiche hiver maternelle ms",
+    "fiche hiver cp ce1"
+   ]
+  },
+  "animaux du zoo fiche": {
+   "cls": "themes",
+   "s": [
+    "les animaux du zoo fiche"
+   ]
+  },
+  "mathématiques maternelle fiche": {
+   "cls": "subjects",
+   "s": [
+    "numération maternelle fiche",
+    "maths fiche maternelle",
+    "fiches mathématiques maternelle à imprimer"
+   ]
+  },
+  "mathématiques grande section fiche": {
+   "cls": "subjects",
+   "s": [
+    "maths grande section fiche",
+    "fiche mathématiques grande section maternelle"
+   ]
+  },
+  "mathématiques cp fiche": {
+   "cls": "subjects",
+   "s": [
+    "mathématiques cp fiche",
+    "calcul cp fiche",
+    "cap maths cp fiches photocopiables",
+    "fiches mathématiques cp à imprimer"
+   ]
+  },
+  "mathématiques ce1 fiche": {
+   "cls": "subjects",
+   "s": [
+    "maths ce1 fiche",
+    "fiche mathématiques ce1 pnapas"
+   ]
+  },
+  "mathématiques ce2 fiche": {
+   "cls": "subjects",
+   "s": [
+    "maths ce2 fiche",
+    "maths ce2 fiches exercices",
+    "calcul ce2 fiche"
+   ]
+  },
+  "français maternelle fiche": {
+   "cls": "subjects",
+   "s": [
+    "fiche francais maternelle"
+   ]
+  },
+  "français grande section fiche": {
+   "cls": "subjects",
+   "s": [
+    "fiche francais grande section",
+    "fiche francais grande section maternelle"
+   ]
+  },
+  "français cp fiche": {
+   "cls": "subjects",
+   "s": [
+    "français cp fiche",
+    "fiche francais cp a imprimer",
+    "fiche francais cp pdf"
+   ]
+  },
+  "français ce1 fiche": {
+   "cls": "subjects",
+   "s": [
+    "francais ce1 fiche",
+    "conjugaison ce1 fiche",
+    "grammaire ce1 fiche",
+    "fiche francais ce1 a imprimer",
+    "fiche francais ce1 pdf",
+    "fiche francais ce1 ce2"
+   ]
+  },
+  "français ce2 fiche": {
+   "cls": "subjects",
+   "s": [
+    "grammaire ce2 fiche",
+    "fiche français ce2",
+    "fiche francais ce2 pdf"
+   ]
+  },
+  "sciences maternelle fiche": {
+   "cls": "subjects",
+   "s": [
+    "fiche sciences maternelle"
+   ]
+  },
+  "sciences cp fiche": {
+   "cls": "subjects",
+   "s": [
+    "fiche sciences cp"
+   ]
+  },
+  "sciences ce1 fiche": {
+   "cls": "subjects",
+   "s": [
+    "fiche sciences ce1"
+   ]
+  },
+  "sciences ce2 fiche": {
+   "cls": "subjects",
+   "s": [
+    "fiche sciences ce2 imprimer",
+    "fiche sciences ce2 pdf",
+    "fiche sciences ce2"
+   ]
+  },
+  "logique maternelle fiche": {
+   "cls": "subjects",
+   "s": [
+    "blocs logiques maternelle fiches",
+    "fiche logique maternelle"
+   ]
+  },
+  "logique cp fiche": {
+   "cls": "subjects",
+   "s": [
+    "fiche logique cp"
+   ]
+  },
+  "logique ce1 fiche": {
+   "cls": "subjects",
+   "s": [
+    "fiche logique ce1"
+   ]
+  },
+  "logique ce2 fiche": {
+   "cls": "subjects",
+   "s": [
+    "fiche logique ce2"
+   ]
+  },
+  "repérage dans l'espace maternelle fiche": {
+   "cls": "subjects",
+   "s": [
+    "fiche repérage dans l espace maternelle",
+    "fiche se repérer dans l espace maternelle"
+   ]
+  },
+  "repérage dans l'espace cp fiche": {
+   "cls": "subjects",
+   "s": [
+    "fiche repérage dans l espace cp",
+    "fiche se repérer dans l espace cp"
+   ]
+  },
+  "repérage dans l'espace ce1 fiche": {
+   "cls": "subjects",
+   "s": [
+    "fiche repérage dans l'espace ce1"
+   ]
+  },
+  "exercices maths maternelle": {
+   "cls": "subjects",
+   "s": [
+    "exercices maths maternelle",
+    "exercices maths maternelle à imprimer",
+    "exercice maths maternelle grande section",
+    "exercice maths maternelle moyenne section",
+    "exercices calcul maternelle",
+    "exercices numération maternelle",
+    "exercices calcul maternelle grande section",
+    "exercice mathématique maternelle pdf",
+    "exercice math maternelle grande section gratuit à imprimer",
+    "exercice math maternelle petite section"
+   ]
+  },
+  "exercices maths grande section": {
+   "cls": "subjects",
+   "s": [
+    "exercices maths grande section à imprimer pdf",
+    "exercices maths grande section",
+    "exercices maths grande section à imprimer",
+    "exercices maths grande section cp",
+    "exercices maths grande section pdf",
+    "exercices mathematique grande section maternelle",
+    "exercices calcul grande section maternelle",
+    "exercices calcul grande section",
+    "exercice math grande section pdf gratuit",
+    "exercice math grande section en ligne"
+   ]
+  },
+  "exercices maths cp": {
+   "cls": "subjects",
+   "s": [
+    "exercices maths cp à imprimer pdf",
+    "exercices maths cp",
+    "exercices maths cp à imprimer",
+    "exercices maths cp période 5",
+    "exercices maths cp pdf",
+    "exercices maths cp période 4",
+    "exercices maths cp dizaines unités",
+    "exercices maths cp période 3",
+    "exercices maths cp ce1",
+    "exercices maths cp à imprimer pdf gratuit"
+   ]
+  },
+  "exercices maths ce1": {
+   "cls": "subjects",
+   "s": [
+    "exercices maths ce1 à imprimer pdf",
+    "exercices maths ce1",
+    "exercices maths ce1 à imprimer",
+    "exercices maths ce1 multiplication",
+    "exercices maths ce1 pdf",
+    "exercices maths ce1 période 5",
+    "exercices maths ce1 période 4",
+    "exercices maths ce1 à imprimer pdf gratuit",
+    "exercices maths ce1 période 3",
+    "exercices maths ce1 ce2"
+   ]
+  },
+  "exercices maths ce2": {
+   "cls": "subjects",
+   "s": [
+    "exercices maths ce2",
+    "exercices maths ce2 à imprimer gratuit",
+    "exercices maths ce2 à imprimer pdf",
+    "exercices maths ce2 à imprimer",
+    "exercices maths ce2 pdf",
+    "exercices maths ce2 multiplication à imprimer",
+    "exercices maths ce2 période 5",
+    "exercices maths ce2 période 4",
+    "exercices maths ce2 fractions",
+    "exercices maths ce2 période 3"
+   ]
+  },
+  "fiches maternelle maternelle": {
+   "cls": "subjects",
+   "s": [
+    "fiche maternelle maternelle",
+    "activité maternelle maternelle"
+   ]
+  },
+  "fiches maternelle grande section": {
+   "cls": "subjects",
+   "s": [
+    "fiches maternelle grande section",
+    "fiche maternelle grande section à imprimer",
+    "fiche maternelle grande section à imprimer pdf",
+    "fiche maternelle grande section pdf",
+    "fiche maternelle grande section écriture",
+    "activité maternelle grande section",
+    "activité maternelle grande section a imprimer",
+    "fiches maternelle moyenne section",
+    "activité maternelle grande section centre de loisirs",
+    "activité maternelle grande section pdf"
+   ]
+  },
+  "fiches maternelle cp": {
+   "cls": "subjects",
+   "s": [
+    "fiche maternelle cp",
+    "activité maternelle cp"
+   ]
+  },
+  "exercices français maternelle": {
+   "cls": "subjects",
+   "s": [
+    "exercices français maternelle",
+    "exercices francais maternelle pdf",
+    "exercices français maternelle à imprimer pdf",
+    "activité français maternelle",
+    "exercice francais maternelle grande section",
+    "exercice francais maternelle moyenne section",
+    "devoir français maternelle",
+    "exercice de francais maternelle grande section a imprimer",
+    "pepit exercices maternelle francais mots page",
+    "exercices français grande section maternelle pdf"
+   ]
+  },
+  "exercices français grande section": {
+   "cls": "subjects",
+   "s": [
+    "exercices français grande section",
+    "exercices français grande section à imprimer pdf",
+    "exercices français grande section maternelle pdf",
+    "exercice français grande section pdf",
+    "exercice francais grande section maternelle gratuit à imprimer",
+    "exercice francais moyenne section",
+    "exercice francais moyenne section imprimer",
+    "exercices de français grande section à imprimer",
+    "exercice francais maternelle grande section",
+    "exercice francais maternelle moyenne section"
+   ]
+  },
+  "exercices français cp": {
+   "cls": "subjects",
+   "s": [
+    "exercices français cp pdf",
+    "exercices français cp à imprimer pdf",
+    "exercices français cp",
+    "exercices français cp pdf gratuit",
+    "exercices français cp à imprimer",
+    "exercices français cp à imprimer pdf gratuit",
+    "exercices francais cp gratuit à imprimer",
+    "exercices francais cp ce1",
+    "exercices français cp2",
+    "exercices français cp1"
+   ]
+  },
+  "exercices français ce1": {
+   "cls": "subjects",
+   "s": [
+    "exercices français ce1 à imprimer pdf",
+    "exercices français ce1",
+    "exercices français ce1 à imprimer",
+    "exercices français ce1 pdf",
+    "exercices français ce1 à imprimer pdf gratuit",
+    "exercices français ce1d",
+    "exercices français ce1 ce2",
+    "exercices français ce1 en ligne",
+    "exercices français ce1 conjugaison",
+    "exercice français ce1 avec corrigé pdf"
+   ]
+  },
+  "exercices français ce2": {
+   "cls": "subjects",
+   "s": [
+    "exercices français ce2",
+    "exercices français ce2 à imprimer pdf",
+    "exercices français ce2 pdf",
+    "exercices français ce2 à imprimer",
+    "exercices français ce2 en ligne",
+    "exercice français ce2 avec corrigé pdf",
+    "évaluation français ce2 pdf",
+    "exercice français ce2 avec corrigé pdf gratuit",
+    "évaluation français ce2 1er trimestre pdf",
+    "évaluation français ce2 avec corrigé pdf"
+   ]
+  },
+  "exercices en ligne": {
+   "cls": "online",
+   "s": [
+    "exercices en ligne",
+    "exercices en ligne passé simple",
+    "exercices en ligne passé composé",
+    "exercices en ligne imparfait",
+    "exercices en ligne fractions",
+    "exercices en ligne cod coi",
+    "exercices en ligne ce1",
+    "exercices en ligne figures de style",
+    "exercices en ligne conjugaison",
+    "exercices en ligne accord participe passé"
+   ]
+  },
+  "exercices en ligne maternelle": {
+   "cls": "online",
+   "s": [
+    "exercices en ligne maternelle",
+    "exercices en ligne maternelle moyenne section",
+    "activité en ligne maternelle",
+    "exercice en ligne maternelle grande section",
+    "exercice en ligne maternelle petite section",
+    "exercice en ligne alphabet maternelle",
+    "exercices en ligne pour enfants"
+   ]
+  },
+  "exercices en ligne grande section": {
+   "cls": "online",
+   "s": [
+    "exercices en ligne grande section",
+    "exercices en ligne grande section maternelle",
+    "activité en ligne grande section",
+    "exercice en ligne grande section gratuit",
+    "exercices en ligne moyenne section",
+    "activité en ligne moyenne section",
+    "exercice en ligne gratuit grande section maternelle",
+    "exercice en ligne math grande section",
+    "exercices en ligne maternelle moyenne section"
+   ]
+  },
+  "exercices en ligne cp": {
+   "cls": "online",
+   "s": [
+    "exercices en ligne cp",
+    "exercices en ligne cp gratuit",
+    "exercices en ligne cp lecture",
+    "exercices en ligne cp maths",
+    "activité en ligne cp",
+    "exercice en ligne cp francais",
+    "exercice en ligne cp dizaine unité",
+    "devoir en ligne cp",
+    "exercice en ligne cp ce1",
+    "exercice en ligne cp syllabes"
+   ]
+  },
+  "jeux éducatifs en ligne": {
+   "cls": "online",
+   "s": [
+    "jeux éducatifs en ligne",
+    "jeux éducatifs en ligne gratuit",
+    "jeux éducatifs en ligne ce2",
+    "jeux éducatifs en ligne gratuit 3 ans",
+    "jeux éducatifs en ligne maternelle",
+    "jeux éducatifs en ligne cp",
+    "jeux éducatifs en ligne cm2",
+    "jeux éducatifs en ligne ce1",
+    "jeux éducatifs en ligne gratuit cm2",
+    "jeux éducatifs en ligne gratuit français"
+   ]
+  },
+  "jeux éducatifs en ligne maternelle": {
+   "cls": "online",
+   "s": [
+    "jeux éducatifs en ligne maternelle",
+    "jeux éducatifs en ligne maternelle petite section",
+    "jeux éducatifs en ligne maternelle grande section",
+    "jeux éducatif en ligne maternelle gratuit",
+    "jeu interactif en ligne maternelle",
+    "jeux éducatifs en ligne enfants",
+    "jeux educatifs en ligne enfants 6 ans",
+    "jeux enfant maternelle en ligne",
+    "jeux educatifs en maternelle"
+   ]
+  },
+  "jeux éducatifs en ligne grande section": {
+   "cls": "online",
+   "s": [
+    "jeux educatifs en ligne grande section maternelle",
+    "jeux educatifs en ligne grande section",
+    "jeux éducatifs en ligne moyenne section",
+    "jeux éducatifs en ligne gratuit grande section"
+   ]
+  },
+  "jeux éducatifs en ligne cp": {
+   "cls": "online",
+   "s": [
+    "jeux éducatifs en ligne cp",
+    "jeux éducatifs en ligne cp ce1 ce2 cm1 cm2",
+    "jeux éducatifs en ligne gratuit cp",
+    "jeux éducatifs en ligne gratuits école primaire cp ce1 maternelle gs",
+    "jeux enfant cp en ligne"
+   ]
+  },
+  "fiches à imprimer a": {
+   "cls": "alphabet",
+   "s": [
+    "fiches abaques à imprimer",
+    "fiches abaques à imprimer ps",
+    "fiches abaques à imprimer nathan",
+    "fiches abaques à imprimer ms",
+    "fiches abaques à imprimer gs",
+    "fiches animaux à imprimer"
+   ]
+  },
+  "fiches à imprimer b": {
+   "cls": "alphabet",
+   "s": [
+    "fichier impression bambulab",
+    "fiche de révision à imprimer brevet",
+    "fiches budget à imprimer gratuit",
+    "fiches sons cp à imprimer pdf bout de gomme"
+   ]
+  },
+  "fiches à imprimer c": {
+   "cls": "alphabet",
+   "s": [
+    "fiches à imprimer cp",
+    "fiches à imprimer cm1",
+    "fiches à imprimer ce1",
+    "fiche à imprimer ce2",
+    "fiche à imprimer cm2",
+    "fiches logico à imprimer cp",
+    "fiches veritech à imprimer cycle 2",
+    "fiches veritech à imprimer cp",
+    "fiches veritech à imprimer ce2",
+    "fiche logico à imprimer ce2"
+   ]
+  },
+  "fiches à imprimer d": {
+   "cls": "alphabet",
+   "s": [
+    "fiche à imprimer de maths",
+    "fiche à imprimer table de multiplication",
+    "fichier d'impression",
+    "fichier impression.dtf",
+    "fiches de conjugaison à imprimer",
+    "fiches de multiplications à imprimer",
+    "fiches d écriture à imprimer",
+    "fiches de graphisme à imprimer",
+    "fiches de divisions à imprimer",
+    "fiches de lecture à imprimer"
+   ]
+  },
+  "fiches à imprimer e": {
+   "cls": "alphabet",
+   "s": [
+    "fichier à imprimer en 3d",
+    "fiche à imprimer qui est ce",
+    "fichier impression etiquettes",
+    "fiche premier secours à imprimer enfant",
+    "fiche révision brevet à imprimer emc",
+    "fiches exercices cp à imprimer",
+    "fiches exercices cm1 à imprimer",
+    "fiches exercices cm2 à imprimer",
+    "fiches exercices ce1 à imprimer"
+   ]
+  },
+  "fiches à imprimer f": {
+   "cls": "alphabet",
+   "s": [
+    "fiche révision brevet à imprimer français",
+    "fiches fle à imprimer"
+   ]
+  },
+  "fiches à imprimer g": {
+   "cls": "alphabet",
+   "s": [
+    "fiche à imprimer grande section",
+    "fichier à imprimer gs",
+    "fiches budget à imprimer gratuit",
+    "fiches abaques à imprimer gs",
+    "fiches cp à imprimer gratuit",
+    "fiches généalogiques à imprimer gratuitement",
+    "fiche cluedo à imprimer gratuit",
+    "fiche recette à imprimer gratuit",
+    "fiche maternelle à imprimer gratuite",
+    "fiche ablution à imprimer gratuit"
+   ]
+  },
+  "fiches à imprimer h": {
+   "cls": "alphabet",
+   "s": [
+    "fiche révision brevet à imprimer histoire",
+    "fiche révision brevet à imprimer histoire géographie",
+    "fiches apprentissage corps humain à imprimer"
+   ]
+  },
+  "fiches à imprimer l": {
+   "cls": "alphabet",
+   "s": [
+    "fichier à photocopier vivre les maths cp",
+    "fichier à photocopier vivre les maths ce1",
+    "fiches lexidata à imprimer",
+    "fiches logico à imprimer",
+    "fiches logico à imprimer cp",
+    "fiches logico gs à imprimer"
+   ]
+  },
+  "fiches à imprimer m": {
+   "cls": "alphabet",
+   "s": [
+    "fiches à imprimer maternelle",
+    "fiches à imprimer moyenne section",
+    "fichier à imprimer moyenne section",
+    "fichier à photocopier mhm cm1",
+    "fiches cm1 à imprimer maths",
+    "fiches abaques à imprimer ms",
+    "fiche logico à imprimer maternelle",
+    "fiche lego à imprimer maternelle",
+    "fiche à imprimer de maths",
+    "fiche activité à imprimer moyenne section"
+   ]
+  },
+  "fiches à imprimer n": {
+   "cls": "alphabet",
+   "s": [
+    "fiches abaques à imprimer nathan"
+   ]
+  },
+  "fiches à imprimer p": {
+   "cls": "alphabet",
+   "s": [
+    "fiches à imprimer petite section",
+    "fiche à imprimer pour apprendre l heure",
+    "fiches abaques à imprimer ps",
+    "fiches cp à imprimer pdf",
+    "fiches sons à imprimer pdf",
+    "fiche cluedo à imprimer pdf",
+    "fiche kilométrique à imprimer pdf",
+    "fiche vidange à imprimer pdf gratuit",
+    "fiche vidange à imprimer pdf",
+    "fiche cluedo à imprimer pdf français"
+   ]
+  },
+  "fiches à imprimer q": {
+   "cls": "alphabet",
+   "s": [
+    "fiche à imprimer qui est ce"
+   ]
+  },
+  "fiches à imprimer r": {
+   "cls": "alphabet",
+   "s": [
+    "fichier impression resine",
+    "fiches recettes à imprimer",
+    "fiches recettes vierges à imprimer",
+    "fiches réglettes cuisenaire à imprimer"
+   ]
+  },
+  "fiches à imprimer s": {
+   "cls": "alphabet",
+   "s": [
+    "fiches à imprimer moyenne section",
+    "fiches à imprimer petite section",
+    "fiche à imprimer grande section",
+    "fichier à imprimer moyenne section",
+    "fichier impression stickers",
+    "fichier impression stl",
+    "fiche révision brevet à imprimer svt",
+    "fiche révision brevet à imprimer sciences",
+    "fiches syllabes à imprimer",
+    "fiches sons à imprimer"
+   ]
+  },
+  "fiches à imprimer t": {
+   "cls": "alphabet",
+   "s": [
+    "fiche à imprimer table de multiplication",
+    "fichier à photocopier tandem",
+    "fiches sons cp à imprimer taoki",
+    "fiche révision brevet à imprimer technologie",
+    "fiches tangram à imprimer"
+   ]
+  },
+  "fiches à imprimer v": {
+   "cls": "alphabet",
+   "s": [
+    "fichier à photocopier vivre les maths cp",
+    "fichier à photocopier vivre les maths ce1",
+    "fichier à photocopier vivre les maths cp 2025",
+    "fiches veritech à imprimer",
+    "fiches veritech à imprimer cycle 2",
+    "fiches veritech à imprimer cp",
+    "fiches veritech à imprimer ce2",
+    "fiches veritech ce1 à imprimer",
+    "fiches recettes vierges à imprimer"
+   ]
+  },
+  "fiches à imprimer y": {
+   "cls": "alphabet",
+   "s": [
+    "fiches yahtzee imprimer",
+    "fiches yams à imprimer",
+    "fiches yoga à imprimer"
+   ]
+  },
+  "fiches à imprimer é": {
+   "cls": "alphabet",
+   "s": [
+    "fiche à imprimer écriture cursive",
+    "fiches éducatives à imprimer",
+    "fiches d'écriture à imprimer",
+    "fiches écriture cp à imprimer"
+   ]
+  },
+  "fiches maternelle a": {
+   "cls": "alphabet",
+   "s": [
+    "fiche maternelle automne",
+    "fiche maternelle alphabet pdf",
+    "fiche maternelle alphabet",
+    "fiche maternelle a imprimer",
+    "fiche maternelle arc en ciel",
+    "fiche maternelle animaux de la ferme",
+    "fiche maternelle arbre",
+    "fiche maternelle avril",
+    "fiche maternelle algorithme",
+    "fiche maternelle animaux"
+   ]
+  },
+  "fiches maternelle b": {
+   "cls": "alphabet",
+   "s": [
+    "fiches maternelle boucle d or et les trois ours",
+    "fiches maternelle bonne année",
+    "fiche maternelle bonne année 2026",
+    "fiche maternelle boucles",
+    "fiche maternelle bande numérique",
+    "fiche maternelle bonne fete maman",
+    "fiche maternelle blanche neige",
+    "fiche maternelle bonhomme de neige",
+    "fiche maternelle bonhomme du mois",
+    "fiche maternelle boucle d or"
+   ]
+  },
+  "fiches maternelle c": {
+   "cls": "alphabet",
+   "s": [
+    "fiches maternelle carnaval",
+    "fiches maternelle calendrier",
+    "fiches maternelle coccinelle",
+    "fiches maternelle com",
+    "fiches maternelle chiffres",
+    "fiches maternelle cirque",
+    "fiche maternelle com lettres alphabet",
+    "fiche maternelle com graphisme",
+    "fiche maternelle complément à 5",
+    "fiche maternelle complément à 4"
+   ]
+  },
+  "fiches maternelle d": {
+   "cls": "alphabet",
+   "s": [
+    "fiche maternelle décomposition",
+    "fiche maternelle décembre",
+    "fiche maternelle dinosaure",
+    "fiche maternelle discrimination visuelle",
+    "fiche maternelle domino",
+    "fiche maternelle dénombrement",
+    "fiche maternelle decoupage collage",
+    "fiche maternelle decoupage",
+    "fiche maternelle dedans dehors",
+    "fiche maternelle du plus petit au plus grand"
+   ]
+  },
+  "fiches maternelle e": {
+   "cls": "alphabet",
+   "s": [
+    "fiches maternelle ete",
+    "fiche d'écriture maternelle",
+    "fiche maternelle escargot",
+    "fiche maternelle ecrire les chiffres",
+    "fiche maternelle ecriture chiffre",
+    "fiche maternelle elmer",
+    "fiche maternelle espace",
+    "fiche maternelle evaluation diagnostique",
+    "fiche d'écriture cursive maternelle",
+    "fiche maternelle entourer"
+   ]
+  },
+  "fiches maternelle f": {
+   "cls": "alphabet",
+   "s": [
+    "fiches maternelle ferme",
+    "fiche maternelle fr",
+    "fiche maternelle formes géométriques",
+    "fiche maternelle fevrier",
+    "fiche maternelle formes",
+    "fiche maternelle fête des mères",
+    "fiche maternelle francais",
+    "fiche maternelle fruits et légumes",
+    "fiche maternelle fruits",
+    "fiche maternelle fleur"
+   ]
+  },
+  "fiches maternelle g": {
+   "cls": "alphabet",
+   "s": [
+    "fiches maternelle gs",
+    "fiches maternelle graphisme",
+    "fiches maternelle gratuites",
+    "fiches maternelle galette",
+    "fiche maternelle grande section à imprimer",
+    "fiche maternelle grande section à imprimer pdf",
+    "fiche maternelle gs maths",
+    "fiche maternelle galette des rois",
+    "fiche maternelle grande section pdf",
+    "fichier maternelle gs"
+   ]
+  },
+  "fiches maternelle h": {
+   "cls": "alphabet",
+   "s": [
+    "fiches maternelle hiver",
+    "fiches maternelle halloween",
+    "fiches maternelle hansel et gretel",
+    "fiche maternelle hérisson",
+    "fiche maternelle hiver ms",
+    "fiche maternelle hiver gs",
+    "activités maternelle hiver à imprimer",
+    "activité maternelle halloween",
+    "activité maternelle hiver",
+    "activité maternelle hervé tullet"
+   ]
+  },
+  "fiches maternelle i": {
+   "cls": "alphabet",
+   "s": [
+    "fiches maternelle insectes",
+    "fiche maternelle imprimer",
+    "fiche maternelle i",
+    "activité maternelle imprimer",
+    "activité maternelle insecte",
+    "activité maternelle indien",
+    "activité maternelle italie",
+    "activité interactive maternelle",
+    "fiche maternelle à imprimer gratuite",
+    "fiche assistante maternelle impot"
+   ]
+  },
+  "fiches maternelle j": {
+   "cls": "alphabet",
+   "s": [
+    "fiches maternelle janvier",
+    "fiche maternelle jours de la semaine",
+    "fiche maternelle juin",
+    "fiche maternelle jacques et le haricot magique",
+    "fiche maternelle jeu des maillots",
+    "fiche maternelle juin gs",
+    "fiche maternelle jardin",
+    "fiche maternelle jardinage",
+    "fiche maternelle je suis une fille",
+    "fiche maternelle juillet"
+   ]
+  },
+  "fiches maternelle k": {
+   "cls": "alphabet",
+   "s": [
+    "fiche maternelle kandinsky",
+    "fiche maternelle keith haring",
+    "fiches kapla maternelle",
+    "fiche katamino maternelle",
+    "fiche kangourou maternelle",
+    "activité kermesse maternelle",
+    "activité kangourou maternelle",
+    "activité kapla maternelle",
+    "activité koala maternelle",
+    "activités kirikou maternelle"
+   ]
+  },
+  "fiches maternelle l": {
+   "cls": "alphabet",
+   "s": [
+    "fiches maternelle lettres",
+    "fiche maternelle lettres capitales",
+    "fiche maternelle lecture",
+    "fiche maternelle la galette",
+    "fiche maternelle lapin",
+    "fiche maternelle labyrinthe",
+    "fiche maternelle la rentrée",
+    "fiche maternelle la pomme",
+    "fiches logico maternelle à télécharger",
+    "activité maternelle la galette des rois"
+   ]
+  },
+  "fiches maternelle m": {
+   "cls": "alphabet",
+   "s": [
+    "fiches maternelle ms",
+    "fiches maternelle moyenne section",
+    "fiches maternelle mai",
+    "fiches maternelle maths",
+    "fiche maternelle moyenne section à imprimer pdf",
+    "fiche maternelle moyenne section à imprimer",
+    "fiche maternelle mars",
+    "fiche maternelle mois de mai",
+    "fiche maternelle mois de juin",
+    "fiche maternelle mois de mars"
+   ]
+  },
+  "fiches maternelle n": {
+   "cls": "alphabet",
+   "s": [
+    "fiches maternelle noel",
+    "fiches maternelle numération",
+    "fiches maternelle novembre",
+    "fiche maternelle numération 1 2 3",
+    "fiche maternelle nombre",
+    "fiche maternelle noel gs",
+    "fiche maternelle nombre 6",
+    "fiche maternelle nombre 4",
+    "fiche maternelle noel ms",
+    "fiche maternelle nouvelle année"
+   ]
+  },
+  "fiches maternelle o": {
+   "cls": "alphabet",
+   "s": [
+    "fiche maternelle octobre",
+    "fiche maternelle oeuf de paques",
+    "fiche maternelle ours",
+    "fiche maternelle octobre a imprimer",
+    "fiche maternelle oiseaux",
+    "fiche maternelle o",
+    "activités maternelle oiseaux",
+    "activité maternelle ocean",
+    "activité maternelle octobre",
+    "activité maternelle ours polaire"
+   ]
+  },
+  "fiches maternelle p": {
+   "cls": "alphabet",
+   "s": [
+    "fiches maternelle printemps",
+    "fiches maternelle ps",
+    "fiches maternelle paques",
+    "fiches maternelle petite section",
+    "fiches maternelle poisson arc en ciel",
+    "fiches maternelle pdf",
+    "fiches maternelle phonologie",
+    "fiche maternelle petite section à imprimer",
+    "fiche maternelle petite section pdf",
+    "fichier maternelle pdf"
+   ]
+  },
+  "fiches maternelle q": {
+   "cls": "alphabet",
+   "s": [
+    "fiche maternelle quadrillage"
+   ]
+  },
+  "fiches maternelle r": {
+   "cls": "alphabet",
+   "s": [
+    "fiches maternelle rentrée",
+    "fiche maternelle roule galette",
+    "fiche maternelle rond",
+    "fiche maternelle recette galette des rois",
+    "fiche maternelle ranger du plus petit au plus grand",
+    "fiche maternelle reconnaissance lettres",
+    "fiche maternelle rentrée scolaire",
+    "fiche maternelle renard",
+    "fiche maternelle repérage dans l espace",
+    "fiche maternelle représentation du nombre"
+   ]
+  },
+  "fiches maternelle s": {
+   "cls": "alphabet",
+   "s": [
+    "fiche maternelle septembre",
+    "fiche maternelle spirale",
+    "fiche maternelle sapin",
+    "fiche maternelle syllabe d attaque",
+    "fiche maternelle saison",
+    "fiche maternelle syllabes",
+    "fiche maternelle saint nicolas",
+    "fiche maternelle son o",
+    "fiche maternelle septembre a imprimer",
+    "fiche maternelle son a"
+   ]
+  },
+  "fiches maternelle t": {
+   "cls": "alphabet",
+   "s": [
+    "fiche maternelle tableau double entrée",
+    "fiche maternelle tour eiffel",
+    "fiche maternelle theme hiver",
+    "fiche maternelle tps",
+    "fiche maternelle toute petite section",
+    "fiche maternelle tangram",
+    "fiche maternelle traits verticaux",
+    "fiche maternelle traits horizontaux",
+    "fiche maternelle thème printemps",
+    "fiche maternelle tracer des ronds"
+   ]
+  },
+  "fiches maternelle u": {
+   "cls": "alphabet",
+   "s": [
+    "fiche maternelle un peu beaucoup",
+    "fiche maternelle u",
+    "fiche urgence maternelle",
+    "fiche maternelle décomposer un nombre",
+    "fiche maternelle son u",
+    "fiche maternelle lettre u"
+   ]
+  },
+  "fiches maternelle v": {
+   "cls": "alphabet",
+   "s": [
+    "fiche maternelle vagues",
+    "fiche maternelle vacances",
+    "fiche maternelle vivant non vivant",
+    "fiches vocabulaire maternelle",
+    "activité maternelle voyage autour du monde",
+    "activité maternelle vacances",
+    "activité maternelle voiture",
+    "activité maternelle visage",
+    "activité maternelle vivant non vivant",
+    "activité maternelle vocabulaire"
+   ]
+  },
+  "fiches maternelle w": {
+   "cls": "alphabet",
+   "s": [
+    "activité western maternelle",
+    "fiche maternelle andy warhol",
+    "www fiches maternelle com"
+   ]
+  },
+  "fiches maternelle y": {
+   "cls": "alphabet",
+   "s": [
+    "fiche maternelle yayoi kusama",
+    "fiche yoga maternelle pdf",
+    "fiche yoga maternelle",
+    "activité yoga maternelle",
+    "activité yéti maternelle"
+   ]
+  },
+  "fiches maternelle z": {
+   "cls": "alphabet",
+   "s": [
+    "fiche maternelle zoo",
+    "activité maternelle zoo"
+   ]
+  },
+  "fiches maternelle é": {
+   "cls": "alphabet",
+   "s": [
+    "fiches maternelle été",
+    "activité maternelle été",
+    "activités maternelle école dehors",
+    "fiche écriture maternelle à imprimer",
+    "activités émotions maternelle à imprimer"
+   ]
+  }
+ },
+ "unique": [
+  "abaque des nombres ce2",
+  "activité en ligne cp",
+  "activité en ligne grande section",
+  "activité en ligne maternelle",
+  "activité en ligne moyenne section",
+  "activité français maternelle",
+  "activité géométrie maternelle",
+  "activité interactive maternelle",
+  "activité kangourou maternelle",
+  "activité kapla maternelle",
+  "activité kermesse maternelle",
+  "activité koala maternelle",
+  "activité maternelle cp",
+  "activité maternelle grande section",
+  "activité maternelle grande section a imprimer",
+  "activité maternelle grande section centre de loisirs",
+  "activité maternelle grande section pdf",
+  "activité maternelle halloween",
+  "activité maternelle hervé tullet",
+  "activité maternelle hiver",
+  "activité maternelle imprimer",
+  "activité maternelle indien",
+  "activité maternelle insecte",
+  "activité maternelle italie",
+  "activité maternelle la galette des rois",
+  "activité maternelle maternelle",
+  "activité maternelle ocean",
+  "activité maternelle octobre",
+  "activité maternelle ours polaire",
+  "activité maternelle vacances",
+  "activité maternelle visage",
+  "activité maternelle vivant non vivant",
+  "activité maternelle vocabulaire",
+  "activité maternelle voiture",
+  "activité maternelle voyage autour du monde",
+  "activité maternelle zoo",
+  "activité maternelle été",
+  "activité western maternelle",
+  "activité yoga maternelle",
+  "activité yéti maternelle",
+  "activités kirikou maternelle",
+  "activités maternelle hiver à imprimer",
+  "activités maternelle oiseaux",
+  "activités maternelle école dehors",
+  "activités émotions maternelle à imprimer",
+  "add cpt code",
+  "addition",
+  "addition ce1",
+  "addition ce1 avec retenue",
+  "addition ce1 en ligne",
+  "addition ce1 exercices",
+  "addition ce1 exercices à imprimer",
+  "addition ce1 la classe bleue",
+  "addition ce1 pdf",
+  "addition ce1 retenue",
+  "addition ce1 sans retenue",
+  "addition ce1 à imprimer",
+  "addition ce2",
+  "addition ce2 avec retenue",
+  "addition ce2 en ligne",
+  "addition ce2 evaluation",
+  "addition ce2 exercice à imprimer",
+  "addition ce2 exercices",
+  "addition ce2 exercices pdf",
+  "addition ce2 pdf",
+  "addition ce2 sans retenue",
+  "addition ce2 à imprimer",
+  "addition code in cpp",
+  "addition cp",
+  "addition cp avec retenue",
+  "addition cp bout de gomme",
+  "addition cp en colonne",
+  "addition cp en ligne",
+  "addition cp exercices",
+  "addition cp pdf",
+  "addition cp sans retenue",
+  "addition cp à imprimer",
+  "addition cp à imprimer pdf",
+  "addition de fraction",
+  "addition de fractions exercices pdf",
+  "addition des nombres décimaux exercices pdf",
+  "addition dizaine et unité ce1",
+  "addition elle",
+  "addition en anglais",
+  "addition en espagnol",
+  "addition en italien",
+  "addition exercice pdf",
+  "addition fiche",
+  "addition fiche ce2",
+  "addition fiche cp",
+  "addition fiche gs",
+  "addition grande section",
+  "addition grande section maternelle",
+  "addition grande section maternelle pdf",
+  "addition grande section pdf",
+  "addition grande section à imprimer",
+  "addition heure",
+  "addition maternelle",
+  "addition maternelle en ligne",
+  "addition maternelle grande section",
+  "addition maternelle ms",
+  "addition maternelle pdf",
+  "addition maternelle à imprimer",
+  "addition moyenne section",
+  "addition posée cp",
+  "addition soustraction exercices pdf",
+  "addition soustraction grande section",
+  "addition soustraction maternelle",
+  "addition soustraction multiplication division exercices pdf",
+  "addition soustraction multiplication division exercices pdf cm1",
+  "addition soustraction multiplication division exercices pdf cm2",
+  "addition temps",
+  "additional cpc codes",
+  "additional cpc codes cds",
+  "additional cpt code",
+  "additionner des fractions",
+  "additionner dizaines et unités cp",
+  "adjectives prepositions exercises pdf",
+  "adjectives prepositions exercises pdf with answers",
+  "affichage tableau des nombres ce2",
+  "alphabet mélangé cp",
+  "ancienne fiche camping la franqui",
+  "ancienne fiche camping la franqui photos",
+  "animateur de camping fiche métier",
+  "animaux de la ferme fiche",
+  "animaux de la ferme fiche maternelle",
+  "animaux fiche",
+  "animaux fiche maternelle",
+  "appairage cpl",
+  "appairage cpl devolo",
+  "appairage cpl orange",
+  "appairer cpl",
+  "appairer cpl boulanger",
+  "appairer cpl tp link",
+  "appairer cpl tp link av1000",
+  "appairer cpl tp link av500",
+  "appairer cpl tp link av600",
+  "appariement",
+  "appariement def",
+  "appariement def ses",
+  "appariement des chromosomes homologues",
+  "appariement des données",
+  "appariement en arabe",
+  "appariement maternelle",
+  "appariement par score de propension",
+  "appariement ses",
+  "appariement synonyme",
+  "appariement télécommande orange",
+  "apprendre a lire l heure maternelle",
+  "apprendre à lire l heure exercices pdf",
+  "apprendre à lire l heure fiche",
+  "arbres aux faisans fiche technique",
+  "arbres de judée fiche technique",
+  "arbres fiches pédagogiques",
+  "ash hôpital fiche métier",
+  "associations sciences po",
+  "associations sciences po paris",
+  "associer cpl freebox",
+  "atelier comparer les nombres cp",
+  "atelier conscience phonologique cp",
+  "auto fiche",
+  "auto fiche fiabilité",
+  "auto fiche technique",
+  "automobile fiche de poste",
+  "automobile fiche technique",
+  "barre l'intrus ce2",
+  "barre l'intrus cp",
+  "barre l'intrus maternelle",
+  "blocs logiques maternelle fiches",
+  "boite de 10 maternelle",
+  "boite de dix",
+  "boites de 10 cp",
+  "boulangerie fiche",
+  "boulangerie fiche nogent sur oise",
+  "boulangerie fiche saint etienne",
+  "boulangerie fiche strasbourg",
+  "boulangerie fischer",
+  "boulangerie fischer creutzwald",
+  "boulangerie fischer hunspach",
+  "boulangerie fischer luxembourg",
+  "boulangerie fischer reims",
+  "boulangerie fischer thionville",
+  "calcul ce2 fiche",
+  "calcul cp fiche",
+  "camping car fiche technique",
+  "cap maths cp fiches photocopiables",
+  "car fiche",
+  "car fiche de paie",
+  "cartes dizaines et unités cp",
+  "ce1 mesures de longueur exercices",
+  "centaines dizaines et unités ce1",
+  "chartreuse de légumes fiche technique",
+  "chasse au tresor cpe",
+  "chasse au tresor fiche d'activité",
+  "chasse au tresor printemps maternelle",
+  "chasse au trésor",
+  "chasse au trésor archéologique",
+  "chasse au trésor automne cp",
+  "chasse au trésor automne maternelle",
+  "chasse au trésor ce1",
+  "chasse au trésor ce1 ce2",
+  "chasse au trésor ce2",
+  "chasse au trésor ce2 cm1",
+  "chasse au trésor cp",
+  "chasse au trésor cp ce1",
+  "chasse au trésor cp pdf",
+  "chasse au trésor dofus",
+  "chasse au trésor enfant cp",
+  "chasse au trésor forza horizon 6",
+  "chasse au trésor grande section",
+  "chasse au trésor grande section maternelle",
+  "chasse au trésor gratuite ce1",
+  "chasse au trésor gratuite à imprimer pdf",
+  "chasse au trésor gratuite à imprimer pdf 10 ans",
+  "chasse au trésor gratuite à imprimer pdf 5 ans",
+  "chasse au trésor gratuite à imprimer pdf 6 ans",
+  "chasse au trésor gs cp",
+  "chasse au trésor maternelle",
+  "chasse au trésor maternelle gratuite",
+  "chasse au trésor maternelle gratuite à imprimer",
+  "chasse au trésor maternelle gratuite à imprimer pdf",
+  "chasse au trésor maternelle pdf",
+  "chasse au trésor maternelle à imprimer",
+  "chasse au trésor maths ce2",
+  "chasse au trésor moyenne section",
+  "chasse au trésor nature maternelle",
+  "chasse au trésor pirate cp",
+  "chasse au trésor pirate maternelle",
+  "chasse au trésor quotidienne dofus",
+  "chasse au trésor éléments de décoration wow",
+  "chateau des nombres cp",
+  "cherche trouve et compte",
+  "cherche trouve et compte jusqu à 10",
+  "cherche trouve et compte les animaux",
+  "cherche trouve et compte livre",
+  "chu fiche de paie",
+  "cidb ce21",
+  "code ce1",
+  "code ce2",
+  "code couleur grande section",
+  "code cp",
+  "code cpam",
+  "code cpc",
+  "code cpp",
+  "code cpt",
+  "code cpt 99203",
+  "code cpt 99213",
+  "code cpt 99214",
+  "code cpv",
+  "code fiche",
+  "code fiche de paie",
+  "code fiche de paie belgique",
+  "code fiche de paie fonction publique",
+  "code fiche de paie fonction publique hospitalière",
+  "code fiche de paie fonction publique territoriale",
+  "code fiche de paie ieg",
+  "code fiche de paie sd worx",
+  "code fiche de revision",
+  "code fiche roblox",
+  "code maternelle",
+  "code secret grande section",
+  "coloriage addition grande section",
+  "coloriage addition maternelle",
+  "coloriage code grande section",
+  "comment comparer les tailles us et française",
+  "comparaison de fractions exercices pdf",
+  "comparaison de nombres exercices pdf",
+  "comparaison nombres ce2",
+  "comparer collections cp",
+  "comparer des longueurs grande section",
+  "comparer des nombres grande section",
+  "comparer des quantités fiche",
+  "comparer des quantités grande section",
+  "comparer des quantités moyenne section",
+  "comparer deux quantités cp",
+  "comparer et ordonner les nombres cp",
+  "comparer et ranger les nombres ce2 pdf",
+  "comparer les grands nombres ce2",
+  "comparer les longueurs ce1",
+  "comparer les longueurs ce2",
+  "comparer les longueurs cp",
+  "comparer les longueurs maternelle",
+  "comparer les nombres",
+  "comparer les nombres ce1",
+  "comparer les nombres ce1 exercices",
+  "comparer les nombres ce1 leçon",
+  "comparer les nombres ce1 mhm",
+  "comparer les nombres ce1 pdf",
+  "comparer les nombres ce2",
+  "comparer les nombres ce2 exercices",
+  "comparer les nombres ce2 leçon",
+  "comparer les nombres ce2 pdf",
+  "comparer les nombres cp",
+  "comparer les nombres cp exercices",
+  "comparer les nombres cp leçon",
+  "comparer les nombres cp maitre lucas",
+  "comparer les nombres cp pdf",
+  "comparer les nombres décimaux",
+  "comparer les nombres décimaux cm1",
+  "comparer les nombres décimaux cm2",
+  "comparer les nombres décimaux cm2 pdf",
+  "comparer les nombres décimaux exercices",
+  "comparer les nombres entiers ce1",
+  "comparer les nombres entiers ce2",
+  "comparer les nombres gs",
+  "comparer les nombres maternelle",
+  "comparer les quantités",
+  "comparer les quantités cp",
+  "comparer les quantités gs",
+  "comparer les quantités ms",
+  "comparer les tailles",
+  "comparer les tailles d iphone",
+  "comparer les tailles de personnes",
+  "comparer les tailles de voitures",
+  "comparer les tailles des pays",
+  "comparer les tailles gs",
+  "comparer ordonner les nombres ce1",
+  "comparer quantités maternelle",
+  "comparer ranger les nombres ce1",
+  "comparer ranger les nombres ce2",
+  "comparer ranger les nombres cp",
+  "comparer taille maternelle",
+  "comparer tailles villes",
+  "compteur graphique",
+  "compteur graphique excel",
+  "computer images cpu",
+  "compétence se repérer dans l espace maternelle",
+  "conjugaison ce1 fiche",
+  "connaissance des lettres",
+  "connaissance des lettres cp",
+  "connaissance des lettres gs",
+  "connaissance des lettres hatier",
+  "connaissance des lettres maternelle",
+  "connaissance des lettres ms",
+  "conscience phonologique",
+  "conscience phonologique ce1",
+  "conscience phonologique cp",
+  "conscience phonologique cp exercice",
+  "conscience phonologique cp la cigale",
+  "conscience phonologique def",
+  "conscience phonologique et phonémique",
+  "conscience phonologique et principe alphabétique",
+  "conscience phonologique exercices à imprimer",
+  "conscience phonologique grande section",
+  "conscience phonologique gs",
+  "conscience phonologique jeux",
+  "conscience phonologique maternelle",
+  "conscience phonologique maternelle 4 ans",
+  "conscience phonologique maternelle activités",
+  "conscience phonologique maternelle eduscol",
+  "conscience phonologique maternelle jeux en ligne",
+  "conscience phonologique maternelle pdf",
+  "conscience phonologique moyenne section",
+  "conscience phonologique pdf",
+  "conscience phonologique préscolaire",
+  "construction de castor mots fléchés",
+  "construction de charpentes mots fléchés",
+  "construction de jardin mots fléchés",
+  "construction de jardin mots fléchés 7 lettres",
+  "construction de mots",
+  "construction de mots avec lettres",
+  "construction de mots croisés",
+  "construction de pont mots fléchés",
+  "construction de rues mots fléchés",
+  "construction de treillage mots fléchés",
+  "conversion de mesures exercices pdf",
+  "couleur fiche electrique",
+  "couleur fiche iso autoradio",
+  "couleur fiche remorque",
+  "couleur fiche remorque 7 broches",
+  "couleurs fiche",
+  "couleurs fiche rj45",
+  "cp company taille grand ou petit",
+  "cp mesures de longueurs",
+  "cpc mesures provisionnelles",
+  "cpce mesures conservatoires",
+  "cpe loto quebec",
+  "cpe prepositions",
+  "crypto cpool",
+  "cryptogramme",
+  "cryptogramme carte",
+  "cryptogramme carte bancaire",
+  "cryptogramme carte visa",
+  "cryptogramme dynamique",
+  "cryptogramme la buse",
+  "cryptogramme veut dire quoi",
+  "cryptogramme visa",
+  "cryptogramme visuel",
+  "cryptogramme visuel carte bancaire",
+  "cryptographie exercices corrigés pdf",
+  "devine le mot",
+  "devine le mot du jour",
+  "devine le mot du jour indice",
+  "devine le mot du jour solution",
+  "devine le mot en emoji",
+  "devine le mot indice",
+  "devine le mot jeu",
+  "devine le mot reponse",
+  "devine le mot solution",
+  "devine le mot.fr",
+  "devoir en ligne cp",
+  "devoir français maternelle",
+  "different fiche",
+  "different fiche usb",
+  "dino fichera",
+  "dino fichera metra",
+  "dinobot fiche de revision",
+  "dinosaure fiche d identité",
+  "dinosaures fiches",
+  "directeur d hôpital fiche métier",
+  "directeur de camping fiche métier",
+  "discrimination visuelle",
+  "discrimination visuelle ce1",
+  "discrimination visuelle ce2",
+  "discrimination visuelle cp",
+  "discrimination visuelle cp ce1",
+  "discrimination visuelle cp lettres",
+  "discrimination visuelle cp pdf",
+  "discrimination visuelle cp1",
+  "discrimination visuelle exercices pdf",
+  "discrimination visuelle fiche",
+  "discrimination visuelle grande section",
+  "discrimination visuelle grande section maternelle",
+  "discrimination visuelle gs",
+  "discrimination visuelle gs cp",
+  "discrimination visuelle gs pdf",
+  "discrimination visuelle maternelle",
+  "discrimination visuelle maternelle compétences",
+  "discrimination visuelle maternelle fiche",
+  "discrimination visuelle maternelle gs",
+  "discrimination visuelle maternelle moyenne section",
+  "discrimination visuelle maternelle ms",
+  "discrimination visuelle maternelle noel",
+  "discrimination visuelle maternelle objectif",
+  "discrimination visuelle maternelle pdf",
+  "discrimination visuelle maternelle ps",
+  "discrimination visuelle maternelle quel domaine",
+  "discrimination visuelle maternelle à imprimer",
+  "discrimination visuelle mots cp",
+  "discrimination visuelle moyenne section",
+  "discrimination visuelle ms",
+  "discrimination visuelle petite section",
+  "discrimination visuelle ps",
+  "discrimination visuelle à imprimer",
+  "divers fiche de paie",
+  "divers net fiche de paie",
+  "dizaine et unité grande section",
+  "dizaine unite maternelle",
+  "dizaine unité ce1 exercices pdf",
+  "dizaine unité fiche",
+  "dizaines centaines unités ce2",
+  "dizaines et unités",
+  "dizaines et unités ce1",
+  "dizaines et unités ce1 exercices",
+  "dizaines et unités ce2",
+  "dizaines et unités cp",
+  "dizaines et unités cp exercices",
+  "dizaines et unités cp exercices en ligne",
+  "dizaines et unités cp maitre lucas",
+  "dizaines et unités cp pdf",
+  "dizaines et unités exercices",
+  "dizaines et unités exercices ce1",
+  "dizaines et unités exercices cp",
+  "dizaines et unités gs",
+  "dizaines et unités maitre lucas",
+  "dizaines et unités à imprimer",
+  "droite numérique",
+  "droite numérique 0 à 100",
+  "droite numérique ce1",
+  "droite numérique ce1 affichage",
+  "droite numérique ce2",
+  "droite numérique ce2 affichage",
+  "droite numérique ce2 exercice",
+  "droite numérique cp",
+  "droite numérique cp affichage",
+  "droite numérique cp à imprimer",
+  "droite numérique cp1",
+  "droite numérique cp2",
+  "droite numérique exercices",
+  "droite numérique exercices corrigés pdf",
+  "droite numérique fraction",
+  "droite numérique graduée ce1",
+  "droite numérique graduée ce2",
+  "droite numérique graduée cp",
+  "droite numérique individuelle cp",
+  "droite numérique maternelle",
+  "droite numérique nombre décimaux",
+  "droite numérique vierge",
+  "droite numérique vierge cp",
+  "droite numérique vierge pdf",
+  "droite numérique vierge à imprimer",
+  "droite numérique à imprimer",
+  "décomposer en dizaines et unités ce1",
+  "décomposer en dizaines et unités ce2",
+  "décomposer un nombre en centaines dizaines et unités ce2",
+  "emoji fiche",
+  "emoji fiche de paie",
+  "emoji fiche technique",
+  "emotions fiche",
+  "enigme logique visuelle",
+  "espace fiche de paie",
+  "espace fiche de paie enseignant",
+  "espace fiche de paie fonction publique",
+  "espace fiche technique",
+  "evaluation comparer les nombres ce1",
+  "evaluation comparer les nombres ce2",
+  "evaluation connaissance des lettres maternelle",
+  "exercice addition grande section",
+  "exercice addition grande section pdf",
+  "exercice addition maternelle",
+  "exercice comparer les longueurs cp",
+  "exercice conscience phonologique maternelle",
+  "exercice de francais maternelle grande section a imprimer",
+  "exercice de logique visuelle",
+  "exercice droite numérique ce1",
+  "exercice droite numérique cp",
+  "exercice droite numérique graduée ce2",
+  "exercice en ligne alphabet maternelle",
+  "exercice en ligne cp ce1",
+  "exercice en ligne cp dizaine unité",
+  "exercice en ligne cp francais",
+  "exercice en ligne cp syllabes",
+  "exercice en ligne grande section gratuit",
+  "exercice en ligne gratuit grande section maternelle",
+  "exercice en ligne maternelle grande section",
+  "exercice en ligne maternelle petite section",
+  "exercice en ligne math grande section",
+  "exercice francais grande section maternelle gratuit à imprimer",
+  "exercice francais maternelle grande section",
+  "exercice francais maternelle moyenne section",
+  "exercice francais moyenne section",
+  "exercice francais moyenne section imprimer",
+  "exercice français ce1 avec corrigé pdf",
+  "exercice français ce2 avec corrigé pdf",
+  "exercice français ce2 avec corrigé pdf gratuit",
+  "exercice français grande section pdf",
+  "exercice geometrie grande section",
+  "exercice grande section se repérer dans l espace",
+  "exercice géométrie maternelle",
+  "exercice géométrie pdf",
+  "exercice math grande section en ligne",
+  "exercice math grande section pdf",
+  "exercice math grande section pdf gratuit",
+  "exercice math maternelle grande section gratuit à imprimer",
+  "exercice math maternelle petite section",
+  "exercice maths maternelle grande section",
+  "exercice maths maternelle moyenne section",
+  "exercice mathématique maternelle pdf",
+  "exercice se repérer dans l espace 3eme pdf",
+  "exercice se repérer dans l'espace maternelle",
+  "exercice soustraction grande section",
+  "exercice soustraction maternelle",
+  "exercice soustraction pdf ce1",
+  "exercice soustraction pdf cp",
+  "exercice trouver l'intrus maternelle",
+  "exercices addition soustraction ce2 pdf",
+  "exercices calcul grande section",
+  "exercices calcul grande section maternelle",
+  "exercices calcul maternelle",
+  "exercices calcul maternelle grande section",
+  "exercices de français grande section à imprimer",
+  "exercices discrimination visuelle ce1",
+  "exercices discrimination visuelle cp",
+  "exercices discrimination visuelle cp imprimer",
+  "exercices dizaines et unités ce2",
+  "exercices en ligne",
+  "exercices en ligne accord participe passé",
+  "exercices en ligne ce1",
+  "exercices en ligne cod coi",
+  "exercices en ligne conjugaison",
+  "exercices en ligne cp",
+  "exercices en ligne cp gratuit",
+  "exercices en ligne cp lecture",
+  "exercices en ligne cp maths",
+  "exercices en ligne figures de style",
+  "exercices en ligne fractions",
+  "exercices en ligne grande section",
+  "exercices en ligne grande section maternelle",
+  "exercices en ligne imparfait",
+  "exercices en ligne maternelle",
+  "exercices en ligne maternelle moyenne section",
+  "exercices en ligne moyenne section",
+  "exercices en ligne passé composé",
+  "exercices en ligne passé simple",
+  "exercices en ligne pour enfants",
+  "exercices fractions 3ème pdf corrigés",
+  "exercices francais cp ce1",
+  "exercices francais cp gratuit à imprimer",
+  "exercices francais maternelle pdf",
+  "exercices français ce1",
+  "exercices français ce1 ce2",
+  "exercices français ce1 conjugaison",
+  "exercices français ce1 en ligne",
+  "exercices français ce1 pdf",
+  "exercices français ce1 à imprimer",
+  "exercices français ce1 à imprimer pdf",
+  "exercices français ce1 à imprimer pdf gratuit",
+  "exercices français ce1d",
+  "exercices français ce2",
+  "exercices français ce2 en ligne",
+  "exercices français ce2 pdf",
+  "exercices français ce2 à imprimer",
+  "exercices français ce2 à imprimer pdf",
+  "exercices français cp",
+  "exercices français cp pdf",
+  "exercices français cp pdf gratuit",
+  "exercices français cp à imprimer",
+  "exercices français cp à imprimer pdf",
+  "exercices français cp à imprimer pdf gratuit",
+  "exercices français cp1",
+  "exercices français cp2",
+  "exercices français grande section",
+  "exercices français grande section maternelle pdf",
+  "exercices français grande section à imprimer pdf",
+  "exercices français maternelle",
+  "exercices français maternelle à imprimer pdf",
+  "exercices lire l'heure cm2 pdf",
+  "exercices mathematique grande section maternelle",
+  "exercices maths ce1",
+  "exercices maths ce1 ce2",
+  "exercices maths ce1 multiplication",
+  "exercices maths ce1 pdf",
+  "exercices maths ce1 période 3",
+  "exercices maths ce1 période 4",
+  "exercices maths ce1 période 5",
+  "exercices maths ce1 à imprimer",
+  "exercices maths ce1 à imprimer pdf",
+  "exercices maths ce1 à imprimer pdf gratuit",
+  "exercices maths ce2",
+  "exercices maths ce2 fractions",
+  "exercices maths ce2 multiplication à imprimer",
+  "exercices maths ce2 pdf",
+  "exercices maths ce2 période 3",
+  "exercices maths ce2 période 4",
+  "exercices maths ce2 période 5",
+  "exercices maths ce2 à imprimer",
+  "exercices maths ce2 à imprimer gratuit",
+  "exercices maths ce2 à imprimer pdf",
+  "exercices maths cp",
+  "exercices maths cp ce1",
+  "exercices maths cp dizaines unités",
+  "exercices maths cp pdf",
+  "exercices maths cp période 3",
+  "exercices maths cp période 4",
+  "exercices maths cp période 5",
+  "exercices maths cp à imprimer",
+  "exercices maths cp à imprimer pdf",
+  "exercices maths cp à imprimer pdf gratuit",
+  "exercices maths grande section",
+  "exercices maths grande section cp",
+  "exercices maths grande section pdf",
+  "exercices maths grande section à imprimer",
+  "exercices maths grande section à imprimer pdf",
+  "exercices maths maternelle",
+  "exercices maths maternelle à imprimer",
+  "exercices mesures ce1 pdf",
+  "exercices mesures ce2 pdf",
+  "exercices mesures cm1 pdf",
+  "exercices mesures cm2 pdf",
+  "exercices numération maternelle",
+  "exercices prépositions anglais pdf",
+  "exercices prépositions ce2",
+  "exercices suites logiques cp",
+  "exercices sur les centaines dizaines et unités ce2",
+  "exercices à imprimer",
+  "exercices à imprimer ce1",
+  "exercices à imprimer ce2",
+  "exercices à imprimer cm1",
+  "exercices à imprimer cm2",
+  "exercices à imprimer cp",
+  "exercices à imprimer grande section",
+  "exercices à imprimer homophones",
+  "exercices à imprimer sur le passé composé",
+  "exercices à imprimer tables de multiplication",
+  "fiche ablution à imprimer gratuit",
+  "fiche accessoires",
+  "fiche activité à imprimer moyenne section",
+  "fiche activités",
+  "fiche activités animation",
+  "fiche activités grande section",
+  "fiche activités moyenne section",
+  "fiche activités numériques ci",
+  "fiche activités numériques cp",
+  "fiche addition ce1",
+  "fiche addition cp a imprimer",
+  "fiche addition grande section",
+  "fiche addition maternelle",
+  "fiche addition posée",
+  "fiche addition posée ce1",
+  "fiche addition posée ce2",
+  "fiche addition posée cp",
+  "fiche animaux de compagnie",
+  "fiche animaux de la ferme",
+  "fiche animaux de la ferme cp",
+  "fiche animaux de la ferme gs",
+  "fiche animaux de la ferme maternelle",
+  "fiche animaux de la ferme ms",
+  "fiche animaux de la ferme pdf",
+  "fiche animaux de la ferme ps",
+  "fiche animaux de la savane maternelle",
+  "fiche animaux en anglais",
+  "fiche animaux maternelle pdf",
+  "fiche animaux pdf",
+  "fiche animaux zoo maternelle",
+  "fiche animaux à imprimer",
+  "fiche appariement",
+  "fiche arbres",
+  "fiche assistante maternelle impot",
+  "fiche camping",
+  "fiche camping car",
+  "fiche camping car 220v",
+  "fiche chasse au trésor",
+  "fiche cluedo à imprimer gratuit",
+  "fiche cluedo à imprimer pdf",
+  "fiche cluedo à imprimer pdf français",
+  "fiche comparer les nombres",
+  "fiche comparer les nombres cp",
+  "fiche comparer les nombres gs",
+  "fiche conscience phonologique",
+  "fiche couleurs anglais",
+  "fiche couleurs anglais cp",
+  "fiche couleurs maternelle",
+  "fiche couleurs ps",
+  "fiche d'écriture cursive maternelle",
+  "fiche d'écriture maternelle",
+  "fiche de calcul ce2",
+  "fiche de calcul ce2 à imprimer",
+  "fiche de calcul cp",
+  "fiche de lecture exemple ce1",
+  "fiche de lecture exemple ce2",
+  "fiche de lecture exemple cp",
+  "fiche de math ce1 a imprimer",
+  "fiche de math cp gratuit a imprimer",
+  "fiche de mathematique cp2 pnapas",
+  "fiche de maths ce1 a imprimer gratuit",
+  "fiche de maths ce1 pdf",
+  "fiche de maths ce2 a imprimer gratuit",
+  "fiche de maths ce2 maitre lucas",
+  "fiche de maths ce2 pdf",
+  "fiche de maths ce2 à imprimer",
+  "fiche de maths cp a imprimer",
+  "fiche de maths cp ce1",
+  "fiche de maths cp pdf",
+  "fiche de maths maternelle",
+  "fiche de mathématiques",
+  "fiche de mathématiques ce1",
+  "fiche de mathématiques ce1 pnapas",
+  "fiche de mathématiques ce2",
+  "fiche de mathématiques cm1",
+  "fiche de mathématiques cm2",
+  "fiche de mathématiques cp",
+  "fiche de mathématiques cp1",
+  "fiche de mathématiques cp2",
+  "fiche de mathématiques cp2 api",
+  "fiche de mathématiques grande section",
+  "fiche de mathématiques à imprimer",
+  "fiche de numération maternelle",
+  "fiche de poste bureau association",
+  "fiche de poste bureau d ordre",
+  "fiche de poste bureau d études",
+  "fiche de poste bureau des admissions",
+  "fiche de poste bureau des entreprises",
+  "fiche de poste bureau des entrées",
+  "fiche de poste bureau des méthodes",
+  "fiche de poste bureau vallee",
+  "fiche de préparation exemple ce2",
+  "fiche de préparation maternelle exemple",
+  "fiche de préparation maths ce1",
+  "fiche de préparation mathématiques ce2",
+  "fiche de préparation mathématiques ce2 pdf",
+  "fiche de préparation se repérer dans l espace ce1",
+  "fiche de revision math ce1d",
+  "fiche de révision maths ce1",
+  "fiche de révision à imprimer brevet",
+  "fiche de travail les vêtements",
+  "fiche de travail maths ce1",
+  "fiche de travail paques",
+  "fiche discrimination visuelle automne",
+  "fiche discrimination visuelle automne ms",
+  "fiche discrimination visuelle cp",
+  "fiche discrimination visuelle grande section",
+  "fiche discrimination visuelle gs",
+  "fiche discrimination visuelle moyenne section",
+  "fiche discrimination visuelle ms",
+  "fiche discrimination visuelle petite section",
+  "fiche discrimination visuelle ps",
+  "fiche dizaines et unités cp",
+  "fiche documentaire animaux de la ferme",
+  "fiche emotions enfant",
+  "fiche espace",
+  "fiche espace architecture",
+  "fiche espace clos",
+  "fiche espace cp",
+  "fiche espace programme",
+  "fiche espace vectoriel",
+  "fiche exercice de math ce1 a imprimer",
+  "fiche fleurs",
+  "fiche fleurs de bach",
+  "fiche fleurs maternelle",
+  "fiche formation",
+  "fiche formes gs",
+  "fiche formes géométriques gs",
+  "fiche formes géométriques ms",
+  "fiche formes maternelle",
+  "fiche formes ms",
+  "fiche formes ps",
+  "fiche fractions ce1",
+  "fiche fractions cm2",
+  "fiche fractions décimales cm1",
+  "fiche francais ce1 a imprimer",
+  "fiche francais ce1 ce2",
+  "fiche francais ce1 pdf",
+  "fiche francais ce2 pdf",
+  "fiche francais cp a imprimer",
+  "fiche francais cp pdf",
+  "fiche francais grande section",
+  "fiche francais grande section maternelle",
+  "fiche francais maternelle",
+  "fiche français ce2",
+  "fiche fruits en anglais",
+  "fiche fruits en anglais cm1",
+  "fiche fruits et légumes",
+  "fiche fruits et légumes de saison",
+  "fiche fruits et légumes maternelle",
+  "fiche fruits maternelle",
+  "fiche geometrie dans l espace terminale",
+  "fiche geometrie dans l'espace",
+  "fiche géométrie ce1",
+  "fiche géométrie ce2",
+  "fiche géométrie cm1",
+  "fiche géométrie cm2",
+  "fiche géométrie grande section",
+  "fiche géométrie maternelle",
+  "fiche hiver",
+  "fiche hiver ce1",
+  "fiche hiver cp",
+  "fiche hiver cp ce1",
+  "fiche hiver maternelle gs",
+  "fiche hiver maternelle ms",
+  "fiche hiver ms",
+  "fiche hiver ps",
+  "fiche identité animaux de la ferme maternelle",
+  "fiche kangourou maternelle",
+  "fiche katamino maternelle",
+  "fiche kilométrique à imprimer pdf",
+  "fiche lecture de l'heure",
+  "fiche lego à imprimer maternelle",
+  "fiche legumes de saison",
+  "fiche legumes diversification",
+  "fiche les parties du corps cp",
+  "fiche les parties du corps humain",
+  "fiche lire l heure cm1",
+  "fiche lire l heure cm2",
+  "fiche logico à imprimer ce2",
+  "fiche logico à imprimer maternelle",
+  "fiche logique ce1",
+  "fiche logique ce2",
+  "fiche logique cp",
+  "fiche logique maternelle",
+  "fiche loto consignation",
+  "fiche loto machine",
+  "fiche loto max",
+  "fiche loto quebec",
+  "fiche loto à imprimer",
+  "fiche légumes maternelle",
+  "fiche légumes à imprimer",
+  "fiche maternelle a imprimer",
+  "fiche maternelle algorithme",
+  "fiche maternelle alphabet",
+  "fiche maternelle alphabet pdf",
+  "fiche maternelle andy warhol",
+  "fiche maternelle animaux",
+  "fiche maternelle animaux de la ferme",
+  "fiche maternelle arbre",
+  "fiche maternelle arc en ciel",
+  "fiche maternelle automne",
+  "fiche maternelle avril",
+  "fiche maternelle bande numérique",
+  "fiche maternelle blanche neige",
+  "fiche maternelle bonhomme de neige",
+  "fiche maternelle bonhomme du mois",
+  "fiche maternelle bonne année 2026",
+  "fiche maternelle bonne fete maman",
+  "fiche maternelle boucle d or",
+  "fiche maternelle boucles",
+  "fiche maternelle com graphisme",
+  "fiche maternelle com lettres alphabet",
+  "fiche maternelle complément à 4",
+  "fiche maternelle complément à 5",
+  "fiche maternelle cp",
+  "fiche maternelle decoupage",
+  "fiche maternelle decoupage collage",
+  "fiche maternelle dedans dehors",
+  "fiche maternelle dinosaure",
+  "fiche maternelle discrimination visuelle",
+  "fiche maternelle domino",
+  "fiche maternelle du plus petit au plus grand",
+  "fiche maternelle décembre",
+  "fiche maternelle décomposer un nombre",
+  "fiche maternelle décomposition",
+  "fiche maternelle dénombrement",
+  "fiche maternelle ecrire les chiffres",
+  "fiche maternelle ecriture chiffre",
+  "fiche maternelle elmer",
+  "fiche maternelle entourer",
+  "fiche maternelle escargot",
+  "fiche maternelle espace",
+  "fiche maternelle evaluation diagnostique",
+  "fiche maternelle fevrier",
+  "fiche maternelle fleur",
+  "fiche maternelle formes",
+  "fiche maternelle formes géométriques",
+  "fiche maternelle fr",
+  "fiche maternelle francais",
+  "fiche maternelle fruits",
+  "fiche maternelle fruits et légumes",
+  "fiche maternelle fête des mères",
+  "fiche maternelle galette des rois",
+  "fiche maternelle grande section pdf",
+  "fiche maternelle grande section à imprimer",
+  "fiche maternelle grande section à imprimer pdf",
+  "fiche maternelle grande section écriture",
+  "fiche maternelle gs maths",
+  "fiche maternelle hiver gs",
+  "fiche maternelle hiver ms",
+  "fiche maternelle hérisson",
+  "fiche maternelle i",
+  "fiche maternelle imprimer",
+  "fiche maternelle jacques et le haricot magique",
+  "fiche maternelle jardin",
+  "fiche maternelle jardinage",
+  "fiche maternelle je suis une fille",
+  "fiche maternelle jeu des maillots",
+  "fiche maternelle jours de la semaine",
+  "fiche maternelle juillet",
+  "fiche maternelle juin",
+  "fiche maternelle juin gs",
+  "fiche maternelle kandinsky",
+  "fiche maternelle keith haring",
+  "fiche maternelle la galette",
+  "fiche maternelle la pomme",
+  "fiche maternelle la rentrée",
+  "fiche maternelle labyrinthe",
+  "fiche maternelle lapin",
+  "fiche maternelle lecture",
+  "fiche maternelle lettre u",
+  "fiche maternelle lettres capitales",
+  "fiche maternelle mars",
+  "fiche maternelle maternelle",
+  "fiche maternelle mois de juin",
+  "fiche maternelle mois de mai",
+  "fiche maternelle mois de mars",
+  "fiche maternelle moyenne section à imprimer",
+  "fiche maternelle moyenne section à imprimer pdf",
+  "fiche maternelle noel gs",
+  "fiche maternelle noel ms",
+  "fiche maternelle nombre",
+  "fiche maternelle nombre 4",
+  "fiche maternelle nombre 6",
+  "fiche maternelle nouvelle année",
+  "fiche maternelle numération 1 2 3",
+  "fiche maternelle o",
+  "fiche maternelle octobre",
+  "fiche maternelle octobre a imprimer",
+  "fiche maternelle oeuf de paques",
+  "fiche maternelle oiseaux",
+  "fiche maternelle ours",
+  "fiche maternelle petite section pdf",
+  "fiche maternelle petite section à imprimer",
+  "fiche maternelle quadrillage",
+  "fiche maternelle ranger du plus petit au plus grand",
+  "fiche maternelle recette galette des rois",
+  "fiche maternelle reconnaissance lettres",
+  "fiche maternelle renard",
+  "fiche maternelle rentrée scolaire",
+  "fiche maternelle représentation du nombre",
+  "fiche maternelle repérage dans l espace",
+  "fiche maternelle rond",
+  "fiche maternelle roule galette",
+  "fiche maternelle saint nicolas",
+  "fiche maternelle saison",
+  "fiche maternelle sapin",
+  "fiche maternelle septembre",
+  "fiche maternelle septembre a imprimer",
+  "fiche maternelle son a",
+  "fiche maternelle son o",
+  "fiche maternelle son u",
+  "fiche maternelle spirale",
+  "fiche maternelle syllabe d attaque",
+  "fiche maternelle syllabes",
+  "fiche maternelle tableau double entrée",
+  "fiche maternelle tangram",
+  "fiche maternelle theme hiver",
+  "fiche maternelle thème printemps",
+  "fiche maternelle tour eiffel",
+  "fiche maternelle toute petite section",
+  "fiche maternelle tps",
+  "fiche maternelle tracer des ronds",
+  "fiche maternelle traits horizontaux",
+  "fiche maternelle traits verticaux",
+  "fiche maternelle u",
+  "fiche maternelle un peu beaucoup",
+  "fiche maternelle vacances",
+  "fiche maternelle vagues",
+  "fiche maternelle vivant non vivant",
+  "fiche maternelle yayoi kusama",
+  "fiche maternelle zoo",
+  "fiche maternelle à imprimer gratuite",
+  "fiche math maternelle a imprimer",
+  "fiche maths maternelle gs",
+  "fiche maths maternelle ms",
+  "fiche maths maternelle pdf",
+  "fiche mathématiques ce1 pnapas",
+  "fiche mathématiques grande section maternelle",
+  "fiche mesures",
+  "fiche mesures bas de contention",
+  "fiche mesures ce2",
+  "fiche mesures cp",
+  "fiche mesures de longueurs ce2",
+  "fiche mesures de longueurs cm1",
+  "fiche mesures manchon radiante",
+  "fiche mesures radiante",
+  "fiche mesures tension",
+  "fiche meteo maternelle",
+  "fiche metiers pole emploi",
+  "fiche mots croisés ce1",
+  "fiche mots croisés cm2",
+  "fiche mots croisés gs",
+  "fiche mots croisés imparfait ce1",
+  "fiche mots meles",
+  "fiche mots meles ce1",
+  "fiche musique ce2",
+  "fiche musique cm2",
+  "fiche musique cp",
+  "fiche musique crpe",
+  "fiche musique cycle 2",
+  "fiche musique cycle 3",
+  "fiche musique maternelle",
+  "fiche musique pdf",
+  "fiche météo en anglais",
+  "fiche météo projet",
+  "fiche noel cp",
+  "fiche noel petite section",
+  "fiche noel ps",
+  "fiche numération maternelle ps",
+  "fiche oiseaux des jardins",
+  "fiche oiseaux des jardins lpo",
+  "fiche oiseaux des jardins pdf",
+  "fiche oiseaux lpo",
+  "fiche oiseaux maternelle",
+  "fiche oiseaux pdf",
+  "fiche outils français",
+  "fiche outils mathématiques cycle 3",
+  "fiche paques gs",
+  "fiche paques ms",
+  "fiche paques petite section",
+  "fiche paques ps",
+  "fiche parties du corps maternelle",
+  "fiche petit dejeuner",
+  "fiche petit dejeuner enfant",
+  "fiche petit dejeuner hotel",
+  "fiche petit dejeuner room service",
+  "fiche petit déjeuner ehpad",
+  "fiche petit déjeuner équilibré",
+  "fiche petit déjeuner équilibré maternelle",
+  "fiche premier secours à imprimer enfant",
+  "fiche prepositions",
+  "fiche prepositions de lieu",
+  "fiche printemps ce1",
+  "fiche printemps cp",
+  "fiche printemps maternelle ps",
+  "fiche printemps moyenne section",
+  "fiche printemps ms gs",
+  "fiche prépositions anglais",
+  "fiche pédagogique de mathématiques ce2",
+  "fiche recette à imprimer gratuit",
+  "fiche repérage dans l espace cp",
+  "fiche repérage dans l espace maternelle",
+  "fiche repérage dans l'espace ce1",
+  "fiche révision brevet à imprimer emc",
+  "fiche révision brevet à imprimer français",
+  "fiche révision brevet à imprimer histoire",
+  "fiche révision brevet à imprimer histoire géographie",
+  "fiche révision brevet à imprimer sciences",
+  "fiche révision brevet à imprimer svt",
+  "fiche révision brevet à imprimer technologie",
+  "fiche sciences ce1",
+  "fiche sciences ce2",
+  "fiche sciences ce2 imprimer",
+  "fiche sciences ce2 pdf",
+  "fiche sciences cp",
+  "fiche sciences maternelle",
+  "fiche se repérer dans l espace ce1",
+  "fiche se repérer dans l espace cp",
+  "fiche se repérer dans l espace maternelle",
+  "fiche se repérer dans l'espace",
+  "fiche soustraction avec retenue ce1",
+  "fiche soustraction cm1",
+  "fiche soustraction cp à imprimer",
+  "fiche soustraction maternelle",
+  "fiche soustraction posée",
+  "fiche soustraction posée ce1",
+  "fiche soustraction posée ce2",
+  "fiche sur les parties du corps en anglais",
+  "fiche tableau des nombres ce1",
+  "fiche technique chasse au trésor",
+  "fiche technique nettoyage salle de classe",
+  "fiche urgence maternelle",
+  "fiche ustensiles de cuisine",
+  "fiche vetements espagnol",
+  "fiche vetements fle",
+  "fiche vidange à imprimer pdf",
+  "fiche vidange à imprimer pdf gratuit",
+  "fiche vocabulaire parties du corps",
+  "fiche vêtements en anglais",
+  "fiche vêtements maternelle",
+  "fiche yoga maternelle",
+  "fiche yoga maternelle pdf",
+  "fiche à imprimer",
+  "fiche à imprimer ce2",
+  "fiche à imprimer cm2",
+  "fiche à imprimer de maths",
+  "fiche à imprimer grande section",
+  "fiche à imprimer pour apprendre l heure",
+  "fiche à imprimer qui est ce",
+  "fiche à imprimer table de multiplication",
+  "fiche à imprimer écriture cursive",
+  "fiche écriture maternelle à imprimer",
+  "fiche émotions anglais",
+  "fiche émotions cp",
+  "fiche émotions gs",
+  "fiche émotions maternelle",
+  "fiche émotions à imprimer",
+  "fiche été",
+  "fiche été cp",
+  "fiche été gs",
+  "fiche été maternelle",
+  "fiche été moyenne section",
+  "fiche été ms",
+  "ficheben formation",
+  "fiches abaques à imprimer",
+  "fiches abaques à imprimer gs",
+  "fiches abaques à imprimer ms",
+  "fiches abaques à imprimer nathan",
+  "fiches abaques à imprimer ps",
+  "fiches activités classe de neige",
+  "fiches activités cp",
+  "fiches activités enfants",
+  "fiches activités maternelle",
+  "fiches animaux à imprimer",
+  "fiches apprentissage corps humain à imprimer",
+  "fiches budget à imprimer gratuit",
+  "fiches cm1 à imprimer maths",
+  "fiches cp à imprimer gratuit",
+  "fiches cp à imprimer pdf",
+  "fiches d exercices circuler à bicyclette",
+  "fiches d exercices cm2",
+  "fiches d exercices cp",
+  "fiches d exercices de maths cp à imprimer",
+  "fiches d exercices différenciées taoki",
+  "fiches d exercices pour cp a imprimer",
+  "fiches d exercices sur les tables de multiplication",
+  "fiches d exercices taoki",
+  "fiches d écriture à imprimer",
+  "fiches d'exercices",
+  "fiches d'exercices de maths",
+  "fiches d'écriture à imprimer",
+  "fiches de conjugaison à imprimer",
+  "fiches de divisions à imprimer",
+  "fiches de graphisme à imprimer",
+  "fiches de lecture à imprimer",
+  "fiches de multiplications à imprimer",
+  "fiches dinosaures maternelle",
+  "fiches exercices ce1 à imprimer",
+  "fiches exercices cm1 à imprimer",
+  "fiches exercices cm2 à imprimer",
+  "fiches exercices cp à imprimer",
+  "fiches fle à imprimer",
+  "fiches fleurs pdf",
+  "fiches généalogiques à imprimer gratuitement",
+  "fiches kapla maternelle",
+  "fiches legumes potager",
+  "fiches lexidata à imprimer",
+  "fiches logico gs à imprimer",
+  "fiches logico maternelle à télécharger",
+  "fiches logico à imprimer",
+  "fiches logico à imprimer cp",
+  "fiches maternelle",
+  "fiches maternelle bonne année",
+  "fiches maternelle boucle d or et les trois ours",
+  "fiches maternelle calendrier",
+  "fiches maternelle carnaval",
+  "fiches maternelle chiffres",
+  "fiches maternelle cirque",
+  "fiches maternelle coccinelle",
+  "fiches maternelle com",
+  "fiches maternelle ete",
+  "fiches maternelle ferme",
+  "fiches maternelle galette",
+  "fiches maternelle grande section",
+  "fiches maternelle graphisme",
+  "fiches maternelle gratuites",
+  "fiches maternelle gs",
+  "fiches maternelle halloween",
+  "fiches maternelle hansel et gretel",
+  "fiches maternelle hiver",
+  "fiches maternelle insectes",
+  "fiches maternelle janvier",
+  "fiches maternelle lettres",
+  "fiches maternelle mai",
+  "fiches maternelle maths",
+  "fiches maternelle moyenne section",
+  "fiches maternelle ms",
+  "fiches maternelle noel",
+  "fiches maternelle novembre",
+  "fiches maternelle numération",
+  "fiches maternelle paques",
+  "fiches maternelle pdf",
+  "fiches maternelle petite section",
+  "fiches maternelle phonologie",
+  "fiches maternelle poisson arc en ciel",
+  "fiches maternelle printemps",
+  "fiches maternelle ps",
+  "fiches maternelle rentrée",
+  "fiches maternelle à imprimer",
+  "fiches maternelle été",
+  "fiches maternelles graphisme",
+  "fiches mathématiques cp à imprimer",
+  "fiches mathématiques maternelle à imprimer",
+  "fiches métiers apec",
+  "fiches métiers cidj",
+  "fiches métiers cnfpt",
+  "fiches métiers france travail",
+  "fiches métiers onisep",
+  "fiches métiers rome",
+  "fiches métiers siep",
+  "fiches outils achats responsables",
+  "fiches outils achats éco responsables",
+  "fiches outils aménagements raisonnables",
+  "fiches outils dae",
+  "fiches outils dgitm",
+  "fiches recettes vierges à imprimer",
+  "fiches recettes à imprimer",
+  "fiches réglettes cuisenaire à imprimer",
+  "fiches sons cp à imprimer pdf bout de gomme",
+  "fiches sons cp à imprimer taoki",
+  "fiches sons à imprimer",
+  "fiches sons à imprimer pdf",
+  "fiches syllabes à imprimer",
+  "fiches tangram à imprimer",
+  "fiches veritech ce1 à imprimer",
+  "fiches veritech à imprimer",
+  "fiches veritech à imprimer ce2",
+  "fiches veritech à imprimer cp",
+  "fiches veritech à imprimer cycle 2",
+  "fiches vocabulaire maternelle",
+  "fiches yahtzee imprimer",
+  "fiches yams à imprimer",
+  "fiches yoga à imprimer",
+  "fiches à imprimer ce1",
+  "fiches à imprimer cm1",
+  "fiches à imprimer cp",
+  "fiches à imprimer maternelle",
+  "fiches à imprimer moyenne section",
+  "fiches à imprimer petite section",
+  "fiches écriture cp à imprimer",
+  "fiches éducatives à imprimer",
+  "fichet fruits allonne",
+  "fichier d'impression",
+  "fichier impression bambulab",
+  "fichier impression etiquettes",
+  "fichier impression resine",
+  "fichier impression stickers",
+  "fichier impression stl",
+  "fichier impression.dtf",
+  "fichier maternelle gs",
+  "fichier maternelle pdf",
+  "fichier à imprimer",
+  "fichier à imprimer en 3d",
+  "fichier à imprimer gs",
+  "fichier à imprimer moyenne section",
+  "fichier à photocopier mhm cm1",
+  "fichier à photocopier tandem",
+  "fichier à photocopier vivre les maths ce1",
+  "fichier à photocopier vivre les maths cp",
+  "fichier à photocopier vivre les maths cp 2025",
+  "flan de légumes fiche technique",
+  "fleuriste fiche de poste",
+  "fleuriste fiche métier",
+  "fleuriste fiche rome",
+  "fleuriste fichera franconville",
+  "formation fiche de paie",
+  "formation ficheben",
+  "forme geometrique grande section maternelle",
+  "forme géométrique grande section",
+  "fraction addition soustraction exercices pdf",
+  "fractions",
+  "fractions 5ème exercices pdf",
+  "fractions ce1",
+  "fractions ce1 bout de gomme",
+  "fractions ce1 ce2",
+  "fractions ce1 ce2 exercices",
+  "fractions ce1 exercices",
+  "fractions ce1 leçon",
+  "fractions ce1 maitre lucas",
+  "fractions ce1 pdf",
+  "fractions ce1 séquence",
+  "fractions ce1 évaluation",
+  "fractions ce2",
+  "fractions ce2 exercices",
+  "fractions ce2 exercices pdf",
+  "fractions ce2 leçon",
+  "fractions ce2 maitre lucas",
+  "fractions ce2 mhm",
+  "fractions ce2 nouveaux programmes",
+  "fractions ce2 pdf",
+  "fractions ce2 à imprimer",
+  "fractions ce2 évaluation",
+  "fractions cm1",
+  "fractions cm2",
+  "fractions cp",
+  "fractions cp ce1",
+  "fractions cp exercices",
+  "fractions cp maitre lucas",
+  "fractions cp nouveaux programmes",
+  "fractions décimales",
+  "fractions décimales cm1",
+  "fractions exercices",
+  "fractions exercices pdf",
+  "fractions exercices pdf ce2",
+  "fractions fiche",
+  "fractions fiche ce2",
+  "fractions fiche cm1",
+  "fractions fiche de revision",
+  "fractions maternelle",
+  "fractions équivalentes",
+  "francais ce1 fiche",
+  "français cp fiche",
+  "frise géométrique grande section",
+  "fruit fiche nutritionnelle",
+  "fruits et légumes fiches pédagogiques",
+  "fruits fiche",
+  "geometrie grande section maternelle",
+  "geometry dash",
+  "geometry dash lite",
+  "grammaire ce1 fiche",
+  "grammaire ce2 fiche",
+  "grand moyen petit maternelle",
+  "grand ou petit",
+  "grand ou petit anne sylvestre",
+  "grand ou petit capricorne",
+  "grand ou petit carrelage pour petite piece",
+  "grand ou petit cousin",
+  "grand ou petit il s'agit des cartes en mains",
+  "grand ou petit plateau velo",
+  "grand ou petit verre pour le vin",
+  "grand ou petit à versailles",
+  "grand ou petit épeautre",
+  "grand petit maternelle",
+  "grandeurs et mesures grande section",
+  "grandeurs et mesures maternelle",
+  "grille des nombres ce1",
+  "géographie 3ème exercices pdf",
+  "géographie 6ème exercices pdf",
+  "géographie maternelle",
+  "géographie maternelle montessori",
+  "géomètre fiche métier",
+  "géométrie",
+  "géométrie analytique",
+  "géométrie ce1",
+  "géométrie ce1 autonomie",
+  "géométrie ce1 bout de gomme",
+  "géométrie ce1 ce2",
+  "géométrie ce1 exercices",
+  "géométrie ce1 pdf",
+  "géométrie ce1 période 5",
+  "géométrie ce1 reproduction sur quadrillage",
+  "géométrie ce1 symétrie",
+  "géométrie ce1 à imprimer",
+  "géométrie ce2",
+  "géométrie ce2 bout de gomme",
+  "géométrie ce2 cm1",
+  "géométrie ce2 exercices",
+  "géométrie ce2 exercices pdf",
+  "géométrie ce2 leçon",
+  "géométrie ce2 pdf",
+  "géométrie ce2 programme",
+  "géométrie ce2 programme de construction",
+  "géométrie ce2 symétrie",
+  "géométrie ce2 à imprimer",
+  "géométrie cm1 exercices pdf",
+  "géométrie cm2 exercices pdf",
+  "géométrie cp",
+  "géométrie cp bout de gomme",
+  "géométrie cp ce1",
+  "géométrie cp exercices",
+  "géométrie cp pdf",
+  "géométrie cp programme",
+  "géométrie cp période 1",
+  "géométrie cp période 5",
+  "géométrie cp tracer à la règle",
+  "géométrie cp à imprimer",
+  "géométrie dans l'espace",
+  "géométrie dash lite",
+  "géométrie euclidienne",
+  "géométrie exercices corrigés",
+  "géométrie exercices corrigés pdf",
+  "géométrie fiche",
+  "géométrie fiche cp",
+  "géométrie fiche de revision",
+  "géométrie grande section",
+  "géométrie maternelle",
+  "géométrie maternelle eduscol",
+  "géométrie maternelle grande section",
+  "géométrie moyenne section",
+  "géométrie plane exercices pdf",
+  "géométrie sacrée",
+  "géométrie voiture",
+  "géométrie voiture prix",
+  "hiver fiche gs",
+  "hiver fiche maternelle",
+  "hopital fiche",
+  "hopital fiche de paie",
+  "identification fiche oiseaux des jardins",
+  "jeu addition maternelle",
+  "jeu addition soustraction maternelle",
+  "jeu comparer les nombres cp",
+  "jeu connaissance des lettres gs",
+  "jeu conscience phonologique maternelle",
+  "jeu d appariement maternelle",
+  "jeu de 'l'intrus cp",
+  "jeu de l'intrus maternelle",
+  "jeu de loto grande section",
+  "jeu dizaine et unité ce1",
+  "jeu fiche s",
+  "jeu fiche wikipedia",
+  "jeu géométrie maternelle",
+  "jeu interactif en ligne maternelle",
+  "jeu loto ce1",
+  "jeu plus ou moins maternelle",
+  "jeu se repérer dans l espace maternelle",
+  "jeu soustraction maternelle",
+  "jeux conscience phonologique cp",
+  "jeux de logique visuelle",
+  "jeux educatifs en ligne enfants 6 ans",
+  "jeux educatifs en ligne grande section",
+  "jeux educatifs en ligne grande section maternelle",
+  "jeux educatifs en maternelle",
+  "jeux enfant cp en ligne",
+  "jeux enfant maternelle en ligne",
+  "jeux fiche",
+  "jeux fichier psp",
+  "jeux éducatif en ligne maternelle gratuit",
+  "jeux éducatifs en ligne",
+  "jeux éducatifs en ligne ce1",
+  "jeux éducatifs en ligne ce2",
+  "jeux éducatifs en ligne cm2",
+  "jeux éducatifs en ligne cp",
+  "jeux éducatifs en ligne cp ce1 ce2 cm1 cm2",
+  "jeux éducatifs en ligne enfants",
+  "jeux éducatifs en ligne gratuit",
+  "jeux éducatifs en ligne gratuit 3 ans",
+  "jeux éducatifs en ligne gratuit cm2",
+  "jeux éducatifs en ligne gratuit cp",
+  "jeux éducatifs en ligne gratuit français",
+  "jeux éducatifs en ligne gratuit grande section",
+  "jeux éducatifs en ligne gratuits école primaire cp ce1 maternelle gs",
+  "jeux éducatifs en ligne maternelle",
+  "jeux éducatifs en ligne maternelle grande section",
+  "jeux éducatifs en ligne maternelle petite section",
+  "jeux éducatifs en ligne moyenne section",
+  "l intrus ce1",
+  "l intrus claude boujon ce1",
+  "l intrus claude boujon maternelle",
+  "l intrus cp",
+  "l'intrus",
+  "l'intrus claude boujon cp",
+  "l'intrus maternelle",
+  "l'intruse",
+  "l'intruse freida",
+  "l'intruse freida mcfadden",
+  "l'intruse freida mcfadden date de sortie",
+  "l'intruse livre",
+  "l'intruse mcfadden",
+  "l'intruse serie",
+  "l'intrusion",
+  "l'intrusion film",
+  "la salle de classe fiche de travail",
+  "langage en grande section",
+  "langage image maternelle",
+  "le fait divers fiche pédagogique",
+  "le fait divers fiche pédagogique 1as",
+  "le train de l'alphabet maternelle",
+  "legumes fiche",
+  "les animaux de la ferme fiche pedagogique",
+  "les animaux du zoo fiche",
+  "les dinosaures fiches pédagogiques",
+  "les dizaines et les unités exercices pdf",
+  "les dizaines et les unités exercices pdf ce1",
+  "les dizaines et les unités exercices pdf ce2",
+  "les dizaines et les unités exercices pdf cp",
+  "les fractions exercices pdf ce1",
+  "les fractions exercices pdf cm1",
+  "les fractions exercices pdf cm2",
+  "les mesures agraires exercices pdf",
+  "les meubles fiche de travail",
+  "les paques fiche de travail",
+  "les parties du corps fiche de travail",
+  "les parties du corps fiche fle",
+  "les parties du corps fiche pedagogique",
+  "les parties du corps humain fiche de travail",
+  "les prépositions ce2 pdf",
+  "les unités et les dizaines cp exercices pdf avec corrections",
+  "les vetements fiche pdf",
+  "les vetements fiche pédagogique",
+  "les vetements fiches",
+  "lettres mélangées",
+  "lettres mélangées ce1",
+  "lettres mélangées cp",
+  "lettres mélangées en anglais",
+  "lettres mélangées gs",
+  "lettres mélangées jeu",
+  "lettres mélangées pour former un mot",
+  "lettres mélangées scrabble",
+  "lettres mélangées solution",
+  "lettres mélangées trouver un mot",
+  "lettres mélangées à imprimer",
+  "leçon dizaines et unités ce1",
+  "leçon dizaines et unités cp",
+  "leçon droite numérique ce2",
+  "leçon les prépositions ce2",
+  "leçon tableau des nombres ce1",
+  "ligne numérique ce1",
+  "ligne numérique ce2",
+  "ligne numérique cp",
+  "ligne numérique maternelle",
+  "lire l heure cp en ligne",
+  "lire l heure cp exercices pdf",
+  "lire l heure en anglais exercices pdf",
+  "lire l heure exercices pdf ce1",
+  "lire l heure fiche ce1",
+  "lire l heure fiche ce2",
+  "lire l heure fiche cp",
+  "lire l heure fiche exercice",
+  "lire l heure maternelle",
+  "lire l'heure",
+  "lire l'heure ce1",
+  "lire l'heure ce1 ce2",
+  "lire l'heure ce1 en ligne",
+  "lire l'heure ce1 exercices",
+  "lire l'heure ce1 exercices pdf",
+  "lire l'heure ce1 exercices pdf bout de gomme",
+  "lire l'heure ce1 leçon",
+  "lire l'heure ce1 maitre lucas",
+  "lire l'heure ce1 pdf",
+  "lire l'heure ce1 évaluation",
+  "lire l'heure ce2",
+  "lire l'heure ce2 cm1",
+  "lire l'heure ce2 exercices",
+  "lire l'heure ce2 exercices pdf",
+  "lire l'heure ce2 la classe bleue",
+  "lire l'heure ce2 leçon",
+  "lire l'heure ce2 lutin bazar",
+  "lire l'heure ce2 maitre lucas",
+  "lire l'heure ce2 pdf",
+  "lire l'heure ce2 évaluation",
+  "lire l'heure cm1",
+  "lire l'heure cm1 exercices pdf",
+  "lire l'heure cp",
+  "lire l'heure cp ce1",
+  "lire l'heure cp ce1 maitre lucas",
+  "lire l'heure cp exercices",
+  "lire l'heure cp leçon",
+  "lire l'heure cp logiciel",
+  "lire l'heure cp maitre lucas",
+  "lire l'heure cp pdf",
+  "lire l'heure en allemand exercices pdf",
+  "lire l'heure en anglais",
+  "lire l'heure exercices",
+  "lire l'heure exercices pdf",
+  "lire l'heure fiche",
+  "lire l'heure maitre lucas",
+  "lire l'heure sur une horloge",
+  "logique integrative visuelle",
+  "logique visuelle",
+  "loto",
+  "loto bonheur",
+  "loto ce soir",
+  "loto ce1",
+  "loto ce2",
+  "loto conjugaison ce1",
+  "loto conjugaison ce2",
+  "loto cp",
+  "loto cp ce1",
+  "loto cp lecture",
+  "loto cp à imprimer",
+  "loto cpam",
+  "loto cpam 2026",
+  "loto cpam marseille",
+  "loto de noel grande section",
+  "loto des formes grande section",
+  "loto des fractions ce2",
+  "loto des heures ce2",
+  "loto des lettres grande section",
+  "loto des nombres grande section",
+  "loto des sons grande section",
+  "loto des syllabes grande section",
+  "loto fdj",
+  "loto fiche",
+  "loto foot",
+  "loto fractions ce1",
+  "loto grande section",
+  "loto lecture ce1",
+  "loto maternelle",
+  "loto maternelle animaux",
+  "loto maternelle chiffre",
+  "loto maternelle hiver",
+  "loto maternelle moustache",
+  "loto maternelle pdf",
+  "loto maternelle ps",
+  "loto maternelle à imprimer",
+  "loto maths ce1",
+  "loto max",
+  "loto mercredi",
+  "loto moyenne section",
+  "loto multiplication ce1",
+  "loto multiplication ce2",
+  "loto nombre ce1",
+  "loto nombres ce2",
+  "loto numération ce1",
+  "loto numération ce2",
+  "loto quebec",
+  "loto resultat",
+  "loto samedi",
+  "loto sonore grande section",
+  "légumes glacés fiche technique",
+  "ma salle de classe fiche de travail",
+  "macron hopital fiche de paie",
+  "maitre lucas lire l heure fiche",
+  "matching exercise pdf",
+  "maternelle loto des lettres",
+  "maternelle loto sonore",
+  "maternelle se situer dans l'espace exercices pdf",
+  "math cp",
+  "math cp exercice",
+  "math cp pdf",
+  "math cp à imprimer",
+  "math cpge",
+  "math fiche",
+  "math fiche de revision",
+  "math fiche de revision brevet",
+  "math grande section",
+  "math grande section a imprimer",
+  "math grande section maternelle",
+  "math grande section maternelle gratuit en ligne",
+  "math grande section pdf",
+  "math maternelle",
+  "math maternelle grande section",
+  "math maternelle moyenne section",
+  "math maternelle noel",
+  "math maternelle pdf",
+  "math maternelle petite section",
+  "math moyenne section",
+  "math moyenne section imprimer",
+  "math moyenne section pdf",
+  "maths ce1 fiche",
+  "maths ce2 fiche",
+  "maths ce2 fiches exercices",
+  "maths fiche maternelle",
+  "maths grande section fiche",
+  "mathématiques cp fiche",
+  "mathématiques dizaines et unités cp",
+  "mesure ce1 evaluation",
+  "mesure ce1 maitre lucas",
+  "mesure ce1 pdf",
+  "mesure ce2 evaluation",
+  "mesure ce2 leçon",
+  "mesure cp exercices",
+  "mesure cpe",
+  "mesure cpk",
+  "mesure fiche bristol",
+  "mesure grande section",
+  "mesure maternelle 4 ans",
+  "mesures",
+  "mesures agraires",
+  "mesures bas de contention",
+  "mesures ce1",
+  "mesures ce1 bout de gomme",
+  "mesures ce1 ce2",
+  "mesures ce1 cm m km",
+  "mesures ce1 exercices",
+  "mesures ce1 lutin bazar",
+  "mesures ce2",
+  "mesures ce2 bout de gomme",
+  "mesures ce2 cm1",
+  "mesures ce2 exercices",
+  "mesures ce2 longueurs",
+  "mesures ce2 lutin bazar",
+  "mesures ce2 maitre lucas",
+  "mesures ce2 pdf",
+  "mesures chaussettes de contention",
+  "mesures coercitives",
+  "mesures conservatoires",
+  "mesures conservatoires def",
+  "mesures cp",
+  "mesures cp ce1",
+  "mesures cp ipotame",
+  "mesures cpam",
+  "mesures de capacité cm1 exercices pdf",
+  "mesures en anglais",
+  "mesures individuelles conseil des ministres",
+  "mesures maternelle",
+  "mesures soutien gorge",
+  "mesures électriques exercices corrigés pdf",
+  "meteo fiche",
+  "meteo ficheux 62",
+  "metiers fiche",
+  "metro fiche de paie",
+  "metro fiche haccp",
+  "metro fiche hygiene",
+  "metro fiche technique",
+  "meuble fiche",
+  "meuble fiche bibliotheque",
+  "mixed prepositions exercises pdf with answers",
+  "mot en grande section",
+  "mot image grande section",
+  "mots cachés grande section",
+  "mots cachés maternelle",
+  "mots cachés maternelle à imprimer",
+  "mots croisés",
+  "mots croisés ce1",
+  "mots croisés ce1 autonomie",
+  "mots croisés ce1 ce2",
+  "mots croisés ce1 conjugaison",
+  "mots croisés ce1 en ligne",
+  "mots croisés ce1 noel",
+  "mots croisés ce1 pdf",
+  "mots croisés ce1 sons",
+  "mots croisés ce1 à imprimer",
+  "mots croisés ce1 à imprimer pdf",
+  "mots croisés ce2",
+  "mots croisés ce2 autonomie",
+  "mots croisés ce2 cm1",
+  "mots croisés ce2 conjugaison",
+  "mots croisés ce2 en ligne",
+  "mots croisés ce2 futur",
+  "mots croisés ce2 pdf",
+  "mots croisés ce2 vocabulaire",
+  "mots croisés ce2 à imprimer",
+  "mots croisés ce2 à imprimer pdf",
+  "mots croisés cp",
+  "mots croisés cp ce1",
+  "mots croisés cp oin",
+  "mots croisés cp pdf",
+  "mots croisés cp piano",
+  "mots croisés cp pilotis",
+  "mots croisés cp printemps",
+  "mots croisés cp sons",
+  "mots croisés cp à imprimer",
+  "mots croisés cp à imprimer pdf",
+  "mots croisés en ligne",
+  "mots croisés exercices et corrigés",
+  "mots croisés faciles",
+  "mots croisés fiche",
+  "mots croisés france info",
+  "mots croisés grande section",
+  "mots croisés grande section maternelle",
+  "mots croisés grande section pdf",
+  "mots croisés grande section à imprimer",
+  "mots croisés gratuits",
+  "mots croisés la croix",
+  "mots croisés le devoir",
+  "mots croisés le parisien",
+  "mots croisés maternelle",
+  "mots croisés maternelle grande section à imprimer",
+  "mots croisés maternelle gs",
+  "mots croisés maternelle hiver",
+  "mots croisés maternelle noel",
+  "mots croisés maternelle pdf",
+  "mots croisés maternelle printemps",
+  "mots croisés maternelle à imprimer",
+  "mots croisés moyenne section",
+  "mots croisés moyenne section à imprimer",
+  "mots croisés notre temps",
+  "mots croisés solutions",
+  "mots en images",
+  "mots fléchés grande section",
+  "mots fléchés grande section à imprimer",
+  "mots fléchés maternelle",
+  "mots fléchés maternelle à imprimer",
+  "mots images cp",
+  "mots images maternelle",
+  "mots meles ce1 ce2 à imprimer",
+  "mots meles ce1 gratuits à imprimer",
+  "mots meles ce1 pdf",
+  "mots meles ce2 autonomie",
+  "mots meles cp gratuits à imprimer",
+  "mots meles cp noel",
+  "mots meles grille",
+  "mots meles grille gratuite",
+  "mots meles maternelle",
+  "mots meles moyenne section",
+  "mots mélés ce1",
+  "mots mélés ce1 noel",
+  "mots mélés ce2 noel",
+  "mots mélés cp",
+  "mots mélés grande section",
+  "mots mêlés",
+  "mots mêlés - jeu de mots",
+  "mots mêlés ce1 bout de gomme",
+  "mots mêlés ce1 ce2",
+  "mots mêlés ce1 en ligne",
+  "mots mêlés ce1 à imprimer",
+  "mots mêlés ce1 à imprimer pdf",
+  "mots mêlés ce2",
+  "mots mêlés ce2 cm1",
+  "mots mêlés ce2 en ligne",
+  "mots mêlés ce2 gratuits à imprimer",
+  "mots mêlés ce2 pdf",
+  "mots mêlés ce2 rentrée",
+  "mots mêlés ce2 à imprimer",
+  "mots mêlés ce2 à imprimer pdf",
+  "mots mêlés cp bout de gomme",
+  "mots mêlés cp ce1",
+  "mots mêlés cp en ligne",
+  "mots mêlés cp pdf",
+  "mots mêlés cp taoki",
+  "mots mêlés cp à imprimer",
+  "mots mêlés cp à imprimer pdf",
+  "mots mêlés enfant à imprimer",
+  "mots mêlés grande section",
+  "mots mêlés grande section à imprimer",
+  "mots mêlés gratuit",
+  "mots mêlés générateur",
+  "mots mêlés maternelle",
+  "mots mêlés maternelle grande section",
+  "mots mêlés maternelle à imprimer",
+  "mots mêlés à imprimer",
+  "mots mêlés à imprimer adulte",
+  "mots mêlés à imprimer gratuit",
+  "mots mêlés à imprimer pdf",
+  "mots mêlés à imprimer pour personnes âgées",
+  "musique fiche",
+  "musique fiche le camp jack",
+  "météo ficheux",
+  "noel fiche",
+  "noel fiche fle",
+  "noel fiche gs",
+  "noel fiche maternelle",
+  "noel fiche ms",
+  "noel fiche pedagogique",
+  "noel fichet",
+  "nouvelle fiche loto max",
+  "numération maternelle fiche",
+  "oiseaux fisher",
+  "opérations sur les fractions exercices pdf",
+  "outils fiche",
+  "outils fiche de paie",
+  "outils fiche de révision",
+  "paques fiche",
+  "paques fiche maternelle",
+  "paques fiches pedagogiques",
+  "parties du corps fiche",
+  "pepit exercices maternelle francais mots page",
+  "pièces détachées adoucisseur cped",
+  "pièces détachées serrure fichet",
+  "pièces manquantes",
+  "pièces manquantes ikea",
+  "pièces manquantes jeux de société",
+  "pièces manquantes lego",
+  "pièces manquantes playmobil",
+  "pièces manquantes puzzle",
+  "pièces manquantes puzzle ravensburger",
+  "plus grand ou plus petit cp",
+  "plus grand plus petit ou égal exercices pdf",
+  "plus ou moins",
+  "plus ou moins bien disposé",
+  "plus ou moins clavier",
+  "plus ou moins cp",
+  "plus ou moins définition",
+  "plus ou moins en anglais",
+  "plus ou moins en arabe",
+  "plus ou moins latex",
+  "plus ou moins maternelle",
+  "plus ou moins signe",
+  "plus ou moins symbole",
+  "plus ou moins synonyme",
+  "plus ou moins value cpt",
+  "plus ou moins value latente cpt",
+  "preparer une chasse au tresor halloween cp",
+  "prepositions exercises pdf",
+  "prepositions maternelle",
+  "printemps fiche",
+  "printemps fiche gs",
+  "printemps fiche maternelle",
+  "printemps fiche ms",
+  "printemps fiche ps",
+  "programme géométrie maternelle",
+  "progression conscience phonologique maternelle",
+  "préposition cp",
+  "prépositions",
+  "prépositions allemand",
+  "prépositions anglais liste",
+  "prépositions ce1",
+  "prépositions ce2",
+  "prépositions de lieu",
+  "prépositions de lieu en anglais",
+  "prépositions de lieu en espagnol",
+  "prépositions de lieu exercices pdf",
+  "prépositions de lieu maternelle",
+  "prépositions en anglais",
+  "prépositions en espagnol",
+  "prépositions exercices pdf",
+  "prépositions français",
+  "prépositions français exercices pdf",
+  "prépositions liste",
+  "prépositions pays villes exercices pdf",
+  "prépositions spatiales cp",
+  "prépositions spatiales maternelle",
+  "puzzle calcul cp",
+  "puzzle maths ce1",
+  "puzzle mathématique",
+  "puzzle mathématique cp",
+  "puzzle mathématique gratuit",
+  "puzzle mathématique gratuit en ligne",
+  "puzzle mathématiques maternelle",
+  "puzzle mathématiques à imprimer",
+  "puzzle numération maternelle",
+  "quicksilver 650 camping fiche technique",
+  "repérage dans l espace grande section",
+  "responsable petit déjeuner fiche de poste",
+  "réceptionniste camping fiche métier",
+  "se reperer dans l'espace enfant",
+  "se repérer dans l espace ce1 exercices",
+  "se repérer dans l espace ce1 exercices pdf",
+  "se repérer dans l espace ce1 exercices à imprimer",
+  "se repérer dans l espace ce2 cm1",
+  "se repérer dans l espace ce2 maths",
+  "se repérer dans l espace ce2 évaluation",
+  "se repérer dans l espace cp bout de gomme",
+  "se repérer dans l espace cp maitre lucas",
+  "se repérer dans l espace grande section",
+  "se repérer dans l espace maternelle domaine",
+  "se repérer dans l espace moyenne section",
+  "se repérer dans l'espace",
+  "se repérer dans l'espace 4eme",
+  "se repérer dans l'espace ce1",
+  "se repérer dans l'espace ce1 bout de gomme",
+  "se repérer dans l'espace ce1 ce2",
+  "se repérer dans l'espace ce1 evaluation",
+  "se repérer dans l'espace ce1 lutin bazar",
+  "se repérer dans l'espace ce1 pdf",
+  "se repérer dans l'espace ce1 qlm",
+  "se repérer dans l'espace ce2",
+  "se repérer dans l'espace ce2 bout de gomme",
+  "se repérer dans l'espace ce2 exercices",
+  "se repérer dans l'espace ce2 exercices pdf",
+  "se repérer dans l'espace ce2 géométrie",
+  "se repérer dans l'espace ce2 lutin bazar",
+  "se repérer dans l'espace ce2 pdf",
+  "se repérer dans l'espace cp",
+  "se repérer dans l'espace cp ce1",
+  "se repérer dans l'espace cp exercices",
+  "se repérer dans l'espace cp exercices pdf",
+  "se repérer dans l'espace cp exercices à imprimer",
+  "se repérer dans l'espace cp lutin bazar",
+  "se repérer dans l'espace cp pdf",
+  "se repérer dans l'espace cycle 2",
+  "se repérer dans l'espace exercices pdf",
+  "se repérer dans l'espace gs",
+  "se repérer dans l'espace gs fiche",
+  "se repérer dans l'espace maternelle",
+  "se repérer dans l'espace maternelle motricité",
+  "se repérer dans l'espace ms",
+  "se repérer dans l'espace ms fiche",
+  "se repérer dans l'espace ps",
+  "se repérer dans l'espace ps fiche",
+  "se situer dans l espace maternelle",
+  "se situer dans l'espace exercices fle pdf",
+  "se situer dans l'espace exercices pdf",
+  "se situer dans l'espace exercices pdf ce1",
+  "se situer dans l'espace exercices pdf ce2",
+  "se situer dans l'espace grande section",
+  "seor fiches oiseaux",
+  "simplifier des fractions exercices pdf",
+  "site comparer les tailles",
+  "site pour comparer les tailles des pays",
+  "son initial maternelle",
+  "sons initiaux",
+  "soustraction",
+  "soustraction avec retenue",
+  "soustraction avec retenue ce1",
+  "soustraction avec retenue ce2",
+  "soustraction avec retenue exercices pdf",
+  "soustraction ce1",
+  "soustraction ce1 avec et sans retenue",
+  "soustraction ce1 avec retenue",
+  "soustraction ce1 avec retenue 3 chiffres",
+  "soustraction ce1 en ligne",
+  "soustraction ce1 exercices",
+  "soustraction ce1 pdf",
+  "soustraction ce1 retenue",
+  "soustraction ce1 sans retenue",
+  "soustraction ce1 à imprimer",
+  "soustraction ce2",
+  "soustraction ce2 avec retenue",
+  "soustraction ce2 avec retenue pdf",
+  "soustraction ce2 evaluation",
+  "soustraction ce2 exercices",
+  "soustraction ce2 exercices pdf",
+  "soustraction ce2 maitre lucas",
+  "soustraction ce2 pdf",
+  "soustraction ce2 sans retenue",
+  "soustraction ce2 à imprimer",
+  "soustraction cm1 exercices pdf",
+  "soustraction cm2 exercices pdf",
+  "soustraction cp",
+  "soustraction cp ce1",
+  "soustraction cp en ligne",
+  "soustraction cp exercices",
+  "soustraction cp maitre lucas",
+  "soustraction cp pdf",
+  "soustraction cp sans retenue",
+  "soustraction cp à imprimer",
+  "soustraction cp à imprimer pdf",
+  "soustraction cp1",
+  "soustraction de fraction",
+  "soustraction excel",
+  "soustraction exercices pdf",
+  "soustraction fiche",
+  "soustraction fiche ce1",
+  "soustraction fiche ce2",
+  "soustraction fiche cp",
+  "soustraction grande section",
+  "soustraction grande section a imprimer",
+  "soustraction heure",
+  "soustraction maternelle",
+  "soustraction maternelle grande section",
+  "soustraction moyenne section",
+  "soustraction posée",
+  "soustraction posée ce1",
+  "soustraction écrite exercices pdf",
+  "suite logique ce1 ce2",
+  "suite logique ce1 à imprimer",
+  "suite logique ce2 cm1",
+  "suite logique cp à imprimer",
+  "suite logique exercice corrigé pdf",
+  "suite logique exercices corrigés",
+  "suite logique exercices pdf",
+  "suite logique maternelle pdf",
+  "suite logique maternelle à imprimer",
+  "suite logique moyenne section",
+  "suite logique visuelle",
+  "suites géométriques exercices pdf",
+  "suites logiques",
+  "suites logiques ce1",
+  "suites logiques ce2",
+  "suites logiques cm1",
+  "suites logiques cm2",
+  "suites logiques cp",
+  "suites logiques cycle 3",
+  "suites logiques exercices",
+  "suites logiques grande section",
+  "suites logiques gs",
+  "suites logiques maternelle",
+  "suites logiques maternelle en ligne",
+  "séquence se repérer dans l'espace maternelle",
+  "tableau classe des nombres ce2",
+  "tableau de décomposition des nombres ce2",
+  "tableau des nombres",
+  "tableau des nombres acces ce1",
+  "tableau des nombres ce1",
+  "tableau des nombres ce1 affichage",
+  "tableau des nombres ce1 ce2",
+  "tableau des nombres ce1 exercices",
+  "tableau des nombres ce1 à compléter",
+  "tableau des nombres ce1 à imprimer",
+  "tableau des nombres ce2",
+  "tableau des nombres cp",
+  "tableau des nombres cp affichage",
+  "tableau des nombres cp ce1",
+  "tableau des nombres cp exercices",
+  "tableau des nombres cp mhm",
+  "tableau des nombres cp pdf",
+  "tableau des nombres cp vierge",
+  "tableau des nombres cp à compléter",
+  "tableau des nombres cp à imprimer",
+  "tableau des nombres de 0 à 100",
+  "tableau des nombres de 0 à 100 en chiffres et en lettres pdf",
+  "tableau des nombres décimaux",
+  "tableau des nombres décimaux cm2",
+  "tableau des nombres jusqu'à 100",
+  "tableau des nombres maternelle",
+  "tableau des nombres premiers",
+  "tableau des nombres à compléter ce2",
+  "tableau des nombres à imprimer",
+  "test logique visuelle",
+  "time prepositions exercises pdf",
+  "tirage cpf",
+  "tirage cpm",
+  "tirage fiche de paie",
+  "total cpt codes",
+  "total cpt codes in 2025",
+  "total cpt codes in 2026",
+  "train alphabet chart",
+  "train alphabet duplo",
+  "train alphabet lego",
+  "train alphabet lego duplo",
+  "train alphabet letters",
+  "train alphabet mega bloks",
+  "train alphabet puzzle",
+  "train alphabet song",
+  "train alphabet youtube",
+  "train de l'alphabet",
+  "tri images maternelle",
+  "trier des mots par catégorie cp",
+  "trier images",
+  "trier par catégories",
+  "trouver compte cpf",
+  "trouver l intrus ce1",
+  "trouver l intrus cp",
+  "trouver l intrus grande section",
+  "trouver l intrus moyenne section",
+  "trouver l'intrus ce2",
+  "trouver l'intrus image maternelle",
+  "trouver l'intrus maternelle",
+  "trouver le bon mot cp",
+  "trouver le mot étiquette ce1",
+  "trouver les objets",
+  "trouver les objets cachés",
+  "trouver les objets cachés à imprimer",
+  "trouver les objets de maegu",
+  "trouver les objets jeux",
+  "trouver les objets mentionné par ariel",
+  "trouver les objets volés dans le repaire souterrain",
+  "trouvez l intrus exercices pdf",
+  "vehicule fiche",
+  "vehicule fiche d identification",
+  "vetements fiche",
+  "vidéo comparer les nombres ce1 mhm",
+  "vocabulaire de la bd en images",
+  "vocabulaire en grande section",
+  "vocabulaire en images",
+  "vocabulaire en images français à imprimer",
+  "véhicule fiche technique",
+  "www fiches maternelle com",
+  "évaluation connaissance des lettres",
+  "évaluation connaissance des lettres gs",
+  "évaluation dizaines et unités ce1",
+  "évaluation droite numérique ce2",
+  "évaluation français ce2 1er trimestre pdf",
+  "évaluation français ce2 avec corrigé pdf",
+  "évaluation français ce2 pdf",
+  "évaluation se repérer dans l'espace cp"
+ ]
+}

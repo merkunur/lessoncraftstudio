@@ -695,11 +695,19 @@ async function renderSubjectGradeHub(
   // Unit 6 (2026-07-06): hand-authored deep copy + FAQ + honest updated-date.
   const deepCopy = getSubjectHubDeepCopy(locale, subjectKey, levelKey);
   const latestUpdate = await latestDeckUpdateForSubjectLevel(subjectKey, levelKey, locale);
+  const UPDATED_PREFIX: Record<string, (d: string) => string> = {
+    de: (d) => `Zuletzt aktualisiert am ${d}`, en: (d) => `Last updated ${d}`,
+    nl: (d) => `Laatst bijgewerkt op ${d}`, es: (d) => `Última actualización: ${d}`,
+    fr: (d) => `Dernière mise à jour : ${d}`, pt: (d) => `Atualizado em ${d}`,
+    it: (d) => `Ultimo aggiornamento: ${d}`, sv: (d) => `Senast uppdaterad ${d}`,
+    da: (d) => `Senest opdateret ${d}`, no: (d) => `Sist oppdatert ${d}`,
+    fi: (d) => `Päivitetty ${d}`,
+  };
   let updatedLine: string | null = null;
   if (latestUpdate) {
     try {
       const d = new Intl.DateTimeFormat(getHreflangCode(locale), { year: 'numeric', month: 'long', day: 'numeric' }).format(latestUpdate);
-      updatedLine = locale === 'de' ? `Zuletzt aktualisiert am ${d}` : `Last updated ${d}`;
+      updatedLine = (UPDATED_PREFIX[locale] ?? UPDATED_PREFIX.en)(d);
     } catch { /* non-critical */ }
   }
   const faqSchema = deepCopy && deepCopy.faq.length >= 2 ? {
@@ -711,7 +719,13 @@ async function renderSubjectGradeHub(
       acceptedAnswer: { '@type': 'Answer', text: f.a },
     })),
   } : null;
-  const faqHeading = locale === 'de' ? 'Häufige Fragen' : 'Frequently asked questions';
+  const FAQ_HEADINGS: Record<string, string> = {
+    de: 'Häufige Fragen', en: 'Frequently asked questions', nl: 'Veelgestelde vragen',
+    es: 'Preguntas frecuentes', fr: 'Questions fréquentes', pt: 'Perguntas frequentes',
+    it: 'Domande frequenti', sv: 'Vanliga frågor', da: 'Ofte stillede spørgsmål',
+    no: 'Ofte stilte spørsmål', fi: 'Usein kysytyt kysymykset',
+  };
+  const faqHeading = FAQ_HEADINGS[locale] ?? FAQ_HEADINGS.en;
 
   const moreSubjectsLabel = locale === 'de' ? `Weitere Fächer für ${gradeName}` : `More subjects for ${gradeName}`;
   const otherGradesLabel = locale === 'de' ? `${subjectName} für andere Klassenstufen` : `${subjectName} for other grades`;

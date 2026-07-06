@@ -1,0 +1,14 @@
+{
+  "$comment": "Per-locale demand-qualifier tails for landing-less deck titles (append-demand-title-tail.js). Derived from each locale's LOCKED landing-title format trio (rekey-<loc>-titles.js harvests 2026-06-12..16) — the researched print/free-intent tokens per market; reconciled against docs/SEO/demand-map-<locale>.md as those extend. The tail string INCLUDES its leading separator. 'full' preferred, 'short' when the 72-char budget forces it.",
+  "en": { "full": " — Free Printable PDF", "short": " — Printable PDF" },
+  "de": { "full": " — zum Ausdrucken (PDF kostenlos)", "short": " — PDF kostenlos" },
+  "fr": { "full": " — à imprimer (PDF gratuit)", "short": " — PDF gratuit" },
+  "es": { "full": " — para imprimir (PDF gratis)", "short": " — PDF gratis" },
+  "pt": { "full": " — para imprimir (PDF grátis)", "short": " — PDF grátis" },
+  "it": { "full": " — da stampare (PDF gratis)", "short": " — PDF gratis" },
+  "nl": { "full": " — printen (PDF gratis)", "short": " — PDF gratis" },
+  "sv": { "full": " — att skriva ut (PDF gratis)", "short": " — PDF gratis" },
+  "da": { "full": " — til print (PDF gratis)", "short": " — PDF gratis" },
+  "no": { "full": " — til utskrift (PDF gratis)", "short": " — PDF gratis" },
+  "fi": { "full": " — tulostettava PDF", "short": " — PDF" }
+}

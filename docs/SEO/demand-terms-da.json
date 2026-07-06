@@ -1,0 +1,1199 @@
+{
+  "locale": "da",
+  "generated": "2026-07-06",
+  "source": "docs/SEO/harvests/da.json (google.dk autocomplete, hl=da&gl=dk, 2026-07-06, 655 requests) + 15-query SERP sample (US-endpoint, da-language queries surfacing .dk rivals)",
+  "titlePattern": {
+    "singleAxisType": "<Demand-ord> – opgaver til print (PDF)",
+    "singleAxisTheme": "Opgaver <Tema> – gratis til print",
+    "singleAxisLevel": "Opgaver <niveau> – gratis til print (PDF)",
+    "intersection": "<Demand-ord> <niveau> – opgaver til print",
+    "notes": "Demand-ordet FØRST (den danske type-betegnelse forældre/lærere faktisk taster — ordsøgning/find ord IKKE 'wortsuche', forlyd, sproglig opmærksomhed, flest og færrest, tiere og enere, hundredfelt, lær klokken). Ærlige kvalifikatorer der altid er sande: 'gratis', 'til print'/'til print (PDF)', 'online' (dækkene spilles i browseren), 'med facit' (facitark følger med). Lukkede sammensætninger: additionsopgaver, matematikopgaver, danskopgaver, bogstavkendskab, ordsøgning — aldrig særskrevet. æ/ø/å bevares. Tankestreg (–) før tema/kvalifikator. ≤51 tegn ideelt, 65 hårdt maks — roden tilføjer ' · LessonCraftStudio'. DK-niveaunøgler: preschool=Børnehave (3-5), kindergarten=Børnehaveklasse/0. klasse (5-6, platform 5-7), grade-1=1. klasse, grade-2=2. klasse, grade-3=3. klasse. 'indskoling' = fælles term for 0.-3. klasse; brug i brødtekst. DK-rivaler i den gratis print-niche: gratisskole.dk, legoglektie.dk (Leg og Lektie), farverigedage.dk, printbar.alinea.dk, skoleguf.com, krydsord.dk, tankesport.dk, hyggeleg.dk, printland.dk, opgaverforborn.dk, skolemaelk.dk. Login-platforme (matematikfessor.dk, clio.me) rangerer sjældent for print-intent."
+  },
+  "singleAxis": {
+    "addition": {
+      "primaryQuery": "addition opgaver",
+      "evidence": "harvest",
+      "title": "Additionsopgaver – plus til print (PDF)",
+      "h1": "Additionsopgaver: første plusstykker med billeder",
+      "metaDescription": "Næsten 200 additionsopgaver med billeder: barnet tæller motiverne og lægger sammen. Hvert ark følges af et facitark – gratis at printe eller løse online.",
+      "winnability": "HARD head ('addition' er polluteret: additional/additionsreaktion) — MID via 'addition opgaver' + billed-vinklen; ægte plus-efterspørgsel skæver mod 1. klasse mens dækkene er tagget børnehaveklasse (niveau-mismatch, se map)",
+      "notes": "Demand-ordet er 'addition opgaver' / 'plus'; head 'addition' polluteret. Intersection addition__kindergarten bærer 'matematik 0 klasse plus'."
+    },
+    "subtraction": {
+      "primaryQuery": "subtraktion opgaver",
+      "evidence": "harvest",
+      "title": "Subtraktionsopgaver – minus til print",
+      "h1": "Subtraktionsopgaver: første minusstykker med billeder",
+      "metaDescription": "Knap 200 subtraktionsopgaver til de yngste: træk fra med billeder som støtte og skriv resultatet. Facit følger med – gratis som PDF eller direkte online.",
+      "winnability": "HARD head (samme ejer-felt som addition: gratisskole/legoglektie/printbar); MID via 'subtraktion opgaver' + minus-med-billeder",
+      "notes": "Samme niveau-mismatch som addition. 'minus opgaver til print' er verbatim harvest under alfabetklassen."
+    },
+    "code-addition": {
+      "primaryQuery": "addition opgaver",
+      "evidence": "harvest",
+      "title": "Kodeaddition – regn med symboler (PDF)",
+      "h1": "Kodeaddition: knæk koden og regn",
+      "metaDescription": "Billeder står for tal: barnet knækker koden og regner stykket. 150 knivskarpe kode-regneark med facit – gratis at printe eller spille online.",
+      "winnability": "SKIP head (intet dansk søgeord for mekanikken; 'kryptogram'-nabo) — lever af intern linkning + additions-longtail",
+      "notes": "Ingen native demand-betegnelse; siden holdes ærligt beskrivende og linkes fra addition."
+    },
+    "more-less": {
+      "primaryQuery": "mere eller mindre",
+      "evidence": "harvest",
+      "title": "Mere eller mindre – opgaver til print",
+      "h1": "Mere eller mindre? Sammenlign mængder",
+      "metaDescription": "Hvor er der flest æbler, hvor er der færrest? 148 opgaver til førskolebørn, der lærer at sammenligne mængder uden at tælle – gratis som PDF eller online.",
+      "winnability": "MID — head 'mere eller mindre' er delt intent ('tegn', 'spil', musik-tertser); ren via børnehave-vinklen + 'flest og færrest'-nabo",
+      "notes": "Afgræns mod comparing-groups (flest og færrest): her uden større-end/mindre-end-tegn, ren mængdefornemmelse."
+    },
+    "math-puzzle": {
+      "primaryQuery": "matematik puslespil",
+      "evidence": "harvest",
+      "title": "Matematikpuslespil for børn (PDF)",
+      "h1": "Matematikpuslespil: knæk tal-gåderne",
+      "metaDescription": "Regne-gåder børn faktisk gider knække: 140 talpuslespil med symbol-ligninger og facit til 1. klasse – gratis at printe eller løse online.",
+      "winnability": "MID — dansk term svag ('matematik puslespil'/'talpuslespil'); voksen-gåder dominerer kun head. 1.-klasse-intersection er money-page",
+      "notes": "Dækkene ligger på 1. klasse (6-8). Intersection grade-1__math-puzzle bærer efterspørgslen."
+    },
+    "math-worksheet": {
+      "primaryQuery": "matematik ark til print",
+      "evidence": "harvest",
+      "title": "Blandede matematikopgaver – til print",
+      "h1": "Blandede matematikopgaver til print",
+      "metaDescription": "Plus og minus i skøn forening: blandede regneark til at gentage og træne. Cirka 100 matematikark med facit – gratis at printe som PDF.",
+      "winnability": "DEFER-TO-HUB — 'matematikopgaver 0/1/2 klasse' ejes af fag×klasse-hubbene; topic-page kun for mekanik-longtail ('matematikark')",
+      "notes": "Titlér ALDRIG mod egne matematik-hubs. 'matematik ark til print' er verbatim harvest."
+    },
+    "big-small": {
+      "primaryQuery": "stor eller lille",
+      "evidence": "harvest",
+      "title": "Stor eller lille – opgaver til børnehaven",
+      "h1": "Stor eller lille? Sammenlign størrelser",
+      "metaDescription": "Hvad er størst, hvad er mindst? 93 børnehaveopgaver, hvor barnet sammenligner størrelser på hverdagsting og skærper blikket – gratis til print.",
+      "winnability": "MID niche — head 'stor eller lille' er polluteret (kålsommerfugl, salamander, musik-terts); ren via børnehave-vinklen",
+      "notes": "Afgræns mod comparing-sizes (størst og mindst = sortér efter størrelse); her ren to-vejs stor/lille."
+    },
+    "chart-count": {
+      "primaryQuery": "søjlediagram opgaver",
+      "evidence": "echo",
+      "title": "Tæl og tegn diagram – opgaver (PDF)",
+      "h1": "Tæl og tegn: første søjlediagrammer",
+      "metaDescription": "Tæl motiverne og fyld søjlerne: 50 opgaver, hvor barnet fører sit tælleresultat ind i et diagram – første dataforståelse, gratis som PDF.",
+      "winnability": "LOW head (intet rent dansk søgeord for mekanikken); lever af 'diagrammer og data'-longtail + interne links",
+      "notes": "Beskriv ærligt frem for at opfinde søgeord. Nabo til graphing-data."
+    },
+    "pattern-train": {
+      "primaryQuery": "mønstre",
+      "evidence": "harvest",
+      "title": "Mønstertoget – fortsæt mønsteret (PDF)",
+      "h1": "Mønstertoget: se mønsteret og fortsæt det",
+      "metaDescription": "Hvilken vogn kommer nu? 248 mønstertog-opgaver, hvor barnet fortsætter mønsteret – logisk tænkning for børnehaveklassen, gratis at printe eller spille online.",
+      "winnability": "MID — 'mønstertoget' i sig selv er legetøjs-intent; trafik via 'mønstre'-familien + børnehaveklasse-intersection",
+      "notes": "Største engine (248 dæk). Head 'mønstre' deles med patterns-key; kindergarten-intersection tildeles pattern-train."
+    },
+    "pattern-worksheet": {
+      "primaryQuery": "mønstre 1 klasse",
+      "evidence": "harvest",
+      "title": "Mønsterark – fortsæt rækken (PDF)",
+      "h1": "Mønsterark: fortsæt rækker og figurfølger",
+      "metaDescription": "Former, farver, følger: 50 mønsterark til 1. klasse, hvor barnet fortsætter rækken – koncentration og matematiske forudsætninger, gratis som PDF.",
+      "winnability": "MID via 1.-klasse-intersection — head 'mønsterark' polluteret (broderi/strik/scrapbooking); 'mønstre 1 klasse' verbatim harvest",
+      "notes": "Money-query ligger på intersection grade-1__pattern-worksheet."
+    },
+    "bingo": {
+      "primaryQuery": "billedbingo børn",
+      "evidence": "echo",
+      "title": "Billedbingo til børn – print gratis",
+      "h1": "Billedbingo: bingoplader med billeder",
+      "metaDescription": "Bingo med billeder i stedet for tal: 77 færdige spilleplader til børnehave og indskoling – print pladerne gratis og spil med det samme i gruppen.",
+      "winnability": "LOW head — 'bingo' er massivt polluteret (bingo loco, banko, casino); 'billedbingo børn' er den rene vinkel",
+      "notes": "Undgå voksen-bingo-head helt; sælg som printbare billedplader til klassen."
+    },
+    "grid-match": {
+      "primaryQuery": "billedbrikker opgaver",
+      "evidence": "echo",
+      "title": "Gittermatch – sæt billedbrikker på plads",
+      "h1": "Gittermatch: sæt billedbrikkerne på rette plads",
+      "metaDescription": "Læs række og søjle, sæt brikken ind: 49 gitter-opgaver til børnehaveklassen – rumlig orientering uden læsning eller tal, gratis at printe eller løse online.",
+      "winnability": "SKIP head (intet dansk søgeord for mekanikken); lever af intern linkning i det visuelle cluster",
+      "notes": "Ingen harvest-match for 'gittermatch'; hold siden ærligt beskrivende."
+    },
+    "matching": {
+      "primaryQuery": "forbind billeder opgaver",
+      "evidence": "echo",
+      "title": "Forbind billeder – matchopgaver (PDF)",
+      "h1": "Forbind billeder: hvad hører sammen?",
+      "metaDescription": "Find par og forbind: 93 matchopgaver med billeder til børnehave og børnehaveklasse – styrk ordforråd og logik, gratis som PDF at printe.",
+      "winnability": "LOW head — 'matchning' er jobmatch-intent; 'forbind billeder'/'find par' er den rene vinkel",
+      "notes": "Head-ordet 'matchning' er ubrugeligt (region/jobcenter). Sælg som 'forbind' + 'find par'."
+    },
+    "picture-sort": {
+      "primaryQuery": "sortér billeder i grupper",
+      "evidence": "harvest",
+      "title": "Sortér billeder i grupper – opgaver",
+      "h1": "Sortér billeder: ordn efter kategori",
+      "metaDescription": "Dyr til dyr, køretøjer til køretøjer: 213 sorteringsopgaver, hvor barnet ordner billeder i grupper – at tænke i kategorier, gratis at printe.",
+      "winnability": "MID — 'sortér billeder' pur er foto-app-intent (iPhone/efter dato); kategori-vinklen via børnehaveklasse-intersection",
+      "notes": "Afgræns mod sorting-categories; her billed-sortering i børnehaveklassen."
+    },
+    "shadow-match": {
+      "primaryQuery": "find skyggen opgaver",
+      "evidence": "echo",
+      "title": "Find skyggen – match skygger (PDF)",
+      "h1": "Find skyggen: hvilken skygge hører til?",
+      "metaDescription": "95 skyggegåder: barnet forbinder billedet med den rigtige skygge og træner visuel opmærksomhed – til børnehave og børnehaveklasse, PDF og online.",
+      "winnability": "WINNABLE — SERP tynd (blogs, Pinterest, ingen stor ejer). Bedste enkeltchance i det visuelle cluster",
+      "notes": "Byg en best-in-class side; cluster-nabo til visual-discrimination og missing-pieces."
+    },
+    "alphabet-train": {
+      "primaryQuery": "alfabetet opgaver børnehave",
+      "evidence": "echo",
+      "title": "Alfabettoget – øv alfabetet (PDF)",
+      "h1": "Alfabettoget: bogstaverne i rigtig rækkefølge",
+      "metaDescription": "Sæt de manglende bogstaver ind i toget: 74 ABC-opgaver til børnehavebørn, der lærer alfabetet og bogstavrækken – gratis at printe eller løse online.",
+      "winnability": "LOW-MID — 'alfabettoget' overvejende legetøjs-intent; ren via 'alfabetet'/'bogstaver børnehave'",
+      "notes": "Niveau-mismatch: søgende mener ofte skolestart, dækkene er børnehave — tal til begge i brødteksten."
+    },
+    "prepositions": {
+      "primaryQuery": "præpositioner opgaver",
+      "evidence": "harvest",
+      "title": "Forholdsord – præpositioner til print",
+      "h1": "Forholdsord: i, på, under, ved siden af",
+      "metaDescription": "Hvor er bolden? 99 billedopgaver med forholdsord som i, på, under og ved siden af – ideelt til børnehaveklasse og sprogstøtte, gratis som PDF.",
+      "winnability": "WINNABLE — 'præpositioner opgaver'/'forholdsord' har ren intent; SERP mest grammatiksider mod ældre trin. K-3 billed-vinkel er moat (11 sprog)",
+      "notes": "Brug BEGGE ord: 'forholdsord' (folkeligt) og 'præpositioner' (fag). DSA/sprogstøtte-longtail i brødteksten."
+    },
+    "word-guess": {
+      "primaryQuery": "gæt ordet",
+      "evidence": "harvest",
+      "title": "Gæt ordet – billedgåder for børn",
+      "h1": "Gæt ordet: bogstav for bogstav til løsningen",
+      "metaDescription": "Se billedet, gæt ordet, skriv bogstaverne: 97 gætteark til læsestartere, der øver ordforråd og stavning legende – gratis at printe eller spille online.",
+      "winnability": "LOW-MID — head 'gæt ordet' er app-/spil-intent (Wordle-klasse, brætspil); print-longtail tynd men opnåelig",
+      "notes": "Intet stærkt dansk print-søgeord; hold dig fra galge-ord (negativt konnoteret)."
+    },
+    "word-scramble": {
+      "primaryQuery": "sæt bogstaverne i rækkefølge",
+      "evidence": "echo",
+      "title": "Bogstavpuslespil – stav ordet (PDF)",
+      "h1": "Bogstavpuslespil: sæt bogstaverne i rækkefølge",
+      "metaDescription": "Forvirrede bogstaver, der skal sættes rigtigt: 97 bogstavpuslespil med billedhjælp til 1. klasse – lesetræning med sjov, gratis PDF og online.",
+      "winnability": "MID — SERP delt (farverigedage, legoglektie 'find ordene'); ingen dominerende ejer for 1.-klasse-vinklen",
+      "notes": "Ingen head-term; 'stav ordet'/'bogstavpuslespil'. Intersection grade-1 bærer siden."
+    },
+    "wordsearch": {
+      "primaryQuery": "ordsøgning",
+      "evidence": "serp",
+      "title": "Ordsøgning – find ord til print (PDF)",
+      "h1": "Ordsøgning: find ordene i bogstavfeltet",
+      "metaDescription": "Find ordene i bogstavfeltet: 49 ordsøgninger med børnevenlige temaord til 1. klasse – hvert bogstavgitter gratis som PDF eller spilbart online.",
+      "winnability": "MID — 'ordsøgning'/'find ord' har ren intent; farverigedage + legoglektie ('find ordene 1.-2. klasse') deler feltet, ingen kæmpe-ejer",
+      "notes": "KRITISK: demand-ordene er 'ordsøgning' OG 'find ord' — brug begge. 'ordsøgning spil' driver mod app; print-vinklen er vores."
+    },
+    "crossword": {
+      "primaryQuery": "kryds og tværs for børn",
+      "evidence": "serp",
+      "title": "Kryds og tværs for børn – til print",
+      "h1": "Billed-kryds-og-tværs for børn",
+      "metaDescription": "Kryds og tværs med billeder i stedet for spørgsmål: barnet navngiver motivet og skriver ordet. Til læsestartere – gratis som PDF med facit.",
+      "winnability": "HARD head (gratisskole.dk, krydsord.dk, farverigedage har 'børnekrydsord'); WINNABLE via 'billed-kryds-og-tværs' + 2.-klasse-intersection",
+      "notes": "Undgå voksen-krydsord-head. 'krydsord 1 klasse' efterspørges — deck-gap (kun 2.-klasse-dæk)."
+    },
+    "find-and-count": {
+      "primaryQuery": "find og tæl",
+      "evidence": "harvest",
+      "title": "Find og tæl – tælleopgaver (PDF)",
+      "h1": "Find og tæl: kig, find og tæl motiverne",
+      "metaDescription": "Find motiverne i billedet og tæl dem: 93 find-og-tæl-opgaver til børnehaven – mængdeforståelse og koncentration i ét, gratis at printe.",
+      "winnability": "MID — 'find og tæl' er verbatim harvest og ren; SERP delt (skolemælk, legoglektie). Ægte tælle-intent",
+      "notes": "Verbatim demand-ord. Afgræns mod find-objects (find tingene, uden tælling)."
+    },
+    "find-objects": {
+      "primaryQuery": "find tingene opgaver",
+      "evidence": "echo",
+      "title": "Find tingene – kig og find (PDF)",
+      "h1": "Find tingene: spot de skjulte genstande",
+      "metaDescription": "Spot de skjulte ting i billedet: 96 find-opgaver til børnehave og børnehaveklasse – træn det nøjagtige blik, gratis som PDF eller online.",
+      "winnability": "LOW-MID — 'find genstandene' er svagt; 'find tingene'/'find fem fejl'-nabo. Head deles med spot-the-difference",
+      "notes": "Overlad 'find og tæl' til find-and-count-key (afgrænsning). 'find 5 fejl' er nabo-longtail."
+    },
+    "treasure-hunt": {
+      "primaryQuery": "skattejagt til børn",
+      "evidence": "harvest",
+      "title": "Skattejagt-opgaver for børn (PDF)",
+      "h1": "Skattejagt: følg ruten frem til skatten",
+      "metaDescription": "Følg stien over spillepladen frem til skatten: 99 skattejagt-gåder til 1. klasse – orientering og logik, gratis at printe eller spille online.",
+      "winnability": "LOW head (fødselsdags-intent dominerer massivt: poster, temaer, gruppespil); longtail 'skattejagt 1 klasse' via intersection",
+      "notes": "Vær ærlig: vores dæk er rute-gåder, ikke fødselsdags-skattejagt-sæt. 'skattejagt opgaver børn' verbatim."
+    },
+    "missing-pieces": {
+      "primaryQuery": "hvad mangler opgaver",
+      "evidence": "echo",
+      "title": "Hvad mangler? – billedgåder (PDF)",
+      "h1": "Hvad mangler? Find den manglende del",
+      "metaDescription": "Hvilken del mangler i billedet? 93 søgegåder til børnehaveklassen: genkend det manglende udsnit og sæt det på plads – visuel opmærksomhed, gratis PDF.",
+      "winnability": "LOW-MID — head 'manglende brikker' er Lego-intent; børnehave-longtail lille men ren",
+      "notes": "Rangér altid med kontekst ('hvad mangler'/'billede'), aldrig på 'manglende brikker' pur (Lego)."
+    },
+    "odd-one-out": {
+      "primaryQuery": "hvilken passer ikke",
+      "evidence": "harvest",
+      "title": "Hvilken passer ikke? – opgaver (PDF)",
+      "h1": "Hvilken passer ikke? Logik med billeder",
+      "metaDescription": "Fire billeder, ét passer ikke: 103 opgaver i logisk tænkning til børnehave og børnehaveklasse – genkend kategorier, gratis som PDF at printe.",
+      "winnability": "WINNABLE — SERP tynd; 'hvilken passer ikke ind' verbatim harvest, eksakt content-match. Ingen stor ejer",
+      "notes": "Verbatim suggestion. Cluster-nabo til picture-sort (afgræns: her udelukkelse, ikke sortering)."
+    },
+    "counting-pictures": {
+      "primaryQuery": "tæl og skriv tallet",
+      "evidence": "echo",
+      "title": "Tæl billederne – tælleopgaver (PDF)",
+      "h1": "Tæl billederne og skriv tallet",
+      "metaDescription": "Først tælle, så skrive tallet: 27 tælleark med glade motiver til børnehaveklassen – sikker omgang med mængder op til 10, gratis at printe.",
+      "winnability": "LOW-MID — 'tæl billeder' pur er kalorie-intent; via 'tæl og skriv tallet' + tælle-longtail. Lille bestand (27)",
+      "notes": "Prio efter more-less/find-and-count. Nabo til comparing-groups."
+    },
+    "counting-frames": {
+      "primaryQuery": "tierramme opgaver",
+      "evidence": "harvest",
+      "title": "Tierramme – opgaver til print (PDF)",
+      "h1": "Tierramme: fang mængder i tierrammen",
+      "metaDescription": "Aflæs prikker i tierrammen på et blik: opgaver til tal-nedbrydning op til 10 for begynderundervisningen – gratis som PDF, med facit.",
+      "winnability": "WINNABLE niche — 'tierramme'/'tierrammer' er ren lærer-intent; men kun 9 dæk: DECK-GAP",
+      "notes": "Efterspørgsel klar, bestand for tynd — anbefal deck-produktion, derefter grade-1-intersection."
+    },
+    "tally-counting": {
+      "primaryQuery": "tællestreger opgaver",
+      "evidence": "echo",
+      "title": "Tællestreger – tæl og notér (PDF)",
+      "h1": "Tællestreger: tæl, bundt og aflæs",
+      "metaDescription": "Før tællestreger som de store: tæl, bundt i femmere og aflæs. Opgaver til 1. og 2. klasse – dataindsamling fra starten, gratis som PDF.",
+      "winnability": "MID niche — ren intent men kun 4 dæk: DECK-GAP",
+      "notes": "Deck-produktion først; efterspørgsel findes ('streger'/'tællestreger')."
+    },
+    "number-charts": {
+      "primaryQuery": "hundredfelt til print",
+      "evidence": "echo",
+      "title": "Hundredfelt – taltavle til print (PDF)",
+      "h1": "Hundredfelt: øvelser i talrummet op til 100",
+      "metaDescription": "Find tal, udfyld udsnit, opdag mønstre: 34 hundredfelt-opgaver i talrummet op til 100 – taltavle til 1. klasse, gratis som PDF med facit.",
+      "winnability": "MID — 'hundredfelt'/'taltavle' har ren intent; printbar.alinea + gratisskole ('taltavle') etableret. Longtail via 1.-klasse",
+      "notes": "'taltavle' er synonym-ordet på gratisskole.dk; brug begge. Intersection grade-1 bærer siden."
+    },
+    "comparing-numbers": {
+      "primaryQuery": "sammenlign tal større end mindre end",
+      "evidence": "echo",
+      "title": "Sammenlign tal – større end, mindre end",
+      "h1": "Sammenlign tal med <, > og =",
+      "metaDescription": "Hvilket tal er størst? Opgaver til at sammenligne tal med tegnene <, > og = – til 1. og 2. klasse, gratis at printe eller løse online.",
+      "winnability": "LOW-MID niche — head 'sammenlign tal' er Excel-intent; kun 6 dæk: DECK-GAP",
+      "notes": "Afgræns mod comparing-groups (flest og færrest, uden tegn). Bestand skal bygges."
+    },
+    "comparing-groups": {
+      "primaryQuery": "flest og færrest opgaver",
+      "evidence": "harvest",
+      "title": "Flest og færrest – opgaver til print",
+      "h1": "Flest og færrest: hvor er der flest?",
+      "metaDescription": "To grupper, ét blik: barnet finder hvor der er flest og hvor der er færrest og markerer den største – matematisk opmærksomhed i børnehaveklassen, gratis PDF.",
+      "winnability": "WINNABLE niche — 'flest og færrest opgaver' verbatim harvest + ren børnehaveklasse-læreplansterm; men kun 8 dæk: DECK-GAP",
+      "notes": "Klassisk børnehaveklasse-tema (matematisk opmærksomhed, emu.dk). Byg bestand — semantisk nær more-less, afgræns: her uden tælling."
+    },
+    "comparing-sizes": {
+      "primaryQuery": "størst og mindst opgaver",
+      "evidence": "harvest",
+      "title": "Størst og mindst – sortér efter størrelse",
+      "h1": "Størst og mindst: ordn efter størrelse",
+      "metaDescription": "Fra mindst til størst: 15 opgaver, hvor barnet ordner motiver efter størrelse – første målingsforestillinger i børnehaveklassen, gratis at printe.",
+      "winnability": "MID niche — 'størst og mindst' verbatim men delt intent (byer/tegn); SERP ikke specielt besat",
+      "notes": "Afgræns mod big-small (stor/lille to-vejs); her ordn efter størrelse."
+    },
+    "number-lines": {
+      "primaryQuery": "tallinje til print",
+      "evidence": "harvest",
+      "title": "Tallinje – opgaver til print (PDF)",
+      "h1": "Tallinje: placer tal på tallinjen",
+      "metaDescription": "Find og markér tal på tallinjen: opgaver i talrummet 0-20 for begynderundervisningen – gratis som PDF med facit, eller løs online.",
+      "winnability": "HARD (printbar.alinea + stærk suggestion-familie 'tallinje 0-100/1-20/til print'); men kun 9 dæk: DECK-GAP, største ubetjente matematik-efterspørgsel",
+      "notes": "'tallinje 1-20'/'tallinje 0-100'/'tallinje print' er en af de stærkeste matematik-familier i harvest — prioritér deck-produktion."
+    },
+    "base-ten": {
+      "primaryQuery": "tiere og enere opgaver",
+      "evidence": "harvest",
+      "title": "Tiere og enere – opgaver til print",
+      "h1": "Tiere og enere: forstå positionssystemet",
+      "metaDescription": "Del tal op i tiere og enere: opgaver med anskuelsesmateriale til 1. og 2. klasse – grundlaget for at regne op til 100, gratis som PDF.",
+      "winnability": "MID niche — 'tiere og enere opgaver' verbatim, ren intent (printbar/forlaget vektor/clio); men kun 12 dæk: DECK-GAP",
+      "notes": "Klassisk positionssystem-tema. Byg bestand — 'hvor mange tiere og enere' er verbatim longtail."
+    },
+    "telling-time": {
+      "primaryQuery": "lær klokken opgaver",
+      "evidence": "serp",
+      "title": "Lær klokken – opgaver til print (PDF)",
+      "h1": "Lær klokken: aflæs uret trin for trin",
+      "metaDescription": "Hele timer, halve timer, minutter: 81 opgaver i at aflæse viserur – fra 1. til 3. klasse, gratis som PDF og øvbart online.",
+      "winnability": "HARD head ('lær klokken' ejet af gratisskole '300 ark', legoglektie, skoleabc-indskoling); WINNABLE via klasse-intersections",
+      "notes": "'lær klokken' er money-ordet (ikke 'hvad er klokken' = verdensur-støj). Suggestion-familie meget rig — intersections er money-pages."
+    },
+    "fractions": {
+      "primaryQuery": "brøker opgaver",
+      "evidence": "harvest",
+      "title": "Brøker for begyndere – opgaver (PDF)",
+      "h1": "Første brøker: halve, kvarte, hele",
+      "metaDescription": "Halv, kvart, tredjedel anskueligt: 68 brøkopgaver med billeder til at farve og forbinde – første brøkforestilling, gratis at printe.",
+      "winnability": "LOW-MID — dansk brøk-efterspørgsel ligger i 4.-9. klasse ('brøker opgaver 5/6/7 klasse'); K-3-andel lille. Framér ærligt 'første brøker'",
+      "notes": "'brøker 2 klasse' findes verbatim; brug 2.-klasse-intersection men undgå de ældre trins head."
+    },
+    "graphing-data": {
+      "primaryQuery": "diagrammer og data opgaver",
+      "evidence": "echo",
+      "title": "Diagrammer og data – opgaver (PDF)",
+      "h1": "Diagrammer og data: aflæs, tæl, indfør",
+      "metaDescription": "Aflæs søjlediagrammer og fyld dem selv: 28 opgaver i diagrammer og data til indskolingen – gratis som PDF, facit inklusive.",
+      "winnability": "WINNABLE — SERP mest betalt (eduki-lignende/forlag); gratis-vinklen er åben",
+      "notes": "Intersection grade-1 bærer 'diagrammer 1 klasse'. Nabo til chart-count."
+    },
+    "arrays-multiplication": {
+      "primaryQuery": "gangetabel opgaver",
+      "evidence": "echo",
+      "title": "Gange med rækker – første gangestykker",
+      "h1": "Første gange: gangestykker med rækker",
+      "metaDescription": "Rækker og felter i stedet for udenadslære: 31 gange-opgaver med prikbilleder til indgangen til multiplikation – gratis at printe.",
+      "winnability": "HARD head ('gangetabel'/'gange' etableret hos gratisskole/forlag); longtail via 2.-klasse-intersection + billed-vinkel",
+      "notes": "Vores dæk = rækker/prikfelter (indgang), ikke tabel-drill — positionér ærligt."
+    },
+    "geometry": {
+      "primaryQuery": "geometri og former opgaver",
+      "evidence": "harvest",
+      "title": "Geometri – former og figurer (PDF)",
+      "h1": "Geometri: genkend former og figurer",
+      "metaDescription": "Genkend former, skeln flader fra figurer: 37 geometri-opgaver fra børnehaveklasse til 3. klasse – gratis som PDF med facit.",
+      "winnability": "MID — head skæver mod 3.-6. klasse; 2.-klasse-intersection er den rene indgang. 'former og figurer opgaver' verbatim",
+      "notes": "Intersection geometry__grade-2 (17 dæk) bærer efterspørgslen. Bro til shapes-tema i copy."
+    },
+    "measurement": {
+      "primaryQuery": "måling opgaver indskoling",
+      "evidence": "harvest",
+      "title": "Måling – mål og sammenlign længder",
+      "h1": "Måling: sammenlign og mål længder",
+      "metaDescription": "Med lineal og øjemål: 35 opgaver i at måle og sammenligne længder – fra børnehaveklasse til 2. klasse, gratis som PDF at printe.",
+      "winnability": "MID — 'måling af vinkler' (5.+) forurener head; 'måling opgaver indskoling'/'måling 1. klasse' verbatim, ren indskolings-longtail",
+      "notes": "'indskoling' er nøgle-kvalifikatoren. Intersection grade-1 (12 dæk, lige på tærsklen)."
+    },
+    "visual-logic": {
+      "primaryQuery": "logiske opgaver for børn",
+      "evidence": "echo",
+      "title": "Logiske opgaver for børn (PDF)",
+      "h1": "Logiske opgaver: knæk og kombinér",
+      "metaDescription": "Kombinér frem for at gætte: 14 logiske opgaver til børn med billeder frem for tekst – tænketræning fra børnehaveklasse til 3. klasse, gratis PDF.",
+      "winnability": "MID — head voksen-domineret; 'logiske opgaver'/'logik for børn' rene men kun 14 dæk",
+      "notes": "DECK-GAP-kandidat; efterspørgsels-familie (børnehaveklasse…2. klasse) findes."
+    },
+    "visual-discrimination": {
+      "primaryQuery": "find forskellen",
+      "evidence": "serp",
+      "title": "Find forskellen – kigge-opgaver (PDF)",
+      "h1": "Find forskellen: spot de små forskelle",
+      "metaDescription": "Find de skjulte forskelle mellem to billeder: 15 kigge-opgaver til børnehave og børnehaveklasse – træn det nøjagtige blik, gratis PDF.",
+      "winnability": "WINNABLE — SERP fragmenteret (printland, skolemælk, stock-foto-støj); ingen ejer for print-børne-intent. Ergo-/læsepublikum søger",
+      "notes": "Cluster-hoved: link herfra til shadow-match, missing-pieces, odd-one-out. 'find forskellen spil' driver mod app."
+    },
+    "visual-matching": {
+      "primaryQuery": "find magen til opgaver",
+      "evidence": "echo",
+      "title": "Find magen til – paropgaver (PDF)",
+      "h1": "Find magen til: hvilke billeder er ens?",
+      "metaDescription": "Hvilket billede er magen til? 5 paropgaver til børnehave og børnehaveklasse med hverdagsmotiver – skærp opmærksomheden, gratis at printe.",
+      "winnability": "MID niche — head 'find par' er parkering-intent; 'find magen til' rent, men kun 5 dæk: DECK-GAP",
+      "notes": "Head-ordet 'find par' polluteret (parkering/partner). Byg bestand — nabo til matching."
+    },
+    "patterns": {
+      "primaryQuery": "fortsæt mønsteret opgaver",
+      "evidence": "harvest",
+      "title": "Mønstre – fortsæt mønsteret (PDF)",
+      "h1": "Mønstre: se rækken og fortsæt den",
+      "metaDescription": "Hvordan fortsætter rækken? Opgaver i at fortsætte mønstre med former og billeder til børnehaveklasse og 1. klasse – gratis at printe.",
+      "winnability": "MID — 'mønstre opgaver matematik' verbatim; head 'mønstre' polluteret (tøj/tapet). Suggestion-familie rig",
+      "notes": "Kindergarten-kvalifikatoren tildeles pattern-train (248 dæk) — dupliker IKKE her; denne key tager den generelle mønster-longtail."
+    },
+    "position-words": {
+      "primaryQuery": "placering og retning opgaver",
+      "evidence": "echo",
+      "title": "Placering og retning – opgaver (PDF)",
+      "h1": "Placering og retning: foran, bagved, over, under",
+      "metaDescription": "Hvor ligger bolden – over, under eller ved siden af? 8 opgaver i placering og retning til børnehaveklassen – rumlig orientering, gratis PDF.",
+      "winnability": "WINNABLE niche — ren matematik-intent, SERP tynd; men kun 8 dæk: DECK-GAP",
+      "notes": "Matematik-nabo til prepositions (sprog-vinkel). Placering/retning = matematik-ord, forholdsord = dansk-ord."
+    },
+    "sorting-categories": {
+      "primaryQuery": "sortér i grupper opgaver",
+      "evidence": "echo",
+      "title": "Sortér i grupper – kategoriopgaver",
+      "h1": "Sortér i grupper: del ting i kategorier",
+      "metaDescription": "Sortér efter farve, form eller slags: kategori-opgaver til børnehave og børnehaveklasse – læg tænke-grundlaget, gratis at printe.",
+      "winnability": "SKIP som egen side (4 dæk) — 'sortér i grupper'-efterspørgsel går til picture-sort-clusteret",
+      "notes": "Hæng i picture-sort-clusteret, push ikke separat."
+    },
+    "picture-arithmetic": {
+      "primaryQuery": "regn med billeder",
+      "evidence": "echo",
+      "title": "Regn med billeder – plus og minus (PDF)",
+      "h1": "Regn med billeder: første plus og minus",
+      "metaDescription": "Først tælle billederne, så regne: 14 opgaver med billedstykker i plus og minus til 1. klasse – anskuelig regnestart, gratis som PDF.",
+      "winnability": "MID — 'regn med billeder'/'billedregning' rimeligt rent, SERP middel; eksakt content-match",
+      "notes": "Alle dæk på 1. klasse → ingen separat intersection (ville duplikere); query lever på type-siden."
+    },
+    "science-sort": {
+      "primaryQuery": "natur og teknologi opgaver",
+      "evidence": "echo",
+      "title": "Sortér i naturen – natur/teknologi (PDF)",
+      "h1": "Sortér i naturen: ordn og opdag",
+      "metaDescription": "Levesteder, årstider, natur: 90 sorteringsopgaver til natur/teknologi i børnehave og 1. klasse – ordn viden, gratis som PDF at printe.",
+      "winnability": "DEFER-TO-HUB — 'natur/teknologi X klasse' hører fag×klasse-hubben til; topic-page kun mekanik-støtte",
+      "notes": "Titlér ikke mod egen natur/teknologi-hub."
+    },
+    "science-match": {
+      "primaryQuery": "natur og teknologi forbind",
+      "evidence": "echo",
+      "title": "Find par i naturen – natur og teknologi",
+      "h1": "Find par i naturen: hvad hører sammen?",
+      "metaDescription": "Dyr til levested, redskab til fag: 10 forbindeopgaver med naturtemaer for nysgerrige børn – knyt viden sammen, gratis at printe.",
+      "winnability": "LOW (10 dæk, intet eget søgeord) — intern linkning",
+      "notes": "Støtte-side i natur/teknologi-clusteret."
+    },
+    "science-sequence": {
+      "primaryQuery": "livscyklus opgaver",
+      "evidence": "echo",
+      "title": "Rækkefølge i naturen – livscyklusser",
+      "h1": "Livscyklusser: ordn naturens rækkefølger",
+      "metaDescription": "Fra æg til larve til sommerfugl: opgaver i livscyklusser og rækkefølger til natur/teknologi – ordn naturens forløb legende, gratis PDF.",
+      "winnability": "SKIP (1 dæk) — byg bestand først",
+      "notes": "Pladsholder; ingen push før deck-produktion."
+    },
+    "beginning-sounds": {
+      "primaryQuery": "forlyd opgaver",
+      "evidence": "harvest",
+      "title": "Forlyd – hør den første lyd (PDF)",
+      "h1": "Forlyd: hør ordets første lyd",
+      "metaDescription": "Hvilken lyd starter ordet med? Forlyd-opgaver med billeder til børnehaveklassen – sproglig opmærksomhed før læsestart, gratis at printe.",
+      "winnability": "WINNABLE — 'forlyd opgaver'/'forlyd 0 klasse' verbatim, ren børnehaveklasse-term (skoleguf, legoglektie, indskolingsblogs); men kun 10 dæk: største literacy-DECK-GAP",
+      "notes": "Suggestion-familie ('forlyd 0 klasse'/'forlydsopgaver') — deck-produktion åbner en hel efterspørgselsfamilie (forlyd/indlyd/udlyd)."
+    },
+    "letter-knowledge": {
+      "primaryQuery": "bogstavkendskab opgaver",
+      "evidence": "harvest",
+      "title": "Bogstavkendskab – kend bogstaverne (PDF)",
+      "h1": "Bogstavkendskab: genkend og skeln bogstaver",
+      "metaDescription": "Find det søgte bogstav i rækken: 20 opgaver i bogstavkendskab til børnehaveklasse og skolestart – bogstavsikkerhed, gratis som PDF.",
+      "winnability": "MID — 'bogstavkendskab opgaver' verbatim, ren lærer-intent (funktionelt bogstavkendskab, test); moderat konkurrence",
+      "notes": "Beslægtet 'bogstaver'-efterspørgsel er større men skrive-lærgangs-intent (vi har ingen skriveark — vær ærlig)."
+    },
+    "word-building": {
+      "primaryQuery": "byg ord af bogstaver",
+      "evidence": "echo",
+      "title": "Byg ord af bogstaver – opgaver (PDF)",
+      "h1": "Byg ord: læg bogstaver til hele ord",
+      "metaDescription": "Bogstav for bogstav til et helt ord: 10 ordbygningsopgaver til læsestartere – styrk lyd-bogstav-forbindelsen, gratis at printe.",
+      "winnability": "LOW-MID niche (rent men lille) — 10 dæk",
+      "notes": "Longtail-nabo til forlyd-familien."
+    },
+    "picture-vocabulary": {
+      "primaryQuery": "ordforråd med billeder",
+      "evidence": "harvest",
+      "title": "Ordforråd med billeder – til print (PDF)",
+      "h1": "Ordforråd med billeder: se ordet, lær ordet",
+      "metaDescription": "Se billedet, lær ordet: ordforråds-opgaver med billeder til hverdagstemaer – ideelt til sprogstøtte og børnehaveklasse, gratis som PDF.",
+      "winnability": "WINNABLE niche — 'ordforråd opgaver'/'ordforråd dansk'/'ordforråd 1 klasse' verbatim, DSA-publikum, tynd SERP. Moat-tema (11 sprog)",
+      "notes": "Gør sprogstøtte-vinklen prominent; kun 10 dæk — byg bestand (tema-dæk findes som råstof)."
+    },
+    "phonological-awareness": {
+      "primaryQuery": "sproglig opmærksomhed opgaver",
+      "evidence": "serp",
+      "title": "Sproglig opmærksomhed – opgaver (PDF)",
+      "h1": "Sproglig opmærksomhed: hør lyde og stavelser",
+      "metaDescription": "Klap stavelser og hør lyde: 25 opgaver i sproglig opmærksomhed til børnehaveklassen – grundlaget for at lære at læse, gratis som PDF.",
+      "winnability": "WINNABLE — 'sproglig opmærksomhed opgaver'/'0 klasse'/'i børnehaveklassen' verbatim, ren børnehaveklasse-læreplansterm (emu.dk, videnomlaesning); SERP mest PDF/blogs",
+      "notes": "Kerne-børnehaveklasse-term. Intersection kindergarten (25 dæk) er den rene money-page."
+    },
+    "preschool": {
+      "primaryQuery": "opgaver til børnehavebørn",
+      "evidence": "harvest",
+      "title": "Opgaver til børnehaven – gratis til print",
+      "h1": "Børnehave: opgaver til de 3-5-årige",
+      "metaDescription": "Opgaver til børnehavebørn: sammenlign mængder, mønstre, opmærksomhed og de første bogstaver – alt gratis som PDF at printe eller spille online.",
+      "winnability": "HARD head (legoglektie, farverigedage, skolehacks 'førskoleopgaver'); styrk med demand-title + under-hub-links",
+      "notes": "Harvest: 'opgaver til børnehavebørn'/'til børnehave'/'gratis til børnehavebørn' — alders-longtail (3/4/5 år) i copy."
+    },
+    "kindergarten": {
+      "primaryQuery": "opgaver til børnehaveklassen",
+      "evidence": "harvest",
+      "title": "Opgaver til børnehaveklassen – gratis (PDF)",
+      "h1": "Børnehaveklasse: opgaver til 0. klasse",
+      "metaDescription": "Det største område: opgaver til børnehaveklassen fra find skyggen til de første plusstykker – gratis at printe eller øve direkte online.",
+      "winnability": "HARD head (legoglektie 0. klasse, skoleguf, gratisskole); MID via '0. klasse'/'børnehaveklasse'-varianter. Fordelerside til type-intersections",
+      "notes": "DK: 'børnehaveklasse' = 0. klasse (5-6 år). Harvest: 'opgaver til 0. klasse'/'til børnehaveklassen'. Brug BEGGE termer."
+    },
+    "grade-1": {
+      "primaryQuery": "opgaver til 1. klasse",
+      "evidence": "harvest",
+      "title": "Opgaver til 1. klasse – gratis til print",
+      "h1": "1. klasse: opgaver til dansk, matematik og logik",
+      "metaDescription": "Opgaver til 1. klasse: regn op til 20, ordsøgning, bogstavpuslespil og lær klokken – med facit, gratis som PDF eller spilbart online.",
+      "winnability": "HARD head (legoglektie, gratisskole, printbar); styrk + link til type-intersections",
+      "notes": "Harvest-familie rig ('opgaver til 1 klasse dansk/matematik/print'). Niveau-hub som fordeler til 1.-klasse-intersections."
+    },
+    "grade-2": {
+      "primaryQuery": "opgaver til 2. klasse",
+      "evidence": "harvest",
+      "title": "Opgaver til 2. klasse – gratis til print",
+      "h1": "2. klasse: opgaver til matematik, dansk og gåder",
+      "metaDescription": "Opgaver til 2. klasse: kryds og tværs, lær klokken, geometri og regn op til 100 – hvert ark med facit, gratis som PDF eller online.",
+      "winnability": "HARD head; styrk som fordelerside. 2.-klasse-dækbestanden er tyndeste kerne-niveau",
+      "notes": "Harvest: 'opgaver til 2 klasse dansk/matematik'. Klasse-2-bestand er flaskehalsen (klokken/geometri/krydsord skæver mod 2. klasse)."
+    },
+    "grade-3": {
+      "primaryQuery": "opgaver til 3. klasse",
+      "evidence": "echo",
+      "title": "Opgaver til 3. klasse – gratis til print",
+      "h1": "3. klasse: opgaver til at øve og knække",
+      "metaDescription": "Opgaver til 3. klasse: klokken på minuttet, første brøker, gangestykker og geometri – hvert ark med facit, gratis som PDF at printe eller løse online.",
+      "winnability": "LOW prioritet — K-3-kant, head hårdt. Kun basispleje",
+      "notes": "Ingen udbygning før 1./2.-klasse-mætning."
+    },
+    "animals": {
+      "primaryQuery": "dyr opgaver",
+      "evidence": "harvest",
+      "title": "Opgaver Dyr – gratis til print",
+      "h1": "Dyr: opgaver om dyreverdenen",
+      "metaDescription": "156 dyre-opgaver: tæl dyr, forbind billeder, gæt dyreord – til børnehave og indskoling, hvert ark gratis som PDF eller spilbart online.",
+      "winnability": "MID — 'dyr opgaver' verbatim; SERP blander natur/teknologi og biologi. Børnehave/øve-vinklen åben",
+      "notes": "Største tema (156 dæk). 'skovens dyr opgaver' longtail — link til forest_creatures."
+    },
+    "fruits": {
+      "primaryQuery": "frugt opgaver børn",
+      "evidence": "echo",
+      "title": "Opgaver Frugter – gratis til print",
+      "h1": "Frugter: opgaver til at tælle og forbinde",
+      "metaDescription": "Tæl æbler, forbind frugter, gæt frugtord: 116 opgaver om frugt til børnehave og børnehaveklasse – gratis som PDF at printe.",
+      "winnability": "MID niche — echo-evidens; 'frugt'/'frugt og grønt' ren børne-intent",
+      "notes": "Nabo til vegetables; 'frugt og grønt' kan slå bro."
+    },
+    "vehicles": {
+      "primaryQuery": "køretøjer opgaver børn",
+      "evidence": "echo",
+      "title": "Opgaver Køretøjer – gratis til print",
+      "h1": "Køretøjer: opgaver fra bil til gravemaskine",
+      "metaDescription": "Biler, gravemaskiner, brandbiler: 111 køretøjs-opgaver til at tælle, forbinde og gætte – mange børns yndlingstema, gratis som PDF.",
+      "winnability": "MID niche — echo-evidens, tynd SERP",
+      "notes": "Populært tema; god indgang via deck-landings."
+    },
+    "toys": {
+      "primaryQuery": "legetøj opgaver børn",
+      "evidence": "echo",
+      "title": "Opgaver Legetøj – gratis til print",
+      "h1": "Legetøj: opgaver om børns yndlingsting",
+      "metaDescription": "Bolde, bamser, byggeklodser: 107 legetøjs-opgaver til at tælle, sortere og forbinde – til børnehave og børnehaveklasse, gratis som PDF.",
+      "winnability": "LOW-MID niche — echo-evidens",
+      "notes": "Bredt børnehave-tema; monetariser via deck-landings."
+    },
+    "shapes": {
+      "primaryQuery": "former opgaver",
+      "evidence": "harvest",
+      "title": "Opgaver Former – børnehave & 0. klasse",
+      "h1": "Former: cirkel, trekant, firkant",
+      "metaDescription": "Cirkel, trekant, firkant: 95 opgaver om former til at genkende, forbinde og sortere for børnehave og børnehaveklasse – gratis som PDF.",
+      "winnability": "WINNABLE mid — 'former opgaver'/'former og figurer opgaver' verbatim; SERP moderat",
+      "notes": "Læg bro til geometry (1. klasse+) i copy."
+    },
+    "flowers": {
+      "primaryQuery": "blomster opgaver børn",
+      "evidence": "echo",
+      "title": "Opgaver Blomster – gratis til print",
+      "h1": "Blomster: opgaver om havens farver",
+      "metaDescription": "Tulipaner, solsikker, forglemmigej: 69 blomster-opgaver til at tælle, forbinde og sortere for børnehave og indskoling – gratis som PDF.",
+      "winnability": "LOW-MID niche — echo-evidens",
+      "notes": "Nabo til spring-temaet (sæsonbetonet, egen hub)."
+    },
+    "clothing": {
+      "primaryQuery": "tøj opgaver",
+      "evidence": "harvest",
+      "title": "Opgaver Tøj – gratis til print",
+      "h1": "Tøj: opgaver om det vi tager på",
+      "metaDescription": "Bukser, hue, støvler: 58 tøj-opgaver til at tælle, forbinde og navngive for børnehave og børnehaveklasse – ordforråd og logik, gratis PDF.",
+      "winnability": "LOW-MID niche — 'tøj opgaver' verbatim men tynd",
+      "notes": "God DSA/sprogstøtte-vinkel (påklædnings-ordforråd)."
+    },
+    "vegetables": {
+      "primaryQuery": "grøntsager opgaver børn",
+      "evidence": "echo",
+      "title": "Opgaver Grøntsager – gratis til print",
+      "h1": "Grøntsager: opgaver om det grønne",
+      "metaDescription": "Gulerødder, tomater, agurker: 58 grøntsags-opgaver til at tælle, sortere og forbinde for børnehave og indskoling – gratis som PDF.",
+      "winnability": "LOW-MID niche — echo-evidens; 'frugt og grønt'-nabo",
+      "notes": "Slå bro til fruits ('frugt og grønt')."
+    },
+    "pets": {
+      "primaryQuery": "kæledyr opgaver",
+      "evidence": "harvest",
+      "title": "Opgaver Kæledyr – gratis til print",
+      "h1": "Kæledyr: opgaver om vores dyrevenner",
+      "metaDescription": "Hund, kat, kanin, marsvin: 58 kæledyrs-opgaver til at tælle, forbinde og gætte for børnehave og børnehaveklasse – gratis som PDF.",
+      "winnability": "LOW-MID niche — 'kæledyr opgaver' verbatim",
+      "notes": "Nabo til animals; populært børnehave-tema."
+    },
+    "body_parts": {
+      "primaryQuery": "kroppen opgaver børn",
+      "evidence": "echo",
+      "title": "Opgaver Kroppen – gratis til print",
+      "h1": "Kroppen: opgaver om kropsdele",
+      "metaDescription": "Hoved, skulder, knæ og tå: 58 opgaver om kroppens dele til at navngive og forbinde for børnehave og børnehaveklasse – gratis som PDF.",
+      "winnability": "LOW-MID niche — echo-evidens; ren børnehave/DSA-intent",
+      "notes": "God sprogstøtte-vinkel (krops-ordforråd)."
+    },
+    "space": {
+      "primaryQuery": "rummet opgaver",
+      "evidence": "harvest",
+      "title": "Opgaver Rummet – gratis til print",
+      "h1": "Rummet: opgaver om planeter og raketter",
+      "metaDescription": "Planeter, raketter, astronauter: 58 rum-opgaver til at tælle, forbinde og gætte for børnehave og indskoling – gratis som PDF at printe.",
+      "winnability": "MID niche — 'rummet opgaver' verbatim, populært børne-tema",
+      "notes": "Højt engagement; god indgang via deck-landings."
+    },
+    "occupations": {
+      "primaryQuery": "erhverv opgaver børn",
+      "evidence": "echo",
+      "title": "Opgaver Erhverv – gratis til print",
+      "h1": "Erhverv: opgaver om job og fag",
+      "metaDescription": "Læge, brandmand, bager: 57 opgaver om erhverv til at forbinde og navngive for børnehave og børnehaveklasse – ordforråd, gratis som PDF.",
+      "winnability": "LOW-MID niche — echo-evidens",
+      "notes": "God DSA-vinkel; nabo til science-match (redskab til fag)."
+    },
+    "zoo_animals": {
+      "primaryQuery": "zoo dyr opgaver børn",
+      "evidence": "echo",
+      "title": "Opgaver Zoo-dyr – gratis til print",
+      "h1": "Zoo-dyr: opgaver om løver og elefanter",
+      "metaDescription": "Elefanter, løver, giraffer: 57 zoo-opgaver til at tælle, forbinde og gætte for børnehave og indskoling – gratis som PDF at printe.",
+      "winnability": "LOW-MID niche — echo-evidens; 'zoo bingo' longtail (teigo)",
+      "notes": "Nabo til animals; billed-bingo-longtail."
+    },
+    "forest_creatures": {
+      "primaryQuery": "skovdyr opgaver",
+      "evidence": "harvest",
+      "title": "Opgaver Skovdyr – gratis til print",
+      "h1": "Skovdyr: opgaver om skovens dyr",
+      "metaDescription": "Ræv, egern, hjort, pindsvin: 57 skovdyrs-opgaver til at tælle, forbinde og sortere for børnehave og indskoling – gratis som PDF.",
+      "winnability": "MID niche — 'skovens dyr opgaver' verbatim harvest",
+      "notes": "'skovens dyr' er verbatim demand — brug i copy. Nabo til animals."
+    },
+    "ocean_life": {
+      "primaryQuery": "havdyr opgaver børn",
+      "evidence": "echo",
+      "title": "Opgaver Havliv – gratis til print",
+      "h1": "Havliv: opgaver om havets dyr",
+      "metaDescription": "Fisk, krabber, blæksprutter: 57 havlivs-opgaver til at tælle, forbinde og gætte for børnehave og indskoling – gratis som PDF at printe.",
+      "winnability": "LOW-MID niche — echo-evidens",
+      "notes": "Nabo til animals; populært børne-tema."
+    },
+    "farm_animals": {
+      "primaryQuery": "bondegårdsdyr opgaver",
+      "evidence": "harvest",
+      "title": "Opgaver Bondegårdsdyr – gratis til print",
+      "h1": "Bondegårdsdyr: opgaver fra ko til høne",
+      "metaDescription": "Ko, gris, høne, får: 56 bondegårds-opgaver til at tælle, forbinde og navngive for børnehave og børnehaveklasse – gratis som PDF.",
+      "winnability": "LOW-MID niche — 'bondegårdsdyr opgaver' verbatim",
+      "notes": "Verbatim demand; klassisk børnehave-tema."
+    },
+    "music": {
+      "primaryQuery": "musik opgaver",
+      "evidence": "harvest",
+      "title": "Opgaver Musik – gratis til print",
+      "h1": "Musik: opgaver om instrumenter og lyd",
+      "metaDescription": "Trommer, guitar, klaver: 54 musik-opgaver til at tælle, forbinde og navngive instrumenter for børnehave og indskoling – gratis som PDF.",
+      "winnability": "LOW niche — 'musik opgaver' verbatim men skæver mod mellemtrin (nodelære); hold børnehave-vinklen",
+      "notes": "Undgå node-/teori-head (mellemtrin); her instrument-ordforråd med billeder."
+    },
+    "dinosaurs": {
+      "primaryQuery": "dinosaurer opgaver",
+      "evidence": "harvest",
+      "title": "Opgaver Dinosaurer – gratis til print",
+      "h1": "Dinosaurer: opgaver om fortidens kæmper",
+      "metaDescription": "T-rex, triceratops, brachiosaurus: 45 dino-opgaver til at tælle, forbinde og gætte for børnehave og indskoling – gratis som PDF at printe.",
+      "winnability": "MID niche — 'dinosaurer opgaver' verbatim, højt børne-engagement (farverigedage 'dinosaur opgaver')",
+      "notes": "Stærkt engagement-tema; god deck-landing-indgang."
+    },
+    "colors": {
+      "primaryQuery": "farver opgaver",
+      "evidence": "harvest",
+      "title": "Opgaver Farver – gratis til print",
+      "h1": "Farver: opgaver om at genkende farver",
+      "metaDescription": "Rød, blå, gul, grøn: 50 farve-opgaver til at genkende, sortere og forbinde farver for børnehave og børnehaveklasse – gratis som PDF.",
+      "winnability": "LOW-MID niche — 'farver opgaver' verbatim (dog delvis tysk-glosetræning i harvest)",
+      "notes": "Hold dansk børnehave-vinkel; ikke gloseliste-intent."
+    },
+    "emotions": {
+      "primaryQuery": "følelser opgaver",
+      "evidence": "harvest",
+      "title": "Opgaver Følelser – gratis til print",
+      "h1": "Følelser: opgaver om glad, ked og vred",
+      "metaDescription": "Glad, ked af det, vred, bange: 52 følelses-opgaver til at genkende og navngive følelser for børnehave og børnehaveklasse – gratis som PDF.",
+      "winnability": "MID niche — 'følelser opgaver' verbatim; trivsel/SEL-vinkel efterspurgt",
+      "notes": "Trivsel/SEL-vinkel; god sprogstøtte og børnehaveklasse-relevans."
+    },
+    "insects_and_bugs": {
+      "primaryQuery": "insekter opgaver børn",
+      "evidence": "echo",
+      "title": "Opgaver Insekter – gratis til print",
+      "h1": "Insekter og kryb: opgaver om de små dyr",
+      "metaDescription": "Mariehøns, sommerfugle, myrer: 52 insekt-opgaver til at tælle, forbinde og sortere for børnehave og indskoling – gratis som PDF at printe.",
+      "winnability": "LOW-MID niche — echo-evidens",
+      "notes": "Nabo til animals; forår/natur-vinkel."
+    },
+    "tools": {
+      "primaryQuery": "værktøj opgaver børn",
+      "evidence": "echo",
+      "title": "Opgaver Værktøj – gratis til print",
+      "h1": "Værktøj: opgaver om hammer og sav",
+      "metaDescription": "Hammer, sav, skruetrækker: 53 værktøjs-opgaver til at tælle, forbinde og navngive for børnehave og indskoling – gratis som PDF.",
+      "winnability": "LOW niche — echo-evidens",
+      "notes": "Nabo til occupations (håndværker-fag)."
+    },
+    "birds": {
+      "primaryQuery": "fugle opgaver",
+      "evidence": "harvest",
+      "title": "Opgaver Fugle – gratis til print",
+      "h1": "Fugle: opgaver om fjer og næb",
+      "metaDescription": "Spurve, ugler, ænder: 47 fugle-opgaver til at tælle, forbinde og gætte for børnehave og indskoling – gratis som PDF at printe eller spille online.",
+      "winnability": "MID niche — 'fugle opgaver'/'fugle opgaver børn' verbatim",
+      "notes": "Verbatim demand; nabo til animals."
+    },
+    "bakery": {
+      "primaryQuery": "bageri opgaver børn",
+      "evidence": "echo",
+      "title": "Opgaver Bageri – gratis til print",
+      "h1": "Bageri: opgaver om brød og kager",
+      "metaDescription": "Boller, kager, brød: 69 bageri-opgaver til at tælle, forbinde og navngive for børnehave og børnehaveklasse – ordforråd, gratis som PDF.",
+      "winnability": "LOW-MID niche — echo-evidens",
+      "notes": "Nabo til desserts_and_sweets; god sprogstøtte-vinkel."
+    },
+    "kitchen_tools": {
+      "primaryQuery": "køkkenredskaber opgaver børn",
+      "evidence": "echo",
+      "title": "Opgaver Køkkenredskaber – til print",
+      "h1": "Køkkenredskaber: opgaver om ske og gaffel",
+      "metaDescription": "Ske, gaffel, gryde, pisker: 59 opgaver om køkkenredskaber til at forbinde og navngive for børnehave og indskoling – gratis som PDF.",
+      "winnability": "LOW niche — echo-evidens",
+      "notes": "God DSA/hverdags-ordforråd-vinkel."
+    },
+    "weather": {
+      "primaryQuery": "vejr opgaver",
+      "evidence": "harvest",
+      "title": "Opgaver Vejr – gratis til print",
+      "h1": "Vejr: opgaver om sol, regn og sne",
+      "metaDescription": "Sol, regn, sne, vind: 56 vejr-opgaver til at forbinde, sortere og navngive vejrtyper for børnehave og børnehaveklasse – gratis som PDF.",
+      "winnability": "LOW-MID niche — 'vejr opgaver' verbatim",
+      "notes": "Ikke-sæsonbetonet (vejr generelt); god børnehaveklasse-relevans."
+    }
+  },
+  "intersections": [
+    {
+      "key": "addition__kindergarten",
+      "type": "addition",
+      "level": "kindergarten",
+      "query": "matematik opgaver addition",
+      "decks": 196,
+      "title": "Addition i børnehaveklassen – plus (PDF)",
+      "h1": "Første plusstykker for børnehaveklassen",
+      "metaDescription": "Lær at lægge sammen i små skridt: 196 additionsopgaver med billeder til børnehaveklassen – plus op til 10, gratis som PDF eller spilbart online."
+    },
+    {
+      "key": "kindergarten__subtraction",
+      "type": "subtraction",
+      "level": "kindergarten",
+      "query": "matematik opgaver 0 klasse minus",
+      "decks": 195,
+      "title": "Subtraktion i børnehaveklassen – minus",
+      "h1": "Første minusstykker for børnehaveklassen",
+      "metaDescription": "Træk fra med billeder som støtte: 195 subtraktionsopgaver til børnehaveklassen – minus op til 10 med facit, gratis at printe eller løse online."
+    },
+    {
+      "key": "grade-1__math-puzzle",
+      "type": "math-puzzle",
+      "level": "grade-1",
+      "query": "matematik puslespil 1 klasse",
+      "decks": 140,
+      "title": "Matematikpuslespil 1. klasse (PDF)",
+      "h1": "Matematikpuslespil for 1. klasse",
+      "metaDescription": "Knæk frem for at drille: 140 talpuslespil til 1. klasse med symbol-ligninger og facit – talforståelse legende, gratis som PDF at printe."
+    },
+    {
+      "key": "more-less__preschool",
+      "type": "more-less",
+      "level": "preschool",
+      "query": "mere eller mindre børnehave",
+      "decks": 148,
+      "title": "Mere eller mindre – opgaver til børnehaven",
+      "h1": "Mere eller mindre for børnehavebørn",
+      "metaDescription": "Hvor er der flest, hvor er der færrest? 148 opgaver til børnehavebørn i at sammenligne mængder uden at tælle – gratis som PDF eller online."
+    },
+    {
+      "key": "big-small__preschool",
+      "type": "big-small",
+      "level": "preschool",
+      "query": "stor eller lille børnehave",
+      "decks": 93,
+      "title": "Stor eller lille i børnehaven (PDF)",
+      "h1": "Stor eller lille for børnehavebørn",
+      "metaDescription": "Hvad er størst, hvad er mindst? 93 børnehaveopgaver, hvor barnet sammenligner størrelser på kendte ting – blik for forskelle, gratis som PDF."
+    },
+    {
+      "key": "find-and-count__preschool",
+      "type": "find-and-count",
+      "level": "preschool",
+      "query": "find og tæl børnehave",
+      "decks": 93,
+      "title": "Find og tæl – opgaver til børnehaven",
+      "h1": "Find og tæl for børnehavebørn",
+      "metaDescription": "Find motiverne og tæl dem: 93 find-og-tæl-opgaver til børnehaven – mængdeforståelse og koncentration i ét, gratis som PDF at printe."
+    },
+    {
+      "key": "kindergarten__sudoku",
+      "type": "sudoku",
+      "level": "kindergarten",
+      "query": "sudoku for børn",
+      "decks": 99,
+      "title": "Billedsudoku for børn – 4x4 (PDF)",
+      "h1": "Billedsudoku til børnehaveklassen",
+      "metaDescription": "Sudoku uden tal: i 4x4-felterne kommer billeder – perfekt til børnehaveklassen. 99 billedsudokuer med facit, gratis at printe eller løse online."
+    },
+    {
+      "key": "kindergarten__odd-one-out",
+      "type": "odd-one-out",
+      "level": "kindergarten",
+      "query": "hvilken passer ikke",
+      "decks": 103,
+      "title": "Hvilken passer ikke? – børnehaveklasse",
+      "h1": "Hvilken passer ikke i børnehaveklassen?",
+      "metaDescription": "Fire billeder, ét passer ikke: 103 logik-opgaver til børnehaveklassen – genkend kategorier og skil ud, gratis som PDF at printe eller online."
+    },
+    {
+      "key": "kindergarten__shadow-match",
+      "type": "shadow-match",
+      "level": "kindergarten",
+      "query": "find skyggen børnehaveklasse",
+      "decks": 95,
+      "title": "Find skyggen – børnehaveklasse (PDF)",
+      "h1": "Find skyggen i børnehaveklassen",
+      "metaDescription": "Hvilken skygge hører til billedet? 95 skyggegåder til børnehaveklassen, der træner visuel opmærksomhed – gratis som PDF eller spilbart online."
+    },
+    {
+      "key": "kindergarten__matching",
+      "type": "matching",
+      "level": "kindergarten",
+      "query": "forbind billeder børnehaveklasse",
+      "decks": 93,
+      "title": "Forbind billeder – børnehaveklasse (PDF)",
+      "h1": "Forbind billeder i børnehaveklassen",
+      "metaDescription": "Hvad hører sammen? 93 matchopgaver med billeder til børnehaveklassen – find par og styrk ordforråd og logik, gratis som PDF at printe."
+    },
+    {
+      "key": "find-objects__kindergarten",
+      "type": "find-objects",
+      "level": "kindergarten",
+      "query": "find tingene børnehaveklasse",
+      "decks": 96,
+      "title": "Find tingene – børnehaveklasse (PDF)",
+      "h1": "Find tingene i børnehaveklassen",
+      "metaDescription": "Spot de skjulte ting i billedet: 96 find-opgaver til børnehaveklassen, der træner det nøjagtige blik – gratis som PDF eller online."
+    },
+    {
+      "key": "kindergarten__picture-sort",
+      "type": "picture-sort",
+      "level": "kindergarten",
+      "query": "sortér billeder børnehaveklasse",
+      "decks": 213,
+      "title": "Sortér billeder – børnehaveklasse (PDF)",
+      "h1": "Sortér billeder i børnehaveklassen",
+      "metaDescription": "Dyr til dyr, køretøjer til køretøjer: 213 sorteringsopgaver til børnehaveklassen, hvor barnet ordner billeder i grupper – gratis som PDF."
+    },
+    {
+      "key": "kindergarten__pattern-train",
+      "type": "pattern-train",
+      "level": "kindergarten",
+      "query": "mønstre 0 klasse",
+      "decks": 248,
+      "title": "Mønstre – børnehaveklasse (PDF)",
+      "h1": "Fortsæt mønsteret i børnehaveklassen",
+      "metaDescription": "Hvilken vogn kommer nu? 248 mønstertog-opgaver til børnehaveklassen i at fortsætte mønsteret – logisk tænkning, gratis at printe eller spille online."
+    },
+    {
+      "key": "kindergarten__prepositions",
+      "type": "prepositions",
+      "level": "kindergarten",
+      "query": "præpositioner børnehaveklasse",
+      "decks": 99,
+      "title": "Forholdsord – børnehaveklasse (PDF)",
+      "h1": "Forholdsord i børnehaveklassen",
+      "metaDescription": "Hvor er bolden – i, på eller under? 99 billedopgaver med forholdsord til børnehaveklassen – ideelt til sprogstøtte, gratis som PDF."
+    },
+    {
+      "key": "grade-1__word-scramble",
+      "type": "word-scramble",
+      "level": "grade-1",
+      "query": "bogstavpuslespil 1 klasse",
+      "decks": 97,
+      "title": "Bogstavpuslespil 1. klasse (PDF)",
+      "h1": "Bogstavpuslespil for 1. klasse",
+      "metaDescription": "Sæt bogstaverne i rækkefølge: 97 bogstavpuslespil med billedhjælp til 1. klasse – stav de første ord sikkert, gratis som PDF at printe."
+    },
+    {
+      "key": "grade-1__wordsearch",
+      "type": "wordsearch",
+      "level": "grade-1",
+      "query": "find ord 1 klasse",
+      "decks": 49,
+      "title": "Ordsøgning 1. klasse – find ord (PDF)",
+      "h1": "Ordsøgning for 1. klasse",
+      "metaDescription": "Find ordene i bogstavfeltet: 49 ordsøgninger med temaord til 1. klasse – læsetræning med sjov, gratis som PDF eller spilbart online."
+    },
+    {
+      "key": "crossword__grade-2",
+      "type": "crossword",
+      "level": "grade-2",
+      "query": "krydsord 2. klasse",
+      "decks": 49,
+      "title": "Kryds og tværs 2. klasse – til print",
+      "h1": "Kryds og tværs for 2. klasse",
+      "metaDescription": "Billed-kryds-og-tværs til 2. klasse: barnet navngiver motivet og skriver ordet. 49 gåder for læsere med facit – gratis som PDF at printe."
+    },
+    {
+      "key": "grade-1__treasure-hunt",
+      "type": "treasure-hunt",
+      "level": "grade-1",
+      "query": "skattejagt 1 klasse",
+      "decks": 99,
+      "title": "Skattejagt 1. klasse – opgaver (PDF)",
+      "h1": "Skattejagt-opgaver til 1. klasse",
+      "metaDescription": "Følg ruten over spillepladen frem til skatten: 99 skattejagt-gåder til 1. klasse – orientering og logik, gratis at printe eller spille online."
+    },
+    {
+      "key": "bingo__kindergarten",
+      "type": "bingo",
+      "level": "kindergarten",
+      "query": "billedbingo børnehaveklasse",
+      "decks": 77,
+      "title": "Billedbingo – børnehaveklasse (PDF)",
+      "h1": "Billedbingo til børnehaveklassen",
+      "metaDescription": "Bingo med billeder i stedet for tal: 77 færdige spilleplader til børnehaveklassen – print pladerne gratis og spil med det samme i gruppen."
+    },
+    {
+      "key": "alphabet-train__preschool",
+      "type": "alphabet-train",
+      "level": "preschool",
+      "query": "alfabetet børnehave",
+      "decks": 74,
+      "title": "Alfabettoget – børnehave (PDF)",
+      "h1": "Alfabettoget for børnehavebørn",
+      "metaDescription": "Sæt de manglende bogstaver ind i toget: 74 ABC-opgaver til børnehavebørn i alfabetet og bogstavrækken – gratis at printe eller løse online."
+    },
+    {
+      "key": "kindergarten__letter-knowledge",
+      "type": "letter-knowledge",
+      "level": "kindergarten",
+      "query": "bogstavkendskab 0 klasse",
+      "decks": 20,
+      "title": "Bogstavkendskab – børnehaveklasse (PDF)",
+      "h1": "Bogstavkendskab i børnehaveklassen",
+      "metaDescription": "Find det søgte bogstav i rækken: 20 opgaver i bogstavkendskab til børnehaveklassen – bogstavsikkerhed før læsestart, gratis som PDF."
+    },
+    {
+      "key": "kindergarten__phonological-awareness",
+      "type": "phonological-awareness",
+      "level": "kindergarten",
+      "query": "sproglig opmærksomhed 0 klasse",
+      "decks": 25,
+      "title": "Sproglig opmærksomhed – 0. klasse (PDF)",
+      "h1": "Sproglig opmærksomhed i børnehaveklassen",
+      "metaDescription": "Klap stavelser og hør lyde: 25 opgaver i sproglig opmærksomhed til børnehaveklassen – grundlaget for at lære at læse, gratis som PDF at printe."
+    },
+    {
+      "key": "grade-1__telling-time",
+      "type": "telling-time",
+      "level": "grade-1",
+      "query": "lær klokken 1 klasse",
+      "decks": 21,
+      "title": "Lær klokken 1. klasse – hele timer",
+      "h1": "Lær klokken i 1. klasse",
+      "metaDescription": "Hele og halve timer på viserur: 21 opgaver i at lære klokken til 1. klasse – tegn viserne og skriv tiden, gratis som PDF eller online."
+    },
+    {
+      "key": "grade-2__telling-time",
+      "type": "telling-time",
+      "level": "grade-2",
+      "query": "lær klokken 2 klasse",
+      "decks": 20,
+      "title": "Lær klokken 2. klasse – kvarter (PDF)",
+      "h1": "Lær klokken i 2. klasse",
+      "metaDescription": "Kvarter over, halv og kvarter i: 20 opgaver i at aflæse klokken til 2. klasse – viserur med facit, gratis at printe eller øve online."
+    },
+    {
+      "key": "grade-3__telling-time",
+      "type": "telling-time",
+      "level": "grade-3",
+      "query": "lær klokken 3 klasse",
+      "decks": 40,
+      "title": "Lær klokken 3. klasse – på minuttet",
+      "h1": "Lær klokken i 3. klasse",
+      "metaDescription": "Klokken på minuttet: 40 opgaver i at aflæse viserur ned til fem minutter til 3. klasse – sikker aflæsning med facit, gratis som PDF."
+    },
+    {
+      "key": "fractions__grade-2",
+      "type": "fractions",
+      "level": "grade-2",
+      "query": "brøker 2 klasse",
+      "decks": 34,
+      "title": "Brøker 2. klasse – halve og kvarte",
+      "h1": "Første brøker i 2. klasse",
+      "metaDescription": "Halv, kvart og hel anskueligt: 34 brøkopgaver med billeder til 2. klasse i at farve og forbinde – første brøkforestilling, gratis som PDF."
+    },
+    {
+      "key": "fractions__grade-3",
+      "type": "fractions",
+      "level": "grade-3",
+      "query": "brøker 3 klasse",
+      "decks": 34,
+      "title": "Brøker 3. klasse – halve, kvarte, tredjedele",
+      "h1": "Brøker i 3. klasse",
+      "metaDescription": "Halve, kvarte og tredjedele: 34 brøkopgaver med billeder til 3. klasse i at genkende og forbinde brøkdele – gratis som PDF at printe."
+    },
+    {
+      "key": "geometry__grade-2",
+      "type": "geometry",
+      "level": "grade-2",
+      "query": "geometri 2 klasse former",
+      "decks": 17,
+      "title": "Geometri 2. klasse – former og figurer",
+      "h1": "Geometri i 2. klasse",
+      "metaDescription": "Genkend former, skeln flader fra figurer: 17 geometri-opgaver til 2. klasse med former og figurer – gratis som PDF med facit."
+    },
+    {
+      "key": "geometry__grade-3",
+      "type": "geometry",
+      "level": "grade-3",
+      "query": "geometri 3 klasse",
+      "decks": 14,
+      "title": "Geometri 3. klasse – former og figurer",
+      "h1": "Geometri i 3. klasse",
+      "metaDescription": "Former, figurer og rumlige former: 14 geometri-opgaver til 3. klasse i at genkende og skelne – gratis som PDF at printe, facit inklusive."
+    },
+    {
+      "key": "grade-1__measurement",
+      "type": "measurement",
+      "level": "grade-1",
+      "query": "måling 1. klasse",
+      "decks": 12,
+      "title": "Måling 1. klasse – mål og sammenlign",
+      "h1": "Måling i 1. klasse",
+      "metaDescription": "Med lineal og øjemål: 12 opgaver i at måle og sammenligne længder til 1. klasse i indskolingen – gratis som PDF at printe."
+    },
+    {
+      "key": "grade-1__number-charts",
+      "type": "number-charts",
+      "level": "grade-1",
+      "query": "hundredfelt 1 klasse",
+      "decks": 13,
+      "title": "Hundredfelt 1. klasse – taltavle (PDF)",
+      "h1": "Hundredfelt for 1. klasse",
+      "metaDescription": "Find tal og opdag mønstre i talrummet op til 100: 13 hundredfelt-opgaver til 1. klasse – taltavle med facit, gratis som PDF at printe."
+    },
+    {
+      "key": "arrays-multiplication__grade-2",
+      "type": "arrays-multiplication",
+      "level": "grade-2",
+      "query": "gange 2 klasse rækker",
+      "decks": 14,
+      "title": "Gange 2. klasse – rækker og felter",
+      "h1": "Første gange i 2. klasse",
+      "metaDescription": "Rækker og felter frem for udenadslære: 14 gange-opgaver med prikbilleder til 2. klasse – indgangen til multiplikation, gratis som PDF."
+    },
+    {
+      "key": "arrays-multiplication__grade-3",
+      "type": "arrays-multiplication",
+      "level": "grade-3",
+      "query": "gangetabel 3 klasse",
+      "decks": 13,
+      "title": "Gange 3. klasse – rækker og gangestykker",
+      "h1": "Gange i 3. klasse",
+      "metaDescription": "Fra prikfelter til gangestykker: 13 gange-opgaver til 3. klasse med rækker og felter – styrk multiplikationsforståelsen, gratis som PDF."
+    },
+    {
+      "key": "grade-1__pattern-worksheet",
+      "type": "pattern-worksheet",
+      "level": "grade-1",
+      "query": "mønstre 1 klasse",
+      "decks": 50,
+      "title": "Mønsterark 1. klasse – fortsæt rækken",
+      "h1": "Mønsterark for 1. klasse",
+      "metaDescription": "Former, farver og følger: 50 mønsterark til 1. klasse i at fortsætte rækken – koncentration og matematiske forudsætninger, gratis som PDF."
+    },
+    {
+      "key": "comparing-sizes__kindergarten",
+      "type": "comparing-sizes",
+      "level": "kindergarten",
+      "query": "størst og mindst børnehaveklasse",
+      "decks": 15,
+      "title": "Størst og mindst – børnehaveklasse (PDF)",
+      "h1": "Størst og mindst i børnehaveklassen",
+      "metaDescription": "Ordn fra mindst til størst: 15 opgaver til børnehaveklassen i at sortere motiver efter størrelse – første målingsforestillinger, gratis PDF."
+    },
+    {
+      "key": "kindergarten__visual-discrimination",
+      "type": "visual-discrimination",
+      "level": "kindergarten",
+      "query": "find forskellen børnehaveklasse",
+      "decks": 15,
+      "title": "Find forskellen – børnehaveklasse (PDF)",
+      "h1": "Find forskellen i børnehaveklassen",
+      "metaDescription": "Find de skjulte forskelle mellem to billeder: 15 kigge-opgaver til børnehaveklassen, der træner det nøjagtige blik – gratis som PDF."
+    },
+    {
+      "key": "grade-1__picture-arithmetic",
+      "type": "picture-arithmetic",
+      "level": "grade-1",
+      "query": "regn med billeder 1 klasse",
+      "decks": 14,
+      "title": "Regn med billeder 1. klasse (PDF)",
+      "h1": "Regn med billeder i 1. klasse",
+      "metaDescription": "Først tælle billederne, så regne: 14 billedstykker i plus og minus til 1. klasse – en anskuelig regnestart, gratis som PDF at printe."
+    },
+    {
+      "key": "grade-1__graphing-data",
+      "type": "graphing-data",
+      "level": "grade-1",
+      "query": "diagrammer 1 klasse",
+      "decks": 12,
+      "title": "Diagrammer og data 1. klasse (PDF)",
+      "h1": "Diagrammer og data i 1. klasse",
+      "metaDescription": "Aflæs søjlediagrammer og fyld dem selv: 12 opgaver i diagrammer og data til 1. klasse – første dataforståelse, gratis som PDF med facit."
+    },
+    {
+      "key": "chart-count__kindergarten",
+      "type": "chart-count",
+      "level": "kindergarten",
+      "query": "tæl og tegn diagram børnehaveklasse",
+      "decks": 50,
+      "title": "Tæl og tegn diagram – børnehaveklasse",
+      "h1": "Tæl og tegn diagram i børnehaveklassen",
+      "metaDescription": "Tæl motiverne og fyld søjlerne: 50 opgaver til børnehaveklassen, hvor barnet fører tælleresultatet ind i et diagram – gratis som PDF."
+    },
+    {
+      "key": "counting-pictures__kindergarten",
+      "type": "counting-pictures",
+      "level": "kindergarten",
+      "query": "tæl og skriv tallet børnehaveklasse",
+      "decks": 27,
+      "title": "Tæl billederne – børnehaveklasse (PDF)",
+      "h1": "Tæl billederne i børnehaveklassen",
+      "metaDescription": "Først tælle, så skrive tallet: 27 tælleark med glade motiver til børnehaveklassen – sikker omgang med mængder op til 10, gratis som PDF."
+    }
+  ]
+}

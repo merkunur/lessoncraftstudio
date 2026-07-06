@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "ten-stones.add-sub-within-20.1-oa-c-6": {
+      "about": [
+        "Lily la grenouille traverse la mare en sautant sur la piste numérique de 0 à 20 : elle se pose d'abord sur le nénuphar doré du dix, puis fait le bond qui reste pour arriver au résultat. Pour 8 + 6, votre enfant aide Lily à sauter jusqu'à 10 (8 + 2 = 10), puis à faire encore quatre bonds pour se poser sur 14. Ce sont deux bonds bien visibles sur la droite graduée, pas une règle abstraite à retenir.",
+        "L'idée forte du CP est ici « le passage de la dizaine » en calcul mental jusqu'à 20, en avant pour l'addition comme en arrière pour la soustraction : pour 13 − 4, Lily recule d'abord jusqu'à 10 (13 − 3), puis fait le dernier bond en arrière pour arriver à 9. En chemin, votre enfant découvre de premières stratégies utiles : commencer par le plus grand nombre, s'appuyer sur un double proche (7 + 8, c'est presque 7 + 7) et remarquer les familles d'opérations (8 + 6 = 14 va avec 14 − 6 = 8).",
+        "Cette activité est entièrement gratuite, sans compte, sans minuteur et sans points. Elle suit les « programmes officiels » du CP dans le domaine « Nombres et calcul » (calcul mental, le passage de la dizaine) et laisse votre enfant avancer à son rythme. C'est une vraie stratégie à comprendre, pas une course contre la montre."
+      ],
+      "practices": [
+        "Passer par 10 : sauter jusqu'au nénuphar du dix, puis faire le bond qui reste.",
+        "Trouver le complément à 10 (8 + 2, 7 + 3, 9 + 1) pour préparer le premier bond.",
+        "Additionner et soustraire jusqu'à 20 en passant par la dizaine, en avant comme en arrière.",
+        "Utiliser de premières stratégies : commencer par le plus grand nombre, s'appuyer sur un double proche, reconnaître les familles d'opérations."
+      ],
+      "howToPlay": [
+        "Lisez l'opération de Lily et observez ensemble la piste numérique de 0 à 20, avec le nénuphar doré posé sur le 10.",
+        "Aidez Lily bond par bond : d'abord le saut jusqu'à 10, puis le saut jusqu'au résultat (en arrière pour une soustraction).",
+        "Vérifiez la réponse, puis recommencez autant de fois que vous le souhaitez, sans aucune pression."
+      ],
+      "learningGoals": [
+        "Votre enfant comprend et réalise « le passage de la dizaine » sur la droite graduée, en deux bonds bien identifiés.",
+        "Il trouve les compléments à 10 et calcule aussi bien en avant qu'en arrière jusqu'à 20.",
+        "Il utilise de premières stratégies de calcul réfléchi plutôt que de compter un par un."
+      ]
+    },
     "clock-digital.read-hour.1-md-b-3": {
       "about": [
         "Sprocket le coq installe sa petite horloge à aiguilles et invite votre enfant à lire l'heure avec lui, tout doucement. Sur chaque écran, l'horloge affiche une heure pile : votre enfant l'observe, puis touche l'heure chiffrée qui correspond, écrite à la française « 3 h 00 ».",

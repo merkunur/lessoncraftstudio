@@ -860,6 +860,7 @@
 
     if (sel && sel.kind === 'character') { renderCharPanel(p, sel); return; }
     if (sel && sel.kind === 'text') { renderTextPanel(p, sel); return; }
+    if (sel && sel.kind === 'layer') { renderLayerPanel(p, sel); return; }
     if (sel && (sel.kind === 'drawable' || sel.kind === 'point')) { renderDrawablePanel(p, sel); return; }
 
     /* -------- page panel -------- */
@@ -875,12 +876,31 @@
       return TEACHER ? (stepNo + ' · ' + T(title, de)) : title;
     };
 
-    /* picture */
+    /* picture: the BACKGROUND choice + placed picture OBJECTS (scene.layers) */
     section(p, step('Picture', 'Bild'), function (box) {
       var btn = el('button', 'stu-btn', pg.scene && pg.scene.image
-        ? T('Change the picture', 'Bild ändern') : T('Pick a picture', 'Bild auswählen'));
+        ? T('Change the background', 'Hintergrund ändern') : T('Pick a background', 'Hintergrund auswählen'));
       btn.addEventListener('click', openScenePicker);
       box.appendChild(btn);
+      /* pictures placed ON the page */
+      var layers = (pg.scene && pg.scene.layers) || [];
+      if (layers.length) {
+        var chips = el('div', 'stu-chips');
+        layers.forEach(function (ly, li) {
+          var asset = S().doc.story.assets[ly.image];
+          var label = (asset && asset.vocab) || (asset && asset.src ? asset.src.split('/').pop().replace(/@2x\.webp$/i, '') : '…');
+          if (label.length > 16) label = label.slice(0, 16) + '…';
+          var chip = el('button', 'stu-chip stu-chip-btn', '🖼 ' + label);
+          chip.addEventListener('click', function () { global.StudioCanvas.select({ kind: 'layer', index: li }); });
+          chips.appendChild(chip);
+        });
+        box.appendChild(chips);
+      }
+      var addPic = el('button', 'stu-btn', T('+ Add a picture', '+ Bild hinzufügen'));
+      addPic.addEventListener('click', function () { global.StudioCanvas.addLayerHere(); });
+      box.appendChild(addPic);
+      box.appendChild(el('div', 'stu-note', T('Pictures land on the page — drag to move, pull the corner to resize.',
+        'Bilder erscheinen auf der Seite – zum Verschieben ziehen, an der Ecke skalieren.')));
     });
 
     /* text on the page (page.text[] — titles, labels, instructions) */
@@ -1436,6 +1456,55 @@
     p.insertBefore(b, p.firstChild);
   }
 
+  /* ---- placed-picture panel (selection kind 'layer') ---- */
+  function renderLayerPanel(p, sel) {
+    var pg = pageObj();
+    var ly = (pg.scene && pg.scene.layers || [])[sel.index];
+    if (!ly) { global.StudioCanvas.select(null); return; }
+    var asset = S().doc.story.assets[ly.image];
+    p.appendChild(el('h2', 'stu-h2', T('Picture', 'Bild')));
+    if (asset) {
+      var prev = el('img');
+      prev.src = asset.src;
+      prev.style.cssText = 'max-width:100%;max-height:140px;object-fit:contain;background:#fff;border-radius:10px;border:1px solid #eee3cf;';
+      p.appendChild(prev);
+    }
+    var commit = function (label, fn) {
+      mutate(label, function (draft) {
+        var item = (draft.story.pages[pgIdx()].scene && draft.story.pages[pgIdx()].scene.layers || [])[sel.index];
+        if (!item) return false;
+        fn(item);
+      });
+    };
+    var wRow = el('div', 'stu-frow');
+    wRow.appendChild(el('label', 'stu-flabel', T('Size (width on the page)', 'Größe (Breite auf der Seite)')));
+    var wInp = el('input'); wInp.type = 'number'; wInp.min = 48; wInp.max = 1600; wInp.step = 8;
+    wInp.value = ly.w || '';
+    wInp.addEventListener('change', function () {
+      var v = Math.max(48, Math.min(1600, Number(wInp.value) || 0));
+      if (!v) return;
+      var ratio = (ly.w && ly.h) ? (ly.h / ly.w) : 1;
+      commit('resize picture', function (item) {
+        item.w = v;
+        item.h = Math.max(24, Math.round(v * ratio));
+      });
+    });
+    wRow.appendChild(wInp);
+    p.appendChild(wRow);
+    p.appendChild(el('div', 'stu-note', T('Drag the picture to move it; pull the corner handle to resize. Arrow keys nudge.',
+      'Ziehen Sie das Bild an seinen Platz; an der Ecke skalieren. Pfeiltasten verschieben fein.')));
+    var del = el('button', 'stu-btn stu-btn-danger', T('Remove this picture', 'Dieses Bild entfernen'));
+    del.addEventListener('click', function () {
+      mutate('remove picture', function (draft) {
+        var arr = draft.story.pages[pgIdx()].scene && draft.story.pages[pgIdx()].scene.layers;
+        if (arr) arr.splice(sel.index, 1);
+      });
+      global.StudioCanvas.select(null);
+    });
+    p.appendChild(del);
+    backLink(p);
+  }
+
   /* ---- on-page text panel (selection kind 'text') ---- */
   function renderTextPanel(p, sel) {
     var pg = pageObj();
@@ -1657,13 +1726,13 @@
         });
       }).catch(function () { bgHead.style.display = 'none'; });
 
-      /* 2. the props/pictures library — a story background can be any library picture */
-      var libBtn = el('button', 'stu-btn', '🖼️  Use a picture from the library');
-      libBtn.addEventListener('click', function () {
-        closeDrawer();
-        openLibrary(function (src, vocabKey) { setSceneFromSrc(src, vocabKey || src); });
-      });
-      body.appendChild(libBtn);
+      /* (the old "Use a picture from the library" button REPLACED the whole
+         background with an object picture — removed 2026-07-06. Library
+         pictures are OBJECTS: place them via "+ Add a picture" on the page
+         panel. This drawer chooses only the full-page BACKGROUND.) */
+      body.appendChild(el('div', 'stu-note', T(
+        'Looking for objects (animals, food, things)? Close this and use “+ Add a picture” — pictures land on the page and can be moved and resized.',
+        'Sie suchen Objekte (Tiere, Essen, Dinge)? Schließen Sie dies und nutzen Sie „+ Bild hinzufügen“ – Bilder erscheinen auf der Seite und lassen sich verschieben und skalieren.')));
 
       /* 3. upload my own (tenant: server cover-fits to 1600×1000) */
       if (global.Studio.tenant) {

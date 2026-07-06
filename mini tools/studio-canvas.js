@@ -158,15 +158,28 @@
       empty.textContent = 'This page needs a picture — pick one in the panel on the right.';
       stage.appendChild(empty);
     }
-    (pg.scene && pg.scene.layers || []).forEach(function (ly) {
+    /* placed pictures (scene.layers) — first-class page objects:
+       selectable, draggable, corner-resizable (kept below characters,
+       matching the player's paint order) */
+    (pg.scene && pg.scene.layers || []).forEach(function (ly, li) {
       var a = story.assets[ly.image];
       if (!a) return;
-      var im = el('img', 'stu-layer');
+      var wrap = el('div', 'stu-layer');
+      wrap.dataset.li = li;
+      var im = el('img');
       im.src = a.src; im.draggable = false;
-      im.style.left = ly.x + 'px'; im.style.top = ly.y + 'px';
-      if (ly.w) im.style.width = ly.w + 'px';
-      if (ly.h) im.style.height = ly.h + 'px';
-      stage.appendChild(im);
+      wrap.appendChild(im);
+      wrap.style.left = ly.x + 'px'; wrap.style.top = ly.y + 'px';
+      if (ly.w) { wrap.style.width = ly.w + 'px'; im.style.width = '100%'; }
+      if (ly.h) { wrap.style.height = ly.h + 'px'; im.style.height = '100%'; }
+      var selL = S().selection;
+      if (selL && selL.kind === 'layer' && selL.index === li) {
+        wrap.classList.add('stu-selected');
+        var lh = el('div', 'stu-handle stu-handle-se');
+        lh.dataset.role = 'layer-resize';
+        wrap.appendChild(lh);
+      }
+      stage.appendChild(wrap);
     });
 
     /* characters */
@@ -463,6 +476,10 @@
       var ci0 = Number(t.parentNode.dataset.ci);
       var pl0 = pg.characters[ci0];
       drag = { mode: 'char-scale', ci: ci0, startPt: pt, startScale: pl0.scale || 1, anchor: pl0.anchor };
+    } else if (role === 'layer-resize') {
+      var lyHost = t.parentNode;
+      drag = { mode: 'layer-resize', li: Number(lyHost.dataset.li), startPt: pt, el: lyHost,
+               startRect: readLayerRect(lyHost) };
     } else if (role === 'zone-resize') {
       drag = { mode: 'zone-resize', corner: t.dataset.corner, startPt: pt,
                startZone: global.Studio.clone(pg.interaction.zone), el: t.parentNode };
@@ -488,6 +505,11 @@
       selQuiet({ kind: 'text', index: ti0 });
       drag = { mode: 'text-move', ti: ti0, startPt: pt, el: txEl,
                start: { x: parseFloat(txEl.style.left), y: parseFloat(txEl.style.top) } };
+    } else if (t.closest && t.closest('.stu-layer')) {
+      var lyEl = t.closest('.stu-layer');
+      var li0 = Number(lyEl.dataset.li);
+      selQuiet({ kind: 'layer', index: li0 });
+      drag = { mode: 'layer-move', li: li0, startPt: pt, el: lyEl, startRect: readLayerRect(lyEl) };
     } else if (t.closest && t.closest('.stu-zone')) {
       selQuiet({ kind: 'zone' });
       drag = { mode: 'zone-move', startPt: pt,
@@ -512,6 +534,13 @@
   function readRect(elm) {
     return { x: parseFloat(elm.style.left), y: parseFloat(elm.style.top),
              w: parseFloat(elm.style.width), h: parseFloat(elm.style.height) };
+  }
+  /* layers may lack explicit w/h (legacy natural-size sprites) — fall back
+     to the rendered box so drag/resize can normalize them */
+  function readLayerRect(elm) {
+    return { x: parseFloat(elm.style.left) || 0, y: parseFloat(elm.style.top) || 0,
+             w: parseFloat(elm.style.width) || elm.offsetWidth || 120,
+             h: parseFloat(elm.style.height) || elm.offsetHeight || 120 };
   }
 
   function onPointerMove(ev) {
@@ -567,6 +596,21 @@
     } else if (drag.mode === 'text-move') {
       drag.cur = { x: drag.start.x + dx, y: drag.start.y + dy };
       drag.el.style.left = drag.cur.x + 'px'; drag.el.style.top = drag.cur.y + 'px';
+    } else if (drag.mode === 'layer-move') {
+      drag.cur = { x: drag.startRect.x + dx, y: drag.startRect.y + dy,
+                   w: drag.startRect.w, h: drag.startRect.h };
+      drag.el.style.left = drag.cur.x + 'px'; drag.el.style.top = drag.cur.y + 'px';
+    } else if (drag.mode === 'layer-resize') {
+      /* aspect-locked: pictures keep their proportions (a corner drag never
+         squashes the art) */
+      var lw = Math.max(48, drag.startRect.w + dx);
+      var lratio = drag.startRect.h / Math.max(1, drag.startRect.w);
+      drag.cur = { x: drag.startRect.x, y: drag.startRect.y,
+                   w: lw, h: Math.max(24, Math.round(lw * lratio)) };
+      drag.el.style.width = drag.cur.w + 'px';
+      drag.el.style.height = drag.cur.h + 'px';
+      var lim = drag.el.querySelector('img');
+      if (lim) { lim.style.width = '100%'; lim.style.height = '100%'; }
     }
   }
 
@@ -643,6 +687,17 @@
         tx.x = Math.max(0, Math.min(DESIGN_W - 80, snap(d.cur.x, alt)));
         tx.y = Math.max(0, Math.min(DESIGN_H - 40, snap(d.cur.y, alt)));
       });
+    } else if ((d.mode === 'layer-move' || d.mode === 'layer-resize') && d.cur) {
+      global.Studio.mutate(d.mode === 'layer-move' ? 'move picture' : 'resize picture', function (draft) {
+        var dpg = draft.story.pages[S().pageIndex];
+        var ly = (dpg.scene && dpg.scene.layers || [])[d.li];
+        if (!ly) return false;
+        var w = Math.max(48, snap(d.cur.w, alt));
+        var h = Math.max(24, snap(d.cur.h, alt));
+        ly.w = w; ly.h = h;   /* always write both — normalizes legacy natural-size layers */
+        ly.x = Math.max(-Math.round(w / 2), Math.min(DESIGN_W - Math.round(w / 2), snap(d.cur.x, alt)));
+        ly.y = Math.max(-Math.round(h / 2), Math.min(DESIGN_H - Math.round(h / 2), snap(d.cur.y, alt)));
+      });
     } else {
       render();   /* no-op drag (a plain click): reflect the new selection */
     }
@@ -668,6 +723,39 @@
     placeMode = { kind: 'text' };
     host.classList.add('stu-placing');
   }
+  /* "+ Add a picture": pick from the library (or upload your own — the
+     picker's built-in upload) → the picture lands ON the page immediately as
+     a movable, resizable object (scene.layers). Sized from its natural
+     aspect at ~360du wide; repeats step down-right so they don't stack. */
+  function addLayerHere() {
+    if (!pageObj()) return;
+    global.StudioInspector.openLibrary(function (src, vocabKey) {
+      var probe = new Image();
+      probe.onload = function () {
+        var pg2 = pageObj();
+        if (!pg2) return;
+        var n = (pg2.scene && pg2.scene.layers || []).length;
+        var natW = probe.naturalWidth || 360, natH = probe.naturalHeight || 360;
+        var w = Math.min(360, natW);
+        var h = Math.max(24, Math.round(w * natH / natW));
+        var x = snap(Math.max(0, Math.min(DESIGN_W - w, 620 + n * 48)));
+        var y = snap(Math.max(0, Math.min(DESIGN_H - h, 300 + n * 48)));
+        var placed = -1;
+        global.Studio.mutate('add picture', function (draft) {
+          var dpg = draft.story.pages[S().pageIndex];
+          var id = global.Studio.ensureImageAsset(draft, src, vocabKey);
+          dpg.scene = dpg.scene || {};
+          dpg.scene.layers = dpg.scene.layers || [];
+          dpg.scene.layers.push({ image: id, x: x, y: y, w: w, h: h });
+          placed = dpg.scene.layers.length - 1;
+        });
+        select({ kind: 'layer', index: placed });
+      };
+      probe.onerror = function () {};
+      probe.src = src;
+    });
+  }
+
   /* the addCharacterHere precedent: "+ Add text" places IMMEDIATELY (no
      hidden click-the-canvas step) — a centered title position, each new one
      stepping down so repeats don't stack; selected and ready to retype */
@@ -878,6 +966,9 @@
       } else if (sel.kind === 'text' && (dpg.text || [])[sel.index]) {
         var txn = dpg.text[sel.index];
         txn.x += dx; txn.y += dy;
+      } else if (sel.kind === 'layer' && (dpg.scene && dpg.scene.layers || [])[sel.index]) {
+        var lyn = dpg.scene.layers[sel.index];
+        lyn.x += dx; lyn.y += dy;
       } else if (sel.kind === 'zone' && dpg.interaction) {
         var oldZone = global.Studio.clone(dpg.interaction.zone);
         dpg.interaction.zone.x += dx; dpg.interaction.zone.y += dy;
@@ -897,6 +988,7 @@
       var dpg = draft.story.pages[S().pageIndex];
       if (sel.kind === 'character') dpg.characters.splice(sel.index, 1);
       else if (sel.kind === 'text' && dpg.text) dpg.text.splice(sel.index, 1);
+      else if (sel.kind === 'layer' && dpg.scene && dpg.scene.layers) dpg.scene.layers.splice(sel.index, 1);
       else if (sel.kind === 'drawable') dpg.interaction.taskData[sel.bind].splice(sel.index, 1);
       else if (sel.kind === 'point') dpg.interaction.taskData[sel.bind].splice(sel.index, 1);
       else return false;
@@ -1008,6 +1100,7 @@
     startPlacePoint: startPlacePoint,
     startPlaceText: startPlaceText,
     addTextHere: addTextHere,
+    addLayerHere: addLayerHere,
     startPlaceScalarPoint: startPlaceScalarPoint,
     startPlacePath: startPlacePath,
     startPlaceMaze: startPlaceMaze,

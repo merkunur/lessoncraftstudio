@@ -144,7 +144,9 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
     await sleep(300);
   }
   async function pickScene(file) {
-    await clickBtn('Change the picture').catch(() => clickBtn('Pick a picture'));
+    /* labels renamed 2026-07-06: the Picture step now distinguishes the
+       BACKGROUND choice from placed picture objects */
+    await clickBtn('Change the background').catch(() => clickBtn('Pick a background'));
     await page.waitForSelector('.stu-drawer .stu-libcard', { timeout: 8000 });
     await page.evaluate((f) => {
       [...document.querySelectorAll('.stu-drawer .stu-libcard')]

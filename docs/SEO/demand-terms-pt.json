@@ -1,0 +1,1023 @@
+{
+  "locale": "pt",
+  "titlePattern": {
+    "shape": "[termo de demanda verbatim] – [qualificador honesto] ([nível])",
+    "lead": "Demand term first, verbatim from the BR harvest (caça-palavras, continhas de adição, pareamento de sombras) — never the internal taxonomy label when demand uses another word (odd-one-out→intruso, picture-path→labirinto, telling-time→relógio/horas, visual-logic→raciocínio lógico, vehicles→meios de transporte).",
+    "register": "BR-PT only: atividades (never fichas), educação infantil, pré-escola, 1º/2º/3º ano with º ordinal, anos iniciais for teacher-register pages, continhas for arithmetic drill.",
+    "qualifiers": {
+      "para imprimir": "always honest (every deck ships a PDF)",
+      "grátis": "always honest",
+      "PDF": "always honest",
+      "online / jogar online": "ONLY for the 29 interactive app types; worksheet-gen families (counting-pictures, counting-frames, tally-counting, number-charts, comparing-*, number-lines, base-ten, telling-time, fractions, graphing-data, arrays-multiplication, geometry, measurement, visual-*, patterns, position-words, sorting-categories, picture-arithmetic, science-*, beginning-sounds, letter-knowledge, word-building, picture-vocabulary, phonological-awareness) are printable-only",
+      "com gabarito": "only for interactive app types (printable-only families ship no answer key)",
+      "tabuada": "NEVER (we have no multiplication-table charts)",
+      "pistas": "NEVER on treasure-hunt (decks are maze boards, not clue hunts)",
+      "BNCC": "framework may be NAMED in prose; never claim alignment on decks (decks are CCSS-built)"
+    },
+    "length": "<=51 chars ideal, 65 hard max, before any brand suffix",
+    "metaDescription": "120-170 chars, unique per page, mechanic-specific (what the child does + the honest offer); never a swapped-noun template"
+  },
+  "singleAxis": {
+    "addition": {
+      "primaryQuery": "adição para imprimir",
+      "evidence": "harvest",
+      "title": "Continhas de adição para imprimir – grátis (PDF)",
+      "h1": "Continhas de adição para imprimir",
+      "metaDescription": "Continhas de adição com figuras para a educação infantil: some, complete e confira com o gabarito. Jogue online ou baixe o PDF grátis para imprimir.",
+      "winnability": "WINNABLE-mid",
+      "notes": "Head 'atividades de adição 1º ano' is HARD (Toda Matéria/Tudo Sala de Aula) and hub-adjacent; lead with the 'continhas' register. Decks are all pré-escola (5-7)."
+    },
+    "subtraction": {
+      "primaryQuery": "subtração para imprimir",
+      "evidence": "harvest",
+      "title": "Continhas de subtração para imprimir (PDF)",
+      "h1": "Continhas de subtração para imprimir",
+      "metaDescription": "Atividades de subtração simples com apoio de figuras: continhas de menos para resolver online ou imprimir em PDF grátis, com gabarito para conferir.",
+      "winnability": "WINNABLE-mid",
+      "notes": "Same shape as addition; 'subtração simples para imprimir' + 'contas subtração para imprimir' are open harvest faces."
+    },
+    "more-less": {
+      "primaryQuery": "atividades mais ou menos",
+      "evidence": "harvest",
+      "title": "Atividades de mais ou menos para imprimir",
+      "h1": "Atividades de mais ou menos",
+      "metaDescription": "A criança compara grupos de figuras e marca onde tem mais ou menos: noções de quantidade para a educação infantil, online e em PDF grátis.",
+      "winnability": "WINNABLE",
+      "notes": "PROVEN: /pt/topic/mais-ou-menos already appears in the live SERP for 'atividades mais ou menos educação infantil'. Strengthen, don't rebuild."
+    },
+    "big-small": {
+      "primaryQuery": "atividades grande ou pequeno",
+      "evidence": "harvest",
+      "title": "Grande ou pequeno – atividades para imprimir",
+      "h1": "Atividades de grande ou pequeno",
+      "metaDescription": "Compare tamanhos com figuras coloridas: a criança identifica o grande e o pequeno em cada grupo. Atividades para imprimir grátis ou jogar online.",
+      "winnability": "WINNABLE",
+      "notes": "Head noise is a children's book title; no pedagogical owner."
+    },
+    "math-puzzle": {
+      "primaryQuery": "quebra-cabeça matemático para imprimir",
+      "evidence": "harvest",
+      "title": "Quebra-cabeça matemático para imprimir – grátis",
+      "h1": "Quebra-cabeça matemático",
+      "metaDescription": "Quebra-cabeças matemáticos que unem continhas e montagem de figuras: resolva as operações para completar a imagem. Online e em PDF grátis, com gabarito.",
+      "winnability": "WINNABLE",
+      "notes": "Weak SERP (focoemalfabetizar, Pinterest, Scribd). Grade face '1 ano' handled by the intersection."
+    },
+    "math-worksheet": {
+      "primaryQuery": "atividades de matematica pre escolar",
+      "evidence": "harvest",
+      "title": "Contas de matemática para imprimir – pré-escola",
+      "h1": "Contas de matemática para a pré-escola",
+      "metaDescription": "Contas de matemática para a pré-escola: adição e subtração com números pequenos para resolver online ou imprimir grátis em PDF, com gabarito.",
+      "winnability": "WINNABLE-mid",
+      "notes": "HUB CAUTION: 'atividades de matemática <grade>' belongs to the subject×grade hubs — key ONLY the pré-escola/contas face here."
+    },
+    "code-addition": {
+      "primaryQuery": "atividade adição para imprimir",
+      "evidence": "harvest",
+      "title": "Adição com código – jogo de somar para imprimir",
+      "h1": "Adição com código",
+      "metaDescription": "Cada figura vale um número: a criança decifra o código e resolve as somas. Um jeito divertido de treinar adição — online ou em PDF para imprimir grátis.",
+      "winnability": "SKIP-key",
+      "notes": "Product-coined name, no dedicated demand (only 'adição código bncc'). Rides the adição cluster as a secondary face."
+    },
+    "sudoku": {
+      "primaryQuery": "sudoku infantil para imprimir",
+      "evidence": "serp",
+      "title": "Sudoku infantil para imprimir – com figuras",
+      "h1": "Sudoku infantil com figuras",
+      "metaDescription": "Sudoku ilustrado 4x4 para crianças: complete a grade sem repetir as figuras. Jogue online ou imprima grátis em PDF — raciocínio lógico para a pré-escola.",
+      "winnability": "WINNABLE",
+      "notes": "SERP dominated by Spanish sites (edufichas, abcfichas) — genuine BR gap. Harvest exact-match 'sudoku ilustrado' also exists."
+    },
+    "cryptogram": {
+      "primaryQuery": "criptograma infantil para imprimir",
+      "evidence": "harvest",
+      "title": "Criptograma infantil para imprimir – grátis",
+      "h1": "Criptograma infantil",
+      "metaDescription": "Criptogramas para crianças: decifre o código letra por letra e descubra a frase secreta. Para imprimir grátis em PDF ou resolver online, com gabarito.",
+      "winnability": "WINNABLE",
+      "notes": "SERP is Spanish-dominated + adult Coquetel; infantil face open. (cryptogram was the unlandable type for LANDINGS — the type topic page is fine.)"
+    },
+    "picture-path": {
+      "primaryQuery": "atividades para imprimir labirinto",
+      "evidence": "harvest",
+      "title": "Labirintos para imprimir – educação infantil",
+      "h1": "Labirintos ilustrados",
+      "metaDescription": "Labirintos ilustrados para a educação infantil: trace o caminho certo entre as figuras até a saída. Jogue online ou imprima grátis em PDF.",
+      "winnability": "WINNABLE",
+      "notes": "Re-key to LABIRINTO — the real BR term for this mechanic; 'caminho ilustrado' is coined and unsearched."
+    },
+    "treasure-hunt": {
+      "primaryQuery": "caça ao tesouro para imprimir gratis",
+      "evidence": "harvest",
+      "title": "Caça ao tesouro para imprimir – grátis (PDF)",
+      "h1": "Caça ao tesouro no tabuleiro",
+      "metaDescription": "Tabuleiros de caça ao tesouro: a criança percorre o labirinto de figuras até chegar ao baú. Jogue online ou imprima grátis em PDF — atenção e lógica.",
+      "winnability": "WINNABLE-mid",
+      "notes": "HONESTY GATE: BR intent is clue/pista hunts; our decks are treasure MAZES. Copy says tabuleiro/labirinto do tesouro, never 'pistas'."
+    },
+    "pattern-train": {
+      "primaryQuery": "atividade sequência de padrões",
+      "evidence": "harvest",
+      "title": "Sequências e padrões – atividades para imprimir",
+      "h1": "Sequências e padrões",
+      "metaDescription": "O trem dos padrões: a criança observa a sequência de figuras e descobre o que vem a seguir. Atividades de padrões online e em PDF grátis para imprimir.",
+      "winnability": "WINNABLE",
+      "notes": "'Sequências e padrões' is the teacher formulation; 251 decks, biggest pt type."
+    },
+    "pattern-worksheet": {
+      "primaryQuery": "atividade de padrões",
+      "evidence": "harvest",
+      "title": "Atividade de padrões para imprimir – grátis",
+      "h1": "Atividades de padrões",
+      "metaDescription": "Complete cada sequência de figuras seguindo o padrão: atividades de padrões prontas para resolver online ou imprimir grátis em PDF, com gabarito.",
+      "winnability": "WINNABLE-mid",
+      "notes": "Differentiates from pattern-train on the printable-drill face; the 1º-ano face lives on the intersection."
+    },
+    "patterns": {
+      "primaryQuery": "ficha de atividade padrões e regularidades",
+      "evidence": "harvest",
+      "title": "Padrões e regularidades – atividades (PDF)",
+      "h1": "Padrões e regularidades",
+      "metaDescription": "Atividades de padrões e regularidades: identifique e continue sequências de cores e formas com apoio visual. PDF grátis para imprimir na alfabetização.",
+      "winnability": "WINNABLE-low",
+      "notes": "BNCC unit name; printable-only family (no online claim). 17 decks."
+    },
+    "bingo": {
+      "primaryQuery": "bingo para imprimir infantil",
+      "evidence": "harvest",
+      "title": "Bingo infantil para imprimir – cartelas grátis",
+      "h1": "Bingo infantil para imprimir",
+      "metaDescription": "Cartelas de bingo com figuras, letras e números para a sala de aula: baixe em PDF, imprima grátis e jogue com a turma. Também dá para jogar online.",
+      "winnability": "WINNABLE-mid",
+      "notes": "Cartelas intent; letters/numbers sub-faces ('bingo das letras', 'atividades bingo de numeros') go in H2s."
+    },
+    "matching": {
+      "primaryQuery": "atividades pareamento para imprimir",
+      "evidence": "harvest",
+      "title": "Atividades de pareamento para imprimir (PDF)",
+      "h1": "Atividades de pareamento",
+      "metaDescription": "Pareamento de figuras, cores e objetos: a criança liga cada par correspondente. Atividades muito usadas na educação infantil e com alunos com TEA.",
+      "winnability": "WINNABLE",
+      "notes": "Big genuine niche; the autismo/TEA audience is a real secondary face (Toda Matéria targets it)."
+    },
+    "grid-match": {
+      "primaryQuery": "jogo pareamento para imprimir",
+      "evidence": "harvest",
+      "title": "Pareamento em grade – jogo para imprimir",
+      "h1": "Pareamento em grade",
+      "metaDescription": "Jogo de pareamento em grade: encontre a posição certa de cada figura e complete o tabuleiro. Jogue online ou imprima grátis em PDF, com gabarito.",
+      "winnability": "WINNABLE-low",
+      "notes": "Coined name; rides the pareamento cluster."
+    },
+    "shadow-match": {
+      "primaryQuery": "pareamento de sombras para imprimir",
+      "evidence": "harvest",
+      "title": "Pareamento de sombras para imprimir – grátis",
+      "h1": "Pareamento de sombras",
+      "metaDescription": "Ligue cada figura à sua sombra: pareamento de sombras com animais, frutas e objetos. Percepção visual para a educação infantil — PDF grátis e online.",
+      "winnability": "WINNABLE",
+      "notes": "P0: dedicated harvest cluster (animais/frutas/pdf tails); SERP = Pinterest + PAID shops. Free wins."
+    },
+    "picture-sort": {
+      "primaryQuery": "ordenar imagens",
+      "evidence": "harvest",
+      "title": "Ordenar e classificar imagens – atividades",
+      "h1": "Ordenar e classificar imagens",
+      "metaDescription": "A criança arrasta e organiza figuras por categoria: atividades de classificar imagens para jogar online ou imprimir grátis em PDF, com gabarito.",
+      "winnability": "WINNABLE-low",
+      "notes": "Thin demand ('ordenar imagens de uma história' is a different task); keep honest, low priority."
+    },
+    "alphabet-train": {
+      "primaryQuery": "trem do alfabeto para imprimir",
+      "evidence": "harvest",
+      "title": "Trem do alfabeto para imprimir – atividades",
+      "h1": "Trem do alfabeto",
+      "metaDescription": "O trenzinho das letras: a criança completa os vagões na ordem do alfabeto. Atividades de alfabetização para jogar online ou imprimir grátis em PDF.",
+      "winnability": "WINNABLE",
+      "notes": "Exact-match product name with real demand; only espacoprofessor ('trenzinho das letras') really owns it."
+    },
+    "prepositions": {
+      "primaryQuery": "preposições para imprimir",
+      "evidence": "harvest",
+      "title": "Preposições – atividades para imprimir (PDF)",
+      "h1": "Atividades com preposições e posições",
+      "metaDescription": "Em cima, embaixo, dentro, fora: a criança observa a cena e escolhe a posição certa. Noções espaciais para jogar online ou imprimir grátis em PDF.",
+      "winnability": "WINNABLE-low",
+      "notes": "Harvest demand skews 4º-7º ano + English; K-3 face is 'noções de posição' (unharvested — verify at build)."
+    },
+    "word-guess": {
+      "primaryQuery": "adivinhe a palavra jogo",
+      "evidence": "harvest",
+      "title": "Adivinhe a palavra – jogo educativo infantil",
+      "h1": "Adivinhe a palavra",
+      "metaDescription": "Jogo de adivinhar palavras com dicas de figuras: a criança completa as letras que faltam. Vocabulário e escrita — online e em PDF para imprimir.",
+      "winnability": "HARD",
+      "notes": "SERP is Wordle-class online games ('palavra do dia'); target the infantil long-tail only."
+    },
+    "word-scramble": {
+      "primaryQuery": "letras embaralhadas para formar palavras",
+      "evidence": "harvest",
+      "title": "Letras embaralhadas para formar palavras (PDF)",
+      "h1": "Letras embaralhadas",
+      "metaDescription": "Desembaralhe as letras e forme a palavra de cada figura: atividades de alfabetização para jogar online ou imprimir grátis em PDF, com gabarito.",
+      "winnability": "WINNABLE",
+      "notes": "Weak SERP (anagram solvers, one paid shop, Pinterest)."
+    },
+    "wordsearch": {
+      "primaryQuery": "caça-palavras para imprimir infantil",
+      "evidence": "harvest",
+      "title": "Caça-palavras infantil para imprimir – grátis",
+      "h1": "Caça-palavras infantil",
+      "metaDescription": "Caça-palavras infantis com temas de animais, frutas e muito mais: jogue online ou imprima grátis em PDF, com gabarito. Ideal para o 1º ano.",
+      "winnability": "HARD-head / WINNABLE-mid",
+      "notes": "Geniol/Racha Cuca/Toda Matéria own the bare head; own the infantil + grade tail."
+    },
+    "crossword": {
+      "primaryQuery": "palavras cruzadas para imprimir infantil",
+      "evidence": "harvest",
+      "title": "Palavras cruzadas infantil para imprimir (PDF)",
+      "h1": "Palavras cruzadas infantil",
+      "metaDescription": "Cruzadinhas ilustradas: a criança escreve o nome de cada figura nos quadradinhos. Palavras cruzadas infantis online e em PDF grátis, com gabarito.",
+      "winnability": "WINNABLE-mid",
+      "notes": "Adult head owned by Coquetel; infantil face held only by craft blogs. 'Cruzadinha' synonym in body copy."
+    },
+    "find-and-count": {
+      "primaryQuery": "atividade encontre e conte",
+      "evidence": "harvest",
+      "title": "Encontre e conte – atividades de contagem",
+      "h1": "Encontre e conte",
+      "metaDescription": "Encontre cada figura na cena e conte quantas aparecem: atividades de contagem para a educação infantil, online e em PDF grátis para imprimir.",
+      "winnability": "WINNABLE",
+      "notes": "Exact-match niche with near-zero competition ('encontre e conte animais do mar' in harvest)."
+    },
+    "find-objects": {
+      "primaryQuery": "encontre os objetos escondidos para imprimir",
+      "evidence": "harvest",
+      "title": "Encontre os objetos escondidos – para imprimir",
+      "h1": "Encontre os objetos escondidos",
+      "metaDescription": "Cenas cheias de detalhes para procurar e encontrar os objetos escondidos: atenção e percepção visual. Jogue online ou imprima grátis em PDF.",
+      "winnability": "WINNABLE",
+      "notes": "SERP = Pinterest/Etsy/Scribd/HP — no real owner."
+    },
+    "missing-pieces": {
+      "primaryQuery": "peças faltantes",
+      "evidence": "harvest",
+      "title": "Peças faltantes – complete a figura (imprimir)",
+      "h1": "Complete a figura: peças faltantes",
+      "metaDescription": "Qual peça completa a figura? A criança observa a imagem e escolhe a parte que falta. Percepção visual — jogue online ou imprima grátis em PDF.",
+      "winnability": "WINNABLE-low",
+      "notes": "Head is LEGO/quebra-cabeça-replacement noise; re-key the face to 'complete a figura'."
+    },
+    "odd-one-out": {
+      "primaryQuery": "encontre o intruso",
+      "evidence": "serp",
+      "title": "Qual é o intruso? Atividades para imprimir",
+      "h1": "Qual é o intruso?",
+      "metaDescription": "Ache o intruso em cada grupo de figuras: a criança compara e descobre qual não pertence. Raciocínio lógico — online e em PDF grátis para imprimir.",
+      "winnability": "WINNABLE",
+      "notes": "BR term is INTRUSO (qual é o/ache o/encontre o intruso), not 'qual é diferente'. SERP = paid products; free wins."
+    },
+    "chart-count": {
+      "primaryQuery": "contar figuras",
+      "evidence": "harvest",
+      "title": "Contagem em gráfico – atividades infantis",
+      "h1": "Contagem em gráfico",
+      "metaDescription": "Conte as figuras e pinte o gráfico de colunas: primeira leitura de gráficos para a educação infantil. Jogue online ou imprima grátis em PDF.",
+      "winnability": "WINNABLE-low",
+      "notes": "No dedicated demand; 'gráficos' faces belong to graphing-data. Keep modest."
+    },
+    "counting-pictures": {
+      "primaryQuery": "atividades para imprimir numeros e quantidades",
+      "evidence": "harvest",
+      "title": "Números e quantidades – atividades (imprimir)",
+      "h1": "Números e quantidades",
+      "metaDescription": "Conte as figuras e registre o número: atividades de contagem, números e quantidades para a educação infantil, prontas em PDF grátis para imprimir.",
+      "winnability": "WINNABLE",
+      "notes": "'Números e quantidades' is the BNCC-flavored face teachers actually type. Printable-only."
+    },
+    "counting-frames": {
+      "primaryQuery": "quadro de dez",
+      "evidence": "harvest",
+      "title": "Quadro de dez – contagem até 10 (imprimir)",
+      "h1": "Quadro de dez",
+      "metaDescription": "Quadros de dez para contar e completar: a base da contagem até 10 e do cálculo mental na educação infantil. Atividades em PDF grátis para imprimir.",
+      "winnability": "SKIP-key",
+      "notes": "9 decks; harvest deflects to dezena/unidade (base-ten territory). Printable-only."
+    },
+    "tally-counting": {
+      "primaryQuery": "marcas de contagem",
+      "evidence": "harvest",
+      "title": "Marcas de contagem – atividades (PDF)",
+      "h1": "Marcas de contagem",
+      "metaDescription": "Registre quantidades com marcas de contagem (risquinhos) e compare os totais: atividades simples de estatística em PDF grátis para imprimir.",
+      "winnability": "SKIP",
+      "notes": "4 decks, retail-noise SERP. Template title acceptable; do not invest."
+    },
+    "number-charts": {
+      "primaryQuery": "quadro numérico para imprimir",
+      "evidence": "harvest",
+      "title": "Quadro numérico para imprimir e completar",
+      "h1": "Quadro numérico para completar",
+      "metaDescription": "Quadros numéricos para preencher os números que faltam: sequência numérica para a educação infantil e o 1º ano, em PDF grátis para imprimir.",
+      "winnability": "WINNABLE",
+      "notes": "Strong cluster ('para completar até 100', 'de 0 a 100'); 'completar' matches our fill-in decks exactly. Printable-only."
+    },
+    "comparing-numbers": {
+      "primaryQuery": "comparar números naturais",
+      "evidence": "harvest",
+      "title": "Comparar números – maior ou menor (atividades)",
+      "h1": "Comparar números: maior ou menor",
+      "metaDescription": "Qual número é maior? Atividades de comparar números naturais com apoio visual para os anos iniciais, em PDF grátis para imprimir e usar na aula.",
+      "winnability": "WINNABLE-low",
+      "notes": "6 decks — thin. 'maior ou menor' is the K face (Acessaber owns it). Printable-only."
+    },
+    "comparing-groups": {
+      "primaryQuery": "comparar grupos",
+      "evidence": "harvest",
+      "title": "Comparar grupos e quantidades – atividades",
+      "h1": "Comparar grupos",
+      "metaDescription": "Compare dois grupos de figuras e diga qual tem mais elementos: noção de quantidade para a educação infantil, em PDF grátis para imprimir.",
+      "winnability": "SKIP-key",
+      "notes": "SPSS noise; the demand belongs to mais-ou-menos. 8 decks. Printable-only."
+    },
+    "comparing-sizes": {
+      "primaryQuery": "comparar tamanhos",
+      "evidence": "harvest",
+      "title": "Comparar tamanhos – atividades infantis",
+      "h1": "Comparar tamanhos",
+      "metaDescription": "Maior, menor, mais comprido: atividades de comparar tamanhos com figuras do dia a dia, em PDF grátis para imprimir na educação infantil.",
+      "winnability": "SKIP-key",
+      "notes": "TV/pneus noise; demand owned by grande-pequeno. 15 decks. Printable-only."
+    },
+    "number-lines": {
+      "primaryQuery": "reta numérica para imprimir",
+      "evidence": "harvest",
+      "title": "Reta numérica para imprimir – atividades",
+      "h1": "Reta numérica",
+      "metaDescription": "Atividades com reta numérica: localize números e conte saltos para somar e subtrair. PDF grátis para imprimir — educação infantil e 1º ano.",
+      "winnability": "WINNABLE",
+      "notes": "Strong cluster (educação infantil/1 ano/2 ano tails) but only 9 decks — DECK-PRODUCTION FLAG. Printable-only."
+    },
+    "base-ten": {
+      "primaryQuery": "valor posicional atividades",
+      "evidence": "harvest",
+      "title": "Valor posicional – atividades para imprimir",
+      "h1": "Valor posicional: dezenas e unidades",
+      "metaDescription": "Dezenas e unidades com blocos ilustrados: atividades de valor posicional para o 1º e o 2º ano do fundamental, em PDF grátis para imprimir.",
+      "winnability": "WINNABLE-mid",
+      "notes": "2º/3º-ano demand verified in SERP (TSA + gov PDFs) but only 12 decks — DECK-PRODUCTION FLAG. Printable-only."
+    },
+    "telling-time": {
+      "primaryQuery": "atividades para aprender ver as horas",
+      "evidence": "harvest",
+      "title": "Atividades de relógio e horas para imprimir",
+      "h1": "Aprendendo a ver as horas",
+      "metaDescription": "Relógios de ponteiro para ler e marcar as horas: atividades para aprender a ver as horas do 1º ao 3º ano, em PDF grátis para imprimir.",
+      "winnability": "WINNABLE-mid",
+      "notes": "Key to RELÓGIO/HORAS — bare 'ver as horas' is numerology noise (11:11). SERP head = 'atividades de relógio para imprimir'. Printable-only."
+    },
+    "fractions": {
+      "primaryQuery": "frações atividades para imprimir",
+      "evidence": "harvest",
+      "title": "Frações – atividades para imprimir (2º/3º ano)",
+      "h1": "Atividades de frações",
+      "metaDescription": "Metades, terços e quartos com figuras divididas: primeiras noções de fração para o 2º e o 3º ano do fundamental, em PDF grátis para imprimir.",
+      "winnability": "WINNABLE-mid",
+      "notes": "Demand center is 4º-6º ano; own the 2º/3º-ano fringe honestly. Printable-only."
+    },
+    "graphing-data": {
+      "primaryQuery": "gráficos e interpretação de dados",
+      "evidence": "harvest",
+      "title": "Gráficos e tabelas – atividades para imprimir",
+      "h1": "Gráficos e tabelas",
+      "metaDescription": "Leia gráficos simples e organize dados em tabelas: atividades de estatística para os anos iniciais do fundamental, em PDF grátis para imprimir.",
+      "winnability": "WINNABLE-low",
+      "notes": "Harvest is academic noise; low priority. Printable-only."
+    },
+    "arrays-multiplication": {
+      "primaryQuery": "multiplicação para imprimir",
+      "evidence": "harvest",
+      "title": "Multiplicação para imprimir – 2º e 3º ano",
+      "h1": "Introdução à multiplicação",
+      "metaDescription": "Multiplicação com apoio visual: organize figuras em fileiras e colunas e some os grupos iguais. Atividades para o 2º e o 3º ano em PDF grátis.",
+      "winnability": "WINNABLE-mid",
+      "notes": "NEVER claim 'tabuada' (giant adjacent head, but our decks are arrays/repeated addition, not table charts). Printable-only."
+    },
+    "geometry": {
+      "primaryQuery": "geometria atividades 1 ano",
+      "evidence": "harvest",
+      "title": "Geometria – atividades 1º ao 3º ano (imprimir)",
+      "h1": "Atividades de geometria",
+      "metaDescription": "Reconheça formas e figuras geométricas em objetos do cotidiano: atividades de geometria do 1º ao 3º ano do fundamental, em PDF grátis para imprimir.",
+      "winnability": "WINNABLE-mid",
+      "notes": "SPLIT: the huge 'formas geométricas educação infantil' head belongs to the shapes THEME page; this page owns 'geometria <ano>'. Printable-only."
+    },
+    "measurement": {
+      "primaryQuery": "atividades medidas de comprimento",
+      "evidence": "harvest",
+      "title": "Medidas de comprimento – atividades (imprimir)",
+      "h1": "Medidas de comprimento",
+      "metaDescription": "Compare comprimentos e meça com unidades simples: atividades de grandezas e medidas para os anos iniciais, em PDF grátis para imprimir.",
+      "winnability": "WINNABLE-mid",
+      "notes": "Bare 'medidas' is mattress-size noise — always qualify with comprimento/grandezas. Printable-only."
+    },
+    "visual-logic": {
+      "primaryQuery": "atividades de raciocinio logico para educação infantil para imprimir",
+      "evidence": "harvest",
+      "title": "Raciocínio lógico – atividades para imprimir",
+      "h1": "Raciocínio lógico",
+      "metaDescription": "Desafios visuais de raciocínio lógico para a educação infantil: observe, compare e complete os padrões. Atividades em PDF grátis para imprimir.",
+      "winnability": "WINNABLE",
+      "notes": "Re-keyed: 'lógica visual' is programming noise; RACIOCÍNIO LÓGICO is the real teacher term (harvest subjects class). 14 decks. Printable-only."
+    },
+    "visual-discrimination": {
+      "primaryQuery": "discriminação visual atividades de atenção e concentração para imprimir",
+      "evidence": "harvest",
+      "title": "Discriminação visual – atividades de atenção",
+      "h1": "Discriminação visual",
+      "metaDescription": "Atividades de discriminação visual, atenção e concentração: encontre diferenças e semelhanças entre figuras. PDF grátis — apoio também para TEA.",
+      "winnability": "WINNABLE",
+      "notes": "Psychopedagogy/TEA audience with exact long harvest queries. 15 decks. Printable-only."
+    },
+    "visual-matching": {
+      "primaryQuery": "jogos de associação visual",
+      "evidence": "harvest",
+      "title": "Associação visual – atividades para imprimir",
+      "h1": "Associação visual",
+      "metaDescription": "Associe figuras que combinam entre si: percepção e memória visual para a educação infantil, em atividades PDF grátis para imprimir.",
+      "winnability": "SKIP-key",
+      "notes": "5 decks, thin demand; rides the pareamento cluster. Printable-only."
+    },
+    "position-words": {
+      "primaryQuery": "palavras de posição",
+      "evidence": "harvest",
+      "title": "Palavras de posição – atividades infantis",
+      "h1": "Palavras de posição",
+      "metaDescription": "Em cima ou embaixo? Na frente ou atrás? Atividades com palavras de posição e noções espaciais para a educação infantil, em PDF grátis.",
+      "winnability": "WINNABLE-low",
+      "notes": "Real face is 'noções de posição' (unharvested — verify at build). 8 decks. Printable-only."
+    },
+    "picture-arithmetic": {
+      "primaryQuery": "adição ilustrada educação infantil",
+      "evidence": "harvest",
+      "title": "Continhas ilustradas para imprimir – 1º ano",
+      "h1": "Continhas ilustradas",
+      "metaDescription": "Continhas de somar e subtrair com figuras: a criança conta as imagens e resolve. Adição e subtração ilustradas para o 1º ano, em PDF grátis.",
+      "winnability": "WINNABLE",
+      "notes": "'Continhas ilustradas' is the natural face; fills the adição-1º-ano demand that the addition decks (pré-escola) can't honestly claim. Printable-only."
+    },
+    "science-sort": {
+      "primaryQuery": "atividades ciencias educação infantil para imprimir",
+      "evidence": "harvest",
+      "title": "Atividades de ciências – classificar (imprimir)",
+      "h1": "Ciências: classificar animais e objetos",
+      "metaDescription": "Classifique animais e objetos: vertebrados e invertebrados, vivo e não vivo e muito mais. Atividades de ciências em PDF grátis para imprimir.",
+      "winnability": "WINNABLE-mid",
+      "notes": "HUB CAUTION: verify no pt ciências subject-hub owns this head before keying. 'animais vertebrados e invertebrados' is a strong deck-honest sub-face. Printable-only."
+    },
+    "beginning-sounds": {
+      "primaryQuery": "atividade sons iniciais das palavras",
+      "evidence": "harvest",
+      "title": "Sons iniciais – atividades de alfabetização",
+      "h1": "Sons iniciais das palavras",
+      "metaDescription": "Com que som começa? A criança liga cada figura à letra do som inicial: consciência fonêmica para a alfabetização, em PDF grátis para imprimir.",
+      "winnability": "WINNABLE",
+      "notes": "Alfabetização audience; exact demand ('bingo dos sons iniciais para imprimir'). Only 10 decks — thin. Printable-only."
+    },
+    "letter-knowledge": {
+      "primaryQuery": "atividades para imprimir letras do alfabeto",
+      "evidence": "harvest",
+      "title": "Atividades com letras do alfabeto – imprimir",
+      "h1": "Atividades com as letras do alfabeto",
+      "metaDescription": "Reconheça e escreva as letras do alfabeto: atividades com maiúsculas e minúsculas para a educação infantil, em PDF grátis para imprimir.",
+      "winnability": "WINNABLE-mid",
+      "notes": "Inside the huge alfabetização cluster; differentiate from alphabet-train (ordering) on the recognition face. Printable-only."
+    },
+    "word-building": {
+      "primaryQuery": "montagem de palavras com silabas",
+      "evidence": "harvest",
+      "title": "Montagem de palavras com sílabas – atividades",
+      "h1": "Montagem de palavras",
+      "metaDescription": "Junte as sílabas e monte a palavra de cada figura: atividades de formação de palavras para a alfabetização, em PDF grátis para imprimir.",
+      "winnability": "WINNABLE",
+      "notes": "Sílabas demand is real ('junte as silabas', 'silabas simples/complexas'). 10 decks — thin. Printable-only."
+    },
+    "picture-vocabulary": {
+      "primaryQuery": "vocabulario figuras",
+      "evidence": "harvest",
+      "title": "Vocabulário com figuras – atividades infantis",
+      "h1": "Vocabulário com figuras",
+      "metaDescription": "Amplie o vocabulário ligando palavras às figuras: atividades ilustradas de vocabulário para a educação infantil, em PDF grátis para imprimir.",
+      "winnability": "WINNABLE-low",
+      "notes": "Thin. 10 decks. Printable-only."
+    },
+    "phonological-awareness": {
+      "primaryQuery": "consciência fonologica atividades para imprimir",
+      "evidence": "harvest",
+      "title": "Consciência fonológica – atividades (PDF)",
+      "h1": "Consciência fonológica",
+      "metaDescription": "Sílabas, rimas e sons das palavras: atividades de consciência fonológica para a educação infantil e a alfabetização, em PDF grátis para imprimir.",
+      "winnability": "HARD-mid",
+      "notes": "Strong pedagogy owners (Toda Matéria, apostilas, NeuroSaber) on the head; the educação-infantil tail is the entry. High-authority topic. Printable-only."
+    },
+    "preschool": {
+      "primaryQuery": "atividades educativas para criança de 3 anos",
+      "evidence": "harvest",
+      "title": "Atividades para crianças de 3 a 5 anos – imprimir",
+      "h1": "Atividades para crianças de 3 a 5 anos",
+      "metaDescription": "Atividades educativas para crianças de 3 a 5 anos: cores, tamanhos, contagem e percepção visual. Jogue online ou imprima grátis em PDF.",
+      "winnability": "WINNABLE",
+      "notes": "Age-qualified face avoids colliding with the kindergarten page's educação-infantil head. ~444 decks."
+    },
+    "kindergarten": {
+      "primaryQuery": "atividades para imprimir educação infantil",
+      "evidence": "harvest",
+      "title": "Atividades para educação infantil – imprimir grátis",
+      "h1": "Atividades para educação infantil",
+      "metaDescription": "Centenas de atividades para a educação infantil: matemática, letras, jogos e percepção visual. Para imprimir grátis em PDF ou jogar online.",
+      "winnability": "WINNABLE-mid",
+      "notes": "Biggest head + our deepest substrate (~2,790 decks). Subject hubs own 'matemática/português educação infantil'; this page is the cross-subject face."
+    },
+    "grade-1": {
+      "primaryQuery": "atividades para imprimir 1 ano",
+      "evidence": "harvest",
+      "title": "Atividades para imprimir – 1º ano (grátis, PDF)",
+      "h1": "Atividades para o 1º ano",
+      "metaDescription": "Atividades para o 1º ano do ensino fundamental: caça-palavras, quebra-cabeças matemáticos, labirintos e mais. PDF grátis e jogos online.",
+      "winnability": "WINNABLE-mid",
+      "notes": "Bare-grade cross-subject face; subject×grade heads stay with the hubs. ~560 decks."
+    },
+    "grade-2": {
+      "primaryQuery": "atividades para imprimir 2 ano",
+      "evidence": "harvest",
+      "title": "Atividades para imprimir – 2º ano (grátis, PDF)",
+      "h1": "Atividades para o 2º ano",
+      "metaDescription": "Atividades para o 2º ano: palavras cruzadas, frações, geometria e horas no relógio. Para imprimir grátis em PDF ou resolver online.",
+      "winnability": "WINNABLE-mid",
+      "notes": "~168 decks — thin substrate; deck production would strengthen."
+    },
+    "grade-3": {
+      "primaryQuery": "atividades para imprimir 3 ano",
+      "evidence": "harvest",
+      "title": "Atividades para imprimir – 3º ano (grátis, PDF)",
+      "h1": "Atividades para o 3º ano",
+      "metaDescription": "Atividades para o 3º ano: multiplicação, frações, medidas e leitura de horas. Baixe grátis em PDF para imprimir ou pratique online.",
+      "winnability": "WINNABLE-mid",
+      "notes": "~134 decks; '3 ano' is the strongest grade tail on the core seed."
+    },
+    "animals": {
+      "primaryQuery": "animais atividades educação infantil",
+      "evidence": "harvest",
+      "title": "Atividades com animais – educação infantil",
+      "h1": "Atividades com animais",
+      "metaDescription": "Caça-palavras, contagem, pareamento e sudoku com animais: atividades ilustradas para a educação infantil, online e em PDF grátis para imprimir.",
+      "winnability": "HARD-head / WINNABLE-mid",
+      "notes": "Toda Matéria/TSA own the head; win on breadth (151 decks across mechanics)."
+    },
+    "fruits": {
+      "primaryQuery": "frutas atividades educação infantil",
+      "evidence": "harvest",
+      "title": "Atividades com frutas para imprimir – grátis",
+      "h1": "Atividades com frutas",
+      "metaDescription": "Conte, compare e escreva os nomes das frutas: atividades ilustradas com frutas para a educação infantil, online e em PDF grátis para imprimir.",
+      "winnability": "WINNABLE-mid",
+      "notes": "Harvest skews to inglês-vocab intent; PT-first framing differentiates. 112 decks."
+    },
+    "vehicles": {
+      "primaryQuery": "atividades meios de transporte educação infantil para imprimir",
+      "evidence": "serp",
+      "title": "Meios de transporte – atividades para imprimir",
+      "h1": "Atividades com meios de transporte",
+      "metaDescription": "Carros, aviões e barcos em caça-palavras, contagem e pareamento: atividades sobre os meios de transporte, online e em PDF grátis para imprimir.",
+      "winnability": "WINNABLE-mid",
+      "notes": "MUST be keyed 'meios de transporte' (SERP-verified teacher term), never 'veículos'. 106 decks."
+    },
+    "toys": {
+      "primaryQuery": "atividades brinquedos e brincadeiras educação infantil",
+      "evidence": "harvest",
+      "title": "Brinquedos e brincadeiras – atividades infantis",
+      "h1": "Atividades com brinquedos",
+      "metaDescription": "Atividades ilustradas com brinquedos: contagem, pareamento de sombras e jogos de atenção para a educação infantil, online e em PDF grátis.",
+      "winnability": "WINNABLE-mid",
+      "notes": "'Brinquedos e brincadeiras' is a BNCC unit teachers search. 104 decks."
+    },
+    "shapes": {
+      "primaryQuery": "atividades formas geométricas educação infantil",
+      "evidence": "harvest",
+      "title": "Atividades de formas geométricas – imprimir",
+      "h1": "Atividades de formas geométricas",
+      "metaDescription": "Círculo, quadrado, triângulo: reconheça as formas geométricas em jogos de pareamento, contagem e classificação. Online e em PDF grátis.",
+      "winnability": "HARD-head / WINNABLE-mid",
+      "notes": "This THEME page owns 'formas geométricas'; the geometry TYPE page keys to 'geometria <ano>' (no self-cannibalization). 90 decks."
+    },
+    "dinosaurs": {
+      "primaryQuery": "atividades dinossauros para imprimir",
+      "evidence": "harvest",
+      "title": "Atividades de dinossauros para imprimir",
+      "h1": "Atividades de dinossauros",
+      "metaDescription": "Dinossauros em caça-palavras, labirintos, contagem e pareamento: atividades para quem ama dinos, online e em PDF grátis para imprimir.",
+      "winnability": "WINNABLE",
+      "notes": "High-affinity theme with real harvest tails (alfabetização, 1/2 ano). 60 decks."
+    },
+    "body_parts": {
+      "primaryQuery": "partes do corpo atividades educação infantil",
+      "evidence": "harvest",
+      "title": "Partes do corpo – atividades educação infantil",
+      "h1": "Atividades sobre as partes do corpo",
+      "metaDescription": "Nomeie e localize as partes do corpo em jogos ilustrados: vocabulário e percepção corporal para a educação infantil, online e em PDF grátis.",
+      "winnability": "WINNABLE-mid",
+      "notes": "Strong harvest (1º/2º ano tails). 53 decks."
+    },
+    "christmas": {
+      "primaryQuery": "natal atividades para imprimir",
+      "evidence": "harvest",
+      "title": "Atividades de Natal para imprimir – infantil",
+      "h1": "Atividades de Natal",
+      "metaDescription": "Papai Noel, enfeites e presentes em caça-palavras, contagem e pareamento: atividades natalinas para imprimir grátis em PDF ou jogar online.",
+      "winnability": "WINNABLE-mid",
+      "notes": "Seasonal (November-December peak, BR summer). 53 decks."
+    },
+    "easter": {
+      "primaryQuery": "páscoa atividades para imprimir",
+      "evidence": "harvest",
+      "title": "Atividades de Páscoa para imprimir – infantil",
+      "h1": "Atividades de Páscoa",
+      "metaDescription": "Coelhos e ovos de Páscoa em jogos de contar, procurar e parear: atividades de Páscoa para a educação infantil, online e em PDF grátis.",
+      "winnability": "WINNABLE-mid",
+      "notes": "Seasonal (March-April peak). 54 decks."
+    },
+    "farm_animals": {
+      "primaryQuery": "atividades animais da fazenda educação infantil",
+      "evidence": "harvest",
+      "title": "Animais da fazenda – atividades para imprimir",
+      "h1": "Atividades com animais da fazenda",
+      "metaDescription": "Vaca, porco, galinha e outros bichos da fazenda em atividades de contagem, sombras e caça-palavras. Online e em PDF grátis para imprimir.",
+      "winnability": "WINNABLE",
+      "notes": "Harvest tails skew maternal/berçário — our 3-5/5-7 range fits. 50 decks."
+    },
+    "zoo_animals": {
+      "primaryQuery": "atividades animais do zoologico educação infantil",
+      "evidence": "harvest",
+      "title": "Animais do zoológico – atividades infantis",
+      "h1": "Atividades com animais do zoológico",
+      "metaDescription": "Leão, girafa e elefante em jogos de parear, contar e procurar: atividades com animais do zoológico para crianças, online e em PDF grátis.",
+      "winnability": "WINNABLE",
+      "notes": "53 decks; low competition."
+    },
+    "pets": {
+      "primaryQuery": "atividades animais de estimação educação infantil",
+      "evidence": "harvest",
+      "title": "Animais de estimação – atividades infantis",
+      "h1": "Atividades com animais de estimação",
+      "metaDescription": "Cachorros, gatos e outros bichinhos de estimação em atividades de pareamento, contagem e escrita. Online e em PDF grátis para imprimir.",
+      "winnability": "WINNABLE",
+      "notes": "51 decks."
+    },
+    "emotions": {
+      "primaryQuery": "emoções atividades educação infantil",
+      "evidence": "harvest",
+      "title": "Atividades sobre emoções – educação infantil",
+      "h1": "Atividades sobre emoções",
+      "metaDescription": "Alegria, tristeza, medo e raiva: a criança reconhece expressões e emoções em jogos ilustrados. Online e em PDF grátis para imprimir.",
+      "winnability": "WINNABLE-mid",
+      "notes": "Socioemotional demand is real (divertidamente tails). 48 decks."
+    },
+    "occupations": {
+      "primaryQuery": "profissões atividades educação infantil",
+      "evidence": "harvest",
+      "title": "Atividades sobre profissões para imprimir",
+      "h1": "Atividades sobre profissões",
+      "metaDescription": "Médico, bombeiro, professora: conheça as profissões em jogos de parear, contar e escrever. Online e em PDF grátis para imprimir.",
+      "winnability": "WINNABLE-mid",
+      "notes": "54 decks."
+    },
+    "colors": {
+      "primaryQuery": "cores atividades educação infantil",
+      "evidence": "harvest",
+      "title": "Atividades com cores – educação infantil",
+      "h1": "Atividades com cores",
+      "metaDescription": "Reconheça e pareie as cores em jogos ilustrados: atividades com cores para a educação infantil, online e em PDF grátis para imprimir.",
+      "winnability": "WINNABLE-mid",
+      "notes": "'pareamento de cores' is a strong adjacent harvest face. 42 decks."
+    },
+    "winter": {
+      "primaryQuery": "inverno atividades educação infantil",
+      "evidence": "harvest",
+      "title": "Atividades de inverno – educação infantil",
+      "h1": "Atividades de inverno",
+      "metaDescription": "Roupas quentinhas e cenas de inverno em jogos de contar, parear e procurar: atividades de inverno para crianças, online e em PDF grátis.",
+      "winnability": "WINNABLE-mid",
+      "notes": "Seasonal (June-July, BR winter = festa junina season). 54 decks."
+    },
+    "spring": {
+      "primaryQuery": "primavera atividades para imprimir",
+      "evidence": "harvest",
+      "title": "Atividades de primavera para imprimir",
+      "h1": "Atividades de primavera",
+      "metaDescription": "Flores, borboletas e jardins em atividades de contagem, caça-palavras e pareamento: primavera na educação infantil, online e em PDF grátis.",
+      "winnability": "WINNABLE-mid",
+      "notes": "Seasonal (September peak in BR). 53 decks."
+    },
+    "ocean_life": {
+      "primaryQuery": "atividades vida marinha",
+      "evidence": "harvest",
+      "title": "Vida marinha – atividades para imprimir",
+      "h1": "Atividades sobre a vida marinha",
+      "metaDescription": "Peixes, baleias e o fundo do mar em jogos de contar, procurar e parear: atividades de vida marinha para crianças, online e em PDF grátis.",
+      "winnability": "WINNABLE",
+      "notes": "'encontre e conte animais do mar' harvest tail connects to find-and-count. 54 decks."
+    },
+    "vegetables": {
+      "primaryQuery": "atividades vegetais educação infantil",
+      "evidence": "harvest",
+      "title": "Atividades com vegetais – educação infantil",
+      "h1": "Atividades com vegetais",
+      "metaDescription": "Legumes e verduras em jogos ilustrados de contagem, pareamento e escrita: atividades com vegetais na educação infantil, em PDF grátis e online.",
+      "winnability": "WINNABLE-mid",
+      "notes": "51 decks; 'alimentação saudável' is the adjacent teacher angle."
+    },
+    "flowers": {
+      "primaryQuery": "atividades flores educação infantil",
+      "evidence": "harvest",
+      "title": "Atividades com flores – educação infantil",
+      "h1": "Atividades com flores",
+      "metaDescription": "Flores coloridas em atividades de contar, parear sombras e caça-palavras para a educação infantil, online e em PDF grátis para imprimir.",
+      "winnability": "WINNABLE-mid",
+      "notes": "73 decks; 'flores da primavera' cross-links the spring theme."
+    }
+  },
+  "intersections": [
+    {
+      "key": "addition__kindergarten",
+      "type": "addition",
+      "level": "kindergarten",
+      "query": "adição educação infantil",
+      "decks": 200,
+      "title": "Adição na educação infantil – atividades grátis",
+      "h1": "Adição na educação infantil",
+      "metaDescription": "Primeiras somas com apoio de figuras: atividades de adição para a educação infantil (5 a 7 anos), online e em PDF grátis, com gabarito."
+    },
+    {
+      "key": "kindergarten__subtraction",
+      "type": "subtraction",
+      "level": "kindergarten",
+      "query": "subtração educação infantil",
+      "decks": 199,
+      "title": "Subtração na educação infantil – atividades",
+      "h1": "Subtração na educação infantil",
+      "metaDescription": "Continhas de menos com figuras para contar e riscar: subtração simples para a educação infantil, online e em PDF grátis para imprimir."
+    },
+    {
+      "key": "grade-1__math-puzzle",
+      "type": "math-puzzle",
+      "level": "grade-1",
+      "query": "quebra cabeça matemático 1 ano",
+      "decks": 148,
+      "title": "Quebra-cabeça matemático – 1º ano (imprimir)",
+      "h1": "Quebra-cabeça matemático para o 1º ano",
+      "metaDescription": "Quebra-cabeças matemáticos do 1º ano: resolva continhas até 20 e monte a figura. Jogue online ou imprima grátis em PDF, com gabarito."
+    },
+    {
+      "key": "kindergarten__pattern-train",
+      "type": "pattern-train",
+      "level": "kindergarten",
+      "query": "padrões matemáticos no pré escolar",
+      "decks": 251,
+      "title": "Padrões matemáticos na pré-escola – atividades",
+      "h1": "Padrões matemáticos na pré-escola",
+      "metaDescription": "Sequências de figuras para observar e continuar: padrões matemáticos na pré-escola com o trem dos padrões. Online e em PDF grátis para imprimir."
+    },
+    {
+      "key": "kindergarten__matching",
+      "type": "matching",
+      "level": "kindergarten",
+      "query": "pareamento educação infantil",
+      "decks": 94,
+      "title": "Pareamento na educação infantil – atividades",
+      "h1": "Pareamento na educação infantil",
+      "metaDescription": "Ligue os pares de figuras, cores e objetos: atividades de pareamento para a educação infantil, muito usadas também com alunos com TEA. PDF grátis."
+    },
+    {
+      "key": "kindergarten__shadow-match",
+      "type": "shadow-match",
+      "level": "kindergarten",
+      "query": "pareamento de sombras educação infantil",
+      "decks": 134,
+      "title": "Pareamento de sombras – educação infantil",
+      "h1": "Pareamento de sombras na educação infantil",
+      "metaDescription": "Encontre a sombra de cada figura: percepção visual e atenção para crianças da educação infantil. Jogue online ou imprima grátis em PDF."
+    },
+    {
+      "key": "kindergarten__odd-one-out",
+      "type": "odd-one-out",
+      "level": "kindergarten",
+      "query": "atividade ache o intruso para educação infantil",
+      "decks": 131,
+      "title": "Ache o intruso – atividades educação infantil",
+      "h1": "Ache o intruso",
+      "metaDescription": "Observe o grupo e descubra qual figura não pertence: atividades do intruso para a educação infantil. Jogue online ou imprima grátis em PDF."
+    },
+    {
+      "key": "bingo__kindergarten",
+      "type": "bingo",
+      "level": "kindergarten",
+      "query": "bingo educação infantil para imprimir",
+      "decks": 80,
+      "title": "Bingo na educação infantil – cartelas (PDF)",
+      "h1": "Bingo na educação infantil",
+      "metaDescription": "Cartelas de bingo de figuras e números para a educação infantil: imprima grátis em PDF e jogue com a turma toda. Também em versão online."
+    },
+    {
+      "key": "find-objects__kindergarten",
+      "type": "find-objects",
+      "level": "kindergarten",
+      "query": "encontre os objetos escondidos educação infantil",
+      "decks": 98,
+      "title": "Objetos escondidos – educação infantil",
+      "h1": "Objetos escondidos na educação infantil",
+      "metaDescription": "Procure e encontre os objetos escondidos em cenas coloridas: atenção e percepção para crianças de 5 a 7 anos. Online e em PDF grátis."
+    },
+    {
+      "key": "grade-1__wordsearch",
+      "type": "wordsearch",
+      "level": "grade-1",
+      "query": "caça-palavras 1o ano",
+      "decks": 51,
+      "title": "Caça-palavras 1º ano – para imprimir grátis",
+      "h1": "Caça-palavras para o 1º ano",
+      "metaDescription": "Caça-palavras do 1º ano com palavras simples e temas ilustrados: reforço de leitura na alfabetização. Online e em PDF grátis, com gabarito."
+    },
+    {
+      "key": "crossword__grade-2",
+      "type": "crossword",
+      "level": "grade-2",
+      "query": "palavras cruzadas 2o ano",
+      "decks": 47,
+      "title": "Palavras cruzadas 2º ano – para imprimir",
+      "h1": "Palavras cruzadas para o 2º ano",
+      "metaDescription": "Cruzadinhas ilustradas do 2º ano: escreva o nome de cada figura e complete a grade. Online e em PDF grátis para imprimir, com gabarito."
+    },
+    {
+      "key": "fractions__grade-2",
+      "type": "fractions",
+      "level": "grade-2",
+      "query": "frações 2o ano",
+      "decks": 34,
+      "title": "Frações 2º ano – atividades para imprimir",
+      "h1": "Frações no 2º ano",
+      "metaDescription": "Metades e quartos com figuras divididas: primeiras atividades de frações para o 2º ano do ensino fundamental, em PDF grátis para imprimir."
+    },
+    {
+      "key": "fractions__grade-3",
+      "type": "fractions",
+      "level": "grade-3",
+      "query": "frações atividades 3 ano",
+      "decks": 34,
+      "title": "Frações 3º ano – atividades para imprimir",
+      "h1": "Frações no 3º ano",
+      "metaDescription": "Terços, quartos e frações do inteiro com apoio visual: atividades de frações para o 3º ano, prontas em PDF grátis para imprimir."
+    },
+    {
+      "key": "geometry__grade-2",
+      "type": "geometry",
+      "level": "grade-2",
+      "query": "geometria 2o ano",
+      "decks": 17,
+      "title": "Geometria 2º ano – atividades para imprimir",
+      "h1": "Geometria no 2º ano",
+      "metaDescription": "Figuras planas e formas no cotidiano: atividades de geometria para o 2º ano do ensino fundamental, em PDF grátis para imprimir."
+    },
+    {
+      "key": "geometry__grade-3",
+      "type": "geometry",
+      "level": "grade-3",
+      "query": "geometria atividades 3 ano",
+      "decks": 14,
+      "title": "Geometria 3º ano – atividades para imprimir",
+      "h1": "Geometria no 3º ano",
+      "metaDescription": "Formas geométricas, lados e vértices: atividades de geometria para o 3º ano, em PDF grátis para imprimir e usar em sala de aula."
+    },
+    {
+      "key": "arrays-multiplication__grade-2",
+      "type": "arrays-multiplication",
+      "level": "grade-2",
+      "query": "multiplicação 2o ano",
+      "decks": 14,
+      "title": "Multiplicação 2º ano – atividades (imprimir)",
+      "h1": "Multiplicação no 2º ano",
+      "metaDescription": "Some grupos iguais e descubra a multiplicação: fileiras e colunas de figuras para o 2º ano, em atividades PDF grátis para imprimir."
+    },
+    {
+      "key": "arrays-multiplication__grade-3",
+      "type": "arrays-multiplication",
+      "level": "grade-3",
+      "query": "multiplicação para imprimir 3 ano",
+      "decks": 13,
+      "title": "Multiplicação 3º ano – para imprimir grátis",
+      "h1": "Multiplicação no 3º ano",
+      "metaDescription": "Multiplicação com apoio visual para o 3º ano: monte grupos iguais, conte e calcule o total. Atividades em PDF grátis para imprimir."
+    },
+    {
+      "key": "grade-1__measurement",
+      "type": "measurement",
+      "level": "grade-1",
+      "query": "medidas atividades 1 ano",
+      "decks": 12,
+      "title": "Medidas 1º ano – atividades de comprimento",
+      "h1": "Medidas no 1º ano",
+      "metaDescription": "Mais comprido ou mais curto? Atividades de medidas e comparação de comprimentos para o 1º ano, em PDF grátis para imprimir."
+    },
+    {
+      "key": "grade-1__science-sort",
+      "type": "science-sort",
+      "level": "grade-1",
+      "query": "atividades ciencias anos iniciais",
+      "decks": 30,
+      "title": "Ciências anos iniciais – atividades 1º ano",
+      "h1": "Ciências nos anos iniciais",
+      "metaDescription": "Classifique animais e elementos da natureza: atividades de ciências para o 1º ano e os anos iniciais, em PDF grátis para imprimir."
+    },
+    {
+      "key": "kindergarten__phonological-awareness",
+      "type": "phonological-awareness",
+      "level": "kindergarten",
+      "query": "consciência fonológica educação infantil atividades",
+      "decks": 25,
+      "title": "Consciência fonológica na educação infantil",
+      "h1": "Consciência fonológica na educação infantil",
+      "metaDescription": "Sílabas, rimas e sons iniciais em jogos ilustrados: atividades de consciência fonológica para a educação infantil, em PDF grátis para imprimir."
+    },
+    {
+      "key": "grade-1__picture-arithmetic",
+      "type": "picture-arithmetic",
+      "level": "grade-1",
+      "query": "adição 1o ano atividades",
+      "decks": 14,
+      "title": "Adição 1º ano – continhas ilustradas",
+      "h1": "Adição no 1º ano com continhas ilustradas",
+      "metaDescription": "Continhas de adição do 1º ano com figuras para contar: a criança soma as imagens e escreve o resultado. PDF grátis para imprimir."
+    },
+    {
+      "key": "big-small__preschool",
+      "type": "big-small",
+      "level": "preschool",
+      "query": "grande ou pequeno educação infantil",
+      "decks": 144,
+      "title": "Grande ou pequeno na educação infantil",
+      "h1": "Grande ou pequeno na educação infantil",
+      "metaDescription": "Qual é o grande e qual é o pequeno? Comparação de tamanhos para crianças de 3 a 5 anos. Jogue online ou imprima grátis em PDF."
+    },
+    {
+      "key": "more-less__preschool",
+      "type": "more-less",
+      "level": "preschool",
+      "query": "atividades mais ou menos educação infantil",
+      "decks": 150,
+      "title": "Mais ou menos – educação infantil (3 a 5 anos)",
+      "h1": "Mais ou menos na educação infantil",
+      "metaDescription": "Onde tem mais? Onde tem menos? Comparação de quantidades com figuras para crianças de 3 a 5 anos. Online e em PDF grátis para imprimir."
+    },
+    {
+      "key": "grade-1__pattern-worksheet",
+      "type": "pattern-worksheet",
+      "level": "grade-1",
+      "query": "atividade padrões 1 ano",
+      "decks": 50,
+      "title": "Atividade de padrões – 1º ano (imprimir)",
+      "h1": "Padrões no 1º ano",
+      "metaDescription": "Sequências para completar seguindo o padrão: atividades de padrões para o 1º ano do ensino fundamental. Online e em PDF grátis para imprimir."
+    },
+    {
+      "key": "grade-1__treasure-hunt",
+      "type": "treasure-hunt",
+      "level": "grade-1",
+      "query": "caça ao tesouro infantil para imprimir",
+      "decks": 100,
+      "title": "Caça ao tesouro infantil – para imprimir",
+      "h1": "Caça ao tesouro infantil",
+      "metaDescription": "Tabuleiros de caça ao tesouro para crianças: siga o caminho de figuras até chegar ao baú. Jogue online ou imprima grátis em PDF — 1º ano."
+    },
+    {
+      "key": "kindergarten__visual-discrimination",
+      "type": "visual-discrimination",
+      "level": "kindergarten",
+      "query": "discriminação visual educação infantil",
+      "decks": 15,
+      "title": "Discriminação visual na educação infantil",
+      "h1": "Discriminação visual na educação infantil",
+      "metaDescription": "Encontre diferenças e semelhanças entre figuras parecidas: discriminação visual e atenção na educação infantil, em PDF grátis para imprimir."
+    },
+    {
+      "key": "kindergarten__letter-knowledge",
+      "type": "letter-knowledge",
+      "level": "kindergarten",
+      "query": "atividades de educação infantil alfabeto",
+      "decks": 20,
+      "title": "Alfabeto na educação infantil – atividades",
+      "h1": "Alfabeto na educação infantil",
+      "metaDescription": "Letras do alfabeto para reconhecer e escrever: atividades de alfabeto para a educação infantil, em PDF grátis para imprimir e usar em casa."
+    }
+  ]
+}

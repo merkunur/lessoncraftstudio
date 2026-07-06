@@ -4,8 +4,8 @@
   "hl": "nl",
   "gl": "nl"
  },
- "generatedAt": "2026-07-06T16:29:36.158Z",
- "requestCount": 40,
+ "generatedAt": "2026-07-06T17:51:30.002Z",
+ "requestCount": 649,
  "seedCounts": {
   "core": 4,
   "types": 177,
@@ -15,89 +15,4142 @@
   "online": 8,
   "alphabet": 52
  },
- "errorCount": 41,
- "errors": [
-  {
-   "seed": "werkbladen",
-   "err": "HTTP 403"
+ "errorCount": 0,
+ "errors": [],
+ "suggestions": {
+  "werkbladen": {
+   "cls": "core",
+   "s": [
+    "werkbladen",
+    "werkbladen groep 3",
+    "werkbladen rekenen",
+    "werkbladen keuken",
+    "werkbladen groep 2",
+    "werkbladen groothandel",
+    "werkbladen groep 4",
+    "werkbladen spelling",
+    "werkbladen klokkijken",
+    "werkbladen rekenen groep 3"
+   ]
   },
-  {
-   "seed": "werkbladen printen",
-   "err": "HTTP 403"
+  "werkbladen printen": {
+   "cls": "core",
+   "s": [
+    "werkbladen printen",
+    "werkbladen printen groep 4",
+    "werkbladen printen groep 3",
+    "werkbladen printen rekenen",
+    "spelling werkbladen printen",
+    "gratis werkbladen printen",
+    "klokkijken werkbladen printen",
+    "werkbladen groep 2 printen",
+    "tafels oefenen werkbladen printen",
+    "groep 5 werkbladen printen gratis"
+   ]
   },
-  {
-   "seed": "oefenbladen",
-   "err": "HTTP 403"
+  "oefenbladen": {
+   "cls": "core",
+   "s": [
+    "oefenbladen groep 3",
+    "oefenbladen klokkijken",
+    "oefenbladen groep 4",
+    "oefenbladen rekenen groep 3",
+    "oefenbladen",
+    "oefenbladen rekenen",
+    "oefenbladen groep 2",
+    "oefenbladen werkwoordspelling",
+    "oefenbladen tafels 1 tot 10",
+    "oefenbladen schrijven"
+   ]
   },
-  {
-   "seed": "werkbladen gratis",
-   "err": "HTTP 403"
+  "werkbladen gratis": {
+   "cls": "core",
+   "s": [
+    "werkbladen gratis",
+    "gratis werkbladen groep 3",
+    "gratis werkbladen groep 4",
+    "gratis werkbladen groep 1 2",
+    "gratis werkbladen peuters",
+    "gratis werkbladen groep 5",
+    "gratis werkbladen groep 2",
+    "gratis werkbladen groep 1",
+    "gratis werkbladen groep 6",
+    "gratis werkbladen groep 3 lezen"
+   ]
   },
-  {
-   "seed": "optellen",
-   "err": "HTTP 403"
+  "optellen": {
+   "cls": "types",
+   "s": [
+    "optellen in excel",
+    "optellen",
+    "optellen engels",
+    "optellen tot 20 met brug",
+    "optellen in excel formule",
+    "optellen rekenmachine",
+    "optellen tot 20 met brug werkblad",
+    "optellen tot 100 met brug",
+    "optellen excel kolom",
+    "optellen breuken"
+   ]
   },
-  {
-   "seed": "optellen werkbladen",
-   "err": "HTTP 403"
+  "optellen werkbladen": {
+   "cls": "types",
+   "s": [
+    "werkbladen optellen tot 20",
+    "werkbladen optellen tot 100",
+    "werkbladen optellen tot 10",
+    "werkbladen optellen",
+    "werkbladen optellen tot 1000",
+    "cijferend optellen werkbladen",
+    "optellen meerdere werkbladen excel"
+   ]
   },
-  {
-   "seed": "optellen printen",
-   "err": "HTTP 403"
+  "foto-sudoku": {
+   "cls": "types",
+   "s": [
+    "foto sudoku",
+    "sudoku oplosser foto",
+    "sudoku oplossen foto",
+    "sudoku foto app",
+    "sudoku solver foto",
+    "sudoku löser foto",
+    "solucionar sudoku foto",
+    "foto de un sudoku",
+    "resolver sudoku foto",
+    "sudoku lösen mit foto"
+   ]
   },
-  {
-   "seed": "foto-sudoku",
-   "err": "HTTP 403"
+  "cryptogram": {
+   "cls": "types",
+   "s": [
+    "cryptogram",
+    "cryptogrammen",
+    "cryptogram online",
+    "cryptogram oplossen",
+    "cryptogram hulp",
+    "cryptogrammen nu",
+    "cryptogram woordenboek",
+    "cryptogram puzzel",
+    "cryptogram ad",
+    "cryptogrammen puzzelboek"
+   ]
   },
-  {
-   "seed": "foto-sudoku werkbladen",
-   "err": "HTTP 403"
+  "cryptogram printen": {
+   "cls": "types",
+   "s": [
+    "cryptogram printen",
+    "gratis cryptogram printen"
+   ]
   },
-  {
-   "seed": "foto-sudoku printen",
-   "err": "HTTP 403"
+  "code-optellen": {
+   "cls": "types",
+   "s": [
+    "code optellen excel"
+   ]
   },
-  {
-   "seed": "cryptogram",
-   "err": "HTTP 403"
+  "meer of minder": {
+   "cls": "types",
+   "s": [
+    "meer of minder teken",
+    "meer of minder",
+    "meer of minder vakantiegeld 2026",
+    "meer of minder spel",
+    "meer of mindere mate",
+    "meer of minder dan teken",
+    "meer of minder vakantiegeld",
+    "meer of minder werken",
+    "meer of minder koet",
+    "meer of minderwerk"
+   ]
   },
-  {
-   "seed": "cryptogram werkbladen",
-   "err": "HTTP 403"
+  "meer of minder werkbladen": {
+   "cls": "types",
+   "s": [
+    "meer minder werkbladen"
+   ]
   },
-  {
-   "seed": "cryptogram printen",
-   "err": "HTTP 403"
+  "rekenpuzzel": {
+   "cls": "types",
+   "s": [
+    "rekenpuzzel",
+    "rekenpuzzels",
+    "rekenpuzzel groep 4",
+    "rekenpuzzels en breinkrakers",
+    "rekenpuzzels groep 5",
+    "rekenpuzzels groep 6",
+    "rekenpuzzels groep 8",
+    "rekenpuzzels volwassenen",
+    "rekenpuzzel groep 7",
+    "rekenpuzzels groep 3"
+   ]
   },
-  {
-   "seed": "beeldpad",
-   "err": "HTTP 403"
+  "rekenwerkblad": {
+   "cls": "types",
+   "s": [
+    "rekenwerkbladen",
+    "rekenwerkbladen groep 3",
+    "rekenwerkblad",
+    "rekenwerkbladen maken",
+    "rekenwerkbladen groep 4",
+    "rekenwerkbladen groep 5",
+    "rekenwerkblad groep 3",
+    "rekenwerkblad groep 8",
+    "rekenwerkbladen groep 6",
+    "rekenwerkbladen groep 7"
+   ]
   },
-  {
-   "seed": "beeldpad werkbladen",
-   "err": "HTTP 403"
+  "rekenwerkblad printen": {
+   "cls": "types",
+   "s": [
+    "rekenwerkblad printen"
+   ]
   },
-  {
-   "seed": "beeldpad printen",
-   "err": "HTTP 403"
+  "groot of klein": {
+   "cls": "types",
+   "s": [
+    "groot of klein onderhoud auto",
+    "groot of klein",
+    "groot of klein in de muziek cryptogram",
+    "groot of klein beschrijf",
+    "groot of klein koolwitje",
+    "groot of klein onderhoud",
+    "groot of klein doop",
+    "bikinilijn groot of klein laseren verschil",
+    "eetlepel groot of klein",
+    "wanneer groot of klein onderhoud"
+   ]
   },
-  {
-   "seed": "aftrekken",
-   "err": "HTTP 403"
+  "bingo": {
+   "cls": "types",
+   "s": [
+    "bingo",
+    "bingoal",
+    "bingo spel",
+    "bingo kaarten",
+    "bingokaart maken",
+    "bingo stiften",
+    "bingo loco",
+    "bingokaart",
+    "bingo online",
+    "bingoal casino"
+   ]
   },
-  {
-   "seed": "aftrekken werkbladen",
-   "err": "HTTP 403"
+  "bingo printen": {
+   "cls": "types",
+   "s": [
+    "bingo printen",
+    "bingo printen gratis",
+    "bingo kaarten printen gratis",
+    "bingo kaarten printen",
+    "auto bingo printen",
+    "plaatjes bingo printen",
+    "sinterklaas bingo printen",
+    "dieren bingo printen",
+    "bingo blaadjes printen",
+    "bingo kaarten printen tot 75"
+   ]
   },
-  {
-   "seed": "aftrekken printen",
-   "err": "HTTP 403"
+  "rooster koppelen": {
+   "cls": "types",
+   "s": [
+    "rooster koppelen aan agenda iphone",
+    "rooster koppelen aan google agenda",
+    "rooster koppelen aan agenda",
+    "rooster koppelen aan outlook agenda",
+    "rooster koppelen aan agenda samsung",
+    "rooster koppelen hu",
+    "hu rooster koppelen aan agenda",
+    "uva rooster koppelen aan agenda",
+    "vu rooster koppelen aan agenda",
+    "ortec rooster koppelen aan agenda"
+   ]
   },
-  {
-   "seed": "code-optellen",
-   "err": "HTTP 403"
+  "koppelen": {
+   "cls": "types",
+   "s": [
+    "koppelen",
+    "koppelen met windows",
+    "koppelen engels",
+    "koppelen airpods",
+    "koppelen afstandsbediening ziggo",
+    "koppelen kpn afstandsbediening",
+    "koppelen 5 letters",
+    "koppelen konijnen",
+    "koppelen videoland",
+    "koppelen personenregister"
+   ]
+  },
+  "koppelen werkbladen": {
+   "cls": "types",
+   "s": [
+    "werkbladen koppelen",
+    "werkbladen koppelen excel",
+    "ikea werkbladen koppelen",
+    "gegevens werkbladen koppelen excel"
+   ]
+  },
+  "voorzetsels": {
+   "cls": "types",
+   "s": [
+    "voorzetsels",
+    "voorzetsels lijst",
+    "voorzetsels frans",
+    "voorzetsels duits",
+    "voorzetsels duits 3e naamval",
+    "voorzetsels engels",
+    "voorzetsels in overijssel",
+    "voorzetsels oefenen",
+    "voorzetsels spaans",
+    "voorzetsels nederlands"
+   ]
+  },
+  "voorzetsels werkbladen": {
+   "cls": "types",
+   "s": [
+    "voorzetsels werkbladen",
+    "werkbladen voorzetsels groep 5"
+   ]
+  },
+  "woord raden": {
+   "cls": "types",
+   "s": [
+    "woord raden",
+    "woord raden spel",
+    "woord raden 5 letters",
+    "woord raden 6 letters",
+    "woord raden met letters",
+    "woord raden 7 letters",
+    "woord raden 5 letters hulp",
+    "woord raden puzzel",
+    "woord raden app",
+    "woord raden spel app"
+   ]
+  },
+  "woordpuzzel": {
+   "cls": "types",
+   "s": [
+    "woordpuzzel",
+    "woordpuzzel maken",
+    "woordpuzzels",
+    "woordpuzzel online",
+    "woordpuzzelboek",
+    "woordpuzzel maken gratis",
+    "woordpuzzel letters",
+    "woordpuzzel hulp",
+    "woordpuzzel gratis",
+    "woordpuzzel maker"
+   ]
+  },
+  "woordpuzzel printen": {
+   "cls": "types",
+   "s": [
+    "woordpuzzel printen",
+    "woordpuzzel maken en printen"
+   ]
+  },
+  "woordzoeker": {
+   "cls": "types",
+   "s": [
+    "woordzoeker",
+    "woordzoeker maken",
+    "woordzoekers",
+    "woordzoeker gratis",
+    "woordzoeker maken gratis",
+    "woordzoeker online",
+    "woordzoeker printen",
+    "woordzoeker pasen",
+    "woordzoeker lente",
+    "woordzoekers voor kinderen"
+   ]
+  },
+  "woordzoeker werkbladen": {
+   "cls": "types",
+   "s": [
+    "woordzoeker werkbladen"
+   ]
+  },
+  "woordzoeker printen": {
+   "cls": "types",
+   "s": [
+    "woordzoeker printen",
+    "woordzoeker printen groep 5",
+    "woordzoeker printen volwassenen",
+    "woordzoeker printen gratis",
+    "woordzoeker printen groep 4",
+    "woordzoeker printen moeilijk",
+    "woordzoeker printen groep 7",
+    "woordzoeker printen groep 8",
+    "woordzoeker printen groep 3",
+    "woordzoeker printen kinderen"
+   ]
+  },
+  "kruiswoordraadsel": {
+   "cls": "types",
+   "s": [
+    "kruiswoordraadsel",
+    "kruiswoordraadsel maken",
+    "kruiswoordraadsels",
+    "kruiswoordraadsel online",
+    "kruiswoordraadsel hulp",
+    "kruiswoordraadsel oplossingen",
+    "kruiswoordraadsel maken online",
+    "kruiswoordraadsel woordenboek",
+    "kruiswoordraadsel woorden",
+    "kruiswoordraadsel standaard"
+   ]
+  },
+  "kruiswoordraadsel printen": {
+   "cls": "types",
+   "s": [
+    "kruiswoordraadsel printen",
+    "kruiswoordraadsel kinderen printen",
+    "kruiswoordraadsel gratis printen",
+    "zweeds kruiswoordraadsel printen",
+    "kruiswoordpuzzel makkelijk printen"
+   ]
+  },
+  "zoek en tel": {
+   "cls": "types",
+   "s": [
+    "zoek en tel",
+    "zoek en tel op kleur",
+    "zoek en tel tot 20",
+    "zoek en tel educo",
+    "zoek en tel tot 10",
+    "zoek en tel mee met coco",
+    "zoek en tel op",
+    "zoek en telboek de zoo",
+    "zoek en telboek",
+    "zoek en telboek de boerderij"
+   ]
+  },
+  "objecten zoeken": {
+   "cls": "types",
+   "s": [
+    "objecten zoeken iphone",
+    "objecten zoeken",
+    "verborgen objecten zoeken",
+    "verborgen objecten zoeken spelletjes",
+    "woz objecten zoeken",
+    "gratis verborgen objecten zoeken"
+   ]
+  },
+  "schatzoektocht": {
+   "cls": "types",
+   "s": [
+    "schatzoektocht",
+    "schatzoektocht 'de gouden tuin van de farao’",
+    "schatzoektocht de schat van koning leeuw",
+    "schatzoektocht lommel",
+    "schattenzoektocht 'het verloren kabouterdorp' reviews",
+    "schatzoektocht het verloren kabouterdorp",
+    "schatzoektocht de gouden tuin van de farao foto's"
+   ]
+  },
+  "ontbrekende stukken": {
+   "cls": "types",
+   "s": [
+    "ontbrekende stukjes",
+    "ontbrekende stukjes lego",
+    "ontbrekende stukjes van haasteren",
+    "ontbrekende stukjes.nl",
+    "ontbrekende stukjes lego bestellen",
+    "ontbrekende stukjes webshop",
+    "ontbrekende stukken ikea",
+    "zuivelproduct met ontbrekende stukken"
+   ]
+  },
+  "tellen met plaatjes": {
+   "cls": "types",
+   "s": [
+    "tellen plaatjes"
+   ]
+  },
+  "turven": {
+   "cls": "types",
+   "s": [
+    "turven",
+    "turven betekenis",
+    "turven engels",
+    "turven of turven",
+    "turven online",
+    "turven in excel",
+    "turven in word",
+    "turven app",
+    "turven 5",
+    "turven kleuters"
+   ]
+  },
+  "honderdveld": {
+   "cls": "types",
+   "s": [
+    "honderdveld",
+    "honderdveld printen",
+    "honderdveld leeg",
+    "honderdveld oefenen",
+    "honderdveld werkblad",
+    "honderdveld pdf",
+    "honderdveld spelletjes",
+    "honderdveld groep 3",
+    "honderdveld rekenen",
+    "honderdveld oefenen online"
+   ]
+  },
+  "honderdveld printen": {
+   "cls": "types",
+   "s": [
+    "honderdveld printen"
+   ]
+  },
+  "getallen vergelijken": {
+   "cls": "types",
+   "s": [
+    "getallen vergelijken in excel",
+    "getallen vergelijken",
+    "decimale getallen vergelijken",
+    "twee getallen vergelijken in excel",
+    "negatieve getallen vergelijken"
+   ]
+  },
+  "groepen vergelijken": {
+   "cls": "types",
+   "s": [
+    "groepen vergelijken",
+    "groepen vergelijken statistiek",
+    "groepen vergelijken wiskunde a",
+    "shimano groepen vergelijken",
+    "twee groepen vergelijken statistiek",
+    "sram groepen vergelijken met shimano",
+    "spss groepen vergelijken",
+    "spss twee groepen vergelijken",
+    "causaliteit en groepen vergelijken"
+   ]
+  },
+  "groottes vergelijken": {
+   "cls": "types",
+   "s": [
+    "iphone groottes vergelijken",
+    "auto groottes vergelijken"
+   ]
+  },
+  "getallenlijn": {
+   "cls": "types",
+   "s": [
+    "getallenlijn",
+    "getallenlijn tot 100",
+    "getallenlijn tot 20",
+    "getallenlijn tot 100 printen",
+    "getallenlijn tot 100 werkblad",
+    "getallenlijn tot 10",
+    "getallenlijn groep 3",
+    "getallenlijn tot 50",
+    "getallenlijn tot 1000",
+    "getallenlijn groep 4"
+   ]
+  },
+  "getallenlijn werkbladen": {
+   "cls": "types",
+   "s": [
+    "getallenlijn werkbladen",
+    "getallenlijn werkbladen groep 3",
+    "werkbladen getallenlijn tot 100",
+    "werkbladen getallenlijn tot 20",
+    "werkbladen getallenlijn tot 1000",
+    "werkbladen getallenlijn tot 50",
+    "werkbladen getallenlijn tot 10",
+    "werkbladen getallenlijn groep 5",
+    "werkbladen getallenlijn groep 4",
+    "werkbladen getallenlijn tot 30"
+   ]
+  },
+  "getallenlijn printen": {
+   "cls": "types",
+   "s": [
+    "getallenlijn printen",
+    "getallenlijn printen tot 100",
+    "getallenlijn printen tot 20",
+    "lege getallenlijn printen",
+    "getallenlijn tot 1000 printen",
+    "getallenlijn tot 50 printen",
+    "getallenlijn tot 30 printen",
+    "getallenlijn tot 200 printen",
+    "getallenlijn tot 10 printen"
+   ]
+  },
+  "getalbegrip": {
+   "cls": "types",
+   "s": [
+    "getalbegrip",
+    "getalbegrip kleuters",
+    "getalbegrip tot 100 werkblad",
+    "getalbegrip groep 3",
+    "getalbegrip tot 100",
+    "getalbegrip oefenen",
+    "getalbegrip tot 1000",
+    "getalbegrip tot 10",
+    "getalbegrip tot 20",
+    "getalbegrip groep 4"
+   ]
+  },
+  "getalbegrip werkbladen": {
+   "cls": "types",
+   "s": [
+    "getalbegrip werkbladen",
+    "werkbladen getalbegrip tot 100",
+    "werkbladen getalbegrip tot 10",
+    "werkbladen getalbegrip tot 20",
+    "werkbladen getalbegrip tot 1000",
+    "getalbegrip groep 3 werkbladen",
+    "getalbegrip groep 5 werkbladen"
+   ]
+  },
+  "klokkijken": {
+   "cls": "types",
+   "s": [
+    "klokkijken",
+    "klokkijken oefenen",
+    "klokkijken werkbladen",
+    "klokkijken oefenen online",
+    "klokkijken oefenen groep 5",
+    "klokkijken oefenen groep 4",
+    "klokkijken groep 3",
+    "klokkijken groep 3 werkblad",
+    "klokkijken frans",
+    "klokkijken leren"
+   ]
+  },
+  "klokkijken werkbladen": {
+   "cls": "types",
+   "s": [
+    "klokkijken werkbladen groep 4",
+    "klokkijken werkbladen groep 5",
+    "klokkijken werkbladen groep 3",
+    "klokkijken werkbladen maken",
+    "klokkijken werkbladen groep 6",
+    "klokkijken werkbladen hele en halve uren",
+    "klokkijken werkbladen groep 7",
+    "klokkijken werkbladen hele uren",
+    "klokkijken werkbladen printen",
+    "klokkijken werkbladen kwartieren"
+   ]
+  },
+  "klokkijken printen": {
+   "cls": "types",
+   "s": [
+    "klokkijken printen",
+    "klokkijken memory printen",
+    "klokkijken werkbladen printen",
+    "klokkijken poster printen",
+    "klokkijken oefenen printen"
+   ]
+  },
+  "breuken": {
+   "cls": "types",
+   "s": [
+    "breuken vermenigvuldigen",
+    "breuken",
+    "breuken rekenmachine",
+    "breuken delen",
+    "breuken optellen",
+    "breuken oefenen",
+    "breuken vereenvoudigen",
+    "breuken berekenen",
+    "breuken gelijknamig maken",
+    "breuken keer elkaar"
+   ]
+  },
+  "breuken werkbladen": {
+   "cls": "types",
+   "s": [
+    "breuken werkbladen",
+    "breuken werkbladen groep 6",
+    "breuken werkbladen groep 7",
+    "breuken werkbladen groep 8",
+    "breuken werkbladen groep 5",
+    "werkbladen breuken procenten en kommagetallen",
+    "werkbladen breuken gelijknamig maken",
+    "werkbladen breuken vereenvoudigen",
+    "werkbladen breuken vermenigvuldigen",
+    "werkbladen breuken en procenten"
+   ]
+  },
+  "breuken printen": {
+   "cls": "types",
+   "s": [
+    "breuken printen",
+    "breuken sommen printen"
+   ]
+  },
+  "grafieken lezen": {
+   "cls": "types",
+   "s": [
+    "grafieken lezen",
+    "grafieken lezen crypto",
+    "grafieken lezen en interpreteren",
+    "grafieken lezen aandelen",
+    "grafieken leren lezen",
+    "grafieken leren lezen crypto",
+    "beurs grafieken lezen",
+    "forex grafieken lezen"
+   ]
+  },
+  "keersommen": {
+   "cls": "types",
+   "s": [
+    "keersommen oefenen",
+    "keersommen",
+    "keersommen werkblad",
+    "keersommen spelletjes",
+    "keersommen onder elkaar",
+    "keersommen blad",
+    "keersommen oefenen groep 4",
+    "keersommen kleurplaat",
+    "keersommen oefenen werkblad",
+    "keersommen groep 5"
+   ]
+  },
+  "keersommen werkbladen": {
+   "cls": "types",
+   "s": [
+    "keersommen werkbladen",
+    "keersommen werkbladen groep 4",
+    "keersommen werkbladen groep 5",
+    "werkbladen keersommen groep 7",
+    "werkbladen keersommen groep 6",
+    "werkbladen keersommen groep 8",
+    "werkbladen keersommen oefenen"
+   ]
+  },
+  "keersommen printen": {
+   "cls": "types",
+   "s": [
+    "keersommen printen",
+    "keersommen oefenen printen",
+    "keersommen blad printen"
+   ]
+  },
+  "meetkunde": {
+   "cls": "types",
+   "s": [
+    "meetkunde",
+    "meetkunde 9 letters",
+    "meetkunde wiskunde",
+    "meetkunde engels",
+    "meetkunde 3de leerjaar",
+    "meetkunde wiskunde b",
+    "meetkunde oefeningen",
+    "meetkunde 4de leerjaar",
+    "meetkunde 2de leerjaar",
+    "meetkunde 5de leerjaar"
+   ]
+  },
+  "meetkunde werkbladen": {
+   "cls": "types",
+   "s": [
+    "meetkunde werkbladen",
+    "werkbladen meetkunde groep 7",
+    "meetkunde 5de leerjaar werkbladen",
+    "meetkunde 3de leerjaar werkbladen",
+    "meten en meetkunde werkbladen",
+    "meetkunde groep 5 werkbladen"
+   ]
+  },
+  "meten": {
+   "cls": "types",
+   "s": [
+    "meten",
+    "meten in google maps",
+    "meten met iphone",
+    "meten engels",
+    "meten is weten",
+    "meten met telefoon",
+    "meten verleden tijd",
+    "meten met gsm",
+    "meten met 2 maten",
+    "metend rekenen"
+   ]
+  },
+  "meten werkbladen": {
+   "cls": "types",
+   "s": [
+    "meten werkbladen",
+    "werkbladen meten groep 4",
+    "werkbladen meten groep 3",
+    "werkbladen meten groep 5",
+    "werkbladen meten en meetkunde groep 8",
+    "werkbladen meten en meetkunde groep 5",
+    "werkbladen meten en wegen",
+    "werkbladen meten en meetkunde groep 7",
+    "werkbladen meten groep 6",
+    "meten en meetkunde werkbladen"
+   ]
+  },
+  "meten printen": {
+   "cls": "types",
+   "s": [
+    "schoenmaat meten printen"
+   ]
+  },
+  "visuele waarneming": {
+   "cls": "types",
+   "s": [
+    "visuele waarneming",
+    "visuele waarneming kleuters",
+    "visuele waarnemingsstoornis",
+    "visuele waarneming peuters",
+    "visuele waarneming betekenis",
+    "visuele waarneming oefeningen",
+    "visuele waarneming kind",
+    "visuele waarneming groep 2",
+    "ergotherapie en visuele waarnemingsstoornissen bij hersenletsel",
+    "visuele en auditieve waarneming"
+   ]
+  },
+  "patronen": {
+   "cls": "types",
+   "s": [
+    "patronen doorbreken",
+    "patronen",
+    "patronen doorbreken boek",
+    "patronen van gordon",
+    "patronen kleding",
+    "patronen tassen maken gratis",
+    "patronen doorbreken hannie van genderen",
+    "patronen tekenen",
+    "patronen kleding gratis",
+    "patronen doorbreken luisterboek"
+   ]
+  },
+  "patronen werkbladen": {
+   "cls": "types",
+   "s": [
+    "patronen werkbladen",
+    "werkbladen patronen doorbreken",
+    "werkbladen patronen kleuters"
+   ]
+  },
+  "patronen printen": {
+   "cls": "types",
+   "s": [
+    "patronen printen",
+    "patronen printen a0",
+    "strijkkralen patronen printen kerst",
+    "pdf patronen printen",
+    "patronen 3d printen",
+    "patronen laten printen"
+   ]
+  },
+  "sorteren": {
+   "cls": "types",
+   "s": [
+    "sorteren",
+    "sorteren in excel",
+    "sorteren afval",
+    "sorteren engels",
+    "sorteren betekenis",
+    "sorteren op datum excel",
+    "sorteren frans",
+    "sorteren in word",
+    "sorteren op kleur excel",
+    "sorteren excel meerdere kolommen"
+   ]
+  },
+  "sorteren werkbladen": {
+   "cls": "types",
+   "s": [
+    "excel werkbladen sorteren"
+   ]
+  },
+  "sorteren printen": {
+   "cls": "types",
+   "s": [
+    "sorteren printen",
+    "sorteren printen betekenis",
+    "printen sorteren of niet"
+   ]
+  },
+  "plaatjes rekenen": {
+   "cls": "types",
+   "s": [
+    "plaatjes rekenen"
+   ]
+  },
+  "natuur verbinden": {
+   "cls": "types",
+   "s": [
+    "natuur verbinden"
+   ]
+  },
+  "beginklanken": {
+   "cls": "types",
+   "s": [
+    "beginklank oefenen kleuters",
+    "beginklank kleuters",
+    "beginklank",
+    "beginklank woord of lettergreep",
+    "beginklank van een woord",
+    "beginklank lettergreep",
+    "beginklank spel",
+    "beginklank oefenen",
+    "beginklank v",
+    "beginklank spel kleuters"
+   ]
+  },
+  "letterkennis": {
+   "cls": "types",
+   "s": [
+    "letterkennis",
+    "letterkennis groep 2",
+    "letterkennis kleuters",
+    "letterkennis oefenen",
+    "letterkennis werkblad",
+    "letterkennis groep 3",
+    "letterkennis testen",
+    "letterkennis eind groep 2",
+    "letterkennis groep 1",
+    "letterkennis blad"
+   ]
+  },
+  "woorden bouwen": {
+   "cls": "types",
+   "s": [
+    "woorden bouwen",
+    "woorden thema bouwen",
+    "woorden met b o u w e n",
+    "woorden stempelen thema bouwen"
+   ]
+  },
+  "woordenschat": {
+   "cls": "types",
+   "s": [
+    "woordenschat",
+    "woordenschat oefenen",
+    "woordenschat vergroten",
+    "woordenschat engels",
+    "woordenschat spelletjes",
+    "woordenschat oefenen volwassenen",
+    "woordenschat groep 4",
+    "woordenschat groep 5",
+    "woordenschat 2 jaar",
+    "woordenschat groep 7"
+   ]
+  },
+  "woordenschat werkbladen": {
+   "cls": "types",
+   "s": [
+    "woordenschat werkbladen",
+    "woordenschat werkbladen groep 8",
+    "woordenschat werkbladen groep 5",
+    "woordenschat werkbladen groep 7",
+    "woordenschat werkbladen groep 4",
+    "woordenschat werkbladen groep 6",
+    "woordenschat werkbladen groep 3",
+    "woordenschat nt2 werkbladen",
+    "woordenschat oefenen werkbladen",
+    "woordenschat groep 2 werkbladen"
+   ]
+  },
+  "optellen kleuters": {
+   "cls": "typeGrade",
+   "s": [
+    "optellen kleuters",
+    "werkblad optellen kleuters"
+   ]
+  },
+  "optellen groep 2": {
+   "cls": "typeGrade",
+   "s": [
+    "optellen groep 2",
+    "leren optellen groep 2"
+   ]
+  },
+  "optellen groep 3": {
+   "cls": "typeGrade",
+   "s": [
+    "optellen groep 3",
+    "herhaald optellen groep 3",
+    "herhaald optellen groep 3 werkblad"
+   ]
+  },
+  "optellen groep 4": {
+   "cls": "typeGrade",
+   "s": [
+    "optellen groep 4",
+    "herhaald optellen groep 4",
+    "herhaald optellen groep 4 werkblad",
+    "optellen over het tiental groep 4"
+   ]
+  },
+  "cryptogram groep 1": {
+   "cls": "typeGrade",
+   "s": [
+    "onderscheiden groep cryptogram 10 letters"
+   ]
+  },
+  "meer of minder kleuters": {
+   "cls": "typeGrade",
+   "s": [
+    "meer of minder kleuters"
+   ]
+  },
+  "meer of minder groep 1": {
+   "cls": "typeGrade",
+   "s": [
+    "meer minder groep 1",
+    "werkblad meer minder groep 1"
+   ]
+  },
+  "meer of minder groep 2": {
+   "cls": "typeGrade",
+   "s": [
+    "meer minder groep 2",
+    "werkblad meer minder groep 2"
+   ]
+  },
+  "meer of minder groep 3": {
+   "cls": "typeGrade",
+   "s": [
+    "meer of minder groep 3",
+    "hoeveel meer of minder groep 3",
+    "werkblad meer minder groep 3",
+    "meer minder oefenen groep 3"
+   ]
+  },
+  "rekenpuzzel kleuters": {
+   "cls": "typeGrade",
+   "s": [
+    "rekenpuzzel kleuters"
+   ]
+  },
+  "rekenpuzzel groep 2": {
+   "cls": "typeGrade",
+   "s": [
+    "rekenpuzzel groep 2"
+   ]
+  },
+  "rekenpuzzel groep 3": {
+   "cls": "typeGrade",
+   "s": [
+    "rekenpuzzel groep 3",
+    "rekenpuzzels groep 3 werkbladen"
+   ]
+  },
+  "rekenpuzzel groep 4": {
+   "cls": "typeGrade",
+   "s": [
+    "rekenpuzzel groep 4",
+    "rekenpuzzels groep 4 werkbladen"
+   ]
+  },
+  "rekenwerkblad kleuters": {
+   "cls": "typeGrade",
+   "s": [
+    "rekenwerkblad kleuters"
+   ]
+  },
+  "rekenwerkblad groep 1": {
+   "cls": "typeGrade",
+   "s": [
+    "rekenwerkblad groep 1",
+    "rekenwerkblad groep 1/2"
+   ]
+  },
+  "rekenwerkblad groep 2": {
+   "cls": "typeGrade",
+   "s": [
+    "rekenwerkblad groep 2",
+    "rekenwerkbladen groep 2",
+    "rekenwerkblad groep 1/2"
+   ]
+  },
+  "rekenwerkblad groep 3": {
+   "cls": "typeGrade",
+   "s": [
+    "rekenwerkblad groep 3",
+    "rekenwerkblad groep 3 lente",
+    "rekenwerkblad groep 3 pasen",
+    "rekenwerkblad groep 3 zomer",
+    "rekenwerkblad groep 3 herfst",
+    "rekenwerkblad groep 3 splitsen",
+    "rekenwerkbladen groep 3",
+    "rekenwerkbladen groep 3 getallenlijn",
+    "rekenwerkbladen groep 3 4",
+    "rekenwerkbladen groep 3 kerst"
+   ]
+  },
+  "rekenwerkblad groep 4": {
+   "cls": "typeGrade",
+   "s": [
+    "rekenwerkblad groep 4",
+    "rekenwerkblad groep 4 kerst",
+    "rekenwerkbladen groep 4",
+    "rekenwerkbladen groep 4 automatiseren",
+    "rekenwerkblad sinterklaas groep 4",
+    "leuk rekenwerkblad groep 4",
+    "rekenwerkblad eind groep 4",
+    "rekenwerkblad geld groep 4",
+    "rekenwerkblad begin groep 4",
+    "leuke rekenwerkbladen groep 4"
+   ]
+  },
+  "groot of klein kleuters": {
+   "cls": "typeGrade",
+   "s": [
+    "groot klein kleuters",
+    "groot naar klein kleuters"
+   ]
+  },
+  "patroonwerkblad kleuters": {
+   "cls": "typeGrade",
+   "s": [
+    "patroon werkblad kleuters"
+   ]
+  },
+  "bingo kleuters": {
+   "cls": "typeGrade",
+   "s": [
+    "bingo kleuters",
+    "bingo kleuters feest",
+    "bingo kleuters lente",
+    "bingo kleuters koningsdag",
+    "bingo kleuters pasen",
+    "bingo kleuters zomer",
+    "bingo kleuters cijfers",
+    "bingo kleuters digibord",
+    "bingo kleuters winter",
+    "bingo kleuters vakantie"
+   ]
+  },
+  "bingo groep 1": {
+   "cls": "typeGrade",
+   "s": [
+    "bingo groep 1",
+    "bingo groep 1 2",
+    "sinterklaas bingo groep 1 2"
+   ]
+  },
+  "bingo groep 2": {
+   "cls": "typeGrade",
+   "s": [
+    "bingo groep 2",
+    "bingo groep 1 2",
+    "sinterklaas bingo groep 1 2"
+   ]
+  },
+  "bingo groep 3": {
+   "cls": "typeGrade",
+   "s": [
+    "bingo groep 3",
+    "bingo groep 3 4",
+    "zomerbingo groep 3",
+    "bingo groep 3 rekenen",
+    "sinterklaas bingo groep 3",
+    "letter bingo groep 3",
+    "woorden bingo groep 3",
+    "pepernoten bingo groep 3",
+    "vakantiebingo groep 3",
+    "bingo lezen groep 3"
+   ]
+  },
+  "bingo groep 4": {
+   "cls": "typeGrade",
+   "s": [
+    "bingo groep 4",
+    "sinterklaas bingo groep 4",
+    "muziek bingo groep 4",
+    "vakantie bingo groep 4",
+    "spelling bingo groep 4",
+    "tafel bingo groep 4",
+    "bingo groep 3 4",
+    "pepernoten bingo groep 4",
+    "klokkijken bingo groep 4",
+    "bingo rekenen groep 4"
+   ]
+  },
+  "voorzetsels kleuters": {
+   "cls": "typeGrade",
+   "s": [
+    "voorzetsels kleuters",
+    "voorzetsels kleuters oefenen",
+    "werkblad voorzetsels kleuters",
+    "les voorzetsels kleuters",
+    "filmpje voorzetsels kleuters",
+    "liedje voorzetsels kleuters"
+   ]
+  },
+  "voorzetsels groep 1": {
+   "cls": "typeGrade",
+   "s": [
+    "voorzetsels groep 1",
+    "voorzetsels oefenen groep 1"
+   ]
+  },
+  "voorzetsels groep 2": {
+   "cls": "typeGrade",
+   "s": [
+    "voorzetsels groep 2",
+    "werkblad voorzetsels groep 2"
+   ]
+  },
+  "voorzetsels groep 3": {
+   "cls": "typeGrade",
+   "s": [
+    "voorzetsels groep 3",
+    "werkblad voorzetsels groep 3",
+    "voorzetsels oefenen groep 3"
+   ]
+  },
+  "voorzetsels groep 4": {
+   "cls": "typeGrade",
+   "s": [
+    "voorzetsels groep 4",
+    "werkblad voorzetsels groep 4",
+    "voorzetsels oefenen groep 4"
+   ]
+  },
+  "woordpuzzel groep 3": {
+   "cls": "typeGrade",
+   "s": [
+    "woordpuzzel groep 3"
+   ]
+  },
+  "woordpuzzel groep 4": {
+   "cls": "typeGrade",
+   "s": [
+    "woordpuzzel groep 4"
+   ]
+  },
+  "woordzoeker kleuters": {
+   "cls": "typeGrade",
+   "s": [
+    "woordzoeker kleuters",
+    "woordzoeker kleuters zomer",
+    "woordzoeker sinterklaas kleuters",
+    "woordzoeker kerst kleuters",
+    "woordzoeker lente kleuters"
+   ]
+  },
+  "woordzoeker groep 1": {
+   "cls": "typeGrade",
+   "s": [
+    "woordzoeker groep 1",
+    "woordzoeker groep 1 2",
+    "woordzoeker groep 3 kern 1",
+    "woordzoeker groep 3 kern 10",
+    "woordzoeker groep 3 kern 11"
+   ]
+  },
+  "woordzoeker groep 2": {
+   "cls": "typeGrade",
+   "s": [
+    "woordzoeker groep 2",
+    "woordzoeker groep 2 printen",
+    "woordzoeker groep 2 zomer",
+    "woordzoeker groep 1 2",
+    "woordzoeker lente groep 2",
+    "woordzoeker sinterklaas groep 2",
+    "woordzoeker groep 3 kern 2",
+    "woordzoeker staal 2 groep 5"
+   ]
+  },
+  "woordzoeker groep 3": {
+   "cls": "typeGrade",
+   "s": [
+    "woordzoeker groep 3",
+    "woordzoeker groep 3 lente",
+    "woordzoeker groep 3 printen",
+    "woordzoeker groep 3 zomer",
+    "woordzoeker groep 3 dieren",
+    "woordzoeker groep 3 kern 9",
+    "woordzoeker groep 3 kern 10",
+    "woordzoeker groep 3/4",
+    "woordzoeker groep 3 koningsdag",
+    "woordzoeker groep 3 pasen"
+   ]
+  },
+  "woordzoeker groep 4": {
+   "cls": "typeGrade",
+   "s": [
+    "woordzoeker groep 4",
+    "woordzoeker groep 4 lente",
+    "woordzoeker groep 4 zomer",
+    "woordzoeker groep 4 spelling",
+    "woordzoeker groep 4 dieren",
+    "woordzoeker groep 4 voorjaar",
+    "woordzoeker groep 4 pasen",
+    "woordzoeker groep 4 koningsdag",
+    "woordzoeker groep 4 vakantie",
+    "woordzoeker groep 4 printen"
+   ]
+  },
+  "kruiswoordraadsel kleuters": {
+   "cls": "typeGrade",
+   "s": [
+    "kruiswoordraadsel kleuters",
+    "kruiswoordraadsel voor kleuters"
+   ]
+  },
+  "kruiswoordraadsel groep 3": {
+   "cls": "typeGrade",
+   "s": [
+    "kruiswoordraadsel groep 3"
+   ]
+  },
+  "zoek en tel kleuters": {
+   "cls": "typeGrade",
+   "s": [
+    "zoek en tel kleuters"
+   ]
+  },
+  "turven kleuters": {
+   "cls": "typeGrade",
+   "s": [
+    "turven kleuters",
+    "werkblad turven kleuters",
+    "les turven kleuters"
+   ]
+  },
+  "turven groep 2": {
+   "cls": "typeGrade",
+   "s": [
+    "turven groep 2",
+    "werkblad turven groep 2"
+   ]
+  },
+  "turven groep 3": {
+   "cls": "typeGrade",
+   "s": [
+    "turven groep 3",
+    "turven groep 3 werkblad",
+    "turven oefenen groep 3"
+   ]
+  },
+  "honderdveld kleuters": {
+   "cls": "typeGrade",
+   "s": [
+    "honderdveld kleuters"
+   ]
+  },
+  "honderdveld groep 3": {
+   "cls": "typeGrade",
+   "s": [
+    "honderdveld groep 3"
+   ]
+  },
+  "honderdveld groep 4": {
+   "cls": "typeGrade",
+   "s": [
+    "honderdveld groep 4"
+   ]
+  },
+  "getallenlijn kleuters": {
+   "cls": "typeGrade",
+   "s": [
+    "getallenlijn kleuters",
+    "getallenlijn kleuters tot 20",
+    "werkblad getallenlijn kleuters",
+    "getallenlijn oefenen kleuters",
+    "positie getallenlijn kleuters",
+    "getallenlijn tot 10 kleuters",
+    "getallenlijn tm 20 kleuters"
+   ]
+  },
+  "getallenlijn groep 1": {
+   "cls": "typeGrade",
+   "s": [
+    "getallenlijn groep 1",
+    "getallenlijn groep 1 2",
+    "getallenlijn tot 100 groep 3",
+    "getallenlijn tot 100 groep 4",
+    "getallenlijn tot 1000 groep 5",
+    "getallenlijn tot 100 groep 5"
+   ]
+  },
+  "getallenlijn groep 2": {
+   "cls": "typeGrade",
+   "s": [
+    "getallenlijn groep 2",
+    "werkblad getallenlijn groep 2",
+    "getallenlijn groep 1 2",
+    "getallenlijn oefenen groep 2",
+    "getallenlijn tot 20 groep 3"
+   ]
+  },
+  "getallenlijn groep 3": {
+   "cls": "typeGrade",
+   "s": [
+    "getallenlijn groep 3",
+    "getallenlijn groep 3 werkblad",
+    "getallenlijn groep 3 oefenen",
+    "getallenlijn groep 3 ophangen",
+    "getallenlijn groep 3 in de klas",
+    "getallenlijn groep 3 kopen",
+    "rekenen getallenlijn groep 3",
+    "getallenlijn spel groep 3",
+    "getallenlijn sommen groep 3",
+    "getallenlijn oefenen groep 3 werkblad"
+   ]
+  },
+  "getallenlijn groep 4": {
+   "cls": "typeGrade",
+   "s": [
+    "getallenlijn groep 4",
+    "getallenlijn groep 4 werkblad",
+    "getallenlijn groep 4 oefenen",
+    "getallenlijn sommen groep 4",
+    "getallenlijn rekenen groep 4",
+    "uitleg getallenlijn groep 4",
+    "getallenlijn opdrachten groep 4",
+    "getallenlijn tot 100 groep 4",
+    "werkblad lege getallenlijn groep 4",
+    "junior einstein getallenlijn groep 4"
+   ]
+  },
+  "getalbegrip kleuters": {
+   "cls": "typeGrade",
+   "s": [
+    "getalbegrip kleuters",
+    "getalbegrip oefenen kleuters"
+   ]
+  },
+  "getalbegrip groep 1": {
+   "cls": "typeGrade",
+   "s": [
+    "getalbegrip groep 1",
+    "leerlijn getalbegrip groep 1 2",
+    "tellen en getalbegrip groep 1 2"
+   ]
+  },
+  "getalbegrip groep 2": {
+   "cls": "typeGrade",
+   "s": [
+    "getalbegrip groep 2",
+    "getalbegrip oefenen groep 2",
+    "leerlijn getalbegrip groep 1 2"
+   ]
+  },
+  "getalbegrip groep 3": {
+   "cls": "typeGrade",
+   "s": [
+    "getalbegrip groep 3",
+    "getalbegrip groep 3 werkbladen",
+    "getalbegrip groep 3 oefenen",
+    "getalbegrip spelletjes groep 3",
+    "wat is getalbegrip groep 3"
+   ]
+  },
+  "getalbegrip groep 4": {
+   "cls": "typeGrade",
+   "s": [
+    "getalbegrip groep 4",
+    "getalbegrip groep 4 oefenen",
+    "werkblad getalbegrip groep 4"
+   ]
+  },
+  "klokkijken kleuters": {
+   "cls": "typeGrade",
+   "s": [
+    "klokkijken kleuters",
+    "leren klokkijken kleuters",
+    "werkblad klokkijken kleuters"
+   ]
+  },
+  "klokkijken groep 1": {
+   "cls": "typeGrade",
+   "s": [
+    "klokkijken groep 1",
+    "leren klokkijken groep 1",
+    "klokkijken oefenen groep 1"
+   ]
+  },
+  "klokkijken groep 2": {
+   "cls": "typeGrade",
+   "s": [
+    "klokkijken groep 2",
+    "leren klokkijken groep 2",
+    "klokkijken oefenen groep 2",
+    "werkblad klokkijken groep 2"
+   ]
+  },
+  "klokkijken groep 3": {
+   "cls": "typeGrade",
+   "s": [
+    "klokkijken groep 3",
+    "klokkijken groep 3 werkblad",
+    "klokkijken groep 3 oefenen",
+    "klokkijken groep 3 spelletjes",
+    "klokkijken groep 3 hele uren",
+    "klokkijken groep 3 bewegend leren",
+    "klokkijken groep 3 halve uren",
+    "klokkijken groep 3 filmpje",
+    "klokkijken groep 3 werkboekje",
+    "leren klokkijken groep 3"
+   ]
+  },
+  "klokkijken groep 4": {
+   "cls": "typeGrade",
+   "s": [
+    "klokkijken groep 4",
+    "klokkijken groep 4 digitaal",
+    "klokkijken groep 4 oefenen",
+    "klokkijken groep 4 spelletjes",
+    "klokkijken groep 4 werkbladen",
+    "klokkijken groep 4 kwartieren",
+    "klokkijken groep 4 werkboekje",
+    "klokkijken groep 4 hele en halve uren",
+    "klokkijken groep 4 uitleg",
+    "klokkijken oefenen groep 4 werkbladen"
+   ]
+  },
+  "breuken groep 3": {
+   "cls": "typeGrade",
+   "s": [
+    "breuken groep 3"
+   ]
+  },
+  "breuken groep 4": {
+   "cls": "typeGrade",
+   "s": [
+    "breuken groep 4",
+    "breuken oefenen groep 4"
+   ]
+  },
+  "keersommen groep 2": {
+   "cls": "typeGrade",
+   "s": [
+    "keersommen groep 2"
+   ]
+  },
+  "keersommen groep 3": {
+   "cls": "typeGrade",
+   "s": [
+    "keersommen groep 3",
+    "keersommen oefenen groep 3",
+    "kleurplaat keersommen groep 3"
+   ]
+  },
+  "keersommen groep 4": {
+   "cls": "typeGrade",
+   "s": [
+    "keersommen groep 4",
+    "keersommen groep 4 werkblad",
+    "keersommen groep 4 oefenen",
+    "keersommen groep 4 spelletjes",
+    "keersommen groep 4 kleurplaat",
+    "keersommen boekje groep 4",
+    "keersommen blad groep 4",
+    "keersommen leren groep 4",
+    "werkboekje keersommen groep 4",
+    "rekenen keersommen groep 4"
+   ]
+  },
+  "meetkunde kleuters": {
+   "cls": "typeGrade",
+   "s": [
+    "meetkunde kleuters",
+    "meetkunde les kleuters",
+    "meetkunde activiteit kleuters",
+    "meten meetkunde kleuters",
+    "leerlijn meetkunde kleuters"
+   ]
+  },
+  "meetkunde groep 1": {
+   "cls": "typeGrade",
+   "s": [
+    "meetkunde groep 1",
+    "meetkunde groep 1 2",
+    "meten en meetkunde groep 1 2",
+    "meten en meetkunde groep 1"
+   ]
+  },
+  "meetkunde groep 2": {
+   "cls": "typeGrade",
+   "s": [
+    "meetkunde groep 2",
+    "meetkunde groep 1 2",
+    "meten en meetkunde groep 2"
+   ]
+  },
+  "meetkunde groep 3": {
+   "cls": "typeGrade",
+   "s": [
+    "meetkunde groep 3",
+    "meten meetkunde groep 3",
+    "meetkunde les groep 3"
+   ]
+  },
+  "meetkunde groep 4": {
+   "cls": "typeGrade",
+   "s": [
+    "meetkunde groep 4",
+    "meetkunde les groep 4",
+    "meten en meetkunde groep 4",
+    "meten en meetkunde groep 4 werkbladen"
+   ]
+  },
+  "meten kleuters": {
+   "cls": "typeGrade",
+   "s": [
+    "meten kleuters",
+    "meten kleuters werkblad",
+    "meten kleuters les",
+    "kleuters meten en meetkunde",
+    "inhoud meten kleuters",
+    "lengte meten kleuters",
+    "bloemen meten kleuters",
+    "oppervlakte meten kleuters",
+    "filmpje meten kleuters",
+    "activiteit meten kleuters"
+   ]
+  },
+  "meten groep 1": {
+   "cls": "typeGrade",
+   "s": [
+    "meten groep 1",
+    "meten groep 1 2",
+    "leerlijn meten groep 1 2",
+    "les meten groep 1 2",
+    "kringactiviteit meten groep 1 2",
+    "meten en meetkunde groep 1 2",
+    "meten en meetkunde groep 1"
+   ]
+  },
+  "meten groep 2": {
+   "cls": "typeGrade",
+   "s": [
+    "meten groep 2",
+    "werkblad meten groep 2",
+    "lesidee meten groep 2",
+    "meten groep 1 2",
+    "meten en meetkunde groep 2",
+    "meten met natuurlijke maten groep 2",
+    "leerlijn meten groep 1 2",
+    "les meten groep 1 2",
+    "kringactiviteit meten groep 1 2"
+   ]
+  },
+  "meten groep 3": {
+   "cls": "typeGrade",
+   "s": [
+    "meten groep 3",
+    "meten groep 3 werkblad",
+    "les meten groep 3",
+    "rekenles meten groep 3",
+    "rekenen meten groep 3",
+    "meten meetkunde groep 3",
+    "werkboekje meten groep 3",
+    "bewegend leren meten groep 3",
+    "meten en wegen groep 3",
+    "meten met natuurlijke maten groep 3"
+   ]
+  },
+  "meten groep 4": {
+   "cls": "typeGrade",
+   "s": [
+    "meten groep 4",
+    "meten groep 4 werkblad",
+    "les meten groep 4",
+    "werkboekje meten groep 4",
+    "meten oefenen groep 4",
+    "leren meten groep 4",
+    "rekenen meten groep 4",
+    "meten en meetkunde groep 4",
+    "meten en wegen groep 4",
+    "meten met liniaal groep 4"
+   ]
+  },
+  "visuele waarneming kleuters": {
+   "cls": "typeGrade",
+   "s": [
+    "visuele waarneming kleuters"
+   ]
+  },
+  "visuele waarneming groep 2": {
+   "cls": "typeGrade",
+   "s": [
+    "visuele waarneming groep 2"
+   ]
+  },
+  "patronen kleuters": {
+   "cls": "typeGrade",
+   "s": [
+    "patronen kleuters",
+    "patronen kleuters werkblad",
+    "patronen leggen kleuters",
+    "patronen maken kleuters",
+    "patronen oefenen kleuters",
+    "patronen tekenen kleuters",
+    "les patronen kleuters",
+    "patronen herfst kleuters",
+    "patronen afmaken kleuters",
+    "knippatronen kleuters"
+   ]
+  },
+  "patronen groep 1": {
+   "cls": "typeGrade",
+   "s": [
+    "patronen groep 1",
+    "patronen groep 1-2",
+    "werkblad patronen groep 1"
+   ]
+  },
+  "patronen groep 2": {
+   "cls": "typeGrade",
+   "s": [
+    "patronen groep 2",
+    "werkblad patronen groep 2",
+    "patronen groep 1-2"
+   ]
+  },
+  "patronen groep 3": {
+   "cls": "typeGrade",
+   "s": [
+    "patronen groep 3",
+    "werkblad patronen groep 3",
+    "patronen afmaken groep 3",
+    "patronen maken groep 3",
+    "les patronen groep 3",
+    "patronen schrijven groep 3",
+    "patronen tekenen groep 3"
+   ]
+  },
+  "patronen groep 4": {
+   "cls": "typeGrade",
+   "s": [
+    "patronen groep 4",
+    "werkblad patronen groep 4",
+    "patronen tekenen groep 4",
+    "patronen afmaken groep 4"
+   ]
+  },
+  "sorteren kleuters": {
+   "cls": "typeGrade",
+   "s": [
+    "sorteren kleuters",
+    "afval sorteren kleuters",
+    "vormen sorteren kleuters",
+    "kleuren sorteren kleuters",
+    "dieren sorteren kleuters",
+    "sorteren met kleuters",
+    "pillen sorteren kleuters",
+    "seizoenen sorteren kleuters",
+    "werkblad sorteren kleuters",
+    "bloemen sorteren kleuters"
+   ]
+  },
+  "sorteren groep 2": {
+   "cls": "typeGrade",
+   "s": [
+    "werkblad sorteren groep 2"
+   ]
+  },
+  "beginklanken kleuters": {
+   "cls": "typeGrade",
+   "s": [
+    "beginklanken kleuters"
+   ]
+  },
+  "letterkennis kleuters": {
+   "cls": "typeGrade",
+   "s": [
+    "letterkennis kleuters",
+    "letterkennis oefenen kleuters"
+   ]
+  },
+  "letterkennis groep 1": {
+   "cls": "typeGrade",
+   "s": [
+    "letterkennis groep 1"
+   ]
+  },
+  "letterkennis groep 2": {
+   "cls": "typeGrade",
+   "s": [
+    "letterkennis groep 2",
+    "letterkennis eind groep 2",
+    "slo letterkennis groep 2",
+    "slo doelen letterkennis groep 2"
+   ]
+  },
+  "letterkennis groep 3": {
+   "cls": "typeGrade",
+   "s": [
+    "letterkennis groep 3"
+   ]
+  },
+  "woordenschat kleuters": {
+   "cls": "typeGrade",
+   "s": [
+    "woordenschat kleuters",
+    "woordenschat kleuters oefenen",
+    "woordenschat kleuters winter",
+    "woordenschat kleuters kerst",
+    "woordenschat kleuters herfst",
+    "woordenschat kleuters sinterklaas",
+    "woordenschat kleuterschool",
+    "woordenschat kleuters lente",
+    "woordenschat kleuters boerderij",
+    "woordenschat kleuters zomer"
+   ]
+  },
+  "woordenschat groep 1": {
+   "cls": "typeGrade",
+   "s": [
+    "woordenschat groep 1",
+    "woordenschat groep 1 2",
+    "woordenschat groep 1 werkbladen",
+    "woordenschat oefenen groep 1",
+    "woordenschat spelletjes groep 1 2",
+    "woordenschat vergroten groep 1",
+    "woordenschat les groep 1",
+    "woordenschat activiteiten groep 1 2",
+    "oefeningen woordenschat groep 1 2",
+    "woordenschat les groep 1-2"
+   ]
+  },
+  "woordenschat groep 2": {
+   "cls": "typeGrade",
+   "s": [
+    "woordenschat groep 2",
+    "woordenschat groep 2 werkbladen",
+    "woordenschat groep 2 oefenen",
+    "woordenschat groep 1 2",
+    "woordenschat sinterklaas groep 2",
+    "woordenschat winter groep 2",
+    "woordenschat vergroten groep 2",
+    "woordenschat oefenen groep 2 online",
+    "woordenschat thema 2 groep 4",
+    "woordenschat staal 2 groep 4"
+   ]
+  },
+  "woordenschat groep 3": {
+   "cls": "typeGrade",
+   "s": [
+    "woordenschat groep 3",
+    "woordenschat groep 3 werkbladen",
+    "woordenschat groep 3 oefenen",
+    "woordenschat groep 3 spelletjes",
+    "woordenschat groep 3 pdf",
+    "woordenschat groep 3 cito",
+    "woordenschat groep 3/4",
+    "woordenschat les groep 3",
+    "woordenschat vergroten groep 3",
+    "woordenschat sinterklaas groep 3"
+   ]
+  },
+  "woordenschat groep 4": {
+   "cls": "typeGrade",
+   "s": [
+    "woordenschat groep 4",
+    "woordenschat groep 4 oefenen",
+    "woordenschat groep 4 werkbladen",
+    "woordenschat groep 4 oefenen gratis",
+    "woordenschat groep 4 pdf",
+    "woordenschat groep 4 thema 8",
+    "woordenschat groep 4 taal actief",
+    "woordenschat groep 4 cito",
+    "woordenschat groep 4 staal",
+    "woordenschat spelletjes groep 4"
+   ]
+  },
+  "dieren werkbladen": {
+   "cls": "themes",
+   "s": [
+    "dieren werkbladen",
+    "werkbladen dieren groep 3",
+    "werkbladen dieren groep 1 2",
+    "thema dieren werkbladen"
+   ]
+  },
+  "vogels werkbladen": {
+   "cls": "themes",
+   "s": [
+    "werkbladen vogels"
+   ]
+  },
+  "lichaamsdelen werkbladen": {
+   "cls": "themes",
+   "s": [
+    "werkbladen lichaamsdelen"
+   ]
+  },
+  "kerstmis werkbladen": {
+   "cls": "themes",
+   "s": [
+    "kerstmis werkbladen"
+   ]
+  },
+  "kleding werkbladen": {
+   "cls": "themes",
+   "s": [
+    "werkbladen kleding",
+    "thema kleding werkbladen"
+   ]
+  },
+  "kleuren werkbladen": {
+   "cls": "themes",
+   "s": [
+    "kleuren werkbladen",
+    "werkbladen kleuren op nummer",
+    "werkbladen kleuren en vormen",
+    "werkbladen kleuren op code",
+    "dekker werkbladen kleuren",
+    "topline werkbladen kleuren"
+   ]
+  },
+  "dinosaurussen werkbladen": {
+   "cls": "themes",
+   "s": [
+    "werkbladen dinosaurussen",
+    "werkbladen dinosaurussen groep 2",
+    "werkbladen dinosaurussen groep 3"
+   ]
+  },
+  "pasen werkbladen": {
+   "cls": "themes",
+   "s": [
+    "pasen werkbladen",
+    "pasen werkbladen kleuters",
+    "pasen werkbladen groep 3",
+    "pasen werkbladen groep 4",
+    "pasen werkbladen groep 8",
+    "pasen werkbladen groep 5",
+    "pasen werkbladen groep 6",
+    "werkbladen pasen groep 7",
+    "werkbladen pasen groep 2",
+    "werkbladen pasen bovenbouw"
+   ]
+  },
+  "emoties werkbladen": {
+   "cls": "themes",
+   "s": [
+    "emoties werkbladen",
+    "surfen op emoties werkbladen"
+   ]
+  },
+  "bloemen werkbladen": {
+   "cls": "themes",
+   "s": [
+    "werkbladen bloemen"
+   ]
+  },
+  "fruit werkbladen": {
+   "cls": "themes",
+   "s": [
+    "fruit werkbladen",
+    "werkbladen fruit en groenten"
+   ]
+  },
+  "ziekenhuis werkbladen": {
+   "cls": "themes",
+   "s": [
+    "werkbladen ziekenhuis"
+   ]
+  },
+  "muziek werkbladen": {
+   "cls": "themes",
+   "s": [
+    "muziek werkbladen"
+   ]
+  },
+  "beroepen werkbladen": {
+   "cls": "themes",
+   "s": [
+    "beroepen werkbladen",
+    "thema beroepen werkbladen"
+   ]
+  },
+  "huisdieren werkbladen": {
+   "cls": "themes",
+   "s": [
+    "werkbladen huisdieren",
+    "werkbladen thema huisdieren"
+   ]
+  },
+  "vormen werkbladen": {
+   "cls": "themes",
+   "s": [
+    "vormen werkbladen",
+    "werkbladen vormen kleuters",
+    "werkbladen vormen en kleuren"
+   ]
+  },
+  "ruimte werkbladen": {
+   "cls": "themes",
+   "s": [
+    "ruimte werkbladen",
+    "werkbladen ruimte kleuters",
+    "werkbladen ruimte groep 3",
+    "werkbladen ruimte groep 4",
+    "werkbladen ruimte groep 2",
+    "thema ruimte werkbladen",
+    "getal en ruimte werkbladen"
+   ]
+  },
+  "lente werkbladen": {
+   "cls": "themes",
+   "s": [
+    "lente werkbladen",
+    "lente werkbladen groep 3",
+    "lente werkbladen kleuters",
+    "lente werkbladen groep 2",
+    "lente werkbladen groep 4",
+    "lente werkbladen groep 6",
+    "lente werkbladen groep 5",
+    "werkbladen lente peuters",
+    "werkbladen lente groep 1",
+    "werkbladen lente groep 1 2"
+   ]
+  },
+  "zomer werkbladen": {
+   "cls": "themes",
+   "s": [
+    "zomer werkbladen",
+    "zomer werkbladen groep 3",
+    "zomer werkbladen kleuters",
+    "zomer werkbladen groep 4",
+    "zomer werkbladen groep 5",
+    "zomer werkbladen groep 2",
+    "zomer werkbladen groep 6",
+    "werkbladen zomer peuters",
+    "werkbladen zomer bovenbouw",
+    "werkbladen zomer groep 1 2"
+   ]
+  },
+  "voertuigen werkbladen": {
+   "cls": "themes",
+   "s": [
+    "werkbladen voertuigen"
+   ]
+  },
+  "weer werkbladen": {
+   "cls": "themes",
+   "s": [
+    "het weer werkbladen"
+   ]
+  },
+  "winter werkbladen": {
+   "cls": "themes",
+   "s": [
+    "winter werkbladen",
+    "winter werkbladen groep 3",
+    "winter werkbladen groep 4",
+    "winter werkbladen kleuters",
+    "winter werkbladen groep 5",
+    "winter werkbladen bovenbouw",
+    "winter werkbladen groep 1 2",
+    "werkbladen winter groep 2",
+    "werkbladen winter peuters",
+    "werkbladen winter groep 6"
+   ]
+  },
+  "rekenen kleuters werkbladen": {
+   "cls": "subjects",
+   "s": [
+    "rekenen kleuters werkbladen",
+    "voorbereidend rekenen kleuters werkbladen"
+   ]
+  },
+  "rekenen groep 1 werkbladen": {
+   "cls": "subjects",
+   "s": [
+    "rekenen groep 1 werkbladen",
+    "rekenen groep 1 2 werkbladen"
+   ]
+  },
+  "rekenen groep 2 werkbladen": {
+   "cls": "subjects",
+   "s": [
+    "rekenen groep 2 werkbladen printen",
+    "rekenen groep 2 werkbladen",
+    "rekenen groep 2 werkbladen printen gratis",
+    "rekenen groep 1 2 werkbladen",
+    "rekenen oefenen groep 2 werkbladen"
+   ]
+  },
+  "rekenen groep 3 werkbladen": {
+   "cls": "subjects",
+   "s": [
+    "rekenen groep 3 werkbladen",
+    "rekenen groep 3 werkbladen printen",
+    "rekenen groep 3 werkbladen gratis",
+    "rekenen groep 3 werkbladen splitsen",
+    "rekenen groep 3 werkbladen pdf",
+    "rekenen groep 3 werkbladen printen gratis",
+    "geld rekenen groep 3 werkbladen",
+    "rekenen eind groep 3 werkbladen",
+    "rekenen oefenen groep 3 werkbladen",
+    "automatiseren rekenen groep 3 werkbladen"
+   ]
+  },
+  "rekenen groep 4 werkbladen": {
+   "cls": "subjects",
+   "s": [
+    "rekenen groep 4 werkbladen",
+    "rekenen groep 4 werkbladen printen",
+    "rekenen groep 4 werkbladen printen gratis",
+    "rekenen groep 4 werkbladen pdf",
+    "rekenen groep 4 werkbladen gratis",
+    "rekenen groep 4 werkbladen printen gratis pdf",
+    "tempotoets rekenen groep 4 werkbladen",
+    "rekenen oefenen groep 4 werkbladen",
+    "geld rekenen groep 4 werkbladen",
+    "automatiseren rekenen groep 4 werkbladen"
+   ]
+  },
+  "taal kleuters werkbladen": {
+   "cls": "subjects",
+   "s": [
+    "taal werkbladen kleuters"
+   ]
+  },
+  "taal groep 1 werkbladen": {
+   "cls": "subjects",
+   "s": [
+    "taal werkbladen groep 1",
+    "werkbladen taal groep 1 2"
+   ]
+  },
+  "taal groep 2 werkbladen": {
+   "cls": "subjects",
+   "s": [
+    "taal groep 2 werkbladen",
+    "taal oefenen groep 2 werkbladen",
+    "werkbladen taal groep 1 2"
+   ]
+  },
+  "taal groep 3 werkbladen": {
+   "cls": "subjects",
+   "s": [
+    "taal groep 3 werkbladen",
+    "taal groep 3 werkbladen printen",
+    "taal oefenen groep 3 werkbladen",
+    "gratis werkbladen taal groep 3",
+    "werkbladen taal eind groep 3",
+    "werkbladen taal kerst groep 3"
+   ]
+  },
+  "taal groep 4 werkbladen": {
+   "cls": "subjects",
+   "s": [
+    "taal groep 4 werkbladen",
+    "taal groep 4 werkbladen printen",
+    "taal actief groep 4 werkbladen pdf",
+    "taal oefenen groep 4 werkbladen",
+    "staal taal groep 4 werkbladen",
+    "taal actief groep 4 werkbladen pdf download",
+    "taal actief groep 4 werkbladen",
+    "taal actief spelling groep 4 werkbladen",
+    "gratis werkbladen taal groep 4",
+    "taal actief 4 groep 5 werkbladen"
+   ]
+  },
+  "werkbladen rekenen kleuters": {
+   "cls": "subjects",
+   "s": [
+    "werkbladen rekenen kleuters"
+   ]
+  },
+  "werkbladen rekenen groep 1": {
+   "cls": "subjects",
+   "s": [
+    "werkbladen rekenen groep 1",
+    "werkbladen rekenen groep 1 2"
+   ]
+  },
+  "werkbladen rekenen groep 2": {
+   "cls": "subjects",
+   "s": [
+    "werkbladen rekenen groep 2",
+    "werkbladen rekenen groep 1 2",
+    "rekenen groep 2 werkbladen printen",
+    "rekenen groep 2 werkbladen printen gratis"
+   ]
+  },
+  "werkbladen rekenen groep 3": {
+   "cls": "subjects",
+   "s": [
+    "werkbladen rekenen groep 3",
+    "werkbladen rekenen groep 3 junior einstein",
+    "werkbladen rekenen groep 3 splitsen",
+    "werkbladen rekenen groep 3 wereld in getallen",
+    "werkbladen rekenen groep 3 getallenlijn",
+    "werkbladen rekenen groep 3 kerst",
+    "werkbladen rekenen groep 3 redactiesommen",
+    "werkbladen rekenen groep 3 pluspunt",
+    "werkbladen rekenen groep 3 sinterklaas",
+    "werkbladen rekenen groep 3 klokkijken"
+   ]
+  },
+  "werkbladen rekenen groep 4": {
+   "cls": "subjects",
+   "s": [
+    "werkbladen rekenen groep 4",
+    "werkbladen rekenen groep 4 splitsen",
+    "werkbladen rekenen groep 4 redactiesommen",
+    "werkbladen rekenen groep 4 verhaaltjessommen",
+    "werkbladen rekenen groep 4 geldsommen",
+    "werkbladen rekenen groep 4 minsommen",
+    "gratis werkbladen rekenen groep 4",
+    "leuke werkbladen rekenen groep 4",
+    "werkbladen rekenen eind groep 4",
+    "werkbladen geld rekenen groep 4"
+   ]
+  },
+  "werkbladen taal kleuters": {
+   "cls": "subjects",
+   "s": [
+    "werkbladen taal kleuters"
+   ]
+  },
+  "werkbladen taal groep 1": {
+   "cls": "subjects",
+   "s": [
+    "werkbladen taal groep 1",
+    "werkbladen taal groep 1 2"
+   ]
+  },
+  "werkbladen taal groep 2": {
+   "cls": "subjects",
+   "s": [
+    "werkbladen taal groep 2",
+    "werkbladen taal groep 1 2",
+    "taal oefenen groep 2 werkbladen"
+   ]
+  },
+  "werkbladen taal groep 3": {
+   "cls": "subjects",
+   "s": [
+    "werkbladen taal groep 3",
+    "gratis werkbladen taal groep 3",
+    "werkbladen taal eind groep 3",
+    "werkbladen taal kerst groep 3",
+    "taal groep 3 werkbladen printen",
+    "oefenen taal groep 3 werkbladen"
+   ]
+  },
+  "werkbladen taal groep 4": {
+   "cls": "subjects",
+   "s": [
+    "werkbladen taal groep 4",
+    "werkbladen taal actief groep 4",
+    "gratis werkbladen taal groep 4",
+    "taal groep 4 werkbladen printen",
+    "extra werkbladen taal actief groep 4",
+    "staal taal groep 4 werkbladen",
+    "werkbladen spelling groep 4 taal actief",
+    "taal actief groep 4 werkbladen pdf",
+    "taal oefenen groep 4 werkbladen",
+    "taal actief groep 4 werkbladen pdf download"
+   ]
+  },
+  "oefenen met kleuters": {
+   "cls": "subjects",
+   "s": [
+    "oefenen met kleuters",
+    "kleuren oefenen met kleuters",
+    "letters oefenen met kleuters",
+    "oefenen met knippen kleuters",
+    "oefenen met tellen kleuters",
+    "woordenschat oefenen met kleuters",
+    "voorzetsels oefenen met kleuters",
+    "splitsen oefenen met kleuters",
+    "oefenen met rijmen kleuters",
+    "cijfers oefenen met kleuters"
+   ]
+  },
+  "oefenen met groep 1": {
+   "cls": "subjects",
+   "s": [
+    "oefenen met schrijven groep 1",
+    "oefenen met letters groep 1",
+    "oefenen met cijfers groep 1",
+    "oefenen met lezen groep 1",
+    "oefenen groep 1",
+    "oefenen groep 1 2",
+    "oefenen groep 1 gratis",
+    "oefenen boek groep 1",
+    "oefenen rekenen groep 1"
+   ]
+  },
+  "oefenen met groep 2": {
+   "cls": "subjects",
+   "s": [
+    "oefenen met letters groep 2",
+    "oefenen met schrijven groep 2",
+    "oefenen met lezen groep 2",
+    "oefenen met rekenen groep 2",
+    "oefenen met cijfers groep 2",
+    "oefenen met klanken groep 2",
+    "oefenen groep 2",
+    "oefenen groep 2 werkbladen",
+    "oefenen boek groep 2",
+    "oefenen taal groep 2"
+   ]
+  },
+  "oefenen met groep 3": {
+   "cls": "subjects",
+   "s": [
+    "oefenen met lezen groep 3",
+    "oefenen met rekenen groep 3",
+    "oefenen met schrijven groep 3",
+    "oefenen met splitsen groep 3",
+    "oefenen met letters groep 3",
+    "oefenen met klokkijken groep 3",
+    "oefenen met geld groep 3",
+    "oefenen met getallenlijn groep 3",
+    "oefenen met spelling groep 3",
+    "oefenen groep 3"
+   ]
+  },
+  "oefenen met groep 4": {
+   "cls": "subjects",
+   "s": [
+    "oefenen met rekenen groep 4",
+    "oefenen met klokkijken groep 4",
+    "oefenen met lezen groep 4",
+    "oefenen met tafels groep 4",
+    "oefenen met spelling groep 4",
+    "oefenen met schrijven groep 4",
+    "oefenen met geld groep 4",
+    "oefenen met getallenlijn groep 4",
+    "oefenen met keersommen groep 4",
+    "oefenen met splitsen groep 4"
+   ]
+  },
+  "online oefenen": {
+   "cls": "online",
+   "s": [
+    "online oefenen",
+    "online oefenen rijbewijs b",
+    "online oefenen rijbewijs am",
+    "online oefenen theorie scooter",
+    "online oefenen begrijpend lezen",
+    "online oefenen motor theorie",
+    "online oefenen rijbewijs c",
+    "online oefenen kloklezen",
+    "online oefenen werkwoordspelling",
+    "online oefenen spelling"
+   ]
+  },
+  "online oefenen kleuters": {
+   "cls": "online",
+   "s": [
+    "online oefenen kleuters"
+   ]
+  },
+  "online oefenen groep 1": {
+   "cls": "online",
+   "s": [
+    "online oefenen groep 1",
+    "letters oefenen groep 1 online"
+   ]
+  },
+  "online oefenen groep 2": {
+   "cls": "online",
+   "s": [
+    "online oefenen groep 2",
+    "online letters oefenen groep 2",
+    "online taal oefenen groep 2",
+    "woordenschat oefenen groep 2 online"
+   ]
+  },
+  "educatieve spelletjes online": {
+   "cls": "online",
+   "s": [
+    "educatieve spelletjes online",
+    "educatieve spelletjes online gratis",
+    "educatieve spelletjes online 4 jaar",
+    "educatieve spelletjes online 6 jaar",
+    "educatieve spelletjes online 5 jaar",
+    "educatieve spelletjes online 3 jaar",
+    "educatieve online spelletjes voor peuters",
+    "educatieve spelletjes kleuters online",
+    "educatieve spelletjes 5 jaar online gratis",
+    "educatieve spelletjes 7 jaar online gratis"
+   ]
+  },
+  "educatieve spelletjes online kleuters": {
+   "cls": "online",
+   "s": [
+    "educatieve spelletjes kleuters online"
+   ]
+  },
+  "werkbladen a": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen adhd",
+    "werkbladen automatiseren",
+    "werkbladen aai ooi oei",
+    "werkbladen analoge klok",
+    "werkbladen alfabet",
+    "werkbladen automatiseren groep 4",
+    "werkbladen autisme",
+    "werkbladen aai ooi oei groep 3",
+    "werkbladen automatiseren groep 5",
+    "werkbladen aduis"
+   ]
+  },
+  "werkbladen b": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen begrijpend lezen",
+    "werkbladen breuken",
+    "werkbladen begrijpend lezen groep 6",
+    "werkbladen begrijpend lezen groep 7",
+    "werkbladen begrijpend lezen groep 4",
+    "werkbladen begin groep 3",
+    "werkbladen begrijpend lezen groep 5",
+    "werkbladen basisschool",
+    "werkbladen breuken groep 6",
+    "werkbladen begrijpend lezen groep 3"
+   ]
+  },
+  "werkbladen c": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen cijferend rekenen",
+    "werkbladen composiet",
+    "werkbladen cijfers schrijven",
+    "werkbladen cijferen",
+    "werkbladen cgt",
+    "werkbladen cijferend vermenigvuldigen",
+    "werkbladen circus",
+    "werkbladen coaching",
+    "werkbladen cijferend optellen",
+    "werkbladen cijferend rekenen groep 6"
+   ]
+  },
+  "werkbladen d": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen digitale klok",
+    "werkbladen deelsommen",
+    "werkbladen dierentuin",
+    "werkbladen deelsommen groep 5",
+    "werkbladen deeltafels",
+    "werkbladen dieren",
+    "werkbladen delen met rest",
+    "werkbladen digitaal klokkijken",
+    "werkbladen downloaden",
+    "werkbladen dieren groep 3"
+   ]
+  },
+  "werkbladen e": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen engels",
+    "werkbladen eerste leerjaar",
+    "werkbladen executieve functies",
+    "werkbladen eind groep 3",
+    "werkbladen engels groep 7",
+    "werkbladen eind groep 2",
+    "werkbladen engels groep 8",
+    "werkbladen emoties",
+    "werkbladen eeuw ieuw uw",
+    "werkbladen eu"
+   ]
+  },
+  "werkbladen f": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen fabriek",
+    "werkbladen fijne motoriek",
+    "werkbladen frans",
+    "werkbladen f en v",
+    "werkbladen frans basisschool",
+    "werkbladen fonemisch bewustzijn groep 2",
+    "werkbladen fabriek alblasserdam",
+    "werkbladen fijne motoriek groep 1 2",
+    "werkbladen faalangst",
+    "werkbladen familie"
+   ]
+  },
+  "werkbladen g": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen groep 3",
+    "werkbladen groep 2",
+    "werkbladen groothandel",
+    "werkbladen groep 4",
+    "werkbladen groep 1",
+    "werkbladen groep 5",
+    "werkbladen groep 6",
+    "werkbladen groep 7",
+    "werkbladen groep 8",
+    "werkbladen groothandel tiel"
+   ]
+  },
+  "werkbladen h": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen hornbach",
+    "werkbladen hout",
+    "werkbladen hubo",
+    "werkbladen hakken en plakken groep 2",
+    "werkbladen hoofdletters",
+    "werkbladen hemelvaart",
+    "werkbladen hebben en zijn",
+    "werkbladen herfst",
+    "werkbladen herfst kleuters",
+    "werkbladen herfst groep 3"
+   ]
+  },
+  "werkbladen i": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen ikea",
+    "werkbladen ikea keuken",
+    "werkbladen inhoudsmaten",
+    "werkbladen inhoud berekenen",
+    "werkbladen interpunctie",
+    "werkbladen interpunctie groep 6",
+    "werkbladen interpunctie groep 8",
+    "werkbladen ig en lijk",
+    "werkbladen ixina",
+    "werkbladen inhoud"
+   ]
+  },
+  "werkbladen j": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen junior einstein",
+    "werkbladen juf milou",
+    "werkbladen juf",
+    "werkbladen juf bijtje",
+    "werkbladen je gevoel de baas",
+    "werkbladen juf sanne",
+    "werkbladen juf hannah",
+    "werkbladen jager bakker",
+    "werkbladen jongeren",
+    "werkbladen jungle"
+   ]
+  },
+  "werkbladen k": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen keuken",
+    "werkbladen klokkijken",
+    "werkbladen kleuters",
+    "werkbladen koningsdag",
+    "werkbladen klok",
+    "werkbladen kern 10",
+    "werkbladen kern 9",
+    "werkbladen klokkijken groep 5",
+    "werkbladen keersommen",
+    "werkbladen kern 8"
+   ]
+  },
+  "werkbladen l": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen lente",
+    "werkbladen letters",
+    "werkbladen letters kleuters",
+    "werkbladen lezen groep 3",
+    "werkbladen lente kleuters",
+    "werkbladen lente groep 3",
+    "werkbladen leestekens",
+    "werkbladen leestekens groep 6",
+    "werkbladen lente groep 4",
+    "werkbladen lente groep 2"
+   ]
+  },
+  "werkbladen m": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen maken",
+    "werkbladen maken rekenen",
+    "werkbladen maaltafels",
+    "werkbladen mijn lichaam",
+    "werkbladen maken spelling",
+    "werkbladen meten",
+    "werkbladen metriek stelsel",
+    "werkbladen menselijk lichaam",
+    "werkbladen meten groep 5",
+    "werkbladen middelbare school"
+   ]
+  },
+  "werkbladen n": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen nederlands",
+    "werkbladen nt2",
+    "werkbladen nobilia",
+    "werkbladen nederlands leren",
+    "werkbladen ng en nk",
+    "werkbladen nederlands groep 7",
+    "werkbladen nei",
+    "werkbladen nederlands groep 8",
+    "werkbladen ng nk groep 3",
+    "werkbladen nl"
+   ]
+  },
+  "werkbladen o": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen op maat",
+    "werkbladen oppervlakte",
+    "werkbladen online",
+    "werkbladen open en gesloten lettergrepen",
+    "werkbladen omtrek en oppervlakte groep 6",
+    "werkbladen onderwerp en persoonsvorm",
+    "werkbladen oe",
+    "werkbladen onderwaterwereld",
+    "werkbladen onderwijs",
+    "werkbladen oppervlakte berekenen"
+   ]
+  },
+  "werkbladen p": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen pasen",
+    "werkbladen peuters",
+    "werkbladen praxis",
+    "werkbladen peuter 2 jaar",
+    "werkbladen peuter 3 jaar",
+    "werkbladen pasen groep 3",
+    "werkbladen pasen kleuters",
+    "werkbladen patronen doorbreken",
+    "werkbladen procenten",
+    "werkbladen printen"
+   ]
+  },
+  "werkbladen q": {
+   "cls": "alphabet",
+   "s": [
+    "quartz werkbladen",
+    "weber q1400 werkbladen"
+   ]
+  },
+  "werkbladen r": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen rekenen",
+    "werkbladen rekenen groep 3",
+    "werkbladen rekenen groep 5",
+    "werkbladen rekenen groep 4",
+    "werkbladen rekenen groep 7",
+    "werkbladen rekenen groep 6",
+    "werkbladen rekenen groep 8",
+    "werkbladen rekenen groep 2",
+    "werkbladen rekenen maken",
+    "werkbladen rekenen 2f"
+   ]
+  },
+  "werkbladen s": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen spelling",
+    "werkbladen spelling groep 4",
+    "werkbladen spelling groep 5",
+    "werkbladen spelling groep 6",
+    "werkbladen schrijven",
+    "werkbladen spelling groep 7",
+    "werkbladen spelling groep 3",
+    "werkbladen splitsen",
+    "werkbladen spelling groep 8",
+    "werkbladen staal spelling"
+   ]
+  },
+  "werkbladen t": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen tafels",
+    "werkbladen taal",
+    "werkbladen tafels oefenen",
+    "werkbladen taal groep 3",
+    "werkbladen taal groep 4",
+    "werkbladen taal groep 5",
+    "werkbladen tiel",
+    "werkbladen taal groep 7",
+    "werkbladen taal groep 2",
+    "werkbladen taal groep 6"
+   ]
+  },
+  "werkbladen u": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen ui",
+    "werkbladen printen",
+    "werkbladen uu",
+    "unilin werkbladen",
+    "uitdagende werkbladen groep 5",
+    "uitdagende werkbladen groep 2",
+    "uitdagende werkbladen groep 3",
+    "uitdagende werkbladen groep 8",
+    "uitdagende werkbladen groep 4",
+    "uitdagende werkbladen groep 6"
+   ]
+  },
+  "werkbladen v": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen veenendaal",
+    "werkbladen verhoudingstabel",
+    "werkbladen verkeer",
+    "werkbladen veilig leren lezen",
+    "werkbladen verliefde harten",
+    "werkbladen voltooid deelwoord",
+    "werkbladen voor kleuters",
+    "werkbladen voor peuters",
+    "werkbladen verkeer groep 7",
+    "werkbladen verbinden"
+   ]
+  },
+  "werkbladen w": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen werkwoordspelling",
+    "werkbladen werkwoordspelling groep 7",
+    "werkbladen werkwoordspelling groep 6",
+    "werkbladen woordsoorten",
+    "werkbladen werkwoordspelling groep 8",
+    "werkbladen werkwoorden",
+    "werkbladen wk voetbal",
+    "werkbladen wk",
+    "werkbladen wiskunde",
+    "werkbladen wk voetbal 2026"
+   ]
+  },
+  "werkbladen x": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen x sommen"
+   ]
+  },
+  "werkbladen y": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen yurls"
+   ]
+  },
+  "werkbladen z": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen zinsontleding groep 8",
+    "werkbladen zomer",
+    "werkbladen zinsontleding",
+    "werkbladen zomer kleuters",
+    "werkbladen zomer groep 3",
+    "werkbladen zinsdelen",
+    "werkbladen zomer groep 2",
+    "werkbladen zoek de verschillen",
+    "werkbladen zinsontleding groep 7",
+    "werkbladen zomer groep 4"
+   ]
+  },
+  "werkbladen printen g": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen printen groep 4",
+    "werkbladen printen groep 3",
+    "gratis werkbladen printen"
+   ]
+  },
+  "werkbladen printen k": {
+   "cls": "alphabet",
+   "s": [
+    "klokkijken werkbladen printen"
+   ]
+  },
+  "werkbladen printen r": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen printen rekenen"
+   ]
+  },
+  "werkbladen printen s": {
+   "cls": "alphabet",
+   "s": [
+    "werkbladen spelling printen"
+   ]
   }
- ],
- "suggestions": {},
- "unique": []
+ },
+ "unique": [
+  "activiteit meten kleuters",
+  "afval sorteren kleuters",
+  "auto bingo printen",
+  "auto groottes vergelijken",
+  "automatiseren rekenen groep 3 werkbladen",
+  "automatiseren rekenen groep 4 werkbladen",
+  "beginklank",
+  "beginklank kleuters",
+  "beginklank lettergreep",
+  "beginklank oefenen",
+  "beginklank oefenen kleuters",
+  "beginklank spel",
+  "beginklank spel kleuters",
+  "beginklank v",
+  "beginklank van een woord",
+  "beginklank woord of lettergreep",
+  "beginklanken kleuters",
+  "beroepen werkbladen",
+  "beurs grafieken lezen",
+  "bewegend leren meten groep 3",
+  "bikinilijn groot of klein laseren verschil",
+  "bingo",
+  "bingo blaadjes printen",
+  "bingo groep 1",
+  "bingo groep 1 2",
+  "bingo groep 2",
+  "bingo groep 3",
+  "bingo groep 3 4",
+  "bingo groep 3 rekenen",
+  "bingo groep 4",
+  "bingo kaarten",
+  "bingo kaarten printen",
+  "bingo kaarten printen gratis",
+  "bingo kaarten printen tot 75",
+  "bingo kleuters",
+  "bingo kleuters cijfers",
+  "bingo kleuters digibord",
+  "bingo kleuters feest",
+  "bingo kleuters koningsdag",
+  "bingo kleuters lente",
+  "bingo kleuters pasen",
+  "bingo kleuters vakantie",
+  "bingo kleuters winter",
+  "bingo kleuters zomer",
+  "bingo lezen groep 3",
+  "bingo loco",
+  "bingo online",
+  "bingo printen",
+  "bingo printen gratis",
+  "bingo rekenen groep 4",
+  "bingo spel",
+  "bingo stiften",
+  "bingoal",
+  "bingoal casino",
+  "bingokaart",
+  "bingokaart maken",
+  "bloemen meten kleuters",
+  "bloemen sorteren kleuters",
+  "breuken",
+  "breuken berekenen",
+  "breuken delen",
+  "breuken gelijknamig maken",
+  "breuken groep 3",
+  "breuken groep 4",
+  "breuken keer elkaar",
+  "breuken oefenen",
+  "breuken oefenen groep 4",
+  "breuken optellen",
+  "breuken printen",
+  "breuken rekenmachine",
+  "breuken sommen printen",
+  "breuken vereenvoudigen",
+  "breuken vermenigvuldigen",
+  "breuken werkbladen",
+  "breuken werkbladen groep 5",
+  "breuken werkbladen groep 6",
+  "breuken werkbladen groep 7",
+  "breuken werkbladen groep 8",
+  "causaliteit en groepen vergelijken",
+  "cijferend optellen werkbladen",
+  "cijfers oefenen met kleuters",
+  "code optellen excel",
+  "cryptogram",
+  "cryptogram ad",
+  "cryptogram hulp",
+  "cryptogram online",
+  "cryptogram oplossen",
+  "cryptogram printen",
+  "cryptogram puzzel",
+  "cryptogram woordenboek",
+  "cryptogrammen",
+  "cryptogrammen nu",
+  "cryptogrammen puzzelboek",
+  "decimale getallen vergelijken",
+  "dekker werkbladen kleuren",
+  "dieren bingo printen",
+  "dieren sorteren kleuters",
+  "dieren werkbladen",
+  "educatieve online spelletjes voor peuters",
+  "educatieve spelletjes 5 jaar online gratis",
+  "educatieve spelletjes 7 jaar online gratis",
+  "educatieve spelletjes kleuters online",
+  "educatieve spelletjes online",
+  "educatieve spelletjes online 3 jaar",
+  "educatieve spelletjes online 4 jaar",
+  "educatieve spelletjes online 5 jaar",
+  "educatieve spelletjes online 6 jaar",
+  "educatieve spelletjes online gratis",
+  "eetlepel groot of klein",
+  "emoties werkbladen",
+  "ergotherapie en visuele waarnemingsstoornissen bij hersenletsel",
+  "excel werkbladen sorteren",
+  "extra werkbladen taal actief groep 4",
+  "filmpje meten kleuters",
+  "filmpje voorzetsels kleuters",
+  "forex grafieken lezen",
+  "foto de un sudoku",
+  "foto sudoku",
+  "fruit werkbladen",
+  "gegevens werkbladen koppelen excel",
+  "geld rekenen groep 3 werkbladen",
+  "geld rekenen groep 4 werkbladen",
+  "getal en ruimte werkbladen",
+  "getalbegrip",
+  "getalbegrip groep 1",
+  "getalbegrip groep 2",
+  "getalbegrip groep 3",
+  "getalbegrip groep 3 oefenen",
+  "getalbegrip groep 3 werkbladen",
+  "getalbegrip groep 4",
+  "getalbegrip groep 4 oefenen",
+  "getalbegrip groep 5 werkbladen",
+  "getalbegrip kleuters",
+  "getalbegrip oefenen",
+  "getalbegrip oefenen groep 2",
+  "getalbegrip oefenen kleuters",
+  "getalbegrip spelletjes groep 3",
+  "getalbegrip tot 10",
+  "getalbegrip tot 100",
+  "getalbegrip tot 100 werkblad",
+  "getalbegrip tot 1000",
+  "getalbegrip tot 20",
+  "getalbegrip werkbladen",
+  "getallen vergelijken",
+  "getallen vergelijken in excel",
+  "getallenlijn",
+  "getallenlijn groep 1",
+  "getallenlijn groep 1 2",
+  "getallenlijn groep 2",
+  "getallenlijn groep 3",
+  "getallenlijn groep 3 in de klas",
+  "getallenlijn groep 3 kopen",
+  "getallenlijn groep 3 oefenen",
+  "getallenlijn groep 3 ophangen",
+  "getallenlijn groep 3 werkblad",
+  "getallenlijn groep 4",
+  "getallenlijn groep 4 oefenen",
+  "getallenlijn groep 4 werkblad",
+  "getallenlijn kleuters",
+  "getallenlijn kleuters tot 20",
+  "getallenlijn oefenen groep 2",
+  "getallenlijn oefenen groep 3 werkblad",
+  "getallenlijn oefenen kleuters",
+  "getallenlijn opdrachten groep 4",
+  "getallenlijn printen",
+  "getallenlijn printen tot 100",
+  "getallenlijn printen tot 20",
+  "getallenlijn rekenen groep 4",
+  "getallenlijn sommen groep 3",
+  "getallenlijn sommen groep 4",
+  "getallenlijn spel groep 3",
+  "getallenlijn tm 20 kleuters",
+  "getallenlijn tot 10",
+  "getallenlijn tot 10 kleuters",
+  "getallenlijn tot 10 printen",
+  "getallenlijn tot 100",
+  "getallenlijn tot 100 groep 3",
+  "getallenlijn tot 100 groep 4",
+  "getallenlijn tot 100 groep 5",
+  "getallenlijn tot 100 printen",
+  "getallenlijn tot 100 werkblad",
+  "getallenlijn tot 1000",
+  "getallenlijn tot 1000 groep 5",
+  "getallenlijn tot 1000 printen",
+  "getallenlijn tot 20",
+  "getallenlijn tot 20 groep 3",
+  "getallenlijn tot 200 printen",
+  "getallenlijn tot 30 printen",
+  "getallenlijn tot 50",
+  "getallenlijn tot 50 printen",
+  "getallenlijn werkbladen",
+  "getallenlijn werkbladen groep 3",
+  "grafieken leren lezen",
+  "grafieken leren lezen crypto",
+  "grafieken lezen",
+  "grafieken lezen aandelen",
+  "grafieken lezen crypto",
+  "grafieken lezen en interpreteren",
+  "gratis cryptogram printen",
+  "gratis verborgen objecten zoeken",
+  "gratis werkbladen groep 1",
+  "gratis werkbladen groep 1 2",
+  "gratis werkbladen groep 2",
+  "gratis werkbladen groep 3",
+  "gratis werkbladen groep 3 lezen",
+  "gratis werkbladen groep 4",
+  "gratis werkbladen groep 5",
+  "gratis werkbladen groep 6",
+  "gratis werkbladen peuters",
+  "gratis werkbladen printen",
+  "gratis werkbladen rekenen groep 4",
+  "gratis werkbladen taal groep 3",
+  "gratis werkbladen taal groep 4",
+  "groep 5 werkbladen printen gratis",
+  "groepen vergelijken",
+  "groepen vergelijken statistiek",
+  "groepen vergelijken wiskunde a",
+  "groot klein kleuters",
+  "groot naar klein kleuters",
+  "groot of klein",
+  "groot of klein beschrijf",
+  "groot of klein doop",
+  "groot of klein in de muziek cryptogram",
+  "groot of klein koolwitje",
+  "groot of klein onderhoud",
+  "groot of klein onderhoud auto",
+  "herhaald optellen groep 3",
+  "herhaald optellen groep 3 werkblad",
+  "herhaald optellen groep 4",
+  "herhaald optellen groep 4 werkblad",
+  "het weer werkbladen",
+  "hoeveel meer of minder groep 3",
+  "honderdveld",
+  "honderdveld groep 3",
+  "honderdveld groep 4",
+  "honderdveld kleuters",
+  "honderdveld leeg",
+  "honderdveld oefenen",
+  "honderdveld oefenen online",
+  "honderdveld pdf",
+  "honderdveld printen",
+  "honderdveld rekenen",
+  "honderdveld spelletjes",
+  "honderdveld werkblad",
+  "hu rooster koppelen aan agenda",
+  "ikea werkbladen koppelen",
+  "inhoud meten kleuters",
+  "iphone groottes vergelijken",
+  "junior einstein getallenlijn groep 4",
+  "keersommen",
+  "keersommen blad",
+  "keersommen blad groep 4",
+  "keersommen blad printen",
+  "keersommen boekje groep 4",
+  "keersommen groep 2",
+  "keersommen groep 3",
+  "keersommen groep 4",
+  "keersommen groep 4 kleurplaat",
+  "keersommen groep 4 oefenen",
+  "keersommen groep 4 spelletjes",
+  "keersommen groep 4 werkblad",
+  "keersommen groep 5",
+  "keersommen kleurplaat",
+  "keersommen leren groep 4",
+  "keersommen oefenen",
+  "keersommen oefenen groep 3",
+  "keersommen oefenen groep 4",
+  "keersommen oefenen printen",
+  "keersommen oefenen werkblad",
+  "keersommen onder elkaar",
+  "keersommen printen",
+  "keersommen spelletjes",
+  "keersommen werkblad",
+  "keersommen werkbladen",
+  "keersommen werkbladen groep 4",
+  "keersommen werkbladen groep 5",
+  "kerstmis werkbladen",
+  "kleuren oefenen met kleuters",
+  "kleuren sorteren kleuters",
+  "kleuren werkbladen",
+  "kleurplaat keersommen groep 3",
+  "kleuters meten en meetkunde",
+  "klokkijken",
+  "klokkijken bingo groep 4",
+  "klokkijken frans",
+  "klokkijken groep 1",
+  "klokkijken groep 2",
+  "klokkijken groep 3",
+  "klokkijken groep 3 bewegend leren",
+  "klokkijken groep 3 filmpje",
+  "klokkijken groep 3 halve uren",
+  "klokkijken groep 3 hele uren",
+  "klokkijken groep 3 oefenen",
+  "klokkijken groep 3 spelletjes",
+  "klokkijken groep 3 werkblad",
+  "klokkijken groep 3 werkboekje",
+  "klokkijken groep 4",
+  "klokkijken groep 4 digitaal",
+  "klokkijken groep 4 hele en halve uren",
+  "klokkijken groep 4 kwartieren",
+  "klokkijken groep 4 oefenen",
+  "klokkijken groep 4 spelletjes",
+  "klokkijken groep 4 uitleg",
+  "klokkijken groep 4 werkbladen",
+  "klokkijken groep 4 werkboekje",
+  "klokkijken kleuters",
+  "klokkijken leren",
+  "klokkijken memory printen",
+  "klokkijken oefenen",
+  "klokkijken oefenen groep 1",
+  "klokkijken oefenen groep 2",
+  "klokkijken oefenen groep 4",
+  "klokkijken oefenen groep 4 werkbladen",
+  "klokkijken oefenen groep 5",
+  "klokkijken oefenen online",
+  "klokkijken oefenen printen",
+  "klokkijken poster printen",
+  "klokkijken printen",
+  "klokkijken werkbladen",
+  "klokkijken werkbladen groep 3",
+  "klokkijken werkbladen groep 4",
+  "klokkijken werkbladen groep 5",
+  "klokkijken werkbladen groep 6",
+  "klokkijken werkbladen groep 7",
+  "klokkijken werkbladen hele en halve uren",
+  "klokkijken werkbladen hele uren",
+  "klokkijken werkbladen kwartieren",
+  "klokkijken werkbladen maken",
+  "klokkijken werkbladen printen",
+  "knippatronen kleuters",
+  "koppelen",
+  "koppelen 5 letters",
+  "koppelen afstandsbediening ziggo",
+  "koppelen airpods",
+  "koppelen engels",
+  "koppelen konijnen",
+  "koppelen kpn afstandsbediening",
+  "koppelen met windows",
+  "koppelen personenregister",
+  "koppelen videoland",
+  "kringactiviteit meten groep 1 2",
+  "kruiswoordpuzzel makkelijk printen",
+  "kruiswoordraadsel",
+  "kruiswoordraadsel gratis printen",
+  "kruiswoordraadsel groep 3",
+  "kruiswoordraadsel hulp",
+  "kruiswoordraadsel kinderen printen",
+  "kruiswoordraadsel kleuters",
+  "kruiswoordraadsel maken",
+  "kruiswoordraadsel maken online",
+  "kruiswoordraadsel online",
+  "kruiswoordraadsel oplossingen",
+  "kruiswoordraadsel printen",
+  "kruiswoordraadsel standaard",
+  "kruiswoordraadsel voor kleuters",
+  "kruiswoordraadsel woorden",
+  "kruiswoordraadsel woordenboek",
+  "kruiswoordraadsels",
+  "leerlijn getalbegrip groep 1 2",
+  "leerlijn meetkunde kleuters",
+  "leerlijn meten groep 1 2",
+  "lege getallenlijn printen",
+  "lengte meten kleuters",
+  "lente werkbladen",
+  "lente werkbladen groep 2",
+  "lente werkbladen groep 3",
+  "lente werkbladen groep 4",
+  "lente werkbladen groep 5",
+  "lente werkbladen groep 6",
+  "lente werkbladen kleuters",
+  "leren klokkijken groep 1",
+  "leren klokkijken groep 2",
+  "leren klokkijken groep 3",
+  "leren klokkijken kleuters",
+  "leren meten groep 4",
+  "leren optellen groep 2",
+  "les meten groep 1 2",
+  "les meten groep 3",
+  "les meten groep 4",
+  "les patronen groep 3",
+  "les patronen kleuters",
+  "les turven kleuters",
+  "les voorzetsels kleuters",
+  "lesidee meten groep 2",
+  "letter bingo groep 3",
+  "letterkennis",
+  "letterkennis blad",
+  "letterkennis eind groep 2",
+  "letterkennis groep 1",
+  "letterkennis groep 2",
+  "letterkennis groep 3",
+  "letterkennis kleuters",
+  "letterkennis oefenen",
+  "letterkennis oefenen kleuters",
+  "letterkennis testen",
+  "letterkennis werkblad",
+  "letters oefenen groep 1 online",
+  "letters oefenen met kleuters",
+  "leuk rekenwerkblad groep 4",
+  "leuke rekenwerkbladen groep 4",
+  "leuke werkbladen rekenen groep 4",
+  "liedje voorzetsels kleuters",
+  "meer minder groep 1",
+  "meer minder groep 2",
+  "meer minder oefenen groep 3",
+  "meer minder werkbladen",
+  "meer of minder",
+  "meer of minder dan teken",
+  "meer of minder groep 3",
+  "meer of minder kleuters",
+  "meer of minder koet",
+  "meer of minder spel",
+  "meer of minder teken",
+  "meer of minder vakantiegeld",
+  "meer of minder vakantiegeld 2026",
+  "meer of minder werken",
+  "meer of mindere mate",
+  "meer of minderwerk",
+  "meetkunde",
+  "meetkunde 2de leerjaar",
+  "meetkunde 3de leerjaar",
+  "meetkunde 3de leerjaar werkbladen",
+  "meetkunde 4de leerjaar",
+  "meetkunde 5de leerjaar",
+  "meetkunde 5de leerjaar werkbladen",
+  "meetkunde 9 letters",
+  "meetkunde activiteit kleuters",
+  "meetkunde engels",
+  "meetkunde groep 1",
+  "meetkunde groep 1 2",
+  "meetkunde groep 2",
+  "meetkunde groep 3",
+  "meetkunde groep 4",
+  "meetkunde groep 5 werkbladen",
+  "meetkunde kleuters",
+  "meetkunde les groep 3",
+  "meetkunde les groep 4",
+  "meetkunde les kleuters",
+  "meetkunde oefeningen",
+  "meetkunde werkbladen",
+  "meetkunde wiskunde",
+  "meetkunde wiskunde b",
+  "meten",
+  "meten en meetkunde groep 1",
+  "meten en meetkunde groep 1 2",
+  "meten en meetkunde groep 2",
+  "meten en meetkunde groep 4",
+  "meten en meetkunde groep 4 werkbladen",
+  "meten en meetkunde werkbladen",
+  "meten en wegen groep 3",
+  "meten en wegen groep 4",
+  "meten engels",
+  "meten groep 1",
+  "meten groep 1 2",
+  "meten groep 2",
+  "meten groep 3",
+  "meten groep 3 werkblad",
+  "meten groep 4",
+  "meten groep 4 werkblad",
+  "meten in google maps",
+  "meten is weten",
+  "meten kleuters",
+  "meten kleuters les",
+  "meten kleuters werkblad",
+  "meten meetkunde groep 3",
+  "meten meetkunde kleuters",
+  "meten met 2 maten",
+  "meten met gsm",
+  "meten met iphone",
+  "meten met liniaal groep 4",
+  "meten met natuurlijke maten groep 2",
+  "meten met natuurlijke maten groep 3",
+  "meten met telefoon",
+  "meten oefenen groep 4",
+  "meten verleden tijd",
+  "meten werkbladen",
+  "metend rekenen",
+  "muziek bingo groep 4",
+  "muziek werkbladen",
+  "natuur verbinden",
+  "negatieve getallen vergelijken",
+  "objecten zoeken",
+  "objecten zoeken iphone",
+  "oefenbladen",
+  "oefenbladen groep 2",
+  "oefenbladen groep 3",
+  "oefenbladen groep 4",
+  "oefenbladen klokkijken",
+  "oefenbladen rekenen",
+  "oefenbladen rekenen groep 3",
+  "oefenbladen schrijven",
+  "oefenbladen tafels 1 tot 10",
+  "oefenbladen werkwoordspelling",
+  "oefenen boek groep 1",
+  "oefenen boek groep 2",
+  "oefenen groep 1",
+  "oefenen groep 1 2",
+  "oefenen groep 1 gratis",
+  "oefenen groep 2",
+  "oefenen groep 2 werkbladen",
+  "oefenen groep 3",
+  "oefenen met cijfers groep 1",
+  "oefenen met cijfers groep 2",
+  "oefenen met geld groep 3",
+  "oefenen met geld groep 4",
+  "oefenen met getallenlijn groep 3",
+  "oefenen met getallenlijn groep 4",
+  "oefenen met keersommen groep 4",
+  "oefenen met klanken groep 2",
+  "oefenen met kleuters",
+  "oefenen met klokkijken groep 3",
+  "oefenen met klokkijken groep 4",
+  "oefenen met knippen kleuters",
+  "oefenen met letters groep 1",
+  "oefenen met letters groep 2",
+  "oefenen met letters groep 3",
+  "oefenen met lezen groep 1",
+  "oefenen met lezen groep 2",
+  "oefenen met lezen groep 3",
+  "oefenen met lezen groep 4",
+  "oefenen met rekenen groep 2",
+  "oefenen met rekenen groep 3",
+  "oefenen met rekenen groep 4",
+  "oefenen met rijmen kleuters",
+  "oefenen met schrijven groep 1",
+  "oefenen met schrijven groep 2",
+  "oefenen met schrijven groep 3",
+  "oefenen met schrijven groep 4",
+  "oefenen met spelling groep 3",
+  "oefenen met spelling groep 4",
+  "oefenen met splitsen groep 3",
+  "oefenen met splitsen groep 4",
+  "oefenen met tafels groep 4",
+  "oefenen met tellen kleuters",
+  "oefenen rekenen groep 1",
+  "oefenen taal groep 2",
+  "oefenen taal groep 3 werkbladen",
+  "oefeningen woordenschat groep 1 2",
+  "onderscheiden groep cryptogram 10 letters",
+  "online letters oefenen groep 2",
+  "online oefenen",
+  "online oefenen begrijpend lezen",
+  "online oefenen groep 1",
+  "online oefenen groep 2",
+  "online oefenen kleuters",
+  "online oefenen kloklezen",
+  "online oefenen motor theorie",
+  "online oefenen rijbewijs am",
+  "online oefenen rijbewijs b",
+  "online oefenen rijbewijs c",
+  "online oefenen spelling",
+  "online oefenen theorie scooter",
+  "online oefenen werkwoordspelling",
+  "online taal oefenen groep 2",
+  "ontbrekende stukjes",
+  "ontbrekende stukjes lego",
+  "ontbrekende stukjes lego bestellen",
+  "ontbrekende stukjes van haasteren",
+  "ontbrekende stukjes webshop",
+  "ontbrekende stukjes.nl",
+  "ontbrekende stukken ikea",
+  "oppervlakte meten kleuters",
+  "optellen",
+  "optellen breuken",
+  "optellen engels",
+  "optellen excel kolom",
+  "optellen groep 2",
+  "optellen groep 3",
+  "optellen groep 4",
+  "optellen in excel",
+  "optellen in excel formule",
+  "optellen kleuters",
+  "optellen meerdere werkbladen excel",
+  "optellen over het tiental groep 4",
+  "optellen rekenmachine",
+  "optellen tot 100 met brug",
+  "optellen tot 20 met brug",
+  "optellen tot 20 met brug werkblad",
+  "ortec rooster koppelen aan agenda",
+  "pasen werkbladen",
+  "pasen werkbladen groep 3",
+  "pasen werkbladen groep 4",
+  "pasen werkbladen groep 5",
+  "pasen werkbladen groep 6",
+  "pasen werkbladen groep 8",
+  "pasen werkbladen kleuters",
+  "patronen",
+  "patronen 3d printen",
+  "patronen afmaken groep 3",
+  "patronen afmaken groep 4",
+  "patronen afmaken kleuters",
+  "patronen doorbreken",
+  "patronen doorbreken boek",
+  "patronen doorbreken hannie van genderen",
+  "patronen doorbreken luisterboek",
+  "patronen groep 1",
+  "patronen groep 1-2",
+  "patronen groep 2",
+  "patronen groep 3",
+  "patronen groep 4",
+  "patronen herfst kleuters",
+  "patronen kleding",
+  "patronen kleding gratis",
+  "patronen kleuters",
+  "patronen kleuters werkblad",
+  "patronen laten printen",
+  "patronen leggen kleuters",
+  "patronen maken groep 3",
+  "patronen maken kleuters",
+  "patronen oefenen kleuters",
+  "patronen printen",
+  "patronen printen a0",
+  "patronen schrijven groep 3",
+  "patronen tassen maken gratis",
+  "patronen tekenen",
+  "patronen tekenen groep 3",
+  "patronen tekenen groep 4",
+  "patronen tekenen kleuters",
+  "patronen van gordon",
+  "patronen werkbladen",
+  "patroon werkblad kleuters",
+  "pdf patronen printen",
+  "pepernoten bingo groep 3",
+  "pepernoten bingo groep 4",
+  "pillen sorteren kleuters",
+  "plaatjes bingo printen",
+  "plaatjes rekenen",
+  "positie getallenlijn kleuters",
+  "printen sorteren of niet",
+  "quartz werkbladen",
+  "rekenen eind groep 3 werkbladen",
+  "rekenen getallenlijn groep 3",
+  "rekenen groep 1 2 werkbladen",
+  "rekenen groep 1 werkbladen",
+  "rekenen groep 2 werkbladen",
+  "rekenen groep 2 werkbladen printen",
+  "rekenen groep 2 werkbladen printen gratis",
+  "rekenen groep 3 werkbladen",
+  "rekenen groep 3 werkbladen gratis",
+  "rekenen groep 3 werkbladen pdf",
+  "rekenen groep 3 werkbladen printen",
+  "rekenen groep 3 werkbladen printen gratis",
+  "rekenen groep 3 werkbladen splitsen",
+  "rekenen groep 4 werkbladen",
+  "rekenen groep 4 werkbladen gratis",
+  "rekenen groep 4 werkbladen pdf",
+  "rekenen groep 4 werkbladen printen",
+  "rekenen groep 4 werkbladen printen gratis",
+  "rekenen groep 4 werkbladen printen gratis pdf",
+  "rekenen keersommen groep 4",
+  "rekenen kleuters werkbladen",
+  "rekenen meten groep 3",
+  "rekenen meten groep 4",
+  "rekenen oefenen groep 2 werkbladen",
+  "rekenen oefenen groep 3 werkbladen",
+  "rekenen oefenen groep 4 werkbladen",
+  "rekenles meten groep 3",
+  "rekenpuzzel",
+  "rekenpuzzel groep 2",
+  "rekenpuzzel groep 3",
+  "rekenpuzzel groep 4",
+  "rekenpuzzel groep 7",
+  "rekenpuzzel kleuters",
+  "rekenpuzzels",
+  "rekenpuzzels en breinkrakers",
+  "rekenpuzzels groep 3",
+  "rekenpuzzels groep 3 werkbladen",
+  "rekenpuzzels groep 4 werkbladen",
+  "rekenpuzzels groep 5",
+  "rekenpuzzels groep 6",
+  "rekenpuzzels groep 8",
+  "rekenpuzzels volwassenen",
+  "rekenwerkblad",
+  "rekenwerkblad begin groep 4",
+  "rekenwerkblad eind groep 4",
+  "rekenwerkblad geld groep 4",
+  "rekenwerkblad groep 1",
+  "rekenwerkblad groep 1/2",
+  "rekenwerkblad groep 2",
+  "rekenwerkblad groep 3",
+  "rekenwerkblad groep 3 herfst",
+  "rekenwerkblad groep 3 lente",
+  "rekenwerkblad groep 3 pasen",
+  "rekenwerkblad groep 3 splitsen",
+  "rekenwerkblad groep 3 zomer",
+  "rekenwerkblad groep 4",
+  "rekenwerkblad groep 4 kerst",
+  "rekenwerkblad groep 8",
+  "rekenwerkblad kleuters",
+  "rekenwerkblad printen",
+  "rekenwerkblad sinterklaas groep 4",
+  "rekenwerkbladen",
+  "rekenwerkbladen groep 2",
+  "rekenwerkbladen groep 3",
+  "rekenwerkbladen groep 3 4",
+  "rekenwerkbladen groep 3 getallenlijn",
+  "rekenwerkbladen groep 3 kerst",
+  "rekenwerkbladen groep 4",
+  "rekenwerkbladen groep 4 automatiseren",
+  "rekenwerkbladen groep 5",
+  "rekenwerkbladen groep 6",
+  "rekenwerkbladen groep 7",
+  "rekenwerkbladen maken",
+  "resolver sudoku foto",
+  "rooster koppelen aan agenda",
+  "rooster koppelen aan agenda iphone",
+  "rooster koppelen aan agenda samsung",
+  "rooster koppelen aan google agenda",
+  "rooster koppelen aan outlook agenda",
+  "rooster koppelen hu",
+  "ruimte werkbladen",
+  "schattenzoektocht 'het verloren kabouterdorp' reviews",
+  "schatzoektocht",
+  "schatzoektocht 'de gouden tuin van de farao’",
+  "schatzoektocht de gouden tuin van de farao foto's",
+  "schatzoektocht de schat van koning leeuw",
+  "schatzoektocht het verloren kabouterdorp",
+  "schatzoektocht lommel",
+  "schoenmaat meten printen",
+  "seizoenen sorteren kleuters",
+  "shimano groepen vergelijken",
+  "sinterklaas bingo groep 1 2",
+  "sinterklaas bingo groep 3",
+  "sinterklaas bingo groep 4",
+  "sinterklaas bingo printen",
+  "slo doelen letterkennis groep 2",
+  "slo letterkennis groep 2",
+  "solucionar sudoku foto",
+  "sorteren",
+  "sorteren afval",
+  "sorteren betekenis",
+  "sorteren engels",
+  "sorteren excel meerdere kolommen",
+  "sorteren frans",
+  "sorteren in excel",
+  "sorteren in word",
+  "sorteren kleuters",
+  "sorteren met kleuters",
+  "sorteren op datum excel",
+  "sorteren op kleur excel",
+  "sorteren printen",
+  "sorteren printen betekenis",
+  "spelling bingo groep 4",
+  "spelling werkbladen printen",
+  "splitsen oefenen met kleuters",
+  "spss groepen vergelijken",
+  "spss twee groepen vergelijken",
+  "sram groepen vergelijken met shimano",
+  "staal taal groep 4 werkbladen",
+  "strijkkralen patronen printen kerst",
+  "sudoku foto app",
+  "sudoku lösen mit foto",
+  "sudoku löser foto",
+  "sudoku oplossen foto",
+  "sudoku oplosser foto",
+  "sudoku solver foto",
+  "surfen op emoties werkbladen",
+  "taal actief 4 groep 5 werkbladen",
+  "taal actief groep 4 werkbladen",
+  "taal actief groep 4 werkbladen pdf",
+  "taal actief groep 4 werkbladen pdf download",
+  "taal actief spelling groep 4 werkbladen",
+  "taal groep 2 werkbladen",
+  "taal groep 3 werkbladen",
+  "taal groep 3 werkbladen printen",
+  "taal groep 4 werkbladen",
+  "taal groep 4 werkbladen printen",
+  "taal oefenen groep 2 werkbladen",
+  "taal oefenen groep 3 werkbladen",
+  "taal oefenen groep 4 werkbladen",
+  "taal werkbladen groep 1",
+  "taal werkbladen kleuters",
+  "tafel bingo groep 4",
+  "tafels oefenen werkbladen printen",
+  "tellen en getalbegrip groep 1 2",
+  "tellen plaatjes",
+  "tempotoets rekenen groep 4 werkbladen",
+  "thema beroepen werkbladen",
+  "thema dieren werkbladen",
+  "thema kleding werkbladen",
+  "thema ruimte werkbladen",
+  "topline werkbladen kleuren",
+  "turven",
+  "turven 5",
+  "turven app",
+  "turven betekenis",
+  "turven engels",
+  "turven groep 2",
+  "turven groep 3",
+  "turven groep 3 werkblad",
+  "turven in excel",
+  "turven in word",
+  "turven kleuters",
+  "turven oefenen groep 3",
+  "turven of turven",
+  "turven online",
+  "twee getallen vergelijken in excel",
+  "twee groepen vergelijken statistiek",
+  "uitdagende werkbladen groep 2",
+  "uitdagende werkbladen groep 3",
+  "uitdagende werkbladen groep 4",
+  "uitdagende werkbladen groep 5",
+  "uitdagende werkbladen groep 6",
+  "uitdagende werkbladen groep 8",
+  "uitleg getallenlijn groep 4",
+  "unilin werkbladen",
+  "uva rooster koppelen aan agenda",
+  "vakantie bingo groep 4",
+  "vakantiebingo groep 3",
+  "verborgen objecten zoeken",
+  "verborgen objecten zoeken spelletjes",
+  "visuele en auditieve waarneming",
+  "visuele waarneming",
+  "visuele waarneming betekenis",
+  "visuele waarneming groep 2",
+  "visuele waarneming kind",
+  "visuele waarneming kleuters",
+  "visuele waarneming oefeningen",
+  "visuele waarneming peuters",
+  "visuele waarnemingsstoornis",
+  "voorbereidend rekenen kleuters werkbladen",
+  "voorzetsels",
+  "voorzetsels duits",
+  "voorzetsels duits 3e naamval",
+  "voorzetsels engels",
+  "voorzetsels frans",
+  "voorzetsels groep 1",
+  "voorzetsels groep 2",
+  "voorzetsels groep 3",
+  "voorzetsels groep 4",
+  "voorzetsels in overijssel",
+  "voorzetsels kleuters",
+  "voorzetsels kleuters oefenen",
+  "voorzetsels lijst",
+  "voorzetsels nederlands",
+  "voorzetsels oefenen",
+  "voorzetsels oefenen groep 1",
+  "voorzetsels oefenen groep 3",
+  "voorzetsels oefenen groep 4",
+  "voorzetsels oefenen met kleuters",
+  "voorzetsels spaans",
+  "voorzetsels werkbladen",
+  "vormen sorteren kleuters",
+  "vormen werkbladen",
+  "vu rooster koppelen aan agenda",
+  "wanneer groot of klein onderhoud",
+  "wat is getalbegrip groep 3",
+  "weber q1400 werkbladen",
+  "werkblad getalbegrip groep 4",
+  "werkblad getallenlijn groep 2",
+  "werkblad getallenlijn kleuters",
+  "werkblad klokkijken groep 2",
+  "werkblad klokkijken kleuters",
+  "werkblad lege getallenlijn groep 4",
+  "werkblad meer minder groep 1",
+  "werkblad meer minder groep 2",
+  "werkblad meer minder groep 3",
+  "werkblad meten groep 2",
+  "werkblad optellen kleuters",
+  "werkblad patronen groep 1",
+  "werkblad patronen groep 2",
+  "werkblad patronen groep 3",
+  "werkblad patronen groep 4",
+  "werkblad sorteren groep 2",
+  "werkblad sorteren kleuters",
+  "werkblad turven groep 2",
+  "werkblad turven kleuters",
+  "werkblad voorzetsels groep 2",
+  "werkblad voorzetsels groep 3",
+  "werkblad voorzetsels groep 4",
+  "werkblad voorzetsels kleuters",
+  "werkbladen",
+  "werkbladen aai ooi oei",
+  "werkbladen aai ooi oei groep 3",
+  "werkbladen adhd",
+  "werkbladen aduis",
+  "werkbladen alfabet",
+  "werkbladen analoge klok",
+  "werkbladen autisme",
+  "werkbladen automatiseren",
+  "werkbladen automatiseren groep 4",
+  "werkbladen automatiseren groep 5",
+  "werkbladen basisschool",
+  "werkbladen begin groep 3",
+  "werkbladen begrijpend lezen",
+  "werkbladen begrijpend lezen groep 3",
+  "werkbladen begrijpend lezen groep 4",
+  "werkbladen begrijpend lezen groep 5",
+  "werkbladen begrijpend lezen groep 6",
+  "werkbladen begrijpend lezen groep 7",
+  "werkbladen bloemen",
+  "werkbladen breuken",
+  "werkbladen breuken en procenten",
+  "werkbladen breuken gelijknamig maken",
+  "werkbladen breuken groep 6",
+  "werkbladen breuken procenten en kommagetallen",
+  "werkbladen breuken vereenvoudigen",
+  "werkbladen breuken vermenigvuldigen",
+  "werkbladen cgt",
+  "werkbladen cijferen",
+  "werkbladen cijferend optellen",
+  "werkbladen cijferend rekenen",
+  "werkbladen cijferend rekenen groep 6",
+  "werkbladen cijferend vermenigvuldigen",
+  "werkbladen cijfers schrijven",
+  "werkbladen circus",
+  "werkbladen coaching",
+  "werkbladen composiet",
+  "werkbladen deelsommen",
+  "werkbladen deelsommen groep 5",
+  "werkbladen deeltafels",
+  "werkbladen delen met rest",
+  "werkbladen dieren",
+  "werkbladen dieren groep 1 2",
+  "werkbladen dieren groep 3",
+  "werkbladen dierentuin",
+  "werkbladen digitaal klokkijken",
+  "werkbladen digitale klok",
+  "werkbladen dinosaurussen",
+  "werkbladen dinosaurussen groep 2",
+  "werkbladen dinosaurussen groep 3",
+  "werkbladen downloaden",
+  "werkbladen eerste leerjaar",
+  "werkbladen eeuw ieuw uw",
+  "werkbladen eind groep 2",
+  "werkbladen eind groep 3",
+  "werkbladen emoties",
+  "werkbladen engels",
+  "werkbladen engels groep 7",
+  "werkbladen engels groep 8",
+  "werkbladen eu",
+  "werkbladen executieve functies",
+  "werkbladen f en v",
+  "werkbladen faalangst",
+  "werkbladen fabriek",
+  "werkbladen fabriek alblasserdam",
+  "werkbladen familie",
+  "werkbladen fijne motoriek",
+  "werkbladen fijne motoriek groep 1 2",
+  "werkbladen fonemisch bewustzijn groep 2",
+  "werkbladen frans",
+  "werkbladen frans basisschool",
+  "werkbladen fruit en groenten",
+  "werkbladen geld rekenen groep 4",
+  "werkbladen getalbegrip tot 10",
+  "werkbladen getalbegrip tot 100",
+  "werkbladen getalbegrip tot 1000",
+  "werkbladen getalbegrip tot 20",
+  "werkbladen getallenlijn groep 4",
+  "werkbladen getallenlijn groep 5",
+  "werkbladen getallenlijn tot 10",
+  "werkbladen getallenlijn tot 100",
+  "werkbladen getallenlijn tot 1000",
+  "werkbladen getallenlijn tot 20",
+  "werkbladen getallenlijn tot 30",
+  "werkbladen getallenlijn tot 50",
+  "werkbladen gratis",
+  "werkbladen groep 1",
+  "werkbladen groep 2",
+  "werkbladen groep 2 printen",
+  "werkbladen groep 3",
+  "werkbladen groep 4",
+  "werkbladen groep 5",
+  "werkbladen groep 6",
+  "werkbladen groep 7",
+  "werkbladen groep 8",
+  "werkbladen groothandel",
+  "werkbladen groothandel tiel",
+  "werkbladen hakken en plakken groep 2",
+  "werkbladen hebben en zijn",
+  "werkbladen hemelvaart",
+  "werkbladen herfst",
+  "werkbladen herfst groep 3",
+  "werkbladen herfst kleuters",
+  "werkbladen hoofdletters",
+  "werkbladen hornbach",
+  "werkbladen hout",
+  "werkbladen hubo",
+  "werkbladen huisdieren",
+  "werkbladen ig en lijk",
+  "werkbladen ikea",
+  "werkbladen ikea keuken",
+  "werkbladen inhoud",
+  "werkbladen inhoud berekenen",
+  "werkbladen inhoudsmaten",
+  "werkbladen interpunctie",
+  "werkbladen interpunctie groep 6",
+  "werkbladen interpunctie groep 8",
+  "werkbladen ixina",
+  "werkbladen jager bakker",
+  "werkbladen je gevoel de baas",
+  "werkbladen jongeren",
+  "werkbladen juf",
+  "werkbladen juf bijtje",
+  "werkbladen juf hannah",
+  "werkbladen juf milou",
+  "werkbladen juf sanne",
+  "werkbladen jungle",
+  "werkbladen junior einstein",
+  "werkbladen keersommen",
+  "werkbladen keersommen groep 6",
+  "werkbladen keersommen groep 7",
+  "werkbladen keersommen groep 8",
+  "werkbladen keersommen oefenen",
+  "werkbladen kern 10",
+  "werkbladen kern 8",
+  "werkbladen kern 9",
+  "werkbladen keuken",
+  "werkbladen kleding",
+  "werkbladen kleuren en vormen",
+  "werkbladen kleuren op code",
+  "werkbladen kleuren op nummer",
+  "werkbladen kleuters",
+  "werkbladen klok",
+  "werkbladen klokkijken",
+  "werkbladen klokkijken groep 5",
+  "werkbladen koningsdag",
+  "werkbladen koppelen",
+  "werkbladen koppelen excel",
+  "werkbladen leestekens",
+  "werkbladen leestekens groep 6",
+  "werkbladen lente",
+  "werkbladen lente groep 1",
+  "werkbladen lente groep 1 2",
+  "werkbladen lente groep 2",
+  "werkbladen lente groep 3",
+  "werkbladen lente groep 4",
+  "werkbladen lente kleuters",
+  "werkbladen lente peuters",
+  "werkbladen letters",
+  "werkbladen letters kleuters",
+  "werkbladen lezen groep 3",
+  "werkbladen lichaamsdelen",
+  "werkbladen maaltafels",
+  "werkbladen maken",
+  "werkbladen maken rekenen",
+  "werkbladen maken spelling",
+  "werkbladen meetkunde groep 7",
+  "werkbladen menselijk lichaam",
+  "werkbladen meten",
+  "werkbladen meten en meetkunde groep 5",
+  "werkbladen meten en meetkunde groep 7",
+  "werkbladen meten en meetkunde groep 8",
+  "werkbladen meten en wegen",
+  "werkbladen meten groep 3",
+  "werkbladen meten groep 4",
+  "werkbladen meten groep 5",
+  "werkbladen meten groep 6",
+  "werkbladen metriek stelsel",
+  "werkbladen middelbare school",
+  "werkbladen mijn lichaam",
+  "werkbladen nederlands",
+  "werkbladen nederlands groep 7",
+  "werkbladen nederlands groep 8",
+  "werkbladen nederlands leren",
+  "werkbladen nei",
+  "werkbladen ng en nk",
+  "werkbladen ng nk groep 3",
+  "werkbladen nl",
+  "werkbladen nobilia",
+  "werkbladen nt2",
+  "werkbladen oe",
+  "werkbladen omtrek en oppervlakte groep 6",
+  "werkbladen onderwaterwereld",
+  "werkbladen onderwerp en persoonsvorm",
+  "werkbladen onderwijs",
+  "werkbladen online",
+  "werkbladen op maat",
+  "werkbladen open en gesloten lettergrepen",
+  "werkbladen oppervlakte",
+  "werkbladen oppervlakte berekenen",
+  "werkbladen optellen",
+  "werkbladen optellen tot 10",
+  "werkbladen optellen tot 100",
+  "werkbladen optellen tot 1000",
+  "werkbladen optellen tot 20",
+  "werkbladen pasen",
+  "werkbladen pasen bovenbouw",
+  "werkbladen pasen groep 2",
+  "werkbladen pasen groep 3",
+  "werkbladen pasen groep 7",
+  "werkbladen pasen kleuters",
+  "werkbladen patronen doorbreken",
+  "werkbladen patronen kleuters",
+  "werkbladen peuter 2 jaar",
+  "werkbladen peuter 3 jaar",
+  "werkbladen peuters",
+  "werkbladen praxis",
+  "werkbladen printen",
+  "werkbladen printen groep 3",
+  "werkbladen printen groep 4",
+  "werkbladen printen rekenen",
+  "werkbladen procenten",
+  "werkbladen rekenen",
+  "werkbladen rekenen 2f",
+  "werkbladen rekenen eind groep 4",
+  "werkbladen rekenen groep 1",
+  "werkbladen rekenen groep 1 2",
+  "werkbladen rekenen groep 2",
+  "werkbladen rekenen groep 3",
+  "werkbladen rekenen groep 3 getallenlijn",
+  "werkbladen rekenen groep 3 junior einstein",
+  "werkbladen rekenen groep 3 kerst",
+  "werkbladen rekenen groep 3 klokkijken",
+  "werkbladen rekenen groep 3 pluspunt",
+  "werkbladen rekenen groep 3 redactiesommen",
+  "werkbladen rekenen groep 3 sinterklaas",
+  "werkbladen rekenen groep 3 splitsen",
+  "werkbladen rekenen groep 3 wereld in getallen",
+  "werkbladen rekenen groep 4",
+  "werkbladen rekenen groep 4 geldsommen",
+  "werkbladen rekenen groep 4 minsommen",
+  "werkbladen rekenen groep 4 redactiesommen",
+  "werkbladen rekenen groep 4 splitsen",
+  "werkbladen rekenen groep 4 verhaaltjessommen",
+  "werkbladen rekenen groep 5",
+  "werkbladen rekenen groep 6",
+  "werkbladen rekenen groep 7",
+  "werkbladen rekenen groep 8",
+  "werkbladen rekenen kleuters",
+  "werkbladen rekenen maken",
+  "werkbladen ruimte groep 2",
+  "werkbladen ruimte groep 3",
+  "werkbladen ruimte groep 4",
+  "werkbladen ruimte kleuters",
+  "werkbladen schrijven",
+  "werkbladen spelling",
+  "werkbladen spelling groep 3",
+  "werkbladen spelling groep 4",
+  "werkbladen spelling groep 4 taal actief",
+  "werkbladen spelling groep 5",
+  "werkbladen spelling groep 6",
+  "werkbladen spelling groep 7",
+  "werkbladen spelling groep 8",
+  "werkbladen spelling printen",
+  "werkbladen splitsen",
+  "werkbladen staal spelling",
+  "werkbladen taal",
+  "werkbladen taal actief groep 4",
+  "werkbladen taal eind groep 3",
+  "werkbladen taal groep 1",
+  "werkbladen taal groep 1 2",
+  "werkbladen taal groep 2",
+  "werkbladen taal groep 3",
+  "werkbladen taal groep 4",
+  "werkbladen taal groep 5",
+  "werkbladen taal groep 6",
+  "werkbladen taal groep 7",
+  "werkbladen taal kerst groep 3",
+  "werkbladen taal kleuters",
+  "werkbladen tafels",
+  "werkbladen tafels oefenen",
+  "werkbladen thema huisdieren",
+  "werkbladen tiel",
+  "werkbladen ui",
+  "werkbladen uu",
+  "werkbladen veenendaal",
+  "werkbladen veilig leren lezen",
+  "werkbladen verbinden",
+  "werkbladen verhoudingstabel",
+  "werkbladen verkeer",
+  "werkbladen verkeer groep 7",
+  "werkbladen verliefde harten",
+  "werkbladen voertuigen",
+  "werkbladen vogels",
+  "werkbladen voltooid deelwoord",
+  "werkbladen voor kleuters",
+  "werkbladen voor peuters",
+  "werkbladen voorzetsels groep 5",
+  "werkbladen vormen en kleuren",
+  "werkbladen vormen kleuters",
+  "werkbladen werkwoorden",
+  "werkbladen werkwoordspelling",
+  "werkbladen werkwoordspelling groep 6",
+  "werkbladen werkwoordspelling groep 7",
+  "werkbladen werkwoordspelling groep 8",
+  "werkbladen winter groep 2",
+  "werkbladen winter groep 6",
+  "werkbladen winter peuters",
+  "werkbladen wiskunde",
+  "werkbladen wk",
+  "werkbladen wk voetbal",
+  "werkbladen wk voetbal 2026",
+  "werkbladen woordsoorten",
+  "werkbladen x sommen",
+  "werkbladen yurls",
+  "werkbladen ziekenhuis",
+  "werkbladen zinsdelen",
+  "werkbladen zinsontleding",
+  "werkbladen zinsontleding groep 7",
+  "werkbladen zinsontleding groep 8",
+  "werkbladen zoek de verschillen",
+  "werkbladen zomer",
+  "werkbladen zomer bovenbouw",
+  "werkbladen zomer groep 1 2",
+  "werkbladen zomer groep 2",
+  "werkbladen zomer groep 3",
+  "werkbladen zomer groep 4",
+  "werkbladen zomer kleuters",
+  "werkbladen zomer peuters",
+  "werkboekje keersommen groep 4",
+  "werkboekje meten groep 3",
+  "werkboekje meten groep 4",
+  "winter werkbladen",
+  "winter werkbladen bovenbouw",
+  "winter werkbladen groep 1 2",
+  "winter werkbladen groep 3",
+  "winter werkbladen groep 4",
+  "winter werkbladen groep 5",
+  "winter werkbladen kleuters",
+  "woord raden",
+  "woord raden 5 letters",
+  "woord raden 5 letters hulp",
+  "woord raden 6 letters",
+  "woord raden 7 letters",
+  "woord raden app",
+  "woord raden met letters",
+  "woord raden puzzel",
+  "woord raden spel",
+  "woord raden spel app",
+  "woorden bingo groep 3",
+  "woorden bouwen",
+  "woorden met b o u w e n",
+  "woorden stempelen thema bouwen",
+  "woorden thema bouwen",
+  "woordenschat",
+  "woordenschat 2 jaar",
+  "woordenschat activiteiten groep 1 2",
+  "woordenschat engels",
+  "woordenschat groep 1",
+  "woordenschat groep 1 2",
+  "woordenschat groep 1 werkbladen",
+  "woordenschat groep 2",
+  "woordenschat groep 2 oefenen",
+  "woordenschat groep 2 werkbladen",
+  "woordenschat groep 3",
+  "woordenschat groep 3 cito",
+  "woordenschat groep 3 oefenen",
+  "woordenschat groep 3 pdf",
+  "woordenschat groep 3 spelletjes",
+  "woordenschat groep 3 werkbladen",
+  "woordenschat groep 3/4",
+  "woordenschat groep 4",
+  "woordenschat groep 4 cito",
+  "woordenschat groep 4 oefenen",
+  "woordenschat groep 4 oefenen gratis",
+  "woordenschat groep 4 pdf",
+  "woordenschat groep 4 staal",
+  "woordenschat groep 4 taal actief",
+  "woordenschat groep 4 thema 8",
+  "woordenschat groep 4 werkbladen",
+  "woordenschat groep 5",
+  "woordenschat groep 7",
+  "woordenschat kleuters",
+  "woordenschat kleuters boerderij",
+  "woordenschat kleuters herfst",
+  "woordenschat kleuters kerst",
+  "woordenschat kleuters lente",
+  "woordenschat kleuters oefenen",
+  "woordenschat kleuters sinterklaas",
+  "woordenschat kleuters winter",
+  "woordenschat kleuters zomer",
+  "woordenschat kleuterschool",
+  "woordenschat les groep 1",
+  "woordenschat les groep 1-2",
+  "woordenschat les groep 3",
+  "woordenschat nt2 werkbladen",
+  "woordenschat oefenen",
+  "woordenschat oefenen groep 1",
+  "woordenschat oefenen groep 2 online",
+  "woordenschat oefenen met kleuters",
+  "woordenschat oefenen volwassenen",
+  "woordenschat oefenen werkbladen",
+  "woordenschat sinterklaas groep 2",
+  "woordenschat sinterklaas groep 3",
+  "woordenschat spelletjes",
+  "woordenschat spelletjes groep 1 2",
+  "woordenschat spelletjes groep 4",
+  "woordenschat staal 2 groep 4",
+  "woordenschat thema 2 groep 4",
+  "woordenschat vergroten",
+  "woordenschat vergroten groep 1",
+  "woordenschat vergroten groep 2",
+  "woordenschat vergroten groep 3",
+  "woordenschat werkbladen",
+  "woordenschat werkbladen groep 3",
+  "woordenschat werkbladen groep 4",
+  "woordenschat werkbladen groep 5",
+  "woordenschat werkbladen groep 6",
+  "woordenschat werkbladen groep 7",
+  "woordenschat werkbladen groep 8",
+  "woordenschat winter groep 2",
+  "woordpuzzel",
+  "woordpuzzel gratis",
+  "woordpuzzel groep 3",
+  "woordpuzzel groep 4",
+  "woordpuzzel hulp",
+  "woordpuzzel letters",
+  "woordpuzzel maken",
+  "woordpuzzel maken en printen",
+  "woordpuzzel maken gratis",
+  "woordpuzzel maker",
+  "woordpuzzel online",
+  "woordpuzzel printen",
+  "woordpuzzelboek",
+  "woordpuzzels",
+  "woordzoeker",
+  "woordzoeker gratis",
+  "woordzoeker groep 1",
+  "woordzoeker groep 1 2",
+  "woordzoeker groep 2",
+  "woordzoeker groep 2 printen",
+  "woordzoeker groep 2 zomer",
+  "woordzoeker groep 3",
+  "woordzoeker groep 3 dieren",
+  "woordzoeker groep 3 kern 1",
+  "woordzoeker groep 3 kern 10",
+  "woordzoeker groep 3 kern 11",
+  "woordzoeker groep 3 kern 2",
+  "woordzoeker groep 3 kern 9",
+  "woordzoeker groep 3 koningsdag",
+  "woordzoeker groep 3 lente",
+  "woordzoeker groep 3 pasen",
+  "woordzoeker groep 3 printen",
+  "woordzoeker groep 3 zomer",
+  "woordzoeker groep 3/4",
+  "woordzoeker groep 4",
+  "woordzoeker groep 4 dieren",
+  "woordzoeker groep 4 koningsdag",
+  "woordzoeker groep 4 lente",
+  "woordzoeker groep 4 pasen",
+  "woordzoeker groep 4 printen",
+  "woordzoeker groep 4 spelling",
+  "woordzoeker groep 4 vakantie",
+  "woordzoeker groep 4 voorjaar",
+  "woordzoeker groep 4 zomer",
+  "woordzoeker kerst kleuters",
+  "woordzoeker kleuters",
+  "woordzoeker kleuters zomer",
+  "woordzoeker lente",
+  "woordzoeker lente groep 2",
+  "woordzoeker lente kleuters",
+  "woordzoeker maken",
+  "woordzoeker maken gratis",
+  "woordzoeker online",
+  "woordzoeker pasen",
+  "woordzoeker printen",
+  "woordzoeker printen gratis",
+  "woordzoeker printen groep 3",
+  "woordzoeker printen groep 4",
+  "woordzoeker printen groep 5",
+  "woordzoeker printen groep 7",
+  "woordzoeker printen groep 8",
+  "woordzoeker printen kinderen",
+  "woordzoeker printen moeilijk",
+  "woordzoeker printen volwassenen",
+  "woordzoeker sinterklaas groep 2",
+  "woordzoeker sinterklaas kleuters",
+  "woordzoeker staal 2 groep 5",
+  "woordzoeker werkbladen",
+  "woordzoekers",
+  "woordzoekers voor kinderen",
+  "woz objecten zoeken",
+  "zoek en tel",
+  "zoek en tel educo",
+  "zoek en tel kleuters",
+  "zoek en tel mee met coco",
+  "zoek en tel op",
+  "zoek en tel op kleur",
+  "zoek en tel tot 10",
+  "zoek en tel tot 20",
+  "zoek en telboek",
+  "zoek en telboek de boerderij",
+  "zoek en telboek de zoo",
+  "zomer werkbladen",
+  "zomer werkbladen groep 2",
+  "zomer werkbladen groep 3",
+  "zomer werkbladen groep 4",
+  "zomer werkbladen groep 5",
+  "zomer werkbladen groep 6",
+  "zomer werkbladen kleuters",
+  "zomerbingo groep 3",
+  "zuivelproduct met ontbrekende stukken",
+  "zweeds kruiswoordraadsel printen"
+ ]
 }

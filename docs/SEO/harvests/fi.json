@@ -4,8 +4,8 @@
   "hl": "fi",
   "gl": "fi"
  },
- "generatedAt": "2026-07-06T16:35:08.213Z",
- "requestCount": 40,
+ "generatedAt": "2026-07-06T18:27:33.091Z",
+ "requestCount": 653,
  "seedCounts": {
   "core": 4,
   "types": 177,
@@ -15,89 +15,1573 @@
   "online": 8,
   "alphabet": 56
  },
- "errorCount": 41,
- "errors": [
-  {
-   "seed": "tulostettavat tehtävät",
-   "err": "HTTP 403"
+ "errorCount": 0,
+ "errors": [],
+ "suggestions": {
+  "tulostettavat tehtävät": {
+   "cls": "core",
+   "s": [
+    "tulostettavat tehtävät lapsille",
+    "tulostettavat tehtävät",
+    "tulostettavat tehtävät aikuisille",
+    "tulostettavat tehtävät koululaisille",
+    "tulostettavat tehtävät 4 vuotiaalle",
+    "lasten tulostettavat tehtävät",
+    "tulostettavat matematiikan tehtävät",
+    "papunet tulostettavat tehtävät",
+    "ilmaiset tulostettavat tehtävät",
+    "tulostettavat kertotaulu tehtävät"
+   ]
   },
-  {
-   "seed": "tehtäviä lapsille",
-   "err": "HTTP 403"
+  "tehtäviä lapsille": {
+   "cls": "core",
+   "s": [
+    "tehtäviä lapsille",
+    "tehtäviä lapsille ulkona",
+    "tehtäviä lapsille netissä",
+    "tehtäviä lapsille tulostettavia",
+    "tehtäviä lapsille metsässä",
+    "tehtäviä lapsille tulostettavia viskaritehtäviä",
+    "lapsille tehtäviä häihin",
+    "jouluisia tehtäviä lapsille",
+    "toiminnallisia tehtäviä lapsille",
+    "joulukalenteri tehtäviä lapsille"
+   ]
   },
-  {
-   "seed": "tulostettavia tehtäviä",
-   "err": "HTTP 403"
+  "tulostettavia tehtäviä": {
+   "cls": "core",
+   "s": [
+    "tulostettavia tehtäviä 5-vuotiaille",
+    "tulostettavia tehtäviä lapsille",
+    "tulostettavia tehtäviä koululaisille",
+    "tulostettavia tehtäviä 4 vuotiaalle",
+    "tulostettavia tehtäviä",
+    "tulostettavia tehtäviä ikäihmisille",
+    "tulostettavia tehtäviä 7 vuotiaalle",
+    "tulostettavia tehtäviä eskareille",
+    "tulostettavia tehtäviä 3 vuotiaalle",
+    "tulostettavia tehtäviä 6 vuotiaille"
+   ]
   },
-  {
-   "seed": "tehtävämonisteet",
-   "err": "HTTP 403"
+  "yhteenlasku": {
+   "cls": "types",
+   "s": [
+    "yhteenlasku",
+    "yhteenlasku englanniksi",
+    "yhteenlasku excel",
+    "yhteenlaskusääntö",
+    "yhteenlaskupeli",
+    "yhteenlasku allekkain",
+    "yhteenlasku tehtäviä",
+    "yhteenlaskumenetelmä",
+    "yhteenlasku ruotsiksi",
+    "yhteenlaskun vaihdannaisuus"
+   ]
   },
-  {
-   "seed": "yhteenlasku",
-   "err": "HTTP 403"
+  "yhteenlasku tehtäviä": {
+   "cls": "types",
+   "s": [
+    "yhteenlasku tehtäviä",
+    "murtolukujen yhteenlasku tehtäviä",
+    "yhteenlasku allekkain tehtäviä"
+   ]
   },
-  {
-   "seed": "yhteenlasku tehtäviä",
-   "err": "HTTP 403"
+  "kuvasudoku": {
+   "cls": "types",
+   "s": [
+    "kuvasudoku",
+    "kuvasudoku ohje",
+    "mikä on kuvasudoku"
+   ]
   },
-  {
-   "seed": "yhteenlasku ilmaiseksi",
-   "err": "HTTP 403"
+  "kryptogrammi": {
+   "cls": "types",
+   "s": [
+    "kryptogrammi",
+    "mikä on kryptogrammi"
+   ]
   },
-  {
-   "seed": "kuvasudoku",
-   "err": "HTTP 403"
+  "vähennyslasku": {
+   "cls": "types",
+   "s": [
+    "vähennyslasku allekkain",
+    "vähennyslasku",
+    "vähennyslasku englanniksi",
+    "vähennyslaskun tulos",
+    "vähennyslasku excel",
+    "vähennyslasku allekkain lainaaminen",
+    "vähennyslaskutaulu",
+    "vähennyslasku lainaaminen",
+    "vähennyslasku allekkain nollan yli lainaaminen",
+    "vähennyslasku allekkain tehtäviä"
+   ]
   },
-  {
-   "seed": "kuvasudoku tehtäviä",
-   "err": "HTTP 403"
+  "vähennyslasku tehtäviä": {
+   "cls": "types",
+   "s": [
+    "vähennyslasku tehtäviä",
+    "vähennyslasku allekkain tehtäviä",
+    "yhteen ja vähennyslasku tehtäviä 0 100",
+    "yhteen ja vähennyslasku tehtäviä"
+   ]
   },
-  {
-   "seed": "kuvasudoku ilmaiseksi",
-   "err": "HTTP 403"
+  "enemmän vai vähemmän": {
+   "cls": "types",
+   "s": [
+    "enemmän vai vähemmän",
+    "enemmän vähemmän tehtäviä",
+    "enemmän vähemmän",
+    "enemmän vähemmän yhtä monta",
+    "enemmän vähemmän merkki",
+    "enemmän vähemmän leikki",
+    "enemmän vähemmän harjoituksia",
+    "enemmän vähemmän wordwall",
+    "enemmän vähemmän eskari",
+    "enemmän vähemmän peli"
+   ]
   },
-  {
-   "seed": "kryptogrammi",
-   "err": "HTTP 403"
+  "enemmän vai vähemmän tehtäviä": {
+   "cls": "types",
+   "s": [
+    "enemmän vähemmän tehtäviä"
+   ]
   },
-  {
-   "seed": "kryptogrammi tehtäviä",
-   "err": "HTTP 403"
+  "matematiikkatehtävä": {
+   "cls": "types",
+   "s": [
+    "matematiikan tehtävät",
+    "matematiikan tehtävä englanniksi"
+   ]
   },
-  {
-   "seed": "kryptogrammi ilmaiseksi",
-   "err": "HTTP 403"
+  "iso vai pieni": {
+   "cls": "types",
+   "s": [
+    "iso vai pieni alkukirjain",
+    "iso vai pieni kirjain kaksoispisteen jälkeen",
+    "iso vai pieni klapi",
+    "iso vai pieni alkukirjain tehtävä",
+    "iso vai pieni koulu",
+    "iso vai pieni alkukirjain testi",
+    "iso vai pieni kirjain",
+    "iso vai pieni lusikka",
+    "iso vai pieni kiuaskivi",
+    "iso vai pieni siemenperuna"
+   ]
   },
-  {
-   "seed": "kuvapolku",
-   "err": "HTTP 403"
+  "bingo": {
+   "cls": "types",
+   "s": [
+    "bingolotto",
+    "bingo",
+    "bingo säännöt",
+    "bingolotto ikväll",
+    "bingolotto mina sidor logga in",
+    "bingolotto rätta lotten",
+    "bingo peli",
+    "bingoon",
+    "bingolaput",
+    "bingokone"
+   ]
   },
-  {
-   "seed": "kuvapolku tehtäviä",
-   "err": "HTTP 403"
+  "bingo tehtäviä": {
+   "cls": "types",
+   "s": [
+    "bingo tehtäviä"
+   ]
   },
-  {
-   "seed": "kuvapolku ilmaiseksi",
-   "err": "HTTP 403"
+  "yhdistäminen": {
+   "cls": "types",
+   "s": [
+    "yhdistäminen englanniksi",
+    "yhdistäminen silmukoimalla",
+    "yhdistäminen liekillä",
+    "yhdistäminen pyöröksi",
+    "yhdistäminen neulomalla",
+    "yhdistäminen virkkaamalla virkattujen palojen yhdistäminen",
+    "yhdistäminen suljetuksi neuleeksi",
+    "yhdistäminen virkkaamalla",
+    "yhdistäminen chromecastiin"
+   ]
   },
-  {
-   "seed": "vähennyslasku",
-   "err": "HTTP 403"
+  "yhdistäminen ilmaiseksi": {
+   "cls": "types",
+   "s": [
+    "pdf yhdistäminen ilmaiseksi"
+   ]
   },
-  {
-   "seed": "vähennyslasku tehtäviä",
-   "err": "HTTP 403"
+  "aakkosjuna": {
+   "cls": "types",
+   "s": [
+    "lolan aakkosjuna"
+   ]
   },
-  {
-   "seed": "vähennyslasku ilmaiseksi",
-   "err": "HTTP 403"
+  "prepositiot": {
+   "cls": "types",
+   "s": [
+    "prepositiot englanti",
+    "prepositiot",
+    "prepositiot ruotsi",
+    "prepositiot ruotsiksi",
+    "prepositiot englanniksi",
+    "prepositiot saksa",
+    "prepositiot espanja",
+    "prepositiot suomi",
+    "prepositiot suomen kielessä",
+    "prepositiot ajanilmauksissa ruotsi"
+   ]
   },
-  {
-   "seed": "koodattu yhteenlasku",
-   "err": "HTTP 403"
+  "prepositiot tehtäviä": {
+   "cls": "types",
+   "s": [
+    "ruotsi prepositiot tehtäviä"
+   ]
+  },
+  "arvaa sana": {
+   "cls": "types",
+   "s": [
+    "arvaa sana",
+    "arvaa sana peli",
+    "arvaa sana kaleva",
+    "arvaa sana kirjaimista",
+    "arvaa sana ilta sanomat",
+    "arvaa sana suomi",
+    "arvaa sana iltalehti",
+    "arvaa sana lautapeli",
+    "arvaa päivän sana",
+    "arvaa harmittiko sanat"
+   ]
+  },
+  "sanahaku": {
+   "cls": "types",
+   "s": [
+    "sanahaku",
+    "sanahaku peli",
+    "sanahaku lehti",
+    "sanahaku tulostettava",
+    "sanahaku ristikko",
+    "sanahaku tehtävät",
+    "sanahaku kirjaimilla",
+    "sanahaku kirja",
+    "sanahaku netissä",
+    "sanahaku apu"
+   ]
+  },
+  "sanahaku tehtäviä": {
+   "cls": "types",
+   "s": [
+    "sanahaku tehtäviä"
+   ]
+  },
+  "ristikko": {
+   "cls": "types",
+   "s": [
+    "ristikko",
+    "ristikko ratkojat",
+    "ristikkosanat",
+    "ristikkoavain",
+    "ristikkoperunat",
+    "ristikko apteekki",
+    "ristikko suosikki",
+    "ristikko konala",
+    "ristikkolehti",
+    "ristikko kauppakeskus"
+   ]
+  },
+  "ristikko tehtäviä": {
+   "cls": "types",
+   "s": [
+    "ristikkotehtäviä"
+   ]
+  },
+  "etsi ja laske": {
+   "cls": "types",
+   "s": [
+    "etsi ja laske",
+    "etsi ja laske liikkuvat menopelit",
+    "etsi ja laske kirja"
+   ]
+  },
+  "etsi esineet": {
+   "cls": "types",
+   "s": [
+    "etsi esineet",
+    "etsi piilotetut esineet pelit"
+   ]
+  },
+  "aarteenetsintä": {
+   "cls": "types",
+   "s": [
+    "aarteenetsintä",
+    "aarteenetsintä lapsille",
+    "aarteenetsintä vihjeet aikuisille",
+    "aarteenetsintä ideoita",
+    "aarteenetsintä synttäreille",
+    "aarteenetsintä vihjeet lapsille",
+    "aarteenetsintä aikuisille",
+    "aarteenetsintä palkinto",
+    "aarteenetsintä metallinpaljastimella",
+    "aarteenetsintä vihjeet"
+   ]
+  },
+  "aarteenetsintä tehtäviä": {
+   "cls": "types",
+   "s": [
+    "aarteenetsintä tehtäviä"
+   ]
+  },
+  "puuttuvat palat": {
+   "cls": "types",
+   "s": [
+    "lego puuttuvat palat"
+   ]
+  },
+  "mikä ei kuulu joukkoon": {
+   "cls": "types",
+   "s": [
+    "mikä ei kuulu joukkoon",
+    "mikä ei kuulu joukkoon tehtävä",
+    "mikä ei kuulu joukkoon tehtävä lapsille",
+    "mikä ei kuulu joukkoon wordwall",
+    "mikä ei kuulu joukkoon kortit",
+    "mikä ei kuulu joukkoon englanniksi",
+    "mikä ei kuulu joukkoon testi",
+    "mikä ei kuulu joukkoon värinautit",
+    "mikä ei kuulu joukkoon viitottu rakkaus",
+    "mikä ei kuulu joukkoon tulostettava"
+   ]
+  },
+  "mikä ei kuulu joukkoon tehtäviä": {
+   "cls": "types",
+   "s": [
+    "mikä ei kuulu joukkoon tehtäviä"
+   ]
+  },
+  "tukkimiehen kirjanpito": {
+   "cls": "types",
+   "s": [
+    "tukkimiehen kirjanpito",
+    "mikä on tukkimiehen kirjanpito"
+   ]
+  },
+  "lukutaulu": {
+   "cls": "types",
+   "s": [
+    "lukutaulu",
+    "lukutaulukko",
+    "li lukutaulukko"
+   ]
+  },
+  "lukujen vertailu": {
+   "cls": "types",
+   "s": [
+    "lukujen vertailu",
+    "lukujen vertailu prosentteina",
+    "lukujen vertailu excel"
+   ]
+  },
+  "kokojen vertailu": {
+   "cls": "types",
+   "s": [
+    "maiden kokojen vertailu"
+   ]
+  },
+  "lukusuora": {
+   "cls": "types",
+   "s": [
+    "lukusuora",
+    "lukusuora 0-20",
+    "lukusuora 0-100",
+    "lukusuora desimaaliluvut",
+    "lukusuora englanniksi",
+    "lukusuora 0 10",
+    "lukusuora tehtäviä",
+    "lukusuoran piirtäminen",
+    "lukusuoran välit",
+    "lukusuora 0 1000"
+   ]
+  },
+  "lukusuora tehtäviä": {
+   "cls": "types",
+   "s": [
+    "lukusuora tehtäviä"
+   ]
+  },
+  "kymmenet ja ykköset": {
+   "cls": "types",
+   "s": [
+    "kymmenet ja ykköset"
+   ]
+  },
+  "kellonajat": {
+   "cls": "types",
+   "s": [
+    "kellonajat",
+    "kellonajat englanniksi",
+    "kellonajat ruotsiksi",
+    "kellonajat espanjaksi",
+    "kellonajat maailmalla",
+    "kellonajat wordwall",
+    "kellonajat saksaksi",
+    "kellonajat suomeksi",
+    "kellonajat s2",
+    "kellonajat peli"
+   ]
+  },
+  "kellonajat tehtäviä": {
+   "cls": "types",
+   "s": [
+    "kellonajat tehtäviä",
+    "kellonajat tehtäviä lapsille"
+   ]
+  },
+  "murtoluvut": {
+   "cls": "types",
+   "s": [
+    "murtoluvut",
+    "murtoluvut prosenteiksi",
+    "murtoluvut desimaaleiksi",
+    "murtoluvut kertolasku",
+    "murtoluvut jakolasku",
+    "murtoluvut yhteenlasku",
+    "murtoluvut desimaaliluvuiksi",
+    "murtoluvut englanniksi",
+    "murtoluvut peli",
+    "murtoluvut yhtälössä"
+   ]
+  },
+  "murtoluvut tehtäviä": {
+   "cls": "types",
+   "s": [
+    "murtoluvut tehtäviä",
+    "murtoluku tehtäviä 3 luokka",
+    "murtoluku tehtäviä 5 lk",
+    "murtoluku tehtäviä 4 lk",
+    "matematiikka murtoluvut tehtäviä"
+   ]
+  },
+  "geometria": {
+   "cls": "types",
+   "s": [
+    "geometria",
+    "geometria tehtäviä",
+    "geometria muodot",
+    "geometria kaavat",
+    "geometrian perusteet",
+    "geometria kuviot",
+    "geometria kulmat",
+    "geometria laskut",
+    "geometrian termi",
+    "geometria tehtäviä 3 luokka"
+   ]
+  },
+  "geometria tehtäviä": {
+   "cls": "types",
+   "s": [
+    "geometria tehtäviä",
+    "geometria tehtäviä 3 luokka",
+    "geometria tehtäviä 4 luokka",
+    "geometria tehtäviä 6 luokka",
+    "geometria tehtäviä 5 luokka",
+    "geometria tehtäviä lukio",
+    "geometria tehtäviä 2lk",
+    "matematiikka geometria tehtäviä",
+    "5 luokan geometria tehtäviä",
+    "3 luokan geometria tehtäviä"
+   ]
+  },
+  "mittaaminen": {
+   "cls": "types",
+   "s": [
+    "mittaaminen",
+    "mittaaminen englanniksi",
+    "mittaaminen esiopetus",
+    "mittaaminen synonyymi",
+    "mittaaminen alakoulu",
+    "mittaaminen eskarit",
+    "mittaaminen google maps",
+    "mittaaminen 5 luokka",
+    "mittaaminen pdf kuvasta",
+    "mittaaminen puhelimella"
+   ]
+  },
+  "mittaaminen tehtäviä": {
+   "cls": "types",
+   "s": [
+    "mittaaminen tehtäviä",
+    "matematiikka mittaaminen tehtäviä",
+    "kulman mittaaminen tehtäviä"
+   ]
+  },
+  "looginen päättely": {
+   "cls": "types",
+   "s": [
+    "looginen päättelykyky testi",
+    "looginen päättely",
+    "looginen päättely tehtäviä",
+    "looginen päättelykyky",
+    "looginen päättely tehtäviä amk",
+    "looginen päättely testi",
+    "looginen päättely tehtäviä lapsille",
+    "looginen päättely kirja",
+    "looginen päättelykyky harjoituksia",
+    "looginen päättely harjoituksia"
+   ]
+  },
+  "looginen päättely tehtäviä": {
+   "cls": "types",
+   "s": [
+    "looginen päättely tehtäviä",
+    "looginen päättely tehtäviä amk",
+    "looginen päättely tehtäviä lapsille",
+    "looginen päättely tehtäviä psykologia"
+   ]
+  },
+  "hahmottaminen": {
+   "cls": "types",
+   "s": [
+    "hahmottaminen",
+    "hahmottaminen englanniksi",
+    "hahmottaminen tehtäviä",
+    "hahmottaminen tehtäviä lapsille",
+    "hahmottaminen varhaiskasvatus",
+    "hahmottaminen esiopetus",
+    "hahmottaminen peli",
+    "hahmottaminen på svenska"
+   ]
+  },
+  "hahmottaminen tehtäviä": {
+   "cls": "types",
+   "s": [
+    "hahmottaminen tehtäviä",
+    "hahmottaminen tehtäviä lapsille",
+    "avaruudellinen hahmottaminen tehtäviä"
+   ]
+  },
+  "lajittelu": {
+   "cls": "types",
+   "s": [
+    "lajitteluastia",
+    "lajitteluopas",
+    "lajitteluasema",
+    "lajittelulaatikko",
+    "lajittelu",
+    "lajitteluohjeet",
+    "lajittelukassi",
+    "lajitteluastiat kotiin",
+    "lajittelu englanniksi",
+    "lajitteluhattu"
+   ]
+  },
+  "lajittelu tehtäviä": {
+   "cls": "types",
+   "s": [
+    "lajittelutehtäviä lapsille",
+    "lajittelutehtäviä"
+   ]
+  },
+  "alkuäänteet": {
+   "cls": "types",
+   "s": [
+    "alkuäänteet",
+    "alkuäänteet wordwall"
+   ]
+  },
+  "kirjaintuntemus": {
+   "cls": "types",
+   "s": [
+    "kirjaintuntemus"
+   ]
+  },
+  "kuvasanasto": {
+   "cls": "types",
+   "s": [
+    "kuvasanasto englanniksi",
+    "varhaiskasvatuksen kuvasanasto",
+    "mikä on kuvasanasto"
+   ]
+  },
+  "kielellinen tietoisuus": {
+   "cls": "types",
+   "s": [
+    "kielellinen tietoisuus",
+    "kielellinen tietoisuus harjoituksia",
+    "kielellinen tietoisuus varhaiskasvatus",
+    "kielellinen tietoisuus englanniksi",
+    "kielellinen tietoisuus esiopetus",
+    "mitä tarkoittaa kielellinen tietoisuus",
+    "mitä on kielellinen tietoisuus"
+   ]
+  },
+  "enemmän vai vähemmän eskari": {
+   "cls": "typeGrade",
+   "s": [
+    "enemmän vähemmän eskari"
+   ]
+  },
+  "kellonajat esiopetus": {
+   "cls": "typeGrade",
+   "s": [
+    "kellonajat esiopetus"
+   ]
+  },
+  "kellonajat eskari": {
+   "cls": "typeGrade",
+   "s": [
+    "kellonajat eskari"
+   ]
+  },
+  "geometria esiopetus": {
+   "cls": "typeGrade",
+   "s": [
+    "geometria esiopetus"
+   ]
+  },
+  "geometria 2. luokka": {
+   "cls": "typeGrade",
+   "s": [
+    "geometria 2 luokka"
+   ]
+  },
+  "mittaaminen esiopetus": {
+   "cls": "typeGrade",
+   "s": [
+    "mittaaminen esiopetus",
+    "painon mittaaminen esiopetus"
+   ]
+  },
+  "mittaaminen eskari": {
+   "cls": "typeGrade",
+   "s": [
+    "mittaaminen eskarit"
+   ]
+  },
+  "mittaaminen alkuopetus": {
+   "cls": "typeGrade",
+   "s": [
+    "mittaaminen alkuopetus"
+   ]
+  },
+  "looginen päättely eskari": {
+   "cls": "typeGrade",
+   "s": [
+    "looginen päättely eskari"
+   ]
+  },
+  "hahmottaminen esiopetus": {
+   "cls": "typeGrade",
+   "s": [
+    "hahmottaminen esiopetus"
+   ]
+  },
+  "hahmottaminen eskari": {
+   "cls": "typeGrade",
+   "s": [
+    "hahmottaminen eskari",
+    "eskarimatikka hahmottaminen"
+   ]
+  },
+  "kielellinen tietoisuus esiopetus": {
+   "cls": "typeGrade",
+   "s": [
+    "kielellinen tietoisuus esiopetus"
+   ]
+  },
+  "eläimet tehtäviä": {
+   "cls": "themes",
+   "s": [
+    "maatilan eläimet tehtäviä",
+    "eläimet talvella tehtäviä"
+   ]
+  },
+  "joulu tehtäviä": {
+   "cls": "themes",
+   "s": [
+    "joulutehtäviä",
+    "joulutehtäviä lapsille"
+   ]
+  },
+  "värit tehtäviä": {
+   "cls": "themes",
+   "s": [
+    "värit englanti tehtäviä",
+    "värit ruotsiksi tehtäviä"
+   ]
+  },
+  "pääsiäinen tehtäviä": {
+   "cls": "themes",
+   "s": [
+    "pääsiäinen tehtäviä lapsille",
+    "pääsiäinen tehtäviä",
+    "pääsiäinen tehtäviä koululaisille",
+    "pääsiäinen tehtäviä s2"
+   ]
+  },
+  "tunteet tehtäviä": {
+   "cls": "themes",
+   "s": [
+    "tunteet tehtäviä"
+   ]
+  },
+  "maatilan eläimet tehtäviä": {
+   "cls": "themes",
+   "s": [
+    "maatilan eläimet tehtäviä"
+   ]
+  },
+  "musiikki tehtäviä": {
+   "cls": "themes",
+   "s": [
+    "musiikki tehtäviä lapsille",
+    "musiikki tehtäviä",
+    "musiikki tehtäviä koululaisille",
+    "musiikki tehtäviä netissä"
+   ]
+  },
+  "muodot tehtäviä": {
+   "cls": "themes",
+   "s": [
+    "muodot tehtäviä lapsille",
+    "muodot tehtäviä"
+   ]
+  },
+  "avaruus tehtäviä": {
+   "cls": "themes",
+   "s": [
+    "avaruus tehtäviä lapsille",
+    "avaruus tehtäviä",
+    "avaruus tehtäviä alakoulu",
+    "avaruus aiheisia tehtäviä lapsille"
+   ]
+  },
+  "kevät tehtäviä": {
+   "cls": "themes",
+   "s": [
+    "kevät tehtäviä",
+    "kevät tehtäviä lapsille"
+   ]
+  },
+  "kesä tehtäviä": {
+   "cls": "themes",
+   "s": [
+    "kesä tehtäviä lapsille",
+    "kesä tehtäviä"
+   ]
+  },
+  "sää tehtäviä": {
+   "cls": "themes",
+   "s": [
+    "sää tehtäviä",
+    "sää tehtäviä lapsille"
+   ]
+  },
+  "talvi tehtäviä": {
+   "cls": "themes",
+   "s": [
+    "talvi tehtäviä lapsille",
+    "talvi tehtäviä",
+    "eläinten talvi tehtäviä"
+   ]
+  },
+  "matematiikka eskari tehtäviä": {
+   "cls": "subjects",
+   "s": [
+    "eskari matematiikka tehtäviä"
+   ]
+  },
+  "matematiikka 1. luokka tehtäviä": {
+   "cls": "subjects",
+   "s": [
+    "matematiikka 1 luokka tehtäviä"
+   ]
+  },
+  "matematiikka alkuopetus tehtäviä": {
+   "cls": "subjects",
+   "s": [
+    "alkuopetus matematiikka tehtäviä"
+   ]
+  },
+  "ympäristöoppi 1. luokka tehtäviä": {
+   "cls": "subjects",
+   "s": [
+    "ympäristöoppi 1 luokka tehtäviä"
+   ]
+  },
+  "matematiikan tehtävät esiopetus": {
+   "cls": "subjects",
+   "s": [
+    "lukimat matematiikan tehtävät esiopetus"
+   ]
+  },
+  "tehtäviä esiopetus": {
+   "cls": "subjects",
+   "s": [
+    "esikoulu tehtäviä"
+   ]
+  },
+  "tehtäviä eskari": {
+   "cls": "subjects",
+   "s": [
+    "tehtäviä eskarilaiselle",
+    "tehtäviä eskariin",
+    "tehtäviä eskari ikäisille",
+    "eskari tehtäviä tulostettavia",
+    "eskarilaisten tehtäviä",
+    "eskari tehtäviä pdf",
+    "eskari tehtäviä kotona"
+   ]
+  },
+  "tehtäviä 1. luokka": {
+   "cls": "subjects",
+   "s": [
+    "tehtäviä 1 luokkalaisille",
+    "matematiikan tehtäviä 1 luokkalaisille",
+    "äidinkielen tehtäviä 1 luokkalaisille",
+    "tehtäviä 1 2 luokkalaisille",
+    "tulostettavia matematiikan tehtäviä 1 luokkalaisille",
+    "matematiikan tehtäviä 1 2 luokkalaisille"
+   ]
+  },
+  "tehtäviä 2. luokka": {
+   "cls": "subjects",
+   "s": [
+    "tehtäviä 2 luokkalaisille",
+    "matematiikan tehtäviä 2 luokkalaisille",
+    "äidinkielen tehtäviä 2 luokkalaisille",
+    "tehtäviä 1 2 luokkalaisille",
+    "tulostettavia matematiikan tehtäviä 2 luokkalaisille",
+    "sanallisia matematiikan tehtäviä 2 luokka",
+    "matematiikan tehtäviä 1 2 luokkalaisille"
+   ]
+  },
+  "tehtäviä netissä": {
+   "cls": "online",
+   "s": [
+    "tehtäviä netissä",
+    "netissä tehtäviä töitä",
+    "äidinkielen tehtäviä netissä",
+    "tuhattaituri tehtäviä netissä",
+    "tehtäviä lapsille netissä",
+    "englannin tehtäviä netissä",
+    "matematiikan tehtäviä netissä",
+    "ruotsin tehtäviä netissä",
+    "kirjanpito tehtäviä netissä",
+    "musiikki tehtäviä netissä"
+   ]
+  },
+  "oppimispelit netissä": {
+   "cls": "online",
+   "s": [
+    "oppimispelit netissä",
+    "lasten oppimispelit netissä"
+   ]
+  },
+  "tulostettavat tehtävät a": {
+   "cls": "alphabet",
+   "s": [
+    "tulostettavat tehtävät aikuisille"
+   ]
+  },
+  "tulostettavat tehtävät i": {
+   "cls": "alphabet",
+   "s": [
+    "ilmaiset tulostettavat tehtävät"
+   ]
+  },
+  "tulostettavat tehtävät k": {
+   "cls": "alphabet",
+   "s": [
+    "tulostettavat tehtävät koululaisille",
+    "tulostettavat kertotaulu tehtävät"
+   ]
+  },
+  "tulostettavat tehtävät l": {
+   "cls": "alphabet",
+   "s": [
+    "tulostettavat tehtävät lapsille",
+    "tulostettavat lasten tehtävät"
+   ]
+  },
+  "tulostettavat tehtävät m": {
+   "cls": "alphabet",
+   "s": [
+    "tulostettavat matematiikan tehtävät"
+   ]
+  },
+  "tulostettavat tehtävät p": {
+   "cls": "alphabet",
+   "s": [
+    "tulostettavat pisteestä pisteeseen tehtävät",
+    "papunet tulostettavat tehtävät"
+   ]
+  },
+  "tulostettavat tehtävät v": {
+   "cls": "alphabet",
+   "s": [
+    "tulostettavat tehtävät 4 vuotiaalle"
+   ]
+  },
+  "tehtäviä lapsille a": {
+   "cls": "alphabet",
+   "s": [
+    "tehtäviä autistisille lapsille",
+    "avaruus tehtäviä lapsille",
+    "aakkoset tehtäviä lapsille",
+    "avaruusaiheisia tehtäviä lapsille",
+    "arvoitus tehtäviä lapsille",
+    "ateneum tehtäviä lapsille",
+    "auto tehtäviä lapsille"
+   ]
+  },
+  "tehtäviä lapsille d": {
+   "cls": "alphabet",
+   "s": [
+    "dinosaurus tehtäviä lapsille"
+   ]
+  },
+  "tehtäviä lapsille e": {
+   "cls": "alphabet",
+   "s": [
+    "englannin tehtäviä lapsille",
+    "ensiaputehtäviä lapsille",
+    "eurooppa tehtäviä lapsille",
+    "esikoulu tehtäviä lapsille"
+   ]
+  },
+  "tehtäviä lapsille h": {
+   "cls": "alphabet",
+   "s": [
+    "lapsille tehtäviä häihin",
+    "halloween tehtäviä lapsille",
+    "hauskoja tehtäviä lapsille",
+    "helppoja tehtäviä lapsille",
+    "hahmottamisen tehtäviä lapsille",
+    "hygienia tehtäviä lapsille"
+   ]
+  },
+  "tehtäviä lapsille i": {
+   "cls": "alphabet",
+   "s": [
+    "ilmaisia tehtäviä lapsille",
+    "itsenäisyyspäivä tehtäviä lapsille",
+    "itsetunto tehtäviä lapsille"
+   ]
+  },
+  "tehtäviä lapsille j": {
+   "cls": "alphabet",
+   "s": [
+    "jouluisia tehtäviä lapsille",
+    "joulukalenteri tehtäviä lapsille",
+    "jouluaiheisia tehtäviä lapsille",
+    "juhannus tehtäviä lapsille"
+   ]
+  },
+  "tehtäviä lapsille k": {
+   "cls": "alphabet",
+   "s": [
+    "kevät tehtäviä lapsille",
+    "kirjain tehtäviä lapsille",
+    "kesä tehtäviä lapsille",
+    "kello tehtäviä lapsille",
+    "kesäisiä tehtäviä lapsille",
+    "käsite tehtäviä lapsille",
+    "keväisiä tehtäviä lapsille",
+    "kivoja tehtäviä lapsille",
+    "kalevala tehtäviä lapsille",
+    "kielellisiä tehtäviä lapsille"
+   ]
+  },
+  "tehtäviä lapsille l": {
+   "cls": "alphabet",
+   "s": [
+    "tehtäviä luonnossa lapsille",
+    "lukujono tehtäviä lapsille",
+    "luokittelu tehtäviä lapsille",
+    "labyrintti tehtäviä lapsille",
+    "luonto tehtäviä lapsille",
+    "luontopolku tehtäviä lapsille",
+    "lintu tehtäviä lapsille",
+    "lukumäärä tehtäviä lapsille",
+    "liikunnallisia tehtäviä lapsille",
+    "laskiainen tehtäviä lapsille"
+   ]
+  },
+  "tehtäviä lapsille m": {
+   "cls": "alphabet",
+   "s": [
+    "tehtäviä lapsille metsässä",
+    "matematiikka tehtäviä lapsille",
+    "muoto tehtäviä lapsille",
+    "musiikki tehtäviä lapsille",
+    "metsäretki tehtäviä lapsille",
+    "muumi tehtäviä lapsille",
+    "muodot tehtäviä lapsille",
+    "matemaattisia tehtäviä lapsille",
+    "moraali tehtäviä lapsille",
+    "merirosvo tehtäviä lapsille"
+   ]
+  },
+  "tehtäviä lapsille n": {
+   "cls": "alphabet",
+   "s": [
+    "tehtäviä lapsille netissä",
+    "numero tehtäviä lapsille"
+   ]
+  },
+  "tehtäviä lapsille o": {
+   "cls": "alphabet",
+   "s": [
+    "olympialaiset tehtäviä lapsille"
+   ]
+  },
+  "tehtäviä lapsille p": {
+   "cls": "alphabet",
+   "s": [
+    "tehtäviä pienille lapsille",
+    "paloturvallisuus tehtäviä lapsille",
+    "pääsiäinen tehtäviä lapsille",
+    "pakopeli tehtäviä lapsille",
+    "pääsiäisaiheisia tehtäviä lapsille",
+    "pinterest tehtäviä lapsille"
+   ]
+  },
+  "tehtäviä lapsille r": {
+   "cls": "alphabet",
+   "s": [
+    "raamattu tehtäviä lapsille",
+    "raha tehtäviä lapsille",
+    "runeberg tehtäviä lapsille",
+    "ruoka tehtäviä lapsille",
+    "rastirata tehtäviä lapsille"
+   ]
+  },
+  "tehtäviä lapsille s": {
+   "cls": "alphabet",
+   "s": [
+    "suurmestari tehtäviä lapsille",
+    "syksy tehtäviä lapsille",
+    "sadonkorjuu tehtäviä lapsille",
+    "s2 tehtäviä lapsille",
+    "suomi tehtäviä lapsille",
+    "sanomalehti tehtäviä lapsille",
+    "sää tehtäviä lapsille",
+    "salapoliisitehtäviä lapsille",
+    "selviytyjät tehtäviä lapsille"
+   ]
+  },
+  "tehtäviä lapsille t": {
+   "cls": "alphabet",
+   "s": [
+    "tehtäviä lapsille tulostettavia",
+    "tehtäviä lapsille tulostettavia viskaritehtäviä",
+    "toiminnallisia tehtäviä lapsille",
+    "tunnetaito tehtäviä lapsille",
+    "talvisia tehtäviä lapsille",
+    "tiede tehtäviä lapsille",
+    "tangram tehtäviä lapsille",
+    "tulosta tehtäviä lapsille",
+    "tonttu tehtäviä lapsille",
+    "tasapaino tehtäviä lapsille"
+   ]
+  },
+  "tehtäviä lapsille u": {
+   "cls": "alphabet",
+   "s": [
+    "tehtäviä lapsille ulkona"
+   ]
+  },
+  "tehtäviä lapsille v": {
+   "cls": "alphabet",
+   "s": [
+    "tehtäviä lapsille tulostettavia viskaritehtäviä",
+    "vappu tehtäviä lapsille",
+    "viskari tehtäviä lapsille",
+    "vesi tehtäviä lapsille",
+    "vertailu tehtäviä lapsille",
+    "vahvuus tehtäviä lapsille",
+    "väri tehtäviä lapsille",
+    "vastakohdat tehtäviä lapsille",
+    "vuodenaika tehtäviä lapsille",
+    "vahvuudet tehtäviä lapsille"
+   ]
+  },
+  "tehtäviä lapsille y": {
+   "cls": "alphabet",
+   "s": [
+    "ystävänpäivä tehtäviä lapsille",
+    "ystävyys tehtäviä lapsille",
+    "yhdyssana tehtäviä lapsille",
+    "yk tehtäviä lapsille",
+    "yhteistyö tehtäviä lapsille"
+   ]
+  },
+  "tehtäviä lapsille ö": {
+   "cls": "alphabet",
+   "s": [
+    "ötökkä tehtäviä lapsille"
+   ]
   }
- ],
- "suggestions": {},
- "unique": []
+ },
+ "unique": [
+  "3 luokan geometria tehtäviä",
+  "5 luokan geometria tehtäviä",
+  "aakkoset tehtäviä lapsille",
+  "aarteenetsintä",
+  "aarteenetsintä aikuisille",
+  "aarteenetsintä ideoita",
+  "aarteenetsintä lapsille",
+  "aarteenetsintä metallinpaljastimella",
+  "aarteenetsintä palkinto",
+  "aarteenetsintä synttäreille",
+  "aarteenetsintä tehtäviä",
+  "aarteenetsintä vihjeet",
+  "aarteenetsintä vihjeet aikuisille",
+  "aarteenetsintä vihjeet lapsille",
+  "alkuopetus matematiikka tehtäviä",
+  "alkuäänteet",
+  "alkuäänteet wordwall",
+  "arvaa harmittiko sanat",
+  "arvaa päivän sana",
+  "arvaa sana",
+  "arvaa sana ilta sanomat",
+  "arvaa sana iltalehti",
+  "arvaa sana kaleva",
+  "arvaa sana kirjaimista",
+  "arvaa sana lautapeli",
+  "arvaa sana peli",
+  "arvaa sana suomi",
+  "arvoitus tehtäviä lapsille",
+  "ateneum tehtäviä lapsille",
+  "auto tehtäviä lapsille",
+  "avaruudellinen hahmottaminen tehtäviä",
+  "avaruus aiheisia tehtäviä lapsille",
+  "avaruus tehtäviä",
+  "avaruus tehtäviä alakoulu",
+  "avaruus tehtäviä lapsille",
+  "avaruusaiheisia tehtäviä lapsille",
+  "bingo",
+  "bingo peli",
+  "bingo säännöt",
+  "bingo tehtäviä",
+  "bingokone",
+  "bingolaput",
+  "bingolotto",
+  "bingolotto ikväll",
+  "bingolotto mina sidor logga in",
+  "bingolotto rätta lotten",
+  "bingoon",
+  "dinosaurus tehtäviä lapsille",
+  "eläimet talvella tehtäviä",
+  "eläinten talvi tehtäviä",
+  "enemmän vai vähemmän",
+  "enemmän vähemmän",
+  "enemmän vähemmän eskari",
+  "enemmän vähemmän harjoituksia",
+  "enemmän vähemmän leikki",
+  "enemmän vähemmän merkki",
+  "enemmän vähemmän peli",
+  "enemmän vähemmän tehtäviä",
+  "enemmän vähemmän wordwall",
+  "enemmän vähemmän yhtä monta",
+  "englannin tehtäviä lapsille",
+  "englannin tehtäviä netissä",
+  "ensiaputehtäviä lapsille",
+  "esikoulu tehtäviä",
+  "esikoulu tehtäviä lapsille",
+  "eskari matematiikka tehtäviä",
+  "eskari tehtäviä kotona",
+  "eskari tehtäviä pdf",
+  "eskari tehtäviä tulostettavia",
+  "eskarilaisten tehtäviä",
+  "eskarimatikka hahmottaminen",
+  "etsi esineet",
+  "etsi ja laske",
+  "etsi ja laske kirja",
+  "etsi ja laske liikkuvat menopelit",
+  "etsi piilotetut esineet pelit",
+  "eurooppa tehtäviä lapsille",
+  "geometria",
+  "geometria 2 luokka",
+  "geometria esiopetus",
+  "geometria kaavat",
+  "geometria kulmat",
+  "geometria kuviot",
+  "geometria laskut",
+  "geometria muodot",
+  "geometria tehtäviä",
+  "geometria tehtäviä 2lk",
+  "geometria tehtäviä 3 luokka",
+  "geometria tehtäviä 4 luokka",
+  "geometria tehtäviä 5 luokka",
+  "geometria tehtäviä 6 luokka",
+  "geometria tehtäviä lukio",
+  "geometrian perusteet",
+  "geometrian termi",
+  "hahmottaminen",
+  "hahmottaminen englanniksi",
+  "hahmottaminen esiopetus",
+  "hahmottaminen eskari",
+  "hahmottaminen peli",
+  "hahmottaminen på svenska",
+  "hahmottaminen tehtäviä",
+  "hahmottaminen tehtäviä lapsille",
+  "hahmottaminen varhaiskasvatus",
+  "hahmottamisen tehtäviä lapsille",
+  "halloween tehtäviä lapsille",
+  "hauskoja tehtäviä lapsille",
+  "helppoja tehtäviä lapsille",
+  "hygienia tehtäviä lapsille",
+  "ilmaiset tulostettavat tehtävät",
+  "ilmaisia tehtäviä lapsille",
+  "iso vai pieni alkukirjain",
+  "iso vai pieni alkukirjain tehtävä",
+  "iso vai pieni alkukirjain testi",
+  "iso vai pieni kirjain",
+  "iso vai pieni kirjain kaksoispisteen jälkeen",
+  "iso vai pieni kiuaskivi",
+  "iso vai pieni klapi",
+  "iso vai pieni koulu",
+  "iso vai pieni lusikka",
+  "iso vai pieni siemenperuna",
+  "itsenäisyyspäivä tehtäviä lapsille",
+  "itsetunto tehtäviä lapsille",
+  "jouluaiheisia tehtäviä lapsille",
+  "jouluisia tehtäviä lapsille",
+  "joulukalenteri tehtäviä lapsille",
+  "joulutehtäviä",
+  "joulutehtäviä lapsille",
+  "juhannus tehtäviä lapsille",
+  "kalevala tehtäviä lapsille",
+  "kello tehtäviä lapsille",
+  "kellonajat",
+  "kellonajat englanniksi",
+  "kellonajat esiopetus",
+  "kellonajat eskari",
+  "kellonajat espanjaksi",
+  "kellonajat maailmalla",
+  "kellonajat peli",
+  "kellonajat ruotsiksi",
+  "kellonajat s2",
+  "kellonajat saksaksi",
+  "kellonajat suomeksi",
+  "kellonajat tehtäviä",
+  "kellonajat tehtäviä lapsille",
+  "kellonajat wordwall",
+  "kesä tehtäviä",
+  "kesä tehtäviä lapsille",
+  "kesäisiä tehtäviä lapsille",
+  "keväisiä tehtäviä lapsille",
+  "kevät tehtäviä",
+  "kevät tehtäviä lapsille",
+  "kielellinen tietoisuus",
+  "kielellinen tietoisuus englanniksi",
+  "kielellinen tietoisuus esiopetus",
+  "kielellinen tietoisuus harjoituksia",
+  "kielellinen tietoisuus varhaiskasvatus",
+  "kielellisiä tehtäviä lapsille",
+  "kirjain tehtäviä lapsille",
+  "kirjaintuntemus",
+  "kirjanpito tehtäviä netissä",
+  "kivoja tehtäviä lapsille",
+  "kryptogrammi",
+  "kulman mittaaminen tehtäviä",
+  "kuvasanasto englanniksi",
+  "kuvasudoku",
+  "kuvasudoku ohje",
+  "kymmenet ja ykköset",
+  "käsite tehtäviä lapsille",
+  "labyrintti tehtäviä lapsille",
+  "lajittelu",
+  "lajittelu englanniksi",
+  "lajitteluasema",
+  "lajitteluastia",
+  "lajitteluastiat kotiin",
+  "lajitteluhattu",
+  "lajittelukassi",
+  "lajittelulaatikko",
+  "lajitteluohjeet",
+  "lajitteluopas",
+  "lajittelutehtäviä",
+  "lajittelutehtäviä lapsille",
+  "lapsille tehtäviä häihin",
+  "laskiainen tehtäviä lapsille",
+  "lasten oppimispelit netissä",
+  "lasten tulostettavat tehtävät",
+  "lego puuttuvat palat",
+  "li lukutaulukko",
+  "liikunnallisia tehtäviä lapsille",
+  "lintu tehtäviä lapsille",
+  "lolan aakkosjuna",
+  "looginen päättely",
+  "looginen päättely eskari",
+  "looginen päättely harjoituksia",
+  "looginen päättely kirja",
+  "looginen päättely tehtäviä",
+  "looginen päättely tehtäviä amk",
+  "looginen päättely tehtäviä lapsille",
+  "looginen päättely tehtäviä psykologia",
+  "looginen päättely testi",
+  "looginen päättelykyky",
+  "looginen päättelykyky harjoituksia",
+  "looginen päättelykyky testi",
+  "lukimat matematiikan tehtävät esiopetus",
+  "lukujen vertailu",
+  "lukujen vertailu excel",
+  "lukujen vertailu prosentteina",
+  "lukujono tehtäviä lapsille",
+  "lukumäärä tehtäviä lapsille",
+  "lukusuora",
+  "lukusuora 0 10",
+  "lukusuora 0 1000",
+  "lukusuora 0-100",
+  "lukusuora 0-20",
+  "lukusuora desimaaliluvut",
+  "lukusuora englanniksi",
+  "lukusuora tehtäviä",
+  "lukusuoran piirtäminen",
+  "lukusuoran välit",
+  "lukutaulu",
+  "lukutaulukko",
+  "luokittelu tehtäviä lapsille",
+  "luonto tehtäviä lapsille",
+  "luontopolku tehtäviä lapsille",
+  "maatilan eläimet tehtäviä",
+  "maiden kokojen vertailu",
+  "matemaattisia tehtäviä lapsille",
+  "matematiikan tehtäviä 1 2 luokkalaisille",
+  "matematiikan tehtäviä 1 luokkalaisille",
+  "matematiikan tehtäviä 2 luokkalaisille",
+  "matematiikan tehtäviä netissä",
+  "matematiikan tehtävä englanniksi",
+  "matematiikan tehtävät",
+  "matematiikka 1 luokka tehtäviä",
+  "matematiikka geometria tehtäviä",
+  "matematiikka mittaaminen tehtäviä",
+  "matematiikka murtoluvut tehtäviä",
+  "matematiikka tehtäviä lapsille",
+  "merirosvo tehtäviä lapsille",
+  "metsäretki tehtäviä lapsille",
+  "mikä ei kuulu joukkoon",
+  "mikä ei kuulu joukkoon englanniksi",
+  "mikä ei kuulu joukkoon kortit",
+  "mikä ei kuulu joukkoon tehtäviä",
+  "mikä ei kuulu joukkoon tehtävä",
+  "mikä ei kuulu joukkoon tehtävä lapsille",
+  "mikä ei kuulu joukkoon testi",
+  "mikä ei kuulu joukkoon tulostettava",
+  "mikä ei kuulu joukkoon viitottu rakkaus",
+  "mikä ei kuulu joukkoon värinautit",
+  "mikä ei kuulu joukkoon wordwall",
+  "mikä on kryptogrammi",
+  "mikä on kuvasanasto",
+  "mikä on kuvasudoku",
+  "mikä on tukkimiehen kirjanpito",
+  "mittaaminen",
+  "mittaaminen 5 luokka",
+  "mittaaminen alakoulu",
+  "mittaaminen alkuopetus",
+  "mittaaminen englanniksi",
+  "mittaaminen esiopetus",
+  "mittaaminen eskarit",
+  "mittaaminen google maps",
+  "mittaaminen pdf kuvasta",
+  "mittaaminen puhelimella",
+  "mittaaminen synonyymi",
+  "mittaaminen tehtäviä",
+  "mitä on kielellinen tietoisuus",
+  "mitä tarkoittaa kielellinen tietoisuus",
+  "moraali tehtäviä lapsille",
+  "muodot tehtäviä",
+  "muodot tehtäviä lapsille",
+  "muoto tehtäviä lapsille",
+  "murtoluku tehtäviä 3 luokka",
+  "murtoluku tehtäviä 4 lk",
+  "murtoluku tehtäviä 5 lk",
+  "murtolukujen yhteenlasku tehtäviä",
+  "murtoluvut",
+  "murtoluvut desimaaleiksi",
+  "murtoluvut desimaaliluvuiksi",
+  "murtoluvut englanniksi",
+  "murtoluvut jakolasku",
+  "murtoluvut kertolasku",
+  "murtoluvut peli",
+  "murtoluvut prosenteiksi",
+  "murtoluvut tehtäviä",
+  "murtoluvut yhteenlasku",
+  "murtoluvut yhtälössä",
+  "musiikki tehtäviä",
+  "musiikki tehtäviä koululaisille",
+  "musiikki tehtäviä lapsille",
+  "musiikki tehtäviä netissä",
+  "muumi tehtäviä lapsille",
+  "netissä tehtäviä töitä",
+  "numero tehtäviä lapsille",
+  "olympialaiset tehtäviä lapsille",
+  "oppimispelit netissä",
+  "painon mittaaminen esiopetus",
+  "pakopeli tehtäviä lapsille",
+  "paloturvallisuus tehtäviä lapsille",
+  "papunet tulostettavat tehtävät",
+  "pdf yhdistäminen ilmaiseksi",
+  "pinterest tehtäviä lapsille",
+  "prepositiot",
+  "prepositiot ajanilmauksissa ruotsi",
+  "prepositiot englanniksi",
+  "prepositiot englanti",
+  "prepositiot espanja",
+  "prepositiot ruotsi",
+  "prepositiot ruotsiksi",
+  "prepositiot saksa",
+  "prepositiot suomen kielessä",
+  "prepositiot suomi",
+  "pääsiäinen tehtäviä",
+  "pääsiäinen tehtäviä koululaisille",
+  "pääsiäinen tehtäviä lapsille",
+  "pääsiäinen tehtäviä s2",
+  "pääsiäisaiheisia tehtäviä lapsille",
+  "raamattu tehtäviä lapsille",
+  "raha tehtäviä lapsille",
+  "rastirata tehtäviä lapsille",
+  "ristikko",
+  "ristikko apteekki",
+  "ristikko kauppakeskus",
+  "ristikko konala",
+  "ristikko ratkojat",
+  "ristikko suosikki",
+  "ristikkoavain",
+  "ristikkolehti",
+  "ristikkoperunat",
+  "ristikkosanat",
+  "ristikkotehtäviä",
+  "runeberg tehtäviä lapsille",
+  "ruoka tehtäviä lapsille",
+  "ruotsi prepositiot tehtäviä",
+  "ruotsin tehtäviä netissä",
+  "s2 tehtäviä lapsille",
+  "sadonkorjuu tehtäviä lapsille",
+  "salapoliisitehtäviä lapsille",
+  "sanahaku",
+  "sanahaku apu",
+  "sanahaku kirja",
+  "sanahaku kirjaimilla",
+  "sanahaku lehti",
+  "sanahaku netissä",
+  "sanahaku peli",
+  "sanahaku ristikko",
+  "sanahaku tehtäviä",
+  "sanahaku tehtävät",
+  "sanahaku tulostettava",
+  "sanallisia matematiikan tehtäviä 2 luokka",
+  "sanomalehti tehtäviä lapsille",
+  "selviytyjät tehtäviä lapsille",
+  "suomi tehtäviä lapsille",
+  "suurmestari tehtäviä lapsille",
+  "syksy tehtäviä lapsille",
+  "sää tehtäviä",
+  "sää tehtäviä lapsille",
+  "talvi tehtäviä",
+  "talvi tehtäviä lapsille",
+  "talvisia tehtäviä lapsille",
+  "tangram tehtäviä lapsille",
+  "tasapaino tehtäviä lapsille",
+  "tehtäviä 1 2 luokkalaisille",
+  "tehtäviä 1 luokkalaisille",
+  "tehtäviä 2 luokkalaisille",
+  "tehtäviä autistisille lapsille",
+  "tehtäviä eskari ikäisille",
+  "tehtäviä eskariin",
+  "tehtäviä eskarilaiselle",
+  "tehtäviä lapsille",
+  "tehtäviä lapsille metsässä",
+  "tehtäviä lapsille netissä",
+  "tehtäviä lapsille tulostettavia",
+  "tehtäviä lapsille tulostettavia viskaritehtäviä",
+  "tehtäviä lapsille ulkona",
+  "tehtäviä luonnossa lapsille",
+  "tehtäviä netissä",
+  "tehtäviä pienille lapsille",
+  "tiede tehtäviä lapsille",
+  "toiminnallisia tehtäviä lapsille",
+  "tonttu tehtäviä lapsille",
+  "tuhattaituri tehtäviä netissä",
+  "tukkimiehen kirjanpito",
+  "tulosta tehtäviä lapsille",
+  "tulostettavat kertotaulu tehtävät",
+  "tulostettavat lasten tehtävät",
+  "tulostettavat matematiikan tehtävät",
+  "tulostettavat pisteestä pisteeseen tehtävät",
+  "tulostettavat tehtävät",
+  "tulostettavat tehtävät 4 vuotiaalle",
+  "tulostettavat tehtävät aikuisille",
+  "tulostettavat tehtävät koululaisille",
+  "tulostettavat tehtävät lapsille",
+  "tulostettavia matematiikan tehtäviä 1 luokkalaisille",
+  "tulostettavia matematiikan tehtäviä 2 luokkalaisille",
+  "tulostettavia tehtäviä",
+  "tulostettavia tehtäviä 3 vuotiaalle",
+  "tulostettavia tehtäviä 4 vuotiaalle",
+  "tulostettavia tehtäviä 5-vuotiaille",
+  "tulostettavia tehtäviä 6 vuotiaille",
+  "tulostettavia tehtäviä 7 vuotiaalle",
+  "tulostettavia tehtäviä eskareille",
+  "tulostettavia tehtäviä ikäihmisille",
+  "tulostettavia tehtäviä koululaisille",
+  "tulostettavia tehtäviä lapsille",
+  "tunnetaito tehtäviä lapsille",
+  "tunteet tehtäviä",
+  "vahvuudet tehtäviä lapsille",
+  "vahvuus tehtäviä lapsille",
+  "vappu tehtäviä lapsille",
+  "varhaiskasvatuksen kuvasanasto",
+  "vastakohdat tehtäviä lapsille",
+  "vertailu tehtäviä lapsille",
+  "vesi tehtäviä lapsille",
+  "viskari tehtäviä lapsille",
+  "vuodenaika tehtäviä lapsille",
+  "vähennyslasku",
+  "vähennyslasku allekkain",
+  "vähennyslasku allekkain lainaaminen",
+  "vähennyslasku allekkain nollan yli lainaaminen",
+  "vähennyslasku allekkain tehtäviä",
+  "vähennyslasku englanniksi",
+  "vähennyslasku excel",
+  "vähennyslasku lainaaminen",
+  "vähennyslasku tehtäviä",
+  "vähennyslaskun tulos",
+  "vähennyslaskutaulu",
+  "väri tehtäviä lapsille",
+  "värit englanti tehtäviä",
+  "värit ruotsiksi tehtäviä",
+  "yhdistäminen chromecastiin",
+  "yhdistäminen englanniksi",
+  "yhdistäminen liekillä",
+  "yhdistäminen neulomalla",
+  "yhdistäminen pyöröksi",
+  "yhdistäminen silmukoimalla",
+  "yhdistäminen suljetuksi neuleeksi",
+  "yhdistäminen virkkaamalla",
+  "yhdistäminen virkkaamalla virkattujen palojen yhdistäminen",
+  "yhdyssana tehtäviä lapsille",
+  "yhteen ja vähennyslasku tehtäviä",
+  "yhteen ja vähennyslasku tehtäviä 0 100",
+  "yhteenlasku",
+  "yhteenlasku allekkain",
+  "yhteenlasku allekkain tehtäviä",
+  "yhteenlasku englanniksi",
+  "yhteenlasku excel",
+  "yhteenlasku ruotsiksi",
+  "yhteenlasku tehtäviä",
+  "yhteenlaskumenetelmä",
+  "yhteenlaskun vaihdannaisuus",
+  "yhteenlaskupeli",
+  "yhteenlaskusääntö",
+  "yhteistyö tehtäviä lapsille",
+  "yk tehtäviä lapsille",
+  "ympäristöoppi 1 luokka tehtäviä",
+  "ystävyys tehtäviä lapsille",
+  "ystävänpäivä tehtäviä lapsille",
+  "äidinkielen tehtäviä 1 luokkalaisille",
+  "äidinkielen tehtäviä 2 luokkalaisille",
+  "äidinkielen tehtäviä netissä",
+  "ötökkä tehtäviä lapsille"
+ ]
 }

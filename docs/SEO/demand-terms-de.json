@@ -1,0 +1,1151 @@
+{
+  "locale": "de",
+  "generated": "2026-07-06",
+  "source": "docs/SEO/harvests/de.json (google.de autocomplete, hl=de&gl=de, 2026-07-06) + 16-query SERP sample",
+  "titlePattern": {
+    "singleAxisType": "<Demand-Begriff> – Arbeitsblätter kostenlos (PDF)",
+    "singleAxisTheme": "Arbeitsblätter <Thema> – kostenlos zum Ausdrucken",
+    "singleAxisLevel": "Arbeitsblätter <Stufe> – kostenlos zum Ausdrucken",
+    "intersection": "<Demand-Begriff> <Klasse/Stufe> – Arbeitsblätter",
+    "notes": "Demand word FIRST (the German type-noun teachers actually type, per harvest — Suchsel not Wortsuche, Anlaute, Muster fortsetzen, Hundertertafel …); honest qualifiers only: kostenlos + zum Ausdrucken + PDF are always true, 'online' allowed since decks play in the browser, 'mit Lösungen' allowed (answer keys ship). Em-dash before theme/qualifier avoids dative traps (de rekey precedent). ≤51 chars ideal, 65 hard max — root appends ' · LessonCraftstudio'."
+  },
+  "singleAxis": {
+    "addition": {
+      "primaryQuery": "addition arbeitsblätter kostenlos",
+      "evidence": "harvest",
+      "title": "Addition – Arbeitsblätter kostenlos (PDF & online)",
+      "h1": "Addition: Plusaufgaben zum Ausdrucken und online Üben",
+      "metaDescription": "Über 190 Additions-Arbeitsblätter mit bunten Bildern: erste Plusaufgaben für Schulanfänger, jedes Blatt mit Lösungsseite – als PDF drucken oder online lösen.",
+      "winnability": "HARD head (grundschulkoenig/materialguru own 'addition arbeitsblätter'); mid-tail via Bilder+online angle",
+      "notes": "Harvest qualifiers: kostenlos, pdf, bis 10/20. Klasse-1/2-Demand ist riesig, aber alle de-Decks liegen auf 5-7 (Kindergarten) — level-re-tag fork, see map."
+    },
+    "subtraction": {
+      "primaryQuery": "subtraktion arbeitsblätter",
+      "evidence": "harvest",
+      "title": "Subtraktion – Arbeitsblätter kostenlos (PDF)",
+      "h1": "Subtraktion: Minusaufgaben mit Bildern zum Ausdrucken",
+      "metaDescription": "Fast 200 Subtraktions-Arbeitsblätter für den Rechenstart: Minusaufgaben mit anschaulichen Bildern, Lösungsblatt inklusive – gratis als PDF oder direkt online.",
+      "winnability": "HARD head; same owner set as addition. Mid-tail via Bilder-Angle",
+      "notes": "Harvest: 'subtraktion arbeitsblätter klasse 1' stark — gleiches Level-Mismatch wie addition (Decks auf Kindergarten-Tag)."
+    },
+    "code-addition": {
+      "primaryQuery": "addition übungen pdf",
+      "evidence": "harvest",
+      "title": "Code-Addition: Rechnen mit Symbolen (PDF)",
+      "h1": "Code-Addition: Symbole entschlüsseln und rechnen",
+      "metaDescription": "Knack den Zahlencode: Bei der Code-Addition stehen Bilder für Zahlen. 140+ knobelige Rechenblätter mit Lösungen – kostenlos ausdrucken oder online spielen.",
+      "winnability": "SKIP head (kein deutscher Suchbegriff; 'code addition' harvest ist Zoll/Frankreich-Müll) — rides addition long-tail",
+      "notes": "Kein nativer Demand-Begriff gefunden; Seite lebt von interner Verlinkung + Addition-Longtail."
+    },
+    "more-less": {
+      "primaryQuery": "mehr oder weniger arbeitsblätter",
+      "evidence": "harvest",
+      "title": "Mehr oder weniger? Mengen vergleichen (PDF)",
+      "h1": "Mehr oder weniger? Mengen erkennen und vergleichen",
+      "metaDescription": "Wo sind mehr Äpfel, wo weniger? 140+ Arbeitsblätter zum Mengenvergleich für Vorschulkinder – spielerisch zählen lernen, kostenlos als PDF oder online.",
+      "winnability": "HARD head (grundschulkoenig.de/vorschule/mehr-oder-weniger #1, grundschule-arbeitsblaetter #2); WINNABLE mid via online-Angle",
+      "notes": "SERP 2026-07-06 geprüft. Vorschule-Intersection trägt die Klasse-Qualifier-Nachfrage."
+    },
+    "math-puzzle": {
+      "primaryQuery": "mathe rätsel mit lösung",
+      "evidence": "harvest",
+      "title": "Mathe-Rätsel für Kinder – mit Lösung (PDF)",
+      "h1": "Mathe-Rätsel für Kinder: Knobeln mit Zahlen",
+      "metaDescription": "Mathe-Rätsel, die Kinder wirklich knacken wollen: 145 Knobelblätter mit Symbol-Gleichungen, jede Aufgabe mit Lösung – gratis ausdrucken oder am Bildschirm rätseln.",
+      "winnability": "WINNABLE mid ('mathe rätsel 1 klasse pdf' Long-tail dünn besetzt; Erwachsenen-Rätsel dominieren nur den Head)",
+      "notes": "Decks liegen auf Klasse 1 (6-8) — die Intersection grade-1 ist die Money-Page."
+    },
+    "math-worksheet": {
+      "primaryQuery": "mathe arbeitsblatt kindergarten",
+      "evidence": "harvest",
+      "title": "Gemischte Mathe-Aufgaben – Arbeitsblätter",
+      "h1": "Gemischte Mathe-Aufgaben zum Ausdrucken",
+      "metaDescription": "Bunt gemischte Rechenblätter: Plus- und Minusaufgaben im Wechsel, ideal zum Wiederholen. Rund 100 Arbeitsblätter mit Lösungen, kostenlos als PDF.",
+      "winnability": "DEFER-TO-HUB — 'mathe arbeitsblatt klasse X' gehört den Fach×Klasse-Hubs; Topic-Page nur für Mechanik-Longtail",
+      "notes": "Nicht gegen die eigenen Mathe-Hubs betiteln (harvest 'gemischte aufgaben' als Nische)."
+    },
+    "big-small": {
+      "primaryQuery": "größen vergleichen grundschule",
+      "evidence": "harvest",
+      "title": "Groß oder klein? Größenvergleich-Übungen",
+      "h1": "Groß oder klein? Größen vergleichen für die Vorschule",
+      "metaDescription": "Was ist größer, was ist kleiner? 90+ Vorschul-Arbeitsblätter zum Größenvergleich mit Alltagsmotiven – Blick fürs Vergleichen schulen, kostenlos drucken.",
+      "winnability": "WINNABLE mid (grundschulkoenig hat eine Vorschule-Seite 'Größenvergleich'; SERP sonst dünn). Achtung: 'groß oder klein' pur = Rechtschreib-Intent",
+      "notes": "Nie auf 'groß- oder kleinschreibung' optimieren — komplett anderer Intent (harvest-belegt)."
+    },
+    "chart-count": {
+      "primaryQuery": "strichliste diagramm",
+      "evidence": "harvest",
+      "title": "Zählen und ins Diagramm eintragen (PDF)",
+      "h1": "Zählen und eintragen: erste Diagramme für Kinder",
+      "metaDescription": "Motive zählen, Säulen füllen: 50 Arbeitsblätter, mit denen Kinder ihre Zählergebnisse ins Diagramm eintragen – Datenverständnis ab Kindergarten, gratis PDF.",
+      "winnability": "LOW head ('tabelle zählen' = Excel-Intent); rides 'strichliste/diagramm' Long-tail + interne Links",
+      "notes": "Demand-Wort für die Mechanik existiert nicht sauber; ehrlich beschreiben statt Keyword erfinden."
+    },
+    "pattern-train": {
+      "primaryQuery": "muster fortsetzen übungen",
+      "evidence": "harvest",
+      "title": "Muster fortsetzen mit dem Musterzug (PDF)",
+      "h1": "Musterzug: Muster erkennen und fortsetzen",
+      "metaDescription": "Welcher Waggon kommt als Nächstes? 245 Musterzug-Arbeitsblätter zum Muster-Fortsetzen – logisches Denken für Kindergartenkinder, kostenlos und online spielbar.",
+      "winnability": "WINNABLE mid — 'musterzug' selbst ist Holzspielzeug-Intent; Traffic kommt über 'muster fortsetzen'-Familie + Kindergarten-Intersection",
+      "notes": "Head 'muster fortsetzen' gehört dem patterns-Key (Slug muster-fortsetzen); dieser Key nimmt die Kindergarten-Intersection (245 Decks)."
+    },
+    "pattern-worksheet": {
+      "primaryQuery": "muster fortsetzen klasse 1 arbeitsblätter",
+      "evidence": "harvest",
+      "title": "Musterarbeitsblätter – Reihen fortsetzen",
+      "h1": "Musterarbeitsblätter: Reihen und Folgen fortsetzen",
+      "metaDescription": "Formen, Farben, Folgen: 47 Musterarbeitsblätter für die 1. Klasse zum Fortsetzen von Reihen – Konzentration und Mathe-Vorläuferfähigkeiten, gratis PDF.",
+      "winnability": "WINNABLE via grade-1 Intersection (SERP: eduki/Einzel-PDFs, grundschulkoenig nur 'Muster erkennen')",
+      "notes": "Money-Query liegt auf der Intersection grade-1__pattern-worksheet."
+    },
+    "bingo": {
+      "primaryQuery": "bingo für kindergartenkinder",
+      "evidence": "harvest",
+      "title": "Bild-Bingo für Kindergartenkinder (PDF)",
+      "h1": "Bild-Bingo: Bingo-Vorlagen für Kindergartenkinder",
+      "metaDescription": "Bingo mit Bildern statt Zahlen: 74 fertige Spielvorlagen für Kindergarten und Vorschule – Karten kostenlos ausdrucken und sofort in der Gruppe spielen.",
+      "winnability": "MID — Intent gemischt (Party/Kennenlern-Bingo); 'bingo kindergarten printable' zeigt echte Vorlagen-Nachfrage",
+      "notes": "'bingo klasse 1 mathe / silben bingo' Demand existiert — Deck-Gap (keine Klasse-1-Bingos)."
+    },
+    "grid-match": {
+      "primaryQuery": "bilder zuordnen spiel",
+      "evidence": "harvest",
+      "title": "Gitter-Zuordnung – Bilder-Raster-Rätsel",
+      "h1": "Gitter-Zuordnung: Bilder an die richtige Stelle setzen",
+      "metaDescription": "Zeile und Spalte lesen, Bild einsetzen: 49 Raster-Rätsel für Kindergartenkinder – räumliche Orientierung trainieren, kostenlos drucken oder online lösen.",
+      "winnability": "SKIP head (kein deutscher Suchbegriff für die Mechanik); lebt von interner Verlinkung",
+      "notes": "Kein Harvest-Match für 'gitter-zuordnung'; Seite ehrlich beschreibend halten."
+    },
+    "matching": {
+      "primaryQuery": "zuordnung arbeitsblätter",
+      "evidence": "harvest",
+      "title": "Zuordnung – Arbeitsblätter & Zuordnungsspiele",
+      "h1": "Zuordnungsspiele: Was gehört zusammen?",
+      "metaDescription": "Paare finden und verbinden: 93 Zuordnungs-Arbeitsblätter mit Bildern für Kindergarten und Vorschule – Wortschatz und Logik fördern, gratis als PDF.",
+      "winnability": "MID — Head verwässert durch Mathe-Zuordnung Kl. 6/7 (proportional); 'zuordnungsspiel'-Intent passt",
+      "notes": "Harvest zeigt 'wort bild zuordnung 1 klasse' als Literacy-Longtail — im Text aufgreifen."
+    },
+    "picture-sort": {
+      "primaryQuery": "kinder sortieren und ordnen",
+      "evidence": "harvest",
+      "title": "Bilder sortieren – Was gehört zusammen?",
+      "h1": "Bilder sortieren: Ordnen nach Kategorien",
+      "metaDescription": "Tiere zu Tieren, Fahrzeuge zu Fahrzeugen: 100 Sortier-Arbeitsblätter, mit denen Kinder Bilder nach Kategorien ordnen – Denken in Gruppen, kostenlos drucken.",
+      "winnability": "MID — 'bilder sortieren' pur = Foto-App-Intent; Kategorien-Angle über Kindergarten-Intersection",
+      "notes": "Die Kindergarten-Intersection nimmt 'sortieren und ordnen im kindergarten' (verbatim harvest)."
+    },
+    "shadow-match": {
+      "primaryQuery": "schatten zuordnen arbeitsblatt",
+      "evidence": "harvest",
+      "title": "Schatten zuordnen – Arbeitsblätter kostenlos",
+      "h1": "Schatten zuordnen: Welcher Schatten gehört zu welchem Bild?",
+      "metaDescription": "143 Schattenrätsel: Kinder verbinden Bilder mit dem passenden Schatten und schulen visuelle Wahrnehmung – für Kindergarten und Vorschule, PDF und online.",
+      "winnability": "WINNABLE — SERP dünn (wunderkiddy, kiwole, Pinterest, kleine Blogs; kein großer Owner). Beste Einzelchance im Wahrnehmungs-Cluster",
+      "notes": "Größter Deck-Bestand des Wahrnehmungs-Clusters — Best-in-class-Seite bauen."
+    },
+    "alphabet-train": {
+      "primaryQuery": "buchstabenzug grundschule",
+      "evidence": "harvest",
+      "title": "Buchstabenzug – ABC-Arbeitsblätter (PDF)",
+      "h1": "Buchstabenzug: das ABC in der richtigen Reihenfolge",
+      "metaDescription": "Fehlende Buchstaben in den Zug einsetzen: 81 ABC-Arbeitsblätter für Vorschulkinder – Alphabet und Buchstabenfolge lernen, kostenlos ausdrucken oder online.",
+      "winnability": "LOW-MID — 'buchstabenzug' überwiegend Holzspielzeug-Intent; 'buchstabenzug grundschule/1 klasse' ist echt aber klein",
+      "notes": "Demand-Mismatch Level: Suchende meinen Klasse 1, Decks sind Vorschule — im Text beide ansprechen."
+    },
+    "prepositions": {
+      "primaryQuery": "präpositionen arbeitsblätter kostenlos",
+      "evidence": "harvest",
+      "title": "Präpositionen-Arbeitsblätter – kostenlos (PDF)",
+      "h1": "Präpositionen: in, auf, unter, neben – Arbeitsblätter mit Bildern",
+      "metaDescription": "Wo ist der Ball? 97 Bild-Arbeitsblätter zu Präpositionen wie in, auf, unter und neben – ideal für Vorschule, DaZ und Sprachförderung, gratis als PDF.",
+      "winnability": "WINNING — LCS rankt bereits für 'präpositionen kindergarten arbeitsblatt pdf' (SERP 2026-07-06, Platz ~6). Ausbauen, nicht umbauen",
+      "notes": "DaZ-Longtail ('präpositionen daz kindergarten') harvest-belegt — im Text aufgreifen; Moat-Thema."
+    },
+    "word-guess": {
+      "primaryQuery": "wort raten deutsch",
+      "evidence": "harvest",
+      "title": "Wort raten – Buchstaben-Rätsel für Kinder",
+      "h1": "Wort raten: Buchstabe für Buchstabe zum Lösungswort",
+      "metaDescription": "Bild ansehen, Wort erraten, Buchstaben eintragen: 97 Rätselblätter für Leseanfänger – Wortschatz und Rechtschreibung spielerisch üben, kostenlos drucken.",
+      "winnability": "LOW-MID — Head ist App-/Spiel-Intent (Wordle-Klasse); Print-Longtail dünn aber erreichbar",
+      "notes": "Kein starkes deutsches Print-Keyword; von Galgenmännchen-Wording fernbleiben (negativ konnotiert)."
+    },
+    "word-scramble": {
+      "primaryQuery": "buchstabensalat zum ausdrucken",
+      "evidence": "harvest",
+      "title": "Buchstabensalat zum Ausdrucken – kostenlos",
+      "h1": "Buchstabensalat: Wörter entwirren für Kinder",
+      "metaDescription": "Verdrehte Wörter wieder richtig ordnen: 97 Buchstabensalat-Arbeitsblätter mit Bildhilfen für die 1. Klasse – Lesetraining mit Spaß, gratis PDF und online.",
+      "winnability": "WINNABLE — SERP: materialguru/grundschule-arbeitsblaetter/raetseldino, aber grundschulkoenig hat nur Klasse 3; Klasse-1-Lücke ist offen",
+      "notes": "Intersection grade-1 nimmt 'buchstabensalat klasse 1' (verbatim, eigene Suggestion-Familie)."
+    },
+    "wordsearch": {
+      "primaryQuery": "suchsel kostenlos ausdrucken grundschule",
+      "evidence": "serp",
+      "title": "Suchsel – Wortgitter kostenlos ausdrucken",
+      "h1": "Suchsel: Wortgitter und Wortsuche für Kinder",
+      "metaDescription": "Wörter im Buchstabengitter finden: 49 Suchsel mit kindgerechten Themenwörtern für die 1. Klasse – jedes Wortgitter gratis als PDF oder online spielbar.",
+      "winnability": "HARD head (suchsel.net, grundschule-arbeitsblaetter, materialguru); WINNABLE über Themen+Klasse-Longtail",
+      "notes": "KRITISCH: Das Demand-Wort ist 'Suchsel' (auch 'Wortgitter'), NICHT 'Wortsuche' — harvest 'wortsuche' ist App/Scrabble-Intent. Taxonomie-Name überdenken."
+    },
+    "crossword": {
+      "primaryQuery": "kreuzworträtsel für kinder zum ausdrucken 1. klasse",
+      "evidence": "serp",
+      "title": "Kreuzworträtsel für Kinder zum Ausdrucken",
+      "h1": "Bilder-Kreuzworträtsel für Kinder",
+      "metaDescription": "Kreuzworträtsel mit Bildern statt Fragen: Kinder benennen das Motiv und tragen das Wort ein. 47 Rätsel für Leseanfänger – kostenlos als PDF mit Lösung.",
+      "winnability": "HARD head (raetseldino ×2, kleineschule, buchstaben.com); WINNABLE mid über 'Bilderkreuzworträtsel' + Klasse-2-Intersection",
+      "notes": "Adult-Kreuzworträtsel-Head strikt meiden. Demand 'kreuzworträtsel klasse 1' existiert — Deck-Gap (nur Klasse-2-Decks)."
+    },
+    "sudoku": {
+      "primaryQuery": "bilder sudoku für kinder zum ausdrucken",
+      "evidence": "harvest",
+      "title": "Bilder-Sudoku für Kinder zum Ausdrucken (PDF)",
+      "h1": "Bilder-Sudoku: Sudoku mit Bildern für Kinder",
+      "metaDescription": "Sudoku ohne Zahlen: In die 4x4-Felder kommen Bilder – perfekt für Kindergarten und Vorschule. 97 Bilder-Sudokus mit Lösung, gratis drucken oder online.",
+      "winnability": "WINNABLE — Long-tail-Spezialisten (kleineschule, sudokuzok, raetseldino) ohne dominanten Owner; exakter Content-Match (4x4 Bilder-Sudoku)",
+      "notes": "Harvest zeigt sogar 'bilder sudoku weihnachten' — Themen-Longtail über Deck-Landings."
+    },
+    "cryptogram": {
+      "primaryQuery": "kryptogramme grundschule",
+      "evidence": "harvest",
+      "title": "Kryptogramme für die Grundschule – kostenlos",
+      "h1": "Kryptogramme: geheime Botschaften entschlüsseln",
+      "metaDescription": "Symbole knacken, Buchstaben einsetzen, Satz entschlüsseln: 101 Kryptogramm-Rätsel für Kinder ab der 1. Klasse – Logik und Lesen, gratis PDF und online.",
+      "winnability": "WINNABLE niche — 'kryptogramme grundschule' ist dünn besetzt (Head = Krypto/Kreditkarten-Intent, meiden)",
+      "notes": "Themenlos (Text-Decode) — bewährt unlandbar auf Deck-Ebene, Topic-Page trägt die Nachfrage allein."
+    },
+    "picture-path": {
+      "primaryQuery": "logikrätsel kinder",
+      "evidence": "harvest",
+      "title": "Bildpfad-Rätsel – Wege finden und zählen",
+      "h1": "Bildpfad: den richtigen Weg durchs Bilderfeld finden",
+      "metaDescription": "Von Feld zu Feld dem Lösungsweg folgen: 88 Bildpfad-Rätsel für Kindergartenkinder – erstes logisches Denken, jedes Blatt gratis als PDF oder online spielbar.",
+      "winnability": "SKIP head — 'bildpfad' ist Excel/Home-Assistant-Intent (harvest-belegt); nur interne Links + Logik-Longtail",
+      "notes": "Kein deutscher Suchbegriff für die Mechanik vorhanden."
+    },
+    "find-and-count": {
+      "primaryQuery": "suchen und zählen",
+      "evidence": "harvest",
+      "title": "Suchen und zählen – Vorschul-Arbeitsblätter",
+      "h1": "Suchen und zählen: Wimmelbilder zum Abzählen",
+      "metaDescription": "Motive im Bild entdecken und abzählen: 88 Such- und Zählblätter für die Vorschule – Mengenerfassung und Konzentration in einem, kostenlos ausdrucken.",
+      "winnability": "LOW-MID — Head Excel-verwässert; echte Nachfrage läuft über 'zählen lernen' + Wimmelbild-Nachbarschaft",
+      "notes": "Wimmelbild-Wort dem find-objects-Key überlassen (Abgrenzung)."
+    },
+    "find-objects": {
+      "primaryQuery": "wimmelbild zum ausdrucken kostenlos",
+      "evidence": "serp",
+      "title": "Suchbilder: Objekte finden – Arbeitsblätter",
+      "h1": "Suchbilder und Wimmelbilder: Objekte finden",
+      "metaDescription": "Versteckte Dinge im Bild aufspüren: 95 Suchbild-Arbeitsblätter für Kindergarten und Vorschule – genaues Hinsehen trainieren, gratis als PDF oder online.",
+      "winnability": "MID — 'wimmelbild zum ausdrucken' SERP ist Ausmalbild-dominiert (Berner-Wimmelbücher); 'Suchbild'-Angle weniger umkämpft",
+      "notes": "'objekte finden' harvest = Spiele-App-Intent; H1 führt beide echten Wörter (Suchbild/Wimmelbild)."
+    },
+    "treasure-hunt": {
+      "primaryQuery": "schatzsuche kinder",
+      "evidence": "harvest",
+      "title": "Schatzsuche-Rätsel für Kinder (PDF & online)",
+      "h1": "Schatzsuche: Rätselwege bis zum Schatz",
+      "metaDescription": "Dem Pfad übers Spielfeld bis zum Schatz folgen: 97 Schatzsuche-Rätsel für die 1. Klasse – Orientierung und Logik, kostenlos drucken oder online spielen.",
+      "winnability": "LOW head (Kindergeburtstags-Intent dominiert massiv); Longtail 'schatzsuche 1 klasse kostenlos' via Intersection",
+      "notes": "Ehrlich bleiben: unsere Decks sind Rätselblätter, keine Geburtstags-Schnitzeljagd-Sets."
+    },
+    "missing-pieces": {
+      "primaryQuery": "was fehlt spiel kindergarten",
+      "evidence": "harvest",
+      "title": "Was fehlt? Bilderrätsel zum Ausdrucken",
+      "h1": "Was fehlt? Fehlende Teile im Bild finden",
+      "metaDescription": "Welches Teil fehlt im Bild? 96 Suchrätsel für Kindergartenkinder: fehlende Ausschnitte erkennen und zuordnen – visuelle Wahrnehmung, gratis PDF.",
+      "winnability": "LOW-MID — Head gesundheitlich verwässert ('was fehlt dem körper'); Kindergarten-Longtail klein aber sauber",
+      "notes": "Immer mit Kontext-Qualifier ranken (kindergarten/bild), nie auf 'was fehlt' pur."
+    },
+    "odd-one-out": {
+      "primaryQuery": "was passt nicht in die reihe",
+      "evidence": "harvest",
+      "title": "Was passt nicht in die Reihe? Arbeitsblätter",
+      "h1": "Was passt nicht in die Reihe? Logikübungen mit Bildern",
+      "metaDescription": "Vier Bilder, eins passt nicht dazu: 92 Arbeitsblätter zum logischen Denken für Kindergarten und Vorschule – Kategorien erkennen, kostenlos als PDF.",
+      "winnability": "WINNABLE — SERP dünn (maxklug, gutemama, Ausmalbild-Seiten; grundschulkoenig nur 'Logische Reihen'). Exakter Content-Match",
+      "notes": "Verbatim-Suggestion 'was passt nicht in die reihe' + vorschule/kindergarten-Varianten im Harvest."
+    },
+    "counting-pictures": {
+      "primaryQuery": "arbeitsblätter mathe klasse 1 mengen",
+      "evidence": "harvest",
+      "title": "Zählen lernen mit Bildern – Arbeitsblätter",
+      "h1": "Zählen lernen: Bilder zählen und Mengen erfassen",
+      "metaDescription": "Erst zählen, dann Zahl zuordnen: 27 Zählblätter mit fröhlichen Motiven für Kindergartenkinder – sicherer Umgang mit Mengen bis 10, kostenlos drucken.",
+      "winnability": "LOW-MID — 'zählen mit bildern' harvest ist Kalorien-Intent; über 'zählen lernen'-Umfeld + Mengen-Longtail",
+      "notes": "Kleiner Bestand (27) — Prio hinter more-less/find-and-count."
+    },
+    "counting-frames": {
+      "primaryQuery": "zehnerfeld zum ausdrucken",
+      "evidence": "harvest",
+      "title": "Zehnerfeld – Übungen zum Ausdrucken (PDF)",
+      "h1": "Zehnerfeld: Mengen im Zehnerfeld erfassen",
+      "metaDescription": "Punkte im Zehnerfeld auf einen Blick erfassen: Übungsblätter zur Zahlzerlegung bis 10 für den Anfangsunterricht – kostenlos als PDF, mit Lösungen.",
+      "winnability": "WINNABLE niche ('zehnerfeld klasse 1/vorlage/blitzblick' sauberer Lehrer-Intent) — aber nur 9 Decks: DECK-GAP",
+      "notes": "Nachfrage klar belegt, Bestand zu dünn — Deck-Produktion empfehlen, dann Intersection grade-1."
+    },
+    "tally-counting": {
+      "primaryQuery": "strichlisten klasse 1",
+      "evidence": "harvest",
+      "title": "Strichlisten – Übungen zum Ausdrucken",
+      "h1": "Strichlisten führen: zählen und notieren",
+      "metaDescription": "Strichliste führen wie die Großen: zählen, bündeln, ablesen. Übungsblätter für Klasse 1 und 2 – Daten erfassen von Anfang an, gratis als PDF.",
+      "winnability": "WINNABLE niche (Suggestion-Familie 'strichlisten klasse 1' reich: arbeitsblatt, pdf, zaubereinmaleins) — nur 4 Decks: DECK-GAP",
+      "notes": "Erst Deck-Produktion, dann lohnt die Seite; Demand ist da."
+    },
+    "number-charts": {
+      "primaryQuery": "hundertertafel zum ausdrucken",
+      "evidence": "harvest",
+      "title": "Hundertertafel – Übungen zum Ausdrucken",
+      "h1": "Hundertertafel: Übungen im Zahlenraum bis 100",
+      "metaDescription": "Zahlen suchen, Ausschnitte ergänzen, Muster entdecken: 34 Hundertertafel-Arbeitsblätter für den Zahlenraum bis 100 – kostenlos als PDF mit Lösungen.",
+      "winnability": "HARD (mathestunde, schulkreis, grundschulkoenig, materialguru fest etabliert); Longtail über Klasse-1-Intersection",
+      "notes": "Demand skewt Klasse 2 (nur 6 Decks dort <12) — Klasse-2-Deck-Produktion wäre der Hebel."
+    },
+    "comparing-numbers": {
+      "primaryQuery": "zahlen vergleichen klasse 1",
+      "evidence": "harvest",
+      "title": "Zahlen vergleichen: größer, kleiner, gleich",
+      "h1": "Zahlen vergleichen mit <, > und =",
+      "metaDescription": "Krokodilmaul auf: Welche Zahl ist größer? Arbeitsblätter zum Zahlenvergleich mit den Zeichen <, > und = – für Klasse 1 und 2, kostenlos ausdrucken.",
+      "winnability": "WINNABLE niche (Suggestion-Familie reich: krokodil, zr 20, einführung) — nur 6 Decks: DECK-GAP",
+      "notes": "Klassisches Klasse-1-Thema mit sauberem Lehrer-Intent; Bestand aufbauen."
+    },
+    "comparing-groups": {
+      "primaryQuery": "mengen vergleichen vorschule",
+      "evidence": "harvest",
+      "title": "Mengen vergleichen – Vorschul-Übungen (PDF)",
+      "h1": "Mengen vergleichen: Wo ist mehr, wo ist weniger?",
+      "metaDescription": "Zwei Gruppen, ein Blick: Kinder vergleichen Mengen und markieren die größere. Vorschul-Arbeitsblätter zur Mengenerfassung – gratis als PDF ausdrucken.",
+      "winnability": "MID (grundschulkoenig owns 'mehr oder weniger'; 'mengen vergleichen vorschule' verbatim belegt) — 8 Decks: DECK-GAP",
+      "notes": "Semantisch nah an more-less — Kanibalisierung vermeiden: dieser Key nimmt die Vergleichszeichen-freie Mengen-Formulierung."
+    },
+    "comparing-sizes": {
+      "primaryQuery": "größen vergleichen kindergarten",
+      "evidence": "harvest",
+      "title": "Größen vergleichen – Arbeitsblätter (PDF)",
+      "h1": "Größen vergleichen: das Größte und das Kleinste finden",
+      "metaDescription": "Vom kleinsten zum größten Motiv ordnen: 15 Arbeitsblätter zum Größenvergleich im Kindergarten – erste Messvorstellungen aufbauen, kostenlos drucken.",
+      "winnability": "MID niche — Echo-Evidenz; SERP nicht speziell besetzt",
+      "notes": "Abgrenzung zu big-small (Vorschule, groß/klein) im Copy sauber halten: hier ordnen nach Größe."
+    },
+    "number-lines": {
+      "primaryQuery": "zahlenstrahl bis 20 zum ausdrucken",
+      "evidence": "harvest",
+      "title": "Zahlenstrahl bis 20 – Übungen zum Ausdrucken",
+      "h1": "Zahlenstrahl: Zahlen bis 20 verorten",
+      "metaDescription": "Zahlen auf dem Zahlenstrahl finden und eintragen: Übungsblätter für den Zahlenraum bis 20 im Anfangsunterricht – kostenlos als PDF, mit Lösungen.",
+      "winnability": "HARD (starke Owner + riesige Suggestion-Familie) — nur 9 Decks: DECK-GAP, größte unbediente Mathe-Nachfrage",
+      "notes": "'zahlenstrahl klasse 1/bis 20/bis 100' ist eine der stärksten Mathe-Familien im Harvest — Deck-Produktion priorisieren."
+    },
+    "base-ten": {
+      "primaryQuery": "stellenwert übungen 2 klasse",
+      "evidence": "harvest",
+      "title": "Stellenwert: Zehner und Einer – Übungen",
+      "h1": "Stellenwert verstehen: Zehner und Einer",
+      "metaDescription": "Zahlen in Zehner und Einer zerlegen: Stellenwert-Arbeitsblätter mit Anschauungsmaterial für Klasse 1 und 2 – Basis fürs Rechnen bis 100, gratis PDF.",
+      "winnability": "MID niche — 12 Decks knapp am Limit; Demand solide ('stellenwerttafel', 'zr 100')",
+      "notes": "Bestand grenzwertig für eigene Intersections; erst Typ-Seite stärken."
+    },
+    "telling-time": {
+      "primaryQuery": "uhrzeit lernen arbeitsblätter kostenlos",
+      "evidence": "harvest",
+      "title": "Uhrzeit lernen – Arbeitsblätter kostenlos",
+      "h1": "Uhrzeit lernen: Uhr lesen Schritt für Schritt",
+      "metaDescription": "Volle Stunden, halbe Stunden, Minuten: 81 Arbeitsblätter zum Uhrlesen mit Zeigeruhren – von Klasse 1 bis 3, kostenlos als PDF und online übbar.",
+      "winnability": "HARD head (materialguru, schulkreis, mathestunde, grundschulkoenig); WINNABLE über Klasse-1/2-Intersections",
+      "notes": "Suggestion-Familie extrem reich (kostenlos/zum ausdrucken/pdf/2 klasse) — Intersections sind die Money-Pages."
+    },
+    "fractions": {
+      "primaryQuery": "brüche arbeitsblätter kostenlos",
+      "evidence": "harvest",
+      "title": "Brüche entdecken – Arbeitsblätter (PDF)",
+      "h1": "Erste Brüche: halbe, viertel, ganze",
+      "metaDescription": "Halb, Viertel, Drittel anschaulich: 68 Bruch-Arbeitsblätter mit Bildern zum Einfärben und Zuordnen – erste Bruchvorstellung, kostenlos ausdrucken.",
+      "winnability": "LOW-MID — deutsche Brüche-Nachfrage liegt in Klasse 4-6 (harvest-belegt); K-3-Anteil klein. Ehrlich 'erste Brüche' framen",
+      "notes": "Keine Klasse-Intersection: 'brüche 1./2. klasse' harvest = Gymnasium/NMS-Österreich-Intent (Falle)."
+    },
+    "graphing-data": {
+      "primaryQuery": "daten und diagramme arbeitsblätter",
+      "evidence": "harvest",
+      "title": "Diagramme und Daten – Arbeitsblätter (PDF)",
+      "h1": "Daten und Diagramme: ablesen, zählen, eintragen",
+      "metaDescription": "Säulendiagramme lesen und selbst füllen: 28 Arbeitsblätter zu Daten und Diagrammen für die Grundschule – kostenlos als PDF, Lösungen inklusive.",
+      "winnability": "WINNABLE — SERP überwiegend Paid (eduki, lernbiene, meinunterricht); Gratis-Angle ist offen",
+      "notes": "Intersection grade-1 trägt die verbatim Nachfrage 'daten und diagramme klasse 1'."
+    },
+    "arrays-multiplication": {
+      "primaryQuery": "übungsblätter einmaleins",
+      "evidence": "harvest",
+      "title": "Erstes Einmaleins – Übungsblätter (PDF)",
+      "h1": "Erstes Einmaleins: Malaufgaben mit Bildern",
+      "metaDescription": "Reihen und Felder statt stumpfem Pauken: 31 Einmaleins-Arbeitsblätter mit Punktebildern für den Einstieg in die Multiplikation – gratis ausdrucken.",
+      "winnability": "HARD head (einmaleins.de als Exact-Domain + grundschulkoenig); Longtail über Klasse-2-Intersection + Bild-Angle",
+      "notes": "Unsere Decks = Arrays/Punktfelder (Einstieg), nicht Reihen-Drill — ehrlich positionieren."
+    },
+    "geometry": {
+      "primaryQuery": "geometrie arbeitsblätter 2 klasse",
+      "evidence": "harvest",
+      "title": "Geometrie-Arbeitsblätter für die Grundschule",
+      "h1": "Geometrie: Formen und Körper erkennen",
+      "metaDescription": "Formen erkennen, Flächen und Körper unterscheiden: 37 Geometrie-Arbeitsblätter von Kindergarten bis Klasse 3 – kostenlos als PDF mit Lösungen.",
+      "winnability": "MID — Head Klasse-3-6-lastig; Klasse-2-Intersection ist der saubere Zugriff",
+      "notes": "Intersection geometry__grade-2 (17 Decks) trägt die verbatim Nachfrage."
+    },
+    "measurement": {
+      "primaryQuery": "arbeitsblätter messen grundschule",
+      "evidence": "harvest",
+      "title": "Messen lernen – Arbeitsblätter Grundschule",
+      "h1": "Messen: Längen vergleichen und messen",
+      "metaDescription": "Mit Lineal und Augenmaß: 35 Arbeitsblätter zum Messen und Vergleichen von Längen – vom Kindergarten bis Klasse 2, kostenlos als PDF ausdrucken.",
+      "winnability": "MID — 'winkel messen' (Kl. 5+) verwässert den Head; Grundschul-Longtail über Klasse-1-Intersection",
+      "notes": "Klasse-2-Demand ('längen messen klasse 2') vorhanden, aber nur 11 Decks (<12) — knapp unter Flip-Schwelle."
+    },
+    "visual-logic": {
+      "primaryQuery": "logikrätsel kinder 6 jahre",
+      "evidence": "harvest",
+      "title": "Logikrätsel für Kinder – kostenlos (PDF)",
+      "h1": "Logikrätsel: knobeln und kombinieren für Kinder",
+      "metaDescription": "Kombinieren statt Raten: 14 Logikrätsel für Kinder ab 5 Jahren mit Bildern statt Text – Denktraining für Vorschule bis Klasse 3, gratis als PDF.",
+      "winnability": "MID — Head erwachsen-dominiert; 'logikrätsel kinder 6 jahre / 1. klasse' sauber, aber nur 14 Decks",
+      "notes": "DECK-GAP-Kandidat: Demand-Familie (vorschule…2. klasse) komplett vorhanden."
+    },
+    "visual-discrimination": {
+      "primaryQuery": "visuelle wahrnehmung arbeitsblätter kostenlos",
+      "evidence": "harvest",
+      "title": "Visuelle Wahrnehmung – Arbeitsblätter kostenlos",
+      "h1": "Visuelle Wahrnehmung fördern: Arbeitsblätter für Kinder",
+      "metaDescription": "Gleiche Bilder finden, Unterschiede erkennen, Details vergleichen: Arbeitsblätter zur visuellen Wahrnehmung für Kindergarten und Vorschule – gratis PDF.",
+      "winnability": "WINNABLE — SERP fragmentiert (kleineschule, abcund123, wunderkiddy, gutemama; grundschulkoenig fehlt). Ergo/LRS-Publikum sucht intensiv",
+      "notes": "Cluster-Kopf: von hier auf shadow-match, missing-pieces, odd-one-out, grid-match verlinken."
+    },
+    "visual-matching": {
+      "primaryQuery": "bilder zuordnen arbeitsblatt",
+      "evidence": "harvest",
+      "title": "Bilder zuordnen – Arbeitsblätter für Kinder",
+      "h1": "Bilder zuordnen: Paare und Passendes finden",
+      "metaDescription": "Welches Bild gehört zu welchem? Zuordnungs-Arbeitsblätter für Vorschule und Kindergarten mit Alltagsmotiven – Wahrnehmung schulen, gratis drucken.",
+      "winnability": "MID niche — verbatim belegt, aber nur 5 Decks: DECK-GAP",
+      "notes": "Demand-Familie (vorschule/kindergarten/1 klasse) komplett — Bestand aufbauen lohnt."
+    },
+    "patterns": {
+      "primaryQuery": "muster fortsetzen arbeitsblatt kostenlos",
+      "evidence": "harvest",
+      "title": "Muster fortsetzen – Arbeitsblätter kostenlos",
+      "h1": "Muster fortsetzen: Reihen erkennen und weiterführen",
+      "metaDescription": "Wie geht die Reihe weiter? Arbeitsblätter zum Muster-Fortsetzen mit Formen und Bildern für Kindergarten und Klasse 1 – kostenlos als PDF drucken.",
+      "winnability": "WINNABLE — SERP moderat (grundschulkoenig rankt mit 'Muster erkennen'-Umweg, sonst eduki/Einzel-PDFs); Suggestion-Familie sehr reich",
+      "notes": "Slug muster-fortsetzen = exakter Demand-Match. Kindergarten-Qualifier geht an pattern-train (245 Decks) — hier NICHT doppeln."
+    },
+    "position-words": {
+      "primaryQuery": "lagebeziehungen klasse 1 arbeitsblatt",
+      "evidence": "harvest",
+      "title": "Lagebeziehungen: über, unter, neben (PDF)",
+      "h1": "Lagebeziehungen: rechts, links, über, unter",
+      "metaDescription": "Wo liegt der Ball – über, unter oder neben dem Korb? Arbeitsblätter zu Lagebeziehungen und räumlicher Orientierung für Vorschule und Klasse 1, gratis.",
+      "winnability": "WINNABLE niche (Mathe-Lehrer-Intent klar, SERP dünn: wegerer, kleine Blogs) — nur 8 Decks: DECK-GAP",
+      "notes": "Nachbar von prepositions (Sprach-Angle) — Lagebeziehungen = Mathe-Wording, Präpositionen = DaZ/Deutsch-Wording."
+    },
+    "sorting-categories": {
+      "primaryQuery": "sortieren und ordnen",
+      "evidence": "harvest",
+      "title": "Sortieren und Ordnen – Übungsvorlagen",
+      "h1": "Sortieren und Ordnen: Dinge in Gruppen einteilen",
+      "metaDescription": "Nach Farbe, Form oder Art sortieren: Übungsvorlagen zum Ordnen und Kategorisieren für Kita und Vorschule – Denkgrundlagen legen, kostenlos drucken.",
+      "winnability": "SKIP als eigene Seite (4 Decks) — Demand 'sortieren und ordnen im kindergarten' geht an die picture-sort-Intersection",
+      "notes": "In picture-sort-Cluster einhängen, nicht separat pushen."
+    },
+    "picture-arithmetic": {
+      "primaryQuery": "rechnen mit bildern 1 klasse",
+      "evidence": "harvest",
+      "title": "Rechnen mit Bildern – Plus und Minus (PDF)",
+      "h1": "Rechnen mit Bildern: erste Plus- und Minusaufgaben",
+      "metaDescription": "Erst Bilder zählen, dann rechnen: 14 Arbeitsblätter mit Bildaufgaben zu Plus und Minus für die 1. Klasse – anschaulicher Rechenstart, gratis als PDF.",
+      "winnability": "WINNABLE mid — verbatim Demand, SERP mittel (lernwolf, kleineschule); exakter Content-Match",
+      "notes": "Alle Decks auf Klasse 1 → keine separate Intersection nötig (wäre Duplikat); Query lebt auf der Typ-Seite."
+    },
+    "science-sort": {
+      "primaryQuery": "sachunterricht klasse 1 arbeitsblätter kostenlos",
+      "evidence": "harvest",
+      "title": "Sachunterricht: Sortieren und Zuordnen (PDF)",
+      "h1": "Sachunterricht: sortieren, zuordnen, entdecken",
+      "metaDescription": "Lebensräume, Jahreszeiten, Natur: 90 Sortier-Arbeitsblätter für den Sachunterricht in Kindergarten und Klasse 1 – Wissen ordnen, kostenlos als PDF.",
+      "winnability": "DEFER-TO-HUB — 'sachunterricht klasse X arbeitsblätter' gehört dem Fach×Klasse-Hub; Topic-Page nur Mechanik-Support",
+      "notes": "Nicht gegen den eigenen Sachunterricht-Hub betiteln."
+    },
+    "science-match": {
+      "primaryQuery": "bilder zuordnen kindergarten",
+      "evidence": "harvest",
+      "title": "Sachunterricht: Bilder und Begriffe zuordnen",
+      "h1": "Sachwissen zuordnen: Was gehört zusammen?",
+      "metaDescription": "Tier zu Lebensraum, Werkzeug zu Beruf: 10 Zuordnungs-Arbeitsblätter mit Sachthemen für neugierige Kinder – Wissen verknüpfen, gratis ausdrucken.",
+      "winnability": "LOW (10 Decks, kein eigener Suchbegriff) — interne Verlinkung",
+      "notes": "Support-Seite im Sachunterricht-Cluster."
+    },
+    "science-sequence": {
+      "primaryQuery": "sachunterricht klasse 2 arbeitsblätter",
+      "evidence": "harvest",
+      "title": "Reihenfolgen und Lebenszyklen – Arbeitsblätter",
+      "h1": "Lebenszyklen: Reihenfolgen der Natur ordnen",
+      "metaDescription": "Vom Ei zur Raupe zum Schmetterling: Arbeitsblätter zu Lebenszyklen und Reihenfolgen im Sachunterricht – Naturwissen spielerisch ordnen, gratis PDF.",
+      "winnability": "SKIP (1 Deck) — erst Bestand aufbauen",
+      "notes": "Platzhalter; kein Push vor Deck-Produktion."
+    },
+    "beginning-sounds": {
+      "primaryQuery": "anlaute arbeitsblätter kostenlos",
+      "evidence": "harvest",
+      "title": "Anlaute – Arbeitsblätter kostenlos (PDF)",
+      "h1": "Anlaute hören und erkennen: Arbeitsblätter mit Bildern",
+      "metaDescription": "Mit welchem Laut beginnt das Wort? Anlaut-Arbeitsblätter mit Bildern für Vorschule und Klasse 1 – phonologische Bewusstheit üben, gratis als PDF.",
+      "winnability": "HARD (grundschulkoenig, fraumohrsrasselbande, grundschulatelier) — Demand RIESIG, aber nur 10 Decks: größter Literacy-DECK-GAP",
+      "notes": "Suggestion-Familie über alle Stufen (vorschule…2. klasse) — Deck-Produktion würde eine ganze Demand-Familie erschließen."
+    },
+    "letter-knowledge": {
+      "primaryQuery": "buchstaben erkennen arbeitsblatt",
+      "evidence": "harvest",
+      "title": "Buchstaben erkennen – Arbeitsblätter (PDF)",
+      "h1": "Buchstaben erkennen und unterscheiden",
+      "metaDescription": "Den gesuchten Buchstaben in der Reihe finden: 20 Arbeitsblätter zum Buchstaben-Erkennen für Vorschule und Schulstart – Buchstabensicherheit, gratis PDF.",
+      "winnability": "MID — sauberer Intent ('buchstaben erkennen arbeitsblatt/pdf/1 klasse'), moderater Wettbewerb",
+      "notes": "Verwandte Nachfrage 'arbeitsblätter buchstaben' ist größer, aber Schreiblehrgangs-Intent (wir haben keine Schreibblätter — ehrlich bleiben)."
+    },
+    "word-building": {
+      "primaryQuery": "wörter bauen aus buchstaben",
+      "evidence": "harvest",
+      "title": "Wörter bauen aus Buchstaben – Arbeitsblätter",
+      "h1": "Wörter bauen: aus Buchstaben Wörter legen",
+      "metaDescription": "Buchstabe für Buchstabe zum ganzen Wort: 10 Arbeitsblätter zum Wörterbauen für Leseanfänger – Laut-Buchstaben-Zuordnung festigen, kostenlos drucken.",
+      "winnability": "LOW-MID niche (verbatim belegt, klein) — 10 Decks",
+      "notes": "Longtail-Nachbar der Anlaute-Familie."
+    },
+    "picture-vocabulary": {
+      "primaryQuery": "wortschatz mit bildern pdf",
+      "evidence": "harvest",
+      "title": "Wortschatz mit Bildern – kostenlos als PDF",
+      "h1": "Wortschatz mit Bildern: Wörter sehen und lernen",
+      "metaDescription": "Bild ansehen, Wort lernen: Bildwortschatz-Arbeitsblätter zu Alltagsthemen – ideal für DaZ, Sprachförderung und Vorschule, kostenlos als PDF drucken.",
+      "winnability": "WINNABLE niche — 'deutsch wortschatz mit bildern pdf' verbatim, DaZ-Publikum, dünne SERP. Moat-Thema (11 Sprachen)",
+      "notes": "DaZ-Angle prominent machen; nur 10 Decks — Bestand ausbauen (Themen-Decks existieren als Rohstoff)."
+    },
+    "phonological-awareness": {
+      "primaryQuery": "deutsch 1 klasse arbeitsblätter silbentrennung",
+      "evidence": "harvest",
+      "title": "Laute und Silben – Arbeitsblätter (PDF)",
+      "h1": "Laute und Silben: hören, klatschen, lesen",
+      "metaDescription": "Silben klatschen und Laute hören: 25 Arbeitsblätter zur phonologischen Bewusstheit für Vorschule und Klasse 1 – Grundlage fürs Lesen, gratis PDF.",
+      "winnability": "MID — Silben-Demand solide ('silbentrennung', 'silben bingo 1 klasse'); Head 'laute silben' ist Schulbuch-Intent",
+      "notes": "Demand-map #6 bestätigt Silben/Anlaute als P1-Retitle-Cluster."
+    },
+    "preschool": {
+      "primaryQuery": "arbeitsblätter vorschule kostenlos",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Vorschule – kostenlos zum Ausdrucken",
+      "h1": "Vorschule: Arbeitsblätter für Kinder ab 3 Jahren",
+      "metaDescription": "Über 400 Vorschul-Arbeitsblätter: Mengen vergleichen, Muster, Wahrnehmung, erste Buchstaben – alles kostenlos als PDF drucken oder online spielen.",
+      "winnability": "HARD head (vorschulkids.de Exact-Domain, kleineschule, grundschulheld, wortgewitzt) — strengthen: Demand-Title + Sub-Hub-Links",
+      "notes": "Harvest: 'ab 3 jahre pdf', '5 jahre kostenlos' — Alters-Longtail im Copy bedienen."
+    },
+    "kindergarten": {
+      "primaryQuery": "arbeitsblätter kindergarten 5 jahre kostenlos",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Kindergarten – kostenlos (PDF)",
+      "h1": "Kindergarten: Arbeitsblätter für 5- bis 7-Jährige",
+      "metaDescription": "Der größte Bereich: 2.400+ Kindergarten-Arbeitsblätter von Schatten-Zuordnen bis erste Plusaufgaben – kostenlos ausdrucken oder direkt online üben.",
+      "winnability": "HARD head; mid über Alters-Qualifier ('5 jahre', '6 jahre kostenlos' verbatim harvest)",
+      "notes": "DE-Begriffsfalle: 'Kindergarten' heißt hier 3-6 Jahre — Copy muss die Brücke zu Vorschulkindern schlagen."
+    },
+    "grade-1": {
+      "primaryQuery": "übungsblätter 1 klasse zum ausdrucken kostenlos",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter 1. Klasse – kostenlos zum Ausdrucken",
+      "h1": "1. Klasse: Arbeitsblätter für Deutsch, Mathe und Logik",
+      "metaDescription": "600+ Arbeitsblätter für die 1. Klasse: Rechnen bis 20, Suchsel, Buchstabensalat, Uhrzeit – mit Lösungen, kostenlos als PDF oder online spielbar.",
+      "winnability": "HARD head (übungskönig, grundschulkoenig, klassenarbeiten.de); strengthen + auf Typ-Intersections verlinken",
+      "notes": "Harvest-Familie extrem reich (mathe bis 10/20, deutsch, pdf) — Level-Hub als Verteiler zu den Klasse-1-Intersections."
+    },
+    "grade-2": {
+      "primaryQuery": "arbeitsblätter kostenlos 2 klasse",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter 2. Klasse – kostenlos zum Ausdrucken",
+      "h1": "2. Klasse: Arbeitsblätter für Mathe, Deutsch und Rätsel",
+      "metaDescription": "Arbeitsblätter für die 2. Klasse: Kreuzworträtsel, Uhrzeit, Geometrie und Rechnen bis 100 – jedes Blatt mit Lösung, gratis als PDF oder online.",
+      "winnability": "HARD head; strengthen als Verteilerseite (nur ~214 Decks — dünnster Kern-Level)",
+      "notes": "Klasse-2-Deck-Bestand ist der Engpass (Demand-Familien uhrzeit/hundertertafel/geometrie zeigen Klasse-2-Übergewicht)."
+    },
+    "grade-3": {
+      "primaryQuery": "arbeitsblätter zum ausdrucken 3 klasse",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter 3. Klasse – kostenlos zum Ausdrucken",
+      "h1": "3. Klasse: Arbeitsblätter zum Üben und Knobeln",
+      "metaDescription": "Arbeitsblätter für die 3. Klasse: Uhrzeit auf die Minute, erste Brüche, Einmaleins und Geometrie – kostenlos als PDF ausdrucken, Lösungen inklusive.",
+      "winnability": "LOW priority — 134 Decks, K-3-Rand; Head hart. Nur Basispflege",
+      "notes": "Kein Ausbau vor Klasse-1/2-Sättigung."
+    },
+    "animals": {
+      "primaryQuery": "tiere arbeitsblätter grundschule",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Tiere – kostenlos zum Ausdrucken",
+      "h1": "Tiere: Arbeitsblätter rund um die Tierwelt",
+      "metaDescription": "122 Tier-Arbeitsblätter: Tiere zählen, zuordnen, Wörter rätseln – für Kindergarten bis 2. Klasse, jedes Blatt kostenlos als PDF oder online spielbar.",
+      "winnability": "MID — SERP mischt Sachunterricht (grundschule-arbeitsblaetter) und Biologie; Kindergarten/Vorschul-Angle offen",
+      "notes": "Größtes Theme; SERP 2026-07-06: kein Owner für den Übungs-Intent (Sachkunde dominiert)."
+    },
+    "fruits": {
+      "primaryQuery": "arbeitsblätter obst und gemüse",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Obst und Früchte – kostenlos (PDF)",
+      "h1": "Obst und Früchte: Arbeitsblätter zum Ausdrucken",
+      "metaDescription": "Äpfel zählen, Früchte zuordnen, Obstwörter rätseln: 116 Arbeitsblätter rund um Obst für Kindergarten und Vorschule – gratis als PDF ausdrucken.",
+      "winnability": "MID — Demand-Wort ist 'Obst' (nicht 'Früchte'); 'obst gemüse arbeitsblätter kindergarten' verbatim",
+      "notes": "Title führt Obst als Demand-Wort; Taxonomie-Name 'Früchte' bleibt im H1-Zusatz."
+    },
+    "vehicles": {
+      "primaryQuery": "arbeitsblätter fahrzeuge",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Fahrzeuge – kostenlos (PDF)",
+      "h1": "Fahrzeuge: Arbeitsblätter von Auto bis Bagger",
+      "metaDescription": "Autos, Bagger, Feuerwehr: 110 Fahrzeug-Arbeitsblätter zum Zählen, Zuordnen und Rätseln – Lieblingsthema vieler Kinder, kostenlos als PDF drucken.",
+      "winnability": "MID niche — Echo-Evidenz, dünne SERP",
+      "notes": "Beliebtes Jungen-Thema; über Deck-Landings gut monetarisierbar (Traffic-Sinn: Einstieg)."
+    },
+    "shapes": {
+      "primaryQuery": "formen arbeitsblätter vorschule",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Formen – Vorschule & Kindergarten",
+      "h1": "Formen: Kreis, Dreieck, Quadrat entdecken",
+      "metaDescription": "Kreis, Dreieck, Quadrat: 98 Formen-Arbeitsblätter zum Erkennen, Zuordnen und Sortieren für Vorschule und Kindergarten – kostenlos als PDF drucken.",
+      "winnability": "WINNABLE mid — 'formen arbeitsblätter vorschule/kindergarten' verbatim; SERP moderat",
+      "notes": "Brücke zu geometry (Klasse 1+) im Copy legen."
+    },
+    "christmas": {
+      "primaryQuery": "weihnachten arbeitsblätter pdf",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Weihnachten – kostenlos (PDF)",
+      "h1": "Weihnachten: Arbeitsblätter für den Advent",
+      "metaDescription": "55 Weihnachts-Arbeitsblätter: Rätsel, Zählen und Zuordnen mit Weihnachtsmotiven für Kindergarten und Grundschule – gratis als PDF für den Advent.",
+      "winnability": "MID — saisonal stark ('weihnachten arbeitsblätter pdf mathe/grundschule' verbatim); vor November pushen",
+      "notes": "Seasonal-Hub-Programm (2026-07-06) verlinkt hierher — Konsistenz wahren."
+    },
+    "easter": {
+      "primaryQuery": "ostern arbeitsblätter grundschule",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Ostern – kostenlos zum Ausdrucken",
+      "h1": "Ostern: Arbeitsblätter für die Osterzeit",
+      "metaDescription": "Ostereier zählen, Osterwörter rätseln: 58 Oster-Arbeitsblätter für Kindergarten, Vorschule und 1. Klasse – kostenlos ausdrucken für die Osterzeit.",
+      "winnability": "MID seasonal — Familie reich (grundschule/kindergarten/1. klasse/vorschule verbatim)",
+      "notes": "Saisonfenster Februar-April."
+    },
+    "winter": {
+      "primaryQuery": "winter arbeitsblätter kostenlos",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Winter – kostenlos zum Ausdrucken",
+      "h1": "Winter: Arbeitsblätter für die kalte Jahreszeit",
+      "metaDescription": "Schneemänner zählen, Winterwörter suchen: 54 Winter-Arbeitsblätter für Kindergarten und Grundschule – kostenlos als PDF für die Winterzeit drucken.",
+      "winnability": "MID seasonal — 'winter arbeitsblätter kostenlos/kindergarten/1 klasse' verbatim",
+      "notes": "Saisonfenster November-Februar."
+    },
+    "spring": {
+      "primaryQuery": "frühling arbeitsblätter kindergarten",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Frühling – Kindergarten & Schule",
+      "h1": "Frühling: Arbeitsblätter zum Frühlingserwachen",
+      "metaDescription": "Blumen, Käfer, Frühlingswörter: 59 Frühlings-Arbeitsblätter zum Zählen, Rätseln und Zuordnen für Kita und 1. Klasse – gratis als PDF ausdrucken.",
+      "winnability": "MID seasonal — Familie reich (kindergarten/grundschule/1. klasse/daz verbatim)",
+      "notes": "Saisonfenster März-Mai."
+    },
+    "summer": {
+      "primaryQuery": "sommer arbeitsblätter grundschule",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Sommer – kostenlos zum Ausdrucken",
+      "h1": "Sommer: Arbeitsblätter für die Sommerzeit",
+      "metaDescription": "Eis, Strand und Sonnenschein: 58 Sommer-Arbeitsblätter zum Zählen, Suchen und Rätseln für Kindergarten und Grundschule – kostenlos als PDF drucken.",
+      "winnability": "MID seasonal — 'sommer arbeitsblätter grundschule/kindergarten/daz' verbatim",
+      "notes": "Saisonfenster Mai-August."
+    },
+    "colors": {
+      "primaryQuery": "farben arbeitsblätter kindergarten",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Farben – Kindergarten & Vorschule",
+      "h1": "Farben: Arbeitsblätter zum Farbenlernen",
+      "metaDescription": "Rot, Gelb, Blau erkennen und zuordnen: 48 Farben-Arbeitsblätter für Kindergarten und Vorschule – Farbwörter spielerisch lernen, gratis als PDF.",
+      "winnability": "MID — 'arbeitsblätter farben lernen/und formen' verbatim; moderate SERP",
+      "notes": "Auch DaZ-Publikum ('farben französisch/englisch' zeigt Sprachlern-Intent im Umfeld)."
+    },
+    "body_parts": {
+      "primaryQuery": "körperteile arbeitsblätter",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Körperteile – kostenlos (PDF)",
+      "h1": "Körperteile: Arbeitsblätter zu meinem Körper",
+      "metaDescription": "Kopf, Hand, Fuß benennen und zuordnen: 58 Körperteile-Arbeitsblätter für Kindergarten und DaZ – den eigenen Körper entdecken, gratis ausdrucken.",
+      "winnability": "MID — 'körperteile daz arbeitsblätter' + 'mein körper kindergarten' verbatim: DaZ+Kita-Doppelintent",
+      "notes": "DaZ-Moat-Thema."
+    },
+    "clothing": {
+      "primaryQuery": "kleidung arbeitsblätter pdf",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Kleidung – kostenlos zum Ausdrucken",
+      "h1": "Kleidung: Arbeitsblätter zum Kleidungs-Wortschatz",
+      "metaDescription": "Von der Mütze bis zum Schuh: 58 Kleidungs-Arbeitsblätter zum Benennen, Zuordnen und Rätseln – stark für DaZ und Vorschule, kostenlos als PDF.",
+      "winnability": "MID — 'arbeitsblätter kleidung daz / daf a1' verbatim: klarer DaZ-Longtail",
+      "notes": "DaZ-Moat-Thema."
+    },
+    "occupations": {
+      "primaryQuery": "berufe arbeitsblätter pdf",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Berufe – kostenlos (PDF)",
+      "h1": "Berufe: Arbeitsblätter von Arzt bis Bäcker",
+      "metaDescription": "Wer macht was? 58 Berufe-Arbeitsblätter zum Zuordnen und Rätseln für Kindergarten und Grundschule – Berufe-Wortschatz aufbauen, gratis als PDF.",
+      "winnability": "MID — 'berufe arbeitsblätter pdf/daz/volksschule' verbatim; DaZ-Anteil hoch",
+      "notes": "DaZ-Moat-Thema."
+    },
+    "farm_animals": {
+      "primaryQuery": "bauernhoftiere arbeitsblätter grundschule",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Bauernhoftiere – kostenlos (PDF)",
+      "h1": "Bauernhoftiere: Arbeitsblätter vom Bauernhof",
+      "metaDescription": "Kuh, Schwein und Huhn: 56 Bauernhof-Arbeitsblätter zum Zählen, Zuordnen und Wörterraten für Kita und Grundschule – kostenlos als PDF drucken.",
+      "winnability": "MID niche — verbatim belegt, dünne SERP",
+      "notes": "Klassisches Kita-Projektthema."
+    },
+    "forest_creatures": {
+      "primaryQuery": "waldtiere arbeitsblätter",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Waldtiere – kostenlos (PDF)",
+      "h1": "Waldtiere: Arbeitsblätter aus dem Wald",
+      "metaDescription": "Fuchs, Igel, Eichhörnchen: 57 Waldtier-Arbeitsblätter zum Suchen, Zählen und Zuordnen – fürs Waldprojekt in Kita und Schule, gratis ausdrucken.",
+      "winnability": "MID niche — 'waldtiere grundschule arbeitsblätter' verbatim",
+      "notes": "Projektthema Herbst."
+    },
+    "zoo_animals": {
+      "primaryQuery": "arbeitsblätter zootiere",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Zootiere – kostenlos (PDF)",
+      "h1": "Zootiere: Arbeitsblätter für den Zoobesuch",
+      "metaDescription": "Löwe, Elefant und Pinguin: 57 Zootier-Arbeitsblätter zum Zählen, Rätseln und Zuordnen – ideal vor oder nach dem Zoobesuch, kostenlos als PDF.",
+      "winnability": "MID niche — verbatim ('arbeitsblätter zootiere grundschule')",
+      "notes": "grundschule-arbeitsblaetter.de hat eine Zootiere-Seite — differenzieren über Übungsvielfalt."
+    },
+    "pets": {
+      "primaryQuery": "haustiere arbeitsblätter grundschule",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Haustiere – kostenlos (PDF)",
+      "h1": "Haustiere: Arbeitsblätter von Hund bis Hamster",
+      "metaDescription": "Hund, Katze, Meerschweinchen: 57 Haustier-Arbeitsblätter zum Benennen, Zählen und Rätseln für Kita und Grundschule – gratis als PDF ausdrucken.",
+      "winnability": "MID niche — verbatim; Sachkunde-SERP, Übungs-Intent offen",
+      "notes": "—"
+    },
+    "birds": {
+      "primaryQuery": "vögel arbeitsblätter",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Vögel – kostenlos zum Ausdrucken",
+      "h1": "Vögel: Arbeitsblätter rund um die Vogelwelt",
+      "metaDescription": "Amsel, Eule, Papagei: Vogel-Arbeitsblätter zum Zählen, Zuordnen und Wörterraten für Kindergarten und Grundschule – kostenlos als PDF drucken.",
+      "winnability": "MID — Head Biologie-verwässert (Kl. 5/6); 'vögel im winter' ist der echte Grundschul-Angle",
+      "notes": "birds_2-Duplikat beachten (siehe dort)."
+    },
+    "birds_2": {
+      "primaryQuery": "arbeitsblätter vögel im winter",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Vögel – weitere Motive (Teil 2)",
+      "h1": "Noch mehr Vögel: weitere Vogel-Arbeitsblätter",
+      "metaDescription": "Der zweite Schwung Vogelmotive: 56 weitere Vogel-Arbeitsblätter zum Suchen, Zählen und Zuordnen für Kita und Schule – kostenlos als PDF drucken.",
+      "winnability": "SKIP — Duplikat-Risiko zu birds; nicht separat pushen, intern in birds-Cluster einhängen",
+      "notes": "Kandidat für Konsolidierung (ein Vögel-Hub statt zwei Theme-Keys)."
+    },
+    "vegetables": {
+      "primaryQuery": "gemüse arbeitsblätter",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Gemüse – kostenlos zum Ausdrucken",
+      "h1": "Gemüse: Arbeitsblätter von Möhre bis Paprika",
+      "metaDescription": "Möhren zählen, Gemüse sortieren, Wörter lernen: 58 Gemüse-Arbeitsblätter für Kita, Vorschule und DaZ – gesunde Themen, kostenlos als PDF.",
+      "winnability": "MID — 'obst und gemüse arbeitsblätter kostenlos/1 klasse' verbatim; mit fruits gemeinsamen Cluster bilden",
+      "notes": "Cross-Link zu fruits (Obst) — Suchende trennen Obst/Gemüse selten."
+    },
+    "weather": {
+      "primaryQuery": "wetter arbeitsblätter grundschule",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Wetter – kostenlos (PDF)",
+      "h1": "Wetter: Arbeitsblätter von Sonne bis Schnee",
+      "metaDescription": "Sonne, Wolke, Regenbogen: 56 Wetter-Arbeitsblätter zum Zuordnen, Zählen und Rätseln für Kindergarten und 1. Klasse – kostenlos als PDF drucken.",
+      "winnability": "MID — verbatim + '1 klasse/vorschule'-Varianten; Sachkunde-SERP (Kl. 3) meiden",
+      "notes": "—"
+    },
+    "space": {
+      "primaryQuery": "weltraum arbeitsblätter",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Weltraum – kostenlos (PDF)",
+      "h1": "Weltraum: Arbeitsblätter zu Raketen und Planeten",
+      "metaDescription": "Raketen, Sterne, Astronauten: 56 Weltraum-Arbeitsblätter zum Zählen, Suchen und Rätseln – Faszination Weltall für Kita und Schule, gratis PDF.",
+      "winnability": "MID niche — verbatim ('arbeitsblätter weltraum grundschule/kindergarten')",
+      "notes": "Beliebtes Projektthema."
+    },
+    "dinosaurs": {
+      "primaryQuery": "dinosaurier arbeitsblätter kostenlos",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Dinosaurier – kostenlos (PDF)",
+      "h1": "Dinosaurier: Arbeitsblätter für kleine Dino-Fans",
+      "metaDescription": "T-Rex zählen, Dinos zuordnen, Dino-Wörter raten: 47 Dinosaurier-Arbeitsblätter für Kindergarten und Grundschule – für Dino-Fans, gratis als PDF.",
+      "winnability": "MID — verbatim + kindergarten/vorschule-Varianten; Hochinteresse-Thema",
+      "notes": "—"
+    },
+    "emotions": {
+      "primaryQuery": "emotionen gefühle arbeitsblätter",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Emotionen und Gefühle (PDF)",
+      "h1": "Gefühle: Arbeitsblätter zu Emotionen",
+      "metaDescription": "Froh, traurig, wütend erkennen und benennen: 52 Gefühle-Arbeitsblätter für Kita und Grundschule – emotionale Entwicklung fördern, gratis drucken.",
+      "winnability": "MID niche — verbatim; SEL-Publikum (Erzieher, Schulsozialarbeit)",
+      "notes": "—"
+    },
+    "flowers": {
+      "primaryQuery": "blumen arbeitsblätter",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Blumen – kostenlos (PDF)",
+      "h1": "Blumen: Arbeitsblätter rund um Blüten und Garten",
+      "metaDescription": "Tulpen zählen, Blüten zuordnen, Blumenwörter suchen: 55 Blumen-Arbeitsblätter für Kita und Grundschule – Frühlingsthema, kostenlos als PDF.",
+      "winnability": "MID niche — verbatim ('blumen grundschule arbeitsblätter')",
+      "notes": "Cross-Link spring."
+    },
+    "furniture": {
+      "primaryQuery": "möbel daz arbeitsblätter",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Möbel – Wortschatz & DaZ (PDF)",
+      "h1": "Möbel: Wortschatz-Arbeitsblätter für Zuhause",
+      "metaDescription": "Tisch, Stuhl, Schrank benennen und zuordnen: 55 Möbel-Arbeitsblätter für Wortschatzarbeit und DaZ in Kita und Grundschule – gratis ausdrucken.",
+      "winnability": "MID niche — 'möbel daz arbeitsblätter' verbatim: DaZ ist der Intent",
+      "notes": "DaZ-Moat-Thema."
+    },
+    "music": {
+      "primaryQuery": "musik arbeitsblätter grundschule",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Musik – Instrumente & Wortschatz",
+      "h1": "Musik: Arbeitsblätter zu Instrumenten",
+      "metaDescription": "Trommel, Geige, Trompete erkennen und zuordnen: 56 Instrumente-Arbeitsblätter für Kita und Grundschule – Musikwortschatz aufbauen, gratis PDF.",
+      "winnability": "LOW — 'musik arbeitsblätter' ist Notenlehre-Intent (Kl. 5+); nur Instrumente-Longtail",
+      "notes": "Ehrlich: wir haben Instrumente-Bildmaterial, keine Notenlehre."
+    },
+    "tree": {
+      "primaryQuery": "bäume arbeitsblätter",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Bäume – kostenlos (PDF)",
+      "h1": "Bäume: Arbeitsblätter rund um den Baum",
+      "metaDescription": "Bäume zählen, Blätter zuordnen, Baumwörter raten: 52 Baum-Arbeitsblätter für Kindergarten und Grundschule – Naturthema, kostenlos als PDF.",
+      "winnability": "LOW-MID — Head ist Sachkunde Kl. 2-4 ('bäume bestimmen'); Kita-Longtail dünn",
+      "notes": "—"
+    },
+    "breakfast": {
+      "primaryQuery": "frühstück arbeitsblätter",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Frühstück – Essen & Wortschatz",
+      "h1": "Frühstück: Arbeitsblätter rund ums Essen",
+      "metaDescription": "Brot, Müsli, Marmelade: 55 Frühstücks-Arbeitsblätter zum Benennen und Zuordnen – Essens-Wortschatz für Kita und DaZ, kostenlos ausdrucken.",
+      "winnability": "LOW-MID niche — Echo + 'gesundes frühstück arbeitsblätter'",
+      "notes": "DaZ-tauglich."
+    },
+    "classroom": {
+      "primaryQuery": "klassenzimmer arbeitsblätter",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Klassenzimmer – Schulwortschatz",
+      "h1": "Klassenzimmer: Arbeitsblätter zum Schulwortschatz",
+      "metaDescription": "Tafel, Stift und Ranzen benennen: 58 Arbeitsblätter zum Schul-Wortschatz für Schulanfänger und DaZ – rund ums Klassenzimmer, gratis als PDF.",
+      "winnability": "LOW — Head vom Buchtitel 'Das fliegende Klassenzimmer' verwässert; DaZ-Longtail",
+      "notes": "Schulstart-Saison (August/September) nutzen."
+    },
+    "at_the_supermarket": {
+      "primaryQuery": "im supermarkt arbeitsblätter",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Einkaufen im Supermarkt (PDF)",
+      "h1": "Im Supermarkt: Arbeitsblätter rund ums Einkaufen",
+      "metaDescription": "Vom Einkaufskorb bis zur Kasse: 58 Supermarkt-Arbeitsblätter zum Benennen, Zählen und Zuordnen – Alltagswortschatz für Kita und DaZ, gratis PDF.",
+      "winnability": "LOW-MID niche — Echo-Evidenz; DaZ/Alltags-Wortschatz-Angle",
+      "notes": "—"
+    },
+    "tools": {
+      "primaryQuery": "arbeitsblätter werkzeuge mit namen und bildern pdf",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Werkzeuge – mit Bildern (PDF)",
+      "h1": "Werkzeuge: Arbeitsblätter mit Namen und Bildern",
+      "metaDescription": "Hammer, Säge, Schraubenzieher: 55 Werkzeug-Arbeitsblätter mit Bildern und Namen zum Zuordnen und Rätseln – für Kita und Werkraum, gratis PDF.",
+      "winnability": "WINNABLE niche — die verbatim Suggestion beschreibt exakt unser Format",
+      "notes": "—"
+    },
+    "thanksgivinng": {
+      "primaryQuery": "erntedankfest arbeitsblätter",
+      "evidence": "harvest",
+      "title": "Arbeitsblätter Erntedankfest – kostenlos (PDF)",
+      "h1": "Erntedank: Arbeitsblätter zum Erntedankfest",
+      "metaDescription": "Kürbis, Korn und Erntekorb: 55 Erntedank-Arbeitsblätter zum Zählen, Suchen und Zuordnen für Kita und Grundschule – kostenlos als PDF drucken.",
+      "winnability": "WINNABLE niche — verbatim ('arbeitsblätter erntedankfest grundschule'), sehr dünne SERP; Saisonfenster Sept./Okt.",
+      "notes": "Memory-Backlog 'de Erntedankfest cheap add' — dieser Key ist der Anker."
+    }
+  },
+  "intersections": [
+    {
+      "key": "addition__kindergarten",
+      "type": "addition",
+      "level": "kindergarten",
+      "query": "addition kindergarten",
+      "decks": 192,
+      "title": "Addition im Kindergarten – erste Plusaufgaben",
+      "h1": "Erste Plusaufgaben für Kindergartenkinder",
+      "metaDescription": "Behutsam plus rechnen lernen: 192 Additions-Arbeitsblätter mit Bildern für Kindergartenkinder – kleine Schritte bis 10, kostenlos als PDF oder online."
+    },
+    {
+      "key": "grade-1__math-puzzle",
+      "type": "math-puzzle",
+      "level": "grade-1",
+      "query": "mathe-rätsel klasse 1",
+      "decks": 146,
+      "title": "Mathe-Rätsel 1. Klasse – kostenlos (PDF)",
+      "h1": "Mathe-Rätsel für die 1. Klasse",
+      "metaDescription": "Knobeln statt Rechnen-Drill: 146 Mathe-Rätsel für die 1. Klasse mit Symbol-Gleichungen und Lösungen – Zahlenverständnis spielerisch, gratis als PDF."
+    },
+    {
+      "key": "grade-1__word-scramble",
+      "type": "word-scramble",
+      "level": "grade-1",
+      "query": "buchstabensalat klasse 1",
+      "decks": 97,
+      "title": "Buchstabensalat 1. Klasse – Arbeitsblätter",
+      "h1": "Buchstabensalat für die 1. Klasse",
+      "metaDescription": "Wörter entwirren für Leseanfänger: 97 Buchstabensalat-Blätter mit Bildhilfe für die 1. Klasse – erste Wörter sicher lesen, kostenlos als PDF drucken."
+    },
+    {
+      "key": "grade-1__wordsearch",
+      "type": "wordsearch",
+      "level": "grade-1",
+      "query": "wortsuche 1 klasse",
+      "decks": 49,
+      "title": "Suchsel 1. Klasse – Wortsuche zum Ausdrucken",
+      "h1": "Suchsel und Wortsuche für die 1. Klasse",
+      "metaDescription": "Wortgitter für Leseanfänger: 49 Suchsel mit kurzen, lesbaren Wörtern für die 1. Klasse – Buchstaben sicher erkennen, gratis als PDF oder online."
+    },
+    {
+      "key": "crossword__grade-2",
+      "type": "crossword",
+      "level": "grade-2",
+      "query": "kreuzworträtsel 2. klasse zum ausdrucken",
+      "decks": 47,
+      "title": "Kreuzworträtsel 2. Klasse zum Ausdrucken",
+      "h1": "Kreuzworträtsel für die 2. Klasse",
+      "metaDescription": "Bilder-Kreuzworträtsel für geübte Leser: 47 Rätsel für die 2. Klasse – Motiv erkennen, Wort eintragen, Rechtschreibung festigen. Gratis PDF mit Lösung."
+    },
+    {
+      "key": "grade-1__treasure-hunt",
+      "type": "treasure-hunt",
+      "level": "grade-1",
+      "query": "schatzsuche 1 klasse kostenlos",
+      "decks": 97,
+      "title": "Schatzsuche 1. Klasse – Rätsel kostenlos",
+      "h1": "Schatzsuche-Rätsel für die 1. Klasse",
+      "metaDescription": "Feld für Feld zum Schatz: 97 Schatzsuche-Rätselblätter für die 1. Klasse – Wege lesen und Orientierung üben, kostenlos drucken oder online spielen."
+    },
+    {
+      "key": "grade-1__telling-time",
+      "type": "telling-time",
+      "level": "grade-1",
+      "query": "uhrzeit lernen klasse 1",
+      "decks": 21,
+      "title": "Uhrzeit lernen 1. Klasse – Arbeitsblätter",
+      "h1": "Uhrzeit lernen in der 1. Klasse",
+      "metaDescription": "Volle und halbe Stunden ablesen: 21 Uhrzeit-Arbeitsblätter mit Zeigeruhren für die 1. Klasse – erster Schritt zum Uhrlesen, kostenlos als PDF."
+    },
+    {
+      "key": "grade-2__telling-time",
+      "type": "telling-time",
+      "level": "grade-2",
+      "query": "uhrzeit lernen 2 klasse arbeitsblätter kostenlos",
+      "decks": 20,
+      "title": "Uhrzeit lernen 2. Klasse – Arbeitsblätter",
+      "h1": "Uhrzeit lernen in der 2. Klasse",
+      "metaDescription": "Viertelstunden und Minuten sicher ablesen: 20 Uhrzeit-Arbeitsblätter für die 2. Klasse mit Zeigeruhren und Lösungen – kostenlos ausdrucken und üben."
+    },
+    {
+      "key": "geometry__grade-2",
+      "type": "geometry",
+      "level": "grade-2",
+      "query": "geometrie klasse 2 arbeitsblätter",
+      "decks": 17,
+      "title": "Geometrie 2. Klasse – Arbeitsblätter kostenlos",
+      "h1": "Geometrie in der 2. Klasse",
+      "metaDescription": "Flächen und Körper erkennen und unterscheiden: 17 Geometrie-Arbeitsblätter für die 2. Klasse – Formenwissen festigen, gratis als PDF mit Lösungen."
+    },
+    {
+      "key": "grade-1__measurement",
+      "type": "measurement",
+      "level": "grade-1",
+      "query": "messen klasse 1",
+      "decks": 12,
+      "title": "Messen 1. Klasse – Längen und Lineal (PDF)",
+      "h1": "Messen in der 1. Klasse: Längen vergleichen",
+      "metaDescription": "Länger, kürzer, gleich lang: 12 Arbeitsblätter zum Messen und Vergleichen von Längen in der 1. Klasse – erste Messerfahrungen, kostenlos als PDF."
+    },
+    {
+      "key": "grade-1__graphing-data",
+      "type": "graphing-data",
+      "level": "grade-1",
+      "query": "daten und diagramme klasse 1",
+      "decks": 12,
+      "title": "Daten und Diagramme 1. Klasse (PDF)",
+      "h1": "Daten und Diagramme in der 1. Klasse",
+      "metaDescription": "Erste Diagramme lesen und füllen: 12 Arbeitsblätter zu Daten und Häufigkeiten für die 1. Klasse – zählen, eintragen, ablesen. Gratis PDF mit Lösung."
+    },
+    {
+      "key": "arrays-multiplication__grade-2",
+      "type": "arrays-multiplication",
+      "level": "grade-2",
+      "query": "übungsblätter einmaleins 2 klasse",
+      "decks": 14,
+      "title": "Einmaleins 2. Klasse – Übungsblätter (PDF)",
+      "h1": "Erstes Einmaleins in der 2. Klasse",
+      "metaDescription": "Malaufgaben verstehen statt auswendig lernen: 14 Einmaleins-Übungsblätter mit Punktefeldern für die 2. Klasse – Einstieg in die Multiplikation, gratis."
+    },
+    {
+      "key": "grade-1__number-charts",
+      "type": "number-charts",
+      "level": "grade-1",
+      "query": "hundertertafel klasse 1",
+      "decks": 13,
+      "title": "Hundertertafel 1. Klasse – Übungen (PDF)",
+      "h1": "Hundertertafel-Übungen ab Klasse 1",
+      "metaDescription": "Sich im Zahlenfeld orientieren: 13 Hundertertafel-Arbeitsblätter ab Klasse 1 – Zahlen finden und Ausschnitte ergänzen, kostenlos als PDF drucken."
+    },
+    {
+      "key": "kindergarten__prepositions",
+      "type": "prepositions",
+      "level": "kindergarten",
+      "query": "präpositionen kindergarten arbeitsblatt pdf",
+      "decks": 97,
+      "title": "Präpositionen im Kindergarten – Arbeitsblätter",
+      "h1": "Präpositionen für Kindergartenkinder",
+      "metaDescription": "In, auf, unter, neben mit Bildern begreifen: 97 Präpositionen-Arbeitsblätter für den Kindergarten – Sprachförderung und DaZ, kostenlos als PDF drucken."
+    },
+    {
+      "key": "kindergarten__odd-one-out",
+      "type": "odd-one-out",
+      "level": "kindergarten",
+      "query": "was passt nicht in die reihe kindergarten",
+      "decks": 92,
+      "title": "Was passt nicht? Übungen für den Kindergarten",
+      "h1": "Was passt nicht in die Reihe? Für Kindergartenkinder",
+      "metaDescription": "Eins von vier Bildern fällt aus der Reihe: 92 Logik-Arbeitsblätter für Kindergartenkinder – Oberbegriffe entdecken, kostenlos drucken oder online."
+    },
+    {
+      "key": "kindergarten__visual-discrimination",
+      "type": "visual-discrimination",
+      "level": "kindergarten",
+      "query": "visuelle wahrnehmung arbeitsblätter kindergarten",
+      "decks": 15,
+      "title": "Visuelle Wahrnehmung im Kindergarten (PDF)",
+      "h1": "Visuelle Wahrnehmung im Kindergarten fördern",
+      "metaDescription": "Gleiches finden, Unterschiede sehen: 15 Wahrnehmungs-Arbeitsblätter für den Kindergarten – gezielte Förderung vor dem Schulstart, gratis als PDF."
+    },
+    {
+      "key": "kindergarten__pattern-train",
+      "type": "pattern-train",
+      "level": "kindergarten",
+      "query": "muster fortsetzen kindergarten",
+      "decks": 245,
+      "title": "Muster fortsetzen im Kindergarten – Übungen",
+      "h1": "Muster fortsetzen für Kindergartenkinder",
+      "metaDescription": "Welcher Waggon kommt jetzt? 245 Musterzug-Arbeitsblätter zum Muster-Fortsetzen im Kindergarten – Reihen erkennen, gratis als PDF oder online spielen."
+    },
+    {
+      "key": "grade-1__pattern-worksheet",
+      "type": "pattern-worksheet",
+      "level": "grade-1",
+      "query": "muster fortsetzen klasse 1",
+      "decks": 47,
+      "title": "Muster fortsetzen 1. Klasse – Arbeitsblätter",
+      "h1": "Muster fortsetzen in der 1. Klasse",
+      "metaDescription": "Geometrische Reihen weiterführen: 47 Muster-Arbeitsblätter für die 1. Klasse – Strukturen erkennen und fortsetzen, kostenlos als PDF mit Lösungen."
+    },
+    {
+      "key": "more-less__preschool",
+      "type": "more-less",
+      "level": "preschool",
+      "query": "mehr oder weniger vorschule",
+      "decks": 146,
+      "title": "Mehr oder weniger – Arbeitsblätter Vorschule",
+      "h1": "Mehr oder weniger? Übungen für die Vorschule",
+      "metaDescription": "Mengen auf einen Blick vergleichen: 146 Mehr-oder-weniger-Arbeitsblätter für die Vorschule – sicheres Mengenverständnis vor Klasse 1, gratis PDF."
+    },
+    {
+      "key": "comparing-sizes__kindergarten",
+      "type": "comparing-sizes",
+      "level": "kindergarten",
+      "query": "größen vergleichen kindergarten",
+      "decks": 15,
+      "title": "Größen vergleichen im Kindergarten – Übungen",
+      "h1": "Größen vergleichen für Kindergartenkinder",
+      "metaDescription": "Vom Kleinsten zum Größten ordnen: 15 Größenvergleich-Arbeitsblätter für den Kindergarten – erste Messvorstellungen anbahnen, kostenlos drucken."
+    },
+    {
+      "key": "bingo__kindergarten",
+      "type": "bingo",
+      "level": "kindergarten",
+      "query": "bingo kindergarten",
+      "decks": 74,
+      "title": "Bild-Bingo im Kindergarten – Vorlagen (PDF)",
+      "h1": "Bingo-Vorlagen für den Kindergarten",
+      "metaDescription": "Bingo ganz ohne Zahlen: 74 Bild-Bingo-Vorlagen für den Kindergarten – Karten ausdrucken, Begriffe aufrufen, gemeinsam spielen. Kostenlos als PDF.",
+      "notes": "Intent gemischt (Kennenlern-/Ferien-Bingo) — Copy auf Gruppenspiel-Vorlagen fokussieren."
+    },
+    {
+      "key": "grade-1__picture-arithmetic",
+      "type": "picture-arithmetic",
+      "level": "grade-1",
+      "query": "rechnen mit bildern 1 klasse",
+      "decks": 14,
+      "title": "Rechnen mit Bildern 1. Klasse – kostenlos",
+      "h1": "Rechnen mit Bildern in der 1. Klasse",
+      "metaDescription": "Bildaufgaben statt nackter Zahlen: 14 Arbeitsblätter zum Rechnen mit Bildern für die 1. Klasse – Plus und Minus anschaulich, gratis als PDF drucken.",
+      "notes": "Nur aktivieren, wenn die Typ-Seite NICHT bereits auf dieselbe Query optimiert bleibt — sonst Kanibalisierung (Typ-Seite hält aktuell die Query)."
+    },
+    {
+      "key": "kindergarten__matching",
+      "type": "matching",
+      "level": "kindergarten",
+      "query": "zuordnung kindergarten",
+      "decks": 93,
+      "title": "Zuordnungsspiele im Kindergarten (PDF)",
+      "h1": "Zuordnungsspiele für Kindergartenkinder",
+      "metaDescription": "Paare finden, Passendes verbinden: 93 Zuordnungs-Arbeitsblätter für den Kindergarten – Wortschatz und Konzentration nebenbei, kostenlos als PDF."
+    },
+    {
+      "key": "kindergarten__shadow-match",
+      "type": "shadow-match",
+      "level": "kindergarten",
+      "query": "schatten zuordnen arbeitsblatt kindergarten",
+      "decks": 143,
+      "title": "Schatten zuordnen im Kindergarten – Vorlagen",
+      "h1": "Schattenrätsel für den Kindergarten",
+      "metaDescription": "Bild und Schatten verbinden: 143 Schattenrätsel-Vorlagen für den Kindergarten – visuelle Wahrnehmung stärken, kostenlos drucken oder online lösen."
+    },
+    {
+      "key": "kindergarten__missing-pieces",
+      "type": "missing-pieces",
+      "level": "kindergarten",
+      "query": "was fehlt spiel kindergarten",
+      "decks": 96,
+      "title": "Was fehlt? Suchbilder für den Kindergarten",
+      "h1": "Was fehlt? Suchrätsel für Kindergartenkinder",
+      "metaDescription": "Das fehlende Teil entdecken: 96 Was-fehlt-Rätselblätter für den Kindergarten – genau hinschauen und vergleichen lernen, gratis als PDF drucken."
+    },
+    {
+      "key": "kindergarten__picture-sort",
+      "type": "picture-sort",
+      "level": "kindergarten",
+      "query": "sortieren und ordnen im kindergarten",
+      "decks": 100,
+      "title": "Sortieren und Ordnen im Kindergarten (PDF)",
+      "h1": "Sortieren und Ordnen für Kindergartenkinder",
+      "metaDescription": "Was gehört zusammen, was nicht? 100 Sortier-Arbeitsblätter für den Kindergarten – Bilder nach Kategorien ordnen und begründen, kostenlos drucken."
+    }
+  ]
+}

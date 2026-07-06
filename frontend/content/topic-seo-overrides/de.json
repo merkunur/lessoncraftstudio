@@ -1,0 +1,466 @@
+{
+  "$comment": "Demand-keyed SEO overrides authored from docs/SEO/demand-map-de.md (+ demand-terms-de.json). Validated by scripts/seo/validate-topic-overrides.js.",
+  "singleAxis": {
+    "addition": {
+      "title": "Addition – Arbeitsblätter kostenlos (PDF & online)",
+      "h1": "Addition: Plusaufgaben zum Ausdrucken und online Üben",
+      "metaDescription": "Über 190 Additions-Arbeitsblätter mit bunten Bildern: erste Plusaufgaben für Schulanfänger, jedes Blatt mit Lösungsseite – als PDF drucken oder online lösen."
+    },
+    "subtraction": {
+      "title": "Subtraktion – Arbeitsblätter kostenlos (PDF)",
+      "h1": "Subtraktion: Minusaufgaben mit Bildern zum Ausdrucken",
+      "metaDescription": "Fast 200 Subtraktions-Arbeitsblätter für den Rechenstart: Minusaufgaben mit anschaulichen Bildern, Lösungsblatt inklusive – gratis als PDF oder direkt online."
+    },
+    "code-addition": {
+      "title": "Code-Addition: Rechnen mit Symbolen (PDF)",
+      "h1": "Code-Addition: Symbole entschlüsseln und rechnen",
+      "metaDescription": "Knack den Zahlencode: Bei der Code-Addition stehen Bilder für Zahlen. 140+ knobelige Rechenblätter mit Lösungen – kostenlos ausdrucken oder online spielen."
+    },
+    "more-less": {
+      "title": "Mehr oder weniger? Mengen vergleichen (PDF)",
+      "h1": "Mehr oder weniger? Mengen erkennen und vergleichen",
+      "metaDescription": "Wo sind mehr Äpfel, wo weniger? 140+ Arbeitsblätter zum Mengenvergleich für Vorschulkinder – spielerisch zählen lernen, kostenlos als PDF oder online."
+    },
+    "math-puzzle": {
+      "title": "Mathe-Rätsel für Kinder – mit Lösung (PDF)",
+      "h1": "Mathe-Rätsel für Kinder: Knobeln mit Zahlen",
+      "metaDescription": "Mathe-Rätsel, die Kinder wirklich knacken wollen: 145 Knobelblätter mit Symbol-Gleichungen, jede Aufgabe mit Lösung – gratis ausdrucken oder am Bildschirm rätseln."
+    },
+    "math-worksheet": {
+      "title": "Gemischte Mathe-Aufgaben – Arbeitsblätter",
+      "h1": "Gemischte Mathe-Aufgaben zum Ausdrucken",
+      "metaDescription": "Bunt gemischte Rechenblätter: Plus- und Minusaufgaben im Wechsel, ideal zum Wiederholen. Rund 100 Arbeitsblätter mit Lösungen, kostenlos als PDF."
+    },
+    "big-small": {
+      "title": "Groß oder klein? Größenvergleich-Übungen",
+      "h1": "Groß oder klein? Größen vergleichen für die Vorschule",
+      "metaDescription": "Was ist größer, was ist kleiner? 90+ Vorschul-Arbeitsblätter zum Größenvergleich mit Alltagsmotiven – Blick fürs Vergleichen schulen, kostenlos drucken."
+    },
+    "chart-count": {
+      "title": "Zählen und ins Diagramm eintragen (PDF)",
+      "h1": "Zählen und eintragen: erste Diagramme für Kinder",
+      "metaDescription": "Motive zählen, Säulen füllen: 50 Arbeitsblätter, mit denen Kinder ihre Zählergebnisse ins Diagramm eintragen – Datenverständnis ab Kindergarten, gratis PDF."
+    },
+    "pattern-train": {
+      "title": "Muster fortsetzen mit dem Musterzug (PDF)",
+      "h1": "Musterzug: Muster erkennen und fortsetzen",
+      "metaDescription": "Welcher Waggon kommt als Nächstes? 245 Musterzug-Arbeitsblätter zum Muster-Fortsetzen – logisches Denken für Kindergartenkinder, kostenlos und online spielbar."
+    },
+    "pattern-worksheet": {
+      "title": "Musterarbeitsblätter – Reihen fortsetzen",
+      "h1": "Musterarbeitsblätter: Reihen und Folgen fortsetzen",
+      "metaDescription": "Formen, Farben, Folgen: 47 Musterarbeitsblätter für die 1. Klasse zum Fortsetzen von Reihen – Konzentration und Mathe-Vorläuferfähigkeiten, gratis PDF."
+    },
+    "bingo": {
+      "title": "Bild-Bingo für Kindergartenkinder (PDF)",
+      "h1": "Bild-Bingo: Bingo-Vorlagen für Kindergartenkinder",
+      "metaDescription": "Bingo mit Bildern statt Zahlen: 74 fertige Spielvorlagen für Kindergarten und Vorschule – Karten kostenlos ausdrucken und sofort in der Gruppe spielen."
+    },
+    "grid-match": {
+      "title": "Gitter-Zuordnung – Bilder-Raster-Rätsel",
+      "h1": "Gitter-Zuordnung: Bilder an die richtige Stelle setzen",
+      "metaDescription": "Zeile und Spalte lesen, Bild einsetzen: 49 Raster-Rätsel für Kindergartenkinder – räumliche Orientierung trainieren, kostenlos drucken oder online lösen."
+    },
+    "matching": {
+      "title": "Zuordnung – Arbeitsblätter & Zuordnungsspiele",
+      "h1": "Zuordnungsspiele: Was gehört zusammen?",
+      "metaDescription": "Paare finden und verbinden: 93 Zuordnungs-Arbeitsblätter mit Bildern für Kindergarten und Vorschule – Wortschatz und Logik fördern, gratis als PDF."
+    },
+    "picture-sort": {
+      "title": "Bilder sortieren – Was gehört zusammen?",
+      "h1": "Bilder sortieren: Ordnen nach Kategorien",
+      "metaDescription": "Tiere zu Tieren, Fahrzeuge zu Fahrzeugen: 100 Sortier-Arbeitsblätter, mit denen Kinder Bilder nach Kategorien ordnen – Denken in Gruppen, kostenlos drucken."
+    },
+    "shadow-match": {
+      "title": "Schatten zuordnen – Arbeitsblätter kostenlos",
+      "h1": "Schatten zuordnen: Welcher Schatten gehört zu welchem Bild?",
+      "metaDescription": "143 Schattenrätsel: Kinder verbinden Bilder mit dem passenden Schatten und schulen visuelle Wahrnehmung – für Kindergarten und Vorschule, PDF und online."
+    },
+    "alphabet-train": {
+      "title": "Buchstabenzug – ABC-Arbeitsblätter (PDF)",
+      "h1": "Buchstabenzug: das ABC in der richtigen Reihenfolge",
+      "metaDescription": "Fehlende Buchstaben in den Zug einsetzen: 81 ABC-Arbeitsblätter für Vorschulkinder – Alphabet und Buchstabenfolge lernen, kostenlos ausdrucken oder online."
+    },
+    "prepositions": {
+      "title": "Präpositionen-Arbeitsblätter – kostenlos (PDF)",
+      "h1": "Präpositionen: in, auf, unter, neben – Arbeitsblätter mit Bildern",
+      "metaDescription": "Wo ist der Ball? 97 Bild-Arbeitsblätter zu Präpositionen wie in, auf, unter und neben – ideal für Vorschule, DaZ und Sprachförderung, gratis als PDF."
+    },
+    "word-guess": {
+      "title": "Wort raten – Buchstaben-Rätsel für Kinder",
+      "h1": "Wort raten: Buchstabe für Buchstabe zum Lösungswort",
+      "metaDescription": "Bild ansehen, Wort erraten, Buchstaben eintragen: 97 Rätselblätter für Leseanfänger – Wortschatz und Rechtschreibung spielerisch üben, kostenlos drucken."
+    },
+    "word-scramble": {
+      "title": "Buchstabensalat zum Ausdrucken – kostenlos",
+      "h1": "Buchstabensalat: Wörter entwirren für Kinder",
+      "metaDescription": "Verdrehte Wörter wieder richtig ordnen: 97 Buchstabensalat-Arbeitsblätter mit Bildhilfen für die 1. Klasse – Lesetraining mit Spaß, gratis PDF und online."
+    },
+    "wordsearch": {
+      "title": "Suchsel – Wortgitter kostenlos ausdrucken",
+      "h1": "Suchsel: Wortgitter und Wortsuche für Kinder",
+      "metaDescription": "Wörter im Buchstabengitter finden: 49 Suchsel mit kindgerechten Themenwörtern für die 1. Klasse – jedes Wortgitter gratis als PDF oder online spielbar."
+    },
+    "crossword": {
+      "title": "Kreuzworträtsel für Kinder zum Ausdrucken",
+      "h1": "Bilder-Kreuzworträtsel für Kinder",
+      "metaDescription": "Kreuzworträtsel mit Bildern statt Fragen: Kinder benennen das Motiv und tragen das Wort ein. 47 Rätsel für Leseanfänger – kostenlos als PDF mit Lösung."
+    },
+    "sudoku": {
+      "title": "Bilder-Sudoku für Kinder zum Ausdrucken (PDF)",
+      "h1": "Bilder-Sudoku: Sudoku mit Bildern für Kinder",
+      "metaDescription": "Sudoku ohne Zahlen: In die 4x4-Felder kommen Bilder – perfekt für Kindergarten und Vorschule. 97 Bilder-Sudokus mit Lösung, gratis drucken oder online."
+    },
+    "cryptogram": {
+      "title": "Kryptogramme für die Grundschule – kostenlos",
+      "h1": "Kryptogramme: geheime Botschaften entschlüsseln",
+      "metaDescription": "Symbole knacken, Buchstaben einsetzen, Satz entschlüsseln: 101 Kryptogramm-Rätsel für Kinder ab der 1. Klasse – Logik und Lesen, gratis PDF und online."
+    },
+    "picture-path": {
+      "title": "Bildpfad-Rätsel – Wege finden und zählen",
+      "h1": "Bildpfad: den richtigen Weg durchs Bilderfeld finden",
+      "metaDescription": "Von Feld zu Feld dem Lösungsweg folgen: 88 Bildpfad-Rätsel für Kindergartenkinder – erstes logisches Denken, jedes Blatt gratis als PDF oder online spielbar."
+    },
+    "find-and-count": {
+      "title": "Suchen und zählen – Vorschul-Arbeitsblätter",
+      "h1": "Suchen und zählen: Wimmelbilder zum Abzählen",
+      "metaDescription": "Motive im Bild entdecken und abzählen: 88 Such- und Zählblätter für die Vorschule – Mengenerfassung und Konzentration in einem, kostenlos ausdrucken."
+    },
+    "find-objects": {
+      "title": "Suchbilder: Objekte finden – Arbeitsblätter",
+      "h1": "Suchbilder und Wimmelbilder: Objekte finden",
+      "metaDescription": "Versteckte Dinge im Bild aufspüren: 95 Suchbild-Arbeitsblätter für Kindergarten und Vorschule – genaues Hinsehen trainieren, gratis als PDF oder online."
+    },
+    "treasure-hunt": {
+      "title": "Schatzsuche-Rätsel für Kinder (PDF & online)",
+      "h1": "Schatzsuche: Rätselwege bis zum Schatz",
+      "metaDescription": "Dem Pfad übers Spielfeld bis zum Schatz folgen: 97 Schatzsuche-Rätsel für die 1. Klasse – Orientierung und Logik, kostenlos drucken oder online spielen."
+    },
+    "missing-pieces": {
+      "title": "Was fehlt? Bilderrätsel zum Ausdrucken",
+      "h1": "Was fehlt? Fehlende Teile im Bild finden",
+      "metaDescription": "Welches Teil fehlt im Bild? 96 Suchrätsel für Kindergartenkinder: fehlende Ausschnitte erkennen und zuordnen – visuelle Wahrnehmung, gratis PDF."
+    },
+    "odd-one-out": {
+      "title": "Was passt nicht in die Reihe? Arbeitsblätter",
+      "h1": "Was passt nicht in die Reihe? Logikübungen mit Bildern",
+      "metaDescription": "Vier Bilder, eins passt nicht dazu: 92 Arbeitsblätter zum logischen Denken für Kindergarten und Vorschule – Kategorien erkennen, kostenlos als PDF."
+    },
+    "counting-pictures": {
+      "title": "Zählen lernen mit Bildern – Arbeitsblätter",
+      "h1": "Zählen lernen: Bilder zählen und Mengen erfassen",
+      "metaDescription": "Erst zählen, dann Zahl zuordnen: 27 Zählblätter mit fröhlichen Motiven für Kindergartenkinder – sicherer Umgang mit Mengen bis 10, kostenlos drucken."
+    },
+    "counting-frames": {
+      "title": "Zehnerfeld – Übungen zum Ausdrucken (PDF)",
+      "h1": "Zehnerfeld: Mengen im Zehnerfeld erfassen",
+      "metaDescription": "Punkte im Zehnerfeld auf einen Blick erfassen: Übungsblätter zur Zahlzerlegung bis 10 für den Anfangsunterricht – kostenlos als PDF, mit Lösungen."
+    },
+    "tally-counting": {
+      "title": "Strichlisten – Übungen zum Ausdrucken",
+      "h1": "Strichlisten führen: zählen und notieren",
+      "metaDescription": "Strichliste führen wie die Großen: zählen, bündeln, ablesen. Übungsblätter für Klasse 1 und 2 – Daten erfassen von Anfang an, gratis als PDF."
+    },
+    "number-charts": {
+      "title": "Hundertertafel – Übungen zum Ausdrucken",
+      "h1": "Hundertertafel: Übungen im Zahlenraum bis 100",
+      "metaDescription": "Zahlen suchen, Ausschnitte ergänzen, Muster entdecken: 34 Hundertertafel-Arbeitsblätter für den Zahlenraum bis 100 – kostenlos als PDF mit Lösungen."
+    },
+    "comparing-numbers": {
+      "title": "Zahlen vergleichen: größer, kleiner, gleich",
+      "h1": "Zahlen vergleichen mit <, > und =",
+      "metaDescription": "Krokodilmaul auf: Welche Zahl ist größer? Arbeitsblätter zum Zahlenvergleich mit den Zeichen <, > und = – für Klasse 1 und 2, kostenlos ausdrucken."
+    },
+    "comparing-groups": {
+      "title": "Mengen vergleichen – Vorschul-Übungen (PDF)",
+      "h1": "Mengen vergleichen: Wo ist mehr, wo ist weniger?",
+      "metaDescription": "Zwei Gruppen, ein Blick: Kinder vergleichen Mengen und markieren die größere. Vorschul-Arbeitsblätter zur Mengenerfassung – gratis als PDF ausdrucken."
+    },
+    "comparing-sizes": {
+      "title": "Größen vergleichen – Arbeitsblätter (PDF)",
+      "h1": "Größen vergleichen: das Größte und das Kleinste finden",
+      "metaDescription": "Vom kleinsten zum größten Motiv ordnen: 15 Arbeitsblätter zum Größenvergleich im Kindergarten – erste Messvorstellungen aufbauen, kostenlos drucken."
+    },
+    "number-lines": {
+      "title": "Zahlenstrahl bis 20 – Übungen zum Ausdrucken",
+      "h1": "Zahlenstrahl: Zahlen bis 20 verorten",
+      "metaDescription": "Zahlen auf dem Zahlenstrahl finden und eintragen: Übungsblätter für den Zahlenraum bis 20 im Anfangsunterricht – kostenlos als PDF, mit Lösungen."
+    },
+    "base-ten": {
+      "title": "Stellenwert: Zehner und Einer – Übungen",
+      "h1": "Stellenwert verstehen: Zehner und Einer",
+      "metaDescription": "Zahlen in Zehner und Einer zerlegen: Stellenwert-Arbeitsblätter mit Anschauungsmaterial für Klasse 1 und 2 – Basis fürs Rechnen bis 100, gratis PDF."
+    },
+    "telling-time": {
+      "title": "Uhrzeit lernen – Arbeitsblätter kostenlos",
+      "h1": "Uhrzeit lernen: Uhr lesen Schritt für Schritt",
+      "metaDescription": "Volle Stunden, halbe Stunden, Minuten: 81 Arbeitsblätter zum Uhrlesen mit Zeigeruhren – von Klasse 1 bis 3, kostenlos als PDF und online übbar."
+    },
+    "fractions": {
+      "title": "Brüche entdecken – Arbeitsblätter (PDF)",
+      "h1": "Erste Brüche: halbe, viertel, ganze",
+      "metaDescription": "Halb, Viertel, Drittel anschaulich: 68 Bruch-Arbeitsblätter mit Bildern zum Einfärben und Zuordnen – erste Bruchvorstellung, kostenlos ausdrucken."
+    },
+    "graphing-data": {
+      "title": "Diagramme und Daten – Arbeitsblätter (PDF)",
+      "h1": "Daten und Diagramme: ablesen, zählen, eintragen",
+      "metaDescription": "Säulendiagramme lesen und selbst füllen: 28 Arbeitsblätter zu Daten und Diagrammen für die Grundschule – kostenlos als PDF, Lösungen inklusive."
+    },
+    "arrays-multiplication": {
+      "title": "Erstes Einmaleins – Übungsblätter (PDF)",
+      "h1": "Erstes Einmaleins: Malaufgaben mit Bildern",
+      "metaDescription": "Reihen und Felder statt stumpfem Pauken: 31 Einmaleins-Arbeitsblätter mit Punktebildern für den Einstieg in die Multiplikation – gratis ausdrucken."
+    },
+    "geometry": {
+      "title": "Geometrie-Arbeitsblätter für die Grundschule",
+      "h1": "Geometrie: Formen und Körper erkennen",
+      "metaDescription": "Formen erkennen, Flächen und Körper unterscheiden: 37 Geometrie-Arbeitsblätter von Kindergarten bis Klasse 3 – kostenlos als PDF mit Lösungen."
+    },
+    "measurement": {
+      "title": "Messen lernen – Arbeitsblätter Grundschule",
+      "h1": "Messen: Längen vergleichen und messen",
+      "metaDescription": "Mit Lineal und Augenmaß: 35 Arbeitsblätter zum Messen und Vergleichen von Längen – vom Kindergarten bis Klasse 2, kostenlos als PDF ausdrucken."
+    },
+    "visual-logic": {
+      "title": "Logikrätsel für Kinder – kostenlos (PDF)",
+      "h1": "Logikrätsel: knobeln und kombinieren für Kinder",
+      "metaDescription": "Kombinieren statt Raten: 14 Logikrätsel für Kinder ab 5 Jahren mit Bildern statt Text – Denktraining für Vorschule bis Klasse 3, gratis als PDF."
+    },
+    "visual-discrimination": {
+      "title": "Visuelle Wahrnehmung – Arbeitsblätter kostenlos",
+      "h1": "Visuelle Wahrnehmung fördern: Arbeitsblätter für Kinder",
+      "metaDescription": "Gleiche Bilder finden, Unterschiede erkennen, Details vergleichen: Arbeitsblätter zur visuellen Wahrnehmung für Kindergarten und Vorschule – gratis PDF."
+    },
+    "visual-matching": {
+      "title": "Bilder zuordnen – Arbeitsblätter für Kinder",
+      "h1": "Bilder zuordnen: Paare und Passendes finden",
+      "metaDescription": "Welches Bild gehört zu welchem? Zuordnungs-Arbeitsblätter für Vorschule und Kindergarten mit Alltagsmotiven – Wahrnehmung schulen, gratis drucken."
+    },
+    "patterns": {
+      "title": "Muster fortsetzen – Arbeitsblätter kostenlos",
+      "h1": "Muster fortsetzen: Reihen erkennen und weiterführen",
+      "metaDescription": "Wie geht die Reihe weiter? Arbeitsblätter zum Muster-Fortsetzen mit Formen und Bildern für Kindergarten und Klasse 1 – kostenlos als PDF drucken."
+    },
+    "position-words": {
+      "title": "Lagebeziehungen: über, unter, neben (PDF)",
+      "h1": "Lagebeziehungen: rechts, links, über, unter",
+      "metaDescription": "Wo liegt der Ball – über, unter oder neben dem Korb? Arbeitsblätter zu Lagebeziehungen und räumlicher Orientierung für Vorschule und Klasse 1, gratis."
+    },
+    "sorting-categories": {
+      "title": "Sortieren und Ordnen – Übungsvorlagen",
+      "h1": "Sortieren und Ordnen: Dinge in Gruppen einteilen",
+      "metaDescription": "Nach Farbe, Form oder Art sortieren: Übungsvorlagen zum Ordnen und Kategorisieren für Kita und Vorschule – Denkgrundlagen legen, kostenlos drucken."
+    },
+    "picture-arithmetic": {
+      "title": "Rechnen mit Bildern – Plus und Minus (PDF)",
+      "h1": "Rechnen mit Bildern: erste Plus- und Minusaufgaben",
+      "metaDescription": "Erst Bilder zählen, dann rechnen: 14 Arbeitsblätter mit Bildaufgaben zu Plus und Minus für die 1. Klasse – anschaulicher Rechenstart, gratis als PDF."
+    },
+    "science-sort": {
+      "title": "Sachunterricht: Sortieren und Zuordnen (PDF)",
+      "h1": "Sachunterricht: sortieren, zuordnen, entdecken",
+      "metaDescription": "Lebensräume, Jahreszeiten, Natur: 90 Sortier-Arbeitsblätter für den Sachunterricht in Kindergarten und Klasse 1 – Wissen ordnen, kostenlos als PDF."
+    },
+    "science-match": {
+      "title": "Sachunterricht: Bilder und Begriffe zuordnen",
+      "h1": "Sachwissen zuordnen: Was gehört zusammen?",
+      "metaDescription": "Tier zu Lebensraum, Werkzeug zu Beruf: 10 Zuordnungs-Arbeitsblätter mit Sachthemen für neugierige Kinder – Wissen verknüpfen, gratis ausdrucken."
+    },
+    "science-sequence": {
+      "title": "Reihenfolgen und Lebenszyklen – Arbeitsblätter",
+      "h1": "Lebenszyklen: Reihenfolgen der Natur ordnen",
+      "metaDescription": "Vom Ei zur Raupe zum Schmetterling: Arbeitsblätter zu Lebenszyklen und Reihenfolgen im Sachunterricht – Naturwissen spielerisch ordnen, gratis PDF."
+    },
+    "beginning-sounds": {
+      "title": "Anlaute – Arbeitsblätter kostenlos (PDF)",
+      "h1": "Anlaute hören und erkennen: Arbeitsblätter mit Bildern",
+      "metaDescription": "Mit welchem Laut beginnt das Wort? Anlaut-Arbeitsblätter mit Bildern für Vorschule und Klasse 1 – phonologische Bewusstheit üben, gratis als PDF."
+    },
+    "letter-knowledge": {
+      "title": "Buchstaben erkennen – Arbeitsblätter (PDF)",
+      "h1": "Buchstaben erkennen und unterscheiden",
+      "metaDescription": "Den gesuchten Buchstaben in der Reihe finden: 20 Arbeitsblätter zum Buchstaben-Erkennen für Vorschule und Schulstart – Buchstabensicherheit, gratis PDF."
+    },
+    "word-building": {
+      "title": "Wörter bauen aus Buchstaben – Arbeitsblätter",
+      "h1": "Wörter bauen: aus Buchstaben Wörter legen",
+      "metaDescription": "Buchstabe für Buchstabe zum ganzen Wort: 10 Arbeitsblätter zum Wörterbauen für Leseanfänger – Laut-Buchstaben-Zuordnung festigen, kostenlos drucken."
+    },
+    "picture-vocabulary": {
+      "title": "Wortschatz mit Bildern – kostenlos als PDF",
+      "h1": "Wortschatz mit Bildern: Wörter sehen und lernen",
+      "metaDescription": "Bild ansehen, Wort lernen: Bildwortschatz-Arbeitsblätter zu Alltagsthemen – ideal für DaZ, Sprachförderung und Vorschule, kostenlos als PDF drucken."
+    },
+    "phonological-awareness": {
+      "title": "Laute und Silben – Arbeitsblätter (PDF)",
+      "h1": "Laute und Silben: hören, klatschen, lesen",
+      "metaDescription": "Silben klatschen und Laute hören: 25 Arbeitsblätter zur phonologischen Bewusstheit für Vorschule und Klasse 1 – Grundlage fürs Lesen, gratis PDF."
+    },
+    "preschool": {
+      "title": "Arbeitsblätter Vorschule – kostenlos zum Ausdrucken",
+      "h1": "Vorschule: Arbeitsblätter für Kinder ab 3 Jahren",
+      "metaDescription": "Über 400 Vorschul-Arbeitsblätter: Mengen vergleichen, Muster, Wahrnehmung, erste Buchstaben – alles kostenlos als PDF drucken oder online spielen."
+    },
+    "kindergarten": {
+      "title": "Arbeitsblätter Kindergarten – kostenlos (PDF)",
+      "h1": "Kindergarten: Arbeitsblätter für 5- bis 7-Jährige",
+      "metaDescription": "Der größte Bereich: 2.400+ Kindergarten-Arbeitsblätter von Schatten-Zuordnen bis erste Plusaufgaben – kostenlos ausdrucken oder direkt online üben."
+    },
+    "grade-1": {
+      "title": "Arbeitsblätter 1. Klasse – kostenlos zum Ausdrucken",
+      "h1": "1. Klasse: Arbeitsblätter für Deutsch, Mathe und Logik",
+      "metaDescription": "600+ Arbeitsblätter für die 1. Klasse: Rechnen bis 20, Suchsel, Buchstabensalat, Uhrzeit – mit Lösungen, kostenlos als PDF oder online spielbar."
+    },
+    "grade-2": {
+      "title": "Arbeitsblätter 2. Klasse – kostenlos zum Ausdrucken",
+      "h1": "2. Klasse: Arbeitsblätter für Mathe, Deutsch und Rätsel",
+      "metaDescription": "Arbeitsblätter für die 2. Klasse: Kreuzworträtsel, Uhrzeit, Geometrie und Rechnen bis 100 – jedes Blatt mit Lösung, gratis als PDF oder online."
+    },
+    "grade-3": {
+      "title": "Arbeitsblätter 3. Klasse – kostenlos zum Ausdrucken",
+      "h1": "3. Klasse: Arbeitsblätter zum Üben und Knobeln",
+      "metaDescription": "Arbeitsblätter für die 3. Klasse: Uhrzeit auf die Minute, erste Brüche, Einmaleins und Geometrie – kostenlos als PDF ausdrucken, Lösungen inklusive."
+    },
+    "animals": {
+      "title": "Arbeitsblätter Tiere – kostenlos zum Ausdrucken",
+      "h1": "Tiere: Arbeitsblätter rund um die Tierwelt",
+      "metaDescription": "122 Tier-Arbeitsblätter: Tiere zählen, zuordnen, Wörter rätseln – für Kindergarten bis 2. Klasse, jedes Blatt kostenlos als PDF oder online spielbar."
+    },
+    "fruits": {
+      "title": "Arbeitsblätter Obst und Früchte – kostenlos (PDF)",
+      "h1": "Obst und Früchte: Arbeitsblätter zum Ausdrucken",
+      "metaDescription": "Äpfel zählen, Früchte zuordnen, Obstwörter rätseln: 116 Arbeitsblätter rund um Obst für Kindergarten und Vorschule – gratis als PDF ausdrucken."
+    },
+    "vehicles": {
+      "title": "Arbeitsblätter Fahrzeuge – kostenlos (PDF)",
+      "h1": "Fahrzeuge: Arbeitsblätter von Auto bis Bagger",
+      "metaDescription": "Autos, Bagger, Feuerwehr: 110 Fahrzeug-Arbeitsblätter zum Zählen, Zuordnen und Rätseln – Lieblingsthema vieler Kinder, kostenlos als PDF drucken."
+    },
+    "shapes": {
+      "title": "Arbeitsblätter Formen – Vorschule & Kindergarten",
+      "h1": "Formen: Kreis, Dreieck, Quadrat entdecken",
+      "metaDescription": "Kreis, Dreieck, Quadrat: 98 Formen-Arbeitsblätter zum Erkennen, Zuordnen und Sortieren für Vorschule und Kindergarten – kostenlos als PDF drucken."
+    },
+    "colors": {
+      "title": "Arbeitsblätter Farben – Kindergarten & Vorschule",
+      "h1": "Farben: Arbeitsblätter zum Farbenlernen",
+      "metaDescription": "Rot, Gelb, Blau erkennen und zuordnen: 48 Farben-Arbeitsblätter für Kindergarten und Vorschule – Farbwörter spielerisch lernen, gratis als PDF."
+    },
+    "body_parts": {
+      "title": "Arbeitsblätter Körperteile – kostenlos (PDF)",
+      "h1": "Körperteile: Arbeitsblätter zu meinem Körper",
+      "metaDescription": "Kopf, Hand, Fuß benennen und zuordnen: 58 Körperteile-Arbeitsblätter für Kindergarten und DaZ – den eigenen Körper entdecken, gratis ausdrucken."
+    },
+    "clothing": {
+      "title": "Arbeitsblätter Kleidung – kostenlos zum Ausdrucken",
+      "h1": "Kleidung: Arbeitsblätter zum Kleidungs-Wortschatz",
+      "metaDescription": "Von der Mütze bis zum Schuh: 58 Kleidungs-Arbeitsblätter zum Benennen, Zuordnen und Rätseln – stark für DaZ und Vorschule, kostenlos als PDF."
+    },
+    "occupations": {
+      "title": "Arbeitsblätter Berufe – kostenlos (PDF)",
+      "h1": "Berufe: Arbeitsblätter von Arzt bis Bäcker",
+      "metaDescription": "Wer macht was? 58 Berufe-Arbeitsblätter zum Zuordnen und Rätseln für Kindergarten und Grundschule – Berufe-Wortschatz aufbauen, gratis als PDF."
+    },
+    "farm_animals": {
+      "title": "Arbeitsblätter Bauernhoftiere – kostenlos (PDF)",
+      "h1": "Bauernhoftiere: Arbeitsblätter vom Bauernhof",
+      "metaDescription": "Kuh, Schwein und Huhn: 56 Bauernhof-Arbeitsblätter zum Zählen, Zuordnen und Wörterraten für Kita und Grundschule – kostenlos als PDF drucken."
+    },
+    "forest_creatures": {
+      "title": "Arbeitsblätter Waldtiere – kostenlos (PDF)",
+      "h1": "Waldtiere: Arbeitsblätter aus dem Wald",
+      "metaDescription": "Fuchs, Igel, Eichhörnchen: 57 Waldtier-Arbeitsblätter zum Suchen, Zählen und Zuordnen – fürs Waldprojekt in Kita und Schule, gratis ausdrucken."
+    },
+    "zoo_animals": {
+      "title": "Arbeitsblätter Zootiere – kostenlos (PDF)",
+      "h1": "Zootiere: Arbeitsblätter für den Zoobesuch",
+      "metaDescription": "Löwe, Elefant und Pinguin: 57 Zootier-Arbeitsblätter zum Zählen, Rätseln und Zuordnen – ideal vor oder nach dem Zoobesuch, kostenlos als PDF."
+    },
+    "pets": {
+      "title": "Arbeitsblätter Haustiere – kostenlos (PDF)",
+      "h1": "Haustiere: Arbeitsblätter von Hund bis Hamster",
+      "metaDescription": "Hund, Katze, Meerschweinchen: 57 Haustier-Arbeitsblätter zum Benennen, Zählen und Rätseln für Kita und Grundschule – gratis als PDF ausdrucken."
+    },
+    "birds": {
+      "title": "Arbeitsblätter Vögel – kostenlos zum Ausdrucken",
+      "h1": "Vögel: Arbeitsblätter rund um die Vogelwelt",
+      "metaDescription": "Amsel, Eule, Papagei: Vogel-Arbeitsblätter zum Zählen, Zuordnen und Wörterraten für Kindergarten und Grundschule – kostenlos als PDF drucken."
+    },
+    "birds_2": {
+      "title": "Arbeitsblätter Vögel – weitere Motive (Teil 2)",
+      "h1": "Noch mehr Vögel: weitere Vogel-Arbeitsblätter",
+      "metaDescription": "Der zweite Schwung Vogelmotive: 56 weitere Vogel-Arbeitsblätter zum Suchen, Zählen und Zuordnen für Kita und Schule – kostenlos als PDF drucken."
+    },
+    "vegetables": {
+      "title": "Arbeitsblätter Gemüse – kostenlos zum Ausdrucken",
+      "h1": "Gemüse: Arbeitsblätter von Möhre bis Paprika",
+      "metaDescription": "Möhren zählen, Gemüse sortieren, Wörter lernen: 58 Gemüse-Arbeitsblätter für Kita, Vorschule und DaZ – gesunde Themen, kostenlos als PDF."
+    },
+    "weather": {
+      "title": "Arbeitsblätter Wetter – kostenlos (PDF)",
+      "h1": "Wetter: Arbeitsblätter von Sonne bis Schnee",
+      "metaDescription": "Sonne, Wolke, Regenbogen: 56 Wetter-Arbeitsblätter zum Zuordnen, Zählen und Rätseln für Kindergarten und 1. Klasse – kostenlos als PDF drucken."
+    },
+    "space": {
+      "title": "Arbeitsblätter Weltraum – kostenlos (PDF)",
+      "h1": "Weltraum: Arbeitsblätter zu Raketen und Planeten",
+      "metaDescription": "Raketen, Sterne, Astronauten: 56 Weltraum-Arbeitsblätter zum Zählen, Suchen und Rätseln – Faszination Weltall für Kita und Schule, gratis PDF."
+    },
+    "dinosaurs": {
+      "title": "Arbeitsblätter Dinosaurier – kostenlos (PDF)",
+      "h1": "Dinosaurier: Arbeitsblätter für kleine Dino-Fans",
+      "metaDescription": "T-Rex zählen, Dinos zuordnen, Dino-Wörter raten: 47 Dinosaurier-Arbeitsblätter für Kindergarten und Grundschule – für Dino-Fans, gratis als PDF."
+    },
+    "emotions": {
+      "title": "Arbeitsblätter Emotionen und Gefühle (PDF)",
+      "h1": "Gefühle: Arbeitsblätter zu Emotionen",
+      "metaDescription": "Froh, traurig, wütend erkennen und benennen: 52 Gefühle-Arbeitsblätter für Kita und Grundschule – emotionale Entwicklung fördern, gratis drucken."
+    },
+    "flowers": {
+      "title": "Arbeitsblätter Blumen – kostenlos (PDF)",
+      "h1": "Blumen: Arbeitsblätter rund um Blüten und Garten",
+      "metaDescription": "Tulpen zählen, Blüten zuordnen, Blumenwörter suchen: 55 Blumen-Arbeitsblätter für Kita und Grundschule – Frühlingsthema, kostenlos als PDF."
+    },
+    "furniture": {
+      "title": "Arbeitsblätter Möbel – Wortschatz & DaZ (PDF)",
+      "h1": "Möbel: Wortschatz-Arbeitsblätter für Zuhause",
+      "metaDescription": "Tisch, Stuhl, Schrank benennen und zuordnen: 55 Möbel-Arbeitsblätter für Wortschatzarbeit und DaZ in Kita und Grundschule – gratis ausdrucken."
+    },
+    "music": {
+      "title": "Arbeitsblätter Musik – Instrumente & Wortschatz",
+      "h1": "Musik: Arbeitsblätter zu Instrumenten",
+      "metaDescription": "Trommel, Geige, Trompete erkennen und zuordnen: 56 Instrumente-Arbeitsblätter für Kita und Grundschule – Musikwortschatz aufbauen, gratis PDF."
+    },
+    "tree": {
+      "title": "Arbeitsblätter Bäume – kostenlos (PDF)",
+      "h1": "Bäume: Arbeitsblätter rund um den Baum",
+      "metaDescription": "Bäume zählen, Blätter zuordnen, Baumwörter raten: 52 Baum-Arbeitsblätter für Kindergarten und Grundschule – Naturthema, kostenlos als PDF."
+    },
+    "breakfast": {
+      "title": "Arbeitsblätter Frühstück – Essen & Wortschatz",
+      "h1": "Frühstück: Arbeitsblätter rund ums Essen",
+      "metaDescription": "Brot, Müsli, Marmelade: 55 Frühstücks-Arbeitsblätter zum Benennen und Zuordnen – Essens-Wortschatz für Kita und DaZ, kostenlos ausdrucken."
+    },
+    "classroom": {
+      "title": "Arbeitsblätter Klassenzimmer – Schulwortschatz",
+      "h1": "Klassenzimmer: Arbeitsblätter zum Schulwortschatz",
+      "metaDescription": "Tafel, Stift und Ranzen benennen: 58 Arbeitsblätter zum Schul-Wortschatz für Schulanfänger und DaZ – rund ums Klassenzimmer, gratis als PDF."
+    },
+    "at_the_supermarket": {
+      "title": "Arbeitsblätter Einkaufen im Supermarkt (PDF)",
+      "h1": "Im Supermarkt: Arbeitsblätter rund ums Einkaufen",
+      "metaDescription": "Vom Einkaufskorb bis zur Kasse: 58 Supermarkt-Arbeitsblätter zum Benennen, Zählen und Zuordnen – Alltagswortschatz für Kita und DaZ, gratis PDF."
+    },
+    "tools": {
+      "title": "Arbeitsblätter Werkzeuge – mit Bildern (PDF)",
+      "h1": "Werkzeuge: Arbeitsblätter mit Namen und Bildern",
+      "metaDescription": "Hammer, Säge, Schraubenzieher: 55 Werkzeug-Arbeitsblätter mit Bildern und Namen zum Zuordnen und Rätseln – für Kita und Werkraum, gratis PDF."
+    },
+    "thanksgivinng": {
+      "title": "Arbeitsblätter Erntedankfest – kostenlos (PDF)",
+      "h1": "Erntedank: Arbeitsblätter zum Erntedankfest",
+      "metaDescription": "Kürbis, Korn und Erntekorb: 55 Erntedank-Arbeitsblätter zum Zählen, Suchen und Zuordnen für Kita und Grundschule – kostenlos als PDF drucken."
+    }
+  },
+  "intersection": {}
+}

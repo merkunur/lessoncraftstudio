@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "lay-units.measure.1-md-a-2": {
+      "about": [
+        "Inchie, la petite chenille arpenteuse, se promène le long d'un crayon, d'une feuille ou d'un ruban et pose l'un après l'autre des bâtonnets tous identiques, bout à bout. Votre enfant tape sur chaque bâtonnet pour le compter : arrivé au bout de l'objet, il annonce la longueur, « 5 bâtonnets de long ». Rien à écrire, aucune règle — on mesure simplement en alignant des unités et en les comptant.",
+        "L'idée du CP est là : une longueur, c'est le nombre d'unités identiques posées sans trou et sans chevauchement, en partant pile au bord de l'objet. Certains passages montrent pourquoi chaque règle compte : un trou entre deux bâtonnets, un chevauchement, des bâtonnets de tailles différentes ou un mauvais départ faussent le résultat, et votre enfant apprend à repérer puis à corriger l'erreur. Une étape inverse mesure la même feuille avec de grands puis de petits bâtonnets : le nombre augmente, car « plus l'unité est petite, plus il en faut ».",
+        "L'activité est entièrement gratuite, sans compte, sans minuteur et sans points : votre enfant avance à son rythme, à sa façon. Elle suit les programmes officiels, dans le domaine « Grandeurs et mesures – Longueurs », et prépare en douceur le moment où l'on mesurera en centimètres avec une règle, au CE1."
+      ],
+      "practices": [
+        "Poser des bâtonnets identiques bout à bout, sans trou ni chevauchement, en partant pile au bord.",
+        "Comprendre que toutes les unités doivent être de la même taille.",
+        "Compter les bâtonnets et nommer la longueur : « X bâtonnets de long ».",
+        "Comprendre que plus l'unité est petite, plus il en faut."
+      ],
+      "howToPlay": [
+        "Regarder Inchie poser les bâtonnets bout à bout, sans trou ni chevauchement.",
+        "Taper sur chaque bâtonnet pour le compter : le total, c'est la longueur.",
+        "Dans certains passages, quelque chose cloche — trouver l'erreur (trou, chevauchement, bâtonnets inégaux ou mauvais départ), ou choisir la ligne bien mesurée."
+      ],
+      "learningGoals": [
+        "Mesurer des longueurs avec une unité non conventionnelle et comprendre qu'une longueur est un nombre d'unités identiques.",
+        "Poser sans trou ni chevauchement, partir pile au bord et compter de façon fiable.",
+        "Saisir que « plus l'unité est petite, plus il en faut » — la base pour comprendre plus tard le centimètre et la règle."
+      ]
+    },
     "seriation.compare-length.1-md-a-1": {
       "about": [
         "Tilly, la chatte de la boutique, a caché de jolis rubans colorés sur des étagères placées loin les unes des autres. Votre enfant part à leur recherche, puis se sert d'une ficelle — une longue cordelette — pour savoir lequel est le plus long, lequel est le plus court, et lequel mesure exactement la même longueur que la ficelle. Il n'y a ni chiffres, ni centimètres : on regarde, on compare, on décide avec ses yeux et un petit outil de mesure tout simple.",

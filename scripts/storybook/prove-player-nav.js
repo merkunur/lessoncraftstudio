@@ -22,7 +22,7 @@
 'use strict';
 const fs = require('fs');
 const path = require('path');
-const puppeteer = require(path.join(__dirname, '..', '..', 'frontend', 'node_modules', 'puppeteer'));
+const puppeteer = require('puppeteer'); /* repo-root node_modules (the prove-studio-bridge convention) */
 
 const BASE = (process.argv.find(a => a.startsWith('--base=')) || '--base=https://www.lessoncraftstudio.com').slice(7);
 const URL = BASE + '/mini-tools/storybook.html?src=/mini-tools/stories/pips-picnic/&lang=en&debug=1';

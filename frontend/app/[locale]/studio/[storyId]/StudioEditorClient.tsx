@@ -15,7 +15,7 @@ import { studioStrings } from '../studio-strings';
 // token dies mid-session; autosave's localStorage backup protects the work),
 // and the lcs-studio-nav listener (the studio toolbar's "← My stories").
 
-const STUDIO_CLIENT_VERSION = 3; // bump with any storybook-studio.html/js change (§A.13.42)
+const STUDIO_CLIENT_VERSION = 4; // bump with any storybook-studio.html/js change (§A.13.42)
 
 export default function StudioEditorClient({
   locale,
@@ -110,11 +110,15 @@ export default function StudioEditorClient({
   }
 
   return (
-    <div className="fixed inset-0 z-40 bg-cream-50">
+    // Inline positioning on purpose: the editor must own the viewport no
+    // matter what utility classes or stacking contexts the surrounding site
+    // ships (the nav is z-50; we sit above it even if this route is ever
+    // re-included in the chrome'd layout branch).
+    <div className="bg-cream-50" style={{ position: 'fixed', inset: 0, zIndex: 60 }}>
       <iframe
         src={`/mini-tools/storybook-studio.html?story=${encodeURIComponent(storyId)}&mode=teacher${user.isAdmin ? '&admin=1' : ''}&v=${STUDIO_CLIENT_VERSION}`}
         title="Story Studio"
-        className="absolute inset-0 h-full w-full border-0"
+        style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', border: 0 }}
       />
       {authLost && (
         <div className="absolute left-1/2 top-3 z-10 flex -translate-x-1/2 items-center gap-4 rounded-full bg-terracotta-400 px-5 py-2.5 text-cream-50 shadow-lg">

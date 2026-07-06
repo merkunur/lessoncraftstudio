@@ -27,7 +27,13 @@ export function LocaleLayoutClient({
 
   // Sales/funnel pages: 100% standalone — no Navigation, no Footer
   const isGetRoute = pathname?.startsWith(`/${locale}/get/`) || pathname?.includes('/get/');
-  if (isGetRoute) {
+  // Story Studio EDITOR (/studio/<storyId>): the canvas owns the whole
+  // document — no Navigation, no Footer. The site nav is `relative z-50` and
+  // out-stacked the editor's fixed overlay (z-40), burying the studio toolbar
+  // under ~230px of site chrome. The dashboard (/studio, no story segment)
+  // keeps normal site chrome.
+  const isStudioEditor = pathname?.startsWith(`/${locale}/studio/`);
+  if (isGetRoute || isStudioEditor) {
     return <>{children}</>;
   }
 

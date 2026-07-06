@@ -76,7 +76,11 @@ function readJsonSafe(p) {
 }
 
 function titleCaseWord(s) {
-  return String(s).toLowerCase().replace(/\b\p{L}/gu, (m) => m.toUpperCase());
+  // NOT regex-\b based (\b is ASCII-only → "fäustling" would become "FÄUstling").
+  return String(s).trim().split(/\s+/).map((w) => {
+    const lower = w === w.toUpperCase() ? w.toLowerCase() : w; // de-shout ALL-CAPS, keep native casing otherwise
+    return lower.charAt(0).toUpperCase() + lower.slice(1);
+  }).join(' ');
 }
 
 /** "balloon-1769383001639-820917d0.webp" → "Balloon"; "uncle-sam-...webp" → "Uncle Sam"; "cat 2" → "Cat" */

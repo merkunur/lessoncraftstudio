@@ -88,7 +88,16 @@ function return410(): NextResponse {
  * Reshelled directories (pricing, about, faq) are deliberately NOT here —
  * they 404 via the route system until new content lands per §17.1.
  */
-const REMOVED_PREFIXES = /^\/(?:[a-z]{2}\/)?(apps|tools|guides|bundles|ideas|start|blog|compare|gallery|teaching-packages|lesson-plans|flashcards|themed-bundles)(?:\/.*)?$/;
+const REMOVED_PREFIXES = /^\/(?:[a-z]{2}\/)?(apps|tools|guides|bundles|ideas|start|blog|compare|gallery|teaching-packages|lesson-plans|flashcards|themed-bundles|faq)(?:\/.*)?$/;
+
+/**
+ * Shopify-era legacy prefixes (locale-LESS bare form only — /collections under
+ * a locale is the LIVE user-collections feature and must never match). These
+ * previously fell through to the intl middleware and 307'd into the app, which
+ * kept dead seller-store URLs alive in Google's index (SEO real-cause program
+ * Unit 1, 2026-07-06). 410 is the fastest de-index signal.
+ */
+const SHOPIFY_LEGACY_PREFIXES = /^\/(collections|products|pages|cdn)(?:\/.*)?$/;
 
 /**
  * Native-language URL slugs of the live per-tool landing pages, AUTO-DERIVED
@@ -131,6 +140,8 @@ function isRemovedRoute(pathname: string): boolean {
   if (toolMatch && LIVE_TOOL_SLUGS.has(toolMatch[1])) return false;
 
   if (REMOVED_PREFIXES.test(pathname)) return true;
+
+  if (SHOPIFY_LEGACY_PREFIXES.test(pathname)) return true;
 
   if (pathname === '/image-sitemap-index.xml') return true;
   if (pathname === '/video-sitemap-index.xml') return true;
@@ -294,6 +305,6 @@ export default function middleware(request: NextRequest) {
 
 export const config = {
   matcher: [
-    '/((?!api|_next/static|_next/image|favicon.ico|manifest.json|robots.txt|sitemap.xml|sitemap/|image-sitemap|video-sitemap|.*\\.(?:png|jpg|jpeg|svg|ico|webp|gif|pdf)$|samples|videos|worksheet-generators|mini-tools|worksheet-images|worksheet-samples|homepage-content-manager.*\\.html|images|test-.*\\.html|js|uploads|upload|static-page-manager\\.html|page-manager\\.html|easy-page-manager\\.html|simple-upload\\.html|simple-upload|admin|settings|notifications|collaboration|testing|search|member).*)',
+    '/((?!api|_next/static|_next/image|favicon.ico|manifest.json|robots.txt|f261bd8eb7ea657cdb8051d5d8e3bc4c\\.txt|sitemap.xml|sitemap/|image-sitemap|video-sitemap|.*\\.(?:png|jpg|jpeg|svg|ico|webp|gif|pdf)$|samples|videos|worksheet-generators|mini-tools|worksheet-images|worksheet-samples|homepage-content-manager.*\\.html|images|test-.*\\.html|js|uploads|upload|static-page-manager\\.html|page-manager\\.html|easy-page-manager\\.html|simple-upload\\.html|simple-upload|admin|settings|notifications|collaboration|testing|search|member).*)',
   ]
 };

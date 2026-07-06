@@ -1,0 +1,1243 @@
+{
+  "locale": "sv",
+  "generated": "2026-07-06",
+  "source": "docs/SEO/harvests/sv.json (google.se autocomplete, hl=sv&gl=se, 2026-07-06, 1075 unika) + 16-query SERP-sampling (google.se) + deck-inventory-type-level.json (sv) + deck-inventory-themes.json (sv)",
+  "levelMap": {
+    "3-5": "preschool = Förskola (förskola)",
+    "5-7": "kindergarten = Förskoleklass (förskoleklass)",
+    "6-8": "grade-1 = Årskurs 1 (åk 1)",
+    "7-9": "grade-2 = Årskurs 2 (åk 2)",
+    "8-10": "grade-3 = Årskurs 3 (åk 3)"
+  },
+  "titlePattern": {
+    "singleAxisType": "<Demand-term> för barn – gratis att skriva ut (PDF)",
+    "singleAxisTheme": "Arbetsblad <tema> – gratis att skriva ut",
+    "singleAxisLevel": "Arbetsblad <nivå> – gratis att skriva ut (PDF)",
+    "intersection": "<Demand-term> <nivå> – arbetsblad att skriva ut",
+    "notes": "Demand-ordet FÖRST (det ord svenska lärare/föräldrar faktiskt skriver enligt harvest — ordsök inte ordleta, lägesord, första ljudet, hundraruta, tallinje). Format-trion 'skriva ut' + 'gratis' + 'PDF' är alltid sann och skyddad (samma som sv-landningarnas '| skriva ut PDF gratis'); vid överflöd stramas ANDRA kvalificerare åt, aldrig trion. 'online' tillåtet (arbetsbladen spelas i webbläsaren), 'med facit' tillåtet (facit medföljer). Titel ≤51 tecken idealt / 65 hårt max — roten lägger till ' · LessonCraftStudio'. VIKTIGT: 'kindergarten' = svensk 'förskoleklass', INTE 'åk 1'. Alla titlar unika; metaDescription 120-170 tecken, unik och innehållsspecifik, aldrig utbytt-substantiv-mall."
+  },
+  "singleAxis": {
+    "addition": {
+      "primaryQuery": "addition arbetsblad",
+      "evidence": "harvest",
+      "title": "Addition för barn – gratis att skriva ut (PDF)",
+      "h1": "Addition: plusuppgifter med bilder",
+      "metaDescription": "197 additionsblad med glada bilder: enkla plusuppgifter inom 10 för de yngsta, varje blad med facit. Skriv ut gratis som PDF eller räkna online.",
+      "winnability": "HARD huvudord (skolplus, kims matte, elevspel äger 'addition arbetsblad'); WINNABLE via bild-vinkeln + 0-10-longtail",
+      "notes": "Harvest rik: 'arbetsblad addition 0 10 / 0 20 / åk 1 / förskoleklass'. Decken ligger på förskoleklass — 'addition åk 1'-efterfrågan är stor men obetjänad (deck-gap)."
+    },
+    "subtraction": {
+      "primaryQuery": "subtraktion arbetsblad",
+      "evidence": "harvest",
+      "title": "Subtraktion för barn – skriva ut gratis (PDF)",
+      "h1": "Subtraktion: minusuppgifter med bilder",
+      "metaDescription": "193 subtraktionsblad för räknestarten: minusuppgifter med tydliga bilder inom 10, facit på varje blad. Gratis att skriva ut som PDF eller lösa online.",
+      "winnability": "HARD huvudord (samma ägarkrets som addition); WINNABLE i mellanled via bild-vinkeln",
+      "notes": "Harvest 'arbetsblad subtraktion 0 10 / uppställning'. Uppställning/växling är åk 2-intent (vi har inte det) — håll copyn på inom-10 utan växling."
+    },
+    "code-addition": {
+      "primaryQuery": "addition arbetsblad",
+      "evidence": "harvest",
+      "title": "Räkna med symboler – hemlig kod (PDF)",
+      "h1": "Kodaddition: lös den hemliga koden",
+      "metaDescription": "Knäck koden: bilder står för tal och barnet räknar sig fram till lösningen. 145 klurblad med facit — gratis att skriva ut som PDF eller spela online.",
+      "winnability": "SKIP huvudord (inget svenskt sökord för mekaniken); rider på additions-longtail + intern länkning",
+      "notes": "Ingen native demand-term. Sidan lever på interna länkar och additionsgrannskapet; beskriv ärligt, uppfinn inget nyckelord."
+    },
+    "more-less": {
+      "primaryQuery": "mer eller mindre",
+      "evidence": "harvest",
+      "title": "Fler eller färre? Jämföra mängder (PDF)",
+      "h1": "Fler eller färre? Jämför antal med bilder",
+      "metaDescription": "Var finns det fler äpplen, var färre? 145 arbetsblad om att jämföra mängder för förskolan — räkna och jämföra utan siffror, gratis som PDF.",
+      "winnability": "MID — 'mer eller mindre' huvudord är blandad intent (grafik/synonym); 'fler och färre förskola' är ren matte-intent",
+      "notes": "Använd 'fler eller färre' som rubrik (matteordet); 'mer eller mindre' huvudordet är delvis blandat. Förskole-intersection bär efterfrågan."
+    },
+    "math-puzzle": {
+      "primaryQuery": "mattepussel",
+      "evidence": "harvest",
+      "title": "Mattepussel för barn – med facit (PDF)",
+      "h1": "Mattepussel: kluringar med tal",
+      "metaDescription": "Mattepussel som barn vill lösa: 146 klurblad med bildekvationer och facit, för de som knäckt de första talen. Skriv ut gratis eller pussla online.",
+      "winnability": "WINNABLE mellanled — 'mattepussel' tunt besatt; 'mattegåtor/matte klurigheter' longtail öppen",
+      "notes": "Decken ligger på åk 1 (6-8). Intersection åk 1 är money-page. Harvest tunt men konkurrensen låg."
+    },
+    "math-worksheet": {
+      "primaryQuery": "matteblad",
+      "evidence": "harvest",
+      "title": "Blandade matteuppgifter – arbetsblad (PDF)",
+      "h1": "Blandade matteuppgifter att skriva ut",
+      "metaDescription": "Blandade räkneblad: plus och minus om vartannat, perfekt för repetition. 98 matteblad med facit för förskoleklass — gratis att skriva ut som PDF.",
+      "winnability": "DEFER-TILL-HUB — 'matteblad åk X / matematik åk X' tillhör Ämne×Årskurs-hubbarna; topic-sidan tar bara mekanik-longtail",
+      "notes": "Titla INTE mot de egna matte-hubbarna (harvest 'matteblad åk 1/2/förskoleklass' är hub-terräng). Positionera som 'blandade uppgifter'."
+    },
+    "big-small": {
+      "primaryQuery": "stor eller liten förskola",
+      "evidence": "harvest",
+      "title": "Stor och liten – jämför storlek (PDF)",
+      "h1": "Stor och liten: jämför storlekar i förskolan",
+      "metaDescription": "Vad är störst, vad är minst? 110 förskoleblad om att jämföra storlek med vardagsmotiv — träna blicken för stor och liten, gratis att skriva ut.",
+      "winnability": "MID — 'stor eller liten' pur = STAVNINGS-intent (stor/liten bokstav), måste undvikas; 'storlek förskola' är rätt intent",
+      "notes": "FÄLLA: optimera aldrig mot 'stor eller liten bokstav' (helt annan intent, harvest-belagt). Använd storleksjämförelse-wording (störst/minst)."
+    },
+    "chart-count": {
+      "primaryQuery": "räkna med streck",
+      "evidence": "harvest",
+      "title": "Räkna och fyll i diagram (PDF)",
+      "h1": "Räkna och fyll i: enkla diagram för barn",
+      "metaDescription": "Räkna motiven, fyll staplarna: 50 arbetsblad där barn för in sitt räkneresultat i ett diagram — första datakänsla från förskoleklass, gratis PDF.",
+      "winnability": "LOW huvudord ('diagram' = Excel-intent); rider på 'räkna med streck'-longtail + interna länkar",
+      "notes": "Ingen ren demand-term för mekaniken; beskriv ärligt. Skilj från graphing-data (avläsa diagram) — här FYLLER barnet i."
+    },
+    "pattern-train": {
+      "primaryQuery": "mönster arbetsblad förskoleklass",
+      "evidence": "harvest",
+      "title": "Fortsätt mönstret med mönstertåget (PDF)",
+      "h1": "Mönstertåget: känn igen och fortsätt mönster",
+      "metaDescription": "Vilken vagn kommer härnäst? 245 mönstertåg-blad om att fortsätta mönster — logiskt tänkande för förskoleklass, gratis att skriva ut eller spela online.",
+      "winnability": "WINNABLE mellanled — 'mönstertåg' är leksaks-intent; trafik via 'mönster'-familjen + förskoleklass-intersection",
+      "notes": "Huvudordet 'mönster fortsätta' hör patterns-nyckeln (slug monster); denna nyckel tar förskoleklass-intersection (245 deck, störst i katalogen)."
+    },
+    "pattern-worksheet": {
+      "primaryQuery": "mönster arbetsblad åk 1",
+      "evidence": "harvest",
+      "title": "Mönsterblad – fortsätt raden (PDF)",
+      "h1": "Mönsterblad: fortsätt rader och följder",
+      "metaDescription": "Former, färger, följder: 50 mönsterblad för årskurs 1 om att fortsätta rader — koncentration och matematiska förkunskaper, gratis som PDF med facit.",
+      "winnability": "WINNABLE via åk 1-intersection (harvest 'mönster arbetsblad åk 1' verbatim; SERP måttlig)",
+      "notes": "Money-query ligger på intersection grade-1__pattern-worksheet. Skilj från pattern-train (förskoleklass, tåg-mekanik)."
+    },
+    "bingo": {
+      "primaryQuery": "bingo förskola",
+      "evidence": "harvest",
+      "title": "Bildbingo för förskolan – skriva ut (PDF)",
+      "h1": "Bildbingo: bingobrickor för förskolan",
+      "metaDescription": "Bingo med bilder istället för siffror: 79 färdiga spelbrickor för förskola och förskoleklass — skriv ut gratis och spela i grupp på en gång.",
+      "winnability": "MID — 'bingo' pur = bingolotto/casino-fälla; 'bingo förskola / matematik bingo förskola' visar äkta bricke-efterfrågan",
+      "notes": "Harvest 'vårtecken bingo förskola', 'första ljudet bingo' — tematisk efterfrågan finns. Håll dig till 'bildbingo/bingo förskola', undvik 'bingo online/casino'."
+    },
+    "grid-match": {
+      "primaryQuery": "para ihop bilder förskolan",
+      "evidence": "harvest",
+      "title": "Rutmatchning – bild i rätt ruta (PDF)",
+      "h1": "Rutmatchning: sätt bilden på rätt plats",
+      "metaDescription": "Läs rad och kolumn, sätt bilden rätt: 50 rutgåtor för förskoleklass — träna rumsuppfattning, gratis att skriva ut eller lösa online med facit.",
+      "winnability": "SKIP huvudord (inget svenskt sökord för mekaniken); lever på interna länkar",
+      "notes": "Inget harvest-match för 'rutmatchning'. Beskriv ärligt; häng i visuell-perception-klustret."
+    },
+    "matching": {
+      "primaryQuery": "para ihop bilder förskolan",
+      "evidence": "harvest",
+      "title": "Para ihop – matcha bilder som hör ihop (PDF)",
+      "h1": "Para ihop: vad hör samman?",
+      "metaDescription": "Hitta paren och dra streck: 94 arbetsblad om att para ihop bilder för förskola och förskoleklass — ordförråd och logik, gratis att skriva ut.",
+      "winnability": "MID — 'matchning' pur är arbetsmarknads-intent; 'para ihop bilder förskolan' (verbatim) är rätt intent",
+      "notes": "Använd 'para ihop' som ledord (verbatim harvest), inte 'matchning'. Nära visual-matching — skilj: matching = matte/logik-para, visual-matching = perception."
+    },
+    "picture-sort": {
+      "primaryQuery": "sortera bilder",
+      "evidence": "harvest",
+      "title": "Sortera bilder – vad hör ihop? (PDF)",
+      "h1": "Sortera bilder: ordna efter kategori",
+      "metaDescription": "Djur till djur, fordon till fordon: 154 sorteringsblad där barn ordnar bilder efter kategori — tänka i grupper från förskolan, gratis att skriva ut.",
+      "winnability": "MID — 'sortera bilder' pur = iPhone/foto-app-fälla; kategori-vinkeln via förskole-intersection",
+      "notes": "FÄLLA: 'sortera bilder' huvudord är foto-hantering. Bygg copyn kring 'sortera i kategorier / vad hör ihop'. Förskole-intersection tar 'sortera förskola'."
+    },
+    "shadow-match": {
+      "primaryQuery": "para ihop bilder förskolan",
+      "evidence": "serp",
+      "title": "Matcha skuggor – arbetsblad gratis (PDF)",
+      "h1": "Matcha skuggor: vilken skugga hör till bilden?",
+      "metaDescription": "94 skugggåtor: barn kopplar bilden till rätt skugga och tränar visuell perception — för förskola och förskoleklass, skriv ut gratis eller spela online.",
+      "winnability": "WINNABLE — SERP tunn (inga stora ägare för skuggmatchning); bästa enskilda chansen i perceptions-klustret",
+      "notes": "Ingen dominant ägare i SERP. Bygg en best-in-class-sida; länka från visual-discrimination-klustrets huvud."
+    },
+    "alphabet-train": {
+      "primaryQuery": "bokstavspussel",
+      "evidence": "harvest",
+      "title": "Alfabetståget – bokstäver i ordning (PDF)",
+      "h1": "Alfabetståget: alfabetet i rätt ordning",
+      "metaDescription": "Sätt de saknade bokstäverna i tåget: 77 alfabetsblad för förskolan — lär dig alfabetet och bokstavsordningen, gratis att skriva ut eller spela online.",
+      "winnability": "LOW-MID — 'alfabetståg' mest leksaks-intent; 'bokstavsordning / alfabetet förskola' är äkta men litet",
+      "notes": "Skilj från letter-knowledge (känna igen enstaka bokstav). Här = alfabetets ordning, saknade bokstäver."
+    },
+    "prepositions": {
+      "primaryQuery": "lägesord förskola",
+      "evidence": "serp",
+      "title": "Prepositioner och lägesord – förskola (PDF)",
+      "h1": "Lägesord: i, på, under, bredvid – med bilder",
+      "metaDescription": "Var är bollen? 94 bildblad om prepositioner och lägesord som i, på, under och bredvid — perfekt för förskola och språkträning, gratis som PDF.",
+      "winnability": "WINNABLE — SERP: skolmagi/teachacademy betalt, elevspel online; gratis utskrivbar vinkel öppen. Moat-tema (11 språk)",
+      "notes": "'lägesord förskola' är starkt lärar-sökord (harvest + SERP). Skilj från position-words (matte-lägeord) — här språk/lägesord-vinkeln."
+    },
+    "word-guess": {
+      "primaryQuery": "gissa ordet",
+      "evidence": "harvest",
+      "title": "Gissa ordet – bokstavsgåtor för barn (PDF)",
+      "h1": "Gissa ordet: bokstav för bokstav till lösningen",
+      "metaDescription": "Titta på bilden, gissa ordet, fyll i bokstäverna: 97 gåtblad för läsnybörjare — ordförråd och stavning på lek, gratis att skriva ut eller spela online.",
+      "winnability": "LOW-MID — 'gissa ordet' huvudord är app/spel-intent; utskrivbar longtail tunn men nåbar",
+      "notes": "Inget starkt svenskt utskrivbart nyckelord. Positionera mot läsnybörjare + bild-stöd; undvik hänggubbe-wording."
+    },
+    "word-scramble": {
+      "primaryQuery": "bokstavspussel att skriva ut",
+      "evidence": "harvest",
+      "title": "Bokstavspussel att skriva ut – gratis (PDF)",
+      "h1": "Bokstavspussel: lägg bokstäverna till ord",
+      "metaDescription": "Reda ut de rörda bokstäverna: 96 bokstavspussel med bildstöd för årskurs 1 — lästräning med bus, gratis att skriva ut som PDF eller spela online.",
+      "winnability": "WINNABLE — harvest 'bokstavspussel att skriva ut' verbatim; SERP tunn i K-1-segmentet",
+      "notes": "Intersection åk 1 tar 'bokstavspussel åk 1'. 'bokstavspussel' huvudord kan vara trä-leksak-intent — kvalificera med 'att skriva ut / ord'."
+    },
+    "wordsearch": {
+      "primaryQuery": "ordsök barn skriva ut",
+      "evidence": "serp",
+      "title": "Ordsök för barn – skriva ut gratis (PDF)",
+      "h1": "Ordsök: hitta orden i bokstavsrutan",
+      "metaDescription": "Hitta orden i bokstavsrutan: 49 ordsök med barnvänliga temaord för årskurs 1 — varje ordsök gratis att skriva ut som PDF eller spela online.",
+      "winnability": "WINNABLE — SERP: skolbilder-generator, printables.se, storyboardthat; ingen dominant K-3-ägare",
+      "notes": "KRITISKT: demand-ordet är 'ORDSÖK' (även 'ordflätor/ordgömma'), INTE 'ordleta' (taxonomins 'Ordleta' matchar knappt harvest). Överväg taxonomi-namnet."
+    },
+    "crossword": {
+      "primaryQuery": "korsord för barn att skriva ut",
+      "evidence": "serp",
+      "title": "Bilderkorsord för barn – skriva ut (PDF)",
+      "h1": "Bilderkorsord för barn som börjat läsa",
+      "metaDescription": "Korsord med bilder istället för frågor: barnet benämner motivet och skriver ordet. 47 korsord för läsnybörjare — gratis som PDF med facit.",
+      "winnability": "HARD huvudord (gratiskorsord.se, kryss.se äger 'korsord för barn'); WINNABLE via bilderkorsord + åk 2-intersection",
+      "notes": "Vinkel: 'korsord för barn som inte kan läsa' (bild-ledtrådar) är en lucka (SERP: Sydsvenskan minibladet). Håll dig från vuxen-korsord."
+    },
+    "sudoku": {
+      "primaryQuery": "bildsudoku barn skriva ut",
+      "evidence": "serp",
+      "title": "Bildsudoku för barn – skriva ut (PDF)",
+      "h1": "Bildsudoku: sudoku med bilder för barn",
+      "metaDescription": "Sudoku utan siffror: i 4x4-rutorna hamnar bilder — perfekt för förskola och förskoleklass. 99 bildsudoku med facit, gratis att skriva ut eller spela online.",
+      "winnability": "WINNABLE — SERP: skolmagi/klurigheterforbarn/teachacademy betalt/nisch; exakt content-match (4x4 bildsudoku)",
+      "notes": "'bildsudoku' verbatim harvest + skolmagi säljer '4x4 bildsudoku sommar/grönsaker' — tematisk longtail via deck-landningar."
+    },
+    "cryptogram": {
+      "primaryQuery": "kryptogram",
+      "evidence": "harvest",
+      "title": "Kryptogram för barn – knäck koden (PDF)",
+      "h1": "Kryptogram: knäck den hemliga meningen",
+      "metaDescription": "Symboler för bokstäver, tyda meningen: 101 kryptogram-gåtor för barn från förskoleklass — logik och läsning, gratis att skriva ut eller spela online.",
+      "winnability": "WINNABLE nisch — 'kryptogram barn' tunt besatt (huvudord = korsord/synonym-intent)",
+      "notes": "Temalöst (text-avkodning) — obärbart på deck-nivå; topic-sidan bär efterfrågan själv. Skilj från vuxen-kryptogram."
+    },
+    "picture-path": {
+      "primaryQuery": "labyrint barn skriva ut",
+      "evidence": "harvest",
+      "title": "Bildväg och labyrint – hitta vägen (PDF)",
+      "h1": "Bildväg: hitta rätt väg genom rutorna",
+      "metaDescription": "Följ lösningsvägen ruta för ruta: 85 bildväg-gåtor för förskoleklass — första logiska tänkandet, varje blad gratis att skriva ut eller spela online.",
+      "winnability": "MID — 'labyrint barn' har efterfrågan; 'bildväg' pur är tapet/korsord-fälla",
+      "notes": "Använd labyrint/väg-wording (harvest 'labyrint'); 'bildväg' huvudord är fel intent. Logik-longtail + interna länkar."
+    },
+    "find-and-count": {
+      "primaryQuery": "hitta och räkna",
+      "evidence": "harvest",
+      "title": "Hitta och räkna – förskoleblad (PDF)",
+      "h1": "Hitta och räkna: vimmelbilder att räkna",
+      "metaDescription": "Upptäck motiven i bilden och räkna dem: 91 hitta-och-räkna-blad för förskolan — mängduppfattning och koncentration i ett, gratis att skriva ut.",
+      "winnability": "LOW-MID — 'räkna bilder' huvudord delvis annan intent; äkta efterfrågan via 'räkna'-grannskap + vimmelbild",
+      "notes": "Skilj från find-objects: här RÄKNAR barnet (mängd); find-objects = leta/hitta föremål. Överlappar delvis — håll copyn på räkna-vinkeln."
+    },
+    "find-objects": {
+      "primaryQuery": "hitta föremål bild barn",
+      "evidence": "harvest",
+      "title": "Hitta föremålen – leta i bilden (PDF)",
+      "h1": "Hitta föremålen: leta upp sakerna i bilden",
+      "metaDescription": "Spåra de gömda sakerna i bilden: 97 leta-och-hitta-blad för förskola och förskoleklass — träna noggrann blick, gratis att skriva ut eller spela online.",
+      "winnability": "MID — 'hitta föremål' delvis spel-app-intent; 'leta och hitta / vimmelbild' vinkeln mindre konkurrensutsatt",
+      "notes": "Skilj från find-and-count (räkna). Här = I-Spy/leta. H1 för båda äkta orden (leta/hitta)."
+    },
+    "treasure-hunt": {
+      "primaryQuery": "skattjakt barn skriva ut",
+      "evidence": "serp",
+      "title": "Skattjakt-gåtor för barn (PDF & online)",
+      "h1": "Skattjakt: gåtvägar fram till skatten",
+      "metaDescription": "Följ vägen över spelplanen till skatten: 99 skattjakt-gåtor för årskurs 1 — orientering och logik, gratis att skriva ut eller spela online.",
+      "winnability": "LOW huvudord (barnkalas-skattjakt dominerar massivt: zenframe, venuu, goodies); longtail 'skattjakt åk 1' via intersection",
+      "notes": "Var ärlig: våra deck är gåtblad, inte färdiga barnkalas-ledtrådsjakter. Positionera mot skola/åk 1, inte kalas."
+    },
+    "missing-pieces": {
+      "primaryQuery": "vad saknas barn",
+      "evidence": "harvest",
+      "title": "Vad saknas? Bildgåtor att skriva ut (PDF)",
+      "h1": "Vad saknas? Hitta den saknade biten",
+      "metaDescription": "Vilken bit saknas i bilden? 96 sökgåtor för förskoleklass: känn igen och para ihop den saknade delen — visuell perception, gratis som PDF.",
+      "winnability": "LOW-MID — 'saknade bitar' huvudord = lego/korsord-fälla; 'vad saknas'-longtail liten men ren",
+      "notes": "Ranka alltid med kontext-kvalificerare (vad saknas i bilden / förskola), aldrig på 'saknar bitar' pur."
+    },
+    "odd-one-out": {
+      "primaryQuery": "vilken passar inte",
+      "evidence": "serp",
+      "title": "Vilken passar inte? Arbetsblad (PDF)",
+      "h1": "Vilken passar inte in? Logik med bilder",
+      "metaDescription": "Fyra bilder, en passar inte in: 90 arbetsblad om logiskt tänkande för förskola och förskoleklass — känn igen kategorier, gratis att skriva ut som PDF.",
+      "winnability": "WINNING — LCS rankar redan #1 för 'vilken passar inte' (/sv/topic/forskoleklass/vilken-passar-inte). Bygg ut, inte om",
+      "notes": "Verbatim-suggestion + LCS äger redan surfacen. Exakt content-match; en av de starkaste moat-sidorna."
+    },
+    "counting-pictures": {
+      "primaryQuery": "räkna bilder",
+      "evidence": "harvest",
+      "title": "Räkna bilder – lär dig räkna (PDF)",
+      "h1": "Räkna bilder: räkna motiv och antal",
+      "metaDescription": "Räkna först, para ihop med talet sen: 27 räkneblad med glada motiv för förskoleklass — säker mängdkänsla inom 10, gratis att skriva ut som PDF.",
+      "winnability": "LOW-MID — 'räkna bilder' delvis bild-för-tryck-intent; via 'räkna lära sig' + mängd-longtail",
+      "notes": "Litet bestånd (27). Prioritet bakom more-less/find-and-count. Skilj från find-and-count (leta+räkna i vimmel)."
+    },
+    "counting-frames": {
+      "primaryQuery": "tioramar",
+      "evidence": "harvest",
+      "title": "Tioramar och tiokompisar (PDF)",
+      "h1": "Tioramar: se mängder i tioramen",
+      "metaDescription": "Se prickarna i tioramen på en gång: övningsblad om taluppdelning och tiokompisar inom 10 för räknestarten — gratis att skriva ut som PDF med facit.",
+      "winnability": "WINNABLE nisch ('tiokompisar / tioram' rent lärar-intent) — men bara 9 deck: DECK-GAP",
+      "notes": "Efterfrågan tydlig (harvest 'tiokompisar arbetsblad gratis'), beståndet för tunt. Rekommendera deck-produktion, sedan åk 1-intersection."
+    },
+    "tally-counting": {
+      "primaryQuery": "räkna med streck",
+      "evidence": "harvest",
+      "title": "Räkna med streck – stapelräkning (PDF)",
+      "h1": "Räkna med streck: räkna och notera",
+      "metaDescription": "Räkna med streck som de stora: räkna, bunta i femmor, läs av. Övningsblad om räknestreck för förskoleklass och åk 1 — samla data, gratis som PDF.",
+      "winnability": "WINNABLE nisch (harvest 'räkna med streck / räknestreck') — men bara 4 deck: DECK-GAP",
+      "notes": "Först deck-produktion, sedan lönar sig sidan. Efterfrågan finns men liten."
+    },
+    "number-charts": {
+      "primaryQuery": "hundraruta att skriva ut gratis",
+      "evidence": "serp",
+      "title": "Hundraruta att skriva ut – övningar (PDF)",
+      "h1": "Hundraruta: övningar i talområdet 0-100",
+      "metaDescription": "Hitta tal, fyll i luckor, upptäck mönster: 34 hundraruta-blad i talområdet upp till 100 — övningar, inte bara tom ruta, gratis att skriva ut som PDF.",
+      "winnability": "HARD (Majema, NCM, lärarhjälpen, elevspel äger 'hundraruta') — men de flesta är tomma affischer; vår vinkel = övningar",
+      "notes": "SERP-ägarna erbjuder mest tomma rutor. Vår lucka = ifyllnadsuppgifter. Åk 1-intersection (13 deck) är ingången."
+    },
+    "comparing-numbers": {
+      "primaryQuery": "jämföra tal",
+      "evidence": "harvest",
+      "title": "Jämföra tal – större, mindre, lika (PDF)",
+      "h1": "Jämföra tal med <, > och =",
+      "metaDescription": "Vilket tal är störst? Arbetsblad om att jämföra tal med tecknen <, > och = för åk 1 och 2 — gäddan gapar mot det större talet, gratis som PDF.",
+      "winnability": "WINNABLE nisch (harvest 'jämföra tal' rent) — men bara 6 deck: DECK-GAP",
+      "notes": "Klassiskt åk 1-tema med rent lärar-intent; bygg upp beståndet. Skilj från comparing-groups (mängder utan tecken)."
+    },
+    "comparing-groups": {
+      "primaryQuery": "fler eller färre förskola",
+      "evidence": "harvest",
+      "title": "Jämföra mängder – fler eller färre (PDF)",
+      "h1": "Jämföra mängder: var finns fler, var färre?",
+      "metaDescription": "Två grupper, en blick: barnet jämför mängder och markerar den större. Förskoleblad om mängduppfattning utan tecken — gratis att skriva ut som PDF.",
+      "winnability": "MID — semantiskt nära more-less; bara 8 deck: DECK-GAP",
+      "notes": "Undvik kannibalisering med more-less: denna nyckel tar 'jämföra mängder' (utan </>-tecken); comparing-numbers tar tecken-formuleringen."
+    },
+    "comparing-sizes": {
+      "primaryQuery": "jämföra storlek förskola",
+      "evidence": "harvest",
+      "title": "Jämföra storlekar – störst och minst (PDF)",
+      "h1": "Jämföra storlekar: hitta störst och minst",
+      "metaDescription": "Ordna från minsta till största motivet: 15 arbetsblad om att jämföra storlek i förskolan — bygg upp första mätföreställningar, gratis att skriva ut.",
+      "winnability": "MID nisch — harvest 'jämföra storlek förskola' verbatim; SERP inte särskilt besatt",
+      "notes": "Skilj från big-small (stor/liten, förskola) i copyn: här ORDNAR man efter storlek."
+    },
+    "number-lines": {
+      "primaryQuery": "tallinje arbetsblad",
+      "evidence": "serp",
+      "title": "Tallinje att skriva ut – övningar (PDF)",
+      "h1": "Tallinje: placera tal på tallinjen",
+      "metaDescription": "Hitta och skriv tal på tallinjen: övningsblad i talområdet 0-20 för räknestarten — placera talen rätt, gratis att skriva ut som PDF med facit.",
+      "winnability": "HARD (NCM, skolmagi, teachacademy) — bara 9 deck: DECK-GAP, största obetjänade matte-efterfrågan",
+      "notes": "'tallinje 0-20 / 0-100 / åk 1' är en av de starkaste matte-familjerna i harvest — prioritera deck-produktion."
+    },
+    "base-ten": {
+      "primaryQuery": "tiotal och ental arbetsblad",
+      "evidence": "harvest",
+      "title": "Tiotal och ental – övningar (PDF)",
+      "h1": "Tiotal och ental: dela upp tal",
+      "metaDescription": "Dela upp tal i tiotal och ental: arbetsblad med åskådligt material för åk 1 och 2 — grund för att räkna upp till 100, gratis att skriva ut som PDF.",
+      "winnability": "MID nisch — 12 deck precis på gränsen; efterfrågan stabil ('tiotal och ental åk 1' verbatim)",
+      "notes": "Beståndet gränsigt för egna intersections; stärk typ-sidan först."
+    },
+    "telling-time": {
+      "primaryQuery": "klockan arbetsblad",
+      "evidence": "serp",
+      "title": "Lära sig klockan – arbetsblad gratis (PDF)",
+      "h1": "Lära sig klockan: läs klockan steg för steg",
+      "metaDescription": "Hela timmar, halvtimmar, minuter: 81 arbetsblad om att läsa analog klocka — från åk 1 till åk 3, gratis att skriva ut som PDF eller öva online.",
+      "winnability": "HARD huvudord (könig, lektionsbanken, skolmagi, lektion.se); WINNABLE via åk 1/2/3-intersections",
+      "notes": "Suggestion-familjen extremt rik (hel/halv, åk 2/3, skriva ut). Intersections (åk 2, åk 3) är money-pages."
+    },
+    "fractions": {
+      "primaryQuery": "bråk arbetsblad",
+      "evidence": "harvest",
+      "title": "Enkla bråk – halva och fjärdedel (PDF)",
+      "h1": "Första bråken: hel, halva, fjärdedel",
+      "metaDescription": "Halva, fjärdedel och hel åskådligt: 68 bråkblad med bilder att färglägga och para ihop — första bråkföreställning för åk 2-3, gratis att skriva ut.",
+      "winnability": "LOW-MID — svensk bråk-efterfrågan ligger i åk 4-6 (harvest 'bråk åk 4/5/6'); K-3-andelen liten. Rama in 'enkla bråk'",
+      "notes": "FÄLLA: 'bråk åk 1/2' delvis fel — huvudefterfrågan är mellanstadiet. Håll copyn på enkla, bildbaserade bråk (åk 2-3)."
+    },
+    "graphing-data": {
+      "primaryQuery": "tabeller och diagram åk 1",
+      "evidence": "harvest",
+      "title": "Diagram och tabeller – arbetsblad (PDF)",
+      "h1": "Diagram och tabeller: läs av och fyll i",
+      "metaDescription": "Läs av stapeldiagram och fyll i själv: 28 arbetsblad om tabeller och diagram för lågstadiet — gratis att skriva ut som PDF, facit medföljer.",
+      "winnability": "WINNABLE — 'tabeller och diagram åk 1/2' verbatim; SERP mest betalt (skolmagi/teach academy), gratis-vinkeln öppen",
+      "notes": "Intersection åk 1 bär 'tabeller och diagram åk 1'. Skilj från chart-count (barnet FYLLER i egen räkning)."
+    },
+    "arrays-multiplication": {
+      "primaryQuery": "multiplikation med bilder",
+      "evidence": "harvest",
+      "title": "Första multiplikationen – med bilder (PDF)",
+      "h1": "Första multiplikationen: gånger med bilder",
+      "metaDescription": "Rader och rutor istället för stel plugg: 31 multiplikationsblad med prickbilder som ingång till gångertabellen — gratis att skriva ut som PDF.",
+      "winnability": "HARD huvudord (multiplikationstabellen tungt besatt); longtail via åk 2-intersection + bild-vinkeln",
+      "notes": "Våra deck = arrayer/prickfält (ingång), inte tabell-drill — positionera ärligt. Harvest 'upprepad addition' är rätt granne."
+    },
+    "geometry": {
+      "primaryQuery": "geometri arbetsblad åk 1",
+      "evidence": "harvest",
+      "title": "Geometri för lågstadiet – arbetsblad (PDF)",
+      "h1": "Geometri: känn igen former och figurer",
+      "metaDescription": "Känn igen former, skilj figurer och kroppar: 37 geometriblad från förskoleklass till åk 3 — gratis att skriva ut som PDF med facit.",
+      "winnability": "MID — huvudord åk 3-6-tungt; åk 2-intersection är den rena ingången",
+      "notes": "Intersection geometry__grade-2 (17 deck) bär verbatim-efterfrågan. Skilj från shapes-temat (vardaglig formigenkänning, förskola)."
+    },
+    "measurement": {
+      "primaryQuery": "mäta längd åk 1",
+      "evidence": "harvest",
+      "title": "Mätning och mäta längd – arbetsblad (PDF)",
+      "h1": "Mätning: jämför och mät längder",
+      "metaDescription": "Med linjal och ögonmått: 35 arbetsblad om att mäta och jämföra längder — från förskoleklass till åk 2, gratis att skriva ut som PDF.",
+      "winnability": "MID — 'mätning' pur vattnas ur (valmätning/politik); lågstadie-longtail via åk 1-intersection",
+      "notes": "FÄLLA: 'mätning' huvudord är opinions-/mätteknik-intent. Använd 'mäta längd'-wording (harvest 'mäta längd åk 1')."
+    },
+    "visual-logic": {
+      "primaryQuery": "logiska pussel barn",
+      "evidence": "harvest",
+      "title": "Logiska pussel för barn – gratis (PDF)",
+      "h1": "Logiska pussel: klura och kombinera",
+      "metaDescription": "Kombinera istället för att gissa: 14 logiska pussel för barn med bilder istället för text — tankträning från förskoleklass till åk 3, gratis som PDF.",
+      "winnability": "MID — 'logiska pussel barn' verbatim; huvudord annars vuxen-dominerat. Bara 14 deck",
+      "notes": "DECK-GAP-kandidat: efterfrågan finns (harvest 'logiska pussel barn/online/bok')."
+    },
+    "visual-discrimination": {
+      "primaryQuery": "visuell perception övningar",
+      "evidence": "harvest",
+      "title": "Visuell perception – arbetsblad gratis (PDF)",
+      "h1": "Visuell perception: träna ögat för detaljer",
+      "metaDescription": "Hitta lika bilder, se skillnader, jämför detaljer: 15 arbetsblad för visuell perception för förskola och förskoleklass — gratis att skriva ut som PDF.",
+      "winnability": "WINNABLE — SERP fragmenterad (skolmagi/wordwall); ergo/dyslexi-publiken söker aktivt",
+      "notes": "Kluster-huvud: länka härifrån till shadow-match, missing-pieces, odd-one-out, grid-match."
+    },
+    "visual-matching": {
+      "primaryQuery": "para ihop bilder förskolan",
+      "evidence": "harvest",
+      "title": "Para ihop bilder – arbetsblad för barn (PDF)",
+      "h1": "Para ihop bilder: hitta paren och det som passar",
+      "metaDescription": "Vilken bild hör till vilken? Arbetsblad om att para ihop bilder för förskola och förskoleklass med vardagsmotiv — träna perception, gratis som PDF.",
+      "winnability": "MID nisch — 'para ihop bilder förskolan' verbatim, men bara 5 deck: DECK-GAP",
+      "notes": "Efterfrågan-familjen komplett (förskola/förskoleklass); bygg beståndet. Skilj från matching (matte/logik-para)."
+    },
+    "patterns": {
+      "primaryQuery": "mönster arbetsblad förskolan",
+      "evidence": "harvest",
+      "title": "Mönster – fortsätt raden, arbetsblad (PDF)",
+      "h1": "Mönster: känn igen och fortsätt raden",
+      "metaDescription": "Hur fortsätter raden? Arbetsblad om att fortsätta mönster med former och bilder för förskola och åk 1 — gratis att skriva ut som PDF med facit.",
+      "winnability": "WINNABLE — SERP måttlig; suggestion-familjen mycket rik ('mönster förskola/förskoleklass/åk 1')",
+      "notes": "Slug monster = exakt demand-match. Förskoleklass-kvalificeraren går till pattern-train (245 deck) — dubbla INTE här."
+    },
+    "position-words": {
+      "primaryQuery": "lägesord förskola",
+      "evidence": "harvest",
+      "title": "Lägesord i matematik – över, under (PDF)",
+      "h1": "Lägesord: över, under, bredvid, framför",
+      "metaDescription": "Var ligger bollen — över, under eller bredvid korgen? Arbetsblad om lägesord och rumsuppfattning för förskola och åk 1, gratis att skriva ut.",
+      "winnability": "WINNABLE nisch (matte-lärar-intent; SERP tunn) — bara 8 deck: DECK-GAP",
+      "notes": "Granne till prepositions: position-words = matte-lägeord (rumsuppfattning), prepositions = språk/lägesord. Undvik kannibalisering."
+    },
+    "sorting-categories": {
+      "primaryQuery": "sortera och kategorisera förskola",
+      "evidence": "harvest",
+      "title": "Sortera i kategorier – övningsblad (PDF)",
+      "h1": "Sortera i kategorier: dela in i grupper",
+      "metaDescription": "Sortera efter färg, form eller sort: övningsblad om att ordna och kategorisera för förskola — lägg grunden för tänkande i grupper, gratis som PDF.",
+      "winnability": "SKIP som egen sida (4 deck) — 'sortera förskola'-efterfrågan går till picture-sort-intersection",
+      "notes": "Häng i picture-sort-klustret, pusha inte separat."
+    },
+    "picture-arithmetic": {
+      "primaryQuery": "räkna med bilder åk 1",
+      "evidence": "harvest",
+      "title": "Räkna med bilder – plus och minus (PDF)",
+      "h1": "Räkna med bilder: första plus och minus",
+      "metaDescription": "Räkna bilderna först, räkna sen: 14 arbetsblad med bilduppgifter i plus och minus för åk 1 — åskådlig räknestart, gratis att skriva ut som PDF.",
+      "winnability": "WINNABLE mellanled — 'räkna med bilder åk 1' rent; SERP måttlig, exakt content-match",
+      "notes": "Alla deck på åk 1 → ingen separat intersection behövs (vore dubblett). Frågan lever på typ-sidan."
+    },
+    "science-sort": {
+      "primaryQuery": "so arbetsblad åk 1",
+      "evidence": "harvest",
+      "title": "NO/SO: sortera i naturen – arbetsblad (PDF)",
+      "h1": "Sortera i naturen: ordna och upptäck",
+      "metaDescription": "Livsmiljöer, årstider, natur: 90 sorteringsblad för NO och SO i förskoleklass och åk 1 — ordna kunskap om naturen, gratis att skriva ut som PDF.",
+      "winnability": "DEFER-TILL-HUB — 'so/no arbetsblad åk X' tillhör Ämne×Årskurs-hubben; topic-sidan är mekanik-stöd",
+      "notes": "Titla inte mot den egna NO/SO-hubben. Stöd-sida i naturkunskaps-klustret."
+    },
+    "science-match": {
+      "primaryQuery": "para ihop bilder kindergarten",
+      "evidence": "echo",
+      "title": "NO/SO: para ihop i naturen – arbetsblad (PDF)",
+      "h1": "Para ihop i naturen: vad hör samman?",
+      "metaDescription": "Djur till livsmiljö, redskap till yrke: 10 arbetsblad om att para ihop natur- och sakteman för nyfikna barn — koppla kunskap, gratis som PDF.",
+      "winnability": "LOW (10 deck, inget eget sökord) — intern länkning",
+      "notes": "Stöd-sida i naturkunskaps-klustret."
+    },
+    "science-sequence": {
+      "primaryQuery": "livscykler arbetsblad",
+      "evidence": "echo",
+      "title": "Livscykler och ordningsföljd – arbetsblad (PDF)",
+      "h1": "Livscykler: ordna naturens ordningsföljder",
+      "metaDescription": "Från ägg till larv till fjäril: arbetsblad om livscykler och ordningsföljder i naturen — ordna naturkunskap på lek, gratis att skriva ut som PDF.",
+      "winnability": "SKIP (1 deck) — bygg beståndet först",
+      "notes": "Platshållare; ingen push före deck-produktion."
+    },
+    "beginning-sounds": {
+      "primaryQuery": "första ljudet förskoleklass",
+      "evidence": "serp",
+      "title": "Första ljudet – arbetsblad gratis (PDF)",
+      "h1": "Första ljudet: hör och känn igen begynnelseljud",
+      "metaDescription": "Vilket ljud börjar ordet på? 10 arbetsblad om första ljudet med bilder för förskoleklass — träna fonologisk medvetenhet, gratis att skriva ut som PDF.",
+      "winnability": "HARD (skolmagi, teachingfuntastic, wordwall) — efterfrågan STOR, men bara 10 deck: största literacy-DECK-GAP",
+      "notes": "Suggestion-familjen bred ('första ljudet förskoleklass/arbetsblad/bingo'). Deck-produktion skulle låsa upp en hel efterfrågefamilj."
+    },
+    "letter-knowledge": {
+      "primaryQuery": "bokstavskunskap",
+      "evidence": "harvest",
+      "title": "Känna igen bokstäver – arbetsblad (PDF)",
+      "h1": "Bokstavskunskap: känn igen och skilj bokstäver",
+      "metaDescription": "Hitta rätt bokstav i raden: 20 arbetsblad om bokstavskunskap för förskola och skolstart — säker bokstavskännedom, gratis att skriva ut som PDF.",
+      "winnability": "MID — rent intent ('bokstavskunskap / känna igen bokstäver'), måttlig konkurrens",
+      "notes": "Besläktad 'skrivövningar bokstäver' är större men skriv-lärgångs-intent (vi har inga skrivblad — var ärlig)."
+    },
+    "word-building": {
+      "primaryQuery": "bygga ord av bokstäver",
+      "evidence": "harvest",
+      "title": "Bygga ord av bokstäver – arbetsblad (PDF)",
+      "h1": "Bygga ord: lägg ord av bokstäver",
+      "metaDescription": "Bokstav för bokstav till ett helt ord: 10 arbetsblad om att bygga ord för läsnybörjare — befäst ljud-bokstav-koppling, gratis att skriva ut som PDF.",
+      "winnability": "LOW-MID nisch (harvest 'bygga ord av bokstäver' verbatim, litet) — 10 deck",
+      "notes": "Longtail-granne till första-ljudet-familjen."
+    },
+    "picture-vocabulary": {
+      "primaryQuery": "bygga ordförråd",
+      "evidence": "harvest",
+      "title": "Ordförråd med bilder – gratis som PDF",
+      "h1": "Bildordförråd: se ordet och lär dig det",
+      "metaDescription": "Titta på bilden, lär dig ordet: bildordförråds-blad om vardagsteman — perfekt för språkträning och förskola, gratis att skriva ut som PDF.",
+      "winnability": "WINNABLE nisch — språkträning/SVA-publik, tunn SERP. Moat-tema (11 språk)",
+      "notes": "Lyft SVA/språkträning-vinkeln; bara 10 deck — bygg beståndet (temadeck finns som råvara)."
+    },
+    "phonological-awareness": {
+      "primaryQuery": "fonologisk medvetenhet övningar",
+      "evidence": "harvest",
+      "title": "Fonologisk medvetenhet – arbetsblad (PDF)",
+      "h1": "Ljud och stavelser: höra, klappa, läsa",
+      "metaDescription": "Klappa stavelser och höra ljud: 25 arbetsblad om fonologisk medvetenhet för förskola och förskoleklass — grunden för läsning, gratis som PDF.",
+      "winnability": "MID — 'fonologisk medvetenhet övningar / i förskolan' rent lärar-intent; SERP läromedel-tungt",
+      "notes": "Harvest-familjen rik (övningar/trappa/förskolan). Nära beginning-sounds — skilj: här stavelser+ljud generellt."
+    },
+    "preschool": {
+      "primaryQuery": "arbetsblad förskola gratis",
+      "evidence": "serp",
+      "title": "Arbetsblad förskola – gratis att skriva ut (PDF)",
+      "h1": "Förskola: arbetsblad för barn från 3 år",
+      "metaDescription": "423 förskoleblad: jämföra mängder, mönster, perception, första bokstäverna — allt gratis att skriva ut som PDF eller spela online.",
+      "winnability": "HARD huvudord (brainytoon, klassklur, förskoleburken, skolmagi); stärk med demand-titel + länkar till undernivåer",
+      "notes": "Harvest 'gratis arbetsblad förskola', 'matematik förskola skriva ut'. Ålders-longtail (3 år) i copyn."
+    },
+    "kindergarten": {
+      "primaryQuery": "arbetsblad förskoleklass",
+      "evidence": "serp",
+      "title": "Arbetsblad förskoleklass – gratis (PDF)",
+      "h1": "Förskoleklass: arbetsblad för sexåringar",
+      "metaDescription": "Största området: 2 431 arbetsblad för förskoleklass — från skuggmatchning till första plusuppgifter, gratis att skriva ut som PDF eller öva online.",
+      "winnability": "HARD huvudord (skolplus, elevspel, skolmagi); mid via 'gratis / skriva ut'-kvalificerare",
+      "notes": "Harvest 'arbetsblad förskoleklass', 'gratis arbetsblad förskoleklass'. Nivå-hub som fördelare till förskoleklass-intersections."
+    },
+    "grade-1": {
+      "primaryQuery": "matteuppgifter åk 1 skriva ut",
+      "evidence": "harvest",
+      "title": "Arbetsblad åk 1 – gratis att skriva ut (PDF)",
+      "h1": "Årskurs 1: arbetsblad i matte, svenska och logik",
+      "metaDescription": "569 arbetsblad för årskurs 1: räkna, bokstavspussel, ordsök, mönster och klockan — med facit, gratis att skriva ut som PDF eller spela online.",
+      "winnability": "HARD huvudord (skolplus, kims matte, matteblad-sajter); stärk + länka till typ-intersections",
+      "notes": "Harvest-familjen mycket rik ('matteuppgifter åk 1 skriva ut/gratis', 'matte åk 1'). Nivå-hub som fördelare till åk 1-intersections."
+    },
+    "grade-2": {
+      "primaryQuery": "matteuppgifter åk 2 skriva ut",
+      "evidence": "harvest",
+      "title": "Arbetsblad åk 2 – gratis att skriva ut (PDF)",
+      "h1": "Årskurs 2: arbetsblad i matte, svenska och gåtor",
+      "metaDescription": "168 arbetsblad för årskurs 2: korsord, klockan, geometri och räkna upp till 100 — varje blad med facit, gratis som PDF eller spela online.",
+      "winnability": "HARD huvudord; stärk som fördelarsida (bara ~168 deck — tunnaste kärnnivån)",
+      "notes": "Åk 2-beståndet är flaskhalsen (klockan/hundraruta/geometri visar åk 2-övervikt i efterfrågan). Prioritera deck-produktion."
+    },
+    "grade-3": {
+      "primaryQuery": "arbetsblad åk 3 skriva ut",
+      "evidence": "harvest",
+      "title": "Arbetsblad åk 3 – gratis att skriva ut (PDF)",
+      "h1": "Årskurs 3: arbetsblad att öva och klura på",
+      "metaDescription": "134 arbetsblad för årskurs 3: klockan på minuten, enkla bråk, multiplikation och geometri — gratis att skriva ut som PDF, facit medföljer.",
+      "winnability": "LOW prioritet — 134 deck, K-3-kant; huvudord hårt. Bara basunderhåll",
+      "notes": "Ingen utbyggnad före åk 1/2-mättnad."
+    },
+    "animals": {
+      "primaryQuery": "arbetsblad djur",
+      "evidence": "serp",
+      "title": "Arbetsblad djur – gratis att skriva ut",
+      "h1": "Djur: arbetsblad om djurvärlden",
+      "metaDescription": "159 djur-arbetsblad: räkna djur, para ihop, klura ut djurord — för förskola till åk 2, varje blad gratis att skriva ut som PDF eller spela online.",
+      "winnability": "MID — SERP blandar SO/NO och betalt (skolmagi/brainytoon); förskole-övnings-vinkeln öppen",
+      "notes": "Största temat (159 deck). SERP: ingen ägare för övnings-intent (naturkunskap dominerar). 'räkna och färglägg djuren' är grannmönstret."
+    },
+    "fruits": {
+      "primaryQuery": "frukt arbetsblad",
+      "evidence": "harvest",
+      "title": "Arbetsblad frukt – gratis att skriva ut",
+      "h1": "Frukt och bär: arbetsblad att skriva ut",
+      "metaDescription": "Räkna äpplen, para ihop frukter, klura ut fruktord: 114 arbetsblad om frukt för förskola och förskoleklass — gratis att skriva ut som PDF.",
+      "winnability": "MID — 'frukt / frukt och grönt' vardagligt sökord; SERP måttlig",
+      "notes": "Taxonomi 'Frukter'; håll 'frukt' som demand-ord. Naturlig granne till vegetables + räkna-mekaniker."
+    },
+    "vehicles": {
+      "primaryQuery": "fordon arbetsblad",
+      "evidence": "echo",
+      "title": "Arbetsblad fordon – gratis att skriva ut",
+      "h1": "Fordon: arbetsblad från bil till grävmaskin",
+      "metaDescription": "Bilar, grävmaskiner, brandbilar: 112 fordonsblad om att räkna, para ihop och klura — många barns favorittema, gratis att skriva ut som PDF.",
+      "winnability": "MID nisch — eko-evidens, tunn SERP",
+      "notes": "Populärt tema; bra ingångstrafik via deck-landningar."
+    },
+    "toys": {
+      "primaryQuery": "leksaker arbetsblad",
+      "evidence": "echo",
+      "title": "Arbetsblad leksaker – gratis att skriva ut",
+      "h1": "Leksaker: arbetsblad om barnens favoriter",
+      "metaDescription": "Räkna leksaker, para ihop och sortera: 108 arbetsblad om leksaker för förskola och förskoleklass — lekfulla motiv barn känner igen, gratis som PDF.",
+      "winnability": "MID nisch — eko-evidens, tunn SERP",
+      "notes": "Igenkänningstema för de yngsta; ingångstrafik."
+    },
+    "shapes": {
+      "primaryQuery": "former arbetsblad",
+      "evidence": "harvest",
+      "title": "Arbetsblad former – förskola & förskoleklass",
+      "h1": "Former: cirkel, triangel, kvadrat att upptäcka",
+      "metaDescription": "Cirkel, triangel, kvadrat: 97 form-arbetsblad om att känna igen, para ihop och sortera former för förskola och förskoleklass, gratis att skriva ut.",
+      "winnability": "WINNABLE mellanled — 'former arbetsblad / geometriska former' verbatim; SERP måttlig",
+      "notes": "Bygg bro till geometry (åk 1+) i copyn. Skilj: shapes = vardaglig formigenkänning, geometry = skol-geometri."
+    },
+    "bakery": {
+      "primaryQuery": "bageri arbetsblad",
+      "evidence": "echo",
+      "title": "Arbetsblad bageri – gratis att skriva ut",
+      "h1": "Bageri: arbetsblad om bröd och bakverk",
+      "metaDescription": "Bullar, bröd och bakverk: 64 bageri-arbetsblad om att räkna, para ihop och sortera för förskola — mysigt vardagstema, gratis att skriva ut som PDF.",
+      "winnability": "LOW-MID nisch — eko-evidens, inget starkt sökord",
+      "notes": "Litet men trevligt tema; ingångstrafik via deck-landningar."
+    },
+    "body_parts": {
+      "primaryQuery": "kroppsdelar arbetsblad",
+      "evidence": "harvest",
+      "title": "Arbetsblad kroppsdelar – gratis (PDF)",
+      "h1": "Kroppsdelar: arbetsblad om kroppen",
+      "metaDescription": "Namnge och para ihop kroppsdelar: 57 arbetsblad om kroppen för förskola och åk 1 — ordförråd och kroppskännedom, gratis att skriva ut som PDF.",
+      "winnability": "MID — 'kroppsdelar / kroppen arbetsblad' rent tema-sökord (harvest verbatim)",
+      "notes": "Harvest 'kroppen arbetsblad åk 1', 'människokroppen arbetsblad' — SO/NO-granne. Bra SVA-tema också."
+    },
+    "occupations": {
+      "primaryQuery": "yrken arbetsblad",
+      "evidence": "harvest",
+      "title": "Arbetsblad yrken – gratis att skriva ut",
+      "h1": "Yrken: arbetsblad om olika jobb",
+      "metaDescription": "Vad gör de olika yrkena? 58 arbetsblad om yrken för förskola och åk 1 — para ihop redskap och jobb, ordförråd och SO, gratis att skriva ut som PDF.",
+      "winnability": "MID — 'yrken arbetsblad / åk 1' verbatim harvest; SO-granne",
+      "notes": "Harvest 'yrken arbetsblad åk 1'. Naturlig SO-koppling; SVA-vänligt."
+    },
+    "flowers": {
+      "primaryQuery": "blommor arbetsblad",
+      "evidence": "harvest",
+      "title": "Arbetsblad blommor – gratis att skriva ut",
+      "h1": "Blommor: arbetsblad om blommor och växter",
+      "metaDescription": "Räkna, para ihop och sortera blommor: 56 arbetsblad om blommor för förskola och förskoleklass — vårnära naturtema, gratis att skriva ut som PDF.",
+      "winnability": "LOW-MID nisch — 'blommor arbetsblad' verbatim men litet",
+      "notes": "Naturkunskaps-granne. Undvik säsongsöverlapp med vår-temat (exkluderat)."
+    },
+    "space": {
+      "primaryQuery": "rymden arbetsblad",
+      "evidence": "harvest",
+      "title": "Arbetsblad rymden – gratis att skriva ut",
+      "h1": "Rymden: arbetsblad om planeter och rymd",
+      "metaDescription": "Planeter, raketer, stjärnor: 58 arbetsblad om rymden om att räkna, para ihop och klura för förskoleklass och åk 1-2 — gratis att skriva ut som PDF.",
+      "winnability": "MID nisch — 'rymden arbetsblad / arbetsblad rymden åk 2' verbatim harvest",
+      "notes": "Populärt SO/NO-tema; harvest visar åk 2-intent. Bra ingångstrafik."
+    },
+    "farm_animals": {
+      "primaryQuery": "bondgården arbetsblad",
+      "evidence": "harvest",
+      "title": "Arbetsblad bondgårdsdjur – gratis (PDF)",
+      "h1": "Bondgårdsdjur: arbetsblad om djuren på gården",
+      "metaDescription": "Ko, gris, höna och får: 57 arbetsblad om bondgårdsdjur om att räkna, para ihop och sortera för förskolan — populärt djurtema, gratis som PDF.",
+      "winnability": "LOW-MID nisch — 'bondgården / bondgårdsdjur arbetsblad' verbatim harvest",
+      "notes": "Granne till animals-temat; håll copyn på gårds-motiven."
+    },
+    "colors": {
+      "primaryQuery": "färger arbetsblad",
+      "evidence": "harvest",
+      "title": "Arbetsblad färger – gratis att skriva ut",
+      "h1": "Färger: arbetsblad om att lära färger",
+      "metaDescription": "Känn igen och para ihop färger: 48 arbetsblad om färger för förskola — lär färgernas namn på lek, gratis att skriva ut som PDF eller spela online.",
+      "winnability": "LOW-MID — harvest mest 'färger engelska'; svensk förskole-vinkel öppen",
+      "notes": "Harvest 'arbetsblad färger engelska' = språk-intent. Vår svenska förskole-vinkel är egen nisch."
+    },
+    "clothing": {
+      "primaryQuery": "kläder arbetsblad",
+      "evidence": "harvest",
+      "title": "Arbetsblad kläder – gratis att skriva ut",
+      "h1": "Kläder: arbetsblad om plagg och klädsel",
+      "metaDescription": "Namnge och para ihop kläder: 58 arbetsblad om plagg för förskola och förskoleklass — ordförråd och SVA-tema, gratis att skriva ut som PDF.",
+      "winnability": "LOW-MID — harvest mest 'kläder engelska/clothes'; svensk/SVA-vinkel öppen",
+      "notes": "Harvest 'clothes arbetsblad', 'kläder engelska' = språk-intent. SVA-vänligt tema."
+    },
+    "music": {
+      "primaryQuery": "musik arbetsblad",
+      "evidence": "harvest",
+      "title": "Arbetsblad musik – gratis att skriva ut",
+      "h1": "Musik: arbetsblad om instrument och musik",
+      "metaDescription": "Instrument och musikord: 56 arbetsblad om musik om att para ihop, räkna och sortera för förskola och lågstadiet — gratis att skriva ut som PDF.",
+      "winnability": "LOW-MID nisch — 'musik arbetsblad' verbatim, litet",
+      "notes": "Ämnesgranne (musik). Ingångstrafik via deck-landningar."
+    },
+    "weather": {
+      "primaryQuery": "väder arbetsblad",
+      "evidence": "harvest",
+      "title": "Arbetsblad väder – gratis att skriva ut",
+      "h1": "Väder: arbetsblad om vädret och årstider",
+      "metaDescription": "Sol, regn, moln och snö: 58 arbetsblad om väder om att para ihop och sortera för förskola och åk 1 — SO/NO-tema, gratis att skriva ut som PDF.",
+      "winnability": "LOW-MID nisch — 'väder arbetsblad' verbatim harvest",
+      "notes": "SO/NO-granne. Undvik säsongsöverlapp med vinter/vår (exkluderade)."
+    },
+    "tree": {
+      "primaryQuery": "träd arbetsblad",
+      "evidence": "harvest",
+      "title": "Arbetsblad träd – gratis att skriva ut",
+      "h1": "Träd: arbetsblad om träd och natur",
+      "metaDescription": "Svenska träd och löv: 55 arbetsblad om träd om att para ihop, räkna och sortera för förskoleklass och åk 1 — naturkunskap, gratis som PDF.",
+      "winnability": "LOW-MID nisch — 'träd arbetsblad / svenska träd arbetsblad' verbatim harvest",
+      "notes": "Harvest 'svenska träd arbetsblad' = NO-intent. Naturkunskaps-granne."
+    },
+    "dinosaurs": {
+      "primaryQuery": "dinosaurier arbetsblad",
+      "evidence": "harvest",
+      "title": "Arbetsblad dinosaurier – gratis (PDF)",
+      "h1": "Dinosaurier: arbetsblad om dinosaurier",
+      "metaDescription": "Räkna dinosaurier, para ihop och klura ut dino-ord: 45 arbetsblad om dinosaurier för förskola och förskoleklass — populärt tema, gratis som PDF.",
+      "winnability": "MID nisch — 'dinosaurier arbetsblad' verbatim harvest; barn-favorit",
+      "notes": "Starkt igenkänningstema; bra ingångstrafik och deck-landningar."
+    },
+    "emotions": {
+      "primaryQuery": "känslor arbetsblad",
+      "evidence": "harvest",
+      "title": "Arbetsblad känslor – gratis att skriva ut",
+      "h1": "Känslor: arbetsblad om att känna igen känslor",
+      "metaDescription": "Glad, ledsen, arg, rädd: 52 arbetsblad om känslor om att para ihop och benämna ansiktsuttryck för förskolan — socialt lärande, gratis som PDF.",
+      "winnability": "MID nisch — 'känslor arbetsblad' verbatim; värdegrund/SEL-intent rent",
+      "notes": "Förskole-värdegrund-tema med rent intent. Bra SVA-koppling också."
+    },
+    "birds": {
+      "primaryQuery": "fåglar arbetsblad",
+      "evidence": "harvest",
+      "title": "Arbetsblad fåglar – gratis att skriva ut",
+      "h1": "Fåglar: arbetsblad om fåglar",
+      "metaDescription": "Räkna och para ihop fåglar: 51 arbetsblad om fåglar för förskola och åk 1 — igenkänning och ordförråd om naturen, gratis att skriva ut som PDF.",
+      "winnability": "LOW-MID nisch — 'fåglar arbetsblad' verbatim harvest",
+      "notes": "Naturkunskaps-granne. Katalogen har birds + birds_2 — slå ihop i copyn."
+    },
+    "vegetables": {
+      "primaryQuery": "grönsaker arbetsblad",
+      "evidence": "echo",
+      "title": "Arbetsblad grönsaker – gratis att skriva ut",
+      "h1": "Grönsaker: arbetsblad om grönsaker",
+      "metaDescription": "Morötter, tomater och ärtor: 58 arbetsblad om grönsaker om att räkna, para ihop och sortera för förskolan — mat och natur, gratis som PDF.",
+      "winnability": "LOW-MID nisch — eko-evidens (harvest 'obst gemüse'-motsvarighet svag på sv)",
+      "notes": "Granne till fruits. Naturlig mat/natur-koppling; ingångstrafik."
+    },
+    "zoo_animals": {
+      "primaryQuery": "djurparksdjur arbetsblad",
+      "evidence": "echo",
+      "title": "Arbetsblad djurparksdjur – gratis (PDF)",
+      "h1": "Djurparksdjur: arbetsblad om djur på zoo",
+      "metaDescription": "Lejon, elefant, giraff: 58 arbetsblad om djurparksdjur om att räkna, para ihop och klura för förskola och förskoleklass — gratis att skriva ut som PDF.",
+      "winnability": "LOW-MID nisch — eko-evidens; barn-favorit",
+      "notes": "Granne till animals. Igenkänningstema; ingångstrafik."
+    },
+    "ocean_life": {
+      "primaryQuery": "havsdjur arbetsblad",
+      "evidence": "echo",
+      "title": "Arbetsblad havsdjur – gratis att skriva ut",
+      "h1": "Havsliv: arbetsblad om havets djur",
+      "metaDescription": "Fiskar, valar och krabbor: 58 arbetsblad om havsliv om att räkna, para ihop och sortera för förskolan — havets värld, gratis att skriva ut som PDF.",
+      "winnability": "LOW-MID nisch — eko-evidens (havsdjur/havsliv)",
+      "notes": "Naturkunskaps-granne. Använd 'havsdjur' som demand-ord (mer sökt än 'havsliv')."
+    },
+    "forest_creatures": {
+      "primaryQuery": "skogens djur arbetsblad",
+      "evidence": "echo",
+      "title": "Arbetsblad skogsdjur – gratis att skriva ut",
+      "h1": "Skogsdjur: arbetsblad om djuren i skogen",
+      "metaDescription": "Räv, ekorre, älg och igelkott: 57 arbetsblad om skogsdjur om att räkna, para ihop och sortera för förskolan — svensk natur, gratis som PDF.",
+      "winnability": "LOW-MID nisch — eko-evidens (skogens djur/skogsdjur)",
+      "notes": "Svensk naturkunskaps-granne; 'skogens djur' är det vanliga sökordet."
+    },
+    "pets": {
+      "primaryQuery": "husdjur arbetsblad",
+      "evidence": "echo",
+      "title": "Arbetsblad husdjur – gratis att skriva ut",
+      "h1": "Husdjur: arbetsblad om husdjur",
+      "metaDescription": "Hund, katt, kanin och marsvin: 56 arbetsblad om husdjur om att räkna och para ihop för förskola och förskoleklass — nära barnens vardag, gratis som PDF.",
+      "winnability": "LOW-MID nisch — eko-evidens",
+      "notes": "Granne till animals. Vardagsnära igenkänningstema."
+    },
+    "insects_and_bugs": {
+      "primaryQuery": "insekter arbetsblad",
+      "evidence": "echo",
+      "title": "Arbetsblad insekter och kryp – gratis (PDF)",
+      "h1": "Insekter och kryp: arbetsblad om småkryp",
+      "metaDescription": "Fjärilar, myror och nyckelpigor: 50 arbetsblad om insekter och kryp om att räkna, para ihop och sortera för förskolan — småkryp, gratis som PDF.",
+      "winnability": "LOW-MID nisch — eko-evidens; NO-granne",
+      "notes": "Naturkunskaps-granne. 'insekter / småkryp' vanligt sökord."
+    },
+    "things_that_fly": {
+      "primaryQuery": "saker som flyger arbetsblad",
+      "evidence": "echo",
+      "title": "Arbetsblad saker som flyger – gratis (PDF)",
+      "h1": "Saker som flyger: arbetsblad om det som flyger",
+      "metaDescription": "Flygplan, fåglar, ballonger och fjärilar: 58 arbetsblad om saker som flyger om att räkna och sortera för förskolan — gratis att skriva ut som PDF.",
+      "winnability": "LOW nisch — eko-evidens, inget starkt sökord",
+      "notes": "Litet nischtema; ingångstrafik via deck-landningar."
+    }
+  },
+  "intersections": [
+    {
+      "key": "addition__kindergarten",
+      "type": "addition",
+      "level": "kindergarten",
+      "query": "addition förskoleklass",
+      "decks": 197,
+      "title": "Addition förskoleklass – arbetsblad (PDF)",
+      "h1": "Addition i förskoleklass: första plusuppgifterna",
+      "metaDescription": "Räkna plus försiktigt: 197 additionsblad med bilder för förskoleklass — små steg inom 10, facit på varje blad, gratis att skriva ut eller öva online."
+    },
+    {
+      "key": "kindergarten__subtraction",
+      "type": "subtraction",
+      "level": "kindergarten",
+      "query": "subtraktion förskoleklass",
+      "decks": 193,
+      "title": "Subtraktion förskoleklass – arbetsblad (PDF)",
+      "h1": "Subtraktion i förskoleklass: första minusuppgifterna",
+      "metaDescription": "Ta bort och räkna: 193 subtraktionsblad med bilder för förskoleklass — enkla minusuppgifter inom 10 utan växling, facit ingår, gratis att skriva ut."
+    },
+    {
+      "key": "kindergarten__pattern-train",
+      "type": "pattern-train",
+      "level": "kindergarten",
+      "query": "mönster förskoleklass",
+      "decks": 245,
+      "title": "Mönster förskoleklass – fortsätt raden (PDF)",
+      "h1": "Mönster i förskoleklass: fortsätt med mönstertåget",
+      "metaDescription": "Vilken vagn kommer sen? 245 mönstertåg-blad för förskoleklass om att fortsätta mönster — logiskt tänkande, gratis att skriva ut eller spela online."
+    },
+    {
+      "key": "kindergarten__picture-sort",
+      "type": "picture-sort",
+      "level": "kindergarten",
+      "query": "sortera förskoleklass",
+      "decks": 154,
+      "title": "Sortera bilder förskoleklass – arbetsblad (PDF)",
+      "h1": "Sortera i förskoleklass: ordna efter kategori",
+      "metaDescription": "Vad hör ihop? 154 sorteringsblad för förskoleklass där barn ordnar bilder efter kategori — tänka i grupper, gratis att skriva ut som PDF eller online."
+    },
+    {
+      "key": "grade-1__math-puzzle",
+      "type": "math-puzzle",
+      "level": "grade-1",
+      "query": "mattepussel åk 1",
+      "decks": 146,
+      "title": "Mattepussel åk 1 – med facit (PDF)",
+      "h1": "Mattepussel för årskurs 1",
+      "metaDescription": "Klura istället för att drilla: 146 mattepussel för årskurs 1 med bildekvationer och facit — talförståelse på lek, gratis att skriva ut som PDF."
+    },
+    {
+      "key": "more-less__preschool",
+      "type": "more-less",
+      "level": "preschool",
+      "query": "mer eller mindre förskola",
+      "decks": 145,
+      "title": "Fler eller färre förskola – arbetsblad (PDF)",
+      "h1": "Fler eller färre i förskolan",
+      "metaDescription": "Var finns fler, var färre? 145 arbetsblad om att jämföra mängder för förskolan — räkna och jämföra utan siffror, gratis att skriva ut som PDF."
+    },
+    {
+      "key": "code-addition__kindergarten",
+      "type": "code-addition",
+      "level": "kindergarten",
+      "query": "räkna med symboler förskoleklass",
+      "decks": 145,
+      "title": "Kodaddition förskoleklass – hemlig kod (PDF)",
+      "h1": "Kodaddition i förskoleklass: räkna med symboler",
+      "metaDescription": "Bilder står för tal — knäck koden och räkna: 145 klurblad för förskoleklass med facit, gratis att skriva ut som PDF eller spela online."
+    },
+    {
+      "key": "big-small__preschool",
+      "type": "big-small",
+      "level": "preschool",
+      "query": "stor och liten förskola",
+      "decks": 110,
+      "title": "Stor och liten förskola – arbetsblad (PDF)",
+      "h1": "Stor och liten i förskolan: jämför storlek",
+      "metaDescription": "Vad är störst, vad är minst? 110 förskoleblad om att jämföra storlek med vardagsmotiv — träna blicken för stor och liten, gratis som PDF."
+    },
+    {
+      "key": "cryptogram__kindergarten",
+      "type": "cryptogram",
+      "level": "kindergarten",
+      "query": "kryptogram barn",
+      "decks": 101,
+      "title": "Kryptogram förskoleklass – knäck koden (PDF)",
+      "h1": "Kryptogram i förskoleklass: knäck den hemliga meningen",
+      "metaDescription": "Symboler för bokstäver, tyda meningen: 101 kryptogram-gåtor för förskoleklass — logik och läsning, gratis att skriva ut eller spela online."
+    },
+    {
+      "key": "grade-1__treasure-hunt",
+      "type": "treasure-hunt",
+      "level": "grade-1",
+      "query": "skattjakt åk 1",
+      "decks": 99,
+      "title": "Skattjakt åk 1 – gåtor att skriva ut (PDF)",
+      "h1": "Skattjakt-gåtor för årskurs 1",
+      "metaDescription": "Fält för fält fram till skatten: 99 skattjakt-gåtor för årskurs 1 — läsa vägar och orientera sig, gratis att skriva ut eller spela online."
+    },
+    {
+      "key": "kindergarten__sudoku",
+      "type": "sudoku",
+      "level": "kindergarten",
+      "query": "bildsudoku förskoleklass",
+      "decks": 99,
+      "title": "Bildsudoku förskoleklass – skriva ut (PDF)",
+      "h1": "Bildsudoku i förskoleklass: sudoku med bilder",
+      "metaDescription": "Sudoku utan siffror: i 4x4-rutorna hamnar bilder. 99 bildsudoku för förskoleklass med facit — gratis att skriva ut som PDF eller spela online."
+    },
+    {
+      "key": "find-objects__kindergarten",
+      "type": "find-objects",
+      "level": "kindergarten",
+      "query": "hitta föremål förskoleklass",
+      "decks": 97,
+      "title": "Hitta föremålen förskoleklass – arbetsblad (PDF)",
+      "h1": "Hitta föremålen i förskoleklass",
+      "metaDescription": "Spåra de gömda sakerna i bilden: 97 leta-och-hitta-blad för förskoleklass — träna noggrann blick, gratis att skriva ut som PDF eller online."
+    },
+    {
+      "key": "kindergarten__word-guess",
+      "type": "word-guess",
+      "level": "kindergarten",
+      "query": "gissa ordet förskoleklass",
+      "decks": 97,
+      "title": "Gissa ordet förskoleklass – arbetsblad (PDF)",
+      "h1": "Gissa ordet i förskoleklass",
+      "metaDescription": "Titta på bilden, gissa ordet, fyll i bokstäverna: 97 gåtblad för läsnybörjare i förskoleklass — ordförråd och stavning, gratis som PDF."
+    },
+    {
+      "key": "grade-1__word-scramble",
+      "type": "word-scramble",
+      "level": "grade-1",
+      "query": "bokstavspussel åk 1",
+      "decks": 96,
+      "title": "Bokstavspussel åk 1 – arbetsblad (PDF)",
+      "h1": "Bokstavspussel för årskurs 1",
+      "metaDescription": "Reda ut de rörda bokstäverna: 96 bokstavspussel med bildstöd för årskurs 1 — läs de första orden säkert, gratis att skriva ut som PDF eller online."
+    },
+    {
+      "key": "kindergarten__missing-pieces",
+      "type": "missing-pieces",
+      "level": "kindergarten",
+      "query": "vad saknas förskoleklass",
+      "decks": 96,
+      "title": "Vad saknas? Förskoleklass – bildgåtor (PDF)",
+      "h1": "Vad saknas i bilden? Förskoleklass",
+      "metaDescription": "Vilket pusselstycke fattas? 96 bildgåtor för förskoleklass där barn hittar och sätter tillbaka den saknade delen — visuell perception, gratis som PDF."
+    },
+    {
+      "key": "kindergarten__matching",
+      "type": "matching",
+      "level": "kindergarten",
+      "query": "para ihop bilder förskoleklass",
+      "decks": 94,
+      "title": "Para ihop bilder förskoleklass – arbetsblad (PDF)",
+      "h1": "Para ihop i förskoleklass: vad hör samman?",
+      "metaDescription": "Hitta paren och dra streck: 94 arbetsblad om att para ihop bilder för förskoleklass — ordförråd och logik, gratis att skriva ut som PDF."
+    },
+    {
+      "key": "kindergarten__shadow-match",
+      "type": "shadow-match",
+      "level": "kindergarten",
+      "query": "matcha skuggor förskoleklass",
+      "decks": 94,
+      "title": "Matcha skuggor förskoleklass – arbetsblad (PDF)",
+      "h1": "Matcha skuggor i förskoleklass",
+      "metaDescription": "Vilken skugga hör till bilden? 94 skugggåtor för förskoleklass som tränar visuell perception — gratis att skriva ut som PDF eller spela online."
+    },
+    {
+      "key": "kindergarten__prepositions",
+      "type": "prepositions",
+      "level": "kindergarten",
+      "query": "prepositioner förskoleklass",
+      "decks": 94,
+      "title": "Prepositioner förskoleklass – lägesord (PDF)",
+      "h1": "Prepositioner och lägesord i förskoleklass",
+      "metaDescription": "Var är bollen — i, på, under eller bredvid? 94 bildblad om prepositioner och lägesord för förskoleklass — språkträning, gratis som PDF."
+    },
+    {
+      "key": "find-and-count__preschool",
+      "type": "find-and-count",
+      "level": "preschool",
+      "query": "hitta och räkna förskola",
+      "decks": 91,
+      "title": "Hitta och räkna förskola – arbetsblad (PDF)",
+      "h1": "Hitta och räkna i förskolan",
+      "metaDescription": "Upptäck motiven och räkna dem: 91 hitta-och-räkna-blad för förskolan — mängduppfattning och koncentration i ett, gratis att skriva ut som PDF."
+    },
+    {
+      "key": "kindergarten__odd-one-out",
+      "type": "odd-one-out",
+      "level": "kindergarten",
+      "query": "vilken passar inte förskoleklass",
+      "decks": 90,
+      "title": "Vilken passar inte? Förskoleklass (PDF)",
+      "h1": "Vilken passar inte in? Förskoleklass",
+      "metaDescription": "Fyra bilder, en passar inte in: 90 arbetsblad om logiskt tänkande för förskoleklass — känn igen kategorier, gratis att skriva ut som PDF."
+    },
+    {
+      "key": "kindergarten__picture-path",
+      "type": "picture-path",
+      "level": "kindergarten",
+      "query": "labyrint förskoleklass",
+      "decks": 85,
+      "title": "Bildväg och labyrint förskoleklass (PDF)",
+      "h1": "Bildväg i förskoleklass: hitta vägen",
+      "metaDescription": "Följ lösningsvägen ruta för ruta: 85 bildväg-gåtor för förskoleklass — första logiska tänkandet, gratis att skriva ut eller spela online."
+    },
+    {
+      "key": "bingo__kindergarten",
+      "type": "bingo",
+      "level": "kindergarten",
+      "query": "bingo förskoleklass",
+      "decks": 79,
+      "title": "Bildbingo förskoleklass – skriva ut (PDF)",
+      "h1": "Bildbingo i förskoleklass",
+      "metaDescription": "Bingo med bilder istället för siffror: 79 färdiga spelbrickor för förskoleklass — skriv ut gratis och spela i grupp på en gång."
+    },
+    {
+      "key": "alphabet-train__preschool",
+      "type": "alphabet-train",
+      "level": "preschool",
+      "query": "alfabetet förskola",
+      "decks": 77,
+      "title": "Alfabetet förskola – bokstäver i ordning (PDF)",
+      "h1": "Alfabetet i förskolan: bokstäver i rätt ordning",
+      "metaDescription": "Sätt de saknade bokstäverna i tåget: 77 alfabetsblad för förskolan — lär alfabetet och bokstavsordningen, gratis att skriva ut eller online."
+    },
+    {
+      "key": "kindergarten__math-worksheet",
+      "type": "math-worksheet",
+      "level": "kindergarten",
+      "query": "matteblad förskoleklass",
+      "decks": 98,
+      "title": "Matteblad förskoleklass – blandade uppgifter (PDF)",
+      "h1": "Blandade matteuppgifter för förskoleklass",
+      "metaDescription": "Blandade räkneblad: plus och minus om vartannat för repetition. 98 matteblad för förskoleklass med facit — gratis att skriva ut som PDF."
+    },
+    {
+      "key": "chart-count__kindergarten",
+      "type": "chart-count",
+      "level": "kindergarten",
+      "query": "räkna i diagram förskoleklass",
+      "decks": 50,
+      "title": "Räkna och fyll i diagram – förskoleklass (PDF)",
+      "h1": "Räkna och fyll i diagram: förskoleklass",
+      "metaDescription": "Räkna motiven, fyll staplarna: 50 arbetsblad där förskoleklassbarn för in sitt räkneresultat i ett diagram — första datakänsla, gratis som PDF."
+    },
+    {
+      "key": "grid-match__kindergarten",
+      "type": "grid-match",
+      "level": "kindergarten",
+      "query": "para in i rutnät förskoleklass",
+      "decks": 50,
+      "title": "Rutmatchning förskoleklass – arbetsblad (PDF)",
+      "h1": "Rutmatchning i förskoleklass: bild i rätt ruta",
+      "metaDescription": "Läs rad och kolumn, sätt bilden rätt: 50 rutgåtor för förskoleklass som tränar rumsuppfattning — gratis att skriva ut eller lösa online."
+    },
+    {
+      "key": "grade-1__pattern-worksheet",
+      "type": "pattern-worksheet",
+      "level": "grade-1",
+      "query": "mönster arbetsblad åk 1",
+      "decks": 50,
+      "title": "Mönster åk 1 – fortsätt raden (PDF)",
+      "h1": "Mönsterblad för årskurs 1",
+      "metaDescription": "Former, färger, följder: 50 mönsterblad för årskurs 1 om att fortsätta rader — koncentration och matte-förkunskaper, gratis som PDF med facit."
+    },
+    {
+      "key": "grade-1__wordsearch",
+      "type": "wordsearch",
+      "level": "grade-1",
+      "query": "ordsök åk 1",
+      "decks": 49,
+      "title": "Ordsök åk 1 – skriva ut gratis (PDF)",
+      "h1": "Ordsök för årskurs 1",
+      "metaDescription": "Hitta orden i bokstavsrutan: 49 ordsök med korta, läsbara temaord för årskurs 1 — känn igen bokstäver säkert, gratis som PDF eller online."
+    },
+    {
+      "key": "crossword__grade-2",
+      "type": "crossword",
+      "level": "grade-2",
+      "query": "korsord åk 2 skriva ut",
+      "decks": 47,
+      "title": "Korsord åk 2 att skriva ut (PDF)",
+      "h1": "Bilderkorsord för årskurs 2",
+      "metaDescription": "Bilderkorsord för vana läsare: 47 korsord för årskurs 2 — känn igen motivet, skriv ordet, befäst stavningen. Gratis att skriva ut som PDF med facit."
+    },
+    {
+      "key": "grade-1__telling-time",
+      "type": "telling-time",
+      "level": "grade-1",
+      "query": "klockan åk 1",
+      "decks": 21,
+      "title": "Klockan åk 1 – lära sig klockan (PDF)",
+      "h1": "Lära sig klockan i årskurs 1",
+      "metaDescription": "Läsa hela och halva timmar: 21 klock-arbetsblad med visarklockor för årskurs 1 — första steget till att läsa klockan, gratis att skriva ut som PDF."
+    },
+    {
+      "key": "grade-2__telling-time",
+      "type": "telling-time",
+      "level": "grade-2",
+      "query": "klockan åk 2",
+      "decks": 20,
+      "title": "Klockan åk 2 – arbetsblad att skriva ut (PDF)",
+      "h1": "Lära sig klockan i årskurs 2",
+      "metaDescription": "Kvart i, kvart över och fem-minuter: 20 klock-arbetsblad med visarklockor och facit för årskurs 2 — läsa klockan säkert, gratis att skriva ut."
+    },
+    {
+      "key": "grade-3__telling-time",
+      "type": "telling-time",
+      "level": "grade-3",
+      "query": "klockan åk 3",
+      "decks": 40,
+      "title": "Klockan åk 3 – klockan på minuten (PDF)",
+      "h1": "Klockan i årskurs 3: på minuten",
+      "metaDescription": "Läsa klockan på minuten: 40 klock-arbetsblad med visarklockor för årskurs 3 — analog tid säkert, gratis att skriva ut som PDF eller öva online."
+    },
+    {
+      "key": "fractions__grade-2",
+      "type": "fractions",
+      "level": "grade-2",
+      "query": "bråk åk 2",
+      "decks": 34,
+      "title": "Bråk åk 2 – enkla bråk med bilder (PDF)",
+      "h1": "Enkla bråk i årskurs 2: halva och fjärdedel",
+      "metaDescription": "Halva och fjärdedel åskådligt: 34 bråkblad med bilder att färglägga och para ihop för årskurs 2 — första bråkföreställning, gratis som PDF."
+    },
+    {
+      "key": "fractions__grade-3",
+      "type": "fractions",
+      "level": "grade-3",
+      "query": "bråk åk 3",
+      "decks": 34,
+      "title": "Bråk åk 3 – bråk med bilder (PDF)",
+      "h1": "Bråk i årskurs 3: hel, halva, tredjedel, fjärdedel",
+      "metaDescription": "Hel, halva, tredjedel och fjärdedel: 34 bråkblad med bilder för årskurs 3 — bygg säker bråkföreställning, gratis att skriva ut som PDF med facit."
+    },
+    {
+      "key": "geometry__grade-2",
+      "type": "geometry",
+      "level": "grade-2",
+      "query": "geometri åk 2 arbetsblad",
+      "decks": 17,
+      "title": "Geometri åk 2 – arbetsblad gratis (PDF)",
+      "h1": "Geometri i årskurs 2",
+      "metaDescription": "Känn igen och skilj former och kroppar: 17 geometriblad för årskurs 2 — befäst formkunskap, gratis att skriva ut som PDF med facit."
+    },
+    {
+      "key": "arrays-multiplication__grade-2",
+      "type": "arrays-multiplication",
+      "level": "grade-2",
+      "query": "multiplikation åk 2",
+      "decks": 14,
+      "title": "Multiplikation åk 2 – med bilder (PDF)",
+      "h1": "Första multiplikationen i årskurs 2",
+      "metaDescription": "Förstå gånger istället för att plugga utantill: 14 multiplikationsblad med prickfält för årskurs 2 — ingång till gångertabellen, gratis som PDF."
+    },
+    {
+      "key": "grade-1__number-charts",
+      "type": "number-charts",
+      "level": "grade-1",
+      "query": "hundraruta åk 1",
+      "decks": 13,
+      "title": "Hundraruta åk 1 – övningar (PDF)",
+      "h1": "Hundraruta-övningar för årskurs 1",
+      "metaDescription": "Hitta rätt i talfältet: 13 hundraruta-arbetsblad för årskurs 1 — hitta tal och fyll i luckor, inte bara tom ruta, gratis att skriva ut som PDF."
+    },
+    {
+      "key": "grade-1__graphing-data",
+      "type": "graphing-data",
+      "level": "grade-1",
+      "query": "tabeller och diagram åk 1",
+      "decks": 12,
+      "title": "Diagram och tabeller åk 1 (PDF)",
+      "h1": "Tabeller och diagram i årskurs 1",
+      "metaDescription": "Läs av och fyll i diagram: 12 arbetsblad om tabeller och diagram för årskurs 1 — räkna, föra in och läsa av, gratis att skriva ut som PDF med facit."
+    },
+    {
+      "key": "grade-1__measurement",
+      "type": "measurement",
+      "level": "grade-1",
+      "query": "mäta längd åk 1",
+      "decks": 12,
+      "title": "Mäta längd åk 1 – arbetsblad (PDF)",
+      "h1": "Mäta längd i årskurs 1: jämför längder",
+      "metaDescription": "Längre, kortare, lika lång: 12 arbetsblad om att mäta och jämföra längder för årskurs 1 — första mäterfarenheterna, gratis att skriva ut som PDF."
+    },
+    {
+      "key": "grade-1__picture-arithmetic",
+      "type": "picture-arithmetic",
+      "level": "grade-1",
+      "query": "räkna med bilder åk 1",
+      "decks": 14,
+      "title": "Räkna med bilder åk 1 – plus och minus (PDF)",
+      "h1": "Räkna med bilder i årskurs 1",
+      "metaDescription": "Räkna bilderna först, räkna sen: 14 arbetsblad med bilduppgifter i plus och minus för årskurs 1 — åskådlig räknestart, gratis att skriva ut som PDF."
+    },
+    {
+      "key": "comparing-sizes__kindergarten",
+      "type": "comparing-sizes",
+      "level": "kindergarten",
+      "query": "jämföra storlek förskoleklass",
+      "decks": 15,
+      "title": "Jämföra storlekar förskoleklass (PDF)",
+      "h1": "Jämföra storlekar i förskoleklass: störst och minst",
+      "metaDescription": "Ordna från minsta till största motivet: 15 arbetsblad om att jämföra storlek för förskoleklass — första mätföreställningar, gratis att skriva ut."
+    }
+  ]
+}

@@ -192,6 +192,52 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "clock-digital.read-hour.1-md-b-3": {
+      "about": [
+        "Sprocket le coq installe sa petite horloge à aiguilles et invite votre enfant à lire l'heure avec lui, tout doucement. Sur chaque écran, l'horloge affiche une heure pile : votre enfant l'observe, puis touche l'heure chiffrée qui correspond, écrite à la française « 3 h 00 ».",
+        "L'idée est simple mais essentielle : relier ce que montre l'horloge à aiguilles à son écriture chiffrée, pour que lire l'heure devienne une habitude naturelle. La petite aiguille indique l'heure : votre enfant apprend à la repérer et à la nommer, « trois heures ».",
+        "Cette activité est entièrement gratuite, sans compte, sans minuteur et sans points, alignée aux « programmes officiels » (« Grandeurs et mesures », se repérer dans le temps et lire l'heure), pour que votre enfant progresse à son rythme."
+      ],
+      "practices": [
+        "Observer la petite aiguille, celle des heures, et repérer sur quel chiffre elle pointe.",
+        "Reconnaître « l'heure pile », le moment où la grande aiguille est posée sur le 12.",
+        "Associer l'horloge à aiguilles à l'écriture chiffrée « 3 h 00 », avec le « h » minuscule à la place des deux points.",
+        "Nommer l'heure à voix haute, « trois heures », pour ancrer le lien entre l'image et les mots."
+      ],
+      "howToPlay": [
+        "Votre enfant regarde l'horloge que présente Sprocket, puis cherche l'heure pile qui va avec.",
+        "Il touche l'heure chiffrée « 3 h 00 » qui correspond, à son rythme, sans se presser.",
+        "Chaque bonne réponse est accueillie avec calme et bienveillance, et une nouvelle horloge apparaît pour continuer."
+      ],
+      "learningGoals": [
+        "Comprendre que la petite aiguille indique l'heure et savoir la lire à l'heure pile.",
+        "Faire le lien entre l'horloge à aiguilles et l'écriture chiffrée « 3 h 00 ».",
+        "Poser un premier pas solide pour lire l'heure au CE1, dans le domaine « Grandeurs et mesures »."
+      ]
+    },
+    "clock-digital.read-half-hour.1-md-b-3": {
+      "about": [
+        "Sprocket le coq revient avec un petit défi de plus : lire non seulement les heures entières, mais aussi les demi-heures. Cette fois, votre enfant doit regarder les deux aiguilles pour savoir s'il est « 3 h 00 » ou « 3 h 30 ».",
+        "Quand la grande aiguille est posée sur le 6, c'est la demi-heure : on dit « trois heures et demie », et on l'écrit « 3 h 30 ». Votre enfant lit les deux aiguilles ensemble et distingue l'heure pile de la demi-heure.",
+        "Cette activité est entièrement gratuite, sans compte, sans minuteur et sans points, alignée aux « programmes officiels » (« Grandeurs et mesures », se repérer dans le temps et lire l'heure), pour que votre enfant avance à son rythme et en confiance."
+      ],
+      "practices": [
+        "Lire les deux aiguilles ensemble, la petite pour l'heure et la grande pour les minutes.",
+        "Reconnaître la demi-heure grâce à la grande aiguille posée sur le 6.",
+        "Distinguer « 3 h 00 » de « 3 h 30 » sans se laisser tromper par la position des aiguilles.",
+        "Dire l'heure à voix haute, « trois heures et demie », pour bien mémoriser cette nouvelle expression."
+      ],
+      "howToPlay": [
+        "Votre enfant observe l'horloge de Sprocket et prend le temps de regarder les deux aiguilles.",
+        "Il touche l'heure chiffrée qui correspond, « 3 h 00 » ou « 3 h 30 », en toute tranquillité.",
+        "Chaque réussite est saluée avec douceur, puis une nouvelle horloge s'affiche pour poursuivre l'entraînement."
+      ],
+      "learningGoals": [
+        "Lire l'horloge à aiguilles à l'heure pile et à la demi-heure, en tenant compte des deux aiguilles.",
+        "Comprendre que « la grande aiguille sur le 6 » signale la demi-heure, « et demie ».",
+        "Franchir l'étape qui suit l'heure entière et consolider la lecture de l'heure au CE1."
+      ]
+    },
     "graph-it.bar-graph.2-md-d-10": {
       "about": [
         "Pip l'écureuil parcourt la forêt et ramasse des trésors : des feuilles, des glands, des pommes de pin, des baies et des champignons. Avec votre enfant, il range tout cela dans un diagramme en barres : on empile chaque catégorie pour construire sa barre, on lit la hauteur pour savoir combien Pip en a trouvé, puis on compare deux barres pour dire combien il y a de feuilles « de plus » ou « de moins » que de baies. Les quantités restent petites, jusqu'à une dizaine, sans aucune pression liée au temps.",

@@ -38,6 +38,20 @@
       hintMinute: 'Zähl die kleinen Striche – jeder ist eine Minute.',
       srMatchBody: ' Die Uhrzeit ist {t}. Die Uhren zeigen: {cs}.',
       srReadBody: ' Die Uhr zeigt {t}. Zur Auswahl: {ds}.'
+    },
+    /* FR — native ensemble (linguiste + pédagogue CE1). « horloge à aiguilles » /
+       petite (heures) + grande (minutes) aiguille / « l'heure pile » / « et demie ». */
+    fr: {
+      q: 'Quelle heure est-il ?',
+      qMatch: 'Quelle horloge montre cette heure ?',
+      win: 'Oui ! Il est {t}.',
+      hint: 'Regarde la petite aiguille : elle indique l\'heure.',
+      hintMatch: 'Trouve l\'horloge dont les aiguilles montrent cette heure.',
+      hintMin: 'Regarde les deux aiguilles : la grande aiguille indique les minutes.',
+      hintFive: 'Compte de 5 en 5 autour de l\'horloge : la grande aiguille indique les minutes.',
+      hintMinute: 'Compte les petits traits : chacun vaut une minute.',
+      srMatchBody: ' Il est {t}. Les horloges montrent : {cs}.',
+      srReadBody: ' L\'horloge montre {t}. Les choix sont : {ds}.'
     }
   };
   var LANG = 'en';
@@ -45,9 +59,20 @@
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
   function elNS(tag, attrs) { var e = document.createElementNS(NS, tag); for (var k in attrs) { if (attrs.hasOwnProperty(k)) e.setAttribute(k, attrs[k]); } return e; }
   function wrapH(n) { return n > 12 ? n - 12 : n; }
-  /* a friendly spoken-time phrase for the win note / aria / sr (locale-aware: German uses „N Uhr" / „halb (N+1)" / „Viertel nach·vor") */
+  /* Digital-time chip/readout format. FR writes « 3 h 30 » (lowercase h, spaces,
+     keep 00, NO colon — the Anglo-Saxon „3:30" is wrong for a French child);
+     en/de keep the core's colon form. 0 lines to the core. */
+  function fmtDigital(t) { return LANG === 'fr' ? (t.h + ' h ' + (t.m < 10 ? '0' : '') + t.m) : Core.digitalStr(t); }
+  /* a friendly spoken-time phrase for the win note / aria / sr (locale-aware: German uses „N Uhr" / „halb (N+1)" / „Viertel nach·vor"; French „N heures et demie") */
   function spoken(t) {
     var hh = t.h, mm = t.m;
+    if (LANG === 'fr') {
+      if (mm === 0) return hh + (hh === 1 ? ' heure' : ' heures');                 /* « 3 heures », « 1 heure », « 12 heures » (douze, not midi) */
+      if (mm === 30) return hh + (hh === 1 ? ' heure et demie' : ' heures et demie'); /* feminine „demie" (agrees with heure) */
+      if (mm === 15) return hh + (hh === 1 ? ' heure et quart' : ' heures et quart');
+      if (mm === 45) { var n = wrapH(hh + 1); return n + (n === 1 ? ' heure moins le quart' : ' heures moins le quart'); }
+      return fmtDigital(t);
+    }
     if (LANG === 'de') {
       if (mm === 0) return hh + ' Uhr';
       if (mm === 30) return 'halb ' + wrapH(hh + 1);
@@ -112,8 +137,8 @@
   var ClockDigitalActivity = {
     id: 'clock-digital-activity',
     strings: {
-      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr' },
-      instruction: { en: 'Read the clock, then tap the time that matches.', de: 'Lies die Uhr ab und tippe dann auf die passende Uhrzeit.' },
+      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr', fr: 'L\'horloge de Sprocket' },
+      instruction: { en: 'Read the clock, then tap the time that matches.', de: 'Lies die Uhr ab und tippe dann auf die passende Uhrzeit.', fr: 'Lis l\'horloge, puis touche l\'heure qui correspond.' },
       q: { en: '{q}' }
     },
 
@@ -216,7 +241,7 @@
 
       if (_dir === 'digital-to-analog') {
         /* stimulus = big DIGITAL readout */
-        var ro = el('div', 'cd-readout'); ro.textContent = Core.digitalStr(round.target); root.appendChild(ro);
+        var ro = el('div', 'cd-readout'); ro.textContent = fmtDigital(round.target); root.appendChild(ro);
       } else {
         /* stimulus = analog clock (minute ticks only for the to-the-minute activity) */
         root.appendChild(clockSVG(round.target.h, round.target.m, { minuteTicks: _gran === 'minute' }));
@@ -230,7 +255,7 @@
         var b = el('button', 'cd-choice' + (isClockCard ? ' cd-clockcard' : '') + (self._nonAns[oi] ? ' dim' : '') + (self._lit === oi ? ' lit' : ''));
         b.type = 'button'; b.setAttribute('data-oi', oi); b.setAttribute('aria-label', spoken(t));
         if (isClockCard) { b.appendChild(clockSVG(t.h, t.m)); }   /* choice = analog clock face */
-        else { b.textContent = Core.digitalStr(t); }              /* choice = digital time text */
+        else { b.textContent = fmtDigital(t); }              /* choice = digital time text */
         b.addEventListener('click', function () {
           if (self._resolved || self._nonAns[oi] || self._token !== tok) return;
           if (Core.isAnswer(round, oi)) { self._lit = oi; self._resolve(); }
@@ -278,9 +303,9 @@
       var dir = (this._activityRow && this._activityRow.params && this._activityRow.params.direction) || 'analog-to-digital';
       var cs = (round.options || []).map(function (t) { return spoken(t); }).join(', ');
       if (dir === 'digital-to-analog') {
-        wrap.innerHTML = '<p>' + txt('qMatch') + txt('srMatchBody', { t: Core.digitalStr(round.target), cs: cs }) + '</p>';
+        wrap.innerHTML = '<p>' + txt('qMatch') + txt('srMatchBody', { t: fmtDigital(round.target), cs: cs }) + '</p>';
       } else {
-        var ds = (round.options || []).map(function (t) { return Core.digitalStr(t); }).join(', ');
+        var ds = (round.options || []).map(function (t) { return fmtDigital(t); }).join(', ');
         wrap.innerHTML = '<p>' + txt('q') + txt('srReadBody', { t: spoken(round.target), ds: ds }) + '</p>';
       }
       return wrap;

@@ -23,7 +23,8 @@
   /* Per-locale piece names — formal Klasse-1 curriculum terms (educator). */
   var PIECE_L = {
     en: { triangle: 'triangle', rhombus: 'rhombus' },
-    de: { triangle: 'Dreieck', rhombus: 'Raute' }
+    de: { triangle: 'Dreieck', rhombus: 'Raute' },
+    fr: { triangle: 'un triangle', rhombus: 'un losange' }
   };
   function pname(id) { return (PIECE_L[LANG] && PIECE_L[LANG][id]) || (PIECE_L.en && PIECE_L.en[id]) || id; }
 
@@ -41,22 +42,22 @@
     id: 'shapeforge-activity',
 
     strings: {
-      title: { en: "Mim's Glow Workshop", de: 'Mims Glühwerkstatt' },
+      title: { en: "Mim's Glow Workshop", de: 'Mims Glühwerkstatt', fr: "L'atelier lumineux de Mim" },
       instruction: { en: '', de: '' },
-      prompt: { en: 'Forge the shape.', de: 'Bau die Form.' },
-      rotate: { en: '↻ Turn', de: '↻ Drehen' },
-      sayWelcome: { en: 'Pick a shard, turn it, and fuse the light!', de: 'Such dir ein Leuchtplättchen aus, dreh es und setz das Licht zusammen!' },
-      sayWin: { en: 'You forged it! ✨', de: 'Du hast es gebaut! ✨' },
-      sayIllegal: { en: "Try turning it, or pick another shard.", de: 'Dreh es mal, oder nimm ein anderes Plättchen.' },
-      sayReway: { en: "That's the first way — now find a NEW way!", de: 'Das war der erste Weg – jetzt finde einen NEUEN Weg!' },
-      pickFirst: { en: 'Tap a shard below to begin.', de: 'Tipp unten auf ein Plättchen, um loszulegen.' },
-      hintCheck: { en: 'Fill every part of the blank shape.', de: 'Füll jeden Teil der leeren Form aus.' },
-      shardLabel: { en: 'shard: ', de: 'Plättchen: ' },
-      paletteLeft: { en: '{piece}, {n} left', de: '{piece}, noch {n}' },
-      ariaShards: { en: 'glowing shards', de: 'leuchtende Plättchen' },
-      ariaForge: { en: 'the blank lantern — fuse shards to fill it', de: 'die leere Laterne – setz Plättchen zusammen, um sie zu füllen' },
-      ariaPlace: { en: 'place here', de: 'hier einsetzen' },
-      ariaRemovable: { en: '{piece}, placed — tap to take it back', de: '{piece}, eingesetzt – tipp drauf, um es zurückzunehmen' }
+      prompt: { en: 'Forge the shape.', de: 'Bau die Form.', fr: 'Assemble la forme.' },
+      rotate: { en: '↻ Turn', de: '↻ Drehen', fr: '↻ Tourner' },
+      sayWelcome: { en: 'Pick a shard, turn it, and fuse the light!', de: 'Such dir ein Leuchtplättchen aus, dreh es und setz das Licht zusammen!', fr: 'Choisis un éclat, fais-le tourner et assemble la lumière !' },
+      sayWin: { en: 'You forged it! ✨', de: 'Du hast es gebaut! ✨', fr: 'Bravo, tu as réussi ! ✨' },
+      sayIllegal: { en: "Try turning it, or pick another shard.", de: 'Dreh es mal, oder nimm ein anderes Plättchen.', fr: 'Fais tourner la pièce, ou choisis-en une autre.' },
+      sayReway: { en: "That's the first way — now find a NEW way!", de: 'Das war der erste Weg – jetzt finde einen NEUEN Weg!', fr: 'Voilà la première façon — trouve maintenant une NOUVELLE façon !' },
+      pickFirst: { en: 'Tap a shard below to begin.', de: 'Tipp unten auf ein Plättchen, um loszulegen.', fr: 'Touche une pièce en bas pour commencer.' },
+      hintCheck: { en: 'Fill every part of the blank shape.', de: 'Füll jeden Teil der leeren Form aus.', fr: 'Remplis toute la forme, sans laisser de trou.' },
+      shardLabel: { en: 'shard: ', de: 'Plättchen: ', fr: 'pièce : ' },
+      paletteLeft: { en: '{piece}, {n} left', de: '{piece}, noch {n}', fr: '{piece}, encore {n}' },
+      ariaShards: { en: 'glowing shards', de: 'leuchtende Plättchen', fr: 'éclats lumineux' },
+      ariaForge: { en: 'the blank lantern — fuse shards to fill it', de: 'die leere Laterne – setz Plättchen zusammen, um sie zu füllen', fr: 'la lanterne vide — assemble des éclats pour la remplir' },
+      ariaPlace: { en: 'place here', de: 'hier einsetzen', fr: 'poser ici' },
+      ariaRemovable: { en: '{piece}, placed — tap to take it back', de: '{piece}, eingesetzt – tipp drauf, um es zurückzunehmen', fr: '{piece}, posée — touche pour la reprendre' }
     },
     defaults: {},
 
@@ -311,6 +312,8 @@
         + '@media (min-width:760px){.sf-root{padding:10px 14px;gap:5px;}.sf-svg{max-height:clamp(92px,13vh,112px);}}'
         + '@media (max-width:480px){.sf-root{gap:3px;padding:7px;}}'
         + '@media (max-width:380px){.sf-root{gap:2px;padding:4px;}.sf-prompt{font-size:11.5px;line-height:1.15;}.sf-svg{max-height:clamp(70px,15vh,104px);}.sf-shelf{height:7px;}.sf-controls{gap:6px;}.sf-saytop{font-size:10.5px;}.sf-forge{padding:4px;}}'
+        /* ≤340: the longest localized prompts (e.g. fr reway/substitute/extend) wrap an extra line at 320 — trim the target + gaps so the shell Check stays above the fold (§A.13.62). Text unchanged. */
+        + '@media (max-width:340px){.sf-root{gap:1px;padding:4px;}.sf-prompt{font-size:11px;line-height:1.1;}.sf-svg{max-height:clamp(56px,12vh,82px);}.sf-forge{padding:3px;}.sf-palette{gap:6px;}.sf-saytop{font-size:10px;}}'
         + '@media (prefers-reduced-motion: reduce){.sf-hop,.sf-flare,.sf-fused{animation:none!important;}}';
       var tag = document.createElement('style'); tag.setAttribute('data-shapeforge', ''); tag.textContent = css; document.head.appendChild(tag);
     }

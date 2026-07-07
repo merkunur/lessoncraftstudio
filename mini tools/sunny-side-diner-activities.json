@@ -58,9 +58,9 @@
       ]
     },
     "theme": null,
-    "slug": { "en": "sunny-side-diner" },
-    "page_title": { "en": "Sunny-Side Diner — Say the Whole Order (Kindergarten)" },
-    "page_intro": { "en": "A free interactive Kindergarten speaking game for complete sentences: be the waiter at the Sunny-Side Diner. First LISTEN and gather the whole order on the tray; then SAY THE ORDER BACK as one complete sentence — \"two pancakes and a milk, please\" — joining the parts with the golden \"and\" coupler. That read-back is what makes the customer smile. Producing and expanding a complete compound sentence is the heart of Common Core L.K.1.F." },
+    "slug": { "en": "sunny-side-diner", "fr": "dire-la-commande-en-une-phrase-au-restaurant-cp" },
+    "page_title": { "en": "Sunny-Side Diner — Say the Whole Order (Kindergarten)", "fr": "Le restaurant de Sunny — Dire la commande en une phrase (CP)" },
+    "page_intro": { "en": "A free interactive Kindergarten speaking game for complete sentences: be the waiter at the Sunny-Side Diner. First LISTEN and gather the whole order on the tray; then SAY THE ORDER BACK as one complete sentence — \"two pancakes and a milk, please\" — joining the parts with the golden \"and\" coupler. That read-back is what makes the customer smile. Producing and expanding a complete compound sentence is the heart of Common Core L.K.1.F.", "fr": "Au restaurant de Sunny, votre enfant devient le serveur : il écoute la commande du client, rassemble les bons aliments sur le plateau, puis redit toute la commande en une seule phrase complète en reliant les deux parties avec « et ». Activité gratuite et interactive, CP, domaine « Langage oral »." },
     "kid_prompt_template": "compound-order"
   }
 ]

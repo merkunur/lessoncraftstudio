@@ -26,10 +26,33 @@
   };
   var FOODTINT = { pancake: '#E0A24B', egg: '#F4D24A', waffle: '#D69A45', muffin: '#A9744A', cookie: '#B98A55', banana: '#F2D14E', milk: '#EAF0F2', juice: '#F2954B', apple: '#E2574B' };
 
+  var LANG = 'en';   /* content locale, set from api.lang in init() */
+
+  /* FR surface layer (native ensemble) — the protected core stays BYTE-IDENTICAL
+     (its adjudication is key-based/language-neutral); the French DISPLAY is generated
+     here, branched on LANG at the utter/agree call sites. `.one` = count-1 form
+     (indefinite article + singular, gender-correct); `.many` = bare plural (`jus`
+     is invariable). Mirrors compound-order-core's agree/utter with FR tables. */
+  var FOOD_FR = {
+    pancake: { one: 'une crêpe', many: 'crêpes' },
+    egg: { one: 'un œuf', many: 'œufs' },
+    waffle: { one: 'une gaufre', many: 'gaufres' },
+    muffin: { one: 'un muffin', many: 'muffins' },
+    cookie: { one: 'un cookie', many: 'cookies' },
+    banana: { one: 'une banane', many: 'bananes' },
+    milk: { one: 'un lait', many: 'laits' },
+    juice: { one: 'un jus', many: 'jus' },
+    apple: { one: 'une pomme', many: 'pommes' }
+  };
+  var NUMWORD_FR = { 2: 'deux', 3: 'trois', 4: 'quatre' };
+  function frAgree(food, count) { var f = FOOD_FR[food]; if (!f) return String(count) + ' ' + food; return count === 1 ? f.one : (NUMWORD_FR[count] + ' ' + f.many); }
+  function frUtter(order) { var phrases = order.items.map(function (it) { return frAgree(it.food, it.quantity); }); return 'Je voudrais ' + phrases.join(' et ') + ', s’il vous plaît.'; }
+  function couplerWord() { return LANG === 'fr' ? 'et' : 'and'; }
+
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG === 'fr' ? 'fr-FR' : 'en', rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.lang = LANG === 'fr' ? 'fr-FR' : 'en-US'; u.rate = .95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(a) { a = a.slice(); for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -65,26 +88,27 @@
     id: 'sunny-side-diner-activity',
 
     strings: {
-      title: { en: 'Sunny-Side Diner' },
-      prompt: { en: 'Take the order, waiter!' },
-      gather: { en: 'Listen, then put the food on the tray.' },
-      replay: { en: '🔊 Hear it again' },
-      toReadback: { en: 'Now say the whole order back!' },
-      sayBack: { en: 'Tap each part, then place "and".' },
-      sayIt: { en: 'Say it back' },
-      needAnd: { en: 'Join the two parts with "and"!' },
-      robotSays: { en: 'Trainee Robot got one wrong — fix it!' },
-      extendSays: { en: '…and one more thing, please!' },
-      winA: { en: 'Yes! That\'s my whole order!' },
-      winRobot: { en: 'You fixed it! Thank you!' },
-      tryAgain: { en: 'Hmm, that\'s not quite my order…' },
-      hintCheck: { en: 'Say the order back, then tap Check.' }
+      title: { en: 'Sunny-Side Diner', fr: 'Le restaurant de Sunny' },
+      prompt: { en: 'Take the order, waiter!', fr: 'Prends la commande, serveur !' },
+      gather: { en: 'Listen, then put the food on the tray.', fr: 'Écoute, puis pose les aliments sur le plateau.' },
+      replay: { en: '🔊 Hear it again', fr: '🔊 Réécouter' },
+      toReadback: { en: 'Now say the whole order back!', fr: 'Maintenant, répète toute la commande !' },
+      sayBack: { en: 'Tap each part, then place "and".', fr: 'Touche chaque partie, puis place « et ».' },
+      sayIt: { en: 'Say it back', fr: 'Répète la commande' },
+      needAnd: { en: 'Join the two parts with "and"!', fr: 'Relie les deux parties avec « et » !' },
+      robotSays: { en: 'Trainee Robot got one wrong — fix it!', fr: 'Le robot stagiaire s’est trompé — corrige-le !' },
+      extendSays: { en: '…and one more thing, please!', fr: '… et encore une chose, s’il te plaît !' },
+      winA: { en: 'Yes! That\'s my whole order!', fr: 'Oui ! C’est toute ma commande !' },
+      winRobot: { en: 'You fixed it! Thank you!', fr: 'Tu l’as réparé ! Merci !' },
+      tryAgain: { en: 'Hmm, that\'s not quite my order…', fr: 'Hmm, ce n’est pas tout à fait ma commande…' },
+      hintCheck: { en: 'Say the order back, then tap Check.', fr: 'Répète la commande, puis appuie sur Vérifier.' }
     },
 
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._curPass = 0; this._orderForPool = null;
       this.round = null; this.phase = 'tray'; this.tray = []; this.assembled = null; this.activeOrder = null;
       this.readOnly = false; this.solved = 0; this.extended = false; this.misTray = 0;
@@ -140,9 +164,9 @@
       // the order-pad (the items the customer wants) — VISIBLE here, HIDDEN at read-back
       var pad = api.el('div', 'sd-pad'); pad.setAttribute('data-role', 'order-pad');
       this.activeOrder.items.forEach(function (it) { var c = api.el('div', 'sd-paditem'); c.innerHTML = '<span class="sd-padcount">' + it.quantity + '</span>' + foodSVG(it.food); pad.appendChild(c); });
-      var replay = api.el('button', 'sd-replay'); replay.type = 'button'; replay.textContent = api.t('replay'); replay.addEventListener('click', function () { speak(Core.utter(self.activeOrder, 'en')); }); pad.appendChild(replay);
+      var replay = api.el('button', 'sd-replay'); replay.type = 'button'; replay.textContent = api.t('replay'); replay.addEventListener('click', function () { speak((LANG === 'fr' ? frUtter(self.activeOrder) : Core.utter(self.activeOrder, 'en'))); }); pad.appendChild(replay);
       diner.appendChild(pad);
-      if (!this._spokeOrder) { this._spokeOrder = true; setTimeout(function () { speak(Core.utter(self.activeOrder, 'en')); }, 350); }
+      if (!this._spokeOrder) { this._spokeOrder = true; setTimeout(function () { speak((LANG === 'fr' ? frUtter(self.activeOrder) : Core.utter(self.activeOrder, 'en'))); }, 350); }
 
       // the tray
       var tray = api.el('div', 'sd-tray');
@@ -154,7 +178,7 @@
       // the food palette
       if (!this._palette) this._palette = shuffle(this._paletteFoods());
       var pal = api.el('div', 'sd-palette');
-      this._palette.forEach(function (food) { var b = api.el('button', 'sd-foodchip'); b.type = 'button'; b.innerHTML = foodSVG(food); b.setAttribute('aria-label', food); b.addEventListener('click', function () { self.tray.push(food); self.api.sound && self.api.sound(560); self.render(); }); pal.appendChild(b); });
+      this._palette.forEach(function (food) { var b = api.el('button', 'sd-foodchip'); b.type = 'button'; b.innerHTML = foodSVG(food); b.setAttribute('aria-label', (LANG === 'fr' && FOOD_FR[food]) ? frAgree(food, 1) : food); b.addEventListener('click', function () { self.tray.push(food); self.api.sound && self.api.sound(560); self.render(); }); pal.appendChild(b); });
       diner.appendChild(pal);
 
       // proceed when the tray matches
@@ -182,18 +206,18 @@
 
       // the sentence frame: I'd like [half1] (and) [half2], please
       var frame = api.el('div', 'sd-frame' + (this.assembled.coupler ? ' sd-joined' : ''));
-      var pre = api.el('span', 'sd-frameword'); pre.textContent = "I'd like"; frame.appendChild(pre);
+      var pre = api.el('span', 'sd-frameword'); pre.textContent = LANG === 'fr' ? 'Je voudrais' : "I'd like"; frame.appendChild(pre);
       this.assembled.slots.forEach(function (slot, i) {
         if (i > 0) {
           // the coupler gap between halves
           var gap = api.el('span', 'sd-gap' + (self.assembled.coupler ? ' sd-gap-on' : ''));
-          if (self.assembled.coupler) gap.textContent = 'and';
+          if (self.assembled.coupler) gap.textContent = couplerWord();
           else { var cb = api.el('button', 'sd-couplerslot'); cb.type = 'button'; cb.textContent = '?'; if (!self.readOnly) cb.addEventListener('click', function () { self._placeCoupler(); }); gap.appendChild(cb); }
           frame.appendChild(gap);
         }
         frame.appendChild(self._slotEl(slot, i));
       });
-      var post = api.el('span', 'sd-frameword'); post.textContent = ', please.'; frame.appendChild(post);
+      var post = api.el('span', 'sd-frameword'); post.textContent = LANG === 'fr' ? ', s’il vous plaît.' : ', please.'; frame.appendChild(post);
       diner.appendChild(frame);
 
       // sub-hint
@@ -202,11 +226,11 @@
       // the food rail (place into the active/next slot) + the coupler chip
       var rail = api.el('div', 'sd-rail');
       shuffle(this._paletteFoods()).forEach(function (food) {
-        var b = api.el('button', 'sd-foodchip sd-railchip'); b.type = 'button'; b.innerHTML = foodSVG(food); b.setAttribute('aria-label', food);
+        var b = api.el('button', 'sd-foodchip sd-railchip'); b.type = 'button'; b.innerHTML = foodSVG(food); b.setAttribute('aria-label', (LANG === 'fr' && FOOD_FR[food]) ? frAgree(food, 1) : food);
         if (self.readOnly) b.disabled = true; else b.addEventListener('click', function () { self._placeFood(food); });
         rail.appendChild(b);
       });
-      if (!this.assembled.coupler) { var coup = api.el('button', 'sd-coupler'); coup.type = 'button'; coup.textContent = 'and'; if (!this.readOnly) coup.addEventListener('click', function () { self._placeCoupler(); }); rail.appendChild(coup); }
+      if (!this.assembled.coupler) { var coup = api.el('button', 'sd-coupler'); coup.type = 'button'; coup.textContent = couplerWord(); if (!this.readOnly) coup.addEventListener('click', function () { self._placeCoupler(); }); rail.appendChild(coup); }
       diner.appendChild(rail);
 
       // Say it back (lights on STRUCTURAL COMPLETENESS, not correctness)
@@ -231,11 +255,11 @@
       if (this.readOnly) return;
       var idx = this.activeSlot; if (this.assembled.slots[idx]) { var e = this.assembled.slots.findIndex(function (s) { return !s; }); idx = e >= 0 ? e : this.activeSlot; }
       this.assembled.slots[idx] = { food: food, count: 1 }; this.activeSlot = idx;
-      this.api.sound && this.api.sound(560); speak(Core.agree(food, 1)); this.render();
+      this.api.sound && this.api.sound(560); speak(LANG === 'fr' ? frAgree(food, 1) : Core.agree(food, 1)); this.render();
     },
     _placeCoupler: function () {
       if (this.readOnly) return;
-      this.assembled.coupler = true; this.api.sound && this.api.sound(680); speak('and'); this.render();
+      this.assembled.coupler = true; this.api.sound && this.api.sound(680); speak(couplerWord()); this.render();
     },
 
     _sayBack: function () {
@@ -243,7 +267,7 @@
       var ok = Core.readBackValid(this.activeOrder, this.assembled);
       // build the spoken sentence from what the child assembled (their production)
       var spokenOrder = { items: this.assembled.slots.map(function (s) { return { food: s.food, quantity: s.count }; }), conjunction: this.activeOrder.conjunction };
-      speak(Core.utter(spokenOrder, 'en'));
+      speak(LANG === 'fr' ? frUtter(spokenOrder) : Core.utter(spokenOrder, 'en'));
       if (ok) {
         if (this.round.type === 'extend' && !this.extended) { this._grow(); return; }
         this._win();
@@ -267,13 +291,13 @@
       this.api.sound && this.api.sound(880);
       this.render();
       var msg = this.api.t(this.round.type === 'repair-item' ? 'winRobot' : 'winA');
-      this.api.announce && this.api.announce(msg); speak(Core.utter(this.activeOrder, 'en'));
+      this.api.announce && this.api.announce(msg); speak((LANG === 'fr' ? frUtter(this.activeOrder) : Core.utter(this.activeOrder, 'en')));
     },
 
     _renderDone: function (diner) {
       var api = this.api;
       this._custRow(diner, this.api.t(this.round.type === 'repair-item' ? 'winRobot' : 'winA'));
-      var bubble = api.el('div', 'sd-bubble'); bubble.textContent = '“' + Core.utter(this.activeOrder, 'en') + '”'; diner.appendChild(bubble);
+      var bubble = api.el('div', 'sd-bubble'); bubble.textContent = '“' + (LANG === 'fr' ? frUtter(this.activeOrder) : Core.utter(this.activeOrder, 'en')) + '”'; diner.appendChild(bubble);
       var plate = api.el('div', 'sd-plated'); plate.textContent = '🍽️✨'; diner.appendChild(plate);
     },
 

@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "snippy.letter-formation.l-k-1-a": {
+      "about": [
+        "Snippy, un petit escargot tout doux, accompagne votre enfant pour former les lettres une à une. Une seule lettre s'affiche à la fois, et l'enfant la trace trait par trait : d'abord en suivant un chemin en pointillés avec des points numérotés, puis tout seul, de mémoire. L'activité est gratuite, fonctionne directement dans le navigateur et ne demande aucune installation.",
+        "L'enjeu, c'est le geste graphique : suivre le bon tracé de chaque lettre, partir du bon point et respecter l'ordre des tracés — un vrai entraînement du geste et de la reconnaissance des lettres. Les lettres sont montrées en écriture scripte, la graphie que l'enfant lit dans les livres (les minuscules et une majuscule), avec un mot repère pour mieux les reconnaître. La progression guidée, puis libre, aide l'enfant à gagner en autonomie et en confiance.",
+        "Tout se fait dans le calme : pas de chronomètre, pas de points, pas de course. Votre enfant avance à son rythme, recommence autant de fois qu'il le souhaite et progresse en douceur. L'activité s'appuie sur les programmes officiels pour l'apprentissage de l'écriture."
+      ],
+      "practices": [
+        "Former et tracer les lettres en respectant le sens du tracé.",
+        "Respecter l'ordre des tracés pour chaque lettre.",
+        "Commencer au bon point de départ.",
+        "S'entraîner au geste d'écriture, minuscules et majuscule."
+      ],
+      "howToPlay": [
+        "Regarde la lettre et repère le point de départ.",
+        "Suis le chemin en pointillés, trait après trait, dans l'ordre des numéros.",
+        "Trace la lettre tout seul, de mémoire."
+      ],
+      "learningGoals": [
+        "Votre enfant apprend à former les lettres avec le bon tracé et le bon sens.",
+        "Votre enfant mémorise l'ordre des tracés et le bon point de départ.",
+        "Votre enfant gagne en aisance dans son geste d'écriture, à son rythme."
+      ]
+    },
     "sunny-side-diner.compound-order.l-k-1-f": {
       "about": [
         "Bienvenue au restaurant de Sunny ! Ici, votre enfant tient le rôle du serveur. Un client s'installe et passe sa commande : à votre enfant d'écouter, de poser les bons aliments sur le plateau, puis de redire toute la commande à voix haute en une seule phrase, par exemple « Je voudrais deux crêpes et un lait, s'il vous plaît. » Tout se joue directement dans le navigateur, gratuitement, sans rien installer.",

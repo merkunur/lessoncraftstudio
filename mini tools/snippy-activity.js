@@ -16,11 +16,13 @@
   var SVGNS = 'http://www.w3.org/2000/svg';
   var C = { T: '#146B5E', T2: '#0E5247', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOOD: '#2FA56A', FAINT: 'rgba(20,107,94,.22)' };
 
+  var LANG = 'en';   /* content locale, set from api.lang in init() */
+
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG === 'fr' ? 'fr-FR' : 'en', rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.lang = LANG === 'fr' ? 'fr-FR' : 'en-US'; u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function svg(tag, attrs) { var e = document.createElementNS(SVGNS, tag); for (var k in attrs) if (attrs.hasOwnProperty(k)) e.setAttribute(k, attrs[k]); return e; }
@@ -43,22 +45,23 @@
     id: 'snippy-activity',
 
     strings: {
-      title: { en: "Snippy's Letter Trace" },
-      instruction: { en: '' },
-      prompt: { en: 'Trace the letter.' },
-      sayWelcome: { en: "Form the letter and I'll bloom a flower! Start on the dot." },
-      sayGuided: { en: 'Trace along the path — start at the dot.' },
-      sayCertify: { en: 'Now on your own — start on the right dot, in order!' },
-      sayWin: { en: 'Beautiful letter! 🌸' },
-      sayStroke: { en: 'Nice — next stroke!' },
-      sayWrongStart: { en: "That's not the first dot — let's peek again." },
-      sayOffPath: { en: 'Try that stroke again — follow the shape.' },
-      hintCheck: { en: 'Start on the correct dot and take the strokes in order.' }
+      title: { en: "Snippy's Letter Trace", fr: 'Snippy trace les lettres' },
+      instruction: { en: '', fr: '' },
+      prompt: { en: 'Trace the letter.', fr: 'Trace la lettre.' },
+      sayWelcome: { en: "Form the letter and I'll bloom a flower! Start on the dot.", fr: 'Forme la lettre et je ferai éclore une fleur ! Commence sur le point.' },
+      sayGuided: { en: 'Trace along the path — start at the dot.', fr: 'Suis le chemin — commence sur le point.' },
+      sayCertify: { en: 'Now on your own — start on the right dot, in order!', fr: 'Maintenant tout seul — commence sur le bon point, dans l’ordre !' },
+      sayWin: { en: 'Beautiful letter! 🌸', fr: 'Belle lettre ! 🌸' },
+      sayStroke: { en: 'Nice — next stroke!', fr: 'Bravo — au trait suivant !' },
+      sayWrongStart: { en: "That's not the first dot — let's peek again.", fr: 'Ce n’est pas le premier point — regardons encore.' },
+      sayOffPath: { en: 'Try that stroke again — follow the shape.', fr: 'Refais ce trait — suis bien la forme.' },
+      hintCheck: { en: 'Start on the correct dot and take the strokes in order.', fr: 'Commence sur le bon point et fais les traits dans l’ordre.' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.solved = false;
       this.level = 'guided'; this.cs = null; this.ink = []; this.cur = null; this.dragging = false; this.msg = null; this.bloom = 0; this.demoted = 0;
@@ -90,9 +93,9 @@
       var head = api.el('div', 'sn-head');
       var chip = api.el('span', 'sn-word');
       chip.innerHTML = 'Trace <b class="sn-letter">' + esc(r.letter) + '</b> &nbsp;·&nbsp; ' + esc(r.word);
-      chip.setAttribute('aria-label', 'trace the letter ' + r.letter + ', as in ' + r.word);
+      chip.setAttribute('aria-label', LANG === 'fr' ? ('trace la lettre ' + r.letter + ', comme dans ' + r.word) : ('trace the letter ' + r.letter + ', as in ' + r.word));
       head.appendChild(chip);
-      var lvl = api.el('span', 'sn-level sn-' + this.level); lvl.textContent = this.level === 'certify' ? 'on your own' : 'trace along'; head.appendChild(lvl);
+      var lvl = api.el('span', 'sn-level sn-' + this.level); lvl.textContent = this.level === 'certify' ? (LANG === 'fr' ? 'tout seul' : 'on your own') : (LANG === 'fr' ? 'suis le chemin' : 'trace along'); head.appendChild(lvl);
       root.appendChild(head);
 
       if (this.solved) { this._renderDone(root); stage.appendChild(root); return; }
@@ -117,7 +120,7 @@
       var self = this, api = this.api, r = this.round;
       var snap = Core.snapshot(r, this.level), g = Core.glyphOf(r.letter);
       var wrap = api.el('div', 'sn-paper');
-      var sv = svg('svg', { viewBox: '0 0 100 100', class: 'sn-svg', 'aria-label': 'trace ' + r.letter });
+      var sv = svg('svg', { viewBox: '0 0 100 100', class: 'sn-svg', 'aria-label': LANG === 'fr' ? ('trace la lettre ' + r.letter) : ('trace ' + r.letter) });
       sv.style.touchAction = 'none';
 
       /* GUIDED/CHECKPOINT: the faded stroke path (the guide to trace over).
@@ -172,7 +175,7 @@
       /* the letter the child FORMED (their certify ink) — fills the card (not sparse) */
       if (this.ink && this.ink.length) {
         var paper = api.el('div', 'sn-donepaper');
-        var sv = svg('svg', { viewBox: '0 0 100 100', class: 'sn-donesvg', 'aria-label': 'the letter you formed: ' + this.round.letter });
+        var sv = svg('svg', { viewBox: '0 0 100 100', class: 'sn-donesvg', 'aria-label': (LANG === 'fr' ? 'la lettre que tu as formée : ' : 'the letter you formed: ') + this.round.letter });
         this.ink.forEach(function (st) {
           if (!st.path || st.path.length < 2) return;
           sv.appendChild(svg('path', { d: st.path.map(function (p, i) { return (i ? 'L' : 'M') + p.x.toFixed(1) + ',' + p.y.toFixed(1); }).join(' '), fill: 'none', stroke: C.T, 'stroke-width': 8, 'stroke-linecap': 'round', 'stroke-linejoin': 'round' }));
@@ -217,7 +220,7 @@
       this.solved = true; this.bloom = Math.min(this.bloom + 1, (this._pool && this._pool.length) || 10);
       this.msg = api.t('sayWin');
       api.sound && api.sound(880);
-      setTimeout(function () { speak('Beautiful!'); }, 160);
+      setTimeout(function () { speak(LANG === 'fr' ? 'Magnifique !' : 'Beautiful!'); }, 160);
       this.render(); api.announce && api.announce(this.msg);
     },
 
@@ -238,7 +241,7 @@
         .then(function (rows) {
           var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return;
           self._activityRow = row;
-          self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); }));
+          self._pool = makeTasks(((row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds).map(function (r) { return JSON.parse(JSON.stringify(r)); }));
           self._order = null;
           if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask();
         })

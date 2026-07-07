@@ -5,9 +5,9 @@
     "task_template": "snippy",
     "alignment": { "framework": "CCSS", "code": "L.K.1.a", "grade": "K", "strand": "Language" },
     "theme": null,
-    "slug": { "en": "snippy-trace-letters" },
-    "page_title": { "en": "Snippy's Letter Trace — Form Upper- & Lowercase Letters" },
-    "page_intro": { "en": "Help Snippy the snail form letters: start at the right dot and take the strokes in order — first the easy way with the path shown, then on your own with the path hidden. A handwriting-formation warm-up, a friendly complement to paper. Common Core L.K.1.a." },
+    "slug": { "en": "snippy-trace-letters", "fr": "tracer-les-lettres-avec-snippy-gs" },
+    "page_title": { "en": "Snippy's Letter Trace — Form Upper- & Lowercase Letters", "fr": "Snippy trace les lettres — Former les lettres (GS)" },
+    "page_intro": { "en": "Help Snippy the snail form letters: start at the right dot and take the strokes in order — first the easy way with the path shown, then on your own with the path hidden. A handwriting-formation warm-up, a friendly complement to paper. Common Core L.K.1.a.", "fr": "Avec Snippy l’escargot, votre enfant apprend à tracer et à former les lettres trait par trait, dans le bon ordre : d’abord guidé le long d’un chemin en pointillés, puis tout seul, de mémoire. Activité gratuite et interactive, GS, domaine « Écriture »." },
     "kid_prompt_template": "snippy",
     "params": {
       "rounds": [
@@ -21,7 +21,21 @@
         { "id": "letter-b", "letter": "b", "word": "ball", "band": 2, "prompt": "Trace the letter that starts ball: b. The tall stick first, then the round bump." },
         { "id": "letter-f", "letter": "f", "word": "fish", "band": 3, "prompt": "Trace the letter that starts fish: f. The hook down first, then the cross." },
         { "id": "letter-S", "letter": "S", "word": "Sun", "band": 3, "prompt": "Now the BIG one for sun: S. One big snake curve, top to bottom." }
-      ]
+      ],
+      "roundsL10n": {
+        "fr": [
+          { "id": "letter-c", "letter": "c", "word": "canard", "band": 1, "prompt": "Trace le c comme dans « canard » : pars du point en haut et tourne vers la gauche." },
+          { "id": "letter-s", "letter": "s", "word": "soleil", "band": 1, "prompt": "Trace le s comme dans « soleil » : commence en haut, tourne vers la gauche, puis redescends en tournant vers la droite." },
+          { "id": "letter-i", "letter": "i", "word": "igloo", "band": 1, "prompt": "Trace le i comme dans « igloo » : descends la barre, puis pose le point au-dessus." },
+          { "id": "letter-t", "letter": "t", "word": "tortue", "band": 1, "prompt": "Trace le t comme dans « tortue » : d’abord la grande barre, puis la petite barre qui la traverse." },
+          { "id": "letter-a", "letter": "a", "word": "avion", "band": 2, "prompt": "Trace le a comme dans « avion » : fais d’abord le rond, puis la barre à droite." },
+          { "id": "letter-d", "letter": "d", "word": "domino", "band": 2, "prompt": "Trace le d comme dans « domino » : fais d’abord le rond, puis la grande barre à droite." },
+          { "id": "letter-j", "letter": "j", "word": "jouet", "band": 2, "prompt": "Trace le j comme dans « jouet » : descends la barre avec la canne en bas, puis pose le point au-dessus." },
+          { "id": "letter-b", "letter": "b", "word": "ballon", "band": 2, "prompt": "Trace le b comme dans « ballon » : descends la grande barre, puis fais le rond en bas à droite." },
+          { "id": "letter-f", "letter": "f", "word": "fleur", "band": 3, "prompt": "Trace le f comme dans « fleur » : descends la grande barre courbée en haut, puis trace la petite barre au milieu." },
+          { "id": "letter-S", "letter": "S", "word": "Soleil", "band": 3, "prompt": "Trace le S comme dans « Soleil » : commence en haut, tourne vers la gauche, puis redescends en formant deux belles courbes." }
+        ]
+      }
     }
   }
 ]

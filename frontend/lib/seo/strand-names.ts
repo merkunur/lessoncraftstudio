@@ -168,6 +168,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
   'Language': {
     en: 'Language',
     de: 'Sprache untersuchen', // Lehrplan-Bereich "Sprache und Sprachgebrauch untersuchen" (de literacy fan-out; short chip form)
+    fr: 'Étude de la langue', // programmes officiels cycle 2 domaine (grammaire/orthographe/lexique/conjugaison; fr literacy fan-out — reused by every fr Language activity)
     nl: 'Taal', // SLO-kerndoelen leergebied Nederlands/taal (nl literacy fan-out)
     fi: 'Kielen rakenteet ja oikeinkirjoitus', // OPS 2014 äidinkieli: language structures & spelling
   },

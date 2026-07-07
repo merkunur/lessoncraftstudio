@@ -215,6 +215,29 @@
         "Votre enfant reconnaît une phrase interrogative"
       ]
     },
+    "wordclass.adjective-adverb.l-2-1-e": {
+      "about": [
+        "Glim, un petit lutin de lumière, n'arrive jamais à finir ses phrases tout seul : il hésite toujours entre deux mots presque jumeaux. « le lapin rapide » ou « le lapin court rapidement » ? Votre enfant l'aide en choisissant la bonne forme selon ce que le mot décrit. C'est gratuit, cela se joue directement dans le navigateur, sans aucune installation.",
+        "L'idée est simple mais essentielle : un adjectif décrit une chose, un nom (« le lapin rapide »), tandis qu'un adverbe dit comment se déroule une action (« le lapin court rapidement »). En choisissant à chaque phrase, votre enfant apprend à distinguer les deux non pas au hasard, mais par leur fonction. C'est aussi l'occasion de retenir un repère précieux : l'adjectif s'accorde en genre et en nombre avec le nom, alors que l'adverbe, lui, reste toujours invariable.",
+        "Tout se fait dans le calme : pas de chrono, pas de points, pas de score. Votre enfant avance à son rythme et recommence autant qu'il le souhaite. L'activité suit les programmes officiels pour l'étude de la langue à l'école élémentaire, autour de l'adjectif et de l'adverbe."
+      ],
+      "practices": [
+        "Distinguer l'adjectif de l'adverbe dans une phrase",
+        "Choisir le bon mot selon ce qu'il décrit : une chose ou une action",
+        "Comprendre qu'un adverbe se termine souvent par -ment",
+        "Reconnaître qu'un adjectif décrit un nom et s'accorde avec lui"
+      ],
+      "howToPlay": [
+        "Votre enfant lit la phrase de Glim à voix haute ou dans sa tête",
+        "Il observe ce que le mot manquant décrit : un nom ou une action",
+        "Il touche l'adjectif ou l'adverbe pour compléter la phrase"
+      ],
+      "learningGoals": [
+        "Votre enfant reconnaît la différence entre un adjectif et un adverbe",
+        "Votre enfant choisit la bonne forme d'un mot selon sa fonction dans la phrase",
+        "Votre enfant retient que l'adjectif s'accorde alors que l'adverbe reste invariable"
+      ]
+    },
     "ziggy-odd-one-out.category.l-1-5-a": {
       "about": [
         "Ziggy le zèbre montre à votre enfant quatre images, chacune avec son mot écrit en dessous. Trois d'entre elles vont ensemble, et une seule ne va pas avec les autres : c'est l'intrus. Par exemple, un chien, un chat, un cochon et une pomme — les trois animaux forment une même famille, alors c'est la pomme qu'il faut trouver et toucher. L'activité est gratuite, se joue directement dans le navigateur sans rien installer, et propose 8 manches avec des catégories différentes : des animaux, des fruits, des vêtements, des véhicules, des plantes, des oiseaux, des objets et des insectes.",

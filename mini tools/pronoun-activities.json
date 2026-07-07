@@ -28,20 +28,34 @@
           { "id": "de-pos-1", "role": "possessive", "sentence": "Das ist ___ Ball.",            "de": { "correct": "sein",  "wrong": "ihn"  } },
           { "id": "de-pos-2", "role": "possessive", "sentence": "Hier ist ___ Hut.",            "de": { "correct": "mein",  "wrong": "mich" } },
           { "id": "de-pos-3", "role": "possessive", "sentence": "Das ist ___ Nest.",            "de": { "correct": "unser", "wrong": "uns"  } }
+        ],
+        "fr": [
+          { "id": "fr-sub-1", "role": "subject",    "sentence": "___ court vite.",        "fr": { "correct": "Il",    "wrong": "Le"   } },
+          { "id": "fr-sub-2", "role": "subject",    "sentence": "___ mange une pomme.",   "fr": { "correct": "Je",    "wrong": "Me"   } },
+          { "id": "fr-sub-3", "role": "subject",    "sentence": "___ chantent ensemble.", "fr": { "correct": "Ils",   "wrong": "Les"  } },
+          { "id": "fr-obj-1", "role": "object",     "sentence": "Maman ___ voit.",        "fr": { "correct": "me",    "wrong": "je"   } },
+          { "id": "fr-obj-2", "role": "object",     "sentence": "Papa ___ porte.",        "fr": { "correct": "te",    "wrong": "tu"   } },
+          { "id": "fr-obj-3", "role": "object",     "sentence": "Léo ___ suit.",          "fr": { "correct": "le",    "wrong": "son"  } },
+          { "id": "fr-pos-1", "role": "possessive", "sentence": "C’est ___ ballon.",      "fr": { "correct": "mon",   "wrong": "me"   } },
+          { "id": "fr-pos-2", "role": "possessive", "sentence": "Voici ___ chien.",       "fr": { "correct": "ton",   "wrong": "te"   } },
+          { "id": "fr-pos-3", "role": "possessive", "sentence": "C’est ___ classe.",      "fr": { "correct": "notre", "wrong": "nous" } }
         ]
       }
     },
     "slug": {
       "en": "personal-pronouns",
-      "de": "personalpronomen-ueben-er-ihn-ich-mich-klasse-3"
+      "de": "personalpronomen-ueben-er-ihn-ich-mich-klasse-3",
+      "fr": "les-pronoms-choisir-la-bonne-forme-ce2"
     },
     "page_title": {
       "en": "The Borrowed Hat — Personal Pronouns (Grade 1)",
-      "de": "Hattie übt Personalpronomen: er/ihn, ich/mich – Klasse 3"
+      "de": "Hattie übt Personalpronomen: er/ihn, ich/mich – Klasse 3",
+      "fr": "Les pronoms : choisir la bonne forme (CE2)"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 grammar activity: at Hattie's Lost-and-Found Hat Shop, every character needs the right word-hat for its job in the sentence — he when doing, him when it is done to him, his when it belongs to him. Read the sentence, then pick the pronoun that fits. A friendly first look at using pronouns correctly. Common Core L.1.1.d.",
-      "de": "Bei Hattie im Hutladen das passende Fürwort wählen: er oder ihn, ich oder mich – je nach Satzrolle. Personalpronomen kostenlos und interaktiv üben, Klasse 3."
+      "de": "Bei Hattie im Hutladen das passende Fürwort wählen: er oder ihn, ich oder mich – je nach Satzrolle. Personalpronomen kostenlos und interaktiv üben, Klasse 3.",
+      "fr": "Avec Hattie, votre enfant choisit la bonne forme du pronom dans chaque phrase. Activité de français gratuite et interactive pour le CE2."
     },
     "kid_prompt_template": "pronoun"
   }

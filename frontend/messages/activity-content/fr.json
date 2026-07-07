@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "pronoun.case.l-1-1-d": {
+      "about": [
+        "Hattie, un lièvre malicieux, tient une petite boutique de chapeaux. Dans chaque phrase, il manque un mot : votre enfant regarde deux mots et touche celui qui va vraiment dans la phrase.",
+        "Le jeu montre en douceur qu’un même personnage change de forme selon son rôle : « Il court » quand quelqu’un fait l’action, « Maman me voit » quand il arrive quelque chose à quelqu’un, et « C’est mon ballon » quand on dit à qui c’est. Ici, « Il court » va, mais « Le court » ne va pas ; « Maman me voit » va, mais « Maman je voit » ne va pas.",
+        "L’activité est libre, interactive et pensée pour le CE2, dans le domaine « Étude de la langue ». Sans chronomètre et sans points, votre enfant essaie, se trompe sans conséquence et recommence tranquillement, en développant son intuition avant de nommer les règles des programmes officiels."
+      ],
+      "practices": [
+        "Choisir, entre deux formes, le pronom qui va dans la phrase.",
+        "Repérer qui fait l’action dans la phrase.",
+        "Dire à qui appartient quelque chose avec mon, ton, notre.",
+        "Développer son intuition de la bonne forme, avant d’apprendre les règles par cœur."
+      ],
+      "howToPlay": [
+        "Lis la phrase à trou et regarde les deux mots proposés.",
+        "Touche le mot qui va dans la phrase.",
+        "Hattie te montre si ça va — sinon, réessaie tranquillement."
+      ],
+      "learningGoals": [
+        "Utiliser le bon pronom selon son rôle dans la phrase.",
+        "Distinguer qui fait l’action et à qui il arrive quelque chose.",
+        "Exprimer la possession avec mon, ton, notre."
+      ]
+    },
     "sentence-builder.build-a-sentence.l-1-1-j": {
       "about": [
         "Wiggles la chenille montre une image et des mots mélangés. Votre enfant touche les mots et les remet dans le bon ordre pour construire une phrase qui décrit l’image.",

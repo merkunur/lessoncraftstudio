@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "comparison-creek.river-steer.k-cc-c-7": {
+      "about": [
+        "Embarquez avec le capitaine Quill, un petit caneton qui descend une rivière sur son radeau ! À chaque bifurcation, la rivière se sépare en deux bras, et chacun affiche un nombre. Votre enfant touche le bon bras — celui du plus grand ou du plus petit nombre — pour guider Quill jusqu’au bout de son voyage.",
+        "Au fil des étapes, votre enfant compare des nombres de 1 à 10 sous toutes leurs formes : deux chiffres, des collections de points, ou même deux petites sommes à calculer. Il découvre aussi l’égalité — quand les deux nombres sont pareils, on touche le signe égal — et apprend une idée essentielle : c’est la valeur du nombre qui compte, pas la taille de son écriture. Les paires proches comme 6 et 7 l’aident à affiner son regard.",
+        "Cette activité est entièrement gratuite et interactive, pensée pour la grande section et le début du CP. Sans chronomètre et sans points : votre enfant avance à son rythme, dans l’esprit des programmes officiels, pour prendre confiance en comparant les nombres."
+      ],
+      "practices": [
+        "Comparer des nombres de 1 à 10 : plus grand, plus petit.",
+        "Reconnaître l’égalité et le signe =.",
+        "Lire la valeur d’un nombre, indépendamment de la taille de l’écriture.",
+        "Distinguer des nombres proches et trouver un nombre situé entre deux autres."
+      ],
+      "howToPlay": [
+        "À chaque bifurcation, lis la consigne du capitaine Quill.",
+        "Touche le bon bras de la rivière — ou le signe égal si les nombres sont pareils.",
+        "Si ce n’est pas le bon, réessaie tranquillement : aucune pression."
+      ],
+      "learningGoals": [
+        "Comparer avec assurance les nombres de 1 à 10 et nommer le plus grand, le plus petit ou l’égalité.",
+        "Comprendre le nombre comme une valeur, indépendante de la taille de son écriture.",
+        "Construire une première idée de la suite des nombres : le précédent, le suivant, et ce qui vient « entre »."
+      ]
+    },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
         "Dans le tribunal des nombres de la juge Tess, une vieille tortue posée et bienveillante, on juge aujourd’hui des égalités. Un témoin s’avance et affirme quelque chose — par exemple « 5 + 3 = 8 », « 6 = 8 − 2 » ou encore « 3 + 2 = 2 + 3 ». Votre enfant est assis sur le siège du juge et doit rendre son verdict : cette égalité est-elle vraie ou fausse ?",

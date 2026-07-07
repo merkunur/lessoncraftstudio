@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "sharing-jar.make-fair.1-oa-d-8": {
+      "about": [
+        "Pim et Bo remplissent chacun leur pot de perles. Parfois l’un en a quelques-unes de plus, parfois quelques-unes de moins, et parfois des perles tombent du pot ! À chaque fois, votre enfant cherche le nombre qui manque : combien il en manque, combien il y en a de plus, ou combien sont tombées. Il touche ensuite le bon nombre, de 0 à 10.",
+        "L’idée qui guide toute l’activité, c’est le partage juste : que chaque pot contienne autant de perles que l’autre. Pour y arriver, votre enfant complète, compare ou restaure — cinq types de questions se succèdent (compléter, trouver l’écart, restaurer les perles tombées, retrouver la quantité de départ). Chaque situation aborde le nombre manquant sous un angle nouveau, ce qui aide votre enfant à comprendre les relations entre les nombres plutôt qu’à réciter.",
+        "L’activité est gratuite, interactive et pensée pour le CP, dans le domaine « Nombres et calcul ». Il n’y a ni chronomètre ni points : votre enfant avance à son rythme, se trompe tranquillement et réessaie, en découvrant par lui-même comment rendre le partage juste — dans l’esprit des programmes officiels."
+      ],
+      "practices": [
+        "Trouver le nombre manquant dans une relation additive ou soustractive simple (le complément).",
+        "Comparer deux quantités et dire combien il y en a de plus (l’écart).",
+        "Restaurer des perles tombées et retrouver la quantité de départ (situation inverse).",
+        "Compléter ou réduire une quantité pour que les deux pots en aient autant."
+      ],
+      "howToPlay": [
+        "Regarde combien de perles Pim et Bo ont dans leur pot, puis lis la question.",
+        "Cherche le nombre qui manque : combien en plus, combien de plus, ou combien au départ.",
+        "Touche le bon nombre, de 0 à 10, et réessaie tranquillement si besoin."
+      ],
+      "learningGoals": [
+        "Trouver le nombre manquant dans des relations simples avec des nombres jusqu’à 12.",
+        "Comprendre le complément et les situations inverses comme des stratégies de calcul.",
+        "Gagner en confiance en découvrant soi-même les relations entre les nombres."
+      ]
+    },
     "tally-squirrel.add-four.2-nbt-b-6": {
       "about": [
         "Tally l’écureuil récolte des glands et remplit deux à quatre paniers. Sur chaque panier est écrit un nombre à deux chiffres — par exemple 23, 14, 11 et 8. Votre enfant additionne tous ces nombres, puis tape le total sur le clavier : une vraie petite histoire de calcul, toujours sous la barre des 100.",

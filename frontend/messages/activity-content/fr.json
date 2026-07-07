@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "hoppers-number-line.jump-sums.2-md-b-6": {
+      "about": [
+        "Hopper la grenouille adore sauter, mais ici ses sauts servent à calculer. La droite graduée devient un véritable modèle de calcul : votre enfant touche le nombre de départ, choisit la direction du saut, puis choisit sa longueur et lit le nombre d’arrivée.",
+        "En avant, on ajoute ; en arrière, on enlève. Ainsi 24 − 9 ou 30 + 40 ne restent pas des opérations abstraites : ils deviennent un déplacement que l’on voit, un saut de Hopper dans les nombres inférieurs à 100. L’enfant relie le calcul à un mouvement clair sur la droite graduée.",
+        "Cette activité complète l’activité de comptage de Hopper : là-bas, le même personnage enchaîne des bonds réguliers pour compter de 2 en 2 ou de 10 en 10 ; ici, il fait un seul saut dirigé pour additionner ou soustraire. Gratuite et interactive, pensée pour le CE1 et le domaine « Nombres et calculs », elle avance sans chronomètre et sans points, dans l’esprit des programmes officiels."
+      ],
+      "practices": [
+        "Représenter une addition ou une soustraction inférieure à 100 sur la droite graduée.",
+        "Choisir la direction du saut : en avant pour additionner, en arrière pour soustraire.",
+        "Faire des sauts de dizaines entières (45 − 20, 80 − 50, 30 + 40) et renforcer le sens des dizaines.",
+        "Lire le résultat comme le nombre d’arrivée du saut."
+      ],
+      "howToPlay": [
+        "Touche le nombre de départ sur la droite graduée.",
+        "Choisis la direction — en avant (plus) ou en arrière (moins) — et la longueur du saut.",
+        "Tape le nombre où Hopper arrive, puis vérifie."
+      ],
+      "learningGoals": [
+        "Comprendre la droite graduée comme un modèle pour calculer, et pas seulement pour compter.",
+        "Relier l’addition et la soustraction à une direction et à un mouvement dans les nombres inférieurs à 100.",
+        "Gagner en aisance avec les dizaines entières."
+      ]
+    },
     "line-plot.read.2-md-d-9": {
       "about": [
         "Shelly le bernard-l’ermite mesure des coquillages sur la plage, le long de la ligne de marée. Chaque coquillage a une longueur en centimètres, et votre enfant le place sur la droite graduée : un X apparaît au-dessus du bon nombre. Peu à peu, les X s’empilent et forment un diagramme des effectifs.",

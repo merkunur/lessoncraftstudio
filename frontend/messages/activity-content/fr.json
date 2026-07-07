@@ -904,6 +904,29 @@
         "Franchir l'étape qui suit l'heure entière et consolider la lecture de l'heure au CE1."
       ]
     },
+    "clock-digital.read-minute.3-md-a-1": {
+      "about": [
+        "Sprocket le coq a besoin d'un coup de main pour lire l'heure exacte sur son horloge à aiguilles. Grâce aux petites graduations du cadran, votre enfant compte les minutes une à une après le repère des 5 et trouve l'heure précise, par exemple « 3 h 23 ». Tout se passe directement dans le navigateur, gratuitement et sans rien installer.",
+        "En jouant, votre enfant s'appuie sur les graduations des minutes, repère le multiple de 5 le plus proche, puis compte en avançant jusqu'à l'aiguille des minutes pour lire l'heure exacte. Il associe ainsi l'horloge à aiguilles à l'heure écrite en chiffres et gagne peu à peu en précision et en confiance.",
+        "L'activité reste calme et bienveillante : pas de chronomètre, pas de points, pas de course. Votre enfant avance à son rythme, se reprend librement et progresse en douceur, en lien avec « les programmes officiels » et le domaine « Grandeurs et mesures »."
+      ],
+      "practices": [
+        "Lire l'heure à la minute près sur une horloge à aiguilles",
+        "Compter les minutes après le repère des 5",
+        "Se servir des graduations du cadran pour trouver la minute exacte",
+        "Lire des heures comme « 3 h 23 » ou « 7 h 47 »"
+      ],
+      "howToPlay": [
+        "Regarde les graduations de l'horloge de Sprocket",
+        "Compte les minutes exactes après le repère des 5",
+        "Touche l'heure écrite qui correspond"
+      ],
+      "learningGoals": [
+        "Votre enfant lit l'heure exacte à la minute près",
+        "Votre enfant compte les minutes en s'appuyant sur les graduations du cadran",
+        "Votre enfant associe l'horloge à aiguilles à l'heure écrite en chiffres"
+      ]
+    },
     "clock-digital.read-five-minute.2-md-c-7": {
       "about": [
         "Sprocket le coq a besoin d'un coup de main pour lire son horloge à aiguilles ! Quand la grande aiguille pointe sur le 4, cela fait 20 minutes : votre enfant lit alors « 3 h 20 » et touche l'heure écrite qui correspond. Tout se passe directement dans le navigateur, sans installation.",

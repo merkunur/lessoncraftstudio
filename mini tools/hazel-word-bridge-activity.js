@@ -17,16 +17,20 @@
   var LANG = 'en';
   var REL_CONJ_DE = { addition: 'und', alternative: 'oder', contrast: 'aber', cause: 'denn' };
   var CHIPS_DE = ['und', 'oder', 'aber', 'denn'];
-  function hwbOracle(round) { return LANG === 'de' ? (REL_CONJ_DE[round.relation] || '') : Core.oracle(round); }
+  var REL_CONJ_FR = { addition: 'et', alternative: 'ou', contrast: 'mais', cause: 'car' };
+  var CHIPS_FR = ['et', 'ou', 'mais', 'car'];
+  var REL_CONJ_L10N = { de: REL_CONJ_DE, fr: REL_CONJ_FR };
+  var CHIPS_L10N = { de: CHIPS_DE, fr: CHIPS_FR };
+  function hwbOracle(round) { var m = REL_CONJ_L10N[LANG]; return m ? (m[round.relation] || '') : Core.oracle(round); }
   function hwbIsAnswer(round, str) { return str === hwbOracle(round); }
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = LANG === 'de' ? 'de-DE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
-  function sayable(s) { return String(s || '').replace(/___/g, LANG === 'de' ? 'Lücke' : 'blank'); }
+  function sayable(s) { return String(s || '').replace(/___/g, LANG === 'de' ? 'Lücke' : LANG === 'fr' ? 'trou' : 'blank'); }
 
   function heronSVG(mood) {
     var happy = mood === 'happy';
@@ -45,13 +49,13 @@
     id: 'hazel-word-bridge-activity',
 
     strings: {
-      title: { en: "Hazel's Word Bridge", de: 'Hazels Wortbrücke' },
-      prompt: { en: 'Which joining word fits?', de: 'Welches Bindewort passt?' },
-      hazelIntro: { en: 'A joining word bridges the two ideas!', de: 'Ein Bindewort schlägt eine Brücke zwischen den zwei Sätzen!' },
-      theAsk: { en: 'Which word joins the two parts?', de: 'Welches Wort verbindet die zwei Teile?' },
-      hintPick: { en: 'Tap the joining word that makes sense!', de: 'Tippe auf ein Bindewort, das in die Lücke passt.' },
-      hintWrong: { en: "That joining word doesn't fit — read it again.", de: 'Lies den ganzen Satz noch einmal. Welches Wort passt zur Bedeutung?' },
-      win: { en: 'Yes! That word bridges the two ideas. 🌉', de: 'Stark gemacht! Du hast die richtige Brücke gebaut! 🌉' }
+      title: { en: "Hazel's Word Bridge", de: 'Hazels Wortbrücke', fr: 'Le pont des mots de Hazel' },
+      prompt: { en: 'Which joining word fits?', de: 'Welches Bindewort passt?', fr: 'Quel mot de liaison va bien ?' },
+      hazelIntro: { en: 'A joining word bridges the two ideas!', de: 'Ein Bindewort schlägt eine Brücke zwischen den zwei Sätzen!', fr: 'Un mot de liaison fait un pont entre les deux phrases !' },
+      theAsk: { en: 'Which word joins the two parts?', de: 'Welches Wort verbindet die zwei Teile?', fr: 'Quel mot relie les deux parties ?' },
+      hintPick: { en: 'Tap the joining word that makes sense!', de: 'Tippe auf ein Bindewort, das in die Lücke passt.', fr: 'Touche le mot de liaison qui va dans le trou.' },
+      hintWrong: { en: "That joining word doesn't fit — read it again.", de: 'Lies den ganzen Satz noch einmal. Welches Wort passt zur Bedeutung?', fr: 'Relis toute la phrase : quel mot va avec le sens ?' },
+      win: { en: 'Yes! That word bridges the two ideas. 🌉', de: 'Stark gemacht! Du hast die richtige Brücke gebaut! 🌉', fr: 'Bravo ! Tu as construit le bon pont ! 🌉' }
     },
     defaults: {},
 
@@ -67,7 +71,7 @@
 
     setupTask: function (round) {
       this.round = round; this.view = Core.childView(round); this.sel = null; this._spoke = false;
-      if (LANG === 'de') this.view.chips = CHIPS_DE.slice();
+      var _c = CHIPS_L10N[LANG]; if (_c) this.view.chips = _c.slice();
       this._chips = shuffle(this.view.chips.slice());
     },
 
@@ -84,7 +88,7 @@
 
       var sent = api.el('div', 'hwb-sent');
       var txt = api.el('span', 'hwb-senttxt'); txt.textContent = v.sentence; sent.appendChild(txt);
-      var sp = api.el('button', 'hwb-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'de' ? 'Satz anhören' : 'hear the sentence'); sp.textContent = '🔊';
+      var sp = api.el('button', 'hwb-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'de' ? 'Satz anhören' : LANG === 'fr' ? 'écouter la phrase' : 'hear the sentence'); sp.textContent = '🔊';
       sp.addEventListener('click', function () { speak(sayable(v.sentence)); }); sent.appendChild(sp);
       root.appendChild(sent);
 

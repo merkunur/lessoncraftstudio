@@ -25,13 +25,23 @@
           { "id": "denn-schirm-regen", "band": 2, "relation": "cause", "sentence": "Ich nehme den Schirm mit, ___ es regnet." },
           { "id": "aber-spiel-gewonnen", "band": 3, "relation": "contrast", "sentence": "Das Spiel war schwer, ___ wir haben gewonnen." },
           { "id": "denn-drinnen-kalt", "band": 3, "relation": "cause", "sentence": "Wir bleiben heute drinnen, ___ es ist sehr kalt." }
+        ],
+        "fr": [
+          { "id": "et-repas-table", "band": 1, "relation": "addition", "sentence": "Maman prépare le repas ___ Papa met la table." },
+          { "id": "ou-balancoire-toboggan", "band": 1, "relation": "alternative", "sentence": "Veux-tu faire de la balançoire ___ préfères-tu le toboggan ?" },
+          { "id": "mais-pluie-dehors", "band": 1, "relation": "contrast", "sentence": "Il pleut, ___ je sors quand même." },
+          { "id": "et-soleil-oiseaux", "band": 2, "relation": "addition", "sentence": "Le soleil brille ___ les oiseaux chantent." },
+          { "id": "ou-dessin-peinture", "band": 2, "relation": "alternative", "sentence": "Dessines-tu maintenant ___ préfères-tu peindre ?" },
+          { "id": "car-parapluie-pluie", "band": 2, "relation": "cause", "sentence": "Je prends le parapluie, ___ il pleut." },
+          { "id": "mais-jeu-gagne", "band": 3, "relation": "contrast", "sentence": "Le jeu était difficile, ___ nous avons gagné." },
+          { "id": "car-dedans-froid", "band": 3, "relation": "cause", "sentence": "On reste dedans aujourd’hui, ___ il fait très froid." }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "hazel-word-bridge", "de": "bindewoerter-und-oder-aber-denn-klasse-3" },
-    "page_title": { "en": "Hazel's Word Bridge — Joining Words (Grade 1)", "de": "Hazels Wortbrücke – Bindewörter üben: und, oder, aber, denn (Klasse 3)" },
-    "page_intro": { "en": "Hazel the heron builds a little word-bridge between two ideas, and a joining word holds it together. Read each sentence, then tap the word that fills the blank — and, but, because, or so — so the two parts make sense. A warm Grade 1 grammar game about using conjunctions to join ideas, aligned to Common Core L.1.1.g.", "de": "Mit Hazel dem Reiher Bindewörter üben: Setze und, oder, aber oder denn passend in den Satz ein – kostenlos und interaktiv, passend zum Lehrplan der Klasse 3." },
+    "slug": { "en": "hazel-word-bridge", "de": "bindewoerter-und-oder-aber-denn-klasse-3", "fr": "les-mots-de-liaison-et-ou-mais-car-ce2" },
+    "page_title": { "en": "Hazel's Word Bridge — Joining Words (Grade 1)", "de": "Hazels Wortbrücke – Bindewörter üben: und, oder, aber, denn (Klasse 3)", "fr": "Les mots de liaison : et, ou, mais, car — CE2" },
+    "page_intro": { "en": "Hazel the heron builds a little word-bridge between two ideas, and a joining word holds it together. Read each sentence, then tap the word that fills the blank — and, but, because, or so — so the two parts make sense. A warm Grade 1 grammar game about using conjunctions to join ideas, aligned to Common Core L.1.1.g.", "de": "Mit Hazel dem Reiher Bindewörter üben: Setze und, oder, aber oder denn passend in den Satz ein – kostenlos und interaktiv, passend zum Lehrplan der Klasse 3.", "fr": "Avec Hazel le héron, choisis le bon mot de liaison — et, ou, mais ou car — selon le sens de la phrase. Activité de grammaire CE2, gratuite et interactive." },
     "kid_prompt_template": "hazel-word-bridge"
   }
 ]

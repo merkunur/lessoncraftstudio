@@ -26,7 +26,7 @@
   function speak(text, rate) {
     try {
       if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.lang = LANG === 'de' ? 'de-DE' : 'en-US'; u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'; u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
@@ -35,22 +35,22 @@
     id: 'hoppers-number-line-activity',
 
     strings: {
-      title: { en: "Hopper's Number Line", de: 'Hopper am Zahlenstrahl' },
-      prompt: { en: 'Hop to the answer.', de: 'Hüpf zur Lösung.' },
-      hop: { en: 'Hop! 🐸', de: 'Hüpf! 🐸' },
-      replay: { en: '🔊 Read again', de: '🔊 Nochmal vorlesen' },
-      fwd: { en: '▶ Forward', de: '▶ Nach vorne' },
-      back: { en: '◀ Back', de: '◀ Zurück' },
-      sizeHint: { en: 'How big is the hop?', de: 'Wie weit geht der Sprung?' },
-      sayWelcome: { en: 'Read the hop, then show me on the line!', de: 'Lies den Sprung und zeig ihn mir am Zahlenstrahl!' },
-      sayDial: { en: 'Where does Hopper land? Dial it!', de: 'Wo landet Hopper? Tipp die Zahl ein!' },
-      sayWin: { en: 'Splash! Right on the lily. 🪷', de: 'Platsch! Genau auf der Seerose. 🪷' },
-      sayWait: { en: "Hmm, let's hop again.", de: 'Hmm, lass uns nochmal hüpfen.' },
-      hintCheck: { en: 'Set the start, the way, and the hop size — then dial the landing.', de: 'Stell den Start, die Richtung und die Sprungweite ein – dann tipp die Landung ein.' },
-      ariaStart: { en: 'start at {v}', de: 'Start bei {v}' },
-      ariaHop: { en: 'hop {sz}', de: 'Sprung {sz}' },
-      ariaEdit: { en: 'change the hop', de: 'Sprung ändern' },
-      ariaClear: { en: 'clear', de: 'löschen' }
+      title: { en: "Hopper's Number Line", de: 'Hopper am Zahlenstrahl', fr: 'Hopper sur la droite graduée' },
+      prompt: { en: 'Hop to the answer.', de: 'Hüpf zur Lösung.', fr: 'Saute jusqu’à la réponse.' },
+      hop: { en: 'Hop! 🐸', de: 'Hüpf! 🐸', fr: 'Saute ! 🐸' },
+      replay: { en: '🔊 Read again', de: '🔊 Nochmal vorlesen', fr: '🔊 Réécouter' },
+      fwd: { en: '▶ Forward', de: '▶ Nach vorne', fr: '▶ En avant' },
+      back: { en: '◀ Back', de: '◀ Zurück', fr: '◀ En arrière' },
+      sizeHint: { en: 'How big is the hop?', de: 'Wie weit geht der Sprung?', fr: 'De combien est le saut ?' },
+      sayWelcome: { en: 'Read the hop, then show me on the line!', de: 'Lies den Sprung und zeig ihn mir am Zahlenstrahl!', fr: 'Lis le saut et montre-le-moi sur la droite graduée !' },
+      sayDial: { en: 'Where does Hopper land? Dial it!', de: 'Wo landet Hopper? Tipp die Zahl ein!', fr: 'Où arrive Hopper ? Tape le nombre !' },
+      sayWin: { en: 'Splash! Right on the lily. 🪷', de: 'Platsch! Genau auf der Seerose. 🪷', fr: 'Plouf ! Pile sur le nénuphar. 🪷' },
+      sayWait: { en: "Hmm, let's hop again.", de: 'Hmm, lass uns nochmal hüpfen.', fr: 'Hmm, on refait un saut.' },
+      hintCheck: { en: 'Set the start, the way, and the hop size — then dial the landing.', de: 'Stell den Start, die Richtung und die Sprungweite ein – dann tipp die Landung ein.', fr: 'Choisis le départ, la direction et la longueur du saut, puis tape le nombre d’arrivée.' },
+      ariaStart: { en: 'start at {v}', de: 'Start bei {v}', fr: 'départ sur {v}' },
+      ariaHop: { en: 'hop {sz}', de: 'Sprung {sz}', fr: 'saut de {sz}' },
+      ariaEdit: { en: 'change the hop', de: 'Sprung ändern', fr: 'changer le saut' },
+      ariaClear: { en: 'clear', de: 'löschen', fr: 'effacer' }
     },
     defaults: {},
 

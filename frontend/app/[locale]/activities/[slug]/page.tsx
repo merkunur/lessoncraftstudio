@@ -138,7 +138,7 @@ const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'author-purpose.why-wrote.ri-2-6': { de: 'Lesen – mit Texten und Medien umgehen' }, // Textfunktion/Lesabsicht spanning Textsorten (the activity sorts a story + a how-to alongside facts) → the KMK Bereich, NOT „Sachtexte verstehen" (a story note isn't a Sachtext); field-guide/bea precedent
   'graph-it.bar-graph.2-md-d-10': { de: 'Daten und Häufigkeit', fr: 'Organisation et gestion de données' },   // bar graph = data, not Größen / Grandeurs et mesures
   'line-plot.read.2-md-d-9': { de: 'Daten und Häufigkeit', fr: 'Organisation et gestion de données' },        // line plot of measured lengths = data, not Größen / Grandeurs et mesures
-  'hoppers-number-line.jump-sums.2-md-b-6': { de: 'Zahlen und Rechnen im Zehnersystem' }, // add/sub on a number line = arithmetic, not Größen
+  'hoppers-number-line.jump-sums.2-md-b-6': { de: 'Zahlen und Rechnen im Zehnersystem', fr: 'Nombres et calcul' }, // add/sub on a number line = arithmetic, not Größen / Grandeurs et mesures
   'mosaic-menders.area-match.3-md-c-6': { de: 'Raum und Form' },    // Flächeninhalt = Raum und Form in KMK, not Größen und Messen
   'patchwork-meadow.tile.3-md-c-6': { de: 'Raum und Form' },        // Flächeninhalt durch Auslegen = Raum und Form (sibling of mosaic-menders)
   'digby-number-trace.numeral-formation.k-cc-a-3': { de: 'Zahlen und Operationen' },  // numeral WRITING = Zahldarstellung (NOT the reading sibling pips-round's „Zählen und Mengen")
@@ -435,7 +435,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.135';
+  const ACTIVITY_WRAPPER_VERSION = '9.136';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

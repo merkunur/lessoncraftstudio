@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "mosaic-menders.area-match.3-md-c-6": {
+      "about": [
+        "Tessa est mosaïste : elle assemble de petits carreaux carrés, tous identiques, pour créer de belles mosaïques. Dans cette activité, votre enfant observe la mosaïque-modèle de Tessa, puis trois autres mosaïques, et touche celle qui est faite du même nombre de carreaux — c’est-à-dire celle qui a la même aire.",
+        "Le piège est astucieux : l’une des mauvaises réponses a un contour plus grand et occupe plus de place à l’œil, mais elle est faite de moins de carreaux ; une autre en contient davantage. « Choisir la plus grande » ou « la plus remplie » ne fonctionne pas. La seule méthode fiable, c’est de compter les carreaux un par un.",
+        "Votre enfant découvre ainsi une idée essentielle : l’aire d’une figure, c’est le nombre de carreaux-unités qui la composent, et cette aire ne dépend pas de la forme. Deux mosaïques très différentes peuvent avoir exactement la même aire. Cette activité gratuite et interactive s’adresse aux enfants de CM1, dans le domaine « Grandeurs et mesures » des programmes officiels ; elle se joue sans chronomètre et sans points, à son rythme."
+      ],
+      "practices": [
+        "Mesurer une aire en comptant des carreaux identiques.",
+        "Comparer l’aire de deux figures grâce au comptage des carreaux.",
+        "Comprendre que l’aire d’une figure ne dépend pas de sa forme.",
+        "Dépasser l’erreur fréquente : « plus grand contour = plus grande aire »."
+      ],
+      "howToPlay": [
+        "Regarde bien la mosaïque-modèle de Tessa et compte ses carreaux.",
+        "Compare les trois mosaïques : compte leurs carreaux, ne te fie pas à leur taille.",
+        "Touche celle qui a le même nombre de carreaux — c’est la même aire."
+      ],
+      "learningGoals": [
+        "Comprendre l’aire comme un nombre de carreaux-unités.",
+        "Comprendre que deux figures de formes différentes peuvent avoir la même aire.",
+        "Comparer des aires en comptant les carreaux plutôt qu’en jugeant à l’œil."
+      ]
+    },
     "span-length-gap.how-much-longer.2-md-a-4": {
       "about": [
         "Span, la chenille arpenteuse, adore mesurer. Elle montre à votre enfant deux bandes proportionnelles, chacune avec son nom et sa longueur en centimètres — par exemple un ruban de 8 cm et une ficelle de 5 cm.",

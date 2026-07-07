@@ -19,15 +19,18 @@
     "theme": null,
     "slug": {
       "en": "mosaic-menders-area",
-      "de": "flaecheninhalt-kaestchen-zaehlen-klasse-3"
+      "de": "flaecheninhalt-kaestchen-zaehlen-klasse-3",
+      "fr": "aire-compter-les-carreaux-cm1"
     },
     "page_title": {
       "en": "The Mosaic Menders — Area as Counting Unit Squares (Grade 3)",
-      "de": "Tessas Mosaik-Werkstatt — Flächeninhalt durch Kästchen zählen (Klasse 3)"
+      "de": "Tessas Mosaik-Werkstatt — Flächeninhalt durch Kästchen zählen (Klasse 3)",
+      "fr": "Aire : compter les carreaux avec la mosaïque de Tessa — CM1"
     },
     "page_intro": {
       "en": "A free interactive Grade 3 math activity: help Tessa find the mosaic that uses the same number of unit tiles. One look-alike has a bigger shape but the wrong count, so children must measure area by counting unit squares — not by which looks biggest. Area is a count of unit squares, the same no matter the shape. Common Core 3.MD.C.6.",
-      "de": "Hilf Tessa beim Mosaiklegen und miss den Flächeninhalt, indem du Kästchen zählst – egal welche Form. Einheitsquadrate, Mathe Klasse 3, kostenlos und interaktiv üben."
+      "de": "Hilf Tessa beim Mosaiklegen und miss den Flächeninhalt, indem du Kästchen zählst – egal welche Form. Einheitsquadrate, Mathe Klasse 3, kostenlos und interaktiv üben.",
+      "fr": "Mesure l’aire en comptant les carreaux ! Avec Tessa la mosaïste, ton enfant trouve la mosaïque qui a le même nombre de carreaux. Gratuit et interactif, niveau CM1."
     },
     "kid_prompt_template": "area-match"
   }

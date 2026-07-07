@@ -19,7 +19,7 @@
   function imgUrl(t) { return '/image-library-webp/themes/' + t.themeDir + '/' + t.noun + '@2x.webp'; }
   function speak(word) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: word, lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(word); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(word); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -38,14 +38,14 @@
     id: 'olive-kind-of-activity',
 
     strings: {
-      title: { en: "Olive's Kind-Of Tree", de: 'Olives Oberbegriff-Baum' },
-      prompt: { en: 'What kind of thing is it?', de: 'Was für ein Ding ist das?' },
-      oliveIntro: { en: 'Read the clue — what KIND of thing is this?', de: 'Lies den Tipp – was für ein Ding ist das?' },
-      clueLab: { en: 'Clue:', de: 'Tipp:' },
-      theAsk: { en: 'Tap the group it belongs to.', de: 'Tippe auf die Gruppe, zu der es gehört.' },
-      hintPick: { en: 'Read the clue, then tap a group!', de: 'Lies den Tipp und tippe dann auf eine Gruppe!' },
-      hintWrong: { en: "Not that group — read the clue once more.", de: 'Nicht diese Gruppe – lies den Tipp noch einmal.' },
-      win: { en: 'Yes! You found its group. 🦉', de: 'Ja! Du hast die richtige Gruppe gefunden. 🦉' }
+      title: { en: "Olive's Kind-Of Tree", de: 'Olives Oberbegriff-Baum', fr: 'L’arbre des catégories d’Olive' },
+      prompt: { en: 'What kind of thing is it?', de: 'Was für ein Ding ist das?', fr: 'Quelle sorte de chose est-ce ?' },
+      oliveIntro: { en: 'Read the clue — what KIND of thing is this?', de: 'Lies den Tipp – was für ein Ding ist das?', fr: 'Lis l’indice : quelle sorte de chose est-ce ?' },
+      clueLab: { en: 'Clue:', de: 'Tipp:', fr: 'Indice :' },
+      theAsk: { en: 'Tap the group it belongs to.', de: 'Tippe auf die Gruppe, zu der es gehört.', fr: 'Touche la bonne catégorie.' },
+      hintPick: { en: 'Read the clue, then tap a group!', de: 'Lies den Tipp und tippe dann auf eine Gruppe!', fr: 'Lis l’indice, puis touche une catégorie !' },
+      hintWrong: { en: "Not that group — read the clue once more.", de: 'Nicht diese Gruppe – lies den Tipp noch einmal.', fr: 'Pas cette catégorie… relis bien l’indice.' },
+      win: { en: 'Yes! You found its group. 🦉', de: 'Ja! Du hast die richtige Gruppe gefunden. 🦉', fr: 'Bravo ! Tu as trouvé la bonne catégorie. 🦉' }
     },
     defaults: {},
 
@@ -77,7 +77,7 @@
       root.appendChild(row);
 
       var mid = api.el('div', 'okt-mid');
-      var pic = api.el('button', 'okt-pic'); pic.type = 'button'; pic.setAttribute('aria-label', LANG === 'de' ? (dispWord + ' anhören') : ('hear ' + dispWord));
+      var pic = api.el('button', 'okt-pic'); pic.type = 'button'; pic.setAttribute('aria-label', LANG === 'de' ? (dispWord + ' anhören') : LANG === 'fr' ? ('écouter ' + dispWord) : ('hear ' + dispWord));
       pic.innerHTML = '<img class="okt-img" src="' + imgUrl(v.target) + '" alt="' + esc(dispWord) + '" onerror="this.style.visibility=\'hidden\'"><span class="okt-spk">🔊</span>';
       pic.addEventListener('click', function () { speak(dispWord); });
       mid.appendChild(pic);

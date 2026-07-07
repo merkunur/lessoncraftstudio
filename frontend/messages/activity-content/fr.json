@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "olive-kind-of.category-attribute.l-1-5-b": {
+      "about": [
+        "Dans « L’arbre des catégories d’Olive », votre enfant part à la découverte des grandes catégories de mots avec Olive, une chouette curieuse. À chaque manche, une image apparaît avec un petit indice sur ce que la chose fait ou sur ce à quoi elle ressemble : votre enfant doit deviner à quelle grande catégorie elle appartient.",
+        "D’un « chien », d’une « rose » ou d’un « poisson », on remonte vers la catégorie qui les rassemble : animal, plante, véhicule, nourriture, vêtement ou meuble. Regrouper les mots par catégories, c’est apprendre à ranger et à ordonner son vocabulaire, un mot particulier après l’autre.",
+        "Passer du mot particulier au mot générique aide votre enfant à mieux comprendre et à mieux mémoriser les mots. L’activité est gratuite, interactive et pensée pour le CE1, dans le domaine du lexique. Il n’y a ni chrono ni points : votre enfant avance à son rythme, comme le proposent les programmes officiels."
+      ],
+      "practices": [
+        "Associer une chose à sa catégorie (le chien appartient aux animaux).",
+        "Reconnaître à quel grand groupe une chose appartient grâce à un indice.",
+        "Passer du mot particulier au mot générique (chien → animal).",
+        "Ordonner et ranger son vocabulaire par catégories."
+      ],
+      "howToPlay": [
+        "Regarde l’image et lis l’indice d’Olive.",
+        "Réfléchis : à quelle grande catégorie cette chose appartient-elle ?",
+        "Touche la bonne catégorie — et réessaie tranquillement si besoin."
+      ],
+      "learningGoals": [
+        "Associer les mots et les choses à leur catégorie.",
+        "Reconnaître le mot générique d’un mot particulier.",
+        "Structurer et enrichir son vocabulaire."
+      ]
+    },
     "sage-root-garden.roots.l-2-4-c": {
       "about": [
         "Dans le jardin des mots de Sage la tortue, les mots poussent comme des plantes. De nombreux mots grandissent à partir d’un même radical : du radical « chat » poussent « chaton » et « chatte », de « fleur » poussent « fleuriste » et « fleurir ». Ce petit morceau commun, caché au début du mot, s’appelle le radical.",

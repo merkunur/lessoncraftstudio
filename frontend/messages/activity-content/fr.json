@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "sage-root-garden.roots.l-2-4-c": {
+      "about": [
+        "Dans le jardin des mots de Sage la tortue, les mots poussent comme des plantes. De nombreux mots grandissent à partir d’un même radical : du radical « chat » poussent « chaton » et « chatte », de « fleur » poussent « fleuriste » et « fleurir ». Ce petit morceau commun, caché au début du mot, s’appelle le radical.",
+        "À chaque tour, Sage montre un radical et trois mots. Deux de ces mots se ressemblent beaucoup mais viennent d’une autre famille : « château » ressemble à « chat », « fleuve » ressemble à « fleur », pourtant ils ne cachent pas le même radical. Votre enfant doit regarder de près et trouver le seul mot qui pousse vraiment du radical.",
+        "Cette activité est gratuite, interactive et pensée pour le CE1, dans le domaine du lexique. Il n’y a ni chrono ni points : votre enfant observe, compare et apprend à son rythme comment les mots d’une même famille se construisent, comme le proposent les programmes officiels."
+      ],
+      "practices": [
+        "Repérer le radical caché au début d’un mot.",
+        "Reconnaître les mots d’une même famille.",
+        "Se servir du radical pour comprendre le sens d’un mot nouveau.",
+        "Distinguer un vrai mot de la famille d’un mot qui lui ressemble seulement."
+      ],
+      "howToPlay": [
+        "Sage te montre un radical, par exemple « chat ».",
+        "Regarde les trois mots et touche celui qui pousse à partir de ce radical.",
+        "Si tu te trompes, réessaie — cherche bien le radical au début du mot."
+      ],
+      "learningGoals": [
+        "Reconnaître le radical commun d’une famille de mots.",
+        "Relier entre eux des mots de la même famille.",
+        "Distinguer les mots d’une même famille des mots qui se ressemblent seulement."
+      ]
+    },
     "sentence-clinic.fix-it.l-2-1": {
       "about": [
         "Le Dr. Plume, un hibou plein de patience, tient une petite clinique des phrases. Dans chaque phrase, une seule chose s’est cachée de travers : une majuscule oubliée, un point manquant, ou un verbe qui ne va pas encore avec son sujet.",

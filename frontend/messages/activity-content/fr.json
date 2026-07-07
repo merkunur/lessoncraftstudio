@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "bundle-bot.bundle-machine.1-nbt-b-2-a": {
+      "about": [
+        "Bolt est un petit robot très ordonné : sur son tapis roulant, des unités seules sont éparpillées. Votre enfant les met une par une, compte jusqu’à dix, puis tire le levier — et Bolt presse les dix unités en une seule barre de dix. Dix unités deviennent une dizaine.",
+        "En groupant ainsi par dix, votre enfant construit des nombres à deux chiffres, de 20 à 49, avec des dizaines et des unités. C’est tout le cœur de la numération décimale : 34, c’est 3 dizaines et 4 unités, et chaque barre de dix vaut exactement dix unités. Parfois, il faut défaire une dizaine pour montrer un même nombre autrement, ou repérer l’imposteur — un paquet qui ne contient que neuf unités au lieu de dix.",
+        "L’activité est gratuite et interactive, pensée pour le CP, dans le domaine « Nombres et calcul ». Il n’y a ni chronomètre ni points : votre enfant groupe, compte et vérifie à son rythme, en découvrant les dizaines et les unités comme le prévoient les programmes officiels."
+      ],
+      "practices": [
+        "Grouper dix unités en une dizaine et construire les nombres de 20 à 49 avec des dizaines et des unités.",
+        "Défaire une dizaine pour représenter un même nombre d’une autre façon.",
+        "Lire un nombre représenté (« … dizaines et … unités ») et fabriquer une dizaine ronde comme 40.",
+        "Vérifier qu’un paquet contient bien dix unités et repérer l’imposteur qui n’en a que neuf."
+      ],
+      "howToPlay": [
+        "Mets les unités une par une sur le tapis et compte jusqu’à dix.",
+        "Tire le levier : Bolt groupe les dix unités en une dizaine ; recommence jusqu’au bon nombre de dizaines, puis laisse les unités restantes seules.",
+        "Lis « … dizaines et … unités » et touche Vérifier ; pour « défaire », dégroupe une dizaine en dix unités seules."
+      ],
+      "learningGoals": [
+        "Comprendre que dix unités font une dizaine, et qu’un nombre à deux chiffres est fait de dizaines et d’unités.",
+        "Grouper et défaire dans les deux sens, pour bien saisir la valeur des chiffres selon leur position.",
+        "Lire et représenter correctement un nombre, et vérifier qu’un paquet contient bien dix unités."
+      ]
+    },
     "sharing-jar.make-fair.1-oa-d-8": {
       "about": [
         "Pim et Bo remplissent chacun leur pot de perles. Parfois l’un en a quelques-unes de plus, parfois quelques-unes de moins, et parfois des perles tombent du pot ! À chaque fois, votre enfant cherche le nombre qui manque : combien il en manque, combien il y en a de plus, ou combien sont tombées. Il touche ensuite le bon nombre, de 0 à 10.",

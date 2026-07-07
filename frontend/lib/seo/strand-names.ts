@@ -175,6 +175,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
   'Vocabulary Acquisition and Use': {
     en: 'Vocabulary Acquisition and Use',
     de: 'Wortschatz untersuchen', // Lehrplan vocabulary sub-area (de literacy fan-out; affix/Wortbildung + L.K.5.A category-sorting)
+    fr: 'Le lexique', // programmes officiels cycle 2 sous-domaine d'Étude de la langue (fr literacy fan-out — préfixes/suffixes; distinct from the broader "Language"→fr « Étude de la langue »; reused by future fr lexique activities)
   },
   'Number & Operations—Fractions': {
     en: 'Number & Operations—Fractions',

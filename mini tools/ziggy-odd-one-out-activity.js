@@ -19,7 +19,7 @@
   function imgUrl(t) { return '/image-library-webp/themes/' + t.themeDir + '/' + t.noun + '@2x.webp'; }
   function speak(word) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: word, lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(word); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(word); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -39,13 +39,13 @@
     id: 'ziggy-odd-one-out-activity',
 
     strings: {
-      title: { en: "Ziggy's Odd One Out", de: 'Ziggys Was-passt-nicht?' },
-      prompt: { en: 'Which one does not belong?', de: 'Welches Bild passt nicht?' },
-      ziggyIntro: { en: 'Three of these go together — which one is different?', de: 'Hallo, ich bin Ziggy das Zebra! Drei gehören zusammen – eines ist anders.' },
-      theAsk: { en: "Tap the one that doesn't belong.", de: 'Tippe das Bild an, das nicht dazugehört.' },
-      hintPick: { en: 'Three are alike — tap the odd one out!', de: 'Schau dir alle vier an. Welche drei gehören zusammen?' },
-      hintWrong: { en: "Look again — which three make a group?", de: 'Fast! Drei passen zusammen – eines ist anders. Versuch es noch einmal.' },
-      win: { en: 'Yes! That one is different. 🦓', de: 'Super gemacht – du hast es gefunden! 🦓' }
+      title: { en: "Ziggy's Odd One Out", de: 'Ziggys Was-passt-nicht?', fr: 'Ziggy et l’intrus' },
+      prompt: { en: 'Which one does not belong?', de: 'Welches Bild passt nicht?', fr: 'Quelle image ne va pas avec les autres ?' },
+      ziggyIntro: { en: 'Three of these go together — which one is different?', de: 'Hallo, ich bin Ziggy das Zebra! Drei gehören zusammen – eines ist anders.', fr: '🦓 Trois vont ensemble, une est différente. Trouve l’intrus !' },
+      theAsk: { en: "Tap the one that doesn't belong.", de: 'Tippe das Bild an, das nicht dazugehört.', fr: 'Touche l’image qui ne va pas avec les autres.' },
+      hintPick: { en: 'Three are alike — tap the odd one out!', de: 'Schau dir alle vier an. Welche drei gehören zusammen?', fr: 'Regarde bien les quatre images. Lesquelles vont ensemble ?' },
+      hintWrong: { en: "Look again — which three make a group?", de: 'Fast! Drei passen zusammen – eines ist anders. Versuch es noch einmal.', fr: 'Presque ! Trois images vont ensemble, une seule est différente. Regarde encore.' },
+      win: { en: 'Yes! That one is different. 🦓', de: 'Super gemacht – du hast es gefunden! 🦓', fr: 'Bravo ! Tu as trouvé l’intrus ! 🦓' }
     },
     defaults: {},
 
@@ -79,7 +79,7 @@
 
       var opts = api.el('div', 'zoo-opts');
       this._cards.forEach(function (o) {
-        var label = (LANG === 'de' && self.round.items[o.id] && self.round.items[o.id].label) || o.noun;
+        var label = (self.round.items[o.id] && self.round.items[o.id].label) || o.noun;
         var b = api.el('button', 'zoo-tile zoo-opt' + (self.sel === o.id ? ' zoo-sel' : '')); b.type = 'button'; b.setAttribute('data-id', o.id); b.setAttribute('aria-label', label);
         b.innerHTML = '<img class="zoo-img" src="' + imgUrl(o) + '" alt="' + esc(label) + '" onerror="this.style.visibility=\'hidden\'"><span class="zoo-word">' + esc(label) + '</span>';
         b.addEventListener('click', function () { self._tap(o.id, label); });
@@ -88,7 +88,7 @@
       root.appendChild(opts);
 
       wrap.appendChild(root); stage.appendChild(wrap);
-      if (!this._spoke) { this._spoke = true; setTimeout(function () { self._cards.forEach(function (o, i) { var lab = (LANG === 'de' && self.round.items[o.id] && self.round.items[o.id].label) || o.noun; setTimeout(function () { speak(lab); }, i * 650); }); }, 320); }
+      if (!this._spoke) { this._spoke = true; setTimeout(function () { self._cards.forEach(function (o, i) { var lab = (self.round.items[o.id] && self.round.items[o.id].label) || o.noun; setTimeout(function () { speak(lab); }, i * 650); }); }, 320); }
     },
 
     _tap: function (id, noun) {

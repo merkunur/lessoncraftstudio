@@ -128,13 +128,16 @@
       ]
     },
     "slug": {
-      "en": "read-clock-to-the-five-minute"
+      "en": "read-clock-to-the-five-minute",
+      "fr": "lire-lheure-de-5-en-5-ce2"
     },
     "page_title": {
-      "en": "Sprocket's Clock — Read the Clock to Five Minutes (Grade 2)"
+      "en": "Sprocket's Clock — Read the Clock to Five Minutes (Grade 2)",
+      "fr": "L'horloge de Sprocket — Lire l'heure de 5 en 5 (CE2)"
     },
     "page_intro": {
-      "en": "A free interactive Grade 2 time activity: read an analog clock to the nearest five minutes, then tap the matching digital time. Children learn to count by fives around the clock — the long hand on the 4 means 20 minutes, on the 7 means 35 — and to read times like 3:20 and 7:05. Sprocket the rooster cheers them on. Common Core 2.MD.C.7."
+      "en": "A free interactive Grade 2 time activity: read an analog clock to the nearest five minutes, then tap the matching digital time. Children learn to count by fives around the clock — the long hand on the 4 means 20 minutes, on the 7 means 35 — and to read times like 3:20 and 7:05. Sprocket the rooster cheers them on. Common Core 2.MD.C.7.",
+      "fr": "Avec Sprocket le coq, votre enfant apprend à lire l'heure de 5 en 5 : il compte les minutes autour du cadran et lit des heures comme « 3 h 20 » ou « 7 h 05 ». Activité gratuite et interactive, CE2, « Grandeurs et mesures »."
     },
     "kid_prompt_template": "clock-digital"
   },

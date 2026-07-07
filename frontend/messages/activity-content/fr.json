@@ -904,6 +904,29 @@
         "Franchir l'étape qui suit l'heure entière et consolider la lecture de l'heure au CE1."
       ]
     },
+    "clock-digital.read-five-minute.2-md-c-7": {
+      "about": [
+        "Sprocket le coq a besoin d'un coup de main pour lire son horloge à aiguilles ! Quand la grande aiguille pointe sur le 4, cela fait 20 minutes : votre enfant lit alors « 3 h 20 » et touche l'heure écrite qui correspond. Tout se passe directement dans le navigateur, sans installation.",
+        "Pour lire l'heure au cinq minutes près, on compte les minutes de 5 en 5 tout autour du cadran : 5, 10, 15, 20, 25… Votre enfant s'entraîne à repérer où pointe la grande aiguille, à lire les minutes exactes et à associer l'horloge à aiguilles à l'heure écrite. Les repères « et quart » et « et demie » existent, mais ici on se concentre sur la lecture des minutes précises.",
+        "L'activité est gratuite, sans chrono et sans points : votre enfant avance à son rythme, autant de fois qu'il le souhaite. Elle accompagne « les programmes officiels » dans le domaine « Grandeurs et mesures »."
+      ],
+      "practices": [
+        "Lire l'heure de 5 en 5, au cinq minutes près",
+        "Compter les minutes de 5 en 5 sur le cadran",
+        "Associer l'horloge à aiguilles à l'heure écrite",
+        "Lire des heures comme « 3 h 20 » ou « 10 h 40 »"
+      ],
+      "howToPlay": [
+        "Regarde l'horloge à aiguilles de Sprocket",
+        "Compte les minutes de 5 en 5 autour du cadran",
+        "Touche l'heure écrite qui correspond"
+      ],
+      "learningGoals": [
+        "Votre enfant lit l'heure au cinq minutes près sur une horloge à aiguilles",
+        "Votre enfant compte les minutes de 5 en 5 pour trouver l'heure exacte",
+        "Votre enfant relie l'horloge à aiguilles à l'heure écrite comme « 7 h 05 »"
+      ]
+    },
     "clock-digital.read-quarter-hour.2-md-c-7": {
       "about": [
         "Sprocket le coq a besoin d'un coup de main pour lire l'horloge au quart d'heure près ! Votre enfant regarde les aiguilles, puis touche l'heure qui correspond : « 3 h 15 » se dit « trois heures et quart », et « 3 h 45 » se dit « quatre heures moins le quart ». C'est gratuit, ça se joue directement dans le navigateur et il n'y a rien à installer.",

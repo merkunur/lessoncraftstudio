@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "roary-roar-meter.shades.l-2-5-b": {
+      "about": [
+        "Roary le lion adore mesurer la force des mots avec son « rugissomètre » : une petite jauge qui grimpe quand un mot devient plus intense. Sur cette activité, votre enfant voit trois mots de sens proche — par exemple « chuchoter », « parler » et « crier » — et touche celui qu'on lui demande : le plus fort, ou le plus faible. C'est gratuit, cela se joue directement dans le navigateur, sans rien installer et sans créer de compte.",
+        "L'idée est simple à saisir : des mots proches ne disent pas tout à fait la même chose, ils ont de petites différences d'intensité et forment une gradation, du plus faible au plus fort. « Glacial » est plus fort que « frais » ; « crier » est plus fort que « parler » ; « brûlant » dépasse « tiède » et « chaud ». En apprenant à repérer cette échelle, votre enfant découvre que choisir le mot juste, c'est s'exprimer avec plus de précision et de nuance.",
+        "Tout se fait sans pression : pas de chronomètre, pas de points, pas de compétition. Votre enfant essaie, se trompe si besoin, réfléchit à son rythme et recommence. L'activité s'appuie sur « les programmes officiels » et travaille le lexique et le vocabulaire, une compétence clé du cycle 2 à l'école élémentaire."
+      ],
+      "practices": [
+        "Reconnaître des mots de sens proche (des synonymes)",
+        "Classer trois mots synonymes du plus faible au plus fort",
+        "Trouver le mot le plus fort ou le mot le plus faible",
+        "Enrichir son vocabulaire et choisir un mot plus précis"
+      ],
+      "howToPlay": [
+        "Lis ou écoute les trois mots que montre Roary",
+        "Regarde si l'on cherche le mot le plus fort ou le plus faible",
+        "Touche le bon mot pour faire réagir le rugissomètre"
+      ],
+      "learningGoals": [
+        "Votre enfant reconnaît que des mots proches ont de petites différences d'intensité",
+        "Votre enfant classe trois synonymes selon leur force, du plus faible au plus fort",
+        "Votre enfant choisit un mot plus précis pour mieux s'exprimer"
+      ]
+    },
     "rusty-yesterday.irregular-past.l-2-1-d": {
       "about": [
         "Rusty le robot a construit une drôle de machine à voyager dans le temps, et il a besoin de votre enfant pour la faire fonctionner. Rusty montre une phrase d'aujourd'hui — « Aujourd'hui je fais un gâteau. » — puis il demande la forme d'hier : « Hier, j'ai …? ». Votre enfant touche le bon mot parmi trois propositions (« fait », « fais » et « faisé ») pour renvoyer Rusty au bon moment. C'est gratuit, ça se joue directement dans le navigateur, sans rien installer.",

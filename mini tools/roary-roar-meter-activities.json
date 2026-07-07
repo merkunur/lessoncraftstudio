@@ -25,13 +25,23 @@
           { "id": "nass-schwach", "band": 2, "setId": "wet", "ask": "weakest", "words": [ { "word": "feucht", "rank": 1 }, { "word": "nass", "rank": 2 }, { "word": "klatschnass", "rank": 3 } ] },
           { "id": "lachen-stark", "band": 3, "setId": "laugh", "ask": "strongest", "words": [ { "word": "lächeln", "rank": 1 }, { "word": "lachen", "rank": 2 }, { "word": "brüllen", "rank": 3 } ] },
           { "id": "regen-schwach", "band": 3, "setId": "rain", "ask": "weakest", "words": [ { "word": "nieseln", "rank": 1 }, { "word": "regnen", "rank": 2 }, { "word": "gießen", "rank": 3 } ] }
+        ],
+        "fr": [
+          { "id": "volume", "band": 1, "setId": "volume", "ask": "strongest", "words": [ { "word": "chuchoter", "rank": 1 }, { "word": "parler", "rank": 2 }, { "word": "crier", "rank": 3 } ] },
+          { "id": "taille", "band": 1, "setId": "taille", "ask": "weakest", "words": [ { "word": "petit", "rank": 1 }, { "word": "grand", "rank": 2 }, { "word": "immense", "rank": 3 } ] },
+          { "id": "vitesse", "band": 1, "setId": "vitesse", "ask": "strongest", "words": [ { "word": "marcher", "rank": 1 }, { "word": "courir", "rank": 2 }, { "word": "foncer", "rank": 3 } ] },
+          { "id": "chaleur", "band": 2, "setId": "chaleur", "ask": "weakest", "words": [ { "word": "tiède", "rank": 1 }, { "word": "chaud", "rank": 2 }, { "word": "brûlant", "rank": 3 } ] },
+          { "id": "mouille", "band": 2, "setId": "mouille", "ask": "strongest", "words": [ { "word": "humide", "rank": 1 }, { "word": "mouillé", "rank": 2 }, { "word": "trempé", "rank": 3 } ] },
+          { "id": "froid", "band": 2, "setId": "froid", "ask": "weakest", "words": [ { "word": "frais", "rank": 1 }, { "word": "froid", "rank": 2 }, { "word": "glacial", "rank": 3 } ] },
+          { "id": "contentement", "band": 3, "setId": "contentement", "ask": "strongest", "words": [ { "word": "content", "rank": 1 }, { "word": "heureux", "rank": 2 }, { "word": "ravi", "rank": 3 } ] },
+          { "id": "colere", "band": 3, "setId": "colere", "ask": "weakest", "words": [ { "word": "agacé", "rank": 1 }, { "word": "fâché", "rank": 2 }, { "word": "furieux", "rank": 3 } ] }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "roary-roar-meter", "de": "woerter-steigern-stark-schwach-klasse-3" },
-    "page_title": { "en": "Roary's Roar Meter — Strongest & Weakest Words (Grade 2)", "de": "Roarys Brüll-Meter: Wörter steigern – stark oder schwach? (Klasse 3)" },
-    "page_intro": { "en": "Roary the lion's roar can be soft or mighty! These words are all alike, but some are stronger than others — big, large, huge. Read the three words, then tap the STRONGEST one (or the WEAKEST one). A Grade 2 vocabulary game about shades of meaning, aligned to Common Core L.2.5.b.", "de": "Mit Roary dem Löwen ähnliche Wörter nach ihrer Stärke unterscheiden: Finde das stärkste oder schwächste Wort – kostenlos, interaktiv und passend zum Lehrplan." },
+    "slug": { "en": "roary-roar-meter", "de": "woerter-steigern-stark-schwach-klasse-3", "fr": "les-nuances-de-sens-mots-forts-faibles-ce2" },
+    "page_title": { "en": "Roary's Roar Meter — Strongest & Weakest Words (Grade 2)", "de": "Roarys Brüll-Meter: Wörter steigern – stark oder schwach? (Klasse 3)", "fr": "Roary et le rugissomètre : les nuances de sens — le mot le plus fort ou le plus faible (CE2)" },
+    "page_intro": { "en": "Roary the lion's roar can be soft or mighty! These words are all alike, but some are stronger than others — big, large, huge. Read the three words, then tap the STRONGEST one (or the WEAKEST one). A Grade 2 vocabulary game about shades of meaning, aligned to Common Core L.2.5.b.", "de": "Mit Roary dem Löwen ähnliche Wörter nach ihrer Stärke unterscheiden: Finde das stärkste oder schwächste Wort – kostenlos, interaktiv und passend zum Lehrplan.", "fr": "Avec Roary le lion et son rugissomètre, classe trois mots de sens proche — chuchoter, parler, crier — et trouve le plus fort ou le plus faible. Une activité de lexique CE2, gratuite et interactive." },
     "kid_prompt_template": "Read the words — tap the strongest or weakest!"
   }
 ]

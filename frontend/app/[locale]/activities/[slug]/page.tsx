@@ -65,7 +65,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'cleo-packing-list.series-commas.l-1-2-b': { de: '3', fr: '3' },        // Komma bei Aufzählung = first comma rule, DE Klasse 3; FR: la virgule d'énumération = premier attendu interne → CE2
   'robin-mirror.reflexive.l-2-1-c': { de: '3', fr: '3' },                 // Reflexivpronomen → DE Klasse 3; FR: le pronom réfléchi qui varie avec le sujet = consolidation CE2 (au-dessus du pronom sujet CE1)
   'rusty-yesterday.irregular-past.l-2-1-d': { de: '3', fr: '3' },         // starke Verben Präteritum → DE Klasse 3; FR: passé composé irrégulier (résister à « faisé ») = consolidation CE2
-  'roary-roar-meter.shades.l-2-5-b': { de: '3' },                         // Bedeutungsnuancen (Abstufen innerhalb einer Bedeutung) → DE Klasse 3 (K2 = clear opposites)
+  'roary-roar-meter.shades.l-2-5-b': { de: '3', fr: '3' },                // Bedeutungsnuancen → DE Klasse 3; FR: classer des synonymes par intensité = CE2 (au-dessus des contraires/synonymes simples de CE1)
   'wren-question-window.question-words.l-k-1-d': { de: '1' },             // Fragewörter = Anfangsunterricht Klasse 1 (de chip „Klasse 1", NOT „Kindergarten"); en stays Kindergarten
   'echo-grove.match-the-rune.3-oa-a-1': { de: '2' },                      // Multiplikation als gleiche Gruppen / kleines Einmaleins = DE Klasse 2 (US Grade 3 a year higher)
   'maple-bakery.share.3-oa-a-2': { de: '2' },                             // Division (Verteilen/Aufteilen, ohne Rest) introduced alongside Einmaleins = DE Klasse 2
@@ -147,7 +147,7 @@ const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'cleo-packing-list.series-commas.l-1-2-b': { de: 'Richtig schreiben' }, // Zeichensetzung = orthography/Rechtschreiben, not „Sprache untersuchen"
   'wally-capital-crane.special-names.l-2-2-a': { de: 'Richtig schreiben', fr: 'L’orthographe' }, // Nomen-Großschreibung = orthography/Rechtschreiben; FR: la majuscule d'un nom propre = orthographe lexicale (divergence from #30 ponctuation → étude de la langue)
   'rusty-yesterday.irregular-past.l-2-1-d': { fr: 'La conjugaison' },      // FR: le passé composé = conjugaison, its own named strand at l'école élémentaire (finer than the « Étude de la langue » umbrella; DE stays default « Sprache untersuchen »)
-  'roary-roar-meter.shades.l-2-5-b': { de: 'Wortschatz untersuchen' },    // Bedeutungsnuancen = vocabulary work, not grammar
+  'roary-roar-meter.shades.l-2-5-b': { de: 'Wortschatz untersuchen', fr: 'Le lexique' }, // Bedeutungsnuancen = vocabulary work, not grammar; FR: les nuances de sens = le lexique (like #26 sage / #27 olive)
   'ziggy-odd-one-out.category.l-1-5-a': { de: 'Wortschatz untersuchen' }, // Wortfelder/Kategorien = vocabulary work, not grammar
   'halfway-harbors.nearest.3-nbt-a-1': { de: 'Zahlen und Operationen' },  // Runden = KMK Leitidee „Zahlen und Operationen", broader than the auto-localized „…Zehnersystem"
   'echo-grove.match-the-rune.3-oa-a-1': { de: 'Zahlen und Operationen' }, // Multiplikation = KMK Leitidee „Zahlen und Operationen"; literal „Rechnen und algebraisches Denken" reads wrong (Sekundarstufe term)
@@ -437,7 +437,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.150';
+  const ACTIVITY_WRAPPER_VERSION = '9.151';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

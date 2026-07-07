@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "sunny-side-diner.compound-order.l-k-1-f": {
+      "about": [
+        "Bienvenue au restaurant de Sunny ! Ici, votre enfant tient le rôle du serveur. Un client s'installe et passe sa commande : à votre enfant d'écouter, de poser les bons aliments sur le plateau, puis de redire toute la commande à voix haute en une seule phrase, par exemple « Je voudrais deux crêpes et un lait, s'il vous plaît. » Tout se joue directement dans le navigateur, gratuitement, sans rien installer.",
+        "Le jeu travaille une compétence clé du langage oral : produire une phrase complète. En reliant deux groupes de mots avec « et », votre enfant apprend à coordonner ses idées et à construire une phrase plus longue et bien formée. Écouter la commande, puis la reformuler entièrement, c'est aussi entraîner l'attention et la mémoire des mots entendus.",
+        "L'activité avance au rythme de votre enfant : pas de chronomètre, pas de points, pas de pression. Chaque commande est une petite réussite tranquille, à recommencer autant de fois qu'il le souhaite. Les contenus sont pensés en cohérence avec les programmes officiels."
+      ],
+      "practices": [
+        "Produire une phrase complète, du début à la fin",
+        "Relier deux groupes de mots avec « et » (la coordination)",
+        "Écouter une commande, puis la redire entièrement",
+        "Employer une formule polie : « Je voudrais… s'il vous plaît »"
+      ],
+      "howToPlay": [
+        "Écoute bien la commande du client",
+        "Pose les bons aliments sur le plateau",
+        "Redis toute la commande en une seule phrase, avec « et »"
+      ],
+      "learningGoals": [
+        "Votre enfant produit une phrase complète et bien construite à l'oral",
+        "Votre enfant relie deux groupes de mots avec « et » pour allonger sa phrase",
+        "Votre enfant écoute une consigne, la garde en mémoire et la reformule à voix haute"
+      ]
+    },
     "wren-question-window.question-words.l-k-1-d": {
       "about": [
         "Au guichet de son petit restaurant, Wren, un petit oiseau, prend les commandes — mais il manque toujours un mot au début de sa question ! Votre enfant lit une question à trou, par exemple « ___ veux-tu manger ? », puis touche le bon mot interrogatif parmi six : Qui, Que, Où, Quand, Pourquoi, Comment. Ici, la réponse est « Que ». L'activité est gratuite, se joue directement dans le navigateur, sans rien installer.",

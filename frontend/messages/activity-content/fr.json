@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "span-length-gap.how-much-longer.2-md-a-4": {
+      "about": [
+        "Span, la chenille arpenteuse, adore mesurer. Elle montre à votre enfant deux bandes proportionnelles, chacune avec son nom et sa longueur en centimètres — par exemple un ruban de 8 cm et une ficelle de 5 cm.",
+        "Votre enfant lit les deux longueurs, repère la plus longue, puis cherche de combien de centimètres elle dépasse la plus courte. Ici, il suffit de retirer la plus courte de la plus longue : 8 − 5 = 3 cm. Le ruban mesure donc 3 cm de plus que la ficelle.",
+        "Toutes les longueurs vont de 1 à 20 cm, si bien que le calcul reste toujours dans les 20 — juste à la portée d’un enfant de CE1. Cette activité gratuite et interactive travaille le domaine « Grandeurs et mesures – Longueurs », sans chrono ni points, dans l’esprit des programmes officiels."
+      ],
+      "practices": [
+        "Lire deux longueurs exprimées en centimètres.",
+        "Repérer la bande la plus longue et la bande la plus courte.",
+        "Déterminer la différence en retirant la plus courte de la plus longue.",
+        "Donner le résultat avec son unité : « … cm »."
+      ],
+      "howToPlay": [
+        "Regarde les deux bandes de Span et lis chaque longueur.",
+        "Laquelle est la plus longue ? Retire la plus courte de la plus longue.",
+        "Tape de combien de cm elle est plus longue."
+      ],
+      "learningGoals": [
+        "Comparer deux longueurs et déterminer leur différence : le cœur du domaine « Grandeurs et mesures – Longueurs » en CE1.",
+        "Relier la longueur au calcul, en restant dans les nombres jusqu’à 20.",
+        "Construire la notion de centimètre et prendre l’habitude de toujours préciser l’unité."
+      ]
+    },
     "comparison-creek.river-steer.k-cc-c-7": {
       "about": [
         "Embarquez avec le capitaine Quill, un petit caneton qui descend une rivière sur son radeau ! À chaque bifurcation, la rivière se sépare en deux bras, et chacun affiche un nombre. Votre enfant touche le bon bras — celui du plus grand ou du plus petit nombre — pour guider Quill jusqu’au bout de son voyage.",

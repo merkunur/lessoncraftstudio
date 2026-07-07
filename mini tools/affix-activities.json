@@ -50,20 +50,45 @@
           { "id": "af-which-farblos", "cog": "which", "root": "Farbe", "affix": "less", "meaning": "ohne Farbe", "options": ["un","ful","less"] },
           { "id": "af-which-liebevoll", "cog": "which", "root": "Liebe", "affix": "ful", "meaning": "voller Liebe", "options": ["un","ful","less"] },
           { "id": "af-which-unfreundlich", "cog": "which", "root": "freundlich", "affix": "un", "meaning": "nicht freundlich", "options": ["un","ful","less"] }
+        ],
+        "fr": [
+          { "id": "af-refaire",   "cog": "apply", "word": "refaire",   "root": "faire",   "affix": "re",
+            "options": [ {"affix":"re","text":"faire à nouveau"}, {"affix":"un","text":"le contraire de faire"}, {"affix":"ful","text":"plein de faire"} ] },
+          { "id": "af-relire",    "cog": "apply", "word": "relire",    "root": "lire",    "affix": "re",
+            "options": [ {"affix":"re","text":"lire à nouveau"}, {"affix":"un","text":"le contraire de lire"}, {"affix":"ful","text":"plein de lire"} ] },
+          { "id": "af-rejouer",   "cog": "apply", "word": "rejouer",   "root": "jouer",   "affix": "re",
+            "options": [ {"affix":"re","text":"jouer à nouveau"}, {"affix":"un","text":"le contraire de jouer"}, {"affix":"ful","text":"plein de jouer"} ] },
+          { "id": "af-defaire",   "cog": "apply", "word": "défaire",   "root": "faire",   "affix": "un",
+            "options": [ {"affix":"un","text":"le contraire de faire"}, {"affix":"re","text":"faire à nouveau"}, {"affix":"ful","text":"plein de faire"} ] },
+          { "id": "af-demonter",  "cog": "apply", "word": "démonter",  "root": "monter",  "affix": "un",
+            "options": [ {"affix":"un","text":"le contraire de monter"}, {"affix":"re","text":"monter à nouveau"}, {"affix":"ful","text":"plein de monter"} ] },
+          { "id": "af-courageux", "cog": "apply", "word": "courageux", "root": "courage", "affix": "ful",
+            "options": [ {"affix":"ful","text":"plein de courage"}, {"affix":"re","text":"courage à nouveau"}, {"affix":"un","text":"le contraire de courage"} ] },
+          { "id": "af-peureux",   "cog": "apply", "word": "peureux",   "root": "peur",    "affix": "ful",
+            "options": [ {"affix":"ful","text":"plein de peur"}, {"affix":"re","text":"peur à nouveau"}, {"affix":"un","text":"le contraire de peur"} ] },
+          { "id": "af-nuageux",   "cog": "apply", "word": "nuageux",   "root": "nuage",   "affix": "ful",
+            "options": [ {"affix":"ful","text":"plein de nuages"}, {"affix":"re","text":"nuage à nouveau"}, {"affix":"un","text":"le contraire de nuage"} ] },
+
+          { "id": "af-which-refaire",    "cog": "which", "root": "faire",    "affix": "re",  "meaning": "faire à nouveau",           "options": ["re","un","ful"] },
+          { "id": "af-which-debrancher", "cog": "which", "root": "brancher", "affix": "un",  "meaning": "le contraire de brancher",  "options": ["re","un","ful"] },
+          { "id": "af-which-chanceux",   "cog": "which", "root": "chance",   "affix": "ful", "meaning": "plein de chance",           "options": ["re","un","ful"] }
         ]
       }
     },
     "slug": {
       "en": "prefixes-and-suffixes-word-meaning",
-      "de": "wortbausteine-vorsilben-nachsilben-klasse-2"
+      "de": "wortbausteine-vorsilben-nachsilben-klasse-2",
+      "fr": "prefixes-suffixes-le-sens-des-mots-ce1"
     },
     "page_title": {
       "en": "Marigold's Knowing Machine — Prefixes & Suffixes Word Meaning (Grade 2)",
-      "de": "Marigolds Wortmaschine: Vorsilben & Nachsilben – Klasse 2"
+      "de": "Marigolds Wortmaschine: Vorsilben & Nachsilben – Klasse 2",
+      "fr": "Préfixes et suffixes : le sens des mots – CE1"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 reading activity: help Marigold the mole work out what a new word means when a prefix or suffix is added. Drop the un-, re-, -ful, or -less cog into the Knowing Machine and read the new word — then tap what it means. A clear, friendly way to learn how prefixes and suffixes change a word's meaning. Common Core L.2.4.b and L.2.4.c.",
-      "de": "Mit Marigold un-, -voll und -los entdecken: Dein Kind verändert mit Vorsilben und Nachsilben die Wortbedeutung. Kostenlos, interaktiv üben – Deutsch Klasse 2."
+      "de": "Mit Marigold un-, -voll und -los entdecken: Dein Kind verändert mit Vorsilben und Nachsilben die Wortbedeutung. Kostenlos, interaktiv üben – Deutsch Klasse 2.",
+      "fr": "Avec Marigold la taupe, découvrez comment les préfixes et suffixes (re-, dé-, -eux) changent le sens des mots. Activité gratuite et interactive, niveau CE1."
     },
     "kid_prompt_template": "affix"
   }

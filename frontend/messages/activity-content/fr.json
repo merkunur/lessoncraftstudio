@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "affix.apply.l-2-4-b": {
+      "about": [
+        "Marigold la taupe possède une drôle de machine : en tournant ses rouages, elle fabrique de nouveaux mots ! Votre enfant l’aide à comprendre ce que ces mots veulent dire.",
+        "Un petit morceau ajouté au début d’un mot — le préfixe — ou à la fin — le suffixe — peut tout changer. Avec « re- », on refait quelque chose à nouveau. Avec « dé- », on fait le contraire : défaire, démonter. Et avec « -eux », on dit qu’on est plein de quelque chose : courageux, c’est plein de courage.",
+        "Tantôt votre enfant lit un mot déjà construit et cherche son sens, tantôt il ajoute le bon rouage à un mot de base pour fabriquer le mot. C’est une activité gratuite et interactive, pensée pour le CE1, autour du lexique — sans chronomètre et sans points, pour explorer les mots tranquillement, dans l’esprit des programmes officiels."
+      ],
+      "practices": [
+        "Repérer un préfixe et un suffixe dans un mot.",
+        "Comprendre comment « re- », « dé- » et « -eux » changent le sens.",
+        "Retrouver le sens d’un mot construit.",
+        "Choisir le bon préfixe ou suffixe pour un mot de base."
+      ],
+      "howToPlay": [
+        "Lis le mot, ou le mot de base, que Marigold te montre.",
+        "Réfléchis à ce que fait le rouage : « à nouveau », « le contraire de… » ou « plein de… ».",
+        "Touche la bonne réponse."
+      ],
+      "learningGoals": [
+        "Découvrir les préfixes et les suffixes comme des briques de mots.",
+        "Comprendre « re- », « dé- » et « -eux » et les appliquer à de nouveaux mots.",
+        "Enrichir son vocabulaire et mieux comprendre les mots construits."
+      ]
+    },
     "tense.past-present-future.l-1-1-e": {
       "about": [
         "Juniper le rouge-gorge veille sur sa tour du temps. À chaque tour, une fenêtre s’allume — hier, maintenant ou demain — et votre enfant touche la forme du verbe qui va avec ce moment.",

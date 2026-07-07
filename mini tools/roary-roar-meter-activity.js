@@ -17,7 +17,7 @@
 
   function speak(text) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -35,14 +35,14 @@
     id: 'roary-roar-meter-activity',
 
     strings: {
-      title: { en: "Roary's Roar Meter", de: 'Roarys Brüll-Meter' },
-      prompt: { en: 'Find the strongest or weakest word!', de: 'Welches Wort ist am stärksten oder schwächsten?' },
-      roaryIntro: { en: 'These words are alike — but how strong is each one?', de: 'Ich bin Roary! Diese Wörter sind sich ähnlich, aber manche brüllen lauter als andere. Hörst du den Unterschied?' },
-      askStrong: { en: 'Tap the STRONGEST word.', de: 'Tippe das STÄRKSTE Wort an.' },
-      askWeak: { en: 'Tap the WEAKEST word.', de: 'Tippe das SCHWÄCHSTE Wort an.' },
-      hintPick: { en: 'Read all three, then tap a word!', de: 'Lies alle drei Wörter. Welches passt zur Frage – das stärkste oder das schwächste?' },
-      hintWrong: { en: "Not quite — think about how strong each word feels.", de: 'Fast! Achte genau darauf, ob Roary das stärkste oder das schwächste Wort sucht. Vergleiche die drei noch einmal.' },
-      win: { en: 'Roar! You found it. 🦁', de: 'Stark gebrüllt! Du hörst die feinen Unterschiede ganz genau. 🦁' }
+      title: { en: "Roary's Roar Meter", de: 'Roarys Brüll-Meter', fr: 'Roary et le rugissomètre' },
+      prompt: { en: 'Find the strongest or weakest word!', de: 'Welches Wort ist am stärksten oder schwächsten?', fr: 'Quel mot est le plus fort ou le plus faible ?' },
+      roaryIntro: { en: 'These words are alike — but how strong is each one?', de: 'Ich bin Roary! Diese Wörter sind sich ähnlich, aber manche brüllen lauter als andere. Hörst du den Unterschied?', fr: '🦁 Ces mots se ressemblent, mais l’un est plus fort !' },
+      askStrong: { en: 'Tap the STRONGEST word.', de: 'Tippe das STÄRKSTE Wort an.', fr: 'Touche le mot le plus fort.' },
+      askWeak: { en: 'Tap the WEAKEST word.', de: 'Tippe das SCHWÄCHSTE Wort an.', fr: 'Touche le mot le plus faible.' },
+      hintPick: { en: 'Read all three, then tap a word!', de: 'Lies alle drei Wörter. Welches passt zur Frage – das stärkste oder das schwächste?', fr: 'Lis bien les trois mots. Roary veut le plus fort ou le plus faible ?' },
+      hintWrong: { en: "Not quite — think about how strong each word feels.", de: 'Fast! Achte genau darauf, ob Roary das stärkste oder das schwächste Wort sucht. Vergleiche die drei noch einmal.', fr: 'Presque ! Regarde encore : Roary cherche-t-il le mot le plus fort ou le plus faible ? Compare les trois.' },
+      win: { en: 'Roar! You found it. 🦁', de: 'Stark gebrüllt! Du hörst die feinen Unterschiede ganz genau. 🦁', fr: '🦁 Bravo ! Roary rugit de joie, tu as trouvé le bon mot !' }
     },
     defaults: {},
 

@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "ziggy-odd-one-out.category.l-1-5-a": {
+      "about": [
+        "Ziggy le zèbre montre à votre enfant quatre images, chacune avec son mot écrit en dessous. Trois d'entre elles vont ensemble, et une seule ne va pas avec les autres : c'est l'intrus. Par exemple, un chien, un chat, un cochon et une pomme — les trois animaux forment une même famille, alors c'est la pomme qu'il faut trouver et toucher. L'activité est gratuite, se joue directement dans le navigateur sans rien installer, et propose 8 manches avec des catégories différentes : des animaux, des fruits, des vêtements, des véhicules, des plantes, des oiseaux, des objets et des insectes.",
+        "L'idée est simple : les mots et les choses appartiennent à des catégories de sens — les animaux ensemble, les fruits ensemble, les vêtements ensemble… En cherchant l'intrus, votre enfant doit d'abord comprendre ce que les trois autres ont en commun. Ce petit raisonnement prépare le classement par catégories et l'aide à construire un vocabulaire bien rangé, où chaque mot trouve sa place dans un champ lexical.",
+        "Tout se fait sans pression : c'est gratuit, sans chrono, sans points et sans compétition. Votre enfant observe, compare et réfléchit à son rythme, en prenant le temps qu'il lui faut. L'activité est alignée sur les programmes officiels et travaille le lexique et le vocabulaire à l'école élémentaire, au cycle 2."
+      ],
+      "practices": [
+        "Reconnaître qu'un mot n'appartient pas à une catégorie",
+        "Comprendre ce que trois mots ont en commun",
+        "Observer et comparer plutôt que deviner",
+        "Ranger les mots par catégories de sens, dans des champs lexicaux"
+      ],
+      "howToPlay": [
+        "Regarde les quatre images et leurs mots",
+        "Cherche les trois qui vont ensemble",
+        "Touche l'image qui ne va pas avec les autres"
+      ],
+      "learningGoals": [
+        "Votre enfant reconnaît qu'un mot n'appartient pas à une catégorie",
+        "Votre enfant comprend ce que trois mots ont en commun",
+        "Votre enfant enrichit et organise son vocabulaire"
+      ]
+    },
     "roary-roar-meter.shades.l-2-5-b": {
       "about": [
         "Roary le lion adore mesurer la force des mots avec son « rugissomètre » : une petite jauge qui grimpe quand un mot devient plus intense. Sur cette activité, votre enfant voit trois mots de sens proche — par exemple « chuchoter », « parler » et « crier » — et touche celui qu'on lui demande : le plus fort, ou le plus faible. C'est gratuit, cela se joue directement dans le navigateur, sans rien installer et sans créer de compte.",

@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "numbers-court.judge-balance.1-oa-d-7": {
+      "about": [
+        "Dans le tribunal des nombres de la juge Tess, une vieille tortue posée et bienveillante, on juge aujourd’hui des égalités. Un témoin s’avance et affirme quelque chose — par exemple « 5 + 3 = 8 », « 6 = 8 − 2 » ou encore « 3 + 2 = 2 + 3 ». Votre enfant est assis sur le siège du juge et doit rendre son verdict : cette égalité est-elle vraie ou fausse ?",
+        "Pour décider, votre enfant ne regarde pas simplement « ce qui vient après le signe = ». Il pose les deux côtés de l’égalité sur une balance : dans chaque plateau, il met autant de points que l’indique ce côté. Si les deux côtés sont pareils, la balance s’équilibre — l’égalité est vraie. Si la balance penche, l’égalité est fausse. Votre enfant montre alors le plateau le plus lourd, ou répare l’égalité fausse jusqu’à ce qu’il y ait la même chose des deux côtés.",
+        "Ainsi, votre enfant comprend le signe = correctement dès le début : il veut dire « la même chose des deux côtés » — et surtout pas « maintenant vient le résultat ». Ce sens du signe égal est un objectif important des « programmes officiels » (domaine « Nombres et calcul ») et prévient une erreur très répandue chez les élèves. L’activité est entièrement gratuite, fonctionne directement dans le navigateur, sans minuteur, sans points et sans compétition, et laisse votre enfant avancer à son rythme."
+      ],
+      "practices": [
+        "Comprendre le signe égal comme une relation : « la même chose des deux côtés ».",
+        "Examiner des égalités et rendre un verdict : vrai ou faux.",
+        "Comparer avec la balance : quel côté est le plus lourd, ou les deux plateaux s’équilibrent-ils ?",
+        "Réparer une égalité fausse jusqu’à ce que la balance s’équilibre."
+      ],
+      "howToPlay": [
+        "Lis l’affirmation du témoin, par exemple « 4 + 3 = 7 ».",
+        "Rends ton verdict : touche « Vrai » ou « Faux » — la balance te montre si les deux côtés sont pareils.",
+        "Explique-le : montre le plateau le plus lourd ou remplis les deux plateaux — et, si besoin, répare l’égalité jusqu’à ce que la balance s’équilibre."
+      ],
+      "learningGoals": [
+        "Votre enfant comprend le signe égal comme un signe de « la même chose des deux côtés », et non comme un ordre de calculer.",
+        "Il examine des égalités de formes variées — même « 4 = 4 » ou « 3 + 2 = 2 + 3 » — et justifie si elles sont vraies.",
+        "Il se sert de la balance comme d’un modèle pour comparer l’égalité et l’inégalité, et pour corriger ses erreurs."
+      ]
+    },
     "ten-stones.add-sub-within-20.1-oa-c-6": {
       "about": [
         "Lily la grenouille traverse la mare en sautant sur la piste numérique de 0 à 20 : elle se pose d'abord sur le nénuphar doré du dix, puis fait le bond qui reste pour arriver au résultat. Pour 8 + 6, votre enfant aide Lily à sauter jusqu'à 10 (8 + 2 = 10), puis à faire encore quatre bonds pour se poser sur 14. Ce sont deux bonds bien visibles sur la droite graduée, pas une règle abstraite à retenir.",

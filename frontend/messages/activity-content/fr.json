@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "rusty-yesterday.irregular-past.l-2-1-d": {
+      "about": [
+        "Rusty le robot a construit une drôle de machine à voyager dans le temps, et il a besoin de votre enfant pour la faire fonctionner. Rusty montre une phrase d'aujourd'hui — « Aujourd'hui je fais un gâteau. » — puis il demande la forme d'hier : « Hier, j'ai …? ». Votre enfant touche le bon mot parmi trois propositions (« fait », « fais » et « faisé ») pour renvoyer Rusty au bon moment. C'est gratuit, ça se joue directement dans le navigateur, sans rien installer.",
+        "Certains verbes très fréquents ont un passé composé irrégulier : leur participe n'est pas simplement le verbe suivi de « -é ». On dit « j'ai fait » (et non « j'ai faisé »), « j'ai pris » (et non « j'ai prendu »), « j'ai vu », « j'ai bu ». Le « -é » qui marche pour « manger » → « mangé » ne marche pas pour ces verbes-là. Le jeu place justement cette erreur (« faisé ») parmi les réponses, pour que votre enfant apprenne à la repérer et à choisir « fait ».",
+        "Ici, aucune pression : pas de chronomètre, pas de points, pas de compétition. Votre enfant essaie à son rythme, se trompe sans conséquence et recommence autant de fois qu'il le souhaite. L'activité est alignée sur « les programmes officiels » et travaille la conjugaison et l'étude de la langue à l'école élémentaire, au cycle 2."
+      ],
+      "practices": [
+        "trouver la forme du passé composé de verbes fréquents",
+        "comprendre que certains verbes ne prennent pas simplement « -é » : faire → fait, prendre → pris",
+        "repérer l'erreur « faisé » et choisir « fait »",
+        "distinguer la forme d'aujourd'hui de la forme d'hier"
+      ],
+      "howToPlay": [
+        "lis la phrase d'aujourd'hui que montre Rusty",
+        "réfléchis à la forme du verbe pour hier",
+        "touche le bon mot parmi les trois"
+      ],
+      "learningGoals": [
+        "votre enfant forme le passé composé de verbes irréguliers fréquents",
+        "votre enfant évite l'erreur fréquente « faisé » et choisit « fait »",
+        "votre enfant distingue le présent du passé composé d'un verbe"
+      ]
+    },
     "wally-capital-crane.special-names.l-2-2-a": {
       "about": [
         "Wally le morse a une petite grue, et il a besoin d'un coup de main ! Dans chaque phrase, un nom propre — le nom d'une personne, d'une ville ou d'un pays — s'est glissé tout en minuscule par erreur. Votre enfant lit la phrase mot à mot, repère le mot fautif et le touche : la grue de Wally soulève alors la petite lettre et la transforme en majuscule. « léo » devient « Léo », et la phrase est enfin correcte. C'est gratuit, cela fonctionne directement dans le navigateur, sans rien installer et sans créer de compte.",

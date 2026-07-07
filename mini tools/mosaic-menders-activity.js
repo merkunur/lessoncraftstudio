@@ -117,14 +117,14 @@
     id: 'mosaic-menders-activity',
 
     strings: {
-      title:       { en: 'The Mosaic Menders', de: 'Tessas Mosaik-Werkstatt' },
-      instruction: { en: 'Help Tessa: tap the mosaic that uses the same number of tiles. Tap Check when ready.', de: 'Hilf Tessa: Tippe auf das Mosaik, das gleich viele Plättchen hat. Tippe auf „Prüfen“, wenn du fertig bist.' },
-      prompt:      { en: 'Tap the mosaic that uses {n} tiles.', de: 'Tippe auf das Mosaik mit {n} Plättchen.' },
-      hintPickOne: { en: 'Tap one of the mosaics first.', de: 'Tippe zuerst auf eines der Mosaike.' },
-      hintCount:   { en: 'Not that one — count the tiles, not the size.', de: 'Nicht dieses — zähle die Plättchen, nicht die Größe.' },
-      targetLabel: { en: '{n} tiles', de: '{n} Plättchen' },
-      srTarget:    { en: 'Tessa needs a mosaic with {n} tiles.', de: 'Tessa braucht ein Mosaik mit {n} Plättchen.' },
-      srCand:      { en: 'a mosaic with {n} tiles', de: 'ein Mosaik mit {n} Plättchen' }
+      title:       { en: 'The Mosaic Menders', de: 'Tessas Mosaik-Werkstatt', fr: 'L’atelier de mosaïque de Tessa' },
+      instruction: { en: 'Help Tessa: tap the mosaic that uses the same number of tiles. Tap Check when ready.', de: 'Hilf Tessa: Tippe auf das Mosaik, das gleich viele Plättchen hat. Tippe auf „Prüfen“, wenn du fertig bist.', fr: 'Aide Tessa : touche la mosaïque qui a le même nombre de carreaux. Touche Vérifier quand tu as choisi.' },
+      prompt:      { en: 'Tap the mosaic that uses {n} tiles.', de: 'Tippe auf das Mosaik mit {n} Plättchen.', fr: 'Touche la mosaïque qui a {n} carreaux.' },
+      hintPickOne: { en: 'Tap one of the mosaics first.', de: 'Tippe zuerst auf eines der Mosaike.', fr: 'Touche d’abord une mosaïque.' },
+      hintCount:   { en: 'Not that one — count the tiles, not the size.', de: 'Nicht dieses — zähle die Plättchen, nicht die Größe.', fr: 'Pas celle-ci — compte les carreaux, pas la taille.' },
+      targetLabel: { en: '{n} tiles', de: '{n} Plättchen', fr: '{n} carreaux' },
+      srTarget:    { en: 'Tessa needs a mosaic with {n} tiles.', de: 'Tessa braucht ein Mosaik mit {n} Plättchen.', fr: 'Tessa a besoin d’une mosaïque de {n} carreaux.' },
+      srCand:      { en: 'a mosaic with {n} tiles', de: 'ein Mosaik mit {n} Plättchen', fr: 'une mosaïque de {n} carreaux' }
     },
 
     defaults: {},

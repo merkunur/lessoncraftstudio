@@ -904,6 +904,29 @@
         "Franchir l'étape qui suit l'heure entière et consolider la lecture de l'heure au CE1."
       ]
     },
+    "clock-digital.read-quarter-hour.2-md-c-7": {
+      "about": [
+        "Sprocket le coq a besoin d'un coup de main pour lire l'horloge au quart d'heure près ! Votre enfant regarde les aiguilles, puis touche l'heure qui correspond : « 3 h 15 » se dit « trois heures et quart », et « 3 h 45 » se dit « quatre heures moins le quart ». C'est gratuit, ça se joue directement dans le navigateur et il n'y a rien à installer.",
+        "L'activité travaille les trois repères clés du cadran : « et quart » quand la grande aiguille marque le quart, « et demie » à la demi-heure, et « moins le quart » aux trois quarts. C'est l'occasion de découvrir une particularité du français : « moins le quart » regarde vers l'heure suivante, si bien que 3 h 45 se lit « quatre heures moins le quart ».",
+        "Tout se fait en douceur : pas de chronomètre, pas de points, pas de pression. Votre enfant avance à son rythme, essaie et recommence autant qu'il le souhaite. L'activité est alignée sur « les programmes officiels », domaine « Grandeurs et mesures »."
+      ],
+      "practices": [
+        "Lire l'heure sur une horloge à aiguilles au quart d'heure près",
+        "Comprendre « et quart », « et demie » et « moins le quart »",
+        "Découvrir que « moins le quart » annonce l'heure suivante (3 h 45 = quatre heures moins le quart)",
+        "Associer l'horloge à aiguilles à l'heure écrite qui correspond"
+      ],
+      "howToPlay": [
+        "Regarde bien l'horloge de Sprocket et la position des deux aiguilles",
+        "Lis l'heure indiquée : est-ce « et quart », « et demie » ou « moins le quart » ?",
+        "Touche l'heure écrite qui correspond"
+      ],
+      "learningGoals": [
+        "Votre enfant lit l'heure au quart d'heure près sur une horloge à aiguilles",
+        "Votre enfant reconnaît et nomme « et quart », « et demie » et « moins le quart »",
+        "Votre enfant comprend que « moins le quart » se lit avec l'heure suivante"
+      ]
+    },
     "graph-it.bar-graph.2-md-d-10": {
       "about": [
         "Pip l'écureuil parcourt la forêt et ramasse des trésors : des feuilles, des glands, des pommes de pin, des baies et des champignons. Avec votre enfant, il range tout cela dans un diagramme en barres : on empile chaque catégorie pour construire sa barre, on lit la hauteur pour savoir combien Pip en a trouvé, puis on compare deux barres pour dire combien il y a de feuilles « de plus » ou « de moins » que de baies. Les quantités restent petites, jusqu'à une dizaine, sans aucune pression liée au temps.",

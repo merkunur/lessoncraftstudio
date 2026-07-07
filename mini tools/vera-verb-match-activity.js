@@ -15,12 +15,14 @@
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', PLUM: '#9B6FB0' };
   var LANG = 'en';
   var FORMS_DE = ['bin', 'ist', 'sind'];
-  function vvmForms() { return LANG === 'de' ? FORMS_DE : Core.FORMS; }
+  var FORMS_FR = ['suis', 'est', 'sont'];
+  var FORMS_L10N = { de: FORMS_DE, fr: FORMS_FR };
+  function vvmForms() { return FORMS_L10N[LANG] || Core.FORMS; }
   function vvmGrade(round, id) { return vvmForms()[id] === round.correct; }
 
   function speak(text) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -40,13 +42,13 @@
     id: 'vera-verb-match-activity',
 
     strings: {
-      title: { en: "Vera's Verb Match", de: 'Veras Verb-Werkstatt' },
-      instruction: { en: 'Tap am, is, or are to match the subject.', de: 'Tippe die richtige Form: bin, ist oder sind.' },
-      prompt: { en: 'Tap the verb that matches the subject.', de: 'Welche Form passt in den Satz?' },
-      veraIntro: { en: 'AM goes with I, IS with one, ARE with many!', de: 'Merke: „bin" bei ich, „ist" bei einem, „sind" bei vielen!' },
-      hintPick: { en: 'Is the subject I, one, or many? Pick am, is, or are.', de: 'Tippe zuerst auf bin, ist oder sind.' },
-      hintWrong: { en: 'Read the subject again — I → am, one → is, many → are.', de: 'Schau aufs Subjekt: einer oder viele? Probier es noch einmal!' },
-      win: { en: 'Yes! The verb matches the subject. 🌿', de: 'Super gemacht! Alle Sätze sind richtig. 🌿' }
+      title: { en: "Vera's Verb Match", de: 'Veras Verb-Werkstatt', fr: 'Vera et le verbe être' },
+      instruction: { en: 'Tap am, is, or are to match the subject.', de: 'Tippe die richtige Form: bin, ist oder sind.', fr: 'Touche la bonne forme : suis, est ou sont.' },
+      prompt: { en: 'Tap the verb that matches the subject.', de: 'Welche Form passt in den Satz?', fr: 'Quelle forme va dans la phrase ?' },
+      veraIntro: { en: 'AM goes with I, IS with one, ARE with many!', de: 'Merke: „bin" bei ich, „ist" bei einem, „sind" bei vielen!', fr: 'je → suis, un seul → est, plusieurs → sont' },
+      hintPick: { en: 'Is the subject I, one, or many? Pick am, is, or are.', de: 'Tippe zuerst auf bin, ist oder sind.', fr: 'Touche d’abord suis, est ou sont.' },
+      hintWrong: { en: 'Read the subject again — I → am, one → is, many → are.', de: 'Schau aufs Subjekt: einer oder viele? Probier es noch einmal!', fr: 'Regarde le sujet : un seul ou plusieurs ? Essaie encore !' },
+      win: { en: 'Yes! The verb matches the subject. 🌿', de: 'Super gemacht! Alle Sätze sind richtig. 🌿', fr: 'Bravo ! Toutes les phrases sont justes. 🌿' }
     },
     defaults: {},
 
@@ -62,7 +64,7 @@
 
     setupTask: function (round) {
       this.round = round; this.view = Core.childView(round); this.sel = null;
-      if (LANG === 'de') this.view.choices = FORMS_DE.map(function (f, i) { return { id: i, word: f }; });
+      var _lf = FORMS_L10N[LANG]; if (_lf) this.view.choices = _lf.map(function (f, i) { return { id: i, word: f }; });
       this._cards = shuffle(this.view.choices.slice());
     },
 

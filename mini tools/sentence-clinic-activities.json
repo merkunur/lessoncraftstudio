@@ -23,21 +23,33 @@
           { "id": "order-svo", "band": 3, "action": "reorder", "tokens": ["schnell", "rennt", "Hund", "Der"], "correctOrder": [3, 2, 1, 0], "convention": "Im Satz steht das Verb an zweiter Stelle.", "clean": ["Der", "Hund", "rennt", "schnell"] },
           { "id": "del-double", "band": 3, "action": "delete", "tokens": ["Meine", "Mama", "sie", "kocht", "."], "targetIndex": 2, "convention": "Nenne das Subjekt nur einmal.", "clean": ["Meine", "Mama", "kocht", "."] },
           { "id": "split-runon", "band": 3, "action": "split", "tokens": ["Ich", "rannte", "es", "war", "schön"], "seamIndex": 1, "replacement": "Es", "convention": "Zwei Sätze brauchen einen Punkt dazwischen.", "clean": ["Ich", "rannte", ".", "Es", "war", "schön"] }
+        ],
+        "fr": [
+          { "id": "cap-start", "band": 1, "action": "capitalize", "tokens": ["le", "chien", "est", "grand", "."], "targetIndex": 0, "replacement": "Le", "convention": "Une phrase commence par une majuscule.", "clean": ["Le", "chien", "est", "grand", "."] },
+          { "id": "mark-end", "band": 1, "action": "insert-punct", "tokens": ["Le", "soleil", "est", "chaud"], "gapIndex": 4, "replacement": ".", "distractors": [",", "?"], "convention": "Une phrase qui raconte se termine par un point.", "clean": ["Le", "soleil", "est", "chaud", "."] },
+          { "id": "swap-agree", "band": 2, "action": "swap", "tokens": ["Le", "chat", "mangent", "vite", "."], "targetIndex": 2, "replacement": "mange", "distractors": ["manges", "mangeons"], "convention": "Le verbe s’accorde avec le sujet : le chat mange.", "clean": ["Le", "chat", "mange", "vite", "."] },
+          { "id": "fill-verb", "band": 2, "action": "insert-word", "tokens": ["La", "fille", "une", "pomme", "."], "gapIndex": 2, "replacement": "mange", "distractors": ["jolie", "avec"], "convention": "Dans une phrase, il faut un verbe.", "clean": ["La", "fille", "mange", "une", "pomme", "."] },
+          { "id": "order-svo", "band": 3, "action": "reorder", "tokens": ["vite", "court", "chien", "Le"], "correctOrder": [3, 2, 1, 0], "convention": "Les mots suivent un ordre qui a du sens.", "clean": ["Le", "chien", "court", "vite"] },
+          { "id": "del-double", "band": 3, "action": "delete", "tokens": ["Ma", "maman", "elle", "cuisine", "."], "targetIndex": 2, "convention": "On ne nomme le sujet qu’une seule fois.", "clean": ["Ma", "maman", "cuisine", "."] },
+          { "id": "split-runon", "band": 3, "action": "split", "tokens": ["Je", "cours", "il", "fait", "beau"], "seamIndex": 1, "replacement": "Il", "convention": "Deux phrases ont besoin d’un point entre elles.", "clean": ["Je", "cours", ".", "Il", "fait", "beau"] }
         ]
       }
     },
     "theme": null,
     "slug": {
       "en": "dr-plumes-sentence-clinic",
-      "de": "saetze-verbessern-klasse-2"
+      "de": "saetze-verbessern-klasse-2",
+      "fr": "corriger-une-phrase-la-reviser-ce1"
     },
     "page_title": {
       "en": "Dr. Plume's Sentence Clinic — Fix-the-Sentence Grammar (Grade 2)",
-      "de": "Dr. Plumes Satzklinik: Sätze verbessern – Klasse 2 üben"
+      "de": "Dr. Plumes Satzklinik: Sätze verbessern – Klasse 2 üben",
+      "fr": "Corriger une phrase : la réviser — CE1"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 grammar activity: help gentle Dr. Plume fix muddled sentences so they sound right again. Children find the trouble — a missing capital, the wrong verb form, a missing word, jumbled order, an extra word, or a run-on — then make the repair. Practising the conventions of standard English grammar and usage is the heart of Common Core L.2.1.",
-      "de": "In Dr. Plumes Satzklinik findest du den Fehler im Satz und verbesserst ihn: Großbuchstabe, Punkt, Verb und Wortreihenfolge. Kostenlos und interaktiv – Klasse 2."
+      "de": "In Dr. Plumes Satzklinik findest du den Fehler im Satz und verbesserst ihn: Großbuchstabe, Punkt, Verb und Wortreihenfolge. Kostenlos und interaktiv – Klasse 2.",
+      "fr": "Avec le Dr. Plume, trouve et corrige l’erreur dans chaque phrase : majuscule, point, verbe, ordre des mots. Jeu gratuit et interactif pour le CE1."
     },
     "kid_prompt_template": "fix-it"
   }

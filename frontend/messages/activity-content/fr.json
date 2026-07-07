@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "vera-verb-match.be-agreement.l-1-1-c": {
+      "about": [
+        "Dans cette activité, votre enfant retrouve Vera, un petit campagnol, qui lui présente de courtes phrases à trou comme « Le chien ___ dans le jardin. ». Il choisit la bonne forme du verbe être parmi trois cartes : suis, est ou sont.",
+        "Le verbe être change de forme selon le sujet : on dit « je suis », mais « le chien est » et « les chiens sont ». Pour trouver la bonne carte, votre enfant regarde le sujet de la phrase et se demande s’il désigne « je », un seul être ou plusieurs, puis il accorde le verbe.",
+        "C’est une activité gratuite et interactive, pensée pour le CE1 dans le domaine « Étude de la langue ». Il n’y a ni chronomètre ni points : votre enfant avance à son rythme et découvre l’accord sujet-verbe comme le prévoient les programmes officiels."
+      ],
+      "practices": [
+        "Reconnaître les formes du verbe être : suis, est, sont.",
+        "Accorder le verbe avec son sujet.",
+        "Repérer le singulier et le pluriel pour choisir la bonne forme.",
+        "Lire une phrase et la compléter correctement."
+      ],
+      "howToPlay": [
+        "Lis la phrase à trou.",
+        "Regarde le sujet : « je », un seul ou plusieurs ?",
+        "Touche la bonne forme : suis, est ou sont."
+      ],
+      "learningGoals": [
+        "Comprendre que le verbe être s’accorde avec le sujet.",
+        "Choisir sûrement entre suis, est et sont.",
+        "Lire et compléter des phrases correctes."
+      ]
+    },
     "olive-kind-of.category-attribute.l-1-5-b": {
       "about": [
         "Dans « L’arbre des catégories d’Olive », votre enfant part à la découverte des grandes catégories de mots avec Olive, une chouette curieuse. À chaque manche, une image apparaît avec un petit indice sur ce que la chose fait ou sur ce à quoi elle ressemble : votre enfant doit deviner à quelle grande catégorie elle appartient.",

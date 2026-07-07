@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "sentence-builder.build-a-sentence.l-1-1-j": {
+      "about": [
+        "Wiggles la chenille montre une image et des mots mélangés. Votre enfant touche les mots et les remet dans le bon ordre pour construire une phrase qui décrit l’image.",
+        "Une phrase commence par une majuscule, ses mots suivent un ordre qui a du sens, et elle se termine par un point : le chat noir dort. L’image guide votre enfant et donne du sens à chaque essai.",
+        "Sans chrono ni points, cette activité gratuite et interactive travaille la phrase, l’ordre des mots et l’accord dans le groupe nominal, au niveau CE1 (« Étude de la langue »), dans l’esprit des programmes officiels."
+      ],
+      "practices": [
+        "Remettre les mots dans l’ordre pour construire une phrase.",
+        "Repérer la majuscule qui ouvre la phrase.",
+        "Placer le point à la fin.",
+        "Sentir comment le déterminant, le nom, l’adjectif et le verbe s’assemblent."
+      ],
+      "howToPlay": [
+        "Regarde l’image et les mots mélangés, puis commence par le mot qui porte la majuscule.",
+        "Touche les mots dans l’ordre pour remplir les cases.",
+        "Relis ta phrase : majuscule au début, point à la fin — et est-ce que ça a du sens ?"
+      ],
+      "learningGoals": [
+        "Construire une phrase complète avec un ordre des mots correct.",
+        "Repérer la majuscule et le point.",
+        "Renforcer son sens de la phrase française."
+      ]
+    },
     "affix.apply.l-2-4-b": {
       "about": [
         "Marigold la taupe possède une drôle de machine : en tournant ses rouages, elle fabrique de nouveaux mots ! Votre enfant l’aide à comprendre ce que ces mots veulent dire.",

@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "tense.past-present-future.l-1-1-e": {
+      "about": [
+        "Juniper le rouge-gorge veille sur sa tour du temps. À chaque tour, une fenêtre s’allume — hier, maintenant ou demain — et votre enfant touche la forme du verbe qui va avec ce moment.",
+        "Trois temps se répondent : le présent, le passé (l’imparfait) et le futur. Votre enfant découvre que le verbe change de forme selon le temps : aujourd’hui ils naviguent, hier ils naviguaient, demain ils navigueront. C’est le même verbe, mais sa terminaison change.",
+        "Cette activité est entièrement gratuite et interactive. Pensée pour le CE1, en « Étude de la langue », elle se joue sans chrono et sans points : votre enfant observe, essaie et recommence à son rythme, dans l’esprit des programmes officiels."
+      ],
+      "practices": [
+        "Choisir le bon temps du verbe : passé, présent ou futur.",
+        "Reconnaître que le verbe change de forme selon le temps.",
+        "Comparer le présent, l’imparfait et le futur d’un même verbe.",
+        "Observer la conjugaison et réfléchir sur la langue."
+      ],
+      "howToPlay": [
+        "Juniper montre un temps : hier, maintenant ou demain.",
+        "Lis les trois formes du verbe et cherche celle qui va avec ce temps.",
+        "Touche la bonne forme — tu peux réessayer autant que tu veux."
+      ],
+      "learningGoals": [
+        "Distinguer les trois temps : le présent, le passé et le futur.",
+        "Comprendre que le verbe change de forme selon le temps.",
+        "Observer la langue — une base solide pour la conjugaison et l’écriture."
+      ]
+    },
     "plural.irregular.l-2-1-b": {
       "about": [
         "Perle, la lune de l’étang, montre à votre enfant un nom au singulier — « cheval », « bijou », « château ». Sous le mot apparaissent trois formes : à lui de toucher le bon pluriel.",

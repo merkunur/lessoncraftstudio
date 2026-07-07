@@ -30,20 +30,34 @@
           { "id": "tn-f1", "time": "future",  "timeWord": "Morgen",  "subject": "Die Mädchen", "verb": { "lemma": "malen",   "forms": { "present": "malen",   "past": "malten",   "future": "werden malen"   }, "regular": true  } },
           { "id": "tn-f2", "time": "future",  "timeWord": "Morgen",  "subject": "Die Jungen",  "verb": { "lemma": "tanzen",  "forms": { "present": "tanzen",  "past": "tanzten",  "future": "werden tanzen"  }, "regular": true  } },
           { "id": "tn-f3", "time": "future",  "timeWord": "Morgen",  "subject": "Die Mäuse",   "verb": { "lemma": "sammeln", "forms": { "present": "sammeln", "past": "sammelten","future": "werden sammeln" }, "regular": true  } }
+        ],
+        "fr": [
+          { "id": "tn-p1", "time": "past",    "timeWord": "Hier",       "subject": "Les oiseaux",    "verb": { "lemma": "chanter",  "forms": { "present": "chantent",  "past": "chantaient",  "future": "chanteront"  }, "regular": true } },
+          { "id": "tn-p2", "time": "past",    "timeWord": "Hier",       "subject": "Les élèves",     "verb": { "lemma": "ranger",   "forms": { "present": "rangent",   "past": "rangeaient",  "future": "rangeront"   }, "regular": true } },
+          { "id": "tn-p3", "time": "past",    "timeWord": "Hier",       "subject": "Les promeneurs", "verb": { "lemma": "marcher",  "forms": { "present": "marchent",  "past": "marchaient",  "future": "marcheront"  }, "regular": true } },
+          { "id": "tn-n1", "time": "present", "timeWord": "Maintenant", "subject": "Les enfants",    "verb": { "lemma": "jouer",    "forms": { "present": "jouent",    "past": "jouaient",    "future": "joueront"    }, "regular": true } },
+          { "id": "tn-n2", "time": "present", "timeWord": "Maintenant", "subject": "Les danseurs",   "verb": { "lemma": "danser",   "forms": { "present": "dansent",   "past": "dansaient",   "future": "danseront"   }, "regular": true } },
+          { "id": "tn-n3", "time": "present", "timeWord": "Maintenant", "subject": "Les artistes",   "verb": { "lemma": "dessiner", "forms": { "present": "dessinent", "past": "dessinaient", "future": "dessineront" }, "regular": true } },
+          { "id": "tn-f1", "time": "future",  "timeWord": "Demain",     "subject": "Les bateaux",    "verb": { "lemma": "naviguer", "forms": { "present": "naviguent", "past": "naviguaient", "future": "navigueront" }, "regular": true } },
+          { "id": "tn-f2", "time": "future",  "timeWord": "Demain",     "subject": "Les poissons",   "verb": { "lemma": "nager",    "forms": { "present": "nagent",    "past": "nageaient",   "future": "nageront"    }, "regular": true } },
+          { "id": "tn-f3", "time": "future",  "timeWord": "Demain",     "subject": "Les jardiniers", "verb": { "lemma": "planter",  "forms": { "present": "plantent",  "past": "plantaient",  "future": "planteront"  }, "regular": true } }
         ]
       }
     },
     "slug": {
       "en": "verb-tense-past-present-future",
-      "de": "zeitformen-ueben-gegenwart-vergangenheit-zukunft-klasse-2"
+      "de": "zeitformen-ueben-gegenwart-vergangenheit-zukunft-klasse-2",
+      "fr": "passe-present-futur-conjuguer-les-verbes-ce1"
     },
     "page_title": {
       "en": "The Clock Tower — Verb Tense: Past, Present & Future (Grade 1)",
-      "de": "Junipers Uhrturm: Zeitformen üben – Verben, Klasse 2"
+      "de": "Junipers Uhrturm: Zeitformen üben – Verben, Klasse 2",
+      "fr": "Passé, présent, futur : conjuguer le verbe (CE1)"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 grammar activity: help Juniper the robin keep the clock tower's three time-windows — Before, Now, and Soon. Read the time word in each sentence, then tap the verb that fits the past, present, or future. A friendly first look at using verbs to tell when something happens. Common Core L.1.1.e.",
-      "de": "In Junipers Uhrturm wählst du die passende Verbform zur Zeit: Gegenwart, Vergangenheit oder Zukunft. Verben und Zeitformen üben – kostenlos, interaktiv, Klasse 2."
+      "de": "In Junipers Uhrturm wählst du die passende Verbform zur Zeit: Gegenwart, Vergangenheit oder Zukunft. Verben und Zeitformen üben – kostenlos, interaktiv, Klasse 2.",
+      "fr": "Choisis le bon temps du verbe — passé, présent, futur — avec Juniper et sa tour du temps. Jeu gratuit et interactif de conjugaison pour le CE1."
     },
     "kid_prompt_template": "tense"
   }

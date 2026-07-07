@@ -22,7 +22,8 @@
   /* window labels per locale (the WINDOWS array `label` stays the EN fallback) */
   var WIN_LABELS = {
     en: { past: 'Before', present: 'Now', future: 'Soon' },
-    de: { past: 'Vergangenheit', present: 'Gegenwart', future: 'Zukunft' }
+    de: { past: 'Vergangenheit', present: 'Gegenwart', future: 'Zukunft' },
+    fr: { past: 'Passé', present: 'Présent', future: 'Futur' }
   };
 
   /* time-window meta: which window each tense lights, its label + glyph */
@@ -49,6 +50,14 @@
       nPast: '‚Gestern‘ ist schon vorbei – wähle die Vergangenheit.',
       nPresent: '‚Jetzt‘ passiert gerade – wähle die Gegenwart.',
       nFuture: '‚Morgen‘ ist noch nicht da – wähle die Form mit ‚werden‘.'
+    },
+    fr: {
+      q: '{subj} — quelle forme va avec « {tw} » ?',
+      win: 'Oui ! {note}', winNote: 'Cette forme va avec le bon moment !',
+      hear: '🔊 Écouter',
+      nPast: '« {tw} », c’est déjà passé — choisis la forme du passé.',
+      nPresent: '« {tw} », c’est en ce moment — choisis la forme du présent.',
+      nFuture: '« {tw} », ce n’est pas encore arrivé — choisis la forme du futur.'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -70,9 +79,9 @@
   var TenseActivity = {
     id: 'tense-activity',
     strings: {
-      title: { en: 'The Clock Tower', de: 'Junipers Uhrturm' },
-      instruction: { en: 'Read the time, then tap the verb that fits!', de: 'Schau auf die Zeit und tippe die passende Zeitform!' },
-      q: { en: '{q}', de: '{q}' }
+      title: { en: 'The Clock Tower', de: 'Junipers Uhrturm', fr: 'La tour du temps de Juniper' },
+      instruction: { en: 'Read the time, then tap the verb that fits!', de: 'Schau auf die Zeit und tippe die passende Zeitform!', fr: 'Regarde le temps et touche la bonne forme du verbe !' },
+      q: { en: '{q}', de: '{q}', fr: '{q}' }
     },
 
     init: function (api) {
@@ -189,6 +198,8 @@
         var f = round.verb.forms;
         var t = LANG === 'de'
           ? (round.subject + '. Was passt zu ‚' + round.timeWord + '‘?')
+          : LANG === 'fr'
+          ? (round.subject + '. Quelle forme va avec « ' + round.timeWord + ' » ?')
           : (round.timeWord + ', ' + round.subject + '. Which word fits? ' + f.present + ', ' + f.past + ', or ' + f.future + '?');
         if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: LANG, rate: 0.9 }); } catch (e) { } }
       });
@@ -241,6 +252,8 @@
       var w = winFor(round.time);
       var msg = LANG === 'de'
         ? ('Zeitformen-Übung: ' + round.subject + '. Wähle die Zeitform, die zu ‚' + round.timeWord + '‘ passt. Zur Auswahl: ' + f.present + ', ' + f.past + ', ' + f.future + '.')
+        : LANG === 'fr'
+        ? ('Exercice sur les temps du verbe : ' + round.subject + '. Choisis la forme qui va avec « ' + round.timeWord + ' ». Au choix : ' + f.present + ', ' + f.past + ', ' + f.future + '.')
         : ('The "' + w.label + '" window is lit. ' + round.timeWord + ', ' + round.subject + ' blank. Which word fits? Choices: ' + f.present + ', ' + f.past + ', ' + f.future + '.');
       wrap.innerHTML = '<p>' + msg + '</p>';
       return wrap;

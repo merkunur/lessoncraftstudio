@@ -45,6 +45,18 @@
       srJoin: '{c} bei {v} cm',
       srPlot: 'Eine neue Muschel ist {len} cm lang. Häufigkeitsdiagramm, Zahlenstrahl 1 bis {max}. Tippe auf ihre Länge, um sie einzutragen. Zur Auswahl: {choices}.',
       srRead: 'Ein Häufigkeitsdiagramm, Zahlenstrahl 1 bis {max}: {dist}. {q} Zur Auswahl: {choices}.'
+    },
+    fr: {
+      win: 'Oui — {note} !',
+      winPlot: 'placé à {a} cm',
+      winAt: '{a} coquillages',
+      winMode: '{a} cm est la longueur qui revient le plus souvent',
+      winNum: 'la réponse est {a}',
+      nPlot: 'Regarde où se termine le coquillage sur la droite graduée.',
+      nRead: 'Regarde encore les X placés au-dessus de chaque nombre.',
+      srJoin: '{c} à {v} cm',
+      srPlot: 'Un nouveau coquillage mesure {len} cm. Diagramme des effectifs, droite graduée de 1 à {max}. Touche sa longueur pour le placer. Choix : {choices}.',
+      srRead: 'Un diagramme des effectifs, droite graduée de 1 à {max} : {dist}. {q} Choix : {choices}.'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -65,14 +77,14 @@
   var LinePlotActivity = {
     id: 'line-plot-activity',
     strings: {
-      title: { en: "Shelly's Tide-Line", de: 'Shellys Gezeitenlinie' },
-      instruction: { en: 'Help Shelly the hermit crab measure shells and read the tide-line plot!', de: 'Hilf Shelly, dem Einsiedlerkrebs, Muscheln zu messen und die Gezeitenlinie zu lesen!' },
-      qplot: { en: 'How long is this shell? Tap its length to plot it.', de: 'Wie lang ist diese Muschel? Tippe auf ihre Länge, um sie einzutragen.' },
-      qAt: { en: 'How many shells are {n} cm long?', de: 'Wie viele Muscheln sind {n} cm lang?' },
-      qLonger: { en: 'How many shells are longer than {n} cm?', de: 'Wie viele Muscheln sind länger als {n} cm?' },
-      qMode: { en: 'Which length is the most common?', de: 'Welche Länge kommt am häufigsten vor?' },
-      qDiff: { en: 'How much longer is the longest shell than the shortest?', de: 'Wie viel länger ist die längste Muschel als die kürzeste?' },
-      qMore: { en: 'How many more shells are {a} cm than {b} cm?', de: 'Wie viele Muscheln mehr sind {a} cm lang als {b} cm lang?' }
+      title: { en: "Shelly's Tide-Line", de: 'Shellys Gezeitenlinie', fr: 'Shelly et la ligne de marée' },
+      instruction: { en: 'Help Shelly the hermit crab measure shells and read the tide-line plot!', de: 'Hilf Shelly, dem Einsiedlerkrebs, Muscheln zu messen und die Gezeitenlinie zu lesen!', fr: 'Aide Shelly le bernard-l’ermite à mesurer des coquillages et à lire le diagramme !' },
+      qplot: { en: 'How long is this shell? Tap its length to plot it.', de: 'Wie lang ist diese Muschel? Tippe auf ihre Länge, um sie einzutragen.', fr: 'Quelle est la longueur de ce coquillage ? Touche sa longueur pour la placer.' },
+      qAt: { en: 'How many shells are {n} cm long?', de: 'Wie viele Muscheln sind {n} cm lang?', fr: 'Combien de coquillages mesurent {n} cm ?' },
+      qLonger: { en: 'How many shells are longer than {n} cm?', de: 'Wie viele Muscheln sind länger als {n} cm?', fr: 'Combien de coquillages sont plus longs que {n} cm ?' },
+      qMode: { en: 'Which length is the most common?', de: 'Welche Länge kommt am häufigsten vor?', fr: 'Quelle longueur revient le plus souvent ?' },
+      qDiff: { en: 'How much longer is the longest shell than the shortest?', de: 'Wie viel länger ist die längste Muschel als die kürzeste?', fr: 'Combien de cm de plus mesure le coquillage le plus long par rapport au plus court ?' },
+      qMore: { en: 'How many more shells are {a} cm than {b} cm?', de: 'Wie viele Muscheln mehr sind {a} cm lang als {b} cm lang?', fr: 'Combien y a-t-il de coquillages de {a} cm de plus que de coquillages de {b} cm ?' }
     },
 
     init: function (api) {
@@ -237,7 +249,7 @@
       this.render();
       var note;
       if (r.cog === 'plot') note = txt('winPlot', { a: a });
-      else if (r.question.type === 'atN') note = (LANG === 'de' && a === 1) ? 'eine Muschel' : txt('winAt', { a: a });
+      else if (r.question.type === 'atN') note = (LANG === 'de' && a === 1) ? 'eine Muschel' : (LANG === 'fr' && a <= 1) ? (a + ' coquillage') : txt('winAt', { a: a });
       else if (r.question.type === 'mode') note = txt('winMode', { a: a });
       else note = txt('winNum', { a: a });
       var line = this._api.stage.querySelector('.tl-line-msg');

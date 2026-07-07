@@ -21,25 +21,25 @@
   /* per-noun German label forms (the labels render as bar names AND inside the
      question, so German needs the definite-article nominative per noun). EN → bare label. */
   var LABEL_L10N = {
-    'ribbon': { name: 'Band', nom: 'das Band' },
-    'string': { name: 'Schnur', nom: 'die Schnur' },
-    'snake': { name: 'Schlange', nom: 'die Schlange' },
-    'worm': { name: 'Wurm', nom: 'der Wurm' },
-    'pencil': { name: 'Bleistift', nom: 'der Bleistift' },
-    'crayon': { name: 'Buntstift', nom: 'der Buntstift' },
-    'rope': { name: 'Seil', nom: 'das Seil' },
-    'cord': { name: 'Kordel', nom: 'die Kordel' },
-    'scarf': { name: 'Schal', nom: 'der Schal' },
-    'belt': { name: 'Gürtel', nom: 'der Gürtel' },
-    'leaf': { name: 'Blatt', nom: 'das Blatt' },
-    'seed': { name: 'Samen', nom: 'der Samen' },
-    'blue bar': { name: 'blauer Balken', nom: 'der blaue Balken' },
-    'red bar': { name: 'roter Balken', nom: 'der rote Balken' },
-    'branch': { name: 'Ast', nom: 'der Ast' },
-    'twig': { name: 'Zweig', nom: 'der Zweig' }
+    'ribbon': { name: 'Band', nom: 'das Band', frName: 'Ruban', frNom: 'le ruban' },
+    'string': { name: 'Schnur', nom: 'die Schnur', frName: 'Ficelle', frNom: 'la ficelle' },
+    'snake': { name: 'Schlange', nom: 'die Schlange', frName: 'Serpent', frNom: 'le serpent' },
+    'worm': { name: 'Wurm', nom: 'der Wurm', frName: 'Ver', frNom: 'le ver' },
+    'pencil': { name: 'Bleistift', nom: 'der Bleistift', frName: 'Crayon', frNom: 'le crayon' },
+    'crayon': { name: 'Buntstift', nom: 'der Buntstift', frName: 'Feutre', frNom: 'le feutre' },
+    'rope': { name: 'Seil', nom: 'das Seil', frName: 'Corde', frNom: 'la corde' },
+    'cord': { name: 'Kordel', nom: 'die Kordel', frName: 'Cordon', frNom: 'le cordon' },
+    'scarf': { name: 'Schal', nom: 'der Schal', frName: 'Écharpe', frNom: 'l’écharpe' },
+    'belt': { name: 'Gürtel', nom: 'der Gürtel', frName: 'Ceinture', frNom: 'la ceinture' },
+    'leaf': { name: 'Blatt', nom: 'das Blatt', frName: 'Feuille', frNom: 'la feuille' },
+    'seed': { name: 'Samen', nom: 'der Samen', frName: 'Graine', frNom: 'la graine' },
+    'blue bar': { name: 'blauer Balken', nom: 'der blaue Balken', frName: 'Bleue', frNom: 'la bleue' },
+    'red bar': { name: 'roter Balken', nom: 'der rote Balken', frName: 'Rouge', frNom: 'la rouge' },
+    'branch': { name: 'Ast', nom: 'der Ast', frName: 'Branche', frNom: 'la branche' },
+    'twig': { name: 'Zweig', nom: 'der Zweig', frName: 'Brindille', frNom: 'la brindille' }
   };
-  function lblName(label) { return (LANG === 'de' && LABEL_L10N[label]) ? LABEL_L10N[label].name : label; }
-  function lblNom(label) { return (LANG === 'de' && LABEL_L10N[label]) ? LABEL_L10N[label].nom : label; }
+  function lblName(label) { return LABEL_L10N[label] ? (LANG === 'de' ? LABEL_L10N[label].name : LANG === 'fr' ? LABEL_L10N[label].frName : label) : label; }
+  function lblNom(label) { return LABEL_L10N[label] ? (LANG === 'de' ? LABEL_L10N[label].nom : LANG === 'fr' ? LABEL_L10N[label].frNom : label) : label; }
 
   function inchwormSVG(api) {
     return '<svg class="slg-worm-svg" viewBox="0 0 100 100" role="img" aria-label="' + (api && api.t ? api.t('spanName') : 'Span the inchworm') + '">' +
@@ -55,15 +55,15 @@
     id: 'span-length-gap-activity',
 
     strings: {
-      title: { en: "Span's Length Gap", de: 'Wie viel länger?' },
-      instruction: { en: 'Read both lengths, then type how much longer the longer one is.', de: 'Lies beide Längen und tippe dann ein, wie viel länger die längere ist.' },
-      prompt: { en: 'Type how much longer it is.', de: 'Tippe ein, wie viel länger die längere ist.' },
-      spanIntro: { en: 'I measure the gap — how much longer is the long one?', de: 'Ich messe den Unterschied – wie viel länger ist der längere?' },
-      hintAdd: { en: 'Find the difference: take the shorter length from the longer one.', de: 'Finde den Unterschied: Ziehe die kürzere Länge von der längeren ab.' },
-      win: { en: 'Yes! That is the length gap. 🐛', de: 'Ja! Das ist der Längenunterschied. 🐛' },
-      spanName: { en: 'Span the inchworm', de: 'Span, die Spannerraupe' },
-      qAsk: { en: 'How much longer is the {a} than the {b}?', de: 'Wie viel länger ist {a} als {b}?' },
-      qSolved: { en: 'The {a} is {n} {unit} longer! ✓', de: '{a} ist {n} {unit} länger! ✓' }
+      title: { en: "Span's Length Gap", de: 'Wie viel länger?', fr: 'Combien de cm de plus ?' },
+      instruction: { en: 'Read both lengths, then type how much longer the longer one is.', de: 'Lies beide Längen und tippe dann ein, wie viel länger die längere ist.', fr: 'Lis les deux longueurs, puis tape de combien de cm la plus longue dépasse la plus courte.' },
+      prompt: { en: 'Type how much longer it is.', de: 'Tippe ein, wie viel länger die längere ist.', fr: 'Tape de combien de cm la plus longue dépasse la plus courte.' },
+      spanIntro: { en: 'I measure the gap — how much longer is the long one?', de: 'Ich messe den Unterschied – wie viel länger ist der längere?', fr: 'Je mesure la différence de longueur. De combien la plus longue dépasse-t-elle la plus courte ?' },
+      hintAdd: { en: 'Find the difference: take the shorter length from the longer one.', de: 'Finde den Unterschied: Ziehe die kürzere Länge von der längeren ab.', fr: 'Cherche la différence : retire la plus courte de la plus longue.' },
+      win: { en: 'Yes! That is the length gap. 🐛', de: 'Ja! Das ist der Längenunterschied. 🐛', fr: 'Oui ! C’est bien la différence de longueur. 🐛' },
+      spanName: { en: 'Span the inchworm', de: 'Span, die Spannerraupe', fr: 'Span, la chenille arpenteuse' },
+      qAsk: { en: 'How much longer is the {a} than the {b}?', de: 'Wie viel länger ist {a} als {b}?', fr: '{a} mesure combien de cm de plus que {b} ?' },
+      qSolved: { en: 'The {a} is {n} {unit} longer! ✓', de: '{a} ist {n} {unit} länger! ✓', fr: '{a} mesure {n} {unit} de plus ! ✓' }
     },
     defaults: {},
 
@@ -107,8 +107,8 @@
 
       var q = api.el('div', 'slg-q' + (this.solved ? ' slg-solved' : ''));
       q.textContent = this.solved
-        ? interp(api.t('qSolved'), { a: (LANG === 'de' ? cap(lblNom(v.aLabel)) : v.aLabel), n: Core.answerValue(this.round), unit: v.unit })
-        : interp(api.t('qAsk'), { a: (LANG === 'de' ? lblNom(v.aLabel) : v.aLabel), b: (LANG === 'de' ? lblNom(v.bLabel) : v.bLabel) });
+        ? interp(api.t('qSolved'), { a: ((LANG === 'de' || LANG === 'fr') ? cap(lblNom(v.aLabel)) : v.aLabel), n: Core.answerValue(this.round), unit: v.unit })
+        : interp(api.t('qAsk'), { a: (LANG === 'fr' ? cap(lblNom(v.aLabel)) : LANG === 'de' ? lblNom(v.aLabel) : v.aLabel), b: ((LANG === 'de' || LANG === 'fr') ? lblNom(v.bLabel) : v.bLabel) });
       root.appendChild(q);
 
       wrap.appendChild(root); stage.appendChild(wrap);
@@ -135,24 +135,24 @@
       if (this._cssInjected) return; this._cssInjected = true;
       var css = ''
         + '.slg-wrap{display:flex;justify-content:center;width:100%;max-width:min(96vw,520px);margin:0 auto;}'
-        + '.slg-root{position:relative;width:100%;display:flex;flex-direction:column;align-items:stretch;gap:clamp(9px,2.2vw,14px);background:linear-gradient(180deg,#FBF3E4,#EDF3E6);border-radius:20px;padding:clamp(11px,2.6vw,18px);box-shadow:inset 0 2px 0 rgba(255,255,255,.5),0 5px 0 rgba(100,150,80,.1);}'
+        + '.slg-root{position:relative;width:100%;display:flex;flex-direction:column;align-items:stretch;gap:clamp(7px,1.8vw,11px);background:linear-gradient(180deg,#FBF3E4,#EDF3E6);border-radius:20px;padding:clamp(10px,2.3vw,15px);box-shadow:inset 0 2px 0 rgba(255,255,255,.5),0 5px 0 rgba(100,150,80,.1);}'
         + '.slg-row{display:flex;align-items:center;gap:clamp(6px,2vw,12px);justify-content:center;}'
         + '.slg-worm{width:clamp(44px,9vw,56px);flex:0 0 auto;}.slg-worm-svg{width:100%;height:auto;display:block;}'
         + '.slg-say{background:#fff;border:2px solid rgba(20,107,94,.18);border-radius:13px 13px 13px 3px;padding:6px 11px;font:700 clamp(12px,3.1vw,15px)/1.3 "Baloo 2",sans-serif;color:' + C.T + ';max-width:74%;display:-webkit-box;-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}'
-        + '.slg-bars{display:flex;flex-direction:column;gap:clamp(8px,2vw,12px);width:100%;}'
+        + '.slg-bars{display:flex;flex-direction:column;gap:clamp(6px,1.6vw,9px);width:100%;}'
         + '.slg-barrow{display:flex;align-items:center;gap:8px;}'
         + '.slg-name{flex:0 0 auto;width:clamp(58px,16vw,82px);text-align:right;font:800 clamp(12px,3vw,15px)/1.1 "Baloo 2",sans-serif;color:' + C.INK + ';}'
         + '.slg-track{flex:1 1 auto;background:#EFece2;border-radius:9px;padding:3px;}'
-        + '.slg-bar{height:clamp(26px,6vw,34px);border-radius:7px;display:flex;align-items:center;justify-content:flex-end;padding-right:8px;box-shadow:inset 0 -2px 0 rgba(0,0,0,.08);}'
+        + '.slg-bar{height:clamp(24px,5vw,28px);border-radius:7px;display:flex;align-items:center;justify-content:flex-end;padding-right:8px;box-shadow:inset 0 -2px 0 rgba(0,0,0,.08);}'
         + '.slg-bar.slg-a{background:linear-gradient(180deg,#F2784B,#E0653A);}'
         + '.slg-bar.slg-b{background:linear-gradient(180deg,#3FB07E,#2E9268);}'
         + '.slg-val{font:800 clamp(12px,3vw,15px)/1 "Baloo 2",sans-serif;color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.18);}'
-        + '.slg-q{text-align:center;font:800 clamp(14px,3.6vw,17px)/1.25 "Baloo 2",sans-serif;color:' + C.T + ';}'
+        + '.slg-q{text-align:center;font:800 clamp(14px,3.6vw,17px)/1.2 "Baloo 2",sans-serif;color:' + C.T + ';}'
         + '.slg-q.slg-solved{color:' + C.GREEN + ';}'
-        + '@media (max-height:920px){.slg-row{display:none;}.slg-root{gap:clamp(7px,1.7vw,11px);padding:clamp(10px,2.2vw,14px);}.slg-bar{height:clamp(24px,5vw,30px);}}'
-        + '@media (max-height:700px){.slg-root{gap:7px;padding:11px;}.slg-bars{gap:8px;}.slg-bar{height:26px;}.slg-q{font-size:15px;}}'
-        + '@media (max-height:640px){.slg-root{gap:5px;padding:8px;}.slg-bars{gap:6px;}.slg-bar{height:21px;}.slg-q{font-size:13px;line-height:1.12;}.slg-name{font-size:11px;}}'
-        + '@media (max-width:380px){.slg-name{width:52px;font-size:11px;}.slg-q{font-size:13px;line-height:1.12;}}';
+        + '@media (max-height:1040px){.slg-row{display:none;}.slg-root{gap:clamp(6px,1.4vw,8px);padding:clamp(8px,1.8vw,12px);}.slg-bars{gap:clamp(5px,1.2vw,7px);}.slg-bar{height:clamp(20px,3.7vw,22px);}.slg-q{line-height:1.14;}}'
+        + '@media (max-height:700px){.slg-root{gap:6px;padding:9px;}.slg-bars{gap:5px;}.slg-bar{height:21px;}.slg-q{font-size:14px;line-height:1.12;}}'
+        + '@media (max-height:640px){.slg-root{gap:4px;padding:6px;}.slg-bars{gap:4px;}.slg-bar{height:17px;}.slg-q{font-size:12px;line-height:1.05;}.slg-name{font-size:11px;}}'
+        + '@media (max-width:380px){.slg-name{width:48px;font-size:11px;}.slg-q{font-size:12px;line-height:1.05;}.slg-bar{height:16px;}}';
       var tag = document.createElement('style'); tag.setAttribute('data-span-length-gap', ''); tag.textContent = css; document.head.appendChild(tag);
     }
   };

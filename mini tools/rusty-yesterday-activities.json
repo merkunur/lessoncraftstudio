@@ -25,13 +25,23 @@
           { "id": "trinken", "band": 2, "present": "trinke", "correct": "trank", "choices": [ { "word": "trank" }, { "word": "trinke" }, { "word": "trinkte" } ] },
           { "id": "fliegen", "band": 3, "present": "fliege", "correct": "flog", "choices": [ { "word": "flog" }, { "word": "fliege" }, { "word": "fliegte" } ] },
           { "id": "schlafen", "band": 3, "present": "schlafe", "correct": "schlief", "choices": [ { "word": "schlief" }, { "word": "schlafe" }, { "word": "schlafte" } ] }
+        ],
+        "fr": [
+          { "id": "faire", "band": 1, "present": "fais un gâteau", "correct": "fait", "choices": [ { "word": "fait" }, { "word": "fais" }, { "word": "faisé" } ] },
+          { "id": "prendre", "band": 1, "present": "prends une pomme", "correct": "pris", "choices": [ { "word": "pris" }, { "word": "prends" }, { "word": "prendu" } ] },
+          { "id": "voir", "band": 1, "present": "vois un oiseau", "correct": "vu", "choices": [ { "word": "vu" }, { "word": "vois" }, { "word": "voyé" } ] },
+          { "id": "boire", "band": 2, "present": "bois du lait", "correct": "bu", "choices": [ { "word": "bu" }, { "word": "bois" }, { "word": "buvé" } ] },
+          { "id": "lire", "band": 2, "present": "lis un livre", "correct": "lu", "choices": [ { "word": "lu" }, { "word": "lis" }, { "word": "lisé" } ] },
+          { "id": "dire", "band": 2, "present": "dis un secret", "correct": "dit", "choices": [ { "word": "dit" }, { "word": "dis" }, { "word": "disé" } ] },
+          { "id": "tenir", "band": 3, "present": "tiens un ballon", "correct": "tenu", "choices": [ { "word": "tenu" }, { "word": "tiens" }, { "word": "teni" } ] },
+          { "id": "recevoir", "band": 3, "present": "reçois un cadeau", "correct": "reçu", "choices": [ { "word": "reçu" }, { "word": "reçois" }, { "word": "recevé" } ] }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "rusty-yesterday", "de": "unregelmaessige-verben-praeteritum-ueben-klasse-3" },
-    "page_title": { "en": "Rusty's Yesterday Machine — Irregular Past-Tense Verbs (Grade 2)", "de": "Rustys Gestern-Maschine – Unregelmäßige Verben im Präteritum (Klasse 3)" },
-    "page_intro": { "en": "Rusty the robot's machine turns today's verbs into yesterday's! Some verbs are tricky — they don't just add -ed. Today I go, but yesterday I went (not 'goed'). Read the verb, then tap the right way to say it about yesterday. A Grade 2 grammar game about irregular past-tense verbs, aligned to Common Core L.2.1.d.", "de": "Hilf Rusty dem Roboter mit seiner Zeitmaschine, die richtige Präteritum-Form unregelmäßiger Verben zu finden (gehen→ging) – kostenlos und interaktiv üben, passend zum Lehrplan." },
+    "slug": { "en": "rusty-yesterday", "de": "unregelmaessige-verben-praeteritum-ueben-klasse-3", "fr": "le-passe-compose-verbes-irreguliers-ce2" },
+    "page_title": { "en": "Rusty's Yesterday Machine — Irregular Past-Tense Verbs (Grade 2)", "de": "Rustys Gestern-Maschine – Unregelmäßige Verben im Präteritum (Klasse 3)", "fr": "La machine à hier de Rusty : le passé composé des verbes irréguliers (CE2)" },
+    "page_intro": { "en": "Rusty the robot's machine turns today's verbs into yesterday's! Some verbs are tricky — they don't just add -ed. Today I go, but yesterday I went (not 'goed'). Read the verb, then tap the right way to say it about yesterday. A Grade 2 grammar game about irregular past-tense verbs, aligned to Common Core L.2.1.d.", "de": "Hilf Rusty dem Roboter mit seiner Zeitmaschine, die richtige Präteritum-Form unregelmäßiger Verben zu finden (gehen→ging) – kostenlos und interaktiv üben, passend zum Lehrplan.", "fr": "Aide Rusty le robot à trouver la bonne forme d’hier — le passé composé des verbes irréguliers (je fais → j’ai fait, pas « faisé »). Une activité de conjugaison CE2, gratuite et interactive." },
     "kid_prompt_template": "Yesterday — which word is right?"
   }
 ]

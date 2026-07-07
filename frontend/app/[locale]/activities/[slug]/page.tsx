@@ -110,6 +110,7 @@ function effGrade(row: ActivityRow, locale: string): string {
    teaches/targetDescription); related-activity matching keeps the raw alignment.strand. */
 const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'comparison-creek.river-steer.k-cc-c-7': { fr: 'Découvrir les nombres et leurs utilisations' }, // GS-anchored: the maternelle domain (programmes cycle 1) — the cycle-2 auto-map „Nombres et calcul" reads a year off next to the « Grande section » chip; en/de fall through to Counting & Cardinality / Zählen und Mengen
+  'sage-root-garden.roots.l-2-4-c': { fr: 'Le lexique' }, // familles de mots / radical = morphologie dérivationnelle → LE LEXIQUE (programmes cycle 2), beside the affix activity; the German sibling files word-families under grammar („Sprache untersuchen") but that placement is DE-specific — en/de fall through to Language / Sprache untersuchen unchanged
   'sound-boxes.phoneme-position.rf-k-2-d': { de: 'Sprache und Sprachgebrauch untersuchen' }, // Lautanalyse = metalinguistische Analyse der Lautstruktur (KMK); distinct from #102 Reime „Sprechen und Zuhören" (holistic listening)
   'stretch-giraffe.long-short-vowel.rf-1-2-a': { de: 'Sprache und Sprachgebrauch untersuchen' }, // Vokallaenge = analytische Isolation+Klassifikation des betonten Selbstlauts nach dem Merkmal Quantitaet (metasprachlich, wie #106); NOT #102 „Sprechen und Zuhören"; RF hat keinen de-Eintrag in strand-names.ts -> Override setzt den Chip
   'choice-board.read-cvc-word.rf-k-3': { de: 'Lesen – mit Texten und Medien umgehen' }, // Erstlesen = rezeptiv-lesende Kompetenz (KMK Kompetenzbereich Lesen, „über Lesefaehigkeiten verfuegen"); distinct from #106/#107 „untersuchen"; RF hat keinen de-Eintrag in strand-names.ts -> Override setzt den Chip
@@ -435,7 +436,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.142';
+  const ACTIVITY_WRAPPER_VERSION = '9.143';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

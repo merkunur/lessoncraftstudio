@@ -25,13 +25,23 @@
           { "id": "back", "band": 2, "root": "back", "correct": "backen", "choices": [ { "word": "backen" }, { "word": "packen" }, { "word": "Jacke" } ] },
           { "id": "tanz", "band": 3, "root": "tanz", "correct": "tanzen", "choices": [ { "word": "tanzen" }, { "word": "Tante" }, { "word": "Tanne" } ] },
           { "id": "wasch", "band": 3, "root": "wasch", "correct": "waschen", "choices": [ { "word": "waschen" }, { "word": "Wasser" }, { "word": "Tasche" } ] }
+        ],
+        "fr": [
+          { "id": "chat", "band": 1, "root": "chat", "correct": "chaton", "choices": [ { "word": "chaton" }, { "word": "château" }, { "word": "chariot" } ] },
+          { "id": "lait", "band": 1, "root": "lait", "correct": "laitier", "choices": [ { "word": "laitier" }, { "word": "laine" }, { "word": "laid" } ] },
+          { "id": "jour", "band": 1, "root": "jour", "correct": "journal", "choices": [ { "word": "journal" }, { "word": "joue" }, { "word": "jouet" } ] },
+          { "id": "fleur", "band": 2, "root": "fleur", "correct": "fleuriste", "choices": [ { "word": "fleuriste" }, { "word": "fleuve" }, { "word": "flèche" } ] },
+          { "id": "chant", "band": 2, "root": "chant", "correct": "chanteur", "choices": [ { "word": "chanteur" }, { "word": "chance" }, { "word": "chandail" } ] },
+          { "id": "danse", "band": 2, "root": "danse", "correct": "danseur", "choices": [ { "word": "danseur" }, { "word": "danger" }, { "word": "dense" } ] },
+          { "id": "dent", "band": 3, "root": "dent", "correct": "dentiste", "choices": [ { "word": "dentiste" }, { "word": "denrée" }, { "word": "dedans" } ] },
+          { "id": "grand", "band": 3, "root": "grand", "correct": "grandir", "choices": [ { "word": "grandir" }, { "word": "grange" }, { "word": "grappe" } ] }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "sage-root-garden", "de": "wortfamilien-wortstamm-erkennen-klasse-2" },
-    "page_title": { "en": "Sage's Root Garden — Find the Root Word Family (Grade 2)", "de": "Sages Wortgarten: Wortfamilien & Wortstamm – Klasse 2" },
-    "page_intro": { "en": "Sage the tortoise grows word families from a single root! Big words often grow from a smaller root word you already know — farm grows into farmer. Read the root, then tap the word that GROWS from it (watch out for words that just look alike). A Grade 2 vocabulary game about using root words as a clue to meaning, aligned to Common Core L.2.4.c.", "de": "Mit Sage der Schildkröte den Wortstamm in einem Wort wiedererkennen und das passende Wort der Wortfamilie wählen. Kostenlos, interaktiv und ideal für Klasse 2." },
+    "slug": { "en": "sage-root-garden", "de": "wortfamilien-wortstamm-erkennen-klasse-2", "fr": "les-familles-de-mots-le-radical-ce1" },
+    "page_title": { "en": "Sage's Root Garden — Find the Root Word Family (Grade 2)", "de": "Sages Wortgarten: Wortfamilien & Wortstamm – Klasse 2", "fr": "Les familles de mots : le radical — CE1" },
+    "page_intro": { "en": "Sage the tortoise grows word families from a single root! Big words often grow from a smaller root word you already know — farm grows into farmer. Read the root, then tap the word that GROWS from it (watch out for words that just look alike). A Grade 2 vocabulary game about using root words as a clue to meaning, aligned to Common Core L.2.4.c.", "de": "Mit Sage der Schildkröte den Wortstamm in einem Wort wiedererkennen und das passende Wort der Wortfamilie wählen. Kostenlos, interaktiv und ideal für Klasse 2.", "fr": "Aide Sage la tortue à reconnaître le radical d’une famille de mots. Une activité de lexique gratuite et interactive pour le CE1." },
     "kid_prompt_template": "Tap the word that grows from the root."
   }
 ]

@@ -94,13 +94,16 @@
       ]
     },
     "slug": {
-      "en": "read-clock-to-the-quarter-hour"
+      "en": "read-clock-to-the-quarter-hour",
+      "fr": "lire-lheure-quarts-dheure-ce2"
     },
     "page_title": {
-      "en": "Sprocket's Clock — Read the Clock to the Quarter-Hour (Grade 2)"
+      "en": "Sprocket's Clock — Read the Clock to the Quarter-Hour (Grade 2)",
+      "fr": "L'horloge de Sprocket — Lire les quarts d'heure (CE2)"
     },
     "page_intro": {
-      "en": "A free interactive Grade 2 time activity: read an analog clock at quarter past and quarter to, then tap the matching digital time. Children learn that the long hand on the 3 means quarter past (3:15) and on the 9 means quarter to (3:45) — and that quarter to 4 is written 3:45, not 4:45. Sprocket the rooster cheers them on. A friendly step toward telling time to the nearest five minutes. Common Core 2.MD.C.7."
+      "en": "A free interactive Grade 2 time activity: read an analog clock at quarter past and quarter to, then tap the matching digital time. Children learn that the long hand on the 3 means quarter past (3:15) and on the 9 means quarter to (3:45) — and that quarter to 4 is written 3:45, not 4:45. Sprocket the rooster cheers them on. A friendly step toward telling time to the nearest five minutes. Common Core 2.MD.C.7.",
+      "fr": "Avec Sprocket le coq, votre enfant lit l'horloge à aiguilles pour dire les quarts d'heure, « et quart », « et demie » et « moins le quart », comme « 3 h 15 » ou « 3 h 45 » (« quatre heures moins le quart »). Activité gratuite et interactive, CE2, « Grandeurs et mesures »."
     },
     "kid_prompt_template": "clock-digital"
   },

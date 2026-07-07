@@ -54,7 +54,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'place-value-regroup.subtract-decompose.2-nbt-b-7': { de: '3', fr: '3' },        // bis-1000 subtraction (borrow) → DE Klasse 3 / FR CE2 (grade_3)
   'place-value-regroup.add-compose-hundred.2-nbt-b-7': { de: '3', fr: '3' },       // bis-1000 add (carry to hundreds) → DE Klasse 3 / FR CE2 (grade_3)
   'place-value-regroup.subtract-decompose-hundred.2-nbt-b-7': { de: '3', fr: '3' },// bis-1000 borrow across zero → DE Klasse 3 / FR CE2 (grade_3)
-  'pond-juice.pour-measure.3-md-a-2': { de: '2' },                        // Hohlmaße/Liter (whole-l 0-10, no ml) → DE Klasse 2 (ml/Umrechnung = Klasse 3)
+  'pond-juice.pour-measure.3-md-a-2': { de: '2', fr: '2' },               // Hohlmaße/Liter (whole-l 0-10, no ml) → DE Klasse 2 (ml/Umrechnung = Klasse 3); FR CE1 (le litre introduced CE1, mL/conversions = cycle 3); en Grade 3 unchanged
   'bundle-bot.bundle-machine.1-nbt-b-2-a': { de: '2' },                   // two-digit Stellenwert (20-49, multiple tens) → DE Klasse 2 (Klasse 1 = ZR bis 20)
   'tense.past-present-future.l-1-1-e': { de: '2' },                       // Zeitformen 3-way contrast + werden-future → DE Klasse 2 (Klasse 1 = nur Gegenwart)
   'sentence-builder.build-a-sentence.l-1-1-j': { de: '2' },               // Satzbau/Wortreihenfolge reorder task → DE Klasse 2 (mastery by end of Klasse 2)
@@ -435,7 +435,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.130';
+  const ACTIVITY_WRAPPER_VERSION = '9.131';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

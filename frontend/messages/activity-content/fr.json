@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "pond-juice.pour-measure.3-md-a-2": {
+      "about": [
+        "Pippa la grenouille tient un petit stand de jus au bord de la mare. Un client — une libellule, un escargot, une tortue… — s’avance et commande « environ N litres » de jus. Votre enfant verse le jus dans un verre mesureur dépoli : pendant qu’il verse, le niveau reste caché, il n’y a donc rien à « viser » dans la précipitation.",
+        "Quand votre enfant relâche, le verre redevient transparent et le niveau apparaît sur une graduation de 0 à 10 litres. Il lit alors la contenance et touche le bon nombre. Dans d’autres parties, il estime d’abord la quantité puis la compare au relevé, ou bien il compare deux verres pour trouver le plus rempli.",
+        "Astuce importante : les deux verres n’ont pas toujours la même graduation, si bien que le jus qui paraît le plus haut peut en réalité être le plus petit. C’est le nombre lu qui décide, pas la hauteur visible. Une activité gratuite et interactive, pensée pour le CE1, dans le domaine « Grandeurs et mesures – les contenances », sans chronomètre et sans points, dans l’esprit des programmes officiels."
+      ],
+      "practices": [
+        "Lire une contenance sur une graduation de 0 à 10 litres.",
+        "Estimer une contenance, puis comparer son estimation au relevé.",
+        "Comparer deux récipients : lequel est le plus rempli ?",
+        "Comprendre que c’est le nombre lu qui compte, pas la hauteur visible."
+      ],
+      "howToPlay": [
+        "Un client commande « environ N litres » : Pippa remplit le verre dépoli.",
+        "Relâche : le verre devient transparent, lis le niveau sur la graduation.",
+        "Touche la contenance lue ; dans d’autres parties, compare deux verres et touche le plus rempli."
+      ],
+      "learningGoals": [
+        "Lire une contenance en litres sur une graduation.",
+        "Estimer une contenance et la comparer au relevé.",
+        "Comparer des contenances en se fiant au nombre lu, pas à la hauteur."
+      ]
+    },
     "mosaic-menders.area-match.3-md-c-6": {
       "about": [
         "Tessa est mosaïste : elle assemble de petits carreaux carrés, tous identiques, pour créer de belles mosaïques. Dans cette activité, votre enfant observe la mosaïque-modèle de Tessa, puis trois autres mosaïques, et touche celle qui est faite du même nombre de carreaux — c’est-à-dire celle qui a la même aire.",

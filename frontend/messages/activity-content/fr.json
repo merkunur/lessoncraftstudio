@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "wren-question-window.question-words.l-k-1-d": {
+      "about": [
+        "Au guichet de son petit restaurant, Wren, un petit oiseau, prend les commandes — mais il manque toujours un mot au début de sa question ! Votre enfant lit une question à trou, par exemple « ___ veux-tu manger ? », puis touche le bon mot interrogatif parmi six : Qui, Que, Où, Quand, Pourquoi, Comment. Ici, la réponse est « Que ». L'activité est gratuite, se joue directement dans le navigateur, sans rien installer.",
+        "L'idée est simple : chaque mot interrogatif demande quelque chose de précis. « Qui » interroge sur une personne, « Que » sur une chose, « Où » sur un lieu, « Quand » sur un moment, « Pourquoi » sur une raison et « Comment » sur une manière. En lisant bien la question posée au guichet, votre enfant repère ce qui manque et trouve le mot qui convient — celui qui commence la phrase et lui donne tout son sens.",
+        "Tout se fait sans pression : gratuit, sans chrono, sans points et sans compétition. Votre enfant lit et réfléchit à son rythme, essaie et recommence autant qu'il le souhaite. L'activité est alignée sur « les programmes officiels » et travaille la grammaire, l'étude de la langue, à l'école élémentaire — un premier pas pour reconnaître la phrase interrogative et le mot qui la commence."
+      ],
+      "practices": [
+        "Reconnaître les mots interrogatifs : qui, que, où, quand, pourquoi, comment",
+        "Comprendre que chaque mot interrogatif demande quelque chose de précis",
+        "Lire attentivement une question pour trouver le mot qui convient",
+        "Reconnaître la phrase interrogative"
+      ],
+      "howToPlay": [
+        "Lis la question au guichet de Wren",
+        "Cherche le petit mot qui manque au début",
+        "Touche le bon mot interrogatif"
+      ],
+      "learningGoals": [
+        "Votre enfant choisit le mot interrogatif qui convient à une question",
+        "Votre enfant sait que chaque mot interrogatif demande une personne, une chose, un lieu, un moment, une raison ou une manière",
+        "Votre enfant reconnaît une phrase interrogative"
+      ]
+    },
     "ziggy-odd-one-out.category.l-1-5-a": {
       "about": [
         "Ziggy le zèbre montre à votre enfant quatre images, chacune avec son mot écrit en dessous. Trois d'entre elles vont ensemble, et une seule ne va pas avec les autres : c'est l'intrus. Par exemple, un chien, un chat, un cochon et une pomme — les trois animaux forment une même famille, alors c'est la pomme qu'il faut trouver et toucher. L'activité est gratuite, se joue directement dans le navigateur sans rien installer, et propose 8 manches avec des catégories différentes : des animaux, des fruits, des vêtements, des véhicules, des plantes, des oiseaux, des objets et des insectes.",

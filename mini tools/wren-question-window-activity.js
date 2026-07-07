@@ -19,17 +19,25 @@
      Fragewort is sentence-initial (Satzanfang → Großschreibung). */
   var QWORD_DE = { person: 'Wer', thing: 'Was', place: 'Wo', time: 'Wann', reason: 'Warum', manner: 'Wie' };
   var CHIPS_DE = ['Wer', 'Was', 'Wo', 'Wann', 'Warum', 'Wie'];
-  function wqOracle(round) { return LANG === 'de' ? (QWORD_DE[round.asks] || '') : Core.oracle(round); }
-  function wqChips() { return LANG === 'de' ? CHIPS_DE.slice() : Core.chips(); }
+  /* French mots interrogatifs (0 lines to question-word-core.js). Capitalized —
+     sentence-initial. Chips drop in as canonical un-elided forms. */
+  var QWORD_FR = { person: 'Qui', thing: 'Que', place: 'Où', time: 'Quand', reason: 'Pourquoi', manner: 'Comment' };
+  var CHIPS_FR = ['Qui', 'Que', 'Où', 'Quand', 'Pourquoi', 'Comment'];
+  /* Per-locale maps (en falls to the English core). Behaviour-identical to the
+     prior LANG==='de' ternary for en/de. */
+  var QWORD_L10N = { de: QWORD_DE, fr: QWORD_FR };
+  var CHIPS_L10N = { de: CHIPS_DE, fr: CHIPS_FR };
+  function wqOracle(round) { var m = QWORD_L10N[LANG]; return m ? (m[round.asks] || '') : Core.oracle(round); }
+  function wqChips() { var c = CHIPS_L10N[LANG]; return c ? c.slice() : Core.chips(); }
   function wqIsAnswer(round, str) { return str === wqOracle(round); }
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = LANG === 'de' ? 'de-DE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
-  function sayable(s) { return String(s || '').replace(/___/g, LANG === 'de' ? 'Lücke' : 'blank'); }
+  function sayable(s) { return String(s || '').replace(/___/g, LANG === 'de' ? 'Lücke' : LANG === 'fr' ? 'trou' : 'blank'); }
 
   function wrenSVG(mood) {
     var happy = mood === 'happy';
@@ -48,13 +56,13 @@
     id: 'wren-question-window-activity',
 
     strings: {
-      title: { en: "Wren's Question Window", de: 'Wrens Fragefenster' },
-      prompt: { en: 'Which question word fits?', de: 'Welches Fragewort passt?' },
-      wrenIntro: { en: 'Help me ask it! Which question word fits?', de: 'Hallo, ich bin Wren! Jede Bestellung beginnt mit einer guten Frage.' },
-      theAsk: { en: 'Which word fills the blank?', de: 'Welches Fragewort passt in die Lücke?' },
-      hintPick: { en: 'Tap the question word that fits!', de: 'Tippe ein Fragewort an: Wer, Was, Wo, Wann, Warum oder Wie.' },
-      hintWrong: { en: "That word doesn't fit — read the question again.", de: 'Fast! Überlege: Fragt der Satz nach einer Person, einem Ding, einem Ort, einer Zeit oder einem Grund? Versuch es noch einmal.' },
-      win: { en: 'Yes! That is the right question word. ❓', de: 'Stark gefragt! Wren reicht dir dein Essen durch das Fenster. 🐦' }
+      title: { en: "Wren's Question Window", de: 'Wrens Fragefenster', fr: 'Wren au guichet des questions' },
+      prompt: { en: 'Which question word fits?', de: 'Welches Fragewort passt?', fr: 'Quel petit mot pose la question ?' },
+      wrenIntro: { en: 'Help me ask it! Which question word fits?', de: 'Hallo, ich bin Wren! Jede Bestellung beginnt mit einer guten Frage.', fr: '🐦 Aide-moi à poser ma question !' },
+      theAsk: { en: 'Which word fills the blank?', de: 'Welches Fragewort passt in die Lücke?', fr: 'Touche le mot qui va dans le trou.' },
+      hintPick: { en: 'Tap the question word that fits!', de: 'Tippe ein Fragewort an: Wer, Was, Wo, Wann, Warum oder Wie.', fr: 'Quel mot ? Qui, Que, Où, Quand, Pourquoi ou Comment ?' },
+      hintWrong: { en: "That word doesn't fit — read the question again.", de: 'Fast! Überlege: Fragt der Satz nach einer Person, einem Ding, einem Ort, einer Zeit oder einem Grund? Versuch es noch einmal.', fr: 'La question parle d’une personne, d’une chose, d’un lieu, d’un moment, d’une raison ou d’une manière ? Regarde encore !' },
+      win: { en: 'Yes! That is the right question word. ❓', de: 'Stark gefragt! Wren reicht dir dein Essen durch das Fenster. 🐦', fr: 'Bravo ! Ta question est parfaite ! 🐦' }
     },
     defaults: {},
 
@@ -70,7 +78,7 @@
 
     setupTask: function (round) {
       this.round = round; this.view = Core.childView(round); this.sel = null; this._spoke = false;
-      if (LANG === 'de') this.view.chips = CHIPS_DE.slice();
+      var _c = CHIPS_L10N[LANG]; if (_c) this.view.chips = _c.slice();
       this._chips = shuffle(this.view.chips.slice());
     },
 
@@ -87,7 +95,7 @@
 
       var sent = api.el('div', 'wqw-sent');
       var txt = api.el('span', 'wqw-senttxt'); txt.textContent = v.sentence; sent.appendChild(txt);
-      var sp = api.el('button', 'wqw-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'de' ? 'Frage anhören' : 'hear the question'); sp.textContent = '🔊';
+      var sp = api.el('button', 'wqw-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'de' ? 'Frage anhören' : LANG === 'fr' ? 'écouter la question' : 'hear the question'); sp.textContent = '🔊';
       sp.addEventListener('click', function () { speak(sayable(v.sentence)); }); sent.appendChild(sp);
       root.appendChild(sent);
 

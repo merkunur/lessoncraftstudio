@@ -66,7 +66,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'robin-mirror.reflexive.l-2-1-c': { de: '3', fr: '3' },                 // Reflexivpronomen → DE Klasse 3; FR: le pronom réfléchi qui varie avec le sujet = consolidation CE2 (au-dessus du pronom sujet CE1)
   'rusty-yesterday.irregular-past.l-2-1-d': { de: '3', fr: '3' },         // starke Verben Präteritum → DE Klasse 3; FR: passé composé irrégulier (résister à « faisé ») = consolidation CE2
   'roary-roar-meter.shades.l-2-5-b': { de: '3', fr: '3' },                // Bedeutungsnuancen → DE Klasse 3; FR: classer des synonymes par intensité = CE2 (au-dessus des contraires/synonymes simples de CE1)
-  'wren-question-window.question-words.l-k-1-d': { de: '1' },             // Fragewörter = Anfangsunterricht Klasse 1 (de chip „Klasse 1", NOT „Kindergarten"); en stays Kindergarten
+  'wren-question-window.question-words.l-k-1-d': { de: '1', fr: '2' },    // Fragewörter = DE Klasse 1 (mechanical K→1); FR: emploi écrit des 6 mots interrogatifs = CE1 attendu (maternelle=oral, CP=déchiffrage) — deliberately one notch above the DE bump
   'echo-grove.match-the-rune.3-oa-a-1': { de: '2' },                      // Multiplikation als gleiche Gruppen / kleines Einmaleins = DE Klasse 2 (US Grade 3 a year higher)
   'maple-bakery.share.3-oa-a-2': { de: '2' },                             // Division (Verteilen/Aufteilen, ohne Rest) introduced alongside Einmaleins = DE Klasse 2
   'comet-kangaroo.tens-hundreds.2-nbt-b-8': { de: '3' },                  // 10/100 mehr-weniger im ZR bis 1000 = DE Klasse 3 (Tausenderraum; Klasse 2 = bis 100)
@@ -437,7 +437,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.152';
+  const ACTIVITY_WRAPPER_VERSION = '9.153';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

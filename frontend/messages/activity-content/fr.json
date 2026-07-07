@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "line-plot.read.2-md-d-9": {
+      "about": [
+        "Shelly le bernard-l’ermite mesure des coquillages sur la plage, le long de la ligne de marée. Chaque coquillage a une longueur en centimètres, et votre enfant le place sur la droite graduée : un X apparaît au-dessus du bon nombre. Peu à peu, les X s’empilent et forment un diagramme des effectifs.",
+        "D’un seul coup d’œil, votre enfant apprend à lire ce diagramme : quelle est la longueur qui revient le plus souvent, combien de coquillages sont plus longs qu’une longueur donnée, et quel est l’écart entre le plus long et le plus court. Mesurer n’est plus une fin en soi : cela sert à construire des données, puis à les interroger.",
+        "Cette activité est gratuite, interactive et pensée pour le CE1. Il n’y a ni chronomètre ni points : votre enfant avance à son rythme, dans le domaine « Organisation et gestion de données » des programmes officiels."
+      ],
+      "practices": [
+        "Mesurer et lire des longueurs en centimètres.",
+        "Représenter des données sur un diagramme (un X au-dessus de la droite graduée).",
+        "Lire des effectifs : combien ? combien de plus ?",
+        "Comparer des longueurs : plus long que, l’écart entre deux coquillages."
+      ],
+      "howToPlay": [
+        "Regarde le coquillage et lis sa longueur, puis touche le bon nombre : un X apparaît sur la droite graduée.",
+        "En mode lecture, réponds aux questions sur le diagramme, par exemple quelle longueur revient le plus souvent.",
+        "Prends ton temps : il n’y a ni chronomètre ni points."
+      ],
+      "learningGoals": [
+        "Représenter des longueurs mesurées sur un diagramme des effectifs.",
+        "Lire la longueur la plus fréquente et combien de coquillages sont plus longs qu’une longueur donnée.",
+        "Déterminer l’écart entre le coquillage le plus long et le plus court."
+      ]
+    },
     "bundle-bot.bundle-machine.1-nbt-b-2-a": {
       "about": [
         "Bolt est un petit robot très ordonné : sur son tapis roulant, des unités seules sont éparpillées. Votre enfant les met une par une, compte jusqu’à dix, puis tire le levier — et Bolt presse les dix unités en une seule barre de dix. Dix unités deviennent une dizaine.",

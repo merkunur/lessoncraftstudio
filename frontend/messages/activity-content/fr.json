@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "cleo-packing-list.series-commas.l-1-2-b": {
+      "about": [
+        "Cléo le caméléon adore collectionner et tout ranger en listes. Dans cette activité, votre enfant découvre trois versions de la même phrase-liste — par exemple « Je prends des pommes, des poires et des prunes. » — et touche celle où les virgules sont à la bonne place. C'est gratuit, cela fonctionne directement dans le navigateur, sans rien installer et sans créer de compte.",
+        "La règle est simple à expliquer : dans une énumération, la virgule sépare les éléments de la liste, mais on ne met pas de virgule devant « et ». Ainsi « des pommes, des poires et des prunes » est correct, alors qu'une virgule avant « et » est l'erreur classique. C'est souvent la toute première règle de ponctuation que les enfants rencontrent, et la voir sur des exemples concrets aide beaucoup.",
+        "Ici, aucune pression : c'est gratuit, sans chrono, sans points et sans compétition. Votre enfant essaie autant de fois qu'il le souhaite et avance à son rythme. L'activité s'appuie sur les programmes officiels, dans le domaine de la ponctuation et de l'étude de la langue, à l'école élémentaire."
+      ],
+      "practices": [
+        "Reconnaître la virgule au bon endroit dans une liste",
+        "Appliquer la règle « pas de virgule devant et »",
+        "Comparer trois versions d'une même phrase et choisir la bonne",
+        "Gagner une première assurance en ponctuation"
+      ],
+      "howToPlay": [
+        "Lis les trois versions de la même liste",
+        "Observe où sont les virgules — et s'il y en a une devant « et »",
+        "Touche la version où toutes les virgules sont bien placées"
+      ],
+      "learningGoals": [
+        "Votre enfant comprend qu'une virgule sépare les éléments d'une liste",
+        "Votre enfant retient qu'on ne met pas de virgule devant « et »",
+        "Votre enfant compare des phrases avec attention et choisit la bonne écriture"
+      ]
+    },
     "hazel-word-bridge.joining-words.l-1-1-g": {
       "about": [
         "Avec Hazel le héron, votre enfant construit des ponts entre les mots. Une phrase en deux parties s'affiche avec un petit trou au milieu, et il faut choisir le mot de liaison qui relie le mieux les deux idées : et, ou, mais ou car. Chaque mot relie à sa façon — et ajoute, ou propose un choix, mais oppose, car donne une raison. C'est une activité de grammaire gratuite et interactive pour le CE2, qui fonctionne dans le navigateur, sans rien à installer.",

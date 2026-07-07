@@ -27,12 +27,29 @@
     for (var i = 0; i < 3; i++) { if (i === slot) out.push({ text: correct, ok: true }); else out.push({ text: foils[fi++], ok: false }); }
     return out;
   }
-  function cplChildView(r) { if (LANG !== 'de') return Core.childView(r); return { lead: r.lead, choices: deFormsOf(r).map(function (f, i) { return { id: i, text: f.text }; }) }; }
-  function cplGrade(r, id) { if (LANG !== 'de') return Core.grade(r, id); var f = deFormsOf(r)[id]; return !!f && !!f.ok; }
+  /* French list-comma forms (0 lines to series-comma-core.js): comma between
+     items, none before « et ». Mirrors the de recipe (und→et) — correct &
+     misplaced both carry 1 comma; misplaced puts it at the forbidden spot
+     before « et » (« pas de virgule devant et », programmes officiels). */
+  function frCorrect(r) { var i = r.items; return r.lead + ' ' + i[0] + ', ' + i[1] + ' et ' + i[2] + '.'; }
+  function frNocomma(r) { var i = r.items; return r.lead + ' ' + i[0] + ' ' + i[1] + ' et ' + i[2] + '.'; }
+  function frMisplaced(r) { var i = r.items; return r.lead + ' ' + i[0] + ' ' + i[1] + ', et ' + i[2] + '.'; }
+  function frFormsOf(r) {
+    var correct = frCorrect(r), foils = [frNocomma(r), frMisplaced(r)];
+    var slot = (((r.slot || 0) % 3) + 3) % 3, out = [], fi = 0;
+    for (var i = 0; i < 3; i++) { if (i === slot) out.push({ text: correct, ok: true }); else out.push({ text: foils[fi++], ok: false }); }
+    return out;
+  }
+  /* Per-locale forms builder (en falls to the English core; de/fr use their own
+     builders). Behaviour-identical to the prior `LANG!=='de'` guard for en/de. */
+  var FORMS_BUILDER = { de: deFormsOf, fr: frFormsOf };
+  function cplFormsOf(r) { var b = FORMS_BUILDER[LANG]; return b ? b(r) : null; }
+  function cplChildView(r) { var f = cplFormsOf(r); if (!f) return Core.childView(r); return { lead: r.lead, choices: f.map(function (x, i) { return { id: i, text: x.text }; }) }; }
+  function cplGrade(r, id) { var f = cplFormsOf(r); if (!f) return Core.grade(r, id); var x = f[id]; return !!x && !!x.ok; }
 
   function speak(text) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -51,13 +68,13 @@
     id: 'cleo-packing-list-activity',
 
     strings: {
-      title: { en: "Cleo's Packing List", de: 'Cleos Packliste' },
-      instruction: { en: 'Tap the list that has its commas in the right places.', de: 'Tippe die Liste mit den Kommas an der richtigen Stelle.' },
-      prompt: { en: 'Which list has the commas in the right places?', de: 'Welche Liste hat die Kommas an der richtigen Stelle?' },
-      cleoIntro: { en: 'A comma goes after each thing in a list!', de: 'Tipp von Cleo: Zwischen den Dingen steht ein Komma – aber nie vor „und"!' },
-      hintPick: { en: 'A comma comes after each item — and before the last "and".', de: 'Komma zwischen den Wörtern – aber KEIN Komma vor „und".' },
-      hintWrong: { en: 'Check each comma — one after each thing in the list.', de: 'Fast! Das Komma gehört zwischen die Wörter – nicht vor „und".' },
-      win: { en: 'Yes! The commas are just right. 🦎', de: 'Super – alle Kommas sitzen genau richtig! 🦎' }
+      title: { en: "Cleo's Packing List", de: 'Cleos Packliste', fr: 'Les virgules de Cléo' },
+      instruction: { en: 'Tap the list that has its commas in the right places.', de: 'Tippe die Liste mit den Kommas an der richtigen Stelle.', fr: 'Touche la liste où les virgules sont au bon endroit.' },
+      prompt: { en: 'Which list has the commas in the right places?', de: 'Welche Liste hat die Kommas an der richtigen Stelle?', fr: 'Quelle liste a les virgules au bon endroit ?' },
+      cleoIntro: { en: 'A comma goes after each thing in a list!', de: 'Tipp von Cleo: Zwischen den Dingen steht ein Komma – aber nie vor „und"!', fr: 'Une virgule entre les mots, jamais devant « et » !' },
+      hintPick: { en: 'A comma comes after each item — and before the last "and".', de: 'Komma zwischen den Wörtern – aber KEIN Komma vor „und".', fr: 'Mets une virgule entre les mots, pas devant « et ».' },
+      hintWrong: { en: 'Check each comma — one after each thing in the list.', de: 'Fast! Das Komma gehört zwischen die Wörter – nicht vor „und".', fr: 'La virgule va entre les mots, pas devant « et ».' },
+      win: { en: 'Yes! The commas are just right. 🦎', de: 'Super – alle Kommas sitzen genau richtig! 🦎', fr: 'Bravo ! Tes virgules sont parfaites ! 🦎' }
     },
     defaults: {},
 
@@ -136,7 +153,7 @@
         + '.cpl-opt.cpl-sel{border-color:' + C.CORAL + ';box-shadow:0 0 0 3px rgba(242,120,75,.34);background:#FFF6F1;color:' + C.CORAL2 + ';transform:translateY(-2px);}'
         + '.cpl-opt:active{transform:translateY(1px);}'
         + '.cpl-opt:focus-visible{outline:3px solid var(--lcs-focus,#1E8FD4);outline-offset:2px;}'
-        + '@media (max-height:920px){.cpl-root{gap:clamp(7px,1.7vw,11px);}.cpl-cham{width:clamp(42px,8vw,52px);}.cpl-opt{min-height:48px;}}'
+        + '@media (max-height:920px){.cpl-root{gap:clamp(6px,1.5vw,9px);}.cpl-cham{width:clamp(42px,8vw,52px);}.cpl-opts{gap:clamp(6px,1.5vw,8px);}.cpl-opt{min-height:46px;padding:8px 15px;}}'
         + '@media (max-height:700px){.cpl-root{gap:7px;padding:12px;}.cpl-row{display:none;}.cpl-opt{min-height:46px;padding:10px 14px;font-size:15px;}}'
         + '@media (max-height:640px){.cpl-root{gap:6px;padding:10px;}.cpl-opt{min-height:44px;font-size:14.5px;}}'
         + '@media (max-width:380px){.cpl-opt{font-size:14.5px;}}';

@@ -61,7 +61,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'pronoun.case.l-1-1-d': { de: '3', fr: '3' },                           // case-correct pronoun-form choice (er/ihn) → DE Klasse 3 (Fall-arbeit is Klasse 3/4); FR CE2 (les pronoms sujets = CE1, but the COD/object form me/te/le is the CE2 attendu — the activity's central difficulty)
   'olive-kind-of.category-attribute.l-1-5-b': { de: '2', fr: '2' },       // Oberbegriff/Hyperonym abstraction → DE Klasse 2 (EN Grade 1 placement doesn't transfer); FR CE1 (catégoriser / le mot générique vs particulier = attendu CE1, réflexif, past CP naming)
   'vera-verb-match.be-agreement.l-1-1-c': { de: '2', fr: '2' },           // reflective Subjekt-Verb-Kongruenz (bin/ist/sind) → DE Klasse 2 (K-1 kids speak it; the grammar task is Klasse 2); FR CE1 (l'accord sujet-verbe / conjuguer être au présent = attendu CE1, réflexif, past CP oral use)
-  'hazel-word-bridge.joining-words.l-1-1-g': { de: '3' },                 // selection-by-meaning across 4 Bindewörter incl. causal „denn" + Pflichtkomma → DE Klasse 3
+  'hazel-word-bridge.joining-words.l-1-1-g': { de: '3', fr: '3' },        // selection-by-meaning across 4 Bindewörter incl. causal „denn" + Pflichtkomma → DE Klasse 3; FR: coordination + car + comma-before-mais/car → CE2
   'cleo-packing-list.series-commas.l-1-2-b': { de: '3' },                 // Komma bei Aufzählung = first comma rule, DE Lehrplan Klasse 3 (K1/2 = only Satzschlusszeichen)
   'robin-mirror.reflexive.l-2-1-c': { de: '3' },                          // Reflexivpronomen as a category (beuge zur Person) → DE Klasse 3 (US Grade 2 too low)
   'rusty-yesterday.irregular-past.l-2-1-d': { de: '3' },                  // starke-vs-schwache Verben + Präteritum form-building → DE Klasse 3
@@ -436,7 +436,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.145';
+  const ACTIVITY_WRAPPER_VERSION = '9.146';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

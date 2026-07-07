@@ -192,6 +192,28 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "hazel-word-bridge.joining-words.l-1-1-g": {
+      "about": [
+        "Avec Hazel le héron, votre enfant construit des ponts entre les mots. Une phrase en deux parties s'affiche avec un petit trou au milieu, et il faut choisir le mot de liaison qui relie le mieux les deux idées : et, ou, mais ou car. Chaque mot relie à sa façon — et ajoute, ou propose un choix, mais oppose, car donne une raison. C'est une activité de grammaire gratuite et interactive pour le CE2, qui fonctionne dans le navigateur, sans rien à installer.",
+        "Le cœur de l'activité, c'est d'écouter le SENS de la phrase plutôt que de deviner. Pour trouver le bon mot de liaison, l'enfant relit les deux parties et se demande comment elles vont ensemble : est-ce que la seconde ajoute quelque chose, propose une autre possibilité, s'oppose à la première, ou en donne la cause ? Une petite virgule avant le trou aide aussi : on l'écrit devant mais et car, mais pas devant et ni ou. En reliant ainsi les idées, l'enfant travaille la coordination et la ponctuation de la phrase, en lien avec les programmes officiels. À son rythme, sans note ni chrono."
+      ],
+      "practices": [
+        "Choisir la bonne conjonction de coordination — et, ou, mais, car — selon le sens de la phrase.",
+        "Comprendre que chaque mot de liaison relie autrement : ajouter, proposer un choix, opposer, donner une raison.",
+        "Repérer la virgule qui s'écrit devant mais et car, mais pas devant et ni ou.",
+        "Relire toute la phrase avant de choisir, plutôt que de deviner au hasard."
+      ],
+      "howToPlay": [
+        "Lis les deux parties de la phrase, avec le petit trou au milieu.",
+        "Touche le mot de liaison — et, ou, mais ou car — qui relie le mieux les deux idées.",
+        "Pas tout à fait ? Réessaie autant de fois que tu veux — il n'y a ni chrono ni score."
+      ],
+      "learningGoals": [
+        "Employer les conjonctions de coordination pour relier deux idées dans une phrase.",
+        "Distinguer l'ajout, le choix, l'opposition et la cause d'après le sens.",
+        "Associer la ponctuation — la virgule devant mais et car — à la construction de la phrase."
+      ]
+    },
     "vera-verb-match.be-agreement.l-1-1-c": {
       "about": [
         "Dans cette activité, votre enfant retrouve Vera, un petit campagnol, qui lui présente de courtes phrases à trou comme « Le chien ___ dans le jardin. ». Il choisit la bonne forme du verbe être parmi trois cartes : suis, est ou sont.",

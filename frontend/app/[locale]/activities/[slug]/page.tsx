@@ -59,7 +59,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'tense.past-present-future.l-1-1-e': { de: '2', fr: '2' },              // Zeitformen 3-way contrast + werden-future → DE Klasse 2 (Klasse 1 = nur Gegenwart); FR CE1 (présent seul = CP, la conjugaison systématique imparfait+futur simple = attendu CE1)
   'sentence-builder.build-a-sentence.l-1-1-j': { de: '2', fr: '2' },      // Satzbau/Wortreihenfolge reorder task → DE Klasse 2 (mastery by end of Klasse 2); FR CE1 (l'accord dans le groupe nominal — le chat noir — = attendu CE1, past CP word-order-only)
   'pronoun.case.l-1-1-d': { de: '3', fr: '3' },                           // case-correct pronoun-form choice (er/ihn) → DE Klasse 3 (Fall-arbeit is Klasse 3/4); FR CE2 (les pronoms sujets = CE1, but the COD/object form me/te/le is the CE2 attendu — the activity's central difficulty)
-  'olive-kind-of.category-attribute.l-1-5-b': { de: '2' },                // Oberbegriff/Hyperonym abstraction → DE Klasse 2 (EN Grade 1 placement doesn't transfer)
+  'olive-kind-of.category-attribute.l-1-5-b': { de: '2', fr: '2' },       // Oberbegriff/Hyperonym abstraction → DE Klasse 2 (EN Grade 1 placement doesn't transfer); FR CE1 (catégoriser / le mot générique vs particulier = attendu CE1, réflexif, past CP naming)
   'vera-verb-match.be-agreement.l-1-1-c': { de: '2' },                    // reflective Subjekt-Verb-Kongruenz (bin/ist/sind) → DE Klasse 2 (K-1 kids speak it; the grammar task is Klasse 2)
   'hazel-word-bridge.joining-words.l-1-1-g': { de: '3' },                 // selection-by-meaning across 4 Bindewörter incl. causal „denn" + Pflichtkomma → DE Klasse 3
   'cleo-packing-list.series-commas.l-1-2-b': { de: '3' },                 // Komma bei Aufzählung = first comma rule, DE Lehrplan Klasse 3 (K1/2 = only Satzschlusszeichen)
@@ -143,7 +143,7 @@ const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'mosaic-menders.area-match.3-md-c-6': { de: 'Raum und Form' },    // Flächeninhalt = Raum und Form in KMK, not Größen und Messen
   'patchwork-meadow.tile.3-md-c-6': { de: 'Raum und Form' },        // Flächeninhalt durch Auslegen = Raum und Form (sibling of mosaic-menders)
   'digby-number-trace.numeral-formation.k-cc-a-3': { de: 'Zahlen und Operationen' },  // numeral WRITING = Zahldarstellung (NOT the reading sibling pips-round's „Zählen und Mengen")
-  'olive-kind-of.category-attribute.l-1-5-b': { de: 'Wortschatz untersuchen' }, // Oberbegriffe = Wortschatzarbeit, not Grammatik („Sprache untersuchen")
+  'olive-kind-of.category-attribute.l-1-5-b': { de: 'Wortschatz untersuchen', fr: 'Le lexique' }, // Oberbegriffe = Wortschatzarbeit, not Grammatik („Sprache untersuchen"); FR catégoriser/le mot générique = LE LEXIQUE (vocabulaire), beside affix/sage; en falls through to Language
   'cleo-packing-list.series-commas.l-1-2-b': { de: 'Richtig schreiben' }, // Zeichensetzung = orthography/Rechtschreiben, not „Sprache untersuchen"
   'wally-capital-crane.special-names.l-2-2-a': { de: 'Richtig schreiben' }, // Nomen-Großschreibung = orthography/Rechtschreiben, not „Sprache untersuchen"
   'roary-roar-meter.shades.l-2-5-b': { de: 'Wortschatz untersuchen' },    // Bedeutungsnuancen = vocabulary work, not grammar
@@ -436,7 +436,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.143';
+  const ACTIVITY_WRAPPER_VERSION = '9.144';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

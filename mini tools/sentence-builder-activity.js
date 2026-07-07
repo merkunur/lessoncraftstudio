@@ -32,6 +32,13 @@
       win: 'Du hast einen Satz gebaut!',
       hintFill: 'Nutze alle Wörter – fülle jedes Feld.',
       hintOrder: 'Noch kein Satz – fang mit Der, Die oder Das an, setze den Punkt ans Ende und bau einen sinnvollen Satz.'
+    },
+    fr: {
+      q: 'Mets les mots dans le bon ordre.',
+      hear: '🔊 Écouter',
+      win: 'Tu as construit une phrase !',
+      hintFill: 'Utilise tous les mots — remplis chaque case.',
+      hintOrder: 'Ce n’est pas encore une phrase — commence par « Le » ou « La », mets le point à la fin, et fais une phrase qui a du sens.'
     }
   };
   function txt(k) { return (L[LANG] && L[LANG][k]) || L.en[k] || k; }
@@ -55,11 +62,11 @@
   var SentenceBuilderActivity = {
     id: 'sentence-builder-activity',
     strings: {
-      title: { en: "Wiggles' Sentence Builder", de: 'Wiggles baut Sätze' },
-      instruction: { en: 'Tap the words to put them in order and build a sentence.', de: 'Tippe die Wörter an und bringe sie in die richtige Reihenfolge, um einen Satz zu bauen.' },
-      q: { en: '{q}', de: '{q}' },
-      hintFill: { en: 'Use all the words — fill every box.', de: 'Nutze alle Wörter – fülle jedes Feld.' },
-      hintOrder: { en: 'Not a sentence yet — start with the capital word, end with the period, and make it make sense.', de: 'Noch kein Satz – fang mit Der, Die oder Das an, setze den Punkt ans Ende und bau einen sinnvollen Satz.' }
+      title: { en: "Wiggles' Sentence Builder", de: 'Wiggles baut Sätze', fr: 'Wiggles construit des phrases' },
+      instruction: { en: 'Tap the words to put them in order and build a sentence.', de: 'Tippe die Wörter an und bringe sie in die richtige Reihenfolge, um einen Satz zu bauen.', fr: 'Touche les mots et mets-les dans le bon ordre pour construire une phrase.' },
+      q: { en: '{q}', de: '{q}', fr: '{q}' },
+      hintFill: { en: 'Use all the words — fill every box.', de: 'Nutze alle Wörter – fülle jedes Feld.', fr: 'Utilise tous les mots — remplis chaque case.' },
+      hintOrder: { en: 'Not a sentence yet — start with the capital word, end with the period, and make it make sense.', de: 'Noch kein Satz – fang mit Der, Die oder Das an, setze den Punkt ans Ende und bau einen sinnvollen Satz.', fr: 'Ce n’est pas encore une phrase — commence par « Le » ou « La », mets le point à la fin, et fais une phrase qui a du sens.' }
     },
 
     init: function (api) {
@@ -232,6 +239,8 @@
       var wrap = el('div', 'snt-sronly'); wrap.setAttribute('aria-live', 'polite');
       var msg = LANG === 'de'
         ? ('Baue einen Satz. Die Wörter sind: ' + this._tiles.join(', ') + '.')
+        : LANG === 'fr'
+        ? ('Construis une phrase. Les mots sont : ' + this._tiles.join(', ') + '.')
         : ('Build a sentence. The words are: ' + this._tiles.join(', ') + '.');
       wrap.innerHTML = '<p>' + msg + '</p>';
       return wrap;

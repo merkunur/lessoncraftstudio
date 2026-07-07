@@ -28,20 +28,34 @@
           { "id": "snt-hen", "seed": 41, "canonical": ["Die", "braune", "Henne", "pickt."], "subject": { "noun": "hen", "themeDir": "birds 2", "label": "die Henne" } },
           { "id": "snt-fish", "seed": 71, "canonical": ["Der", "bunte", "Fisch", "schwimmt."], "subject": { "noun": "fish", "themeDir": "animals", "label": "der Fisch" } },
           { "id": "snt-flower", "seed": 83, "canonical": ["Die", "rote", "Blume", "blüht."], "subject": { "noun": "flower", "themeDir": "spring", "label": "die Blume" } }
+        ],
+        "fr": [
+          { "id": "snt-dog", "seed": 11, "canonical": ["Le", "chien", "brun", "aboie."], "subject": { "noun": "dog", "themeDir": "animals", "label": "le chien" } },
+          { "id": "snt-cat", "seed": 23, "canonical": ["Le", "chat", "noir", "dort."], "subject": { "noun": "cat", "themeDir": "animals", "label": "le chat" } },
+          { "id": "snt-sun", "seed": 31, "canonical": ["Le", "soleil", "jaune", "brille."], "subject": { "noun": "sun", "themeDir": "beach", "label": "le soleil" } },
+          { "id": "snt-bus", "seed": 53, "canonical": ["Le", "bus", "rouge", "roule."], "subject": { "noun": "bus", "themeDir": "vehicles", "label": "le bus" } },
+          { "id": "snt-frog", "seed": 61, "canonical": ["La", "grenouille", "verte", "saute."], "subject": { "noun": "frog", "themeDir": "camping", "label": "la grenouille" } },
+          { "id": "snt-pig", "seed": 67, "canonical": ["Le", "cochon", "rose", "grogne."], "subject": { "noun": "pig", "themeDir": "animals", "label": "le cochon" } },
+          { "id": "snt-hen", "seed": 41, "canonical": ["La", "poule", "brune", "picore."], "subject": { "noun": "hen", "themeDir": "birds 2", "label": "la poule" } },
+          { "id": "snt-fish", "seed": 71, "canonical": ["Le", "poisson", "rouge", "nage."], "subject": { "noun": "fish", "themeDir": "animals", "label": "le poisson" } },
+          { "id": "snt-flower", "seed": 83, "canonical": ["La", "fleur", "bleue", "pousse."], "subject": { "noun": "flower", "themeDir": "spring", "label": "la fleur" } }
         ]
       }
     },
     "slug": {
       "en": "build-a-sentence-word-order",
-      "de": "saetze-bauen-klasse-2"
+      "de": "saetze-bauen-klasse-2",
+      "fr": "construire-une-phrase-ordre-des-mots-ce1"
     },
     "page_title": {
       "en": "Wiggles' Sentence Builder — Build a Sentence (Grade 1)",
-      "de": "Wiggles baut Sätze: Wörter ordnen und Satzbau üben (Klasse 2)"
+      "de": "Wiggles baut Sätze: Wörter ordnen und Satzbau üben (Klasse 2)",
+      "fr": "Construire une phrase : l’ordre des mots – CE1"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 grammar activity: put the scrambled words in the right order to build a complete sentence — a capital letter to start, a noun and a verb in the middle, and a period at the end. Wiggles the caterpillar helps children produce simple, complete sentences. Common Core L.1.1.j (and L.K.1.b nouns and verbs).",
-      "de": "Bringe mit Wiggles die Wörter in die richtige Reihenfolge und baue einen vollständigen Satz – mit Großbuchstabe, Wortreihenfolge und Punkt. Kostenlose, interaktive Übung für Klasse 2."
+      "de": "Bringe mit Wiggles die Wörter in die richtige Reihenfolge und baue einen vollständigen Satz – mit Großbuchstabe, Wortreihenfolge und Punkt. Kostenlose, interaktive Übung für Klasse 2.",
+      "fr": "Wiggles la chenille montre une image et des mots mélangés : ton enfant les remet dans l’ordre pour construire une phrase. Gratuit et interactif, CE1."
     },
     "kid_prompt_template": "sentence-builder"
   }

@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "plural.irregular.l-2-1-b": {
+      "about": [
+        "Perle, la lune de l’étang, montre à votre enfant un nom au singulier — « cheval », « bijou », « château ». Sous le mot apparaissent trois formes : à lui de toucher le bon pluriel.",
+        "Le jeu travaille les pluriels irréguliers du français, ceux qui ne s’écrivent pas avec un simple -s : cheval → chevaux, bijou → bijoux, jeu → jeux, château → châteaux. Le mot change vraiment, et c’est justement là que se glissent les erreurs classiques — « chevals », « bijous », « châteaus » — que votre enfant apprend ici à repérer et à éviter.",
+        "L’activité est gratuite, interactive et pensée pour le niveau CE1, dans le domaine « Étude de la langue ». Sans chrono ni points : votre enfant observe, essaie, recommence à son rythme, en accord avec les programmes officiels."
+      ],
+      "practices": [
+        "Former le pluriel des noms en -al, -ou, -eu et -eau.",
+        "Reconnaître que certains noms changent au pluriel (cheval → chevaux, jeu → jeux).",
+        "Écarter les formes fausses : le mot inchangé et le simple -s.",
+        "Comparer le singulier et le pluriel d’un même nom."
+      ],
+      "howToPlay": [
+        "Regarde le nom au singulier que Perle te montre.",
+        "Lis les trois formes et cherche le bon pluriel.",
+        "Touche la bonne forme — tu peux réessayer autant que tu veux."
+      ],
+      "learningGoals": [
+        "Former sûrement le pluriel des noms irréguliers.",
+        "Comprendre que le mot change et ne prend pas un simple -s.",
+        "Observer la langue et distinguer le singulier du pluriel — un pas dans « Étude de la langue »."
+      ]
+    },
     "hoppers-number-line.jump-sums.2-md-b-6": {
       "about": [
         "Hopper la grenouille adore sauter, mais ici ses sauts servent à calculer. La droite graduée devient un véritable modèle de calcul : votre enfant touche le nombre de départ, choisit la direction du saut, puis choisit sa longueur et lit le nombre d’arrivée.",

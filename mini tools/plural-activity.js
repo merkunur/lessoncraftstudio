@@ -35,6 +35,14 @@
       nChange: '‚{sing}‘ ist ein besonderes Wort – es bekommt einen Umlaut. Schau noch mal!',
       nNoChange: '‚{sing}‘ bleibt gleich – häng kein -s an! Schau noch mal!',
       srMirror: '{q} Das Wort ist ‚{sing}‘. Auswahl: {chips}.'
+    },
+    fr: {
+      q: '{q}',
+      win: 'Oui ! {note}', winNote: 'un pluriel spécial — ni le mot inchangé, ni juste un -s !',
+      hear: '🔊 Écoute',
+      nChange: '« {sing} » est un mot spécial — son pluriel change. Regarde bien !',
+      nNoChange: '« {sing} » ne prend pas juste un -s. Regarde encore !',
+      srMirror: '{q} Le mot est « {sing} ». Choix : {chips}.'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -55,9 +63,9 @@
   var PluralActivity = {
     id: 'plural-activity',
     strings: {
-      title: { en: 'The Doubling Pond', de: 'Pearls Mehrzahl-Teich' },
-      instruction: { en: 'Pick the right plural — the special word, not the lazy +s!', de: 'Tippe die richtige Mehrzahl – das besondere Wort mit Umlaut, nicht einfach mit -s!' },
-      q: { en: '{q}', de: '{q}' }
+      title: { en: 'The Doubling Pond', de: 'Pearls Mehrzahl-Teich', fr: 'L’étang de Perle : les pluriels' },
+      instruction: { en: 'Pick the right plural — the special word, not the lazy +s!', de: 'Tippe die richtige Mehrzahl – das besondere Wort mit Umlaut, nicht einfach mit -s!', fr: 'Touche le bon pluriel — la forme spéciale, pas seulement un -s !' },
+      q: { en: '{q}', de: '{q}', fr: '{q}' }
     },
 
     init: function (api) {
@@ -169,7 +177,7 @@
       /* Hear it */
       var self = this, hear = el('button', 'pl-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
-        var t = LANG === 'de' ? ('Mehr als ein ‚' + round.singular + '‘. Welche Mehrzahl ist richtig?') : ('More than one ' + round.singular + '. Which one is right?');
+        var t = LANG === 'de' ? ('Mehr als ein ‚' + round.singular + '‘. Welche Mehrzahl ist richtig?') : LANG === 'fr' ? ('Plus d’un « ' + round.singular + ' ». Quel est le bon pluriel ?') : ('More than one ' + round.singular + '. Which one is right?');
         if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: LANG, rate: 0.92 }); } catch (e) { } }
       });
       root.appendChild(hear);
@@ -202,7 +210,7 @@
       this._resolved = true; this._finds += 1;
       if (this._app) this._app.classList.add('pearl-resolved');
       this.render();
-      var note = this._round.rule === 'no-change' ? (LANG === 'de' ? ('‚' + this._round.singular + '‘ bleibt gleich – schon viele!') : (this._round.singular + ' stays the same — already many!')) : txt('winNote');
+      var note = this._round.rule === 'no-change' ? (LANG === 'de' ? ('‚' + this._round.singular + '‘ bleibt gleich – schon viele!') : LANG === 'fr' ? ('« ' + this._round.singular + ' » ne change pas — déjà plusieurs !') : (this._round.singular + ' stays the same — already many!')) : txt('winNote');
       var line = this._api.stage.querySelector('.pl-line-msg');
       if (line) { line.textContent = txt('win', { note: note }); line.classList.remove('miss'); }
       this._api.sound && this._api.sound(880);

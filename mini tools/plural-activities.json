@@ -28,20 +28,34 @@
           { "id": "pl-zahn",  "singular": "Zahn",  "rule": "vowel-change", "ruleSpec": { "from": "ahn", "to": "ähne" },   "family": "umlaut-e",    "q": "Wie heißt die Mehrzahl von ‚Zahn‘?" },
           { "id": "pl-stuhl", "singular": "Stuhl", "rule": "vowel-change", "ruleSpec": { "from": "uhl", "to": "ühle" },   "family": "umlaut-e",    "q": "Wie heißt die Mehrzahl von ‚Stuhl‘?" },
           { "id": "pl-wald",  "singular": "Wald",  "rule": "vowel-change", "ruleSpec": { "from": "ald", "to": "älder" },  "family": "umlaut-er",   "q": "Wie heißt die Mehrzahl von ‚Wald‘?" }
+        ],
+        "fr": [
+          { "id": "pl-cheval",  "singular": "cheval",  "rule": "vowel-change", "ruleSpec": { "from": "al", "to": "aux" },   "family": "al-aux",     "q": "Quel est le pluriel de « cheval » ?" },
+          { "id": "pl-animal",  "singular": "animal",  "rule": "vowel-change", "ruleSpec": { "from": "al", "to": "aux" },   "family": "al-aux",     "q": "Quel est le pluriel de « animal » ?" },
+          { "id": "pl-journal", "singular": "journal", "rule": "vowel-change", "ruleSpec": { "from": "al", "to": "aux" },   "family": "al-aux",     "q": "Quel est le pluriel de « journal » ?" },
+          { "id": "pl-bijou",   "singular": "bijou",   "rule": "vowel-change", "ruleSpec": { "from": "ou", "to": "oux" },   "family": "ou-oux",     "q": "Quel est le pluriel de « bijou » ?" },
+          { "id": "pl-genou",   "singular": "genou",   "rule": "vowel-change", "ruleSpec": { "from": "ou", "to": "oux" },   "family": "ou-oux",     "q": "Quel est le pluriel de « genou » ?" },
+          { "id": "pl-hibou",   "singular": "hibou",   "rule": "vowel-change", "ruleSpec": { "from": "ou", "to": "oux" },   "family": "ou-oux",     "q": "Quel est le pluriel de « hibou » ?" },
+          { "id": "pl-jeu",     "singular": "jeu",     "rule": "vowel-change", "ruleSpec": { "from": "eu", "to": "eux" },   "family": "eu-eux",     "q": "Quel est le pluriel de « jeu » ?" },
+          { "id": "pl-feu",     "singular": "feu",     "rule": "vowel-change", "ruleSpec": { "from": "eu", "to": "eux" },   "family": "eu-eux",     "q": "Quel est le pluriel de « feu » ?" },
+          { "id": "pl-chateau", "singular": "château", "rule": "vowel-change", "ruleSpec": { "from": "eau", "to": "eaux" }, "family": "eau-eaux",   "q": "Quel est le pluriel de « château » ?" }
         ]
       }
     },
     "slug": {
       "en": "irregular-plural-nouns",
-      "de": "mehrzahl-mit-umlaut-klasse-2"
+      "de": "mehrzahl-mit-umlaut-klasse-2",
+      "fr": "le-pluriel-des-noms-irreguliers-ce1"
     },
     "page_title": {
       "en": "The Doubling Pond — Irregular Plural Nouns (Grade 2)",
-      "de": "Pearls Mehrzahl-Teich – Mehrzahl mit Umlaut bilden (Klasse 2)"
+      "de": "Pearls Mehrzahl-Teich – Mehrzahl mit Umlaut bilden (Klasse 2)",
+      "fr": "Le pluriel des noms irréguliers (-al → -aux) — CE1"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 grammar activity: at Pearl's Doubling Pond, some words change in a special way when there is more than one — foot becomes feet, child becomes children, and a few (like deer and sheep) stay the same. Read the word, then pick the right plural — not the lazy +s. A friendly first look at irregular plural nouns. Common Core L.2.1.b.",
-      "de": "Bilde mit Pearl die Mehrzahl mit Umlaut: aus Baum wird Bäume, aus Mann wird Männer. Wähle die richtige Form – kostenlos, interaktiv und ideal für Klasse 2."
+      "de": "Bilde mit Pearl die Mehrzahl mit Umlaut: aus Baum wird Bäume, aus Mann wird Männer. Wähle die richtige Form – kostenlos, interaktiv und ideal für Klasse 2.",
+      "fr": "Former le pluriel des noms irréguliers avec Perle : cheval→chevaux, bijou→bijoux, jeu→jeux. Activité gratuite et interactive, niveau CE1."
     },
     "kid_prompt_template": "plural"
   }

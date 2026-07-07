@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "sentence-clinic.fix-it.l-2-1": {
+      "about": [
+        "Le Dr. Plume, un hibou plein de patience, tient une petite clinique des phrases. Dans chaque phrase, une seule chose s’est cachée de travers : une majuscule oubliée, un point manquant, ou un verbe qui ne va pas encore avec son sujet.",
+        "Votre enfant lit la phrase, cherche ce qui cloche, puis la répare tranquillement : il met la majuscule au début, le point à la fin, choisit le bon verbe (le chien court, pas « courent ») ou remet les mots dans le bon ordre. Une seule erreur par phrase, une seule chose à la fois — sans stress.",
+        "Cette activité est gratuite, interactive et pensée pour le CE1, dans le domaine « Étude de la langue ». Sans chronomètre et sans points, votre enfant révise une phrase à son rythme, en accord avec les programmes officiels."
+      ],
+      "practices": [
+        "Réviser une phrase : trouver et corriger une seule erreur.",
+        "Mettre la majuscule au début et le point à la fin.",
+        "Accorder le verbe avec le sujet (le chat dort).",
+        "Remettre les mots dans le bon ordre."
+      ],
+      "howToPlay": [
+        "Lis la phrase et cherche ce qui ne va pas.",
+        "Corrige-la : une majuscule, un point, le bon verbe ou le bon ordre.",
+        "Touche Vérifier ; si ce n’est pas encore ça, réessaie tranquillement."
+      ],
+      "learningGoals": [
+        "Repérer et corriger une erreur simple dans une phrase.",
+        "Consolider la majuscule, le point et l’accord sujet-verbe.",
+        "Soigner l’ordre des mots pour une phrase claire."
+      ]
+    },
     "pronoun.case.l-1-1-d": {
       "about": [
         "Hattie, un lièvre malicieux, tient une petite boutique de chapeaux. Dans chaque phrase, il manque un mot : votre enfant regarde deux mots et touche celui qui va vraiment dans la phrase.",

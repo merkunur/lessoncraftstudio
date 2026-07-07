@@ -19,16 +19,27 @@
 
   var Core = global.WordclassCore;
 
+  var LANG = 'en';   /* content locale, set from api.lang in init() */
+
   var L = {
     en: {
       q: '{q}',
       win: 'Yes! {note}', winNote: 'That word fits!',
       hear: '🔊 Hear it',
       nNoun: '"{adv}" tells how an ACTION happens. The blank describes {target} — a THING. Pick the describing word!',
-      nVerb: '"{adj}" describes a THING. The blank tells HOW {target} happened — an ACTION. Pick the -ly word!'
+      nVerb: '"{adj}" describes a THING. The blank tells HOW {target} happened — an ACTION. Pick the -ly word!',
+      blankWord: 'blank', srSentence: 'Sentence:', srChoices: 'Choices:'
+    },
+    fr: {
+      q: '{q}',
+      win: 'Oui ! {note}', winNote: 'Ce mot va bien !',
+      hear: '🔊 Écouter',
+      nNoun: '« {adv} » dit COMMENT on fait une action. Mais ici, le mot décrit « {target} ». Choisis le mot qui décrit !',
+      nVerb: '« {adj} » décrit quelque chose ou quelqu’un. Mais ici, le mot dit COMMENT l’action « {target} » se passe. Choisis le mot en « -ment » !',
+      blankWord: 'trou', srSentence: 'Phrase :', srChoices: 'Choix :'
     }
   };
-  function txt(k, a) { var s = L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
+  function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
 
   function glimSVG() {
@@ -44,13 +55,14 @@
   var WordclassActivity = {
     id: 'wordclass-activity',
     strings: {
-      title: { en: "Glim's Describing Words" },
-      instruction: { en: 'Read the sentence, then pick the describing word that fits!' },
-      q: { en: '{q}' }
+      title: { en: "Glim's Describing Words", fr: 'Glim et les mots qui décrivent' },
+      instruction: { en: 'Read the sentence, then pick the describing word that fits!', fr: 'Lis la phrase, puis touche le mot qui va bien dans le trou.' },
+      q: { en: '{q}', fr: '{q}' }
     },
 
     init: function (api) {
       this._api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = []; this._order = null; this._orderForPool = null; this._curPass = 0;
       this._finds = 0; this._round = null; this._resolved = false; this._token = 0;
       this._nonConf = {}; this._lit = null; this._chipOrder = null; this._filled = null;
@@ -96,7 +108,7 @@
           .then(function (rows) {
             var row = rows.find(function (x) { return x.id === id; }) || rows[0];
             self._activityRow = row;
-            self._pool = (row && row.params && row.params.rounds) || [];
+            self._pool = (row && row.params && ((row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds)) || [];
             self._order = null; self._orderForPool = null; self._curPass = 0;
             if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask();
           }).catch(function () { attempt(i + 1); });
@@ -142,7 +154,7 @@
       var parts = String(round.sentence).split('___');
       sent.appendChild(document.createTextNode(parts[0] || ''));
       var blank = el('span', 'wc-blank' + (this._filled ? ' filled' : ''));
-      blank.textContent = this._filled ? this._filled : '    ';
+      blank.textContent = this._filled ? this._filled : '    ';
       sent.appendChild(blank);
       sent.appendChild(document.createTextNode(parts[1] || ''));
       root.appendChild(sent);
@@ -156,8 +168,8 @@
       /* Hear it */
       var self = this, hear = el('button', 'wc-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
-        var t = String(round.sentence).replace('___', 'blank') + ' ' + round.q;
-        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: 'en', rate: 0.92 }); } catch (e) { } }
+        var t = String(round.sentence).replace('___', txt('blankWord')) + ' ' + round.q;
+        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: LANG === 'fr' ? 'fr-FR' : 'en', rate: 0.92 }); } catch (e) { } }
       });
       root.appendChild(hear);
 
@@ -208,7 +220,7 @@
 
     _srMirror: function (round) {
       var f = round.forms || {}, wrap = el('div', 'wc-sronly'); wrap.setAttribute('aria-live', 'polite');
-      wrap.innerHTML = '<p>Sentence: ' + String(round.sentence).replace('___', 'blank') + ' ' + round.q + ' Choices: ' + f.adjective + ', ' + f.adverb + '.</p>';
+      wrap.innerHTML = '<p>' + txt('srSentence') + ' ' + String(round.sentence).replace('___', txt('blankWord')) + ' ' + round.q + ' ' + txt('srChoices') + ' ' + f.adjective + ', ' + f.adverb + '.</p>';
       return wrap;
     },
 

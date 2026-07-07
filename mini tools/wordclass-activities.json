@@ -17,16 +17,33 @@
         { "id": "wc-v3", "targetKind": "verb", "base": "soft",   "target": "sang",   "sentence": "She sang ___.",               "q": "Which word tells how she sang?",          "forms": { "adjective": "soft",   "adverb": "softly"   } },
         { "id": "wc-v4", "targetKind": "verb", "base": "slow",   "target": "walked", "sentence": "The turtle walked ___.",       "q": "Which word tells how the turtle walked?", "forms": { "adjective": "slow",   "adverb": "slowly"   } },
         { "id": "wc-v5", "targetKind": "verb", "base": "neat",   "target": "wrote",  "sentence": "He wrote ___.",               "q": "Which word tells how he wrote?",          "forms": { "adjective": "neat",   "adverb": "neatly"   } }
-      ]
+      ],
+      "roundsL10n": {
+        "fr": [
+          { "id": "wc-a1", "targetKind": "noun", "base": "rapide",     "target": "guépard", "sentence": "Le guépard est ___.",              "q": "Quel mot décrit le guépard ?",             "forms": { "adjective": "rapide",     "adverb": "rapidement"     } },
+          { "id": "wc-a2", "targetKind": "noun", "base": "calme",      "target": "chat",    "sentence": "Le chat ___ dort sur le lit.",      "q": "Quel mot décrit le chat ?",                "forms": { "adjective": "calme",      "adverb": "calmement"      } },
+          { "id": "wc-a3", "targetKind": "noun", "base": "sage",       "target": "chien",   "sentence": "Le chien est ___ à l’école.",       "q": "Quel mot décrit le chien ?",               "forms": { "adjective": "sage",       "adverb": "sagement"       } },
+          { "id": "wc-a4", "targetKind": "noun", "base": "agile",      "target": "singe",   "sentence": "Le singe ___ saute d’arbre en arbre.", "q": "Quel mot décrit le singe ?",            "forms": { "adjective": "agile",      "adverb": "agilement"      } },
+
+          { "id": "wc-v1", "targetKind": "verb", "base": "rapide",     "target": "vole",      "sentence": "L’avion vole ___.",               "q": "Quel mot dit comment l’avion vole ?",       "forms": { "adjective": "rapide",     "adverb": "rapidement"     } },
+          { "id": "wc-v2", "targetKind": "verb", "base": "calme",      "target": "respire",   "sentence": "Le bébé respire ___.",            "q": "Quel mot dit comment le bébé respire ?",    "forms": { "adjective": "calme",      "adverb": "calmement"      } },
+          { "id": "wc-v3", "targetKind": "verb", "base": "timide",     "target": "répond",    "sentence": "Le garçon répond ___.",           "q": "Quel mot dit comment le garçon répond ?",   "forms": { "adjective": "timide",     "adverb": "timidement"     } },
+          { "id": "wc-v4", "targetKind": "verb", "base": "tranquille", "target": "travaille", "sentence": "Le monsieur travaille ___.",      "q": "Quel mot dit comment le monsieur travaille ?", "forms": { "adjective": "tranquille", "adverb": "tranquillement" } },
+          { "id": "wc-v5", "targetKind": "verb", "base": "poli",       "target": "parle",     "sentence": "L’élève parle ___.",              "q": "Quel mot dit comment l’élève parle ?",      "forms": { "adjective": "poli",       "adverb": "poliment"       } }
+        ]
+      }
     },
     "slug": {
-      "en": "adjectives-and-adverbs"
+      "en": "adjectives-and-adverbs",
+      "fr": "l-adjectif-et-l-adverbe-ce2"
     },
     "page_title": {
-      "en": "Glim's Describing Words — Adjectives & Adverbs (Grade 2)"
+      "en": "Glim's Describing Words — Adjectives & Adverbs (Grade 2)",
+      "fr": "Les mots de Glim : l’adjectif et l’adverbe (CE2)"
     },
     "page_intro": {
-      "en": "A free interactive Grade 2 grammar activity: help Glim the light-wisp finish each sentence with the right describing word. If the word describes a thing, pick the adjective; if it tells how an action happens, pick the adverb. A friendly first look at choosing between adjectives and adverbs by what they describe. Common Core L.2.1.e."
+      "en": "A free interactive Grade 2 grammar activity: help Glim the light-wisp finish each sentence with the right describing word. If the word describes a thing, pick the adjective; if it tells how an action happens, pick the adverb. A friendly first look at choosing between adjectives and adverbs by what they describe. Common Core L.2.1.e.",
+      "fr": "Une activité de grammaire gratuite et interactive où votre enfant aide Glim à compléter des phrases en choisissant l’adjectif ou l’adverbe. Alignée sur les programmes officiels pour l’étude de la langue, elle se joue directement dans le navigateur, sans inscription ni chrono."
     },
     "kid_prompt_template": "wordclass"
   }

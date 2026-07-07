@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "tally-squirrel.add-four.2-nbt-b-6": {
+      "about": [
+        "Tally l’écureuil récolte des glands et remplit deux à quatre paniers. Sur chaque panier est écrit un nombre à deux chiffres — par exemple 23, 14, 11 et 8. Votre enfant additionne tous ces nombres, puis tape le total sur le clavier : une vraie petite histoire de calcul, toujours sous la barre des 100.",
+        "Pour y arriver sans se tromper, l’activité met en avant la bonne stratégie : le calcul par tranches, en ligne. On additionne d’abord toutes les dizaines, puis toutes les unités, et on rassemble le tout. Cette manière de faire s’appuie sur la numération et évite la surcharge de l’addition posée.",
+        "En jouant, votre enfant renforce le sens des dizaines et des unités et gagne en aisance dans le calcul mental — une base solide avant d’aborder l’addition posée à retenue du CE2 et du CM1. L’activité est gratuite, interactive, pensée pour le CE1 dans le domaine « Nombres et calcul », sans chrono ni points, dans l’esprit des programmes officiels."
+      ],
+      "practices": [
+        "Additionner plusieurs nombres à deux chiffres, avec des sommes inférieures à 100.",
+        "Calculer par tranches : d’abord toutes les dizaines, puis toutes les unités.",
+        "Regrouper les nombres astucieusement pour aller plus vite.",
+        "Consolider le sens des dizaines et des unités."
+      ],
+      "howToPlay": [
+        "Regarde combien de paniers Tally a remplis, et lis le nombre écrit sur chaque panier.",
+        "Additionne tout — de préférence d’abord les dizaines, puis les unités.",
+        "Tape le total ; si ce n’est pas encore ça, réessaie tranquillement."
+      ],
+      "learningGoals": [
+        "Additionner deux à quatre nombres à deux chiffres jusqu’à 100.",
+        "Appliquer le calcul par tranches et comprendre pourquoi on sépare les dizaines et les unités.",
+        "Gagner en aisance et en confiance dans le calcul mental."
+      ]
+    },
     "pond-juice.pour-measure.3-md-a-2": {
       "about": [
         "Pippa la grenouille tient un petit stand de jus au bord de la mare. Un client — une libellule, un escargot, une tortue… — s’avance et commande « environ N litres » de jus. Votre enfant verse le jus dans un verre mesureur dépoli : pendant qu’il verse, le niveau reste caché, il n’y a donc rien à « viser » dans la précipitation.",

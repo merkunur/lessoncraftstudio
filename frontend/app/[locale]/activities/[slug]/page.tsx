@@ -63,7 +63,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'vera-verb-match.be-agreement.l-1-1-c': { de: '2', fr: '2' },           // reflective Subjekt-Verb-Kongruenz (bin/ist/sind) → DE Klasse 2 (K-1 kids speak it; the grammar task is Klasse 2); FR CE1 (l'accord sujet-verbe / conjuguer être au présent = attendu CE1, réflexif, past CP oral use)
   'hazel-word-bridge.joining-words.l-1-1-g': { de: '3', fr: '3' },        // selection-by-meaning across 4 Bindewörter incl. causal „denn" + Pflichtkomma → DE Klasse 3; FR: coordination + car + comma-before-mais/car → CE2
   'cleo-packing-list.series-commas.l-1-2-b': { de: '3', fr: '3' },        // Komma bei Aufzählung = first comma rule, DE Klasse 3; FR: la virgule d'énumération = premier attendu interne → CE2
-  'robin-mirror.reflexive.l-2-1-c': { de: '3' },                          // Reflexivpronomen as a category (beuge zur Person) → DE Klasse 3 (US Grade 2 too low)
+  'robin-mirror.reflexive.l-2-1-c': { de: '3', fr: '3' },                 // Reflexivpronomen → DE Klasse 3; FR: le pronom réfléchi qui varie avec le sujet = consolidation CE2 (au-dessus du pronom sujet CE1)
   'rusty-yesterday.irregular-past.l-2-1-d': { de: '3' },                  // starke-vs-schwache Verben + Präteritum form-building → DE Klasse 3
   'roary-roar-meter.shades.l-2-5-b': { de: '3' },                         // Bedeutungsnuancen (Abstufen innerhalb einer Bedeutung) → DE Klasse 3 (K2 = clear opposites)
   'wren-question-window.question-words.l-k-1-d': { de: '1' },             // Fragewörter = Anfangsunterricht Klasse 1 (de chip „Klasse 1", NOT „Kindergarten"); en stays Kindergarten
@@ -436,7 +436,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.147';
+  const ACTIVITY_WRAPPER_VERSION = '9.148';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

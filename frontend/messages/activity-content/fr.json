@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "robin-mirror.reflexive.l-2-1-c": {
+      "about": [
+        "Robin le rouge-gorge tient un petit miroir dans son aile, et il invite votre enfant à compléter des phrases où il manque un mot. À l'écran s'affiche une phrase à trou, par exemple « Je ___ lave chaque matin. » ou « Nous ___ levons tôt. » : votre enfant lit la phrase, regarde qui fait l'action, puis touche le petit mot qui va avec la personne — me, te, se, nous ou vous. C'est gratuit, l'activité se joue directement dans le navigateur, sans rien installer et sans créer de compte.",
+        "Certains verbes, qu'on appelle les verbes pronominaux (se laver, se reposer, se lever…), s'accompagnent d'un petit mot qui pointe vers celui qui agit — comme le reflet dans le miroir de Robin. Et ce petit mot change avec le sujet : je → me, tu → te, il, elle, on → se, nous → nous, vous → vous. Ainsi le mot « voyage » toujours avec la personne : il se transforme selon qui se lave, qui se repose ou qui se lève, et il renvoie chaque fois l'action à celui qui la fait.",
+        "Ici, pas de pression : c'est gratuit, sans chrono, sans points et sans compétition. Votre enfant essaie à son rythme, autant de fois qu'il le souhaite, et peut lire chaque phrase à voix haute pour mieux entendre le petit mot qui convient. L'activité s'appuie sur les programmes officiels, dans le domaine de la grammaire et de l'étude de la langue à l'école élémentaire."
+      ],
+      "practices": [
+        "Choisir le pronom réfléchi qui va avec le sujet : me, te, se, nous, vous.",
+        "Reconnaître que « se » va avec il, elle et on.",
+        "Relier avec attention la personne et le petit mot qui l'accompagne.",
+        "Lire la phrase et comprendre qui fait l'action."
+      ],
+      "howToPlay": [
+        "Lis la phrase à trou et regarde bien qui fait l'action.",
+        "Touche le petit mot qui va avec la personne.",
+        "Robin te montre si ça va, puis une nouvelle phrase arrive."
+      ],
+      "learningGoals": [
+        "Votre enfant choisit le pronom réfléchi qui va avec le sujet.",
+        "Votre enfant comprend que le petit mot change avec la personne : je–me, nous–nous.",
+        "Votre enfant lit des phrases courtes et repère le lien avec la personne qui agit."
+      ]
+    },
     "cleo-packing-list.series-commas.l-1-2-b": {
       "about": [
         "Cléo le caméléon adore collectionner et tout ranger en listes. Dans cette activité, votre enfant découvre trois versions de la même phrase-liste — par exemple « Je prends des pommes, des poires et des prunes. » — et touche celle où les virgules sont à la bonne place. C'est gratuit, cela fonctionne directement dans le navigateur, sans rien installer et sans créer de compte.",

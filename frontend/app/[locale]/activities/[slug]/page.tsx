@@ -53,6 +53,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'clock-digital.read-half-hour.1-md-b-3': { fr: '2' },                  // FR CE1 — heures + demi-heures; en Grade 1 / de Klasse 1
   'clock-digital.read-quarter-hour.2-md-c-7': { fr: '3' },               // FR CE2 — « moins le quart » (référence à l'heure suivante) = attendu CE2, un cran au-dessus des demi-heures CE1; en Grade 2 unchanged
   'clock-digital.read-five-minute.2-md-c-7': { fr: '3' },                // FR CE2 — lire l'heure de 5 en 5 = repère CE2 (la granularité fixe le niveau, lecture digitale « 3 h 20 »); en Grade 2 unchanged
+  'clock-digital.match-clocks.2-md-c-7': { fr: '3' },                    // FR CE2 — associer numérique↔aiguilles : l'attendu est fixé par la granularité de lecture (« moins le quart », 5 min), pas par le sens; cohérent avec read-quarter/five-minute CE2; en Grade 2 unchanged
   'place-value-regroup.subtract-decompose.2-nbt-b-7': { de: '3', fr: '3' },        // bis-1000 subtraction (borrow) → DE Klasse 3 / FR CE2 (grade_3)
   'place-value-regroup.add-compose-hundred.2-nbt-b-7': { de: '3', fr: '3' },       // bis-1000 add (carry to hundreds) → DE Klasse 3 / FR CE2 (grade_3)
   'place-value-regroup.subtract-decompose-hundred.2-nbt-b-7': { de: '3', fr: '3' },// bis-1000 borrow across zero → DE Klasse 3 / FR CE2 (grade_3)
@@ -440,7 +441,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.156';
+  const ACTIVITY_WRAPPER_VERSION = '9.157';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

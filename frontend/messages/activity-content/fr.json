@@ -904,6 +904,29 @@
         "Franchir l'étape qui suit l'heure entière et consolider la lecture de l'heure au CE1."
       ]
     },
+    "clock-digital.match-clocks.2-md-c-7": {
+      "about": [
+        "Sprocket le coq affiche une heure en chiffres, comme « 3 h 00 », et propose trois horloges à aiguilles. Votre enfant regarde les aiguilles et touche l'horloge qui montre la même heure : pour « 3 h 00 », c'est l'horloge dont la grande aiguille pointe sur le 12 et la petite aiguille sur le 3. Tout se passe dans le navigateur, gratuitement et sans rien installer.",
+        "En reliant l'heure écrite en chiffres à l'horloge à aiguilles, votre enfant comprend qu'une même heure peut se montrer de deux façons. Il apprend à lire la position des aiguilles pour retrouver la bonne horloge, avec les heures pile, les demi-heures et les quarts d'heure (« et quart », « moins le quart »).",
+        "L'activité reste calme : pas de chronomètre, pas de points, votre enfant avance à son rythme. Elle suit « les programmes officiels » dans le domaine « Grandeurs et mesures »."
+      ],
+      "practices": [
+        "Associer une heure numérique à la bonne horloge à aiguilles",
+        "Reconnaître une même heure sous deux formes : en chiffres et sur l'horloge",
+        "Lire la position des aiguilles pour trouver l'horloge qui correspond",
+        "S'entraîner avec les heures pile, les demi-heures et les quarts d'heure"
+      ],
+      "howToPlay": [
+        "Lis l'heure numérique affichée par Sprocket, par exemple « 3 h 00 ».",
+        "Regarde les trois horloges à aiguilles et la position de leurs aiguilles.",
+        "Touche l'horloge qui montre cette heure."
+      ],
+      "learningGoals": [
+        "Votre enfant relie l'heure écrite en chiffres à l'horloge à aiguilles.",
+        "Votre enfant reconnaît la même heure sous deux formes différentes.",
+        "Votre enfant lit les aiguilles pour choisir la bonne horloge, aux heures pile, demies et quarts."
+      ]
+    },
     "clock-digital.read-minute.3-md-a-1": {
       "about": [
         "Sprocket le coq a besoin d'un coup de main pour lire l'heure exacte sur son horloge à aiguilles. Grâce aux petites graduations du cadran, votre enfant compte les minutes une à une après le repère des 5 et trouve l'heure précise, par exemple « 3 h 23 ». Tout se passe directement dans le navigateur, gratuitement et sans rien installer.",

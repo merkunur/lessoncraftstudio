@@ -197,13 +197,16 @@
       ]
     },
     "slug": {
-      "en": "match-analog-and-digital-clocks"
+      "en": "match-analog-and-digital-clocks",
+      "fr": "associer-heure-numerique-et-horloge-a-aiguilles-ce2"
     },
     "page_title": {
-      "en": "Sprocket's Clock — Match Analog and Digital Clocks (Grade 2)"
+      "en": "Sprocket's Clock — Match Analog and Digital Clocks (Grade 2)",
+      "fr": "L'horloge de Sprocket — Associer l'heure numérique et l'horloge à aiguilles (CE2)"
     },
     "page_intro": {
-      "en": "A free interactive Grade 2 time activity: read a digital time, then tap the analog clock whose hands match it. Children connect the two ways to show time — o'clock, half past, quarter past and to, and five-minute times — by reading each clock face. Sprocket the rooster cheers them on. Common Core 2.MD.C.7."
+      "en": "A free interactive Grade 2 time activity: read a digital time, then tap the analog clock whose hands match it. Children connect the two ways to show time — o'clock, half past, quarter past and to, and five-minute times — by reading each clock face. Sprocket the rooster cheers them on. Common Core 2.MD.C.7.",
+      "fr": "Avec Sprocket le coq, votre enfant lit une heure écrite en chiffres et touche l'horloge à aiguilles qui montre cette heure : il voit « 3 h 00 » et choisit l'horloge dont la grande aiguille est sur le 12. Activité gratuite et interactive, CE2, « Grandeurs et mesures »."
     },
     "kid_prompt_template": "clock-digital"
   }

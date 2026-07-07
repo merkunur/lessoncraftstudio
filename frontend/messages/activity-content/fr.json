@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "wally-capital-crane.special-names.l-2-2-a": {
+      "about": [
+        "Wally le morse a une petite grue, et il a besoin d'un coup de main ! Dans chaque phrase, un nom propre — le nom d'une personne, d'une ville ou d'un pays — s'est glissé tout en minuscule par erreur. Votre enfant lit la phrase mot à mot, repère le mot fautif et le touche : la grue de Wally soulève alors la petite lettre et la transforme en majuscule. « léo » devient « Léo », et la phrase est enfin correcte. C'est gratuit, cela fonctionne directement dans le navigateur, sans rien installer et sans créer de compte.",
+        "L'activité fait découvrir une règle simple de l'orthographe française : les noms propres — noms de personnes, de villes, de pays — prennent toujours une majuscule, même au milieu d'une phrase. Les noms communs, eux, comme « ami », « chien » ou « ballon », restent en minuscule. Petit à petit, votre enfant apprend à reconnaître un nom propre et à le distinguer d'un nom commun, une distinction essentielle pour bien écrire.",
+        "Ici, pas de pression : l'activité est gratuite, sans chrono, sans points et sans compétition. Votre enfant essaie à son rythme, se trompe sans crainte et recommence autant de fois qu'il le souhaite. Le contenu est pensé pour l'école élémentaire, en lien avec les programmes officiels, dans le domaine de l'orthographe et de l'étude de la langue au cycle 2."
+      ],
+      "practices": [
+        "Reconnaître un nom propre : un nom de personne, de ville ou de pays.",
+        "Mettre une majuscule au nom propre, même au milieu de la phrase.",
+        "Distinguer un nom propre d'un nom commun, qui reste en minuscule.",
+        "Lire la phrase avec attention pour repérer le mot à corriger."
+      ],
+      "howToPlay": [
+        "Lis la phrase et cherche le nom propre écrit en minuscule.",
+        "Touche ce mot : la grue de Wally le met en majuscule.",
+        "C'est bon ? La phrase suivante arrive. Sinon, regarde encore."
+      ],
+      "learningGoals": [
+        "Votre enfant reconnaît les noms propres dans une phrase.",
+        "Votre enfant sait qu'un nom propre prend une majuscule, même au milieu d'une phrase.",
+        "Votre enfant distingue un nom propre d'un nom commun."
+      ]
+    },
     "robin-mirror.reflexive.l-2-1-c": {
       "about": [
         "Robin le rouge-gorge tient un petit miroir dans son aile, et il invite votre enfant à compléter des phrases où il manque un mot. À l'écran s'affiche une phrase à trou, par exemple « Je ___ lave chaque matin. » ou « Nous ___ levons tôt. » : votre enfant lit la phrase, regarde qui fait l'action, puis touche le petit mot qui va avec la personne — me, te, se, nous ou vous. C'est gratuit, l'activité se joue directement dans le navigateur, sans rien installer et sans créer de compte.",

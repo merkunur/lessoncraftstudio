@@ -162,13 +162,16 @@
       ]
     },
     "slug": {
-      "en": "read-clock-to-the-minute"
+      "en": "read-clock-to-the-minute",
+      "fr": "lire-lheure-a-la-minute-pres-ce2"
     },
     "page_title": {
-      "en": "Sprocket's Clock — Read the Clock to the Minute (Grade 3)"
+      "en": "Sprocket's Clock — Read the Clock to the Minute (Grade 3)",
+      "fr": "L'horloge de Sprocket — Lire l'heure à la minute près (CE2)"
     },
     "page_intro": {
-      "en": "A free interactive Grade 3 time activity: read an analog clock to the nearest minute, then tap the matching digital time. The clock shows minute marks so children can count past the nearest five — reading exact times like 3:23 and 7:47. Sprocket the rooster cheers them on. Common Core 3.MD.A.1."
+      "en": "A free interactive Grade 3 time activity: read an analog clock to the nearest minute, then tap the matching digital time. The clock shows minute marks so children can count past the nearest five — reading exact times like 3:23 and 7:47. Sprocket the rooster cheers them on. Common Core 3.MD.A.1.",
+      "fr": "Avec Sprocket le coq, votre enfant apprend à lire l'heure à la minute près : il compte les minutes après le repère des 5 et lit des heures exactes comme « 3 h 23 » ou « 7 h 47 ». Activité gratuite et interactive, CE2, « Grandeurs et mesures »."
     },
     "kid_prompt_template": "clock-digital"
   },

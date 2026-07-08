@@ -213,6 +213,29 @@
         "Votre enfant apprend à faire la différence entre une preuve et un détail sans rapport."
       ]
     },
+    "field-guide.text-features.1-ri-5": {
+      "about": [
+        "Le détective Dewey ne devine jamais : il cherche. Dans ce carnet, votre enfant l'accompagne pour retrouver une information cachée dans un texte documentaire, en se servant des outils du livre plutôt que de sa mémoire. Le sommaire indique dans quel chapitre regarder, le glossaire explique ce qu'un mot veut dire, les titres annoncent de quoi parle chaque partie, et l'index renvoie à la bonne page. À chaque tour, Dewey pose une question — par exemple « Quel chapitre explique comment il fait pour briller ? » ou « Pour trouver ce qu'un mot veut dire, quel outil ouvres-tu ? » — et l'enfant lit l'outil avant de taper sa réponse.",
+        "Comme les créatures du carnet sont imaginaires — Snoud, Frell, Tarn… — il est impossible de répondre au hasard : la seule façon de trouver, c'est d'ouvrir le bon outil et de le lire attentivement. Votre enfant apprend ainsi à se repérer dans un documentaire et à prélever une information utile, une compétence précieuse pour toute sa scolarité. L'activité est gratuite et interactive, se joue directement dans le navigateur, sans minuteur, sans score et sans compte. Elle est pensée en accord avec les programmes officiels de l'école, dans une ambiance calme et bienveillante où l'on prend le temps de chercher."
+      ],
+      "practices": [
+        "Utiliser le sommaire et l'index pour trouver la bonne page ou le bon chapitre.",
+        "Lire un glossaire pour comprendre ce qu'un mot veut dire.",
+        "Se repérer dans un livre grâce aux titres et aux intertitres.",
+        "Prélever une information précise dans un texte documentaire.",
+        "Lire un schéma légendé pour répondre à une question."
+      ],
+      "howToPlay": [
+        "Lis l'outil du livre que Dewey te montre : le sommaire, le glossaire, les titres ou l'index.",
+        "Tape la bonne réponse — elle se trouve dans l'outil, pas dans ta tête.",
+        "Si tu hésites, relis l'outil tranquillement : la réponse y est toujours."
+      ],
+      "learningGoals": [
+        "Votre enfant apprend à se repérer dans un texte documentaire et à en explorer les différentes parties.",
+        "Votre enfant apprend à utiliser les outils du livre — sommaire, glossaire, index, titres — pour trouver une information.",
+        "Votre enfant apprend à prélever une information en lisant, plutôt qu'en devinant."
+      ]
+    },
     "atlas-fact-files.key-detail.ri-k-1": {
       "about": [
         "Atlas le tatou adore les vraies histoires de la nature, et il en a rassemblé tout un carnet pour votre enfant. À chaque fiche, il montre un court texte documentaire de deux phrases — par exemple « Les abeilles vivent dans une ruche. Elles font du miel sucré. » — que l'on peut aussi écouter à voix haute. Puis Atlas pose une question, comme « Où vivent les abeilles ? », et votre enfant choisit la bonne réponse parmi trois propositions : celle qui se trouve dans le texte.",

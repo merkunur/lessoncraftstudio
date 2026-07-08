@@ -150,7 +150,7 @@ const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'compound-meaning.predict.l-2-4-d': { de: 'Wortschatz untersuchen' }, // Komposita-Bedeutung erschließen = vocabulary (the L.2.4 family — affix/sage-root precedent), not the grammar Bereich „Sprache untersuchen"
   'inky-book-workshop.author-illustrator.rl-k-6': { de: 'Lesen – mit Texten und Medien umgehen' }, // who MAKES a book (Autor/Illustrator) = Buch-/Medienkunde, NOT literary comprehension → overrides the „Reading: Literature"→„Literarische Texte verstehen" auto-map (field-guide/bea/author-purpose precedent)
   'jasper-just-right.real-life.l-1-5-c': { de: 'Wortschatz untersuchen', fr: 'Le lexique' }, // real-life word use = vocabulary, not the grammar Bereich (fern/olive precedent); FR CP: relier un mot à son usage réel = « Construction du lexique » → « Le lexique » (= antonymes/nuances/noms-collectifs #27/#34/#35/#46/#53/#54)
-  'fern-clue-garden.context-clues.l-2-4-a': { de: 'Wortschatz untersuchen' }, // Teekesselwörter/Wortbedeutung = vocabulary, not the grammar Bereich (affix/olive/roary/ziggy precedent)
+  'fern-clue-garden.context-clues.l-2-4-a': { de: 'Wortschatz untersuchen', fr: 'Le lexique' }, // Teekesselwörter/Wortbedeutung = vocabulary, not the grammar Bereich (affix/olive/roary/ziggy precedent); FR CE1: comprendre le sens d'un mot à plusieurs sens grâce au contexte = travail lexical → « Le lexique » (= opposites/roary/olive/ziggy/mango/jasper/gabby/sage); native '2' auto-maps to CE1 (BO 2020 « trouver le sens d'un mot en fonction du contexte » = repère CE1) → NO grade override
   'booker-glossary-desk.guide-words.l-2-4-e': { de: 'Richtig schreiben' }, // Wörterbuch nachschlagen = Rechtschreib-Arbeitstechnik, not Sprache untersuchen (cleo/wally precedent)
   'gabby-sayings.idioms.l-3-5-a': { de: 'Wortschatz untersuchen', fr: 'Le lexique' }, // Redewendungen = feste Bedeutungseinheit / Wortbedeutung = vocabulary (roary/fern/olive L.5 precedent), not the grammar Bereich; FR CE2: le sens figuré / les expressions imagées = travail sur le sens des mots/expressions → « Le lexique » (= antonymes/nuances #27/#34/#35/#46)
   'opposites.antonyms.k-l-5-b': { de: 'Wortschatz untersuchen' }, // Gegensätze/Antonyme = Wortbedeutung/semantic relation = vocabulary (olive/roary/fern/gabby/ziggy/jasper precedent), not the grammar Bereich
@@ -459,7 +459,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.175';
+  const ACTIVITY_WRAPPER_VERSION = '9.176';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

@@ -27,20 +27,34 @@
           { "id": "bei-dem", "band": 2, "word1": "bei", "word2": "dem", "fusion": "beim", "foils": ["vom", "zum"] },
           { "id": "von-dem", "band": 3, "word1": "von", "word2": "dem", "fusion": "vom",  "foils": ["beim", "zum"] },
           { "id": "an-das",  "band": 3, "word1": "an",  "word2": "das", "fusion": "ans",  "foils": ["am", "ins"] }
+        ],
+        "fr": [
+          { "id": "el-le-ami",     "band": 1, "word1": "le",  "word2": "ami",     "fusion": "l'ami",     "foils": ["le ami", "lami"] },
+          { "id": "el-la-ecole",   "band": 1, "word1": "la",  "word2": "école",   "fusion": "l'école",   "foils": ["la école", "lécole"] },
+          { "id": "el-je-aime",    "band": 2, "word1": "je",  "word2": "aime",    "fusion": "j'aime",    "foils": ["je aime", "jaime"] },
+          { "id": "el-de-eau",     "band": 2, "word1": "de",  "word2": "eau",     "fusion": "d'eau",     "foils": ["de eau", "deau"] },
+          { "id": "el-ce-est",     "band": 2, "word1": "ce",  "word2": "est",     "fusion": "c'est",     "foils": ["ce est", "cest"] },
+          { "id": "el-me-appelle", "band": 3, "word1": "me",  "word2": "appelle", "fusion": "m'appelle", "foils": ["me appelle", "mappelle"] },
+          { "id": "el-que-il",     "band": 3, "word1": "que", "word2": "il",      "fusion": "qu'il",     "foils": ["que il", "quil"] },
+          { "id": "el-ne-a",       "band": 3, "word1": "ne",  "word2": "a",       "fusion": "n'a",       "foils": ["ne a", "na"] },
+          { "id": "el-la-heure",   "band": 3, "word1": "la",  "word2": "heure",   "fusion": "l'heure",   "foils": ["la heure", "lheure"] }
         ]
       }
     },
     "slug": {
       "en": "contractions-with-apostrophes",
-      "de": "im-am-zum-praeposition-artikel-verschmelzung"
+      "de": "im-am-zum-praeposition-artikel-verschmelzung",
+      "fr": "former-les-elisions-avec-l-apostrophe-ce1"
     },
     "page_title": {
       "en": "Nib's Apostrophe Seat — Contractions (Grade 2)",
-      "de": "Kurzformen: im, am, zum – Präposition & Artikel verbinden"
+      "de": "Kurzformen: im, am, zum – Präposition & Artikel verbinden",
+      "fr": "La place de Nib — L'élision et l'apostrophe (CE1)"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 grammar activity: help Nib the apostrophe-spirit form contractions. Read the two words, then pick the contraction that drops the right letters and puts the apostrophe in exactly the right spot. A friendly first look at how an apostrophe marks the missing letters. Common Core L.2.2.c.",
-      "de": "Kostenlose interaktive Übung: „in dem“ wird „im“. Dein Kind verschmilzt Präposition & Artikel zu im, am, zum, ins – spielerisch, ohne Zeitdruck, ohne Punkte."
+      "de": "Kostenlose interaktive Übung: „in dem“ wird „im“. Dein Kind verschmilzt Präposition & Artikel zu im, am, zum, ins – spielerisch, ohne Zeitdruck, ohne Punkte.",
+      "fr": "Avec Nib, le petit esprit de l'apostrophe, votre enfant apprend à écrire correctement « l'ami » plutôt que « le ami ». À chaque tour, il observe deux mots à réunir et tape la bonne écriture parmi trois propositions. C'est gratuit, interactif, ça se joue directement dans le navigateur, sans minuteur ni score : juste le plaisir de comprendre."
     },
     "kid_prompt_template": "contraction"
   }

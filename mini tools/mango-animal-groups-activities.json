@@ -25,13 +25,23 @@
           { "id": "fische", "band": 1, "subject": { "noun": "fish", "themeDir": "animals" }, "plural": "Fische", "correct": "Schwarm", "choices": [ { "word": "Schwarm" }, { "word": "Herde" }, { "word": "Rudel" } ] },
           { "id": "voegel", "band": 2, "subject": { "noun": "bird", "themeDir": "spring" }, "plural": "Vögel", "correct": "Schwarm", "choices": [ { "word": "Schwarm" }, { "word": "Volk" }, { "word": "Herde" } ] },
           { "id": "bienen", "band": 3, "subject": { "noun": "bee", "themeDir": "farm animals" }, "plural": "Bienen", "correct": "Volk", "choices": [ { "word": "Volk" }, { "word": "Schwarm" }, { "word": "Rudel" } ] }
+        ],
+        "fr": [
+          { "id": "cows", "band": 1, "subject": { "noun": "cow", "themeDir": "farm animals" }, "plural": "vaches", "correct": "un troupeau", "choices": [ { "word": "un troupeau" }, { "word": "une meute" }, { "word": "un essaim" } ] },
+          { "id": "sheep", "band": 1, "subject": { "noun": "sheep", "themeDir": "farm animals" }, "plural": "moutons", "correct": "un troupeau", "choices": [ { "word": "un troupeau" }, { "word": "un banc" }, { "word": "une volée" } ] },
+          { "id": "wolves", "band": 1, "subject": { "noun": "wolf", "themeDir": "animals" }, "plural": "loups", "correct": "une meute", "choices": [ { "word": "une meute" }, { "word": "un banc" }, { "word": "un essaim" } ] },
+          { "id": "fish", "band": 2, "subject": { "noun": "fish", "themeDir": "animals" }, "plural": "poissons", "correct": "un banc", "choices": [ { "word": "un banc" }, { "word": "une meute" }, { "word": "une volée" } ] },
+          { "id": "birds", "band": 2, "subject": { "noun": "bird", "themeDir": "spring" }, "plural": "oiseaux", "correct": "une volée", "choices": [ { "word": "une volée" }, { "word": "un troupeau" }, { "word": "un banc" } ] },
+          { "id": "monkeys", "band": 2, "subject": { "noun": "monkey", "themeDir": "zoo animals" }, "plural": "singes", "correct": "une troupe", "choices": [ { "word": "une troupe" }, { "word": "une meute" }, { "word": "un essaim" } ] },
+          { "id": "elephants", "band": 3, "subject": { "noun": "elephant", "themeDir": "zoo animals" }, "plural": "éléphants", "correct": "un troupeau", "choices": [ { "word": "un troupeau" }, { "word": "un banc" }, { "word": "une meute" } ] },
+          { "id": "bees", "band": 3, "subject": { "noun": "bee", "themeDir": "farm animals" }, "plural": "abeilles", "correct": "un essaim", "choices": [ { "word": "un essaim" }, { "word": "un troupeau" }, { "word": "une volée" } ] }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "mango-animal-groups", "de": "sammelnamen-fuer-tiere" },
-    "page_title": { "en": "Mango's Animal Groups — Name the Group (Grade 2)", "de": "Mango der Affe – Sammelnamen für Tiere (Klasse 2)" },
-    "page_intro": { "en": "Mango the monkey knows what to call a group of animals! A group of cows is a herd, a group of fish is a school. Look at the animal, then tap the word that names a whole group of them. A Grade 2 grammar game about collective nouns, aligned to Common Core L.2.1.a.", "de": "Mit Mango dem Affen lernt dein Kind Sammelnamen für Tiere kennen – ein Wort für eine ganze Gruppe: viele Kühe sind eine Herde, viele Fische ein Schwarm. So wächst der Wortschatz ganz nebenbei. Kostenlos, ohne Zeitdruck und ohne Punkte, und alles wird vorgelesen." },
+    "slug": { "en": "mango-animal-groups", "de": "sammelnamen-fuer-tiere", "fr": "les-noms-collectifs-des-animaux-ce1" },
+    "page_title": { "en": "Mango's Animal Groups — Name the Group (Grade 2)", "de": "Mango der Affe – Sammelnamen für Tiere (Klasse 2)", "fr": "Mango le singe — Les noms collectifs des animaux (CE1)" },
+    "page_intro": { "en": "Mango the monkey knows what to call a group of animals! A group of cows is a herd, a group of fish is a school. Look at the animal, then tap the word that names a whole group of them. A Grade 2 grammar game about collective nouns, aligned to Common Core L.2.1.a.", "de": "Mit Mango dem Affen lernt dein Kind Sammelnamen für Tiere kennen – ein Wort für eine ganze Gruppe: viele Kühe sind eine Herde, viele Fische ein Schwarm. So wächst der Wortschatz ganz nebenbei. Kostenlos, ohne Zeitdruck und ohne Punkte, und alles wird vorgelesen.", "fr": "Mango le singe montre à votre enfant l'image d'un animal, et l'enfant tape le nom qui désigne tout un groupe de ces animaux : un troupeau de vaches, un banc de poissons, un essaim d'abeilles. C'est une jolie façon de découvrir les noms collectifs et d'enrichir son vocabulaire, en apprenant qu'un seul mot peut nommer toute une collection. Une activité gratuite et interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte à créer." },
     "kid_prompt_template": "What do we call a group of them?"
   }
 ]

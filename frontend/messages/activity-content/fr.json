@@ -192,6 +192,26 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "mango-animal-groups.collective-nouns.l-2-1-a": {
+      "about": [
+        "Avec Mango le singe, votre enfant part à la découverte des noms collectifs, ces mots surprenants qui nomment tout un groupe d'animaux d'un seul coup. Mango montre l'image d'un animal, puis l'enfant choisit, parmi trois propositions, le mot juste pour désigner leur groupe : un troupeau de vaches, une meute de loups, un banc de poissons, un essaim d'abeilles ou encore une volée d'oiseaux. Petit à petit, il comprend qu'un nom collectif est un seul mot capable de nommer une collection entière.",
+        "Ces mots enrichissent joliment le vocabulaire et affinent la précision du langage, un objectif présent dans les programmes officiels du CE1. L'activité est entièrement gratuite, se joue dans le navigateur et va à son rythme : il n'y a ni minuteur, ni score, ni compte à créer. Votre enfant peut essayer, se tromper et recommencer en toute tranquillité, dans une ambiance douce et rassurante où l'on prend le temps d'apprendre."
+      ],
+      "practices": [
+        "Reconnaître un nom collectif et le relier à un groupe d'animaux",
+        "Associer chaque animal au mot qui nomme son groupe (troupeau, meute, banc, essaim, volée)",
+        "Enrichir son vocabulaire d'animaux et le nom de leurs groupes",
+        "Comprendre qu'un seul mot peut nommer toute une collection"
+      ],
+      "howToPlay": [
+        "Regarde l'animal que Mango le singe te montre.",
+        "Tape le mot qui nomme un groupe de ces animaux, parmi les trois propositions."
+      ],
+      "learningGoals": [
+        "Votre enfant apprend à nommer un groupe d'animaux avec le bon nom collectif.",
+        "Votre enfant apprend à enrichir son vocabulaire en découvrant que « troupeau », « banc » ou « essaim » désignent chacun toute une collection d'animaux."
+      ]
+    },
     "gabby-sayings.idioms.l-3-5-a": {
       "about": [
         "Gabby l'oie adore collectionner les drôles d'expressions ! À chaque tour, elle en montre une, glissée dans une petite phrase que votre enfant peut lire et écouter, puis elle lui demande ce qu'elle veut vraiment dire. Le jeu, c'est de ne pas se laisser piéger par le sens littéral : quand on dit « il pleut des cordes », il ne tombe évidemment pas de vraies cordes du ciel, cela signifie simplement qu'il pleut très fort.",

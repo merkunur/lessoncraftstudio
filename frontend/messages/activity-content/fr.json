@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "willow-story-corner.compare-tales.rl-k-9": {
+      "about": [
+        "Dans le coin des histoires, Willow la tortue lit à voix haute deux courtes histoires d'animaux, avec trois images pour chacune. Votre enfant les écoute jusqu'au bout, puis Willow lui pose une question du genre « Qui a perdu quelque chose ? » ou « Qui a été aidé ? ». Il compare alors les deux aventures et tape sa réponse : le premier personnage, le second, « Les deux » ou « Aucun des deux ».",
+        "C'est un vrai travail de compréhension de l'oral : il faut suivre chaque récit, retenir ce qui arrive à chacun, puis comparer les deux personnages pour répondre. L'enfant écoute et réfléchit, il ne déchiffre rien : la lecture et l'écriture ne sont pas en jeu ici. Petit à petit, il apprend à comprendre une histoire écoutée, à repérer qui vit quoi, et à mettre en relation deux récits proches.",
+        "Tout se fait dans le calme, au rythme de l'enfant : pas de chronomètre, pas de points, pas de bonne ou mauvaise pression. Il peut réécouter, prendre son temps et essayer autant qu'il le souhaite. L'activité est gratuite et s'appuie sur les programmes officiels de la maternelle."
+      ],
+      "practices": [
+        "Écouter et comprendre deux courtes histoires.",
+        "Comparer les aventures de deux personnages.",
+        "Repérer qui a vécu telle aventure — ou les deux, ou aucun.",
+        "Écouter attentivement avant de répondre."
+      ],
+      "howToPlay": [
+        "Écoute les deux histoires de Willow.",
+        "Écoute bien la question qu'elle te pose.",
+        "Tape le personnage — ou « Les deux », ou « Aucun des deux »."
+      ],
+      "learningGoals": [
+        "Votre enfant apprend à comparer deux histoires.",
+        "Votre enfant repère ce qui arrive à chaque personnage.",
+        "Votre enfant écoute et comprend un court récit, à son rythme."
+      ]
+    },
     "bingo-word-hunt.read-match.rf-k-3-d": {
       "about": [
         "Bingo le beagle a un flair extraordinaire pour les mots ! Votre enfant regarde une image, puis lit trois petits mots qui se ressemblent presque — une seule lettre change, comme chat, chut et char. Il prononce chaque mot doucement et tape celui qui nomme l'image. L'activité est gratuite, fonctionne directement dans le navigateur et ne demande aucune installation.",

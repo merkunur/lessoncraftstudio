@@ -20,6 +20,7 @@
   'use strict';
 
   var Core = global.CompareTalesCore;
+  var LANG = 'en';
 
   var C = { T: '#146B5E', T2: '#1B7E6E', CORAL: '#F2784B', CORAL2: '#D9572F', CREAM: '#FBF3E4', INK: '#2A2A35', GOOD: '#2FA56A', GOLD: '#E8A53A' };
   // glyph + per-beat emoji = STUB art (CA5 replaces later)
@@ -35,8 +36,8 @@
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG === 'fr' ? 'fr-FR' : 'en', rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; u.lang = LANG === 'fr' ? 'fr-FR' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
 
   function willowSVG(mood) {
@@ -44,7 +45,7 @@
     var eyes = happy
       ? '<path d="M40 44 q4 -4 8 0 M58 44 q4 -4 8 0" stroke="#2A2A35" stroke-width="2.6" fill="none" stroke-linecap="round"/>'
       : '<circle cx="44" cy="45" r="2.8" fill="#2A2A35"/><circle cx="62" cy="45" r="2.8" fill="#2A2A35"/>';
-    return '<svg class="wsc-willow-svg" viewBox="0 0 100 100" role="img" aria-label="Willow the tortoise">' +
+    return '<svg class="wsc-willow-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Willow la tortue' : 'Willow the tortoise') + '">' +
       '<ellipse cx="34" cy="62" rx="26" ry="20" fill="#7FB98E" stroke="#4E8A60" stroke-width="2"/>' +   /* shell */
       '<path d="M14 60 q20 -14 40 0" fill="none" stroke="#4E8A60" stroke-width="2"/>' +
       '<ellipse cx="70" cy="46" rx="15" ry="13" fill="#A7D8B4"/>' +   /* head */
@@ -57,20 +58,21 @@
     id: 'willow-story-corner-activity',
 
     strings: {
-      title: { en: "Willow's Story Corner" },
-      prompt: { en: 'Listen to both tales, then tap who!' },
-      willowIntro: { en: 'Two tales today! Listen, then tell me who.' },
-      hearBoth: { en: '▶ Hear both tales' },
-      hearAgain: { en: '▶ Hear them again' },
-      theAsk: { en: 'Willow asks:' },
-      hintPick: { en: 'Tap who it is — or Both, or Neither!' },
-      hintWrong: { en: 'Hmm — listen to both tales again, then try.' },
-      willowWin: { en: 'Yes! You compared both tales!' }
+      title: { en: "Willow's Story Corner", fr: 'Le coin des histoires de Willow' },
+      prompt: { en: 'Listen to both tales, then tap who!', fr: 'Écoute, puis tape qui c’est !' },
+      willowIntro: { en: 'Two tales today! Listen, then tell me who.', fr: 'Deux histoires aujourd’hui ! Écoute, puis dis-moi qui.' },
+      hearBoth: { en: '▶ Hear both tales', fr: '▶ Écouter les deux histoires' },
+      hearAgain: { en: '▶ Hear them again', fr: '▶ Les écouter encore' },
+      theAsk: { en: 'Willow asks:', fr: 'Willow demande :' },
+      hintPick: { en: 'Tap who it is — or Both, or Neither!', fr: 'Tape qui c’est — ou Les deux, ou Aucun !' },
+      hintWrong: { en: 'Hmm — listen to both tales again, then try.', fr: 'Hmm — réécoute les deux histoires, puis essaie.' },
+      willowWin: { en: 'Yes! You compared both tales!', fr: 'Bravo ! Tu as comparé les deux histoires !' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks(null); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._narrToken = 0; this._spokeAsk = false;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -124,7 +126,7 @@
       var ask = api.el('div', 'wsc-ask');
       var lab = api.el('span', 'wsc-asklab'); lab.textContent = api.t('theAsk'); ask.appendChild(lab);
       var q = api.el('span', 'wsc-asktxt'); q.textContent = v.prompt; ask.appendChild(q);
-      var sp = api.el('button', 'wsc-spk'); sp.type = 'button'; sp.setAttribute('aria-label', 'Hear the question'); sp.textContent = '🔊';
+      var sp = api.el('button', 'wsc-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'fr' ? 'Écouter la question' : 'Hear the question'); sp.textContent = '🔊';
       sp.addEventListener('click', function () { speak(v.prompt); }); ask.appendChild(sp);
       root.appendChild(ask);
 
@@ -133,7 +135,8 @@
       v.options.forEach(function (o) {
         var b = api.el('button', 'wsc-opt' + (self.sel === o.key ? ' wsc-sel' : '') + (o.key === 'both' || o.key === 'neither' ? ' wsc-opt-bn' : '')); b.type = 'button'; b.setAttribute('data-key', o.key);
         if (o.key === 'a' || o.key === 'b') { var em = api.el('span', 'wsc-oemoji'); em.setAttribute('aria-hidden', 'true'); em.textContent = EMOJI[(o.key === 'a' ? v.a.glyph : v.b.glyph)] || '🐾'; b.appendChild(em); }
-        var t = api.el('span', 'wsc-olabel'); t.textContent = o.label; b.appendChild(t);
+        var lbl = (LANG === 'fr' && o.key === 'both') ? 'Les deux' : (LANG === 'fr' && o.key === 'neither') ? 'Aucun des deux' : o.label;
+        var t = api.el('span', 'wsc-olabel'); t.textContent = lbl; b.appendChild(t);
         b.addEventListener('click', function () { self._tapOpt(o.key); });
         opts.appendChild(b);
       });
@@ -177,7 +180,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/willow-story-corner-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks((row.paramsL10n && row.paramsL10n[LANG]) || row.params); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[willow-story-corner] manifest load failed:', e.message); });
     },
 
@@ -217,9 +220,9 @@
         /* side-by-side tales on wider screens */
         + '@media (min-width:560px){.wsc-tales{flex-direction:row;}}'
         /* short viewports: tighten so the tales + question + options + shell Check clear the fold */
-        + '@media (max-height:760px){.wsc-root{gap:3px;}.wsc-tales{flex-direction:row;}.wsc-willow{width:clamp(38px,8vw,46px);}.wsc-bemoji{font-size:clamp(18px,5vw,24px);}.wsc-bcap{-webkit-line-clamp:2;line-clamp:2;}.wsc-opt{min-height:44px;padding:5px 11px;}.wsc-hear{min-height:34px;}}'
+        + '@media (max-height:880px){.wsc-root{gap:3px;}.wsc-tales{flex-direction:row;gap:6px;}.wsc-tale{padding:4px 6px;}.wsc-willow{width:clamp(38px,8vw,46px);}.wsc-say{padding:4px 9px;}.wsc-bemoji{font-size:clamp(18px,5vw,24px);}.wsc-bcap{-webkit-line-clamp:2;line-clamp:2;line-height:1.1;}.wsc-opt{min-height:44px;padding:5px 11px;}.wsc-hear{min-height:34px;}}'
         /* very short (320×640): clamp captions + speech to one line + tighten every band so the options + shell Check clear the fold (the full lines stay spoken) */
-        + '@media (max-height:660px){.wsc-root{gap:2px;padding:5px;}.wsc-wrow{display:none;}.wsc-talehead{margin-bottom:1px;}.wsc-bemoji{font-size:18px;}.wsc-bcap{-webkit-line-clamp:1;line-clamp:1;font-size:9.5px;}.wsc-ask{padding:4px 8px;}.wsc-asktxt{font-size:12px;}.wsc-opt{min-height:44px;padding:4px 9px;}.wsc-hear{min-height:32px;}}'   /* the mascot row is dropped only at this tightest height; the shell prompt carries the instruction */
+        + '@media (max-height:660px){.wsc-root{gap:1px;padding:5px;}.wsc-wrow{display:none;}.wsc-hear{min-height:32px;margin-bottom:0;}.wsc-tales{gap:4px;}.wsc-tale{padding:3px 5px;}.wsc-talehead{margin-bottom:0;}.wsc-strip{gap:4px;}.wsc-bemoji{font-size:16px;}.wsc-bcap{-webkit-line-clamp:1;line-clamp:1;font-size:9px;line-height:1.05;}.wsc-ask{padding:2px 6px;}.wsc-asklab{font-size:9px;}.wsc-asktxt{font-size:11px;line-height:1.1;}.wsc-opts{gap:4px;}.wsc-opt{min-height:44px;padding:4px 9px;}}'   /* the mascot row is dropped only at this tightest height; the shell prompt carries the instruction */
         + '@media (max-width:380px){.wsc-root{gap:3px;padding:7px;}.wsc-say{font-size:11.5px;}.wsc-bcap{font-size:9.5px;}.wsc-asktxt{font-size:12.5px;}.wsc-opt{padding:5px 9px;font-size:13px;}}'
         + '@media (prefers-reduced-motion: reduce){.wsc-opt{transition:none!important;}}';
       var tag = document.createElement('style'); tag.setAttribute('data-willow-story-corner', ''); tag.textContent = css; document.head.appendChild(tag);

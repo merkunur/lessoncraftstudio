@@ -32,10 +32,40 @@
         { "id": "of-bake",   "band": 2, "aId": "owl",  "bId": "frog",  "dim": "madeSomething", "prompt": "Who made or baked something?" }
       ]
     },
+    "paramsL10n": {
+      "fr": {
+        "stories": {
+          "fox":   { "name": "Renard", "glyph": "fox",   "facts": { "lostSomething": true, "foundIt": true, "keptTrying": true },
+            "beats": [ { "panel": "fox-1", "caption": "Renard a perdu son écharpe rouge." }, { "panel": "fox-2", "caption": "Il cherche, cherche encore." }, { "panel": "fox-3", "caption": "Il la trouve sous les feuilles." } ] },
+          "bunny": { "name": "Lapin", "glyph": "bunny", "facts": { "lostSomething": true, "foundIt": true, "gotHelp": true },
+            "beats": [ { "panel": "bunny-1", "caption": "Lapin a perdu sa balle." }, { "panel": "bunny-2", "caption": "Un ami l’aide à chercher." }, { "panel": "bunny-3", "caption": "Ensemble, ils trouvent la balle." } ] },
+          "bear":  { "name": "Ours", "glyph": "bear",  "facts": { "madeSomething": true, "gotWet": true, "keptTrying": true },
+            "beats": [ { "panel": "bear-1", "caption": "Ours a construit un château de sable." }, { "panel": "bear-2", "caption": "Une grosse vague l’a éclaboussé." }, { "panel": "bear-3", "caption": "Ours en construit un nouveau." } ] },
+          "mouse": { "name": "Souris", "glyph": "mouse", "facts": { "madeSomething": true, "sharedIt": true },
+            "beats": [ { "panel": "mouse-1", "caption": "Souris a préparé de petits muffins." }, { "panel": "mouse-2", "caption": "Elle les partage avec ses amis." }, { "panel": "mouse-3", "caption": "Tout le monde se régale." } ] },
+          "owl":   { "name": "Hibou", "glyph": "owl",   "facts": { "feltScared": true },
+            "beats": [ { "panel": "owl-1", "caption": "Hibou entend un bruit effrayant." }, { "panel": "owl-2", "caption": "C’est juste un ami !" }, { "panel": "owl-3", "caption": "Hibou se sent rassuré." } ] },
+          "frog":  { "name": "Grenouille", "glyph": "frog",  "facts": { "climbedHigh": true },
+            "beats": [ { "panel": "frog-1", "caption": "Grenouille grimpe une grande colline." }, { "panel": "frog-2", "caption": "Elle fait voler un cerf-volant." }, { "panel": "frog-3", "caption": "Tout en haut, elle crie de joie." } ] }
+        },
+        "rounds": [
+          { "id": "fb-lost",   "band": 1, "aId": "fox",  "bId": "bunny", "dim": "lostSomething", "prompt": "Qui a perdu quelque chose ?" },
+          { "id": "fb-help",   "band": 1, "aId": "fox",  "bId": "bunny", "dim": "gotHelp",       "prompt": "Qui a été aidé par un ami ?" },
+          { "id": "fb-try",    "band": 1, "aId": "fox",  "bId": "bunny", "dim": "keptTrying",    "prompt": "Qui a continué d’essayer ?" },
+          { "id": "fb-climb",  "band": 1, "aId": "fox",  "bId": "bunny", "dim": "climbedHigh",   "prompt": "Qui a grimpé tout en haut ?" },
+          { "id": "bm-made",   "band": 1, "aId": "bear", "bId": "mouse", "dim": "madeSomething", "prompt": "Qui a construit ou préparé quelque chose ?" },
+          { "id": "bm-share",  "band": 2, "aId": "bear", "bId": "mouse", "dim": "sharedIt",      "prompt": "Qui a partagé avec ses amis ?" },
+          { "id": "bm-wet",    "band": 2, "aId": "bear", "bId": "mouse", "dim": "gotWet",        "prompt": "Qui a été éclaboussé par l’eau ?" },
+          { "id": "of-scared", "band": 2, "aId": "owl",  "bId": "frog",  "dim": "feltScared",    "prompt": "Qui a eu peur, puis s’est rassuré ?" },
+          { "id": "of-climb",  "band": 2, "aId": "owl",  "bId": "frog",  "dim": "climbedHigh",   "prompt": "Qui est monté tout en haut ?" },
+          { "id": "of-bake",   "band": 2, "aId": "owl",  "bId": "frog",  "dim": "madeSomething", "prompt": "Qui a fabriqué ou cuisiné quelque chose ?" }
+        ]
+      }
+    },
     "theme": null,
-    "slug": { "en": "willows-story-corner" },
-    "page_title": { "en": "Willow's Story Corner — Two Tales, Alike or Different? (Kindergarten)" },
-    "page_intro": { "en": "A free interactive Kindergarten reading game for comparing characters across stories: Willow the tortoise reads TWO short tales about two animal friends. Listen to both, then answer how the friends' adventures are alike and different — tap WHO lost something, who got help, who kept trying, or 'Both' and 'Neither.' Comparing and contrasting what happens to characters in two stories is the heart of Common Core RL.K.9." },
+    "slug": { "en": "willows-story-corner", "fr": "comparer-deux-histoires-personnages-gs" },
+    "page_title": { "en": "Willow's Story Corner — Two Tales, Alike or Different? (Kindergarten)", "fr": "Le coin des histoires de Willow — Comparer deux histoires (GS)" },
+    "page_intro": { "en": "A free interactive Kindergarten reading game for comparing characters across stories: Willow the tortoise reads TWO short tales about two animal friends. Listen to both, then answer how the friends' adventures are alike and different — tap WHO lost something, who got help, who kept trying, or 'Both' and 'Neither.' Comparing and contrasting what happens to characters in two stories is the heart of Common Core RL.K.9.", "fr": "Willow la tortue lit à voix haute deux petites histoires d’animaux, puis pose une question. Votre enfant écoute, compare les deux personnages et leurs aventures, puis tape qui : le premier, le second, les deux ou aucun des deux. Un jeu d’écoute et de compréhension entièrement gratuit et interactif, à faire directement dans le navigateur, sans rien installer." },
     "kid_prompt_template": "compare-tales"
   }
 ]

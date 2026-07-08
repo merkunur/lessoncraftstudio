@@ -69,6 +69,26 @@
       srEstimate: 'Schätze, wie viele Kästchen dieses Beet bedecken.',
       srResolved: 'Das ganze Beet ist bedeckt – Fläche {area}.',
       srProgress: 'Beet bedeckt: {covered} von {total} Kästchen.'
+    },
+    fr: {
+      tile: 'Recouvre tout le parterre avec des carreaux de mousse.',
+      repair: 'Répare le parterre : aucun trou, aucun carreau en double.',
+      estimate: 'Combien de carreaux faut-il pour recouvrir ce parterre ?',
+      finish: 'Termine de recouvrir le parterre.',
+      build: 'Construis un parterre de {n} carreaux exactement.',
+      win: 'Bravo ! Aire : {area}.',
+      gapLeft: 'Il reste un peu de terre à recouvrir.',
+      overLeft: 'Cette partie est déjà recouverte — enlève le carreau en trop.',
+      nudgeArea: 'Ces coins sont vides — compte seulement la mousse.',
+      ariaBed: 'parterre de fleurs',
+      ariaEmptyBed: 'un parterre de fleurs vide à mesurer',
+      cellCovered: 'ligne {r}, colonne {c}, recouverte',
+      cellNot: 'ligne {r}, colonne {c}, non recouverte',
+      cellDouble: 'ligne {r}, colonne {c}, carreau en double, touche pour en enlever un',
+      choiceUnits: '{value} carreaux',
+      srEstimate: 'Devine combien de carreaux recouvrent ce parterre.',
+      srResolved: 'Le parterre est entièrement recouvert — aire {area}.',
+      srProgress: 'Parterre recouvert : {covered} carreaux sur {total}.'
     }
   };
   function txt(k, args) {
@@ -80,6 +100,7 @@
   function areaUnitPhrase(n) {
     var lang = (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en';
     if (lang === 'de') return n + ' Kästchen';
+    if (lang === 'fr') return n === 1 ? '1 carreau' : n + ' carreaux';
     return n === 1 ? '1 square unit' : n + ' square units';
   }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
@@ -119,13 +140,13 @@
   var PatchworkMeadowActivity = {
     id: 'patchwork-meadow-activity',
     strings: {
-      title: { en: "Sprout's Patchwork Meadow", de: 'Sprouts Flickenwiese' },
-      instruction: { en: 'Cover Sprout’s flower beds with moss-patch squares — the area is how many squares cover the space!', de: 'Belege Sprouts Beete mit Moos-Kästchen – die Fläche ist die Anzahl der Kästchen, die den Platz bedecken!' },
-      qtile: { en: 'Cover the whole bed with moss patches.', de: 'Bedecke das ganze Beet mit Moos-Kästchen.' },
-      qrepair: { en: 'Fix the bed — no bare spots, no double patches.', de: 'Bessere das Beet aus – keine kahlen Stellen, keine doppelten Kästchen.' },
-      qestimate: { en: 'How many square units will cover this bed?', de: 'Wie viele Kästchen bedecken dieses Beet?' },
-      qfinish: { en: 'Finish covering the bed.', de: 'Belege das Beet fertig.' },
-      qbuild: { en: 'Build a bed of exactly {n} square units for {n} carrots.', de: 'Baue ein Beet aus genau {n} Kästchen für {n} Karotten.' }
+      title: { en: "Sprout's Patchwork Meadow", de: 'Sprouts Flickenwiese', fr: 'La prairie en patchwork de Sprout' },
+      instruction: { en: 'Cover Sprout’s flower beds with moss-patch squares — the area is how many squares cover the space!', de: 'Belege Sprouts Beete mit Moos-Kästchen – die Fläche ist die Anzahl der Kästchen, die den Platz bedecken!', fr: 'Recouvre les parterres de Sprout avec des carreaux de mousse — l’aire, c’est le nombre de carreaux qui recouvrent l’espace !' },
+      qtile: { en: 'Cover the whole bed with moss patches.', de: 'Bedecke das ganze Beet mit Moos-Kästchen.', fr: 'Recouvre tout le parterre avec des carreaux de mousse.' },
+      qrepair: { en: 'Fix the bed — no bare spots, no double patches.', de: 'Bessere das Beet aus – keine kahlen Stellen, keine doppelten Kästchen.', fr: 'Répare le parterre : aucun trou, aucun carreau en double.' },
+      qestimate: { en: 'How many square units will cover this bed?', de: 'Wie viele Kästchen bedecken dieses Beet?', fr: 'Combien de carreaux faut-il pour recouvrir ce parterre ?' },
+      qfinish: { en: 'Finish covering the bed.', de: 'Belege das Beet fertig.', fr: 'Termine de recouvrir le parterre.' },
+      qbuild: { en: 'Build a bed of exactly {n} square units for {n} carrots.', de: 'Baue ein Beet aus genau {n} Kästchen für {n} Karotten.', fr: 'Construis un parterre de {n} carreaux exactement pour {n} carottes.' }
     },
 
     init: function (api) {

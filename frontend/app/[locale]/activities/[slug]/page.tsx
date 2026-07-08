@@ -41,7 +41,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'wake-up-pip.retell-story.rl-k-2': { de: '2' },                        // Nacherzählen mit Schlüsseldetails + wichtig-vs-unwichtig-vs-gehört-nicht-dazu Relevanzurteil (supply-key/fix-memory) = DE Klasse 2 (en Kindergarten); K-cluster content-drives-higher
   'two-tales.compare.rl-1-9': { de: '2' },                               // zwei erzählende Geschichten vergleichen (Gemeinsamkeiten/Unterschiede, same-vs-only-one set-logic) = intertextueller Textvergleich → DE Klasse 2 (en Grade 1)
   'linc-fact-chain.connect.ri-k-3': { de: '2' },                         // Sachverhalte verknüpfen (Reihenfolge + Ursache-Wirkung) — Kausalschluss über zwei Sachtext-Aussagen = DE Klasse 2 (en Kindergarten); K-cluster content-drives-higher
-  'marlo-magnifier.trait-evidence.rl-1-3': { de: '3' },                  // Charaktereigenschaft aus einer Handlung erschließen + mit Textstelle belegen = schlussfolgerndes Lesen/Textbeleg → DE Klasse 3 (en Grade 1); #84/#91/#93 evidence-ladder
+  'marlo-magnifier.trait-evidence.rl-1-3': { de: '3', fr: '2' },          // Charaktereigenschaft aus einer Handlung erschließen + mit Textstelle belegen = schlussfolgerndes Lesen/Textbeleg → DE Klasse 3 (en Grade 1); #84/#91/#93 evidence-ladder; FR CE1: inférer un trait + justifier par un indice = attendu CE1 (« formuler des inférences / justifier son interprétation en s'appuyant sur le texte »), PAS la compréhension littérale CP
   'marina-headline-desk.main-topic.ri-2-2': { de: '3' },                 // Hauptthema eines Sachtexts — topic-vs-detail is the metatextual/higher-order skill (Wesentliches vom Detail unterscheiden) → DE Klasse 3 (en Grade 2)
   'wobble-museum.catch-drift.w-k-2': { de: '2' },                        // beim Thema bleiben / Textfokus — reading-on-text-level load (4 sentences/room) → DE Klasse 2 (en Kindergarten); Vorlesen-button mitigates but doesn't drop to Klasse 1
   'point-of-view.who-told.rl-1-6': { de: '2' },                          // Erzählperspektive/Standpunkt — DE Klasse 2 (Klasse 1 = still decoding; Klasse 3 = the reflective form; the concrete high/low viewpoint mechanic sits at Klasse 2) → en Grade 1
@@ -117,6 +117,7 @@ function effGrade(row: ActivityRow, locale: string): string {
    activities fall through to localizeStrand unchanged. Display-only (chip + JSON-LD
    teaches/targetDescription); related-activity matching keeps the raw alignment.strand. */
 const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
+  'marlo-magnifier.trait-evidence.rl-1-3': { fr: 'Comprendre et interpréter' }, // FR CE1: inférer un trait de personnage + le justifier par un indice du texte = interprétation (attribuer un trait + le fonder sur le texte), NOT littéral; = retell #49 / fable-morale #52; "Reading: Literature" has no fr in strand-names.ts; en/de fall through
   'juniper-story-lantern.central-message.rl-1-2': { fr: 'Comprendre et interpréter' }, // FR CE1: dégager la morale d'une fable = interpréter le sens/le message au-delà du littéral (cycle-2 Lecture et compréhension de l'écrit); NOT « Écouter de l'écrit et comprendre » (maternelle/GS pré-lecteur); "Reading: Literature" has no fr in strand-names.ts; en/de fall through
   'contraction.apostrophe.l-2-2-c': { fr: 'L’orthographe' }, // FR CE1: l'apostrophe d'élision = une marque orthographique (comme la majuscule #32 wally-capital-crane, l'accent, la cédille) — NOT grammaire/lexique; "Language" has no fr in strand-names.ts; en/de fall through
   'bea-two-bookshelves.story-or-fact.rl-1-5': { fr: 'Lecture et compréhension de l’écrit' }, // FR CP: reconnaître le type d'un livre — distinguer un récit d'un texte documentaire (« reconnaître les principaux genres de textes ») = compétence cycle-2 dès le CP, domaine « Lecture et compréhension de l'écrit »; NOT « Comprendre et interpréter » (= extraire/interpréter le SENS dans un texte; ici on CLASSE le texte par genre depuis les indices de couverture); "Reading: Literature" has no fr in strand-names.ts; en/de fall through
@@ -455,7 +456,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.171';
+  const ACTIVITY_WRAPPER_VERSION = '9.172';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

@@ -21,7 +21,7 @@
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -29,7 +29,7 @@
     var happy = mood === 'happy';
     var eyes = happy ? '<path d="M40 47 q3 -4 6 0 M54 47 q3 -4 6 0" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round"/>'
       : '<circle cx="43" cy="48" r="2.6" fill="#fff"/><circle cx="57" cy="48" r="2.6" fill="#fff"/>';
-    return '<svg class="mgf-coon-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Marlo, der Waschbär' : 'Marlo the raccoon') + '">' +
+    return '<svg class="mgf-coon-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Marlo le raton laveur' : LANG === 'de' ? 'Marlo, der Waschbär' : 'Marlo the raccoon') + '">' +
       '<path d="M28 24 L40 36 L24 40 Z" fill="#9AA0A6"/><path d="M72 24 L60 36 L76 40 Z" fill="#9AA0A6"/>' +   /* ears */
       '<ellipse cx="50" cy="54" rx="30" ry="27" fill="#AEB4BA"/>' +
       '<path d="M22 46 q28 -16 56 0 q-6 12 -16 12 h-24 q-10 0 -16 -12 Z" fill="#3A3F45"/>' +   /* mask */
@@ -42,16 +42,16 @@
     id: 'marlo-magnifier-activity',
 
     strings: {
-      title: { en: "Marlo's Magnifier", de: 'Marlos Lupe' },
-      prompt: { en: 'Find the detail that proves it.', de: 'Finde das Detail, das es beweist.' },
-      marloIntro: { en: 'A new case! Find the proof in the story.', de: 'Ein neuer Fall! Finde den Beweis in der Geschichte.' },
-      readStory: { en: '📖 Read the story', de: '📖 Vorlesen' },
-      readAgain: { en: '📖 Read it again', de: '📖 Noch einmal vorlesen' },
-      theAsk: { en: 'Which detail PROVES it?', de: 'Welches Detail beweist es?' },
-      clue: { en: 'Clue:', de: 'Hinweis:' },
-      hintPick: { en: 'Tap the detail that shows it is true!', de: 'Tippe auf das Detail, das es beweist!' },
-      hintWrong: { en: "That is true, but it doesn't prove it — look again.", de: 'Das stimmt zwar, aber es ist kein Beweis. Schau noch einmal!' },
-      win: { en: 'Case solved! That is the proof. 🔍', de: 'Fall gelöst! Das ist der Beweis. 🔍' }
+      title: { en: "Marlo's Magnifier", de: 'Marlos Lupe', fr: 'La loupe de Marlo' },
+      prompt: { en: 'Find the detail that proves it.', de: 'Finde das Detail, das es beweist.', fr: 'Trouve l’indice qui le prouve.' },
+      marloIntro: { en: 'A new case! Find the proof in the story.', de: 'Ein neuer Fall! Finde den Beweis in der Geschichte.', fr: 'Une nouvelle enquête ! Trouve la preuve cachée dans l’histoire.' },
+      readStory: { en: '📖 Read the story', de: '📖 Vorlesen', fr: '📖 Lire l’histoire' },
+      readAgain: { en: '📖 Read it again', de: '📖 Noch einmal vorlesen', fr: '📖 Relire l’histoire' },
+      theAsk: { en: 'Which detail PROVES it?', de: 'Welches Detail beweist es?', fr: 'Quel indice le PROUVE ?' },
+      clue: { en: 'Clue:', de: 'Hinweis:', fr: 'Indice :' },
+      hintPick: { en: 'Tap the detail that shows it is true!', de: 'Tippe auf das Detail, das es beweist!', fr: 'Tape l’indice qui montre que c’est vrai !' },
+      hintWrong: { en: "That is true, but it doesn't prove it — look again.", de: 'Das stimmt zwar, aber es ist kein Beweis. Schau noch einmal!', fr: 'C’est vrai, mais ça ne le prouve pas — regarde encore.' },
+      win: { en: 'Case solved! That is the proof. 🔍', de: 'Fall gelöst! Das ist der Beweis. 🔍', fr: 'Enquête résolue ! Voilà la preuve. 🔍' }
     },
     defaults: {},
 
@@ -86,7 +86,7 @@
       var clue = api.el('div', 'mgf-clue');
       var lab = api.el('span', 'mgf-cluelab'); lab.textContent = api.t('clue'); clue.appendChild(lab);
       var txt = api.el('span', 'mgf-cluetxt'); txt.textContent = v.trait; clue.appendChild(txt);
-      var sp = api.el('button', 'mgf-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'de' ? 'den Hinweis anhören' : 'hear the clue'); sp.textContent = '🔊';
+      var sp = api.el('button', 'mgf-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'fr' ? 'écouter l’indice' : LANG === 'de' ? 'den Hinweis anhören' : 'hear the clue'); sp.textContent = '🔊';
       sp.addEventListener('click', function () { speak(v.trait); }); clue.appendChild(sp);
       root.appendChild(clue);
 

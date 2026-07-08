@@ -192,6 +192,28 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "gabby-sayings.idioms.l-3-5-a": {
+      "about": [
+        "Gabby l'oie adore collectionner les drôles d'expressions ! À chaque tour, elle en montre une, glissée dans une petite phrase que votre enfant peut lire et écouter, puis elle lui demande ce qu'elle veut vraiment dire. Le jeu, c'est de ne pas se laisser piéger par le sens littéral : quand on dit « il pleut des cordes », il ne tombe évidemment pas de vraies cordes du ciel, cela signifie simplement qu'il pleut très fort.",
+        "En jouant, votre enfant apprend à distinguer le sens propre du sens figuré et à deviner le sens d'une expression grâce au contexte de la phrase. C'est une compétence travaillée dans les programmes officiels du CE2, autour du vocabulaire et de la compréhension. Les expressions imagées rendent la langue plus riche et plus amusante : les découvrir, c'est enrichir son vocabulaire tout en s'amusant. L'activité est entièrement gratuite, sans minuteur ni score : votre enfant avance à son rythme, tranquillement."
+      ],
+      "practices": [
+        "Comprendre le sens figuré d'une expression imagée",
+        "Distinguer le sens propre du sens figuré d'une phrase",
+        "Deviner le sens d'une expression grâce au contexte",
+        "Enrichir son vocabulaire d'expressions imagées françaises"
+      ],
+      "howToPlay": [
+        "Lis (ou écoute) l'expression de Gabby dans sa phrase.",
+        "Tape ce que l'expression veut vraiment dire, son vrai sens.",
+        "Vérifie ta réponse, puis passe à l'expression suivante."
+      ],
+      "learningGoals": [
+        "Votre enfant apprend à reconnaître qu'une expression imagée ne se comprend pas mot à mot.",
+        "Votre enfant apprend à distinguer le sens propre du sens figuré et à s'appuyer sur le contexte pour deviner ce qu'une expression veut dire.",
+        "Votre enfant enrichit son vocabulaire en découvrant de vraies expressions de la langue française."
+      ]
+    },
     "juniper-story-lantern.central-message.rl-1-2": {
       "about": [
         "Juniper le hérisson allume sa petite lanterne et raconte une fable : Le Lièvre et la Tortue, La Cigale et la Fourmi, Le Lion et le Rat, La Poule aux œufs d'or… Après l'histoire, il pose sa grande question : quelle est la morale de cette fable ? Votre enfant écoute le récit lu à voix haute, le lit à l'écran, puis tape la carte qui donne la vraie leçon — pas un détail de l'histoire, pas une phrase qui semble jolie mais qui passe à côté du sens.",

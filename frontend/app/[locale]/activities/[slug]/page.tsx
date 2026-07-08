@@ -117,6 +117,7 @@ function effGrade(row: ActivityRow, locale: string): string {
    activities fall through to localizeStrand unchanged. Display-only (chip + JSON-LD
    teaches/targetDescription); related-activity matching keeps the raw alignment.strand. */
 const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
+  'bea-two-bookshelves.story-or-fact.rl-1-5': { fr: 'Lecture et compréhension de l’écrit' }, // FR CP: reconnaître le type d'un livre — distinguer un récit d'un texte documentaire (« reconnaître les principaux genres de textes ») = compétence cycle-2 dès le CP, domaine « Lecture et compréhension de l'écrit »; NOT « Comprendre et interpréter » (= extraire/interpréter le SENS dans un texte; ici on CLASSE le texte par genre depuis les indices de couverture); "Reading: Literature" has no fr in strand-names.ts; en/de fall through
   'wake-up-pip.retell-story.rl-k-2': { fr: 'Comprendre et interpréter' }, // FR CP: reconstruire/raconter un récit dans l'ordre avec les détails clés = compréhension de la structure/l'ordre d'un récit → « Comprendre et interpréter » (cycle 2, Lecture et compréhension de l'écrit); NOT « Écouter de l'écrit et comprendre » (maternelle/GS — misplace le niveau CP); the child REORDERS pictures (n'oralise pas) → comprehension not oral production; "Reading: Literature" has no fr in strand-names.ts
   'story-spine.role.rl-k-3': { fr: 'Écouter de l’écrit et comprendre' }, // GS/maternelle: repérer début/problème/solution d'un récit lu à voix haute + images = compréhension d'un récit (domaine « Mobiliser le langage », partie « L'écrit ») — the child LISTENS (pré-lecteur); genre-neutral label shared with the RL-comparison (willow) + RI-main-idea (nila) siblings; "Reading: Literature" has no fr in strand-names.ts; en/de fall through to Reading: Literature / Literarische Texte verstehen
   'nila-pond.main-idea-net.ri-k-2': { fr: 'Écouter de l’écrit et comprendre' }, // GS/maternelle: écouter un texte documentaire narré + dégager l'idée principale = compréhension de l'oral (domaine « Mobiliser le langage », partie « L'écrit ») — the child LISTENS (pré-lecteur), genre-neutral label shared with the RL narrative sibling (willow); "Reading: Informational Text" has no fr in strand-names.ts (would leak EN); en/de fall through to Reading: Informational Text / Sachtexte verstehen
@@ -452,7 +453,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.165';
+  const ACTIVITY_WRAPPER_VERSION = '9.166';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

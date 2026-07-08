@@ -89,13 +89,55 @@
             { "title": "Wie Bäume so hoch wachsen", "blurb": "Echte Fakten, wie Bäume groß werden.", "type": "fact" },
             { "title": "Das mutige rote Boot", "blurb": "Ein kleines Boot segelt mutig durch den Sturm.", "type": "story" }
           ] }
+        ],
+        "fr": [
+          { "id": "sf1", "band": 1, "ask": "story", "books": [
+            { "title": "Les deux dragons endormis", "blurb": "Deux dragons cherchent un coin doux pour faire la sieste.", "type": "story" },
+            { "title": "Tout sur les insectes", "blurb": "Des infos sur les vrais insectes et leur maison.", "type": "fact" },
+            { "title": "Les pelleteuses et les grues", "blurb": "Comment les vraies machines creusent et soulèvent.", "type": "fact" }
+          ] },
+          { "id": "sf2", "band": 1, "ask": "story", "books": [
+            { "title": "Les os de ton corps", "blurb": "Les vrais os qui tiennent ton corps debout.", "type": "fact" },
+            { "title": "La moufle perdue de Lapin", "blurb": "Lapin saute partout dans la ville pour la retrouver.", "type": "story" },
+            { "title": "Comment poussent les grands arbres", "blurb": "Comment une graine devient un arbre, pour de vrai.", "type": "fact" }
+          ] },
+          { "id": "sf3", "band": 2, "ask": "story", "books": [
+            { "title": "Comment les abeilles font le miel", "blurb": "Comment les vraies abeilles fabriquent leur miel.", "type": "fact" },
+            { "title": "Les os de ton corps", "blurb": "Les vrais os qui tiennent ton corps debout.", "type": "fact" },
+            { "title": "Le courageux petit bateau rouge", "blurb": "Un petit bateau navigue à travers une grande tempête.", "type": "story" }
+          ] },
+          { "id": "sf4", "band": 2, "ask": "story", "books": [
+            { "title": "Comment poussent les grands arbres", "blurb": "Comment une graine devient un arbre, pour de vrai.", "type": "fact" },
+            { "title": "Le lutin et les chaussettes", "blurb": "Un lutin cherche partout des chaussettes disparues.", "type": "story" },
+            { "title": "Les pelleteuses et les grues", "blurb": "Comment les vraies machines creusent et soulèvent.", "type": "fact" }
+          ] },
+          { "id": "sf5", "band": 1, "ask": "fact", "books": [
+            { "title": "La moufle perdue de Lapin", "blurb": "Lapin saute partout dans la ville pour la retrouver.", "type": "story" },
+            { "title": "Le lutin et les chaussettes", "blurb": "Un lutin cherche partout des chaussettes disparues.", "type": "story" },
+            { "title": "Comment les abeilles font le miel", "blurb": "Comment les vraies abeilles fabriquent leur miel.", "type": "fact" }
+          ] },
+          { "id": "sf6", "band": 2, "ask": "fact", "books": [
+            { "title": "Les os de ton corps", "blurb": "Les vrais os qui tiennent ton corps debout.", "type": "fact" },
+            { "title": "Les deux dragons endormis", "blurb": "Deux dragons cherchent un coin doux pour faire la sieste.", "type": "story" },
+            { "title": "Les glands magiques de Pip", "blurb": "Pip l’écureuil plante des glands et fait un vœu.", "type": "story" }
+          ] },
+          { "id": "sf7", "band": 3, "ask": "fact", "books": [
+            { "title": "La moufle perdue de Lapin", "blurb": "Lapin saute partout dans la ville pour la retrouver.", "type": "story" },
+            { "title": "Le courageux petit bateau rouge", "blurb": "Un petit bateau navigue à travers une grande tempête.", "type": "story" },
+            { "title": "Comment poussent les grands arbres", "blurb": "Comment une graine devient un arbre, pour de vrai.", "type": "fact" }
+          ] },
+          { "id": "sf8", "band": 3, "ask": "fact", "books": [
+            { "title": "Les deux dragons endormis", "blurb": "Deux dragons cherchent un coin doux pour faire la sieste.", "type": "story" },
+            { "title": "Les pelleteuses et les grues", "blurb": "Comment les vraies machines creusent et soulèvent.", "type": "fact" },
+            { "title": "Le lutin et les chaussettes", "blurb": "Un lutin cherche partout des chaussettes disparues.", "type": "story" }
+          ] }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "bea-two-bookshelves", "de": "geschichte-oder-sachbuch-textsorten-unterscheiden-klasse-1" },
-    "page_title": { "en": "Bea's Two Bookshelves — Story Book or Fact Book? (Grade 1)", "de": "Geschichte oder Sachbuch? Textsorten unterscheiden" },
-    "page_intro": { "en": "Bea the bookworm keeps two bookshelves: one for STORY books that tell a make-believe tale, and one for FACT books that teach you about real things. Read the three book covers, then tap the one Bea asks for — a make-believe story, or a book of real facts. A Grade 1 reading game about telling story books from informational books, aligned to Common Core RL.1.5.", "de": "Geschichte oder Sachbuch? Erkenne am Buchdeckel, ob ein Buch eine erfundene Geschichte erzählt oder als Sachbuch echte Infos zeigt. Kostenlos und interaktiv für Klasse 1 – jetzt mit Bea üben!" },
+    "slug": { "en": "bea-two-bookshelves", "de": "geschichte-oder-sachbuch-textsorten-unterscheiden-klasse-1", "fr": "histoire-ou-documentaire-cp" },
+    "page_title": { "en": "Bea's Two Bookshelves — Story Book or Fact Book? (Grade 1)", "de": "Geschichte oder Sachbuch? Textsorten unterscheiden", "fr": "Les deux étagères de Bea — Récit ou documentaire ? (CP)" },
+    "page_intro": { "en": "Bea the bookworm keeps two bookshelves: one for STORY books that tell a make-believe tale, and one for FACT books that teach you about real things. Read the three book covers, then tap the one Bea asks for — a make-believe story, or a book of real facts. A Grade 1 reading game about telling story books from informational books, aligned to Common Core RL.1.5.", "de": "Geschichte oder Sachbuch? Erkenne am Buchdeckel, ob ein Buch eine erfundene Geschichte erzählt oder als Sachbuch echte Infos zeigt. Kostenlos und interaktiv für Klasse 1 – jetzt mit Bea üben!", "fr": "Bea, un petit ver de livre, a deux étagères : une pour les livres qui racontent une histoire inventée, une pour les livres documentaires qui expliquent de vraies choses. À chaque tour, votre enfant regarde trois livres et tape celui que Bea demande : un récit ou un documentaire. Un jeu de lecture gratuit et interactif, à jouer dans le navigateur." },
     "kid_prompt_template": "Tap the story book, or the fact book, that Bea asks for."
   }
 ]

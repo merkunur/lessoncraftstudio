@@ -27,6 +27,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'opposites.antonyms.k-l-5-b': { fr: '1' },                            // CP — relier un mot à son contraire (antonymes) + discriminer le contraire d'un mot de la même sorte = opération métalinguistique explicite « trouver un mot de sens contraire » du cycle 2 « Étude de la langue » (la maternelle travaille les contraires à l'oral); parité DE Klasse 1; US K.L.5.b K-cluster → FR CP
   'bingo-word-hunt.read-match.rf-k-3-d': { fr: '1' },                    // CP — lire des mots réguliers imprimés et discriminer des mots proches par la lettre/le son qui change = décodage graphophonologique du CP (la maternelle travaille la conscience phono à l'oral); US RF.K.3.d K-cluster → FR CP
   'mosaic-menders.area-match.3-md-c-6': { fr: '4' },                     // CM1: mesurer une aire par comptage d'une unité (le carreau) = compétence CM1 dans les repères de progression, pas la comparaison perceptive de CE2; en Grade 3 / de Klasse 3 unchanged
+  'patchwork-meadow.tile.3-md-c-6': { fr: '4' },                         // CM1: mesurer une aire par pavage/recouvrement d'une surface avec le carreau + compter les carreaux = attendu cycle 3/CM1 (« déterminer la mesure d'une aire à partir d'un pavage »), pas la comparaison perceptive de CE2; sibling of mosaic-menders; en Grade 3 / de Klasse 3 unchanged
   'sound-boxes.phoneme-position.rf-k-2-d': { de: '1' },                  // Klasse 1 (Schuleingangsphase): Lautanalyse (An-/In-/Auslaut heraushören) = Kern der phonologischen Bewusstheit (US RF.K.2.d; K-cluster → Klasse 1)
   'choice-board.read-cvc-word.rf-k-3': { de: '1' },                      // Klasse 1 — Erstlesen: Wörter erlesen (synthetisierendes Lesen) = Kern des Anfangsunterrichts (US RF.K.3; K-cluster → Klasse 1)
   'choice-board.onset-rime-blend.rf-k-2-c': { de: '1' },                 // Klasse 1 — Lautsynthese (Anlaut + Reim zusammenschleifen) = Vorstufe des Erlesens, Anfangsunterricht (US RF.K.2.c; K-cluster → Klasse 1)
@@ -462,7 +463,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.181';
+  const ACTIVITY_WRAPPER_VERSION = '9.182';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

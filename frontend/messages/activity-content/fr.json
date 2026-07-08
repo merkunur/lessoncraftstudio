@@ -1301,6 +1301,28 @@
         "Comparer des aires en comptant les carreaux plutôt qu’en jugeant à l’œil."
       ]
     },
+    "patchwork-meadow.tile.3-md-c-6": {
+      "about": [
+        "Sprout le lapin jardinier recouvre ses parterres de fleurs avec des carreaux de mousse, sans laisser le moindre trou et sans jamais superposer deux carreaux. Comme les parterres ont des formes irrégulières (en L, en escalier), il n'y a pas de longueur ni de largeur toute prête : pour connaître l'aire, il suffit de compter les carreaux qui recouvrent le parterre. À travers cinq actions, votre enfant apprend à recouvrir un parterre vide, à réparer un pavage qui a un trou et un carreau en double, à estimer l'aire d'un parterre avant de le remplir, à terminer un pavage déjà commencé et à construire un parterre d'exactement le nombre de carreaux demandé.",
+        "Cette activité fait mesurer une aire de la vraie manière : en couvrant l'espace avec des unités identiques et en les comptant, sans multiplier longueur par largeur, puisque les parterres sont irréguliers. L'enfant comprend ainsi que l'aire est un nombre de carreaux, et qu'elle ne change pas quand la forme change. Tout est gratuit, dans le navigateur, sans minuteur, sans score et sans compte : votre enfant avance à son rythme, en accord avec les programmes officiels de l'école."
+      ],
+      "practices": [
+        "Recouvrir une surface sans laisser de trou ni faire de chevauchement",
+        "Compter les carreaux pour trouver l'aire d'un parterre",
+        "Comprendre que l'aire ne dépend pas de la forme du parterre",
+        "Estimer l'aire d'une surface avant de la recouvrir",
+        "Construire une surface d'une aire donnée, carreau par carreau"
+      ],
+      "howToPlay": [
+        "Tape sur une case du parterre pour poser ou retirer un carreau de mousse.",
+        "Recouvre tout le parterre, puis compte les carreaux pour connaître l'aire."
+      ],
+      "learningGoals": [
+        "Mesurer une aire en comptant des carreaux",
+        "Recouvrir une surface sans trou ni superposition",
+        "Comprendre que l'aire est un nombre d'unités"
+      ]
+    },
     "span-length-gap.how-much-longer.2-md-a-4": {
       "about": [
         "Span, la chenille arpenteuse, adore mesurer. Elle montre à votre enfant deux bandes proportionnelles, chacune avec son nom et sa longueur en centimètres — par exemple un ruban de 8 cm et une ficelle de 5 cm.",

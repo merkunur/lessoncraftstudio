@@ -192,6 +192,30 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "wake-up-pip.retell-story.rl-k-2": {
+      "about": [
+        "Zut, Pip a encore dormi pendant toute l'histoire ! Votre enfant regarde alors la petite histoire qui défile en images, chacune lue à voix haute, puis, une fois l'histoire disparue, il la raconte à Pip en remettant les événements dans le bon ordre. Dans les niveaux un peu plus difficiles, il faut aussi retrouver l'image qui manque et écarter celle qui ne faisait pas partie de l'histoire.",
+        "En jouant, votre enfant apprend à raconter une histoire du début à la fin, à remettre les événements dans l'ordre et à garder les détails qui comptent : qui est là, quel est le problème et comment cela se termine. Il comprend peu à peu l'enchaînement du récit, la cause et la conséquence. Comme les images et la voix portent tout le sens, savoir lire n'est pas nécessaire : il suffit d'écouter et de regarder.",
+        "Ici, pas de chronomètre, pas de points, pas de bonne réponse à trouver le plus vite possible. Votre enfant avance à son rythme, essaie, recommence et prend le temps de bien raconter. L'activité est entièrement gratuite et s'appuie sur les compétences des programmes officiels du CP."
+      ],
+      "practices": [
+        "Remettre les événements d'une histoire dans le bon ordre.",
+        "Raconter une histoire en gardant les détails importants.",
+        "Comprendre l'enchaînement des événements, la cause et la conséquence.",
+        "Retrouver l'image qui manque et écarter celle qui n'était pas dans l'histoire."
+      ],
+      "howToPlay": [
+        "Regarde et écoute bien la petite histoire de Pip.",
+        "Une fois l'histoire terminée, remets les images dans le bon ordre.",
+        "Trouve l'image qui manque et enlève celle qui n'y était pas.",
+        "Raconte l'histoire à Pip pour le réveiller !"
+      ],
+      "learningGoals": [
+        "Votre enfant apprend à raconter une histoire dans l'ordre.",
+        "Votre enfant garde les détails importants d'un récit.",
+        "Votre enfant comprend l'enchaînement des événements d'une histoire."
+      ]
+    },
     "story-spine.role.rl-k-3": {
       "about": [
         "Dot le dragon présente une histoire toute simple en trois images, et chaque image se lit à voix haute quand on appuie sur le bouton 🔊. Votre enfant regarde, écoute, puis tape l'image qui est le début de l'histoire, celle qui montre le problème, et celle qui apporte la solution.",

@@ -41,7 +41,7 @@
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
 
   function pipSVG(mood) {
@@ -64,24 +64,24 @@
     id: 'wake-up-pip-activity',
 
     strings: {
-      title: { en: 'Wake Up, Pip!', de: 'Wach auf, Pip!' },
-      instruction: { en: 'Watch the story, then retell it to Pip.', de: 'Schau die Geschichte an und erzähl sie Pip nach.' },
-      prompt: { en: 'Tell Pip the story!', de: 'Erzähl Pip die Geschichte!' },
-      watchHint: { en: 'Watch the story. Then tell it to Pip!', de: 'Schau dir die Geschichte an. Dann erzähl sie Pip!' },
-      play: { en: '🔊 Play the story', de: '🔊 Geschichte abspielen' },
-      replay: { en: '🔊 Watch again', de: '🔊 Nochmal ansehen' },
-      toRetell: { en: 'Tell my friend! →', de: 'Erzähl es Pip! →' },
-      retellHint: { en: 'Put it back in order, then tell it!', de: 'Bring alles in die richtige Reihenfolge, dann erzähl es!' },
-      tellIt: { en: 'Tell it!', de: 'Erzähl es!' },
-      pipAsleep: { en: 'Zzz… what did I miss? You saw it — tell me!', de: 'Zzz… was habe ich verpasst? Du hast alles gesehen – erzähl es mir!' },
-      pipListen: { en: 'I am listening! Tell me the whole story…', de: 'Ich höre zu! Erzähl mir die ganze Geschichte…' },
-      pipWin: { en: 'Yes! I feel like I was THERE — you told it so I could see it!', de: 'Ja! Ich fühle mich, als wäre ich DABEI gewesen – so gut hast du es erzählt!' },
-      breakEBC: { en: 'Hmm — a part came before what caused it. Can you find it?', de: 'Hmm – ein Teil kommt vor dem, was ihn auslöst. Findest du ihn?' },
-      breakMP: { en: 'Wait — a piece is missing. What did I miss?', de: 'Moment – ein Teil fehlt. Was habe ich verpasst?' },
-      breakFDF: { en: "Hmm — something doesn't belong here. Can you spot it?", de: 'Hmm – etwas gehört hier nicht dazu. Entdeckst du es?' },
-      reteach: { en: 'Remember — a story starts with the problem, and each part makes the next one happen.', de: 'Denk dran: Eine Geschichte beginnt mit dem Problem, und jeder Teil bringt den nächsten in Gang.' },
-      coStart: { en: "Let's put this part where it belongs — see how it makes the next part happen?", de: 'Legen wir diesen Teil an die richtige Stelle – siehst du, wie er den nächsten in Gang bringt?' },
-      hintCheck: { en: 'Fill every spot, then tap Tell it!', de: 'Füll jeden Platz aus, dann tippe auf „Erzähl es!“' }
+      title: { en: 'Wake Up, Pip!', de: 'Wach auf, Pip!', fr: 'Réveille-toi, Pip !' },
+      instruction: { en: 'Watch the story, then retell it to Pip.', de: 'Schau die Geschichte an und erzähl sie Pip nach.', fr: 'Regarde l’histoire, puis raconte-la à Pip.' },
+      prompt: { en: 'Tell Pip the story!', de: 'Erzähl Pip die Geschichte!', fr: 'Raconte l’histoire à Pip !' },
+      watchHint: { en: 'Watch the story. Then tell it to Pip!', de: 'Schau dir die Geschichte an. Dann erzähl sie Pip!', fr: 'Regarde bien l’histoire. Puis raconte-la à Pip !' },
+      play: { en: '🔊 Play the story', de: '🔊 Geschichte abspielen', fr: '🔊 Écouter l’histoire' },
+      replay: { en: '🔊 Watch again', de: '🔊 Nochmal ansehen', fr: '🔊 Regarder encore' },
+      toRetell: { en: 'Tell my friend! →', de: 'Erzähl es Pip! →', fr: 'Raconte à mon ami ! →' },
+      retellHint: { en: 'Put it back in order, then tell it!', de: 'Bring alles in die richtige Reihenfolge, dann erzähl es!', fr: 'Remets l’histoire dans l’ordre, puis raconte-la !' },
+      tellIt: { en: 'Tell it!', de: 'Erzähl es!', fr: 'Raconte !' },
+      pipAsleep: { en: 'Zzz… what did I miss? You saw it — tell me!', de: 'Zzz… was habe ich verpasst? Du hast alles gesehen – erzähl es mir!', fr: 'Zzz… qu’est-ce que j’ai raté ? Tu as vu, toi — raconte-moi !' },
+      pipListen: { en: 'I am listening! Tell me the whole story…', de: 'Ich höre zu! Erzähl mir die ganze Geschichte…', fr: 'J’écoute ! Raconte-moi toute l’histoire…' },
+      pipWin: { en: 'Yes! I feel like I was THERE — you told it so I could see it!', de: 'Ja! Ich fühle mich, als wäre ich DABEI gewesen – so gut hast du es erzählt!', fr: 'Ouiii ! J’ai l’impression d’y être ! Tu racontes tellement bien !' },
+      breakEBC: { en: 'Hmm — a part came before what caused it. Can you find it?', de: 'Hmm – ein Teil kommt vor dem, was ihn auslöst. Findest du ihn?', fr: 'Hmm… une partie arrive avant ce qui la fait arriver. Tu la trouves ?' },
+      breakMP: { en: 'Wait — a piece is missing. What did I miss?', de: 'Moment – ein Teil fehlt. Was habe ich verpasst?', fr: 'Attends… il manque un morceau. Qu’est-ce que j’ai raté ?' },
+      breakFDF: { en: "Hmm — something doesn't belong here. Can you spot it?", de: 'Hmm – etwas gehört hier nicht dazu. Entdeckst du es?', fr: 'Hmm… une image n’est pas dans l’histoire. Tu la vois ?' },
+      reteach: { en: 'Remember — a story starts with the problem, and each part makes the next one happen.', de: 'Denk dran: Eine Geschichte beginnt mit dem Problem, und jeder Teil bringt den nächsten in Gang.', fr: 'Souviens-toi : une histoire commence par le problème, et chaque partie fait arriver la suivante.' },
+      coStart: { en: "Let's put this part where it belongs — see how it makes the next part happen?", de: 'Legen wir diesen Teil an die richtige Stelle – siehst du, wie er den nächsten in Gang bringt?', fr: 'Mettons cette partie à sa place… tu vois comme elle fait arriver la suivante ?' },
+      hintCheck: { en: 'Fill every spot, then tap Tell it!', de: 'Füll jeden Platz aus, dann tippe auf „Erzähl es!“', fr: 'Remplis toutes les places, puis appuie sur Raconte !' }
     },
     defaults: {},
 

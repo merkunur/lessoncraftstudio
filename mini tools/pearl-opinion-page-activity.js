@@ -21,7 +21,7 @@
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -29,7 +29,7 @@
     var happy = mood === 'happy';
     var eyes = happy ? '<path d="M40 46 q3 -4 6 0 M54 46 q3 -4 6 0" stroke="#2A2A35" stroke-width="2.4" fill="none" stroke-linecap="round"/>'
       : '<circle cx="43" cy="47" r="2.8" fill="#2A2A35"/><circle cx="57" cy="47" r="2.8" fill="#2A2A35"/>';
-    return '<svg class="pop-seal-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Pearl, die Robbe' : 'Pearl the seal') + '">' +
+    return '<svg class="pop-seal-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Pearl le phoque' : LANG === 'de' ? 'Pearl, die Robbe' : 'Pearl the seal') + '">' +
       '<ellipse cx="50" cy="58" rx="28" ry="26" fill="#8FA3B0"/>' +
       '<ellipse cx="24" cy="74" rx="9" ry="5" fill="#7B8E9B" transform="rotate(20 24 74)"/>' +   /* flipper */
       '<ellipse cx="76" cy="74" rx="9" ry="5" fill="#7B8E9B" transform="rotate(-20 76 74)"/>' +
@@ -44,14 +44,14 @@
     id: 'pearl-opinion-page-activity',
 
     strings: {
-      title: { en: "Pearl's Opinion Page", de: 'Pearls Meinungsseite' },
-      prompt: { en: 'Which reason backs up the point?', de: 'Welcher Grund stützt die Meinung?' },
-      pearlIntro: { en: 'I made a point! Which card backs it up?', de: 'Ich habe eine Meinung! Welche Karte stützt sie?' },
-      thePoint: { en: 'POINT:', de: 'MEINUNG:' },
-      theAsk: { en: 'Which reason backs it up?', de: 'Welcher Grund stützt sie?' },
-      hintPick: { en: 'Tap the reason that backs up the point!', de: 'Tippe auf den Grund, der die Meinung stützt!' },
-      hintWrong: { en: "That doesn't back it up — read the point again.", de: 'Das stützt sie nicht – lies die Meinung noch einmal.' },
-      win: { en: 'Yes! That reason backs up the point. 📰', de: 'Ja! Dieser Grund stützt die Meinung. 📰' }
+      title: { en: "Pearl's Opinion Page", de: 'Pearls Meinungsseite', fr: 'La page d’opinion de Pearl' },
+      prompt: { en: 'Which reason backs up the point?', de: 'Welcher Grund stützt die Meinung?', fr: 'Quelle raison justifie l’avis ?' },
+      pearlIntro: { en: 'I made a point! Which card backs it up?', de: 'Ich habe eine Meinung! Welche Karte stützt sie?', fr: 'J’ai donné mon avis ! Quelle carte le justifie ?' },
+      thePoint: { en: 'POINT:', de: 'MEINUNG:', fr: 'L’AVIS :' },
+      theAsk: { en: 'Which reason backs it up?', de: 'Welcher Grund stützt sie?', fr: 'Quelle raison justifie cet avis ?' },
+      hintPick: { en: 'Tap the reason that backs up the point!', de: 'Tippe auf den Grund, der die Meinung stützt!', fr: 'Tape la raison qui justifie l’avis !' },
+      hintWrong: { en: "That doesn't back it up — read the point again.", de: 'Das stützt sie nicht – lies die Meinung noch einmal.', fr: 'Ça ne le justifie pas — relis l’avis.' },
+      win: { en: 'Yes! That reason backs up the point. 📰', de: 'Ja! Dieser Grund stützt die Meinung. 📰', fr: 'Oui ! Cette raison justifie l’avis. 📰' }
     },
     defaults: {},
 
@@ -85,7 +85,7 @@
       var pt = api.el('div', 'pop-point');
       var lab = api.el('span', 'pop-ptlab'); lab.textContent = api.t('thePoint'); pt.appendChild(lab);
       var txt = api.el('span', 'pop-pttxt'); txt.textContent = v.point; pt.appendChild(txt);
-      var sp = api.el('button', 'pop-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'de' ? 'Meinung vorlesen' : 'hear the point'); sp.textContent = '🔊';
+      var sp = api.el('button', 'pop-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'fr' ? 'écouter l’avis' : LANG === 'de' ? 'Meinung vorlesen' : 'hear the point'); sp.textContent = '🔊';
       sp.addEventListener('click', function () { speak(v.point); }); pt.appendChild(sp);
       root.appendChild(pt);
 

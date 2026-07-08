@@ -137,21 +137,90 @@
               { "id": "o3", "kind": "restate", "text": "Kinder sollten immer beim Abwaschen helfen." }
             ]
           }
+        ],
+        "fr": [
+          {
+            "id": "park", "band": 1, "point": "Notre ville devrait construire un nouveau parc.",
+            "options": [
+              { "id": "o1", "kind": "reason", "text": "Parce que les enfants n’ont pas d’endroit sûr pour jouer." },
+              { "id": "o2", "kind": "restate", "text": "Notre ville a vraiment besoin d’un nouveau parc." },
+              { "id": "o3", "kind": "offtopic", "text": "La bibliothèque ferme à cinq heures." }
+            ]
+          },
+          {
+            "id": "helmet", "band": 1, "point": "On devrait porter un casque à vélo.",
+            "options": [
+              { "id": "o1", "kind": "restate", "text": "On devrait toujours porter un casque à vélo." },
+              { "id": "o2", "kind": "reason", "text": "Car il protège la tête en cas de chute." },
+              { "id": "o3", "kind": "offtopic", "text": "Les vélos rouges sont les plus beaux." }
+            ]
+          },
+          {
+            "id": "read", "band": 1, "point": "Les enfants devraient lire vingt minutes chaque jour.",
+            "options": [
+              { "id": "o1", "kind": "restate", "text": "Les enfants devraient lire beaucoup chaque jour." },
+              { "id": "o2", "kind": "offtopic", "text": "Le cours de maths est juste après le déjeuner." },
+              { "id": "o3", "kind": "reason", "text": "Parce que la lecture fait grandir le cerveau." }
+            ]
+          },
+          {
+            "id": "garden", "band": 2, "point": "Notre classe devrait faire un jardin.",
+            "options": [
+              { "id": "o1", "kind": "reason", "text": "Car les plantes nous donnent des légumes frais." },
+              { "id": "o2", "kind": "offtopic", "text": "La cloche sonne à trois heures." },
+              { "id": "o3", "kind": "restate", "text": "Notre classe devrait planter un grand jardin." }
+            ]
+          },
+          {
+            "id": "water", "band": 2, "point": "Les élèves devraient apporter une gourde à l’école.",
+            "options": [
+              { "id": "o1", "kind": "offtopic", "text": "Les bus sont peints en jaune vif." },
+              { "id": "o2", "kind": "reason", "text": "Parce que boire de l’eau te garde en bonne santé." },
+              { "id": "o3", "kind": "restate", "text": "Les élèves devraient apporter une gourde chaque jour." }
+            ]
+          },
+          {
+            "id": "lights", "band": 2, "point": "On devrait éteindre les lumières quand on quitte une pièce.",
+            "options": [
+              { "id": "o1", "kind": "restate", "text": "On devrait toujours éteindre les lumières en partant." },
+              { "id": "o2", "kind": "offtopic", "text": "Le vendredi, c’est le jour de la pizza à l’école." },
+              { "id": "o3", "kind": "reason", "text": "Parce que ça économise l’énergie." }
+            ]
+          },
+          {
+            "id": "dogs", "band": 3, "point": "Il faut promener son chien chaque jour.",
+            "options": [
+              { "id": "o1", "kind": "reason", "text": "Car la promenade garde l’animal heureux et en forme." },
+              { "id": "o2", "kind": "restate", "text": "Il faut vraiment promener son chien tous les jours." },
+              { "id": "o3", "kind": "offtopic", "text": "Les chats aiment dormir au soleil." }
+            ]
+          },
+          {
+            "id": "dishes", "band": 3, "point": "Les enfants devraient aider à laver la vaisselle.",
+            "options": [
+              { "id": "o1", "kind": "offtopic", "text": "Les cuillères sont plus petites que les fourchettes." },
+              { "id": "o2", "kind": "reason", "text": "Parce que ça t’apprend à prendre soin de ta maison." },
+              { "id": "o3", "kind": "restate", "text": "Les enfants devraient toujours aider à la vaisselle." }
+            ]
+          }
         ]
       }
     },
     "theme": null,
     "slug": {
       "en": "pearls-opinion-page",
-      "de": "behauptung-und-begruendung-den-passenden-grund-finden-klasse-3"
+      "de": "behauptung-und-begruendung-den-passenden-grund-finden-klasse-3",
+      "fr": "justifier-un-avis-trouver-la-bonne-raison-ce2"
     },
     "page_title": {
       "en": "Pearl's Opinion Page — Back It Up (Grade 2)",
-      "de": "Behauptung begründen: den passenden Grund finden – Klasse 3"
+      "de": "Behauptung begründen: den passenden Grund finden – Klasse 3",
+      "fr": "Justifier un avis : trouver la bonne raison – CE2"
     },
     "page_intro": {
       "en": "Pearl the seal writes the opinion page, and every column makes a POINT — \"Our town should build a new park.\" Your job: tap the card that BACKS IT UP with a real reason, not a card that just says the same thing again or talks about something else. A warm Grade 2 reading game about how reasons support an author's point, aligned to Common Core RI.2.8.",
-      "de": "Meinung begründen leicht gemacht: Finde mit Pearl den echten Grund, der eine Behauptung stützt – nicht nur die Wiederholung. Kostenlos & interaktiv, Klasse 3. Jetzt üben!"
+      "de": "Meinung begründen leicht gemacht: Finde mit Pearl den echten Grund, der eine Behauptung stützt – nicht nur die Wiederholung. Kostenlos & interaktiv, Klasse 3. Jetzt üben!",
+      "fr": "Justifier un avis, c'est facile : avec Pearl le phoque, trouve la vraie raison qui appuie une affirmation — pas seulement la répétition. Gratuit et interactif, CE2. À toi de jouer !"
     },
     "kid_prompt_template": "pearl-opinion-page"
   }

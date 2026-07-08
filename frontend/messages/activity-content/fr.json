@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "bea-two-bookshelves.story-or-fact.rl-1-5": {
+      "about": [
+        "Bea a deux étagères, et elle a besoin d'un coup de main pour ranger ses livres. À chaque tour, votre enfant découvre trois livres avec un titre et une petite phrase de présentation, qu'il peut écouter à voix haute d'un simple appui sur le bouton son. Il tape ensuite le livre que Bea réclame : un récit qui raconte une histoire inventée, ou un documentaire qui donne de vraies informations.",
+        "Peu à peu, votre enfant apprend à distinguer un récit d'un texte documentaire et à reconnaître le type d'un livre. Il repère les indices qui font la différence : des personnages et une aventure imaginaire d'un côté, de vraies choses expliquées de l'autre. C'est une vraie compétence de lecture et de compréhension de l'écrit, utile bien au-delà de l'école.",
+        "Ici, pas de chronomètre et pas de points : votre enfant avance à son rythme, sans pression. L'activité est entièrement gratuite et s'appuie sur les programmes officiels du CP."
+      ],
+      "practices": [
+        "Distinguer un récit d'un texte documentaire.",
+        "Reconnaître le type d'un livre.",
+        "Repérer si un livre raconte une histoire inventée ou donne de vraies infos.",
+        "Lire et comprendre un titre et une courte présentation."
+      ],
+      "howToPlay": [
+        "Regarde les trois livres.",
+        "Lis ou écoute leur petite présentation.",
+        "Tape le livre que Bea demande : une histoire, ou un documentaire."
+      ],
+      "learningGoals": [
+        "Votre enfant apprend à distinguer un récit d'un documentaire.",
+        "Votre enfant reconnaît le type d'un livre.",
+        "Votre enfant repère les indices qui montrent le genre d'un texte."
+      ]
+    },
     "wake-up-pip.retell-story.rl-k-2": {
       "about": [
         "Zut, Pip a encore dormi pendant toute l'histoire ! Votre enfant regarde alors la petite histoire qui défile en images, chacune lue à voix haute, puis, une fois l'histoire disparue, il la raconte à Pip en remettant les événements dans le bon ordre. Dans les niveaux un peu plus difficiles, il faut aussi retrouver l'image qui manque et écarter celle qui ne faisait pas partie de l'histoire.",

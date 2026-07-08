@@ -18,12 +18,12 @@
 
   function speak(text) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : 'en-US'); u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function wormSVG() {
-    return '<svg class="btb-worm-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Bea, die Bücherraupe' : 'Bea the bookworm') + '">' +
+    return '<svg class="btb-worm-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Bea le ver de livre' : LANG === 'de' ? 'Bea, die Bücherraupe' : 'Bea the bookworm') + '">' +
       '<path d="M24 70 q8 -14 20 -8 q12 6 22 -2 q12 -8 12 6" fill="none" stroke="#7FB069" stroke-width="11" stroke-linecap="round"/>' +
       '<circle cx="78" cy="58" r="11" fill="#9ACD7A"/>' +
       '<circle cx="75" cy="56" r="2.4" fill="#2A2A35"/><circle cx="82" cy="56" r="2.4" fill="#2A2A35"/>' +
@@ -37,14 +37,14 @@
     id: 'bea-two-bookshelves-activity',
 
     strings: {
-      title: { en: "Bea's Two Bookshelves", de: 'Beas zwei Bücherregale' },
-      instruction: { en: 'Tap the story book, or the fact book, that Bea asks for.', de: 'Tippe das Geschichtenbuch oder das Sachbuch an, das Bea sucht.' },
-      promptStory: { en: 'Which book tells a make-believe STORY?', de: 'Welches Buch erzählt eine ausgedachte Geschichte?' },
-      promptFact: { en: 'Which book gives you real FACTS?', de: 'Welches Buch erklärt dir echte Dinge?' },
-      beaIntro: { en: 'Story books tell a tale. Fact books teach real things!', de: 'Geschichten sind ausgedacht. Sachbücher erklären echte Dinge!' },
-      hintStory: { en: 'A story has made-up characters and a tale. Read the covers!', de: 'Eine Geschichte ist ausgedacht und hat erfundene Figuren. Lies die Buchdeckel genau!' },
-      hintFact: { en: 'A fact book teaches you about real things. Read the covers!', de: 'Ein Sachbuch erklärt dir echte Dinge. Lies die Buchdeckel genau!' },
-      win: { en: 'Yes! You found the right kind of book. 🐛', de: 'Ja! Du hast das richtige Buch gefunden. 🐛' }
+      title: { en: "Bea's Two Bookshelves", de: 'Beas zwei Bücherregale', fr: 'Les deux étagères de Bea' },
+      instruction: { en: 'Tap the story book, or the fact book, that Bea asks for.', de: 'Tippe das Geschichtenbuch oder das Sachbuch an, das Bea sucht.', fr: 'Tape le livre d’histoire, ou le livre documentaire, que Bea te demande.' },
+      promptStory: { en: 'Which book tells a make-believe STORY?', de: 'Welches Buch erzählt eine ausgedachte Geschichte?', fr: 'Quel livre raconte une HISTOIRE inventée ?' },
+      promptFact: { en: 'Which book gives you real FACTS?', de: 'Welches Buch erklärt dir echte Dinge?', fr: 'Quel livre donne de VRAIES infos ?' },
+      beaIntro: { en: 'Story books tell a tale. Fact books teach real things!', de: 'Geschichten sind ausgedacht. Sachbücher erklären echte Dinge!', fr: 'Les livres d’histoire racontent un conte. Les livres documentaires apprennent de vraies choses !' },
+      hintStory: { en: 'A story has made-up characters and a tale. Read the covers!', de: 'Eine Geschichte ist ausgedacht und hat erfundene Figuren. Lies die Buchdeckel genau!', fr: 'Une histoire a des personnages inventés et une aventure. Lis les couvertures !' },
+      hintFact: { en: 'A fact book teaches you about real things. Read the covers!', de: 'Ein Sachbuch erklärt dir echte Dinge. Lies die Buchdeckel genau!', fr: 'Un livre documentaire t’apprend de vraies choses. Lis les couvertures !' },
+      win: { en: 'Yes! You found the right kind of book. 🐛', de: 'Ja! Du hast das richtige Buch gefunden. 🐛', fr: 'Oui ! Tu as trouvé le bon type de livre. 🐛' }
     },
     defaults: {},
 

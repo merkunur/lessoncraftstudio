@@ -49,7 +49,7 @@
       : hmm ? '<path d="M48 58 q6 -3 12 1" stroke="#2A2A35" stroke-width="2.2" fill="none" stroke-linecap="round"/>'
         : '<path d="M48 57 q6 4 12 0" stroke="#2A2A35" stroke-width="2.2" fill="none" stroke-linecap="round"/>';
     var ear = listen ? '<path d="M30 30 q-7 -3 -4 6" stroke="#2A2A35" stroke-width="2" fill="none"/>' : '';
-    return '<svg class="np-nila-svg" viewBox="0 0 108 100" role="img" aria-label="' + (LANG === 'de' ? 'Nila die Otterdame' : 'Nila the otter') + '">'
+    return '<svg class="np-nila-svg" viewBox="0 0 108 100" role="img" aria-label="' + (LANG === 'fr' ? 'Nila la loutre' : LANG === 'de' ? 'Nila die Otterdame' : 'Nila the otter') + '">'
       + '<ellipse cx="54" cy="58" rx="32" ry="30" fill="#B98A5E"/>'
       + '<ellipse cx="54" cy="66" rx="20" ry="18" fill="#E9D6BE"/>'
       + '<circle cx="33" cy="34" r="9" fill="#B98A5E"/><circle cx="75" cy="34" r="9" fill="#B98A5E"/>'
@@ -81,22 +81,22 @@
     id: 'nila-pond-activity',
 
     strings: {
-      title: { en: "Nila's Idea Pond", de: 'Nilas Ideen-Teich' },
-      instruction: { en: '', de: '' },
-      prompt: { en: "What's the big idea?", de: 'Worum geht es?' },
-      readAgain: { en: '🔊 Read again', de: '🔊 Nochmal vorlesen' },
-      commit: { en: "That's the big idea!", de: 'Das ist die Hauptsache!' },
-      schoolHint: { en: 'Bring the true details home. Send back the one that was NOT in the story.', de: 'Bring die echten Details nach Hause – und schick den Fisch zurück, der nicht in der Geschichte war.' },
-      supplyHint: { en: 'Which one was in the story?', de: 'Welcher von diesen zwei kam in der Geschichte vor?' },
-      pondLabel: { en: 'Back to the pond', de: 'Zurück in den Teich' },
-      slotLabel: { en: 'Detail', de: 'Detail' },
-      nilaListen: { en: 'Listen to the little story…', de: 'Hör dir die kleine Geschichte an …' },
-      nilaPickFirst: { en: 'Tap a fish, then tell me the big idea!', de: 'Tipp einen Fisch an und sag mir, worum es geht.' },
-      nilaWrong: { en: "Hmm — let's listen again.", de: 'Hmm – hören wir noch einmal zu.' },
-      nilaSchool: { en: 'Now bring the true details home!', de: 'Jetzt bring die echten Details nach Hause.' },
-      nilaWin: { en: 'You found the big idea!', de: 'Du hast die Hauptsache gefunden!' },
-      hintCheck: { en: 'Find the big idea first, then tap Check!', de: 'Finde zuerst die Hauptsache, dann tippe auf „Prüfen".' },
-      retellPrefix: { en: 'So it was all about this. ', de: 'Es ging also die ganze Zeit um das hier: ' }
+      title: { en: "Nila's Idea Pond", de: 'Nilas Ideen-Teich', fr: 'L’étang aux idées de Nila' },
+      instruction: { en: '', de: '', fr: '' },
+      prompt: { en: "What's the big idea?", de: 'Worum geht es?', fr: 'De quoi parle ce texte ?' },
+      readAgain: { en: '🔊 Read again', de: '🔊 Nochmal vorlesen', fr: '🔊 Écouter encore' },
+      commit: { en: "That's the big idea!", de: 'Das ist die Hauptsache!', fr: 'C’est l’idée principale !' },
+      schoolHint: { en: 'Bring the true details home. Send back the one that was NOT in the story.', de: 'Bring die echten Details nach Hause – und schick den Fisch zurück, der nicht in der Geschichte war.', fr: 'Ramène à la maison les détails vrais. Renvoie celui qui n’était PAS dans l’histoire.' },
+      supplyHint: { en: 'Which one was in the story?', de: 'Welcher von diesen zwei kam in der Geschichte vor?', fr: 'Lequel était dans l’histoire ?' },
+      pondLabel: { en: 'Back to the pond', de: 'Zurück in den Teich', fr: 'Retour à l’étang' },
+      slotLabel: { en: 'Detail', de: 'Detail', fr: 'Détail' },
+      nilaListen: { en: 'Listen to the little story…', de: 'Hör dir die kleine Geschichte an …', fr: 'Écoute la petite histoire…' },
+      nilaPickFirst: { en: 'Tap a fish, then tell me the big idea!', de: 'Tipp einen Fisch an und sag mir, worum es geht.', fr: 'Touche un poisson, puis dis-moi l’idée principale !' },
+      nilaWrong: { en: "Hmm — let's listen again.", de: 'Hmm – hören wir noch einmal zu.', fr: 'Hmm… on écoute encore une fois.' },
+      nilaSchool: { en: 'Now bring the true details home!', de: 'Jetzt bring die echten Details nach Hause.', fr: 'Maintenant, ramène les détails vrais à la maison !' },
+      nilaWin: { en: 'You found the big idea!', de: 'Du hast die Hauptsache gefunden!', fr: 'Tu as trouvé l’idée principale !' },
+      hintCheck: { en: 'Find the big idea first, then tap Check!', de: 'Finde zuerst die Hauptsache, dann tippe auf „Prüfen".', fr: 'Trouve d’abord l’idée principale, puis touche Vérifier !' },
+      retellPrefix: { en: 'So it was all about this. ', de: 'Es ging also die ganze Zeit um das hier: ', fr: 'C’est donc ça, l’idée principale : ' }
     },
     defaults: {},
 

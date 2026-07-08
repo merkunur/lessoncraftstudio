@@ -116,6 +116,7 @@ function effGrade(row: ActivityRow, locale: string): string {
    activities fall through to localizeStrand unchanged. Display-only (chip + JSON-LD
    teaches/targetDescription); related-activity matching keeps the raw alignment.strand. */
 const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
+  'nila-pond.main-idea-net.ri-k-2': { fr: 'Écouter de l’écrit et comprendre' }, // GS/maternelle: écouter un texte documentaire narré + dégager l'idée principale = compréhension de l'oral (domaine « Mobiliser le langage », partie « L'écrit ») — the child LISTENS (pré-lecteur), genre-neutral label shared with the RL narrative sibling (willow); "Reading: Informational Text" has no fr in strand-names.ts (would leak EN); en/de fall through to Reading: Informational Text / Sachtexte verstehen
   'opposites.antonyms.k-l-5-b': { fr: 'Le lexique' }, // FR CP: les contraires/antonymes = travail sur le vocabulaire → sous-domaine cycle-2 « Le lexique » (comme ziggy/olive/roary/sage); "Language" has no fr in strand-names.ts (would leak EN); en/de fall through to Language / (de sibling label)
   'willow-story-corner.compare-tales.rl-k-9': { fr: 'Écouter de l’écrit et comprendre' }, // GS/maternelle: écouter deux récits narrés + comparer les personnages = compréhension de l'oral (domaine « Mobiliser le langage », partie « L'écrit ») — the child LISTENS (pré-lecteur), NOT « Lecture et compréhension de l'écrit » (CP décodage); "Reading: Literature" has no fr in strand-names.ts (would leak EN); en/de fall through to Reading: Literature / Literarische Texte verstehen
   'comparison-creek.river-steer.k-cc-c-7': { fr: 'Découvrir les nombres et leurs utilisations' }, // GS-anchored: the maternelle domain (programmes cycle 1) — the cycle-2 auto-map „Nombres et calcul" reads a year off next to the « Grande section » chip; en/de fall through to Counting & Cardinality / Zählen und Mengen
@@ -448,7 +449,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.162';
+  const ACTIVITY_WRAPPER_VERSION = '9.163';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

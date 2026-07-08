@@ -41,13 +41,33 @@
             "choices": [ { "text": "Man macht aus etwas Kleinem etwas Großes.", "kind": "correct" }, { "text": "Aus einer Mücke wird ein Elefant.", "kind": "literal" }, { "text": "Man vergisst eine Sache ganz schnell wieder.", "kind": "off" } ] },
           { "id": "baer-aufbinden", "band": 3, "idiom": "jemandem einen Bären aufbinden", "sentence": "Du warst gar nicht beim Zirkus – du willst mir einen Bären aufbinden!",
             "choices": [ { "text": "Man bindet jemandem einen Bären fest.", "kind": "literal" }, { "text": "Man erzählt jemandem etwas Erfundenes.", "kind": "correct" }, { "text": "Man hilft jemandem beim Tragen.", "kind": "off" } ] }
+        ],
+        "fr": [
+          { "id": "chat-gorge", "band": 1, "idiom": "avoir un chat dans la gorge", "sentence": "Ce matin, Léa n’arrive pas à chanter : elle a un chat dans la gorge.",
+            "choices": [ { "text": "Elle est enrouée et a du mal à parler.", "kind": "correct" }, { "text": "Un petit chat est coincé dans sa gorge.", "kind": "literal" }, { "text": "Elle a très faim ce matin.", "kind": "off" } ] },
+          { "id": "pleut-cordes", "band": 1, "idiom": "il pleut des cordes", "sentence": "Regarde par la fenêtre : il pleut des cordes, on ne peut pas sortir !",
+            "choices": [ { "text": "Des cordes tombent du ciel avec la pluie.", "kind": "literal" }, { "text": "Dehors, le temps est sec et ensoleillé.", "kind": "off" }, { "text": "L’averse est vraiment très forte, on est trempés.", "kind": "correct" } ] },
+          { "id": "chair-poule", "band": 1, "idiom": "avoir la chair de poule", "sentence": "Le film faisait si peur que Tom avait la chair de poule.",
+            "choices": [ { "text": "Sa peau se hérisse de petits frissons.", "kind": "correct" }, { "text": "Sa peau devient de la peau de poule.", "kind": "literal" }, { "text": "Il éclate de rire sans pouvoir s’arrêter.", "kind": "off" } ] },
+          { "id": "faim-loup", "band": 2, "idiom": "avoir une faim de loup", "sentence": "Après le sport, Inès a une faim de loup et dévore son goûter.",
+            "choices": [ { "text": "Un loup affamé rôde tout près d’elle.", "kind": "literal" }, { "text": "Elle est trop fatiguée pour manger.", "kind": "off" }, { "text": "Elle a un appétit énorme, elle mangerait tout !", "kind": "correct" } ] },
+          { "id": "tomber-pommes", "band": 2, "idiom": "tomber dans les pommes", "sentence": "En voyant le sang, Hugo est tombé dans les pommes.",
+            "choices": [ { "text": "Il s’est évanoui d’un seul coup.", "kind": "correct" }, { "text": "Il est tombé au milieu des pommes du verger.", "kind": "literal" }, { "text": "Il s’est mis à pleurer très fort.", "kind": "off" } ] },
+          { "id": "dans-la-lune", "band": 2, "idiom": "être dans la lune", "sentence": "Pendant la leçon, Zoé est dans la lune et n’écoute pas la maîtresse.",
+            "choices": [ { "text": "Elle voyage sur la Lune, très loin dans le ciel.", "kind": "literal" }, { "text": "Elle est distraite et rêve au lieu d’écouter.", "kind": "correct" }, { "text": "Elle est très en colère contre la maîtresse.", "kind": "off" } ] },
+          { "id": "memoire-elephant", "band": 3, "idiom": "avoir une mémoire d’éléphant", "sentence": "Papi se souvient de tout : il a une mémoire d’éléphant.",
+            "choices": [ { "text": "Il oublie toujours où il pose ses affaires.", "kind": "off" }, { "text": "Il garde un vrai éléphant dans sa mémoire.", "kind": "literal" }, { "text": "Il se rappelle absolument tout, même les vieux souvenirs.", "kind": "correct" } ] },
+          { "id": "poil-main", "band": 3, "idiom": "avoir un poil dans la main", "sentence": "Léo ne veut jamais aider à ranger : il a un poil dans la main.",
+            "choices": [ { "text": "Il est très paresseux et fuit le travail.", "kind": "correct" }, { "text": "Un poil a poussé au creux de sa main.", "kind": "literal" }, { "text": "Il est trop maladroit et casse tout.", "kind": "off" } ] },
+          { "id": "langue-chat", "band": 3, "idiom": "donner sa langue au chat", "sentence": "Léa cherche la réponse de la devinette, puis elle donne sa langue au chat.",
+            "choices": [ { "text": "Elle tend sa langue vers le petit chat.", "kind": "literal" }, { "text": "Elle renonce à deviner et demande la solution.", "kind": "correct" }, { "text": "Elle trouve enfin la bonne réponse toute seule.", "kind": "off" } ] }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "gabby-sayings", "de": "redewendungen-verstehen-uebertragene-bedeutung-klasse-3" },
-    "page_title": { "en": "Gabby's Funny Sayings — What Does It Really Mean? (Grade 3)", "de": "Redewendungen Klasse 3: übertragene Bedeutung üben" },
-    "page_intro": { "en": "Gabby the goose loves funny sayings! When we say \"it's raining cats and dogs,\" no animals are really falling — it just means it is raining hard. Read the saying, then tap what it REALLY means, not what the words literally say. A Grade 3 vocabulary game about figurative language, aligned to Common Core L.3.5.a.", "de": "Redewendungen verstehen: Was bedeutet „Daumen drücken“ wirklich? Tippe die übertragene Bedeutung an statt der wörtlichen Falle. Kostenlos, interaktiv, für Klasse 3 – jetzt mitraten!" },
+    "slug": { "en": "gabby-sayings", "de": "redewendungen-verstehen-uebertragene-bedeutung-klasse-3", "fr": "comprendre-les-expressions-imagees-sens-figure-ce2" },
+    "page_title": { "en": "Gabby's Funny Sayings — What Does It Really Mean? (Grade 3)", "de": "Redewendungen Klasse 3: übertragene Bedeutung üben", "fr": "Les drôles d'expressions de Gabby — Le sens figuré (CE2)" },
+    "page_intro": { "en": "Gabby the goose loves funny sayings! When we say \"it's raining cats and dogs,\" no animals are really falling — it just means it is raining hard. Read the saying, then tap what it REALLY means, not what the words literally say. A Grade 3 vocabulary game about figurative language, aligned to Common Core L.3.5.a.", "de": "Redewendungen verstehen: Was bedeutet „Daumen drücken“ wirklich? Tippe die übertragene Bedeutung an statt der wörtlichen Falle. Kostenlos, interaktiv, für Klasse 3 – jetzt mitraten!", "fr": "Avec Gabby l'oie, votre enfant lit une expression imagée dans une phrase, puis trouve ce qu'elle veut vraiment dire. Il apprend à distinguer le sens propre du sens figuré : « avoir un chat dans la gorge » ne veut pas dire qu'un chat est vraiment là, mais qu'on est enroué et qu'on a du mal à parler ! Une activité gratuite et interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte à créer." },
     "kid_prompt_template": "What does the saying really mean?"
   }
 ]

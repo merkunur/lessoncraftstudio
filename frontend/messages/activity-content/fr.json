@@ -192,6 +192,31 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "opposites.antonyms.k-l-5-b": {
+      "about": [
+        "Au marché-miroir, Quill le hérisson ne conclut un échange qu'à une condition : votre enfant doit lui apporter le contraire du mot, l'autre bout, et pas seulement un mot de la même sorte. Face à « noir », il faut trouver « blanc » ; face à « grand », « petit » ; face à « pousser », « tirer ». Plusieurs mini-jeux varient le plaisir : trouver le contraire, équilibrer une balance, envoyer chaque mot à la bonne porte, repérer la paire qui n'en est pas une, ou remettre à l'endroit une chambre « à l'envers ».",
+        "En jouant, votre enfant enrichit son vocabulaire et comprend une relation de sens précieuse : celle des contraires. Il apprend surtout à distinguer un vrai contraire d'un mot simplement voisin — noir et blanc sont bien des contraires, tandis que le rouge n'est qu'une autre couleur. Comme chaque mot est porté par une image et peut être lu à voix haute, savoir lire n'est pas indispensable : le sens passe par le dessin et par l'oreille.",
+        "Ici, pas de chronomètre, pas de points, aucune pression. Votre enfant avance à son rythme, essaie, recommence et découvre les contraires tranquillement. C'est entièrement gratuit et le jeu s'appuie sur les notions de vocabulaire des programmes officiels du CP."
+      ],
+      "practices": [
+        "Trouver le contraire d'un mot.",
+        "Distinguer un contraire d'un mot de la même sorte.",
+        "Enrichir son vocabulaire des contraires (grand/petit, chaud/froid…).",
+        "Comprendre la relation de sens « contraire »."
+      ],
+      "howToPlay": [
+        "Regarde le mot et son image.",
+        "Trouve son contraire — l'autre bout !",
+        "Tape le contraire, ou envoie-le à la bonne porte.",
+        "Rends le mot à Quill et fais l'échange."
+      ],
+      "learningGoals": [
+        "Votre enfant apprend à trouver le contraire d'un mot.",
+        "Votre enfant enrichit son vocabulaire.",
+        "Votre enfant distingue un contraire d'un simple mot voisin.",
+        "Votre enfant comprend la relation de sens « contraire »."
+      ]
+    },
     "willow-story-corner.compare-tales.rl-k-9": {
       "about": [
         "Dans le coin des histoires, Willow la tortue lit à voix haute deux courtes histoires d'animaux, avec trois images pour chacune. Votre enfant les écoute jusqu'au bout, puis Willow lui pose une question du genre « Qui a perdu quelque chose ? » ou « Qui a été aidé ? ». Il compare alors les deux aventures et tape sa réponse : le premier personnage, le second, « Les deux » ou « Aucun des deux ».",

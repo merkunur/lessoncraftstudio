@@ -192,6 +192,28 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "jasper-just-right.real-life.l-1-5-c": {
+      "about": [
+        "Avec Jasper le geai, votre enfant découvre que chaque objet du quotidien a une utilité bien précise. Jasper décrit une situation toute simple — « Il fait nuit et tu es fatigué, où vas-tu te reposer ? » — et l'enfant choisit, parmi trois images, l'objet qui correspond vraiment à ce besoin : le lit pour dormir, le verre pour boire, les ciseaux pour couper le papier. Petit à petit, il apprend à relier un mot à son usage dans la vie réelle et à comprendre à quoi servent les choses qui l'entourent.",
+        "Cette activité enrichit le vocabulaire du quotidien tout en développant le raisonnement : l'enfant ne se contente pas de reconnaître un objet, il réfléchit à sa fonction. Elle accompagne en douceur le travail de langage prévu par les programmes officiels du CP. Tout est gratuit, se joue dans le navigateur, sans minuteur ni score et sans aucune pression — juste le plaisir de comprendre le monde un objet à la fois, aux côtés de Jasper."
+      ],
+      "practices": [
+        "Relier un objet à une situation de la vie quotidienne",
+        "Comprendre à quoi sert chaque objet",
+        "Associer un mot à son usage réel",
+        "Enrichir le vocabulaire du quotidien"
+      ],
+      "howToPlay": [
+        "Lis la petite situation racontée par Jasper.",
+        "Tape l'image de l'objet qui convient parmi les trois propositions.",
+        "Jasper te félicite quand tu as trouvé le bon objet !"
+      ],
+      "learningGoals": [
+        "Votre enfant apprend à relier un mot à son usage dans la vie réelle.",
+        "Votre enfant apprend à reconnaître à quoi servent les objets du quotidien.",
+        "Votre enfant enrichit son vocabulaire tout en développant son raisonnement."
+      ]
+    },
     "mango-animal-groups.collective-nouns.l-2-1-a": {
       "about": [
         "Avec Mango le singe, votre enfant part à la découverte des noms collectifs, ces mots surprenants qui nomment tout un groupe d'animaux d'un seul coup. Mango montre l'image d'un animal, puis l'enfant choisit, parmi trois propositions, le mot juste pour désigner leur groupe : un troupeau de vaches, une meute de loups, un banc de poissons, un essaim d'abeilles ou encore une volée d'oiseaux. Petit à petit, il comprend qu'un nom collectif est un seul mot capable de nommer une collection entière.",

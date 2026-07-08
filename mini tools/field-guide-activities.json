@@ -199,14 +199,108 @@
               { "id": "toc", "label": "Inhaltsverzeichnis", "gloss": "zeigt, in welchem Kapitel ein Thema steht", "functions": ["topic"], "affordance": "neutral" },
               { "id": "index", "label": "Register", "gloss": "zeigt, auf welcher Seite ein Wort steht", "functions": ["page"], "affordance": "neutral" }
             ] }
+        ],
+        "fr": [
+          { "id": "r1", "cog": "diagram", "skin": "diagram", "featureType": "caption", "fictional": true,
+            "question": { "functionPhrase": "briller" },
+            "items": [
+              { "id": "snood", "label": "Snoud", "gloss": "Le snoud l’aide à nager.", "functions": ["nager"], "affordance": "neutral" },
+              { "id": "frell", "label": "Frell", "gloss": "Le frell l’aide à briller.", "functions": ["briller"], "affordance": "neutral" },
+              { "id": "tarn", "label": "Tarn", "gloss": "Le tarn l’aide à creuser.", "functions": ["creuser"], "affordance": "neutral" }
+            ] },
+          { "id": "r2", "cog": "diagram", "skin": "diagram", "featureType": "caption", "fictional": true,
+            "question": { "functionPhrase": "grimper" },
+            "items": [
+              { "id": "blorp", "label": "Blorp", "gloss": "Le blorp l’aide à flotter.", "functions": ["flotter"], "affordance": "neutral" },
+              { "id": "gleen", "label": "Gline", "gloss": "Le gline l’aide à piquer.", "functions": ["piquer"], "affordance": "neutral" },
+              { "id": "fid", "label": "Fid", "gloss": "Le fid l’aide à grimper.", "functions": ["grimper"], "affordance": "neutral" }
+            ] },
+          { "id": "r3", "cog": "diagram", "skin": "diagram", "featureType": "caption", "fictional": true,
+            "question": { "functionPhrase": "étinceler" },
+            "items": [
+              { "id": "quib", "label": "Quib", "gloss": "Le quib l’aide à sauter.", "functions": ["sauter"], "affordance": "neutral" },
+              { "id": "sten", "label": "Sten", "gloss": "Le sten l’aide à se cacher.", "functions": ["se cacher"], "affordance": "neutral" },
+              { "id": "vorl", "label": "Vorl", "gloss": "Le vorl l’aide à étinceler.", "functions": ["étinceler"], "affordance": "neutral" }
+            ] },
+          { "id": "r4", "cog": "glossary", "skin": "page", "featureType": "glossary", "fictional": true,
+            "question": { "functionPhrase": "briller" },
+            "items": [
+              { "id": "snood", "label": "Snoud", "gloss": "une partie pour nager", "functions": ["nager"], "affordance": "neutral" },
+              { "id": "frell", "label": "Frell", "gloss": "une partie qui brille", "functions": ["briller"], "affordance": "neutral" },
+              { "id": "tarn", "label": "Tarn", "gloss": "une partie pour creuser", "functions": ["creuser"], "affordance": "neutral" }
+            ] },
+          { "id": "r5", "cog": "glossary", "skin": "page", "featureType": "glossary", "fictional": true,
+            "question": { "functionPhrase": "piquer" },
+            "items": [
+              { "id": "blorp", "label": "Blorp", "gloss": "une partie pour flotter", "functions": ["flotter"], "affordance": "neutral" },
+              { "id": "gleen", "label": "Gline", "gloss": "une partie qui pique", "functions": ["piquer"], "affordance": "neutral" },
+              { "id": "fid", "label": "Fid", "gloss": "une partie pour grimper", "functions": ["grimper"], "affordance": "neutral" }
+            ] },
+          { "id": "r6", "cog": "toc", "skin": "page", "featureType": "toc", "fictional": true,
+            "question": { "functionPhrase": "briller" },
+            "items": [
+              { "id": "ch1", "label": "Chapitre 1 : les Snouds", "gloss": "comment il nage", "functions": ["nager"], "affordance": "neutral", "page": 4 },
+              { "id": "ch2", "label": "Chapitre 2 : les Frells", "gloss": "comment il brille", "functions": ["briller"], "affordance": "neutral", "page": 9 },
+              { "id": "ch3", "label": "Chapitre 3 : les Tarns", "gloss": "comment il creuse", "functions": ["creuser"], "affordance": "neutral", "page": 14 }
+            ] },
+          { "id": "r7", "cog": "toc", "skin": "page", "featureType": "toc", "fictional": true,
+            "question": { "functionPhrase": "se cacher" },
+            "items": [
+              { "id": "ch1", "label": "Chapitre 1 : les Quibs", "gloss": "comment il saute", "functions": ["sauter"], "affordance": "neutral", "page": 3 },
+              { "id": "ch2", "label": "Chapitre 2 : les Stens", "gloss": "comment il se cache", "functions": ["se cacher"], "affordance": "neutral", "page": 8 },
+              { "id": "ch3", "label": "Chapitre 3 : les Vorls", "gloss": "comment il étincelle", "functions": ["étinceler"], "affordance": "neutral", "page": 12 }
+            ] },
+          { "id": "r8", "cog": "heading", "skin": "page", "featureType": "heading", "fictional": true,
+            "question": { "functionPhrase": "creuser" },
+            "items": [
+              { "id": "h1", "label": "Tout sur les Snouds", "gloss": "comment il nage", "functions": ["nager"], "affordance": "neutral" },
+              { "id": "h2", "label": "Tout sur les Frells", "gloss": "comment il brille", "functions": ["briller"], "affordance": "neutral" },
+              { "id": "h3", "label": "Tout sur les Tarns", "gloss": "comment il creuse", "functions": ["creuser"], "affordance": "neutral" }
+            ] },
+          { "id": "r9", "cog": "heading", "skin": "page", "featureType": "heading", "fictional": true,
+            "question": { "functionPhrase": "flotter" },
+            "items": [
+              { "id": "h1", "label": "Tout sur les Glines", "gloss": "comment il pique", "functions": ["piquer"], "affordance": "neutral" },
+              { "id": "h2", "label": "Tout sur les Fids", "gloss": "comment il grimpe", "functions": ["grimper"], "affordance": "neutral" },
+              { "id": "h3", "label": "Tout sur les Blorps", "gloss": "comment il flotte", "functions": ["flotter"], "affordance": "neutral" }
+            ] },
+          { "id": "r10", "cog": "menu", "skin": "page", "featureType": "menu", "fictional": true,
+            "question": { "functionPhrase": "chercher" },
+            "items": [
+              { "id": "drext", "label": "Drext", "gloss": "sert à tourner la page", "functions": ["tourner"], "affordance": "neutral" },
+              { "id": "glarn", "label": "Glarn", "gloss": "sert à chercher les faits perdus", "functions": ["chercher"], "affordance": "neutral" },
+              { "id": "pled", "label": "Pled", "gloss": "sert à lire à voix haute", "functions": ["lire à voix haute"], "affordance": "neutral" }
+            ] },
+          { "id": "r11", "cog": "index", "skin": "page", "featureType": "index", "fictional": true,
+            "question": { "functionPhrase": "briller" },
+            "items": [
+              { "id": "idx1", "label": "Snoud … page 4", "gloss": "À la page 4, on parle de nager.", "functions": ["nager"], "affordance": "neutral", "page": 4 },
+              { "id": "idx2", "label": "Frell … page 9", "gloss": "À la page 9, on parle de briller.", "functions": ["briller"], "affordance": "neutral", "page": 9 },
+              { "id": "idx3", "label": "Tarn … page 14", "gloss": "À la page 14, on parle de creuser.", "functions": ["creuser"], "affordance": "neutral", "page": 14 }
+            ] },
+          { "id": "r12", "cog": "which-feature", "skin": "page", "featureType": "which-feature", "fictional": false,
+            "question": { "functionPhrase": "meaning" },
+            "items": [
+              { "id": "sommaire", "label": "Sommaire", "gloss": "montre dans quel chapitre se trouve un sujet", "functions": ["topic"], "affordance": "neutral" },
+              { "id": "glossaire", "label": "Glossaire", "gloss": "explique ce qu’un mot veut dire", "functions": ["meaning"], "affordance": "neutral" },
+              { "id": "index", "label": "Index", "gloss": "montre à quelle page se trouve un mot", "functions": ["page"], "affordance": "neutral" }
+            ] },
+          { "id": "r13", "cog": "which-feature", "skin": "page", "featureType": "which-feature", "fictional": false,
+            "question": { "functionPhrase": "topic" },
+            "items": [
+              { "id": "glossaire", "label": "Glossaire", "gloss": "explique ce qu’un mot veut dire", "functions": ["meaning"], "affordance": "neutral" },
+              { "id": "sommaire", "label": "Sommaire", "gloss": "montre dans quel chapitre se trouve un sujet", "functions": ["topic"], "affordance": "neutral" },
+              { "id": "index", "label": "Index", "gloss": "montre à quelle page se trouve un mot", "functions": ["page"], "affordance": "neutral" }
+            ] }
         ]
       }
     },
-    "slug": { "en": "detective-deweys-field-guide", "de": "textmerkmale-sachtext-informationen-finden-klasse-2" },
-    "page_title": { "en": "Detective Dewey's Field Guide — Find Facts with Text Features", "de": "Textmerkmale nutzen – Sachbuch lesen, Klasse 2" },
+    "slug": { "en": "detective-deweys-field-guide", "de": "textmerkmale-sachtext-informationen-finden-klasse-2", "fr": "utiliser-les-outils-du-texte-documentaire-ce1" },
+    "page_title": { "en": "Detective Dewey's Field Guide — Find Facts with Text Features", "de": "Textmerkmale nutzen – Sachbuch lesen, Klasse 2", "fr": "Le carnet du détective Dewey — Lire un texte documentaire (CE1)" },
     "page_intro": {
       "en": "Help Detective Dewey find lost facts! Read the book's own tools — the table of contents, headings, glossary, and labeled pictures — to locate the answer, never by guessing. A Grade 1 reading activity aligned to Common Core 1.RI.5: know and use text features to locate key facts.",
-      "de": "Textmerkmale nutzen: Hilf Detektiv Dewey, im Sachbuch Informationen zu finden – mit Inhaltsverzeichnis, Glossar und Überschrift. Kostenlos und interaktiv, Klasse 2."
+      "de": "Textmerkmale nutzen: Hilf Detektiv Dewey, im Sachbuch Informationen zu finden – mit Inhaltsverzeichnis, Glossar und Überschrift. Kostenlos und interaktiv, Klasse 2.",
+      "fr": "Avec le détective Dewey, votre enfant apprend à se repérer dans un texte documentaire et à y trouver une information. À chaque énigme, il utilise les vrais outils du livre — le sommaire, le glossaire, les titres, l'index, un schéma légendé — pour répondre à la question posée. Les créatures de ce carnet sont imaginaires, alors on ne peut pas deviner : il faut ouvrir le bon outil et le lire. Une activité gratuite et interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte. Alignée sur les programmes officiels de l'école."
     },
     "kid_prompt_template": "Read the feature to find the fact!"
   }

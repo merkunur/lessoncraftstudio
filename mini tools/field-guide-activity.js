@@ -39,6 +39,15 @@
       found: 'Gefunden! Gut gelesen, Spürnase!',
       wordsToKnow: 'Wichtige Wörter',
       contents: 'Inhalt'
+    },
+    fr: {
+      readLine: 'Lis la page, puis tape la réponse.',
+      diagramLine: 'Lis la légende, puis tape la bonne partie.',
+      whichLine: 'Réfléchis à ce que sert chaque outil du livre.',
+      reread: 'Hmm… relisons ce que dit la page. Réessaie !',
+      found: 'TROUVÉ ! Bien lu, détective.',
+      wordsToKnow: 'Mots à connaître',
+      contents: 'Sommaire'
     }
   };
   function txt(k) { var lang = (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en'; return (L[lang] || L.en)[k] || L.en[k] || k; }
@@ -73,16 +82,16 @@
   var FieldGuideActivity = {
     id: 'field-guide',
     strings: {
-      title: { en: "Detective Dewey's Field Guide", de: 'Detektiv Deweys Forscherheft' },
-      instruction: { en: 'Read the book’s tools to find the fact!', de: 'Lies die Werkzeuge des Buches, um die Information zu finden!' },
-      qDiagram: { en: 'Which part helps it {fn}?', de: 'Welcher Teil hilft ihm beim {fn}?' },
-      qGlossary: { en: 'Which word means the part that can {fn}?', de: 'Welches Wort beschreibt den Teil zum {fn}?' },
-      qToc: { en: 'Which chapter is about how it can {fn}?', de: 'In welchem Kapitel geht es ums {fn}?' },
-      qHeading: { en: 'Which heading tells how it can {fn}?', de: 'Welche Überschrift handelt vom {fn}?' },
-      qMenu: { en: 'Which button helps you {fn}?', de: 'Welcher Knopf hilft dir beim {fn}?' },
-      qIndex: { en: 'Which line leads to the part that can {fn}?', de: 'Welche Zeile führt zur Stelle übers {fn}?' },
-      qWhichMeaning: { en: 'To find what a WORD means, which tool do you open?', de: 'Um herauszufinden, was ein WORT bedeutet — welches Buch-Werkzeug öffnest du?' },
-      qWhichTopic: { en: 'To find which chapter a TOPIC is in, which tool do you open?', de: 'Um herauszufinden, in welchem KAPITEL ein Thema steht — welches Buch-Werkzeug nimmst du?' }
+      title: { en: "Detective Dewey's Field Guide", de: 'Detektiv Deweys Forscherheft', fr: 'Le carnet du détective Dewey' },
+      instruction: { en: 'Read the book’s tools to find the fact!', de: 'Lies die Werkzeuge des Buches, um die Information zu finden!', fr: 'Lis les outils du livre pour trouver l’information !' },
+      qDiagram: { en: 'Which part helps it {fn}?', de: 'Welcher Teil hilft ihm beim {fn}?', fr: 'Quelle partie l’aide à {fn} ?' },
+      qGlossary: { en: 'Which word means the part that can {fn}?', de: 'Welches Wort beschreibt den Teil zum {fn}?', fr: 'Quel mot désigne la partie qui sert à {fn} ?' },
+      qToc: { en: 'Which chapter is about how it can {fn}?', de: 'In welchem Kapitel geht es ums {fn}?', fr: 'Quel chapitre explique comment il fait pour {fn} ?' },
+      qHeading: { en: 'Which heading tells how it can {fn}?', de: 'Welche Überschrift handelt vom {fn}?', fr: 'Quel titre raconte comment il fait pour {fn} ?' },
+      qMenu: { en: 'Which button helps you {fn}?', de: 'Welcher Knopf hilft dir beim {fn}?', fr: 'Quel bouton t’aide à {fn} ?' },
+      qIndex: { en: 'Which line leads to the part that can {fn}?', de: 'Welche Zeile führt zur Stelle übers {fn}?', fr: 'Quelle ligne mène à la partie qui sert à {fn} ?' },
+      qWhichMeaning: { en: 'To find what a WORD means, which tool do you open?', de: 'Um herauszufinden, was ein WORT bedeutet — welches Buch-Werkzeug öffnest du?', fr: 'Pour trouver ce qu’un MOT veut dire, quel outil ouvres-tu ?' },
+      qWhichTopic: { en: 'To find which chapter a TOPIC is in, which tool do you open?', de: 'Um herauszufinden, in welchem KAPITEL ein Thema steht — welches Buch-Werkzeug nimmst du?', fr: 'Pour trouver dans quel CHAPITRE un sujet se trouve, quel outil prends-tu ?' }
     },
 
     init: function (api) {

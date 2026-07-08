@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "bingo-word-hunt.read-match.rf-k-3-d": {
+      "about": [
+        "Bingo le beagle a un flair extraordinaire pour les mots ! Votre enfant regarde une image, puis lit trois petits mots qui se ressemblent presque — une seule lettre change, comme chat, chut et char. Il prononce chaque mot doucement et tape celui qui nomme l'image. L'activité est gratuite, fonctionne directement dans le navigateur et ne demande aucune installation.",
+        "L'enjeu, c'est le décodage : distinguer des mots très proches en repérant la lettre — et le son — qui les différencie. Les trois mots ont la même longueur et ne varient que d'une lettre, souvent la voyelle du milieu (pomme, somme, gomme), ce qui oblige à lire vraiment le mot en entier plutôt qu'à deviner d'après la première lettre. L'image donne le sens, et un petit haut-parleur permet de la réécouter.",
+        "Tout se passe dans le calme : pas de chronomètre, pas de points, pas de course. Votre enfant avance à son rythme, recommence autant de fois qu'il le souhaite et gagne en confiance. Les mots changent d'ordre à chaque partie pour renouveler l'exercice. L'activité s'appuie sur les programmes officiels pour l'apprentissage de la lecture."
+      ],
+      "practices": [
+        "Lire des mots réguliers en les déchiffrant lettre par lettre.",
+        "Distinguer des mots proches grâce à la lettre qui change.",
+        "Repérer le son de la lettre qui différencie deux mots.",
+        "Lire le mot en entier au lieu de deviner d'après le début."
+      ],
+      "howToPlay": [
+        "Regarde l'image, et écoute-la si tu veux en tapant le haut-parleur.",
+        "Lis les trois mots lentement, l'un après l'autre.",
+        "Tape le mot qui nomme l'image, puis valide."
+      ],
+      "learningGoals": [
+        "Votre enfant apprend à lire des mots proches sans les confondre.",
+        "Votre enfant repère la lettre et le son qui distinguent deux mots.",
+        "Votre enfant gagne en aisance dans le décodage, à son rythme."
+      ]
+    },
     "snippy.letter-formation.l-k-1-a": {
       "about": [
         "Snippy, un petit escargot tout doux, accompagne votre enfant pour former les lettres une à une. Une seule lettre s'affiche à la fois, et l'enfant la trace trait par trait : d'abord en suivant un chemin en pointillés avec des points numérotés, puis tout seul, de mémoire. L'activité est gratuite, fonctionne directement dans le navigateur et ne demande aucune installation.",

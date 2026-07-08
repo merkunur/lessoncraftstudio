@@ -45,13 +45,33 @@
             "choices": [ { "text": "ein Zeichen, das angibt, welcher Ton gespielt werden soll", "kind": "no-context" }, { "text": "die Bewertung, die zeigt, wie gut eine Leistung in der Schule war", "kind": "correct" }, { "text": "ein kleines Tier mit Flügeln, das nachts unterwegs ist", "kind": "off" } ] },
           { "id": "kiefer", "band": 3, "word": "Kiefer", "sentence": "Beim Gähnen tut mir der Kiefer richtig weh.",
             "choices": [ { "text": "ein hoher Nadelbaum, der im Wald wächst", "kind": "no-context" }, { "text": "ein Gefäß aus Metall, in dem man Suppe kocht", "kind": "off" }, { "text": "der Knochen im Gesicht, an dem die Zähne sitzen", "kind": "correct" } ] }
+        ],
+        "fr": [
+          { "id": "souris", "band": 1, "word": "souris", "sentence": "Le chat s’est caché pour attraper la souris grise.",
+            "choices": [ { "text": "un petit animal à longue queue qui grignote et se faufile partout", "kind": "correct" }, { "text": "un petit objet qu’on déplace avec la main pour bouger la flèche sur l’écran", "kind": "no-context" }, { "text": "une grande boîte en bois où l’on range ses livres et ses jouets", "kind": "off" } ] },
+          { "id": "feuille", "band": 1, "word": "feuille", "sentence": "En automne, une feuille rouge est tombée de l’arbre.",
+            "choices": [ { "text": "un morceau plat et fin sur lequel on écrit ou on dessine", "kind": "no-context" }, { "text": "la partie plate qui pousse sur les branches et change de couleur", "kind": "correct" }, { "text": "un récipient profond dans lequel on fait cuire la soupe", "kind": "off" } ] },
+          { "id": "orange", "band": 1, "word": "orange", "sentence": "Au goûter, Léa a épluché une orange bien juteuse.",
+            "choices": [ { "text": "un fruit rond et sucré, protégé par une peau épaisse", "kind": "correct" }, { "text": "la couleur que l’on obtient en mélangeant le rouge et le jaune", "kind": "no-context" }, { "text": "un petit oiseau au chant joyeux qui saute de branche en branche", "kind": "off" } ] },
+          { "id": "regle", "band": 2, "word": "règle", "sentence": "Pour tracer un trait bien droit, je prends ma règle en bois.",
+            "choices": [ { "text": "une consigne qu’il faut respecter pour bien jouer ou vivre ensemble", "kind": "no-context" }, { "text": "une boisson chaude qu’on boit le matin dans un grand bol", "kind": "off" }, { "text": "un petit instrument plat et gradué dont on se sert pour mesurer", "kind": "correct" } ] },
+          { "id": "baguette", "band": 2, "word": "baguette", "sentence": "La fée a agité sa baguette et une citrouille est apparue.",
+            "choices": [ { "text": "un pain long et croustillant qu’on achète chez le boulanger", "kind": "no-context" }, { "text": "un fin bâton magique qui sert à jeter des sorts et faire des prodiges", "kind": "correct" }, { "text": "une grosse pierre ronde qu’on lance très loin dans l’eau", "kind": "off" } ] },
+          { "id": "glace", "band": 2, "word": "glace", "sentence": "Après le repas, j’ai mangé une glace à la fraise.",
+            "choices": [ { "text": "une surface lisse où l’on voit son reflet quand on se regarde", "kind": "no-context" }, { "text": "une longue promenade qu’on fait à pied dans la forêt", "kind": "off" }, { "text": "une crème sucrée et froide qu’on déguste surtout quand il fait chaud", "kind": "correct" } ] },
+          { "id": "carte", "band": 3, "word": "carte", "sentence": "Pour trouver le chemin, papa a déplié la carte de la région.",
+            "choices": [ { "text": "un dessin qui représente un pays ou une ville pour se repérer", "kind": "correct" }, { "text": "un petit carton avec des figures qu’on utilise pour jouer à plusieurs", "kind": "no-context" }, { "text": "un habit chaud qu’on met sur les épaules quand il fait froid", "kind": "off" } ] },
+          { "id": "peche", "band": 3, "word": "pêche", "sentence": "Dans le verger, j’ai cueilli une pêche bien mûre et sucrée.",
+            "choices": [ { "text": "l’activité qui consiste à attraper des poissons avec une ligne", "kind": "no-context" }, { "text": "un fruit d’été tout rond, à la peau douce et au gros noyau", "kind": "correct" }, { "text": "un outil pointu qui sert à creuser des trous dans la terre", "kind": "off" } ] },
+          { "id": "avocat", "band": 3, "word": "avocat", "sentence": "Au tribunal, l’avocat défend l’accusé devant le juge.",
+            "choices": [ { "text": "un meuble en bois où l’on range ses habits bien pliés", "kind": "off" }, { "text": "un fruit vert à gros noyau qu’on écrase pour faire une sauce", "kind": "no-context" }, { "text": "une personne dont le métier est de représenter les gens en justice", "kind": "correct" } ] }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "fern-clue-garden", "de": "teekesselwoerter-mehrere-bedeutungen-klasse-2" },
-    "page_title": { "en": "Fern's Clue Garden — Find a Word's Meaning from the Sentence (Grade 2)", "de": "Teekesselwörter Klasse 2 – Wörter mit 2 Bedeutungen" },
-    "page_intro": { "en": "A free interactive Grade 2 vocabulary game: Fern the fawn reads the words around a tricky word to figure out what it means. Some words have more than one meaning — read the whole sentence, use the context clues, and tap the meaning that fits. Using sentence-level context as a clue to a word's meaning. Common Core L.2.4.a.", "de": "Teekesselwörter für Klasse 2 spielerisch üben: Lies den Satz und tipp die passende Bedeutung an. Kostenlos & interaktiv – jetzt mit Fern entdecken!" },
+    "slug": { "en": "fern-clue-garden", "de": "teekesselwoerter-mehrere-bedeutungen-klasse-2", "fr": "sens-d-un-mot-d-apres-le-contexte" },
+    "page_title": { "en": "Fern's Clue Garden — Find a Word's Meaning from the Sentence (Grade 2)", "de": "Teekesselwörter Klasse 2 – Wörter mit 2 Bedeutungen", "fr": "Le jardin d'indices de Fern — Le sens d'un mot dans la phrase" },
+    "page_intro": { "en": "A free interactive Grade 2 vocabulary game: Fern the fawn reads the words around a tricky word to figure out what it means. Some words have more than one meaning — read the whole sentence, use the context clues, and tap the meaning that fits. Using sentence-level context as a clue to a word's meaning. Common Core L.2.4.a.", "de": "Teekesselwörter für Klasse 2 spielerisch üben: Lies den Satz und tipp die passende Bedeutung an. Kostenlos & interaktiv – jetzt mit Fern entdecken!", "fr": "Avec Fern le faon, votre enfant lit une petite phrase, puis tape la définition du mot qui va avec le contexte. Certains mots ont plusieurs sens (« la souris », « une feuille », « la glace »…) : pour choisir le bon, il faut lire toute la phrase et s'appuyer sur les indices qu'elle donne. L'enfant apprend ainsi à comprendre un mot à plusieurs sens grâce au contexte et enrichit son vocabulaire, en lien avec les programmes officiels de l'école. C'est une activité gratuite et interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte — juste le plaisir de réfléchir à son rythme." },
     "kid_prompt_template": "context-clues"
   }
 ]

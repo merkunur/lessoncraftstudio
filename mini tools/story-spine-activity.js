@@ -33,6 +33,13 @@
       nProblem: 'Das Problem zeigt, was schiefgeht.',
       nSolution: 'Die Lösung zeigt, wie alles wieder gut wird.',
       hear: '🔊 Geschichte vorlesen'
+    },
+    fr: {
+      win: 'Oui ! {note}', winNote: 'Tu as trouvé cette partie de l’histoire !',
+      nSetting: 'Le début, c’est où et avec qui l’histoire commence.',
+      nProblem: 'Le problème, c’est le moment où quelque chose ne va pas.',
+      nSolution: 'La solution, c’est comment le problème s’arrange à la fin.',
+      hear: '🔊 Écouter l’histoire'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -77,8 +84,8 @@
   var StorySpineActivity = {
     id: 'story-spine-activity',
     strings: {
-      title: { en: "Dot's Story Spine", de: 'Dots Geschichten-Werkstatt' },
-      instruction: { en: 'Read the story with Dot, then tap which part does each job!', de: 'Lies die Geschichte mit Dot und tippe dann auf den richtigen Teil.' },
+      title: { en: "Dot's Story Spine", de: 'Dots Geschichten-Werkstatt', fr: 'L’atelier des histoires de Dot' },
+      instruction: { en: 'Read the story with Dot, then tap which part does each job!', de: 'Lies die Geschichte mit Dot und tippe dann auf den richtigen Teil.', fr: 'Écoute l’histoire avec Dot, puis tape la bonne partie !' },
       q: { en: '{q}' }
     },
 
@@ -234,9 +241,9 @@
 
     _srMirror: function () {
       var r = this._round, story = this._story(), wrap = el('div', 'ds-sronly'); wrap.setAttribute('aria-live', 'polite');
-      var partWord = LANG === 'de' ? 'Teil ' : 'Part ';
+      var partWord = LANG === 'fr' ? 'Partie ' : LANG === 'de' ? 'Teil ' : 'Part ';
       var caps = (story.panels || []).map(function (p, i) { return partWord + (i + 1) + ': ' + p.caption; }).join(' ');
-      var tail = LANG === 'de' ? ' Tippe auf den passenden Teil.' : ' Tap the part that matches.';
+      var tail = LANG === 'fr' ? ' Tape la partie qui correspond.' : LANG === 'de' ? ' Tippe auf den passenden Teil.' : ' Tap the part that matches.';
       wrap.innerHTML = '<p>' + caps + ' ' + r.prompt + tail + '</p>';
       return wrap;
     },

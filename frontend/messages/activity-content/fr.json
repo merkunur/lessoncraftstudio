@@ -192,6 +192,32 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "story-spine.role.rl-k-3": {
+      "about": [
+        "Dot le dragon présente une histoire toute simple en trois images, et chaque image se lit à voix haute quand on appuie sur le bouton 🔊. Votre enfant regarde, écoute, puis tape l'image qui est le début de l'histoire, celle qui montre le problème, et celle qui apporte la solution.",
+        "En jouant, votre enfant découvre la structure d'un récit : une histoire commence quelque part, quelque chose ne va pas, puis tout finit par s'arranger. C'est une belle façon de comprendre comment une histoire est construite. Comme les images et la voix portent tout le sens, savoir lire n'est pas nécessaire : c'est un jeu pensé pour les pré-lecteurs de grande section.",
+        "Il n'y a ni chronomètre ni points : votre enfant avance à son rythme, sans aucune pression. Le jeu est entièrement gratuit, se joue directement dans le navigateur sans rien installer, et s'appuie sur les compétences des programmes officiels de la maternelle."
+      ],
+      "practices": [
+        "Repérer le début d'une histoire.",
+        "Repérer le problème d'une histoire.",
+        "Repérer la solution d'une histoire.",
+        "Découvrir comment un récit est construit.",
+        "Écouter un texte lu et en comprendre le sens."
+      ],
+      "howToPlay": [
+        "Écoute la petite histoire de Dot, image après image.",
+        "Appuie sur le bouton 🔊 pour réécouter quand tu veux.",
+        "Tape l'image qui est le début de l'histoire.",
+        "Trouve ensuite le problème, puis la solution."
+      ],
+      "learningGoals": [
+        "Votre enfant découvre la structure d'un récit.",
+        "Votre enfant repère le début, le problème et la solution.",
+        "Votre enfant comprend comment une histoire est construite.",
+        "Votre enfant écoute un texte lu et en saisit le sens."
+      ]
+    },
     "nila-pond.main-idea-net.ri-k-2": {
       "about": [
         "Dans « L'étang aux idées de Nila », votre enfant retrouve Nila la loutre au bord de son étang. Nila lit à voix haute un court texte documentaire sur un animal — par exemple comment l'ours passe l'hiver : il a une épaisse fourrure, il se repose dans sa tanière, il reste bien au chaud. Votre enfant écoute, puis tape le poisson-idée qui dit de quoi le texte parle surtout. Ensuite, il ramène les vrais détails et renvoie le fait qui n'était pas dans le texte.",

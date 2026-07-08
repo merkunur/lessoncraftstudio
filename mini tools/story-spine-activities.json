@@ -53,6 +53,23 @@
             { "caption": "Plötzlich regnete es auf sie.", "glyphs": ["rain", "friend"], "role": "problem" },
             { "caption": "Sie aßen unter einem Regenschirm.", "glyphs": ["umbrella", "friend"], "role": "solution" }
           ] }
+        },
+        "fr": {
+          "mitten": { "title": "La moufle perdue", "panels": [
+            { "caption": "Bo le lapin saute dans la neige.", "glyphs": ["bunny", "snow"], "role": "setting" },
+            { "caption": "Près de l’arbre, Bo perd une moufle.", "glyphs": ["tree", "mitten"], "role": "problem" },
+            { "caption": "Un oiseau rapporte la moufle à Bo.", "glyphs": ["bird", "mitten"], "role": "solution" }
+          ] },
+          "carrot": { "title": "La carotte volée", "panels": [
+            { "caption": "Milli la souris a une carotte.", "glyphs": ["mouse", "carrot"], "role": "setting" },
+            { "caption": "Un oiseau attrape sa carotte !", "glyphs": ["bird", "carrot"], "role": "problem" },
+            { "caption": "Un ami rapporte la carotte à Milli.", "glyphs": ["friend", "carrot"], "role": "solution" }
+          ] },
+          "picnic": { "title": "Le pique-nique sous la pluie", "panels": [
+            { "caption": "Deux amis font un pique-nique.", "glyphs": ["friend", "basket"], "role": "setting" },
+            { "caption": "Puis la pluie tombe sur eux.", "glyphs": ["rain", "friend"], "role": "problem" },
+            { "caption": "Ils mangent sous un parapluie.", "glyphs": ["umbrella", "friend"], "role": "solution" }
+          ] }
         }
       },
       "roundsL10n": {
@@ -68,20 +85,36 @@
           { "id": "ds-pic-set",  "storyId": "picnic", "role": "setting",  "prompt": "Welcher Teil ist der ANFANG? (wo die Geschichte beginnt)" },
           { "id": "ds-pic-prob", "storyId": "picnic", "role": "problem",  "prompt": "Welcher Teil zeigt das PROBLEM? (was schiefgeht)" },
           { "id": "ds-pic-sol",  "storyId": "picnic", "role": "solution", "prompt": "Welcher Teil ist die LÖSUNG? (wie es wieder gut wird)" }
+        ],
+        "fr": [
+          { "id": "ds-mit-set",  "storyId": "mitten", "role": "setting",  "prompt": "Quelle partie est LE DÉBUT ? (où l’histoire commence)" },
+          { "id": "ds-mit-prob", "storyId": "mitten", "role": "problem",  "prompt": "Quelle partie montre LE PROBLÈME ? (ce qui ne va pas)" },
+          { "id": "ds-mit-sol",  "storyId": "mitten", "role": "solution", "prompt": "Quelle partie est LA SOLUTION ? (comment ça s’arrange)" },
+
+          { "id": "ds-car-set",  "storyId": "carrot", "role": "setting",  "prompt": "Quelle partie est LE DÉBUT ? (où l’histoire commence)" },
+          { "id": "ds-car-prob", "storyId": "carrot", "role": "problem",  "prompt": "Quelle partie montre LE PROBLÈME ? (ce qui ne va pas)" },
+          { "id": "ds-car-sol",  "storyId": "carrot", "role": "solution", "prompt": "Quelle partie est LA SOLUTION ? (comment ça s’arrange)" },
+
+          { "id": "ds-pic-set",  "storyId": "picnic", "role": "setting",  "prompt": "Quelle partie est LE DÉBUT ? (où l’histoire commence)" },
+          { "id": "ds-pic-prob", "storyId": "picnic", "role": "problem",  "prompt": "Quelle partie montre LE PROBLÈME ? (ce qui ne va pas)" },
+          { "id": "ds-pic-sol",  "storyId": "picnic", "role": "solution", "prompt": "Quelle partie est LA SOLUTION ? (comment ça s’arrange)" }
         ]
       }
     },
     "slug": {
       "en": "story-parts-setting-problem-solution",
-      "de": "aufbau-einer-geschichte-anfang-problem-loesung-klasse-1"
+      "de": "aufbau-einer-geschichte-anfang-problem-loesung-klasse-1",
+      "fr": "structure-du-recit-debut-probleme-solution-gs"
     },
     "page_title": {
       "en": "Dot's Story Spine — Story Parts: Start, Trouble & Fix (Kindergarten)",
-      "de": "Aufbau einer Geschichte: Anfang, Problem, Lösung – Klasse 1"
+      "de": "Aufbau einer Geschichte: Anfang, Problem, Lösung – Klasse 1",
+      "fr": "L’atelier des histoires de Dot — Début, problème, solution (GS)"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten reading activity: read a short three-picture story with Dot the dragon, then tap which part is the START (the setting), the TROUBLE (the problem), and the FIX (how it gets better). A friendly first look at how stories are built — setting, problem, and solution. Common Core RL.K.3.",
-      "de": "Übe kostenlos und interaktiv den Aufbau einer Geschichte: Ordne mit dem Drachen Dot Anfang, Problem & Lösung richtig zu. Erzählstruktur für Klasse 1 – jetzt starten!"
+      "de": "Übe kostenlos und interaktiv den Aufbau einer Geschichte: Ordne mit dem Drachen Dot Anfang, Problem & Lösung richtig zu. Erzählstruktur für Klasse 1 – jetzt starten!",
+      "fr": "Dot le dragon raconte une petite histoire en trois images, lue à voix haute d’un simple appui sur le bouton son. À votre enfant ensuite de repérer quelle image est le début, laquelle montre le problème, et laquelle apporte la solution. Un premier jeu gratuit et interactif pour découvrir comment une histoire se construit — sans savoir encore lire."
     },
     "kid_prompt_template": "story-spine"
   }

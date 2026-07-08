@@ -19,7 +19,7 @@
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function pigeonSVG() {
-    return '<svg class="pcm-pig-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Pim, die Taube' : 'Pim the pigeon') + '">' +
+    return '<svg class="pcm-pig-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Pim, le pigeon voyageur' : LANG === 'de' ? 'Pim, die Taube' : 'Pim the pigeon') + '">' +
       '<ellipse cx="48" cy="58" rx="22" ry="18" fill="#A9C0D8"/>' +                /* body */
       '<circle cx="70" cy="44" r="12" fill="#BBD0E4"/>' +                          /* head */
       '<circle cx="73" cy="42" r="2.3" fill="#2A2A35"/>' +                         /* eye */
@@ -35,16 +35,16 @@
     id: 'pim-comma-mail-activity',
 
     strings: {
-      title: { en: "Pim's Comma Mail", de: 'Pims Komma-Post' },
-      instruction: { en: 'Tap the greeting or closing that has its comma in the right place.', de: 'Tipp die Karte an, bei der das Komma richtig steht.' },
-      promptGreeting: { en: 'Which is the right way to START the letter?', de: 'Wie beginnt der Brief richtig?' },
-      promptClosing: { en: 'Which is the right way to END the letter?', de: 'Wie endet der Brief richtig?' },
-      pimIntro: { en: 'A letter needs its comma in just the right spot!', de: 'Ich bin Pim, die Taube! Hilf mir, die Briefe richtig zuzustellen.' },
-      labelGreeting: { en: '✉️ The greeting', de: '✉️ Die Anrede' },
-      labelClosing: { en: '✉️ The closing', de: '✉️ Der Gruß' },
-      hintPick: { en: 'The greeting and the closing each end with a comma.', de: 'Schau genau hin, wo das Komma bei der Anrede steht.' },
-      hintWrong: { en: 'Look at where the comma sits — it goes at the end.', de: 'Fast! Das Komma steht ganz am Ende der Anrede, nicht mittendrin.' },
-      win: { en: 'Yes! The comma is in the right spot. 🕊️', de: 'Super! Du weißt genau, wo das Komma hingehört. Pim ist stolz auf dich!' }
+      title: { en: "Pim's Comma Mail", de: 'Pims Komma-Post', fr: 'La poste aux virgules de Pim' },
+      instruction: { en: 'Tap the greeting or closing that has its comma in the right place.', de: 'Tipp die Karte an, bei der das Komma richtig steht.', fr: 'Touche l’appel ou la formule d’amitié dont la virgule est à la bonne place.' },
+      promptGreeting: { en: 'Which is the right way to START the letter?', de: 'Wie beginnt der Brief richtig?', fr: 'Comment bien commencer la lettre ?' },
+      promptClosing: { en: 'Which is the right way to END the letter?', de: 'Wie endet der Brief richtig?', fr: 'Comment bien terminer la lettre ?' },
+      pimIntro: { en: 'A letter needs its comma in just the right spot!', de: 'Ich bin Pim, die Taube! Hilf mir, die Briefe richtig zuzustellen.', fr: 'Une lettre a besoin de sa virgule au bon endroit !' },
+      labelGreeting: { en: '✉️ The greeting', de: '✉️ Die Anrede', fr: '✉️ Le début de la lettre' },
+      labelClosing: { en: '✉️ The closing', de: '✉️ Der Gruß', fr: '✉️ La fin de la lettre' },
+      hintPick: { en: 'The greeting and the closing each end with a comma.', de: 'Schau genau hin, wo das Komma bei der Anrede steht.', fr: 'Le début et la fin de la lettre se terminent chacun par une virgule.' },
+      hintWrong: { en: 'Look at where the comma sits — it goes at the end.', de: 'Fast! Das Komma steht ganz am Ende der Anrede, nicht mittendrin.', fr: 'Regarde bien où se trouve la virgule : elle se place tout à la fin.' },
+      win: { en: 'Yes! The comma is in the right spot. 🕊️', de: 'Super! Du weißt genau, wo das Komma hingehört. Pim ist stolz auf dich!', fr: 'Bravo ! La virgule est à la bonne place. 🕊️' }
     },
     defaults: {},
 

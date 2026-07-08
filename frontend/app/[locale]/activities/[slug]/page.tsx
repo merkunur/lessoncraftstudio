@@ -137,7 +137,7 @@ const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'coin-stall.money.2-md-c-8': { de: 'Größen und Messen' }, // Geld = KMK-Standardgröße (Rechnen mit Euro und Cent); Measurement&Data hat keinen de-Eintrag in strand-names.ts -> Override setzt den Chip
   'clock-convert.12-24.2-md-c-7': { de: 'Größen und Messen' },          // Zeit ist eine Größe — KMK-Leitidee „Größen und Messen"; „Measurement & Data" auto-map is wrong
   'penny-alphabet-trace.letter-formation.l-k-1-a': { de: 'Schreiben – Schreibfertigkeiten' }, // Handwriting/letter formation = KMK „Schreiben" (über Schreibfertigkeiten verfügen), NOT Rechtschreibung („Richtig schreiben") and NOT the grammar Bereich
-  'mango-animal-groups.collective-nouns.l-2-1-a': { de: 'Wortschatz untersuchen und erweitern' }, // Sammelnamen = Wortschatzarbeit, not the grammar Bereich (olive/roary/ziggy precedent); „Language" auto-map would read as „Sprache untersuchen"
+  'mango-animal-groups.collective-nouns.l-2-1-a': { de: 'Wortschatz untersuchen und erweitern', fr: 'Le lexique' }, // Sammelnamen = Wortschatzarbeit, not the grammar Bereich (olive/roary/ziggy precedent); „Language" auto-map would read as „Sprache untersuchen"; FR CE1: nommer une collection = trouver le mot juste = « Le lexique » (facette lexicale; l'accord=cycle-3, hors scope; = antonymes/nuances #27/#34/#35/#46/#53)
   'rhyme-shop.rhyme.rf-k-2-a': { de: 'Sprechen und Zuhören' },          // Reime hören = auditive Vorläuferfertigkeit des Lesens; strand-names.ts has no „Reading: Foundational Skills" de entry, so the override sets the chip
   'nila-pond.main-idea-net.ri-k-2': { de: 'Sprechen und Zuhören' },     // Hauptaussage eines VORGELESENEN Sachtexts = verstehend zuhören (KMK „Sprechen und Zuhören"), NOT the RI-sibling „Lesen…" chip — a Klasse-1 child can't decode a 4-Satz-Sachtext selbst; read-aloud/listening modality (rhyme-shop/sock-and-shadow precedent)
   'sock-and-shadow.puppet-speak.sl-k-6': { de: 'Sprechen und Zuhören' }, // first SL activity in DE; strand-names.ts has no „Speaking & Listening" entry, so the override sets the chip (hattie „Richtig schreiben" precedent)
@@ -455,7 +455,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.169';
+  const ACTIVITY_WRAPPER_VERSION = '9.170';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

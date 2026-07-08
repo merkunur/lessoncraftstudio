@@ -35,6 +35,14 @@
       nInform: 'Diese Notiz nennt echte Fakten – sie will informieren.',
       nEntertain: 'Diese Notiz erzählt eine lustige Geschichte – sie will unterhalten.',
       nInstruct: 'Diese Notiz zeigt Schritt für Schritt, wie es geht – sie will anleiten.'
+    },
+    fr: {
+      q: 'Pourquoi l’auteur a-t-il écrit cette note ?',
+      win: 'Oui ! {note}', winNote: 'Tu as trouvé l’intention de l’auteur !',
+      hear: '🔊 Écouter',
+      nInform: 'Cette note donne de vrais faits — elle veut informer.',
+      nEntertain: 'Cette note raconte une histoire drôle — elle veut distraire.',
+      nInstruct: 'Cette note montre les étapes — cherche « d’abord… ensuite… enfin ».'
     }
   };
   var LANG = 'en';
@@ -57,8 +65,8 @@
   var AuthorPurposeActivity = {
     id: 'author-purpose-activity',
     strings: {
-      title: { en: 'The Harbor Post', de: 'Marlows Hafenpost' },
-      instruction: { en: 'Read the note, then send it to the bin that tells WHY the author wrote it!', de: 'Lies die Notiz und tippe an, warum der Autor sie geschrieben hat.' },
+      title: { en: 'The Harbor Post', de: 'Marlows Hafenpost', fr: 'Le courrier du port de Marlow' },
+      instruction: { en: 'Read the note, then send it to the bin that tells WHY the author wrote it!', de: 'Lies die Notiz und tippe an, warum der Autor sie geschrieben hat.', fr: 'Lis la note, puis envoie-la dans la boîte qui dit POURQUOI l’auteur l’a écrite !' },
       q: { en: '{q}' }
     },
 
@@ -215,6 +223,8 @@
       var bins = Core.PURPOSES.map(function (p) { return self._binLabels[p] || p; }).join(', ');
       wrap.innerHTML = LANG === 'de'
         ? '<p>Notiz: ' + round.note.text + ' ' + txt('q') + ' Zur Auswahl: ' + bins + '.</p>'
+        : LANG === 'fr'
+        ? '<p>Note : ' + round.note.text + ' ' + txt('q') + ' Choix : ' + bins + '.</p>'
         : '<p>Note: ' + round.note.text + ' ' + txt('q') + ' Bins: ' + bins + '.</p>';
       return wrap;
     },

@@ -101,7 +101,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'mamas-roll-call.numeral-trace.k-cc-b-5': { de: '1' },                  // K count-out (self-stop) + Ziffer formen (Anzahl bis 9) → Klasse 1; en stays Kindergarten (K-cluster; mochi/twinsies K.CC.B.5 precedent)
   'parking-tower.place-by-relation.k-g-a-1': { de: '1' },                 // K Lagebeziehungen über/unter/neben/zwischen → Klasse 1 Geometrie; en stays Kindergarten (K-cluster)
   'opposites.antonyms.k-l-5-b': { de: '1' },                              // K antonyms (Gegensätze/Gegenteile) = foundational Klasse-1 Wortschatzarbeit; en stays Kindergarten (K-cluster K-label)
-  'author-purpose.why-wrote.ri-2-6': { de: '3' },                         // judging Textfunktion/Autorintention (informieren/unterhalten/anleiten) = metatextual Klasse-3/4 (one step up from field-guide's Klasse 2); en stays Grade 2
+  'author-purpose.why-wrote.ri-2-6': { de: '3', fr: '3' },                // judging Textfunktion/Autorintention (informieren/unterhalten/anleiten) = metatextual Klasse-3/4 (one step up from field-guide's Klasse 2); en stays Grade 2. FR CE2: identifier la VISÉE/l'intention de l'auteur (le POURQUOI) = un cran d'abstraction au-dessus du genre (bea #50 CE1); repères annuels situent « identifier la visée d'un texte » en fin de cycle 2 = CE2 → native '2' does NOT auto-map to CE1
   'juniper-story-lantern.central-message.rl-1-2': { de: '3', fr: '2' },    // die Lehre/Moral einer Fabel = abstraction + inference (Tiere stellvertretend), Klasse-3/4 Textsorte; en stays Grade 1; FR CE1: dégager la morale = inférer l'implicite (attendu CE1, PAS la compréhension littérale CP)
   'story-spine.role.rl-k-3': { de: '1' },                                 // Erzählstruktur / Anfang-Problem-Lösung = früheste Erzählkompetenz, bildgestützt + Vorlesehilfe = Klasse 1 (picture-story #82 precedent); en stays Kindergarten (K-cluster K-label)
   'pearl-opinion-page.back-it-up.ri-2-8': { de: '3' },                    // Begründung — einen echten Grund von einer bloßen Wiederholung unterscheiden = metasprachlich-argumentatives Denken, Klasse 3 (Meinung begründen/Aussagen belegen); en stays Grade 2
@@ -156,7 +156,7 @@ const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'opposites.antonyms.k-l-5-b': { de: 'Wortschatz untersuchen' }, // Gegensätze/Antonyme = Wortbedeutung/semantic relation = vocabulary (olive/roary/fern/gabby/ziggy/jasper precedent), not the grammar Bereich
   'field-guide.text-features.1-ri-5': { de: 'Lesen – mit Texten und Medien umgehen' }, // USING the book's tools to navigate = Lesestrategie/Texterschließung (the KMK Bereich), NOT comprehension (#78's „Sachtexte verstehen")
   'bea-two-bookshelves.story-or-fact.rl-1-5': { de: 'Lesen – mit Texten und Medien umgehen' }, // Geschichte-vs-Sachbuch = Textsortenbewusstheit (Umgang-mit-Texten), NOT literary comprehension; CCSS „Reading: Literature" auto-map absent → override sets the chip (a future story-comprehension RL activity opens its own literary Bereich)
-  'author-purpose.why-wrote.ri-2-6': { de: 'Lesen – mit Texten und Medien umgehen' }, // Textfunktion/Lesabsicht spanning Textsorten (the activity sorts a story + a how-to alongside facts) → the KMK Bereich, NOT „Sachtexte verstehen" (a story note isn't a Sachtext); field-guide/bea precedent
+  'author-purpose.why-wrote.ri-2-6': { de: 'Lesen – mit Texten und Medien umgehen', fr: 'Lecture et compréhension de l’écrit' }, // Textfunktion/Lesabsicht spanning Textsorten (the activity sorts a story + a how-to alongside facts) → the KMK Bereich, NOT „Sachtexte verstehen" (a story note isn't a Sachtext); field-guide/bea precedent. FR CE2: reconnaître la visée de l'auteur = reconnaissance-classification sur indices de surface (faits / « ! » / mots d'étape), PAS de l'inférence → domaine cycle-2 « Lecture et compréhension de l'écrit » (= bea #50/atlas #57/field-guide #58); NOT « Comprendre et interpréter » (retell #49/fable #52/portrait #56); le français n'a pas de domaine médias séparé; en/de fall through
   'graph-it.bar-graph.2-md-d-10': { de: 'Daten und Häufigkeit', fr: 'Organisation et gestion de données' },   // bar graph = data, not Größen / Grandeurs et mesures
   'line-plot.read.2-md-d-9': { de: 'Daten und Häufigkeit', fr: 'Organisation et gestion de données' },        // line plot of measured lengths = data, not Größen / Grandeurs et mesures
   'hoppers-number-line.jump-sums.2-md-b-6': { de: 'Zahlen und Rechnen im Zehnersystem', fr: 'Nombres et calcul' }, // add/sub on a number line = arithmetic, not Größen / Grandeurs et mesures
@@ -459,7 +459,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.176';
+  const ACTIVITY_WRAPPER_VERSION = '9.177';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

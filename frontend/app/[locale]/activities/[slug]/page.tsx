@@ -23,6 +23,7 @@ const GRADE_KEY_MAP: Record<string, string> = {
    grade here. EN + any locale/activity without an entry are unaffected. Sits beside the
    route's other localization maps (EDUCATIONAL_FRAMEWORK_BY_LOCALE, strand-names). */
 const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
+  'wake-up-pip.retell-story.rl-k-2': { fr: '1' },                       // CP — reconstruire un récit DE MÉMOIRE (le modèle disparaît) + chaîne causale 4 temps + restituer les détails clés + écarter l'intrus = attendus cycle 2 (« comprendre l'enchaînement / la relation de cause à effet / restituer l'essentiel »); plus exigeant que le « remettre dans l'ordre » GS (modèle présent); parité DE Klasse 2; US RL.K.2 → FR CP
   'opposites.antonyms.k-l-5-b': { fr: '1' },                            // CP — relier un mot à son contraire (antonymes) + discriminer le contraire d'un mot de la même sorte = opération métalinguistique explicite « trouver un mot de sens contraire » du cycle 2 « Étude de la langue » (la maternelle travaille les contraires à l'oral); parité DE Klasse 1; US K.L.5.b K-cluster → FR CP
   'bingo-word-hunt.read-match.rf-k-3-d': { fr: '1' },                    // CP — lire des mots réguliers imprimés et discriminer des mots proches par la lettre/le son qui change = décodage graphophonologique du CP (la maternelle travaille la conscience phono à l'oral); US RF.K.3.d K-cluster → FR CP
   'mosaic-menders.area-match.3-md-c-6': { fr: '4' },                     // CM1: mesurer une aire par comptage d'une unité (le carreau) = compétence CM1 dans les repères de progression, pas la comparaison perceptive de CE2; en Grade 3 / de Klasse 3 unchanged
@@ -116,6 +117,7 @@ function effGrade(row: ActivityRow, locale: string): string {
    activities fall through to localizeStrand unchanged. Display-only (chip + JSON-LD
    teaches/targetDescription); related-activity matching keeps the raw alignment.strand. */
 const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
+  'wake-up-pip.retell-story.rl-k-2': { fr: 'Comprendre et interpréter' }, // FR CP: reconstruire/raconter un récit dans l'ordre avec les détails clés = compréhension de la structure/l'ordre d'un récit → « Comprendre et interpréter » (cycle 2, Lecture et compréhension de l'écrit); NOT « Écouter de l'écrit et comprendre » (maternelle/GS — misplace le niveau CP); the child REORDERS pictures (n'oralise pas) → comprehension not oral production; "Reading: Literature" has no fr in strand-names.ts
   'story-spine.role.rl-k-3': { fr: 'Écouter de l’écrit et comprendre' }, // GS/maternelle: repérer début/problème/solution d'un récit lu à voix haute + images = compréhension d'un récit (domaine « Mobiliser le langage », partie « L'écrit ») — the child LISTENS (pré-lecteur); genre-neutral label shared with the RL-comparison (willow) + RI-main-idea (nila) siblings; "Reading: Literature" has no fr in strand-names.ts; en/de fall through to Reading: Literature / Literarische Texte verstehen
   'nila-pond.main-idea-net.ri-k-2': { fr: 'Écouter de l’écrit et comprendre' }, // GS/maternelle: écouter un texte documentaire narré + dégager l'idée principale = compréhension de l'oral (domaine « Mobiliser le langage », partie « L'écrit ») — the child LISTENS (pré-lecteur), genre-neutral label shared with the RL narrative sibling (willow); "Reading: Informational Text" has no fr in strand-names.ts (would leak EN); en/de fall through to Reading: Informational Text / Sachtexte verstehen
   'opposites.antonyms.k-l-5-b': { fr: 'Le lexique' }, // FR CP: les contraires/antonymes = travail sur le vocabulaire → sous-domaine cycle-2 « Le lexique » (comme ziggy/olive/roary/sage); "Language" has no fr in strand-names.ts (would leak EN); en/de fall through to Language / (de sibling label)
@@ -450,7 +452,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.164';
+  const ACTIVITY_WRAPPER_VERSION = '9.165';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

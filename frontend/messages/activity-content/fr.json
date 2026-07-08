@@ -192,6 +192,27 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "juniper-story-lantern.central-message.rl-1-2": {
+      "about": [
+        "Juniper le hérisson allume sa petite lanterne et raconte une fable : Le Lièvre et la Tortue, La Cigale et la Fourmi, Le Lion et le Rat, La Poule aux œufs d'or… Après l'histoire, il pose sa grande question : quelle est la morale de cette fable ? Votre enfant écoute le récit lu à voix haute, le lit à l'écran, puis tape la carte qui donne la vraie leçon — pas un détail de l'histoire, pas une phrase qui semble jolie mais qui passe à côté du sens.",
+        "En cherchant la morale, votre enfant s'exerce à dégager le message d'une histoire et à distinguer la leçon d'un simple événement du récit. C'est une compétence de compréhension au cœur des programmes officiels du CE1 : comprendre ce qu'un texte veut vraiment dire. Les fables de La Fontaine, avec leurs animaux et leur sagesse toute simple, offrent un terrain riche et rassurant pour cet apprentissage. L'activité est entièrement gratuite, sans minuteur ni score : votre enfant prend le temps de réfléchir, se trompe sans conséquence et recommence à son rythme."
+      ],
+      "practices": [
+        "Comprendre le sens d'une fable écoutée et lue",
+        "Dégager la morale, la leçon de l'histoire",
+        "Distinguer la morale d'un simple détail du récit",
+        "Écouter et comprendre une histoire lue à voix haute"
+      ],
+      "howToPlay": [
+        "Écoute la petite fable que Juniper raconte à la lueur de sa lanterne.",
+        "Tape la carte qui donne la morale de l'histoire — sa vraie leçon."
+      ],
+      "learningGoals": [
+        "Votre enfant apprend à trouver le message essentiel d'une histoire, au-delà des détails.",
+        "Votre enfant apprend à reconnaître la morale d'une fable et à l'exprimer avec ses mots.",
+        "Votre enfant apprend à réfléchir au sens d'un texte plutôt qu'à s'arrêter à ce qui « sonne bien »."
+      ]
+    },
     "contraction.apostrophe.l-2-2-c": {
       "about": [
         "Nib est un petit esprit espiègle qui adore faire sauter les voyelles : dès qu'un mot comme « le », « la » ou « je » rencontre un mot qui commence par une voyelle, Nib bondit et remplace la lettre qui disparaît par une apostrophe. Dans cette activité, votre enfant réunit deux mots — par exemple « le » et « ami » — et choisit la seule écriture correcte, « l'ami », parmi trois propositions. Il découvre ainsi l'élision : la voyelle finale du petit mot s'efface devant une voyelle ou un h muet, et l'apostrophe vient prendre sa place.",

@@ -14,12 +14,13 @@
 
   var Core = global.WordMatchCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOLD: '#E8A53A' };
+  var LANG = 'en';
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
-  function imgUrl(t) { return '/image-library-webp/themes/' + t.themeDir + '/' + t.noun + '@2x.webp'; }
+  function imgUrl(t) { return '/image-library-webp/themes/' + t.themeDir + '/' + (t.imgKey || t.noun) + '@2x.webp'; }
   function speak(word) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: word, lang: 'en', rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(word); u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: word, lang: LANG === 'fr' ? 'fr-FR' : 'en', rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(word); u.rate = 0.95; u.lang = LANG === 'fr' ? 'fr-FR' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -38,18 +39,19 @@
     id: 'bingo-word-hunt-activity',
 
     strings: {
-      title: { en: "Bingo's Word Hunt" },
-      prompt: { en: 'Which word names the picture?' },
-      bingoIntro: { en: 'Sound out each word — which one names the picture?' },
-      theAsk: { en: 'Read the words and tap the right one.' },
-      hintPick: { en: 'Read each word slowly, then tap your pick!' },
-      hintWrong: { en: "Look at the middle letter — sound it out again." },
-      win: { en: 'Yes! You read it right. 🐾' }
+      title: { en: "Bingo's Word Hunt", fr: 'La chasse aux mots de Bingo' },
+      prompt: { en: 'Which word names the picture?', fr: 'Quel mot correspond à l’image ?' },
+      bingoIntro: { en: 'Sound out each word — which one names the picture?', fr: 'Lis chaque mot — lequel nomme l’image ?' },
+      theAsk: { en: 'Read the words and tap the right one.', fr: 'Lis les mots et tape le bon.' },
+      hintPick: { en: 'Read each word slowly, then tap your pick!', fr: 'Lis chaque mot lentement, puis tape ton choix !' },
+      hintWrong: { en: "Look at the middle letter — sound it out again.", fr: 'Regarde bien la lettre du milieu — prononce-la encore.' },
+      win: { en: 'Yes! You read it right. 🐾', fr: 'Oui ! Tu as bien lu. 🐾' }
     },
     defaults: {},
 
     init: function (api) {
       this.api = api;
+      LANG = (api && api.lang) || 'en';
       this._pool = makeTasks([]); this._order = null; this._orderForPool = null; this._curPass = 0;
       this.round = null; this.view = null; this.sel = null; this._cards = null;
       var params = (global.location) ? new URLSearchParams(global.location.search) : null;
@@ -59,6 +61,7 @@
 
     setupTask: function (round) {
       this.round = round; this.view = Core.childView(round); this.sel = null;
+      if (round.target && round.target.imgKey) this.view.target.imgKey = round.target.imgKey;
       this._cards = shuffle(this.view.choices.slice());
     },
 
@@ -75,7 +78,7 @@
 
       // the picture (with 🔊 support)
       var picWrap = api.el('div', 'bwh-picwrap');
-      var pic = api.el('button', 'bwh-pic'); pic.type = 'button'; pic.setAttribute('aria-label', 'hear ' + v.target.noun);
+      var pic = api.el('button', 'bwh-pic'); pic.type = 'button'; pic.setAttribute('aria-label', LANG === 'fr' ? ('écouter ' + v.target.noun) : ('hear ' + v.target.noun));
       pic.innerHTML = '<img class="bwh-img" src="' + imgUrl(v.target) + '" alt="' + esc(v.target.noun) + '" onerror="this.style.visibility=\'hidden\'"><span class="bwh-spk">🔊</span>';
       pic.addEventListener('click', function () { speak(v.target.noun); });
       picWrap.appendChild(pic);
@@ -114,7 +117,7 @@
     _loadActivity: function () {
       var self = this;
       fetch('/mini-tools/bingo-word-hunt-activities.json').then(function (r) { if (!r.ok) throw new Error('manifest ' + r.status); return r.json(); })
-        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; self._pool = makeTasks(row.params.rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
+        .then(function (rows) { var row = rows.find(function (r) { return r.id === self._activityId; }); if (!row) return; self._activityRow = row; var _rounds = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds; self._pool = makeTasks(_rounds.map(function (r) { return JSON.parse(JSON.stringify(r)); })); self._order = null; if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask(); })
         .catch(function (e) { if (global.console && console.warn) console.warn('[bingo-word-hunt] manifest load failed:', e.message); });
     },
 

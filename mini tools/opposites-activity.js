@@ -51,6 +51,21 @@
       nudgeSibling: 'Fast! Das ist die gleiche Art – aber such das andere Ende.',
       nudgeRelated: 'Das ist ein Freund davon. Wo ist sein Gegenteil?',
       nudgeUnrelated: 'Das passt nicht dazu. Schau noch mal!'
+    },
+    fr: {
+      pick: 'Tape le CONTRAIRE — l’autre bout !',
+      generate: 'Tape le contraire. L’autre bout !',
+      balance: 'Équilibre la balance — tape le contraire !',
+      verb: 'Tape le geste contraire !',
+      route: 'Le contraire de {a}, ou juste la même SORTE ? Envoie chaque mot !',
+      oddpair: 'Une paire n’est PAS des contraires — tape-la !',
+      scene: 'Tout est à l’envers — tape chaque chose pour la RETOURNER !',
+      doorOpp: 'Contraire', doorSame: 'Même sorte', trade: 'Échange !',
+      win: 'Un contraire parfait ! Dans le Livre-Miroir.',
+      winScene: 'Tout est réparé — bonne nuit ! Dans le Livre-Miroir.',
+      nudgeSibling: 'C’est la même SORTE — mais l’autre bout ?',
+      nudgeRelated: 'C’est un ami — trouve son contraire !',
+      nudgeUnrelated: 'Ce n’est pas le contraire — cherche l’autre bout !'
     }
   };
   function txt(k, a) {
@@ -184,15 +199,15 @@
   var OppositesActivity = {
     id: 'opposites',
     strings: {
-      title: { en: "Quill's Mirror Market", de: 'Quills Spiegelmarkt' },
-      instruction: { en: 'Bring Quill the OPPOSITE — the other end, not just a friend!', de: 'Finde immer das Gegenteil – wie im Spiegel!' },
-      qPick: { en: 'Find the opposite!', de: 'Tipp das Gegenteil an.' },
-      qGenerate: { en: 'What is the opposite?', de: 'Was ist das Gegenteil?' },
-      qBalance: { en: 'Balance the scale!', de: 'Finde das Gegenteil und bring die Waage ins Gleichgewicht.' },
-      qVerb: { en: 'Do the opposite action!', de: 'Welche Bewegung ist das Gegenteil?' },
-      qRoute: { en: 'Opposite, or just the same kind?', de: 'Schick jedes Wort zur richtigen Tür.' },
-      qOddpair: { en: 'Which pair is NOT opposites?', de: 'Welches Paar ist KEIN Gegensatz?' },
-      qScene: { en: 'Flip the backwards world!', de: 'Tippe alles an, was verkehrt herum ist!' }
+      title: { en: "Quill's Mirror Market", de: 'Quills Spiegelmarkt', fr: 'Le marché-miroir de Quill' },
+      instruction: { en: 'Bring Quill the OPPOSITE — the other end, not just a friend!', de: 'Finde immer das Gegenteil – wie im Spiegel!', fr: 'Apporte à Quill le CONTRAIRE — l’autre bout, pas juste un ami !' },
+      qPick: { en: 'Find the opposite!', de: 'Tipp das Gegenteil an.', fr: 'Trouve le contraire !' },
+      qGenerate: { en: 'What is the opposite?', de: 'Was ist das Gegenteil?', fr: 'Quel est le contraire ?' },
+      qBalance: { en: 'Balance the scale!', de: 'Finde das Gegenteil und bring die Waage ins Gleichgewicht.', fr: 'Équilibre la balance !' },
+      qVerb: { en: 'Do the opposite action!', de: 'Welche Bewegung ist das Gegenteil?', fr: 'Fais l’action contraire !' },
+      qRoute: { en: 'Opposite, or just the same kind?', de: 'Schick jedes Wort zur richtigen Tür.', fr: 'Contraire, ou juste la même sorte ?' },
+      qOddpair: { en: 'Which pair is NOT opposites?', de: 'Welches Paar ist KEIN Gegensatz?', fr: 'Quelle paire n’est PAS des contraires ?' },
+      qScene: { en: 'Flip the backwards world!', de: 'Tippe alles an, was verkehrt herum ist!', fr: 'Retourne le monde à l’envers !' }
     },
 
     init: function (api) {
@@ -224,7 +239,7 @@
         '.op-grid{display:flex;flex-wrap:wrap;gap:8px;width:100%;justify-content:center;}',
         '.op-card{display:flex;flex-direction:column;align-items:center;gap:1px;border:2.5px solid #146B5E;border-radius:13px;background:#fff;cursor:pointer;padding:4px 8px 3px;min-height:48px;flex:0 0 auto;}',
         '.op-card svg{pointer-events:none;}',
-        '.op-card .op-w{font:700 .82rem/1 Nunito,sans-serif;color:#0F4A40;}',
+        '.op-card .op-w{font:700 .82rem/1.05 Nunito,sans-serif;color:#0F4A40;max-width:86px;text-align:center;}',
         '.op-card.sel{border-color:#F2784B;background:#FCEDE4;}',
         '.op-card.dim{opacity:.4;}',
         '.op-card.lock{opacity:.55;border-style:dashed;cursor:default;}',
@@ -373,8 +388,8 @@
       if (r.cog === 'generate') {
         var gLang = (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en';
         var pr = el('div', 'op-prompt');
-        /* DE: adjective/adverb targets stay LOWERCASE mid-sentence → no cap() */
-        pr.textContent = gLang === 'de' ? ('Gegenteil von ' + r.target.word + '?') : ('Opposite of ' + cap(r.target.word) + '?');
+        /* DE/FR: adjective/adverb targets stay LOWERCASE mid-sentence → no cap() */
+        pr.textContent = gLang === 'fr' ? ('Le contraire de ' + r.target.word + ' ?') : gLang === 'de' ? ('Gegenteil von ' + r.target.word + '?') : ('Opposite of ' + cap(r.target.word) + '?');
         root.appendChild(pr);
       } else {
         var tg = el('div', 'op-target'); tg.innerHTML = gly(r.target.glyph, 50) + '<span class="op-w">' + esc(cap(r.target.word)) + (r.cog === 'verb' ? ' …?' : '') + '</span>'; root.appendChild(tg);
@@ -480,7 +495,7 @@
         var card = el('div', 'op-pair op-pair-card' + (self._nonConf[pi] ? ' dim' : ''));
         card.setAttribute('role', 'button'); card.tabIndex = 0;
         var opLang = (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en';
-        card.setAttribute('aria-label', cap(pr.a.word) + (opLang === 'de' ? ' und ' : ' and ') + cap(pr.b.word));
+        card.setAttribute('aria-label', cap(pr.a.word) + (opLang === 'fr' ? ' et ' : opLang === 'de' ? ' und ' : ' and ') + cap(pr.b.word));
         card.innerHTML = gly(pr.a.glyph, 46) + '<span class="op-x">↔</span>' + gly(pr.b.glyph, 46);
         card.addEventListener('click', function () {
           if (self._resolved || self._nonConf[pi] || self._token !== tok) return;
@@ -501,9 +516,9 @@
         var cur = flipped ? e.flipGlyph : e.glyph, word = flipped ? e.flipWord : e.word;
         var card = el('button', 'op-card' + (flipped ? ' flip' : ''));
         var scLang = (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en';
-        var scAria = scLang === 'de' ? (flipped ? ' (richtig)' : ' – zum Umdrehen tippen') : (flipped ? ' (fixed)' : ' — tap to flip');
+        var scAria = scLang === 'fr' ? (flipped ? ' (réparé)' : ' — tape pour retourner') : scLang === 'de' ? (flipped ? ' (richtig)' : ' – zum Umdrehen tippen') : (flipped ? ' (fixed)' : ' — tap to flip');
         card.type = 'button'; card.setAttribute('aria-label', cap(word) + scAria);
-        card.innerHTML = gly(cur, 50) + '<span class="op-w">' + esc(cap(word)) + '</span>';
+        card.innerHTML = gly(cur, 58) + '<span class="op-w">' + esc(cap(word)) + '</span>';
         card.addEventListener('click', function () {
           if (self._resolved || self._token !== tok) return;
           self._sceneFlipped[k] = self._sceneFlipped[k] ? 0 : 1;

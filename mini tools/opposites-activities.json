@@ -162,14 +162,93 @@
               { "word": "kalt", "glyph": { "type": "temp", "param": "cold" }, "relation": "opposite", "dimension": "temperature" },
               { "word": "groß", "glyph": { "type": "size", "param": "big" }, "relation": "unrelated", "dimension": "size" }
             ] }
+        ],
+        "fr": [
+          { "id": "opposites.pick-black", "cog": "pick", "complementary": false,
+            "target": { "word": "noir", "glyph": { "type": "swatch", "param": "#262626" }, "oppositionId": "color", "pos": "adj" },
+            "choices": [
+              { "word": "haut", "glyph": { "type": "arrow", "param": "up" }, "relation": "unrelated", "dimension": "direction" },
+              { "word": "blanc", "glyph": { "type": "swatch", "param": "#ffffff" }, "relation": "opposite", "dimension": "color" },
+              { "word": "rouge", "glyph": { "type": "swatch", "param": "#e23b2e" }, "relation": "same-dim-sibling", "dimension": "color" }
+            ] },
+          { "id": "opposites.pick-up", "cog": "pick", "complementary": false,
+            "target": { "word": "haut", "glyph": { "type": "arrow", "param": "up" }, "oppositionId": "direction", "pos": "adj" },
+            "choices": [
+              { "word": "noir", "glyph": { "type": "swatch", "param": "#262626" }, "relation": "unrelated", "dimension": "color" },
+              { "word": "bas", "glyph": { "type": "arrow", "param": "down" }, "relation": "opposite", "dimension": "direction" },
+              { "word": "gauche", "glyph": { "type": "arrow", "param": "left" }, "relation": "same-dim-sibling", "dimension": "direction" }
+            ] },
+          { "id": "opposites.pick-big", "cog": "pick", "complementary": true,
+            "target": { "word": "grand", "glyph": { "type": "size", "param": "big" }, "oppositionId": "size", "pos": "adj" },
+            "choices": [
+              { "word": "bas", "glyph": { "type": "arrow", "param": "down" }, "relation": "unrelated", "dimension": "direction" },
+              { "word": "petit", "glyph": { "type": "size", "param": "small" }, "relation": "opposite", "dimension": "size" },
+              { "word": "content", "glyph": { "type": "face", "param": "happy" }, "relation": "unrelated", "dimension": "emotion" }
+            ] },
+          { "id": "opposites.route-black", "cog": "route", "complementary": false,
+            "anchor": { "word": "noir", "glyph": { "type": "swatch", "param": "#262626" }, "oppositionId": "color" },
+            "stream": [
+              { "word": "blanc", "glyph": { "type": "swatch", "param": "#ffffff" }, "relation": "opposite", "dimension": "color" },
+              { "word": "rouge", "glyph": { "type": "swatch", "param": "#e23b2e" }, "relation": "same-dim-sibling", "dimension": "color" },
+              { "word": "bleu", "glyph": { "type": "swatch", "param": "#2f6fd0" }, "relation": "same-dim-sibling", "dimension": "color" }
+            ] },
+          { "id": "opposites.oddpair-1", "cog": "oddpair", "complementary": false,
+            "pairs": [
+              { "a": { "word": "noir", "glyph": { "type": "swatch", "param": "#262626" } }, "b": { "word": "blanc", "glyph": { "type": "swatch", "param": "#ffffff" } }, "relation": "opposite" },
+              { "a": { "word": "haut", "glyph": { "type": "arrow", "param": "up" } }, "b": { "word": "bas", "glyph": { "type": "arrow", "param": "down" } }, "relation": "opposite" },
+              { "a": { "word": "rouge", "glyph": { "type": "swatch", "param": "#e23b2e" } }, "b": { "word": "bleu", "glyph": { "type": "swatch", "param": "#2f6fd0" } }, "relation": "related" }
+            ] },
+          { "id": "opposites.scene-bedtime", "cog": "scene", "complementary": true,
+            "sceneLabel": "C’est l’heure de dormir, mais tout est à l’envers !",
+            "elements": [
+              { "word": "soleil", "glyph": { "type": "celestial", "param": "sun" }, "flipGlyph": { "type": "celestial", "param": "moon" }, "flipWord": "lune" },
+              { "word": "lampe allumée", "glyph": { "type": "lamp", "param": "on" }, "flipGlyph": { "type": "lamp", "param": "off" }, "flipWord": "lampe éteinte" },
+              { "word": "porte ouverte", "glyph": { "type": "door", "param": "open" }, "flipGlyph": { "type": "door", "param": "closed" }, "flipWord": "porte fermée" }
+            ] },
+          { "id": "opposites.generate-left", "cog": "generate", "complementary": false,
+            "target": { "word": "gauche", "glyph": { "type": "arrow", "param": "left" }, "oppositionId": "direction", "pos": "adj" },
+            "choices": [
+              { "word": "content", "glyph": { "type": "face", "param": "happy" }, "relation": "unrelated", "dimension": "emotion" },
+              { "word": "droite", "glyph": { "type": "arrow", "param": "right" }, "relation": "opposite", "dimension": "direction" },
+              { "word": "haut", "glyph": { "type": "arrow", "param": "up" }, "relation": "same-dim-sibling", "dimension": "direction" }
+            ] },
+          { "id": "opposites.balance-white", "cog": "balance", "complementary": false,
+            "target": { "word": "blanc", "glyph": { "type": "swatch", "param": "#ffffff" }, "oppositionId": "color", "pos": "adj" },
+            "choices": [
+              { "word": "bas", "glyph": { "type": "arrow", "param": "down" }, "relation": "unrelated", "dimension": "direction" },
+              { "word": "noir", "glyph": { "type": "swatch", "param": "#262626" }, "relation": "opposite", "dimension": "color" },
+              { "word": "bleu", "glyph": { "type": "swatch", "param": "#2f6fd0" }, "relation": "same-dim-sibling", "dimension": "color" }
+            ] },
+          { "id": "opposites.balance-down", "cog": "balance", "complementary": false,
+            "target": { "word": "bas", "glyph": { "type": "arrow", "param": "down" }, "oppositionId": "direction", "pos": "adj" },
+            "choices": [
+              { "word": "rouge", "glyph": { "type": "swatch", "param": "#e23b2e" }, "relation": "unrelated", "dimension": "color" },
+              { "word": "haut", "glyph": { "type": "arrow", "param": "up" }, "relation": "opposite", "dimension": "direction" },
+              { "word": "droite", "glyph": { "type": "arrow", "param": "right" }, "relation": "same-dim-sibling", "dimension": "direction" }
+            ] },
+          { "id": "opposites.verb-push", "cog": "verb", "complementary": false,
+            "target": { "word": "pousser", "glyph": { "type": "motion", "param": "push" }, "oppositionId": "motion", "pos": "verb" },
+            "choices": [
+              { "word": "ouvrir", "glyph": { "type": "door", "param": "open" }, "relation": "unrelated", "dimension": "state" },
+              { "word": "tirer", "glyph": { "type": "motion", "param": "pull" }, "relation": "opposite", "dimension": "motion" },
+              { "word": "soulever", "glyph": { "type": "motion", "param": "lift" }, "relation": "same-dim-sibling", "dimension": "motion" }
+            ] },
+          { "id": "opposites.pick-hot", "cog": "pick", "complementary": true,
+            "target": { "word": "chaud", "glyph": { "type": "temp", "param": "hot" }, "oppositionId": "temperature", "pos": "adj" },
+            "choices": [
+              { "word": "gauche", "glyph": { "type": "arrow", "param": "left" }, "relation": "unrelated", "dimension": "direction" },
+              { "word": "froid", "glyph": { "type": "temp", "param": "cold" }, "relation": "opposite", "dimension": "temperature" },
+              { "word": "grand", "glyph": { "type": "size", "param": "big" }, "relation": "unrelated", "dimension": "size" }
+            ] }
         ]
       }
     },
-    "slug": { "en": "quills-mirror-market", "de": "gegensaetze-finden-gegenteile-klasse-1" },
-    "page_title": { "en": "Quill's Mirror Market — Find the Opposite", "de": "Gegensätze finden: Gegenteile-Spiel – Klasse 1" },
+    "slug": { "en": "quills-mirror-market", "de": "gegensaetze-finden-gegenteile-klasse-1", "fr": "trouver-les-contraires-cp" },
+    "page_title": { "en": "Quill's Mirror Market — Find the Opposite", "de": "Gegensätze finden: Gegenteile-Spiel – Klasse 1", "fr": "Le marché-miroir de Quill — Les contraires (CP)" },
     "page_intro": {
       "en": "Quill the hedgehog only seals a trade when you bring the OPPOSITE — the other end, not just a friend! Tap the word that means the reverse: black→white, up→down, push→pull. A Kindergarten antonyms game aligned to Common Core K.L.5.b: relate words to their opposites.",
-      "de": "Welches Wort ist das Gegenteil? Dein Kind findet zu schwarz das passende weiß – ein kostenloses, interaktives Gegensätze-Spiel für Klasse 1."
+      "de": "Welches Wort ist das Gegenteil? Dein Kind findet zu schwarz das passende weiß – ein kostenloses, interaktives Gegensätze-Spiel für Klasse 1.",
+      "fr": "Quill le hérisson n’échange que si votre enfant lui apporte le contraire d’un mot : noir devient blanc, grand devient petit, pousser devient tirer. Chaque mot est dessiné et lu à voix haute, alors on peut jouer même sans savoir lire. Un jeu gratuit et interactif, dans le navigateur, sans installation."
     },
     "kid_prompt_template": "Find the opposite — the OTHER end!"
   }

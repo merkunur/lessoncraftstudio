@@ -277,6 +277,28 @@
         "Votre enfant apprend à écarter les idées hors-sujet et à s'appuyer sur ce que dit l'avis."
       ]
     },
+    "picture-story.read.rl-k-1": {
+      "about": [
+        "Fable le renard raconte trois petites histoires en images : une moufle rouge perdue dans la neige, une souris qui tire de toutes ses forces sur une énorme carotte coincée, et un pique-nique surpris par la pluie, bien à l'abri sous un parapluie. L'enfant lit les trois vignettes, tape sur le bouton 🔊 pour écouter chaque phrase lue à voix haute, puis répond à des questions sur l'histoire : qui, quoi, où, ce qui arrive d'abord et à la fin, pourquoi, et comment les personnages se sentent. Pour répondre, il lui suffit de taper la bonne carte parmi trois réponses écrites.",
+        "Cette activité exerce en douceur la compréhension de récit : repérer les informations importantes d'une histoire, en suivre le fil et parler de ce que ressentent les personnages. C'est une première approche précieuse pour les jeunes lecteurs. Tout est gratuit, directement dans le navigateur, sans minuteur, sans score et sans compte à créer : l'enfant avance à son rythme, en confiance, avec une activité pensée pour accompagner les programmes officiels de l'école."
+      ],
+      "practices": [
+        "Lire une courte histoire racontée en images",
+        "Repérer qui, quoi et où dans le récit",
+        "Retrouver ce qui arrive d'abord et à la fin",
+        "Comprendre pourquoi les choses se passent",
+        "Parler de ce que ressentent les personnages"
+      ],
+      "howToPlay": [
+        "Lis, ou écoute avec le bouton 🔊, la petite histoire de Fable.",
+        "Tape la carte qui répond à la question posée."
+      ],
+      "learningGoals": [
+        "Comprendre une histoire lue en images",
+        "Repérer les détails clés et l'ordre des événements",
+        "Répondre à des questions sur un récit"
+      ]
+    },
     "fern-clue-garden.context-clues.l-2-4-a": {
       "about": [
         "Dans le jardin d'indices de Fern le faon, votre enfant découvre que beaucoup de mots cachent plusieurs sens : « la souris » peut être un petit animal ou l'objet devant l'ordinateur, « une feuille » peut pousser sur un arbre ou servir à écrire, et « la glace » peut se manger ou se casser en hiver. Fern lui montre une phrase, et l'enfant doit taper la définition qui correspond vraiment au sens du mot dans cette phrase-là. Le piège, c'est justement l'autre sens du mot : la carte tentante propose la définition la plus connue, mais qui ne convient pas ici. Pour ne pas s'y laisser prendre, il faut lire toute la phrase et pas seulement le mot.",

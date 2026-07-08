@@ -28,6 +28,11 @@
       win: 'Ja! {note}', winNote: 'Du hast dir die Geschichte gut gemerkt!',
       nudge: 'Schau dir die Bilder noch einmal an — die Antwort steckt in der Geschichte.',
       hear: '🔊 Geschichte vorlesen'
+    },
+    fr: {
+      win: 'Oui ! {note}', winNote: 'Tu t’es rappelé toute l’histoire !',
+      nudge: 'Regarde encore les images — la réponse est dans l’histoire.',
+      hear: '🔊 Écouter l’histoire'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -70,9 +75,9 @@
   var PictureStoryActivity = {
     id: 'picture-story-activity',
     strings: {
-      title: { en: "Fable's Picture Stories", de: 'Fabels Bildergeschichten' },
-      instruction: { en: 'Read the little story with Fable the fox, then answer about it!', de: 'Lies die kleine Geschichte mit Fabel dem Fuchs und beantworte dann die Frage!' },
-      q: { en: '{q}' }
+      title: { en: "Fable's Picture Stories", de: 'Fabels Bildergeschichten', fr: 'Les histoires de Fable' },
+      instruction: { en: 'Read the little story with Fable the fox, then answer about it!', de: 'Lies die kleine Geschichte mit Fabel dem Fuchs und beantworte dann die Frage!', fr: 'Lis la petite histoire avec Fable le renard, puis réponds !' },
+      q: { en: '{q}', de: '{q}', fr: '{q}' }
     },
 
     init: function (api) {
@@ -237,6 +242,8 @@
       var caps = (story.panels || []).map(function (p) { return p.caption; }).join(' ');
       wrap.innerHTML = LANG === 'de'
         ? '<p>Geschichte: ' + caps + ' Frage: ' + r.prompt + ' Auswahl: ' + this._choiceOrder.join('; ') + '.</p>'
+        : LANG === 'fr'
+        ? '<p>Histoire : ' + caps + ' Question : ' + r.prompt + ' Choix : ' + this._choiceOrder.join('; ') + '.</p>'
         : '<p>Story: ' + caps + ' Question: ' + r.prompt + ' Choices: ' + this._choiceOrder.join('; ') + '.</p>';
       return wrap;
     },

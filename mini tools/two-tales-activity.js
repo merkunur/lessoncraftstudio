@@ -43,6 +43,16 @@
       reSame: 'Schau noch einmal – lies beide Geschichten. Was ist in BEIDEN gleich?',
       reDiff: 'Schau noch einmal – lies beide Geschichten. Was passiert nur in EINER?',
       choices: 'Auswahl:'
+    },
+    fr: {
+      qSame: 'Qu’est-ce qui est PAREIL dans les deux histoires ?',
+      qDiff: 'Qu’est-ce qui arrive dans UNE SEULE histoire ?',
+      win: 'Oui ! {note}', winNote: 'Tu as comparé les deux histoires !',
+      hear: '🔊 Écouter les deux histoires',
+      gold: 'Lune d’or', silver: 'Lune d’argent',
+      reSame: 'Regarde encore — relis les deux histoires. Qu’est-ce qui est PAREIL ?',
+      reDiff: 'Regarde encore — relis les deux histoires. Qu’est-ce qui arrive dans UNE SEULE ?',
+      choices: 'Choix :'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -82,9 +92,9 @@
   var TwoTalesActivity = {
     id: 'two-tales-activity',
     strings: {
-      title: { en: 'Two Moons', de: 'Zwei Monde, zwei Geschichten' },
-      instruction: { en: 'Read both tales with Mossbeard, then compare what happened to the characters!', de: 'Lies beide Geschichten mit Moosbart und vergleiche, was den Figuren passiert!' },
-      q: { en: '{q}', de: '{q}' }
+      title: { en: 'Two Moons', de: 'Zwei Monde, zwei Geschichten', fr: 'Deux lunes, deux histoires' },
+      instruction: { en: 'Read both tales with Mossbeard, then compare what happened to the characters!', de: 'Lies beide Geschichten mit Moosbart und vergleiche, was den Figuren passiert!', fr: 'Lis les deux histoires avec Barbe-de-Mousse, puis compare ce qui arrive aux personnages !' },
+      q: { en: '{q}', de: '{q}', fr: '{q}' }
     },
 
     init: function (api) {

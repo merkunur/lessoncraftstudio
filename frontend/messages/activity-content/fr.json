@@ -213,6 +213,28 @@
         "Votre enfant apprend à faire la différence entre une preuve et un détail sans rapport."
       ]
     },
+    "atlas-fact-files.key-detail.ri-k-1": {
+      "about": [
+        "Atlas le tatou adore les vraies histoires de la nature, et il en a rassemblé tout un carnet pour votre enfant. À chaque fiche, il montre un court texte documentaire de deux phrases — par exemple « Les abeilles vivent dans une ruche. Elles font du miel sucré. » — que l'on peut aussi écouter à voix haute. Puis Atlas pose une question, comme « Où vivent les abeilles ? », et votre enfant choisit la bonne réponse parmi trois propositions : celle qui se trouve dans le texte.",
+        "En jouant, votre enfant apprend à comprendre un court texte documentaire, à y retrouver une information et à répondre à une question précise en Où, Que, Quand ou Combien. C'est une compétence de lecture prévue par les programmes officiels de l'école, travaillée ici en douceur, à travers de vrais faits sur les animaux et la nature. L'activité est entièrement gratuite, sans minuteur ni score : votre enfant prend son temps, se trompe sans crainte et recommence autant qu'il le souhaite."
+      ],
+      "practices": [
+        "Comprendre un court texte documentaire",
+        "Retrouver une information précise dans un texte",
+        "Répondre à une question en Où, Que, Quand ou Combien",
+        "Découvrir de vrais faits sur la nature et les animaux"
+      ],
+      "howToPlay": [
+        "Lis (ou écoute) le petit texte documentaire d'Atlas.",
+        "Lis la question, puis tape la réponse — elle se cache dans le texte.",
+        "Choisis la bonne proposition parmi les trois affichées."
+      ],
+      "learningGoals": [
+        "Votre enfant apprend à comprendre un court texte documentaire et à en dégager l'essentiel.",
+        "Votre enfant apprend à prélever une information dans un texte pour répondre à une question précise.",
+        "Votre enfant apprend à repérer ce que demande une question en Où, Que, Quand ou Combien."
+      ]
+    },
     "jasper-just-right.real-life.l-1-5-c": {
       "about": [
         "Avec Jasper le geai, votre enfant découvre que chaque objet du quotidien a une utilité bien précise. Jasper décrit une situation toute simple — « Il fait nuit et tu es fatigué, où vas-tu te reposer ? » — et l'enfant choisit, parmi trois images, l'objet qui correspond vraiment à ce besoin : le lit pour dormir, le verre pour boire, les ciseaux pour couper le papier. Petit à petit, il apprend à relier un mot à son usage dans la vie réelle et à comprendre à quoi servent les choses qui l'entourent.",

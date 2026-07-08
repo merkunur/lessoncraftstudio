@@ -25,13 +25,23 @@
           { "id": "tree", "band": 2, "fact": "Ein großer Baum wächst hoch. Er gibt uns kühlen Schatten.", "question": "Was gibt uns der Baum?", "answer": "kühlen Schatten", "options": ["kühles Wasser", "kalten Schnee", "kühlen Schatten"] },
           { "id": "cow", "band": 3, "fact": "Eine Kuh frisst grünes Gras. Sie gibt uns weiße Milch.", "question": "Was gibt uns die Kuh?", "answer": "weiße Milch", "options": ["weiße Milch", "braune Eier", "süße Marmelade"] },
           { "id": "rain", "band": 3, "fact": "Regen fällt aus den Wolken. Er macht den Boden nass.", "question": "Was macht der Regen nass?", "answer": "den Boden", "options": ["den Himmel", "die heiße Luft", "den Boden"] }
+        ],
+        "fr": [
+          { "id": "bees", "band": 1, "fact": "Les abeilles vivent dans une ruche. Elles fabriquent du miel doré.", "question": "Où vivent les abeilles ?", "answer": "dans une ruche", "options": ["dans une ruche", "du miel doré", "dans un nid"] },
+          { "id": "spider", "band": 1, "fact": "L’araignée tisse une belle toile. Elle a huit pattes.", "question": "Combien de pattes a l’araignée ?", "answer": "huit pattes", "options": ["huit pattes", "une belle toile", "six pattes"] },
+          { "id": "cow", "band": 1, "fact": "La vache mange de l’herbe verte. Elle nous donne du lait blanc.", "question": "Que nous donne la vache ?", "answer": "du lait blanc", "options": ["du lait blanc", "de l’herbe verte", "de la laine douce"] },
+          { "id": "frog", "band": 2, "fact": "La grenouille a de longues pattes. Elle mange de petits insectes.", "question": "Que mange la grenouille ?", "answer": "de petits insectes", "options": ["de petits insectes", "de longues pattes", "des graines dures"] },
+          { "id": "penguin", "band": 2, "fact": "Le manchot a des ailes noires. Il vit sur la glace froide.", "question": "Où vit le manchot ?", "answer": "sur la glace froide", "options": ["sur la glace froide", "des ailes noires", "sur le sable chaud"] },
+          { "id": "sun", "band": 2, "fact": "Le soleil nous donne de la lumière. Il brille pendant le jour.", "question": "Quand brille le soleil ?", "answer": "pendant le jour", "options": ["pendant le jour", "de la lumière", "pendant la nuit"] },
+          { "id": "tree", "band": 3, "fact": "L’arbre grandit très haut. Il nous donne de l’ombre fraîche.", "question": "Que nous donne l’arbre ?", "answer": "de l’ombre fraîche", "options": ["de l’ombre fraîche", "très haut", "de l’eau claire"] },
+          { "id": "rain", "band": 3, "fact": "La pluie tombe des nuages gris. Elle mouille tout le sol.", "question": "Que mouille la pluie ?", "answer": "le sol", "options": ["le sol", "des nuages gris", "le ciel"] }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "atlas-fact-files", "de": "leseverstaendnis-sachtext-w-fragen-beantworten-klasse-1" },
-    "page_title": { "en": "Atlas's Fact Files — Find the Key Detail (Kindergarten)", "de": "Leseverständnis Klasse 1: Sachtexte lesen mit Atlas" },
-    "page_intro": { "en": "Atlas the armadillo keeps a file full of real facts! Read his two-sentence fact, then answer the question by tapping the key detail you found — who, what, where, or how many. A Kindergarten reading game about finding key details in an informational (fact) text, aligned to Common Core RI.K.1.", "de": "Leseverständnis für Klasse 1 spielerisch üben: Lies mit Atlas einen kurzen Sachtext und tippe die Antwort auf die W-Frage an. Kostenlos, interaktiv und sofort startklar!" },
+    "slug": { "en": "atlas-fact-files", "de": "leseverstaendnis-sachtext-w-fragen-beantworten-klasse-1", "fr": "repondre-a-une-question-texte-documentaire-cp" },
+    "page_title": { "en": "Atlas's Fact Files — Find the Key Detail (Kindergarten)", "de": "Leseverständnis Klasse 1: Sachtexte lesen mit Atlas", "fr": "Les fiches d'Atlas — Lire un texte documentaire (CP)" },
+    "page_intro": { "en": "Atlas the armadillo keeps a file full of real facts! Read his two-sentence fact, then answer the question by tapping the key detail you found — who, what, where, or how many. A Kindergarten reading game about finding key details in an informational (fact) text, aligned to Common Core RI.K.1.", "de": "Leseverständnis für Klasse 1 spielerisch üben: Lies mit Atlas einen kurzen Sachtext und tippe die Antwort auf die W-Frage an. Kostenlos, interaktiv und sofort startklar!", "fr": "Avec Atlas le tatou, votre enfant écoute ou lit un tout petit texte documentaire, puis retrouve la réponse à une question posée juste en dessous. En douceur, il apprend à comprendre ce qu'il lit, à prélever une information dans le texte et à répondre à une question précise (Où ? Que ? Quand ? Combien ?). C'est gratuit, interactif, cela se joue directement dans le navigateur, sans minuteur, sans score et sans compte à créer." },
     "kid_prompt_template": "Read the facts, then tap the answer to the question."
   }
 ]

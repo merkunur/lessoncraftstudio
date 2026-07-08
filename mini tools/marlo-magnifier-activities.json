@@ -153,13 +153,87 @@
               { "id": "d3", "supports": false, "text": "Er spielte in seiner Freizeit gern Fußball." }
             ]
           }
+        ],
+        "fr": [
+          {
+            "id": "courageuse", "band": 1, "trait": "Mira est courageuse", "traitWord": "courageuse",
+            "story": ["Mira et sa classe visitent une vieille grotte.", "L’intérieur est tout noir et un peu effrayant.", "Personne n’ose avancer le premier."],
+            "details": [
+              { "id": "d1", "supports": true, "text": "Mira est entrée la première dans la grotte sombre." },
+              { "id": "d2", "supports": false, "text": "Mira portait un pull rouge ce jour-là." },
+              { "id": "d3", "supports": false, "text": "La grotte se trouve tout près de la rivière." }
+            ]
+          },
+          {
+            "id": "gentil", "band": 1, "trait": "Tom est gentil", "traitWord": "gentil",
+            "story": ["Un nouvel élève arrive dans la classe de Tom.", "Il ne connaît personne et reste tout seul.", "C’est bientôt l’heure de la récréation."],
+            "details": [
+              { "id": "d1", "supports": false, "text": "Le nouvel élève s’appelle Léo." },
+              { "id": "d2", "supports": true, "text": "Tom a invité le nouvel élève à jouer avec lui." },
+              { "id": "d3", "supports": false, "text": "Tom a une trousse bleue sur sa table." }
+            ]
+          },
+          {
+            "id": "curieuse", "band": 1, "trait": "Lena est curieuse", "traitWord": "curieuse",
+            "story": ["La maîtresse apporte une drôle de boîte en classe.", "Personne ne sait ce qu’il y a à l’intérieur.", "La boîte fait un petit bruit bizarre."],
+            "details": [
+              { "id": "d1", "supports": false, "text": "La boîte est décorée d’étoiles dorées." },
+              { "id": "d2", "supports": false, "text": "Lena est assise au premier rang." },
+              { "id": "d3", "supports": true, "text": "Lena a posé plein de questions pour savoir ce que c’était." }
+            ]
+          },
+          {
+            "id": "prudent", "band": 2, "trait": "Malo est prudent", "traitWord": "prudent",
+            "story": ["Malo et son ami rentrent de l’école à vélo.", "Ils arrivent devant une route où passent des voitures.", "Son ami veut traverser tout de suite."],
+            "details": [
+              { "id": "d1", "supports": true, "text": "Malo s’est arrêté et a bien regardé des deux côtés avant de traverser." },
+              { "id": "d2", "supports": false, "text": "Le vélo de Malo est jaune." },
+              { "id": "d3", "supports": false, "text": "L’école se termine à quatre heures et demie." }
+            ]
+          },
+          {
+            "id": "genereuse", "band": 2, "trait": "Zoé est généreuse", "traitWord": "généreuse",
+            "story": ["À la cantine, Zoé remarque que Sami a oublié son goûter.", "Sami regarde les autres manger, l’air triste.", "Zoé n’a qu’un seul gâteau dans sa poche."],
+            "details": [
+              { "id": "d1", "supports": false, "text": "Le gâteau de Zoé est au chocolat." },
+              { "id": "d2", "supports": false, "text": "Sami est assis juste en face de Zoé." },
+              { "id": "d3", "supports": true, "text": "Zoé a partagé son gâteau en deux et en a donné la moitié à Sami." }
+            ]
+          },
+          {
+            "id": "patient", "band": 2, "trait": "Noé est patient", "traitWord": "patient",
+            "story": ["Noé apprend à sa petite sœur à faire ses lacets.", "Elle n’y arrive pas et recommence plusieurs fois.", "Dehors, ses copains l’attendent pour jouer."],
+            "details": [
+              { "id": "d1", "supports": false, "text": "La petite sœur de Noé s’appelle Alice." },
+              { "id": "d2", "supports": true, "text": "Noé lui a réexpliqué tout doucement, sans jamais se fâcher." },
+              { "id": "d3", "supports": false, "text": "Les chaussures d’Alice sont roses." }
+            ]
+          },
+          {
+            "id": "serviable", "band": 3, "trait": "Inès est serviable", "traitWord": "serviable",
+            "story": ["Après la fête de classe, la salle est toute en désordre.", "La maîtresse range seule les tables et les chaises.", "La cloche vient de sonner, c’est la fin de la journée."],
+            "details": [
+              { "id": "d1", "supports": true, "text": "Inès est restée pour aider à tout ranger, sans qu’on le lui demande." },
+              { "id": "d2", "supports": false, "text": "La fête était pour l’anniversaire de la classe." },
+              { "id": "d3", "supports": false, "text": "Inès a les cheveux attachés avec un ruban." }
+            ]
+          },
+          {
+            "id": "soigneux", "band": 3, "trait": "Gabin est soigneux", "traitWord": "soigneux",
+            "story": ["En classe, chaque élève doit rendre son cahier de dessins.", "Beaucoup de cahiers sont froissés ou tachés.", "La maîtresse les regarde un par un."],
+            "details": [
+              { "id": "d1", "supports": false, "text": "Gabin a dessiné un dragon vert sur la couverture." },
+              { "id": "d2", "supports": false, "text": "Le cahier de Gabin est le plus épais de tous." },
+              { "id": "d3", "supports": true, "text": "Gabin avait rangé son cahier bien à plat, sans une seule page cornée." }
+            ]
+          }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "marlos-magnifier", "de": "charaktereigenschaften-mit-textstellen-belegen-klasse-3" },
-    "page_title": { "en": "Marlo's Magnifier — Show Me the Proof (Grade 1)", "de": "Charaktereigenschaften belegen – Marlos Lupe (Klasse 3)" },
-    "page_intro": { "en": "Marlo the raccoon is a story detective, and every case is a clue hunt: read a short story, then a clue card says something about a character — \"Mira is brave.\" Tap the detail from the story that PROVES it, not just any true thing that happened. A warm Grade 1 reading game about describing characters with key details and finding the evidence, aligned to Common Core RL.1.3.", "de": "Kostenlos & interaktiv: Dein Kind belegt Charaktereigenschaften einer Figur mit der passenden Textstelle – genaues Lesen für die Grundschule, ganz ohne Zeitdruck." },
+    "slug": { "en": "marlos-magnifier", "de": "charaktereigenschaften-mit-textstellen-belegen-klasse-3", "fr": "le-portrait-du-personnage-indices-ce1" },
+    "page_title": { "en": "Marlo's Magnifier — Show Me the Proof (Grade 1)", "de": "Charaktereigenschaften belegen – Marlos Lupe (Klasse 3)", "fr": "La loupe de Marlo — Le portrait du personnage (CE1)" },
+    "page_intro": { "en": "Marlo the raccoon is a story detective, and every case is a clue hunt: read a short story, then a clue card says something about a character — \"Mira is brave.\" Tap the detail from the story that PROVES it, not just any true thing that happened. A warm Grade 1 reading game about describing characters with key details and finding the evidence, aligned to Common Core RL.1.3.", "de": "Kostenlos & interaktiv: Dein Kind belegt Charaktereigenschaften einer Figur mit der passenden Textstelle – genaues Lesen für die Grundschule, ganz ohne Zeitdruck.", "fr": "Avec Marlo le raton laveur, détective des histoires, votre enfant lit une phrase sur un personnage (« Mira est courageuse »), puis une petite histoire — et cherche l'indice qui prouve ce trait : l'action qui le révèle (« Elle est entrée dans la grotte sombre »), et non un détail vrai mais sans rapport (« Elle portait ses bottes rouges »). Il apprend ainsi à décrire un personnage et à justifier un trait par un indice du texte, une première approche de l'inférence. Gratuit et interactif, l'exercice se joue directement dans le navigateur, sans minuteur, sans score et sans compte." },
     "kid_prompt_template": "marlo-magnifier"
   }
 ]

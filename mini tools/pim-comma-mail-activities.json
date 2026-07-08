@@ -57,15 +57,42 @@
           { "id": "herrfuchs", "band": 3, "kind": "greeting", "forms": [
             { "text": "Lieber Herr Fuchs" }, { "text": "Lieber, Herr Fuchs" }, { "text": "Lieber Herr Fuchs,", "ok": true }
           ] }
+        ],
+        "fr": [
+          { "id": "papa", "band": 1, "kind": "greeting", "forms": [
+            { "text": "Cher Papa,", "ok": true }, { "text": "Cher Papa" }, { "text": "Cher, Papa" }
+          ] },
+          { "id": "mamie", "band": 1, "kind": "greeting", "forms": [
+            { "text": "Chère Mamie" }, { "text": "Chère Mamie,", "ok": true }, { "text": "Chère, Mamie" }
+          ] },
+          { "id": "lea", "band": 2, "kind": "greeting", "forms": [
+            { "text": "Chère Léa" }, { "text": "Chère, Léa" }, { "text": "Chère Léa,", "ok": true }
+          ] },
+          { "id": "renard", "band": 3, "kind": "greeting", "forms": [
+            { "text": "Cher Monsieur Renard,", "ok": true }, { "text": "Cher Monsieur Renard" }, { "text": "Cher Monsieur, Renard" }
+          ] },
+          { "id": "ami", "band": 2, "kind": "closing", "forms": [
+            { "text": "Ton ami" }, { "text": "Ton ami,", "ok": true }, { "text": "Ton, ami" }
+          ] },
+          { "id": "bisous", "band": 1, "kind": "closing", "forms": [
+            { "text": "Bisous" }, { "text": "Bisous." }, { "text": "Bisous,", "ok": true }
+          ] },
+          { "id": "amities", "band": 2, "kind": "closing", "forms": [
+            { "text": "Amitiés,", "ok": true }, { "text": "Amitiés" }, { "text": "Amitiés." }
+          ] },
+          { "id": "bientot", "band": 3, "kind": "closing", "forms": [
+            { "text": "À bientôt" }, { "text": "À bientôt,", "ok": true }, { "text": "À, bientôt" }
+          ] }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "pim-comma-mail", "de": "komma-im-brief-anrede-ueben-klasse-3" },
-    "page_title": { "en": "Pim's Comma Mail — Commas in Greetings & Closings (Grade 2)", "de": "Komma im Brief mit Pim üben – Klasse 3" },
+    "slug": { "en": "pim-comma-mail", "de": "komma-im-brief-anrede-ueben-klasse-3", "fr": "la-virgule-dans-la-lettre-appel-et-formule" },
+    "page_title": { "en": "Pim's Comma Mail — Commas in Greetings & Closings (Grade 2)", "de": "Komma im Brief mit Pim üben – Klasse 3", "fr": "La virgule dans la lettre : ponctuer l'appel et la formule" },
     "page_intro": {
       "en": "Pim the carrier pigeon delivers letters all day — but a letter needs its commas in the right spot! The greeting (Dear Sam,) and the closing (Your friend,) each end with a comma. Read the three choices and tap the one that is punctuated correctly. A Grade 2 grammar game about commas in the greeting and closing of a letter, aligned to Common Core L.2.2.b.",
-      "de": "Übe kostenlos & interaktiv das Komma im Brief: Wo steht das Komma nach der Anrede – und wo nicht? Ein Brief-Spiel für Klasse 3 mit Pim, der Taube."
+      "de": "Übe kostenlos & interaktiv das Komma im Brief: Wo steht das Komma nach der Anrede – und wo nicht? Ein Brief-Spiel für Klasse 3 mit Pim, der Taube.",
+      "fr": "Avec Pim le pigeon voyageur, votre enfant apprend à placer la virgule après l'appel et la formule d'une lettre : trois cartes, une seule bien ponctuée ! Un jeu gratuit et interactif à découvrir en ligne."
     },
     "kid_prompt_template": "Tap the greeting or closing that has its comma in the right place."
   }

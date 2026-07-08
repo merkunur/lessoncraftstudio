@@ -31,8 +31,16 @@
       win: 'Genau! {note}', winNote: 'Aus zwei Wörtern wird ein kurzes Wort!',
       hear: '🔊 Anhören',
       nudge: 'Nicht ganz – welche Kurzform passt zu diesen zwei Wörtern?'
+    },
+    fr: {
+      q: 'Mets les deux mots ensemble. Quelle écriture est correcte ?',
+      win: 'Bravo ! {note}', winNote: "L'apostrophe remplace juste la lettre qui saute !",
+      hear: '🔊 Écouter',
+      nudge: "Presque ! Quand un petit mot rencontre une voyelle, sa lettre saute et l'apostrophe prend sa place. Essaie encore !"
     }
   };
+  /* Locales whose chips are the free [fusion, ...foils] pick (de Verschmelzung / fr élision) — NOT the en apostrophe-insertion core path. */
+  var FUSION_LANGS = { de: 1, fr: 1 };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
 
@@ -40,6 +48,14 @@
      The core's apostrophe chip/grade path is bypassed for de: chips = [fusion, ...foils]; correct = round.fusion. */
   function deChips(round) { return [round.fusion].concat(round.foils || []); }
   function deIsAnswer(round, str) { return str === round.fusion; }
+
+  /* fr élision aria: l'ami & lami are homophonous /lami/, so a bare read wouldn't distinguish them.
+     Name the structural mark: apostrophe / espace / (neither → "en un seul mot"). */
+  function frAria(str) {
+    if (String(str).indexOf("'") >= 0) return String(str).replace(/'/g, ' apostrophe ');
+    if (String(str).indexOf(' ') >= 0) return String(str).replace(/ /g, ' espace ');
+    return String(str) + ' en un seul mot';
+  }
 
   function nibSVG() {
     /* Nib — a coral apostrophe-spirit (a comma-curl with a little face) */
@@ -55,9 +71,9 @@
   var ContractionActivity = {
     id: 'contraction-activity',
     strings: {
-      title: { en: "Nib's Apostrophe Seat", de: 'Zwirbels Kurzform-Wirbel' },
-      instruction: { en: 'Pick the contraction with the apostrophe in exactly the right spot!', de: 'Tippe die richtige Kurzform an!' },
-      q: { en: '{q}', de: '{q}' }
+      title: { en: "Nib's Apostrophe Seat", de: 'Zwirbels Kurzform-Wirbel', fr: 'La place de Nib' },
+      instruction: { en: 'Pick the contraction with the apostrophe in exactly the right spot!', de: 'Tippe die richtige Kurzform an!', fr: "Tape le mot où l'apostrophe est à la bonne place !" },
+      q: { en: '{q}', de: '{q}', fr: '{q}' }
     },
 
     init: function (api) {
@@ -140,7 +156,7 @@
 
     _beginRound: function (round) {
       this._round = round; this._resolved = false; this._token = (this._token || 0) + 1; this._nonConf = {}; this._lit = null;
-      this._chipOrder = this._shuffle(LANG === 'de' ? deChips(round) : Core.chipStrings(round));   /* shuffle the 3 chips; position ≠ answer */
+      this._chipOrder = this._shuffle(FUSION_LANGS[LANG] ? deChips(round) : Core.chipStrings(round));   /* shuffle the 3 chips; position ≠ answer */
       if (this._app) this._app.classList.remove('nib-resolved');
     },
 
@@ -156,7 +172,7 @@
       var plus = el('span', 'ct-plus'); plus.textContent = '+';
       var w2 = el('span'); w2.textContent = round.word2;
       words.append(w1, plus, w2);
-      if (this._resolved) { var ar = el('span', 'ct-arrow'); ar.textContent = '→'; var res = el('span', 'ct-result'); res.textContent = (LANG === 'de' ? round.fusion : Core.deriveCorrect(round)); words.append(ar, res); }
+      if (this._resolved) { var ar = el('span', 'ct-arrow'); ar.textContent = '→'; var res = el('span', 'ct-result'); res.textContent = (FUSION_LANGS[LANG] ? round.fusion : Core.deriveCorrect(round)); words.append(ar, res); }
       root.appendChild(words);
 
       /* Nib + live line */
@@ -168,7 +184,9 @@
       /* Hear it */
       var self = this, hear = el('button', 'ct-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
-        var t = (LANG === 'de' ? (round.word1 + ' ' + round.word2 + ' wird zu ' + round.fusion + '.') : (round.word1 + ' ' + round.word2 + ' makes a contraction.'));
+        var t = (LANG === 'de' ? (round.word1 + ' ' + round.word2 + ' wird zu ' + round.fusion + '.')
+          : LANG === 'fr' ? (round.word1 + ' ' + round.word2 + ' devient ' + round.fusion + '.')
+          : (round.word1 + ' ' + round.word2 + ' makes a contraction.'));
         if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: LANG, rate: 0.92 }); } catch (e) { } }
       });
       root.appendChild(hear);
@@ -181,15 +199,17 @@
     _renderChips: function (root, round) {
       var self = this, tok = this._token;
       var strip = el('div', 'ct-strip');
-      var order = this._chipOrder || (LANG === 'de' ? deChips(round) : Core.chipStrings(round));
+      var order = this._chipOrder || (FUSION_LANGS[LANG] ? deChips(round) : Core.chipStrings(round));
       order.forEach(function (str) {
         var b = el('button', 'ct-cand' + (self._nonConf[str] ? ' dim' : '') + (self._lit === str ? ' lit' : ''));
         b.type = 'button'; b.setAttribute('data-str', str);
         b.textContent = str;
-        b.setAttribute('aria-label', LANG === 'de' ? str : str.split('').join(' '));   /* en: spell out (apostrophe position is the point); de: the bare short form */
+        /* en: spell out (apostrophe position is the point); de: the bare short form;
+           fr: name the apostrophe/space/joined-ness (l'ami & lami are homophonous /lami/ — the WRITTEN mark is the point). */
+        b.setAttribute('aria-label', LANG === 'fr' ? frAria(str) : LANG === 'de' ? str : str.split('').join(' '));
         b.addEventListener('click', function () {
           if (self._resolved || self._nonConf[str] || self._token !== tok) return;
-          if (LANG === 'de' ? deIsAnswer(round, str) : Core.isAnswer(round, str)) { self._lit = str; self._resolve(); }
+          if (FUSION_LANGS[LANG] ? deIsAnswer(round, str) : Core.isAnswer(round, str)) { self._lit = str; self._resolve(); }
           else { self._nonConf[str] = 1; self._nudge(); }
         });
         strip.appendChild(b);
@@ -216,6 +236,11 @@
 
     _srMirror: function (round) {
       var wrap = el('div', 'ct-sronly'); wrap.setAttribute('aria-live', 'polite');
+      if (LANG === 'fr') {
+        var frC = deChips(round).map(frAria).join(' ; ');
+        wrap.innerHTML = '<p>' + round.word1 + ' ' + round.word2 + '. ' + txt('q') + ' Au choix : ' + frC + '.</p>';
+        return wrap;
+      }
       if (LANG === 'de') {
         var deC = deChips(round).join('; ');
         wrap.innerHTML = '<p>' + round.word1 + ' ' + round.word2 + '. ' + txt('q') + ' Zur Auswahl: ' + deC + '.</p>';

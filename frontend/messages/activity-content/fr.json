@@ -192,6 +192,26 @@
     "whatsInsideCode": "Aligné sur les programmes officiels"
   },
   "prose": {
+    "contraction.apostrophe.l-2-2-c": {
+      "about": [
+        "Nib est un petit esprit espiègle qui adore faire sauter les voyelles : dès qu'un mot comme « le », « la » ou « je » rencontre un mot qui commence par une voyelle, Nib bondit et remplace la lettre qui disparaît par une apostrophe. Dans cette activité, votre enfant réunit deux mots — par exemple « le » et « ami » — et choisit la seule écriture correcte, « l'ami », parmi trois propositions. Il découvre ainsi l'élision : la voyelle finale du petit mot s'efface devant une voyelle ou un h muet, et l'apostrophe vient prendre sa place.",
+        "Petit à petit, l'enfant repère les mots courts qui s'élident (« le », « la », « je », « ne », « de », « que »…) et comprend pourquoi on écrit « l'école » et non « le école ». L'activité suit les programmes officiels du CE1 pour l'étude de la langue. Elle est entièrement gratuite, sans minuteur ni score : votre enfant avance à son rythme, se trompe sans conséquence et recommence autant de fois qu'il le souhaite."
+      ],
+      "practices": [
+        "Reconnaître une élision devant une voyelle ou un h muet",
+        "Placer l'apostrophe exactement là où la lettre a disparu",
+        "Distinguer l'écriture correcte « l'ami » des formes fautives « le ami » et « l ami »",
+        "Lire et repérer les petits mots qui s'élident : « le », « la », « je », « ne », « de », « que »"
+      ],
+      "howToPlay": [
+        "Regarde les deux mots que Nib veut réunir.",
+        "Tape l'écriture correcte : l'apostrophe remplace la lettre qui saute."
+      ],
+      "learningGoals": [
+        "Votre enfant apprend à former une élision et à écrire l'apostrophe au bon endroit.",
+        "Votre enfant apprend à reconnaître les petits mots qui perdent leur voyelle devant une voyelle ou un h muet."
+      ]
+    },
     "bea-two-bookshelves.story-or-fact.rl-1-5": {
       "about": [
         "Bea a deux étagères, et elle a besoin d'un coup de main pour ranger ses livres. À chaque tour, votre enfant découvre trois livres avec un titre et une petite phrase de présentation, qu'il peut écouter à voix haute d'un simple appui sur le bouton son. Il tape ensuite le livre que Bea réclame : un récit qui raconte une histoire inventée, ou un documentaire qui donne de vraies informations.",

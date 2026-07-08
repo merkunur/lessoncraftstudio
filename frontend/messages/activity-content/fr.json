@@ -213,6 +213,28 @@
         "Votre enfant apprend à faire la différence entre une preuve et un détail sans rapport."
       ]
     },
+    "two-tales.compare.rl-1-9": {
+      "about": [
+        "Barbe-de-Mousse, la gardienne des histoires, veille sur deux petites aventures qui brillent l'une sous une lune d'or, l'autre sous une lune d'argent. Votre enfant lit les deux courtes histoires, puis choisit la carte qui dit ce qui est pareil dans les deux, ou ce qui n'arrive que dans une seule. Les expériences comparées restent simples et proches de lui : « Perdu, puis retrouvé », « Un ami a aidé », « A continué d'essayer », « A partagé ». En passant d'une histoire à l'autre, l'enfant apprend à comparer les aventures des personnages, à trouver ce qui se ressemble et ce qui est différent, et à toujours s'appuyer sur ce que dit vraiment chaque histoire.",
+        "C'est une manière douce d'entrer dans la comparaison de récits, une compétence au cœur des programmes officiels de l'école. L'activité est entièrement gratuite et se joue dans le navigateur, sans minuteur, sans score et sans compte : votre enfant avance à son rythme, relit les histoires autant de fois qu'il le souhaite et prend le temps de bien réfléchir avant de répondre."
+      ],
+      "practices": [
+        "Comparer deux histoires côte à côte",
+        "Trouver ce qui est pareil dans les deux histoires",
+        "Repérer ce qui n'arrive que dans une seule histoire",
+        "Lire attentivement chaque histoire avant de choisir",
+        "S'appuyer sur ce que dit le texte pour répondre"
+      ],
+      "howToPlay": [
+        "Lis les deux histoires de Barbe-de-Mousse, sous la lune d'or et sous la lune d'argent.",
+        "Tape la carte qui dit ce qui est pareil dans les deux, ou ce qui arrive dans une seule histoire."
+      ],
+      "learningGoals": [
+        "Votre enfant apprend à comparer les aventures de deux personnages et à repérer leurs ressemblances.",
+        "Votre enfant apprend à distinguer ce qui est commun aux deux histoires de ce qui n'appartient qu'à une seule.",
+        "Votre enfant apprend à justifier son choix en s'appuyant sur ce que raconte chaque histoire."
+      ]
+    },
     "author-purpose.why-wrote.ri-2-6": {
       "about": [
         "Au port, Marlow le pélican reçoit un sac de notes et ne sait plus dans quelle boîte les ranger : votre enfant vient l'aider en devinant pourquoi chaque message a été écrit. Derrière ce petit tri se cache une vraie compétence de lecture : comprendre qu'un texte est toujours écrit dans un but. En lisant chaque note, l'enfant se demande si l'auteur veut informer, distraire ou expliquer comment faire, puis il tape la bonne boîte.",

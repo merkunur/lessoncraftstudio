@@ -3647,6 +3647,27 @@
         "Écrire une addition à termes égaux",
         "Découvrir le sens de la multiplication"
       ]
+    },
+    "fix-it-corner.missing-part.1-oa-d-8": {
+      "about": [
+        "Fixit la taupe répare des appareils cassés, mais il est myope et n'arrive pas à lire le tout petit nombre qui manque. Ton enfant devient son aide : il trouve le nombre manquant dans chaque calcul — la somme, le terme qui manque, ce qu'on a enlevé ou le nombre de départ — puis le place pour que l'appareil se remette en marche.",
+        "Trouver le nombre manquant dans une addition ou une soustraction, à n'importe quelle place (comme 7 + ? = 10 ou ? − 3 = 4), est un attendu du CP : c'est la recherche du complément et le début du calcul réfléchi. Voir l'appareil s'animer quand la pièce est juste aide l'enfant à comprendre le lien entre l'addition et la soustraction. Le jeu est gratuit, sans minuteur et sans points : l'enfant avance à son rythme. Il suit le domaine « Nombres et calcul » des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Trouver le complément (7 + ? = 10)",
+        "Trouver le nombre manquant à n'importe quelle place",
+        "Comprendre le lien entre l'addition et la soustraction",
+        "Rendre les deux côtés d'une égalité égaux"
+      ],
+      "howToPlay": [
+        "Lis le calcul de l'appareil, puis trouve le nombre qui manque.",
+        "Place la bonne pièce dans l'appareil, puis vérifie."
+      ],
+      "learningGoals": [
+        "Trouver le nombre manquant dans une addition ou une soustraction",
+        "Chercher le complément",
+        "Relier l'addition et la soustraction"
+      ]
     }
   }
 }

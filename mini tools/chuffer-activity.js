@@ -26,13 +26,14 @@
   var C = { T: '#146B5E', BLUE: '#3FA7D6', BLUE2: '#2E7CA8', RED: '#F2784B', RED2: '#D9572F', CREAM: '#FBF3E4', GOLD: '#E8A53A', INK: '#2A2A35' };
   var WORDS = { 0: 'zero', 1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five', 6: 'six', 7: 'seven', 8: 'eight', 9: 'nine', 10: 'ten' };
   var WORDS_DE = { 0: 'null', 1: 'eins', 2: 'zwei', 3: 'drei', 4: 'vier', 5: 'fünf', 6: 'sechs', 7: 'sieben', 8: 'acht', 9: 'neun', 10: 'zehn' };
+  var WORDS_FR = { 0: 'zéro', 1: 'un', 2: 'deux', 3: 'trois', 4: 'quatre', 5: 'cinq', 6: 'six', 7: 'sept', 8: 'huit', 9: 'neuf', 10: 'dix' };
   var LANG = 'en';
-  function numWord(n) { return (LANG === 'de' ? WORDS_DE : WORDS)[n]; }
+  function numWord(n) { return (LANG === 'de' ? WORDS_DE : (LANG === 'fr' ? WORDS_FR : WORDS))[n]; }
 
   function speak(text) {
     try {
       if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'de' ? 'de-DE' : (LANG === 'fr' ? 'fr-FR' : 'en-US')); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function chufferSVG(mood) {
@@ -58,27 +59,27 @@
     reward: { id: 'chuffer-hill', label: "Chuffer's Hill", emoji: '🚂' },
 
     strings: {
-      title: { en: "Chuffer's Switchyard", de: 'Chuffers Rangierbahnhof' },
-      prompt: { en: 'Split the load and say each way!', de: 'Teile die Ladung auf und sag jeden Weg!' },
-      baseHint: { en: 'Move crates, say the split, pull the coupler!', de: 'Schiebe Kisten, sag die Zerlegung, zieh die Kupplung!' },
-      covaryHint: { en: 'Move ONE crate — what is the new split?', de: 'Schiebe EINE Kiste – wie heißt die neue Zerlegung?' },
-      huntHint: { en: 'The route-book has a gap — find that way!', de: 'Im Fahrtenbuch fehlt ein Weg – finde ihn!' },
-      maketenHint: { en: 'One car is sealed — find the partner to make 10!', de: 'Ein Wagen ist verschlossen – finde den Zehnerfreund!' },
-      equationHint: { en: 'Build this exact load: {a} + {b}!', de: 'Baue genau diese Ladung: {a} + {b}!' },
-      mirrorHint: { en: 'You found {a} + {b} — what if we swap the cars?', de: 'Du hast {a} + {b} gefunden – was, wenn wir die Wagen tauschen?' },
-      judgeHint: { en: 'Chuffer says a route — is it NEW, or one we have?', de: 'Chuffer nennt einen Weg – ist er NEU oder haben wir ihn schon?' },
-      sayA: { en: '?', de: '?' },
-      coupler: { en: 'Pull the coupler! 🔗', de: 'Zieh die Kupplung! 🔗' },
-      pickPrompt: { en: 'How many in this car?', de: 'Wie viele sind in diesem Wagen?' },
-      newRoute: { en: 'New route!', de: 'Neuer Weg!' },
-      gotIt: { en: 'We have that!', de: 'Haben wir schon!' },
-      swap: { en: 'Swap them!', de: 'Tausche sie!' },
-      banked: { en: 'CLUNK! {a} and {b} — logged!', de: 'KLACK! {a} und {b} – eingetragen!' },
-      mirror: { en: 'Same crates, just swapped — {a} and {b}, OR {b} and {a}!', de: 'Gleiche Kisten, nur getauscht – {a} und {b} ODER {b} und {a}!' },
-      dupe: { en: 'Chuffer already knows that route — find a NEW way!', de: 'Diesen Weg kennt Chuffer schon – finde einen NEUEN!' },
-      mismatch: { en: "Let's count again — how many in each car?", de: 'Zählen wir noch mal – wie viele sind in jedem Wagen?' },
-      win: { en: 'Chuffer reached the station! 🚂🎉', de: 'Chuffer ist am Bahnhof angekommen! 🚂🎉' },
-      hintCheck: { en: 'Find every way to split the load.', de: 'Finde alle Wege, die Ladung zu zerlegen.' }
+      title: { en: "Chuffer's Switchyard", de: 'Chuffers Rangierbahnhof', fr: 'La gare de triage de Chuffer' },
+      prompt: { en: 'Split the load and say each way!', de: 'Teile die Ladung auf und sag jeden Weg!', fr: 'Partage la cargaison et dis chaque façon !' },
+      baseHint: { en: 'Move crates, say the split, pull the coupler!', de: 'Schiebe Kisten, sag die Zerlegung, zieh die Kupplung!', fr: 'Déplace des caisses, dis la décomposition, tire l’attelage !' },
+      covaryHint: { en: 'Move ONE crate — what is the new split?', de: 'Schiebe EINE Kiste – wie heißt die neue Zerlegung?', fr: 'Déplace UNE caisse — quelle est la nouvelle décomposition ?' },
+      huntHint: { en: 'The route-book has a gap — find that way!', de: 'Im Fahrtenbuch fehlt ein Weg – finde ihn!', fr: 'Il manque une façon dans le carnet — trouve-la !' },
+      maketenHint: { en: 'One car is sealed — find the partner to make 10!', de: 'Ein Wagen ist verschlossen – finde den Zehnerfreund!', fr: 'Un wagon est fermé — trouve le complément pour faire 10 !' },
+      equationHint: { en: 'Build this exact load: {a} + {b}!', de: 'Baue genau diese Ladung: {a} + {b}!', fr: 'Construis exactement cette cargaison : {a} + {b} !' },
+      mirrorHint: { en: 'You found {a} + {b} — what if we swap the cars?', de: 'Du hast {a} + {b} gefunden – was, wenn wir die Wagen tauschen?', fr: 'Tu as trouvé {a} + {b} — et si on échangeait les wagons ?' },
+      judgeHint: { en: 'Chuffer says a route — is it NEW, or one we have?', de: 'Chuffer nennt einen Weg – ist er NEU oder haben wir ihn schon?', fr: 'Chuffer propose une façon — est-elle NOUVELLE, ou déjà trouvée ?' },
+      sayA: { en: '?', de: '?', fr: '?' },
+      coupler: { en: 'Pull the coupler! 🔗', de: 'Zieh die Kupplung! 🔗', fr: 'Tire l’attelage ! 🔗' },
+      pickPrompt: { en: 'How many in this car?', de: 'Wie viele sind in diesem Wagen?', fr: 'Combien dans ce wagon ?' },
+      newRoute: { en: 'New route!', de: 'Neuer Weg!', fr: 'Nouvelle façon !' },
+      gotIt: { en: 'We have that!', de: 'Haben wir schon!', fr: 'On l’a déjà !' },
+      swap: { en: 'Swap them!', de: 'Tausche sie!', fr: 'Échange-les !' },
+      banked: { en: 'CLUNK! {a} and {b} — logged!', de: 'KLACK! {a} und {b} – eingetragen!', fr: 'CLAC ! {a} et {b} — enregistré !' },
+      mirror: { en: 'Same crates, just swapped — {a} and {b}, OR {b} and {a}!', de: 'Gleiche Kisten, nur getauscht – {a} und {b} ODER {b} und {a}!', fr: 'Les mêmes caisses, juste échangées — {a} et {b}, OU {b} et {a} !' },
+      dupe: { en: 'Chuffer already knows that route — find a NEW way!', de: 'Diesen Weg kennt Chuffer schon – finde einen NEUEN!', fr: 'Chuffer connaît déjà cette façon — trouve-en une NOUVELLE !' },
+      mismatch: { en: "Let's count again — how many in each car?", de: 'Zählen wir noch mal – wie viele sind in jedem Wagen?', fr: 'Comptons encore — combien dans chaque wagon ?' },
+      win: { en: 'Chuffer reached the station! 🚂🎉', de: 'Chuffer ist am Bahnhof angekommen! 🚂🎉', fr: 'Chuffer est arrivé à la gare ! 🚂🎉' },
+      hintCheck: { en: 'Find every way to split the load.', de: 'Finde alle Wege, die Ladung zu zerlegen.', fr: 'Trouve toutes les façons de partager la cargaison.' }
     },
     defaults: {},
 
@@ -140,9 +141,9 @@
       yard.appendChild(cars);
       if (!s.sealed) {
         var sh = api.el('div', 'cf-shift');
-        var lft = api.el('button', 'cf-shiftbtn'); lft.type = 'button'; lft.textContent = '◀'; lft.setAttribute('aria-label', LANG === 'de' ? 'eine Kiste in den blauen Wagen schieben' : 'move a crate to the blue car'); lft.addEventListener('click', function () { self._move('a'); });
-        var lab = api.el('span', 'cf-shiftlab'); lab.textContent = (LANG === 'de' ? 'eine Kiste schieben' : 'move a crate');
-        var rgt = api.el('button', 'cf-shiftbtn'); rgt.type = 'button'; rgt.textContent = '▶'; rgt.setAttribute('aria-label', LANG === 'de' ? 'eine Kiste in den roten Wagen schieben' : 'move a crate to the red car'); rgt.addEventListener('click', function () { self._move('b'); });
+        var lft = api.el('button', 'cf-shiftbtn'); lft.type = 'button'; lft.textContent = '◀'; lft.setAttribute('aria-label', LANG === 'de' ? 'eine Kiste in den blauen Wagen schieben' : (LANG === 'fr' ? 'déplacer une caisse vers le wagon bleu' : 'move a crate to the blue car')); lft.addEventListener('click', function () { self._move('a'); });
+        var lab = api.el('span', 'cf-shiftlab'); lab.textContent = (LANG === 'de' ? 'eine Kiste schieben' : (LANG === 'fr' ? 'déplacer une caisse' : 'move a crate'));
+        var rgt = api.el('button', 'cf-shiftbtn'); rgt.type = 'button'; rgt.textContent = '▶'; rgt.setAttribute('aria-label', LANG === 'de' ? 'eine Kiste in den roten Wagen schieben' : (LANG === 'fr' ? 'déplacer une caisse vers le wagon rouge' : 'move a crate to the red car')); rgt.addEventListener('click', function () { self._move('b'); });
         sh.appendChild(lft); sh.appendChild(lab); sh.appendChild(rgt); yard.appendChild(sh);
       }
       main.appendChild(yard);
@@ -161,7 +162,7 @@
     },
     _car: function (which, count, sealed) {
       var api = this.api, box = api.el('div', 'cf-carbox cf-car-' + which);
-      var cap = api.el('div', 'cf-carcap'); cap.textContent = (which === 'a' ? (LANG === 'de' ? 'Blauer Wagen' : 'Blue car') : (LANG === 'de' ? 'Roter Wagen' : 'Red car')) + (sealed ? ' 🔒' : ''); box.appendChild(cap);
+      var cap = api.el('div', 'cf-carcap'); cap.textContent = (which === 'a' ? (LANG === 'de' ? 'Blauer Wagen' : (LANG === 'fr' ? 'Wagon bleu' : 'Blue car')) : (LANG === 'de' ? 'Roter Wagen' : (LANG === 'fr' ? 'Wagon rouge' : 'Red car'))) + (sealed ? ' 🔒' : ''); box.appendChild(cap);
       box.appendChild(crateGrid(api, count, which));
       return box;
     },
@@ -191,7 +192,7 @@
       var res = Core.record(this.cstate);
       if (res === 'recorded') {
         this.api.sound && this.api.sound(880); this.msg = api.t('banked').replace('{a}', this.cstate.a).replace('{b}', this.cstate.b);
-        speak(numWord(this._whole()) + (LANG === 'de' ? ' ist ' : ' is ') + numWord(this.cstate.a) + (LANG === 'de' ? ' und ' : ' and ') + numWord(this.cstate.b));
+        speak(numWord(this._whole()) + (LANG === 'de' ? ' ist ' : (LANG === 'fr' ? ' c’est ' : ' is ')) + numWord(this.cstate.a) + (LANG === 'de' ? ' und ' : (LANG === 'fr' ? ' et ' : ' and ')) + numWord(this.cstate.b));
         this.statedA = null; this.statedB = null;
         if (this.act === 'predict-mirror' && this.cstate.a !== this.cstate.b && !this.mirrorStep) { this.mirrorStep = true; }
         this._checkDone(); if (!this.solved) this.render();
@@ -216,7 +217,7 @@
       var self = this, api = this.api, r = this.round, prop = r.proposed[this.judgeIdx];
       var main = api.el('div', 'cf-main');
       var yard = api.el('div', 'cf-yard');
-      var claim = api.el('div', 'cf-claim'); claim.innerHTML = (LANG === 'de' ? 'Chuffer sagt: <b>' : 'Chuffer says: <b>') + r.whole + ' = ' + prop.a + ' + ' + prop.b + '</b>'; yard.appendChild(claim);
+      var claim = api.el('div', 'cf-claim'); claim.innerHTML = (LANG === 'de' ? 'Chuffer sagt: <b>' : (LANG === 'fr' ? 'Chuffer dit : <b>' : 'Chuffer says: <b>')) + r.whole + ' = ' + prop.a + ' + ' + prop.b + '</b>'; yard.appendChild(claim);
       var cars = api.el('div', 'cf-cars'); cars.appendChild(this._car('a', prop.a, false)); cars.appendChild(this._car('b', prop.b, false)); yard.appendChild(cars);
       main.appendChild(yard);
       var side = api.el('div', 'cf-side cf-judge');
@@ -230,17 +231,17 @@
       var self = this, r = this.round, prop = r.proposed[this.judgeIdx], s = this.cstate;
       var key = Core.keyOf(prop.a, prop.b), isNew = !s.manifest[key];
       if (sayNew === isNew) {
-        if (isNew) { s.manifest[key] = true; speak(numWord(r.whole) + (LANG === 'de' ? ' ist ' : ' is ') + numWord(prop.a) + (LANG === 'de' ? ' und ' : ' and ') + numWord(prop.b)); }
+        if (isNew) { s.manifest[key] = true; speak(numWord(r.whole) + (LANG === 'de' ? ' ist ' : (LANG === 'fr' ? ' c’est ' : ' is ')) + numWord(prop.a) + (LANG === 'de' ? ' und ' : (LANG === 'fr' ? ' et ' : ' and ')) + numWord(prop.b)); }
         this.api.sound && this.api.sound(820); this.msg = null; this.judgeIdx++;
         if (this.judgeIdx >= r.proposed.length) { this._win(); return; } this.render();
-      } else { this.api.sound && this.api.sound(330); this.msg = (LANG === 'de') ? (isNew ? 'Schau – der steht noch nicht im Buch!' : 'Schau noch mal – den haben wir schon!') : (isNew ? "Look — it's not in the book yet!" : "Look again — we already have that one!"); this.render(); }
+      } else { this.api.sound && this.api.sound(330); this.msg = (LANG === 'de') ? (isNew ? 'Schau – der steht noch nicht im Buch!' : 'Schau noch mal – den haben wir schon!') : (LANG === 'fr' ? (isNew ? 'Regarde — il n’est pas encore dans le carnet !' : 'Regarde encore — on l’a déjà, celui-là !') : (isNew ? "Look — it's not in the book yet!" : "Look again — we already have that one!")); this.render(); }
     },
 
-    _win: function () { this.solved = true; this.solvedCount = Math.min(this.solvedCount + 1, (this._pool && this._pool.length) || 9); this.api.sound && this.api.sound(940); this.render(); this.announce(this.api.t('win')); speak(LANG === 'de' ? 'Chuffer ist am Bahnhof angekommen' : 'Chuffer reached the station'); },
+    _win: function () { this.solved = true; this.solvedCount = Math.min(this.solvedCount + 1, (this._pool && this._pool.length) || 9); this.api.sound && this.api.sound(940); this.render(); this.announce(this.api.t('win')); speak(LANG === 'de' ? 'Chuffer ist am Bahnhof angekommen' : (LANG === 'fr' ? 'Chuffer est arrivé à la gare' : 'Chuffer reached the station')); },
 
     _staircase: function () {
       var api = this.api, N = this._whole(), s = this.cstate, ways = Core.waysFor(N), book = api.el('div', 'cf-book');
-      var title = api.el('div', 'cf-booktitle'); title.textContent = (LANG === 'de' ? 'Fahrtenbuch' : 'Route-book'); book.appendChild(title);
+      var title = api.el('div', 'cf-booktitle'); title.textContent = (LANG === 'de' ? 'Fahrtenbuch' : (LANG === 'fr' ? 'Carnet de route' : 'Route-book')); book.appendChild(title);
       var rungs = api.el('div', 'cf-rungs');
       ways.forEach(function (w) {
         var have = !!s.manifest[Core.keyOf(w.a, w.b)];

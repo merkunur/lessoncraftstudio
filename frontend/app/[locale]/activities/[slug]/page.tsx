@@ -86,7 +86,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'vet-diagnosis.word-problems.1-oa-a-1': { de: '2' },                    // Sachaufgaben ZR bis 20 BUT grade follows STRUCTURE: Anfang-unbekannt + additiver Vergleich = schwierigste Klasse-2 Sachaufgabentypen; length-sibling precedent
   'bramble.holds-more.k-md-a-2': { de: '1' },                             // K capacity: German „Kindergarten"=daycare (not a school stage) → Klasse 1; direkter Größenvergleich is Klasse-1 Lehrplan; en stays Kindergarten (the K-cluster K-label pattern)
   'pip-museum.curate-wing.k-g-a-2': { de: '1', fr: '1' },                 // K geometry shape-naming → Klasse 1 (Formen erkennen/benennen = Kern-Geometrie Klasse 1); en stays Kindergarten (K-cluster pattern). FR CP (operator-ruled, content-drives): reconnaître/nommer les figures INDÉPENDAMMENT de l'orientation/la taille + distinguer carré/rectangle/losange par leurs propriétés + hexagone (au-delà des « figures usuelles » de maternelle) = attendu du CP; DIVERGES from the basic-shape-naming GS framing (parking-tower #75 was GS); CP → the auto-map « Espace et géométrie » is correct → NO STRAND override
-  'chuffer.rail-decompose.k-oa-a-3': { de: '1' },                         // K number-decompose (Zahlzerlegung bis 10) → Klasse 1 (Kernstoff erste Wochen); en stays Kindergarten (K-cluster pattern)
+  'chuffer.rail-decompose.k-oa-a-3': { de: '1', fr: '1' },                // K number-decompose (Zahlzerlegung bis 10) → Klasse 1 (Kernstoff erste Wochen); en stays Kindergarten (K-cluster pattern). fr → CP (content-drives-CP: les décompositions du nombre jusqu'à 10 + compléments à 10 + notation additive 5=2+3 = calcul CP, matches the compose sibling clunks #98); strand falls through auto-map « Nombres et calcul »
   'friendship-bridge.compare-balance.k-cc-c-6': { de: '1' },              // K compare-sets-by-matching (Mengen vergleichen mehr/weniger/gleich viel) → Klasse 1; en stays Kindergarten (K-cluster pattern)
   'necklace.bead-string.k-cc-b-4': { de: '1' },                           // K count-to-cardinality (Anzahl durch Zählen + Anzahlinvarianz) → Klasse 1; en stays Kindergarten (K-cluster pattern)
   'star-stitcher.connect-sequence.k-cc-a-2': { de: '1' },                 // K count-forward-from-N (Weiterzählen ab einer Zahl) → Klasse 1; en stays Kindergarten (K-cluster pattern)
@@ -475,7 +475,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.216';
+  const ACTIVITY_WRAPPER_VERSION = '9.217';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

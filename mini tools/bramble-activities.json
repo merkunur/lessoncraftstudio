@@ -90,11 +90,12 @@
         }
       ]
     },
-    "slug": { "en": "brambles-berry-juice-stand", "de": "fassungsvermoegen-vergleichen-welches-gefaess-fasst-mehr-klasse-1" },
-    "page_title": { "en": "Which Holds More? — Bramble's Berry-Juice Stand", "de": "Fassungsvermögen vergleichen: welches fasst mehr? – Klasse 1" },
+    "slug": { "en": "brambles-berry-juice-stand", "de": "fassungsvermoegen-vergleichen-welches-gefaess-fasst-mehr-klasse-1", "fr": "comparer-les-contenances-lequel-contient-le-plus-gs" },
+    "page_title": { "en": "Which Holds More? — Bramble's Berry-Juice Stand", "de": "Fassungsvermögen vergleichen: welches fasst mehr? – Klasse 1", "fr": "Comparer les contenances : lequel contient le plus ? - GS" },
     "page_intro": {
       "en": "Predict which cup holds more berry juice, then pour to find out — a tall, skinny glass can fool your eyes! A no-counting Kindergarten capacity activity aligned to Common Core K.MD.A.2: directly compare two containers and tell which holds more, less, or the same.",
-      "de": "Fassungsvermögen vergleichen in Klasse 1: Schätze, welches Gefäß mehr fasst, und gieße die Becher aus, um es zu prüfen – kostenlos, interaktiv. Jetzt ausprobieren!"
+      "de": "Fassungsvermögen vergleichen in Klasse 1: Schätze, welches Gefäß mehr fasst, und gieße die Becher aus, um es zu prüfen – kostenlos, interaktiv. Jetzt ausprobieren!",
+      "fr": "Devine quel récipient contient le plus de jus de baies, puis verse pour vérifier — un verre haut et fin peut tromper tes yeux ! Une activité de contenance gratuite et interactive pour la GS, sans compter : comparer directement deux récipients et dire lequel contient le plus, le moins, ou pareil."
     },
     "kid_prompt_template": "Call it before Bramble pours — which cup holds more?"
   }

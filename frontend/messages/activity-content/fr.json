@@ -3668,6 +3668,27 @@
         "Chercher le complément",
         "Relier l'addition et la soustraction"
       ]
+    },
+    "clock-convert.12-24.2-md-c-7": {
+      "about": [
+        "Sprocket le coq montre une heure, écrite d'une façon. Ton enfant touche la même heure écrite de l'autre façon : le format du matin, de l'après-midi ou du soir (comme 3 h de l'après-midi) d'un côté, et le format 24 heures (comme 15:00) de l'autre.",
+        "Lire l'heure en 24 heures et passer d'un format à l'autre est un attendu du CE1. Le secret : après midi, l'heure continue de compter — 1 h de l'après-midi, c'est 13:00 ; 8 h du soir, c'est 20:00. C'est le format qu'on lit sur les gares, les billets et les écrans. Le jeu est gratuit, sans minuteur et sans points : l'enfant avance à son rythme. Il suit le domaine « Grandeurs et mesures » des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Lire l'heure en format 24 heures",
+        "Passer du format du matin/après-midi/soir au format 24 heures",
+        "Comprendre qu'après midi l'heure continue de compter (13, 14, 15…)",
+        "Relier 3 h de l'après-midi et 15:00"
+      ],
+      "howToPlay": [
+        "Lis l'heure affichée.",
+        "Touche la même heure écrite de l'autre façon, puis vérifie."
+      ],
+      "learningGoals": [
+        "Lire l'heure en 24 heures",
+        "Convertir entre le format 12 heures et 24 heures",
+        "Comprendre le décompte de l'après-midi"
+      ]
     }
   }
 }

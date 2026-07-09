@@ -26,6 +26,13 @@
       win12to24: 'Genau! {given} ist {answer}.',
       win24to12: 'Genau! {given} ist {answer}.',
       hint: 'Nach dem Mittag zählt die 24-Stunden-Zeit weiter: Aus 1 Uhr nachmittags wird 13:00.'
+    },
+    fr: {
+      q12to24: 'Comment écrit-on cela en 24 heures ?',
+      q24to12: 'Comment dit-on cela avec le moment de la journée ?',
+      win12to24: 'Oui ! {given}, c’est {answer}.',
+      win24to12: 'Oui ! {given}, c’est {answer}.',
+      hint: 'Après midi, l’heure continue de compter : 1 h de l’après-midi, c’est 13:00.'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -39,8 +46,14 @@
   function de12str(h24, m) { return Core.to12(h24).h12 + ':' + pad2(m) + ' ' + TAGESZEIT[h24]; }
   function deGivenStr(round) { return round.dir === '12to24' ? de12str(round.h24, round.m) : Core.to24str(round.h24, round.m); }
   function deOptionStr(round, oh) { return round.dir === '12to24' ? Core.to24str(oh, round.m) : de12str(oh, round.m); }
-  function givenStr(round) { return LANG === 'de' ? deGivenStr(round) : Core.givenStr(round); }
-  function optionStr(round, oh) { return LANG === 'de' ? deOptionStr(round, oh) : Core.optionStr(round, oh); }
+  /* French: 24h side is universal („15:00"); the 12h side becomes „{h12}:{mm} {moment}"
+     („3:00 de l’après-midi"). MOMENT_FR 0..23 (du matin / midi / après-midi / soir / nuit). */
+  var MOMENT_FR = ['de la nuit', 'du matin', 'du matin', 'du matin', 'du matin', 'du matin', 'du matin', 'du matin', 'du matin', 'du matin', 'du matin', 'du matin', 'de midi', 'de l’après-midi', 'de l’après-midi', 'de l’après-midi', 'de l’après-midi', 'de l’après-midi', 'du soir', 'du soir', 'du soir', 'du soir', 'du soir', 'du soir'];
+  function fr12str(h24, m) { return Core.to12(h24).h12 + ':' + pad2(m) + ' ' + MOMENT_FR[h24]; }
+  function frGivenStr(round) { return round.dir === '12to24' ? fr12str(round.h24, round.m) : Core.to24str(round.h24, round.m); }
+  function frOptionStr(round, oh) { return round.dir === '12to24' ? Core.to24str(oh, round.m) : fr12str(oh, round.m); }
+  function givenStr(round) { return LANG === 'de' ? deGivenStr(round) : LANG === 'fr' ? frGivenStr(round) : Core.givenStr(round); }
+  function optionStr(round, oh) { return LANG === 'de' ? deOptionStr(round, oh) : LANG === 'fr' ? frOptionStr(round, oh) : Core.optionStr(round, oh); }
 
   function sprocketSVG() {
     /* Sprocket — a rooster (red comb + wattle, orange beak), the time mascot */
@@ -59,8 +72,8 @@
   var ClockConvertActivity = {
     id: 'clock-convert-activity',
     strings: {
-      title: { en: "Sprocket's Clock", de: 'Kikos Uhr' },
-      instruction: { en: 'Read the time, then tap the same time in the other way of writing it.', de: 'Lies die Uhrzeit. Tippe dann dieselbe Uhrzeit in der anderen Schreibweise an.' },
+      title: { en: "Sprocket's Clock", de: 'Kikos Uhr', fr: 'L’horloge de Sprocket' },
+      instruction: { en: 'Read the time, then tap the same time in the other way of writing it.', de: 'Lies die Uhrzeit. Tippe dann dieselbe Uhrzeit in der anderen Schreibweise an.', fr: 'Lis l’heure, puis touche la même heure écrite d’une autre façon.' },
       q: { en: '{q}' }
     },
 
@@ -205,6 +218,8 @@
       var cs = (round.options || []).map(function (oh) { return optionStr(round, oh); }).join(', ');
       wrap.innerHTML = LANG === 'de'
         ? '<p>Die Uhrzeit ist ' + givenStr(round) + '. ' + promptFor(round) + ' Zur Auswahl: ' + cs + '.</p>'
+        : LANG === 'fr'
+        ? '<p>L’heure est ' + givenStr(round) + '. ' + promptFor(round) + ' Choix : ' + cs + '.</p>'
         : '<p>The time is ' + givenStr(round) + '. ' + promptFor(round) + ' The choices are: ' + cs + '.</p>';
       return wrap;
     },

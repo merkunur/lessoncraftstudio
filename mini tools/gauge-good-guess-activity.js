@@ -39,13 +39,13 @@
     id: 'gauge-good-guess-activity',
 
     strings: {
-      title: { en: "Gauge's Good Guess", de: 'Gauges gute Schätzung' },
-      instruction: { en: 'Picture the real size, then tap the estimate that makes sense.', de: 'Stell dir die echte Größe vor und tippe dann auf die Schätzung, die passt.' },
-      prompt: { en: 'Tap the estimate that makes sense.', de: 'Tippe auf die Schätzung, die passt.' },
-      gaugeIntro: { en: 'I guess sizes by eye — picture how big it really is!', de: 'Ich schätze Größen mit dem Auge – stell dir vor, wie groß etwas wirklich ist!' },
-      hintPick: { en: 'Think about the real object. Is it small, or really big?', de: 'Denk an den echten Gegenstand. Ist er klein oder richtig groß?' },
-      hintWrong: { en: 'That size is way off. Picture the real thing again.', de: 'Diese Größe passt gar nicht. Stell dir das echte Ding noch einmal vor.' },
-      win: { en: 'Yes! That is a sensible estimate. 📏', de: 'Ja! Das ist eine sinnvolle Schätzung. 📏' }
+      title: { en: "Gauge's Good Guess", de: 'Gauges gute Schätzung', fr: 'La bonne estimation de Gauge' },
+      instruction: { en: 'Picture the real size, then tap the estimate that makes sense.', de: 'Stell dir die echte Größe vor und tippe dann auf die Schätzung, die passt.', fr: 'Imagine la taille réelle, puis touche l’estimation qui a du sens.' },
+      prompt: { en: 'Tap the estimate that makes sense.', de: 'Tippe auf die Schätzung, die passt.', fr: 'Touche l’estimation qui a du sens.' },
+      gaugeIntro: { en: 'I guess sizes by eye — picture how big it really is!', de: 'Ich schätze Größen mit dem Auge – stell dir vor, wie groß etwas wirklich ist!', fr: 'Je devine les tailles à l’œil — imagine la taille réelle !' },
+      hintPick: { en: 'Think about the real object. Is it small, or really big?', de: 'Denk an den echten Gegenstand. Ist er klein oder richtig groß?', fr: 'Pense à l’objet réel. Est-il petit, ou vraiment grand ?' },
+      hintWrong: { en: 'That size is way off. Picture the real thing again.', de: 'Diese Größe passt gar nicht. Stell dir das echte Ding noch einmal vor.', fr: 'Cette taille est loin du compte. Imagine à nouveau l’objet réel.' },
+      win: { en: 'Yes! That is a sensible estimate. 📏', de: 'Ja! Das ist eine sinnvolle Schätzung. 📏', fr: 'Oui ! C’est une estimation qui a du sens. 📏' }
     },
     defaults: {},
 

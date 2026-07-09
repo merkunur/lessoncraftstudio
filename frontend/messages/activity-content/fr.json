@@ -1589,6 +1589,28 @@
         "Distinguer les formes par leurs propriétés"
       ]
     },
+    "track-repair.count-to-120.1-nbt-a-1": {
+      "about": [
+        "Une tempête a emporté la voie ferrée de la vallée du Sifflet, et cette voie est une véritable ligne numérique ! Ton enfant lit le nombre écrit sur chaque traverse et la pose exactement à sa place, en comptant à partir des gares-repères déjà en place — en avant, ou en arrière. D'autres défis viennent enrichir le jeu : avancer de 5 en 5 ou de 10 en 10, retrouver le nombre qui manque au milieu, ou même franchir la centaine. Quand toutes les traverses sont posées, la petite locomotive qui chante peut enfin traverser la voie réparée.",
+        "Compter et placer les nombres sur la ligne numérique, avancer de 5 en 5 et de 10 en 10, franchir la dizaine : ce sont des attendus du CP (« placer un nombre sur une ligne graduée », « compter de 5 en 5, de 10 en 10 »). En reliant chaque nombre à sa position sur la voie, l'enfant développe le sens du nombre et sa connaissance de la suite numérique. Le jeu est entièrement gratuit, fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Nombres et calcul »)."
+      ],
+      "practices": [
+        "Placer un nombre à sa place sur la ligne numérique",
+        "Compter en avant et en arrière à partir d'un nombre",
+        "Avancer de 5 en 5 et de 10 en 10",
+        "Retrouver le nombre qui manque entre deux repères",
+        "Franchir la dizaine et la centaine"
+      ],
+      "howToPlay": [
+        "Touche une traverse, puis touche l'endroit de la voie où son nombre doit aller.",
+        "Pose toutes les traverses, puis envoie la locomotive sur la voie réparée."
+      ],
+      "learningGoals": [
+        "Placer les nombres sur la ligne numérique",
+        "Compter de 5 en 5 et de 10 en 10",
+        "Développer le sens du nombre"
+      ]
+    },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
         "Dans le tribunal des nombres de la juge Tess, une vieille tortue posée et bienveillante, on juge aujourd’hui des égalités. Un témoin s’avance et affirme quelque chose — par exemple « 5 + 3 = 8 », « 6 = 8 − 2 » ou encore « 3 + 2 = 2 + 3 ». Votre enfant est assis sur le siège du juge et doit rendre son verdict : cette égalité est-elle vraie ou fausse ?",

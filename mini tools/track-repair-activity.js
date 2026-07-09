@@ -36,17 +36,17 @@
     id: 'track-repair-activity',
 
     strings: {
-      title: { en: 'Whistle Valley', de: 'Pfeiftal' },
-      instruction: { en: '', de: '' },
-      prompt: { en: 'Lay the track to scale!', de: 'Leg jede Schwelle an die richtige Stelle!' },
-      send: { en: 'Send the train! 🚂', de: 'Schick den Zug los! 🚂' },
-      engineListen: { en: 'A tie goes where its number belongs.', de: 'Jede Schwelle gehört dorthin, wo ihre Zahl steht.' },
-      engineWin: { en: 'All aboard! ', de: 'Alle einsteigen! ' },
-      engineWait: { en: "Not yet — the train's still waiting.", de: 'Noch nicht – der Zug wartet noch.' },
-      tapToPlace: { en: 'Tap a tie, then tap the track where it belongs.', de: 'Tippe auf eine Schwelle und dann auf die Stelle, wo sie hingehört.' },
-      hintCheck: { en: 'Lay every tie, then send the train!', de: 'Leg alle Schwellen, dann schick den Zug los!' },
-      ariaTie: { en: 'tie {n}', de: 'Schwelle {n}' },
-      ariaPlaced: { en: '{n}, placed — tap to pick up again', de: '{n}, gelegt – zum Aufheben tippen' }
+      title: { en: 'Whistle Valley', de: 'Pfeiftal', fr: 'La vallée du Sifflet' },
+      instruction: { en: '', de: '', fr: '' },
+      prompt: { en: 'Lay the track to scale!', de: 'Leg jede Schwelle an die richtige Stelle!', fr: 'Pose chaque traverse à la bonne place !' },
+      send: { en: 'Send the train! 🚂', de: 'Schick den Zug los! 🚂', fr: 'Envoie le train ! 🚂' },
+      engineListen: { en: 'A tie goes where its number belongs.', de: 'Jede Schwelle gehört dorthin, wo ihre Zahl steht.', fr: 'Chaque traverse va là où se trouve son nombre.' },
+      engineWin: { en: 'All aboard! ', de: 'Alle einsteigen! ', fr: 'En voiture !  ' },
+      engineWait: { en: "Not yet — the train's still waiting.", de: 'Noch nicht – der Zug wartet noch.', fr: 'Pas encore — le train attend toujours.' },
+      tapToPlace: { en: 'Tap a tie, then tap the track where it belongs.', de: 'Tippe auf eine Schwelle und dann auf die Stelle, wo sie hingehört.', fr: 'Touche une traverse, puis touche l’endroit de la voie où elle va.' },
+      hintCheck: { en: 'Lay every tie, then send the train!', de: 'Leg alle Schwellen, dann schick den Zug los!', fr: 'Pose toutes les traverses, puis envoie le train !' },
+      ariaTie: { en: 'tie {n}', de: 'Schwelle {n}', fr: 'traverse {n}' },
+      ariaPlaced: { en: '{n}, placed — tap to pick up again', de: '{n}, gelegt – zum Aufheben tippen', fr: '{n}, posée — touche pour la reprendre' }
     },
     defaults: {},
 

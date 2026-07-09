@@ -1413,6 +1413,28 @@
         "Comprendre que le nombre ne dépend pas de la disposition"
       ]
     },
+    "mochi-feast.count-out.k-cc-b-5": {
+      "about": [
+        "Mochi a très faim ! Pour le régaler, il faut lui donner exactement le bon nombre de gourmandises : cinq fraises, trois cookies, sept cerises… L'enfant tape sur le plat pour déposer une friandise dans le bol, une à une, et s'arrête quand la quantité demandée est atteinte. Le bol qui se remplit, c'est le compte lui-même : il n'y a aucun chiffre à lire, seulement des gourmandises à compter avant de vérifier.",
+        "En donnant à Mochi « autant que » demandé, l'enfant apprend à constituer une collection d'un cardinal donné : « donne-moi cinq fraises » l'invite à compter un à un jusqu'au bon nombre, ce qu'on appelle « construire le nombre » à la maternelle. L'activité est gratuite, sans minuteur, sans score et sans compte à créer : chacun avance à son rythme, dans l'esprit des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Donner à Mochi exactement le nombre de gourmandises demandé",
+        "Compter un à un en déposant chaque friandise dans le bol",
+        "S'arrêter au bon nombre, sans en mettre trop ni trop peu",
+        "Retirer une gourmandise s'il y en a une de trop",
+        "Associer une quantité d'objets à un nombre"
+      ],
+      "howToPlay": [
+        "Tape sur le plat pour déposer une gourmandise dans le bol de Mochi.",
+        "Donne à Mochi exactement le nombre demandé, puis vérifie ta réponse."
+      ],
+      "learningGoals": [
+        "Constituer une collection d'un nombre donné",
+        "Compter un à un jusqu'au bon nombre",
+        "Associer une quantité à un nombre"
+      ]
+    },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
         "Dans le tribunal des nombres de la juge Tess, une vieille tortue posée et bienveillante, on juge aujourd’hui des égalités. Un témoin s’avance et affirme quelque chose — par exemple « 5 + 3 = 8 », « 6 = 8 − 2 » ou encore « 3 + 2 = 2 + 3 ». Votre enfant est assis sur le siège du juge et doit rendre son verdict : cette égalité est-elle vraie ou fausse ?",

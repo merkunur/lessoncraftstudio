@@ -67,6 +67,26 @@
       pouring: 'Ich gieße ein … mal sehen!',
       poured: 'Tippe auf „Prüfen", um den nächsten Gast zu bedienen!',
       ariaStage: 'Zwei Gefäße zum Vergleichen'
+    },
+    fr: {
+      leftMore: 'Gauche', rightMore: 'Droite', same: 'Pareil',
+      fits: 'Ça rentre !', overflows: 'Ça déborde !',
+      brambleClear: 'Ça a l’air facile — mais c’est toi qui décides !',
+      brambleTricky: 'Des verres malins ! Qu’est-ce que TU en dis ?',
+      brambleFit: 'Ça rentre ou ça déborde ? À toi de décider !',
+      rightYes: 'Oui — pile poil, mon ami !',
+      rightSame: 'Ils ont l’air si différents — mais ils contiennent PAREIL !',
+      missWide: 'Mes yeux m’ont trompé — c’est le plus large qui contenait le plus ! Maintenant on le sait !',
+      missTall: 'Mes yeux m’ont trompé — c’est le plus haut qui contenait le plus ! Maintenant on le sait !',
+      missSame: 'Surprise — ils contiennent PAREIL ! Des formes malines !',
+      missFit: 'Oups — ça a débordé ! Il contient moins. Maintenant on le sait !',
+      missFitOver: 'Regarde — c’est rentré ! Il contient plus. Maintenant on le sait !',
+      describe: 'Maintenant, à TOI de le dire — lequel contenait le plus ?',
+      describeYes: 'Tu t’en es souvenu ! Bravo.',
+      describeNo: 'Regarde encore — c’était l’autre. Maintenant tu le sais !',
+      pouring: 'Je verse… on va voir !',
+      poured: 'Touche Vérifier pour servir le prochain ami !',
+      ariaStage: 'Deux récipients à comparer'
     }
   };
 
@@ -154,10 +174,10 @@
     id: 'bramble',
 
     strings: {
-      title: { en: "Bramble's Berry-Juice Stand", de: 'Brambles Beerensaft-Stand' },
-      instruction: { en: 'Guess which holds more, then pour!', de: 'Rate, welches mehr fasst — dann gießen wir ein!' },
-      promptPredict: { en: 'Which cup holds more? Call it!', de: 'Welcher Becher fasst mehr? Entscheide du!' },
-      promptFit: { en: 'Will the juice fit, or spill over?', de: 'Passt der Saft rein oder läuft er über?' }
+      title: { en: "Bramble's Berry-Juice Stand", de: 'Brambles Beerensaft-Stand', fr: 'Le stand de jus de baies de Bramble' },
+      instruction: { en: 'Guess which holds more, then pour!', de: 'Rate, welches mehr fasst — dann gießen wir ein!', fr: 'Devine lequel contient le plus, puis verse !' },
+      promptPredict: { en: 'Which cup holds more? Call it!', de: 'Welcher Becher fasst mehr? Entscheide du!', fr: 'Quel verre contient le plus ? À toi de deviner !' },
+      promptFit: { en: 'Will the juice fit, or spill over?', de: 'Passt der Saft rein oder läuft er über?', fr: 'Le jus va-t-il tenir, ou déborder ?' }
     },
 
     init: function (api) {

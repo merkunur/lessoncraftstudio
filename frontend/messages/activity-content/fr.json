@@ -1611,6 +1611,28 @@
         "Développer le sens du nombre"
       ]
     },
+    "bramble.holds-more.k-md-a-2": {
+      "about": [
+        "Au stand de jus de baies de Bramble, à toi de deviner quel récipient contient le plus de jus ! Ton enfant fait son choix AVANT que Bramble ne verse — et son choix est verrouillé. Ensuite, Bramble verse le jus pour vérifier. Attention : un verre haut et fin peut tromper les yeux, car un récipient large et bas contient parfois plus ! Et parfois, deux récipients très différents contiennent pareil. D'autres défis viennent enrichir le jeu : est-ce que le jus va tenir ou déborder, et redire lequel des deux contenait le plus.",
+        "Comparer directement des contenances — dire lequel contient le plus, le moins, ou autant —, sans compter ni mesurer, est un attendu de la maternelle (« comparer, classer des objets selon leur contenance »). En se fiant à ce qu'il voit, puis à ce qu'il découvre en versant, l'enfant développe le sens des grandeurs et prépare la mesure. Le jeu est entièrement gratuit, fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Explorer des formes, des grandeurs, des suites organisées »)."
+      ],
+      "practices": [
+        "Comparer la contenance de deux récipients",
+        "Dire lequel contient le plus, le moins, ou autant",
+        "Deviner avant de vérifier en versant",
+        "Comprendre qu'un récipient haut et fin ne contient pas toujours le plus",
+        "Reconnaître que deux récipients différents peuvent contenir pareil"
+      ],
+      "howToPlay": [
+        "Regarde les deux récipients et devine lequel contient le plus de jus.",
+        "Bramble verse pour vérifier, puis touche Vérifier pour servir le prochain ami."
+      ],
+      "learningGoals": [
+        "Comparer des contenances",
+        "Développer le sens des grandeurs",
+        "Préparer la mesure"
+      ]
+    },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
         "Dans le tribunal des nombres de la juge Tess, une vieille tortue posée et bienveillante, on juge aujourd’hui des égalités. Un témoin s’avance et affirme quelque chose — par exemple « 5 + 3 = 8 », « 6 = 8 − 2 » ou encore « 3 + 2 = 2 + 3 ». Votre enfant est assis sur le siège du juge et doit rendre son verdict : cette égalité est-elle vraie ou fausse ?",

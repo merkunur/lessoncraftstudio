@@ -56,14 +56,17 @@
     },
     "slug": {
       "en": "time-addition-and-subtraction",
-      "de": "zeit-addieren-subtrahieren-minuten-klasse-3"
+      "de": "zeit-addieren-subtrahieren-minuten-klasse-3",
+      "fr": "ajouter-et-retirer-des-minutes-sur-l-horloge-ce2"
     },
     "page_title": {
       "en": "Sprocket's Clock — Time Addition & Subtraction (Grade 3)",
-      "de": "Zeit addieren & subtrahieren – Minuten, Klasse 3 | Sprocket"
+      "de": "Zeit addieren & subtrahieren – Minuten, Klasse 3 | Sprocket",
+      "fr": "L'horloge de Sprocket : ajouter et retirer des minutes — calculer une durée – CE2"
     },
     "page_intro": {
       "en": "A free interactive Grade 3 time activity: add and subtract minutes to a clock time. Children read the start time, then count on ('what time will it be in 30 minutes?') or count back ('what time was it 30 minutes ago?'), including times that cross the hour. Sprocket the rooster cheers them on. Common Core 3.MD.A.1.",
+      "fr": "Un jeu de maths CE2, gratuit et interactif : Sprocket le coq montre une horloge, et ton enfant calcule une durée en avançant ou en reculant les minutes : quelle heure sera-t-il dans 30 minutes, ou quelle heure était-il il y a 30 minutes ? Il lit l'heure de départ puis choisit la bonne heure parmi trois horloges numériques, même quand on change d'heure. Sans minuteur, sans points, au rythme de l'enfant.",
       "de": "Minuten zur Uhrzeit dazurechnen und wieder abziehen: Wie spät ist es in oder vor N Minuten? Kostenlose, interaktive Uhrzeit-Übung für Klasse 3 – los geht's!"
     },
     "kid_prompt_template": "clock-elapsed"

@@ -19,15 +19,18 @@
     "theme": null,
     "slug": {
       "en": "echo-grove-equal-groups",
-      "de": "multiplikation-als-gruppen-einmaleins-klasse-2"
+      "de": "multiplikation-als-gruppen-einmaleins-klasse-2",
+      "fr": "la-multiplication-en-groupes-egaux-ce1"
     },
     "page_title": {
       "en": "The Echo Grove — Read Multiplication as Equal Groups (Grade 3)",
-      "de": "Multiplikation als Gruppen üben – Pim die Eule | Klasse 2"
+      "de": "Multiplikation als Gruppen üben – Pim die Eule | Klasse 2",
+      "fr": "La multiplication : lire des groupes égaux – Le bosquet de Pim | CE1"
     },
     "page_intro": {
       "en": "A free interactive Grade 3 math activity: read Pim's rune (like 3 × 4) and tap the grove that shows 3 groups of 4 — not the look-alike with the same total but a different grouping. Children interpret a product as equal groups (the first factor = number of groups, the second = the size of each group). Common Core 3.OA.A.1.",
-      "de": "Multiplikation als gleiche Gruppen verstehen mit Pim, der Eule: Lies 3×4 als 3 Gruppen mit je 4. Einmaleins & Malnehmen für Klasse 2 – kostenlos & interaktiv."
+      "de": "Multiplikation als gleiche Gruppen verstehen mit Pim, der Eule: Lies 3×4 als 3 Gruppen mit je 4. Einmaleins & Malnehmen für Klasse 2 – kostenlos & interaktiv.",
+      "fr": "Pim le hibou montre une rune, comme 3 × 4, et ton enfant touche le bosquet qui montre 3 groupes de 4 — pas le sosie qui a le même total mais un groupement différent. L'enfant apprend à lire un produit comme des groupes égaux : le premier nombre dit combien de groupes, le second dit combien il y en a dans chaque groupe. Un jeu de CE1 sur le sens de la multiplication. Gratuit et interactif."
     },
     "kid_prompt_template": "match-the-rune"
   }

@@ -18,9 +18,9 @@
       ]
     },
     "theme": null,
-    "slug": { "en": "mamas-roll-call", "de": "mama-ente-appell-richtige-anzahl-schicken-und-ziffer-schreiben-klasse-1" },
-    "page_title": { "en": "Mama's Roll Call — Count Out That Many (0 to 9)", "de": "Mama Entes Appell: Anzahl abzählen & Ziffer schreiben – Klasse 1" },
-    "page_intro": { "en": "Mama Duck calls the morning roll at Quack Creek: send her exactly the number of ducklings she asks for — count them out one by one from the raft — then sign the roll by writing that number in the mud. Even a quiet morning has a number: zero! A warm Kindergarten counting game aligned to Common Core K.CC.B.5.", "de": "Schick Mama Ente genau so viele Küken, wie sie verlangt – selbst abzählen, auch die Null, und die richtige Zahl in den Schlamm schreiben. Kostenlos & interaktiv, Klasse 1. Jetzt mitmachen!" },
+    "slug": { "en": "mamas-roll-call", "de": "mama-ente-appell-richtige-anzahl-schicken-und-ziffer-schreiben-klasse-1", "fr": "envoyer-le-bon-nombre-et-ecrire-le-chiffre-gs" },
+    "page_title": { "en": "Mama's Roll Call — Count Out That Many (0 to 9)", "de": "Mama Entes Appell: Anzahl abzählen & Ziffer schreiben – Klasse 1", "fr": "L'appel de Maman : compter et écrire les chiffres jusqu'à 9 (GS)" },
+    "page_intro": { "en": "Mama Duck calls the morning roll at Quack Creek: send her exactly the number of ducklings she asks for — count them out one by one from the raft — then sign the roll by writing that number in the mud. Even a quiet morning has a number: zero! A warm Kindergarten counting game aligned to Common Core K.CC.B.5.", "de": "Schick Mama Ente genau so viele Küken, wie sie verlangt – selbst abzählen, auch die Null, und die richtige Zahl in den Schlamm schreiben. Kostenlos & interaktiv, Klasse 1. Jetzt mitmachen!", "fr": "Un jeu de maths GS, gratuit et interactif : Maman Cane fait l'appel du matin à la crique aux Coin-Coin ! Envoie-lui exactement le nombre de canetons qu'elle demande — compte-les un par un depuis le radeau — puis signe l'appel en écrivant ce chiffre dans la boue. Même un matin tout calme a un nombre : zéro ! Un jeu tout doux pour construire les nombres et écrire les chiffres." },
     "kid_prompt_template": "numeral-trace"
   }
 ]

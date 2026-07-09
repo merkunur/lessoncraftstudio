@@ -3710,6 +3710,27 @@
         "Associer un par un pour comparer sans compter",
         "Compter pour confirmer la comparaison"
       ]
+    },
+    "clunks-lost-lunch.make-total.k-oa-a-3": {
+      "about": [
+        "Clunk, le petit robot-goûter, a faim d'un nombre précis de croque-points, mais sa puce à calculer est cassée — c'est ton enfant qui l'aide ! Il choisit des goûters sur le mur (chacun porte un nombre), les glisse dans la boîte à goûter pour composer exactement ce total, comme il veut, puis nourrit Clunk pour vérifier. Ensuite, il recommence d'une façon toute nouvelle.",
+        "La boîte ne montre jamais de total : l'enfant additionne lui-même, puis c'est le repas de Clunk qui valide. Composer et décomposer un nombre de plusieurs façons, trouver un complément et additionner jusqu'à quatorze sont des attendus du CP. Le jeu est gratuit, sans minuteur et sans points : l'enfant travaille le sens de l'addition, dans le domaine « Nombres et calcul » des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Composer un nombre avec plusieurs goûters",
+        "Décomposer et recomposer un nombre de plusieurs façons",
+        "Trouver le complément pour atteindre un total",
+        "Additionner de tête, sans total affiché"
+      ],
+      "howToPlay": [
+        "Touche des goûters sur le mur pour les mettre dans la boîte à goûter.",
+        "Quand la boîte fait le bon total, appuie sur « Nourris Clunk » pour vérifier."
+      ],
+      "learningGoals": [
+        "Composer et décomposer un nombre de plusieurs façons",
+        "Trouver un complément jusqu'à un total donné",
+        "Renforcer le sens de l'addition"
+      ]
     }
   }
 }

@@ -1677,6 +1677,28 @@
         "Construire le sens des grandeurs"
       ]
     },
+    "gus-snack-cart.within-100.2-nbt-b-5": {
+      "about": [
+        "Gus tient un petit stand de snacks très animé : il n'arrête pas de réapprovisionner et de vendre ! À chaque tour, ton enfant lit une petite histoire — « Gus avait 45 noix. Il en a vendu 8. » — puis regarde l'opération à deux chiffres qui l'accompagne. Il additionne ou soustrait jusqu'à 100 pour trouver la réponse, et la tape sur le clavier. Quand le compte est bon, le « ? » se transforme en résultat.",
+        "Additionner et soustraire jusqu'à 100 avec aisance, y compris avec des retenues, est un attendu du CE1. En calculant à partir de petites situations concrètes, l'enfant construit peu à peu l'automatisation du calcul et le sens des opérations. Le jeu est entièrement gratuit, fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Nombres et calcul »)."
+      ],
+      "practices": [
+        "Additionner deux nombres jusqu'à 100",
+        "Soustraire un nombre jusqu'à 100",
+        "Calculer avec des retenues et des emprunts",
+        "Choisir la bonne opération à partir de l'histoire",
+        "Taper le résultat au clavier et le vérifier"
+      ],
+      "howToPlay": [
+        "Lis la petite histoire et regarde l'opération à deux chiffres.",
+        "Additionne ou soustrais jusqu'à 100, tape la réponse au clavier, puis vérifie."
+      ],
+      "learningGoals": [
+        "Additionner et soustraire jusqu'à 100",
+        "Calculer avec aisance, retenues comprises",
+        "Automatiser le calcul et le sens des opérations"
+      ]
+    },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
         "Dans le tribunal des nombres de la juge Tess, une vieille tortue posée et bienveillante, on juge aujourd’hui des égalités. Un témoin s’avance et affirme quelque chose — par exemple « 5 + 3 = 8 », « 6 = 8 − 2 » ou encore « 3 + 2 = 2 + 3 ». Votre enfant est assis sur le siège du juge et doit rendre son verdict : cette égalité est-elle vraie ou fausse ?",

@@ -1633,6 +1633,28 @@
         "Préparer la mesure"
       ]
     },
+    "bram-board-shop.length-word-problems.2-md-b-5": {
+      "about": [
+        "Dans la menuiserie de Bram le castor, chaque commande est une histoire de longueur ! Tantôt il faut coller deux planches bout à bout, tantôt scier un morceau, tantôt mesurer de combien l'étagère est plus longue que le bureau. Ton enfant lit la commande, puis la modélise sur le mètre-ruban de Bram : il place chaque longueur à sa place, marque la longueur mystère, et compose enfin la réponse en centimètres. L'inconnue se cache à toutes les places — au résultat, au changement, au départ, ou dans l'écart entre deux objets.",
+        "Résoudre des problèmes d'addition et de soustraction portant sur des longueurs en centimètres jusqu'à 100, avec l'inconnue dans toutes les positions, est un attendu du CE1 (« résoudre des problèmes impliquant des longueurs et des grandeurs »). Au CP, l'enfant mesure et compare des longueurs à la règle ; au CE1, il CALCULE avec les longueurs. Modéliser l'histoire avant de calculer développe le sens des grandeurs et la compréhension des structures additives. Le jeu est entièrement gratuit, fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Grandeurs et mesures »)."
+      ],
+      "practices": [
+        "Résoudre des problèmes de longueurs en additionnant et en soustrayant des cm",
+        "Trouver l'inconnue au résultat, au changement ou au départ",
+        "Comparer deux longueurs et calculer de combien l'une est plus longue",
+        "Modéliser une histoire sur le mètre-ruban avant de calculer",
+        "Écarter la longueur intruse pour ne garder que les nombres utiles"
+      ],
+      "howToPlay": [
+        "Lis la commande, puis pose chaque longueur à sa place et marque la longueur mystère.",
+        "Compose la réponse en centimètres, puis touche Mesurer pour vérifier."
+      ],
+      "learningGoals": [
+        "Résoudre des problèmes de longueurs jusqu'à 100",
+        "Additionner et soustraire des longueurs en cm",
+        "Comprendre les structures additives avec l'inconnue à toutes les places"
+      ]
+    },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
         "Dans le tribunal des nombres de la juge Tess, une vieille tortue posée et bienveillante, on juge aujourd’hui des égalités. Un témoin s’avance et affirme quelque chose — par exemple « 5 + 3 = 8 », « 6 = 8 − 2 » ou encore « 3 + 2 = 2 + 3 ». Votre enfant est assis sur le siège du juge et doit rendre son verdict : cette égalité est-elle vraie ou fausse ?",

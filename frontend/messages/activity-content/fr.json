@@ -1743,6 +1743,28 @@
         "Repérer et comprendre les erreurs de mesure"
       ]
     },
+    "coin-stall.money.2-md-c-8": {
+      "about": [
+        "Filou la loutre tient un petit étal au bord de la mer, et ton enfant vient y faire ses achats ! À chaque tour, il lit un petit problème, puis choisit de vraies pièces en euros et en centimes : parfois pour payer le prix exact, parfois pour compter un tas de pièces, rendre la monnaie, faire une somme d'une autre façon, ou échanger des pièces de même valeur. Le vrai piège du jeu : la valeur n'est pas écrite sur la pièce ! Il faut connaître ce que vaut chacune — et découvrir que la petite pièce de 10 centimes vaut plus que la plus grosse de 5 centimes.",
+        "Compter, payer, rendre la monnaie et décomposer une somme avec des euros et des centimes est un attendu du CE1. En manipulant de vraies pièces, l'enfant apprend à reconnaître leur valeur et à calculer avec la monnaie, une compétence utile pour la vie de tous les jours. Le jeu est entièrement gratuit, fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Grandeurs et mesures »)."
+      ],
+      "practices": [
+        "Reconnaître la valeur des pièces en euros et centimes",
+        "Payer un prix avec le bon compte de pièces",
+        "Rendre la monnaie sur une somme",
+        "Faire une somme de plusieurs façons différentes",
+        "Échanger des pièces de même valeur"
+      ],
+      "howToPlay": [
+        "Lis le petit problème et regarde le prix à payer.",
+        "Touche les pièces pour les mettre dans le plateau, puis appuie sur Payer."
+      ],
+      "learningGoals": [
+        "Connaître la valeur des pièces",
+        "Payer et rendre la monnaie",
+        "Calculer avec les euros et les centimes"
+      ]
+    },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
         "Dans le tribunal des nombres de la juge Tess, une vieille tortue posée et bienveillante, on juge aujourd’hui des égalités. Un témoin s’avance et affirme quelque chose — par exemple « 5 + 3 = 8 », « 6 = 8 − 2 » ou encore « 3 + 2 = 2 + 3 ». Votre enfant est assis sur le siège du juge et doit rendre son verdict : cette égalité est-elle vraie ou fausse ?",

@@ -1545,6 +1545,28 @@
         "Pratiquer le surcomptage"
       ]
     },
+    "parking-tower.place-by-relation.k-g-a-1": {
+      "about": [
+        "Le castor Bramble gare ses véhicules dans un grand parking à étages ! À chaque tour, un mot de position — au-dessus, en dessous, à côté ou entre — dit où garer le véhicule par rapport à un autre. Le parking est vu en coupe, avec un sol bien visible entre les niveaux : ainsi, « au-dessus du bus » veut dire un étage plus haut, sans aucune ambiguïté. Le secret, c'est d'écouter le mot, pas de viser la place la plus proche. D'autres défis viennent enrichir le jeu : garer un véhicule entre deux autres, ou retrouver l'endroit où Bramble s'est garé.",
+        "Décrire des positions relatives avec les mots de l'espace — au-dessus, en dessous, à côté, entre — c'est « se repérer dans l'espace », un attendu de la Grande section. Ce vocabulaire spatial structure la pensée de l'enfant et prépare la géométrie. Le jeu est entièrement gratuit, fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Se repérer dans l'espace »)."
+      ],
+      "practices": [
+        "Comprendre les mots de position : au-dessus, en dessous, à côté, entre",
+        "Placer un objet par rapport à un autre",
+        "Écouter le mot plutôt que viser la place la plus proche",
+        "Se repérer entre plusieurs niveaux",
+        "Décrire une position relative"
+      ],
+      "howToPlay": [
+        "Écoute le mot de position, puis touche la place qui correspond.",
+        "Gare le véhicule au bon endroit, puis touche Vérifier."
+      ],
+      "learningGoals": [
+        "Utiliser les mots de position",
+        "Se repérer dans l'espace",
+        "Décrire des positions relatives"
+      ]
+    },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
         "Dans le tribunal des nombres de la juge Tess, une vieille tortue posée et bienveillante, on juge aujourd’hui des égalités. Un témoin s’avance et affirme quelque chose — par exemple « 5 + 3 = 8 », « 6 = 8 − 2 » ou encore « 3 + 2 = 2 + 3 ». Votre enfant est assis sur le siège du juge et doit rendre son verdict : cette égalité est-elle vraie ou fausse ?",

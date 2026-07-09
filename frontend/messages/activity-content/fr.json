@@ -1523,6 +1523,28 @@
         "Développer le sens du nombre"
       ]
     },
+    "star-stitcher.connect-sequence.k-cc-a-2": {
+      "about": [
+        "Une petite luciole ne peut voler que là où l'on a déjà compté ! À partir de la seule étoile allumée, ton enfant la fait avancer d'une étoile à la fois : à chaque fois, la luciole vole jusqu'à l'étoile sombre suivante, le nombre monte et se dit à voix haute (huit… neuf… dix…), puis l'enfant réveille l'étoile. Les étoiles sombres ne portent aucun nombre : le seul moyen de trouver la suivante, c'est de compter. Et quand la dernière étoile s'allume, une constellation endormie se réveille et révèle un animal : un renard, une chouette, une baleine…",
+        "Compter à partir d'un nombre donné, et pas toujours à partir de un, c'est « dire la suite orale des nombres à partir de n'importe quel nombre » : le surcomptage, un attendu de la Grande section. En repartant d'un nombre déjà là plutôt que de tout recompter, l'enfant renforce sa connaissance de la suite numérique et prépare le calcul. Le jeu est entièrement gratuit, fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Découvrir les nombres et leurs utilisations »)."
+      ],
+      "practices": [
+        "Compter à partir d'un nombre donné (pas toujours à partir de un)",
+        "Dire la suite orale des nombres, une étoile à la fois",
+        "Reconnaître le nombre qui vient juste après",
+        "S'arrêter au bon nombre sans le dépasser",
+        "Repartir d'un nombre déjà compté plutôt que tout recompter"
+      ],
+      "howToPlay": [
+        "Pars de l'étoile allumée et touche « Compte encore » pour avancer d'une étoile — le nombre monte à chaque fois.",
+        "Réveille chaque étoile au bon nombre ; quand la dernière s'allume, l'animal se révèle."
+      ],
+      "learningGoals": [
+        "Compter à partir d'un nombre donné",
+        "Connaître la suite orale des nombres",
+        "Pratiquer le surcomptage"
+      ]
+    },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
         "Dans le tribunal des nombres de la juge Tess, une vieille tortue posée et bienveillante, on juge aujourd’hui des égalités. Un témoin s’avance et affirme quelque chose — par exemple « 5 + 3 = 8 », « 6 = 8 − 2 » ou encore « 3 + 2 = 2 + 3 ». Votre enfant est assis sur le siège du juge et doit rendre son verdict : cette égalité est-elle vraie ou fausse ?",

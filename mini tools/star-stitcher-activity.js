@@ -21,12 +21,13 @@
   var C = { T: '#146B5E', CORAL: '#F2784B', CORAL2: '#D9572F', CREAM: '#FBF3E4', INK: '#2A2A35', GOLD: '#E8A53A', NIGHT: '#0E4A40' };
   var CREATURE = { fox: ['🦊', 'fox'], owl: ['🦉', 'owl'], whale: ['🐳', 'whale'], deer: ['🦌', 'deer'], bear: ['🐻', 'bear'], cat: ['🐱', 'cat'], bird: ['🐦', 'bird'] };
   var CREATURE_DE = { fox: 'einen Fuchs', owl: 'eine Eule', whale: 'einen Wal', deer: 'ein Reh', bear: 'einen Bären', cat: 'eine Katze', bird: 'einen Vogel' };
+  var CREATURE_FR = { fox: 'un renard', owl: 'une chouette', whale: 'une baleine', deer: 'un cerf', bear: 'un ours', cat: 'un chat', bird: 'un oiseau' };
   var LANG = 'en';
-  function creaturePhrase(reveal) { return LANG === 'de' ? (CREATURE_DE[reveal] || 'einen Stern') : (CREATURE[reveal] || ['⭐', 'star'])[1]; }
+  function creaturePhrase(reveal) { return LANG === 'de' ? (CREATURE_DE[reveal] || 'einen Stern') : LANG === 'fr' ? (CREATURE_FR[reveal] || 'une étoile') : (CREATURE[reveal] || ['⭐', 'star'])[1]; }
 
   function speak(text) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'number', text: String(text), lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function svgEl(tag, attrs) { var e = document.createElementNS('http://www.w3.org/2000/svg', tag); if (attrs) for (var k in attrs) e.setAttribute(k, attrs[k]); return e; }
 
@@ -35,18 +36,18 @@
     reward: { id: 'night-sky', label: 'Night Sky', emoji: '🌌' },
 
     strings: {
-      title: { en: 'Count the Stars Awake', de: 'Zähl die Sterne wach!' },
-      prompt: { en: 'Count the firefly forward!', de: 'Zähl das Glühwürmchen weiter!' },
-      countOn: { en: 'Count on', de: 'Weiterzählen' },
-      wake: { en: 'Wake it!', de: 'Wecken!' },
-      countHint: { en: 'Tap Count on to fly her to the next star, then Wake it!', de: 'Tippe auf „Weiterzählen", damit es zum nächsten Stern fliegt – dann auf „Wecken"!' },
-      pickHint: { en: 'Tap the glowing star to start counting from there.', de: 'Tippe auf den leuchtenden Stern, um von dort weiterzuzählen.' },
-      setHint: { en: 'Tap each dot to count them — that is where she starts!', de: 'Tippe jeden Punkt an und zähle mit – dort fängt es an!' },
-      overshoot: { en: 'Not yet — count on again from the lit star.', de: 'Noch nicht – zähl vom leuchtenden Stern noch einmal weiter.' },
-      win: { en: 'You woke a {c}!', de: 'Du hast {c} geweckt!' },
-      hintCheck: { en: 'Count the firefly to each star and Wake it.', de: 'Zähl das Glühwürmchen zu jedem Stern und wecke ihn.' },
-      startHere: { en: 'Start here', de: 'Hier starten' },
-      countSetGo: { en: "That's {n} — count on!", de: 'Das sind {n} – weiterzählen!' }
+      title: { en: 'Count the Stars Awake', de: 'Zähl die Sterne wach!', fr: 'Réveille les étoiles en comptant' },
+      prompt: { en: 'Count the firefly forward!', de: 'Zähl das Glühwürmchen weiter!', fr: 'Compte pour avancer !' },
+      countOn: { en: 'Count on', de: 'Weiterzählen', fr: 'Compte encore' },
+      wake: { en: 'Wake it!', de: 'Wecken!', fr: 'Réveille !' },
+      countHint: { en: 'Tap Count on to fly her to the next star, then Wake it!', de: 'Tippe auf „Weiterzählen", damit es zum nächsten Stern fliegt – dann auf „Wecken"!', fr: 'Touche « Compte encore » pour avancer d’une étoile, puis « Réveille ! ».' },
+      pickHint: { en: 'Tap the glowing star to start counting from there.', de: 'Tippe auf den leuchtenden Stern, um von dort weiterzuzählen.', fr: 'Touche l’étoile qui brille pour compter à partir de là.' },
+      setHint: { en: 'Tap each dot to count them — that is where she starts!', de: 'Tippe jeden Punkt an und zähle mit – dort fängt es an!', fr: 'Touche chaque point pour les compter — c’est là qu’elle commence !' },
+      overshoot: { en: 'Not yet — count on again from the lit star.', de: 'Noch nicht – zähl vom leuchtenden Stern noch einmal weiter.', fr: 'Pas encore — recompte depuis l’étoile allumée.' },
+      win: { en: 'You woke a {c}!', de: 'Du hast {c} geweckt!', fr: 'Tu as réveillé {c} !' },
+      hintCheck: { en: 'Count the firefly to each star and Wake it.', de: 'Zähl das Glühwürmchen zu jedem Stern und wecke ihn.', fr: 'Compte la luciole jusqu’à chaque étoile et réveille-la.' },
+      startHere: { en: 'Start here', de: 'Hier starten', fr: 'Commence ici' },
+      countSetGo: { en: "That's {n} — count on!", de: 'Das sind {n} – weiterzählen!', fr: 'Ça fait {n} — continue à compter !' }
     },
     defaults: {},
 

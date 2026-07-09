@@ -3605,6 +3605,27 @@
         "Reconnaître le morceau unité d'après sa taille",
         "Construire une fraction avec des parts égales"
       ]
+    },
+    "mending-fences.mend-board.3-md-d-8": {
+      "about": [
+        "Hazel le blaireau répare les clôtures des prés, et chaque énigme parle du périmètre : la distance tout autour d'un champ. Ton enfant répare une planche qui manque quand il connaît la longueur totale de la clôture et un côté, compare deux champs pour dire lequel a besoin de plus de clôture, et distingue les marques du bord des carrés à l'intérieur.",
+        "Comprendre que le périmètre est la distance tout autour, le distinguer de l'aire (l'herbe à l'intérieur) et calculer un côté manquant sont des attendus du CM1. Voir la clôture faire le tour du champ aide l'enfant à comprendre ce qu'est une longueur qui fait le tour. Le jeu est gratuit, sans minuteur et sans points : l'enfant avance à son rythme. Il suit le domaine « Grandeurs et mesures » des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Comprendre que le périmètre est la distance tout autour d'une figure",
+        "Distinguer le périmètre (le bord) de l'aire (l'intérieur)",
+        "Trouver un côté manquant quand on connaît le périmètre et un côté",
+        "Comparer le périmètre de deux champs"
+      ],
+      "howToPlay": [
+        "Lis l'énigme de Hazel, puis observe le champ et sa clôture.",
+        "Touche la bonne réponse — la planche qui manque, le champ, ou la bonne marque — puis vérifie."
+      ],
+      "learningGoals": [
+        "Comprendre que le périmètre est la distance tout autour",
+        "Distinguer le périmètre de l'aire",
+        "Trouver un côté manquant d'après le périmètre"
+      ]
     }
   }
 }

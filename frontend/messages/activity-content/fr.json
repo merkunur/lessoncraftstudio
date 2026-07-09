@@ -1809,6 +1809,28 @@
         "Préparer le calcul de la division"
       ]
     },
+    "echo-grove.match-the-rune.3-oa-a-1": {
+      "about": [
+        "Dans le bosquet de Pim le hibou, ton enfant apprend à lire la multiplication ! À chaque tour, Pim montre une rune, comme 3 × 4. L'enfant doit alors toucher le bosquet qui montre exactement 3 groupes de 4 fruits — et non le sosie, qui a bien le même total mais un groupement différent (par exemple 4 groupes de 3). Petit à petit, il comprend qu'un produit se lit comme des groupes égaux : le premier nombre dit combien il y a de groupes, et le second dit combien il y a dans chaque groupe.",
+        "Lire la multiplication comme des groupes égaux — le sens de la multiplication, bien avant d'apprendre les tables par cœur — est un attendu du CE1. Comprendre ce que veut vraiment dire 3 × 4 rend tout le calcul qui suit beaucoup plus solide. Le jeu est entièrement gratuit, fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Nombres et calcul »)."
+      ],
+      "practices": [
+        "Lire une multiplication comme des groupes égaux",
+        "Trouver le bon nombre de groupes et la taille de chaque groupe",
+        "Distinguer 3 groupes de 4 de 4 groupes de 3",
+        "Écarter le sosie qui a le même total mais un autre groupement",
+        "Comprendre le sens de la multiplication"
+      ],
+      "howToPlay": [
+        "Lis la rune de Pim, par exemple 3 × 4.",
+        "Touche le bosquet qui montre 3 groupes de 4, puis vérifie."
+      ],
+      "learningGoals": [
+        "Comprendre le sens de la multiplication",
+        "Lire un produit comme des groupes égaux",
+        "Préparer l'apprentissage des tables"
+      ]
+    },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
         "Dans le tribunal des nombres de la juge Tess, une vieille tortue posée et bienveillante, on juge aujourd’hui des égalités. Un témoin s’avance et affirme quelque chose — par exemple « 5 + 3 = 8 », « 6 = 8 − 2 » ou encore « 3 + 2 = 2 + 3 ». Votre enfant est assis sur le siège du juge et doit rendre son verdict : cette égalité est-elle vraie ou fausse ?",

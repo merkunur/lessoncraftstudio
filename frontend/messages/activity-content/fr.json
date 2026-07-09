@@ -3731,6 +3731,27 @@
         "Trouver un complément jusqu'à un total donné",
         "Renforcer le sens de l'addition"
       ]
+    },
+    "pips-round.mail-route.k-cc-a-3": {
+      "about": [
+        "Pip, la souris factrice, fait sa tournée du matin, et quelqu'un attend sa lettre ! Ton enfant lit le nombre écrit sur l'enveloppe — dans une police différente de celle des plaques des maisons, donc il doit vraiment LIRE le nombre, pas comparer des images — ou bien il l'écoute, puis il touche la maison qui porte ce numéro. Les rideaux s'ouvrent et un voisin tout content fait coucou.",
+        "Lire et reconnaître les nombres écrits en chiffres jusqu'à 20, et distinguer par exemple 13 et 31 puisque l'ordre des chiffres compte, sont des attendus du CP. Le jeu est gratuit, sans minuteur et sans points : l'enfant lit les nombres à son rythme, dans le domaine « Nombres et calcul » des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Lire un nombre écrit en chiffres jusqu'à 20",
+        "Reconnaître un nombre à partir de son nom entendu",
+        "Distinguer des nombres proches (13 et 31, 14 et 15)",
+        "Associer un nombre à la bonne maison"
+      ],
+      "howToPlay": [
+        "Lis (ou écoute) le nombre sur l'enveloppe.",
+        "Touche la maison qui porte ce numéro pour distribuer la lettre."
+      ],
+      "learningGoals": [
+        "Lire les nombres écrits en chiffres jusqu'à 20",
+        "Distinguer les dizaines et les unités dans un nombre à deux chiffres",
+        "Reconnaître un nombre à l'oral comme à l'écrit"
+      ]
     }
   }
 }

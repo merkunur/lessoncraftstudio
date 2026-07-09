@@ -32,7 +32,7 @@
   function speak(text) {
     try {
       if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'number', text: String(text), lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function beadSVG(colorKey, ready) {
@@ -52,7 +52,7 @@
     var mouth = happy
       ? '<path d="M43 61 q7 8 14 0" stroke="#2A2A35" stroke-width="2.6" fill="none" stroke-linecap="round"/>'
       : '<path d="M46 61 q4 4 8 0" stroke="#2A2A35" stroke-width="2.2" fill="none" stroke-linecap="round"/>';
-    return '<svg class="nk-fox-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Fuchs' : 'fox') + '">'
+    return '<svg class="nk-fox-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'renard' : LANG === 'de' ? 'Fuchs' : 'fox') + '">'
       + '<path d="M24 34 L34 14 L44 32 Z" fill="#E8853A"/><path d="M76 34 L66 14 L56 32 Z" fill="#E8853A"/>'
       + '<ellipse cx="50" cy="56" rx="30" ry="28" fill="#F2954B"/>'
       + '<path d="M50 78 q-18 -2 -22 -20 q22 10 44 0 q-4 18 -22 20 Z" fill="#fff"/>'
@@ -64,29 +64,29 @@
     reward: { id: 'friendship-branch', label: 'Friendship Branch', emoji: '🦊' },
 
     strings: {
-      title: { en: "The Necklace That Won't Hold Still", de: 'Die Kette, die nicht stillhält' },
-      prompt: { en: 'Count the beads — make the same many!', de: 'Zähl die Perlen – mach gleich viele!' },
-      countHint: { en: "Tap each bead to count the fox's necklace.", de: 'Tippe jede Perle an und zähl die Kette vom Fuchs.' },
-      countScatterHint: { en: 'Tap each bead — careful not to miss one!', de: 'Tippe jede Perle an – pass auf, dass du keine vergisst!' },
-      recountHint: { en: 'Count again — the fox shook it!', de: 'Zähl noch mal – der Fuchs hat geschüttelt!' },
-      produceHint: { en: 'Thread your own — the same many!', de: 'Fädel deine eigene auf – gleich viele!' },
-      heardHint: { en: 'The fox said a number — thread that many!', de: 'Der Fuchs hat eine Zahl gesagt – fädel so viele auf!' },
-      confirmHint: { en: 'How many did you count?', de: 'Wie viele hast du gezählt?' },
-      fixSkipHint: { en: 'One bead too many — take one off!', de: 'Eine Perle zu viel – nimm eine weg!' },
-      fixRepairHint: { en: "The fox's necklace is wrong — fix it to match!", de: 'Die Kette vom Fuchs stimmt nicht – mach gleich viele!' },
-      shakeBtn: { en: 'Give it a shake! 🫳', de: 'Schüttel sie! 🫳' },
-      commitHide: { en: 'I counted {n} — thread mine! →', de: 'Ich habe {n} gezählt – jetzt meine! →' },
-      commitConfirm: { en: 'I counted {n} — how many? →', de: 'Ich habe {n} gezählt – wie viele? →' },
-      proceedAffirm: { en: "That's how many! ✓", de: 'So viele sind es! ✓' },
-      recountAffirm: { en: 'Still {n}! ✓', de: 'Immer noch {n}! ✓' },
-      claspBtn: { en: 'Clasp it! 🔗', de: 'Zumachen! 🔗' },
-      doneBtn: { en: 'All fixed! ✓', de: 'Alles richtig! ✓' },
-      hearAgain: { en: '🔊 Hear it again', de: '🔊 Nochmal hören' },
-      confirmChip: { en: "It's {n}!", de: 'Genau {n}!' },
-      peek: { en: '👀 Peek', de: '👀 Spicken' },
-      notyet: { en: "Not yet — let's count again together.", de: 'Noch nicht – zählen wir noch mal zusammen.' },
-      win: { en: 'Clasp! The same many! 🦊🦊', de: 'Zugemacht! Gleich viele! 🦊🦊' },
-      hintCheck: { en: 'Make the same many, then clasp it!', de: 'Fädel gleich viele auf und mach sie dann zu!' }
+      title: { en: "The Necklace That Won't Hold Still", de: 'Die Kette, die nicht stillhält', fr: 'Le collier qui ne tient pas en place' },
+      prompt: { en: 'Count the beads — make the same many!', de: 'Zähl die Perlen – mach gleich viele!', fr: 'Compte les perles — fais-en autant !' },
+      countHint: { en: "Tap each bead to count the fox's necklace.", de: 'Tippe jede Perle an und zähl die Kette vom Fuchs.', fr: 'Touche chaque perle pour compter le collier du renard.' },
+      countScatterHint: { en: 'Tap each bead — careful not to miss one!', de: 'Tippe jede Perle an – pass auf, dass du keine vergisst!', fr: 'Touche chaque perle — attention à n’en oublier aucune !' },
+      recountHint: { en: 'Count again — the fox shook it!', de: 'Zähl noch mal – der Fuchs hat geschüttelt!', fr: 'Compte encore — le renard l’a secoué !' },
+      produceHint: { en: 'Thread your own — the same many!', de: 'Fädel deine eigene auf – gleich viele!', fr: 'Enfile les tiennes — autant que lui !' },
+      heardHint: { en: 'The fox said a number — thread that many!', de: 'Der Fuchs hat eine Zahl gesagt – fädel so viele auf!', fr: 'Le renard a dit un nombre — enfile-en autant !' },
+      confirmHint: { en: 'How many did you count?', de: 'Wie viele hast du gezählt?', fr: 'Combien en as-tu compté ?' },
+      fixSkipHint: { en: 'One bead too many — take one off!', de: 'Eine Perle zu viel – nimm eine weg!', fr: 'Une perle de trop — enlèves-en une !' },
+      fixRepairHint: { en: "The fox's necklace is wrong — fix it to match!", de: 'Die Kette vom Fuchs stimmt nicht – mach gleich viele!', fr: 'Le collier du renard n’est pas bon — corrige-le pour qu’il soit pareil !' },
+      shakeBtn: { en: 'Give it a shake! 🫳', de: 'Schüttel sie! 🫳', fr: 'Secoue-le ! 🫳' },
+      commitHide: { en: 'I counted {n} — thread mine! →', de: 'Ich habe {n} gezählt – jetzt meine! →', fr: 'J’ai compté {n} — j’enfile les miennes ! →' },
+      commitConfirm: { en: 'I counted {n} — how many? →', de: 'Ich habe {n} gezählt – wie viele? →', fr: 'J’ai compté {n} — combien ? →' },
+      proceedAffirm: { en: "That's how many! ✓", de: 'So viele sind es! ✓', fr: 'C’est bien ça ! ✓' },
+      recountAffirm: { en: 'Still {n}! ✓', de: 'Immer noch {n}! ✓', fr: 'Toujours {n} ! ✓' },
+      claspBtn: { en: 'Clasp it! 🔗', de: 'Zumachen! 🔗', fr: 'Ferme le collier ! 🔗' },
+      doneBtn: { en: 'All fixed! ✓', de: 'Alles richtig! ✓', fr: 'Tout est réparé ! ✓' },
+      hearAgain: { en: '🔊 Hear it again', de: '🔊 Nochmal hören', fr: '🔊 Écouter encore' },
+      confirmChip: { en: "It's {n}!", de: 'Genau {n}!', fr: 'C’est {n} !' },
+      peek: { en: '👀 Peek', de: '👀 Spicken', fr: '👀 Coup d’œil' },
+      notyet: { en: "Not yet — let's count again together.", de: 'Noch nicht – zählen wir noch mal zusammen.', fr: 'Pas encore — comptons encore ensemble.' },
+      win: { en: 'Clasp! The same many! 🦊🦊', de: 'Zugemacht! Gleich viele! 🦊🦊', fr: 'Fermé ! Autant l’un que l’autre ! 🦊🦊' },
+      hintCheck: { en: 'Make the same many, then clasp it!', de: 'Fädel gleich viele auf und mach sie dann zu!', fr: 'Fais-en autant, puis ferme le collier !' }
     },
     defaults: {},
 
@@ -258,7 +258,7 @@
 
     _readout: function (val, kind) {
       var api = this.api, row = api.el('div', 'nk-readout');
-      var lab = api.el('span', 'nk-readout-lab'); lab.textContent = (LANG === 'de') ? (kind === 'counted' ? 'Gezählt' : 'Deine') : (kind === 'counted' ? 'Counted' : 'Yours');
+      var lab = api.el('span', 'nk-readout-lab'); lab.textContent = (LANG === 'fr') ? (kind === 'counted' ? 'Comptées' : 'Les tiennes') : (LANG === 'de') ? (kind === 'counted' ? 'Gezählt' : 'Deine') : (kind === 'counted' ? 'Counted' : 'Yours');
       var num = api.el('span', 'nk-readout-num'); num.textContent = val; num.setAttribute('aria-live', 'polite');
       row.appendChild(lab); row.appendChild(num); return row;
     },
@@ -271,7 +271,7 @@
     _winClasp: function () {
       this.solved = true; this.stage = 'done'; this.solvedCount = Math.min(this.solvedCount + 1, (this._pool && this._pool.length) || 8);
       this.api.sound && this.api.sound(900); this.render();
-      var n = this._target(); this.announce('win'); speak(LANG === 'de' ? (n + ' und ' + n + ' — zugemacht!') : (n + ' and ' + n + ' — clasp!'));
+      var n = this._target(); this.announce('win'); speak(LANG === 'fr' ? (n + ' et ' + n + ' — fermé !') : LANG === 'de' ? (n + ' und ' + n + ' — zugemacht!') : (n + ' and ' + n + ' — clasp!'));
     },
     _affirmDone: function (key, n) {
       this.solved = true; this.stage = 'done'; this.solvedCount = Math.min(this.solvedCount + 1, (this._pool && this._pool.length) || 8);
@@ -285,7 +285,7 @@
       for (var i = 0; i < n; i++) { var b = api.el('span', 'nk-donebead'); b.innerHTML = beadSVG(i % 2 ? 'teal' : 'coral', false); neck.appendChild(b); }
       var cl = api.el('span', 'nk-doneclasp'); cl.textContent = '🔗'; neck.appendChild(cl);
       root.appendChild(neck);
-      var eq = api.el('div', 'nk-eq'); eq.textContent = (LANG === 'de') ? (n + ' & ' + n + ' — gleich viele!') : (n + ' & ' + n + ' — the same many!'); root.appendChild(eq);
+      var eq = api.el('div', 'nk-eq'); eq.textContent = (LANG === 'fr') ? (n + ' & ' + n + ' — autant l’un que l’autre !') : (LANG === 'de') ? (n + ' & ' + n + ' — gleich viele!') : (n + ' & ' + n + ' — the same many!'); root.appendChild(eq);
       var branch = api.el('div', 'nk-branch');
       for (var j = 0; j < ((this._pool && this._pool.length) || 8); j++) { var s = api.el('span', 'nk-twig' + (j < this.solvedCount ? ' nk-twig-on' : '')); s.textContent = '🦊'; branch.appendChild(s); }
       root.appendChild(branch);

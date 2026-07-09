@@ -1699,6 +1699,28 @@
         "Automatiser le calcul et le sens des opérations"
       ]
     },
+    "comet-kangaroo.tens-hundreds.2-nbt-b-8": {
+      "about": [
+        "Comète le kangourou fait de grands bonds le long des nombres ! À chaque tour, ton enfant voit un nombre à trois chiffres et un bond — 10 de plus, 10 de moins, 100 de plus ou 100 de moins. Il calcule de tête où Comète va atterrir, puis tape le nombre au clavier. Le petit secret du jeu : seul le chiffre des dizaines ou des centaines change, tandis que celui des unités reste toujours le même.",
+        "Ajouter et retrancher 10 ou 100 de tête, dans les nombres jusqu'à 1000, est un attendu du CE1. En observant quel chiffre bouge et lequel reste, l'enfant comprend la valeur des chiffres (dizaines, centaines) et la structure décimale des nombres. Le jeu est entièrement gratuit, fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Nombres et calcul »)."
+      ],
+      "practices": [
+        "Ajouter 10 ou 100 de tête à un nombre à trois chiffres",
+        "Retrancher 10 ou 100 de tête",
+        "Repérer quel chiffre change : les dizaines ou les centaines",
+        "Comprendre que le chiffre des unités ne bouge pas",
+        "Calculer dans les nombres jusqu'à 1000"
+      ],
+      "howToPlay": [
+        "Regarde le nombre de départ et le bond de Comète (10 ou 100, de plus ou de moins).",
+        "Calcule de tête où elle atterrit, tape le nombre au clavier, puis vérifie."
+      ],
+      "learningGoals": [
+        "Ajouter et retrancher 10 et 100 de tête",
+        "Calculer dans les nombres jusqu'à 1000",
+        "Comprendre la valeur des chiffres et la structure décimale"
+      ]
+    },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
         "Dans le tribunal des nombres de la juge Tess, une vieille tortue posée et bienveillante, on juge aujourd’hui des égalités. Un témoin s’avance et affirme quelque chose — par exemple « 5 + 3 = 8 », « 6 = 8 − 2 » ou encore « 3 + 2 = 2 + 3 ». Votre enfant est assis sur le siège du juge et doit rendre son verdict : cette égalité est-elle vraie ou fausse ?",

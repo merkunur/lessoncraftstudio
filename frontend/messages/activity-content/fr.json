@@ -1831,6 +1831,27 @@
         "Préparer l'apprentissage des tables"
       ]
     },
+    "halfway-harbors.nearest.3-nbt-a-1": {
+      "about": [
+        "Marina, le chat du phare, montre une droite graduée bordée de ports ronds : une lanterne pour chaque dizaine, un phare pour chaque centaine. Un petit bateau porte un nombre et se pose à sa vraie place au-dessus de la droite. L'enfant repère la bouée du milieu, puis touche le port le plus proche — il arrondit à la dizaine la plus proche, ou au phare le plus proche pour arrondir à la centaine.",
+        "Certains tours demandent de trouver le nombre pile au milieu entre deux ports. Arrondir à la dizaine et à la centaine la plus proche, lire une droite graduée et estimer un ordre de grandeur sont des attendus du CE2. Voir où se place le nombre avant de calculer aide l'enfant à donner du sens aux grands nombres. Le jeu est gratuit, sans minuteur et sans points : l'enfant avance à son rythme. Il suit le domaine « Nombres et calcul » des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Arrondir un nombre à la dizaine la plus proche",
+        "Arrondir un nombre à la centaine la plus proche",
+        "Placer et lire un nombre sur une droite graduée",
+        "Trouver le nombre situé exactement au milieu entre deux nombres ronds"
+      ],
+      "howToPlay": [
+        "Regarde où le bateau se pose sur la droite graduée, entre deux ports.",
+        "Touche le port rond le plus proche — ou, dans les tours du milieu, le nombre pile au centre — puis vérifie."
+      ],
+      "learningGoals": [
+        "Arrondir à la dizaine et à la centaine la plus proche",
+        "Lire une droite graduée et estimer un ordre de grandeur",
+        "Donner du sens à la position des nombres"
+      ]
+    },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
         "Dans le tribunal des nombres de la juge Tess, une vieille tortue posée et bienveillante, on juge aujourd’hui des égalités. Un témoin s’avance et affirme quelque chose — par exemple « 5 + 3 = 8 », « 6 = 8 − 2 » ou encore « 3 + 2 = 2 + 3 ». Votre enfant est assis sur le siège du juge et doit rendre son verdict : cette égalité est-elle vraie ou fausse ?",

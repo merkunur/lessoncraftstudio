@@ -3752,6 +3752,27 @@
         "Distinguer les dizaines et les unités dans un nombre à deux chiffres",
         "Reconnaître un nombre à l'oral comme à l'écrit"
       ]
+    },
+    "mamas-roll-call.numeral-trace.k-cc-b-5": {
+      "about": [
+        "Maman Cane fait l'appel du matin à la crique aux Coin-Coin ! Ton enfant lui envoie exactement le nombre de canetons qu'elle demande — il les compte un par un depuis le radeau, sans réaction du jeu, alors c'est lui qui décide quand s'arrêter — puis il signe l'appel en formant le chiffre dans la boue, trait après trait.",
+        "Constituer une collection d'un cardinal donné (envoyer « juste 6 »), dénombrer, et écrire le chiffre de 0 à 9 sont des attendus de la grande section de maternelle. Même un matin tout calme a un nombre : zéro est aussi un nombre à écrire. Le jeu est gratuit, sans minuteur et sans points : l'enfant découvre les nombres et leurs utilisations, selon les programmes officiels de l'école maternelle."
+      ],
+      "practices": [
+        "Envoyer un nombre précis de canetons (jusqu'à 9)",
+        "Compter une collection un par un",
+        "Écrire les chiffres de 0 à 9",
+        "Comprendre que zéro est aussi un nombre"
+      ],
+      "howToPlay": [
+        "Touche les canetons pour en envoyer autant que Maman demande.",
+        "Écris le chiffre dans la boue pour signer l'appel."
+      ],
+      "learningGoals": [
+        "Constituer une collection d'un cardinal donné jusqu'à 9",
+        "Écrire les chiffres de 0 à 9",
+        "Comprendre le zéro"
+      ]
     }
   }
 }

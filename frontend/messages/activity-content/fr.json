@@ -1721,6 +1721,28 @@
         "Comprendre la valeur des chiffres et la structure décimale"
       ]
     },
+    "tildy.measure-ruler.2-md-a-1": {
+      "about": [
+        "Dans l'atelier de Tildy la couturière, ton enfant mesure des rubans et des cordes avec une vraie règle graduée. Il fait glisser la règle pour aligner le 0 sur le début de la bande, appuie sur « Mesurer », puis lit le nombre inscrit à l'autre bout. Attention au petit piège : si on commence au 1 au lieu du 0, la mesure indique un centimètre de trop peu — le jeu le montre avec douceur, jamais en rouge, et invite à replacer la règle. D'autres défis viennent enrichir le jeu : une règle cassée qui commence à 2, repérer ce qui a mal tourné dans une mesure, ou choisir la règle assez longue.",
+        "Mesurer une longueur avec la règle graduée (aligner le 0, lire les centimètres), choisir l'instrument adapté et raisonner sur les erreurs de mesure est un attendu du CE1. En plaçant lui-même la règle, l'enfant comprend pourquoi le 0 doit être au départ et construit un vrai sens de la mesure. Le jeu est entièrement gratuit, fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Grandeurs et mesures »)."
+      ],
+      "practices": [
+        "Aligner le 0 de la règle sur le début de la bande",
+        "Lire la mesure en centimètres à l'autre bout",
+        "Comprendre qu'un mauvais placement fausse la mesure",
+        "Lire une longueur sur une règle cassée",
+        "Choisir une règle assez longue pour mesurer"
+      ],
+      "howToPlay": [
+        "Fais glisser la règle pour aligner le 0 sur le début de la bande.",
+        "Appuie sur « Mesurer », puis lis le nombre de cm à l'autre bout."
+      ],
+      "learningGoals": [
+        "Mesurer des longueurs avec la règle graduée",
+        "Choisir le bon instrument de mesure",
+        "Repérer et comprendre les erreurs de mesure"
+      ]
+    },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
         "Dans le tribunal des nombres de la juge Tess, une vieille tortue posée et bienveillante, on juge aujourd’hui des égalités. Un témoin s’avance et affirme quelque chose — par exemple « 5 + 3 = 8 », « 6 = 8 − 2 » ou encore « 3 + 2 = 2 + 3 ». Votre enfant est assis sur le siège du juge et doit rendre son verdict : cette égalité est-elle vraie ou fausse ?",

@@ -3773,6 +3773,27 @@
         "Écrire les chiffres de 0 à 9",
         "Comprendre le zéro"
       ]
+    },
+    "chuffer.rail-decompose.k-oa-a-3": {
+      "about": [
+        "Tu es l'aiguilleur de la gare de triage de Chuffer ! Une cargaison de caisses arrive et la voie se sépare en deux wagons. Ton enfant répartit les caisses entre les deux wagons, lit chaque wagon, DIT la décomposition — l'équation ne s'écrit jamais toute seule, il faut la dire — puis tire l'attelage. Ensuite, il cherche TOUTES les façons différentes de partager la cargaison.",
+        "Décomposer un nombre jusqu'à 10 en deux parties de plusieurs façons, connaître les compléments à 10, et dire chaque décomposition sous la forme 5 = 2 + 3 sont des attendus du CP. Le jeu est gratuit, sans minuteur et sans points : l'enfant travaille le sens de l'addition, dans le domaine « Nombres et calcul » des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Décomposer un nombre en deux parties",
+        "Trouver toutes les décompositions d'un nombre jusqu'à 10",
+        "Connaître les compléments à 10",
+        "Dire une décomposition sous la forme 5 = 2 + 3"
+      ],
+      "howToPlay": [
+        "Déplace les caisses entre les deux wagons, puis dis combien dans chaque wagon.",
+        "Tire l'attelage pour enregistrer chaque nouvelle façon."
+      ],
+      "learningGoals": [
+        "Décomposer et recomposer les nombres jusqu'à 10",
+        "Connaître les compléments à 10",
+        "Comprendre qu'un nombre a plusieurs décompositions"
+      ]
     }
   }
 }

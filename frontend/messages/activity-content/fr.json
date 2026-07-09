@@ -2011,6 +2011,27 @@
         "Faire un premier pas vers les problèmes de durées"
       ]
     },
+    "clock-elapsed.add-subtract.3-md-a-1": {
+      "about": [
+        "Sprocket le coq montre une horloge, et ton enfant calcule une durée dans les deux sens : parfois en avançant les minutes pour trouver l'heure d'arrivée, parfois en les reculant pour retrouver l'heure de départ. Il lit l'heure sur le cadran, compte les minutes, puis choisit la bonne heure parmi trois horloges numériques.",
+        "Ajouter et retirer des minutes, calculer une durée en avançant ou en reculant, lire une horloge à aiguilles : ce sont des attendus du CE2, un pas de plus vers les problèmes de durées. Compter dans les deux sens aide l'enfant à bien comprendre ce qu'est une durée. Le jeu est gratuit, sans minuteur et sans points : l'enfant avance à son rythme. Il suit le domaine « Grandeurs et mesures » des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Ajouter des minutes à une heure pour trouver l'heure d'arrivée",
+        "Retirer des minutes d'une heure pour retrouver l'heure de départ",
+        "Calculer une durée en avançant ou en reculant sur le cadran",
+        "Lire une heure sur une horloge à aiguilles et sur une horloge numérique"
+      ],
+      "howToPlay": [
+        "Regarde l'heure sur l'horloge de Sprocket, puis lis la question : faut-il avancer ou reculer les minutes ?",
+        "Compte les minutes dans le bon sens, puis touche l'horloge numérique qui montre la bonne heure."
+      ],
+      "learningGoals": [
+        "Ajouter et retirer des minutes sur l'horloge",
+        "Calculer une durée en avançant ou en reculant",
+        "Faire un pas de plus vers les problèmes de durées"
+      ]
+    },
     "clock-digital.read-five-minute.2-md-c-7": {
       "about": [
         "Sprocket le coq a besoin d'un coup de main pour lire son horloge à aiguilles ! Quand la grande aiguille pointe sur le 4, cela fait 20 minutes : votre enfant lit alors « 3 h 20 » et touche l'heure écrite qui correspond. Tout se passe directement dans le navigateur, sans installation.",

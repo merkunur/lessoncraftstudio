@@ -20,13 +20,14 @@
   var C = { T: '#146B5E', T2: '#1B7E6E', CORAL: '#F2784B', CORAL2: '#D9572F', CREAM: '#FBF3E4', INK: '#2A2A35', GOLD: '#E8A53A' };
   var WORDS = { 10: 'ten', 11: 'eleven', 12: 'twelve', 13: 'thirteen', 14: 'fourteen', 15: 'fifteen', 16: 'sixteen', 17: 'seventeen', 18: 'eighteen', 19: 'nineteen' };
   var WORDS_DE = { 10: 'zehn', 11: 'elf', 12: 'zwölf', 13: 'dreizehn', 14: 'vierzehn', 15: 'fünfzehn', 16: 'sechzehn', 17: 'siebzehn', 18: 'achtzehn', 19: 'neunzehn' };
+  var WORDS_FR = { 10: 'dix', 11: 'onze', 12: 'douze', 13: 'treize', 14: 'quatorze', 15: 'quinze', 16: 'seize', 17: 'dix-sept', 18: 'dix-huit', 19: 'dix-neuf' };
   var LANG = 'en';
-  function numWord(n) { return (LANG === 'de' ? WORDS_DE : WORDS)[n]; }
+  function numWord(n) { return (LANG === 'de' ? WORDS_DE : LANG === 'fr' ? WORDS_FR : WORDS)[n]; }
 
   function speak(text) {
     try {
       if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function bubbleSVG(kind) {
@@ -47,35 +48,35 @@
     reward: { id: 'lily-pond', label: 'Lily Pond', emoji: '🪷' },
 
     strings: {
-      title: { en: "Dewey's Ten-Tank", de: 'Deweys Zehner-Tank' },
-      prompt: { en: 'Make a ten and some ones!', de: 'Mach einen Zehner und ein paar Einer!' },
-      buildTenHint: { en: 'Tap the tank to drop bubbles — fill it to ten!', de: 'Tippe auf den Tank und lass Blasen hinein – füll ihn bis zehn!' },
-      placeTenHint: { en: 'Pop the ready-made ten into the tank!', de: 'Setz den fertigen Zehner in den Tank!' },
-      placeOnesHint: { en: 'Now add the ones — tap to drop them in.', de: 'Jetzt die Einer dazu – tippe und lass sie hineinfallen.' },
-      regroupHint: { en: 'Drop ones — ten ones will make a ten!', de: 'Lass Einer hineinfallen – zehn Einer werden zu einem Zehner!' },
-      decomposeHint: { en: 'Take it apart: the ten in one tray, the ones in the other.', de: 'Nimm die Zahl auseinander: den Zehner in das eine Fach, die Einer in das andere.' },
-      repairHint: { en: 'Dewey needs {n} — how many more ones?', de: 'Dewey braucht {n} – wie viele Einer fehlen noch?' },
-      audioHint: { en: '🔊 Make the number Dewey said!', de: '🔊 Mach die Zahl, die Dewey gesagt hat!' },
-      compareHint: { en: 'Peek at both, then tap which has more!', de: 'Guck bei beiden kurz und tippe dann auf die, die mehr hat!' },
-      makeOrder: { en: 'Make {n}!', de: 'Mach {n}!' },
-      hearAgain: { en: '🔊 Hear it again', de: '🔊 Nochmal hören' },
-      tensTray: { en: 'Tens', de: 'Zehner' },
-      onesTray: { en: 'Ones', de: 'Einer' },
-      moreMore: { en: '+{k} more', de: '+{k} mehr' },
-      peek: { en: 'Peek', de: 'Gucken' },
-      seal: { en: 'Ten! A ten and…', de: 'Zehn! Ein Zehner und …' },
-      refuseSingle: { en: 'That\'s a ten-spot — singles go in the pond!', de: 'Das ist ein Zehner-Platz – einzelne Blasen kommen in den Teich!' },
-      refuseTenth: { en: 'That\'d make a whole new ten — we just need a ten and some!', de: 'Das gäbe einen ganz neuen Zehner – wir brauchen nur einen Zehner und ein paar Einer!' },
-      win: { en: 'A ten and some — you made it! 🦆', de: 'Ein Zehner und ein paar Einer – geschafft! 🦆' },
-      hintCheck: { en: 'Make a ten and some ones!', de: 'Mach einen Zehner und ein paar Einer!' },
-      srcLabelTen: { en: 'a ten — ten ones together', de: 'ein Zehner – zehn Einer zusammen' },
-      rejectSealFirst: { en: 'Seal a ten yourself first!', de: 'Bündle erst selbst einen Zehner!' },
-      snapAnnounce: { en: 'Ten ones make a ten!', de: 'Zehn Einer werden zu einem Zehner!' },
-      rejectFix: { en: "Not quite — count what's missing!", de: 'Fast – zähl, was noch fehlt!' },
-      rejectJudge: { en: 'Look again — count the ones!', de: 'Schau nochmal – zähl die Einer!' },
-      isMore: { en: '{n} is more!', de: '{n} ist mehr!' },
-      tenAria: { en: 'a ten', de: 'ein Zehner' },
-      judgeThis: { en: 'This one!', de: 'Das hier!' }
+      title: { en: "Dewey's Ten-Tank", de: 'Deweys Zehner-Tank', fr: 'Le réservoir de Dewey' },
+      prompt: { en: 'Make a ten and some ones!', de: 'Mach einen Zehner und ein paar Einer!', fr: 'Fais une dizaine et des unités !' },
+      buildTenHint: { en: 'Tap the tank to drop bubbles — fill it to ten!', de: 'Tippe auf den Tank und lass Blasen hinein – füll ihn bis zehn!', fr: 'Touche le réservoir pour faire tomber des bulles — remplis-le jusqu’à dix !' },
+      placeTenHint: { en: 'Pop the ready-made ten into the tank!', de: 'Setz den fertigen Zehner in den Tank!', fr: 'Mets la dizaine toute prête dans le réservoir !' },
+      placeOnesHint: { en: 'Now add the ones — tap to drop them in.', de: 'Jetzt die Einer dazu – tippe und lass sie hineinfallen.', fr: 'Ajoute maintenant les unités — touche pour les faire tomber.' },
+      regroupHint: { en: 'Drop ones — ten ones will make a ten!', de: 'Lass Einer hineinfallen – zehn Einer werden zu einem Zehner!', fr: 'Fais tomber des unités — dix unités feront une dizaine !' },
+      decomposeHint: { en: 'Take it apart: the ten in one tray, the ones in the other.', de: 'Nimm die Zahl auseinander: den Zehner in das eine Fach, die Einer in das andere.', fr: 'Sépare le nombre : la dizaine dans un bac, les unités dans l’autre.' },
+      repairHint: { en: 'Dewey needs {n} — how many more ones?', de: 'Dewey braucht {n} – wie viele Einer fehlen noch?', fr: 'Dewey a besoin de {n} — combien d’unités en plus ?' },
+      audioHint: { en: '🔊 Make the number Dewey said!', de: '🔊 Mach die Zahl, die Dewey gesagt hat!', fr: '🔊 Fais le nombre que Dewey a dit !' },
+      compareHint: { en: 'Peek at both, then tap which has more!', de: 'Guck bei beiden kurz und tippe dann auf die, die mehr hat!', fr: 'Regarde les deux, puis touche celui qui en a le plus !' },
+      makeOrder: { en: 'Make {n}!', de: 'Mach {n}!', fr: 'Fais {n} !' },
+      hearAgain: { en: '🔊 Hear it again', de: '🔊 Nochmal hören', fr: '🔊 Réécouter' },
+      tensTray: { en: 'Tens', de: 'Zehner', fr: 'Dizaines' },
+      onesTray: { en: 'Ones', de: 'Einer', fr: 'Unités' },
+      moreMore: { en: '+{k} more', de: '+{k} mehr', fr: '+{k} de plus' },
+      peek: { en: 'Peek', de: 'Gucken', fr: 'Regarder' },
+      seal: { en: 'Ten! A ten and…', de: 'Zehn! Ein Zehner und …', fr: 'Dix ! Une dizaine et…' },
+      refuseSingle: { en: 'That\'s a ten-spot — singles go in the pond!', de: 'Das ist ein Zehner-Platz – einzelne Blasen kommen in den Teich!', fr: 'C’est une place pour une dizaine — les bulles seules vont dans la mare !' },
+      refuseTenth: { en: 'That\'d make a whole new ten — we just need a ten and some!', de: 'Das gäbe einen ganz neuen Zehner – wir brauchen nur einen Zehner und ein paar Einer!', fr: 'Ça ferait une toute nouvelle dizaine — il faut juste une dizaine et quelques unités !' },
+      win: { en: 'A ten and some — you made it! 🦆', de: 'Ein Zehner und ein paar Einer – geschafft! 🦆', fr: 'Une dizaine et des unités — tu as réussi ! 🦆' },
+      hintCheck: { en: 'Make a ten and some ones!', de: 'Mach einen Zehner und ein paar Einer!', fr: 'Fais une dizaine et des unités !' },
+      srcLabelTen: { en: 'a ten — ten ones together', de: 'ein Zehner – zehn Einer zusammen', fr: 'une dizaine — dix unités ensemble' },
+      rejectSealFirst: { en: 'Seal a ten yourself first!', de: 'Bündle erst selbst einen Zehner!', fr: 'Fais d’abord une dizaine toi-même !' },
+      snapAnnounce: { en: 'Ten ones make a ten!', de: 'Zehn Einer werden zu einem Zehner!', fr: 'Dix unités font une dizaine !' },
+      rejectFix: { en: "Not quite — count what's missing!", de: 'Fast – zähl, was noch fehlt!', fr: 'Presque — compte ce qui manque !' },
+      rejectJudge: { en: 'Look again — count the ones!', de: 'Schau nochmal – zähl die Einer!', fr: 'Regarde encore — compte les unités !' },
+      isMore: { en: '{n} is more!', de: '{n} ist mehr!', fr: '{n}, c’est plus !' },
+      tenAria: { en: 'a ten', de: 'ein Zehner', fr: 'une dizaine' },
+      judgeThis: { en: 'This one!', de: 'Das hier!', fr: 'Celui-ci !' }
     },
     defaults: {},
 
@@ -125,7 +126,7 @@
       else if (this.stage === 'compare') this._renderCompare(root);
 
       wrap.appendChild(root); stage.appendChild(wrap);
-      if (this.round.type === 'audio' && !this._heardSpoken) { this._heardSpoken = true; var self = this; setTimeout(function () { speak((LANG === 'de' ? 'Mach ' : 'Make ') + numWord(self.round.target)); }, 250); }
+      if (this.round.type === 'audio' && !this._heardSpoken) { this._heardSpoken = true; var self = this; setTimeout(function () { speak((LANG === 'de' ? 'Mach ' : LANG === 'fr' ? 'Fais ' : 'Make ') + numWord(self.round.target)); }, 250); }
     },
     _hint: function () {
       var r = this.round, api = this.api;
@@ -176,14 +177,14 @@
       var fr = this._frame(this.cstate.tenInProgress, 10, 'ten', function () { self._tapTen(); }, function () { self._removeTenDot(); }, true);
       main.appendChild(fr);
       var side = api.el('div', 'tt-side');
-      if (this.round.type === 'audio') { var hb = api.el('button', 'tt-peekbtn'); hb.type = 'button'; hb.textContent = api.t('hearAgain'); hb.addEventListener('click', function () { speak((LANG === 'de' ? 'Mach ' : 'Make ') + numWord(self.round.target)); }); side.appendChild(hb); }
+      if (this.round.type === 'audio') { var hb = api.el('button', 'tt-peekbtn'); hb.type = 'button'; hb.textContent = api.t('hearAgain'); hb.addEventListener('click', function () { speak((LANG === 'de' ? 'Mach ' : LANG === 'fr' ? 'Fais ' : 'Make ') + numWord(self.round.target)); }); side.appendChild(hb); }
       else { var lbl = api.el('div', 'tt-bignum'); lbl.textContent = api.t('makeOrder').replace('{n}', this.round.target); side.appendChild(lbl); }
       main.appendChild(side); root.appendChild(main);
     },
     _tapTen: function () {
       var res = Core.addToTen(this.round, this.cstate); if (!res.changed) return;
       this.api.sound && this.api.sound(540 + this.cstate.tenInProgress * 12); this.msg = null;
-      if (res.sealed) { this.sessionSealed = true; this.api.sound && this.api.sound(880); this.announce(this.api.t('seal')); speak(LANG === 'de' ? 'Zehn' : 'Ten'); this._afterTen(); }
+      if (res.sealed) { this.sessionSealed = true; this.api.sound && this.api.sound(880); this.announce(this.api.t('seal')); speak(LANG === 'de' ? 'Zehn' : LANG === 'fr' ? 'Dix' : 'Ten'); this._afterTen(); }
       else this.render();
     },
     _removeTenDot: function () { /* during build, tapping a bubble removes the last (correctable) */ if (this.cstate.tenInProgress > 0 && !this.cstate.sealedTenPlaced) { this.cstate.tenInProgress--; this.api.sound && this.api.sound(360); this.render(); } },
@@ -245,7 +246,7 @@
     _tapLoose: function () {
       var res = Core.placeOne(this.round, this.cstate); if (!res.changed) return;
       this.api.sound && this.api.sound(540 + this.cstate.looseOnes * 12);
-      if (res.snapped) { this.sessionSealed = true; this.api.sound && this.api.sound(880); this.announce(this.api.t('snapAnnounce')); speak(LANG === 'de' ? 'Zehn' : 'Ten'); if (this._onesTarget() === 0) { this._win(); return; } this.stage = 'place-ones'; this.render(); return; }
+      if (res.snapped) { this.sessionSealed = true; this.api.sound && this.api.sound(880); this.announce(this.api.t('snapAnnounce')); speak(LANG === 'de' ? 'Zehn' : LANG === 'fr' ? 'Dix' : 'Ten'); if (this._onesTarget() === 0) { this._win(); return; } this.stage = 'place-ones'; this.render(); return; }
       this.render();
     },
     _removeLoose: function () { if (this.cstate.looseOnes > 0) { this.cstate.looseOnes--; this.api.sound && this.api.sound(360); this.render(); } },
@@ -333,7 +334,7 @@
       this.api.sound && this.api.sound(920); this.render();
       var n = this.round.type === 'compare' ? this.round.comparePair[this.cstate.picked === 'A' ? 0 : 1] : this.round.target;
       this.announce(this.api.t('win'));
-      if (this.round.mode === 'compose' && this.round.type !== 'compare' && this.round.target >= 11) speak((LANG === 'de' ? 'ein Zehner und ' : 'a ten and ') + this._onesTarget() + ' — ' + numWord(this.round.target));
+      if (this.round.mode === 'compose' && this.round.type !== 'compare' && this.round.target >= 11) speak((LANG === 'de' ? 'ein Zehner und ' : LANG === 'fr' ? 'une dizaine et ' : 'a ten and ') + this._onesTarget() + ' — ' + numWord(this.round.target));
       else speak(numWord(n) || n);
     },
 

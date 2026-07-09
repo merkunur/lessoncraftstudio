@@ -1391,6 +1391,28 @@
         "Comprendre que la quantité ne change pas quand on la réorganise"
       ]
     },
+    "twinsies.count-twin.k-cc-b-5": {
+      "about": [
+        "Le lutin jumeau a fait un tas de glands et il veut un jumeau : pas la même image, mais le même nombre ! L'enfant compte les glands du lutin un à un, puis construit un jumeau sur sa propre assiette avec exactement autant de glands. La disposition peut être différente, seul le nombre doit correspondre. Quand les deux tas ont le même nombre, on dit « On est jumeaux ! ».",
+        "Dénombrer une collection, puis en constituer une autre qui en a autant : c'est ainsi que les jeunes enfants apprennent à « construire le nombre » à la maternelle. En jouant, l'enfant comprend que deux collections rangées différemment peuvent avoir le même cardinal. Le jeu est gratuit, sans minuteur, sans score et sans compte, pour que chacun avance à son rythme, en accord avec les programmes officiels de l'école."
+      ],
+      "practices": [
+        "Compter les glands un à un",
+        "Dire combien il y en a (le cardinal)",
+        "En faire autant : constituer une collection équipotente",
+        "Comprendre que seul le nombre compte, pas la disposition",
+        "Recompter pour vérifier que les deux tas sont bien jumeaux"
+      ],
+      "howToPlay": [
+        "Compte les glands du lutin jumeau, un par un.",
+        "Fais un tas avec le même nombre de glands, puis dis « On est jumeaux ! »."
+      ],
+      "learningGoals": [
+        "Dénombrer une petite collection",
+        "Constituer une collection de même cardinal (« autant que »)",
+        "Comprendre que le nombre ne dépend pas de la disposition"
+      ]
+    },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
         "Dans le tribunal des nombres de la juge Tess, une vieille tortue posée et bienveillante, on juge aujourd’hui des égalités. Un témoin s’avance et affirme quelque chose — par exemple « 5 + 3 = 8 », « 6 = 8 − 2 » ou encore « 3 + 2 = 2 + 3 ». Votre enfant est assis sur le siège du juge et doit rendre son verdict : cette égalité est-elle vraie ou fausse ?",

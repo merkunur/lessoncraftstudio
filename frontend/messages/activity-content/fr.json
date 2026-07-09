@@ -3563,6 +3563,27 @@
         "Comprendre qu'un triangle reste un triangle quand sa couleur, sa taille ou son orientation changent.",
         "Construire le raisonnement par propriétés dont dépendent le classement et le nom des formes."
       ]
+    },
+    "fraction-equiv.same-amount.3-nf-a-3": {
+      "about": [
+        "Miette la souris montre une part de gâteau, coupée d'une certaine façon. Puis elle propose trois autres parts, coupées en plus ou en moins de morceaux. Ton enfant touche celle qui montre exactement la même quantité — la fraction équivalente, comme 1/2 et 3/6.",
+        "Reconnaître des fractions équivalentes, comprendre que des fractions différentes peuvent nommer la même quantité et lire une fraction avec ses barres colorées sont des attendus du CM1. Voir la même quantité coupée de deux façons aide l'enfant à comprendre l'équivalence. Le jeu est gratuit, sans minuteur et sans points : l'enfant avance à son rythme. Il suit le domaine « Nombres et calcul » des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Reconnaître deux fractions qui montrent la même quantité",
+        "Comparer des parts coupées en plus ou en moins de morceaux",
+        "Lire une fraction avec sa barre colorée et ses nombres",
+        "Comprendre que 1/2 et 3/6 nomment la même quantité"
+      ],
+      "howToPlay": [
+        "Regarde la part de Miette, puis observe les trois autres parts.",
+        "Touche celle qui montre la même quantité — pas un peu plus, pas un peu moins."
+      ],
+      "learningGoals": [
+        "Reconnaître des fractions équivalentes",
+        "Comprendre que des fractions différentes peuvent nommer la même quantité",
+        "Lire une fraction avec ses barres et ses nombres"
+      ]
     }
   }
 }

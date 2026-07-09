@@ -35,6 +35,14 @@
       hear: '🔊 Hören',
       nudge: 'Nicht ganz — dieser Balken zeigt etwas {rel}. Finde den, der genauso voll ist wie {ref}.',
       more: 'mehr', fewer: 'weniger', less: 'weniger'
+    },
+    fr: {
+      q: 'Quelle fraction montre la même quantité ?',
+      win: 'Oui ! {ref} et {cand} — la même quantité, juste {dir} de morceaux !',
+      winSame: 'Oui ! {ref} et {cand} — la même quantité, découpée autrement !',
+      hear: '🔊 Écouter',
+      nudge: 'Pas tout à fait — cette barre montre un peu {rel}. Trouve celle qui est aussi remplie que {ref}.',
+      more: 'plus', fewer: 'moins', less: 'moins'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -42,6 +50,14 @@
   var NUMCARD = { 1: 'ein', 2: 'zwei', 3: 'drei', 4: 'vier', 5: 'fünf', 6: 'sechs', 7: 'sieben' };
   var FRACNOUN = { 2: 'Halb', 3: 'Drittel', 4: 'Viertel', 5: 'Fünftel', 6: 'Sechstel', 8: 'Achtel' };
   function bruchwort(num, den) { return (NUMCARD[num] || num) + ' ' + (FRACNOUN[den] || (den + 'tel')); }
+  /* spoken French fraction word: "un demi", "deux quarts", "trois huitièmes" (plural adds -s except invariable "tiers") */
+  var NUMCARD_FR = { 1: 'un', 2: 'deux', 3: 'trois', 4: 'quatre', 5: 'cinq', 6: 'six', 7: 'sept' };
+  var FRACNOUN_FR = { 2: 'demi', 3: 'tiers', 4: 'quart', 5: 'cinquième', 6: 'sixième', 8: 'huitième' };
+  function bruchwortFr(num, den) {
+    var word = FRACNOUN_FR[den] || (den + 'ième');
+    if (num > 1 && word.charAt(word.length - 1) !== 's') word += 's';
+    return (NUMCARD_FR[num] || num) + ' ' + word;
+  }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
   function fracStr(f) { return f.num + '/' + f.den; }
 
@@ -93,9 +109,9 @@
   var FractionEquivActivity = {
     id: 'fraction-equiv-activity',
     strings: {
-      title: { en: "Crumb's Same-Amount Bakery", de: "Krümels Gleich-viel-Bäckerei" },
-      instruction: { en: 'Find the fraction that shows the same amount as Crumb’s piece.', de: 'Finde den Bruch, der gleich viel zeigt wie Krümels Stück.' },
-      q: { en: '{q}', de: '{q}' }
+      title: { en: "Crumb's Same-Amount Bakery", de: "Krümels Gleich-viel-Bäckerei", fr: 'La boulangerie de Miette' },
+      instruction: { en: 'Find the fraction that shows the same amount as Crumb’s piece.', de: 'Finde den Bruch, der gleich viel zeigt wie Krümels Stück.', fr: 'Trouve la fraction qui montre la même quantité que la part de Miette.' },
+      q: { en: '{q}', de: '{q}', fr: '{q}' }
     },
 
     init: function (api) {
@@ -197,7 +213,7 @@
         var f = round.candidates[ci];
         var b = el('button', 'fe-cand' + (self._nonAns[ci] ? ' dim' : '') + (self._lit === ci ? ' lit' : ''));
         b.type = 'button'; b.setAttribute('data-ci', ci);
-        b.setAttribute('aria-label', LANG === 'de' ? (f.num + ' von ' + f.den) : (f.num + ' over ' + f.den));
+        b.setAttribute('aria-label', LANG === 'de' ? (f.num + ' von ' + f.den) : LANG === 'fr' ? (f.num + ' sur ' + f.den) : (f.num + ' over ' + f.den));
         b.innerHTML = candSVG(f);
         b.addEventListener('click', function () {
           if (self._resolved || self._nonAns[ci] || self._token !== tok) return;
@@ -216,6 +232,8 @@
       hear.addEventListener('click', function () {
         var t = (LANG === 'de')
           ? 'Krümel hat ' + bruchwort(round.ref.num, round.ref.den) + ' gebacken. ' + txt('q')
+          : (LANG === 'fr')
+          ? 'Miette a préparé ' + bruchwortFr(round.ref.num, round.ref.den) + '. ' + txt('q')
           : 'Crumb made ' + round.ref.num + ' out of ' + round.ref.den + '. ' + txt('q');
         if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: LANG, rate: 0.92 }); } catch (e) { } }
       });
@@ -250,10 +268,12 @@
 
     _srMirror: function (round) {
       var wrap = el('div', 'fe-sronly'); wrap.setAttribute('aria-live', 'polite');
-      var sep = LANG === 'de' ? ' von ' : ' over ';
+      var sep = LANG === 'de' ? ' von ' : LANG === 'fr' ? ' sur ' : ' over ';
       var cs = (round.candidates || []).map(function (x) { return x.num + sep + x.den; }).join(', ');
       wrap.innerHTML = (LANG === 'de')
         ? '<p>Krümels Stück ist ' + round.ref.num + ' von ' + round.ref.den + '. ' + txt('q') + ' Die Auswahl: ' + cs + '.</p>'
+        : (LANG === 'fr')
+        ? '<p>Le morceau de Miette est ' + round.ref.num + ' sur ' + round.ref.den + '. ' + txt('q') + ' Les choix sont : ' + cs + '.</p>'
         : '<p>Crumb’s piece is ' + round.ref.num + ' over ' + round.ref.den + '. ' + txt('q') + ' The choices are: ' + cs + '.</p>';
       return wrap;
     },

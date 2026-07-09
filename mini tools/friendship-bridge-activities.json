@@ -18,9 +18,9 @@
       ]
     },
     "theme": null,
-    "slug": { "en": "the-friendship-bridge", "de": "mengen-vergleichen-mehr-weniger-gleich-klasse-1" },
-    "page_title": { "en": "The Friendship Bridge — Compare Groups: More, Fewer, Same", "de": "Mengen vergleichen: mehr, weniger, gleich viel – Klasse 1" },
-    "page_intro": { "en": "Help Big and Bit walk the bridge by pairing their friends one-to-one and counting. Which group has MORE, FEWER, or are they the SAME? A warm Kindergarten comparing game that beats the eye-tricks — a long spread-out row can have fewer than a tight little bunch. Aligned to Common Core K.CC.C.6.", "de": "Mengen vergleichen Klasse 1: Ordne Freunde Partner für Partner zu und finde mehr, weniger oder gleich viel – kostenlos, interaktiv. Jetzt entdecken!" },
+    "slug": { "en": "the-friendship-bridge", "de": "mengen-vergleichen-mehr-weniger-gleich-klasse-1", "fr": "comparer-des-collections-plus-moins-autant-gs" },
+    "page_title": { "en": "The Friendship Bridge — Compare Groups: More, Fewer, Same", "de": "Mengen vergleichen: mehr, weniger, gleich viel – Klasse 1", "fr": "Le pont de l'amitié : comparer des collections — plus, moins, autant (GS)" },
+    "page_intro": { "en": "Help Big and Bit walk the bridge by pairing their friends one-to-one and counting. Which group has MORE, FEWER, or are they the SAME? A warm Kindergarten comparing game that beats the eye-tricks — a long spread-out row can have fewer than a tight little bunch. Aligned to Common Core K.CC.C.6.", "de": "Mengen vergleichen Klasse 1: Ordne Freunde Partner für Partner zu und finde mehr, weniger oder gleich viel – kostenlos, interaktiv. Jetzt entdecken!", "fr": "Un jeu de maths GS, gratuit et interactif : aide Big et Bit à traverser le pont en associant leurs amis un par un et en comptant. Quel groupe en a le PLUS, le MOINS, ou en ont-ils AUTANT ? Un jeu de comparaison tout doux pour la maternelle, qui déjoue les pièges de l'œil — on forme les paires pour en être sûr." },
     "kid_prompt_template": "compare-balance"
   }
 ]

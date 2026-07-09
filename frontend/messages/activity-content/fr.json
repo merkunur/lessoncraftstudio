@@ -3689,6 +3689,27 @@
         "Convertir entre le format 12 heures et 24 heures",
         "Comprendre le décompte de l'après-midi"
       ]
+    },
+    "friendship-bridge.compare-balance.k-cc-c-6": {
+      "about": [
+        "Big et Bit veulent traverser le pont, chacun avec son groupe de petits amis. Ton enfant les associe un par un — un ami de Big avec un ami de Bit — puis regarde qui en a le PLUS, le MOINS, ou s'ils en ont AUTANT. En formant les paires, il compare vraiment, sans se laisser tromper par la taille des tas.",
+        "Comparer deux collections en les associant terme à terme, dire plus que, moins que ou autant que, et compter pour vérifier : ce sont des attendus de la grande section de maternelle. Un rang long et étalé peut avoir moins d'amis qu'un petit tas bien serré — former les paires déjoue le piège de l'œil. Le jeu est gratuit, sans minuteur et sans points : l'enfant découvre les nombres et leurs utilisations, selon les programmes officiels de l'école maternelle."
+      ],
+      "practices": [
+        "Comparer deux collections en associant un par un",
+        "Dire plus que, moins que ou autant que",
+        "Compter chaque groupe pour vérifier",
+        "Comprendre qu'un rang étalé ne veut pas dire plus d'objets"
+      ],
+      "howToPlay": [
+        "Touche un ami d'un côté, puis un ami de l'autre côté, pour former une paire.",
+        "Quand tout le monde a un copain, dis qui en a le PLUS, le MOINS, ou si c'est PAREIL."
+      ],
+      "learningGoals": [
+        "Comparer des collections : plus, moins, autant",
+        "Associer un par un pour comparer sans compter",
+        "Compter pour confirmer la comparaison"
+      ]
     }
   }
 }

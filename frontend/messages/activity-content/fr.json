@@ -1457,6 +1457,28 @@
         "Comparer une estimation et un nombre réel"
       ]
     },
+    "posy-egg-cartons.count-tens.k-cc-a-1": {
+      "about": [
+        "Posy la poule adore ranger ses œufs par dix ! Chaque boîte contient exactement dix œufs — une dizaine bien pleine. Comme toutes les boîtes sont pleines, le plus rapide n'est pas de compter les œufs un par un : il suffit de compter les boîtes de dix en dix — 10, 20, 30… — puis de toucher le total. Votre enfant découvre ainsi qu'une boîte, ce n'est pas « un », c'est « dix », et que compter par paquets de dix va bien plus vite.",
+        "Compter de dix en dix jusqu'à 100 et organiser une collection en dizaines, c'est la première rencontre avec les nombres jusqu'à 100 au CP. Ce jeu construit le sens du nombre et prépare en douceur la numération décimale (les dizaines et les unités), sans jamais réciter dans le vide : chaque « dix » est une vraie boîte que l'on voit. L'activité est entièrement gratuite, fonctionne directement dans le navigateur, sans minuteur, sans score et sans compte à créer ; l'enfant avance à son rythme, en accord avec les programmes officiels de l'école (domaine « Nombres et calcul »)."
+      ],
+      "practices": [
+        "Compter de dix en dix jusqu'à 100",
+        "Reconnaître qu'une boîte pleine vaut dix œufs — une dizaine",
+        "Dénombrer une collection organisée en dizaines",
+        "Associer une quantité comptée au bon nombre écrit",
+        "Comprendre que compter par paquets de dix est plus rapide que un par un"
+      ],
+      "howToPlay": [
+        "Regarde les boîtes pleines de Posy : chaque boîte contient dix œufs.",
+        "Compte les boîtes de dix en dix — 10, 20, 30… — puis touche le nombre total d'œufs."
+      ],
+      "learningGoals": [
+        "Compter de dix en dix jusqu'à 100",
+        "Structurer une collection en dizaines",
+        "Préparer la numération décimale"
+      ]
+    },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
         "Dans le tribunal des nombres de la juge Tess, une vieille tortue posée et bienveillante, on juge aujourd’hui des égalités. Un témoin s’avance et affirme quelque chose — par exemple « 5 + 3 = 8 », « 6 = 8 − 2 » ou encore « 3 + 2 = 2 + 3 ». Votre enfant est assis sur le siège du juge et doit rendre son verdict : cette égalité est-elle vraie ou fausse ?",

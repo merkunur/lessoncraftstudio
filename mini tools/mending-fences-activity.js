@@ -92,6 +92,38 @@
       srUnitFence: 'Für den Zaun zählst du die Marken am Rand.',
       srUnitPlant: 'Für das Gras zählst du die Kästchen in der Mitte.',
       srRoll: 'Eine Zaunrolle, {roll} lang – reicht sie einmal ganz um das Feld herum?'
+    },
+    fr: {
+      qmend: 'Répare la clôture cassée — quelle est la longueur de la planche qui manque ?',
+      qrank: 'Les deux champs de Ronce — réponds pour la clôture, puis pour l’herbe.',
+      qunit: 'Clôturer le bord ou planter à l’intérieur — quelles marques ?',
+      qroll: 'Est-ce que le rouleau de clôture fait tout le tour ?',
+      qsame: 'Les deux champs ont autant d’herbe — lequel a besoin de plus de clôture ?',
+      askFence: 'Quel champ a besoin de PLUS de clôture ?',
+      askGrass: 'Et quel champ fait pousser PLUS d’herbe ?',
+      askUnitFence: 'Pour acheter la CLÔTURE, quelles marques comptes-tu ?',
+      askUnitPlant: 'Pour planter l’HERBE, lesquelles comptes-tu ?',
+      askRoll: 'Un rouleau de clôture long de {n} — fait-il le tour ?',
+      reach: 'Oui, il fait le tour', short: 'Non, trop court',
+      win: 'Réparé ! {note}',
+      winFence: 'la clôture fait bien tout le tour.',
+      winGrass: 'plus de clôture, moins d’herbe — bien vu !',
+      winUnit: 'c’est le bon type de marque.',
+      winRoll: 'juste la bonne longueur.',
+      nMend: 'Rappelle-toi : deux longs côtés ET deux petits côtés.',
+      nRankFence: 'Regarde encore — quel bord est le plus long tout autour ?',
+      nRankGrass: 'Quel champ a le plus de carrés d’herbe à l’intérieur ?',
+      nUnit: 'Pour la clôture, compte les marques AUTOUR du bord ; pour l’herbe, les carrés à l’INTÉRIEUR.',
+      nRoll: 'Réfléchis d’abord à la distance tout autour.',
+      unitEdge: 'Marques du bord', unitInterior: 'Carrés à l’intérieur', unitBorder: 'Anneau du bord',
+      ropeLabel: 'Longueur de clôture : ', plateAria: '{n} de long',
+      winMend: 'deux longs côtés et deux petits côtés.',
+      srMend: 'Une clôture de {p} fait le tour ; un côté mesure {s}. Quelle est la longueur de la planche qui manque ?',
+      srRank: 'Deux champs. Lequel a besoin de plus de clôture sur le bord, et lequel fait pousser plus d’herbe à l’intérieur ?',
+      srSame: 'Deux champs ont autant d’herbe. Lequel a besoin de plus de clôture autour ?',
+      srUnitFence: 'Pour la clôture, compte les marques autour du bord.',
+      srUnitPlant: 'Pour l’herbe, compte les carrés à l’intérieur.',
+      srRoll: 'Un rouleau de clôture long de {roll} — fait-il tout le tour du champ ?'
     }
   };
   function txt(k, a) {
@@ -196,13 +228,13 @@
   var MendingFencesActivity = {
     id: 'mending-fences-activity',
     strings: {
-      title: { en: 'The Mending Fences', de: 'Hazel flickt die Zäune' },
-      instruction: { en: 'Help Hazel mend the fences — perimeter is the distance all the way around!', de: 'Hilf Hazel beim Zaunflicken – der Umfang ist der Weg einmal rundherum!' },
-      qmend: { en: 'Mend the broken fence.', de: 'Flick den kaputten Zaun.' },
-      qrank: { en: "Two fields — fence, then grass.", de: 'Zwei Felder – erst Zaun, dann Gras.' },
-      qunit: { en: 'Edge marks or inside squares?', de: 'Randmarken oder Kästchen in der Mitte?' },
-      qroll: { en: 'Does the fence reach around?', de: 'Reicht der Zaun einmal herum?' },
-      qsame: { en: 'Same grass — which needs more fence?', de: 'Gleich viel Gras – wer braucht mehr Zaun?' }
+      title: { en: 'The Mending Fences', de: 'Hazel flickt die Zäune', fr: 'Hazel répare les clôtures' },
+      instruction: { en: 'Help Hazel mend the fences — perimeter is the distance all the way around!', de: 'Hilf Hazel beim Zaunflicken – der Umfang ist der Weg einmal rundherum!', fr: 'Aide Hazel à réparer les clôtures — le périmètre, c’est la distance tout autour !' },
+      qmend: { en: 'Mend the broken fence.', de: 'Flick den kaputten Zaun.', fr: 'Répare la clôture cassée.' },
+      qrank: { en: "Two fields — fence, then grass.", de: 'Zwei Felder – erst Zaun, dann Gras.', fr: 'Deux champs — la clôture, puis l’herbe.' },
+      qunit: { en: 'Edge marks or inside squares?', de: 'Randmarken oder Kästchen in der Mitte?', fr: 'Marques du bord ou carrés à l’intérieur ?' },
+      qroll: { en: 'Does the fence reach around?', de: 'Reicht der Zaun einmal herum?', fr: 'Est-ce que la clôture fait le tour ?' },
+      qsame: { en: 'Same grass — which needs more fence?', de: 'Gleich viel Gras – wer braucht mehr Zaun?', fr: 'Autant d’herbe — lequel a besoin de plus de clôture ?' }
     },
 
     init: function (api) {

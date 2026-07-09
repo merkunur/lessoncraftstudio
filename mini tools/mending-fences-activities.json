@@ -26,15 +26,18 @@
     },
     "slug": {
       "en": "the-mending-fences-perimeter",
-      "de": "umfang-und-flaeche-klasse-3"
+      "de": "umfang-und-flaeche-klasse-3",
+      "fr": "le-perimetre-la-distance-autour-cm1"
     },
     "page_title": {
       "en": "The Mending Fences — Perimeter: the Distance Around (Grade 3)",
-      "de": "Umfang & Fläche Klasse 3 – Hazels Zaun-Werkstatt"
+      "de": "Umfang & Fläche Klasse 3 – Hazels Zaun-Werkstatt",
+      "fr": "Hazel répare les clôtures : le périmètre, la distance tout autour (CM1)"
     },
     "page_intro": {
       "en": "A free interactive Grade 3 math activity: help Hazel the badger mend the paddock fences and tell fencing the edge from planting the grass inside. Perimeter is the distance all the way around a shape — a length, not the space it covers. Mend a missing fence board when you know the whole fence and one side, judge which field needs more fence but grows less grass, tell the around-the-edge marks from the squares inside, and check whether a roll of fence reaches around. Common Core 3.MD.D.8.",
-      "de": "Was ist Umfang? Mit Hazel dem Dachs flickst du Weidezäune und lernst spielerisch, Umfang und Fläche zu unterscheiden. Geometrie Klasse 3 – kostenlos & interaktiv."
+      "de": "Was ist Umfang? Mit Hazel dem Dachs flickst du Weidezäune und lernst spielerisch, Umfang und Fläche zu unterscheiden. Geometrie Klasse 3 – kostenlos & interaktiv.",
+      "fr": "Un jeu de maths CM1, gratuit et interactif : aide Hazel le blaireau à réparer les clôtures des prés et à distinguer clôturer le bord de planter l'herbe à l'intérieur. Le périmètre, c'est la distance tout autour d'une figure — une longueur, pas la place qu'elle occupe. Répare une planche de clôture qui manque quand tu connais la clôture entière et un côté, dis quel champ a besoin de plus de clôture mais fait pousser moins d'herbe, distingue les marques du bord des carrés à l'intérieur, et vérifie si un rouleau de clôture fait le tour."
     },
     "kid_prompt_template": "perimeter"
   }

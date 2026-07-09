@@ -33,6 +33,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'choice-board.onset-rime-blend.rf-k-2-c': { de: '1' },                 // Klasse 1 — Lautsynthese (Anlaut + Reim zusammenschleifen) = Vorstufe des Erlesens, Anfangsunterricht (US RF.K.2.c; K-cluster → Klasse 1)
   'fraction-equiv.same-amount.3-nf-a-3': { de: '4', fr: '4' },           // Klasse 4 — äquivalente Brüche (Bruch-Symbolik + Gleichwertigkeit + Nenner 6/8) = Klasse-4-Propädeutik (educator-ruled, NOT Klasse 3); operator-approved grade_4 support (US Grade 3 → DE Klasse 4). FR CM1 (operator-ruled): les fractions (notation a/b + équivalence) sont un sujet du cycle 3 introduit au CM1; le CE2 ne fait pas a/b → native '3'→CE2 trop bas; de Klasse-4 ≈ fr CM1
   'fox-forge.fraction.3-nf-a-1': { fr: '4' },                            // FR CM1 (operator-ruled): les fractions (a/b comme a copies de 1/b) = cycle 3 introduit au CM1; le CE2 ne fait pas a/b → native '3'→CE2 trop bas. DE keeps native Klasse 3 (basic Bruchteile ok Klasse 3; the de Klasse-3-vs-Klasse-4 split across the two fraction siblings does NOT map to a FR CE2/CM1 split — France has no CE2 fractions → both siblings CM1)
+  'mending-fences.mend-board.3-md-d-8': { fr: '4' },                     // FR CM1 (operator-ruled): « calculer le périmètre d'un polygone » = attendu du cycle 3 (CM1, Grandeurs et mesures); le CE2 fait des longueurs mais pas le périmètre calculé → native '3'→CE2 trop bas. DE keeps native Klasse 3 (Umfang ok Klasse 3-4). STRAND: fr falls through to « Grandeurs et mesures » (périmètre = measurement in FR, NOT the de « Raum und Form » geometry) — leave the de STRAND override untouched
   'daisy-plate-stack.plurals.l-k-1-c': { de: '2' },                      // Klasse 2 — Einzahl/Mehrzahl (Numerus/Pluralbildung) = systematische Grammatik (educator-ruled; US L.K.1.c K-cluster → DE Klasse 2)
   'penny-alphabet-trace.letter-formation.l-k-1-a': { de: '1' },          // Klasse 1 — Erstschreiben: formgerechtes Nachspuren der Druckbuchstaben = Kern des Anfangsunterrichts (US L.K.1.a; K-cluster → Klasse 1)
   'rhyme-shop.rhyme.rf-k-2-a': { de: '1' },                              // Klasse 1 — Reime/phonologische Bewusstheit = Kernkompetenz des Anfangsunterrichts (US RF.K.2.a; K-cluster → Klasse 1)
@@ -472,7 +473,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.208';
+  const ACTIVITY_WRAPPER_VERSION = '9.209';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

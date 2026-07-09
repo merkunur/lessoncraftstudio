@@ -1435,6 +1435,28 @@
         "Associer une quantité à un nombre"
       ]
     },
+    "wondering-jar.estimate-jar.k-cc-b-5": {
+      "about": [
+        "La chouette adore les devinettes ! Combien de bonbons se cachent dans le bocal ? L'enfant fait glisser son estimation sur une bande numérique : ici, il n'y a pas de mauvaise réponse, une estimation n'est jamais fausse. Ensuite, le bocal s'ouvre et l'on compte les bonbons un à un pour trouver le vrai nombre. D'autres défis viennent enrichir le jeu : deviner s'il y en a plus ou moins que N, ou repérer quel bocal en a le plus, le A ou le B.",
+        "Estimer une quantité, c'est en donner un ordre de grandeur ; puis dénombrer un à un, c'est le vérifier. Ce va-et-vient entre l'estimation et le comptage aide l'enfant à « construire le nombre » à la maternelle et développe son sens du nombre, sans jamais avoir peur de se tromper. Le jeu est entièrement gratuit, sans minuteur, sans score et sans compte à créer : l'enfant avance à son rythme, en accord avec les programmes officiels de l'école."
+      ],
+      "practices": [
+        "Estimer une quantité et en donner un ordre de grandeur",
+        "Compter les objets un à un pour vérifier son estimation",
+        "Comparer son estimation au nombre réel trouvé en comptant",
+        "Comparer deux quantités : plus, moins ou autant",
+        "Se repérer sur une bande numérique"
+      ],
+      "howToPlay": [
+        "Fais glisser ton estimation sur la bande numérique, puis valide-la.",
+        "Ouvre le bocal et compte les bonbons un à un pour découvrir le vrai nombre."
+      ],
+      "learningGoals": [
+        "Estimer une quantité",
+        "Dénombrer pour vérifier",
+        "Comparer une estimation et un nombre réel"
+      ]
+    },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
         "Dans le tribunal des nombres de la juge Tess, une vieille tortue posée et bienveillante, on juge aujourd’hui des égalités. Un témoin s’avance et affirme quelque chose — par exemple « 5 + 3 = 8 », « 6 = 8 − 2 » ou encore « 3 + 2 = 2 + 3 ». Votre enfant est assis sur le siège du juge et doit rendre son verdict : cette égalité est-elle vraie ou fausse ?",

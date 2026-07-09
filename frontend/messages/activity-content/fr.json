@@ -1479,6 +1479,28 @@
         "Préparer la numération décimale"
       ]
     },
+    "digby-number-trace.numeral-formation.k-cc-a-3": {
+      "about": [
+        "Digby le chien adore les chiffres ! Il invite ton enfant à tracer chaque chiffre, de 0 à 9. Un chiffre-modèle apparaît en pointillés, avec un point de départ : ton enfant pose son doigt sur le point, puis suit chaque trait dans le bon ordre. Quand le dernier trait est formé, le chiffre s'encre joliment et Digby passe au chiffre suivant. Il n'y a ni course, ni score : on prend le temps de bien former chaque chiffre.",
+        "Apprendre à tracer les chiffres de 0 à 9 dans le bon ordre des traits est un attendu de la Grande section : « écrire les nombres avec les chiffres » fait partie du geste graphique que l'on installe en maternelle, avant de le consolider au CP. En guidant le tracé (le point de départ, le sens de chaque trait), l'activité prépare en douceur l'écriture chiffrée. Elle est entièrement gratuite, fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Découvrir les nombres et leurs utilisations »)."
+      ],
+      "practices": [
+        "Tracer chaque chiffre de 0 à 9",
+        "Suivre le bon ordre et le bon sens des traits",
+        "Commencer chaque trait sur le point de départ",
+        "Reconnaître et bien former la forme de chaque chiffre",
+        "Préparer le geste de l'écriture chiffrée"
+      ],
+      "howToPlay": [
+        "Pose ton doigt sur le point de départ du chiffre.",
+        "Suis chaque trait dans le bon ordre — le chiffre s'encre quand il est terminé."
+      ],
+      "learningGoals": [
+        "Tracer les chiffres de 0 à 9",
+        "Respecter l'ordre des traits",
+        "Préparer l'écriture chiffrée"
+      ]
+    },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
         "Dans le tribunal des nombres de la juge Tess, une vieille tortue posée et bienveillante, on juge aujourd’hui des égalités. Un témoin s’avance et affirme quelque chose — par exemple « 5 + 3 = 8 », « 6 = 8 − 2 » ou encore « 3 + 2 = 2 + 3 ». Votre enfant est assis sur le siège du juge et doit rendre son verdict : cette égalité est-elle vraie ou fausse ?",

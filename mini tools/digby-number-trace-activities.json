@@ -19,9 +19,9 @@
       ]
     },
     "theme": null,
-    "slug": { "en": "digby-number-trace", "de": "zahlen-schreiben-lernen-0-bis-9-klasse-1" },
-    "page_title": { "en": "Digby's Number Trace — Write Every Number 0 to 9 (Kindergarten)", "de": "Zahlen schreiben lernen 0-9 mit Digby | Klasse 1" },
-    "page_intro": { "en": "Digby the dog loves digits! Practice writing every number from 0 to 9 — start on the dot and trace each stroke in order to form the numeral neatly. A Kindergarten handwriting activity for writing numerals, aligned to Common Core K.CC.A.3.", "de": "Zahlen 0–9 schreiben lernen: Ziffern in der richtigen Strichfolge nachspuren – kostenlos & interaktiv. Übe mit dem Hund Digby die Schreibrichtung in Klasse 1!" },
+    "slug": { "en": "digby-number-trace", "de": "zahlen-schreiben-lernen-0-bis-9-klasse-1", "fr": "ecrire-les-chiffres-de-0-a-9-avec-digby-gs" },
+    "page_title": { "en": "Digby's Number Trace — Write Every Number 0 to 9 (Kindergarten)", "de": "Zahlen schreiben lernen 0-9 mit Digby | Klasse 1", "fr": "Écrire les chiffres de 0 à 9 avec Digby - GS" },
+    "page_intro": { "en": "Digby the dog loves digits! Practice writing every number from 0 to 9 — start on the dot and trace each stroke in order to form the numeral neatly. A Kindergarten handwriting activity for writing numerals, aligned to Common Core K.CC.A.3.", "de": "Zahlen 0–9 schreiben lernen: Ziffern in der richtigen Strichfolge nachspuren – kostenlos & interaktiv. Übe mit dem Hund Digby die Schreibrichtung in Klasse 1!", "fr": "Digby le chien adore les chiffres ! Ton enfant apprend à tracer chaque chiffre de 0 à 9 : il commence sur le point et suit chaque trait dans le bon ordre pour bien former le chiffre. Une activité gratuite et interactive pour la GS : apprendre à écrire les chiffres." },
     "kid_prompt_template": "Start on the dot and trace the number."
   }
 ]

@@ -89,7 +89,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'necklace.bead-string.k-cc-b-4': { de: '1' },                           // K count-to-cardinality (Anzahl durch Zählen + Anzahlinvarianz) → Klasse 1; en stays Kindergarten (K-cluster pattern)
   'star-stitcher.connect-sequence.k-cc-a-2': { de: '1' },                 // K count-forward-from-N (Weiterzählen ab einer Zahl) → Klasse 1; en stays Kindergarten (K-cluster pattern)
   'mochi-feast.count-out.k-cc-b-5': { de: '1' },                          // K count-out-N / Menge herstellen (eine vorgegebene Anzahl abzählen) → Klasse 1; en stays Kindergarten (K-cluster pattern)
-  'ten-tank.ten-frame-tank.k-nbt-a-1': { de: '1' },                       // K teen numbers 11-19 as ten+ones (Bündeln) → Klasse 1; en stays Kindergarten (K-cluster pattern)
+  'ten-tank.ten-frame-tank.k-nbt-a-1': { de: '1', fr: '1' },              // K teen numbers 11-19 as ten+ones (Bündeln) → Klasse 1; en stays Kindergarten (K-cluster pattern). FR CP (operator-ruled): « une dizaine et des unités » structured-tens decomposition of 11-19 = début-CP attendu; native 'K'→GS too low (posy #71: la GS s'arrête vers 30, sans dizaines structurées); CP → « Nombres et calcul » auto-map correct → NO STRAND override
   'wondering-jar.estimate-jar.k-cc-b-5': { de: '1' },                     // K estimate-then-count (Anzahlen schätzen) → Klasse 1; en stays Kindergarten (K-cluster pattern)
   'pips-round.mail-route.k-cc-a-3': { de: '1' },                          // K numeral reading/recognition (Zahlen lesen bis 20) → Klasse 1; en stays Kindergarten (K-cluster pattern)
   'digby-number-trace.numeral-formation.k-cc-a-3': { de: '1' },           // K numeral WRITING (Ziffern schreiben) → Klasse 1; en stays Kindergarten (K-cluster pattern)
@@ -470,7 +470,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.200';
+  const ACTIVITY_WRAPPER_VERSION = '9.201';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

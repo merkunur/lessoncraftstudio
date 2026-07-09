@@ -1765,6 +1765,28 @@
         "Calculer avec les euros et les centimes"
       ]
     },
+    "ten-tank.ten-frame-tank.k-nbt-a-1": {
+      "about": [
+        "Dewey le caneton remplit son réservoir de bulles ! À chaque tour, ton enfant fait tomber des bulles une à une ; quand la dixième arrive, les dix bulles se groupent d'un coup en une seule dizaine qui scintille, et les bulles qui restent deviennent « et quelques unités ». Au fil du jeu, il construit un nombre, le sépare en une dizaine et des unités, répare une quantité qui manque, fait le nombre que Dewey annonce, ou compare deux nombres. Petit à petit, il découvre qu'un nombre comme 14, c'est une dizaine et 4 unités.",
+        "Comprendre les nombres de 11 à 19 comme une dizaine et des unités (10 + N) est un attendu du CP : c'est le tout début de la structure décimale, avec les dizaines et les unités. En groupant lui-même dix bulles en une dizaine, l'enfant construit une vraie représentation des nombres qui prépare la numération et le calcul. Le jeu est entièrement gratuit, fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Nombres et calcul »)."
+      ],
+      "practices": [
+        "Grouper dix unités pour faire une dizaine",
+        "Construire les nombres de 11 à 19 comme une dizaine et des unités",
+        "Séparer un nombre en une dizaine et des unités",
+        "Comparer deux nombres entre 11 et 19",
+        "Faire le nombre que Dewey annonce"
+      ],
+      "howToPlay": [
+        "Fais tomber des bulles dans le réservoir ; à dix, elles se groupent en une dizaine.",
+        "Ajoute les unités qui restent pour faire le nombre demandé."
+      ],
+      "learningGoals": [
+        "Comprendre qu'un nombre 11 à 19 est une dizaine et des unités",
+        "Grouper dix unités en une dizaine",
+        "Construire le sens des dizaines et des unités"
+      ]
+    },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
         "Dans le tribunal des nombres de la juge Tess, une vieille tortue posée et bienveillante, on juge aujourd’hui des égalités. Un témoin s’avance et affirme quelque chose — par exemple « 5 + 3 = 8 », « 6 = 8 − 2 » ou encore « 3 + 2 = 2 + 3 ». Votre enfant est assis sur le siège du juge et doit rendre son verdict : cette égalité est-elle vraie ou fausse ?",

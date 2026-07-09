@@ -17,9 +17,9 @@
       ]
     },
     "theme": null,
-    "slug": { "en": "the-necklace-that-wont-hold-still", "de": "zaehlen-anzahl-bestimmen-so-viele-wie-klasse-1" },
-    "page_title": { "en": "The Necklace That Won't Hold Still — Count & Make the Same Many (Kindergarten)", "de": "Anzahl zählen: So viele Perlen wie der Fuchs – Klasse 1" },
-    "page_intro": { "en": "A free interactive Kindergarten counting game: a little fox makes a necklace to match its friend's — not the same colors, the same HOW-MANY. Count the friend's beads one by one, then thread your own to that number — even after the fox tucks it away or gives it a playful shake. The number is the one thing that doesn't change when everything else does. Counting each bead once, and knowing the last number tells how many, is the heart of Common Core K.CC.B.4.", "de": "Anzahl zählen üben: Zähl die Perlen und fädle genauso viele auf wie der Fuchs. Kostenloses, interaktives Mathe-Spiel für Klasse 1 – jetzt spielen!" },
+    "slug": { "en": "the-necklace-that-wont-hold-still", "de": "zaehlen-anzahl-bestimmen-so-viele-wie-klasse-1", "fr": "compter-les-perles-du-collier-autant-gs" },
+    "page_title": { "en": "The Necklace That Won't Hold Still — Count & Make the Same Many (Kindergarten)", "de": "Anzahl zählen: So viele Perlen wie der Fuchs – Klasse 1", "fr": "Compter les perles : en enfiler autant que le renard - GS" },
+    "page_intro": { "en": "A free interactive Kindergarten counting game: a little fox makes a necklace to match its friend's — not the same colors, the same HOW-MANY. Count the friend's beads one by one, then thread your own to that number — even after the fox tucks it away or gives it a playful shake. The number is the one thing that doesn't change when everything else does. Counting each bead once, and knowing the last number tells how many, is the heart of Common Core K.CC.B.4.", "de": "Anzahl zählen üben: Zähl die Perlen und fädle genauso viele auf wie der Fuchs. Kostenloses, interaktives Mathe-Spiel für Klasse 1 – jetzt spielen!", "fr": "L'enfant compte les perles du collier du renard, puis en enfile autant sur le sien : le nombre ne change pas, même si on secoue le collier. Un jeu gratuit et interactif pour la GS, à essayer tout de suite !" },
     "kid_prompt_template": "bead-string"
   }
 ]

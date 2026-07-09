@@ -1369,6 +1369,28 @@
         "Construire une première idée de la suite des nombres : le précédent, le suivant, et ce qui vient « entre »."
       ]
     },
+    "necklace.bead-string.k-cc-b-4": {
+      "about": [
+        "Le renard veut un collier avec autant de perles que celui de son amie : pas les mêmes couleurs, mais le même nombre de perles ! L'enfant compte d'abord les perles du renard, une par une, puis enfile exactement le même nombre sur son propre fil. Et même quand le renard cache son collier ou le secoue pour mélanger les perles, la réponse reste la même : le nombre, lui, ne bouge pas.",
+        "En jouant, l'enfant apprend à dénombrer une petite collection, à dire combien il y a de perles en tout (le cardinal) et à comprendre que la quantité ne change pas quand on déplace les objets : c'est l'invariance du nombre, une grande étape à la maternelle. Le jeu est gratuit, sans minuteur, sans score et sans compte à créer, pour avancer au rythme de l'enfant, dans l'esprit des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Compter les perles du renard une à une",
+        "Dire combien il y en a en tout (le cardinal)",
+        "Enfiler le même nombre de perles sur son collier",
+        "Comprendre que le nombre ne change pas si on déplace les perles",
+        "Repérer et corriger un oubli en recomptant"
+      ],
+      "howToPlay": [
+        "Compte les perles du collier du renard, une par une.",
+        "Enfile autant de perles sur ton fil, puis ferme le collier."
+      ],
+      "learningGoals": [
+        "Dénombrer une petite collection de perles",
+        "Connaître le nombre total (le cardinal)",
+        "Comprendre que la quantité ne change pas quand on la réorganise"
+      ]
+    },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
         "Dans le tribunal des nombres de la juge Tess, une vieille tortue posée et bienveillante, on juge aujourd’hui des égalités. Un témoin s’avance et affirme quelque chose — par exemple « 5 + 3 = 8 », « 6 = 8 − 2 » ou encore « 3 + 2 = 2 + 3 ». Votre enfant est assis sur le siège du juge et doit rendre son verdict : cette égalité est-elle vraie ou fausse ?",

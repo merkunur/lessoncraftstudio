@@ -3584,6 +3584,27 @@
         "Comprendre que des fractions différentes peuvent nommer la même quantité",
         "Lire une fraction avec ses barres et ses nombres"
       ]
+    },
+    "fox-forge.fraction.3-nf-a-1": {
+      "about": [
+        "Pip le renard tient une fabrique de chocolat, et chaque commande est une fraction à construire. Pour fabriquer 3/4, ton enfant choisit le morceau d'un quart — reconnu à sa TAILLE, car les moules n'ont aucune étiquette — puis le coule trois fois dans la barre. Une fraction a/b, c'est a copies du morceau unité 1/b : elle se construit, elle ne se lit pas seulement.",
+        "Comprendre qu'une fraction est faite de parts égales, reconnaître le morceau unité d'après sa taille et bâtir a/b morceau par morceau sont des attendus du CM1. En construisant la fraction au lieu de la lire, l'enfant comprend vraiment ce que veut dire 3/4. Le jeu est gratuit, sans minuteur et sans points : l'enfant avance à son rythme. Il suit le domaine « Nombres et calcul » des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Reconnaître le morceau unité 1/b d'après sa taille",
+        "Construire une fraction a/b en coulant a morceaux",
+        "Choisir des parts égales et écarter les moules inégaux",
+        "Comprendre qu'une fraction est faite de parts égales du tout"
+      ],
+      "howToPlay": [
+        "Lis la commande, puis choisis le moule dont le morceau va le bon nombre de fois dans la barre.",
+        "Coule le morceau autant de fois qu'il faut, puis livre la commande à Pip."
+      ],
+      "learningGoals": [
+        "Comprendre qu'une fraction a/b est a copies du morceau unité 1/b",
+        "Reconnaître le morceau unité d'après sa taille",
+        "Construire une fraction avec des parts égales"
+      ]
     }
   }
 }

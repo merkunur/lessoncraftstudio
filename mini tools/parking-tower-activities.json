@@ -18,15 +18,18 @@
     "theme": null,
     "slug": {
       "en": "brambles-parking-tower",
-      "de": "lagebeziehungen-ueber-unter-neben-zwischen-klasse-1"
+      "de": "lagebeziehungen-ueber-unter-neben-zwischen-klasse-1",
+      "fr": "au-dessus-en-dessous-a-cote-entre-mots-de-position-gs"
     },
     "page_title": {
       "en": "Bramble's Parking Tower — Position Words: Above, Below, Between (Kindergarten)",
-      "de": "Lagebeziehungen üben: über, unter, neben | Klasse 1"
+      "de": "Lagebeziehungen üben: über, unter, neben | Klasse 1",
+      "fr": "Les mots de position : au-dessus, en dessous, à côté, entre - GS"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten activity for position words: help Beaver Bramble park each vehicle above, below, next to, or between the others in his side-on parking tower. The floor between levels makes \"above\" mean one level up, so children must listen to the word — not just guess the nearest spot. Describing relative positions is the heart of Common Core K.G.A.1.",
-      "de": "Lagebeziehungen & Positionswörter über, unter, neben, zwischen üben: Parke die Autos im Parkturm – interaktiv & kostenlos für Klasse 1. Jetzt spielen!"
+      "de": "Lagebeziehungen & Positionswörter über, unter, neben, zwischen üben: Parke die Autos im Parkturm – interaktiv & kostenlos für Klasse 1. Jetzt spielen!",
+      "fr": "Aide le castor Bramble à garer chaque véhicule au-dessus, en dessous, à côté ou entre les autres, dans son parking à étages vu en coupe. Le sol entre les niveaux fait qu'au-dessus veut dire un étage plus haut : ton enfant doit écouter le mot, pas seulement viser la place la plus proche. Décrire des positions relatives : une activité gratuite et interactive pour la GS."
     },
     "kid_prompt_template": "place-by-relation"
   }

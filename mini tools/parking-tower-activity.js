@@ -38,13 +38,26 @@
     boat:  { bare: 'Boot',        akk: 'das Boot',        dat: 'dem Boot' }
   };
   var PREP_DE = { above: 'über', below: 'unter', 'next-to': 'neben' };
+  /* French: position prepositions FUSE de+article with gender (au-dessus DU bus /
+     au-dessus DE LA voiture), but « entre » takes the plain article. So each
+     vehicle carries a def-form (le bus / la voiture — for « entre ») AND a
+     de-form (du bus / de la voiture — for au-dessus/en dessous/à côté). All words
+     are consonant-initial → no « de l' » elision. */
+  var VEHICLE_FR = {
+    bus:   { bare: 'bus',         def: 'le bus',         de: 'du bus' },
+    van:   { bare: 'camionnette', def: 'la camionnette', de: 'de la camionnette' },
+    car:   { bare: 'voiture',     def: 'la voiture',     de: 'de la voiture' },
+    truck: { bare: 'camion',      def: 'le camion',      de: 'du camion' },
+    boat:  { bare: 'bateau',      def: 'le bateau',      de: 'du bateau' }
+  };
+  var PREP_FR = { above: 'au-dessus', below: 'en dessous', 'next-to': 'à côté' };
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function interp(t, args) { return String(t || '').replace(/\{(\w+)\}/g, function (m, k) { return (k in args) ? args[k] : m; }); }
   function speak(text) {
     try {
       if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.92 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .92; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .92; u.lang = (LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function shuffledOrder(n, prev) {
@@ -81,7 +94,7 @@
 
   /* Beaver Bramble — SVG PLACEHOLDER (attendant cap + big tail). */
   function brambleSVG() {
-    return '<svg class="pt-bramble-svg" viewBox="0 0 120 120" role="img" aria-label="' + (LANG === 'de' ? 'Benno der Biber' : 'Bramble the beaver') + '">' +
+    return '<svg class="pt-bramble-svg" viewBox="0 0 120 120" role="img" aria-label="' + (LANG === 'de' ? 'Benno der Biber' : LANG === 'fr' ? 'Bramble le castor' : 'Bramble the beaver') + '">' +
       '<ellipse cx="60" cy="113" rx="30" ry="6" fill="rgba(0,0,0,.08)"/>' +
       '<path d="M84 96 Q108 92 104 72 Q92 78 84 88 Z" fill="' + C.WOOD + '" stroke="' + C.CORAL2 + '" stroke-width="2"/>' +   /* tail */
       '<path d="M32 64 Q32 36 60 36 Q88 36 88 64 Q88 98 60 100 Q32 98 32 64 Z" fill="' + C.WOOD + '"/>' +
@@ -97,19 +110,19 @@
     id: 'parking-tower-activity',
 
     strings: {
-      title:        { en: "Bramble's Parking Tower", de: 'Bennos Parkturm' },
-      instruction:  { en: 'Help Bramble park each vehicle in the right spot. Tap Check when it is parked.', de: 'Hilf Benno, jedes Fahrzeug am richtigen Platz zu parken. Tippe auf Prüfen, wenn es geparkt ist.' },
-      promptPlace:  { en: 'Park the {mover} {rel} the {landmark}.', de: 'Parke {mover} {rel} {landmark}.' },
-      promptBetween:{ en: 'Park the {mover} between the {lm1} and the {lm2}.', de: 'Parke {mover} zwischen {lm1} und {lm2}.' },
-      promptReverse:{ en: 'Bramble parked {rel} the {landmark}. Tap his truck.', de: 'Benno hat {rel} {landmark} geparkt. Tippe auf seinen Lastwagen.' },
-      promptTwoTruck:{ en: 'Park the {mover} between your two trucks.', de: 'Parke {mover} zwischen deinen beiden Lastwagen.' },
-      reteachAbove: { en: 'Above means one level higher up — try again!', de: 'Über bedeutet eine Ebene höher — versuch es noch einmal!' },
-      reteachBelow: { en: 'Below means one level lower down — try again!', de: 'Unter bedeutet eine Ebene tiefer — versuch es noch einmal!' },
-      reteachNext:  { en: 'Next to means right beside it, same level — try again!', de: 'Neben bedeutet direkt daneben, auf derselben Ebene — versuch es noch einmal!' },
-      reteachBetween:{ en: 'Between means in the middle of the two — try again!', de: 'Zwischen bedeutet in der Mitte zwischen den beiden — versuch es noch einmal!' },
-      reteach2:     { en: 'That spot is {sib}, not {rel}. Listen again.', de: 'Dieser Platz ist {sib}, nicht {rel}. Hör noch einmal zu.' },
-      parked:       { en: 'Yes! Parked just right.', de: 'Ja! Genau richtig geparkt.' },
-      hintCheck:    { en: 'Park the vehicle in the right spot, then tap Check.', de: 'Parke das Fahrzeug am richtigen Platz und tippe dann auf Prüfen.' }
+      title:        { en: "Bramble's Parking Tower", de: 'Bennos Parkturm', fr: 'Le parking à étages de Bramble' },
+      instruction:  { en: 'Help Bramble park each vehicle in the right spot. Tap Check when it is parked.', de: 'Hilf Benno, jedes Fahrzeug am richtigen Platz zu parken. Tippe auf Prüfen, wenn es geparkt ist.', fr: 'Aide Bramble à garer chaque véhicule au bon endroit. Touche Vérifier quand il est garé.' },
+      promptPlace:  { en: 'Park the {mover} {rel} the {landmark}.', de: 'Parke {mover} {rel} {landmark}.', fr: 'Gare {mover} {rel} {landmark}.' },
+      promptBetween:{ en: 'Park the {mover} between the {lm1} and the {lm2}.', de: 'Parke {mover} zwischen {lm1} und {lm2}.', fr: 'Gare {mover} entre {lm1} et {lm2}.' },
+      promptReverse:{ en: 'Bramble parked {rel} the {landmark}. Tap his truck.', de: 'Benno hat {rel} {landmark} geparkt. Tippe auf seinen Lastwagen.', fr: 'Bramble s’est garé {rel} {landmark}. Touche son camion.' },
+      promptTwoTruck:{ en: 'Park the {mover} between your two trucks.', de: 'Parke {mover} zwischen deinen beiden Lastwagen.', fr: 'Gare {mover} entre tes deux camions.' },
+      reteachAbove: { en: 'Above means one level higher up — try again!', de: 'Über bedeutet eine Ebene höher — versuch es noch einmal!', fr: 'Au-dessus, ça veut dire un étage plus haut — essaie encore !' },
+      reteachBelow: { en: 'Below means one level lower down — try again!', de: 'Unter bedeutet eine Ebene tiefer — versuch es noch einmal!', fr: 'En dessous, ça veut dire un étage plus bas — essaie encore !' },
+      reteachNext:  { en: 'Next to means right beside it, same level — try again!', de: 'Neben bedeutet direkt daneben, auf derselben Ebene — versuch es noch einmal!', fr: 'À côté, ça veut dire juste à côté, au même étage — essaie encore !' },
+      reteachBetween:{ en: 'Between means in the middle of the two — try again!', de: 'Zwischen bedeutet in der Mitte zwischen den beiden — versuch es noch einmal!', fr: 'Entre, ça veut dire au milieu des deux — essaie encore !' },
+      reteach2:     { en: 'That spot is {sib}, not {rel}. Listen again.', de: 'Dieser Platz ist {sib}, nicht {rel}. Hör noch einmal zu.', fr: 'Cette place est {sib}, pas {rel}. Écoute encore.' },
+      parked:       { en: 'Yes! Parked just right.', de: 'Ja! Genau richtig geparkt.', fr: 'Oui ! Bien garé.' },
+      hintCheck:    { en: 'Park the vehicle in the right spot, then tap Check.', de: 'Parke das Fahrzeug am richtigen Platz und tippe dann auf Prüfen.', fr: 'Gare le véhicule au bon endroit, puis touche Vérifier.' }
     },
 
     defaults: {},
@@ -176,7 +189,7 @@
       for (var lv = s.levels; lv >= 1; lv--) for (var co = 1; co <= s.cols; co++) tower.appendChild(cellEl(co, lv));
 
       /* landmarks (parked, not tappable) */
-      s.landmarks.forEach(function (l) { var c = cellEl(l.col, l.level); c.classList.add('pt-occupied'); var lbl = (LANG === 'de' && VEHICLE_DE[l.label]) ? VEHICLE_DE[l.label].bare : l.label; c.innerHTML = '<span class="pt-veh pt-landmark">' + vehicleSVG(l.vehicle) + '</span><span class="pt-label">' + esc(lbl) + '</span>'; tower.appendChild(c); });
+      s.landmarks.forEach(function (l) { var c = cellEl(l.col, l.level); c.classList.add('pt-occupied'); var lbl = (LANG === 'de' && VEHICLE_DE[l.label]) ? VEHICLE_DE[l.label].bare : (LANG === 'fr' && VEHICLE_FR[l.label]) ? VEHICLE_FR[l.label].bare : l.label; c.innerHTML = '<span class="pt-veh pt-landmark">' + vehicleSVG(l.vehicle) + '</span><span class="pt-label">' + esc(lbl) + '</span>'; tower.appendChild(c); });
 
       /* candidates — dashed BAYS (place) or TRUCKS (reverse), tappable */
       s.candidates.forEach(function (cd) {
@@ -184,7 +197,7 @@
         c.setAttribute('data-id', cd.id);
         c.style.gridColumn = String(cd.col); c.style.gridRow = String(s.levels - cd.level + 1);
         if (cd.level === 1) c.classList.add('pt-ground');
-        c.setAttribute('aria-label', LANG === 'de' ? (cd.kind === 'truck' ? 'ein Lastwagen' : 'ein leerer Parkplatz') : (cd.kind === 'truck' ? 'a truck' : 'an empty parking spot'));
+        c.setAttribute('aria-label', LANG === 'de' ? (cd.kind === 'truck' ? 'ein Lastwagen' : 'ein leerer Parkplatz') : LANG === 'fr' ? (cd.kind === 'truck' ? 'un camion' : 'une place libre') : (cd.kind === 'truck' ? 'a truck' : 'an empty parking spot'));
         if (cd.kind === 'truck') c.innerHTML = '<span class="pt-veh">' + vehicleSVG(cd.vehicle) + '</span>';
         else if (self.placed === cd.id && s.mover) c.innerHTML = '<span class="pt-veh pt-parked">' + vehicleSVG(s.mover.vehicle) + '</span>';
         else c.innerHTML = '<span class="pt-bay-mark"></span>';
@@ -318,14 +331,17 @@
   function makeTasks(rounds) {
     return rounds.map(function (round) {
       var s = round.scene;
-      var de = (LANG === 'de');
+      var de = (LANG === 'de'), fr = (LANG === 'fr');
       var lm = function (id) { var l = s.landmarks.filter(function (x) { return x.id === id; })[0]; return l ? l.label : id; };
-      var lmVal = function (id) { var k = lm(id); return de ? ((VEHICLE_DE[k] && VEHICLE_DE[k].dat) || k) : k; };
+      /* landmark after a preposition: de = dative; fr = the de-FUSED form (du bus / de la voiture) for au-dessus/en dessous/à côté */
+      var lmVal = function (id) { var k = lm(id); return de ? ((VEHICLE_DE[k] && VEHICLE_DE[k].dat) || k) : fr ? ((VEHICLE_FR[k] && VEHICLE_FR[k].de) || k) : k; };
+      /* landmark inside « entre … et … »: de = dative (same); fr = the plain DEF form (le bus / la voiture) */
+      var lmDef = function (id) { var k = lm(id); return de ? ((VEHICLE_DE[k] && VEHICLE_DE[k].dat) || k) : fr ? ((VEHICLE_FR[k] && VEHICLE_FR[k].def) || k) : k; };
       var moverKey = s.mover ? s.mover.vehicle : 'truck';
-      var moverVal = de ? ((VEHICLE_DE[moverKey] && VEHICLE_DE[moverKey].akk) || moverKey) : (s.mover ? s.mover.label : 'truck');
-      var relVal = de ? (PREP_DE[round.relation] || round.relation) : relWord(round.relation);
+      var moverVal = de ? ((VEHICLE_DE[moverKey] && VEHICLE_DE[moverKey].akk) || moverKey) : fr ? ((VEHICLE_FR[moverKey] && VEHICLE_FR[moverKey].def) || moverKey) : (s.mover ? s.mover.label : 'truck');
+      var relVal = de ? (PREP_DE[round.relation] || round.relation) : fr ? (PREP_FR[round.relation] || round.relation) : relWord(round.relation);
       var pk, pa = {};
-      if (round.experience === 'between') { pk = 'promptBetween'; pa = { mover: moverVal, lm1: lmVal(round.termRef[0]), lm2: lmVal(round.termRef[1]) }; }
+      if (round.experience === 'between') { pk = 'promptBetween'; pa = { mover: moverVal, lm1: lmDef(round.termRef[0]), lm2: lmDef(round.termRef[1]) }; }
       else if (round.experience === 'reverse') { pk = 'promptReverse'; pa = { rel: relVal, landmark: lmVal(round.termRef[0]) }; }
       else if (round.experience === 'two-truck') { pk = 'promptTwoTruck'; pa = { mover: moverVal }; }
       else { pk = 'promptPlace'; pa = { mover: moverVal, rel: relVal, landmark: lmVal(round.termRef[0]) }; }

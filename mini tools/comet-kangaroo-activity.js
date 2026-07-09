@@ -21,10 +21,10 @@
 
   var LANG = 'en';
   /* German hop rebuilt from childView's dir+deltaAbs (no core change); the core's hopWord is English */
-  function ckgHop(v) { return LANG === 'de' ? (v.deltaAbs + (v.dir === 'more' ? ' mehr' : ' weniger')) : v.hop; }
+  function ckgHop(v) { return LANG === 'de' ? (v.deltaAbs + (v.dir === 'more' ? ' mehr' : ' weniger')) : LANG === 'fr' ? (v.deltaAbs + (v.dir === 'more' ? ' de plus' : ' de moins')) : v.hop; }
   function ckgQuestion(v, full) {
     var h = ckgHop(v);
-    return LANG === 'de' ? ((full ? 'Wie viel ist ' : '') + h + ' als ' + v.start + '?') : ((full ? 'What is ' : '') + v.hop + ' than ' + v.start + '?');
+    return LANG === 'de' ? ((full ? 'Wie viel ist ' : '') + h + ' als ' + v.start + '?') : LANG === 'fr' ? ((full ? 'Combien font ' : '') + h + ' que ' + v.start + ' ?') : ((full ? 'What is ' : '') + v.hop + ' than ' + v.start + '?');
   }
 
   function speak(text, rate) {
@@ -33,7 +33,7 @@
   }
 
   function kangarooSVG() {
-    return '<svg class="ckg-roo-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Komet das Känguru' : 'Comet the kangaroo') + '">' +
+    return '<svg class="ckg-roo-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Komet das Känguru' : LANG === 'fr' ? 'Comète le kangourou' : 'Comet the kangaroo') + '">' +
       '<path d="M30 80 q-6 -2 -2 -10 q4 -2 10 2 Z" fill="#B06A38"/>' +              /* tail */
       '<ellipse cx="50" cy="64" rx="20" ry="18" fill="#C77E45"/>' +                 /* body */
       '<ellipse cx="50" cy="70" rx="12" ry="10" fill="#E6C39B"/>' +                 /* belly */
@@ -50,10 +50,10 @@
     id: 'comet-kangaroo-activity',
 
     strings: {
-      title: { en: "Comet the Kangaroo", de: 'Komet das Känguru' },
-      instruction: { en: 'Comet makes a big leap of 10 or 100. Work out where she lands and type the number.', de: 'Komet macht einen großen Sprung von 10 oder 100. Finde heraus, wo es landet, und tippe die Zahl ein.' },
-      prompt: { en: 'What is {hop} than {start}?', de: 'Wie viel ist {hop} als {start}?' },
-      hint: { en: 'Only the tens or hundreds change — the ones digit stays the same.', de: 'Nur die Zehner oder die Hunderter ändern sich – die Einer bleiben gleich.' }
+      title: { en: "Comet the Kangaroo", de: 'Komet das Känguru', fr: 'Comète le kangourou' },
+      instruction: { en: 'Comet makes a big leap of 10 or 100. Work out where she lands and type the number.', de: 'Komet macht einen großen Sprung von 10 oder 100. Finde heraus, wo es landet, und tippe die Zahl ein.', fr: 'Comète fait un grand bond de 10 ou 100. Trouve où elle atterrit et tape le nombre.' },
+      prompt: { en: 'What is {hop} than {start}?', de: 'Wie viel ist {hop} als {start}?', fr: 'Combien font {hop} que {start} ?' },
+      hint: { en: 'Only the tens or hundreds change — the ones digit stays the same.', de: 'Nur die Zehner oder die Hunderter ändern sich – die Einer bleiben gleich.', fr: 'Seuls les dizaines ou les centaines changent — le chiffre des unités reste le même.' }
     },
     defaults: {},
 
@@ -89,7 +89,7 @@
       row.appendChild(line);
       root.appendChild(row);
 
-      var read = api.el('button', 'ckg-read'); read.type = 'button'; read.setAttribute('aria-label', LANG === 'de' ? 'Frage anhören' : 'hear the question');
+      var read = api.el('button', 'ckg-read'); read.type = 'button'; read.setAttribute('aria-label', LANG === 'de' ? 'Frage anhören' : LANG === 'fr' ? 'écouter la question' : 'hear the question');
       read.innerHTML = '<span class="ckg-read-ic">🔊</span> ' + ckgQuestion(v, false);
       read.addEventListener('click', function () { speak(ckgQuestion(v, true)); });
       root.appendChild(read);
@@ -146,7 +146,7 @@
     return (rounds || []).map(function (round, i) {
       return {
         id: 'comet-kangaroo.round-' + i, band: round.band || 1,
-        promptKey: 'prompt', promptArgs: { hop: (LANG === 'de' ? (Math.abs(round.delta) + (round.delta > 0 ? ' mehr' : ' weniger')) : Core.hopWord(round)), start: round.start },
+        promptKey: 'prompt', promptArgs: { hop: (LANG === 'de' ? (Math.abs(round.delta) + (round.delta > 0 ? ' mehr' : ' weniger')) : LANG === 'fr' ? (Math.abs(round.delta) + (round.delta > 0 ? ' de plus' : ' de moins')) : Core.hopWord(round)), start: round.start },
         answerType: 'number', answerMin: 0, answerMax: 1000,
         setup: function (tool) { tool.setupTask(round); },
         check: function (tool, answer) { return Core.isAnswer(round, answer); },

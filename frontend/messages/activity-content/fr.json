@@ -1567,6 +1567,28 @@
         "Décrire des positions relatives"
       ]
     },
+    "pip-museum.curate-wing.k-g-a-2": {
+      "about": [
+        "Le professeur Pip, un manchot, te confie le nom de chaque œuvre de son musée ! Ton enfant nomme chaque forme — cercle, triangle, carré, rectangle, hexagone — et l'envoie au socle qui porte son nom. Les trésors arrivent penchés, minuscules, étirés ou à l'envers, mais une forme garde toujours son nom : un carré reste un carré, même tourné comme un losange ! Quand elle est bien nommée, la forme se remet droite et le déguisement tombe. D'autres défis viennent enrichir le jeu : carré ou rectangle en regardant de près, la Galerie mystère pour les formes que l'on ne connaît pas, ou juger si Pip a raison.",
+        "Reconnaître et nommer les figures usuelles indépendamment de leur orientation et de leur taille est un attendu du CP. En distinguant le carré du rectangle et du losange par leurs propriétés — et pas seulement par leur position —, l'enfant développe un vrai regard géométrique. Le jeu est entièrement gratuit, fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Espace et géométrie »)."
+      ],
+      "practices": [
+        "Reconnaître et nommer cercle, triangle, carré, rectangle et hexagone",
+        "Nommer une forme quelle que soit son orientation ou sa taille",
+        "Distinguer le carré du rectangle et du losange",
+        "Juger si une forme est bien nommée",
+        "Regarder de près pour ne pas se tromper"
+      ],
+      "howToPlay": [
+        "Regarde la forme, puis touche le socle qui porte son nom.",
+        "Une forme bien nommée se remet droite — nomme-les toutes pour ouvrir la salle."
+      ],
+      "learningGoals": [
+        "Nommer les formes géométriques usuelles",
+        "Reconnaître une forme quelle que soit son orientation",
+        "Distinguer les formes par leurs propriétés"
+      ]
+    },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
         "Dans le tribunal des nombres de la juge Tess, une vieille tortue posée et bienveillante, on juge aujourd’hui des égalités. Un témoin s’avance et affirme quelque chose — par exemple « 5 + 3 = 8 », « 6 = 8 − 2 » ou encore « 3 + 2 = 2 + 3 ». Votre enfant est assis sur le siège du juge et doit rendre son verdict : cette égalité est-elle vraie ou fausse ?",

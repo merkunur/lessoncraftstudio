@@ -33,13 +33,13 @@
     id: 'gus-snack-cart-activity',
 
     strings: {
-      title: { en: "Gus's Snack Cart", de: "Gus' Snackwagen" },
-      instruction: { en: 'Add or subtract within 100 and type the answer.', de: 'Rechne plus oder minus bis 100 und tippe die Antwort ein.' },
-      prompt: { en: 'Add or subtract. Type the answer below.', de: 'Rechne plus oder minus. Tippe die Antwort unten ein.' },
-      gusIntro: { en: 'Help Gus count his snacks — add what he gets, take away what he sells!', de: 'Hilf Gus, seine Snacks zu zählen – rechne dazu, was er bekommt, und weg, was er verkauft!' },
-      hintAdd: { en: 'He got MORE — add the two numbers together.', de: 'Er hat MEHR bekommen – zähle die beiden Zahlen zusammen.' },
-      hintSub: { en: 'Some are gone — take the second number away.', de: 'Einige sind weg – ziehe die zweite Zahl ab.' },
-      win: { en: 'Yes! That adds up. 🥜', de: 'Stimmt genau! 🥜' }
+      title: { en: "Gus's Snack Cart", de: "Gus' Snackwagen", fr: 'Le stand de snacks de Gus' },
+      instruction: { en: 'Add or subtract within 100 and type the answer.', de: 'Rechne plus oder minus bis 100 und tippe die Antwort ein.', fr: 'Additionne ou soustrais jusqu’à 100, puis tape la réponse.' },
+      prompt: { en: 'Add or subtract. Type the answer below.', de: 'Rechne plus oder minus. Tippe die Antwort unten ein.', fr: 'Additionne ou soustrais.' },
+      gusIntro: { en: 'Help Gus count his snacks — add what he gets, take away what he sells!', de: 'Hilf Gus, seine Snacks zu zählen – rechne dazu, was er bekommt, und weg, was er verkauft!', fr: 'Aide Gus à compter ses snacks — ajoute ce qu’il récolte, enlève ce qu’il vend !' },
+      hintAdd: { en: 'He got MORE — add the two numbers together.', de: 'Er hat MEHR bekommen – zähle die beiden Zahlen zusammen.', fr: 'Il en a eu PLUS — additionne les deux nombres.' },
+      hintSub: { en: 'Some are gone — take the second number away.', de: 'Einige sind weg – ziehe die zweite Zahl ab.', fr: 'Il en manque — enlève le second nombre.' },
+      win: { en: 'Yes! That adds up. 🥜', de: 'Stimmt genau! 🥜', fr: 'Oui ! Le compte est bon. 🥜' }
     },
     defaults: {},
 

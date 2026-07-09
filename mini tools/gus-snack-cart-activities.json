@@ -25,13 +25,23 @@
           { "id": "r6", "band": 3, "a": 27, "b": 36, "op": "+", "story": "Gus hatte 27 Äpfel. Er hat noch 36 eingepackt." },
           { "id": "r7", "band": 2, "a": 88, "b": 16, "op": "-", "story": "Gus hatte 88 Pflaumen. Er hat 16 verkauft." },
           { "id": "r8", "band": 3, "a": 19, "b": 47, "op": "+", "story": "Gus hatte 19 Kirschen. Er hat 47 dazugelegt." }
+        ],
+        "fr": [
+          { "id": "r1", "band": 1, "a": 45, "b": 8, "op": "-", "story": "Gus avait 45 noix. Il en a vendu 8." },
+          { "id": "r2", "band": 1, "a": 23, "b": 15, "op": "+", "story": "Gus avait 23 baies. Il en a cueilli 15 de plus." },
+          { "id": "r3", "band": 2, "a": 60, "b": 25, "op": "-", "story": "Gus avait 60 graines. Il en a vendu 25." },
+          { "id": "r4", "band": 2, "a": 34, "b": 9, "op": "+", "story": "Gus avait 34 glands. Il en a trouvé 9 de plus." },
+          { "id": "r5", "band": 1, "a": 70, "b": 40, "op": "-", "story": "Gus avait 70 carottes. Il en a donné 40." },
+          { "id": "r6", "band": 3, "a": 27, "b": 36, "op": "+", "story": "Gus avait 27 pommes. Il en a rangé 36 de plus." },
+          { "id": "r7", "band": 2, "a": 88, "b": 16, "op": "-", "story": "Gus avait 88 prunes. Il en a vendu 16." },
+          { "id": "r8", "band": 3, "a": 19, "b": 47, "op": "+", "story": "Gus avait 19 cerises. Il en a ajouté 47 de plus." }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "gus-snack-cart", "de": "plus-und-minus-bis-100-klasse-2" },
-    "page_title": { "en": "Gus's Snack Cart — Add & Subtract Within 100 (Grade 2)", "de": "Plus und Minus bis 100 – Gus' Snackwagen | Klasse 2" },
-    "page_intro": { "en": "Gus the gopher runs a busy snack cart — he is always restocking and selling! Read each little story, look at the number sentence, and add or subtract within 100 to find the answer. Type it on the keypad. A Grade 2 math game about adding and subtracting two-digit numbers fluently, aligned to Common Core 2.NBT.B.5.", "de": "Plus und minus bis 100: Hilf Gus an seinem Snackwagen! Addieren und subtrahieren im Zahlenraum bis 100 üben – kostenlos, interaktiv und ohne Anmeldung." },
+    "slug": { "en": "gus-snack-cart", "de": "plus-und-minus-bis-100-klasse-2", "fr": "additionner-et-soustraire-jusqu-a-100-ce1" },
+    "page_title": { "en": "Gus's Snack Cart — Add & Subtract Within 100 (Grade 2)", "de": "Plus und Minus bis 100 – Gus' Snackwagen | Klasse 2", "fr": "Additionner et soustraire jusqu'à 100 – Le stand de Gus | CE1" },
+    "page_intro": { "en": "Gus the gopher runs a busy snack cart — he is always restocking and selling! Read each little story, look at the number sentence, and add or subtract within 100 to find the answer. Type it on the keypad. A Grade 2 math game about adding and subtracting two-digit numbers fluently, aligned to Common Core 2.NBT.B.5.", "de": "Plus und minus bis 100: Hilf Gus an seinem Snackwagen! Addieren und subtrahieren im Zahlenraum bis 100 üben – kostenlos, interaktiv und ohne Anmeldung.", "fr": "Gus tient un petit stand de snacks très animé : il réapprovisionne et vend sans arrêt ! Lis chaque petite histoire, regarde l'opération, et additionne ou soustrais jusqu'à 100 pour trouver la réponse. Tape-la sur le clavier. Un jeu de CE1 pour additionner et soustraire les nombres à deux chiffres avec aisance. Gratuit et interactif." },
     "kid_prompt_template": "Add or subtract within 100 and type the answer."
   }
 ]

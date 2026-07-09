@@ -23,15 +23,18 @@
     },
     "slug": {
       "en": "halfway-harbors-rounding",
-      "de": "runden-auf-zehner-und-hunderter-am-zahlenstrahl-klasse-3"
+      "de": "runden-auf-zehner-und-hunderter-am-zahlenstrahl-klasse-3",
+      "fr": "arrondir-a-la-dizaine-et-a-la-centaine-sur-la-droite-graduee-ce2"
     },
     "page_title": {
       "en": "The Halfway Harbors — Rounding on a Number Line (Grade 3)",
-      "de": "Marinas Häfen: Runden auf Zehner und Hunderter – Klasse 3"
+      "de": "Marinas Häfen: Runden auf Zehner und Hunderter – Klasse 3",
+      "fr": "Les ports de Marina : arrondir à la dizaine et à la centaine sur la droite graduée – CE2"
     },
     "page_intro": {
       "en": "A free interactive Grade 3 math activity: help Marina the lighthouse-cat send each little boat to its nearest round-number harbor. See where the boat sits on the number line, find the halfway buoy in the middle, and tap the harbor it is closest to — rounding to the nearest 10 and the nearest 100. Common Core 3.NBT.A.1.",
-      "de": "Schick mit Leuchtturm-Katze Marina das Boot zum nächsten Hafen und übe das Runden auf Zehner und Hunderter am Zahlenstrahl – kostenlos und interaktiv, ohne Anmeldung."
+      "de": "Schick mit Leuchtturm-Katze Marina das Boot zum nächsten Hafen und übe das Runden auf Zehner und Hunderter am Zahlenstrahl – kostenlos und interaktiv, ohne Anmeldung.",
+      "fr": "Un jeu de maths CE2, gratuit et interactif : aide Marina, le chat du phare, à conduire chaque petit bateau vers son port (un nombre rond) le plus proche. L'enfant voit où se place le bateau sur la droite graduée, repère la bouée du milieu, puis touche le port le plus proche — il arrondit à la dizaine et à la centaine la plus proche. Sans minuteur, sans points, au rythme de l'enfant."
     },
     "kid_prompt_template": "rounding"
   }

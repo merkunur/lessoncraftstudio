@@ -50,6 +50,20 @@
       srNearest: 'Boot {target} auf einem Zahlenstrahl. Welcher runde Hafen ist am nächsten? Häfen: {harbors}.',
       srHalfway: 'Auf einem Zahlenstrahl von {a} bis {b}: Welche Zahl liegt genau in der Mitte? Zur Auswahl: {choices}.',
       harborAria: 'Hafen {n}'
+    },
+    fr: {
+      qnearest: 'De quel port le bateau est-il le plus proche ? Arrondis à la dizaine.',
+      qbig: 'De quel phare le bateau est-il le plus proche ? Arrondis à la centaine.',
+      qhalfway: 'Quel nombre est exactement au milieu ?',
+      win: 'À bon port ! {note}',
+      winNear: 'c’est le port le plus proche.',
+      winHalf: 'pile au milieu !',
+      nPast: 'Le bateau a dépassé la bouée du milieu — il est plus proche du grand port.',
+      nBefore: 'Le bateau est avant la bouée du milieu — il est plus proche du petit port.',
+      nHalf: 'La bouée est à la même distance des deux ports — choisis le nombre du milieu.',
+      srNearest: 'Bateau {target} sur une droite graduée. De quel nombre rond est-il le plus proche ? Ports : {harbors}.',
+      srHalfway: 'Sur une droite graduée de {a} à {b}, quel nombre est exactement au milieu ? Choix : {choices}.',
+      harborAria: 'port {n}'
     }
   };
   function txt(k, a) {
@@ -111,11 +125,11 @@
   var HalfwayHarborsActivity = {
     id: 'halfway-harbors-activity',
     strings: {
-      title: { en: 'The Halfway Harbors', de: 'Marinas Häfen' },
-      instruction: { en: 'Send each boat to the round-number harbor it is closest to!', de: 'Bring jedes Boot zum nächsten runden Hafen.' },
-      qnearest: { en: 'Which harbor is the boat closest to?', de: 'Zu welchem Hafen gehört das Boot? Runde auf den nächsten Zehner.' },
-      qbig: { en: 'Which lighthouse is the boat closest to?', de: 'Zu welchem Leuchtturm gehört das Boot? Runde auf den nächsten Hunderter.' },
-      qhalfway: { en: 'Which number is exactly halfway?', de: 'Welche Zahl liegt genau in der Mitte?' }
+      title: { en: 'The Halfway Harbors', de: 'Marinas Häfen', fr: 'Les ports de Marina' },
+      instruction: { en: 'Send each boat to the round-number harbor it is closest to!', de: 'Bring jedes Boot zum nächsten runden Hafen.', fr: 'Emmène chaque bateau vers le port rond le plus proche !' },
+      qnearest: { en: 'Which harbor is the boat closest to?', de: 'Zu welchem Hafen gehört das Boot? Runde auf den nächsten Zehner.', fr: 'De quel port le bateau est-il le plus proche ? Arrondis à la dizaine.' },
+      qbig: { en: 'Which lighthouse is the boat closest to?', de: 'Zu welchem Leuchtturm gehört das Boot? Runde auf den nächsten Hunderter.', fr: 'De quel phare le bateau est-il le plus proche ? Arrondis à la centaine.' },
+      qhalfway: { en: 'Which number is exactly halfway?', de: 'Welche Zahl liegt genau in der Mitte?', fr: 'Quel nombre est exactement au milieu ?' }
     },
 
     init: function (api) {

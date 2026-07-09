@@ -1655,6 +1655,28 @@
         "Comprendre les structures additives avec l'inconnue à toutes les places"
       ]
     },
+    "gauge-good-guess.estimate.2-md-a-3": {
+      "about": [
+        "Gauge la chèvre devine les tailles rien qu'en regardant ! À chaque tour, ton enfant lit une question — « Une fourmi mesure environ combien de long ? » — imagine la taille réelle de l'objet, puis touche l'estimation qui a du sens, en centimètres ou en mètres. Une fourmi mesure à peu près 1 cm, une cuillère 15 cm, un train près de 200 m : il faut trouver le bon ordre de grandeur ET choisir la bonne unité, sans jamais avoir à mesurer pour de vrai.",
+        "Estimer une longueur et choisir l'unité adaptée (le centimètre ou le mètre) est un attendu du CE1 (« estimer une longueur, choisir l'unité de mesure appropriée »). En s'appuyant sur des objets familiers, l'enfant se construit une représentation des grandeurs qui rend ses mesures et ses calculs plus sûrs. Le jeu est entièrement gratuit, fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Grandeurs et mesures »)."
+      ],
+      "practices": [
+        "Estimer la longueur ou la hauteur d'un objet familier",
+        "Choisir la bonne unité entre le centimètre et le mètre",
+        "Trouver le bon ordre de grandeur sans mesurer",
+        "Écarter les estimations qui n'ont pas de sens",
+        "Se construire une représentation des tailles réelles"
+      ],
+      "howToPlay": [
+        "Lis la question et imagine la taille réelle de l'objet.",
+        "Touche l'estimation qui a du sens, en cm ou en m, puis vérifie."
+      ],
+      "learningGoals": [
+        "Estimer des longueurs",
+        "Choisir l'unité adaptée (cm ou m)",
+        "Construire le sens des grandeurs"
+      ]
+    },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
         "Dans le tribunal des nombres de la juge Tess, une vieille tortue posée et bienveillante, on juge aujourd’hui des égalités. Un témoin s’avance et affirme quelque chose — par exemple « 5 + 3 = 8 », « 6 = 8 − 2 » ou encore « 3 + 2 = 2 + 3 ». Votre enfant est assis sur le siège du juge et doit rendre son verdict : cette égalité est-elle vraie ou fausse ?",

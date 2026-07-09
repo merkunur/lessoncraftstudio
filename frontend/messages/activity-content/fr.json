@@ -3626,6 +3626,27 @@
         "Distinguer le périmètre de l'aire",
         "Trouver un côté manquant d'après le périmètre"
       ]
+    },
+    "winter-piles.draw-partition.2-oa-c-4": {
+      "about": [
+        "Flo l'écureuil range ses glands en tas égaux pour l'hiver. Ton enfant trace une ligne pour couper le tableau en rangées de la même taille, lit combien de glands il y a dans chaque tas, puis entre chaque nombre. L'addition à termes égaux — comme 5 + 5 + 5 = 15 — apparaît quand tous les tas sont égaux.",
+        "Partager un tableau en groupes égaux, lire chaque groupe et l'écrire comme une somme de termes égaux sont des attendus du CE1 : c'est là que commence le sens de la multiplication. Voir les tas égaux scintiller ensemble aide l'enfant à comprendre pourquoi les groupes doivent être pareils. Le jeu est gratuit, sans minuteur et sans points : l'enfant avance à son rythme. Il suit le domaine « Nombres et calcul » des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Partager un tableau en groupes égaux",
+        "Lire combien il y a dans chaque groupe",
+        "Écrire une somme de termes égaux (comme 5 + 5 + 5)",
+        "Comprendre pourquoi les groupes doivent être de la même taille"
+      ],
+      "howToPlay": [
+        "Trace une ligne pour couper les rangées en tas égaux.",
+        "Lis chaque tas, entre son nombre, puis valide."
+      ],
+      "learningGoals": [
+        "Partager un tableau en groupes égaux",
+        "Écrire une addition à termes égaux",
+        "Découvrir le sens de la multiplication"
+      ]
     }
   }
 }

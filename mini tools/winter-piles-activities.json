@@ -18,9 +18,9 @@
       ]
     },
     "theme": null,
-    "slug": { "en": "fair-winter-piles", "de": "wiederholte-addition-punktefeld-klasse-2" },
-    "page_title": { "en": "Squirrel's Fair Winter Piles — Equal Groups & Arrays (Grade 2)", "de": "Wiederholte Addition: Eicheln-Punktefeld – Klasse 2" },
-    "page_intro": { "en": "A free interactive Grade 2 math game for arrays and equal groups: help the squirrel sort its acorns into FAIR winter piles. Draw a line to cut the rows into piles that are all the SAME size, read how many acorns are in each pile, and tap the number in — the equal-addends equation (like 5 + 5 + 5 = 15) appears and the piles sparkle. Unfair piles can't shine together. Partitioning a rectangular array into equal rows and writing it as a sum of equal addends is the heart of Common Core 2.OA.C.4.", "de": "Teile mit dem Eichhörnchen die Eicheln in gleich große Haufen und übe wiederholte Addition – Vorbereitung aufs Einmaleins. Gratis & interaktiv für Klasse 2." },
+    "slug": { "en": "fair-winter-piles", "de": "wiederholte-addition-punktefeld-klasse-2", "fr": "addition-reiteree-groupes-egaux-ce1" },
+    "page_title": { "en": "Squirrel's Fair Winter Piles — Equal Groups & Arrays (Grade 2)", "de": "Wiederholte Addition: Eicheln-Punktefeld – Klasse 2", "fr": "Les tas égaux de Flo : l'addition réitérée et les groupes égaux (CE1)" },
+    "page_intro": { "en": "A free interactive Grade 2 math game for arrays and equal groups: help the squirrel sort its acorns into FAIR winter piles. Draw a line to cut the rows into piles that are all the SAME size, read how many acorns are in each pile, and tap the number in — the equal-addends equation (like 5 + 5 + 5 = 15) appears and the piles sparkle. Unfair piles can't shine together. Partitioning a rectangular array into equal rows and writing it as a sum of equal addends is the heart of Common Core 2.OA.C.4.", "de": "Teile mit dem Eichhörnchen die Eicheln in gleich große Haufen und übe wiederholte Addition – Vorbereitung aufs Einmaleins. Gratis & interaktiv für Klasse 2.", "fr": "Un jeu de maths CE1, gratuit et interactif : aide Flo l'écureuil à ranger ses glands en tas ÉGAUX pour l'hiver. Trace une ligne pour couper les rangées en tas qui ont tous la même taille, lis combien de glands il y a dans chaque tas, et entre le nombre — l'addition à termes égaux (comme 5 + 5 + 5 = 15) apparaît et les tas scintillent. Partager un tableau en rangées égales et l'écrire comme une somme de termes égaux, c'est là que commence la multiplication." },
     "kid_prompt_template": "draw-partition"
   }
 ]

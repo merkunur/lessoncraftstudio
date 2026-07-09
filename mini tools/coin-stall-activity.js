@@ -21,7 +21,7 @@
   function speak(text, rate) {
     try {
       if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de') ? 'de-DE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de') ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
@@ -29,6 +29,7 @@
   function fmt(c) {
     if (c == null) return '';
     if (LANG === 'de') { if (c < 100) return c + ' Cent'; var e = Math.floor(c / 100), ct = c % 100; return ct === 0 ? (e + ' Euro') : (e + ' Euro ' + ct + ' Cent'); }
+    if (LANG === 'fr') { if (c < 100) return c + (c === 1 ? ' centime' : ' centimes'); var ef = Math.floor(c / 100), ctf = c % 100; var eur = ef + (ef === 1 ? ' euro' : ' euros'); return ctf === 0 ? eur : (eur + ' ' + ctf + (ctf === 1 ? ' centime' : ' centimes')); }
     if (c % 100 === 0) return '$' + (c / 100); if (c < 100) return c + '¢'; return '$' + (c / 100).toFixed(2);
   }
 
@@ -36,19 +37,19 @@
     id: 'coin-stall-activity',
 
     strings: {
-      title: { en: "Pip's Market Stall", de: "Otto der Otter" },
-      instruction: { en: '', de: '' },
-      prompt: { en: 'Pay Pip.', de: "Bezahle Otto." },
-      pay: { en: 'Pay Pip 🐚', de: "Bezahlen 🪙" },
-      sayWelcome: { en: 'Welcome to the stall! What can I get you?', de: "Willkommen an meinem Marktstand! Was möchtest du bezahlen?" },
-      sayWin: { en: 'Exact change — thank you! 🐚', de: "Genau passend – danke dir!" },
-      sayUnder: { en: 'Not quite enough yet.', de: "Das reicht noch nicht ganz – leg noch etwas dazu." },
-      sayOver: { en: 'Take one back!', de: "Das ist ein bisschen zu viel – nimm eine Münze zurück!" },
-      sayFewer: { en: 'That works — but use FEWER coins?', de: "Schaffst du es auch mit weniger Münzen?" },
-      sayAgain: { en: "Hmm — let's try again.", de: "Kein Problem – probier es ruhig noch einmal!" },
-      tapToRemove: { en: 'tap a coin in the tray to take it back', de: "Tippe auf eine Münze, um sie zurückzunehmen." },
-      trayPh: { en: '🪙 tap coins below to pay', de: "🪙 Lege hier deine Münzen ab" },
-      hintCheck: { en: 'Pick coins by what they are WORTH, then pay.', de: "Wähle Münzen nach ihrem Wert und bezahle dann." }
+      title: { en: "Pip's Market Stall", de: "Otto der Otter", fr: 'L’étal de Filou' },
+      instruction: { en: '', de: '', fr: '' },
+      prompt: { en: 'Pay Pip.', de: "Bezahle Otto.", fr: 'Paie Filou.' },
+      pay: { en: 'Pay Pip 🐚', de: "Bezahlen 🪙", fr: 'Payer 🪙' },
+      sayWelcome: { en: 'Welcome to the stall! What can I get you?', de: "Willkommen an meinem Marktstand! Was möchtest du bezahlen?", fr: 'Bienvenue à mon étal ! Qu’est-ce que je te sers ?' },
+      sayWin: { en: 'Exact change — thank you! 🐚', de: "Genau passend – danke dir!", fr: 'Le compte est juste — merci ! 🐚' },
+      sayUnder: { en: 'Not quite enough yet.', de: "Das reicht noch nicht ganz – leg noch etwas dazu.", fr: 'Ce n’est pas encore assez.' },
+      sayOver: { en: 'Take one back!', de: "Das ist ein bisschen zu viel – nimm eine Münze zurück!", fr: 'Reprends-en une !' },
+      sayFewer: { en: 'That works — but use FEWER coins?', de: "Schaffst du es auch mit weniger Münzen?", fr: 'Ça marche — mais avec MOINS de pièces ?' },
+      sayAgain: { en: "Hmm — let's try again.", de: "Kein Problem – probier es ruhig noch einmal!", fr: 'Hmm — essaie encore.' },
+      tapToRemove: { en: 'tap a coin in the tray to take it back', de: "Tippe auf eine Münze, um sie zurückzunehmen.", fr: 'touche une pièce dans le plateau pour la reprendre' },
+      trayPh: { en: '🪙 tap coins below to pay', de: "🪙 Lege hier deine Münzen ab", fr: '🪙 touche les pièces en dessous pour payer' },
+      hintCheck: { en: 'Pick coins by what they are WORTH, then pay.', de: "Wähle Münzen nach ihrem Wert und bezahle dann.", fr: 'Choisis les pièces selon leur VALEUR, puis paie.' }
     },
     defaults: {},
 
@@ -83,7 +84,7 @@
       var btn = api.el('button', 'cs-coin' + (opts.cls || ''));
       btn.type = 'button'; btn.setAttribute('data-den', den);
       var val = Core.valueOf(this.round.coinSet, den);   /* the REAL value — for a11y ONLY, never on the face */
-      btn.setAttribute('aria-label', LANG === 'de' ? (den + ', ' + fmt(val)) : (den + ', ' + val + (val === 1 ? ' cent' : ' cents')));
+      btn.setAttribute('aria-label', LANG === 'de' ? (den + ', ' + fmt(val)) : LANG === 'fr' ? (den + ', ' + fmt(val)) : (den + ', ' + val + (val === 1 ? ' cent' : ' cents')));
       var disc = api.el('span', 'cs-disc');
       disc.style.width = px + 'px'; disc.style.height = px + 'px';
       disc.style.background = 'radial-gradient(circle at 38% 32%, #fff5, ' + info.tint + ')';
@@ -96,11 +97,15 @@
       return btn;
     },
     _goalChip: function () {
-      var r = this.round, de = (LANG === 'de');
-      if (r.cog === 'make-amount' || r.cog === 'fewest') return (de ? 'Bezahle ' : 'Pay ') + fmt(r.target);
-      if (r.cog === 'change') return (de ? 'Wechselgeld aus ' : 'Change from ') + fmt(r.paid);
-      if (r.cog === 'two-ways') return (de ? 'Mache ' : 'Make ') + fmt(r.target);
-      if (r.cog === 'trade') return de ? ('Tausche für ' + fmt(Core.valueOf(this.round.coinSet, r.offer.den) * (r.offer.count || 1))) : ('Trade for 1 ' + r.offer.den);
+      var r = this.round, de = (LANG === 'de'), fr = (LANG === 'fr');
+      if (r.cog === 'make-amount' || r.cog === 'fewest') return (de ? 'Bezahle ' : fr ? 'Paie ' : 'Pay ') + fmt(r.target);
+      if (r.cog === 'change') return (de ? 'Wechselgeld aus ' : fr ? 'Monnaie sur ' : 'Change from ') + fmt(r.paid);
+      if (r.cog === 'two-ways') return (de ? 'Mache ' : fr ? 'Fais ' : 'Make ') + fmt(r.target);
+      if (r.cog === 'trade') {
+        if (de) return 'Tausche für ' + fmt(Core.valueOf(this.round.coinSet, r.offer.den) * (r.offer.count || 1));
+        if (fr) return 'Échange contre ' + fmt(Core.valueOf(this.round.coinSet, r.offer.den) * (r.offer.count || 1));
+        return 'Trade for 1 ' + r.offer.den;
+      }
       return '';
     },
 
@@ -199,7 +204,7 @@
           opts.appendChild(b);
         });
       } else {   /* enough */
-        var eo = (LANG === 'de') ? [['short', 'Zu wenig'], ['enough', 'Genau genug'], ['over', 'Zu viel']] : [['short', 'Not enough'], ['enough', 'Just enough'], ['over', 'Too much']];
+        var eo = (LANG === 'de') ? [['short', 'Zu wenig'], ['enough', 'Genau genug'], ['over', 'Zu viel']] : LANG === 'fr' ? [['short', 'Pas assez'], ['enough', 'Juste assez'], ['over', 'Trop']] : [['short', 'Not enough'], ['enough', 'Just enough'], ['over', 'Too much']];
         eo.forEach(function (o) {
           var b = api.el('button', 'cs-opt cs-optword'); b.type = 'button'; b.textContent = o[1];
           b.addEventListener('click', function () { self._choose(o[0]); });

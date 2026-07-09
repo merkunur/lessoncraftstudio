@@ -31,6 +31,14 @@
       winBack: 'Genau! {start} − {n} Min = {end}.',
       hint: 'Beginne bei der Uhr und zähle dann die Minuten weiter.',
       hintBack: 'Beginne bei der Uhr und zähle dann die Minuten zurück.'
+    },
+    fr: {
+      q: 'Quelle heure sera-t-il dans {n} minutes ?',
+      qBack: 'Quelle heure était-il il y a {n} minutes ?',
+      win: 'Oui ! {start} + {n} min = {end}.',
+      winBack: 'Oui ! {start} − {n} min = {end}.',
+      hint: 'Commence à l’horloge, puis compte les minutes.',
+      hintBack: 'Commence à l’horloge, puis compte les minutes en arrière.'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -47,6 +55,13 @@
       if (mm === 45) return 'Viertel vor ' + wrapH(hh + 1);
       return Core.digitalStr(t);
     }
+    if (LANG === 'fr') {
+      if (mm === 0) return hh + (hh === 1 ? ' heure' : ' heures');
+      if (mm === 30) return hh + (hh === 1 ? ' heure et demie' : ' heures et demie');
+      if (mm === 15) return hh + (hh === 1 ? ' heure et quart' : ' heures et quart');
+      if (mm === 45) { var nh = (hh === 12 ? 1 : hh + 1); return nh + (nh === 1 ? ' heure moins le quart' : ' heures moins le quart'); }
+      return Core.digitalStr(t);
+    }
     if (mm === 0) return hh + " o'clock";
     if (mm === 30) return 'half past ' + hh;
     if (mm === 15) return 'quarter past ' + hh;
@@ -55,7 +70,7 @@
   }
 
   function clockSVG(h, m) {
-    var svg = elNS('svg', { viewBox: '0 0 100 100', class: 'ce-clock', role: 'img', 'aria-label': (LANG === 'de' ? 'Zifferblatt' : 'clock face') });
+    var svg = elNS('svg', { viewBox: '0 0 100 100', class: 'ce-clock', role: 'img', 'aria-label': (LANG === 'de' ? 'Zifferblatt' : LANG === 'fr' ? 'cadran de l’horloge' : 'clock face') });
     svg.appendChild(elNS('circle', { cx: 50, cy: 50, r: 46, fill: C.FACE, stroke: C.RIM, 'stroke-width': 3.5 }));
     for (var n = 1; n <= 12; n++) {
       var a = n * 30 * Math.PI / 180;
@@ -91,8 +106,8 @@
   var ClockElapsedActivity = {
     id: 'clock-elapsed-activity',
     strings: {
-      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr — Zeitspannen' },
-      instruction: { en: 'Read the start time, then count on the minutes.', de: 'Lies die Startzeit ab und zähle dann die Minuten weiter.' },
+      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr — Zeitspannen', fr: 'L’horloge de Sprocket' },
+      instruction: { en: 'Read the start time, then count on the minutes.', de: 'Lies die Startzeit ab und zähle dann die Minuten weiter.', fr: 'Lis l’heure de départ, puis compte les minutes.' },
       q: { en: '{q}' }
     },
 
@@ -243,6 +258,8 @@
       var qText = round.deltaMin < 0 ? txt('qBack', { n: n }) : txt('q', { n: n });
       wrap.innerHTML = (LANG === 'de')
         ? '<p>Die Uhr zeigt ' + spoken(round.start) + '. ' + qText + ' Zur Auswahl stehen: ' + cs + '.</p>'
+        : (LANG === 'fr')
+        ? '<p>L’horloge indique ' + spoken(round.start) + '. ' + qText + ' Les choix sont : ' + cs + '.</p>'
         : '<p>The clock shows ' + spoken(round.start) + '. ' + qText + ' The choices are: ' + cs + '.</p>';
       return wrap;
     },

@@ -40,6 +40,15 @@
       nPack: 'Zähl, wie viele Schachteln voll sind.',
       srShare: '{d} Kekse werden gleichmäßig auf {n} Teller verteilt. Wie viele Kekse liegen auf jedem Teller? Auswahl: {choices}.',
       srPack: '{d} Kekse werden in Schachteln zu je {n} gepackt. Wie viele Schachteln sind es? Auswahl: {choices}.'
+    },
+    fr: {
+      win: 'Oui — {note}',
+      winShare: '{a} biscuits sur chaque assiette !',
+      winPack: '{a} boîtes pleines !',
+      nShare: 'Compte les biscuits sur UNE seule assiette.',
+      nPack: 'Compte combien de boîtes sont pleines.',
+      srShare: '{d} biscuits sont partagés équitablement sur {n} assiettes. Combien de biscuits y a-t-il sur chaque assiette ? Choix : {choices}.',
+      srPack: '{d} biscuits sont rangés dans des boîtes qui contiennent chacune {n}. Combien de boîtes y a-t-il ? Choix : {choices}.'
     }
   };
   function txt(k, a) {
@@ -107,10 +116,10 @@
   var MapleBakeryActivity = {
     id: 'maple-bakery-activity',
     strings: {
-      title: { en: "Maple's Bakery", de: 'Maples Bäckerei' },
-      instruction: { en: 'Help Maple the mouse divide the cookies fairly!', de: 'Hilf Maple der Maus, die Kekse gerecht zu verteilen!' },
-      qshare: { en: 'Share {d} cookies onto {n} plates. How many on each plate?', de: 'Verteile {d} Kekse auf {n} Teller. Wie viele liegen auf jedem Teller?' },
-      qpack: { en: 'Pack {d} cookies into boxes of {n}. How many boxes?', de: 'Pack {d} Kekse in Schachteln zu je {n}. Wie viele Schachteln brauchst du?' }
+      title: { en: "Maple's Bakery", de: 'Maples Bäckerei', fr: 'La boulangerie de Maple' },
+      instruction: { en: 'Help Maple the mouse divide the cookies fairly!', de: 'Hilf Maple der Maus, die Kekse gerecht zu verteilen!', fr: 'Aide Maple la souris à partager les biscuits équitablement !' },
+      qshare: { en: 'Share {d} cookies onto {n} plates. How many on each plate?', de: 'Verteile {d} Kekse auf {n} Teller. Wie viele liegen auf jedem Teller?', fr: 'Partage {d} biscuits sur {n} assiettes. Combien sur chaque assiette ?' },
+      qpack: { en: 'Pack {d} cookies into boxes of {n}. How many boxes?', de: 'Pack {d} Kekse in Schachteln zu je {n}. Wie viele Schachteln brauchst du?', fr: 'Range {d} biscuits dans des boîtes de {n}. Combien de boîtes ?' }
     },
 
     init: function (api) {

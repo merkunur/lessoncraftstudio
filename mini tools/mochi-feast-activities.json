@@ -19,15 +19,18 @@
     "theme": null,
     "slug": {
       "en": "feed-mochi-counting",
-      "de": "genau-so-viele-abzaehlen-menge-herstellen-klasse-1"
+      "de": "genau-so-viele-abzaehlen-menge-herstellen-klasse-1",
+      "fr": "compter-nourrir-mochi-le-bon-nombre-gs"
     },
     "page_title": {
       "en": "Feed Mochi — Count Out Treats (Kindergarten Counting Game)",
-      "de": "Menge herstellen: genau so viele abzählen – Klasse 1"
+      "de": "Menge herstellen: genau so viele abzählen – Klasse 1",
+      "fr": "Compter avec Mochi : donner le bon nombre de gourmandises - GS"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten counting activity: feed Mochi the dumpling exactly the number of treats asked. Tap the dish to drop berries, cookies, acorns and more into the bowl one at a time, then check. The bowl filling IS the count — no numerals — so children build cardinality and learn to count out a given number of objects. Common Core K.CC.B.5.",
-      "de": "Genau so viele abzählen bis 10: Füttere Mochi die richtige Anzahl Häppchen. Kostenlose, interaktive Zählübung für Klasse 1 – jetzt spielen!"
+      "de": "Genau so viele abzählen bis 10: Füttere Mochi die richtige Anzahl Häppchen. Kostenlose, interaktive Zählübung für Klasse 1 – jetzt spielen!",
+      "fr": "Aide Mochi en lui donnant le bon nombre de gourmandises : l'enfant compte en remplissant le bol, un à un. Une activité gratuite et interactive de GS, à découvrir tout de suite !"
     },
     "kid_prompt_template": "count-out"
   }

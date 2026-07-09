@@ -1501,6 +1501,28 @@
         "Préparer l'écriture chiffrée"
       ]
     },
+    "nesting-pots.seriate.k-cc-c-7": {
+      "about": [
+        "Papi Pip range ses pots gigognes, du plus grand nombre au plus petit ! Chaque pot porte un nombre peint, et les pots sont de toutes les tailles : le secret, c'est de lire le nombre, pas de deviner d'après la taille du pot. Ton enfant range d'abord le plus grand nombre à l'extérieur, puis les nombres de plus en plus petits, jusqu'au bébé Wee Olen tout au milieu. D'autres défis viennent enrichir le jeu : retrouver le pot qui manque (il est plus grand que celui-ci et plus petit que celui-là), les jumeaux (deux nombres égaux se posent côte à côte, aucun ne rentre dans l'autre), et même des nombres à deux chiffres.",
+        "Comparer, ranger et encadrer des nombres écrits est une compétence du CP : « comparer, ranger, encadrer les nombres » fait partie du travail sur les nombres jusqu'à 100. En lisant le nombre plutôt que la taille du pot, l'enfant développe un vrai sens du nombre et comprend que la valeur d'un nombre ne dépend pas de la place qu'il occupe. Le jeu est entièrement gratuit, fonctionne directement dans le navigateur, sans minuteur, sans score et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Nombres et calcul »)."
+      ],
+      "practices": [
+        "Comparer des nombres écrits : plus grand, plus petit",
+        "Ranger une suite de nombres du plus grand au plus petit",
+        "Encadrer un nombre : plus grand que l'un, plus petit que l'autre",
+        "Lire le nombre plutôt que se fier à la taille",
+        "Reconnaître deux nombres égaux"
+      ],
+      "howToPlay": [
+        "Touche un pot, puis touche le pot qui brille pour le ranger — commence par le plus grand nombre.",
+        "Continue avec les nombres de plus en plus petits, jusqu'au bébé Wee Olen au milieu."
+      ],
+      "learningGoals": [
+        "Comparer et ranger des nombres écrits",
+        "Encadrer un nombre",
+        "Développer le sens du nombre"
+      ]
+    },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
         "Dans le tribunal des nombres de la juge Tess, une vieille tortue posée et bienveillante, on juge aujourd’hui des égalités. Un témoin s’avance et affirme quelque chose — par exemple « 5 + 3 = 8 », « 6 = 8 − 2 » ou encore « 3 + 2 = 2 + 3 ». Votre enfant est assis sur le siège du juge et doit rendre son verdict : cette égalité est-elle vraie ou fausse ?",

@@ -22,7 +22,7 @@
   function speak(text, rate) {
     try {
       if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
@@ -32,20 +32,20 @@
     id: 'tildy-activity',
 
     strings: {
-      title: { en: "Tildy's Tailor Shop", de: 'Tildys Schneiderei' },
-      instruction: { en: '', de: '' },
-      prompt: { en: 'Measure the strip.', de: 'Miss den Streifen.' },
-      measureIt: { en: 'Measure it ✂️', de: 'Messen ✂️' },
-      sayWelcome: { en: 'Slide the ruler so 0 is right at the start of the strip!', de: 'Schieb das Lineal so, dass die 0 genau am Anfang des Streifens liegt!' },
-      sayWin: { en: 'Measured and wrapped! 🎀', de: 'Gemessen und eingepackt! 🎀' },
-      sayOffShort: { en: 'The 0 wasn’t at the start — see, it reads one short. Slide it to the start!', de: 'Die 0 war nicht am Anfang — schau, jetzt misst du einen cm zu wenig. Schieb sie an den Anfang!' },
-      sayNotAligned: { en: 'The 0 isn’t at the start yet — line it up, then measure.', de: 'Die 0 ist noch nicht am Anfang — leg sie genau an, dann miss.' },
-      sayRead: { en: 'Great — now read the number at the far end!', de: 'Super — jetzt lies die Zahl am anderen Ende ab!' },
-      sayMisread: { en: 'Look again at the far end — which number?', de: 'Schau noch mal ans andere Ende — welche Zahl?' },
-      sayAgain: { en: 'Hmm — let’s look again.', de: 'Hmm — schauen wir noch mal.' },
-      howMany: { en: 'How many cm?', de: 'Wie viele cm?' },
-      diagZero: { en: 'Started at 1', de: 'Bei 1 angefangen' }, diagShort: { en: 'Too short', de: 'Zu kurz' }, diagEnd: { en: 'Wrong end', de: 'Falsches Ende' },
-      hintCheck: { en: 'Line up 0 with the start, then read the far end.', de: 'Leg die 0 an den Anfang, dann lies das andere Ende ab.' }
+      title: { en: "Tildy's Tailor Shop", de: 'Tildys Schneiderei', fr: 'L’atelier de Tildy' },
+      instruction: { en: '', de: '', fr: '' },
+      prompt: { en: 'Measure the strip.', de: 'Miss den Streifen.', fr: 'Mesure la bande.' },
+      measureIt: { en: 'Measure it ✂️', de: 'Messen ✂️', fr: 'Mesurer ✂️' },
+      sayWelcome: { en: 'Slide the ruler so 0 is right at the start of the strip!', de: 'Schieb das Lineal so, dass die 0 genau am Anfang des Streifens liegt!', fr: 'Fais glisser la règle pour que le 0 soit juste au début de la bande !' },
+      sayWin: { en: 'Measured and wrapped! 🎀', de: 'Gemessen und eingepackt! 🎀', fr: 'Mesuré et emballé ! 🎀' },
+      sayOffShort: { en: 'The 0 wasn’t at the start — see, it reads one short. Slide it to the start!', de: 'Die 0 war nicht am Anfang — schau, jetzt misst du einen cm zu wenig. Schieb sie an den Anfang!', fr: 'Le 0 n’était pas au début — tu vois, ça mesure un cm de trop peu. Fais-le glisser jusqu’au début !' },
+      sayNotAligned: { en: 'The 0 isn’t at the start yet — line it up, then measure.', de: 'Die 0 ist noch nicht am Anfang — leg sie genau an, dann miss.', fr: 'Le 0 n’est pas encore au début — aligne-le, puis mesure.' },
+      sayRead: { en: 'Great — now read the number at the far end!', de: 'Super — jetzt lies die Zahl am anderen Ende ab!', fr: 'Super — maintenant lis le nombre à l’autre bout !' },
+      sayMisread: { en: 'Look again at the far end — which number?', de: 'Schau noch mal ans andere Ende — welche Zahl?', fr: 'Regarde encore l’autre bout — quel nombre ?' },
+      sayAgain: { en: 'Hmm — let’s look again.', de: 'Hmm — schauen wir noch mal.', fr: 'Hmm — regardons encore.' },
+      howMany: { en: 'How many cm?', de: 'Wie viele cm?', fr: 'Combien de cm ?' },
+      diagZero: { en: 'Started at 1', de: 'Bei 1 angefangen', fr: 'Commencé à 1' }, diagShort: { en: 'Too short', de: 'Zu kurz', fr: 'Trop courte' }, diagEnd: { en: 'Wrong end', de: 'Falsches Ende', fr: 'Mauvais bout' },
+      hintCheck: { en: 'Line up 0 with the start, then read the far end.', de: 'Leg die 0 an den Anfang, dann lies das andere Ende ab.', fr: 'Aligne le 0 sur le début, puis lis l’autre bout.' }
     },
     defaults: {},
 
@@ -112,7 +112,7 @@
     _stageSvg: function (opts) {
       opts = opts || {}; var self = this, r = this.round, s = this.snap;
       var VW = cmX(TABLE) + MARGIN, VH = 56;
-      var sv = svg('svg', { viewBox: '0 0 ' + VW + ' ' + VH, class: 'td-svg', 'aria-label': (LANG === 'de' ? 'ein Lineal und ein Streifen zum Messen' : 'a ruler and a strip to measure') });
+      var sv = svg('svg', { viewBox: '0 0 ' + VW + ' ' + VH, class: 'td-svg', 'aria-label': (LANG === 'de' ? 'ein Lineal und ein Streifen zum Messen' : LANG === 'fr' ? 'une règle et une bande à mesurer' : 'a ruler and a strip to measure') });
       sv.style.aspectRatio = (VW / VH).toFixed(2);
       /* the table edge */
       sv.appendChild(svg('line', { x1: MARGIN, y1: 50, x2: cmX(TABLE), y2: 50, stroke: 'rgba(160,120,60,.4)', 'stroke-width': 0.6 }));
@@ -211,14 +211,14 @@
       /* the strip + the tool choices (by length) */
       var stage = api.el('div', 'td-stage');
       this.rulerZero = -99;   /* no ruler placed yet */
-      var sv = svg('svg', { viewBox: '0 0 ' + (cmX(TABLE) + MARGIN) + ' 26', class: 'td-svg td-svgstrip', 'aria-label': (LANG === 'de' ? 'ein Streifen zum Messen' : 'a strip to measure') });
+      var sv = svg('svg', { viewBox: '0 0 ' + (cmX(TABLE) + MARGIN) + ' 26', class: 'td-svg td-svgstrip', 'aria-label': (LANG === 'de' ? 'ein Streifen zum Messen' : LANG === 'fr' ? 'une bande à mesurer' : 'a strip to measure') });
       sv.style.aspectRatio = ((cmX(TABLE) + MARGIN) / 26).toFixed(2);
       sv.appendChild(svg('line', { x1: MARGIN, y1: 20, x2: cmX(TABLE), y2: 20, stroke: 'rgba(160,120,60,.4)', 'stroke-width': 0.6 }));
       sv.appendChild(svg('rect', { x: cmX(r.stripStart), y: 8, width: cmX(r.stripEnd) - cmX(r.stripStart), height: 8, rx: 2, fill: C.STRIP, opacity: '0.9' }));
       stage.appendChild(sv); root.appendChild(stage);
       var opts = api.el('div', 'td-options');
       (this._opts || []).forEach(function (L) {
-        var b = api.el('button', 'td-opt td-optword'); b.type = 'button'; b.textContent = (LANG === 'de' ? ('Lineal ' + L + ' cm') : (L + '-cm ruler'));
+        var b = api.el('button', 'td-opt td-optword'); b.type = 'button'; b.textContent = (LANG === 'de' ? ('Lineal ' + L + ' cm') : LANG === 'fr' ? ('règle de ' + L + ' cm') : (L + '-cm ruler'));
         b.addEventListener('click', function () { self._chooseTool(L); });
         opts.appendChild(b);
       });
@@ -277,7 +277,7 @@
       this.solved = true; this.served = Math.min(this.served + 1, (this._pool && this._pool.length) || 9);
       this.msg = api.t('sayWin');
       api.sound && api.sound(880);
-      setTimeout(function () { speak(LANG === 'de' ? 'Gemessen!' : 'Measured!'); }, 160);
+      setTimeout(function () { speak(LANG === 'de' ? 'Gemessen!' : LANG === 'fr' ? 'Mesuré !' : 'Measured!'); }, 160);
       this.render(); api.announce && api.announce(this.msg);
     },
 

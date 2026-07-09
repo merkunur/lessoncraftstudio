@@ -77,7 +77,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'wordclass.adjective-adverb.l-2-1-e': { fr: '3' },                     // FR CE2: l'adverbe comme classe nommée + le CHOIX fonctionnel adjectif/adverbe = attendu de fin de cycle 2 (l'adjectif seul = CE1); the CCSS-Grade-2→CE1 auto-map under-levels it. en Grade 2 unchanged
   'sunny-side-diner.compound-order.l-k-1-f': { fr: '1' },                // FR CP: produire une phrase complète + coordonner deux groupes avec « et » = charnière oral→écrit CP (au-dessus de la production orale GS, en deçà de l'analyse CE1); native 'K'→« Grande section » too low; en Kindergarten unchanged
   'echo-grove.match-the-rune.3-oa-a-1': { de: '2' },                      // Multiplikation als gleiche Gruppen / kleines Einmaleins = DE Klasse 2 (US Grade 3 a year higher)
-  'maple-bakery.share.3-oa-a-2': { de: '2' },                             // Division (Verteilen/Aufteilen, ohne Rest) introduced alongside Einmaleins = DE Klasse 2
+  'maple-bakery.share.3-oa-a-2': { de: '2', fr: '2' },                    // Division (Verteilen/Aufteilen, ohne Rest) introduced alongside Einmaleins = DE Klasse 2. FR CE1 (operator-ruled): division-SENS (partage/groupement, petits nombres, sans reste, imagé) = l'approche de la division au CE1 (CE2 formalise le quotient/reste); native '3'→CE2 too high; de Klasse-2 re-grade ≈ fr CE1; « Nombres et calcul » auto-map → NO STRAND override
   'comet-kangaroo.tens-hundreds.2-nbt-b-8': { de: '3' },                  // 10/100 mehr-weniger im ZR bis 1000 = DE Klasse 3 (Tausenderraum; Klasse 2 = bis 100)
   'track-repair.count-to-120.1-nbt-a-1': { de: '2', fr: '1' },            // Orientierung am Zahlenstrahl bis 100 + skip-counting = DE Klasse 2 (ZR bis 20 = Klasse 1); US Grade 1 offset. FR CP (operator-ruled): la ligne numérique + compter en avant/arrière + de 5 en 5 / de 10 en 10 + placer les nombres jusqu'à ~100 = attendus du CP; la France fait 100 au CP (là où l'Allemagne a besoin de Klasse 2 — posy #71 precedent); le franchissement de la centaine (~103) = extension de fin de CP, pas le CE1 (jusqu'à 1000); CP → l'auto-map « Nombres et calcul » est correct → NO fr STRAND override
   'bos-berry-pantry.slingshot-tens.1-nbt-b-2': { de: '2' },               // read/match two-digit Stellenwert (values to 85, multiple tens, ZR bis 100) → DE Klasse 2 (Klasse 1 = ZR bis 20); bundle-bot precedent
@@ -470,7 +470,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.201';
+  const ACTIVITY_WRAPPER_VERSION = '9.202';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

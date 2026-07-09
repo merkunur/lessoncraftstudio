@@ -1787,6 +1787,28 @@
         "Construire le sens des dizaines et des unités"
       ]
     },
+    "maple-bakery.share.3-oa-a-2": {
+      "about": [
+        "Dans la boulangerie de Maple la souris, ton enfant partage les biscuits ! À chaque tour, il y a deux façons de faire. Parfois, il faut partager les biscuits également sur plusieurs assiettes et trouver combien il y en a sur chaque assiette. Parfois, il faut ranger les biscuits dans des boîtes qui contiennent toutes le même nombre, et trouver combien de boîtes il faut. L'enfant VOIT la division prendre forme — les biscuits se rangent en groupes égaux — puis choisit le bon nombre parmi plusieurs propositions.",
+        "Découvrir la division par le sens du partage et du groupement, avec de petits nombres et sans reste, est un attendu du CE1. Bien avant de poser une division, l'enfant comprend ce qu'elle veut dire : partager en parts égales ou faire des groupes égaux. Cette compréhension imagée prépare tout le calcul à venir. Le jeu est entièrement gratuit, fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Nombres et calcul »)."
+      ],
+      "practices": [
+        "Partager des biscuits en parts égales sur des assiettes",
+        "Trouver combien de biscuits il y a sur chaque assiette",
+        "Ranger des biscuits en groupes égaux dans des boîtes",
+        "Trouver combien de boîtes sont nécessaires",
+        "Comprendre le sens de la division (partage et groupement)"
+      ],
+      "howToPlay": [
+        "Lis la question : faut-il partager sur les assiettes, ou ranger dans des boîtes ?",
+        "Regarde les biscuits se ranger en groupes égaux, puis choisis le bon nombre."
+      ],
+      "learningGoals": [
+        "Comprendre le sens de la division",
+        "Partager et grouper en parts égales",
+        "Préparer le calcul de la division"
+      ]
+    },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
         "Dans le tribunal des nombres de la juge Tess, une vieille tortue posée et bienveillante, on juge aujourd’hui des égalités. Un témoin s’avance et affirme quelque chose — par exemple « 5 + 3 = 8 », « 6 = 8 − 2 » ou encore « 3 + 2 = 2 + 3 ». Votre enfant est assis sur le siège du juge et doit rendre son verdict : cette égalité est-elle vraie ou fausse ?",

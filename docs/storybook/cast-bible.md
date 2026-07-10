@@ -209,6 +209,21 @@ and the rules for using + adding them. Structured to scale to ~100 characters.
 - **notes:** Gigi's lookout hill and its flag tower are her home; Pip beside her is the
   built-in "short" half of the lesson — keep the warm height gag if she recurs.
 
+### Bramble — the jam-making bear cub
+- **id:** `bramble`
+- **role:** companion
+- **species/look:** a small round bear cub — `sandDeep` honey-brown body, `creamDeep` muzzle
+  and belly patch, tiny round ears, a `coral` neckerchief dotted with jam (wsv-1 palette).
+- **voice:** warm and unhurried, a little clumsy, proud of his jam ("Mmm — smell that!").
+- **speech tics:** a happy tummy-pat "mmm-mm!" when a jar fills up.
+- **best arcs:** Collect-and-sort (his debut shape), Fix-a-mess.
+- **debut:** `the-green-berry` (true storybook #5 — his jam-day basket tumbles; every fruit
+  sorted home by color, and the green strawberry teaches patience)
+- **poses:** `neutral`, `happy` (+ idle bob). No clips.
+- **notes:** Bramble's berry-garden clearing and his jam table with the three color jars
+  (red, blue, yellow) are his home; keep the tumble-prone gentleness and the jam pride
+  if he recurs.
+
 > **Adding characters:** most future stories reuse **Pip as guide** + a fresh **companion** for the
 > story's situation. Introduce a *new guide* only when there's a real reason (a themed sub-series). Each
 > new character: fill the template above, author the base atlas (poses + idle) via the placeholder-art

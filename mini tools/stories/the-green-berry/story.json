@@ -1,0 +1,862 @@
+{
+  "schemaVersion": "sb-1",
+  "id": "the-green-berry",
+  "title": "@story.title",
+  "locales": [
+    "en"
+  ],
+  "theme": {
+    "letterboxColor": "#FBF3E4",
+    "transition": "crossfade"
+  },
+  "cast": [
+    {
+      "id": "pip",
+      "name": "@cast.pip.name",
+      "role": "guide",
+      "atlasBase": "atlas.pip.base",
+      "poses": [
+        "neutral",
+        "talk",
+        "happy",
+        "point"
+      ],
+      "atlasClips": "atlas.pip.clips",
+      "clips": {
+        "celebrate": {
+          "fallbackPose": "happy"
+        }
+      }
+    },
+    {
+      "id": "bramble",
+      "name": "@cast.bramble.name",
+      "role": "companion",
+      "atlasBase": "atlas.bramble.base",
+      "poses": [
+        "neutral",
+        "happy"
+      ]
+    }
+  ],
+  "assets": {
+    "scene1": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-green-berry/scenes/page-01.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene2": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-green-berry/scenes/page-02.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene3": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-green-berry/scenes/page-03.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene4": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-green-berry/scenes/page-04.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene5": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-green-berry/scenes/page-05.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene6": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-green-berry/scenes/page-06.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene7": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-green-berry/scenes/page-07.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene8": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-green-berry/scenes/page-08.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene9": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-green-berry/scenes/page-09.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "atlas.pip.base": {
+      "kind": "atlas",
+      "src": "/mini-tools/stories/the-green-berry/cast/pip/pip.base.json"
+    },
+    "atlas.pip.clips": {
+      "kind": "atlas",
+      "src": "/mini-tools/stories/the-green-berry/cast/pip/pip.clips.json"
+    },
+    "atlas.bramble.base": {
+      "kind": "atlas",
+      "src": "/mini-tools/stories/the-green-berry/cast/bramble/bramble.base.json"
+    },
+    "img.strawberry-red": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-green-berry/props/strawberry-red@2x.webp"
+    },
+    "img.strawberry-green": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-green-berry/props/strawberry-green@2x.webp"
+    },
+    "img.blueberry": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-green-berry/props/blueberry@2x.webp"
+    },
+    "img.lemon": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-green-berry/props/lemon@2x.webp"
+    },
+    "pip": {
+      "kind": "atlas",
+      "src": "cast/pip/pip.base.json"
+    },
+    "bramble": {
+      "kind": "atlas",
+      "src": "cast/bramble/bramble.base.json"
+    }
+  },
+  "reward": {
+    "id": "story.the-green-berry",
+    "label": {
+      "en": "The Rosy Berry"
+    },
+    "emoji": "🍓"
+  },
+  "pages": [
+    {
+      "id": "p01",
+      "scene": {
+        "image": "scene1"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bramble",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.56,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p01-l01"
+          },
+          {
+            "id": "p01-l02"
+          },
+          {
+            "id": "p01-l03",
+            "characterId": "bramble"
+          },
+          {
+            "id": "p01-l04"
+          },
+          {
+            "id": "p01-l05",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "success": {
+        "celebration": "none",
+        "holdMs": 600
+      }
+    },
+    {
+      "id": "p02",
+      "scene": {
+        "image": "scene2"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bramble",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.56,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p02-l01"
+          },
+          {
+            "id": "p02-l02",
+            "characterId": "bramble"
+          },
+          {
+            "id": "p02-l03"
+          },
+          {
+            "id": "p02-l04"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-find-object",
+        "zone": {
+          "x": 120,
+          "y": 150,
+          "w": 1360,
+          "h": 660
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "find": [
+            "red1",
+            "red2"
+          ],
+          "targets": [
+            {
+              "key": "red1",
+              "image": "img.strawberry-red",
+              "rect": {
+                "x": 210,
+                "y": 440,
+                "w": 220,
+                "h": 220
+              },
+              "word": "@word.red"
+            },
+            {
+              "key": "blue1",
+              "image": "img.blueberry",
+              "rect": {
+                "x": 460,
+                "y": 340,
+                "w": 200,
+                "h": 200
+              },
+              "word": "@word.blue"
+            },
+            {
+              "key": "red2",
+              "image": "img.strawberry-red",
+              "rect": {
+                "x": 700,
+                "y": 440,
+                "w": 220,
+                "h": 220
+              },
+              "word": "@word.red"
+            },
+            {
+              "key": "blue2",
+              "image": "img.blueberry",
+              "rect": {
+                "x": 930,
+                "y": 340,
+                "w": 200,
+                "h": 200
+              },
+              "word": "@word.blue"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p02-bravo",
+        "holdMs": 1000
+      }
+    },
+    {
+      "id": "p03",
+      "scene": {
+        "image": "scene3"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bramble",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.56,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p03-l01"
+          },
+          {
+            "id": "p03-l02",
+            "characterId": "pip"
+          },
+          {
+            "id": "p03-l03"
+          },
+          {
+            "id": "p03-l04"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-listen-place",
+        "zone": {
+          "x": 440,
+          "y": 240,
+          "w": 880,
+          "h": 560
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "object": {
+            "image": "img.blueberry",
+            "alt": "@p03.alt.blueberry"
+          },
+          "slots": [
+            {
+              "key": "bluejar",
+              "at": {
+                "x": 680,
+                "y": 180
+              },
+              "correct": true
+            },
+            {
+              "key": "redjar",
+              "at": {
+                "x": 420,
+                "y": 400
+              }
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p03-bravo",
+        "holdMs": 1000
+      }
+    },
+    {
+      "id": "p04",
+      "scene": {
+        "image": "scene4"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "happy",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bramble",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.56,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p04-l01"
+          },
+          {
+            "id": "p04-l02",
+            "characterId": "bramble"
+          },
+          {
+            "id": "p04-l03"
+          },
+          {
+            "id": "p04-l04",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-listen",
+        "zone": {
+          "x": 400,
+          "y": 160,
+          "w": 800,
+          "h": 650
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "word": "@word.yellow",
+          "correct": "lemon",
+          "options": [
+            {
+              "key": "lemon",
+              "image": "img.lemon"
+            },
+            {
+              "key": "strawberry",
+              "image": "img.strawberry-red"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p04-bravo",
+        "holdMs": 1000
+      }
+    },
+    {
+      "id": "p05",
+      "scene": {
+        "image": "scene5"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bramble",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.56,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p05-l01"
+          },
+          {
+            "id": "p05-l02"
+          },
+          {
+            "id": "p05-l03",
+            "characterId": "bramble"
+          },
+          {
+            "id": "p05-l04",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-find-object",
+        "zone": {
+          "x": 120,
+          "y": 150,
+          "w": 1360,
+          "h": 660
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "find": [
+            "green"
+          ],
+          "targets": [
+            {
+              "key": "green",
+              "image": "img.strawberry-green",
+              "rect": {
+                "x": 540,
+                "y": 405,
+                "w": 220,
+                "h": 220
+              },
+              "word": "@word.green"
+            },
+            {
+              "key": "redA",
+              "image": "img.strawberry-red",
+              "rect": {
+                "x": 220,
+                "y": 420,
+                "w": 220,
+                "h": 220
+              },
+              "word": "@word.red"
+            },
+            {
+              "key": "redB",
+              "image": "img.strawberry-red",
+              "rect": {
+                "x": 900,
+                "y": 425,
+                "w": 220,
+                "h": 220
+              },
+              "word": "@word.red"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p05-bravo",
+        "holdMs": 1000
+      }
+    },
+    {
+      "id": "p06",
+      "scene": {
+        "image": "scene6"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bramble",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.56,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p06-l01",
+            "characterId": "bramble"
+          },
+          {
+            "id": "p06-l02",
+            "characterId": "pip"
+          },
+          {
+            "id": "p06-l03"
+          },
+          {
+            "id": "p06-l04"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-listen-place",
+        "zone": {
+          "x": 440,
+          "y": 240,
+          "w": 880,
+          "h": 560
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "object": {
+            "image": "img.strawberry-green",
+            "alt": "@p06.alt.greenberry"
+          },
+          "slots": [
+            {
+              "key": "plant",
+              "at": {
+                "x": 700,
+                "y": 410
+              },
+              "correct": true
+            },
+            {
+              "key": "redjar",
+              "at": {
+                "x": 420,
+                "y": 420
+              }
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p06-bravo",
+        "holdMs": 1400,
+        "clip": {
+          "characterId": "pip",
+          "name": "celebrate"
+        }
+      }
+    },
+    {
+      "id": "p07",
+      "scene": {
+        "image": "scene7"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "happy",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bramble",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.56,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p07-l01"
+          },
+          {
+            "id": "p07-l02",
+            "characterId": "bramble"
+          },
+          {
+            "id": "p07-l03",
+            "characterId": "pip"
+          },
+          {
+            "id": "p07-l04"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-dot-stamp",
+        "zone": {
+          "x": 300,
+          "y": 220,
+          "w": 1000,
+          "h": 560
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "dots": [
+            {
+              "x": 200,
+              "y": 380
+            },
+            {
+              "x": 480,
+              "y": 360
+            },
+            {
+              "x": 760,
+              "y": 390
+            }
+          ],
+          "stampColor": "#146B5E"
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p07-bravo",
+        "holdMs": 1000
+      }
+    },
+    {
+      "id": "p08",
+      "scene": {
+        "image": "scene8"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "happy",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bramble",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.56,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p08-l01"
+          },
+          {
+            "id": "p08-l02"
+          },
+          {
+            "id": "p08-l03"
+          },
+          {
+            "id": "p08-l04",
+            "characterId": "bramble"
+          }
+        ]
+      },
+      "success": {
+        "celebration": "burst",
+        "holdMs": 900
+      }
+    },
+    {
+      "id": "p09",
+      "scene": {
+        "image": "scene9"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "happy",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bramble",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.56,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p09-l01"
+          },
+          {
+            "id": "p09-l02",
+            "characterId": "pip"
+          },
+          {
+            "id": "p09-l03"
+          },
+          {
+            "id": "p09-l04",
+            "characterId": "bramble"
+          }
+        ]
+      },
+      "success": {
+        "celebration": "sticker",
+        "holdMs": 1200
+      }
+    }
+  ],
+  "alignment": {
+    "grade": "PK"
+  }
+}

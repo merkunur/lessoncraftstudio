@@ -69,10 +69,11 @@
       "grade": "PK",
       "teachingPointId": "lib-p01-05",
       "label": "Sort objects by one attribute (color)",
-      "premise": "sort Willa the duck's wind-blown washing back by color",
-      "setting": "riverside washing line",
-      "storyId": "willas-washing-day",
-      "status": "shipped"
+      "premise": "Bramble's jam-day fruit basket tumbles - sort every fruit to its color jar; one green strawberry fits nowhere... until Pip explains ripening",
+      "setting": "berry-garden clearing before the Meadow Fair",
+      "storyId": "the-green-berry",
+      "status": "shipped",
+      "displacedActivity": "willas-washing-day (activity-shaped; slated for the activities migration per the 2026-07-10 storybook ruling)"
     },
     {
       "part": 1,

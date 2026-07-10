@@ -3857,6 +3857,27 @@
         "Écrire le nombre en chiffres",
         "Comprendre le zéro"
       ]
+    },
+    "clock-read.tell-time.1-md-b-3": {
+      "about": [
+        "Toute la journée de Chouette se déroule dans la maison à coucou, et c'est ton enfant le gardien du temps ! Il lit l'horloge murale à aiguilles pour savoir ce que fait Chouette — le petit-déjeuner, le jardinage, le dodo — et touche le bon moment. Ou bien il règle lui-même les aiguilles sur une heure demandée, puis réveille le coucou qui sort et mime le moment.",
+        "Lire et régler l'heure sur une horloge à aiguilles, aux heures entières et aux demi-heures — « sept heures », « sept heures et demie » — est un attendu du CP. Le jeu est gratuit, sans minuteur et sans points : l'enfant se repère dans le temps, dans le domaine « Grandeurs et mesures » des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Lire l'heure aux heures entières",
+        "Lire l'heure aux demi-heures (« et demie »)",
+        "Régler les aiguilles d'une horloge",
+        "Associer une heure à un moment de la journée"
+      ],
+      "howToPlay": [
+        "Lis l'horloge à aiguilles pour trouver l'heure.",
+        "Touche le bon moment, ou règle les aiguilles et réveille le coucou."
+      ],
+      "learningGoals": [
+        "Lire l'heure aux heures et demi-heures",
+        "Régler les aiguilles d'une horloge",
+        "Se repérer dans les moments de la journée"
+      ]
     }
   }
 }

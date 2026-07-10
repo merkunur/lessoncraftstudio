@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
+import { PRICING_PUBLIC } from '@/config/subscription-launch';
 import { FooterCategoryDropdowns } from './FooterCategoryDropdowns';
 
 // 3-row compact footer per the v5 activity-page redesign:
@@ -36,6 +37,9 @@ export function Footer({
   const pathname = usePathname();
   const locale = pathname.split('/')[1] || 'en';
   const t = useTranslations('footer');
+  // Pricing link is flip-gated (subscription launch 2026-07); reuses the
+  // existing navigation.pricing key ×11.
+  const tNav = useTranslations('navigation');
 
   return (
     <footer id="footer" className="bg-cream-50 border-t border-cream-300 py-5 md:py-6 mt-0">
@@ -61,6 +65,16 @@ export function Footer({
               {t('contact')}
             </Link>
           </li>
+          {PRICING_PUBLIC && (
+            <>
+              <li aria-hidden="true" className="text-ink-300">·</li>
+              <li>
+                <Link href={`/${locale}/pricing`} className="hover:text-ink-900 transition-colors">
+                  {tNav('pricing')}
+                </Link>
+              </li>
+            </>
+          )}
           <li aria-hidden="true" className="text-ink-300">·</li>
           <li>
             <Link href={`/${locale}/terms`} className="hover:text-ink-900 transition-colors">

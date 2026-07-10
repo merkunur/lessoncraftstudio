@@ -15,6 +15,7 @@ import { HUB_GRADE_KEYS, MIN_INDEXABLE_SUBJECT_HUB_DECKS, isSubjectHubAllowed, i
 // belong in the sitemap; thin generic-template pairs are noindex'd in the route
 // and omitted here (single SoT shared with the [secondary] route).
 import { intersectionIsAuthored } from '@/lib/seo/intersection-authored';
+import { PRICING_PUBLIC } from '@/config/subscription-launch';
 
 // ISR revalidation: sitemap revalidates every 30 minutes
 export const revalidate = 1800;
@@ -209,6 +210,12 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       { path: '/privacy', priority: 0.3, changeFreq: 'monthly' as const },
       { path: '/contact', priority: 0.3, changeFreq: 'monthly' as const },
       { path: '/license', priority: 0.3, changeFreq: 'monthly' as const },
+      // /pricing enters the sitemap only at the subscription flip (the page is
+      // noindex until PRICING_PUBLIC — keeping it out pre-flip avoids a
+      // noindex-in-sitemap contradiction).
+      ...(PRICING_PUBLIC
+        ? [{ path: '/pricing', priority: 0.6, changeFreq: 'monthly' as const }]
+        : []),
     ];
 
     const routes: MetadataRoute.Sitemap = [];

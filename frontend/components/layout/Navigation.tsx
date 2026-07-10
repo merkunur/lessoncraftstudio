@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
+import { PRICING_PUBLIC } from '@/config/subscription-launch';
 import { Button } from '@/components/ui/Button';
 import { usePathname } from 'next/navigation';
 import { LanguageSelector } from '@/components/LanguageSelector';
@@ -106,6 +107,15 @@ export function Navigation({
 
           {/* Desktop actions */}
           <div className="hidden lg:flex items-center space-x-3 flex-shrink-0">
+            {/* Pricing enters the nav only at the subscription flip (PRICING_PUBLIC). */}
+            {PRICING_PUBLIC && (
+              <Link
+                href={`/${locale}/pricing`}
+                className="px-3 py-2 text-sm font-medium text-ink-600 hover:text-ink-900 hover:bg-cream-200 rounded-md transition-colors"
+              >
+                {t('pricing')}
+              </Link>
+            )}
             <LanguageSelector />
             <div className="h-5 w-px bg-cream-300" />
             <div className="flex items-center space-x-2">

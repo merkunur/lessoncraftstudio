@@ -3420,7 +3420,8 @@
       "addToCollection": "Añadir a la colección",
       "removeFromCollection": "Quitar",
       "shareLinks": "Compartir enlaces",
-      "cancel": "Cancelar"
+      "cancel": "Cancelar",
+      "downloadPack": "Descargar como paquete ZIP"
     },
     "addedConfirmation": "{count, plural, =1 {1 deck añadido a {collectionName}} other {# decks añadidos a {collectionName}}}",
     "removedConfirmation": "{count, plural, =1 {1 deck quitado} other {# decks quitados}}",
@@ -3432,7 +3433,10 @@
       "pickerCreate": "+ Nueva colección",
       "pickerCancel": "Cancelar",
       "errorGeneric": "No se pudieron cargar las colecciones. Por favor, inténtelo de nuevo."
-    }
+    },
+    "packUpsell": "Los paquetes de tema son una función del plan Teacher.",
+    "packTooMany": "Los paquetes se limitan a {max} fichas.",
+    "packDone": "Paquete con {count} PDF descargado."
   },
   "share": {
     "label": "Compartir enlace",

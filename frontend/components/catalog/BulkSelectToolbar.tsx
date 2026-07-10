@@ -11,7 +11,8 @@ import { useTranslations } from 'next-intl';
 export type BulkAction =
   | 'addToCollection'
   | 'removeFromCollection'
-  | 'shareLinks';
+  | 'shareLinks'
+  | 'downloadPack';
 
 interface BulkSelectToolbarProps {
   count: number;

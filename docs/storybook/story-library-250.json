@@ -21,10 +21,11 @@
       "grade": "PK",
       "teachingPointId": "lib-p01-01",
       "label": "Count objects 1–5",
-      "premise": "help Shelly the hermit crab gather and count treasures to decorate her new shell home",
-      "setting": "sunny beach tide-pool",
-      "storyId": "shellys-seashells",
-      "status": "shipped"
+      "premise": "help Willa the duck find her five hiding ducklings before dark and count every single one home",
+      "setting": "evening meadow and pond",
+      "storyId": "five-little-ducklings",
+      "status": "shipped",
+      "displacedActivity": "shellys-seashells (activity-shaped; slated for the activities migration per the 2026-07-10 storybook ruling)"
     },
     {
       "part": 1,

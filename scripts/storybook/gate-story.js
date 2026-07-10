@@ -44,12 +44,21 @@ const MINI = path.join(REPO, 'mini tools');
    standards that legitimately exceed the operation ceiling (K.NBT teens 11–19, 1.NBT tens-and-ones
    to ~99/120, 2.NBT three-digit to 1000). A HARD block over-rejects those; a WARN flags a large
    quantity for human judgement without blocking. (Calibration surfaced during C3 exemplar work.) */
+/* NARRATIVE ENVELOPE (re-specified 2026-07-10 per the operator's storybook ruling:
+   "an interactive storybook means a STORYBOOK with activities in it" — the old
+   1-line/6-word caps enforced ACTIVITY-shaped pages and are retired). A page now
+   carries story PROSE + DIALOGUE as several short cues:
+   - maxLines = narration cues per page (each cue = one caption + one audio slot);
+   - maxWords = per CUE (the caption band shows one cue at a time in a 108du box —
+     ~2 rendered lines at font 24; ≤12-14 words per cue keeps every grade safe).
+   Vocabulary simplicity is still guarded by the avg-word-length reading-level WARN.
+   The story-presence gate below enforces the INVERSE: prose/dialogue must exist. */
 const GRADE_ENV = {
-  PK: { pages: [7, 10], maxWords: 6, maxLines: 1, numberCeil: 5, numberSev: 'HARD' },
-  K:  { pages: [7, 10], maxWords: 8, maxLines: 2, numberCeil: 10, numberSev: 'WARN' },
-  '1': { pages: [7, 10], maxWords: 12, maxLines: 2, numberCeil: 20, numberSev: 'WARN' },
-  '2': { pages: [7, 10], maxWords: 16, maxLines: 3, numberCeil: 100, numberSev: 'WARN' },
-  '3': { pages: [7, 10], maxWords: 20, maxLines: 3, numberCeil: 1000, numberSev: 'WARN' },
+  PK: { pages: [7, 10], maxWords: 12, maxLines: 4, numberCeil: 5, numberSev: 'HARD' },
+  K:  { pages: [7, 10], maxWords: 13, maxLines: 4, numberCeil: 10, numberSev: 'WARN' },
+  '1': { pages: [7, 10], maxWords: 14, maxLines: 5, numberCeil: 20, numberSev: 'WARN' },
+  '2': { pages: [7, 10], maxWords: 16, maxLines: 5, numberCeil: 100, numberSev: 'WARN' },
+  '3': { pages: [7, 10], maxWords: 18, maxLines: 6, numberCeil: 1000, numberSev: 'WARN' },
 };
 const ARCS = ['quest', 'help-a-friend', 'fix-a-mess', 'discovery', 'collect-and-sort'];
 /* Scoring/pressure/judgement tokens forbidden in narration (playbook §3). EN core +
@@ -85,6 +94,26 @@ function collectNumbers(node, keyName, out) {
   }
   if (Array.isArray(node)) { node.forEach((v) => collectNumbers(v, keyName, out)); return; }
   if (typeof node === 'object') { for (const k in node) collectNumbers(node[k], k, out); }
+}
+
+/* ---- story-presence (HARD) — the INVERSE narrative gate ----
+   Operator ruling 2026-07-10: "An interactive storybook means a STORYBOOK with
+   activities in it to teach a teaching point." An activity sequence (one bare
+   instruction line per page, no prose, no dialogue) is NOT shippable as a story.
+   pageCues = per-page arrays of cue-like objects ({characterId?}). */
+function checkStoryPresence(pageCues, add) {
+  const total = pageCues.length;
+  if (!total) return;
+  const prosePages = pageCues.filter((cues) => cues.length >= 2).length;
+  if (prosePages < Math.ceil(total / 2))
+    add('story-presence', 'HARD', `only ${prosePages}/${total} pages carry >=2 narration cues — a storybook is story PROSE with activities inside it, not bare instructions (operator ruling 2026-07-10)`);
+  const speakers = new Set();
+  let narrator = false;
+  pageCues.forEach((cues) => cues.forEach((c) => { if (c.characterId) speakers.add(c.characterId); else narrator = true; }));
+  if (speakers.size < 2)
+    add('story-presence', 'HARD', `only ${speakers.size} distinct speaking character(s) — a storybook needs DIALOGUE (>=2 speakers somewhere in the story)`);
+  if (!narrator)
+    add('story-presence', 'HARD', 'no narrator-voice cue (a cue WITHOUT characterId) anywhere — a storybook needs narration around the dialogue');
 }
 
 /* The gate engine — pure, returns {findings:[{gate,severity,msg}], grade}. Require-able for C5. */
@@ -147,6 +176,8 @@ function runGates(storyId, opts) {
       // page count vs grade
       if (env && (blueprint.pages.length < env.pages[0] || blueprint.pages.length > env.pages[1]))
         add('page-count', 'HARD', `${blueprint.pages.length} pages; grade ${grade} wants ${env.pages[0]}–${env.pages[1]} (playbook §2)`);
+      // story-presence at design time (skip when the authored story is present — checked there)
+      if (!story) checkStoryPresence(blueprint.pages.map((pg) => pg.narration || []), add);
     }
   }
 
@@ -231,6 +262,9 @@ function runGates(storyId, opts) {
         }
       }
     });
+
+    // story-presence on the authored story (prose + dialogue + narrator voice)
+    checkStoryPresence(pages.map((pg) => (pg.narration && pg.narration.cues) || []), add);
   } else if (!blueprint) {
     add('input', 'HARD', 'no story and no blueprint found — nothing to gate');
   }

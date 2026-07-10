@@ -1,0 +1,163 @@
+{
+  "storyId": "five-little-ducklings",
+  "generatedAt": "2026-07-10T15:47:01.823Z",
+  "pageCount": 9,
+  "totalBytes": 874575,
+  "files": [
+    {
+      "path": "art-manifest.json",
+      "bytes": 1174,
+      "sha1": "af35d96ed3a7422401660edd24ebac02ea309413"
+    },
+    {
+      "path": "audio/en/README.txt",
+      "bytes": 190,
+      "sha1": "e5e0d3c3321ef00fd0943a9096e0621e4f040558"
+    },
+    {
+      "path": "blueprint.json",
+      "bytes": 19564,
+      "sha1": "63f48d520e6def38ed127445fbc02cb0a3902227"
+    },
+    {
+      "path": "cast/pip/pip.base.json",
+      "bytes": 1924,
+      "sha1": "4ed1a2799e52a7b8d12d33cab7d84b85344b36a9"
+    },
+    {
+      "path": "cast/pip/pip.base.webp",
+      "bytes": 153354,
+      "sha1": "ae96744d8ad6ae8a525cb5125a858640725cc0f6"
+    },
+    {
+      "path": "cast/pip/pip.clips-1.json",
+      "bytes": 2016,
+      "sha1": "f15a888960828de3054322f5b8db75a2229cb995"
+    },
+    {
+      "path": "cast/pip/pip.clips-1.webp",
+      "bytes": 139374,
+      "sha1": "c35b51c2ae9b3c56bdd91c536c8175fa885bf70e"
+    },
+    {
+      "path": "cast/pip/pip.clips.json",
+      "bytes": 3225,
+      "sha1": "0bd1a4a01724a212b89a5f3db41fa62db81c11b5"
+    },
+    {
+      "path": "cast/pip/pip.clips.webp",
+      "bytes": 245890,
+      "sha1": "9a3e576ff9edb8ab8767d1035cbc6dd209685041"
+    },
+    {
+      "path": "cast/willa/willa.base.json",
+      "bytes": 1589,
+      "sha1": "67e4b869ccdf42f9c3a2c686b6db3f98c1075d45"
+    },
+    {
+      "path": "cast/willa/willa.base.webp",
+      "bytes": 85050,
+      "sha1": "53737b24be75b9f4b2b93e3e6ec6bdb73c43844a"
+    },
+    {
+      "path": "library-meta.json",
+      "bytes": 1348,
+      "sha1": "b0b3e173e678bac2cd2963844ef91a9b7f5a5422"
+    },
+    {
+      "path": "props/bush@2x.webp",
+      "bytes": 5520,
+      "sha1": "9f9196d87a70da10631e0a25ced2658339e93a4d"
+    },
+    {
+      "path": "props/butterfly@2x.webp",
+      "bytes": 5730,
+      "sha1": "c4e80fac6da0ee96811f145026a8a006bdb996b5"
+    },
+    {
+      "path": "props/duckling@2x.webp",
+      "bytes": 6616,
+      "sha1": "f07645aa3006ea3b6f1a46be657bdfe699c98045"
+    },
+    {
+      "path": "props/fence@2x.webp",
+      "bytes": 4226,
+      "sha1": "a2f74a0d2dd64241f148ce910e6069480aa4f277"
+    },
+    {
+      "path": "props/pep-asleep@2x.webp",
+      "bytes": 6514,
+      "sha1": "0ebfdc6ec79c5be22be6bd6ec8828b6860a3597c"
+    },
+    {
+      "path": "props/rock@2x.webp",
+      "bytes": 3362,
+      "sha1": "4ee51bef1e3a4a083a15de5e4f73093af3dc2aa7"
+    },
+    {
+      "path": "props/snail@2x.webp",
+      "bytes": 7456,
+      "sha1": "88c5598910a7d3cd7fa59a0974124437ebad9c4c"
+    },
+    {
+      "path": "props/willow@2x.webp",
+      "bytes": 5510,
+      "sha1": "f81fdbb24283495b1656dcea1b4b77d8b38bc04b"
+    },
+    {
+      "path": "scenes/page-01.webp",
+      "bytes": 11350,
+      "sha1": "38601573352eee52ccc47df6813dd8637b8805e8"
+    },
+    {
+      "path": "scenes/page-02.webp",
+      "bytes": 18636,
+      "sha1": "a909e9bb0abe759bf54b48114ed876121fd42d60"
+    },
+    {
+      "path": "scenes/page-03.webp",
+      "bytes": 10850,
+      "sha1": "3c180307193e239117c60842820e6d1173528ed3"
+    },
+    {
+      "path": "scenes/page-04.webp",
+      "bytes": 12642,
+      "sha1": "b1814331c108df5cb1f20ae96cf5fc9d40416aef"
+    },
+    {
+      "path": "scenes/page-05.webp",
+      "bytes": 18978,
+      "sha1": "e0a11758f1fd82cdb2c2c4e70730cd171328826c"
+    },
+    {
+      "path": "scenes/page-06.webp",
+      "bytes": 15352,
+      "sha1": "cdfd55e19f07045908e1bdb80976b33747f010bc"
+    },
+    {
+      "path": "scenes/page-07.webp",
+      "bytes": 17264,
+      "sha1": "beb346815d9c0fabf9162d24bf7ea6e5a3710019"
+    },
+    {
+      "path": "scenes/page-08.webp",
+      "bytes": 20760,
+      "sha1": "f2919062c6a4b144f6f646d2d12d2a60933d9685"
+    },
+    {
+      "path": "scenes/page-09.webp",
+      "bytes": 19892,
+      "sha1": "4b1a76ae801d77f31a8089fab54eaaedba47ddc0"
+    },
+    {
+      "path": "story.json",
+      "bytes": 18993,
+      "sha1": "a0482ca3ae154f90e725bef47b3d72d236ddb6a3"
+    },
+    {
+      "path": "strings.json",
+      "bytes": 10226,
+      "sha1": "423a1fffe507a55ae157dcd6c456f6b93db688ec"
+    }
+  ]
+}

@@ -483,7 +483,7 @@
               "sb-choice-board"
             ],
             "storySlots": 20,
-            "shipped": 1,
+            "shipped": 2,
             "status": "in_progress"
           },
           {
@@ -938,6 +938,11 @@
         "storyId": "poppys-market-day",
         "pointId": "pk-big-small",
         "library": "story-library-250 lib-p02-04"
+      },
+      {
+        "storyId": "five-little-ducklings",
+        "pointId": "pk-count-to-5",
+        "library": "story-library-250 lib-p01-01 (the first TRUE storybook)"
       }
     ]
   }

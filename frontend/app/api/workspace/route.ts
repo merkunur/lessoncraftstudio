@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
-import { requireSubscriber } from '@/lib/subscriber-api-gate';
+import { requireActiveSubscriber } from '@/lib/subscriber-api-gate';
 
 // Tool 2A — Workspace home single-endpoint payload.
 // Returns { collections, totalCollections, recentActivity } in one round-trip.
@@ -20,7 +20,7 @@ const RECENT_LIMIT = 10;
 const SOURCE_LIMIT = 10;
 
 export async function GET(request: NextRequest) {
-  const gate = await requireSubscriber(request);
+  const gate = await requireActiveSubscriber(request);
   if (gate instanceof NextResponse) return gate;
   const { userId } = gate;
 

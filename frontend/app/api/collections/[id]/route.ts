@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
-import { requireSubscriber, getOwnedCollectionOrFail } from '@/lib/subscriber-api-gate';
+import { requireActiveSubscriber, getOwnedCollectionOrFail } from '@/lib/subscriber-api-gate';
 import { deckAssets } from '@/lib/seo/landing-content';
 
 // Tool 1A — Collection detail / update / delete.
@@ -17,7 +17,7 @@ export async function GET(
   request: NextRequest,
   { params }: { params: { id: string } }
 ) {
-  const gate = await requireSubscriber(request);
+  const gate = await requireActiveSubscriber(request);
   if (gate instanceof NextResponse) return gate;
 
   const collectionOrError = await getOwnedCollectionOrFail(params.id, gate.userId);
@@ -76,7 +76,7 @@ export async function PATCH(
   request: NextRequest,
   { params }: { params: { id: string } }
 ) {
-  const gate = await requireSubscriber(request);
+  const gate = await requireActiveSubscriber(request);
   if (gate instanceof NextResponse) return gate;
 
   const collectionOrError = await getOwnedCollectionOrFail(params.id, gate.userId);
@@ -144,7 +144,7 @@ export async function DELETE(
   request: NextRequest,
   { params }: { params: { id: string } }
 ) {
-  const gate = await requireSubscriber(request);
+  const gate = await requireActiveSubscriber(request);
   if (gate instanceof NextResponse) return gate;
 
   const collectionOrError = await getOwnedCollectionOrFail(params.id, gate.userId);

@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
-import { requireSubscriber, getOwnedCollectionOrFail } from '@/lib/subscriber-api-gate';
+import { requireActiveSubscriber, getOwnedCollectionOrFail } from '@/lib/subscriber-api-gate';
 
 // Tool 1A — POST: add deck to collection. Position auto-assigned (max+1).
 // Reorder PATCH /api/collections/[id]/decks/[deckId] deferred to Tool 1B per Q-g.
@@ -16,7 +16,7 @@ export async function POST(
   request: NextRequest,
   { params }: { params: { id: string } }
 ) {
-  const gate = await requireSubscriber(request);
+  const gate = await requireActiveSubscriber(request);
   if (gate instanceof NextResponse) return gate;
 
   const collectionOrError = await getOwnedCollectionOrFail(params.id, gate.userId);

@@ -122,6 +122,19 @@ and the rules for using + adding them. Structured to scale to ~100 characters.
 - **notes:** Willa's riverside washing line and her rainbow patchwork quilt are her signature —
   keep them if she recurs.
 
+### Milo — the sled-loving penguin
+- **id:** `milo`
+- **role:** companion
+- **species/look:** a small penguin — `night`-navy body, `cream` belly and face patch,
+  `sunshine` beak and feet, little flipper wings (wsv-1 palette).
+- **voice:** bouncy, eager, a little dramatic about the cold ("Brrr — hurry, hurry!").
+- **speech tics:** a happy flipper-flap "wheee!" when a pair comes together.
+- **best arcs:** Help-a-friend (his debut shape), Quest.
+- **debut:** `milos-mitten-match` (library story #6)
+- **poses:** `neutral`, `happy` (+ idle bob). No clips.
+- **notes:** Milo's snowy hill, log cabin, and red sled are his home setting; everything he
+  owns comes in twos — keep the paired-things gag if he recurs.
+
 > **Adding characters:** most future stories reuse **Pip as guide** + a fresh **companion** for the
 > story's situation. Introduce a *new guide* only when there's a real reason (a themed sub-series). Each
 > new character: fill the template above, author the base atlas (poses + idle) via the placeholder-art

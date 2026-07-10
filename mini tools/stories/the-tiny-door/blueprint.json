@@ -194,19 +194,21 @@
       ],
       "narration": [
         {
-          "text": "Deep in the forest stood the old oak tree."
+          "text": "Deep in the forest stood the old oak tree, taller than tall."
+        },
+        {
+          "text": "Down among its roots, Hazel found a tiny little door."
         },
         {
           "characterId": "hazel",
-          "text": "Look! A tiny little door in the root!"
+          "text": "\"Look!\" gasped Hazel. \"And up on the hill — a great big door!\""
         },
         {
-          "characterId": "pip",
-          "text": "And up on the hill, a great big door!"
+          "text": "Two doors meant two new neighbors, one big and one tiny."
         },
         {
           "characterId": "hazel",
-          "text": "Two new neighbors! Let's say hello!"
+          "text": "\"Let's say hello!\" said Hazel, clapping her paws."
         }
       ],
       "success": {
@@ -244,15 +246,18 @@
       ],
       "narration": [
         {
-          "text": "Hazel packed a welcome basket with cookies."
+          "text": "Hazel packed a welcome basket with warm cookies for the neighbors."
         },
         {
           "characterId": "hazel",
-          "text": "The tiny door needs a tiny cookie!"
+          "text": "\"A tiny door needs a tiny cookie,\" said Hazel."
         },
         {
           "characterId": "pip",
-          "text": "Which cookie fits through the tiny door?"
+          "text": "\"The big cookie would never fit through,\" agreed Pip."
+        },
+        {
+          "text": "Which cookie fits through the tiny little door?"
         }
       ],
       "interaction": {
@@ -314,11 +319,14 @@
       ],
       "narration": [
         {
-          "text": "Tiny footprints wound away through the roots."
+          "text": "Tiny footprints wound away through the roots, small as raindrops."
         },
         {
           "characterId": "hazel",
-          "text": "So small! Follow them with your finger!"
+          "text": "\"So small!\" whispered Hazel. \"Our tiny neighbor came this way.\""
+        },
+        {
+          "text": "Follow the tiny footprints with your finger!"
         }
       ],
       "interaction": {
@@ -396,15 +404,18 @@
       ],
       "narration": [
         {
-          "text": "But wait. There were more footprints!"
+          "text": "But wait — there were more footprints by the path!"
         },
         {
           "characterId": "pip",
-          "text": "Some are big. Some are tiny."
+          "text": "\"Some are big,\" said Pip, \"and some are tiny.\""
         },
         {
           "characterId": "hazel",
-          "text": "Find a big one and a tiny one!"
+          "text": "\"Our two neighbors walked here together!\" said Hazel."
+        },
+        {
+          "text": "Find a big footprint and a tiny footprint!"
         }
       ],
       "interaction": {
@@ -494,15 +505,18 @@
       ],
       "narration": [
         {
-          "text": "Then came a knock. BOOM, boom, boom!"
+          "text": "Suddenly, a knock boomed across the forest: BOOM, boom, boom!"
         },
         {
           "characterId": "pip",
-          "text": "What a big, deep knock!"
+          "text": "\"What a big, deep knock!\" said Pip."
         },
         {
           "characterId": "hazel",
-          "text": "Listen! Which door made that sound?"
+          "text": "\"Only a big door could boom like that,\" said Hazel."
+        },
+        {
+          "text": "Listen again! Which door made that big sound?"
         }
       ],
       "interaction": {
@@ -565,15 +579,17 @@
       ],
       "narration": [
         {
-          "text": "The neighbors were waiting for their parcels."
+          "text": "The neighbors were waiting for their parcels now."
         },
         {
           "characterId": "hazel",
-          "text": "The big parcel goes to the big door."
+          "text": "\"The big parcel goes to the big door,\" said Hazel."
         },
         {
-          "characterId": "pip",
-          "text": "Take it there!"
+          "text": "It was heavy and wide — much too big for the tiny door."
+        },
+        {
+          "text": "Can you take the big parcel to the big door?"
         }
       ],
       "interaction": {
@@ -645,15 +661,14 @@
       ],
       "narration": [
         {
-          "text": "One parcel was left. The tiny one!"
+          "text": "One parcel was left — the tiny one, light as a leaf."
         },
         {
           "characterId": "hazel",
-          "text": "It fits the tiny door, of course!"
+          "text": "\"It fits the tiny door, of course!\" giggled Hazel."
         },
         {
-          "characterId": "pip",
-          "text": "Bring it to the tiny door!"
+          "text": "Can you bring the tiny parcel to the tiny door?"
         }
       ],
       "interaction": {
@@ -729,18 +744,18 @@
       ],
       "narration": [
         {
-          "text": "Then both doors opened wide."
+          "text": "Then, slowly, both doors opened wide at the very same time."
         },
         {
-          "text": "Out came a big badger and a tiny mouse!"
+          "text": "Out came a big badger and a tiny little mouse!"
         },
         {
           "characterId": "hazel",
-          "text": "Hello, big friend! Hello, tiny friend!"
+          "text": "\"Hello, big friend! Hello, tiny friend!\" sang Hazel."
         },
         {
           "characterId": "pip",
-          "text": "Warm cookies for all of you!"
+          "text": "\"Warm cookies for all of you!\" said Pip."
         }
       ],
       "success": {
@@ -778,18 +793,18 @@
       ],
       "narration": [
         {
-          "text": "They all had tea under the old oak."
+          "text": "They all had tea together under the old oak tree."
         },
         {
-          "text": "A big cup, a tiny cup, and happy friends."
+          "text": "There was a big cup for the badger and a tiny cup for the mouse."
         },
         {
           "characterId": "hazel",
-          "text": "Big or tiny, neighbors are the best!"
+          "text": "\"Big or tiny,\" said Hazel, \"neighbors are the best!\""
         },
         {
           "characterId": "pip",
-          "text": "What a wonderful day. Goodbye!"
+          "text": "\"What a wonderful day,\" said Pip. \"Goodbye!\""
         }
       ],
       "success": {

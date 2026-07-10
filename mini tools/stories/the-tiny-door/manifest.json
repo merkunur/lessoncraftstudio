@@ -1,8 +1,8 @@
 {
   "storyId": "the-tiny-door",
-  "generatedAt": "2026-07-10T16:19:20.586Z",
+  "generatedAt": "2026-07-10T16:32:56.054Z",
   "pageCount": 9,
-  "totalBytes": 936048,
+  "totalBytes": 939457,
   "files": [
     {
       "path": "art-manifest.json",
@@ -16,8 +16,8 @@
     },
     {
       "path": "blueprint.json",
-      "bytes": 18596,
-      "sha1": "755c7b9092e157f1ebebaaacc8d7a1fa6d189d9e"
+      "bytes": 19611,
+      "sha1": "3821d74c169a5f40b1a20a445c59ecb34ad8f732"
     },
     {
       "path": "cast/hazel/hazel.base.json",
@@ -61,8 +61,8 @@
     },
     {
       "path": "library-meta.json",
-      "bytes": 1315,
-      "sha1": "c92ccba63801754e2b3e5ff2cde2449c6e5175e6"
+      "bytes": 1411,
+      "sha1": "7207426b3a3e0ca93c639d1ca7773a7eb179b2d3"
     },
     {
       "path": "props/big-door@2x.webp",
@@ -156,13 +156,13 @@
     },
     {
       "path": "story.json",
-      "bytes": 18246,
-      "sha1": "7d2e304d8ba5fdb3d6800f0fa51345187c64642f"
+      "bytes": 18477,
+      "sha1": "48697cbd0057903d5d32a16189285c324938a1a0"
     },
     {
       "path": "strings.json",
-      "bytes": 9552,
-      "sha1": "9d3d739a45a364c84d3778406d2729a54fb006cd"
+      "bytes": 11619,
+      "sha1": "aa01eedc9a26955a72586e9c2f90c626e0e3684b"
     }
   ]
 }

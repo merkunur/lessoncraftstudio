@@ -189,18 +189,21 @@
       ],
       "narration": [
         {
-          "text": "Bo's little cart bumped over a stone. Pop!"
+          "text": "One sunny morning, Bo the beaver pulled his little cart up the lane."
         },
         {
-          "text": "The round wheel rolled away down the hill."
+          "text": "Bump! The cart hopped over a stone, and the round wheel popped right off."
+        },
+        {
+          "text": "It bounced twice, then rolled away down the hill, spinning as it went."
         },
         {
           "characterId": "bo",
-          "text": "My wheel! Come back, wheel!"
+          "text": "\"My wheel!\" cried Bo. \"Come back, little wheel!\""
         },
         {
           "characterId": "pip",
-          "text": "Come on, Bo! Let's follow it!"
+          "text": "\"Come on, Bo,\" said Pip. \"Let's follow it together!\""
         }
       ],
       "success": {
@@ -238,15 +241,18 @@
       ],
       "narration": [
         {
-          "text": "Bo pushed the square crate under the cart."
+          "text": "Bo dragged the big square crate under the cart to try it as a wheel."
+        },
+        {
+          "text": "Bump, bump, bump — the crate would not roll at all."
         },
         {
           "characterId": "bo",
-          "text": "Bump, bump, bump. It will not roll!"
+          "text": "\"Square things just sit flat,\" puffed Bo."
         },
         {
           "characterId": "pip",
-          "text": "Round things roll. Which one is round?"
+          "text": "\"Round things roll,\" said Pip. \"Which shape is round, like the wheel?\""
         }
       ],
       "interaction": {
@@ -308,15 +314,17 @@
       ],
       "narration": [
         {
-          "text": "The wheel left a long rolling trail."
+          "text": "The wheel had left a long, curvy trail in the soft dust."
+        },
+        {
+          "text": "It wound down the lane, past the grass, and out of sight."
         },
         {
           "characterId": "bo",
-          "text": "It went down the winding lane!"
+          "text": "\"It went that way!\" said Bo."
         },
         {
-          "characterId": "pip",
-          "text": "Follow the trail with your finger!"
+          "text": "Follow the rolling trail with your finger!"
         }
       ],
       "interaction": {
@@ -394,15 +402,17 @@
       ],
       "narration": [
         {
-          "text": "The trail ended in the pumpkin patch."
+          "text": "The trail ended right in the middle of the pumpkin patch."
+        },
+        {
+          "text": "Everywhere they looked, something round was smiling back at them."
         },
         {
           "characterId": "bo",
-          "text": "Pumpkins are round too! Where is my wheel?"
+          "text": "\"Pumpkins are round too!\" laughed Bo. \"Where is my wheel?\""
         },
         {
-          "characterId": "pip",
-          "text": "Look for the wheel hiding there!"
+          "text": "Look closely and find the wheel hiding among the pumpkins!"
         }
       ],
       "interaction": {
@@ -480,18 +490,18 @@
       ],
       "narration": [
         {
-          "text": "Then everything went very quiet."
+          "text": "Then, all at once, everything went very quiet."
         },
         {
           "characterId": "pip",
-          "text": "Shhh. I hear it rolling somewhere."
+          "text": "\"Shhh,\" whispered Pip. \"I can hear it rolling somewhere.\""
         },
         {
-          "text": "Rumble, rumble, rumble, went the wheel."
+          "text": "From behind came a deep, rumbly sound: rumble, rumble, rumble."
         },
         {
           "characterId": "bo",
-          "text": "Listen! Where is that rumble?"
+          "text": "\"Listen!\" said Bo. \"Which one is the wheel hiding in?\""
         }
       ],
       "interaction": {
@@ -554,15 +564,14 @@
       ],
       "narration": [
         {
-          "text": "Bo rolled the wheel out. It was muddy!"
+          "text": "Bo rolled the wheel out into the light. It was covered in mud!"
         },
         {
           "characterId": "bo",
-          "text": "Is it still round? Let me see."
+          "text": "\"Is it still perfectly round?\" asked Bo, squinting hard."
         },
         {
-          "characterId": "pip",
-          "text": "Tap all around the wheel!"
+          "text": "Tap all the way around the wheel to make sure!"
         }
       ],
       "interaction": {
@@ -637,15 +646,14 @@
       ],
       "narration": [
         {
-          "text": "They pushed the wheel all the way home."
+          "text": "Together they pushed the wheel all the way home to the cart."
         },
         {
           "characterId": "bo",
-          "text": "It fits the round hole, not the square one."
+          "text": "\"It fits the round hole,\" said Bo, \"not the square one.\""
         },
         {
-          "characterId": "pip",
-          "text": "Put the wheel where it fits!"
+          "text": "Can you put the wheel back where it fits?"
         }
       ],
       "interaction": {
@@ -717,15 +725,14 @@
       ],
       "narration": [
         {
-          "text": "Now the cart needed its things back."
+          "text": "Now the little cart needed all its things back in their places."
         },
         {
           "characterId": "bo",
-          "text": "The square crate sits flat. The triangle flag stands tall!"
+          "text": "\"The square crate sits flat on top,\" said Bo. \"And the triangle flag stands tall!\""
         },
         {
-          "characterId": "pip",
-          "text": "Find the square and the triangle!"
+          "text": "Find the square and the triangle and load them up!"
         }
       ],
       "interaction": {
@@ -819,18 +826,18 @@
       ],
       "narration": [
         {
-          "text": "Down the lane they rolled, all the way home."
+          "text": "Down the lane they rolled, all the way home in the golden light."
         },
         {
-          "text": "The round wheel spun round and round."
+          "text": "The round wheel spun and spun, singing its rolling song."
         },
         {
           "characterId": "bo",
-          "text": "Thank you, little friend. Tap, tap!"
+          "text": "\"Thank you, little friend,\" said Bo. \"Tap, tap!\""
         },
         {
           "characterId": "pip",
-          "text": "What a rolling, rolling day. Goodbye!"
+          "text": "\"What a rolling, rolling day,\" smiled Pip. \"Goodbye!\""
         }
       ],
       "success": {

@@ -54,7 +54,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'picture-story.read.rl-k-1': { de: '1', fr: '1' },                      // story key-detail comprehension w/ read-aloud support → DE Klasse 1 (en Kindergarten); K-cluster K-label. FR CP: la surface-réponse est des cartes-réponses en TEXTE que l'enfant LIT (lu-vs-entendu = atlas #57 → CP; l'audio 🔊 est un étayage optionnel, pas la surface-réponse) → native 'K' ne mappe PAS en GS; le jumeau RL d'atlas RI
   'atlas-fact-files.key-detail.ri-k-1': { de: '1', fr: '1' },             // Sachtext-Leseverständnis (late-Klasse-1 Erstleser) → DE Klasse 1 (en Kindergarten); K-cluster K-label. FR CP: prélever une info explicite dans un COURT TEXTE AFFICHÉ (lu par soi-même) = attendu cycle-2 « Lecture et compréhension de l'écrit »; native 'K' does NOT auto-map to GS here — the GS/CP split is lu-vs-entendu, not difficulty (contrast nila-pond #47 RI.K.2 = idée principale ENTENDUE → GS)
   'nila-pond.main-idea-net.ri-k-2': { de: '1' },                          // Hauptaussage eines VORGELESENEN Sachtexts (Hörverstehen, mit Hilfestellung) → DE Klasse 1; sitzt unter marina RI.2.2/Klasse 3 (Selberlesen); K-cluster K-label
-  'booker-glossary-desk.guide-words.l-2-4-e': { de: '3' },                // systematische Wörterbucharbeit (Leitwörter, 2nd/3rd-letter) → DE Klasse 3 (en Grade 2)
+  'booker-glossary-desk.guide-words.l-2-4-e': { de: '3', fr: '3' },        // systematische Wörterbucharbeit (Leitwörter, 2nd/3rd-letter) → DE Klasse 3 / FR CE2 « usage du dictionnaire » (en Grade 2)
   'clock-digital.read-hour.1-md-b-3': { fr: '2' },                       // FR CE1 — lire l'horloge à aiguilles (heures) = CE1 attendu; en Grade 1 / de Klasse 1
   'clock-digital.read-half-hour.1-md-b-3': { fr: '2' },                  // FR CE1 — heures + demi-heures; en Grade 1 / de Klasse 1
   'clock-digital.read-quarter-hour.2-md-c-7': { fr: '3' },               // FR CE2 — « moins le quart » (référence à l'heure suivante) = attendu CE2, un cran au-dessus des demi-heures CE1; en Grade 2 unchanged
@@ -479,7 +479,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.229';
+  const ACTIVITY_WRAPPER_VERSION = '9.230';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

@@ -1,0 +1,771 @@
+{
+  "schemaVersion": "sb-1",
+  "id": "bos-wobbly-cart",
+  "title": "@story.title",
+  "locales": [
+    "en"
+  ],
+  "theme": {
+    "letterboxColor": "#FBF3E4",
+    "transition": "crossfade"
+  },
+  "cast": [
+    {
+      "id": "pip",
+      "name": "@cast.pip.name",
+      "role": "guide",
+      "atlasBase": "atlas.pip.base",
+      "atlasClips": "atlas.pip.clips",
+      "poses": [
+        "neutral",
+        "talk",
+        "happy",
+        "point"
+      ],
+      "clips": {
+        "celebrate": {
+          "fallbackPose": "happy"
+        }
+      }
+    },
+    {
+      "id": "bo",
+      "name": "@cast.bo.name",
+      "role": "companion",
+      "atlasBase": "atlas.bo.base",
+      "poses": [
+        "neutral",
+        "happy"
+      ]
+    }
+  ],
+  "assets": {
+    "scene1": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bos-wobbly-cart/scenes/page-01.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene2": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bos-wobbly-cart/scenes/page-02.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene3": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bos-wobbly-cart/scenes/page-03.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene4": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bos-wobbly-cart/scenes/page-04.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene5": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bos-wobbly-cart/scenes/page-05.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene6": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bos-wobbly-cart/scenes/page-06.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene7": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bos-wobbly-cart/scenes/page-07.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene8": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bos-wobbly-cart/scenes/page-08.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "atlas.pip.base": {
+      "kind": "atlas",
+      "src": "/mini-tools/stories/bos-wobbly-cart/cast/pip/pip.base.json"
+    },
+    "atlas.pip.clips": {
+      "kind": "atlas",
+      "src": "/mini-tools/stories/bos-wobbly-cart/cast/pip/pip.clips.json"
+    },
+    "atlas.bo.base": {
+      "kind": "atlas",
+      "src": "/mini-tools/stories/bos-wobbly-cart/cast/bo/bo.base.json"
+    },
+    "img.circle-coral": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bos-wobbly-cart/props/circle-coral@2x.webp"
+    },
+    "img.square-coral": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bos-wobbly-cart/props/square-coral@2x.webp"
+    },
+    "img.triangle-coral": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bos-wobbly-cart/props/triangle-coral@2x.webp"
+    },
+    "img.circle-teal": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bos-wobbly-cart/props/circle-teal@2x.webp"
+    },
+    "img.square-teal": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bos-wobbly-cart/props/square-teal@2x.webp"
+    },
+    "img.triangle-teal": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bos-wobbly-cart/props/triangle-teal@2x.webp"
+    },
+    "img.circle-sun": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bos-wobbly-cart/props/circle-sun@2x.webp"
+    },
+    "img.square-sun": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bos-wobbly-cart/props/square-sun@2x.webp"
+    },
+    "img.triangle-sun": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bos-wobbly-cart/props/triangle-sun@2x.webp"
+    },
+    "img.wheel": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bos-wobbly-cart/props/wheel@2x.webp"
+    },
+    "img.crate": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bos-wobbly-cart/props/crate@2x.webp"
+    },
+    "img.pennant": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bos-wobbly-cart/props/pennant@2x.webp"
+    },
+    "img.flower": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bos-wobbly-cart/props/flower@2x.webp"
+    }
+  },
+  "reward": {
+    "id": "story.bos-wobbly-cart",
+    "label": {
+      "en": "Bo's Little Cart"
+    },
+    "emoji": "🛞"
+  },
+  "pages": [
+    {
+      "id": "p01",
+      "scene": {
+        "image": "scene1"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bo",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p01-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-choice-board",
+        "zone": {
+          "x": 500,
+          "y": 210,
+          "w": 660,
+          "h": 540
+        },
+        "completionMode": "check",
+        "taskData": {
+          "targetKey": "circle",
+          "options": [
+            {
+              "key": "square",
+              "image": "img.square-coral"
+            },
+            {
+              "key": "circle",
+              "image": "img.circle-coral"
+            },
+            {
+              "key": "triangle",
+              "image": "img.triangle-coral"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p01-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "id": "p02",
+      "scene": {
+        "image": "scene2"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bo",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p02-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-shape-fit",
+        "zone": {
+          "x": 500,
+          "y": 210,
+          "w": 660,
+          "h": 540
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "slots": [
+            {
+              "shape": "circle",
+              "color": "#E86A5A",
+              "at": {
+                "x": 330,
+                "y": 250
+              }
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p02-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "id": "p03",
+      "scene": {
+        "image": "scene3"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bo",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p03-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-choice-board",
+        "zone": {
+          "x": 500,
+          "y": 210,
+          "w": 660,
+          "h": 540
+        },
+        "completionMode": "check",
+        "taskData": {
+          "targetKey": "square",
+          "options": [
+            {
+              "key": "triangle",
+              "image": "img.triangle-teal"
+            },
+            {
+              "key": "square",
+              "image": "img.square-teal"
+            },
+            {
+              "key": "circle",
+              "image": "img.circle-teal"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p03-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "id": "p04",
+      "scene": {
+        "image": "scene4"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bo",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p04-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-shape-fit",
+        "zone": {
+          "x": 500,
+          "y": 210,
+          "w": 660,
+          "h": 540
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "slots": [
+            {
+              "shape": "square",
+              "color": "#146B5E",
+              "at": {
+                "x": 330,
+                "y": 250
+              }
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p04-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "id": "p05",
+      "scene": {
+        "image": "scene5"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bo",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p05-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-choice-board",
+        "zone": {
+          "x": 500,
+          "y": 210,
+          "w": 660,
+          "h": 540
+        },
+        "completionMode": "check",
+        "taskData": {
+          "targetKey": "triangle",
+          "options": [
+            {
+              "key": "circle",
+              "image": "img.circle-sun"
+            },
+            {
+              "key": "triangle",
+              "image": "img.triangle-sun"
+            },
+            {
+              "key": "square",
+              "image": "img.square-sun"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p05-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "id": "p06",
+      "scene": {
+        "image": "scene6"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bo",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p06-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-shape-fit",
+        "zone": {
+          "x": 500,
+          "y": 210,
+          "w": 660,
+          "h": 540
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "slots": [
+            {
+              "shape": "triangle",
+              "color": "#F7C948",
+              "at": {
+                "x": 330,
+                "y": 250
+              }
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p06-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "id": "p07",
+      "scene": {
+        "image": "scene7"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bo",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p07-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-find-object",
+        "zone": {
+          "x": 440,
+          "y": 340,
+          "w": 900,
+          "h": 470
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "find": [
+            "wheel",
+            "crate",
+            "pennant"
+          ],
+          "targets": [
+            {
+              "key": "wheel",
+              "image": "img.wheel",
+              "rect": {
+                "x": 50,
+                "y": 210,
+                "w": 200,
+                "h": 200
+              },
+              "word": "@word.circle"
+            },
+            {
+              "key": "crate",
+              "image": "img.crate",
+              "rect": {
+                "x": 290,
+                "y": 250,
+                "w": 190,
+                "h": 190
+              },
+              "word": "@word.square"
+            },
+            {
+              "key": "pennant",
+              "image": "img.pennant",
+              "rect": {
+                "x": 510,
+                "y": 200,
+                "w": 190,
+                "h": 190
+              },
+              "word": "@word.triangle"
+            },
+            {
+              "key": "flower",
+              "image": "img.flower",
+              "rect": {
+                "x": 720,
+                "y": 255,
+                "w": 170,
+                "h": 170
+              }
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p07-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "id": "p08",
+      "scene": {
+        "image": "scene8"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "happy",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bo",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p08-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-shape-fit",
+        "zone": {
+          "x": 420,
+          "y": 170,
+          "w": 800,
+          "h": 600
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "slots": [
+            {
+              "shape": "circle",
+              "color": "#E86A5A",
+              "at": {
+                "x": 190,
+                "y": 210
+              }
+            },
+            {
+              "shape": "square",
+              "color": "#146B5E",
+              "at": {
+                "x": 610,
+                "y": 210
+              }
+            },
+            {
+              "shape": "triangle",
+              "color": "#F7C948",
+              "at": {
+                "x": 400,
+                "y": 440
+              }
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p08-bravo",
+        "holdMs": 1400,
+        "clip": {
+          "characterId": "pip",
+          "name": "celebrate"
+        }
+      }
+    }
+  ],
+  "alignment": {
+    "grade": "PK"
+  }
+}

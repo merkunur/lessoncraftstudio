@@ -67,6 +67,20 @@ and the rules for using + adding them. Structured to scale to ~100 characters.
 - **notes:** Shelly's new shell home gains its decorations in her debut — keep the decorated
   shell look (four `sunshine` spots) if she recurs.
 
+### Bo — the eager little builder beaver
+- **id:** `bo`
+- **role:** companion
+- **species/look:** a small beaver — `sandDeep` body, `creamDeep` belly, two big friendly `cream`
+  front teeth, a wide flat cross-hatched tail (wsv-1 palette; see
+  `docs/storybook/visual-style-standard.md`).
+- **voice:** eager, busy, proud of fixing things. Announces repairs happily ("Good as new!").
+- **speech tics:** a satisfied "tap, tap!" when something clicks into place.
+- **best arcs:** Fix-a-mess (his debut shape), Quest.
+- **debut:** `bos-wobbly-cart` (library story #2)
+- **poses:** `neutral`, `happy` (+ idle bob). No clips; his joy reads in the pose swap.
+- **notes:** Bo's little wooden cart (round wheel, square crate, triangle flag) is his signature
+  prop — keep the fixed cart's look if he recurs.
+
 > **Adding characters:** most future stories reuse **Pip as guide** + a fresh **companion** for the
 > story's situation. Introduce a *new guide* only when there's a real reason (a themed sub-series). Each
 > new character: fill the template above, author the base atlas (poses + idle) via the placeholder-art

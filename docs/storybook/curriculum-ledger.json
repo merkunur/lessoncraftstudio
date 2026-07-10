@@ -558,8 +558,8 @@
               "sb-find-object"
             ],
             "storySlots": 12,
-            "shipped": 0,
-            "status": "open"
+            "shipped": 1,
+            "status": "in_progress"
           }
         ],
         "early-literacy-readiness": [
@@ -789,6 +789,11 @@
         "storyId": "shellys-seashells",
         "pointId": "pk-count-to-5",
         "library": "story-library-250 lib-p01-01"
+      },
+      {
+        "storyId": "bos-wobbly-cart",
+        "pointId": "pk-shapes",
+        "library": "story-library-250 lib-p01-02"
       }
     ]
   }

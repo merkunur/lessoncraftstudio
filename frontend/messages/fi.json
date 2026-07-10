@@ -2229,6 +2229,21 @@
         "daysAgo": "{count, plural, =1 {1 day ago} other {# days ago}}",
         "weeksAgo": "{count, plural, =1 {1 week ago} other {# weeks ago}}"
       }
+    },
+    "hosted": {
+      "title": "Omat interaktiiviset tehtävät",
+      "empty": "Generaattoreista tallentamasi tehtävät näkyvät täällä.",
+      "copy": "Kopioi linkki",
+      "copied": "Kopioitu!",
+      "rename": "Nimeä uudelleen",
+      "renamePrompt": "Uusi nimi",
+      "delete": "Poista",
+      "deleteConfirm": "Poistetaanko tämä tehtävä? Sen linkki lakkaa toimimasta.",
+      "views": "{count} katselua"
+    },
+    "favorites": {
+      "title": "Omat suosikit",
+      "remove": "Poista suosikeista"
     }
   },
   "homepageV3": {

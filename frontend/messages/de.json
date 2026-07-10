@@ -3522,6 +3522,21 @@
         "daysAgo": "{count, plural, =1 {vor 1 Tag} other {vor # Tagen}}",
         "weeksAgo": "{count, plural, =1 {vor 1 Woche} other {vor # Wochen}}"
       }
+    },
+    "hosted": {
+      "title": "Meine interaktiven Arbeitsblätter",
+      "empty": "Hier erscheinen Arbeitsblätter, die du in den Generatoren speicherst.",
+      "copy": "Link kopieren",
+      "copied": "Kopiert!",
+      "rename": "Umbenennen",
+      "renamePrompt": "Neuer Name",
+      "delete": "Löschen",
+      "deleteConfirm": "Dieses Arbeitsblatt löschen? Der Link funktioniert dann nicht mehr.",
+      "views": "{count} Aufrufe"
+    },
+    "favorites": {
+      "title": "Meine Favoriten",
+      "remove": "Aus Favoriten entfernen"
     }
   },
   "bulk": {

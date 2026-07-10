@@ -3761,6 +3761,21 @@
         "daysAgo": "{count, plural, =1 {1 day ago} other {# days ago}}",
         "weeksAgo": "{count, plural, =1 {1 week ago} other {# weeks ago}}"
       }
+    },
+    "hosted": {
+      "title": "Le mie schede interattive",
+      "empty": "Le schede salvate dai generatori appariranno qui.",
+      "copy": "Copia link",
+      "copied": "Copiato!",
+      "rename": "Rinomina",
+      "renamePrompt": "Nuovo nome",
+      "delete": "Elimina",
+      "deleteConfirm": "Eliminare questa scheda? Il suo link smetterà di funzionare.",
+      "views": "{count} visualizzazioni"
+    },
+    "favorites": {
+      "title": "I miei preferiti",
+      "remove": "Rimuovi dai preferiti"
     }
   },
   "homepageV3": {

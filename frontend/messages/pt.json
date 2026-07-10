@@ -3746,6 +3746,21 @@
         "daysAgo": "{count, plural, =1 {1 day ago} other {# days ago}}",
         "weeksAgo": "{count, plural, =1 {1 week ago} other {# weeks ago}}"
       }
+    },
+    "hosted": {
+      "title": "Minhas atividades interativas",
+      "empty": "As atividades que você salvar nos geradores aparecerão aqui.",
+      "copy": "Copiar link",
+      "copied": "Copiado!",
+      "rename": "Renomear",
+      "renamePrompt": "Novo nome",
+      "delete": "Excluir",
+      "deleteConfirm": "Excluir esta atividade? O link dela deixará de funcionar.",
+      "views": "{count} visualizações"
+    },
+    "favorites": {
+      "title": "Meus favoritos",
+      "remove": "Remover dos favoritos"
     }
   },
   "homepageV3": {

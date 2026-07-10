@@ -2237,6 +2237,21 @@
         "daysAgo": "{count, plural, =1 {1 day ago} other {# days ago}}",
         "weeksAgo": "{count, plural, =1 {1 week ago} other {# weeks ago}}"
       }
+    },
+    "hosted": {
+      "title": "Mine interaktive arbejdsark",
+      "empty": "Arbejdsark du gemmer fra generatorerne vises her.",
+      "copy": "Kopiér link",
+      "copied": "Kopieret!",
+      "rename": "Omdøb",
+      "renamePrompt": "Nyt navn",
+      "delete": "Slet",
+      "deleteConfirm": "Slet dette arbejdsark? Linket holder op med at virke.",
+      "views": "{count} visninger"
+    },
+    "favorites": {
+      "title": "Mine favoritter",
+      "remove": "Fjern fra favoritter"
     }
   },
   "homepageV3": {

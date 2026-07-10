@@ -120,10 +120,10 @@
       "grade": "PK",
       "teachingPointId": "lib-p01-10",
       "label": "Find the object that doesn't belong (categorization)",
-      "premise": null,
-      "setting": null,
-      "storyId": null,
-      "status": "open"
+      "premise": "find what doesn't belong in each friend's jumbled picnic basket and send it home",
+      "setting": "picnic meadow",
+      "storyId": "the-friendship-picnic",
+      "status": "shipped"
     },
     {
       "part": 2,

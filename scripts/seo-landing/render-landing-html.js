@@ -154,6 +154,28 @@ function subjectHubFor(locale, l) {
   return { href: `/${locale}/topic/${hub.subjectSlug}/${hub.gradeSlug}`, label: `${subjName} · ${gradeName}` };
 }
 
+/* Seasonal-hub equity link (seasonal-hubs program, open item 3 — 2026-07-11).
+ * The live seasonal head hubs are the upgraded theme topic pages: the 5
+ * universal seasons in ALL 11 locales + the 2 US-only themes in en (matches
+ * frontend/lib/seasonal-hub.ts's cultural gate). A themed landing links its
+ * season's head hub; non-seasonal themes emit nothing (no link beats a wrong
+ * link, same doctrine as LIVE_HUBS above). */
+const SEASONAL_HUB_THEMES = new Set(['christmas', 'easter', 'winter', 'spring', 'summer']);
+const SEASONAL_HUB_THEMES_EN_ONLY = new Set(['4th_of_july', 'thanksgivinng']);
+function seasonalHubFor(locale, l) {
+  if (l.coordinate.target) return null;
+  const theme = l.coordinate.theme;
+  if (!theme) return null;
+  const universal = SEASONAL_HUB_THEMES.has(theme);
+  const enOnly = locale === 'en' && SEASONAL_HUB_THEMES_EN_ONLY.has(theme);
+  if (!universal && !enOnly) return null;
+  const entry = TAXONOMY.axes.theme[theme];
+  const slug = entry && entry.slug && entry.slug[locale];
+  const name = entry && entry.name && entry.name[locale];
+  if (!slug || !name) return null;
+  return { href: `/${locale}/topic/${slug}`, label: name };
+}
+
 /* ============================== lib/seo/url.ts ============================== */
 
 const CANONICAL_HOST = 'https://www.lessoncraftstudio.com';
@@ -1088,14 +1110,14 @@ ${versionsHtml}
 ${carouselHtml}
 ${meshHtml}
 ${(() => {
-    const hub = subjectHubFor(locale, l);
-    return hub ? `
+    const hubs = [subjectHubFor(locale, l), seasonalHubFor(locale, l)].filter(Boolean);
+    return hubs.map((hub) => `
 <section class="maker">
   <a class="maker-card" href="${esc(hub.href)}">
     <p class="t">${esc(hub.label)}</p>
     <p class="cta">&rarr;</p>
   </a>
-</section>` : '';
+</section>`).join('');
   })()}
 ${makerHtml}
   </div>

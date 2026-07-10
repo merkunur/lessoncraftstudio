@@ -95,7 +95,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'wondering-jar.estimate-jar.k-cc-b-5': { de: '1' },                     // K estimate-then-count (Anzahlen schätzen) → Klasse 1; en stays Kindergarten (K-cluster pattern)
   'pips-round.mail-route.k-cc-a-3': { de: '1', fr: '1' },                 // K numeral reading/recognition (Zahlen lesen bis 20) → Klasse 1; en stays Kindergarten (K-cluster pattern). fr → CP (content-drives-CP: lire les nombres jusqu'à 20 en chiffres + teen-reversal 13/31 = numération CP, NOT GS; contrast the WRITING sibling digby :180 which stays GS 0-9); strand auto-maps « Nombres et calcul » (no override)
   'digby-number-trace.numeral-formation.k-cc-a-3': { de: '1' },           // K numeral WRITING (Ziffern schreiben) → Klasse 1; en stays Kindergarten (K-cluster pattern)
-  'clock-ampm.morning-or-night.2-md-c-7': { de: '1' },                    // a.m./p.m.→Tageszeit rebuild: Tageszeiten zuordnen = Klasse 1 (simpler than the Klasse-2 elapsed sibling); en stays Grade 2
+  'clock-ampm.morning-or-night.2-md-c-7': { de: '1', fr: '1' },           // a.m./p.m.→Tageszeit/moments-de-la-journée rebuild: Klasse 1 (de) / CP (fr — se repérer dans la journée is a CP attendu); en stays Grade 2
   'nesting-pots.seriate.k-cc-c-7': { de: '1', fr: '1' },                  // K seriate/order numbers → Klasse 1; en stays Kindergarten (K-cluster pattern). FR CP (operator-ruled, content-drives): comparer/ranger/encadrer des nombres écrits + un round à deux chiffres (12-40) + la seriation d'une suite = attendus du CP (« comparer, ranger, encadrer les nombres jusqu'à 100 »); DIVERGES from the K.CC.C.7 sibling comparison-creek (all 1-10 → GS) on content difficulty (posy #71 pattern); CP → the auto-map « Nombres et calcul » is correct → NO STRAND override
   'clunks-lost-lunch.make-total.k-oa-a-3': { de: '1', fr: '1' },          // K make-a-total-many-ways (Zahlen zusammensetzen) → Klasse 1; en stays Kindergarten (chuffer precedent). fr → CP (content-drives-CP: composer/décomposer un total jusqu'à 14 + compléments = calcul CP, NOT pure maternelle); strand falls through auto-map « Nombres et calcul »
   'posy-egg-cartons.count-tens.k-cc-a-1': { de: '2', fr: '1' },           // K count-by-tens but CONTENT bis 100 → Klasse 2 (ZR bis 100 = Klasse 2; content drives the grade, the pond-juice/bundle-bot precedent); en stays Kindergarten. FR CP: compter de 10 en 10 jusqu'à 100 / les nombres jusqu'à 100 (groupements par dizaines) = attendu de CP (le domaine des nombres jusqu'à 100 débute au CP en France) → native 'K' does NOT auto-map to GS (la GS s'arrête vers 30, sans dizaines structurées); the FIRST cycle-2 counting fan, DIVERGES from de Klasse 2; strand auto-map « Nombres et calcul » is correct for CP → NO STRAND override
@@ -475,7 +475,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.221';
+  const ACTIVITY_WRAPPER_VERSION = '9.222';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

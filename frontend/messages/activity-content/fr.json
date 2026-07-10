@@ -3878,6 +3878,27 @@
         "Régler les aiguilles d'une horloge",
         "Se repérer dans les moments de la journée"
       ]
+    },
+    "clock-ampm.morning-or-night.2-md-c-7": {
+      "about": [
+        "Sprocket le coq accompagne ton enfant tout au long de la journée : chaque geste — le petit-déjeuner, le dîner, regarder les étoiles — se passe le matin, ou bien l'après-midi et le soir. L'enfant lit ce qu'il fait et l'heure affichée, puis touche le bon moment de la journée : le soleil pour le matin, la lune pour l'après-midi et le soir.",
+        "Distinguer le matin de l'après-midi et du soir, c'est apprendre à se repérer dans la journée — un attendu du CP. Le jeu est gratuit, sans minuteur et sans points : l'enfant relie une activité familière à son moment, dans le domaine « Grandeurs et mesures » des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Reconnaître le matin et l'après-midi",
+        "Relier une activité au bon moment de la journée",
+        "Se repérer dans la journée : matin, après-midi, soir",
+        "Lire l'heure d'une activité quotidienne"
+      ],
+      "howToPlay": [
+        "Lis ce que tu fais et regarde l'heure.",
+        "Touche le matin, ou l'après-midi et le soir."
+      ],
+      "learningGoals": [
+        "Distinguer le matin de l'après-midi et du soir",
+        "Relier une activité quotidienne à son moment",
+        "Se repérer dans les moments de la journée"
+      ]
     }
   }
 }

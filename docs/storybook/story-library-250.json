@@ -98,10 +98,10 @@
       "grade": "PK",
       "teachingPointId": "lib-p01-08",
       "label": "More vs. fewer (visual comparison)",
-      "premise": null,
-      "setting": null,
-      "storyId": null,
-      "status": "open"
+      "premise": "help Willa share feeding-time snacks by spotting which group has more and which has fewer",
+      "setting": "duck pond",
+      "storyId": "willas-pond-picnic",
+      "status": "shipped"
     },
     {
       "part": 1,

@@ -507,8 +507,8 @@
               "sb-choice-board"
             ],
             "storySlots": 12,
-            "shipped": 0,
-            "status": "open"
+            "shipped": 1,
+            "status": "in_progress"
           },
           {
             "id": "pk-sort-by-attribute",
@@ -847,6 +847,11 @@
         "storyId": "kiko-paints-the-rainbow",
         "pointId": "pk-colors",
         "library": "story-library-250 lib-p01-07"
+      },
+      {
+        "storyId": "willas-pond-picnic",
+        "pointId": "pk-more-fewer",
+        "library": "story-library-250 lib-p01-08"
       }
     ]
   }

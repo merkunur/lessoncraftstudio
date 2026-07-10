@@ -28,11 +28,17 @@
       win: 'Richtig! {note}', winNote: 'Genau aus diesem Fenster wurde es gesehen!',
       nHigh: 'Wer sitzt ganz oben? Von ganz oben sieht alles winzig und weit weg aus.',
       nLow: 'Wer ist ganz unten am Wasser? Von ganz unten sieht alles riesig und ganz nah aus.'
+    },
+    fr: {
+      win: 'Bravo ! {note}', winNote: 'C’est bien de cette fenêtre qu’on l’a vu !',
+      nHigh: 'Qui est tout en HAUT ? Tout en haut, les choses paraissent minuscules et lointaines.',
+      nLow: 'Qui est tout en BAS, près de l’eau ? Tout en bas, les choses paraissent énormes et toutes proches.'
     }
   };
   var POSLABEL = {
     en: { high: 'Up high', mid: 'Middle', low: 'Down low' },
-    de: { high: 'Ganz oben', mid: 'In der Mitte', low: 'Ganz unten' }
+    de: { high: 'Ganz oben', mid: 'In der Mitte', low: 'Ganz unten' },
+    fr: { high: 'Tout en haut', mid: 'Au milieu', low: 'Tout en bas' }
   };
   function poslabel(pos) { return (POSLABEL[LANG] && POSLABEL[LANG][pos]) || POSLABEL.en[pos]; }
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -79,9 +85,9 @@
   var PointOfViewActivity = {
     id: 'point-of-view-activity',
     strings: {
-      title: { en: "Lumen's Lighthouse Windows", de: 'Lumens Leuchtturm' },
-      instruction: { en: 'Lumen the owl needs help — whose window is the story told from?', de: 'Lies den Satz. Von ganz oben sieht alles winzig und weit weg aus. Von ganz unten sieht alles riesig und ganz nah aus. Tippe auf das Fenster, aus dem der Satz erzählt wird.' },
-      q: { en: '“{line}” Who said it?', de: '„{line}“ Wer erzählt das?' }
+      title: { en: "Lumen's Lighthouse Windows", de: 'Lumens Leuchtturm', fr: 'Le phare de Lumen' },
+      instruction: { en: 'Lumen the owl needs help — whose window is the story told from?', de: 'Lies den Satz. Von ganz oben sieht alles winzig und weit weg aus. Von ganz unten sieht alles riesig und ganz nah aus. Tippe auf das Fenster, aus dem der Satz erzählt wird.', fr: 'Lis la phrase. Tout en haut, tout paraît minuscule et lointain ; tout en bas, énorme et tout proche. Touche la fenêtre d’où la phrase est racontée.' },
+      q: { en: '“{line}” Who said it?', de: '„{line}“ Wer erzählt das?', fr: '« {line} » Qui l’a dit ?' }
     },
 
     init: function (api) {
@@ -226,6 +232,11 @@
       if (LANG === 'de') {
         var whoDe = (r.chars || []).map(function (c) { return c.name + ' ist ' + poslabel(c.pos); }).join(', ');
         wrap.innerHTML = '<p>' + (r.event || '') + ' Der Satz „' + r.line + '“ wird aus einem Fenster erzählt. ' + whoDe + '. Wer erzählt ihn?</p>';
+        return wrap;
+      }
+      if (LANG === 'fr') {
+        var whoFr = (r.chars || []).map(function (c) { return c.name + ' est ' + poslabel(c.pos).toLowerCase(); }).join(', ');
+        wrap.innerHTML = '<p>' + (r.event || '') + ' La phrase « ' + r.line + ' » est racontée depuis une fenêtre. ' + whoFr + '. Qui la raconte ?</p>';
         return wrap;
       }
       var who = (r.chars || []).map(function (c) { return c.name + ' is ' + poslabel(c.pos).toLowerCase(); }).join('; ');

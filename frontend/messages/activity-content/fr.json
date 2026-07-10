@@ -3983,6 +3983,27 @@
         "Comprendre un lien de cause à effet",
         "Établir des relations dans un texte"
       ]
+    },
+    "point-of-view.who-told.rl-1-6": {
+      "about": [
+        "Lumen le hibou garde un phare plein de fenêtres, une par animal, à des hauteurs différentes. Une phrase dite « je » raconte ce qu'un animal a vu : tout en haut, les choses paraissent minuscules et lointaines ; tout en bas, énormes et toutes proches. Ton enfant lit la phrase, puis touche la fenêtre d'où elle est racontée.",
+        "Identifier de quel point de vue une phrase est racontée, c'est faire un premier pas vers le point de vue narratif — un attendu du CE1. Le jeu est gratuit, sans minuteur et sans points : l'enfant lit, imagine d'où c'est vu et choisit la bonne fenêtre, dans le domaine « Comprendre et interpréter » des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Identifier d'où une phrase est racontée",
+        "Relier « minuscule et loin » à une vue d'en haut",
+        "Relier « énorme et tout près » à une vue d'en bas",
+        "Découvrir le point de vue d'un récit"
+      ],
+      "howToPlay": [
+        "Lis ce que le conteur a vu.",
+        "Touche la fenêtre d'où c'est raconté."
+      ],
+      "learningGoals": [
+        "Identifier le point de vue d'une phrase",
+        "Relier la hauteur à ce que l'on voit",
+        "Découvrir le point de vue narratif"
+      ]
     }
   }
 }

@@ -604,6 +604,20 @@
             "status": "in_progress"
           },
           {
+            "id": "pk-tall-short",
+            "label": "Tall or short?",
+            "cssCode": null,
+            "strand": "Measurement readiness",
+            "suggestedModules": [
+              "sb-choice-board",
+              "sb-color-code",
+              "sb-listen-place"
+            ],
+            "storySlots": 8,
+            "shipped": 1,
+            "status": "in_progress"
+          },
+          {
             "id": "pk-doesnt-belong",
             "label": "Which one doesn't belong?",
             "cssCode": null,
@@ -914,6 +928,11 @@
         "storyId": "bo-builds-a-house",
         "pointId": "pk-shapes",
         "library": "story-library-250 lib-p02-02"
+      },
+      {
+        "storyId": "gigis-tall-lookout",
+        "pointId": "pk-tall-short",
+        "library": "story-library-250 lib-p02-03"
       }
     ]
   }

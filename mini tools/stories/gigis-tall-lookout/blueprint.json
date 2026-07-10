@@ -1,0 +1,784 @@
+{
+  "$schema": "blueprint-1",
+  "id": "gigis-tall-lookout",
+  "title": "Gigi's Tall Lookout",
+  "grade": "PK",
+  "arc": "quest",
+  "teachingPoint": {
+    "id": "pk-tall-short",
+    "grade": "PK",
+    "cssCode": null,
+    "strand": "Measurement readiness",
+    "label": "Tall or short?"
+  },
+  "guide": "pip",
+  "companions": [
+    "gigi"
+  ],
+  "reward": {
+    "id": "story.gigis-tall-lookout",
+    "emoji": "🚩",
+    "label": "The Tall Lookout"
+  },
+  "assets": [
+    {
+      "id": "scene1",
+      "kind": "image",
+      "src": "/mini-tools/stories/gigis-tall-lookout/scenes/page-01.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene2",
+      "kind": "image",
+      "src": "/mini-tools/stories/gigis-tall-lookout/scenes/page-02.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene3",
+      "kind": "image",
+      "src": "/mini-tools/stories/gigis-tall-lookout/scenes/page-03.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene4",
+      "kind": "image",
+      "src": "/mini-tools/stories/gigis-tall-lookout/scenes/page-04.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene5",
+      "kind": "image",
+      "src": "/mini-tools/stories/gigis-tall-lookout/scenes/page-05.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene6",
+      "kind": "image",
+      "src": "/mini-tools/stories/gigis-tall-lookout/scenes/page-06.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene7",
+      "kind": "image",
+      "src": "/mini-tools/stories/gigis-tall-lookout/scenes/page-07.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene8",
+      "kind": "image",
+      "src": "/mini-tools/stories/gigis-tall-lookout/scenes/page-08.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "atlas.pip.base",
+      "kind": "atlas",
+      "src": "/mini-tools/stories/gigis-tall-lookout/cast/pip/pip.base.json"
+    },
+    {
+      "id": "atlas.pip.clips",
+      "kind": "atlas",
+      "src": "/mini-tools/stories/gigis-tall-lookout/cast/pip/pip.clips.json"
+    },
+    {
+      "id": "atlas.gigi.base",
+      "kind": "atlas",
+      "src": "/mini-tools/stories/gigis-tall-lookout/cast/gigi/gigi.base.json"
+    },
+    {
+      "id": "img.tree-tall",
+      "kind": "image",
+      "src": "/mini-tools/stories/gigis-tall-lookout/props/tree-tall@2x.webp"
+    },
+    {
+      "id": "img.tree-short",
+      "kind": "image",
+      "src": "/mini-tools/stories/gigis-tall-lookout/props/tree-short@2x.webp"
+    },
+    {
+      "id": "img.ladder-tall",
+      "kind": "image",
+      "src": "/mini-tools/stories/gigis-tall-lookout/props/ladder-tall@2x.webp"
+    },
+    {
+      "id": "img.ladder-short",
+      "kind": "image",
+      "src": "/mini-tools/stories/gigis-tall-lookout/props/ladder-short@2x.webp"
+    },
+    {
+      "id": "img.ball",
+      "kind": "image",
+      "src": "/mini-tools/stories/gigis-tall-lookout/props/ball@2x.webp"
+    },
+    {
+      "id": "img.sunflower",
+      "kind": "image",
+      "src": "/mini-tools/stories/gigis-tall-lookout/props/sunflower@2x.webp"
+    },
+    {
+      "id": "img.daisy",
+      "kind": "image",
+      "src": "/mini-tools/stories/gigis-tall-lookout/props/daisy@2x.webp"
+    },
+    {
+      "id": "img.butterfly",
+      "kind": "image",
+      "src": "/mini-tools/stories/gigis-tall-lookout/props/butterfly@2x.webp"
+    },
+    {
+      "id": "img.pole-tall",
+      "kind": "image",
+      "src": "/mini-tools/stories/gigis-tall-lookout/props/pole-tall@2x.webp"
+    },
+    {
+      "id": "img.pole-short",
+      "kind": "image",
+      "src": "/mini-tools/stories/gigis-tall-lookout/props/pole-short@2x.webp"
+    },
+    {
+      "id": "img.flag",
+      "kind": "image",
+      "src": "/mini-tools/stories/gigis-tall-lookout/props/flag@2x.webp"
+    }
+  ],
+  "pages": [
+    {
+      "scene": {
+        "image": "scene1"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "gigi",
+          "atlasBase": "atlas.gigi.base",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1420,
+            "y": 900
+          },
+          "scale": 0.62,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "id": "p01-l01",
+          "text": "Listen! Find the tall tree!"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-listen",
+        "zone": {
+          "x": 400,
+          "y": 160,
+          "w": 800,
+          "h": 650
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "word": "@word.tall",
+          "correct": "tall",
+          "options": [
+            {
+              "key": "tall",
+              "image": "img.tree-tall"
+            },
+            {
+              "key": "short",
+              "image": "img.tree-short"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p01-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "scene": {
+        "image": "scene2"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "gigi",
+          "atlasBase": "atlas.gigi.base",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1420,
+            "y": 900
+          },
+          "scale": 0.62,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "id": "p02-l01",
+          "text": "Tap the short ladder!"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-choice-board",
+        "zone": {
+          "x": 500,
+          "y": 210,
+          "w": 660,
+          "h": 540
+        },
+        "completionMode": "check",
+        "taskData": {
+          "targetKey": "short",
+          "options": [
+            {
+              "key": "tall",
+              "image": "img.ladder-tall"
+            },
+            {
+              "key": "short",
+              "image": "img.ladder-short"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p02-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "scene": {
+        "image": "scene3"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "gigi",
+          "atlasBase": "atlas.gigi.base",
+          "pose": "happy",
+          "anchor": {
+            "x": 1420,
+            "y": 900
+          },
+          "scale": 0.62,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "id": "p03-l01",
+          "text": "Color tall teal, short yellow!"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-color-code",
+        "zone": {
+          "x": 220,
+          "y": 160,
+          "w": 1160,
+          "h": 660
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "legend": [
+            {
+              "key": "tall",
+              "color": "#146B5E"
+            },
+            {
+              "key": "short",
+              "color": "#F7C948"
+            }
+          ],
+          "regions": [
+            {
+              "rect": {
+                "x": 40,
+                "y": 230,
+                "w": 260,
+                "h": 420
+              },
+              "correct": "tall"
+            },
+            {
+              "rect": {
+                "x": 330,
+                "y": 370,
+                "w": 260,
+                "h": 280
+              },
+              "correct": "short"
+            },
+            {
+              "rect": {
+                "x": 620,
+                "y": 230,
+                "w": 260,
+                "h": 420
+              },
+              "correct": "tall"
+            },
+            {
+              "rect": {
+                "x": 890,
+                "y": 370,
+                "w": 260,
+                "h": 280
+              },
+              "correct": "short"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p03-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "scene": {
+        "image": "scene4"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "gigi",
+          "atlasBase": "atlas.gigi.base",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1420,
+            "y": 900
+          },
+          "scale": 0.62,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "id": "p04-l01",
+          "text": "Ball on the short stool!"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-listen-place",
+        "zone": {
+          "x": 440,
+          "y": 300,
+          "w": 880,
+          "h": 520
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "object": {
+            "image": "img.ball",
+            "alt": "@p04.alt.ball"
+          },
+          "slots": [
+            {
+              "key": "short",
+              "at": {
+                "x": 680,
+                "y": 380
+              },
+              "correct": true
+            },
+            {
+              "key": "tall",
+              "at": {
+                "x": 400,
+                "y": 150
+              }
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p04-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "scene": {
+        "image": "scene5"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "gigi",
+          "atlasBase": "atlas.gigi.base",
+          "pose": "happy",
+          "anchor": {
+            "x": 1420,
+            "y": 900
+          },
+          "scale": 0.62,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "id": "p05-l01",
+          "text": "Find tall and short flowers!"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-find-object",
+        "zone": {
+          "x": 120,
+          "y": 150,
+          "w": 1360,
+          "h": 660
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "find": [
+            "sunflower",
+            "daisy"
+          ],
+          "targets": [
+            {
+              "key": "sunflower",
+              "image": "img.sunflower",
+              "rect": {
+                "x": 200,
+                "y": 120,
+                "w": 260,
+                "h": 440
+              },
+              "word": "@word.tall"
+            },
+            {
+              "key": "daisy",
+              "image": "img.daisy",
+              "rect": {
+                "x": 620,
+                "y": 360,
+                "w": 240,
+                "h": 240
+              },
+              "word": "@word.short"
+            },
+            {
+              "key": "butterfly",
+              "image": "img.butterfly",
+              "rect": {
+                "x": 1040,
+                "y": 140,
+                "w": 210,
+                "h": 210
+              },
+              "word": "@p05.word.butterfly"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p05-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "scene": {
+        "image": "scene6"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "gigi",
+          "atlasBase": "atlas.gigi.base",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1420,
+            "y": 900
+          },
+          "scale": 0.62,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "id": "p06-l01",
+          "text": "Trace up, up, up!"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-trace",
+        "zone": {
+          "x": 660,
+          "y": 180,
+          "w": 480,
+          "h": 600
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "path": [
+            {
+              "x": 240,
+              "y": 540
+            },
+            {
+              "x": 240,
+              "y": 460
+            },
+            {
+              "x": 240,
+              "y": 380
+            },
+            {
+              "x": 240,
+              "y": 300
+            },
+            {
+              "x": 240,
+              "y": 220
+            },
+            {
+              "x": 240,
+              "y": 140
+            },
+            {
+              "x": 240,
+              "y": 60
+            }
+          ],
+          "tolDu": 150
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p06-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "scene": {
+        "image": "scene7"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "gigi",
+          "atlasBase": "atlas.gigi.base",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1420,
+            "y": 900
+          },
+          "scale": 0.62,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "id": "p07-l01",
+          "text": "Listen! Pick the short pole!"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-listen",
+        "zone": {
+          "x": 400,
+          "y": 160,
+          "w": 800,
+          "h": 650
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "word": "@word.short",
+          "correct": "short",
+          "options": [
+            {
+              "key": "short",
+              "image": "img.pole-short"
+            },
+            {
+              "key": "tall",
+              "image": "img.pole-tall"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p07-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "scene": {
+        "image": "scene8"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "happy",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "gigi",
+          "atlasBase": "atlas.gigi.base",
+          "pose": "happy",
+          "anchor": {
+            "x": 1420,
+            "y": 900
+          },
+          "scale": 0.62,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "id": "p08-l01",
+          "text": "Flag on the tall tower!"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-listen-place",
+        "zone": {
+          "x": 440,
+          "y": 240,
+          "w": 880,
+          "h": 560
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "object": {
+            "image": "img.flag",
+            "alt": "@p08.alt.flag"
+          },
+          "slots": [
+            {
+              "key": "tall",
+              "at": {
+                "x": 620,
+                "y": 150
+              },
+              "correct": true
+            },
+            {
+              "key": "short",
+              "at": {
+                "x": 420,
+                "y": 400
+              }
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p08-bravo",
+        "holdMs": 1400,
+        "clip": {
+          "characterId": "pip",
+          "name": "celebrate"
+        }
+      }
+    }
+  ]
+}

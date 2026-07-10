@@ -182,6 +182,21 @@ and the rules for using + adding them. Structured to scale to ~100 characters.
 - **notes:** Luna owns the night: twilight meadows, fireflies, constellations. Reuse her for
   any counting-at-night or star story; her Great Star constellation should stay consistent.
 
+### Gigi — the gentle lookout giraffe
+- **id:** `gigi`
+- **role:** companion
+- **species/look:** a young giraffe — `sunshine` body and long neck, `sandDeep` patches,
+  ossicone tips and hooves, `creamDeep` muzzle and belly, a short `sandDeep` mane
+  (wsv-1 palette). Front-facing and canvas-tall; she IS the tall/short lesson (the
+  vertical sibling of Noodle's length).
+- **voice:** gentle, dreamy, in love with high places ("From up here you can see EVERYTHING!").
+- **speech tics:** a happy neck-stretch "uuup we go!" before anything tall.
+- **best arcs:** Quest (her debut shape — walks to the lookout), Discovery.
+- **debut:** `gigis-tall-lookout` (library story #13)
+- **poses:** `neutral`, `happy` (+ idle bob). No clips.
+- **notes:** Gigi's lookout hill and its flag tower are her home; Pip beside her is the
+  built-in "short" half of the lesson — keep the warm height gag if she recurs.
+
 > **Adding characters:** most future stories reuse **Pip as guide** + a fresh **companion** for the
 > story's situation. Introduce a *new guide* only when there's a real reason (a themed sub-series). Each
 > new character: fill the template above, author the base atlas (poses + idle) via the placeholder-art

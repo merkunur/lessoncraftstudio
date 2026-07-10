@@ -107,3 +107,21 @@ Three more fixes are now live. **Re-submit the sitemap again** (Section 1) so Go
 3. **About the "Duplicate, Google chose different canonical" count** in **Indexing → Pages**: this is **NORMAL and healthy**, not an error. Each worksheet has ONE page Google indexes (its `/worksheets/…` page); the matching `/decks/…` page intentionally points at it so the same worksheet doesn't appear twice. You don't need to fix these.
 
 **Request-Indexing priority (Section 2), revised order:** (1) the worksheet-maker pages + the **`/en/worksheet-makers` hub**; (2) your top printable PDFs; (3) a few top `/worksheets/…` pages. **Checkpoint:** if clicks haven't started climbing by **~July 10**, tell me and we'll look at the Performance data together (the worksheet pages are newer URLs and can take several weeks to rank).
+
+---
+
+## Update — 2026-07-10 (forensic audit + blocker removal)
+
+A full forensic audit (`docs/audit-results/seo-forensic-audit-2026-07-10.md`) found four defects
+that were actively **blocking** the recovery predicted above, now fixed: (1) old PDF URLs under
+renamed decks were stuck in an infinite redirect loop (Google saw "redirect error" instead of the
+working file); (2) 165 Italian + 2 Spanish worksheet pages pointed Google at a dead address;
+(3) ~780 worksheet pages had silently fallen out of the sitemap; (4) ~8,000 pages carried
+contradictory language-version tags. After these fixes:
+
+1. **Re-submit `sitemap.xml` in Search Console** (Section 1 steps) — the sitemap composition changed.
+2. **The one thing only you can do:** export Performance data (Performance → date range Apr 1 → today
+   → Export, all tabs) and share it. It tells us exactly which traffic (PDFs vs worksheet pages vs
+   maker pages) is still missing and where the next effort should go.
+3. Expect gradual movement over 2–6 weeks. A **content-stability freeze** is now in effect until
+   ~Sep 1 (no mass title/URL changes), which is a precondition for rankings to settle.

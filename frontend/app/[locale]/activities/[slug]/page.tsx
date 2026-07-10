@@ -100,7 +100,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'clunks-lost-lunch.make-total.k-oa-a-3': { de: '1', fr: '1' },          // K make-a-total-many-ways (Zahlen zusammensetzen) → Klasse 1; en stays Kindergarten (chuffer precedent). fr → CP (content-drives-CP: composer/décomposer un total jusqu'à 14 + compléments = calcul CP, NOT pure maternelle); strand falls through auto-map « Nombres et calcul »
   'posy-egg-cartons.count-tens.k-cc-a-1': { de: '2', fr: '1' },           // K count-by-tens but CONTENT bis 100 → Klasse 2 (ZR bis 100 = Klasse 2; content drives the grade, the pond-juice/bundle-bot precedent); en stays Kindergarten. FR CP: compter de 10 en 10 jusqu'à 100 / les nombres jusqu'à 100 (groupements par dizaines) = attendu de CP (le domaine des nombres jusqu'à 100 débute au CP en France) → native 'K' does NOT auto-map to GS (la GS s'arrête vers 30, sans dizaines structurées); the FIRST cycle-2 counting fan, DIVERGES from de Klasse 2; strand auto-map « Nombres et calcul » is correct for CP → NO STRAND override
   'twinsies.count-twin.k-cc-b-5': { de: '1' },                            // K count + make a gleich-große Menge (Anzahlinvarianz, ZR bis 12) → Klasse 1; en stays Kindergarten (K-cluster pattern)
-  'rivets-number-forge.numeral-album.k-cc-a-3': { de: '1' },              // K count-enacted numeral production (Anzahl bis 20 + passende Ziffer) → Klasse 1 (ZR bis 20); en stays Kindergarten (K-cluster; digby/pips siblings precedent)
+  'rivets-number-forge.numeral-album.k-cc-a-3': { de: '1', fr: '1' },     // K count-enacted numeral production (Anzahl bis 20 + passende Ziffer) → Klasse 1 (ZR bis 20); en stays Kindergarten (K-cluster; digby/pips siblings precedent). fr → CP (RANGE-driven like the READ sibling pips #99: producing two-digit teen numerals 10-14 = « écrire les nombres jusqu'à 20 en chiffres » CP, not the GS 0-9 digby ceiling); strand auto-maps « Nombres et calcul »
   'mamas-roll-call.numeral-trace.k-cc-b-5': { de: '1' },                  // K count-out (self-stop) + Ziffer formen (Anzahl bis 9) → Klasse 1; en stays Kindergarten (K-cluster; mochi/twinsies K.CC.B.5 precedent)
   'parking-tower.place-by-relation.k-g-a-1': { de: '1' },                 // K Lagebeziehungen über/unter/neben/zwischen → Klasse 1 Geometrie; en stays Kindergarten (K-cluster)
   'opposites.antonyms.k-l-5-b': { de: '1' },                              // K antonyms (Gegensätze/Gegenteile) = foundational Klasse-1 Wortschatzarbeit; en stays Kindergarten (K-cluster K-label)
@@ -475,7 +475,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.219';
+  const ACTIVITY_WRAPPER_VERSION = '9.220';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

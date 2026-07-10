@@ -3836,6 +3836,27 @@
         "Comprendre la dizaine (une caisse vaut dix)",
         "Compter en dizaines jusqu'à 100"
       ]
+    },
+    "rivets-number-forge.numeral-album.k-cc-a-3": {
+      "about": [
+        "Dans la forge de Rivet le raton laveur, ton enfant déchire un paquet et le trésor dégringole. Il compte chaque objet une fois — il n'y a pas de menu de chiffres à choisir — et la presse forge le chiffre à partir de son comptage : le « 3 » est fabriqué à partir des trois objets. Même un paquet vide a un nombre : zéro ! Chaque page remplie de l'album se dore.",
+        "Compter une collection puis écrire le nombre correspondant en chiffres jusqu'à 20 — le chiffre naît du comptage, jamais choisi dans une liste — est un attendu du CP. Le jeu est gratuit, sans minuteur et sans points : l'enfant travaille la numération, dans le domaine « Nombres et calcul » des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Compter une collection un par un",
+        "Écrire le nombre correspondant en chiffres jusqu'à 20",
+        "Associer une quantité à son écriture chiffrée",
+        "Comprendre que zéro est aussi un nombre"
+      ],
+      "howToPlay": [
+        "Touche chaque trésor pour le compter.",
+        "Tire le levier : la presse forge le chiffre à partir de ton comptage."
+      ],
+      "learningGoals": [
+        "Compter une collection jusqu'à 20",
+        "Écrire le nombre en chiffres",
+        "Comprendre le zéro"
+      ]
     }
   }
 }

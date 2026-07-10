@@ -81,6 +81,20 @@ and the rules for using + adding them. Structured to scale to ~100 characters.
 - **notes:** Bo's little wooden cart (round wheel, square crate, triangle flag) is his signature
   prop — keep the fixed cart's look if he recurs.
 
+### Poppy — the gentle gardener hedgehog
+- **id:** `poppy`
+- **role:** companion
+- **species/look:** a small hedgehog — `sandDeep`/`orangeDeep` spike crown over a rounded
+  `creamDeep` face and belly, tiny black nose, stubby limbs (wsv-1 palette; see
+  `docs/storybook/visual-style-standard.md`).
+- **voice:** gentle, unhurried, delighted by growing things ("Look how it grew!").
+- **speech tics:** a happy little sniff-sniff when something smells ripe.
+- **best arcs:** Collect-and-sort (her debut shape), Discovery.
+- **debut:** `poppys-big-harvest` (library story #3)
+- **poses:** `neutral`, `happy` (+ idle bob). No clips.
+- **notes:** Poppy's vegetable garden (picket fence, soil beds, harvest basket) is her home
+  setting — keep it if she recurs.
+
 > **Adding characters:** most future stories reuse **Pip as guide** + a fresh **companion** for the
 > story's situation. Introduce a *new guide* only when there's a real reason (a themed sub-series). Each
 > new character: fill the template above, author the base atlas (poses + idle) via the placeholder-art

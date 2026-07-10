@@ -560,6 +560,20 @@
             "storySlots": 12,
             "shipped": 1,
             "status": "in_progress"
+          },
+          {
+            "id": "pk-big-small",
+            "label": "Big or small?",
+            "cssCode": null,
+            "strand": "Measurement readiness",
+            "suggestedModules": [
+              "sb-choice-board",
+              "sb-find-object",
+              "sb-listen-place"
+            ],
+            "storySlots": 10,
+            "shipped": 1,
+            "status": "in_progress"
           }
         ],
         "early-literacy-readiness": [
@@ -794,6 +808,11 @@
         "storyId": "bos-wobbly-cart",
         "pointId": "pk-shapes",
         "library": "story-library-250 lib-p01-02"
+      },
+      {
+        "storyId": "poppys-big-harvest",
+        "pointId": "pk-big-small",
+        "library": "story-library-250 lib-p01-03"
       }
     ]
   }

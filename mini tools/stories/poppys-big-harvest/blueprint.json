@@ -1,0 +1,744 @@
+{
+  "$schema": "blueprint-1",
+  "id": "poppys-big-harvest",
+  "title": "Poppy's Big Harvest",
+  "grade": "PK",
+  "arc": "collect-and-sort",
+  "teachingPoint": {
+    "id": "pk-big-small",
+    "grade": "PK",
+    "cssCode": null,
+    "strand": "Measurement readiness",
+    "label": "Big or small?"
+  },
+  "guide": "pip",
+  "companions": [
+    "poppy"
+  ],
+  "reward": {
+    "id": "story.poppys-big-harvest",
+    "emoji": "🎃",
+    "label": "Harvest Basket"
+  },
+  "assets": [
+    {
+      "id": "scene1",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-big-harvest/scenes/page-01.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene2",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-big-harvest/scenes/page-02.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene3",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-big-harvest/scenes/page-03.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene4",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-big-harvest/scenes/page-04.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene5",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-big-harvest/scenes/page-05.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene6",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-big-harvest/scenes/page-06.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene7",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-big-harvest/scenes/page-07.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene8",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-big-harvest/scenes/page-08.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "atlas.pip.base",
+      "kind": "atlas",
+      "src": "/mini-tools/stories/poppys-big-harvest/cast/pip/pip.base.json"
+    },
+    {
+      "id": "atlas.pip.clips",
+      "kind": "atlas",
+      "src": "/mini-tools/stories/poppys-big-harvest/cast/pip/pip.clips.json"
+    },
+    {
+      "id": "atlas.poppy.base",
+      "kind": "atlas",
+      "src": "/mini-tools/stories/poppys-big-harvest/cast/poppy/poppy.base.json"
+    },
+    {
+      "id": "img.pumpkin",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-big-harvest/props/pumpkin@2x.webp"
+    },
+    {
+      "id": "img.pumpkin-small",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-big-harvest/props/pumpkin-small@2x.webp"
+    },
+    {
+      "id": "img.carrot",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-big-harvest/props/carrot@2x.webp"
+    },
+    {
+      "id": "img.carrot-small",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-big-harvest/props/carrot-small@2x.webp"
+    },
+    {
+      "id": "img.apple",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-big-harvest/props/apple@2x.webp"
+    },
+    {
+      "id": "img.apple-small",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-big-harvest/props/apple-small@2x.webp"
+    },
+    {
+      "id": "img.strawberry",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-big-harvest/props/strawberry@2x.webp"
+    },
+    {
+      "id": "img.sunflower",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-big-harvest/props/sunflower@2x.webp"
+    },
+    {
+      "id": "img.tomato",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-big-harvest/props/tomato@2x.webp"
+    },
+    {
+      "id": "img.watermelon",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-big-harvest/props/watermelon@2x.webp"
+    }
+  ],
+  "pages": [
+    {
+      "scene": {
+        "image": "scene1"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "poppy",
+          "atlasBase": "atlas.poppy.base",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "id": "p01-l01",
+          "text": "Harvest time! Which pumpkin is big?"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-choice-board",
+        "zone": {
+          "x": 500,
+          "y": 210,
+          "w": 660,
+          "h": 540
+        },
+        "completionMode": "check",
+        "taskData": {
+          "targetKey": "big",
+          "options": [
+            {
+              "key": "small",
+              "image": "img.pumpkin-small"
+            },
+            {
+              "key": "big",
+              "image": "img.pumpkin"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p01-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "scene": {
+        "image": "scene2"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "poppy",
+          "atlasBase": "atlas.poppy.base",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "id": "p02-l01",
+          "text": "Tap the small strawberry!"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-find-object",
+        "zone": {
+          "x": 480,
+          "y": 360,
+          "w": 880,
+          "h": 460
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "find": [
+            "small"
+          ],
+          "targets": [
+            {
+              "key": "small",
+              "image": "img.strawberry",
+              "rect": {
+                "x": 140,
+                "y": 230,
+                "w": 150,
+                "h": 150
+              },
+              "word": "@word.small"
+            },
+            {
+              "key": "big",
+              "image": "img.strawberry",
+              "rect": {
+                "x": 520,
+                "y": 150,
+                "w": 260,
+                "h": 260
+              }
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p02-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "scene": {
+        "image": "scene3"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "poppy",
+          "atlasBase": "atlas.poppy.base",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "id": "p03-l01",
+          "text": "Which carrot is small?"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-choice-board",
+        "zone": {
+          "x": 500,
+          "y": 210,
+          "w": 660,
+          "h": 540
+        },
+        "completionMode": "check",
+        "taskData": {
+          "targetKey": "small",
+          "options": [
+            {
+              "key": "big",
+              "image": "img.carrot"
+            },
+            {
+              "key": "small",
+              "image": "img.carrot-small"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p03-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "scene": {
+        "image": "scene4"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "poppy",
+          "atlasBase": "atlas.poppy.base",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "id": "p04-l01",
+          "text": "Now tap the big sunflower!"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-find-object",
+        "zone": {
+          "x": 480,
+          "y": 360,
+          "w": 880,
+          "h": 460
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "find": [
+            "big"
+          ],
+          "targets": [
+            {
+              "key": "big",
+              "image": "img.sunflower",
+              "rect": {
+                "x": 480,
+                "y": 140,
+                "w": 270,
+                "h": 270
+              },
+              "word": "@word.big"
+            },
+            {
+              "key": "small",
+              "image": "img.sunflower",
+              "rect": {
+                "x": 160,
+                "y": 255,
+                "w": 150,
+                "h": 150
+              }
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p04-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "scene": {
+        "image": "scene5"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "poppy",
+          "atlasBase": "atlas.poppy.base",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "id": "p05-l01",
+          "text": "Which apple is big?"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-choice-board",
+        "zone": {
+          "x": 500,
+          "y": 210,
+          "w": 660,
+          "h": 540
+        },
+        "completionMode": "check",
+        "taskData": {
+          "targetKey": "big",
+          "options": [
+            {
+              "key": "big",
+              "image": "img.apple"
+            },
+            {
+              "key": "small",
+              "image": "img.apple-small"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p05-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "scene": {
+        "image": "scene6"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "poppy",
+          "atlasBase": "atlas.poppy.base",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "id": "p06-l01",
+          "text": "Tap the small tomato!"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-find-object",
+        "zone": {
+          "x": 480,
+          "y": 360,
+          "w": 880,
+          "h": 460
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "find": [
+            "small"
+          ],
+          "targets": [
+            {
+              "key": "small",
+              "image": "img.tomato",
+              "rect": {
+                "x": 560,
+                "y": 255,
+                "w": 150,
+                "h": 150
+              },
+              "word": "@word.small"
+            },
+            {
+              "key": "big",
+              "image": "img.tomato",
+              "rect": {
+                "x": 150,
+                "y": 140,
+                "w": 260,
+                "h": 260
+              }
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p06-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "scene": {
+        "image": "scene7"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "poppy",
+          "atlasBase": "atlas.poppy.base",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "id": "p07-l01",
+          "text": "Tap the big and small watermelons!"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-find-object",
+        "zone": {
+          "x": 480,
+          "y": 360,
+          "w": 880,
+          "h": 460
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "find": [
+            "big",
+            "small"
+          ],
+          "targets": [
+            {
+              "key": "big",
+              "image": "img.watermelon",
+              "rect": {
+                "x": 120,
+                "y": 140,
+                "w": 280,
+                "h": 280
+              },
+              "word": "@word.big"
+            },
+            {
+              "key": "small",
+              "image": "img.watermelon",
+              "rect": {
+                "x": 560,
+                "y": 255,
+                "w": 160,
+                "h": 160
+              },
+              "word": "@word.small"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p07-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "scene": {
+        "image": "scene8"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "happy",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "poppy",
+          "atlasBase": "atlas.poppy.base",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "id": "p08-l01",
+          "text": "Big pumpkin goes in big basket!"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-listen-place",
+        "zone": {
+          "x": 440,
+          "y": 300,
+          "w": 880,
+          "h": 520
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "object": {
+            "image": "img.pumpkin",
+            "alt": "@p08.alt.pumpkin"
+          },
+          "slots": [
+            {
+              "key": "big-basket",
+              "at": {
+                "x": 250,
+                "y": 330
+              },
+              "correct": true
+            },
+            {
+              "key": "small-basket",
+              "at": {
+                "x": 640,
+                "y": 330
+              }
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p08-bravo",
+        "holdMs": 1400,
+        "clip": {
+          "characterId": "pip",
+          "name": "celebrate"
+        }
+      }
+    }
+  ]
+}

@@ -3941,6 +3941,27 @@
         "Repérer une phrase hors-sujet",
         "Comprendre de quoi parle chaque phrase"
       ]
+    },
+    "marina-headline-desk.main-topic.ri-2-2": {
+      "about": [
+        "À la rédaction, Marina la loutre écrit les titres — et un titre doit dire de quoi une histoire parle SURTOUT. Ton enfant lit ou écoute un court article, puis touche la carte qui nomme son sujet principal : pas un petit détail que le texte cite, ni quelque chose qui n'y est pas.",
+        "Trouver le sujet principal d'un texte documentaire et le distinguer d'un simple détail = une compétence de lecture du CE2. Le jeu est gratuit, sans minuteur et sans points : l'enfant lit, compare les cartes et choisit l'idée qui résume tout le texte, dans le domaine « Lecture et compréhension de l'écrit » des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Trouver le sujet principal d'un texte",
+        "Distinguer le sujet d'un simple détail",
+        "Lire un court texte documentaire",
+        "Écarter une carte hors-sujet"
+      ],
+      "howToPlay": [
+        "Lis ou écoute le petit article.",
+        "Touche la carte qui dit de quoi ça parle surtout."
+      ],
+      "learningGoals": [
+        "Identifier le sujet principal d'un texte",
+        "Distinguer l'essentiel d'un détail",
+        "Comprendre un court texte documentaire"
+      ]
     }
   }
 }

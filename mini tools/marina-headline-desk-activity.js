@@ -29,7 +29,7 @@
     var happy = mood === 'happy';
     var eyes = happy ? '<path d="M40 46 q3 -4 6 0 M54 46 q3 -4 6 0" stroke="#2A2A35" stroke-width="2.4" fill="none" stroke-linecap="round"/>'
       : '<circle cx="43" cy="47" r="2.6" fill="#2A2A35"/><circle cx="57" cy="47" r="2.6" fill="#2A2A35"/>';
-    return '<svg class="mhd-otter-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Marina, der Otter' : 'Marina the otter') + '">' +
+    return '<svg class="mhd-otter-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Marina, der Otter' : LANG === 'fr' ? 'Marina la loutre' : 'Marina the otter') + '">' +
       '<circle cx="32" cy="30" r="7" fill="#A07A52"/><circle cx="68" cy="30" r="7" fill="#A07A52"/>' +   /* ears */
       '<ellipse cx="50" cy="54" rx="28" ry="26" fill="#B68C5E"/>' +
       '<ellipse cx="50" cy="60" rx="16" ry="14" fill="#E7D2B5"/>' +   /* muzzle */
@@ -43,15 +43,15 @@
     id: 'marina-headline-desk-activity',
 
     strings: {
-      title: { en: "Marina's Headline Desk", de: 'Marinas Schlagzeilen-Tisch' },
-      prompt: { en: 'What is this mostly about?', de: 'Worum geht es hauptsächlich?' },
-      marinaIntro: { en: 'A new story! What is it mostly about?', de: 'Eine neue Geschichte! Worum geht es wohl?' },
-      readStory: { en: '📖 Read the story', de: '📖 Vorlesen' },
-      readAgain: { en: '📖 Read it again', de: '📖 Noch einmal vorlesen' },
-      theAsk: { en: 'What is the main topic?', de: 'Worum geht es in dem ganzen Text – nicht nur in einem Satz?' },
-      hintPick: { en: 'Tap what the story is mostly about!', de: 'Tippe an, worum es hauptsächlich geht!' },
-      hintWrong: { en: "That's just one small part — read it again.", de: 'Das ist nur ein kleiner Teil – lies oder hör noch einmal.' },
-      win: { en: 'Yes! That is the main topic. 📰', de: 'Ja! Das ist das Hauptthema. 📰' }
+      title: { en: "Marina's Headline Desk", de: 'Marinas Schlagzeilen-Tisch', fr: 'Le bureau des titres de Marina' },
+      prompt: { en: 'What is this mostly about?', de: 'Worum geht es hauptsächlich?', fr: 'De quoi ça parle surtout ?' },
+      marinaIntro: { en: 'A new story! What is it mostly about?', de: 'Eine neue Geschichte! Worum geht es wohl?', fr: 'Une nouvelle histoire ! De quoi parle-t-elle surtout ?' },
+      readStory: { en: '📖 Read the story', de: '📖 Vorlesen', fr: '📖 Lire l’histoire' },
+      readAgain: { en: '📖 Read it again', de: '📖 Noch einmal vorlesen', fr: '📖 Relire l’histoire' },
+      theAsk: { en: 'What is the main topic?', de: 'Worum geht es in dem ganzen Text – nicht nur in einem Satz?', fr: 'Quel est le sujet principal ?' },
+      hintPick: { en: 'Tap what the story is mostly about!', de: 'Tippe an, worum es hauptsächlich geht!', fr: 'Touche ce dont l’histoire parle surtout !' },
+      hintWrong: { en: "That's just one small part — read it again.", de: 'Das ist nur ein kleiner Teil – lies oder hör noch einmal.', fr: 'Ça, ce n’est qu’un petit détail — relis l’histoire.' },
+      win: { en: 'Yes! That is the main topic. 📰', de: 'Ja! Das ist das Hauptthema. 📰', fr: 'Oui ! C’est le sujet principal. 📰' }
     },
     defaults: {},
 

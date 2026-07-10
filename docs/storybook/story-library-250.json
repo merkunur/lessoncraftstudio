@@ -109,10 +109,10 @@
       "grade": "PK",
       "teachingPointId": "lib-p01-09",
       "label": "Long vs. short",
-      "premise": null,
-      "setting": null,
-      "storyId": null,
-      "status": "open"
+      "premise": "walk home with Noodle the dachshund, choosing long and short all the way",
+      "setting": "autumn park",
+      "storyId": "noodles-long-walk",
+      "status": "shipped"
     },
     {
       "part": 1,

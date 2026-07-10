@@ -588,6 +588,20 @@
             "storySlots": 10,
             "shipped": 1,
             "status": "in_progress"
+          },
+          {
+            "id": "pk-long-short",
+            "label": "Long or short?",
+            "cssCode": null,
+            "strand": "Measurement readiness",
+            "suggestedModules": [
+              "sb-choice-board",
+              "sb-trace",
+              "sb-listen-place"
+            ],
+            "storySlots": 8,
+            "shipped": 1,
+            "status": "in_progress"
           }
         ],
         "early-literacy-readiness": [
@@ -852,6 +866,11 @@
         "storyId": "willas-pond-picnic",
         "pointId": "pk-more-fewer",
         "library": "story-library-250 lib-p01-08"
+      },
+      {
+        "storyId": "noodles-long-walk",
+        "pointId": "pk-long-short",
+        "library": "story-library-250 lib-p01-09"
       }
     ]
   }

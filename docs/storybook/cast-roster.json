@@ -57,6 +57,13 @@
       "species": "small chameleon",
       "debut": "kiko-paints-the-rainbow",
       "notes": "Leaf-green with a curled spiral tail and a coral back-crest; dreams in color; googly-eyed wonder."
+    },
+    {
+      "id": "noodle",
+      "role": "companion",
+      "species": "small dachshund",
+      "debut": "noodles-long-walk",
+      "notes": "A looong low sausage dog (the length lesson on four legs); floppy ears, waggy tail, loves walks."
     }
   ]
 }

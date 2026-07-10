@@ -1,0 +1,168 @@
+{
+  "storyId": "the-odd-little-sock",
+  "generatedAt": "2026-07-10T17:26:16.028Z",
+  "pageCount": 9,
+  "totalBytes": 865624,
+  "files": [
+    {
+      "path": "art-manifest.json",
+      "bytes": 1160,
+      "sha1": "f3aa7ed1a058d1a5fcead75ea6ad17e99ff603ca"
+    },
+    {
+      "path": "audio/en/README.txt",
+      "bytes": 190,
+      "sha1": "e5e0d3c3321ef00fd0943a9096e0621e4f040558"
+    },
+    {
+      "path": "blueprint.json",
+      "bytes": 20496,
+      "sha1": "5872d13e8b72e562eda7b2bc8ada36ef2bfa8b46"
+    },
+    {
+      "path": "cast/milo/milo.base.json",
+      "bytes": 1594,
+      "sha1": "d3dab1b5198b4806dd6a5ee6dbd8a523134bdea5"
+    },
+    {
+      "path": "cast/milo/milo.base.webp",
+      "bytes": 81830,
+      "sha1": "bb1b08c9fc9197799b80910a449271b42c391c29"
+    },
+    {
+      "path": "cast/pip/pip.base.json",
+      "bytes": 1924,
+      "sha1": "4ed1a2799e52a7b8d12d33cab7d84b85344b36a9"
+    },
+    {
+      "path": "cast/pip/pip.base.webp",
+      "bytes": 153354,
+      "sha1": "ae96744d8ad6ae8a525cb5125a858640725cc0f6"
+    },
+    {
+      "path": "cast/pip/pip.clips-1.json",
+      "bytes": 2016,
+      "sha1": "f15a888960828de3054322f5b8db75a2229cb995"
+    },
+    {
+      "path": "cast/pip/pip.clips-1.webp",
+      "bytes": 139374,
+      "sha1": "c35b51c2ae9b3c56bdd91c536c8175fa885bf70e"
+    },
+    {
+      "path": "cast/pip/pip.clips.json",
+      "bytes": 3225,
+      "sha1": "0bd1a4a01724a212b89a5f3db41fa62db81c11b5"
+    },
+    {
+      "path": "cast/pip/pip.clips.webp",
+      "bytes": 245890,
+      "sha1": "9a3e576ff9edb8ab8767d1035cbc6dd209685041"
+    },
+    {
+      "path": "library-meta.json",
+      "bytes": 1478,
+      "sha1": "d94d00e6aec87315cf7bc7a61993df7c8d2b6f5d"
+    },
+    {
+      "path": "props/birdhouse@2x.webp",
+      "bytes": 3624,
+      "sha1": "4223e92918faa72a2b020a3f7cb14a49a1358d05"
+    },
+    {
+      "path": "props/hat@2x.webp",
+      "bytes": 4188,
+      "sha1": "b6d8542426dfa189d645721d3cae0bba2b7ce75a"
+    },
+    {
+      "path": "props/mitten-blue@2x.webp",
+      "bytes": 4844,
+      "sha1": "01d0efa94e323eb8ddccd9a17fac1e2b1842cb9b"
+    },
+    {
+      "path": "props/mitten-red@2x.webp",
+      "bytes": 5166,
+      "sha1": "b17574a108ea95534766fdfc28a4ed2dcfa8724b"
+    },
+    {
+      "path": "props/sled@2x.webp",
+      "bytes": 2916,
+      "sha1": "18e442584a261472190206ca109155108faf4b22"
+    },
+    {
+      "path": "props/sock-dots@2x.webp",
+      "bytes": 3964,
+      "sha1": "8ab67907f17791e3be22bad1aad0dbd199a4e5b8"
+    },
+    {
+      "path": "props/sock-green@2x.webp",
+      "bytes": 3074,
+      "sha1": "6351cd7905ae4ffdc8d6418e196ffb1a756a5dd0"
+    },
+    {
+      "path": "props/sock-striped@2x.webp",
+      "bytes": 3890,
+      "sha1": "4d47eec350aea2df7f0ccfa0b47b1207c617e0e2"
+    },
+    {
+      "path": "props/sock-yellow@2x.webp",
+      "bytes": 3236,
+      "sha1": "88c12d198fad8d574a96c046d574032a546e10d8"
+    },
+    {
+      "path": "scenes/page-01.webp",
+      "bytes": 24666,
+      "sha1": "e814345cf2b713e1139ce303a324f035f3635edc"
+    },
+    {
+      "path": "scenes/page-02.webp",
+      "bytes": 14326,
+      "sha1": "fb11876048e9e2d8d588dcd279ec07964bb486c6"
+    },
+    {
+      "path": "scenes/page-03.webp",
+      "bytes": 15814,
+      "sha1": "e672fbd22d2257cc27399b78cc8c2d773f09437d"
+    },
+    {
+      "path": "scenes/page-04.webp",
+      "bytes": 16452,
+      "sha1": "b41819ea16416f964eb155f5d579328ba920a262"
+    },
+    {
+      "path": "scenes/page-05.webp",
+      "bytes": 18810,
+      "sha1": "8b477d85191d6c0e56e440c7ae094d785cc5ad6c"
+    },
+    {
+      "path": "scenes/page-06.webp",
+      "bytes": 15250,
+      "sha1": "071bc7385bd235c50d44b4800d1a4ced5d462f7b"
+    },
+    {
+      "path": "scenes/page-07.webp",
+      "bytes": 14634,
+      "sha1": "624d16d9fe901be2f4ba2da4cd08053c42a6123d"
+    },
+    {
+      "path": "scenes/page-08.webp",
+      "bytes": 13194,
+      "sha1": "35c4c23337a375f7513c1e66fa637f8f127735c7"
+    },
+    {
+      "path": "scenes/page-09.webp",
+      "bytes": 13662,
+      "sha1": "613e8061bba0a0b50b88456166a44ca5e41a9de8"
+    },
+    {
+      "path": "story.json",
+      "bytes": 19131,
+      "sha1": "a455e121a04dd19fe1efeb79179114f936072a21"
+    },
+    {
+      "path": "strings.json",
+      "bytes": 12252,
+      "sha1": "58e853fda865386150b9822d457e54ce145a7550"
+    }
+  ]
+}

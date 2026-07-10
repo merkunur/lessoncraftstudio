@@ -1,0 +1,871 @@
+{
+  "schemaVersion": "sb-1",
+  "id": "the-odd-little-sock",
+  "title": "@story.title",
+  "locales": [
+    "en"
+  ],
+  "theme": {
+    "letterboxColor": "#FBF3E4",
+    "transition": "crossfade"
+  },
+  "cast": [
+    {
+      "id": "pip",
+      "name": "@cast.pip.name",
+      "role": "guide",
+      "atlasBase": "atlas.pip.base",
+      "poses": [
+        "neutral",
+        "talk",
+        "happy",
+        "point"
+      ],
+      "atlasClips": "atlas.pip.clips",
+      "clips": {
+        "celebrate": {
+          "fallbackPose": "happy"
+        }
+      }
+    },
+    {
+      "id": "milo",
+      "name": "@cast.milo.name",
+      "role": "companion",
+      "atlasBase": "atlas.milo.base",
+      "poses": [
+        "neutral",
+        "happy"
+      ]
+    }
+  ],
+  "assets": {
+    "scene1": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-odd-little-sock/scenes/page-01.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene2": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-odd-little-sock/scenes/page-02.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene3": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-odd-little-sock/scenes/page-03.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene4": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-odd-little-sock/scenes/page-04.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene5": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-odd-little-sock/scenes/page-05.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene6": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-odd-little-sock/scenes/page-06.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene7": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-odd-little-sock/scenes/page-07.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene8": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-odd-little-sock/scenes/page-08.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene9": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-odd-little-sock/scenes/page-09.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "atlas.pip.base": {
+      "kind": "atlas",
+      "src": "/mini-tools/stories/the-odd-little-sock/cast/pip/pip.base.json"
+    },
+    "atlas.pip.clips": {
+      "kind": "atlas",
+      "src": "/mini-tools/stories/the-odd-little-sock/cast/pip/pip.clips.json"
+    },
+    "atlas.milo.base": {
+      "kind": "atlas",
+      "src": "/mini-tools/stories/the-odd-little-sock/cast/milo/milo.base.json"
+    },
+    "img.mitten-red": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-odd-little-sock/props/mitten-red@2x.webp"
+    },
+    "img.mitten-blue": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-odd-little-sock/props/mitten-blue@2x.webp"
+    },
+    "img.hat": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-odd-little-sock/props/hat@2x.webp"
+    },
+    "img.sock-striped": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-odd-little-sock/props/sock-striped@2x.webp"
+    },
+    "img.sock-dots": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-odd-little-sock/props/sock-dots@2x.webp"
+    },
+    "img.sock-green": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-odd-little-sock/props/sock-green@2x.webp"
+    },
+    "img.sock-yellow": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-odd-little-sock/props/sock-yellow@2x.webp"
+    },
+    "img.birdhouse": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-odd-little-sock/props/birdhouse@2x.webp"
+    },
+    "img.sled": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-odd-little-sock/props/sled@2x.webp"
+    },
+    "pip": {
+      "kind": "atlas",
+      "src": "cast/pip/pip.base.json"
+    },
+    "milo": {
+      "kind": "atlas",
+      "src": "cast/milo/milo.base.json"
+    }
+  },
+  "reward": {
+    "id": "story.the-odd-little-sock",
+    "label": {
+      "en": "The Twin Socks"
+    },
+    "emoji": "🧦"
+  },
+  "pages": [
+    {
+      "id": "p01",
+      "scene": {
+        "image": "scene1"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "milo",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.54,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p01-l01"
+          },
+          {
+            "id": "p01-l02"
+          },
+          {
+            "id": "p01-l03",
+            "characterId": "milo"
+          },
+          {
+            "id": "p01-l04"
+          },
+          {
+            "id": "p01-l05",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "success": {
+        "celebration": "none",
+        "holdMs": 600
+      }
+    },
+    {
+      "id": "p02",
+      "scene": {
+        "image": "scene2"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "milo",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.54,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p02-l01"
+          },
+          {
+            "id": "p02-l02",
+            "characterId": "milo"
+          },
+          {
+            "id": "p02-l03"
+          },
+          {
+            "id": "p02-l04"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-find-object",
+        "zone": {
+          "x": 120,
+          "y": 150,
+          "w": 1360,
+          "h": 660
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "find": [
+            "same"
+          ],
+          "targets": [
+            {
+              "key": "same",
+              "image": "img.mitten-red",
+              "rect": {
+                "x": 480,
+                "y": 380,
+                "w": 240,
+                "h": 240
+              },
+              "word": "@word.same"
+            },
+            {
+              "key": "different",
+              "image": "img.mitten-blue",
+              "rect": {
+                "x": 860,
+                "y": 380,
+                "w": 240,
+                "h": 240
+              },
+              "word": "@word.different"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p02-bravo",
+        "holdMs": 1000
+      }
+    },
+    {
+      "id": "p03",
+      "scene": {
+        "image": "scene3"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "milo",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.54,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p03-l01"
+          },
+          {
+            "id": "p03-l02",
+            "characterId": "milo"
+          },
+          {
+            "id": "p03-l03"
+          },
+          {
+            "id": "p03-l04"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-listen-place",
+        "zone": {
+          "x": 440,
+          "y": 240,
+          "w": 880,
+          "h": 560
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "object": {
+            "image": "img.hat",
+            "alt": "@p03.alt.hat"
+          },
+          "slots": [
+            {
+              "key": "twin",
+              "at": {
+                "x": 680,
+                "y": 180
+              },
+              "correct": true
+            },
+            {
+              "key": "scarf",
+              "at": {
+                "x": 400,
+                "y": 400
+              }
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p03-bravo",
+        "holdMs": 1000
+      }
+    },
+    {
+      "id": "p04",
+      "scene": {
+        "image": "scene4"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "milo",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.54,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p04-l01"
+          },
+          {
+            "id": "p04-l02"
+          },
+          {
+            "id": "p04-l03",
+            "characterId": "milo"
+          },
+          {
+            "id": "p04-l04"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-find-object",
+        "zone": {
+          "x": 120,
+          "y": 150,
+          "w": 1360,
+          "h": 660
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "find": [
+            "same"
+          ],
+          "targets": [
+            {
+              "key": "dots",
+              "image": "img.sock-dots",
+              "rect": {
+                "x": 300,
+                "y": 400,
+                "w": 220,
+                "h": 220
+              },
+              "word": "@word.different"
+            },
+            {
+              "key": "same",
+              "image": "img.sock-striped",
+              "rect": {
+                "x": 660,
+                "y": 400,
+                "w": 220,
+                "h": 220
+              },
+              "word": "@word.same"
+            },
+            {
+              "key": "green",
+              "image": "img.sock-green",
+              "rect": {
+                "x": 1020,
+                "y": 400,
+                "w": 220,
+                "h": 220
+              },
+              "word": "@word.different"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p04-bravo",
+        "holdMs": 1000
+      }
+    },
+    {
+      "id": "p05",
+      "scene": {
+        "image": "scene5"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "milo",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.54,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p05-l01"
+          },
+          {
+            "id": "p05-l02"
+          },
+          {
+            "id": "p05-l03",
+            "characterId": "milo"
+          },
+          {
+            "id": "p05-l04"
+          },
+          {
+            "id": "p05-l05",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-listen",
+        "zone": {
+          "x": 400,
+          "y": 160,
+          "w": 800,
+          "h": 650
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "word": "@word.cheep",
+          "correct": "birdhouse",
+          "options": [
+            {
+              "key": "birdhouse",
+              "image": "img.birdhouse"
+            },
+            {
+              "key": "sled",
+              "image": "img.sled"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p05-bravo",
+        "holdMs": 1000
+      }
+    },
+    {
+      "id": "p06",
+      "scene": {
+        "image": "scene6"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "milo",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.54,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p06-l01"
+          },
+          {
+            "id": "p06-l02"
+          },
+          {
+            "id": "p06-l03",
+            "characterId": "milo"
+          },
+          {
+            "id": "p06-l04"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-listen-place",
+        "zone": {
+          "x": 440,
+          "y": 240,
+          "w": 880,
+          "h": 560
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "object": {
+            "image": "img.sock-yellow",
+            "alt": "@p06.alt.sock"
+          },
+          "slots": [
+            {
+              "key": "nest",
+              "at": {
+                "x": 680,
+                "y": 160
+              },
+              "correct": true
+            },
+            {
+              "key": "basket",
+              "at": {
+                "x": 420,
+                "y": 400
+              }
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p06-bravo",
+        "holdMs": 1400,
+        "clip": {
+          "characterId": "pip",
+          "name": "celebrate"
+        }
+      }
+    },
+    {
+      "id": "p07",
+      "scene": {
+        "image": "scene7"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "milo",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.54,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p07-l01"
+          },
+          {
+            "id": "p07-l02",
+            "characterId": "milo"
+          },
+          {
+            "id": "p07-l03"
+          },
+          {
+            "id": "p07-l04"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-find-object",
+        "zone": {
+          "x": 120,
+          "y": 150,
+          "w": 1360,
+          "h": 660
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "find": [
+            "different"
+          ],
+          "targets": [
+            {
+              "key": "different",
+              "image": "img.sock-dots",
+              "rect": {
+                "x": 840,
+                "y": 260,
+                "w": 220,
+                "h": 220
+              },
+              "word": "@word.different"
+            },
+            {
+              "key": "same",
+              "image": "img.mitten-red",
+              "rect": {
+                "x": 420,
+                "y": 260,
+                "w": 220,
+                "h": 220
+              },
+              "word": "@word.same"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p07-bravo",
+        "holdMs": 1000
+      }
+    },
+    {
+      "id": "p08",
+      "scene": {
+        "image": "scene8"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "happy",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "milo",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.54,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p08-l01"
+          },
+          {
+            "id": "p08-l02"
+          },
+          {
+            "id": "p08-l03"
+          },
+          {
+            "id": "p08-l04",
+            "characterId": "milo"
+          }
+        ]
+      },
+      "success": {
+        "celebration": "burst",
+        "holdMs": 900
+      }
+    },
+    {
+      "id": "p09",
+      "scene": {
+        "image": "scene9"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "happy",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "milo",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.54,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p09-l01"
+          },
+          {
+            "id": "p09-l02",
+            "characterId": "pip"
+          },
+          {
+            "id": "p09-l03",
+            "characterId": "milo"
+          },
+          {
+            "id": "p09-l04"
+          }
+        ]
+      },
+      "success": {
+        "celebration": "sticker",
+        "holdMs": 1200
+      }
+    }
+  ],
+  "alignment": {
+    "grade": "PK"
+  }
+}

@@ -57,10 +57,11 @@
       "grade": "PK",
       "teachingPointId": "lib-p01-04",
       "label": "Same vs. different",
-      "premise": "follow the matching trail signs with Hazel the squirrel to reach her treehouse party",
-      "setting": "forest trail",
-      "storyId": "hazels-treehouse-trail",
-      "status": "shipped"
+      "premise": "the wind scatters Milo's paired-up washing line - and one little sock matches nothing at all... until a tiny cheep explains why",
+      "setting": "snowy hillside washing line",
+      "storyId": "the-odd-little-sock",
+      "status": "shipped",
+      "displacedActivity": "hazels-treehouse-trail (activity-shaped; slated for the activities migration per the 2026-07-10 storybook ruling)"
     },
     {
       "part": 1,

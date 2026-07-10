@@ -91,6 +91,13 @@ age-simple (the reading-level WARN watches average word length).
 - Curriculum-neutral **child-facing** framing. The CCSS code lives in metadata/JSON-LD only; no page
   ever says "Common Core" or a standard number to the child (the standing platform rule).
 
+> **THE GOLDEN EXEMPLAR (operator-ratified 2026-07-10): `five-little-ducklings` is
+> "exactly how it is supposed to be."** The standing bar, in the operator's words: *"From
+> beginning to the end there should be a complete meaningful interesting, age appropriate
+> story and all the activities should be strictly connected to the story."* When in doubt
+> about voice, pacing, page shape, or how an activity should sit inside the story — read
+> that book first and match it.
+
 ## 3. Narration voice — write a real book page (the storybook shape)
 
 Voice = warm adult reading to a small child on a lap. Write each page as a PARAGRAPH you would

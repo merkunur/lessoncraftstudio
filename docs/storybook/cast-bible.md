@@ -95,6 +95,20 @@ and the rules for using + adding them. Structured to scale to ~100 characters.
 - **notes:** Poppy's vegetable garden (picket fence, soil beds, harvest basket) is her home
   setting — keep it if she recurs.
 
+### Hazel — the giggly party squirrel
+- **id:** `hazel`
+- **role:** companion
+- **species/look:** a small squirrel — `berry`-purple body with a `creamDeep` belly and a big
+  curled tail with a `cream` swirl; tufted ears (wsv-1 palette; deliberately distinct from
+  Pip's orange).
+- **voice:** quick, giggly, welcoming ("This way! Almost there!").
+- **speech tics:** an excited double hand-clap before announcing something.
+- **best arcs:** Quest (her debut shape), Discovery.
+- **debut:** `hazels-treehouse-trail` (library story #4)
+- **poses:** `neutral`, `happy` (+ idle bob). No clips.
+- **notes:** Hazel's forest treehouse (round cream door, party bunting) is her home — keep its
+  look if she recurs.
+
 > **Adding characters:** most future stories reuse **Pip as guide** + a fresh **companion** for the
 > story's situation. Introduce a *new guide* only when there's a real reason (a themed sub-series). Each
 > new character: fill the template above, author the base atlas (poses + idle) via the placeholder-art

@@ -545,8 +545,8 @@
               "sb-choice-board"
             ],
             "storySlots": 12,
-            "shipped": 0,
-            "status": "open"
+            "shipped": 1,
+            "status": "in_progress"
           },
           {
             "id": "pk-shapes",
@@ -813,6 +813,11 @@
         "storyId": "poppys-big-harvest",
         "pointId": "pk-big-small",
         "library": "story-library-250 lib-p01-03"
+      },
+      {
+        "storyId": "hazels-treehouse-trail",
+        "pointId": "pk-match-same",
+        "library": "story-library-250 lib-p01-04"
       }
     ]
   }

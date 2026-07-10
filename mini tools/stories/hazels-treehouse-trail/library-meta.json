@@ -1,0 +1,38 @@
+{
+  "$schema": "lib-meta-1",
+  "storyId": "hazels-treehouse-trail",
+  "part": 1,
+  "index": 4,
+  "grade": "PK",
+  "teachingPointId": "lib-p01-04",
+  "premise": "follow the matching trail signs with Hazel the squirrel to reach her treehouse party",
+  "setting": "forest trail",
+  "mechanics": [
+    "sb-choice-board",
+    "sb-find-object"
+  ],
+  "guide": "pip",
+  "companions": [
+    "hazel"
+  ],
+  "paletteVersion": "wsv-1",
+  "signatureMoment": "The finale door-match: picking the door that is the same as Hazel's picture card — it opens into the treehouse party with bunting, a glowing window, and Pip's celebrate clip.",
+  "audioSlots": [
+    "p01-l01",
+    "p01-bravo",
+    "p02-l01",
+    "p02-bravo",
+    "p03-l01",
+    "p03-bravo",
+    "p04-l01",
+    "p04-bravo",
+    "p05-l01",
+    "p05-bravo",
+    "p06-l01",
+    "p06-bravo",
+    "p07-l01",
+    "p07-bravo",
+    "p08-l01",
+    "p08-bravo"
+  ]
+}

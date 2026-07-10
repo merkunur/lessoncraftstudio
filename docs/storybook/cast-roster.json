@@ -29,6 +29,13 @@
       "species": "small hedgehog",
       "debut": "poppys-big-harvest",
       "notes": "Gentle gardener; round body, spike crown, cream face. Loves her vegetable patch."
+    },
+    {
+      "id": "hazel",
+      "role": "companion",
+      "species": "small squirrel",
+      "debut": "hazels-treehouse-trail",
+      "notes": "Berry-purple with a big swirl tail; quick, giggly, loves parties in her treehouse."
     }
   ]
 }

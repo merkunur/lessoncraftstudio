@@ -1,0 +1,213 @@
+{
+  "storyId": "hazels-treehouse-trail",
+  "generatedAt": "2026-07-10T09:50:09.265Z",
+  "pageCount": 8,
+  "totalBytes": 954843,
+  "files": [
+    {
+      "path": "art-manifest.json",
+      "bytes": 1518,
+      "sha1": "28e563c4c330d98a5f17696c1cfefac73eca364f"
+    },
+    {
+      "path": "audio/en/README.txt",
+      "bytes": 190,
+      "sha1": "e5e0d3c3321ef00fd0943a9096e0621e4f040558"
+    },
+    {
+      "path": "blueprint.json",
+      "bytes": 18812,
+      "sha1": "79492836a6ee426a2a5ded9ca6ea415d9bc588ce"
+    },
+    {
+      "path": "cast/hazel/hazel.base.json",
+      "bytes": 1592,
+      "sha1": "73a9607fbecc430044778846bbede9e442cdc636"
+    },
+    {
+      "path": "cast/hazel/hazel.base.webp",
+      "bytes": 116400,
+      "sha1": "3e3967267d54eb7f452feeac4f08dec5279780a4"
+    },
+    {
+      "path": "cast/pip/pip.base.json",
+      "bytes": 1924,
+      "sha1": "4ed1a2799e52a7b8d12d33cab7d84b85344b36a9"
+    },
+    {
+      "path": "cast/pip/pip.base.webp",
+      "bytes": 153354,
+      "sha1": "ae96744d8ad6ae8a525cb5125a858640725cc0f6"
+    },
+    {
+      "path": "cast/pip/pip.clips-1.json",
+      "bytes": 2016,
+      "sha1": "f15a888960828de3054322f5b8db75a2229cb995"
+    },
+    {
+      "path": "cast/pip/pip.clips-1.webp",
+      "bytes": 139374,
+      "sha1": "c35b51c2ae9b3c56bdd91c536c8175fa885bf70e"
+    },
+    {
+      "path": "cast/pip/pip.clips.json",
+      "bytes": 3225,
+      "sha1": "0bd1a4a01724a212b89a5f3db41fa62db81c11b5"
+    },
+    {
+      "path": "cast/pip/pip.clips.webp",
+      "bytes": 245890,
+      "sha1": "9a3e576ff9edb8ab8767d1035cbc6dd209685041"
+    },
+    {
+      "path": "library-meta.json",
+      "bytes": 905,
+      "sha1": "9a8de5bd53aadefc35452884098b49dade18ac4f"
+    },
+    {
+      "path": "props/butterfly-blue@2x.webp",
+      "bytes": 6924,
+      "sha1": "f9e41a9090b59cf2659e955384d88d6c8f1cdb9e"
+    },
+    {
+      "path": "props/butterfly-orange@2x.webp",
+      "bytes": 6620,
+      "sha1": "69cfe7c2f579e4032cf4231d60b737aabfd1138c"
+    },
+    {
+      "path": "props/door-arch@2x.webp",
+      "bytes": 2590,
+      "sha1": "96f56c691e3cd85320a151b5c28c3a5109c89af3"
+    },
+    {
+      "path": "props/door-round@2x.webp",
+      "bytes": 3174,
+      "sha1": "49e5699d7383504e6c148aa68b35e9ebb78baa7d"
+    },
+    {
+      "path": "props/door-square@2x.webp",
+      "bytes": 2130,
+      "sha1": "7b3ed40275f1a8a8fccf88500c66243e2c28a564"
+    },
+    {
+      "path": "props/flag-coral@2x.webp",
+      "bytes": 3600,
+      "sha1": "6c2e4037dbd4d0d880d654571a7385183569403c"
+    },
+    {
+      "path": "props/flag-teal@2x.webp",
+      "bytes": 3428,
+      "sha1": "f8ad5c3b99cabafdf2a5c921487c3046a1e4b957"
+    },
+    {
+      "path": "props/lantern-berry@2x.webp",
+      "bytes": 3390,
+      "sha1": "7db2dc32bd91687fb2084a52c2911462e57db5e0"
+    },
+    {
+      "path": "props/lantern-yellow@2x.webp",
+      "bytes": 3608,
+      "sha1": "cf1d9dd059882ecf8ece7ed74004d05b8db288e1"
+    },
+    {
+      "path": "props/mushroom-red@2x.webp",
+      "bytes": 5176,
+      "sha1": "131dee1527c946c42d4b7c190c8f638ce0dd5e7b"
+    },
+    {
+      "path": "props/mushroom-teal@2x.webp",
+      "bytes": 4956,
+      "sha1": "4d861967d8880a7f77bfb6d3277a07bf59ad5538"
+    },
+    {
+      "path": "props/sign-acorn@2x.webp",
+      "bytes": 5358,
+      "sha1": "a2fbd2ec5aaa813e588578b7a6722d1d7f20fc1a"
+    },
+    {
+      "path": "props/sign-berry@2x.webp",
+      "bytes": 5526,
+      "sha1": "7e25821b15af2788c1e81715a84fb0972909e144"
+    },
+    {
+      "path": "props/sign-flower@2x.webp",
+      "bytes": 6626,
+      "sha1": "4e0dc87b5ceb5a45007d3a557fc80a7c13384556"
+    },
+    {
+      "path": "props/sign-leaf@2x.webp",
+      "bytes": 5724,
+      "sha1": "16d14572baf352c59aca67e408988745a5e14de3"
+    },
+    {
+      "path": "props/sign-moon@2x.webp",
+      "bytes": 5726,
+      "sha1": "259d2403fc52ded4dbbd9f731c8bb2d15eb30b81"
+    },
+    {
+      "path": "props/sign-pinecone@2x.webp",
+      "bytes": 5934,
+      "sha1": "5ed6941008ab3b4525e3466ee2f1788df5f293e8"
+    },
+    {
+      "path": "props/sign-star@2x.webp",
+      "bytes": 4640,
+      "sha1": "02e7c0b6f0c4da936db4355819b5e5194da3926b"
+    },
+    {
+      "path": "props/sign-sun@2x.webp",
+      "bytes": 6274,
+      "sha1": "628655036cb96e85ee676fb7c8f014520447dc67"
+    },
+    {
+      "path": "scenes/page-01.webp",
+      "bytes": 17552,
+      "sha1": "713969347762700c2d6edd0ae4b374bffc14329e"
+    },
+    {
+      "path": "scenes/page-02.webp",
+      "bytes": 18124,
+      "sha1": "1e148b5c90ae83de18b08fba3e3f346ae07f3100"
+    },
+    {
+      "path": "scenes/page-03.webp",
+      "bytes": 18668,
+      "sha1": "c54a3cb3d4011259f2dd34a260f011450b640dc0"
+    },
+    {
+      "path": "scenes/page-04.webp",
+      "bytes": 18866,
+      "sha1": "6c1a139e363d380a1be81ce4a2ad8a9d9adc0b78"
+    },
+    {
+      "path": "scenes/page-05.webp",
+      "bytes": 19322,
+      "sha1": "a9ca1a7074292677a8426e1493f821c2da7c682f"
+    },
+    {
+      "path": "scenes/page-06.webp",
+      "bytes": 19566,
+      "sha1": "bf59bfcef55044dad1e6cdb6179b7e7f65fdb065"
+    },
+    {
+      "path": "scenes/page-07.webp",
+      "bytes": 20124,
+      "sha1": "bf151cdb297f0b04692d8c3e7a3fc9d6d13a7e81"
+    },
+    {
+      "path": "scenes/page-08.webp",
+      "bytes": 22554,
+      "sha1": "8ec3c70096939788c41b00ec7a1147e6f0e989f3"
+    },
+    {
+      "path": "story.json",
+      "bytes": 18741,
+      "sha1": "263eea558c88e974dfcc728081648c8bd2d10b29"
+    },
+    {
+      "path": "strings.json",
+      "bytes": 4722,
+      "sha1": "507e5e3798a07816110265f806fb9d7bb5d10698"
+    }
+  ]
+}

@@ -1,34 +1,25 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { extractBearerToken, verifyAccessToken } from './auth-utils';
 import { prisma } from './prisma';
+import { isSubscriptionUsable } from './entitlements';
 
-// Subscriber-API gate: Bearer auth + active LCS subscription check (with
-// admin short-circuit per isLcsSubscriptionActive's two-path semantic —
-// see lib/subscription-helpers.ts).
+// API gates for authenticated + subscriber-only surfaces.
 //
-// Tool 1A (Collections, commit landing this pass) establishes this pattern.
-// Tools 2/5/3/4 + Pillar 1 (lesson plan content) + Pillar 2 (bundles) inherit
-// per project_pillar3_tool1_collections_recon.md HAS-3 (filed deferred for
-// post-Tool-1 doctrine codification).
-//
-// Composes the existing Bearer-token + session lookup pattern (mirroring
-// lib/auth-middleware.ts withAuth and app/api/auth/me/route.ts) with the
-// isLcsSubscriptionActive predicate from lib/subscription-helpers.ts. The
-// user select includes `isAdmin` so the predicate's admin short-circuit
-// path engages when the requester is admin-flagged.
+// HISTORY NOTE (2026-07-11 subscription launch): the original export here was
+// named `requireSubscriber` but only ever enforced AUTHENTICATION (the header
+// comment claimed a subscription check that was never implemented). It is now
+// honestly named `requireAuthenticatedUser`; the real tier gate is
+// `requireActiveSubscriber` below (auth + isSubscriptionUsable — 14-day
+// dunning grace + paid-through-cancellation, see lib/entitlements.ts).
+// `requireSubscriber` remains as a deprecated alias for one release.
 //
 // Return discipline: returns EITHER a NextResponse error (401 unauthenticated /
-// 403 not subscribed) OR a context object with { userId, user }. Caller pattern:
+// 403 subscription_required) OR a context object with { userId, user }:
 //
-//   const gate = await requireSubscriber(request);
+//   const gate = await requireActiveSubscriber(request);
 //   if (gate instanceof NextResponse) return gate;
 //   const { userId, user } = gate;
 //   // ...domain logic
-//
-// Grace-period note: isLcsSubscriptionActive does NOT honor the 60-day grace
-// period documented in CLAUDE.md §7. Tool 1A inherits the existing predicate;
-// the grace-period extension is filed in project_deferred_items_queue.md
-// (HAS-1 entry).
 
 interface SubscriberContext {
   userId: string;
@@ -39,11 +30,13 @@ interface SubscriberContext {
     subscription: {
       status: string | null;
       lsSubscriptionId: string | null;
+      pastDueAt: Date | null;
+      currentPeriodEnd: Date | null;
     } | null;
   };
 }
 
-export async function requireSubscriber(
+export async function requireAuthenticatedUser(
   request: NextRequest
 ): Promise<NextResponse | SubscriberContext> {
   const token = extractBearerToken(request.headers.get('authorization'));
@@ -96,6 +89,8 @@ export async function requireSubscriber(
         select: {
           status: true,
           lsSubscriptionId: true,
+          pastDueAt: true,
+          currentPeriodEnd: true,
         },
       },
     },
@@ -108,6 +103,30 @@ export async function requireSubscriber(
   }
 
   return { userId: user.id, user };
+}
+
+/** @deprecated Renamed 2026-07-11 — this gate is auth-only. Use
+ * `requireAuthenticatedUser`, or `requireActiveSubscriber` for tier gating. */
+export const requireSubscriber = requireAuthenticatedUser;
+
+/**
+ * The real tier gate: authentication + a usable subscription
+ * (active / dunning-grace / paid-through-cancellation, admin bypass).
+ * 403 body carries `error: 'subscription_required'` so client components can
+ * render the upsell state instead of a generic failure.
+ */
+export async function requireActiveSubscriber(
+  request: NextRequest
+): Promise<NextResponse | SubscriberContext> {
+  const gate = await requireAuthenticatedUser(request);
+  if (gate instanceof NextResponse) return gate;
+  if (!isSubscriptionUsable(gate.user)) {
+    return NextResponse.json(
+      { error: 'subscription_required' },
+      { status: 403 }
+    );
+  }
+  return gate;
 }
 
 // Ownership-check helper for Collection-scoped routes. Returns 404 (not 403)

@@ -3899,6 +3899,27 @@
         "Relier une activité quotidienne à son moment",
         "Se repérer dans les moments de la journée"
       ]
+    },
+    "inky-book-workshop.author-illustrator.rl-k-6": {
+      "about": [
+        "Dans l'atelier d'Inky la pieuvre, chaque livre naît de deux mains : l'auteur ÉCRIT les mots et l'illustrateur DESSINE les images. Ton enfant regarde le travail qu'Inky est en train de faire — écrire, dessiner ou lire — et touche à qui est ce travail : l'auteur, l'illustrateur ou le lecteur.",
+        "Connaître les rôles de l'auteur et de l'illustrateur, c'est découvrir la culture du livre — un attendu du CP. Le jeu est gratuit, sans minuteur et sans points : l'enfant relie chaque geste à son rôle, dans le domaine « Lecture et compréhension de l'écrit » des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Nommer l'auteur et l'illustrateur d'un livre",
+        "Distinguer écrire les mots de dessiner les images",
+        "Reconnaître le rôle du lecteur",
+        "Découvrir les acteurs du livre"
+      ],
+      "howToPlay": [
+        "Regarde le travail qu'Inky est en train de faire.",
+        "Touche à qui est ce travail : l'auteur, l'illustrateur ou le lecteur."
+      ],
+      "learningGoals": [
+        "Connaître le rôle de l'auteur et de l'illustrateur",
+        "Relier un geste du livre à son rôle",
+        "Découvrir la culture du livre"
+      ]
     }
   }
 }

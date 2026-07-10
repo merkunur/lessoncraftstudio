@@ -15,18 +15,18 @@
   var Core = global.AuthorIllustratorCore;
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', PURPLE: '#8E6FC4' };
   var EMOJI = { author: '✍️', illustrator: '🎨', reader: '📖' };
-  var LABEL = { en: { author: 'Author', illustrator: 'Illustrator', reader: 'Reader' }, de: { author: 'Autor', illustrator: 'Illustrator', reader: 'Leser' } };
+  var LABEL = { en: { author: 'Author', illustrator: 'Illustrator', reader: 'Reader' }, de: { author: 'Autor', illustrator: 'Illustrator', reader: 'Leser' }, fr: { author: 'Auteur', illustrator: 'Illustrateur', reader: 'Lecteur' } };
   var LANG = 'en';
   function label(role) { return (LABEL[LANG] && LABEL[LANG][role]) || LABEL.en[role]; }
 
   function speak(text) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = (LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function octoSVG() {
-    return '<svg class="ibw-oct-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Inky, der Tintenfisch' : 'Inky the octopus') + '">' +
+    return '<svg class="ibw-oct-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Inky, der Tintenfisch' : LANG === 'fr' ? 'Inky la pieuvre' : 'Inky the octopus') + '">' +
       '<circle cx="50" cy="42" r="22" fill="#8E6FC4"/>' +                          /* head */
       '<circle cx="43" cy="40" r="3" fill="#fff"/><circle cx="57" cy="40" r="3" fill="#fff"/>' +
       '<circle cx="43" cy="40" r="1.5" fill="#2A2A35"/><circle cx="57" cy="40" r="1.5" fill="#2A2A35"/>' +
@@ -50,18 +50,18 @@
     id: 'inky-book-workshop-activity',
 
     strings: {
-      title: { en: "Inky's Book Workshop", de: 'Inkys Buchwerkstatt' },
-      instruction: { en: 'Tap whose job it is: author, illustrator, or reader.', de: 'Tippe, wessen Aufgabe das ist: Autor, Illustrator oder Leser.' },
-      promptWrote: { en: 'Someone WROTE the words. Whose job is that?', de: 'Jemand hat die Wörter GESCHRIEBEN. Wessen Aufgabe ist das?' },
-      promptDrew: { en: 'Someone DREW the pictures. Whose job is that?', de: 'Jemand hat die Bilder GEZEICHNET. Wessen Aufgabe ist das?' },
-      promptRead: { en: 'Someone is READING the book. Whose job is that?', de: 'Jemand LIEST das Buch. Wessen Aufgabe ist das?' },
-      inkyIntro: { en: 'Every book has an author, an illustrator — and a reader!', de: 'Jedes Buch hat einen Autor, einen Illustrator – und einen Leser!' },
-      capWrote: { en: 'Writing the words ✍️', de: 'Die Wörter schreiben ✍️' },
-      capDrew: { en: 'Drawing the pictures 🎨', de: 'Die Bilder zeichnen 🎨' },
-      capRead: { en: 'Reading the book 📖', de: 'Das Buch lesen 📖' },
-      hintPick: { en: 'Author writes the words. Illustrator draws the pictures. Reader reads it.', de: 'Der Autor schreibt die Wörter. Der Illustrator zeichnet die Bilder. Der Leser liest es.' },
-      hintWrong: { en: 'Look again — who WRITES, who DRAWS, who READS?', de: 'Schau noch mal – wer SCHREIBT, wer ZEICHNET, wer LIEST?' },
-      win: { en: 'Yes! You know the job. 🐙', de: 'Ja! Du kennst die Aufgabe. 🐙' }
+      title: { en: "Inky's Book Workshop", de: 'Inkys Buchwerkstatt', fr: 'L’atelier de livres d’Inky' },
+      instruction: { en: 'Tap whose job it is: author, illustrator, or reader.', de: 'Tippe, wessen Aufgabe das ist: Autor, Illustrator oder Leser.', fr: 'Touche à qui est ce travail : auteur, illustrateur ou lecteur.' },
+      promptWrote: { en: 'Someone WROTE the words. Whose job is that?', de: 'Jemand hat die Wörter GESCHRIEBEN. Wessen Aufgabe ist das?', fr: 'Quelqu’un a ÉCRIT les mots. À qui est ce travail ?' },
+      promptDrew: { en: 'Someone DREW the pictures. Whose job is that?', de: 'Jemand hat die Bilder GEZEICHNET. Wessen Aufgabe ist das?', fr: 'Quelqu’un a DESSINÉ les images. À qui est ce travail ?' },
+      promptRead: { en: 'Someone is READING the book. Whose job is that?', de: 'Jemand LIEST das Buch. Wessen Aufgabe ist das?', fr: 'Quelqu’un LIT le livre. À qui est ce travail ?' },
+      inkyIntro: { en: 'Every book has an author, an illustrator — and a reader!', de: 'Jedes Buch hat einen Autor, einen Illustrator – und einen Leser!', fr: 'Chaque livre a un auteur, un illustrateur — et un lecteur !' },
+      capWrote: { en: 'Writing the words ✍️', de: 'Die Wörter schreiben ✍️', fr: 'Écrire les mots ✍️' },
+      capDrew: { en: 'Drawing the pictures 🎨', de: 'Die Bilder zeichnen 🎨', fr: 'Dessiner les images 🎨' },
+      capRead: { en: 'Reading the book 📖', de: 'Das Buch lesen 📖', fr: 'Lire le livre 📖' },
+      hintPick: { en: 'Author writes the words. Illustrator draws the pictures. Reader reads it.', de: 'Der Autor schreibt die Wörter. Der Illustrator zeichnet die Bilder. Der Leser liest es.', fr: 'L’auteur écrit les mots. L’illustrateur dessine les images. Le lecteur le lit.' },
+      hintWrong: { en: 'Look again — who WRITES, who DRAWS, who READS?', de: 'Schau noch mal – wer SCHREIBT, wer ZEICHNET, wer LIEST?', fr: 'Regarde encore — qui ÉCRIT, qui DESSINE, qui LIT ?' },
+      win: { en: 'Yes! You know the job. 🐙', de: 'Ja! Du kennst die Aufgabe. 🐙', fr: 'Oui ! Tu connais le travail. 🐙' }
     },
     defaults: {},
 

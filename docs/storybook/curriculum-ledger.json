@@ -616,6 +616,20 @@
             "storySlots": 10,
             "shipped": 1,
             "status": "in_progress"
+          },
+          {
+            "id": "pk-count-to-10",
+            "label": "Count things up to 10",
+            "cssCode": null,
+            "strand": "Number readiness",
+            "suggestedModules": [
+              "sb-count-tap",
+              "sb-connect-dots",
+              "sb-listen"
+            ],
+            "storySlots": 12,
+            "shipped": 1,
+            "status": "in_progress"
           }
         ],
         "early-literacy-readiness": [
@@ -890,6 +904,11 @@
         "storyId": "the-friendship-picnic",
         "pointId": "pk-doesnt-belong",
         "library": "story-library-250 lib-p01-10"
+      },
+      {
+        "storyId": "lunas-starry-night",
+        "pointId": "pk-count-to-10",
+        "library": "story-library-250 lib-p02-01"
       }
     ]
   }

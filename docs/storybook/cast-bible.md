@@ -166,6 +166,19 @@ and the rules for using + adding them. Structured to scale to ~100 characters.
 - **notes:** Noodle's autumn park and red doghouse are his home; keep the long-scarf gag
   (only a LONG scarf fits him) if he recurs.
 
+### Luna — the counting night owl
+- **id:** `luna`
+- **role:** companion
+- **species/look:** a small owl — `creamDeep` heart-shaped facial disc, `sandDeep` body and
+  wing stubs, little ear tufts, huge friendly night eyes (wsv-1 palette).
+- **voice:** hushed and precise, delighted by numbers ("One… two… let's count them ALL").
+- **speech tics:** a soft "hoo-hoo!" after every completed count.
+- **best arcs:** Discovery (her debut shape — the night reveals itself), Quest.
+- **debut:** `lunas-starry-night` (library story #11 — Part 2 opener)
+- **poses:** `neutral`, `happy` (+ idle bob). No clips.
+- **notes:** Luna owns the night: twilight meadows, fireflies, constellations. Reuse her for
+  any counting-at-night or star story; her Great Star constellation should stay consistent.
+
 > **Adding characters:** most future stories reuse **Pip as guide** + a fresh **companion** for the
 > story's situation. Introduce a *new guide* only when there's a real reason (a themed sub-series). Each
 > new character: fill the template above, author the base atlas (poses + idle) via the placeholder-art

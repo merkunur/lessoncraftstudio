@@ -1,0 +1,41 @@
+{
+  "$schema": "lib-meta-1",
+  "storyId": "lunas-starry-night",
+  "part": 2,
+  "index": 1,
+  "grade": "PK",
+  "teachingPointId": "lib-p02-01",
+  "premise": "count the evening lights with Luna the owl as dusk turns to starry night",
+  "setting": "twilight meadow",
+  "mechanics": [
+    "sb-count-tap",
+    "sb-listen",
+    "sb-listen-place",
+    "sb-trace",
+    "sb-connect-dots"
+  ],
+  "guide": "pip",
+  "companions": [
+    "luna"
+  ],
+  "paletteVersion": "wsv-1",
+  "signatureMoment": "The finale constellation: tapping stars one to ten draws the Great Star across the full night sky the child watched darken all story long.",
+  "audioSlots": [
+    "p01-l01",
+    "p01-bravo",
+    "p02-l01",
+    "p02-bravo",
+    "p03-l01",
+    "p03-bravo",
+    "p04-l01",
+    "p04-bravo",
+    "p05-l01",
+    "p05-bravo",
+    "p06-l01",
+    "p06-bravo",
+    "p07-l01",
+    "p07-bravo",
+    "p08-l01",
+    "p08-bravo"
+  ]
+}

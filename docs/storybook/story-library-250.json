@@ -131,10 +131,10 @@
       "grade": "PK",
       "teachingPointId": "lib-p02-01",
       "label": "Count objects 1–10",
-      "premise": null,
-      "setting": null,
-      "storyId": null,
-      "status": "open"
+      "premise": "count the evening lights with Luna the owl as dusk turns to starry night",
+      "setting": "twilight meadow",
+      "storyId": "lunas-starry-night",
+      "status": "shipped"
     },
     {
       "part": 2,

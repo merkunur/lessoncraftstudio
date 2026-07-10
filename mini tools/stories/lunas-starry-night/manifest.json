@@ -1,0 +1,138 @@
+{
+  "storyId": "lunas-starry-night",
+  "generatedAt": "2026-07-10T14:03:55.009Z",
+  "pageCount": 8,
+  "totalBytes": 796381,
+  "files": [
+    {
+      "path": "art-manifest.json",
+      "bytes": 1027,
+      "sha1": "cdfebe3c35f327bd39f903d55d23b1b2a170feff"
+    },
+    {
+      "path": "audio/en/README.txt",
+      "bytes": 190,
+      "sha1": "e5e0d3c3321ef00fd0943a9096e0621e4f040558"
+    },
+    {
+      "path": "blueprint.json",
+      "bytes": 15559,
+      "sha1": "954100bbc1aa49e09517a2bae99c78bfeea7c357"
+    },
+    {
+      "path": "cast/luna/luna.base.json",
+      "bytes": 1591,
+      "sha1": "230ac7493349c22ef851f1b494b504dcc7db5a78"
+    },
+    {
+      "path": "cast/luna/luna.base.webp",
+      "bytes": 107240,
+      "sha1": "46b89246b0c5783ac5c5a48130ee8d5860fda87a"
+    },
+    {
+      "path": "cast/pip/pip.base.json",
+      "bytes": 1924,
+      "sha1": "4ed1a2799e52a7b8d12d33cab7d84b85344b36a9"
+    },
+    {
+      "path": "cast/pip/pip.base.webp",
+      "bytes": 153354,
+      "sha1": "ae96744d8ad6ae8a525cb5125a858640725cc0f6"
+    },
+    {
+      "path": "cast/pip/pip.clips-1.json",
+      "bytes": 2016,
+      "sha1": "f15a888960828de3054322f5b8db75a2229cb995"
+    },
+    {
+      "path": "cast/pip/pip.clips-1.webp",
+      "bytes": 139374,
+      "sha1": "c35b51c2ae9b3c56bdd91c536c8175fa885bf70e"
+    },
+    {
+      "path": "cast/pip/pip.clips.json",
+      "bytes": 3225,
+      "sha1": "0bd1a4a01724a212b89a5f3db41fa62db81c11b5"
+    },
+    {
+      "path": "cast/pip/pip.clips.webp",
+      "bytes": 245890,
+      "sha1": "9a3e576ff9edb8ab8767d1035cbc6dd209685041"
+    },
+    {
+      "path": "library-meta.json",
+      "bytes": 907,
+      "sha1": "8ea46be326fc7826b4cc8734b5be39d54118547a"
+    },
+    {
+      "path": "props/firefly@2x.webp",
+      "bytes": 8776,
+      "sha1": "b061fbe994c0290a80eaf082ea168a457229a1ad"
+    },
+    {
+      "path": "props/star-cluster-seven@2x.webp",
+      "bytes": 5476,
+      "sha1": "9a4ff0e4d2737185a18b1802e089d15c260e4da4"
+    },
+    {
+      "path": "props/star-cluster-six@2x.webp",
+      "bytes": 5012,
+      "sha1": "517750d49ba61ec35f1010757b0403db08df526f"
+    },
+    {
+      "path": "props/star-lantern@2x.webp",
+      "bytes": 3914,
+      "sha1": "ce169f0d05be302ae02b9ff912267255a4b6c21d"
+    },
+    {
+      "path": "scenes/page-01.webp",
+      "bytes": 7954,
+      "sha1": "f0ef6734bfce19258d8695a2aa3a4672d5937eda"
+    },
+    {
+      "path": "scenes/page-02.webp",
+      "bytes": 7986,
+      "sha1": "e2e674b172084afb796ab4b31a0aecbde8fd1d08"
+    },
+    {
+      "path": "scenes/page-03.webp",
+      "bytes": 9844,
+      "sha1": "57e3efa43033d6cb7be328773c6acddc434e7df3"
+    },
+    {
+      "path": "scenes/page-04.webp",
+      "bytes": 9882,
+      "sha1": "c1ed3cf69a793a236909d41fd58b952d465a2328"
+    },
+    {
+      "path": "scenes/page-05.webp",
+      "bytes": 12786,
+      "sha1": "aa2a23c10aa68a0e4b361f98b2760ad0bfd7db38"
+    },
+    {
+      "path": "scenes/page-06.webp",
+      "bytes": 10680,
+      "sha1": "4dfa484511c2e61f8eac81ff45628fb9bc068b6f"
+    },
+    {
+      "path": "scenes/page-07.webp",
+      "bytes": 10720,
+      "sha1": "3cbf49cd4b4ed992fe800cafc99fe099a55824e2"
+    },
+    {
+      "path": "scenes/page-08.webp",
+      "bytes": 11228,
+      "sha1": "3b632e5a162a02c2bddb8f235cdd2821bc3a9cbf"
+    },
+    {
+      "path": "story.json",
+      "bytes": 15558,
+      "sha1": "48bd2b64f95d7ab83d3074e39f581e23db7b4e01"
+    },
+    {
+      "path": "strings.json",
+      "bytes": 4268,
+      "sha1": "1915a677a078020b6d972a0245c354d268c563db"
+    }
+  ]
+}

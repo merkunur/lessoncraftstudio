@@ -33,10 +33,11 @@
       "grade": "PK",
       "teachingPointId": "lib-p01-02",
       "label": "Identify basic shapes: circle, square, triangle",
-      "premise": "help Bo the beaver fix his broken cart by fitting the circle, square, and triangle parts back",
-      "setting": "green meadow path",
-      "storyId": "bos-wobbly-cart",
-      "status": "shipped"
+      "premise": "chase Bo's runaway round wheel down the lane - round rolls, square sits flat, triangle points the way home",
+      "setting": "sunny rolling-hills lane",
+      "storyId": "the-runaway-wheel",
+      "status": "shipped",
+      "displacedActivity": "bos-wobbly-cart (activity-shaped; slated for the activities migration per the 2026-07-10 storybook ruling)"
     },
     {
       "part": 1,

@@ -36,6 +36,13 @@
       "species": "small squirrel",
       "debut": "hazels-treehouse-trail",
       "notes": "Berry-purple with a big swirl tail; quick, giggly, loves parties in her treehouse."
+    },
+    {
+      "id": "willa",
+      "role": "companion",
+      "species": "small duck",
+      "debut": "willas-washing-day",
+      "notes": "Tidy, cheerful; cream feathers, sunshine bill and feet. Keeps the neatest washing line on the river."
     }
   ]
 }

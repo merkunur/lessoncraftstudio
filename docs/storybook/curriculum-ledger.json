@@ -520,8 +520,8 @@
               "sb-choice-board"
             ],
             "storySlots": 14,
-            "shipped": 0,
-            "status": "open"
+            "shipped": 1,
+            "status": "in_progress"
           },
           {
             "id": "pk-simple-pattern",
@@ -818,6 +818,11 @@
         "storyId": "hazels-treehouse-trail",
         "pointId": "pk-match-same",
         "library": "story-library-250 lib-p01-04"
+      },
+      {
+        "storyId": "willas-washing-day",
+        "pointId": "pk-sort-by-attribute",
+        "library": "story-library-250 lib-p01-05"
       }
     ]
   }

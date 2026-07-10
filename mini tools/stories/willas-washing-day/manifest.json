@@ -1,0 +1,163 @@
+{
+  "storyId": "willas-washing-day",
+  "generatedAt": "2026-07-10T10:03:08.711Z",
+  "pageCount": 8,
+  "totalBytes": 905043,
+  "files": [
+    {
+      "path": "art-manifest.json",
+      "bytes": 1150,
+      "sha1": "7566257313f866b023223acaaa44b519d1a57240"
+    },
+    {
+      "path": "audio/en/README.txt",
+      "bytes": 190,
+      "sha1": "e5e0d3c3321ef00fd0943a9096e0621e4f040558"
+    },
+    {
+      "path": "blueprint.json",
+      "bytes": 19170,
+      "sha1": "9b5c646fa1611755c2766527d22586c4d27167a5"
+    },
+    {
+      "path": "cast/pip/pip.base.json",
+      "bytes": 1924,
+      "sha1": "4ed1a2799e52a7b8d12d33cab7d84b85344b36a9"
+    },
+    {
+      "path": "cast/pip/pip.base.webp",
+      "bytes": 153354,
+      "sha1": "ae96744d8ad6ae8a525cb5125a858640725cc0f6"
+    },
+    {
+      "path": "cast/pip/pip.clips-1.json",
+      "bytes": 2016,
+      "sha1": "f15a888960828de3054322f5b8db75a2229cb995"
+    },
+    {
+      "path": "cast/pip/pip.clips-1.webp",
+      "bytes": 139374,
+      "sha1": "c35b51c2ae9b3c56bdd91c536c8175fa885bf70e"
+    },
+    {
+      "path": "cast/pip/pip.clips.json",
+      "bytes": 3225,
+      "sha1": "0bd1a4a01724a212b89a5f3db41fa62db81c11b5"
+    },
+    {
+      "path": "cast/pip/pip.clips.webp",
+      "bytes": 245890,
+      "sha1": "9a3e576ff9edb8ab8767d1035cbc6dd209685041"
+    },
+    {
+      "path": "cast/willa/willa.base.json",
+      "bytes": 1589,
+      "sha1": "67e4b869ccdf42f9c3a2c686b6db3f98c1075d45"
+    },
+    {
+      "path": "cast/willa/willa.base.webp",
+      "bytes": 85050,
+      "sha1": "53737b24be75b9f4b2b93e3e6ec6bdb73c43844a"
+    },
+    {
+      "path": "library-meta.json",
+      "bytes": 904,
+      "sha1": "820205c35b8d4d1801dc532205591eec5d2b1999"
+    },
+    {
+      "path": "props/basket-red@2x.webp",
+      "bytes": 3730,
+      "sha1": "9c7b336e501f8958c04f3ed7b77288337c9118cf"
+    },
+    {
+      "path": "props/duckie-yellow@2x.webp",
+      "bytes": 6634,
+      "sha1": "6cdb139b75bfa31602efac1951e3be46442549c4"
+    },
+    {
+      "path": "props/mitten-blue@2x.webp",
+      "bytes": 3660,
+      "sha1": "4f89c2146970827733fe904c506d540cf9f2a7b2"
+    },
+    {
+      "path": "props/mitten-red@2x.webp",
+      "bytes": 3440,
+      "sha1": "c7ca9474cf952ea43265ae9fce21b0e9c5fab795"
+    },
+    {
+      "path": "props/shirt-blue@2x.webp",
+      "bytes": 3774,
+      "sha1": "871636923aa98e435478a68f915e2e88cae47873"
+    },
+    {
+      "path": "props/shirt-red@2x.webp",
+      "bytes": 3498,
+      "sha1": "32d7148ce95be09e86101261b60276f2d481684e"
+    },
+    {
+      "path": "props/sock-blue@2x.webp",
+      "bytes": 3162,
+      "sha1": "0aed46e3973ecdc27951baa775a13be6cc2bd188"
+    },
+    {
+      "path": "props/sock-red@2x.webp",
+      "bytes": 2948,
+      "sha1": "23aa29ff5af820a58397e75aa21ac48062b699f8"
+    },
+    {
+      "path": "props/towel-yellow@2x.webp",
+      "bytes": 2014,
+      "sha1": "057b0c7f9812e25c6bbcebbc1fe98583ba6597d6"
+    },
+    {
+      "path": "scenes/page-01.webp",
+      "bytes": 24652,
+      "sha1": "f2063472f6928c1633608ca24803564c2e59c79d"
+    },
+    {
+      "path": "scenes/page-02.webp",
+      "bytes": 21618,
+      "sha1": "296cb0ffe6a1e8701f9a8c74f30e90d4a604a64a"
+    },
+    {
+      "path": "scenes/page-03.webp",
+      "bytes": 22970,
+      "sha1": "0203ba5040453629f06b2956a57fb8e85adeae86"
+    },
+    {
+      "path": "scenes/page-04.webp",
+      "bytes": 26404,
+      "sha1": "fc7187ca877d54c34c2842f98f5e61dfb8716418"
+    },
+    {
+      "path": "scenes/page-05.webp",
+      "bytes": 24522,
+      "sha1": "f6207a1f613433ff3559e18ac033d18d71da2689"
+    },
+    {
+      "path": "scenes/page-06.webp",
+      "bytes": 26514,
+      "sha1": "db2ab572f6a06debbc55cb6d4d6074591ab3272b"
+    },
+    {
+      "path": "scenes/page-07.webp",
+      "bytes": 24686,
+      "sha1": "4ddeffcf1c81c580ea73d3c8d8d9fced6a472f33"
+    },
+    {
+      "path": "scenes/page-08.webp",
+      "bytes": 23102,
+      "sha1": "d30c6359a1bbd59e2ac55da24c02e9dc192d99c6"
+    },
+    {
+      "path": "story.json",
+      "bytes": 19205,
+      "sha1": "9f0aa852ce0f1c75a46c14c70a5f4d1a26e1c705"
+    },
+    {
+      "path": "strings.json",
+      "bytes": 4674,
+      "sha1": "a7d723171f0cb2a845b42c2ce66c9c3da0601a72"
+    }
+  ]
+}

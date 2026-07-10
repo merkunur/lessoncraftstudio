@@ -65,10 +65,10 @@
       "grade": "PK",
       "teachingPointId": "lib-p01-05",
       "label": "Sort objects by one attribute (color)",
-      "premise": null,
-      "setting": null,
-      "storyId": null,
-      "status": "open"
+      "premise": "sort Willa the duck's wind-blown washing back by color",
+      "setting": "riverside washing line",
+      "storyId": "willas-washing-day",
+      "status": "shipped"
     },
     {
       "part": 1,

@@ -33,6 +33,13 @@
       win: 'Richtig! Der Satz stimmt zwar, aber er gehört zum Thema {about}. Er ist hier reingewandert!',
       hear: '🔊 Vorlesen',
       nudge: 'Der Satz gehört zum Thema {topic} – er passt hierher. Suche den Satz, der reingewandert ist!'
+    },
+    fr: {
+      q: 'Quelle phrase s’est trompée de salle ?',
+      sign: 'Le thème de cette salle : {topic}.',
+      win: 'Oui ! C’est vrai, mais c’est une info sur {about}. Elle s’est trompée de salle !',
+      hear: '🔊 Écouter',
+      nudge: 'Non, cette phrase est dans la bonne salle : {topic}. Cherche celle qui s’est trompée !'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -55,8 +62,8 @@
   var WobbleMuseumActivity = {
     id: 'wobble-museum-activity',
     strings: {
-      title: { en: 'The Wobble Museum', de: 'Brams Themen-Museum' },
-      instruction: { en: 'Every room is about ONE thing. Tap the fact that wandered in!', de: 'In jedem Raum geht es um EIN Thema. Ein Satz ist reingewandert und passt nicht dazu. Tippe ihn an!' },
+      title: { en: 'The Wobble Museum', de: 'Brams Themen-Museum', fr: 'Le musée de Bram' },
+      instruction: { en: 'Every room is about ONE thing. Tap the fact that wandered in!', de: 'In jedem Raum geht es um EIN Thema. Ein Satz ist reingewandert und passt nicht dazu. Tippe ihn an!', fr: 'Chaque salle parle d’UNE seule chose. Touche la phrase qui s’est trompée de salle !' },
       q: { en: '{q}' }
     },
 

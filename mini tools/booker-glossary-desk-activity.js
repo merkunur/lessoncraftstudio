@@ -21,12 +21,12 @@
 
   function speak(text, rate) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function bearSVG() {
-    return '<svg class="bgd-bear-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Booker, der Bär' : 'Booker the bear') + '">' +
+    return '<svg class="bgd-bear-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Booker, der Bär' : LANG === 'fr' ? 'Booker l’ours' : 'Booker the bear') + '">' +
       '<circle cx="32" cy="32" r="9" fill="#8A6A4A"/><circle cx="68" cy="32" r="9" fill="#8A6A4A"/>' +   /* ears */
       '<circle cx="32" cy="32" r="4" fill="#B89A78"/><circle cx="68" cy="32" r="4" fill="#B89A78"/>' +
       '<circle cx="50" cy="52" r="27" fill="#9A7A56"/>' +                          /* head */
@@ -41,13 +41,13 @@
     id: 'booker-glossary-desk-activity',
 
     strings: {
-      title: { en: "Booker's Glossary Desk", de: 'Bookers Wörterbuch-Pult' },
-      prompt: { en: 'Which word is on this page?', de: 'Tippe das Wort an, das im ABC zwischen den beiden Leitwörtern steht.' },
-      bookerIntro: { en: 'Use the guide words! Which word comes between them?', de: 'Hallo, ich bin Booker! Im Wörterbuch stehen alle Wörter in der ABC-Reihenfolge — so finde ich jedes Wort ganz schnell.' },
-      theAsk: { en: 'Tap the word that belongs on this page.', de: 'Welches Wort steht im ABC zwischen den beiden Leitwörtern?' },
-      hintPick: { en: 'Tap the word that comes between the guide words in ABC order!', de: 'Schau dir die beiden Leitwörter ganz oben an. Welches Wort kommt im ABC dazwischen?' },
-      hintWrong: { en: "Not on this page — check the guide words again, letter by letter.", de: 'Fast! Vergleiche die Wörter Buchstabe für Buchstabe — erst der erste Buchstabe, dann der zweite. Welches liegt im ABC zwischen den Leitwörtern?' },
-      win: { en: 'Yes! That word is on this page. 📖', de: 'Ja, super! Dieses Wort steht im ABC genau zwischen den beiden Leitwörtern.' }
+      title: { en: "Booker's Glossary Desk", de: 'Bookers Wörterbuch-Pult', fr: 'Le dictionnaire de Booker' },
+      prompt: { en: 'Which word is on this page?', de: 'Tippe das Wort an, das im ABC zwischen den beiden Leitwörtern steht.', fr: 'Quel mot est sur cette page ?' },
+      bookerIntro: { en: 'Use the guide words! Which word comes between them?', de: 'Hallo, ich bin Booker! Im Wörterbuch stehen alle Wörter in der ABC-Reihenfolge — so finde ich jedes Wort ganz schnell.', fr: 'Bonjour, je suis Booker ! Sers-toi des mots repères pour trouver le bon mot.' },
+      theAsk: { en: 'Tap the word that belongs on this page.', de: 'Welches Wort steht im ABC zwischen den beiden Leitwörtern?', fr: 'Touche le mot qui se trouve sur cette page.' },
+      hintPick: { en: 'Tap the word that comes between the guide words in ABC order!', de: 'Schau dir die beiden Leitwörter ganz oben an. Welches Wort kommt im ABC dazwischen?', fr: 'Touche le mot qui vient entre les deux mots repères dans l’ordre alphabétique !' },
+      hintWrong: { en: "Not on this page — check the guide words again, letter by letter.", de: 'Fast! Vergleiche die Wörter Buchstabe für Buchstabe — erst der erste Buchstabe, dann der zweite. Welches liegt im ABC zwischen den Leitwörtern?', fr: 'Presque ! Compare les mots lettre par lettre — d’abord la première lettre, puis la deuxième.' },
+      win: { en: 'Yes! That word is on this page. 📖', de: 'Ja, super! Dieses Wort steht im ABC genau zwischen den beiden Leitwörtern.', fr: 'Oui ! Ce mot est bien sur cette page. 📖' }
     },
     defaults: {},
 
@@ -95,7 +95,7 @@
       root.appendChild(opts);
 
       wrap.appendChild(root); stage.appendChild(wrap);
-      if (!this._spoke) { this._spoke = true; setTimeout(function () { speak(v.g1 + (LANG === 'de' ? ' bis ' : ' to ') + v.g2); }, 320); }
+      if (!this._spoke) { this._spoke = true; setTimeout(function () { speak(v.g1 + (LANG === 'de' ? ' bis ' : LANG === 'fr' ? ' à ' : ' to ') + v.g2); }, 320); }
     },
 
     _tap: function (id, text) {

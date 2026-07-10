@@ -27,13 +27,24 @@
           { "id": "stein-stuhl", "band": 3, "g1": "Stein", "g2": "Stuhl", "words": ["Stadt", "Stern", "Stunde"] },
           { "id": "blatt-blume", "band": 3, "g1": "Blatt", "g2": "Blume", "words": ["Blitz", "Blase", "Dose"] },
           { "id": "tanne-tasse", "band": 3, "g1": "Tanne", "g2": "Tasse", "words": ["Tafel", "Taste", "Tasche"] }
+        ],
+        "fr": [
+          { "id": "banane-dinde", "band": 1, "g1": "banane", "g2": "dinde", "words": ["chat", "abricot", "escargot"] },
+          { "id": "lac-mer", "band": 1, "g1": "lac", "g2": "mer", "words": ["lune", "cabane", "nid"] },
+          { "id": "pomme-sac", "band": 1, "g1": "pomme", "g2": "sac", "words": ["robe", "nappe", "tigre"] },
+          { "id": "fleur-four", "band": 2, "g1": "fleur", "g2": "four", "words": ["fort", "flaque", "fromage"] },
+          { "id": "canard-coq", "band": 2, "g1": "canard", "g2": "coq", "words": ["chat", "cabane", "cube"] },
+          { "id": "salade-soleil", "band": 2, "g1": "salade", "g2": "soleil", "words": ["singe", "sable", "tarte"] },
+          { "id": "tapis-tortue", "band": 2, "g1": "tapis", "g2": "tortue", "words": ["tigre", "table", "vase"] },
+          { "id": "bol-botte", "band": 3, "g1": "bol", "g2": "botte", "words": ["bonbon", "boire", "boule"] },
+          { "id": "pain-porte", "band": 3, "g1": "pain", "g2": "porte", "words": ["pomme", "pagaie", "poule"] }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "booker-glossary-desk", "de": "alphabetisch-ordnen-woerterbuch-nachschlagen-klasse-3" },
-    "page_title": { "en": "Booker's Glossary Desk — Use Guide Words to Find the Page (Grade 2)", "de": "Alphabetisch ordnen üben – Klasse 3 mit Bär Booker" },
-    "page_intro": { "en": "A free interactive Grade 2 vocabulary game: Booker the bear keeps the glossary. Two guide words sit at the top of the page — tap the word that belongs ON this page, the one that comes between them in ABC order. Using guide words to find a word in a glossary or dictionary. Common Core L.2.4.e.", "de": "Alphabetisch ordnen üben: Hilf Bär Booker beim Nachschlagen! Tippe das Wort, das zwischen den beiden Leitwörtern steht. Kostenlos & interaktiv für Klasse 3." },
+    "slug": { "en": "booker-glossary-desk", "de": "alphabetisch-ordnen-woerterbuch-nachschlagen-klasse-3", "fr": "chercher-un-mot-dictionnaire-ordre-alphabetique-ce2" },
+    "page_title": { "en": "Booker's Glossary Desk — Use Guide Words to Find the Page (Grade 2)", "de": "Alphabetisch ordnen üben – Klasse 3 mit Bär Booker", "fr": "Le dictionnaire de Booker : les mots repères (CE2)" },
+    "page_intro": { "en": "A free interactive Grade 2 vocabulary game: Booker the bear keeps the glossary. Two guide words sit at the top of the page — tap the word that belongs ON this page, the one that comes between them in ABC order. Using guide words to find a word in a glossary or dictionary. Common Core L.2.4.e.", "de": "Alphabetisch ordnen üben: Hilf Bär Booker beim Nachschlagen! Tippe das Wort, das zwischen den beiden Leitwörtern steht. Kostenlos & interaktiv für Klasse 3.", "fr": "Un jeu de français CE2, gratuit et interactif : Booker l'ours ouvre son dictionnaire, et chaque page a deux mots repères. Ton enfant touche le mot qui se trouve entre les deux, en comparant les lettres dans l'ordre alphabétique — d'abord la première lettre, puis la deuxième, puis la troisième. Un jeu tout doux pour apprendre à chercher un mot dans le dictionnaire." },
     "kid_prompt_template": "guide-words"
   }
 ]

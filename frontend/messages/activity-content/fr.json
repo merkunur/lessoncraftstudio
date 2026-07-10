@@ -4046,6 +4046,27 @@
         "Choisir la bonne marque (-s ou -x)",
         "Écrire un pluriel qu'on n'entend pas"
       ]
+    },
+    "booker-glossary-desk.guide-words.l-2-4-e": {
+      "about": [
+        "Booker l'ours ouvre son dictionnaire, et chaque page porte deux mots repères, tout en haut. Ton enfant touche, parmi trois mots, celui qui est rangé entre les deux — le mot qui se trouve vraiment sur cette page.",
+        "Chercher un mot avec les mots repères, c'est comparer les mots dans l'ordre alphabétique, lettre par lettre : d'abord la première lettre, puis la deuxième, puis la troisième — une compétence du CE2. Le jeu est gratuit, sans minuteur et sans points : l'enfant lit, compare et choisit, dans le domaine « Étude de la langue » des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Chercher un mot dans le dictionnaire",
+        "Utiliser les mots repères d'une page",
+        "Comparer les mots dans l'ordre alphabétique",
+        "Regarder la deuxième et la troisième lettre"
+      ],
+      "howToPlay": [
+        "Regarde les deux mots repères de la page.",
+        "Touche le mot qui vient entre les deux dans l'ordre alphabétique."
+      ],
+      "learningGoals": [
+        "Se servir des mots repères du dictionnaire",
+        "Ranger les mots dans l'ordre alphabétique",
+        "Comparer les mots lettre par lettre"
+      ]
     }
   }
 }

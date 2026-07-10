@@ -1,8 +1,15 @@
 # Post-approval runbook — forensic-audit remediation (2026-07-10)
 
-Everything below is STAGED (committed `2a4a380b` + `5b6d045d`, pulled onto Hetzner,
-dry-runs verified). It awaits ONE thing: permission to run mutating commands on the
-production server. Run in this exact order (each idempotent, each with backups).
+> **✅ EXECUTED + VERIFIED 2026-07-11** (operator granted SSH access). Steps 1–3 applied:
+> nginx patched (loop URL → 404, slash-less → 301, live PDFs unregressed), 964 canonicals
+> reconciled (post-census zero defects), 3,790 corrupted hreflang clusters stripped
+> (mixed=0). Sitemap revalidated (all 8 shards; conflicts 0, orphans 0); 832 repaired URLs
+> submitted to IndexNow (HTTP 200). **Still pending: a regular `deploy.sh` run** (ships the
+> seasonal hub links `c9595a43` via landing regen) + the operator GSC steps in §5.
+
+Everything below was STAGED (committed `2a4a380b` + `5b6d045d`, pulled onto Hetzner,
+dry-runs verified), then executed as recorded above. Kept for reference/re-runs (each
+step idempotent, each with backups).
 
 ## 1. nginx: PDF loop guard + slash-less deck 301
 ```

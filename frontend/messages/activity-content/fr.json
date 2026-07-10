@@ -4004,6 +4004,27 @@
         "Relier la hauteur à ce que l'on voit",
         "Découvrir le point de vue narratif"
       ]
+    },
+    "sock-and-shadow.puppet-speak.sl-k-6": {
+      "about": [
+        "Au théâtre des objets perdus, Chaussette tient le comptoir et voit le bac ; Ombre, cachée derrière le rideau, ne voit rien du tout. Ton enfant est la voix de Chaussette : il compose la phrase avec des mots-images — la taille, la couleur, la place — pour qu'Ombre trouve le bon objet et aille le chercher.",
+        "Trop vague, et Ombre tient deux objets à la fois ; trop de mots, et elle en oublie la moitié : seul le juste nécessaire réussit. Choisir les bons mots pour se faire comprendre d'un auditeur qui ne voit pas, c'est de la production orale claire — un attendu du CP. Le jeu est gratuit, sans minuteur et sans points, dans le domaine « Langage oral » des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Décrire un objet avec précision",
+        "Choisir les mots justes (taille, couleur, place)",
+        "Penser à l'auditeur qui ne voit pas",
+        "Dire juste ce qu'il faut, ni trop ni trop peu"
+      ],
+      "howToPlay": [
+        "Compose la phrase de Chaussette avec les bons mots.",
+        "Touche « Dis-le à Ombre » pour qu'elle aille chercher."
+      ],
+      "learningGoals": [
+        "Décrire pour se faire comprendre",
+        "Choisir des mots précis et suffisants",
+        "S'adresser clairement à un auditeur"
+      ]
     }
   }
 }

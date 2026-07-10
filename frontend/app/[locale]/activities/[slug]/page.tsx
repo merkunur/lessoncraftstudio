@@ -37,7 +37,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'daisy-plate-stack.plurals.l-k-1-c': { de: '2' },                      // Klasse 2 — Einzahl/Mehrzahl (Numerus/Pluralbildung) = systematische Grammatik (educator-ruled; US L.K.1.c K-cluster → DE Klasse 2)
   'penny-alphabet-trace.letter-formation.l-k-1-a': { de: '1' },          // Klasse 1 — Erstschreiben: formgerechtes Nachspuren der Druckbuchstaben = Kern des Anfangsunterrichts (US L.K.1.a; K-cluster → Klasse 1)
   'rhyme-shop.rhyme.rf-k-2-a': { de: '1' },                              // Klasse 1 — Reime/phonologische Bewusstheit = Kernkompetenz des Anfangsunterrichts (US RF.K.2.a; K-cluster → Klasse 1)
-  'sock-and-shadow.puppet-speak.sl-k-6': { de: '1' },                    // Klasse 1 — KMK Sprechen und Zuhören: verständlich/adressatenbezogen beschreiben (US SL.K.6; K-cluster → Klasse 1)
+  'sock-and-shadow.puppet-speak.sl-k-6': { de: '1', fr: '1' },           // Klasse 1 — KMK Sprechen und Zuhören: verständlich/adressatenbezogen beschreiben (US SL.K.6; K-cluster → Klasse 1). FR CP: décrire un objet avec précision (taille/couleur/place) pour se faire comprendre = production orale claire → CP (parité DE Klasse 1; précédent sunny-side-diner L.K.1.f production orale → CP)
   'contraction.apostrophe.l-2-2-c': { de: '3' },                         // Präposition-Artikel-Verschmelzung (in dem → im) — bewusste Analyse setzt Präposition+Artikel als Wortarten voraus (Klasse-3-Lehrplan) → DE Klasse 3 (en Grade 2)
   'hattie-whose-is-it.possessive.l-1-1-b': { de: '3' },                  // Namen-Genitiv OHNE Apostroph + Deppenapostroph-Erkennung = Rechtschreib-Regel/Apostroph-Bewusstheit → DE Klasse 3 (en Grade 1)
   'otto-picture-book.which-picture.rl-k-7': { de: '1' },                 // Bild-Text-Bezug: vorgelesenen Satz dem passenden Bild einer Bildergeschichte zuordnen (bildgestützt, gehört-nicht-gelesen) = Klasse-1-Kerngeschäft; en stays Kindergarten (K-cluster K-label)
@@ -160,7 +160,7 @@ const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'mango-animal-groups.collective-nouns.l-2-1-a': { de: 'Wortschatz untersuchen und erweitern', fr: 'Le lexique' }, // Sammelnamen = Wortschatzarbeit, not the grammar Bereich (olive/roary/ziggy precedent); „Language" auto-map would read as „Sprache untersuchen"; FR CE1: nommer une collection = trouver le mot juste = « Le lexique » (facette lexicale; l'accord=cycle-3, hors scope; = antonymes/nuances #27/#34/#35/#46/#53)
   'rhyme-shop.rhyme.rf-k-2-a': { de: 'Sprechen und Zuhören' },          // Reime hören = auditive Vorläuferfertigkeit des Lesens; strand-names.ts has no „Reading: Foundational Skills" de entry, so the override sets the chip
   'nila-pond.main-idea-net.ri-k-2': { de: 'Sprechen und Zuhören' },     // Hauptaussage eines VORGELESENEN Sachtexts = verstehend zuhören (KMK „Sprechen und Zuhören"), NOT the RI-sibling „Lesen…" chip — a Klasse-1 child can't decode a 4-Satz-Sachtext selbst; read-aloud/listening modality (rhyme-shop/sock-and-shadow precedent)
-  'sock-and-shadow.puppet-speak.sl-k-6': { de: 'Sprechen und Zuhören' }, // first SL activity in DE; strand-names.ts has no „Speaking & Listening" entry, so the override sets the chip (hattie „Richtig schreiben" precedent)
+  'sock-and-shadow.puppet-speak.sl-k-6': { de: 'Sprechen und Zuhören', fr: 'Langage oral' }, // first SL activity in DE; strand-names.ts has no „Speaking & Listening" entry, so the override sets the chip (hattie „Richtig schreiben" precedent). FR CP: produire une description orale claire pour se faire comprendre → domaine cycle-2 « Langage oral » (= sunny-side-diner production orale)
   'hattie-whose-is-it.possessive.l-1-1-b': { de: 'Richtig schreiben' }, // Namen-Genitiv-s ohne Apostroph = Apostroph-Rechtschreibung, not the grammar Bereich (wally-capital-crane Nomen-Großschreibung precedent)
   'pim-comma-mail.letter-commas.l-2-2-b': { de: 'Richtig schreiben', fr: 'L’orthographe' }, // Kommasetzung bei der Anrede = Zeichensetzung/Rechtschreibung → „Richtig schreiben" (cleo/wally precedent), not the grammar Bereich. FR CE2: le placement de la virgule dans la lettre = marque d'écrire-correctement → « L'orthographe » par cohérence de plateforme (cleo #30 = LE MÊME signe, la virgule, déjà sous « L'orthographe »; wally majuscule + hattie possessif idem); une étiquette « La ponctuation » dédiée fragmenterait la carte; "Language" has no fr in strand-names.ts; en/de fall through
   'compound-meaning.predict.l-2-4-d': { de: 'Wortschatz untersuchen' }, // Komposita-Bedeutung erschließen = vocabulary (the L.2.4 family — affix/sage-root precedent), not the grammar Bereich „Sprache untersuchen"
@@ -479,7 +479,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.227';
+  const ACTIVITY_WRAPPER_VERSION = '9.228';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

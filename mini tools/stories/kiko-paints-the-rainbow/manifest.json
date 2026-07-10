@@ -1,0 +1,133 @@
+{
+  "storyId": "kiko-paints-the-rainbow",
+  "generatedAt": "2026-07-10T10:48:33.995Z",
+  "pageCount": 8,
+  "totalBytes": 874605,
+  "files": [
+    {
+      "path": "art-manifest.json",
+      "bytes": 947,
+      "sha1": "fd60dc0822d5da14389e5001e5393791526cc20d"
+    },
+    {
+      "path": "audio/en/README.txt",
+      "bytes": 190,
+      "sha1": "e5e0d3c3321ef00fd0943a9096e0621e4f040558"
+    },
+    {
+      "path": "blueprint.json",
+      "bytes": 17555,
+      "sha1": "afea13128841839311be6705ff410afef7612028"
+    },
+    {
+      "path": "cast/kiko/kiko.base.json",
+      "bytes": 1591,
+      "sha1": "debbbca0c635e7295fadce41994fec10e311d442"
+    },
+    {
+      "path": "cast/kiko/kiko.base.webp",
+      "bytes": 127100,
+      "sha1": "d7db58ac0df9562758cd6d145da664c1ccfebfce"
+    },
+    {
+      "path": "cast/pip/pip.base.json",
+      "bytes": 1924,
+      "sha1": "4ed1a2799e52a7b8d12d33cab7d84b85344b36a9"
+    },
+    {
+      "path": "cast/pip/pip.base.webp",
+      "bytes": 153354,
+      "sha1": "ae96744d8ad6ae8a525cb5125a858640725cc0f6"
+    },
+    {
+      "path": "cast/pip/pip.clips-1.json",
+      "bytes": 2016,
+      "sha1": "f15a888960828de3054322f5b8db75a2229cb995"
+    },
+    {
+      "path": "cast/pip/pip.clips-1.webp",
+      "bytes": 139374,
+      "sha1": "c35b51c2ae9b3c56bdd91c536c8175fa885bf70e"
+    },
+    {
+      "path": "cast/pip/pip.clips.json",
+      "bytes": 3225,
+      "sha1": "0bd1a4a01724a212b89a5f3db41fa62db81c11b5"
+    },
+    {
+      "path": "cast/pip/pip.clips.webp",
+      "bytes": 245890,
+      "sha1": "9a3e576ff9edb8ab8767d1035cbc6dd209685041"
+    },
+    {
+      "path": "library-meta.json",
+      "bytes": 881,
+      "sha1": "560d0812dd0db5ebc20db9a3413450a6080ac181"
+    },
+    {
+      "path": "props/pot-blue@2x.webp",
+      "bytes": 5558,
+      "sha1": "0b7feaef657ece58b5cc23526de270a2454f66bd"
+    },
+    {
+      "path": "props/pot-red@2x.webp",
+      "bytes": 5302,
+      "sha1": "08fe90066df541e50187d97096c5555dacec4d73"
+    },
+    {
+      "path": "props/pot-yellow@2x.webp",
+      "bytes": 5496,
+      "sha1": "0803911ea59584a19383aea58dc09fddbb7eeb80"
+    },
+    {
+      "path": "scenes/page-01.webp",
+      "bytes": 13372,
+      "sha1": "5d5e89ea1139d5e4eb58418dff0fff9f1cc18518"
+    },
+    {
+      "path": "scenes/page-02.webp",
+      "bytes": 13448,
+      "sha1": "f335ed25b1fe14a8dc454efd318bb976fd9b2c08"
+    },
+    {
+      "path": "scenes/page-03.webp",
+      "bytes": 17666,
+      "sha1": "bee3937c21b0742e730961deb31cad020564fb14"
+    },
+    {
+      "path": "scenes/page-04.webp",
+      "bytes": 17836,
+      "sha1": "1e65f79574b58cbb5948af067295f6b4010549a6"
+    },
+    {
+      "path": "scenes/page-05.webp",
+      "bytes": 18312,
+      "sha1": "d4073816ef16247377976113ed21bac70fc5d3f2"
+    },
+    {
+      "path": "scenes/page-06.webp",
+      "bytes": 18174,
+      "sha1": "43cf1b7efe686b1d25dab3a6bfd019fa24ca4a62"
+    },
+    {
+      "path": "scenes/page-07.webp",
+      "bytes": 19606,
+      "sha1": "646e8f5401462d1a3341a9bab81294947905472f"
+    },
+    {
+      "path": "scenes/page-08.webp",
+      "bytes": 23818,
+      "sha1": "47b9887e053bd8159dff49344adf2cffe0ec94dd"
+    },
+    {
+      "path": "story.json",
+      "bytes": 17702,
+      "sha1": "4065d82909477d4889862ccf9b32e9c6146a2029"
+    },
+    {
+      "path": "strings.json",
+      "bytes": 4268,
+      "sha1": "9ae14c37228301f3ebfc7243413028841c19636f"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "lib-meta-1",
+  "storyId": "kiko-paints-the-rainbow",
+  "part": 1,
+  "index": 7,
+  "grade": "PK",
+  "teachingPointId": "lib-p01-07",
+  "premise": "wake the rainbow's colors with Kiko the chameleon after the rain",
+  "setting": "after-the-rain meadow",
+  "mechanics": [
+    "sb-listen",
+    "sb-trace",
+    "sb-dot-stamp",
+    "sb-maze"
+  ],
+  "guide": "pip",
+  "companions": [
+    "kiko"
+  ],
+  "paletteVersion": "wsv-1",
+  "signatureMoment": "The finale cloud-maze: Kiko carries the paint home to the rainbow's foot and the whole rainbow blazes vivid with the woken sun and sparkles.",
+  "audioSlots": [
+    "p01-l01",
+    "p01-bravo",
+    "p02-l01",
+    "p02-bravo",
+    "p03-l01",
+    "p03-bravo",
+    "p04-l01",
+    "p04-bravo",
+    "p05-l01",
+    "p05-bravo",
+    "p06-l01",
+    "p06-bravo",
+    "p07-l01",
+    "p07-bravo",
+    "p08-l01",
+    "p08-bravo"
+  ]
+}

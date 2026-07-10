@@ -135,6 +135,19 @@ and the rules for using + adding them. Structured to scale to ~100 characters.
 - **notes:** Milo's snowy hill, log cabin, and red sled are his home setting; everything he
   owns comes in twos — keep the paired-things gag if he recurs.
 
+### Kiko — the color-dreaming chameleon
+- **id:** `kiko`
+- **role:** companion
+- **species/look:** a small chameleon — `leaf`-green body, big curled spiral tail, a soft
+  `coral` back-crest of rounded bumps, huge wondering eyes (wsv-1 palette).
+- **voice:** hushed wonder, in love with colors ("Ooooh… look at THAT one!").
+- **speech tics:** names colors in a happy whisper, like secrets.
+- **best arcs:** Discovery (his debut shape), Quest.
+- **debut:** `kiko-paints-the-rainbow` (library story #7)
+- **poses:** `neutral`, `happy` (+ idle bob). No clips.
+- **notes:** Kiko's rainbow and the after-the-rain meadow are his home; he is the library's
+  color specialist — reuse him whenever a story is about color.
+
 > **Adding characters:** most future stories reuse **Pip as guide** + a fresh **companion** for the
 > story's situation. Introduce a *new guide* only when there's a real reason (a themed sub-series). Each
 > new character: fill the template above, author the base atlas (poses + idle) via the placeholder-art

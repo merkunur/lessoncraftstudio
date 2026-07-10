@@ -574,6 +574,20 @@
             "storySlots": 10,
             "shipped": 1,
             "status": "in_progress"
+          },
+          {
+            "id": "pk-colors",
+            "label": "Name the colors",
+            "cssCode": null,
+            "strand": "Color readiness",
+            "suggestedModules": [
+              "sb-listen",
+              "sb-trace",
+              "sb-color-code"
+            ],
+            "storySlots": 10,
+            "shipped": 1,
+            "status": "in_progress"
           }
         ],
         "early-literacy-readiness": [
@@ -828,6 +842,11 @@
         "storyId": "milos-mitten-match",
         "pointId": "pk-match-same",
         "library": "story-library-250 lib-p01-06"
+      },
+      {
+        "storyId": "kiko-paints-the-rainbow",
+        "pointId": "pk-colors",
+        "library": "story-library-250 lib-p01-07"
       }
     ]
   }

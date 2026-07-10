@@ -87,10 +87,10 @@
       "grade": "PK",
       "teachingPointId": "lib-p01-07",
       "label": "Identify primary colors",
-      "premise": null,
-      "setting": null,
-      "storyId": null,
-      "status": "open"
+      "premise": "wake the rainbow's colors with Kiko the chameleon after the rain",
+      "setting": "after-the-rain meadow",
+      "storyId": "kiko-paints-the-rainbow",
+      "status": "shipped"
     },
     {
       "part": 1,

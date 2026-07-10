@@ -50,6 +50,13 @@
       "species": "small penguin",
       "debut": "milos-mitten-match",
       "notes": "Navy (night) body, cream belly and face, sunshine beak and feet; loves sledding and cocoa; everything he owns comes in twos."
+    },
+    {
+      "id": "kiko",
+      "role": "companion",
+      "species": "small chameleon",
+      "debut": "kiko-paints-the-rainbow",
+      "notes": "Leaf-green with a curled spiral tail and a coral back-crest; dreams in color; googly-eyed wonder."
     }
   ]
 }

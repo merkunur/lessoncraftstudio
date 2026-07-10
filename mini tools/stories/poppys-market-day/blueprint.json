@@ -1,0 +1,758 @@
+{
+  "$schema": "blueprint-1",
+  "id": "poppys-market-day",
+  "title": "Poppy's Market Day",
+  "grade": "PK",
+  "arc": "collect-and-sort",
+  "teachingPoint": {
+    "id": "pk-big-small",
+    "grade": "PK",
+    "cssCode": null,
+    "strand": "Measurement readiness",
+    "label": "Big or small?"
+  },
+  "guide": "pip",
+  "companions": [
+    "poppy"
+  ],
+  "reward": {
+    "id": "story.poppys-market-day",
+    "emoji": "🧺",
+    "label": "Market Day"
+  },
+  "assets": [
+    {
+      "id": "scene1",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-market-day/scenes/page-01.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene2",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-market-day/scenes/page-02.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene3",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-market-day/scenes/page-03.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene4",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-market-day/scenes/page-04.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene5",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-market-day/scenes/page-05.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene6",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-market-day/scenes/page-06.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene7",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-market-day/scenes/page-07.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene8",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-market-day/scenes/page-08.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "atlas.pip.base",
+      "kind": "atlas",
+      "src": "/mini-tools/stories/poppys-market-day/cast/pip/pip.base.json"
+    },
+    {
+      "id": "atlas.pip.clips",
+      "kind": "atlas",
+      "src": "/mini-tools/stories/poppys-market-day/cast/pip/pip.clips.json"
+    },
+    {
+      "id": "atlas.poppy.base",
+      "kind": "atlas",
+      "src": "/mini-tools/stories/poppys-market-day/cast/poppy/poppy.base.json"
+    },
+    {
+      "id": "img.cabbage-big",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-market-day/props/cabbage-big@2x.webp"
+    },
+    {
+      "id": "img.cabbage-small",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-market-day/props/cabbage-small@2x.webp"
+    },
+    {
+      "id": "img.plum",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-market-day/props/plum@2x.webp"
+    },
+    {
+      "id": "img.jar-big",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-market-day/props/jar-big@2x.webp"
+    },
+    {
+      "id": "img.jar-small",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-market-day/props/jar-small@2x.webp"
+    },
+    {
+      "id": "img.watermelon-big",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-market-day/props/watermelon-big@2x.webp"
+    },
+    {
+      "id": "img.watermelon-small",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-market-day/props/watermelon-small@2x.webp"
+    },
+    {
+      "id": "img.pear-big",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-market-day/props/pear-big@2x.webp"
+    },
+    {
+      "id": "img.pear-small",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-market-day/props/pear-small@2x.webp"
+    },
+    {
+      "id": "img.bee",
+      "kind": "image",
+      "src": "/mini-tools/stories/poppys-market-day/props/bee@2x.webp"
+    }
+  ],
+  "pages": [
+    {
+      "scene": {
+        "image": "scene1"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "poppy",
+          "atlasBase": "atlas.poppy.base",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "id": "p01-l01",
+          "text": "Listen! Find the big cabbage!"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-listen",
+        "zone": {
+          "x": 400,
+          "y": 160,
+          "w": 800,
+          "h": 650
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "word": "@word.big",
+          "correct": "big",
+          "options": [
+            {
+              "key": "big",
+              "image": "img.cabbage-big"
+            },
+            {
+              "key": "small",
+              "image": "img.cabbage-small"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p01-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "scene": {
+        "image": "scene2"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "poppy",
+          "atlasBase": "atlas.poppy.base",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "id": "p02-l01",
+          "text": "Big cabbage, big crate!"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-listen-place",
+        "zone": {
+          "x": 440,
+          "y": 300,
+          "w": 880,
+          "h": 520
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "object": {
+            "image": "img.cabbage-big",
+            "alt": "@p02.alt.cabbage"
+          },
+          "slots": [
+            {
+              "key": "big",
+              "at": {
+                "x": 680,
+                "y": 360
+              },
+              "correct": true
+            },
+            {
+              "key": "small",
+              "at": {
+                "x": 400,
+                "y": 160
+              }
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p02-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "scene": {
+        "image": "scene3"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "poppy",
+          "atlasBase": "atlas.poppy.base",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "id": "p03-l01",
+          "text": "Color big teal, small yellow!"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-color-code",
+        "zone": {
+          "x": 300,
+          "y": 160,
+          "w": 970,
+          "h": 660
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "legend": [
+            {
+              "key": "big",
+              "color": "#146B5E"
+            },
+            {
+              "key": "small",
+              "color": "#F7C948"
+            }
+          ],
+          "regions": [
+            {
+              "rect": {
+                "x": 10,
+                "y": 230,
+                "w": 310,
+                "h": 420
+              },
+              "correct": "big"
+            },
+            {
+              "rect": {
+                "x": 345,
+                "y": 370,
+                "w": 265,
+                "h": 280
+              },
+              "correct": "small"
+            },
+            {
+              "rect": {
+                "x": 635,
+                "y": 230,
+                "w": 310,
+                "h": 420
+              },
+              "correct": "big"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p03-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "scene": {
+        "image": "scene4"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "poppy",
+          "atlasBase": "atlas.poppy.base",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "id": "p04-l01",
+          "text": "Find the big and small pears!"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-find-object",
+        "zone": {
+          "x": 120,
+          "y": 150,
+          "w": 1360,
+          "h": 660
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "find": [
+            "pear-big",
+            "pear-small"
+          ],
+          "targets": [
+            {
+              "key": "pear-big",
+              "image": "img.pear-big",
+              "rect": {
+                "x": 240,
+                "y": 180,
+                "w": 340,
+                "h": 340
+              },
+              "word": "@word.big"
+            },
+            {
+              "key": "pear-small",
+              "image": "img.pear-small",
+              "rect": {
+                "x": 700,
+                "y": 380,
+                "w": 220,
+                "h": 220
+              },
+              "word": "@word.small"
+            },
+            {
+              "key": "bee",
+              "image": "img.bee",
+              "rect": {
+                "x": 1050,
+                "y": 160,
+                "w": 200,
+                "h": 200
+              },
+              "word": "@p04.word.bee"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p04-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "scene": {
+        "image": "scene5"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "poppy",
+          "atlasBase": "atlas.poppy.base",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "id": "p05-l01",
+          "text": "Small plum, small basket!"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-listen-place",
+        "zone": {
+          "x": 440,
+          "y": 300,
+          "w": 880,
+          "h": 520
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "object": {
+            "image": "img.plum",
+            "alt": "@p05.alt.plum"
+          },
+          "slots": [
+            {
+              "key": "small",
+              "at": {
+                "x": 680,
+                "y": 380
+              },
+              "correct": true
+            },
+            {
+              "key": "big",
+              "at": {
+                "x": 400,
+                "y": 160
+              }
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p05-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "scene": {
+        "image": "scene6"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "poppy",
+          "atlasBase": "atlas.poppy.base",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "id": "p06-l01",
+          "text": "Listen! Pick the small jar!"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-listen",
+        "zone": {
+          "x": 400,
+          "y": 160,
+          "w": 800,
+          "h": 650
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "word": "@word.small",
+          "correct": "small",
+          "options": [
+            {
+              "key": "small",
+              "image": "img.jar-small"
+            },
+            {
+              "key": "big",
+              "image": "img.jar-big"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p06-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "scene": {
+        "image": "scene7"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "poppy",
+          "atlasBase": "atlas.poppy.base",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "id": "p07-l01",
+          "text": "Tap the big watermelon!"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-choice-board",
+        "zone": {
+          "x": 500,
+          "y": 210,
+          "w": 660,
+          "h": 540
+        },
+        "completionMode": "check",
+        "taskData": {
+          "targetKey": "big",
+          "options": [
+            {
+              "key": "small",
+              "image": "img.watermelon-small"
+            },
+            {
+              "key": "big",
+              "image": "img.watermelon-big"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p07-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "scene": {
+        "image": "scene8"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "happy",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "poppy",
+          "atlasBase": "atlas.poppy.base",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "id": "p08-l01",
+          "text": "Tap all the big ones!"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-dot-stamp",
+        "zone": {
+          "x": 300,
+          "y": 220,
+          "w": 1000,
+          "h": 560
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "dots": [
+            {
+              "x": 150,
+              "y": 180
+            },
+            {
+              "x": 450,
+              "y": 180
+            },
+            {
+              "x": 750,
+              "y": 180
+            },
+            {
+              "x": 300,
+              "y": 390
+            }
+          ],
+          "stampColor": "#146B5E"
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p08-bravo",
+        "holdMs": 1400,
+        "clip": {
+          "characterId": "pip",
+          "name": "celebrate"
+        }
+      }
+    }
+  ]
+}

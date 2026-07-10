@@ -96,9 +96,12 @@ and the rules for using + adding them. Structured to scale to ~100 characters.
 - **speech tics:** a happy little sniff-sniff when something smells ripe.
 - **best arcs:** Collect-and-sort (her debut shape), Discovery.
 - **debut:** `poppys-big-harvest` (library story #3)
+- **recurs in:** `poppys-market-day` (library story #14 — market day: the whole harvest
+  sorted into big and small for her garden market stand)
 - **poses:** `neutral`, `happy` (+ idle bob). No clips.
 - **notes:** Poppy's vegetable garden (picket fence, soil beds, harvest basket) is her home
-  setting — keep it if she recurs.
+  setting — keep it if she recurs. As of #14 she also owns her little market stand
+  (sandDeep counter, striped awning, bunting) — keep its look.
 
 ### Hazel — the giggly party squirrel
 - **id:** `hazel`

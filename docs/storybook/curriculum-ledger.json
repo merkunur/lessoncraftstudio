@@ -572,7 +572,7 @@
               "sb-listen-place"
             ],
             "storySlots": 10,
-            "shipped": 1,
+            "shipped": 2,
             "status": "in_progress"
           },
           {
@@ -933,6 +933,11 @@
         "storyId": "gigis-tall-lookout",
         "pointId": "pk-tall-short",
         "library": "story-library-250 lib-p02-03"
+      },
+      {
+        "storyId": "poppys-market-day",
+        "pointId": "pk-big-small",
+        "library": "story-library-250 lib-p02-04"
       }
     ]
   }

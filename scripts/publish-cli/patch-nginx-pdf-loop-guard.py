@@ -14,7 +14,6 @@ Forensic-audit 2026-07-10 defects fixed (docs/audit-results/seo-forensic-audit-2
 Markers: LCS-PDF-LOOP-GUARD / LCS-DECK-SLASHLESS. Re-run safe (no-ops when markers present).
 Writes a timestamped backup to /root/nginx-backup-<utc>.conf, runs `nginx -t`, reloads.
 """
-import re
 import shutil
 import subprocess
 import sys
@@ -38,7 +37,7 @@ for kind in ("printable", "answer-key"):
         print(f"[skip] {marker} already present")
         continue
     loc_line = (
-        f"    location ~ ^/({LOCALES})/decks/([^/]+)/(.+-{re.escape(kind)}\\.pdf)$ {{"
+        f"    location ~ ^/({LOCALES})/decks/([^/]+)/(.+-{kind}\\.pdf)$ {{"
     )
     idx = conf.find(loc_line)
     if idx == -1:

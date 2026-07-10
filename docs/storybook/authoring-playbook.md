@@ -146,6 +146,15 @@ Same teaching point, gently rising load across pages. Concrete recipes:
 
 ## 5. Mechanic-selection guide (teaching-point → module)
 
+> **Storybook rule (v3, operator ruling): the child acts on the STORY'S OBJECTS in the
+> STORY'S WORLD.** Interactions must render in-scene — `sb-find-object` (tap the real
+> thing; a decoy wobbles gently), `sb-listen` (frameless scene-object options + the
+> sound bubble), `sb-listen-place` (drag the bare story object, soft shadow, dim slot
+> hints), `sb-trace` / `sb-connect-dots` / `sb-count-tap` (already act on the scene).
+> Card-styled modules (`sb-choice-board` with white tiles + a Check button) are NOT
+> usable in storybooks — quiz chrome breaks the story world. And the reader ALWAYS
+> turns the page (the pulsing next arrow invites; the engine never auto-advances).
+
 Pick the module whose *thinking type* matches the teaching point. When two fit, prefer the one needing
 **zero new art** (native modules + image library) over a bespoke build.
 

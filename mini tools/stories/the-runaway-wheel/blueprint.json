@@ -256,24 +256,40 @@
         }
       ],
       "interaction": {
-        "moduleType": "sb-choice-board",
+        "moduleType": "sb-find-object",
         "zone": {
-          "x": 500,
-          "y": 210,
-          "w": 660,
-          "h": 540
+          "x": 120,
+          "y": 150,
+          "w": 1360,
+          "h": 660
         },
-        "completionMode": "check",
+        "completionMode": "auto",
         "taskData": {
-          "targetKey": "circle",
-          "options": [
+          "find": [
+            "circle"
+          ],
+          "targets": [
             {
               "key": "circle",
-              "image": "img.circle-tile"
+              "image": "img.circle-tile",
+              "rect": {
+                "x": 440,
+                "y": 370,
+                "w": 260,
+                "h": 260
+              },
+              "word": "@word.round"
             },
             {
               "key": "square",
-              "image": "img.square-tile"
+              "image": "img.square-tile",
+              "rect": {
+                "x": 780,
+                "y": 370,
+                "w": 260,
+                "h": 260
+              },
+              "word": "@p02.word.square"
             }
           ]
         }

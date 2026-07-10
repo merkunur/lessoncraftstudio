@@ -1,8 +1,8 @@
 {
   "storyId": "the-runaway-wheel",
-  "generatedAt": "2026-07-10T16:32:34.339Z",
+  "generatedAt": "2026-07-10T16:57:05.591Z",
   "pageCount": 9,
-  "totalBytes": 912160,
+  "totalBytes": 913184,
   "files": [
     {
       "path": "art-manifest.json",
@@ -16,8 +16,8 @@
     },
     {
       "path": "blueprint.json",
-      "bytes": 20342,
-      "sha1": "e15f484c953c3228aedc4bb0c54eb3318091d42b"
+      "bytes": 20745,
+      "sha1": "9427d537efb05043738d7f1dda629602d7c6d7b1"
     },
     {
       "path": "cast/bo/bo.base.json",
@@ -151,13 +151,13 @@
     },
     {
       "path": "story.json",
-      "bytes": 19098,
-      "sha1": "608f771df7c9b8137e9cbc04d5c3eb992f8cea7c"
+      "bytes": 19501,
+      "sha1": "9760aff4d448796ebcfd9b8ffec5d456aabb00d8"
     },
     {
       "path": "strings.json",
-      "bytes": 12030,
-      "sha1": "1d60b42849789dfac997598332cb7e3dfdf29e0e"
+      "bytes": 12248,
+      "sha1": "becb22d074b9dd230a0f67d57e7a4308590f6e02"
     }
   ]
 }

@@ -27,7 +27,7 @@
     var css = [
       '.sblp{position:relative;width:100%;height:100%;}',
       '.sblp-svg{display:block;width:100%;height:100%;touch-action:none;}',
-      '.sblp-slot{fill:rgba(20,107,94,.05);stroke:#5b5145;stroke-width:5;stroke-dasharray:14 12;}',
+      '.sblp-slot{fill:rgba(20,107,94,.04);stroke:rgba(91,81,69,.55);stroke-width:4;stroke-dasharray:12 14;}',
       '.sblp-slot.sblp-lit{stroke:#F2784B;}',
       '.sblp-slot.sblp-ans{stroke:#F2784B;animation:sblp-pulse 1.1s ease-in-out infinite;}',
       '@keyframes sblp-pulse{0%,100%{opacity:.55;}50%{opacity:1;}}',
@@ -130,8 +130,12 @@
           /* draggable object in a tray corner (bottom-left, away from the spots) */
           var hx = OS / 2 + 40, hy = ctx.zone.h - OS / 2 - 30;
           objG = svg('g', { class: 'sblp-obj' });
-          objG.appendChild(svg('circle', { cx: 0, cy: 0, r: OS / 2, fill: '#fff', 'fill-opacity': '.85', stroke: '#5b5145', 'stroke-width': 3 }));
-          try { objG.appendChild(imageAt(ctx.assets.url(ctx.taskData.object.image), 0, 0, OS * 0.82)); } catch (e) {}
+          /* v3 (storybook de-quiz): the dragged thing IS the story's object — no white
+             disc backing; a soft ground shadow keeps it liftable-looking. The full
+             OS-sized transparent hit circle preserves the PK drag-handle floor. */
+          objG.appendChild(svg('circle', { cx: 0, cy: 0, r: OS / 2, fill: '#fff', 'fill-opacity': '0.001' }));
+          objG.appendChild(svg('ellipse', { cx: 0, cy: OS * 0.4, rx: OS * 0.36, ry: OS * 0.09, fill: '#1c1a17', opacity: '0.18' }));
+          try { objG.appendChild(imageAt(ctx.assets.url(ctx.taskData.object.image), 0, 0, OS * 0.95)); } catch (e) {}
           sv.appendChild(objG);
           obj = { cx: hx, cy: hy, home: { x: hx, y: hy }, grab: { dx: 0, dy: 0 } };
           objG.setAttribute('transform', 'translate(' + hx + ',' + hy + ')');

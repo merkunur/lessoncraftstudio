@@ -261,24 +261,40 @@
         }
       ],
       "interaction": {
-        "moduleType": "sb-choice-board",
+        "moduleType": "sb-find-object",
         "zone": {
-          "x": 500,
-          "y": 210,
-          "w": 660,
-          "h": 540
+          "x": 120,
+          "y": 150,
+          "w": 1360,
+          "h": 660
         },
-        "completionMode": "check",
+        "completionMode": "auto",
         "taskData": {
-          "targetKey": "small",
-          "options": [
+          "find": [
+            "cookie-small"
+          ],
+          "targets": [
             {
-              "key": "big",
-              "image": "img.cookie-big"
+              "key": "cookie-small",
+              "image": "img.cookie-small",
+              "rect": {
+                "x": 400,
+                "y": 410,
+                "w": 220,
+                "h": 220
+              },
+              "word": "@p02.word.small"
             },
             {
-              "key": "small",
-              "image": "img.cookie-small"
+              "key": "cookie-big",
+              "image": "img.cookie-big",
+              "rect": {
+                "x": 700,
+                "y": 350,
+                "w": 300,
+                "h": 300
+              },
+              "word": "@p02.word.big"
             }
           ]
         }

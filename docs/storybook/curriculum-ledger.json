@@ -558,7 +558,7 @@
               "sb-find-object"
             ],
             "storySlots": 12,
-            "shipped": 2,
+            "shipped": 3,
             "status": "in_progress"
           },
           {
@@ -943,6 +943,11 @@
         "storyId": "five-little-ducklings",
         "pointId": "pk-count-to-5",
         "library": "story-library-250 lib-p01-01 (the first TRUE storybook)"
+      },
+      {
+        "storyId": "the-runaway-wheel",
+        "pointId": "pk-shapes",
+        "library": "story-library-250 lib-p01-02 (true storybook)"
       }
     ]
   }

@@ -80,7 +80,9 @@ and the rules for using + adding them. Structured to scale to ~100 characters.
 - **best arcs:** Fix-a-mess (his debut shape), Quest.
 - **debut:** `bos-wobbly-cart` (library story #2)
 - **recurs in:** `bo-builds-a-house` (library story #12 — his brand-new riverside house goes up,
-  every piece a rectangle or an oval; the fixed cart cameos hauling planks)
+  every piece a rectangle or an oval; the fixed cart cameos hauling planks);
+  `the-runaway-wheel` (the TRUE-storybook retelling of his cart's tale — the round wheel
+  pops off and rolls away; round rolls, square sits flat, triangle points the way home)
 - **poses:** `neutral`, `happy` (+ idle bob). No clips; his joy reads in the pose swap.
 - **notes:** Bo's little wooden cart (round wheel, square crate, triangle flag) is his signature
   prop — keep the fixed cart's look if he recurs. As of #12 he also owns his riverside house

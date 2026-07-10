@@ -1,0 +1,163 @@
+{
+  "storyId": "the-runaway-wheel",
+  "generatedAt": "2026-07-10T16:06:05.817Z",
+  "pageCount": 9,
+  "totalBytes": 909361,
+  "files": [
+    {
+      "path": "art-manifest.json",
+      "bytes": 1118,
+      "sha1": "7e310f3f8ffc83032a7566c07cddf876b99eb48b"
+    },
+    {
+      "path": "audio/en/README.txt",
+      "bytes": 190,
+      "sha1": "e5e0d3c3321ef00fd0943a9096e0621e4f040558"
+    },
+    {
+      "path": "blueprint.json",
+      "bytes": 19444,
+      "sha1": "4dbcab116f6773121c90179515f8edc553d4adce"
+    },
+    {
+      "path": "cast/bo/bo.base.json",
+      "bytes": 1597,
+      "sha1": "92720ae64a83735b6cfb64bfecd545b0a4d475c6"
+    },
+    {
+      "path": "cast/bo/bo.base.webp",
+      "bytes": 108080,
+      "sha1": "cae29a0594c2cd7ac0dee98e766775d576bcdafb"
+    },
+    {
+      "path": "cast/pip/pip.base.json",
+      "bytes": 1924,
+      "sha1": "4ed1a2799e52a7b8d12d33cab7d84b85344b36a9"
+    },
+    {
+      "path": "cast/pip/pip.base.webp",
+      "bytes": 153354,
+      "sha1": "ae96744d8ad6ae8a525cb5125a858640725cc0f6"
+    },
+    {
+      "path": "cast/pip/pip.clips-1.json",
+      "bytes": 2016,
+      "sha1": "f15a888960828de3054322f5b8db75a2229cb995"
+    },
+    {
+      "path": "cast/pip/pip.clips-1.webp",
+      "bytes": 139374,
+      "sha1": "c35b51c2ae9b3c56bdd91c536c8175fa885bf70e"
+    },
+    {
+      "path": "cast/pip/pip.clips.json",
+      "bytes": 3225,
+      "sha1": "0bd1a4a01724a212b89a5f3db41fa62db81c11b5"
+    },
+    {
+      "path": "cast/pip/pip.clips.webp",
+      "bytes": 245890,
+      "sha1": "9a3e576ff9edb8ab8767d1035cbc6dd209685041"
+    },
+    {
+      "path": "library-meta.json",
+      "bytes": 1394,
+      "sha1": "0ef0dac66f269af42a1be66303f3e9099cce6acf"
+    },
+    {
+      "path": "props/barrel@2x.webp",
+      "bytes": 5934,
+      "sha1": "3058b3edc21bb5cddb58e9a86c33dfb318a153d4"
+    },
+    {
+      "path": "props/circle-tile@2x.webp",
+      "bytes": 5260,
+      "sha1": "48e8fc1114140798175ac5f310a54f5eb2d06fd9"
+    },
+    {
+      "path": "props/crate@2x.webp",
+      "bytes": 1768,
+      "sha1": "762b1278fe43f58df7d04007782491fa913c499f"
+    },
+    {
+      "path": "props/flag@2x.webp",
+      "bytes": 2784,
+      "sha1": "397457f1cb64567b80c01e01ebc86b613e14013a"
+    },
+    {
+      "path": "props/pot@2x.webp",
+      "bytes": 5346,
+      "sha1": "a16b19ad58b4d9a752984d636969a2fecac536fd"
+    },
+    {
+      "path": "props/pumpkin@2x.webp",
+      "bytes": 6044,
+      "sha1": "73fb6b643ab878ae3034714af6ad709fa083c456"
+    },
+    {
+      "path": "props/square-tile@2x.webp",
+      "bytes": 1404,
+      "sha1": "563cf217c878cf577a96b972b9a5ef0bacb458b7"
+    },
+    {
+      "path": "props/wheel@2x.webp",
+      "bytes": 12092,
+      "sha1": "490947d8999b8fcc2684e47d53cd0f0ccee7948f"
+    },
+    {
+      "path": "scenes/page-01.webp",
+      "bytes": 24192,
+      "sha1": "5b70474a437668faf5fc5fa4e1dbb1f3c5fd0d3c"
+    },
+    {
+      "path": "scenes/page-02.webp",
+      "bytes": 17744,
+      "sha1": "6bd3b57e3442ae8414f4e07c0ffa4a9abd921677"
+    },
+    {
+      "path": "scenes/page-03.webp",
+      "bytes": 15232,
+      "sha1": "7dba10e5986cb28006943b1c029195ce68154576"
+    },
+    {
+      "path": "scenes/page-04.webp",
+      "bytes": 19120,
+      "sha1": "dd7816c5633498054d486c024ced968eef9c6182"
+    },
+    {
+      "path": "scenes/page-05.webp",
+      "bytes": 13648,
+      "sha1": "c1195dbea6548e1caf9bb41cfd99e81f83d0697e"
+    },
+    {
+      "path": "scenes/page-06.webp",
+      "bytes": 21104,
+      "sha1": "8be57756925ee304f8ec36660b2d4481112c82a7"
+    },
+    {
+      "path": "scenes/page-07.webp",
+      "bytes": 16454,
+      "sha1": "99f7fee2cb2daf02cebc77cca4b94bdcba3af876"
+    },
+    {
+      "path": "scenes/page-08.webp",
+      "bytes": 16462,
+      "sha1": "d129526635f6dbe59a674ad52634983e272938d4"
+    },
+    {
+      "path": "scenes/page-09.webp",
+      "bytes": 17876,
+      "sha1": "b2311230c7fa6f87070c225d018708872f156395"
+    },
+    {
+      "path": "story.json",
+      "bytes": 19049,
+      "sha1": "097de2587a9dbc41b4d43646884523b924b8a332"
+    },
+    {
+      "path": "strings.json",
+      "bytes": 10242,
+      "sha1": "b1f8cf65eba0419475ce3bae639460e1e13bdb3f"
+    }
+  ]
+}

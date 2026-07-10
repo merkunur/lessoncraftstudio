@@ -3815,6 +3815,27 @@
         "Trouver l'inconnue en n'importe quelle position",
         "Modéliser un problème avant de le résoudre"
       ]
+    },
+    "bos-berry-pantry.slingshot-tens.1-nbt-b-2": {
+      "about": [
+        "Bo le lapin remplit son garde-manger d'hiver, et une caisse scellée contient exactement dix baies — une dizaine qu'on ne peut pas compter, on SAIT juste que c'est dix. Ton enfant lit un tas de baies, un nombre ou un trésor, verrouille la bonne étagère — celle qui a les bonnes caisses (les dizaines) et les baies libres (les unités) — puis lance les baies de Bo. Les caisses s'ouvrent et on compte en dizaines !",
+        "Comprendre qu'un nombre à deux chiffres se lit en dizaines et en unités — « une caisse, c'est dix » — jusqu'à 100 est un attendu du CP. Le jeu est gratuit, sans minuteur et sans points : l'enfant travaille la numération, dans le domaine « Nombres et calcul » des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Lire un nombre à deux chiffres en dizaines et unités",
+        "Comprendre qu'une caisse (dizaine) vaut dix",
+        "Associer un tas ou un nombre à sa décomposition",
+        "Compter en dizaines jusqu'à 100"
+      ],
+      "howToPlay": [
+        "Lis le tas ou le nombre de Bo, puis touche l'étagère qui correspond.",
+        "Lance les baies pour vérifier et ranger le garde-manger."
+      ],
+      "learningGoals": [
+        "Lire les nombres à deux chiffres en dizaines et unités",
+        "Comprendre la dizaine (une caisse vaut dix)",
+        "Compter en dizaines jusqu'à 100"
+      ]
     }
   }
 }

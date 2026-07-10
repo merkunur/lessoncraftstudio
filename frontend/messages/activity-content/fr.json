@@ -4025,6 +4025,27 @@
         "Choisir des mots précis et suffisants",
         "S'adresser clairement à un auditeur"
       ]
+    },
+    "daisy-plate-stack.plurals.l-k-1-c": {
+      "about": [
+        "Marguerite la cane sert les commandes du restaurant, et chaque commande porte sur plusieurs choses. Ton enfant lit la phrase — « Je voudrais trois ___. » — puis touche, parmi trois mots, celui qui est au pluriel et bien écrit.",
+        "Former le pluriel des noms, c'est apprendre la marque -s qu'on n'entend pas (un chat, deux chats) et le -x pour les noms en -eau (un gâteau, deux gâteaux) — de l'orthographe du CE1. Le jeu est gratuit, sans minuteur et sans points : l'enfant lit, compare et choisit la bonne marque, dans le domaine « Étude de la langue » des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Former le pluriel des noms",
+        "Écrire la marque -s qu'on n'entend pas",
+        "Mettre -x aux noms en -eau (gâteau, gâteaux)",
+        "Distinguer le singulier du pluriel"
+      ],
+      "howToPlay": [
+        "Lis la commande de Marguerite.",
+        "Touche le mot au pluriel bien écrit."
+      ],
+      "learningGoals": [
+        "Former le pluriel des noms",
+        "Choisir la bonne marque (-s ou -x)",
+        "Écrire un pluriel qu'on n'entend pas"
+      ]
     }
   }
 }

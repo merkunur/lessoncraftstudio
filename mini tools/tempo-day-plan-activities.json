@@ -25,13 +25,23 @@
           { "id": "party", "band": 2, "before": "Wir räumen", "after": "der Feier auf.", "correct": "nach" },
           { "id": "bed", "band": 3, "before": "Wir waschen die Hände", "after": "der Mahlzeit.", "correct": "vor" },
           { "id": "photo", "band": 3, "before": "Wir singen", "after": "der Fahrt.", "correct": "während" }
+        ],
+        "fr": [
+          { "id": "run", "band": 1, "before": "Nous nous étirons", "after": "la course.", "correct": "avant" },
+          { "id": "show", "band": 1, "before": "Nous restons silencieux", "after": "le spectacle.", "correct": "pendant" },
+          { "id": "lunch", "band": 1, "before": "Nous nous reposons", "after": "le déjeuner.", "correct": "après" },
+          { "id": "trip", "band": 2, "before": "Nous préparons la valise", "after": "le voyage.", "correct": "avant" },
+          { "id": "song", "band": 2, "before": "Nous tapons des mains", "after": "la chanson.", "correct": "pendant" },
+          { "id": "party", "band": 2, "before": "Nous rangeons", "after": "la fête.", "correct": "après" },
+          { "id": "bed", "band": 3, "before": "Nous nous brossons les dents", "after": "le coucher.", "correct": "avant" },
+          { "id": "photo", "band": 3, "before": "Nous ne bougeons pas", "after": "la photo.", "correct": "pendant" }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "tempo-day-plan", "de": "temporale-praepositionen-vor-waehrend-nach-klasse-1" },
-    "page_title": { "en": "Tempo's Day Plan — Before, During, or After? (Grade 1)", "de": "Präpositionen vor, während, nach – üben in Klasse 1" },
-    "page_intro": { "en": "Tempo the turtle plans the whole day in order! Some things happen BEFORE, some DURING, and some AFTER. Read the sentence and tap the time word that fits. A Grade 1 grammar game about using time prepositions (before, during, after), aligned to Common Core L.1.1.i.", "de": "Temporale Präpositionen vor, während und nach üben: Setze in Klasse 1 das richtige Zeitwort in den Satz ein. Kostenlos, interaktiv und sofort startklar!" },
+    "slug": { "en": "tempo-day-plan", "de": "temporale-praepositionen-vor-waehrend-nach-klasse-1", "fr": "les-prepositions-de-temps-avant-pendant-apres-cp" },
+    "page_title": { "en": "Tempo's Day Plan — Before, During, or After? (Grade 1)", "de": "Präpositionen vor, während, nach – üben in Klasse 1", "fr": "La journée de Tempo : avant, pendant ou après ? (CP)" },
+    "page_intro": { "en": "Tempo the turtle plans the whole day in order! Some things happen BEFORE, some DURING, and some AFTER. Read the sentence and tap the time word that fits. A Grade 1 grammar game about using time prepositions (before, during, after), aligned to Common Core L.1.1.i.", "de": "Temporale Präpositionen vor, während und nach üben: Setze in Klasse 1 das richtige Zeitwort in den Satz ein. Kostenlos, interaktiv und sofort startklar!", "fr": "Un jeu de français CP, gratuit et interactif : Tempo la tortue organise toute sa journée dans l'ordre. Certaines choses arrivent avant, d'autres pendant, et d'autres après. Ton enfant lit la phrase, puis touche le mot de temps qui convient — avant, pendant ou après. Un jeu tout doux pour apprendre les prépositions de temps et se repérer dans la journée." },
     "kid_prompt_template": "Tap before, during, or after to fit the sentence."
   }
 ]

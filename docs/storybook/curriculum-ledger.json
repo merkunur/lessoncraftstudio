@@ -558,7 +558,7 @@
               "sb-find-object"
             ],
             "storySlots": 12,
-            "shipped": 1,
+            "shipped": 2,
             "status": "in_progress"
           },
           {
@@ -909,6 +909,11 @@
         "storyId": "lunas-starry-night",
         "pointId": "pk-count-to-10",
         "library": "story-library-250 lib-p02-01"
+      },
+      {
+        "storyId": "bo-builds-a-house",
+        "pointId": "pk-shapes",
+        "library": "story-library-250 lib-p02-02"
       }
     ]
   }

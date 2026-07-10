@@ -142,10 +142,10 @@
       "grade": "PK",
       "teachingPointId": "lib-p02-02",
       "label": "Identify shape: rectangle and oval",
-      "premise": null,
-      "setting": null,
-      "storyId": null,
-      "status": "open"
+      "premise": "help Bo the beaver build his brand-new riverside house — every piece is a rectangle or an oval",
+      "setting": "riverside build site",
+      "storyId": "bo-builds-a-house",
+      "status": "shipped"
     },
     {
       "part": 2,

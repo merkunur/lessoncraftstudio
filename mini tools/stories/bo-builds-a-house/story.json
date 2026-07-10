@@ -1,0 +1,872 @@
+{
+  "schemaVersion": "sb-1",
+  "id": "bo-builds-a-house",
+  "title": "@story.title",
+  "locales": [
+    "en"
+  ],
+  "theme": {
+    "letterboxColor": "#FBF3E4",
+    "transition": "crossfade"
+  },
+  "cast": [
+    {
+      "id": "pip",
+      "name": "@cast.pip.name",
+      "role": "guide",
+      "atlasBase": "atlas.pip.base",
+      "poses": [
+        "neutral",
+        "talk",
+        "happy",
+        "point"
+      ],
+      "atlasClips": "atlas.pip.clips",
+      "clips": {
+        "celebrate": {
+          "fallbackPose": "happy"
+        }
+      }
+    },
+    {
+      "id": "bo",
+      "name": "@cast.bo.name",
+      "role": "companion",
+      "atlasBase": "atlas.bo.base",
+      "poses": [
+        "neutral",
+        "happy"
+      ]
+    }
+  ],
+  "assets": {
+    "scene1": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bo-builds-a-house/scenes/page-01.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene2": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bo-builds-a-house/scenes/page-02.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene3": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bo-builds-a-house/scenes/page-03.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene4": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bo-builds-a-house/scenes/page-04.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene5": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bo-builds-a-house/scenes/page-05.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene6": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bo-builds-a-house/scenes/page-06.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene7": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bo-builds-a-house/scenes/page-07.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene8": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bo-builds-a-house/scenes/page-08.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "atlas.pip.base": {
+      "kind": "atlas",
+      "src": "/mini-tools/stories/bo-builds-a-house/cast/pip/pip.base.json"
+    },
+    "atlas.pip.clips": {
+      "kind": "atlas",
+      "src": "/mini-tools/stories/bo-builds-a-house/cast/pip/pip.clips.json"
+    },
+    "atlas.bo.base": {
+      "kind": "atlas",
+      "src": "/mini-tools/stories/bo-builds-a-house/cast/bo/bo.base.json"
+    },
+    "img.window-oval": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bo-builds-a-house/props/window-oval@2x.webp"
+    },
+    "img.window-rect": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bo-builds-a-house/props/window-rect@2x.webp"
+    },
+    "img.oval-mirror": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bo-builds-a-house/props/oval-mirror@2x.webp"
+    },
+    "img.rect-doormat": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bo-builds-a-house/props/rect-doormat@2x.webp"
+    },
+    "img.oval-rug": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bo-builds-a-house/props/oval-rug@2x.webp"
+    },
+    "img.rect-shelf": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bo-builds-a-house/props/rect-shelf@2x.webp"
+    },
+    "img.circle-clock": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bo-builds-a-house/props/circle-clock@2x.webp"
+    },
+    "img.rect-frame": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bo-builds-a-house/props/rect-frame@2x.webp"
+    },
+    "img.oval-frame": {
+      "kind": "image",
+      "src": "/mini-tools/stories/bo-builds-a-house/props/oval-frame@2x.webp"
+    },
+    "pip": {
+      "kind": "atlas",
+      "src": "cast/pip/pip.base.json"
+    },
+    "bo": {
+      "kind": "atlas",
+      "src": "cast/bo/bo.base.json"
+    }
+  },
+  "reward": {
+    "id": "story.bo-builds-a-house",
+    "label": {
+      "en": "House Builder"
+    },
+    "emoji": "🏠"
+  },
+  "pages": [
+    {
+      "id": "p01",
+      "scene": {
+        "image": "scene1"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bo",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1410,
+            "y": 915
+          },
+          "scale": 0.56,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p01-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-connect-dots",
+        "zone": {
+          "x": 500,
+          "y": 180,
+          "w": 600,
+          "h": 640
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "points": [
+            {
+              "x": 140,
+              "y": 120
+            },
+            {
+              "x": 460,
+              "y": 120
+            },
+            {
+              "x": 460,
+              "y": 560
+            },
+            {
+              "x": 140,
+              "y": 560
+            }
+          ],
+          "closePath": true,
+          "fill": "#F2784B"
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p01-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "id": "p02",
+      "scene": {
+        "image": "scene2"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bo",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1410,
+            "y": 915
+          },
+          "scale": 0.56,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p02-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-listen",
+        "zone": {
+          "x": 400,
+          "y": 160,
+          "w": 800,
+          "h": 650
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "word": "@word.oval",
+          "correct": "oval",
+          "options": [
+            {
+              "key": "oval",
+              "image": "img.window-oval"
+            },
+            {
+              "key": "rectangle",
+              "image": "img.window-rect"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p02-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "id": "p03",
+      "scene": {
+        "image": "scene3"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bo",
+          "pose": "happy",
+          "anchor": {
+            "x": 1410,
+            "y": 915
+          },
+          "scale": 0.56,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p03-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-trace",
+        "zone": {
+          "x": 400,
+          "y": 200,
+          "w": 800,
+          "h": 560
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "path": [
+            {
+              "x": 150,
+              "y": 100
+            },
+            {
+              "x": 275,
+              "y": 100
+            },
+            {
+              "x": 400,
+              "y": 100
+            },
+            {
+              "x": 525,
+              "y": 100
+            },
+            {
+              "x": 650,
+              "y": 100
+            },
+            {
+              "x": 650,
+              "y": 190
+            },
+            {
+              "x": 650,
+              "y": 280
+            },
+            {
+              "x": 650,
+              "y": 370
+            },
+            {
+              "x": 650,
+              "y": 460
+            },
+            {
+              "x": 525,
+              "y": 460
+            },
+            {
+              "x": 400,
+              "y": 460
+            },
+            {
+              "x": 275,
+              "y": 460
+            },
+            {
+              "x": 150,
+              "y": 460
+            },
+            {
+              "x": 150,
+              "y": 370
+            },
+            {
+              "x": 150,
+              "y": 280
+            },
+            {
+              "x": 150,
+              "y": 190
+            },
+            {
+              "x": 150,
+              "y": 100
+            }
+          ],
+          "tolDu": 150
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p03-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "id": "p04",
+      "scene": {
+        "image": "scene4"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bo",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1410,
+            "y": 915
+          },
+          "scale": 0.56,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p04-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-color-code",
+        "zone": {
+          "x": 220,
+          "y": 160,
+          "w": 1160,
+          "h": 660
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "legend": [
+            {
+              "key": "teal",
+              "color": "#146B5E"
+            }
+          ],
+          "regions": [
+            {
+              "rect": {
+                "x": 100,
+                "y": 260,
+                "w": 280,
+                "h": 380
+              },
+              "correct": "teal"
+            },
+            {
+              "rect": {
+                "x": 440,
+                "y": 260,
+                "w": 280,
+                "h": 380
+              },
+              "correct": "teal"
+            },
+            {
+              "rect": {
+                "x": 780,
+                "y": 260,
+                "w": 280,
+                "h": 380
+              },
+              "correct": "teal"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p04-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "id": "p05",
+      "scene": {
+        "image": "scene5"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bo",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1410,
+            "y": 915
+          },
+          "scale": 0.56,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p05-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-complete-picture",
+        "zone": {
+          "x": 320,
+          "y": 180,
+          "w": 960,
+          "h": 640
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "cells": [
+            {
+              "image": "img.window-rect",
+              "at": {
+                "x": 200,
+                "y": 200
+              }
+            },
+            {
+              "image": "img.oval-mirror",
+              "at": {
+                "x": 480,
+                "y": 200
+              }
+            },
+            {
+              "image": "img.rect-doormat",
+              "at": {
+                "x": 760,
+                "y": 200
+              }
+            }
+          ],
+          "missing": [
+            1,
+            2
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p05-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "id": "p06",
+      "scene": {
+        "image": "scene6"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bo",
+          "pose": "happy",
+          "anchor": {
+            "x": 1410,
+            "y": 915
+          },
+          "scale": 0.56,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p06-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-find-object",
+        "zone": {
+          "x": 120,
+          "y": 150,
+          "w": 1360,
+          "h": 660
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "find": [
+            "rug",
+            "shelf"
+          ],
+          "targets": [
+            {
+              "key": "rug",
+              "image": "img.oval-rug",
+              "rect": {
+                "x": 140,
+                "y": 410,
+                "w": 360,
+                "h": 220
+              },
+              "word": "@word.oval"
+            },
+            {
+              "key": "shelf",
+              "image": "img.rect-shelf",
+              "rect": {
+                "x": 950,
+                "y": 120,
+                "w": 280,
+                "h": 400
+              },
+              "word": "@word.rectangle"
+            },
+            {
+              "key": "clock",
+              "image": "img.circle-clock",
+              "rect": {
+                "x": 620,
+                "y": 80,
+                "w": 230,
+                "h": 230
+              },
+              "word": "@word.circle"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p06-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "id": "p07",
+      "scene": {
+        "image": "scene7"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bo",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1410,
+            "y": 915
+          },
+          "scale": 0.56,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p07-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-listen",
+        "zone": {
+          "x": 400,
+          "y": 160,
+          "w": 800,
+          "h": 650
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "word": "@word.rectangle",
+          "correct": "rectangle",
+          "options": [
+            {
+              "key": "rectangle",
+              "image": "img.rect-frame"
+            },
+            {
+              "key": "oval",
+              "image": "img.oval-frame"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p07-bravo",
+        "holdMs": 900
+      }
+    },
+    {
+      "id": "p08",
+      "scene": {
+        "image": "scene8"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "happy",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bo",
+          "pose": "happy",
+          "anchor": {
+            "x": 1410,
+            "y": 915
+          },
+          "scale": 0.56,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p08-l01",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-connect-dots",
+        "zone": {
+          "x": 400,
+          "y": 150,
+          "w": 800,
+          "h": 620
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "points": [
+            {
+              "x": 400,
+              "y": 70
+            },
+            {
+              "x": 594,
+              "y": 116
+            },
+            {
+              "x": 714,
+              "y": 236
+            },
+            {
+              "x": 714,
+              "y": 384
+            },
+            {
+              "x": 594,
+              "y": 504
+            },
+            {
+              "x": 400,
+              "y": 550
+            },
+            {
+              "x": 206,
+              "y": 504
+            },
+            {
+              "x": 86,
+              "y": 384
+            },
+            {
+              "x": 86,
+              "y": 236
+            },
+            {
+              "x": 206,
+              "y": 116
+            }
+          ],
+          "closePath": true,
+          "fill": "#F7C948"
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p08-bravo",
+        "holdMs": 1400,
+        "clip": {
+          "characterId": "pip",
+          "name": "celebrate"
+        }
+      }
+    }
+  ],
+  "alignment": {
+    "grade": "PK"
+  }
+}

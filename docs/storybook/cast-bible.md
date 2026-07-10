@@ -79,9 +79,12 @@ and the rules for using + adding them. Structured to scale to ~100 characters.
 - **speech tics:** a satisfied "tap, tap!" when something clicks into place.
 - **best arcs:** Fix-a-mess (his debut shape), Quest.
 - **debut:** `bos-wobbly-cart` (library story #2)
+- **recurs in:** `bo-builds-a-house` (library story #12 — his brand-new riverside house goes up,
+  every piece a rectangle or an oval; the fixed cart cameos hauling planks)
 - **poses:** `neutral`, `happy` (+ idle bob). No clips; his joy reads in the pose swap.
 - **notes:** Bo's little wooden cart (round wheel, square crate, triangle flag) is his signature
-  prop — keep the fixed cart's look if he recurs.
+  prop — keep the fixed cart's look if he recurs. As of #12 he also owns his riverside house
+  (rectangle door, rectangle windows, one grand oval window over the door) — keep its look.
 
 ### Poppy — the gentle gardener hedgehog
 - **id:** `poppy`

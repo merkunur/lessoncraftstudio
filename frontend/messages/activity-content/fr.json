@@ -3962,6 +3962,27 @@
         "Distinguer l'essentiel d'un détail",
         "Comprendre un court texte documentaire"
       ]
+    },
+    "linc-fact-chain.connect.ri-k-3": {
+      "about": [
+        "Linc le lézard relie les faits comme les maillons d'une chaîne ! Ton enfant lit un premier fait — « D'abord, tu plantes une graine. » — puis touche celui qui va avec : ce qui arrive ENSUITE, ou ce que cela provoque. Deux modes se mélangent, la suite logique et la cause à effet, pour qu'il lise vraiment au lieu de deviner.",
+        "Relier deux faits par la suite logique ou par la cause et l'effet, c'est apprendre à établir des relations dans un texte — un attendu du CE1. Le jeu est gratuit, sans minuteur et sans points : l'enfant lit, réfléchit au lien et choisit le bon maillon, dans le domaine « Comprendre et interpréter » des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Relier deux faits qui vont ensemble",
+        "Trouver ce qui arrive ensuite (la suite logique)",
+        "Comprendre la cause et l'effet",
+        "Lire un fait avant de choisir le lien"
+      ],
+      "howToPlay": [
+        "Lis le premier fait.",
+        "Touche le fait qui va avec : la suite, ou ce que cela provoque."
+      ],
+      "learningGoals": [
+        "Relier deux faits par la suite logique",
+        "Comprendre un lien de cause à effet",
+        "Établir des relations dans un texte"
+      ]
     }
   }
 }

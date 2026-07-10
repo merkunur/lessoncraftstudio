@@ -25,13 +25,23 @@
           { "id": "feuer", "band": 2, "mode": "cause", "stem": "Ein Feuer brennt im Kamin.", "question": "Was passiert deshalb?", "answer": "Der Raum wird warm.", "options": ["Der Raum wird warm.", "Die Uhr tickt an der Wand.", "Das Buch liegt auf dem Stuhl."] },
           { "id": "saft-gefrierfach", "band": 2, "mode": "cause", "stem": "Der Saft steht im Gefrierfach.", "question": "Was passiert deshalb?", "answer": "Der Saft wird zu Eis.", "options": ["Der Saft wird zu Eis.", "Das Glas steht auf dem Tisch.", "Die Flasche ist ganz leer."] },
           { "id": "wind", "band": 3, "mode": "cause", "stem": "Der Wind weht sehr stark.", "question": "Was passiert deshalb?", "answer": "Die Blätter fliegen durch die Luft.", "options": ["Die Blätter fliegen durch die Luft.", "Die Sonne scheint am Himmel.", "Der Schnee liegt auf der Wiese."] }
+        ],
+        "fr": [
+          { "id": "seed", "band": 1, "mode": "sequence", "stem": "D'abord, tu plantes une graine.", "question": "Que se passe-t-il ENSUITE ?", "answer": "Une plante pousse.", "options": ["Une plante pousse.", "Un chien aboie.", "Il commence à pleuvoir."] },
+          { "id": "egg", "band": 1, "mode": "sequence", "stem": "D'abord, un oiseau pond un œuf.", "question": "Que se passe-t-il ENSUITE ?", "answer": "Un poussin éclot.", "options": ["Le soleil se couche.", "Un poussin éclot.", "Il commence à neiger."] },
+          { "id": "wash", "band": 1, "mode": "sequence", "stem": "D'abord, tu te laves les mains.", "question": "Que se passe-t-il ENSUITE ?", "answer": "Tu les essuies.", "options": ["Tu fais du vélo.", "Le chat fait la sieste.", "Tu les essuies."] },
+          { "id": "sleepy", "band": 2, "mode": "sequence", "stem": "D'abord, tu te sens fatigué.", "question": "Que se passe-t-il ENSUITE ?", "answer": "Tu vas au lit.", "options": ["Tu vas au lit.", "Tu sautes.", "Tu peins un grand mur."] },
+          { "id": "sun", "band": 2, "mode": "cause", "stem": "Le soleil chaud brille sur la neige.", "question": "Alors, que se passe-t-il ?", "answer": "La neige fond.", "options": ["Il fait froid.", "La neige fond.", "La neige tombe."] },
+          { "id": "rain", "band": 2, "mode": "cause", "stem": "Il pleut sur l'herbe sèche.", "question": "Alors, que se passe-t-il ?", "answer": "L'herbe devient mouillée.", "options": ["L'herbe devient sèche.", "La cloche devient forte.", "L'herbe devient mouillée."] },
+          { "id": "swing", "band": 3, "mode": "cause", "stem": "Tu pousses fort la balançoire.", "question": "Alors, que se passe-t-il ?", "answer": "La balançoire monte haut.", "options": ["La balançoire monte haut.", "La balançoire reste immobile.", "La lampe s'allume."] },
+          { "id": "freeze", "band": 3, "mode": "cause", "stem": "Tu laisses du jus au congélateur.", "question": "Alors, que se passe-t-il ?", "answer": "Le jus gèle.", "options": ["Le jus devient chaud.", "Le jus gèle.", "Un chien court vite."] }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "linc-fact-chain", "de": "ursache-und-wirkung-reihenfolge-sachtexte-verstehen-klasse-2" },
-    "page_title": { "en": "Linc's Fact Chain — How Two Facts Connect (Kindergarten)", "de": "Ursache & Wirkung, Reihenfolge – Sachtexte, Klasse 2" },
-    "page_intro": { "en": "Linc the lizard links facts into a chain! Read the first fact, then tap the fact that connects to it — what happens NEXT, or what it makes happen. A Kindergarten reading game about describing the connection between two events or ideas in an informational text, aligned to Common Core RI.K.3.", "de": "Kostenlos & interaktiv: Dein Kind verknüpft zwei Fakten, erkennt Ursache und Wirkung und übt, was als Nächstes passiert – Sachtexte verstehen, Grundschule." },
+    "slug": { "en": "linc-fact-chain", "de": "ursache-und-wirkung-reihenfolge-sachtexte-verstehen-klasse-2", "fr": "relier-deux-faits-cause-et-consequence-ce1" },
+    "page_title": { "en": "Linc's Fact Chain — How Two Facts Connect (Kindergarten)", "de": "Ursache & Wirkung, Reihenfolge – Sachtexte, Klasse 2", "fr": "La chaîne de faits de Linc : relier deux faits (CE1)" },
+    "page_intro": { "en": "Linc the lizard links facts into a chain! Read the first fact, then tap the fact that connects to it — what happens NEXT, or what it makes happen. A Kindergarten reading game about describing the connection between two events or ideas in an informational text, aligned to Common Core RI.K.3.", "de": "Kostenlos & interaktiv: Dein Kind verknüpft zwei Fakten, erkennt Ursache und Wirkung und übt, was als Nächstes passiert – Sachtexte verstehen, Grundschule.", "fr": "Un jeu de lecture CE1, gratuit et interactif : Linc le lézard relie les faits comme les maillons d'une chaîne ! Ton enfant lit un premier fait, puis touche celui qui va avec — ce qui arrive ENSUITE, ou ce que cela provoque. Un jeu tout doux pour apprendre à relier deux faits par la suite logique ou la cause et l'effet." },
     "kid_prompt_template": "Read the first fact, then tap the one that connects to it."
   }
 ]

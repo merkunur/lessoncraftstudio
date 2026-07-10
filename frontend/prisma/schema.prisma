@@ -74,9 +74,11 @@ model User {
   collections        Collection[]
   favorites          DeckFavorite[]
   embedConfigs       EmbedConfig[]
-  // Story Studio tenancy (premium class #3). Prisma virtual; emit no SQL.
+  // Story Studio tenancy (project abandoned 2026-07-11; models retained, no schema change). Prisma virtual; emit no SQL.
   studioStories      StudioStory[]
   studioShareLinks   StudioShareLink[]
+  // Hosted interactive worksheets (2026-07 subscription launch). Prisma virtual; emit no SQL.
+  hostedWorksheets   HostedWorksheet[]
 
   @@index([email])
   @@index([stripeCustomerId])
@@ -1285,6 +1287,34 @@ model PlayLink {
 
   @@index([teacherId])
   @@map("play_links")
+}
+
+// Hosted interactive worksheets — the 2026-07 subscription launch's flagship
+// paid feature. A subscriber saves the self-contained interactive HTML a
+// worksheet generator produced (renderStandaloneHTML output) and gets a
+// durable /play/w/<linkId> URL managed from the workspace. HTML bytes live
+// on the filesystem at /var/www/lcs-media/hosted-worksheets/<id>.html
+// (isolated storage §A.1); this row is the metadata + capability id.
+// Serving is noindex (X-Robots-Tag) and never sitemapped — user content.
+model HostedWorksheet {
+  id         String    @id @default(cuid())
+  linkId     String    @unique @map("link_id") @db.VarChar(12)
+  teacherId  String    @map("teacher_id")
+  appId      String    @map("app_id") @db.VarChar(40)
+  title      String    @db.VarChar(200)
+  locale     String    @default("en") @db.VarChar(5)
+  htmlBytes  Int       @map("html_bytes")
+  viewCount  Int       @default(0) @map("view_count")
+  status     String    @default("live") @db.VarChar(10) // live | deleted (soft, 30d retention)
+  createdAt  DateTime  @default(now()) @map("created_at")
+  updatedAt  DateTime  @updatedAt @map("updated_at")
+  deletedAt  DateTime? @map("deleted_at")
+
+  teacher User @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+
+  @@index([teacherId])
+  @@index([status])
+  @@map("hosted_worksheets")
 }
 
 // Family C — workspace

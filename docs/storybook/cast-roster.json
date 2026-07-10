@@ -71,6 +71,13 @@
       "species": "small owl",
       "debut": "lunas-starry-night",
       "notes": "Wakes at dusk; creamDeep heart-shaped facial disc, sandDeep body, ear tufts, huge night eyes; counts everything twice."
+    },
+    {
+      "id": "gigi",
+      "role": "companion",
+      "species": "young giraffe",
+      "debut": "gigis-tall-lookout",
+      "notes": "The tall lesson on four legs (the vertical sibling of Noodle's length); sunshine body, sandDeep patches/ossicones/hooves, creamDeep muzzle and belly; loves high places and lookouts."
     }
   ]
 }

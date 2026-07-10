@@ -153,10 +153,10 @@
       "grade": "PK",
       "teachingPointId": "lib-p02-03",
       "label": "Tall vs. short",
-      "premise": null,
-      "setting": null,
-      "storyId": null,
-      "status": "open"
+      "premise": "walk with Gigi the giraffe to the lookout hill, judging tall and short all the way to the flag",
+      "setting": "meadow path to the lookout hill",
+      "storyId": "gigis-tall-lookout",
+      "status": "shipped"
     },
     {
       "part": 2,

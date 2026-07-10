@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
-import { requireSubscriber, getOwnedCollectionOrFail } from '@/lib/subscriber-api-gate';
+import { requireActiveSubscriber, getOwnedCollectionOrFail } from '@/lib/subscriber-api-gate';
 
 // Tool 1A — DELETE: remove a deck from a collection.
 // Reorder PATCH deferred to Tool 1B per Q-g.
@@ -12,7 +12,7 @@ export async function DELETE(
   request: NextRequest,
   { params }: { params: { id: string; deckId: string } }
 ) {
-  const gate = await requireSubscriber(request);
+  const gate = await requireActiveSubscriber(request);
   if (gate instanceof NextResponse) return gate;
 
   const collectionOrError = await getOwnedCollectionOrFail(params.id, gate.userId);

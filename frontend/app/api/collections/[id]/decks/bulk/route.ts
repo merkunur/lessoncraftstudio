@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
-import { requireSubscriber, getOwnedCollectionOrFail } from '@/lib/subscriber-api-gate';
+import { requireActiveSubscriber, getOwnedCollectionOrFail } from '@/lib/subscriber-api-gate';
 
 // Tool 5A — bulk add/remove deck membership in a collection. Mirrors Tool 1A's
 // single-add route at /api/collections/[id]/decks (POST) with batch adaptations:
@@ -45,7 +45,7 @@ export async function POST(
   request: NextRequest,
   { params }: { params: { id: string } }
 ) {
-  const gate = await requireSubscriber(request);
+  const gate = await requireActiveSubscriber(request);
   if (gate instanceof NextResponse) return gate;
 
   const collectionOrError = await getOwnedCollectionOrFail(params.id, gate.userId);
@@ -116,7 +116,7 @@ export async function DELETE(
   request: NextRequest,
   { params }: { params: { id: string } }
 ) {
-  const gate = await requireSubscriber(request);
+  const gate = await requireActiveSubscriber(request);
   if (gate instanceof NextResponse) return gate;
 
   const collectionOrError = await getOwnedCollectionOrFail(params.id, gate.userId);

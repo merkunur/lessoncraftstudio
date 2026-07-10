@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import crypto from 'crypto';
 import { prisma } from '@/lib/prisma';
-import { requireSubscriber } from '@/lib/subscriber-api-gate';
+import { requireActiveSubscriber } from '@/lib/subscriber-api-gate';
 
 // Tool 5A — POST /api/play-links/bulk: bulk PlayLink generation per HAS-Tool-5-1.
 // Pairs with the single-deck companion at /api/play-links. Same app-layer
@@ -45,7 +45,7 @@ interface BulkPlayLinkResult {
 }
 
 export async function POST(request: NextRequest) {
-  const gate = await requireSubscriber(request);
+  const gate = await requireActiveSubscriber(request);
   if (gate instanceof NextResponse) return gate;
 
   let body: { deckIds?: unknown };

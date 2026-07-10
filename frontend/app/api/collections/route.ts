@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
-import { requireSubscriber } from '@/lib/subscriber-api-gate';
+import { requireActiveSubscriber } from '@/lib/subscriber-api-gate';
 
 // Tool 1A — Collections list + create.
 // Both endpoints gated on active LCS subscription per Pillar 3 docs/SUBSCRIPTION-SCOPE.md.
@@ -13,7 +13,7 @@ const DESCRIPTION_MAX = 500;
 // GET /api/collections — list current user's collections, with deck counts.
 // Detail-view payload for a single collection lives at GET /api/collections/[id].
 export async function GET(request: NextRequest) {
-  const gate = await requireSubscriber(request);
+  const gate = await requireActiveSubscriber(request);
   if (gate instanceof NextResponse) return gate;
 
   const collections = await prisma.collection.findMany({
@@ -41,7 +41,7 @@ export async function GET(request: NextRequest) {
 // POST /api/collections — create a new collection.
 // Body: { name: string, description?: string }
 export async function POST(request: NextRequest) {
-  const gate = await requireSubscriber(request);
+  const gate = await requireActiveSubscriber(request);
   if (gate instanceof NextResponse) return gate;
 
   let body: { name?: unknown; description?: unknown };

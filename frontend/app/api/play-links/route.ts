@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import crypto from 'crypto';
 import { prisma } from '@/lib/prisma';
-import { requireSubscriber } from '@/lib/subscriber-api-gate';
+import { requireActiveSubscriber } from '@/lib/subscriber-api-gate';
 
 // Tool 5A — POST /api/play-links: single-deck PlayLink generation per HAS-Tool-5-1.
 // Tool 5A owns the entire PlayLink surface (single + bulk) — no prior single-deck
@@ -46,7 +46,7 @@ async function createWithUniqueLinkId(
 }
 
 export async function POST(request: NextRequest) {
-  const gate = await requireSubscriber(request);
+  const gate = await requireActiveSubscriber(request);
   if (gate instanceof NextResponse) return gate;
 
   let body: { deckId?: unknown };

@@ -109,6 +109,19 @@ and the rules for using + adding them. Structured to scale to ~100 characters.
 - **notes:** Hazel's forest treehouse (round cream door, party bunting) is her home — keep its
   look if she recurs.
 
+### Willa — the tidy washing-day duck
+- **id:** `willa`
+- **role:** companion
+- **species/look:** a small duck — `cream` feathers, `sunshine` bill and feet, a `creamDeep`
+  wing (wsv-1 palette).
+- **voice:** cheerful, tidy, a little proud of her neat washing line ("Everything in its place!").
+- **speech tics:** a happy "quack-quack!" when something is sorted right.
+- **best arcs:** Fix-a-mess (her debut shape), Collect-and-sort.
+- **debut:** `willas-washing-day` (library story #5)
+- **poses:** `neutral`, `happy` (+ idle bob). No clips.
+- **notes:** Willa's riverside washing line and her rainbow patchwork quilt are her signature —
+  keep them if she recurs.
+
 > **Adding characters:** most future stories reuse **Pip as guide** + a fresh **companion** for the
 > story's situation. Introduce a *new guide* only when there's a real reason (a themed sub-series). Each
 > new character: fill the template above, author the base atlas (poses + idle) via the placeholder-art

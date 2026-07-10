@@ -118,9 +118,11 @@ and the rules for using + adding them. Structured to scale to ~100 characters.
 - **speech tics:** a happy "quack-quack!" when something is sorted right.
 - **best arcs:** Fix-a-mess (her debut shape), Collect-and-sort.
 - **debut:** `willas-washing-day` (library story #5)
+- **recurs in:** `willas-pond-picnic` (library story #8 — her duck pond at feeding time; the
+  library's FIRST companion recurrence, per the reuse-aggressively rule)
 - **poses:** `neutral`, `happy` (+ idle bob). No clips.
-- **notes:** Willa's riverside washing line and her rainbow patchwork quilt are her signature —
-  keep them if she recurs.
+- **notes:** Willa's riverside washing line, her rainbow patchwork quilt, and her duck pond
+  (with the sunshine ducklings) are her signature places — keep them when she recurs.
 
 ### Milo — the sled-loving penguin
 - **id:** `milo`

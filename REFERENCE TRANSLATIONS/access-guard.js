@@ -57,7 +57,11 @@
     'treasure hunt.html': 'treasure-hunt'
   };
 
-  var appId = filenameToAppId[filename] || null;
+  // Map lookup kept for legacy space-form names; the live apps are hyphenated
+  // (code-addition.html etc. — the map's space keys resolved null for every
+  // multi-word app until 2026-07-11). Fallback: derive from the filename.
+  var appId = filenameToAppId[filename] ||
+    (/\.html$/.test(filename) ? filename.replace(/\.html$/, '').replace(/ /g, '-') : null);
 
   /**
    * Show blocking modal when session is invalidated.
@@ -234,5 +238,17 @@
       }
     })
     .catch(function() { /* stay hidden on any error */ });
+  })();
+
+  // 2026-07 subscription launch: load the shared "Save interactive worksheet"
+  // client (hosted URLs — the generator paid feature). Single shared file, no
+  // per-app HTML edits; bump ?v= together with worksheet-host.js deployments.
+  (function loadWorksheetHost() {
+    try {
+      var s = document.createElement('script');
+      s.src = '/worksheet-generators/js/worksheet-host.js?v=1';
+      s.defer = true;
+      (document.head || document.documentElement).appendChild(s);
+    } catch (e) { /* progressive enhancement — never block the app */ }
   })();
 })();

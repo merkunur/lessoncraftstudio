@@ -43,6 +43,21 @@ const ROSTER_PATH = path.join(REPO, 'docs', 'storybook', 'cast-roster.json');
 
 const LOCALES = ['en', 'de', 'fr', 'it', 'es', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
 const PAGE_BAND = [7, 10];
+/* Verb families per module (operator mandate 2026-07-10: the premium bar needs
+   varied interaction VERBS, not just tap-the-option / drag-and-drop). */
+const VERB_OF = {
+  'sb-choice-board': 'select', 'sb-find-object': 'select', 'sb-memory': 'select',
+  'sb-spot-diff': 'select', 'sb-listen': 'audio-select',
+  'sb-count-tap': 'order-tap', 'sb-sequence': 'order-tap', 'sb-connect-dots': 'order-tap',
+  'sb-pattern': 'order-tap', 'sb-color-code': 'order-tap', 'sb-dot-stamp': 'order-tap',
+  'sb-shape-fit': 'place', 'sb-complete-picture': 'place', 'sb-listen-place': 'place',
+  'sb-sort-bins': 'place', 'sb-match-pairs': 'place', 'sb-number-bond': 'place',
+  'sb-fractions': 'place', 'sb-clock': 'place', 'sb-cvc-builder': 'place',
+  'sb-word-builder': 'place', 'sb-worksheet-exercise': 'place',
+  'sb-trace': 'trace', 'sb-maze': 'navigate',
+};
+const MIN_VERB_FAMILIES = 3;
+const SELECT_SHARE_MAX = 0.5;
 /* WARN when the same dominant mechanic leads this many prior same-grade library stories. */
 const MECHANIC_REPEAT_WARN = 3;
 /* Pixel-sample budget: webp lossy noise + the sky gradient blend palette colors, so a
@@ -139,6 +154,22 @@ async function runLibraryGates(storyId) {
   const pageCount = (story.pages || []).length;
   if (pageCount < PAGE_BAND[0] || pageCount > PAGE_BAND[1]) {
     add('page-band', 'HARD', `${pageCount} pages; the library standard is ${PAGE_BAND[0]}–${PAGE_BAND[1]}`);
+  }
+
+  /* ---------- verb census (the premium interaction-variety bar) ---------- */
+  {
+    const verbs = (story.pages || []).map((pg) => {
+      const mt = pg.interaction && pg.interaction.moduleType;
+      return VERB_OF[mt] || 'other';
+    });
+    const families = new Set(verbs.map((v) => (v === 'audio-select' ? 'audio' : v)));
+    const selectShare = verbs.filter((v) => v === 'select').length / Math.max(1, verbs.length);
+    if (families.size < MIN_VERB_FAMILIES) {
+      add('verb-variety', 'WARN', `only ${families.size} interaction verb famil${families.size === 1 ? 'y' : 'ies'} (${[...families].join(', ')}) — the premium bar wants ≥${MIN_VERB_FAMILIES} (select / order-tap / place / trace / navigate / audio)`);
+    }
+    if (selectShare > SELECT_SHARE_MAX) {
+      add('select-heavy', 'WARN', `${Math.round(selectShare * 100)}% of pages are plain tap-select — the premium bar caps select at ${SELECT_SHARE_MAX * 100}%; reach for trace/maze/listen/stamp/order verbs`);
+    }
   }
 
   /* ---------- roster ---------- */

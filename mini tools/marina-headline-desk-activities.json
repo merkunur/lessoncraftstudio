@@ -137,13 +137,71 @@
               { "id": "o2", "kind": "offtopic", "text": "Füchse haben rotes Fell." },
               { "id": "o3", "kind": "topic", "text": "Was ein Samen zum Wachsen braucht." }
             ] }
+        ],
+        "fr": [
+          { "id": "bees", "band": 1,
+            "story": ["Les abeilles vivent ensemble dans une ruche.", "Elles volent de fleur en fleur pour le nectar.", "À la ruche, elles transforment le nectar en miel."],
+            "options": [
+              { "id": "o1", "kind": "topic", "text": "Comment les abeilles font leur miel." },
+              { "id": "o2", "kind": "detail", "text": "Elles volent de fleur en fleur." },
+              { "id": "o3", "kind": "offtopic", "text": "Les araignées tissent des toiles." }
+            ] },
+          { "id": "rain", "band": 1,
+            "story": ["Le soleil réchauffe l'eau des lacs et des mers.", "L'eau monte et forme des nuages.", "Quand les nuages sont lourds, la pluie tombe."],
+            "options": [
+              { "id": "o1", "kind": "detail", "text": "Le soleil réchauffe l'eau des lacs." },
+              { "id": "o2", "kind": "offtopic", "text": "Les chameaux boivent rarement." },
+              { "id": "o3", "kind": "topic", "text": "D'où vient la pluie." }
+            ] },
+          { "id": "frog", "band": 1,
+            "story": ["Une grenouille commence sa vie comme un petit œuf.", "L'œuf éclot en un têtard qui nage.", "Le têtard grandit, ses pattes poussent et il devient une grenouille."],
+            "options": [
+              { "id": "o1", "kind": "detail", "text": "L'œuf éclot en un têtard qui nage." },
+              { "id": "o2", "kind": "topic", "text": "Comment grandit une grenouille." },
+              { "id": "o3", "kind": "offtopic", "text": "Les hiboux chassent les souris." }
+            ] },
+          { "id": "teeth", "band": 2,
+            "story": ["Se brosser les dents les garde propres et solides.", "Cela enlève les restes de nourriture et le sucre.", "Des dents propres aident à mâcher et à sourire."],
+            "options": [
+              { "id": "o1", "kind": "topic", "text": "Pourquoi on se brosse les dents." },
+              { "id": "o2", "kind": "detail", "text": "Cela enlève les restes de nourriture et le sucre." },
+              { "id": "o3", "kind": "offtopic", "text": "Les girafes sont grandes." }
+            ] },
+          { "id": "volcano", "band": 2,
+            "story": ["Sous le volcan, de la roche brûlante et fondue attend.", "La pression monte jusqu'à la pousser vers le haut.", "La roche jaillit sous forme de lave brûlante."],
+            "options": [
+              { "id": "o1", "kind": "detail", "text": "Sous le volcan, de la roche brûlante attend." },
+              { "id": "o2", "kind": "offtopic", "text": "Les manchots se dandinent." },
+              { "id": "o3", "kind": "topic", "text": "Comment un volcan entre en éruption." }
+            ] },
+          { "id": "library", "band": 2,
+            "story": ["Une bibliothèque est pleine de livres à emprunter.", "Tu choisis un livre et tu l'emportes chez toi pour le lire.", "Quand tu as fini, tu le rapportes pour les autres."],
+            "options": [
+              { "id": "o1", "kind": "detail", "text": "Tu choisis un livre et tu l'emportes chez toi." },
+              { "id": "o2", "kind": "topic", "text": "Comment une bibliothèque prête des livres." },
+              { "id": "o3", "kind": "offtopic", "text": "Les chauves-souris dorment le jour." }
+            ] },
+          { "id": "wind", "band": 3,
+            "story": ["L'air qui bouge, c'est ce qu'on appelle le vent.", "Le vent peut pousser un voilier sur un lac.", "Il peut aussi faire tourner les ailes d'un moulin."],
+            "options": [
+              { "id": "o1", "kind": "topic", "text": "Ce que le vent peut faire." },
+              { "id": "o2", "kind": "detail", "text": "Le vent peut pousser un voilier sur un lac." },
+              { "id": "o3", "kind": "offtopic", "text": "Les escargots sont lents." }
+            ] },
+          { "id": "seed", "band": 3,
+            "story": ["Une graine a besoin de soleil, d'eau et de terre pour pousser.", "Ses racines descendent pour boire.", "Puis une pousse verte monte vers la lumière."],
+            "options": [
+              { "id": "o1", "kind": "detail", "text": "Ses racines descendent pour boire." },
+              { "id": "o2", "kind": "offtopic", "text": "Les renards ont une fourrure rousse." },
+              { "id": "o3", "kind": "topic", "text": "Ce dont une graine a besoin pour pousser." }
+            ] }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "marinas-headline-desk", "de": "hauptthema-eines-sachtexts-erkennen-klasse-3" },
-    "page_title": { "en": "Marina's Headline Desk — What's It Mostly About? (Grade 2)", "de": "Das Hauptthema eines Sachtexts erkennen" },
-    "page_intro": { "en": "Marina the otter writes headlines at the news desk, and a headline has to say what a story is MOSTLY about. Read each short article, then tap the card that names its main topic — not one small detail it mentions, and not something off the page. A warm Grade 2 reading game about finding the main topic of an informational text, aligned to Common Core RI.2.2.", "de": "Erkenne das Hauptthema eines kurzen Sachtexts & unterscheide es vom kleinen Detail – kostenlos & interaktiv für Klasse 3." },
+    "slug": { "en": "marinas-headline-desk", "de": "hauptthema-eines-sachtexts-erkennen-klasse-3", "fr": "trouver-le-sujet-principal-d-un-texte-ce2" },
+    "page_title": { "en": "Marina's Headline Desk — What's It Mostly About? (Grade 2)", "de": "Das Hauptthema eines Sachtexts erkennen", "fr": "Le bureau des titres de Marina : le sujet principal (CE2)" },
+    "page_intro": { "en": "Marina the otter writes headlines at the news desk, and a headline has to say what a story is MOSTLY about. Read each short article, then tap the card that names its main topic — not one small detail it mentions, and not something off the page. A warm Grade 2 reading game about finding the main topic of an informational text, aligned to Common Core RI.2.2.", "de": "Erkenne das Hauptthema eines kurzen Sachtexts & unterscheide es vom kleinen Detail – kostenlos & interaktiv für Klasse 3.", "fr": "Un jeu de lecture CE2, gratuit et interactif : Marina la loutre écrit les titres de la rédaction, et un titre doit dire de quoi une histoire parle SURTOUT. Ton enfant lit chaque petit article, puis touche la carte qui nomme son sujet principal — pas un petit détail qu'il cite, ni quelque chose hors du texte. Un jeu tout doux pour apprendre à trouver le sujet principal d'un texte documentaire." },
     "kid_prompt_template": "marina-headline-desk"
   }
 ]

@@ -1898,7 +1898,8 @@
       "addToCollection": "Toevoegen aan verzameling",
       "removeFromCollection": "Verwijderen",
       "shareLinks": "Links delen",
-      "cancel": "Annuleren"
+      "cancel": "Annuleren",
+      "downloadPack": "Downloaden als ZIP-pakket"
     },
     "addedConfirmation": "{count, plural, =1 {1 deck toegevoegd aan {collectionName}} other {# decks toegevoegd aan {collectionName}}}",
     "removedConfirmation": "{count, plural, =1 {1 deck verwijderd} other {# decks verwijderd}}",
@@ -1910,7 +1911,10 @@
       "pickerCreate": "+ Nieuwe verzameling",
       "pickerCancel": "Annuleren",
       "errorGeneric": "Verzamelingen konden niet worden geladen. Probeer het opnieuw."
-    }
+    },
+    "packUpsell": "Themapakketten zijn een functie van het Teacher-plan.",
+    "packTooMany": "Pakketten zijn beperkt tot {max} werkbladen.",
+    "packDone": "Pakket met {count} PDF’s gedownload."
   },
   "share": {
     "label": "Link delen",

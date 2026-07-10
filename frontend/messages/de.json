@@ -3549,7 +3549,8 @@
       "addToCollection": "Zur Sammlung hinzufügen",
       "removeFromCollection": "Entfernen",
       "shareLinks": "Links teilen",
-      "cancel": "Abbrechen"
+      "cancel": "Abbrechen",
+      "downloadPack": "Als ZIP-Paket herunterladen"
     },
     "addedConfirmation": "{count, plural, =1 {1 Deck zu {collectionName} hinzugefügt} other {# Decks zu {collectionName} hinzugefügt}}",
     "removedConfirmation": "{count, plural, =1 {1 Deck entfernt} other {# Decks entfernt}}",
@@ -3561,7 +3562,10 @@
       "pickerCreate": "+ Neue Sammlung",
       "pickerCancel": "Abbrechen",
       "errorGeneric": "Sammlungen konnten nicht geladen werden. Bitte versuchen Sie es erneut."
-    }
+    },
+    "packUpsell": "Themen-Pakete sind eine Funktion des Teacher-Plans.",
+    "packTooMany": "Pakete sind auf {max} Arbeitsblätter begrenzt.",
+    "packDone": "Paket mit {count} PDFs heruntergeladen."
   },
   "share": {
     "label": "Link teilen",

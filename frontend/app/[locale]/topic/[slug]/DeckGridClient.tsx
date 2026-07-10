@@ -79,6 +79,70 @@ export default function DeckGridClient({
     setTimeout(() => setConfirmation(null), 2500);
   }, []);
 
+  // Topic-pack ZIP (Teacher plan): zips the SELECTED decks' printable PDFs
+  // client-side with the already-shipped JSZip (no new dependency, no server
+  // endpoint — each PDF is individually free; the pack is convenience).
+  const PACK_MAX = 30;
+  async function handleDownloadPack() {
+    const ids = Array.from(selectedDeckIds);
+    if (ids.length === 0) return;
+    if (ids.length > PACK_MAX) {
+      flashConfirmation(t('packTooMany', { max: PACK_MAX }));
+      return;
+    }
+    // Client-side entitlement check (honest gate: content itself stays free).
+    setBusy(true);
+    try {
+      const token = localStorage.getItem('accessToken');
+      const me = token
+        ? await fetch('/api/verify-app-access', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+            body: JSON.stringify({ appId: 'addition' }),
+          }).then(r => r.json()).catch(() => null)
+        : null;
+      const entitled = !!(me && (me.tier === 'subscriber' || me.tier === 'admin'));
+      if (!entitled) {
+        flashConfirmation(t('packUpsell'));
+        try { (window as unknown as { umami?: { track: (e: string) => void } }).umami?.track('pack-locked-click'); } catch { /* no-op */ }
+        return;
+      }
+
+      // Load JSZip on demand from the shipped asset.
+      const w = window as unknown as { JSZip?: new () => { file: (n: string, d: Blob) => void; generateAsync: (o: object) => Promise<Blob> } };
+      if (!w.JSZip) {
+        await new Promise<void>((resolve, reject) => {
+          const s = document.createElement('script');
+          s.src = '/worksheet-generators/js/jszip-3.10.1.min.js';
+          s.onload = () => resolve();
+          s.onerror = () => reject(new Error('jszip'));
+          document.head.appendChild(s);
+        });
+      }
+      if (!w.JSZip) throw new Error('jszip');
+
+      const zip = new w.JSZip();
+      const selected = decks.filter(d => selectedDeckIds.has(d.id));
+      for (const d of selected) {
+        const res = await fetch(d.pdfUrl);
+        if (!res.ok) continue;
+        zip.file(`${d.slug}.pdf`, await res.blob());
+      }
+      const blob = await zip.generateAsync({ type: 'blob' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'lessoncraftstudio-pack.zip';
+      a.click();
+      setTimeout(() => URL.revokeObjectURL(a.href), 10000);
+      try { (window as unknown as { umami?: { track: (e: string, d?: object) => void } }).umami?.track('pack-downloaded', { count: selected.length }); } catch { /* no-op */ }
+      flashConfirmation(t('packDone', { count: selected.length }));
+    } catch {
+      flashConfirmation(t('errorGeneric'));
+    } finally {
+      setBusy(false);
+    }
+  }
+
   function toggleBulkMode() {
     if (bulkMode) {
       setSelectedDeckIds(new Set());
@@ -103,6 +167,10 @@ export default function DeckGridClient({
   async function handleAction(action: BulkAction) {
     if (action === 'addToCollection') {
       setPickerOpen(true);
+      return;
+    }
+    if (action === 'downloadPack') {
+      await handleDownloadPack();
       return;
     }
     if (action === 'shareLinks') {
@@ -264,7 +332,7 @@ export default function DeckGridClient({
 
       <BulkSelectToolbar
         count={selectedDeckIds.size}
-        actions={['addToCollection', 'shareLinks']}
+        actions={['addToCollection', 'shareLinks', 'downloadPack']}
         busy={busy}
         onAction={handleAction}
         onCancel={clearSelection}

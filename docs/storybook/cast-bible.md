@@ -115,6 +115,8 @@ and the rules for using + adding them. Structured to scale to ~100 characters.
 - **speech tics:** an excited double hand-clap before announcing something.
 - **best arcs:** Quest (her debut shape), Discovery.
 - **debut:** `hazels-treehouse-trail` (library story #4)
+- **recurs in:** `the-tiny-door` (true storybook #3 — she discovers the tiny door in the old
+  oak's root and the great big door on the hill; the badger and mouse neighbors join her forest)
 - **poses:** `neutral`, `happy` (+ idle bob). No clips.
 - **notes:** Hazel's forest treehouse (round cream door, party bunting) is her home — keep its
   look if she recurs.

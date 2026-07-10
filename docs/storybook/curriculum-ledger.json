@@ -572,7 +572,7 @@
               "sb-listen-place"
             ],
             "storySlots": 10,
-            "shipped": 2,
+            "shipped": 3,
             "status": "in_progress"
           },
           {
@@ -948,6 +948,11 @@
         "storyId": "the-runaway-wheel",
         "pointId": "pk-shapes",
         "library": "story-library-250 lib-p01-02 (true storybook)"
+      },
+      {
+        "storyId": "the-tiny-door",
+        "pointId": "pk-big-small",
+        "library": "story-library-250 lib-p01-03 (true storybook)"
       }
     ]
   }

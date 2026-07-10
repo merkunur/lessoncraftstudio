@@ -1,0 +1,835 @@
+{
+  "schemaVersion": "sb-1",
+  "id": "the-tiny-door",
+  "title": "@story.title",
+  "locales": [
+    "en"
+  ],
+  "theme": {
+    "letterboxColor": "#FBF3E4",
+    "transition": "crossfade"
+  },
+  "cast": [
+    {
+      "id": "pip",
+      "name": "@cast.pip.name",
+      "role": "guide",
+      "atlasBase": "atlas.pip.base",
+      "poses": [
+        "neutral",
+        "talk",
+        "happy",
+        "point"
+      ],
+      "atlasClips": "atlas.pip.clips",
+      "clips": {
+        "celebrate": {
+          "fallbackPose": "happy"
+        }
+      }
+    },
+    {
+      "id": "hazel",
+      "name": "@cast.hazel.name",
+      "role": "companion",
+      "atlasBase": "atlas.hazel.base",
+      "poses": [
+        "neutral",
+        "happy"
+      ]
+    }
+  ],
+  "assets": {
+    "scene1": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-tiny-door/scenes/page-01.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene2": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-tiny-door/scenes/page-02.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene3": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-tiny-door/scenes/page-03.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene4": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-tiny-door/scenes/page-04.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene5": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-tiny-door/scenes/page-05.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene6": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-tiny-door/scenes/page-06.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene7": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-tiny-door/scenes/page-07.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene8": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-tiny-door/scenes/page-08.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene9": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-tiny-door/scenes/page-09.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "atlas.pip.base": {
+      "kind": "atlas",
+      "src": "/mini-tools/stories/the-tiny-door/cast/pip/pip.base.json"
+    },
+    "atlas.pip.clips": {
+      "kind": "atlas",
+      "src": "/mini-tools/stories/the-tiny-door/cast/pip/pip.clips.json"
+    },
+    "atlas.hazel.base": {
+      "kind": "atlas",
+      "src": "/mini-tools/stories/the-tiny-door/cast/hazel/hazel.base.json"
+    },
+    "img.cookie-big": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-tiny-door/props/cookie-big@2x.webp"
+    },
+    "img.cookie-small": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-tiny-door/props/cookie-small@2x.webp"
+    },
+    "img.parcel-big": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-tiny-door/props/parcel-big@2x.webp"
+    },
+    "img.parcel-small": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-tiny-door/props/parcel-small@2x.webp"
+    },
+    "img.big-door": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-tiny-door/props/big-door@2x.webp"
+    },
+    "img.tiny-door": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-tiny-door/props/tiny-door@2x.webp"
+    },
+    "img.print-big": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-tiny-door/props/print-big@2x.webp"
+    },
+    "img.print-tiny": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-tiny-door/props/print-tiny@2x.webp"
+    },
+    "img.leaf": {
+      "kind": "image",
+      "src": "/mini-tools/stories/the-tiny-door/props/leaf@2x.webp"
+    },
+    "pip": {
+      "kind": "atlas",
+      "src": "cast/pip/pip.base.json"
+    },
+    "hazel": {
+      "kind": "atlas",
+      "src": "cast/hazel/hazel.base.json"
+    }
+  },
+  "reward": {
+    "id": "story.the-tiny-door",
+    "label": {
+      "en": "The Two Doors"
+    },
+    "emoji": "🚪"
+  },
+  "pages": [
+    {
+      "id": "p01",
+      "scene": {
+        "image": "scene1"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "hazel",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.54,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p01-l01"
+          },
+          {
+            "id": "p01-l02",
+            "characterId": "hazel"
+          },
+          {
+            "id": "p01-l03",
+            "characterId": "pip"
+          },
+          {
+            "id": "p01-l04",
+            "characterId": "hazel"
+          }
+        ]
+      },
+      "success": {
+        "celebration": "none",
+        "holdMs": 600
+      }
+    },
+    {
+      "id": "p02",
+      "scene": {
+        "image": "scene2"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "hazel",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.54,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p02-l01"
+          },
+          {
+            "id": "p02-l02",
+            "characterId": "hazel"
+          },
+          {
+            "id": "p02-l03",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-choice-board",
+        "zone": {
+          "x": 500,
+          "y": 210,
+          "w": 660,
+          "h": 540
+        },
+        "completionMode": "check",
+        "taskData": {
+          "targetKey": "small",
+          "options": [
+            {
+              "key": "big",
+              "image": "img.cookie-big"
+            },
+            {
+              "key": "small",
+              "image": "img.cookie-small"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p02-bravo",
+        "holdMs": 1000
+      }
+    },
+    {
+      "id": "p03",
+      "scene": {
+        "image": "scene3"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "hazel",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.54,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p03-l01"
+          },
+          {
+            "id": "p03-l02",
+            "characterId": "hazel"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-trace",
+        "zone": {
+          "x": 350,
+          "y": 220,
+          "w": 800,
+          "h": 460
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "path": [
+            {
+              "x": 100,
+              "y": 120
+            },
+            {
+              "x": 240,
+              "y": 180
+            },
+            {
+              "x": 380,
+              "y": 150
+            },
+            {
+              "x": 520,
+              "y": 220
+            },
+            {
+              "x": 660,
+              "y": 190
+            },
+            {
+              "x": 740,
+              "y": 260
+            }
+          ],
+          "tolDu": 150
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p03-bravo",
+        "holdMs": 1000
+      }
+    },
+    {
+      "id": "p04",
+      "scene": {
+        "image": "scene4"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "hazel",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.54,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p04-l01"
+          },
+          {
+            "id": "p04-l02",
+            "characterId": "pip"
+          },
+          {
+            "id": "p04-l03",
+            "characterId": "hazel"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-find-object",
+        "zone": {
+          "x": 120,
+          "y": 150,
+          "w": 1360,
+          "h": 660
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "find": [
+            "print-big",
+            "print-tiny"
+          ],
+          "targets": [
+            {
+              "key": "print-big",
+              "image": "img.print-big",
+              "rect": {
+                "x": 280,
+                "y": 300,
+                "w": 300,
+                "h": 300
+              },
+              "word": "@word.big"
+            },
+            {
+              "key": "print-tiny",
+              "image": "img.print-tiny",
+              "rect": {
+                "x": 800,
+                "y": 450,
+                "w": 200,
+                "h": 200
+              },
+              "word": "@word.tiny"
+            },
+            {
+              "key": "leaf",
+              "image": "img.leaf",
+              "rect": {
+                "x": 1120,
+                "y": 250,
+                "w": 220,
+                "h": 220
+              },
+              "word": "@p04.word.leaf"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p04-bravo",
+        "holdMs": 1000
+      }
+    },
+    {
+      "id": "p05",
+      "scene": {
+        "image": "scene5"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "hazel",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.54,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p05-l01"
+          },
+          {
+            "id": "p05-l02",
+            "characterId": "pip"
+          },
+          {
+            "id": "p05-l03",
+            "characterId": "hazel"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-listen",
+        "zone": {
+          "x": 400,
+          "y": 160,
+          "w": 800,
+          "h": 650
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "word": "@word.bigknock",
+          "correct": "big-door",
+          "options": [
+            {
+              "key": "big-door",
+              "image": "img.big-door"
+            },
+            {
+              "key": "tiny-door",
+              "image": "img.tiny-door"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p05-bravo",
+        "holdMs": 1000
+      }
+    },
+    {
+      "id": "p06",
+      "scene": {
+        "image": "scene6"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "hazel",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.54,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p06-l01"
+          },
+          {
+            "id": "p06-l02",
+            "characterId": "hazel"
+          },
+          {
+            "id": "p06-l03",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-listen-place",
+        "zone": {
+          "x": 440,
+          "y": 240,
+          "w": 880,
+          "h": 560
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "object": {
+            "image": "img.parcel-big",
+            "alt": "@p06.alt.parcel"
+          },
+          "slots": [
+            {
+              "key": "big-door",
+              "at": {
+                "x": 680,
+                "y": 200
+              },
+              "correct": true
+            },
+            {
+              "key": "tiny-door",
+              "at": {
+                "x": 420,
+                "y": 400
+              }
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p06-bravo",
+        "holdMs": 1000
+      }
+    },
+    {
+      "id": "p07",
+      "scene": {
+        "image": "scene7"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "hazel",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.54,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p07-l01"
+          },
+          {
+            "id": "p07-l02",
+            "characterId": "hazel"
+          },
+          {
+            "id": "p07-l03",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-listen-place",
+        "zone": {
+          "x": 440,
+          "y": 240,
+          "w": 880,
+          "h": 560
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "object": {
+            "image": "img.parcel-small",
+            "alt": "@p07.alt.parcel"
+          },
+          "slots": [
+            {
+              "key": "tiny-door",
+              "at": {
+                "x": 680,
+                "y": 380
+              },
+              "correct": true
+            },
+            {
+              "key": "big-door",
+              "at": {
+                "x": 400,
+                "y": 150
+              }
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p07-bravo",
+        "holdMs": 1400,
+        "clip": {
+          "characterId": "pip",
+          "name": "celebrate"
+        }
+      }
+    },
+    {
+      "id": "p08",
+      "scene": {
+        "image": "scene8"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "happy",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "hazel",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.54,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p08-l01"
+          },
+          {
+            "id": "p08-l02"
+          },
+          {
+            "id": "p08-l03",
+            "characterId": "hazel"
+          },
+          {
+            "id": "p08-l04",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "success": {
+        "celebration": "burst",
+        "holdMs": 900
+      }
+    },
+    {
+      "id": "p09",
+      "scene": {
+        "image": "scene9"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "happy",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "hazel",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.54,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p09-l01"
+          },
+          {
+            "id": "p09-l02"
+          },
+          {
+            "id": "p09-l03",
+            "characterId": "hazel"
+          },
+          {
+            "id": "p09-l04",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "success": {
+        "celebration": "sticker",
+        "holdMs": 1200
+      }
+    }
+  ],
+  "alignment": {
+    "grade": "PK"
+  }
+}

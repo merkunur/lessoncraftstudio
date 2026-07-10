@@ -45,10 +45,11 @@
       "grade": "PK",
       "teachingPointId": "lib-p01-03",
       "label": "Big vs. small",
-      "premise": "help Poppy the hedgehog harvest her garden by telling the big vegetables from the small ones",
-      "setting": "vegetable garden",
-      "storyId": "poppys-big-harvest",
-      "status": "shipped"
+      "premise": "two mystery doors in the forest - a tiny one and a great big one; every welcome gift must be the right size",
+      "setting": "old-oak forest",
+      "storyId": "the-tiny-door",
+      "status": "shipped",
+      "displacedActivity": "poppys-big-harvest (activity-shaped; slated for the activities migration per the 2026-07-10 storybook ruling)"
     },
     {
       "part": 1,

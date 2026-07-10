@@ -46,30 +46,45 @@ Help-a-friend around an absent friend.
 
 ## 2. Per-grade envelope (hard numbers — the gate enforces these)
 
-A page's narration is **ONE flowing picture-book PARAGRAPH** (40–70 words) displayed in the
-player's **book panel** — readable page text that accumulates sentence by sentence as it is
-read aloud, exactly like a picture book. Each **cue = one full sentence** (one audio slot).
-Written in narrative past tense with sensory detail; **dialogue is EMBEDDED in the prose with
-quotes + said-verbs** ('"Oh no," quacked Willa.') — NEVER chat-style speaker prefixes; a cue's
-`characterId` only makes that character talk-animate while its sentence plays. On interactive
-pages the LAST sentence is a direct-address invitation ("Can you find her?") and the panel
-collapses to the 📖 pill when reading ends so the activity is clear. Vocabulary stays
-age-simple (the reading-level WARN watches average word length).
+A page's narration is a **SHORT picture-book PASSAGE** — board-book read-aloud rhythm, NOT a
+dense paragraph — displayed in the player's **book panel**, accumulating sentence by sentence
+as it is read aloud. Each **cue = one full SHORT sentence** (one audio slot). Written in
+narrative past tense; **dialogue is EMBEDDED in the prose with quotes + said-verbs**
+('"Oh no," quacked Willa.') — NEVER chat-style speaker prefixes; a cue's `characterId` only
+makes that character talk-animate while its sentence plays. On interactive pages the LAST
+sentence is a direct-address invitation ("Can you find her?") and the panel collapses to the
+📖 pill when reading ends so the activity is clear. Vocabulary stays age-simple (the
+reading-level WARN watches average word length).
 
-| Grade | Age | Pages | Narration: max words/SENTENCE · max sentences/page | Vocab ceiling |
-|---|---|---|---|---|
-| **PK** | 3-4 | **7–10** | **16 words** · 6 sentences | pre-reader: read-aloud, picture-carried |
-| **K** | 5-6 | **7–10** | **16 words** · 6 sentences | high-frequency + the target word |
-| **1** | 6-7 | **7–10** | **18 words** · 7 sentences | decodable + 1–2 new nouns |
-| **2** | 7-8 | **7–10** | **20 words** · 7 sentences | grade-appropriate; define new terms in-line |
-| **3** | 8-9 | **7–10** | **22 words** · 8 sentences | richer; still concrete-first |
+> **v4 (operator ruling 2026-07-10, 4th correction): "Why long text? Is it age
+> appropriate!"** — the earlier 40–70-words/page paragraph spec is REJECTED for the young
+> grades. A 3-5-year-old's page is 3–4 SHORT sentences, ~20–32 words. The gate enforces
+> per-sentence, per-page, AND whole-book word budgets:
 
-> **story-presence v2 (HARD, gate-checked).** At least HALF the pages carry ≥3 sentences;
+| Grade | Age | Pages | max words/SENTENCE · sentences/page · words/PAGE | whole-book band | Vocab ceiling |
+|---|---|---|---|---|---|
+| **PK** | 3-4 | **7–10** | **9** · 4 · **32** | **140–300** | pre-reader: read-aloud, picture-carried |
+| **K** | 5-6 | **7–10** | **11** · 5 · **44** | 170–360 | high-frequency + the target word |
+| **1** | 6-7 | **7–10** | **13** · 5 · **56** | 200–430 | decodable + 1–2 new nouns |
+| **2** | 7-8 | **7–10** | **15** · 6 · **72** | 240–520 | grade-appropriate; define new terms in-line |
+| **3** | 8-9 | **7–10** | **17** · 6 · **88** | 280–620 | richer; still concrete-first |
+
+> **story-presence (HARD, gate-checked).** At least HALF the pages carry ≥3 sentences;
 > ≥2 distinct characters SPEAK somewhere (`characterId` animation tags on dialogue
-> sentences); ≥1 sentence has NO characterId (narrator voice); **total narration ≥220 EN
-> words** — a real book's volume, so subtitle-fragment "stories" are unshippable. Story-only
-> pages (the opener that sets the promise, the closer that tucks the story in) are
-> encouraged: the player auto-advances them after the reading.
+> sentences); ≥1 sentence has NO characterId (narrator voice); **total narration inside the
+> grade's whole-book band** — below it is not a book; above it is not age-appropriate.
+> Story-only pages (the opener that sets the promise, the closer that tucks the story in)
+> are encouraged: the reader turns past them with the pulse arrow.
+
+> **story-development v4 (HARD, gate-checked). EVERY PAGE DEVELOPS THE STORY.** Every
+> blueprint page declares `storyTurn: "<one sentence: what CHANGES in the story on this
+> page>"`; the gate fails on a missing turn and on any two pages claiming the SAME
+> development. **The page-turn test:** after every page the child can answer *"what NEW
+> thing just happened?"* with a fact that was not true before — "we did another one" is an
+> exercise, not a page. **Causal chaining:** each page's success line CAUSES the next page's
+> situation (the bravo is the next page's setup). The REJECTED anti-pattern is **GOAL
+> DECOMPOSITION** — a beginning + an end with N similar steps between them ("sort another
+> fruit") = exercises with a story wrapper (the-green-berry v1, rejected 2026-07-10).
 
 > **Per-story number-ceiling override.** Commission teaching points whose number space
 > exceeds a grade's default ceiling (e.g. PK "Count objects 1–10") declare
@@ -100,17 +115,18 @@ age-simple (the reading-level WARN watches average word length).
 
 ## 3. Narration voice — write a real book page (the storybook shape)
 
-Voice = warm adult reading to a small child on a lap. Write each page as a PARAGRAPH you would
-find in a printed picture book: scene and feeling first ("The sun was setting over the meadow,
-and the pond glowed like warm honey."), an event that raises the question, dialogue embedded
-with quotes and said-verbs ('"I can see tail feathers!" whispered Pip.'), and — on interactive
-pages — a final direct-address invitation ("Can you find the little duckling hiding in the
-reeds?"). The interaction is the story's next event, not an exercise; the `success.narrationKey`
-line is the story CONSEQUENCE told as another sentence ("Out she waddled, shaking pond water
-from her wings — one duckling found!") and the next page's prose continues from that new state.
-Give the story a mid-arc wobble (something gently goes wrong), character interiority (worry,
-delight, sleepiness), and callbacks. Never state the answer. Never quiz. Never write stage
-directions — if a sentence could be a subtitle, rewrite it.
+Voice = warm adult reading to a small child on a lap. Write each page as the SHORT passage you
+would find on one spread of a printed board book: an EVENT first ("BUMP! The basket tipped."),
+dialogue embedded with quotes and said-verbs ('"I can see tail feathers!" whispered Pip.'),
+and — on interactive pages — a final direct-address invitation ("Can you find her?"). The
+interaction is the story's next event, not an exercise; the `success.narrationKey` line is the
+story CONSEQUENCE **that creates the NEXT page's situation** ("Safe! Then a magpie swooped
+down — and grabbed the blueberry!") and the next page's prose continues from that new state.
+**Design the story as a chain of EVENTS, never as one goal split into steps**: every page a
+new place, a new problem, a new discovery, a rising clock — something that CHANGES the
+situation. Give the story a mid-arc wobble (something gently goes wrong), character
+interiority (worry, delight, sleepiness), and callbacks. Never state the answer. Never quiz.
+Never write stage directions — if a sentence could be a subtitle, rewrite it.
 
 **Prompt patterns by mechanic** (fill `{…}`; keep within the grade word ceiling). These are
 PATTERNS, not literals — **vary the exact wording across pages** so the story reads like Pip talking,
@@ -269,3 +285,14 @@ HTTP 200" is NOT done.
   type (and that's an engineering commission, not a per-story act).
 - Editing a protected core (`*-core.js`, `lcs-shell.*`) to make a story fit. STOP and surface — the
   adapter scale-fits; the story bends to the engine, never the reverse.
+- **GOAL DECOMPOSITION (rejected 2026-07-10, the operator's 4th correction).** Writing a
+  beginning + an end and filling the middle with N similar steps toward one static goal
+  ("find the reds… place the blue… now the yellow…") = exercises with a story wrapper.
+  After each such page NOTHING has changed in the story. Every page must be a distinct
+  EVENT that turns the plot (`storyTurn`, gate-enforced); every bravo creates the next
+  page's situation. The-green-berry v1 shipped this way and was rejected; v2 (magpie theft →
+  stream rescue → boil-over → the strange green discovery → the fair bell) is the corrected
+  reference.
+- **Long dense page text.** 40–70-word paragraphs are prose-novel density for a 3-5-year-old.
+  PK = 3–4 short sentences, ≤9 words each, ≤32 words/page, whole book 140–300 (gate-enforced
+  per-sentence/per-page/whole-book).

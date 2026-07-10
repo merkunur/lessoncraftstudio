@@ -187,6 +187,19 @@ function butterflyAt(x, y, s, wingToken) {
     S.stroke(`M ${x - 3 * s} ${y - 20 * s} Q ${x - 12 * s} ${y - 34 * s} ${x - 18 * s} ${y - 38 * s} M ${x + 3 * s} ${y - 20 * s} Q ${x + 12 * s} ${y - 34 * s} ${x + 18 * s} ${y - 38 * s}`, 'inkSoft', 3 * s),
   ].join('');
 }
+function magpieAt(x, y, s) {
+  /* a little flying magpie: night body, white belly patch, spread wings */
+  return [
+    S.pathShape(`M ${x - 60 * s} ${y - 8 * s} Q ${x - 30 * s} ${y - 44 * s} ${x - 4 * s} ${y - 12 * s} Z`, 'night', { outlined: true, sw: 4 * s }),
+    S.pathShape(`M ${x + 56 * s} ${y - 14 * s} Q ${x + 30 * s} ${y - 46 * s} ${x + 2 * s} ${y - 12 * s} Z`, 'night', { outlined: true, sw: 4 * s }),
+    S.ellipse(x, y, 34 * s, 22 * s, 'night', { outlined: true, sw: 4 * s }),
+    S.ellipse(x - 2 * s, y + 8 * s, 18 * s, 10 * s, 'white'),
+    S.circle(x + 26 * s, y - 10 * s, 13 * s, 'night', { outlined: true, sw: 4 * s }),
+    S.pathShape(`M ${x + 36 * s} ${y - 12 * s} L ${x + 52 * s} ${y - 8 * s} L ${x + 36 * s} ${y - 3 * s} Z`, 'sunshine', { outlined: true, sw: 3 * s }),
+    S.eyeDot(x + 28 * s, y - 12 * s, 3.4 * s),
+    S.pathShape(`M ${x - 30 * s} ${y + 6 * s} L ${x - 58 * s} ${y + 18 * s} L ${x - 34 * s} ${y + 16 * s} Z`, 'night', { outlined: true, sw: 3 * s }),
+  ].join('');
+}
 function sunCorner() {
   return S.circle(1460, 130, 86, 'sunshine', { outlined: true, sw: 8 }) +
     S.stroke('M 1330 40 L 1290 10 M 1300 160 L 1250 160 M 1340 240 L 1300 274', 'sunshine', 10);
@@ -260,6 +273,8 @@ function sceneSVG(n) {
        the BLUE jar on it; the RED jar on the table at the decoy (abs 840,640);
        the yellow jar keeps the trio on the table's right end */
     parts.push(daySky(), meadowGround(false));
+    parts.push(S.water(520, 1600, 44, 'bluebird', 'skyPale'));
+    parts.push(magpieAt(390, 350, 1.1));
     parts.push(standAt(1120, 452, 340, 860));
     parts.push(jarAt(1120, 450, 1.0, 'bluebird', 0));
     parts.push(tableAt(1030, 668, 620, 1.0));
@@ -273,6 +288,8 @@ function sceneSVG(n) {
     parts.push(daySky(), meadowGround(false));
     parts.push(jamTable(280, 560, 0.62, [0.35, 0.5, 0]));
     parts.push(potAt(1150, 965, 1.05, true));
+    parts.push(S.stroke('M 1100 800 Q 1088 766 1102 738 M 1150 792 Q 1140 756 1154 726 M 1204 800 Q 1194 768 1208 740', 'white', 9, { alpha: 0.75 }));
+    parts.push(S.circle(1078, 812, 8, 'sunshine'), S.circle(1226, 806, 8, 'sunshine'), S.circle(1152, 786, 7, 'sunshine'));
     parts.push(S.grass(480, 880, 1.1, 'leafDeep'), S.grass(940, 930, 1.0, 'leafDeep'));
   } else if (n === 5) {
     /* the dip: last strawberries in the grass — mounds under the module targets
@@ -282,6 +299,7 @@ function sceneSVG(n) {
     parts.push(S.hill(450, 750, 170, 40, 'leafDeep'));
     parts.push(S.hill(770, 735, 170, 40, 'leafDeep'));
     parts.push(S.hill(1130, 755, 170, 40, 'leafDeep'));
+    parts.push(basketAt(950, 800, 0.75, true));
     parts.push(S.grass(300, 700, 1.3, 'leafDeep'), S.grass(530, 710, 1.2, 'leafDeep'));
     parts.push(S.grass(660, 690, 1.2, 'leafDeep'), S.grass(900, 700, 1.2, 'leafDeep'));
     parts.push(S.grass(1010, 700, 1.2, 'leafDeep'), S.grass(1260, 710, 1.2, 'leafDeep'));
@@ -299,6 +317,7 @@ function sceneSVG(n) {
        (abs 500,560 / 780,520 / 1060,570); decoy blueberry + lemon far left
        (abs ~180,600); the pot steams at the right */
     parts.push(daySky(), meadowGround(false));
+    parts.push(buntingAt(110));
     parts.push(jamTable(250, 470, 0.55, [0.35, 0.5, 0.5]));
     parts.push(S.hill(500, 700, 170, 40, 'leafDeep'));
     parts.push(S.hill(780, 680, 170, 40, 'leafDeep'));

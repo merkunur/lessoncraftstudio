@@ -191,17 +191,14 @@
             "id": "p01-l01"
           },
           {
-            "id": "p01-l02"
-          },
-          {
-            "id": "p01-l03",
+            "id": "p01-l02",
             "characterId": "bramble"
           },
           {
-            "id": "p01-l04"
+            "id": "p01-l03"
           },
           {
-            "id": "p01-l05",
+            "id": "p01-l04",
             "characterId": "pip"
           }
         ]
@@ -332,7 +329,7 @@
       "characters": [
         {
           "characterId": "pip",
-          "pose": "talk",
+          "pose": "point",
           "anchor": {
             "x": 200,
             "y": 890
@@ -342,7 +339,7 @@
         },
         {
           "characterId": "bramble",
-          "pose": "happy",
+          "pose": "neutral",
           "anchor": {
             "x": 1400,
             "y": 915
@@ -416,7 +413,7 @@
       "characters": [
         {
           "characterId": "pip",
-          "pose": "happy",
+          "pose": "talk",
           "anchor": {
             "x": 200,
             "y": 890
@@ -518,11 +515,11 @@
             "id": "p05-l01"
           },
           {
-            "id": "p05-l02"
+            "id": "p05-l02",
+            "characterId": "bramble"
           },
           {
-            "id": "p05-l03",
-            "characterId": "bramble"
+            "id": "p05-l03"
           },
           {
             "id": "p05-l04",
@@ -791,11 +788,11 @@
             "id": "p08-l02"
           },
           {
-            "id": "p08-l03"
+            "id": "p08-l03",
+            "characterId": "bramble"
           },
           {
-            "id": "p08-l04",
-            "characterId": "bramble"
+            "id": "p08-l04"
           }
         ]
       },

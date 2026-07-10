@@ -59,12 +59,17 @@ const MINI = path.join(REPO, 'mini tools');
    panel width); maxLines = sentences per page (panel fits ~6 lines / ~80 words).
    Dialogue is EMBEDDED in the prose with quotes + said-verbs — characterId on a
    cue is an animation tag only, never a caption prefix. */
+/* v4 (operator ruling 2026-07-10, 4th correction): "why long text? Is it age
+   appropriate!" — per-page prose is BOARD-BOOK short. maxWords per cue,
+   maxLines cues/page, maxPageWords words/page, totalWords = the whole book's
+   [min,max] EN-word band (below min = not a book; above max = not
+   age-appropriate). */
 const GRADE_ENV = {
-  PK: { pages: [7, 10], maxWords: 16, maxLines: 6, numberCeil: 5, numberSev: 'HARD' },
-  K:  { pages: [7, 10], maxWords: 16, maxLines: 6, numberCeil: 10, numberSev: 'WARN' },
-  '1': { pages: [7, 10], maxWords: 18, maxLines: 7, numberCeil: 20, numberSev: 'WARN' },
-  '2': { pages: [7, 10], maxWords: 20, maxLines: 7, numberCeil: 100, numberSev: 'WARN' },
-  '3': { pages: [7, 10], maxWords: 22, maxLines: 8, numberCeil: 1000, numberSev: 'WARN' },
+  PK: { pages: [7, 10], maxWords: 9, maxLines: 4, maxPageWords: 32, totalWords: [140, 300], numberCeil: 5, numberSev: 'HARD' },
+  K:  { pages: [7, 10], maxWords: 11, maxLines: 5, maxPageWords: 44, totalWords: [170, 360], numberCeil: 10, numberSev: 'WARN' },
+  '1': { pages: [7, 10], maxWords: 13, maxLines: 5, maxPageWords: 56, totalWords: [200, 430], numberCeil: 20, numberSev: 'WARN' },
+  '2': { pages: [7, 10], maxWords: 15, maxLines: 6, maxPageWords: 72, totalWords: [240, 520], numberCeil: 100, numberSev: 'WARN' },
+  '3': { pages: [7, 10], maxWords: 17, maxLines: 6, maxPageWords: 88, totalWords: [280, 620], numberCeil: 1000, numberSev: 'WARN' },
 };
 const ARCS = ['quest', 'help-a-friend', 'fix-a-mess', 'discovery', 'collect-and-sort'];
 /* Scoring/pressure/judgement tokens forbidden in narration (playbook §3). EN core +
@@ -107,12 +112,12 @@ function collectNumbers(node, keyName, out) {
    activities in it to teach a teaching point." An activity sequence (one bare
    instruction line per page, no prose, no dialogue) is NOT shippable as a story.
    pageCues = per-page arrays of cue-like objects ({characterId?}). */
-function checkStoryPresence(pageCues, add, wordOf) {
+function checkStoryPresence(pageCues, add, wordOf, band) {
   const total = pageCues.length;
   if (!total) return;
   const prosePages = pageCues.filter((cues) => cues.length >= 3).length;
   if (prosePages < Math.ceil(total / 2))
-    add('story-presence', 'HARD', `only ${prosePages}/${total} pages carry >=3 sentences — a storybook page is a PARAGRAPH of prose, not bare instructions (operator ruling 2026-07-10)`);
+    add('story-presence', 'HARD', `only ${prosePages}/${total} pages carry >=3 sentences — a storybook page is a short PASSAGE of prose, not bare instructions (operator ruling 2026-07-10)`);
   const speakers = new Set();
   let narrator = false;
   let totalWords = 0;
@@ -124,9 +129,47 @@ function checkStoryPresence(pageCues, add, wordOf) {
     add('story-presence', 'HARD', `only ${speakers.size} distinct speaking character(s) — a storybook needs DIALOGUE (>=2 speakers somewhere in the story)`);
   if (!narrator)
     add('story-presence', 'HARD', 'no narrator-voice cue (a cue WITHOUT characterId) anywhere — a storybook needs narration around the dialogue');
-  /* v2: a book's text VOLUME — subtitle-fragment "stories" cannot pass */
-  if (wordOf && totalWords < 220)
-    add('story-presence', 'HARD', `total narration is ${totalWords} EN words; a storybook carries >=220 (a real picture-book's volume, ~40-70 words/page)`);
+  /* v2: a book's text VOLUME (subtitle-fragment "stories" cannot pass);
+     v4: ALSO a ceiling — long dense text is not age-appropriate. */
+  const b = band || [140, 620];
+  if (wordOf && totalWords < b[0])
+    add('story-presence', 'HARD', `total narration is ${totalWords} EN words; a storybook carries >=${b[0]} (a real picture-book's volume)`);
+  if (wordOf && totalWords > b[1])
+    add('story-presence', 'HARD', `total narration is ${totalWords} EN words; the age band caps at ${b[1]} — long text is NOT age-appropriate (operator ruling 2026-07-10 v4)`);
+}
+
+/* ---- story-development (HARD) — v4, operator ruling 2026-07-10 (4th correction):
+   "Every page should develop the story." The REJECTED anti-pattern is GOAL
+   DECOMPOSITION: a beginning + an end with N similar steps between them
+   ("sort another one") = exercises with a story wrapper. Every blueprint page
+   MUST declare storyTurn — one sentence naming what CHANGES in the story on
+   that page — and no two pages may claim the same development. */
+const TURN_STOPWORDS = new Set(['the', 'a', 'an', 'and', 'or', 'but', 'to', 'of', 'in', 'on', 'at', 'is', 'are', 'was', 'were', 'it', 'its', 'his', 'her', 'their', 'into', 'for', 'with', 'that', 'this', 'they', 'he', 'she', 'so', 'then', 'now', 'one', 'page', 'story', 'child']);
+function turnWords(s) {
+  return new Set(String(s).toLowerCase().replace(/[^a-zà-ÿ' ]/g, ' ').split(/\s+/)
+    .filter((w) => w && w.length > 2 && !TURN_STOPWORDS.has(w)));
+}
+function checkStoryDevelopment(pages, add) {
+  const turns = [];
+  pages.forEach((pg, i) => {
+    const t = pg.storyTurn;
+    if (!t || !String(t).trim()) {
+      add('story-development', 'HARD', `page ${i + 1} has no storyTurn — every page must name what CHANGES in the story (operator ruling 2026-07-10 v4)`);
+    } else {
+      turns.push({ n: i + 1, words: turnWords(t), raw: String(t).trim() });
+    }
+  });
+  for (let a = 0; a < turns.length; a++) {
+    for (let b = a + 1; b < turns.length; b++) {
+      const A = turns[a].words, B = turns[b].words;
+      if (!A.size || !B.size) continue;
+      let inter = 0;
+      A.forEach((w) => { if (B.has(w)) inter++; });
+      const jac = inter / (A.size + B.size - inter);
+      if (jac > 0.6)
+        add('story-development', 'HARD', `pages ${turns[a].n} and ${turns[b].n} claim the SAME story development ("${turns[a].raw}" ~ "${turns[b].raw}") — goal-decomposition anti-pattern (operator ruling 2026-07-10 v4)`);
+    }
+  }
 }
 
 /* The gate engine — pure, returns {findings:[{gate,severity,msg}], grade}. Require-able for C5. */
@@ -192,7 +235,16 @@ function runGates(storyId, opts) {
       // story-presence at design time (skip when the authored story is present — checked there)
       if (!story) checkStoryPresence(
         blueprint.pages.map((pg) => pg.narration || []), add,
-        (c) => String(c.text || '').trim().split(/\s+/).filter(Boolean).length);
+        (c) => String(c.text || '').trim().split(/\s+/).filter(Boolean).length,
+        env && env.totalWords);
+      // v4: every page develops the story (storyTurn required + pairwise-distinct)
+      checkStoryDevelopment(blueprint.pages, add);
+      // v4: per-page word budget at design time
+      if (env && env.maxPageWords && !story) blueprint.pages.forEach((pg, i) => {
+        const w = (pg.narration || []).reduce((s, c) => s + String(c.text || '').trim().split(/\s+/).filter(Boolean).length, 0);
+        if (w > env.maxPageWords)
+          add('page-words', 'HARD', `page ${i + 1}: ${w} words; grade ${grade} max ${env.maxPageWords}/page — long text is not age-appropriate (v4)`);
+      });
     }
   }
 
@@ -215,9 +267,14 @@ function runGates(storyId, opts) {
       const inter = pg.interaction || {};
       const cues = (pg.narration && pg.narration.cues) || [];
 
-      // lines-per-page + line-length + no-scoring + english-leak (narration)
+      // lines-per-page + page-words + line-length + no-scoring + english-leak (narration)
       if (env && cues.length > env.maxLines)
         add('lines-per-page', 'HARD', `page ${pn}: ${cues.length} narration lines; grade ${grade} max ${env.maxLines} (playbook §2)`);
+      if (env && env.maxPageWords) {
+        const pw = cues.reduce((s, c) => s + String(strOf(c.id, 'en') || '').trim().split(/\s+/).filter(Boolean).length, 0);
+        if (pw > env.maxPageWords)
+          add('page-words', 'HARD', `page ${pn}: ${pw} words; grade ${grade} max ${env.maxPageWords}/page — long text is not age-appropriate (v4)`);
+      }
       cues.forEach((c) => {
         const en = strOf(c.id, 'en');
         if (en != null) {
@@ -278,10 +335,11 @@ function runGates(storyId, opts) {
       }
     });
 
-    // story-presence on the authored story (prose + dialogue + narrator voice + book volume)
+    // story-presence on the authored story (prose + dialogue + narrator voice + book volume band)
     checkStoryPresence(
       pages.map((pg) => (pg.narration && pg.narration.cues) || []), add,
-      (c) => String(strOf(c.id, 'en') || '').trim().split(/\s+/).filter(Boolean).length);
+      (c) => String(strOf(c.id, 'en') || '').trim().split(/\s+/).filter(Boolean).length,
+      env && env.totalWords);
   } else if (!blueprint) {
     add('input', 'HARD', 'no story and no blueprint found — nothing to gate');
   }

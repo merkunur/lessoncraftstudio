@@ -140,6 +140,7 @@
   ],
   "pages": [
     {
+      "storyTurn": "Bramble's fruit basket tips over just before the fair opens",
       "scene": {
         "image": "scene1"
       },
@@ -169,21 +170,18 @@
       ],
       "narration": [
         {
-          "text": "The Meadow Fair was coming, and Bramble the bear was making jam."
-        },
-        {
-          "text": "Three jars with bright lids waited on his table: red, blue, and yellow."
+          "text": "It was jam day at Bramble's garden."
         },
         {
           "characterId": "bramble",
-          "text": "\"One jar for every color,\" said Bramble proudly."
+          "text": "\"The fair opens at noon!\" said Bramble."
         },
         {
-          "text": "Then his big foot caught a root. BUMP! The fruit basket tumbled everywhere!"
+          "text": "BUMP! He tripped. The fruit flew everywhere!"
         },
         {
           "characterId": "pip",
-          "text": "\"Oh my,\" said Pip. \"Colors will help us. Every fruit has a color home.\""
+          "text": "\"Colors will help us,\" said Pip."
         }
       ],
       "success": {
@@ -192,6 +190,7 @@
       }
     },
     {
+      "storyTurn": "The red strawberries are found - then a magpie steals the blueberry",
       "scene": {
         "image": "scene2"
       },
@@ -221,14 +220,14 @@
       ],
       "narration": [
         {
-          "text": "Red strawberries were hiding in the tall green grass."
+          "text": "Red strawberries hid in the tall grass."
         },
         {
           "characterId": "bramble",
-          "text": "\"Red goes with red,\" said Bramble, holding up the red jar."
+          "text": "\"Red goes with red,\" said Bramble."
         },
         {
-          "text": "Some blueberries were hiding there too. Those are not red!"
+          "text": "But blueberries were hiding there too!"
         },
         {
           "text": "Can you find every red strawberry?"
@@ -303,6 +302,7 @@
       }
     },
     {
+      "storyTurn": "The magpie drops the blueberry and it nearly rolls into the stream",
       "scene": {
         "image": "scene3"
       },
@@ -310,7 +310,7 @@
         {
           "characterId": "pip",
           "atlasBase": "atlas.pip.base",
-          "pose": "talk",
+          "pose": "point",
           "anchor": {
             "x": 200,
             "y": 890
@@ -321,7 +321,7 @@
         {
           "characterId": "bramble",
           "atlasBase": "atlas.bramble.base",
-          "pose": "happy",
+          "pose": "neutral",
           "anchor": {
             "x": 1400,
             "y": 915
@@ -332,17 +332,17 @@
       ],
       "narration": [
         {
-          "text": "One round blueberry rolled all the way to Pip's feet."
+          "text": "The magpie dropped the blueberry by the stream."
         },
         {
           "characterId": "pip",
-          "text": "\"Blue belongs with blue,\" said Pip."
+          "text": "\"Catch it!\" cried Pip. \"Blue goes with blue!\""
         },
         {
-          "text": "The blue jar waited on the shelf, right above the red one."
+          "text": "The blue jar waited on the tall stand."
         },
         {
-          "text": "Can you put the blueberry into the blue jar?"
+          "text": "Can you put the blueberry safely inside?"
         }
       ],
       "interaction": {
@@ -385,6 +385,7 @@
       }
     },
     {
+      "storyTurn": "The jam pot boils over and the lemon saves the yellow jam",
       "scene": {
         "image": "scene4"
       },
@@ -392,7 +393,7 @@
         {
           "characterId": "pip",
           "atlasBase": "atlas.pip.base",
-          "pose": "happy",
+          "pose": "talk",
           "anchor": {
             "x": 200,
             "y": 890
@@ -414,18 +415,18 @@
       ],
       "narration": [
         {
-          "text": "Bramble stirred a big pot and did not look up."
+          "text": "The big pot was bubbling over!"
         },
         {
           "characterId": "bramble",
-          "text": "\"Lemon, please!\" he called. \"The YELLOW one!\""
+          "text": "\"Lemon, please!\" called Bramble. \"The YELLOW one!\""
         },
         {
-          "text": "Two fruits sat by the pot: a sunny lemon and a red strawberry."
+          "text": "Two fruits sat by the pot."
         },
         {
           "characterId": "pip",
-          "text": "\"Listen well,\" giggled Pip. \"Which one does Bramble need?\""
+          "text": "\"Which one is yellow?\" asked Pip."
         }
       ],
       "interaction": {
@@ -459,6 +460,7 @@
       }
     },
     {
+      "storyTurn": "The very last berry turns out to be green, and it fits no jar",
       "scene": {
         "image": "scene5"
       },
@@ -488,18 +490,18 @@
       ],
       "narration": [
         {
-          "text": "Bramble reached for the last strawberries in the grass."
-        },
-        {
-          "text": "But wait. One of them did not look like the others."
+          "text": "One last berry hid by the tipped basket."
         },
         {
           "characterId": "bramble",
-          "text": "\"How funny,\" said Bramble. \"One strawberry is not red at all.\""
+          "text": "\"How funny,\" said Bramble. \"It is not red!\""
+        },
+        {
+          "text": "One of these berries is green."
         },
         {
           "characterId": "pip",
-          "text": "\"Find it,\" whispered Pip. \"Which one is green?\""
+          "text": "\"Find it,\" whispered Pip."
         }
       ],
       "interaction": {
@@ -559,6 +561,7 @@
       }
     },
     {
+      "storyTurn": "The green berry is planted in the sun to grow - then the fair bell rings",
       "scene": {
         "image": "scene6"
       },
@@ -589,17 +592,17 @@
       "narration": [
         {
           "characterId": "bramble",
-          "text": "\"It fits no jar,\" sighed Bramble. \"Where does it belong?\""
+          "text": "\"It fits no jar,\" sighed Bramble."
         },
         {
           "characterId": "pip",
-          "text": "\"It is not red YET,\" said Pip. \"Little green berries are still growing.\""
+          "text": "\"It is not red YET,\" said Pip."
         },
         {
-          "text": "The strawberry plant stood in the warmest, sunniest corner of the garden."
+          "text": "Green berries grow red in the sun."
         },
         {
-          "text": "Can you put the green berry back on its sunny plant?"
+          "text": "Can you put it on the sunny plant?"
         }
       ],
       "interaction": {
@@ -646,6 +649,7 @@
       }
     },
     {
+      "storyTurn": "The last red strawberries finish the jam just as the fair begins",
       "scene": {
         "image": "scene7"
       },
@@ -675,15 +679,15 @@
       ],
       "narration": [
         {
-          "text": "Back at the table, the jam pot bubbled and steamed."
+          "text": "The fair was starting!"
         },
         {
           "characterId": "bramble",
-          "text": "\"The last red strawberries go in the pot,\" said Bramble."
+          "text": "\"Last red ones in the pot!\" said Bramble."
         },
         {
           "characterId": "pip",
-          "text": "\"Red with red, one by one,\" said Pip."
+          "text": "\"Red with red,\" said Pip."
         },
         {
           "text": "Tap every red strawberry into the pot!"
@@ -723,6 +727,7 @@
       }
     },
     {
+      "storyTurn": "The three finished jams are the joy of the Meadow Fair",
       "scene": {
         "image": "scene8"
       },
@@ -752,17 +757,17 @@
       ],
       "narration": [
         {
-          "text": "At last it was Meadow Fair day."
+          "text": "Three bright jars stood at the fair."
         },
         {
-          "text": "Three bright jars stood in a row: red, blue, and yellow."
-        },
-        {
-          "text": "Friends came from every path to taste the jam."
+          "text": "Red, blue, and yellow - all sorted home."
         },
         {
           "characterId": "bramble",
-          "text": "\"Mmm-mm!\" said Bramble, patting his tummy. \"Every color found its home.\""
+          "text": "\"Mmm-mm!\" said Bramble, patting his tummy."
+        },
+        {
+          "text": "Everyone wanted a taste."
         }
       ],
       "success": {
@@ -771,6 +776,7 @@
       }
     },
     {
+      "storyTurn": "The little green berry has turned rosy red at last",
       "scene": {
         "image": "scene9"
       },
@@ -800,18 +806,18 @@
       ],
       "narration": [
         {
-          "text": "That evening, the sun set soft and golden over the garden."
+          "text": "That evening, the sun set soft and gold."
         },
         {
           "characterId": "pip",
-          "text": "\"Look,\" said Pip softly, and led him to the plant."
+          "text": "\"Look,\" said Pip. \"The little berry!\""
         },
         {
-          "text": "The little green berry had turned rosy red at last."
+          "text": "It had turned rosy red at last."
         },
         {
           "characterId": "bramble",
-          "text": "\"Every berry finds its color,\" smiled Bramble, \"in its own time.\""
+          "text": "\"Every berry finds its color,\" smiled Bramble."
         }
       ],
       "success": {

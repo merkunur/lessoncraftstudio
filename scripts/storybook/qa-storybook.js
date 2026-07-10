@@ -39,6 +39,16 @@ const STORY = arg('story', 'pips-picnic');
 const OUTDIR = path.join(REPO, 'docs', 'audit-results', 'storybook', 'qa', STORY);
 const VIEWPORTS = [360, 768, 1024, 1366];
 
+/* Which pages carry an interaction (from story.json). Narrative-only pages
+   (real storybooks have them — opener/closer prose pages) auto-advance after
+   narration; QA must not demand an interaction host there. */
+const STORY_JSON = (() => {
+  try { return JSON.parse(fs.readFileSync(path.join(MINI, 'stories', STORY, 'story.json'), 'utf8')); }
+  catch (e) { return null; }
+})();
+const HAS_INTERACTION = ((STORY_JSON && STORY_JSON.pages) || []).map(
+  (pg) => !!(pg.interaction && pg.interaction.moduleType));
+
 const MIME = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.webp': 'image/webp', '.png': 'image/png', '.mp3': 'audio/mpeg', '.svg': 'image/svg+xml' };
 
 function serve() {
@@ -93,16 +103,26 @@ async function runPass(browser, port, width, reduced) {
   }, 300);
 
   for (let i = 0; i < pageCount; i++) {
+    const interactive = HAS_INTERACTION.length ? HAS_INTERACTION[i] !== false : true;
     try {
-      await page.waitForFunction(
-        `window.SB_PLAYER.pageIndex() === ${i} && window.SB_PLAYER.host && window.SB_PLAYER.host() !== null`,
-        { timeout: 30000 });
+      if (interactive) {
+        await page.waitForFunction(
+          `window.SB_PLAYER.pageIndex() === ${i} && window.SB_PLAYER.host && window.SB_PLAYER.host() !== null`,
+          { timeout: 30000 });
+      } else {
+        /* narrative-only page: no host ever mounts; it auto-advances after
+           narration — just reach (or pass) it */
+        await page.waitForFunction(`window.SB_PLAYER.pageIndex() >= ${i}`, { timeout: 30000 });
+      }
     } catch (e) {
-      failures.push(`[${label}] page ${i}: never mounted its interaction host`);
+      failures.push(interactive
+        ? `[${label}] page ${i}: never mounted its interaction host`
+        : `[${label}] page ${i}: narrative page never reached`);
       break;
     }
-    /* let the stage paint, then screenshot */
-    await new Promise(r => setTimeout(r, reduced ? 350 : 800));
+    /* let the stage paint, then screenshot (short beat on narrative pages —
+       they auto-advance under the narration skipper) */
+    await new Promise(r => setTimeout(r, interactive ? (reduced ? 350 : 800) : 120));
     const shot = path.join(OUTDIR, `${reduced ? 'rm-' : ''}w${width}-p${i + 1}.png`);
     await page.screenshot({ path: shot });
 
@@ -147,11 +167,13 @@ async function runPass(browser, port, width, reduced) {
       for (const s of small) warnings.push(`[${label}] page ${i + 1}: small tap target ${s}`);
     }
 
-    /* solve → advance */
-    const solved = await page.evaluate('window.SB_PLAYER.solve()');
-    if (!solved) {
-      failures.push(`[${label}] page ${i + 1}: autoSolve failed`);
-      break;
+    /* solve → advance (narrative-only pages auto-advance; nothing to solve) */
+    if (interactive) {
+      const solved = await page.evaluate('window.SB_PLAYER.solve()');
+      if (!solved) {
+        failures.push(`[${label}] page ${i + 1}: autoSolve failed`);
+        break;
+      }
     }
     if (i + 1 < pageCount) {
       try {
@@ -208,6 +230,13 @@ async function runTouchPass(browser, port, mode) {
   const skipper = setInterval(() => { page.evaluate('window.SB_PLAYER.skipNarration && window.SB_PLAYER.skipNarration()').catch(() => {}); }, 300);
 
   for (let i = 0; i < pageCount; i++) {
+    const interactive = HAS_INTERACTION.length ? HAS_INTERACTION[i] !== false : true;
+    if (!interactive) {
+      /* narrative-only page: auto-advances after narration — just pass through */
+      try { await page.waitForFunction(`window.SB_PLAYER.pageIndex() >= ${Math.min(i + 1, pageCount - 1)}`, { timeout: 30000 }); }
+      catch (e) { failures.push(`[${label}] page ${i + 1}: narrative page did not auto-advance`); break; }
+      continue;
+    }
     try {
       await page.waitForFunction(
         `window.SB_PLAYER.pageIndex() === ${i} && window.SB_PLAYER.host && window.SB_PLAYER.host() !== null`,

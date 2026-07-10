@@ -10,9 +10,14 @@
 ONLY this playbook + the gates + the golden exemplars, you should be able to author a complete,
 correct, on-band story. When something is ambiguous, copy the nearest golden exemplar for that grade.
 
-**The product in one line.** A linear, narrated, illustrated picture-story where **each page wraps
-exactly ONE playable interaction that teaches ONE point**, warm and shame-free, in the child's
-language, free. No scores, no timers, no streaks — **ever**.
+**The product in one line.** A real **STORYBOOK with activities inside it** (operator ruling
+2026-07-10): a linear, narrated, illustrated picture-story — actual PROSE and character DIALOGUE
+with a plot whose page-1 promise pays off at the end — where the activities are DIEGETIC story
+beats (the prose sets one up, the child's act IS the next story event, the success line resolves
+it, the next page's prose continues from it), teaching ONE point. Warm and shame-free, in the
+child's language, free. No scores, no timers, no streaks — **ever**. A sequence of bare
+instruction pages ("Tap five fireflies!") is an ACTIVITY, not a storybook — the `story-presence`
+gate hard-fails it.
 
 ---
 
@@ -41,13 +46,25 @@ Help-a-friend around an absent friend.
 
 ## 2. Per-grade envelope (hard numbers — the gate enforces these)
 
-| Grade | Age | Pages | Narration: max words/line · max lines/page | Sentence shape | Vocab ceiling |
+Narration is STORY PROSE + DIALOGUE told as several short **cues** per page (each cue = one
+caption + one audio slot, shown/spoken one at a time). "max words" is **per cue** — the caption
+band shows a single cue in a ~2-rendered-line box, so cues stay short even though the page's
+story text is rich. "max cues" is per page. Vocabulary stays age-simple (the reading-level WARN
+watches average word length).
+
+| Grade | Age | Pages | Narration: max words/CUE · max cues/page | Cue shape | Vocab ceiling |
 |---|---|---|---|---|---|
-| **PK** | 3-4 | **7–10** | **6 words** · 1 line | one clause, present tense, concrete noun | pre-reader: spoken-only, picture-carried |
-| **K** | 5-6 | **7–10** | **8 words** · 2 lines | one simple sentence | high-frequency + the target word |
-| **1** | 6-7 | **7–10** | **12 words** · 2 lines | one sentence, may have "and"/"because" | decodable + 1–2 new nouns |
-| **2** | 7-8 | **7–10** | **16 words** · 3 lines | up to two sentences | grade-appropriate; define new terms in-line |
-| **3** | 8-9 | **7–10** | **20 words** · 3 lines | two sentences, one subordinate clause OK | richer; still concrete-first |
+| **PK** | 3-4 | **7–10** | **12 words** · 4 cues | one short sentence, present tense, concrete | pre-reader: read-aloud, picture-carried |
+| **K** | 5-6 | **7–10** | **13 words** · 4 cues | one simple sentence | high-frequency + the target word |
+| **1** | 6-7 | **7–10** | **14 words** · 5 cues | one sentence, may have "and"/"because" | decodable + 1–2 new nouns |
+| **2** | 7-8 | **7–10** | **16 words** · 5 cues | up to two short sentences | grade-appropriate; define new terms in-line |
+| **3** | 8-9 | **7–10** | **18 words** · 6 cues | two sentences, one subordinate clause OK | richer; still concrete-first |
+
+> **story-presence (HARD, gate-checked).** At least HALF the pages carry ≥2 cues (prose, not a
+> bare instruction); ≥2 distinct characters SPEAK somewhere (`characterId` on dialogue cues —
+> the speaker gets a caption prefix + talk animation); ≥1 cue has NO characterId (narrator
+> voice). Story-only pages (no interaction — an opener that sets the promise, a closer that
+> tucks the story in) are encouraged: the player auto-advances them after the narration.
 
 > **Per-story number-ceiling override.** Commission teaching points whose number space
 > exceeds a grade's default ceiling (e.g. PK "Count objects 1–10") declare
@@ -69,10 +86,16 @@ Help-a-friend around an absent friend.
 - Curriculum-neutral **child-facing** framing. The CCSS code lives in metadata/JSON-LD only; no page
   ever says "Common Core" or a standard number to the child (the standing platform rule).
 
-## 3. Narration voice (per-grade templates — copy the pattern)
+## 3. Narration voice — story prose + dialogue (the storybook shape)
 
-Voice = warm adult reading to a small child on a lap. Second person, invitational, never quizzing.
-The narration *sets up* the interaction; the interaction is the "your turn". Never state the answer.
+Voice = warm adult reading to a small child on a lap. A page's cues follow the picture-book
+rhythm: **narrator prose** (no characterId — scene, event, feeling) → **character dialogue**
+(characterId set — the speaker's name prefixes the caption and the rig talk-animates) → the last
+cue lands the *invitation* that hands the moment to the child. The interaction is the story's
+next event, not an exercise: the prose gives the child a REASON ("the reeds went rustle,
+rustle…"), the act answers it, and the `success.narrationKey` line is the story CONSEQUENCE
+("Out waddled the first little duckling!") — the next page's prose continues from that new state.
+Never state the answer. Never quiz.
 
 **Prompt patterns by mechanic** (fill `{…}`; keep within the grade word ceiling). These are
 PATTERNS, not literals — **vary the exact wording across pages** so the story reads like Pip talking,

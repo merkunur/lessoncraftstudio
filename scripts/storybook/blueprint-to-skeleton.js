@@ -75,7 +75,12 @@ const pages = (bp.pages || []).map((pg, i) => {
   const cues = (pg.narration || []).map((ln, j) => {
     const cueId = ln.id || ('p' + pn + '-l' + String(j + 1).padStart(2, '0'));
     str(cueId, ln.text);
-    const cue = { id: cueId, characterId: ln.characterId || guideId };
+    /* characterId only when the blueprint line names a speaker — a line WITHOUT
+       one is NARRATOR VOICE (no caption prefix; story-presence gate requires it).
+       (Pre-2026-07-10 behavior defaulted to the guide; retired with the
+       storybook ruling — dialogue must be explicit.) */
+    const cue = { id: cueId };
+    if (ln.characterId) cue.characterId = ln.characterId;
     if (ln.pauseAfterMs) cue.pauseAfterMs = ln.pauseAfterMs;
     return cue;
   });

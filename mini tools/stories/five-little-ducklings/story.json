@@ -1,0 +1,869 @@
+{
+  "schemaVersion": "sb-1",
+  "id": "five-little-ducklings",
+  "title": "@story.title",
+  "locales": [
+    "en"
+  ],
+  "theme": {
+    "letterboxColor": "#FBF3E4",
+    "transition": "crossfade"
+  },
+  "cast": [
+    {
+      "id": "pip",
+      "name": "@cast.pip.name",
+      "role": "guide",
+      "atlasBase": "atlas.pip.base",
+      "poses": [
+        "neutral",
+        "talk",
+        "happy",
+        "point"
+      ],
+      "atlasClips": "atlas.pip.clips",
+      "clips": {
+        "celebrate": {
+          "fallbackPose": "happy"
+        }
+      }
+    },
+    {
+      "id": "willa",
+      "name": "@cast.willa.name",
+      "role": "companion",
+      "atlasBase": "atlas.willa.base",
+      "poses": [
+        "neutral",
+        "happy"
+      ]
+    }
+  ],
+  "assets": {
+    "scene1": {
+      "kind": "image",
+      "src": "/mini-tools/stories/five-little-ducklings/scenes/page-01.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene2": {
+      "kind": "image",
+      "src": "/mini-tools/stories/five-little-ducklings/scenes/page-02.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene3": {
+      "kind": "image",
+      "src": "/mini-tools/stories/five-little-ducklings/scenes/page-03.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene4": {
+      "kind": "image",
+      "src": "/mini-tools/stories/five-little-ducklings/scenes/page-04.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene5": {
+      "kind": "image",
+      "src": "/mini-tools/stories/five-little-ducklings/scenes/page-05.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene6": {
+      "kind": "image",
+      "src": "/mini-tools/stories/five-little-ducklings/scenes/page-06.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene7": {
+      "kind": "image",
+      "src": "/mini-tools/stories/five-little-ducklings/scenes/page-07.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene8": {
+      "kind": "image",
+      "src": "/mini-tools/stories/five-little-ducklings/scenes/page-08.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "scene9": {
+      "kind": "image",
+      "src": "/mini-tools/stories/five-little-ducklings/scenes/page-09.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    "atlas.pip.base": {
+      "kind": "atlas",
+      "src": "/mini-tools/stories/five-little-ducklings/cast/pip/pip.base.json"
+    },
+    "atlas.pip.clips": {
+      "kind": "atlas",
+      "src": "/mini-tools/stories/five-little-ducklings/cast/pip/pip.clips.json"
+    },
+    "atlas.willa.base": {
+      "kind": "atlas",
+      "src": "/mini-tools/stories/five-little-ducklings/cast/willa/willa.base.json"
+    },
+    "img.duckling": {
+      "kind": "image",
+      "src": "/mini-tools/stories/five-little-ducklings/props/duckling@2x.webp"
+    },
+    "img.pep-asleep": {
+      "kind": "image",
+      "src": "/mini-tools/stories/five-little-ducklings/props/pep-asleep@2x.webp"
+    },
+    "img.bush": {
+      "kind": "image",
+      "src": "/mini-tools/stories/five-little-ducklings/props/bush@2x.webp"
+    },
+    "img.rock": {
+      "kind": "image",
+      "src": "/mini-tools/stories/five-little-ducklings/props/rock@2x.webp"
+    },
+    "img.willow": {
+      "kind": "image",
+      "src": "/mini-tools/stories/five-little-ducklings/props/willow@2x.webp"
+    },
+    "img.fence": {
+      "kind": "image",
+      "src": "/mini-tools/stories/five-little-ducklings/props/fence@2x.webp"
+    },
+    "img.butterfly": {
+      "kind": "image",
+      "src": "/mini-tools/stories/five-little-ducklings/props/butterfly@2x.webp"
+    },
+    "img.snail": {
+      "kind": "image",
+      "src": "/mini-tools/stories/five-little-ducklings/props/snail@2x.webp"
+    },
+    "pip": {
+      "kind": "atlas",
+      "src": "cast/pip/pip.base.json"
+    },
+    "willa": {
+      "kind": "atlas",
+      "src": "cast/willa/willa.base.json"
+    }
+  },
+  "reward": {
+    "id": "story.five-little-ducklings",
+    "label": {
+      "en": "All Five Home"
+    },
+    "emoji": "🦆"
+  },
+  "pages": [
+    {
+      "id": "p01",
+      "scene": {
+        "image": "scene1"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "willa",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p01-l01"
+          },
+          {
+            "id": "p01-l02",
+            "characterId": "willa"
+          },
+          {
+            "id": "p01-l03",
+            "characterId": "willa"
+          },
+          {
+            "id": "p01-l04",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "success": {
+        "celebration": "none",
+        "holdMs": 600
+      }
+    },
+    {
+      "id": "p02",
+      "scene": {
+        "image": "scene2"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "willa",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p02-l01"
+          },
+          {
+            "id": "p02-l02",
+            "characterId": "pip"
+          },
+          {
+            "id": "p02-l03",
+            "characterId": "willa"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-find-object",
+        "zone": {
+          "x": 120,
+          "y": 150,
+          "w": 1360,
+          "h": 660
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "find": [
+            "duckling"
+          ],
+          "targets": [
+            {
+              "key": "duckling",
+              "image": "img.duckling",
+              "rect": {
+                "x": 620,
+                "y": 330,
+                "w": 260,
+                "h": 240
+              },
+              "word": "@word.one"
+            },
+            {
+              "key": "butterfly",
+              "image": "img.butterfly",
+              "rect": {
+                "x": 1080,
+                "y": 180,
+                "w": 200,
+                "h": 200
+              },
+              "word": "@p02.word.butterfly"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p02-bravo",
+        "holdMs": 1000
+      }
+    },
+    {
+      "id": "p03",
+      "scene": {
+        "image": "scene3"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "willa",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p03-l01"
+          },
+          {
+            "id": "p03-l02",
+            "characterId": "willa"
+          },
+          {
+            "id": "p03-l03",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-listen",
+        "zone": {
+          "x": 400,
+          "y": 160,
+          "w": 800,
+          "h": 650
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "word": "@word.quack",
+          "correct": "bush",
+          "options": [
+            {
+              "key": "bush",
+              "image": "img.bush"
+            },
+            {
+              "key": "rock",
+              "image": "img.rock"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p03-bravo",
+        "holdMs": 1000
+      }
+    },
+    {
+      "id": "p04",
+      "scene": {
+        "image": "scene4"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "willa",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p04-l01"
+          },
+          {
+            "id": "p04-l02",
+            "characterId": "pip"
+          },
+          {
+            "id": "p04-l03",
+            "characterId": "willa"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-find-object",
+        "zone": {
+          "x": 120,
+          "y": 150,
+          "w": 1360,
+          "h": 660
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "find": [
+            "duckling"
+          ],
+          "targets": [
+            {
+              "key": "duckling",
+              "image": "img.duckling",
+              "rect": {
+                "x": 330,
+                "y": 310,
+                "w": 270,
+                "h": 250
+              },
+              "word": "@word.three"
+            },
+            {
+              "key": "snail",
+              "image": "img.snail",
+              "rect": {
+                "x": 1090,
+                "y": 430,
+                "w": 190,
+                "h": 190
+              },
+              "word": "@p04.word.snail"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p04-bravo",
+        "holdMs": 1000
+      }
+    },
+    {
+      "id": "p05",
+      "scene": {
+        "image": "scene5"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "willa",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p05-l01"
+          },
+          {
+            "id": "p05-l02"
+          },
+          {
+            "id": "p05-l03",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-trace",
+        "zone": {
+          "x": 500,
+          "y": 180,
+          "w": 600,
+          "h": 620
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "path": [
+            {
+              "x": 300,
+              "y": 60
+            },
+            {
+              "x": 260,
+              "y": 140
+            },
+            {
+              "x": 220,
+              "y": 220
+            },
+            {
+              "x": 260,
+              "y": 300
+            },
+            {
+              "x": 300,
+              "y": 380
+            },
+            {
+              "x": 260,
+              "y": 460
+            },
+            {
+              "x": 220,
+              "y": 540
+            }
+          ],
+          "tolDu": 150
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p05-bravo",
+        "holdMs": 1000
+      }
+    },
+    {
+      "id": "p06",
+      "scene": {
+        "image": "scene6"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "willa",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p06-l01"
+          },
+          {
+            "id": "p06-l02",
+            "characterId": "willa"
+          },
+          {
+            "id": "p06-l03"
+          },
+          {
+            "id": "p06-l04",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-listen",
+        "zone": {
+          "x": 400,
+          "y": 160,
+          "w": 800,
+          "h": 650
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "word": "@word.quack",
+          "correct": "willow",
+          "options": [
+            {
+              "key": "willow",
+              "image": "img.willow"
+            },
+            {
+              "key": "fence",
+              "image": "img.fence"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p06-bravo",
+        "holdMs": 1000
+      }
+    },
+    {
+      "id": "p07",
+      "scene": {
+        "image": "scene7"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "willa",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p07-l01"
+          },
+          {
+            "id": "p07-l02",
+            "characterId": "willa"
+          },
+          {
+            "id": "p07-l03",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-listen-place",
+        "zone": {
+          "x": 440,
+          "y": 240,
+          "w": 880,
+          "h": 560
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "object": {
+            "image": "img.pep-asleep",
+            "alt": "@p07.alt.pep"
+          },
+          "slots": [
+            {
+              "key": "nest",
+              "at": {
+                "x": 680,
+                "y": 150
+              },
+              "correct": true
+            },
+            {
+              "key": "pond",
+              "at": {
+                "x": 420,
+                "y": 400
+              }
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p07-bravo",
+        "holdMs": 1000
+      }
+    },
+    {
+      "id": "p08",
+      "scene": {
+        "image": "scene8"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "happy",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "willa",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p08-l01"
+          },
+          {
+            "id": "p08-l02",
+            "characterId": "willa"
+          },
+          {
+            "id": "p08-l03",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "interaction": {
+        "moduleType": "sb-connect-dots",
+        "zone": {
+          "x": 300,
+          "y": 220,
+          "w": 1000,
+          "h": 560
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "points": [
+            {
+              "x": 150,
+              "y": 260
+            },
+            {
+              "x": 350,
+              "y": 300
+            },
+            {
+              "x": 550,
+              "y": 260
+            },
+            {
+              "x": 750,
+              "y": 300
+            },
+            {
+              "x": 930,
+              "y": 260
+            }
+          ],
+          "closePath": false
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p08-bravo",
+        "holdMs": 1400,
+        "clip": {
+          "characterId": "pip",
+          "name": "celebrate"
+        }
+      }
+    },
+    {
+      "id": "p09",
+      "scene": {
+        "image": "scene9"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "pose": "happy",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "willa",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 920
+          },
+          "scale": 0.52,
+          "flip": true
+        }
+      ],
+      "narration": {
+        "gate": "end",
+        "cues": [
+          {
+            "id": "p09-l01"
+          },
+          {
+            "id": "p09-l02"
+          },
+          {
+            "id": "p09-l03",
+            "characterId": "willa"
+          },
+          {
+            "id": "p09-l04",
+            "characterId": "pip"
+          }
+        ]
+      },
+      "success": {
+        "celebration": "sticker",
+        "holdMs": 1200
+      }
+    }
+  ],
+  "alignment": {
+    "grade": "PK"
+  }
+}

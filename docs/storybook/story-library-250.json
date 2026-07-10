@@ -32,10 +32,10 @@
       "grade": "PK",
       "teachingPointId": "lib-p01-02",
       "label": "Identify basic shapes: circle, square, triangle",
-      "premise": null,
-      "setting": null,
-      "storyId": null,
-      "status": "open"
+      "premise": "help Bo the beaver fix his broken cart by fitting the circle, square, and triangle parts back",
+      "setting": "green meadow path",
+      "storyId": "bos-wobbly-cart",
+      "status": "shipped"
     },
     {
       "part": 1,

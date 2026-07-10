@@ -18,16 +18,17 @@
      FORMS_DE + tdpGrade wrapper; setupTask swaps the de view's choices. 0 core. */
   var LANG = 'en';
   var FORMS_DE = ['vor', 'während', 'nach'];
-  function tdpGrade(round, id) { return (LANG === 'de' ? FORMS_DE : Core.FORMS)[id] === round.correct; }
+  var FORMS_FR = ['avant', 'pendant', 'après'];
+  function tdpGrade(round, id) { return (LANG === 'de' ? FORMS_DE : LANG === 'fr' ? FORMS_FR : Core.FORMS)[id] === round.correct; }
 
   function speak(text) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = (LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function turtleSVG() {
-    return '<svg class="tdp-turtle-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Tempo, die Schildkröte' : 'Tempo the turtle') + '">' +
+    return '<svg class="tdp-turtle-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Tempo, die Schildkröte' : LANG === 'fr' ? 'Tempo la tortue' : 'Tempo the turtle') + '">' +
       '<ellipse cx="48" cy="60" rx="26" ry="20" fill="#4E9E5E"/>' +               /* shell */
       '<path d="M48 40 v40 M24 54 l48 12 M24 66 l48 -12" stroke="#377544" stroke-width="3" fill="none"/>' +
       '<ellipse cx="48" cy="60" rx="26" ry="20" fill="none" stroke="#377544" stroke-width="3"/>' +
@@ -41,13 +42,13 @@
     id: 'tempo-day-plan-activity',
 
     strings: {
-      title: { en: "Tempo's Day Plan", de: 'Tempos Tagesplan' },
-      instruction: { en: 'Tap before, during, or after to fit the sentence.', de: 'Tippe auf vor, während oder nach, damit es in den Satz passt.' },
-      prompt: { en: 'Tap the time word that fits.', de: 'Tippe auf das richtige Zeitwort.' },
-      tempoIntro: { en: 'Some things come before, some during, and some after!', de: 'Manches kommt vorher, manches mittendrin und manches danach!' },
-      hintPick: { en: 'Does it happen first, in the middle, or at the end?', de: 'Passiert es zuerst, in der Mitte oder am Ende?' },
-      hintWrong: { en: 'Think about the order — before, during, or after?', de: 'Denk an die Reihenfolge: vor, während oder nach?' },
-      win: { en: 'Yes! That fits the time. 🐢', de: 'Ja! Genau zur richtigen Zeit! 🐢' }
+      title: { en: "Tempo's Day Plan", de: 'Tempos Tagesplan', fr: 'La journée de Tempo' },
+      instruction: { en: 'Tap before, during, or after to fit the sentence.', de: 'Tippe auf vor, während oder nach, damit es in den Satz passt.', fr: 'Touche avant, pendant ou après pour compléter la phrase.' },
+      prompt: { en: 'Tap the time word that fits.', de: 'Tippe auf das richtige Zeitwort.', fr: 'Touche le mot de temps qui convient.' },
+      tempoIntro: { en: 'Some things come before, some during, and some after!', de: 'Manches kommt vorher, manches mittendrin und manches danach!', fr: 'Certaines choses arrivent avant, d’autres pendant, et d’autres après !' },
+      hintPick: { en: 'Does it happen first, in the middle, or at the end?', de: 'Passiert es zuerst, in der Mitte oder am Ende?', fr: 'Est-ce que ça arrive d’abord, au milieu, ou à la fin ?' },
+      hintWrong: { en: 'Think about the order — before, during, or after?', de: 'Denk an die Reihenfolge: vor, während oder nach?', fr: 'Pense à l’ordre : avant, pendant ou après ?' },
+      win: { en: 'Yes! That fits the time. 🐢', de: 'Ja! Genau zur richtigen Zeit! 🐢', fr: 'Oui ! C’est le bon moment. 🐢' }
     },
     defaults: {},
 
@@ -63,6 +64,7 @@
     setupTask: function (round) {
       this.round = round; this.view = Core.childView(round); this.sel = null;
       if (LANG === 'de') this.view.choices = FORMS_DE.map(function (f, i) { return { id: i, word: f }; });
+      else if (LANG === 'fr') this.view.choices = FORMS_FR.map(function (f, i) { return { id: i, word: f }; });
       this._cards = shuffle(this.view.choices.slice());
     },
 

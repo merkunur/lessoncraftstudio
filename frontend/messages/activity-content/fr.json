@@ -4067,6 +4067,27 @@
         "Ranger les mots dans l'ordre alphabétique",
         "Comparer les mots lettre par lettre"
       ]
+    },
+    "tempo-day-plan.time-prepositions.l-1-1-i": {
+      "about": [
+        "Tempo la tortue organise toute sa journée dans l'ordre : certaines choses arrivent avant, d'autres pendant, et d'autres après. Ton enfant lit une phrase à trou — « Nous nous étirons ___ la course. » — puis touche, parmi trois mots, la bonne préposition de temps : avant, pendant ou après.",
+        "Employer les prépositions de temps — avant, pendant, après — pour se situer dans la chronologie de la journée, c'est une compétence du CP. Le jeu est gratuit, sans minuteur et sans points : l'enfant lit, réfléchit à l'ordre des choses et choisit le bon mot, dans le domaine « Étude de la langue » des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Employer les prépositions de temps (avant, pendant, après)",
+        "Se repérer dans la chronologie de la journée",
+        "Compléter une phrase avec le bon mot de temps",
+        "Comprendre l'ordre : avant, pendant, après"
+      ],
+      "howToPlay": [
+        "Lis la phrase de Tempo avec le trou.",
+        "Touche avant, pendant ou après pour compléter la phrase."
+      ],
+      "learningGoals": [
+        "Employer les prépositions de temps",
+        "Se situer dans le temps (avant, pendant, après)",
+        "Compléter une phrase avec le bon indicateur de temps"
+      ]
     }
   }
 }

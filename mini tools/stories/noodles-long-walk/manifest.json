@@ -1,0 +1,163 @@
+{
+  "storyId": "noodles-long-walk",
+  "generatedAt": "2026-07-10T13:30:48.909Z",
+  "pageCount": 8,
+  "totalBytes": 836798,
+  "files": [
+    {
+      "path": "art-manifest.json",
+      "bytes": 1169,
+      "sha1": "25321c28755c05c755926bb89d1d1bbd83d887b6"
+    },
+    {
+      "path": "audio/en/README.txt",
+      "bytes": 190,
+      "sha1": "e5e0d3c3321ef00fd0943a9096e0621e4f040558"
+    },
+    {
+      "path": "blueprint.json",
+      "bytes": 16902,
+      "sha1": "d8e989c4f1852080489dde785deb192510fc3c56"
+    },
+    {
+      "path": "cast/noodle/noodle.base.json",
+      "bytes": 1590,
+      "sha1": "2cd5839c4a20520caffbb84d648fe1ba84242275"
+    },
+    {
+      "path": "cast/noodle/noodle.base.webp",
+      "bytes": 70434,
+      "sha1": "0159a2e7a01faf78f5e6229c1a6eec48ebc740fa"
+    },
+    {
+      "path": "cast/pip/pip.base.json",
+      "bytes": 1924,
+      "sha1": "4ed1a2799e52a7b8d12d33cab7d84b85344b36a9"
+    },
+    {
+      "path": "cast/pip/pip.base.webp",
+      "bytes": 153354,
+      "sha1": "ae96744d8ad6ae8a525cb5125a858640725cc0f6"
+    },
+    {
+      "path": "cast/pip/pip.clips-1.json",
+      "bytes": 2016,
+      "sha1": "f15a888960828de3054322f5b8db75a2229cb995"
+    },
+    {
+      "path": "cast/pip/pip.clips-1.webp",
+      "bytes": 139374,
+      "sha1": "c35b51c2ae9b3c56bdd91c536c8175fa885bf70e"
+    },
+    {
+      "path": "cast/pip/pip.clips.json",
+      "bytes": 3225,
+      "sha1": "0bd1a4a01724a212b89a5f3db41fa62db81c11b5"
+    },
+    {
+      "path": "cast/pip/pip.clips.webp",
+      "bytes": 245890,
+      "sha1": "9a3e576ff9edb8ab8767d1035cbc6dd209685041"
+    },
+    {
+      "path": "library-meta.json",
+      "bytes": 931,
+      "sha1": "12d34f0ef855d8413b727289a6bb98a50e3adaa1"
+    },
+    {
+      "path": "props/bench-long@2x.webp",
+      "bytes": 2378,
+      "sha1": "9a33919e05f4d0b988ad2831034309075550a9dc"
+    },
+    {
+      "path": "props/bench-short@2x.webp",
+      "bytes": 2132,
+      "sha1": "8a47ca908697815a3df68645ec0945aaee12e097"
+    },
+    {
+      "path": "props/scarf-long@2x.webp",
+      "bytes": 2590,
+      "sha1": "bf1579b03a185c75ce53d44cba5d6bd15419840e"
+    },
+    {
+      "path": "props/scarf-short@2x.webp",
+      "bytes": 2690,
+      "sha1": "a2265394d3817ebdb2e9918ad4aee79604ad28a2"
+    },
+    {
+      "path": "props/stick-long@2x.webp",
+      "bytes": 3906,
+      "sha1": "12cb8941d26ad7e7163309abe02062478301c2c6"
+    },
+    {
+      "path": "props/train-long@2x.webp",
+      "bytes": 3726,
+      "sha1": "dfa80c05fa877cd5422bfb46eda249b64016cbcc"
+    },
+    {
+      "path": "props/train-short@2x.webp",
+      "bytes": 2406,
+      "sha1": "c0da61f0d53300dedd0532bd2ef082ffcd8407a3"
+    },
+    {
+      "path": "props/worm-long@2x.webp",
+      "bytes": 5498,
+      "sha1": "f7a7e77580761e3e5845ae09fba457cc4276cffd"
+    },
+    {
+      "path": "props/worm-short@2x.webp",
+      "bytes": 3908,
+      "sha1": "6df4ffe80f00c2a79e286ebce1601cbfad079c54"
+    },
+    {
+      "path": "scenes/page-01.webp",
+      "bytes": 18250,
+      "sha1": "55ae32b3ea7967b2821733f26725fdd5511db6de"
+    },
+    {
+      "path": "scenes/page-02.webp",
+      "bytes": 18278,
+      "sha1": "c30490c7c9e5f96a4119e86a77e183553aae2921"
+    },
+    {
+      "path": "scenes/page-03.webp",
+      "bytes": 18462,
+      "sha1": "3d557aba56c4417aa528f6f27f940f1c98411ca8"
+    },
+    {
+      "path": "scenes/page-04.webp",
+      "bytes": 19864,
+      "sha1": "7f68e8103d31ccd013989a16fbcca09cb9599626"
+    },
+    {
+      "path": "scenes/page-05.webp",
+      "bytes": 18486,
+      "sha1": "8c71c6cafa5a6a0a7b9e696f0c3d09274bdce0e4"
+    },
+    {
+      "path": "scenes/page-06.webp",
+      "bytes": 18678,
+      "sha1": "95e9d5e079f81c08767b695a7b214b49f0cd63c7"
+    },
+    {
+      "path": "scenes/page-07.webp",
+      "bytes": 18294,
+      "sha1": "3e37e060e36a158608096e47fa8af0ff58e5916e"
+    },
+    {
+      "path": "scenes/page-08.webp",
+      "bytes": 19012,
+      "sha1": "7c6dd958de74c265baf359e7c1fd16a290bcd084"
+    },
+    {
+      "path": "story.json",
+      "bytes": 16966,
+      "sha1": "1c786388d8393c6f037eb69579bff0e1433b5674"
+    },
+    {
+      "path": "strings.json",
+      "bytes": 4275,
+      "sha1": "aef74bed7f7d6a6f26a29c70487f04555092dc14"
+    }
+  ]
+}

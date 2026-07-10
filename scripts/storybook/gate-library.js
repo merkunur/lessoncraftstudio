@@ -76,16 +76,21 @@ function hexToRgb(hex) {
   return [(n >> 16) & 255, (n >> 8) & 255, n & 255];
 }
 
-/* Dominant mechanic of a story = its most frequent page moduleType. */
+/* Dominant mechanic of a story = its most frequent page moduleType.
+   A TIE means the story is balanced — no dominant (null), so the
+   repeat-WARN doesn't fire on an arbitrary first-seen winner. */
 function dominantMechanic(story) {
   const freq = {};
   (story.pages || []).forEach((pg) => {
     const mt = pg.interaction && pg.interaction.moduleType;
     if (mt) freq[mt] = (freq[mt] || 0) + 1;
   });
-  let best = null;
-  for (const k in freq) if (!best || freq[k] > freq[best]) best = k;
-  return best;
+  let best = null, tied = false;
+  for (const k in freq) {
+    if (!best || freq[k] > freq[best]) { best = k; tied = false; }
+    else if (freq[k] === freq[best]) tied = true;
+  }
+  return tied ? null : best;
 }
 
 /* ---- the gate engine (require-able) ---- */

@@ -150,6 +150,20 @@ and the rules for using + adding them. Structured to scale to ~100 characters.
 - **notes:** Kiko's rainbow and the after-the-rain meadow are his home; he is the library's
   color specialist — reuse him whenever a story is about color.
 
+### Noodle — the looong little dachshund
+- **id:** `noodle`
+- **role:** companion
+- **species/look:** a dachshund in profile — a looong low `orangeDeep` body with a `creamDeep`
+  belly stripe, stubby legs, a floppy ear, a long snout, a thin waggy tail (wsv-1 palette).
+  The library's first quadruped rig; he IS the long/short lesson.
+- **voice:** cheerfully out of breath, proud of his length ("I'm a lot of dog!").
+- **speech tics:** a happy "boing-boing" trot sound on the move.
+- **best arcs:** Quest (his debut shape — walks!), Discovery.
+- **debut:** `noodles-long-walk` (library story #9)
+- **poses:** `neutral`, `happy` (tail up + smile eyes; + idle bob). No clips.
+- **notes:** Noodle's autumn park and red doghouse are his home; keep the long-scarf gag
+  (only a LONG scarf fits him) if he recurs.
+
 > **Adding characters:** most future stories reuse **Pip as guide** + a fresh **companion** for the
 > story's situation. Introduce a *new guide* only when there's a real reason (a themed sub-series). Each
 > new character: fill the template above, author the base atlas (poses + idle) via the placeholder-art

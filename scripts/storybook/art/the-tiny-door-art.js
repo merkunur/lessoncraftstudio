@@ -191,10 +191,10 @@ function sceneSVG(n) {
     parts.push(bigDoorAt(1180, 560, 0.72, false));
     parts.push(pawPrintAt(560, 760, 0.5), pawPrintAt(700, 800, 1.1), pawPrintAt(980, 770, 0.45));
   } else if (n === 5) {
-    /* the knock: both doors prominent at the edges (listen cards overlay center) */
-    parts.push(tinyDoorAt(260, 880, 1.1, false));
-    parts.push(bigDoorAt(1330, 700, 0.9, false));
-    parts.push(S.stroke('M 1240 420 Q 1224 400 1230 378 M 1268 404 Q 1256 380 1264 356', 'outline', 8));
+    /* the knock: calm forest — the module's two frameless door options ARE the doors
+       (v3 de-quiz: no duplicate painted pair competing with the tappable ones) */
+    parts.push(S.grass(320, 800, 0.9, 'leafDeep'), S.grass(1240, 830, 0.85, 'leafDeep'));
+    parts.push(S.stroke('M 1052 320 Q 1036 300 1042 278 M 1080 304 Q 1068 280 1076 256', 'outline', 8));
   } else if (n === 6) {
     /* delivery 1: the BIG door grounded on the hillside at the correct slot (abs 1120,440);
        the tiny door at the decoy slot (abs 860,640) */

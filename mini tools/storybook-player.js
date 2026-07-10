@@ -112,6 +112,13 @@
       '.sb-nav svg{display:block;}',
       '.sb-nav-prev{left:10px;}',
       '.sb-nav-next{right:10px;}',
+      /* the page is read/done — the READER turns the page (the book never flips
+         itself; operator ruling 2026-07-10 v3). A gentle, no-pressure invitation. */
+      '@keyframes sb-nav-pulse{0%,100%{transform:translateY(-50%) scale(1);box-shadow:0 2px 8px rgba(0,0,0,.25);}',
+      '  50%{transform:translateY(-50%) scale(1.14);box-shadow:0 0 0 8px rgba(242,120,75,.35);}}',
+      '.sb-nav.sb-pulse{background:#F2784B;animation:sb-nav-pulse 1.6s ease-in-out infinite;}',
+      '@media (prefers-reduced-motion: reduce){.sb-nav.sb-pulse{animation:none;background:#F2784B;',
+      '  box-shadow:0 0 0 6px rgba(242,120,75,.35);}}',
       /* progress pips */
       '.sb-pips{position:absolute;top:14px;left:50%;transform:translateX(-50%);display:flex;gap:8px;pointer-events:none;z-index:70;}',
       '.sb-pip{width:12px;height:12px;border-radius:50%;background:rgba(251,243,228,.35);}',
@@ -890,6 +897,7 @@
       var gen = ++navGen;
       pageIndex = i;
       var page = story.pages[i];
+      if (navNext) navNext.classList.remove('sb-pulse');
       updatePips();
       track('page', { i: i, id: page.id });
 
@@ -990,8 +998,10 @@
           });
         }).then(function () {
           if (gen !== navGen) return;
-          if (i + 1 < story.pages.length) return runPage(i + 1);
-          return completeStory();
+          /* the page is done — the READER turns it (never the engine): the next
+             arrow invites gently; goTo(pages.length) reaches the completion screen */
+          if (navNext) navNext.classList.add('sb-pulse');
+          track('page-done', { i: i });
         });
       });
     }
@@ -1129,6 +1139,7 @@
     };
     if (debug) {
       api.solve = function () { return host ? host.autoSolve() : false; };
+      api.next = function () { goTo(pageIndex + 1); return true; };
       api.skipNarration = function () { global.SBAudio.stop(); };
       api.host = function () { return host; };
       api.stage = function () { return stage; };

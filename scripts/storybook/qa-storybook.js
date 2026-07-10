@@ -167,7 +167,8 @@ async function runPass(browser, port, width, reduced) {
       for (const s of small) warnings.push(`[${label}] page ${i + 1}: small tap target ${s}`);
     }
 
-    /* solve → advance (narrative-only pages auto-advance; nothing to solve) */
+    /* solve, then TURN THE PAGE like a reader (v3: the book never flips itself —
+       page-done pulses the next arrow; QA waits for the pulse and taps next) */
     if (interactive) {
       const solved = await page.evaluate('window.SB_PLAYER.solve()');
       if (!solved) {
@@ -175,11 +176,18 @@ async function runPass(browser, port, width, reduced) {
         break;
       }
     }
+    try {
+      await page.waitForFunction(`document.querySelector('.sb-nav-next.sb-pulse') !== null`, { timeout: 30000 });
+    } catch (e) {
+      failures.push(`[${label}] page ${i + 1}: never signalled page-done (no next-arrow pulse)`);
+      break;
+    }
+    await page.evaluate('window.SB_PLAYER.next()');
     if (i + 1 < pageCount) {
       try {
         await page.waitForFunction(`window.SB_PLAYER.pageIndex() >= ${i + 1}`, { timeout: 25000 });
       } catch (e) {
-        failures.push(`[${label}] page ${i + 1}: did not advance after success`);
+        failures.push(`[${label}] page ${i + 1}: did not advance after the page turn`);
         break;
       }
     }
@@ -229,12 +237,21 @@ async function runTouchPass(browser, port, mode) {
   const pageCount = await page.evaluate('window.SB_PLAYER.pageCount()');
   const skipper = setInterval(() => { page.evaluate('window.SB_PLAYER.skipNarration && window.SB_PLAYER.skipNarration()').catch(() => {}); }, 300);
 
+  /* v3 helper: wait for page-done (the next-arrow pulse), then turn the page */
+  async function turnPage(i) {
+    await page.waitForFunction(`document.querySelector('.sb-nav-next.sb-pulse') !== null`, { timeout: 30000 });
+    await page.evaluate('window.SB_PLAYER.next()');
+    if (i + 1 < pageCount) {
+      await page.waitForFunction(`window.SB_PLAYER.pageIndex() >= ${i + 1}`, { timeout: 25000 });
+    }
+  }
+
   for (let i = 0; i < pageCount; i++) {
     const interactive = HAS_INTERACTION.length ? HAS_INTERACTION[i] !== false : true;
     if (!interactive) {
-      /* narrative-only page: auto-advances after narration — just pass through */
-      try { await page.waitForFunction(`window.SB_PLAYER.pageIndex() >= ${Math.min(i + 1, pageCount - 1)}`, { timeout: 30000 }); }
-      catch (e) { failures.push(`[${label}] page ${i + 1}: narrative page did not auto-advance`); break; }
+      /* narrative-only page: read, then the reader turns it */
+      try { await turnPage(i); }
+      catch (e) { failures.push(`[${label}] page ${i + 1}: narrative page did not turn`); break; }
       continue;
     }
     try {
@@ -245,10 +262,10 @@ async function runTouchPass(browser, port, mode) {
 
     const gesture = await page.evaluate('window.SB_PLAYER.qaGesture ? window.SB_PLAYER.qaGesture() : null');
     if (!gesture || TOUCH_KINDS.indexOf(gesture.kind) < 0) {
-      /* non-touch page — advance so the traversal reaches the touch pages */
+      /* non-touch page — solve, then turn, so the traversal reaches the touch pages */
       const solved = await page.evaluate('window.SB_PLAYER.solve()');
       if (!solved) { failures.push(`[${label}] page ${i + 1}: could not advance a non-touch page`); break; }
-      if (i + 1 < pageCount) { try { await page.waitForFunction(`window.SB_PLAYER.pageIndex() >= ${i + 1}`, { timeout: 25000 }); } catch (e) { failures.push(`[${label}] page ${i + 1}: did not advance`); break; } }
+      try { await turnPage(i); } catch (e) { failures.push(`[${label}] page ${i + 1}: did not turn`); break; }
       continue;
     }
 
@@ -264,15 +281,17 @@ async function runTouchPass(browser, port, mode) {
 
     if (mode === 'pass') {
       try {
-        await page.waitForFunction(`window.SB_PLAYER.pageIndex() >= ${i + 1} || !!document.querySelector('.sb-complete')`, { timeout: 9000 });
+        /* success now signals via the page-done pulse (the reader turns the page) */
+        await page.waitForFunction(`document.querySelector('.sb-nav-next.sb-pulse') !== null`, { timeout: 9000 });
       } catch (e) { failures.push(`[${label}] page ${i + 1}: wobbly-but-correct trace did NOT complete (band too tight or gate too strict for a 3-5yo)`); break; }
+      try { await turnPage(i); } catch (e) { failures.push(`[${label}] page ${i + 1}: did not turn after the trace`); break; }
     } else {
       await new Promise(r => setTimeout(r, 1400));
-      const state = await page.evaluate('({ idx: window.SB_PLAYER.pageIndex(), done: !!document.querySelector(".sb-complete") })');
+      const state = await page.evaluate('({ idx: window.SB_PLAYER.pageIndex(), done: !!(document.querySelector(".sb-complete") || document.querySelector(".sb-nav-next.sb-pulse")) })');
       if (state.idx > i || state.done) { failures.push(`[${label}] page ${i + 1}: OFF-band trace FALSELY completed`); break; }
       const solved = await page.evaluate('window.SB_PLAYER.solve()');
       if (!solved) { failures.push(`[${label}] page ${i + 1}: DEAD STATE — not answerable after a bad trace`); break; }
-      if (i + 1 < pageCount) { try { await page.waitForFunction(`window.SB_PLAYER.pageIndex() >= ${i + 1}`, { timeout: 25000 }); } catch (e) { failures.push(`[${label}] page ${i + 1}: did not recover-advance after a bad trace`); break; } }
+      try { await turnPage(i); } catch (e) { failures.push(`[${label}] page ${i + 1}: did not recover-advance after a bad trace`); break; }
     }
   }
 

@@ -30,10 +30,13 @@
       '  border-radius:12px;padding:4px 18px;display:none;}',
       '.sbls-word.sbls-show{display:block;}',
       '.sbls-row{display:flex;gap:4%;justify-content:center;width:100%;}',
-      '.sbls-opt{flex:0 1 26%;max-width:26%;aspect-ratio:1;border-radius:16px;border:4px solid #146B5E;',
-      '  background:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:3%;',
-      '  -webkit-tap-highlight-color:transparent;touch-action:manipulation;box-shadow:0 3px 8px rgba(0,0,0,.18);}',
-      '.sbls-opt img{max-width:100%;max-height:100%;object-fit:contain;pointer-events:none;}',
+      /* v3 (storybook de-quiz): the options ARE the story's objects sitting in the
+         scene — no card, no border, no white backing (wobble + dashed hint remain) */
+      '.sbls-opt{flex:0 1 30%;max-width:30%;aspect-ratio:1;border-radius:16px;border:none;',
+      '  background:transparent;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;',
+      '  -webkit-tap-highlight-color:transparent;touch-action:manipulation;}',
+      '.sbls-opt img{max-width:100%;max-height:100%;object-fit:contain;pointer-events:none;',
+      '  filter:drop-shadow(0 6px 8px rgba(0,0,0,.25));}',
       '@keyframes sbls-shake{0%,100%{transform:translateX(0);}25%{transform:translateX(-5px);}75%{transform:translateX(5px);}}',
       '.sbls-opt.sbls-no{animation:sbls-shake .3s ease 2;}',
       '@media (prefers-reduced-motion: reduce){.sbls-opt.sbls-no{animation:none;}}',

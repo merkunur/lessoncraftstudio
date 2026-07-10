@@ -22,6 +22,13 @@
       "species": "small beaver",
       "debut": "bos-wobbly-cart",
       "notes": "Eager little builder, proud of fixing things; big cream teeth, flat tail, tool-belt-free (tools are his teeth)."
+    },
+    {
+      "id": "poppy",
+      "role": "companion",
+      "species": "small hedgehog",
+      "debut": "poppys-big-harvest",
+      "notes": "Gentle gardener; round body, spike crown, cream face. Loves her vegetable patch."
     }
   ]
 }

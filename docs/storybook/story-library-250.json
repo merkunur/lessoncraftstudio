@@ -43,10 +43,10 @@
       "grade": "PK",
       "teachingPointId": "lib-p01-03",
       "label": "Big vs. small",
-      "premise": null,
-      "setting": null,
-      "storyId": null,
-      "status": "open"
+      "premise": "help Poppy the hedgehog harvest her garden by telling the big vegetables from the small ones",
+      "setting": "vegetable garden",
+      "storyId": "poppys-big-harvest",
+      "status": "shipped"
     },
     {
       "part": 1,

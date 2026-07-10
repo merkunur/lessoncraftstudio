@@ -78,6 +78,13 @@
       "species": "young giraffe",
       "debut": "gigis-tall-lookout",
       "notes": "The tall lesson on four legs (the vertical sibling of Noodle's length); sunshine body, sandDeep patches/ossicones/hooves, creamDeep muzzle and belly; loves high places and lookouts."
+    },
+    {
+      "id": "bramble",
+      "role": "companion",
+      "species": "small honey-brown bear cub",
+      "debut": "the-green-berry",
+      "notes": "The meadow jam-maker; warm, clumsy-gentle, patient. His jam table with the three color jars is his signature place."
     }
   ]
 }

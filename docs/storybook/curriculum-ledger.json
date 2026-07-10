@@ -520,7 +520,7 @@
               "sb-choice-board"
             ],
             "storySlots": 14,
-            "shipped": 1,
+            "shipped": 2,
             "status": "in_progress"
           },
           {
@@ -958,6 +958,11 @@
         "storyId": "the-odd-little-sock",
         "pointId": "pk-match-same",
         "library": "story-library-250 lib-p01-04 (true storybook, ratified standard)"
+      },
+      {
+        "storyId": "the-green-berry",
+        "pointId": "pk-sort-by-attribute",
+        "library": "story-library-250 lib-p01-05 (true storybook, ratified standard)"
       }
     ]
   }

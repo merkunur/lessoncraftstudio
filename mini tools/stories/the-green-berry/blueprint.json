@@ -1,0 +1,823 @@
+{
+  "$schema": "blueprint-1",
+  "id": "the-green-berry",
+  "title": "The Green Berry",
+  "grade": "PK",
+  "arc": "collect-and-sort",
+  "teachingPoint": {
+    "id": "pk-sort-by-attribute",
+    "grade": "PK",
+    "cssCode": null,
+    "strand": "Sorting readiness",
+    "label": "Sort objects by one attribute (color)"
+  },
+  "guide": "pip",
+  "companions": [
+    "bramble"
+  ],
+  "reward": {
+    "id": "story.the-green-berry",
+    "emoji": "🍓",
+    "label": "The Rosy Berry"
+  },
+  "assets": [
+    {
+      "id": "scene1",
+      "kind": "image",
+      "src": "/mini-tools/stories/the-green-berry/scenes/page-01.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene2",
+      "kind": "image",
+      "src": "/mini-tools/stories/the-green-berry/scenes/page-02.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene3",
+      "kind": "image",
+      "src": "/mini-tools/stories/the-green-berry/scenes/page-03.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene4",
+      "kind": "image",
+      "src": "/mini-tools/stories/the-green-berry/scenes/page-04.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene5",
+      "kind": "image",
+      "src": "/mini-tools/stories/the-green-berry/scenes/page-05.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene6",
+      "kind": "image",
+      "src": "/mini-tools/stories/the-green-berry/scenes/page-06.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene7",
+      "kind": "image",
+      "src": "/mini-tools/stories/the-green-berry/scenes/page-07.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene8",
+      "kind": "image",
+      "src": "/mini-tools/stories/the-green-berry/scenes/page-08.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "scene9",
+      "kind": "image",
+      "src": "/mini-tools/stories/the-green-berry/scenes/page-09.webp",
+      "size": {
+        "w": 1600,
+        "h": 1000
+      }
+    },
+    {
+      "id": "atlas.pip.base",
+      "kind": "atlas",
+      "src": "/mini-tools/stories/the-green-berry/cast/pip/pip.base.json"
+    },
+    {
+      "id": "atlas.pip.clips",
+      "kind": "atlas",
+      "src": "/mini-tools/stories/the-green-berry/cast/pip/pip.clips.json"
+    },
+    {
+      "id": "atlas.bramble.base",
+      "kind": "atlas",
+      "src": "/mini-tools/stories/the-green-berry/cast/bramble/bramble.base.json"
+    },
+    {
+      "id": "img.strawberry-red",
+      "kind": "image",
+      "src": "/mini-tools/stories/the-green-berry/props/strawberry-red@2x.webp"
+    },
+    {
+      "id": "img.strawberry-green",
+      "kind": "image",
+      "src": "/mini-tools/stories/the-green-berry/props/strawberry-green@2x.webp"
+    },
+    {
+      "id": "img.blueberry",
+      "kind": "image",
+      "src": "/mini-tools/stories/the-green-berry/props/blueberry@2x.webp"
+    },
+    {
+      "id": "img.lemon",
+      "kind": "image",
+      "src": "/mini-tools/stories/the-green-berry/props/lemon@2x.webp"
+    }
+  ],
+  "pages": [
+    {
+      "scene": {
+        "image": "scene1"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bramble",
+          "atlasBase": "atlas.bramble.base",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.56,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "text": "The Meadow Fair was coming, and Bramble the bear was making jam."
+        },
+        {
+          "text": "Three jars with bright lids waited on his table: red, blue, and yellow."
+        },
+        {
+          "characterId": "bramble",
+          "text": "\"One jar for every color,\" said Bramble proudly."
+        },
+        {
+          "text": "Then his big foot caught a root. BUMP! The fruit basket tumbled everywhere!"
+        },
+        {
+          "characterId": "pip",
+          "text": "\"Oh my,\" said Pip. \"Colors will help us. Every fruit has a color home.\""
+        }
+      ],
+      "success": {
+        "celebration": "none",
+        "holdMs": 600
+      }
+    },
+    {
+      "scene": {
+        "image": "scene2"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bramble",
+          "atlasBase": "atlas.bramble.base",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.56,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "text": "Red strawberries were hiding in the tall green grass."
+        },
+        {
+          "characterId": "bramble",
+          "text": "\"Red goes with red,\" said Bramble, holding up the red jar."
+        },
+        {
+          "text": "Some blueberries were hiding there too. Those are not red!"
+        },
+        {
+          "text": "Can you find every red strawberry?"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-find-object",
+        "zone": {
+          "x": 120,
+          "y": 150,
+          "w": 1360,
+          "h": 660
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "find": [
+            "red1",
+            "red2"
+          ],
+          "targets": [
+            {
+              "key": "red1",
+              "image": "img.strawberry-red",
+              "rect": {
+                "x": 210,
+                "y": 440,
+                "w": 220,
+                "h": 220
+              },
+              "word": "@word.red"
+            },
+            {
+              "key": "blue1",
+              "image": "img.blueberry",
+              "rect": {
+                "x": 460,
+                "y": 340,
+                "w": 200,
+                "h": 200
+              },
+              "word": "@word.blue"
+            },
+            {
+              "key": "red2",
+              "image": "img.strawberry-red",
+              "rect": {
+                "x": 700,
+                "y": 440,
+                "w": 220,
+                "h": 220
+              },
+              "word": "@word.red"
+            },
+            {
+              "key": "blue2",
+              "image": "img.blueberry",
+              "rect": {
+                "x": 930,
+                "y": 340,
+                "w": 200,
+                "h": 200
+              },
+              "word": "@word.blue"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p02-bravo",
+        "holdMs": 1000
+      }
+    },
+    {
+      "scene": {
+        "image": "scene3"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bramble",
+          "atlasBase": "atlas.bramble.base",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.56,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "text": "One round blueberry rolled all the way to Pip's feet."
+        },
+        {
+          "characterId": "pip",
+          "text": "\"Blue belongs with blue,\" said Pip."
+        },
+        {
+          "text": "The blue jar waited on the shelf, right above the red one."
+        },
+        {
+          "text": "Can you put the blueberry into the blue jar?"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-listen-place",
+        "zone": {
+          "x": 440,
+          "y": 240,
+          "w": 880,
+          "h": 560
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "object": {
+            "image": "img.blueberry",
+            "alt": "@p03.alt.blueberry"
+          },
+          "slots": [
+            {
+              "key": "bluejar",
+              "at": {
+                "x": 680,
+                "y": 180
+              },
+              "correct": true
+            },
+            {
+              "key": "redjar",
+              "at": {
+                "x": 420,
+                "y": 400
+              }
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p03-bravo",
+        "holdMs": 1000
+      }
+    },
+    {
+      "scene": {
+        "image": "scene4"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "happy",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bramble",
+          "atlasBase": "atlas.bramble.base",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.56,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "text": "Bramble stirred a big pot and did not look up."
+        },
+        {
+          "characterId": "bramble",
+          "text": "\"Lemon, please!\" he called. \"The YELLOW one!\""
+        },
+        {
+          "text": "Two fruits sat by the pot: a sunny lemon and a red strawberry."
+        },
+        {
+          "characterId": "pip",
+          "text": "\"Listen well,\" giggled Pip. \"Which one does Bramble need?\""
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-listen",
+        "zone": {
+          "x": 400,
+          "y": 160,
+          "w": 800,
+          "h": 650
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "word": "@word.yellow",
+          "correct": "lemon",
+          "options": [
+            {
+              "key": "lemon",
+              "image": "img.lemon"
+            },
+            {
+              "key": "strawberry",
+              "image": "img.strawberry-red"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p04-bravo",
+        "holdMs": 1000
+      }
+    },
+    {
+      "scene": {
+        "image": "scene5"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "point",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bramble",
+          "atlasBase": "atlas.bramble.base",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.56,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "text": "Bramble reached for the last strawberries in the grass."
+        },
+        {
+          "text": "But wait. One of them did not look like the others."
+        },
+        {
+          "characterId": "bramble",
+          "text": "\"How funny,\" said Bramble. \"One strawberry is not red at all.\""
+        },
+        {
+          "characterId": "pip",
+          "text": "\"Find it,\" whispered Pip. \"Which one is green?\""
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-find-object",
+        "zone": {
+          "x": 120,
+          "y": 150,
+          "w": 1360,
+          "h": 660
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "find": [
+            "green"
+          ],
+          "targets": [
+            {
+              "key": "green",
+              "image": "img.strawberry-green",
+              "rect": {
+                "x": 540,
+                "y": 405,
+                "w": 220,
+                "h": 220
+              },
+              "word": "@word.green"
+            },
+            {
+              "key": "redA",
+              "image": "img.strawberry-red",
+              "rect": {
+                "x": 220,
+                "y": 420,
+                "w": 220,
+                "h": 220
+              },
+              "word": "@word.red"
+            },
+            {
+              "key": "redB",
+              "image": "img.strawberry-red",
+              "rect": {
+                "x": 900,
+                "y": 425,
+                "w": 220,
+                "h": 220
+              },
+              "word": "@word.red"
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p05-bravo",
+        "holdMs": 1000
+      }
+    },
+    {
+      "scene": {
+        "image": "scene6"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "talk",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bramble",
+          "atlasBase": "atlas.bramble.base",
+          "pose": "neutral",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.56,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "characterId": "bramble",
+          "text": "\"It fits no jar,\" sighed Bramble. \"Where does it belong?\""
+        },
+        {
+          "characterId": "pip",
+          "text": "\"It is not red YET,\" said Pip. \"Little green berries are still growing.\""
+        },
+        {
+          "text": "The strawberry plant stood in the warmest, sunniest corner of the garden."
+        },
+        {
+          "text": "Can you put the green berry back on its sunny plant?"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-listen-place",
+        "zone": {
+          "x": 440,
+          "y": 240,
+          "w": 880,
+          "h": 560
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "object": {
+            "image": "img.strawberry-green",
+            "alt": "@p06.alt.greenberry"
+          },
+          "slots": [
+            {
+              "key": "plant",
+              "at": {
+                "x": 700,
+                "y": 410
+              },
+              "correct": true
+            },
+            {
+              "key": "redjar",
+              "at": {
+                "x": 420,
+                "y": 420
+              }
+            }
+          ]
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p06-bravo",
+        "holdMs": 1400,
+        "clip": {
+          "characterId": "pip",
+          "name": "celebrate"
+        }
+      }
+    },
+    {
+      "scene": {
+        "image": "scene7"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "happy",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bramble",
+          "atlasBase": "atlas.bramble.base",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.56,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "text": "Back at the table, the jam pot bubbled and steamed."
+        },
+        {
+          "characterId": "bramble",
+          "text": "\"The last red strawberries go in the pot,\" said Bramble."
+        },
+        {
+          "characterId": "pip",
+          "text": "\"Red with red, one by one,\" said Pip."
+        },
+        {
+          "text": "Tap every red strawberry into the pot!"
+        }
+      ],
+      "interaction": {
+        "moduleType": "sb-dot-stamp",
+        "zone": {
+          "x": 300,
+          "y": 220,
+          "w": 1000,
+          "h": 560
+        },
+        "completionMode": "auto",
+        "taskData": {
+          "dots": [
+            {
+              "x": 200,
+              "y": 380
+            },
+            {
+              "x": 480,
+              "y": 360
+            },
+            {
+              "x": 760,
+              "y": 390
+            }
+          ],
+          "stampColor": "#146B5E"
+        }
+      },
+      "success": {
+        "celebration": "burst",
+        "narrationKey": "p07-bravo",
+        "holdMs": 1000
+      }
+    },
+    {
+      "scene": {
+        "image": "scene8"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "happy",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bramble",
+          "atlasBase": "atlas.bramble.base",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.56,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "text": "At last it was Meadow Fair day."
+        },
+        {
+          "text": "Three bright jars stood in a row: red, blue, and yellow."
+        },
+        {
+          "text": "Friends came from every path to taste the jam."
+        },
+        {
+          "characterId": "bramble",
+          "text": "\"Mmm-mm!\" said Bramble, patting his tummy. \"Every color found its home.\""
+        }
+      ],
+      "success": {
+        "celebration": "burst",
+        "holdMs": 900
+      }
+    },
+    {
+      "scene": {
+        "image": "scene9"
+      },
+      "characters": [
+        {
+          "characterId": "pip",
+          "atlasBase": "atlas.pip.base",
+          "pose": "happy",
+          "anchor": {
+            "x": 200,
+            "y": 890
+          },
+          "scale": 0.62,
+          "flip": false
+        },
+        {
+          "characterId": "bramble",
+          "atlasBase": "atlas.bramble.base",
+          "pose": "happy",
+          "anchor": {
+            "x": 1400,
+            "y": 915
+          },
+          "scale": 0.56,
+          "flip": true
+        }
+      ],
+      "narration": [
+        {
+          "text": "That evening, the sun set soft and golden over the garden."
+        },
+        {
+          "characterId": "pip",
+          "text": "\"Look,\" said Pip softly, and led him to the plant."
+        },
+        {
+          "text": "The little green berry had turned rosy red at last."
+        },
+        {
+          "characterId": "bramble",
+          "text": "\"Every berry finds its color,\" smiled Bramble, \"in its own time.\""
+        }
+      ],
+      "success": {
+        "celebration": "sticker",
+        "holdMs": 1200
+      }
+    }
+  ]
+}

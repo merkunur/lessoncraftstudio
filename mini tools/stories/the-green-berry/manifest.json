@@ -1,8 +1,8 @@
 {
   "storyId": "the-green-berry",
-  "generatedAt": "2026-07-10T18:10:10.391Z",
+  "generatedAt": "2026-07-10T18:37:00.865Z",
   "pageCount": 9,
-  "totalBytes": 905105,
+  "totalBytes": 918675,
   "files": [
     {
       "path": "art-manifest.json",
@@ -16,8 +16,8 @@
     },
     {
       "path": "blueprint.json",
-      "bytes": 20084,
-      "sha1": "e5190a160f66b69c54ced10480a73ad4c1fb35a8"
+      "bytes": 20079,
+      "sha1": "0706d61a9da2b2a233cb1457aee93b9e43311a79"
     },
     {
       "path": "cast/bramble/bramble.base.json",
@@ -61,8 +61,8 @@
     },
     {
       "path": "library-meta.json",
-      "bytes": 1487,
-      "sha1": "271950c94d472b6eb905ef525e96aa97a1aa63c7"
+      "bytes": 1471,
+      "sha1": "178ad7c74f9a43d8eb1624e190659ed321d1c09e"
     },
     {
       "path": "props/blueberry@2x.webp",
@@ -96,18 +96,18 @@
     },
     {
       "path": "scenes/page-03.webp",
-      "bytes": 15388,
-      "sha1": "a45f4b1d1b8129c8d0782d405961017134215aa7"
+      "bytes": 20724,
+      "sha1": "786d99e444507aafa7fd1e70990bfd06195bc293"
     },
     {
       "path": "scenes/page-04.webp",
-      "bytes": 13012,
-      "sha1": "170e88ce1d1f2a356d538b7d54ce68c4ff252d00"
+      "bytes": 14032,
+      "sha1": "4f25f7a21159d17b5300ba2cef294073533aa863"
     },
     {
       "path": "scenes/page-05.webp",
-      "bytes": 15760,
-      "sha1": "c7f886716d4d7a31f7544a01ac413bc35a31ad5a"
+      "bytes": 17200,
+      "sha1": "4c7f24a841439792bcb39be08b8c4c2cdc5b6248"
     },
     {
       "path": "scenes/page-06.webp",
@@ -116,8 +116,8 @@
     },
     {
       "path": "scenes/page-07.webp",
-      "bytes": 20730,
-      "sha1": "d16a8c22496f677b820739e509b2cc32a9418b0b"
+      "bytes": 27534,
+      "sha1": "948de3122f1db969b551142bc2c008b17ccf6c40"
     },
     {
       "path": "scenes/page-08.webp",
@@ -131,13 +131,13 @@
     },
     {
       "path": "story.json",
-      "bytes": 18779,
-      "sha1": "c8b43ded4b5082944548a675e7ff56861ac72a9e"
+      "bytes": 18725,
+      "sha1": "c190425dd29ebfb4557f17a4c5778555a05c44ae"
     },
     {
       "path": "strings.json",
-      "bytes": 12275,
-      "sha1": "0b7138028b216bc0bab95119c8d3dfcc527b2531"
+      "bytes": 11320,
+      "sha1": "d2fd1172929be4285e42acc28d7043304f48fc9d"
     }
   ]
 }

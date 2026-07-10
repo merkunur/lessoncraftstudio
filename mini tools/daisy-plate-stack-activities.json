@@ -28,21 +28,36 @@
           { "id": "apfel", "band": 3, "sentence": "Im Korb liegen fünf ___.",        "chips": ["Äpfel", "Apfeln", "Apfel"],  "answer": "Äpfel" },
           { "id": "ball",  "band": 3, "sentence": "Im Sportraum liegen vier ___.",   "chips": ["Bälle", "Balle", "Ball"],    "answer": "Bälle" },
           { "id": "buch",  "band": 3, "sentence": "Auf dem Tisch liegen zwei ___.",  "chips": ["Bücher", "Bucher", "Buch"],  "answer": "Bücher" }
+        ],
+        "fr": [
+          { "id": "chat",       "band": 1, "sentence": "Dans le jardin, il y a deux ___.",     "chips": ["chats", "chat", "chatx"],                   "answer": "chats" },
+          { "id": "fleur",      "band": 1, "sentence": "Elle cueille cinq ___.",               "chips": ["fleurs", "fleur", "fleurx"],                "answer": "fleurs" },
+          { "id": "table",      "band": 1, "sentence": "Dans la classe, il y a quatre ___.",   "chips": ["tables", "table", "tablex"],                "answer": "tables" },
+          { "id": "pomme",      "band": 1, "sentence": "Je voudrais trois ___.",               "chips": ["pommes", "pomme", "pommex"],                "answer": "pommes" },
+          { "id": "gateau",     "band": 2, "sentence": "Le boulanger fait deux ___.",          "chips": ["gâteaux", "gâteau", "gâteaus"],             "answer": "gâteaux" },
+          { "id": "chapeau",    "band": 2, "sentence": "Il porte deux ___.",                   "chips": ["chapeaux", "chapeau", "chapeaus"],          "answer": "chapeaux" },
+          { "id": "fourchette", "band": 2, "sentence": "Pour manger, il faut quatre ___.",     "chips": ["fourchettes", "fourchette", "fourchettex"], "answer": "fourchettes" },
+          { "id": "oiseau",     "band": 3, "sentence": "Sur la branche, il y a cinq ___.",     "chips": ["oiseaux", "oiseau", "oiseaus"],             "answer": "oiseaux" },
+          { "id": "livre",      "band": 3, "sentence": "Sur l'étagère, il y a deux ___.",      "chips": ["livres", "livre", "livrex"],                "answer": "livres" },
+          { "id": "jeu",        "band": 3, "sentence": "Dans la boîte, il y a trois ___.",     "chips": ["jeux", "jeu", "jeus"],                      "answer": "jeux" }
         ]
       }
     },
     "theme": null,
     "slug": {
       "en": "daisy-plate-stack",
-      "de": "einzahl-und-mehrzahl-klasse-2"
+      "de": "einzahl-und-mehrzahl-klasse-2",
+      "fr": "le-pluriel-des-noms-marque-s-et-x-ce1"
     },
     "page_title": {
       "en": "Daisy's Plate Stack — More Than One (Kindergarten)",
-      "de": "Ella die Ente: Einzahl und Mehrzahl üben (Klasse 2)"
+      "de": "Ella die Ente: Einzahl und Mehrzahl üben (Klasse 2)",
+      "fr": "Marguerite la cane : le pluriel des noms (CE1)"
     },
     "page_intro": {
       "en": "Daisy the duck plates up the orders, and every order is for more than one. Read each request, then tap the word that names more than one — adding s or es the right way (cups, dishes, boxes). A warm Kindergarten language game about forming regular plural nouns, aligned to Common Core L.K.1.c.",
-      "de": "Bei „Ella die Ente“ liest dein Kind einen kurzen Satz mit einer Zahl – zum Beispiel „Ich möchte zwei ___.“ – und tippt aus drei Wörtern die richtige Mehrzahl an. Dabei lernt es ganz nebenbei, dass die Mehrzahl im Deutschen nicht immer nur ein -s bekommt: aus „Tasse“ wird „Tassen“, aus „Ei“ wird „Eier“, aus „Apfel“ wird „Äpfel“. Ella serviert die Bestellungen, freut sich über jede Antwort – und das Ganze ist kostenlos, ohne Zeitdruck und ohne Punkte."
+      "de": "Bei „Ella die Ente“ liest dein Kind einen kurzen Satz mit einer Zahl – zum Beispiel „Ich möchte zwei ___.“ – und tippt aus drei Wörtern die richtige Mehrzahl an. Dabei lernt es ganz nebenbei, dass die Mehrzahl im Deutschen nicht immer nur ein -s bekommt: aus „Tasse“ wird „Tassen“, aus „Ei“ wird „Eier“, aus „Apfel“ wird „Äpfel“. Ella serviert die Bestellungen, freut sich über jede Antwort – und das Ganze ist kostenlos, ohne Zeitdruck und ohne Punkte.",
+      "fr": "Un jeu de français CE1, gratuit et interactif : Marguerite la cane sert les commandes, et chaque commande porte sur plusieurs choses. Ton enfant lit la phrase, puis touche le mot au pluriel bien écrit — la marque -s qu'on n'entend pas, et -x pour les noms en -eau (un gâteau, deux gâteaux). Un jeu tout doux pour apprendre le pluriel des noms."
     },
     "kid_prompt_template": "daisy-plate-stack"
   }

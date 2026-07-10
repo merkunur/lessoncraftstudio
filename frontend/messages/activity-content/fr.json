@@ -3920,6 +3920,27 @@
         "Relier un geste du livre à son rôle",
         "Découvrir la culture du livre"
       ]
+    },
+    "wobble-museum.catch-drift.w-k-2": {
+      "about": [
+        "Dans le musée de Bram la pie, chaque salle parle d'une seule chose. Mais une phrase s'est trompée de salle : elle est vraie, seulement elle parle d'autre chose ! Ton enfant lit les quatre phrases de la salle, puis touche celle qui ne parle pas du thème et s'est glissée là par erreur.",
+        "Repérer la phrase hors-sujet, c'est apprendre à rester dans le thème — un premier pas vers la production d'écrits cohérents, attendu du CE1. Le jeu est gratuit, sans minuteur et sans points : l'enfant lit, compare et trie, dans le domaine « Écriture » des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Rester dans le thème d'un texte",
+        "Repérer la phrase hors-sujet",
+        "Lire et comparer plusieurs phrases",
+        "Trier ce qui parle du sujet et ce qui n'en parle pas"
+      ],
+      "howToPlay": [
+        "Lis les quatre phrases de la salle.",
+        "Touche la phrase qui s'est trompée de salle."
+      ],
+      "learningGoals": [
+        "Rester dans le thème quand on écrit",
+        "Repérer une phrase hors-sujet",
+        "Comprendre de quoi parle chaque phrase"
+      ]
     }
   }
 }

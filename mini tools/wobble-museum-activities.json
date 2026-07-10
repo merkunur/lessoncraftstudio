@@ -106,20 +106,73 @@
             { "text": "Unser Herz schlägt schnell.", "about": "Körper" },
             { "text": "Äpfel sind gesund.", "about": "Äpfel" }
           ] }
+        ],
+        "fr": [
+          { "id": "wm-frogs", "topic": "les grenouilles", "topicWord": "grenouille", "sentences": [
+            { "text": "Les grenouilles sautent.", "about": "les grenouilles" },
+            { "text": "Elles mangent des insectes.", "about": "les grenouilles" },
+            { "text": "Les mares sont froides.", "about": "les mares" },
+            { "text": "Les grenouilles vivent dans la mare.", "about": "les grenouilles" }
+          ] },
+          { "id": "wm-moon", "topic": "la Lune", "topicWord": "lune", "sentences": [
+            { "text": "Les étoiles sont loin.", "about": "les étoiles" },
+            { "text": "La Lune est ronde.", "about": "la Lune" },
+            { "text": "Elle brille la nuit.", "about": "la Lune" },
+            { "text": "La Lune a des cratères.", "about": "la Lune" }
+          ] },
+          { "id": "wm-trucks", "topic": "les camions de pompiers", "topicWord": "camion", "sentences": [
+            { "text": "Les camions de pompiers sont rouges.", "about": "les camions de pompiers" },
+            { "text": "Ils ont une sirène bruyante.", "about": "les camions de pompiers" },
+            { "text": "Ils portent de longs tuyaux.", "about": "les camions de pompiers" },
+            { "text": "Les panneaux stop sont rouges.", "about": "les panneaux stop" }
+          ] },
+          { "id": "wm-rain", "topic": "la pluie", "topicWord": "pluie", "sentences": [
+            { "text": "La pluie tombe des nuages.", "about": "la pluie" },
+            { "text": "Les plantes sont vertes.", "about": "les plantes" },
+            { "text": "Elle fait des flaques.", "about": "la pluie" },
+            { "text": "La pluie aide les plantes.", "about": "la pluie" }
+          ] },
+          { "id": "wm-dogs", "topic": "les chiens", "topicWord": "chien", "sentences": [
+            { "text": "Les chiens aboient.", "about": "les chiens" },
+            { "text": "Ils remuent la queue.", "about": "les chiens" },
+            { "text": "Les chats font miaou.", "about": "les chats" },
+            { "text": "Les chiens aiment rapporter la balle.", "about": "les chiens" }
+          ] },
+          { "id": "wm-bees", "topic": "les abeilles", "topicWord": "abeille", "sentences": [
+            { "text": "Les abeilles bourdonnent.", "about": "les abeilles" },
+            { "text": "Les abeilles vivent dans une ruche.", "about": "les abeilles" },
+            { "text": "Elles font du miel.", "about": "les abeilles" },
+            { "text": "Les fourmis vivent sous la terre.", "about": "les fourmis" }
+          ] },
+          { "id": "wm-trees", "topic": "les arbres", "topicWord": "arbre", "sentences": [
+            { "text": "Les arbres ont des feuilles.", "about": "les arbres" },
+            { "text": "Les oiseaux savent voler.", "about": "les oiseaux" },
+            { "text": "Ils poussent très haut.", "about": "les arbres" },
+            { "text": "Les oiseaux font leur nid dans les arbres.", "about": "les arbres" }
+          ] },
+          { "id": "wm-body", "topic": "le corps", "topicWord": "corps", "sentences": [
+            { "text": "Notre corps a des os.", "about": "le corps" },
+            { "text": "Nous avons deux mains.", "about": "le corps" },
+            { "text": "Les pommes sont bonnes pour la santé.", "about": "la nourriture" },
+            { "text": "Notre cœur bat vite.", "about": "le corps" }
+          ] }
         ]
       }
     },
     "slug": {
       "en": "informative-writing-topic-focus",
-      "de": "beim-thema-bleiben-welcher-satz-passt-nicht-klasse-2"
+      "de": "beim-thema-bleiben-welcher-satz-passt-nicht-klasse-2",
+      "fr": "rester-dans-le-theme-quelle-phrase-ne-va-pas-ce1"
     },
     "page_title": {
       "en": "The Wobble Museum — Stick to the Topic (Kindergarten Writing)",
-      "de": "Beim Thema bleiben: Welcher Satz passt nicht? Klasse 2"
+      "de": "Beim Thema bleiben: Welcher Satz passt nicht? Klasse 2",
+      "fr": "Le musée de Bram : rester dans le thème (CE1)"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten writing activity: each room in Bram the magpie's museum is all about ONE thing, but a label keeps wandering in from another room. Read the room, then tap the fact that does not belong — it is true, but it is about something else. A friendly first look at keeping an All-About book on topic. Common Core W.K.2.",
-      "de": "Beim Thema bleiben leicht gemacht: Dein Kind findet den Satz, der nicht zum Thema passt – kostenlos & interaktiv für die Klasse 2."
+      "de": "Beim Thema bleiben leicht gemacht: Dein Kind findet den Satz, der nicht zum Thema passt – kostenlos & interaktiv für die Klasse 2.",
+      "fr": "Un jeu de lecture CE1, gratuit et interactif : dans le musée de Bram la pie, chaque salle parle d'une seule chose — mais une phrase s'est trompée de salle ! Ton enfant lit les quatre phrases de la salle, puis touche celle qui ne parle pas du thème : elle est vraie, mais elle parle d'autre chose. Un premier pas tout doux pour apprendre à rester dans le thème quand on écrit."
     },
     "kid_prompt_template": "wobble-museum"
   }

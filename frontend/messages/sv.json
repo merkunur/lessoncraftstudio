@@ -2240,6 +2240,21 @@
         "daysAgo": "{count, plural, =1 {1 day ago} other {# days ago}}",
         "weeksAgo": "{count, plural, =1 {1 week ago} other {# weeks ago}}"
       }
+    },
+    "hosted": {
+      "title": "Mina interaktiva arbetsblad",
+      "empty": "Arbetsblad du sparar från generatorerna visas här.",
+      "copy": "Kopiera länk",
+      "copied": "Kopierad!",
+      "rename": "Byt namn",
+      "renamePrompt": "Nytt namn",
+      "delete": "Ta bort",
+      "deleteConfirm": "Ta bort det här arbetsbladet? Länken slutar då fungera.",
+      "views": "{count} visningar"
+    },
+    "favorites": {
+      "title": "Mina favoriter",
+      "remove": "Ta bort från favoriter"
     }
   },
   "homepageV3": {

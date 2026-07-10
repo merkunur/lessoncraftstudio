@@ -2260,6 +2260,21 @@
         "daysAgo": "{count, plural, =1 {1 day ago} other {# days ago}}",
         "weeksAgo": "{count, plural, =1 {1 week ago} other {# weeks ago}}"
       }
+    },
+    "hosted": {
+      "title": "Mes fiches interactives",
+      "empty": "Les fiches enregistrées depuis les générateurs apparaissent ici.",
+      "copy": "Copier le lien",
+      "copied": "Copié !",
+      "rename": "Renommer",
+      "renamePrompt": "Nouveau nom",
+      "delete": "Supprimer",
+      "deleteConfirm": "Supprimer cette fiche ? Son lien cessera de fonctionner.",
+      "views": "{count} vues"
+    },
+    "favorites": {
+      "title": "Mes favoris",
+      "remove": "Retirer des favoris"
     }
   },
   "homepageV3": {

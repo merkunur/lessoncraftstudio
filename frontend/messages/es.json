@@ -3393,6 +3393,21 @@
         "daysAgo": "{count, plural, =1 {hace 1 día} other {hace # días}}",
         "weeksAgo": "{count, plural, =1 {hace 1 semana} other {hace # semanas}}"
       }
+    },
+    "hosted": {
+      "title": "Mis fichas interactivas",
+      "empty": "Las fichas que guardes desde los generadores aparecerán aquí.",
+      "copy": "Copiar enlace",
+      "copied": "¡Copiado!",
+      "rename": "Renombrar",
+      "renamePrompt": "Nuevo nombre",
+      "delete": "Eliminar",
+      "deleteConfirm": "¿Eliminar esta ficha? Su enlace dejará de funcionar.",
+      "views": "{count} visitas"
+    },
+    "favorites": {
+      "title": "Mis favoritos",
+      "remove": "Quitar de favoritos"
     }
   },
   "bulk": {

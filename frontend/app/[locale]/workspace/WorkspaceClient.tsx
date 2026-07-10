@@ -8,6 +8,8 @@ import { isLcsSubscriptionActive } from '@/lib/subscription-helpers';
 import { PRICING_PUBLIC } from '@/config/subscription-launch';
 import CollectionsWidget, { CollectionSummary } from './CollectionsWidget';
 import RecentActivityWidget, { Activity } from './RecentActivityWidget';
+import HostedWorksheetsWidget from './HostedWorksheetsWidget';
+import FavoritesWidget from './FavoritesWidget';
 
 interface WorkspacePayload {
   collections: CollectionSummary[];
@@ -129,6 +131,8 @@ export default function WorkspaceClient({ locale }: { locale: string }) {
 
       {payload !== null && (
         <div className="space-y-12">
+          <HostedWorksheetsWidget locale={locale} />
+
           <CollectionsWidget
             locale={locale}
             collections={payload.collections}
@@ -136,13 +140,12 @@ export default function WorkspaceClient({ locale }: { locale: string }) {
             onChanged={fetchWorkspace}
           />
 
+          <FavoritesWidget />
+
           <RecentActivityWidget
             locale={locale}
             activities={payload.recentActivity}
           />
-
-          {/* Tool 2B FavoritesWidget slot — reserved for follow-on pass per Q-j Option II.
-              Placeholder is a comment; no rendered DOM at Tool 2A. */}
         </div>
       )}
     </main>

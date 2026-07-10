@@ -1871,6 +1871,21 @@
         "daysAgo": "{count, plural, =1 {1 dag geleden} other {# dagen geleden}}",
         "weeksAgo": "{count, plural, =1 {1 week geleden} other {# weken geleden}}"
       }
+    },
+    "hosted": {
+      "title": "Mijn interactieve werkbladen",
+      "empty": "Werkbladen die je opslaat vanuit de makers verschijnen hier.",
+      "copy": "Link kopiëren",
+      "copied": "Gekopieerd!",
+      "rename": "Hernoemen",
+      "renamePrompt": "Nieuwe naam",
+      "delete": "Verwijderen",
+      "deleteConfirm": "Dit werkblad verwijderen? De link werkt dan niet meer.",
+      "views": "{count} weergaven"
+    },
+    "favorites": {
+      "title": "Mijn favorieten",
+      "remove": "Uit favorieten verwijderen"
     }
   },
   "bulk": {

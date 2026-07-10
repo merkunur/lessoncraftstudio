@@ -3704,6 +3704,21 @@
         "daysAgo": "{count, plural, =1 {1 day ago} other {# days ago}}",
         "weeksAgo": "{count, plural, =1 {1 week ago} other {# weeks ago}}"
       }
+    },
+    "hosted": {
+      "title": "My interactive worksheets",
+      "empty": "Worksheets you save from the makers appear here.",
+      "copy": "Copy link",
+      "copied": "Copied!",
+      "rename": "Rename",
+      "renamePrompt": "New name",
+      "delete": "Delete",
+      "deleteConfirm": "Delete this worksheet? Its link will stop working.",
+      "views": "{count} views"
+    },
+    "favorites": {
+      "title": "My favorites",
+      "remove": "Remove from favorites"
     }
   },
   "bulk": {

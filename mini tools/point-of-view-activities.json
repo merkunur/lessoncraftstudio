@@ -46,20 +46,43 @@
             "chars": [ {"id":"a","name":"Ben","glyph":"friend","pos":"high"}, {"id":"b","name":"Pip","glyph":"bird","pos":"mid"}, {"id":"c","name":"Hoppel","glyph":"bunny","pos":"low"} ] },
           { "id": "pv-ship",  "event": "Ein großes Schiff fuhr über das Meer.", "line": "Das Schiff war so klein, ganz weit draußen.", "view": "high",
             "chars": [ {"id":"a","name":"Mimi","glyph":"mouse","pos":"high"}, {"id":"b","name":"Hoppel","glyph":"bunny","pos":"mid"}, {"id":"c","name":"Pip","glyph":"bird","pos":"low"} ] }
+        ],
+        "fr": [
+          { "id": "pv-boat",  "event": "Un bateau rouge est entré dans le port.", "line": "Le bateau ressemblait à un tout petit point, très loin.", "view": "high",
+            "chars": [ {"id":"a","name":"Plume","glyph":"bird","pos":"high"}, {"id":"b","name":"Mimi","glyph":"mouse","pos":"mid"}, {"id":"c","name":"Nino","glyph":"friend","pos":"low"} ] },
+          { "id": "pv-wave",  "event": "Une grande vague est arrivée.", "line": "La vague m'a éclaboussé, juste au-dessus de moi !", "view": "low",
+            "chars": [ {"id":"a","name":"Nino","glyph":"friend","pos":"high"}, {"id":"b","name":"Pompon","glyph":"bunny","pos":"mid"}, {"id":"c","name":"Mimi","glyph":"mouse","pos":"low"} ] },
+          { "id": "pv-fish",  "event": "Un poisson a sauté dans la baie.", "line": "Le poisson n'était qu'un tout petit point, tout en bas.", "view": "high",
+            "chars": [ {"id":"a","name":"Mimi","glyph":"mouse","pos":"high"}, {"id":"b","name":"Nino","glyph":"friend","pos":"mid"}, {"id":"c","name":"Plume","glyph":"bird","pos":"low"} ] },
+          { "id": "pv-gull",  "event": "Une mouette est passée en piqué.", "line": "Elle est passée juste devant mon nez !", "view": "low",
+            "chars": [ {"id":"a","name":"Plume","glyph":"bird","pos":"high"}, {"id":"b","name":"Mimi","glyph":"mouse","pos":"mid"}, {"id":"c","name":"Pompon","glyph":"bunny","pos":"low"} ] },
+          { "id": "pv-town",  "event": "La ville s'est illuminée la nuit.", "line": "Je voyais toute la ville, minuscule, tout en bas.", "view": "high",
+            "chars": [ {"id":"a","name":"Nino","glyph":"friend","pos":"high"}, {"id":"b","name":"Plume","glyph":"bird","pos":"mid"}, {"id":"c","name":"Mimi","glyph":"mouse","pos":"low"} ] },
+          { "id": "pv-crab",  "event": "Un crabe est passé en trottinant.", "line": "Le crabe était énorme, juste à côté de moi.", "view": "low",
+            "chars": [ {"id":"a","name":"Pompon","glyph":"bunny","pos":"high"}, {"id":"b","name":"Nino","glyph":"friend","pos":"mid"}, {"id":"c","name":"Plume","glyph":"bird","pos":"low"} ] },
+          { "id": "pv-sail",  "event": "Un voilier est passé à toute vitesse.", "line": "Le voilier semblait tout petit, très loin.", "view": "high",
+            "chars": [ {"id":"a","name":"Pompon","glyph":"bunny","pos":"high"}, {"id":"b","name":"Mimi","glyph":"mouse","pos":"mid"}, {"id":"c","name":"Nino","glyph":"friend","pos":"low"} ] },
+          { "id": "pv-jelly", "event": "Une méduse a dérivé tout près.", "line": "La méduse était juste sous moi, grosse et tout près.", "view": "low",
+            "chars": [ {"id":"a","name":"Nino","glyph":"friend","pos":"high"}, {"id":"b","name":"Plume","glyph":"bird","pos":"mid"}, {"id":"c","name":"Pompon","glyph":"bunny","pos":"low"} ] },
+          { "id": "pv-ship",  "event": "Un grand navire a traversé la mer.", "line": "Le navire était tout petit, très loin là-bas.", "view": "high",
+            "chars": [ {"id":"a","name":"Mimi","glyph":"mouse","pos":"high"}, {"id":"b","name":"Pompon","glyph":"bunny","pos":"mid"}, {"id":"c","name":"Plume","glyph":"bird","pos":"low"} ] }
         ]
       }
     },
     "slug": {
       "en": "point-of-view-who-is-telling",
-      "de": "aus-wessen-sicht-erzaehlperspektive-erkennen-klasse-2"
+      "de": "aus-wessen-sicht-erzaehlperspektive-erkennen-klasse-2",
+      "fr": "identifier-le-point-de-vue-qui-raconte-ce1"
     },
     "page_title": {
       "en": "Lumen's Lighthouse Windows — Point of View (Grade 1)",
-      "de": "Aus wessen Sicht? Erzählperspektive erkennen"
+      "de": "Aus wessen Sicht? Erzählperspektive erkennen",
+      "fr": "Le phare de Lumen : de quelle fenêtre ? (CE1)"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 reading activity: help Lumen the owl figure out who is telling the story. Each creature watches the harbor from a window at a different height — high up, things look tiny and far; down low, they look big and close. Read what the storyteller saw, then tap the window it was told from. A friendly first look at point of view. Common Core RL.1.6.",
-      "de": "Lies die Zeile, tippe das richtige Fenster & entdecke, aus wessen Sicht erzählt wird – ein kostenloses, interaktives Leseabenteuer für Klasse 2."
+      "de": "Lies die Zeile, tippe das richtige Fenster & entdecke, aus wessen Sicht erzählt wird – ein kostenloses, interaktives Leseabenteuer für Klasse 2.",
+      "fr": "Un jeu de lecture CE1, gratuit et interactif : aide Lumen le hibou à trouver de quelle fenêtre l'histoire est racontée. Chaque animal regarde le port depuis une fenêtre à une hauteur différente — tout en haut, les choses paraissent minuscules et lointaines ; tout en bas, énormes et toutes proches. Ton enfant lit ce que le conteur a vu, puis touche la fenêtre d'où c'est raconté. Un premier pas tout doux vers le point de vue."
     },
     "kid_prompt_template": "point-of-view"
   }

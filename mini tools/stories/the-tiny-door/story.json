@@ -211,15 +211,17 @@
             "id": "p01-l01"
           },
           {
-            "id": "p01-l02",
-            "characterId": "hazel"
+            "id": "p01-l02"
           },
           {
             "id": "p01-l03",
-            "characterId": "pip"
+            "characterId": "hazel"
           },
           {
-            "id": "p01-l04",
+            "id": "p01-l04"
+          },
+          {
+            "id": "p01-l05",
             "characterId": "hazel"
           }
         ]
@@ -269,6 +271,9 @@
           {
             "id": "p02-l03",
             "characterId": "pip"
+          },
+          {
+            "id": "p02-l04"
           }
         ]
       },
@@ -337,6 +342,9 @@
           {
             "id": "p03-l02",
             "characterId": "hazel"
+          },
+          {
+            "id": "p03-l03"
           }
         ]
       },
@@ -425,6 +433,9 @@
           {
             "id": "p04-l03",
             "characterId": "hazel"
+          },
+          {
+            "id": "p04-l04"
           }
         ]
       },
@@ -525,6 +536,9 @@
           {
             "id": "p05-l03",
             "characterId": "hazel"
+          },
+          {
+            "id": "p05-l04"
           }
         ]
       },
@@ -596,8 +610,10 @@
             "characterId": "hazel"
           },
           {
-            "id": "p06-l03",
-            "characterId": "pip"
+            "id": "p06-l03"
+          },
+          {
+            "id": "p06-l04"
           }
         ]
       },
@@ -678,8 +694,7 @@
             "characterId": "hazel"
           },
           {
-            "id": "p07-l03",
-            "characterId": "pip"
+            "id": "p07-l03"
           }
         ]
       },

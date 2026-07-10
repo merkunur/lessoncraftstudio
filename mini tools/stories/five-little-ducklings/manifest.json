@@ -1,8 +1,8 @@
 {
   "storyId": "five-little-ducklings",
-  "generatedAt": "2026-07-10T15:47:01.823Z",
+  "generatedAt": "2026-07-10T16:32:55.835Z",
   "pageCount": 9,
-  "totalBytes": 874575,
+  "totalBytes": 878652,
   "files": [
     {
       "path": "art-manifest.json",
@@ -16,8 +16,8 @@
     },
     {
       "path": "blueprint.json",
-      "bytes": 19564,
-      "sha1": "63f48d520e6def38ed127445fbc02cb0a3902227"
+      "bytes": 20674,
+      "sha1": "368a1628ecf3613876b1229b796ff8b7afc365fc"
     },
     {
       "path": "cast/pip/pip.base.json",
@@ -61,8 +61,8 @@
     },
     {
       "path": "library-meta.json",
-      "bytes": 1348,
-      "sha1": "b0b3e173e678bac2cd2963844ef91a9b7f5a5422"
+      "bytes": 1476,
+      "sha1": "dd5118118c06424d95ec8d8ea6b1d11b4501faf3"
     },
     {
       "path": "props/bush@2x.webp",
@@ -151,13 +151,13 @@
     },
     {
       "path": "story.json",
-      "bytes": 18993,
-      "sha1": "a0482ca3ae154f90e725bef47b3d72d236ddb6a3"
+      "bytes": 19262,
+      "sha1": "b4d2d8ef3de2c8430236e137f8ac5fdbdf06522f"
     },
     {
       "path": "strings.json",
-      "bytes": 10226,
-      "sha1": "423a1fffe507a55ae157dcd6c456f6b93db688ec"
+      "bytes": 12796,
+      "sha1": "0319ec1581b83d37dd8f56a48aab545b3e668e4f"
     }
   ]
 }

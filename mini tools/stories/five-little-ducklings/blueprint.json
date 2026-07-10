@@ -189,19 +189,21 @@
       ],
       "narration": [
         {
-          "text": "The sun was going down over the meadow."
+          "text": "The sun was setting over the meadow, and the pond glowed like warm honey."
+        },
+        {
+          "text": "It was bedtime for Willa's five little ducklings."
+        },
+        {
+          "text": "But when Willa counted her babies, the nest was empty!"
         },
         {
           "characterId": "willa",
-          "text": "Quack! Quack! My five little ducklings are hiding!"
-        },
-        {
-          "characterId": "willa",
-          "text": "It is bedtime, and I cannot find them!"
+          "text": "\"Oh no,\" quacked Willa. \"My ducklings are hiding again!\""
         },
         {
           "characterId": "pip",
-          "text": "Don't worry, Willa. We will find every single one."
+          "text": "\"Don't worry,\" said Pip, taking her wing. \"We'll find every single one.\""
         }
       ],
       "success": {
@@ -239,15 +241,17 @@
       ],
       "narration": [
         {
-          "text": "Down by the water, the tall reeds went rustle, rustle."
+          "text": "Down by the water, the tall reeds began to rustle and swish."
+        },
+        {
+          "text": "Something small was wiggling deep in the reeds."
         },
         {
           "characterId": "pip",
-          "text": "Shhh. Someone small is hiding in there."
+          "text": "\"I can see tail feathers!\" whispered Pip."
         },
         {
-          "characterId": "willa",
-          "text": "Can you see my little one? Look closely!"
+          "text": "Can you find the little duckling hiding in the reeds?"
         }
       ],
       "interaction": {
@@ -325,15 +329,17 @@
       ],
       "narration": [
         {
-          "text": "Then came a tiny sound from somewhere near."
+          "text": "Just then, a tiny giggle floated out from somewhere in the garden."
+        },
+        {
+          "text": "Was it the berry bush, or was it the old gray stone?"
         },
         {
           "characterId": "willa",
-          "text": "Listen very carefully. Where is that quack?"
+          "text": "\"Listen carefully,\" said Willa. \"My babies always giggle when they hide.\""
         },
         {
-          "characterId": "pip",
-          "text": "Tap the place where the sound hides!"
+          "text": "Where is that little quack coming from? Tap what you hear!"
         }
       ],
       "interaction": {
@@ -396,15 +402,17 @@
       ],
       "narration": [
         {
-          "text": "By the garden, a watering can wobbled all by itself."
+          "text": "Farther up the path, the old watering can began to wobble."
+        },
+        {
+          "text": "It tipped left, it tipped right — but cans cannot wobble by themselves!"
         },
         {
           "characterId": "pip",
-          "text": "Cans cannot wobble... but ducklings can!"
+          "text": "\"Aha,\" smiled Pip. \"Someone is hiding back there.\""
         },
         {
-          "characterId": "willa",
-          "text": "Peek behind it! Do you see her?"
+          "text": "Peek behind the watering can. Do you see her?"
         }
       ],
       "interaction": {
@@ -482,14 +490,17 @@
       ],
       "narration": [
         {
-          "text": "A wiggly muddy path ran all the way down."
+          "text": "A wiggly line of muddy footprints ran all the way down the hill."
         },
         {
-          "text": "At the bottom, duckling four paddled in the pond."
+          "text": "At the bottom, duckling four was paddling round and round the pond."
         },
         {
-          "characterId": "pip",
-          "text": "Follow the wiggly path with your finger!"
+          "characterId": "willa",
+          "text": "\"He always swims at bedtime,\" sighed Willa."
+        },
+        {
+          "text": "Follow the wiggly path with your finger to bring him home."
         }
       ],
       "interaction": {
@@ -571,18 +582,21 @@
       ],
       "narration": [
         {
-          "text": "The sky grew dark and quiet. One duckling was still missing."
+          "text": "By now the sky had grown dark and quiet."
+        },
+        {
+          "text": "Little Pep, the sleepiest duckling of all, was still missing."
         },
         {
           "characterId": "willa",
-          "text": "Little Pep! Where are you, little Pep?"
+          "text": "\"Pep!\" called Willa softly. \"Where are you, little one?\""
         },
         {
-          "text": "Then came a tiny, sleepy quack, floating by."
+          "text": "Then came a tiny, sleepy quack, soft as a feather."
         },
         {
           "characterId": "pip",
-          "text": "Listen again! Where is Pep hiding?"
+          "text": "\"Listen again,\" whispered Pip. \"Where is Pep hiding?\""
         }
       ],
       "interaction": {
@@ -645,15 +659,17 @@
       ],
       "narration": [
         {
-          "text": "Pep was too sleepy to walk home."
+          "text": "Pep was far too sleepy to walk home by himself."
         },
         {
           "characterId": "willa",
-          "text": "Carry him ever so gently, please."
+          "text": "\"Carry him ever so gently,\" whispered Willa."
         },
         {
-          "characterId": "pip",
-          "text": "Bring Pep to the cozy nest!"
+          "text": "His brothers and sisters were already waiting in the cozy nest."
+        },
+        {
+          "text": "Can you bring little Pep home to the nest?"
         }
       ],
       "interaction": {
@@ -729,11 +745,14 @@
         },
         {
           "characterId": "willa",
-          "text": "Let me be sure. Help me count my babies!"
+          "text": "\"Let me be sure,\" said Willa. \"I must count my babies.\""
         },
         {
           "characterId": "pip",
-          "text": "Count them one by one. One, two, three..."
+          "text": "\"Count with me!\" said Pip. \"One, two, three...\""
+        },
+        {
+          "text": "Tap each sleepy duckling and count them all the way to five."
         }
       ],
       "interaction": {
@@ -811,18 +830,18 @@
       ],
       "narration": [
         {
-          "text": "The stars came out, one by one."
+          "text": "The stars came out over the quiet meadow, one by one."
         },
         {
-          "text": "Five little ducklings slept, all safe and warm."
+          "text": "Five little ducklings slept in a row, all safe and warm."
         },
         {
           "characterId": "willa",
-          "text": "Thank you, Pip. Thank you, little friend."
+          "text": "\"Thank you, Pip,\" whispered Willa. \"And thank you, little friend.\""
         },
         {
           "characterId": "pip",
-          "text": "Good night, little ones. Good night, everyone."
+          "text": "\"Good night, little ones,\" said Pip softly. \"Good night, everyone.\""
         }
       ],
       "success": {

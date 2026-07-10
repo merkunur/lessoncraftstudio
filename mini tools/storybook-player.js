@@ -76,6 +76,19 @@
       '  box-shadow:0 4px 14px rgba(0,0,0,.25);}',
       '.sb-caption-text{flex:1;line-height:1.35;font-weight:700;}',
       '.sb-caption-speaker{font-weight:800;opacity:.85;margin-right:2px;}',
+      /* the BOOK PANEL — the page\'s story text, displayed like a picture-book page
+         (operator ruling 2026-07-10: a storybook shows READABLE PAGE TEXT, not
+         subtitle fragments). Sentences accumulate into one flowing paragraph. */
+      '.sb-book{position:absolute;pointer-events:auto;background:rgba(251,243,228,.94);',
+      '  border:3px solid #5A3A26;border-radius:20px;padding:20px 66px 20px 26px;color:#5A3A26;',
+      '  box-shadow:0 6px 18px rgba(0,0,0,.22);overflow:hidden;z-index:75;}',
+      '.sb-book-text{line-height:1.5;font-weight:600;}',
+      '.sb-book-text .sb-sent{border-radius:6px;}',
+      '.sb-book-text .sb-sent.now{background:rgba(247,201,72,.55);}',
+      '.sb-book .sb-speak-btn{position:absolute;top:12px;right:12px;}',
+      '.sb-book-pill{position:absolute;pointer-events:auto;display:none;align-items:center;justify-content:center;',
+      '  gap:8px;background:rgba(251,243,228,.95);color:#5A3A26;border:3px solid #5A3A26;border-radius:999px;',
+      '  font-weight:800;cursor:pointer;z-index:75;box-shadow:0 3px 10px rgba(0,0,0,.2);font-family:inherit;}',
       '.sb-speak-btn{flex:0 0 auto;width:44px;height:44px;min-width:44px;min-height:44px;border:none;border-radius:50%;',
       '  background:#F2784B;color:#fff;font-size:20px;cursor:pointer;display:flex;align-items:center;justify-content:center;}',
       '.sb-speak-btn:active{transform:scale(.94);}',
@@ -414,6 +427,7 @@
     var lastCues = [];
     var live = null;               /* aria-live region */
     var caption = null, captionText = null, captionSpeaker = null, speakBtn = null;
+    var bookPanel = null, bookText = null, bookPill = null, bookHasInteraction = false, bookNowSpan = null;
     var checkHost = null, pips = null, tray = null;
     var navPrev = null, navNext = null;  /* reader page-nav arrows */
     var completeOv = null;         /* "The End" overlay (removed on back-nav) */
@@ -522,11 +536,31 @@
       captionSpeaker.className = 'sb-caption-speaker';
       captionText = doc.createElement('span');
       captionText.className = 'sb-caption-text';
-      caption.appendChild(speakBtn);
       caption.appendChild(captionSpeaker);
       caption.appendChild(captionText);
       stage.overlay.appendChild(caption);
       stage.registerPositioned(caption, { x: 120, y: 872, w: 1140, h: 108 }, 24);
+      caption.style.display = 'none';   /* the caption is the success toast only; narration lives in the book panel */
+
+      /* the BOOK PANEL (the page's story text) + its collapsed re-open pill */
+      bookPanel = doc.createElement('div');
+      bookPanel.className = 'sb-book';
+      bookText = doc.createElement('div');
+      bookText.className = 'sb-book-text';
+      bookPanel.appendChild(bookText);
+      bookPanel.appendChild(speakBtn);           /* the read-again control lives on the book page */
+      stage.overlay.appendChild(bookPanel);
+      stage.registerPositioned(bookPanel, { x: 170, y: 40, w: 1260, h: 300 }, 26);
+
+      bookPill = doc.createElement('button');
+      bookPill.type = 'button';
+      bookPill.className = 'sb-book-pill';
+      bookPill.textContent = '📖 ' + chromeT('listen');
+      bookPill.setAttribute('aria-label', chromeT('listen'));
+      bookPill.addEventListener('click', function () { bookSetMode(true); replayNarration(); });
+      stage.overlay.appendChild(bookPill);
+      stage.registerPositioned(bookPill, { x: 24, y: 78, w: 260, h: 62 }, 20);
+      bookPill.style.display = 'none';
 
       /* check-button host (bottom-right) */
       checkHost = doc.createElement('div');
@@ -601,6 +635,31 @@
     function setCaption(speakerName, text) {
       captionSpeaker.textContent = speakerName ? speakerName + ':' : '';
       captionText.textContent = text || '';
+      caption.style.display = (text || speakerName) ? 'flex' : 'none';
+    }
+
+    /* ---------- the book panel (the page's story text) ---------- */
+    function bookClear() {
+      if (bookText) bookText.textContent = '';
+      bookNowSpan = null;
+    }
+    function bookAppend(text) {
+      if (!bookText) return null;
+      if (bookNowSpan) bookNowSpan.className = 'sb-sent';
+      var s = doc.createElement('span');
+      s.className = 'sb-sent now';
+      s.textContent = (bookText.childNodes.length ? ' ' : '') + text;
+      bookText.appendChild(s);
+      bookNowSpan = s;
+      return s;
+    }
+    function bookSettle() {
+      if (bookNowSpan) { bookNowSpan.className = 'sb-sent'; bookNowSpan = null; }
+    }
+    function bookSetMode(full) {
+      if (!bookPanel) return;
+      bookPanel.style.display = full ? 'block' : 'none';
+      bookPill.style.display = (!full && bookHasInteraction) ? 'flex' : 'none';
     }
 
     /* ---------- narration ---------- */
@@ -609,12 +668,13 @@
          (optional) short-circuits the rest when its page went stale (manual
          page-nav) so a dead page stops captioning/speaking */
       var p = Promise.resolve();
+      bookClear();   /* the page's book text rebuilds from its first sentence (page start + replay) */
       cues.forEach(function (cue) {
         p = p.then(function () {
           if (liveFn && !liveFn()) return;
           var text = str(cue.id);
-          var who = cue.characterId && castDefOf(cue.characterId);
-          setCaption(who ? refStr(who.name) : '', text);
+          bookAppend(text);   /* sentences ACCUMULATE into the book paragraph — no speaker prefixes;
+                                 dialogue attribution lives in the written prose itself */
           announce(text);
           var perf = cue.characterId && performers[cue.characterId];
           if (perf) {
@@ -643,8 +703,11 @@
       track('replay');
       var g = navGen;
       playCues(lastCues, null, function () { return g === navGen; })
-        .then(function () { replayBusy = false; },
-              function () { replayBusy = false; });
+        .then(function () {
+          replayBusy = false;
+          bookSettle();
+          if (g === navGen && bookHasInteraction) bookSetMode(false);
+        }, function () { replayBusy = false; });
     }
 
     /* ---------- celebration ---------- */
@@ -893,9 +956,17 @@
           });
           lastCues = (page.narration && page.narration.cues) || [];
           var gate = (page.narration && page.narration.gate) || 'end';
+          /* the book panel opens full for the page's text; the success caption clears */
+          bookHasInteraction = !!(page.interaction && host);
+          setCaption('', '');
+          bookSetMode(true);
           if (gate === 'immediate' && host) host.start();
           return playCues(lastCues, null, function () { return gen === navGen; }).then(function () {
             if (gen !== navGen) return new Promise(function () {}); /* park a dead chain */
+            bookSettle();
+            /* read first, then play: on interactive pages the book collapses to the
+               re-open pill so the zone is clear; story pages keep the full page text */
+            if (bookHasInteraction) bookSetMode(false);
             if (host && gate !== 'immediate') host.start();
             global.SBLoader.prefetchPage(i + 1);
             return successPromise;

@@ -26,7 +26,7 @@
   function speak(text, rate) {
     try {
       if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de' ? 'de-DE' : (LANG === 'fr' ? 'fr-FR' : 'en-US')); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
@@ -35,18 +35,18 @@
     id: 'vet-diagnosis-activity',
 
     strings: {
-      title: { en: "Vet's Diagnosis Window", de: 'Beim Tierarzt' },
-      instruction: { en: '', de: '' },
-      prompt: { en: 'Solve the story.', de: 'Rechne die Geschichte aus.' },
-      diagnose: { en: 'Diagnose 🩺', de: 'Diagnose 🩺' },
-      replay: { en: '🔊 Read again', de: '🔊 Nochmal hören' },
-      sayWelcome: { en: 'A patient needs you! Show me what happened.', de: 'Ein Patient braucht dich! Zeig mir, was passiert ist.' },
-      sayModel: { en: 'Put each number where it belongs. One spot is the mystery — mark it.', de: 'Leg jede Zahl an ihren Platz. Ein Platz ist das Rätsel – markier ihn.' },
-      sayDial: { en: 'Now — how many? Dial it in!', de: 'Und jetzt – wie viele? Tipp es ein!' },
-      sayWin: { en: 'All better! Thank you! 💚', de: 'Alles wieder gut! Danke! 💚' },
-      sayWait: { en: "Hmm, let's look again.", de: 'Hmm, schauen wir nochmal.' },
-      pickTile: { en: 'Now tap the spot where it belongs.', de: 'Jetzt tipp den Platz an, wo sie hingehört.' },
-      hintCheck: { en: 'Place the numbers, mark the mystery, dial the answer.', de: 'Leg die Zahlen, markier das Rätsel, tipp die Antwort ein.' }
+      title: { en: "Vet's Diagnosis Window", de: 'Beim Tierarzt', fr: 'Chez le vétérinaire' },
+      instruction: { en: '', de: '', fr: '' },
+      prompt: { en: 'Solve the story.', de: 'Rechne die Geschichte aus.', fr: 'Résous l’histoire.' },
+      diagnose: { en: 'Diagnose 🩺', de: 'Diagnose 🩺', fr: 'Diagnostiquer 🩺' },
+      replay: { en: '🔊 Read again', de: '🔊 Nochmal hören', fr: '🔊 Réécouter' },
+      sayWelcome: { en: 'A patient needs you! Show me what happened.', de: 'Ein Patient braucht dich! Zeig mir, was passiert ist.', fr: 'Un patient a besoin de toi ! Montre-moi ce qui s’est passé.' },
+      sayModel: { en: 'Put each number where it belongs. One spot is the mystery — mark it.', de: 'Leg jede Zahl an ihren Platz. Ein Platz ist das Rätsel – markier ihn.', fr: 'Mets chaque nombre à sa place. Une place est le mystère — marque-la.' },
+      sayDial: { en: 'Now — how many? Dial it in!', de: 'Und jetzt – wie viele? Tipp es ein!', fr: 'Et maintenant — combien ? Compose le nombre !' },
+      sayWin: { en: 'All better! Thank you! 💚', de: 'Alles wieder gut! Danke! 💚', fr: 'Tout va mieux ! Merci ! 💚' },
+      sayWait: { en: "Hmm, let's look again.", de: 'Hmm, schauen wir nochmal.', fr: 'Hmm, regardons encore.' },
+      pickTile: { en: 'Now tap the spot where it belongs.', de: 'Jetzt tipp den Platz an, wo sie hingehört.', fr: 'Maintenant, touche la place où il va.' },
+      hintCheck: { en: 'Place the numbers, mark the mystery, dial the answer.', de: 'Leg die Zahlen, markier das Rätsel, tipp die Antwort ein.', fr: 'Place les nombres, marque le mystère, compose la réponse.' }
     },
     defaults: {},
 
@@ -161,7 +161,7 @@
         if (b === '?') slot.textContent = '?';
         else if (b) { var t = self._tileById(b); slot.textContent = t ? t.value : ''; }
         else slot.textContent = '';
-        slot.setAttribute('aria-label', b === '?' ? (LANG === 'de' ? 'Rätselplatz' : 'mystery spot') : (b ? (LANG === 'de' ? 'enthält ' : 'holds ') + (self._tileById(b) || {}).value : (LANG === 'de' ? 'leerer Platz – tippe, um eine Zahl zu legen oder das Rätsel zu markieren' : 'empty spot — tap to place a number or mark the mystery')));
+        slot.setAttribute('aria-label', b === '?' ? (LANG === 'de' ? 'Rätselplatz' : (LANG === 'fr' ? 'place mystère' : 'mystery spot')) : (b ? (LANG === 'de' ? 'enthält ' : (LANG === 'fr' ? 'contient ' : 'holds ')) + (self._tileById(b) || {}).value : (LANG === 'de' ? 'leerer Platz – tippe, um eine Zahl zu legen oder das Rätsel zu markieren' : (LANG === 'fr' ? 'place vide — touche pour poser un nombre ou marquer le mystère' : 'empty spot — tap to place a number or mark the mystery'))));
         if (!self.solved) slot.addEventListener('click', function () { self._tapSlot(role); });
         cell.appendChild(slot);
         if (opGlyph) { var g = api.el('span', 'vd-op'); g.textContent = opGlyph; g.setAttribute('aria-hidden', 'true'); cell.insertBefore(g, cell.firstChild); }
@@ -199,7 +199,7 @@
       var slot = api.el('button', 'vd-slot vd-barslot' + (b === '?' ? ' vd-unknown' : (b ? ' vd-filled' : ' vd-empty')));
       slot.type = 'button'; slot.setAttribute('data-role', role);
       slot.textContent = b === '?' ? '?' : (b ? ((this._tileById(b) || {}).value) : '');
-      slot.setAttribute('aria-label', b === '?' ? (LANG === 'de' ? 'Rätselplatz' : 'mystery spot') : (b ? (LANG === 'de' ? 'enthält ' : 'holds ') + ((this._tileById(b) || {}).value) : (LANG === 'de' ? 'leerer Platz' : 'empty spot')));
+      slot.setAttribute('aria-label', b === '?' ? (LANG === 'de' ? 'Rätselplatz' : (LANG === 'fr' ? 'place mystère' : 'mystery spot')) : (b ? (LANG === 'de' ? 'enthält ' : (LANG === 'fr' ? 'contient ' : 'holds ')) + ((this._tileById(b) || {}).value) : (LANG === 'de' ? 'leerer Platz' : (LANG === 'fr' ? 'place vide' : 'empty spot'))));
       if (!this.solved) slot.addEventListener('click', function () { self._tapSlot(role); });
       row.appendChild(track); row.appendChild(slot);
       return row;
@@ -217,7 +217,7 @@
         var sel = (self._selected === id);
         var b = api.el('button', 'vd-tile' + (sel ? ' vd-sel' : '')); b.type = 'button'; b.setAttribute('data-id', id);
         b.textContent = t.value;
-        b.setAttribute('aria-label', (LANG === 'de' ? 'Zahl ' : 'number ') + t.value);
+        b.setAttribute('aria-label', (LANG === 'de' ? 'Zahl ' : (LANG === 'fr' ? 'nombre ' : 'number ')) + t.value);
         b.addEventListener('click', function () { self._tapTile(id); });
         tray.appendChild(b);
       });
@@ -236,7 +236,7 @@
       if (r.diagram === 'change') eq = val('start') + ' ' + (r.op === 'sub' ? '−' : '+') + ' ' + val('change') + ' = ' + val('result');
       else if (r.diagram === 'bracket') eq = val('partA') + ' + ' + val('partB') + ' = ' + val('whole');
       else eq = val('smaller') + ' + ' + val('difference') + ' = ' + val('bigger');   /* compare: smaller + difference = bigger */
-      var box = api.el('div', 'vd-recap'); box.textContent = eq; box.setAttribute('aria-label', (LANG === 'de' ? 'dein Modell: ' : 'your model: ') + eq);
+      var box = api.el('div', 'vd-recap'); box.textContent = eq; box.setAttribute('aria-label', (LANG === 'de' ? 'dein Modell: ' : (LANG === 'fr' ? 'ton modèle : ' : 'your model: ')) + eq);
       parent.appendChild(box);
     },
 

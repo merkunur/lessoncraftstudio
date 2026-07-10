@@ -3794,6 +3794,27 @@
         "Connaître les compléments à 10",
         "Comprendre qu'un nombre a plusieurs décompositions"
       ]
+    },
+    "vet-diagnosis.word-problems.1-oa-a-1": {
+      "about": [
+        "Un petit animal timide arrive à la clinique vétérinaire de la forêt, et son symptôme est une histoire de nombres. La radio met en scène ce qui s'est passé — mais l'inconnue est masquée, on ne peut pas la compter sur l'image. Ton enfant modélise l'histoire : il place chaque quantité à sa place, marque la partie mystère, laisse le nombre-piège dans le plateau, puis compose la réponse. La radio s'éclaircit et le patient guérit !",
+        "Additionner et soustraire jusqu'à 20 pour résoudre des problèmes où l'inconnue peut être n'importe où — le résultat, la transformation, l'état initial, ou une comparaison « combien de plus » — sont des attendus du CE1. Le jeu est gratuit, sans minuteur et sans points : l'enfant travaille le sens de l'addition et de la soustraction, dans le domaine « Nombres et calcul » des programmes officiels de l'école."
+      ],
+      "practices": [
+        "Résoudre des problèmes additifs et soustractifs jusqu'à 20",
+        "Modéliser un problème avant de calculer",
+        "Trouver l'inconnue quelle que soit sa position",
+        "Comparer deux quantités (combien de plus)"
+      ],
+      "howToPlay": [
+        "Écoute l'histoire, puis place chaque nombre à sa place et marque le mystère.",
+        "Compose la réponse pour éclaircir la radio et soigner le patient."
+      ],
+      "learningGoals": [
+        "Résoudre des problèmes additifs et soustractifs jusqu'à 20",
+        "Trouver l'inconnue en n'importe quelle position",
+        "Modéliser un problème avant de le résoudre"
+      ]
     }
   }
 }

@@ -1,0 +1,148 @@
+{
+  "storyId": "shellys-seashells",
+  "generatedAt": "2026-07-10T09:00:32.770Z",
+  "pageCount": 8,
+  "totalBytes": 903168,
+  "files": [
+    {
+      "path": "art-manifest.json",
+      "bytes": 1047,
+      "sha1": "fcf520fbf1d2bf5571807a894b149d4ed0d3d2a0"
+    },
+    {
+      "path": "audio/en/README.txt",
+      "bytes": 232,
+      "sha1": "323cc0efb5c4349546c48e787ac8962060e884ce"
+    },
+    {
+      "path": "blueprint.json",
+      "bytes": 15515,
+      "sha1": "1db0d17d7a003bff73e83e2d9ff774c5aafd5721"
+    },
+    {
+      "path": "cast/pip/pip.base.json",
+      "bytes": 1924,
+      "sha1": "4ed1a2799e52a7b8d12d33cab7d84b85344b36a9"
+    },
+    {
+      "path": "cast/pip/pip.base.webp",
+      "bytes": 153354,
+      "sha1": "ae96744d8ad6ae8a525cb5125a858640725cc0f6"
+    },
+    {
+      "path": "cast/pip/pip.clips-1.json",
+      "bytes": 2016,
+      "sha1": "f15a888960828de3054322f5b8db75a2229cb995"
+    },
+    {
+      "path": "cast/pip/pip.clips-1.webp",
+      "bytes": 139374,
+      "sha1": "c35b51c2ae9b3c56bdd91c536c8175fa885bf70e"
+    },
+    {
+      "path": "cast/pip/pip.clips.json",
+      "bytes": 3225,
+      "sha1": "0bd1a4a01724a212b89a5f3db41fa62db81c11b5"
+    },
+    {
+      "path": "cast/pip/pip.clips.webp",
+      "bytes": 245890,
+      "sha1": "9a3e576ff9edb8ab8767d1035cbc6dd209685041"
+    },
+    {
+      "path": "cast/shelly/shelly.base.json",
+      "bytes": 1590,
+      "sha1": "6e46ba80021586edd6321708221ec8ffe9e35d35"
+    },
+    {
+      "path": "cast/shelly/shelly.base.webp",
+      "bytes": 102230,
+      "sha1": "e0461815fecd4996ac9919a2bf3449e9d87f92cb"
+    },
+    {
+      "path": "library-meta.json",
+      "bytes": 924,
+      "sha1": "7e2152a1332215a8c2a207ef148c8890d6bcb9f4"
+    },
+    {
+      "path": "props/bigshell@2x.webp",
+      "bytes": 17284,
+      "sha1": "e56f44b49df98b62f235330a8ab0e873736c6e90"
+    },
+    {
+      "path": "props/pail@2x.webp",
+      "bytes": 6594,
+      "sha1": "d8791aca1b8763d53341bdc15daa6f6855d9012d"
+    },
+    {
+      "path": "props/pearl@2x.webp",
+      "bytes": 6050,
+      "sha1": "117f4b58ed58d8e65dfd9c8b5c100d1b8e378573"
+    },
+    {
+      "path": "props/pebble@2x.webp",
+      "bytes": 4446,
+      "sha1": "8875318205fa8adf5a49388567054cff981df4da"
+    },
+    {
+      "path": "props/shell@2x.webp",
+      "bytes": 7746,
+      "sha1": "5bc99392f7fc2040be1a1b49e12cee4883576884"
+    },
+    {
+      "path": "props/starfish@2x.webp",
+      "bytes": 6088,
+      "sha1": "22408fe86346410899e7548e9116fbc6a54ccc17"
+    },
+    {
+      "path": "scenes/page-01.webp",
+      "bytes": 20984,
+      "sha1": "7d4c40bf79b2df077017677385e74d6cf9d164b1"
+    },
+    {
+      "path": "scenes/page-02.webp",
+      "bytes": 20870,
+      "sha1": "454f01eb297a71c34a908309b552ebf9c363c5c5"
+    },
+    {
+      "path": "scenes/page-03.webp",
+      "bytes": 20940,
+      "sha1": "bc0586a1d45199f12f2b123f79569d8eeb7b6897"
+    },
+    {
+      "path": "scenes/page-04.webp",
+      "bytes": 20784,
+      "sha1": "733c78e94f0637d1f27d9a4488b31254d5704dc2"
+    },
+    {
+      "path": "scenes/page-05.webp",
+      "bytes": 20732,
+      "sha1": "24ab86a24facda5f6f223979b5ecd6762ac65f41"
+    },
+    {
+      "path": "scenes/page-06.webp",
+      "bytes": 20686,
+      "sha1": "939ae05e7fd2fe0dc013ad95cc5ca5cfea8691b9"
+    },
+    {
+      "path": "scenes/page-07.webp",
+      "bytes": 20758,
+      "sha1": "39b156e4c73c2135fae9d1f87055359f138eb334"
+    },
+    {
+      "path": "scenes/page-08.webp",
+      "bytes": 21558,
+      "sha1": "4d777919a815d03efccc435fb60f2387c38c41de"
+    },
+    {
+      "path": "story.json",
+      "bytes": 15633,
+      "sha1": "1ee46ac0a5857e5a755041487e682e8e91ab1cd4"
+    },
+    {
+      "path": "strings.json",
+      "bytes": 4694,
+      "sha1": "06335134084bb63a6e665a152c3318f82e695c30"
+    }
+  ]
+}

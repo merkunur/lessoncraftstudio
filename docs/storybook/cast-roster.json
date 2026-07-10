@@ -1,0 +1,8 @@
+{
+  "$schema_version": "roster-1",
+  "purpose": "Machine twin of cast-bible.md for gate-library.js roster-consistency. Every character a story casts must have a row here (and a cast-bible entry). role: guide = recurring host (exactly one per story); companion = per-story friend (may recur).",
+  "characters": [
+    { "id": "pip", "role": "guide", "species": "small round fox", "debut": "pips-picnic", "notes": "The platform's primary host and brand face. Final wsv-1 art debuts in shellys-seashells." },
+    { "id": "shelly", "role": "companion", "species": "small hermit crab", "debut": "shellys-seashells", "notes": "Cheerful, a little shy; moving into a new shell home." }
+  ]
+}

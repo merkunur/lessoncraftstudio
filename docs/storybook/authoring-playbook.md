@@ -43,11 +43,17 @@ Help-a-friend around an absent friend.
 
 | Grade | Age | Pages | Narration: max words/line · max lines/page | Sentence shape | Vocab ceiling |
 |---|---|---|---|---|---|
-| **PK** | 3-4 | **3–4** | **6 words** · 1 line | one clause, present tense, concrete noun | pre-reader: spoken-only, picture-carried |
-| **K** | 5-6 | **4–5** | **8 words** · 2 lines | one simple sentence | high-frequency + the target word |
-| **1** | 6-7 | **5–6** | **12 words** · 2 lines | one sentence, may have "and"/"because" | decodable + 1–2 new nouns |
-| **2** | 7-8 | **6–8** | **16 words** · 3 lines | up to two sentences | grade-appropriate; define new terms in-line |
-| **3** | 8-9 | **6–8** | **20 words** · 3 lines | two sentences, one subordinate clause OK | richer; still concrete-first |
+| **PK** | 3-4 | **7–10** | **6 words** · 1 line | one clause, present tense, concrete noun | pre-reader: spoken-only, picture-carried |
+| **K** | 5-6 | **7–10** | **8 words** · 2 lines | one simple sentence | high-frequency + the target word |
+| **1** | 6-7 | **7–10** | **12 words** · 2 lines | one sentence, may have "and"/"because" | decodable + 1–2 new nouns |
+| **2** | 7-8 | **7–10** | **16 words** · 3 lines | up to two sentences | grade-appropriate; define new terms in-line |
+| **3** | 8-9 | **7–10** | **20 words** · 3 lines | two sentences, one subordinate clause OK | richer; still concrete-first |
+
+> **Page band [7–10] for ALL grades** — the 250-story Interactive Story Library standard
+> (operator-ruled 2026-07-10; supersedes the earlier per-grade 3-4/4-5/5-6/6-8 bands). PK/K
+> stories stay within attention span through *tiny, forgiving, repetitive steps per page* —
+> one simple mechanic mastered gently — not through fewer pages. Pre-library fixtures
+> (pips-picnic, pip-counts-along, pk-*) predate this band and are exempt from re-gating.
 
 - **One teaching point per story** (not per page). Every page's interaction reinforces the SAME point
   at slightly increasing challenge (see §4 difficulty ladder). A story that teaches two points is two

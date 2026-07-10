@@ -123,33 +123,6 @@ export default function WorkspaceClient({ locale }: { locale: string }) {
         </section>
       )}
 
-      {/* Story Studio entry — ADMIN-ONLY while the product ships dark
-          (§7 no-subscription-marketing lock holds for everyone else;
-          at the PRICING_PUBLIC flip this becomes subscriber-visible). */}
-      {user.isAdmin && (
-        <section className="mb-10">
-          <Link
-            href={`/${locale}/studio`}
-            className="block rounded-lg border-2 border-teal-700/20 bg-cream-50 px-6 py-5 hover:border-terracotta-400 transition group"
-          >
-            <div className="flex items-center justify-between gap-4">
-              <div>
-                <h2 className="font-display text-xl font-semibold text-ink-900 mb-1">
-                  🎬 Story Studio
-                </h2>
-                <p className="text-ink-700 text-sm">
-                  Create interactive read-along stories — characters, narration, and
-                  activities from every worksheet maker.
-                </p>
-              </div>
-              <span className="shrink-0 text-terracotta-500 font-semibold group-hover:translate-x-1 transition">
-                →
-              </span>
-            </div>
-          </Link>
-        </section>
-      )}
-
       {error && <p className="text-terracotta-500 mb-4">{error}</p>}
 
       {loading && payload === null && <p className="text-ink-500">{t('loading')}</p>}

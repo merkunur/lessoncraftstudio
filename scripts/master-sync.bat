@@ -178,12 +178,17 @@ for %%f in ("mini tools\*.js") do (
 )
 echo   Copied %COPIED% files to frontend\public\mini-tools
 
-REM Storybook stories: recursive subtree (story.json/strings.json + packed
-REM assets live under "mini tools\stories\<id>\" - the one nested dir we ship)
-if exist "mini tools\stories" (
-    xcopy /E /I /Y /Q "mini tools\stories" "frontend\public\mini-tools\stories" >nul 2>&1
-    echo   Synced mini tools\stories\ subtree
-)
+REM Storybook project ABANDONED (operator 2026-07-11): the stories-subtree sync
+REM is REMOVED (it would spread ~22 undeployed library stories toward production)
+REM and any storybook/studio runtime files the loops above copied are purged.
+del /Q "frontend\public\mini-tools\storybook*.html" >nul 2>&1
+del /Q "frontend\public\mini-tools\storybook*.js" >nul 2>&1
+del /Q "frontend\public\mini-tools\storybook*.json" >nul 2>&1
+del /Q "frontend\public\mini-tools\sb-*.js" >nul 2>&1
+del /Q "frontend\public\mini-tools\studio-*.js" >nul 2>&1
+del /Q "frontend\public\mini-tools\studio-*.json" >nul 2>&1
+if exist "frontend\public\mini-tools\stories" rmdir /S /Q "frontend\public\mini-tools\stories" >nul 2>&1
+echo   Storybook runtime excluded from sync (project abandoned 2026-07-11)
 echo.
 
 :skip_mini_tools

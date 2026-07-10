@@ -153,6 +153,11 @@ function isRemovedRoute(pathname: string): boolean {
   if (pathname === '/worksheets' || pathname.startsWith('/worksheets/')) return true;
   if (pathname.startsWith('/buy')) return true;
 
+  // Storybook project abandoned (operator 2026-07-11): the ONE indexed
+  // storybook surface 410s for fast deindexing (manifest deregistered in
+  // frontend/lib/activities.ts — the page would 404 anyway; 410 is faster).
+  if (/^\/[a-z]{2}\/activities\/pips-picnic-interactive-storybook\/?$/.test(pathname)) return true;
+
   return false;
 }
 

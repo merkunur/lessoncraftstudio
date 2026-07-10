@@ -49,6 +49,11 @@ Help-a-friend around an absent friend.
 | **2** | 7-8 | **7–10** | **16 words** · 3 lines | up to two sentences | grade-appropriate; define new terms in-line |
 | **3** | 8-9 | **7–10** | **20 words** · 3 lines | two sentences, one subordinate clause OK | richer; still concrete-first |
 
+> **Per-story number-ceiling override.** Commission teaching points whose number space
+> exceeds a grade's default ceiling (e.g. PK "Count objects 1–10") declare
+> `numberCeilOverride: { value, reason }` in the blueprint — explicit, justified, capped at
+> 10 for PK, and surfaced as a gate WARN. The default ceiling protects every other story.
+
 > **Page band [7–10] for ALL grades** — the 250-story Interactive Story Library standard
 > (operator-ruled 2026-07-10; supersedes the earlier per-grade 3-4/4-5/5-6/6-8 bands). PK/K
 > stories stay within attention span through *tiny, forgiving, repetitive steps per page* —

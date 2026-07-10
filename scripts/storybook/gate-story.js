@@ -106,6 +106,25 @@ function runGates(storyId, opts) {
   if (grade && !GRADE_ENV[grade]) { add('grade', 'WARN', `unknown grade "${grade}" — grade-band gates skipped`); grade = null; }
   const env = grade ? GRADE_ENV[grade] : null;
 
+  /* ---- per-story number-ceiling override (250-library commission support) ----
+     The commission lists PK teaching points whose number space exceeds the default
+     readiness cap (e.g. lib-p02-01 "Count objects 1-10"). A blueprint may declare
+     numberCeilOverride: { value, reason } — explicit, justified, capped at 10 for
+     PK (the commission's PK maximum), and surfaced as a WARN so every use is
+     visible. The default env ceiling is unchanged for stories without one. */
+  let numberCeil = env ? env.numberCeil : null;
+  const nco = blueprint && blueprint.numberCeilOverride;
+  if (nco && env) {
+    if (typeof nco.value !== 'number' || !nco.reason || !String(nco.reason).trim()) {
+      add('number-ceiling-override', 'HARD', 'numberCeilOverride needs { value:number, reason:non-empty } — the override must be justified');
+    } else if (grade === 'PK' && nco.value > 10) {
+      add('number-ceiling-override', 'HARD', `PK override ${nco.value} > 10 — the commission's PK maximum is 10`);
+    } else {
+      numberCeil = nco.value;
+      add('number-ceiling-override', 'WARN', `number ceiling ${env.numberCeil} → ${nco.value} for this story (${nco.reason})`);
+    }
+  }
+
   // ================= BLUEPRINT gates =================
   if (blueprint) {
     const tp = blueprint.teachingPoint;
@@ -188,11 +207,11 @@ function runGates(storyId, opts) {
         if (typeof td.target === 'number' && typeof td.total === 'number' && (td.target < 1 || td.target >= td.total)) add('single-answer', 'HARD', `page ${pn} count-tap: target ${td.target} must be 1..total-1 (${td.total})`);
       }
 
-      // number-ceiling (child-facing quantities in taskData)
+      // number-ceiling (child-facing quantities in taskData; per-story override-aware)
       if (env) {
         const nums = []; collectNumbers(td, 'taskData', nums);
-        const over = nums.filter((n) => n.value > env.numberCeil);
-        if (over.length) { const worst = over.sort((a, b) => b.value - a.value)[0]; add('number-ceiling', env.numberSev, `page ${pn} ${mt}: quantity ${worst.value} (field "${worst.key}") exceeds grade ${grade} ceiling ${env.numberCeil} (playbook §4)`); }
+        const over = nums.filter((n) => n.value > numberCeil);
+        if (over.length) { const worst = over.sort((a, b) => b.value - a.value)[0]; add('number-ceiling', env.numberSev, `page ${pn} ${mt}: quantity ${worst.value} (field "${worst.key}") exceeds grade ${grade} ceiling ${numberCeil} (playbook §4)`); }
       }
 
       // SEP consistency (worksheet-exercise pages)

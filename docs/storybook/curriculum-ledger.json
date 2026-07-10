@@ -5,80 +5,166 @@
   "labelRule": "label is the CHILD-NEUTRAL name (what the child does), never the standard text.",
   "modulesRef": "docs/storybook/authoring-playbook.md section 5 (mechanic-selection).",
   "grades": {
-    "PK": {
-      "age": "3-4",
-      "readinessOnly": true,
-      "note": "No CCSS below Kindergarten; every PK point is readiness. cssCode MUST be null.",
-      "targetShare": 200,
-      "sequences": {
-        "early-math-readiness": [
-          { "id": "pk-count-to-5", "label": "Count things up to 5", "cssCode": null, "strand": "Number readiness", "suggestedModules": ["sb-count-tap", "sb-choice-board"], "storySlots": 20, "shipped": 0, "status": "open" },
-          { "id": "pk-one-to-one", "label": "Touch each one as you count", "cssCode": null, "strand": "Number readiness", "suggestedModules": ["sb-count-tap"], "storySlots": 14, "shipped": 0, "status": "open" },
-          { "id": "pk-more-fewer", "label": "Which has more?", "cssCode": null, "strand": "Number readiness", "suggestedModules": ["sb-choice-board"], "storySlots": 12, "shipped": 0, "status": "open" },
-          { "id": "pk-sort-by-attribute", "label": "Put the same ones together", "cssCode": null, "strand": "Sorting readiness", "suggestedModules": ["sb-sort-bins", "sb-choice-board"], "storySlots": 14, "shipped": 0, "status": "open" },
-          { "id": "pk-simple-pattern", "label": "What comes next? (AB)", "cssCode": null, "strand": "Pattern readiness", "suggestedModules": ["sb-pattern"], "storySlots": 12, "shipped": 0, "status": "open" },
-          { "id": "pk-match-same", "label": "Find the ones that match", "cssCode": null, "strand": "Matching readiness", "suggestedModules": ["sb-memory", "sb-choice-board"], "storySlots": 12, "shipped": 0, "status": "open" },
-          { "id": "pk-shapes", "label": "Find the circle / square", "cssCode": null, "strand": "Shape readiness", "suggestedModules": ["sb-choice-board", "sb-find-object"], "storySlots": 12, "shipped": 0, "status": "open" }
-        ],
-        "early-literacy-readiness": [
-          { "id": "pk-listen-name-it", "label": "Listen, then find the picture", "cssCode": null, "strand": "Listening readiness", "suggestedModules": ["sb-listen"], "storySlots": 20, "shipped": 0, "status": "open" },
-          { "id": "pk-find-in-picture", "label": "Find things in the picture", "cssCode": null, "strand": "Print/visual readiness", "suggestedModules": ["sb-find-object"], "storySlots": 20, "shipped": 0, "status": "open" },
-          { "id": "pk-first-sound", "label": "What sound does it start with?", "cssCode": null, "strand": "Phonological readiness", "suggestedModules": ["sb-listen", "sb-choice-board"], "storySlots": 16, "shipped": 0, "status": "open" },
-          { "id": "pk-recognize-letters", "label": "Find the letter", "cssCode": null, "strand": "Letter readiness", "suggestedModules": ["sb-choice-board"], "storySlots": 22, "shipped": 0, "status": "open" }
-        ]
-      }
-    },
-    "K": {
-      "age": "5-6",
-      "readinessOnly": false,
-      "targetShare": 200,
-      "sequences": {
-        "counting-cardinality": [
-          { "id": "k-count-to-10", "label": "Count to 10", "cssCode": "K.CC.B.4", "strand": "Counting & Cardinality", "suggestedModules": ["sb-count-tap", "sb-choice-board"], "storySlots": 16, "shipped": 0, "status": "open" },
-          { "id": "k-count-out-n", "label": "Give me exactly N", "cssCode": "K.CC.B.5", "strand": "Counting & Cardinality", "suggestedModules": ["sb-count-tap"], "storySlots": 14, "shipped": 0, "status": "open" },
-          { "id": "k-compare-numbers", "label": "Which group has more?", "cssCode": "K.CC.C.6", "strand": "Counting & Cardinality", "suggestedModules": ["sb-choice-board"], "storySlots": 12, "shipped": 0, "status": "open" },
-          { "id": "k-order-numbers", "label": "Put numbers in order", "cssCode": "K.CC.C.7", "strand": "Counting & Cardinality", "suggestedModules": ["sb-sequence", "sb-connect-dots"], "storySlots": 10, "shipped": 0, "status": "open" }
-        ],
-        "operations": [
-          { "id": "k-make-n", "label": "Two parts make N", "cssCode": "K.OA.A.3", "strand": "Operations & Algebraic Thinking", "suggestedModules": ["sb-match-pairs", "sb-number-bond"], "storySlots": 14, "shipped": 0, "status": "open" },
-          { "id": "k-make-10", "label": "Make 10", "cssCode": "K.OA.A.4", "strand": "Operations & Algebraic Thinking", "suggestedModules": ["sb-number-bond"], "storySlots": 12, "shipped": 0, "status": "open" }
-        ],
-        "geometry-measurement": [
-          { "id": "k-name-shapes", "label": "Name the shape", "cssCode": "K.G.A.2", "strand": "Geometry", "suggestedModules": ["sb-choice-board"], "storySlots": 12, "shipped": 0, "status": "open" },
-          { "id": "k-compare-length", "label": "Which is longer?", "cssCode": "K.MD.A.2", "strand": "Measurement & Data", "suggestedModules": ["sb-choice-board"], "storySlots": 10, "shipped": 0, "status": "open" },
-          { "id": "k-sort-count", "label": "Sort, then count each group", "cssCode": "K.MD.B.3", "strand": "Measurement & Data", "suggestedModules": ["sb-sort-bins", "sb-choice-board"], "storySlots": 10, "shipped": 0, "status": "open" }
-        ],
-        "reading-foundations": [
-          { "id": "k-letter-sound", "label": "Match letter to its sound", "cssCode": "RF.K.3.a", "strand": "Reading: Foundational Skills", "suggestedModules": ["sb-choice-board", "sb-listen"], "storySlots": 20, "shipped": 0, "status": "open" },
-          { "id": "k-first-sound", "label": "First sound in the word", "cssCode": "RF.K.2.d", "strand": "Reading: Foundational Skills", "suggestedModules": ["sb-listen", "sb-choice-board"], "storySlots": 16, "shipped": 0, "status": "open" },
-          { "id": "k-build-cvc", "label": "Build the CVC word", "cssCode": "RF.K.3", "strand": "Reading: Foundational Skills", "suggestedModules": ["sb-cvc-builder"], "storySlots": 18, "shipped": 0, "status": "open", "phonicsSafe": true }
-        ]
-      }
-    },
     "1": {
       "age": "6-7",
       "readinessOnly": false,
       "targetShare": 200,
       "sequences": {
         "operations": [
-          { "id": "g1-add-within-20", "label": "Add within 20", "cssCode": "1.OA.C.6", "strand": "Operations & Algebraic Thinking", "suggestedModules": ["sb-worksheet-exercise", "sb-match-pairs"], "storySlots": 18, "shipped": 0, "status": "open" },
-          { "id": "g1-sub-within-20", "label": "Subtract within 20", "cssCode": "1.OA.C.6", "strand": "Operations & Algebraic Thinking", "suggestedModules": ["sb-worksheet-exercise"], "storySlots": 16, "shipped": 0, "status": "open" },
-          { "id": "g1-missing-number", "label": "Find the missing number", "cssCode": "1.OA.D.8", "strand": "Operations & Algebraic Thinking", "suggestedModules": ["sb-match-pairs"], "storySlots": 12, "shipped": 0, "status": "open" },
-          { "id": "g1-equal-sign", "label": "Both sides are equal", "cssCode": "1.OA.D.7", "strand": "Operations & Algebraic Thinking", "suggestedModules": ["sb-match-pairs"], "storySlots": 10, "shipped": 0, "status": "open" }
+          {
+            "id": "g1-add-within-20",
+            "label": "Add within 20",
+            "cssCode": "1.OA.C.6",
+            "strand": "Operations & Algebraic Thinking",
+            "suggestedModules": [
+              "sb-worksheet-exercise",
+              "sb-match-pairs"
+            ],
+            "storySlots": 18,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "g1-sub-within-20",
+            "label": "Subtract within 20",
+            "cssCode": "1.OA.C.6",
+            "strand": "Operations & Algebraic Thinking",
+            "suggestedModules": [
+              "sb-worksheet-exercise"
+            ],
+            "storySlots": 16,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "g1-missing-number",
+            "label": "Find the missing number",
+            "cssCode": "1.OA.D.8",
+            "strand": "Operations & Algebraic Thinking",
+            "suggestedModules": [
+              "sb-match-pairs"
+            ],
+            "storySlots": 12,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "g1-equal-sign",
+            "label": "Both sides are equal",
+            "cssCode": "1.OA.D.7",
+            "strand": "Operations & Algebraic Thinking",
+            "suggestedModules": [
+              "sb-match-pairs"
+            ],
+            "storySlots": 10,
+            "shipped": 0,
+            "status": "open"
+          }
         ],
         "number-base-ten": [
-          { "id": "g1-tens-ones", "label": "Tens and ones", "cssCode": "1.NBT.B.2", "strand": "Number & Operations in Base Ten", "suggestedModules": ["sb-worksheet-exercise"], "storySlots": 14, "shipped": 0, "status": "open" },
-          { "id": "g1-make-a-ten", "label": "Make a ten (regroup)", "cssCode": "1.NBT.C.4", "strand": "Number & Operations in Base Ten", "suggestedModules": ["sb-worksheet-exercise"], "storySlots": 12, "shipped": 0, "status": "open" }
+          {
+            "id": "g1-tens-ones",
+            "label": "Tens and ones",
+            "cssCode": "1.NBT.B.2",
+            "strand": "Number & Operations in Base Ten",
+            "suggestedModules": [
+              "sb-worksheet-exercise"
+            ],
+            "storySlots": 14,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "g1-make-a-ten",
+            "label": "Make a ten (regroup)",
+            "cssCode": "1.NBT.C.4",
+            "strand": "Number & Operations in Base Ten",
+            "suggestedModules": [
+              "sb-worksheet-exercise"
+            ],
+            "storySlots": 12,
+            "shipped": 0,
+            "status": "open"
+          }
         ],
         "geometry-measurement": [
-          { "id": "g1-halves-fourths", "label": "Equal halves and fourths", "cssCode": "1.G.A.3", "strand": "Geometry", "suggestedModules": ["sb-fractions", "sb-choice-board"], "storySlots": 12, "shipped": 0, "status": "open" },
-          { "id": "g1-defining-attributes", "label": "What makes it that shape?", "cssCode": "1.G.A.1", "strand": "Geometry", "suggestedModules": ["sb-sort-bins", "sb-choice-board"], "storySlots": 10, "shipped": 0, "status": "open" },
-          { "id": "g1-tell-time-hour-half", "label": "Tell time to the hour and half-hour", "cssCode": "1.MD.B.3", "strand": "Measurement & Data", "suggestedModules": ["sb-clock"], "storySlots": 12, "shipped": 0, "status": "open" }
+          {
+            "id": "g1-halves-fourths",
+            "label": "Equal halves and fourths",
+            "cssCode": "1.G.A.3",
+            "strand": "Geometry",
+            "suggestedModules": [
+              "sb-fractions",
+              "sb-choice-board"
+            ],
+            "storySlots": 12,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "g1-defining-attributes",
+            "label": "What makes it that shape?",
+            "cssCode": "1.G.A.1",
+            "strand": "Geometry",
+            "suggestedModules": [
+              "sb-sort-bins",
+              "sb-choice-board"
+            ],
+            "storySlots": 10,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "g1-tell-time-hour-half",
+            "label": "Tell time to the hour and half-hour",
+            "cssCode": "1.MD.B.3",
+            "strand": "Measurement & Data",
+            "suggestedModules": [
+              "sb-clock"
+            ],
+            "storySlots": 12,
+            "shipped": 0,
+            "status": "open"
+          }
         ],
         "reading-language": [
-          { "id": "g1-build-syllables", "label": "Build the word from chunks", "cssCode": "RF.1.3", "strand": "Reading: Foundational Skills", "suggestedModules": ["sb-word-builder"], "storySlots": 18, "shipped": 0, "status": "open", "phonicsSafe": true },
-          { "id": "g1-verb-tense", "label": "Past, present, future", "cssCode": "L.1.1.e", "strand": "Language", "suggestedModules": ["sb-choice-board"], "storySlots": 12, "shipped": 0, "status": "open" },
-          { "id": "g1-build-sentence", "label": "Put the words in order", "cssCode": "L.1.1.j", "strand": "Language", "suggestedModules": ["sb-worksheet-exercise"], "storySlots": 12, "shipped": 0, "status": "open" }
+          {
+            "id": "g1-build-syllables",
+            "label": "Build the word from chunks",
+            "cssCode": "RF.1.3",
+            "strand": "Reading: Foundational Skills",
+            "suggestedModules": [
+              "sb-word-builder"
+            ],
+            "storySlots": 18,
+            "shipped": 0,
+            "status": "open",
+            "phonicsSafe": true
+          },
+          {
+            "id": "g1-verb-tense",
+            "label": "Past, present, future",
+            "cssCode": "L.1.1.e",
+            "strand": "Language",
+            "suggestedModules": [
+              "sb-choice-board"
+            ],
+            "storySlots": 12,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "g1-build-sentence",
+            "label": "Put the words in order",
+            "cssCode": "L.1.1.j",
+            "strand": "Language",
+            "suggestedModules": [
+              "sb-worksheet-exercise"
+            ],
+            "storySlots": 12,
+            "shipped": 0,
+            "status": "open"
+          }
         ]
       }
     },
@@ -88,25 +174,169 @@
       "targetShare": 200,
       "sequences": {
         "operations": [
-          { "id": "g2-fluency-within-20", "label": "Add and subtract within 20 fluently", "cssCode": "2.OA.B.2", "strand": "Operations & Algebraic Thinking", "suggestedModules": ["sb-worksheet-exercise"], "storySlots": 16, "shipped": 0, "status": "open" },
-          { "id": "g2-odd-even", "label": "Odd and even", "cssCode": "2.OA.C.3", "strand": "Operations & Algebraic Thinking", "suggestedModules": ["sb-choice-board"], "storySlots": 10, "shipped": 0, "status": "open" },
-          { "id": "g2-arrays", "label": "Build an array", "cssCode": "2.OA.C.4", "strand": "Operations & Algebraic Thinking", "suggestedModules": ["sb-worksheet-exercise"], "storySlots": 10, "shipped": 0, "status": "open" }
+          {
+            "id": "g2-fluency-within-20",
+            "label": "Add and subtract within 20 fluently",
+            "cssCode": "2.OA.B.2",
+            "strand": "Operations & Algebraic Thinking",
+            "suggestedModules": [
+              "sb-worksheet-exercise"
+            ],
+            "storySlots": 16,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "g2-odd-even",
+            "label": "Odd and even",
+            "cssCode": "2.OA.C.3",
+            "strand": "Operations & Algebraic Thinking",
+            "suggestedModules": [
+              "sb-choice-board"
+            ],
+            "storySlots": 10,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "g2-arrays",
+            "label": "Build an array",
+            "cssCode": "2.OA.C.4",
+            "strand": "Operations & Algebraic Thinking",
+            "suggestedModules": [
+              "sb-worksheet-exercise"
+            ],
+            "storySlots": 10,
+            "shipped": 0,
+            "status": "open"
+          }
         ],
         "number-base-ten": [
-          { "id": "g2-hundreds-tens-ones", "label": "Hundreds, tens, and ones", "cssCode": "2.NBT.A.1", "strand": "Number & Operations in Base Ten", "suggestedModules": ["sb-worksheet-exercise"], "storySlots": 14, "shipped": 0, "status": "open" },
-          { "id": "g2-expanded-form", "label": "Expanded form", "cssCode": "2.NBT.A.3", "strand": "Number & Operations in Base Ten", "suggestedModules": ["sb-match-pairs"], "storySlots": 12, "shipped": 0, "status": "open" },
-          { "id": "g2-compare-3digit", "label": "Compare three-digit numbers", "cssCode": "2.NBT.A.4", "strand": "Number & Operations in Base Ten", "suggestedModules": ["sb-match-pairs"], "storySlots": 10, "shipped": 0, "status": "open" },
-          { "id": "g2-regroup", "label": "Add and subtract with regrouping", "cssCode": "2.NBT.B.7", "strand": "Number & Operations in Base Ten", "suggestedModules": ["sb-worksheet-exercise"], "storySlots": 14, "shipped": 0, "status": "open" }
+          {
+            "id": "g2-hundreds-tens-ones",
+            "label": "Hundreds, tens, and ones",
+            "cssCode": "2.NBT.A.1",
+            "strand": "Number & Operations in Base Ten",
+            "suggestedModules": [
+              "sb-worksheet-exercise"
+            ],
+            "storySlots": 14,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "g2-expanded-form",
+            "label": "Expanded form",
+            "cssCode": "2.NBT.A.3",
+            "strand": "Number & Operations in Base Ten",
+            "suggestedModules": [
+              "sb-match-pairs"
+            ],
+            "storySlots": 12,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "g2-compare-3digit",
+            "label": "Compare three-digit numbers",
+            "cssCode": "2.NBT.A.4",
+            "strand": "Number & Operations in Base Ten",
+            "suggestedModules": [
+              "sb-match-pairs"
+            ],
+            "storySlots": 10,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "g2-regroup",
+            "label": "Add and subtract with regrouping",
+            "cssCode": "2.NBT.B.7",
+            "strand": "Number & Operations in Base Ten",
+            "suggestedModules": [
+              "sb-worksheet-exercise"
+            ],
+            "storySlots": 14,
+            "shipped": 0,
+            "status": "open"
+          }
         ],
         "geometry-measurement": [
-          { "id": "g2-same-size-diff-shape", "label": "Same size, different shape", "cssCode": "2.G.A.3", "strand": "Geometry", "suggestedModules": ["sb-choice-board"], "storySlots": 10, "shipped": 0, "status": "open" },
-          { "id": "g2-name-polygons", "label": "Name the shape by its sides", "cssCode": "2.G.A.1", "strand": "Geometry", "suggestedModules": ["sb-sort-bins", "sb-choice-board"], "storySlots": 10, "shipped": 0, "status": "open" },
-          { "id": "g2-time-5min", "label": "Tell time to the nearest 5 minutes", "cssCode": "2.MD.C.7", "strand": "Measurement & Data", "suggestedModules": ["sb-clock"], "storySlots": 12, "shipped": 0, "status": "open" }
+          {
+            "id": "g2-same-size-diff-shape",
+            "label": "Same size, different shape",
+            "cssCode": "2.G.A.3",
+            "strand": "Geometry",
+            "suggestedModules": [
+              "sb-choice-board"
+            ],
+            "storySlots": 10,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "g2-name-polygons",
+            "label": "Name the shape by its sides",
+            "cssCode": "2.G.A.1",
+            "strand": "Geometry",
+            "suggestedModules": [
+              "sb-sort-bins",
+              "sb-choice-board"
+            ],
+            "storySlots": 10,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "g2-time-5min",
+            "label": "Tell time to the nearest 5 minutes",
+            "cssCode": "2.MD.C.7",
+            "strand": "Measurement & Data",
+            "suggestedModules": [
+              "sb-clock"
+            ],
+            "storySlots": 12,
+            "shipped": 0,
+            "status": "open"
+          }
         ],
         "reading-language": [
-          { "id": "g2-main-topic", "label": "Main topic of a text", "cssCode": "RI.2.2", "strand": "Reading: Informational Text", "suggestedModules": ["sb-choice-board"], "storySlots": 12, "shipped": 0, "status": "open" },
-          { "id": "g2-commas-greeting", "label": "Commas in a greeting", "cssCode": "L.2.2.b", "strand": "Language", "suggestedModules": ["sb-choice-board"], "storySlots": 10, "shipped": 0, "status": "open" },
-          { "id": "g2-dictionary-guide-words", "label": "Use guide words", "cssCode": "L.2.4.e", "strand": "Language", "suggestedModules": ["sb-choice-board"], "storySlots": 8, "shipped": 0, "status": "open" }
+          {
+            "id": "g2-main-topic",
+            "label": "Main topic of a text",
+            "cssCode": "RI.2.2",
+            "strand": "Reading: Informational Text",
+            "suggestedModules": [
+              "sb-choice-board"
+            ],
+            "storySlots": 12,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "g2-commas-greeting",
+            "label": "Commas in a greeting",
+            "cssCode": "L.2.2.b",
+            "strand": "Language",
+            "suggestedModules": [
+              "sb-choice-board"
+            ],
+            "storySlots": 10,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "g2-dictionary-guide-words",
+            "label": "Use guide words",
+            "cssCode": "L.2.4.e",
+            "strand": "Language",
+            "suggestedModules": [
+              "sb-choice-board"
+            ],
+            "storySlots": 8,
+            "shipped": 0,
+            "status": "open"
+          }
         ]
       }
     },
@@ -117,25 +347,449 @@
       "note": "Grade 3 sits at the K-3 ceiling; keep quantities/reading gentle. Many G3 math standards (multiplication, area, fractions on a number line) exceed some engines — prefer choice-board/match-pairs/fractions/worksheet-exercise where they honestly instantiate.",
       "sequences": {
         "operations-fractions": [
-          { "id": "g3-multiplication-groups", "label": "Equal groups make it", "cssCode": "3.OA.A.1", "strand": "Operations & Algebraic Thinking", "suggestedModules": ["sb-worksheet-exercise", "sb-choice-board"], "storySlots": 14, "shipped": 0, "status": "open" },
-          { "id": "g3-unit-fractions", "label": "One part of a whole", "cssCode": "3.NF.A.1", "strand": "Number & Operations — Fractions", "suggestedModules": ["sb-fractions", "sb-choice-board"], "storySlots": 14, "shipped": 0, "status": "open" },
-          { "id": "g3-equivalent-fractions", "label": "Same amount, different fraction", "cssCode": "3.NF.A.3", "strand": "Number & Operations — Fractions", "suggestedModules": ["sb-choice-board"], "storySlots": 12, "shipped": 0, "status": "open" }
+          {
+            "id": "g3-multiplication-groups",
+            "label": "Equal groups make it",
+            "cssCode": "3.OA.A.1",
+            "strand": "Operations & Algebraic Thinking",
+            "suggestedModules": [
+              "sb-worksheet-exercise",
+              "sb-choice-board"
+            ],
+            "storySlots": 14,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "g3-unit-fractions",
+            "label": "One part of a whole",
+            "cssCode": "3.NF.A.1",
+            "strand": "Number & Operations — Fractions",
+            "suggestedModules": [
+              "sb-fractions",
+              "sb-choice-board"
+            ],
+            "storySlots": 14,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "g3-equivalent-fractions",
+            "label": "Same amount, different fraction",
+            "cssCode": "3.NF.A.3",
+            "strand": "Number & Operations — Fractions",
+            "suggestedModules": [
+              "sb-choice-board"
+            ],
+            "storySlots": 12,
+            "shipped": 0,
+            "status": "open"
+          }
         ],
         "measurement-data": [
-          { "id": "g3-time-minute", "label": "Tell time to the minute", "cssCode": "3.MD.A.1", "strand": "Measurement & Data", "suggestedModules": ["sb-clock"], "storySlots": 12, "shipped": 0, "status": "open" },
-          { "id": "g3-liquid-volume", "label": "How much does it hold?", "cssCode": "3.MD.A.2", "strand": "Measurement & Data", "suggestedModules": ["sb-choice-board", "sb-sequence"], "storySlots": 10, "shipped": 0, "status": "open" },
-          { "id": "g3-area", "label": "Cover it with squares (area)", "cssCode": "3.MD.C.6", "strand": "Measurement & Data", "suggestedModules": ["sb-worksheet-exercise"], "storySlots": 10, "shipped": 0, "status": "open" }
+          {
+            "id": "g3-time-minute",
+            "label": "Tell time to the minute",
+            "cssCode": "3.MD.A.1",
+            "strand": "Measurement & Data",
+            "suggestedModules": [
+              "sb-clock"
+            ],
+            "storySlots": 12,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "g3-liquid-volume",
+            "label": "How much does it hold?",
+            "cssCode": "3.MD.A.2",
+            "strand": "Measurement & Data",
+            "suggestedModules": [
+              "sb-choice-board",
+              "sb-sequence"
+            ],
+            "storySlots": 10,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "g3-area",
+            "label": "Cover it with squares (area)",
+            "cssCode": "3.MD.C.6",
+            "strand": "Measurement & Data",
+            "suggestedModules": [
+              "sb-worksheet-exercise"
+            ],
+            "storySlots": 10,
+            "shipped": 0,
+            "status": "open"
+          }
         ],
         "reading-language": [
-          { "id": "g3-text-features", "label": "Use text features to find facts", "cssCode": "RI.3.5", "strand": "Reading: Informational Text", "suggestedModules": ["sb-choice-board"], "storySlots": 12, "shipped": 0, "status": "open" },
-          { "id": "g3-opinion-reasons", "label": "Which reason supports the opinion?", "cssCode": "RI.3.8", "strand": "Reading: Informational Text", "suggestedModules": ["sb-choice-board"], "storySlots": 10, "shipped": 0, "status": "open" },
-          { "id": "g3-story-structure", "label": "Beginning, problem, solution", "cssCode": "RL.3.5", "strand": "Reading: Literature", "suggestedModules": ["sb-sequence", "sb-choice-board"], "storySlots": 12, "shipped": 0, "status": "open" }
+          {
+            "id": "g3-text-features",
+            "label": "Use text features to find facts",
+            "cssCode": "RI.3.5",
+            "strand": "Reading: Informational Text",
+            "suggestedModules": [
+              "sb-choice-board"
+            ],
+            "storySlots": 12,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "g3-opinion-reasons",
+            "label": "Which reason supports the opinion?",
+            "cssCode": "RI.3.8",
+            "strand": "Reading: Informational Text",
+            "suggestedModules": [
+              "sb-choice-board"
+            ],
+            "storySlots": 10,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "g3-story-structure",
+            "label": "Beginning, problem, solution",
+            "cssCode": "RL.3.5",
+            "strand": "Reading: Literature",
+            "suggestedModules": [
+              "sb-sequence",
+              "sb-choice-board"
+            ],
+            "storySlots": 12,
+            "shipped": 0,
+            "status": "open"
+          }
+        ]
+      }
+    },
+    "PK": {
+      "age": "3-4",
+      "readinessOnly": true,
+      "note": "No CCSS below Kindergarten; every PK point is readiness. cssCode MUST be null.",
+      "targetShare": 200,
+      "sequences": {
+        "early-math-readiness": [
+          {
+            "id": "pk-count-to-5",
+            "label": "Count things up to 5",
+            "cssCode": null,
+            "strand": "Number readiness",
+            "suggestedModules": [
+              "sb-count-tap",
+              "sb-choice-board"
+            ],
+            "storySlots": 20,
+            "shipped": 1,
+            "status": "in_progress"
+          },
+          {
+            "id": "pk-one-to-one",
+            "label": "Touch each one as you count",
+            "cssCode": null,
+            "strand": "Number readiness",
+            "suggestedModules": [
+              "sb-count-tap"
+            ],
+            "storySlots": 14,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "pk-more-fewer",
+            "label": "Which has more?",
+            "cssCode": null,
+            "strand": "Number readiness",
+            "suggestedModules": [
+              "sb-choice-board"
+            ],
+            "storySlots": 12,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "pk-sort-by-attribute",
+            "label": "Put the same ones together",
+            "cssCode": null,
+            "strand": "Sorting readiness",
+            "suggestedModules": [
+              "sb-sort-bins",
+              "sb-choice-board"
+            ],
+            "storySlots": 14,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "pk-simple-pattern",
+            "label": "What comes next? (AB)",
+            "cssCode": null,
+            "strand": "Pattern readiness",
+            "suggestedModules": [
+              "sb-pattern"
+            ],
+            "storySlots": 12,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "pk-match-same",
+            "label": "Find the ones that match",
+            "cssCode": null,
+            "strand": "Matching readiness",
+            "suggestedModules": [
+              "sb-memory",
+              "sb-choice-board"
+            ],
+            "storySlots": 12,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "pk-shapes",
+            "label": "Find the circle / square",
+            "cssCode": null,
+            "strand": "Shape readiness",
+            "suggestedModules": [
+              "sb-choice-board",
+              "sb-find-object"
+            ],
+            "storySlots": 12,
+            "shipped": 0,
+            "status": "open"
+          }
+        ],
+        "early-literacy-readiness": [
+          {
+            "id": "pk-listen-name-it",
+            "label": "Listen, then find the picture",
+            "cssCode": null,
+            "strand": "Listening readiness",
+            "suggestedModules": [
+              "sb-listen"
+            ],
+            "storySlots": 20,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "pk-find-in-picture",
+            "label": "Find things in the picture",
+            "cssCode": null,
+            "strand": "Print/visual readiness",
+            "suggestedModules": [
+              "sb-find-object"
+            ],
+            "storySlots": 20,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "pk-first-sound",
+            "label": "What sound does it start with?",
+            "cssCode": null,
+            "strand": "Phonological readiness",
+            "suggestedModules": [
+              "sb-listen",
+              "sb-choice-board"
+            ],
+            "storySlots": 16,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "pk-recognize-letters",
+            "label": "Find the letter",
+            "cssCode": null,
+            "strand": "Letter readiness",
+            "suggestedModules": [
+              "sb-choice-board"
+            ],
+            "storySlots": 22,
+            "shipped": 0,
+            "status": "open"
+          }
+        ]
+      }
+    },
+    "K": {
+      "age": "5-6",
+      "readinessOnly": false,
+      "targetShare": 200,
+      "sequences": {
+        "counting-cardinality": [
+          {
+            "id": "k-count-to-10",
+            "label": "Count to 10",
+            "cssCode": "K.CC.B.4",
+            "strand": "Counting & Cardinality",
+            "suggestedModules": [
+              "sb-count-tap",
+              "sb-choice-board"
+            ],
+            "storySlots": 16,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "k-count-out-n",
+            "label": "Give me exactly N",
+            "cssCode": "K.CC.B.5",
+            "strand": "Counting & Cardinality",
+            "suggestedModules": [
+              "sb-count-tap"
+            ],
+            "storySlots": 14,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "k-compare-numbers",
+            "label": "Which group has more?",
+            "cssCode": "K.CC.C.6",
+            "strand": "Counting & Cardinality",
+            "suggestedModules": [
+              "sb-choice-board"
+            ],
+            "storySlots": 12,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "k-order-numbers",
+            "label": "Put numbers in order",
+            "cssCode": "K.CC.C.7",
+            "strand": "Counting & Cardinality",
+            "suggestedModules": [
+              "sb-sequence",
+              "sb-connect-dots"
+            ],
+            "storySlots": 10,
+            "shipped": 0,
+            "status": "open"
+          }
+        ],
+        "operations": [
+          {
+            "id": "k-make-n",
+            "label": "Two parts make N",
+            "cssCode": "K.OA.A.3",
+            "strand": "Operations & Algebraic Thinking",
+            "suggestedModules": [
+              "sb-match-pairs",
+              "sb-number-bond"
+            ],
+            "storySlots": 14,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "k-make-10",
+            "label": "Make 10",
+            "cssCode": "K.OA.A.4",
+            "strand": "Operations & Algebraic Thinking",
+            "suggestedModules": [
+              "sb-number-bond"
+            ],
+            "storySlots": 12,
+            "shipped": 0,
+            "status": "open"
+          }
+        ],
+        "geometry-measurement": [
+          {
+            "id": "k-name-shapes",
+            "label": "Name the shape",
+            "cssCode": "K.G.A.2",
+            "strand": "Geometry",
+            "suggestedModules": [
+              "sb-choice-board"
+            ],
+            "storySlots": 12,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "k-compare-length",
+            "label": "Which is longer?",
+            "cssCode": "K.MD.A.2",
+            "strand": "Measurement & Data",
+            "suggestedModules": [
+              "sb-choice-board"
+            ],
+            "storySlots": 10,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "k-sort-count",
+            "label": "Sort, then count each group",
+            "cssCode": "K.MD.B.3",
+            "strand": "Measurement & Data",
+            "suggestedModules": [
+              "sb-sort-bins",
+              "sb-choice-board"
+            ],
+            "storySlots": 10,
+            "shipped": 0,
+            "status": "open"
+          }
+        ],
+        "reading-foundations": [
+          {
+            "id": "k-letter-sound",
+            "label": "Match letter to its sound",
+            "cssCode": "RF.K.3.a",
+            "strand": "Reading: Foundational Skills",
+            "suggestedModules": [
+              "sb-choice-board",
+              "sb-listen"
+            ],
+            "storySlots": 20,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "k-first-sound",
+            "label": "First sound in the word",
+            "cssCode": "RF.K.2.d",
+            "strand": "Reading: Foundational Skills",
+            "suggestedModules": [
+              "sb-listen",
+              "sb-choice-board"
+            ],
+            "storySlots": 16,
+            "shipped": 0,
+            "status": "open"
+          },
+          {
+            "id": "k-build-cvc",
+            "label": "Build the CVC word",
+            "cssCode": "RF.K.3",
+            "strand": "Reading: Foundational Skills",
+            "suggestedModules": [
+              "sb-cvc-builder"
+            ],
+            "storySlots": 18,
+            "shipped": 0,
+            "status": "open",
+            "phonicsSafe": true
+          }
         ]
       }
     }
   },
   "shippedIndex": {
     "note": "As stories ship, record storyId -> ledger point id here and bump the point's shipped count + status. Nothing shipped yet except the exemplar(s), which are integration fixtures rather than catalog stories.",
-    "entries": []
+    "entries": [
+      {
+        "storyId": "shellys-seashells",
+        "pointId": "pk-count-to-5",
+        "library": "story-library-250 lib-p01-01"
+      }
+    ]
   }
 }

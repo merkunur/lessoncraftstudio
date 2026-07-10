@@ -34,17 +34,22 @@ const REPO = path.join(__dirname, '..', '..');
 const MINI = path.join(REPO, 'mini tools');
 
 /* Grade envelope — MIRRORS authoring-playbook.md §2/§4. Single SoT for the numbers.
+   pages: [7,10] for ALL grades per the 250-story Interactive Story Library standard
+   (operator-ruled 2026-07-10; supersedes the earlier per-grade 3-4/4-5/... bands —
+   PK/K stories stay gentle via tiny repetitive steps per page, not fewer pages).
+   Pre-library fixtures (pips-picnic, pip-counts-along, pk-*) predate this band; exempt
+   them from any batch-regate rather than reshaping them.
    numberSev: PK is HARD (≤5 is a firm readiness cap nothing legit exceeds). K–3 are WARN,
    NOT HARD: a single per-grade quantity ceiling is in genuine tension with place-value + teen
    standards that legitimately exceed the operation ceiling (K.NBT teens 11–19, 1.NBT tens-and-ones
    to ~99/120, 2.NBT three-digit to 1000). A HARD block over-rejects those; a WARN flags a large
    quantity for human judgement without blocking. (Calibration surfaced during C3 exemplar work.) */
 const GRADE_ENV = {
-  PK: { pages: [3, 4], maxWords: 6, maxLines: 1, numberCeil: 5, numberSev: 'HARD' },
-  K:  { pages: [4, 5], maxWords: 8, maxLines: 2, numberCeil: 10, numberSev: 'WARN' },
-  '1': { pages: [5, 6], maxWords: 12, maxLines: 2, numberCeil: 20, numberSev: 'WARN' },
-  '2': { pages: [6, 8], maxWords: 16, maxLines: 3, numberCeil: 100, numberSev: 'WARN' },
-  '3': { pages: [6, 8], maxWords: 20, maxLines: 3, numberCeil: 1000, numberSev: 'WARN' },
+  PK: { pages: [7, 10], maxWords: 6, maxLines: 1, numberCeil: 5, numberSev: 'HARD' },
+  K:  { pages: [7, 10], maxWords: 8, maxLines: 2, numberCeil: 10, numberSev: 'WARN' },
+  '1': { pages: [7, 10], maxWords: 12, maxLines: 2, numberCeil: 20, numberSev: 'WARN' },
+  '2': { pages: [7, 10], maxWords: 16, maxLines: 3, numberCeil: 100, numberSev: 'WARN' },
+  '3': { pages: [7, 10], maxWords: 20, maxLines: 3, numberCeil: 1000, numberSev: 'WARN' },
 };
 const ARCS = ['quest', 'help-a-friend', 'fix-a-mess', 'discovery', 'collect-and-sort'];
 /* Scoring/pressure/judgement tokens forbidden in narration (playbook §3). EN core +

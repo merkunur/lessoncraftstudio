@@ -53,6 +53,20 @@ and the rules for using + adding them. Structured to scale to ~100 characters.
 - **notes:** Pip is the recognizable brand face — keep Pip consistent in look and warmth across every
   story. When a story needs a friend for Pip to help, that friend is a **companion** (new per story).
 
+### Shelly — the shy little hermit crab finding her home
+- **id:** `shelly`
+- **role:** companion
+- **species/look:** a small hermit crab — `coral`/`orange` body, big friendly eyes on short stalks,
+  a rounded cream-and-sand spiral shell she carries (wsv-1 palette; see
+  `docs/storybook/visual-style-standard.md`).
+- **voice:** cheerful, a little shy, easily delighted. Speaks in tiny warm bursts ("Oh! Oh!").
+- **speech tics:** a happy claw "clack, clack" when something goes right.
+- **best arcs:** Help-a-friend (her debut shape), Collect-and-sort.
+- **debut:** `shellys-seashells` (library story #1)
+- **poses:** `neutral`, `happy` (+ idle bob). No clips; her joy reads in the pose swap.
+- **notes:** Shelly's new shell home gains its decorations in her debut — keep the decorated
+  shell look (four `sunshine` spots) if she recurs.
+
 > **Adding characters:** most future stories reuse **Pip as guide** + a fresh **companion** for the
 > story's situation. Introduce a *new guide* only when there's a real reason (a themed sub-series). Each
 > new character: fill the template above, author the base atlas (poses + idle) via the placeholder-art

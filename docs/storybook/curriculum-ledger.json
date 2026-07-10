@@ -602,6 +602,20 @@
             "storySlots": 8,
             "shipped": 1,
             "status": "in_progress"
+          },
+          {
+            "id": "pk-doesnt-belong",
+            "label": "Which one doesn't belong?",
+            "cssCode": null,
+            "strand": "Categorization readiness",
+            "suggestedModules": [
+              "sb-choice-board",
+              "sb-find-object",
+              "sb-listen-place"
+            ],
+            "storySlots": 10,
+            "shipped": 1,
+            "status": "in_progress"
           }
         ],
         "early-literacy-readiness": [
@@ -871,6 +885,11 @@
         "storyId": "noodles-long-walk",
         "pointId": "pk-long-short",
         "library": "story-library-250 lib-p01-09"
+      },
+      {
+        "storyId": "the-friendship-picnic",
+        "pointId": "pk-doesnt-belong",
+        "library": "story-library-250 lib-p01-10"
       }
     ]
   }

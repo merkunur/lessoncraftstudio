@@ -63,6 +63,8 @@ and the rules for using + adding them. Structured to scale to ~100 characters.
 - **speech tics:** a happy claw "clack, clack" when something goes right.
 - **best arcs:** Help-a-friend (her debut shape), Collect-and-sort.
 - **debut:** `shellys-seashells` (library story #1)
+- **recurs in:** `the-friendship-picnic` (library story #10 — the Part 1 finale bookend; she
+  opened the library and closes its first part)
 - **poses:** `neutral`, `happy` (+ idle bob). No clips; her joy reads in the pose swap.
 - **notes:** Shelly's new shell home gains its decorations in her debut — keep the decorated
   shell look (four `sunshine` spots) if she recurs.

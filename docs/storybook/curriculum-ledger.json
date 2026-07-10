@@ -545,7 +545,7 @@
               "sb-choice-board"
             ],
             "storySlots": 12,
-            "shipped": 1,
+            "shipped": 2,
             "status": "in_progress"
           },
           {
@@ -823,6 +823,11 @@
         "storyId": "willas-washing-day",
         "pointId": "pk-sort-by-attribute",
         "library": "story-library-250 lib-p01-05"
+      },
+      {
+        "storyId": "milos-mitten-match",
+        "pointId": "pk-match-same",
+        "library": "story-library-250 lib-p01-06"
       }
     ]
   }

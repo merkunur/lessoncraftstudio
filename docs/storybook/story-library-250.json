@@ -76,10 +76,10 @@
       "grade": "PK",
       "teachingPointId": "lib-p01-06",
       "label": "Match identical objects (one-to-one matching)",
-      "premise": null,
-      "setting": null,
-      "storyId": null,
-      "status": "open"
+      "premise": "match every twin in Milo the penguin's tipped-over winter chest before the sledding trip",
+      "setting": "snowy hill cabin",
+      "storyId": "milos-mitten-match",
+      "status": "shipped"
     },
     {
       "part": 1,

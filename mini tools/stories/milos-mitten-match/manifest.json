@@ -1,0 +1,188 @@
+{
+  "storyId": "milos-mitten-match",
+  "generatedAt": "2026-07-10T10:18:29.322Z",
+  "pageCount": 8,
+  "totalBytes": 888948,
+  "files": [
+    {
+      "path": "art-manifest.json",
+      "bytes": 1332,
+      "sha1": "b3bd89374ee5641e662593d333908836ea1fd765"
+    },
+    {
+      "path": "audio/en/README.txt",
+      "bytes": 190,
+      "sha1": "e5e0d3c3321ef00fd0943a9096e0621e4f040558"
+    },
+    {
+      "path": "blueprint.json",
+      "bytes": 19823,
+      "sha1": "3ddfd760c4e92abd89b1f8d4fc60d7ec0bd96189"
+    },
+    {
+      "path": "cast/milo/milo.base.json",
+      "bytes": 1594,
+      "sha1": "d3dab1b5198b4806dd6a5ee6dbd8a523134bdea5"
+    },
+    {
+      "path": "cast/milo/milo.base.webp",
+      "bytes": 81830,
+      "sha1": "bb1b08c9fc9197799b80910a449271b42c391c29"
+    },
+    {
+      "path": "cast/pip/pip.base.json",
+      "bytes": 1924,
+      "sha1": "4ed1a2799e52a7b8d12d33cab7d84b85344b36a9"
+    },
+    {
+      "path": "cast/pip/pip.base.webp",
+      "bytes": 153354,
+      "sha1": "ae96744d8ad6ae8a525cb5125a858640725cc0f6"
+    },
+    {
+      "path": "cast/pip/pip.clips-1.json",
+      "bytes": 2016,
+      "sha1": "f15a888960828de3054322f5b8db75a2229cb995"
+    },
+    {
+      "path": "cast/pip/pip.clips-1.webp",
+      "bytes": 139374,
+      "sha1": "c35b51c2ae9b3c56bdd91c536c8175fa885bf70e"
+    },
+    {
+      "path": "cast/pip/pip.clips.json",
+      "bytes": 3225,
+      "sha1": "0bd1a4a01724a212b89a5f3db41fa62db81c11b5"
+    },
+    {
+      "path": "cast/pip/pip.clips.webp",
+      "bytes": 245890,
+      "sha1": "9a3e576ff9edb8ab8767d1035cbc6dd209685041"
+    },
+    {
+      "path": "library-meta.json",
+      "bytes": 890,
+      "sha1": "255ccb8ef5c0e2d4652f1140910345e3d42f79d6"
+    },
+    {
+      "path": "props/boot-blue@2x.webp",
+      "bytes": 3022,
+      "sha1": "310dde4d35235b67392c857ee4964f1bf204db7f"
+    },
+    {
+      "path": "props/boot-sand@2x.webp",
+      "bytes": 2700,
+      "sha1": "1c7ae350aa489dc14e1fe0b42c0ae650e65b11e4"
+    },
+    {
+      "path": "props/hat-coral@2x.webp",
+      "bytes": 4110,
+      "sha1": "d67a03f34ad5bba9cc681c44a69ac7ede9287d3f"
+    },
+    {
+      "path": "props/hat-teal-dots@2x.webp",
+      "bytes": 4924,
+      "sha1": "3d2565d8364146ca316100a00f711e496c820c66"
+    },
+    {
+      "path": "props/hat-teal-star@2x.webp",
+      "bytes": 4928,
+      "sha1": "7bec6169e096d6d755af68d1409d73169bd8604d"
+    },
+    {
+      "path": "props/hat-teal@2x.webp",
+      "bytes": 4172,
+      "sha1": "d3f29f25f2dfa7d55884654568b4b6c1e560eb04"
+    },
+    {
+      "path": "props/mitten-blue@2x.webp",
+      "bytes": 3660,
+      "sha1": "4f89c2146970827733fe904c506d540cf9f2a7b2"
+    },
+    {
+      "path": "props/mitten-red-dots@2x.webp",
+      "bytes": 4158,
+      "sha1": "fe97e77451206dbec42449bd1342134e04ba8da1"
+    },
+    {
+      "path": "props/mitten-red-stripes@2x.webp",
+      "bytes": 4970,
+      "sha1": "f022d204bb0f340ecbbdf5b743995bc9890a4ed5"
+    },
+    {
+      "path": "props/mitten-red@2x.webp",
+      "bytes": 3440,
+      "sha1": "c7ca9474cf952ea43265ae9fce21b0e9c5fab795"
+    },
+    {
+      "path": "props/mug-coral@2x.webp",
+      "bytes": 4788,
+      "sha1": "c50bc251f4dca7580e40bc29e51fa9d2d8f2e681"
+    },
+    {
+      "path": "props/mug-teal@2x.webp",
+      "bytes": 4896,
+      "sha1": "2b8459db43eeec12c86f6500360f9c73903cd715"
+    },
+    {
+      "path": "props/scarf-berry@2x.webp",
+      "bytes": 3284,
+      "sha1": "71a0b4ad73152e5e8b42706f24adcb366996ae4d"
+    },
+    {
+      "path": "props/scarf-teal@2x.webp",
+      "bytes": 3476,
+      "sha1": "d40ccae4a059bba8edcf6a8564028c43e4b62bf4"
+    },
+    {
+      "path": "scenes/page-01.webp",
+      "bytes": 17674,
+      "sha1": "156353d617e4b535483ff818ea7dc503a6602823"
+    },
+    {
+      "path": "scenes/page-02.webp",
+      "bytes": 17866,
+      "sha1": "4fe41a616846dd24f30047267f48e2e39297006f"
+    },
+    {
+      "path": "scenes/page-03.webp",
+      "bytes": 18742,
+      "sha1": "262e3c55b68c63cb64bd1f83fe7e4ce4c9776202"
+    },
+    {
+      "path": "scenes/page-04.webp",
+      "bytes": 18636,
+      "sha1": "4be917fcac197030f86e734c873e13d7dc613fd7"
+    },
+    {
+      "path": "scenes/page-05.webp",
+      "bytes": 19586,
+      "sha1": "0e29fce037abad3a92f9362b9ad29cf6cf43f17b"
+    },
+    {
+      "path": "scenes/page-06.webp",
+      "bytes": 19602,
+      "sha1": "0a456bb699fc2ad0e36bb3ae6ce8c9e58f59c190"
+    },
+    {
+      "path": "scenes/page-07.webp",
+      "bytes": 20462,
+      "sha1": "0ab6b62211a105fb3a5e60985713f8e1384cdee9"
+    },
+    {
+      "path": "scenes/page-08.webp",
+      "bytes": 24478,
+      "sha1": "55814c192f48078816d076de29af2a090eefe63a"
+    },
+    {
+      "path": "story.json",
+      "bytes": 19825,
+      "sha1": "32fa8aa0605bb06527bc60c2f38d292f7763c967"
+    },
+    {
+      "path": "strings.json",
+      "bytes": 4107,
+      "sha1": "b024f21242ef3c36bb6b43e156f9e324a5612afd"
+    }
+  ]
+}

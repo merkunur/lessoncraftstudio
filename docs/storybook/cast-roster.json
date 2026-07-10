@@ -43,6 +43,13 @@
       "species": "small duck",
       "debut": "willas-washing-day",
       "notes": "Tidy, cheerful; cream feathers, sunshine bill and feet. Keeps the neatest washing line on the river."
+    },
+    {
+      "id": "milo",
+      "role": "companion",
+      "species": "small penguin",
+      "debut": "milos-mitten-match",
+      "notes": "Navy (night) body, cream belly and face, sunshine beak and feet; loves sledding and cocoa; everything he owns comes in twos."
     }
   ]
 }

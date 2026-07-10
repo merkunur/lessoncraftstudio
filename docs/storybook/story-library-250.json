@@ -164,10 +164,10 @@
       "grade": "PK",
       "teachingPointId": "lib-p02-04",
       "label": "Sort by size",
-      "premise": null,
-      "setting": null,
-      "storyId": null,
-      "status": "open"
+      "premise": "help Poppy sort the whole harvest into big and small for her market stand",
+      "setting": "garden market stand",
+      "storyId": "poppys-market-day",
+      "status": "shipped"
     },
     {
       "part": 2,

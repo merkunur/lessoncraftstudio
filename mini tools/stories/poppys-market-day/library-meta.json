@@ -1,0 +1,42 @@
+{
+  "$schema": "lib-meta-1",
+  "storyId": "poppys-market-day",
+  "part": 2,
+  "index": 4,
+  "grade": "PK",
+  "teachingPointId": "lib-p02-04",
+  "premise": "help Poppy sort the whole harvest into big and small for her market stand",
+  "setting": "garden market stand",
+  "mechanics": [
+    "sb-listen",
+    "sb-listen-place",
+    "sb-color-code",
+    "sb-find-object",
+    "sb-choice-board",
+    "sb-dot-stamp"
+  ],
+  "guide": "pip",
+  "companions": [
+    "poppy"
+  ],
+  "paletteVersion": "wsv-1",
+  "signatureMoment": "The finale sweep across the finished bunting-decked stand — tapping every BIG thing on the shelves the child stocked, with Poppy beaming at her sorted market.",
+  "audioSlots": [
+    "p01-l01",
+    "p01-bravo",
+    "p02-l01",
+    "p02-bravo",
+    "p03-l01",
+    "p03-bravo",
+    "p04-l01",
+    "p04-bravo",
+    "p05-l01",
+    "p05-bravo",
+    "p06-l01",
+    "p06-bravo",
+    "p07-l01",
+    "p07-bravo",
+    "p08-l01",
+    "p08-bravo"
+  ]
+}

@@ -122,24 +122,28 @@ else
 
     COPIED=0
     for f in "mini tools"/*.html "mini tools"/*.css "mini tools"/*.json; do
-        [ -e "$f" ] && cp "$f" "frontend/public/mini-tools/" && COPIED=$((COPIED + 1))
+        [ -e "$f" ] || continue
+        case "$f" in
+            # Storybook project ABANDONED (operator 2026-07-11): exclude its shell/manifests.
+            *storybook*|*"mini tools/studio-"*) continue ;;
+        esac
+        cp "$f" "frontend/public/mini-tools/" && COPIED=$((COPIED + 1))
     done
     for f in "mini tools"/*.js; do
         [ -e "$f" ] || continue
         case "$f" in
             *.test.js) ;;
+            # Storybook project ABANDONED (operator 2026-07-11): never sync the
+            # storybook/studio runtime toward deployment again.
+            *storybook*|*"mini tools/sb-"*|*"mini tools/studio-"*) ;;
             *) cp "$f" "frontend/public/mini-tools/"; COPIED=$((COPIED + 1)) ;;
         esac
     done
     echo "  Copied $COPIED files to frontend/public/mini-tools"
 
-    # Storybook stories: recursive subtree (story.json/strings.json + packed
-    # assets live under mini tools/stories/<id>/ — the one nested dir we ship)
-    if [ -d "mini tools/stories" ]; then
-        mkdir -p "frontend/public/mini-tools/stories"
-        cp -r "mini tools/stories/." "frontend/public/mini-tools/stories/"
-        echo "  Synced mini tools/stories/ subtree"
-    fi
+    # Storybook stories subtree: REMOVED 2026-07-11 (project abandoned) — the
+    # cp -r of mini tools/stories/ would have spread ~22 undeployed library
+    # stories toward production on the next sync.
     echo ""
 fi
 

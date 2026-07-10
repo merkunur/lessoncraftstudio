@@ -545,7 +545,7 @@
               "sb-choice-board"
             ],
             "storySlots": 12,
-            "shipped": 2,
+            "shipped": 3,
             "status": "in_progress"
           },
           {
@@ -953,6 +953,11 @@
         "storyId": "the-tiny-door",
         "pointId": "pk-big-small",
         "library": "story-library-250 lib-p01-03 (true storybook)"
+      },
+      {
+        "storyId": "the-odd-little-sock",
+        "pointId": "pk-match-same",
+        "library": "story-library-250 lib-p01-04 (true storybook, ratified standard)"
       }
     ]
   }

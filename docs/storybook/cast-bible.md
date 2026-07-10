@@ -147,6 +147,9 @@ and the rules for using + adding them. Structured to scale to ~100 characters.
 - **speech tics:** a happy flipper-flap "wheee!" when a pair comes together.
 - **best arcs:** Help-a-friend (his debut shape), Quest.
 - **debut:** `milos-mitten-match` (library story #6)
+- **recurs in:** `the-odd-little-sock` (true storybook #4 — the wind scatters his paired-up
+  washing line; the odd yellow sock turns out to be the little snowbird's twin; his
+  everything-in-twos gag carries the same/different lesson)
 - **poses:** `neutral`, `happy` (+ idle bob). No clips.
 - **notes:** Milo's snowy hill, log cabin, and red sled are his home setting; everything he
   owns comes in twos — keep the paired-things gag if he recurs.

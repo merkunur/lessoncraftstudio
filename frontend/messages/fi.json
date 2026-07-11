@@ -2528,7 +2528,7 @@
     "tryIt": {
       "eyebrow": "Kokeile yhtä heti",
       "heading": "Valitse tehtävä ja pelaa",
-      "body": "Yhdeksän erilaista tehtävämekaniikkaa suoraan elävästä katalogista. Jokainen pelataan selaimessa ja tulostuu PDF:nä — ilmaiseksi, ilman tiliä.",
+      "body": "Jokainen tehtävä toimii suoraan selaimessa ja tulostuu PDF:nä vastauksineen. Kokeile yhtä alla — joka ruudussa eri tehtävä, tuhansien joukosta laskemisesta, matematiikasta, kirjaimista, logiikasta ja muusta.",
       "openDeck": "Avaa tehtävän sivu",
       "seeAll": "Näytä kaikki tehtävät"
     },

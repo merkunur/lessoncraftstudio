@@ -74,6 +74,13 @@ function themeOf(d: ShowcaseDeck): string {
   return (d.subjectTags && d.subjectTags[0]) || '';
 }
 
+// Black-and-white themes are English-canonical `_bw`-suffixed subjectTags
+// (valentine_bw, food_bw_2, …) across all locales. Exclude them from the
+// showcase — a grey tile reads as dull next to the colour decks (§20.5).
+function isColorDeck(d: ShowcaseDeck): boolean {
+  return !(d.subjectTags || []).some((t) => /_bw(?:_\d+)?$/.test(t));
+}
+
 /**
  * Recent themed (image-rich) candidate decks of `type` in `locale`; falls back
  * to themeless in-locale, then themed in `en` (sparse locales). Multiple
@@ -97,7 +104,10 @@ async function candidatesForType(type: string, locale: string): Promise<Showcase
       orderBy: order, take: CANDIDATES_PER_TYPE, select: DECK_SELECT,
     });
   }
-  return (rows as unknown as ShowcaseDeck[]).map(withThumb);
+  const mapped = (rows as unknown as ShowcaseDeck[]).map(withThumb);
+  // Prefer colour decks; fall back to the full set only if a type has none.
+  const color = mapped.filter(isColorDeck);
+  return color.length > 0 ? color : mapped;
 }
 
 /**

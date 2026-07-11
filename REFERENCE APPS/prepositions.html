@@ -1574,6 +1574,7 @@
 
             if (dom.downloadInteractiveHtmlBtn) {
                 dom.downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'prepositions_interactive.html', { loadingMode: 'inline' }));
+                window.__lcsWorksheetHost = { getHtml: function () { return downloadInteractiveHtml(worksheetCanvas, '', { returnString: true }); } }; // save-flow bridge (2026-07-12)
             }
             if (dom.exportToCatalogBtn) {
                 dom.exportToCatalogBtn.addEventListener("click", handleExportToCatalog);

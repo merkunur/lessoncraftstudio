@@ -1659,6 +1659,7 @@ document.addEventListener('DOMContentLoaded', function() {
             };
         }());
         downloadInteractiveHtmlBtn.addEventListener('click', () => downloadInteractiveHtml(worksheetCanvas, 'chart_count_interactive.html', { loadingMode: 'inline' }));
+        window.__lcsWorksheetHost = { getHtml: function () { return downloadInteractiveHtml(worksheetCanvas, '', { returnString: true }); } }; // save-flow bridge (2026-07-12)
         downloadPdfBtn.addEventListener('click', () => downloadCanvasAsPDF(worksheetCanvas, 'worksheet.pdf'));
         downloadAnswerKeyPdfBtn.addEventListener('click', () => downloadCanvasAsPDF(solutionCanvas, 'answer-key.pdf'));
         if (false) {

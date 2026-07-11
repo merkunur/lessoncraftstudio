@@ -4706,6 +4706,7 @@ async function downloadPDF(canvasToExport, filename, opts) {
         if (downloadInteractiveHtmlBtn) {
             downloadInteractiveHtmlBtn.addEventListener("click", () =>
                 downloadInteractiveHtml(worksheetCanvas, 'missing_pieces_interactive.html', { loadingMode: 'inline' }));
+            window.__lcsWorksheetHost = { getHtml: function () { return downloadInteractiveHtml(worksheetCanvas, '', { returnString: true }); } }; // save-flow bridge (2026-07-12)
         }
         exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
         downloadPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));

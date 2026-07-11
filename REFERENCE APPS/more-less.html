@@ -6423,6 +6423,7 @@ async function downloadPDF(canvasToExport, filename, opts) {
         });
         
         downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'more-less_interactive.html', { loadingMode: 'inline' }));
+        window.__lcsWorksheetHost = { getHtml: function () { return downloadInteractiveHtml(worksheetCanvas, '', { returnString: true }); } }; // save-flow bridge (2026-07-12)
         exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
 
         // --- SEP hook — Family C choice-tap ("tap the group with MORE"). image-to-image

@@ -5935,6 +5935,7 @@ async function downloadPDF(canvasToExport, filename, opts) {
     
     // START: REFACTORED CODE (Part D, Step 3)
     downloadInteractiveHtmlBtn.addEventListener('click', () => downloadInteractiveHtml(worksheetCanvas, 'find_and_count_interactive.html', { loadingMode: 'inline' }));
+    window.__lcsWorksheetHost = { getHtml: function () { return downloadInteractiveHtml(worksheetCanvas, '', { returnString: true }); } }; // save-flow bridge (2026-07-12)
     exportToCatalogBtn.addEventListener('click', handleExportToCatalog);
     (function () {
         function sepOpts(cropRect, returnPackage) {

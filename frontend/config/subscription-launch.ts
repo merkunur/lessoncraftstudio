@@ -23,4 +23,4 @@
  * Do NOT flip before the pricing copy truth pass is live in all 11 locales
  * (the pre-2026-07-11 copy sold the deleted storybook library).
  */
-export const PRICING_PUBLIC = false;
+export const PRICING_PUBLIC = true; // FLIPPED 2026-07-12 — the Teacher plan is live.

@@ -4265,6 +4265,7 @@
       if (downloadInteractiveHtmlBtn) {
           downloadInteractiveHtmlBtn.addEventListener("click", () =>
               downloadInteractiveHtml(worksheetCanvas, 'treasure_hunt_interactive.html'));
+          window.__lcsWorksheetHost = { getHtml: function () { return downloadInteractiveHtml(worksheetCanvas, '', { returnString: true }); } }; // save-flow bridge (2026-07-12)
       }
       exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
 

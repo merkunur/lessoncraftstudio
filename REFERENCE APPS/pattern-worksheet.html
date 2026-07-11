@@ -1625,6 +1625,7 @@
             
             // New Download Listeners
             ui.downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'pattern-worksheet_interactive.html', { loadingMode: 'inline' }));
+            window.__lcsWorksheetHost = { getHtml: function () { return downloadInteractiveHtml(worksheetCanvas, '', { returnString: true }); } }; // save-flow bridge (2026-07-12)
             ui.exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
 
             // --- SEP hook — Family C choice-tap ('options' question type). The first

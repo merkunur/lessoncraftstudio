@@ -2164,6 +2164,7 @@
             });
 
             document.getElementById('downloadInteractiveHtmlBtn').addEventListener('click', () => downloadInteractiveHtml(worksheetCanvas, 'cryptogram_interactive.html', { loadingMode: 'inline' }));
+            window.__lcsWorksheetHost = { getHtml: function () { return downloadInteractiveHtml(worksheetCanvas, '', { returnString: true }); } }; // save-flow bridge (2026-07-12)
             document.getElementById('exportToCatalogBtn').addEventListener('click', handleExportToCatalog);
             document.getElementById('downloadPdfBtn').addEventListener('click', () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
             document.getElementById('downloadAnswerKeyPdfBtn').addEventListener('click', () => downloadPDF(answerKeyCanvas, 'answer-key.pdf'));

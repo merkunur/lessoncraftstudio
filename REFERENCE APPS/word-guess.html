@@ -1537,6 +1537,7 @@
 
             // Download Listeners
             ui.downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'word-guess_interactive.html', { loadingMode: 'inline' }));
+            window.__lcsWorksheetHost = { getHtml: function () { return downloadInteractiveHtml(worksheetCanvas, '', { returnString: true }); } }; // save-flow bridge (2026-07-12)
             ui.exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
             /* Storybook Exercise Package (SEP) export — shared helper in catalog-export.js */
             (function () {

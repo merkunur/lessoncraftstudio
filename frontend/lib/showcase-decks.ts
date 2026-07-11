@@ -63,59 +63,70 @@ function dayRotation(): number {
   return Math.floor(Date.now() / (1000 * 60 * 60 * 24)) % 7;
 }
 
+const CANDIDATES_PER_TYPE = 14; // enough spread to find an unused theme per type
+
 function withThumb(d: ShowcaseDeck): ShowcaseDeck {
   // Slug-derived thumbnail (canonical, drift-proof — §8.1).
   return { ...d, thumbnailUrl: deckAssets(d.language, d.slug).thumbnail };
 }
 
-/**
- * One image-rich (themed) deck of `type` in `locale`; falls back to a themeless
- * deck in-locale, then a themed deck in `en` (for sparse locales). null if none.
- */
-async function pickDeckForType(type: string, locale: string): Promise<ShowcaseDeck | null> {
-  const order = [{ publishedAt: 'desc' as const }, { id: 'asc' as const }];
-  const themedInLocale = await prisma.deck.findFirst({
-    where: { language: locale, status: 'published', contentLanguage: null, exerciseType: type, subjectTags: { isEmpty: false } },
-    orderBy: order,
-    select: DECK_SELECT,
-  });
-  let row = themedInLocale;
-  if (!row) {
-    row = await prisma.deck.findFirst({
-      where: { language: locale, status: 'published', contentLanguage: null, exerciseType: type },
-      orderBy: order,
-      select: DECK_SELECT,
-    });
-  }
-  if (!row && locale !== 'en') {
-    row = await prisma.deck.findFirst({
-      where: { language: 'en', status: 'published', contentLanguage: null, exerciseType: type, subjectTags: { isEmpty: false } },
-      orderBy: order,
-      select: DECK_SELECT,
-    });
-  }
-  return row ? withThumb(row as unknown as ShowcaseDeck) : null;
+function themeOf(d: ShowcaseDeck): string {
+  return (d.subjectTags && d.subjectTags[0]) || '';
 }
 
 /**
- * Select the try-it band composition: one themed deck per curated exercise type,
- * deduped, first 9 kept (featured = decks[0], thumbs = the next 8). All in the
- * visitor's locale (en fallback per type). DB failure → empty (caller renders
- * nothing — honesty).
+ * Recent themed (image-rich) candidate decks of `type` in `locale`; falls back
+ * to themeless in-locale, then themed in `en` (sparse locales). Multiple
+ * candidates so the assembler can pick one with an as-yet-unused THEME.
+ */
+async function candidatesForType(type: string, locale: string): Promise<ShowcaseDeck[]> {
+  const order = [{ publishedAt: 'desc' as const }, { id: 'asc' as const }];
+  const base = { status: 'published' as const, contentLanguage: null, exerciseType: type };
+  let rows = await prisma.deck.findMany({
+    where: { ...base, language: locale, subjectTags: { isEmpty: false } },
+    orderBy: order, take: CANDIDATES_PER_TYPE, select: DECK_SELECT,
+  });
+  if (rows.length === 0) {
+    rows = await prisma.deck.findMany({
+      where: { ...base, language: locale }, orderBy: order, take: CANDIDATES_PER_TYPE, select: DECK_SELECT,
+    });
+  }
+  if (rows.length === 0 && locale !== 'en') {
+    rows = await prisma.deck.findMany({
+      where: { ...base, language: 'en', subjectTags: { isEmpty: false } },
+      orderBy: order, take: CANDIDATES_PER_TYPE, select: DECK_SELECT,
+    });
+  }
+  return (rows as unknown as ShowcaseDeck[]).map(withThumb);
+}
+
+/**
+ * Select the try-it band composition: one deck per curated exercise type,
+ * preferring a distinct THEME per tile so the grid is visually varied (not a
+ * wall of one theme). First 9 kept (featured = decks[0], thumbs = the next 8).
+ * All in the visitor's locale (en fallback per type). DB failure → empty
+ * (caller renders nothing — honesty).
  */
 export async function selectShowcaseDecks(locale: string): Promise<ShowcaseSelection> {
   const rot = dayRotation() % SHOWCASE_TYPES.length;
   const orderedTypes = [...SHOWCASE_TYPES.slice(rot), ...SHOWCASE_TYPES.slice(0, rot)];
 
-  const picks = await Promise.all(orderedTypes.map((t) => pickDeckForType(t, locale)));
+  const perType = await Promise.all(orderedTypes.map((t) => candidatesForType(t, locale)));
 
-  const seen = new Set<string>();
+  const usedThemes = new Set<string>();
+  const usedIds = new Set<string>();
   const decks: ShowcaseDeck[] = [];
-  for (const d of picks) {
-    if (!d || seen.has(d.id)) continue;
-    seen.add(d.id);
-    decks.push(d);
+  for (const cands of perType) {
     if (decks.length >= SHOWCASE_COUNT) break;
+    // Prefer a candidate whose theme hasn't been used yet (visual variety);
+    // fall back to any unused deck if every candidate's theme is taken.
+    let pick = cands.find((d) => !usedIds.has(d.id) && !usedThemes.has(themeOf(d)));
+    if (!pick) pick = cands.find((d) => !usedIds.has(d.id));
+    if (!pick) continue;
+    decks.push(pick);
+    usedIds.add(pick.id);
+    const th = themeOf(pick);
+    if (th) usedThemes.add(th);
   }
 
   if (decks.length === 0) return { featured: null, thumbs: [] };

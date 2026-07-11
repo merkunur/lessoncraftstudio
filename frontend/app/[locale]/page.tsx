@@ -4,17 +4,20 @@ import { getTranslations } from 'next-intl/server';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { buildOrganizationSchema, buildWebSiteSchema } from '@/lib/seo/organization-schema';
-import HeroV3 from '@/components/homepage-v3/HeroV3';
+import HeroV4 from '@/components/homepage-v4/HeroV4';
+import TryItBandV4 from '@/components/homepage-v4/TryItBandV4';
 import PillarActivities from '@/components/homepage-v3/PillarActivities';
 import PillarInteractive from '@/components/homepage-v3/PillarInteractive';
 import PillarPrintables from '@/components/homepage-v3/PillarPrintables';
 import TierTransition from '@/components/homepage-v3/TierTransition';
-import PillarMakers from '@/components/homepage-v3/PillarMakers';
+import PillarMakersV4 from '@/components/homepage-v4/PillarMakersV4';
 import PillarTools from '@/components/homepage-v3/PillarTools';
 import BrowseByTopicSSR from '@/components/homepage-v3/BrowseByTopicSSR';
-import EmbedShareV3 from '@/components/homepage-v3/EmbedShareV3';
-import SignupV3 from '@/components/homepage-v3/SignupV3';
+import EmbedShareV4 from '@/components/homepage-v4/EmbedShareV4';
+import FreeAndTeacherV4 from '@/components/homepage-v4/FreeAndTeacherV4';
+import SignupV4 from '@/components/homepage-v4/SignupV4';
 import './preview/homepage-v3/homepage-v3.css';
+import './preview/homepage-v4/homepage-v4.css';
 
 // Promoted from the homepage-v3 prototype on 2026-05-24. Live design now
 // uses the 9-section homepage-v3 stack (Hero → 5 pillars → tier transition
@@ -151,16 +154,23 @@ export default async function HomePage({ params }: { params: { locale: string } 
       `}</style>
 
       <main className={`hv3 ${baloo2.variable} ${nunito.variable} font-lcsBody text-lcs-cream min-h-screen`}>
-        <HeroV3 locale={locale} />
+        <HeroV4 locale={locale} />
+        <TryItBandV4 locale={locale} />
         <PillarActivities locale={locale} />
         <PillarInteractive locale={locale} />
         <PillarPrintables locale={locale} />
         <TierTransition locale={locale} />
-        <PillarMakers locale={locale} />
+        <PillarMakersV4 locale={locale} />
         <PillarTools locale={locale} />
-        <BrowseByTopicSSR locale={locale} />
-        <EmbedShareV3 locale={locale} />
-        <SignupV3 locale={locale} />
+        <BrowseByTopicSSR
+          locale={locale}
+          maxThemesPerGroup={40}
+          includeGradeGroup
+          includeLanguageGroup
+        />
+        <FreeAndTeacherV4 locale={locale} />
+        <EmbedShareV4 locale={locale} />
+        <SignupV4 locale={locale} />
       </main>
     </>
   );

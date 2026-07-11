@@ -3664,6 +3664,7 @@
     "openActivity": "Open activity",
     "downloadQr": "Download QR",
     "shareNote": "Students scan the QR code or open the link — no account or app needed. The link works on any device.",
+    "savedToWorkspace": "Saved to your workspace — Activities I've shared",
     "close": "Close"
   },
   "workspace": {

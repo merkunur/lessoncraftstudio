@@ -50,14 +50,14 @@ export default async function TryItBandV4({ locale }: TryItBandV4Props) {
   const t4 = await getTranslations({ locale, namespace: 'homepageV4.tryIt' });
 
   return (
-    <section id="try-it" className="hv3-section-cream py-16 md:py-24 relative">
-      <div className="container mx-auto px-4 max-w-7xl">
+    <section id="try-it" className="bg-[#FDFBF6] py-20 md:py-28 relative">
+      <div className="container mx-auto px-4 max-w-6xl">
         <div className="max-w-3xl mb-10 md:mb-12">
-          <span className="hv3-eyebrow text-[#146B5E]">{t4('eyebrow')}</span>
-          <h2 className="mt-3 font-lcsDisplay font-bold text-lcs-teal leading-[1.05] tracking-tight text-[2rem] sm:text-[2.5rem] md:text-[3rem]">
+          <p className="hv5-eyebrow">{t4('eyebrow')}</p>
+          <h2 className="mt-3 font-lcsDisplay font-bold text-[#14322D] leading-[1.08] tracking-tight text-[1.875rem] sm:text-[2.5rem] md:text-[3rem]">
             {t4('heading')}
           </h2>
-          <p className="mt-4 font-lcsBody text-lg md:text-xl text-lcs-teal/80 leading-relaxed">
+          <p className="mt-4 font-lcsBody text-lg text-[#3d574f] leading-relaxed max-w-2xl">
             {t4('body')}
           </p>
         </div>

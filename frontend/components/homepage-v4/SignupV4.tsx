@@ -1,88 +1,42 @@
-/* Closing sign-up CTA (v4) — fork of homepage-v3/SignupV3 with re-copy:
-   the free account promise narrows to FAVORITES (the collections promise
-   moved to paid framing per the launch program). When PRICING_PUBLIC:
-     - a one-line teacher note names what lives in the Teacher plan
-       (exports / live class links / collections), and
-     - a tertiary "Teaching? See the Teacher plan →" link renders.
-   Pre-flip, neither renders — no future-tier marketing per §7.
-   Strings: homepageV4.signup (EN-first; i18n/request.ts EN deep-merge keeps
-   non-EN locales on EN values, never raw keys). Layout/mascot unchanged. */
+/* Closing CTA — professional rebuild (2026-07-11). A clean deep-teal band that
+   sells the Teacher plan (no cartoon, no doodles). Copy reads homepageV4.close. */
 
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
-import { PRICING_PUBLIC } from '@/config/subscription-launch';
-import MascotPlaceholder from '../homepage-v3/MascotPlaceholder';
-import { Sparkle } from '../homepage-v3/DoodleAccents';
 
 interface Props {
   locale: string;
 }
 
 export default async function SignupV4({ locale }: Props) {
-  const t = await getTranslations({ locale, namespace: 'homepageV4.signup' });
+  const t = await getTranslations({ locale, namespace: 'homepageV4.close' });
+  const chips = ['trust1', 'trust2', 'trust3', 'trust4', 'trust5', 'trust6'] as const;
+
   return (
-    <section className="hv3-section-coral-deep py-24 md:py-32 relative overflow-hidden">
-      {/* Atmosphere — soft cream halo behind the mascot. */}
-      <div
-        aria-hidden="true"
-        className="absolute top-1/2 right-[10%] w-[420px] h-[420px] rounded-full pointer-events-none -translate-y-1/2"
-        style={{ background: 'radial-gradient(circle, rgba(251,243,228,0.18) 0%, transparent 65%)' }}
-      />
-
-      <div className="container mx-auto px-4 max-w-5xl relative">
-        <div
-          aria-hidden="true"
-          className="hidden lg:block absolute right-2 lg:right-8 top-1/2 -translate-y-1/2 z-10 pointer-events-none w-[280px] lg:w-[340px]"
-        >
-          <MascotPlaceholder
-            size="signup"
-            poseHint="emphasizing"
-            alt={t('mascotAlt')}
-          />
-        </div>
-
-        <div className="text-center md:text-left md:max-w-2xl">
-        <p className="hv3-eyebrow inline-flex items-center" style={{ color: '#FBE3D8' }}>
-          <span style={{ background: '#F2784B' }} className="!w-9 !h-[3px] inline-block" />
-          {t('eyebrow')}
-          <Sparkle className="text-lcs-coral ml-2" size={16} rotate={20} />
-        </p>
-        <h2 className="mt-4 font-lcsDisplay font-bold text-lcs-cream leading-[1.05] tracking-tight text-[2rem] md:text-[3rem] lg:text-[3.5rem]">
-          {t('h2Line1')}<br />
-          <span className="text-lcs-coral-soft">{t('h2Line2')}</span>
+    <section className="bg-[#14322D] py-20 md:py-28">
+      <div className="container mx-auto px-4 max-w-4xl text-center">
+        <h2 className="font-lcsDisplay font-bold text-white leading-[1.06] tracking-tight text-[2rem] sm:text-[2.75rem] md:text-[3.25rem]">
+          {t('h2Line1')} {t('h2Line2')}
         </h2>
-        <p className="mt-7 font-lcsBody text-lg md:text-xl text-lcs-cream/85 leading-relaxed max-w-2xl mx-auto md:mx-0">
+        <p className="mt-5 font-lcsBody text-lg md:text-xl text-white/85 leading-relaxed max-w-2xl mx-auto">
           {t('body')}
-          {PRICING_PUBLIC && <> {t('teacherNote')}</>}
         </p>
 
-        <div className="mt-10 flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
-          <Link
-            href={`/${locale}/activities`}
-            className="inline-flex items-center justify-center font-lcsDisplay font-semibold text-lg px-7 py-3.5 rounded-2xl bg-lcs-coral text-lcs-cream hover:bg-lcs-coral-deep transition-colors shadow-[0_8px_20px_-4px_rgba(242,120,75,0.5)]"
-          >
+        <div className="mt-9 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <Link href={`/${locale}/pricing`} className="hv5-cta hv5-cta-primary text-base md:text-lg px-8 py-4">
             {t('ctaPrimary')}
+            <svg className="ml-2 w-5 h-5" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M5 10h10M11 5l5 5-5 5" /></svg>
           </Link>
-          <Link
-            href={`/${locale}/auth/signup`}
-            className="inline-flex items-center justify-center font-lcsDisplay font-semibold text-lg px-7 py-3 rounded-2xl border-2 border-lcs-cream text-lcs-cream hover:bg-lcs-cream hover:text-lcs-teal transition-colors"
-          >
+          <Link href={`/${locale}/worksheets/`} className="inline-flex items-center justify-center font-lcsDisplay font-bold text-base md:text-lg px-8 py-4 rounded-xl border-2 border-white/50 text-white hover:bg-white hover:text-[#14322D] transition-colors">
             {t('ctaSecondary')}
           </Link>
         </div>
 
-        {/* Tertiary Teacher-plan link — launch-gated. */}
-        {PRICING_PUBLIC && (
-          <p className="mt-6">
-            <Link
-              href={`/${locale}/pricing`}
-              className="font-lcsBody text-base font-semibold text-lcs-cream/75 underline underline-offset-4 hover:text-lcs-cream"
-            >
-              {t('teacherLink')} →
-            </Link>
-          </p>
-        )}
-        </div>
+        <ul aria-label={t('trustAria')} className="mt-10 flex flex-wrap justify-center gap-2.5">
+          {chips.map((k) => (
+            <li key={k} className="font-mono text-xs text-white/85 bg-white/8 border border-white/15 rounded-full px-3 py-1.5">{t(k)}</li>
+          ))}
+        </ul>
       </div>
     </section>
   );

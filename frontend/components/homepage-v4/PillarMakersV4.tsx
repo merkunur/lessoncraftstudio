@@ -1,138 +1,123 @@
-/* Pillar 4 — Worksheet makers. Tier 2. Sage ground. Smaller scale than
-   Tier 1. The "creator power-layer" framing — but inclusive: any adult
-   who wants to build something specific can use these.
-   Visual: a stylized maker-control panel mock (theme + language dropdowns
-   + a small preview) showing the DIY paradigm. */
+/* The Makers — interactive-generation featured (2026-07-11). The headline:
+   teachers BUILD their own interactive, self-grading worksheets. Shows the
+   real payoff — "one build -> two outputs": a real interactive worksheet
+   PLAYING + its self-graded "You did it!" result, and the printable PDF — then
+   the real maker UI for control depth. All real assets, no mockups. Copy reads
+   homepageV4.makers. */
 
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
-import { PRICING_PUBLIC } from '@/config/subscription-launch';
-import { Arrow } from '../homepage-v3/DoodleAccents';
 
 interface PillarMakersProps {
   locale: string;
 }
 
+const CDN = 'https://www.lessoncraftstudio.com/en/decks';
+
+function Chrome({ url }: { url: string }) {
+  return (
+    <div className="hv5-chrome" aria-hidden="true">
+      <i style={{ background: '#F2784B' }} />
+      <i style={{ background: '#DCE3D3' }} />
+      <i style={{ background: '#146B5E' }} />
+      <span className="url">{url}</span>
+    </div>
+  );
+}
+
 export default async function PillarMakersV4({ locale }: PillarMakersProps) {
-  const t = await getTranslations({ locale, namespace: 'homepageV3.pillar04' });
-  const t4 = await getTranslations({ locale, namespace: 'homepageV4.makers' });
+  const t = await getTranslations({ locale, namespace: 'homepageV4.makers' });
+
+  const controlFeatures = [
+    { title: t('f1Title'), body: t('f1Body') },
+    { title: t('f2Title'), body: t('f2Body') },
+    { title: t('f3Title'), body: t('f3Body') },
+    { title: t('f4Title'), body: t('f4Body') },
+  ];
 
   return (
-    <section id="worksheet-makers" className="hv3-section-teal-mid relative overflow-hidden py-20 md:py-28">
-      <div className="container mx-auto px-4 max-w-7xl">
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-12 lg:gap-16 items-center">
+    <section id="worksheet-makers" className="bg-[#FDFBF6] py-20 md:py-28">
+      <div className="container mx-auto px-4 max-w-6xl">
+        <div className="max-w-3xl">
+          <p className="hv5-eyebrow">{t('eyebrow')}</p>
+          <h2 className="mt-3 font-lcsDisplay font-bold text-[#14322D] leading-[1.08] tracking-tight text-[1.875rem] sm:text-[2.5rem] md:text-[3rem]">
+            {t('h2a')} <span className="text-lcs-coral">{t('h2coral')}</span> {t('h2b')}
+          </h2>
+          <p className="mt-4 font-lcsBody text-lg text-[#3d574f] leading-relaxed max-w-2xl">{t('body')}</p>
+        </div>
+
+        {/* One build -> two outputs (the interactive story, up front) */}
+        <p className="mt-10 md:mt-12 hv5-eyebrow text-[#F2784B]">{t('oneBuild')}</p>
+        <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+          {/* Output 1 — plays online, self-grading */}
           <div>
-            <div className="flex items-center gap-4 mb-4">
-              <span className="hv3-pillar-num-cream">04</span>
-              <span className="hv3-eyebrow hv3-eyebrow-on-dark">{t('eyebrow')}</span>
+            <div className="relative">
+              <div className="hv5-card">
+                <Chrome url="lessoncraftstudio.com/play/…" />
+                <div className="max-h-[360px] overflow-hidden bg-white">
+                  <img src="/homepage/interactive-play.webp" alt={t('playAlt')} width={760} height={1120} loading="lazy" className="block w-full" />
+                </div>
+              </div>
+              {/* self-graded result, overlapping — proves it grades itself */}
+              <div className="absolute -bottom-5 -right-3 w-[58%] rounded-xl bg-white border border-[#14322D]/8 shadow-[0_16px_34px_-14px_rgba(20,50,45,0.4)] overflow-hidden rotate-[3deg]">
+                <img src="/homepage/interactive-celebrate.webp" alt={t('celebrateAlt')} width={900} height={556} loading="lazy" className="block w-full" />
+              </div>
             </div>
-            <h2 className="font-lcsDisplay font-bold text-lcs-cream leading-[1.05] tracking-tight text-[1.875rem] sm:text-[2.5rem] md:text-[3rem] lg:text-[3.5rem]">
-              {t('h2Line1')}<br />
-              <span className="text-lcs-coral">{t('h2Line2')}</span>
-            </h2>
-
-            <p className="mt-6 font-lcsBody text-base md:text-lg text-lcs-cream/85 leading-relaxed max-w-xl">
-              {t('body')}
-            </p>
-
-            <ul className="mt-6 space-y-3 font-lcsBody text-sm md:text-base text-lcs-cream/85">
-              <li className="flex items-start gap-2.5">
-                <span className="flex-shrink-0 w-1.5 h-1.5 mt-2 rounded-full bg-lcs-coral" aria-hidden="true" />
-                {t('list1')}
-              </li>
-              <li className="flex items-start gap-2.5">
-                <span className="flex-shrink-0 w-1.5 h-1.5 mt-2 rounded-full bg-lcs-coral" aria-hidden="true" />
-                {t('list2')}
-              </li>
-              <li className="flex items-start gap-2.5">
-                <span className="flex-shrink-0 w-1.5 h-1.5 mt-2 rounded-full bg-lcs-coral" aria-hidden="true" />
-                {t('list3')}
-              </li>
-            </ul>
-
-            <div className="mt-8">
-              <Link
-                href={`/${locale}/worksheet-makers/`}
-                className="hv3-cta-coral inline-flex items-center justify-center font-lcsDisplay font-semibold text-base px-6 py-3"
-              >
-                {t('cta')}
-                <svg className="ml-2 w-4 h-4" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <path d="M5 10h10M11 5l5 5-5 5" />
-                </svg>
-              </Link>
-            </div>
+            <h3 className="mt-8 font-lcsDisplay font-bold text-[#14322D] text-lg">{t('outPlayTitle')}</h3>
+            <p className="mt-1 font-lcsBody text-[15px] text-[#3d574f] leading-relaxed">{t('outPlayBody')}</p>
           </div>
 
-          <div className="relative">
-            <div className="hv3-card-deep hv3-card-on-color p-6 md:p-8 max-w-md mx-auto">
-              <div className="flex items-center justify-between mb-5">
-                <span className="font-lcsDisplay font-bold text-lcs-teal text-sm">{t('mockPanel.title')}</span>
-                <span className="hv3-code-chip text-xs">{t('mockPanel.codeChip')}</span>
-              </div>
-
-              <div className="space-y-3.5">
-                <div>
-                  <label className="block font-lcsBody text-xs font-bold text-lcs-teal/70 uppercase tracking-wider mb-1.5">{t('mockPanel.themeLabel')}</label>
-                  <div className="flex items-center justify-between px-4 py-2.5 bg-lcs-cream border-2 border-lcs-teal/15 rounded-lg">
-                    <span className="font-lcsBody text-sm text-lcs-teal font-semibold">{t('mockPanel.themeValue')}</span>
-                    <svg className="w-4 h-4 text-lcs-teal/60" viewBox="0 0 20 20" fill="currentColor"><path d="M5.5 7.5L10 12l4.5-4.5"/></svg>
-                  </div>
-                </div>
-                <div>
-                  <label className="block font-lcsBody text-xs font-bold text-lcs-teal/70 uppercase tracking-wider mb-1.5">{t('mockPanel.langLabel')}</label>
-                  <div className="flex items-center justify-between px-4 py-2.5 bg-lcs-cream border-2 border-lcs-teal/15 rounded-lg">
-                    <span className="font-lcsBody text-sm text-lcs-teal font-semibold">{t('mockPanel.langValue')}</span>
-                    <svg className="w-4 h-4 text-lcs-teal/60" viewBox="0 0 20 20" fill="currentColor"><path d="M5.5 7.5L10 12l4.5-4.5"/></svg>
-                  </div>
-                </div>
-                <div className="grid grid-cols-2 gap-3">
-                  <div>
-                    <label className="block font-lcsBody text-xs font-bold text-lcs-teal/70 uppercase tracking-wider mb-1.5">{t('mockPanel.rangeLabel')}</label>
-                    <div className="px-3 py-2.5 bg-lcs-cream border-2 border-lcs-teal/15 rounded-lg font-lcsBody text-sm text-lcs-teal font-semibold">0 — 10</div>
-                  </div>
-                  <div>
-                    <label className="block font-lcsBody text-xs font-bold text-lcs-teal/70 uppercase tracking-wider mb-1.5">{t('mockPanel.itemsLabel')}</label>
-                    <div className="px-3 py-2.5 bg-lcs-cream border-2 border-lcs-teal/15 rounded-lg font-lcsBody text-sm text-lcs-teal font-semibold">12</div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="mt-5 flex items-center gap-3 relative">
-                <button
-                  type="button"
-                  tabIndex={-1}
-                  aria-hidden="true"
-                  className="hv3-cta-coral flex-1 font-lcsDisplay font-semibold text-base px-5 py-3"
-                >
-                  {t('mockPanel.generateButton')}
-                </button>
-                <span aria-hidden="true" className="inline-block -mx-1">
-                  <Arrow className="text-lcs-teal/55" width={36} height={28} rotate={-5} strokeWidth={2} />
-                </span>
-                {/* v4 honesty chips: the plan's first on-page appearance is a
-                    CAPABILITY tag on a product feature, never a gate. Pre-flip
-                    the original single chip renders (§7 no-marketing lock). */}
-                {PRICING_PUBLIC ? (
-                  <div className="flex flex-col gap-1">
-                    <div className="px-3 py-1.5 bg-lcs-teal/8 rounded-lg font-lcsBody text-xs text-lcs-teal/70 font-semibold whitespace-nowrap">
-                      {t4('chipFree')}
-                    </div>
-                    <div className="px-3 py-1.5 bg-lcs-coral/10 rounded-lg font-lcsBody text-xs text-lcs-coral font-semibold whitespace-nowrap">
-                      {t4('chipTeacher')}
-                    </div>
-                  </div>
-                ) : (
-                  <div className="px-3 py-2 bg-lcs-teal/8 rounded-lg font-lcsBody text-xs text-lcs-teal/70 font-semibold">
-                    HTML + PDF
-                  </div>
-                )}
+          {/* Output 2 — prints as PDF */}
+          <div>
+            <div className="hv5-card">
+              <Chrome url="addition-fun.pdf" />
+              <div className="max-h-[360px] overflow-hidden bg-[#FBF3E4]">
+                <img src={`${CDN}/addition-find-addend-animals/thumbnail.png`} alt="The same worksheet as a printable PDF with answer key" width={760} height={980} loading="lazy" className="block w-full" />
               </div>
             </div>
+            <h3 className="mt-8 font-lcsDisplay font-bold text-[#14322D] text-lg">{t('outPrintTitle')}</h3>
+            <p className="mt-1 font-lcsBody text-[15px] text-[#3d574f] leading-relaxed">{t('outPrintBody')}</p>
+          </div>
+        </div>
 
-            <div className="absolute -top-5 -right-2 px-3 py-1.5 bg-lcs-cream rounded-full font-lcsBody font-bold text-xs text-lcs-teal shadow-[0_8px_16px_-4px_rgba(20,107,94,0.2)] hv3-float" style={{ ['--rot' as string]: '4deg' }}>
-              {t('mockPanel.floatingBadge')}
+        {/* Control depth — the real maker UI */}
+        <p className="mt-16 md:mt-20 hv5-eyebrow">{t('controlEyebrow')}</p>
+        <div className="mt-4 grid grid-cols-1 lg:grid-cols-[1.4fr_1fr] gap-8 lg:gap-12 items-start">
+          <div className="rounded-2xl overflow-hidden border border-[#14322D]/8 shadow-[0_20px_50px_-20px_rgba(20,50,45,0.35)]">
+            <Chrome url="lessoncraftstudio.com/worksheet-makers" />
+            <div className="bg-[#F4F2EC]">
+              <img src="/homepage/maker.webp" alt={t('makerAlt')} width={1400} height={1349} loading="lazy" className="block w-full h-auto" />
             </div>
           </div>
+          <ul className="space-y-6">
+            {controlFeatures.map((f) => (
+              <li key={f.title}>
+                <p className="font-lcsDisplay font-bold text-[#14322D] text-base md:text-lg">{f.title}</p>
+                <p className="font-lcsBody text-sm md:text-[15px] text-[#3d574f] leading-relaxed mt-0.5">{f.body}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-5">
+          <div className="rounded-2xl border border-[#14322D]/8 bg-white p-5">
+            <p className="font-lcsDisplay font-bold text-[#14322D] text-base md:text-lg">{t('f5Title')}</p>
+            <p className="font-lcsBody text-sm text-[#3d574f] leading-relaxed mt-1">{t('f5Body')}</p>
+          </div>
+          <div className="rounded-2xl border border-[#14322D]/8 bg-white p-5">
+            <p className="font-lcsDisplay font-bold text-[#14322D] text-base md:text-lg">{t('shipTitle')}</p>
+            <p className="font-lcsBody text-sm text-[#3d574f] leading-relaxed mt-1">{t('shipBody')}</p>
+          </div>
+        </div>
+
+        <div className="mt-10 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+          <Link href={`/${locale}/worksheet-makers/`} className="hv5-cta hv5-cta-primary text-base px-7 py-3.5">
+            {t('cta')}
+            <svg className="ml-2 w-4 h-4" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M5 10h10M11 5l5 5-5 5" /></svg>
+          </Link>
+          <Link href={`/${locale}/worksheets/`} className="font-lcsBody text-sm font-semibold text-[#146B5E] underline underline-offset-4 hover:text-lcs-coral">
+            {t('embedLink')}
+          </Link>
         </div>
       </div>
     </section>

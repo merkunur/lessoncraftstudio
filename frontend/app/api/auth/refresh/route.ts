@@ -80,7 +80,12 @@ export async function POST(request: NextRequest) {
       }
     });
 
-    // Return response
+    // Return response.
+    // IMPORTANT: include the subscription (it was loaded via include above). The
+    // client persists `user.subscription` from this payload on every background
+    // refresh; omitting it wipes an active subscriber's entitlement to `undefined`
+    // and renders them as FREE (isLcsSubscriptionActive → false). Mirrors
+    // /api/auth/signin + /api/auth/me (raw row serializes lsSubscriptionId).
     const response = NextResponse.json({
       success: true,
       accessToken,
@@ -92,6 +97,7 @@ export async function POST(request: NextRequest) {
         lastName: user.lastName,
         subscriptionTier: user.subscriptionTier,
       },
+      subscription: user.subscription,
     });
 
     // Update cookie

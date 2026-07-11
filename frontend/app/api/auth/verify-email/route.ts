@@ -126,6 +126,10 @@ export async function POST(request: NextRequest) {
         subscriptionTier: user.subscriptionTier,
         emailVerified: true,
       },
+      // Include the subscription (loaded above) so the client doesn't wipe an
+      // active subscriber to FREE on the post-verification auto-login. See
+      // /api/auth/refresh comment.
+      subscription: user.subscription,
       accessToken,
       refreshToken,
     });

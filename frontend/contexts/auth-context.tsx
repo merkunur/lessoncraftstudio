@@ -426,13 +426,20 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       localStorage.setItem('refreshToken', data.refreshToken);
     }
 
-    // Merge subscription into user object
-    const userWithSubscription = {
-      ...data.user,
-      subscription: data.subscription
-    };
-    setUser(userWithSubscription);
-    localStorage.setItem('user', JSON.stringify(userWithSubscription));
+    // Merge over the PREVIOUS user and NEVER wipe a known subscription.
+    // The refresh payload historically omitted `subscription`, and blindly
+    // writing `subscription: data.subscription` (= undefined) downgraded an
+    // active subscriber to FREE on every background refresh. Resilience rule:
+    // only change `subscription` when the response actually INCLUDES the key
+    // (an authoritative null still clears it — a genuine cancellation); a
+    // missing key preserves the known subscription. Also stop `...data.user`
+    // from dropping fields the refresh payload lacks (isAdmin/language/…).
+    let prevUser: User | null = null;
+    try { prevUser = JSON.parse(localStorage.getItem('user') || 'null'); } catch { /* ignore */ }
+    const merged: User = { ...(prevUser || {}), ...data.user } as User;
+    merged.subscription = ('subscription' in data) ? data.subscription : prevUser?.subscription;
+    setUser(merged);
+    localStorage.setItem('user', JSON.stringify(merged));
   };
 
   // Refresh token function with lock to prevent concurrent refreshes (race condition prevention)
@@ -575,11 +582,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         localStorage.setItem('refreshToken', data.refreshToken);
       }
 
-      // Merge subscription into user object
-      const userWithSubscription = {
-        ...data.user,
-        subscription: data.subscription
-      };
+      // Merge over the previous user; never wipe a known subscription when the
+      // response omits the key (same resilience rule as performRefresh).
+      let prevUser: User | null = null;
+      try { prevUser = JSON.parse(localStorage.getItem('user') || 'null'); } catch { /* ignore */ }
+      const userWithSubscription: User = { ...(prevUser || {}), ...data.user } as User;
+      userWithSubscription.subscription = ('subscription' in data) ? data.subscription : prevUser?.subscription;
       setUser(userWithSubscription);
       localStorage.setItem('user', JSON.stringify(userWithSubscription));
       toast.success('Email verified successfully! Welcome to LessonCraftStudio.');

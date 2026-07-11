@@ -3835,6 +3835,59 @@
     "allFormats": "Alle Formate",
     "breadcrumb": "Sprachen"
   },
+  "homepageV4": {
+    "metadata": {
+      "title": "Startseite v4 — Vorschau",
+      "description": "Interne Design-Vorschau des Homepage-v4-Aufbaus. Nicht indexiert."
+    },
+    "hero": {
+      "chipsAria": "LessonCraftStudio auf einen Blick",
+      "chipFree": "Kostenlos · Ohne Anmeldung",
+      "chipMakers": "33 Arbeitsblatt-Generatoren",
+      "chipThemes": "100+ Themen",
+      "chipLanguages": "11 Sprachen",
+      "chipPrintables": "45.000+ Druckvorlagen",
+      "localeNavAria": "Diese Seite in einer anderen Sprache ansehen",
+      "embedCta": "Bette jedes Arbeitsblatt in deinen Klassenblog oder die Schulwebsite ein — kostenlos"
+    },
+    "tryIt": {
+      "eyebrow": "Probier gleich eins aus",
+      "heading": "Such dir ein Arbeitsblatt aus und spiel es",
+      "body": "Neun verschiedene Arbeitsblatt-Mechaniken, direkt aus dem Live-Katalog. Jedes läuft im Browser und lässt sich als PDF drucken — kostenlos, ohne Konto.",
+      "openDeck": "Arbeitsblatt-Seite öffnen",
+      "seeAll": "Alle Arbeitsblätter ansehen"
+    },
+    "browse": {
+      "byGrade": "Arbeitsblätter nach Klassenstufe"
+    },
+    "freeTeacher": {
+      "eyebrow": "Für immer kostenlos · Ein Lehrkraft-Abo",
+      "heading": "Alles, was du heute nutzt, bleibt kostenlos",
+      "body": "Der ganze Katalog — Druckvorlagen, interaktive Arbeitsblätter, Aktivitäten und jeder Generator — ist ohne Konto kostenlos. Das Lehrkraft-Abo bringt Hosting, Teilen und Ordnung obendrauf.",
+      "priceAnnual": "$69",
+      "priceAnnualSuffix": "pro Jahr",
+      "priceMonthly": "oder $8.99/Monat",
+      "cta": "Zum Lehrkraft-Abo"
+    },
+    "signup": {
+      "eyebrow": "Kostenlos",
+      "h2Line1": "Keine Anmeldung nötig.",
+      "h2Line2": "Ein kostenloses Konto merkt sich nur deine Favoriten.",
+      "body": "Jede Übung, jedes Arbeitsblatt und jedes Werkzeug auf dieser Seite ist ohne Konto kostenlos nutzbar. Erstell ein kostenloses Konto, wenn deine Lieblings-Arbeitsblätter beim nächsten Mal gespeichert auf dich warten sollen.",
+      "ctaPrimary": "Übung starten",
+      "ctaSecondary": "Kostenloses Konto erstellen",
+      "teacherNote": "Exporte, Live-Links für die Klasse und Sammlungen stecken im Lehrkraft-Abo.",
+      "teacherLink": "Du unterrichtest? Zum Lehrkraft-Abo",
+      "mascotAlt": "Freundliches Elefanten-Maskottchen winkt dich herein"
+    },
+    "makers": {
+      "chipFree": "PDF · Kostenlos",
+      "chipTeacher": "Interaktiv + Freigabe-Link · Lehrkraft"
+    },
+    "embed": {
+      "bodyCatalogScoped": "Jedes Arbeitsblatt im Katalog kommt mit einem einzeiligen iframe-Schnipsel. Füg ihn ein, wo du willst. Es spielt direkt an Ort und Stelle. Ohne Konten. Ohne Bezahlschranken."
+    }
+  },
   "pricingPage": {
     "meta": {
       "title": "Preise & Abo — LessonCraftStudio",

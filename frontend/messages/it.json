@@ -4035,6 +4035,59 @@
     "allFormats": "Tutti i formati",
     "breadcrumb": "Lingue"
   },
+  "homepageV4": {
+    "metadata": {
+      "title": "Anteprima della home v4",
+      "description": "Anteprima interna del design della home v4. Non indicizzata."
+    },
+    "hero": {
+      "chipsAria": "LessonCraftStudio in sintesi",
+      "chipFree": "Gratis · Senza login",
+      "chipMakers": "33 generatori di schede",
+      "chipThemes": "100+ temi",
+      "chipLanguages": "11 lingue",
+      "chipPrintables": "45.000+ schede stampabili",
+      "localeNavAria": "Sfoglia questo sito in un’altra lingua",
+      "embedCta": "Incorpora qualsiasi scheda nel blog di classe o nel sito della scuola — gratis"
+    },
+    "tryIt": {
+      "eyebrow": "Provane una subito",
+      "heading": "Scegli una scheda e giocaci",
+      "body": "Nove meccaniche di scheda diverse, direttamente dal catalogo live. Ognuna si gioca nel browser e si stampa in PDF — gratis, senza account.",
+      "openDeck": "Apri la pagina della scheda",
+      "seeAll": "Vedi tutte le schede"
+    },
+    "browse": {
+      "byGrade": "Schede per classe"
+    },
+    "freeTeacher": {
+      "eyebrow": "Gratis per sempre · Un solo piano Insegnante",
+      "heading": "Tutto ciò che usi oggi resta gratuito",
+      "body": "L’intero catalogo — schede stampabili, schede interattive, attività e ogni generatore — è gratis, senza account. Il piano Insegnante aggiunge in più hosting, condivisione e organizzazione.",
+      "priceAnnual": "$69",
+      "priceAnnualSuffix": "all’anno",
+      "priceMonthly": "oppure $8.99/mese",
+      "cta": "Scopri il piano Insegnante"
+    },
+    "signup": {
+      "eyebrow": "Gratis",
+      "h2Line1": "Non serve registrarsi.",
+      "h2Line2": "Un account gratuito serve solo a salvare i tuoi preferiti.",
+      "body": "Ogni attività, scheda e strumento di questo sito è gratis, senza account. Crea un account gratuito quando vuoi ritrovare le tue schede preferite salvate e pronte per la prossima volta.",
+      "ctaPrimary": "Inizia un’attività",
+      "ctaSecondary": "Crea un account gratuito",
+      "teacherNote": "Esportazioni, link attivi per la classe e raccolte fanno parte del piano Insegnante.",
+      "teacherLink": "Insegni? Scopri il piano Insegnante",
+      "mascotAlt": "Elefantino mascotte che ti dà il benvenuto"
+    },
+    "makers": {
+      "chipFree": "PDF · Gratis",
+      "chipTeacher": "Interattiva + link di condivisione · Insegnante"
+    },
+    "embed": {
+      "bodyCatalogScoped": "Ogni scheda del catalogo include uno snippet iframe di una sola riga. Incollalo dove vuoi. Si gioca lì, sul posto. Senza account. Senza paywall."
+    }
+  },
   "pricingPage": {
     "meta": {
       "title": "Piani e prezzi — LessonCraftStudio",

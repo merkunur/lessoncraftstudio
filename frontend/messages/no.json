@@ -2518,6 +2518,59 @@
     "allFormats": "Alle formater",
     "breadcrumb": "Språk"
   },
+  "homepageV4": {
+    "metadata": {
+      "title": "Forhåndsvisning av forsiden v4",
+      "description": "Intern designforhåndsvisning av forsidens v4-oppbygning. Indekseres ikke."
+    },
+    "hero": {
+      "chipsAria": "LessonCraftStudio i korte trekk",
+      "chipFree": "Gratis · Ingen innlogging",
+      "chipMakers": "33 oppgavearkgeneratorer",
+      "chipThemes": "100+ temaer",
+      "chipLanguages": "11 språk",
+      "chipPrintables": "45 000+ utskriftsklare oppgaveark",
+      "localeNavAria": "Bla i nettstedet på et annet språk",
+      "embedCta": "Bygg inn hvilket som helst oppgaveark på klassebloggen eller skolens nettside — gratis"
+    },
+    "tryIt": {
+      "eyebrow": "Prøv ett med en gang",
+      "heading": "Velg et oppgaveark og spill det",
+      "body": "Ni ulike oppgaveark-mekanikker, rett fra den levende katalogen. Alle spilles i nettleseren og skrives ut som PDF — gratis, uten konto.",
+      "openDeck": "Åpne oppgavearkets side",
+      "seeAll": "Se alle oppgaveark"
+    },
+    "browse": {
+      "byGrade": "Oppgaveark etter trinn"
+    },
+    "freeTeacher": {
+      "eyebrow": "Gratis for alltid · Én lærerplan",
+      "heading": "Alt du bruker i dag, forblir gratis",
+      "body": "Hele katalogen — utskriftsklare oppgaveark, interaktive oppgaveark, aktiviteter og alle generatorene — er gratis uten konto. Lærerplanen legger til publisering på nett, deling og orden på toppen.",
+      "priceAnnual": "$69",
+      "priceAnnualSuffix": "per år",
+      "priceMonthly": "eller $8.99/mnd.",
+      "cta": "Se Lærerplanen"
+    },
+    "signup": {
+      "eyebrow": "Gratis",
+      "h2Line1": "Ingen registrering nødvendig.",
+      "h2Line2": "En gratis konto tar bare vare på favorittene dine.",
+      "body": "Alle aktiviteter, oppgaveark og verktøy på dette nettstedet er gratis å bruke uten konto. Lag en gratis konto når du vil ha favorittoppgavearkene dine lagret og klare til neste gang.",
+      "ctaPrimary": "Start en aktivitet",
+      "ctaSecondary": "Lag en gratis konto",
+      "teacherNote": "Eksport, levende klasselenker og samlinger hører til Lærerplanen.",
+      "teacherLink": "Underviser du? Se Lærerplanen",
+      "mascotAlt": "Vennlig elefantmaskot som vinker deg inn"
+    },
+    "makers": {
+      "chipFree": "PDF · Gratis",
+      "chipTeacher": "Interaktivt + delingslenke · Lærer"
+    },
+    "embed": {
+      "bodyCatalogScoped": "Hvert oppgaveark i katalogen kommer med en iframe-snutt på én linje. Lim den inn hvor som helst. Det spilles på stedet. Ingen kontoer. Ingen betalingsmurer."
+    }
+  },
   "pricingPage": {
     "meta": {
       "title": "Priser og abonnement — LessonCraftStudio",

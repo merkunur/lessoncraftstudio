@@ -2503,6 +2503,59 @@
     "allFormats": "Kaikki muodot",
     "breadcrumb": "Kielet"
   },
+  "homepageV4": {
+    "metadata": {
+      "title": "Etusivun v4-esikatselu",
+      "description": "Etusivun v4-rakenteen sisäinen design-esikatselu. Ei indeksoida."
+    },
+    "hero": {
+      "chipsAria": "LessonCraftStudio yhdellä silmäyksellä",
+      "chipFree": "Ilmainen · Ei kirjautumista",
+      "chipMakers": "33 tehtävägeneraattoria",
+      "chipThemes": "100+ teemaa",
+      "chipLanguages": "11 kieltä",
+      "chipPrintables": "45 000+ tulostettavaa tehtävää",
+      "localeNavAria": "Selaa sivustoa toisella kielellä",
+      "embedCta": "Upota mikä tahansa tehtävä luokan blogiin tai koulun sivuille — ilmaiseksi"
+    },
+    "tryIt": {
+      "eyebrow": "Kokeile yhtä heti",
+      "heading": "Valitse tehtävä ja pelaa",
+      "body": "Yhdeksän erilaista tehtävämekaniikkaa suoraan elävästä katalogista. Jokainen pelataan selaimessa ja tulostuu PDF:nä — ilmaiseksi, ilman tiliä.",
+      "openDeck": "Avaa tehtävän sivu",
+      "seeAll": "Näytä kaikki tehtävät"
+    },
+    "browse": {
+      "byGrade": "Tehtävät luokka-asteittain"
+    },
+    "freeTeacher": {
+      "eyebrow": "Ilmainen ikuisesti · Yksi Opettaja-tilaus",
+      "heading": "Kaikki, mitä käytät nyt, pysyy ilmaisena",
+      "body": "Koko katalogi — tulostettavat tehtävät, interaktiiviset tehtävät, aktiviteetit ja jokainen generaattori — on ilmainen ilman tiliä. Opettaja-tilaus tuo päälle tallennuksen verkkoon, jakamisen ja järjestyksen.",
+      "priceAnnual": "$69",
+      "priceAnnualSuffix": "vuodessa",
+      "priceMonthly": "tai $8.99/kk",
+      "cta": "Katso Opettaja-tilaus"
+    },
+    "signup": {
+      "eyebrow": "Ilmainen",
+      "h2Line1": "Rekisteröitymistä ei tarvita.",
+      "h2Line2": "Ilmainen tili vain säilyttää suosikkisi.",
+      "body": "Tämän sivuston jokainen tehtävä, harjoitus ja työkalu on ilmainen käyttää ilman tiliä. Luo ilmainen tili, kun haluat suosikkitehtäväsi talteen odottamaan seuraavaa kertaa.",
+      "ctaPrimary": "Aloita tehtävä",
+      "ctaSecondary": "Luo ilmainen tili",
+      "teacherNote": "Viennit, luokan toimivat linkit ja kokoelmat kuuluvat Opettaja-tilaukseen.",
+      "teacherLink": "Opetatko? Katso Opettaja-tilaus",
+      "mascotAlt": "Ystävällinen norsumaskotti viittoo sisään"
+    },
+    "makers": {
+      "chipFree": "PDF · Ilmainen",
+      "chipTeacher": "Interaktiivinen + jakolinkki · Opettaja"
+    },
+    "embed": {
+      "bodyCatalogScoped": "Katalogin jokaisen tehtävän mukana tulee yhden rivin iframe-katkelma. Liitä se minne tahansa. Tehtävä pelataan siinä paikassa. Ei tilejä. Ei maksumuureja."
+    }
+  },
   "pricingPage": {
     "meta": {
       "title": "Hinnat ja tilaus — LessonCraftStudio",

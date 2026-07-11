@@ -4064,6 +4064,13 @@
       "teacherNote": "Exports, live class links, and collections live in the Teacher plan.",
       "teacherLink": "Teaching? See the Teacher plan",
       "mascotAlt": "Friendly elephant mascot waving you in"
+    },
+    "makers": {
+      "chipFree": "PDF · Free",
+      "chipTeacher": "Interactive + share link · Teacher"
+    },
+    "embed": {
+      "bodyCatalogScoped": "Every worksheet in the catalog ships with a one-line iframe snippet. Paste it anywhere. It plays in place. No accounts. No paywalls."
     }
   },
   "pricingPage": {

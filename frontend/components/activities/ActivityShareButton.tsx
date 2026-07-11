@@ -79,7 +79,13 @@ export default function ActivityShareButton({
         </svg>
         {busy ? t('sharing') : t('button')}
       </button>
-      {share && <ActivityShareModal share={share} onClose={() => setShare(null)} />}
+      {share && (
+        <ActivityShareModal
+          share={share}
+          onClose={() => setShare(null)}
+          workspaceHref={`/${locale}/workspace`}
+        />
+      )}
     </>
   );
 }

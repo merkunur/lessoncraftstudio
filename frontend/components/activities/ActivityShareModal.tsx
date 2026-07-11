@@ -6,7 +6,8 @@
  * SharedActivitiesWidget (in the workspace) so the surface is identical
  * everywhere. Copy reads the `activityShare` namespace.
  */
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { useTranslations } from 'next-intl';
 
 export interface ActivityShare {
@@ -18,14 +19,36 @@ export interface ActivityShare {
 export default function ActivityShareModal({
   share,
   onClose,
+  workspaceHref,
 }: {
   share: ActivityShare;
   onClose: () => void;
+  /** When set (activity-page caller), the modal shows a "Saved to your
+   *  workspace" pointer link. Omitted by the workspace widget (redundant there). */
+  workspaceHref?: string;
 }) {
   const t = useTranslations('activityShare');
   const [copied, setCopied] = useState(false);
 
-  return (
+  // Lock background scroll + close on Escape while the modal is open
+  // (mirrors FeaturedDeckTileV3).
+  useEffect(() => {
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose(); };
+    document.addEventListener('keydown', onKey);
+    return () => {
+      document.body.style.overflow = prev;
+      document.removeEventListener('keydown', onKey);
+    };
+  }, [onClose]);
+
+  // Render OUTSIDE the activity page's stacking context (an iframe-bearing,
+  // overflow-hidden section paints over an inline fixed overlay) — portal to
+  // <body> so the fixed z-[100] overlay + card sit above everything.
+  if (typeof document === 'undefined') return null;
+
+  return createPortal(
     <div
       role="dialog"
       aria-modal="true"
@@ -89,6 +112,13 @@ export default function ActivityShareModal({
         </div>
 
         <p className="mt-5 text-xs text-ink-500">{t('shareNote')}</p>
+        {workspaceHref && (
+          <p className="mt-3 text-xs text-ink-500">
+            <a href={workspaceHref} className="text-teal-700 font-semibold hover:underline">
+              {t('savedToWorkspace')}
+            </a>
+          </p>
+        )}
         <button
           type="button"
           onClick={onClose}
@@ -97,6 +127,7 @@ export default function ActivityShareModal({
           {t('close')}
         </button>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }

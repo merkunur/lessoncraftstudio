@@ -5,6 +5,7 @@
    Lock body scroll while modal open; ESC closes. */
 
 import { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { wwwImg } from '@/lib/img-host';
@@ -108,7 +109,7 @@ export default function FeaturedDeckTileV3({
         </a>
       )}
 
-      {open && (
+      {open && typeof document !== 'undefined' && createPortal(
         <div
           className="fixed inset-0 z-[100] flex items-center justify-center bg-lcs-teal-deep/90 p-4 sm:p-8"
           role="dialog"
@@ -140,7 +141,8 @@ export default function FeaturedDeckTileV3({
               loading="lazy"
             />
           </div>
-        </div>
+        </div>,
+        document.body,
       )}
     </>
   );

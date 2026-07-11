@@ -17,7 +17,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
-import { selectBreadthGridDecks, type BreadthGridDeck } from '@/lib/breadth-grid-selection';
+import { selectShowcaseDecks, type ShowcaseDeck } from '@/lib/showcase-decks';
 import { wwwImg } from '@/lib/img-host';
 import FeaturedDeckTileV3 from '../homepage-v3/FeaturedDeckTileV3';
 
@@ -25,25 +25,25 @@ interface TryItBandV4Props {
   locale: string;
 }
 
-function titleFor(deck: BreadthGridDeck): string {
+function titleFor(deck: ShowcaseDeck): string {
   const titleMap = (deck.title ?? {}) as Record<string, string>;
   return titleMap[deck.language] || deck.slug;
 }
 
-function deckPageHref(deck: BreadthGridDeck): string {
+function deckPageHref(deck: ShowcaseDeck): string {
   return `/${deck.language}/decks/${deck.slug}/`;
 }
 
 export default async function TryItBandV4({ locale }: TryItBandV4Props) {
   let selection;
   try {
-    selection = await selectBreadthGridDecks(locale);
+    selection = await selectShowcaseDecks(locale);
   } catch (err) {
-    console.warn('[TryItBandV4] breadth-grid selection failed:', (err as Error).message);
+    console.warn('[TryItBandV4] showcase selection failed:', (err as Error).message);
     return null;
   }
 
-  const thumbs = [...selection.visiting, ...selection.crossLocale].slice(0, 8);
+  const thumbs = selection.thumbs.slice(0, 8);
   const featured = selection.featured;
   if (thumbs.length === 0 && !featured) return null;
 

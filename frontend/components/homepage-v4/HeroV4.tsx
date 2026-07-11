@@ -41,7 +41,7 @@ export default async function HeroV4({ locale }: HeroV4Props) {
 
             <h1 className="mt-3.5 font-lcsDisplay font-bold text-[#FBF3E4] leading-[1.03] tracking-[-0.02em] text-[2.5rem] sm:text-[3.125rem] lg:text-[3.625rem]">
               {t('h2Line1')}{' '}
-              <span className="whitespace-nowrap">{t('h2Line2Before')}<span className="text-lcs-coral">{t('h2Line2Squiggle')}</span>{t('h2Line2After')}</span>
+              <span className="md:whitespace-nowrap">{t('h2Line2Before')}<span className="text-lcs-coral">{t('h2Line2Squiggle')}</span>{t('h2Line2After')}</span>
             </h1>
 
             <p className="mt-5 font-lcsBody font-medium text-lg text-[#FBF3E4]/80 leading-relaxed max-w-[48ch]">

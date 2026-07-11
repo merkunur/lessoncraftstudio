@@ -3838,11 +3838,11 @@
   "pricingPage": {
     "meta": {
       "title": "Preise & Abo — LessonCraftStudio",
-      "description": "Ein Abo für Lehrkräfte: die interaktive Bilderbuch-Bibliothek, die komplette Werkstatt und Teilen mit der Klasse. Alles andere bleibt für immer kostenlos."
+      "description": "Ein einfaches Abo für Lehrkräfte: Speichere die interaktiven Arbeitsblätter, die du erstellst, als dauerhafte Links für deine Klasse, organisiere deine Sammlung und lade Themenpakete herunter. Alles andere auf LessonCraftStudio bleibt für immer kostenlos."
     },
     "hero": {
       "title": "Einfache Preise, gemacht für Lehrkräfte",
-      "subtitle": "Alles, was du heute nutzt, bleibt kostenlos — Arbeitsblätter, Aktivitäten, interaktives Üben und PDFs. Das Abo schaltet das tiefe Regal frei: die interaktive Bilderbuch-Bibliothek, die komplette Werkstatt und Tools zum Teilen mit deiner Klasse."
+      "subtitle": "Alles, was du heute nutzt, bleibt kostenlos — Arbeitsblätter, Aktivitäten, interaktives Üben und PDFs. Das Lehrkraft-Abo bringt dein eigenes Regal dazu: Speichere die Arbeitsblätter, die du erstellst, als Live-Links, teile sie mit deiner Klasse und behalte alles geordnet."
     },
     "free": {
       "title": "Für immer kostenlos",
@@ -3858,11 +3858,11 @@
       "name": "Lehrkraft",
       "priceSuffix": "pro Jahr",
       "includedTitle": "Alles Kostenlose, und dazu",
-      "item1": "Die komplette interaktive Bilderbuch-Bibliothek — jede Geschichte, jede Seite, mit Vorlesestimme",
-      "item2": "Die Werkstatt: unbegrenzt interaktive Arbeitsblätter aus allen 29 Generatoren, ohne Wasserzeichen",
-      "item3": "Deine Kreationen online hosten und per Link mit deiner Klasse teilen",
-      "item4": "Sammlungen und Arbeitsbereich-Tools, die alles ordnen",
-      "item5": "Früher Zugang zu neuen Premium-Inhalten — Story-Studio und Lehrplan-Pakete",
+      "item1": "Speichere die interaktiven Arbeitsblätter, die du in allen 29 Generatoren erstellst — online gehostet unter einem dauerhaften Link",
+      "item2": "Teile sie per Link und QR-Code mit deiner Klasse — die Kinder spielen sofort, ohne Konto, ohne Dateien",
+      "item3": "Dauerhafte Freigabe-Links und QR-Codes für jedes der 45.000+ Arbeitsblätter im Katalog — einzeln oder gesammelt",
+      "item4": "Sammlungen und ein Arbeitsbereich, die alles ordnen, womit du unterrichtest",
+      "item5": "Themenpakete: alle Druckvorlagen eines Themas in einem ZIP-Download",
       "ctaAnnual": "Abonnieren — $69/Jahr",
       "ctaMonthly": "Oder $8.99/Monat",
       "microcopy": "Keine Testphasen-Tricks — der kostenlose Katalog ist die Testphase. Verlängerung jederzeit kündbar. MwSt. inklusive, wo anwendbar.",

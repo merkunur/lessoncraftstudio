@@ -2514,11 +2514,11 @@
   "pricingPage": {
     "meta": {
       "title": "Priser og abonnement — LessonCraftStudio",
-      "description": "Ét enkelt lærerabonnement: det interaktive historiebibliotek, hele værktøjspakken og deling med klassen. Alt andet på LessonCraftStudio er gratis for altid."
+      "description": "Ét enkelt lærerabonnement: gem de interaktive opgaveark, du laver, som permanente links til klassen, organisér dit bibliotek, og download temapakker. Alt andet på LessonCraftStudio er gratis for altid."
     },
     "hero": {
       "title": "Enkle priser, lavet til lærere",
-      "subtitle": "Alt det, du bruger i dag, forbliver gratis — opgaveark, aktiviteter, interaktiv leg og PDF'er. Abonnementet tilføjer det ekstra lag: historiebiblioteket, hele værktøjspakken og redskaber til at dele med klassen."
+      "subtitle": "Alt det, du bruger i dag, forbliver gratis — opgaveark, aktiviteter, interaktiv leg og PDF'er. Lærerplanen tilføjer din egen hylde: gem de opgaveark, du laver, som levende links, del dem med klassen, og hold styr på det hele."
     },
     "free": {
       "title": "Gratis for altid",
@@ -2534,11 +2534,11 @@
       "name": "Lærer",
       "priceSuffix": "pr. år",
       "includedTitle": "Alt det gratis indhold, plus",
-      "item1": "Hele det interaktive historiebibliotek — hver historie, hver side, med oplæsning",
-      "item2": "Værktøjspakken: ubegrænsede interaktive opgaveark fra alle 29 generatorer, uden vandmærke",
-      "item3": "Læg dine egne opgaver online, og del dem med klassen via et link",
-      "item4": "Samlinger og arbejdsrum, der holder styr på det hele",
-      "item5": "Først i køen til nye premium-udgivelser — historiestudiet og læreplanspakkerne",
+      "item1": "Gem de interaktive opgaveark, du laver i alle 29 generatorer — hostet online med et permanent link",
+      "item2": "Del med klassen via link og QR-kode — eleverne spiller med det samme, uden konti, uden filer",
+      "item3": "Holdbare delelinks og QR-koder til alle 45.000+ opgaveark i kataloget — ét ad gangen eller i bundter",
+      "item4": "Samlinger og et arbejdsrum, der holder styr på alt det, du underviser med",
+      "item5": "Temapakker: et helt temas printklare opgaveark i én ZIP",
       "ctaAnnual": "Tegn abonnement — $69/år",
       "ctaMonthly": "Eller $8.99/md.",
       "microcopy": "Ingen kort-tricks med prøveperioder — det gratis katalog er prøveperioden. Opsig fornyelsen når som helst. Moms er inkluderet, hvor det er relevant.",

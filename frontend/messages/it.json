@@ -4038,11 +4038,11 @@
   "pricingPage": {
     "meta": {
       "title": "Piani e prezzi — LessonCraftStudio",
-      "description": "Un unico abbonamento per insegnanti: storie interattive, suite di creazione e condivisione con la classe. Tutto il resto resta gratuito per sempre."
+      "description": "Un unico abbonamento per insegnanti: salva le schede interattive che crei come link permanenti per la classe, organizza la tua raccolta e scarica i pacchetti tematici. Tutto il resto su LessonCraftStudio resta gratuito per sempre."
     },
     "hero": {
       "title": "Prezzi semplici, pensati per gli insegnanti",
-      "subtitle": "Tutto ciò che usi oggi resta gratuito — schede, attività, gioco interattivo e PDF. L'abbonamento aggiunge il ripiano premium: la biblioteca di storie interattive, la suite di creazione completa e gli strumenti per condividere con la classe."
+      "subtitle": "Tutto ciò che usi oggi resta gratuito — schede, attività, gioco interattivo e PDF. Il piano Insegnante aggiunge il tuo scaffale personale: salva le schede che crei come link attivi, condividile con la classe e tieni tutto in ordine."
     },
     "free": {
       "title": "Gratis per sempre",
@@ -4058,11 +4058,11 @@
       "name": "Insegnante",
       "priceSuffix": "all'anno",
       "includedTitle": "Tutto il gratis, e in più",
-      "item1": "L'intera biblioteca di storie interattive — ogni storia, ogni pagina, con narrazione",
-      "item2": "La suite di creazione: schede interattive illimitate da tutti i 29 generatori, senza filigrana",
-      "item3": "Pubblica online le tue creazioni e condividile con la classe tramite link",
-      "item4": "Raccolte e area di lavoro per organizzare tutto",
-      "item5": "Accesso in anteprima alle novità premium — lo studio delle storie e i pacchetti didattici",
+      "item1": "Salva le schede interattive che crei con tutti i 29 generatori — ospitate online con un link permanente",
+      "item2": "Condividi con la classe tramite link e codice QR — gli alunni giocano subito, senza account, senza file",
+      "item3": "Link di condivisione permanenti e codici QR per ognuna delle oltre 45.000 schede del catalogo — singole o in blocco",
+      "item4": "Raccolte e area di lavoro per organizzare tutto il tuo materiale",
+      "item5": "Pacchetti tematici: tutte le schede stampabili di un tema in un unico ZIP",
       "ctaAnnual": "Abbonati — $69/anno",
       "ctaMonthly": "Oppure $8.99/mese",
       "microcopy": "Nessuna prova con carta a trabocchetto: il catalogo gratuito è la prova. Annulla il rinnovo quando vuoi. IVA inclusa dove applicabile.",

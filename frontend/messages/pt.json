@@ -4023,11 +4023,11 @@
   "pricingPage": {
     "meta": {
       "title": "Planos e preços — LessonCraftStudio",
-      "description": "Uma assinatura para professores: histórias interativas, ferramentas de criação e compartilhamento com a turma. Todo o resto continua grátis para sempre."
+      "description": "Uma assinatura simples para professores: salve as atividades interativas que você cria como links permanentes para a turma, organize sua biblioteca e baixe pacotes por tema. Todo o resto no LessonCraftStudio continua grátis para sempre."
     },
     "hero": {
       "title": "Preço simples, feito para professores",
-      "subtitle": "Tudo o que você usa hoje continua grátis — atividades para imprimir, jogos interativos e PDFs. A assinatura adiciona a prateleira premium: a biblioteca de histórias interativas, o pacote completo de criação e as ferramentas para compartilhar com a turma."
+      "subtitle": "Tudo o que você usa hoje continua grátis — atividades para imprimir, jogos interativos e PDFs. O plano Professor adiciona a sua própria prateleira: salve as atividades que você cria como links ativos, compartilhe com a turma e mantenha tudo organizado."
     },
     "free": {
       "title": "Grátis para sempre",
@@ -4043,11 +4043,11 @@
       "name": "Professor",
       "priceSuffix": "por ano",
       "includedTitle": "Tudo do grátis, e mais",
-      "item1": "A biblioteca completa de histórias interativas — cada história, cada página, com narração",
-      "item2": "O pacote de criação: atividades interativas ilimitadas nos 29 geradores, sem marca-d'água",
-      "item3": "Hospede suas criações online e compartilhe com a turma por link",
-      "item4": "Coleções e espaço de trabalho para organizar tudo",
-      "item5": "Acesso antecipado aos novos lançamentos premium — o estúdio de histórias e os pacotes curriculares",
+      "item1": "Salve as atividades interativas que você cria nos 29 geradores — hospedadas online com um link permanente",
+      "item2": "Compartilhe com a turma por link e QR code — os alunos jogam na hora, sem conta, sem arquivos",
+      "item3": "Links de compartilhamento permanentes e QR codes para qualquer uma das mais de 45.000 atividades do catálogo — uma a uma ou em lote",
+      "item4": "Coleções e espaço de trabalho para organizar tudo o que você usa nas aulas",
+      "item5": "Pacotes por tema: todos os imprimíveis de um tema em um único ZIP",
       "ctaAnnual": "Assinar — $69/ano",
       "ctaMonthly": "Ou $8.99/mês",
       "microcopy": "Sem pegadinha de cartão no teste — o catálogo gratuito é o teste. Cancele a renovação quando quiser. Impostos incluídos quando aplicável.",

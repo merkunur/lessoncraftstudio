@@ -414,6 +414,132 @@
 }
 .hv5-chip-coral { color: #fff; background: #F2784B; }
 
+/* ═══════════════════════════════════════════════════════════════════════
+   DESIGN ELEVATION 2026-07-11 — grounds, depth, gallery masthead, rhythm.
+   ═══════════════════════════════════════════════════════════════════════ */
+.hv5 {
+  --e1: 0 1px 2px rgba(20,50,45,.06), 0 8px 18px -10px rgba(20,50,45,.16);
+  --e2: 0 2px 4px rgba(20,50,45,.06), 0 18px 34px -14px rgba(20,50,45,.20);
+  --e3: 0 4px 8px rgba(20,50,45,.08), 0 30px 60px -22px rgba(20,50,45,.30);
+}
+
+/* Cards at rest = e2; lift to e3 on hover. */
+.hv5-card { box-shadow: var(--e2); transition: transform .2s cubic-bezier(.22,1,.36,1), box-shadow .2s ease; }
+.hv5-card:hover { transform: translateY(-2px); box-shadow: var(--e3); }
+
+/* CTA polish — press states + hover fills. Base carries NO padding/size so
+   the per-button Tailwind px/py/text classes actually render (size hierarchy). */
+.hv5-cta { line-height: 1;
+  transition: transform .15s ease, box-shadow .15s ease, background .15s ease, border-color .15s ease; }
+/* Large primary for the conversion-critical CTAs (hero / Teacher / close). */
+.hv5-cta-lg { padding: 15px 32px; font-size: 1.0625rem; }
+@media (min-width: 768px) { .hv5-cta-lg { padding: 16px 34px; font-size: 1.125rem; } }
+.hv5-cta-primary:active { transform: translateY(1px); box-shadow: 0 1px 0 #D9633A, 0 4px 10px -6px rgba(242,120,75,.45); }
+.hv5-cta-ghost:hover { border-color: #146B5E; background: #F3F8F6; }
+.hv5-cta-ghost:active { background: #E9F1EE; }
+/* Cream-outline secondary for use on dark grounds (hero/close). */
+.hv5-cta-cream { background: transparent; color: #FBF3E4; border: 1.5px solid rgba(251,243,228,.45); }
+.hv5-cta-cream:hover { background: rgba(251,243,228,.12); border-color: rgba(251,243,228,.75); }
+
+/* One focus-visible ring system (homepage scope). */
+.hv5 :where(a,button,input,[role=menuitem]):focus-visible {
+  outline: none; box-shadow: 0 0 0 2px #FDFBF6, 0 0 0 5px rgba(20,107,94,.5);
+}
+
+/* ── Section grounds ──────────────────────────────────────── */
+.hv5-ground-base { background: #FDFBF6; }
+.hv5-ground-oat  { background: #FBF3E4; }
+.hv5-ground-mist { background: #F0F4F0; }
+.hv5-ground-teal { background: linear-gradient(160deg, #146B5E 0%, #0E544A 100%); color: #FBF3E4; }
+.hv5-ground-ink  { background: #14322D; color: #FBF3E4; }
+
+/* Ultra-faint warm dot-grid on light grounds (present only when looked for). */
+.hv5-dotgrid { position: relative; }
+.hv5-dotgrid::before {
+  content: ''; position: absolute; inset: 0; pointer-events: none; z-index: 0;
+  background-image: radial-gradient(rgba(20,50,45,.025) 1px, transparent 1px);
+  background-size: 26px 26px;
+}
+.hv5-dotgrid > * { position: relative; z-index: 1; }
+
+/* ── Gallery masthead (hero) ──────────────────────────────── */
+.hv5-masthead {
+  position: relative;
+  background:
+    radial-gradient(115% 85% at 80% 12%, rgba(242,120,75,0.26) 0%, transparent 52%),
+    linear-gradient(158deg, #14322D 0%, #0E544A 46%, #103F37 100%);
+}
+/* Grain overlay so the gradient never bands + gains a printed tooth. */
+.hv5-grain::after {
+  content: ''; position: absolute; inset: 0; pointer-events: none; z-index: 0;
+  opacity: .45; mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 140px 140px;
+}
+/* Real worksheet, mounted like framed art, GLOWING on the dark matte. */
+.hv5-card-glow {
+  border-radius: 16px; background: #fff; padding: 6px;
+  outline: 1px solid rgba(251,243,228,.12);
+  box-shadow:
+    0 1px 2px rgba(0,0,0,.28),
+    0 10px 22px -8px rgba(0,0,0,.42),
+    0 44px 80px -28px rgba(0,0,0,.60);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.hv5-card-glow img { display: block; width: 100%; height: auto; border-radius: 11px; }
+.hv5-card-glow:hover {
+  transform: translateY(-3px);
+  box-shadow:
+    0 2px 4px rgba(0,0,0,.30),
+    0 16px 30px -10px rgba(0,0,0,.48),
+    0 54px 94px -30px rgba(0,0,0,.64);
+}
+/* Front/hero card — coral rim + a warm halo that picks up the masthead glow. */
+.hv5-card-glow--hero {
+  outline: 1px solid rgba(242,120,75,.42);
+  box-shadow:
+    0 1px 2px rgba(0,0,0,.30),
+    0 14px 30px -10px rgba(0,0,0,.50),
+    0 50px 90px -30px rgba(0,0,0,.62),
+    0 30px 80px -30px rgba(242,120,75,.28);
+}
+
+/* ── Paper-panel transitions (light section rising over a dark one) ── */
+.hv5-paper-rise {
+  position: relative; z-index: 2; margin-top: -56px;
+  border-top-left-radius: 40px; border-top-right-radius: 40px;
+  box-shadow: 0 -24px 48px -24px rgba(14,50,45,.45);
+}
+.hv5-paper-rise-sm {
+  position: relative; z-index: 2; margin-top: -36px;
+  border-top-left-radius: 28px; border-top-right-radius: 28px;
+  box-shadow: 0 -18px 36px -22px rgba(14,50,45,.4);
+}
+@media (max-width: 767px) {
+  .hv5-paper-rise { margin-top: -32px; border-top-left-radius: 26px; border-top-right-radius: 26px; }
+}
+/* Full-bleed teal band recess (top inner shadow + coral hairline). */
+.hv5-band-recess { box-shadow: inset 0 22px 40px -28px rgba(0,0,0,.55); border-top: 1px solid #F2784B; }
+
+/* Focus rings on dark grounds — coral is visible on both light and dark. */
+.hv5-ground-teal :where(a,button,input,[role=menuitem]):focus-visible,
+.hv5-ground-ink :where(a,button,input,[role=menuitem]):focus-visible,
+.hv5-masthead :where(a,button,input,[role=menuitem]):focus-visible {
+  box-shadow: 0 0 0 2px #14322D, 0 0 0 5px #F2784B;
+}
+
+/* Mono "instrument" chip (CCSS codes, trust stats) — one spec, light + dark. */
+.hv5-chip-mono {
+  display: inline-flex; align-items: center;
+  font-family: ui-monospace, Menlo, monospace; font-weight: 600;
+  font-size: 0.6875rem; letter-spacing: 0.01em; color: #0E544A;
+  background: #DDEAE5; border-radius: 6px; padding: 2px 8px;
+}
+.hv5-chip-mono.on-dark {
+  color: rgba(251,243,228,.9); background: rgba(251,243,228,.10);
+  border: 1px solid rgba(251,243,228,.18); border-radius: 999px; padding: 5px 12px; font-size: 0.75rem;
+}
+
 /* ── Reduced motion: freeze every redesign animation ────────────────── */
 @media (prefers-reduced-motion: reduce) {
   .hv4-snap-tile,
@@ -421,4 +547,8 @@
   .hv4-demo-arrow,
   .hv4-word-cycle > span { animation: none; opacity: 1; transform: none; }
   .hv4-word-cycle > span:not(:first-child) { display: none; }
+  .hv5-card:hover, .hv5-card-glow:hover, .hv5-cta:hover, .hv5-cta:active { transform: none; }
+  .hv5 [class*="hover:-translate"]:hover,
+  .hv5 [class*="hover:scale"]:hover,
+  .hv5 .group:hover [class*="group-hover:scale"] { transform: none !important; }
 }

@@ -127,7 +127,7 @@ export default async function BrowseByTopicSSR({
   const group = (heading: string, links: Array<{ href: string; label: string; onlineHref?: string | null }>, browseHref?: string, browseLabel?: string) => {
     if (links.length === 0) return null;
     return (
-      <nav aria-label={heading} className="rounded-2xl border border-[#14322D]/8 bg-white p-7 md:p-8">
+      <nav aria-label={heading} className="rounded-2xl border border-[#14322D]/8 bg-white p-7 md:p-8 shadow-[var(--e1)] hover:shadow-[var(--e2)] transition-shadow">
         <h2 className="hv5-eyebrow mb-4">{heading}</h2>
         <ul className="grid grid-cols-2 sm:grid-cols-3 gap-x-6 gap-y-2">
           {links.map(l => (
@@ -165,7 +165,7 @@ export default async function BrowseByTopicSSR({
   };
 
   return (
-    <section id="browse-by-topic" className="bg-[#FDFBF6] py-20 md:py-24">
+    <section id="browse-by-topic" className="bg-[#F0F4F0] py-20 md:py-28">
       <div className="container mx-auto px-4 max-w-6xl mb-8 md:mb-10">
         <p className="hv5-eyebrow">{tBrowse('eyebrow')}</p>
         <h2 className="mt-3 font-lcsDisplay font-bold text-[#14322D] leading-[1.08] tracking-tight text-[1.875rem] sm:text-[2.5rem] md:text-[3rem]">{tBrowse('heading')}</h2>

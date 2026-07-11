@@ -50,7 +50,7 @@ export default async function TryItBandV4({ locale }: TryItBandV4Props) {
   const t4 = await getTranslations({ locale, namespace: 'homepageV4.tryIt' });
 
   return (
-    <section id="try-it" className="bg-[#FDFBF6] py-20 md:py-28 relative">
+    <section id="try-it" className="bg-[#FDFBF6] hv5-paper-rise relative pt-16 pb-20 md:pt-20 md:pb-28">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="max-w-3xl mb-10 md:mb-12">
           <p className="hv5-eyebrow">{t4('eyebrow')}</p>
@@ -111,7 +111,7 @@ export default async function TryItBandV4({ locale }: TryItBandV4Props) {
         <div className="mt-10 text-center lg:text-left">
           <Link
             href={`/${locale}/worksheets/`}
-            className="inline-flex items-center justify-center font-lcsDisplay font-semibold text-base md:text-lg px-6 py-3 rounded-2xl bg-lcs-teal text-lcs-cream hover:bg-lcs-teal-deep transition-colors"
+            className="hv5-cta hv5-cta-ghost text-base px-6 py-3"
           >
             {t4('seeAll')}
             <svg className="ml-2 w-4 h-4" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">

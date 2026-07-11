@@ -111,13 +111,13 @@ export function Navigation({
             {PRICING_PUBLIC && (
               <Link
                 href={`/${locale}/pricing`}
-                className="px-3 py-2 text-sm font-medium text-ink-600 hover:text-ink-900 hover:bg-cream-200 rounded-md transition-colors"
+                className="px-3 py-2 text-sm font-semibold text-[#14322D]/75 hover:text-[#14322D] hover:bg-[#146B5E]/[0.06] rounded-lg transition-colors"
               >
                 {t('pricing')}
               </Link>
             )}
             <LanguageSelector />
-            <div className="h-5 w-px bg-cream-300" />
+            <div className="h-5 w-px bg-[#14322D]/10" />
             <div className="flex items-center space-x-2">
               {user ? (
                 <>

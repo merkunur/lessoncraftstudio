@@ -2518,7 +2518,7 @@
     },
     "hero": {
       "chipsAria": "LessonCraftStudio kort fortalt",
-      "chipFree": "Gratis · Intet login",
+      "chipFree": "Gratis at spille · Intet login",
       "chipMakers": "33 opgaveark-generatorer",
       "chipThemes": "100+ temaer",
       "chipLanguages": "11 sprog",
@@ -2537,9 +2537,9 @@
       "byGrade": "Opgaveark efter klassetrin"
     },
     "freeTeacher": {
-      "eyebrow": "Gratis for altid · Én lærerplan",
-      "heading": "Alt det, du bruger i dag, forbliver gratis",
-      "body": "Hele kataloget — printklare opgaveark, interaktive opgaveark, aktiviteter og alle generatorerne — er gratis uden konto. Lærerplanen lægger hosting, deling og orden ovenpå.",
+      "eyebrow": "Et generøst gratis niveau · Én lærerplan",
+      "heading": "Spil gratis hver dag. Planen fjerner grænserne.",
+      "body": "Spil 10 interaktive opgaveark om dagen uden login, og download 3 printklare ark om måneden med en gratis konto. Lærerplanen gør spil og downloads ubegrænsede — plus hosting, klasselinks og orden.",
       "priceAnnual": "$69",
       "priceAnnualSuffix": "pr. år",
       "priceMonthly": "eller $8.99/md.",
@@ -2567,19 +2567,19 @@
   "pricingPage": {
     "meta": {
       "title": "Priser og abonnement — LessonCraftStudio",
-      "description": "Ét enkelt lærerabonnement: gem de interaktive opgaveark, du laver, som permanente links til klassen, organisér dit bibliotek, og download temapakker. Alt andet på LessonCraftStudio er gratis for altid."
+      "description": "Ét enkelt lærerabonnement: gem de interaktive opgaveark, du laver, som permanente links til klassen, organisér dit bibliotek, og download temapakker. Alt andet på LessonCraftStudio er fortsat åbent med et generøst gratis niveau."
     },
     "hero": {
       "title": "Enkle priser, lavet til lærere",
       "subtitle": "Alt det, du bruger i dag, forbliver gratis — opgaveark, aktiviteter, interaktiv leg og PDF'er. Lærerplanen tilføjer din egen hylde: gem de opgaveark, du laver, som levende links, del dem med klassen, og hold styr på det hele."
     },
     "free": {
-      "title": "Gratis for altid",
-      "blurb": "Ingen konto. Ingen begrænsninger. Det er det LessonCraftStudio, du allerede kender.",
+      "title": "Altid et gratis niveau",
+      "blurb": "Ingen login for at spille. En gratis konto tilføjer downloads. Generøse gratis grænser — aldrig et kort.",
       "item1": "45.000+ printklare opgaveark med facitlister",
-      "item2": "Spil alle interaktive opgaveark — uden login, uden loft",
+      "item2": "Spil interaktive opgaveark gratis — 10 om dagen, uden login",
       "item3": "200+ læringsaktiviteter, der følger målene fra børnehaveklassen og frem",
-      "item4": "Alle 29 opgaveark-generatorer med PDF-output",
+      "item4": "Alle 29 opgaveark-generatorer — 3 gratis PDF-downloads om måneden med en gratis konto",
       "item5": "Indlejr opgaveark på klassens blog eller skolens hjemmeside",
       "item6": "Det hele på 11 sprog"
     },
@@ -2595,14 +2595,15 @@
       "ctaAnnual": "Tegn abonnement — $69/år",
       "ctaMonthly": "Eller $8.99/md.",
       "microcopy": "Ingen kort-tricks med prøveperioder — det gratis katalog er prøveperioden. Opsig fornyelsen når som helst. Moms er inkluderet, hvor det er relevant.",
-      "familyTeaser": "En familieplan til derhjemme er på vej."
+      "familyTeaser": "En familieplan til derhjemme er på vej.",
+      "item0": "Ubegrænset spil og downloads — ingen dags- eller månedsgrænser"
     },
     "faq": {
       "title": "Spørgsmål og svar",
       "q1": "Forbliver det gratis indhold gratis?",
-      "a1": "Ja — permanent. Opgaveark, aktiviteter, interaktiv leg, PDF'er og generatorernes grundfunktioner er gratis for altid. Abonnementet tilføjer kun nyt og dybere materiale ovenpå.",
+      "a1": "Kataloget er fortsat åbent for alle: spil 10 interaktive opgaveark om dagen uden login, og download 3 printklare ark om måneden med en gratis konto. Lærerplanen fjerner grænserne og tilføjer hosting, klasselinks og orden — den tager aldrig det væk, der allerede er gratis.",
       "q2": "Er der en gratis prøveperiode?",
-      "a2": "Det gratis katalog er prøveperioden — tusindvis af opgaveark og aktiviteter, du kan bruge for altid uden at betale eller indtaste et kort. Tegn først abonnement, når premium-hylden er det værd for dig.",
+      "a2": "Kataloget ER prøveperioden: spil og download gratis — 10 spil om dagen og 3 downloads om måneden med en gratis konto — så længe du vil. Abonnér først, når du vil fjerne grænserne.",
       "q3": "Hvordan opsiger jeg?",
       "a3": "Med ét klik fra din betalingsside — ingen mails, ingen telefonopkald. Abonnementet fornys bare ikke, og du beholder adgangen, indtil perioden udløber.",
       "q4": "Skal mine elever have en konto?",

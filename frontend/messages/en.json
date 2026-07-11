@@ -4027,7 +4027,7 @@
     },
     "hero": {
       "chipsAria": "LessonCraftStudio at a glance",
-      "chipFree": "Free · No login",
+      "chipFree": "Free to play · No login",
       "chipMakers": "33 worksheet makers",
       "chipThemes": "100+ themes",
       "chipLanguages": "11 languages",
@@ -4046,9 +4046,9 @@
       "byGrade": "Worksheets by grade"
     },
     "freeTeacher": {
-      "eyebrow": "Free forever · One teacher plan",
-      "heading": "Everything you use today stays free",
-      "body": "The whole catalog — printables, interactive worksheets, activities, and every maker — is free without an account. The Teacher plan adds hosting, sharing, and organizing on top.",
+      "eyebrow": "A generous free tier · One teacher plan",
+      "heading": "Play free every day. The plan removes the limits.",
+      "body": "Play 10 interactive worksheets a day with no login, and download 3 printables a month with a free account. The Teacher plan makes play and downloads unlimited — plus hosting, class links, and organizing.",
       "priceAnnual": "$69",
       "priceAnnualSuffix": "per year",
       "priceMonthly": "or $8.99/month",
@@ -4076,19 +4076,19 @@
   "pricingPage": {
     "meta": {
       "title": "Plans & Pricing — LessonCraftStudio",
-      "description": "One simple teacher subscription: save the interactive worksheets you make as live links for your class, organize your library, and download topic packs. Everything else on LessonCraftStudio stays free forever."
+      "description": "One simple teacher subscription: save the interactive worksheets you make as live links for your class, organize your library, and download topic packs. Everything else on LessonCraftStudio stays open with a generous free tier."
     },
     "hero": {
       "title": "Simple pricing, built for teachers",
       "subtitle": "Everything you use today stays free — worksheets, activities, interactive play, and PDFs. The Teacher plan adds your own shelf: save the worksheets you make as live links, share them with your class, and keep it all organized."
     },
     "free": {
-      "title": "Free forever",
-      "blurb": "No account needed. No limits. This is the LessonCraftStudio you already know.",
+      "title": "Always a free tier",
+      "blurb": "No login needed to play. A free account adds downloads. Generous free limits — no card, ever.",
       "item1": "45,000+ printable worksheets with answer keys",
-      "item2": "Play every interactive worksheet — no login, no caps",
+      "item2": "Play interactive worksheets free — 10 a day, no login",
       "item3": "200+ curriculum-aligned learning activities",
-      "item4": "All 29 worksheet makers with PDF output",
+      "item4": "All 29 worksheet makers — 3 free PDF downloads a month with a free account",
       "item5": "Embed worksheets on your class blog or school site",
       "item6": "Everything in 11 languages"
     },
@@ -4104,14 +4104,15 @@
       "ctaAnnual": "Subscribe — $69/year",
       "ctaMonthly": "Or $8.99/month",
       "microcopy": "No trial card tricks — the free catalog is the trial. Cancel renewal anytime. VAT included where applicable.",
-      "familyTeaser": "A Family plan for home use is coming soon."
+      "familyTeaser": "A Family plan for home use is coming soon.",
+      "item0": "Unlimited play and downloads — no daily or monthly limits"
     },
     "faq": {
       "title": "Questions & answers",
       "q1": "Will the free content stay free?",
-      "a1": "Yes — permanently. Worksheets, activities, interactive play, PDFs, and the makers' basic use are free forever. The subscription only adds new, deeper material on top.",
+      "a1": "The catalog stays open to everyone: play 10 interactive worksheets a day with no login, and download 3 printables a month with a free account. The Teacher plan removes the limits and adds hosting, class links, and organizing — it never takes away what is already free.",
       "q2": "Is there a free trial?",
-      "a2": "The free catalog is the trial — thousands of worksheets and activities you can use forever without paying or entering a card. Subscribe only when the premium shelf is worth it to you.",
+      "a2": "The catalog IS the trial: play and download for free — 10 plays a day and 3 downloads a month with a free account — for as long as you like. Subscribe only when you want the limits removed.",
       "q3": "How do I cancel?",
       "a3": "In one click from your billing page — no emails, no phone calls. Your subscription simply doesn't renew, and you keep access until the period ends.",
       "q4": "Do my students need accounts?",

@@ -2521,7 +2521,7 @@
     },
     "hero": {
       "chipsAria": "LessonCraftStudio in één oogopslag",
-      "chipFree": "Gratis · Geen login",
+      "chipFree": "Gratis spelen · Geen login",
       "chipMakers": "33 werkbladmakers",
       "chipThemes": "100+ thema's",
       "chipLanguages": "11 talen",
@@ -2540,9 +2540,9 @@
       "byGrade": "Werkbladen per groep"
     },
     "freeTeacher": {
-      "eyebrow": "Voor altijd gratis · Eén Leerkracht-abonnement",
-      "heading": "Alles wat je nu gebruikt, blijft gratis",
-      "body": "De hele catalogus — printbare werkbladen, interactieve werkbladen, activiteiten en elke maker — is gratis zonder account. Het Leerkracht-abonnement voegt daar hosting, delen en organiseren aan toe.",
+      "eyebrow": "Een ruim gratis niveau · Eén Leerkracht-abonnement",
+      "heading": "Speel elke dag gratis. Het abonnement haalt de limieten weg.",
+      "body": "Speel 10 interactieve werkbladen per dag zonder inloggen en download 3 printbare werkbladen per maand met een gratis account. Het Leerkracht-abonnement maakt spelen en downloaden onbeperkt — plus hosting, klaslinks en ordenen.",
       "priceAnnual": "$69",
       "priceAnnualSuffix": "per jaar",
       "priceMonthly": "of $8.99/maand",
@@ -2570,19 +2570,19 @@
   "pricingPage": {
     "meta": {
       "title": "Prijzen & abonnement — LessonCraftStudio",
-      "description": "Eén eenvoudig abonnement voor leerkrachten: bewaar de interactieve werkbladen die je maakt als permanente links voor je klas, organiseer je bibliotheek en download themapakketten. Al het andere op LessonCraftStudio blijft voor altijd gratis."
+      "description": "Eén eenvoudig abonnement voor leerkrachten: bewaar de interactieve werkbladen die je maakt als permanente links voor je klas, organiseer je bibliotheek en download themapakketten. Al het andere op LessonCraftStudio blijft open met een ruim gratis niveau."
     },
     "hero": {
       "title": "Eenvoudige prijzen, gemaakt voor leerkrachten",
       "subtitle": "Alles wat je nu gebruikt, blijft gratis — werkbladen, activiteiten, interactief spelen en pdf's. Het Leerkracht-abonnement voegt je eigen plank toe: bewaar de werkbladen die je maakt als live links, deel ze met je klas en houd alles georganiseerd."
     },
     "free": {
-      "title": "Voor altijd gratis",
-      "blurb": "Geen account nodig. Geen limieten. Dit is het LessonCraftStudio dat je al kent.",
+      "title": "Er is altijd een gratis niveau",
+      "blurb": "Geen login nodig om te spelen. Een gratis account voegt downloads toe. Ruime gratis limieten — nooit een kaart nodig.",
       "item1": "45.000+ printbare werkbladen met antwoordbladen",
-      "item2": "Speel elk interactief werkblad — zonder inloggen, zonder plafond",
+      "item2": "Speel interactieve werkbladen gratis — 10 per dag, zonder inloggen",
       "item3": "200+ leeractiviteiten, afgestemd op de kerndoelen",
-      "item4": "Alle 29 werkbladmakers met pdf-uitvoer",
+      "item4": "Alle 29 werkbladmakers — 3 gratis pdf-downloads per maand met een gratis account",
       "item5": "Werkbladen insluiten op je klassenblog of schoolwebsite",
       "item6": "Alles in 11 talen"
     },
@@ -2598,14 +2598,15 @@
       "ctaAnnual": "Abonneren — $69/jaar",
       "ctaMonthly": "Of $8.99/maand",
       "microcopy": "Geen trucjes met proefkaarten — de gratis catalogus ís de proefperiode. Verlenging altijd opzegbaar. Inclusief btw waar van toepassing.",
-      "familyTeaser": "Een gezinsabonnement voor thuis komt binnenkort."
+      "familyTeaser": "Een gezinsabonnement voor thuis komt binnenkort.",
+      "item0": "Onbeperkt spelen en downloaden — geen dag- of maandlimieten"
     },
     "faq": {
       "title": "Vragen & antwoorden",
       "q1": "Blijft de gratis content gratis?",
-      "a1": "Ja — permanent. Werkbladen, activiteiten, interactief spelen, pdf's en het basisgebruik van de makers blijven voor altijd gratis. Het abonnement voegt alleen nieuw, dieper materiaal toe.",
+      "a1": "De catalogus blijft voor iedereen open: speel 10 interactieve werkbladen per dag zonder inloggen en download 3 printbare werkbladen per maand met een gratis account. Het Leerkracht-abonnement haalt de limieten weg en voegt hosting, klaslinks en ordenen toe — het neemt nooit weg wat al gratis is.",
       "q2": "Is er een gratis proefperiode?",
-      "a2": "De gratis catalogus ís de proefperiode — duizenden werkbladen en activiteiten die je voor altijd kunt gebruiken, zonder te betalen of een kaart in te voeren. Abonneer pas wanneer de premium plank het jou waard is.",
+      "a2": "De catalogus IS de proef: speel en download gratis — 10 keer spelen per dag en 3 downloads per maand met een gratis account — zo lang je wilt. Abonneer je pas als je de limieten wilt weghalen.",
       "q3": "Hoe zeg ik op?",
       "a3": "Met één klik vanaf je factuurpagina — geen e-mails, geen telefoontjes. Je abonnement wordt simpelweg niet verlengd en je houdt toegang tot het einde van de periode.",
       "q4": "Hebben mijn leerlingen accounts nodig?",

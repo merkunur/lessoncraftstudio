@@ -4042,7 +4042,7 @@
     },
     "hero": {
       "chipsAria": "LessonCraftStudio in sintesi",
-      "chipFree": "Gratis · Senza login",
+      "chipFree": "Gratis per giocare · Senza login",
       "chipMakers": "33 generatori di schede",
       "chipThemes": "100+ temi",
       "chipLanguages": "11 lingue",
@@ -4061,9 +4061,9 @@
       "byGrade": "Schede per classe"
     },
     "freeTeacher": {
-      "eyebrow": "Gratis per sempre · Un solo piano Insegnante",
-      "heading": "Tutto ciò che usi oggi resta gratuito",
-      "body": "L’intero catalogo — schede stampabili, schede interattive, attività e ogni generatore — è gratis, senza account. Il piano Insegnante aggiunge in più hosting, condivisione e organizzazione.",
+      "eyebrow": "Un generoso piano gratuito · Un solo piano Insegnante",
+      "heading": "Gioca gratis ogni giorno. Il piano rimuove i limiti.",
+      "body": "Gioca con 10 schede interattive al giorno senza login e scarica 3 schede da stampare al mese con un account gratuito. Il piano Insegnante rende gioco e download illimitati — più hosting, link per la classe e organizzazione.",
       "priceAnnual": "$69",
       "priceAnnualSuffix": "all’anno",
       "priceMonthly": "oppure $8.99/mese",
@@ -4091,19 +4091,19 @@
   "pricingPage": {
     "meta": {
       "title": "Piani e prezzi — LessonCraftStudio",
-      "description": "Un unico abbonamento per insegnanti: salva le schede interattive che crei come link permanenti per la classe, organizza la tua raccolta e scarica i pacchetti tematici. Tutto il resto su LessonCraftStudio resta gratuito per sempre."
+      "description": "Un unico abbonamento per insegnanti: salva le schede interattive che crei come link permanenti per la classe, organizza la tua raccolta e scarica i pacchetti tematici. Tutto il resto su LessonCraftStudio resta aperto con un generoso piano gratuito."
     },
     "hero": {
       "title": "Prezzi semplici, pensati per gli insegnanti",
       "subtitle": "Tutto ciò che usi oggi resta gratuito — schede, attività, gioco interattivo e PDF. Il piano Insegnante aggiunge il tuo scaffale personale: salva le schede che crei come link attivi, condividile con la classe e tieni tutto in ordine."
     },
     "free": {
-      "title": "Gratis per sempre",
-      "blurb": "Nessun account. Nessun limite. È il LessonCraftStudio che già conosci.",
+      "title": "C'è sempre un piano gratuito",
+      "blurb": "Nessun login per giocare. Un account gratuito aggiunge i download. Limiti gratuiti generosi — senza carta, mai.",
       "item1": "Oltre 45.000 schede stampabili con soluzioni",
-      "item2": "Gioca con tutte le schede interattive — senza login, senza limiti",
+      "item2": "Gioca con le schede interattive gratis — 10 al giorno, senza login",
       "item3": "Oltre 200 attività allineate ai programmi scolastici",
-      "item4": "Tutti i 29 generatori di schede con esportazione in PDF",
+      "item4": "Tutti i 29 generatori di schede — 3 download PDF gratuiti al mese con un account gratuito",
       "item5": "Incorpora le schede nel blog di classe o nel sito della scuola",
       "item6": "Tutto in 11 lingue"
     },
@@ -4119,14 +4119,15 @@
       "ctaAnnual": "Abbonati — $69/anno",
       "ctaMonthly": "Oppure $8.99/mese",
       "microcopy": "Nessuna prova con carta a trabocchetto: il catalogo gratuito è la prova. Annulla il rinnovo quando vuoi. IVA inclusa dove applicabile.",
-      "familyTeaser": "Presto in arrivo un piano Famiglia per l'uso a casa."
+      "familyTeaser": "Presto in arrivo un piano Famiglia per l'uso a casa.",
+      "item0": "Gioco e download illimitati — senza limiti giornalieri o mensili"
     },
     "faq": {
       "title": "Domande e risposte",
       "q1": "I contenuti gratuiti resteranno gratuiti?",
-      "a1": "Sì — per sempre. Schede, attività, gioco interattivo, PDF e l'uso di base dei generatori restano gratuiti per sempre. L'abbonamento aggiunge soltanto materiale nuovo e più approfondito.",
+      "a1": "Il catalogo resta aperto a tutti: gioca con 10 schede interattive al giorno senza login e scarica 3 schede da stampare al mese con un account gratuito. Il piano Insegnante rimuove i limiti e aggiunge hosting, link per la classe e organizzazione — non toglie mai ciò che è già gratuito.",
       "q2": "C'è una prova gratuita?",
-      "a2": "Il catalogo gratuito è la prova — migliaia di schede e attività da usare per sempre, senza pagare né inserire una carta. Abbonati solo quando il ripiano premium vale davvero la pena per te.",
+      "a2": "Il catalogo È la prova: gioca e scarica gratis — 10 partite al giorno e 3 download al mese con un account gratuito — per tutto il tempo che vuoi. Abbonati solo quando vuoi togliere i limiti.",
       "q3": "Come si annulla?",
       "a3": "Con un clic dalla pagina di fatturazione — niente email, niente telefonate. L'abbonamento semplicemente non si rinnova e mantieni l'accesso fino alla fine del periodo.",
       "q4": "I miei alunni hanno bisogno di un account?",

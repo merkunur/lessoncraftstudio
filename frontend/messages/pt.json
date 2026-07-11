@@ -4020,6 +4020,59 @@
     "allFormats": "Todos os formatos",
     "breadcrumb": "Idiomas"
   },
+  "homepageV4": {
+    "metadata": {
+      "title": "Prévia da página inicial v4",
+      "description": "Prévia interna de design da página inicial v4. Não indexada."
+    },
+    "hero": {
+      "chipsAria": "LessonCraftStudio em resumo",
+      "chipFree": "Grátis · Sem login",
+      "chipMakers": "33 geradores de atividades",
+      "chipThemes": "100+ temas",
+      "chipLanguages": "11 idiomas",
+      "chipPrintables": "45.000+ imprimíveis",
+      "localeNavAria": "Navegue neste site em outro idioma",
+      "embedCta": "Incorpore qualquer atividade no blog da turma ou no site da escola — grátis"
+    },
+    "tryIt": {
+      "eyebrow": "Experimente uma agora",
+      "heading": "Escolha uma atividade e jogue",
+      "body": "Nove mecânicas de atividade diferentes, direto do catálogo ao vivo. Todas funcionam no navegador e saem em PDF — grátis, sem precisar de conta.",
+      "openDeck": "Abrir a página da atividade",
+      "seeAll": "Ver todas as atividades"
+    },
+    "browse": {
+      "byGrade": "Atividades por ano escolar"
+    },
+    "freeTeacher": {
+      "eyebrow": "Grátis para sempre · Um único plano Professor",
+      "heading": "Tudo o que você usa hoje continua grátis",
+      "body": "O catálogo inteiro — atividades para imprimir, atividades interativas, atividades de aprendizagem e todos os geradores — é grátis, sem conta. O plano Professor adiciona hospedagem, compartilhamento e organização por cima.",
+      "priceAnnual": "$69",
+      "priceAnnualSuffix": "por ano",
+      "priceMonthly": "ou $8.99/mês",
+      "cta": "Ver o plano Professor"
+    },
+    "signup": {
+      "eyebrow": "Grátis",
+      "h2Line1": "Sem cadastro.",
+      "h2Line2": "Uma conta grátis só guarda seus favoritos.",
+      "body": "Toda atividade, folha e ferramenta deste site é grátis para usar sem conta. Crie uma conta grátis quando quiser que suas atividades favoritas fiquem salvas, esperando por você na próxima vez.",
+      "ctaPrimary": "Começar uma atividade",
+      "ctaSecondary": "Criar conta grátis",
+      "teacherNote": "Exportações, links ao vivo para a turma e coleções fazem parte do plano Professor.",
+      "teacherLink": "Você dá aulas? Conheça o plano Professor",
+      "mascotAlt": "Mascote elefante amigável dando as boas-vindas"
+    },
+    "makers": {
+      "chipFree": "PDF · Grátis",
+      "chipTeacher": "Interativa + link para compartilhar · Professor"
+    },
+    "embed": {
+      "bodyCatalogScoped": "Toda atividade do catálogo vem com um trecho iframe de uma linha. Cole onde quiser. Ela roda ali mesmo. Sem contas. Sem paywall."
+    }
+  },
   "pricingPage": {
     "meta": {
       "title": "Planos e preços — LessonCraftStudio",

@@ -26,11 +26,11 @@ import PillarActivities from '@/components/homepage-v3/PillarActivities';
 import PillarInteractive from '@/components/homepage-v3/PillarInteractive';
 import PillarPrintables from '@/components/homepage-v3/PillarPrintables';
 import TierTransition from '@/components/homepage-v3/TierTransition';
-import PillarMakers from '@/components/homepage-v3/PillarMakers';
+import PillarMakersV4 from '@/components/homepage-v4/PillarMakersV4';
 import PillarTools from '@/components/homepage-v3/PillarTools';
 import BrowseByTopicSSR from '@/components/homepage-v3/BrowseByTopicSSR';
 import FreeAndTeacherV4 from '@/components/homepage-v4/FreeAndTeacherV4';
-import EmbedShareV3 from '@/components/homepage-v3/EmbedShareV3';
+import EmbedShareV4 from '@/components/homepage-v4/EmbedShareV4';
 import SignupV4 from '@/components/homepage-v4/SignupV4';
 
 interface PageProps {
@@ -51,16 +51,16 @@ export default async function HomepageV4Page({ params }: PageProps) {
       <PillarInteractive locale={locale} />
       <PillarPrintables locale={locale} />
       <TierTransition locale={locale} />
-      <PillarMakers locale={locale} />
+      <PillarMakersV4 locale={locale} />
       <PillarTools locale={locale} />
       <BrowseByTopicSSR
         locale={locale}
-        maxThemesPerGroup={32}
+        maxThemesPerGroup={40}
         includeGradeGroup
         includeLanguageGroup
       />
       <FreeAndTeacherV4 locale={locale} />
-      <EmbedShareV3 locale={locale} />
+      <EmbedShareV4 locale={locale} />
       <SignupV4 locale={locale} />
     </main>
   );

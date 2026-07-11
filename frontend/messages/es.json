@@ -4033,6 +4033,59 @@
     "allFormats": "Todos los formatos",
     "breadcrumb": "Idiomas"
   },
+  "homepageV4": {
+    "metadata": {
+      "title": "Vista previa de la página de inicio v4",
+      "description": "Vista previa interna del diseño de la página de inicio v4. No indexada."
+    },
+    "hero": {
+      "chipsAria": "LessonCraftStudio de un vistazo",
+      "chipFree": "Gratis · Sin registro",
+      "chipMakers": "33 generadores de fichas",
+      "chipThemes": "100+ temas",
+      "chipLanguages": "11 idiomas",
+      "chipPrintables": "45,000+ imprimibles",
+      "localeNavAria": "Explora este sitio en otro idioma",
+      "embedCta": "Inserta cualquier ficha en el blog de tu clase o el sitio de tu escuela — gratis"
+    },
+    "tryIt": {
+      "eyebrow": "Prueba una ahora mismo",
+      "heading": "Elige una ficha y juégala",
+      "body": "Nueve mecánicas de ficha distintas, directo del catálogo en vivo. Todas se juegan en el navegador y se imprimen en PDF — gratis, sin cuenta.",
+      "openDeck": "Abrir la página de la ficha",
+      "seeAll": "Ver todas las fichas"
+    },
+    "browse": {
+      "byGrade": "Fichas por grado"
+    },
+    "freeTeacher": {
+      "eyebrow": "Gratis para siempre · Un solo plan Docente",
+      "heading": "Todo lo que usas hoy sigue gratis",
+      "body": "Todo el catálogo — imprimibles, fichas interactivas, actividades y cada generador — es gratis y sin cuenta. El plan Docente suma alojamiento en línea, uso compartido y organización.",
+      "priceAnnual": "$69",
+      "priceAnnualSuffix": "al año",
+      "priceMonthly": "o $8.99/mes",
+      "cta": "Ver el plan Docente"
+    },
+    "signup": {
+      "eyebrow": "Gratis",
+      "h2Line1": "No hace falta registrarse.",
+      "h2Line2": "Una cuenta gratis solo guarda tus favoritos.",
+      "body": "Cada actividad, ficha y herramienta de este sitio es gratis y sin cuenta. Crea una cuenta gratis cuando quieras que tus fichas favoritas queden guardadas y esperándote la próxima vez.",
+      "ctaPrimary": "Empezar una actividad",
+      "ctaSecondary": "Crear cuenta gratis",
+      "teacherNote": "Las exportaciones, los enlaces activos para tu grupo y las colecciones forman parte del plan Docente.",
+      "teacherLink": "¿Enseñas? Conoce el plan Docente",
+      "mascotAlt": "Elefantito que te invita a pasar"
+    },
+    "makers": {
+      "chipFree": "PDF · Gratis",
+      "chipTeacher": "Interactiva + enlace para compartir · Docente"
+    },
+    "embed": {
+      "bodyCatalogScoped": "Cada ficha del catálogo trae un fragmento iframe de una sola línea. Pégalo donde quieras. Se juega ahí mismo. Sin cuentas. Sin muros de pago."
+    }
+  },
   "pricingPage": {
     "meta": {
       "title": "Planes y precios — LessonCraftStudio",

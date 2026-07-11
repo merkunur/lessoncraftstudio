@@ -2534,6 +2534,59 @@
     "allFormats": "Tous les formats",
     "breadcrumb": "Langues"
   },
+  "homepageV4": {
+    "metadata": {
+      "title": "Aperçu de la page d’accueil v4",
+      "description": "Aperçu interne du design de la page d’accueil v4. Non indexé."
+    },
+    "hero": {
+      "chipsAria": "LessonCraftStudio en un coup d’œil",
+      "chipFree": "Gratuit · Sans connexion",
+      "chipMakers": "33 ateliers de fiches",
+      "chipThemes": "100+ thèmes",
+      "chipLanguages": "11 langues",
+      "chipPrintables": "45 000+ fiches à imprimer",
+      "localeNavAria": "Parcourir ce site dans une autre langue",
+      "embedCta": "Intégrez n’importe quelle fiche sur le blog de votre classe ou le site de votre école — gratuitement"
+    },
+    "tryIt": {
+      "eyebrow": "Essayez-en une maintenant",
+      "heading": "Choisissez une fiche et jouez-y",
+      "body": "Neuf mécaniques de fiches différentes, tirées directement du catalogue en ligne. Chacune se joue dans le navigateur et s’imprime en PDF — gratuitement, sans compte.",
+      "openDeck": "Ouvrir la page de la fiche",
+      "seeAll": "Voir toutes les fiches"
+    },
+    "browse": {
+      "byGrade": "Fiches par niveau"
+    },
+    "freeTeacher": {
+      "eyebrow": "Gratuit pour toujours · Un seul abonnement Enseignant",
+      "heading": "Tout ce que vous utilisez aujourd’hui reste gratuit",
+      "body": "Tout le catalogue — fiches à imprimer, fiches interactives, activités et chaque atelier de création — est gratuit, sans compte. L’abonnement Enseignant y ajoute l’hébergement, le partage et l’organisation.",
+      "priceAnnual": "$69",
+      "priceAnnualSuffix": "par an",
+      "priceMonthly": "ou $8.99/mois",
+      "cta": "Découvrir l’abonnement Enseignant"
+    },
+    "signup": {
+      "eyebrow": "Gratuit",
+      "h2Line1": "Inscription non requise.",
+      "h2Line2": "Un compte gratuit sert simplement à garder vos favoris.",
+      "body": "Toutes les activités, fiches et tous les outils du site sont gratuits sans compte. Créez un compte gratuit si vous voulez retrouver vos fiches préférées, sauvegardées, à votre prochaine visite.",
+      "ctaPrimary": "Lancer une activité",
+      "ctaSecondary": "Créer un compte gratuit",
+      "teacherNote": "Les exports, les liens actifs pour la classe et les collections font partie de l’abonnement Enseignant.",
+      "teacherLink": "Vous enseignez ? Découvrez l’abonnement Enseignant",
+      "mascotAlt": "Mascotte éléphant qui vous accueille d’un signe"
+    },
+    "makers": {
+      "chipFree": "PDF · Gratuit",
+      "chipTeacher": "Interactif + lien de partage · Enseignant"
+    },
+    "embed": {
+      "bodyCatalogScoped": "Chaque fiche du catalogue est livrée avec un extrait iframe d’une seule ligne. Collez-le où vous voulez. Elle se joue sur place. Sans compte. Sans barrière payante."
+    }
+  },
   "pricingPage": {
     "meta": {
       "title": "Offres et tarifs — LessonCraftStudio",

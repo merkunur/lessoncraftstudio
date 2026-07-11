@@ -2514,6 +2514,59 @@
     "allFormats": "Alle formats",
     "breadcrumb": "Talen"
   },
+  "homepageV4": {
+    "metadata": {
+      "title": "Homepage v4 — voorbeeld",
+      "description": "Interne designpreview van de homepage-v4-opbouw. Niet geïndexeerd."
+    },
+    "hero": {
+      "chipsAria": "LessonCraftStudio in één oogopslag",
+      "chipFree": "Gratis · Geen login",
+      "chipMakers": "33 werkbladmakers",
+      "chipThemes": "100+ thema's",
+      "chipLanguages": "11 talen",
+      "chipPrintables": "45.000+ printbare werkbladen",
+      "localeNavAria": "Bekijk deze site in een andere taal",
+      "embedCta": "Sluit elk werkblad in op je klassenblog of schoolwebsite — gratis"
+    },
+    "tryIt": {
+      "eyebrow": "Probeer er nu een",
+      "heading": "Kies een werkblad en speel het",
+      "body": "Negen verschillende werkbladmechanieken, rechtstreeks uit de live catalogus. Elk werkblad speelt in de browser en print als pdf — gratis, zonder account.",
+      "openDeck": "Werkbladpagina openen",
+      "seeAll": "Alle werkbladen bekijken"
+    },
+    "browse": {
+      "byGrade": "Werkbladen per groep"
+    },
+    "freeTeacher": {
+      "eyebrow": "Voor altijd gratis · Eén Leerkracht-abonnement",
+      "heading": "Alles wat je nu gebruikt, blijft gratis",
+      "body": "De hele catalogus — printbare werkbladen, interactieve werkbladen, activiteiten en elke maker — is gratis zonder account. Het Leerkracht-abonnement voegt daar hosting, delen en organiseren aan toe.",
+      "priceAnnual": "$69",
+      "priceAnnualSuffix": "per jaar",
+      "priceMonthly": "of $8.99/maand",
+      "cta": "Bekijk het Leerkracht-abonnement"
+    },
+    "signup": {
+      "eyebrow": "Gratis",
+      "h2Line1": "Geen aanmelding nodig.",
+      "h2Line2": "Een gratis account bewaart alleen je favorieten.",
+      "body": "Elke activiteit, elk werkblad en elk hulpmiddel op deze site is gratis te gebruiken zonder account. Maak een gratis account aan als je wilt dat je favoriete werkbladen bewaard blijven en de volgende keer voor je klaarstaan.",
+      "ctaPrimary": "Start een activiteit",
+      "ctaSecondary": "Gratis account aanmaken",
+      "teacherNote": "Exports, live klaslinks en collecties zitten in het Leerkracht-abonnement.",
+      "teacherLink": "Geef je les? Bekijk het Leerkracht-abonnement",
+      "mascotAlt": "Vriendelijke olifant-mascotte verwelkomt je"
+    },
+    "makers": {
+      "chipFree": "Pdf · Gratis",
+      "chipTeacher": "Interactief + deellink · Leerkracht"
+    },
+    "embed": {
+      "bodyCatalogScoped": "Elk werkblad in de catalogus komt met een iframe-snippet van één regel. Plak hem waar je wilt. Het speelt ter plekke. Geen accounts. Geen betaalmuren."
+    }
+  },
   "pricingPage": {
     "meta": {
       "title": "Prijzen & abonnement — LessonCraftStudio",

@@ -2514,6 +2514,59 @@
     "allFormats": "Alla format",
     "breadcrumb": "Språk"
   },
+  "homepageV4": {
+    "metadata": {
+      "title": "Förhandsvisning av startsidan v4",
+      "description": "Intern designförhandsvisning av startsidans v4-uppbyggnad. Indexeras inte."
+    },
+    "hero": {
+      "chipsAria": "LessonCraftStudio i korthet",
+      "chipFree": "Gratis · Ingen inloggning",
+      "chipMakers": "33 arbetsbladsgeneratorer",
+      "chipThemes": "100+ teman",
+      "chipLanguages": "11 språk",
+      "chipPrintables": "45 000+ utskrivbara arbetsblad",
+      "localeNavAria": "Bläddra på webbplatsen på ett annat språk",
+      "embedCta": "Bädda in vilket arbetsblad som helst på klassbloggen eller skolans webbplats — gratis"
+    },
+    "tryIt": {
+      "eyebrow": "Prova ett direkt",
+      "heading": "Välj ett arbetsblad och spela det",
+      "body": "Nio olika arbetsbladsmekaniker, direkt ur den levande katalogen. Alla spelas i webbläsaren och skrivs ut som PDF — gratis, utan konto.",
+      "openDeck": "Öppna arbetsbladets sida",
+      "seeAll": "Se alla arbetsblad"
+    },
+    "browse": {
+      "byGrade": "Arbetsblad efter årskurs"
+    },
+    "freeTeacher": {
+      "eyebrow": "Gratis för alltid · En lärarplan",
+      "heading": "Allt du använder i dag förblir gratis",
+      "body": "Hela katalogen — utskrivbara arbetsblad, interaktiva arbetsblad, aktiviteter och varje generator — är gratis utan konto. Lärarplanen lägger till publicering, delning och ordning ovanpå.",
+      "priceAnnual": "$69",
+      "priceAnnualSuffix": "per år",
+      "priceMonthly": "eller $8.99/månad",
+      "cta": "Se Lärarplanen"
+    },
+    "signup": {
+      "eyebrow": "Gratis",
+      "h2Line1": "Ingen registrering behövs.",
+      "h2Line2": "Ett gratis konto sparar bara dina favoriter.",
+      "body": "Varje aktivitet, arbetsblad och verktyg på den här sidan är gratis att använda utan konto. Skapa ett gratis konto när du vill ha dina favoritarbetsblad sparade och redo nästa gång.",
+      "ctaPrimary": "Starta en aktivitet",
+      "ctaSecondary": "Skapa ett gratis konto",
+      "teacherNote": "Exporter, levande klasslänkar och samlingar ingår i Lärarplanen.",
+      "teacherLink": "Undervisar du? Se Lärarplanen",
+      "mascotAlt": "Vänlig elefantmaskot som vinkar in dig"
+    },
+    "makers": {
+      "chipFree": "PDF · Gratis",
+      "chipTeacher": "Interaktivt + delningslänk · Lärare"
+    },
+    "embed": {
+      "bodyCatalogScoped": "Varje arbetsblad i katalogen levereras med en iframe-snutt på en rad. Klistra in den var som helst. Det spelas på plats. Inga konton. Inga betalväggar."
+    }
+  },
   "pricingPage": {
     "meta": {
       "title": "Priser och abonnemang — LessonCraftStudio",

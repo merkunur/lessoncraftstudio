@@ -79,6 +79,8 @@ model User {
   studioShareLinks   StudioShareLink[]
   // Hosted interactive worksheets (2026-07 subscription launch). Prisma virtual; emit no SQL.
   hostedWorksheets   HostedWorksheet[]
+  // Usage metering (2026-07-12 metered paywall). Prisma virtual; emit no SQL.
+  usageQuotas        UsageQuota[]
 
   @@index([email])
   @@index([stripeCustomerId])
@@ -1315,6 +1317,30 @@ model HostedWorksheet {
   @@index([teacherId])
   @@index([status])
   @@map("hosted_worksheets")
+}
+
+// Usage metering (2026-07-12 metered paywall — education.com/IXL model).
+// kind 'download' meters per UTC month (period_start = first of month);
+// kind 'play' meters per UTC day (period_start = UTC midnight). One row per
+// identity+kind+period; atomic upsert increments. Anonymous identity =
+// lcs_anon_id cookie (soft — the wall is a nudge, not DRM). The old
+// daily_quotas table (dropped 2026-05-17) is this model's ancestor.
+model UsageQuota {
+  id          String   @id @default(cuid())
+  userId      String?  @map("user_id")
+  anonymousId String?  @map("anonymous_id") @db.VarChar(64)
+  kind        String   @db.VarChar(10)
+  periodStart DateTime @map("period_start")
+  actionCount Int      @default(0) @map("action_count")
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  user User? @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, kind, periodStart])
+  @@unique([anonymousId, kind, periodStart])
+  @@index([periodStart])
+  @@map("usage_quotas")
 }
 
 // Family C — workspace

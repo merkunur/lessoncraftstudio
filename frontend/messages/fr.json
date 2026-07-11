@@ -2639,5 +2639,14 @@
     "body": "Votre abonnement est actif. Votre compte peut mettre quelques secondes à se mettre à jour — actualisez l'espace de travail s'il n'apparaît pas encore.",
     "emailNote": "Nouveau ici ? Nous vous avons envoyé par e-mail un lien pour définir votre mot de passe.",
     "cta": "Ouvrir mon espace de travail"
+  },
+  "quotaWall": {
+    "exceededTitle": "Vous avez utilisé vos essais gratuits du jour",
+    "exceededBody": "Revenez demain pour en avoir plus, ou débloquez le jeu et les téléchargements illimités avec l'abonnement Enseignant.",
+    "signupTitle": "Créez un compte gratuit pour télécharger",
+    "signupBody": "Les comptes gratuits ont 3 téléchargements par mois. Créez-en un en quelques secondes, sans carte.",
+    "subscribeCta": "Voir l'abonnement Enseignant",
+    "signupCta": "Inscription gratuite",
+    "dismissCta": "Plus tard"
   }
 }

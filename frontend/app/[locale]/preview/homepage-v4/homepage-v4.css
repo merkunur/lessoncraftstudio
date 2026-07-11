@@ -1,0 +1,99 @@
+/* Homepage v4 — ADDITIVE classes only. Layered on top of homepage-v3.css
+   (imported by the v4 preview layout before this file). Nothing here
+   overrides an existing .hv3-* rule; every selector is hv4-prefixed.
+   Direction A palette: cream #FBF3E4 / teal #146B5E / deep teal #0E544A /
+   coral #F2784B. */
+
+/* ── HeroV4 (a): magnitude chip row ─────────────────────────────────── */
+.hv4-magnitude-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 22px;
+  padding: 0;
+  list-style: none;
+}
+.hv4-magnitude-chip {
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  letter-spacing: 0.02em;
+  color: #FBF3E4;
+  background: rgba(251, 243, 228, 0.10);
+  border: 1.5px solid rgba(251, 243, 228, 0.35);
+  border-radius: 999px;
+  padding: 6px 14px;
+  white-space: nowrap;
+}
+.hv4-magnitude-chip-accent {
+  background: #F2784B;
+  border-color: #F2784B;
+  color: #FBF3E4;
+  box-shadow: 0 6px 14px -4px rgba(217, 99, 58, 0.55);
+}
+
+/* ── HeroV4 (b): real locale-link strip (was decorative in v3) ──────── */
+.hv4-locale-strip {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+  max-width: 100%;
+  padding: 8px 14px;
+  background: #FBF3E4;
+  border: 1px solid rgba(20, 107, 94, 0.08);
+  border-radius: 22px;
+  box-shadow: 0 12px 28px -8px rgba(0, 0, 0, 0.4);
+}
+.hv4-locale-chip-link {
+  text-decoration: none;
+  text-transform: none; /* native names, not codes — keep natural casing */
+  letter-spacing: 0.02em;
+  font-size: 0.75rem;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.hv4-locale-chip-link:hover {
+  background: #F2784B;
+  color: #FBF3E4;
+}
+
+/* ── HeroV4 (c): quiet above-fold embed micro-CTA ───────────────────── */
+.hv4-micro-cta {
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  color: rgba(251, 243, 228, 0.72);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(251, 243, 228, 0.35);
+  transition: color 0.15s ease;
+}
+.hv4-micro-cta:hover {
+  color: #F2784B;
+  text-decoration-color: #F2784B;
+}
+
+/* ── TryItBandV4 ─────────────────────────────────────────────────────── */
+.hv4-tryit-featured {
+  position: sticky;
+  top: 24px;
+}
+@media (max-width: 1023px) {
+  .hv4-tryit-featured {
+    position: static;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+}
+
+/* ── FreeAndTeacherV4: Teacher card on cream ground ─────────────────── */
+.hv4-teacher-card {
+  background: #146B5E;
+  color: #FBF3E4;
+  border-radius: 28px;
+  box-shadow:
+    0 2px 0 rgba(0, 0, 0, 0.12),
+    0 18px 32px -10px rgba(14, 84, 74, 0.35),
+    0 42px 60px -20px rgba(14, 84, 74, 0.25);
+}

@@ -21,6 +21,16 @@ interface Props {
    * Composed server-side via `buildDeckRichAlt(deck, locale, t)`.
    */
   richAlt?: string;
+  /**
+   * OPTIONAL (additive, homepage-v4 preview): when set, a crawlable plain
+   * `<a>` link to the deck page renders beneath the tile. Plain anchor —
+   * NOT next/link — because /decks/ URLs are nginx-served with a trailing
+   * slash (§15.7 routing contract; <Link> strips the slash and 404s).
+   * Absent (all existing v3 call sites) → DOM output is byte-identical.
+   */
+  deckHref?: string;
+  /** Visible text for the deckHref link; defaults to the deck title. */
+  deckHrefLabel?: string;
 }
 
 export default function FeaturedDeckTileV3({
@@ -29,6 +39,8 @@ export default function FeaturedDeckTileV3({
   thumbnailUrl,
   deckUrl,
   richAlt,
+  deckHref,
+  deckHrefLabel,
 }: Props) {
   const t = useTranslations('homepageV3.featuredTile');
   const [open, setOpen] = useState(false);
@@ -86,6 +98,15 @@ export default function FeaturedDeckTileV3({
           </span>
         </div>
       </button>
+
+      {deckHref && (
+        <a
+          href={deckHref}
+          className="mt-3 inline-block font-lcsBody text-sm font-semibold text-lcs-teal/70 hover:text-lcs-coral hover:underline"
+        >
+          {deckHrefLabel ?? title} →
+        </a>
+      )}
 
       {open && (
         <div

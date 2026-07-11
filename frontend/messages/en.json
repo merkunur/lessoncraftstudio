@@ -3653,6 +3653,19 @@
     "preschool__winter": "Winter worksheets for preschool wrap early-skills practice in snowmen, mittens, and cozy pictures for three- to five-year-olds. Counting small sets, matching, and simple patterns keep little hands busy on dark afternoons, indoors at preschool or at the kitchen table. The pages are picture-first with nothing to read, and every one is a free printable PDF that also plays online — no signup needed.",
     "4th_of_july__preschool": "4th of July worksheets for preschool give three- to five-year-olds flags, stars, and fireworks to count, match, and sort. The pages are simple and picture-only, sized for short attention spans during the holiday week — a quiet-time activity for summer mornings or a back-seat packet for the drive to the parade. Every sheet is a free printable PDF with an online version to match, no account required."
   },
+  "activityShare": {
+    "button": "Share with your class",
+    "sharing": "Creating link…",
+    "modalIntro": "Share this activity with your class.",
+    "qrAlt": "QR code for this activity",
+    "linkLabel": "Activity link",
+    "copy": "Copy link",
+    "copied": "Copied!",
+    "openActivity": "Open activity",
+    "downloadQr": "Download QR",
+    "shareNote": "Students scan the QR code or open the link — no account or app needed. The link works on any device.",
+    "close": "Close"
+  },
   "workspace": {
     "billing": {
       "line": "Teacher subscription — active",
@@ -3722,6 +3735,16 @@
       "openWorksheet": "Open worksheet",
       "downloadQr": "Download QR",
       "shareNote": "Students scan the QR code or open the link — no account or app needed. The link works on any device."
+    },
+    "sharedActivities": {
+      "title": "Activities I've shared",
+      "empty": "Activities you share with your class appear here.",
+      "views": "{count} plays",
+      "share": "Share",
+      "rename": "Rename",
+      "renamePrompt": "New name",
+      "delete": "Delete",
+      "deleteConfirm": "Delete this shared activity? Its link will stop working."
     },
     "favorites": {
       "title": "My favorites",
@@ -4147,7 +4170,11 @@
       "manip1": "Ten-frame",
       "manip2": "Number line",
       "manip3": "Ruler",
-      "cta": "Start an activity"
+      "cta": "Start an activity",
+      "shareTitle": "Share any activity with your class",
+      "shareTag": "Teacher plan",
+      "shareBody": "Turn any of the 200+ activities into a clean student link and QR code. Project it, print the code, or send it home — students play instantly, no accounts and no files.",
+      "shareLink": "See the Teacher plan"
     },
     "freeTeacher": {
       "eyebrow": "Start free · Upgrade when the makers become your habit",
@@ -4170,6 +4197,7 @@
       "teacher4": "Durable share links for any of the 45,309 catalog worksheets — single or in bulk",
       "teacher5": "Collections and a workspace to organize your whole year",
       "teacher6": "Topic packs — a whole topic's printables in one ZIP",
+      "teacher7": "Share any of the 200+ interactive activities by link and QR",
       "anchorLine": "$69 a year — less than the makers alone are worth.",
       "framing": "The makers are open on the free tier, so you see exactly what you would pay for. The plan is what lets you keep and share what you make.",
       "ctaPrimary": "Get the Teacher plan",

@@ -64,6 +64,26 @@ export default async function ActivitiesMoatV4({ locale }: Props) {
             <svg className="ml-2 w-4 h-4" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M5 10h10M11 5l5 5-5 5" /></svg>
           </Link>
         </div>
+
+        {/* Subscriber share-with-your-class callout. */}
+        <div className="mt-10 rounded-2xl border border-[#146B5E]/15 bg-white p-6 md:p-7 shadow-[var(--e1)] flex flex-col sm:flex-row sm:items-center gap-5">
+          <div className="shrink-0 flex h-14 w-14 items-center justify-center rounded-xl bg-[#EAF2EF] text-[#146B5E]">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <circle cx="18" cy="5" r="3" /><circle cx="6" cy="12" r="3" /><circle cx="18" cy="19" r="3" />
+              <path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4" />
+            </svg>
+          </div>
+          <div className="min-w-0 flex-1">
+            <div className="flex items-center gap-2">
+              <p className="font-lcsDisplay font-bold text-[#14322D] text-lg">{t('shareTitle')}</p>
+              <span className="shrink-0 inline-flex items-center font-mono font-semibold text-[0.6875rem] text-[#0E544A] bg-[#DDEAE5] rounded-md px-2 py-0.5">{t('shareTag')}</span>
+            </div>
+            <p className="mt-1 font-lcsBody text-[15px] text-[#3d574f] leading-relaxed">{t('shareBody')}</p>
+          </div>
+          <Link href={`/${locale}/pricing`} className="shrink-0 font-lcsBody text-sm font-semibold text-[#146B5E] underline underline-offset-4 hover:text-lcs-coral whitespace-nowrap">
+            {t('shareLink')}
+          </Link>
+        </div>
       </div>
     </section>
   );

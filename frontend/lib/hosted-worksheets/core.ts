@@ -129,8 +129,19 @@ export function looksLikeStandaloneWorksheet(html: string): boolean {
  * aside, if a bundle ever carries it). Idempotent; safe on already-clean HTML.
  */
 export function stripCatalogChrome(html: string): string {
-  return html
+  let out = html
+    // Belt: remove any STATIC suggestions markup.
     .replace(/<section class="lcs-deckend-suggestions"[\s\S]*?<\/section>/gi, '')
     .replace(/<aside class="lcs-end-deck"[\s\S]*?<\/aside>/gi, '')
     .replace(/<aside class="lcs-deckend-suggestions"[\s\S]*?<\/aside>/gi, '');
+  // Suspenders: the deck runtime BUILDS the suggestions showreel from the
+  // bundle at play-time (it is not static HTML), so a marker-guarded style
+  // that force-hides the container is the reliable strip for a hosted sheet.
+  if (out.indexOf('lcs-hosted-hide') === -1) {
+    const style =
+      '<style id="lcs-hosted-hide">.lcs-deckend-suggestions,.lcs-deckend,.lcs-end-deck{display:none!important}</style>';
+    if (/<\/head>/i.test(out)) out = out.replace(/<\/head>/i, style + '</head>');
+    else out = style + out;
+  }
+  return out;
 }

@@ -2251,7 +2251,14 @@
       "renamePrompt": "Nyt navn",
       "delete": "Slet",
       "deleteConfirm": "Slet dette arbejdsark? Linket holder op med at virke.",
-      "views": "{count} visninger"
+      "views": "{count} visninger",
+      "share": "Del",
+      "shareIntro": "Del dette arbejdsark med din klasse.",
+      "qrAlt": "QR-kode til dette arbejdsark",
+      "linkLabel": "Link til arbejdsark",
+      "openWorksheet": "Åbn arbejdsark",
+      "downloadQr": "Hent QR",
+      "shareNote": "Eleverne scanner QR-koden eller åbner linket — uden konto eller app. Linket virker på alle enheder."
     },
     "favorites": {
       "title": "Mine favoritter",

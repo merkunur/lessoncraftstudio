@@ -5,6 +5,7 @@ import {
   checkHostedQuota,
   looksLikeStandaloneWorksheet,
   removeHostedHtml,
+  stripCatalogChrome,
   writeHostedHtml,
 } from '@/lib/hosted-worksheets/core';
 
@@ -56,13 +57,14 @@ export async function PATCH(
     if (!looksLikeStandaloneWorksheet(body.html)) {
       return NextResponse.json({ error: 'invalid_worksheet_html' }, { status: 400 });
     }
-    const htmlBytes = Buffer.byteLength(body.html, 'utf8');
+    const cleaned = stripCatalogChrome(body.html);
+    const htmlBytes = Buffer.byteLength(cleaned, 'utf8');
     // Re-save replaces this worksheet's bytes: quota-check the delta only.
     const quotaError = await checkHostedQuota(gate.userId, htmlBytes - row.htmlBytes, 0);
     if (quotaError) {
       return NextResponse.json({ error: quotaError }, { status: 413 });
     }
-    writeHostedHtml(row.id, body.html);
+    writeHostedHtml(row.id, cleaned);
     data.htmlBytes = htmlBytes;
   }
 

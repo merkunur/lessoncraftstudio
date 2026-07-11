@@ -1881,7 +1881,14 @@
       "renamePrompt": "Nieuwe naam",
       "delete": "Verwijderen",
       "deleteConfirm": "Dit werkblad verwijderen? De link werkt dan niet meer.",
-      "views": "{count} weergaven"
+      "views": "{count} weergaven",
+      "share": "Delen",
+      "shareIntro": "Deel dit werkblad met je klas.",
+      "qrAlt": "QR-code voor dit werkblad",
+      "linkLabel": "Werkbladlink",
+      "openWorksheet": "Werkblad openen",
+      "downloadQr": "QR downloaden",
+      "shareNote": "Leerlingen scannen de QR-code of openen de link — zonder account of app. De link werkt op elk apparaat."
     },
     "favorites": {
       "title": "Mijn favorieten",

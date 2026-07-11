@@ -117,3 +117,20 @@ export function looksLikeStandaloneWorksheet(html: string): boolean {
   const head = html.slice(0, 2000).toLowerCase();
   return head.includes('<!doctype html') && head.includes('<html');
 }
+
+/**
+ * Strip catalog-only chrome from a teacher-saved worksheet. The generator's
+ * standalone HTML embeds the catalog "more worksheets" showreel
+ * (`<section class="lcs-deckend-suggestions">`) whose `__SUGGESTION_*__`
+ * placeholders are only filled by the publish pipeline — on a user-saved
+ * worksheet they render as raw `___SUGGESTION_N___` cards (operator report
+ * 2026-07-12). A hosted worksheet is a clean, single, student-facing sheet,
+ * so we remove that section (and the post-publish "Want more?" topic-link
+ * aside, if a bundle ever carries it). Idempotent; safe on already-clean HTML.
+ */
+export function stripCatalogChrome(html: string): string {
+  return html
+    .replace(/<section class="lcs-deckend-suggestions"[\s\S]*?<\/section>/gi, '')
+    .replace(/<aside class="lcs-end-deck"[\s\S]*?<\/aside>/gi, '')
+    .replace(/<aside class="lcs-deckend-suggestions"[\s\S]*?<\/aside>/gi, '');
+}

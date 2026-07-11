@@ -2243,7 +2243,14 @@
       "renamePrompt": "Uusi nimi",
       "delete": "Poista",
       "deleteConfirm": "Poistetaanko tämä tehtävä? Sen linkki lakkaa toimimasta.",
-      "views": "{count} katselua"
+      "views": "{count} katselua",
+      "share": "Jaa",
+      "shareIntro": "Jaa tämä tehtävä luokallesi.",
+      "qrAlt": "Tämän tehtävän QR-koodi",
+      "linkLabel": "Tehtävän linkki",
+      "openWorksheet": "Avaa tehtävä",
+      "downloadQr": "Lataa QR",
+      "shareNote": "Oppilaat skannaavat QR-koodin tai avaavat linkin — ilman tiliä tai sovellusta. Linkki toimii kaikilla laitteilla."
     },
     "favorites": {
       "title": "Omat suosikit",

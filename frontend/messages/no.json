@@ -2258,7 +2258,14 @@
       "renamePrompt": "Nytt navn",
       "delete": "Slett",
       "deleteConfirm": "Slette dette arbeidsarket? Lenken slutter å virke.",
-      "views": "{count} visninger"
+      "views": "{count} visninger",
+      "share": "Del",
+      "shareIntro": "Del dette arbeidsarket med klassen din.",
+      "qrAlt": "QR-kode for dette arbeidsarket",
+      "linkLabel": "Lenke til arbeidsarket",
+      "openWorksheet": "Åpne arbeidsarket",
+      "downloadQr": "Last ned QR",
+      "shareNote": "Elevene skanner QR-koden eller åpner lenken — uten konto eller app. Lenken fungerer på alle enheter."
     },
     "favorites": {
       "title": "Mine favoritter",

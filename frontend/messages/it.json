@@ -3775,7 +3775,14 @@
       "renamePrompt": "Nuovo nome",
       "delete": "Elimina",
       "deleteConfirm": "Eliminare questa scheda? Il suo link smetterà di funzionare.",
-      "views": "{count} visualizzazioni"
+      "views": "{count} visualizzazioni",
+      "share": "Condividi",
+      "shareIntro": "Condividi questa scheda con la tua classe.",
+      "qrAlt": "Codice QR di questa scheda",
+      "linkLabel": "Link della scheda",
+      "openWorksheet": "Apri scheda",
+      "downloadQr": "Scarica QR",
+      "shareNote": "Gli studenti scansionano il codice QR o aprono il link — senza account né app. Il link funziona su qualsiasi dispositivo."
     },
     "favorites": {
       "title": "I miei preferiti",

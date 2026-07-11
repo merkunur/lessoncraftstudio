@@ -25,11 +25,12 @@ interface HostedPayload {
   quota: { count: number; maxCount: number; totalBytes: number; maxTotalBytes: number };
 }
 
-export default function HostedWorksheetsWidget({ locale }: { locale: string }) {
+export default function HostedWorksheetsWidget() {
   const t = useTranslations('workspace');
   const [payload, setPayload] = useState<HostedPayload | null>(null);
-  const [copied, setCopied] = useState<string | null>(null);
   const [gated, setGated] = useState(false);
+  const [shareRow, setShareRow] = useState<HostedRow | null>(null);
+  const [shareCopied, setShareCopied] = useState(false);
 
   const load = useCallback(async () => {
     try {
@@ -51,15 +52,6 @@ export default function HostedWorksheetsWidget({ locale }: { locale: string }) {
     load();
   }, [load]);
 
-  const copy = (row: HostedRow) => {
-    try {
-      navigator.clipboard.writeText(row.url);
-      setCopied(row.id);
-      setTimeout(() => setCopied(null), 1600);
-    } catch {
-      /* clipboard unavailable */
-    }
-  };
 
   const rename = async (row: HostedRow) => {
     const title = window.prompt(t('hosted.renamePrompt'), row.title);
@@ -114,19 +106,11 @@ export default function HostedWorksheetsWidget({ locale }: { locale: string }) {
               <div className="flex items-center gap-2 shrink-0">
                 <button
                   type="button"
-                  onClick={() => copy(row)}
-                  className="rounded-full border border-teal-700 px-3 py-1 text-sm text-teal-800 hover:bg-teal-700 hover:text-white transition"
+                  onClick={() => { setShareRow(row); setShareCopied(false); }}
+                  className="rounded-full bg-teal-700 px-4 py-1.5 text-sm font-semibold text-white hover:bg-teal-800 transition"
                 >
-                  {copied === row.id ? t('hosted.copied') : t('hosted.copy')}
+                  {t('hosted.share')}
                 </button>
-                <a
-                  href={row.qrUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="rounded-full border border-teal-700 px-3 py-1 text-sm text-teal-800 hover:bg-teal-700 hover:text-white transition"
-                >
-                  QR
-                </a>
                 <button
                   type="button"
                   onClick={() => rename(row)}
@@ -145,6 +129,81 @@ export default function HostedWorksheetsWidget({ locale }: { locale: string }) {
             </li>
           ))}
         </ul>
+      )}
+
+      {shareRow && (
+        <div
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="share-title"
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-ink-900/60 backdrop-blur-sm p-4"
+          onClick={() => setShareRow(null)}
+        >
+          <div
+            className="bg-white rounded-2xl shadow-xl max-w-md w-full p-6 md:p-8 text-center"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <h3 id="share-title" className="font-display text-xl font-semibold text-ink-900 mb-1">
+              {shareRow.title}
+            </h3>
+            <p className="text-sm text-ink-500 mb-5">{t('hosted.shareIntro')}</p>
+
+            <img
+              src={shareRow.qrUrl}
+              alt={t('hosted.qrAlt')}
+              width={220}
+              height={220}
+              className="mx-auto rounded-xl border border-cream-300 bg-white p-2"
+            />
+
+            <div className="mt-5 flex items-center gap-2 rounded-lg border border-cream-300 bg-cream-50 p-2">
+              <input
+                readOnly
+                value={shareRow.url}
+                onFocus={(e) => e.currentTarget.select()}
+                className="min-w-0 flex-1 bg-transparent px-2 text-sm text-ink-700 outline-none"
+                aria-label={t('hosted.linkLabel')}
+              />
+              <button
+                type="button"
+                onClick={() => {
+                  try { navigator.clipboard.writeText(shareRow.url); setShareCopied(true); setTimeout(() => setShareCopied(false), 1800); } catch { /* no-op */ }
+                }}
+                className="shrink-0 rounded-md bg-teal-700 px-3 py-1.5 text-sm font-semibold text-white hover:bg-teal-800 transition"
+              >
+                {shareCopied ? t('hosted.copied') : t('hosted.copy')}
+              </button>
+            </div>
+
+            <div className="mt-4 flex flex-wrap justify-center gap-2">
+              <a
+                href={shareRow.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-full border border-teal-700 px-4 py-1.5 text-sm font-semibold text-teal-800 hover:bg-teal-700 hover:text-white transition"
+              >
+                {t('hosted.openWorksheet')}
+              </a>
+              <a
+                href={shareRow.qrUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-full border border-teal-700 px-4 py-1.5 text-sm font-semibold text-teal-800 hover:bg-teal-700 hover:text-white transition"
+              >
+                {t('hosted.downloadQr')}
+              </a>
+            </div>
+
+            <p className="mt-5 text-xs text-ink-500">{t('hosted.shareNote')}</p>
+            <button
+              type="button"
+              onClick={() => setShareRow(null)}
+              className="mt-4 text-sm text-ink-500 hover:text-ink-800 underline"
+            >
+              {t('hosted.close')}
+            </button>
+          </div>
+        </div>
       )}
     </section>
   );

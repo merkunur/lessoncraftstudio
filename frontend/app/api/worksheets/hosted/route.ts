@@ -9,6 +9,7 @@ import {
   getHostedQuotaUsage,
   looksLikeStandaloneWorksheet,
   removeHostedHtml,
+  stripCatalogChrome,
   writeHostedHtml,
 } from '@/lib/hosted-worksheets/core';
 
@@ -73,7 +74,7 @@ export async function POST(request: NextRequest) {
   const appId = String(body.appId || '');
   const title = String(body.title || '').trim().slice(0, 200);
   const locale = HOSTED_LOCALES.has(String(body.locale || '')) ? String(body.locale) : 'en';
-  const html = typeof body.html === 'string' ? body.html : '';
+  let html = typeof body.html === 'string' ? body.html : '';
 
   if (!HOSTABLE_APP_IDS.has(appId)) {
     return NextResponse.json({ error: 'unknown_app' }, { status: 400 });
@@ -84,6 +85,9 @@ export async function POST(request: NextRequest) {
   if (!looksLikeStandaloneWorksheet(html)) {
     return NextResponse.json({ error: 'invalid_worksheet_html' }, { status: 400 });
   }
+  // A saved worksheet is a clean single sheet — remove the catalog "more
+  // worksheets" showreel (its __SUGGESTION__ placeholders are publish-only).
+  html = stripCatalogChrome(html);
 
   const htmlBytes = Buffer.byteLength(html, 'utf8');
   const quotaError = await checkHostedQuota(gate.userId, htmlBytes, 1);

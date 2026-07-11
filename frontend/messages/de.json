@@ -3532,7 +3532,14 @@
       "renamePrompt": "Neuer Name",
       "delete": "Löschen",
       "deleteConfirm": "Dieses Arbeitsblatt löschen? Der Link funktioniert dann nicht mehr.",
-      "views": "{count} Aufrufe"
+      "views": "{count} Aufrufe",
+      "share": "Teilen",
+      "shareIntro": "Teile dieses Arbeitsblatt mit deiner Klasse.",
+      "qrAlt": "QR-Code für dieses Arbeitsblatt",
+      "linkLabel": "Arbeitsblatt-Link",
+      "openWorksheet": "Arbeitsblatt öffnen",
+      "downloadQr": "QR herunterladen",
+      "shareNote": "Schüler scannen den QR-Code oder öffnen den Link — ohne Konto oder App. Der Link funktioniert auf jedem Gerät."
     },
     "favorites": {
       "title": "Meine Favoriten",

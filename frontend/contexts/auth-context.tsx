@@ -206,7 +206,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
             setLoading(false);
             return;
           } catch (refreshErr) {
-            // Refresh failed - clear tokens and logout
+            // Transient refresh failure (deploy 5xx / network) — keep the cached
+            // user instead of forcing logout; it recovers on the next refresh.
+            if ((refreshErr as { transient?: boolean })?.transient) {
+              console.warn('[AuthContext] Transient refresh failure during checkAuth; keeping cached user');
+              setLoading(false);
+              return;
+            }
+            // Refresh failed definitively (invalid refresh token) - clear + logout
             console.error('Token refresh failed:', refreshErr);
             localStorage.removeItem('accessToken');
             localStorage.removeItem('refreshToken');
@@ -410,16 +417,30 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       throw new Error('No refresh token available');
     }
 
-    const response = await fetch('/api/auth/refresh', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ refreshToken: storedRefreshToken }),
-    });
+    let response: Response;
+    try {
+      response = await fetch('/api/auth/refresh', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ refreshToken: storedRefreshToken }),
+      });
+    } catch (networkErr) {
+      // Network error (offline / server unreachable during a deploy) — TRANSIENT.
+      const e = new Error('Token refresh network error') as Error & { transient?: boolean };
+      e.transient = true;
+      throw e;
+    }
 
-    const data = await response.json();
+    const data = await response.json().catch(() => ({}));
 
     if (!response.ok) {
-      throw new Error(data.error || 'Token refresh failed');
+      // 401 = invalid/expired refresh token = definitive logout. A 5xx (e.g. the
+      // server restarting mid-deploy) is TRANSIENT — callers must NOT log the
+      // user out for it.
+      const e = new Error(data.error || 'Token refresh failed') as Error & { transient?: boolean; status?: number };
+      e.status = response.status;
+      e.transient = response.status >= 500;
+      throw e;
     }
 
     setAccessToken(data.accessToken);
@@ -456,12 +477,16 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     // Start the refresh and store the promise
     refreshLockRef.current = performRefresh()
       .catch((err) => {
-        // Clear tokens on refresh failure
-        setUser(null);
-        setAccessToken(null);
-        localStorage.removeItem('accessToken');
-        localStorage.removeItem('refreshToken');
-        localStorage.removeItem('user');
+        // Only clear tokens on a DEFINITIVE auth failure (invalid/expired refresh
+        // token). A TRANSIENT failure (server 5xx during a deploy, network blip)
+        // must NOT log the user out — keep the session; a later refresh recovers it.
+        if (!(err as { transient?: boolean })?.transient) {
+          setUser(null);
+          setAccessToken(null);
+          localStorage.removeItem('accessToken');
+          localStorage.removeItem('refreshToken');
+          localStorage.removeItem('user');
+        }
         throw err;
       })
       .finally(() => {

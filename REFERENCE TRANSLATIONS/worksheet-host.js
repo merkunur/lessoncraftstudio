@@ -240,4 +240,48 @@
   } else {
     init();
   }
+
+  /* ===================================================================
+   * Generator DOWNLOAD meter (2026-07-12 metered paywall): PDF / answer-key
+   * / JPEG exports count against the 3/month download allowance (free account
+   * required — anon → signup). Subscribers/admin bypass. Shared button IDs
+   * across all 29 apps (downloadPdfBtn / downloadAnswerKeyPdfBtn /
+   * downloadJpegBtn) → one capture-phase intercept, no per-app edits. Server
+   * enforces (returns allowed when METERING_ENABLED is off → dark-safe).
+   * =================================================================== */
+  var DL_BTN_IDS = { downloadPdfBtn: 1, downloadAnswerKeyPdfBtn: 1, downloadJpegBtn: 1 };
+  var _bypassMeterClick = false;
+
+  function downloadWall(reason) {
+    if (reason !== 'signup_required') { showUpsell(); return; }
+    // Anonymous download → the education.com free-account gate.
+    openModal(
+      '<h2 style="margin:0 0 8px;font-size:1.3rem;">' + esc(T('upsellTitle')) + '</h2>' +
+      '<p style="margin:0 0 12px;line-height:1.5;">' + esc(T('upsellBody')) + '</p>' +
+      '<a href="/' + LOCALE + '/auth/signup?from=download" style="' + CORAL + '">' + esc(T('signIn')) + '</a>' +
+      '<div><button data-lcs-close style="' + TEAL_OUTLINE + 'margin-top:12px;">' + esc(T('close')) + '</button></div>'
+    );
+    modalEl.querySelector('[data-lcs-close]').addEventListener('click', closeModal);
+  }
+
+  document.addEventListener('click', function (e) {
+    var el = e.target && e.target.closest ? e.target.closest('button') : null;
+    if (!el || !DL_BTN_IDS[el.id]) return;
+    if (_bypassMeterClick) { _bypassMeterClick = false; return; } // our re-dispatch
+    if (tier === 'subscriber' || tier === 'admin') return; // unlimited — never intercept
+    e.preventDefault();
+    e.stopImmediatePropagation();
+    fetch('/api/quota/check-and-increment', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ kind: 'download' }),
+      credentials: 'include', cache: 'no-store'
+    }).then(function (res) {
+      if (res.ok) { _bypassMeterClick = true; el.click(); return; } // allowed → run the app's own handler
+      return res.json().then(function (d) {
+        try { if (window.umami) window.umami.track('meter-wall-shown', { kind: 'download', reason: d && d.reason }); } catch (x) {}
+        downloadWall(d && d.reason);
+      });
+    }).catch(function () { _bypassMeterClick = true; el.click(); }); // fail-open
+  }, true);
 })();

@@ -244,6 +244,15 @@ function buildEmbedSnippet(o) {
 
 /* ============================== landing-content: assets + coord index + mesh ============================== */
 
+// Metered-download href (2026-07-12): landing PDF/answer-key buttons route
+// through the slug-keyed quota proxy (/api/quota/dl). Dark-safe — the proxy
+// 302s straight to the file when METERING_ENABLED is off; subscribers/crawlers
+// always pass. The raw nginx PDF URL is unchanged (still indexed/200), so no
+// SEO impact — only the landing's button goes through the meter.
+function dlHref(locale, deckSlug, kind) {
+  return `${CANONICAL_HOST}/api/quota/dl?loc=${encodeURIComponent(locale)}&slug=${encodeURIComponent(deckSlug)}&kind=${kind}`;
+}
+
 function deckAssets(locale, deckSlug) {
   const dir = `${CANONICAL_HOST}/${locale}/decks/${deckSlug}/`;
   return {
@@ -1077,8 +1086,8 @@ ${crumbs}
         </div>
         <div class="ctas">
           <a href="${esc(a.deckDir)}" class="btn btn-primary">${playSvg}${esc(ui.playInteractive)}</a>
-          <a href="${esc(a.pdf)}" class="btn btn-outline">${esc(ui.downloadPdf)}</a>
-          <a href="${esc(a.answerKey)}" class="btn btn-outline">${esc(ui.answerKey)}</a>
+          <a href="${esc(dlHref(locale, l.canonicalDeckSlug, 'pdf'))}" class="btn btn-outline">${esc(ui.downloadPdf)}</a>
+          <a href="${esc(dlHref(locale, l.canonicalDeckSlug, 'answer'))}" class="btn btn-outline">${esc(ui.answerKey)}</a>
         </div>
       </div>
     </section>

@@ -35,7 +35,7 @@ export function Navigation({
   const t = useTranslations('navigation');
   const pathname = usePathname();
   const locale = pathname.split('/')[1] || 'en';
-  const { user } = useAuth();
+  const { user, logout } = useAuth();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const drawerRef = useRef<HTMLDivElement>(null);
 
@@ -135,11 +135,7 @@ export function Navigation({
                   <Button
                     variant="ghost"
                     size="sm"
-                    onClick={() => {
-                      localStorage.removeItem('accessToken');
-                      localStorage.removeItem('refreshToken');
-                      window.location.href = `/${locale}`;
-                    }}
+                    onClick={() => logout()}
                   >
                     {t('signOut')}
                   </Button>
@@ -225,11 +221,7 @@ export function Navigation({
                 variant="ghost"
                 size="sm"
                 className="w-full"
-                onClick={() => {
-                  localStorage.removeItem('accessToken');
-                  localStorage.removeItem('refreshToken');
-                  window.location.href = `/${locale}`;
-                }}
+                onClick={() => { closeDrawer(); logout(); }}
               >
                 {t('signOut')}
               </Button>

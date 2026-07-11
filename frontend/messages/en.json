@@ -4020,6 +4020,52 @@
     "allFormats": "All formats",
     "breadcrumb": "Languages"
   },
+  "homepageV4": {
+    "metadata": {
+      "title": "Homepage v4 preview",
+      "description": "Internal design preview of the homepage v4 stack. Not indexed."
+    },
+    "hero": {
+      "chipsAria": "LessonCraftStudio at a glance",
+      "chipFree": "Free · No login",
+      "chipMakers": "33 worksheet makers",
+      "chipThemes": "100+ themes",
+      "chipLanguages": "11 languages",
+      "chipPrintables": "45,000+ printables",
+      "localeNavAria": "Browse this site in another language",
+      "embedCta": "Embed any worksheet on your class blog or school site — free"
+    },
+    "tryIt": {
+      "eyebrow": "Try one right now",
+      "heading": "Pick a worksheet and play it",
+      "body": "Nine different worksheet mechanics, straight from the live catalog. Every one plays in the browser and prints as a PDF — free, no account needed.",
+      "openDeck": "Open worksheet page",
+      "seeAll": "See all worksheets"
+    },
+    "browse": {
+      "byGrade": "Worksheets by grade"
+    },
+    "freeTeacher": {
+      "eyebrow": "Free forever · One teacher plan",
+      "heading": "Everything you use today stays free",
+      "body": "The whole catalog — printables, interactive worksheets, activities, and every maker — is free without an account. The Teacher plan adds hosting, sharing, and organizing on top.",
+      "priceAnnual": "$69",
+      "priceAnnualSuffix": "per year",
+      "priceMonthly": "or $8.99/month",
+      "cta": "See the Teacher plan"
+    },
+    "signup": {
+      "eyebrow": "Free",
+      "h2Line1": "No signup needed.",
+      "h2Line2": "A free account just keeps your favorites.",
+      "body": "Every activity, worksheet, and tool on this site is free to use without an account. Make a free account when you want your favorite worksheets saved and waiting for you next time.",
+      "ctaPrimary": "Start an activity",
+      "ctaSecondary": "Make a free account",
+      "teacherNote": "Exports, live class links, and collections live in the Teacher plan.",
+      "teacherLink": "Teaching? See the Teacher plan",
+      "mascotAlt": "Friendly elephant mascot waving you in"
+    }
+  },
   "pricingPage": {
     "meta": {
       "title": "Plans & Pricing — LessonCraftStudio",

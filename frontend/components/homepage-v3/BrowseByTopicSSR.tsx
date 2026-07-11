@@ -2,7 +2,9 @@ import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { listNonEmptyAxisKeys, countDecksForSubjectLevel } from '@/lib/topic-decks';
 import { resolveAxisSlug, resolveAxisName, LABELS } from '@/lib/category-nav-data';
-import { listSubjectKeys, getSubjectSlugStrict, getSubjectName, getAxisSlug } from '@/lib/taxonomy';
+import { listSubjectKeys, getSubjectSlugStrict, getSubjectName, getAxisSlug, getAxisName } from '@/lib/taxonomy';
+import { SUPPORTED_LOCALES } from '@/config/locales';
+import { NATIVE_LOCALE_NAMES } from '@/components/homepage-v4/v4-strings';
 import { HUB_GRADE_KEYS, MIN_INDEXABLE_SUBJECT_HUB_DECKS, isSubjectHubAllowed, isOnlineHubAvailable, onlineHubLinkLabel, subjectHubHeading, subjectHubGradeLabel } from '@/lib/subject-hub';
 import { isSeasonalHubUpgraded, seasonalHeading, seasonsByProximity } from '@/lib/seasonal-hub';
 
@@ -17,14 +19,37 @@ import { isSeasonalHubUpgraded, seasonalHeading, seasonsByProximity } from '@/li
 
 const MAX_PER_GROUP = 16;
 
-export default async function BrowseByTopicSSR({ locale }: { locale: string }) {
+interface BrowseByTopicSSRProps {
+  locale: string;
+  /**
+   * Parameterization for the homepage-v4 preview (2026-07). All three
+   * props are OPTIONAL with defaults matching today's live behavior
+   * exactly — the live homepage at app/[locale]/page.tsx passes only
+   * `locale`, so its output is unchanged until the v4 promotion commit.
+   */
+  /** Cap for the theme-link group. Default 16 (= live). v4 passes 32. */
+  maxThemesPerGroup?: number;
+  /** Adds a grade-hub group (educational-level topic pages, honesty-gated
+   *  to grades with published decks). Default false (= live). */
+  includeGradeGroup?: boolean;
+  /** Adds an 11-locale language group linking each locale root with its
+   *  native name. Default false (= live). */
+  includeLanguageGroup?: boolean;
+}
+
+export default async function BrowseByTopicSSR({
+  locale,
+  maxThemesPerGroup = MAX_PER_GROUP,
+  includeGradeGroup = false,
+  includeLanguageGroup = false,
+}: BrowseByTopicSSRProps) {
   const [themeKeys, typeKeys, tFooter] = await Promise.all([
     listNonEmptyAxisKeys('theme', locale).catch(() => [] as string[]),
     listNonEmptyAxisKeys('exercise-type', locale).catch(() => [] as string[]),
     getTranslations({ locale, namespace: 'footer' }),
   ]);
 
-  const themeLinks = themeKeys.slice(0, MAX_PER_GROUP).map(k => ({
+  const themeLinks = themeKeys.slice(0, maxThemesPerGroup).map(k => ({
     href: `/${locale}/topic/${resolveAxisSlug(k, locale, 'theme')}/`,
     label: resolveAxisName(k, locale, 'theme'),
   }));
@@ -68,14 +93,40 @@ export default async function BrowseByTopicSSR({ locale }: { locale: string }) {
       label: resolveAxisName(k, locale, 'theme'),
     }));
 
+  // Grade-hub group (v4 preview only — includeGradeGroup defaults false).
+  // Honesty-gated via listNonEmptyAxisKeys: only educational-level axis-keys
+  // with published decks in this locale link out (§16.6 array-membership gate).
+  let gradeLinks: Array<{ href: string; label: string }> = [];
+  let gradeHeading = '';
+  if (includeGradeGroup) {
+    try {
+      const [gradeKeys, t4] = await Promise.all([
+        listNonEmptyAxisKeys('educational-level', locale),
+        getTranslations({ locale, namespace: 'homepageV4.browse' }),
+      ]);
+      gradeHeading = t4('byGrade');
+      gradeLinks = gradeKeys.map(k => ({
+        href: `/${locale}/topic/${getAxisSlug('educational-level', k, locale) ?? k}/`,
+        label: getAxisName('educational-level', k, locale) ?? k,
+      }));
+    } catch { /* DB unreachable — omit the group, honesty */ }
+  }
+
+  // Language group (v4 preview only — includeLanguageGroup defaults false).
+  // Every locale root has a live catalog (all 11 locales published as of
+  // 2026-06), so no per-locale deck gate is needed here.
+  const languageLinks: Array<{ href: string; label: string }> = includeLanguageGroup
+    ? SUPPORTED_LOCALES.map(l => ({ href: `/${l}`, label: NATIVE_LOCALE_NAMES[l] ?? l.toUpperCase() }))
+    : [];
+
   // Nothing to show for a substrate-empty locale — render nothing (honesty).
-  if (themeLinks.length === 0 && typeLinks.length === 0 && subjectGradeLinks.length === 0 && seasonalLinks.length === 0) return null;
+  if (themeLinks.length === 0 && typeLinks.length === 0 && subjectGradeLinks.length === 0 && seasonalLinks.length === 0 && gradeLinks.length === 0 && languageLinks.length === 0) return null;
 
   const labels = LABELS[locale] ?? LABELS.en;
   const subjectGradeHeading = subjectHubHeading(locale);
 
   const onlineWord = (onlineHubLinkLabel(locale) ?? 'online').split(' ')[0].replace(/[–—-]$/, '') || 'online';
-  const group = (heading: string, links: Array<{ href: string; label: string; onlineHref?: string | null }>, browseHref: string, browseLabel: string) => {
+  const group = (heading: string, links: Array<{ href: string; label: string; onlineHref?: string | null }>, browseHref?: string, browseLabel?: string) => {
     if (links.length === 0) return null;
     return (
       <nav aria-label={heading} className="hv3-card p-7 md:p-8">
@@ -103,12 +154,14 @@ export default async function BrowseByTopicSSR({ locale }: { locale: string }) {
             </li>
           ))}
         </ul>
-        <Link
-          href={browseHref}
-          className="inline-block mt-4 text-[15px] font-semibold text-[#F2784B] hover:underline"
-        >
-          {browseLabel} →
-        </Link>
+        {browseHref && browseLabel && (
+          <Link
+            href={browseHref}
+            className="inline-block mt-4 text-[15px] font-semibold text-[#F2784B] hover:underline"
+          >
+            {browseLabel} →
+          </Link>
+        )}
       </nav>
     );
   };
@@ -120,6 +173,8 @@ export default async function BrowseByTopicSSR({ locale }: { locale: string }) {
         {group(seasonalHeading(locale), seasonalLinks, `/${locale}/topic/`, labels.browseAllTopics)}
         {group(tFooter('byTopic'), themeLinks, `/${locale}/topic/`, labels.browseAllTopics)}
         {group(tFooter('byExerciseType'), typeLinks, `/${locale}/worksheets/`, labels.browseAllTopics)}
+        {includeGradeGroup && group(gradeHeading, gradeLinks, `/${locale}/worksheets/`, labels.browseAllTopics)}
+        {includeLanguageGroup && group(tFooter('byLanguage'), languageLinks)}
       </div>
     </section>
   );

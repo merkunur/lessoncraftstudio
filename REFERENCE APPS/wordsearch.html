@@ -2027,6 +2027,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         // Downloads
         downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'wordsearch_interactive.html', { loadingMode: 'inline' }));
+        window.__lcsWorksheetHost = { getHtml: function () { return downloadInteractiveHtml(worksheetCanvas, '', { returnString: true }); } }; // save-flow bridge (2026-07-12)
         exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
 
         // --- SEP hook — Family B puzzle-drag. Trace the FIRST hidden word by dragging

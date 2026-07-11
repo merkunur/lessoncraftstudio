@@ -2131,6 +2131,7 @@
 
             // Download Listeners
             ui.downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'word-scramble_interactive.html', { loadingMode: 'inline' }));
+            window.__lcsWorksheetHost = { getHtml: function () { return downloadInteractiveHtml(worksheetCanvas, '', { returnString: true }); } }; // save-flow bridge (2026-07-12)
             ui.exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
             // --- Storybook Exercise Package (SEP) hook — Family A (letter-fill; extractDeckBundle emits
             // slots{slotType:'letter'}). Headless-only window globals + optional admin button; additive,

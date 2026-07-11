@@ -4752,6 +4752,7 @@
 
         // START OF CHANGES
         if (ui.downloadInteractiveHtmlBtn) ui.downloadInteractiveHtmlBtn.addEventListener('click', () => downloadInteractiveHtml(worksheetCanvas, 'odd_one_out_interactive.html', { loadingMode: 'inline' }));
+        window.__lcsWorksheetHost = { getHtml: function () { return downloadInteractiveHtml(worksheetCanvas, '', { returnString: true }); } }; // save-flow bridge (2026-07-12)
         if (ui.exportToCatalogBtn) ui.exportToCatalogBtn.addEventListener('click', handleExportToCatalog);
 
         // --- SEP hook — Family C choice-tap. The first problem's image options become

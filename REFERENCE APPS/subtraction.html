@@ -5478,6 +5478,7 @@ async function downloadPDF(canvasToExport, fileName, opts) {
       document.querySelectorAll('#alignDropdown button').forEach(b => b.addEventListener('click', (e) => alignObjects(e.currentTarget.id.replace('Btn', ''))));
 
       downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'subtraction_interactive.html', { loadingMode: 'inline' }));
+      window.__lcsWorksheetHost = { getHtml: function () { return downloadInteractiveHtml(worksheetCanvas, '', { returnString: true }); } }; // save-flow bridge (2026-07-12)
       exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
       downloadPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
       downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'answer-key.pdf'));

@@ -5033,6 +5033,7 @@
 
             // New Download Listeners
             downloadInteractiveHtmlBtn.onclick = () => downloadInteractiveHtml(worksheetCanvas, 'matching_interactive.html', { loadingMode: 'inline' });
+            window.__lcsWorksheetHost = { getHtml: function () { return downloadInteractiveHtml(worksheetCanvas, '', { returnString: true }); } }; // save-flow bridge (2026-07-12)
             exportToCatalogBtn.onclick = handleExportToCatalog;
             (function () {
                 function sepOpts(cropRect, returnPackage) {

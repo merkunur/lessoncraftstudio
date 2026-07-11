@@ -18,10 +18,10 @@
 (function () {
   'use strict';
 
-  // Flip with PRICING_PUBLIC (frontend/config/subscription-launch.ts). While
-  // false the feature is admin/subscriber-only dogfood; non-entitled users see
-  // nothing new anywhere.
-  var LAUNCHED = false;
+  // Flipped 2026-07-12 together with PRICING_PUBLIC (frontend/config/
+  // subscription-launch.ts) — the Teacher plan is LIVE: non-entitled users see
+  // the locked save button with the adult-facing upsell.
+  var LAUNCHED = true;
 
   var API_BASE = '';
   var btn = null;
@@ -138,9 +138,19 @@
   }
 
   async function doSave() {
-    var fn = window.downloadInteractiveHtml;
-    var canvas = window.worksheetCanvas;
-    if (typeof fn !== 'function' || !canvas) { showNotice(T('error')); return; }
+    // Primary path: the per-app closure bridge (window.__lcsWorksheetHost,
+    // installed next to each app's download wiring — the app's canvas and
+    // exporter are closure-scoped, NOT window globals). Fallback: the rare
+    // apps that do attach globals (prepositions).
+    var getHtml = null;
+    if (window.__lcsWorksheetHost && typeof window.__lcsWorksheetHost.getHtml === 'function') {
+      getHtml = window.__lcsWorksheetHost.getHtml;
+    } else if (typeof window.downloadInteractiveHtml === 'function' && window.worksheetCanvas) {
+      getHtml = function () {
+        return window.downloadInteractiveHtml(window.worksheetCanvas, '', { returnString: true });
+      };
+    }
+    if (!getHtml) { showNotice(T('error')); return; }
 
     var title = window.prompt(T('titlePrompt'), defaultTitle());
     if (title === null) return; // cancelled
@@ -150,7 +160,7 @@
     btn.textContent = T('saving');
     btn.disabled = true;
     try {
-      var html = await fn(canvas, '', { returnString: true });
+      var html = await getHtml();
       var res = await fetch(API_BASE + '/api/worksheets/hosted', {
         method: 'POST',
         headers: {

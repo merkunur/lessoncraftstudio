@@ -1814,6 +1814,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (downloadInteractiveHtmlBtn) {
             downloadInteractiveHtmlBtn.addEventListener("click", () =>
                 downloadInteractiveHtml(worksheetCanvas, 'crossword_interactive.html', { loadingMode: 'inline' }));
+            window.__lcsWorksheetHost = { getHtml: function () { return downloadInteractiveHtml(worksheetCanvas, '', { returnString: true }); } }; // save-flow bridge (2026-07-12)
         }
         downloadPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
         downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'answer-key.pdf'));

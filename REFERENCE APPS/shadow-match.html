@@ -1745,6 +1745,7 @@
       generateWorksheetBtn.addEventListener("click", () => { closeAllDropdowns(); generateWorksheet(); });
       generateAnswerKeyBtn.addEventListener("click", () => { closeAllDropdowns(); generateAnswerKey(); });
       downloadInteractiveHtmlBtn.addEventListener("click", () => { closeAllDropdowns(); downloadInteractiveHtml(worksheetCanvas, 'shadow_match_interactive.html', { loadingMode: 'inline' }); });
+      window.__lcsWorksheetHost = { getHtml: function () { return downloadInteractiveHtml(worksheetCanvas, '', { returnString: true }); } }; // save-flow bridge (2026-07-12)
       exportToCatalogBtn.addEventListener("click", () => { closeAllDropdowns(); handleExportToCatalog(); });
 
       // --- SEP hook — Family E tap-to-connect (top/bottom orientation). Top row =

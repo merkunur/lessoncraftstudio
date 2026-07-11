@@ -5716,6 +5716,7 @@
       });
       
       downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'math-worksheet_interactive.html', { loadingMode: 'inline' }));
+      window.__lcsWorksheetHost = { getHtml: function () { return downloadInteractiveHtml(worksheetCanvas, '', { returnString: true }); } }; // save-flow bridge (2026-07-12)
       exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
 
       // --- SEP hook — Family A NUMERIC (digit palette). math-worksheet is a

@@ -1703,6 +1703,7 @@
         
         // New Download Listeners
         downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'pattern-train_interactive.html', { loadingMode: 'inline' }));
+        window.__lcsWorksheetHost = { getHtml: function () { return downloadInteractiveHtml(worksheetCanvas, '', { returnString: true }); } }; // save-flow bridge (2026-07-12)
         exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
 
         // --- SEP hook — Family F drag-place (same shape as math-puzzle/alphabet-train).

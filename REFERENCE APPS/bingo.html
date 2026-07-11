@@ -4458,6 +4458,7 @@
       generateWorksheetBtn.addEventListener("click", () => { closeAllPopups(); generateWorksheet().catch(e => { console.error(e); showMessage('generationFailed', 'error', 3000, {error: e.message}); }); });
       
       downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'bingo_interactive.html', { loadingMode: 'inline' }));
+      window.__lcsWorksheetHost = { getHtml: function () { return downloadInteractiveHtml(worksheetCanvas, '', { returnString: true }); } }; // save-flow bridge (2026-07-12)
       downloadPdfBtn.addEventListener("click", () => downloadPdfFile(null, 'worksheet.pdf', true));
       downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPdfFile(calloutsCanvas, 'answer-key.pdf', false));
       exportToCatalogBtn.addEventListener("click", handleExportToCatalog);

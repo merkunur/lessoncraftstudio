@@ -6,6 +6,7 @@
 
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
+import { getTypedThumbs } from '@/lib/showcase-decks';
 
 interface HeroV4Props {
   locale: string;
@@ -14,8 +15,21 @@ interface HeroV4Props {
 const CDN = 'https://www.lessoncraftstudio.com/en/decks';
 const thumb = (slug: string) => `${CDN}/${slug}/thumbnail.png`;
 
+// The four fanned worksheets, by exercise type. On non-EN locales we pull a real
+// worksheet of each type IN THE VISITOR'S LANGUAGE (so a German visitor sees
+// German worksheets, not English ones); EN keeps its hand-picked decorative decks.
+const HERO_TYPES = ['subtraction', 'matching', 'sudoku', 'find-and-count'];
+const HERO_FALLBACK_SLUGS = [
+  'subtraction-find-subtrahend-dinosaurs',
+  'matching-letter-farm-animals',
+  'sudoku-ocean-life',
+  'find-and-count-letter-spotting-fruits-4',
+];
+
 export default async function HeroV4({ locale }: HeroV4Props) {
   const t = await getTranslations({ locale, namespace: 'homepageV4.hero' });
+  const localeThumbs = locale === 'en' ? [] : await getTypedThumbs(locale, HERO_TYPES);
+  const heroThumb = (i: number) => localeThumbs[i] ?? thumb(HERO_FALLBACK_SLUGS[i]);
 
   return (
     <section className="hv5-masthead hv5-grain relative overflow-hidden">
@@ -47,9 +61,9 @@ export default async function HeroV4({ locale }: HeroV4Props) {
             {/* Divider, then trust row — cream, glowing on the dark ground */}
             <div className="mt-8 h-px bg-[#FBF3E4]/12" />
             <ul className="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2 font-lcsBody text-sm text-[#FBF3E4]/70">
-              <li className="flex items-center gap-2"><span className="font-lcsDisplay font-bold text-[#FBF3E4] text-base">45,309</span> {t('chip2Label')}</li>
-              <li className="flex items-center gap-2"><span className="font-lcsDisplay font-bold text-[#FBF3E4] text-base">29</span> {t('chip1Label')}</li>
-              <li className="flex items-center gap-2"><span className="font-lcsDisplay font-bold text-[#FBF3E4] text-base">11</span> {t('chip3Label')}</li>
+              <li className="flex items-center gap-2"><span className="font-lcsDisplay font-bold text-[#FBF3E4] text-base">{t('numWorksheets')}</span> {t('chip2Label')}</li>
+              <li className="flex items-center gap-2"><span className="font-lcsDisplay font-bold text-[#FBF3E4] text-base">{t('numMakers')}</span> {t('chip1Label')}</li>
+              <li className="flex items-center gap-2"><span className="font-lcsDisplay font-bold text-[#FBF3E4] text-base">{t('numLanguages')}</span> {t('chip3Label')}</li>
             </ul>
             <p className="mt-2.5 font-lcsBody text-xs text-[#FBF3E4]/70">{t('h1')} · {t('frameworksNote')}</p>
           </div>
@@ -58,16 +72,16 @@ export default async function HeroV4({ locale }: HeroV4Props) {
           <div className="relative">
             <div className="hidden md:block relative h-[540px]">
               <div className="hv5-card-glow absolute right-[4%] top-0 w-[208px]" style={{ transform: 'rotate(7deg)', zIndex: 1 }}>
-                <img src={thumb('subtraction-find-subtrahend-dinosaurs')} alt="Subtraction worksheet — dinosaurs theme" loading="lazy" width="208" height="267" />
+                <img src={heroThumb(0)} alt={t('altSubtraction')} loading="lazy" width="208" height="267" />
               </div>
               <div className="hv5-card-glow absolute right-0 top-[168px] w-[236px]" style={{ transform: 'rotate(6deg)', zIndex: 2 }}>
-                <img src={thumb('matching-letter-farm-animals')} alt="Letter matching worksheet — farm animals theme" loading="lazy" width="236" height="304" />
+                <img src={heroThumb(1)} alt={t('altMatching')} loading="lazy" width="236" height="304" />
               </div>
               <div className="hv5-card-glow absolute left-[32%] top-[18px] w-[258px]" style={{ transform: 'rotate(3deg)', zIndex: 3 }}>
-                <img src={thumb('sudoku-ocean-life')} alt="Picture Sudoku worksheet — ocean life theme" loading="lazy" width="258" height="331" />
+                <img src={heroThumb(2)} alt={t('altSudoku')} loading="lazy" width="258" height="331" />
               </div>
               <div className="hv5-card-glow hv5-card-glow--hero absolute left-0 bottom-0 w-[304px]" style={{ transform: 'rotate(-4deg)', zIndex: 5 }}>
-                <img src={thumb('find-and-count-letter-spotting-fruits-4')} alt="Letter spotting worksheet — fruits theme" loading="eager" width="304" height="391" />
+                <img src={heroThumb(3)} alt={t('altLetterSpotting')} loading="eager" width="304" height="391" />
                 <div className="absolute left-3 bottom-3 flex gap-2">
                   <span className="hv5-chip hv5-chip-coral">{t('tagInteractive')}</span>
                   <span className="hv5-chip">{t('tagPrintable')}</span>
@@ -78,10 +92,10 @@ export default async function HeroV4({ locale }: HeroV4Props) {
             {/* Mobile: a mini-fan (front + one behind), not a flat grid */}
             <div className="md:hidden relative mx-auto" style={{ height: 300, maxWidth: 340 }}>
               <div className="hv5-card-glow absolute top-[12px] right-[6%] w-[150px]" style={{ transform: 'rotate(6deg)', zIndex: 1 }}>
-                <img src={thumb('sudoku-ocean-life')} alt="Picture Sudoku worksheet — ocean life theme" loading="lazy" width="150" height="193" />
+                <img src={heroThumb(2)} alt={t('altSudoku')} loading="lazy" width="150" height="193" />
               </div>
               <div className="hv5-card-glow hv5-card-glow--hero absolute top-[40px] left-[4%] w-[190px]" style={{ transform: 'rotate(-4deg)', zIndex: 2 }}>
-                <img src={thumb('find-and-count-letter-spotting-fruits-4')} alt="Letter spotting worksheet — fruits theme" loading="eager" width="190" height="244" />
+                <img src={heroThumb(3)} alt={t('altLetterSpotting')} loading="eager" width="190" height="244" />
                 <div className="absolute left-2 bottom-2 flex gap-1.5">
                   <span className="hv5-chip hv5-chip-coral text-[0.7rem]">{t('tagInteractive')}</span>
                 </div>

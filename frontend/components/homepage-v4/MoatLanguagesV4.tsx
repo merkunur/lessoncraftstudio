@@ -10,24 +10,35 @@ interface Props {
   locale: string;
 }
 
-// Verified live per-locale published-deck counts (DB, 2026-07-11).
-const LANGS: Array<{ name: string; count: number }> = [
-  { name: 'English', count: 5970 },
-  { name: 'Português', count: 4211 },
-  { name: 'Español', count: 4176 },
-  { name: 'Dansk', count: 3930 },
-  { name: 'Italiano', count: 3915 },
-  { name: 'Norsk', count: 3908 },
-  { name: 'Svenska', count: 3867 },
-  { name: 'Français', count: 3846 },
-  { name: 'Deutsch', count: 3840 },
-  { name: 'Nederlands', count: 3832 },
-  { name: 'Suomi', count: 3814 },
+// Verified live per-locale published-deck counts (DB, 2026-07-11). `name` is the
+// endonym (shown as-is on /en); on other locales the language name is rendered in
+// the visitor's language via Intl.DisplayNames (e.g. "Englisch" on /de).
+const LANGS: Array<{ code: string; name: string; count: number }> = [
+  { code: 'en', name: 'English', count: 5970 },
+  { code: 'pt', name: 'Português', count: 4211 },
+  { code: 'es', name: 'Español', count: 4176 },
+  { code: 'da', name: 'Dansk', count: 3930 },
+  { code: 'it', name: 'Italiano', count: 3915 },
+  { code: 'no', name: 'Norsk', count: 3908 },
+  { code: 'sv', name: 'Svenska', count: 3867 },
+  { code: 'fr', name: 'Français', count: 3846 },
+  { code: 'de', name: 'Deutsch', count: 3840 },
+  { code: 'nl', name: 'Nederlands', count: 3832 },
+  { code: 'fi', name: 'Suomi', count: 3814 },
 ];
 
 export default async function MoatLanguagesV4({ locale }: Props) {
   const t = await getTranslations({ locale, namespace: 'homepageV4.moat' });
   const max = Math.max(...LANGS.map((l) => l.count));
+  // Localize the language names to the visitor's language (EN keeps endonyms).
+  let langDisplay: Intl.DisplayNames | null = null;
+  try {
+    langDisplay = locale === 'en' ? null : new Intl.DisplayNames([locale], { type: 'language' });
+  } catch { langDisplay = null; }
+  const nameOf = (l: { code: string; name: string }) => {
+    const n = langDisplay?.of(l.code);
+    return n ? n.charAt(0).toUpperCase() + n.slice(1) : l.name;
+  };
 
   return (
     <section className="hv5-ground-teal hv5-band-recess relative py-24 md:py-32">
@@ -57,16 +68,16 @@ export default async function MoatLanguagesV4({ locale }: Props) {
           <div className="rounded-2xl border border-white/10 bg-white p-6 md:p-8 shadow-[0_30px_60px_-22px_rgba(0,0,0,0.5)]">
             <div className="flex items-baseline justify-between mb-5">
               <span className="font-lcsDisplay font-bold text-[#14322D] text-base">{t('panelTitle')}</span>
-              <span className="font-lcsBody text-sm"><span className="font-lcsDisplay font-extrabold text-[#146B5E] text-lg">45,309</span> {t('panelTotal')}</span>
+              <span className="font-lcsBody text-sm"><span className="font-lcsDisplay font-extrabold text-[#146B5E] text-lg">{t('pileCount')}</span> {t('panelTotal')}</span>
             </div>
             <ul className="space-y-2.5">
               {LANGS.map((l) => (
-                <li key={l.name} className="grid grid-cols-[68px_1fr_auto] sm:grid-cols-[92px_1fr_auto] items-center gap-2 sm:gap-3">
-                  <span className="font-lcsBody text-xs sm:text-sm font-semibold text-[#14322D] truncate">{l.name}</span>
+                <li key={l.code} className="grid grid-cols-[68px_1fr_auto] sm:grid-cols-[92px_1fr_auto] items-center gap-2 sm:gap-3">
+                  <span className="font-lcsBody text-xs sm:text-sm font-semibold text-[#14322D] truncate">{nameOf(l)}</span>
                   <span className="relative h-2.5 rounded-full bg-[#146B5E]/10 overflow-hidden">
                     <span className="absolute inset-y-0 left-0 rounded-full bg-[#146B5E]" style={{ width: `${Math.round((l.count / max) * 100)}%` }} />
                   </span>
-                  <span className="font-lcsBody text-xs text-[#3d574f] tabular-nums">{l.count.toLocaleString('en-US')}</span>
+                  <span className="font-lcsBody text-xs text-[#3d574f] tabular-nums">{l.count.toLocaleString(locale)}</span>
                 </li>
               ))}
             </ul>

@@ -11,14 +11,15 @@ interface Props {
 
 const PREV = 'https://www.lessoncraftstudio.com/mini-tools/previews';
 
-// Real activity previews (verified live) with their standard codes.
+// Real activity previews (verified live) with their standard codes. Card titles
+// are localized via homepageV4.activities.label1..6 (the labelKey index).
 const ACTIVITIES = [
-  { img: 'ten-frame.count-to-10.make-n.animals', label: 'Make a Number', code: 'K.CC.B.4' },
-  { img: 'choice-board.which-more.k-c-c-6', label: 'Which Has More?', code: 'K.CC.C.6' },
-  { img: 'choice-board.shape-id.k-g-a-2', label: 'Name the Shape', code: 'K.G.A.2' },
-  { img: 'ten-frame.how-many.0-10.animals', label: 'How Many?', code: 'K.CC.B.5' },
-  { img: 'choice-board.even-odd.2-oa-c-3', label: 'Even or Odd', code: '2.OA.C.3' },
-  { img: 'choice-board.flat-solid.k-g-a-3', label: 'Flat or Solid', code: 'K.G.A.3' },
+  { img: 'ten-frame.count-to-10.make-n.animals', labelKey: 'label1', code: 'K.CC.B.4' },
+  { img: 'choice-board.which-more.k-c-c-6', labelKey: 'label2', code: 'K.CC.C.6' },
+  { img: 'choice-board.shape-id.k-g-a-2', labelKey: 'label3', code: 'K.G.A.2' },
+  { img: 'ten-frame.how-many.0-10.animals', labelKey: 'label4', code: 'K.CC.B.5' },
+  { img: 'choice-board.even-odd.2-oa-c-3', labelKey: 'label5', code: '2.OA.C.3' },
+  { img: 'choice-board.flat-solid.k-g-a-3', labelKey: 'label6', code: 'K.G.A.3' },
 ];
 
 export default async function ActivitiesMoatV4({ locale }: Props) {
@@ -36,17 +37,20 @@ export default async function ActivitiesMoatV4({ locale }: Props) {
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-5">
-          {ACTIVITIES.map((a) => (
-            <Link key={a.img} href={`/${locale}/activities`} className="group block hv5-card">
-              <div className="bg-[#FBF3E4]">
-                <img src={`${PREV}/${a.img}.webp`} alt={`${a.label} — interactive K-3 activity`} loading="lazy" width={480} height={300} className="block w-full h-auto" />
-              </div>
-              <div className="flex items-center justify-between gap-2 px-3.5 py-2.5 border-t border-[#14322D]/8">
-                <span className="font-lcsDisplay font-bold text-[#14322D] text-sm">{a.label}</span>
-                <span className="hv5-chip-mono shrink-0">{a.code}</span>
-              </div>
-            </Link>
-          ))}
+          {ACTIVITIES.map((a) => {
+            const label = t(a.labelKey);
+            return (
+              <Link key={a.img} href={`/${locale}/activities`} className="group block hv5-card">
+                <div className="bg-[#FBF3E4]">
+                  <img src={`${PREV}/${a.img}.webp`} alt={t('altTemplate', { label })} loading="lazy" width={480} height={300} className="block w-full h-auto" />
+                </div>
+                <div className="flex items-center justify-between gap-2 px-3.5 py-2.5 border-t border-[#14322D]/8">
+                  <span className="font-lcsDisplay font-bold text-[#14322D] text-sm">{label}</span>
+                  <span className="hv5-chip-mono shrink-0">{a.code}</span>
+                </div>
+              </Link>
+            );
+          })}
         </div>
 
         <div className="mt-8 flex flex-wrap items-center gap-3">

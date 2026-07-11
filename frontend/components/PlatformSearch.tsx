@@ -163,11 +163,19 @@ function scoreEntry(
   return score;
 }
 
+// Localized "Language" prefix for the per-result locale badge aria-label
+// (self-contained, mirrors Navigation.localizedLanguageLabel).
+const LANG_ARIA_PREFIX: Record<string, string> = {
+  en: "Language", de: "Sprache", es: "Idioma", fr: "Langue", it: "Lingua",
+  pt: "Idioma", nl: "Taal", sv: "Språk", da: "Sprog", no: "Språk", fi: "Kieli",
+};
+
 export function PlatformSearch() {
   const router = useRouter();
   const pathname = usePathname();
   const currentLocale = pathname.split("/")[1] || "en";
   const t = CHROME[currentLocale] || CHROME.en;
+  const langPrefix = LANG_ARIA_PREFIX[currentLocale] || "Language";
 
   const [query, setQuery] = useState("");
   const [isOpen, setIsOpen] = useState(false);
@@ -288,7 +296,7 @@ export function PlatformSearch() {
             if (!isOpen) setIsOpen(true);
           }}
           onKeyDown={onKeyDown}
-          className="w-full pl-10 pr-9 py-2 bg-white border border-cream-300 rounded-full text-sm text-ink-900 placeholder:text-stone-500 focus:outline-none focus:ring-2 focus:ring-teal-600 focus:border-transparent shadow-sm"
+          className="w-full pl-10 pr-9 py-2.5 bg-white border border-[#14322D]/10 rounded-full text-sm text-[#14322D] placeholder:text-[#14322D]/45 focus:outline-none focus:ring-4 focus:ring-[#146B5E]/15 focus:border-[#146B5E] shadow-sm hover:border-[#14322D]/20 transition-colors"
         />
         {query && (
           <button
@@ -334,7 +342,7 @@ export function PlatformSearch() {
                             onMouseEnter={() => setActiveIdx(idx)}
                             onClick={() => navigateTo(r)}
                             className={`w-full text-left px-4 py-2 flex flex-col gap-0.5 transition-colors ${
-                              isActive ? "bg-teal-50" : "hover:bg-cream-100"
+                              isActive ? "bg-[#146B5E]/[0.08]" : "hover:bg-cream-100"
                             }`}
                           >
                             <span className="text-sm font-medium text-ink-900 leading-tight inline-flex items-center gap-2 flex-wrap">
@@ -342,7 +350,7 @@ export function PlatformSearch() {
                               {r.locale !== currentLocale && (
                                 <span
                                   className="inline-flex items-center px-1.5 py-0.5 text-[10px] font-mono font-semibold uppercase tracking-wide rounded bg-cream-200 text-stone-700 shrink-0"
-                                  aria-label={`Language: ${r.locale}`}
+                                  aria-label={`${langPrefix}: ${r.locale}`}
                                 >
                                   {r.locale}
                                 </span>
@@ -372,7 +380,7 @@ export function PlatformSearch() {
                             onMouseEnter={() => setActiveIdx(idx)}
                             onClick={() => navigateTo(r)}
                             className={`w-full text-left px-4 py-2 flex flex-col gap-0.5 transition-colors ${
-                              isActive ? "bg-teal-50" : "hover:bg-cream-100"
+                              isActive ? "bg-[#146B5E]/[0.08]" : "hover:bg-cream-100"
                             }`}
                           >
                             <span className="text-sm font-medium text-ink-900 leading-tight inline-flex items-center gap-2 flex-wrap">
@@ -380,7 +388,7 @@ export function PlatformSearch() {
                               {r.locale !== currentLocale && (
                                 <span
                                   className="inline-flex items-center px-1.5 py-0.5 text-[10px] font-mono font-semibold uppercase tracking-wide rounded bg-cream-200 text-stone-700 shrink-0"
-                                  aria-label={`Language: ${r.locale}`}
+                                  aria-label={`${langPrefix}: ${r.locale}`}
                                 >
                                   {r.locale}
                                 </span>

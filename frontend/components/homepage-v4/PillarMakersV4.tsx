@@ -36,7 +36,7 @@ export default async function PillarMakersV4({ locale }: PillarMakersProps) {
   ];
 
   return (
-    <section id="worksheet-makers" className="bg-[#FDFBF6] py-20 md:py-28">
+    <section id="worksheet-makers" className="bg-[#FBF3E4] py-24 md:py-32">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="max-w-3xl">
           <p className="hv5-eyebrow">{t('eyebrow')}</p>
@@ -83,7 +83,7 @@ export default async function PillarMakersV4({ locale }: PillarMakersProps) {
         {/* Control depth — the real maker UI */}
         <p className="mt-16 md:mt-20 hv5-eyebrow">{t('controlEyebrow')}</p>
         <div className="mt-4 grid grid-cols-1 lg:grid-cols-[1.4fr_1fr] gap-8 lg:gap-12 items-start">
-          <div className="rounded-2xl overflow-hidden border border-[#14322D]/8 shadow-[0_20px_50px_-20px_rgba(20,50,45,0.35)]">
+          <div className="rounded-2xl overflow-hidden border border-[#14322D]/8 shadow-[var(--e3)]">
             <Chrome url="lessoncraftstudio.com/worksheet-makers" />
             <div className="bg-[#F4F2EC]">
               <img src="/homepage/maker.webp" alt={t('makerAlt')} width={1400} height={1349} loading="lazy" className="block w-full h-auto" />
@@ -100,11 +100,11 @@ export default async function PillarMakersV4({ locale }: PillarMakersProps) {
         </div>
 
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-5">
-          <div className="rounded-2xl border border-[#14322D]/8 bg-white p-5">
+          <div className="rounded-2xl border border-[#14322D]/8 bg-white p-5 shadow-[var(--e1)]">
             <p className="font-lcsDisplay font-bold text-[#14322D] text-base md:text-lg">{t('f5Title')}</p>
             <p className="font-lcsBody text-sm text-[#3d574f] leading-relaxed mt-1">{t('f5Body')}</p>
           </div>
-          <div className="rounded-2xl border border-[#14322D]/8 bg-white p-5">
+          <div className="rounded-2xl border border-[#14322D]/8 bg-white p-5 shadow-[var(--e1)]">
             <p className="font-lcsDisplay font-bold text-[#14322D] text-base md:text-lg">{t('shipTitle')}</p>
             <p className="font-lcsBody text-sm text-[#3d574f] leading-relaxed mt-1">{t('shipBody')}</p>
           </div>

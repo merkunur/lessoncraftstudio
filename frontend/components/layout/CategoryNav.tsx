@@ -85,10 +85,10 @@ export function CategoryNav({
   return (
     <div
       ref={containerRef}
-      className="hidden lg:block bg-cream-50 border-b border-cream-300 relative z-40"
+      className="hidden lg:block bg-[#146B5E]/[0.04] border-b border-[#14322D]/[0.07] relative z-40"
     >
       <div className="container mx-auto px-4 max-w-6xl">
-        <ul className="flex items-center justify-center gap-2 h-12" role="menubar">
+        <ul className="flex items-center justify-center gap-1 h-12" role="menubar">
           {dropdowns.map(d => {
             const isOpen = openKey === d.key;
             return (
@@ -99,17 +99,17 @@ export function CategoryNav({
                   aria-haspopup="true"
                   aria-expanded={isOpen}
                   onClick={() => setOpenKey(isOpen ? null : d.key)}
-                  className={`inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium rounded-md transition-colors ${
+                  className={`relative inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg text-[0.9375rem] font-bold tracking-[0.005em] transition-colors duration-150 after:absolute after:left-3.5 after:right-3.5 after:-bottom-[3px] after:h-[2.5px] after:rounded-full after:bg-[#F2784B] after:origin-left after:transition-transform after:duration-200 ${
                     isOpen
-                      ? 'bg-cream-200 text-ink-900'
-                      : 'text-ink-700 hover:bg-cream-100 hover:text-ink-900'
+                      ? 'text-[#0E544A] bg-[#146B5E]/[0.08] after:scale-x-100'
+                      : 'text-[#14322D]/85 hover:text-[#14322D] after:scale-x-0 hover:after:scale-x-100'
                   }`}
                 >
                   {d.label}
                   <ChevronDown
                     size={16}
-                    strokeWidth={2}
-                    className={`transition-transform ${isOpen ? 'rotate-180' : ''}`}
+                    strokeWidth={2.5}
+                    className={`text-[#146B5E]/60 transition-transform ${isOpen ? 'rotate-180' : ''}`}
                     aria-hidden="true"
                   />
                 </button>

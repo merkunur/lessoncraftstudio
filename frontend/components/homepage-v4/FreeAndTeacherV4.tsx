@@ -25,7 +25,7 @@ export default async function FreeAndTeacherV4({ locale }: Props) {
   const teacherItems = ['teacher1', 'teacher2', 'teacher3', 'teacher4', 'teacher5', 'teacher6', 'teacher7'] as const;
 
   return (
-    <section id="free-and-teacher" className="bg-[#FDFBF6] py-20 md:py-28 border-y border-[#14322D]/6">
+    <section id="free-and-teacher" className="bg-[#FDFBF6] py-24 md:py-32">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="max-w-3xl mb-10 md:mb-12">
           <p className="hv5-eyebrow">{t('eyebrow')}</p>
@@ -37,7 +37,7 @@ export default async function FreeAndTeacherV4({ locale }: Props) {
 
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.1fr] gap-6 items-stretch">
           {/* FREE */}
-          <div className="rounded-2xl border border-[#14322D]/8 bg-white p-7 md:p-8 flex flex-col">
+          <div className="rounded-2xl border border-[#14322D]/8 bg-white p-7 md:p-8 flex flex-col shadow-[var(--e1)]">
             <h3 className="font-lcsDisplay font-bold text-[#14322D] text-lg md:text-xl">{t('freeTitle')}</h3>
             <ul className="mt-6 space-y-3.5 font-lcsBody text-base text-[#3d574f]">
               {freeItems.map((k) => (
@@ -51,8 +51,8 @@ export default async function FreeAndTeacherV4({ locale }: Props) {
           </div>
 
           {/* TEACHER */}
-          <div className="relative rounded-2xl bg-[#14322D] text-white p-7 md:p-8 flex flex-col shadow-[0_24px_50px_-24px_rgba(20,50,45,0.55)]">
-            <span className="absolute -top-3 left-7 rounded-full bg-lcs-coral text-white font-lcsDisplay font-bold text-xs px-3 py-1">{t('badge')}</span>
+          <div className="relative rounded-2xl bg-[#14322D] text-white p-7 md:p-8 flex flex-col shadow-[var(--e3)]">
+            <span className="absolute -top-3.5 left-7 rounded-full bg-lcs-coral text-white font-lcsDisplay font-bold text-[13px] px-3.5 py-1.5 shadow-[0_6px_14px_-4px_rgba(217,99,58,0.55)]">{t('badge')}</span>
             <div className="flex items-baseline justify-between">
               <h3 className="font-lcsDisplay font-bold text-white text-lg md:text-xl">{t('teacherTitle')}</h3>
               <p className="flex items-baseline gap-1.5">
@@ -71,7 +71,7 @@ export default async function FreeAndTeacherV4({ locale }: Props) {
 
             <div className="mt-auto pt-7">
               <p className="font-lcsBody text-[15px] text-lcs-coral-soft mb-4">{t('anchorLine')}</p>
-              <Link href={`/${locale}/pricing`} className="hv5-cta hv5-cta-primary w-full text-base md:text-lg px-6 py-3.5">
+              <Link href={`/${locale}/pricing`} className="hv5-cta hv5-cta-primary hv5-cta-lg w-full">
                 {t('ctaPrimary')}
                 <svg className="ml-2 w-4 h-4" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M5 10h10M11 5l5 5-5 5" /></svg>
               </Link>

@@ -15,7 +15,7 @@ export default async function EmbedShareV4({ locale }: Props) {
   const t = await getTranslations({ locale, namespace: 'homepageV4.share' });
 
   return (
-    <section className="bg-[#FDFBF6] py-20 md:py-28">
+    <section className="bg-[#FBF3E4] py-20 md:py-28">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_0.9fr] gap-12 lg:gap-16 items-center">
           <div>
@@ -44,7 +44,7 @@ export default async function EmbedShareV4({ locale }: Props) {
           </div>
 
           {/* Share card: the real worksheet is the hero; QR + link secondary */}
-          <div className="rounded-2xl border border-[#14322D]/8 bg-white p-5 md:p-6 shadow-[0_18px_40px_-24px_rgba(20,50,45,0.3)]">
+          <div className="rounded-2xl border border-[#14322D]/8 bg-white p-5 md:p-6 shadow-[var(--e2)]">
             <div className="flex gap-5">
               <div className="shrink-0 w-[150px] rounded-xl overflow-hidden border border-[#14322D]/8 bg-white shadow-[0_10px_22px_-12px_rgba(20,50,45,0.35)]">
                 <img src={`${CDN}/sudoku-ocean-life/thumbnail.png`} alt="A saved interactive worksheet ready to share" loading="lazy" width={300} height={386} className="block w-full h-auto" />

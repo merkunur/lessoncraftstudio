@@ -30,31 +30,31 @@ export default async function MoatLanguagesV4({ locale }: Props) {
   const max = Math.max(...LANGS.map((l) => l.count));
 
   return (
-    <section className="bg-[#FDFBF6] py-20 md:py-28">
+    <section className="hv5-ground-teal hv5-band-recess relative py-24 md:py-32">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.1fr] gap-12 lg:gap-16 items-center">
-          {/* Copy */}
+          {/* Copy — cream on teal */}
           <div>
-            <p className="hv5-eyebrow">{t('eyebrow')}</p>
-            <h2 className="mt-3 font-lcsDisplay font-bold text-[#14322D] leading-[1.08] tracking-tight text-[1.875rem] sm:text-[2.5rem] md:text-[3rem]">
+            <p className="hv5-eyebrow" style={{ color: '#C3DBD3' }}>{t('eyebrow')}</p>
+            <h2 className="mt-3 font-lcsDisplay font-bold text-[#FBF3E4] leading-[1.08] tracking-tight text-[1.875rem] sm:text-[2.5rem] md:text-[3rem]">
               {t('heading')}
             </h2>
-            <p className="mt-4 font-lcsBody text-lg text-[#3d574f] leading-relaxed">{t('body')}</p>
+            <p className="mt-4 font-lcsBody font-medium text-lg text-[#FBF3E4]/85 leading-relaxed">{t('body')}</p>
 
-            <p className="mt-7 hv5-eyebrow">{t('frameworksLabel')}</p>
-            <p className="mt-2 font-lcsBody text-sm md:text-[15px] text-[#3d574f] leading-relaxed">{t('frameworks')}</p>
-            <p className="mt-5 font-lcsBody text-sm md:text-[15px] text-[#3d574f] leading-relaxed border-l-2 border-lcs-coral pl-4">{t('grammarNote')}</p>
+            <p className="mt-7 hv5-eyebrow" style={{ color: '#C3DBD3' }}>{t('frameworksLabel')}</p>
+            <p className="mt-2 font-lcsBody text-sm md:text-[15px] text-[#FBF3E4]/80 leading-relaxed">{t('frameworks')}</p>
+            <p className="mt-5 font-lcsBody text-sm md:text-[15px] text-[#FBF3E4]/85 leading-relaxed border-l-2 border-lcs-coral pl-4">{t('grammarNote')}</p>
 
             <div className="mt-8">
-              <Link href={`/${locale}/worksheets/`} className="hv5-cta hv5-cta-ghost text-base px-6 py-3">
+              <Link href={`/${locale}/worksheets/`} className="hv5-cta hv5-cta-cream text-base px-6 py-3">
                 {t('cta')}
                 <svg className="ml-2 w-4 h-4" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M5 10h10M11 5l5 5-5 5" /></svg>
               </Link>
             </div>
           </div>
 
-          {/* Credible per-language data panel */}
-          <div className="rounded-2xl border border-[#14322D]/8 bg-white p-6 md:p-8 shadow-[0_18px_40px_-24px_rgba(20,50,45,0.3)]">
+          {/* Credible per-language data panel — a bright sheet glowing on the teal */}
+          <div className="rounded-2xl border border-white/10 bg-white p-6 md:p-8 shadow-[0_30px_60px_-22px_rgba(0,0,0,0.5)]">
             <div className="flex items-baseline justify-between mb-5">
               <span className="font-lcsDisplay font-bold text-[#14322D] text-base">{t('panelTitle')}</span>
               <span className="font-lcsBody text-sm"><span className="font-lcsDisplay font-extrabold text-[#146B5E] text-lg">45,309</span> {t('panelTotal')}</span>

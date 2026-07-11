@@ -25,7 +25,7 @@ export default async function ActivitiesMoatV4({ locale }: Props) {
   const t = await getTranslations({ locale, namespace: 'homepageV4.activities' });
 
   return (
-    <section className="bg-[#FDFBF6] py-20 md:py-28">
+    <section className="bg-[#F0F4F0] hv5-paper-rise-sm py-20 md:py-28">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="max-w-3xl mb-10">
           <p className="hv5-eyebrow">{t('eyebrow')}</p>
@@ -37,13 +37,13 @@ export default async function ActivitiesMoatV4({ locale }: Props) {
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-5">
           {ACTIVITIES.map((a) => (
-            <Link key={a.img} href={`/${locale}/activities`} className="group block hv5-card hover:-translate-y-0.5 transition-transform">
+            <Link key={a.img} href={`/${locale}/activities`} className="group block hv5-card">
               <div className="bg-[#FBF3E4]">
                 <img src={`${PREV}/${a.img}.webp`} alt={`${a.label} — interactive K-3 activity`} loading="lazy" width={480} height={300} className="block w-full h-auto" />
               </div>
               <div className="flex items-center justify-between gap-2 px-3.5 py-2.5 border-t border-[#14322D]/8">
                 <span className="font-lcsDisplay font-bold text-[#14322D] text-sm">{a.label}</span>
-                <span className="font-mono text-[11px] font-semibold text-[#0E544A] bg-[#DDEAE5] rounded px-2 py-0.5 shrink-0">{a.code}</span>
+                <span className="hv5-chip-mono shrink-0">{a.code}</span>
               </div>
             </Link>
           ))}
@@ -76,7 +76,7 @@ export default async function ActivitiesMoatV4({ locale }: Props) {
           <div className="min-w-0 flex-1">
             <div className="flex items-center gap-2">
               <p className="font-lcsDisplay font-bold text-[#14322D] text-lg">{t('shareTitle')}</p>
-              <span className="shrink-0 inline-flex items-center font-mono font-semibold text-[0.6875rem] text-[#0E544A] bg-[#DDEAE5] rounded-md px-2 py-0.5">{t('shareTag')}</span>
+              <span className="hv5-chip-mono shrink-0">{t('shareTag')}</span>
             </div>
             <p className="mt-1 font-lcsBody text-[15px] text-[#3d574f] leading-relaxed">{t('shareBody')}</p>
           </div>

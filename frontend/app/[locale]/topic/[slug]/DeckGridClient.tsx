@@ -11,6 +11,8 @@ import DeckCardCheckbox from '@/components/catalog/DeckCardCheckbox';
 import BulkSelectToolbar, { BulkAction } from '@/components/catalog/BulkSelectToolbar';
 import BulkAddToCollectionPicker from '@/components/catalog/BulkAddToCollectionPicker';
 import ShareLinkResultModal, { ShareLinkResult } from '@/components/catalog/ShareLinkResultModal';
+import { useQuotaModal } from '@/components/quota/QuotaExceededModal';
+import { meterAction } from '@/lib/client-meter';
 
 // Tool 5A — client wrapper extraction from the topic page's inline grid.
 // Owns bulk-mode state + selection state + per-card affordances. Per §17.4
@@ -74,10 +76,24 @@ export default function DeckGridClient({
   // /api/quota/check-and-increment; on 200 (allowed) navigates to the deck
   // page; on 402 (blocked) shows the QuotaExceededModal without navigation.
 
+  const { showQuotaModal, QuotaModalElement } = useQuotaModal();
+
   const flashConfirmation = useCallback((msg: string) => {
     setConfirmation(msg);
     setTimeout(() => setConfirmation(null), 2500);
   }, []);
+
+  // Metered PLAY: intercept the deck-page navigation, meter, then proceed or
+  // show the wall. Metering is off (env) until the launch flip → proceed always.
+  const handlePlay = useCallback(
+    async (e: React.MouseEvent, href: string) => {
+      e.preventDefault();
+      const { proceed, detail } = await meterAction('play');
+      if (proceed) window.location.href = href;
+      else showQuotaModal(detail);
+    },
+    [showQuotaModal]
+  );
 
   // Topic-pack ZIP (Teacher plan): zips the SELECTED decks' printable PDFs
   // client-side with the already-shipped JSZip (no new dependency, no server
@@ -291,14 +307,18 @@ export default function DeckGridClient({
                   <div className="flex items-center gap-3 text-sm flex-wrap">
                     <a
                       href={deck.href}
+                      onClick={(e) => handlePlay(e, deck.href)}
                       aria-label={tCard('ariaPlay', { title: deck.title })}
                       className="text-leaf-700 font-semibold hover:underline"
                     >
                       {labels.playLink}
                     </a>
                     <span className="text-ink-300" aria-hidden="true">·</span>
+                    {/* Metered DOWNLOAD: the proxy route does the server-side
+                        meter + 302 (or 302→signup/pricing); crawlers/subscribers
+                        pass straight through. Off until the flip. */}
                     <a
-                      href={deck.pdfUrl}
+                      href={`/api/quota/pdf/${deck.id}`}
                       aria-label={tCard('ariaPdf', { title: deck.title })}
                       className="text-ink-600 hover:text-ink-900"
                       target="_blank"
@@ -310,7 +330,7 @@ export default function DeckGridClient({
                       <>
                         <span className="text-ink-300" aria-hidden="true">·</span>
                         <a
-                          href={deck.answerKeyUrl}
+                          href={`/api/quota/answer-key/${deck.id}`}
                           aria-label={tCard('ariaAnswerKey', { title: deck.title })}
                           className="text-ink-600 hover:text-ink-900"
                           target="_blank"
@@ -337,6 +357,8 @@ export default function DeckGridClient({
         onAction={handleAction}
         onCancel={clearSelection}
       />
+
+      {QuotaModalElement}
 
       <BulkAddToCollectionPicker
         open={pickerOpen}

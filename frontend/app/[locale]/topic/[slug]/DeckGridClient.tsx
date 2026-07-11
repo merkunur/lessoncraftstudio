@@ -95,6 +95,28 @@ export default function DeckGridClient({
     [showQuotaModal]
   );
 
+  // Metered DOWNLOAD (mirror handlePlay). The <a> keeps the real public file URL
+  // (crawlable + right-click-save), but a normal click meters first — now
+  // Bearer-authenticated via meterAction, so subscribers pass — then opens the
+  // file, or shows the wall when blocked. The new tab is opened synchronously
+  // (inside the click gesture) so it isn't popup-blocked, then filled/closed once
+  // the meter resolves.
+  const handleDownload = useCallback(
+    async (e: React.MouseEvent, url: string) => {
+      e.preventDefault();
+      const win = window.open('', '_blank');
+      const { proceed, detail } = await meterAction('download');
+      if (proceed) {
+        if (win) win.location.href = url;
+        else window.location.href = url; // popup blocked → same-tab fallback
+      } else {
+        win?.close();
+        showQuotaModal(detail);
+      }
+    },
+    [showQuotaModal]
+  );
+
   // Topic-pack ZIP (Teacher plan): zips the SELECTED decks' printable PDFs
   // client-side with the already-shipped JSZip (no new dependency, no server
   // endpoint — each PDF is individually free; the pack is convenience).
@@ -314,11 +336,13 @@ export default function DeckGridClient({
                       {labels.playLink}
                     </a>
                     <span className="text-ink-300" aria-hidden="true">·</span>
-                    {/* Metered DOWNLOAD: the proxy route does the server-side
-                        meter + 302 (or 302→signup/pricing); crawlers/subscribers
-                        pass straight through. Off until the flip. */}
+                    {/* Metered DOWNLOAD: the href is the real public file (crawlable
+                        + right-click-save); a normal click is intercepted by
+                        handleDownload, which meters (Bearer-authenticated, so
+                        subscribers pass) then opens the file or shows the wall. */}
                     <a
-                      href={`/api/quota/pdf/${deck.id}`}
+                      href={deck.pdfUrl}
+                      onClick={(e) => handleDownload(e, deck.pdfUrl)}
                       aria-label={tCard('ariaPdf', { title: deck.title })}
                       className="text-ink-600 hover:text-ink-900"
                       target="_blank"
@@ -330,7 +354,8 @@ export default function DeckGridClient({
                       <>
                         <span className="text-ink-300" aria-hidden="true">·</span>
                         <a
-                          href={`/api/quota/answer-key/${deck.id}`}
+                          href={deck.answerKeyUrl}
+                          onClick={(e) => handleDownload(e, deck.answerKeyUrl as string)}
                           aria-label={tCard('ariaAnswerKey', { title: deck.title })}
                           className="text-ink-600 hover:text-ink-900"
                           target="_blank"

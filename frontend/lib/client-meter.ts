@@ -22,9 +22,22 @@ export interface MeterOutcome {
 
 export async function meterAction(kind: 'download' | 'play'): Promise<MeterOutcome> {
   try {
+    // This app authenticates via a JWT in localStorage sent as a Bearer header
+    // (see contexts/auth-context.tsx) — there is NO cookie session. Without this
+    // header the meter API can't identify the user, so every signed-in user
+    // (including active subscribers) was resolved as anonymous and metered.
+    let token: string | null = null;
+    try {
+      token = typeof window !== 'undefined' ? localStorage.getItem('accessToken') : null;
+    } catch {
+      /* localStorage unavailable (private mode / SSR) → proceed unauthenticated */
+    }
     const res = await fetch('/api/quota/check-and-increment', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: {
+        'Content-Type': 'application/json',
+        ...(token ? { Authorization: `Bearer ${token}` } : {}),
+      },
       body: JSON.stringify({ kind }),
       credentials: 'include',
       cache: 'no-store',

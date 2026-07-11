@@ -43,10 +43,11 @@ export default async function BrowseByTopicSSR({
   includeGradeGroup = false,
   includeLanguageGroup = false,
 }: BrowseByTopicSSRProps) {
-  const [themeKeys, typeKeys, tFooter] = await Promise.all([
+  const [themeKeys, typeKeys, tFooter, tBrowse] = await Promise.all([
     listNonEmptyAxisKeys('theme', locale).catch(() => [] as string[]),
     listNonEmptyAxisKeys('exercise-type', locale).catch(() => [] as string[]),
     getTranslations({ locale, namespace: 'footer' }),
+    getTranslations({ locale, namespace: 'homepageV4.browse' }),
   ]);
 
   const themeLinks = themeKeys.slice(0, maxThemesPerGroup).map(k => ({
@@ -100,11 +101,8 @@ export default async function BrowseByTopicSSR({
   let gradeHeading = '';
   if (includeGradeGroup) {
     try {
-      const [gradeKeys, t4] = await Promise.all([
-        listNonEmptyAxisKeys('educational-level', locale),
-        getTranslations({ locale, namespace: 'homepageV4.browse' }),
-      ]);
-      gradeHeading = t4('byGrade');
+      const gradeKeys = await listNonEmptyAxisKeys('educational-level', locale);
+      gradeHeading = tBrowse('byGrade');
       gradeLinks = gradeKeys.map(k => ({
         href: `/${locale}/topic/${getAxisSlug('educational-level', k, locale) ?? k}/`,
         label: getAxisName('educational-level', k, locale) ?? k,
@@ -129,8 +127,8 @@ export default async function BrowseByTopicSSR({
   const group = (heading: string, links: Array<{ href: string; label: string; onlineHref?: string | null }>, browseHref?: string, browseLabel?: string) => {
     if (links.length === 0) return null;
     return (
-      <nav aria-label={heading} className="hv3-card p-7 md:p-8">
-        <h2 className="hv3-eyebrow text-[#146B5E] mb-4">{heading}</h2>
+      <nav aria-label={heading} className="rounded-2xl border border-[#14322D]/8 bg-white p-7 md:p-8">
+        <h2 className="hv5-eyebrow mb-4">{heading}</h2>
         <ul className="grid grid-cols-2 sm:grid-cols-3 gap-x-6 gap-y-2">
           {links.map(l => (
             <li key={l.href}>
@@ -167,7 +165,12 @@ export default async function BrowseByTopicSSR({
   };
 
   return (
-    <section id="browse-by-topic" className="hv3-section-cream py-16 md:py-20">
+    <section id="browse-by-topic" className="bg-[#FDFBF6] py-20 md:py-24">
+      <div className="container mx-auto px-4 max-w-6xl mb-8 md:mb-10">
+        <p className="hv5-eyebrow">{tBrowse('eyebrow')}</p>
+        <h2 className="mt-3 font-lcsDisplay font-bold text-[#14322D] leading-[1.08] tracking-tight text-[1.875rem] sm:text-[2.5rem] md:text-[3rem]">{tBrowse('heading')}</h2>
+        <p className="mt-3 font-lcsBody text-lg text-[#3d574f] leading-relaxed max-w-2xl">{tBrowse('sub')}</p>
+      </div>
       <div className="container mx-auto px-4 max-w-6xl grid gap-6 md:grid-cols-2">
         {group(subjectGradeHeading, subjectGradeLinks, `/${locale}/worksheets/`, labels.browseAllTopics)}
         {group(seasonalHeading(locale), seasonalLinks, `/${locale}/topic/`, labels.browseAllTopics)}

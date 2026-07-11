@@ -6,15 +6,12 @@ import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { buildOrganizationSchema, buildWebSiteSchema } from '@/lib/seo/organization-schema';
 import HeroV4 from '@/components/homepage-v4/HeroV4';
 import TryItBandV4 from '@/components/homepage-v4/TryItBandV4';
-import PillarActivities from '@/components/homepage-v3/PillarActivities';
-import PillarInteractive from '@/components/homepage-v3/PillarInteractive';
-import PillarPrintables from '@/components/homepage-v3/PillarPrintables';
-import TierTransition from '@/components/homepage-v3/TierTransition';
 import PillarMakersV4 from '@/components/homepage-v4/PillarMakersV4';
-import PillarTools from '@/components/homepage-v3/PillarTools';
-import BrowseByTopicSSR from '@/components/homepage-v3/BrowseByTopicSSR';
-import EmbedShareV4 from '@/components/homepage-v4/EmbedShareV4';
+import MoatLanguagesV4 from '@/components/homepage-v4/MoatLanguagesV4';
+import ActivitiesMoatV4 from '@/components/homepage-v4/ActivitiesMoatV4';
 import FreeAndTeacherV4 from '@/components/homepage-v4/FreeAndTeacherV4';
+import EmbedShareV4 from '@/components/homepage-v4/EmbedShareV4';
+import BrowseByTopicSSR from '@/components/homepage-v3/BrowseByTopicSSR';
 import SignupV4 from '@/components/homepage-v4/SignupV4';
 import './preview/homepage-v3/homepage-v3.css';
 import './preview/homepage-v4/homepage-v4.css';
@@ -138,38 +135,30 @@ export default async function HomePage({ params }: { params: { locale: string } 
         />
       ))}
 
-      {/* Homepage-v3 body bg override (deep teal #0E544A + chalk-on-teal
-          endpaper pattern). Scoped to this page only — when user navigates
-          away, the inline style unmounts and parent body bg returns. */}
+      {/* Clean light ground for the professional redesign (2026-07-11).
+          Scoped to this page; unmounts on navigation. */}
       <style>{`
-        body {
-          background: #0E544A !important;
-          color: #FBF3E4;
-          background-image:
-            url("data:image/svg+xml;utf8,%3Csvg width='280' height='280' viewBox='0 0 280 280' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23FBF3E4' stroke-width='1.6' stroke-linecap='round' opacity='0.12'%3E%3Cpath d='M 28 36 q 5 -7 10 0 t 10 0' /%3E%3Cpath d='M 210 70 q 4 -6 8 0 t 8 0' /%3E%3Cpath d='M 76 220 q 6 -8 12 0 t 12 0' /%3E%3Cpath d='M 130 140 q 5 -6 10 0' /%3E%3C/g%3E%3Cg fill='%23F2784B' opacity='0.14'%3E%3Cpath d='M 110 52 l 1.8 4.6 l 4.6 0.6 l -3.4 2.8 l 1.2 4.6 l -4 -2.4 l -4 2.4 l 1.2 -4.6 l -3.4 -2.8 l 4.6 -0.6 z' /%3E%3Cpath d='M 232 190 l 1.4 3.4 l 3.4 0.4 l -2.4 2 l 0.8 3.4 l -3 -1.8 l -3 1.8 l 0.8 -3.4 l -2.4 -2 l 3.4 -0.4 z' /%3E%3Cpath d='M 50 168 l 1.2 3 l 3 0.4 l -2 1.8 l 0.6 3 l -2.6 -1.6 l -2.6 1.6 l 0.6 -3 l -2 -1.8 l 3 -0.4 z' /%3E%3C/g%3E%3Cg fill='%23FBF3E4' opacity='0.10'%3E%3Ccircle cx='170' cy='28' r='2.4'/%3E%3Ccircle cx='44' cy='124' r='2.8'/%3E%3Ccircle cx='250' cy='240' r='2'/%3E%3Ccircle cx='132' cy='210' r='1.8'/%3E%3Ccircle cx='14' cy='210' r='1.8'/%3E%3Ccircle cx='200' cy='115' r='2.2'/%3E%3C/g%3E%3Cg fill='none' stroke='%23F2784B' stroke-width='1.5' stroke-linecap='round' opacity='0.13'%3E%3Cpath d='M 58 80 q 10 -5 20 0' /%3E%3Cpath d='M 190 150 q 8 -5 16 0' /%3E%3C/g%3E%3C/svg%3E");
-          background-size: 280px 280px;
-          background-repeat: repeat;
-        }
+        body { background: #FDFBF6 !important; color: #14322D; }
         body::before { display: none; }
       `}</style>
 
-      <main className={`hv3 ${baloo2.variable} ${nunito.variable} font-lcsBody text-lcs-cream min-h-screen`}>
+      <main className={`hv3 hv5 ${baloo2.variable} ${nunito.variable} font-lcsBody text-[#14322D] min-h-screen`}>
+        {/* 9-section maker-first stack (2026-07-11 redesign). Order:
+            hero -> try-it -> makers -> language moat -> activities ->
+            free/Teacher -> share -> browse (crawl-bait) -> close. */}
         <HeroV4 locale={locale} />
         <TryItBandV4 locale={locale} />
-        <PillarActivities locale={locale} />
-        <PillarInteractive locale={locale} />
-        <PillarPrintables locale={locale} />
-        <TierTransition locale={locale} />
         <PillarMakersV4 locale={locale} />
-        <PillarTools locale={locale} />
+        <MoatLanguagesV4 locale={locale} />
+        <ActivitiesMoatV4 locale={locale} />
+        <FreeAndTeacherV4 locale={locale} />
+        <EmbedShareV4 locale={locale} />
         <BrowseByTopicSSR
           locale={locale}
           maxThemesPerGroup={40}
           includeGradeGroup
           includeLanguageGroup
         />
-        <FreeAndTeacherV4 locale={locale} />
-        <EmbedShareV4 locale={locale} />
         <SignupV4 locale={locale} />
       </main>
     </>

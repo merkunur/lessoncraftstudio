@@ -22,7 +22,7 @@ export default async function FreeAndTeacherV4({ locale }: Props) {
   const t = await getTranslations({ locale, namespace: 'homepageV4.freeTeacher' });
 
   const freeItems = ['free1', 'free2', 'free3', 'free4'] as const;
-  const teacherItems = ['teacher1', 'teacher2', 'teacher3', 'teacher4', 'teacher5', 'teacher6'] as const;
+  const teacherItems = ['teacher1', 'teacher2', 'teacher3', 'teacher4', 'teacher5', 'teacher6', 'teacher7'] as const;
 
   return (
     <section id="free-and-teacher" className="bg-[#FDFBF6] py-20 md:py-28 border-y border-[#14322D]/6">

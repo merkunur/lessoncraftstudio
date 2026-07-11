@@ -258,6 +258,16 @@ export async function listAllActivities(): Promise<ActivityRow[]> {
 }
 
 /**
+ * Resolve an activity by its manifest id (locale-independent, e.g.
+ * "mochi-feast.count-out.k-cc-b-5"). Used by the activity-share feature to go
+ * shared-link → row → the standalone mini-tool URL. Returns null for unknown ids.
+ */
+export async function resolveActivityById(id: string): Promise<ActivityRow | null> {
+  const all = await loadActivities();
+  return all.find((row) => row.id === id) || null;
+}
+
+/**
  * Sibling slug map for a row: the merged `locale → slug` map across every row
  * sharing the same `(task_template, alignment.code)` key. This cross-links
  * activities that were fanned out as SEPARATE per-locale rows across engine

@@ -9,6 +9,7 @@ import { PRICING_PUBLIC } from '@/config/subscription-launch';
 import CollectionsWidget, { CollectionSummary } from './CollectionsWidget';
 import RecentActivityWidget, { Activity } from './RecentActivityWidget';
 import HostedWorksheetsWidget from './HostedWorksheetsWidget';
+import SharedActivitiesWidget from './SharedActivitiesWidget';
 import FavoritesWidget from './FavoritesWidget';
 
 interface WorkspacePayload {
@@ -132,6 +133,8 @@ export default function WorkspaceClient({ locale }: { locale: string }) {
       {payload !== null && (
         <div className="space-y-12">
           <HostedWorksheetsWidget />
+
+          <SharedActivitiesWidget locale={locale} />
 
           <CollectionsWidget
             locale={locale}

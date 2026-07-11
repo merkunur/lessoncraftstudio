@@ -79,6 +79,8 @@ model User {
   studioShareLinks   StudioShareLink[]
   // Hosted interactive worksheets (2026-07 subscription launch). Prisma virtual; emit no SQL.
   hostedWorksheets   HostedWorksheet[]
+  // Shared activities — durable student-play links for the 200+ interactive activities. Prisma virtual; emit no SQL.
+  activityPlayLinks  ActivityPlayLink[]
   // Usage metering (2026-07-12 metered paywall). Prisma virtual; emit no SQL.
   usageQuotas        UsageQuota[]
 
@@ -1317,6 +1319,33 @@ model HostedWorksheet {
   @@index([teacherId])
   @@index([status])
   @@map("hosted_worksheets")
+}
+
+// Shared activities — a subscriber mints a durable clean student-play link
+// (+ QR) for one of the 200+ interactive activities. The mini-tool wrapper HTML
+// is already a standalone, chrome-free player, so a row just persists which
+// activity (activityId = ActivityRow.id, locale-independent) + which locale to
+// serve. Serving (/play/a/[linkId]) is FREE public content (activities never
+// gate) so links never lapse; the subscriber gate is only on CREATION.
+// Serving is noindex (X-Robots-Tag) and never sitemapped.
+model ActivityPlayLink {
+  id         String    @id @default(cuid())
+  linkId     String    @unique @map("link_id") @db.VarChar(12)
+  teacherId  String    @map("teacher_id")
+  activityId String    @map("activity_id") @db.VarChar(80)
+  locale     String    @default("en") @db.VarChar(5)
+  title      String    @db.VarChar(200)
+  viewCount  Int       @default(0) @map("view_count")
+  status     String    @default("live") @db.VarChar(10) // live | deleted (soft)
+  createdAt  DateTime  @default(now()) @map("created_at")
+  updatedAt  DateTime  @updatedAt @map("updated_at")
+  deletedAt  DateTime? @map("deleted_at")
+
+  teacher User @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+
+  @@index([teacherId])
+  @@index([status])
+  @@map("activity_play_links")
 }
 
 // Usage metering (2026-07-12 metered paywall — education.com/IXL model).

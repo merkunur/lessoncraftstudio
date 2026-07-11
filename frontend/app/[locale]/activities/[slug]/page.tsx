@@ -213,6 +213,7 @@ import {
 } from '@/lib/activities';
 import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
 import { ActivityIframe } from '@/components/activities/ActivityIframe';
+import ActivityShareButton from '@/components/activities/ActivityShareButton';
 import TopicFaq from '@/components/catalog/TopicFaq';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import { buildBreadcrumbSchema, BreadcrumbCrumb } from '@/lib/seo/breadcrumb-schema';
@@ -561,6 +562,16 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
               >
                 {row.alignment.code}
               </Link>
+            </div>
+            {/* Subscriber share — mint a clean student-play link + QR for this
+                activity. Gated client-side (signed-out → sign-up, no-plan →
+                pricing); the API is the real gate. */}
+            <div>
+              <ActivityShareButton
+                activityId={row.id}
+                locale={params.locale}
+                title={row.page_title[params.locale]}
+              />
             </div>
           </header>
 

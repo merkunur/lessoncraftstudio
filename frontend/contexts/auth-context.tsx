@@ -395,8 +395,11 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       localStorage.removeItem('refreshToken');
       localStorage.removeItem('user'); // Clear cached user data
       setLoading(false);
-      router.push('/');
       toast.success('Logged out successfully');
+      // Full-page navigation (NOT router.push): an SPA push after logout makes the
+      // browser Back button serve the cached RSC (text/x-component) payload as a raw
+      // document (looks broken). A full nav resets history + client state cleanly.
+      window.location.href = `/${getCurrentLocale()}`;
     }
   };
 

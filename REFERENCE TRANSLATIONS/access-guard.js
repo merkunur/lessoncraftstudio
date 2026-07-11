@@ -246,7 +246,7 @@
   (function loadWorksheetHost() {
     try {
       var s = document.createElement('script');
-      s.src = '/worksheet-generators/js/worksheet-host.js?v=2';
+      s.src = '/worksheet-generators/js/worksheet-host.js?v=3';
       s.defer = true;
       (document.head || document.documentElement).appendChild(s);
     } catch (e) { /* progressive enhancement — never block the app */ }

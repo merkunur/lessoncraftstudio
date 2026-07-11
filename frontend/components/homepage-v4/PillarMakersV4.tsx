@@ -28,6 +28,9 @@ function Chrome({ url }: { url: string }) {
 
 export default async function PillarMakersV4({ locale }: PillarMakersProps) {
   const t = await getTranslations({ locale, namespace: 'homepageV4.makers' });
+  // Per-locale product screenshots (success card, background worksheet, maker UI).
+  // EN keeps the unprefixed /homepage/*.webp; non-EN use /homepage/<locale>/*.webp.
+  const imgBase = locale === 'en' ? '/homepage' : `/homepage/${locale}`;
   // Printable-PDF thumbnail in the visitor's language (EN keeps the hand-picked deck).
   const printableThumb = locale === 'en'
     ? `${CDN}/addition-find-addend-animals/thumbnail.png`
@@ -60,12 +63,12 @@ export default async function PillarMakersV4({ locale }: PillarMakersProps) {
               <div className="hv5-card">
                 <Chrome url="lessoncraftstudio.com/play/…" />
                 <div className="max-h-[360px] overflow-hidden bg-white">
-                  <img src="/homepage/interactive-play.webp" alt={t('playAlt')} width={760} height={1120} loading="lazy" className="block w-full" />
+                  <img src={`${imgBase}/interactive-play.webp`} alt={t('playAlt')} width={760} height={1120} loading="lazy" className="block w-full" />
                 </div>
               </div>
               {/* self-graded result, overlapping — proves it grades itself */}
               <div className="absolute -bottom-5 -right-3 w-[58%] rounded-xl bg-white border border-[#14322D]/8 shadow-[0_16px_34px_-14px_rgba(20,50,45,0.4)] overflow-hidden rotate-[3deg]">
-                <img src="/homepage/interactive-celebrate.webp" alt={t('celebrateAlt')} width={900} height={556} loading="lazy" className="block w-full" />
+                <img src={`${imgBase}/interactive-celebrate.webp`} alt={t('celebrateAlt')} width={900} height={556} loading="lazy" className="block w-full" />
               </div>
             </div>
             <h3 className="mt-8 font-lcsDisplay font-bold text-[#14322D] text-lg">{t('outPlayTitle')}</h3>
@@ -91,7 +94,7 @@ export default async function PillarMakersV4({ locale }: PillarMakersProps) {
           <div className="rounded-2xl overflow-hidden border border-[#14322D]/8 shadow-[var(--e3)]">
             <Chrome url="lessoncraftstudio.com/worksheet-makers" />
             <div className="bg-[#F4F2EC]">
-              <img src="/homepage/maker.webp" alt={t('makerAlt')} width={1400} height={1349} loading="lazy" className="block w-full h-auto" />
+              <img src={`${imgBase}/maker.webp`} alt={t('makerAlt')} width={1400} height={1349} loading="lazy" className="block w-full h-auto" />
             </div>
           </div>
           <ul className="space-y-6">

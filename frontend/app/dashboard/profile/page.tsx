@@ -4,6 +4,7 @@ export const dynamic = 'force-dynamic';
 
 import { useState } from 'react';
 import { useAuth } from '@/contexts/auth-context';
+import { isLcsSubscriptionActive } from '@/lib/subscription-helpers';
 import { toast } from 'react-hot-toast';
 import {
   User,
@@ -129,7 +130,7 @@ export default function ProfilePage() {
                     )}
                   </span>
                   <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-white bg-opacity-20 text-white">
-                    {user?.subscriptionTier?.toUpperCase()} Plan
+                    {isLcsSubscriptionActive(user) ? 'Teacher' : 'Free'} Plan
                   </span>
                 </div>
               </div>

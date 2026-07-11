@@ -2619,5 +2619,14 @@
     "body": "Je abonnement is actief. Het kan een paar seconden duren voordat je account is bijgewerkt — ververs de werkruimte als het nog niet zichtbaar is.",
     "emailNote": "Nieuw hier? We hebben je een link gemaild om je wachtwoord in te stellen.",
     "cta": "Naar je werkruimte"
+  },
+  "quotaWall": {
+    "exceededTitle": "Je hebt je gratis speelbeurten van vandaag gebruikt",
+    "exceededBody": "Kom morgen terug voor meer, of ontgrendel onbeperkt spelen en downloaden met het Leerkracht-abonnement.",
+    "signupTitle": "Maak een gratis account om te downloaden",
+    "signupBody": "Gratis accounts krijgen 3 downloads per maand. In seconden aangemaakt, zonder kaart.",
+    "subscribeCta": "Bekijk het Leerkracht-abonnement",
+    "signupCta": "Gratis aanmelden",
+    "dismissCta": "Niet nu"
   }
 }

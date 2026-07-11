@@ -4140,5 +4140,14 @@
     "body": "Il tuo abbonamento è attivo. L'account può impiegare qualche secondo ad aggiornarsi — ricarica l'area di lavoro se non compare ancora.",
     "emailNote": "Sei nuovo qui? Ti abbiamo inviato per email un link per impostare la password.",
     "cta": "Vai alla tua area di lavoro"
+  },
+  "quotaWall": {
+    "exceededTitle": "Hai usato le tue prove gratuite di oggi",
+    "exceededBody": "Torna domani per averne altre, o sblocca gioco e download illimitati con il piano Insegnante.",
+    "signupTitle": "Crea un account gratuito per scaricare",
+    "signupBody": "Gli account gratuiti hanno 3 download al mese. Creane uno in pochi secondi, senza carta.",
+    "subscribeCta": "Vedi il piano Insegnante",
+    "signupCta": "Registrati gratis",
+    "dismissCta": "Non ora"
   }
 }

@@ -4138,5 +4138,14 @@
     "body": "Tu suscripción está activa. Tu cuenta puede tardar unos segundos en actualizarse — recarga el espacio de trabajo si aún no aparece.",
     "emailNote": "¿Eres nuevo por aquí? Te enviamos por correo un enlace para crear tu contraseña.",
     "cta": "Ir a tu espacio de trabajo"
+  },
+  "quotaWall": {
+    "exceededTitle": "Has usado tus jugadas gratis de hoy",
+    "exceededBody": "Vuelve mañana para más, o desbloquea juego y descargas ilimitadas con el plan Docente.",
+    "signupTitle": "Crea una cuenta gratis para descargar",
+    "signupBody": "Las cuentas gratis tienen 3 descargas al mes. Créala en segundos, sin tarjeta.",
+    "subscribeCta": "Ver el plan Docente",
+    "signupCta": "Registrarse gratis",
+    "dismissCta": "Ahora no"
   }
 }

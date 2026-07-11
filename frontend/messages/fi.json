@@ -2608,5 +2608,14 @@
     "body": "Tilauksesi on aktiivinen. Tilin päivittyminen voi kestää muutaman sekunnin — päivitä työtila, jos tilaus ei vielä näy.",
     "emailNote": "Uusi täällä? Lähetimme sähköpostiisi linkin salasanan asettamista varten.",
     "cta": "Siirry työtilaan"
+  },
+  "quotaWall": {
+    "exceededTitle": "Olet käyttänyt tämän päivän ilmaiset pelikerrat",
+    "exceededBody": "Palaa huomenna hakemaan lisää, tai avaa rajaton pelaaminen ja lataukset Opettaja-tilauksella.",
+    "signupTitle": "Luo ilmainen tili ladataksesi",
+    "signupBody": "Ilmaisilla tileillä on 3 latausta kuukaudessa. Luo tili sekunneissa, ilman korttia.",
+    "subscribeCta": "Katso Opettaja-tilaus",
+    "signupCta": "Rekisteröidy ilmaiseksi",
+    "dismissCta": "Ei nyt"
   }
 }

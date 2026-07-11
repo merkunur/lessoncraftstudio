@@ -2619,5 +2619,14 @@
     "body": "Ditt abonnemang är aktivt. Det kan ta några sekunder innan kontot hinner ikapp — ladda om arbetsytan om det inte syns än.",
     "emailNote": "Ny här? Vi har mejlat dig en länk för att välja lösenord.",
     "cta": "Till din arbetsyta"
+  },
+  "quotaWall": {
+    "exceededTitle": "Du har använt dagens gratisomgångar",
+    "exceededBody": "Kom tillbaka i morgon för fler, eller lås upp obegränsat spel och nedladdningar med Lärarplanen.",
+    "signupTitle": "Skapa ett gratiskonto för att ladda ner",
+    "signupBody": "Gratiskonton får 3 nedladdningar per månad. Skapa ett på några sekunder, utan kort.",
+    "subscribeCta": "Se Lärarplanen",
+    "signupCta": "Registrera dig gratis",
+    "dismissCta": "Inte nu"
   }
 }

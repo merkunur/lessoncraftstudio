@@ -3940,5 +3940,14 @@
     "body": "Dein Abo ist aktiv. Es kann ein paar Sekunden dauern, bis dein Konto nachzieht — lade den Arbeitsbereich neu, falls es noch nicht angezeigt wird.",
     "emailNote": "Neu hier? Wir haben dir einen Link gemailt, mit dem du dein Passwort festlegst.",
     "cta": "Zum Arbeitsbereich"
+  },
+  "quotaWall": {
+    "exceededTitle": "Deine kostenlosen Runden für heute sind aufgebraucht",
+    "exceededBody": "Komm morgen für mehr wieder – oder schalte mit dem Lehrkraft-Abo unbegrenztes Spielen und Herunterladen frei.",
+    "signupTitle": "Erstelle ein kostenloses Konto zum Herunterladen",
+    "signupBody": "Kostenlose Konten erhalten 3 Downloads pro Monat. In Sekunden erstellt – ohne Karte.",
+    "subscribeCta": "Zum Lehrkraft-Abo",
+    "signupCta": "Kostenlos registrieren",
+    "dismissCta": "Später"
   }
 }

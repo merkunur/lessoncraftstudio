@@ -2616,5 +2616,14 @@
     "body": "Dit abonnement er aktivt. Det kan tage et par sekunder, før din konto følger med — genindlæs arbejdsrummet, hvis det ikke vises endnu.",
     "emailNote": "Ny her? Vi har sendt dig en mail med et link til at vælge din adgangskode.",
     "cta": "Gå til dit arbejdsrum"
+  },
+  "quotaWall": {
+    "exceededTitle": "Du har brugt dagens gratis spil",
+    "exceededBody": "Kom tilbage i morgen for flere, eller lås op for ubegrænset spil og downloads med Lærerplanen.",
+    "signupTitle": "Opret en gratis konto for at downloade",
+    "signupBody": "Gratis konti får 3 downloads om måneden. Opret en på få sekunder, uden kort.",
+    "subscribeCta": "Se Lærerplanen",
+    "signupCta": "Tilmeld dig gratis",
+    "dismissCta": "Ikke nu"
   }
 }

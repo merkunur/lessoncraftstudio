@@ -2623,5 +2623,14 @@
     "body": "Abonnementet ditt er aktivt. Det kan ta noen sekunder før kontoen henger med — last inn arbeidsrommet på nytt hvis det ikke vises ennå.",
     "emailNote": "Ny her? Vi har sendt deg en e-post med en lenke for å velge passord.",
     "cta": "Gå til arbeidsrommet ditt"
+  },
+  "quotaWall": {
+    "exceededTitle": "Du har brukt dagens gratisrunder",
+    "exceededBody": "Kom tilbake i morgen for flere, eller lås opp ubegrenset spill og nedlastinger med Lærerplanen.",
+    "signupTitle": "Opprett en gratis konto for å laste ned",
+    "signupBody": "Gratis kontoer får 3 nedlastinger i måneden. Opprett en på sekunder, uten kort.",
+    "subscribeCta": "Se Lærerplanen",
+    "signupCta": "Registrer deg gratis",
+    "dismissCta": "Ikke nå"
   }
 }

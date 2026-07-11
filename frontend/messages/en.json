@@ -4125,5 +4125,14 @@
     "body": "Your subscription is active. It can take a few seconds for your account to catch up — refresh the workspace if it doesn't show yet.",
     "emailNote": "New here? We've emailed you a link to set your password.",
     "cta": "Go to your workspace"
+  },
+  "quotaWall": {
+    "exceededTitle": "You've used your free plays for today",
+    "exceededBody": "Come back tomorrow for more, or unlock unlimited play and downloads with a Teacher plan.",
+    "signupTitle": "Make a free account to download",
+    "signupBody": "Free accounts get 3 downloads a month. Create one in seconds — no card needed.",
+    "subscribeCta": "See the Teacher plan",
+    "signupCta": "Sign up free",
+    "dismissCta": "Not now"
   }
 }

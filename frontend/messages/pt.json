@@ -4125,5 +4125,14 @@
     "body": "Sua assinatura está ativa. Sua conta pode levar alguns segundos para atualizar — recarregue o espaço de trabalho se ainda não aparecer.",
     "emailNote": "É novo por aqui? Enviamos por e-mail um link para você criar sua senha.",
     "cta": "Ir para o espaço de trabalho"
+  },
+  "quotaWall": {
+    "exceededTitle": "Você usou suas jogadas gratuitas de hoje",
+    "exceededBody": "Volte amanhã para mais, ou libere jogo e downloads ilimitados com o plano Professor.",
+    "signupTitle": "Crie uma conta grátis para baixar",
+    "signupBody": "Contas gratuitas têm 3 downloads por mês. Crie uma em segundos, sem cartão.",
+    "subscribeCta": "Ver o plano Professor",
+    "signupCta": "Cadastro grátis",
+    "dismissCta": "Agora não"
   }
 }

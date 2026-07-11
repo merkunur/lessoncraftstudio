@@ -4040,7 +4040,7 @@
     },
     "hero": {
       "chipsAria": "LessonCraftStudio de un vistazo",
-      "chipFree": "Gratis · Sin registro",
+      "chipFree": "Gratis para jugar · Sin registro",
       "chipMakers": "33 generadores de fichas",
       "chipThemes": "100+ temas",
       "chipLanguages": "11 idiomas",
@@ -4059,9 +4059,9 @@
       "byGrade": "Fichas por grado"
     },
     "freeTeacher": {
-      "eyebrow": "Gratis para siempre · Un solo plan Docente",
-      "heading": "Todo lo que usas hoy sigue gratis",
-      "body": "Todo el catálogo — imprimibles, fichas interactivas, actividades y cada generador — es gratis y sin cuenta. El plan Docente suma alojamiento en línea, uso compartido y organización.",
+      "eyebrow": "Un generoso plan gratis · Un solo plan Docente",
+      "heading": "Juega gratis cada día. El plan quita los límites.",
+      "body": "Juega 10 hojas de trabajo interactivas al día sin registro y descarga 3 imprimibles al mes con una cuenta gratis. El plan Docente hace el juego y las descargas ilimitados — más alojamiento, enlaces para la clase y organización.",
       "priceAnnual": "$69",
       "priceAnnualSuffix": "al año",
       "priceMonthly": "o $8.99/mes",
@@ -4089,19 +4089,19 @@
   "pricingPage": {
     "meta": {
       "title": "Planes y precios — LessonCraftStudio",
-      "description": "Una suscripción simple para maestros: guarda las hojas de trabajo interactivas que creas como enlaces permanentes para tu grupo, organiza tu biblioteca y descarga paquetes por tema. Todo lo demás en LessonCraftStudio sigue gratis para siempre."
+      "description": "Una suscripción simple para maestros: guarda las hojas de trabajo interactivas que creas como enlaces permanentes para tu grupo, organiza tu biblioteca y descarga paquetes por tema. Todo lo demás en LessonCraftStudio sigue abierto con un generoso plan gratis."
     },
     "hero": {
       "title": "Precios simples, pensados para maestros",
       "subtitle": "Todo lo que usas hoy sigue gratis — hojas de trabajo, actividades, juego interactivo y PDFs. El plan Docente agrega tu propio estante: guarda las hojas de trabajo que creas como enlaces activos, compártelas con tu grupo y mantén todo organizado."
     },
     "free": {
-      "title": "Gratis para siempre",
-      "blurb": "Sin cuenta. Sin límites. Es el LessonCraftStudio que ya conoces.",
+      "title": "Siempre hay un plan gratis",
+      "blurb": "No hace falta registrarse para jugar. Una cuenta gratis añade las descargas. Límites gratuitos generosos — sin tarjeta, nunca.",
       "item1": "Más de 45,000 hojas de trabajo para imprimir con respuestas",
-      "item2": "Juega todas las hojas de trabajo interactivas — sin registro, sin topes",
+      "item2": "Juega hojas de trabajo interactivas gratis — 10 al día, sin registro",
       "item3": "Más de 200 actividades alineadas al plan de estudios",
-      "item4": "Los 29 generadores de hojas de trabajo con salida en PDF",
+      "item4": "Los 29 generadores de hojas de trabajo — 3 descargas de PDF gratis al mes con una cuenta gratis",
       "item5": "Inserta hojas de trabajo en el blog de tu clase o el sitio de tu escuela",
       "item6": "Todo en 11 idiomas"
     },
@@ -4117,14 +4117,15 @@
       "ctaAnnual": "Suscríbete — $69/año",
       "ctaMonthly": "O $8.99/mes",
       "microcopy": "Sin trucos de tarjeta en la prueba — el catálogo gratuito es la prueba. Cancela la renovación cuando quieras. IVA incluido donde aplica.",
-      "familyTeaser": "Muy pronto: un plan Familiar para usar en casa."
+      "familyTeaser": "Muy pronto: un plan Familiar para usar en casa.",
+      "item0": "Juego y descargas ilimitados — sin límites diarios ni mensuales"
     },
     "faq": {
       "title": "Preguntas y respuestas",
       "q1": "¿El contenido gratuito seguirá siendo gratis?",
-      "a1": "Sí — para siempre. Las hojas de trabajo, las actividades, el juego interactivo, los PDFs y el uso básico de los generadores son gratis para siempre. La suscripción solo agrega material nuevo y más profundo encima.",
+      "a1": "El catálogo sigue abierto para todos: juega 10 hojas de trabajo interactivas al día sin registro y descarga 3 imprimibles al mes con una cuenta gratis. El plan Docente quita los límites y añade alojamiento, enlaces para la clase y organización — nunca te quita lo que ya es gratis.",
       "q2": "¿Hay una prueba gratis?",
-      "a2": "El catálogo gratuito es la prueba — miles de hojas de trabajo y actividades que puedes usar para siempre sin pagar ni registrar una tarjeta. Suscríbete solo cuando el nivel premium valga la pena para ti.",
+      "a2": "El catálogo ES la prueba: juega y descarga gratis — 10 jugadas al día y 3 descargas al mes con una cuenta gratis — todo el tiempo que quieras. Suscríbete solo cuando quieras quitar los límites.",
       "q3": "¿Cómo cancelo?",
       "a3": "Con un clic desde tu página de facturación — sin correos ni llamadas. Tu suscripción simplemente no se renueva y conservas el acceso hasta que termine el periodo.",
       "q4": "¿Mis alumnos necesitan cuenta?",

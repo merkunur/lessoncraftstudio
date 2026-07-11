@@ -4027,7 +4027,7 @@
     },
     "hero": {
       "chipsAria": "LessonCraftStudio em resumo",
-      "chipFree": "Grátis · Sem login",
+      "chipFree": "Grátis para jogar · Sem login",
       "chipMakers": "33 geradores de atividades",
       "chipThemes": "100+ temas",
       "chipLanguages": "11 idiomas",
@@ -4046,9 +4046,9 @@
       "byGrade": "Atividades por ano escolar"
     },
     "freeTeacher": {
-      "eyebrow": "Grátis para sempre · Um único plano Professor",
-      "heading": "Tudo o que você usa hoje continua grátis",
-      "body": "O catálogo inteiro — atividades para imprimir, atividades interativas, atividades de aprendizagem e todos os geradores — é grátis, sem conta. O plano Professor adiciona hospedagem, compartilhamento e organização por cima.",
+      "eyebrow": "Um generoso plano grátis · Um único plano Professor",
+      "heading": "Jogue de graça todo dia. O plano remove os limites.",
+      "body": "Jogue 10 atividades interativas por dia sem login e baixe 3 atividades para imprimir por mês com uma conta grátis. O plano Professor deixa os jogos e downloads ilimitados — além de hospedagem, links para a turma e organização.",
       "priceAnnual": "$69",
       "priceAnnualSuffix": "por ano",
       "priceMonthly": "ou $8.99/mês",
@@ -4076,19 +4076,19 @@
   "pricingPage": {
     "meta": {
       "title": "Planos e preços — LessonCraftStudio",
-      "description": "Uma assinatura simples para professores: salve as atividades interativas que você cria como links permanentes para a turma, organize sua biblioteca e baixe pacotes por tema. Todo o resto no LessonCraftStudio continua grátis para sempre."
+      "description": "Uma assinatura simples para professores: salve as atividades interativas que você cria como links permanentes para a turma, organize sua biblioteca e baixe pacotes por tema. Todo o resto no LessonCraftStudio continua aberto com um generoso plano grátis."
     },
     "hero": {
       "title": "Preço simples, feito para professores",
       "subtitle": "Tudo o que você usa hoje continua grátis — atividades para imprimir, jogos interativos e PDFs. O plano Professor adiciona a sua própria prateleira: salve as atividades que você cria como links ativos, compartilhe com a turma e mantenha tudo organizado."
     },
     "free": {
-      "title": "Grátis para sempre",
-      "blurb": "Sem cadastro. Sem limites. É o LessonCraftStudio que você já conhece.",
+      "title": "Sempre há um plano grátis",
+      "blurb": "Sem login para jogar. Uma conta grátis adiciona os downloads. Limites gratuitos generosos — sem cartão, nunca.",
       "item1": "Mais de 45.000 atividades para imprimir com gabarito",
-      "item2": "Jogue todas as atividades interativas — sem login, sem limite",
+      "item2": "Jogue atividades interativas grátis — 10 por dia, sem login",
       "item3": "Mais de 200 atividades de aprendizagem alinhadas ao currículo",
-      "item4": "Todos os 29 geradores de atividades com saída em PDF",
+      "item4": "Todos os 29 geradores de atividades — 3 downloads de PDF grátis por mês com uma conta grátis",
       "item5": "Incorpore atividades no blog da turma ou no site da escola",
       "item6": "Tudo em 11 idiomas"
     },
@@ -4104,14 +4104,15 @@
       "ctaAnnual": "Assinar — $69/ano",
       "ctaMonthly": "Ou $8.99/mês",
       "microcopy": "Sem pegadinha de cartão no teste — o catálogo gratuito é o teste. Cancele a renovação quando quiser. Impostos incluídos quando aplicável.",
-      "familyTeaser": "Um plano Família para usar em casa está chegando."
+      "familyTeaser": "Um plano Família para usar em casa está chegando.",
+      "item0": "Jogos e downloads ilimitados — sem limites diários ou mensais"
     },
     "faq": {
       "title": "Perguntas e respostas",
       "q1": "O conteúdo gratuito vai continuar grátis?",
-      "a1": "Sim — para sempre. As atividades para imprimir, os jogos interativos, os PDFs e o uso básico dos geradores continuam gratuitos para sempre. A assinatura só adiciona material novo e mais completo por cima.",
+      "a1": "O catálogo continua aberto a todos: jogue 10 atividades interativas por dia sem login e baixe 3 atividades para imprimir por mês com uma conta grátis. O plano Professor remove os limites e adiciona hospedagem, links para a turma e organização — nunca tira o que já é grátis.",
       "q2": "Tem teste grátis?",
-      "a2": "O catálogo gratuito é o teste — milhares de atividades que você pode usar para sempre sem pagar nem cadastrar cartão. Assine só quando a prateleira premium valer a pena para você.",
+      "a2": "O catálogo É a avaliação: jogue e baixe de graça — 10 jogadas por dia e 3 downloads por mês com uma conta grátis — pelo tempo que quiser. Assine só quando quiser remover os limites.",
       "q3": "Como faço para cancelar?",
       "a3": "Com um clique na sua página de cobrança — sem e-mails, sem telefonemas. Sua assinatura simplesmente não renova, e você mantém o acesso até o fim do período.",
       "q4": "Meus alunos precisam de conta?",

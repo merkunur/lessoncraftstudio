@@ -2521,7 +2521,7 @@
     },
     "hero": {
       "chipsAria": "LessonCraftStudio i korthet",
-      "chipFree": "Gratis · Ingen inloggning",
+      "chipFree": "Gratis att spela · Ingen inloggning",
       "chipMakers": "33 arbetsbladsgeneratorer",
       "chipThemes": "100+ teman",
       "chipLanguages": "11 språk",
@@ -2540,9 +2540,9 @@
       "byGrade": "Arbetsblad efter årskurs"
     },
     "freeTeacher": {
-      "eyebrow": "Gratis för alltid · En lärarplan",
-      "heading": "Allt du använder i dag förblir gratis",
-      "body": "Hela katalogen — utskrivbara arbetsblad, interaktiva arbetsblad, aktiviteter och varje generator — är gratis utan konto. Lärarplanen lägger till publicering, delning och ordning ovanpå.",
+      "eyebrow": "En generös gratisnivå · En lärarplan",
+      "heading": "Spela gratis varje dag. Planen tar bort gränserna.",
+      "body": "Spela 10 interaktiva arbetsblad om dagen utan inloggning och ladda ner 3 utskrivbara ark i månaden med ett gratiskonto. Lärarplanen gör spelande och nedladdningar obegränsade — plus publicering, klasslänkar och ordning.",
       "priceAnnual": "$69",
       "priceAnnualSuffix": "per år",
       "priceMonthly": "eller $8.99/månad",
@@ -2570,19 +2570,19 @@
   "pricingPage": {
     "meta": {
       "title": "Priser och abonnemang — LessonCraftStudio",
-      "description": "Ett enkelt lärarabonnemang: spara de interaktiva arbetsblad du skapar som permanenta länkar för klassen, organisera ditt bibliotek och ladda ner temapaket. Allt annat på LessonCraftStudio förblir gratis — för alltid."
+      "description": "Ett enkelt lärarabonnemang: spara de interaktiva arbetsblad du skapar som permanenta länkar för klassen, organisera ditt bibliotek och ladda ner temapaket. Allt annat på LessonCraftStudio förblir öppet med en generös gratisnivå."
     },
     "hero": {
       "title": "Enkla priser, gjorda för lärare",
       "subtitle": "Allt du använder i dag förblir gratis — arbetsblad, aktiviteter, interaktiv träning och PDF:er. Lärarplanen lägger till din egen hylla: spara arbetsbladen du skapar som levande länkar, dela dem med klassen och håll ordning på allt."
     },
     "free": {
-      "title": "Gratis för alltid",
-      "blurb": "Inget konto behövs. Inga begränsningar. Det här är det LessonCraftStudio du redan känner.",
+      "title": "Alltid en gratisnivå",
+      "blurb": "Ingen inloggning för att spela. Ett gratiskonto lägger till nedladdningar. Generösa gratisgränser — aldrig något kort.",
       "item1": "Över 45 000 utskrivbara arbetsblad med facit",
-      "item2": "Spela alla interaktiva arbetsblad — utan inloggning, utan tak",
+      "item2": "Spela interaktiva arbetsblad gratis — 10 om dagen, utan inloggning",
       "item3": "200+ läroplansanknutna aktiviteter från förskoleklass till årskurs 2",
-      "item4": "Alla 29 arbetsbladsgeneratorer med PDF-utskrift",
+      "item4": "Alla 29 arbetsbladsgeneratorer — 3 gratis PDF-nedladdningar i månaden med ett gratiskonto",
       "item5": "Bädda in arbetsblad på klassbloggen eller skolans webbplats",
       "item6": "Allt på 11 språk"
     },
@@ -2598,14 +2598,15 @@
       "ctaAnnual": "Prenumerera — $69/år",
       "ctaMonthly": "Eller $8.99/månad",
       "microcopy": "Inga provperiodstrick med kort — gratiskatalogen är din provperiod. Avsluta förnyelsen när du vill. Moms ingår där det är tillämpligt.",
-      "familyTeaser": "En familjeplan för hemmabruk kommer snart."
+      "familyTeaser": "En familjeplan för hemmabruk kommer snart.",
+      "item0": "Obegränsat spelande och nedladdningar — inga dags- eller månadsgränser"
     },
     "faq": {
       "title": "Frågor och svar",
       "q1": "Förblir gratisinnehållet gratis?",
-      "a1": "Ja — för alltid. Arbetsblad, aktiviteter, interaktiv träning, PDF:er och generatorernas grundfunktioner är gratis för alltid. Abonnemanget lägger bara till nytt, djupare material ovanpå.",
+      "a1": "Katalogen är fortsatt öppen för alla: spela 10 interaktiva arbetsblad om dagen utan inloggning och ladda ner 3 utskrivbara ark i månaden med ett gratiskonto. Lärarplanen tar bort gränserna och lägger till publicering, klasslänkar och ordning — den tar aldrig bort det som redan är gratis.",
       "q2": "Finns det en gratis provperiod?",
-      "a2": "Gratiskatalogen är provperioden — tusentals arbetsblad och aktiviteter som du kan använda för alltid utan att betala eller ange ett kort. Prenumerera först när premiumhyllan är värd det för dig.",
+      "a2": "Katalogen ÄR provperioden: spela och ladda ner gratis — 10 omgångar om dagen och 3 nedladdningar i månaden med ett gratiskonto — så länge du vill. Prenumerera först när du vill ta bort gränserna.",
       "q3": "Hur säger jag upp abonnemanget?",
       "a3": "Med ett klick från din betalningssida — inga mejl, inga telefonsamtal. Abonnemanget förnyas helt enkelt inte, och du behåller åtkomsten tills perioden tar slut.",
       "q4": "Behöver mina elever konton?",

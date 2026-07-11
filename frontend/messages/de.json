@@ -3842,7 +3842,7 @@
     },
     "hero": {
       "chipsAria": "LessonCraftStudio auf einen Blick",
-      "chipFree": "Kostenlos · Ohne Anmeldung",
+      "chipFree": "Kostenlos spielen · Ohne Anmeldung",
       "chipMakers": "33 Arbeitsblatt-Generatoren",
       "chipThemes": "100+ Themen",
       "chipLanguages": "11 Sprachen",
@@ -3861,9 +3861,9 @@
       "byGrade": "Arbeitsblätter nach Klassenstufe"
     },
     "freeTeacher": {
-      "eyebrow": "Für immer kostenlos · Ein Lehrkraft-Abo",
-      "heading": "Alles, was du heute nutzt, bleibt kostenlos",
-      "body": "Der ganze Katalog — Druckvorlagen, interaktive Arbeitsblätter, Aktivitäten und jeder Generator — ist ohne Konto kostenlos. Das Lehrkraft-Abo bringt Hosting, Teilen und Ordnung obendrauf.",
+      "eyebrow": "Ein großzügiges Gratis-Angebot · Ein Lehrkraft-Abo",
+      "heading": "Spiele jeden Tag kostenlos. Das Abo hebt die Limits auf.",
+      "body": "Spiele 10 interaktive Arbeitsblätter pro Tag ohne Login und lade 3 Druckvorlagen pro Monat mit einem kostenlosen Konto herunter. Das Lehrkraft-Abo macht Spielen und Downloads unbegrenzt — dazu Hosting, Klassenlinks und Ordnung.",
       "priceAnnual": "$69",
       "priceAnnualSuffix": "pro Jahr",
       "priceMonthly": "oder $8.99/Monat",
@@ -3891,19 +3891,19 @@
   "pricingPage": {
     "meta": {
       "title": "Preise & Abo — LessonCraftStudio",
-      "description": "Ein einfaches Abo für Lehrkräfte: Speichere die interaktiven Arbeitsblätter, die du erstellst, als dauerhafte Links für deine Klasse, organisiere deine Sammlung und lade Themenpakete herunter. Alles andere auf LessonCraftStudio bleibt für immer kostenlos."
+      "description": "Ein einfaches Abo für Lehrkräfte: Speichere die interaktiven Arbeitsblätter, die du erstellst, als dauerhafte Links für deine Klasse, organisiere deine Sammlung und lade Themenpakete herunter. Alles andere auf LessonCraftStudio bleibt offen — mit einem großzügigen Gratis-Angebot."
     },
     "hero": {
       "title": "Einfache Preise, gemacht für Lehrkräfte",
       "subtitle": "Alles, was du heute nutzt, bleibt kostenlos — Arbeitsblätter, Aktivitäten, interaktives Üben und PDFs. Das Lehrkraft-Abo bringt dein eigenes Regal dazu: Speichere die Arbeitsblätter, die du erstellst, als Live-Links, teile sie mit deiner Klasse und behalte alles geordnet."
     },
     "free": {
-      "title": "Für immer kostenlos",
-      "blurb": "Kein Konto nötig. Keine Limits. Das ist das LessonCraftStudio, das du schon kennst.",
+      "title": "Immer ein Gratis-Angebot",
+      "blurb": "Zum Spielen kein Login nötig. Ein kostenloses Konto schaltet Downloads frei. Großzügige Gratis-Limits — ganz ohne Karte.",
       "item1": "45.000+ druckbare Arbeitsblätter mit Lösungsblättern",
-      "item2": "Jedes interaktive Arbeitsblatt spielen — ohne Login, ohne Obergrenze",
+      "item2": "Interaktive Arbeitsblätter kostenlos spielen — 10 pro Tag, ohne Login",
       "item3": "200+ Lernaktivitäten, ausgerichtet am Lehrplan",
-      "item4": "Alle 29 Arbeitsblatt-Generatoren mit PDF-Ausgabe",
+      "item4": "Alle 29 Arbeitsblatt-Generatoren — 3 kostenlose PDF-Downloads pro Monat mit einem kostenlosen Konto",
       "item5": "Arbeitsblätter in deinen Klassenblog oder die Schulwebsite einbetten",
       "item6": "Alles in 11 Sprachen"
     },
@@ -3919,14 +3919,15 @@
       "ctaAnnual": "Abonnieren — $69/Jahr",
       "ctaMonthly": "Oder $8.99/Monat",
       "microcopy": "Keine Testphasen-Tricks — der kostenlose Katalog ist die Testphase. Verlängerung jederzeit kündbar. MwSt. inklusive, wo anwendbar.",
-      "familyTeaser": "Ein Familien-Tarif für zu Hause kommt bald."
+      "familyTeaser": "Ein Familien-Tarif für zu Hause kommt bald.",
+      "item0": "Unbegrenzt spielen und herunterladen — keine Tages- oder Monatslimits"
     },
     "faq": {
       "title": "Fragen & Antworten",
       "q1": "Bleiben die kostenlosen Inhalte kostenlos?",
-      "a1": "Ja — dauerhaft. Arbeitsblätter, Aktivitäten, interaktives Üben, PDFs und die Basisnutzung der Generatoren bleiben für immer kostenlos. Das Abo legt nur neues, tieferes Material obendrauf.",
+      "a1": "Der Katalog bleibt für alle offen: Spiele 10 interaktive Arbeitsblätter pro Tag ohne Login und lade 3 Druckvorlagen pro Monat mit einem kostenlosen Konto herunter. Das Lehrkraft-Abo hebt die Limits auf und bringt Hosting, Klassenlinks und Ordnung dazu — es nimmt dir nie weg, was schon kostenlos ist.",
       "q2": "Gibt es eine kostenlose Testphase?",
-      "a2": "Der kostenlose Katalog ist die Testphase — tausende Arbeitsblätter und Aktivitäten, die du für immer nutzen kannst, ohne zu zahlen oder eine Karte einzugeben. Abonniere erst, wenn dir das Premium-Regal den Preis wert ist.",
+      "a2": "Der Katalog IST die Testphase: Spiele und lade kostenlos herunter — 10 Runden pro Tag und 3 Downloads pro Monat mit einem kostenlosen Konto — so lange du möchtest. Abonniere erst, wenn du die Limits aufheben willst.",
       "q3": "Wie kündige ich?",
       "a3": "Mit einem Klick auf deiner Abrechnungsseite — keine E-Mails, keine Anrufe. Dein Abo verlängert sich einfach nicht, und du behältst den Zugang bis zum Ende der Laufzeit.",
       "q4": "Brauchen meine Schülerinnen und Schüler Konten?",

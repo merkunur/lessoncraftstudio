@@ -2510,7 +2510,7 @@
     },
     "hero": {
       "chipsAria": "LessonCraftStudio yhdellä silmäyksellä",
-      "chipFree": "Ilmainen · Ei kirjautumista",
+      "chipFree": "Pelaa ilmaiseksi · Ei kirjautumista",
       "chipMakers": "33 tehtävägeneraattoria",
       "chipThemes": "100+ teemaa",
       "chipLanguages": "11 kieltä",
@@ -2529,9 +2529,9 @@
       "byGrade": "Tehtävät luokka-asteittain"
     },
     "freeTeacher": {
-      "eyebrow": "Ilmainen ikuisesti · Yksi Opettaja-tilaus",
-      "heading": "Kaikki, mitä käytät nyt, pysyy ilmaisena",
-      "body": "Koko katalogi — tulostettavat tehtävät, interaktiiviset tehtävät, aktiviteetit ja jokainen generaattori — on ilmainen ilman tiliä. Opettaja-tilaus tuo päälle tallennuksen verkkoon, jakamisen ja järjestyksen.",
+      "eyebrow": "Runsas ilmaistaso · Yksi Opettaja-tilaus",
+      "heading": "Pelaa ilmaiseksi joka päivä. Tilaus poistaa rajat.",
+      "body": "Pelaa 10 interaktiivista tehtävää päivässä ilman kirjautumista ja lataa 3 tulostettavaa tehtävää kuukaudessa ilmaisella tilillä. Opettaja-tilaus tekee pelaamisesta ja latauksista rajattomia — lisäksi tallennus verkkoon, luokkalinkit ja järjestely.",
       "priceAnnual": "$69",
       "priceAnnualSuffix": "vuodessa",
       "priceMonthly": "tai $8.99/kk",
@@ -2559,19 +2559,19 @@
   "pricingPage": {
     "meta": {
       "title": "Hinnat ja tilaus — LessonCraftStudio",
-      "description": "Yksi selkeä opettajatilaus: tallenna luomasi interaktiiviset tehtävät pysyviksi linkeiksi luokallesi, järjestä oma kirjastosi ja lataa teemapaketit. Kaikki muu LessonCraftStudiossa pysyy ilmaisena — ikuisesti."
+      "description": "Yksi selkeä opettajatilaus: tallenna luomasi interaktiiviset tehtävät pysyviksi linkeiksi luokallesi, järjestä oma kirjastosi ja lataa teemapaketit. Kaikki muu LessonCraftStudiossa pysyy avoinna runsaan ilmaistason turvin."
     },
     "hero": {
       "title": "Selkeä hinnoittelu opettajille",
       "subtitle": "Kaikki, mitä käytät nyt, pysyy ilmaisena — tehtävät, aktiviteetit, interaktiivinen harjoittelu ja PDF-tiedostot. Opettaja-tilaus tuo oman hyllysi: tallenna luomasi tehtävät toimiviksi linkeiksi, jaa ne luokallesi ja pidä kaikki järjestyksessä."
     },
     "free": {
-      "title": "Ilmainen ikuisesti",
-      "blurb": "Ei tiliä, ei rajoituksia. Tämä on se LessonCraftStudio, jonka jo tunnet.",
+      "title": "Aina ilmainen taso",
+      "blurb": "Pelaaminen ei vaadi kirjautumista. Ilmainen tili tuo lataukset. Runsaat ilmaisrajat — ei koskaan korttia.",
       "item1": "Yli 45 000 tulostettavaa tehtävää vastauksineen",
-      "item2": "Pelaa kaikkia interaktiivisia tehtäviä — ilman kirjautumista, ilman rajoja",
+      "item2": "Pelaa interaktiivisia tehtäviä ilmaiseksi — 10 päivässä, ilman kirjautumista",
       "item3": "200+ opetussuunnitelman mukaista aktiviteettia esiopetuksesta alkuopetukseen",
-      "item4": "Kaikki 29 tehtävägeneraattoria PDF-tulostuksella",
+      "item4": "Kaikki 29 tehtävägeneraattoria — 3 ilmaista PDF-latausta kuukaudessa ilmaisella tilillä",
       "item5": "Upota tehtäviä luokan blogiin tai koulun sivuille",
       "item6": "Kaikki 11 kielellä"
     },
@@ -2587,14 +2587,15 @@
       "ctaAnnual": "Tilaa — $69/vuosi",
       "ctaMonthly": "Tai $8.99/kk",
       "microcopy": "Ei korttitemppuja kokeilujaksolla — ilmainen kirjasto on kokeilujakso. Peru uusiminen milloin tahansa. Alv sisältyy hintaan soveltuvin osin.",
-      "familyTeaser": "Perhetilaus kotikäyttöön on tulossa pian."
+      "familyTeaser": "Perhetilaus kotikäyttöön on tulossa pian.",
+      "item0": "Rajaton pelaaminen ja lataukset — ei päivä- tai kuukausirajoja"
     },
     "faq": {
       "title": "Kysymyksiä ja vastauksia",
       "q1": "Pysyykö ilmainen sisältö ilmaisena?",
-      "a1": "Kyllä — pysyvästi. Tehtävät, aktiviteetit, interaktiivinen harjoittelu, PDF-tiedostot ja generaattoreiden perustoiminnot ovat ilmaisia ikuisesti. Tilaus tuo vain uutta, syvempää materiaalia niiden rinnalle.",
+      "a1": "Katalogi pysyy avoinna kaikille: pelaa 10 interaktiivista tehtävää päivässä ilman kirjautumista ja lataa 3 tulostettavaa tehtävää kuukaudessa ilmaisella tilillä. Opettaja-tilaus poistaa rajat ja tuo mukaan tallennuksen verkkoon, luokkalinkit ja järjestelyn — se ei koskaan vie pois sitä, mikä on jo ilmaista.",
       "q2": "Onko ilmaista kokeilujaksoa?",
-      "a2": "Ilmainen kirjasto on kokeilujakso — tuhansia tehtäviä ja aktiviteetteja, joita voit käyttää ikuisesti maksamatta ja korttia antamatta. Tilaa vasta, kun premium-sisältö on sinulle sen arvoista.",
+      "a2": "Katalogi ON kokeilu: pelaa ja lataa ilmaiseksi — 10 pelikertaa päivässä ja 3 latausta kuukaudessa ilmaisella tilillä — niin kauan kuin haluat. Tilaa vasta kun haluat poistaa rajat.",
       "q3": "Miten perun tilauksen?",
       "a3": "Yhdellä klikkauksella laskutussivultasi — ei sähköposteja, ei puheluita. Tilaus ei yksinkertaisesti uusiudu, ja käyttöoikeus säilyy jakson loppuun asti.",
       "q4": "Tarvitsevatko oppilaani tilit?",

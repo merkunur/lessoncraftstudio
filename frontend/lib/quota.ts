@@ -22,6 +22,7 @@ import { createHash, randomUUID } from 'crypto';
 import { prisma } from './prisma';
 import { isSubscriptionUsable } from './entitlements';
 import { getCurrentUser } from './auth';
+import { verifyRefreshToken } from './auth-utils';
 
 export const DOWNLOADS_PER_MONTH = 3;
 export const PLAYS_PER_DAY = 10;
@@ -79,24 +80,60 @@ function periodFor(kind: QuotaKind): { periodStart: Date; resetAt: Date; cap: nu
  * Resolve the requester's metering identity. Side-effect-free; caller sets the
  * lcs_anon_id cookie when `kind === 'anon' && generated === true`.
  */
+/** Subscriber-vs-free identity for a known userId (single subscription lookup). */
+async function identityForUserId(userId: string): Promise<QuotaIdentity> {
+  const dbUser = await prisma.user.findUnique({
+    where: { id: userId },
+    include: { subscription: true },
+  });
+  if (dbUser && isSubscriptionUsable(dbUser)) {
+    return { kind: 'subscriber', userId };
+  }
+  return { kind: 'free-user', userId };
+}
+
 export async function resolveQuotaIdentity(request: NextRequest): Promise<QuotaIdentity> {
   const ua = request.headers.get('user-agent') || '';
   if (BOT_UA_PATTERN.test(ua)) {
     return { kind: 'bot' };
   }
 
+  // 1) Access token (Authorization: Bearer).
   const user = await getCurrentUser(request);
   if (user) {
-    const dbUser = await prisma.user.findUnique({
-      where: { id: user.id },
-      include: { subscription: true },
-    });
-    if (dbUser && isSubscriptionUsable(dbUser)) {
-      return { kind: 'subscriber', userId: user.id };
-    }
-    return { kind: 'free-user', userId: user.id };
+    return identityForUserId(user.id);
   }
 
+  // 2) Fallback: the httpOnly `refreshToken` cookie (sent by meterAction's
+  //    credentials:'include'; same-origin sameSite:strict; 30-day lifetime).
+  //    Access tokens are short-lived (~10 min), so an actively-playing
+  //    subscriber's Bearer often expires between refreshes — without this the
+  //    meter mis-classifies them as anon and walls them. The long-lived refresh
+  //    cookie still identifies them. Read-only: token rotation only happens at
+  //    POST /api/auth/refresh, never here.
+  const refreshCookie = request.cookies.get('refreshToken')?.value;
+  if (refreshCookie) {
+    try {
+      const payload = verifyRefreshToken(refreshCookie);
+      if (payload?.userId) {
+        const session = await prisma.session.findFirst({
+          where: {
+            userId: payload.userId,
+            refreshToken: refreshCookie,
+            expiresAt: { gt: new Date() },
+          },
+          select: { userId: true },
+        });
+        if (session) {
+          return identityForUserId(session.userId);
+        }
+      }
+    } catch {
+      /* invalid/expired refresh cookie → fall through to anon */
+    }
+  }
+
+  // 3) Anonymous.
   const existing = request.cookies.get(ANON_COOKIE_NAME)?.value;
   if (existing && existing.length >= 16) {
     return { kind: 'anon', anonymousId: existing, generated: false };

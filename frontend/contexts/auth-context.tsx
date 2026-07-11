@@ -639,18 +639,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     }
   };
 
-  // Set up token refresh interval (daily instead of 6 days for better reliability)
-  useEffect(() => {
-    if (!accessToken) return;
-
-    // Refresh token daily (more frequent than before to prevent expiry issues)
-    const interval = setInterval(() => {
-      refreshToken().catch(console.error);
-    }, 24 * 60 * 60 * 1000); // 1 day
-
-    return () => clearInterval(interval);
-  }, [accessToken]);
-
   // Helper to check token expiry and refresh if needed
   const checkTokenAndRefresh = useCallback(async () => {
     const storedToken = localStorage.getItem('accessToken');
@@ -694,9 +682,20 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     document.addEventListener('visibilitychange', handleVisibilityChange);
     window.addEventListener('focus', handleFocus);
 
+    // Proactively keep the SHORT-LIVED (~10 min) access token fresh while the
+    // user is active on a single tab (no tab-switch/focus to trigger the
+    // handlers above). checkTokenAndRefresh only refreshes when the token is
+    // within 5 min of its own exp, so this is cheap. WITHOUT it, an
+    // actively-playing subscriber's token expires and every authed call — the
+    // deck/activity play + download METER, the Share button, workspace — is
+    // treated as unauthenticated, so the subscriber gets metered/walled as if
+    // free. (Replaces the old daily interval, which was useless for a 10-min token.)
+    const freshnessInterval = setInterval(() => { checkTokenAndRefresh(); }, 2 * 60 * 1000);
+
     return () => {
       document.removeEventListener('visibilitychange', handleVisibilityChange);
       window.removeEventListener('focus', handleFocus);
+      clearInterval(freshnessInterval);
     };
   }, [accessToken, checkTokenAndRefresh]);
 

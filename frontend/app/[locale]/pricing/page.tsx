@@ -166,7 +166,8 @@ export default async function PricingPage({
             ))}
           </ul>
           <CheckoutButtons />
-          <p className="text-sm text-ink-500 mt-4">{t('tier.familyTeaser')}</p>
+          {/* familyTeaser removed 2026-07-11 (launch-honesty pass — no Family
+              plan exists; the key stays in messages for a future revival). */}
         </section>
       </div>
 

@@ -2517,11 +2517,11 @@
   "pricingPage": {
     "meta": {
       "title": "Priser och abonnemang — LessonCraftStudio",
-      "description": "Ett enkelt lärarabonnemang: interaktivt sagobibliotek, hela skaparsviten och delning med klassen. Allt annat på LessonCraftStudio förblir gratis — för alltid."
+      "description": "Ett enkelt lärarabonnemang: spara de interaktiva arbetsblad du skapar som permanenta länkar för klassen, organisera ditt bibliotek och ladda ner temapaket. Allt annat på LessonCraftStudio förblir gratis — för alltid."
     },
     "hero": {
       "title": "Enkla priser, gjorda för lärare",
-      "subtitle": "Allt du använder i dag förblir gratis — arbetsblad, aktiviteter, interaktiv träning och PDF:er. Abonnemanget lägger till djupet: sagobiblioteket, hela skaparsviten och verktyg för att dela med klassen."
+      "subtitle": "Allt du använder i dag förblir gratis — arbetsblad, aktiviteter, interaktiv träning och PDF:er. Lärarplanen lägger till din egen hylla: spara arbetsbladen du skapar som levande länkar, dela dem med klassen och håll ordning på allt."
     },
     "free": {
       "title": "Gratis för alltid",
@@ -2537,11 +2537,11 @@
       "name": "Lärare",
       "priceSuffix": "per år",
       "includedTitle": "Allt som är gratis, plus",
-      "item1": "Hela det interaktiva sagobiblioteket — varje bok, varje sida, med uppläsning",
-      "item2": "Skaparsviten: obegränsat med interaktiva arbetsblad från alla 29 generatorer, utan vattenstämpel",
-      "item3": "Publicera dina egna arbetsblad online och dela dem med klassen via länk",
-      "item4": "Samlingar och arbetsyteverktyg som håller ordning på allt",
-      "item5": "Först i kön till nya premiumsläpp — sagostudion och läroplanspaketen",
+      "item1": "Spara de interaktiva arbetsblad du skapar i alla 29 generatorer — publicerade online med en permanent länk",
+      "item2": "Dela med klassen via länk och QR-kod — eleverna spelar direkt, utan konton, utan filer",
+      "item3": "Beständiga delningslänkar och QR-koder för vilket som helst av katalogens 45 000+ arbetsblad — ett i taget eller i bulk",
+      "item4": "Samlingar och en arbetsyta som håller ordning på allt du undervisar med",
+      "item5": "Temapaket: ett helt temas utskrivbara arbetsblad i en enda ZIP",
       "ctaAnnual": "Prenumerera — $69/år",
       "ctaMonthly": "Eller $8.99/månad",
       "microcopy": "Inga provperiodstrick med kort — gratiskatalogen är din provperiod. Avsluta förnyelsen när du vill. Moms ingår där det är tillämpligt.",

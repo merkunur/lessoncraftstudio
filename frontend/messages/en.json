@@ -4023,11 +4023,11 @@
   "pricingPage": {
     "meta": {
       "title": "Plans & Pricing — LessonCraftStudio",
-      "description": "One simple teacher subscription: the interactive storybook library, the full creation suite, and classroom sharing tools. Everything else on LessonCraftStudio stays free forever."
+      "description": "One simple teacher subscription: save the interactive worksheets you make as live links for your class, organize your library, and download topic packs. Everything else on LessonCraftStudio stays free forever."
     },
     "hero": {
       "title": "Simple pricing, built for teachers",
-      "subtitle": "Everything you use today stays free — worksheets, activities, interactive play, and PDFs. The subscription adds the deep shelf: the storybook library, the full creation suite, and classroom sharing tools."
+      "subtitle": "Everything you use today stays free — worksheets, activities, interactive play, and PDFs. The Teacher plan adds your own shelf: save the worksheets you make as live links, share them with your class, and keep it all organized."
     },
     "free": {
       "title": "Free forever",
@@ -4043,11 +4043,11 @@
       "name": "Teacher",
       "priceSuffix": "per year",
       "includedTitle": "Everything free, plus",
-      "item1": "The full interactive storybook library — every story, every page, with narration",
-      "item2": "The creation suite: unlimited interactive worksheets from all 29 makers, watermark-free",
-      "item3": "Host your creations online and share them with your class by link",
-      "item4": "Collections and workspace tools to organize everything",
-      "item5": "First access to new premium releases — the story studio and curriculum packs",
+      "item1": "Save the interactive worksheets you make in all 29 makers — hosted online at a permanent link",
+      "item2": "Share with your class by link and QR code — students play instantly, no accounts, no files",
+      "item3": "Durable share links and QR codes for any of the 45,000+ catalog worksheets — single or in bulk",
+      "item4": "Collections and a workspace to organize everything you teach with",
+      "item5": "Topic packs: a whole topic’s printables in one ZIP download",
       "ctaAnnual": "Subscribe — $69/year",
       "ctaMonthly": "Or $8.99/month",
       "microcopy": "No trial card tricks — the free catalog is the trial. Cancel renewal anytime. VAT included where applicable.",

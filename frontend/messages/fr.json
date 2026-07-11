@@ -2537,11 +2537,11 @@
   "pricingPage": {
     "meta": {
       "title": "Offres et tarifs — LessonCraftStudio",
-      "description": "Un abonnement enseignant unique : histoires interactives, ateliers de création et partage en classe. Tout le reste demeure gratuit, pour toujours."
+      "description": "Un abonnement enseignant unique : enregistrez les fiches interactives que vous créez sous forme de liens permanents pour votre classe, organisez votre bibliothèque et téléchargez des packs thématiques. Tout le reste sur LessonCraftStudio demeure gratuit, pour toujours."
     },
     "hero": {
       "title": "Un tarif simple, pensé pour les enseignants",
-      "subtitle": "Tout ce que vous utilisez aujourd'hui reste gratuit — fiches, activités, jeu interactif et PDF. L'abonnement ajoute le rayon premium : la bibliothèque d'histoires interactives, les ateliers de création au complet et les outils de partage avec la classe."
+      "subtitle": "Tout ce que vous utilisez aujourd'hui reste gratuit — fiches, activités, jeu interactif et PDF. L'abonnement Enseignant ajoute votre propre rayon : enregistrez les fiches que vous créez sous forme de liens actifs, partagez-les avec votre classe et gardez tout organisé."
     },
     "free": {
       "title": "Gratuit pour toujours",
@@ -2557,11 +2557,11 @@
       "name": "Enseignant",
       "priceSuffix": "par an",
       "includedTitle": "Tout le gratuit, plus",
-      "item1": "La bibliothèque d'histoires interactives au complet — chaque histoire, chaque page, avec narration",
-      "item2": "La suite de création : fiches interactives illimitées depuis les 29 ateliers, sans filigrane",
-      "item3": "Hébergez vos créations en ligne et partagez-les avec votre classe d'un simple lien",
-      "item4": "Collections et espace de travail pour tout organiser",
-      "item5": "Accès en avant-première aux nouveautés premium — le studio d'histoires et les packs pédagogiques",
+      "item1": "Enregistrez les fiches interactives que vous créez dans les 29 ateliers — hébergées en ligne, avec un lien permanent",
+      "item2": "Partagez avec votre classe par lien et QR code — les élèves jouent instantanément, sans compte, sans fichier",
+      "item3": "Liens de partage durables et QR codes pour n'importe laquelle des plus de 45 000 fiches du catalogue — à l'unité ou en lot",
+      "item4": "Collections et espace de travail pour organiser tout votre matériel de classe",
+      "item5": "Packs thématiques : toutes les fiches à imprimer d'un thème dans un seul ZIP",
       "ctaAnnual": "S'abonner — $69/an",
       "ctaMonthly": "Ou $8.99/mois",
       "microcopy": "Pas d'essai piégé par carte bancaire — le catalogue gratuit fait office d'essai. Résiliez le renouvellement à tout moment. TVA incluse le cas échéant.",

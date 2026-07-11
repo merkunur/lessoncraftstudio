@@ -2506,11 +2506,11 @@
   "pricingPage": {
     "meta": {
       "title": "Hinnat ja tilaus — LessonCraftStudio",
-      "description": "Yksi selkeä opettajatilaus: interaktiivinen satukirjasto, luontityökalut ja jakaminen luokalle. Kaikki muu LessonCraftStudiossa pysyy ilmaisena — ikuisesti."
+      "description": "Yksi selkeä opettajatilaus: tallenna luomasi interaktiiviset tehtävät pysyviksi linkeiksi luokallesi, järjestä oma kirjastosi ja lataa teemapaketit. Kaikki muu LessonCraftStudiossa pysyy ilmaisena — ikuisesti."
     },
     "hero": {
       "title": "Selkeä hinnoittelu opettajille",
-      "subtitle": "Kaikki, mitä käytät nyt, pysyy ilmaisena — tehtävät, aktiviteetit, interaktiivinen harjoittelu ja PDF-tiedostot. Tilaus tuo lisää syvyyttä: satukirjaston, kaikki luontityökalut ja välineet jakamiseen luokan kanssa."
+      "subtitle": "Kaikki, mitä käytät nyt, pysyy ilmaisena — tehtävät, aktiviteetit, interaktiivinen harjoittelu ja PDF-tiedostot. Opettaja-tilaus tuo oman hyllysi: tallenna luomasi tehtävät toimiviksi linkeiksi, jaa ne luokallesi ja pidä kaikki järjestyksessä."
     },
     "free": {
       "title": "Ilmainen ikuisesti",
@@ -2526,11 +2526,11 @@
       "name": "Opettaja",
       "priceSuffix": "vuodessa",
       "includedTitle": "Kaikki ilmainen — ja lisäksi",
-      "item1": "Koko interaktiivinen satukirjasto — jokainen satu ja jokainen sivu ääneen luettuna",
-      "item2": "Luontityökalut: rajattomasti interaktiivisia tehtäviä kaikista 29 generaattorista, ilman vesileimaa",
-      "item3": "Julkaise omat tehtäväsi verkossa ja jaa ne luokalle linkillä",
-      "item4": "Kokoelmat ja työtilan välineet pitävät kaiken järjestyksessä",
-      "item5": "Ensimmäisenä uusiin premium-julkaisuihin — satustudioon ja opetussuunnitelmapaketteihin",
+      "item1": "Tallenna kaikilla 29 generaattorilla luomasi interaktiiviset tehtävät — verkossa pysyvän linkin takana",
+      "item2": "Jaa luokalle linkillä ja QR-koodilla — oppilaat pelaavat heti, ilman tilejä ja tiedostoja",
+      "item3": "Pysyvät jakolinkit ja QR-koodit mihin tahansa katalogin yli 45 000 tehtävään — yksittäin tai erissä",
+      "item4": "Kokoelmat ja työtila, joilla pidät kaiken opetusmateriaalisi järjestyksessä",
+      "item5": "Teemapaketit: yhden teeman kaikki tulostettavat tehtävät yhtenä ZIP-latauksena",
       "ctaAnnual": "Tilaa — $69/vuosi",
       "ctaMonthly": "Tai $8.99/kk",
       "microcopy": "Ei korttitemppuja kokeilujaksolla — ilmainen kirjasto on kokeilujakso. Peru uusiminen milloin tahansa. Alv sisältyy hintaan soveltuvin osin.",

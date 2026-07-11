@@ -2517,11 +2517,11 @@
   "pricingPage": {
     "meta": {
       "title": "Prijzen & abonnement — LessonCraftStudio",
-      "description": "Eén abonnement voor leerkrachten: de interactieve voorleesboeken-bibliotheek, alle maaktools en delen met je klas. Al het andere blijft voor altijd gratis."
+      "description": "Eén eenvoudig abonnement voor leerkrachten: bewaar de interactieve werkbladen die je maakt als permanente links voor je klas, organiseer je bibliotheek en download themapakketten. Al het andere op LessonCraftStudio blijft voor altijd gratis."
     },
     "hero": {
       "title": "Eenvoudige prijzen, gemaakt voor leerkrachten",
-      "subtitle": "Alles wat je nu gebruikt, blijft gratis — werkbladen, activiteiten, interactief spelen en pdf's. Het abonnement opent de diepe plank erachter: de bibliotheek met interactieve voorleesboeken, alle maaktools en delen met je klas."
+      "subtitle": "Alles wat je nu gebruikt, blijft gratis — werkbladen, activiteiten, interactief spelen en pdf's. Het Leerkracht-abonnement voegt je eigen plank toe: bewaar de werkbladen die je maakt als live links, deel ze met je klas en houd alles georganiseerd."
     },
     "free": {
       "title": "Voor altijd gratis",
@@ -2537,11 +2537,11 @@
       "name": "Leerkracht",
       "priceSuffix": "per jaar",
       "includedTitle": "Alles wat gratis is, plus",
-      "item1": "De volledige bibliotheek met interactieve voorleesboeken — elk verhaal, elke pagina, met voorleesstem",
-      "item2": "De maaktools: onbeperkt interactieve werkbladen uit alle 29 makers, zonder watermerk",
-      "item3": "Host je creaties online en deel ze via een link met je klas",
-      "item4": "Collecties en werkruimte-tools om alles te organiseren",
-      "item5": "Als eerste toegang tot nieuwe premium releases — de verhalenstudio en lespakketten",
+      "item1": "Bewaar de interactieve werkbladen die je maakt in alle 29 werkbladmakers — online gehost op een permanente link",
+      "item2": "Delen met je klas via link en QR-code — leerlingen spelen meteen, zonder accounts, zonder bestanden",
+      "item3": "Duurzame deellinks en QR-codes voor elk van de 45.000+ werkbladen in de catalogus — per stuk of in bulk",
+      "item4": "Collecties en een werkruimte om alles waarmee je lesgeeft te organiseren",
+      "item5": "Themapakketten: alle printbare werkbladen van een thema in één ZIP-download",
       "ctaAnnual": "Abonneren — $69/jaar",
       "ctaMonthly": "Of $8.99/maand",
       "microcopy": "Geen trucjes met proefkaarten — de gratis catalogus ís de proefperiode. Verlenging altijd opzegbaar. Inclusief btw waar van toepassing.",

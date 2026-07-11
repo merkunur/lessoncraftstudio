@@ -157,7 +157,7 @@ export function Navigation({
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="lg:hidden p-2 text-ink-600 hover:text-ink-900 flex-shrink-0"
-            aria-label="Toggle menu"
+            aria-label={t('toggleMenu')}
             aria-expanded={mobileMenuOpen}
             aria-controls="mobile-menu-drawer"
           >

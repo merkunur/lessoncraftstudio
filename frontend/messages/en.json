@@ -23,7 +23,9 @@
       "start": "Getting started",
       "blog": "Tips & strategies for teachers"
     },
-    "pricing": "Pricing"
+    "pricing": "Pricing",
+    "toggleMenu": "Toggle menu",
+    "selectLanguage": "Select language"
   },
   "nav": {
     "categories": {
@@ -4085,7 +4087,14 @@
       "demoOutputs": "one build, two outputs",
       "localeNavAria": "Browse this site in another language",
       "embedCta": "Embed any worksheet on your class blog or school site",
-      "mascotAlt": "Friendly elephant mascot offering a puzzle tile"
+      "mascotAlt": "Friendly elephant mascot offering a puzzle tile",
+      "numWorksheets": "45,309",
+      "numMakers": "29",
+      "numLanguages": "11",
+      "altSubtraction": "Subtraction worksheet — dinosaurs theme",
+      "altMatching": "Letter matching worksheet — farm animals theme",
+      "altSudoku": "Picture Sudoku worksheet — ocean life theme",
+      "altLetterSpotting": "Letter spotting worksheet — fruits theme"
     },
     "tryIt": {
       "eyebrow": "Try one right now",
@@ -4141,7 +4150,8 @@
       "benchPrint": "Print (PDF)",
       "benchOutputCaption": "One build → two ready outputs",
       "cta": "Explore the 29 makers",
-      "embedLink": "...or embed any worksheet on your class site"
+      "embedLink": "...or embed any worksheet on your class site",
+      "printableAlt": "The same worksheet as a printable PDF with answer key"
     },
     "moat": {
       "eyebrow": "Why English-only sites fall short",
@@ -4175,7 +4185,14 @@
       "shareTitle": "Share any activity with your class",
       "shareTag": "Teacher plan",
       "shareBody": "Turn any of the 200+ activities into a clean student link and QR code. Project it, print the code, or send it home — students play instantly, no accounts and no files.",
-      "shareLink": "See the Teacher plan"
+      "shareLink": "See the Teacher plan",
+      "altTemplate": "{label} — interactive K-3 activity",
+      "label1": "Make a Number",
+      "label2": "Which Has More?",
+      "label3": "Name the Shape",
+      "label4": "How Many?",
+      "label5": "Even or Odd",
+      "label6": "Flat or Solid"
     },
     "freeTeacher": {
       "eyebrow": "Start free · Upgrade when the makers become your habit",
@@ -4219,7 +4236,9 @@
       "mockTitle": "Counting to 10",
       "mockStatus": "Saved · plays at a permanent link",
       "scanLabel": "Scan to play",
-      "cta": "See how sharing works"
+      "cta": "See how sharing works",
+      "savedAlt": "A saved interactive worksheet ready to share",
+      "qrAlt": "QR code linking to the worksheet"
     },
     "browse": {
       "eyebrow": "Find anything",

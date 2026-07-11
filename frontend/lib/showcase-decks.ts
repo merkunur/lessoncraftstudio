@@ -111,6 +111,24 @@ async function candidatesForType(type: string, locale: string): Promise<Showcase
 }
 
 /**
+ * One real deck thumbnail per requested exercise type, in `locale` (en-fallback
+ * inside candidatesForType for sparse locales). Used by the homepage-v4 hero /
+ * embed / makers sections to show worksheet thumbnails in the VISITOR's language
+ * instead of the hardcoded English decorative decks. Returns `null` for a type
+ * with no candidate so the caller can fall back to its English decorative slug.
+ * DB failure → all null (caller falls back). Themes vary per locale, so callers
+ * pair these with theme-neutral, type-descriptive alt text.
+ */
+export async function getTypedThumbs(locale: string, types: string[]): Promise<(string | null)[]> {
+  try {
+    const perType = await Promise.all(types.map((t) => candidatesForType(t, locale)));
+    return perType.map((cands) => cands[0]?.thumbnailUrl ?? null);
+  } catch {
+    return types.map(() => null);
+  }
+}
+
+/**
  * Select the try-it band composition: one deck per curated exercise type,
  * preferring a distinct THEME per tile so the grid is visually varied (not a
  * wall of one theme). First 9 kept (featured = decks[0], thumbs = the next 8).

@@ -7,6 +7,7 @@
 
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
+import { getTypedThumbs } from '@/lib/showcase-decks';
 
 interface PillarMakersProps {
   locale: string;
@@ -27,6 +28,10 @@ function Chrome({ url }: { url: string }) {
 
 export default async function PillarMakersV4({ locale }: PillarMakersProps) {
   const t = await getTranslations({ locale, namespace: 'homepageV4.makers' });
+  // Printable-PDF thumbnail in the visitor's language (EN keeps the hand-picked deck).
+  const printableThumb = locale === 'en'
+    ? `${CDN}/addition-find-addend-animals/thumbnail.png`
+    : (await getTypedThumbs(locale, ['addition']))[0] ?? `${CDN}/addition-find-addend-animals/thumbnail.png`;
 
   const controlFeatures = [
     { title: t('f1Title'), body: t('f1Body') },
@@ -72,7 +77,7 @@ export default async function PillarMakersV4({ locale }: PillarMakersProps) {
             <div className="hv5-card">
               <Chrome url="addition-fun.pdf" />
               <div className="max-h-[360px] overflow-hidden bg-[#FBF3E4]">
-                <img src={`${CDN}/addition-find-addend-animals/thumbnail.png`} alt="The same worksheet as a printable PDF with answer key" width={760} height={980} loading="lazy" className="block w-full" />
+                <img src={printableThumb} alt={t('printableAlt')} width={760} height={980} loading="lazy" className="block w-full" />
               </div>
             </div>
             <h3 className="mt-8 font-lcsDisplay font-bold text-[#14322D] text-lg">{t('outPrintTitle')}</h3>

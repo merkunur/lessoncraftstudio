@@ -2,6 +2,7 @@
 
 import { useRouter, usePathname } from 'next/navigation';
 import { useState, useRef, useEffect } from 'react';
+import { useTranslations } from 'next-intl';
 import { locales } from '@/i18n/request';
 
 const languageNames: Record<string, string> = {
@@ -29,6 +30,7 @@ const HREFLANG_CODE_MAP: Record<string, string> = {
 export function LanguageSelector() {
   const router = useRouter();
   const pathname = usePathname();
+  const t = useTranslations('navigation');
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
@@ -95,10 +97,10 @@ export function LanguageSelector() {
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center space-x-2 px-3 py-2 rounded-lg hover:bg-gray-100 transition-colors"
-        aria-label="Select language"
+        className="flex items-center space-x-2 px-3 py-2 rounded-lg hover:bg-[#146B5E]/[0.06] transition-colors"
+        aria-label={t('selectLanguage')}
       >
-        <span className="text-sm font-medium text-gray-700">
+        <span className="text-sm font-medium text-[#14322D]/75">
           {languageNames[currentLocale]}
         </span>
         <svg
@@ -112,7 +114,7 @@ export function LanguageSelector() {
       </button>
 
       {isOpen && (
-        <div className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
+        <div className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-[#14322D]/10 py-2 z-50">
           {[...locales]
             .sort((a, b) => languageNames[a].localeCompare(languageNames[b]))
             .map((locale) => (
@@ -120,13 +122,13 @@ export function LanguageSelector() {
               key={locale}
               onClick={() => handleLocaleChange(locale)}
               className={`w-full flex items-center justify-between px-4 py-2 text-left hover:bg-gray-50 transition-colors ${
-                locale === currentLocale ? 'bg-blue-50 text-blue-600' : 'text-gray-700'
+                locale === currentLocale ? 'bg-[#146B5E]/[0.08] text-[#0E544A]' : 'text-[#14322D]/75'
               }`}
             >
               <span className="text-sm font-medium">{languageNames[locale]}</span>
               {locale === currentLocale && (
                 <svg
-                  className="w-4 h-4 text-blue-600"
+                  className="w-4 h-4 text-[#146B5E]"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"

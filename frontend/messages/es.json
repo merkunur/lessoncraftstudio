@@ -3403,7 +3403,14 @@
       "renamePrompt": "Nuevo nombre",
       "delete": "Eliminar",
       "deleteConfirm": "¿Eliminar esta ficha? Su enlace dejará de funcionar.",
-      "views": "{count} visitas"
+      "views": "{count} visitas",
+      "share": "Compartir",
+      "shareIntro": "Comparte esta ficha con tu clase.",
+      "qrAlt": "Código QR de esta ficha",
+      "linkLabel": "Enlace de la ficha",
+      "openWorksheet": "Abrir ficha",
+      "downloadQr": "Descargar QR",
+      "shareNote": "Los estudiantes escanean el código QR o abren el enlace — sin cuenta ni app. El enlace funciona en cualquier dispositivo."
     },
     "favorites": {
       "title": "Mis favoritos",

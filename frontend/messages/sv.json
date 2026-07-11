@@ -2254,7 +2254,14 @@
       "renamePrompt": "Nytt namn",
       "delete": "Ta bort",
       "deleteConfirm": "Ta bort det här arbetsbladet? Länken slutar då fungera.",
-      "views": "{count} visningar"
+      "views": "{count} visningar",
+      "share": "Dela",
+      "shareIntro": "Dela det här arbetsbladet med din klass.",
+      "qrAlt": "QR-kod för det här arbetsbladet",
+      "linkLabel": "Länk till arbetsbladet",
+      "openWorksheet": "Öppna arbetsbladet",
+      "downloadQr": "Ladda ner QR",
+      "shareNote": "Eleverna skannar QR-koden eller öppnar länken — utan konto eller app. Länken fungerar på alla enheter."
     },
     "favorites": {
       "title": "Mina favoriter",

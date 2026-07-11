@@ -2274,7 +2274,14 @@
       "renamePrompt": "Nouveau nom",
       "delete": "Supprimer",
       "deleteConfirm": "Supprimer cette fiche ? Son lien cessera de fonctionner.",
-      "views": "{count} vues"
+      "views": "{count} vues",
+      "share": "Partager",
+      "shareIntro": "Partagez cette fiche avec votre classe.",
+      "qrAlt": "QR code de cette fiche",
+      "linkLabel": "Lien de la fiche",
+      "openWorksheet": "Ouvrir la fiche",
+      "downloadQr": "Télécharger le QR",
+      "shareNote": "Les élèves scannent le QR code ou ouvrent le lien — sans compte ni application. Le lien fonctionne sur tout appareil."
     },
     "favorites": {
       "title": "Mes favoris",

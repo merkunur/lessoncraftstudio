@@ -131,7 +131,7 @@ export default function WorkspaceClient({ locale }: { locale: string }) {
 
       {payload !== null && (
         <div className="space-y-12">
-          <HostedWorksheetsWidget locale={locale} />
+          <HostedWorksheetsWidget />
 
           <CollectionsWidget
             locale={locale}

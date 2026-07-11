@@ -3760,7 +3760,14 @@
       "renamePrompt": "Novo nome",
       "delete": "Excluir",
       "deleteConfirm": "Excluir esta atividade? O link dela deixará de funcionar.",
-      "views": "{count} visualizações"
+      "views": "{count} visualizações",
+      "share": "Compartilhar",
+      "shareIntro": "Compartilhe esta atividade com sua turma.",
+      "qrAlt": "Código QR desta atividade",
+      "linkLabel": "Link da atividade",
+      "openWorksheet": "Abrir atividade",
+      "downloadQr": "Baixar QR",
+      "shareNote": "Os alunos escaneiam o código QR ou abrem o link — sem conta nem app. O link funciona em qualquer dispositivo."
     },
     "favorites": {
       "title": "Meus favoritos",

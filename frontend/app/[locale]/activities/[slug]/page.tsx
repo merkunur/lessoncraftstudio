@@ -25,6 +25,7 @@ const GRADE_KEY_MAP: Record<string, string> = {
    grade here. EN + any locale/activity without an entry are unaffected. Sits beside the
    route's other localization maps (EDUCATIONAL_FRAMEWORK_BY_LOCALE, strand-names). */
 const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
+  'comparison-creek.river-steer.k-cc-c-7': { es: 'PK' },                 // Preescolar (chip via GRADE_KEY_MAP['PK']='preschool' → seo.educational_level.preschool es "Preescolar") — pedagogue: comparar numerales 1–10 (mayor/menor/igual) es un aprendizaje de Pensamiento matemático de 3.º de educación preescolar en México (etapa escolar formal, ≠ guardería alemana); "Preescolar" (término SEP) > el "Kínder" coloquial del default K. FIJA EL PRECEDENTE es K-cluster: K escolar-formal → es:'PK'/"Preescolar". en Kindergarten, de/fr sin cambios (US K.CC.C.7)
   'numbers-court.judge-balance.1-oa-d-7': { es: '2' },                   // 2º primaria — la lectura RELACIONAL del signo igual (la misma cantidad de los dos lados; juzgar igualdades verdaderas/falsas como 3+2=2+3) es de 2º en México; 1º usa "=" de forma operacional (resultado). en/de Grade 1, fr CP sin cambios (US 1.OA.D.7 → MX 2º de primaria)
   'ten-stones.add-sub-within-20.1-oa-c-6': { es: '2' },                  // 2º primaria — la estrategia de formar/pasar por el diez para sumar y restar hasta 20 es de 2º en México (1º trabaja dentro del 10); en/de Grade 1 sin cambios (US 1.OA.C.6 → MX 2º de primaria)
   'wake-up-pip.retell-story.rl-k-2': { de: '2', fr: '1' },                       // CP — reconstruire un récit DE MÉMOIRE (le modèle disparaît) + chaîne causale 4 temps + restituer les détails clés + écarter l'intrus = attendus cycle 2 (« comprendre l'enchaînement / la relation de cause à effet / restituer l'essentiel »); plus exigeant que le « remettre dans l'ordre » GS (modèle présent); parité DE Klasse 2; US RL.K.2 → FR CP
@@ -520,7 +521,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.241';
+  const ACTIVITY_WRAPPER_VERSION = '9.242';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

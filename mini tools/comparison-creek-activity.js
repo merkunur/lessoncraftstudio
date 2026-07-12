@@ -32,7 +32,7 @@
   function speak(text) {
     try {
       if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function shuffledOrder(n, prev) {
@@ -80,29 +80,29 @@
     id: 'comparison-creek-activity',
 
     strings: {
-      title:         { en: 'Comparison Creek', de: 'Käpt’n Quills Flussfahrt', fr: 'La descente de rivière du capitaine Quill' },
-      instruction:   { en: 'Steer Captain Quill down the right channel at each bend. Tap a channel, then tap Check.', de: 'Steuere Käpt’n Quill an jeder Gabelung in den richtigen Flussarm. Tippe einen Flussarm an und dann auf Prüfen.', fr: 'Dirige le capitaine Quill dans le bon bras de la rivière à chaque bifurcation. Touche un bras de la rivière, puis touche Vérifier.' },
-      promptBigger:  { en: 'Steer to the BIGGER number!', de: 'Steuere zur GRÖSSEREN Zahl!', fr: 'Dirige-toi vers le plus GRAND nombre !' },
-      promptSmaller: { en: 'Steer to the SMALLER number!', de: 'Steuere zur KLEINEREN Zahl!', fr: 'Dirige-toi vers le plus PETIT nombre !' },
-      promptMoreDots:{ en: 'Steer to the side with MORE!', de: 'Steuere zur Seite mit MEHR!', fr: 'Va du côté où il y en a le PLUS !' },
-      promptBiggerOne:{ en: 'Steer to the BIGGER one!', de: 'Steuere zur GRÖSSEREN!', fr: 'Dirige-toi vers le plus GRAND !' },
-      promptSum:     { en: 'Add them up — steer to the BIGGER sum!', de: 'Zähl zusammen — steuere zur GRÖSSEREN Summe!', fr: 'Additionne — puis dirige-toi vers la plus GRANDE somme !' },
-      promptSize:    { en: 'Bigger NUMBER, not bigger size!', de: 'Die größere ZAHL zählt — nicht die größere Schrift!', fr: 'C’est le plus grand NOMBRE qui gagne, pas la plus grande écriture !' },
-      promptTie:     { en: 'Same number? Steer to the = sign!', de: 'Gleiche Zahl? Steuere zum Gleichheitszeichen =!', fr: 'Le même nombre ? Dirige-toi vers le signe égal = !' },
-      promptName:    { en: 'Is {a} more or less than {b}?', de: 'Ist {a} mehr oder weniger als {b}?', fr: '{a}, c’est plus ou moins que {b} ?' },
-      promptBetween: { en: 'Which number is BETWEEN {lo} and {hi}?', de: 'Welche Zahl liegt ZWISCHEN {lo} und {hi}?', fr: 'Quel nombre est ENTRE {lo} et {hi} ?' },
-      readback:      { en: 'You picked {n}.', de: 'Du hast {n} gewählt.', fr: 'Tu as choisi {n}.' },
-      reBig:         { en: '{a} is more than {b}. Look again — which channel has {a} now?', de: '{a} ist mehr als {b}. Schau noch mal — in welchem Flussarm ist jetzt {a}?', fr: '{a} est plus grand que {b}. Regarde encore : quel bras de la rivière montre {a} ?' },
-      reSmall:       { en: '{a} is less than {b}. Look again — which channel has {a} now?', de: '{a} ist weniger als {b}. Schau noch mal — in welchem Flussarm ist jetzt {a}?', fr: '{a} est plus petit que {b}. Regarde encore : quel bras de la rivière montre {a} ?' },
-      reEqual:       { en: "They're the same — tap the equal sign!", de: 'Sie sind gleich — tippe auf das Gleichheitszeichen!', fr: 'Ils sont pareils — touche le signe égal !' },
-      win:           { en: 'Smooth sailing!', de: 'Super gesteuert!', fr: 'Bien dirigé !' },
-      hintCheck:     { en: 'Steer down a channel, then tap Check.', de: 'Steuere in einen Flussarm und tippe dann auf Prüfen.', fr: 'Entre dans un bras de la rivière, puis touche Vérifier.' },
-      relMore:       { en: 'MORE', de: 'MEHR', fr: 'PLUS' },
-      relLess:       { en: 'LESS', de: 'WENIGER', fr: 'MOINS' },
-      ariaSteerLeft: { en: 'steer left', de: 'nach links steuern', fr: 'diriger à gauche' },
-      ariaSteerRight:{ en: 'steer right', de: 'nach rechts steuern', fr: 'diriger à droite' },
-      ariaEqual:     { en: 'they are equal', de: 'sie sind gleich', fr: 'ils sont égaux' },
-      quillName:     { en: 'Captain Quill', de: 'Käpt’n Quill', fr: 'le capitaine Quill' }
+      title:         { en: 'Comparison Creek', de: 'Käpt’n Quills Flussfahrt', fr: 'La descente de rivière du capitaine Quill', es: 'El río del capitán Quill' },
+      instruction:   { en: 'Steer Captain Quill down the right channel at each bend. Tap a channel, then tap Check.', de: 'Steuere Käpt’n Quill an jeder Gabelung in den richtigen Flussarm. Tippe einen Flussarm an und dann auf Prüfen.', fr: 'Dirige le capitaine Quill dans le bon bras de la rivière à chaque bifurcation. Touche un bras de la rivière, puis touche Vérifier.', es: 'Guía al capitán Quill por el brazo correcto cada vez que el río se divide. Toca un brazo del río y luego toca Comprobar.' },
+      promptBigger:  { en: 'Steer to the BIGGER number!', de: 'Steuere zur GRÖSSEREN Zahl!', fr: 'Dirige-toi vers le plus GRAND nombre !', es: '¡Guía hacia el número MÁS GRANDE!' },
+      promptSmaller: { en: 'Steer to the SMALLER number!', de: 'Steuere zur KLEINEREN Zahl!', fr: 'Dirige-toi vers le plus PETIT nombre !', es: '¡Guía hacia el número MÁS CHICO!' },
+      promptMoreDots:{ en: 'Steer to the side with MORE!', de: 'Steuere zur Seite mit MEHR!', fr: 'Va du côté où il y en a le PLUS !', es: '¡Guía hacia el lado que tiene MÁS!' },
+      promptBiggerOne:{ en: 'Steer to the BIGGER one!', de: 'Steuere zur GRÖSSEREN!', fr: 'Dirige-toi vers le plus GRAND !', es: '¡Guía hacia el MÁS GRANDE!' },
+      promptSum:     { en: 'Add them up — steer to the BIGGER sum!', de: 'Zähl zusammen — steuere zur GRÖSSEREN Summe!', fr: 'Additionne — puis dirige-toi vers la plus GRANDE somme !', es: 'Súmalos… ¡guía hacia la suma MÁS GRANDE!' },
+      promptSize:    { en: 'Bigger NUMBER, not bigger size!', de: 'Die größere ZAHL zählt — nicht die größere Schrift!', fr: 'C’est le plus grand NOMBRE qui gagne, pas la plus grande écriture !', es: '¡El NÚMERO más grande, no el tamaño más grande!' },
+      promptTie:     { en: 'Same number? Steer to the = sign!', de: 'Gleiche Zahl? Steuere zum Gleichheitszeichen =!', fr: 'Le même nombre ? Dirige-toi vers le signe égal = !', es: '¿El mismo número? ¡Guía hacia el signo =!' },
+      promptName:    { en: 'Is {a} more or less than {b}?', de: 'Ist {a} mehr oder weniger als {b}?', fr: '{a}, c’est plus ou moins que {b} ?', es: '¿{a} es más o menos que {b}?' },
+      promptBetween: { en: 'Which number is BETWEEN {lo} and {hi}?', de: 'Welche Zahl liegt ZWISCHEN {lo} und {hi}?', fr: 'Quel nombre est ENTRE {lo} et {hi} ?', es: '¿Qué número está ENTRE {lo} y {hi}?' },
+      readback:      { en: 'You picked {n}.', de: 'Du hast {n} gewählt.', fr: 'Tu as choisi {n}.', es: 'Elegiste {n}.' },
+      reBig:         { en: '{a} is more than {b}. Look again — which channel has {a} now?', de: '{a} ist mehr als {b}. Schau noch mal — in welchem Flussarm ist jetzt {a}?', fr: '{a} est plus grand que {b}. Regarde encore : quel bras de la rivière montre {a} ?', es: '{a} es más que {b}. Mira otra vez: ¿qué brazo tiene el {a}?' },
+      reSmall:       { en: '{a} is less than {b}. Look again — which channel has {a} now?', de: '{a} ist weniger als {b}. Schau noch mal — in welchem Flussarm ist jetzt {a}?', fr: '{a} est plus petit que {b}. Regarde encore : quel bras de la rivière montre {a} ?', es: '{a} es menos que {b}. Mira otra vez: ¿qué brazo tiene el {a}?' },
+      reEqual:       { en: "They're the same — tap the equal sign!", de: 'Sie sind gleich — tippe auf das Gleichheitszeichen!', fr: 'Ils sont pareils — touche le signe égal !', es: 'Son iguales… ¡toca el signo igual!' },
+      win:           { en: 'Smooth sailing!', de: 'Super gesteuert!', fr: 'Bien dirigé !', es: '¡Navegaste muy bien!' },
+      hintCheck:     { en: 'Steer down a channel, then tap Check.', de: 'Steuere in einen Flussarm und tippe dann auf Prüfen.', fr: 'Entre dans un bras de la rivière, puis touche Vérifier.', es: 'Guía por un brazo del río y luego toca Comprobar.' },
+      relMore:       { en: 'MORE', de: 'MEHR', fr: 'PLUS', es: 'MÁS' },
+      relLess:       { en: 'LESS', de: 'WENIGER', fr: 'MOINS', es: 'MENOS' },
+      ariaSteerLeft: { en: 'steer left', de: 'nach links steuern', fr: 'diriger à gauche', es: 'guiar a la izquierda' },
+      ariaSteerRight:{ en: 'steer right', de: 'nach rechts steuern', fr: 'diriger à droite', es: 'guiar a la derecha' },
+      ariaEqual:     { en: 'they are equal', de: 'sie sind gleich', fr: 'ils sont égaux', es: 'son iguales' },
+      quillName:     { en: 'Captain Quill', de: 'Käpt’n Quill', fr: 'le capitaine Quill', es: 'el capitán Quill' }
     },
 
     defaults: {},

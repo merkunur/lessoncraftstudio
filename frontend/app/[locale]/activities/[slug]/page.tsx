@@ -123,6 +123,7 @@ function effGrade(row: ActivityRow, locale: string): string {
    activities fall through to localizeStrand unchanged. Display-only (chip + JSON-LD
    teaches/targetDescription); related-activity matching keeps the raw alignment.strand. */
 const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
+  'mosaic-menders.area-match.3-md-c-6': { es: 'Forma, espacio y medida' },  // MX 3.º: el área (superficie) es una magnitud GEOMÉTRICA ligada a figuras → eje "Forma, espacio y medida" (el eje mexicano que fusiona geometría + medida), NO el default "Magnitudes y medida" (reservado para magnitudes puras: longitud/masa/capacidad/tiempo/dinero). Espeja el override alemán a "Raum und Form". FIJA EL PRECEDENTE es geometría-medida (área/perímetro/superficie/figuras → este eje). en/de/fr fall through
   'numbers-court.judge-balance.1-oa-d-7': { es: 'Número, álgebra y variación' }, // MX 2º: el significado RELACIONAL del signo igual (igualdades/equilibrio entre los dos lados) es propedéutica del álgebra → eje "Número, álgebra y variación" (SEP/NEM); el default es "Sentido numérico" (colapso de sentido numérico) descarta la dimensión algebraica que nombra el pedagogo. Distinto de #9 ten-stones (fluidez de suma/resta → Sentido numérico): un mismo strand OA de EE. UU. se divide legítimamente entre ejes mexicanos por contenido. en/de/fr fall through
   'marlo-magnifier.trait-evidence.rl-1-3': { fr: 'Comprendre et interpréter' }, // FR CE1: inférer un trait de personnage + le justifier par un indice du texte = interprétation (attribuer un trait + le fonder sur le texte), NOT littéral; = retell #49 / fable-morale #52; "Reading: Literature" has no fr in strand-names.ts; en/de fall through
   'juniper-story-lantern.central-message.rl-1-2': { fr: 'Comprendre et interpréter' }, // FR CE1: dégager la morale d'une fable = interpréter le sens/le message au-delà du littéral (cycle-2 Lecture et compréhension de l'écrit); NOT « Écouter de l'écrit et comprendre » (maternelle/GS pré-lecteur); "Reading: Literature" has no fr in strand-names.ts; en/de fall through
@@ -521,7 +522,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.243';
+  const ACTIVITY_WRAPPER_VERSION = '9.244';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

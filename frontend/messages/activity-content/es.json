@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "place-value-regroup.add-compose-ten.1-nbt-c-4": {
+      "about": [
+        "Tuck, el hámster, acomoda bloques de base diez en columnas de valor posicional: las decenas de un lado y las unidades del otro. Cuando resuelves una suma como 27 + 5, ves cómo se juntan las unidades y decides qué hacer cuando ya son más de diez.",
+        "La idea grande es sencilla y poderosa: cuando se juntan más de diez unidades, se agrupan para formar una decena. Ese paso concreto —tomar 10 cubitos y cambiarlos por una barra de diez— es justo lo que ocurre antes de «llevar» en la suma escrita, y ayuda a los niños a entender el valor posicional en lugar de memorizar un truco.",
+        "Está pensada para acompañar el trabajo del aula y de casa según los planes y programas de estudio de la SEP y la Nueva Escuela Mexicana: fortalece el sentido numérico y la comprensión de decenas y unidades en primer grado de primaria."
+      ],
+      "practices": [
+        "Sumar con reagrupación cuando las unidades pasan de diez",
+        "Agrupar 10 unidades para formar una decena con material de base diez",
+        "Distinguir con seguridad las unidades y las decenas (valor posicional)",
+        "Construir el puente entre el material concreto y la suma llevando por escrito"
+      ],
+      "howToPlay": [
+        "Observa los bloques que Tuck coloca en cada columna y cuenta cuántas unidades hay del lado de las unidades.",
+        "Cuando las unidades sean más de diez, toca «Formar una decena» para agrupar 10 unidades en una barra de decena y llevarla a su columna.",
+        "Escribe el total y confirma tu respuesta; Tuck te acompaña con calma en cada intento, sin prisas ni puntajes."
+      ],
+      "learningGoals": [
+        "Comprender la suma con reagrupación como el acto de formar una decena, no como una regla memorizada.",
+        "Afianzar el valor posicional al mover unidades y decenas entre sus columnas con bloques de base diez.",
+        "Desarrollar el sentido numérico que pide la SEP para primer grado, preparando el terreno para sumar llevando por escrito."
+      ]
+    },
     "shapeforge.compose.1-g-a-2": {
       "about": [
         "En este juego gratuito, Mim el zorro forja luz con figuras. El niño elige una pieza brillante —un triángulo o un rombo—, la gira y la coloca dentro de una linterna vacía hasta llenarla por completo, sin dejar huecos ni encimar las piezas.",

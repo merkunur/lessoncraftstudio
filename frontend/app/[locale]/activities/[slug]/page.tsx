@@ -25,6 +25,7 @@ const GRADE_KEY_MAP: Record<string, string> = {
    grade here. EN + any locale/activity without an entry are unaffected. Sits beside the
    route's other localization maps (EDUCATIONAL_FRAMEWORK_BY_LOCALE, strand-names). */
 const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
+  'ten-stones.add-sub-within-20.1-oa-c-6': { es: '2' },                  // 2º primaria — la estrategia de formar/pasar por el diez para sumar y restar hasta 20 es de 2º en México (1º trabaja dentro del 10); en/de Grade 1 sin cambios (US 1.OA.C.6 → MX 2º de primaria)
   'wake-up-pip.retell-story.rl-k-2': { de: '2', fr: '1' },                       // CP — reconstruire un récit DE MÉMOIRE (le modèle disparaît) + chaîne causale 4 temps + restituer les détails clés + écarter l'intrus = attendus cycle 2 (« comprendre l'enchaînement / la relation de cause à effet / restituer l'essentiel »); plus exigeant que le « remettre dans l'ordre » GS (modèle présent); parité DE Klasse 2; US RL.K.2 → FR CP
   'opposites.antonyms.k-l-5-b': { de: '1', fr: '1' },                            // CP — relier un mot à son contraire (antonymes) + discriminer le contraire d'un mot de la même sorte = opération métalinguistique explicite « trouver un mot de sens contraire » du cycle 2 « Étude de la langue » (la maternelle travaille les contraires à l'oral); parité DE Klasse 1; US K.L.5.b K-cluster → FR CP
   'bingo-word-hunt.read-match.rf-k-3-d': { fr: '1' },                    // CP — lire des mots réguliers imprimés et discriminer des mots proches par la lettre/le son qui change = décodage graphophonologique du CP (la maternelle travaille la conscience phono à l'oral); US RF.K.3.d K-cluster → FR CP
@@ -517,7 +518,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.239';
+  const ACTIVITY_WRAPPER_VERSION = '9.240';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

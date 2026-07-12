@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "bundle-bot.bundle-machine.1-nbt-b-2-a": {
+      "about": [
+        "Bolt es un robot que va soltando unidades sueltas, de una en una, dentro de una charola. Tu peque las cuenta y, al llegar a diez, jala la palanca: Bolt agrupa esas diez unidades en una decena, es decir, en una barra de diez. Así, decena tras decena, se van armando números de 20 a 49 con decenas y unidades, sin ninguna operación de por medio.",
+        "Detrás del juego está una de las ideas más importantes del valor posicional: un número como 34 son 3 decenas y 4 unidades, y no cambia según dónde escribamos cada cifra. Agrupar diez unidades para formar una decena y desagrupar una decena para volverla diez unidades son, en realidad, las dos caras de una misma idea; verlas juntas ayuda a la niña o al niño a entender de verdad cómo se compone un número de dos cifras.",
+        "Cada engrane propone un reto distinto: armar un número, desagrupar una decena, formar decenas exactas como 40, leer el estado actual y hasta descubrir al tramposo, un grupo que parece una decena pero solo tiene nueve unidades. Todo es gratis, en el navegador, sin cronómetro ni puntos, para que cada quien explore el valor posicional a su propio ritmo."
+      ],
+      "practices": [
+        "Agrupar diez unidades sueltas en una decena y armar números de 20 a 49 con decenas y unidades.",
+        "Desagrupar una decena en diez unidades para representar un mismo número de otra forma.",
+        "Leer y nombrar un número como \"tantas decenas y tantas unidades\", y formar decenas exactas como 40.",
+        "Revisar que un grupo tenga de verdad diez unidades y detectar al tramposo que solo trae nueve."
+      ],
+      "howToPlay": [
+        "Mete unidades sueltas de una en una en la charola de Bolt y cuéntalas hasta llegar a diez.",
+        "Jala la palanca: Bolt agrupa las diez unidades en una decena; repite hasta tener las decenas que pide el número y deja sueltas las unidades que sobran.",
+        "Lee \"tantas decenas y tantas unidades\"; y en las tareas de desagrupar, toca una decena para volverla diez unidades otra vez."
+      ],
+      "learningGoals": [
+        "Comprender que diez unidades forman una decena y que un número de dos cifras se compone de decenas y unidades: esto es el valor posicional en primer grado.",
+        "Agrupar y desagrupar con seguridad hasta números cercanos a 100, viendo ambas direcciones como una sola idea.",
+        "Leer y nombrar un número representado y comprobar que cada grupo tenga exactamente diez unidades."
+      ]
+    },
     "sharing-jar.make-fair.1-oa-d-8": {
       "about": [
         "Pim y Bo son dos amigos que juegan a llenar cuentas en dos frascos. Cada quien va metiendo sus cuentas, pero al final uno de los frascos queda más lleno que el otro, y ahí empieza la diversión: hay que descubrir el número que falta para que todo quede justo y parejo. Es una situación sencilla y concreta, con cantidades que nunca pasan de 12, para que tu peque razone sin presión.",

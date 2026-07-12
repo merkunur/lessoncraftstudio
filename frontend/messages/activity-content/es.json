@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "skipcount.fill.2-nbt-a-2": {
+      "about": [
+        "Hopper la rana cruza el estanque brincando de un nenúfar a otro, y en cada brinco el número crece o disminuye siempre la misma cantidad. Tu peque lee los nenúfares numerados, sigue el patrón y toca el número que va en el nenúfar vacío.",
+        "Contar de 5 en 5, de 10 en 10 y de 100 en 100 es mucho más que decir números en voz alta: es la base del valor posicional y el primer paso hacia la multiplicación. Al reconocer estos patrones, tu peque empieza a ver cómo se organizan los números en decenas y centenas.",
+        "La actividad está pensada para segundo grado de primaria y acompaña el trabajo de series numéricas y sentido numérico que marcan los planes y programas de estudio de la SEP, con un enfoque visual, claro y sin presión."
+      ],
+      "practices": [
+        "Contar de 5 en 5, de 10 en 10 y de 100 en 100, hacia adelante y hacia atrás, hasta 1000",
+        "Completar la serie encontrando el número que falta en el nenúfar vacío",
+        "Descubrir de cuánto es cada brinco, es decir, el patrón que sigue la serie",
+        "Contar a partir de números que no son múltiplos, por ejemplo 3, 8, 13, 18…"
+      ],
+      "howToPlay": [
+        "Observa los nenúfares numerados y fíjate cuánto cambia el número de un brinco al siguiente.",
+        "Cuando encuentres un nenúfar vacío, toca el número que debería ir ahí para que la serie siga su patrón.",
+        "Si te equivocas, no pasa nada: puedes volver a intentarlo con calma hasta que Hopper llegue al otro lado."
+      ],
+      "learningGoals": [
+        "Fortalecer el sentido numérico al reconocer y continuar series de 5 en 5, de 10 en 10 y de 100 en 100.",
+        "Comprender el valor posicional al ver cómo cambian las decenas y las centenas dentro de cada serie.",
+        "Preparar el camino hacia la multiplicación, ya que contar en grupos iguales es su primer cimiento, en línea con el enfoque de la SEP."
+      ]
+    },
     "lay-units.measure.1-md-a-2": {
       "about": [
         "Inchie es una oruga medidora que necesita saber qué tan largos son los objetos del jardín: una hoja, un caracol, una ramita. En esta actividad interactiva y gratuita, tu peque acomoda a los ayudantes de Inchie uno tras otro a lo largo de cada objeto y descubre cuántos mide de largo.",

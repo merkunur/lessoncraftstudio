@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "hoppers-number-line.jump-sums.2-md-b-6": {
+      "about": [
+        "Hopper, la rana, brinca sobre una recta numérica y convierte cada cuenta en un movimiento con dirección. En esta actividad tu peque toca el número inicial, elige hacia dónde va Hopper —hacia adelante para sumar o hacia atrás para restar—, escoge el tamaño del brinco y descubre el número donde cae. La recta numérica deja de ser solo una fila de números y se vuelve el modelo con el que se calcula.",
+        "Así, sumar y restar hasta 100 se ve como lo que es: un brinco en una dirección. Por ejemplo, 24−9 es brincar nueve lugares hacia atrás, y 30+40 es un brinco de cuatro decenas completas hacia adelante que cae en 70. La niña o el niño no aplica ningún algoritmo escrito; en cambio, entiende de dónde parte, hacia dónde se mueve y en qué número termina el brinco.",
+        "Esta actividad complementa la otra de Hopper, donde la rana avanza a brincos iguales de 5, 10 o 100 sobre la misma recta numérica: aquella practica el conteo por grupos y esta muestra una suma o una resta como un solo brinco dirigido. Es gratis, se juega en el navegador, sin cronómetro ni puntos, para que cada quien avance con calma y a su propio ritmo."
+      ],
+      "practices": [
+        "Representar sumas y restas hasta 100 sobre la recta numérica, viendo cada operación como un brinco con dirección.",
+        "Elegir hacia dónde brinca Hopper: hacia adelante cuando se suma y hacia atrás cuando se resta.",
+        "Dar brincos de decenas completas, como 45−20, 80−50 o 30+40, para moverse rápido por la recta.",
+        "Leer el número donde cae Hopper y comprobar si el resultado del brinco es el correcto."
+      ],
+      "howToPlay": [
+        "Toca el número inicial en la recta numérica, el lugar desde donde Hopper va a brincar.",
+        "Elige la dirección —hacia adelante para sumar o hacia atrás para restar— y el tamaño del brinco.",
+        "Escribe dónde cae Hopper y de inmediato verás si acertaste."
+      ],
+      "learningGoals": [
+        "Comprender la recta numérica como un modelo para calcular, y no únicamente como una herramienta para contar.",
+        "Conectar el sumar y el restar hasta 100 con una dirección y un movimiento concretos sobre la recta.",
+        "Ganar seguridad al brincar de decenas completas y afianzar el valor posicional, tal como se trabaja en segundo grado de primaria (~7 a 8 años) según los Planes y programas de estudio (SEP) de la Nueva Escuela Mexicana."
+      ]
+    },
     "line-plot.read.2-md-d-9": {
       "about": [
         "Shelly, el cangrejo ermitaño, camina por la orilla del mar recogiendo conchas de todos los tamaños. En esta actividad gratuita tu peque la acompaña a medir cada concha en centímetros con una recta numérica y a registrar su longitud colocando una X justo encima del número que le corresponde. Poco a poco, esas X apiladas van formando un diagrama de frecuencias que muestra de un vistazo cuántas conchas hay de cada tamaño.",

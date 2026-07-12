@@ -28,13 +28,15 @@
   var WORDS_DE = { 0: 'null', 1: 'eins', 2: 'zwei', 3: 'drei', 4: 'vier', 5: 'fünf', 6: 'sechs', 7: 'sieben', 8: 'acht', 9: 'neun', 10: 'zehn', 11: 'elf', 12: 'zwölf' };
   /* French cardinals 0-12, STANDALONE form (the reveal speaks the bare number). */
   var WORDS_FR = { 0: 'zéro', 1: 'un', 2: 'deux', 3: 'trois', 4: 'quatre', 5: 'cinq', 6: 'six', 7: 'sept', 8: 'huit', 9: 'neuf', 10: 'dix', 11: 'onze', 12: 'douze' };
+  /* Spanish cardinals 0-12, STANDALONE form (the reveal speaks the bare number → 1 = „uno", not the apocope „un"). */
+  var WORDS_ES = { 0: 'cero', 1: 'uno', 2: 'dos', 3: 'tres', 4: 'cuatro', 5: 'cinco', 6: 'seis', 7: 'siete', 8: 'ocho', 9: 'nueve', 10: 'diez', 11: 'once', 12: 'doce' };
   var LANG = 'en';
-  function numWord(n) { var w = (LANG === 'de' ? WORDS_DE : LANG === 'fr' ? WORDS_FR : WORDS)[n]; return (w != null) ? w : String(n); }
+  function numWord(n) { var w = (LANG === 'de' ? WORDS_DE : LANG === 'fr' ? WORDS_FR : LANG === 'es' ? WORDS_ES : WORDS)[n]; return (w != null) ? w : String(n); }
 
   function speak(text) {
     try {
       if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function friendSVG(which, mood) {
@@ -56,29 +58,29 @@
     reward: { id: 'friendship-string', label: 'Friendship String', emoji: '💛' },
 
     strings: {
-      title: { en: 'The Sharing Jar', de: 'Das faire Perlenglas', fr: 'Le pot de perles juste' },
-      instruction: { en: 'Make it fair — say the kind number.', de: 'Mach es fair – sag die richtige Zahl.', fr: 'Rends le partage juste : dis le bon nombre.' },
-      prompt: { en: 'Make it fair!', de: 'Mach es fair!', fr: 'Rends le partage juste !' },
-      qEqualize: { en: 'How many MORE beads does Pim need to match Bo?', de: 'Wie viele Perlen braucht Pim NOCH, um genauso viele wie Bo zu haben?', fr: 'Combien de perles Pim doit-il ajouter pour en avoir autant que Bo ?' },
-      qCompare: { en: "How many MORE beads does Bo's jar have?", de: 'Wie viele Perlen hat Bos Glas MEHR?', fr: 'Combien de perles le pot de Bo a-t-il de plus ?' },
-      qRestore: { en: 'Some got knocked into the spill! How many to give Pim back?', de: 'Ein paar sind verschüttet! Wie viele bekommt Pim zurück?', fr: 'Quelques perles sont tombées ! Combien Pim en récupère-t-il ?' },
-      qReduce: { en: 'Pim scooped too many! How many to put back so each has {T}?', de: 'Pim hat zu viele Perlen genommen! Wie viele müssen zurück, damit jeder {T} hat?', fr: 'Pim a pris trop de perles ! Combien doit-il en remettre pour que chacun en ait {T} ?' },
-      qStart: { en: 'Bo gave {k} away and now has {r}. How many did Bo START with?', de: 'Bo hat {k} verschenkt und hat jetzt {r}. Wie viele hatte Bo am ANFANG?', fr: 'Bo a donné {k} perles et il en a {r} maintenant. Combien Bo en avait-il au DÉPART ?' },
-      qZero: { en: 'How many more does Pim need to match Bo?', de: 'Wie viele braucht Pim noch, um genauso viele wie Bo zu haben?', fr: 'Combien de perles Pim doit-il ajouter pour en avoir autant que Bo ?' },
-      hint: { en: 'Work it out, then tap that number.', de: 'Rechne es aus und tippe dann auf die Zahl.', fr: 'Réfléchis, puis touche le bon nombre.' },
-      hintZero: { en: 'Look closely — maybe it is already fair!', de: 'Schau genau hin – vielleicht ist es schon fair!', fr: 'Regarde bien… c’est peut-être déjà juste !' },
-      had: { en: 'had {n}', de: 'hatte {n}', fr: 'en avait {n}' },
-      fairIs: { en: 'fair = {n}', de: 'fair = {n}', fr: 'juste = {n}' },
-      gaveAway: { en: 'gave {k} away', de: '{k} verschenkt', fr: 'a donné {k}' },
-      lookAgain: { en: 'Look again — how many more does Pim need?', de: 'Schau noch mal – wie viele braucht Pim noch?', fr: 'Regarde encore : combien Pim doit-il en ajouter ?' },
-      revealEqualize: { en: 'Yes! Now both have {n} — fair! 💛', de: 'Ja! Jetzt haben beide {n} – fair! 💛', fr: 'Oui ! Maintenant chacun en a {n} — c’est juste ! 💛' },
-      revealCompare: { en: "Right! Bo's jar has {u} more. That's the gap.", de: 'Richtig! Bos Glas hat {u} mehr. Das ist der Unterschied.', fr: 'Bravo ! Le pot de Bo en a {u} de plus. C’est l’écart.' },
-      revealRestore: { en: 'Restored to {n} — Pim is happy again! 💛', de: 'Wieder bei {n} – Pim freut sich! 💛', fr: 'De retour à {n} — Pim est content ! 💛' },
-      revealReduce: { en: 'Now each can have {n} — fair! 💛', de: 'Jetzt hat jeder {n} – fair! 💛', fr: 'Maintenant chacun en a {n} — c’est juste ! 💛' },
-      revealStart: { en: 'Yes! Bo started with {u} beads.', de: 'Ja! Bo hatte am Anfang {u} Perlen.', fr: 'Oui ! Bo en avait {u} au départ.' },
-      revealZero: { en: "They're already the SAME — that's fair! Give none. 💛", de: 'Sie haben schon GLEICH viele – das ist fair! Gib keine. 💛', fr: 'Ils en ont déjà AUTANT — c’est juste ! N’en ajoute aucune. 💛' },
-      tapCheck: { en: 'Tap Check! ✓', de: 'Tippe auf Prüfen! ✓', fr: 'Touche Vérifier ! ✓' },
-      pim: { en: 'Pim', de: 'Pim', fr: 'Pim' }, bo: { en: 'Bo', de: 'Bo', fr: 'Bo' }, fairBridge: { en: 'fair', de: 'fair', fr: 'juste' }
+      title: { en: 'The Sharing Jar', de: 'Das faire Perlenglas', fr: 'Le pot de perles juste', es: 'El frasco justo' },
+      instruction: { en: 'Make it fair — say the kind number.', de: 'Mach es fair – sag die richtige Zahl.', fr: 'Rends le partage juste : dis le bon nombre.', es: 'Hazlo parejo: di el número correcto.' },
+      prompt: { en: 'Make it fair!', de: 'Mach es fair!', fr: 'Rends le partage juste !', es: '¡Hazlo parejo!' },
+      qEqualize: { en: 'How many MORE beads does Pim need to match Bo?', de: 'Wie viele Perlen braucht Pim NOCH, um genauso viele wie Bo zu haben?', fr: 'Combien de perles Pim doit-il ajouter pour en avoir autant que Bo ?', es: '¿Cuántas cuentas MÁS necesita Pim para igualar a Bo?' },
+      qCompare: { en: "How many MORE beads does Bo's jar have?", de: 'Wie viele Perlen hat Bos Glas MEHR?', fr: 'Combien de perles le pot de Bo a-t-il de plus ?', es: '¿Cuántas cuentas MÁS tiene el frasco de Bo?' },
+      qRestore: { en: 'Some got knocked into the spill! How many to give Pim back?', de: 'Ein paar sind verschüttet! Wie viele bekommt Pim zurück?', fr: 'Quelques perles sont tombées ! Combien Pim en récupère-t-il ?', es: '¡Algunas se cayeron! ¿Cuántas hay que devolverle a Pim?' },
+      qReduce: { en: 'Pim scooped too many! How many to put back so each has {T}?', de: 'Pim hat zu viele Perlen genommen! Wie viele müssen zurück, damit jeder {T} hat?', fr: 'Pim a pris trop de perles ! Combien doit-il en remettre pour que chacun en ait {T} ?', es: '¡Pim juntó de más! ¿Cuántas hay que regresar para que cada quien tenga {T}?' },
+      qStart: { en: 'Bo gave {k} away and now has {r}. How many did Bo START with?', de: 'Bo hat {k} verschenkt und hat jetzt {r}. Wie viele hatte Bo am ANFANG?', fr: 'Bo a donné {k} perles et il en a {r} maintenant. Combien Bo en avait-il au DÉPART ?', es: 'Bo regaló {k} y ahora tiene {r}. ¿Con cuántas EMPEZÓ Bo?' },
+      qZero: { en: 'How many more does Pim need to match Bo?', de: 'Wie viele braucht Pim noch, um genauso viele wie Bo zu haben?', fr: 'Combien de perles Pim doit-il ajouter pour en avoir autant que Bo ?', es: '¿Cuántas más necesita Pim para igualar a Bo?' },
+      hint: { en: 'Work it out, then tap that number.', de: 'Rechne es aus und tippe dann auf die Zahl.', fr: 'Réfléchis, puis touche le bon nombre.', es: 'Piénsalo y toca ese número.' },
+      hintZero: { en: 'Look closely — maybe it is already fair!', de: 'Schau genau hin – vielleicht ist es schon fair!', fr: 'Regarde bien… c’est peut-être déjà juste !', es: 'Fíjate bien: ¡a lo mejor ya está parejo!' },
+      had: { en: 'had {n}', de: 'hatte {n}', fr: 'en avait {n}', es: 'tenía {n}' },
+      fairIs: { en: 'fair = {n}', de: 'fair = {n}', fr: 'juste = {n}', es: 'parejo = {n}' },
+      gaveAway: { en: 'gave {k} away', de: '{k} verschenkt', fr: 'a donné {k}', es: 'regaló {k}' },
+      lookAgain: { en: 'Look again — how many more does Pim need?', de: 'Schau noch mal – wie viele braucht Pim noch?', fr: 'Regarde encore : combien Pim doit-il en ajouter ?', es: 'Mira otra vez: ¿cuántas más necesita Pim?' },
+      revealEqualize: { en: 'Yes! Now both have {n} — fair! 💛', de: 'Ja! Jetzt haben beide {n} – fair! 💛', fr: 'Oui ! Maintenant chacun en a {n} — c’est juste ! 💛', es: '¡Sí! Ahora los dos frascos tienen {n}: ¡parejo! 💛' },
+      revealCompare: { en: "Right! Bo's jar has {u} more. That's the gap.", de: 'Richtig! Bos Glas hat {u} mehr. Das ist der Unterschied.', fr: 'Bravo ! Le pot de Bo en a {u} de plus. C’est l’écart.', es: '¡Correcto! El frasco de Bo tiene {u} más. Esa es la diferencia.' },
+      revealRestore: { en: 'Restored to {n} — Pim is happy again! 💛', de: 'Wieder bei {n} – Pim freut sich! 💛', fr: 'De retour à {n} — Pim est content ! 💛', es: '¡Devueltas hasta {n}! Pim ya está feliz otra vez. 💛' },
+      revealReduce: { en: 'Now each can have {n} — fair! 💛', de: 'Jetzt hat jeder {n} – fair! 💛', fr: 'Maintenant chacun en a {n} — c’est juste ! 💛', es: 'Ahora cada quien puede tener {n}: ¡parejo! 💛' },
+      revealStart: { en: 'Yes! Bo started with {u} beads.', de: 'Ja! Bo hatte am Anfang {u} Perlen.', fr: 'Oui ! Bo en avait {u} au départ.', es: '¡Sí! Bo empezó con {u} cuentas.' },
+      revealZero: { en: "They're already the SAME — that's fair! Give none. 💛", de: 'Sie haben schon GLEICH viele – das ist fair! Gib keine. 💛', fr: 'Ils en ont déjà AUTANT — c’est juste ! N’en ajoute aucune. 💛', es: '¡Ya están IGUALES: parejo! No des ninguna. 💛' },
+      tapCheck: { en: 'Tap Check! ✓', de: 'Tippe auf Prüfen! ✓', fr: 'Touche Vérifier ! ✓', es: '¡Toca Comprobar! ✓' },
+      pim: { en: 'Pim', de: 'Pim', fr: 'Pim', es: 'Pim' }, bo: { en: 'Bo', de: 'Bo', fr: 'Bo', es: 'Bo' }, fairBridge: { en: 'fair', de: 'fair', fr: 'juste', es: 'parejo' }
     },
     defaults: {},
 
@@ -178,7 +180,7 @@
       Core.produceNumeral(this.cstate, n);
       var r = Core.commit(this.cstate);
       if (r === 'sealed') { this._reconcile(); }
-      else { this.api.sound && this.api.sound(330); this.msg = this.api.t('lookAgain'); speak(LANG === 'de' ? 'schau noch mal' : LANG === 'fr' ? 'regarde encore' : 'look again'); this.render(); }
+      else { this.api.sound && this.api.sound(330); this.msg = this.api.t('lookAgain'); speak(LANG === 'de' ? 'schau noch mal' : LANG === 'fr' ? 'regarde encore' : LANG === 'es' ? 'mira otra vez' : 'look again'); this.render(); }
     },
     _reconcile: function () {
       var api = this.api, u = this._u();

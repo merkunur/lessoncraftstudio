@@ -107,17 +107,20 @@
     "slug": {
       "en": "the-sharing-jar",
       "de": "fehlende-zahl-finden-ergaenzen-klasse-1",
-      "fr": "trouver-le-nombre-manquant-cp"
+      "fr": "trouver-le-nombre-manquant-cp",
+      "es": "encontrar-el-numero-que-falta-completar-1-primaria"
     },
     "page_title": {
       "en": "The Sharing Jar — Make It Fair (Find the Missing Number)",
       "de": "Zahlen ergänzen – die fehlende Zahl finden (Klasse 1)",
-      "fr": "Le nombre manquant CP : compléter et comparer | jeu gratuit"
+      "fr": "Le nombre manquant CP : compléter et comparer | jeu gratuit",
+      "es": "El frasco justo — encontrar el número que falta con Pim y Bo (1.º primaria)"
     },
     "page_intro": {
       "en": "A jar of moon-beads spills, and Pim and Bo scoop up different amounts — one jar glows full, the other goes quiet. Help make it fair: work out how many more beads the quiet friend needs and say that number, then watch the beads float over and two friends lean their heads together. A warm Grade-1 missing-number game aligned to Common Core 1.OA.D.8.",
       "de": "Zahlen ergänzen in Klasse 1: die fehlende Zahl in Plus- und Minusaufgaben finden – mit Pim und Bo. Kostenlos online üben, ohne Anmeldung.",
-      "fr": "Aide Pim et Bo à rendre le partage juste ! Un jeu gratuit et interactif pour trouver le nombre manquant, comparer et compléter des quantités, au niveau CP."
+      "fr": "Aide Pim et Bo à rendre le partage juste ! Un jeu gratuit et interactif pour trouver le nombre manquant, comparer et compléter des quantités, au niveau CP.",
+      "es": "El frasco justo: Pim y Bo llenan sus frascos de cuentas y hay que encontrar el número que falta para dejarlos parejos — completar, comparar la diferencia y hallar cuántas había al principio, con cantidades hasta 12. Juego interactivo y gratis de primer grado, sin registro, alineado a los Planes y programas de estudio (SEP)."
     },
     "kid_prompt_template": "make-fair"
   }

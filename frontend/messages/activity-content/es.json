@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "tally-squirrel.add-four.2-nbt-b-6": {
+      "about": [
+        "Tally, la ardilla, es una recolectora incansable: cada otoño llena sus canastas de bellotas y las va acomodando por todo el bosque. En esta actividad, Tally junta 2, 3 o 4 canastas, y cada una lleva una etiqueta con un número de dos cifras, como 23, 14 u 11. La niña o el niño solo tiene que sumar todas las canastas y escribir el total.",
+        "Sumar números de dos cifras hasta 100 es más fácil con una idea sencilla: separar las decenas y las unidades. Primero se juntan todas las decenas de cada canasta, después todas las unidades, y al final se unen las dos partes para llegar al total. Así, en lugar de amontonar bellotas al azar, la mente se organiza y el cálculo fluye con calma.",
+        "Esta forma de sumar por valor posicional es propia de segundo grado de primaria (~7–8 años) y prepara el algoritmo formal con llevadas escritas, que en México llega hasta 3.º; aquí todo se resuelve mentalmente y sin llevadas en papel. La actividad es gratis, funciona en el navegador y no tiene cronómetro ni puntos: solo Tally, sus canastas de bellotas y la satisfacción de encontrar el total."
+      ],
+      "practices": [
+        "Sumar varios números de dos cifras, de 2 a 4 canastas a la vez, siempre en el rango hasta 100.",
+        "Usar la estrategia por valor posicional: juntar primero todas las decenas y luego todas las unidades.",
+        "Afianzar el valor posicional al reconocer con claridad las decenas y las unidades de cada número.",
+        "Agrupar con ingenio los números para calcular el total de forma mental y sin apuros."
+      ],
+      "howToPlay": [
+        "Mira cuántas canastas llenó Tally y lee con calma el número de dos cifras de cada una.",
+        "Suma todos los números: primero junta las decenas y después las unidades para llegar al total.",
+        "Escribe el total en el recuadro y, si no queda a la primera, vuelve a intentarlo sin ninguna prisa."
+      ],
+      "learningGoals": [
+        "Aprender a sumar de dos a cuatro números de dos cifras dentro del rango hasta 100.",
+        "Aplicar la suma por valor posicional y comprender por qué conviene juntar las decenas y las unidades por separado.",
+        "Ganar seguridad en el cálculo mental y confianza en sus propias estrategias para resolver sumas."
+      ]
+    },
     "pond-juice.pour-measure.3-md-a-2": {
       "about": [
         "Pippa, la rana, atiende un alegre puesto de jugos y necesita tu ayuda para servir cada pedido. Un cliente llega y pide algo como \"quiero como N litros de jugo\", así que Pippa vierte el jugo en un vaso medidor para preparar la orden. Este puesto es una manera divertida de que tu peque practique la capacidad usando litros de verdad.",

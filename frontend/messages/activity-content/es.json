@@ -192,6 +192,75 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "place-value-regroup.subtract-decompose.2-nbt-b-7": {
+      "about": [
+        "Restar 342 − 5 parece sencillo, hasta que descubres que solo hay 2 unidades y necesitas quitar 5. Aquí es donde Tuck, el hámster, aprende a «Desarmar una decena»: convierte una barra de diez en 10 cubitos sueltos para que sí alcancen las unidades.",
+        "Esta actividad trabaja la resta con reagrupación dentro del 1000, uno de los aprendizajes clave del eje «Número, álgebra y variación» de los planes y programas de estudio de la SEP para tercero de primaria.",
+        "Como los bloques de base diez se ven y se mueven en pantalla, tu hija o hijo entiende de dónde sale ese diez prestado: no es un truco de «pedir prestado», es intercambiar una decena por diez unidades reales."
+      ],
+      "practices": [
+        "Identificar cuándo hace falta reagrupar: si las unidades de arriba son menos que las de abajo, toca desarmar una decena antes de restar.",
+        "Tocar «Desarmar una decena» para cambiar 1 barra de diez por 10 cubitos y ver cómo las unidades pasan de 2 a 12.",
+        "Quitar la cantidad indicada de las unidades ya reagrupadas y contar lo que queda en cada columna: unidades, decenas y centenas.",
+        "Escribir el resultado de la resta y comprobar que coincide con los bloques que quedan en la mesa de Tuck."
+      ],
+      "howToPlay": [
+        "Lee la resta que aparece arriba, por ejemplo 342 − 5, y observa los bloques de base diez de Tuck: placas de cien, barras de diez y cubitos.",
+        "Toca «Desarmar una decena» para convertir una decena en 10 unidades; verás cómo cambian los bloques y el número de cada columna.",
+        "Quita las unidades que pide el problema y escribe la respuesta; Tuck celebra cuando la resta con reagrupación queda correcta."
+      ],
+      "learningGoals": [
+        "Comprender la reagrupación en la resta: desarmar una decena para tener suficientes unidades sin cambiar el valor total del número.",
+        "Relacionar el material concreto (bloques de base diez) con el algoritmo de restar prestando, fortaleciendo el sentido numérico.",
+        "Restar con soltura un número de una cifra a uno de tres cifras dentro del 1000, tal como lo plantean los programas de la SEP para 3er grado."
+      ]
+    },
+    "place-value-regroup.add-compose-hundred.2-nbt-b-7": {
+      "about": [
+        "Cuando sumas 160 + 50 aparecen 11 decenas, y once decenas ya no caben en su columna. Tuck, el hámster, resuelve el problema al «Formar una centena»: junta 10 barras de diez y las cambia por una placa de cien.",
+        "Es la cara de la suma con reagrupación en la que se «lleva» hacia las centenas, un contenido del eje «Número, álgebra y variación → Adición y sustracción» de los planes y programas de la SEP para tercero de primaria.",
+        "Al agrupar diez decenas en una centena frente a sus ojos, tu hija o hijo descubre por qué se lleva una a la columna siguiente: es un intercambio justo, no una regla que hay que memorizar."
+      ],
+      "practices": [
+        "Sumar las decenas y darse cuenta de cuándo se juntan diez o más: esa es la señal para reagrupar hacia las centenas.",
+        "Tocar «Formar una centena» para cambiar 10 barras de diez por 1 placa de cien y ver cómo se acomoda el número.",
+        "Reconocer el valor posicional: cuántas centenas, decenas y unidades quedan después de formar la nueva centena.",
+        "Escribir el total de la suma y verificar que corresponde a los bloques de base diez que Tuck tiene sobre la mesa."
+      ],
+      "howToPlay": [
+        "Observa la suma de arriba, por ejemplo 160 + 50, y mira las decenas de Tuck representadas con barras de diez.",
+        "Toca «Formar una centena» cuando se junten 10 decenas para convertirlas en una placa de cien; el número se reacomoda solo.",
+        "Escribe el total; Tuck festeja cuando la suma con reagrupación hacia las centenas queda bien resuelta."
+      ],
+      "learningGoals": [
+        "Entender que reagrupar en la suma significa cambiar 10 decenas por 1 centena sin alterar la cantidad total.",
+        "Conectar el uso de los bloques de base diez con la idea de «llevar» en el algoritmo de la suma.",
+        "Sumar dentro del 1000 componiendo centenas, fortaleciendo el sentido numérico que proponen los programas de la SEP para 3er grado."
+      ]
+    },
+    "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7": {
+      "about": [
+        "En 302 − 5 no hay decenas de dónde tomar prestado: la columna de las decenas está en cero. Tuck, el hámster, hace una doble reagrupación: primero «Desarmar una centena» en 10 decenas y después «Desarmar una decena» en 10 unidades.",
+        "Es la resta con reagrupación más retadora de tercero, la que cruza el cero, y forma parte del eje «Número, álgebra y variación» de los planes y programas de estudio de la SEP.",
+        "Ver los dos intercambios paso a paso —una centena que se vuelve diez decenas y una decena que se vuelve diez unidades— evita el error clásico de restar al revés cuando aparece un cero de por medio."
+      ],
+      "practices": [
+        "Detectar el caso especial: no alcanzan las unidades y, además, no hay decenas para prestar porque están en cero.",
+        "Tocar «Desarmar una centena» para cambiar 1 placa de cien por 10 barras de diez y llenar la columna de las decenas.",
+        "Tocar «Desarmar una decena» para convertir una de esas decenas en 10 unidades y por fin poder quitar.",
+        "Quitar la cantidad pedida, revisar centenas, decenas y unidades, y escribir el resultado de la resta."
+      ],
+      "howToPlay": [
+        "Lee una resta a través del cero, por ejemplo 302 − 5, y fíjate en que Tuck no tiene barras de diez para prestar.",
+        "Toca «Desarmar una centena» y luego «Desarmar una decena»: cada intercambio reacomoda los bloques de base diez y los números de cada columna.",
+        "Quita las unidades y escribe la respuesta; Tuck celebra cuando la doble reagrupación queda correcta."
+      ],
+      "learningGoals": [
+        "Resolver restas con reagrupación cuando hay un cero en las decenas, encadenando dos intercambios seguidos.",
+        "Afianzar el valor posicional al mover cantidades entre centenas, decenas y unidades sin cambiar el número.",
+        "Restar prestando dentro del 1000 con seguridad, un aprendizaje esperado de 3er grado según los programas de la SEP."
+      ]
+    },
     "place-value-regroup.add-compose-ten.1-nbt-c-4": {
       "about": [
         "Tuck, el hámster, acomoda bloques de base diez en columnas de valor posicional: las decenas de un lado y las unidades del otro. Cuando resuelves una suma como 27 + 5, ves cómo se juntan las unidades y decides qué hacer cuando ya son más de diez.",

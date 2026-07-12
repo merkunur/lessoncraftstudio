@@ -49,12 +49,24 @@
     var ten = Math.floor(n / 10) * 10, unit = n % 10, tw = TENS_FR[ten] || String(ten);
     return unit === 0 ? tw : unit === 1 ? (tw + ' et un') : (tw + '-' + ONES_FR[unit]);
   }
-  function numWord(n) { return LANG === 'de' ? numWordDE(n) : LANG === 'fr' ? numWordFR(n) : enWord(n); }
+  /* Spanish number-words 0-49: 20-29 are ONE word („veintitrés", accents on veintidós/veintitrés/veintiséis);
+     the split is exactly at 30 → 30-49 are THREE words („treinta y dos"). */
+  var ONES_ES = ['cero', 'uno', 'dos', 'tres', 'cuatro', 'cinco', 'seis', 'siete', 'ocho', 'nueve', 'diez', 'once', 'doce', 'trece', 'catorce', 'quince', 'dieciséis', 'diecisiete', 'dieciocho', 'diecinueve'];
+  var VEINTI_ES = ['veinte', 'veintiuno', 'veintidós', 'veintitrés', 'veinticuatro', 'veinticinco', 'veintiséis', 'veintisiete', 'veintiocho', 'veintinueve'];
+  var TENS_ES = { 30: 'treinta', 40: 'cuarenta' };
+  function numWordES(n) {
+    n = n | 0;
+    if (n <= 19) return ONES_ES[n] || String(n);
+    if (n <= 29) return VEINTI_ES[n - 20];
+    var ten = Math.floor(n / 10) * 10, unit = n % 10, tw = TENS_ES[ten] || String(ten);
+    return unit ? (tw + ' y ' + ONES_ES[unit]) : tw;
+  }
+  function numWord(n) { return LANG === 'de' ? numWordDE(n) : LANG === 'fr' ? numWordFR(n) : LANG === 'es' ? numWordES(n) : enWord(n); }
 
   function speak(text) {
     try {
       if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
 
@@ -63,7 +75,7 @@
     var mouth = happy ? '<path d="M40 60 q10 8 20 0" stroke="#3A6B63" stroke-width="3" fill="none" stroke-linecap="round"/>'
       : sheepish ? '<path d="M42 60 q8 -3 16 0" stroke="#3A6B63" stroke-width="2.6" fill="none" stroke-linecap="round"/>'
         : '<path d="M43 60 q7 4 14 0" stroke="#3A6B63" stroke-width="2.6" fill="none" stroke-linecap="round"/>';
-    return '<svg viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Bündel-Bolt, der Roboter' : LANG === 'fr' ? 'Bolt le robot' : 'Bundle Bot') + '">'
+    return '<svg viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Bündel-Bolt, der Roboter' : LANG === 'fr' ? 'Bolt le robot' : LANG === 'es' ? 'Bolt, el robot' : 'Bundle Bot') + '">'
       + '<rect x="22" y="28" width="56" height="52" rx="13" fill="#9FD3C8"/><rect x="22" y="28" width="56" height="52" rx="13" fill="none" stroke="' + C.T + '" stroke-width="3"/>'
       + '<circle cx="50" cy="18" r="4" fill="' + C.GOLD + '"/><rect x="48.5" y="18" width="3" height="10" fill="#6e8f88"/>'   // antenna
       + '<rect x="33" y="42" width="34" height="16" rx="5" fill="#EAF7F3"/>'                                                  // face panel
@@ -85,30 +97,30 @@
     reward: { id: 'tidy-shelf', label: "Bolt's Tidy Shelf", emoji: '🧰' },
 
     strings: {
-      title: { en: 'Bundle Bot', de: 'Bündel-Bolt', fr: 'Bolt fait des dizaines' },
-      instruction: { en: 'Drop ones one at a time (tap a one to take it back). Count ten, then pull the lever to bundle a ten.', de: 'Lege die Einer einzeln hinein (tippe einen Einer an, um ihn zurückzunehmen). Zähle bis zehn und zieh dann den Hebel, um einen Zehner zu bündeln.', fr: 'Mets les unités une par une (touche une unité pour la reprendre). Compte jusqu’à dix, puis tire le levier pour grouper une dizaine.' },
-      prompt: { en: 'Bundle the tens!', de: 'Bündle die Zehner!', fr: 'Groupe les dizaines !' },
-      make: { en: 'Make {n}!', de: 'Mach {n}!', fr: 'Fabrique {n} !' },
-      tensLab: { en: 'Tens', de: 'Zehner', fr: 'Dizaines' },
-      trayLab: { en: 'Loose ones', de: 'Lose Einer', fr: 'Unités seules' },
-      feed: { en: 'Drop a one', de: 'Einer hineinlegen', fr: 'Mettre une unité' },
-      bundle: { en: 'Bundle ten! 🔧', de: 'Zehn bündeln! 🔧', fr: 'Grouper dix ! 🔧' },
-      tidy: { en: 'Tidy ⊞', de: 'Ordnen ⊞', fr: 'Ranger ⊞' },
-      untidy: { en: 'Scatter', de: 'Verstreuen', fr: 'Éparpiller' },
-      qBuild: { en: 'Count ten ones, then bundle!', de: 'Zähle zehn Einer und bündle dann!', fr: 'Compte dix unités, puis groupe une dizaine !' },
-      qUnbundle: { en: 'Show {n} as {t} tens and {o} ones — tap a ten to un-bundle!', de: 'Zeig {n} als {t} Zehner und {o} Einer — tippe einen Zehner an, um ihn zu entbündeln!', fr: 'Montre {n} avec {t} dizaines et {o} unités — touche une dizaine pour la défaire !' },
-      qImpostor: { en: 'Is that ten? Count carefully!', de: 'Sind das wirklich zehn? Zähle genau!', fr: 'Ça fait vraiment dix ? Compte bien !' },
-      qDecade: { en: 'Make {n} — all tens, no loose ones!', de: 'Mach {n} — nur Zehner, keine losen Einer!', fr: 'Fabrique {n} — que des dizaines, aucune unité seule !' },
-      qReadState: { en: 'Bolt has {v} already — add ones to make {n}!', de: 'Bolt hat schon {v} — lege Einer dazu, um {n} zu machen!', fr: 'Bolt a déjà {v} — ajoute des unités pour faire {n} !' },
-      qOverfill: { en: 'Drop ones and bundle each ten!', de: 'Lege Einer hinein und bündle jeden Zehner!', fr: 'Mets les unités et groupe chaque dizaine !' },
-      refuse: { en: "Not ten yet — keep counting!", de: 'Noch keine zehn — zähl weiter!', fr: 'Pas encore dix — continue de compter !' },
-      overfill: { en: "Whoa, more than ten — bundle a ten first!", de: 'Oha, mehr als zehn — bündle zuerst einen Zehner!', fr: 'Oh là, plus de dix — groupe d’abord une dizaine !' },
-      unbundled: { en: 'Un-bundled! Ten ones again.', de: 'Entbündelt! Wieder zehn Einer.', fr: 'Défait ! De nouveau dix unités seules.' },
-      bundled: { en: 'Ten ones make one ten! 🔧', de: 'Zehn Einer ergeben einen Zehner! 🔧', fr: 'Dix unités font une dizaine ! 🔧' },
-      win: { en: '{w} — all bundled! 🧰', de: '{w} — alles gebündelt! 🧰', fr: '{w} — tout est groupé ! 🧰' },
-      tapCheck: { en: 'Tap Check! ✓', de: 'Tippe auf Prüfen! ✓', fr: 'Touche Vérifier ! ✓' },
-      ariaBar: { en: 'a ten — tap to un-bundle into ten ones', de: 'ein Zehner — tippe, um ihn in zehn Einer zu zerlegen', fr: 'une dizaine — touche pour la défaire en dix unités' },
-      ariaCube: { en: 'a loose one — tap to take it back', de: 'ein loser Einer — tippe, um ihn zurückzunehmen', fr: 'une unité seule — touche pour la reprendre' }
+      title: { en: 'Bundle Bot', de: 'Bündel-Bolt', fr: 'Bolt fait des dizaines', es: 'Bolt agrupa decenas' },
+      instruction: { en: 'Drop ones one at a time (tap a one to take it back). Count ten, then pull the lever to bundle a ten.', de: 'Lege die Einer einzeln hinein (tippe einen Einer an, um ihn zurückzunehmen). Zähle bis zehn und zieh dann den Hebel, um einen Zehner zu bündeln.', fr: 'Mets les unités une par une (touche une unité pour la reprendre). Compte jusqu’à dix, puis tire le levier pour grouper une dizaine.', es: 'Suelta unidades de una en una (toca una unidad para quitarla). Cuenta diez y jala la palanca para agrupar una decena.' },
+      prompt: { en: 'Bundle the tens!', de: 'Bündle die Zehner!', fr: 'Groupe les dizaines !', es: '¡Agrupa las decenas!' },
+      make: { en: 'Make {n}!', de: 'Mach {n}!', fr: 'Fabrique {n} !', es: 'Forma {n}!' },
+      tensLab: { en: 'Tens', de: 'Zehner', fr: 'Dizaines', es: 'Decenas' },
+      trayLab: { en: 'Loose ones', de: 'Lose Einer', fr: 'Unités seules', es: 'Unidades sueltas' },
+      feed: { en: 'Drop a one', de: 'Einer hineinlegen', fr: 'Mettre une unité', es: 'Suelta una unidad' },
+      bundle: { en: 'Bundle ten! 🔧', de: 'Zehn bündeln! 🔧', fr: 'Grouper dix ! 🔧', es: '¡Agrupa diez! 🔧' },
+      tidy: { en: 'Tidy ⊞', de: 'Ordnen ⊞', fr: 'Ranger ⊞', es: 'Ordenar ⊞' },
+      untidy: { en: 'Scatter', de: 'Verstreuen', fr: 'Éparpiller', es: 'Desordenar' },
+      qBuild: { en: 'Count ten ones, then bundle!', de: 'Zähle zehn Einer und bündle dann!', fr: 'Compte dix unités, puis groupe une dizaine !', es: '¡Cuenta diez unidades y agrúpalas!' },
+      qUnbundle: { en: 'Show {n} as {t} tens and {o} ones — tap a ten to un-bundle!', de: 'Zeig {n} als {t} Zehner und {o} Einer — tippe einen Zehner an, um ihn zu entbündeln!', fr: 'Montre {n} avec {t} dizaines et {o} unités — touche une dizaine pour la défaire !', es: 'Muestra {n} como {t} decenas y {o} unidades: ¡toca una decena para desagrupar!' },
+      qImpostor: { en: 'Is that ten? Count carefully!', de: 'Sind das wirklich zehn? Zähle genau!', fr: 'Ça fait vraiment dix ? Compte bien !', es: '¿Eso es diez? ¡Cuenta con cuidado!' },
+      qDecade: { en: 'Make {n} — all tens, no loose ones!', de: 'Mach {n} — nur Zehner, keine losen Einer!', fr: 'Fabrique {n} — que des dizaines, aucune unité seule !', es: 'Forma {n}: ¡puras decenas, sin unidades sueltas!' },
+      qReadState: { en: 'Bolt has {v} already — add ones to make {n}!', de: 'Bolt hat schon {v} — lege Einer dazu, um {n} zu machen!', fr: 'Bolt a déjà {v} — ajoute des unités pour faire {n} !', es: 'Bolt ya tiene {v}: ¡agrega unidades para formar {n}!' },
+      qOverfill: { en: 'Drop ones and bundle each ten!', de: 'Lege Einer hinein und bündle jeden Zehner!', fr: 'Mets les unités et groupe chaque dizaine !', es: '¡Suelta unidades y agrupa cada decena!' },
+      refuse: { en: "Not ten yet — keep counting!", de: 'Noch keine zehn — zähl weiter!', fr: 'Pas encore dix — continue de compter !', es: 'Todavía no son diez… ¡sigue contando!' },
+      overfill: { en: "Whoa, more than ten — bundle a ten first!", de: 'Oha, mehr als zehn — bündle zuerst einen Zehner!', fr: 'Oh là, plus de dix — groupe d’abord une dizaine !', es: '¡Uy, son más de diez! Primero agrupa una decena.' },
+      unbundled: { en: 'Un-bundled! Ten ones again.', de: 'Entbündelt! Wieder zehn Einer.', fr: 'Défait ! De nouveau dix unités seules.', es: '¡Desagrupada! Otra vez diez unidades.' },
+      bundled: { en: 'Ten ones make one ten! 🔧', de: 'Zehn Einer ergeben einen Zehner! 🔧', fr: 'Dix unités font une dizaine ! 🔧', es: '¡Diez unidades hacen una decena! 🔧' },
+      win: { en: '{w} — all bundled! 🧰', de: '{w} — alles gebündelt! 🧰', fr: '{w} — tout est groupé ! 🧰', es: '{w}: ¡todo agrupado! 🧰' },
+      tapCheck: { en: 'Tap Check! ✓', de: 'Tippe auf Prüfen! ✓', fr: 'Touche Vérifier ! ✓', es: '¡Toca Comprobar! ✓' },
+      ariaBar: { en: 'a ten — tap to un-bundle into ten ones', de: 'ein Zehner — tippe, um ihn in zehn Einer zu zerlegen', fr: 'une dizaine — touche pour la défaire en dix unités', es: 'una decena: toca para desagrupar en diez unidades' },
+      ariaCube: { en: 'a loose one — tap to take it back', de: 'ein loser Einer — tippe, um ihn zurückzunehmen', fr: 'une unité seule — touche pour la reprendre', es: 'una unidad suelta: toca para quitarla' }
     },
     defaults: {},
 
@@ -235,10 +247,10 @@
     },
     _pull: function () {
       var r = Core.pullLever(this.cstate);
-      if (r === 'refused') { this._mood = 'sheepish'; this.msg = this.api.t('refuse'); this.api.sound && this.api.sound(330); speak(LANG === 'de' ? 'noch nicht zehn' : LANG === 'fr' ? 'Pas encore dix' : 'not ten yet'); this.render(); return; }
+      if (r === 'refused') { this._mood = 'sheepish'; this.msg = this.api.t('refuse'); this.api.sound && this.api.sound(330); speak(LANG === 'de' ? 'noch nicht zehn' : LANG === 'fr' ? 'Pas encore dix' : LANG === 'es' ? 'todavía no son diez' : 'not ten yet'); this.render(); return; }
       // bundled (or overfill-bundled)
       this._newBar = true; this._mood = 'happy'; this.api.sound && this.api.sound(300); this.api.sound && setTimeout(this.api.sound.bind(null, 760), 90);
-      this.msg = this.api.t('bundled'); speak(LANG === 'de' ? 'Zehn Einer sind ein Zehner' : LANG === 'fr' ? 'Dix unités font une dizaine' : 'Ten ones make one ten');
+      this.msg = this.api.t('bundled'); speak(LANG === 'de' ? 'Zehn Einer sind ein Zehner' : LANG === 'fr' ? 'Dix unités font une dizaine' : LANG === 'es' ? 'Diez unidades hacen una decena' : 'Ten ones make one ten');
       if (Core.isSolved(this.cstate)) { this._win(); return; }
       this.render();
     },
@@ -253,10 +265,10 @@
       var api = this.api, whole = Core.value(this.cstate);
       this.solved = true;
       if (Core.firstAttemptCorrect(this.cstate)) this.solvedCount = Math.min(this.solvedCount + 1, (this._pool && this._pool.length) || 9);
-      var wd = numWord(whole); if (LANG === 'fr') wd = wd.charAt(0).toUpperCase() + wd.slice(1);
+      var wd = numWord(whole); if (LANG === 'fr' || LANG === 'es') wd = wd.charAt(0).toUpperCase() + wd.slice(1);
       this.msg = api.t('win').replace('{w}', wd);
       this.api.sound && this.api.sound(940); this.render(); this.announce(this.msg);
-      speak(wd + (LANG === 'de' ? ' — alles gebündelt' : LANG === 'fr' ? ' — tout est groupé' : ' — all bundled'));
+      speak(wd + (LANG === 'de' ? ' — alles gebündelt' : LANG === 'fr' ? ' — tout est groupé' : LANG === 'es' ? ' — todo agrupado' : ' — all bundled'));
     },
     _renderDone: function (root) {
       var api = this.api, n = (this._pool && this._pool.length) || 9;

@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "sharing-jar.make-fair.1-oa-d-8": {
+      "about": [
+        "Pim y Bo son dos amigos que juegan a llenar cuentas en dos frascos. Cada quien va metiendo sus cuentas, pero al final uno de los frascos queda más lleno que el otro, y ahí empieza la diversión: hay que descubrir el número que falta para que todo quede justo y parejo. Es una situación sencilla y concreta, con cantidades que nunca pasan de 12, para que tu peque razone sin presión.",
+        "A lo largo de la actividad, encontrar el número desconocido aparece de cinco maneras distintas: completar (¿cuántas le faltan a Pim para tener las mismas que Bo?), la diferencia (¿cuántas más tiene el frasco de Bo?), restaurar cuentas caídas (se cayeron unas, ¿cuántas se le regresan?), quitar hasta la meta (Pim tomó de más, ¿cuántas se regresan para que cada quien tenga lo mismo?) y el número inicial o problema inverso (Bo regaló unas y ahora le quedan otras, ¿cuántas tenía al principio?). Todas estas preguntas se resuelven con sumas y restas hasta 12, siempre con cuentas y frascos que se pueden ver y contar.",
+        "El aprendizaje central es determinar el número que falta o desconocido en relaciones de suma y resta. Pensada para primer grado (1.º de primaria, ~6–7 años), esta actividad acompaña los aprendizajes de los Planes y programas de estudio (SEP) dentro de la Nueva Escuela Mexicana. Y lo mejor: es gratis, funciona en el navegador, sin cronómetro ni puntos, para que cada quien avance a su propio ritmo."
+      ],
+      "practices": [
+        "Determinar el número que falta en una relación de suma o resta con cantidades hasta 12.",
+        "Comparar dos cantidades de cuentas y decir cuál es la diferencia entre los dos frascos.",
+        "Restaurar las cuentas que se cayeron y hallar el número inicial que tenía cada frasco (problema inverso).",
+        "Completar o quitar cuentas para que ambos frascos, el de Pim y el de Bo, tengan lo mismo."
+      ],
+      "howToPlay": [
+        "Mira cuántas cuentas tienen Pim y Bo en sus frascos y lee con calma la pregunta.",
+        "Piensa qué número falta: cuántas faltan, cuántas más hay, o cuántas cuentas había al principio.",
+        "Toca el número correcto del 0 al 10 y descubre si los frascos quedaron parejos."
+      ],
+      "learningGoals": [
+        "Determinar el número que falta en relaciones sencillas de suma y resta hasta 12, con apoyo de material concreto.",
+        "Entender el completar y los problemas inversos como estrategias, y descubrir que las cantidades se comparan y se restauran para hallar el número desconocido.",
+        "Vivir las matemáticas en una situación con sentido, como llenar frascos con Pim y Bo, y ganar confianza para hallar relaciones numéricas."
+      ]
+    },
     "tally-squirrel.add-four.2-nbt-b-6": {
       "about": [
         "Tally, la ardilla, es una recolectora incansable: cada otoño llena sus canastas de bellotas y las va acomodando por todo el bosque. En esta actividad, Tally junta 2, 3 o 4 canastas, y cada una lleva una etiqueta con un número de dos cifras, como 23, 14 u 11. La niña o el niño solo tiene que sumar todas las canastas y escribir el total.",

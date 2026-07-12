@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "shapeforge.compose.1-g-a-2": {
+      "about": [
+        "En este juego gratuito, Mim el zorro forja luz con figuras. El niño elige una pieza brillante —un triángulo o un rombo—, la gira y la coloca dentro de una linterna vacía hasta llenarla por completo, sin dejar huecos ni encimar las piezas.",
+        "Aquí se descubre una idea grande de la geometría: las figuras se componen de otras más pequeñas, y una misma figura se puede armar de varias maneras. Por ejemplo, un hexágono se forma con 6 triángulos o con 3 rombos, y después esas mismas piezas se pueden recombinar para crear una figura nueva.",
+        "La actividad acompaña el aprendizaje de la geometría en 1º de primaria dentro del eje Forma, espacio y medida de los planes y programas de estudio de la SEP, y fortalece el sentido espacial de una forma cálida, sin prisas y sin calificaciones."
+      ],
+      "practices": [
+        "Armar figuras planas más grandes uniendo triángulos y rombos",
+        "Girar las piezas y acomodarlas sin dejar huecos ni encimarlas",
+        "Descubrir que una misma figura se puede armar de varias formas",
+        "Reconocer y nombrar figuras: triángulo, rombo y hexágono"
+      ],
+      "howToPlay": [
+        "Elige una pieza brillante del costado: un triángulo o un rombo.",
+        "Gírala para acomodarla y colócala dentro de la linterna vacía.",
+        "Sigue uniendo piezas hasta llenar toda la figura, sin huecos ni encimadas."
+      ],
+      "learningGoals": [
+        "Comprender que las figuras grandes se componen de figuras más pequeñas y volver a separarlas.",
+        "Desarrollar el sentido espacial al girar y acomodar piezas dentro de un contorno.",
+        "Explorar la geometría del eje Forma, espacio y medida al armar y recomponer figuras."
+      ]
+    },
     "skipcount.fill.2-nbt-a-2": {
       "about": [
         "Hopper la rana cruza el estanque brincando de un nenúfar a otro, y en cada brinco el número crece o disminuye siempre la misma cantidad. Tu peque lee los nenúfares numerados, sigue el patrón y toca el número que va en el nenúfar vacío.",

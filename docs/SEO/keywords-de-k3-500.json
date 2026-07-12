@@ -1,0 +1,4024 @@
+{
+ "locale": "de",
+ "generated": "2026-07-12",
+ "method": "10 parallel native-German keyword web-research agents (one per demand segment: SERP-title observation + competitor category trees grundschulkoenig/materialguru/grundschule-arbeitsblaetter/kribbelbunt/raetseldino/eduki/4teachers/wegerer/betzold + related-searches), consolidated + deduped (790 unique raw) + cross-validated against docs/SEO/harvests/de.json (2,367 google.de autocomplete uniques, 2026-07-06), curated to exactly 500. Base keywords for the LATER long-tail-formation step — not yet applied to any page.",
+ "stats": {
+  "raw": 790,
+  "final": 500,
+  "autocompleteConfirmed": 143
+ },
+ "segments": {
+  "daz-mehrsprachig": 30,
+  "deutsch-erstlesen": 64,
+  "deutsch-schreiben-grammatik": 54,
+  "lehrer-register": 25,
+  "logik-wahrnehmung": 67,
+  "mathe-klasse-1-3": 72,
+  "mathe-vorschule": 63,
+  "modifikatoren-formate": 39,
+  "sachunterricht": 53,
+  "saisonal-feste": 33
+ },
+ "keywords": [
+  {
+   "kw": "präpositionen arbeitsblätter",
+   "segment": "daz-mehrsprachig",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "islcollective \"373 präpositionen daf arbeitsblätter\", schule.at"
+  },
+  {
+   "kw": "deutsch als zweitsprache",
+   "segment": "daz-mehrsprachig",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "bildungsserver-elixier-kategorie, kohl/persen-rubriken"
+  },
+  {
+   "kw": "deutsch lernen kinder",
+   "segment": "daz-mehrsprachig",
+   "intent": "topic",
+   "register": "eltern",
+   "autocompleteConfirmed": true,
+   "evidence": "schule-bw \"kinder lernen deutsch. materialien und tipps\""
+  },
+  {
+   "kw": "colours arbeitsblätter",
+   "segment": "daz-mehrsprachig",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkönig \"colours / farben\", materialguru, sivakids"
+  },
+  {
+   "kw": "adhs arbeitsblätter",
+   "segment": "daz-mehrsprachig",
+   "intent": "topic",
+   "register": "eltern",
+   "autocompleteConfirmed": false,
+   "evidence": "adhasi.de \"adhs arbeitsblätter kostenlos ausdrucken – 30 übungsblätter\""
+  },
+  {
+   "kw": "daz material grundschule",
+   "segment": "daz-mehrsprachig",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "exakter seitentitel wunderwelten.net"
+  },
+  {
+   "kw": "daf daz grundschule",
+   "segment": "daz-mehrsprachig",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "rubriken übungskönig, lehrerwelt, verlag an der ruhr"
+  },
+  {
+   "kw": "sprachförderung",
+   "segment": "daz-mehrsprachig",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "kategorie bei donbosco, audon, wunderwelten"
+  },
+  {
+   "kw": "sprachförderung kita",
+   "segment": "daz-mehrsprachig",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "pro-kita, lugert-verlag, kindergartenakademie serp-titel"
+  },
+  {
+   "kw": "sprachförderung kindergarten",
+   "segment": "daz-mehrsprachig",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "forum-verlag, sprachküchin seitentitel"
+  },
+  {
+   "kw": "sprachförderung grundschule",
+   "segment": "daz-mehrsprachig",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "wunderwelten \"daz material grundschule – sprachförderung\""
+  },
+  {
+   "kw": "wortschatzarbeit",
+   "segment": "daz-mehrsprachig",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "twinkl-kategorie"
+  },
+  {
+   "kw": "daz erste wörter",
+   "segment": "daz-mehrsprachig",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "lesejule \"150 erste wörter aus dem alltag\", twinkl"
+  },
+  {
+   "kw": "alphabetisierung daz",
+   "segment": "daz-mehrsprachig",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "schlau-lernen \"alphabetisierung daz: kostenloses material\""
+  },
+  {
+   "kw": "daz grammatik",
+   "segment": "daz-mehrsprachig",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "übungskönig rubrik \"daz/daf: grammatik\""
+  },
+  {
+   "kw": "satzbau übungen",
+   "segment": "daz-mehrsprachig",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "übungskönig + schule.at rubrik \"satzbau\""
+  },
+  {
+   "kw": "sprachstandserhebung",
+   "segment": "daz-mehrsprachig",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "daz-portal rubrik, lise-daz, sfd-verfahren"
+  },
+  {
+   "kw": "lernstandserhebung deutsch",
+   "segment": "daz-mehrsprachig",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "cornelsen \"lernstandserhebung für deutsch\", grundschulmaterial.de-rubrik"
+  },
+  {
+   "kw": "bilinguale grundschule",
+   "segment": "daz-mehrsprachig",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "isb-bayern \"bilinguale grundschule englisch – lernen in zwei sprachen\""
+  },
+  {
+   "kw": "bildwörterbuch ukrainisch deutsch",
+   "segment": "daz-mehrsprachig",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "pons/veritas-produkttitel; kostenloses bildwörterbuch (einfachstars)"
+  },
+  {
+   "kw": "bildwörterbuch türkisch deutsch",
+   "segment": "daz-mehrsprachig",
+   "intent": "topic",
+   "register": "eltern",
+   "autocompleteConfirmed": false,
+   "evidence": "veritas/thalia-produkttitel"
+  },
+  {
+   "kw": "deutsch arabisch kinder",
+   "segment": "daz-mehrsprachig",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "twinkl deutsch-arabische materialien, hueber-glossare, schulbibo"
+  },
+  {
+   "kw": "mehrsprachiges vorlesen",
+   "segment": "daz-mehrsprachig",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "friedrich-verlag \"mulingula – mehrsprachiges vorlesen in der grundschule\""
+  },
+  {
+   "kw": "herkunftssprachlicher unterricht",
+   "segment": "daz-mehrsprachig",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "schauhör-verlag kategorie"
+  },
+  {
+   "kw": "mehrsprachigkeit grundschule",
+   "segment": "daz-mehrsprachig",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "friedrich-verlag rubrik"
+  },
+  {
+   "kw": "englisch grundschule",
+   "segment": "daz-mehrsprachig",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkönig + grundschule-arbeitsblaetter.de hauptrubriken"
+  },
+  {
+   "kw": "englisch 3. klasse",
+   "segment": "daz-mehrsprachig",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "eigene seiten grundschule-arbeitsblaetter.de, klassenarbeiten.de"
+  },
+  {
+   "kw": "englisch vokabeln grundschule",
+   "segment": "daz-mehrsprachig",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulstoff.de \"vokabeln im englischunterricht\""
+  },
+  {
+   "kw": "farben auf englisch",
+   "segment": "daz-mehrsprachig",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschule-arbeitsblaetter.de/englisch/farben"
+  },
+  {
+   "kw": "zahlen englisch grundschule",
+   "segment": "daz-mehrsprachig",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "pinterest-ideenseite, grundschulmaterial.de \"numbers\""
+  },
+  {
+   "kw": "buchstaben erkennen",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "vorschulkids, grundschulkoenig vorschule"
+  },
+  {
+   "kw": "anlaute",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkoenig kategorie \"anlaute\""
+  },
+  {
+   "kw": "anlaute hören",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "diegrundschultante blogtitel \"anlaute hören\""
+  },
+  {
+   "kw": "laute hören",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkoenig \"vorübungen zum lesen: laute hören\""
+  },
+  {
+   "kw": "laute erkennen",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkoenig untertopic, twinkl"
+  },
+  {
+   "kw": "silben",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "kategorie grundschule-arbeitsblaetter.de/deutsch/silben"
+  },
+  {
+   "kw": "reime",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "kategorien grundschule-arbeitsblaetter, materialguru"
+  },
+  {
+   "kw": "lesen lernen",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "eduki-kategorie \"lesen lernen\", kleineschule"
+  },
+  {
+   "kw": "buchstabensalat",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "kategorien materialguru, grundschule-arbeitsblaetter"
+  },
+  {
+   "kw": "arbeitsblätter buchstaben",
+   "segment": "deutsch-erstlesen",
+   "intent": "format",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "kategorie materialguru.de/deutsch/buchstaben"
+  },
+  {
+   "kw": "anlaute arbeitsblätter",
+   "segment": "deutsch-erstlesen",
+   "intent": "format",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "lerntagebuch-shop, lernstübchen suchtag"
+  },
+  {
+   "kw": "lesen lernen arbeitsblätter",
+   "segment": "deutsch-erstlesen",
+   "intent": "format",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "eduki \"arbeitsblätter zum lesen lernen 1. klasse\""
+  },
+  {
+   "kw": "buchstaben lernen",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "serp-titel kleineschule.com.de, grundschule-arbeitsblaetter.de"
+  },
+  {
+   "kw": "buchstaben schreiben lernen",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "maxklug, kleineschule, weltderbuchstaben"
+  },
+  {
+   "kw": "buchstaben nachspuren",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "baumhausbande, helpfully.de ab-titel"
+  },
+  {
+   "kw": "erste buchstaben",
+   "segment": "deutsch-erstlesen",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig.de/vorschule/erste-buchstaben"
+  },
+  {
+   "kw": "buchstaben vorschule",
+   "segment": "deutsch-erstlesen",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschule-arbeitsblaetter.de/vorschule/buchstaben"
+  },
+  {
+   "kw": "buchstabeneinführung",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "abenteuer-grundschule.com kategorie"
+  },
+  {
+   "kw": "schwungübungen vorschule",
+   "segment": "deutsch-erstlesen",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "gutemama.de, grundschule-arbeitsblaetter vorschule"
+  },
+  {
+   "kw": "abc lernen",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig.de/abc, kleineschule"
+  },
+  {
+   "kw": "alphabet lernen",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "materialguru \"abc / alphabet lernen\""
+  },
+  {
+   "kw": "abc reihenfolge",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "schlaukopf \"alphabet (reihenfolge)\", materialguru-übungen"
+  },
+  {
+   "kw": "das abc",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "klassenarbeiten.de übungsblatt \"das abc\", maxklug"
+  },
+  {
+   "kw": "anfangslaute",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "lernstübchen tag \"anfangslaute abhören\""
+  },
+  {
+   "kw": "anlaut inlaut auslaut",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "auer \"an-, in- und auslaute\", grundschultante"
+  },
+  {
+   "kw": "auslaute",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "twinkl \"anlaute und auslaute erkennen\""
+  },
+  {
+   "kw": "lautschulung",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "wegerer.at kategorie \"lautschulung\""
+  },
+  {
+   "kw": "vorübungen zum lesen",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig kategoriename"
+  },
+  {
+   "kw": "phonologische bewusstheit",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "maxklug-kategorie, auer, persen"
+  },
+  {
+   "kw": "silben klatschen",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "eigene kategorie grundschule-arbeitsblaetter, pinterest-ideas-hub"
+  },
+  {
+   "kw": "silben schwingen",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "lerntagebuch \"silbenschwingen vorschule klasse 1\""
+  },
+  {
+   "kw": "silbenbögen",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "worksheetcrafter, zaubereinmaleins"
+  },
+  {
+   "kw": "silbenbögen einzeichnen",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschule-arbeitsblaetter ab-titel"
+  },
+  {
+   "kw": "silben lesen",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulmaterial \"erste wörter in silben lesen\", wegerer"
+  },
+  {
+   "kw": "silben zählen",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "materialguru silbentrennungs-übungen"
+  },
+  {
+   "kw": "silbentrennung klasse 1",
+   "segment": "deutsch-erstlesen",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig.de/deutsch/1-klasse/silbentrennung"
+  },
+  {
+   "kw": "silbenmethode",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "druckeselbst \"silbenmethode 1. klasse\""
+  },
+  {
+   "kw": "silben vorschule",
+   "segment": "deutsch-erstlesen",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschule-arbeitsblaetter.de/vorschule/silben"
+  },
+  {
+   "kw": "reimwörter",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig \"reime / reimwörter\" 2. klasse"
+  },
+  {
+   "kw": "reime vorschule",
+   "segment": "deutsch-erstlesen",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "vorschulkids.de \"reime vorschule\""
+  },
+  {
+   "kw": "reime finden",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "eduki/grundschul-blog reimwörter-materialtitel"
+  },
+  {
+   "kw": "erstlesen",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "materialguru-kategorie \"erstlesen\", bildungsportal-nds"
+  },
+  {
+   "kw": "erstes lesen",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig-kategorie \"erstes lesen\""
+  },
+  {
+   "kw": "anfangsunterricht deutsch",
+   "segment": "deutsch-erstlesen",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "lernbiene-kategorie, eduki-pfad \"anfangsunterricht\""
+  },
+  {
+   "kw": "leseanfänger",
+   "segment": "deutsch-erstlesen",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "lern-tagebuch \"für erstleser und leseanfänger\""
+  },
+  {
+   "kw": "erste wörter lesen",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulmaterial-fibel fördermaterial"
+  },
+  {
+   "kw": "erste wörter",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig \"erste wörter / lernwörter\""
+  },
+  {
+   "kw": "lernwörter klasse 1",
+   "segment": "deutsch-erstlesen",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig-themenliste, lernwolf"
+  },
+  {
+   "kw": "lautgetreue wörter",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "lernbiene \"übungen an lautgetreuen wörtern\", schulportal"
+  },
+  {
+   "kw": "blitzlesen",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "kategorien materialguru, grundschulkoenig, übungskönig"
+  },
+  {
+   "kw": "lesetempo aufbauen",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig unterkategorie"
+  },
+  {
+   "kw": "wörter bildern zuordnen",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulmaterial \"bildern-wörter-zuordnen\""
+  },
+  {
+   "kw": "erste sätze lesen",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "lernwolf/grundschulkoenig \"erste sätze\""
+  },
+  {
+   "kw": "purzelwörter",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "landkind, grundschulmaterial (lautgetreue wörter verschriften)"
+  },
+  {
+   "kw": "lesetexte klasse 1",
+   "segment": "deutsch-erstlesen",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "fraulocke \"33 leseblätter\", zebrafanclub"
+  },
+  {
+   "kw": "lesetexte klasse 2",
+   "segment": "deutsch-erstlesen",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "materialguru/grundschule-arbeitsblaetter 2. klasse"
+  },
+  {
+   "kw": "leseverständnis klasse 2",
+   "segment": "deutsch-erstlesen",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "klassenarbeiten.de kategorie"
+  },
+  {
+   "kw": "leseverstehen",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "twinkl-kategorie \"leseverstehen 1./2. klasse\""
+  },
+  {
+   "kw": "lesen und verstehen",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig + materialguru kategoriename"
+  },
+  {
+   "kw": "sinnerfassendes lesen",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig \"sinnerfassendes lesen\", lernwolf"
+  },
+  {
+   "kw": "lesen und malen",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig-kategorie, frau locke tag"
+  },
+  {
+   "kw": "leseförderung",
+   "segment": "deutsch-erstlesen",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "tilde-edition \"material zur leseförderung\""
+  },
+  {
+   "kw": "hörverstehen klasse 1",
+   "segment": "deutsch-erstlesen",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig-kategorie \"hörverstehen\""
+  },
+  {
+   "kw": "daz lesetexte",
+   "segment": "deutsch-erstlesen",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "twinkl \"daz-lesetexte 1./2. klasse\", eduki-tags"
+  },
+  {
+   "kw": "vorschule arbeitsblätter",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulheld.de + kleineschule vorschul-sektionen"
+  },
+  {
+   "kw": "buchstaben schreiben",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "twinkl \"buchstaben schreiben 1./2. klasse\""
+  },
+  {
+   "kw": "silbentrennung",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkönig klasse 1 \"silben und silbentrennung\""
+  },
+  {
+   "kw": "i oder ie",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "url grundschulkönig /rechtschreibung/i-oder-ie/"
+  },
+  {
+   "kw": "ss oder ß",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "eduki rechtschreibheft \"ss oder ß\""
+  },
+  {
+   "kw": "wortarten",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "kategorien grundschulkönig klasse-2 + materialguru"
+  },
+  {
+   "kw": "wortarten bestimmen",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "wegerer vs-material \"wortarten bestimmen\""
+  },
+  {
+   "kw": "nomen verben adjektive",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "schulportal-suchanfragen + eduki \"fit in den wortarten\""
+  },
+  {
+   "kw": "einzahl mehrzahl",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkönig /2-klasse/einzahl-mehrzahl/, wegerer, lernstübchen"
+  },
+  {
+   "kw": "zusammengesetzte nomen",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkönig eigene seite + klassenarbeiten.de klasse 3"
+  },
+  {
+   "kw": "wortfamilien",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkönig /3-klasse/wortfamilie/ + klassenarbeiten.de"
+  },
+  {
+   "kw": "wortstamm",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "lernziel \"wortstämme erkennen\" in wortfamilien-material"
+  },
+  {
+   "kw": "zeitformen",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschule-arbeitsblaetter /zeitformen/"
+  },
+  {
+   "kw": "satzzeichen",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschule-arbeitsblaetter /satzzeichen/, frau locke"
+  },
+  {
+   "kw": "wörtliche rede",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "abschreibtexte-lerninhalt \"korrekte anwendung der wörtlichen rede\""
+  },
+  {
+   "kw": "linien nachspuren",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "vorschulkids.de beschreibung \"linien nachspuren\""
+  },
+  {
+   "kw": "muster nachfahren",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "eltern",
+   "autocompleteConfirmed": false,
+   "evidence": "vorschulkids.de \"muster nachfahren\" als übungsform"
+  },
+  {
+   "kw": "feinmotorik übungen",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulmaterial.de kategorie \"feinmotorik und schreiben\""
+  },
+  {
+   "kw": "graphomotorik",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "gutemama/vorschulkids beschreibungstexte \"graphomotorik stärken\""
+  },
+  {
+   "kw": "vorschulübungen",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "level",
+   "register": "eltern",
+   "autocompleteConfirmed": false,
+   "evidence": "wortgewitzt \"100+ vorschulübungen für kita oder vorschule\""
+  },
+  {
+   "kw": "abc schreiben",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "eltern",
+   "autocompleteConfirmed": false,
+   "evidence": "kleineschule abc-schreiben.html"
+  },
+  {
+   "kw": "druckschrift",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "materialguru /deutsch/druckschrift/"
+  },
+  {
+   "kw": "druckschrift üben",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "twinkl \"druckschrift-übungen zum ausdrucken\""
+  },
+  {
+   "kw": "grundschrift",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkönig /buchstaben-schriften/grundschrift/"
+  },
+  {
+   "kw": "schreibschrift üben",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "eigene domain schreibschrift-üben.de"
+  },
+  {
+   "kw": "vereinfachte ausgangsschrift",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkönig kategorie klasse 1"
+  },
+  {
+   "kw": "handschrift trainieren",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "zebrafanclub \"handschrift trainieren mit arbeitsblättern\""
+  },
+  {
+   "kw": "schreiben lernen",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "kleineschule \"schreiben lernen für kinder\""
+  },
+  {
+   "kw": "erstes schreiben",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "twinkl-kategorie \"erstes schreiben\""
+  },
+  {
+   "kw": "abschreibtexte klasse 2",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "serp grundschulearbeitsblatter.com klasse-2"
+  },
+  {
+   "kw": "sätze schreiben",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "lernstübchen-suchkategorie \"sätze schreiben\""
+  },
+  {
+   "kw": "erste sätze",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkönig klasse-1 themenliste \"erste sätze\""
+  },
+  {
+   "kw": "diktate klasse 2",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "diktate-grundschule.de + diktatheld /klasse-2"
+  },
+  {
+   "kw": "diktate grundschule",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "domain diktate-grundschule.de"
+  },
+  {
+   "kw": "lernwörter",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "lernwolf klasse 2 \"lernwörter\", diktatheld"
+  },
+  {
+   "kw": "lernwörter üben",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "eltern",
+   "autocompleteConfirmed": false,
+   "evidence": "diktatheld \"mit eigenen lernwörtern üben\""
+  },
+  {
+   "kw": "rechtschreibung üben",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkönig rechtschreib-sektion, levrai"
+  },
+  {
+   "kw": "rechtschreibung grundschule",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "serp-titel grundschulkönig + grundschule-arbeitsblaetter"
+  },
+  {
+   "kw": "groß- und kleinschreibung",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "kategorien grundschulkönig, übungskönig, aduis"
+  },
+  {
+   "kw": "wörter mit ie",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkönig \"i oder ie\" (ie = langes i)"
+  },
+  {
+   "kw": "doppelte konsonanten",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkönig /rechtschreibung/doppelte-konsonanten/"
+  },
+  {
+   "kw": "doppelkonsonanten",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "eduki-kategorie + arbeitsblaetter-deutsch.de klasse 3"
+  },
+  {
+   "kw": "dehnungs-h",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkönig /rechtschreibung/dehnungs-h/"
+  },
+  {
+   "kw": "g oder k",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "url grundschulkönig /auslaute/g-oder-k/"
+  },
+  {
+   "kw": "b oder p",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkönig auslaut-reihe (b/p, d/t, g/k)"
+  },
+  {
+   "kw": "d oder t",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkönig auslaut-reihe"
+  },
+  {
+   "kw": "au oder äu",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "catlux diktat-themen \"au und äu\""
+  },
+  {
+   "kw": "nomen und artikel",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "übungskönig \"nomen und ihre artikel\""
+  },
+  {
+   "kw": "zeitformen klasse 3",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "nachhilfevomlehrer /klasse-3/zeitformen/"
+  },
+  {
+   "kw": "zeitformen von verben",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "klassenarbeiten.de wortlehre"
+  },
+  {
+   "kw": "vergangenheitsformen",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "klassenarbeiten.de übungsblatt klasse 3"
+  },
+  {
+   "kw": "satzarten",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkönig /2-klasse/satzarten/"
+  },
+  {
+   "kw": "satzarten und satzzeichen",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkönig klasse-3 + eduki arbeitsblatt"
+  },
+  {
+   "kw": "wortschatz übungen",
+   "segment": "deutsch-schreiben-grammatik",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "wortschatz-treffer (kohlverlag, unterrichtsmaterial-schule)"
+  },
+  {
+   "kw": "arbeitsblätter grundschule",
+   "segment": "lehrer-register",
+   "intent": "format",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "eigene portale (grundschule-arbeitsblaetter.de, materialguru)"
+  },
+  {
+   "kw": "daz arbeitsblätter",
+   "segment": "lehrer-register",
+   "intent": "format",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulmaterial.de daz-gratismaterial"
+  },
+  {
+   "kw": "unterrichtseinheit",
+   "segment": "lehrer-register",
+   "intent": "format",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "eduki vorlagen-titel"
+  },
+  {
+   "kw": "arbeitsheft",
+   "segment": "lehrer-register",
+   "intent": "format",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "hugendubel/amazon gattungstitel"
+  },
+  {
+   "kw": "einmaleins arbeitsblätter",
+   "segment": "lehrer-register",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulmaterial vielfachtest/einmaleins-pfad"
+  },
+  {
+   "kw": "differenzierung",
+   "segment": "lehrer-register",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "niekao hauptkategorie, friedrich-verlag magazin"
+  },
+  {
+   "kw": "lernzielkontrollen mathematik",
+   "segment": "lehrer-register",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "catlux pfad \"lernzielkontrollen/proben mathematik\""
+  },
+  {
+   "kw": "anfangsunterricht",
+   "segment": "lehrer-register",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "kohl-verlag rubrik, lernbiene kategoriename"
+  },
+  {
+   "kw": "zahlenraum bis 20",
+   "segment": "lehrer-register",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "wiederkehrende titelfacette (thalia, niekao klasse 1)"
+  },
+  {
+   "kw": "sachaufgaben",
+   "segment": "lehrer-register",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "klassenarbeits-themenlisten (schulkreis)"
+  },
+  {
+   "kw": "klassenarbeit mathe klasse 2",
+   "segment": "lehrer-register",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "schulkreis seitentitel"
+  },
+  {
+   "kw": "unterrichtsmaterial grundschule",
+   "segment": "lehrer-register",
+   "intent": "format",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "kategorie auf bildungsserver.de, eduki, carlsen"
+  },
+  {
+   "kw": "kopiervorlagen",
+   "segment": "lehrer-register",
+   "intent": "format",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "rubrik bei kohl-verlag, arbeitsblaetter-online.de"
+  },
+  {
+   "kw": "kopiervorlagen grundschule",
+   "segment": "lehrer-register",
+   "intent": "format",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "schule-studium.de kategoriepfad"
+  },
+  {
+   "kw": "übungsblätter grundschule",
+   "segment": "lehrer-register",
+   "intent": "format",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "niekao.de shop-untertitel"
+  },
+  {
+   "kw": "inklusion unterrichtsmaterial",
+   "segment": "lehrer-register",
+   "intent": "format",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "lehrer-online dossier, verlagruhr rubrik"
+  },
+  {
+   "kw": "montessori arbeitsblätter",
+   "segment": "lehrer-register",
+   "intent": "format",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "montessori-shop gratis-pdf-rubrik"
+  },
+  {
+   "kw": "jahreszeiten material",
+   "segment": "lehrer-register",
+   "intent": "seasonal",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "zaubereinmaleins \"jahreszeiten-monate-wochentage\""
+  },
+  {
+   "kw": "monate wochentage",
+   "segment": "lehrer-register",
+   "intent": "seasonal",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "zaubereinmaleins materialpost"
+  },
+  {
+   "kw": "sankt martin grundschule",
+   "segment": "lehrer-register",
+   "intent": "seasonal",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "ideenreise leporello \"sankt martin\""
+  },
+  {
+   "kw": "arbeitsmaterialien",
+   "segment": "lehrer-register",
+   "intent": "format",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "4teachers hauptrubrik"
+  },
+  {
+   "kw": "freiarbeit grundschule",
+   "segment": "lehrer-register",
+   "intent": "format",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "wunderwelten seitentitel"
+  },
+  {
+   "kw": "freiarbeitsmaterial",
+   "segment": "lehrer-register",
+   "intent": "format",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "betzold-kategorie, wunderwelten shopname"
+  },
+  {
+   "kw": "stationsarbeit",
+   "segment": "lehrer-register",
+   "intent": "format",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "eduki materialtitel \"stationenarbeit klasse 3 4\""
+  },
+  {
+   "kw": "stationenlernen",
+   "segment": "lehrer-register",
+   "intent": "format",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "4teachers rubrik \"stationenlernen/lernzirkel\""
+  },
+  {
+   "kw": "sudoku für kinder",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "serp-titel raetseldino.de, grundschule-arbeitsblaetter.de"
+  },
+  {
+   "kw": "bilder sudoku",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "kleineschule.com.de \"bildersudoku\", sudokuzok.de \"sudoku mit bildern\""
+  },
+  {
+   "kw": "visuelle wahrnehmung kindergarten",
+   "segment": "logik-wahrnehmung",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "kigaportal.com kategorie \"wahrnehmung\""
+  },
+  {
+   "kw": "rätsel für kinder",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkoenig.de, kinder-malvorlagen.com kategorie"
+  },
+  {
+   "kw": "rätsel grundschule",
+   "segment": "logik-wahrnehmung",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschule-arbeitsblaetter.de/raetsel kategorie"
+  },
+  {
+   "kw": "logikrätsel kinder",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "mintuitiv.de, kleineschule.com.de serp-titel"
+  },
+  {
+   "kw": "kreuzworträtsel kinder",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "raetseldino.de, buchstaben.com serp-titel"
+  },
+  {
+   "kw": "kreuzworträtsel grundschule",
+   "segment": "logik-wahrnehmung",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "raetseldino.de \"grundschule 1. klasse\", hofgartenschule.de"
+  },
+  {
+   "kw": "was passt nicht dazu",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "gutemama.de \"was passt nicht dazu?\""
+  },
+  {
+   "kw": "schatten zuordnen arbeitsblatt",
+   "segment": "logik-wahrnehmung",
+   "intent": "format",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "wunderkiddy.com, kigaportal.com"
+  },
+  {
+   "kw": "visuelle wahrnehmung arbeitsblätter",
+   "segment": "logik-wahrnehmung",
+   "intent": "format",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "materialwerkstatt-blog.de, eduki.com produkttitel"
+  },
+  {
+   "kw": "sudoku zum ausdrucken",
+   "segment": "logik-wahrnehmung",
+   "intent": "format",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "serp-titel malvorlagen-bilder.de \"kinder sudoku zum ausdrucken\""
+  },
+  {
+   "kw": "kinder sudoku",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "serp-titel malvorlagen-bilder.de, grundschule-arbeitsblaetter.de"
+  },
+  {
+   "kw": "sudoku mit bildern",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "serp-titel kleineschule.com.de, sudokuzok.de"
+  },
+  {
+   "kw": "kinder sudoku 4x4",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "arbeitsblatt-titel grundschule-arbeitsblaetter.de"
+  },
+  {
+   "kw": "sudoku grundschule",
+   "segment": "logik-wahrnehmung",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "kategorie grundschule-arbeitsblaetter.de/raetsel/sudoku"
+  },
+  {
+   "kw": "sudoku vorschule",
+   "segment": "logik-wahrnehmung",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig.de vorschule \"sudoku und suchsel\""
+  },
+  {
+   "kw": "mini sudoku",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "raetseldino.de \"sudokus für kinder – mini sudoku\""
+  },
+  {
+   "kw": "labyrinth kinder",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "serp-titel kleineschule.com.de, kidipage.com"
+  },
+  {
+   "kw": "labyrinthe für kinder",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "kategorie grundschule-arbeitsblaetter.de, schule-und-familie.de"
+  },
+  {
+   "kw": "labyrinth rätsel",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "raetseldino.de kategorie \"labyrinth rätsel\""
+  },
+  {
+   "kw": "irrgarten kinder",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "kinder-malvorlagen.com \"irrgarten-vorlagen zum ausdrucken\""
+  },
+  {
+   "kw": "fehlersuchbilder",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "kategorie raetseldino.de, grundschule-arbeitsblaetter.de"
+  },
+  {
+   "kw": "fehlerbilder kinder",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "malvorlagen-seite.de \"fehlerbilder für kinder\""
+  },
+  {
+   "kw": "finde die fehler",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "malvorlagen-seite.de \"finde die fehler\""
+  },
+  {
+   "kw": "unterschiede finden",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "kinder-malvorlagen.com \"vorlagen unterschiede finden\""
+  },
+  {
+   "kw": "finde die unterschiede",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "malvorlagen-seite.de \"fehlerbild – finde die unterschiede\""
+  },
+  {
+   "kw": "suchbilder kinder",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "pinterest-sammlungen, schule-und-familie.de kategorie"
+  },
+  {
+   "kw": "wimmelbild kindergarten",
+   "segment": "logik-wahrnehmung",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "lerntagebuch-shop.de (kiga/vorschule/klasse 1-2), schule.at"
+  },
+  {
+   "kw": "wimmelbilder grundschule",
+   "segment": "logik-wahrnehmung",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "zaubereinmaleins-shop, abcund123.de sammlung"
+  },
+  {
+   "kw": "schattenbilder zuordnen",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "kiwole.de, lerntagebuch-shop.de serp-titel"
+  },
+  {
+   "kw": "schattenrätsel",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschule-arbeitsblaetter.de kategorie \"schattenrätsel\""
+  },
+  {
+   "kw": "finde das schattenbild",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "montessori-material.de produkttitel"
+  },
+  {
+   "kw": "konzentrationsübungen kinder",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "materialguru.de, zeitblueten.com serp-titel"
+  },
+  {
+   "kw": "konzentrationsübungen grundschule",
+   "segment": "logik-wahrnehmung",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "sivakids.de, grundschule-arbeitsblaetter.de"
+  },
+  {
+   "kw": "konzentrationsübungen vorschule",
+   "segment": "logik-wahrnehmung",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "kleineschule.com.de (vorschule + grundschule)"
+  },
+  {
+   "kw": "konzentrationstraining",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "bildungsserver.de elixier suchfeld"
+  },
+  {
+   "kw": "konzentrationsaufgaben kinder",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "gutemama.de \"konzentrationsaufgabe für kinder\""
+  },
+  {
+   "kw": "aufmerksamkeitstraining kinder",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "adhs-broschüre, therapie-/fördermaterial-kontexte"
+  },
+  {
+   "kw": "wahrnehmungsübungen kinder",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "kleineschule.com.de \"wahrnehmungstraining\""
+  },
+  {
+   "kw": "wahrnehmungstraining",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "kleineschule.com.de url/seitentitel"
+  },
+  {
+   "kw": "figur-grund-wahrnehmung",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "persen/lehrerwelt.de, materialwerkstatt-blog.de, gutemama.de"
+  },
+  {
+   "kw": "formkonstanz",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "gutemama.de \"formkonstanz – visuelle wahrnehmung\""
+  },
+  {
+   "kw": "auge-hand-koordination",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulmaterial.de arbeitsblatt-kategorie"
+  },
+  {
+   "kw": "bilderpuzzle",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "raetseldino.de \"bilderpuzzle für kinder\""
+  },
+  {
+   "kw": "paare finden",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "memory-spielprinzip; abcund123 aufgabentyp \"finde die paare!\""
+  },
+  {
+   "kw": "memo-spiel",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "kinder-malvorlagen.com \"memo-spiel ausdrucken memokarten\""
+  },
+  {
+   "kw": "logisches denken kinder",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "gutemama.de \"logisches denken\", pinterest-ideenseite"
+  },
+  {
+   "kw": "gitterbilder",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulmaterial.de kategorie, kleineschule.com.de"
+  },
+  {
+   "kw": "zeichendiktat",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "gutemama.de, grundschulmaterial.de \"gespiegeltes zeichendiktat\""
+  },
+  {
+   "kw": "knobelaufgaben kinder",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "raetseldino.de, betzold.de blog"
+  },
+  {
+   "kw": "knobelaufgaben grundschule",
+   "segment": "logik-wahrnehmung",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "schulkreis.de \"grundschule klasse 2,3,4\""
+  },
+  {
+   "kw": "denksportaufgaben kinder",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschule-arbeitsblaetter.de, stopkidsmagazin.de"
+  },
+  {
+   "kw": "kinderrätsel",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "betzold.de, malvorlagen-bilder.de seitentitel"
+  },
+  {
+   "kw": "logicals grundschule",
+   "segment": "logik-wahrnehmung",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "wunderwelten.net, grundschulkoenig.de kategorie"
+  },
+  {
+   "kw": "logikgitter",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "kleineschule.com.de \"logikgitter als pdf\""
+  },
+  {
+   "kw": "bilderrätsel",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "raetseldino.de kategorie, raetselstunde.de (300+)"
+  },
+  {
+   "kw": "bilderrätsel kinder",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "kinderbuch-detektive.de, kleineschule.com.de"
+  },
+  {
+   "kw": "rebus rätsel",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "raetseldino.de, kleineschule.com.de \"rebus-rätsel für kinder\""
+  },
+  {
+   "kw": "kinderkreuzworträtsel",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "raetseldino.de, malvorlagen-bilder.de seitentitel"
+  },
+  {
+   "kw": "kreuzworträtsel mit bildern",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "kleineschule.com.de \"kinder-kreuzworträtsel mit bildern\""
+  },
+  {
+   "kw": "suchsel",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "suchsel.net, materialguru.de kategorie \"suchseln\""
+  },
+  {
+   "kw": "suchsel grundschule",
+   "segment": "logik-wahrnehmung",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschule-arbeitsblaetter.de/themen/suchsel"
+  },
+  {
+   "kw": "wörtersuche",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "kinder-malvorlagen.com \"suchsel wörter suchen\", helpfully.de"
+  },
+  {
+   "kw": "wortgitter",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "suchsel.net generator-beschreibung"
+  },
+  {
+   "kw": "buchstabengitter",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "schulkreis.de \"buchstabengitter (suchsel) klasse 2,3,4\""
+  },
+  {
+   "kw": "wortsuchrätsel",
+   "segment": "logik-wahrnehmung",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "lehrer-online.de, suchsel.net beschreibung"
+  },
+  {
+   "kw": "arbeitsblätter mathe klasse 1",
+   "segment": "mathe-klasse-1-3",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "serp-titel grundschulkoenig/materialguru/lernwolf"
+  },
+  {
+   "kw": "arbeitsblätter mathe klasse 2",
+   "segment": "mathe-klasse-1-3",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "lernwolf/klassenarbeiten kategorieseiten klasse 2"
+  },
+  {
+   "kw": "arbeitsblätter mathe klasse 3",
+   "segment": "mathe-klasse-1-3",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "mathiki inhaltsverzeichnis klasse 3, grundschulmaterial"
+  },
+  {
+   "kw": "mathe grundschule",
+   "segment": "mathe-klasse-1-3",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkoenig hub-titel \"mathe grundschule\""
+  },
+  {
+   "kw": "zahlenraum 100",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkoenig/klassenarbeiten/schlaukopf kategorie"
+  },
+  {
+   "kw": "zahlenraum 1000",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkoenig klasse-3-kategorie \"zahlenraum 1 000\""
+  },
+  {
+   "kw": "rechnen bis 20",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "druckeselbst/kekula/bildungsserver serp-titel"
+  },
+  {
+   "kw": "rechnen bis 100",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "kekula \"übungsblätter zr100\""
+  },
+  {
+   "kw": "addition und subtraktion",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "klassenarbeiten kategorie \"addition und subtraktion bis 1000\""
+  },
+  {
+   "kw": "zehnerübergang",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "meinunterricht/montessori-shop/cornelsen serp"
+  },
+  {
+   "kw": "subtraktion mit zehnerübergang",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkoenig \"subtraktion mit zehnerüberschreitung\""
+  },
+  {
+   "kw": "einmaleins",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "einmaleins.de, bildungsserver kategorie"
+  },
+  {
+   "kw": "kopfrechnen",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkoenig/lernstübchen kategorie"
+  },
+  {
+   "kw": "rechengeschichten",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "wegerer \"rechengeschichten / sachrechnen\""
+  },
+  {
+   "kw": "rechnen mit geld",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkoenig/grundschulmaterial rubrik"
+  },
+  {
+   "kw": "uhrzeit lernen",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkoenig/materialguru/grundschule-arbeitsblaetter kategorie"
+  },
+  {
+   "kw": "uhrzeit klasse 2",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "mathestunde/schulkreis \"uhrzeit klasse 2,3,4\""
+  },
+  {
+   "kw": "längen messen",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "mathquizily/lehrer-online serp-titel"
+  },
+  {
+   "kw": "formen und körper",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkoenig klasse-1-kategorie"
+  },
+  {
+   "kw": "hundertertafel",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkoenig \"hundertertafel / hunderterfeld\", grundschulmaterial"
+  },
+  {
+   "kw": "zahlenstrahl",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkoenig \"zahlenstrahl im zahlenraum 100\", grundschulmaterial"
+  },
+  {
+   "kw": "stellenwerttabelle",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkoenig \"stellenwerttabelle und nachbarzahlen zr 1000\""
+  },
+  {
+   "kw": "verliebte zahlen",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "betzold-blog/volksschultipps/grundschule-nachhilfe serp"
+  },
+  {
+   "kw": "tauschaufgaben",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkoenig \"tausch- und umkehraufgaben\""
+  },
+  {
+   "kw": "umkehraufgaben",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkoenig klasse-2-kategorie"
+  },
+  {
+   "kw": "schriftliche addition",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "matheaufgaben.net/grundschulmaterial \"schriftliche addition bis 1000\""
+  },
+  {
+   "kw": "schriftliche subtraktion",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkoenig \"schriftliches rechnen\" klasse 3, klassenarbeiten"
+  },
+  {
+   "kw": "gemischte aufgaben",
+   "segment": "mathe-klasse-1-3",
+   "intent": "format",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkoenig \"gemischte aufgaben\" seiten zr20/1x1"
+  },
+  {
+   "kw": "matheaufgaben klasse 1",
+   "segment": "mathe-klasse-1-3",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "matheaufgaben.net, matheaufgabenwelt serp-titel"
+  },
+  {
+   "kw": "matheaufgaben klasse 2",
+   "segment": "mathe-klasse-1-3",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "mathquizily/mathiki \"mathe arbeitsblätter klasse 2\""
+  },
+  {
+   "kw": "matheaufgaben klasse 3",
+   "segment": "mathe-klasse-1-3",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "matheaufgaben.net klasse-3-baum, nachhilfevomlehrer"
+  },
+  {
+   "kw": "rechenaufgaben klasse 1",
+   "segment": "mathe-klasse-1-3",
+   "intent": "level",
+   "register": "eltern",
+   "autocompleteConfirmed": false,
+   "evidence": "kleineschule/coollama \"klasse 1 übungsblätter\""
+  },
+  {
+   "kw": "plusaufgaben",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "eltern",
+   "autocompleteConfirmed": false,
+   "evidence": "kekula/fraulocke \"plus- und minusaufgaben\""
+  },
+  {
+   "kw": "minusaufgaben",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "eltern",
+   "autocompleteConfirmed": false,
+   "evidence": "nachhilfevomlehrer \"minus / subtraktion klasse 1\""
+  },
+  {
+   "kw": "addition mit zehnerübergang",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig seitentitel zr20/zr100"
+  },
+  {
+   "kw": "kleines einmaleins",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "klassenarbeiten kategorie \"kleines einmaleins\""
+  },
+  {
+   "kw": "einmaleins üben",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "eltern",
+   "autocompleteConfirmed": false,
+   "evidence": "einmaleins.de/mathestunde serp-titel"
+  },
+  {
+   "kw": "1x1 aufgaben",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig \"gemischte aufgaben zum 1x1\""
+  },
+  {
+   "kw": "einmaleins reihen",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "einmaleins.de \"2er-reihe-arbeitsblätter\", maxklug reihen-baum"
+  },
+  {
+   "kw": "2er einmaleins",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig \"2er- bis 10er-einmaleins\""
+  },
+  {
+   "kw": "division klasse 2",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig kategorie klasse 2 \"division\""
+  },
+  {
+   "kw": "teilen mit rest",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig klasse-3-kategorie, sofatutor, arbeitsblaetter.org"
+  },
+  {
+   "kw": "division mit rest",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "lernstübchen/grundschulmaterial tag"
+  },
+  {
+   "kw": "geteilt aufgaben",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "eltern",
+   "autocompleteConfirmed": false,
+   "evidence": "anton \"geteiltaufgaben mit rest\""
+  },
+  {
+   "kw": "kopfrechnen klasse 2",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig klasse-2-kategorie"
+  },
+  {
+   "kw": "kopfrechnen klasse 3",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "nachhilfevomlehrer \"kopfrechnen klasse 3\""
+  },
+  {
+   "kw": "sachaufgaben klasse 2",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig/mathquizily kategorieseiten"
+  },
+  {
+   "kw": "textaufgaben klasse 2",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "mathestunde/klassenarbeiten/mathiki serp-titel"
+  },
+  {
+   "kw": "textaufgaben klasse 3",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "sivakids \"klassen 2–6\", mathiki klasse-3-baum"
+  },
+  {
+   "kw": "sachaufgaben zum 1x1",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig \"sach- und textaufgaben zum 1x1\""
+  },
+  {
+   "kw": "euro und cent",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig kategorie klasse 1+2, wegerer"
+  },
+  {
+   "kw": "geld klasse 2",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "materialguru \"geld & euro\", nekoneko \"klasse 1 & 2\""
+  },
+  {
+   "kw": "uhr lesen lernen",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "eltern",
+   "autocompleteConfirmed": false,
+   "evidence": "das-bastelteam \"die uhr lesen lernen\""
+  },
+  {
+   "kw": "zeitpunkt und zeitspanne",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig klasse-3-kategorie"
+  },
+  {
+   "kw": "rechnen mit uhrzeiten",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig klasse-3-kategorie"
+  },
+  {
+   "kw": "längeneinheiten",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschule-arbeitsblaetter kategorie"
+  },
+  {
+   "kw": "meter und zentimeter",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "mathquizily/schulportal \"zentimeter\" klasse 2"
+  },
+  {
+   "kw": "größen klasse 2",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "klassenarbeiten kategorie \"größen\""
+  },
+  {
+   "kw": "geometrie grundschule",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig geometrie-hub serp-titel"
+  },
+  {
+   "kw": "geometrische körper",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "aduis kategorie, timetex \"geometriekörper\""
+  },
+  {
+   "kw": "symmetrie",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig klasse-3-kategorie, klassenarbeiten"
+  },
+  {
+   "kw": "achsensymmetrie",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "material-schmiede \"achsensymmetrie klasse 2 & 3\""
+  },
+  {
+   "kw": "spiegeln",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "schuelerhilfe/grundschulmaterial \"spiegelung\", extraklasse"
+  },
+  {
+   "kw": "symmetrieachse",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "eduki \"symmetrieachse einzeichnen\", grundschulkoenig klasse 4"
+  },
+  {
+   "kw": "würfelnetze",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig geometrie-hub \"würfelnetze\""
+  },
+  {
+   "kw": "hunderterfeld",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig kategorietitel, lernwolf"
+  },
+  {
+   "kw": "nachbarzahlen",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig zr-1000-seite, wegerer orientierung"
+  },
+  {
+   "kw": "zahlenfolgen",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "kleineschule \"zahlenfolgen\", kekula grundlagen zr20"
+  },
+  {
+   "kw": "schriftliches rechnen",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig klasse-3-kategorie"
+  },
+  {
+   "kw": "halbschriftliches rechnen",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig klasse-3-kategorie"
+  },
+  {
+   "kw": "runden",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschule-arbeitsblaetter kategorie \"runden\""
+  },
+  {
+   "kw": "runden und überschlag",
+   "segment": "mathe-klasse-1-3",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig/uebungskoenig kategorie"
+  },
+  {
+   "kw": "zahlen vorschule",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "vorschulkids kategorie \"zahlen\" + serp"
+  },
+  {
+   "kw": "mengen vergleichen",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "serp mengen-umfeld + grundschulkönig beschreibung"
+  },
+  {
+   "kw": "zehnerfeld",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "kiwole + lern-tagebuch titel"
+  },
+  {
+   "kw": "zahlenraum 10",
+   "segment": "mathe-vorschule",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschule-arbeitsblaetter + grundschulkönig url"
+  },
+  {
+   "kw": "zahlenraum 20",
+   "segment": "mathe-vorschule",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "mathemonsterchen + kekula serp"
+  },
+  {
+   "kw": "zahlen bis 10",
+   "segment": "mathe-vorschule",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "serp-titel mehrfach (kribbelbunt, eduki)"
+  },
+  {
+   "kw": "zahlen schreiben",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkönig + materialguru kategorie"
+  },
+  {
+   "kw": "nachspuren",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkönig vorschule-kategorie"
+  },
+  {
+   "kw": "muster fortsetzen",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkönig kategorie + twinkl serp"
+  },
+  {
+   "kw": "muster erkennen",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "schlaumik + pikas serp"
+  },
+  {
+   "kw": "geometrische formen",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschule-arbeitsblaetter + timetex kategorie"
+  },
+  {
+   "kw": "farben und formen",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkönig + vorschulkids kategorie"
+  },
+  {
+   "kw": "größer kleiner",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "materialguru + grundschule-arbeitsblaetter kategorie"
+  },
+  {
+   "kw": "mehr oder weniger",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkönig vorschule-kategorie"
+  },
+  {
+   "kw": "erstes rechnen",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkönig vorschule-kategorie"
+  },
+  {
+   "kw": "mathe vorschule",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschule-arbeitsblaetter \"mathe in der vorschule\""
+  },
+  {
+   "kw": "arbeitsblätter vorschule",
+   "segment": "mathe-vorschule",
+   "intent": "format",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulheld + wortgewitzt serp-titel"
+  },
+  {
+   "kw": "übungsblätter vorschule",
+   "segment": "mathe-vorschule",
+   "intent": "format",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "lern.monster + kinder-malvorlagen titel"
+  },
+  {
+   "kw": "arbeitsblätter kindergarten",
+   "segment": "mathe-vorschule",
+   "intent": "format",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "kinder-malvorlagen titel + eduki"
+  },
+  {
+   "kw": "sudoku kinder",
+   "segment": "mathe-vorschule",
+   "intent": "format",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkönig \"sudoku und suchsel\" kategorie"
+  },
+  {
+   "kw": "zählen lernen",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkönig + grundschule-arbeitsblaetter kategorie"
+  },
+  {
+   "kw": "zahlen lernen",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "kleineschule + kinder-malvorlagen serp-titel"
+  },
+  {
+   "kw": "erste zahlen",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkönig vorschule-kategorie"
+  },
+  {
+   "kw": "mengen erfassen",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkönig + grundschulmaterial kategorie"
+  },
+  {
+   "kw": "mengenerfassung",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "pinterest-ideas + grundschulmaterial förder-kategorie"
+  },
+  {
+   "kw": "mengen und zahlen",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "arbeitsblaetter.org + lehrermaterial.de titel"
+  },
+  {
+   "kw": "mengen zählen",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "wegerer kategorie \"mengen und zählen\""
+  },
+  {
+   "kw": "simultanerfassung",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "wikipedia + rechenschwäche-material serp"
+  },
+  {
+   "kw": "punktebilder",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "persen \"punktebilder auf einen blick\" musterseite"
+  },
+  {
+   "kw": "würfelbilder",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "wegerer + lernstübchen + frau-locke serp"
+  },
+  {
+   "kw": "zwanzigerfeld",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulmaterial kategorien"
+  },
+  {
+   "kw": "zahlenhäuser",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "eduki material-titel + zahlenland"
+  },
+  {
+   "kw": "zahlzerlegung",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkönig + pikas + maxklug"
+  },
+  {
+   "kw": "zahlen zerlegen",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschule-arbeitsblaetter kategorie"
+  },
+  {
+   "kw": "zahlen ergänzen",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschule-arbeitsblaetter kategorie"
+  },
+  {
+   "kw": "verdoppeln und halbieren",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschule-arbeitsblaetter kategorie"
+  },
+  {
+   "kw": "zahlenraum 5",
+   "segment": "mathe-vorschule",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkönig url zahlenraum-5"
+  },
+  {
+   "kw": "zahlen schreiben lernen",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "kribbelbunt + material-schmiede titel"
+  },
+  {
+   "kw": "ziffern schreiben",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "wegerer \"ziffern erarbeiten und schreiben\""
+  },
+  {
+   "kw": "zahlen nachspuren",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "twinkl + helpfully titel"
+  },
+  {
+   "kw": "ziffern nachspuren",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "eduki + grundschulmaterial titel"
+  },
+  {
+   "kw": "ziffernschreibkurs",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulmaterial kategorie"
+  },
+  {
+   "kw": "schwungübungen",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkönig + materialguru + vorschulkids kategorie"
+  },
+  {
+   "kw": "feinmotorik schulen",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkönig vorschule-kategorie"
+  },
+  {
+   "kw": "logische reihen",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkönig + montessori-shop kategorie"
+  },
+  {
+   "kw": "reihen fortsetzen",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "zaubereinmaleins + gutemama serp"
+  },
+  {
+   "kw": "muster nachspuren",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "lernstübchen titel"
+  },
+  {
+   "kw": "muster zeichnen",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkönig geometrie-kategorie"
+  },
+  {
+   "kw": "formen erkennen",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "brainytoon + serp-titel"
+  },
+  {
+   "kw": "formen lernen",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "eltern",
+   "autocompleteConfirmed": false,
+   "evidence": "wunderkiddy \"formen mit vorschulkindern lernen\""
+  },
+  {
+   "kw": "formen und figuren",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschule-arbeitsblaetter kategorie"
+  },
+  {
+   "kw": "formen kindergarten",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "timetex + bausteine-kindergarten serp"
+  },
+  {
+   "kw": "größer kleiner gleich",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkönig + lernstübchen tags"
+  },
+  {
+   "kw": "größenvergleich",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkönig kategorie-url"
+  },
+  {
+   "kw": "rechnen vorschule",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "vorschulkids kategorie \"rechnen\" + matheaufgabenwelt"
+  },
+  {
+   "kw": "plusaufgaben bis 10",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "maxklug arbeitsblatt-titel"
+  },
+  {
+   "kw": "plusrechnen bis 10",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "eltern",
+   "autocompleteConfirmed": false,
+   "evidence": "maxklug kategorie-url"
+  },
+  {
+   "kw": "mathematische frühförderung",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "timetex kategorie + backwinkel blog"
+  },
+  {
+   "kw": "zahlenland",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "zahlenland.info + backwinkel + ifvl"
+  },
+  {
+   "kw": "schuleingangsphase",
+   "segment": "mathe-vorschule",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "kleineschule + grundschulmaterial kategorie"
+  },
+  {
+   "kw": "logik und knobeln",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkönig vorschule-kategorie"
+  },
+  {
+   "kw": "links rechts übungen",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "materialguru + vorschulkids \"lage und orientierung\""
+  },
+  {
+   "kw": "konzentrationsübungen",
+   "segment": "mathe-vorschule",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "materialguru kategorie + gutemama"
+  },
+  {
+   "kw": "vorschule",
+   "segment": "modifikatoren-formate",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "eigene sektionen bei grundschulkoenig, materialguru, grundschule-arbeitsblaetter.de"
+  },
+  {
+   "kw": "vorschulkinder",
+   "segment": "modifikatoren-formate",
+   "intent": "level",
+   "register": "eltern",
+   "autocompleteConfirmed": true,
+   "evidence": "carlsen \"kostenlose downloads für vorschulkinder\", wortgewitzt"
+  },
+  {
+   "kw": "kita",
+   "segment": "modifikatoren-formate",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "kigaportal \"für kindergarten, kita und schule\"; kinder-malvorlagen"
+  },
+  {
+   "kw": "kindergarten",
+   "segment": "modifikatoren-formate",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "kidipage \"kindergarten arbeitsblätter\", wunderkiddy, kigaportal"
+  },
+  {
+   "kw": "1. klasse",
+   "segment": "modifikatoren-formate",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "dominante title-form: \"mathe 1. klasse\", \"deutsch 1. klasse\" (alle ranker)"
+  },
+  {
+   "kw": "1 klasse",
+   "segment": "modifikatoren-formate",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "url-form aller ranker (/1-klasse/); übliche query-schreibweise ohne punkt"
+  },
+  {
+   "kw": "klasse 1",
+   "segment": "modifikatoren-formate",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "lernwolf-titles \"übungen deutsch klasse 1\", schulportal, matheaufgaben.net"
+  },
+  {
+   "kw": "2. klasse",
+   "segment": "modifikatoren-formate",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkoenig/materialguru/kleineschule-titles"
+  },
+  {
+   "kw": "klasse 2",
+   "segment": "modifikatoren-formate",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "lernwolf \"übungen mathe klasse 2\", mathestunde"
+  },
+  {
+   "kw": "3. klasse",
+   "segment": "modifikatoren-formate",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschule-arbeitsblaetter.de \"deutsch 3. klasse\", materialguru"
+  },
+  {
+   "kw": "klasse 3",
+   "segment": "modifikatoren-formate",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "schulkreis \"grundschule klasse 3\", nachhilfevomlehrer"
+  },
+  {
+   "kw": "grundschule",
+   "segment": "modifikatoren-formate",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "omnipräsent (grundschulkoenig, grundschulstoff, grundschulmaterial, schulkreis)"
+  },
+  {
+   "kw": "förderschule",
+   "segment": "modifikatoren-formate",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "uebungskoenig \"mittelschule + förderschule\", meinunterricht, schulportal"
+  },
+  {
+   "kw": "arbeitsblatt",
+   "segment": "modifikatoren-formate",
+   "intent": "kopfnomen",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "singular v.a. site-intern; queries fast immer plural"
+  },
+  {
+   "kw": "arbeitsblätter",
+   "segment": "modifikatoren-formate",
+   "intent": "kopfnomen",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "das dominante kopfnomen aller serps + domains"
+  },
+  {
+   "kw": "übungsblätter",
+   "segment": "modifikatoren-formate",
+   "intent": "kopfnomen",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "klassenarbeiten.de \"233 übungsblätter\", coollama, lern.monster"
+  },
+  {
+   "kw": "übungen",
+   "segment": "modifikatoren-formate",
+   "intent": "kopfnomen",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "lernwolf/schlaukopf/lerntrick-titles"
+  },
+  {
+   "kw": "aufgaben",
+   "segment": "modifikatoren-formate",
+   "intent": "kopfnomen",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "aufgaben.schulkreis.de; grundschulkoenig"
+  },
+  {
+   "kw": "lernspiele",
+   "segment": "modifikatoren-formate",
+   "intent": "kopfnomen",
+   "register": "eltern",
+   "autocompleteConfirmed": true,
+   "evidence": "wunderkiddy \"arbeitsblätter & lernspiele\", kleineschule"
+  },
+  {
+   "kw": "kostenlos",
+   "segment": "modifikatoren-formate",
+   "intent": "format",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "in nahezu jedem ranker-title (grundschulkoenig, lernwolf, materialguru)"
+  },
+  {
+   "kw": "gratis",
+   "segment": "modifikatoren-formate",
+   "intent": "format",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "\"gratis download\" (grundschule-arbeitsblaetter.de), \"gratis kopiervorlagen\" (schule-und-familie.de)"
+  },
+  {
+   "kw": "zum ausdrucken",
+   "segment": "modifikatoren-formate",
+   "intent": "format",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "häufigster format-modifier; titles von kiwole, kleineschule, grundschulheld, kribbelbunt"
+  },
+  {
+   "kw": "pdf",
+   "segment": "modifikatoren-formate",
+   "intent": "format",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "lerntrick führt eigene /pdf-urls; \"pdf format zum ausdrucken\" (lern.monster)"
+  },
+  {
+   "kw": "mit lösungen",
+   "segment": "modifikatoren-formate",
+   "intent": "format",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "lernwolf \"übungen & aufgaben mit lösungen\", grundschulkoenig"
+  },
+  {
+   "kw": "vorlage",
+   "segment": "modifikatoren-formate",
+   "intent": "format",
+   "register": "eltern",
+   "autocompleteConfirmed": true,
+   "evidence": "talu.de \"buchstaben-vorlagen\", gutemama"
+  },
+  {
+   "kw": "arbeitsblätter zum ausdrucken",
+   "segment": "modifikatoren-formate",
+   "intent": "format-muster",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "standardpaar in titles (kinder-malvorlagen, vorschulkids, kiwole)"
+  },
+  {
+   "kw": "arbeitsblätter mit lösungen",
+   "segment": "modifikatoren-formate",
+   "intent": "format-muster",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "schulkreis/materialguru-pattern"
+  },
+  {
+   "kw": "kostenlos zum ausdrucken",
+   "segment": "modifikatoren-formate",
+   "intent": "format-muster",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "title-reihenfolge (grundschulheld, schulkreis)"
+  },
+  {
+   "kw": "zum ausdrucken kostenlos",
+   "segment": "modifikatoren-formate",
+   "intent": "format-muster",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "query-reihenfolge (suffix-kette am query-ende)"
+  },
+  {
+   "kw": "mathe 1. klasse",
+   "segment": "modifikatoren-formate",
+   "intent": "format-muster",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "fach-vor-stufe ist die kanonische title-ordnung aller ranker"
+  },
+  {
+   "kw": "1 klasse zum ausdrucken kostenlos",
+   "segment": "modifikatoren-formate",
+   "intent": "format-muster",
+   "register": "eltern",
+   "autocompleteConfirmed": true,
+   "evidence": "typische query-suffix-kette: stufe → format → kosten"
+  },
+  {
+   "kw": "schulanfänger",
+   "segment": "modifikatoren-formate",
+   "intent": "level",
+   "register": "eltern",
+   "autocompleteConfirmed": false,
+   "evidence": "kirchhain.de \"übungen für schulanfänger\", coollama-zielgruppe"
+  },
+  {
+   "kw": "erstklässler",
+   "segment": "modifikatoren-formate",
+   "intent": "level",
+   "register": "eltern",
+   "autocompleteConfirmed": false,
+   "evidence": "gutemama \"schwungübungen für erstklässler\", kribbelbunt"
+  },
+  {
+   "kw": "ab 5 jahren",
+   "segment": "modifikatoren-formate",
+   "intent": "level",
+   "register": "eltern",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulheld \"vorschulblock – übungshefte ab 5 jahren\""
+  },
+  {
+   "kw": "für 5 jährige",
+   "segment": "modifikatoren-formate",
+   "intent": "level",
+   "register": "eltern",
+   "autocompleteConfirmed": false,
+   "evidence": "query-form; leseliebe/gutemama bedienen alters-suchen"
+  },
+  {
+   "kw": "für 4 jährige",
+   "segment": "modifikatoren-formate",
+   "intent": "level",
+   "register": "eltern",
+   "autocompleteConfirmed": false,
+   "evidence": "gutemama führt eigene alters-seite /4-jahre/"
+  },
+  {
+   "kw": "zahlenraum bis 100",
+   "segment": "modifikatoren-formate",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "lernwolf klasse 2, mathestunde"
+  },
+  {
+   "kw": "mathe-arbeitsblätter",
+   "segment": "modifikatoren-formate",
+   "intent": "kopfnomen",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "mathiki \"kostenlose mathe-arbeitsblätter\", kleineschule"
+  },
+  {
+   "kw": "unterrichtsmaterial",
+   "segment": "modifikatoren-formate",
+   "intent": "kopfnomen",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "materialguru \"kostenloses unterrichtsmaterial\", grundschulmaterial.de"
+  },
+  {
+   "kw": "sachunterricht klasse 1",
+   "segment": "sachunterricht",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkoenig \"themen nach jahrgangsstufen\""
+  },
+  {
+   "kw": "sachunterricht klasse 2",
+   "segment": "sachunterricht",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "schulportal.de klasse-2-treffer; grundschulkoenig"
+  },
+  {
+   "kw": "zootiere grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "wegerer su_zootiere; grundschule-arbeitsblaetter/zootiere"
+  },
+  {
+   "kw": "tiere im wald",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "sachunterricht-grundschule.de sachkundearbeit"
+  },
+  {
+   "kw": "mein körper",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "kinderleichtlernen/maxklug \"mein körper\"; kindersuppe kita-projekt"
+  },
+  {
+   "kw": "bundesländer und hauptstädte",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": true,
+   "evidence": "serp \"bundesländer und ihre hauptstädte kennenlernen\""
+  },
+  {
+   "kw": "frühling arbeitsblätter",
+   "segment": "sachunterricht",
+   "intent": "seasonal",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschule-arbeitsblaetter.de/themen/fruehling"
+  },
+  {
+   "kw": "tiere arbeitsblätter",
+   "segment": "sachunterricht",
+   "intent": "format",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschule-arbeitsblaetter.de/sachunterricht/tiere"
+  },
+  {
+   "kw": "tiere im winter",
+   "segment": "sachunterricht",
+   "intent": "seasonal",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschulkoenig kategorie; wegerer su_tierwinter"
+  },
+  {
+   "kw": "vögel im winter",
+   "segment": "sachunterricht",
+   "intent": "seasonal",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "planet-schule; lernbiene; grundschulmaterial.de"
+  },
+  {
+   "kw": "sachunterricht grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "serp; sachunterricht-grundschule.de"
+  },
+  {
+   "kw": "hsu sachkunde",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig.de hauptrubrik /hsu-sachkunde/"
+  },
+  {
+   "kw": "sachunterricht klasse 3",
+   "segment": "sachunterricht",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "klassenarbeiten.de klasse3/sachkunde"
+  },
+  {
+   "kw": "jahreszeiten grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "materialguru kategorie jahreszeiten"
+  },
+  {
+   "kw": "jahreszeiten kindergarten",
+   "segment": "sachunterricht",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "kinder-malvorlagen.com kalender-lernvorlagen \"ab kindergarten\""
+  },
+  {
+   "kw": "jahreskreis",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig kategorie zeit-und-wandel/jahreskreis"
+  },
+  {
+   "kw": "kalender grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig /zeit-und-wandel/kalender/"
+  },
+  {
+   "kw": "wochentage lernen",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "zaubereinmaleins jahreszeiten-monate-wochentage"
+  },
+  {
+   "kw": "monate lernen",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "twinkl \"monate lernen\" materialseite"
+  },
+  {
+   "kw": "haustiere grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig tiere: haustiere/nutztiere"
+  },
+  {
+   "kw": "nutztiere grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig kategorietitel"
+  },
+  {
+   "kw": "heimische wildtiere",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig /tiere/wildtiere/"
+  },
+  {
+   "kw": "igel grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "schule-bw unterrichtsbeispiel igel klasse 1"
+  },
+  {
+   "kw": "schmetterling entwicklung",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "lernbiene \"die schmetterlinge\" entwicklungsstadien"
+  },
+  {
+   "kw": "schnecken grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "materialguru tier-unterkategorie schnecken"
+  },
+  {
+   "kw": "körperteile benennen",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "wegerer su_koerperteile; betzold kita-blog"
+  },
+  {
+   "kw": "die 5 sinne",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "materialguru kategorie \"die 5 sinne\""
+  },
+  {
+   "kw": "sinnesorgane grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig /koerper-und-gesundheit/sinnesorgane"
+  },
+  {
+   "kw": "zähne grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "sachunterricht-grundschule.de zähne-lernzielkontrollen"
+  },
+  {
+   "kw": "zahnaufbau",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig \"zähne und zahnaufbau\""
+  },
+  {
+   "kw": "gesunde ernährung grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig /koerper-und-gesundheit/ernaehrung"
+  },
+  {
+   "kw": "getreide grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "materialguru + grundschulkoenig kategorie getreide"
+  },
+  {
+   "kw": "getreidearten",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "materialguru unterkategorien (weizen, roggen, hafer)"
+  },
+  {
+   "kw": "kartoffel grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig kategorie kartoffel"
+  },
+  {
+   "kw": "wetter grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig /natur-und-umwelt/wetter"
+  },
+  {
+   "kw": "wasserkreislauf grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "backwinkel-blog \"wasserkreislauf grundschule\""
+  },
+  {
+   "kw": "wasser grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig /natur-und-umwelt/wasser"
+  },
+  {
+   "kw": "frühblüher grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig + materialguru kategorie frühblüher"
+  },
+  {
+   "kw": "laubbäume und nadelbäume",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig kategorie nadelbaeume-laubbaeume"
+  },
+  {
+   "kw": "blätter bestimmen",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschule-arbeitsblaetter ab \"übersicht: blätter und früchte\""
+  },
+  {
+   "kw": "wald grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig kategorie wald; sachkundearbeit wald"
+  },
+  {
+   "kw": "verkehrserziehung grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig /verkehrserziehung/; bildungsserver"
+  },
+  {
+   "kw": "verkehrsschilder grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig unterkategorie verkehrsschilder"
+  },
+  {
+   "kw": "fahrradprüfung grundschule",
+   "segment": "sachunterricht",
+   "intent": "level",
+   "register": "beide",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig unterkategorie; verkehrswacht radfahrausbildung"
+  },
+  {
+   "kw": "berufe grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig /demokratie-und-gemeinschaft/berufe"
+  },
+  {
+   "kw": "deutschland grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig /geographie/deutschland"
+  },
+  {
+   "kw": "europa grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig /geographie/europa"
+  },
+  {
+   "kw": "experimente grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulatelier experimente-seite; serp"
+  },
+  {
+   "kw": "feuerwehr grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig kategorie \"feuer und feuerwehr\""
+  },
+  {
+   "kw": "mülltrennung grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig kategorie \"müll / mülltrennung\""
+  },
+  {
+   "kw": "strom grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "materialguru + grundschulkoenig kategorie strom"
+  },
+  {
+   "kw": "magnetismus grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig /technik-und-kultur/ magnetismus"
+  },
+  {
+   "kw": "weltall grundschule",
+   "segment": "sachunterricht",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig kategorie \"weltall und planeten\""
+  },
+  {
+   "kw": "winter arbeitsblätter kindergarten",
+   "segment": "saisonal-feste",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "pinterest \"vorschule kita arbeitsblätter winter\"; maxklug vorschule"
+  },
+  {
+   "kw": "weihnachten arbeitsblätter grundschule",
+   "segment": "saisonal-feste",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "serp-top: grundschulkoenig.de \"weihnachten und winter\""
+  },
+  {
+   "kw": "frühling arbeitsblätter kindergarten",
+   "segment": "saisonal-feste",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "maxklug vorschule \"jahreszeiten und wetter"
+  },
+  {
+   "kw": "ostern grundschule",
+   "segment": "saisonal-feste",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "lernbiene.de \"ostern in der grundschule – arbeitsblätter & bastelideen\""
+  },
+  {
+   "kw": "winter arbeitsblätter",
+   "segment": "saisonal-feste",
+   "intent": "format",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "materialguru.de \"winter unterrichtsmaterial\"; grundschule-arbeitsblaetter.de"
+  },
+  {
+   "kw": "weihnachten arbeitsblätter",
+   "segment": "saisonal-feste",
+   "intent": "format",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "materialguru.de + grundschule-arbeitsblaetter.de kategorie \"weihnachten\""
+  },
+  {
+   "kw": "ostern arbeitsblätter",
+   "segment": "saisonal-feste",
+   "intent": "format",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "grundschule-arbeitsblaetter.de + materialguru.de \"ostern\""
+  },
+  {
+   "kw": "sommer arbeitsblätter",
+   "segment": "saisonal-feste",
+   "intent": "format",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": true,
+   "evidence": "materialguru.de \"sommer\"; grundschulkoenig.de jahreskreis"
+  },
+  {
+   "kw": "herbst arbeitsblätter grundschule",
+   "segment": "saisonal-feste",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "serp-titel grundschulkoenig.de \"arbeitsblätter für herbst\"; eduki"
+  },
+  {
+   "kw": "jahreskreis kita",
+   "segment": "saisonal-feste",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "wilmas-material.de jahreskreis-downloads; kindergartenelfe.com tag"
+  },
+  {
+   "kw": "jahreszeiten projekt kita",
+   "segment": "saisonal-feste",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "erzieherin-ausbildung.de \"das jahreszeiten-projekt in der kita\""
+  },
+  {
+   "kw": "herbst kindergarten",
+   "segment": "saisonal-feste",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "kindersuppe.de \"projekt herbst kindergarten und kita-ideen\""
+  },
+  {
+   "kw": "projekt herbst kita",
+   "segment": "saisonal-feste",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "kindersuppe.de projektseite herbst"
+  },
+  {
+   "kw": "winter im kindergarten",
+   "segment": "saisonal-feste",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "betzold-blog \"winter im kindergarten – projekte und ideen\""
+  },
+  {
+   "kw": "weihnachtsrätsel grundschule",
+   "segment": "saisonal-feste",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "pinterest; lehrerbüro \"rätselmix weihnachten 3/4\""
+  },
+  {
+   "kw": "advent grundschule",
+   "segment": "saisonal-feste",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "lehrer-online \"unterrichtsprojekt advent\"; bildungsserver"
+  },
+  {
+   "kw": "adventskalender grundschule",
+   "segment": "saisonal-feste",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschule-arbeitsblaetter.de \"150 materialien für adventskalender klasse 3/4\""
+  },
+  {
+   "kw": "nikolaus grundschule",
+   "segment": "saisonal-feste",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "schule-studium.de \"nikolaus unterrichtsmaterial grundschule\""
+  },
+  {
+   "kw": "silvester grundschule",
+   "segment": "saisonal-feste",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "lehrer-online \"silvester und neujahr in deutschland"
+  },
+  {
+   "kw": "fasching grundschule",
+   "segment": "saisonal-feste",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "bildungsserver.de \"fasching und karneval in der grundschule\"; grundschulkoenig.de"
+  },
+  {
+   "kw": "karneval grundschule",
+   "segment": "saisonal-feste",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "cornelsen.de \"karneval, fasching und fastnacht im unterricht\""
+  },
+  {
+   "kw": "fasching kindergarten",
+   "segment": "saisonal-feste",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig \"fasching für grundschule und vorschule\"; lugert kita-material"
+  },
+  {
+   "kw": "frühlingsgedichte grundschule",
+   "segment": "saisonal-feste",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "material-schmiede.de frühling (gedichte, lesetexte)"
+  },
+  {
+   "kw": "ostern kita ideen",
+   "segment": "saisonal-feste",
+   "intent": "topic",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "kindersuppe.de \"ostern und osterhase – bastelideen und spiele für kindergarten und kita\""
+  },
+  {
+   "kw": "pfingsten grundschule",
+   "segment": "saisonal-feste",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "materialguru.de jahreskreis-kategorie \"pfingsten\""
+  },
+  {
+   "kw": "st martin grundschule",
+   "segment": "saisonal-feste",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig.de religion \"st. martin\"; arbeitsblaetter-online.de \"50+ arbeitsblätter\""
+  },
+  {
+   "kw": "st martin kita",
+   "segment": "saisonal-feste",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "irp freiburg \"material-paket zu st. martin (für kitas)\""
+  },
+  {
+   "kw": "halloween grundschule",
+   "segment": "saisonal-feste",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "lugert-verlag \"halloween in der grundschule\"; grundschulkoenig"
+  },
+  {
+   "kw": "erntedank grundschule",
+   "segment": "saisonal-feste",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig.de jahreskreis \"erntedank\""
+  },
+  {
+   "kw": "erntedank kindergarten",
+   "segment": "saisonal-feste",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "kita-kontext serp (prokita/kindersuppe)"
+  },
+  {
+   "kw": "muttertag grundschule",
+   "segment": "saisonal-feste",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "grundschulkoenig.de jahreskreis \"muttertag\"; material-schmiede.de"
+  },
+  {
+   "kw": "muttertag kindergarten",
+   "segment": "saisonal-feste",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "schule.at elementarpädagogik themenregal \"muttertag/vatertag\""
+  },
+  {
+   "kw": "vatertag grundschule",
+   "segment": "saisonal-feste",
+   "intent": "level",
+   "register": "lehrkraft",
+   "autocompleteConfirmed": false,
+   "evidence": "material-schmiede.de \"unterrichtsmaterial vatertag\"; grundschule-arbeitsblaetter.de"
+  }
+ ]
+}

@@ -150,7 +150,7 @@ const container = {
 };
 
 const header = {
-  backgroundColor: '#007bff',
+  backgroundColor: '#146B5E',
   padding: '30px 20px',
   textAlign: 'center' as const,
 };
@@ -189,6 +189,6 @@ const footerLinks = {
 };
 
 const footerLink = {
-  color: '#007bff',
+  color: '#146B5E',
   textDecoration: 'none',
 };

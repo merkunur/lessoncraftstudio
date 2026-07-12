@@ -22,50 +22,24 @@ interface WelcomeEmailProps {
 
 export const WelcomeEmail = ({
   firstName = 'there',
-  subscriptionTier = 'free',
   dashboardUrl,
   language = 'en',
 }: WelcomeEmailProps) => {
-  const planFeatures = {
-    free: {
-      en: ['Word Search Studio Pro only', 'Unlimited worksheet generation', 'Watermarked downloads', 'Community support'],
-      de: ['Nur Wortsuchgenerator', 'Unbegrenzte Arbeitsblatterstellung', 'Downloads mit Wasserzeichen', 'Community-Support'],
-      fr: ['Générateur de mots cachés uniquement', 'Génération illimitée de feuilles', 'Téléchargements avec filigrane', 'Support communautaire'],
-      es: ['Solo generador de sopa de letras', 'Generación ilimitada de hojas', 'Descargas con marca de agua', 'Soporte comunitario'],
-      sv: ['Endast ordsokning', 'Obegränsad generering', 'Nedladdningar med vattenstämpel', 'Community-support'],
-      it: ['Solo generatore di crucipuzzle', 'Generazione illimitata', 'Download con filigrana', 'Supporto community'],
-      pt: ['Apenas gerador de caça-palavras', 'Geração ilimitada', 'Downloads com marca d\'água', 'Suporte da comunidade'],
-      nl: ['Alleen woordzoeker generator', 'Onbeperkt genereren', 'Downloads met watermerk', 'Community support'],
-      da: ['Kun kryds og tværs generator', 'Ubegrænset generering', 'Downloads med vandmærke', 'Community support'],
-      no: ['Kun ordsøk-generator', 'Ubegrenset generering', 'Nedlastinger med vannmerke', 'Fellesskapsstøtte'],
-      fi: ['Vain sanaristikko-generaattori', 'Rajoittamaton luonti', 'Lataukset vesileimalla', 'Yhteisötuki'],
-    },
-    core: {
-      en: ['10 popular worksheet generators', 'Unlimited worksheet generation', 'No watermarks', 'High-quality PDF downloads', 'POD commercial license', 'Email support'],
-      de: ['10 beliebte Arbeitsblatt-Generatoren', 'Unbegrenzte Arbeitsblatterstellung', 'Keine Wasserzeichen', 'Hochwertige PDF-Downloads', 'POD-Gewerbliche Lizenz', 'E-Mail-Support'],
-      fr: ['10 générateurs populaires', 'Génération illimitée', 'Sans filigrane', 'Téléchargements PDF haute qualité', 'Licence commerciale POD', 'Support par email'],
-      es: ['10 generadores populares', 'Generación ilimitada', 'Sin marca de agua', 'Descargas PDF de alta calidad', 'Licencia comercial POD', 'Soporte por email'],
-      sv: ['10 populära generatorer', 'Obegränsad generering', 'Inga vattenstämplar', 'Högkvalitativa PDF-nedladdningar', 'POD kommersiell licens', 'E-postsupport'],
-      it: ['10 generatori popolari', 'Generazione illimitata', 'Senza filigrana', 'Download PDF alta qualità', 'Licenza commerciale POD', 'Supporto email'],
-      pt: ['10 geradores populares', 'Geração ilimitada', 'Sem marca d\'água', 'Downloads PDF de alta qualidade', 'Licença comercial POD', 'Suporte por email'],
-      nl: ['10 populaire generatoren', 'Onbeperkt genereren', 'Geen watermerken', 'Hoogwaardige PDF-downloads', 'POD commerciële licentie', 'E-mailondersteuning'],
-      da: ['10 populære generatorer', 'Ubegrænset generering', 'Ingen vandmærker', 'Højkvalitets PDF-downloads', 'POD kommerciel licens', 'E-mail support'],
-      no: ['10 populære generatorer', 'Ubegrenset generering', 'Ingen vannmerker', 'Høykvalitets PDF-nedlastinger', 'POD kommersiell lisens', 'E-poststøtte'],
-      fi: ['10 suosittua generaattoria', 'Rajoittamaton luonti', 'Ei vesileimoja', 'Korkealaatuiset PDF-lataukset', 'POD kaupallinen lisenssi', 'Sähköpostituki'],
-    },
-    full: {
-      en: ['All 33+ worksheet generators', 'Unlimited worksheet generation', 'No watermarks', 'Priority email support', 'Commercial license included', 'Early access to new apps'],
-      de: ['Alle 33+ Arbeitsblatt-Generatoren', 'Unbegrenzte Arbeitsblatterstellung', 'Keine Wasserzeichen', 'Prioritäts-E-Mail-Support', 'Gewerbliche Lizenz inklusive', 'Früher Zugang zu neuen Apps'],
-      fr: ['Les 33+ générateurs', 'Génération illimitée', 'Sans filigrane', 'Support email prioritaire', 'Licence commerciale incluse', 'Accès anticipé aux nouvelles apps'],
-      es: ['Los 33+ generadores', 'Generación ilimitada', 'Sin marca de agua', 'Soporte email prioritario', 'Licencia comercial incluida', 'Acceso anticipado a nuevas apps'],
-      sv: ['Alla 33+ generatorer', 'Obegränsad generering', 'Inga vattenstämplar', 'Prioriterad e-postsupport', 'Kommersiell licens ingår', 'Tidig tillgång till nya appar'],
-      it: ['Tutti i 33+ generatori', 'Generazione illimitata', 'Senza filigrana', 'Supporto email prioritario', 'Licenza commerciale inclusa', 'Accesso anticipato alle nuove app'],
-      pt: ['Todos os 33+ geradores', 'Geração ilimitada', 'Sem marca d\'água', 'Suporte email prioritário', 'Licença comercial incluída', 'Acesso antecipado a novos apps'],
-      nl: ['Alle 33+ generatoren', 'Onbeperkt genereren', 'Geen watermerken', 'Prioriteits e-mailondersteuning', 'Commerciële licentie inbegrepen', 'Vroege toegang tot nieuwe apps'],
-      da: ['Alle 33+ generatorer', 'Ubegrænset generering', 'Ingen vandmærker', 'Prioriteret e-mail support', 'Kommerciel licens inkluderet', 'Tidlig adgang til nye apps'],
-      no: ['Alle 33+ generatorer', 'Ubegrenset generering', 'Ingen vannmerker', 'Prioritert e-poststøtte', 'Kommersiell lisens inkludert', 'Tidlig tilgang til nye apper'],
-      fi: ['Kaikki 33+ generaattoria', 'Rajoittamaton luonti', 'Ei vesileimoja', 'Ensisijainen sähköpostituki', 'Kaupallinen lisenssi sisältyy', 'Varhainen pääsy uusiin sovelluksiin'],
-    },
+  // What a free account gets on the current platform (post-pivot: free for
+  // everyone, K-3 multilingual worksheets). Tier-neutral — no seller-era
+  // "Word Search Pro / watermarks / POD license" claims.
+  const featuresByLang: Record<string, string[]> = {
+    en: ['Thousands of interactive worksheets and printable PDFs', 'For young learners ages 3–8, in 11 languages', 'Play online or download and print', 'Free worksheet makers to build your own'],
+    de: ['Tausende interaktive Arbeitsblätter und druckbare PDFs', 'Für Kinder von 3 bis 8 Jahren, in 11 Sprachen', 'Online spielen oder herunterladen und ausdrucken', 'Kostenlose Generatoren, um eigene zu erstellen'],
+    fr: ['Des milliers de fiches interactives et de PDF imprimables', 'Pour les enfants de 3 à 8 ans, en 11 langues', 'À jouer en ligne ou à télécharger et imprimer', 'Des générateurs gratuits pour créer les vôtres'],
+    es: ['Miles de fichas interactivas y PDF imprimibles', 'Para niños de 3 a 8 años, en 11 idiomas', 'Juega en línea o descarga e imprime', 'Generadores gratuitos para crear las tuyas'],
+    sv: ['Tusentals interaktiva arbetsblad och utskrivbara PDF-filer', 'För barn 3–8 år, på 11 språk', 'Spela online eller ladda ner och skriv ut', 'Gratis verktyg för att skapa egna'],
+    it: ['Migliaia di schede interattive e PDF stampabili', 'Per bambini dai 3 agli 8 anni, in 11 lingue', 'Gioca online oppure scarica e stampa', 'Generatori gratuiti per crearne di tue'],
+    pt: ['Milhares de fichas interativas e PDFs para imprimir', 'Para crianças de 3 a 8 anos, em 11 idiomas', 'Jogue online ou baixe e imprima', 'Geradores gratuitos para criar as suas'],
+    nl: ['Duizenden interactieve werkbladen en printbare PDF\'s', 'Voor kinderen van 3 tot 8 jaar, in 11 talen', 'Speel online of download en print', 'Gratis generatoren om je eigen te maken'],
+    da: ['Tusindvis af interaktive opgaveark og PDF\'er til print', 'Til børn i alderen 3–8 år, på 11 sprog', 'Spil online eller download og print', 'Gratis værktøjer til at lave dine egne'],
+    no: ['Tusenvis av interaktive arbeidsark og utskrivbare PDF-er', 'For barn i alderen 3–8 år, på 11 språk', 'Spill online eller last ned og skriv ut', 'Gratis verktøy for å lage dine egne'],
+    fi: ['Tuhansia interaktiivisia tehtäviä ja tulostettavia PDF-tiedostoja', 'Lapsille 3–8-vuotiaille, 11 kielellä', 'Pelaa verkossa tai lataa ja tulosta', 'Ilmaiset työkalut omien tekemiseen'],
   };
 
   const translations = {
@@ -74,7 +48,7 @@ export const WelcomeEmail = ({
       title: 'Welcome to LessonCraftStudio!',
       greeting: `Hi ${firstName},`,
       body1: 'Your email has been verified and your account is now active!',
-      planTitle: `Your ${subscriptionTier.charAt(0).toUpperCase() + subscriptionTier.slice(1)} Plan Includes:`,
+      planTitle: 'What you can do:',
       getStarted: 'Get started creating amazing worksheets:',
       buttonText: 'Go to Dashboard',
       needHelp: 'Need Help?',
@@ -86,7 +60,7 @@ export const WelcomeEmail = ({
       title: 'Willkommen bei LessonCraftStudio!',
       greeting: `Hallo ${firstName},`,
       body1: 'Ihre E-Mail wurde bestätigt und Ihr Konto ist jetzt aktiv!',
-      planTitle: `Ihr ${subscriptionTier.charAt(0).toUpperCase() + subscriptionTier.slice(1)}-Plan umfasst:`,
+      planTitle: 'Das können Sie tun:',
       getStarted: 'Beginnen Sie mit der Erstellung großartiger Arbeitsblätter:',
       buttonText: 'Zum Dashboard',
       needHelp: 'Benötigen Sie Hilfe?',
@@ -98,7 +72,7 @@ export const WelcomeEmail = ({
       title: 'Bienvenue chez LessonCraftStudio!',
       greeting: `Bonjour ${firstName},`,
       body1: 'Votre email a été vérifié et votre compte est maintenant actif!',
-      planTitle: `Votre plan ${subscriptionTier.charAt(0).toUpperCase() + subscriptionTier.slice(1)} comprend:`,
+      planTitle: 'Ce que vous pouvez faire :',
       getStarted: 'Commencez à créer des feuilles de travail incroyables:',
       buttonText: 'Aller au tableau de bord',
       needHelp: 'Besoin d\'aide?',
@@ -110,7 +84,7 @@ export const WelcomeEmail = ({
       title: '¡Bienvenido a LessonCraftStudio!',
       greeting: `Hola ${firstName},`,
       body1: '¡Tu correo ha sido verificado y tu cuenta ahora está activa!',
-      planTitle: `Tu plan ${subscriptionTier.charAt(0).toUpperCase() + subscriptionTier.slice(1)} incluye:`,
+      planTitle: 'Lo que puedes hacer:',
       getStarted: 'Comienza a crear hojas de trabajo increíbles:',
       buttonText: 'Ir al panel',
       needHelp: '¿Necesitas ayuda?',
@@ -122,7 +96,7 @@ export const WelcomeEmail = ({
       title: 'Välkommen till LessonCraftStudio!',
       greeting: `Hej ${firstName},`,
       body1: 'Din e-post har verifierats och ditt konto är nu aktivt!',
-      planTitle: `Din ${subscriptionTier.charAt(0).toUpperCase() + subscriptionTier.slice(1)}-plan inkluderar:`,
+      planTitle: 'Vad du kan göra:',
       getStarted: 'Börja skapa fantastiska arbetsblad:',
       buttonText: 'Gå till instrumentpanelen',
       needHelp: 'Behöver du hjälp?',
@@ -134,7 +108,7 @@ export const WelcomeEmail = ({
       title: 'Benvenuto su LessonCraftStudio!',
       greeting: `Ciao ${firstName},`,
       body1: 'La tua email è stata verificata e il tuo account è ora attivo!',
-      planTitle: `Il tuo piano ${subscriptionTier.charAt(0).toUpperCase() + subscriptionTier.slice(1)} include:`,
+      planTitle: 'Cosa puoi fare:',
       getStarted: 'Inizia a creare fogli di lavoro fantastici:',
       buttonText: 'Vai alla dashboard',
       needHelp: 'Hai bisogno di aiuto?',
@@ -146,7 +120,7 @@ export const WelcomeEmail = ({
       title: 'Bem-vindo ao LessonCraftStudio!',
       greeting: `Olá ${firstName},`,
       body1: 'Seu e-mail foi verificado e sua conta agora está ativa!',
-      planTitle: `Seu plano ${subscriptionTier.charAt(0).toUpperCase() + subscriptionTier.slice(1)} inclui:`,
+      planTitle: 'O que você pode fazer:',
       getStarted: 'Comece a criar planilhas incríveis:',
       buttonText: 'Ir para o painel',
       needHelp: 'Precisa de ajuda?',
@@ -158,7 +132,7 @@ export const WelcomeEmail = ({
       title: 'Welkom bij LessonCraftStudio!',
       greeting: `Hallo ${firstName},`,
       body1: 'Uw e-mail is geverifieerd en uw account is nu actief!',
-      planTitle: `Uw ${subscriptionTier.charAt(0).toUpperCase() + subscriptionTier.slice(1)}-plan omvat:`,
+      planTitle: 'Wat u kunt doen:',
       getStarted: 'Begin met het maken van geweldige werkbladen:',
       buttonText: 'Ga naar dashboard',
       needHelp: 'Hulp nodig?',
@@ -170,7 +144,7 @@ export const WelcomeEmail = ({
       title: 'Velkommen til LessonCraftStudio!',
       greeting: `Hej ${firstName},`,
       body1: 'Din e-mail er blevet bekræftet, og din konto er nu aktiv!',
-      planTitle: `Din ${subscriptionTier.charAt(0).toUpperCase() + subscriptionTier.slice(1)}-plan inkluderer:`,
+      planTitle: 'Det kan du gøre:',
       getStarted: 'Kom i gang med at oprette fantastiske arbejdsark:',
       buttonText: 'Gå til dashboard',
       needHelp: 'Brug for hjælp?',
@@ -182,7 +156,7 @@ export const WelcomeEmail = ({
       title: 'Velkommen til LessonCraftStudio!',
       greeting: `Hei ${firstName},`,
       body1: 'E-posten din har blitt bekreftet og kontoen din er nå aktiv!',
-      planTitle: `Din ${subscriptionTier.charAt(0).toUpperCase() + subscriptionTier.slice(1)}-plan inkluderer:`,
+      planTitle: 'Dette kan du gjøre:',
       getStarted: 'Kom i gang med å lage fantastiske arbeidsark:',
       buttonText: 'Gå til instrumentpanelet',
       needHelp: 'Trenger du hjelp?',
@@ -194,7 +168,7 @@ export const WelcomeEmail = ({
       title: 'Tervetuloa LessonCraftStudioon!',
       greeting: `Hei ${firstName},`,
       body1: 'Sähköpostisi on vahvistettu ja tilisi on nyt aktiivinen!',
-      planTitle: `${subscriptionTier.charAt(0).toUpperCase() + subscriptionTier.slice(1)}-pakettisi sisältää:`,
+      planTitle: 'Mitä voit tehdä:',
       getStarted: 'Aloita upeiden työarkkien luominen:',
       buttonText: 'Siirry kojelaudalle',
       needHelp: 'Tarvitsetko apua?',
@@ -204,7 +178,7 @@ export const WelcomeEmail = ({
   };
 
   const t = translations[language as keyof typeof translations] || translations.en;
-  const features = planFeatures[subscriptionTier as keyof typeof planFeatures]?.[language as keyof typeof planFeatures.free] || planFeatures.free.en;
+  const features = featuresByLang[language] || featuresByLang.en;
 
   return (
     <BaseLayout preview={t.preview} language={language}>
@@ -271,8 +245,8 @@ const paragraph = {
 };
 
 const planBox = {
-  backgroundColor: '#d4edda',
-  border: '1px solid #28a745',
+  backgroundColor: '#E8F3F1',
+  border: '1px solid #146B5E',
   borderRadius: '8px',
   padding: '20px',
   margin: '30px 0',
@@ -281,14 +255,14 @@ const planBox = {
 const planHeading = {
   fontSize: '20px',
   fontWeight: '600',
-  color: '#155724',
+  color: '#146B5E',
   margin: '0 0 15px',
 };
 
 const featureList = {
   margin: '0',
   padding: '0 0 0 20px',
-  color: '#155724',
+  color: '#146B5E',
 };
 
 const featureItem = {
@@ -303,7 +277,7 @@ const buttonContainer = {
 };
 
 const button = {
-  backgroundColor: '#28a745',
+  backgroundColor: '#146B5E',
   borderRadius: '5px',
   color: '#fff',
   fontSize: '16px',

@@ -28,6 +28,7 @@ import { prisma } from '@/lib/prisma';
 import { SUBSCRIPTION_PRODUCT, isLcsSubscriptionProduct } from '@/config/lemonsqueezy-product-config';
 import { generatePasswordResetToken, hashToken } from '@/lib/auth-utils';
 import { sendPasswordResetEmail } from '@/lib/email';
+import { isSubscriptionUsable } from '@/lib/entitlements';
 
 export const dynamic = 'force-dynamic';
 
@@ -203,6 +204,45 @@ async function resolveOrCreateUserByEmail(buyerEmail: string, buyerName: string 
   return { user, isNewAccount };
 }
 
+/**
+ * Bridge the LS Subscription state onto the legacy `user.subscriptionTier` field.
+ *
+ * The 2026-07 subscription launch writes the `Subscription` table, but the admin
+ * panel (/api/admin/users), the me-route limits, and ~50 other legacy surfaces
+ * still read `user.subscriptionTier` (free/core/full). Without this bridge a
+ * paying subscriber keeps displaying as "free" everywhere. We reuse the existing
+ * top tier value 'full' (all legacy read-sites already treat it as full access,
+ * so no new enum) and the grace-aware `isSubscriptionUsable` predicate so the
+ * tier tracks real entitlement: active / dunning-grace / paid-through-cancel →
+ * 'full', otherwise 'free'. Non-fatal: the Subscription row stays authoritative
+ * for feature gating.
+ */
+async function syncUserTierForSubscription(lsSubscriptionId: string) {
+  try {
+    if (!lsSubscriptionId) return;
+    const sub = await (prisma.subscription as any).findUnique({
+      where: { lsSubscriptionId },
+      select: {
+        userId: true,
+        status: true,
+        lsSubscriptionId: true,
+        pastDueAt: true,
+        currentPeriodEnd: true,
+      },
+    });
+    if (!sub?.userId) return;
+    const tier = isSubscriptionUsable({ subscription: sub }) ? 'full' : 'free';
+    await prisma.user.update({
+      where: { id: sub.userId },
+      data: { subscriptionTier: tier },
+    });
+    console.log(`LS tier bridge: user ${sub.userId} → subscriptionTier='${tier}' (sub ${lsSubscriptionId}, status=${sub.status})`);
+  } catch (err) {
+    console.error(`LS tier bridge: failed to sync subscriptionTier for ${lsSubscriptionId}:`, err);
+    // Non-fatal — the Subscription table is authoritative for feature gating.
+  }
+}
+
 async function handleSubscriptionCreated(payload: any, eventId: string) {
   try {
     const attrs = payload.data?.attributes || {};
@@ -293,6 +333,7 @@ async function handleSubscriptionCreated(payload: any, eventId: string) {
       }
     }
 
+    await syncUserTierForSubscription(lsSubscriptionId);
     await prisma.lSWebhookEvent.update({ where: { eventId }, data: { status: 'processed' } });
   } catch (error: any) {
     console.error('LS subscription_created error:', error);
@@ -334,6 +375,7 @@ async function handleSubscriptionUpdated(payload: any, eventId: string) {
       console.log(`LS subscription_updated: ${lsSubscriptionId} → ${mapLsStatusToSchemaStatus(lsStatus)} (renewsAt=${renewsAt?.toISOString() || 'null'})`);
     }
 
+    await syncUserTierForSubscription(lsSubscriptionId);
     await prisma.lSWebhookEvent.update({ where: { eventId }, data: { status: 'processed' } });
   } catch (error: any) {
     console.error('LS subscription_updated error:', error);
@@ -376,6 +418,7 @@ async function handleSubscriptionCancelled(payload: any, eventId: string) {
       console.log(`LS subscription_cancelled: ${lsSubscriptionId} cancelled (endsAt=${endsAt?.toISOString() || 'null'}, reason=${cancelReason || 'unspecified'})`);
     }
 
+    await syncUserTierForSubscription(lsSubscriptionId);
     await prisma.lSWebhookEvent.update({ where: { eventId }, data: { status: 'processed' } });
   } catch (error: any) {
     console.error('LS subscription_cancelled error:', error);
@@ -416,6 +459,7 @@ async function handleSubscriptionPaymentSuccess(payload: any, eventId: string) {
       console.log(`LS subscription_payment_success: ${lsSubscriptionId} → active (lsStatus=${lsStatus})`);
     }
 
+    await syncUserTierForSubscription(lsSubscriptionId);
     await prisma.lSWebhookEvent.update({ where: { eventId }, data: { status: 'processed' } });
   } catch (error: any) {
     console.error('LS subscription_payment_success error:', error);
@@ -451,6 +495,7 @@ async function handleSubscriptionPaymentFailed(payload: any, eventId: string) {
       console.log(`LS subscription_payment_failed: ${lsSubscriptionId} → past_due (invoice ${invoiceId})`);
     }
 
+    await syncUserTierForSubscription(lsSubscriptionId);
     await prisma.lSWebhookEvent.update({ where: { eventId }, data: { status: 'processed' } });
   } catch (error: any) {
     console.error('LS subscription_payment_failed error:', error);

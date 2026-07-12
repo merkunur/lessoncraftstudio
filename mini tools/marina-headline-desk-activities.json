@@ -3,205 +3,662 @@
     "id": "marina-headline-desk.main-topic.ri-2-2",
     "tool": "marina-headline-desk-activity",
     "task_template": "marina-headline-desk",
-    "alignment": { "framework": "CCSS", "code": "RI.2.2", "grade": "2", "strand": "Reading: Informational Text" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RI.2.2",
+      "grade": "2",
+      "strand": "Reading: Informational Text"
+    },
     "params": {
       "rounds": [
         {
-          "id": "bees", "band": 1,
-          "story": ["Bees live together in a busy hive.", "They fly from flower to flower for nectar.", "Back home, they turn the nectar into honey."],
+          "id": "bees",
+          "band": 1,
+          "story": [
+            "Bees live together in a busy hive.",
+            "They fly from flower to flower for nectar.",
+            "Back home, they turn the nectar into honey."
+          ],
           "options": [
-            { "id": "o1", "kind": "topic", "text": "How bees make their honey." },
-            { "id": "o2", "kind": "detail", "text": "They fly from flower to flower." },
-            { "id": "o3", "kind": "offtopic", "text": "Spiders spin webs." }
+            {
+              "id": "o1",
+              "kind": "topic",
+              "text": "How bees make their honey."
+            },
+            {
+              "id": "o2",
+              "kind": "detail",
+              "text": "They fly from flower to flower."
+            },
+            {
+              "id": "o3",
+              "kind": "offtopic",
+              "text": "Spiders spin webs."
+            }
           ]
         },
         {
-          "id": "rain", "band": 1,
-          "story": ["The sun warms the water in lakes and seas.", "The water rises up and makes clouds.", "When the clouds get heavy, rain falls down."],
+          "id": "rain",
+          "band": 1,
+          "story": [
+            "The sun warms the water in lakes and seas.",
+            "The water rises up and makes clouds.",
+            "When the clouds get heavy, rain falls down."
+          ],
           "options": [
-            { "id": "o1", "kind": "detail", "text": "The sun warms the water in lakes." },
-            { "id": "o2", "kind": "offtopic", "text": "Camels rarely drink." },
-            { "id": "o3", "kind": "topic", "text": "Where the rain comes from." }
+            {
+              "id": "o1",
+              "kind": "detail",
+              "text": "The sun warms the water in lakes."
+            },
+            {
+              "id": "o2",
+              "kind": "offtopic",
+              "text": "Camels rarely drink."
+            },
+            {
+              "id": "o3",
+              "kind": "topic",
+              "text": "Where the rain comes from."
+            }
           ]
         },
         {
-          "id": "frog", "band": 1,
-          "story": ["A frog starts life as a tiny egg.", "The egg hatches into a tadpole that swims.", "The tadpole slowly grows legs and becomes a frog."],
+          "id": "frog",
+          "band": 1,
+          "story": [
+            "A frog starts life as a tiny egg.",
+            "The egg hatches into a tadpole that swims.",
+            "The tadpole slowly grows legs and becomes a frog."
+          ],
           "options": [
-            { "id": "o1", "kind": "detail", "text": "The egg hatches into a swimming tadpole." },
-            { "id": "o2", "kind": "topic", "text": "How a frog grows up." },
-            { "id": "o3", "kind": "offtopic", "text": "Owls hunt mice." }
+            {
+              "id": "o1",
+              "kind": "detail",
+              "text": "The egg hatches into a swimming tadpole."
+            },
+            {
+              "id": "o2",
+              "kind": "topic",
+              "text": "How a frog grows up."
+            },
+            {
+              "id": "o3",
+              "kind": "offtopic",
+              "text": "Owls hunt mice."
+            }
           ]
         },
         {
-          "id": "teeth", "band": 2,
-          "story": ["Brushing keeps your teeth clean and strong.", "It wipes away bits of food and sugar.", "Clean teeth help you chew and smile."],
+          "id": "teeth",
+          "band": 2,
+          "story": [
+            "Brushing keeps your teeth clean and strong.",
+            "It wipes away bits of food and sugar.",
+            "Clean teeth help you chew and smile."
+          ],
           "options": [
-            { "id": "o1", "kind": "topic", "text": "Why we brush our teeth." },
-            { "id": "o2", "kind": "detail", "text": "It wipes away bits of food and sugar." },
-            { "id": "o3", "kind": "offtopic", "text": "Giraffes are tall." }
+            {
+              "id": "o1",
+              "kind": "topic",
+              "text": "Why we brush our teeth."
+            },
+            {
+              "id": "o2",
+              "kind": "detail",
+              "text": "It wipes away bits of food and sugar."
+            },
+            {
+              "id": "o3",
+              "kind": "offtopic",
+              "text": "Giraffes are tall."
+            }
           ]
         },
         {
-          "id": "volcano", "band": 2,
-          "story": ["Deep under a volcano, hot melted rock waits.", "Pressure builds up until it pushes upward.", "The rock bursts out as glowing hot lava."],
+          "id": "volcano",
+          "band": 2,
+          "story": [
+            "Deep under a volcano, hot melted rock waits.",
+            "Pressure builds up until it pushes upward.",
+            "The rock bursts out as glowing hot lava."
+          ],
           "options": [
-            { "id": "o1", "kind": "detail", "text": "Deep under a volcano, hot rock waits." },
-            { "id": "o2", "kind": "offtopic", "text": "Penguins waddle." },
-            { "id": "o3", "kind": "topic", "text": "How a volcano erupts." }
+            {
+              "id": "o1",
+              "kind": "detail",
+              "text": "Deep under a volcano, hot rock waits."
+            },
+            {
+              "id": "o2",
+              "kind": "offtopic",
+              "text": "Penguins waddle."
+            },
+            {
+              "id": "o3",
+              "kind": "topic",
+              "text": "How a volcano erupts."
+            }
           ]
         },
         {
-          "id": "library", "band": 2,
-          "story": ["A library is full of books to borrow.", "You pick a book and take it home to read.", "When you finish, you bring it back for others."],
+          "id": "library",
+          "band": 2,
+          "story": [
+            "A library is full of books to borrow.",
+            "You pick a book and take it home to read.",
+            "When you finish, you bring it back for others."
+          ],
           "options": [
-            { "id": "o1", "kind": "detail", "text": "You pick a book and take it home." },
-            { "id": "o2", "kind": "topic", "text": "How a library lends books." },
-            { "id": "o3", "kind": "offtopic", "text": "Bats sleep all day." }
+            {
+              "id": "o1",
+              "kind": "detail",
+              "text": "You pick a book and take it home."
+            },
+            {
+              "id": "o2",
+              "kind": "topic",
+              "text": "How a library lends books."
+            },
+            {
+              "id": "o3",
+              "kind": "offtopic",
+              "text": "Bats sleep all day."
+            }
           ]
         },
         {
-          "id": "wind", "band": 3,
-          "story": ["Moving air is what we call wind.", "Wind can push a sailboat across a lake.", "It can also turn the blades of a windmill."],
+          "id": "wind",
+          "band": 3,
+          "story": [
+            "Moving air is what we call wind.",
+            "Wind can push a sailboat across a lake.",
+            "It can also turn the blades of a windmill."
+          ],
           "options": [
-            { "id": "o1", "kind": "topic", "text": "What the wind can do." },
-            { "id": "o2", "kind": "detail", "text": "Wind can push a sailboat across a lake." },
-            { "id": "o3", "kind": "offtopic", "text": "Snails are slow." }
+            {
+              "id": "o1",
+              "kind": "topic",
+              "text": "What the wind can do."
+            },
+            {
+              "id": "o2",
+              "kind": "detail",
+              "text": "Wind can push a sailboat across a lake."
+            },
+            {
+              "id": "o3",
+              "kind": "offtopic",
+              "text": "Snails are slow."
+            }
           ]
         },
         {
-          "id": "seed", "band": 3,
-          "story": ["A seed needs sun, water, and soil to grow.", "Its roots reach down for a drink.", "Then a green shoot pushes up to the light."],
+          "id": "seed",
+          "band": 3,
+          "story": [
+            "A seed needs sun, water, and soil to grow.",
+            "Its roots reach down for a drink.",
+            "Then a green shoot pushes up to the light."
+          ],
           "options": [
-            { "id": "o1", "kind": "detail", "text": "Its roots reach down for a drink." },
-            { "id": "o2", "kind": "offtopic", "text": "Foxes have red fur." },
-            { "id": "o3", "kind": "topic", "text": "What a seed needs to grow." }
+            {
+              "id": "o1",
+              "kind": "detail",
+              "text": "Its roots reach down for a drink."
+            },
+            {
+              "id": "o2",
+              "kind": "offtopic",
+              "text": "Foxes have red fur."
+            },
+            {
+              "id": "o3",
+              "kind": "topic",
+              "text": "What a seed needs to grow."
+            }
           ]
         }
       ],
       "roundsL10n": {
         "de": [
-          { "id": "bees", "band": 1,
-            "story": ["Bienen leben zusammen in einem Bienenstock.", "Sie fliegen von Blüte zu Blüte.", "Zu Hause machen sie aus dem Nektar Honig."],
+          {
+            "id": "bees",
+            "band": 1,
+            "story": [
+              "Bienen leben zusammen in einem Bienenstock.",
+              "Sie fliegen von Blüte zu Blüte.",
+              "Zu Hause machen sie aus dem Nektar Honig."
+            ],
             "options": [
-              { "id": "o1", "kind": "topic", "text": "Wie Bienen Honig machen." },
-              { "id": "o2", "kind": "detail", "text": "Bienen fliegen von Blüte zu Blüte." },
-              { "id": "o3", "kind": "offtopic", "text": "Spinnen weben Netze." }
-            ] },
-          { "id": "rain", "band": 1,
-            "story": ["Die Sonne wärmt das Wasser in den Seen.", "Das Wasser steigt hoch und wird zu Wolken.", "Sind die Wolken schwer, fällt der Regen."],
+              {
+                "id": "o1",
+                "kind": "topic",
+                "text": "Wie Bienen Honig machen."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "Bienen fliegen von Blüte zu Blüte."
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "Spinnen weben Netze."
+              }
+            ]
+          },
+          {
+            "id": "rain",
+            "band": 1,
+            "story": [
+              "Die Sonne wärmt das Wasser in den Seen.",
+              "Das Wasser steigt hoch und wird zu Wolken.",
+              "Sind die Wolken schwer, fällt der Regen."
+            ],
             "options": [
-              { "id": "o1", "kind": "detail", "text": "Die Sonne wärmt das Wasser in den Seen." },
-              { "id": "o2", "kind": "offtopic", "text": "Kamele trinken selten." },
-              { "id": "o3", "kind": "topic", "text": "Woher der Regen kommt." }
-            ] },
-          { "id": "frog", "band": 1,
-            "story": ["Ein Frosch beginnt als kleines Ei.", "Aus dem Ei schlüpft eine Kaulquappe, die schwimmt.", "Die Kaulquappe bekommt Beine und wird ein Frosch."],
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Die Sonne wärmt das Wasser in den Seen."
+              },
+              {
+                "id": "o2",
+                "kind": "offtopic",
+                "text": "Kamele trinken selten."
+              },
+              {
+                "id": "o3",
+                "kind": "topic",
+                "text": "Woher der Regen kommt."
+              }
+            ]
+          },
+          {
+            "id": "frog",
+            "band": 1,
+            "story": [
+              "Ein Frosch beginnt als kleines Ei.",
+              "Aus dem Ei schlüpft eine Kaulquappe, die schwimmt.",
+              "Die Kaulquappe bekommt Beine und wird ein Frosch."
+            ],
             "options": [
-              { "id": "o1", "kind": "detail", "text": "Aus dem Ei schlüpft eine Kaulquappe." },
-              { "id": "o2", "kind": "topic", "text": "Wie ein Frosch groß wird." },
-              { "id": "o3", "kind": "offtopic", "text": "Eulen jagen Mäuse." }
-            ] },
-          { "id": "teeth", "band": 2,
-            "story": ["Zähneputzen hält die Zähne sauber und stark.", "Es wischt Reste von Essen und Zucker weg.", "Saubere Zähne helfen beim Kauen und Lächeln."],
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Aus dem Ei schlüpft eine Kaulquappe."
+              },
+              {
+                "id": "o2",
+                "kind": "topic",
+                "text": "Wie ein Frosch groß wird."
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "Eulen jagen Mäuse."
+              }
+            ]
+          },
+          {
+            "id": "teeth",
+            "band": 2,
+            "story": [
+              "Zähneputzen hält die Zähne sauber und stark.",
+              "Es wischt Reste von Essen und Zucker weg.",
+              "Saubere Zähne helfen beim Kauen und Lächeln."
+            ],
             "options": [
-              { "id": "o1", "kind": "topic", "text": "Warum wir die Zähne putzen." },
-              { "id": "o2", "kind": "detail", "text": "Es wischt Essen und Zucker weg." },
-              { "id": "o3", "kind": "offtopic", "text": "Giraffen sind groß." }
-            ] },
-          { "id": "volcano", "band": 2,
-            "story": ["Tief unter dem Vulkan wartet heißes Gestein.", "Der Druck steigt und drückt es nach oben.", "Das Gestein bricht als glühende Lava heraus."],
+              {
+                "id": "o1",
+                "kind": "topic",
+                "text": "Warum wir die Zähne putzen."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "Es wischt Essen und Zucker weg."
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "Giraffen sind groß."
+              }
+            ]
+          },
+          {
+            "id": "volcano",
+            "band": 2,
+            "story": [
+              "Tief unter dem Vulkan wartet heißes Gestein.",
+              "Der Druck steigt und drückt es nach oben.",
+              "Das Gestein bricht als glühende Lava heraus."
+            ],
             "options": [
-              { "id": "o1", "kind": "detail", "text": "Tief unter dem Vulkan wartet heißes Gestein." },
-              { "id": "o2", "kind": "offtopic", "text": "Pinguine watscheln." },
-              { "id": "o3", "kind": "topic", "text": "Wie ein Vulkan ausbricht." }
-            ] },
-          { "id": "library", "band": 2,
-            "story": ["Eine Bücherei ist voll mit Büchern.", "Du suchst ein Buch aus und nimmst es mit.", "Bist du fertig, bringst du es zurück."],
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Tief unter dem Vulkan wartet heißes Gestein."
+              },
+              {
+                "id": "o2",
+                "kind": "offtopic",
+                "text": "Pinguine watscheln."
+              },
+              {
+                "id": "o3",
+                "kind": "topic",
+                "text": "Wie ein Vulkan ausbricht."
+              }
+            ]
+          },
+          {
+            "id": "library",
+            "band": 2,
+            "story": [
+              "Eine Bücherei ist voll mit Büchern.",
+              "Du suchst ein Buch aus und nimmst es mit.",
+              "Bist du fertig, bringst du es zurück."
+            ],
             "options": [
-              { "id": "o1", "kind": "detail", "text": "Du suchst ein Buch aus und nimmst es mit." },
-              { "id": "o2", "kind": "topic", "text": "Wie eine Bücherei Bücher verleiht." },
-              { "id": "o3", "kind": "offtopic", "text": "Fledermäuse schlafen tagsüber." }
-            ] },
-          { "id": "wind", "band": 3,
-            "story": ["Bewegte Luft nennen wir Wind.", "Wind kann ein Segelboot über den See schieben.", "Er kann auch die Flügel einer Windmühle drehen."],
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Du suchst ein Buch aus und nimmst es mit."
+              },
+              {
+                "id": "o2",
+                "kind": "topic",
+                "text": "Wie eine Bücherei Bücher verleiht."
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "Fledermäuse schlafen tagsüber."
+              }
+            ]
+          },
+          {
+            "id": "wind",
+            "band": 3,
+            "story": [
+              "Bewegte Luft nennen wir Wind.",
+              "Wind kann ein Segelboot über den See schieben.",
+              "Er kann auch die Flügel einer Windmühle drehen."
+            ],
             "options": [
-              { "id": "o1", "kind": "topic", "text": "Was der Wind kann." },
-              { "id": "o2", "kind": "detail", "text": "Wind kann ein Segelboot über den See schieben." },
-              { "id": "o3", "kind": "offtopic", "text": "Schnecken sind langsam." }
-            ] },
-          { "id": "seed", "band": 3,
-            "story": ["Ein Samen braucht Sonne, Wasser und Erde.", "Seine Wurzeln reichen nach unten zum Trinken.", "Dann wächst ein grüner Trieb nach oben."],
+              {
+                "id": "o1",
+                "kind": "topic",
+                "text": "Was der Wind kann."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "Wind kann ein Segelboot über den See schieben."
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "Schnecken sind langsam."
+              }
+            ]
+          },
+          {
+            "id": "seed",
+            "band": 3,
+            "story": [
+              "Ein Samen braucht Sonne, Wasser und Erde.",
+              "Seine Wurzeln reichen nach unten zum Trinken.",
+              "Dann wächst ein grüner Trieb nach oben."
+            ],
             "options": [
-              { "id": "o1", "kind": "detail", "text": "Seine Wurzeln reichen nach unten zum Trinken." },
-              { "id": "o2", "kind": "offtopic", "text": "Füchse haben rotes Fell." },
-              { "id": "o3", "kind": "topic", "text": "Was ein Samen zum Wachsen braucht." }
-            ] }
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Seine Wurzeln reichen nach unten zum Trinken."
+              },
+              {
+                "id": "o2",
+                "kind": "offtopic",
+                "text": "Füchse haben rotes Fell."
+              },
+              {
+                "id": "o3",
+                "kind": "topic",
+                "text": "Was ein Samen zum Wachsen braucht."
+              }
+            ]
+          }
         ],
         "fr": [
-          { "id": "bees", "band": 1,
-            "story": ["Les abeilles vivent ensemble dans une ruche.", "Elles volent de fleur en fleur pour le nectar.", "À la ruche, elles transforment le nectar en miel."],
+          {
+            "id": "bees",
+            "band": 1,
+            "story": [
+              "Les abeilles vivent ensemble dans une ruche.",
+              "Elles volent de fleur en fleur pour le nectar.",
+              "À la ruche, elles transforment le nectar en miel."
+            ],
             "options": [
-              { "id": "o1", "kind": "topic", "text": "Comment les abeilles font leur miel." },
-              { "id": "o2", "kind": "detail", "text": "Elles volent de fleur en fleur." },
-              { "id": "o3", "kind": "offtopic", "text": "Les araignées tissent des toiles." }
-            ] },
-          { "id": "rain", "band": 1,
-            "story": ["Le soleil réchauffe l'eau des lacs et des mers.", "L'eau monte et forme des nuages.", "Quand les nuages sont lourds, la pluie tombe."],
+              {
+                "id": "o1",
+                "kind": "topic",
+                "text": "Comment les abeilles font leur miel."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "Elles volent de fleur en fleur."
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "Les araignées tissent des toiles."
+              }
+            ]
+          },
+          {
+            "id": "rain",
+            "band": 1,
+            "story": [
+              "Le soleil réchauffe l'eau des lacs et des mers.",
+              "L'eau monte et forme des nuages.",
+              "Quand les nuages sont lourds, la pluie tombe."
+            ],
             "options": [
-              { "id": "o1", "kind": "detail", "text": "Le soleil réchauffe l'eau des lacs." },
-              { "id": "o2", "kind": "offtopic", "text": "Les chameaux boivent rarement." },
-              { "id": "o3", "kind": "topic", "text": "D'où vient la pluie." }
-            ] },
-          { "id": "frog", "band": 1,
-            "story": ["Une grenouille commence sa vie comme un petit œuf.", "L'œuf éclot en un têtard qui nage.", "Le têtard grandit, ses pattes poussent et il devient une grenouille."],
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Le soleil réchauffe l'eau des lacs."
+              },
+              {
+                "id": "o2",
+                "kind": "offtopic",
+                "text": "Les chameaux boivent rarement."
+              },
+              {
+                "id": "o3",
+                "kind": "topic",
+                "text": "D'où vient la pluie."
+              }
+            ]
+          },
+          {
+            "id": "frog",
+            "band": 1,
+            "story": [
+              "Une grenouille commence sa vie comme un petit œuf.",
+              "L'œuf éclot en un têtard qui nage.",
+              "Le têtard grandit, ses pattes poussent et il devient une grenouille."
+            ],
             "options": [
-              { "id": "o1", "kind": "detail", "text": "L'œuf éclot en un têtard qui nage." },
-              { "id": "o2", "kind": "topic", "text": "Comment grandit une grenouille." },
-              { "id": "o3", "kind": "offtopic", "text": "Les hiboux chassent les souris." }
-            ] },
-          { "id": "teeth", "band": 2,
-            "story": ["Se brosser les dents les garde propres et solides.", "Cela enlève les restes de nourriture et le sucre.", "Des dents propres aident à mâcher et à sourire."],
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "L'œuf éclot en un têtard qui nage."
+              },
+              {
+                "id": "o2",
+                "kind": "topic",
+                "text": "Comment grandit une grenouille."
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "Les hiboux chassent les souris."
+              }
+            ]
+          },
+          {
+            "id": "teeth",
+            "band": 2,
+            "story": [
+              "Se brosser les dents les garde propres et solides.",
+              "Cela enlève les restes de nourriture et le sucre.",
+              "Des dents propres aident à mâcher et à sourire."
+            ],
             "options": [
-              { "id": "o1", "kind": "topic", "text": "Pourquoi on se brosse les dents." },
-              { "id": "o2", "kind": "detail", "text": "Cela enlève les restes de nourriture et le sucre." },
-              { "id": "o3", "kind": "offtopic", "text": "Les girafes sont grandes." }
-            ] },
-          { "id": "volcano", "band": 2,
-            "story": ["Sous le volcan, de la roche brûlante et fondue attend.", "La pression monte jusqu'à la pousser vers le haut.", "La roche jaillit sous forme de lave brûlante."],
+              {
+                "id": "o1",
+                "kind": "topic",
+                "text": "Pourquoi on se brosse les dents."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "Cela enlève les restes de nourriture et le sucre."
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "Les girafes sont grandes."
+              }
+            ]
+          },
+          {
+            "id": "volcano",
+            "band": 2,
+            "story": [
+              "Sous le volcan, de la roche brûlante et fondue attend.",
+              "La pression monte jusqu'à la pousser vers le haut.",
+              "La roche jaillit sous forme de lave brûlante."
+            ],
             "options": [
-              { "id": "o1", "kind": "detail", "text": "Sous le volcan, de la roche brûlante attend." },
-              { "id": "o2", "kind": "offtopic", "text": "Les manchots se dandinent." },
-              { "id": "o3", "kind": "topic", "text": "Comment un volcan entre en éruption." }
-            ] },
-          { "id": "library", "band": 2,
-            "story": ["Une bibliothèque est pleine de livres à emprunter.", "Tu choisis un livre et tu l'emportes chez toi pour le lire.", "Quand tu as fini, tu le rapportes pour les autres."],
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Sous le volcan, de la roche brûlante attend."
+              },
+              {
+                "id": "o2",
+                "kind": "offtopic",
+                "text": "Les manchots se dandinent."
+              },
+              {
+                "id": "o3",
+                "kind": "topic",
+                "text": "Comment un volcan entre en éruption."
+              }
+            ]
+          },
+          {
+            "id": "library",
+            "band": 2,
+            "story": [
+              "Une bibliothèque est pleine de livres à emprunter.",
+              "Tu choisis un livre et tu l'emportes chez toi pour le lire.",
+              "Quand tu as fini, tu le rapportes pour les autres."
+            ],
             "options": [
-              { "id": "o1", "kind": "detail", "text": "Tu choisis un livre et tu l'emportes chez toi." },
-              { "id": "o2", "kind": "topic", "text": "Comment une bibliothèque prête des livres." },
-              { "id": "o3", "kind": "offtopic", "text": "Les chauves-souris dorment le jour." }
-            ] },
-          { "id": "wind", "band": 3,
-            "story": ["L'air qui bouge, c'est ce qu'on appelle le vent.", "Le vent peut pousser un voilier sur un lac.", "Il peut aussi faire tourner les ailes d'un moulin."],
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Tu choisis un livre et tu l'emportes chez toi."
+              },
+              {
+                "id": "o2",
+                "kind": "topic",
+                "text": "Comment une bibliothèque prête des livres."
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "Les chauves-souris dorment le jour."
+              }
+            ]
+          },
+          {
+            "id": "wind",
+            "band": 3,
+            "story": [
+              "L'air qui bouge, c'est ce qu'on appelle le vent.",
+              "Le vent peut pousser un voilier sur un lac.",
+              "Il peut aussi faire tourner les ailes d'un moulin."
+            ],
             "options": [
-              { "id": "o1", "kind": "topic", "text": "Ce que le vent peut faire." },
-              { "id": "o2", "kind": "detail", "text": "Le vent peut pousser un voilier sur un lac." },
-              { "id": "o3", "kind": "offtopic", "text": "Les escargots sont lents." }
-            ] },
-          { "id": "seed", "band": 3,
-            "story": ["Une graine a besoin de soleil, d'eau et de terre pour pousser.", "Ses racines descendent pour boire.", "Puis une pousse verte monte vers la lumière."],
+              {
+                "id": "o1",
+                "kind": "topic",
+                "text": "Ce que le vent peut faire."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "Le vent peut pousser un voilier sur un lac."
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "Les escargots sont lents."
+              }
+            ]
+          },
+          {
+            "id": "seed",
+            "band": 3,
+            "story": [
+              "Une graine a besoin de soleil, d'eau et de terre pour pousser.",
+              "Ses racines descendent pour boire.",
+              "Puis une pousse verte monte vers la lumière."
+            ],
             "options": [
-              { "id": "o1", "kind": "detail", "text": "Ses racines descendent pour boire." },
-              { "id": "o2", "kind": "offtopic", "text": "Les renards ont une fourrure rousse." },
-              { "id": "o3", "kind": "topic", "text": "Ce dont une graine a besoin pour pousser." }
-            ] }
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Ses racines descendent pour boire."
+              },
+              {
+                "id": "o2",
+                "kind": "offtopic",
+                "text": "Les renards ont une fourrure rousse."
+              },
+              {
+                "id": "o3",
+                "kind": "topic",
+                "text": "Ce dont une graine a besoin pour pousser."
+              }
+            ]
+          }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "marinas-headline-desk", "de": "hauptthema-eines-sachtexts-erkennen-klasse-3", "fr": "trouver-le-sujet-principal-d-un-texte-ce2" },
-    "page_title": { "en": "Marina's Headline Desk — What's It Mostly About? (Grade 2)", "de": "Das Hauptthema eines Sachtexts erkennen", "fr": "Le bureau des titres de Marina : le sujet principal (CE2)" },
-    "page_intro": { "en": "Marina the otter writes headlines at the news desk, and a headline has to say what a story is MOSTLY about. Read each short article, then tap the card that names its main topic — not one small detail it mentions, and not something off the page. A warm Grade 2 reading game about finding the main topic of an informational text, aligned to Common Core RI.2.2.", "de": "Erkenne das Hauptthema eines kurzen Sachtexts & unterscheide es vom kleinen Detail – kostenlos & interaktiv für Klasse 3.", "fr": "Un jeu de lecture CE2, gratuit et interactif : Marina la loutre écrit les titres de la rédaction, et un titre doit dire de quoi une histoire parle SURTOUT. Ton enfant lit chaque petit article, puis touche la carte qui nomme son sujet principal — pas un petit détail qu'il cite, ni quelque chose hors du texte. Un jeu tout doux pour apprendre à trouver le sujet principal d'un texte documentaire." },
+    "slug": {
+      "en": "marinas-headline-desk",
+      "de": "hauptthema-eines-sachtexts-erkennen-klasse-3",
+      "fr": "trouver-le-sujet-principal-d-un-texte-ce2"
+    },
+    "page_title": {
+      "en": "Marina's Headline Desk — What's It Mostly About? (Grade 2)",
+      "de": "Leseverständnis Klasse 2 – das Hauptthema erkennen, online üben",
+      "fr": "Le bureau des titres de Marina : le sujet principal (CE2)"
+    },
+    "page_intro": {
+      "en": "Marina the otter writes headlines at the news desk, and a headline has to say what a story is MOSTLY about. Read each short article, then tap the card that names its main topic — not one small detail it mentions, and not something off the page. A warm Grade 2 reading game about finding the main topic of an informational text, aligned to Common Core RI.2.2.",
+      "de": "Leseverständnis für Klasse 2: Sachtexte lesen und das Hauptthema sicher erkennen. Kostenlose Übungen online, ohne Anmeldung – ideal zum Wiederholen.",
+      "fr": "Un jeu de lecture CE2, gratuit et interactif : Marina la loutre écrit les titres de la rédaction, et un titre doit dire de quoi une histoire parle SURTOUT. Ton enfant lit chaque petit article, puis touche la carte qui nomme son sujet principal — pas un petit détail qu'il cite, ni quelque chose hors du texte. Un jeu tout doux pour apprendre à trouver le sujet principal d'un texte documentaire."
+    },
     "kid_prompt_template": "marina-headline-desk"
   }
 ]

@@ -3,217 +3,1634 @@
     "id": "vet-diagnosis.word-problems.1-oa-a-1",
     "tool": "vet-diagnosis-activity",
     "task_template": "vet-diagnosis",
-    "alignment": { "framework": "CCSS", "code": "1.OA.A.1", "grade": "1", "strand": "Operations & Algebraic Thinking" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "1.OA.A.1",
+      "grade": "1",
+      "strand": "Operations & Algebraic Thinking"
+    },
     "params": {
       "rounds": [
         {
-          "id": "result-buns", "cog": "result", "band": 1, "diagram": "change", "op": "sub", "unknownRole": "result",
+          "id": "result-buns",
+          "cog": "result",
+          "band": 1,
+          "diagram": "change",
+          "op": "sub",
+          "unknownRole": "result",
           "story": "9 buns on a plate. 3 were eaten. How many now?",
-          "tiles": [ { "id": "k1", "value": 9 }, { "id": "k2", "value": 3 }, { "id": "d", "value": 10 } ], "decoyId": "d",
-          "slots": [ { "role": "start", "correct": "k1" }, { "role": "change", "correct": "k2" }, { "role": "result", "correct": null } ]
+          "tiles": [
+            {
+              "id": "k1",
+              "value": 9
+            },
+            {
+              "id": "k2",
+              "value": 3
+            },
+            {
+              "id": "d",
+              "value": 10
+            }
+          ],
+          "decoyId": "d",
+          "slots": [
+            {
+              "role": "start",
+              "correct": "k1"
+            },
+            {
+              "role": "change",
+              "correct": "k2"
+            },
+            {
+              "role": "result",
+              "correct": null
+            }
+          ]
         },
         {
-          "id": "addto-change-acorns", "cog": "addto-change", "band": 1, "diagram": "change", "op": "add", "unknownRole": "change",
+          "id": "addto-change-acorns",
+          "cog": "addto-change",
+          "band": 1,
+          "diagram": "change",
+          "op": "add",
+          "unknownRole": "change",
           "story": "Pip had 5 acorns, then found more. Now 12. How many found?",
-          "tiles": [ { "id": "k1", "value": 5 }, { "id": "k2", "value": 12 }, { "id": "d", "value": 14 } ], "decoyId": "d",
-          "slots": [ { "role": "start", "correct": "k1" }, { "role": "change", "correct": null }, { "role": "result", "correct": "k2" } ]
+          "tiles": [
+            {
+              "id": "k1",
+              "value": 5
+            },
+            {
+              "id": "k2",
+              "value": 12
+            },
+            {
+              "id": "d",
+              "value": 14
+            }
+          ],
+          "decoyId": "d",
+          "slots": [
+            {
+              "role": "start",
+              "correct": "k1"
+            },
+            {
+              "role": "change",
+              "correct": null
+            },
+            {
+              "role": "result",
+              "correct": "k2"
+            }
+          ]
         },
         {
-          "id": "addto-start-eggs", "cog": "addto-start", "band": 1, "diagram": "change", "op": "add", "unknownRole": "start",
+          "id": "addto-start-eggs",
+          "cog": "addto-start",
+          "band": 1,
+          "diagram": "change",
+          "op": "add",
+          "unknownRole": "start",
           "story": "A nest had eggs. 5 more were laid. Now 12. How many before?",
-          "tiles": [ { "id": "k1", "value": 5 }, { "id": "k2", "value": 12 }, { "id": "d", "value": 15 } ], "decoyId": "d",
-          "slots": [ { "role": "start", "correct": null }, { "role": "change", "correct": "k1" }, { "role": "result", "correct": "k2" } ]
+          "tiles": [
+            {
+              "id": "k1",
+              "value": 5
+            },
+            {
+              "id": "k2",
+              "value": 12
+            },
+            {
+              "id": "d",
+              "value": 15
+            }
+          ],
+          "decoyId": "d",
+          "slots": [
+            {
+              "role": "start",
+              "correct": null
+            },
+            {
+              "role": "change",
+              "correct": "k1"
+            },
+            {
+              "role": "result",
+              "correct": "k2"
+            }
+          ]
         },
         {
-          "id": "addto-start-shells", "cog": "addto-start", "band": 1, "diagram": "change", "op": "add", "unknownRole": "start",
+          "id": "addto-start-shells",
+          "cog": "addto-start",
+          "band": 1,
+          "diagram": "change",
+          "op": "add",
+          "unknownRole": "start",
           "story": "Bo had shells, then got 4 more. Now 11. How many before?",
-          "tiles": [ { "id": "k1", "value": 4 }, { "id": "k2", "value": 11 }, { "id": "d", "value": 13 } ], "decoyId": "d",
-          "slots": [ { "role": "start", "correct": null }, { "role": "change", "correct": "k1" }, { "role": "result", "correct": "k2" } ]
+          "tiles": [
+            {
+              "id": "k1",
+              "value": 4
+            },
+            {
+              "id": "k2",
+              "value": 11
+            },
+            {
+              "id": "d",
+              "value": 13
+            }
+          ],
+          "decoyId": "d",
+          "slots": [
+            {
+              "role": "start",
+              "correct": null
+            },
+            {
+              "role": "change",
+              "correct": "k1"
+            },
+            {
+              "role": "result",
+              "correct": "k2"
+            }
+          ]
         },
         {
-          "id": "takefrom-change-ducks", "cog": "takefrom-change", "band": 2, "diagram": "change", "op": "sub", "unknownRole": "change",
+          "id": "takefrom-change-ducks",
+          "cog": "takefrom-change",
+          "band": 2,
+          "diagram": "change",
+          "op": "sub",
+          "unknownRole": "change",
           "story": "12 ducks. Some flew away. Now 8. How many flew away?",
-          "tiles": [ { "id": "k1", "value": 12 }, { "id": "k2", "value": 8 }, { "id": "d", "value": 6 } ], "decoyId": "d",
-          "slots": [ { "role": "start", "correct": "k1" }, { "role": "change", "correct": null }, { "role": "result", "correct": "k2" } ]
+          "tiles": [
+            {
+              "id": "k1",
+              "value": 12
+            },
+            {
+              "id": "k2",
+              "value": 8
+            },
+            {
+              "id": "d",
+              "value": 6
+            }
+          ],
+          "decoyId": "d",
+          "slots": [
+            {
+              "role": "start",
+              "correct": "k1"
+            },
+            {
+              "role": "change",
+              "correct": null
+            },
+            {
+              "role": "result",
+              "correct": "k2"
+            }
+          ]
         },
         {
-          "id": "takefrom-change-berries", "cog": "takefrom-change", "band": 2, "diagram": "change", "op": "sub", "unknownRole": "change",
+          "id": "takefrom-change-berries",
+          "cog": "takefrom-change",
+          "band": 2,
+          "diagram": "change",
+          "op": "sub",
+          "unknownRole": "change",
           "story": "15 berries. A bird ate some. Now 9. How many were eaten?",
-          "tiles": [ { "id": "k1", "value": 15 }, { "id": "k2", "value": 9 }, { "id": "d", "value": 7 } ], "decoyId": "d",
-          "slots": [ { "role": "start", "correct": "k1" }, { "role": "change", "correct": null }, { "role": "result", "correct": "k2" } ]
+          "tiles": [
+            {
+              "id": "k1",
+              "value": 15
+            },
+            {
+              "id": "k2",
+              "value": 9
+            },
+            {
+              "id": "d",
+              "value": 7
+            }
+          ],
+          "decoyId": "d",
+          "slots": [
+            {
+              "role": "start",
+              "correct": "k1"
+            },
+            {
+              "role": "change",
+              "correct": null
+            },
+            {
+              "role": "result",
+              "correct": "k2"
+            }
+          ]
         },
         {
-          "id": "takefrom-start-bunnies", "cog": "takefrom-start", "band": 2, "diagram": "change", "op": "sub", "unknownRole": "start",
+          "id": "takefrom-start-bunnies",
+          "cog": "takefrom-start",
+          "band": 2,
+          "diagram": "change",
+          "op": "sub",
+          "unknownRole": "start",
           "story": "Bunnies were hopping. 4 hopped away. Now 6. How many before?",
-          "tiles": [ { "id": "k1", "value": 4 }, { "id": "k2", "value": 6 }, { "id": "d", "value": 12 } ], "decoyId": "d",
-          "slots": [ { "role": "start", "correct": null }, { "role": "change", "correct": "k1" }, { "role": "result", "correct": "k2" } ]
+          "tiles": [
+            {
+              "id": "k1",
+              "value": 4
+            },
+            {
+              "id": "k2",
+              "value": 6
+            },
+            {
+              "id": "d",
+              "value": 12
+            }
+          ],
+          "decoyId": "d",
+          "slots": [
+            {
+              "role": "start",
+              "correct": null
+            },
+            {
+              "role": "change",
+              "correct": "k1"
+            },
+            {
+              "role": "result",
+              "correct": "k2"
+            }
+          ]
         },
         {
-          "id": "puttogether-apples", "cog": "puttogether-addend", "band": 2, "diagram": "bracket", "op": "add", "unknownRole": "partB",
+          "id": "puttogether-apples",
+          "cog": "puttogether-addend",
+          "band": 2,
+          "diagram": "bracket",
+          "op": "add",
+          "unknownRole": "partB",
           "story": "12 apples. 5 are red, the rest green. How many green?",
-          "tiles": [ { "id": "k1", "value": 12 }, { "id": "k2", "value": 5 }, { "id": "d", "value": 14 } ], "decoyId": "d",
-          "slots": [ { "role": "whole", "correct": "k1" }, { "role": "partA", "correct": "k2" }, { "role": "partB", "correct": null } ]
+          "tiles": [
+            {
+              "id": "k1",
+              "value": 12
+            },
+            {
+              "id": "k2",
+              "value": 5
+            },
+            {
+              "id": "d",
+              "value": 14
+            }
+          ],
+          "decoyId": "d",
+          "slots": [
+            {
+              "role": "whole",
+              "correct": "k1"
+            },
+            {
+              "role": "partA",
+              "correct": "k2"
+            },
+            {
+              "role": "partB",
+              "correct": null
+            }
+          ]
         },
         {
-          "id": "puttogether-socks", "cog": "puttogether-addend", "band": 2, "diagram": "bracket", "op": "add", "unknownRole": "partB",
+          "id": "puttogether-socks",
+          "cog": "puttogether-addend",
+          "band": 2,
+          "diagram": "bracket",
+          "op": "add",
+          "unknownRole": "partB",
           "story": "11 socks. 4 are blue, the rest white. How many white?",
-          "tiles": [ { "id": "k1", "value": 11 }, { "id": "k2", "value": 4 }, { "id": "d", "value": 13 } ], "decoyId": "d",
-          "slots": [ { "role": "whole", "correct": "k1" }, { "role": "partA", "correct": "k2" }, { "role": "partB", "correct": null } ]
+          "tiles": [
+            {
+              "id": "k1",
+              "value": 11
+            },
+            {
+              "id": "k2",
+              "value": 4
+            },
+            {
+              "id": "d",
+              "value": 13
+            }
+          ],
+          "decoyId": "d",
+          "slots": [
+            {
+              "role": "whole",
+              "correct": "k1"
+            },
+            {
+              "role": "partA",
+              "correct": "k2"
+            },
+            {
+              "role": "partB",
+              "correct": null
+            }
+          ]
         },
         {
-          "id": "compare-diff-cats", "cog": "compare-diff", "band": 3, "diagram": "compare", "op": "add", "unknownRole": "difference",
+          "id": "compare-diff-cats",
+          "cog": "compare-diff",
+          "band": 3,
+          "diagram": "compare",
+          "op": "add",
+          "unknownRole": "difference",
           "story": "There are 12 cats and 5 dogs. How many more cats than dogs?",
-          "tiles": [ { "id": "k1", "value": 12 }, { "id": "k2", "value": 5 }, { "id": "d", "value": 14 } ], "decoyId": "d",
-          "slots": [ { "role": "bigger", "correct": "k1" }, { "role": "smaller", "correct": "k2" }, { "role": "difference", "correct": null } ]
+          "tiles": [
+            {
+              "id": "k1",
+              "value": 12
+            },
+            {
+              "id": "k2",
+              "value": 5
+            },
+            {
+              "id": "d",
+              "value": 14
+            }
+          ],
+          "decoyId": "d",
+          "slots": [
+            {
+              "role": "bigger",
+              "correct": "k1"
+            },
+            {
+              "role": "smaller",
+              "correct": "k2"
+            },
+            {
+              "role": "difference",
+              "correct": null
+            }
+          ]
         },
         {
-          "id": "compare-bigger-cats", "cog": "compare-bigger", "band": 3, "diagram": "compare", "op": "add", "unknownRole": "bigger",
+          "id": "compare-bigger-cats",
+          "cog": "compare-bigger",
+          "band": 3,
+          "diagram": "compare",
+          "op": "add",
+          "unknownRole": "bigger",
           "story": "There are 5 dogs. There are 7 more cats than dogs. How many cats?",
-          "tiles": [ { "id": "k1", "value": 5 }, { "id": "k2", "value": 7 }, { "id": "d", "value": 14 } ], "decoyId": "d",
-          "slots": [ { "role": "bigger", "correct": null }, { "role": "smaller", "correct": "k1" }, { "role": "difference", "correct": "k2" } ]
+          "tiles": [
+            {
+              "id": "k1",
+              "value": 5
+            },
+            {
+              "id": "k2",
+              "value": 7
+            },
+            {
+              "id": "d",
+              "value": 14
+            }
+          ],
+          "decoyId": "d",
+          "slots": [
+            {
+              "role": "bigger",
+              "correct": null
+            },
+            {
+              "role": "smaller",
+              "correct": "k1"
+            },
+            {
+              "role": "difference",
+              "correct": "k2"
+            }
+          ]
         },
         {
-          "id": "compare-bigger-geese", "cog": "compare-bigger", "band": 3, "diagram": "compare", "op": "add", "unknownRole": "bigger",
+          "id": "compare-bigger-geese",
+          "cog": "compare-bigger",
+          "band": 3,
+          "diagram": "compare",
+          "op": "add",
+          "unknownRole": "bigger",
           "story": "There are 6 ducks. There are 5 more geese than ducks. How many geese?",
-          "tiles": [ { "id": "k1", "value": 6 }, { "id": "k2", "value": 5 }, { "id": "d", "value": 13 } ], "decoyId": "d",
-          "slots": [ { "role": "bigger", "correct": null }, { "role": "smaller", "correct": "k1" }, { "role": "difference", "correct": "k2" } ]
+          "tiles": [
+            {
+              "id": "k1",
+              "value": 6
+            },
+            {
+              "id": "k2",
+              "value": 5
+            },
+            {
+              "id": "d",
+              "value": 13
+            }
+          ],
+          "decoyId": "d",
+          "slots": [
+            {
+              "role": "bigger",
+              "correct": null
+            },
+            {
+              "role": "smaller",
+              "correct": "k1"
+            },
+            {
+              "role": "difference",
+              "correct": "k2"
+            }
+          ]
         },
         {
-          "id": "compare-smaller-cats", "cog": "compare-smaller", "band": 3, "diagram": "compare", "op": "add", "unknownRole": "smaller",
+          "id": "compare-smaller-cats",
+          "cog": "compare-smaller",
+          "band": 3,
+          "diagram": "compare",
+          "op": "add",
+          "unknownRole": "smaller",
           "story": "There are 12 cats. There are 7 more cats than dogs. How many dogs?",
-          "tiles": [ { "id": "k1", "value": 12 }, { "id": "k2", "value": 7 }, { "id": "d", "value": 15 } ], "decoyId": "d",
-          "slots": [ { "role": "bigger", "correct": "k1" }, { "role": "smaller", "correct": null }, { "role": "difference", "correct": "k2" } ]
+          "tiles": [
+            {
+              "id": "k1",
+              "value": 12
+            },
+            {
+              "id": "k2",
+              "value": 7
+            },
+            {
+              "id": "d",
+              "value": 15
+            }
+          ],
+          "decoyId": "d",
+          "slots": [
+            {
+              "role": "bigger",
+              "correct": "k1"
+            },
+            {
+              "role": "smaller",
+              "correct": null
+            },
+            {
+              "role": "difference",
+              "correct": "k2"
+            }
+          ]
         },
         {
-          "id": "compare-smaller-birds", "cog": "compare-smaller", "band": 3, "diagram": "compare", "op": "add", "unknownRole": "smaller",
+          "id": "compare-smaller-birds",
+          "cog": "compare-smaller",
+          "band": 3,
+          "diagram": "compare",
+          "op": "add",
+          "unknownRole": "smaller",
           "story": "There are 11 red birds. There are 6 more red than blue. How many blue?",
-          "tiles": [ { "id": "k1", "value": 11 }, { "id": "k2", "value": 6 }, { "id": "d", "value": 14 } ], "decoyId": "d",
-          "slots": [ { "role": "bigger", "correct": "k1" }, { "role": "smaller", "correct": null }, { "role": "difference", "correct": "k2" } ]
+          "tiles": [
+            {
+              "id": "k1",
+              "value": 11
+            },
+            {
+              "id": "k2",
+              "value": 6
+            },
+            {
+              "id": "d",
+              "value": 14
+            }
+          ],
+          "decoyId": "d",
+          "slots": [
+            {
+              "role": "bigger",
+              "correct": "k1"
+            },
+            {
+              "role": "smaller",
+              "correct": null
+            },
+            {
+              "role": "difference",
+              "correct": "k2"
+            }
+          ]
         }
       ],
       "roundsL10n": {
         "de": [
-          { "id": "result-buns", "cog": "result", "band": 1, "diagram": "change", "op": "sub", "unknownRole": "result",
+          {
+            "id": "result-buns",
+            "cog": "result",
+            "band": 1,
+            "diagram": "change",
+            "op": "sub",
+            "unknownRole": "result",
             "story": "9 Brötchen liegen auf dem Teller. 3 wurden gegessen. Wie viele sind noch da?",
-            "tiles": [ { "id": "k1", "value": 9 }, { "id": "k2", "value": 3 }, { "id": "d", "value": 10 } ], "decoyId": "d",
-            "slots": [ { "role": "start", "correct": "k1" }, { "role": "change", "correct": "k2" }, { "role": "result", "correct": null } ] },
-          { "id": "addto-change-acorns", "cog": "addto-change", "band": 1, "diagram": "change", "op": "add", "unknownRole": "change",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 9
+              },
+              {
+                "id": "k2",
+                "value": 3
+              },
+              {
+                "id": "d",
+                "value": 10
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": "k1"
+              },
+              {
+                "role": "change",
+                "correct": "k2"
+              },
+              {
+                "role": "result",
+                "correct": null
+              }
+            ]
+          },
+          {
+            "id": "addto-change-acorns",
+            "cog": "addto-change",
+            "band": 1,
+            "diagram": "change",
+            "op": "add",
+            "unknownRole": "change",
             "story": "Pip hatte 5 Eicheln und fand noch welche dazu. Jetzt sind es 12. Wie viele hat Pip gefunden?",
-            "tiles": [ { "id": "k1", "value": 5 }, { "id": "k2", "value": 12 }, { "id": "d", "value": 14 } ], "decoyId": "d",
-            "slots": [ { "role": "start", "correct": "k1" }, { "role": "change", "correct": null }, { "role": "result", "correct": "k2" } ] },
-          { "id": "addto-start-eggs", "cog": "addto-start", "band": 1, "diagram": "change", "op": "add", "unknownRole": "start",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 5
+              },
+              {
+                "id": "k2",
+                "value": 12
+              },
+              {
+                "id": "d",
+                "value": 14
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": "k1"
+              },
+              {
+                "role": "change",
+                "correct": null
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "addto-start-eggs",
+            "cog": "addto-start",
+            "band": 1,
+            "diagram": "change",
+            "op": "add",
+            "unknownRole": "start",
             "story": "In einem Nest lagen Eier. 5 Eier kamen dazu. Jetzt sind es 12. Wie viele waren es vorher?",
-            "tiles": [ { "id": "k1", "value": 5 }, { "id": "k2", "value": 12 }, { "id": "d", "value": 15 } ], "decoyId": "d",
-            "slots": [ { "role": "start", "correct": null }, { "role": "change", "correct": "k1" }, { "role": "result", "correct": "k2" } ] },
-          { "id": "addto-start-shells", "cog": "addto-start", "band": 1, "diagram": "change", "op": "add", "unknownRole": "start",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 5
+              },
+              {
+                "id": "k2",
+                "value": 12
+              },
+              {
+                "id": "d",
+                "value": 15
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": null
+              },
+              {
+                "role": "change",
+                "correct": "k1"
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "addto-start-shells",
+            "cog": "addto-start",
+            "band": 1,
+            "diagram": "change",
+            "op": "add",
+            "unknownRole": "start",
             "story": "Bo hatte Muscheln und bekam 4 dazu. Jetzt sind es 11. Wie viele hatte Bo vorher?",
-            "tiles": [ { "id": "k1", "value": 4 }, { "id": "k2", "value": 11 }, { "id": "d", "value": 13 } ], "decoyId": "d",
-            "slots": [ { "role": "start", "correct": null }, { "role": "change", "correct": "k1" }, { "role": "result", "correct": "k2" } ] },
-          { "id": "takefrom-change-ducks", "cog": "takefrom-change", "band": 2, "diagram": "change", "op": "sub", "unknownRole": "change",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 4
+              },
+              {
+                "id": "k2",
+                "value": 11
+              },
+              {
+                "id": "d",
+                "value": 13
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": null
+              },
+              {
+                "role": "change",
+                "correct": "k1"
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "takefrom-change-ducks",
+            "cog": "takefrom-change",
+            "band": 2,
+            "diagram": "change",
+            "op": "sub",
+            "unknownRole": "change",
             "story": "12 Enten waren am Teich. Einige sind weggeflogen. Jetzt sind es 8. Wie viele sind weggeflogen?",
-            "tiles": [ { "id": "k1", "value": 12 }, { "id": "k2", "value": 8 }, { "id": "d", "value": 6 } ], "decoyId": "d",
-            "slots": [ { "role": "start", "correct": "k1" }, { "role": "change", "correct": null }, { "role": "result", "correct": "k2" } ] },
-          { "id": "takefrom-change-berries", "cog": "takefrom-change", "band": 2, "diagram": "change", "op": "sub", "unknownRole": "change",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 12
+              },
+              {
+                "id": "k2",
+                "value": 8
+              },
+              {
+                "id": "d",
+                "value": 6
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": "k1"
+              },
+              {
+                "role": "change",
+                "correct": null
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "takefrom-change-berries",
+            "cog": "takefrom-change",
+            "band": 2,
+            "diagram": "change",
+            "op": "sub",
+            "unknownRole": "change",
             "story": "An einem Strauch waren 15 Beeren. Ein Vogel hat einige gefressen. Jetzt sind es 9. Wie viele wurden gefressen?",
-            "tiles": [ { "id": "k1", "value": 15 }, { "id": "k2", "value": 9 }, { "id": "d", "value": 7 } ], "decoyId": "d",
-            "slots": [ { "role": "start", "correct": "k1" }, { "role": "change", "correct": null }, { "role": "result", "correct": "k2" } ] },
-          { "id": "takefrom-start-bunnies", "cog": "takefrom-start", "band": 2, "diagram": "change", "op": "sub", "unknownRole": "start",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 15
+              },
+              {
+                "id": "k2",
+                "value": 9
+              },
+              {
+                "id": "d",
+                "value": 7
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": "k1"
+              },
+              {
+                "role": "change",
+                "correct": null
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "takefrom-start-bunnies",
+            "cog": "takefrom-start",
+            "band": 2,
+            "diagram": "change",
+            "op": "sub",
+            "unknownRole": "start",
             "story": "Einige Hasen hüpften herum. 4 sind weggehüpft. Jetzt sind es 6. Wie viele waren es vorher?",
-            "tiles": [ { "id": "k1", "value": 4 }, { "id": "k2", "value": 6 }, { "id": "d", "value": 12 } ], "decoyId": "d",
-            "slots": [ { "role": "start", "correct": null }, { "role": "change", "correct": "k1" }, { "role": "result", "correct": "k2" } ] },
-          { "id": "puttogether-apples", "cog": "puttogether-addend", "band": 2, "diagram": "bracket", "op": "add", "unknownRole": "partB",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 4
+              },
+              {
+                "id": "k2",
+                "value": 6
+              },
+              {
+                "id": "d",
+                "value": 12
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": null
+              },
+              {
+                "role": "change",
+                "correct": "k1"
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "puttogether-apples",
+            "cog": "puttogether-addend",
+            "band": 2,
+            "diagram": "bracket",
+            "op": "add",
+            "unknownRole": "partB",
             "story": "Da liegen 12 Äpfel. 5 sind rot, der Rest ist grün. Wie viele Äpfel sind grün?",
-            "tiles": [ { "id": "k1", "value": 12 }, { "id": "k2", "value": 5 }, { "id": "d", "value": 14 } ], "decoyId": "d",
-            "slots": [ { "role": "whole", "correct": "k1" }, { "role": "partA", "correct": "k2" }, { "role": "partB", "correct": null } ] },
-          { "id": "puttogether-socks", "cog": "puttogether-addend", "band": 2, "diagram": "bracket", "op": "add", "unknownRole": "partB",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 12
+              },
+              {
+                "id": "k2",
+                "value": 5
+              },
+              {
+                "id": "d",
+                "value": 14
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "whole",
+                "correct": "k1"
+              },
+              {
+                "role": "partA",
+                "correct": "k2"
+              },
+              {
+                "role": "partB",
+                "correct": null
+              }
+            ]
+          },
+          {
+            "id": "puttogether-socks",
+            "cog": "puttogether-addend",
+            "band": 2,
+            "diagram": "bracket",
+            "op": "add",
+            "unknownRole": "partB",
             "story": "Da liegen 11 Socken. 4 sind blau, der Rest ist weiß. Wie viele Socken sind weiß?",
-            "tiles": [ { "id": "k1", "value": 11 }, { "id": "k2", "value": 4 }, { "id": "d", "value": 13 } ], "decoyId": "d",
-            "slots": [ { "role": "whole", "correct": "k1" }, { "role": "partA", "correct": "k2" }, { "role": "partB", "correct": null } ] },
-          { "id": "compare-diff-cats", "cog": "compare-diff", "band": 3, "diagram": "compare", "op": "add", "unknownRole": "difference",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 11
+              },
+              {
+                "id": "k2",
+                "value": 4
+              },
+              {
+                "id": "d",
+                "value": 13
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "whole",
+                "correct": "k1"
+              },
+              {
+                "role": "partA",
+                "correct": "k2"
+              },
+              {
+                "role": "partB",
+                "correct": null
+              }
+            ]
+          },
+          {
+            "id": "compare-diff-cats",
+            "cog": "compare-diff",
+            "band": 3,
+            "diagram": "compare",
+            "op": "add",
+            "unknownRole": "difference",
             "story": "Es sind 12 Katzen und 5 Hunde da. Wie viele Katzen mehr als Hunde sind es?",
-            "tiles": [ { "id": "k1", "value": 12 }, { "id": "k2", "value": 5 }, { "id": "d", "value": 14 } ], "decoyId": "d",
-            "slots": [ { "role": "bigger", "correct": "k1" }, { "role": "smaller", "correct": "k2" }, { "role": "difference", "correct": null } ] },
-          { "id": "compare-bigger-cats", "cog": "compare-bigger", "band": 3, "diagram": "compare", "op": "add", "unknownRole": "bigger",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 12
+              },
+              {
+                "id": "k2",
+                "value": 5
+              },
+              {
+                "id": "d",
+                "value": 14
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "bigger",
+                "correct": "k1"
+              },
+              {
+                "role": "smaller",
+                "correct": "k2"
+              },
+              {
+                "role": "difference",
+                "correct": null
+              }
+            ]
+          },
+          {
+            "id": "compare-bigger-cats",
+            "cog": "compare-bigger",
+            "band": 3,
+            "diagram": "compare",
+            "op": "add",
+            "unknownRole": "bigger",
             "story": "Es sind 5 Hunde da. Es sind 7 Katzen mehr als Hunde. Wie viele Katzen sind es?",
-            "tiles": [ { "id": "k1", "value": 5 }, { "id": "k2", "value": 7 }, { "id": "d", "value": 14 } ], "decoyId": "d",
-            "slots": [ { "role": "bigger", "correct": null }, { "role": "smaller", "correct": "k1" }, { "role": "difference", "correct": "k2" } ] },
-          { "id": "compare-bigger-geese", "cog": "compare-bigger", "band": 3, "diagram": "compare", "op": "add", "unknownRole": "bigger",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 5
+              },
+              {
+                "id": "k2",
+                "value": 7
+              },
+              {
+                "id": "d",
+                "value": 14
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "bigger",
+                "correct": null
+              },
+              {
+                "role": "smaller",
+                "correct": "k1"
+              },
+              {
+                "role": "difference",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "compare-bigger-geese",
+            "cog": "compare-bigger",
+            "band": 3,
+            "diagram": "compare",
+            "op": "add",
+            "unknownRole": "bigger",
             "story": "Es sind 6 Enten da. Es sind 5 Gänse mehr als Enten. Wie viele Gänse sind es?",
-            "tiles": [ { "id": "k1", "value": 6 }, { "id": "k2", "value": 5 }, { "id": "d", "value": 13 } ], "decoyId": "d",
-            "slots": [ { "role": "bigger", "correct": null }, { "role": "smaller", "correct": "k1" }, { "role": "difference", "correct": "k2" } ] },
-          { "id": "compare-smaller-cats", "cog": "compare-smaller", "band": 3, "diagram": "compare", "op": "add", "unknownRole": "smaller",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 6
+              },
+              {
+                "id": "k2",
+                "value": 5
+              },
+              {
+                "id": "d",
+                "value": 13
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "bigger",
+                "correct": null
+              },
+              {
+                "role": "smaller",
+                "correct": "k1"
+              },
+              {
+                "role": "difference",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "compare-smaller-cats",
+            "cog": "compare-smaller",
+            "band": 3,
+            "diagram": "compare",
+            "op": "add",
+            "unknownRole": "smaller",
             "story": "Es sind 12 Katzen da. Es sind 7 Katzen mehr als Hunde. Wie viele Hunde sind es?",
-            "tiles": [ { "id": "k1", "value": 12 }, { "id": "k2", "value": 7 }, { "id": "d", "value": 15 } ], "decoyId": "d",
-            "slots": [ { "role": "bigger", "correct": "k1" }, { "role": "smaller", "correct": null }, { "role": "difference", "correct": "k2" } ] },
-          { "id": "compare-smaller-birds", "cog": "compare-smaller", "band": 3, "diagram": "compare", "op": "add", "unknownRole": "smaller",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 12
+              },
+              {
+                "id": "k2",
+                "value": 7
+              },
+              {
+                "id": "d",
+                "value": 15
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "bigger",
+                "correct": "k1"
+              },
+              {
+                "role": "smaller",
+                "correct": null
+              },
+              {
+                "role": "difference",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "compare-smaller-birds",
+            "cog": "compare-smaller",
+            "band": 3,
+            "diagram": "compare",
+            "op": "add",
+            "unknownRole": "smaller",
             "story": "Es sind 11 rote Vögel da. Es sind 6 rote Vögel mehr als blaue. Wie viele blaue Vögel sind es?",
-            "tiles": [ { "id": "k1", "value": 11 }, { "id": "k2", "value": 6 }, { "id": "d", "value": 14 } ], "decoyId": "d",
-            "slots": [ { "role": "bigger", "correct": "k1" }, { "role": "smaller", "correct": null }, { "role": "difference", "correct": "k2" } ] }
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 11
+              },
+              {
+                "id": "k2",
+                "value": 6
+              },
+              {
+                "id": "d",
+                "value": 14
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "bigger",
+                "correct": "k1"
+              },
+              {
+                "role": "smaller",
+                "correct": null
+              },
+              {
+                "role": "difference",
+                "correct": "k2"
+              }
+            ]
+          }
         ],
         "fr": [
-          { "id": "result-buns", "cog": "result", "band": 1, "diagram": "change", "op": "sub", "unknownRole": "result",
+          {
+            "id": "result-buns",
+            "cog": "result",
+            "band": 1,
+            "diagram": "change",
+            "op": "sub",
+            "unknownRole": "result",
             "story": "9 petits pains sur une assiette. On en a mangé 3. Combien reste-t-il ?",
-            "tiles": [ { "id": "k1", "value": 9 }, { "id": "k2", "value": 3 }, { "id": "d", "value": 10 } ], "decoyId": "d",
-            "slots": [ { "role": "start", "correct": "k1" }, { "role": "change", "correct": "k2" }, { "role": "result", "correct": null } ] },
-          { "id": "addto-change-acorns", "cog": "addto-change", "band": 1, "diagram": "change", "op": "add", "unknownRole": "change",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 9
+              },
+              {
+                "id": "k2",
+                "value": 3
+              },
+              {
+                "id": "d",
+                "value": 10
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": "k1"
+              },
+              {
+                "role": "change",
+                "correct": "k2"
+              },
+              {
+                "role": "result",
+                "correct": null
+              }
+            ]
+          },
+          {
+            "id": "addto-change-acorns",
+            "cog": "addto-change",
+            "band": 1,
+            "diagram": "change",
+            "op": "add",
+            "unknownRole": "change",
             "story": "Pip avait 5 glands, puis en a trouvé d'autres. Maintenant 12. Combien en a-t-il trouvé ?",
-            "tiles": [ { "id": "k1", "value": 5 }, { "id": "k2", "value": 12 }, { "id": "d", "value": 14 } ], "decoyId": "d",
-            "slots": [ { "role": "start", "correct": "k1" }, { "role": "change", "correct": null }, { "role": "result", "correct": "k2" } ] },
-          { "id": "addto-start-eggs", "cog": "addto-start", "band": 1, "diagram": "change", "op": "add", "unknownRole": "start",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 5
+              },
+              {
+                "id": "k2",
+                "value": 12
+              },
+              {
+                "id": "d",
+                "value": 14
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": "k1"
+              },
+              {
+                "role": "change",
+                "correct": null
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "addto-start-eggs",
+            "cog": "addto-start",
+            "band": 1,
+            "diagram": "change",
+            "op": "add",
+            "unknownRole": "start",
             "story": "Un nid avait des œufs. On en a pondu 5 de plus. Maintenant 12. Combien y en avait-il avant ?",
-            "tiles": [ { "id": "k1", "value": 5 }, { "id": "k2", "value": 12 }, { "id": "d", "value": 15 } ], "decoyId": "d",
-            "slots": [ { "role": "start", "correct": null }, { "role": "change", "correct": "k1" }, { "role": "result", "correct": "k2" } ] },
-          { "id": "addto-start-shells", "cog": "addto-start", "band": 1, "diagram": "change", "op": "add", "unknownRole": "start",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 5
+              },
+              {
+                "id": "k2",
+                "value": 12
+              },
+              {
+                "id": "d",
+                "value": 15
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": null
+              },
+              {
+                "role": "change",
+                "correct": "k1"
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "addto-start-shells",
+            "cog": "addto-start",
+            "band": 1,
+            "diagram": "change",
+            "op": "add",
+            "unknownRole": "start",
             "story": "Bo avait des coquillages, puis en a eu 4 de plus. Maintenant 11. Combien en avait-il avant ?",
-            "tiles": [ { "id": "k1", "value": 4 }, { "id": "k2", "value": 11 }, { "id": "d", "value": 13 } ], "decoyId": "d",
-            "slots": [ { "role": "start", "correct": null }, { "role": "change", "correct": "k1" }, { "role": "result", "correct": "k2" } ] },
-          { "id": "takefrom-change-ducks", "cog": "takefrom-change", "band": 2, "diagram": "change", "op": "sub", "unknownRole": "change",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 4
+              },
+              {
+                "id": "k2",
+                "value": 11
+              },
+              {
+                "id": "d",
+                "value": 13
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": null
+              },
+              {
+                "role": "change",
+                "correct": "k1"
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "takefrom-change-ducks",
+            "cog": "takefrom-change",
+            "band": 2,
+            "diagram": "change",
+            "op": "sub",
+            "unknownRole": "change",
             "story": "12 canards. Quelques-uns se sont envolés. Maintenant 8. Combien se sont envolés ?",
-            "tiles": [ { "id": "k1", "value": 12 }, { "id": "k2", "value": 8 }, { "id": "d", "value": 6 } ], "decoyId": "d",
-            "slots": [ { "role": "start", "correct": "k1" }, { "role": "change", "correct": null }, { "role": "result", "correct": "k2" } ] },
-          { "id": "takefrom-change-berries", "cog": "takefrom-change", "band": 2, "diagram": "change", "op": "sub", "unknownRole": "change",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 12
+              },
+              {
+                "id": "k2",
+                "value": 8
+              },
+              {
+                "id": "d",
+                "value": 6
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": "k1"
+              },
+              {
+                "role": "change",
+                "correct": null
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "takefrom-change-berries",
+            "cog": "takefrom-change",
+            "band": 2,
+            "diagram": "change",
+            "op": "sub",
+            "unknownRole": "change",
             "story": "15 baies. Un oiseau en a mangé quelques-unes. Maintenant 9. Combien en a-t-il mangé ?",
-            "tiles": [ { "id": "k1", "value": 15 }, { "id": "k2", "value": 9 }, { "id": "d", "value": 7 } ], "decoyId": "d",
-            "slots": [ { "role": "start", "correct": "k1" }, { "role": "change", "correct": null }, { "role": "result", "correct": "k2" } ] },
-          { "id": "takefrom-start-bunnies", "cog": "takefrom-start", "band": 2, "diagram": "change", "op": "sub", "unknownRole": "start",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 15
+              },
+              {
+                "id": "k2",
+                "value": 9
+              },
+              {
+                "id": "d",
+                "value": 7
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": "k1"
+              },
+              {
+                "role": "change",
+                "correct": null
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "takefrom-start-bunnies",
+            "cog": "takefrom-start",
+            "band": 2,
+            "diagram": "change",
+            "op": "sub",
+            "unknownRole": "start",
             "story": "Des lapins sautaient. 4 sont partis en sautant. Maintenant 6. Combien y en avait-il avant ?",
-            "tiles": [ { "id": "k1", "value": 4 }, { "id": "k2", "value": 6 }, { "id": "d", "value": 12 } ], "decoyId": "d",
-            "slots": [ { "role": "start", "correct": null }, { "role": "change", "correct": "k1" }, { "role": "result", "correct": "k2" } ] },
-          { "id": "puttogether-apples", "cog": "puttogether-addend", "band": 2, "diagram": "bracket", "op": "add", "unknownRole": "partB",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 4
+              },
+              {
+                "id": "k2",
+                "value": 6
+              },
+              {
+                "id": "d",
+                "value": 12
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": null
+              },
+              {
+                "role": "change",
+                "correct": "k1"
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "puttogether-apples",
+            "cog": "puttogether-addend",
+            "band": 2,
+            "diagram": "bracket",
+            "op": "add",
+            "unknownRole": "partB",
             "story": "12 pommes. 5 sont rouges, les autres sont vertes. Combien sont vertes ?",
-            "tiles": [ { "id": "k1", "value": 12 }, { "id": "k2", "value": 5 }, { "id": "d", "value": 14 } ], "decoyId": "d",
-            "slots": [ { "role": "whole", "correct": "k1" }, { "role": "partA", "correct": "k2" }, { "role": "partB", "correct": null } ] },
-          { "id": "puttogether-socks", "cog": "puttogether-addend", "band": 2, "diagram": "bracket", "op": "add", "unknownRole": "partB",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 12
+              },
+              {
+                "id": "k2",
+                "value": 5
+              },
+              {
+                "id": "d",
+                "value": 14
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "whole",
+                "correct": "k1"
+              },
+              {
+                "role": "partA",
+                "correct": "k2"
+              },
+              {
+                "role": "partB",
+                "correct": null
+              }
+            ]
+          },
+          {
+            "id": "puttogether-socks",
+            "cog": "puttogether-addend",
+            "band": 2,
+            "diagram": "bracket",
+            "op": "add",
+            "unknownRole": "partB",
             "story": "11 chaussettes. 4 sont bleues, les autres sont blanches. Combien sont blanches ?",
-            "tiles": [ { "id": "k1", "value": 11 }, { "id": "k2", "value": 4 }, { "id": "d", "value": 13 } ], "decoyId": "d",
-            "slots": [ { "role": "whole", "correct": "k1" }, { "role": "partA", "correct": "k2" }, { "role": "partB", "correct": null } ] },
-          { "id": "compare-diff-cats", "cog": "compare-diff", "band": 3, "diagram": "compare", "op": "add", "unknownRole": "difference",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 11
+              },
+              {
+                "id": "k2",
+                "value": 4
+              },
+              {
+                "id": "d",
+                "value": 13
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "whole",
+                "correct": "k1"
+              },
+              {
+                "role": "partA",
+                "correct": "k2"
+              },
+              {
+                "role": "partB",
+                "correct": null
+              }
+            ]
+          },
+          {
+            "id": "compare-diff-cats",
+            "cog": "compare-diff",
+            "band": 3,
+            "diagram": "compare",
+            "op": "add",
+            "unknownRole": "difference",
             "story": "Il y a 12 chats et 5 chiens. Combien y a-t-il de chats de plus que de chiens ?",
-            "tiles": [ { "id": "k1", "value": 12 }, { "id": "k2", "value": 5 }, { "id": "d", "value": 14 } ], "decoyId": "d",
-            "slots": [ { "role": "bigger", "correct": "k1" }, { "role": "smaller", "correct": "k2" }, { "role": "difference", "correct": null } ] },
-          { "id": "compare-bigger-cats", "cog": "compare-bigger", "band": 3, "diagram": "compare", "op": "add", "unknownRole": "bigger",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 12
+              },
+              {
+                "id": "k2",
+                "value": 5
+              },
+              {
+                "id": "d",
+                "value": 14
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "bigger",
+                "correct": "k1"
+              },
+              {
+                "role": "smaller",
+                "correct": "k2"
+              },
+              {
+                "role": "difference",
+                "correct": null
+              }
+            ]
+          },
+          {
+            "id": "compare-bigger-cats",
+            "cog": "compare-bigger",
+            "band": 3,
+            "diagram": "compare",
+            "op": "add",
+            "unknownRole": "bigger",
             "story": "Il y a 5 chiens. Il y a 7 chats de plus que de chiens. Combien y a-t-il de chats ?",
-            "tiles": [ { "id": "k1", "value": 5 }, { "id": "k2", "value": 7 }, { "id": "d", "value": 14 } ], "decoyId": "d",
-            "slots": [ { "role": "bigger", "correct": null }, { "role": "smaller", "correct": "k1" }, { "role": "difference", "correct": "k2" } ] },
-          { "id": "compare-bigger-geese", "cog": "compare-bigger", "band": 3, "diagram": "compare", "op": "add", "unknownRole": "bigger",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 5
+              },
+              {
+                "id": "k2",
+                "value": 7
+              },
+              {
+                "id": "d",
+                "value": 14
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "bigger",
+                "correct": null
+              },
+              {
+                "role": "smaller",
+                "correct": "k1"
+              },
+              {
+                "role": "difference",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "compare-bigger-geese",
+            "cog": "compare-bigger",
+            "band": 3,
+            "diagram": "compare",
+            "op": "add",
+            "unknownRole": "bigger",
             "story": "Il y a 6 canards. Il y a 5 oies de plus que de canards. Combien y a-t-il d'oies ?",
-            "tiles": [ { "id": "k1", "value": 6 }, { "id": "k2", "value": 5 }, { "id": "d", "value": 13 } ], "decoyId": "d",
-            "slots": [ { "role": "bigger", "correct": null }, { "role": "smaller", "correct": "k1" }, { "role": "difference", "correct": "k2" } ] },
-          { "id": "compare-smaller-cats", "cog": "compare-smaller", "band": 3, "diagram": "compare", "op": "add", "unknownRole": "smaller",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 6
+              },
+              {
+                "id": "k2",
+                "value": 5
+              },
+              {
+                "id": "d",
+                "value": 13
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "bigger",
+                "correct": null
+              },
+              {
+                "role": "smaller",
+                "correct": "k1"
+              },
+              {
+                "role": "difference",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "compare-smaller-cats",
+            "cog": "compare-smaller",
+            "band": 3,
+            "diagram": "compare",
+            "op": "add",
+            "unknownRole": "smaller",
             "story": "Il y a 12 chats. Il y a 7 chats de plus que de chiens. Combien y a-t-il de chiens ?",
-            "tiles": [ { "id": "k1", "value": 12 }, { "id": "k2", "value": 7 }, { "id": "d", "value": 15 } ], "decoyId": "d",
-            "slots": [ { "role": "bigger", "correct": "k1" }, { "role": "smaller", "correct": null }, { "role": "difference", "correct": "k2" } ] },
-          { "id": "compare-smaller-birds", "cog": "compare-smaller", "band": 3, "diagram": "compare", "op": "add", "unknownRole": "smaller",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 12
+              },
+              {
+                "id": "k2",
+                "value": 7
+              },
+              {
+                "id": "d",
+                "value": 15
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "bigger",
+                "correct": "k1"
+              },
+              {
+                "role": "smaller",
+                "correct": null
+              },
+              {
+                "role": "difference",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "compare-smaller-birds",
+            "cog": "compare-smaller",
+            "band": 3,
+            "diagram": "compare",
+            "op": "add",
+            "unknownRole": "smaller",
             "story": "Il y a 11 oiseaux rouges. Il y a 6 oiseaux rouges de plus que de bleus. Combien y a-t-il d'oiseaux bleus ?",
-            "tiles": [ { "id": "k1", "value": 11 }, { "id": "k2", "value": 6 }, { "id": "d", "value": 14 } ], "decoyId": "d",
-            "slots": [ { "role": "bigger", "correct": "k1" }, { "role": "smaller", "correct": null }, { "role": "difference", "correct": "k2" } ] }
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 11
+              },
+              {
+                "id": "k2",
+                "value": 6
+              },
+              {
+                "id": "d",
+                "value": 14
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "bigger",
+                "correct": "k1"
+              },
+              {
+                "role": "smaller",
+                "correct": null
+              },
+              {
+                "role": "difference",
+                "correct": "k2"
+              }
+            ]
+          }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "vet-diagnosis-window", "de": "sachaufgaben-bis-20-klasse-2", "fr": "resoudre-des-problemes-jusqu-a-20-ce1" },
-    "page_title": { "en": "Vet's Diagnosis Window — Word-Problem Modeling", "de": "Sachaufgaben bis 20: Tierklinik-Rechenspiel – Klasse 2", "fr": "Chez le vétérinaire : résoudre des problèmes jusqu'à 20 (CE1)" },
-    "page_intro": { "en": "A shy little animal shuffles into the woodland vet clinic, and its symptom is a number STORY. Watch the x-ray act out what happened, then model it: place each amount in its spot, mark the mystery part, and dial the answer to clear the x-ray and heal your patient. A warm Grade 1 game about adding and subtracting within 20 to solve word problems with unknowns in every position, aligned to Common Core 1.OA.A.1.", "de": "Sachaufgaben bis 20 üben: Im kostenlosen Tierklinik-Spiel modellieren Kinder Textaufgaben und finden die unbekannte Zahl – interaktiv für Klasse 2. Jetzt heilen!", "fr": "Un jeu de maths CE1, gratuit et interactif : un petit animal timide entre dans la clinique vétérinaire de la forêt, et son symptôme est une HISTOIRE de nombres. Regarde la radio mettre en scène ce qui s'est passé, puis modélise-la : place chaque quantité à sa place, marque la partie mystère, et compose la réponse pour éclaircir la radio et soigner ton patient. Un jeu tout doux pour additionner et soustraire jusqu'à 20 et résoudre des problèmes où l'inconnue peut être n'importe où." },
+    "slug": {
+      "en": "vet-diagnosis-window",
+      "de": "sachaufgaben-bis-20-klasse-2",
+      "fr": "resoudre-des-problemes-jusqu-a-20-ce1"
+    },
+    "page_title": {
+      "en": "Vet's Diagnosis Window — Word-Problem Modeling",
+      "de": "Rechengeschichten bis 20 – Tierklinik online üben",
+      "fr": "Chez le vétérinaire : résoudre des problèmes jusqu'à 20 (CE1)"
+    },
+    "page_intro": {
+      "en": "A shy little animal shuffles into the woodland vet clinic, and its symptom is a number STORY. Watch the x-ray act out what happened, then model it: place each amount in its spot, mark the mystery part, and dial the answer to clear the x-ray and heal your patient. A warm Grade 1 game about adding and subtracting within 20 to solve word problems with unknowns in every position, aligned to Common Core 1.OA.A.1.",
+      "de": "Rechengeschichten bis 20 online üben: kleine Sachaufgaben im Tierklinik-Rechenspiel lösen. Kostenlos online, ohne Anmeldung – für Klasse 2.",
+      "fr": "Un jeu de maths CE1, gratuit et interactif : un petit animal timide entre dans la clinique vétérinaire de la forêt, et son symptôme est une HISTOIRE de nombres. Regarde la radio mettre en scène ce qui s'est passé, puis modélise-la : place chaque quantité à sa place, marque la partie mystère, et compose la réponse pour éclaircir la radio et soigner ton patient. Un jeu tout doux pour additionner et soustraire jusqu'à 20 et résoudre des problèmes où l'inconnue peut être n'importe où."
+    },
     "kid_prompt_template": "vet-diagnosis"
   }
 ]

@@ -3,17 +3,54 @@
     "id": "numberbond.make-ten.k-oa-a-4",
     "tool": "number-bond-activity",
     "task_template": "make-ten",
-    "alignment": { "framework": "CCSS", "code": "K.OA.A.4", "grade": "K", "strand": "Operations & Algebraic Thinking" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.OA.A.4",
+      "grade": "K",
+      "strand": "Operations & Algebraic Thinking"
+    },
     "params": {
       "rounds": [
-        { "whole": 10, "given": 7, "seed": 11 },
-        { "whole": 10, "given": 4, "seed": 23 },
-        { "whole": 10, "given": 9, "seed": 31 },
-        { "whole": 10, "given": 2, "seed": 41 },
-        { "whole": 10, "given": 6, "seed": 53 },
-        { "whole": 10, "given": 5, "seed": 61 },
-        { "whole": 10, "given": 8, "seed": 67 },
-        { "whole": 10, "given": 3, "seed": 71 }
+        {
+          "whole": 10,
+          "given": 7,
+          "seed": 11
+        },
+        {
+          "whole": 10,
+          "given": 4,
+          "seed": 23
+        },
+        {
+          "whole": 10,
+          "given": 9,
+          "seed": 31
+        },
+        {
+          "whole": 10,
+          "given": 2,
+          "seed": 41
+        },
+        {
+          "whole": 10,
+          "given": 6,
+          "seed": 53
+        },
+        {
+          "whole": 10,
+          "given": 5,
+          "seed": 61
+        },
+        {
+          "whole": 10,
+          "given": 8,
+          "seed": 67
+        },
+        {
+          "whole": 10,
+          "given": 3,
+          "seed": 71
+        }
       ]
     },
     "theme": null,
@@ -32,7 +69,7 @@
     },
     "page_title": {
       "en": "Make 10 — Number Bonds to Ten (Kindergarten)",
-      "de": "Zehn voll machen – Zahlenhaus für den Kindergarten | Zehnerfreunde üben",
+      "de": "Zahlenhaus der 10 – Zehnerfreunde online üben",
       "es": "Amigos del 10: descomposición del número para Educación Infantil (5-6 años)",
       "pt": "Amigos do 10: atividade de decomposição para a educação infantil (5–6 anos)",
       "fr": "Les amis de 10 : décomposer le nombre 10 en grande section (5–6 ans)",
@@ -45,7 +82,7 @@
     },
     "page_intro": {
       "en": "A free interactive Kindergarten math activity: the whole is 10 and one part is filled — tap the empty part of the number bond to add counters until both parts make 10. Find the number that makes 10. Common Core K.OA.A.4.",
-      "de": "Passend zum Lehrplan (K.OA.A.4): eine kostenlose interaktive Mathe-Aktivität für den Kindergarten rund um die Zahlzerlegung der Zehn. Dein Kind findet spielerisch die Zehnerfreunde und füllt mit Plättchen den fehlenden Teil, bis das Zahlenhaus die Zehn voll macht.",
+      "de": "Zahlenhäuser bis 10: das Zahlenhaus der Zehn füllen und Zehnerfreunde entdecken – ideal für Vorschule und Schulstart. Kostenlos online, ohne Anmeldung.",
       "es": "Una actividad de matemáticas gratuita e interactiva para Educación Infantil: descubre los amigos del 10 completando la parte que falta del diagrama parte-parte-todo, a tu ritmo y sin prisas. Alineada al Currículo LOMLOE (K.OA.A.4): para cualquier número del 1 al 9, encuentra el número que forma 10.",
       "pt": "Atividade alinhada à BNCC (K.OA.A.4): descubra os amigos do 10 montando o número juntos, no seu ritmo. Uma atividade interativa e gratuita de matemática para a educação infantil, com fichas para tocar e contar sem pressa.",
       "fr": "Une activité interactive et gratuite (K.OA.A.4, Programmes officiels) pour découvrir les amis de 10 : ton enfant complète la partie vide jusqu'à faire 10. À son rythme, sans note ni chrono, juste le plaisir de manipuler les nombres.",
@@ -62,17 +99,54 @@
     "id": "numberbond.make-ten-to-add.1-oa-c-6",
     "tool": "number-bond-activity",
     "task_template": "make-ten-to-add",
-    "alignment": { "framework": "CCSS", "code": "1.OA.C.6", "grade": "1", "strand": "Operations & Algebraic Thinking" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "1.OA.C.6",
+      "grade": "1",
+      "strand": "Operations & Algebraic Thinking"
+    },
     "params": {
       "rounds": [
-        { "first": 8, "second": 5, "seed": 11 },
-        { "first": 9, "second": 4, "seed": 23 },
-        { "first": 7, "second": 6, "seed": 31 },
-        { "first": 8, "second": 7, "seed": 41 },
-        { "first": 9, "second": 6, "seed": 53 },
-        { "first": 7, "second": 5, "seed": 61 },
-        { "first": 6, "second": 8, "seed": 67 },
-        { "first": 9, "second": 8, "seed": 71 }
+        {
+          "first": 8,
+          "second": 5,
+          "seed": 11
+        },
+        {
+          "first": 9,
+          "second": 4,
+          "seed": 23
+        },
+        {
+          "first": 7,
+          "second": 6,
+          "seed": 31
+        },
+        {
+          "first": 8,
+          "second": 7,
+          "seed": 41
+        },
+        {
+          "first": 9,
+          "second": 6,
+          "seed": 53
+        },
+        {
+          "first": 7,
+          "second": 5,
+          "seed": 61
+        },
+        {
+          "first": 6,
+          "second": 8,
+          "seed": 67
+        },
+        {
+          "first": 9,
+          "second": 8,
+          "seed": 71
+        }
       ]
     },
     "theme": null,
@@ -91,7 +165,7 @@
     },
     "page_title": {
       "en": "Make a Ten to Add — Addition Within 20 (Grade 1)",
-      "de": "Zehn machen beim Addieren bis 20 – Mathe Klasse 1 zum Üben",
+      "de": "Lernspiel Mathe 1. Klasse – Zehn machen: online üben",
       "es": "Suma haciendo una decena — Matemáticas de 1.º de primaria",
       "pt": "Faça uma dezena para somar (1º ano) — atividade de matemática",
       "fr": "Faire dix pour additionner (CP) — additions jusqu'à 20 | activité gratuite",
@@ -104,7 +178,7 @@
     },
     "page_intro": {
       "en": "A free interactive Grade 1 math activity: add within 20 with the make-a-ten strategy. For a sum like 8 + 5, break the 5 on a number bond so one part makes 10 with the 8 (8 + 2 = 10), then add what's left (10 + 3 = 13). Tap to fill the make-a-ten part. Common Core 1.OA.C.6.",
-      "de": "Passend zum Lehrplan (1.OA.C.6): Hier üben Kinder das Addieren bis 20 mit der Zehnerübergang-Strategie. Sie zerlegen eine Zahl, machen erst zehn voll und rechnen Schritt für Schritt weiter – ein kostenloses, interaktives Mathe-Spiel für die 1. Klasse.",
+      "de": "Lernspiel Mathe für die 1. Klasse: über die Zehn addieren bis 20 – interaktiv am Bildschirm. Kostenlos online, ohne Anmeldung.",
       "es": "Actividad interactiva y gratuita de matemáticas para 1.º de primaria: suma hasta 20 usando la estrategia de hacer una decena. Alineada al Currículo LOMLOE (1.OA.C.6): el niño separa un número para formar 10 y sumar con más facilidad.",
       "pt": "Atividade alinhada à BNCC (1.OA.C.6): some até 20 fazendo uma dezena, uma estratégia que deixa as contas mais fáceis e divertidas. Uma atividade interativa e gratuita de matemática para crianças do 1º ano.",
       "fr": "Une activité (1.OA.C.6, Programmes officiels) pour additionner jusqu'à 20 grâce au passage de la dizaine. Ton enfant décompose un nombre pour faire dix, puis ajoute le reste : une stratégie simple et rassurante, à son rythme.",
@@ -121,17 +195,54 @@
     "id": "numberbond.find-the-total.1-oa-a-1",
     "tool": "number-bond-activity",
     "task_template": "whole-unknown",
-    "alignment": { "framework": "CCSS", "code": "1.OA.A.1", "grade": "1", "strand": "Operations & Algebraic Thinking" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "1.OA.A.1",
+      "grade": "1",
+      "strand": "Operations & Algebraic Thinking"
+    },
     "params": {
       "rounds": [
-        { "first": 3, "second": 4, "seed": 211 },
-        { "first": 6, "second": 2, "seed": 223 },
-        { "first": 5, "second": 5, "seed": 231 },
-        { "first": 4, "second": 7, "seed": 241 },
-        { "first": 8, "second": 3, "seed": 253 },
-        { "first": 2, "second": 6, "seed": 261 },
-        { "first": 7, "second": 4, "seed": 267 },
-        { "first": 5, "second": 8, "seed": 271 }
+        {
+          "first": 3,
+          "second": 4,
+          "seed": 211
+        },
+        {
+          "first": 6,
+          "second": 2,
+          "seed": 223
+        },
+        {
+          "first": 5,
+          "second": 5,
+          "seed": 231
+        },
+        {
+          "first": 4,
+          "second": 7,
+          "seed": 241
+        },
+        {
+          "first": 8,
+          "second": 3,
+          "seed": 253
+        },
+        {
+          "first": 2,
+          "second": 6,
+          "seed": 261
+        },
+        {
+          "first": 7,
+          "second": 4,
+          "seed": 267
+        },
+        {
+          "first": 5,
+          "second": 8,
+          "seed": 271
+        }
       ]
     },
     "theme": null,
@@ -180,17 +291,54 @@
     "id": "numberbond.subtraction-unknown-addend.1-oa-b-4",
     "tool": "number-bond-activity",
     "task_template": "unknown-addend",
-    "alignment": { "framework": "CCSS", "code": "1.OA.B.4", "grade": "1", "strand": "Operations & Algebraic Thinking" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "1.OA.B.4",
+      "grade": "1",
+      "strand": "Operations & Algebraic Thinking"
+    },
     "params": {
       "rounds": [
-        { "whole": 8, "given": 3, "seed": 11 },
-        { "whole": 9, "given": 4, "seed": 23 },
-        { "whole": 11, "given": 7, "seed": 31 },
-        { "whole": 12, "given": 5, "seed": 41 },
-        { "whole": 13, "given": 8, "seed": 53 },
-        { "whole": 14, "given": 6, "seed": 61 },
-        { "whole": 15, "given": 9, "seed": 67 },
-        { "whole": 16, "given": 9, "seed": 71 }
+        {
+          "whole": 8,
+          "given": 3,
+          "seed": 11
+        },
+        {
+          "whole": 9,
+          "given": 4,
+          "seed": 23
+        },
+        {
+          "whole": 11,
+          "given": 7,
+          "seed": 31
+        },
+        {
+          "whole": 12,
+          "given": 5,
+          "seed": 41
+        },
+        {
+          "whole": 13,
+          "given": 8,
+          "seed": 53
+        },
+        {
+          "whole": 14,
+          "given": 6,
+          "seed": 61
+        },
+        {
+          "whole": 15,
+          "given": 9,
+          "seed": 67
+        },
+        {
+          "whole": 16,
+          "given": 9,
+          "seed": 71
+        }
       ]
     },
     "theme": null,
@@ -209,7 +357,7 @@
     },
     "page_title": {
       "en": "Find the Missing Part — Subtraction as a Number Bond (Grade 1)",
-      "de": "Fehlender Teil finden – Subtraktion als Zahlenzerlegung, Klasse 1",
+      "de": "Umkehraufgaben – Plus und Minus online üben (Klasse 1)",
       "es": "Encuentra la parte que falta: resta y descomposición · 1.º primaria",
       "pt": "Encontre a Parte que Falta: Subtração e Decomposição no 1º Ano",
       "fr": "Trouve la partie manquante : soustraction et décomposition au CP",
@@ -222,7 +370,7 @@
     },
     "page_intro": {
       "en": "A free interactive Grade 1 math activity: see a subtraction like 8 − 3 as a number bond — the whole and one part are given, fill in the missing part. Builds subtraction as an unknown-addend (3 and ? make 8). Common Core 1.OA.B.4.",
-      "de": "Subtraktion als Zahlenzerlegung verstehen: Das Ganze und ein Teil sind im Zahlenbild vorgegeben, dein Kind ergänzt den fehlenden Teil. So wird Subtrahieren als Ergänzen zum Ganzen begreifbar – passend zum Lehrplan der Klasse 1 (1.OA.B.4).",
+      "de": "Umkehraufgaben üben: den fehlenden Teil finden und Minus als Zahlenzerlegung verstehen – Klasse 1. Kostenlos online, ohne Anmeldung.",
       "es": "Esta actividad presenta la resta como una descomposición del todo en partes: dado el todo y una parte, el niño descubre la parte que falta para completarlo. Alineada con el Currículo LOMLOE (1.OA.B.4).",
       "pt": "Nesta atividade, a criança entende a subtração como decomposição: dado o todo e uma parte, ela descobre a parte que falta para completar o número. Alinhada à BNCC (1.OA.B.4), fortalece o raciocínio aditivo e a relação entre adição e subtração no 1º ano.",
       "fr": "Cette activité présente la soustraction comme un complément : à partir d'un tout et d'une partie connue, l'enfant retrouve la partie manquante en décomposant le nombre. Conforme aux Programmes officiels du cycle 2 (1.OA.B.4).",
@@ -239,17 +387,62 @@
     "id": "numberbond.add-three.1-oa-a-2",
     "tool": "number-bond-activity",
     "task_template": "add-three",
-    "alignment": { "framework": "CCSS", "code": "1.OA.A.2", "grade": "1", "strand": "Operations & Algebraic Thinking" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "1.OA.A.2",
+      "grade": "1",
+      "strand": "Operations & Algebraic Thinking"
+    },
     "params": {
       "rounds": [
-        { "first": 3, "second": 4, "third": 5, "seed": 11 },
-        { "first": 2, "second": 3, "third": 6, "seed": 23 },
-        { "first": 5, "second": 6, "third": 7, "seed": 31 },
-        { "first": 4, "second": 4, "third": 5, "seed": 41 },
-        { "first": 2, "second": 5, "third": 7, "seed": 53 },
-        { "first": 6, "second": 3, "third": 2, "seed": 61 },
-        { "first": 7, "second": 4, "third": 3, "seed": 67 },
-        { "first": 5, "second": 5, "third": 6, "seed": 71 }
+        {
+          "first": 3,
+          "second": 4,
+          "third": 5,
+          "seed": 11
+        },
+        {
+          "first": 2,
+          "second": 3,
+          "third": 6,
+          "seed": 23
+        },
+        {
+          "first": 5,
+          "second": 6,
+          "third": 7,
+          "seed": 31
+        },
+        {
+          "first": 4,
+          "second": 4,
+          "third": 5,
+          "seed": 41
+        },
+        {
+          "first": 2,
+          "second": 5,
+          "third": 7,
+          "seed": 53
+        },
+        {
+          "first": 6,
+          "second": 3,
+          "third": 2,
+          "seed": 61
+        },
+        {
+          "first": 7,
+          "second": 4,
+          "third": 3,
+          "seed": 67
+        },
+        {
+          "first": 5,
+          "second": 5,
+          "third": 6,
+          "seed": 71
+        }
       ]
     },
     "theme": null,
@@ -298,121 +491,762 @@
     "id": "numberbond.story-problem.2-oa-a-1",
     "tool": "number-bond-activity",
     "task_template": "word-problem",
-    "alignment": { "framework": "CCSS", "code": "2.OA.A.1", "grade": "2", "strand": "Operations & Algebraic Thinking" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "2.OA.A.1",
+      "grade": "2",
+      "strand": "Operations & Algebraic Thinking"
+    },
     "params": {
       "byLocale": {
         "en": {
           "rounds": [
-            { "text": "A garden has 20 red tulips and 30 yellow tulips. How many tulips are there in all?", "first": 20, "second": 30, "whole": 50, "unknownPos": "whole", "seed": 11 },
-            { "text": "There are 45 books on a shelf. 25 are picture books and the rest are story books. How many story books are there?", "first": 25, "second": 20, "whole": 45, "unknownPos": "second", "seed": 23 },
-            { "text": "Maya picked 18 apples and Sam picked 21 apples. How many apples did they pick together?", "first": 18, "second": 21, "whole": 39, "unknownPos": "whole", "seed": 31 },
-            { "text": "There were 50 sheep in a field. 20 ran away. How many sheep are left?", "first": 20, "second": 30, "whole": 50, "unknownPos": "second", "seed": 41 },
-            { "text": "A box holds 60 crayons. 35 are red and the rest are blue. How many crayons are blue?", "first": 35, "second": 25, "whole": 60, "unknownPos": "second", "seed": 53 },
-            { "text": "16 ducks are in a pond. More ducks come. Now there are 30 ducks. How many ducks came?", "first": 16, "second": 14, "whole": 30, "unknownPos": "second", "seed": 61 },
-            { "text": "Tom had some marbles. He found 22 more. Now he has 40 marbles. How many did he start with?", "first": 18, "second": 22, "whole": 40, "unknownPos": "first", "seed": 67 },
-            { "text": "A class has 24 girls and 23 boys. How many children are in the class?", "first": 24, "second": 23, "whole": 47, "unknownPos": "whole", "seed": 71 }
+            {
+              "text": "A garden has 20 red tulips and 30 yellow tulips. How many tulips are there in all?",
+              "first": 20,
+              "second": 30,
+              "whole": 50,
+              "unknownPos": "whole",
+              "seed": 11
+            },
+            {
+              "text": "There are 45 books on a shelf. 25 are picture books and the rest are story books. How many story books are there?",
+              "first": 25,
+              "second": 20,
+              "whole": 45,
+              "unknownPos": "second",
+              "seed": 23
+            },
+            {
+              "text": "Maya picked 18 apples and Sam picked 21 apples. How many apples did they pick together?",
+              "first": 18,
+              "second": 21,
+              "whole": 39,
+              "unknownPos": "whole",
+              "seed": 31
+            },
+            {
+              "text": "There were 50 sheep in a field. 20 ran away. How many sheep are left?",
+              "first": 20,
+              "second": 30,
+              "whole": 50,
+              "unknownPos": "second",
+              "seed": 41
+            },
+            {
+              "text": "A box holds 60 crayons. 35 are red and the rest are blue. How many crayons are blue?",
+              "first": 35,
+              "second": 25,
+              "whole": 60,
+              "unknownPos": "second",
+              "seed": 53
+            },
+            {
+              "text": "16 ducks are in a pond. More ducks come. Now there are 30 ducks. How many ducks came?",
+              "first": 16,
+              "second": 14,
+              "whole": 30,
+              "unknownPos": "second",
+              "seed": 61
+            },
+            {
+              "text": "Tom had some marbles. He found 22 more. Now he has 40 marbles. How many did he start with?",
+              "first": 18,
+              "second": 22,
+              "whole": 40,
+              "unknownPos": "first",
+              "seed": 67
+            },
+            {
+              "text": "A class has 24 girls and 23 boys. How many children are in the class?",
+              "first": 24,
+              "second": 23,
+              "whole": 47,
+              "unknownPos": "whole",
+              "seed": 71
+            }
           ]
         },
-        "de": { "rounds": [
-          { "text": "Im Beet stehen 20 rote Tulpen und 30 gelbe Tulpen. Wie viele Tulpen sind das zusammen?", "first": 20, "second": 30, "whole": 50, "unknownPos": "whole", "seed": 11 },
-          { "text": "Lena hat 45 Bücher. 25 davon sind Bilderbücher, der Rest sind Geschichtenbücher. Wie viele Geschichtenbücher hat sie?", "first": 25, "second": 20, "whole": 45, "unknownPos": "second", "seed": 23 },
-          { "text": "Maya pflückt 18 Äpfel und Sam pflückt 21 Äpfel. Wie viele Äpfel haben sie zusammen?", "first": 18, "second": 21, "whole": 39, "unknownPos": "whole", "seed": 31 },
-          { "text": "Auf der Wiese stehen 50 Schafe. 20 Schafe laufen weg. Wie viele Schafe bleiben übrig?", "first": 20, "second": 30, "whole": 50, "unknownPos": "second", "seed": 41 },
-          { "text": "In der Schachtel sind 60 Stifte. 35 sind rot, der Rest ist blau. Wie viele blaue Stifte sind es?", "first": 35, "second": 25, "whole": 60, "unknownPos": "second", "seed": 53 },
-          { "text": "Im Teich schwimmen 16 Enten. Es kommen noch welche dazu, jetzt sind es 30. Wie viele Enten sind dazugekommen?", "first": 16, "second": 14, "whole": 30, "unknownPos": "second", "seed": 61 },
-          { "text": "Tom hat einige Murmeln. Er findet 22 Murmeln dazu, jetzt hat er 40. Wie viele Murmeln hatte er am Anfang?", "first": 18, "second": 22, "whole": 40, "unknownPos": "first", "seed": 67 },
-          { "text": "In der Klasse sind 24 Mädchen und 23 Jungen. Wie viele Kinder sind in der Klasse?", "first": 24, "second": 23, "whole": 47, "unknownPos": "whole", "seed": 71 }
-        ] },
-        "es": { "rounds": [
-          { "text": "En el jardín hay 20 tulipanes rojos y 30 tulipanes amarillos. ¿Cuántos tulipanes hay en total?", "first": 20, "second": 30, "whole": 50, "unknownPos": "whole", "seed": 11 },
-          { "text": "En el estante hay 45 libros. 25 son de imágenes y los demás son de cuentos. ¿Cuántos libros son de cuentos?", "first": 25, "second": 20, "whole": 45, "unknownPos": "second", "seed": 23 },
-          { "text": "Ana tiene 18 manzanas y junta 21 más. ¿Cuántas manzanas tiene juntas?", "first": 18, "second": 21, "whole": 39, "unknownPos": "whole", "seed": 31 },
-          { "text": "En el corral había 50 ovejas y 20 se fueron al campo. ¿Cuántas ovejas quedan?", "first": 20, "second": 30, "whole": 50, "unknownPos": "second", "seed": 41 },
-          { "text": "En la caja hay 60 crayones. 35 son rojos y los demás son azules. ¿Cuántos crayones son azules?", "first": 35, "second": 25, "whole": 60, "unknownPos": "second", "seed": 53 },
-          { "text": "En el lago había 16 patos. Llegaron más y ahora hay 30 patos. ¿Cuántos patos llegaron?", "first": 16, "second": 14, "whole": 30, "unknownPos": "second", "seed": 61 },
-          { "text": "Luis tenía algunas canicas, encontró 22 más y ahora tiene 40 canicas. ¿Cuántas canicas tenía al inicio?", "first": 18, "second": 22, "whole": 40, "unknownPos": "first", "seed": 67 },
-          { "text": "En el salón hay 24 niñas y 23 niños. ¿Cuántos niños y niñas hay en total?", "first": 24, "second": 23, "whole": 47, "unknownPos": "whole", "seed": 71 }
-        ] },
-        "pt": { "rounds": [
-          { "text": "Júlia colheu 20 tulipas vermelhas e 30 tulipas amarelas. Quantas tulipas ela colheu no total?", "first": 20, "second": 30, "whole": 50, "unknownPos": "whole", "seed": 11 },
-          { "text": "Na estante há 45 livros. São 25 livros de figuras e o resto são de histórias. Quantos livros de histórias há?", "first": 25, "second": 20, "whole": 45, "unknownPos": "second", "seed": 23 },
-          { "text": "Tinha 18 maçãs em uma cesta e mais 21 em outra. Quantas maçãs há juntas?", "first": 18, "second": 21, "whole": 39, "unknownPos": "whole", "seed": 31 },
-          { "text": "Na fazenda havia 50 ovelhas e 20 fugiram. Quantas ovelhas restam?", "first": 20, "second": 30, "whole": 50, "unknownPos": "second", "seed": 41 },
-          { "text": "Pedro tem 60 lápis de cor. São 35 vermelhos e o resto são azuis. Quantos lápis azuis ele tem?", "first": 35, "second": 25, "whole": 60, "unknownPos": "second", "seed": 53 },
-          { "text": "No lago havia 16 patos. Chegaram mais alguns e agora são 30. Quantos patos chegaram?", "first": 16, "second": 14, "whole": 30, "unknownPos": "second", "seed": 61 },
-          { "text": "Ana tinha algumas bolinhas de gude. Ela achou mais 22 e agora tem 40. Quantas bolinhas ela tinha no começo?", "first": 18, "second": 22, "whole": 40, "unknownPos": "first", "seed": 67 },
-          { "text": "Na turma há 24 meninas e 23 meninos. Quantas crianças há na turma?", "first": 24, "second": 23, "whole": 47, "unknownPos": "whole", "seed": 71 }
-        ] },
-        "fr": { "rounds": [
-          { "text": "Dans le jardin, il y a 20 tulipes rouges et 30 tulipes jaunes. Combien y a-t-il de tulipes en tout ?", "first": 20, "second": 30, "whole": 50, "unknownPos": "whole", "seed": 11 },
-          { "text": "Sur l'étagère, il y a 45 livres : 25 sont des albums et le reste sont des histoires. Combien y a-t-il d'histoires ?", "first": 25, "second": 20, "whole": 45, "unknownPos": "second", "seed": 23 },
-          { "text": "Léa a 18 pommes et elle en cueille 21 autres. Combien de pommes a-t-elle ensemble ?", "first": 18, "second": 21, "whole": 39, "unknownPos": "whole", "seed": 31 },
-          { "text": "Dans le pré, il y a 50 moutons. 20 moutons partent. Combien de moutons reste-t-il ?", "first": 20, "second": 30, "whole": 50, "unknownPos": "second", "seed": 41 },
-          { "text": "Dans la trousse, il y a 60 crayons : 35 sont rouges et le reste sont bleus. Combien y a-t-il de crayons bleus ?", "first": 35, "second": 25, "whole": 60, "unknownPos": "second", "seed": 53 },
-          { "text": "Sur l'étang, il y a 16 canards. D'autres canards arrivent : maintenant il y en a 30. Combien de canards sont arrivés ?", "first": 16, "second": 14, "whole": 30, "unknownPos": "second", "seed": 61 },
-          { "text": "Tom avait des billes. Il en a trouvé 22 autres et maintenant il en a 40. Combien de billes avait-il au début ?", "first": 18, "second": 22, "whole": 40, "unknownPos": "first", "seed": 67 },
-          { "text": "Dans la classe, il y a 24 filles et 23 garçons. Combien y a-t-il d'enfants en tout ?", "first": 24, "second": 23, "whole": 47, "unknownPos": "whole", "seed": 71 }
-        ] },
-        "it": { "rounds": [
-          { "text": "In un vaso ci sono 20 tulipani rossi e 30 tulipani gialli. Quanti tulipani ci sono in tutto?", "first": 20, "second": 30, "whole": 50, "unknownPos": "whole", "seed": 11 },
-          { "text": "Sullo scaffale ci sono 45 libri: 25 sono illustrati e gli altri sono di storie. Quanti libri di storie ci sono?", "first": 25, "second": 20, "whole": 45, "unknownPos": "second", "seed": 23 },
-          { "text": "Nel cesto ci sono 18 mele e ne aggiungiamo altre 21. Quante mele ci sono insieme?", "first": 18, "second": 21, "whole": 39, "unknownPos": "whole", "seed": 31 },
-          { "text": "Nel prato ci sono 50 pecore, ma 20 sono scappate. Quante pecore restano?", "first": 20, "second": 30, "whole": 50, "unknownPos": "second", "seed": 41 },
-          { "text": "Nell'astuccio ci sono 60 pastelli: 35 sono rossi e gli altri sono blu. Quanti pastelli blu ci sono?", "first": 35, "second": 25, "whole": 60, "unknownPos": "second", "seed": 53 },
-          { "text": "Nello stagno ci sono 16 anatre. Ne arrivano altre e ora sono 30. Quante anatre sono arrivate?", "first": 16, "second": 14, "whole": 30, "unknownPos": "second", "seed": 61 },
-          { "text": "Luca aveva alcune biglie. Ne ha trovate altre 22 e ora ne ha 40. Quante biglie aveva all'inizio?", "first": 18, "second": 22, "whole": 40, "unknownPos": "first", "seed": 67 },
-          { "text": "In classe ci sono 24 bambine e 23 bambini. Quanti bambini ci sono in tutto?", "first": 24, "second": 23, "whole": 47, "unknownPos": "whole", "seed": 71 }
-        ] },
-        "nl": { "rounds": [
-          { "text": "In de tuin staan 20 rode tulpen en 30 gele tulpen. Hoeveel tulpen zijn er in totaal?", "first": 20, "second": 30, "whole": 50, "unknownPos": "whole", "seed": 11 },
-          { "text": "Op de plank staan 45 boeken. 25 zijn prentenboeken en de rest zijn verhalenboeken. Hoeveel verhalenboeken zijn er?", "first": 25, "second": 20, "whole": 45, "unknownPos": "second", "seed": 23 },
-          { "text": "Lotte plukt 18 appels en daarna nog 21 appels. Hoeveel appels heeft ze samen?", "first": 18, "second": 21, "whole": 39, "unknownPos": "whole", "seed": 31 },
-          { "text": "Op de wei lopen 50 schapen. 20 schapen lopen weg. Hoeveel schapen blijven er over?", "first": 20, "second": 30, "whole": 50, "unknownPos": "second", "seed": 41 },
-          { "text": "In de doos zitten 60 kleurpotloden. 35 zijn rood en de rest is blauw. Hoeveel blauwe kleurpotloden zijn er?", "first": 35, "second": 25, "whole": 60, "unknownPos": "second", "seed": 53 },
-          { "text": "In de vijver zwemmen 16 eenden. Er komen meer eenden bij en nu zijn het er 30. Hoeveel eenden kwamen erbij?", "first": 16, "second": 14, "whole": 30, "unknownPos": "second", "seed": 61 },
-          { "text": "Sem heeft een paar knikkers. Hij vindt er 22 bij en nu heeft hij er 40. Hoeveel knikkers had hij aan het begin?", "first": 18, "second": 22, "whole": 40, "unknownPos": "first", "seed": 67 },
-          { "text": "In de klas zitten 24 meisjes en 23 jongens. Hoeveel kinderen zijn er samen?", "first": 24, "second": 23, "whole": 47, "unknownPos": "whole", "seed": 71 }
-        ] },
-        "sv": { "rounds": [
-          { "text": "Lisa har 20 röda tulpaner och 30 gula tulpaner. Hur många tulpaner har hon totalt?", "first": 20, "second": 30, "whole": 50, "unknownPos": "whole", "seed": 11 },
-          { "text": "I lådan finns 45 böcker. 25 är bilderböcker och resten är sagoböcker. Hur många sagoböcker finns det?", "first": 25, "second": 20, "whole": 45, "unknownPos": "second", "seed": 23 },
-          { "text": "Det ligger 18 äpplen på bordet. Mamma lägger dit 21 äpplen till. Hur många äpplen är det tillsammans?", "first": 18, "second": 21, "whole": 39, "unknownPos": "whole", "seed": 31 },
-          { "text": "På ängen finns 50 får. 20 av dem sprang iväg. Hur många får är kvar?", "first": 20, "second": 30, "whole": 50, "unknownPos": "second", "seed": 41 },
-          { "text": "I asken finns 60 kritor. 35 är röda och resten är blå. Hur många blå kritor finns det?", "first": 35, "second": 25, "whole": 60, "unknownPos": "second", "seed": 53 },
-          { "text": "Vid dammen simmar 16 ankor. Fler ankor kommer dit, och nu är de 30. Hur många ankor kom?", "first": 16, "second": 14, "whole": 30, "unknownPos": "second", "seed": 61 },
-          { "text": "Erik hade några kulor. Han hittade 22 kulor till, och nu har han 40. Hur många kulor hade han från början?", "first": 18, "second": 22, "whole": 40, "unknownPos": "first", "seed": 67 },
-          { "text": "I klassen finns 24 flickor och 23 pojkar. Hur många barn är det i klassen?", "first": 24, "second": 23, "whole": 47, "unknownPos": "whole", "seed": 71 }
-        ] },
-        "da": { "rounds": [
-          { "text": "Anna har 20 røde tulipaner og 30 gule tulipaner. Hvor mange tulipaner har hun i alt?", "first": 20, "second": 30, "whole": 50, "unknownPos": "whole", "seed": 11 },
-          { "text": "Der er 45 bøger. 25 er billedbøger, og resten er historiebøger. Hvor mange historiebøger er der?", "first": 25, "second": 20, "whole": 45, "unknownPos": "second", "seed": 23 },
-          { "text": "Der ligger 18 æbler på bordet, og Mads lægger 21 mere. Hvor mange æbler er der tilsammen?", "first": 18, "second": 21, "whole": 39, "unknownPos": "whole", "seed": 31 },
-          { "text": "Der er 50 får på marken. 20 af dem løb væk. Hvor mange får er tilbage?", "first": 20, "second": 30, "whole": 50, "unknownPos": "second", "seed": 41 },
-          { "text": "Ida har 60 farveblyanter. 35 er røde, og resten er blå. Hvor mange blå farveblyanter har hun?", "first": 35, "second": 25, "whole": 60, "unknownPos": "second", "seed": 53 },
-          { "text": "Der svømmer 16 ænder i søen. Flere ænder kommer til, og nu er der 30. Hvor mange ænder kom til?", "first": 16, "second": 14, "whole": 30, "unknownPos": "second", "seed": 61 },
-          { "text": "Noah havde nogle kugler. Han fandt 22 til, og nu har han 40. Hvor mange kugler havde han fra start?", "first": 18, "second": 22, "whole": 40, "unknownPos": "first", "seed": 67 },
-          { "text": "I klassen er der 24 piger og 23 drenge. Hvor mange børn er der i alt?", "first": 24, "second": 23, "whole": 47, "unknownPos": "whole", "seed": 71 }
-        ] },
-        "no": { "rounds": [
-          { "text": "Det står 20 røde tulipaner og 30 gule tulipaner i hagen. Hvor mange tulipaner er det til sammen?", "first": 20, "second": 30, "whole": 50, "unknownPos": "whole", "seed": 11 },
-          { "text": "Lisa har 45 bøker. 25 av dem er bildebøker, og resten er fortellingsbøker. Hvor mange fortellingsbøker har hun?", "first": 25, "second": 20, "whole": 45, "unknownPos": "second", "seed": 23 },
-          { "text": "Per plukker 18 epler. Så plukker han 21 epler til. Hvor mange epler har han til sammen?", "first": 18, "second": 21, "whole": 39, "unknownPos": "whole", "seed": 31 },
-          { "text": "Det er 50 sauer på jordet. 20 av dem løper vekk. Hvor mange sauer er igjen?", "first": 20, "second": 30, "whole": 50, "unknownPos": "second", "seed": 41 },
-          { "text": "I esken er det 60 fargestifter. 35 er røde, og resten er blå. Hvor mange blå fargestifter er det?", "first": 35, "second": 25, "whole": 60, "unknownPos": "second", "seed": 53 },
-          { "text": "Det svømmer 16 ender i dammen. Flere ender kommer. Nå er det 30 ender. Hvor mange ender kom?", "first": 16, "second": 14, "whole": 30, "unknownPos": "second", "seed": 61 },
-          { "text": "Ola hadde noen klinkekuler. Han fant 22 til. Nå har han 40 klinkekuler. Hvor mange hadde han fra start?", "first": 18, "second": 22, "whole": 40, "unknownPos": "first", "seed": 67 },
-          { "text": "I klassen er det 24 jenter og 23 gutter. Hvor mange barn er det i klassen?", "first": 24, "second": 23, "whole": 47, "unknownPos": "whole", "seed": 71 }
-        ] },
-        "fi": { "rounds": [
-          { "text": "Maljakossa on 20 punaista tulppaania ja 30 keltaista tulppaania. Kuinka monta tulppaania on yhteensä?", "first": 20, "second": 30, "whole": 50, "unknownPos": "whole", "seed": 11 },
-          { "text": "Hyllyssä on 45 kirjaa. Niistä 25 on kuvakirjoja ja loput satukirjoja. Kuinka monta satukirjaa on?", "first": 25, "second": 20, "whole": 45, "unknownPos": "second", "seed": 23 },
-          { "text": "Maija poimi 18 omenaa ja Sami poimi 21 omenaa. Kuinka monta omenaa heillä on yhteensä?", "first": 18, "second": 21, "whole": 39, "unknownPos": "whole", "seed": 31 },
-          { "text": "Laitumella on 50 lammasta. Niistä 20 karkasi pois. Kuinka monta lammasta jäi jäljelle?", "first": 20, "second": 30, "whole": 50, "unknownPos": "second", "seed": 41 },
-          { "text": "Laatikossa on 60 värikynää. Niistä 35 on punaisia ja loput sinisiä. Kuinka monta sinistä värikynää on?", "first": 35, "second": 25, "whole": 60, "unknownPos": "second", "seed": 53 },
-          { "text": "Lammessa ui 16 ankkaa. Lisää ankkoja tulee, ja nyt niitä on 30. Kuinka monta ankkaa tuli lisää?", "first": 16, "second": 14, "whole": 30, "unknownPos": "second", "seed": 61 },
-          { "text": "Liisalla oli muutama kuula. Hän löysi 22 kuulaa lisää, ja nyt niitä on 40. Kuinka monta kuulaa hänellä oli aluksi?", "first": 18, "second": 22, "whole": 40, "unknownPos": "first", "seed": 67 },
-          { "text": "Luokassa on 24 tyttöä ja 23 poikaa. Kuinka monta lasta luokassa on yhteensä?", "first": 24, "second": 23, "whole": 47, "unknownPos": "whole", "seed": 71 }
-        ] }
+        "de": {
+          "rounds": [
+            {
+              "text": "Im Beet stehen 20 rote Tulpen und 30 gelbe Tulpen. Wie viele Tulpen sind das zusammen?",
+              "first": 20,
+              "second": 30,
+              "whole": 50,
+              "unknownPos": "whole",
+              "seed": 11
+            },
+            {
+              "text": "Lena hat 45 Bücher. 25 davon sind Bilderbücher, der Rest sind Geschichtenbücher. Wie viele Geschichtenbücher hat sie?",
+              "first": 25,
+              "second": 20,
+              "whole": 45,
+              "unknownPos": "second",
+              "seed": 23
+            },
+            {
+              "text": "Maya pflückt 18 Äpfel und Sam pflückt 21 Äpfel. Wie viele Äpfel haben sie zusammen?",
+              "first": 18,
+              "second": 21,
+              "whole": 39,
+              "unknownPos": "whole",
+              "seed": 31
+            },
+            {
+              "text": "Auf der Wiese stehen 50 Schafe. 20 Schafe laufen weg. Wie viele Schafe bleiben übrig?",
+              "first": 20,
+              "second": 30,
+              "whole": 50,
+              "unknownPos": "second",
+              "seed": 41
+            },
+            {
+              "text": "In der Schachtel sind 60 Stifte. 35 sind rot, der Rest ist blau. Wie viele blaue Stifte sind es?",
+              "first": 35,
+              "second": 25,
+              "whole": 60,
+              "unknownPos": "second",
+              "seed": 53
+            },
+            {
+              "text": "Im Teich schwimmen 16 Enten. Es kommen noch welche dazu, jetzt sind es 30. Wie viele Enten sind dazugekommen?",
+              "first": 16,
+              "second": 14,
+              "whole": 30,
+              "unknownPos": "second",
+              "seed": 61
+            },
+            {
+              "text": "Tom hat einige Murmeln. Er findet 22 Murmeln dazu, jetzt hat er 40. Wie viele Murmeln hatte er am Anfang?",
+              "first": 18,
+              "second": 22,
+              "whole": 40,
+              "unknownPos": "first",
+              "seed": 67
+            },
+            {
+              "text": "In der Klasse sind 24 Mädchen und 23 Jungen. Wie viele Kinder sind in der Klasse?",
+              "first": 24,
+              "second": 23,
+              "whole": 47,
+              "unknownPos": "whole",
+              "seed": 71
+            }
+          ]
+        },
+        "es": {
+          "rounds": [
+            {
+              "text": "En el jardín hay 20 tulipanes rojos y 30 tulipanes amarillos. ¿Cuántos tulipanes hay en total?",
+              "first": 20,
+              "second": 30,
+              "whole": 50,
+              "unknownPos": "whole",
+              "seed": 11
+            },
+            {
+              "text": "En el estante hay 45 libros. 25 son de imágenes y los demás son de cuentos. ¿Cuántos libros son de cuentos?",
+              "first": 25,
+              "second": 20,
+              "whole": 45,
+              "unknownPos": "second",
+              "seed": 23
+            },
+            {
+              "text": "Ana tiene 18 manzanas y junta 21 más. ¿Cuántas manzanas tiene juntas?",
+              "first": 18,
+              "second": 21,
+              "whole": 39,
+              "unknownPos": "whole",
+              "seed": 31
+            },
+            {
+              "text": "En el corral había 50 ovejas y 20 se fueron al campo. ¿Cuántas ovejas quedan?",
+              "first": 20,
+              "second": 30,
+              "whole": 50,
+              "unknownPos": "second",
+              "seed": 41
+            },
+            {
+              "text": "En la caja hay 60 crayones. 35 son rojos y los demás son azules. ¿Cuántos crayones son azules?",
+              "first": 35,
+              "second": 25,
+              "whole": 60,
+              "unknownPos": "second",
+              "seed": 53
+            },
+            {
+              "text": "En el lago había 16 patos. Llegaron más y ahora hay 30 patos. ¿Cuántos patos llegaron?",
+              "first": 16,
+              "second": 14,
+              "whole": 30,
+              "unknownPos": "second",
+              "seed": 61
+            },
+            {
+              "text": "Luis tenía algunas canicas, encontró 22 más y ahora tiene 40 canicas. ¿Cuántas canicas tenía al inicio?",
+              "first": 18,
+              "second": 22,
+              "whole": 40,
+              "unknownPos": "first",
+              "seed": 67
+            },
+            {
+              "text": "En el salón hay 24 niñas y 23 niños. ¿Cuántos niños y niñas hay en total?",
+              "first": 24,
+              "second": 23,
+              "whole": 47,
+              "unknownPos": "whole",
+              "seed": 71
+            }
+          ]
+        },
+        "pt": {
+          "rounds": [
+            {
+              "text": "Júlia colheu 20 tulipas vermelhas e 30 tulipas amarelas. Quantas tulipas ela colheu no total?",
+              "first": 20,
+              "second": 30,
+              "whole": 50,
+              "unknownPos": "whole",
+              "seed": 11
+            },
+            {
+              "text": "Na estante há 45 livros. São 25 livros de figuras e o resto são de histórias. Quantos livros de histórias há?",
+              "first": 25,
+              "second": 20,
+              "whole": 45,
+              "unknownPos": "second",
+              "seed": 23
+            },
+            {
+              "text": "Tinha 18 maçãs em uma cesta e mais 21 em outra. Quantas maçãs há juntas?",
+              "first": 18,
+              "second": 21,
+              "whole": 39,
+              "unknownPos": "whole",
+              "seed": 31
+            },
+            {
+              "text": "Na fazenda havia 50 ovelhas e 20 fugiram. Quantas ovelhas restam?",
+              "first": 20,
+              "second": 30,
+              "whole": 50,
+              "unknownPos": "second",
+              "seed": 41
+            },
+            {
+              "text": "Pedro tem 60 lápis de cor. São 35 vermelhos e o resto são azuis. Quantos lápis azuis ele tem?",
+              "first": 35,
+              "second": 25,
+              "whole": 60,
+              "unknownPos": "second",
+              "seed": 53
+            },
+            {
+              "text": "No lago havia 16 patos. Chegaram mais alguns e agora são 30. Quantos patos chegaram?",
+              "first": 16,
+              "second": 14,
+              "whole": 30,
+              "unknownPos": "second",
+              "seed": 61
+            },
+            {
+              "text": "Ana tinha algumas bolinhas de gude. Ela achou mais 22 e agora tem 40. Quantas bolinhas ela tinha no começo?",
+              "first": 18,
+              "second": 22,
+              "whole": 40,
+              "unknownPos": "first",
+              "seed": 67
+            },
+            {
+              "text": "Na turma há 24 meninas e 23 meninos. Quantas crianças há na turma?",
+              "first": 24,
+              "second": 23,
+              "whole": 47,
+              "unknownPos": "whole",
+              "seed": 71
+            }
+          ]
+        },
+        "fr": {
+          "rounds": [
+            {
+              "text": "Dans le jardin, il y a 20 tulipes rouges et 30 tulipes jaunes. Combien y a-t-il de tulipes en tout ?",
+              "first": 20,
+              "second": 30,
+              "whole": 50,
+              "unknownPos": "whole",
+              "seed": 11
+            },
+            {
+              "text": "Sur l'étagère, il y a 45 livres : 25 sont des albums et le reste sont des histoires. Combien y a-t-il d'histoires ?",
+              "first": 25,
+              "second": 20,
+              "whole": 45,
+              "unknownPos": "second",
+              "seed": 23
+            },
+            {
+              "text": "Léa a 18 pommes et elle en cueille 21 autres. Combien de pommes a-t-elle ensemble ?",
+              "first": 18,
+              "second": 21,
+              "whole": 39,
+              "unknownPos": "whole",
+              "seed": 31
+            },
+            {
+              "text": "Dans le pré, il y a 50 moutons. 20 moutons partent. Combien de moutons reste-t-il ?",
+              "first": 20,
+              "second": 30,
+              "whole": 50,
+              "unknownPos": "second",
+              "seed": 41
+            },
+            {
+              "text": "Dans la trousse, il y a 60 crayons : 35 sont rouges et le reste sont bleus. Combien y a-t-il de crayons bleus ?",
+              "first": 35,
+              "second": 25,
+              "whole": 60,
+              "unknownPos": "second",
+              "seed": 53
+            },
+            {
+              "text": "Sur l'étang, il y a 16 canards. D'autres canards arrivent : maintenant il y en a 30. Combien de canards sont arrivés ?",
+              "first": 16,
+              "second": 14,
+              "whole": 30,
+              "unknownPos": "second",
+              "seed": 61
+            },
+            {
+              "text": "Tom avait des billes. Il en a trouvé 22 autres et maintenant il en a 40. Combien de billes avait-il au début ?",
+              "first": 18,
+              "second": 22,
+              "whole": 40,
+              "unknownPos": "first",
+              "seed": 67
+            },
+            {
+              "text": "Dans la classe, il y a 24 filles et 23 garçons. Combien y a-t-il d'enfants en tout ?",
+              "first": 24,
+              "second": 23,
+              "whole": 47,
+              "unknownPos": "whole",
+              "seed": 71
+            }
+          ]
+        },
+        "it": {
+          "rounds": [
+            {
+              "text": "In un vaso ci sono 20 tulipani rossi e 30 tulipani gialli. Quanti tulipani ci sono in tutto?",
+              "first": 20,
+              "second": 30,
+              "whole": 50,
+              "unknownPos": "whole",
+              "seed": 11
+            },
+            {
+              "text": "Sullo scaffale ci sono 45 libri: 25 sono illustrati e gli altri sono di storie. Quanti libri di storie ci sono?",
+              "first": 25,
+              "second": 20,
+              "whole": 45,
+              "unknownPos": "second",
+              "seed": 23
+            },
+            {
+              "text": "Nel cesto ci sono 18 mele e ne aggiungiamo altre 21. Quante mele ci sono insieme?",
+              "first": 18,
+              "second": 21,
+              "whole": 39,
+              "unknownPos": "whole",
+              "seed": 31
+            },
+            {
+              "text": "Nel prato ci sono 50 pecore, ma 20 sono scappate. Quante pecore restano?",
+              "first": 20,
+              "second": 30,
+              "whole": 50,
+              "unknownPos": "second",
+              "seed": 41
+            },
+            {
+              "text": "Nell'astuccio ci sono 60 pastelli: 35 sono rossi e gli altri sono blu. Quanti pastelli blu ci sono?",
+              "first": 35,
+              "second": 25,
+              "whole": 60,
+              "unknownPos": "second",
+              "seed": 53
+            },
+            {
+              "text": "Nello stagno ci sono 16 anatre. Ne arrivano altre e ora sono 30. Quante anatre sono arrivate?",
+              "first": 16,
+              "second": 14,
+              "whole": 30,
+              "unknownPos": "second",
+              "seed": 61
+            },
+            {
+              "text": "Luca aveva alcune biglie. Ne ha trovate altre 22 e ora ne ha 40. Quante biglie aveva all'inizio?",
+              "first": 18,
+              "second": 22,
+              "whole": 40,
+              "unknownPos": "first",
+              "seed": 67
+            },
+            {
+              "text": "In classe ci sono 24 bambine e 23 bambini. Quanti bambini ci sono in tutto?",
+              "first": 24,
+              "second": 23,
+              "whole": 47,
+              "unknownPos": "whole",
+              "seed": 71
+            }
+          ]
+        },
+        "nl": {
+          "rounds": [
+            {
+              "text": "In de tuin staan 20 rode tulpen en 30 gele tulpen. Hoeveel tulpen zijn er in totaal?",
+              "first": 20,
+              "second": 30,
+              "whole": 50,
+              "unknownPos": "whole",
+              "seed": 11
+            },
+            {
+              "text": "Op de plank staan 45 boeken. 25 zijn prentenboeken en de rest zijn verhalenboeken. Hoeveel verhalenboeken zijn er?",
+              "first": 25,
+              "second": 20,
+              "whole": 45,
+              "unknownPos": "second",
+              "seed": 23
+            },
+            {
+              "text": "Lotte plukt 18 appels en daarna nog 21 appels. Hoeveel appels heeft ze samen?",
+              "first": 18,
+              "second": 21,
+              "whole": 39,
+              "unknownPos": "whole",
+              "seed": 31
+            },
+            {
+              "text": "Op de wei lopen 50 schapen. 20 schapen lopen weg. Hoeveel schapen blijven er over?",
+              "first": 20,
+              "second": 30,
+              "whole": 50,
+              "unknownPos": "second",
+              "seed": 41
+            },
+            {
+              "text": "In de doos zitten 60 kleurpotloden. 35 zijn rood en de rest is blauw. Hoeveel blauwe kleurpotloden zijn er?",
+              "first": 35,
+              "second": 25,
+              "whole": 60,
+              "unknownPos": "second",
+              "seed": 53
+            },
+            {
+              "text": "In de vijver zwemmen 16 eenden. Er komen meer eenden bij en nu zijn het er 30. Hoeveel eenden kwamen erbij?",
+              "first": 16,
+              "second": 14,
+              "whole": 30,
+              "unknownPos": "second",
+              "seed": 61
+            },
+            {
+              "text": "Sem heeft een paar knikkers. Hij vindt er 22 bij en nu heeft hij er 40. Hoeveel knikkers had hij aan het begin?",
+              "first": 18,
+              "second": 22,
+              "whole": 40,
+              "unknownPos": "first",
+              "seed": 67
+            },
+            {
+              "text": "In de klas zitten 24 meisjes en 23 jongens. Hoeveel kinderen zijn er samen?",
+              "first": 24,
+              "second": 23,
+              "whole": 47,
+              "unknownPos": "whole",
+              "seed": 71
+            }
+          ]
+        },
+        "sv": {
+          "rounds": [
+            {
+              "text": "Lisa har 20 röda tulpaner och 30 gula tulpaner. Hur många tulpaner har hon totalt?",
+              "first": 20,
+              "second": 30,
+              "whole": 50,
+              "unknownPos": "whole",
+              "seed": 11
+            },
+            {
+              "text": "I lådan finns 45 böcker. 25 är bilderböcker och resten är sagoböcker. Hur många sagoböcker finns det?",
+              "first": 25,
+              "second": 20,
+              "whole": 45,
+              "unknownPos": "second",
+              "seed": 23
+            },
+            {
+              "text": "Det ligger 18 äpplen på bordet. Mamma lägger dit 21 äpplen till. Hur många äpplen är det tillsammans?",
+              "first": 18,
+              "second": 21,
+              "whole": 39,
+              "unknownPos": "whole",
+              "seed": 31
+            },
+            {
+              "text": "På ängen finns 50 får. 20 av dem sprang iväg. Hur många får är kvar?",
+              "first": 20,
+              "second": 30,
+              "whole": 50,
+              "unknownPos": "second",
+              "seed": 41
+            },
+            {
+              "text": "I asken finns 60 kritor. 35 är röda och resten är blå. Hur många blå kritor finns det?",
+              "first": 35,
+              "second": 25,
+              "whole": 60,
+              "unknownPos": "second",
+              "seed": 53
+            },
+            {
+              "text": "Vid dammen simmar 16 ankor. Fler ankor kommer dit, och nu är de 30. Hur många ankor kom?",
+              "first": 16,
+              "second": 14,
+              "whole": 30,
+              "unknownPos": "second",
+              "seed": 61
+            },
+            {
+              "text": "Erik hade några kulor. Han hittade 22 kulor till, och nu har han 40. Hur många kulor hade han från början?",
+              "first": 18,
+              "second": 22,
+              "whole": 40,
+              "unknownPos": "first",
+              "seed": 67
+            },
+            {
+              "text": "I klassen finns 24 flickor och 23 pojkar. Hur många barn är det i klassen?",
+              "first": 24,
+              "second": 23,
+              "whole": 47,
+              "unknownPos": "whole",
+              "seed": 71
+            }
+          ]
+        },
+        "da": {
+          "rounds": [
+            {
+              "text": "Anna har 20 røde tulipaner og 30 gule tulipaner. Hvor mange tulipaner har hun i alt?",
+              "first": 20,
+              "second": 30,
+              "whole": 50,
+              "unknownPos": "whole",
+              "seed": 11
+            },
+            {
+              "text": "Der er 45 bøger. 25 er billedbøger, og resten er historiebøger. Hvor mange historiebøger er der?",
+              "first": 25,
+              "second": 20,
+              "whole": 45,
+              "unknownPos": "second",
+              "seed": 23
+            },
+            {
+              "text": "Der ligger 18 æbler på bordet, og Mads lægger 21 mere. Hvor mange æbler er der tilsammen?",
+              "first": 18,
+              "second": 21,
+              "whole": 39,
+              "unknownPos": "whole",
+              "seed": 31
+            },
+            {
+              "text": "Der er 50 får på marken. 20 af dem løb væk. Hvor mange får er tilbage?",
+              "first": 20,
+              "second": 30,
+              "whole": 50,
+              "unknownPos": "second",
+              "seed": 41
+            },
+            {
+              "text": "Ida har 60 farveblyanter. 35 er røde, og resten er blå. Hvor mange blå farveblyanter har hun?",
+              "first": 35,
+              "second": 25,
+              "whole": 60,
+              "unknownPos": "second",
+              "seed": 53
+            },
+            {
+              "text": "Der svømmer 16 ænder i søen. Flere ænder kommer til, og nu er der 30. Hvor mange ænder kom til?",
+              "first": 16,
+              "second": 14,
+              "whole": 30,
+              "unknownPos": "second",
+              "seed": 61
+            },
+            {
+              "text": "Noah havde nogle kugler. Han fandt 22 til, og nu har han 40. Hvor mange kugler havde han fra start?",
+              "first": 18,
+              "second": 22,
+              "whole": 40,
+              "unknownPos": "first",
+              "seed": 67
+            },
+            {
+              "text": "I klassen er der 24 piger og 23 drenge. Hvor mange børn er der i alt?",
+              "first": 24,
+              "second": 23,
+              "whole": 47,
+              "unknownPos": "whole",
+              "seed": 71
+            }
+          ]
+        },
+        "no": {
+          "rounds": [
+            {
+              "text": "Det står 20 røde tulipaner og 30 gule tulipaner i hagen. Hvor mange tulipaner er det til sammen?",
+              "first": 20,
+              "second": 30,
+              "whole": 50,
+              "unknownPos": "whole",
+              "seed": 11
+            },
+            {
+              "text": "Lisa har 45 bøker. 25 av dem er bildebøker, og resten er fortellingsbøker. Hvor mange fortellingsbøker har hun?",
+              "first": 25,
+              "second": 20,
+              "whole": 45,
+              "unknownPos": "second",
+              "seed": 23
+            },
+            {
+              "text": "Per plukker 18 epler. Så plukker han 21 epler til. Hvor mange epler har han til sammen?",
+              "first": 18,
+              "second": 21,
+              "whole": 39,
+              "unknownPos": "whole",
+              "seed": 31
+            },
+            {
+              "text": "Det er 50 sauer på jordet. 20 av dem løper vekk. Hvor mange sauer er igjen?",
+              "first": 20,
+              "second": 30,
+              "whole": 50,
+              "unknownPos": "second",
+              "seed": 41
+            },
+            {
+              "text": "I esken er det 60 fargestifter. 35 er røde, og resten er blå. Hvor mange blå fargestifter er det?",
+              "first": 35,
+              "second": 25,
+              "whole": 60,
+              "unknownPos": "second",
+              "seed": 53
+            },
+            {
+              "text": "Det svømmer 16 ender i dammen. Flere ender kommer. Nå er det 30 ender. Hvor mange ender kom?",
+              "first": 16,
+              "second": 14,
+              "whole": 30,
+              "unknownPos": "second",
+              "seed": 61
+            },
+            {
+              "text": "Ola hadde noen klinkekuler. Han fant 22 til. Nå har han 40 klinkekuler. Hvor mange hadde han fra start?",
+              "first": 18,
+              "second": 22,
+              "whole": 40,
+              "unknownPos": "first",
+              "seed": 67
+            },
+            {
+              "text": "I klassen er det 24 jenter og 23 gutter. Hvor mange barn er det i klassen?",
+              "first": 24,
+              "second": 23,
+              "whole": 47,
+              "unknownPos": "whole",
+              "seed": 71
+            }
+          ]
+        },
+        "fi": {
+          "rounds": [
+            {
+              "text": "Maljakossa on 20 punaista tulppaania ja 30 keltaista tulppaania. Kuinka monta tulppaania on yhteensä?",
+              "first": 20,
+              "second": 30,
+              "whole": 50,
+              "unknownPos": "whole",
+              "seed": 11
+            },
+            {
+              "text": "Hyllyssä on 45 kirjaa. Niistä 25 on kuvakirjoja ja loput satukirjoja. Kuinka monta satukirjaa on?",
+              "first": 25,
+              "second": 20,
+              "whole": 45,
+              "unknownPos": "second",
+              "seed": 23
+            },
+            {
+              "text": "Maija poimi 18 omenaa ja Sami poimi 21 omenaa. Kuinka monta omenaa heillä on yhteensä?",
+              "first": 18,
+              "second": 21,
+              "whole": 39,
+              "unknownPos": "whole",
+              "seed": 31
+            },
+            {
+              "text": "Laitumella on 50 lammasta. Niistä 20 karkasi pois. Kuinka monta lammasta jäi jäljelle?",
+              "first": 20,
+              "second": 30,
+              "whole": 50,
+              "unknownPos": "second",
+              "seed": 41
+            },
+            {
+              "text": "Laatikossa on 60 värikynää. Niistä 35 on punaisia ja loput sinisiä. Kuinka monta sinistä värikynää on?",
+              "first": 35,
+              "second": 25,
+              "whole": 60,
+              "unknownPos": "second",
+              "seed": 53
+            },
+            {
+              "text": "Lammessa ui 16 ankkaa. Lisää ankkoja tulee, ja nyt niitä on 30. Kuinka monta ankkaa tuli lisää?",
+              "first": 16,
+              "second": 14,
+              "whole": 30,
+              "unknownPos": "second",
+              "seed": 61
+            },
+            {
+              "text": "Liisalla oli muutama kuula. Hän löysi 22 kuulaa lisää, ja nyt niitä on 40. Kuinka monta kuulaa hänellä oli aluksi?",
+              "first": 18,
+              "second": 22,
+              "whole": 40,
+              "unknownPos": "first",
+              "seed": 67
+            },
+            {
+              "text": "Luokassa on 24 tyttöä ja 23 poikaa. Kuinka monta lasta luokassa on yhteensä?",
+              "first": 24,
+              "second": 23,
+              "whole": 47,
+              "unknownPos": "whole",
+              "seed": 71
+            }
+          ]
+        }
       }
     },
     "theme": null,
@@ -431,7 +1265,7 @@
     },
     "page_title": {
       "en": "Story Problems — Add & Subtract Within 100 as a Bond (Grade 2)",
-      "de": "Sachaufgaben – Plus und Minus bis 100 für Klasse 2",
+      "de": "Sachaufgaben Klasse 2 – Plus und Minus bis 100 online üben",
       "es": "Problemas con palabras de suma y resta para 2.º de primaria",
       "pt": "Problemas de História: Somar e Subtrair até 100 (2º ano)",
       "fr": "Problèmes de calcul jusqu'à 100 au CE1 - additions et soustractions",
@@ -444,7 +1278,7 @@
     },
     "page_intro": {
       "en": "A free interactive Grade 2 math activity: read a word problem, see it as a number bond, then type the missing number. One-step add and subtract within 100 (20 + 30 = ?). Common Core 2.OA.A.1.",
-      "de": "Mit diesen Sachaufgaben üben Kinder das Plus- und Minusrechnen bis 100 als Zahlenbild (Lehrplan, 2.OA.A.1). Jede Aufgabe wird als Zahlenbild dargestellt – eine Zahl fehlt und muss berechnet werden.",
+      "de": "Sachaufgaben Klasse 2: Plus und Minus bis 100 in kleinen Geschichten lösen – Schritt für Schritt. Kostenlos online üben, ohne Anmeldung.",
       "es": "Resuelve problemas con palabras de un paso, sumando y restando hasta 100. Esta actividad apoya el Currículo LOMLOE y la habilidad 2.OA.A.1, donde los niños leen una situación, encuentran el número que falta y comprueban su respuesta.",
       "pt": "Resolva problemas de uma etapa para somar e subtrair até 100, alinhados à BNCC e à habilidade 2.OA.A.1. As crianças leem a situação, identificam o número que falta e digitam a resposta.",
       "fr": "Des problèmes simples en une étape pour s'entraîner à additionner et soustraire jusqu'à 100, en lien avec les Programmes officiels (2.OA.A.1). L'enfant lit l'histoire, complète l'arbre des nombres et trouve le nombre manquant.",

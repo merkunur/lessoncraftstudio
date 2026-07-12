@@ -3,45 +3,356 @@
     "id": "wally-capital-crane.special-names.l-2-2-a",
     "tool": "wally-capital-crane-activity",
     "task_template": "special-names",
-    "alignment": { "framework": "CCSS", "code": "L.2.2.a", "grade": "2", "strand": "Language" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "L.2.2.a",
+      "grade": "2",
+      "strand": "Language"
+    },
     "params": {
       "rounds": [
-        { "id": "halloween", "band": 1, "tokens": ["We", "celebrate", "halloween", "."], "proper": "halloween" },
-        { "id": "texas", "band": 2, "tokens": ["She", "lives", "in", "texas", "."], "proper": "texas" },
-        { "id": "paris", "band": 2, "tokens": ["We", "want", "to", "visit", "paris", "."], "proper": "paris" },
-        { "id": "lego", "band": 1, "tokens": ["I", "love", "lego", "blocks", "."], "proper": "lego" },
-        { "id": "canada", "band": 3, "tokens": ["My", "family", "moved", "to", "canada", "."], "proper": "canada" },
-        { "id": "oreo", "band": 2, "tokens": ["He", "wanted", "another", "oreo", "."], "proper": "oreo" },
-        { "id": "disney", "band": 3, "tokens": ["We", "really", "love", "visiting", "disney", "."], "proper": "disney" },
-        { "id": "christmas", "band": 3, "tokens": ["I", "love", "christmas", "celebrations", "."], "proper": "christmas" }
+        {
+          "id": "halloween",
+          "band": 1,
+          "tokens": [
+            "We",
+            "celebrate",
+            "halloween",
+            "."
+          ],
+          "proper": "halloween"
+        },
+        {
+          "id": "texas",
+          "band": 2,
+          "tokens": [
+            "She",
+            "lives",
+            "in",
+            "texas",
+            "."
+          ],
+          "proper": "texas"
+        },
+        {
+          "id": "paris",
+          "band": 2,
+          "tokens": [
+            "We",
+            "want",
+            "to",
+            "visit",
+            "paris",
+            "."
+          ],
+          "proper": "paris"
+        },
+        {
+          "id": "lego",
+          "band": 1,
+          "tokens": [
+            "I",
+            "love",
+            "lego",
+            "blocks",
+            "."
+          ],
+          "proper": "lego"
+        },
+        {
+          "id": "canada",
+          "band": 3,
+          "tokens": [
+            "My",
+            "family",
+            "moved",
+            "to",
+            "canada",
+            "."
+          ],
+          "proper": "canada"
+        },
+        {
+          "id": "oreo",
+          "band": 2,
+          "tokens": [
+            "He",
+            "wanted",
+            "another",
+            "oreo",
+            "."
+          ],
+          "proper": "oreo"
+        },
+        {
+          "id": "disney",
+          "band": 3,
+          "tokens": [
+            "We",
+            "really",
+            "love",
+            "visiting",
+            "disney",
+            "."
+          ],
+          "proper": "disney"
+        },
+        {
+          "id": "christmas",
+          "band": 3,
+          "tokens": [
+            "I",
+            "love",
+            "christmas",
+            "celebrations",
+            "."
+          ],
+          "proper": "christmas"
+        }
       ],
       "roundsL10n": {
         "de": [
-          { "id": "hund-schlaeft", "band": 1, "tokens": ["Der", "hund", "schläft", "tief", "."], "proper": "hund" },
-          { "id": "garten-gruen", "band": 1, "tokens": ["Der", "garten", "ist", "grün", "."], "proper": "garten" },
-          { "id": "ball-rollt", "band": 1, "tokens": ["Mein", "ball", "rollt", "schnell", "."], "proper": "ball" },
-          { "id": "bild-malen", "band": 2, "tokens": ["Ich", "male", "ein", "buntes", "bild", "."], "proper": "bild" },
-          { "id": "bruder-lacht", "band": 2, "tokens": ["Heute", "lacht", "mein", "bruder", "laut", "."], "proper": "bruder" },
-          { "id": "milch-trinken", "band": 2, "tokens": ["Wir", "trinken", "kalte", "milch", "."], "proper": "milch" },
-          { "id": "vogel-singt", "band": 3, "tokens": ["Der", "kleine", "vogel", "singt", "sehr", "laut", "."], "proper": "vogel" },
-          { "id": "auto-faehrt", "band": 3, "tokens": ["Heute", "fährt", "mein", "rotes", "auto", "schnell", "."], "proper": "auto" }
+          {
+            "id": "hund-schlaeft",
+            "band": 1,
+            "tokens": [
+              "Der",
+              "hund",
+              "schläft",
+              "tief",
+              "."
+            ],
+            "proper": "hund"
+          },
+          {
+            "id": "garten-gruen",
+            "band": 1,
+            "tokens": [
+              "Der",
+              "garten",
+              "ist",
+              "grün",
+              "."
+            ],
+            "proper": "garten"
+          },
+          {
+            "id": "ball-rollt",
+            "band": 1,
+            "tokens": [
+              "Mein",
+              "ball",
+              "rollt",
+              "schnell",
+              "."
+            ],
+            "proper": "ball"
+          },
+          {
+            "id": "bild-malen",
+            "band": 2,
+            "tokens": [
+              "Ich",
+              "male",
+              "ein",
+              "buntes",
+              "bild",
+              "."
+            ],
+            "proper": "bild"
+          },
+          {
+            "id": "bruder-lacht",
+            "band": 2,
+            "tokens": [
+              "Heute",
+              "lacht",
+              "mein",
+              "bruder",
+              "laut",
+              "."
+            ],
+            "proper": "bruder"
+          },
+          {
+            "id": "milch-trinken",
+            "band": 2,
+            "tokens": [
+              "Wir",
+              "trinken",
+              "kalte",
+              "milch",
+              "."
+            ],
+            "proper": "milch"
+          },
+          {
+            "id": "vogel-singt",
+            "band": 3,
+            "tokens": [
+              "Der",
+              "kleine",
+              "vogel",
+              "singt",
+              "sehr",
+              "laut",
+              "."
+            ],
+            "proper": "vogel"
+          },
+          {
+            "id": "auto-faehrt",
+            "band": 3,
+            "tokens": [
+              "Heute",
+              "fährt",
+              "mein",
+              "rotes",
+              "auto",
+              "schnell",
+              "."
+            ],
+            "proper": "auto"
+          }
         ],
         "fr": [
-          { "id": "ami-leo", "band": 1, "tokens": ["Mon", "ami", "léo", "a", "un", "chien", "."], "proper": "léo" },
-          { "id": "chat-maya", "band": 1, "tokens": ["Le", "chat", "de", "maya", "est", "gris", "."], "proper": "maya" },
-          { "id": "paris-train", "band": 1, "tokens": ["Nous", "visitons", "paris", "en", "train", "."], "proper": "paris" },
-          { "id": "voisine-emma", "band": 2, "tokens": ["Ma", "voisine", "emma", "joue", "au", "ballon", "."], "proper": "emma" },
-          { "id": "train-lyon", "band": 2, "tokens": ["Le", "train", "part", "pour", "lyon", "ce", "soir", "."], "proper": "lyon" },
-          { "id": "jardin-tom", "band": 2, "tokens": ["Je", "joue", "avec", "tom", "dans", "le", "jardin", "."], "proper": "tom" },
-          { "id": "vacances-nice", "band": 3, "tokens": ["Cet", "été", "nous", "visitons", "nice", "avec", "nos", "amis", "."], "proper": "nice" },
-          { "id": "chien-lila", "band": 3, "tokens": ["Le", "petit", "chien", "de", "lila", "dort", "dans", "la", "cuisine", "."], "proper": "lila" }
+          {
+            "id": "ami-leo",
+            "band": 1,
+            "tokens": [
+              "Mon",
+              "ami",
+              "léo",
+              "a",
+              "un",
+              "chien",
+              "."
+            ],
+            "proper": "léo"
+          },
+          {
+            "id": "chat-maya",
+            "band": 1,
+            "tokens": [
+              "Le",
+              "chat",
+              "de",
+              "maya",
+              "est",
+              "gris",
+              "."
+            ],
+            "proper": "maya"
+          },
+          {
+            "id": "paris-train",
+            "band": 1,
+            "tokens": [
+              "Nous",
+              "visitons",
+              "paris",
+              "en",
+              "train",
+              "."
+            ],
+            "proper": "paris"
+          },
+          {
+            "id": "voisine-emma",
+            "band": 2,
+            "tokens": [
+              "Ma",
+              "voisine",
+              "emma",
+              "joue",
+              "au",
+              "ballon",
+              "."
+            ],
+            "proper": "emma"
+          },
+          {
+            "id": "train-lyon",
+            "band": 2,
+            "tokens": [
+              "Le",
+              "train",
+              "part",
+              "pour",
+              "lyon",
+              "ce",
+              "soir",
+              "."
+            ],
+            "proper": "lyon"
+          },
+          {
+            "id": "jardin-tom",
+            "band": 2,
+            "tokens": [
+              "Je",
+              "joue",
+              "avec",
+              "tom",
+              "dans",
+              "le",
+              "jardin",
+              "."
+            ],
+            "proper": "tom"
+          },
+          {
+            "id": "vacances-nice",
+            "band": 3,
+            "tokens": [
+              "Cet",
+              "été",
+              "nous",
+              "visitons",
+              "nice",
+              "avec",
+              "nos",
+              "amis",
+              "."
+            ],
+            "proper": "nice"
+          },
+          {
+            "id": "chien-lila",
+            "band": 3,
+            "tokens": [
+              "Le",
+              "petit",
+              "chien",
+              "de",
+              "lila",
+              "dort",
+              "dans",
+              "la",
+              "cuisine",
+              "."
+            ],
+            "proper": "lila"
+          }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "wally-capital-crane", "de": "nomen-grossschreiben-ueben-klasse-2", "fr": "la-majuscule-aux-noms-propres-ce1" },
-    "page_title": { "en": "Wally's Capital Crane — Capitalize Special Names (Grade 2)", "de": "Wallys Großbuchstaben-Kran: Nomen großschreiben üben (Klasse 2)", "fr": "Wally et la grue à majuscules : la majuscule aux noms propres (CE1)" },
-    "page_intro": { "en": "Wally the walrus runs a crane that lifts a little letter up into a big CAPITAL! Special names — holidays like Halloween, places like Texas, and products like Lego — always start with a capital letter. Read the sentence and tap the word that needs Wally's big letter. A Grade 2 grammar game about capitalizing holidays, places, and product names, aligned to Common Core L.2.2.a.", "de": "Tippe das kleingeschriebene Nomen an und Wally das Walross schreibt es groß – so übst du die Großschreibung von Nomen spielerisch, passend zum Lehrplan, kostenlos und interaktiv.", "fr": "Aide Wally le morse à mettre la majuscule aux noms propres — noms de personnes, de villes, de pays. Une activité d’orthographe CE1, gratuite et interactive." },
+    "slug": {
+      "en": "wally-capital-crane",
+      "de": "nomen-grossschreiben-ueben-klasse-2",
+      "fr": "la-majuscule-aux-noms-propres-ce1"
+    },
+    "page_title": {
+      "en": "Wally's Capital Crane — Capitalize Special Names (Grade 2)",
+      "de": "Groß- und Kleinschreibung – online üben (Klasse 2)",
+      "fr": "Wally et la grue à majuscules : la majuscule aux noms propres (CE1)"
+    },
+    "page_intro": {
+      "en": "Wally the walrus runs a crane that lifts a little letter up into a big CAPITAL! Special names — holidays like Halloween, places like Texas, and products like Lego — always start with a capital letter. Read the sentence and tap the word that needs Wally's big letter. A Grade 2 grammar game about capitalizing holidays, places, and product names, aligned to Common Core L.2.2.a.",
+      "de": "Groß- und Kleinschreibung üben: Nomen erkennen und großschreiben mit Wallys Kran. Übungen für Klasse 2 – kostenlos online, ohne Anmeldung.",
+      "fr": "Aide Wally le morse à mettre la majuscule aux noms propres — noms de personnes, de villes, de pays. Une activité d’orthographe CE1, gratuite et interactive."
+    },
     "kid_prompt_template": "Tap the special name that needs a capital letter."
   }
 ]

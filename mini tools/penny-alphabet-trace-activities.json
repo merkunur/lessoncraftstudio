@@ -3,67 +3,341 @@
     "id": "penny-alphabet-trace.letter-formation.l-k-1-a",
     "tool": "penny-alphabet-trace-activity",
     "task_template": "letter-trace",
-    "alignment": { "framework": "CCSS", "code": "L.K.1.a", "grade": "K", "strand": "Language" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "L.K.1.a",
+      "grade": "K",
+      "strand": "Language"
+    },
     "params": {
       "rounds": [
-        { "id": "u-A", "band": 1, "letter": "A", "case": "upper" },
-        { "id": "u-B", "band": 1, "letter": "B", "case": "upper" },
-        { "id": "u-C", "band": 1, "letter": "C", "case": "upper" },
-        { "id": "u-D", "band": 1, "letter": "D", "case": "upper" },
-        { "id": "u-E", "band": 1, "letter": "E", "case": "upper" },
-        { "id": "u-F", "band": 1, "letter": "F", "case": "upper" },
-        { "id": "u-G", "band": 1, "letter": "G", "case": "upper" },
-        { "id": "u-H", "band": 1, "letter": "H", "case": "upper" },
-        { "id": "u-I", "band": 1, "letter": "I", "case": "upper" },
-        { "id": "u-J", "band": 1, "letter": "J", "case": "upper" },
-        { "id": "u-K", "band": 1, "letter": "K", "case": "upper" },
-        { "id": "u-L", "band": 1, "letter": "L", "case": "upper" },
-        { "id": "u-M", "band": 1, "letter": "M", "case": "upper" },
-        { "id": "u-N", "band": 1, "letter": "N", "case": "upper" },
-        { "id": "u-O", "band": 1, "letter": "O", "case": "upper" },
-        { "id": "u-P", "band": 1, "letter": "P", "case": "upper" },
-        { "id": "u-Q", "band": 1, "letter": "Q", "case": "upper" },
-        { "id": "u-R", "band": 1, "letter": "R", "case": "upper" },
-        { "id": "u-S", "band": 1, "letter": "S", "case": "upper" },
-        { "id": "u-T", "band": 1, "letter": "T", "case": "upper" },
-        { "id": "u-U", "band": 1, "letter": "U", "case": "upper" },
-        { "id": "u-V", "band": 1, "letter": "V", "case": "upper" },
-        { "id": "u-W", "band": 1, "letter": "W", "case": "upper" },
-        { "id": "u-X", "band": 1, "letter": "X", "case": "upper" },
-        { "id": "u-Y", "band": 1, "letter": "Y", "case": "upper" },
-        { "id": "u-Z", "band": 1, "letter": "Z", "case": "upper" },
-        { "id": "l-a", "band": 2, "letter": "a", "case": "lower" },
-        { "id": "l-b", "band": 2, "letter": "b", "case": "lower" },
-        { "id": "l-c", "band": 2, "letter": "c", "case": "lower" },
-        { "id": "l-d", "band": 2, "letter": "d", "case": "lower" },
-        { "id": "l-e", "band": 2, "letter": "e", "case": "lower" },
-        { "id": "l-f", "band": 2, "letter": "f", "case": "lower" },
-        { "id": "l-g", "band": 2, "letter": "g", "case": "lower" },
-        { "id": "l-h", "band": 2, "letter": "h", "case": "lower" },
-        { "id": "l-i", "band": 2, "letter": "i", "case": "lower" },
-        { "id": "l-j", "band": 2, "letter": "j", "case": "lower" },
-        { "id": "l-k", "band": 2, "letter": "k", "case": "lower" },
-        { "id": "l-l", "band": 2, "letter": "l", "case": "lower" },
-        { "id": "l-m", "band": 2, "letter": "m", "case": "lower" },
-        { "id": "l-n", "band": 2, "letter": "n", "case": "lower" },
-        { "id": "l-o", "band": 2, "letter": "o", "case": "lower" },
-        { "id": "l-p", "band": 2, "letter": "p", "case": "lower" },
-        { "id": "l-q", "band": 2, "letter": "q", "case": "lower" },
-        { "id": "l-r", "band": 2, "letter": "r", "case": "lower" },
-        { "id": "l-s", "band": 2, "letter": "s", "case": "lower" },
-        { "id": "l-t", "band": 2, "letter": "t", "case": "lower" },
-        { "id": "l-u", "band": 2, "letter": "u", "case": "lower" },
-        { "id": "l-v", "band": 2, "letter": "v", "case": "lower" },
-        { "id": "l-w", "band": 2, "letter": "w", "case": "lower" },
-        { "id": "l-x", "band": 2, "letter": "x", "case": "lower" },
-        { "id": "l-y", "band": 2, "letter": "y", "case": "lower" },
-        { "id": "l-z", "band": 2, "letter": "z", "case": "lower" }
+        {
+          "id": "u-A",
+          "band": 1,
+          "letter": "A",
+          "case": "upper"
+        },
+        {
+          "id": "u-B",
+          "band": 1,
+          "letter": "B",
+          "case": "upper"
+        },
+        {
+          "id": "u-C",
+          "band": 1,
+          "letter": "C",
+          "case": "upper"
+        },
+        {
+          "id": "u-D",
+          "band": 1,
+          "letter": "D",
+          "case": "upper"
+        },
+        {
+          "id": "u-E",
+          "band": 1,
+          "letter": "E",
+          "case": "upper"
+        },
+        {
+          "id": "u-F",
+          "band": 1,
+          "letter": "F",
+          "case": "upper"
+        },
+        {
+          "id": "u-G",
+          "band": 1,
+          "letter": "G",
+          "case": "upper"
+        },
+        {
+          "id": "u-H",
+          "band": 1,
+          "letter": "H",
+          "case": "upper"
+        },
+        {
+          "id": "u-I",
+          "band": 1,
+          "letter": "I",
+          "case": "upper"
+        },
+        {
+          "id": "u-J",
+          "band": 1,
+          "letter": "J",
+          "case": "upper"
+        },
+        {
+          "id": "u-K",
+          "band": 1,
+          "letter": "K",
+          "case": "upper"
+        },
+        {
+          "id": "u-L",
+          "band": 1,
+          "letter": "L",
+          "case": "upper"
+        },
+        {
+          "id": "u-M",
+          "band": 1,
+          "letter": "M",
+          "case": "upper"
+        },
+        {
+          "id": "u-N",
+          "band": 1,
+          "letter": "N",
+          "case": "upper"
+        },
+        {
+          "id": "u-O",
+          "band": 1,
+          "letter": "O",
+          "case": "upper"
+        },
+        {
+          "id": "u-P",
+          "band": 1,
+          "letter": "P",
+          "case": "upper"
+        },
+        {
+          "id": "u-Q",
+          "band": 1,
+          "letter": "Q",
+          "case": "upper"
+        },
+        {
+          "id": "u-R",
+          "band": 1,
+          "letter": "R",
+          "case": "upper"
+        },
+        {
+          "id": "u-S",
+          "band": 1,
+          "letter": "S",
+          "case": "upper"
+        },
+        {
+          "id": "u-T",
+          "band": 1,
+          "letter": "T",
+          "case": "upper"
+        },
+        {
+          "id": "u-U",
+          "band": 1,
+          "letter": "U",
+          "case": "upper"
+        },
+        {
+          "id": "u-V",
+          "band": 1,
+          "letter": "V",
+          "case": "upper"
+        },
+        {
+          "id": "u-W",
+          "band": 1,
+          "letter": "W",
+          "case": "upper"
+        },
+        {
+          "id": "u-X",
+          "band": 1,
+          "letter": "X",
+          "case": "upper"
+        },
+        {
+          "id": "u-Y",
+          "band": 1,
+          "letter": "Y",
+          "case": "upper"
+        },
+        {
+          "id": "u-Z",
+          "band": 1,
+          "letter": "Z",
+          "case": "upper"
+        },
+        {
+          "id": "l-a",
+          "band": 2,
+          "letter": "a",
+          "case": "lower"
+        },
+        {
+          "id": "l-b",
+          "band": 2,
+          "letter": "b",
+          "case": "lower"
+        },
+        {
+          "id": "l-c",
+          "band": 2,
+          "letter": "c",
+          "case": "lower"
+        },
+        {
+          "id": "l-d",
+          "band": 2,
+          "letter": "d",
+          "case": "lower"
+        },
+        {
+          "id": "l-e",
+          "band": 2,
+          "letter": "e",
+          "case": "lower"
+        },
+        {
+          "id": "l-f",
+          "band": 2,
+          "letter": "f",
+          "case": "lower"
+        },
+        {
+          "id": "l-g",
+          "band": 2,
+          "letter": "g",
+          "case": "lower"
+        },
+        {
+          "id": "l-h",
+          "band": 2,
+          "letter": "h",
+          "case": "lower"
+        },
+        {
+          "id": "l-i",
+          "band": 2,
+          "letter": "i",
+          "case": "lower"
+        },
+        {
+          "id": "l-j",
+          "band": 2,
+          "letter": "j",
+          "case": "lower"
+        },
+        {
+          "id": "l-k",
+          "band": 2,
+          "letter": "k",
+          "case": "lower"
+        },
+        {
+          "id": "l-l",
+          "band": 2,
+          "letter": "l",
+          "case": "lower"
+        },
+        {
+          "id": "l-m",
+          "band": 2,
+          "letter": "m",
+          "case": "lower"
+        },
+        {
+          "id": "l-n",
+          "band": 2,
+          "letter": "n",
+          "case": "lower"
+        },
+        {
+          "id": "l-o",
+          "band": 2,
+          "letter": "o",
+          "case": "lower"
+        },
+        {
+          "id": "l-p",
+          "band": 2,
+          "letter": "p",
+          "case": "lower"
+        },
+        {
+          "id": "l-q",
+          "band": 2,
+          "letter": "q",
+          "case": "lower"
+        },
+        {
+          "id": "l-r",
+          "band": 2,
+          "letter": "r",
+          "case": "lower"
+        },
+        {
+          "id": "l-s",
+          "band": 2,
+          "letter": "s",
+          "case": "lower"
+        },
+        {
+          "id": "l-t",
+          "band": 2,
+          "letter": "t",
+          "case": "lower"
+        },
+        {
+          "id": "l-u",
+          "band": 2,
+          "letter": "u",
+          "case": "lower"
+        },
+        {
+          "id": "l-v",
+          "band": 2,
+          "letter": "v",
+          "case": "lower"
+        },
+        {
+          "id": "l-w",
+          "band": 2,
+          "letter": "w",
+          "case": "lower"
+        },
+        {
+          "id": "l-x",
+          "band": 2,
+          "letter": "x",
+          "case": "lower"
+        },
+        {
+          "id": "l-y",
+          "band": 2,
+          "letter": "y",
+          "case": "lower"
+        },
+        {
+          "id": "l-z",
+          "band": 2,
+          "letter": "z",
+          "case": "lower"
+        }
       ]
     },
     "theme": null,
-    "slug": { "en": "penny-alphabet-trace", "de": "buchstaben-schreiben-lernen-klasse-1" },
-    "page_title": { "en": "Penny's Alphabet Trace — Write Every Letter A to Z (Kindergarten)", "de": "Penny der Stift – Buchstaben schreiben (Klasse 1)" },
-    "page_intro": { "en": "Penny the pencil helps you write every letter of the alphabet — all 26 capital letters AND all 26 lowercase letters! Start on the dot and trace each stroke in order to form the letter neatly. A Kindergarten handwriting activity for printing upper- and lowercase letters, aligned to Common Core L.K.1.a.", "de": "Mit Penny dem Stift üben Kinder das Buchstaben schreiben ganz in Ruhe: Penny zeigt zu jedem Buchstaben den Startpunkt und führt deine Hand Strich für Strich, bis der Buchstabe fertig ist. Geführt, kostenlos und ganz ohne Zeitdruck oder Punkte." },
+    "slug": {
+      "en": "penny-alphabet-trace",
+      "de": "buchstaben-schreiben-lernen-klasse-1"
+    },
+    "page_title": {
+      "en": "Penny's Alphabet Trace — Write Every Letter A to Z (Kindergarten)",
+      "de": "Buchstaben nachspuren – online üben mit Penny dem Stift"
+    },
+    "page_intro": {
+      "en": "Penny the pencil helps you write every letter of the alphabet — all 26 capital letters AND all 26 lowercase letters! Start on the dot and trace each stroke in order to form the letter neatly. A Kindergarten handwriting activity for printing upper- and lowercase letters, aligned to Common Core L.K.1.a.",
+      "de": "Nachspuren üben: Buchstaben richtig formen und online nachfahren – mit Penny dem Stift. Kostenlos online üben, ohne Anmeldung."
+    },
     "kid_prompt_template": "Start on the dot and trace the letter."
   }
 ]

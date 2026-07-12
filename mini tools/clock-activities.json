@@ -3,17 +3,54 @@
     "id": "clock.set-clock.1-md-b-3",
     "tool": "clock-activity",
     "task_template": "set-clock",
-    "alignment": { "framework": "CCSS", "code": "1.MD.B.3", "grade": "1", "strand": "Measurement & Data" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "1.MD.B.3",
+      "grade": "1",
+      "strand": "Measurement & Data"
+    },
     "params": {
       "rounds": [
-        { "hour": 3,  "minute": 0,  "seed": 11 },
-        { "hour": 7,  "minute": 30, "seed": 23 },
-        { "hour": 9,  "minute": 0,  "seed": 31 },
-        { "hour": 6,  "minute": 30, "seed": 41 },
-        { "hour": 12, "minute": 0,  "seed": 53 },
-        { "hour": 4,  "minute": 30, "seed": 61 },
-        { "hour": 10, "minute": 0,  "seed": 67 },
-        { "hour": 1,  "minute": 30, "seed": 71 }
+        {
+          "hour": 3,
+          "minute": 0,
+          "seed": 11
+        },
+        {
+          "hour": 7,
+          "minute": 30,
+          "seed": 23
+        },
+        {
+          "hour": 9,
+          "minute": 0,
+          "seed": 31
+        },
+        {
+          "hour": 6,
+          "minute": 30,
+          "seed": 41
+        },
+        {
+          "hour": 12,
+          "minute": 0,
+          "seed": 53
+        },
+        {
+          "hour": 4,
+          "minute": 30,
+          "seed": 61
+        },
+        {
+          "hour": 10,
+          "minute": 0,
+          "seed": 67
+        },
+        {
+          "hour": 1,
+          "minute": 30,
+          "seed": 71
+        }
       ]
     },
     "theme": null,
@@ -32,7 +69,7 @@
     },
     "page_title": {
       "en": "Set the Clock — Tell Time to the Hour & Half-Hour (Grade 1)",
-      "de": "Stell die Uhr: volle und halbe Stunden lesen – Analoguhr, 1. Klasse",
+      "de": "Uhrzeit lernen – volle und halbe Stunden (1. Klasse)",
       "es": "Pon la hora en el reloj: horas y medias horas — primero de primaria",
       "pt": "Acerte o relógio: ler as horas e meias horas — 1º ano",
       "fr": "Règle l'horloge : lire l'heure, heures et demi-heures (CP)",
@@ -45,7 +82,7 @@
     },
     "page_intro": {
       "en": "A free interactive Grade 1 math activity: read the time, then drag the analog clock hands to show it — hours and half-hours, with a digital readout. Tell and write time on analog and digital clocks. Common Core 1.MD.B.3.",
-      "de": "Lies die Uhrzeit und zieh die Zeiger auf die richtige Stelle. Geübt werden volle und halbe Stunden auf der Analoguhr. Passend zum Lehrplan der 1. Klasse (1.MD.B.3).",
+      "de": "Uhrzeit lernen in der 1. Klasse: volle und halbe Stunden an der Analoguhr stellen und ablesen. Kostenlos online üben, ohne Anmeldung.",
       "es": "Actividad interactiva para leer el reloj en primero de primaria (6-7 años): los niños mueven las manecillas para mostrar horas en punto y medias horas. Alineada con 1.MD.B.3 del Currículo LOMLOE.",
       "pt": "Atividade interativa de 1º ano para ler as horas: a criança arrasta os ponteiros do relógio para mostrar horas e meias horas. Alinhada à BNCC e ao código 1.MD.B.3.",
       "fr": "Une activité de mathématiques pour le CP : l'enfant fait glisser les aiguilles pour afficher l'heure, aux heures pleines et aux demi-heures. Alignée sur la norme 1.MD.B.3 des Programmes officiels.",
@@ -62,18 +99,55 @@
     "id": "clock.tell-time-5-min.2-md-c-7",
     "tool": "clock-activity",
     "task_template": "set-clock",
-    "alignment": { "framework": "CCSS", "code": "2.MD.C.7", "grade": "2", "strand": "Measurement & Data" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "2.MD.C.7",
+      "grade": "2",
+      "strand": "Measurement & Data"
+    },
     "params": {
       "minuteStep": 5,
       "rounds": [
-        { "hour": 3,  "minute": 15, "seed": 12 },
-        { "hour": 7,  "minute": 45, "seed": 24 },
-        { "hour": 6,  "minute": 10, "seed": 32 },
-        { "hour": 9,  "minute": 20, "seed": 44 },
-        { "hour": 4,  "minute": 40, "seed": 56 },
-        { "hour": 1,  "minute": 50, "seed": 62 },
-        { "hour": 10, "minute": 5,  "seed": 68 },
-        { "hour": 12, "minute": 25, "seed": 74 }
+        {
+          "hour": 3,
+          "minute": 15,
+          "seed": 12
+        },
+        {
+          "hour": 7,
+          "minute": 45,
+          "seed": 24
+        },
+        {
+          "hour": 6,
+          "minute": 10,
+          "seed": 32
+        },
+        {
+          "hour": 9,
+          "minute": 20,
+          "seed": 44
+        },
+        {
+          "hour": 4,
+          "minute": 40,
+          "seed": 56
+        },
+        {
+          "hour": 1,
+          "minute": 50,
+          "seed": 62
+        },
+        {
+          "hour": 10,
+          "minute": 5,
+          "seed": 68
+        },
+        {
+          "hour": 12,
+          "minute": 25,
+          "seed": 74
+        }
       ]
     },
     "theme": null,

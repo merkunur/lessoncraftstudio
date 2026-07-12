@@ -3,41 +3,307 @@
     "id": "pips-round.mail-route.k-cc-a-3",
     "tool": "pips-round-activity",
     "task_template": "mail-route",
-    "alignment": { "framework": "CCSS", "code": "K.CC.A.3", "grade": "K", "strand": "Counting & Cardinality" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.CC.A.3",
+      "grade": "K",
+      "strand": "Counting & Cardinality"
+    },
     "params": {
       "rounds": [
-        { "id": "single-seven", "cog": "read-single", "config": "cross-font", "band": 1, "present": "cross-font", "targetValue": 7,
-          "houses": [ { "hid": "h0", "numeral": 7, "resident": "Snail" }, { "hid": "h1", "numeral": 2, "resident": "Fox" }, { "hid": "h2", "numeral": 5, "resident": "Frog" }, { "hid": "h3", "numeral": 9, "resident": "Bun" } ] },
-
-        { "id": "single-four", "cog": "read-single", "config": "cross-font", "band": 1, "present": "cross-font", "targetValue": 4,
-          "houses": [ { "hid": "h0", "numeral": 4, "resident": "Wren" }, { "hid": "h1", "numeral": 6, "resident": "Mole" }, { "hid": "h2", "numeral": 1, "resident": "Hen" }, { "hid": "h3", "numeral": 8, "resident": "Owl" } ] },
-
-        { "id": "zero-case", "cog": "read-zero", "config": "cross-font", "band": 1, "present": "cross-font", "targetValue": 0,
-          "houses": [ { "hid": "h0", "numeral": 0, "resident": "Cat" }, { "hid": "h1", "numeral": 2, "resident": "Duck" }, { "hid": "h2", "numeral": 8, "resident": "Bee" }, { "hid": "h3", "numeral": 5, "resident": "Ant" } ] },
-
-        { "id": "teen-reversal-thirteen", "cog": "read-teen", "config": "teen-reversal", "band": 2, "present": "cross-font", "targetValue": 13,
-          "houses": [ { "hid": "h0", "numeral": 13, "resident": "Newt" }, { "hid": "h1", "numeral": 31, "resident": "Toad" }, { "hid": "h2", "numeral": 15, "resident": "Pig" }, { "hid": "h3", "numeral": 18, "resident": "Snail" } ] },
-
-        { "id": "same-tens-fourteen", "cog": "read-teen", "config": "same-tens", "band": 2, "present": "cross-font", "targetValue": 14,
-          "houses": [ { "hid": "h0", "numeral": 14, "resident": "Fox" }, { "hid": "h1", "numeral": 13, "resident": "Frog" }, { "hid": "h2", "numeral": 15, "resident": "Bun" }, { "hid": "h3", "numeral": 17, "resident": "Wren" } ] },
-
-        { "id": "teen-sixteen", "cog": "read-teen", "config": "cross-font", "band": 2, "present": "cross-font", "targetValue": 16,
-          "houses": [ { "hid": "h0", "numeral": 16, "resident": "Mole" }, { "hid": "h1", "numeral": 14, "resident": "Hen" }, { "hid": "h2", "numeral": 9, "resident": "Owl" }, { "hid": "h3", "numeral": 3, "resident": "Cat" } ] },
-
-        { "id": "hear-eight", "cog": "hear-find", "config": "audio", "band": 1, "present": "audio", "targetValue": 8,
-          "houses": [ { "hid": "h0", "numeral": 8, "resident": "Duck" }, { "hid": "h1", "numeral": 6, "resident": "Bee" }, { "hid": "h2", "numeral": 11, "resident": "Ant" }, { "hid": "h3", "numeral": 3, "resident": "Newt" } ] },
-
-        { "id": "hear-seventeen", "cog": "hear-find", "config": "audio", "band": 2, "present": "audio", "targetValue": 17,
-          "houses": [ { "hid": "h0", "numeral": 17, "resident": "Toad" }, { "hid": "h1", "numeral": 15, "resident": "Pig" }, { "hid": "h2", "numeral": 7, "resident": "Snail" }, { "hid": "h3", "numeral": 12, "resident": "Fox" } ] },
-
-        { "id": "dense-twelve", "cog": "read-teen", "config": "dense-block", "band": 3, "present": "cross-font", "targetValue": 12,
-          "houses": [ { "hid": "h0", "numeral": 12, "resident": "Frog" }, { "hid": "h1", "numeral": 21, "resident": "Bun" }, { "hid": "h2", "numeral": 14, "resident": "Wren" }, { "hid": "h3", "numeral": 9, "resident": "Mole" }, { "hid": "h4", "numeral": 16, "resident": "Hen" } ] }
+        {
+          "id": "single-seven",
+          "cog": "read-single",
+          "config": "cross-font",
+          "band": 1,
+          "present": "cross-font",
+          "targetValue": 7,
+          "houses": [
+            {
+              "hid": "h0",
+              "numeral": 7,
+              "resident": "Snail"
+            },
+            {
+              "hid": "h1",
+              "numeral": 2,
+              "resident": "Fox"
+            },
+            {
+              "hid": "h2",
+              "numeral": 5,
+              "resident": "Frog"
+            },
+            {
+              "hid": "h3",
+              "numeral": 9,
+              "resident": "Bun"
+            }
+          ]
+        },
+        {
+          "id": "single-four",
+          "cog": "read-single",
+          "config": "cross-font",
+          "band": 1,
+          "present": "cross-font",
+          "targetValue": 4,
+          "houses": [
+            {
+              "hid": "h0",
+              "numeral": 4,
+              "resident": "Wren"
+            },
+            {
+              "hid": "h1",
+              "numeral": 6,
+              "resident": "Mole"
+            },
+            {
+              "hid": "h2",
+              "numeral": 1,
+              "resident": "Hen"
+            },
+            {
+              "hid": "h3",
+              "numeral": 8,
+              "resident": "Owl"
+            }
+          ]
+        },
+        {
+          "id": "zero-case",
+          "cog": "read-zero",
+          "config": "cross-font",
+          "band": 1,
+          "present": "cross-font",
+          "targetValue": 0,
+          "houses": [
+            {
+              "hid": "h0",
+              "numeral": 0,
+              "resident": "Cat"
+            },
+            {
+              "hid": "h1",
+              "numeral": 2,
+              "resident": "Duck"
+            },
+            {
+              "hid": "h2",
+              "numeral": 8,
+              "resident": "Bee"
+            },
+            {
+              "hid": "h3",
+              "numeral": 5,
+              "resident": "Ant"
+            }
+          ]
+        },
+        {
+          "id": "teen-reversal-thirteen",
+          "cog": "read-teen",
+          "config": "teen-reversal",
+          "band": 2,
+          "present": "cross-font",
+          "targetValue": 13,
+          "houses": [
+            {
+              "hid": "h0",
+              "numeral": 13,
+              "resident": "Newt"
+            },
+            {
+              "hid": "h1",
+              "numeral": 31,
+              "resident": "Toad"
+            },
+            {
+              "hid": "h2",
+              "numeral": 15,
+              "resident": "Pig"
+            },
+            {
+              "hid": "h3",
+              "numeral": 18,
+              "resident": "Snail"
+            }
+          ]
+        },
+        {
+          "id": "same-tens-fourteen",
+          "cog": "read-teen",
+          "config": "same-tens",
+          "band": 2,
+          "present": "cross-font",
+          "targetValue": 14,
+          "houses": [
+            {
+              "hid": "h0",
+              "numeral": 14,
+              "resident": "Fox"
+            },
+            {
+              "hid": "h1",
+              "numeral": 13,
+              "resident": "Frog"
+            },
+            {
+              "hid": "h2",
+              "numeral": 15,
+              "resident": "Bun"
+            },
+            {
+              "hid": "h3",
+              "numeral": 17,
+              "resident": "Wren"
+            }
+          ]
+        },
+        {
+          "id": "teen-sixteen",
+          "cog": "read-teen",
+          "config": "cross-font",
+          "band": 2,
+          "present": "cross-font",
+          "targetValue": 16,
+          "houses": [
+            {
+              "hid": "h0",
+              "numeral": 16,
+              "resident": "Mole"
+            },
+            {
+              "hid": "h1",
+              "numeral": 14,
+              "resident": "Hen"
+            },
+            {
+              "hid": "h2",
+              "numeral": 9,
+              "resident": "Owl"
+            },
+            {
+              "hid": "h3",
+              "numeral": 3,
+              "resident": "Cat"
+            }
+          ]
+        },
+        {
+          "id": "hear-eight",
+          "cog": "hear-find",
+          "config": "audio",
+          "band": 1,
+          "present": "audio",
+          "targetValue": 8,
+          "houses": [
+            {
+              "hid": "h0",
+              "numeral": 8,
+              "resident": "Duck"
+            },
+            {
+              "hid": "h1",
+              "numeral": 6,
+              "resident": "Bee"
+            },
+            {
+              "hid": "h2",
+              "numeral": 11,
+              "resident": "Ant"
+            },
+            {
+              "hid": "h3",
+              "numeral": 3,
+              "resident": "Newt"
+            }
+          ]
+        },
+        {
+          "id": "hear-seventeen",
+          "cog": "hear-find",
+          "config": "audio",
+          "band": 2,
+          "present": "audio",
+          "targetValue": 17,
+          "houses": [
+            {
+              "hid": "h0",
+              "numeral": 17,
+              "resident": "Toad"
+            },
+            {
+              "hid": "h1",
+              "numeral": 15,
+              "resident": "Pig"
+            },
+            {
+              "hid": "h2",
+              "numeral": 7,
+              "resident": "Snail"
+            },
+            {
+              "hid": "h3",
+              "numeral": 12,
+              "resident": "Fox"
+            }
+          ]
+        },
+        {
+          "id": "dense-twelve",
+          "cog": "read-teen",
+          "config": "dense-block",
+          "band": 3,
+          "present": "cross-font",
+          "targetValue": 12,
+          "houses": [
+            {
+              "hid": "h0",
+              "numeral": 12,
+              "resident": "Frog"
+            },
+            {
+              "hid": "h1",
+              "numeral": 21,
+              "resident": "Bun"
+            },
+            {
+              "hid": "h2",
+              "numeral": 14,
+              "resident": "Wren"
+            },
+            {
+              "hid": "h3",
+              "numeral": 9,
+              "resident": "Mole"
+            },
+            {
+              "hid": "h4",
+              "numeral": 16,
+              "resident": "Hen"
+            }
+          ]
+        }
       ]
     },
     "theme": null,
-    "slug": { "en": "pips-round", "de": "zahlen-lesen-ziffern-erkennen-bis-20-klasse-1", "fr": "lire-les-nombres-jusqu-a-20-cp" },
-    "page_title": { "en": "Pip's Round — Read the House Numbers", "de": "Zahlen lesen bis 20 – Ziffern erkennen mit Pip | Klasse 1", "fr": "La tournée de Pip : lire les nombres jusqu'à 20 (CP)" },
-    "page_intro": { "en": "Pip the postal mouse is on her morning round, and someone is waiting for their letter! Read the number on the envelope — or listen for it — then tap the matching house to deliver. The curtains fly open and a happy neighbor waves. A warm Kindergarten number-reading game aligned to Common Core K.CC.A.3.", "de": "Zahlen lesen und Ziffern bis 20 erkennen: Beim kostenlosen, interaktiven Postspiel mit Pip liest dein Kind Hausnummern und übt Zahlen für Klasse 1 – jetzt spielen!", "fr": "Un jeu de maths CP, gratuit et interactif : Pip la souris factrice fait sa tournée du matin, et quelqu'un attend sa lettre ! Lis le nombre sur l'enveloppe — ou écoute-le — puis touche la maison qui correspond pour la distribuer. Les rideaux s'ouvrent et un voisin tout content fait coucou. Un jeu tout doux pour lire les nombres écrits en chiffres jusqu'à 20." },
+    "slug": {
+      "en": "pips-round",
+      "de": "zahlen-lesen-ziffern-erkennen-bis-20-klasse-1",
+      "fr": "lire-les-nombres-jusqu-a-20-cp"
+    },
+    "page_title": {
+      "en": "Pip's Round — Read the House Numbers",
+      "de": "Zahlen lernen – Ziffern bis 20 erkennen, online üben",
+      "fr": "La tournée de Pip : lire les nombres jusqu'à 20 (CP)"
+    },
+    "page_intro": {
+      "en": "Pip the postal mouse is on her morning round, and someone is waiting for their letter! Read the number on the envelope — or listen for it — then tap the matching house to deliver. The curtains fly open and a happy neighbor waves. A warm Kindergarten number-reading game aligned to Common Core K.CC.A.3.",
+      "de": "Zahlen lernen im Kindergarten: Ziffern bis 20 lesen und erkennen – mit Pip auf Posttour. Kostenlos online üben, ohne Anmeldung.",
+      "fr": "Un jeu de maths CP, gratuit et interactif : Pip la souris factrice fait sa tournée du matin, et quelqu'un attend sa lettre ! Lis le nombre sur l'enveloppe — ou écoute-le — puis touche la maison qui correspond pour la distribuer. Les rideaux s'ouvrent et un voisin tout content fait coucou. Un jeu tout doux pour lire les nombres écrits en chiffres jusqu'à 20."
+    },
     "kid_prompt_template": "mail-route"
   }
 ]

@@ -3,24 +3,77 @@
     "id": "comet-kangaroo.tens-hundreds.2-nbt-b-8",
     "tool": "comet-kangaroo-activity",
     "task_template": "tens-hundreds",
-    "alignment": { "framework": "CCSS", "code": "2.NBT.B.8", "grade": "2", "strand": "Number & Operations in Base Ten" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "2.NBT.B.8",
+      "grade": "2",
+      "strand": "Number & Operations in Base Ten"
+    },
     "params": {
       "rounds": [
-        { "start": 247, "delta": 10,   "band": 1 },
-        { "start": 362, "delta": -10,  "band": 1 },
-        { "start": 415, "delta": 100,  "band": 1 },
-        { "start": 683, "delta": -100, "band": 2 },
-        { "start": 538, "delta": 10,   "band": 2 },
-        { "start": 271, "delta": -10,  "band": 2 },
-        { "start": 326, "delta": 100,  "band": 3 },
-        { "start": 754, "delta": -100, "band": 3 },
-        { "start": 489, "delta": 10,   "band": 3 }
+        {
+          "start": 247,
+          "delta": 10,
+          "band": 1
+        },
+        {
+          "start": 362,
+          "delta": -10,
+          "band": 1
+        },
+        {
+          "start": 415,
+          "delta": 100,
+          "band": 1
+        },
+        {
+          "start": 683,
+          "delta": -100,
+          "band": 2
+        },
+        {
+          "start": 538,
+          "delta": 10,
+          "band": 2
+        },
+        {
+          "start": 271,
+          "delta": -10,
+          "band": 2
+        },
+        {
+          "start": 326,
+          "delta": 100,
+          "band": 3
+        },
+        {
+          "start": 754,
+          "delta": -100,
+          "band": 3
+        },
+        {
+          "start": 489,
+          "delta": 10,
+          "band": 3
+        }
       ]
     },
     "theme": null,
-    "slug": { "en": "comet-kangaroo-tens-hundreds", "de": "10-100-mehr-weniger-zahlenraum-1000-klasse-3", "fr": "ajouter-et-retrancher-10-et-100-jusqu-a-1000-ce1" },
-    "page_title": { "en": "Comet's Big Leaps — 10 & 100 More or Less (Grade 2)", "de": "10 & 100 mehr/weniger bis 1000 – Känguru Komet, Klasse 3", "fr": "10 et 100 de plus ou de moins jusqu'à 1000 – Comète le kangourou | CE1" },
-    "page_intro": { "en": "A free interactive Grade 2 math activity: Comet the kangaroo makes big leaps along the numbers. See a three-digit number and a leap — 10 more, 10 less, 100 more, or 100 less — work it out in your head and type where Comet lands. Mentally add or subtract 10 or 100, watching how only the tens or hundreds digit changes while the ones stay put. Common Core 2.NBT.B.8.", "de": "Mit Komet dem Känguru springst du im Zahlenraum bis 1000: 10 oder 100 mehr und weniger im Kopf rechnen. Kostenloses, interaktives Stellenwert-Spiel für Klasse 3.", "fr": "Comète le kangourou fait de grands bonds le long des nombres ! Regarde un nombre à trois chiffres et un bond — 10 de plus, 10 de moins, 100 de plus ou 100 de moins — calcule de tête où elle atterrit, puis tape le nombre. Seul le chiffre des dizaines ou des centaines change, celui des unités reste le même. Un jeu de CE1 pour ajouter et retrancher 10 ou 100 dans les nombres jusqu'à 1000. Gratuit et interactif." },
+    "slug": {
+      "en": "comet-kangaroo-tens-hundreds",
+      "de": "10-100-mehr-weniger-zahlenraum-1000-klasse-3",
+      "fr": "ajouter-et-retrancher-10-et-100-jusqu-a-1000-ce1"
+    },
+    "page_title": {
+      "en": "Comet's Big Leaps — 10 & 100 More or Less (Grade 2)",
+      "de": "Zahlenraum 1000 – online üben (Klasse 3)",
+      "fr": "10 et 100 de plus ou de moins jusqu'à 1000 – Comète le kangourou | CE1"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 2 math activity: Comet the kangaroo makes big leaps along the numbers. See a three-digit number and a leap — 10 more, 10 less, 100 more, or 100 less — work it out in your head and type where Comet lands. Mentally add or subtract 10 or 100, watching how only the tens or hundreds digit changes while the ones stay put. Common Core 2.NBT.B.8.",
+      "de": "Zahlenraum 1000 online üben: 10 und 100 mehr oder weniger – mit Känguru Komet bis 1000 rechnen. Kostenlos online, ohne Anmeldung – ideal für Klasse 3.",
+      "fr": "Comète le kangourou fait de grands bonds le long des nombres ! Regarde un nombre à trois chiffres et un bond — 10 de plus, 10 de moins, 100 de plus ou 100 de moins — calcule de tête où elle atterrit, puis tape le nombre. Seul le chiffre des dizaines ou des centaines change, celui des unités reste le même. Un jeu de CE1 pour ajouter et retrancher 10 ou 100 dans les nombres jusqu'à 1000. Gratuit et interactif."
+    },
     "kid_prompt_template": "tens-hundreds"
   }
 ]

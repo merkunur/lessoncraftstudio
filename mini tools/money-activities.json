@@ -3,161 +3,1586 @@
     "id": "money.count-out.2-md-c-8",
     "tool": "money-activity",
     "task_template": "count-out",
-    "alignment": { "framework": "CCSS", "code": "2.MD.C.8", "grade": "2", "strand": "Measurement & Data" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "2.MD.C.8",
+      "grade": "2",
+      "strand": "Measurement & Data"
+    },
     "params": {
       "byLocale": {
         "en": {
-          "currency": { "symbol": "$", "before": true, "decimalSep": ".", "minorPerMajor": 100 },
-          "coins": [ {"v":1,"label":"1¢"},{"v":5,"label":"5¢"},{"v":10,"label":"10¢"},{"v":25,"label":"25¢"},{"v":100,"label":"$1"} ],
+          "currency": {
+            "symbol": "$",
+            "before": true,
+            "decimalSep": ".",
+            "minorPerMajor": 100
+          },
+          "coins": [
+            {
+              "v": 1,
+              "label": "1¢"
+            },
+            {
+              "v": 5,
+              "label": "5¢"
+            },
+            {
+              "v": 10,
+              "label": "10¢"
+            },
+            {
+              "v": 25,
+              "label": "25¢"
+            },
+            {
+              "v": 100,
+              "label": "$1"
+            }
+          ],
           "rounds": [
-            {"target":30,"palette":[1,5,10,25],"solution":[25,5]},
-            {"target":15,"palette":[1,5,10,25],"solution":[10,5]},
-            {"target":40,"palette":[5,10,25],"solution":[25,10,5]},
-            {"target":11,"palette":[1,5,10,25],"solution":[10,1]},
-            {"target":26,"palette":[1,5,10,25],"solution":[25,1]},
-            {"target":35,"palette":[5,10,25],"solution":[25,10]},
-            {"target":50,"palette":[10,25],"solution":[25,25]},
-            {"target":20,"palette":[5,10,25],"solution":[10,10]}
+            {
+              "target": 30,
+              "palette": [
+                1,
+                5,
+                10,
+                25
+              ],
+              "solution": [
+                25,
+                5
+              ]
+            },
+            {
+              "target": 15,
+              "palette": [
+                1,
+                5,
+                10,
+                25
+              ],
+              "solution": [
+                10,
+                5
+              ]
+            },
+            {
+              "target": 40,
+              "palette": [
+                5,
+                10,
+                25
+              ],
+              "solution": [
+                25,
+                10,
+                5
+              ]
+            },
+            {
+              "target": 11,
+              "palette": [
+                1,
+                5,
+                10,
+                25
+              ],
+              "solution": [
+                10,
+                1
+              ]
+            },
+            {
+              "target": 26,
+              "palette": [
+                1,
+                5,
+                10,
+                25
+              ],
+              "solution": [
+                25,
+                1
+              ]
+            },
+            {
+              "target": 35,
+              "palette": [
+                5,
+                10,
+                25
+              ],
+              "solution": [
+                25,
+                10
+              ]
+            },
+            {
+              "target": 50,
+              "palette": [
+                10,
+                25
+              ],
+              "solution": [
+                25,
+                25
+              ]
+            },
+            {
+              "target": 20,
+              "palette": [
+                5,
+                10,
+                25
+              ],
+              "solution": [
+                10,
+                10
+              ]
+            }
           ]
         },
         "de": {
-          "currency": { "symbol": "€", "before": false, "decimalSep": ",", "minorPerMajor": 100 },
-          "coins": [ {"v":1,"label":"1 ct"},{"v":2,"label":"2 ct"},{"v":5,"label":"5 ct"},{"v":10,"label":"10 ct"},{"v":20,"label":"20 ct"},{"v":50,"label":"50 ct"},{"v":100,"label":"1 €"},{"v":200,"label":"2 €"} ],
+          "currency": {
+            "symbol": "€",
+            "before": false,
+            "decimalSep": ",",
+            "minorPerMajor": 100
+          },
+          "coins": [
+            {
+              "v": 1,
+              "label": "1 ct"
+            },
+            {
+              "v": 2,
+              "label": "2 ct"
+            },
+            {
+              "v": 5,
+              "label": "5 ct"
+            },
+            {
+              "v": 10,
+              "label": "10 ct"
+            },
+            {
+              "v": 20,
+              "label": "20 ct"
+            },
+            {
+              "v": 50,
+              "label": "50 ct"
+            },
+            {
+              "v": 100,
+              "label": "1 €"
+            },
+            {
+              "v": 200,
+              "label": "2 €"
+            }
+          ],
           "rounds": [
-            {"target":30,"palette":[1,5,10,20,50],"solution":[20,10]},
-            {"target":7,"palette":[1,2,5,10,20],"solution":[5,2]},
-            {"target":16,"palette":[1,2,5,10,20],"solution":[10,5,1]},
-            {"target":70,"palette":[5,10,20,50],"solution":[50,20]},
-            {"target":45,"palette":[2,5,10,20,50],"solution":[20,20,5]},
-            {"target":80,"palette":[10,20,50,100],"solution":[50,20,10]},
-            {"target":150,"palette":[10,20,50,100,200],"solution":[100,50]},
-            {"target":120,"palette":[10,20,50,100,200],"solution":[100,20]}
+            {
+              "target": 30,
+              "palette": [
+                1,
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                20,
+                10
+              ]
+            },
+            {
+              "target": 7,
+              "palette": [
+                1,
+                2,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                5,
+                2
+              ]
+            },
+            {
+              "target": 16,
+              "palette": [
+                1,
+                2,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                10,
+                5,
+                1
+              ]
+            },
+            {
+              "target": 70,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                50,
+                20
+              ]
+            },
+            {
+              "target": 45,
+              "palette": [
+                2,
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                20,
+                20,
+                5
+              ]
+            },
+            {
+              "target": 80,
+              "palette": [
+                10,
+                20,
+                50,
+                100
+              ],
+              "solution": [
+                50,
+                20,
+                10
+              ]
+            },
+            {
+              "target": 150,
+              "palette": [
+                10,
+                20,
+                50,
+                100,
+                200
+              ],
+              "solution": [
+                100,
+                50
+              ]
+            },
+            {
+              "target": 120,
+              "palette": [
+                10,
+                20,
+                50,
+                100,
+                200
+              ],
+              "solution": [
+                100,
+                20
+              ]
+            }
           ]
         },
         "es": {
-          "currency": { "symbol": "$", "before": true, "decimalSep": ".", "minorPerMajor": 100 },
-          "coins": [ {"v":5,"label":"5¢"},{"v":10,"label":"10¢"},{"v":20,"label":"20¢"},{"v":50,"label":"50¢"},{"v":100,"label":"$1"},{"v":200,"label":"$2"},{"v":500,"label":"$5"} ],
+          "currency": {
+            "symbol": "$",
+            "before": true,
+            "decimalSep": ".",
+            "minorPerMajor": 100
+          },
+          "coins": [
+            {
+              "v": 5,
+              "label": "5¢"
+            },
+            {
+              "v": 10,
+              "label": "10¢"
+            },
+            {
+              "v": 20,
+              "label": "20¢"
+            },
+            {
+              "v": 50,
+              "label": "50¢"
+            },
+            {
+              "v": 100,
+              "label": "$1"
+            },
+            {
+              "v": 200,
+              "label": "$2"
+            },
+            {
+              "v": 500,
+              "label": "$5"
+            }
+          ],
           "rounds": [
-            {"target":30,"palette":[5,10,20,50],"solution":[20,10]},
-            {"target":70,"palette":[5,10,20,50],"solution":[50,20]},
-            {"target":60,"palette":[10,20,50],"solution":[20,20,20]},
-            {"target":80,"palette":[10,20,50],"solution":[50,20,10]},
-            {"target":300,"palette":[50,100,200],"solution":[200,100]},
-            {"target":250,"palette":[50,100,200],"solution":[100,100,50]},
-            {"target":400,"palette":[100,200,500],"solution":[200,200]},
-            {"target":700,"palette":[100,200,500],"solution":[500,200]}
+            {
+              "target": 30,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                20,
+                10
+              ]
+            },
+            {
+              "target": 70,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                50,
+                20
+              ]
+            },
+            {
+              "target": 60,
+              "palette": [
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                20,
+                20,
+                20
+              ]
+            },
+            {
+              "target": 80,
+              "palette": [
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                50,
+                20,
+                10
+              ]
+            },
+            {
+              "target": 300,
+              "palette": [
+                50,
+                100,
+                200
+              ],
+              "solution": [
+                200,
+                100
+              ]
+            },
+            {
+              "target": 250,
+              "palette": [
+                50,
+                100,
+                200
+              ],
+              "solution": [
+                100,
+                100,
+                50
+              ]
+            },
+            {
+              "target": 400,
+              "palette": [
+                100,
+                200,
+                500
+              ],
+              "solution": [
+                200,
+                200
+              ]
+            },
+            {
+              "target": 700,
+              "palette": [
+                100,
+                200,
+                500
+              ],
+              "solution": [
+                500,
+                200
+              ]
+            }
           ]
         },
         "pt": {
-          "currency": { "symbol": "R$", "before": true, "decimalSep": ",", "minorPerMajor": 100, "space": true },
-          "coins": [ {"v":5,"label":"5 centavos"},{"v":10,"label":"10 centavos"},{"v":25,"label":"25 centavos"},{"v":50,"label":"50 centavos"},{"v":100,"label":"R$1"} ],
+          "currency": {
+            "symbol": "R$",
+            "before": true,
+            "decimalSep": ",",
+            "minorPerMajor": 100,
+            "space": true
+          },
+          "coins": [
+            {
+              "v": 5,
+              "label": "5 centavos"
+            },
+            {
+              "v": 10,
+              "label": "10 centavos"
+            },
+            {
+              "v": 25,
+              "label": "25 centavos"
+            },
+            {
+              "v": 50,
+              "label": "50 centavos"
+            },
+            {
+              "v": 100,
+              "label": "R$1"
+            }
+          ],
           "rounds": [
-            {"target":15,"palette":[5,10,25],"solution":[10,5]},
-            {"target":30,"palette":[5,10,25],"solution":[10,10,10]},
-            {"target":35,"palette":[5,10,25],"solution":[25,10]},
-            {"target":45,"palette":[5,10,25,50],"solution":[25,10,10]},
-            {"target":60,"palette":[10,25,50],"solution":[50,10]},
-            {"target":75,"palette":[5,25,50],"solution":[50,25]},
-            {"target":85,"palette":[10,25,50],"solution":[50,25,10]},
-            {"target":100,"palette":[10,25,50],"solution":[50,25,25]}
+            {
+              "target": 15,
+              "palette": [
+                5,
+                10,
+                25
+              ],
+              "solution": [
+                10,
+                5
+              ]
+            },
+            {
+              "target": 30,
+              "palette": [
+                5,
+                10,
+                25
+              ],
+              "solution": [
+                10,
+                10,
+                10
+              ]
+            },
+            {
+              "target": 35,
+              "palette": [
+                5,
+                10,
+                25
+              ],
+              "solution": [
+                25,
+                10
+              ]
+            },
+            {
+              "target": 45,
+              "palette": [
+                5,
+                10,
+                25,
+                50
+              ],
+              "solution": [
+                25,
+                10,
+                10
+              ]
+            },
+            {
+              "target": 60,
+              "palette": [
+                10,
+                25,
+                50
+              ],
+              "solution": [
+                50,
+                10
+              ]
+            },
+            {
+              "target": 75,
+              "palette": [
+                5,
+                25,
+                50
+              ],
+              "solution": [
+                50,
+                25
+              ]
+            },
+            {
+              "target": 85,
+              "palette": [
+                10,
+                25,
+                50
+              ],
+              "solution": [
+                50,
+                25,
+                10
+              ]
+            },
+            {
+              "target": 100,
+              "palette": [
+                10,
+                25,
+                50
+              ],
+              "solution": [
+                50,
+                25,
+                25
+              ]
+            }
           ]
         },
         "fr": {
-          "currency": { "symbol": "€", "before": false, "decimalSep": ",", "minorPerMajor": 100 },
-          "coins": [ {"v":1,"label":"1 c"},{"v":2,"label":"2 c"},{"v":5,"label":"5 c"},{"v":10,"label":"10 c"},{"v":20,"label":"20 c"},{"v":50,"label":"50 c"},{"v":100,"label":"1 €"},{"v":200,"label":"2 €"} ],
+          "currency": {
+            "symbol": "€",
+            "before": false,
+            "decimalSep": ",",
+            "minorPerMajor": 100
+          },
+          "coins": [
+            {
+              "v": 1,
+              "label": "1 c"
+            },
+            {
+              "v": 2,
+              "label": "2 c"
+            },
+            {
+              "v": 5,
+              "label": "5 c"
+            },
+            {
+              "v": 10,
+              "label": "10 c"
+            },
+            {
+              "v": 20,
+              "label": "20 c"
+            },
+            {
+              "v": 50,
+              "label": "50 c"
+            },
+            {
+              "v": 100,
+              "label": "1 €"
+            },
+            {
+              "v": 200,
+              "label": "2 €"
+            }
+          ],
           "rounds": [
-            {"target":7,"palette":[1,2,5,10],"solution":[5,2]},
-            {"target":30,"palette":[5,10,20,50],"solution":[20,10]},
-            {"target":15,"palette":[1,2,5,10],"solution":[10,5]},
-            {"target":70,"palette":[10,20,50],"solution":[50,20]},
-            {"target":25,"palette":[2,5,10,20],"solution":[20,5]},
-            {"target":60,"palette":[5,10,20,50],"solution":[50,10]},
-            {"target":150,"palette":[10,50,100,200],"solution":[100,50]},
-            {"target":250,"palette":[20,50,100,200],"solution":[200,50]}
+            {
+              "target": 7,
+              "palette": [
+                1,
+                2,
+                5,
+                10
+              ],
+              "solution": [
+                5,
+                2
+              ]
+            },
+            {
+              "target": 30,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                20,
+                10
+              ]
+            },
+            {
+              "target": 15,
+              "palette": [
+                1,
+                2,
+                5,
+                10
+              ],
+              "solution": [
+                10,
+                5
+              ]
+            },
+            {
+              "target": 70,
+              "palette": [
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                50,
+                20
+              ]
+            },
+            {
+              "target": 25,
+              "palette": [
+                2,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                20,
+                5
+              ]
+            },
+            {
+              "target": 60,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                50,
+                10
+              ]
+            },
+            {
+              "target": 150,
+              "palette": [
+                10,
+                50,
+                100,
+                200
+              ],
+              "solution": [
+                100,
+                50
+              ]
+            },
+            {
+              "target": 250,
+              "palette": [
+                20,
+                50,
+                100,
+                200
+              ],
+              "solution": [
+                200,
+                50
+              ]
+            }
           ]
         },
         "it": {
-          "currency": { "symbol": "€", "before": false, "decimalSep": ",", "minorPerMajor": 100 },
-          "coins": [ {"v":1,"label":"1 c"},{"v":2,"label":"2 c"},{"v":5,"label":"5 c"},{"v":10,"label":"10 c"},{"v":20,"label":"20 c"},{"v":50,"label":"50 c"},{"v":100,"label":"1 €"},{"v":200,"label":"2 €"} ],
+          "currency": {
+            "symbol": "€",
+            "before": false,
+            "decimalSep": ",",
+            "minorPerMajor": 100
+          },
+          "coins": [
+            {
+              "v": 1,
+              "label": "1 c"
+            },
+            {
+              "v": 2,
+              "label": "2 c"
+            },
+            {
+              "v": 5,
+              "label": "5 c"
+            },
+            {
+              "v": 10,
+              "label": "10 c"
+            },
+            {
+              "v": 20,
+              "label": "20 c"
+            },
+            {
+              "v": 50,
+              "label": "50 c"
+            },
+            {
+              "v": 100,
+              "label": "1 €"
+            },
+            {
+              "v": 200,
+              "label": "2 €"
+            }
+          ],
           "rounds": [
-            {"target":7,"palette":[1,2,5,10,20],"solution":[5,2]},
-            {"target":30,"palette":[5,10,20,50],"solution":[20,10]},
-            {"target":16,"palette":[1,2,5,10,20],"solution":[10,5,1]},
-            {"target":70,"palette":[10,20,50,100],"solution":[50,20]},
-            {"target":35,"palette":[5,10,20,50],"solution":[20,10,5]},
-            {"target":110,"palette":[10,50,100,200],"solution":[100,10]},
-            {"target":62,"palette":[1,2,10,50],"solution":[50,10,2]},
-            {"target":250,"palette":[20,50,100,200],"solution":[200,50]}
+            {
+              "target": 7,
+              "palette": [
+                1,
+                2,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                5,
+                2
+              ]
+            },
+            {
+              "target": 30,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                20,
+                10
+              ]
+            },
+            {
+              "target": 16,
+              "palette": [
+                1,
+                2,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                10,
+                5,
+                1
+              ]
+            },
+            {
+              "target": 70,
+              "palette": [
+                10,
+                20,
+                50,
+                100
+              ],
+              "solution": [
+                50,
+                20
+              ]
+            },
+            {
+              "target": 35,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                20,
+                10,
+                5
+              ]
+            },
+            {
+              "target": 110,
+              "palette": [
+                10,
+                50,
+                100,
+                200
+              ],
+              "solution": [
+                100,
+                10
+              ]
+            },
+            {
+              "target": 62,
+              "palette": [
+                1,
+                2,
+                10,
+                50
+              ],
+              "solution": [
+                50,
+                10,
+                2
+              ]
+            },
+            {
+              "target": 250,
+              "palette": [
+                20,
+                50,
+                100,
+                200
+              ],
+              "solution": [
+                200,
+                50
+              ]
+            }
           ]
         },
         "nl": {
-          "currency": { "symbol": "€", "before": true, "decimalSep": ",", "minorPerMajor": 100, "space": true },
-          "coins": [ {"v":5,"label":"5 ct"},{"v":10,"label":"10 ct"},{"v":20,"label":"20 ct"},{"v":50,"label":"50 ct"},{"v":100,"label":"€1"},{"v":200,"label":"€2"} ],
+          "currency": {
+            "symbol": "€",
+            "before": true,
+            "decimalSep": ",",
+            "minorPerMajor": 100,
+            "space": true
+          },
+          "coins": [
+            {
+              "v": 5,
+              "label": "5 ct"
+            },
+            {
+              "v": 10,
+              "label": "10 ct"
+            },
+            {
+              "v": 20,
+              "label": "20 ct"
+            },
+            {
+              "v": 50,
+              "label": "50 ct"
+            },
+            {
+              "v": 100,
+              "label": "€1"
+            },
+            {
+              "v": 200,
+              "label": "€2"
+            }
+          ],
           "rounds": [
-            {"target":30,"palette":[5,10,20,50],"solution":[20,10]},
-            {"target":15,"palette":[5,10,20,50],"solution":[10,5]},
-            {"target":70,"palette":[10,20,50,100],"solution":[50,20]},
-            {"target":25,"palette":[5,10,20,50],"solution":[20,5]},
-            {"target":60,"palette":[10,20,50,100],"solution":[50,10]},
-            {"target":150,"palette":[20,50,100,200],"solution":[100,50]},
-            {"target":110,"palette":[10,50,100,200],"solution":[100,10]},
-            {"target":300,"palette":[50,100,200],"solution":[200,100]}
+            {
+              "target": 30,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                20,
+                10
+              ]
+            },
+            {
+              "target": 15,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                10,
+                5
+              ]
+            },
+            {
+              "target": 70,
+              "palette": [
+                10,
+                20,
+                50,
+                100
+              ],
+              "solution": [
+                50,
+                20
+              ]
+            },
+            {
+              "target": 25,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                20,
+                5
+              ]
+            },
+            {
+              "target": 60,
+              "palette": [
+                10,
+                20,
+                50,
+                100
+              ],
+              "solution": [
+                50,
+                10
+              ]
+            },
+            {
+              "target": 150,
+              "palette": [
+                20,
+                50,
+                100,
+                200
+              ],
+              "solution": [
+                100,
+                50
+              ]
+            },
+            {
+              "target": 110,
+              "palette": [
+                10,
+                50,
+                100,
+                200
+              ],
+              "solution": [
+                100,
+                10
+              ]
+            },
+            {
+              "target": 300,
+              "palette": [
+                50,
+                100,
+                200
+              ],
+              "solution": [
+                200,
+                100
+              ]
+            }
           ]
         },
         "sv": {
-          "currency": { "symbol": "kr", "before": false, "decimalSep": ",", "minorPerMajor": 1 },
-          "coins": [ {"v":1,"label":"1 kr"},{"v":2,"label":"2 kr"},{"v":5,"label":"5 kr"},{"v":10,"label":"10 kr"} ],
+          "currency": {
+            "symbol": "kr",
+            "before": false,
+            "decimalSep": ",",
+            "minorPerMajor": 1
+          },
+          "coins": [
+            {
+              "v": 1,
+              "label": "1 kr"
+            },
+            {
+              "v": 2,
+              "label": "2 kr"
+            },
+            {
+              "v": 5,
+              "label": "5 kr"
+            },
+            {
+              "v": 10,
+              "label": "10 kr"
+            }
+          ],
           "rounds": [
-            {"target":12,"palette":[1,2,5,10],"solution":[10,2]},
-            {"target":7,"palette":[1,2,5,10],"solution":[5,2]},
-            {"target":16,"palette":[1,2,5,10],"solution":[10,5,1]},
-            {"target":21,"palette":[1,2,5,10],"solution":[10,10,1]},
-            {"target":9,"palette":[1,2,5,10],"solution":[5,2,2]},
-            {"target":17,"palette":[1,2,5,10],"solution":[10,5,2]},
-            {"target":14,"palette":[1,2,5,10],"solution":[10,2,2]},
-            {"target":25,"palette":[1,2,5,10],"solution":[10,10,5]}
+            {
+              "target": 12,
+              "palette": [
+                1,
+                2,
+                5,
+                10
+              ],
+              "solution": [
+                10,
+                2
+              ]
+            },
+            {
+              "target": 7,
+              "palette": [
+                1,
+                2,
+                5,
+                10
+              ],
+              "solution": [
+                5,
+                2
+              ]
+            },
+            {
+              "target": 16,
+              "palette": [
+                1,
+                2,
+                5,
+                10
+              ],
+              "solution": [
+                10,
+                5,
+                1
+              ]
+            },
+            {
+              "target": 21,
+              "palette": [
+                1,
+                2,
+                5,
+                10
+              ],
+              "solution": [
+                10,
+                10,
+                1
+              ]
+            },
+            {
+              "target": 9,
+              "palette": [
+                1,
+                2,
+                5,
+                10
+              ],
+              "solution": [
+                5,
+                2,
+                2
+              ]
+            },
+            {
+              "target": 17,
+              "palette": [
+                1,
+                2,
+                5,
+                10
+              ],
+              "solution": [
+                10,
+                5,
+                2
+              ]
+            },
+            {
+              "target": 14,
+              "palette": [
+                1,
+                2,
+                5,
+                10
+              ],
+              "solution": [
+                10,
+                2,
+                2
+              ]
+            },
+            {
+              "target": 25,
+              "palette": [
+                1,
+                2,
+                5,
+                10
+              ],
+              "solution": [
+                10,
+                10,
+                5
+              ]
+            }
           ]
         },
         "da": {
-          "currency": { "symbol": "kr", "before": false, "decimalSep": ",", "minorPerMajor": 1 },
-          "coins": [ {"v":1,"label":"1 kr"},{"v":2,"label":"2 kr"},{"v":5,"label":"5 kr"},{"v":10,"label":"10 kr"},{"v":20,"label":"20 kr"} ],
+          "currency": {
+            "symbol": "kr",
+            "before": false,
+            "decimalSep": ",",
+            "minorPerMajor": 1
+          },
+          "coins": [
+            {
+              "v": 1,
+              "label": "1 kr"
+            },
+            {
+              "v": 2,
+              "label": "2 kr"
+            },
+            {
+              "v": 5,
+              "label": "5 kr"
+            },
+            {
+              "v": 10,
+              "label": "10 kr"
+            },
+            {
+              "v": 20,
+              "label": "20 kr"
+            }
+          ],
           "rounds": [
-            {"target":7,"palette":[1,2,5,10],"solution":[5,2]},
-            {"target":13,"palette":[1,2,5,10,20],"solution":[10,2,1]},
-            {"target":17,"palette":[1,2,5,10,20],"solution":[10,5,2]},
-            {"target":22,"palette":[1,2,5,10,20],"solution":[20,2]},
-            {"target":26,"palette":[1,2,5,10,20],"solution":[20,5,1]},
-            {"target":31,"palette":[1,2,5,10,20],"solution":[20,10,1]},
-            {"target":38,"palette":[1,2,5,10,20],"solution":[20,10,5,2,1]},
-            {"target":45,"palette":[1,2,5,10,20],"solution":[20,20,5]}
+            {
+              "target": 7,
+              "palette": [
+                1,
+                2,
+                5,
+                10
+              ],
+              "solution": [
+                5,
+                2
+              ]
+            },
+            {
+              "target": 13,
+              "palette": [
+                1,
+                2,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                10,
+                2,
+                1
+              ]
+            },
+            {
+              "target": 17,
+              "palette": [
+                1,
+                2,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                10,
+                5,
+                2
+              ]
+            },
+            {
+              "target": 22,
+              "palette": [
+                1,
+                2,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                20,
+                2
+              ]
+            },
+            {
+              "target": 26,
+              "palette": [
+                1,
+                2,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                20,
+                5,
+                1
+              ]
+            },
+            {
+              "target": 31,
+              "palette": [
+                1,
+                2,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                20,
+                10,
+                1
+              ]
+            },
+            {
+              "target": 38,
+              "palette": [
+                1,
+                2,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                20,
+                10,
+                5,
+                2,
+                1
+              ]
+            },
+            {
+              "target": 45,
+              "palette": [
+                1,
+                2,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                20,
+                20,
+                5
+              ]
+            }
           ]
         },
         "no": {
-          "currency": { "symbol": "kr", "before": false, "decimalSep": ",", "minorPerMajor": 1 },
-          "coins": [ {"v":1,"label":"1 kr"},{"v":5,"label":"5 kr"},{"v":10,"label":"10 kr"},{"v":20,"label":"20 kr"} ],
+          "currency": {
+            "symbol": "kr",
+            "before": false,
+            "decimalSep": ",",
+            "minorPerMajor": 1
+          },
+          "coins": [
+            {
+              "v": 1,
+              "label": "1 kr"
+            },
+            {
+              "v": 5,
+              "label": "5 kr"
+            },
+            {
+              "v": 10,
+              "label": "10 kr"
+            },
+            {
+              "v": 20,
+              "label": "20 kr"
+            }
+          ],
           "rounds": [
-            {"target":16,"palette":[1,5,10,20],"solution":[10,5,1]},
-            {"target":7,"palette":[1,5,10,20],"solution":[5,1,1]},
-            {"target":12,"palette":[1,5,10,20],"solution":[10,1,1]},
-            {"target":23,"palette":[1,5,10,20],"solution":[20,1,1,1]},
-            {"target":31,"palette":[1,5,10,20],"solution":[20,10,1]},
-            {"target":26,"palette":[1,5,10,20],"solution":[20,5,1]},
-            {"target":35,"palette":[1,5,10,20],"solution":[20,10,5]},
-            {"target":41,"palette":[1,5,10,20],"solution":[20,20,1]}
+            {
+              "target": 16,
+              "palette": [
+                1,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                10,
+                5,
+                1
+              ]
+            },
+            {
+              "target": 7,
+              "palette": [
+                1,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                5,
+                1,
+                1
+              ]
+            },
+            {
+              "target": 12,
+              "palette": [
+                1,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                10,
+                1,
+                1
+              ]
+            },
+            {
+              "target": 23,
+              "palette": [
+                1,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                20,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "target": 31,
+              "palette": [
+                1,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                20,
+                10,
+                1
+              ]
+            },
+            {
+              "target": 26,
+              "palette": [
+                1,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                20,
+                5,
+                1
+              ]
+            },
+            {
+              "target": 35,
+              "palette": [
+                1,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                20,
+                10,
+                5
+              ]
+            },
+            {
+              "target": 41,
+              "palette": [
+                1,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                20,
+                20,
+                1
+              ]
+            }
           ]
         },
         "fi": {
-          "currency": { "symbol": "€", "before": false, "decimalSep": ",", "minorPerMajor": 100 },
-          "coins": [ {"v":5,"label":"5 snt"},{"v":10,"label":"10 snt"},{"v":20,"label":"20 snt"},{"v":50,"label":"50 snt"},{"v":100,"label":"1 €"},{"v":200,"label":"2 €"} ],
+          "currency": {
+            "symbol": "€",
+            "before": false,
+            "decimalSep": ",",
+            "minorPerMajor": 100
+          },
+          "coins": [
+            {
+              "v": 5,
+              "label": "5 snt"
+            },
+            {
+              "v": 10,
+              "label": "10 snt"
+            },
+            {
+              "v": 20,
+              "label": "20 snt"
+            },
+            {
+              "v": 50,
+              "label": "50 snt"
+            },
+            {
+              "v": 100,
+              "label": "1 €"
+            },
+            {
+              "v": 200,
+              "label": "2 €"
+            }
+          ],
           "rounds": [
-            {"target":30,"palette":[5,10,20,50],"solution":[20,10]},
-            {"target":70,"palette":[5,10,20,50],"solution":[50,20]},
-            {"target":55,"palette":[5,10,20,50],"solution":[50,5]},
-            {"target":80,"palette":[5,10,20,50],"solution":[50,20,10]},
-            {"target":150,"palette":[10,20,50,100],"solution":[100,50]},
-            {"target":120,"palette":[10,20,50,100],"solution":[100,20]},
-            {"target":250,"palette":[50,100,200],"solution":[200,50]},
-            {"target":220,"palette":[10,20,100,200],"solution":[200,20]}
+            {
+              "target": 30,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                20,
+                10
+              ]
+            },
+            {
+              "target": 70,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                50,
+                20
+              ]
+            },
+            {
+              "target": 55,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                50,
+                5
+              ]
+            },
+            {
+              "target": 80,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                50,
+                20,
+                10
+              ]
+            },
+            {
+              "target": 150,
+              "palette": [
+                10,
+                20,
+                50,
+                100
+              ],
+              "solution": [
+                100,
+                50
+              ]
+            },
+            {
+              "target": 120,
+              "palette": [
+                10,
+                20,
+                50,
+                100
+              ],
+              "solution": [
+                100,
+                20
+              ]
+            },
+            {
+              "target": 250,
+              "palette": [
+                50,
+                100,
+                200
+              ],
+              "solution": [
+                200,
+                50
+              ]
+            },
+            {
+              "target": 220,
+              "palette": [
+                10,
+                20,
+                100,
+                200
+              ],
+              "solution": [
+                200,
+                20
+              ]
+            }
           ]
         }
       }
@@ -178,7 +1603,7 @@
     },
     "page_title": {
       "en": "Count Out the Money — Coins to a Target Amount (Grade 2)",
-      "de": "Geld abzählen mit Euro-Münzen – Mathe Klasse 2",
+      "de": "Euro und Cent zählen – Geld online üben (Klasse 2)",
       "es": "Cuenta el dinero en pesos para 2.º de primaria | Actividad interactiva",
       "pt": "Conte o dinheiro: moedas de real para o 2º ano (BNCC)",
       "fr": "Compte la monnaie en euros — CE1 (monnaie, pièces) | activité interactive",
@@ -191,7 +1616,7 @@
     },
     "page_intro": {
       "en": "A free interactive Grade 2 math activity: tap coins (pennies, nickels, dimes, quarters) into the tray until the money matches the target amount. Counting coins with ¢ and $. Common Core 2.MD.C.8.",
-      "de": "Tippe Euro-Münzen in die Schale und zähle ab, bis der Betrag genau stimmt. Diese spielerische Übung zum Rechnen mit Geld orientiert sich am Lehrplan für die Klasse 2 (2.MD.C.8).",
+      "de": "Euro und Cent zählen üben: Geldbeträge mit Euro-Münzen abzählen – Mathe für Klasse 2. Kostenlos online, ohne Anmeldung – sofort loslegen.",
       "es": "Una actividad cálida y sin prisas para que los niños de 2.º de primaria reúnan cantidades exactas con monedas de pesos y centavos. Alineada con el Currículo LOMLOE (2.MD.C.8).",
       "pt": "Nesta atividade do 2º ano, as crianças contam moedas de real (R$) e formam o valor pedido, tocando em cada moeda até completar o total. Alinhada à BNCC (2.MD.C.8), ela fortalece o sistema monetário e a contagem com centavos de um jeito leve e acolhedor.",
       "fr": "Une activité interactive pour apprendre à compter la monnaie en euros : touche les pièces une à une jusqu'à former le montant demandé. Conçue pour les élèves de CE1 selon les Programmes officiels (2.MD.C.8).",
@@ -208,161 +1633,1650 @@
     "id": "money.make-change.2-md-c-8",
     "tool": "money-activity",
     "task_template": "make-change",
-    "alignment": { "framework": "CCSS", "code": "2.MD.C.8", "grade": "2", "strand": "Measurement & Data" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "2.MD.C.8",
+      "grade": "2",
+      "strand": "Measurement & Data"
+    },
     "params": {
       "byLocale": {
         "en": {
-          "currency": { "symbol": "$", "before": true, "decimalSep": ".", "minorPerMajor": 100 },
-          "coins": [ {"v":1,"label":"1¢"},{"v":5,"label":"5¢"},{"v":10,"label":"10¢"},{"v":25,"label":"25¢"},{"v":100,"label":"$1"} ],
+          "currency": {
+            "symbol": "$",
+            "before": true,
+            "decimalSep": ".",
+            "minorPerMajor": 100
+          },
+          "coins": [
+            {
+              "v": 1,
+              "label": "1¢"
+            },
+            {
+              "v": 5,
+              "label": "5¢"
+            },
+            {
+              "v": 10,
+              "label": "10¢"
+            },
+            {
+              "v": 25,
+              "label": "25¢"
+            },
+            {
+              "v": 100,
+              "label": "$1"
+            }
+          ],
           "rounds": [
-            {"cost":70,"paid":100,"palette":[1,5,10,25],"solution":[25,5]},
-            {"cost":85,"paid":100,"palette":[1,5,10,25],"solution":[10,5]},
-            {"cost":60,"paid":100,"palette":[1,5,10,25],"solution":[25,10,5]},
-            {"cost":75,"paid":100,"palette":[1,5,10],"solution":[10,10,5]},
-            {"cost":90,"paid":100,"palette":[1,5,10],"solution":[5,5]},
-            {"cost":55,"paid":100,"palette":[1,5,10,25],"solution":[25,10,10]},
-            {"cost":65,"paid":100,"palette":[5,10,25],"solution":[25,10]},
-            {"cost":80,"paid":100,"palette":[5,10,25],"solution":[10,10]}
+            {
+              "cost": 70,
+              "paid": 100,
+              "palette": [
+                1,
+                5,
+                10,
+                25
+              ],
+              "solution": [
+                25,
+                5
+              ]
+            },
+            {
+              "cost": 85,
+              "paid": 100,
+              "palette": [
+                1,
+                5,
+                10,
+                25
+              ],
+              "solution": [
+                10,
+                5
+              ]
+            },
+            {
+              "cost": 60,
+              "paid": 100,
+              "palette": [
+                1,
+                5,
+                10,
+                25
+              ],
+              "solution": [
+                25,
+                10,
+                5
+              ]
+            },
+            {
+              "cost": 75,
+              "paid": 100,
+              "palette": [
+                1,
+                5,
+                10
+              ],
+              "solution": [
+                10,
+                10,
+                5
+              ]
+            },
+            {
+              "cost": 90,
+              "paid": 100,
+              "palette": [
+                1,
+                5,
+                10
+              ],
+              "solution": [
+                5,
+                5
+              ]
+            },
+            {
+              "cost": 55,
+              "paid": 100,
+              "palette": [
+                1,
+                5,
+                10,
+                25
+              ],
+              "solution": [
+                25,
+                10,
+                10
+              ]
+            },
+            {
+              "cost": 65,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                25
+              ],
+              "solution": [
+                25,
+                10
+              ]
+            },
+            {
+              "cost": 80,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                25
+              ],
+              "solution": [
+                10,
+                10
+              ]
+            }
           ]
         },
         "de": {
-          "currency": { "symbol": "€", "before": false, "decimalSep": ",", "minorPerMajor": 100 },
-          "coins": [ {"v":1,"label":"1 ct"},{"v":2,"label":"2 ct"},{"v":5,"label":"5 ct"},{"v":10,"label":"10 ct"},{"v":20,"label":"20 ct"},{"v":50,"label":"50 ct"},{"v":100,"label":"1 €"},{"v":200,"label":"2 €"} ],
+          "currency": {
+            "symbol": "€",
+            "before": false,
+            "decimalSep": ",",
+            "minorPerMajor": 100
+          },
+          "coins": [
+            {
+              "v": 1,
+              "label": "1 ct"
+            },
+            {
+              "v": 2,
+              "label": "2 ct"
+            },
+            {
+              "v": 5,
+              "label": "5 ct"
+            },
+            {
+              "v": 10,
+              "label": "10 ct"
+            },
+            {
+              "v": 20,
+              "label": "20 ct"
+            },
+            {
+              "v": 50,
+              "label": "50 ct"
+            },
+            {
+              "v": 100,
+              "label": "1 €"
+            },
+            {
+              "v": 200,
+              "label": "2 €"
+            }
+          ],
           "rounds": [
-            {"cost":80,"paid":100,"palette":[5,10,20,50],"solution":[10,10]},
-            {"cost":70,"paid":100,"palette":[5,10,20,50],"solution":[20,10]},
-            {"cost":60,"paid":100,"palette":[5,10,20,50],"solution":[20,20]},
-            {"cost":175,"paid":200,"palette":[2,5,10,20],"solution":[20,5]},
-            {"cost":90,"paid":150,"palette":[5,10,20,50],"solution":[50,10]},
-            {"cost":65,"paid":100,"palette":[2,5,10,20],"solution":[20,10,5]},
-            {"cost":350,"paid":400,"palette":[5,10,20,50],"solution":[20,20,10]},
-            {"cost":130,"paid":200,"palette":[5,10,20,50],"solution":[50,20]}
+            {
+              "cost": 80,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                10,
+                10
+              ]
+            },
+            {
+              "cost": 70,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                20,
+                10
+              ]
+            },
+            {
+              "cost": 60,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                20,
+                20
+              ]
+            },
+            {
+              "cost": 175,
+              "paid": 200,
+              "palette": [
+                2,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                20,
+                5
+              ]
+            },
+            {
+              "cost": 90,
+              "paid": 150,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                50,
+                10
+              ]
+            },
+            {
+              "cost": 65,
+              "paid": 100,
+              "palette": [
+                2,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                20,
+                10,
+                5
+              ]
+            },
+            {
+              "cost": 350,
+              "paid": 400,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                20,
+                20,
+                10
+              ]
+            },
+            {
+              "cost": 130,
+              "paid": 200,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                50,
+                20
+              ]
+            }
           ]
         },
         "es": {
-          "currency": { "symbol": "$", "before": true, "decimalSep": ".", "minorPerMajor": 100 },
-          "coins": [ {"v":5,"label":"5¢"},{"v":10,"label":"10¢"},{"v":20,"label":"20¢"},{"v":50,"label":"50¢"},{"v":100,"label":"$1"},{"v":200,"label":"$2"},{"v":500,"label":"$5"} ],
+          "currency": {
+            "symbol": "$",
+            "before": true,
+            "decimalSep": ".",
+            "minorPerMajor": 100
+          },
+          "coins": [
+            {
+              "v": 5,
+              "label": "5¢"
+            },
+            {
+              "v": 10,
+              "label": "10¢"
+            },
+            {
+              "v": 20,
+              "label": "20¢"
+            },
+            {
+              "v": 50,
+              "label": "50¢"
+            },
+            {
+              "v": 100,
+              "label": "$1"
+            },
+            {
+              "v": 200,
+              "label": "$2"
+            },
+            {
+              "v": 500,
+              "label": "$5"
+            }
+          ],
           "rounds": [
-            {"cost":80,"paid":100,"palette":[5,10,20,50],"solution":[10,10]},
-            {"cost":35,"paid":50,"palette":[5,10,20],"solution":[10,5]},
-            {"cost":75,"paid":100,"palette":[5,10,20,50],"solution":[20,5]},
-            {"cost":150,"paid":200,"palette":[10,20,50,100],"solution":[20,20,10]},
-            {"cost":60,"paid":100,"palette":[5,10,20,50],"solution":[20,20]},
-            {"cost":110,"paid":150,"palette":[10,20,50],"solution":[20,20]},
-            {"cost":440,"paid":500,"palette":[5,10,20,50],"solution":[50,10]},
-            {"cost":85,"paid":100,"palette":[5,10,50],"solution":[10,5]}
+            {
+              "cost": 80,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                10,
+                10
+              ]
+            },
+            {
+              "cost": 35,
+              "paid": 50,
+              "palette": [
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                10,
+                5
+              ]
+            },
+            {
+              "cost": 75,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                20,
+                5
+              ]
+            },
+            {
+              "cost": 150,
+              "paid": 200,
+              "palette": [
+                10,
+                20,
+                50,
+                100
+              ],
+              "solution": [
+                20,
+                20,
+                10
+              ]
+            },
+            {
+              "cost": 60,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                20,
+                20
+              ]
+            },
+            {
+              "cost": 110,
+              "paid": 150,
+              "palette": [
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                20,
+                20
+              ]
+            },
+            {
+              "cost": 440,
+              "paid": 500,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                50,
+                10
+              ]
+            },
+            {
+              "cost": 85,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                50
+              ],
+              "solution": [
+                10,
+                5
+              ]
+            }
           ]
         },
         "pt": {
-          "currency": { "symbol": "R$", "before": true, "decimalSep": ",", "minorPerMajor": 100, "space": true },
-          "coins": [ {"v":5,"label":"5 centavos"},{"v":10,"label":"10 centavos"},{"v":25,"label":"25 centavos"},{"v":50,"label":"50 centavos"},{"v":100,"label":"R$1"} ],
+          "currency": {
+            "symbol": "R$",
+            "before": true,
+            "decimalSep": ",",
+            "minorPerMajor": 100,
+            "space": true
+          },
+          "coins": [
+            {
+              "v": 5,
+              "label": "5 centavos"
+            },
+            {
+              "v": 10,
+              "label": "10 centavos"
+            },
+            {
+              "v": 25,
+              "label": "25 centavos"
+            },
+            {
+              "v": 50,
+              "label": "50 centavos"
+            },
+            {
+              "v": 100,
+              "label": "R$1"
+            }
+          ],
           "rounds": [
-            {"cost":75,"paid":100,"palette":[5,10,25,50],"solution":[10,10,5]},
-            {"cost":80,"paid":100,"palette":[5,10,25,50],"solution":[10,10]},
-            {"cost":70,"paid":100,"palette":[5,10,25,50],"solution":[25,5]},
-            {"cost":40,"paid":100,"palette":[5,10,25,50,100],"solution":[50,10]},
-            {"cost":55,"paid":100,"palette":[5,10,25,50],"solution":[25,10,10]},
-            {"cost":150,"paid":200,"palette":[5,10,25,50],"solution":[25,25]},
-            {"cost":135,"paid":200,"palette":[5,10,25,50],"solution":[50,10,5]},
-            {"cost":85,"paid":100,"palette":[5,10,25],"solution":[10,5]}
+            {
+              "cost": 75,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                25,
+                50
+              ],
+              "solution": [
+                10,
+                10,
+                5
+              ]
+            },
+            {
+              "cost": 80,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                25,
+                50
+              ],
+              "solution": [
+                10,
+                10
+              ]
+            },
+            {
+              "cost": 70,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                25,
+                50
+              ],
+              "solution": [
+                25,
+                5
+              ]
+            },
+            {
+              "cost": 40,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                25,
+                50,
+                100
+              ],
+              "solution": [
+                50,
+                10
+              ]
+            },
+            {
+              "cost": 55,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                25,
+                50
+              ],
+              "solution": [
+                25,
+                10,
+                10
+              ]
+            },
+            {
+              "cost": 150,
+              "paid": 200,
+              "palette": [
+                5,
+                10,
+                25,
+                50
+              ],
+              "solution": [
+                25,
+                25
+              ]
+            },
+            {
+              "cost": 135,
+              "paid": 200,
+              "palette": [
+                5,
+                10,
+                25,
+                50
+              ],
+              "solution": [
+                50,
+                10,
+                5
+              ]
+            },
+            {
+              "cost": 85,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                25
+              ],
+              "solution": [
+                10,
+                5
+              ]
+            }
           ]
         },
         "fr": {
-          "currency": { "symbol": "€", "before": false, "decimalSep": ",", "minorPerMajor": 100 },
-          "coins": [ {"v":1,"label":"1 c"},{"v":2,"label":"2 c"},{"v":5,"label":"5 c"},{"v":10,"label":"10 c"},{"v":20,"label":"20 c"},{"v":50,"label":"50 c"},{"v":100,"label":"1 €"},{"v":200,"label":"2 €"} ],
+          "currency": {
+            "symbol": "€",
+            "before": false,
+            "decimalSep": ",",
+            "minorPerMajor": 100
+          },
+          "coins": [
+            {
+              "v": 1,
+              "label": "1 c"
+            },
+            {
+              "v": 2,
+              "label": "2 c"
+            },
+            {
+              "v": 5,
+              "label": "5 c"
+            },
+            {
+              "v": 10,
+              "label": "10 c"
+            },
+            {
+              "v": 20,
+              "label": "20 c"
+            },
+            {
+              "v": 50,
+              "label": "50 c"
+            },
+            {
+              "v": 100,
+              "label": "1 €"
+            },
+            {
+              "v": 200,
+              "label": "2 €"
+            }
+          ],
           "rounds": [
-            {"cost":80,"paid":100,"palette":[5,10,20,50],"solution":[10,10]},
-            {"cost":75,"paid":100,"palette":[5,10,20,50],"solution":[20,5]},
-            {"cost":70,"paid":100,"palette":[5,10,20,50],"solution":[20,10]},
-            {"cost":150,"paid":200,"palette":[10,20,100],"solution":[20,20,10]},
-            {"cost":140,"paid":200,"palette":[10,20,50,100],"solution":[50,10]},
-            {"cost":65,"paid":100,"palette":[2,5,10,20],"solution":[20,10,5]},
-            {"cost":55,"paid":100,"palette":[5,10,20,50],"solution":[20,20,5]},
-            {"cost":120,"paid":200,"palette":[10,20,50,100],"solution":[50,20,10]}
+            {
+              "cost": 80,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                10,
+                10
+              ]
+            },
+            {
+              "cost": 75,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                20,
+                5
+              ]
+            },
+            {
+              "cost": 70,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                20,
+                10
+              ]
+            },
+            {
+              "cost": 150,
+              "paid": 200,
+              "palette": [
+                10,
+                20,
+                100
+              ],
+              "solution": [
+                20,
+                20,
+                10
+              ]
+            },
+            {
+              "cost": 140,
+              "paid": 200,
+              "palette": [
+                10,
+                20,
+                50,
+                100
+              ],
+              "solution": [
+                50,
+                10
+              ]
+            },
+            {
+              "cost": 65,
+              "paid": 100,
+              "palette": [
+                2,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                20,
+                10,
+                5
+              ]
+            },
+            {
+              "cost": 55,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                20,
+                20,
+                5
+              ]
+            },
+            {
+              "cost": 120,
+              "paid": 200,
+              "palette": [
+                10,
+                20,
+                50,
+                100
+              ],
+              "solution": [
+                50,
+                20,
+                10
+              ]
+            }
           ]
         },
         "it": {
-          "currency": { "symbol": "€", "before": false, "decimalSep": ",", "minorPerMajor": 100 },
-          "coins": [ {"v":1,"label":"1 c"},{"v":2,"label":"2 c"},{"v":5,"label":"5 c"},{"v":10,"label":"10 c"},{"v":20,"label":"20 c"},{"v":50,"label":"50 c"},{"v":100,"label":"1 €"},{"v":200,"label":"2 €"} ],
+          "currency": {
+            "symbol": "€",
+            "before": false,
+            "decimalSep": ",",
+            "minorPerMajor": 100
+          },
+          "coins": [
+            {
+              "v": 1,
+              "label": "1 c"
+            },
+            {
+              "v": 2,
+              "label": "2 c"
+            },
+            {
+              "v": 5,
+              "label": "5 c"
+            },
+            {
+              "v": 10,
+              "label": "10 c"
+            },
+            {
+              "v": 20,
+              "label": "20 c"
+            },
+            {
+              "v": 50,
+              "label": "50 c"
+            },
+            {
+              "v": 100,
+              "label": "1 €"
+            },
+            {
+              "v": 200,
+              "label": "2 €"
+            }
+          ],
           "rounds": [
-            {"cost":80,"paid":100,"palette":[5,10,20,50],"solution":[10,10]},
-            {"cost":70,"paid":100,"palette":[5,10,20,50],"solution":[20,10]},
-            {"cost":150,"paid":200,"palette":[10,20,50],"solution":[20,20,10]},
-            {"cost":40,"paid":50,"palette":[2,5,10],"solution":[5,5]},
-            {"cost":175,"paid":200,"palette":[5,10,20],"solution":[20,5]},
-            {"cost":135,"paid":200,"palette":[5,10,20,50],"solution":[50,10,5]},
-            {"cost":120,"paid":200,"palette":[10,20,50],"solution":[50,20,10]},
-            {"cost":55,"paid":100,"palette":[5,10,20,50],"solution":[20,20,5]}
+            {
+              "cost": 80,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                10,
+                10
+              ]
+            },
+            {
+              "cost": 70,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                20,
+                10
+              ]
+            },
+            {
+              "cost": 150,
+              "paid": 200,
+              "palette": [
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                20,
+                20,
+                10
+              ]
+            },
+            {
+              "cost": 40,
+              "paid": 50,
+              "palette": [
+                2,
+                5,
+                10
+              ],
+              "solution": [
+                5,
+                5
+              ]
+            },
+            {
+              "cost": 175,
+              "paid": 200,
+              "palette": [
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                20,
+                5
+              ]
+            },
+            {
+              "cost": 135,
+              "paid": 200,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                50,
+                10,
+                5
+              ]
+            },
+            {
+              "cost": 120,
+              "paid": 200,
+              "palette": [
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                50,
+                20,
+                10
+              ]
+            },
+            {
+              "cost": 55,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                20,
+                20,
+                5
+              ]
+            }
           ]
         },
         "nl": {
-          "currency": { "symbol": "€", "before": true, "decimalSep": ",", "minorPerMajor": 100, "space": true },
-          "coins": [ {"v":5,"label":"5 ct"},{"v":10,"label":"10 ct"},{"v":20,"label":"20 ct"},{"v":50,"label":"50 ct"},{"v":100,"label":"€1"},{"v":200,"label":"€2"} ],
+          "currency": {
+            "symbol": "€",
+            "before": true,
+            "decimalSep": ",",
+            "minorPerMajor": 100,
+            "space": true
+          },
+          "coins": [
+            {
+              "v": 5,
+              "label": "5 ct"
+            },
+            {
+              "v": 10,
+              "label": "10 ct"
+            },
+            {
+              "v": 20,
+              "label": "20 ct"
+            },
+            {
+              "v": 50,
+              "label": "50 ct"
+            },
+            {
+              "v": 100,
+              "label": "€1"
+            },
+            {
+              "v": 200,
+              "label": "€2"
+            }
+          ],
           "rounds": [
-            {"cost":35,"paid":50,"palette":[5,10,20,50],"solution":[5,10]},
-            {"cost":80,"paid":100,"palette":[5,10,20,50],"solution":[10,10]},
-            {"cost":75,"paid":100,"palette":[5,10,20,50],"solution":[5,20]},
-            {"cost":140,"paid":200,"palette":[10,20,50,100],"solution":[10,50]},
-            {"cost":40,"paid":50,"palette":[5,10,20,50],"solution":[5,5]},
-            {"cost":130,"paid":200,"palette":[10,20,50,100],"solution":[20,50]},
-            {"cost":85,"paid":100,"palette":[5,10,20,50],"solution":[5,10]},
-            {"cost":175,"paid":200,"palette":[5,10,20,100],"solution":[5,20]}
+            {
+              "cost": 35,
+              "paid": 50,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                5,
+                10
+              ]
+            },
+            {
+              "cost": 80,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                10,
+                10
+              ]
+            },
+            {
+              "cost": 75,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                5,
+                20
+              ]
+            },
+            {
+              "cost": 140,
+              "paid": 200,
+              "palette": [
+                10,
+                20,
+                50,
+                100
+              ],
+              "solution": [
+                10,
+                50
+              ]
+            },
+            {
+              "cost": 40,
+              "paid": 50,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                5,
+                5
+              ]
+            },
+            {
+              "cost": 130,
+              "paid": 200,
+              "palette": [
+                10,
+                20,
+                50,
+                100
+              ],
+              "solution": [
+                20,
+                50
+              ]
+            },
+            {
+              "cost": 85,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                5,
+                10
+              ]
+            },
+            {
+              "cost": 175,
+              "paid": 200,
+              "palette": [
+                5,
+                10,
+                20,
+                100
+              ],
+              "solution": [
+                5,
+                20
+              ]
+            }
           ]
         },
         "sv": {
-          "currency": { "symbol": "kr", "before": false, "decimalSep": ",", "minorPerMajor": 1 },
-          "coins": [ {"v":1,"label":"1 kr"},{"v":2,"label":"2 kr"},{"v":5,"label":"5 kr"},{"v":10,"label":"10 kr"} ],
+          "currency": {
+            "symbol": "kr",
+            "before": false,
+            "decimalSep": ",",
+            "minorPerMajor": 1
+          },
+          "coins": [
+            {
+              "v": 1,
+              "label": "1 kr"
+            },
+            {
+              "v": 2,
+              "label": "2 kr"
+            },
+            {
+              "v": 5,
+              "label": "5 kr"
+            },
+            {
+              "v": 10,
+              "label": "10 kr"
+            }
+          ],
           "rounds": [
-            {"cost":7,"paid":10,"palette":[1,2,5],"solution":[2,1]},
-            {"cost":6,"paid":10,"palette":[1,2,5],"solution":[2,2]},
-            {"cost":15,"paid":20,"palette":[1,2,5,10],"solution":[2,2,1]},
-            {"cost":12,"paid":20,"palette":[1,2,5,10],"solution":[5,2,1]},
-            {"cost":14,"paid":20,"palette":[1,2,5],"solution":[5,1]},
-            {"cost":3,"paid":10,"palette":[1,2,5],"solution":[5,2]},
-            {"cost":8,"paid":20,"palette":[2,5,10],"solution":[10,2]},
-            {"cost":11,"paid":20,"palette":[1,2,5],"solution":[5,2,2]}
+            {
+              "cost": 7,
+              "paid": 10,
+              "palette": [
+                1,
+                2,
+                5
+              ],
+              "solution": [
+                2,
+                1
+              ]
+            },
+            {
+              "cost": 6,
+              "paid": 10,
+              "palette": [
+                1,
+                2,
+                5
+              ],
+              "solution": [
+                2,
+                2
+              ]
+            },
+            {
+              "cost": 15,
+              "paid": 20,
+              "palette": [
+                1,
+                2,
+                5,
+                10
+              ],
+              "solution": [
+                2,
+                2,
+                1
+              ]
+            },
+            {
+              "cost": 12,
+              "paid": 20,
+              "palette": [
+                1,
+                2,
+                5,
+                10
+              ],
+              "solution": [
+                5,
+                2,
+                1
+              ]
+            },
+            {
+              "cost": 14,
+              "paid": 20,
+              "palette": [
+                1,
+                2,
+                5
+              ],
+              "solution": [
+                5,
+                1
+              ]
+            },
+            {
+              "cost": 3,
+              "paid": 10,
+              "palette": [
+                1,
+                2,
+                5
+              ],
+              "solution": [
+                5,
+                2
+              ]
+            },
+            {
+              "cost": 8,
+              "paid": 20,
+              "palette": [
+                2,
+                5,
+                10
+              ],
+              "solution": [
+                10,
+                2
+              ]
+            },
+            {
+              "cost": 11,
+              "paid": 20,
+              "palette": [
+                1,
+                2,
+                5
+              ],
+              "solution": [
+                5,
+                2,
+                2
+              ]
+            }
           ]
         },
         "da": {
-          "currency": { "symbol": "kr", "before": false, "decimalSep": ",", "minorPerMajor": 1 },
-          "coins": [ {"v":1,"label":"1 kr"},{"v":2,"label":"2 kr"},{"v":5,"label":"5 kr"},{"v":10,"label":"10 kr"},{"v":20,"label":"20 kr"} ],
+          "currency": {
+            "symbol": "kr",
+            "before": false,
+            "decimalSep": ",",
+            "minorPerMajor": 1
+          },
+          "coins": [
+            {
+              "v": 1,
+              "label": "1 kr"
+            },
+            {
+              "v": 2,
+              "label": "2 kr"
+            },
+            {
+              "v": 5,
+              "label": "5 kr"
+            },
+            {
+              "v": 10,
+              "label": "10 kr"
+            },
+            {
+              "v": 20,
+              "label": "20 kr"
+            }
+          ],
           "rounds": [
-            {"cost":7,"paid":10,"palette":[1,2,5],"solution":[2,1]},
-            {"cost":16,"paid":20,"palette":[1,2,5],"solution":[2,2]},
-            {"cost":14,"paid":20,"palette":[1,2,5],"solution":[5,1]},
-            {"cost":12,"paid":20,"palette":[1,2,5,10],"solution":[5,2,1]},
-            {"cost":13,"paid":20,"palette":[1,2,5],"solution":[5,2]},
-            {"cost":8,"paid":10,"palette":[1,2,5],"solution":[1,1]},
-            {"cost":35,"paid":50,"palette":[2,5,10],"solution":[10,5]},
-            {"cost":9,"paid":20,"palette":[1,2,5,10],"solution":[10,1]}
+            {
+              "cost": 7,
+              "paid": 10,
+              "palette": [
+                1,
+                2,
+                5
+              ],
+              "solution": [
+                2,
+                1
+              ]
+            },
+            {
+              "cost": 16,
+              "paid": 20,
+              "palette": [
+                1,
+                2,
+                5
+              ],
+              "solution": [
+                2,
+                2
+              ]
+            },
+            {
+              "cost": 14,
+              "paid": 20,
+              "palette": [
+                1,
+                2,
+                5
+              ],
+              "solution": [
+                5,
+                1
+              ]
+            },
+            {
+              "cost": 12,
+              "paid": 20,
+              "palette": [
+                1,
+                2,
+                5,
+                10
+              ],
+              "solution": [
+                5,
+                2,
+                1
+              ]
+            },
+            {
+              "cost": 13,
+              "paid": 20,
+              "palette": [
+                1,
+                2,
+                5
+              ],
+              "solution": [
+                5,
+                2
+              ]
+            },
+            {
+              "cost": 8,
+              "paid": 10,
+              "palette": [
+                1,
+                2,
+                5
+              ],
+              "solution": [
+                1,
+                1
+              ]
+            },
+            {
+              "cost": 35,
+              "paid": 50,
+              "palette": [
+                2,
+                5,
+                10
+              ],
+              "solution": [
+                10,
+                5
+              ]
+            },
+            {
+              "cost": 9,
+              "paid": 20,
+              "palette": [
+                1,
+                2,
+                5,
+                10
+              ],
+              "solution": [
+                10,
+                1
+              ]
+            }
           ]
         },
         "no": {
-          "currency": { "symbol": "kr", "before": false, "decimalSep": ",", "minorPerMajor": 1 },
-          "coins": [ {"v":1,"label":"1 kr"},{"v":5,"label":"5 kr"},{"v":10,"label":"10 kr"},{"v":20,"label":"20 kr"} ],
+          "currency": {
+            "symbol": "kr",
+            "before": false,
+            "decimalSep": ",",
+            "minorPerMajor": 1
+          },
+          "coins": [
+            {
+              "v": 1,
+              "label": "1 kr"
+            },
+            {
+              "v": 5,
+              "label": "5 kr"
+            },
+            {
+              "v": 10,
+              "label": "10 kr"
+            },
+            {
+              "v": 20,
+              "label": "20 kr"
+            }
+          ],
           "rounds": [
-            {"cost":7,"paid":10,"palette":[1,5,10],"solution":[1,1,1]},
-            {"cost":16,"paid":20,"palette":[1,5,10],"solution":[1,1,1,1]},
-            {"cost":12,"paid":20,"palette":[1,5,10],"solution":[5,1,1,1]},
-            {"cost":13,"paid":20,"palette":[1,5,10],"solution":[5,1,1]},
-            {"cost":42,"paid":50,"palette":[1,5,10,20],"solution":[5,1,1,1]},
-            {"cost":36,"paid":50,"palette":[1,5,10,20],"solution":[10,1,1,1,1]},
-            {"cost":34,"paid":50,"palette":[1,5,10,20],"solution":[10,5,1]},
-            {"cost":38,"paid":50,"palette":[1,5,10,20],"solution":[10,1,1]}
+            {
+              "cost": 7,
+              "paid": 10,
+              "palette": [
+                1,
+                5,
+                10
+              ],
+              "solution": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "cost": 16,
+              "paid": 20,
+              "palette": [
+                1,
+                5,
+                10
+              ],
+              "solution": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "cost": 12,
+              "paid": 20,
+              "palette": [
+                1,
+                5,
+                10
+              ],
+              "solution": [
+                5,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "cost": 13,
+              "paid": 20,
+              "palette": [
+                1,
+                5,
+                10
+              ],
+              "solution": [
+                5,
+                1,
+                1
+              ]
+            },
+            {
+              "cost": 42,
+              "paid": 50,
+              "palette": [
+                1,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                5,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "cost": 36,
+              "paid": 50,
+              "palette": [
+                1,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                10,
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "cost": 34,
+              "paid": 50,
+              "palette": [
+                1,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                10,
+                5,
+                1
+              ]
+            },
+            {
+              "cost": 38,
+              "paid": 50,
+              "palette": [
+                1,
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                10,
+                1,
+                1
+              ]
+            }
           ]
         },
         "fi": {
-          "currency": { "symbol": "€", "before": false, "decimalSep": ",", "minorPerMajor": 100 },
-          "coins": [ {"v":5,"label":"5 snt"},{"v":10,"label":"10 snt"},{"v":20,"label":"20 snt"},{"v":50,"label":"50 snt"},{"v":100,"label":"1 €"},{"v":200,"label":"2 €"} ],
+          "currency": {
+            "symbol": "€",
+            "before": false,
+            "decimalSep": ",",
+            "minorPerMajor": 100
+          },
+          "coins": [
+            {
+              "v": 5,
+              "label": "5 snt"
+            },
+            {
+              "v": 10,
+              "label": "10 snt"
+            },
+            {
+              "v": 20,
+              "label": "20 snt"
+            },
+            {
+              "v": 50,
+              "label": "50 snt"
+            },
+            {
+              "v": 100,
+              "label": "1 €"
+            },
+            {
+              "v": 200,
+              "label": "2 €"
+            }
+          ],
           "rounds": [
-            {"cost":15,"paid":50,"palette":[5,10,20,50],"solution":[20,10,5]},
-            {"cost":70,"paid":100,"palette":[5,10,20,50],"solution":[20,10]},
-            {"cost":80,"paid":100,"palette":[5,10,20,50],"solution":[10,5,5]},
-            {"cost":35,"paid":50,"palette":[5,10,20],"solution":[10,5]},
-            {"cost":160,"paid":200,"palette":[10,20,50,100],"solution":[20,20]},
-            {"cost":55,"paid":100,"palette":[5,10,20,50],"solution":[20,20,5]},
-            {"cost":130,"paid":200,"palette":[10,20,50,100],"solution":[50,20]},
-            {"cost":25,"paid":50,"palette":[5,10,20,50],"solution":[20,5]}
+            {
+              "cost": 15,
+              "paid": 50,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                20,
+                10,
+                5
+              ]
+            },
+            {
+              "cost": 70,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                20,
+                10
+              ]
+            },
+            {
+              "cost": 80,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                10,
+                5,
+                5
+              ]
+            },
+            {
+              "cost": 35,
+              "paid": 50,
+              "palette": [
+                5,
+                10,
+                20
+              ],
+              "solution": [
+                10,
+                5
+              ]
+            },
+            {
+              "cost": 160,
+              "paid": 200,
+              "palette": [
+                10,
+                20,
+                50,
+                100
+              ],
+              "solution": [
+                20,
+                20
+              ]
+            },
+            {
+              "cost": 55,
+              "paid": 100,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                20,
+                20,
+                5
+              ]
+            },
+            {
+              "cost": 130,
+              "paid": 200,
+              "palette": [
+                10,
+                20,
+                50,
+                100
+              ],
+              "solution": [
+                50,
+                20
+              ]
+            },
+            {
+              "cost": 25,
+              "paid": 50,
+              "palette": [
+                5,
+                10,
+                20,
+                50
+              ],
+              "solution": [
+                20,
+                5
+              ]
+            }
           ]
         }
       }
@@ -383,7 +3297,7 @@
     },
     "page_title": {
       "en": "Make Change with Coins — Money Word Problems (Grade 2)",
-      "de": "Wechselgeld herausgeben – Mathe Klasse 2 online üben mit Euro",
+      "de": "Geld Klasse 2 – Wechselgeld online üben",
       "es": "Da el cambio en pesos: actividad de dinero para 2.º de primaria",
       "pt": "Dê o troco com moedas e dinheiro — 2º ano | Atividade",
       "fr": "Rendre la monnaie en CE1 — exercice de calcul interactif",
@@ -396,7 +3310,7 @@
     },
     "page_intro": {
       "en": "A free interactive Grade 2 money activity: see what an item costs and what you pay, then tap coins into the tray to give the right change. Making change with ¢ and $. Common Core 2.MD.C.8.",
-      "de": "In dieser interaktiven Übung gibt dein Kind passendes Wechselgeld mit Euro-Münzen heraus und übt dabei das Rechnen mit Geld. Die Aufgabe orientiert sich am Lehrplan für die 2. Klasse (2.MD.C.8).",
+      "de": "Geld in Klasse 2: Wechselgeld mit Euro und Cent herausgeben und prüfen. Kostenlos online üben, ohne Anmeldung – alltagsnah rechnen lernen.",
       "es": "Actividad interactiva para que los niños de 2.º de primaria practiquen dar el cambio con monedas de pesos mexicanos. Pensada según el Currículo LOMLOE para reforzar el manejo del dinero (equivalente a 2.MD.C.8).",
       "pt": "Atividade de matemática para o 2º ano: dê o troco certo usando moedas e dinheiro de verdade (real). Alinhada à BNCC, ajuda a praticar a habilidade 2.MD.C.8 de calcular e contar o troco.",
       "fr": "Un exercice interactif pour apprendre à rendre la monnaie en CE1, en lien avec les Programmes officiels (2.MD.C.8). L'enfant choisit les pièces en euros pour redonner la somme exacte et s'entraîne au calcul de tête.",

@@ -3,381 +3,758 @@
     "id": "otto-picture-book.which-picture.rl-k-7",
     "tool": "otto-picture-book-activity",
     "task_template": "which-picture",
-    "alignment": { "framework": "CCSS", "code": "RL.K.7", "grade": "K", "strand": "Reading: Literature" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RL.K.7",
+      "grade": "K",
+      "strand": "Reading: Literature"
+    },
     "params": {
       "rounds": [
         {
-          "id": "boat", "band": 1, "target": "b3",
-          "story": { "id": "boat", "beats": [
-            { "id": "b1", "panel": "boat-1", "caption": "Finn folds a paper boat." },
-            { "id": "b2", "panel": "boat-2", "caption": "Finn sets the boat on the stream." },
-            { "id": "b3", "panel": "boat-3", "caption": "A gust of wind pushes the boat." },
-            { "id": "b4", "panel": "boat-4", "caption": "The boat reaches the other side." }
-          ] }
+          "id": "boat",
+          "band": 1,
+          "target": "b3",
+          "story": {
+            "id": "boat",
+            "beats": [
+              {
+                "id": "b1",
+                "panel": "boat-1",
+                "caption": "Finn folds a paper boat."
+              },
+              {
+                "id": "b2",
+                "panel": "boat-2",
+                "caption": "Finn sets the boat on the stream."
+              },
+              {
+                "id": "b3",
+                "panel": "boat-3",
+                "caption": "A gust of wind pushes the boat."
+              },
+              {
+                "id": "b4",
+                "panel": "boat-4",
+                "caption": "The boat reaches the other side."
+              }
+            ]
+          }
         },
         {
-          "id": "nest", "band": 1, "target": "b4",
-          "story": { "id": "nest", "beats": [
-            { "id": "b1", "panel": "nest-1", "caption": "A robin gathers little twigs." },
-            { "id": "b2", "panel": "nest-2", "caption": "The robin builds a cozy nest." },
-            { "id": "b3", "panel": "nest-3", "caption": "The robin lays one egg." },
-            { "id": "b4", "panel": "nest-4", "caption": "The egg hatches into a chick." }
-          ] }
+          "id": "nest",
+          "band": 1,
+          "target": "b4",
+          "story": {
+            "id": "nest",
+            "beats": [
+              {
+                "id": "b1",
+                "panel": "nest-1",
+                "caption": "A robin gathers little twigs."
+              },
+              {
+                "id": "b2",
+                "panel": "nest-2",
+                "caption": "The robin builds a cozy nest."
+              },
+              {
+                "id": "b3",
+                "panel": "nest-3",
+                "caption": "The robin lays one egg."
+              },
+              {
+                "id": "b4",
+                "panel": "nest-4",
+                "caption": "The egg hatches into a chick."
+              }
+            ]
+          }
         },
         {
-          "id": "sandcastle", "band": 1, "target": "b2",
-          "story": { "id": "sandcastle", "beats": [
-            { "id": "b1", "panel": "sand-1", "caption": "Mae fills her bucket with sand." },
-            { "id": "b2", "panel": "sand-2", "caption": "Mae builds a tall sand castle." },
-            { "id": "b3", "panel": "sand-3", "caption": "She puts a shell on top." },
-            { "id": "b4", "panel": "sand-4", "caption": "The castle looks beautiful." }
-          ] }
+          "id": "sandcastle",
+          "band": 1,
+          "target": "b2",
+          "story": {
+            "id": "sandcastle",
+            "beats": [
+              {
+                "id": "b1",
+                "panel": "sand-1",
+                "caption": "Mae fills her bucket with sand."
+              },
+              {
+                "id": "b2",
+                "panel": "sand-2",
+                "caption": "Mae builds a tall sand castle."
+              },
+              {
+                "id": "b3",
+                "panel": "sand-3",
+                "caption": "She puts a shell on top."
+              },
+              {
+                "id": "b4",
+                "panel": "sand-4",
+                "caption": "The castle looks beautiful."
+              }
+            ]
+          }
         },
         {
-          "id": "apple", "band": 1, "target": "b1",
-          "story": { "id": "apple", "beats": [
-            { "id": "b1", "panel": "apple-1", "caption": "A red apple hangs in the tree." },
-            { "id": "b2", "panel": "apple-2", "caption": "Theo holds out a basket." },
-            { "id": "b3", "panel": "apple-3", "caption": "The apple drops into the basket." },
-            { "id": "b4", "panel": "apple-4", "caption": "Theo takes a happy bite." }
-          ] }
+          "id": "apple",
+          "band": 1,
+          "target": "b1",
+          "story": {
+            "id": "apple",
+            "beats": [
+              {
+                "id": "b1",
+                "panel": "apple-1",
+                "caption": "A red apple hangs in the tree."
+              },
+              {
+                "id": "b2",
+                "panel": "apple-2",
+                "caption": "Theo holds out a basket."
+              },
+              {
+                "id": "b3",
+                "panel": "apple-3",
+                "caption": "The apple drops into the basket."
+              },
+              {
+                "id": "b4",
+                "panel": "apple-4",
+                "caption": "Theo takes a happy bite."
+              }
+            ]
+          }
         },
         {
-          "id": "boots", "band": 2, "target": "b4",
-          "story": { "id": "boots", "beats": [
-            { "id": "b1", "panel": "boots-1", "caption": "Rain pours down outside." },
-            { "id": "b2", "panel": "boots-2", "caption": "Sam pulls on his rain boots." },
-            { "id": "b3", "panel": "boots-3", "caption": "Sam splashes in a big puddle." },
-            { "id": "b4", "panel": "boots-4", "caption": "A rainbow fills the sky." }
-          ] }
+          "id": "boots",
+          "band": 2,
+          "target": "b4",
+          "story": {
+            "id": "boots",
+            "beats": [
+              {
+                "id": "b1",
+                "panel": "boots-1",
+                "caption": "Rain pours down outside."
+              },
+              {
+                "id": "b2",
+                "panel": "boots-2",
+                "caption": "Sam pulls on his rain boots."
+              },
+              {
+                "id": "b3",
+                "panel": "boots-3",
+                "caption": "Sam splashes in a big puddle."
+              },
+              {
+                "id": "b4",
+                "panel": "boots-4",
+                "caption": "A rainbow fills the sky."
+              }
+            ]
+          }
         },
         {
-          "id": "bear", "band": 2, "target": "b2",
-          "story": { "id": "bear", "beats": [
-            { "id": "b1", "panel": "bear-1", "caption": "Bo cannot find his teddy bear." },
-            { "id": "b2", "panel": "bear-2", "caption": "Bo looks under the bed." },
-            { "id": "b3", "panel": "bear-3", "caption": "He shines a flashlight." },
-            { "id": "b4", "panel": "bear-4", "caption": "Bo finds his bear at last!" }
-          ] }
+          "id": "bear",
+          "band": 2,
+          "target": "b2",
+          "story": {
+            "id": "bear",
+            "beats": [
+              {
+                "id": "b1",
+                "panel": "bear-1",
+                "caption": "Bo cannot find his teddy bear."
+              },
+              {
+                "id": "b2",
+                "panel": "bear-2",
+                "caption": "Bo looks under the bed."
+              },
+              {
+                "id": "b3",
+                "panel": "bear-3",
+                "caption": "He shines a flashlight."
+              },
+              {
+                "id": "b4",
+                "panel": "bear-4",
+                "caption": "Bo finds his bear at last!"
+              }
+            ]
+          }
         },
         {
-          "id": "snowman", "band": 2, "target": "b3",
-          "story": { "id": "snowman", "beats": [
-            { "id": "b1", "panel": "snow-1", "caption": "Soft snow falls on the yard." },
-            { "id": "b2", "panel": "snow-2", "caption": "Lina rolls a big snowman." },
-            { "id": "b3", "panel": "snow-3", "caption": "She wraps a scarf around it." },
-            { "id": "b4", "panel": "snow-4", "caption": "Lina cheers at her snowman." }
-          ] }
+          "id": "snowman",
+          "band": 2,
+          "target": "b3",
+          "story": {
+            "id": "snowman",
+            "beats": [
+              {
+                "id": "b1",
+                "panel": "snow-1",
+                "caption": "Soft snow falls on the yard."
+              },
+              {
+                "id": "b2",
+                "panel": "snow-2",
+                "caption": "Lina rolls a big snowman."
+              },
+              {
+                "id": "b3",
+                "panel": "snow-3",
+                "caption": "She wraps a scarf around it."
+              },
+              {
+                "id": "b4",
+                "panel": "snow-4",
+                "caption": "Lina cheers at her snowman."
+              }
+            ]
+          }
         },
         {
-          "id": "butterfly", "band": 2, "target": "b1",
-          "story": { "id": "butterfly", "beats": [
-            { "id": "b1", "panel": "fly-1", "caption": "A caterpillar munches a leaf." },
-            { "id": "b2", "panel": "fly-2", "caption": "It curls up to rest." },
-            { "id": "b3", "panel": "fly-3", "caption": "It turns into a butterfly." },
-            { "id": "b4", "panel": "fly-4", "caption": "The butterfly visits a flower." }
-          ] }
+          "id": "butterfly",
+          "band": 2,
+          "target": "b1",
+          "story": {
+            "id": "butterfly",
+            "beats": [
+              {
+                "id": "b1",
+                "panel": "fly-1",
+                "caption": "A caterpillar munches a leaf."
+              },
+              {
+                "id": "b2",
+                "panel": "fly-2",
+                "caption": "It curls up to rest."
+              },
+              {
+                "id": "b3",
+                "panel": "fly-3",
+                "caption": "It turns into a butterfly."
+              },
+              {
+                "id": "b4",
+                "panel": "fly-4",
+                "caption": "The butterfly visits a flower."
+              }
+            ]
+          }
         }
       ],
       "roundsL10n": {
         "de": [
-            {
+          {
+            "id": "boat",
+            "band": 1,
+            "target": "b3",
+            "story": {
               "id": "boat",
-              "band": 1,
-              "target": "b3",
-              "story": {
-                "id": "boat",
-                "beats": [
-                  {
-                    "id": "b1",
-                    "panel": "boat-1",
-                    "caption": "Finn faltet ein Papierboot."
-                  },
-                  {
-                    "id": "b2",
-                    "panel": "boat-2",
-                    "caption": "Finn setzt das Boot in den Bach."
-                  },
-                  {
-                    "id": "b3",
-                    "panel": "boat-3",
-                    "caption": "Ein Windstoß schiebt das Boot."
-                  },
-                  {
-                    "id": "b4",
-                    "panel": "boat-4",
-                    "caption": "Das Boot erreicht das andere Ufer."
-                  }
-                ]
-              }
-            },
-            {
-              "id": "nest",
-              "band": 1,
-              "target": "b4",
-              "story": {
-                "id": "nest",
-                "beats": [
-                  {
-                    "id": "b1",
-                    "panel": "nest-1",
-                    "caption": "Ein Vogel sammelt kleine Zweige."
-                  },
-                  {
-                    "id": "b2",
-                    "panel": "nest-2",
-                    "caption": "Der Vogel baut ein gemütliches Nest."
-                  },
-                  {
-                    "id": "b3",
-                    "panel": "nest-3",
-                    "caption": "Der Vogel legt ein Ei."
-                  },
-                  {
-                    "id": "b4",
-                    "panel": "nest-4",
-                    "caption": "Aus dem Ei schlüpft ein Küken."
-                  }
-                ]
-              }
-            },
-            {
-              "id": "sandcastle",
-              "band": 1,
-              "target": "b2",
-              "story": {
-                "id": "sandcastle",
-                "beats": [
-                  {
-                    "id": "b1",
-                    "panel": "sand-1",
-                    "caption": "Mia füllt ihren Eimer mit Sand."
-                  },
-                  {
-                    "id": "b2",
-                    "panel": "sand-2",
-                    "caption": "Mia baut eine hohe Sandburg."
-                  },
-                  {
-                    "id": "b3",
-                    "panel": "sand-3",
-                    "caption": "Sie setzt eine Muschel oben drauf."
-                  },
-                  {
-                    "id": "b4",
-                    "panel": "sand-4",
-                    "caption": "Die Burg sieht wunderschön aus."
-                  }
-                ]
-              }
-            },
-            {
-              "id": "apple",
-              "band": 1,
-              "target": "b1",
-              "story": {
-                "id": "apple",
-                "beats": [
-                  {
-                    "id": "b1",
-                    "panel": "apple-1",
-                    "caption": "Ein roter Apfel hängt am Baum."
-                  },
-                  {
-                    "id": "b2",
-                    "panel": "apple-2",
-                    "caption": "Theo hält einen Korb hin."
-                  },
-                  {
-                    "id": "b3",
-                    "panel": "apple-3",
-                    "caption": "Der Apfel fällt in den Korb."
-                  },
-                  {
-                    "id": "b4",
-                    "panel": "apple-4",
-                    "caption": "Theo beißt glücklich hinein."
-                  }
-                ]
-              }
-            },
-            {
-              "id": "boots",
-              "band": 2,
-              "target": "b4",
-              "story": {
-                "id": "boots",
-                "beats": [
-                  {
-                    "id": "b1",
-                    "panel": "boots-1",
-                    "caption": "Draußen regnet es stark."
-                  },
-                  {
-                    "id": "b2",
-                    "panel": "boots-2",
-                    "caption": "Sam zieht seine Gummistiefel an."
-                  },
-                  {
-                    "id": "b3",
-                    "panel": "boots-3",
-                    "caption": "Sam planscht in einer großen Pfütze."
-                  },
-                  {
-                    "id": "b4",
-                    "panel": "boots-4",
-                    "caption": "Ein Regenbogen leuchtet am Himmel."
-                  }
-                ]
-              }
-            },
-            {
-              "id": "bear",
-              "band": 2,
-              "target": "b2",
-              "story": {
-                "id": "bear",
-                "beats": [
-                  {
-                    "id": "b1",
-                    "panel": "bear-1",
-                    "caption": "Ben kann seinen Teddybären nicht finden."
-                  },
-                  {
-                    "id": "b2",
-                    "panel": "bear-2",
-                    "caption": "Ben schaut unter das Bett."
-                  },
-                  {
-                    "id": "b3",
-                    "panel": "bear-3",
-                    "caption": "Er leuchtet mit der Taschenlampe."
-                  },
-                  {
-                    "id": "b4",
-                    "panel": "bear-4",
-                    "caption": "Endlich findet Ben seinen Teddybären!"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "snowman",
-              "band": 2,
-              "target": "b3",
-              "story": {
-                "id": "snowman",
-                "beats": [
-                  {
-                    "id": "b1",
-                    "panel": "snow-1",
-                    "caption": "Weicher Schnee fällt in den Garten."
-                  },
-                  {
-                    "id": "b2",
-                    "panel": "snow-2",
-                    "caption": "Lina rollt einen großen Schneemann."
-                  },
-                  {
-                    "id": "b3",
-                    "panel": "snow-3",
-                    "caption": "Sie legt ihm einen Schal um."
-                  },
-                  {
-                    "id": "b4",
-                    "panel": "snow-4",
-                    "caption": "Lina freut sich über ihren Schneemann."
-                  }
-                ]
-              }
-            },
-            {
-              "id": "butterfly",
-              "band": 2,
-              "target": "b1",
-              "story": {
-                "id": "butterfly",
-                "beats": [
-                  {
-                    "id": "b1",
-                    "panel": "fly-1",
-                    "caption": "Eine Raupe knabbert an einem Blatt."
-                  },
-                  {
-                    "id": "b2",
-                    "panel": "fly-2",
-                    "caption": "Sie rollt sich zum Ausruhen ein."
-                  },
-                  {
-                    "id": "b3",
-                    "panel": "fly-3",
-                    "caption": "Sie wird zu einem Schmetterling."
-                  },
-                  {
-                    "id": "b4",
-                    "panel": "fly-4",
-                    "caption": "Der Schmetterling besucht eine Blume."
-                  }
-                ]
-              }
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "boat-1",
+                  "caption": "Finn faltet ein Papierboot."
+                },
+                {
+                  "id": "b2",
+                  "panel": "boat-2",
+                  "caption": "Finn setzt das Boot in den Bach."
+                },
+                {
+                  "id": "b3",
+                  "panel": "boat-3",
+                  "caption": "Ein Windstoß schiebt das Boot."
+                },
+                {
+                  "id": "b4",
+                  "panel": "boat-4",
+                  "caption": "Das Boot erreicht das andere Ufer."
+                }
+              ]
             }
-          ],
+          },
+          {
+            "id": "nest",
+            "band": 1,
+            "target": "b4",
+            "story": {
+              "id": "nest",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "nest-1",
+                  "caption": "Ein Vogel sammelt kleine Zweige."
+                },
+                {
+                  "id": "b2",
+                  "panel": "nest-2",
+                  "caption": "Der Vogel baut ein gemütliches Nest."
+                },
+                {
+                  "id": "b3",
+                  "panel": "nest-3",
+                  "caption": "Der Vogel legt ein Ei."
+                },
+                {
+                  "id": "b4",
+                  "panel": "nest-4",
+                  "caption": "Aus dem Ei schlüpft ein Küken."
+                }
+              ]
+            }
+          },
+          {
+            "id": "sandcastle",
+            "band": 1,
+            "target": "b2",
+            "story": {
+              "id": "sandcastle",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "sand-1",
+                  "caption": "Mia füllt ihren Eimer mit Sand."
+                },
+                {
+                  "id": "b2",
+                  "panel": "sand-2",
+                  "caption": "Mia baut eine hohe Sandburg."
+                },
+                {
+                  "id": "b3",
+                  "panel": "sand-3",
+                  "caption": "Sie setzt eine Muschel oben drauf."
+                },
+                {
+                  "id": "b4",
+                  "panel": "sand-4",
+                  "caption": "Die Burg sieht wunderschön aus."
+                }
+              ]
+            }
+          },
+          {
+            "id": "apple",
+            "band": 1,
+            "target": "b1",
+            "story": {
+              "id": "apple",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "apple-1",
+                  "caption": "Ein roter Apfel hängt am Baum."
+                },
+                {
+                  "id": "b2",
+                  "panel": "apple-2",
+                  "caption": "Theo hält einen Korb hin."
+                },
+                {
+                  "id": "b3",
+                  "panel": "apple-3",
+                  "caption": "Der Apfel fällt in den Korb."
+                },
+                {
+                  "id": "b4",
+                  "panel": "apple-4",
+                  "caption": "Theo beißt glücklich hinein."
+                }
+              ]
+            }
+          },
+          {
+            "id": "boots",
+            "band": 2,
+            "target": "b4",
+            "story": {
+              "id": "boots",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "boots-1",
+                  "caption": "Draußen regnet es stark."
+                },
+                {
+                  "id": "b2",
+                  "panel": "boots-2",
+                  "caption": "Sam zieht seine Gummistiefel an."
+                },
+                {
+                  "id": "b3",
+                  "panel": "boots-3",
+                  "caption": "Sam planscht in einer großen Pfütze."
+                },
+                {
+                  "id": "b4",
+                  "panel": "boots-4",
+                  "caption": "Ein Regenbogen leuchtet am Himmel."
+                }
+              ]
+            }
+          },
+          {
+            "id": "bear",
+            "band": 2,
+            "target": "b2",
+            "story": {
+              "id": "bear",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "bear-1",
+                  "caption": "Ben kann seinen Teddybären nicht finden."
+                },
+                {
+                  "id": "b2",
+                  "panel": "bear-2",
+                  "caption": "Ben schaut unter das Bett."
+                },
+                {
+                  "id": "b3",
+                  "panel": "bear-3",
+                  "caption": "Er leuchtet mit der Taschenlampe."
+                },
+                {
+                  "id": "b4",
+                  "panel": "bear-4",
+                  "caption": "Endlich findet Ben seinen Teddybären!"
+                }
+              ]
+            }
+          },
+          {
+            "id": "snowman",
+            "band": 2,
+            "target": "b3",
+            "story": {
+              "id": "snowman",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "snow-1",
+                  "caption": "Weicher Schnee fällt in den Garten."
+                },
+                {
+                  "id": "b2",
+                  "panel": "snow-2",
+                  "caption": "Lina rollt einen großen Schneemann."
+                },
+                {
+                  "id": "b3",
+                  "panel": "snow-3",
+                  "caption": "Sie legt ihm einen Schal um."
+                },
+                {
+                  "id": "b4",
+                  "panel": "snow-4",
+                  "caption": "Lina freut sich über ihren Schneemann."
+                }
+              ]
+            }
+          },
+          {
+            "id": "butterfly",
+            "band": 2,
+            "target": "b1",
+            "story": {
+              "id": "butterfly",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "fly-1",
+                  "caption": "Eine Raupe knabbert an einem Blatt."
+                },
+                {
+                  "id": "b2",
+                  "panel": "fly-2",
+                  "caption": "Sie rollt sich zum Ausruhen ein."
+                },
+                {
+                  "id": "b3",
+                  "panel": "fly-3",
+                  "caption": "Sie wird zu einem Schmetterling."
+                },
+                {
+                  "id": "b4",
+                  "panel": "fly-4",
+                  "caption": "Der Schmetterling besucht eine Blume."
+                }
+              ]
+            }
+          }
+        ],
         "fr": [
-          { "id": "boat", "band": 1, "target": "b3", "story": { "id": "boat", "beats": [
-            { "id": "b1", "panel": "boat-1", "caption": "Léo plie un bateau en papier." },
-            { "id": "b2", "panel": "boat-2", "caption": "Il pose le bateau sur l’eau." },
-            { "id": "b3", "panel": "boat-3", "caption": "Le vent souffle et pousse le bateau." },
-            { "id": "b4", "panel": "boat-4", "caption": "Le bateau arrive sur l’autre rive." }
-          ] } },
-          { "id": "nest", "band": 1, "target": "b4", "story": { "id": "nest", "beats": [
-            { "id": "b1", "panel": "nest-1", "caption": "Un oiseau ramasse de petites brindilles." },
-            { "id": "b2", "panel": "nest-2", "caption": "Il construit un joli nid tout doux." },
-            { "id": "b3", "panel": "nest-3", "caption": "Il pond un œuf." },
-            { "id": "b4", "panel": "nest-4", "caption": "L’œuf éclôt : un poussin sort !" }
-          ] } },
-          { "id": "sandcastle", "band": 1, "target": "b2", "story": { "id": "sandcastle", "beats": [
-            { "id": "b1", "panel": "sand-1", "caption": "Léa remplit son seau de sable." },
-            { "id": "b2", "panel": "sand-2", "caption": "Elle construit un grand château de sable." },
-            { "id": "b3", "panel": "sand-3", "caption": "Elle pose un coquillage tout en haut." },
-            { "id": "b4", "panel": "sand-4", "caption": "Le château est magnifique !" }
-          ] } },
-          { "id": "apple", "band": 1, "target": "b1", "story": { "id": "apple", "beats": [
-            { "id": "b1", "panel": "apple-1", "caption": "Une pomme rouge pend dans l’arbre." },
-            { "id": "b2", "panel": "apple-2", "caption": "Théo tend son panier." },
-            { "id": "b3", "panel": "apple-3", "caption": "La pomme tombe dans le panier." },
-            { "id": "b4", "panel": "apple-4", "caption": "Il croque la pomme avec plaisir." }
-          ] } },
-          { "id": "boots", "band": 2, "target": "b4", "story": { "id": "boots", "beats": [
-            { "id": "b1", "panel": "boots-1", "caption": "Dehors, la pluie tombe fort." },
-            { "id": "b2", "panel": "boots-2", "caption": "Sam enfile ses bottes de pluie." },
-            { "id": "b3", "panel": "boots-3", "caption": "Il saute dans une flaque d’eau." },
-            { "id": "b4", "panel": "boots-4", "caption": "Un arc-en-ciel remplit le ciel." }
-          ] } },
-          { "id": "bear", "band": 2, "target": "b2", "story": { "id": "bear", "beats": [
-            { "id": "b1", "panel": "bear-1", "caption": "Malo ne trouve plus son ours en peluche." },
-            { "id": "b2", "panel": "bear-2", "caption": "Il regarde sous le lit." },
-            { "id": "b3", "panel": "bear-3", "caption": "Il allume sa lampe de poche." },
-            { "id": "b4", "panel": "bear-4", "caption": "Enfin, il retrouve son ours !" }
-          ] } },
-          { "id": "snowman", "band": 2, "target": "b3", "story": { "id": "snowman", "beats": [
-            { "id": "b1", "panel": "snow-1", "caption": "La neige tombe tout doucement." },
-            { "id": "b2", "panel": "snow-2", "caption": "Lina roule un grand bonhomme de neige." },
-            { "id": "b3", "panel": "snow-3", "caption": "Elle lui met une écharpe autour du cou." },
-            { "id": "b4", "panel": "snow-4", "caption": "Bravo ! Le bonhomme est fini !" }
-          ] } },
-          { "id": "butterfly", "band": 2, "target": "b1", "story": { "id": "butterfly", "beats": [
-            { "id": "b1", "panel": "fly-1", "caption": "Une chenille grignote une feuille." },
-            { "id": "b2", "panel": "fly-2", "caption": "Elle se roule en boule pour dormir." },
-            { "id": "b3", "panel": "fly-3", "caption": "Elle devient un papillon." },
-            { "id": "b4", "panel": "fly-4", "caption": "Le papillon se pose sur une fleur." }
-          ] } }
+          {
+            "id": "boat",
+            "band": 1,
+            "target": "b3",
+            "story": {
+              "id": "boat",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "boat-1",
+                  "caption": "Léo plie un bateau en papier."
+                },
+                {
+                  "id": "b2",
+                  "panel": "boat-2",
+                  "caption": "Il pose le bateau sur l’eau."
+                },
+                {
+                  "id": "b3",
+                  "panel": "boat-3",
+                  "caption": "Le vent souffle et pousse le bateau."
+                },
+                {
+                  "id": "b4",
+                  "panel": "boat-4",
+                  "caption": "Le bateau arrive sur l’autre rive."
+                }
+              ]
+            }
+          },
+          {
+            "id": "nest",
+            "band": 1,
+            "target": "b4",
+            "story": {
+              "id": "nest",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "nest-1",
+                  "caption": "Un oiseau ramasse de petites brindilles."
+                },
+                {
+                  "id": "b2",
+                  "panel": "nest-2",
+                  "caption": "Il construit un joli nid tout doux."
+                },
+                {
+                  "id": "b3",
+                  "panel": "nest-3",
+                  "caption": "Il pond un œuf."
+                },
+                {
+                  "id": "b4",
+                  "panel": "nest-4",
+                  "caption": "L’œuf éclôt : un poussin sort !"
+                }
+              ]
+            }
+          },
+          {
+            "id": "sandcastle",
+            "band": 1,
+            "target": "b2",
+            "story": {
+              "id": "sandcastle",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "sand-1",
+                  "caption": "Léa remplit son seau de sable."
+                },
+                {
+                  "id": "b2",
+                  "panel": "sand-2",
+                  "caption": "Elle construit un grand château de sable."
+                },
+                {
+                  "id": "b3",
+                  "panel": "sand-3",
+                  "caption": "Elle pose un coquillage tout en haut."
+                },
+                {
+                  "id": "b4",
+                  "panel": "sand-4",
+                  "caption": "Le château est magnifique !"
+                }
+              ]
+            }
+          },
+          {
+            "id": "apple",
+            "band": 1,
+            "target": "b1",
+            "story": {
+              "id": "apple",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "apple-1",
+                  "caption": "Une pomme rouge pend dans l’arbre."
+                },
+                {
+                  "id": "b2",
+                  "panel": "apple-2",
+                  "caption": "Théo tend son panier."
+                },
+                {
+                  "id": "b3",
+                  "panel": "apple-3",
+                  "caption": "La pomme tombe dans le panier."
+                },
+                {
+                  "id": "b4",
+                  "panel": "apple-4",
+                  "caption": "Il croque la pomme avec plaisir."
+                }
+              ]
+            }
+          },
+          {
+            "id": "boots",
+            "band": 2,
+            "target": "b4",
+            "story": {
+              "id": "boots",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "boots-1",
+                  "caption": "Dehors, la pluie tombe fort."
+                },
+                {
+                  "id": "b2",
+                  "panel": "boots-2",
+                  "caption": "Sam enfile ses bottes de pluie."
+                },
+                {
+                  "id": "b3",
+                  "panel": "boots-3",
+                  "caption": "Il saute dans une flaque d’eau."
+                },
+                {
+                  "id": "b4",
+                  "panel": "boots-4",
+                  "caption": "Un arc-en-ciel remplit le ciel."
+                }
+              ]
+            }
+          },
+          {
+            "id": "bear",
+            "band": 2,
+            "target": "b2",
+            "story": {
+              "id": "bear",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "bear-1",
+                  "caption": "Malo ne trouve plus son ours en peluche."
+                },
+                {
+                  "id": "b2",
+                  "panel": "bear-2",
+                  "caption": "Il regarde sous le lit."
+                },
+                {
+                  "id": "b3",
+                  "panel": "bear-3",
+                  "caption": "Il allume sa lampe de poche."
+                },
+                {
+                  "id": "b4",
+                  "panel": "bear-4",
+                  "caption": "Enfin, il retrouve son ours !"
+                }
+              ]
+            }
+          },
+          {
+            "id": "snowman",
+            "band": 2,
+            "target": "b3",
+            "story": {
+              "id": "snowman",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "snow-1",
+                  "caption": "La neige tombe tout doucement."
+                },
+                {
+                  "id": "b2",
+                  "panel": "snow-2",
+                  "caption": "Lina roule un grand bonhomme de neige."
+                },
+                {
+                  "id": "b3",
+                  "panel": "snow-3",
+                  "caption": "Elle lui met une écharpe autour du cou."
+                },
+                {
+                  "id": "b4",
+                  "panel": "snow-4",
+                  "caption": "Bravo ! Le bonhomme est fini !"
+                }
+              ]
+            }
+          },
+          {
+            "id": "butterfly",
+            "band": 2,
+            "target": "b1",
+            "story": {
+              "id": "butterfly",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "fly-1",
+                  "caption": "Une chenille grignote une feuille."
+                },
+                {
+                  "id": "b2",
+                  "panel": "fly-2",
+                  "caption": "Elle se roule en boule pour dormir."
+                },
+                {
+                  "id": "b3",
+                  "panel": "fly-3",
+                  "caption": "Elle devient un papillon."
+                },
+                {
+                  "id": "b4",
+                  "panel": "fly-4",
+                  "caption": "Le papillon se pose sur une fleur."
+                }
+              ]
+            }
+          }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "ottos-picture-book", "de": "satz-dem-bild-zuordnen-bildergeschichte-klasse-1", "fr": "livre-images-otto-quelle-image-montre-le-moment" },
-    "page_title": { "en": "Otto's Picture Book — Which Picture Shows It? (Kindergarten)", "de": "Satz dem Bild zuordnen – Bildergeschichte Grundschule", "fr": "Le livre d'images d'Otto — Quelle image montre le moment ?" },
-    "page_intro": { "en": "A free interactive Kindergarten reading game about how pictures and stories go together: Otto the owl draws a picture for every part of a little story. HEAR the whole story, then Otto reads ONE part aloud — and you tap the picture that shows that exact moment. Every choice is a real picture from the SAME story, so you have to know which part each illustration shows. Matching a sentence to the moment its picture depicts is the heart of Common Core RL.K.7.", "de": "Höre die ganze Geschichte, dann tippe das Bild an, das zum vorgelesenen Satz passt. Kostenlos & interaktiv – Bild und Text verbinden in der Grundschule (Klasse 1).", "fr": "Otto le hibou a dessiné une petite histoire en quatre images. Votre enfant écoute d'abord toute l'histoire, puis Otto lit à voix haute un moment précis : l'enfant tape alors l'image qui montre ce moment. Comme chaque image raconte un vrai moment de la même histoire, il ne s'agit pas de repérer l'intrus, mais de bien comprendre ce que chaque image montre. En jouant, l'enfant apprend à relier une image au moment de l'histoire qu'elle raconte et à faire le lien entre le texte et l'image. Une activité gratuite et interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte, en lien avec les programmes officiels de l'école." },
+    "slug": {
+      "en": "ottos-picture-book",
+      "de": "satz-dem-bild-zuordnen-bildergeschichte-klasse-1",
+      "fr": "livre-images-otto-quelle-image-montre-le-moment"
+    },
+    "page_title": {
+      "en": "Otto's Picture Book — Which Picture Shows It? (Kindergarten)",
+      "de": "Erste Sätze lesen – Satz und Bild zuordnen (Klasse 1)",
+      "fr": "Le livre d'images d'Otto — Quelle image montre le moment ?"
+    },
+    "page_intro": {
+      "en": "A free interactive Kindergarten reading game about how pictures and stories go together: Otto the owl draws a picture for every part of a little story. HEAR the whole story, then Otto reads ONE part aloud — and you tap the picture that shows that exact moment. Every choice is a real picture from the SAME story, so you have to know which part each illustration shows. Matching a sentence to the moment its picture depicts is the heart of Common Core RL.K.7.",
+      "de": "Erste Sätze lesen und verstehen: den Satz lesen und das passende Bild dazu finden. Kostenlos online üben, ohne Anmeldung – für Leseanfänger.",
+      "fr": "Otto le hibou a dessiné une petite histoire en quatre images. Votre enfant écoute d'abord toute l'histoire, puis Otto lit à voix haute un moment précis : l'enfant tape alors l'image qui montre ce moment. Comme chaque image raconte un vrai moment de la même histoire, il ne s'agit pas de repérer l'intrus, mais de bien comprendre ce que chaque image montre. En jouant, l'enfant apprend à relier une image au moment de l'histoire qu'elle raconte et à faire le lien entre le texte et l'image. Une activité gratuite et interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte, en lien avec les programmes officiels de l'école."
+    },
     "kid_prompt_template": "which-picture"
   }
 ]

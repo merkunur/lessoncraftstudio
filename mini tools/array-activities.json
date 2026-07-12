@@ -3,17 +3,54 @@
     "id": "array.build-array.2-oa-c-4",
     "tool": "array-activity",
     "task_template": "build-array",
-    "alignment": { "framework": "CCSS", "code": "2.OA.C.4", "grade": "2", "strand": "Operations & Algebraic Thinking" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "2.OA.C.4",
+      "grade": "2",
+      "strand": "Operations & Algebraic Thinking"
+    },
     "params": {
       "rounds": [
-        { "rows": 2, "cols": 3, "seed": 11 },
-        { "rows": 3, "cols": 4, "seed": 23 },
-        { "rows": 4, "cols": 2, "seed": 31 },
-        { "rows": 2, "cols": 5, "seed": 41 },
-        { "rows": 3, "cols": 3, "seed": 53 },
-        { "rows": 5, "cols": 2, "seed": 61 },
-        { "rows": 4, "cols": 4, "seed": 67 },
-        { "rows": 4, "cols": 3, "seed": 71 }
+        {
+          "rows": 2,
+          "cols": 3,
+          "seed": 11
+        },
+        {
+          "rows": 3,
+          "cols": 4,
+          "seed": 23
+        },
+        {
+          "rows": 4,
+          "cols": 2,
+          "seed": 31
+        },
+        {
+          "rows": 2,
+          "cols": 5,
+          "seed": 41
+        },
+        {
+          "rows": 3,
+          "cols": 3,
+          "seed": 53
+        },
+        {
+          "rows": 5,
+          "cols": 2,
+          "seed": 61
+        },
+        {
+          "rows": 4,
+          "cols": 4,
+          "seed": 67
+        },
+        {
+          "rows": 4,
+          "cols": 3,
+          "seed": 71
+        }
       ]
     },
     "theme": null,
@@ -62,17 +99,54 @@
     "id": "array.equal-groups.2-oa-c-4",
     "tool": "array-activity",
     "task_template": "equal-groups",
-    "alignment": { "framework": "CCSS", "code": "2.OA.C.4", "grade": "2", "strand": "Operations & Algebraic Thinking" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "2.OA.C.4",
+      "grade": "2",
+      "strand": "Operations & Algebraic Thinking"
+    },
     "params": {
       "rounds": [
-        { "groups": 2, "each": 3, "seed": 11 },
-        { "groups": 3, "each": 4, "seed": 23 },
-        { "groups": 4, "each": 2, "seed": 31 },
-        { "groups": 2, "each": 5, "seed": 41 },
-        { "groups": 3, "each": 3, "seed": 53 },
-        { "groups": 5, "each": 2, "seed": 61 },
-        { "groups": 4, "each": 4, "seed": 67 },
-        { "groups": 3, "each": 5, "seed": 71 }
+        {
+          "groups": 2,
+          "each": 3,
+          "seed": 11
+        },
+        {
+          "groups": 3,
+          "each": 4,
+          "seed": 23
+        },
+        {
+          "groups": 4,
+          "each": 2,
+          "seed": 31
+        },
+        {
+          "groups": 2,
+          "each": 5,
+          "seed": 41
+        },
+        {
+          "groups": 3,
+          "each": 3,
+          "seed": 53
+        },
+        {
+          "groups": 5,
+          "each": 2,
+          "seed": 61
+        },
+        {
+          "groups": 4,
+          "each": 4,
+          "seed": 67
+        },
+        {
+          "groups": 3,
+          "each": 5,
+          "seed": 71
+        }
       ]
     },
     "theme": null,
@@ -91,7 +165,7 @@
     },
     "page_title": {
       "en": "Equal Groups — Repeated Addition to Find the Total (Grade 2)",
-      "de": "Gleiche Gruppen bilden – wiederholte Addition für Klasse 2",
+      "de": "Einmaleins-Reihen verstehen – gleiche Gruppen bilden (Klasse 2)",
       "es": "Grupos iguales y suma repetida para 2.º de primaria",
       "pt": "Grupos iguais: adição repetida para o 2º ano | Atividade",
       "fr": "Groupes égaux CE1 : addition répétée et multiplication (PDF)",
@@ -104,7 +178,7 @@
     },
     "page_intro": {
       "en": "A free interactive Grade 2 math activity: make equal groups — the same number in each — and find the total by repeated addition (4 + 4 + 4 = 12). Tap to fill the groups, watch them add up, then type how many in all. Common Core 2.OA.C.4.",
-      "de": "Diese interaktive Übung zu gleichen Gruppen führt Kinder der 2. Klasse spielerisch an die wiederholte Addition heran. Sie füllen gleich große Gruppen, beobachten den Additionsstreifen und bestimmen die Gesamtzahl – passend zum Lehrplan der Grundschule (2.OA.C.4).",
+      "de": "Einmaleins-Reihen verstehen: gleiche Gruppen bilden und mit wiederholter Addition rechnen. Kostenlos online üben, ohne Anmeldung.",
       "es": "Actividad interactiva de grupos iguales y suma repetida para niñas y niños de 2.º de primaria, alineada al Currículo LOMLOE (equivalente a 2.OA.C.4). El alumno forma grupos con la misma cantidad, observa la suma repetida y escribe el total.",
       "pt": "Atividade interativa de grupos iguais e adição repetida para crianças do 2º ano (cerca de 7 anos). Alinhada à BNCC, ela prepara o raciocínio multiplicativo (equivalente à habilidade 2.OA.C.4): a criança monta grupos com a mesma quantidade e descobre o total.",
       "fr": "Une activité interactive pour découvrir les groupes égaux et l'addition répétée au CE1, alignée sur les Programmes officiels (équivalent 2.OA.C.4). L'enfant remplit des groupes identiques, observe l'addition se construire, puis tape le total.",

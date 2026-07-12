@@ -3,24 +3,185 @@
     "id": "friendship-bridge.compare-balance.k-cc-c-6",
     "tool": "friendship-bridge-activity",
     "task_template": "compare-balance",
-    "alignment": { "framework": "CCSS", "code": "K.CC.C.6", "grade": "K", "strand": "Counting & Cardinality" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.CC.C.6",
+      "grade": "K",
+      "strand": "Counting & Cardinality"
+    },
     "params": {
       "rounds": [
-        { "id": "match-near",   "actType": "match-judge",     "ask": "identify",      "compareWord": "more",  "left": { "count": 6, "layout": "cluster" }, "right": { "count": 5, "layout": "cluster" }, "misleading": false, "predict": false, "band": 1 },
-        { "id": "match-spread", "actType": "match-judge",     "ask": "identify",      "compareWord": "more",  "left": { "count": 5, "layout": "spread"  }, "right": { "count": 6, "layout": "cluster" }, "misleading": true,  "predict": false, "band": 1 },
-        { "id": "count-mislead","actType": "count-judge",     "ask": "identify",      "compareWord": "more",  "left": { "count": 7, "layout": "scatter" }, "right": { "count": 8, "layout": "cluster" }, "misleading": true,  "predict": false, "band": 2 },
-        { "id": "how-many-more","actType": "how-many-more",   "ask": "how-many-more", "compareWord": "more",  "left": { "count": 6, "layout": "row"     }, "right": { "count": 4, "layout": "row"     }, "misleading": false, "predict": false, "band": 2 },
-        { "id": "conservation", "actType": "conservation",    "ask": "identify",      "compareWord": "more",  "left": { "count": 5, "layout": "spread"  }, "right": { "count": 5, "layout": "cluster" }, "misleading": true,  "predict": true,  "band": 1 },
-        { "id": "make-equal",   "actType": "make-equal",      "ask": "make-equal",    "compareWord": "more",  "left": { "count": 3, "layout": "cluster" }, "right": { "count": 5, "layout": "cluster" }, "misleading": false, "predict": false, "band": 1 },
-        { "id": "build-equal",  "actType": "build-equal",     "ask": "build-equal",   "compareWord": "more",  "left": { "count": 0, "layout": "cluster" }, "right": { "count": 6, "layout": "cluster" }, "misleading": false, "predict": false, "band": 2 },
-        { "id": "predict-bust", "actType": "predict-verify",  "ask": "identify",      "compareWord": "more",  "left": { "count": 4, "layout": "spread"  }, "right": { "count": 6, "layout": "cluster" }, "misleading": true,  "predict": true,  "band": 2 },
-        { "id": "fewer-near",   "actType": "match-judge",     "ask": "identify",      "compareWord": "fewer", "left": { "count": 5, "layout": "cluster" }, "right": { "count": 6, "layout": "cluster" }, "misleading": false, "predict": false, "band": 1 }
+        {
+          "id": "match-near",
+          "actType": "match-judge",
+          "ask": "identify",
+          "compareWord": "more",
+          "left": {
+            "count": 6,
+            "layout": "cluster"
+          },
+          "right": {
+            "count": 5,
+            "layout": "cluster"
+          },
+          "misleading": false,
+          "predict": false,
+          "band": 1
+        },
+        {
+          "id": "match-spread",
+          "actType": "match-judge",
+          "ask": "identify",
+          "compareWord": "more",
+          "left": {
+            "count": 5,
+            "layout": "spread"
+          },
+          "right": {
+            "count": 6,
+            "layout": "cluster"
+          },
+          "misleading": true,
+          "predict": false,
+          "band": 1
+        },
+        {
+          "id": "count-mislead",
+          "actType": "count-judge",
+          "ask": "identify",
+          "compareWord": "more",
+          "left": {
+            "count": 7,
+            "layout": "scatter"
+          },
+          "right": {
+            "count": 8,
+            "layout": "cluster"
+          },
+          "misleading": true,
+          "predict": false,
+          "band": 2
+        },
+        {
+          "id": "how-many-more",
+          "actType": "how-many-more",
+          "ask": "how-many-more",
+          "compareWord": "more",
+          "left": {
+            "count": 6,
+            "layout": "row"
+          },
+          "right": {
+            "count": 4,
+            "layout": "row"
+          },
+          "misleading": false,
+          "predict": false,
+          "band": 2
+        },
+        {
+          "id": "conservation",
+          "actType": "conservation",
+          "ask": "identify",
+          "compareWord": "more",
+          "left": {
+            "count": 5,
+            "layout": "spread"
+          },
+          "right": {
+            "count": 5,
+            "layout": "cluster"
+          },
+          "misleading": true,
+          "predict": true,
+          "band": 1
+        },
+        {
+          "id": "make-equal",
+          "actType": "make-equal",
+          "ask": "make-equal",
+          "compareWord": "more",
+          "left": {
+            "count": 3,
+            "layout": "cluster"
+          },
+          "right": {
+            "count": 5,
+            "layout": "cluster"
+          },
+          "misleading": false,
+          "predict": false,
+          "band": 1
+        },
+        {
+          "id": "build-equal",
+          "actType": "build-equal",
+          "ask": "build-equal",
+          "compareWord": "more",
+          "left": {
+            "count": 0,
+            "layout": "cluster"
+          },
+          "right": {
+            "count": 6,
+            "layout": "cluster"
+          },
+          "misleading": false,
+          "predict": false,
+          "band": 2
+        },
+        {
+          "id": "predict-bust",
+          "actType": "predict-verify",
+          "ask": "identify",
+          "compareWord": "more",
+          "left": {
+            "count": 4,
+            "layout": "spread"
+          },
+          "right": {
+            "count": 6,
+            "layout": "cluster"
+          },
+          "misleading": true,
+          "predict": true,
+          "band": 2
+        },
+        {
+          "id": "fewer-near",
+          "actType": "match-judge",
+          "ask": "identify",
+          "compareWord": "fewer",
+          "left": {
+            "count": 5,
+            "layout": "cluster"
+          },
+          "right": {
+            "count": 6,
+            "layout": "cluster"
+          },
+          "misleading": false,
+          "predict": false,
+          "band": 1
+        }
       ]
     },
     "theme": null,
-    "slug": { "en": "the-friendship-bridge", "de": "mengen-vergleichen-mehr-weniger-gleich-klasse-1", "fr": "comparer-des-collections-plus-moins-autant-gs" },
-    "page_title": { "en": "The Friendship Bridge — Compare Groups: More, Fewer, Same", "de": "Mengen vergleichen: mehr, weniger, gleich viel – Klasse 1", "fr": "Le pont de l'amitié : comparer des collections — plus, moins, autant (GS)" },
-    "page_intro": { "en": "Help Big and Bit walk the bridge by pairing their friends one-to-one and counting. Which group has MORE, FEWER, or are they the SAME? A warm Kindergarten comparing game that beats the eye-tricks — a long spread-out row can have fewer than a tight little bunch. Aligned to Common Core K.CC.C.6.", "de": "Mengen vergleichen Klasse 1: Ordne Freunde Partner für Partner zu und finde mehr, weniger oder gleich viel – kostenlos, interaktiv. Jetzt entdecken!", "fr": "Un jeu de maths GS, gratuit et interactif : aide Big et Bit à traverser le pont en associant leurs amis un par un et en comptant. Quel groupe en a le PLUS, le MOINS, ou en ont-ils AUTANT ? Un jeu de comparaison tout doux pour la maternelle, qui déjoue les pièges de l'œil — on forme les paires pour en être sûr." },
+    "slug": {
+      "en": "the-friendship-bridge",
+      "de": "mengen-vergleichen-mehr-weniger-gleich-klasse-1",
+      "fr": "comparer-des-collections-plus-moins-autant-gs"
+    },
+    "page_title": {
+      "en": "The Friendship Bridge — Compare Groups: More, Fewer, Same",
+      "de": "Größer, kleiner, gleich – Mengen vergleichen online",
+      "fr": "Le pont de l'amitié : comparer des collections — plus, moins, autant (GS)"
+    },
+    "page_intro": {
+      "en": "Help Big and Bit walk the bridge by pairing their friends one-to-one and counting. Which group has MORE, FEWER, or are they the SAME? A warm Kindergarten comparing game that beats the eye-tricks — a long spread-out row can have fewer than a tight little bunch. Aligned to Common Core K.CC.C.6.",
+      "de": "Größer, kleiner oder gleich? Mengen vergleichen: mehr, weniger, gleich viel – spielerisch üben. Kostenlos online, ohne Anmeldung.",
+      "fr": "Un jeu de maths GS, gratuit et interactif : aide Big et Bit à traverser le pont en associant leurs amis un par un et en comptant. Quel groupe en a le PLUS, le MOINS, ou en ont-ils AUTANT ? Un jeu de comparaison tout doux pour la maternelle, qui déjoue les pièges de l'œil — on forme les paires pour en être sûr."
+    },
     "kid_prompt_template": "compare-balance"
   }
 ]

@@ -3,45 +3,224 @@
     "id": "rivets-number-forge.numeral-album.k-cc-a-3",
     "tool": "rivets-number-forge-activity",
     "task_template": "numeral-album",
-    "alignment": { "framework": "CCSS", "code": "K.CC.A.3", "grade": "K", "strand": "Counting & Cardinality" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.CC.A.3",
+      "grade": "K",
+      "strand": "Counting & Cardinality"
+    },
     "params": {
       "rounds": [
-        { "id": "count-acorns",   "act_type": "count-mint",  "band": 1, "page": { "frames": [
-          { "count": 5, "arrangement": "scatter", "kind": "acorn" },
-          { "count": 2, "arrangement": "row",     "kind": "acorn" },
-          { "count": 4, "arrangement": "scatter", "kind": "acorn" } ] } },
-        { "id": "count-buttons",  "act_type": "count-mint",  "band": 1, "page": { "frames": [
-          { "count": 6, "arrangement": "scatter", "kind": "button" },
-          { "count": 0, "arrangement": "empty",   "kind": "button" },
-          { "count": 3, "arrangement": "row",     "kind": "button" } ] } },
-        { "id": "count-teen",     "act_type": "count-mint",  "band": 2, "page": { "frames": [
-          { "count": 14, "arrangement": "tenframe", "kind": "firefly" },
-          { "count": 3,  "arrangement": "scatter",  "kind": "firefly" },
-          { "count": 8,  "arrangement": "row",      "kind": "firefly" } ] } },
-        { "id": "card-of-nothing","act_type": "zero",        "band": 1, "page": { "frames": [
-          { "count": 3, "arrangement": "scatter", "kind": "marble" },
-          { "count": 0, "arrangement": "empty",   "kind": "marble" } ] } },
-        { "id": "the-parade",     "act_type": "parade",      "band": 2, "page": { "frames": [
-          { "count": 6, "arrangement": "parade", "kind": "firefly" },
-          { "count": 4, "arrangement": "parade", "kind": "firefly" } ] } },
-        { "id": "only-the-acorns","act_type": "subset",      "band": 2, "page": { "frames": [
-          { "count": 5, "arrangement": "mixed", "kind": "acorn", "distractorKind": "button", "distractorCount": 3 },
-          { "count": 3, "arrangement": "mixed", "kind": "acorn", "distractorKind": "marble", "distractorCount": 2 } ] } },
-        { "id": "fix-rivets-card","act_type": "verify",      "band": 2, "page": { "frames": [
-          { "count": 5, "arrangement": "scatter", "kind": "button", "claimNumeral": 6 },
-          { "count": 4, "arrangement": "row",     "kind": "button", "claimNumeral": 3 } ] } },
-        { "id": "build-the-card", "act_type": "build-mint",  "band": 2, "page": { "frames": [
-          { "count": 6, "arrangement": "build", "kind": "acorn" },
-          { "count": 4, "arrangement": "build", "kind": "acorn" } ] } },
-        { "id": "fill-the-ticket","act_type": "reverse",     "band": 3, "page": { "frames": [
-          { "numeral": 7, "arrangement": "pouch", "kind": "marble" },
-          { "numeral": 3, "arrangement": "pouch", "kind": "marble" } ] } }
+        {
+          "id": "count-acorns",
+          "act_type": "count-mint",
+          "band": 1,
+          "page": {
+            "frames": [
+              {
+                "count": 5,
+                "arrangement": "scatter",
+                "kind": "acorn"
+              },
+              {
+                "count": 2,
+                "arrangement": "row",
+                "kind": "acorn"
+              },
+              {
+                "count": 4,
+                "arrangement": "scatter",
+                "kind": "acorn"
+              }
+            ]
+          }
+        },
+        {
+          "id": "count-buttons",
+          "act_type": "count-mint",
+          "band": 1,
+          "page": {
+            "frames": [
+              {
+                "count": 6,
+                "arrangement": "scatter",
+                "kind": "button"
+              },
+              {
+                "count": 0,
+                "arrangement": "empty",
+                "kind": "button"
+              },
+              {
+                "count": 3,
+                "arrangement": "row",
+                "kind": "button"
+              }
+            ]
+          }
+        },
+        {
+          "id": "count-teen",
+          "act_type": "count-mint",
+          "band": 2,
+          "page": {
+            "frames": [
+              {
+                "count": 14,
+                "arrangement": "tenframe",
+                "kind": "firefly"
+              },
+              {
+                "count": 3,
+                "arrangement": "scatter",
+                "kind": "firefly"
+              },
+              {
+                "count": 8,
+                "arrangement": "row",
+                "kind": "firefly"
+              }
+            ]
+          }
+        },
+        {
+          "id": "card-of-nothing",
+          "act_type": "zero",
+          "band": 1,
+          "page": {
+            "frames": [
+              {
+                "count": 3,
+                "arrangement": "scatter",
+                "kind": "marble"
+              },
+              {
+                "count": 0,
+                "arrangement": "empty",
+                "kind": "marble"
+              }
+            ]
+          }
+        },
+        {
+          "id": "the-parade",
+          "act_type": "parade",
+          "band": 2,
+          "page": {
+            "frames": [
+              {
+                "count": 6,
+                "arrangement": "parade",
+                "kind": "firefly"
+              },
+              {
+                "count": 4,
+                "arrangement": "parade",
+                "kind": "firefly"
+              }
+            ]
+          }
+        },
+        {
+          "id": "only-the-acorns",
+          "act_type": "subset",
+          "band": 2,
+          "page": {
+            "frames": [
+              {
+                "count": 5,
+                "arrangement": "mixed",
+                "kind": "acorn",
+                "distractorKind": "button",
+                "distractorCount": 3
+              },
+              {
+                "count": 3,
+                "arrangement": "mixed",
+                "kind": "acorn",
+                "distractorKind": "marble",
+                "distractorCount": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "fix-rivets-card",
+          "act_type": "verify",
+          "band": 2,
+          "page": {
+            "frames": [
+              {
+                "count": 5,
+                "arrangement": "scatter",
+                "kind": "button",
+                "claimNumeral": 6
+              },
+              {
+                "count": 4,
+                "arrangement": "row",
+                "kind": "button",
+                "claimNumeral": 3
+              }
+            ]
+          }
+        },
+        {
+          "id": "build-the-card",
+          "act_type": "build-mint",
+          "band": 2,
+          "page": {
+            "frames": [
+              {
+                "count": 6,
+                "arrangement": "build",
+                "kind": "acorn"
+              },
+              {
+                "count": 4,
+                "arrangement": "build",
+                "kind": "acorn"
+              }
+            ]
+          }
+        },
+        {
+          "id": "fill-the-ticket",
+          "act_type": "reverse",
+          "band": 3,
+          "page": {
+            "frames": [
+              {
+                "numeral": 7,
+                "arrangement": "pouch",
+                "kind": "marble"
+              },
+              {
+                "numeral": 3,
+                "arrangement": "pouch",
+                "kind": "marble"
+              }
+            ]
+          }
+        }
       ]
     },
     "theme": null,
-    "slug": { "en": "rivets-number-forge", "de": "anzahl-zaehlen-und-passende-ziffer-bis-20-klasse-1", "fr": "compter-et-ecrire-le-nombre-jusqu-a-20-cp" },
-    "page_title": { "en": "Rivet's Number Forge — Count and Write the Numeral 0 to 20", "de": "Anzahl zählen & passende Ziffer bis 20 – Klasse 1", "fr": "La forge à nombres de Rivet : compter et écrire le nombre (CP)" },
-    "page_intro": { "en": "Help Rivet the raccoon turn loose treasure into collector cards: count the acorns, buttons, and fireflies and forge the numeral that says how many — the numeral is built from the very things you count. Even an empty pack has a number: zero! A warm Kindergarten counting-and-writing game aligned to Common Core K.CC.A.3.", "de": "Zähle die Schätze und finde die passende Ziffer dazu – Mengen und Zahlen bis 20 verbinden, auch die Null. Kostenlose, interaktive Matheübung für Klasse 1. Jetzt zählen!", "fr": "Un jeu de maths CP, gratuit et interactif : dans la forge de Rivet le raton laveur, déchire un paquet, le trésor dégringole, compte chaque objet une fois, et la presse FORGE le chiffre à partir de ton comptage — le « 3 » est fabriqué à partir des trois objets. Même un paquet vide a un nombre : zéro ! Remplis la page de l'album pour la dorer. Un jeu tout doux pour compter et écrire les nombres jusqu'à 20 en chiffres." },
+    "slug": {
+      "en": "rivets-number-forge",
+      "de": "anzahl-zaehlen-und-passende-ziffer-bis-20-klasse-1",
+      "fr": "compter-et-ecrire-le-nombre-jusqu-a-20-cp"
+    },
+    "page_title": {
+      "en": "Rivet's Number Forge — Count and Write the Numeral 0 to 20",
+      "de": "Mengen und Zahlen zuordnen – bis 20 online üben",
+      "fr": "La forge à nombres de Rivet : compter et écrire le nombre (CP)"
+    },
+    "page_intro": {
+      "en": "Help Rivet the raccoon turn loose treasure into collector cards: count the acorns, buttons, and fireflies and forge the numeral that says how many — the numeral is built from the very things you count. Even an empty pack has a number: zero! A warm Kindergarten counting-and-writing game aligned to Common Core K.CC.A.3.",
+      "de": "Mengen und Zahlen zuordnen: Anzahl zählen und die passende Ziffer bis 20 finden – ideal für den Schulstart. Kostenlos online, ohne Anmeldung.",
+      "fr": "Un jeu de maths CP, gratuit et interactif : dans la forge de Rivet le raton laveur, déchire un paquet, le trésor dégringole, compte chaque objet une fois, et la presse FORGE le chiffre à partir de ton comptage — le « 3 » est fabriqué à partir des trois objets. Même un paquet vide a un nombre : zéro ! Remplis la page de l'album pour la dorer. Un jeu tout doux pour compter et écrire les nombres jusqu'à 20 en chiffres."
+    },
     "kid_prompt_template": "numeral-album"
   }
 ]

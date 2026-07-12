@@ -3,139 +3,666 @@
     "id": "sound-boxes.phoneme-position.rf-k-2-d",
     "tool": "sound-boxes-activity",
     "task_template": "phoneme-position",
-    "alignment": { "framework": "CCSS", "code": "RF.K.2.d", "grade": "K", "strand": "Reading: Foundational Skills" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.2.d",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
     "theme": null,
     "params": {
       "rounds": [
-        { "id": "sb-cat-first", "position": "b",
-          "target": { "noun": "cat", "themeDir": "animals", "b": "k", "m": "a", "e": "t" },
+        {
+          "id": "sb-cat-first",
+          "position": "b",
+          "target": {
+            "noun": "cat",
+            "themeDir": "animals",
+            "b": "k",
+            "m": "a",
+            "e": "t"
+          },
           "options": [
-            { "noun": "cap", "themeDir": "accessories", "b": "k", "m": "a", "e": "p" },
-            { "noun": "dog", "themeDir": "animals", "b": "d", "m": "o", "e": "g" },
-            { "noun": "sun", "themeDir": "beach", "b": "s", "m": "u", "e": "n" }
-          ] },
-        { "id": "sb-bat-first", "position": "b",
-          "target": { "noun": "bat", "themeDir": "animals", "b": "b", "m": "a", "e": "t" },
+            {
+              "noun": "cap",
+              "themeDir": "accessories",
+              "b": "k",
+              "m": "a",
+              "e": "p"
+            },
+            {
+              "noun": "dog",
+              "themeDir": "animals",
+              "b": "d",
+              "m": "o",
+              "e": "g"
+            },
+            {
+              "noun": "sun",
+              "themeDir": "beach",
+              "b": "s",
+              "m": "u",
+              "e": "n"
+            }
+          ]
+        },
+        {
+          "id": "sb-bat-first",
+          "position": "b",
+          "target": {
+            "noun": "bat",
+            "themeDir": "animals",
+            "b": "b",
+            "m": "a",
+            "e": "t"
+          },
           "options": [
-            { "noun": "bag", "themeDir": "At the Supermarket", "b": "b", "m": "a", "e": "g" },
-            { "noun": "hat", "themeDir": "accessories", "b": "h", "m": "a", "e": "t" },
-            { "noun": "pig", "themeDir": "animals", "b": "p", "m": "i", "e": "g" }
-          ] },
-        { "id": "sb-pig-first", "position": "b",
-          "target": { "noun": "pig", "themeDir": "animals", "b": "p", "m": "i", "e": "g" },
+            {
+              "noun": "bag",
+              "themeDir": "At the Supermarket",
+              "b": "b",
+              "m": "a",
+              "e": "g"
+            },
+            {
+              "noun": "hat",
+              "themeDir": "accessories",
+              "b": "h",
+              "m": "a",
+              "e": "t"
+            },
+            {
+              "noun": "pig",
+              "themeDir": "animals",
+              "b": "p",
+              "m": "i",
+              "e": "g"
+            }
+          ]
+        },
+        {
+          "id": "sb-pig-first",
+          "position": "b",
+          "target": {
+            "noun": "pig",
+            "themeDir": "animals",
+            "b": "p",
+            "m": "i",
+            "e": "g"
+          },
           "options": [
-            { "noun": "pot", "themeDir": "around the house", "b": "p", "m": "o", "e": "t" },
-            { "noun": "dog", "themeDir": "animals", "b": "d", "m": "o", "e": "g" },
-            { "noun": "sun", "themeDir": "beach", "b": "s", "m": "u", "e": "n" }
-          ] },
-        { "id": "sb-hat-mid", "position": "m",
-          "target": { "noun": "hat", "themeDir": "accessories", "b": "h", "m": "a", "e": "t" },
+            {
+              "noun": "pot",
+              "themeDir": "around the house",
+              "b": "p",
+              "m": "o",
+              "e": "t"
+            },
+            {
+              "noun": "dog",
+              "themeDir": "animals",
+              "b": "d",
+              "m": "o",
+              "e": "g"
+            },
+            {
+              "noun": "sun",
+              "themeDir": "beach",
+              "b": "s",
+              "m": "u",
+              "e": "n"
+            }
+          ]
+        },
+        {
+          "id": "sb-hat-mid",
+          "position": "m",
+          "target": {
+            "noun": "hat",
+            "themeDir": "accessories",
+            "b": "h",
+            "m": "a",
+            "e": "t"
+          },
           "options": [
-            { "noun": "van", "themeDir": "vehicles", "b": "v", "m": "a", "e": "n" },
-            { "noun": "dog", "themeDir": "animals", "b": "d", "m": "o", "e": "g" },
-            { "noun": "pig", "themeDir": "animals", "b": "p", "m": "i", "e": "g" }
-          ] },
-        { "id": "sb-sun-mid", "position": "m",
-          "target": { "noun": "sun", "themeDir": "beach", "b": "s", "m": "u", "e": "n" },
+            {
+              "noun": "van",
+              "themeDir": "vehicles",
+              "b": "v",
+              "m": "a",
+              "e": "n"
+            },
+            {
+              "noun": "dog",
+              "themeDir": "animals",
+              "b": "d",
+              "m": "o",
+              "e": "g"
+            },
+            {
+              "noun": "pig",
+              "themeDir": "animals",
+              "b": "p",
+              "m": "i",
+              "e": "g"
+            }
+          ]
+        },
+        {
+          "id": "sb-sun-mid",
+          "position": "m",
+          "target": {
+            "noun": "sun",
+            "themeDir": "beach",
+            "b": "s",
+            "m": "u",
+            "e": "n"
+          },
           "options": [
-            { "noun": "jug", "themeDir": "kitchen tools", "b": "j", "m": "u", "e": "g" },
-            { "noun": "bed", "themeDir": "around the house", "b": "b", "m": "e", "e": "d" },
-            { "noun": "dog", "themeDir": "animals", "b": "d", "m": "o", "e": "g" }
-          ] },
-        { "id": "sb-dog-mid", "position": "m",
-          "target": { "noun": "dog", "themeDir": "animals", "b": "d", "m": "o", "e": "g" },
+            {
+              "noun": "jug",
+              "themeDir": "kitchen tools",
+              "b": "j",
+              "m": "u",
+              "e": "g"
+            },
+            {
+              "noun": "bed",
+              "themeDir": "around the house",
+              "b": "b",
+              "m": "e",
+              "e": "d"
+            },
+            {
+              "noun": "dog",
+              "themeDir": "animals",
+              "b": "d",
+              "m": "o",
+              "e": "g"
+            }
+          ]
+        },
+        {
+          "id": "sb-dog-mid",
+          "position": "m",
+          "target": {
+            "noun": "dog",
+            "themeDir": "animals",
+            "b": "d",
+            "m": "o",
+            "e": "g"
+          },
           "options": [
-            { "noun": "pot", "themeDir": "around the house", "b": "p", "m": "o", "e": "t" },
-            { "noun": "cat", "themeDir": "animals", "b": "k", "m": "a", "e": "t" },
-            { "noun": "sun", "themeDir": "beach", "b": "s", "m": "u", "e": "n" }
-          ] },
-        { "id": "sb-cat-last", "position": "e",
-          "target": { "noun": "cat", "themeDir": "animals", "b": "k", "m": "a", "e": "t" },
+            {
+              "noun": "pot",
+              "themeDir": "around the house",
+              "b": "p",
+              "m": "o",
+              "e": "t"
+            },
+            {
+              "noun": "cat",
+              "themeDir": "animals",
+              "b": "k",
+              "m": "a",
+              "e": "t"
+            },
+            {
+              "noun": "sun",
+              "themeDir": "beach",
+              "b": "s",
+              "m": "u",
+              "e": "n"
+            }
+          ]
+        },
+        {
+          "id": "sb-cat-last",
+          "position": "e",
+          "target": {
+            "noun": "cat",
+            "themeDir": "animals",
+            "b": "k",
+            "m": "a",
+            "e": "t"
+          },
           "options": [
-            { "noun": "bat", "themeDir": "animals", "b": "b", "m": "a", "e": "t" },
-            { "noun": "dog", "themeDir": "animals", "b": "d", "m": "o", "e": "g" },
-            { "noun": "sun", "themeDir": "beach", "b": "s", "m": "u", "e": "n" }
-          ] },
-        { "id": "sb-dog-last", "position": "e",
-          "target": { "noun": "dog", "themeDir": "animals", "b": "d", "m": "o", "e": "g" },
+            {
+              "noun": "bat",
+              "themeDir": "animals",
+              "b": "b",
+              "m": "a",
+              "e": "t"
+            },
+            {
+              "noun": "dog",
+              "themeDir": "animals",
+              "b": "d",
+              "m": "o",
+              "e": "g"
+            },
+            {
+              "noun": "sun",
+              "themeDir": "beach",
+              "b": "s",
+              "m": "u",
+              "e": "n"
+            }
+          ]
+        },
+        {
+          "id": "sb-dog-last",
+          "position": "e",
+          "target": {
+            "noun": "dog",
+            "themeDir": "animals",
+            "b": "d",
+            "m": "o",
+            "e": "g"
+          },
           "options": [
-            { "noun": "pig", "themeDir": "animals", "b": "p", "m": "i", "e": "g" },
-            { "noun": "cap", "themeDir": "accessories", "b": "k", "m": "a", "e": "p" },
-            { "noun": "sun", "themeDir": "beach", "b": "s", "m": "u", "e": "n" }
-          ] },
-        { "id": "sb-van-last", "position": "e",
-          "target": { "noun": "van", "themeDir": "vehicles", "b": "v", "m": "a", "e": "n" },
+            {
+              "noun": "pig",
+              "themeDir": "animals",
+              "b": "p",
+              "m": "i",
+              "e": "g"
+            },
+            {
+              "noun": "cap",
+              "themeDir": "accessories",
+              "b": "k",
+              "m": "a",
+              "e": "p"
+            },
+            {
+              "noun": "sun",
+              "themeDir": "beach",
+              "b": "s",
+              "m": "u",
+              "e": "n"
+            }
+          ]
+        },
+        {
+          "id": "sb-van-last",
+          "position": "e",
+          "target": {
+            "noun": "van",
+            "themeDir": "vehicles",
+            "b": "v",
+            "m": "a",
+            "e": "n"
+          },
           "options": [
-            { "noun": "can", "themeDir": "At the Supermarket", "b": "k", "m": "a", "e": "n" },
-            { "noun": "bed", "themeDir": "around the house", "b": "b", "m": "e", "e": "d" },
-            { "noun": "cap", "themeDir": "accessories", "b": "k", "m": "a", "e": "p" }
-          ] }
+            {
+              "noun": "can",
+              "themeDir": "At the Supermarket",
+              "b": "k",
+              "m": "a",
+              "e": "n"
+            },
+            {
+              "noun": "bed",
+              "themeDir": "around the house",
+              "b": "b",
+              "m": "e",
+              "e": "d"
+            },
+            {
+              "noun": "cap",
+              "themeDir": "accessories",
+              "b": "k",
+              "m": "a",
+              "e": "p"
+            }
+          ]
+        }
       ],
       "roundsL10n": {
         "de": [
-          { "id": "sb-de-fisch-first", "position": "b",
-            "target": { "noun": "fish", "themeDir": "ocean life", "word": "Fisch", "b": "f", "m": "i-kurz", "e": "sch" },
+          {
+            "id": "sb-de-fisch-first",
+            "position": "b",
+            "target": {
+              "noun": "fish",
+              "themeDir": "ocean life",
+              "word": "Fisch",
+              "b": "f",
+              "m": "i-kurz",
+              "e": "sch"
+            },
             "options": [
-              { "noun": "foot", "themeDir": "body parts", "word": "Fuß", "b": "f", "m": "u-lang", "e": "s" },
-              { "noun": "ball", "themeDir": "toys", "word": "Ball", "b": "b", "m": "a-kurz", "e": "l" },
-              { "noun": "mouse", "themeDir": "pets", "word": "Maus", "b": "m", "m": "au", "e": "s" }
-            ] },
-          { "id": "sb-de-haus-first", "position": "b",
-            "target": { "noun": "house", "themeDir": "miscellaneous", "word": "Haus", "b": "h", "m": "au", "e": "s" },
+              {
+                "noun": "foot",
+                "themeDir": "body parts",
+                "word": "Fuß",
+                "b": "f",
+                "m": "u-lang",
+                "e": "s"
+              },
+              {
+                "noun": "ball",
+                "themeDir": "toys",
+                "word": "Ball",
+                "b": "b",
+                "m": "a-kurz",
+                "e": "l"
+              },
+              {
+                "noun": "mouse",
+                "themeDir": "pets",
+                "word": "Maus",
+                "b": "m",
+                "m": "au",
+                "e": "s"
+              }
+            ]
+          },
+          {
+            "id": "sb-de-haus-first",
+            "position": "b",
+            "target": {
+              "noun": "house",
+              "themeDir": "miscellaneous",
+              "word": "Haus",
+              "b": "h",
+              "m": "au",
+              "e": "s"
+            },
             "options": [
-              { "noun": "hat", "themeDir": "accessories", "word": "Hut", "b": "h", "m": "u-lang", "e": "t" },
-              { "noun": "boat", "themeDir": "vehicles", "word": "Boot", "b": "b", "m": "o-lang", "e": "t" },
-              { "noun": "tooth", "themeDir": "body parts", "word": "Zahn", "b": "ts", "m": "a-lang", "e": "n" }
-            ] },
-          { "id": "sb-de-ball-first", "position": "b",
-            "target": { "noun": "ball", "themeDir": "toys", "word": "Ball", "b": "b", "m": "a-kurz", "e": "l" },
+              {
+                "noun": "hat",
+                "themeDir": "accessories",
+                "word": "Hut",
+                "b": "h",
+                "m": "u-lang",
+                "e": "t"
+              },
+              {
+                "noun": "boat",
+                "themeDir": "vehicles",
+                "word": "Boot",
+                "b": "b",
+                "m": "o-lang",
+                "e": "t"
+              },
+              {
+                "noun": "tooth",
+                "themeDir": "body parts",
+                "word": "Zahn",
+                "b": "ts",
+                "m": "a-lang",
+                "e": "n"
+              }
+            ]
+          },
+          {
+            "id": "sb-de-ball-first",
+            "position": "b",
+            "target": {
+              "noun": "ball",
+              "themeDir": "toys",
+              "word": "Ball",
+              "b": "b",
+              "m": "a-kurz",
+              "e": "l"
+            },
             "options": [
-              { "noun": "boat", "themeDir": "vehicles", "word": "Boot", "b": "b", "m": "o-lang", "e": "t" },
-              { "noun": "fish", "themeDir": "ocean life", "word": "Fisch", "b": "f", "m": "i-kurz", "e": "sch" },
-              { "noun": "house", "themeDir": "miscellaneous", "word": "Haus", "b": "h", "m": "au", "e": "s" }
-            ] },
-          { "id": "sb-de-bein-first", "position": "b",
-            "target": { "noun": "leg", "themeDir": "body parts", "word": "Bein", "b": "b", "m": "ei", "e": "n" },
+              {
+                "noun": "boat",
+                "themeDir": "vehicles",
+                "word": "Boot",
+                "b": "b",
+                "m": "o-lang",
+                "e": "t"
+              },
+              {
+                "noun": "fish",
+                "themeDir": "ocean life",
+                "word": "Fisch",
+                "b": "f",
+                "m": "i-kurz",
+                "e": "sch"
+              },
+              {
+                "noun": "house",
+                "themeDir": "miscellaneous",
+                "word": "Haus",
+                "b": "h",
+                "m": "au",
+                "e": "s"
+              }
+            ]
+          },
+          {
+            "id": "sb-de-bein-first",
+            "position": "b",
+            "target": {
+              "noun": "leg",
+              "themeDir": "body parts",
+              "word": "Bein",
+              "b": "b",
+              "m": "ei",
+              "e": "n"
+            },
             "options": [
-              { "noun": "ball", "themeDir": "toys", "word": "Ball", "b": "b", "m": "a-kurz", "e": "l" },
-              { "noun": "mouse", "themeDir": "pets", "word": "Maus", "b": "m", "m": "au", "e": "s" },
-              { "noun": "fish", "themeDir": "ocean life", "word": "Fisch", "b": "f", "m": "i-kurz", "e": "sch" }
-            ] },
-          { "id": "sb-de-hut-last", "position": "e",
-            "target": { "noun": "hat", "themeDir": "accessories", "word": "Hut", "b": "h", "m": "u-lang", "e": "t" },
+              {
+                "noun": "ball",
+                "themeDir": "toys",
+                "word": "Ball",
+                "b": "b",
+                "m": "a-kurz",
+                "e": "l"
+              },
+              {
+                "noun": "mouse",
+                "themeDir": "pets",
+                "word": "Maus",
+                "b": "m",
+                "m": "au",
+                "e": "s"
+              },
+              {
+                "noun": "fish",
+                "themeDir": "ocean life",
+                "word": "Fisch",
+                "b": "f",
+                "m": "i-kurz",
+                "e": "sch"
+              }
+            ]
+          },
+          {
+            "id": "sb-de-hut-last",
+            "position": "e",
+            "target": {
+              "noun": "hat",
+              "themeDir": "accessories",
+              "word": "Hut",
+              "b": "h",
+              "m": "u-lang",
+              "e": "t"
+            },
             "options": [
-              { "noun": "boat", "themeDir": "vehicles", "word": "Boot", "b": "b", "m": "o-lang", "e": "t" },
-              { "noun": "ball", "themeDir": "toys", "word": "Ball", "b": "b", "m": "a-kurz", "e": "l" },
-              { "noun": "fish", "themeDir": "ocean life", "word": "Fisch", "b": "f", "m": "i-kurz", "e": "sch" }
-            ] },
-          { "id": "sb-de-maus-last", "position": "e",
-            "target": { "noun": "mouse", "themeDir": "pets", "word": "Maus", "b": "m", "m": "au", "e": "s" },
+              {
+                "noun": "boat",
+                "themeDir": "vehicles",
+                "word": "Boot",
+                "b": "b",
+                "m": "o-lang",
+                "e": "t"
+              },
+              {
+                "noun": "ball",
+                "themeDir": "toys",
+                "word": "Ball",
+                "b": "b",
+                "m": "a-kurz",
+                "e": "l"
+              },
+              {
+                "noun": "fish",
+                "themeDir": "ocean life",
+                "word": "Fisch",
+                "b": "f",
+                "m": "i-kurz",
+                "e": "sch"
+              }
+            ]
+          },
+          {
+            "id": "sb-de-maus-last",
+            "position": "e",
+            "target": {
+              "noun": "mouse",
+              "themeDir": "pets",
+              "word": "Maus",
+              "b": "m",
+              "m": "au",
+              "e": "s"
+            },
             "options": [
-              { "noun": "foot", "themeDir": "body parts", "word": "Fuß", "b": "f", "m": "u-lang", "e": "s" },
-              { "noun": "tooth", "themeDir": "body parts", "word": "Zahn", "b": "ts", "m": "a-lang", "e": "n" },
-              { "noun": "ball", "themeDir": "toys", "word": "Ball", "b": "b", "m": "a-kurz", "e": "l" }
-            ] },
-          { "id": "sb-de-bein-last", "position": "e",
-            "target": { "noun": "leg", "themeDir": "body parts", "word": "Bein", "b": "b", "m": "ei", "e": "n" },
+              {
+                "noun": "foot",
+                "themeDir": "body parts",
+                "word": "Fuß",
+                "b": "f",
+                "m": "u-lang",
+                "e": "s"
+              },
+              {
+                "noun": "tooth",
+                "themeDir": "body parts",
+                "word": "Zahn",
+                "b": "ts",
+                "m": "a-lang",
+                "e": "n"
+              },
+              {
+                "noun": "ball",
+                "themeDir": "toys",
+                "word": "Ball",
+                "b": "b",
+                "m": "a-kurz",
+                "e": "l"
+              }
+            ]
+          },
+          {
+            "id": "sb-de-bein-last",
+            "position": "e",
+            "target": {
+              "noun": "leg",
+              "themeDir": "body parts",
+              "word": "Bein",
+              "b": "b",
+              "m": "ei",
+              "e": "n"
+            },
             "options": [
-              { "noun": "tooth", "themeDir": "body parts", "word": "Zahn", "b": "ts", "m": "a-lang", "e": "n" },
-              { "noun": "hat", "themeDir": "accessories", "word": "Hut", "b": "h", "m": "u-lang", "e": "t" },
-              { "noun": "ball", "themeDir": "toys", "word": "Ball", "b": "b", "m": "a-kurz", "e": "l" }
-            ] },
-          { "id": "sb-de-maus-mid", "position": "m",
-            "target": { "noun": "mouse", "themeDir": "pets", "word": "Maus", "b": "m", "m": "au", "e": "s" },
+              {
+                "noun": "tooth",
+                "themeDir": "body parts",
+                "word": "Zahn",
+                "b": "ts",
+                "m": "a-lang",
+                "e": "n"
+              },
+              {
+                "noun": "hat",
+                "themeDir": "accessories",
+                "word": "Hut",
+                "b": "h",
+                "m": "u-lang",
+                "e": "t"
+              },
+              {
+                "noun": "ball",
+                "themeDir": "toys",
+                "word": "Ball",
+                "b": "b",
+                "m": "a-kurz",
+                "e": "l"
+              }
+            ]
+          },
+          {
+            "id": "sb-de-maus-mid",
+            "position": "m",
+            "target": {
+              "noun": "mouse",
+              "themeDir": "pets",
+              "word": "Maus",
+              "b": "m",
+              "m": "au",
+              "e": "s"
+            },
             "options": [
-              { "noun": "house", "themeDir": "miscellaneous", "word": "Haus", "b": "h", "m": "au", "e": "s" },
-              { "noun": "hat", "themeDir": "accessories", "word": "Hut", "b": "h", "m": "u-lang", "e": "t" },
-              { "noun": "fish", "themeDir": "ocean life", "word": "Fisch", "b": "f", "m": "i-kurz", "e": "sch" }
-            ] },
-          { "id": "sb-de-hut-mid", "position": "m",
-            "target": { "noun": "hat", "themeDir": "accessories", "word": "Hut", "b": "h", "m": "u-lang", "e": "t" },
+              {
+                "noun": "house",
+                "themeDir": "miscellaneous",
+                "word": "Haus",
+                "b": "h",
+                "m": "au",
+                "e": "s"
+              },
+              {
+                "noun": "hat",
+                "themeDir": "accessories",
+                "word": "Hut",
+                "b": "h",
+                "m": "u-lang",
+                "e": "t"
+              },
+              {
+                "noun": "fish",
+                "themeDir": "ocean life",
+                "word": "Fisch",
+                "b": "f",
+                "m": "i-kurz",
+                "e": "sch"
+              }
+            ]
+          },
+          {
+            "id": "sb-de-hut-mid",
+            "position": "m",
+            "target": {
+              "noun": "hat",
+              "themeDir": "accessories",
+              "word": "Hut",
+              "b": "h",
+              "m": "u-lang",
+              "e": "t"
+            },
             "options": [
-              { "noun": "foot", "themeDir": "body parts", "word": "Fuß", "b": "f", "m": "u-lang", "e": "s" },
-              { "noun": "ball", "themeDir": "toys", "word": "Ball", "b": "b", "m": "a-kurz", "e": "l" },
-              { "noun": "boat", "themeDir": "vehicles", "word": "Boot", "b": "b", "m": "o-lang", "e": "t" }
-            ] }
+              {
+                "noun": "foot",
+                "themeDir": "body parts",
+                "word": "Fuß",
+                "b": "f",
+                "m": "u-lang",
+                "e": "s"
+              },
+              {
+                "noun": "ball",
+                "themeDir": "toys",
+                "word": "Ball",
+                "b": "b",
+                "m": "a-kurz",
+                "e": "l"
+              },
+              {
+                "noun": "boat",
+                "themeDir": "vehicles",
+                "word": "Boot",
+                "b": "b",
+                "m": "o-lang",
+                "e": "t"
+              }
+            ]
+          }
         ]
       }
     },
@@ -145,11 +672,11 @@
     },
     "page_title": {
       "en": "Coco's Sound Boxes — First, Middle & Last Sounds (Kindergarten)",
-      "de": "Coco der Koala – Laute hören: Anlaut, Inlaut, Auslaut (Klasse 1)"
+      "de": "Laute hören – Anlaut, Inlaut, Auslaut online üben (Klasse 1)"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten phonics activity: hear a short word in its sound boxes, then find another picture with the same first, middle, or last sound. Coco the koala helps children listen for the beginning, middle-vowel, and ending sounds in three-sound (CVC) words. A friendly first step in phonemic awareness. Common Core RF.K.2.d.",
-      "de": "Mit Coco dem Koala hört dein Kind ganz genau hin: Es soll Anlaut, Inlaut und Auslaut aus kurzen Wörtern heraushören – welcher Laut steckt am Anfang, in der Mitte oder am Ende? Jedes Wort wird vorgelesen, Kopfhörer sind empfohlen. Kostenlos, ohne Zeitdruck und ohne Punkte."
+      "de": "Laute hören mit Coco dem Koala: Wo klingt der Laut – am Anfang, in der Mitte oder am Ende des Wortes? Kostenlos online üben, ohne Anmeldung – Klasse 1."
     },
     "kid_prompt_template": "sound-boxes"
   }

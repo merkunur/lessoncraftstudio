@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "numbers-court.judge-balance.1-oa-d-7": {
+      "about": [
+        "En esta actividad gratuita tu hija o hijo se convierte en la jueza o el juez de un pequeño tribunal de matemáticas. Un testigo presenta una afirmación como \"5 + 3 = 8\" o \"3 + 2 = 2 + 3\", y la niña o el niño tiene que dictar su veredicto: la igualdad es verdadera o falsa. Todo sucede con la ayuda de la jueza Tess, una tortuga sabia y amable que acompaña cada decisión con calma.",
+        "Cada juicio se resuelve sobre una balanza, donde el signo igual significa \"la misma cantidad de los dos lados\" y no \"aquí va el resultado\". Para justificar un veredicto falso, tu peque toca el platillo que pesa más; para uno verdadero, llena los dos platillos hasta que la balanza queda equilibrada. A veces el reto es reparar una igualdad falsa, cambiando los números hasta que la balanza se equilibra de nuevo.",
+        "Con este juego de igualdades verdaderas o falsas, pensado para segundo grado de primaria, tu hija o hijo aprende a leer el signo igual como una relación de equilibrio y no como una orden de calcular. Se trabaja con sumas y restas dentro de números pequeños, alrededor del 10 al 12, siguiendo el enfoque de los Planes y programas de estudio (SEP) de la Nueva Escuela Mexicana. Es gratis, en el navegador, sin cronómetro ni puntos, para que cada quien juzgue con calma y a su ritmo."
+      ],
+      "practices": [
+        "Comprender el signo igual de manera relacional, como \"la misma cantidad de los dos lados\", y no como el lugar donde va el resultado.",
+        "Juzgar afirmaciones matemáticas y decidir si son igualdades verdaderas o falsas.",
+        "Comparar en la balanza qué platillo pesa igual o pesa más para justificar cada veredicto.",
+        "Reparar igualdades falsas cambiando los números hasta que la balanza se equilibra."
+      ],
+      "howToPlay": [
+        "Lee con atención la afirmación que presenta el testigo, por ejemplo \"6 + 1 = 9\" o \"4 = 4\".",
+        "Da tu veredicto de jueza o juez: verdadero o falso; la balanza te muestra si los dos lados tienen la misma cantidad.",
+        "Justifica tu decisión mostrando el platillo que pesa más o llenando los dos platillos, y si la igualdad es falsa, repárala hasta que la balanza se equilibre."
+      ],
+      "learningGoals": [
+        "La niña o el niño entiende que el signo igual expresa \"la misma cantidad\" en los dos lados y no una señal de que hay que calcular el resultado.",
+        "Aprende a juzgar igualdades escritas de distintas formas, como \"4 = 4\" y \"3 + 2 = 2 + 3\", reconociendo cuáles son verdaderas o falsas.",
+        "Usa la balanza como modelo para comparar igualdad y desigualdad, y para corregir los errores hasta lograr el equilibrio."
+      ]
+    },
     "ten-stones.add-sub-within-20.1-oa-c-6": {
       "about": [
         "Lily, la rana, cruza la recta numérica del 0 al 20 dando brincos, y justo en el 10 la espera una piedra dorada. En lugar de brincar cada número de uno en uno, Lily usa una estrategia inteligente: primero brinca exactamente hasta la piedra dorada del diez y desde ahí sigue. Así, 8 + 6 se convierte en 8 + 2 = 10 y luego 10 + 4 = 14. Los niños viven el paso por el diez no como una regla que hay que memorizar, sino como dos brincos que se ven en la recta numérica.",

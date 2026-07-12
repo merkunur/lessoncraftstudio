@@ -3,237 +3,710 @@
     "id": "marlo-magnifier.trait-evidence.rl-1-3",
     "tool": "marlo-magnifier-activity",
     "task_template": "marlo-magnifier",
-    "alignment": { "framework": "CCSS", "code": "RL.1.3", "grade": "1", "strand": "Reading: Literature" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RL.1.3",
+      "grade": "1",
+      "strand": "Reading: Literature"
+    },
     "params": {
       "rounds": [
         {
-          "id": "brave", "band": 1, "trait": "Mira is brave.", "traitWord": "brave",
-          "story": ["A loud growl came from the dark cave.", "All of Mira's friends stepped back.", "Mira took a breath and went in to look."],
+          "id": "brave",
+          "band": 1,
+          "trait": "Mira is brave.",
+          "traitWord": "brave",
+          "story": [
+            "A loud growl came from the dark cave.",
+            "All of Mira's friends stepped back.",
+            "Mira took a breath and went in to look."
+          ],
           "details": [
-            { "id": "d1", "supports": true, "text": "She walked into the dark cave." },
-            { "id": "d2", "supports": false, "text": "She wore her favorite red boots." },
-            { "id": "d3", "supports": false, "text": "She had a snack on the way." }
+            {
+              "id": "d1",
+              "supports": true,
+              "text": "She walked into the dark cave."
+            },
+            {
+              "id": "d2",
+              "supports": false,
+              "text": "She wore her favorite red boots."
+            },
+            {
+              "id": "d3",
+              "supports": false,
+              "text": "She had a snack on the way."
+            }
           ]
         },
         {
-          "id": "kind", "band": 1, "trait": "Sam is kind.", "traitWord": "kind",
-          "story": ["A new kid sat all alone at lunch.", "No one went over to talk to him.", "Sam moved his tray and shared his food."],
+          "id": "kind",
+          "band": 1,
+          "trait": "Sam is kind.",
+          "traitWord": "kind",
+          "story": [
+            "A new kid sat all alone at lunch.",
+            "No one went over to talk to him.",
+            "Sam moved his tray and shared his food."
+          ],
           "details": [
-            { "id": "d1", "supports": false, "text": "Sam likes ham sandwiches the best." },
-            { "id": "d2", "supports": true, "text": "Sam shared his lunch with the kid." },
-            { "id": "d3", "supports": false, "text": "Sam sat by the big window." }
+            {
+              "id": "d1",
+              "supports": false,
+              "text": "Sam likes ham sandwiches the best."
+            },
+            {
+              "id": "d2",
+              "supports": true,
+              "text": "Sam shared his lunch with the kid."
+            },
+            {
+              "id": "d3",
+              "supports": false,
+              "text": "Sam sat by the big window."
+            }
           ]
         },
         {
-          "id": "curious", "band": 1, "trait": "Lena is curious.", "traitWord": "curious",
-          "story": ["Lena found a strange, shiny rock.", "She turned it over and over.", "She asked the teacher how it was made."],
+          "id": "curious",
+          "band": 1,
+          "trait": "Lena is curious.",
+          "traitWord": "curious",
+          "story": [
+            "Lena found a strange, shiny rock.",
+            "She turned it over and over.",
+            "She asked the teacher how it was made."
+          ],
           "details": [
-            { "id": "d1", "supports": false, "text": "She put the rock in her coat pocket." },
-            { "id": "d2", "supports": false, "text": "The rock was small and grey." },
-            { "id": "d3", "supports": true, "text": "She asked how the rock was made." }
+            {
+              "id": "d1",
+              "supports": false,
+              "text": "She put the rock in her coat pocket."
+            },
+            {
+              "id": "d2",
+              "supports": false,
+              "text": "The rock was small and grey."
+            },
+            {
+              "id": "d3",
+              "supports": true,
+              "text": "She asked how the rock was made."
+            }
           ]
         },
         {
-          "id": "careful", "band": 2, "trait": "Theo is careful.", "traitWord": "careful",
-          "story": ["Theo carried a tall stack of cups.", "The kitchen floor was slippery and wet.", "Theo took tiny, slow steps and spilled none."],
+          "id": "careful",
+          "band": 2,
+          "trait": "Theo is careful.",
+          "traitWord": "careful",
+          "story": [
+            "Theo carried a tall stack of cups.",
+            "The kitchen floor was slippery and wet.",
+            "Theo took tiny, slow steps and spilled none."
+          ],
           "details": [
-            { "id": "d1", "supports": true, "text": "He took tiny, slow steps." },
-            { "id": "d2", "supports": false, "text": "He likes the orange cups." },
-            { "id": "d3", "supports": false, "text": "There were ten cups in all." }
+            {
+              "id": "d1",
+              "supports": true,
+              "text": "He took tiny, slow steps."
+            },
+            {
+              "id": "d2",
+              "supports": false,
+              "text": "He likes the orange cups."
+            },
+            {
+              "id": "d3",
+              "supports": false,
+              "text": "There were ten cups in all."
+            }
           ]
         },
         {
-          "id": "patient", "band": 2, "trait": "Ada is patient.", "traitWord": "patient",
-          "story": ["The little seed took weeks to sprout.", "Ada watered it every single morning.", "She waited and waited, and at last it grew."],
+          "id": "patient",
+          "band": 2,
+          "trait": "Ada is patient.",
+          "traitWord": "patient",
+          "story": [
+            "The little seed took weeks to sprout.",
+            "Ada watered it every single morning.",
+            "She waited and waited, and at last it grew."
+          ],
           "details": [
-            { "id": "d1", "supports": false, "text": "The flower pot was a bright blue." },
-            { "id": "d2", "supports": true, "text": "She waited weeks for it to grow." },
-            { "id": "d3", "supports": false, "text": "She used a small watering can." }
+            {
+              "id": "d1",
+              "supports": false,
+              "text": "The flower pot was a bright blue."
+            },
+            {
+              "id": "d2",
+              "supports": true,
+              "text": "She waited weeks for it to grow."
+            },
+            {
+              "id": "d3",
+              "supports": false,
+              "text": "She used a small watering can."
+            }
           ]
         },
         {
-          "id": "honest", "band": 2, "trait": "Bo is honest.", "traitWord": "honest",
-          "story": ["Bo broke a vase by accident.", "No one had seen it happen.", "Bo told his mom the truth right away."],
+          "id": "honest",
+          "band": 2,
+          "trait": "Bo is honest.",
+          "traitWord": "honest",
+          "story": [
+            "Bo broke a vase by accident.",
+            "No one had seen it happen.",
+            "Bo told his mom the truth right away."
+          ],
           "details": [
-            { "id": "d1", "supports": false, "text": "The vase sat on a high shelf." },
-            { "id": "d2", "supports": false, "text": "Bo was playing in the hall." },
-            { "id": "d3", "supports": true, "text": "He told his mom the truth." }
+            {
+              "id": "d1",
+              "supports": false,
+              "text": "The vase sat on a high shelf."
+            },
+            {
+              "id": "d2",
+              "supports": false,
+              "text": "Bo was playing in the hall."
+            },
+            {
+              "id": "d3",
+              "supports": true,
+              "text": "He told his mom the truth."
+            }
           ]
         },
         {
-          "id": "generous", "band": 3, "trait": "Nina is generous.", "traitWord": "generous",
-          "story": ["Nina had three shiny stickers.", "Her best friend had none at all.", "Nina handed two of hers right over."],
+          "id": "generous",
+          "band": 3,
+          "trait": "Nina is generous.",
+          "traitWord": "generous",
+          "story": [
+            "Nina had three shiny stickers.",
+            "Her best friend had none at all.",
+            "Nina handed two of hers right over."
+          ],
           "details": [
-            { "id": "d1", "supports": true, "text": "She gave two stickers to her friend." },
-            { "id": "d2", "supports": false, "text": "The stickers were shaped like gold stars." },
-            { "id": "d3", "supports": false, "text": "Nina kept one sticker for herself." }
+            {
+              "id": "d1",
+              "supports": true,
+              "text": "She gave two stickers to her friend."
+            },
+            {
+              "id": "d2",
+              "supports": false,
+              "text": "The stickers were shaped like gold stars."
+            },
+            {
+              "id": "d3",
+              "supports": false,
+              "text": "Nina kept one sticker for herself."
+            }
           ]
         },
         {
-          "id": "hardworking", "band": 3, "trait": "Max is hardworking.", "traitWord": "hardworking",
-          "story": ["The whole yard was full of leaves.", "Max's friends ran off to play.", "Max raked all afternoon until it was clean."],
+          "id": "hardworking",
+          "band": 3,
+          "trait": "Max is hardworking.",
+          "traitWord": "hardworking",
+          "story": [
+            "The whole yard was full of leaves.",
+            "Max's friends ran off to play.",
+            "Max raked all afternoon until it was clean."
+          ],
           "details": [
-            { "id": "d1", "supports": false, "text": "He wore his bright green garden gloves." },
-            { "id": "d2", "supports": true, "text": "He raked leaves all afternoon long." },
-            { "id": "d3", "supports": false, "text": "The leaves were red and brown." }
+            {
+              "id": "d1",
+              "supports": false,
+              "text": "He wore his bright green garden gloves."
+            },
+            {
+              "id": "d2",
+              "supports": true,
+              "text": "He raked leaves all afternoon long."
+            },
+            {
+              "id": "d3",
+              "supports": false,
+              "text": "The leaves were red and brown."
+            }
           ]
         }
       ],
       "roundsL10n": {
         "de": [
           {
-            "id": "mutig", "band": 1, "trait": "Mira ist mutig.", "traitWord": "mutig",
-            "story": ["Mira war mit ihrer Klasse auf einem Ausflug im Wald.", "Am Weg lag eine dunkle Höhle, und niemand traute sich hinein.", "Da machte Mira den ersten Schritt."],
+            "id": "mutig",
+            "band": 1,
+            "trait": "Mira ist mutig.",
+            "traitWord": "mutig",
+            "story": [
+              "Mira war mit ihrer Klasse auf einem Ausflug im Wald.",
+              "Am Weg lag eine dunkle Höhle, und niemand traute sich hinein.",
+              "Da machte Mira den ersten Schritt."
+            ],
             "details": [
-              { "id": "d1", "supports": true, "text": "Sie ging in die dunkle Höhle hinein." },
-              { "id": "d2", "supports": false, "text": "Sie trug ihre roten Gummistiefel." },
-              { "id": "d3", "supports": false, "text": "Sie aß unterwegs einen Apfel." }
+              {
+                "id": "d1",
+                "supports": true,
+                "text": "Sie ging in die dunkle Höhle hinein."
+              },
+              {
+                "id": "d2",
+                "supports": false,
+                "text": "Sie trug ihre roten Gummistiefel."
+              },
+              {
+                "id": "d3",
+                "supports": false,
+                "text": "Sie aß unterwegs einen Apfel."
+              }
             ]
           },
           {
-            "id": "hilfsbereit", "band": 1, "trait": "Finn ist hilfsbereit.", "traitWord": "hilfsbereit",
-            "story": ["Finn kam gerade von der Schule nach Hause.", "Vor dem Haus stand die alte Nachbarin mit zwei schweren Taschen.", "Sie kam die Treppe kaum hinauf."],
+            "id": "hilfsbereit",
+            "band": 1,
+            "trait": "Finn ist hilfsbereit.",
+            "traitWord": "hilfsbereit",
+            "story": [
+              "Finn kam gerade von der Schule nach Hause.",
+              "Vor dem Haus stand die alte Nachbarin mit zwei schweren Taschen.",
+              "Sie kam die Treppe kaum hinauf."
+            ],
             "details": [
-              { "id": "d1", "supports": false, "text": "Finn hatte einen grünen Rucksack auf." },
-              { "id": "d2", "supports": true, "text": "Er trug ihr die schweren Taschen die Treppe hinauf." },
-              { "id": "d3", "supports": false, "text": "Er wohnte im dritten Stock." }
+              {
+                "id": "d1",
+                "supports": false,
+                "text": "Finn hatte einen grünen Rucksack auf."
+              },
+              {
+                "id": "d2",
+                "supports": true,
+                "text": "Er trug ihr die schweren Taschen die Treppe hinauf."
+              },
+              {
+                "id": "d3",
+                "supports": false,
+                "text": "Er wohnte im dritten Stock."
+              }
             ]
           },
           {
-            "id": "neugierig", "band": 1, "trait": "Lena ist neugierig.", "traitWord": "neugierig",
-            "story": ["Auf dem Dachboden fand Lena eine alte, verstaubte Kiste.", "Sie fragte sich, was wohl darin sein könnte.", "Langsam hob sie den Deckel an."],
+            "id": "neugierig",
+            "band": 1,
+            "trait": "Lena ist neugierig.",
+            "traitWord": "neugierig",
+            "story": [
+              "Auf dem Dachboden fand Lena eine alte, verstaubte Kiste.",
+              "Sie fragte sich, was wohl darin sein könnte.",
+              "Langsam hob sie den Deckel an."
+            ],
             "details": [
-              { "id": "d1", "supports": true, "text": "Sie öffnete die Kiste, um nachzusehen, was darin lag." },
-              { "id": "d2", "supports": false, "text": "Sie hatte lange braune Zöpfe." },
-              { "id": "d3", "supports": false, "text": "Sie mochte Erdbeereis am liebsten." }
+              {
+                "id": "d1",
+                "supports": true,
+                "text": "Sie öffnete die Kiste, um nachzusehen, was darin lag."
+              },
+              {
+                "id": "d2",
+                "supports": false,
+                "text": "Sie hatte lange braune Zöpfe."
+              },
+              {
+                "id": "d3",
+                "supports": false,
+                "text": "Sie mochte Erdbeereis am liebsten."
+              }
             ]
           },
           {
-            "id": "vorsichtig", "band": 2, "trait": "Tom ist vorsichtig.", "traitWord": "vorsichtig",
-            "story": ["Tom sollte das volle Glas Wasser zum Tisch tragen.", "Der Boden war glatt, und er wollte nichts verschütten.", "Ganz langsam machte er sich auf den Weg."],
+            "id": "vorsichtig",
+            "band": 2,
+            "trait": "Tom ist vorsichtig.",
+            "traitWord": "vorsichtig",
+            "story": [
+              "Tom sollte das volle Glas Wasser zum Tisch tragen.",
+              "Der Boden war glatt, und er wollte nichts verschütten.",
+              "Ganz langsam machte er sich auf den Weg."
+            ],
             "details": [
-              { "id": "d1", "supports": false, "text": "Er hatte einen grünen Rucksack dabei." },
-              { "id": "d2", "supports": true, "text": "Er hielt das Glas mit beiden Händen ganz fest." },
-              { "id": "d3", "supports": false, "text": "Er ging jeden Tag zu Fuß zur Schule." }
+              {
+                "id": "d1",
+                "supports": false,
+                "text": "Er hatte einen grünen Rucksack dabei."
+              },
+              {
+                "id": "d2",
+                "supports": true,
+                "text": "Er hielt das Glas mit beiden Händen ganz fest."
+              },
+              {
+                "id": "d3",
+                "supports": false,
+                "text": "Er ging jeden Tag zu Fuß zur Schule."
+              }
             ]
           },
           {
-            "id": "grosszuegig", "band": 2, "trait": "Nele ist großzügig.", "traitWord": "großzügig",
-            "story": ["Nele hatte in der Pause ein großes Stück Kuchen dabei.", "Neben ihr saß ein Kind, das nichts zu essen hatte.", "Nele schaute auf ihren Kuchen und dann auf das Kind."],
+            "id": "grosszuegig",
+            "band": 2,
+            "trait": "Nele ist großzügig.",
+            "traitWord": "großzügig",
+            "story": [
+              "Nele hatte in der Pause ein großes Stück Kuchen dabei.",
+              "Neben ihr saß ein Kind, das nichts zu essen hatte.",
+              "Nele schaute auf ihren Kuchen und dann auf das Kind."
+            ],
             "details": [
-              { "id": "d1", "supports": false, "text": "Nele trug einen lila Schal." },
-              { "id": "d2", "supports": true, "text": "Sie gab dem Kind die größere Hälfte ihres Kuchens." },
-              { "id": "d3", "supports": false, "text": "Sie wohnte am Ende der Straße." }
+              {
+                "id": "d1",
+                "supports": false,
+                "text": "Nele trug einen lila Schal."
+              },
+              {
+                "id": "d2",
+                "supports": true,
+                "text": "Sie gab dem Kind die größere Hälfte ihres Kuchens."
+              },
+              {
+                "id": "d3",
+                "supports": false,
+                "text": "Sie wohnte am Ende der Straße."
+              }
             ]
           },
           {
-            "id": "ehrlich", "band": 2, "trait": "Emil ist ehrlich.", "traitWord": "ehrlich",
-            "story": ["Beim Spielen stieß Emil aus Versehen die Blumenvase um.", "Sie fiel zu Boden und zerbrach in viele Scherben.", "Niemand hatte es gesehen, doch Emil ging zur Lehrerin."],
+            "id": "ehrlich",
+            "band": 2,
+            "trait": "Emil ist ehrlich.",
+            "traitWord": "ehrlich",
+            "story": [
+              "Beim Spielen stieß Emil aus Versehen die Blumenvase um.",
+              "Sie fiel zu Boden und zerbrach in viele Scherben.",
+              "Niemand hatte es gesehen, doch Emil ging zur Lehrerin."
+            ],
             "details": [
-              { "id": "d1", "supports": false, "text": "Emil hatte eine rote Brotdose dabei." },
-              { "id": "d2", "supports": true, "text": "Er sagte der Lehrerin, dass er die Vase zerbrochen hatte." },
-              { "id": "d3", "supports": false, "text": "Er saß am liebsten neben dem Fenster." }
+              {
+                "id": "d1",
+                "supports": false,
+                "text": "Emil hatte eine rote Brotdose dabei."
+              },
+              {
+                "id": "d2",
+                "supports": true,
+                "text": "Er sagte der Lehrerin, dass er die Vase zerbrochen hatte."
+              },
+              {
+                "id": "d3",
+                "supports": false,
+                "text": "Er saß am liebsten neben dem Fenster."
+              }
             ]
           },
           {
-            "id": "geduldig", "band": 3, "trait": "Pia ist geduldig.", "traitWord": "geduldig",
-            "story": ["Pias kleiner Bruder wollte seine Schuhe allein zubinden.", "Wieder und wieder rutschte die Schleife auf.", "Pia setzte sich neben ihn und blieb ganz ruhig."],
+            "id": "geduldig",
+            "band": 3,
+            "trait": "Pia ist geduldig.",
+            "traitWord": "geduldig",
+            "story": [
+              "Pias kleiner Bruder wollte seine Schuhe allein zubinden.",
+              "Wieder und wieder rutschte die Schleife auf.",
+              "Pia setzte sich neben ihn und blieb ganz ruhig."
+            ],
             "details": [
-              { "id": "d1", "supports": false, "text": "Pia hatte eine gelbe Schleife im Haar." },
-              { "id": "d2", "supports": true, "text": "Sie zeigte ihm die Schleife immer wieder, ohne zu schimpfen." },
-              { "id": "d3", "supports": false, "text": "Sie saß in der ersten Reihe." }
+              {
+                "id": "d1",
+                "supports": false,
+                "text": "Pia hatte eine gelbe Schleife im Haar."
+              },
+              {
+                "id": "d2",
+                "supports": true,
+                "text": "Sie zeigte ihm die Schleife immer wieder, ohne zu schimpfen."
+              },
+              {
+                "id": "d3",
+                "supports": false,
+                "text": "Sie saß in der ersten Reihe."
+              }
             ]
           },
           {
-            "id": "fleissig", "band": 3, "trait": "Jonas ist fleißig.", "traitWord": "fleißig",
-            "story": ["Jonas wollte endlich alle Buchstaben schreiben können.", "Am Anfang sahen sie noch krakelig und schief aus.", "Doch Jonas gab nicht auf."],
+            "id": "fleissig",
+            "band": 3,
+            "trait": "Jonas ist fleißig.",
+            "traitWord": "fleißig",
+            "story": [
+              "Jonas wollte endlich alle Buchstaben schreiben können.",
+              "Am Anfang sahen sie noch krakelig und schief aus.",
+              "Doch Jonas gab nicht auf."
+            ],
             "details": [
-              { "id": "d1", "supports": false, "text": "Jonas hatte kurze schwarze Haare." },
-              { "id": "d2", "supports": true, "text": "Er übte jeden Abend, bis er alle Buchstaben schreiben konnte." },
-              { "id": "d3", "supports": false, "text": "Er spielte in seiner Freizeit gern Fußball." }
+              {
+                "id": "d1",
+                "supports": false,
+                "text": "Jonas hatte kurze schwarze Haare."
+              },
+              {
+                "id": "d2",
+                "supports": true,
+                "text": "Er übte jeden Abend, bis er alle Buchstaben schreiben konnte."
+              },
+              {
+                "id": "d3",
+                "supports": false,
+                "text": "Er spielte in seiner Freizeit gern Fußball."
+              }
             ]
           }
         ],
         "fr": [
           {
-            "id": "courageuse", "band": 1, "trait": "Mira est courageuse", "traitWord": "courageuse",
-            "story": ["Mira et sa classe visitent une vieille grotte.", "L’intérieur est tout noir et un peu effrayant.", "Personne n’ose avancer le premier."],
+            "id": "courageuse",
+            "band": 1,
+            "trait": "Mira est courageuse",
+            "traitWord": "courageuse",
+            "story": [
+              "Mira et sa classe visitent une vieille grotte.",
+              "L’intérieur est tout noir et un peu effrayant.",
+              "Personne n’ose avancer le premier."
+            ],
             "details": [
-              { "id": "d1", "supports": true, "text": "Mira est entrée la première dans la grotte sombre." },
-              { "id": "d2", "supports": false, "text": "Mira portait un pull rouge ce jour-là." },
-              { "id": "d3", "supports": false, "text": "La grotte se trouve tout près de la rivière." }
+              {
+                "id": "d1",
+                "supports": true,
+                "text": "Mira est entrée la première dans la grotte sombre."
+              },
+              {
+                "id": "d2",
+                "supports": false,
+                "text": "Mira portait un pull rouge ce jour-là."
+              },
+              {
+                "id": "d3",
+                "supports": false,
+                "text": "La grotte se trouve tout près de la rivière."
+              }
             ]
           },
           {
-            "id": "gentil", "band": 1, "trait": "Tom est gentil", "traitWord": "gentil",
-            "story": ["Un nouvel élève arrive dans la classe de Tom.", "Il ne connaît personne et reste tout seul.", "C’est bientôt l’heure de la récréation."],
+            "id": "gentil",
+            "band": 1,
+            "trait": "Tom est gentil",
+            "traitWord": "gentil",
+            "story": [
+              "Un nouvel élève arrive dans la classe de Tom.",
+              "Il ne connaît personne et reste tout seul.",
+              "C’est bientôt l’heure de la récréation."
+            ],
             "details": [
-              { "id": "d1", "supports": false, "text": "Le nouvel élève s’appelle Léo." },
-              { "id": "d2", "supports": true, "text": "Tom a invité le nouvel élève à jouer avec lui." },
-              { "id": "d3", "supports": false, "text": "Tom a une trousse bleue sur sa table." }
+              {
+                "id": "d1",
+                "supports": false,
+                "text": "Le nouvel élève s’appelle Léo."
+              },
+              {
+                "id": "d2",
+                "supports": true,
+                "text": "Tom a invité le nouvel élève à jouer avec lui."
+              },
+              {
+                "id": "d3",
+                "supports": false,
+                "text": "Tom a une trousse bleue sur sa table."
+              }
             ]
           },
           {
-            "id": "curieuse", "band": 1, "trait": "Lena est curieuse", "traitWord": "curieuse",
-            "story": ["La maîtresse apporte une drôle de boîte en classe.", "Personne ne sait ce qu’il y a à l’intérieur.", "La boîte fait un petit bruit bizarre."],
+            "id": "curieuse",
+            "band": 1,
+            "trait": "Lena est curieuse",
+            "traitWord": "curieuse",
+            "story": [
+              "La maîtresse apporte une drôle de boîte en classe.",
+              "Personne ne sait ce qu’il y a à l’intérieur.",
+              "La boîte fait un petit bruit bizarre."
+            ],
             "details": [
-              { "id": "d1", "supports": false, "text": "La boîte est décorée d’étoiles dorées." },
-              { "id": "d2", "supports": false, "text": "Lena est assise au premier rang." },
-              { "id": "d3", "supports": true, "text": "Lena a posé plein de questions pour savoir ce que c’était." }
+              {
+                "id": "d1",
+                "supports": false,
+                "text": "La boîte est décorée d’étoiles dorées."
+              },
+              {
+                "id": "d2",
+                "supports": false,
+                "text": "Lena est assise au premier rang."
+              },
+              {
+                "id": "d3",
+                "supports": true,
+                "text": "Lena a posé plein de questions pour savoir ce que c’était."
+              }
             ]
           },
           {
-            "id": "prudent", "band": 2, "trait": "Malo est prudent", "traitWord": "prudent",
-            "story": ["Malo et son ami rentrent de l’école à vélo.", "Ils arrivent devant une route où passent des voitures.", "Son ami veut traverser tout de suite."],
+            "id": "prudent",
+            "band": 2,
+            "trait": "Malo est prudent",
+            "traitWord": "prudent",
+            "story": [
+              "Malo et son ami rentrent de l’école à vélo.",
+              "Ils arrivent devant une route où passent des voitures.",
+              "Son ami veut traverser tout de suite."
+            ],
             "details": [
-              { "id": "d1", "supports": true, "text": "Malo s’est arrêté et a bien regardé des deux côtés avant de traverser." },
-              { "id": "d2", "supports": false, "text": "Le vélo de Malo est jaune." },
-              { "id": "d3", "supports": false, "text": "L’école se termine à quatre heures et demie." }
+              {
+                "id": "d1",
+                "supports": true,
+                "text": "Malo s’est arrêté et a bien regardé des deux côtés avant de traverser."
+              },
+              {
+                "id": "d2",
+                "supports": false,
+                "text": "Le vélo de Malo est jaune."
+              },
+              {
+                "id": "d3",
+                "supports": false,
+                "text": "L’école se termine à quatre heures et demie."
+              }
             ]
           },
           {
-            "id": "genereuse", "band": 2, "trait": "Zoé est généreuse", "traitWord": "généreuse",
-            "story": ["À la cantine, Zoé remarque que Sami a oublié son goûter.", "Sami regarde les autres manger, l’air triste.", "Zoé n’a qu’un seul gâteau dans sa poche."],
+            "id": "genereuse",
+            "band": 2,
+            "trait": "Zoé est généreuse",
+            "traitWord": "généreuse",
+            "story": [
+              "À la cantine, Zoé remarque que Sami a oublié son goûter.",
+              "Sami regarde les autres manger, l’air triste.",
+              "Zoé n’a qu’un seul gâteau dans sa poche."
+            ],
             "details": [
-              { "id": "d1", "supports": false, "text": "Le gâteau de Zoé est au chocolat." },
-              { "id": "d2", "supports": false, "text": "Sami est assis juste en face de Zoé." },
-              { "id": "d3", "supports": true, "text": "Zoé a partagé son gâteau en deux et en a donné la moitié à Sami." }
+              {
+                "id": "d1",
+                "supports": false,
+                "text": "Le gâteau de Zoé est au chocolat."
+              },
+              {
+                "id": "d2",
+                "supports": false,
+                "text": "Sami est assis juste en face de Zoé."
+              },
+              {
+                "id": "d3",
+                "supports": true,
+                "text": "Zoé a partagé son gâteau en deux et en a donné la moitié à Sami."
+              }
             ]
           },
           {
-            "id": "patient", "band": 2, "trait": "Noé est patient", "traitWord": "patient",
-            "story": ["Noé apprend à sa petite sœur à faire ses lacets.", "Elle n’y arrive pas et recommence plusieurs fois.", "Dehors, ses copains l’attendent pour jouer."],
+            "id": "patient",
+            "band": 2,
+            "trait": "Noé est patient",
+            "traitWord": "patient",
+            "story": [
+              "Noé apprend à sa petite sœur à faire ses lacets.",
+              "Elle n’y arrive pas et recommence plusieurs fois.",
+              "Dehors, ses copains l’attendent pour jouer."
+            ],
             "details": [
-              { "id": "d1", "supports": false, "text": "La petite sœur de Noé s’appelle Alice." },
-              { "id": "d2", "supports": true, "text": "Noé lui a réexpliqué tout doucement, sans jamais se fâcher." },
-              { "id": "d3", "supports": false, "text": "Les chaussures d’Alice sont roses." }
+              {
+                "id": "d1",
+                "supports": false,
+                "text": "La petite sœur de Noé s’appelle Alice."
+              },
+              {
+                "id": "d2",
+                "supports": true,
+                "text": "Noé lui a réexpliqué tout doucement, sans jamais se fâcher."
+              },
+              {
+                "id": "d3",
+                "supports": false,
+                "text": "Les chaussures d’Alice sont roses."
+              }
             ]
           },
           {
-            "id": "serviable", "band": 3, "trait": "Inès est serviable", "traitWord": "serviable",
-            "story": ["Après la fête de classe, la salle est toute en désordre.", "La maîtresse range seule les tables et les chaises.", "La cloche vient de sonner, c’est la fin de la journée."],
+            "id": "serviable",
+            "band": 3,
+            "trait": "Inès est serviable",
+            "traitWord": "serviable",
+            "story": [
+              "Après la fête de classe, la salle est toute en désordre.",
+              "La maîtresse range seule les tables et les chaises.",
+              "La cloche vient de sonner, c’est la fin de la journée."
+            ],
             "details": [
-              { "id": "d1", "supports": true, "text": "Inès est restée pour aider à tout ranger, sans qu’on le lui demande." },
-              { "id": "d2", "supports": false, "text": "La fête était pour l’anniversaire de la classe." },
-              { "id": "d3", "supports": false, "text": "Inès a les cheveux attachés avec un ruban." }
+              {
+                "id": "d1",
+                "supports": true,
+                "text": "Inès est restée pour aider à tout ranger, sans qu’on le lui demande."
+              },
+              {
+                "id": "d2",
+                "supports": false,
+                "text": "La fête était pour l’anniversaire de la classe."
+              },
+              {
+                "id": "d3",
+                "supports": false,
+                "text": "Inès a les cheveux attachés avec un ruban."
+              }
             ]
           },
           {
-            "id": "soigneux", "band": 3, "trait": "Gabin est soigneux", "traitWord": "soigneux",
-            "story": ["En classe, chaque élève doit rendre son cahier de dessins.", "Beaucoup de cahiers sont froissés ou tachés.", "La maîtresse les regarde un par un."],
+            "id": "soigneux",
+            "band": 3,
+            "trait": "Gabin est soigneux",
+            "traitWord": "soigneux",
+            "story": [
+              "En classe, chaque élève doit rendre son cahier de dessins.",
+              "Beaucoup de cahiers sont froissés ou tachés.",
+              "La maîtresse les regarde un par un."
+            ],
             "details": [
-              { "id": "d1", "supports": false, "text": "Gabin a dessiné un dragon vert sur la couverture." },
-              { "id": "d2", "supports": false, "text": "Le cahier de Gabin est le plus épais de tous." },
-              { "id": "d3", "supports": true, "text": "Gabin avait rangé son cahier bien à plat, sans une seule page cornée." }
+              {
+                "id": "d1",
+                "supports": false,
+                "text": "Gabin a dessiné un dragon vert sur la couverture."
+              },
+              {
+                "id": "d2",
+                "supports": false,
+                "text": "Le cahier de Gabin est le plus épais de tous."
+              },
+              {
+                "id": "d3",
+                "supports": true,
+                "text": "Gabin avait rangé son cahier bien à plat, sans une seule page cornée."
+              }
             ]
           }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "marlos-magnifier", "de": "charaktereigenschaften-mit-textstellen-belegen-klasse-3", "fr": "le-portrait-du-personnage-indices-ce1" },
-    "page_title": { "en": "Marlo's Magnifier — Show Me the Proof (Grade 1)", "de": "Charaktereigenschaften belegen – Marlos Lupe (Klasse 3)", "fr": "La loupe de Marlo — Le portrait du personnage (CE1)" },
-    "page_intro": { "en": "Marlo the raccoon is a story detective, and every case is a clue hunt: read a short story, then a clue card says something about a character — \"Mira is brave.\" Tap the detail from the story that PROVES it, not just any true thing that happened. A warm Grade 1 reading game about describing characters with key details and finding the evidence, aligned to Common Core RL.1.3.", "de": "Kostenlos & interaktiv: Dein Kind belegt Charaktereigenschaften einer Figur mit der passenden Textstelle – genaues Lesen für die Grundschule, ganz ohne Zeitdruck.", "fr": "Avec Marlo le raton laveur, détective des histoires, votre enfant lit une phrase sur un personnage (« Mira est courageuse »), puis une petite histoire — et cherche l'indice qui prouve ce trait : l'action qui le révèle (« Elle est entrée dans la grotte sombre »), et non un détail vrai mais sans rapport (« Elle portait ses bottes rouges »). Il apprend ainsi à décrire un personnage et à justifier un trait par un indice du texte, une première approche de l'inférence. Gratuit et interactif, l'exercice se joue directement dans le navigateur, sans minuteur, sans score et sans compte." },
+    "slug": {
+      "en": "marlos-magnifier",
+      "de": "charaktereigenschaften-mit-textstellen-belegen-klasse-3",
+      "fr": "le-portrait-du-personnage-indices-ce1"
+    },
+    "page_title": {
+      "en": "Marlo's Magnifier — Show Me the Proof (Grade 1)",
+      "de": "Charaktereigenschaften belegen – Marlos Lupe (Klasse 3)",
+      "fr": "Inférences CE1 – trouver les indices – exercice en ligne"
+    },
+    "page_intro": {
+      "en": "Marlo the raccoon is a story detective, and every case is a clue hunt: read a short story, then a clue card says something about a character — \"Mira is brave.\" Tap the detail from the story that PROVES it, not just any true thing that happened. A warm Grade 1 reading game about describing characters with key details and finding the evidence, aligned to Common Core RL.1.3.",
+      "de": "Kostenlos & interaktiv: Dein Kind belegt Charaktereigenschaften einer Figur mit der passenden Textstelle – genaues Lesen für die Grundschule, ganz ohne Zeitdruck.",
+      "fr": "Travailler les inférences au CE1 : s'appuyer sur les indices du texte pour décrire le personnage. Gratuit, en ligne, sans inscription."
+    },
     "kid_prompt_template": "marlo-magnifier"
   }
 ]

@@ -3,24 +3,253 @@
     "id": "clunks-lost-lunch.make-total.k-oa-a-3",
     "tool": "clunks-lost-lunch-activity",
     "task_template": "make-total",
-    "alignment": { "framework": "CCSS", "code": "K.OA.A.3", "grade": "K", "strand": "Operations & Algebraic Thinking" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.OA.A.3",
+      "grade": "K",
+      "strand": "Operations & Algebraic Thinking"
+    },
     "params": {
       "rounds": [
-        { "id": "make-ten",      "schema": "free",            "band": 1, "target": 10, "wall": [2, 3, 4, 6, 7, 8], "solutions": [[6, 4], [7, 3], [8, 2]] },
-        { "id": "two-ways-eight","schema": "two-ways",        "band": 1, "target": 8,  "wall": [1, 2, 3, 5, 6],    "solutions": [[6, 2], [5, 3]] },
-        { "id": "clunk-holds-6", "schema": "missing-addend",  "band": 2, "target": 10, "given": [6], "wall": [2, 3, 4], "solutions": [[4]] },
-        { "id": "finish-with-2", "schema": "multi-completer", "band": 2, "target": 10, "given": [6], "wall": [1, 2, 3], "solutions": [[1, 3], [2, 2]] },
-        { "id": "exactly-three", "schema": "exact-n",         "band": 2, "target": 10, "exactN": 3, "wall": [2, 3, 4], "solutions": [[2, 4, 4], [3, 3, 4]] },
-        { "id": "no-fives-wall", "schema": "constrained-wall","band": 3, "target": 10, "allow": [3, 4, 6, 7], "wall": [3, 4, 6, 7], "solutions": [[6, 4], [3, 3, 4]] },
-        { "id": "too-full",      "schema": "reduce",          "band": 3, "target": 8,  "start": [3, 3, 4, 2], "wall": [2, 3, 4], "solutions": [[4]] },
-        { "id": "make-twelve",   "schema": "free",            "band": 2, "target": 12, "wall": [3, 4, 5, 7, 8, 9], "solutions": [[8, 4], [5, 7], [3, 9]] },
-        { "id": "two-ways-14",   "schema": "two-ways",        "band": 3, "target": 14, "wall": [4, 5, 6, 7, 8, 9], "solutions": [[7, 7], [6, 8]] }
+        {
+          "id": "make-ten",
+          "schema": "free",
+          "band": 1,
+          "target": 10,
+          "wall": [
+            2,
+            3,
+            4,
+            6,
+            7,
+            8
+          ],
+          "solutions": [
+            [
+              6,
+              4
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              8,
+              2
+            ]
+          ]
+        },
+        {
+          "id": "two-ways-eight",
+          "schema": "two-ways",
+          "band": 1,
+          "target": 8,
+          "wall": [
+            1,
+            2,
+            3,
+            5,
+            6
+          ],
+          "solutions": [
+            [
+              6,
+              2
+            ],
+            [
+              5,
+              3
+            ]
+          ]
+        },
+        {
+          "id": "clunk-holds-6",
+          "schema": "missing-addend",
+          "band": 2,
+          "target": 10,
+          "given": [
+            6
+          ],
+          "wall": [
+            2,
+            3,
+            4
+          ],
+          "solutions": [
+            [
+              4
+            ]
+          ]
+        },
+        {
+          "id": "finish-with-2",
+          "schema": "multi-completer",
+          "band": 2,
+          "target": 10,
+          "given": [
+            6
+          ],
+          "wall": [
+            1,
+            2,
+            3
+          ],
+          "solutions": [
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "id": "exactly-three",
+          "schema": "exact-n",
+          "band": 2,
+          "target": 10,
+          "exactN": 3,
+          "wall": [
+            2,
+            3,
+            4
+          ],
+          "solutions": [
+            [
+              2,
+              4,
+              4
+            ],
+            [
+              3,
+              3,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "no-fives-wall",
+          "schema": "constrained-wall",
+          "band": 3,
+          "target": 10,
+          "allow": [
+            3,
+            4,
+            6,
+            7
+          ],
+          "wall": [
+            3,
+            4,
+            6,
+            7
+          ],
+          "solutions": [
+            [
+              6,
+              4
+            ],
+            [
+              3,
+              3,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "too-full",
+          "schema": "reduce",
+          "band": 3,
+          "target": 8,
+          "start": [
+            3,
+            3,
+            4,
+            2
+          ],
+          "wall": [
+            2,
+            3,
+            4
+          ],
+          "solutions": [
+            [
+              4
+            ]
+          ]
+        },
+        {
+          "id": "make-twelve",
+          "schema": "free",
+          "band": 2,
+          "target": 12,
+          "wall": [
+            3,
+            4,
+            5,
+            7,
+            8,
+            9
+          ],
+          "solutions": [
+            [
+              8,
+              4
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              3,
+              9
+            ]
+          ]
+        },
+        {
+          "id": "two-ways-14",
+          "schema": "two-ways",
+          "band": 3,
+          "target": 14,
+          "wall": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "solutions": [
+            [
+              7,
+              7
+            ],
+            [
+              6,
+              8
+            ]
+          ]
+        }
       ]
     },
     "theme": null,
-    "slug": { "en": "clunks-lost-lunch", "de": "zahlen-zusammensetzen-auf-verschiedene-arten-klasse-1", "fr": "composer-un-nombre-de-plusieurs-facons-cp" },
-    "page_title": { "en": "Clunk's Lost Lunch — Make the Number Many Ways", "de": "Zahlen zusammensetzen – viele Wege | Klasse 1 mit Clunk", "fr": "Le déjeuner perdu de Clunk : composer un nombre de plusieurs façons (CP)" },
-    "page_intro": { "en": "Clunk the snack-robot is hungry for an exact number of crunch-units, but his adding chip cracked — so you're his helper! Pick snacks off the wall into his lunchbox to make his number any way you like, then feed him to find out. Then make it again a whole new way! A warm Kindergarten decompose-a-number game aligned to Common Core K.OA.A.3.", "de": "Setze eine Zahl mit Clunks Snacks auf viele verschiedene Arten zusammen – Zahlzerlegung interaktiv & kostenlos üben. Perfekt für Klasse 1. Jetzt loslegen!", "fr": "Un jeu de maths CP, gratuit et interactif : Clunk le robot-goûter a faim d'un nombre précis de croque-points, mais sa puce à calculer est cassée — tu es son assistant ! Choisis des goûters sur le mur pour composer son nombre comme tu veux, puis nourris-le pour vérifier. Ensuite, refais-le d'une façon toute nouvelle ! Un jeu tout doux pour décomposer et recomposer les nombres." },
+    "slug": {
+      "en": "clunks-lost-lunch",
+      "de": "zahlen-zusammensetzen-auf-verschiedene-arten-klasse-1",
+      "fr": "composer-un-nombre-de-plusieurs-facons-cp"
+    },
+    "page_title": {
+      "en": "Clunk's Lost Lunch — Make the Number Many Ways",
+      "de": "Zahlen zusammensetzen – viele Wege | Klasse 1 mit Clunk",
+      "fr": "Décomposer un nombre de plusieurs façons – en ligne (CP)"
+    },
+    "page_intro": {
+      "en": "Clunk the snack-robot is hungry for an exact number of crunch-units, but his adding chip cracked — so you're his helper! Pick snacks off the wall into his lunchbox to make his number any way you like, then feed him to find out. Then make it again a whole new way! A warm Kindergarten decompose-a-number game aligned to Common Core K.OA.A.3.",
+      "de": "Setze eine Zahl mit Clunks Snacks auf viele verschiedene Arten zusammen – Zahlzerlegung interaktiv & kostenlos üben. Perfekt für Klasse 1. Jetzt loslegen!",
+      "fr": "Décomposer un même nombre de plusieurs façons jusqu'à 10 avec Clunk, étape par étape. Gratuit, en ligne, sans inscription."
+    },
     "kid_prompt_template": "make-total"
   }
 ]

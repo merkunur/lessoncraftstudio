@@ -297,12 +297,12 @@
     "page_title": {
       "en": "Pip's Round — Read the House Numbers",
       "de": "Zahlen lernen – Ziffern bis 20 erkennen, online üben",
-      "fr": "La tournée de Pip : lire les nombres jusqu'à 20 (CP)"
+      "fr": "Reconnaître les chiffres – nombres jusqu'à 20, en ligne (CP)"
     },
     "page_intro": {
       "en": "Pip the postal mouse is on her morning round, and someone is waiting for their letter! Read the number on the envelope — or listen for it — then tap the matching house to deliver. The curtains fly open and a happy neighbor waves. A warm Kindergarten number-reading game aligned to Common Core K.CC.A.3.",
       "de": "Zahlen lernen im Kindergarten: Ziffern bis 20 lesen und erkennen – mit Pip auf Posttour. Kostenlos online üben, ohne Anmeldung.",
-      "fr": "Un jeu de maths CP, gratuit et interactif : Pip la souris factrice fait sa tournée du matin, et quelqu'un attend sa lettre ! Lis le nombre sur l'enveloppe — ou écoute-le — puis touche la maison qui correspond pour la distribuer. Les rideaux s'ouvrent et un voisin tout content fait coucou. Un jeu tout doux pour lire les nombres écrits en chiffres jusqu'à 20."
+      "fr": "Reconnaître les chiffres et lire les nombres jusqu'à 20 pendant la tournée du facteur Pip. Gratuit, en ligne, sans inscription."
     },
     "kid_prompt_template": "mail-route"
   }

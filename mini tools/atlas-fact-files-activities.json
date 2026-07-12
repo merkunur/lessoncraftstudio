@@ -316,12 +316,12 @@
     "page_title": {
       "en": "Atlas's Fact Files — Find the Key Detail (Kindergarten)",
       "de": "Leseverstehen üben – Sachtexte lesen (Grundschule)",
-      "fr": "Les fiches d'Atlas — Lire un texte documentaire (CP)"
+      "fr": "Lecture CP – lire un texte documentaire en ligne"
     },
     "page_intro": {
       "en": "Atlas the armadillo keeps a file full of real facts! Read his two-sentence fact, then answer the question by tapping the key detail you found — who, what, where, or how many. A Kindergarten reading game about finding key details in an informational (fact) text, aligned to Common Core RI.K.1.",
       "de": "Leseverstehen in der Grundschule: kurze Sachtexte lesen und wichtige Details finden. Kostenlos online üben, ohne Anmeldung – ab Klasse 1.",
-      "fr": "Avec Atlas le tatou, votre enfant écoute ou lit un tout petit texte documentaire, puis retrouve la réponse à une question posée juste en dessous. En douceur, il apprend à comprendre ce qu'il lit, à prélever une information dans le texte et à répondre à une question précise (Où ? Que ? Quand ? Combien ?). C'est gratuit, interactif, cela se joue directement dans le navigateur, sans minuteur, sans score et sans compte à créer."
+      "fr": "Lecture au CP : lire un petit texte documentaire avec Atlas et retrouver les détails clés. Gratuit, en ligne, sans inscription."
     },
     "kid_prompt_template": "Read the facts, then tap the answer to the question."
   }

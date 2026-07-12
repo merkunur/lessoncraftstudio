@@ -3,22 +3,124 @@
     "id": "star-stitcher.connect-sequence.k-cc-a-2",
     "tool": "star-stitcher-activity",
     "task_template": "connect-sequence",
-    "alignment": { "framework": "CCSS", "code": "K.CC.A.2", "grade": "K", "strand": "Counting & Cardinality" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.CC.A.2",
+      "grade": "K",
+      "strand": "Counting & Cardinality"
+    },
     "params": {
       "rounds": [
-        { "id": "plus1-7", "type": "plus-one", "band": 1, "start": 7, "n": 6, "reveal": "fox" },
-        { "id": "byn-12", "type": "by-n", "band": 2, "start": 12, "n": 7, "targets": [15, 18], "reveal": "owl" },
-        { "id": "fillgap-6", "type": "fill-gap", "band": 2, "start": 6, "n": 6, "anchors": [6, 11], "targets": [7, 8, 9, 10], "reveal": "whale" },
-        { "id": "continue-12", "type": "continue", "band": 3, "start": 12, "n": 5, "running": [10, 11, 12], "targets": [13, 14, 15, 16], "reveal": "deer" },
-        { "id": "readk-11", "type": "read-k", "band": 3, "start": 11, "n": 6, "anchors": [11], "reveal": "bear" },
-        { "id": "qty-7", "type": "quantity-start", "band": 4, "start": 7, "n": 5, "setN": 7, "targets": [8, 9, 10, 11], "reveal": "cat" },
-        { "id": "discriminate-2", "type": "discriminate", "band": 4, "start": 2, "n": 6, "decoy": true, "reveal": "bird" }
+        {
+          "id": "plus1-7",
+          "type": "plus-one",
+          "band": 1,
+          "start": 7,
+          "n": 6,
+          "reveal": "fox"
+        },
+        {
+          "id": "byn-12",
+          "type": "by-n",
+          "band": 2,
+          "start": 12,
+          "n": 7,
+          "targets": [
+            15,
+            18
+          ],
+          "reveal": "owl"
+        },
+        {
+          "id": "fillgap-6",
+          "type": "fill-gap",
+          "band": 2,
+          "start": 6,
+          "n": 6,
+          "anchors": [
+            6,
+            11
+          ],
+          "targets": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "reveal": "whale"
+        },
+        {
+          "id": "continue-12",
+          "type": "continue",
+          "band": 3,
+          "start": 12,
+          "n": 5,
+          "running": [
+            10,
+            11,
+            12
+          ],
+          "targets": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "reveal": "deer"
+        },
+        {
+          "id": "readk-11",
+          "type": "read-k",
+          "band": 3,
+          "start": 11,
+          "n": 6,
+          "anchors": [
+            11
+          ],
+          "reveal": "bear"
+        },
+        {
+          "id": "qty-7",
+          "type": "quantity-start",
+          "band": 4,
+          "start": 7,
+          "n": 5,
+          "setN": 7,
+          "targets": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "reveal": "cat"
+        },
+        {
+          "id": "discriminate-2",
+          "type": "discriminate",
+          "band": 4,
+          "start": 2,
+          "n": 6,
+          "decoy": true,
+          "reveal": "bird"
+        }
       ]
     },
     "theme": null,
-    "slug": { "en": "count-the-stars-awake", "de": "weiterzaehlen-ab-einer-zahl-zahlenreihe-klasse-1", "fr": "compter-a-partir-d-un-nombre-reveiller-les-etoiles-gs" },
-    "page_title": { "en": "Count the Stars Awake — Counting On from a Number (Kindergarten)", "de": "Weiterzählen ab einer Zahl: Sterne wecken – Klasse 1", "fr": "Compter à partir d'un nombre donné - Réveille les étoiles - GS" },
-    "page_intro": { "en": "A free interactive Kindergarten counting game: a little firefly is stuck — she can only fly where you have already counted. Start at the one lit star and count her FORWARD, one dark star at a time (eight… nine… ten…), waking each star as you go. When the last star lights, the sleeping constellation wakes up. Counting forward from a given number — not always starting at one — is the heart of Common Core K.CC.A.2.", "de": "Weiterzählen ab einer Zahl üben: In diesem kostenlosen, interaktiven Spiel für Klasse 1 zählst du vorwärts und weckst Stern für Stern – jetzt loslegen!", "fr": "Une petite luciole est coincée : elle ne peut voler que là où ton enfant a déjà compté. À partir de la seule étoile allumée, compte-la en avant, une étoile sombre à la fois (huit… neuf… dix…), en réveillant chaque étoile. Quand la dernière étoile s'allume, la constellation endormie se réveille ! Compter à partir d'un nombre donné, pas toujours à partir de un : une activité gratuite et interactive pour la GS." },
+    "slug": {
+      "en": "count-the-stars-awake",
+      "de": "weiterzaehlen-ab-einer-zahl-zahlenreihe-klasse-1",
+      "fr": "compter-a-partir-d-un-nombre-reveiller-les-etoiles-gs"
+    },
+    "page_title": {
+      "en": "Count the Stars Awake — Counting On from a Number (Kindergarten)",
+      "de": "Weiterzählen ab einer Zahl: Sterne wecken – Klasse 1",
+      "fr": "Suite des nombres – compter à partir d'un nombre, en ligne (GS)"
+    },
+    "page_intro": {
+      "en": "A free interactive Kindergarten counting game: a little firefly is stuck — she can only fly where you have already counted. Start at the one lit star and count her FORWARD, one dark star at a time (eight… nine… ten…), waking each star as you go. When the last star lights, the sleeping constellation wakes up. Counting forward from a given number — not always starting at one — is the heart of Common Core K.CC.A.2.",
+      "de": "Weiterzählen ab einer Zahl üben: In diesem kostenlosen, interaktiven Spiel für Klasse 1 zählst du vorwärts und weckst Stern für Stern – jetzt loslegen!",
+      "fr": "La suite des nombres : compter à partir d'un nombre donné pour réveiller les étoiles une à une. Gratuit, en ligne, sans inscription."
+    },
     "kid_prompt_template": "connect-sequence"
   }
 ]

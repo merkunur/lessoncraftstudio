@@ -220,12 +220,12 @@
     "page_title": {
       "en": "Sprocket's Clock — Elapsed Time: What Time Will It Be? (Grade 3)",
       "de": "Zeitpunkt und Zeitspanne – Zeitspannen berechnen (Klasse 3)",
-      "fr": "L'horloge de Sprocket : calculer une durée — quelle heure sera-t-il ? – CE2"
+      "fr": "Problèmes de durée CE2 – exercice en ligne gratuit"
     },
     "page_intro": {
       "en": "A free interactive Grade 3 time activity: read the start time on the clock, then count on the minutes to find what time it will be. Children solve elapsed-time problems like 'it is 3:00 — what time will it be in 30 minutes?', including times that cross the next hour. Sprocket the rooster cheers them on. Common Core 3.MD.A.1.",
       "de": "Zeitpunkt und Zeitspanne in Klasse 3: Zeitspannen an der Uhr berechnen – Schritt für Schritt an Sprockets Uhr. Kostenlos online, ohne Anmeldung.",
-      "fr": "Un jeu de maths CE2, gratuit et interactif : Sprocket le coq montre une horloge, et ton enfant lit l'heure de départ puis compte les minutes pour trouver l'heure d'arrivée parmi trois horloges numériques. L'enfant apprend à calculer une durée sur l'horloge — un premier pas vers les problèmes de durées. Sans minuteur, sans points, au rythme de l'enfant."
+      "fr": "Problèmes de durée CE2 en ligne : quelle heure sera-t-il ? Calculer une durée avec l'horloge. Gratuit, en ligne, sans inscription."
     },
     "kid_prompt_template": "clock-elapsed"
   },

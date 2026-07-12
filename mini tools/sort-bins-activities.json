@@ -3,17 +3,140 @@
     "id": "sort-bins.sort-by-sides.2-g-a-1",
     "tool": "sort-bins-activity",
     "task_template": "sort-by-sides",
-    "alignment": { "framework": "CCSS", "code": "2.G.A.1", "grade": "2", "strand": "Geometry" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "2.G.A.1",
+      "grade": "2",
+      "strand": "Geometry"
+    },
     "params": {
       "rounds": [
-        { "bins": ["triangle", "quadrilateral", "pentagon"],            "items": ["tri_equi", "tri_right", "quad_square", "quad_rect", "pent_reg", "pent_house"],                "seed": 11 },
-        { "bins": ["triangle", "quadrilateral", "hexagon"],             "items": ["tri_equi", "tri_obtuse", "quad_rhombus", "quad_trap", "hex_reg", "hex_irreg"],                "seed": 23 },
-        { "bins": ["quadrilateral", "pentagon", "hexagon"],             "items": ["quad_square", "quad_para", "pent_reg", "pent_house", "hex_reg", "hex_irreg"],                  "seed": 31 },
-        { "bins": ["triangle", "quadrilateral"],                        "items": ["tri_equi", "tri_right", "tri_obtuse", "quad_square", "quad_rect", "quad_rhombus", "quad_trap"], "seed": 41 },
-        { "bins": ["triangle", "quadrilateral", "pentagon", "hexagon"], "items": ["tri_equi", "quad_trap", "pent_reg", "hex_reg", "quad_rect", "hex_irreg"],                      "seed": 53 },
-        { "bins": ["triangle", "pentagon"],                             "items": ["tri_equi", "tri_right", "tri_obtuse", "pent_reg", "pent_house"],                               "seed": 61 },
-        { "bins": ["quadrilateral", "hexagon"],                         "items": ["quad_square", "quad_rect", "quad_rhombus", "hex_reg", "hex_irreg"],                            "seed": 67 },
-        { "bins": ["triangle", "quadrilateral", "pentagon", "hexagon"], "items": ["tri_obtuse", "quad_para", "pent_house", "hex_irreg", "quad_rect", "pent_reg"],                "seed": 71 }
+        {
+          "bins": [
+            "triangle",
+            "quadrilateral",
+            "pentagon"
+          ],
+          "items": [
+            "tri_equi",
+            "tri_right",
+            "quad_square",
+            "quad_rect",
+            "pent_reg",
+            "pent_house"
+          ],
+          "seed": 11
+        },
+        {
+          "bins": [
+            "triangle",
+            "quadrilateral",
+            "hexagon"
+          ],
+          "items": [
+            "tri_equi",
+            "tri_obtuse",
+            "quad_rhombus",
+            "quad_trap",
+            "hex_reg",
+            "hex_irreg"
+          ],
+          "seed": 23
+        },
+        {
+          "bins": [
+            "quadrilateral",
+            "pentagon",
+            "hexagon"
+          ],
+          "items": [
+            "quad_square",
+            "quad_para",
+            "pent_reg",
+            "pent_house",
+            "hex_reg",
+            "hex_irreg"
+          ],
+          "seed": 31
+        },
+        {
+          "bins": [
+            "triangle",
+            "quadrilateral"
+          ],
+          "items": [
+            "tri_equi",
+            "tri_right",
+            "tri_obtuse",
+            "quad_square",
+            "quad_rect",
+            "quad_rhombus",
+            "quad_trap"
+          ],
+          "seed": 41
+        },
+        {
+          "bins": [
+            "triangle",
+            "quadrilateral",
+            "pentagon",
+            "hexagon"
+          ],
+          "items": [
+            "tri_equi",
+            "quad_trap",
+            "pent_reg",
+            "hex_reg",
+            "quad_rect",
+            "hex_irreg"
+          ],
+          "seed": 53
+        },
+        {
+          "bins": [
+            "triangle",
+            "pentagon"
+          ],
+          "items": [
+            "tri_equi",
+            "tri_right",
+            "tri_obtuse",
+            "pent_reg",
+            "pent_house"
+          ],
+          "seed": 61
+        },
+        {
+          "bins": [
+            "quadrilateral",
+            "hexagon"
+          ],
+          "items": [
+            "quad_square",
+            "quad_rect",
+            "quad_rhombus",
+            "hex_reg",
+            "hex_irreg"
+          ],
+          "seed": 67
+        },
+        {
+          "bins": [
+            "triangle",
+            "quadrilateral",
+            "pentagon",
+            "hexagon"
+          ],
+          "items": [
+            "tri_obtuse",
+            "quad_para",
+            "pent_house",
+            "hex_irreg",
+            "quad_rect",
+            "pent_reg"
+          ],
+          "seed": 71
+        }
       ]
     },
     "theme": null,
@@ -35,7 +158,7 @@
       "de": "Formen nach Ecken sortieren – Dreiecke, Vierecke, Fünf- und Sechsecke (2. Klasse)",
       "es": "Clasifica figuras por lados — triángulos y cuadriláteros (segundo de primaria)",
       "pt": "Classificar figuras por lados — triângulos, quadriláteros, pentágonos e hexágonos (2º ano)",
-      "fr": "Trier les formes par côtés — triangles, quadrilatères, pentagones et hexagones (CE1)",
+      "fr": "Géométrie CE1 : trier les formes – exercice en ligne gratuit",
       "it": "Ordina le figure per lati: triangoli, quadrilateri, pentagoni ed esagoni (classe seconda)",
       "nl": "Vormen sorteren op zijden — driehoeken, vierhoeken, vijfhoeken en zeshoeken (groep 4)",
       "sv": "Sortera former efter sidor — trianglar, fyrhörningar, femhörningar och sexhörningar (åk 2)",
@@ -48,7 +171,7 @@
       "de": "Kostenlose interaktive Geometrie-Übung für die 2. Klasse: Ziehe jede Form in den richtigen Korb – Dreiecke, Vierecke, Fünfecke und Sechsecke – und zähle dabei die Ecken. Passend zum Lehrplan (2.G.A.1).",
       "es": "Actividad gratis e interactiva de geometría para segundo de primaria: arrastra cada figura a su caja y clasifícala por su número de lados (3, 4, 5 o 6). Cuenta y aprende jugando.",
       "pt": "Atividade de geometria gratuita e interativa para o 2º ano: arraste e classifique cada figura por número de lados — triângulos, quadriláteros, pentágonos e hexágonos. Alinhada à BNCC (2.G.A.1).",
-      "fr": "Une activité de géométrie CE1 gratuite et interactive : glisse chaque forme dans la bonne boîte — triangles, quadrilatères, pentagones, hexagones — en comptant ses côtés. Programmes officiels (CCSS 2.G.A.1).",
+      "fr": "Exercice de géométrie CE1 en ligne : trier triangles, quadrilatères, pentagones et hexagones par côtés. Gratuit, sans inscription.",
       "it": "Attività di geometria gratuita e interattiva per la classe seconda della scuola primaria: trascina ogni figura nel contenitore giusto e ordinala per numero di lati. In linea con le Indicazioni nazionali (2.G.A.1).",
       "nl": "Gratis interactieve meetkunde voor groep 4: sleep en sorteer elke vorm in de juiste bak op het aantal zijden — driehoeken, vierhoeken, vijfhoeken en zeshoeken. Sluit aan op de SLO-kerndoelen (CCSS 2.G.A.1).",
       "sv": "En gratis interaktiv geometriövning för åk 2: dra varje form till rätt låda — trianglar, fyrhörningar, femhörningar eller sexhörningar — genom att räkna antalet sidor. Följer Lgr22 (2.G.A.1).",
@@ -62,17 +185,120 @@
     "id": "sort-bins.defining-attributes.1-g-a-1",
     "tool": "sort-bins-activity",
     "task_template": "defining-attributes",
-    "alignment": { "framework": "CCSS", "code": "1.G.A.1", "grade": "1", "strand": "Geometry" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "1.G.A.1",
+      "grade": "1",
+      "strand": "Geometry"
+    },
     "params": {
       "rounds": [
-        { "target": "triangle",      "trueItems": ["tri_equi", "tri_right", "tri_obtuse"], "falseItems": ["quad_square", "pent_reg", "hex_reg"],   "seed": 101 },
-        { "target": "quadrilateral", "trueItems": ["quad_square", "quad_rect", "quad_trap"], "falseItems": ["tri_equi", "pent_reg", "hex_reg"],    "seed": 113 },
-        { "target": "pentagon",      "trueItems": ["pent_reg", "pent_house"], "falseItems": ["tri_right", "quad_rhombus", "hex_irreg"],            "seed": 127 },
-        { "target": "hexagon",       "trueItems": ["hex_reg", "hex_irreg"], "falseItems": ["tri_obtuse", "quad_para", "pent_reg"],                 "seed": 139 },
-        { "target": "triangle",      "trueItems": ["tri_equi", "tri_obtuse"], "falseItems": ["quad_rect", "quad_trap", "pent_house"],              "seed": 151 },
-        { "target": "quadrilateral", "trueItems": ["quad_rhombus", "quad_para", "quad_rect"], "falseItems": ["tri_right", "pent_house", "hex_reg"], "seed": 163 },
-        { "target": "pentagon",      "trueItems": ["pent_reg", "pent_house"], "falseItems": ["tri_equi", "quad_square", "hex_irreg"],              "seed": 173 },
-        { "target": "hexagon",       "trueItems": ["hex_reg", "hex_irreg"], "falseItems": ["tri_right", "quad_rect"],                              "seed": 181 }
+        {
+          "target": "triangle",
+          "trueItems": [
+            "tri_equi",
+            "tri_right",
+            "tri_obtuse"
+          ],
+          "falseItems": [
+            "quad_square",
+            "pent_reg",
+            "hex_reg"
+          ],
+          "seed": 101
+        },
+        {
+          "target": "quadrilateral",
+          "trueItems": [
+            "quad_square",
+            "quad_rect",
+            "quad_trap"
+          ],
+          "falseItems": [
+            "tri_equi",
+            "pent_reg",
+            "hex_reg"
+          ],
+          "seed": 113
+        },
+        {
+          "target": "pentagon",
+          "trueItems": [
+            "pent_reg",
+            "pent_house"
+          ],
+          "falseItems": [
+            "tri_right",
+            "quad_rhombus",
+            "hex_irreg"
+          ],
+          "seed": 127
+        },
+        {
+          "target": "hexagon",
+          "trueItems": [
+            "hex_reg",
+            "hex_irreg"
+          ],
+          "falseItems": [
+            "tri_obtuse",
+            "quad_para",
+            "pent_reg"
+          ],
+          "seed": 139
+        },
+        {
+          "target": "triangle",
+          "trueItems": [
+            "tri_equi",
+            "tri_obtuse"
+          ],
+          "falseItems": [
+            "quad_rect",
+            "quad_trap",
+            "pent_house"
+          ],
+          "seed": 151
+        },
+        {
+          "target": "quadrilateral",
+          "trueItems": [
+            "quad_rhombus",
+            "quad_para",
+            "quad_rect"
+          ],
+          "falseItems": [
+            "tri_right",
+            "pent_house",
+            "hex_reg"
+          ],
+          "seed": 163
+        },
+        {
+          "target": "pentagon",
+          "trueItems": [
+            "pent_reg",
+            "pent_house"
+          ],
+          "falseItems": [
+            "tri_equi",
+            "quad_square",
+            "hex_irreg"
+          ],
+          "seed": 173
+        },
+        {
+          "target": "hexagon",
+          "trueItems": [
+            "hex_reg",
+            "hex_irreg"
+          ],
+          "falseItems": [
+            "tri_right",
+            "quad_rect"
+          ],
+          "seed": 181
+        }
       ]
     },
     "theme": null,
@@ -94,7 +320,7 @@
       "de": "Formen erkennen – Dreiecke, Vierecke, Fünf- und Sechsecke (1. Klasse)",
       "es": "Descubre la figura por sus lados — triángulos y cuadriláteros (primero de primaria)",
       "pt": "Descubra a figura pelos lados — triângulos, quadriláteros, pentágonos e hexágonos (1º ano)",
-      "fr": "Reconnais la forme par ses côtés — triangles, quadrilatères, pentagones et hexagones (CP)",
+      "fr": "Trier les formes par leurs côtés – exercice en ligne (CP)",
       "it": "Riconosci le figure: triangoli, quadrilateri, pentagoni ed esagoni (classe prima)",
       "nl": "Vormen herkennen aan zijden — driehoeken, vierhoeken, vijfhoeken en zeshoeken (groep 3)",
       "sv": "Hitta formen – sortera trianglar, fyrhörningar, femhörningar och sexhörningar (åk 1)",
@@ -107,7 +333,7 @@
       "de": "Kostenlose interaktive Geometrie-Übung für die 1. Klasse: Sortiere jede Form in den richtigen Korb und erkenne sie an ihren Ecken – egal welche Farbe, Größe oder Drehung. Passend zum Lehrplan (1.G.A.1).",
       "es": "Un triángulo sigue siendo triángulo aunque cambie de color, tamaño o dirección. Tu peque clasifica figuras por su número de lados (Currículo LOMLOE, 1.G.A.1).",
       "pt": "Atividade interativa em que a criança reconhece cada figura pelo número de lados, mesmo mudando a cor, o tamanho ou a direção. Alinhada à BNCC (1.G.A.1).",
-      "fr": "Une forme reste la même quelle que soit sa couleur, sa taille ou son sens : l'enfant la reconnaît au nombre de côtés. Activité de géométrie pour le CP, alignée aux Programmes officiels (CCSS 1.G.A.1).",
+      "fr": "Trier les formes selon leurs côtés : triangles, quadrilatères, pentagones et hexagones. Gratuit, en ligne, sans inscription.",
       "it": "Un'attività di geometria per la classe prima: riconosci ogni figura dal numero di lati, non dal colore o dalla grandezza. In linea con le Indicazioni nazionali (1.G.A.1).",
       "nl": "Sleep elke vorm naar de juiste bak en herken hem aan het aantal zijden — niet aan kleur, grootte of richting. Sluit aan op de SLO-kerndoelen (CCSS 1.G.A.1).",
       "sv": "Barnen lär sig känna igen former efter antalet sidor – inte färg, storlek eller riktning. En triangel är en triangel även när den är röd, stor eller vänd åt ett annat håll. Följer Lgr22 (1.G.A.1).",

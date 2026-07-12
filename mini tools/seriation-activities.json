@@ -3,22 +3,241 @@
     "id": "seriation.compare-length.1-md-a-1",
     "tool": "seriation-activity",
     "task_template": "seriation",
-    "alignment": { "framework": "CCSS", "code": "1.MD.A.1", "grade": "1", "strand": "Measurement & Data" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "1.MD.A.1",
+      "grade": "1",
+      "strand": "Measurement & Data"
+    },
     "theme": null,
     "params": {
       "maxUnit": 12,
       "rounds": [
-        { "id": "fs-l1", "mode": "longest",  "cordLen": 6, "ribbons": [ { "id": "red",   "color": "red",   "label": "Red",   "len": 8 }, { "id": "blue",  "color": "blue",  "label": "Blue",  "len": 5 }, { "id": "green", "color": "green", "label": "Green", "len": 3 } ] },
-        { "id": "fs-l2", "mode": "longest",  "cordLen": 5, "ribbons": [ { "id": "blue",  "color": "blue",  "label": "Blue",  "len": 4 }, { "id": "green", "color": "green", "label": "Green", "len": 9 }, { "id": "yellow","color": "yellow","label": "Yellow","len": 6 } ] },
-        { "id": "fs-l3", "mode": "longest",  "cordLen": 6, "ribbons": [ { "id": "red",   "color": "red",   "label": "Red",   "len": 3 }, { "id": "purple","color": "purple","label": "Purple","len": 7 }, { "id": "orange","color": "orange","label": "Orange","len": 10 } ] },
-
-        { "id": "fs-s1", "mode": "shortest", "cordLen": 6, "ribbons": [ { "id": "red",   "color": "red",   "label": "Red",   "len": 4 }, { "id": "blue",  "color": "blue",  "label": "Blue",  "len": 7 }, { "id": "green", "color": "green", "label": "Green", "len": 9 } ] },
-        { "id": "fs-s2", "mode": "shortest", "cordLen": 6, "ribbons": [ { "id": "blue",  "color": "blue",  "label": "Blue",  "len": 8 }, { "id": "green", "color": "green", "label": "Green", "len": 5 }, { "id": "yellow","color": "yellow","label": "Yellow","len": 2 } ] },
-        { "id": "fs-s3", "mode": "shortest", "cordLen": 5, "ribbons": [ { "id": "red",   "color": "red",   "label": "Red",   "len": 9 }, { "id": "purple","color": "purple","label": "Purple","len": 6 }, { "id": "orange","color": "orange","label": "Orange","len": 3 } ] },
-
-        { "id": "fs-c1", "mode": "samecord", "cordLen": 5, "ribbons": [ { "id": "red",   "color": "red",   "label": "Red",   "len": 5 }, { "id": "blue",  "color": "blue",  "label": "Blue",  "len": 8 }, { "id": "green", "color": "green", "label": "Green", "len": 3 } ] },
-        { "id": "fs-c2", "mode": "samecord", "cordLen": 7, "ribbons": [ { "id": "blue",  "color": "blue",  "label": "Blue",  "len": 4 }, { "id": "green", "color": "green", "label": "Green", "len": 7 }, { "id": "yellow","color": "yellow","label": "Yellow","len": 9 } ] },
-        { "id": "fs-c3", "mode": "samecord", "cordLen": 6, "ribbons": [ { "id": "red",   "color": "red",   "label": "Red",   "len": 6 }, { "id": "purple","color": "purple","label": "Purple","len": 2 }, { "id": "orange","color": "orange","label": "Orange","len": 9 } ] }
+        {
+          "id": "fs-l1",
+          "mode": "longest",
+          "cordLen": 6,
+          "ribbons": [
+            {
+              "id": "red",
+              "color": "red",
+              "label": "Red",
+              "len": 8
+            },
+            {
+              "id": "blue",
+              "color": "blue",
+              "label": "Blue",
+              "len": 5
+            },
+            {
+              "id": "green",
+              "color": "green",
+              "label": "Green",
+              "len": 3
+            }
+          ]
+        },
+        {
+          "id": "fs-l2",
+          "mode": "longest",
+          "cordLen": 5,
+          "ribbons": [
+            {
+              "id": "blue",
+              "color": "blue",
+              "label": "Blue",
+              "len": 4
+            },
+            {
+              "id": "green",
+              "color": "green",
+              "label": "Green",
+              "len": 9
+            },
+            {
+              "id": "yellow",
+              "color": "yellow",
+              "label": "Yellow",
+              "len": 6
+            }
+          ]
+        },
+        {
+          "id": "fs-l3",
+          "mode": "longest",
+          "cordLen": 6,
+          "ribbons": [
+            {
+              "id": "red",
+              "color": "red",
+              "label": "Red",
+              "len": 3
+            },
+            {
+              "id": "purple",
+              "color": "purple",
+              "label": "Purple",
+              "len": 7
+            },
+            {
+              "id": "orange",
+              "color": "orange",
+              "label": "Orange",
+              "len": 10
+            }
+          ]
+        },
+        {
+          "id": "fs-s1",
+          "mode": "shortest",
+          "cordLen": 6,
+          "ribbons": [
+            {
+              "id": "red",
+              "color": "red",
+              "label": "Red",
+              "len": 4
+            },
+            {
+              "id": "blue",
+              "color": "blue",
+              "label": "Blue",
+              "len": 7
+            },
+            {
+              "id": "green",
+              "color": "green",
+              "label": "Green",
+              "len": 9
+            }
+          ]
+        },
+        {
+          "id": "fs-s2",
+          "mode": "shortest",
+          "cordLen": 6,
+          "ribbons": [
+            {
+              "id": "blue",
+              "color": "blue",
+              "label": "Blue",
+              "len": 8
+            },
+            {
+              "id": "green",
+              "color": "green",
+              "label": "Green",
+              "len": 5
+            },
+            {
+              "id": "yellow",
+              "color": "yellow",
+              "label": "Yellow",
+              "len": 2
+            }
+          ]
+        },
+        {
+          "id": "fs-s3",
+          "mode": "shortest",
+          "cordLen": 5,
+          "ribbons": [
+            {
+              "id": "red",
+              "color": "red",
+              "label": "Red",
+              "len": 9
+            },
+            {
+              "id": "purple",
+              "color": "purple",
+              "label": "Purple",
+              "len": 6
+            },
+            {
+              "id": "orange",
+              "color": "orange",
+              "label": "Orange",
+              "len": 3
+            }
+          ]
+        },
+        {
+          "id": "fs-c1",
+          "mode": "samecord",
+          "cordLen": 5,
+          "ribbons": [
+            {
+              "id": "red",
+              "color": "red",
+              "label": "Red",
+              "len": 5
+            },
+            {
+              "id": "blue",
+              "color": "blue",
+              "label": "Blue",
+              "len": 8
+            },
+            {
+              "id": "green",
+              "color": "green",
+              "label": "Green",
+              "len": 3
+            }
+          ]
+        },
+        {
+          "id": "fs-c2",
+          "mode": "samecord",
+          "cordLen": 7,
+          "ribbons": [
+            {
+              "id": "blue",
+              "color": "blue",
+              "label": "Blue",
+              "len": 4
+            },
+            {
+              "id": "green",
+              "color": "green",
+              "label": "Green",
+              "len": 7
+            },
+            {
+              "id": "yellow",
+              "color": "yellow",
+              "label": "Yellow",
+              "len": 9
+            }
+          ]
+        },
+        {
+          "id": "fs-c3",
+          "mode": "samecord",
+          "cordLen": 6,
+          "ribbons": [
+            {
+              "id": "red",
+              "color": "red",
+              "label": "Red",
+              "len": 6
+            },
+            {
+              "id": "purple",
+              "color": "purple",
+              "label": "Purple",
+              "len": 2
+            },
+            {
+              "id": "orange",
+              "color": "orange",
+              "label": "Orange",
+              "len": 9
+            }
+          ]
+        }
       ]
     },
     "slug": {
@@ -29,12 +248,12 @@
     "page_title": {
       "en": "The Faraway Shelf — Compare & Order by Length (Grade 1)",
       "de": "Tillys Bänder — Längen vergleichen und ordnen (Klasse 1)",
-      "fr": "Les rubans de Tilly — Comparer et ranger par longueur (CP)"
+      "fr": "Ranger du plus petit au plus grand – les longueurs, en ligne (CP)"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 measurement activity: help Tilly the shop cat compare things on far-apart shelves using a measuring cord. Read each ribbon against the cord, then tap the longest, the shortest, or the one that is just as long as the cord. A friendly first look at ordering by length and comparing two things indirectly using a third. Common Core 1.MD.A.1.",
       "de": "Tilly versteckt Bänder auf weit entfernten Regalen. Vergleiche und ordne die Längen mit einer Schnur – kostenlose Mathe-Übung, Klasse 1, nach Lehrplan.",
-      "fr": "Tilly cache ses rubans sur des étagères éloignées : votre enfant les compare avec une ficelle, du plus long au plus court. Activité gratuite, Grandeurs et mesures, CP."
+      "fr": "Ranger les rubans du plus petit au plus grand : comparer les longueurs et les ordonner. Gratuit, en ligne, sans inscription."
     },
     "kid_prompt_template": "seriation"
   }

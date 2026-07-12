@@ -3,23 +3,184 @@
     "id": "necklace.bead-string.k-cc-b-4",
     "tool": "necklace-activity",
     "task_template": "bead-string",
-    "alignment": { "framework": "CCSS", "code": "K.CC.B.4", "grade": "K", "strand": "Counting & Cardinality" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.CC.B.4",
+      "grade": "K",
+      "strand": "Counting & Cardinality"
+    },
     "params": {
       "rounds": [
-        { "id": "onramp-thread-4", "type": "on-ramp", "band": 1, "assessment": false, "targetCount": 4, "naiveCount": 4, "model": { "spacing": "even", "palette": ["coral", "teal"], "n": 4 }, "paletteSupply": 8 },
-        { "id": "thread-6", "type": "count-and-thread", "band": 2, "targetCount": 6, "naiveCount": 6, "model": { "spacing": "even", "palette": ["coral", "teal"], "n": 6 }, "disturbance": { "kind": "hide", "narratedBefore": true }, "paletteSupply": 10 },
-        { "id": "recount-7", "type": "recount", "band": 2, "targetCount": 7, "naiveCount": 7, "model": { "spacing": "bunched", "palette": ["coral", "gold"], "n": 7 }, "disturbance": { "kind": "bunch", "narratedBefore": true }, "paletteSupply": 11 },
-        { "id": "scatter-8", "type": "scatter", "band": 3, "targetCount": 8, "naiveCount": 7, "model": { "spacing": "scatter", "palette": ["teal", "gold"], "n": 8 }, "disturbance": { "kind": "scatter", "narratedBefore": true }, "paletteSupply": 12 },
-        { "id": "findskip-9", "type": "find-skip", "band": 3, "targetCount": 9, "naiveCount": 10, "model": { "spacing": "even", "palette": ["coral", "teal"], "n": 9 }, "error": { "kind": "double", "at": 4 }, "paletteSupply": 13 },
-        { "id": "confirm-10", "type": "cardinality-confirm", "band": 4, "targetCount": 10, "naiveCount": 10, "confirmFromCount": true, "model": { "spacing": "even", "palette": ["teal", "gold"], "n": 10 }, "paletteSupply": 13 },
-        { "id": "heard-7", "type": "thread-to-heard", "band": 4, "targetCount": 7, "naiveCount": 0, "heardTarget": true, "model": { "spacing": "even", "palette": ["coral", "teal"], "n": 7 }, "paletteSupply": 11 },
-        { "id": "repair-8", "type": "repair-other", "band": 4, "targetCount": 8, "naiveCount": 9, "model": { "spacing": "even", "palette": ["coral", "gold"], "n": 8 }, "error": { "kind": "over", "by": 1, "at": 5 }, "paletteSupply": 12 }
+        {
+          "id": "onramp-thread-4",
+          "type": "on-ramp",
+          "band": 1,
+          "assessment": false,
+          "targetCount": 4,
+          "naiveCount": 4,
+          "model": {
+            "spacing": "even",
+            "palette": [
+              "coral",
+              "teal"
+            ],
+            "n": 4
+          },
+          "paletteSupply": 8
+        },
+        {
+          "id": "thread-6",
+          "type": "count-and-thread",
+          "band": 2,
+          "targetCount": 6,
+          "naiveCount": 6,
+          "model": {
+            "spacing": "even",
+            "palette": [
+              "coral",
+              "teal"
+            ],
+            "n": 6
+          },
+          "disturbance": {
+            "kind": "hide",
+            "narratedBefore": true
+          },
+          "paletteSupply": 10
+        },
+        {
+          "id": "recount-7",
+          "type": "recount",
+          "band": 2,
+          "targetCount": 7,
+          "naiveCount": 7,
+          "model": {
+            "spacing": "bunched",
+            "palette": [
+              "coral",
+              "gold"
+            ],
+            "n": 7
+          },
+          "disturbance": {
+            "kind": "bunch",
+            "narratedBefore": true
+          },
+          "paletteSupply": 11
+        },
+        {
+          "id": "scatter-8",
+          "type": "scatter",
+          "band": 3,
+          "targetCount": 8,
+          "naiveCount": 7,
+          "model": {
+            "spacing": "scatter",
+            "palette": [
+              "teal",
+              "gold"
+            ],
+            "n": 8
+          },
+          "disturbance": {
+            "kind": "scatter",
+            "narratedBefore": true
+          },
+          "paletteSupply": 12
+        },
+        {
+          "id": "findskip-9",
+          "type": "find-skip",
+          "band": 3,
+          "targetCount": 9,
+          "naiveCount": 10,
+          "model": {
+            "spacing": "even",
+            "palette": [
+              "coral",
+              "teal"
+            ],
+            "n": 9
+          },
+          "error": {
+            "kind": "double",
+            "at": 4
+          },
+          "paletteSupply": 13
+        },
+        {
+          "id": "confirm-10",
+          "type": "cardinality-confirm",
+          "band": 4,
+          "targetCount": 10,
+          "naiveCount": 10,
+          "confirmFromCount": true,
+          "model": {
+            "spacing": "even",
+            "palette": [
+              "teal",
+              "gold"
+            ],
+            "n": 10
+          },
+          "paletteSupply": 13
+        },
+        {
+          "id": "heard-7",
+          "type": "thread-to-heard",
+          "band": 4,
+          "targetCount": 7,
+          "naiveCount": 0,
+          "heardTarget": true,
+          "model": {
+            "spacing": "even",
+            "palette": [
+              "coral",
+              "teal"
+            ],
+            "n": 7
+          },
+          "paletteSupply": 11
+        },
+        {
+          "id": "repair-8",
+          "type": "repair-other",
+          "band": 4,
+          "targetCount": 8,
+          "naiveCount": 9,
+          "model": {
+            "spacing": "even",
+            "palette": [
+              "coral",
+              "gold"
+            ],
+            "n": 8
+          },
+          "error": {
+            "kind": "over",
+            "by": 1,
+            "at": 5
+          },
+          "paletteSupply": 12
+        }
       ]
     },
     "theme": null,
-    "slug": { "en": "the-necklace-that-wont-hold-still", "de": "zaehlen-anzahl-bestimmen-so-viele-wie-klasse-1", "fr": "compter-les-perles-du-collier-autant-gs" },
-    "page_title": { "en": "The Necklace That Won't Hold Still — Count & Make the Same Many (Kindergarten)", "de": "Anzahl zählen: So viele Perlen wie der Fuchs – Klasse 1", "fr": "Compter les perles : en enfiler autant que le renard - GS" },
-    "page_intro": { "en": "A free interactive Kindergarten counting game: a little fox makes a necklace to match its friend's — not the same colors, the same HOW-MANY. Count the friend's beads one by one, then thread your own to that number — even after the fox tucks it away or gives it a playful shake. The number is the one thing that doesn't change when everything else does. Counting each bead once, and knowing the last number tells how many, is the heart of Common Core K.CC.B.4.", "de": "Anzahl zählen üben: Zähl die Perlen und fädle genauso viele auf wie der Fuchs. Kostenloses, interaktives Mathe-Spiel für Klasse 1 – jetzt spielen!", "fr": "L'enfant compte les perles du collier du renard, puis en enfile autant sur le sien : le nombre ne change pas, même si on secoue le collier. Un jeu gratuit et interactif pour la GS, à essayer tout de suite !" },
+    "slug": {
+      "en": "the-necklace-that-wont-hold-still",
+      "de": "zaehlen-anzahl-bestimmen-so-viele-wie-klasse-1",
+      "fr": "compter-les-perles-du-collier-autant-gs"
+    },
+    "page_title": {
+      "en": "The Necklace That Won't Hold Still — Count & Make the Same Many (Kindergarten)",
+      "de": "Anzahl zählen: So viele Perlen wie der Fuchs – Klasse 1",
+      "fr": "Conservation des quantités – enfiler autant de perles, en ligne"
+    },
+    "page_intro": {
+      "en": "A free interactive Kindergarten counting game: a little fox makes a necklace to match its friend's — not the same colors, the same HOW-MANY. Count the friend's beads one by one, then thread your own to that number — even after the fox tucks it away or gives it a playful shake. The number is the one thing that doesn't change when everything else does. Counting each bead once, and knowing the last number tells how many, is the heart of Common Core K.CC.B.4.",
+      "de": "Anzahl zählen üben: Zähl die Perlen und fädle genauso viele auf wie der Fuchs. Kostenloses, interaktives Mathe-Spiel für Klasse 1 – jetzt spielen!",
+      "fr": "Travailler la conservation des quantités : compter les perles du renard et en enfiler exactement autant. Gratuit, en ligne, sans inscription."
+    },
     "kid_prompt_template": "bead-string"
   }
 ]

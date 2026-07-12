@@ -3,22 +3,116 @@
     "id": "twinsies.count-twin.k-cc-b-5",
     "tool": "twinsies-activity",
     "task_template": "count-twin",
-    "alignment": { "framework": "CCSS", "code": "K.CC.B.5", "grade": "K", "strand": "Counting & Cardinality" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.CC.B.5",
+      "grade": "K",
+      "strand": "Counting & Cardinality"
+    },
     "params": {
       "rounds": [
-        { "id": "onramp-line-5", "type": "on-ramp", "band": 1, "assessment": false, "model": { "arrangement": "line", "n": 5 }, "buildFamily": "line", "object": "acorn" },
-        { "id": "scattered-7", "type": "scattered", "band": 2, "model": { "arrangement": "scattered", "n": 7 }, "buildFamily": "ten-frame", "object": "acorn" },
-        { "id": "array-2x3", "type": "array", "band": 2, "model": { "arrangement": "array", "n": 6, "rows": 2, "cols": 3 }, "buildFamily": "track", "object": "acorn" },
-        { "id": "cover-line-12", "type": "cover-place", "band": 3, "cover": true, "model": { "arrangement": "line", "n": 12 }, "buildFamily": "ten-frame", "object": "acorn" },
-        { "id": "numeral-8", "type": "numeral", "band": 3, "source": "numeral", "model": { "arrangement": "numeral", "n": 8 }, "buildFamily": "ten-frame", "object": "acorn" },
-        { "id": "hidden-scattered-9", "type": "hidden", "band": 3, "cover": true, "model": { "arrangement": "scattered", "n": 9 }, "buildFamily": "ten-frame", "object": "acorn" },
-        { "id": "counton-line-7", "type": "count-on", "band": 4, "countOnFrom": 6, "model": { "arrangement": "line", "n": 7 }, "buildFamily": "ten-frame", "object": "acorn" }
+        {
+          "id": "onramp-line-5",
+          "type": "on-ramp",
+          "band": 1,
+          "assessment": false,
+          "model": {
+            "arrangement": "line",
+            "n": 5
+          },
+          "buildFamily": "line",
+          "object": "acorn"
+        },
+        {
+          "id": "scattered-7",
+          "type": "scattered",
+          "band": 2,
+          "model": {
+            "arrangement": "scattered",
+            "n": 7
+          },
+          "buildFamily": "ten-frame",
+          "object": "acorn"
+        },
+        {
+          "id": "array-2x3",
+          "type": "array",
+          "band": 2,
+          "model": {
+            "arrangement": "array",
+            "n": 6,
+            "rows": 2,
+            "cols": 3
+          },
+          "buildFamily": "track",
+          "object": "acorn"
+        },
+        {
+          "id": "cover-line-12",
+          "type": "cover-place",
+          "band": 3,
+          "cover": true,
+          "model": {
+            "arrangement": "line",
+            "n": 12
+          },
+          "buildFamily": "ten-frame",
+          "object": "acorn"
+        },
+        {
+          "id": "numeral-8",
+          "type": "numeral",
+          "band": 3,
+          "source": "numeral",
+          "model": {
+            "arrangement": "numeral",
+            "n": 8
+          },
+          "buildFamily": "ten-frame",
+          "object": "acorn"
+        },
+        {
+          "id": "hidden-scattered-9",
+          "type": "hidden",
+          "band": 3,
+          "cover": true,
+          "model": {
+            "arrangement": "scattered",
+            "n": 9
+          },
+          "buildFamily": "ten-frame",
+          "object": "acorn"
+        },
+        {
+          "id": "counton-line-7",
+          "type": "count-on",
+          "band": 4,
+          "countOnFrom": 6,
+          "model": {
+            "arrangement": "line",
+            "n": 7
+          },
+          "buildFamily": "ten-frame",
+          "object": "acorn"
+        }
       ]
     },
     "theme": null,
-    "slug": { "en": "twinsies", "de": "gleich-viele-legen-zwillingsmenge-klasse-1", "fr": "compter-et-faire-autant-le-lutin-jumeau-glands-gs" },
-    "page_title": { "en": "Twinsies — Count How Many & Count Out That Many (Kindergarten)", "de": "Gleich viele legen: Zwillingsmenge bilden – Klasse 1", "fr": "Compter et faire autant : le lutin jumeau et ses glands (GS)" },
-    "page_intro": { "en": "A free interactive Kindergarten counting game: the Twin-Sprite made something and wants a TWIN — not the same picture, the same MANY. Count what it made by tapping each one, then build a twin with the same number on your own plate (a different shape, so only the number matches). Tap \"We're twins!\" when you have just enough. Counting how many, and counting out that many, is the heart of Common Core K.CC.B.5.", "de": "Zähle die Menge und lege eine gleich große Zwillingsmenge – gleich viele, nur anders angeordnet. Kostenlose, interaktive Mathe-Übung für Klasse 1. Jetzt üben!", "fr": "Compte les glands du lutin jumeau, puis fais-en autant : un vrai jumeau du nombre ! Un jeu gratuit et interactif pour la maternelle (GS). À vous de jouer !" },
+    "slug": {
+      "en": "twinsies",
+      "de": "gleich-viele-legen-zwillingsmenge-klasse-1",
+      "fr": "compter-et-faire-autant-le-lutin-jumeau-glands-gs"
+    },
+    "page_title": {
+      "en": "Twinsies — Count How Many & Count Out That Many (Kindergarten)",
+      "de": "Gleich viele legen: Zwillingsmenge bilden – Klasse 1",
+      "fr": "Autant que – compter et faire autant, en ligne (GS)"
+    },
+    "page_intro": {
+      "en": "A free interactive Kindergarten counting game: the Twin-Sprite made something and wants a TWIN — not the same picture, the same MANY. Count what it made by tapping each one, then build a twin with the same number on your own plate (a different shape, so only the number matches). Tap \"We're twins!\" when you have just enough. Counting how many, and counting out that many, is the heart of Common Core K.CC.B.5.",
+      "de": "Zähle die Menge und lege eine gleich große Zwillingsmenge – gleich viele, nur anders angeordnet. Kostenlose, interaktive Mathe-Übung für Klasse 1. Jetzt üben!",
+      "fr": "Faire autant que le lutin jumeau : compter sa collection et préparer exactement la même quantité. Gratuit, en ligne, sans inscription."
+    },
     "kid_prompt_template": "count-twin"
   }
 ]

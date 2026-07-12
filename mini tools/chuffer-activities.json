@@ -107,12 +107,12 @@
     "page_title": {
       "en": "Chuffer's Switchyard — Break a Number Apart Many Ways (Kindergarten)",
       "de": "Zahlzerlegung bis 10 – online üben mit Chuffers Zügen",
-      "fr": "La gare de triage de Chuffer : décomposer les nombres jusqu'à 10 (CP)"
+      "fr": "Décomposition des nombres jusqu'à 10 – exercice en ligne (CP)"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten math game: you're the switchman at Chuffer's railway yard! A load of crates rolls in and the track forks into two cars. Split the crates between the cars, read each car, say the split (5 = 2 + 3!), and pull the coupler — then find EVERY different way to share the load. Breaking a number into two parts in more than one way is the heart of Common Core K.OA.A.3.",
       "de": "Zahlzerlegung bis 10 üben: Zahlen in Teilmengen zerlegen auf Chuffers Rangierbahnhof – Schritt für Schritt. Kostenlos online, ohne Anmeldung.",
-      "fr": "Un jeu de maths CP, gratuit et interactif : tu es l'aiguilleur de la gare de triage de Chuffer ! Une cargaison de caisses arrive et la voie se sépare en deux wagons. Répartis les caisses entre les wagons, lis chaque wagon, dis la décomposition (5 = 2 + 3 !) et tire l'attelage — puis trouve TOUTES les façons différentes de partager la cargaison. Décomposer un nombre en deux parties de plusieurs façons, c'est le cœur du CP."
+      "fr": "Travailler la décomposition des nombres jusqu'à 10 : séparer un nombre en deux parties à la gare de triage. Gratuit, en ligne, sans inscription."
     },
     "kid_prompt_template": "rail-decompose"
   }

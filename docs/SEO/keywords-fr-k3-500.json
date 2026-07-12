@@ -1,0 +1,4024 @@
+{
+ "locale": "fr",
+ "generated": "2026-07-12",
+ "method": "10 parallel native-French keyword web-research agents (one per demand segment: SERP-title observation + competitor category trees fiche-maternelle/mamaternelle/i-profs/pass-education/les-coccinelles/lululataupe/tidou/lutinbazar/boutdegomme/dessinemoiunehistoire + related searches), consolidated + deduped (808 unique raw) + cross-validated against docs/SEO/harvests/fr.json (2,154 google.fr autocomplete uniques, 2026-07-06), force-dropped non-worksheet intent (bricolage/branded methods/classroom-management), curated to exactly 500. Base keywords for the LATER long-tail-formation step — not yet applied to any page.",
+ "stats": {
+  "raw": 808,
+  "final": 500,
+  "autocompleteConfirmed": 123
+ },
+ "segments": {
+  "ecriture-orthographe-grammaire": 70,
+  "fle-anglais-dys": 36,
+  "lecture-phonologie": 70,
+  "logique-observation-jeux": 52,
+  "maths-cp-ce2": 69,
+  "maths-maternelle": 70,
+  "modificateurs-formats": 50,
+  "questionner-le-monde": 33,
+  "registre-enseignant": 25,
+  "saisonnier-fetes": 25
+ },
+ "keywords": [
+  {
+   "kw": "écriture cp",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "ecriture-cp.com, cenicienta \"cp français écriture\", bienenseigner"
+  },
+  {
+   "kw": "écriture cursive",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "kidapte \"fiches d'écriture cursive\", lutinbazar lettres cursives cp"
+  },
+  {
+   "kw": "grammaire ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "gommeetgribouillages \"grammaire ce1 leçons affiches exercices\""
+  },
+  {
+   "kw": "grammaire ce2",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "retz \"réussir son entrée en grammaire au ce2\", classeetgrimaces"
+  },
+  {
+   "kw": "conjugaison ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "boutdegomme \"exercices conjugaison ce1\", gommeetgribouillages"
+  },
+  {
+   "kw": "conjugaison ce2",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "lutinbazar \"exercices de conjugaison ce2\", mysticlolly fichier"
+  },
+  {
+   "kw": "graphisme à imprimer",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "format",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "serp \"50 fiches graphisme à imprimer\" caboucadin, lululataupe"
+  },
+  {
+   "kw": "fiche son ou",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "koolookoo \"fiche son ou cp à imprimer\", cahierdujour période 2"
+  },
+  {
+   "kw": "fiche de sons cp",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "cahierdujour \"sons cp phonologie lecture\""
+  },
+  {
+   "kw": "graphisme maternelle",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "titres serp fiche-maternelle.com, allomaternelle, lasalledesmaitres"
+  },
+  {
+   "kw": "graphisme ps",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "rubrique pass-education \"graphisme ps ms gs\", graphisme-ecriture.com"
+  },
+  {
+   "kw": "graphisme ms",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "rubrique graphisme-ecriture.com \"graphisme ms\", pass-education"
+  },
+  {
+   "kw": "graphisme gs",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "page dédiée graphisme-ecriture.com/graphisme-gs, i-profs gs graphisme"
+  },
+  {
+   "kw": "graphisme boucles",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"boucles graphisme affichages ps ms gs\", webinstit"
+  },
+  {
+   "kw": "graphisme ponts",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"ponts graphisme maternelle\", webinstit"
+  },
+  {
+   "kw": "graphisme lignes verticales",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "graphisme-ecriture.com + i-profs \"lignes verticales ps ms gs\""
+  },
+  {
+   "kw": "graphisme spirales",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "webinstit \"ponts, boucles, vagues, spirales\", dessinemoiunehistoire"
+  },
+  {
+   "kw": "graphisme vagues",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "fichier pass-education \"vagues, triangles, spirales, quadrillages\""
+  },
+  {
+   "kw": "graphisme créneaux",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "caboucadin \"lignes, courbes, ponts, créneaux\""
+  },
+  {
+   "kw": "graphisme petite section",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "arborescence pass-education cycle 1, cahiersenfants ps"
+  },
+  {
+   "kw": "graphisme moyenne section",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "graphisme-ecriture.com \"écriture ms capitales\""
+  },
+  {
+   "kw": "graphisme grande section",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "exercicematernelle \"fiche de graphisme grande section\""
+  },
+  {
+   "kw": "répertoire graphique",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "dessinemoiunehistoire \"répertoires graphiques maternelle\""
+  },
+  {
+   "kw": "apprendre à écrire",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "desmoulins \"feuilles apprendre écriture\", josianecaronsantha"
+  },
+  {
+   "kw": "écriture cursive gs",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "maitrefrancois \"cahier d'écriture cursive gs cp\", exercicematernelle"
+  },
+  {
+   "kw": "lettres cursives",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"lettres de l'alphabet en cursive gs\", fichematernelle.fr"
+  },
+  {
+   "kw": "écrire son prénom",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"écrire son prénom écriture maternelle\", edumoov"
+  },
+  {
+   "kw": "prénom en capitales",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "graphisme-ecriture.com \"écriture ms capitales écrire le prénom\""
+  },
+  {
+   "kw": "écriture ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "kidapte \"gs au cm2\", dansmatrousse fiches entraînement cursive"
+  },
+  {
+   "kw": "copie et dessine",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "zaubette \"copie et dessine ce1\", sanleane \"copie et dessine cp\""
+  },
+  {
+   "kw": "copie cp",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "bienenseigner \"copie cp : bases, types, étapes et fiches\""
+  },
+  {
+   "kw": "rallye copie",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "boutdegomme \"rallyes copie cp-ce1-ce2\""
+  },
+  {
+   "kw": "dictée cp",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"dictée cp : dictée muette et autre\""
+  },
+  {
+   "kw": "dictée ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"dictée français ce1\", bienenseigner fichiers"
+  },
+  {
+   "kw": "dictée ce2",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"dictées préparées ce2\", reussiralecole 11 exercices"
+  },
+  {
+   "kw": "dictée muette",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "lutinbazar \"dictées muettes (encodage de mots)\", ief-montessori"
+  },
+  {
+   "kw": "dictées muettes cp",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "chatdecole \"une année de dictées muettes au cp\", lasalledesmaitres"
+  },
+  {
+   "kw": "autodictée ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "serp dictée ce1 : autodictée = restituer phrase apprise"
+  },
+  {
+   "kw": "dictée préparée ce2",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"dictées préparées à télécharger\""
+  },
+  {
+   "kw": "dictées de mots",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "laclassebleue \"mes dictées de mots ce2\", listes hebdomadaires"
+  },
+  {
+   "kw": "orthographe ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"exercice orthographe ce1\", ac-normandie fichier"
+  },
+  {
+   "kw": "orthographe ce2",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "jardindalysse \"évaluations orthographe ce2\", cartablefantastique"
+  },
+  {
+   "kw": "mots invariables ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "prevert-tilly \"mots invariables ce1\", recreatisse ce1/ce2"
+  },
+  {
+   "kw": "mots invariables ce2",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "liste académique \"mots invariables ce2\", cartablefantastique"
+  },
+  {
+   "kw": "m devant mbp",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "évaluations jardindalysse \"le m devant mbp\", exercices ce1"
+  },
+  {
+   "kw": "homophones grammaticaux",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "recreakidz \"exercices homophones grammaticaux ce1-ce2\", edumoov"
+  },
+  {
+   "kw": "a ou à",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"on-ont son-sont est-et a-à ce2 exercices\""
+  },
+  {
+   "kw": "et est",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "évaluations ce2 \"homophones a/à - et/est\", recreakidz"
+  },
+  {
+   "kw": "ou où",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "recreakidz homophones \"ou / où\", leçon ce1 pass-education"
+  },
+  {
+   "kw": "on ont",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"homophones grammaticaux ont / on ce2\", recreakidz"
+  },
+  {
+   "kw": "son sont",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "classeurdecole pdf \"ce2 homophones gramm son - sont\""
+  },
+  {
+   "kw": "singulier pluriel ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"exercice nombre singulier / pluriel ce1\", sitespe"
+  },
+  {
+   "kw": "pluriel des noms",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "jardinalysse \"le singulier et le pluriel du nom ce1\""
+  },
+  {
+   "kw": "masculin féminin ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "recreakidz \"masculin féminin cp ce1 ce2\", maitrelucas fiches"
+  },
+  {
+   "kw": "genre du nom",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "lutinbazar pdf \"le genre du nom fiches d'exercices ce1\""
+  },
+  {
+   "kw": "nature des mots",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "serp jeux nature des mots (nom, verbe, adjectif, déterminant)"
+  },
+  {
+   "kw": "verbe nom adjectif",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"verbe, nom, article, adjectif : ce1\""
+  },
+  {
+   "kw": "la phrase ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "cartablefantastique \"ce1 grammaire la phrase\""
+  },
+  {
+   "kw": "ponctuation ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"ponctuation ce1 exercices à imprimer\", recreakidz"
+  },
+  {
+   "kw": "majuscule et point",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"ponctuer une phrase majuscule et point ce1\""
+  },
+  {
+   "kw": "présent ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "recreakidz conjugaison ce1-ce2 présent, soutien67"
+  },
+  {
+   "kw": "futur ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "boutdegomme exercices présent futur passé composé"
+  },
+  {
+   "kw": "passé composé ce2",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "i-profs \"ce2 exercices être et avoir au passé composé\""
+  },
+  {
+   "kw": "être et avoir",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "maitrelucas \"passé composé des verbes être et avoir\", ortholud"
+  },
+  {
+   "kw": "vocabulaire ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "i-profs \"fiches de vocabulaire ce1\", bienenseigner"
+  },
+  {
+   "kw": "les contraires ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "i-profs \"les antonymes ce1 - les mots contraires\", sitespe"
+  },
+  {
+   "kw": "synonymes ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "i-profs \"ce1 les synonymes vocabulaire\", dominos lutinbazar"
+  },
+  {
+   "kw": "familles de mots",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "le-stylo-de-vero leçons vocabulaire ce1, bienenseigner"
+  },
+  {
+   "kw": "ordre alphabétique ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "i-profs \"ce1 l'ordre alphabétique\", cenicienta bilan"
+  },
+  {
+   "kw": "écrire son prénom maternelle",
+   "segment": "ecriture-orthographe-grammaire",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "vivimaternelle, lamaternelledesprenoms"
+  },
+  {
+   "kw": "anglais cp",
+   "segment": "fle-anglais-dys",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "programmes cycle 2 dsden93"
+  },
+  {
+   "kw": "fiches maternelle à imprimer",
+   "segment": "fle-anglais-dys",
+   "intent": "format",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "cahiersenfants \"25 exercices ps-ms-gs\", exercicematernelle"
+  },
+  {
+   "kw": "anglais primaire exercices",
+   "segment": "fle-anglais-dys",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "serp fiches edumoov, prim14, pass-education"
+  },
+  {
+   "kw": "dyslexie exercices",
+   "segment": "fle-anglais-dys",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "lexilens \"exercices gratuits à imprimer dyslexiques\""
+  },
+  {
+   "kw": "dyscalculie exercices",
+   "segment": "fle-anglais-dys",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "dys-positif, numero1-scolarite maths"
+  },
+  {
+   "kw": "dyspraxie exercices",
+   "segment": "fle-anglais-dys",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "cartablefantastique \"exercices adaptés dyspraxiques\""
+  },
+  {
+   "kw": "exercices concentration enfant",
+   "segment": "fle-anglais-dys",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"exercice concentration enfant\""
+  },
+  {
+   "kw": "coloriage magique maths",
+   "segment": "fle-anglais-dys",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "coloriages magiques calcul les-coccinelles, ieducatif"
+  },
+  {
+   "kw": "français langue étrangère exercices",
+   "segment": "fle-anglais-dys",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "répertoires lepointdufle, islcollective fr"
+  },
+  {
+   "kw": "les jours de la semaine exercices",
+   "segment": "fle-anglais-dys",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "39 fiches islcollective, lemoteurdufle"
+  },
+  {
+   "kw": "jeux à imprimer 4 ans",
+   "segment": "fle-anglais-dys",
+   "intent": "level",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "espritmaman \"jeux 4 ans mercredi pluvieux\", tidou 4-5 ans"
+  },
+  {
+   "kw": "fiche graphisme ps ms gs",
+   "segment": "fle-anglais-dys",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "kidsayeah, lamaternellepailletee"
+  },
+  {
+   "kw": "fle enfants",
+   "segment": "fle-anglais-dys",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "segment dédié la ptite école du fle, lepointdufle"
+  },
+  {
+   "kw": "vocabulaire fle",
+   "segment": "fle-anglais-dys",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "rubriques vocabulaire lepointdufle"
+  },
+  {
+   "kw": "imagier des animaux",
+   "segment": "fle-anglais-dys",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "pages dédiées dessinemoiunehistoire, plumeetpapote"
+  },
+  {
+   "kw": "imagier des émotions",
+   "segment": "fle-anglais-dys",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "imagiers émotions dessinemoiunehistoire, lotos émotions"
+  },
+  {
+   "kw": "lexique corps humain",
+   "segment": "fle-anglais-dys",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pages lepointdufle + dansmavalise-fls"
+  },
+  {
+   "kw": "upe2a",
+   "segment": "fle-anglais-dys",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "blogs entiers (lilienupe2a, dansmavalise-fls), casnav"
+  },
+  {
+   "kw": "élèves allophones",
+   "segment": "fle-anglais-dys",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "ressources académiques (strasbourg, paris), profpower"
+  },
+  {
+   "kw": "français langue seconde",
+   "segment": "fle-anglais-dys",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "positionnement dansmavalise-fls, casnav paris"
+  },
+  {
+   "kw": "fle a1 enfants",
+   "segment": "fle-anglais-dys",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "fiches \"a1\" laptiteecoledufle, ressourcesfle"
+  },
+  {
+   "kw": "anglais ce1",
+   "segment": "fle-anglais-dys",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "hub pass-education \"anglais ce1 pdf à imprimer\""
+  },
+  {
+   "kw": "anglais ce2",
+   "segment": "fle-anglais-dys",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "exercices dédiés classedeprimaire, boutdegomme"
+  },
+  {
+   "kw": "vocabulaire anglais enfants",
+   "segment": "fle-anglais-dys",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "kids-flashcards, giggleacademy pdf gratuits"
+  },
+  {
+   "kw": "anglais maternelle",
+   "segment": "fle-anglais-dys",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "catégorie anglais dessinemoiunehistoire \"éveil linguistique\""
+  },
+  {
+   "kw": "leçon anglais couleurs",
+   "segment": "fle-anglais-dys",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "lam maitresselililh \"leçons à manipuler couleurs et nombres\""
+  },
+  {
+   "kw": "adaptation dys",
+   "segment": "fle-anglais-dys",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "cartablefantastique \"exercices adaptés\", aba-illeetvilaine"
+  },
+  {
+   "kw": "lecture adaptée dys",
+   "segment": "fle-anglais-dys",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "textes en version adaptée cartablefantastique"
+  },
+  {
+   "kw": "motricité fine activités",
+   "segment": "fle-anglais-dys",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "carnet hoptoys 29 exercices, tompousse"
+  },
+  {
+   "kw": "tdah activités enfant",
+   "segment": "fle-anglais-dys",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "leobelo \"15 activités\", neuronup, tdah-france"
+  },
+  {
+   "kw": "ief ressources",
+   "segment": "fle-anglais-dys",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "vivreenfamille \"sites utiles ief\", matribuenvadrouille"
+  },
+  {
+   "kw": "soutien scolaire gratuit",
+   "segment": "fle-anglais-dys",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "école du dirlo, je révise"
+  },
+  {
+   "kw": "évaluation diagnostique cp",
+   "segment": "fle-anglais-dys",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "boutdegomme \"évaluations diagnostiques positionnement cp\""
+  },
+  {
+   "kw": "pixel art maths",
+   "segment": "fle-anglais-dys",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "irem lyon \"66 fiches pixel art mathématiques\""
+  },
+  {
+   "kw": "escape game cp",
+   "segment": "fle-anglais-dys",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "ecoledecrevette \"escape game loup\", kits 7-8 ans"
+  },
+  {
+   "kw": "défi maths",
+   "segment": "fle-anglais-dys",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"défi maths énigmes\" par saison, mathsenvie"
+  },
+  {
+   "kw": "alphabet maternelle",
+   "segment": "lecture-phonologie",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "caboucadin \"150 fiches apprendre l'alphabet en maternelle\""
+  },
+  {
+   "kw": "lettres capitales",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "edumoov gs \"jouons avec les lettres capitales\""
+  },
+  {
+   "kw": "conscience phonologique",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "canopé bsd, eduscol docs académiques"
+  },
+  {
+   "kw": "son a",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "serp fiches son cp (koolookoo, recreakidz)"
+  },
+  {
+   "kw": "son in",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "leblogdechatnoir \"in-im\" palier 3"
+  },
+  {
+   "kw": "apprendre à lire",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": true,
+   "evidence": "maxetom, cours-legendre \"apprendre à lire en cp\""
+  },
+  {
+   "kw": "fiches sons cp",
+   "segment": "lecture-phonologie",
+   "intent": "format",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "koolookoo, bienenseigner \"fiches sons cp à imprimer\""
+  },
+  {
+   "kw": "loto des syllabes",
+   "segment": "lecture-phonologie",
+   "intent": "format",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "dessinemoiunehistoire jeu de loto des syllabes"
+  },
+  {
+   "kw": "exercices de lecture gs",
+   "segment": "lecture-phonologie",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "les-coccinelles \"exercices de lecture gs cp ce1\""
+  },
+  {
+   "kw": "reconnaissance des lettres",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "ac-reunion \"reconnaissance des lettres en écriture cursive\", mamaternelle"
+  },
+  {
+   "kw": "lettres majuscules minuscules",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "lululataupe, grandiravecnathan \"majuscules et minuscules scriptes\""
+  },
+  {
+   "kw": "correspondance trois écritures",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "desyeuxdansledos \"correspondance 3 écritures gs\", trouverecole"
+  },
+  {
+   "kw": "lettres script cursive",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "dessinemoiunehistoire \"correspondance graphies lettres alphabet\""
+  },
+  {
+   "kw": "lettres cursives gs",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "ac-reunion fichier lettres cursives gs"
+  },
+  {
+   "kw": "alphabet gs",
+   "segment": "lecture-phonologie",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "edumoov séquence \"l'alphabet gs\", logicieleducatif gs"
+  },
+  {
+   "kw": "ordre alphabétique",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "ortholud \"exercices ordre alphabétique\""
+  },
+  {
+   "kw": "lettre manquante",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "exercices \"compléter la lettre manquante\" (serp alphabet gs)"
+  },
+  {
+   "kw": "phonologie gs",
+   "segment": "lecture-phonologie",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"phonologie gs\", classeurdecole \"classeur phono gs\""
+  },
+  {
+   "kw": "phonologie maternelle",
+   "segment": "lecture-phonologie",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "fiches-scolaires \"phonologie maternelle pdf\", laclasse.fr"
+  },
+  {
+   "kw": "syllabes gs",
+   "segment": "lecture-phonologie",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "canopé \"les syllabes en gs\", classedesgnomes"
+  },
+  {
+   "kw": "syllabe d'attaque",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "lespetitsprogres, maitressedzecolles \"syllabes d'attaque\""
+  },
+  {
+   "kw": "son d'attaque",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "variante tapée (serp phonologie gs)"
+  },
+  {
+   "kw": "rimes maternelle",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "lespetitsprogres \"la rime en maternelle gs cp\""
+  },
+  {
+   "kw": "dénombrer les syllabes",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "outilsmaternelle \"jeux dénombrer des syllabes\", classeurdecole"
+  },
+  {
+   "kw": "localiser les syllabes",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "classeurdecole \"localisons les syllabes\""
+  },
+  {
+   "kw": "manipuler les syllabes",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "classeurdecole volet \"manipuler les syllabes\""
+  },
+  {
+   "kw": "les sons cp",
+   "segment": "lecture-phonologie",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "i-profs \"les sons au cp — 249 fiches\""
+  },
+  {
+   "kw": "étude des sons",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "clicmaclasse \"étude des sons\", pass-education cycle 2"
+  },
+  {
+   "kw": "son ou",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "fiches sons cp par graphème (ipotame, boutdegomme)"
+  },
+  {
+   "kw": "son on",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"son on - om ce1\""
+  },
+  {
+   "kw": "son oi",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "leblogdechatnoir palier digraphes (ou, oi, oin)"
+  },
+  {
+   "kw": "son eu",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"son e - eu - œu ce1\""
+  },
+  {
+   "kw": "son ill",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "recreakidz \"le son ill - il - y\""
+  },
+  {
+   "kw": "son gn",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "validées \"lecture sons ce1 ill/gn\""
+  },
+  {
+   "kw": "son oin",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"[ien] [oin] cp\""
+  },
+  {
+   "kw": "son ain",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"ai/ia, ain/ian ce1\""
+  },
+  {
+   "kw": "son ien",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "recreakidz \"le son ien cp ce1 ce2\""
+  },
+  {
+   "kw": "sons complexes",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "lecycle2 \"sons complexes cp ce1 ce2\""
+  },
+  {
+   "kw": "confusion de sons",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "zaubette, ipotame \"confusion de sons cp ce1\""
+  },
+  {
+   "kw": "confusion b d",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "lecycle2 \"confusions visuelles b et d\""
+  },
+  {
+   "kw": "confusion b p",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"confusion sons [b] et [p]\""
+  },
+  {
+   "kw": "confusion ch j",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"confusion [ch] et [j]\""
+  },
+  {
+   "kw": "confusion f v",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "maitresselunicole \"confusions v/f, d/t\""
+  },
+  {
+   "kw": "sons proches",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "lutinbazar \"les confusions de sons proches\""
+  },
+  {
+   "kw": "phonologie cp",
+   "segment": "lecture-phonologie",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"phonologie cp\", le-stylo-de-vero"
+  },
+  {
+   "kw": "méthode syllabique",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "cahiers amazon \"méthode syllabique gs cp\", cahiersdactivites"
+  },
+  {
+   "kw": "lecture syllabique",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "lasalledesmaitres \"fiches lecture syllabique\""
+  },
+  {
+   "kw": "lecture cp",
+   "segment": "lecture-phonologie",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "kidsayeah \"lecture cp 5 niveaux\", lutin-latulu"
+  },
+  {
+   "kw": "lecture gs",
+   "segment": "lecture-phonologie",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "les-coccinelles \"exercices de lecture gs cp ce1\""
+  },
+  {
+   "kw": "lecture de syllabes",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "eduquia \"cp lecture de syllabes\""
+  },
+  {
+   "kw": "mots outils cp",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "maitresseautableau \"listes de mots outils cp\""
+  },
+  {
+   "kw": "lecture de phrases",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "lamaitresseetsesmonstrueux \"lecture de phrases\""
+  },
+  {
+   "kw": "premières lectures",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "serp \"premières lectures cp\" (monstresenclasse fichier)"
+  },
+  {
+   "kw": "encodage cp",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "zaubette \"tableaux d'encodage cp\", chatdecole"
+  },
+  {
+   "kw": "dictée de syllabes",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "apprendreavecbobo \"dictées de syllabes gs cp\""
+  },
+  {
+   "kw": "fluence cp",
+   "segment": "lecture-phonologie",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "ecoledecrevette \"la fluence au cp\", bienenseigner"
+  },
+  {
+   "kw": "fluence lecture",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "boutdegomme \"carnet de fluence de lecture cp et ce1\""
+  },
+  {
+   "kw": "lecture compréhension cp",
+   "segment": "lecture-phonologie",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "bienenseigner, recreakidz \"lecture et compréhension cp\""
+  },
+  {
+   "kw": "lecture compréhension ce1",
+   "segment": "lecture-phonologie",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "cahiersenfants \"lecture compréhension ce1 textes et questions\""
+  },
+  {
+   "kw": "lecture de consignes",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "jardinalysse, edumoov \"lecture de consigne cp-ce1\""
+  },
+  {
+   "kw": "comprendre des consignes",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "maitrelucas, dixmois \"comprendre des consignes\""
+  },
+  {
+   "kw": "inférences ce1",
+   "segment": "lecture-phonologie",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "zaubette \"lecture d'inférences ce1\", ecoledelilai"
+  },
+  {
+   "kw": "lecture implicite",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "jardinalysse \"lecture compréhension — l'implicite\""
+  },
+  {
+   "kw": "révision des sons ce1",
+   "segment": "lecture-phonologie",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "recreatisse \"fiches révisions de sons ce1\""
+  },
+  {
+   "kw": "confusion p q b d",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "laclassedepepe \"confusion pqbd au cp\""
+  },
+  {
+   "kw": "apprentissage de la lecture",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "trouverecole \"apprentissage lecture cp aider à la maison\""
+  },
+  {
+   "kw": "lecture rapide de syllabes",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "fichesdeprep \"entraînement à la lecture rapide de syllabes\""
+  },
+  {
+   "kw": "lecture de phrases simples",
+   "segment": "lecture-phonologie",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "laclassedespetitsloupsencp catégorie dédiée"
+  },
+  {
+   "kw": "écrire des mots gs",
+   "segment": "lecture-phonologie",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "zaubette \"écrire et lire des mots gs\""
+  },
+  {
+   "kw": "gammes de lecture ce1",
+   "segment": "lecture-phonologie",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "bienenseigner, bacdeclasse \"gammes de lecture ce1\""
+  },
+  {
+   "kw": "objets cachés",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": true,
+   "evidence": "tidou \"cherche et trouve les objets cachés\""
+  },
+  {
+   "kw": "mots mêlés",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "fiches maitrelucas/logicieleducatif/bienenseigner"
+  },
+  {
+   "kw": "mots mêlés cp",
+   "segment": "logique-observation-jeux",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "bienenseigner \"mots mêlés cp : 10 fiches pdf\", 3sourislibres"
+  },
+  {
+   "kw": "mots mêlés ce1",
+   "segment": "logique-observation-jeux",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "logicieleducatif \"mots mêlés, niveau ce1\", maitrelucas"
+  },
+  {
+   "kw": "mots cachés",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": true,
+   "evidence": "synonyme courant des mots mêlés (lestibidous)"
+  },
+  {
+   "kw": "mots croisés cp",
+   "segment": "logique-observation-jeux",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "maitrelucas \"mots croisés cp pour élèves de cp ce1\""
+  },
+  {
+   "kw": "jeu de l'intrus",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "catégorie lululataupe \"jeux de l'intrus\", twinkl maternelle"
+  },
+  {
+   "kw": "trouver l'intrus",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "consigne-type des fiches (lululataupe séries intrus)"
+  },
+  {
+   "kw": "jeux de logique",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "pinata-magazine \"jeux de logique pour enfants à imprimer\", kidsayeah"
+  },
+  {
+   "kw": "discrimination visuelle",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "pass-education/mamaternelle fiches \"discrimination visuelle gs\""
+  },
+  {
+   "kw": "discrimination visuelle gs",
+   "segment": "logique-observation-jeux",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "mamaternelle \"discrimination visuelle grande section\", retz"
+  },
+  {
+   "kw": "jeu de l'intrus maternelle",
+   "segment": "logique-observation-jeux",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "twinkl titre exact"
+  },
+  {
+   "kw": "tangram à imprimer",
+   "segment": "logique-observation-jeux",
+   "intent": "format",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "lululataupe \"tangrams à imprimer\", dessinemoiunehistoire"
+  },
+  {
+   "kw": "mots mêlés à imprimer",
+   "segment": "logique-observation-jeux",
+   "intent": "format",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "exercices-a-imprimer \"mots mêlés pour enfants à imprimer\""
+  },
+  {
+   "kw": "coloriage magique",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "gros cluster — reussiralecole \"100 coloriages\", coloriage.info"
+  },
+  {
+   "kw": "coloriage magique soustraction",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "twinkl \"coloriage magique soustraction cp\", maitrelucas"
+  },
+  {
+   "kw": "coloriage magique lecture",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "les-coccinelles + phonemus (sons, syllabes)"
+  },
+  {
+   "kw": "jeux à imprimer 3 ans",
+   "segment": "logique-observation-jeux",
+   "intent": "level",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "turbulus \"3-4 ans\", tidou \"cahier d'activités 3-4 ans\""
+  },
+  {
+   "kw": "jeux à imprimer maternelle",
+   "segment": "logique-observation-jeux",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "tidou \"jeux à imprimer, maternelle et cp\""
+  },
+  {
+   "kw": "jeu d'attention à imprimer",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "fiches \"attention visuelle\" lululataupe"
+  },
+  {
+   "kw": "sudoku enfant",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "serp dédiée (caboucadin \"50 grilles sudoku pour enfant\", educatifenfants)"
+  },
+  {
+   "kw": "sudoku maternelle",
+   "segment": "logique-observation-jeux",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "lululataupe \"sudoku maternelle facile\", blog.ieducatif"
+  },
+  {
+   "kw": "sudoku facile enfant",
+   "segment": "logique-observation-jeux",
+   "intent": "level",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "ieducatif \"sudoku à imprimer facile [26 grilles]\""
+  },
+  {
+   "kw": "sudoku gs",
+   "segment": "logique-observation-jeux",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "educatifenfants \"dès la maternelle grande section\""
+  },
+  {
+   "kw": "labyrinthe enfant",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "kidsayeah \"labyrinthe pour enfant à imprimer\", anniversaire-en-or"
+  },
+  {
+   "kw": "labyrinthe maternelle",
+   "segment": "logique-observation-jeux",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "dessinemoiunehistoire \"labyrinthes à imprimer en maternelle ps ms gs\""
+  },
+  {
+   "kw": "labyrinthe facile",
+   "segment": "logique-observation-jeux",
+   "intent": "level",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "caboucadin niveaux de difficulté ; \"labyrinthes faciles\" 3-4 ans"
+  },
+  {
+   "kw": "jeu de labyrinthe",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "turbulus \"jeu de labyrinthe à imprimer\""
+  },
+  {
+   "kw": "jeu des différences",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "catégories lululataupe/tipirate \"jeux des différences\""
+  },
+  {
+   "kw": "jeu des erreurs",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "alias \"cherchez l'erreur / jeu des erreurs\" cité par turbulus"
+  },
+  {
+   "kw": "cherche et trouve",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "catégories dédiées lululataupe/turbulus/tidou/anniversaire-en-or"
+  },
+  {
+   "kw": "jeu d'observation",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "arborescence lululataupe \"jeux d'observation\""
+  },
+  {
+   "kw": "mots mêlés enfants",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "titre exercices-a-imprimer"
+  },
+  {
+   "kw": "mots croisés enfants",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "exercices-a-imprimer catégorie \"mots croisés\""
+  },
+  {
+   "kw": "mots fléchés enfants",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "apprendrealire \"mots fléchés à imprimer\" 6-10 ans"
+  },
+  {
+   "kw": "mots fléchés ce1",
+   "segment": "logique-observation-jeux",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "logicieleducatif fiches par niveau ce1/ce2"
+  },
+  {
+   "kw": "dessin magique",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "coloriage.info \"dessin magique à colorier\""
+  },
+  {
+   "kw": "points à relier",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "anniversaire-en-or catégorie \"points à relier\""
+  },
+  {
+   "kw": "point par point",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "synonyme installé (portails enfants)"
+  },
+  {
+   "kw": "relier les points",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "formulation naturelle parents (consigne des fiches)"
+  },
+  {
+   "kw": "jeu de memory",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "memozor/bledina \"jeu de memory à imprimer\""
+  },
+  {
+   "kw": "memory maternelle",
+   "segment": "logique-observation-jeux",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "dessinemoiunehistoire \"jeux de memory gratuits à imprimer\""
+  },
+  {
+   "kw": "jeu des ombres",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "catégories lululataupe/lepopeeludique \"jeu des ombres à imprimer\""
+  },
+  {
+   "kw": "puzzle maternelle",
+   "segment": "logique-observation-jeux",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "mat-claudel, fiches maternelle"
+  },
+  {
+   "kw": "tangram maternelle",
+   "segment": "logique-observation-jeux",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "dessinemoiunehistoire \"tangram maternelle : modèles faciles ps ms gs\""
+  },
+  {
+   "kw": "tangram cp",
+   "segment": "logique-observation-jeux",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "fiche-maternelle \"tangram pour maternelle et cp\""
+  },
+  {
+   "kw": "pixel art",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "maitrelucas \"87 dessins cp ce1 ce2\", pixelart.name"
+  },
+  {
+   "kw": "pixel art ce1",
+   "segment": "logique-observation-jeux",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pixelart.name page dédiée"
+  },
+  {
+   "kw": "repérage sur quadrillage",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "maitresseevie \"repérage sur quadrillage au cycle 2\""
+  },
+  {
+   "kw": "énigmes pour enfants",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "tidudi \"bibliothèque d'énigmes\", enigmatum"
+  },
+  {
+   "kw": "casse-tête enfant",
+   "segment": "logique-observation-jeux",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "mes-jeux-educatifs \"casse-têtes avec des allumettes\""
+  },
+  {
+   "kw": "coloriage magique noël",
+   "segment": "logique-observation-jeux",
+   "intent": "seasonal",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "cokojeux/unjourunjeu/anniversaire-en-or/coloriage.info"
+  },
+  {
+   "kw": "exercices maths cp",
+   "segment": "maths-cp-ce2",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "serp « exercices maths cp à imprimer » (kidsayeah, mathovore, recreakidz)"
+  },
+  {
+   "kw": "exercices maths ce1",
+   "segment": "maths-cp-ce2",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "rubrique maths-ce1-ce2 recreakidz, jeuxmaths.fr"
+  },
+  {
+   "kw": "exercices maths ce2",
+   "segment": "maths-cp-ce2",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "pages ce2 i-profs, jeuxmaths.fr, eduquia"
+  },
+  {
+   "kw": "lire l'heure exercices",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "maitrelucas « 13 exercices lire l'heure cp ce1 ce2 », maxetom"
+  },
+  {
+   "kw": "addition posée",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "toupty « additions posées à imprimer », bureaudesprofs"
+  },
+  {
+   "kw": "soustraction posée",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "tuto.pages-informatique « soustractions posées à imprimer »"
+  },
+  {
+   "kw": "soustraction avec retenue",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "toupty « sans et avec retenues »"
+  },
+  {
+   "kw": "tables de multiplication",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "tablesdemultiplication.fr, letopweb"
+  },
+  {
+   "kw": "multiplication ce1",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "rubrique multiplication-ce1-ce2 recreakidz"
+  },
+  {
+   "kw": "multiplication ce2",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "jeuxmaths.fr « multiplication (ce2) », laclassebleue"
+  },
+  {
+   "kw": "calcul cp",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "les-coccinelles « calcul gs cp ce1 : fiches opérations »"
+  },
+  {
+   "kw": "numération ce1",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "ecoledecrevette « fichier de numération ce1 ce2 », troussedebilles"
+  },
+  {
+   "kw": "nombres jusqu'à 100",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "ecoledecrevette « nombres jusqu'à 100 », leblogducancre 0-100"
+  },
+  {
+   "kw": "tableau des nombres",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "fichiers numération (leblogducancre, ipotame)"
+  },
+  {
+   "kw": "lire l'heure ce1",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "pass-education séquence ce1, cahiersenfants"
+  },
+  {
+   "kw": "lire l'heure ce2",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "pass-education « lire l'heure, horloge : ce2 », i-profs"
+  },
+  {
+   "kw": "géométrie cp",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "les-coccinelles geometrie.html (gs cp ce1)"
+  },
+  {
+   "kw": "géométrie ce1",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "i-profs géométrie-mesures ce1, editis « géométrie ce1 »"
+  },
+  {
+   "kw": "géométrie ce2",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "rubriques géométrie ce2 i-profs / pass-education"
+  },
+  {
+   "kw": "reproduction sur quadrillage",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "i-profs « reproduction sur quadrillage ce1 »"
+  },
+  {
+   "kw": "comparer les nombres ce1",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "ac-versailles « comparer ranger placer », i-profs"
+  },
+  {
+   "kw": "maths cp à imprimer",
+   "segment": "maths-cp-ce2",
+   "intent": "format",
+   "register": "parents",
+   "autocompleteConfirmed": true,
+   "evidence": "titres « exercices de maths cp à imprimer en pdf » (recreakidz, bienenseigner)"
+  },
+  {
+   "kw": "fiche de préparation maths",
+   "segment": "maths-cp-ce2",
+   "intent": "format",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "edumoov / pass-education « fiche de préparation (séquence) »"
+  },
+  {
+   "kw": "maths ce1 pdf",
+   "segment": "maths-cp-ce2",
+   "intent": "format",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "titres pdf récurrents (recreakidz, toupty, pass-education)"
+  },
+  {
+   "kw": "exercices monnaie ce1",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "iprofeducation « exercices monnaie cp ce1 »"
+  },
+  {
+   "kw": "exercices maths cycle 2",
+   "segment": "maths-cp-ce2",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "libellé programmes ; rubriques cycle 2 pass-education, edumoov"
+  },
+  {
+   "kw": "table de multiplication exercices",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "tablesdemultiplication.fr/fiches, exercices-primaire.fr"
+  },
+  {
+   "kw": "table de 9 exercice",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "bureaudesprofs « table de 9 : multiplication ce1 ce2 »"
+  },
+  {
+   "kw": "additions cp",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "toupty « l'addition cp-ce1-ce2 », rubrique calcul cp recreakidz"
+  },
+  {
+   "kw": "additions ce1",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "serp « exercices additions ce1 » (inimath, recreakidz)"
+  },
+  {
+   "kw": "additions ce2",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "ce2-exercices-addition.pdf (i-profs)"
+  },
+  {
+   "kw": "addition avec retenue",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "bureaudesprofs « additions posées avec retenues cp ce1 ce2 »"
+  },
+  {
+   "kw": "addition à trous",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "recreakidz « addition à trous », fiches i-profs"
+  },
+  {
+   "kw": "soustractions ce1",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "inimath « les additions et les soustractions ce1 »"
+  },
+  {
+   "kw": "soustractions ce2",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "toupty soustraction cp-ce1-ce2, classeetgrimaces"
+  },
+  {
+   "kw": "multiplication posée ce2",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "lutinbazar « la multiplication posée au ce2 », ac-poitiers"
+  },
+  {
+   "kw": "calcul mental ce1",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "cenicienta fichier calcul mental ce1, bienenseigner"
+  },
+  {
+   "kw": "calcul mental ce2",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "bureaudesprofs « année complète calcul mental ce1 ce2 »"
+  },
+  {
+   "kw": "calcul ce1",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "troussedebilles « calcul ce1 »"
+  },
+  {
+   "kw": "calculs posés",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "classeetgrimaces « fiches de calculs posés »"
+  },
+  {
+   "kw": "numération cp",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "les-coccinelles connaissancedesnombres, soutien67"
+  },
+  {
+   "kw": "nombres jusqu'à 1000",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education « nombres entiers < 1000 », ac-versailles"
+  },
+  {
+   "kw": "unités dizaines centaines",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education « unités, dizaines, centaines : ce1 », maitrelucas"
+  },
+  {
+   "kw": "compléments à 10",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "zaubette, lutinbazar, recreakidz « compléments à 10 cp »"
+  },
+  {
+   "kw": "doubles et moitiés",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "i-profs « doubles et moitiés ce1 », boutdegomme"
+  },
+  {
+   "kw": "les doubles cp",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "maitrelucas « exercices les doubles cp ce1 »"
+  },
+  {
+   "kw": "les moitiés ce1",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "recreakidz « les moitiés jusqu'à 10 cp-ce1-ce2 »"
+  },
+  {
+   "kw": "pair impair ce1",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "recreakidz « pair et impair cp-ce1-ce2 »"
+  },
+  {
+   "kw": "droite graduée ce1",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education, maitrelucas « utiliser une droite graduée ce1 ce2 »"
+  },
+  {
+   "kw": "droite graduée ce2",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "ekladata « ce2 placer des nombres sur une droite graduée »"
+  },
+  {
+   "kw": "suite de nombres",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "fiches « suites numériques » soutien67, les-coccinelles"
+  },
+  {
+   "kw": "problèmes cp",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "les-coccinelles rubrique problèmes"
+  },
+  {
+   "kw": "problèmes ce1",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "edumoov « nombres, calcul et résolution de problèmes ce1-ce2 »"
+  },
+  {
+   "kw": "problèmes ce2",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "rubriques problèmes i-profs / pass-education ce2"
+  },
+  {
+   "kw": "problèmes maths ce1",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "variante fréquente des serp problèmes cycle 2"
+  },
+  {
+   "kw": "la monnaie cp",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "maitresselunicole « la monnaie – cp », les-coccinelles monnaie.html"
+  },
+  {
+   "kw": "la monnaie ce1",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "lutinbazar « la monnaie : parcours ce1 », pass-education"
+  },
+  {
+   "kw": "euros et centimes",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "maitrelucas « euros et centimes ce1 ce2 »"
+  },
+  {
+   "kw": "symétrie ce1",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "edumoov « la symetrie ce1 », pass-education « symétrie ce1 »"
+  },
+  {
+   "kw": "axe de symétrie",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "edumoov/pass-education « axe de symétrie d'une figure »"
+  },
+  {
+   "kw": "quadrillage cp",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "soutien67 repérage, les-coccinelles quadrillages"
+  },
+  {
+   "kw": "formes géométriques cp",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "fiches « carré rectangle triangle cercle » (recreakidz, soutien67)"
+  },
+  {
+   "kw": "les solides ce1",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "rubriques solides géométrie cycle 2 (pass-education, edumoov)"
+  },
+  {
+   "kw": "évaluation maths ce1",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "i-profs « ce1 evaluation », pass-education"
+  },
+  {
+   "kw": "tables de multiplication ce1",
+   "segment": "maths-cp-ce2",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "tablesdemultiplication.fr/ce1, bureaudesprofs"
+  },
+  {
+   "kw": "tables de multiplication ce2",
+   "segment": "maths-cp-ce2",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "serp « tables ce1 ce2 à imprimer » (letopweb, recreakidz)"
+  },
+  {
+   "kw": "mesurer des longueurs ce1",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "edumoov séquences, maitrelucas règle cm"
+  },
+  {
+   "kw": "mesures de longueur ce1",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education « mesures de longueur - ce1 - séquence »"
+  },
+  {
+   "kw": "grandeurs et mesures ce1",
+   "segment": "maths-cp-ce2",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "intitulé programme ; bacdeclasse « cp/ce1 exercices »"
+  },
+  {
+   "kw": "maths maternelle",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "serp générique + catégories fiche-maternelle/webinstit"
+  },
+  {
+   "kw": "numération maternelle",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "catégorie dessinemoiunehistoire \"numération\""
+  },
+  {
+   "kw": "nombres maternelle",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "pass-education \"les nombres ps\""
+  },
+  {
+   "kw": "bande numérique",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "maternailes \"bandes numériques\" + fiche-maternelle"
+  },
+  {
+   "kw": "comparer des quantités",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "edumoov + maitressedzecolles titres exacts"
+  },
+  {
+   "kw": "peu beaucoup",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "exercice ps \"quantités peu/beaucoup\""
+  },
+  {
+   "kw": "décomposition des nombres",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "i-profs \"décomposer les nombres jusqu'à 7\""
+  },
+  {
+   "kw": "décomposer un nombre",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "fiche fiche-maternelle"
+  },
+  {
+   "kw": "addition maternelle",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": true,
+   "evidence": "dessinemoiunehistoire catégorie numération \"addition\""
+  },
+  {
+   "kw": "formes géométriques",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "caboucadin \"50 fiches formes géométriques\""
+  },
+  {
+   "kw": "grand moyen petit",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "séquence \"petit, moyen, grand\""
+  },
+  {
+   "kw": "du plus petit au plus grand",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "pass-education titre exact"
+  },
+  {
+   "kw": "exercices maths maternelle",
+   "segment": "maths-maternelle",
+   "intent": "format",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "titres serp mamaternelle/tizofun"
+  },
+  {
+   "kw": "loto des formes",
+   "segment": "maths-maternelle",
+   "intent": "format",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "dessinemoiunehistoire \"lotos de formes géométriques\""
+  },
+  {
+   "kw": "maths gs",
+   "segment": "maths-maternelle",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "titres serp exercicematernelle + i-profs \"maths gs\""
+  },
+  {
+   "kw": "maths ms",
+   "segment": "maths-maternelle",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "catégorie exercicematernelle \"activités mathématiques ms\""
+  },
+  {
+   "kw": "maths petite section",
+   "segment": "maths-maternelle",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "catégorie exercicematernelle \"maths ps\" + tizofun"
+  },
+  {
+   "kw": "dénombrement maternelle",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "catégorie webinstit + tizofun"
+  },
+  {
+   "kw": "dénombrer des quantités",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "fiche fiche-maternelle \"dénombrer des quantités\""
+  },
+  {
+   "kw": "dénombrer maternelle",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "webinstit \"math en maternelle denombrer\""
+  },
+  {
+   "kw": "compter maternelle",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "toupty + rituels ac-normandie \"apprendre à compter\""
+  },
+  {
+   "kw": "apprendre à compter",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "toupty + kidsayeah \"apprendre à compter 1-10\""
+  },
+  {
+   "kw": "compter jusqu'à 10",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "fiches zaubette/kidsayeah 1 à 10"
+  },
+  {
+   "kw": "compter jusqu'à 20",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "webinstit \"dénombrer de 1 à 20\""
+  },
+  {
+   "kw": "compter jusqu'à 3",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "capsule \"dénombrer 1 2 3 petite section\""
+  },
+  {
+   "kw": "numération gs",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "zaubette \"fiches de numération gs\" + laclassedeluccia"
+  },
+  {
+   "kw": "numération ms",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "desyeuxdansledos \"numération ms/gs\""
+  },
+  {
+   "kw": "quantités et nombres",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "intitulé programme cycle 1 repris par pass-education"
+  },
+  {
+   "kw": "nombre et quantité",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "fiche fiche-maternelle \"nombre et quantité\""
+  },
+  {
+   "kw": "reconnaître les chiffres",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "educatifenfants + coloriages \"reconnaître les nombres\""
+  },
+  {
+   "kw": "écriture des chiffres",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "dessinemoiunehistoire + mysticlolly titres serp"
+  },
+  {
+   "kw": "chiffres maternelle",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"chiffres 1-9 écriture maternelle\""
+  },
+  {
+   "kw": "constellations maternelle",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "fiche-maternelle \"cartes constellations\""
+  },
+  {
+   "kw": "constellations du dé",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "grandiravec.nathan + fiche-maternelle"
+  },
+  {
+   "kw": "bande numérique maternelle",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "fiche-maternelle \"la bande numérique en maternelle\""
+  },
+  {
+   "kw": "suite numérique",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "maitressedzecolles \"suite numérique jusque 30\""
+  },
+  {
+   "kw": "suite des nombres",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "fiche fiche-maternelle + maitresseade \"suite de nombres\""
+  },
+  {
+   "kw": "nombres manquants",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "atelier maitresseade \"nombres cachés/manquants\""
+  },
+  {
+   "kw": "comparaison de quantités",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "tizofun \"comparaison des quantités\""
+  },
+  {
+   "kw": "plus moins autant",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "tizofun \"plus, moins, autant\""
+  },
+  {
+   "kw": "autant que",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "fiche fiche-maternelle \"notion d'égalité autant que\""
+  },
+  {
+   "kw": "comparer des collections",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "fiche-maternelle \"comparer des collections ms\""
+  },
+  {
+   "kw": "compléments à 6",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "fiche-maternelle \"compléments 6\""
+  },
+  {
+   "kw": "maison des nombres",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "fiches fiche-maternelle \"maison des nombres\""
+  },
+  {
+   "kw": "conservation des quantités",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "catégorie fiche-maternelle"
+  },
+  {
+   "kw": "premières additions",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "fiche-maternelle \"additionner des éléments\""
+  },
+  {
+   "kw": "formes géométriques maternelle",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "tizofun + serp \"formes géométriques ps ms gs\""
+  },
+  {
+   "kw": "formes et grandeurs",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "catégorie dessinemoiunehistoire \"formes et grandeurs\""
+  },
+  {
+   "kw": "reconnaître les formes",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "caboucadin \"reconnaitre les différentes formes\""
+  },
+  {
+   "kw": "formes planes",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "123dansmaclasse \"les formes planes\" + edumoov"
+  },
+  {
+   "kw": "carré rond triangle",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "contenus tri de formes maternelle (mamaternelle)"
+  },
+  {
+   "kw": "trier les formes",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "maitresselunicole \"formes à trier\""
+  },
+  {
+   "kw": "algorithme maternelle",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "webinstit \"algorithme math école maternelle\" + tizofun"
+  },
+  {
+   "kw": "algorithme gs",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"algorithme grande section\" + latelierdubonpoint"
+  },
+  {
+   "kw": "algorithme ms",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"algorithme moyenne section\""
+  },
+  {
+   "kw": "suites organisées",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "bullesdemaitresse \"suites organisées algorithmes gs\""
+  },
+  {
+   "kw": "continuer la suite",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "consignes fiches algorithmes (poursuivre la suite)"
+  },
+  {
+   "kw": "tri maternelle",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"tri petite section\""
+  },
+  {
+   "kw": "trier classer ranger",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "nathan + docs académiques titre exact"
+  },
+  {
+   "kw": "tri de couleurs",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "consignes tri ps \"jetons de la même couleur\""
+  },
+  {
+   "kw": "ranger par taille",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "mamaternelle \"ranger par taille\" + maitresselunicole"
+  },
+  {
+   "kw": "grandeurs maternelle",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"les grandeurs en maternelle\""
+  },
+  {
+   "kw": "repérage spatial maternelle",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "catégorie exercicematernelle \"repérage\""
+  },
+  {
+   "kw": "les nombres de 0 à 10",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "titre exercicematernelle \"nombres de 0 à 10 gs\""
+  },
+  {
+   "kw": "associer quantité et chiffre",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "webinstit \"associer une quantité à un chiffre\""
+  },
+  {
+   "kw": "écriture des chiffres maternelle",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "anyssa \"l'écriture des chiffres en maternelle\""
+  },
+  {
+   "kw": "écrire les chiffres de 0 à 9",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "lululataupe \"apprendre à écrire les chiffres 0-9\""
+  },
+  {
+   "kw": "apprendre à écrire les chiffres",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "titre lululataupe + tizofun"
+  },
+  {
+   "kw": "tableau à double entrée",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "logicieleducatif + classedeflorent titres exacts"
+  },
+  {
+   "kw": "compter sur les doigts",
+   "segment": "maths-maternelle",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "fiche fiche-maternelle + jeu du parking \"doigts\""
+  },
+  {
+   "kw": "maternelle",
+   "segment": "modificateurs-formats",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "nom-niveau pivot : \"fiches maternelle\", \"exercice maternelle\""
+  },
+  {
+   "kw": "petite section",
+   "segment": "modificateurs-formats",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "\"exercice petite section maternelle\" (objectifmaternelle, tizofun)"
+  },
+  {
+   "kw": "ps",
+   "segment": "modificateurs-formats",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "sigle en title : \"fiches à imprimer petite section – ps\" (kidsayeah)"
+  },
+  {
+   "kw": "moyenne section",
+   "segment": "modificateurs-formats",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "\"graphisme moyenne section\" (graphisme-ecriture, exercicematernelle)"
+  },
+  {
+   "kw": "ms",
+   "segment": "modificateurs-formats",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "\"graphisme ms\", \"cahier de vacances ms\" (pass-education, lululataupe)"
+  },
+  {
+   "kw": "grande section",
+   "segment": "modificateurs-formats",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "\"fiches grande section\" (pass-education, lestibidous)"
+  },
+  {
+   "kw": "gs",
+   "segment": "modificateurs-formats",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "\"fiches gs\", \"maths gs maternelle\" (i-profs, logicieleducatif)"
+  },
+  {
+   "kw": "cp",
+   "segment": "modificateurs-formats",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "niveau le plus dense : \"exercices cp\", \"écriture cp\" (recreakidz, kidsayeah)"
+  },
+  {
+   "kw": "ce1",
+   "segment": "modificateurs-formats",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "\"exercices ce1 à imprimer\" (exercices-a-imprimer, bienenseigner)"
+  },
+  {
+   "kw": "ce2",
+   "segment": "modificateurs-formats",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "\"exercices de maths au ce2\" (mathovore), \"jeux ce2\" (ieducatif)"
+  },
+  {
+   "kw": "cycle 2",
+   "segment": "modificateurs-formats",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "\"exercices numération cycle 2\" (fichespedagogiques)"
+  },
+  {
+   "kw": "primaire",
+   "segment": "modificateurs-formats",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "\"fiches d'exercices gratuites pour l'école primaire\" (exofiches.net)"
+  },
+  {
+   "kw": "3 ans",
+   "segment": "modificateurs-formats",
+   "intent": "level",
+   "register": "parents",
+   "autocompleteConfirmed": true,
+   "evidence": "\"activité ps 3 ans à imprimer\" (tizofun) — les parents cherchent par âge"
+  },
+  {
+   "kw": "4 ans",
+   "segment": "modificateurs-formats",
+   "intent": "level",
+   "register": "parents",
+   "autocompleteConfirmed": true,
+   "evidence": "\"jeux 4 ans\", \"graphisme maternelle 4 ans\" (lululataupe, tizofun)"
+  },
+  {
+   "kw": "5 ans",
+   "segment": "modificateurs-formats",
+   "intent": "level",
+   "register": "parents",
+   "autocompleteConfirmed": true,
+   "evidence": "\"fiches d'activités pour les enfants de 5 ans\" (wunderkiddy)"
+  },
+  {
+   "kw": "6 ans",
+   "segment": "modificateurs-formats",
+   "intent": "level",
+   "register": "parents",
+   "autocompleteConfirmed": true,
+   "evidence": "\"à partir de 6 ans étant en cp\" (letopweb)"
+  },
+  {
+   "kw": "fiche",
+   "segment": "modificateurs-formats",
+   "intent": "kopfnomen",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "singulier réel : \"fiche de lecture cp\", \"fiche graphisme moyenne section\""
+  },
+  {
+   "kw": "fiches",
+   "segment": "modificateurs-formats",
+   "intent": "kopfnomen",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "pluriel dominant en title : \"fiches pédagogiques\", \"fiches maternelles\""
+  },
+  {
+   "kw": "exercice",
+   "segment": "modificateurs-formats",
+   "intent": "kopfnomen",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "singulier générique en title : \"exercice cp\", \"exercice maternelle\""
+  },
+  {
+   "kw": "exercices",
+   "segment": "modificateurs-formats",
+   "intent": "kopfnomen",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "pluriel = forme la plus fréquente : \"exercices cp à imprimer\""
+  },
+  {
+   "kw": "fiche de lecture",
+   "segment": "modificateurs-formats",
+   "intent": "kopfnomen",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "\"modèle de fiche de lecture à imprimer en pdf\" (recreakidz)"
+  },
+  {
+   "kw": "à imprimer",
+   "segment": "modificateurs-formats",
+   "intent": "format",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "modificateur dominant : quasi tous les title-tags (fiche-maternelle, recreakidz, pass-education)"
+  },
+  {
+   "kw": "activités",
+   "segment": "modificateurs-formats",
+   "intent": "kopfnomen",
+   "register": "parents",
+   "autocompleteConfirmed": true,
+   "evidence": "\"activités à imprimer\" (tipirate, educatifenfants)"
+  },
+  {
+   "kw": "jeux",
+   "segment": "modificateurs-formats",
+   "intent": "kopfnomen",
+   "register": "parents",
+   "autocompleteConfirmed": true,
+   "evidence": "\"jeux à imprimer\", \"jeux gratuits pour enfants\" (lululataupe, turbulus)"
+  },
+  {
+   "kw": "jeux éducatifs",
+   "segment": "modificateurs-formats",
+   "intent": "kopfnomen",
+   "register": "parents",
+   "autocompleteConfirmed": true,
+   "evidence": "\"jeux éducatifs cp/ce2\" (ieducatif, pass-education)"
+  },
+  {
+   "kw": "fichier",
+   "segment": "modificateurs-formats",
+   "intent": "kopfnomen",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "\"fichier d'activités ms\", \"fichier lecture cp\" — jargon de classe"
+  },
+  {
+   "kw": "coloriage",
+   "segment": "modificateurs-formats",
+   "intent": "kopfnomen",
+   "register": "parents",
+   "autocompleteConfirmed": true,
+   "evidence": "\"coloriage à imprimer\" — porte d'entrée parentale massive"
+  },
+  {
+   "kw": "évaluation",
+   "segment": "modificateurs-formats",
+   "intent": "kopfnomen",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "\"évaluation mathématiques cp - bilan et contrôle corrigé\""
+  },
+  {
+   "kw": "leçon",
+   "segment": "modificateurs-formats",
+   "intent": "kopfnomen",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "quadriplet pass-education \"exercice évaluation révision leçon\""
+  },
+  {
+   "kw": "révision",
+   "segment": "modificateurs-formats",
+   "intent": "kopfnomen",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "même quadriplet ; \"cahier de vacances / révision\""
+  },
+  {
+   "kw": "gratuit",
+   "segment": "modificateurs-formats",
+   "intent": "format",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "\"pdf gratuit\", \"exercice ce1 gratuit\" (reussiralecole, blog-orthographique)"
+  },
+  {
+   "kw": "gratuits",
+   "segment": "modificateurs-formats",
+   "intent": "format",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "\"exercices cp à imprimer gratuits\" (cahiersenfants), pass-education"
+  },
+  {
+   "kw": "gratuite",
+   "segment": "modificateurs-formats",
+   "intent": "format",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "\"fiche de lecture cp gratuite\", \"ressources gratuites\" (lutin-latulu)"
+  },
+  {
+   "kw": "gratuites",
+   "segment": "modificateurs-formats",
+   "intent": "format",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "\"fiches maternelles gratuites\" (fiche-maternelle.com, caboucadin)"
+  },
+  {
+   "kw": "gratuitement",
+   "segment": "modificateurs-formats",
+   "intent": "format",
+   "register": "parents",
+   "autocompleteConfirmed": true,
+   "evidence": "\"à imprimer gratuitement\" (reussiralecole, tipirate, caboucadin)"
+  },
+  {
+   "kw": "pdf",
+   "segment": "modificateurs-formats",
+   "intent": "format",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "suffixe systématique des titles pass-education, mathovore, recreakidz"
+  },
+  {
+   "kw": "en ligne",
+   "segment": "modificateurs-formats",
+   "intent": "format",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "\"exercices en ligne gratuits\" (pass-education, ieducatif) — opposé à \"à imprimer\""
+  },
+  {
+   "kw": "avec correction",
+   "segment": "modificateurs-formats",
+   "intent": "format",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "\"exercices et leurs corrections\" (pass-education)"
+  },
+  {
+   "kw": "corrigé",
+   "segment": "modificateurs-formats",
+   "intent": "format",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "\"bilan et contrôle corrigé\" (pass-education)"
+  },
+  {
+   "kw": "à télécharger",
+   "segment": "modificateurs-formats",
+   "intent": "format",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "\"fiches grande section à télécharger & imprimer\" (pass-education)"
+  },
+  {
+   "kw": "interactif",
+   "segment": "modificateurs-formats",
+   "intent": "format",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "\"exercices interactifs libres et gratuits\" (linstit.com, exos.education)"
+  },
+  {
+   "kw": "photocopiable",
+   "segment": "modificateurs-formats",
+   "intent": "format",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "\"fiches photocopiables\" (lutin-latulu) — jargon enseignant"
+  },
+  {
+   "kw": "exercices cp à imprimer",
+   "segment": "modificateurs-formats",
+   "intent": "format-muster",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "ordre canonique nom-tête + niveau + à imprimer"
+  },
+  {
+   "kw": "fiche maternelle grande section",
+   "segment": "modificateurs-formats",
+   "intent": "format-muster",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "ordre nom-tête + maternelle + niveau-section"
+  },
+  {
+   "kw": "ps-ms-gs",
+   "segment": "modificateurs-formats",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "forme groupée : \"fiches maternelle gratuites ps-ms-gs\" (cahiersenfants)"
+  },
+  {
+   "kw": "cycle 1",
+   "segment": "modificateurs-formats",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "\"gs - cycle 1\" dans les titles pass-education"
+  },
+  {
+   "kw": "4-5 ans",
+   "segment": "modificateurs-formats",
+   "intent": "level",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "\"cahier d'activités 4-5 ans\" (tidou), \"ms (4-5 ans)\" (pass-education)"
+  },
+  {
+   "kw": "6-7 ans",
+   "segment": "modificateurs-formats",
+   "intent": "level",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "\"jeux éducatifs cp et exercices en ligne pour 6-7 ans\" (ieducatif)"
+  },
+  {
+   "kw": "8-9 ans",
+   "segment": "modificateurs-formats",
+   "intent": "level",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "\"jeux ce2 pour enfants de 8-9 ans\" (ieducatif)"
+  },
+  {
+   "kw": "feuille d'exercices",
+   "segment": "modificateurs-formats",
+   "intent": "kopfnomen",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "\"feuille d'exercices ce1 mathématiques\" (ac-versailles)"
+  },
+  {
+   "kw": "vivant non vivant",
+   "segment": "questionner-le-monde",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "maitrelucas + edumoov \"vivant ou non vivant cp-ce1\""
+  },
+  {
+   "kw": "les animaux de la ferme",
+   "segment": "questionner-le-monde",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "pass-education dossiers ps ; maternellecolor"
+  },
+  {
+   "kw": "animaux de la ferme maternelle",
+   "segment": "questionner-le-monde",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "milestory \"activités ferme maternelle\""
+  },
+  {
+   "kw": "animaux de la savane",
+   "segment": "questionner-le-monde",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "enmaternelle.fr + lasalledesmaitres imagier savane"
+  },
+  {
+   "kw": "fruits et légumes maternelle",
+   "segment": "questionner-le-monde",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "mamaternelle.com exercices thème fruits légumes"
+  },
+  {
+   "kw": "se repérer dans l'espace",
+   "segment": "questionner-le-monde",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "intitulé programme ; edumoov \"se situer dans l'espace\""
+  },
+  {
+   "kw": "fiche maternelle à imprimer",
+   "segment": "questionner-le-monde",
+   "intent": "format",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "fiche-maternelle.com ; milestory"
+  },
+  {
+   "kw": "fruits et légumes de saison",
+   "segment": "questionner-le-monde",
+   "intent": "seasonal",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "fichespedagogiques fiche calendrier ce1"
+  },
+  {
+   "kw": "questionner le monde",
+   "segment": "questionner-le-monde",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "domaine officiel cycle 2 ; rubriques pass-education, lutinbazar, retz"
+  },
+  {
+   "kw": "qlm cp",
+   "segment": "questionner-le-monde",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "cenicienta \"cp • qlm temps\" ; abréviation blogs pe"
+  },
+  {
+   "kw": "qlm ce1",
+   "segment": "questionner-le-monde",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "progression qlm ce1 maitresseauxlunettes"
+  },
+  {
+   "kw": "découverte du monde",
+   "segment": "questionner-le-monde",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"exercices découverte du monde cycle 2\""
+  },
+  {
+   "kw": "le calendrier cp",
+   "segment": "questionner-le-monde",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "edumoov \"le calendrier cp\" ; schoolmouv"
+  },
+  {
+   "kw": "hier aujourd'hui demain",
+   "segment": "questionner-le-monde",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education + maitrelucas fiches dédiées"
+  },
+  {
+   "kw": "frise chronologique cp",
+   "segment": "questionner-le-monde",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "fiches frise à compléter pass-education"
+  },
+  {
+   "kw": "la météo maternelle",
+   "segment": "questionner-le-monde",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "affichages météo pass-education ps ms gs"
+  },
+  {
+   "kw": "météo cp",
+   "segment": "questionner-le-monde",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"météo cp\" ; sitespe"
+  },
+  {
+   "kw": "classification des animaux",
+   "segment": "questionner-le-monde",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"classification du vivant ce2\""
+  },
+  {
+   "kw": "ovipare vivipare ce2",
+   "segment": "questionner-le-monde",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "maitrelucas + pass-education exercices dédiés"
+  },
+  {
+   "kw": "le squelette cp",
+   "segment": "questionner-le-monde",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"muscles et squelette cp\""
+  },
+  {
+   "kw": "l'équilibre alimentaire ce1",
+   "segment": "questionner-le-monde",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "edumoov séquence cp-ce1 ; sitespe alimentation ce1"
+  },
+  {
+   "kw": "les familles d'aliments",
+   "segment": "questionner-le-monde",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "exercices classer aliments par groupe"
+  },
+  {
+   "kw": "la germination ce1",
+   "segment": "questionner-le-monde",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "orpheecole \"germination des végétaux cp-ce1\" ; edumoov"
+  },
+  {
+   "kw": "germination du haricot",
+   "segment": "questionner-le-monde",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "éval lutinbazar graine de haricot"
+  },
+  {
+   "kw": "les végétaux ce1",
+   "segment": "questionner-le-monde",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "lutinbazar éval ce1 sciences végétaux"
+  },
+  {
+   "kw": "quadrillage maternelle",
+   "segment": "questionner-le-monde",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "tizofun \"repérage quadrillage ms gs\""
+  },
+  {
+   "kw": "déplacement sur quadrillage",
+   "segment": "questionner-le-monde",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "maitresselunicole \"repérage déplacement gs cp ce1\""
+  },
+  {
+   "kw": "le planisphère ce2",
+   "segment": "questionner-le-monde",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"planisphère continents océans ce2\""
+  },
+  {
+   "kw": "la france ce2",
+   "segment": "questionner-le-monde",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "exercices colorier la france, france en europe i-profs"
+  },
+  {
+   "kw": "les métiers maternelle",
+   "segment": "questionner-le-monde",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "imagiers métiers maternelle ; serp associées"
+  },
+  {
+   "kw": "le recyclage cp",
+   "segment": "questionner-le-monde",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "sitespe \"déchets tri recyclage cp\""
+  },
+  {
+   "kw": "l'électricité ce1",
+   "segment": "questionner-le-monde",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "dansmatrousse \"séquence électricité cp-ce1\""
+  },
+  {
+   "kw": "les aimants ce1",
+   "segment": "questionner-le-monde",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "requête associée matière/objets cycle 2 (edumoov)"
+  },
+  {
+   "kw": "fiches pédagogiques",
+   "segment": "registre-enseignant",
+   "intent": "format",
+   "register": "enseignant",
+   "autocompleteConfirmed": true,
+   "evidence": "genre générique blogs pe (laclassebleue \"ressources pédagogiques\")"
+  },
+  {
+   "kw": "loto à imprimer",
+   "segment": "registre-enseignant",
+   "intent": "format",
+   "register": "les deux",
+   "autocompleteConfirmed": true,
+   "evidence": "fichesdeprep \"jeux à imprimer\""
+  },
+  {
+   "kw": "fiches d'autonomie cp",
+   "segment": "registre-enseignant",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "url dédiée lutinbazar"
+  },
+  {
+   "kw": "ateliers autonomes maternelle",
+   "segment": "registre-enseignant",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "tiloustics, classe et grimaces"
+  },
+  {
+   "kw": "ateliers autonomes gs",
+   "segment": "registre-enseignant",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "zaubette \"chiffre manquant ms gs\""
+  },
+  {
+   "kw": "évaluation cp",
+   "segment": "registre-enseignant",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "catégorie boutdegomme \"evaluations cp\""
+  },
+  {
+   "kw": "évaluation ce1",
+   "segment": "registre-enseignant",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "catégorie boutdegomme \"evaluations ce1\""
+  },
+  {
+   "kw": "évaluations diagnostiques cp",
+   "segment": "registre-enseignant",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "titre exact boutdegomme"
+  },
+  {
+   "kw": "remédiation lecture",
+   "segment": "registre-enseignant",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "tanière de kyban \"boites de sons\""
+  },
+  {
+   "kw": "différenciation pédagogique",
+   "segment": "registre-enseignant",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "retz/cap maths \"différenciation\""
+  },
+  {
+   "kw": "pédagogie différenciée",
+   "segment": "registre-enseignant",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "doc ac-poitiers \"ateliers de pédagogie différenciée\""
+  },
+  {
+   "kw": "sous-main cp",
+   "segment": "registre-enseignant",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "lutinbazar \"sous-main cp-ce1\""
+  },
+  {
+   "kw": "rituels maternelle",
+   "segment": "registre-enseignant",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "catégorie rituels lutinbazar"
+  },
+  {
+   "kw": "rituels cp",
+   "segment": "registre-enseignant",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "bienenseigner \"rituels cp à imprimer\""
+  },
+  {
+   "kw": "travail en autonomie",
+   "segment": "registre-enseignant",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "tag autonomie lutinbazar"
+  },
+  {
+   "kw": "ief",
+   "segment": "registre-enseignant",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education rubrique ief"
+  },
+  {
+   "kw": "instruction en famille",
+   "segment": "registre-enseignant",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"ief instruction en famille\""
+  },
+  {
+   "kw": "plan de travail ce1",
+   "segment": "registre-enseignant",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "lutinbazar pdt en ce1/ce2"
+  },
+  {
+   "kw": "école à la maison",
+   "segment": "registre-enseignant",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"école et classe à la maison\""
+  },
+  {
+   "kw": "fiche d'exercices",
+   "segment": "registre-enseignant",
+   "intent": "format",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "boutdegomme \"exercices maths ce1 sur 1 an\""
+  },
+  {
+   "kw": "fiches d'activités",
+   "segment": "registre-enseignant",
+   "intent": "format",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education, rubriques blogs"
+  },
+  {
+   "kw": "fiches d'autonomie",
+   "segment": "registre-enseignant",
+   "intent": "format",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "lutinbazar page \"fiches d'autonomie cp\""
+  },
+  {
+   "kw": "exercices de remédiation",
+   "segment": "registre-enseignant",
+   "intent": "format",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "retz fichier \"remédiation / différenciation\""
+  },
+  {
+   "kw": "dominos à imprimer",
+   "segment": "registre-enseignant",
+   "intent": "format",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "laclassebleue \"jeux de dominos\" tables"
+  },
+  {
+   "kw": "évaluation rentrée cp",
+   "segment": "registre-enseignant",
+   "intent": "seasonal",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "boutdegomme \"evaluations rentrée : cp\""
+  },
+  {
+   "kw": "exercices noël maternelle",
+   "segment": "saisonnier-fetes",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "mamaternelle \"330 fiches d'exercices thème de noël\""
+  },
+  {
+   "kw": "exercices automne maternelle",
+   "segment": "saisonnier-fetes",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "mamaternelle \"exercices et activités sur l'automne\""
+  },
+  {
+   "kw": "exercices hiver maternelle",
+   "segment": "saisonnier-fetes",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "mamaternelle \"250 fiches d'exercices thème de l'hiver\""
+  },
+  {
+   "kw": "exercices printemps maternelle",
+   "segment": "saisonnier-fetes",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "mamaternelle \"200 fiches d'exercices thématique printemps\""
+  },
+  {
+   "kw": "exercices halloween maternelle",
+   "segment": "saisonnier-fetes",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "mamaternelle \"150 fiches\" + pass-education dossiers"
+  },
+  {
+   "kw": "graphisme noël maternelle",
+   "segment": "saisonnier-fetes",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education fiches \"graphisme\" dossiers noël cycle 1"
+  },
+  {
+   "kw": "coloriage noël gs",
+   "segment": "saisonnier-fetes",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "imprimercoloriage \"coloriage de noël grande section\""
+  },
+  {
+   "kw": "printemps gs",
+   "segment": "saisonnier-fetes",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "fiche-maternelle + lacabaneajouer \"fiches printemps pour gs et ms\""
+  },
+  {
+   "kw": "loto des vacances",
+   "segment": "saisonnier-fetes",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "dessinemoiunehistoire rubrique été \"loto des vacances\""
+  },
+  {
+   "kw": "halloween petite section",
+   "segment": "saisonnier-fetes",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"halloween : ps - petite section - pdf à imprimer\""
+  },
+  {
+   "kw": "étiquettes prénom maternelle",
+   "segment": "saisonnier-fetes",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "lamaternelledesprenoms + lespetitsprogres \"étiquettes prénom ps ms gs\""
+  },
+  {
+   "kw": "coloriage cœur",
+   "segment": "saisonnier-fetes",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "reussiralecole \"coloriage coeur : 31 superbes images à imprimer\""
+  },
+  {
+   "kw": "bonhomme de neige maternelle",
+   "segment": "saisonnier-fetes",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"neige et bonhomme de neige - dossier complet\""
+  },
+  {
+   "kw": "cahier de vacances ms",
+   "segment": "saisonnier-fetes",
+   "intent": "level",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "lululataupe \"cahier de vacances, maternelle moyenne section\""
+  },
+  {
+   "kw": "cahier de vacances gs",
+   "segment": "saisonnier-fetes",
+   "intent": "level",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education \"cahier de vacances / fichier d'activités : gs\""
+  },
+  {
+   "kw": "cahier de vacances ps",
+   "segment": "saisonnier-fetes",
+   "intent": "level",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "pour-enfants.fr \"cahiers ps ms gs\""
+  },
+  {
+   "kw": "coloriage œuf de pâques",
+   "segment": "saisonnier-fetes",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "coloriage.info + lacabaneajouer \"50 coloriages d'œufs\""
+  },
+  {
+   "kw": "coloriage lapin de pâques",
+   "segment": "saisonnier-fetes",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "craftalogue \"lapins, œufs\" dans titres coloriages pâques"
+  },
+  {
+   "kw": "coloriage galette des rois",
+   "segment": "saisonnier-fetes",
+   "intent": "topic",
+   "register": "les deux",
+   "autocompleteConfirmed": false,
+   "evidence": "fiches coloriage codé galette (laclasse, fichespedagogiques)"
+  },
+  {
+   "kw": "coloriage bonne fête maman",
+   "segment": "saisonnier-fetes",
+   "intent": "topic",
+   "register": "parents",
+   "autocompleteConfirmed": false,
+   "evidence": "imprimercoloriage \"coloriage bonne fête maman à imprimer\""
+  },
+  {
+   "kw": "100 jours d'école cp",
+   "segment": "saisonnier-fetes",
+   "intent": "level",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "teetsh \"100 jours d'école cp : journée clé en main à imprimer\""
+  },
+  {
+   "kw": "graphisme galette des rois",
+   "segment": "saisonnier-fetes",
+   "intent": "topic",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "pass-education dossiers galette \"graphisme, maths, langage écrit\""
+  },
+  {
+   "kw": "fiches noël maternelle",
+   "segment": "saisonnier-fetes",
+   "intent": "format",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "caboucadin \"fiches de noël maternelle : jeux et coloriages gratuits\""
+  },
+  {
+   "kw": "fiches automne maternelle",
+   "segment": "saisonnier-fetes",
+   "intent": "format",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "caboucadin \"50 fiches activités maternelle automne\""
+  },
+  {
+   "kw": "fiches printemps maternelle",
+   "segment": "saisonnier-fetes",
+   "intent": "format",
+   "register": "enseignant",
+   "autocompleteConfirmed": false,
+   "evidence": "fiche-maternelle.com \"fiches sur le thème du printemps\""
+  }
+ ]
+}

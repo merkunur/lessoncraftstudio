@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "lay-units.measure.1-md-a-2": {
+      "about": [
+        "Inchie es una oruga medidora que necesita saber qué tan largos son los objetos del jardín: una hoja, un caracol, una ramita. En esta actividad interactiva y gratuita, tu peque acomoda a los ayudantes de Inchie uno tras otro a lo largo de cada objeto y descubre cuántos mide de largo.",
+        "La idea central es sencilla y poderosa: para medir una longitud repetimos una misma unidad, y la cantidad de unidades nos dice cuánto mide. Aquí no hay regla ni números en una recta; el niño mide colocando unidades iguales, del mismo tamaño, sin dejar huecos ni encimarlas, y empezando justo en la punta del objeto.",
+        "Diseñada para 1º de primaria (primer grado, alrededor de 6 y 7 años), esta actividad acompaña el eje de Magnitudes y medida, en el tema de longitud, dentro de los planes y programas de estudio de la SEP y el enfoque de la Nueva Escuela Mexicana. Es una entrada concreta y con sentido antes de trabajar con el centímetro y la regla."
+      ],
+      "practices": [
+        "Colocar unidades iguales sin huecos ni encimarlas, empezando en la punta del objeto",
+        "Comprender que todas las unidades deben medir exactamente lo mismo para que la medición sea justa",
+        "Contar los ayudantes y decir la longitud: 'mide N ayudantes de largo'",
+        "Descubrir que, entre más pequeña es la unidad, más unidades se necesitan para cubrir lo mismo"
+      ],
+      "howToPlay": [
+        "El niño arrastra a los ayudantes de Inchie y los va acomodando a lo largo del objeto; al tocar cada uno, los cuenta y la actividad le dice cuántos mide de largo.",
+        "Algunas rondas traen una medición mal hecha para arreglar: un hueco entre unidades, ayudantes encimados, piezas de distinto tamaño o un mal inicio que no arranca en la punta.",
+        "Otras rondas plantean un '¿cuál está bien medido?', para que tu peque compare y explique por qué una medición es correcta y la otra no."
+      ],
+      "learningGoals": [
+        "Medir la longitud de un objeto repitiendo una misma unidad, tal como propone el eje de Magnitudes y medida de la SEP para primer grado.",
+        "Reconocer que la longitud es el número de unidades iguales que caben a lo largo del objeto, sin huecos ni encimados.",
+        "Sentar las bases para entender que una unidad más pequeña da un número mayor de unidades, preparando el paso posterior al centímetro y a la regla."
+      ]
+    },
     "seriation.compare-length.1-md-a-1": {
       "about": [
         "Los listones de Tilly es una actividad interactiva y gratuita de matemáticas para primer grado de primaria, pensada para que las niñas y los niños de alrededor de 6 y 7 años den sus primeros pasos en la comparación de longitudes. Tilly, la gata de la tienda, esconde listones de colores en estantes que están muy separados, y no se pueden poner uno junto al otro para saber cuál es más largo.",

@@ -52,19 +52,6 @@ export async function generateMetadata({
   };
 }
 
-/** Local display-price hint per the pricing ruling (LS charges USD; these are anchors). */
-const LOCAL_PRICE_HINT: Record<string, string> = {
-  de: '≈ 64 €',
-  fr: '≈ 64 €',
-  es: '≈ 64 €',
-  it: '≈ 64 €',
-  nl: '≈ 64 €',
-  fi: '≈ 64 €',
-  sv: '≈ 499 kr',
-  da: '≈ 499 kr',
-  no: '≈ 499 kr',
-};
-
 export default async function PricingPage({
   params: { locale },
 }: {
@@ -150,11 +137,6 @@ export default async function PricingPage({
               ${SUBSCRIPTION_PRODUCT.priceUsd}
             </span>
             <span className="text-ink-500"> {t('tier.priceSuffix')}</span>
-            {LOCAL_PRICE_HINT[locale] && (
-              <span className="block text-sm text-ink-500 mt-1">
-                {LOCAL_PRICE_HINT[locale]} {t('tier.priceSuffix')}
-              </span>
-            )}
           </p>
           <h3 className="font-semibold text-ink-900 mb-3">{t('tier.includedTitle')}</h3>
           <ul className="space-y-3 text-ink-700 mb-8">

@@ -57,17 +57,20 @@
     "slug": {
       "en": "add-with-regrouping-make-a-ten",
       "de": "zehner-buendeln-mit-zehneruebergang-addieren-klasse-1",
-      "fr": "addition-avec-retenue-grouper-une-dizaine-cp"
+      "fr": "addition-avec-retenue-grouper-une-dizaine-cp",
+      "es": "suma-con-reagrupacion-formar-una-decena-primaria"
     },
     "page_title": {
       "en": "Tuck's Ten Bundles — Add with Regrouping (Grade 1)",
       "de": "Addition mit Zehnerübergang – online üben (Klasse 1)",
-      "fr": "Addition avec retenue – exercice en ligne (CP)"
+      "fr": "Addition avec retenue – exercice en ligne (CP)",
+      "es": "Suma con reagrupación con Tuck: forma una decena (1º de primaria)"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 math activity: add a two-digit and a one-digit number when the ones make more than ten. Tuck the hamster shows the base-ten blocks; tap “Make a ten” to bundle 10 ones into one ten, then type the total. A clear, hands-on first look at carrying — composing a ten. Common Core 1.NBT.C.4.",
       "de": "Addition mit Zehnerübergang üben: Zehner bündeln und über den Zehner addieren – Klasse 1. Kostenlos online, ohne Anmeldung.",
-      "fr": "Exercice en ligne d'addition avec retenue au CP : composer une dizaine pour additionner, pas à pas. Gratuit, en ligne, sans inscription."
+      "fr": "Exercice en ligne d'addition avec retenue au CP : composer une dizaine pour additionner, pas à pas. Gratuit, en ligne, sans inscription.",
+      "es": "Actividad gratis e interactiva de 1º de primaria: suma con reagrupación. Junta 10 unidades para formar una decena con bloques de base diez y escribe el total, con Tuck. Alineada con los planes y programas de estudio de la SEP."
     },
     "kid_prompt_template": "place-value-regroup"
   },

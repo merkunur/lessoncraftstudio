@@ -37,7 +37,7 @@
   function speak(text) {
     try {
       if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function mulberry32(a) { return function () { a |= 0; a = a + 0x6D2B79F5 | 0; var t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
@@ -65,20 +65,20 @@
     id: 'numbers-court-activity',
 
     strings: {
-      title: { en: 'Numbers Court', de: 'Das Zahlengericht', fr: 'Le tribunal des nombres' },
-      prompt: { en: 'Is it fair, Judge?', de: 'Stimmt das?', fr: 'Est-ce vrai, Madame la juge ?' },
-      vTrue: { en: "It's fair!", de: 'Stimmt!', fr: 'Vrai' }, vFalse: { en: 'Catch it!', de: 'Stimmt nicht!', fr: 'Faux' },
-      jFalse: { en: 'Tap the heavier side.', de: 'Tippe auf die schwerere Seite.', fr: 'Touche le plateau le plus lourd.' },
-      jTrue: { en: 'Tap each number to fill both pans.', de: 'Tippe jede Zahl an, um beide Waagschalen zu füllen.', fr: 'Touche chaque nombre pour remplir les deux plateaux.' },
-      repair: { en: 'Make it fair — tap a tile for the slot.', de: 'Mach beide Seiten gleich viel — tippe ein Plättchen in die Lücke.', fr: 'Équilibre la balance — touche un jeton pour la case.' },
-      sure: { en: 'Are you sure, Judge? Look again.', de: 'Bist du sicher? Schau noch mal.', fr: 'Hmm… regarde encore les deux côtés.' },
-      reteach: { en: 'This much AND this much — are they the same amount?', de: 'So viel und so viel — ist das auf beiden Seiten gleich viel?', fr: 'Autant d’un côté, autant de l’autre — est-ce la même chose des deux côtés ?' },
-      winTrue: { en: 'Fair! Both sides are the same amount.', de: 'Stimmt! Beide Seiten sind gleich viel.', fr: 'Vrai ! Il y a la même chose des deux côtés.' },
-      winFalse: { en: 'Caught it! The sides are not the same.', de: 'Erwischt! Die Seiten sind nicht gleich viel.', fr: 'Faux ! Les deux côtés ne sont pas pareils.' },
-      winRepair: { en: 'Now it balances — fair, Judge!', de: 'Jetzt ist die Waage im Gleichgewicht — gleich viel!', fr: 'La balance s’équilibre — bien joué, Madame la juge !' },
-      regen: { en: 'Still not level — here is a fresh one, Judge.', de: 'Immer noch nicht im Gleichgewicht — hier ist eine neue Aufgabe.', fr: 'Toujours pas d’équilibre — voici une nouvelle affaire, Madame la juge.' },
-      hintCheck: { en: 'Give your verdict, then tap Check.', de: 'Fäll dein Urteil, dann tippe auf „Prüfen".', fr: 'Donne ton verdict, puis touche « Vérifier ».' },
-      judgeName: { en: 'Judge Tess', de: 'Richterin Tess', fr: 'La juge Tess' }
+      title: { en: 'Numbers Court', de: 'Das Zahlengericht', fr: 'Le tribunal des nombres', es: 'El tribunal de los números' },
+      prompt: { en: 'Is it fair, Judge?', de: 'Stimmt das?', fr: 'Est-ce vrai, Madame la juge ?', es: '¿Es justo, jueza?' },
+      vTrue: { en: "It's fair!", de: 'Stimmt!', fr: 'Vrai', es: '¡Es justo!' }, vFalse: { en: 'Catch it!', de: 'Stimmt nicht!', fr: 'Faux', es: '¡Atrápalo!' },
+      jFalse: { en: 'Tap the heavier side.', de: 'Tippe auf die schwerere Seite.', fr: 'Touche le plateau le plus lourd.', es: 'Toca el lado más pesado.' },
+      jTrue: { en: 'Tap each number to fill both pans.', de: 'Tippe jede Zahl an, um beide Waagschalen zu füllen.', fr: 'Touche chaque nombre pour remplir les deux plateaux.', es: 'Toca cada número para llenar los dos platillos.' },
+      repair: { en: 'Make it fair — tap a tile for the slot.', de: 'Mach beide Seiten gleich viel — tippe ein Plättchen in die Lücke.', fr: 'Équilibre la balance — touche un jeton pour la case.', es: 'Deja los dos lados iguales: toca una ficha para el espacio.' },
+      sure: { en: 'Are you sure, Judge? Look again.', de: 'Bist du sicher? Schau noch mal.', fr: 'Hmm… regarde encore les deux côtés.', es: '¿Segura, jueza? Míralo otra vez.' },
+      reteach: { en: 'This much AND this much — are they the same amount?', de: 'So viel und so viel — ist das auf beiden Seiten gleich viel?', fr: 'Autant d’un côté, autant de l’autre — est-ce la même chose des deux côtés ?', es: 'Esto de un lado y esto del otro… ¿es la misma cantidad?' },
+      winTrue: { en: 'Fair! Both sides are the same amount.', de: 'Stimmt! Beide Seiten sind gleich viel.', fr: 'Vrai ! Il y a la même chose des deux côtés.', es: '¡Justo! Los dos lados tienen la misma cantidad.' },
+      winFalse: { en: 'Caught it! The sides are not the same.', de: 'Erwischt! Die Seiten sind nicht gleich viel.', fr: 'Faux ! Les deux côtés ne sont pas pareils.', es: '¡Lo atrapaste! Los dos lados no son iguales.' },
+      winRepair: { en: 'Now it balances — fair, Judge!', de: 'Jetzt ist die Waage im Gleichgewicht — gleich viel!', fr: 'La balance s’équilibre — bien joué, Madame la juge !', es: '¡Ahora se equilibra… justo, jueza!' },
+      regen: { en: 'Still not level — here is a fresh one, Judge.', de: 'Immer noch nicht im Gleichgewicht — hier ist eine neue Aufgabe.', fr: 'Toujours pas d’équilibre — voici une nouvelle affaire, Madame la juge.', es: 'Todavía no se equilibra… aquí tienes un caso nuevo, jueza.' },
+      hintCheck: { en: 'Give your verdict, then tap Check.', de: 'Fäll dein Urteil, dann tippe auf „Prüfen".', fr: 'Donne ton verdict, puis touche « Vérifier ».', es: 'Da tu veredicto y luego toca "Revisar".' },
+      judgeName: { en: 'Judge Tess', de: 'Richterin Tess', fr: 'La juge Tess', es: 'La jueza Tess' }
     },
 
     defaults: {},

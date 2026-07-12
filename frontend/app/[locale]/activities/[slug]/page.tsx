@@ -25,6 +25,7 @@ const GRADE_KEY_MAP: Record<string, string> = {
    grade here. EN + any locale/activity without an entry are unaffected. Sits beside the
    route's other localization maps (EDUCATIONAL_FRAMEWORK_BY_LOCALE, strand-names). */
 const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
+  'numbers-court.judge-balance.1-oa-d-7': { es: '2' },                   // 2º primaria — la lectura RELACIONAL del signo igual (la misma cantidad de los dos lados; juzgar igualdades verdaderas/falsas como 3+2=2+3) es de 2º en México; 1º usa "=" de forma operacional (resultado). en/de Grade 1, fr CP sin cambios (US 1.OA.D.7 → MX 2º de primaria)
   'ten-stones.add-sub-within-20.1-oa-c-6': { es: '2' },                  // 2º primaria — la estrategia de formar/pasar por el diez para sumar y restar hasta 20 es de 2º en México (1º trabaja dentro del 10); en/de Grade 1 sin cambios (US 1.OA.C.6 → MX 2º de primaria)
   'wake-up-pip.retell-story.rl-k-2': { de: '2', fr: '1' },                       // CP — reconstruire un récit DE MÉMOIRE (le modèle disparaît) + chaîne causale 4 temps + restituer les détails clés + écarter l'intrus = attendus cycle 2 (« comprendre l'enchaînement / la relation de cause à effet / restituer l'essentiel »); plus exigeant que le « remettre dans l'ordre » GS (modèle présent); parité DE Klasse 2; US RL.K.2 → FR CP
   'opposites.antonyms.k-l-5-b': { de: '1', fr: '1' },                            // CP — relier un mot à son contraire (antonymes) + discriminer le contraire d'un mot de la même sorte = opération métalinguistique explicite « trouver un mot de sens contraire » du cycle 2 « Étude de la langue » (la maternelle travaille les contraires à l'oral); parité DE Klasse 1; US K.L.5.b K-cluster → FR CP
@@ -121,6 +122,7 @@ function effGrade(row: ActivityRow, locale: string): string {
    activities fall through to localizeStrand unchanged. Display-only (chip + JSON-LD
    teaches/targetDescription); related-activity matching keeps the raw alignment.strand. */
 const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
+  'numbers-court.judge-balance.1-oa-d-7': { es: 'Número, álgebra y variación' }, // MX 2º: el significado RELACIONAL del signo igual (igualdades/equilibrio entre los dos lados) es propedéutica del álgebra → eje "Número, álgebra y variación" (SEP/NEM); el default es "Sentido numérico" (colapso de sentido numérico) descarta la dimensión algebraica que nombra el pedagogo. Distinto de #9 ten-stones (fluidez de suma/resta → Sentido numérico): un mismo strand OA de EE. UU. se divide legítimamente entre ejes mexicanos por contenido. en/de/fr fall through
   'marlo-magnifier.trait-evidence.rl-1-3': { fr: 'Comprendre et interpréter' }, // FR CE1: inférer un trait de personnage + le justifier par un indice du texte = interprétation (attribuer un trait + le fonder sur le texte), NOT littéral; = retell #49 / fable-morale #52; "Reading: Literature" has no fr in strand-names.ts; en/de fall through
   'juniper-story-lantern.central-message.rl-1-2': { fr: 'Comprendre et interpréter' }, // FR CE1: dégager la morale d'une fable = interpréter le sens/le message au-delà du littéral (cycle-2 Lecture et compréhension de l'écrit); NOT « Écouter de l'écrit et comprendre » (maternelle/GS pré-lecteur); "Reading: Literature" has no fr in strand-names.ts; en/de fall through
   'contraction.apostrophe.l-2-2-c': { fr: 'L’orthographe' }, // FR CE1: l'apostrophe d'élision = une marque orthographique (comme la majuscule #32 wally-capital-crane, l'accent, la cédille) — NOT grammaire/lexique; "Language" has no fr in strand-names.ts; en/de fall through
@@ -518,7 +520,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.240';
+  const ACTIVITY_WRAPPER_VERSION = '9.241';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

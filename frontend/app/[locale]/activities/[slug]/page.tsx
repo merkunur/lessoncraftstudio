@@ -57,7 +57,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'nila-pond.main-idea-net.ri-k-2': { de: '1' },                          // Hauptaussage eines VORGELESENEN Sachtexts (Hörverstehen, mit Hilfestellung) → DE Klasse 1; sitzt unter marina RI.2.2/Klasse 3 (Selberlesen); K-cluster K-label
   'booker-glossary-desk.guide-words.l-2-4-e': { de: '3', fr: '3' },        // systematische Wörterbucharbeit (Leitwörter, 2nd/3rd-letter) → DE Klasse 3 / FR CE2 « usage du dictionnaire » (en Grade 2)
   'clock-digital.read-hour.1-md-b-3': { fr: '2' },                       // FR CE1 — lire l'horloge à aiguilles (heures) = CE1 attendu; en Grade 1 / de Klasse 1
-  'clock-digital.read-half-hour.1-md-b-3': { fr: '2' },                  // FR CE1 — heures + demi-heures; en Grade 1 / de Klasse 1
+  'clock-digital.read-half-hour.1-md-b-3': { fr: '2', es: '2' },         // FR CE1 / ES 2º — heures+demi-heures; media hora = segundo grado en México (la hora en punto sola = 1º); en Grade 1 / de Klasse 1
   'clock-digital.read-quarter-hour.2-md-c-7': { fr: '3' },               // FR CE2 — « moins le quart » (référence à l'heure suivante) = attendu CE2, un cran au-dessus des demi-heures CE1; en Grade 2 unchanged
   'clock-digital.read-five-minute.2-md-c-7': { fr: '3' },                // FR CE2 — lire l'heure de 5 en 5 = repère CE2 (la granularité fixe le niveau, lecture digitale « 3 h 20 »); en Grade 2 unchanged
   'clock-digital.match-clocks.2-md-c-7': { fr: '3' },                    // FR CE2 — associer numérique↔aiguilles : l'attendu est fixé par la granularité de lecture (« moins le quart », 5 min), pas par le sens; cohérent avec read-quarter/five-minute CE2; en Grade 2 unchanged
@@ -517,7 +517,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.238';
+  const ACTIVITY_WRAPPER_VERSION = '9.239';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

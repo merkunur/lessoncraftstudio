@@ -192,6 +192,52 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "clock-digital.read-hour.1-md-b-3": {
+      "about": [
+        "Sprocket, el gallo, acompaña a los niños en su primer paso para leer el reloj: reconocer «la hora en punto». En cada ronda aparece un reloj de manecillas marcando una hora exacta, como las tres en punto, y el peque toca la hora digital que le corresponde.",
+        "La actividad se centra solo en las horas en punto para que el aprendizaje sea claro y sin apuros. Al fijarse en dónde apunta la manecilla corta —la que marca la hora— los niños van formando una idea sólida del tiempo antes de pasar a los minutos.",
+        "Pensada para primero de primaria (alrededor de 6 a 7 años), esta práctica apoya el eje de «Magnitud y medida — tiempo» de los planes y programas de estudio de la SEP y el enfoque de la Nueva Escuela Mexicana."
+      ],
+      "practices": [
+        "Reconocer «la hora en punto» en un reloj de manecillas, por ejemplo las 5 en punto o las 9 en punto.",
+        "Observar la manecilla corta para saber en qué hora está el reloj cuando la manecilla larga apunta al 12.",
+        "Relacionar el reloj de manecillas con su hora digital (por ejemplo, 7:00) y elegir la opción correcta.",
+        "Nombrar la hora en voz alta con la expresión natural en México: «las tres en punto», «las ocho en punto»."
+      ],
+      "howToPlay": [
+        "Sprocket muestra un reloj de manecillas que marca una hora exacta; observa hacia dónde apunta la manecilla corta.",
+        "Toca la hora digital que coincide con el reloj, por ejemplo 3:00 para «las tres en punto».",
+        "Si aciertas, Sprocket lo celebra contigo; si no, puedes intentarlo de nuevo con calma, sin cronómetro ni puntajes."
+      ],
+      "learningGoals": [
+        "Leer y decir la hora en punto en un reloj de manecillas con seguridad.",
+        "Distinguir la función de la manecilla corta (la hora) y la manecilla larga (los minutos) cuando esta apunta al 12.",
+        "Conectar el reloj de manecillas con su forma digital como primer paso para medir el tiempo."
+      ]
+    },
+    "clock-digital.read-half-hour.1-md-b-3": {
+      "about": [
+        "Con Sprocket, el gallo, los niños dan el siguiente paso al leer el reloj: además de «la hora en punto», ahora reconocen «la media hora». El reloj de manecillas puede marcar las tres en punto o las tres y media, y el peque toca la hora digital que corresponde.",
+        "Aquí ya no basta con mirar una sola manecilla: hay que leer las dos. Cuando la manecilla larga apunta al 12 es en punto, y cuando apunta al 6 es «y media». Así los niños entienden que la manecilla larga marca los minutos.",
+        "Dirigida a segundo de primaria (aproximadamente 7 a 8 años), esta práctica fortalece el eje de «Magnitud y medida — tiempo» dentro de «Forma, espacio y medida» de los planes y programas de estudio de la SEP y la Nueva Escuela Mexicana; la lectura de la media hora se consolida en este grado."
+      ],
+      "practices": [
+        "Diferenciar «la hora en punto» de «la media hora» en un reloj de manecillas, por ejemplo las 4 en punto y las 4 y media.",
+        "Leer las dos manecillas a la vez: la corta para la hora y la larga para saber si es en punto (12) o y media (6).",
+        "Relacionar el reloj de manecillas con su hora digital, distinguiendo 3:00 de 3:30.",
+        "Decir la hora como se usa en México: «las tres en punto» y «las tres y media», sumando media hora a la hora en curso."
+      ],
+      "howToPlay": [
+        "Sprocket muestra un reloj de manecillas que puede estar en punto o a la media hora; observa las dos manecillas con atención.",
+        "Fíjate en la manecilla larga: si apunta al 12 es «en punto» y si apunta al 6 es «y media»; luego toca la hora digital correcta, como 3:00 o 3:30.",
+        "Sprocket celebra tus aciertos y te deja volver a intentarlo con tranquilidad, sin tiempos ni calificaciones."
+      ],
+      "learningGoals": [
+        "Leer y decir la hora en punto y la media hora en un reloj de manecillas.",
+        "Interpretar juntas la manecilla corta y la larga para ubicar tanto la hora como los minutos.",
+        "Comprender que media hora equivale a la manecilla larga en el 6 y expresarlo como «las tres y media» al medir el tiempo."
+      ]
+    },
     "graph-it.bar-graph.2-md-d-10": {
       "about": [
         "Pip, el amiguito del bosque, salió a recolectar hojas, bayas, bellotas, piñas de pino y hongos, y anotó cada hallazgo en una tabla de conteo. Aquí el niño le ayuda a convertir ese conteo en una gráfica de barras, subiendo cada barra unidad por unidad hasta que coincida con lo que Pip encontró.",

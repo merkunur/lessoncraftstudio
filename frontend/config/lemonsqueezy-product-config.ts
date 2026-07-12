@@ -46,9 +46,29 @@ export const LCS_SUBSCRIPTION_PRODUCT_IDS: number[] = [
 ];
 
 /**
+ * Extra product IDs recognized as LCS subscriptions, from the server-only env
+ * `LCS_TEST_SUBSCRIPTION_PRODUCT_IDS` (comma-separated). Lemon Squeezy test mode
+ * is a separate store, so a TEST purchase carries a DIFFERENT product id than the
+ * live products above; adding the test ids here lets a test purchase activate a
+ * subscription end-to-end without baking test ids into committed code. Removable
+ * by clearing the env var (no redeploy of code needed). Read at call time so it
+ * works in the Next server runtime; undefined client-side → [] (harmless).
+ */
+function envExtraSubscriptionProductIds(): number[] {
+  const raw = process.env.LCS_TEST_SUBSCRIPTION_PRODUCT_IDS;
+  if (!raw) return [];
+  return raw
+    .split(',')
+    .map((s) => Number(s.trim()))
+    .filter((n) => Number.isFinite(n) && n > 0);
+}
+
+/**
  * True if a webhook payload / stored record belongs to EITHER LCS subscription
- * product. Match by product id (name + price are mutable).
+ * product (live), OR an env-allowlisted test product. Match by product id (name
+ * + price are mutable).
  */
 export function isLcsSubscriptionProduct(record: { productId: number | string }): boolean {
-  return LCS_SUBSCRIPTION_PRODUCT_IDS.includes(Number(record.productId));
+  const id = Number(record.productId);
+  return LCS_SUBSCRIPTION_PRODUCT_IDS.includes(id) || envExtraSubscriptionProductIds().includes(id);
 }

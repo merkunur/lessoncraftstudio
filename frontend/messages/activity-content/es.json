@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "span-length-gap.how-much-longer.2-md-a-4": {
+      "about": [
+        "En \"¿Cuánto más largo?\", Span, una oruga medidora muy curiosa, muestra dos barras proporcionales, una encima de la otra. Cada barra tiene una etiqueta con un objeto y su longitud en centímetros, por ejemplo un listón de 8 cm y un hilo de 5 cm. Tu hija o hijo observa las dos barras y lee con calma la longitud de cada una.",
+        "La actividad pide encontrar la diferencia de longitud: hay que descubrir cuánto más largo es el objeto más largo. Para lograrlo, se resta la longitud más corta de la más larga; con 8 cm y 5 cm, la diferencia es 3 cm. El niño escribe ese número y Span le avisa con cariño si su respuesta cabe. Todas las longitudes van de 1 a 20 cm, así que la resta siempre se queda dentro del 20.",
+        "Comparar y medir así ayuda a entender qué significa realmente una longitud y a darle sentido a los centímetros como unidad. Esta actividad es gratis, funciona en el navegador, sin cronómetro ni puntos, para que el aprendizaje sea tranquilo y sin prisas."
+      ],
+      "practices": [
+        "Leer las dos longitudes dadas en centímetros y relacionar cada medida con su barra y su objeto.",
+        "Reconocer cuál barra es la más larga y cuál es la más corta antes de calcular.",
+        "Encontrar la diferencia de longitud al restar la longitud más corta de la más larga.",
+        "Dar el resultado como una magnitud con su unidad, por ejemplo \"3 cm\", y así construir un buen sentido de los centímetros."
+      ],
+      "howToPlay": [
+        "Mira las dos barras de Span y lee la longitud en centímetros que trae cada una.",
+        "Piensa cuál barra es más larga y resta la más corta de la más larga.",
+        "Escribe cuánto más largo es el objeto más largo, en cm, y Span te dice si tu respuesta cabe."
+      ],
+      "learningGoals": [
+        "Comparar dos longitudes dadas y encontrar su diferencia, que es el corazón de la Magnitud y medida.",
+        "Conectar la idea de longitud con restar dentro del 20 en un contexto con significado real, respondiendo a la pregunta \"¿cuánto más largo?\".",
+        "Medir en centímetros y hallar diferencias de longitud es un contenido propio de segundo grado de primaria (~7–8 años) dentro de los Planes y programas de estudio (SEP) de la Nueva Escuela Mexicana, y siempre se busca expresar los resultados con su unidad para afianzar el sentido de los centímetros."
+      ]
+    },
     "comparison-creek.river-steer.k-cc-c-7": {
       "about": [
         "En «El río del capitán Quill», tu hija o hijo acompaña al capitán Quill, un patito que dirige su balsa río abajo por un río que se va abriendo. En cada bifurcación aparecen dos brazos del río, cada uno con un número, y hay que tocar el brazo del número mayor o del menor según lo que pida el capitán. Así la balsa sigue su camino y la aventura continúa a un ritmo tranquilo.",

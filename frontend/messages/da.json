@@ -2775,7 +2775,7 @@
       "q4": "Skal mine elever have en konto?",
       "a4": "Aldrig. Børn logger aldrig ind på LessonCraftStudio. Du deler et link; de spiller. Vi indsamler slet ingen elevdata.",
       "q5": "Hvilke betalingsmetoder og hvilken valuta bruger I?",
-      "a5": "Betalingen håndteres af Lemon Squeezy (kort, PayPal i mange lande) og trækkes i amerikanske dollars — din bank omregner til dagens kurs. Priser vist i € eller kr er omtrentlige."
+      "a5": "Betalingen håndteres af Lemon Squeezy (kort, PayPal i mange lande) og trækkes i amerikanske dollars — din bank omregner til dagens kurs."
     }
   },
   "subscribeThanks": {

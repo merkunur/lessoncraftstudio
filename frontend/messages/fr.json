@@ -2798,7 +2798,7 @@
       "q4": "Mes élèves ont-ils besoin d'un compte ?",
       "a4": "Jamais. Les enfants ne se connectent jamais sur LessonCraftStudio. Vous partagez un lien ; ils jouent. Nous ne collectons aucune donnée sur les élèves.",
       "q5": "Quels moyens de paiement et quelle devise utilisez-vous ?",
-      "a5": "Le paiement est géré par Lemon Squeezy (cartes, PayPal dans de nombreux pays) et facturé en dollars US — votre banque convertit au taux du jour. Les prix affichés en € ou en kr sont approximatifs."
+      "a5": "Le paiement est géré par Lemon Squeezy (cartes, PayPal dans de nombreux pays) et facturé en dollars US — votre banque convertit au taux du jour."
     }
   },
   "subscribeThanks": {

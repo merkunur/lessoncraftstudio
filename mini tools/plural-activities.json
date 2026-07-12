@@ -39,23 +39,37 @@
           { "id": "pl-jeu",     "singular": "jeu",     "rule": "vowel-change", "ruleSpec": { "from": "eu", "to": "eux" },   "family": "eu-eux",     "q": "Quel est le pluriel de « jeu » ?" },
           { "id": "pl-feu",     "singular": "feu",     "rule": "vowel-change", "ruleSpec": { "from": "eu", "to": "eux" },   "family": "eu-eux",     "q": "Quel est le pluriel de « feu » ?" },
           { "id": "pl-chateau", "singular": "château", "rule": "vowel-change", "ruleSpec": { "from": "eau", "to": "eaux" }, "family": "eau-eaux",   "q": "Quel est le pluriel de « château » ?" }
+        ],
+        "es": [
+          { "id": "pl-flor",   "singular": "flor",   "rule": "suffix",       "ruleSpec": { "add": "es" },              "family": "cons-es", "q": "¿Cuál es el plural de «flor»?" },
+          { "id": "pl-papel",  "singular": "papel",  "rule": "suffix",       "ruleSpec": { "add": "es" },              "family": "cons-es", "q": "¿Cuál es el plural de «papel»?" },
+          { "id": "pl-color",  "singular": "color",  "rule": "suffix",       "ruleSpec": { "add": "es" },              "family": "cons-es", "q": "¿Cuál es el plural de «color»?" },
+          { "id": "pl-animal", "singular": "animal", "rule": "suffix",       "ruleSpec": { "add": "es" },              "family": "cons-es", "q": "¿Cuál es el plural de «animal»?" },
+          { "id": "pl-pez",    "singular": "pez",    "rule": "vowel-change", "ruleSpec": { "from": "z", "to": "ces" }, "family": "z-ces",   "q": "¿Cuál es el plural de «pez»?" },
+          { "id": "pl-luz",    "singular": "luz",    "rule": "vowel-change", "ruleSpec": { "from": "z", "to": "ces" }, "family": "z-ces",   "q": "¿Cuál es el plural de «luz»?" },
+          { "id": "pl-nariz",  "singular": "nariz",  "rule": "vowel-change", "ruleSpec": { "from": "z", "to": "ces" }, "family": "z-ces",   "q": "¿Cuál es el plural de «nariz»?" },
+          { "id": "pl-lapiz",  "singular": "lápiz",  "rule": "vowel-change", "ruleSpec": { "from": "z", "to": "ces" }, "family": "z-ces",   "q": "¿Cuál es el plural de «lápiz»?" },
+          { "id": "pl-arbol",  "singular": "árbol",  "rule": "suffix",       "ruleSpec": { "add": "es" },              "family": "cons-es", "q": "¿Cuál es el plural de «árbol»?" }
         ]
       }
     },
     "slug": {
       "en": "irregular-plural-nouns",
       "de": "mehrzahl-mit-umlaut-klasse-2",
-      "fr": "le-pluriel-des-noms-irreguliers-ce1"
+      "fr": "le-pluriel-des-noms-irreguliers-ce1",
+      "es": "formar-el-plural-es-ces-2-primaria"
     },
     "page_title": {
       "en": "The Doubling Pond — Irregular Plural Nouns (Grade 2)",
       "de": "Pearls Mehrzahl-Teich – Mehrzahl mit Umlaut bilden (Klasse 2)",
-      "fr": "Le pluriel des noms irréguliers (-al → -aux) — CE1"
+      "fr": "Le pluriel des noms irréguliers (-al → -aux) — CE1",
+      "es": "El estanque de Pearl — El plural: -es y -ces (2.º primaria)"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 grammar activity: at Pearl's Doubling Pond, some words change in a special way when there is more than one — foot becomes feet, child becomes children, and a few (like deer and sheep) stay the same. Read the word, then pick the right plural — not the lazy +s. A friendly first look at irregular plural nouns. Common Core L.2.1.b.",
       "de": "Bilde mit Pearl die Mehrzahl mit Umlaut: aus Baum wird Bäume, aus Mann wird Männer. Wähle die richtige Form – kostenlos, interaktiv und ideal für Klasse 2.",
-      "fr": "Former le pluriel des noms irréguliers avec Perle : cheval→chevaux, bijou→bijoux, jeu→jeux. Activité gratuite et interactive, niveau CE1."
+      "fr": "Former le pluriel des noms irréguliers avec Perle : cheval→chevaux, bijou→bijoux, jeu→jeux. Activité gratuite et interactive, niveau CE1.",
+      "es": "Actividad interactiva y gratuita para practicar el plural de los sustantivos: cuándo se usa -es y cuándo la -z cambia a -ces. Los niños de 2.º de primaria descubren que no siempre basta con agregar -s. Alineado a los Planes y programas de estudio (SEP)."
     },
     "kid_prompt_template": "plural"
   }

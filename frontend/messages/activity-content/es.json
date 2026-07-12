@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "pond-juice.pour-measure.3-md-a-2": {
+      "about": [
+        "Pippa, la rana, atiende un alegre puesto de jugos y necesita tu ayuda para servir cada pedido. Un cliente llega y pide algo como \"quiero como N litros de jugo\", así que Pippa vierte el jugo en un vaso medidor para preparar la orden. Este puesto es una manera divertida de que tu peque practique la capacidad usando litros de verdad.",
+        "Mientras el jugo cae, el vaso medidor está esmerilado y no deja ver el nivel, así que no hay nada que perseguir con la mano: solo se suelta y se espera. Al soltarlo, el vaso se aclara y aparece la cantidad marcada en una escala del 0 al 10, y ahí empieza lo importante. Leer la escala es la tarea real de la actividad, no el acto de servir; tu hija o hijo observa hasta dónde llegó el jugo y lee cuántos litros hay.",
+        "En otras rondas se practica estimar una cantidad antes de leerla y comparar dos vasos para decidir cuál tiene más jugo. Cuando los recipientes usan escalas distintas, el que llega más alto puede tener menos: lo que cuenta es el número que se lee, no la altura del jugo. Todo es gratis, se juega en el navegador y no hay cronómetro ni puntos, solo tu peque, Pippa y muchos litros por descubrir."
+      ],
+      "practices": [
+        "Leer una cantidad de litros en una escala del 0 al 10 con calma y atención.",
+        "Estimar una cantidad de jugo y luego compararla con lo que realmente se lee en la escala.",
+        "Comparar dos recipientes de jugo y decidir cuál tiene más capacidad.",
+        "Entender que, con escalas distintas, cuenta el número de litros que se lee y no la altura del jugo."
+      ],
+      "howToPlay": [
+        "Un cliente pide \"como N litros\" y Pippa sirve el jugo en el vaso medidor esmerilado, que mantiene oculto el nivel.",
+        "Suéltalo: el vaso se aclara, aparece la cantidad en la escala y tú lees cuántos litros hay.",
+        "Toca la cantidad de litros que leíste, y en otras rondas compara dos vasos y toca el que tiene más jugo."
+      ],
+      "learningGoals": [
+        "Leer una cantidad de litros en una escala de medición, una habilidad de capacidad que en México se trabaja en segundo grado de primaria dentro de Magnitud y medida, según los Planes y programas de estudio (SEP) de la Nueva Escuela Mexicana.",
+        "Estimar cantidades de jugo y distinguir entre la estimación propia y el resultado exacto que muestra la escala.",
+        "Comparar capacidades dando más peso al número de litros que se lee que a la impresión visual de la altura."
+      ]
+    },
     "mosaic-menders.area-match.3-md-c-6": {
       "about": [
         "Tessa es mosaiquista y arma sus figuras con cuadritos iguales, como si fueran las piezas de un mosaico. En esta actividad gratuita, ella te muestra un modelo hecho de cierta cantidad de cuadritos y te pide encontrar, entre tres mosaicos, el que está hecho de la misma cantidad de cuadritos. Cada mosaico tiene su propia forma, así que hay que fijarse bien y contar.",

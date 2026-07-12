@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "tense.past-present-future.l-1-1-e": {
+      "about": [
+        "Juniper, el petirrojo, tiene una torre del tiempo con tres ventanas: Pasado, Presente y Futuro. Una ventana se ilumina con una pista de tiempo (Ayer, Hoy o Mañana) y el niño toca la forma del verbo que corresponde entre tres opciones.",
+        "La idea central es sencilla y poderosa: el verbo cambia de forma según el tiempo. Con ejemplos claros como navegan, navegaron y navegarán, el niño descubre cómo una misma acción se dice distinto en presente, en pasado y en futuro.",
+        "Se trata de una actividad interactiva y gratuita para 2.º de primaria, con un tono cálido y sin cronómetro. Se juega directamente en el navegador, sin necesidad de registrarse, y está alineada a los Planes y programas de estudio (SEP)."
+      ],
+      "practices": [
+        "Elegir la forma del verbo que corresponde a cada tiempo, guiándose por la pista que aparece en la ventana iluminada.",
+        "Distinguir con seguridad entre presente, pasado y futuro dentro de una misma oración.",
+        "Observar que el verbo cambia según el tiempo y que esa transformación es la que nos dice cuándo ocurre la acción.",
+        "Fijarse en las pequeñas diferencias de forma entre opciones muy parecidas, por ejemplo navegan, navegaron y navegarán."
+      ],
+      "howToPlay": [
+        "Una de las tres ventanas de la torre se ilumina y muestra su pista de tiempo: Ayer para el pasado, Hoy para el presente y Mañana para el futuro.",
+        "Lee con calma las tres formas del verbo que aparecen y toca la que coincide con el tiempo señalado.",
+        "Si la respuesta no es la correcta, Juniper da una pista amable y el niño puede intentarlo de nuevo cuantas veces quiera, sin presión ni puntaje."
+      ],
+      "learningGoals": [
+        "Al terminar, el niño de segundo grado de primaria (aproximadamente 7 a 8 años) distingue con confianza los tres tiempos verbales: presente, pasado y futuro.",
+        "Comprende que el verbo cambia de forma con el tiempo y aprende a reconocer esa diferencia en distintas oraciones.",
+        "Sienta las bases para escribir textos más claros, usando los tiempos verbales correctos según el momento en que ocurren las acciones."
+      ]
+    },
     "plural.irregular.l-2-1-b": {
       "about": [
         "En «El estanque de Pearl», tu hijo ve una palabra en singular y toca su plural correcto entre tres opciones, mientras la luna Pearl se refleja en el agua para mostrar la forma verdadera.",

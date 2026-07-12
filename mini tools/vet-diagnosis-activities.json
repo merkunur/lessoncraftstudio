@@ -1624,12 +1624,12 @@
     "page_title": {
       "en": "Vet's Diagnosis Window — Word-Problem Modeling",
       "de": "Rechengeschichten bis 20 – Tierklinik online üben",
-      "fr": "Chez le vétérinaire : résoudre des problèmes jusqu'à 20 (CE1)"
+      "fr": "Problèmes de maths CE1 – exercice en ligne (jusqu'à 20)"
     },
     "page_intro": {
       "en": "A shy little animal shuffles into the woodland vet clinic, and its symptom is a number STORY. Watch the x-ray act out what happened, then model it: place each amount in its spot, mark the mystery part, and dial the answer to clear the x-ray and heal your patient. A warm Grade 1 game about adding and subtracting within 20 to solve word problems with unknowns in every position, aligned to Common Core 1.OA.A.1.",
       "de": "Rechengeschichten bis 20 online üben: kleine Sachaufgaben im Tierklinik-Rechenspiel lösen. Kostenlos online, ohne Anmeldung – für Klasse 2.",
-      "fr": "Un jeu de maths CE1, gratuit et interactif : un petit animal timide entre dans la clinique vétérinaire de la forêt, et son symptôme est une HISTOIRE de nombres. Regarde la radio mettre en scène ce qui s'est passé, puis modélise-la : place chaque quantité à sa place, marque la partie mystère, et compose la réponse pour éclaircir la radio et soigner ton patient. Un jeu tout doux pour additionner et soustraire jusqu'à 20 et résoudre des problèmes où l'inconnue peut être n'importe où."
+      "fr": "Problèmes de maths CE1 en ligne : résoudre des situations jusqu'à 20 chez le vétérinaire. Gratuit, en ligne, sans inscription."
     },
     "kid_prompt_template": "vet-diagnosis"
   }

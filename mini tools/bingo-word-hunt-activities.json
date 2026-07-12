@@ -3,35 +3,345 @@
     "id": "bingo-word-hunt.read-match.rf-k-3-d",
     "tool": "bingo-word-hunt-activity",
     "task_template": "read-match",
-    "alignment": { "framework": "CCSS", "code": "RF.K.3.d", "grade": "K", "strand": "Reading: Foundational Skills" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.3.d",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
     "params": {
       "rounds": [
-        { "id": "cat", "band": 1, "target": { "noun": "cat", "themeDir": "animals" }, "choices": [ { "word": "cat" }, { "word": "cot" }, { "word": "cut" } ] },
-        { "id": "hat", "band": 1, "target": { "noun": "hat", "themeDir": "accessories" }, "choices": [ { "word": "hot" }, { "word": "hat" }, { "word": "hit" } ] },
-        { "id": "cup", "band": 1, "target": { "noun": "cup", "themeDir": "around the house" }, "choices": [ { "word": "cap" }, { "word": "cop" }, { "word": "cup" } ] },
-        { "id": "dog", "band": 2, "target": { "noun": "dog", "themeDir": "animals" }, "choices": [ { "word": "dog" }, { "word": "dig" }, { "word": "dug" } ] },
-        { "id": "pig", "band": 2, "target": { "noun": "pig", "themeDir": "animals" }, "choices": [ { "word": "peg" }, { "word": "pig" }, { "word": "pug" } ] },
-        { "id": "bed", "band": 2, "target": { "noun": "bed", "themeDir": "around the house" }, "choices": [ { "word": "bad" }, { "word": "bud" }, { "word": "bed" } ] },
-        { "id": "net", "band": 3, "target": { "noun": "net", "themeDir": "beach" }, "choices": [ { "word": "net" }, { "word": "nut" }, { "word": "not" } ] },
-        { "id": "pan", "band": 3, "target": { "noun": "pan", "themeDir": "around the house" }, "choices": [ { "word": "pin" }, { "word": "pan" }, { "word": "pen" } ] }
+        {
+          "id": "cat",
+          "band": 1,
+          "target": {
+            "noun": "cat",
+            "themeDir": "animals"
+          },
+          "choices": [
+            {
+              "word": "cat"
+            },
+            {
+              "word": "cot"
+            },
+            {
+              "word": "cut"
+            }
+          ]
+        },
+        {
+          "id": "hat",
+          "band": 1,
+          "target": {
+            "noun": "hat",
+            "themeDir": "accessories"
+          },
+          "choices": [
+            {
+              "word": "hot"
+            },
+            {
+              "word": "hat"
+            },
+            {
+              "word": "hit"
+            }
+          ]
+        },
+        {
+          "id": "cup",
+          "band": 1,
+          "target": {
+            "noun": "cup",
+            "themeDir": "around the house"
+          },
+          "choices": [
+            {
+              "word": "cap"
+            },
+            {
+              "word": "cop"
+            },
+            {
+              "word": "cup"
+            }
+          ]
+        },
+        {
+          "id": "dog",
+          "band": 2,
+          "target": {
+            "noun": "dog",
+            "themeDir": "animals"
+          },
+          "choices": [
+            {
+              "word": "dog"
+            },
+            {
+              "word": "dig"
+            },
+            {
+              "word": "dug"
+            }
+          ]
+        },
+        {
+          "id": "pig",
+          "band": 2,
+          "target": {
+            "noun": "pig",
+            "themeDir": "animals"
+          },
+          "choices": [
+            {
+              "word": "peg"
+            },
+            {
+              "word": "pig"
+            },
+            {
+              "word": "pug"
+            }
+          ]
+        },
+        {
+          "id": "bed",
+          "band": 2,
+          "target": {
+            "noun": "bed",
+            "themeDir": "around the house"
+          },
+          "choices": [
+            {
+              "word": "bad"
+            },
+            {
+              "word": "bud"
+            },
+            {
+              "word": "bed"
+            }
+          ]
+        },
+        {
+          "id": "net",
+          "band": 3,
+          "target": {
+            "noun": "net",
+            "themeDir": "beach"
+          },
+          "choices": [
+            {
+              "word": "net"
+            },
+            {
+              "word": "nut"
+            },
+            {
+              "word": "not"
+            }
+          ]
+        },
+        {
+          "id": "pan",
+          "band": 3,
+          "target": {
+            "noun": "pan",
+            "themeDir": "around the house"
+          },
+          "choices": [
+            {
+              "word": "pin"
+            },
+            {
+              "word": "pan"
+            },
+            {
+              "word": "pen"
+            }
+          ]
+        }
       ],
       "roundsL10n": {
         "fr": [
-          { "id": "pomme", "band": 1, "target": { "noun": "pomme", "imgKey": "apple", "themeDir": "fruits" }, "choices": [ { "word": "pomme" }, { "word": "somme" }, { "word": "gomme" } ] },
-          { "id": "vache", "band": 1, "target": { "noun": "vache", "imgKey": "cow", "themeDir": "farm animals" }, "choices": [ { "word": "tache" }, { "word": "vache" }, { "word": "hache" } ] },
-          { "id": "sac", "band": 1, "target": { "noun": "sac", "imgKey": "bag", "themeDir": "At the Supermarket" }, "choices": [ { "word": "sec" }, { "word": "sac" }, { "word": "suc" } ] },
-          { "id": "chat", "band": 2, "target": { "noun": "chat", "imgKey": "cat", "themeDir": "animals" }, "choices": [ { "word": "chat" }, { "word": "chut" }, { "word": "char" } ] },
-          { "id": "pain", "band": 2, "target": { "noun": "pain", "imgKey": "bread", "themeDir": "At the Supermarket" }, "choices": [ { "word": "bain" }, { "word": "pain" }, { "word": "main" } ] },
-          { "id": "lit", "band": 2, "target": { "noun": "lit", "imgKey": "bed", "themeDir": "furniture" }, "choices": [ { "word": "lot" }, { "word": "lit" }, { "word": "lut" } ] },
-          { "id": "pot", "band": 3, "target": { "noun": "pot", "imgKey": "pot", "themeDir": "kitchen tools" }, "choices": [ { "word": "mot" }, { "word": "pot" }, { "word": "sot" } ] },
-          { "id": "sel", "band": 3, "target": { "noun": "sel", "imgKey": "salt", "themeDir": "At the Supermarket" }, "choices": [ { "word": "sel" }, { "word": "sol" }, { "word": "gel" } ] }
+          {
+            "id": "pomme",
+            "band": 1,
+            "target": {
+              "noun": "pomme",
+              "imgKey": "apple",
+              "themeDir": "fruits"
+            },
+            "choices": [
+              {
+                "word": "pomme"
+              },
+              {
+                "word": "somme"
+              },
+              {
+                "word": "gomme"
+              }
+            ]
+          },
+          {
+            "id": "vache",
+            "band": 1,
+            "target": {
+              "noun": "vache",
+              "imgKey": "cow",
+              "themeDir": "farm animals"
+            },
+            "choices": [
+              {
+                "word": "tache"
+              },
+              {
+                "word": "vache"
+              },
+              {
+                "word": "hache"
+              }
+            ]
+          },
+          {
+            "id": "sac",
+            "band": 1,
+            "target": {
+              "noun": "sac",
+              "imgKey": "bag",
+              "themeDir": "At the Supermarket"
+            },
+            "choices": [
+              {
+                "word": "sec"
+              },
+              {
+                "word": "sac"
+              },
+              {
+                "word": "suc"
+              }
+            ]
+          },
+          {
+            "id": "chat",
+            "band": 2,
+            "target": {
+              "noun": "chat",
+              "imgKey": "cat",
+              "themeDir": "animals"
+            },
+            "choices": [
+              {
+                "word": "chat"
+              },
+              {
+                "word": "chut"
+              },
+              {
+                "word": "char"
+              }
+            ]
+          },
+          {
+            "id": "pain",
+            "band": 2,
+            "target": {
+              "noun": "pain",
+              "imgKey": "bread",
+              "themeDir": "At the Supermarket"
+            },
+            "choices": [
+              {
+                "word": "bain"
+              },
+              {
+                "word": "pain"
+              },
+              {
+                "word": "main"
+              }
+            ]
+          },
+          {
+            "id": "lit",
+            "band": 2,
+            "target": {
+              "noun": "lit",
+              "imgKey": "bed",
+              "themeDir": "furniture"
+            },
+            "choices": [
+              {
+                "word": "lot"
+              },
+              {
+                "word": "lit"
+              },
+              {
+                "word": "lut"
+              }
+            ]
+          },
+          {
+            "id": "pot",
+            "band": 3,
+            "target": {
+              "noun": "pot",
+              "imgKey": "pot",
+              "themeDir": "kitchen tools"
+            },
+            "choices": [
+              {
+                "word": "mot"
+              },
+              {
+                "word": "pot"
+              },
+              {
+                "word": "sot"
+              }
+            ]
+          },
+          {
+            "id": "sel",
+            "band": 3,
+            "target": {
+              "noun": "sel",
+              "imgKey": "salt",
+              "themeDir": "At the Supermarket"
+            },
+            "choices": [
+              {
+                "word": "sel"
+              },
+              {
+                "word": "sol"
+              },
+              {
+                "word": "gel"
+              }
+            ]
+          }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "bingo-word-hunt", "fr": "lire-des-mots-qui-se-ressemblent-cp" },
-    "page_title": { "en": "Bingo's Word Hunt — Read & Match the Right Word (Kindergarten)", "fr": "La chasse aux mots de Bingo — Lire des mots qui se ressemblent (CP)" },
-    "page_intro": { "en": "Bingo the beagle sniffs out the exact right word! Look at the picture, then read the three little words — they look almost the same but one letter is different (cat, cot, cut). Sound out each word and tap the one that names the picture. A Kindergarten decoding game, aligned to Common Core RF.K.3.d: tell apart similar words by the letters that differ.", "fr": "Bingo le beagle flaire le mot exact ! Regarde l’image, puis lis les trois petits mots : ils se ressemblent beaucoup, mais une seule lettre change (chat, chut, char). Prononce chaque mot à voix basse et tape celui qui nomme l’image. Un jeu de décodage pour le CP, qui entraîne à lire des mots réguliers et à distinguer des mots proches grâce à la lettre qui les différencie — une étape clé de la lecture." },
+    "slug": {
+      "en": "bingo-word-hunt",
+      "fr": "lire-des-mots-qui-se-ressemblent-cp"
+    },
+    "page_title": {
+      "en": "Bingo's Word Hunt — Read & Match the Right Word (Kindergarten)",
+      "fr": "Confusion de sons – lire des mots proches en ligne (CP)"
+    },
+    "page_intro": {
+      "en": "Bingo the beagle sniffs out the exact right word! Look at the picture, then read the three little words — they look almost the same but one letter is different (cat, cot, cut). Sound out each word and tap the one that names the picture. A Kindergarten decoding game, aligned to Common Core RF.K.3.d: tell apart similar words by the letters that differ.",
+      "fr": "Aider un enfant qui confond les sons : lire et distinguer des mots qui se ressemblent. Gratuit, en ligne, sans inscription."
+    },
     "kid_prompt_template": "Read the words — tap the one that names the picture!"
   }
 ]

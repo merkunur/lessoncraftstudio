@@ -424,12 +424,12 @@
     "page_title": {
       "en": "Wiggles' Sentence Builder — Build a Sentence (Grade 1)",
       "de": "Sätze schreiben üben – Satzbau online (Klasse 2)",
-      "fr": "Construire une phrase : l’ordre des mots – CE1"
+      "fr": "La phrase CE1 : remettre les mots dans l'ordre – en ligne"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 grammar activity: put the scrambled words in the right order to build a complete sentence — a capital letter to start, a noun and a verb in the middle, and a period at the end. Wiggles the caterpillar helps children produce simple, complete sentences. Common Core L.1.1.j (and L.K.1.b nouns and verbs).",
       "de": "Sätze schreiben üben mit Wiggles: Wörter in die richtige Reihenfolge bringen und den Satzbau trainieren. Klasse 2 – kostenlos online, ohne Anmeldung.",
-      "fr": "Wiggles la chenille montre une image et des mots mélangés : ton enfant les remet dans l’ordre pour construire une phrase. Gratuit et interactif, CE1."
+      "fr": "La phrase au CE1 : remets les mots dans l'ordre pour construire une phrase correcte, étape par étape. Gratuit, en ligne, sans inscription."
     },
     "kid_prompt_template": "sentence-builder"
   }

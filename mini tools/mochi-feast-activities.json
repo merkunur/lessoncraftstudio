@@ -3,17 +3,62 @@
     "id": "mochi-feast.count-out.k-cc-b-5",
     "tool": "mochi-feast-activity",
     "task_template": "count-out",
-    "alignment": { "framework": "CCSS", "code": "K.CC.B.5", "grade": "K", "strand": "Counting & Cardinality" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.CC.B.5",
+      "grade": "K",
+      "strand": "Counting & Cardinality"
+    },
     "params": {
       "rounds": [
-        { "target": 3,  "noun": "strawberry", "theme": "fruits",              "seed": 11 },
-        { "target": 5,  "noun": "cookie",     "theme": "desserts and sweets", "seed": 23 },
-        { "target": 4,  "noun": "cherry",     "theme": "fruits",              "seed": 31 },
-        { "target": 6,  "noun": "cupcake",    "theme": "desserts and sweets", "seed": 41 },
-        { "target": 2,  "noun": "banana",     "theme": "fruits",              "seed": 53 },
-        { "target": 7,  "noun": "apple",      "theme": "fruits",              "seed": 61 },
-        { "target": 8,  "noun": "donut",      "theme": "desserts and sweets", "seed": 67 },
-        { "target": 10, "noun": "muffin",     "theme": "desserts and sweets", "seed": 71 }
+        {
+          "target": 3,
+          "noun": "strawberry",
+          "theme": "fruits",
+          "seed": 11
+        },
+        {
+          "target": 5,
+          "noun": "cookie",
+          "theme": "desserts and sweets",
+          "seed": 23
+        },
+        {
+          "target": 4,
+          "noun": "cherry",
+          "theme": "fruits",
+          "seed": 31
+        },
+        {
+          "target": 6,
+          "noun": "cupcake",
+          "theme": "desserts and sweets",
+          "seed": 41
+        },
+        {
+          "target": 2,
+          "noun": "banana",
+          "theme": "fruits",
+          "seed": 53
+        },
+        {
+          "target": 7,
+          "noun": "apple",
+          "theme": "fruits",
+          "seed": 61
+        },
+        {
+          "target": 8,
+          "noun": "donut",
+          "theme": "desserts and sweets",
+          "seed": 67
+        },
+        {
+          "target": 10,
+          "noun": "muffin",
+          "theme": "desserts and sweets",
+          "seed": 71
+        }
       ]
     },
     "theme": null,
@@ -25,12 +70,12 @@
     "page_title": {
       "en": "Feed Mochi — Count Out Treats (Kindergarten Counting Game)",
       "de": "Menge herstellen: genau so viele abzählen – Klasse 1",
-      "fr": "Compter avec Mochi : donner le bon nombre de gourmandises - GS"
+      "fr": "Dénombrer en maternelle – donner le bon nombre, en ligne (GS)"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten counting activity: feed Mochi the dumpling exactly the number of treats asked. Tap the dish to drop berries, cookies, acorns and more into the bowl one at a time, then check. The bowl filling IS the count — no numerals — so children build cardinality and learn to count out a given number of objects. Common Core K.CC.B.5.",
       "de": "Genau so viele abzählen bis 10: Füttere Mochi die richtige Anzahl Häppchen. Kostenlose, interaktive Zählübung für Klasse 1 – jetzt spielen!",
-      "fr": "Aide Mochi en lui donnant le bon nombre de gourmandises : l'enfant compte en remplissant le bol, un à un. Une activité gratuite et interactive de GS, à découvrir tout de suite !"
+      "fr": "Dénombrer en maternelle : compter et donner exactement le bon nombre de gourmandises à Mochi. Gratuit, en ligne, sans inscription."
     },
     "kid_prompt_template": "count-out"
   }

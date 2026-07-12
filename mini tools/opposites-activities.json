@@ -3,252 +3,1501 @@
     "id": "opposites.antonyms.k-l-5-b",
     "tool": "opposites-activity",
     "task_template": "opposites",
-    "alignment": { "framework": "CCSS", "code": "K.L.5.b", "grade": "K", "strand": "Language" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.L.5.b",
+      "grade": "K",
+      "strand": "Language"
+    },
     "theme": null,
     "params": {
       "rounds": [
-        { "id": "opposites.pick-black", "cog": "pick", "complementary": false,
-          "target": { "word": "black", "glyph": { "type": "swatch", "param": "#262626" }, "oppositionId": "color", "pos": "adj" },
+        {
+          "id": "opposites.pick-black",
+          "cog": "pick",
+          "complementary": false,
+          "target": {
+            "word": "black",
+            "glyph": {
+              "type": "swatch",
+              "param": "#262626"
+            },
+            "oppositionId": "color",
+            "pos": "adj"
+          },
           "choices": [
-            { "word": "up", "glyph": { "type": "arrow", "param": "up" }, "relation": "unrelated", "dimension": "direction" },
-            { "word": "white", "glyph": { "type": "swatch", "param": "#ffffff" }, "relation": "opposite", "dimension": "color" },
-            { "word": "red", "glyph": { "type": "swatch", "param": "#e23b2e" }, "relation": "same-dim-sibling", "dimension": "color" }
-          ] },
-        { "id": "opposites.pick-up", "cog": "pick", "complementary": false,
-          "target": { "word": "up", "glyph": { "type": "arrow", "param": "up" }, "oppositionId": "direction", "pos": "adj" },
+            {
+              "word": "up",
+              "glyph": {
+                "type": "arrow",
+                "param": "up"
+              },
+              "relation": "unrelated",
+              "dimension": "direction"
+            },
+            {
+              "word": "white",
+              "glyph": {
+                "type": "swatch",
+                "param": "#ffffff"
+              },
+              "relation": "opposite",
+              "dimension": "color"
+            },
+            {
+              "word": "red",
+              "glyph": {
+                "type": "swatch",
+                "param": "#e23b2e"
+              },
+              "relation": "same-dim-sibling",
+              "dimension": "color"
+            }
+          ]
+        },
+        {
+          "id": "opposites.pick-up",
+          "cog": "pick",
+          "complementary": false,
+          "target": {
+            "word": "up",
+            "glyph": {
+              "type": "arrow",
+              "param": "up"
+            },
+            "oppositionId": "direction",
+            "pos": "adj"
+          },
           "choices": [
-            { "word": "black", "glyph": { "type": "swatch", "param": "#262626" }, "relation": "unrelated", "dimension": "color" },
-            { "word": "down", "glyph": { "type": "arrow", "param": "down" }, "relation": "opposite", "dimension": "direction" },
-            { "word": "left", "glyph": { "type": "arrow", "param": "left" }, "relation": "same-dim-sibling", "dimension": "direction" }
-          ] },
-        { "id": "opposites.pick-big", "cog": "pick", "complementary": true,
-          "target": { "word": "big", "glyph": { "type": "size", "param": "big" }, "oppositionId": "size", "pos": "adj" },
+            {
+              "word": "black",
+              "glyph": {
+                "type": "swatch",
+                "param": "#262626"
+              },
+              "relation": "unrelated",
+              "dimension": "color"
+            },
+            {
+              "word": "down",
+              "glyph": {
+                "type": "arrow",
+                "param": "down"
+              },
+              "relation": "opposite",
+              "dimension": "direction"
+            },
+            {
+              "word": "left",
+              "glyph": {
+                "type": "arrow",
+                "param": "left"
+              },
+              "relation": "same-dim-sibling",
+              "dimension": "direction"
+            }
+          ]
+        },
+        {
+          "id": "opposites.pick-big",
+          "cog": "pick",
+          "complementary": true,
+          "target": {
+            "word": "big",
+            "glyph": {
+              "type": "size",
+              "param": "big"
+            },
+            "oppositionId": "size",
+            "pos": "adj"
+          },
           "choices": [
-            { "word": "down", "glyph": { "type": "arrow", "param": "down" }, "relation": "unrelated", "dimension": "direction" },
-            { "word": "small", "glyph": { "type": "size", "param": "small" }, "relation": "opposite", "dimension": "size" },
-            { "word": "happy", "glyph": { "type": "face", "param": "happy" }, "relation": "unrelated", "dimension": "emotion" }
-          ] },
-        { "id": "opposites.route-black", "cog": "route", "complementary": false,
-          "anchor": { "word": "black", "glyph": { "type": "swatch", "param": "#262626" }, "oppositionId": "color" },
+            {
+              "word": "down",
+              "glyph": {
+                "type": "arrow",
+                "param": "down"
+              },
+              "relation": "unrelated",
+              "dimension": "direction"
+            },
+            {
+              "word": "small",
+              "glyph": {
+                "type": "size",
+                "param": "small"
+              },
+              "relation": "opposite",
+              "dimension": "size"
+            },
+            {
+              "word": "happy",
+              "glyph": {
+                "type": "face",
+                "param": "happy"
+              },
+              "relation": "unrelated",
+              "dimension": "emotion"
+            }
+          ]
+        },
+        {
+          "id": "opposites.route-black",
+          "cog": "route",
+          "complementary": false,
+          "anchor": {
+            "word": "black",
+            "glyph": {
+              "type": "swatch",
+              "param": "#262626"
+            },
+            "oppositionId": "color"
+          },
           "stream": [
-            { "word": "white", "glyph": { "type": "swatch", "param": "#ffffff" }, "relation": "opposite", "dimension": "color" },
-            { "word": "red", "glyph": { "type": "swatch", "param": "#e23b2e" }, "relation": "same-dim-sibling", "dimension": "color" },
-            { "word": "blue", "glyph": { "type": "swatch", "param": "#2f6fd0" }, "relation": "same-dim-sibling", "dimension": "color" }
-          ] },
-        { "id": "opposites.oddpair-1", "cog": "oddpair", "complementary": false,
+            {
+              "word": "white",
+              "glyph": {
+                "type": "swatch",
+                "param": "#ffffff"
+              },
+              "relation": "opposite",
+              "dimension": "color"
+            },
+            {
+              "word": "red",
+              "glyph": {
+                "type": "swatch",
+                "param": "#e23b2e"
+              },
+              "relation": "same-dim-sibling",
+              "dimension": "color"
+            },
+            {
+              "word": "blue",
+              "glyph": {
+                "type": "swatch",
+                "param": "#2f6fd0"
+              },
+              "relation": "same-dim-sibling",
+              "dimension": "color"
+            }
+          ]
+        },
+        {
+          "id": "opposites.oddpair-1",
+          "cog": "oddpair",
+          "complementary": false,
           "pairs": [
-            { "a": { "word": "black", "glyph": { "type": "swatch", "param": "#262626" } }, "b": { "word": "white", "glyph": { "type": "swatch", "param": "#ffffff" } }, "relation": "opposite" },
-            { "a": { "word": "up", "glyph": { "type": "arrow", "param": "up" } }, "b": { "word": "down", "glyph": { "type": "arrow", "param": "down" } }, "relation": "opposite" },
-            { "a": { "word": "red", "glyph": { "type": "swatch", "param": "#e23b2e" } }, "b": { "word": "blue", "glyph": { "type": "swatch", "param": "#2f6fd0" } }, "relation": "related" }
-          ] },
-        { "id": "opposites.scene-bedtime", "cog": "scene", "complementary": true,
+            {
+              "a": {
+                "word": "black",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#262626"
+                }
+              },
+              "b": {
+                "word": "white",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#ffffff"
+                }
+              },
+              "relation": "opposite"
+            },
+            {
+              "a": {
+                "word": "up",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "up"
+                }
+              },
+              "b": {
+                "word": "down",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "down"
+                }
+              },
+              "relation": "opposite"
+            },
+            {
+              "a": {
+                "word": "red",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#e23b2e"
+                }
+              },
+              "b": {
+                "word": "blue",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#2f6fd0"
+                }
+              },
+              "relation": "related"
+            }
+          ]
+        },
+        {
+          "id": "opposites.scene-bedtime",
+          "cog": "scene",
+          "complementary": true,
           "sceneLabel": "It's bedtime — but everything is the wrong way! Tap each thing to fix it.",
           "elements": [
-            { "word": "sun", "glyph": { "type": "celestial", "param": "sun" }, "flipGlyph": { "type": "celestial", "param": "moon" }, "flipWord": "moon" },
-            { "word": "lamp on", "glyph": { "type": "lamp", "param": "on" }, "flipGlyph": { "type": "lamp", "param": "off" }, "flipWord": "lamp off" },
-            { "word": "door open", "glyph": { "type": "door", "param": "open" }, "flipGlyph": { "type": "door", "param": "closed" }, "flipWord": "door closed" }
-          ] },
-        { "id": "opposites.generate-left", "cog": "generate", "complementary": false,
-          "target": { "word": "left", "glyph": { "type": "arrow", "param": "left" }, "oppositionId": "direction", "pos": "adj" },
+            {
+              "word": "sun",
+              "glyph": {
+                "type": "celestial",
+                "param": "sun"
+              },
+              "flipGlyph": {
+                "type": "celestial",
+                "param": "moon"
+              },
+              "flipWord": "moon"
+            },
+            {
+              "word": "lamp on",
+              "glyph": {
+                "type": "lamp",
+                "param": "on"
+              },
+              "flipGlyph": {
+                "type": "lamp",
+                "param": "off"
+              },
+              "flipWord": "lamp off"
+            },
+            {
+              "word": "door open",
+              "glyph": {
+                "type": "door",
+                "param": "open"
+              },
+              "flipGlyph": {
+                "type": "door",
+                "param": "closed"
+              },
+              "flipWord": "door closed"
+            }
+          ]
+        },
+        {
+          "id": "opposites.generate-left",
+          "cog": "generate",
+          "complementary": false,
+          "target": {
+            "word": "left",
+            "glyph": {
+              "type": "arrow",
+              "param": "left"
+            },
+            "oppositionId": "direction",
+            "pos": "adj"
+          },
           "choices": [
-            { "word": "happy", "glyph": { "type": "face", "param": "happy" }, "relation": "unrelated", "dimension": "emotion" },
-            { "word": "right", "glyph": { "type": "arrow", "param": "right" }, "relation": "opposite", "dimension": "direction" },
-            { "word": "up", "glyph": { "type": "arrow", "param": "up" }, "relation": "same-dim-sibling", "dimension": "direction" }
-          ] },
-        { "id": "opposites.balance-white", "cog": "balance", "complementary": false,
-          "target": { "word": "white", "glyph": { "type": "swatch", "param": "#ffffff" }, "oppositionId": "color", "pos": "adj" },
+            {
+              "word": "happy",
+              "glyph": {
+                "type": "face",
+                "param": "happy"
+              },
+              "relation": "unrelated",
+              "dimension": "emotion"
+            },
+            {
+              "word": "right",
+              "glyph": {
+                "type": "arrow",
+                "param": "right"
+              },
+              "relation": "opposite",
+              "dimension": "direction"
+            },
+            {
+              "word": "up",
+              "glyph": {
+                "type": "arrow",
+                "param": "up"
+              },
+              "relation": "same-dim-sibling",
+              "dimension": "direction"
+            }
+          ]
+        },
+        {
+          "id": "opposites.balance-white",
+          "cog": "balance",
+          "complementary": false,
+          "target": {
+            "word": "white",
+            "glyph": {
+              "type": "swatch",
+              "param": "#ffffff"
+            },
+            "oppositionId": "color",
+            "pos": "adj"
+          },
           "choices": [
-            { "word": "down", "glyph": { "type": "arrow", "param": "down" }, "relation": "unrelated", "dimension": "direction" },
-            { "word": "black", "glyph": { "type": "swatch", "param": "#262626" }, "relation": "opposite", "dimension": "color" },
-            { "word": "blue", "glyph": { "type": "swatch", "param": "#2f6fd0" }, "relation": "same-dim-sibling", "dimension": "color" }
-          ] },
-        { "id": "opposites.balance-down", "cog": "balance", "complementary": false,
-          "target": { "word": "down", "glyph": { "type": "arrow", "param": "down" }, "oppositionId": "direction", "pos": "adj" },
+            {
+              "word": "down",
+              "glyph": {
+                "type": "arrow",
+                "param": "down"
+              },
+              "relation": "unrelated",
+              "dimension": "direction"
+            },
+            {
+              "word": "black",
+              "glyph": {
+                "type": "swatch",
+                "param": "#262626"
+              },
+              "relation": "opposite",
+              "dimension": "color"
+            },
+            {
+              "word": "blue",
+              "glyph": {
+                "type": "swatch",
+                "param": "#2f6fd0"
+              },
+              "relation": "same-dim-sibling",
+              "dimension": "color"
+            }
+          ]
+        },
+        {
+          "id": "opposites.balance-down",
+          "cog": "balance",
+          "complementary": false,
+          "target": {
+            "word": "down",
+            "glyph": {
+              "type": "arrow",
+              "param": "down"
+            },
+            "oppositionId": "direction",
+            "pos": "adj"
+          },
           "choices": [
-            { "word": "red", "glyph": { "type": "swatch", "param": "#e23b2e" }, "relation": "unrelated", "dimension": "color" },
-            { "word": "up", "glyph": { "type": "arrow", "param": "up" }, "relation": "opposite", "dimension": "direction" },
-            { "word": "right", "glyph": { "type": "arrow", "param": "right" }, "relation": "same-dim-sibling", "dimension": "direction" }
-          ] },
-        { "id": "opposites.verb-push", "cog": "verb", "complementary": false,
-          "target": { "word": "push", "glyph": { "type": "motion", "param": "push" }, "oppositionId": "motion", "pos": "verb" },
+            {
+              "word": "red",
+              "glyph": {
+                "type": "swatch",
+                "param": "#e23b2e"
+              },
+              "relation": "unrelated",
+              "dimension": "color"
+            },
+            {
+              "word": "up",
+              "glyph": {
+                "type": "arrow",
+                "param": "up"
+              },
+              "relation": "opposite",
+              "dimension": "direction"
+            },
+            {
+              "word": "right",
+              "glyph": {
+                "type": "arrow",
+                "param": "right"
+              },
+              "relation": "same-dim-sibling",
+              "dimension": "direction"
+            }
+          ]
+        },
+        {
+          "id": "opposites.verb-push",
+          "cog": "verb",
+          "complementary": false,
+          "target": {
+            "word": "push",
+            "glyph": {
+              "type": "motion",
+              "param": "push"
+            },
+            "oppositionId": "motion",
+            "pos": "verb"
+          },
           "choices": [
-            { "word": "open", "glyph": { "type": "door", "param": "open" }, "relation": "unrelated", "dimension": "state" },
-            { "word": "pull", "glyph": { "type": "motion", "param": "pull" }, "relation": "opposite", "dimension": "motion" },
-            { "word": "lift", "glyph": { "type": "motion", "param": "lift" }, "relation": "same-dim-sibling", "dimension": "motion" }
-          ] },
-        { "id": "opposites.pick-hot", "cog": "pick", "complementary": true,
-          "target": { "word": "hot", "glyph": { "type": "temp", "param": "hot" }, "oppositionId": "temperature", "pos": "adj" },
+            {
+              "word": "open",
+              "glyph": {
+                "type": "door",
+                "param": "open"
+              },
+              "relation": "unrelated",
+              "dimension": "state"
+            },
+            {
+              "word": "pull",
+              "glyph": {
+                "type": "motion",
+                "param": "pull"
+              },
+              "relation": "opposite",
+              "dimension": "motion"
+            },
+            {
+              "word": "lift",
+              "glyph": {
+                "type": "motion",
+                "param": "lift"
+              },
+              "relation": "same-dim-sibling",
+              "dimension": "motion"
+            }
+          ]
+        },
+        {
+          "id": "opposites.pick-hot",
+          "cog": "pick",
+          "complementary": true,
+          "target": {
+            "word": "hot",
+            "glyph": {
+              "type": "temp",
+              "param": "hot"
+            },
+            "oppositionId": "temperature",
+            "pos": "adj"
+          },
           "choices": [
-            { "word": "left", "glyph": { "type": "arrow", "param": "left" }, "relation": "unrelated", "dimension": "direction" },
-            { "word": "cold", "glyph": { "type": "temp", "param": "cold" }, "relation": "opposite", "dimension": "temperature" },
-            { "word": "big", "glyph": { "type": "size", "param": "big" }, "relation": "unrelated", "dimension": "size" }
-          ] }
+            {
+              "word": "left",
+              "glyph": {
+                "type": "arrow",
+                "param": "left"
+              },
+              "relation": "unrelated",
+              "dimension": "direction"
+            },
+            {
+              "word": "cold",
+              "glyph": {
+                "type": "temp",
+                "param": "cold"
+              },
+              "relation": "opposite",
+              "dimension": "temperature"
+            },
+            {
+              "word": "big",
+              "glyph": {
+                "type": "size",
+                "param": "big"
+              },
+              "relation": "unrelated",
+              "dimension": "size"
+            }
+          ]
+        }
       ],
       "roundsL10n": {
         "de": [
-          { "id": "opposites.pick-black", "cog": "pick", "complementary": false,
-            "target": { "word": "schwarz", "glyph": { "type": "swatch", "param": "#262626" }, "oppositionId": "color", "pos": "adj" },
+          {
+            "id": "opposites.pick-black",
+            "cog": "pick",
+            "complementary": false,
+            "target": {
+              "word": "schwarz",
+              "glyph": {
+                "type": "swatch",
+                "param": "#262626"
+              },
+              "oppositionId": "color",
+              "pos": "adj"
+            },
             "choices": [
-              { "word": "oben", "glyph": { "type": "arrow", "param": "up" }, "relation": "unrelated", "dimension": "direction" },
-              { "word": "weiß", "glyph": { "type": "swatch", "param": "#ffffff" }, "relation": "opposite", "dimension": "color" },
-              { "word": "rot", "glyph": { "type": "swatch", "param": "#e23b2e" }, "relation": "same-dim-sibling", "dimension": "color" }
-            ] },
-          { "id": "opposites.pick-up", "cog": "pick", "complementary": false,
-            "target": { "word": "oben", "glyph": { "type": "arrow", "param": "up" }, "oppositionId": "direction", "pos": "adj" },
+              {
+                "word": "oben",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "up"
+                },
+                "relation": "unrelated",
+                "dimension": "direction"
+              },
+              {
+                "word": "weiß",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#ffffff"
+                },
+                "relation": "opposite",
+                "dimension": "color"
+              },
+              {
+                "word": "rot",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#e23b2e"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "color"
+              }
+            ]
+          },
+          {
+            "id": "opposites.pick-up",
+            "cog": "pick",
+            "complementary": false,
+            "target": {
+              "word": "oben",
+              "glyph": {
+                "type": "arrow",
+                "param": "up"
+              },
+              "oppositionId": "direction",
+              "pos": "adj"
+            },
             "choices": [
-              { "word": "schwarz", "glyph": { "type": "swatch", "param": "#262626" }, "relation": "unrelated", "dimension": "color" },
-              { "word": "unten", "glyph": { "type": "arrow", "param": "down" }, "relation": "opposite", "dimension": "direction" },
-              { "word": "links", "glyph": { "type": "arrow", "param": "left" }, "relation": "same-dim-sibling", "dimension": "direction" }
-            ] },
-          { "id": "opposites.pick-big", "cog": "pick", "complementary": true,
-            "target": { "word": "groß", "glyph": { "type": "size", "param": "big" }, "oppositionId": "size", "pos": "adj" },
+              {
+                "word": "schwarz",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#262626"
+                },
+                "relation": "unrelated",
+                "dimension": "color"
+              },
+              {
+                "word": "unten",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "down"
+                },
+                "relation": "opposite",
+                "dimension": "direction"
+              },
+              {
+                "word": "links",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "left"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "direction"
+              }
+            ]
+          },
+          {
+            "id": "opposites.pick-big",
+            "cog": "pick",
+            "complementary": true,
+            "target": {
+              "word": "groß",
+              "glyph": {
+                "type": "size",
+                "param": "big"
+              },
+              "oppositionId": "size",
+              "pos": "adj"
+            },
             "choices": [
-              { "word": "unten", "glyph": { "type": "arrow", "param": "down" }, "relation": "unrelated", "dimension": "direction" },
-              { "word": "klein", "glyph": { "type": "size", "param": "small" }, "relation": "opposite", "dimension": "size" },
-              { "word": "fröhlich", "glyph": { "type": "face", "param": "happy" }, "relation": "unrelated", "dimension": "emotion" }
-            ] },
-          { "id": "opposites.route-black", "cog": "route", "complementary": false,
-            "anchor": { "word": "schwarz", "glyph": { "type": "swatch", "param": "#262626" }, "oppositionId": "color" },
+              {
+                "word": "unten",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "down"
+                },
+                "relation": "unrelated",
+                "dimension": "direction"
+              },
+              {
+                "word": "klein",
+                "glyph": {
+                  "type": "size",
+                  "param": "small"
+                },
+                "relation": "opposite",
+                "dimension": "size"
+              },
+              {
+                "word": "fröhlich",
+                "glyph": {
+                  "type": "face",
+                  "param": "happy"
+                },
+                "relation": "unrelated",
+                "dimension": "emotion"
+              }
+            ]
+          },
+          {
+            "id": "opposites.route-black",
+            "cog": "route",
+            "complementary": false,
+            "anchor": {
+              "word": "schwarz",
+              "glyph": {
+                "type": "swatch",
+                "param": "#262626"
+              },
+              "oppositionId": "color"
+            },
             "stream": [
-              { "word": "weiß", "glyph": { "type": "swatch", "param": "#ffffff" }, "relation": "opposite", "dimension": "color" },
-              { "word": "rot", "glyph": { "type": "swatch", "param": "#e23b2e" }, "relation": "same-dim-sibling", "dimension": "color" },
-              { "word": "blau", "glyph": { "type": "swatch", "param": "#2f6fd0" }, "relation": "same-dim-sibling", "dimension": "color" }
-            ] },
-          { "id": "opposites.oddpair-1", "cog": "oddpair", "complementary": false,
+              {
+                "word": "weiß",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#ffffff"
+                },
+                "relation": "opposite",
+                "dimension": "color"
+              },
+              {
+                "word": "rot",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#e23b2e"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "color"
+              },
+              {
+                "word": "blau",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#2f6fd0"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "color"
+              }
+            ]
+          },
+          {
+            "id": "opposites.oddpair-1",
+            "cog": "oddpair",
+            "complementary": false,
             "pairs": [
-              { "a": { "word": "schwarz", "glyph": { "type": "swatch", "param": "#262626" } }, "b": { "word": "weiß", "glyph": { "type": "swatch", "param": "#ffffff" } }, "relation": "opposite" },
-              { "a": { "word": "oben", "glyph": { "type": "arrow", "param": "up" } }, "b": { "word": "unten", "glyph": { "type": "arrow", "param": "down" } }, "relation": "opposite" },
-              { "a": { "word": "rot", "glyph": { "type": "swatch", "param": "#e23b2e" } }, "b": { "word": "blau", "glyph": { "type": "swatch", "param": "#2f6fd0" } }, "relation": "related" }
-            ] },
-          { "id": "opposites.scene-bedtime", "cog": "scene", "complementary": true,
+              {
+                "a": {
+                  "word": "schwarz",
+                  "glyph": {
+                    "type": "swatch",
+                    "param": "#262626"
+                  }
+                },
+                "b": {
+                  "word": "weiß",
+                  "glyph": {
+                    "type": "swatch",
+                    "param": "#ffffff"
+                  }
+                },
+                "relation": "opposite"
+              },
+              {
+                "a": {
+                  "word": "oben",
+                  "glyph": {
+                    "type": "arrow",
+                    "param": "up"
+                  }
+                },
+                "b": {
+                  "word": "unten",
+                  "glyph": {
+                    "type": "arrow",
+                    "param": "down"
+                  }
+                },
+                "relation": "opposite"
+              },
+              {
+                "a": {
+                  "word": "rot",
+                  "glyph": {
+                    "type": "swatch",
+                    "param": "#e23b2e"
+                  }
+                },
+                "b": {
+                  "word": "blau",
+                  "glyph": {
+                    "type": "swatch",
+                    "param": "#2f6fd0"
+                  }
+                },
+                "relation": "related"
+              }
+            ]
+          },
+          {
+            "id": "opposites.scene-bedtime",
+            "cog": "scene",
+            "complementary": true,
             "sceneLabel": "Es ist Schlafenszeit – aber alles ist verkehrt herum!",
             "elements": [
-              { "word": "Sonne", "glyph": { "type": "celestial", "param": "sun" }, "flipGlyph": { "type": "celestial", "param": "moon" }, "flipWord": "Mond" },
-              { "word": "Lampe an", "glyph": { "type": "lamp", "param": "on" }, "flipGlyph": { "type": "lamp", "param": "off" }, "flipWord": "Lampe aus" },
-              { "word": "Tür auf", "glyph": { "type": "door", "param": "open" }, "flipGlyph": { "type": "door", "param": "closed" }, "flipWord": "Tür zu" }
-            ] },
-          { "id": "opposites.generate-left", "cog": "generate", "complementary": false,
-            "target": { "word": "links", "glyph": { "type": "arrow", "param": "left" }, "oppositionId": "direction", "pos": "adj" },
+              {
+                "word": "Sonne",
+                "glyph": {
+                  "type": "celestial",
+                  "param": "sun"
+                },
+                "flipGlyph": {
+                  "type": "celestial",
+                  "param": "moon"
+                },
+                "flipWord": "Mond"
+              },
+              {
+                "word": "Lampe an",
+                "glyph": {
+                  "type": "lamp",
+                  "param": "on"
+                },
+                "flipGlyph": {
+                  "type": "lamp",
+                  "param": "off"
+                },
+                "flipWord": "Lampe aus"
+              },
+              {
+                "word": "Tür auf",
+                "glyph": {
+                  "type": "door",
+                  "param": "open"
+                },
+                "flipGlyph": {
+                  "type": "door",
+                  "param": "closed"
+                },
+                "flipWord": "Tür zu"
+              }
+            ]
+          },
+          {
+            "id": "opposites.generate-left",
+            "cog": "generate",
+            "complementary": false,
+            "target": {
+              "word": "links",
+              "glyph": {
+                "type": "arrow",
+                "param": "left"
+              },
+              "oppositionId": "direction",
+              "pos": "adj"
+            },
             "choices": [
-              { "word": "fröhlich", "glyph": { "type": "face", "param": "happy" }, "relation": "unrelated", "dimension": "emotion" },
-              { "word": "rechts", "glyph": { "type": "arrow", "param": "right" }, "relation": "opposite", "dimension": "direction" },
-              { "word": "oben", "glyph": { "type": "arrow", "param": "up" }, "relation": "same-dim-sibling", "dimension": "direction" }
-            ] },
-          { "id": "opposites.balance-white", "cog": "balance", "complementary": false,
-            "target": { "word": "weiß", "glyph": { "type": "swatch", "param": "#ffffff" }, "oppositionId": "color", "pos": "adj" },
+              {
+                "word": "fröhlich",
+                "glyph": {
+                  "type": "face",
+                  "param": "happy"
+                },
+                "relation": "unrelated",
+                "dimension": "emotion"
+              },
+              {
+                "word": "rechts",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "right"
+                },
+                "relation": "opposite",
+                "dimension": "direction"
+              },
+              {
+                "word": "oben",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "up"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "direction"
+              }
+            ]
+          },
+          {
+            "id": "opposites.balance-white",
+            "cog": "balance",
+            "complementary": false,
+            "target": {
+              "word": "weiß",
+              "glyph": {
+                "type": "swatch",
+                "param": "#ffffff"
+              },
+              "oppositionId": "color",
+              "pos": "adj"
+            },
             "choices": [
-              { "word": "unten", "glyph": { "type": "arrow", "param": "down" }, "relation": "unrelated", "dimension": "direction" },
-              { "word": "schwarz", "glyph": { "type": "swatch", "param": "#262626" }, "relation": "opposite", "dimension": "color" },
-              { "word": "blau", "glyph": { "type": "swatch", "param": "#2f6fd0" }, "relation": "same-dim-sibling", "dimension": "color" }
-            ] },
-          { "id": "opposites.balance-down", "cog": "balance", "complementary": false,
-            "target": { "word": "unten", "glyph": { "type": "arrow", "param": "down" }, "oppositionId": "direction", "pos": "adj" },
+              {
+                "word": "unten",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "down"
+                },
+                "relation": "unrelated",
+                "dimension": "direction"
+              },
+              {
+                "word": "schwarz",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#262626"
+                },
+                "relation": "opposite",
+                "dimension": "color"
+              },
+              {
+                "word": "blau",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#2f6fd0"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "color"
+              }
+            ]
+          },
+          {
+            "id": "opposites.balance-down",
+            "cog": "balance",
+            "complementary": false,
+            "target": {
+              "word": "unten",
+              "glyph": {
+                "type": "arrow",
+                "param": "down"
+              },
+              "oppositionId": "direction",
+              "pos": "adj"
+            },
             "choices": [
-              { "word": "rot", "glyph": { "type": "swatch", "param": "#e23b2e" }, "relation": "unrelated", "dimension": "color" },
-              { "word": "oben", "glyph": { "type": "arrow", "param": "up" }, "relation": "opposite", "dimension": "direction" },
-              { "word": "rechts", "glyph": { "type": "arrow", "param": "right" }, "relation": "same-dim-sibling", "dimension": "direction" }
-            ] },
-          { "id": "opposites.verb-push", "cog": "verb", "complementary": false,
-            "target": { "word": "drücken", "glyph": { "type": "motion", "param": "push" }, "oppositionId": "motion", "pos": "verb" },
+              {
+                "word": "rot",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#e23b2e"
+                },
+                "relation": "unrelated",
+                "dimension": "color"
+              },
+              {
+                "word": "oben",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "up"
+                },
+                "relation": "opposite",
+                "dimension": "direction"
+              },
+              {
+                "word": "rechts",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "right"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "direction"
+              }
+            ]
+          },
+          {
+            "id": "opposites.verb-push",
+            "cog": "verb",
+            "complementary": false,
+            "target": {
+              "word": "drücken",
+              "glyph": {
+                "type": "motion",
+                "param": "push"
+              },
+              "oppositionId": "motion",
+              "pos": "verb"
+            },
             "choices": [
-              { "word": "öffnen", "glyph": { "type": "door", "param": "open" }, "relation": "unrelated", "dimension": "state" },
-              { "word": "ziehen", "glyph": { "type": "motion", "param": "pull" }, "relation": "opposite", "dimension": "motion" },
-              { "word": "heben", "glyph": { "type": "motion", "param": "lift" }, "relation": "same-dim-sibling", "dimension": "motion" }
-            ] },
-          { "id": "opposites.pick-hot", "cog": "pick", "complementary": true,
-            "target": { "word": "heiß", "glyph": { "type": "temp", "param": "hot" }, "oppositionId": "temperature", "pos": "adj" },
+              {
+                "word": "öffnen",
+                "glyph": {
+                  "type": "door",
+                  "param": "open"
+                },
+                "relation": "unrelated",
+                "dimension": "state"
+              },
+              {
+                "word": "ziehen",
+                "glyph": {
+                  "type": "motion",
+                  "param": "pull"
+                },
+                "relation": "opposite",
+                "dimension": "motion"
+              },
+              {
+                "word": "heben",
+                "glyph": {
+                  "type": "motion",
+                  "param": "lift"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "motion"
+              }
+            ]
+          },
+          {
+            "id": "opposites.pick-hot",
+            "cog": "pick",
+            "complementary": true,
+            "target": {
+              "word": "heiß",
+              "glyph": {
+                "type": "temp",
+                "param": "hot"
+              },
+              "oppositionId": "temperature",
+              "pos": "adj"
+            },
             "choices": [
-              { "word": "links", "glyph": { "type": "arrow", "param": "left" }, "relation": "unrelated", "dimension": "direction" },
-              { "word": "kalt", "glyph": { "type": "temp", "param": "cold" }, "relation": "opposite", "dimension": "temperature" },
-              { "word": "groß", "glyph": { "type": "size", "param": "big" }, "relation": "unrelated", "dimension": "size" }
-            ] }
+              {
+                "word": "links",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "left"
+                },
+                "relation": "unrelated",
+                "dimension": "direction"
+              },
+              {
+                "word": "kalt",
+                "glyph": {
+                  "type": "temp",
+                  "param": "cold"
+                },
+                "relation": "opposite",
+                "dimension": "temperature"
+              },
+              {
+                "word": "groß",
+                "glyph": {
+                  "type": "size",
+                  "param": "big"
+                },
+                "relation": "unrelated",
+                "dimension": "size"
+              }
+            ]
+          }
         ],
         "fr": [
-          { "id": "opposites.pick-black", "cog": "pick", "complementary": false,
-            "target": { "word": "noir", "glyph": { "type": "swatch", "param": "#262626" }, "oppositionId": "color", "pos": "adj" },
+          {
+            "id": "opposites.pick-black",
+            "cog": "pick",
+            "complementary": false,
+            "target": {
+              "word": "noir",
+              "glyph": {
+                "type": "swatch",
+                "param": "#262626"
+              },
+              "oppositionId": "color",
+              "pos": "adj"
+            },
             "choices": [
-              { "word": "haut", "glyph": { "type": "arrow", "param": "up" }, "relation": "unrelated", "dimension": "direction" },
-              { "word": "blanc", "glyph": { "type": "swatch", "param": "#ffffff" }, "relation": "opposite", "dimension": "color" },
-              { "word": "rouge", "glyph": { "type": "swatch", "param": "#e23b2e" }, "relation": "same-dim-sibling", "dimension": "color" }
-            ] },
-          { "id": "opposites.pick-up", "cog": "pick", "complementary": false,
-            "target": { "word": "haut", "glyph": { "type": "arrow", "param": "up" }, "oppositionId": "direction", "pos": "adj" },
+              {
+                "word": "haut",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "up"
+                },
+                "relation": "unrelated",
+                "dimension": "direction"
+              },
+              {
+                "word": "blanc",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#ffffff"
+                },
+                "relation": "opposite",
+                "dimension": "color"
+              },
+              {
+                "word": "rouge",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#e23b2e"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "color"
+              }
+            ]
+          },
+          {
+            "id": "opposites.pick-up",
+            "cog": "pick",
+            "complementary": false,
+            "target": {
+              "word": "haut",
+              "glyph": {
+                "type": "arrow",
+                "param": "up"
+              },
+              "oppositionId": "direction",
+              "pos": "adj"
+            },
             "choices": [
-              { "word": "noir", "glyph": { "type": "swatch", "param": "#262626" }, "relation": "unrelated", "dimension": "color" },
-              { "word": "bas", "glyph": { "type": "arrow", "param": "down" }, "relation": "opposite", "dimension": "direction" },
-              { "word": "gauche", "glyph": { "type": "arrow", "param": "left" }, "relation": "same-dim-sibling", "dimension": "direction" }
-            ] },
-          { "id": "opposites.pick-big", "cog": "pick", "complementary": true,
-            "target": { "word": "grand", "glyph": { "type": "size", "param": "big" }, "oppositionId": "size", "pos": "adj" },
+              {
+                "word": "noir",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#262626"
+                },
+                "relation": "unrelated",
+                "dimension": "color"
+              },
+              {
+                "word": "bas",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "down"
+                },
+                "relation": "opposite",
+                "dimension": "direction"
+              },
+              {
+                "word": "gauche",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "left"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "direction"
+              }
+            ]
+          },
+          {
+            "id": "opposites.pick-big",
+            "cog": "pick",
+            "complementary": true,
+            "target": {
+              "word": "grand",
+              "glyph": {
+                "type": "size",
+                "param": "big"
+              },
+              "oppositionId": "size",
+              "pos": "adj"
+            },
             "choices": [
-              { "word": "bas", "glyph": { "type": "arrow", "param": "down" }, "relation": "unrelated", "dimension": "direction" },
-              { "word": "petit", "glyph": { "type": "size", "param": "small" }, "relation": "opposite", "dimension": "size" },
-              { "word": "content", "glyph": { "type": "face", "param": "happy" }, "relation": "unrelated", "dimension": "emotion" }
-            ] },
-          { "id": "opposites.route-black", "cog": "route", "complementary": false,
-            "anchor": { "word": "noir", "glyph": { "type": "swatch", "param": "#262626" }, "oppositionId": "color" },
+              {
+                "word": "bas",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "down"
+                },
+                "relation": "unrelated",
+                "dimension": "direction"
+              },
+              {
+                "word": "petit",
+                "glyph": {
+                  "type": "size",
+                  "param": "small"
+                },
+                "relation": "opposite",
+                "dimension": "size"
+              },
+              {
+                "word": "content",
+                "glyph": {
+                  "type": "face",
+                  "param": "happy"
+                },
+                "relation": "unrelated",
+                "dimension": "emotion"
+              }
+            ]
+          },
+          {
+            "id": "opposites.route-black",
+            "cog": "route",
+            "complementary": false,
+            "anchor": {
+              "word": "noir",
+              "glyph": {
+                "type": "swatch",
+                "param": "#262626"
+              },
+              "oppositionId": "color"
+            },
             "stream": [
-              { "word": "blanc", "glyph": { "type": "swatch", "param": "#ffffff" }, "relation": "opposite", "dimension": "color" },
-              { "word": "rouge", "glyph": { "type": "swatch", "param": "#e23b2e" }, "relation": "same-dim-sibling", "dimension": "color" },
-              { "word": "bleu", "glyph": { "type": "swatch", "param": "#2f6fd0" }, "relation": "same-dim-sibling", "dimension": "color" }
-            ] },
-          { "id": "opposites.oddpair-1", "cog": "oddpair", "complementary": false,
+              {
+                "word": "blanc",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#ffffff"
+                },
+                "relation": "opposite",
+                "dimension": "color"
+              },
+              {
+                "word": "rouge",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#e23b2e"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "color"
+              },
+              {
+                "word": "bleu",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#2f6fd0"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "color"
+              }
+            ]
+          },
+          {
+            "id": "opposites.oddpair-1",
+            "cog": "oddpair",
+            "complementary": false,
             "pairs": [
-              { "a": { "word": "noir", "glyph": { "type": "swatch", "param": "#262626" } }, "b": { "word": "blanc", "glyph": { "type": "swatch", "param": "#ffffff" } }, "relation": "opposite" },
-              { "a": { "word": "haut", "glyph": { "type": "arrow", "param": "up" } }, "b": { "word": "bas", "glyph": { "type": "arrow", "param": "down" } }, "relation": "opposite" },
-              { "a": { "word": "rouge", "glyph": { "type": "swatch", "param": "#e23b2e" } }, "b": { "word": "bleu", "glyph": { "type": "swatch", "param": "#2f6fd0" } }, "relation": "related" }
-            ] },
-          { "id": "opposites.scene-bedtime", "cog": "scene", "complementary": true,
+              {
+                "a": {
+                  "word": "noir",
+                  "glyph": {
+                    "type": "swatch",
+                    "param": "#262626"
+                  }
+                },
+                "b": {
+                  "word": "blanc",
+                  "glyph": {
+                    "type": "swatch",
+                    "param": "#ffffff"
+                  }
+                },
+                "relation": "opposite"
+              },
+              {
+                "a": {
+                  "word": "haut",
+                  "glyph": {
+                    "type": "arrow",
+                    "param": "up"
+                  }
+                },
+                "b": {
+                  "word": "bas",
+                  "glyph": {
+                    "type": "arrow",
+                    "param": "down"
+                  }
+                },
+                "relation": "opposite"
+              },
+              {
+                "a": {
+                  "word": "rouge",
+                  "glyph": {
+                    "type": "swatch",
+                    "param": "#e23b2e"
+                  }
+                },
+                "b": {
+                  "word": "bleu",
+                  "glyph": {
+                    "type": "swatch",
+                    "param": "#2f6fd0"
+                  }
+                },
+                "relation": "related"
+              }
+            ]
+          },
+          {
+            "id": "opposites.scene-bedtime",
+            "cog": "scene",
+            "complementary": true,
             "sceneLabel": "C’est l’heure de dormir, mais tout est à l’envers !",
             "elements": [
-              { "word": "soleil", "glyph": { "type": "celestial", "param": "sun" }, "flipGlyph": { "type": "celestial", "param": "moon" }, "flipWord": "lune" },
-              { "word": "lampe allumée", "glyph": { "type": "lamp", "param": "on" }, "flipGlyph": { "type": "lamp", "param": "off" }, "flipWord": "lampe éteinte" },
-              { "word": "porte ouverte", "glyph": { "type": "door", "param": "open" }, "flipGlyph": { "type": "door", "param": "closed" }, "flipWord": "porte fermée" }
-            ] },
-          { "id": "opposites.generate-left", "cog": "generate", "complementary": false,
-            "target": { "word": "gauche", "glyph": { "type": "arrow", "param": "left" }, "oppositionId": "direction", "pos": "adj" },
+              {
+                "word": "soleil",
+                "glyph": {
+                  "type": "celestial",
+                  "param": "sun"
+                },
+                "flipGlyph": {
+                  "type": "celestial",
+                  "param": "moon"
+                },
+                "flipWord": "lune"
+              },
+              {
+                "word": "lampe allumée",
+                "glyph": {
+                  "type": "lamp",
+                  "param": "on"
+                },
+                "flipGlyph": {
+                  "type": "lamp",
+                  "param": "off"
+                },
+                "flipWord": "lampe éteinte"
+              },
+              {
+                "word": "porte ouverte",
+                "glyph": {
+                  "type": "door",
+                  "param": "open"
+                },
+                "flipGlyph": {
+                  "type": "door",
+                  "param": "closed"
+                },
+                "flipWord": "porte fermée"
+              }
+            ]
+          },
+          {
+            "id": "opposites.generate-left",
+            "cog": "generate",
+            "complementary": false,
+            "target": {
+              "word": "gauche",
+              "glyph": {
+                "type": "arrow",
+                "param": "left"
+              },
+              "oppositionId": "direction",
+              "pos": "adj"
+            },
             "choices": [
-              { "word": "content", "glyph": { "type": "face", "param": "happy" }, "relation": "unrelated", "dimension": "emotion" },
-              { "word": "droite", "glyph": { "type": "arrow", "param": "right" }, "relation": "opposite", "dimension": "direction" },
-              { "word": "haut", "glyph": { "type": "arrow", "param": "up" }, "relation": "same-dim-sibling", "dimension": "direction" }
-            ] },
-          { "id": "opposites.balance-white", "cog": "balance", "complementary": false,
-            "target": { "word": "blanc", "glyph": { "type": "swatch", "param": "#ffffff" }, "oppositionId": "color", "pos": "adj" },
+              {
+                "word": "content",
+                "glyph": {
+                  "type": "face",
+                  "param": "happy"
+                },
+                "relation": "unrelated",
+                "dimension": "emotion"
+              },
+              {
+                "word": "droite",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "right"
+                },
+                "relation": "opposite",
+                "dimension": "direction"
+              },
+              {
+                "word": "haut",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "up"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "direction"
+              }
+            ]
+          },
+          {
+            "id": "opposites.balance-white",
+            "cog": "balance",
+            "complementary": false,
+            "target": {
+              "word": "blanc",
+              "glyph": {
+                "type": "swatch",
+                "param": "#ffffff"
+              },
+              "oppositionId": "color",
+              "pos": "adj"
+            },
             "choices": [
-              { "word": "bas", "glyph": { "type": "arrow", "param": "down" }, "relation": "unrelated", "dimension": "direction" },
-              { "word": "noir", "glyph": { "type": "swatch", "param": "#262626" }, "relation": "opposite", "dimension": "color" },
-              { "word": "bleu", "glyph": { "type": "swatch", "param": "#2f6fd0" }, "relation": "same-dim-sibling", "dimension": "color" }
-            ] },
-          { "id": "opposites.balance-down", "cog": "balance", "complementary": false,
-            "target": { "word": "bas", "glyph": { "type": "arrow", "param": "down" }, "oppositionId": "direction", "pos": "adj" },
+              {
+                "word": "bas",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "down"
+                },
+                "relation": "unrelated",
+                "dimension": "direction"
+              },
+              {
+                "word": "noir",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#262626"
+                },
+                "relation": "opposite",
+                "dimension": "color"
+              },
+              {
+                "word": "bleu",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#2f6fd0"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "color"
+              }
+            ]
+          },
+          {
+            "id": "opposites.balance-down",
+            "cog": "balance",
+            "complementary": false,
+            "target": {
+              "word": "bas",
+              "glyph": {
+                "type": "arrow",
+                "param": "down"
+              },
+              "oppositionId": "direction",
+              "pos": "adj"
+            },
             "choices": [
-              { "word": "rouge", "glyph": { "type": "swatch", "param": "#e23b2e" }, "relation": "unrelated", "dimension": "color" },
-              { "word": "haut", "glyph": { "type": "arrow", "param": "up" }, "relation": "opposite", "dimension": "direction" },
-              { "word": "droite", "glyph": { "type": "arrow", "param": "right" }, "relation": "same-dim-sibling", "dimension": "direction" }
-            ] },
-          { "id": "opposites.verb-push", "cog": "verb", "complementary": false,
-            "target": { "word": "pousser", "glyph": { "type": "motion", "param": "push" }, "oppositionId": "motion", "pos": "verb" },
+              {
+                "word": "rouge",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#e23b2e"
+                },
+                "relation": "unrelated",
+                "dimension": "color"
+              },
+              {
+                "word": "haut",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "up"
+                },
+                "relation": "opposite",
+                "dimension": "direction"
+              },
+              {
+                "word": "droite",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "right"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "direction"
+              }
+            ]
+          },
+          {
+            "id": "opposites.verb-push",
+            "cog": "verb",
+            "complementary": false,
+            "target": {
+              "word": "pousser",
+              "glyph": {
+                "type": "motion",
+                "param": "push"
+              },
+              "oppositionId": "motion",
+              "pos": "verb"
+            },
             "choices": [
-              { "word": "ouvrir", "glyph": { "type": "door", "param": "open" }, "relation": "unrelated", "dimension": "state" },
-              { "word": "tirer", "glyph": { "type": "motion", "param": "pull" }, "relation": "opposite", "dimension": "motion" },
-              { "word": "soulever", "glyph": { "type": "motion", "param": "lift" }, "relation": "same-dim-sibling", "dimension": "motion" }
-            ] },
-          { "id": "opposites.pick-hot", "cog": "pick", "complementary": true,
-            "target": { "word": "chaud", "glyph": { "type": "temp", "param": "hot" }, "oppositionId": "temperature", "pos": "adj" },
+              {
+                "word": "ouvrir",
+                "glyph": {
+                  "type": "door",
+                  "param": "open"
+                },
+                "relation": "unrelated",
+                "dimension": "state"
+              },
+              {
+                "word": "tirer",
+                "glyph": {
+                  "type": "motion",
+                  "param": "pull"
+                },
+                "relation": "opposite",
+                "dimension": "motion"
+              },
+              {
+                "word": "soulever",
+                "glyph": {
+                  "type": "motion",
+                  "param": "lift"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "motion"
+              }
+            ]
+          },
+          {
+            "id": "opposites.pick-hot",
+            "cog": "pick",
+            "complementary": true,
+            "target": {
+              "word": "chaud",
+              "glyph": {
+                "type": "temp",
+                "param": "hot"
+              },
+              "oppositionId": "temperature",
+              "pos": "adj"
+            },
             "choices": [
-              { "word": "gauche", "glyph": { "type": "arrow", "param": "left" }, "relation": "unrelated", "dimension": "direction" },
-              { "word": "froid", "glyph": { "type": "temp", "param": "cold" }, "relation": "opposite", "dimension": "temperature" },
-              { "word": "grand", "glyph": { "type": "size", "param": "big" }, "relation": "unrelated", "dimension": "size" }
-            ] }
+              {
+                "word": "gauche",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "left"
+                },
+                "relation": "unrelated",
+                "dimension": "direction"
+              },
+              {
+                "word": "froid",
+                "glyph": {
+                  "type": "temp",
+                  "param": "cold"
+                },
+                "relation": "opposite",
+                "dimension": "temperature"
+              },
+              {
+                "word": "grand",
+                "glyph": {
+                  "type": "size",
+                  "param": "big"
+                },
+                "relation": "unrelated",
+                "dimension": "size"
+              }
+            ]
+          }
         ]
       }
     },
-    "slug": { "en": "quills-mirror-market", "de": "gegensaetze-finden-gegenteile-klasse-1", "fr": "trouver-les-contraires-cp" },
-    "page_title": { "en": "Quill's Mirror Market — Find the Opposite", "de": "Gegensätze finden: Gegenteile-Spiel – Klasse 1", "fr": "Le marché-miroir de Quill — Les contraires (CP)" },
+    "slug": {
+      "en": "quills-mirror-market",
+      "de": "gegensaetze-finden-gegenteile-klasse-1",
+      "fr": "trouver-les-contraires-cp"
+    },
+    "page_title": {
+      "en": "Quill's Mirror Market — Find the Opposite",
+      "de": "Gegensätze finden: Gegenteile-Spiel – Klasse 1",
+      "fr": "Les contraires – exercice en ligne (CP)"
+    },
     "page_intro": {
       "en": "Quill the hedgehog only seals a trade when you bring the OPPOSITE — the other end, not just a friend! Tap the word that means the reverse: black→white, up→down, push→pull. A Kindergarten antonyms game aligned to Common Core K.L.5.b: relate words to their opposites.",
       "de": "Welches Wort ist das Gegenteil? Dein Kind findet zu schwarz das passende weiß – ein kostenloses, interaktives Gegensätze-Spiel für Klasse 1.",
-      "fr": "Quill le hérisson n’échange que si votre enfant lui apporte le contraire d’un mot : noir devient blanc, grand devient petit, pousser devient tirer. Chaque mot est dessiné et lu à voix haute, alors on peut jouer même sans savoir lire. Un jeu gratuit et interactif, dans le navigateur, sans installation."
+      "fr": "Trouve le contraire de chaque mot au marché-miroir de Quill ; parfait du CP à la révision au CE1. Gratuit, en ligne, sans inscription."
     },
     "kid_prompt_template": "Find the opposite — the OTHER end!"
   }

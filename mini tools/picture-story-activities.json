@@ -663,12 +663,12 @@
     "page_title": {
       "en": "Fable's Picture Stories — Story Key Details (Kindergarten)",
       "de": "Lesetexte Klasse 1 – Geschichte online lesen und verstehen",
-      "fr": "Lire une histoire avec Fable et répondre aux questions"
+      "fr": "Apprendre à lire en s'amusant – histoire en ligne (GS-CP)"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten reading activity: read a short three-picture story with Fable the fox, then answer questions about the key details — who is in the story, what happens, where it takes place, what happened first and last, and why. A friendly, picture-and-caption way to build early story comprehension. Common Core RL.K.1.",
       "de": "Lesetexte für Klasse 1: eine kurze Geschichte lesen und Fragen zum Text beantworten. Kostenlos online, ohne Anmeldung – Leseverständnis üben.",
-      "fr": "L'enfant lit une petite histoire en images avec Fable le renard, écoute les phrases lues à voix haute, puis répond à des questions sur le récit. Gratuit et interactif, aligné sur les programmes officiels de l'école : à vous de jouer !"
+      "fr": "Apprendre à lire en s'amusant : lire une petite histoire avec Fable et répondre aux questions. Gratuit, en ligne, sans inscription."
     },
     "kid_prompt_template": "picture-story"
   }

@@ -3,35 +3,516 @@
     "id": "sentence-clinic.fix-it.l-2-1",
     "tool": "sentence-clinic-activity",
     "task_template": "fix-it",
-    "alignment": { "framework": "CCSS", "code": "L.2.1", "grade": "2", "strand": "Language" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "L.2.1",
+      "grade": "2",
+      "strand": "Language"
+    },
     "params": {
       "rounds": [
-        { "id": "cap-start", "band": 1, "action": "capitalize", "tokens": ["my", "dog", "is", "happy", "."], "targetIndex": 0, "replacement": "My", "convention": "Start a sentence with a capital letter.", "clean": ["My", "dog", "is", "happy", "."] },
-        { "id": "mark-end", "band": 1, "action": "insert-punct", "tokens": ["The", "sun", "is", "hot"], "gapIndex": 4, "replacement": ".", "distractors": [",", "?"], "convention": "End a telling sentence with a period.", "clean": ["The", "sun", "is", "hot", "."] },
-        { "id": "swap-agree", "band": 2, "action": "swap", "tokens": ["She", "run", "to", "school", "."], "targetIndex": 1, "replacement": "runs", "distractors": ["running", "ran"], "convention": "A she/he/it subject takes a verb ending in -s.", "clean": ["She", "runs", "to", "school", "."] },
-        { "id": "fill-verb", "band": 2, "action": "insert-word", "tokens": ["The", "cat", "milk", "."], "gapIndex": 2, "replacement": "drinks", "distractors": ["green", "under"], "convention": "Every sentence needs an action word (a verb).", "clean": ["The", "cat", "drinks", "milk", "."] },
-        { "id": "order-svo", "band": 3, "action": "reorder", "tokens": ["fast", "runs", "dog", "The"], "correctOrder": [3, 2, 1, 0], "convention": "Words go in an order that makes sense.", "clean": ["The", "dog", "runs", "fast"] },
-        { "id": "del-double", "band": 3, "action": "delete", "tokens": ["My", "mom", "she", "cooks", "."], "targetIndex": 2, "convention": "Don't name the subject twice.", "clean": ["My", "mom", "cooks", "."] },
-        { "id": "split-runon", "band": 3, "action": "split", "tokens": ["I", "ran", "it", "was", "fun"], "seamIndex": 1, "replacement": "It", "convention": "Two ideas need two sentences.", "clean": ["I", "ran", ".", "It", "was", "fun"] }
+        {
+          "id": "cap-start",
+          "band": 1,
+          "action": "capitalize",
+          "tokens": [
+            "my",
+            "dog",
+            "is",
+            "happy",
+            "."
+          ],
+          "targetIndex": 0,
+          "replacement": "My",
+          "convention": "Start a sentence with a capital letter.",
+          "clean": [
+            "My",
+            "dog",
+            "is",
+            "happy",
+            "."
+          ]
+        },
+        {
+          "id": "mark-end",
+          "band": 1,
+          "action": "insert-punct",
+          "tokens": [
+            "The",
+            "sun",
+            "is",
+            "hot"
+          ],
+          "gapIndex": 4,
+          "replacement": ".",
+          "distractors": [
+            ",",
+            "?"
+          ],
+          "convention": "End a telling sentence with a period.",
+          "clean": [
+            "The",
+            "sun",
+            "is",
+            "hot",
+            "."
+          ]
+        },
+        {
+          "id": "swap-agree",
+          "band": 2,
+          "action": "swap",
+          "tokens": [
+            "She",
+            "run",
+            "to",
+            "school",
+            "."
+          ],
+          "targetIndex": 1,
+          "replacement": "runs",
+          "distractors": [
+            "running",
+            "ran"
+          ],
+          "convention": "A she/he/it subject takes a verb ending in -s.",
+          "clean": [
+            "She",
+            "runs",
+            "to",
+            "school",
+            "."
+          ]
+        },
+        {
+          "id": "fill-verb",
+          "band": 2,
+          "action": "insert-word",
+          "tokens": [
+            "The",
+            "cat",
+            "milk",
+            "."
+          ],
+          "gapIndex": 2,
+          "replacement": "drinks",
+          "distractors": [
+            "green",
+            "under"
+          ],
+          "convention": "Every sentence needs an action word (a verb).",
+          "clean": [
+            "The",
+            "cat",
+            "drinks",
+            "milk",
+            "."
+          ]
+        },
+        {
+          "id": "order-svo",
+          "band": 3,
+          "action": "reorder",
+          "tokens": [
+            "fast",
+            "runs",
+            "dog",
+            "The"
+          ],
+          "correctOrder": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "convention": "Words go in an order that makes sense.",
+          "clean": [
+            "The",
+            "dog",
+            "runs",
+            "fast"
+          ]
+        },
+        {
+          "id": "del-double",
+          "band": 3,
+          "action": "delete",
+          "tokens": [
+            "My",
+            "mom",
+            "she",
+            "cooks",
+            "."
+          ],
+          "targetIndex": 2,
+          "convention": "Don't name the subject twice.",
+          "clean": [
+            "My",
+            "mom",
+            "cooks",
+            "."
+          ]
+        },
+        {
+          "id": "split-runon",
+          "band": 3,
+          "action": "split",
+          "tokens": [
+            "I",
+            "ran",
+            "it",
+            "was",
+            "fun"
+          ],
+          "seamIndex": 1,
+          "replacement": "It",
+          "convention": "Two ideas need two sentences.",
+          "clean": [
+            "I",
+            "ran",
+            ".",
+            "It",
+            "was",
+            "fun"
+          ]
+        }
       ],
       "roundsL10n": {
         "de": [
-          { "id": "cap-start", "band": 1, "action": "capitalize", "tokens": ["der", "Hund", "ist", "groß", "."], "targetIndex": 0, "replacement": "Der", "convention": "Ein Satz beginnt immer mit einem großen Buchstaben.", "clean": ["Der", "Hund", "ist", "groß", "."] },
-          { "id": "mark-end", "band": 1, "action": "insert-punct", "tokens": ["Die", "Sonne", "ist", "warm"], "gapIndex": 4, "replacement": ".", "distractors": [",", "?"], "convention": "Ein Aussagesatz endet mit einem Punkt.", "clean": ["Die", "Sonne", "ist", "warm", "."] },
-          { "id": "swap-agree", "band": 2, "action": "swap", "tokens": ["Das", "Kind", "rennen", "schnell", "."], "targetIndex": 2, "replacement": "rennt", "distractors": ["rannten", "rennst"], "convention": "Das Verb muss zum Subjekt passen: ein Kind rennt.", "clean": ["Das", "Kind", "rennt", "schnell", "."] },
-          { "id": "fill-verb", "band": 2, "action": "insert-word", "tokens": ["Die", "Katze", "Milch", "."], "gapIndex": 2, "replacement": "trinkt", "distractors": ["grün", "unter"], "convention": "In jedem Satz braucht es ein Verb (Tunwort).", "clean": ["Die", "Katze", "trinkt", "Milch", "."] },
-          { "id": "order-svo", "band": 3, "action": "reorder", "tokens": ["schnell", "rennt", "Hund", "Der"], "correctOrder": [3, 2, 1, 0], "convention": "Im Satz steht das Verb an zweiter Stelle.", "clean": ["Der", "Hund", "rennt", "schnell"] },
-          { "id": "del-double", "band": 3, "action": "delete", "tokens": ["Meine", "Mama", "sie", "kocht", "."], "targetIndex": 2, "convention": "Nenne das Subjekt nur einmal.", "clean": ["Meine", "Mama", "kocht", "."] },
-          { "id": "split-runon", "band": 3, "action": "split", "tokens": ["Ich", "rannte", "es", "war", "schön"], "seamIndex": 1, "replacement": "Es", "convention": "Zwei Sätze brauchen einen Punkt dazwischen.", "clean": ["Ich", "rannte", ".", "Es", "war", "schön"] }
+          {
+            "id": "cap-start",
+            "band": 1,
+            "action": "capitalize",
+            "tokens": [
+              "der",
+              "Hund",
+              "ist",
+              "groß",
+              "."
+            ],
+            "targetIndex": 0,
+            "replacement": "Der",
+            "convention": "Ein Satz beginnt immer mit einem großen Buchstaben.",
+            "clean": [
+              "Der",
+              "Hund",
+              "ist",
+              "groß",
+              "."
+            ]
+          },
+          {
+            "id": "mark-end",
+            "band": 1,
+            "action": "insert-punct",
+            "tokens": [
+              "Die",
+              "Sonne",
+              "ist",
+              "warm"
+            ],
+            "gapIndex": 4,
+            "replacement": ".",
+            "distractors": [
+              ",",
+              "?"
+            ],
+            "convention": "Ein Aussagesatz endet mit einem Punkt.",
+            "clean": [
+              "Die",
+              "Sonne",
+              "ist",
+              "warm",
+              "."
+            ]
+          },
+          {
+            "id": "swap-agree",
+            "band": 2,
+            "action": "swap",
+            "tokens": [
+              "Das",
+              "Kind",
+              "rennen",
+              "schnell",
+              "."
+            ],
+            "targetIndex": 2,
+            "replacement": "rennt",
+            "distractors": [
+              "rannten",
+              "rennst"
+            ],
+            "convention": "Das Verb muss zum Subjekt passen: ein Kind rennt.",
+            "clean": [
+              "Das",
+              "Kind",
+              "rennt",
+              "schnell",
+              "."
+            ]
+          },
+          {
+            "id": "fill-verb",
+            "band": 2,
+            "action": "insert-word",
+            "tokens": [
+              "Die",
+              "Katze",
+              "Milch",
+              "."
+            ],
+            "gapIndex": 2,
+            "replacement": "trinkt",
+            "distractors": [
+              "grün",
+              "unter"
+            ],
+            "convention": "In jedem Satz braucht es ein Verb (Tunwort).",
+            "clean": [
+              "Die",
+              "Katze",
+              "trinkt",
+              "Milch",
+              "."
+            ]
+          },
+          {
+            "id": "order-svo",
+            "band": 3,
+            "action": "reorder",
+            "tokens": [
+              "schnell",
+              "rennt",
+              "Hund",
+              "Der"
+            ],
+            "correctOrder": [
+              3,
+              2,
+              1,
+              0
+            ],
+            "convention": "Im Satz steht das Verb an zweiter Stelle.",
+            "clean": [
+              "Der",
+              "Hund",
+              "rennt",
+              "schnell"
+            ]
+          },
+          {
+            "id": "del-double",
+            "band": 3,
+            "action": "delete",
+            "tokens": [
+              "Meine",
+              "Mama",
+              "sie",
+              "kocht",
+              "."
+            ],
+            "targetIndex": 2,
+            "convention": "Nenne das Subjekt nur einmal.",
+            "clean": [
+              "Meine",
+              "Mama",
+              "kocht",
+              "."
+            ]
+          },
+          {
+            "id": "split-runon",
+            "band": 3,
+            "action": "split",
+            "tokens": [
+              "Ich",
+              "rannte",
+              "es",
+              "war",
+              "schön"
+            ],
+            "seamIndex": 1,
+            "replacement": "Es",
+            "convention": "Zwei Sätze brauchen einen Punkt dazwischen.",
+            "clean": [
+              "Ich",
+              "rannte",
+              ".",
+              "Es",
+              "war",
+              "schön"
+            ]
+          }
         ],
         "fr": [
-          { "id": "cap-start", "band": 1, "action": "capitalize", "tokens": ["le", "chien", "est", "grand", "."], "targetIndex": 0, "replacement": "Le", "convention": "Une phrase commence par une majuscule.", "clean": ["Le", "chien", "est", "grand", "."] },
-          { "id": "mark-end", "band": 1, "action": "insert-punct", "tokens": ["Le", "soleil", "est", "chaud"], "gapIndex": 4, "replacement": ".", "distractors": [",", "?"], "convention": "Une phrase qui raconte se termine par un point.", "clean": ["Le", "soleil", "est", "chaud", "."] },
-          { "id": "swap-agree", "band": 2, "action": "swap", "tokens": ["Le", "chat", "mangent", "vite", "."], "targetIndex": 2, "replacement": "mange", "distractors": ["manges", "mangeons"], "convention": "Le verbe s’accorde avec le sujet : le chat mange.", "clean": ["Le", "chat", "mange", "vite", "."] },
-          { "id": "fill-verb", "band": 2, "action": "insert-word", "tokens": ["La", "fille", "une", "pomme", "."], "gapIndex": 2, "replacement": "mange", "distractors": ["jolie", "avec"], "convention": "Dans une phrase, il faut un verbe.", "clean": ["La", "fille", "mange", "une", "pomme", "."] },
-          { "id": "order-svo", "band": 3, "action": "reorder", "tokens": ["vite", "court", "chien", "Le"], "correctOrder": [3, 2, 1, 0], "convention": "Les mots suivent un ordre qui a du sens.", "clean": ["Le", "chien", "court", "vite"] },
-          { "id": "del-double", "band": 3, "action": "delete", "tokens": ["Ma", "maman", "elle", "cuisine", "."], "targetIndex": 2, "convention": "On ne nomme le sujet qu’une seule fois.", "clean": ["Ma", "maman", "cuisine", "."] },
-          { "id": "split-runon", "band": 3, "action": "split", "tokens": ["Je", "cours", "il", "fait", "beau"], "seamIndex": 1, "replacement": "Il", "convention": "Deux phrases ont besoin d’un point entre elles.", "clean": ["Je", "cours", ".", "Il", "fait", "beau"] }
+          {
+            "id": "cap-start",
+            "band": 1,
+            "action": "capitalize",
+            "tokens": [
+              "le",
+              "chien",
+              "est",
+              "grand",
+              "."
+            ],
+            "targetIndex": 0,
+            "replacement": "Le",
+            "convention": "Une phrase commence par une majuscule.",
+            "clean": [
+              "Le",
+              "chien",
+              "est",
+              "grand",
+              "."
+            ]
+          },
+          {
+            "id": "mark-end",
+            "band": 1,
+            "action": "insert-punct",
+            "tokens": [
+              "Le",
+              "soleil",
+              "est",
+              "chaud"
+            ],
+            "gapIndex": 4,
+            "replacement": ".",
+            "distractors": [
+              ",",
+              "?"
+            ],
+            "convention": "Une phrase qui raconte se termine par un point.",
+            "clean": [
+              "Le",
+              "soleil",
+              "est",
+              "chaud",
+              "."
+            ]
+          },
+          {
+            "id": "swap-agree",
+            "band": 2,
+            "action": "swap",
+            "tokens": [
+              "Le",
+              "chat",
+              "mangent",
+              "vite",
+              "."
+            ],
+            "targetIndex": 2,
+            "replacement": "mange",
+            "distractors": [
+              "manges",
+              "mangeons"
+            ],
+            "convention": "Le verbe s’accorde avec le sujet : le chat mange.",
+            "clean": [
+              "Le",
+              "chat",
+              "mange",
+              "vite",
+              "."
+            ]
+          },
+          {
+            "id": "fill-verb",
+            "band": 2,
+            "action": "insert-word",
+            "tokens": [
+              "La",
+              "fille",
+              "une",
+              "pomme",
+              "."
+            ],
+            "gapIndex": 2,
+            "replacement": "mange",
+            "distractors": [
+              "jolie",
+              "avec"
+            ],
+            "convention": "Dans une phrase, il faut un verbe.",
+            "clean": [
+              "La",
+              "fille",
+              "mange",
+              "une",
+              "pomme",
+              "."
+            ]
+          },
+          {
+            "id": "order-svo",
+            "band": 3,
+            "action": "reorder",
+            "tokens": [
+              "vite",
+              "court",
+              "chien",
+              "Le"
+            ],
+            "correctOrder": [
+              3,
+              2,
+              1,
+              0
+            ],
+            "convention": "Les mots suivent un ordre qui a du sens.",
+            "clean": [
+              "Le",
+              "chien",
+              "court",
+              "vite"
+            ]
+          },
+          {
+            "id": "del-double",
+            "band": 3,
+            "action": "delete",
+            "tokens": [
+              "Ma",
+              "maman",
+              "elle",
+              "cuisine",
+              "."
+            ],
+            "targetIndex": 2,
+            "convention": "On ne nomme le sujet qu’une seule fois.",
+            "clean": [
+              "Ma",
+              "maman",
+              "cuisine",
+              "."
+            ]
+          },
+          {
+            "id": "split-runon",
+            "band": 3,
+            "action": "split",
+            "tokens": [
+              "Je",
+              "cours",
+              "il",
+              "fait",
+              "beau"
+            ],
+            "seamIndex": 1,
+            "replacement": "Il",
+            "convention": "Deux phrases ont besoin d’un point entre elles.",
+            "clean": [
+              "Je",
+              "cours",
+              ".",
+              "Il",
+              "fait",
+              "beau"
+            ]
+          }
         ]
       }
     },
@@ -44,12 +525,12 @@
     "page_title": {
       "en": "Dr. Plume's Sentence Clinic — Fix-the-Sentence Grammar (Grade 2)",
       "de": "Dr. Plumes Satzklinik: Sätze verbessern – Klasse 2 üben",
-      "fr": "Corriger une phrase : la réviser — CE1"
+      "fr": "Grammaire CE1 : corriger une phrase – exercice en ligne"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 grammar activity: help gentle Dr. Plume fix muddled sentences so they sound right again. Children find the trouble — a missing capital, the wrong verb form, a missing word, jumbled order, an extra word, or a run-on — then make the repair. Practising the conventions of standard English grammar and usage is the heart of Common Core L.2.1.",
       "de": "In Dr. Plumes Satzklinik findest du den Fehler im Satz und verbesserst ihn: Großbuchstabe, Punkt, Verb und Wortreihenfolge. Kostenlos und interaktiv – Klasse 2.",
-      "fr": "Avec le Dr. Plume, trouve et corrige l’erreur dans chaque phrase : majuscule, point, verbe, ordre des mots. Jeu gratuit et interactif pour le CE1."
+      "fr": "Grammaire CE1 en ligne : repère l'erreur et corrige la phrase, avec un retour immédiat à chaque réponse. Gratuit, en ligne, sans inscription."
     },
     "kid_prompt_template": "fix-it"
   }

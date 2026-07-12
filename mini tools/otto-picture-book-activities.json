@@ -748,12 +748,12 @@
     "page_title": {
       "en": "Otto's Picture Book — Which Picture Shows It? (Kindergarten)",
       "de": "Erste Sätze lesen – Satz und Bild zuordnen (Klasse 1)",
-      "fr": "Le livre d'images d'Otto — Quelle image montre le moment ?"
+      "fr": "Exercices de lecture GS – quelle image ? – en ligne"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten reading game about how pictures and stories go together: Otto the owl draws a picture for every part of a little story. HEAR the whole story, then Otto reads ONE part aloud — and you tap the picture that shows that exact moment. Every choice is a real picture from the SAME story, so you have to know which part each illustration shows. Matching a sentence to the moment its picture depicts is the heart of Common Core RL.K.7.",
       "de": "Erste Sätze lesen und verstehen: den Satz lesen und das passende Bild dazu finden. Kostenlos online üben, ohne Anmeldung – für Leseanfänger.",
-      "fr": "Otto le hibou a dessiné une petite histoire en quatre images. Votre enfant écoute d'abord toute l'histoire, puis Otto lit à voix haute un moment précis : l'enfant tape alors l'image qui montre ce moment. Comme chaque image raconte un vrai moment de la même histoire, il ne s'agit pas de repérer l'intrus, mais de bien comprendre ce que chaque image montre. En jouant, l'enfant apprend à relier une image au moment de l'histoire qu'elle raconte et à faire le lien entre le texte et l'image. Une activité gratuite et interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte, en lien avec les programmes officiels de l'école."
+      "fr": "Exercices de lecture pour la GS : lire et choisir l'image qui montre le moment de l'histoire. Gratuit, en ligne, sans inscription."
     },
     "kid_prompt_template": "which-picture"
   }

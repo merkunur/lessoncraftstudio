@@ -1,0 +1,4011 @@
+{
+ "locale": "fr",
+ "generated": "2026-07-12",
+ "method": "10 native-German SEO mapping agents over keywords-de-k3-500.json; coordinate requests resolved to concrete unused slugs; honest-fit gated.",
+ "stats": {
+  "total": 500,
+  "mapped": 242,
+  "gaps": 258,
+  "byKind": {
+   "landing": 150,
+   "tool": 1,
+   "activity": 80,
+   "maker": 11
+  }
+ },
+ "rows": [
+  {
+   "base": "maths maternelle",
+   "segment": "maths-maternelle",
+   "longtail": "maths maternelle fiches à imprimer gratuit",
+   "target": "landing",
+   "slug": "trouve-et-compte-objets-caches-animaux-b6ed",
+   "currentTitle": "Cherche et compte – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Maths maternelle – cherche et compte – Animaux | à imprimer PDF",
+   "metaDescription": "Des fiches de maths pour la maternelle : chercher, compter et écrire les quantités avec les animaux. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "numération maternelle",
+   "segment": "maths-maternelle",
+   "longtail": "numération maternelle fiches à imprimer",
+   "target": "landing",
+   "slug": "tableau-des-nombres-maternelle",
+   "currentTitle": "Tableau des nombres maternelle – avant, après | fiches à imprimer (PDF gratuit)",
+   "title": "Numération maternelle – tableaux de nombres | à imprimer PDF",
+   "metaDescription": "Fiches de numération pour la maternelle : compléter des tableaux de nombres et se repérer dans la suite numérique. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "nombres maternelle",
+   "segment": "maths-maternelle",
+   "longtail": "les nombres en maternelle exercices à imprimer",
+   "target": "GAP",
+   "note": "no-free-slug landing:number-charts/none/maternelle"
+  },
+  {
+   "base": "bande numérique",
+   "segment": "maths-maternelle",
+   "longtail": "bande numérique interactive en ligne",
+   "target": "tool",
+   "key": "number-line",
+   "title": "Bande numérique interactive – manipuler les nombres en ligne",
+   "metaDescription": "Une bande numérique interactive à manipuler en classe ou à la maison : placer les nombres, compter en avant et en arrière. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "comparer des quantités",
+   "segment": "maths-maternelle",
+   "longtail": "comparer des quantités maternelle à imprimer",
+   "target": "landing",
+   "slug": "plus-ou-moins-coche-et-barre-les-groupes-fruits-b689",
+   "currentTitle": "Comparer les quantités à cocher – Fruits | fiches à imprimer PDF gratuit",
+   "title": "Comparer des quantités – maternelle – Fruits | PDF gratuit",
+   "metaDescription": "Comparer des quantités en maternelle : où y a-t-il plus, où y a-t-il moins de fruits ? Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "peu beaucoup",
+   "segment": "maths-maternelle",
+   "longtail": "peu ou beaucoup exercices maternelle",
+   "target": "landing",
+   "slug": "plus-ou-moins-coche-et-barre-les-groupes-animaux-109a",
+   "currentTitle": "Comparer les quantités à cocher – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Peu ou beaucoup ? Comparer en maternelle – Animaux | PDF gratuit",
+   "metaDescription": "Peu ou beaucoup ? Des exercices de maternelle pour comparer des groupes d'animaux : plus ou moins. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "décomposition des nombres",
+   "segment": "maths-maternelle",
+   "longtail": "décomposition des nombres jusqu'à 10 en ligne",
+   "target": "activity",
+   "id": "chuffer.rail-decompose.k-oa-a-3",
+   "title": "Décomposition des nombres jusqu'à 10 – exercice en ligne (CP)",
+   "metaDescription": "Travailler la décomposition des nombres jusqu'à 10 : séparer un nombre en deux parties à la gare de triage. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "décomposer un nombre",
+   "segment": "maths-maternelle",
+   "longtail": "décomposer un nombre de plusieurs façons en ligne",
+   "target": "activity",
+   "id": "clunks-lost-lunch.make-total.k-oa-a-3",
+   "title": "Décomposer un nombre de plusieurs façons – en ligne (CP)",
+   "metaDescription": "Décomposer un même nombre de plusieurs façons jusqu'à 10 avec Clunk, étape par étape. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "addition maternelle",
+   "segment": "maths-maternelle",
+   "longtail": "addition maternelle exercice en ligne",
+   "target": "activity",
+   "id": "ten-frame.show-the-operation.k-oa-a-1",
+   "title": "Addition maternelle – cadre de dix, exercice en ligne (GS)",
+   "metaDescription": "L'addition en maternelle : représenter une addition ou une soustraction sur un cadre de dix, en manipulant. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "formes géométriques",
+   "segment": "maths-maternelle",
+   "longtail": "formes géométriques exercices à imprimer",
+   "target": "landing",
+   "slug": "geometrie-figures-maternelle",
+   "currentTitle": "Géométrie maternelle – côtés et coins des figures | fiches à imprimer (PDF gratuit)",
+   "title": "Formes géométriques – exercices | à imprimer PDF gratuit",
+   "metaDescription": "Exercices sur les formes géométriques : reconnaître, nommer et comparer les formes dès la maternelle. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "grand moyen petit",
+   "segment": "maths-maternelle",
+   "longtail": "grand moyen petit exercices maternelle",
+   "target": "landing",
+   "slug": "grand-petit-trouve-le-grand-jouets-23c4",
+   "currentTitle": "Grand ou petit – Jouets | fiches à imprimer PDF gratuit",
+   "title": "Grand ou petit ? Comparer les tailles – Jouets | PDF gratuit",
+   "metaDescription": "Du grand au petit : comparer les tailles des jouets en maternelle et entourer la bonne image. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "du plus petit au plus grand",
+   "segment": "maths-maternelle",
+   "longtail": "ranger du plus petit au plus grand en ligne",
+   "target": "activity",
+   "id": "seriation.compare-length.1-md-a-1",
+   "title": "Ranger du plus petit au plus grand – les longueurs, en ligne (CP)",
+   "metaDescription": "Ranger les rubans du plus petit au plus grand : comparer les longueurs et les ordonner. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "exercices maths maternelle",
+   "segment": "maths-maternelle",
+   "longtail": "exercices maths maternelle à imprimer",
+   "target": "landing",
+   "slug": "trouve-et-compte-objets-caches-animaux-de-la-ferme-f58d",
+   "currentTitle": "Cherche et compte – Animaux de la ferme | fiches à imprimer PDF gratuit",
+   "title": "Exercices de maths maternelle – Animaux de la ferme | PDF",
+   "metaDescription": "Exercices de maths pour la maternelle : chercher et compter les animaux de la ferme, écrire le résultat. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "loto des formes",
+   "segment": "maths-maternelle",
+   "longtail": "loto des formes à imprimer",
+   "target": "landing",
+   "slug": "loto-formes-f506",
+   "currentTitle": "Loto des images – Formes | fiches à imprimer PDF gratuit",
+   "title": "Loto des formes – cartes de bingo | à imprimer PDF gratuit",
+   "metaDescription": "Un loto des formes pour la maternelle : cartes de bingo illustrées pour reconnaître les formes en jouant. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "maths gs",
+   "segment": "maths-maternelle",
+   "longtail": "maths gs fiches à imprimer gratuit",
+   "target": "landing",
+   "slug": "trouve-et-compte-objets-caches-vie-oceanique-8574",
+   "currentTitle": "Cherche et compte – Vie océanique | fiches à imprimer PDF gratuit",
+   "title": "Maths GS – cherche et compte – Animaux marins | PDF gratuit",
+   "metaDescription": "Fiches de maths pour la grande section : dénombrer les animaux marins et écrire les quantités. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "maths ms",
+   "segment": "maths-maternelle",
+   "longtail": "maths ms fiches à imprimer",
+   "target": "landing",
+   "slug": "train-de-modeles-couleurs-df61",
+   "currentTitle": "Algorithme AB – Couleurs | fiches à imprimer PDF gratuit",
+   "title": "Maths MS – suites logiques – Couleurs | à imprimer PDF gratuit",
+   "metaDescription": "Des fiches de maths pour la moyenne section : observer et continuer des suites logiques de couleurs. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "maths petite section",
+   "segment": "maths-maternelle",
+   "longtail": "maths petite section à imprimer",
+   "target": "landing",
+   "slug": "grand-petit-trouve-le-grand-animaux-98b6",
+   "currentTitle": "Grand ou petit – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Maths petite section – grand ou petit – Animaux | PDF gratuit",
+   "metaDescription": "Maths en petite section : comparer les tailles et montrer le grand ou le petit animal. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "dénombrement maternelle",
+   "segment": "maths-maternelle",
+   "longtail": "dénombrement maternelle fiches à imprimer",
+   "target": "landing",
+   "slug": "trouve-et-compte-objets-caches-insectes-et-bestioles-921a",
+   "currentTitle": "Cherche et compte – Insectes et bestioles | fiches à imprimer PDF gratuit",
+   "title": "Dénombrement maternelle – Petites bêtes | à imprimer PDF gratuit",
+   "metaDescription": "Fiches de dénombrement pour la maternelle : chercher, compter les insectes et écrire combien il y en a. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "dénombrer des quantités",
+   "segment": "maths-maternelle",
+   "longtail": "dénombrer des quantités jusqu'à 10 en ligne",
+   "target": "activity",
+   "id": "ten-frame.how-many.0-10.animals",
+   "title": "Dénombrer des quantités jusqu'à 10 – exercice en ligne (GS)",
+   "metaDescription": "Dénombrer des quantités de 0 à 10 sur un cadre de dix : combien d'animaux y a-t-il à chaque fois ? Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "dénombrer maternelle",
+   "segment": "maths-maternelle",
+   "longtail": "dénombrer en maternelle exercice en ligne",
+   "target": "activity",
+   "id": "mochi-feast.count-out.k-cc-b-5",
+   "title": "Dénombrer en maternelle – donner le bon nombre, en ligne (GS)",
+   "metaDescription": "Dénombrer en maternelle : compter et donner exactement le bon nombre de gourmandises à Mochi. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "compter maternelle",
+   "segment": "maths-maternelle",
+   "longtail": "compter maternelle fiches à imprimer",
+   "target": "landing",
+   "slug": "trouve-et-compte-cherche-les-lettres-animaux",
+   "currentTitle": "Trouve la lettre – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Compter en maternelle – Animaux | à imprimer PDF gratuit",
+   "metaDescription": "Compter en maternelle avec les animaux : cherche, compte et écris la quantité. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "apprendre à compter",
+   "segment": "maths-maternelle",
+   "longtail": "apprendre à compter jusqu'à 10 en ligne",
+   "target": "activity",
+   "id": "ten-frame.count-to-10.make-n.animals",
+   "title": "Apprendre à compter jusqu'à 10 – jeu en ligne (maternelle)",
+   "metaDescription": "Apprendre à compter jusqu'à 10 en plaçant des animaux sur un cadre de dix, à son rythme. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "compter jusqu'à 10",
+   "segment": "maths-maternelle",
+   "longtail": "compter jusqu'à 10 fiches à imprimer",
+   "target": "landing",
+   "slug": "trouve-et-compte-objets-caches-jouets-7718",
+   "currentTitle": "Cherche et compte – Jouets | fiches à imprimer PDF gratuit",
+   "title": "Compter jusqu'à 10 – cherche et compte – Jouets | PDF gratuit",
+   "metaDescription": "Compter jusqu'à 10 : retrouver les jouets sur la fiche et écrire combien on en voit. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "compter jusqu'à 20",
+   "segment": "maths-maternelle",
+   "longtail": "compter jusqu'à 20 exercice en ligne",
+   "target": "activity",
+   "id": "ten-frame.count-to-20.make-n.fruits",
+   "title": "Compter jusqu'à 20 – cadre de dix double, en ligne (GS)",
+   "metaDescription": "Compter jusqu'à 20 avec des fruits sur un cadre de dix double : placer, compter, vérifier. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "compter jusqu'à 3",
+   "segment": "maths-maternelle",
+   "longtail": "compter jusqu'à 3 petite section",
+   "target": "GAP",
+   "id": "ten-frame.how-many.0-10.animals",
+   "note": "secondary-on activity:ten-frame.how-many.0-10.animals"
+  },
+  {
+   "base": "numération gs",
+   "segment": "maths-maternelle",
+   "longtail": "numération gs fiches à imprimer",
+   "target": "GAP",
+   "note": "no-free-slug landing:number-charts/none/maternelle"
+  },
+  {
+   "base": "numération ms",
+   "segment": "maths-maternelle",
+   "longtail": "numération ms fiches à imprimer",
+   "target": "landing",
+   "slug": "trouve-et-compte-objets-caches-fruits-c8f0",
+   "currentTitle": "Cherche et compte – Fruits | fiches à imprimer PDF gratuit",
+   "title": "Numération MS – compter les fruits | à imprimer PDF gratuit",
+   "metaDescription": "Numération en moyenne section : dénombrer les fruits sur la fiche et écrire la quantité. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "quantités et nombres",
+   "segment": "maths-maternelle",
+   "longtail": "quantités et nombres exercice maternelle en ligne",
+   "target": "GAP",
+   "id": "mochi-feast.count-out.k-cc-b-5",
+   "note": "secondary-on activity:mochi-feast.count-out.k-cc-b-5"
+  },
+  {
+   "base": "nombre et quantité",
+   "segment": "maths-maternelle",
+   "longtail": "associer nombre et quantité en ligne",
+   "target": "activity",
+   "id": "rivets-number-forge.numeral-album.k-cc-a-3",
+   "title": "Nombre et quantité – compter puis écrire le nombre, en ligne (CP)",
+   "metaDescription": "Associer nombre et quantité : compter une collection puis écrire le nombre qui correspond. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "reconnaître les chiffres",
+   "segment": "maths-maternelle",
+   "longtail": "reconnaître les chiffres jeu en ligne",
+   "target": "activity",
+   "id": "pips-round.mail-route.k-cc-a-3",
+   "title": "Reconnaître les chiffres – nombres jusqu'à 20, en ligne (CP)",
+   "metaDescription": "Reconnaître les chiffres et lire les nombres jusqu'à 20 pendant la tournée du facteur Pip. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "écriture des chiffres",
+   "segment": "maths-maternelle",
+   "longtail": "écriture des chiffres exercice en ligne",
+   "target": "activity",
+   "id": "digby-number-trace.numeral-formation.k-cc-a-3",
+   "title": "Écriture des chiffres – tracer de 0 à 9 en ligne (GS)",
+   "metaDescription": "L'écriture des chiffres pas à pas : tracer chaque chiffre de 0 à 9 avec Digby, dans le bon sens. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "chiffres maternelle",
+   "segment": "maths-maternelle",
+   "longtail": "les chiffres en maternelle exercice en ligne",
+   "target": "activity",
+   "id": "ten-frame.write-numeral.0-20.fruits",
+   "title": "Les chiffres en maternelle – écrire de 0 à 20, en ligne (GS)",
+   "metaDescription": "Les chiffres en maternelle : compter les fruits puis écrire le nombre, de 0 à 20, sur un cadre de dix. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "constellations maternelle",
+   "segment": "maths-maternelle",
+   "longtail": "constellations maternelle exercice en ligne",
+   "target": "GAP",
+   "id": "ten-frame.how-many.0-10.animals",
+   "note": "secondary-on activity:ten-frame.how-many.0-10.animals"
+  },
+  {
+   "base": "constellations du dé",
+   "segment": "maths-maternelle",
+   "longtail": "constellations du dé jeu en ligne",
+   "target": "GAP",
+   "id": "ten-frame.count-to-10.make-n.animals",
+   "note": "secondary-on activity:ten-frame.count-to-10.make-n.animals"
+  },
+  {
+   "base": "bande numérique maternelle",
+   "segment": "maths-maternelle",
+   "longtail": "bande numérique maternelle en ligne",
+   "target": "GAP",
+   "key": "number-line",
+   "note": "secondary-on tool:number-line"
+  },
+  {
+   "base": "suite numérique",
+   "segment": "maths-maternelle",
+   "longtail": "suite numérique exercice en ligne maternelle",
+   "target": "activity",
+   "id": "choice-board.next-number.k-cc-a-2",
+   "title": "Suite numérique – quel nombre vient après ? En ligne (GS)",
+   "metaDescription": "Travailler la suite numérique : dire quel nombre vient juste après, pour bien compter. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "suite des nombres",
+   "segment": "maths-maternelle",
+   "longtail": "suite des nombres exercice en ligne gs",
+   "target": "activity",
+   "id": "star-stitcher.connect-sequence.k-cc-a-2",
+   "title": "Suite des nombres – compter à partir d'un nombre, en ligne (GS)",
+   "metaDescription": "La suite des nombres : compter à partir d'un nombre donné pour réveiller les étoiles une à une. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "nombres manquants",
+   "segment": "maths-maternelle",
+   "longtail": "nombres manquants exercice en ligne",
+   "target": "activity",
+   "id": "match-pairs.find-the-missing-number.1-oa-d-8",
+   "title": "Nombres manquants – trouve le nombre manquant, en ligne (CP)",
+   "metaDescription": "Trouver les nombres manquants : compléter des calculs en associant les bonnes paires de cartes. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "comparaison de quantités",
+   "segment": "maths-maternelle",
+   "longtail": "comparaison de quantités à imprimer",
+   "target": "landing",
+   "slug": "plus-ou-moins-coche-et-barre-les-groupes-animaux-de-la-ferme-0cc9",
+   "currentTitle": "Comparer les quantités à cocher – Animaux de la ferme | fiches à imprimer PDF gratuit",
+   "title": "Comparaison de quantités – La ferme | à imprimer PDF gratuit",
+   "metaDescription": "Comparaison de quantités : entourer le groupe d'animaux de la ferme qui en a le plus ou le moins. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "plus moins autant",
+   "segment": "maths-maternelle",
+   "longtail": "plus moins autant exercice en ligne gs",
+   "target": "activity",
+   "id": "friendship-bridge.compare-balance.k-cc-c-6",
+   "title": "Plus, moins, autant – comparer des collections en ligne (GS)",
+   "metaDescription": "Plus, moins ou autant ? Comparer deux collections et choisir le bon mot sur le pont de l'amitié. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "autant que",
+   "segment": "maths-maternelle",
+   "longtail": "autant que exercice maternelle en ligne",
+   "target": "activity",
+   "id": "twinsies.count-twin.k-cc-b-5",
+   "title": "Autant que – compter et faire autant, en ligne (GS)",
+   "metaDescription": "Faire autant que le lutin jumeau : compter sa collection et préparer exactement la même quantité. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "comparer des collections",
+   "segment": "maths-maternelle",
+   "longtail": "comparer des collections en maternelle",
+   "target": "activity",
+   "id": "choice-board.which-more.k-c-c-6",
+   "title": "Comparer des collections – quel groupe en a plus ? (GS, en ligne)",
+   "metaDescription": "Comparer des collections en maternelle : observer deux groupes d'images et montrer celui qui en a le plus. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "compléments à 6",
+   "segment": "maths-maternelle",
+   "longtail": "compléments à 6 exercice en ligne",
+   "target": "activity",
+   "id": "match-pairs.make-the-number.k-oa-a-3",
+   "title": "Compléments à 6 et jusqu'à 10 – composer le nombre en ligne (GS)",
+   "metaDescription": "Les compléments à 6 et aux autres nombres jusqu'à 10 : associer les paires qui composent le nombre. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "maison des nombres",
+   "segment": "maths-maternelle",
+   "longtail": "maison des nombres exercice en ligne",
+   "target": "activity",
+   "id": "numberbond.make-ten.k-oa-a-4",
+   "title": "Maison des nombres – les amis de 10, exercice en ligne (GS)",
+   "metaDescription": "Comme dans la maison des nombres : trouver les deux parties qui font 10, les amis de 10. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "conservation des quantités",
+   "segment": "maths-maternelle",
+   "longtail": "conservation des quantités maternelle exercice",
+   "target": "activity",
+   "id": "necklace.bead-string.k-cc-b-4",
+   "title": "Conservation des quantités – enfiler autant de perles, en ligne",
+   "metaDescription": "Travailler la conservation des quantités : compter les perles du renard et en enfiler exactement autant. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "premières additions",
+   "segment": "maths-maternelle",
+   "longtail": "premières additions fiches à imprimer",
+   "target": "landing",
+   "slug": "addition-image-image-animaux",
+   "currentTitle": "Fiches d'addition CP sans retenue avec images – Animaux | à imprimer PDF gratuit",
+   "title": "Premières additions en images – Animaux | à imprimer PDF gratuit",
+   "metaDescription": "Les premières additions en images : compter les animaux puis écrire la somme. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "formes géométriques maternelle",
+   "segment": "maths-maternelle",
+   "longtail": "formes géométriques maternelle en ligne",
+   "target": "activity",
+   "id": "choice-board.shape-id.k-g-a-2",
+   "title": "Formes géométriques maternelle – identifier la forme en ligne",
+   "metaDescription": "Les formes géométriques en maternelle : observer les figures et montrer la forme demandée, une par une. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "formes et grandeurs",
+   "segment": "maths-maternelle",
+   "longtail": "formes et grandeurs maternelle à imprimer",
+   "target": "GAP",
+   "note": "no-free-slug landing:geometry/none/maternelle"
+  },
+  {
+   "base": "reconnaître les formes",
+   "segment": "maths-maternelle",
+   "longtail": "reconnaître les formes jeu en ligne",
+   "target": "activity",
+   "id": "pip-museum.curate-wing.k-g-a-2",
+   "title": "Reconnaître les formes – carré, triangle, cercle, en ligne",
+   "metaDescription": "Reconnaître et nommer les formes au musée de Pip : carré, triangle, cercle et plus encore. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "formes planes",
+   "segment": "maths-maternelle",
+   "longtail": "formes planes et solides exercice en ligne",
+   "target": "activity",
+   "id": "choice-board.flat-solid.k-g-a-3",
+   "title": "Formes planes ou solides ? Exercice en ligne (maternelle)",
+   "metaDescription": "Distinguer les formes planes des solides : plate ou en volume ? Un tri simple des formes 2D et 3D. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "carré rond triangle",
+   "segment": "maths-maternelle",
+   "longtail": "carré rond triangle exercices maternelle",
+   "target": "GAP",
+   "note": "no-free-slug landing:geometry/none/maternelle"
+  },
+  {
+   "base": "trier les formes",
+   "segment": "maths-maternelle",
+   "longtail": "trier les formes exercice en ligne",
+   "target": "activity",
+   "id": "sort-bins.defining-attributes.1-g-a-1",
+   "title": "Trier les formes par leurs côtés – exercice en ligne (CP)",
+   "metaDescription": "Trier les formes selon leurs côtés : triangles, quadrilatères, pentagones et hexagones. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "algorithme maternelle",
+   "segment": "maths-maternelle",
+   "longtail": "algorithme maternelle à imprimer",
+   "target": "landing",
+   "slug": "train-de-modeles-animaux-8b40",
+   "currentTitle": "Algorithme AB – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Algorithme maternelle – suites d'images – Animaux | PDF gratuit",
+   "metaDescription": "Des fiches d'algorithme pour la maternelle : observer la suite d'animaux et la continuer. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "algorithme gs",
+   "segment": "maths-maternelle",
+   "longtail": "algorithme gs fiches à imprimer",
+   "target": "landing",
+   "slug": "train-de-modeles-vehicules-84e8",
+   "currentTitle": "Algorithme AB – Véhicules | fiches à imprimer PDF gratuit",
+   "title": "Algorithme GS – suites logiques – Véhicules | PDF gratuit",
+   "metaDescription": "Fiches d'algorithme pour la GS : repérer le rythme d'une suite de véhicules et la poursuivre. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "algorithme ms",
+   "segment": "maths-maternelle",
+   "longtail": "algorithme ms exercices à imprimer",
+   "target": "landing",
+   "slug": "train-de-modeles-fruits-17e3",
+   "currentTitle": "Algorithme AB – Fruits | fiches à imprimer PDF gratuit",
+   "title": "Algorithme MS – suites simples – Fruits | à imprimer PDF gratuit",
+   "metaDescription": "Algorithme en moyenne section : des suites simples de fruits à observer et à continuer. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "suites organisées",
+   "segment": "maths-maternelle",
+   "longtail": "suites organisées maternelle à imprimer",
+   "target": "landing",
+   "slug": "fiche-de-modeles-formes-31f8",
+   "currentTitle": "Suites logiques – Formes | fiches à imprimer PDF gratuit",
+   "title": "Suites organisées – fiches de suites – Formes | PDF gratuit",
+   "metaDescription": "Suites organisées en maternelle : reproduire et continuer des suites de formes sur fiche. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "continuer la suite",
+   "segment": "maths-maternelle",
+   "longtail": "continuer la suite exercices maternelle",
+   "target": "landing",
+   "slug": "train-de-modeles-vie-oceanique-972b",
+   "currentTitle": "Algorithme AB – Vie océanique | fiches à imprimer PDF gratuit",
+   "title": "Continuer la suite – Animaux marins – maternelle | PDF gratuit",
+   "metaDescription": "Continuer la suite : observer l'algorithme d'animaux marins et placer les images suivantes. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "tri maternelle",
+   "segment": "maths-maternelle",
+   "longtail": "tri maternelle exercice en ligne",
+   "target": "activity",
+   "id": "choice-board.sort-count.k-md-b-3",
+   "title": "Tri en maternelle – classer et compter, en ligne (GS)",
+   "metaDescription": "Le tri en maternelle : classer les animaux, les fruits et les véhicules, puis compter chaque catégorie. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "trier classer ranger",
+   "segment": "maths-maternelle",
+   "longtail": "créer des fiches pour trier et classer",
+   "target": "maker",
+   "key": "picture-sort",
+   "title": "Créer des fiches de tri – trier et classer – générateur gratuit",
+   "metaDescription": "Trier, classer, ranger : créez vos propres fiches de tri d'images par catégories, prêtes à imprimer, avec le générateur gratuit."
+  },
+  {
+   "base": "tri de couleurs",
+   "segment": "maths-maternelle",
+   "longtail": "tri de couleurs exercices maternelle",
+   "target": "landing",
+   "slug": "trouve-et-compte-objets-caches-couleurs-edb0",
+   "currentTitle": "Cherche et compte – Couleurs | fiches à imprimer PDF gratuit",
+   "title": "Tri de couleurs – chercher et compter par couleur | PDF gratuit",
+   "metaDescription": "Tri de couleurs en maternelle : repérer les images de chaque couleur et compter combien il y en a. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "ranger par taille",
+   "segment": "maths-maternelle",
+   "longtail": "ranger par taille exercice en ligne",
+   "target": "GAP",
+   "id": "seriation.compare-length.1-md-a-1",
+   "note": "secondary-on activity:seriation.compare-length.1-md-a-1"
+  },
+  {
+   "base": "grandeurs maternelle",
+   "segment": "maths-maternelle",
+   "longtail": "grandeurs maternelle fiches à imprimer",
+   "target": "landing",
+   "slug": "comparer-la-masse-maternelle-lourd-ou-leger",
+   "currentTitle": "Comparer la masse maternelle – lourd ou léger | fiches à imprimer (PDF gratuit)",
+   "title": "Grandeurs en maternelle – mesurer | à imprimer PDF gratuit",
+   "metaDescription": "Les grandeurs en maternelle : comparer et mesurer des longueurs avec des exercices illustrés. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "repérage spatial maternelle",
+   "segment": "maths-maternelle",
+   "longtail": "repérage spatial maternelle à imprimer",
+   "target": "landing",
+   "slug": "prepositions-choix-multiple-salle-de-classe-8763",
+   "currentTitle": "Les positions à cocher – Salle de classe | fiches à imprimer PDF gratuit",
+   "title": "Repérage spatial maternelle – La classe | à imprimer PDF gratuit",
+   "metaDescription": "Repérage spatial en maternelle : sur, sous, devant, derrière… situer les objets de la classe. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "les nombres de 0 à 10",
+   "segment": "maths-maternelle",
+   "longtail": "les nombres de 0 à 10 en maternelle",
+   "target": "GAP",
+   "id": "ten-frame.count-to-10.make-n.animals",
+   "note": "secondary-on activity:ten-frame.count-to-10.make-n.animals"
+  },
+  {
+   "base": "associer quantité et chiffre",
+   "segment": "maths-maternelle",
+   "longtail": "associer quantité et chiffre en ligne",
+   "target": "activity",
+   "id": "mamas-roll-call.numeral-trace.k-cc-b-5",
+   "title": "Associer quantité et chiffre – compter et écrire (GS, en ligne)",
+   "metaDescription": "Associer quantité et chiffre : compter la collection puis écrire le chiffre qui correspond, jusqu'à 9. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "écriture des chiffres maternelle",
+   "segment": "maths-maternelle",
+   "longtail": "écriture des chiffres maternelle en ligne",
+   "target": "GAP",
+   "id": "digby-number-trace.numeral-formation.k-cc-a-3",
+   "note": "secondary-on activity:digby-number-trace.numeral-formation.k-cc-a-3"
+  },
+  {
+   "base": "écrire les chiffres de 0 à 9",
+   "segment": "maths-maternelle",
+   "longtail": "écrire les chiffres de 0 à 9 en ligne",
+   "target": "GAP",
+   "id": "digby-number-trace.numeral-formation.k-cc-a-3",
+   "note": "secondary-on activity:digby-number-trace.numeral-formation.k-cc-a-3"
+  },
+  {
+   "base": "apprendre à écrire les chiffres",
+   "segment": "maths-maternelle",
+   "longtail": "apprendre à écrire les chiffres en ligne",
+   "target": "GAP",
+   "id": "mamas-roll-call.numeral-trace.k-cc-b-5",
+   "note": "secondary-on activity:mamas-roll-call.numeral-trace.k-cc-b-5"
+  },
+  {
+   "base": "tableau à double entrée",
+   "segment": "maths-maternelle",
+   "longtail": "tableau à double entrée maternelle à imprimer",
+   "target": "landing",
+   "slug": "appariement-en-grille-animaux",
+   "currentTitle": "Associer les images – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Tableau à double entrée – repérage – Animaux | PDF gratuit",
+   "metaDescription": "Le tableau à double entrée en maternelle : croiser ligne et colonne pour placer chaque animal sur le quadrillage. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "compter sur les doigts",
+   "segment": "maths-maternelle",
+   "longtail": "compter sur les doigts maternelle",
+   "target": "GAP"
+  },
+  {
+   "base": "exercices maths cp",
+   "segment": "maths-cp-ce2",
+   "longtail": "exercices maths cp à imprimer",
+   "target": "landing",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-animaux-1df3",
+   "currentTitle": "Fiches de calcul CP – Animaux | à imprimer PDF gratuit",
+   "title": "Exercices de maths CP – Animaux | à imprimer PDF gratuit",
+   "metaDescription": "Exercices de maths CP à imprimer avec les animaux : additions, soustractions et calcul illustré. Fiches gratuites (PDF) avec corrigé."
+  },
+  {
+   "base": "exercices maths ce1",
+   "segment": "maths-cp-ce2",
+   "longtail": "exercices maths ce1 à imprimer pdf",
+   "target": "GAP",
+   "note": "no-free-slug landing:math-worksheet/animals/ce1"
+  },
+  {
+   "base": "exercices maths ce2",
+   "segment": "maths-cp-ce2",
+   "longtail": "exercices maths ce2 multiplication à imprimer",
+   "target": "landing",
+   "slug": "tables-de-multiplication-ce2-reseaux",
+   "currentTitle": "Tables de multiplication CE2 – réseaux, facteur manquant | fiches à imprimer (PDF gratuit)",
+   "title": "Exercices maths CE2 – multiplication | à imprimer PDF gratuit",
+   "metaDescription": "Exercices de maths CE2 à imprimer : la multiplication en réseaux de points pour comprendre les tables. Fiches gratuites (PDF) avec corrigé."
+  },
+  {
+   "base": "lire l'heure exercices",
+   "segment": "maths-cp-ce2",
+   "longtail": "lire l'heure exercices en ligne",
+   "target": "activity",
+   "id": "clock.set-clock.1-md-b-3",
+   "title": "Lire l'heure – exercice en ligne (CP)",
+   "metaDescription": "Exercices en ligne pour lire l'heure : règle l'horloge sur les heures et les demi-heures. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "addition posée",
+   "segment": "maths-cp-ce2",
+   "longtail": "addition posée ce1 exercices",
+   "target": "GAP"
+  },
+  {
+   "base": "soustraction posée",
+   "segment": "maths-cp-ce2",
+   "longtail": "soustraction posée ce1 exercices",
+   "target": "GAP"
+  },
+  {
+   "base": "soustraction avec retenue",
+   "segment": "maths-cp-ce2",
+   "longtail": "soustraction avec retenue exercice en ligne",
+   "target": "activity",
+   "id": "place-value-regroup.subtract-decompose.2-nbt-b-7",
+   "title": "Soustraction avec retenue – exercice en ligne (CE2)",
+   "metaDescription": "Exercice en ligne de soustraction avec retenue : casser une dizaine pour soustraire, pas à pas. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "tables de multiplication",
+   "segment": "maths-cp-ce2",
+   "longtail": "tables de multiplication exercices à imprimer",
+   "target": "landing",
+   "slug": "multiplication-en-reseaux-ce1",
+   "currentTitle": "Multiplication en réseaux CE1 – addition répétée | fiches à imprimer (PDF gratuit)",
+   "title": "Tables de multiplication – exercices à imprimer | PDF gratuit",
+   "metaDescription": "Exercices à imprimer pour découvrir les tables de multiplication avec des réseaux de points. Fiches gratuites (PDF) avec corrigé."
+  },
+  {
+   "base": "multiplication ce1",
+   "segment": "maths-cp-ce2",
+   "longtail": "multiplication ce1 exercice en ligne",
+   "target": "activity",
+   "id": "echo-grove.match-the-rune.3-oa-a-1",
+   "title": "Multiplication CE1 – exercice en ligne gratuit",
+   "metaDescription": "Exercice de multiplication CE1 en ligne : lire des groupes égaux et trouver le produit. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "multiplication ce2",
+   "segment": "maths-cp-ce2",
+   "longtail": "multiplication ce2 exercices à imprimer",
+   "target": "GAP",
+   "note": "no-free-slug landing:arrays-multiplication/none/ce2"
+  },
+  {
+   "base": "calcul cp",
+   "segment": "maths-cp-ce2",
+   "longtail": "calcul cp exercices à imprimer",
+   "target": "landing",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-fruits-f3ad",
+   "currentTitle": "Fiches de calcul CP – Fruits | à imprimer PDF gratuit",
+   "title": "Exercices de calcul CP – Fruits | à imprimer PDF gratuit",
+   "metaDescription": "Exercices de calcul CP à imprimer sur le thème des fruits : additions et soustractions illustrées. Fiches gratuites (PDF) avec corrigé."
+  },
+  {
+   "base": "numération ce1",
+   "segment": "maths-cp-ce2",
+   "longtail": "numération ce1 fiches à imprimer",
+   "target": "landing",
+   "slug": "tableau-des-nombres-ce1",
+   "currentTitle": "Tableau des nombres CE1 – de 3 en 3, nombres impairs | fiches à imprimer (PDF gratuit)",
+   "title": "Fiches de numération CE1 – tableaux de nombres | PDF gratuit",
+   "metaDescription": "Fiches de numération CE1 à imprimer : tableaux de nombres à compléter pour consolider la suite numérique. Gratuit (PDF) avec corrigé."
+  },
+  {
+   "base": "nombres jusqu'à 100",
+   "segment": "maths-cp-ce2",
+   "longtail": "nombres jusqu'à 100 exercices à imprimer",
+   "target": "landing",
+   "slug": "tableau-des-nombres-cp",
+   "currentTitle": "Tableau des nombres CP – compter de 2 en 2, 5, 10 | fiches à imprimer (PDF gratuit)",
+   "title": "Les nombres jusqu'à 100 – exercices à imprimer | PDF gratuit",
+   "metaDescription": "Exercices à imprimer sur les nombres jusqu'à 100 : tableaux de nombres à compléter au CP. Fiches gratuites (PDF) avec corrigé."
+  },
+  {
+   "base": "tableau des nombres",
+   "segment": "maths-cp-ce2",
+   "longtail": "tableau des nombres à compléter ce1",
+   "target": "GAP",
+   "note": "no-free-slug landing:number-charts/none/ce1"
+  },
+  {
+   "base": "lire l'heure ce1",
+   "segment": "maths-cp-ce2",
+   "longtail": "lire l'heure ce1 fiches à imprimer",
+   "target": "landing",
+   "slug": "lire-l-heure-ce1",
+   "currentTitle": "Lire l'heure CE1 – 5 min, quarts d'heure | fiches à imprimer (PDF gratuit)",
+   "title": "Lire l'heure CE1 – fiches à imprimer | PDF gratuit",
+   "metaDescription": "Fiches à imprimer pour apprendre à lire l'heure au CE1 : horloges à aiguilles, heures et minutes à lire. Gratuites (PDF) avec corrigé."
+  },
+  {
+   "base": "lire l'heure ce2",
+   "segment": "maths-cp-ce2",
+   "longtail": "lire l'heure ce2 exercices à imprimer pdf",
+   "target": "landing",
+   "slug": "lire-l-heure-ce2",
+   "currentTitle": "Lire l'heure CE2 – minute, durées, 24 h | fiches à imprimer (PDF gratuit)",
+   "title": "Lire l'heure CE2 – exercices à imprimer | PDF gratuit",
+   "metaDescription": "Exercices à imprimer en PDF pour lire l'heure au CE2 : horloges à aiguilles et lecture des minutes. Gratuit, avec corrigé et prêt à l'emploi."
+  },
+  {
+   "base": "géométrie cp",
+   "segment": "maths-cp-ce2",
+   "longtail": "géométrie cp exercice en ligne",
+   "target": "GAP",
+   "id": "pip-museum.curate-wing.k-g-a-2",
+   "note": "secondary-on activity:pip-museum.curate-wing.k-g-a-2"
+  },
+  {
+   "base": "géométrie ce1",
+   "segment": "maths-cp-ce2",
+   "longtail": "géométrie ce1 exercice en ligne gratuit",
+   "target": "activity",
+   "id": "sort-bins.sort-by-sides.2-g-a-1",
+   "title": "Géométrie CE1 : trier les formes – exercice en ligne gratuit",
+   "metaDescription": "Exercice de géométrie CE1 en ligne : trier triangles, quadrilatères, pentagones et hexagones par côtés. Gratuit, sans inscription."
+  },
+  {
+   "base": "géométrie ce2",
+   "segment": "maths-cp-ce2",
+   "longtail": "géométrie ce2 fiches à imprimer gratuit",
+   "target": "landing",
+   "slug": "geometrie-ce2",
+   "currentTitle": "Géométrie CE2 – quadrilatères, angle droit, périmètre, aire | fiches à imprimer (PDF gratuit)",
+   "title": "Géométrie CE2 – fiches à imprimer | PDF gratuit",
+   "metaDescription": "Fiches de géométrie CE2 à imprimer gratuitement : reconnaître et décrire les formes, exercices prêts pour la classe. Gratuit (PDF) avec corrigé."
+  },
+  {
+   "base": "reproduction sur quadrillage",
+   "segment": "maths-cp-ce2",
+   "longtail": "reproduction sur quadrillage à imprimer",
+   "target": "maker",
+   "key": "draw-and-color",
+   "title": "Créer des reproductions sur quadrillage – générateur gratuit",
+   "metaDescription": "Générateur de reproduction sur quadrillage : composez vos dessins à reproduire et à colorier, puis imprimez-les gratuitement."
+  },
+  {
+   "base": "comparer les nombres ce1",
+   "segment": "maths-cp-ce2",
+   "longtail": "comparer les nombres ce1 exercice en ligne",
+   "target": "activity",
+   "id": "match-pairs.compare-three-digit-numbers.2-nbt-a-4",
+   "title": "Comparer les nombres CE1 – exercice en ligne gratuit",
+   "metaDescription": "Exercice en ligne pour comparer les nombres au CE1 : plus grand, plus petit, avec les nombres à trois chiffres. Gratuit, sans inscription."
+  },
+  {
+   "base": "maths cp à imprimer",
+   "segment": "maths-cp-ce2",
+   "longtail": "maths cp à imprimer gratuit pdf",
+   "target": "landing",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-vehicules-dee8",
+   "currentTitle": "Fiches de calcul CP – Véhicules | à imprimer PDF gratuit",
+   "title": "Maths CP à imprimer – Véhicules | PDF gratuit",
+   "metaDescription": "Fiches de maths CP à imprimer gratuitement en PDF : calcul illustré sur le thème des véhicules. Avec corrigé, prêtes pour la classe."
+  },
+  {
+   "base": "fiche de préparation maths",
+   "segment": "maths-cp-ce2",
+   "longtail": "fiche de préparation maths ce1",
+   "target": "GAP"
+  },
+  {
+   "base": "maths ce1 pdf",
+   "segment": "maths-cp-ce2",
+   "longtail": "maths ce1 pdf gratuit à imprimer",
+   "target": "GAP",
+   "note": "no-free-slug landing:math-worksheet/space/ce1"
+  },
+  {
+   "base": "exercices monnaie ce1",
+   "segment": "maths-cp-ce2",
+   "longtail": "exercices monnaie ce1 en ligne",
+   "target": "activity",
+   "id": "coin-stall.money.2-md-c-8",
+   "title": "Exercices de monnaie CE1 – en ligne (euros et centimes)",
+   "metaDescription": "Exercices de monnaie CE1 en ligne : payer et rendre la monnaie en euros et centimes. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "exercices maths cycle 2",
+   "segment": "maths-cp-ce2",
+   "longtail": "exercices maths cycle 2 à imprimer",
+   "target": "landing",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-salle-de-classe-a530",
+   "currentTitle": "Fiches de calcul CP – Salle de classe | à imprimer PDF gratuit",
+   "title": "Exercices de maths cycle 2 (CP) – à imprimer | PDF gratuit",
+   "metaDescription": "Exercices de maths cycle 2 à imprimer, niveau CP : calcul illustré sur le thème de l'école. Fiches gratuites (PDF) avec corrigé."
+  },
+  {
+   "base": "table de multiplication exercices",
+   "segment": "maths-cp-ce2",
+   "longtail": "table de multiplication exercice en ligne",
+   "target": "activity",
+   "id": "array.equal-groups.2-oa-c-4",
+   "title": "Table de multiplication – exercice en ligne (CE1)",
+   "metaDescription": "Exercice en ligne sur la table de multiplication : groupes égaux et addition répétée pour comprendre. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "table de 9 exercice",
+   "segment": "maths-cp-ce2",
+   "longtail": "table de 9 exercice à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "additions cp",
+   "segment": "maths-cp-ce2",
+   "longtail": "additions cp à imprimer pdf",
+   "target": "landing",
+   "slug": "addition-image-nombre-animaux-b1d9",
+   "currentTitle": "Fiches d'addition CP sans retenue avec images et nombres – Animaux | à imprimer PDF gratuit",
+   "title": "Additions CP – Animaux | à imprimer PDF gratuit",
+   "metaDescription": "Additions CP à imprimer en PDF : calculs jusqu'à 20 illustrés avec les animaux. Fiches gratuites avec corrigé, prêtes pour la classe."
+  },
+  {
+   "base": "additions ce1",
+   "segment": "maths-cp-ce2",
+   "longtail": "additions ce1 jusqu'à 100 en ligne",
+   "target": "activity",
+   "id": "gus-snack-cart.within-100.2-nbt-b-5",
+   "title": "Additions CE1 jusqu'à 100 – exercice en ligne",
+   "metaDescription": "Additions CE1 en ligne : additionner et soustraire jusqu'à 100 avec le stand de Gus. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "additions ce2",
+   "segment": "maths-cp-ce2",
+   "longtail": "additions ce2 avec retenue en ligne",
+   "target": "activity",
+   "id": "place-value-regroup.add-compose-hundred.2-nbt-b-7",
+   "title": "Additions CE2 avec retenue – exercice en ligne",
+   "metaDescription": "Additions CE2 en ligne : additionner avec une retenue en fabriquant une centaine, pas à pas. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "addition avec retenue",
+   "segment": "maths-cp-ce2",
+   "longtail": "addition avec retenue exercice en ligne cp",
+   "target": "activity",
+   "id": "place-value-regroup.add-compose-ten.1-nbt-c-4",
+   "title": "Addition avec retenue – exercice en ligne (CP)",
+   "metaDescription": "Exercice en ligne d'addition avec retenue au CP : composer une dizaine pour additionner, pas à pas. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "addition à trous",
+   "segment": "maths-cp-ce2",
+   "longtail": "addition à trous exercice en ligne",
+   "target": "activity",
+   "id": "fix-it-corner.missing-part.1-oa-d-8",
+   "title": "Addition à trous – exercice en ligne (CP)",
+   "metaDescription": "Additions à trous en ligne : trouver le nombre manquant pour compléter chaque calcul. Idéal au CP. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "soustractions ce1",
+   "segment": "maths-cp-ce2",
+   "longtail": "soustractions ce1 jusqu'à 100 en ligne",
+   "target": "GAP",
+   "id": "gus-snack-cart.within-100.2-nbt-b-5",
+   "note": "secondary-on activity:gus-snack-cart.within-100.2-nbt-b-5"
+  },
+  {
+   "base": "soustractions ce2",
+   "segment": "maths-cp-ce2",
+   "longtail": "soustractions ce2 avec retenue en ligne",
+   "target": "activity",
+   "id": "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7",
+   "title": "Soustractions CE2 avec retenue – exercice en ligne",
+   "metaDescription": "Soustractions CE2 en ligne : soustraire avec retenue en cassant une centaine, même par-dessus le zéro. Gratuit, sans inscription."
+  },
+  {
+   "base": "multiplication posée ce2",
+   "segment": "maths-cp-ce2",
+   "longtail": "multiplication posée ce2 exercices",
+   "target": "GAP"
+  },
+  {
+   "base": "calcul mental ce1",
+   "segment": "maths-cp-ce2",
+   "longtail": "calcul mental ce1 exercice en ligne",
+   "target": "activity",
+   "id": "match-pairs.match-facts-to-20.2-oa-b-2",
+   "title": "Calcul mental CE1 – exercice en ligne gratuit",
+   "metaDescription": "Calcul mental CE1 en ligne : relier les additions et soustractions jusqu'à 20 pour automatiser. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "calcul mental ce2",
+   "segment": "maths-cp-ce2",
+   "longtail": "calcul mental ce2 exercice en ligne",
+   "target": "activity",
+   "id": "comet-kangaroo.tens-hundreds.2-nbt-b-8",
+   "title": "Calcul mental CE2 : 10 et 100 de plus – exercice en ligne",
+   "metaDescription": "Calcul mental CE2 en ligne : ajouter ou retirer 10 et 100 sur les nombres jusqu'à 1000. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "calcul ce1",
+   "segment": "maths-cp-ce2",
+   "longtail": "calcul ce1 fiches à imprimer",
+   "target": "GAP",
+   "note": "dup-title"
+  },
+  {
+   "base": "calculs posés",
+   "segment": "maths-cp-ce2",
+   "longtail": "calculs posés ce1 à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "numération cp",
+   "segment": "maths-cp-ce2",
+   "longtail": "numération cp fiches à imprimer",
+   "target": "GAP",
+   "note": "no-free-slug landing:number-charts/none/cp"
+  },
+  {
+   "base": "nombres jusqu'à 1000",
+   "segment": "maths-cp-ce2",
+   "longtail": "nombres jusqu'à 1000 exercice en ligne",
+   "target": "GAP",
+   "id": "comet-kangaroo.tens-hundreds.2-nbt-b-8",
+   "note": "secondary-on activity:comet-kangaroo.tens-hundreds.2-nbt-b-8"
+  },
+  {
+   "base": "unités dizaines centaines",
+   "segment": "maths-cp-ce2",
+   "longtail": "unités dizaines centaines exercice en ligne",
+   "target": "activity",
+   "id": "place-value.hundreds-tens-and-ones.2-nbt-a-1",
+   "title": "Unités, dizaines, centaines – exercice en ligne (CE1)",
+   "metaDescription": "Exercice en ligne sur les unités, dizaines et centaines : construire et lire les nombres. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "compléments à 10",
+   "segment": "maths-cp-ce2",
+   "longtail": "compléments à 10 exercice en ligne",
+   "target": "GAP",
+   "id": "numberbond.make-ten.k-oa-a-4",
+   "note": "secondary-on activity:numberbond.make-ten.k-oa-a-4"
+  },
+  {
+   "base": "doubles et moitiés",
+   "segment": "maths-cp-ce2",
+   "longtail": "doubles et moitiés ce1 exercices",
+   "target": "GAP"
+  },
+  {
+   "base": "les doubles cp",
+   "segment": "maths-cp-ce2",
+   "longtail": "les doubles cp exercices à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "les moitiés ce1",
+   "segment": "maths-cp-ce2",
+   "longtail": "les moitiés ce1 exercices",
+   "target": "GAP"
+  },
+  {
+   "base": "pair impair ce1",
+   "segment": "maths-cp-ce2",
+   "longtail": "pair impair ce1 exercice en ligne",
+   "target": "activity",
+   "id": "choice-board.even-odd.2-oa-c-3",
+   "title": "Pair ou impair CE1 – exercice en ligne gratuit",
+   "metaDescription": "Exercice en ligne pair ou impair au CE1 : reconnaître les nombres pairs et impairs. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "droite graduée ce1",
+   "segment": "maths-cp-ce2",
+   "longtail": "droite graduée ce1 exercice en ligne",
+   "target": "activity",
+   "id": "hoppers-number-line.jump-sums.2-md-b-6",
+   "title": "Droite graduée CE1 – exercice en ligne gratuit",
+   "metaDescription": "Exercice en ligne sur la droite graduée au CE1 : additionner et soustraire en sautant de bond en bond. Gratuit, sans inscription."
+  },
+  {
+   "base": "droite graduée ce2",
+   "segment": "maths-cp-ce2",
+   "longtail": "droite graduée ce2 arrondir en ligne",
+   "target": "activity",
+   "id": "halfway-harbors.nearest.3-nbt-a-1",
+   "title": "Droite graduée CE2 : arrondir – exercice en ligne",
+   "metaDescription": "Exercice en ligne sur la droite graduée au CE2 : arrondir à la dizaine et à la centaine les plus proches. Gratuit, sans inscription."
+  },
+  {
+   "base": "suite de nombres",
+   "segment": "maths-cp-ce2",
+   "longtail": "suite de nombres exercice en ligne ce1",
+   "target": "activity",
+   "id": "skipcount.fill.2-nbt-a-2",
+   "title": "Suite de nombres CE1 – exercice en ligne gratuit",
+   "metaDescription": "Exercice en ligne sur les suites de nombres : compter de 5 en 5, de 10 en 10 et de 100 en 100. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "problèmes cp",
+   "segment": "maths-cp-ce2",
+   "longtail": "problèmes cp exercice en ligne",
+   "target": "activity",
+   "id": "ten-frame.solve-the-story.k-oa-a-2",
+   "title": "Problèmes de maths CP – exercice en ligne (jusqu'à 10)",
+   "metaDescription": "Petits problèmes de maths CP en ligne : additions et soustractions jusqu'à 10 en images. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "problèmes ce1",
+   "segment": "maths-cp-ce2",
+   "longtail": "problèmes ce1 en ligne gratuit",
+   "target": "activity",
+   "id": "numberbond.story-problem.2-oa-a-1",
+   "title": "Problèmes CE1 jusqu'à 100 – exercice en ligne gratuit",
+   "metaDescription": "Problèmes de calcul CE1 en ligne : additions et soustractions jusqu'à 100 en situation. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "problèmes ce2",
+   "segment": "maths-cp-ce2",
+   "longtail": "problèmes de durée ce2 en ligne",
+   "target": "activity",
+   "id": "clock-elapsed.what-time.3-md-a-1",
+   "title": "Problèmes de durée CE2 – exercice en ligne gratuit",
+   "metaDescription": "Problèmes de durée CE2 en ligne : quelle heure sera-t-il ? Calculer une durée avec l'horloge. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "problèmes maths ce1",
+   "segment": "maths-cp-ce2",
+   "longtail": "problèmes maths ce1 exercice en ligne",
+   "target": "activity",
+   "id": "vet-diagnosis.word-problems.1-oa-a-1",
+   "title": "Problèmes de maths CE1 – exercice en ligne (jusqu'à 20)",
+   "metaDescription": "Problèmes de maths CE1 en ligne : résoudre des situations jusqu'à 20 chez le vétérinaire. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "la monnaie cp",
+   "segment": "maths-cp-ce2",
+   "longtail": "la monnaie cp exercice en ligne",
+   "target": "activity",
+   "id": "money.count-out.2-md-c-8",
+   "title": "La monnaie : compter les euros – exercice en ligne",
+   "metaDescription": "Exercice en ligne sur la monnaie : compter les pièces en euros pour payer le bon montant. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "la monnaie ce1",
+   "segment": "maths-cp-ce2",
+   "longtail": "la monnaie ce1 exercice en ligne",
+   "target": "activity",
+   "id": "money.make-change.2-md-c-8",
+   "title": "La monnaie CE1 : rendre la monnaie – exercice en ligne",
+   "metaDescription": "Exercice en ligne sur la monnaie au CE1 : rendre la monnaie en euros comme au marché. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "euros et centimes",
+   "segment": "maths-cp-ce2",
+   "longtail": "euros et centimes exercice en ligne",
+   "target": "GAP",
+   "id": "coin-stall.money.2-md-c-8",
+   "note": "secondary-on activity:coin-stall.money.2-md-c-8"
+  },
+  {
+   "base": "symétrie ce1",
+   "segment": "maths-cp-ce2",
+   "longtail": "symétrie ce1 exercices à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "axe de symétrie",
+   "segment": "maths-cp-ce2",
+   "longtail": "axe de symétrie exercices ce1",
+   "target": "GAP"
+  },
+  {
+   "base": "quadrillage cp",
+   "segment": "maths-cp-ce2",
+   "longtail": "quadrillage cp dessin à reproduire",
+   "target": "GAP",
+   "key": "draw-and-color",
+   "note": "secondary-on maker:draw-and-color"
+  },
+  {
+   "base": "formes géométriques cp",
+   "segment": "maths-cp-ce2",
+   "longtail": "formes géométriques cp exercice en ligne",
+   "target": "GAP",
+   "id": "pip-museum.curate-wing.k-g-a-2",
+   "note": "secondary-on activity:pip-museum.curate-wing.k-g-a-2"
+  },
+  {
+   "base": "les solides ce1",
+   "segment": "maths-cp-ce2",
+   "longtail": "les solides ce1 exercices",
+   "target": "GAP"
+  },
+  {
+   "base": "évaluation maths ce1",
+   "segment": "maths-cp-ce2",
+   "longtail": "évaluation maths ce1 à imprimer",
+   "target": "maker",
+   "key": "math-worksheet",
+   "title": "Créer une évaluation de maths CE1 – générateur gratuit",
+   "metaDescription": "Composez votre évaluation de maths CE1 : choisissez les calculs, générez la fiche et imprimez-la avec son corrigé. Générateur gratuit."
+  },
+  {
+   "base": "tables de multiplication ce1",
+   "segment": "maths-cp-ce2",
+   "longtail": "tables de multiplication ce1 à imprimer pdf",
+   "target": "GAP",
+   "note": "no-free-slug landing:arrays-multiplication/none/ce1"
+  },
+  {
+   "base": "tables de multiplication ce2",
+   "segment": "maths-cp-ce2",
+   "longtail": "tables de multiplication ce2 à imprimer pdf",
+   "target": "GAP",
+   "note": "no-free-slug landing:arrays-multiplication/none/ce2"
+  },
+  {
+   "base": "mesurer des longueurs ce1",
+   "segment": "maths-cp-ce2",
+   "longtail": "mesurer des longueurs ce1 en ligne",
+   "target": "activity",
+   "id": "tildy.measure-ruler.2-md-a-1",
+   "title": "Mesurer des longueurs CE1 – exercice en ligne (cm)",
+   "metaDescription": "Exercice en ligne pour mesurer des longueurs au CE1 avec la règle graduée en centimètres. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "mesures de longueur ce1",
+   "segment": "maths-cp-ce2",
+   "longtail": "mesures de longueur ce1 fiches à imprimer",
+   "target": "landing",
+   "slug": "mesurer-comparer-longueurs-ce1-regle",
+   "currentTitle": "Mesurer les longueurs CE1 – règle, unités, comparer | fiches à imprimer (PDF gratuit)",
+   "title": "Mesures de longueur CE1 – fiches à imprimer | PDF gratuit",
+   "metaDescription": "Fiches sur les mesures de longueur au CE1 : mesurer avec la règle et comparer. Gratuit (PDF) avec corrigé, prêtes pour la classe."
+  },
+  {
+   "base": "grandeurs et mesures ce1",
+   "segment": "maths-cp-ce2",
+   "longtail": "grandeurs et mesures ce1 à imprimer",
+   "target": "GAP",
+   "note": "no-free-slug landing:measurement/none/ce1"
+  },
+  {
+   "base": "alphabet maternelle",
+   "segment": "lecture-phonologie",
+   "longtail": "alphabet maternelle fiches à imprimer",
+   "target": "landing",
+   "slug": "train-de-l-alphabet-animaux",
+   "currentTitle": "Ordre alphabétique – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Alphabet maternelle – fiches à imprimer – Animaux | PDF gratuit",
+   "metaDescription": "L'alphabet en maternelle avec les animaux : compléter les lettres manquantes dans l'ordre. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "lettres capitales",
+   "segment": "lecture-phonologie",
+   "longtail": "lettres capitales et minuscules exercice en ligne",
+   "target": "activity",
+   "id": "choice-board.letter-case.rf-k-1-d",
+   "title": "Lettres capitales et minuscules – exercice en ligne (GS)",
+   "metaDescription": "Associer les lettres capitales à leurs minuscules : un exercice ludique pour la maternelle. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "conscience phonologique",
+   "segment": "lecture-phonologie",
+   "longtail": "jeu de conscience phonologique en ligne gs",
+   "target": "activity",
+   "id": "choice-board.beginning-sound.rf-k-3-a",
+   "title": "Conscience phonologique – jeu des sons du début en ligne (GS)",
+   "metaDescription": "Travailler la conscience phonologique en GS : écouter et repérer le son du début des mots. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "son a",
+   "segment": "lecture-phonologie",
+   "longtail": "le son a exercices cp à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "son in",
+   "segment": "lecture-phonologie",
+   "longtail": "le son in exercices cp à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "apprendre à lire",
+   "segment": "lecture-phonologie",
+   "longtail": "apprendre à lire en s'amusant en ligne",
+   "target": "activity",
+   "id": "picture-story.read.rl-k-1",
+   "title": "Apprendre à lire en s'amusant – histoire en ligne (GS-CP)",
+   "metaDescription": "Apprendre à lire en s'amusant : lire une petite histoire avec Fable et répondre aux questions. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "fiches sons cp",
+   "segment": "lecture-phonologie",
+   "longtail": "fiches sons cp à imprimer gratuit",
+   "target": "GAP"
+  },
+  {
+   "base": "loto des syllabes",
+   "segment": "lecture-phonologie",
+   "longtail": "loto des syllabes à imprimer maternelle",
+   "target": "GAP"
+  },
+  {
+   "base": "exercices de lecture gs",
+   "segment": "lecture-phonologie",
+   "longtail": "exercices de lecture gs en ligne",
+   "target": "activity",
+   "id": "otto-picture-book.which-picture.rl-k-7",
+   "title": "Exercices de lecture GS – quelle image ? – en ligne",
+   "metaDescription": "Exercices de lecture pour la GS : lire et choisir l'image qui montre le moment de l'histoire. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "reconnaissance des lettres",
+   "segment": "lecture-phonologie",
+   "longtail": "reconnaissance des lettres exercice en ligne",
+   "target": "GAP",
+   "id": "choice-board.letter-case.rf-k-1-d",
+   "note": "secondary-on activity:choice-board.letter-case.rf-k-1-d"
+  },
+  {
+   "base": "lettres majuscules minuscules",
+   "segment": "lecture-phonologie",
+   "longtail": "associer lettres majuscules et minuscules en ligne",
+   "target": "GAP",
+   "id": "choice-board.letter-case.rf-k-1-d",
+   "note": "secondary-on activity:choice-board.letter-case.rf-k-1-d"
+  },
+  {
+   "base": "correspondance trois écritures",
+   "segment": "lecture-phonologie",
+   "longtail": "correspondance des trois écritures gs à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "lettres script cursive",
+   "segment": "lecture-phonologie",
+   "longtail": "lettres script et cursive exercices à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "lettres cursives gs",
+   "segment": "lecture-phonologie",
+   "longtail": "lettres cursives gs fiches à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "alphabet gs",
+   "segment": "lecture-phonologie",
+   "longtail": "alphabet gs exercices à imprimer",
+   "target": "landing",
+   "slug": "train-de-l-alphabet-animaux-du-zoo-ef2f",
+   "currentTitle": "Ordre alphabétique – Animaux du zoo | fiches à imprimer PDF gratuit",
+   "title": "Alphabet GS – exercices – Animaux du zoo | à imprimer PDF gratuit",
+   "metaDescription": "L'alphabet en GS avec les animaux du zoo : retrouver les lettres manquantes du train de l'alphabet. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "ordre alphabétique",
+   "segment": "lecture-phonologie",
+   "longtail": "ordre alphabétique exercices maternelle gs",
+   "target": "landing",
+   "slug": "train-de-l-alphabet-vehicules-84d5",
+   "currentTitle": "Ordre alphabétique – Véhicules | fiches à imprimer PDF gratuit",
+   "title": "Ordre alphabétique – exercices – Véhicules | à imprimer PDF gratuit",
+   "metaDescription": "S'entraîner à l'ordre alphabétique : compléter les lettres manquantes sur le train des véhicules. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "lettre manquante",
+   "segment": "lecture-phonologie",
+   "longtail": "lettre manquante de l'alphabet à imprimer",
+   "target": "landing",
+   "slug": "train-de-l-alphabet-indice-de-lettre-animaux-de-la-ferme-0c25",
+   "currentTitle": "Ordre alphabétique en images pour la maternelle – Animaux de la ferme | PDF gratuit",
+   "title": "Lettre manquante de l'alphabet – Ferme | à imprimer PDF gratuit",
+   "metaDescription": "Retrouver la lettre manquante de l'alphabet avec les animaux de la ferme. Fiches gratuites à imprimer (PDF) avec corrigé, dès la maternelle."
+  },
+  {
+   "base": "phonologie gs",
+   "segment": "lecture-phonologie",
+   "longtail": "phonologie gs exercice en ligne",
+   "target": "activity",
+   "id": "syllable-builder.forme-le-mot-en-syllabes.rf-k-2-b",
+   "title": "Phonologie GS – former des mots en syllabes en ligne",
+   "metaDescription": "Phonologie en grande section : écouter chaque syllabe puis former le mot entier, avec des images. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "phonologie maternelle",
+   "segment": "lecture-phonologie",
+   "longtail": "phonologie maternelle jeu en ligne",
+   "target": "GAP",
+   "id": "choice-board.beginning-sound.rf-k-3-a",
+   "note": "secondary-on activity:choice-board.beginning-sound.rf-k-3-a"
+  },
+  {
+   "base": "syllabes gs",
+   "segment": "lecture-phonologie",
+   "longtail": "syllabes gs exercice en ligne",
+   "target": "GAP",
+   "id": "syllable-builder.forme-le-mot-en-syllabes.rf-k-2-b",
+   "note": "secondary-on activity:syllable-builder.forme-le-mot-en-syllabes.rf-k-2-b"
+  },
+  {
+   "base": "syllabe d'attaque",
+   "segment": "lecture-phonologie",
+   "longtail": "syllabe d'attaque exercices maternelle",
+   "target": "GAP"
+  },
+  {
+   "base": "son d'attaque",
+   "segment": "lecture-phonologie",
+   "longtail": "son d'attaque exercice en ligne maternelle",
+   "target": "GAP",
+   "id": "choice-board.beginning-sound.rf-k-3-a",
+   "note": "secondary-on activity:choice-board.beginning-sound.rf-k-3-a"
+  },
+  {
+   "base": "rimes maternelle",
+   "segment": "lecture-phonologie",
+   "longtail": "rimes maternelle exercices à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "dénombrer les syllabes",
+   "segment": "lecture-phonologie",
+   "longtail": "dénombrer les syllabes maternelle exercices",
+   "target": "GAP"
+  },
+  {
+   "base": "localiser les syllabes",
+   "segment": "lecture-phonologie",
+   "longtail": "localiser les syllabes dans un mot gs",
+   "target": "GAP"
+  },
+  {
+   "base": "manipuler les syllabes",
+   "segment": "lecture-phonologie",
+   "longtail": "manipuler les syllabes jeu en ligne gs",
+   "target": "GAP",
+   "id": "syllable-builder.forme-le-mot-en-syllabes.rf-k-2-b",
+   "note": "secondary-on activity:syllable-builder.forme-le-mot-en-syllabes.rf-k-2-b"
+  },
+  {
+   "base": "les sons cp",
+   "segment": "lecture-phonologie",
+   "longtail": "les sons cp exercices à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "étude des sons",
+   "segment": "lecture-phonologie",
+   "longtail": "étude des sons cp fiches à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "son ou",
+   "segment": "lecture-phonologie",
+   "longtail": "le son ou exercices cp",
+   "target": "GAP"
+  },
+  {
+   "base": "son on",
+   "segment": "lecture-phonologie",
+   "longtail": "le son on exercices cp à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "son oi",
+   "segment": "lecture-phonologie",
+   "longtail": "le son oi exercices cp",
+   "target": "GAP"
+  },
+  {
+   "base": "son eu",
+   "segment": "lecture-phonologie",
+   "longtail": "le son eu exercices cp",
+   "target": "GAP"
+  },
+  {
+   "base": "son ill",
+   "segment": "lecture-phonologie",
+   "longtail": "le son ill exercices ce1",
+   "target": "GAP"
+  },
+  {
+   "base": "son gn",
+   "segment": "lecture-phonologie",
+   "longtail": "le son gn exercices ce1",
+   "target": "GAP"
+  },
+  {
+   "base": "son oin",
+   "segment": "lecture-phonologie",
+   "longtail": "le son oin exercices cp ce1",
+   "target": "GAP"
+  },
+  {
+   "base": "son ain",
+   "segment": "lecture-phonologie",
+   "longtail": "le son ain exercices cp",
+   "target": "GAP"
+  },
+  {
+   "base": "son ien",
+   "segment": "lecture-phonologie",
+   "longtail": "le son ien exercices ce1",
+   "target": "GAP"
+  },
+  {
+   "base": "sons complexes",
+   "segment": "lecture-phonologie",
+   "longtail": "les sons complexes cp exercices à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "confusion de sons",
+   "segment": "lecture-phonologie",
+   "longtail": "confusion de sons exercice en ligne cp",
+   "target": "activity",
+   "id": "bingo-word-hunt.read-match.rf-k-3-d",
+   "title": "Confusion de sons – lire des mots proches en ligne (CP)",
+   "metaDescription": "Aider un enfant qui confond les sons : lire et distinguer des mots qui se ressemblent. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "confusion b d",
+   "segment": "lecture-phonologie",
+   "longtail": "confusion b d exercices à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "confusion b p",
+   "segment": "lecture-phonologie",
+   "longtail": "confusion b p exercices cp",
+   "target": "GAP"
+  },
+  {
+   "base": "confusion ch j",
+   "segment": "lecture-phonologie",
+   "longtail": "confusion ch j exercices cp",
+   "target": "GAP"
+  },
+  {
+   "base": "confusion f v",
+   "segment": "lecture-phonologie",
+   "longtail": "confusion f v exercices cp",
+   "target": "GAP"
+  },
+  {
+   "base": "sons proches",
+   "segment": "lecture-phonologie",
+   "longtail": "sons proches distinguer les mots en ligne",
+   "target": "activity",
+   "id": "choice-board.tell-words-apart.rf-k-3-c",
+   "title": "Sons proches – distinguer les mots – exercice en ligne (CP)",
+   "metaDescription": "Mots aux sons proches : observer, lire et distinguer les mots fréquents qui se ressemblent. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "phonologie cp",
+   "segment": "lecture-phonologie",
+   "longtail": "phonologie cp exercices à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "méthode syllabique",
+   "segment": "lecture-phonologie",
+   "longtail": "méthode syllabique exercices cp",
+   "target": "GAP"
+  },
+  {
+   "base": "lecture syllabique",
+   "segment": "lecture-phonologie",
+   "longtail": "lecture syllabique exercices cp",
+   "target": "GAP"
+  },
+  {
+   "base": "lecture cp",
+   "segment": "lecture-phonologie",
+   "longtail": "lecture cp exercice en ligne",
+   "target": "activity",
+   "id": "atlas-fact-files.key-detail.ri-k-1",
+   "title": "Lecture CP – lire un texte documentaire en ligne",
+   "metaDescription": "Lecture au CP : lire un petit texte documentaire avec Atlas et retrouver les détails clés. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "lecture gs",
+   "segment": "lecture-phonologie",
+   "longtail": "lecture gs exercice en ligne",
+   "target": "activity",
+   "id": "nila-pond.main-idea-net.ri-k-2",
+   "title": "Lecture GS – trouver l'idée principale – en ligne",
+   "metaDescription": "Lecture en GS : découvrir une histoire à l'étang de Nila et trouver l'idée principale. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "lecture de syllabes",
+   "segment": "lecture-phonologie",
+   "longtail": "lecture de syllabes cp à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "mots outils cp",
+   "segment": "lecture-phonologie",
+   "longtail": "mots outils cp exercice en ligne",
+   "target": "activity",
+   "id": "choice-board.read-sight-word.rf-k-3-c",
+   "title": "Mots outils CP – lire les mots fréquents en ligne",
+   "metaDescription": "Les mots outils au CP : reconnaître et lire les mots fréquents pour lire plus vite. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "lecture de phrases",
+   "segment": "lecture-phonologie",
+   "longtail": "lecture de phrases exercice en ligne cp",
+   "target": "GAP",
+   "id": "picture-story.read.rl-k-1",
+   "note": "secondary-on activity:picture-story.read.rl-k-1"
+  },
+  {
+   "base": "premières lectures",
+   "segment": "lecture-phonologie",
+   "longtail": "premières lectures en ligne gs cp",
+   "target": "GAP",
+   "id": "picture-story.read.rl-k-1",
+   "note": "secondary-on activity:picture-story.read.rl-k-1"
+  },
+  {
+   "base": "encodage cp",
+   "segment": "lecture-phonologie",
+   "longtail": "encodage cp mots à trous à imprimer",
+   "target": "landing",
+   "slug": "devine-le-mot-facile-animaux-3363",
+   "currentTitle": "Lettres manquantes CP mots courts – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Encodage CP – mots à trous – Animaux | à imprimer PDF gratuit",
+   "metaDescription": "Encodage au CP : écrire les lettres manquantes des mots d'animaux illustrés. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "dictée de syllabes",
+   "segment": "lecture-phonologie",
+   "longtail": "dictée de syllabes cp à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "fluence cp",
+   "segment": "lecture-phonologie",
+   "longtail": "fluence cp exercice en ligne",
+   "target": "GAP",
+   "id": "choice-board.read-sight-word.rf-k-3-c",
+   "note": "secondary-on activity:choice-board.read-sight-word.rf-k-3-c"
+  },
+  {
+   "base": "fluence lecture",
+   "segment": "lecture-phonologie",
+   "longtail": "fluence lecture exercice en ligne cp",
+   "target": "GAP",
+   "id": "choice-board.read-sight-word.rf-k-3-c",
+   "note": "secondary-on activity:choice-board.read-sight-word.rf-k-3-c"
+  },
+  {
+   "base": "lecture compréhension cp",
+   "segment": "lecture-phonologie",
+   "longtail": "lecture compréhension cp exercice en ligne",
+   "target": "activity",
+   "id": "wake-up-pip.retell-story.rl-k-2",
+   "title": "Lecture compréhension CP – raconter l'histoire en ligne",
+   "metaDescription": "Lecture et compréhension au CP : remettre l'histoire de Pip dans l'ordre pour bien la raconter. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "lecture compréhension ce1",
+   "segment": "lecture-phonologie",
+   "longtail": "lecture compréhension ce1 exercice en ligne",
+   "target": "activity",
+   "id": "linc-fact-chain.connect.ri-k-3",
+   "title": "Lecture compréhension CE1 – relier les faits en ligne",
+   "metaDescription": "Lecture et compréhension au CE1 : relier deux faits d'un texte documentaire avec Linc. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "lecture de consignes",
+   "segment": "lecture-phonologie",
+   "longtail": "lecture de consignes cp à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "comprendre des consignes",
+   "segment": "lecture-phonologie",
+   "longtail": "comprendre des consignes exercices cp",
+   "target": "GAP"
+  },
+  {
+   "base": "inférences ce1",
+   "segment": "lecture-phonologie",
+   "longtail": "inférences ce1 exercice en ligne",
+   "target": "activity",
+   "id": "marlo-magnifier.trait-evidence.rl-1-3",
+   "title": "Inférences CE1 – trouver les indices – exercice en ligne",
+   "metaDescription": "Travailler les inférences au CE1 : s'appuyer sur les indices du texte pour décrire le personnage. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "lecture implicite",
+   "segment": "lecture-phonologie",
+   "longtail": "lecture implicite exercice en ligne ce1",
+   "target": "GAP",
+   "id": "marlo-magnifier.trait-evidence.rl-1-3",
+   "note": "secondary-on activity:marlo-magnifier.trait-evidence.rl-1-3"
+  },
+  {
+   "base": "révision des sons ce1",
+   "segment": "lecture-phonologie",
+   "longtail": "révision des sons ce1 à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "confusion p q b d",
+   "segment": "lecture-phonologie",
+   "longtail": "confusion p q b d exercices à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "apprentissage de la lecture",
+   "segment": "lecture-phonologie",
+   "longtail": "apprentissage de la lecture exercice en ligne",
+   "target": "GAP",
+   "id": "wake-up-pip.retell-story.rl-k-2",
+   "note": "secondary-on activity:wake-up-pip.retell-story.rl-k-2"
+  },
+  {
+   "base": "lecture rapide de syllabes",
+   "segment": "lecture-phonologie",
+   "longtail": "lecture rapide de syllabes cp",
+   "target": "GAP"
+  },
+  {
+   "base": "lecture de phrases simples",
+   "segment": "lecture-phonologie",
+   "longtail": "lecture de phrases simples en ligne cp",
+   "target": "GAP",
+   "id": "otto-picture-book.which-picture.rl-k-7",
+   "note": "secondary-on activity:otto-picture-book.which-picture.rl-k-7"
+  },
+  {
+   "base": "écrire des mots gs",
+   "segment": "lecture-phonologie",
+   "longtail": "écrire des mots gs exercices",
+   "target": "GAP"
+  },
+  {
+   "base": "gammes de lecture ce1",
+   "segment": "lecture-phonologie",
+   "longtail": "gammes de lecture ce1 à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "écriture cp",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "écriture cp fiches à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "écriture cursive",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "générateur de fiches d'écriture cursive",
+   "target": "maker",
+   "key": "writing",
+   "title": "Créer des fiches d'écriture cursive – générateur gratuit",
+   "metaDescription": "Créez vos fiches d'écriture cursive en quelques clics : choisissez les mots et le lignage, puis imprimez. Générateur gratuit, prêt pour la classe."
+  },
+  {
+   "base": "grammaire ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "grammaire ce1 exercices en ligne",
+   "target": "activity",
+   "id": "sentence-clinic.fix-it.l-2-1",
+   "title": "Grammaire CE1 : corriger une phrase – exercice en ligne",
+   "metaDescription": "Grammaire CE1 en ligne : repère l'erreur et corrige la phrase, avec un retour immédiat à chaque réponse. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "grammaire ce2",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "grammaire ce2 exercice en ligne gratuit",
+   "target": "activity",
+   "id": "pronoun.case.l-1-1-d",
+   "title": "Grammaire CE2 : les pronoms – exercice en ligne",
+   "metaDescription": "Grammaire CE2 en ligne : choisis la bonne forme du pronom dans la phrase, avec correction immédiate. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "conjugaison ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "conjugaison ce1 exercice en ligne",
+   "target": "activity",
+   "id": "tense.past-present-future.l-1-1-e",
+   "title": "Conjugaison CE1 : passé, présent, futur – en ligne",
+   "metaDescription": "Conjugaison CE1 : conjugue le verbe au passé, au présent ou au futur, phrase par phrase. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "conjugaison ce2",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "conjugaison ce2 exercice en ligne",
+   "target": "activity",
+   "id": "rusty-yesterday.irregular-past.l-2-1-d",
+   "title": "Conjugaison CE2 : le passé composé – exercice en ligne",
+   "metaDescription": "Conjugaison CE2 en ligne : entraîne-toi sur le passé composé des verbes irréguliers, avec correction immédiate. Gratuit, sans inscription."
+  },
+  {
+   "base": "graphisme à imprimer",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "fiches de graphisme à imprimer gratuit",
+   "target": "maker",
+   "key": "drawing-lines",
+   "title": "Fiches de graphisme à imprimer – générateur gratuit",
+   "metaDescription": "Générez des fiches de graphisme à imprimer : tracés à repasser, lignes et motifs adaptés à la maternelle. Gratuit, en PDF, prêt en un clic."
+  },
+  {
+   "base": "fiche son ou",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "fiche son ou cp à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "fiche de sons cp",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "fiche de sons cp à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "graphisme maternelle",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "graphisme maternelle fiches à imprimer",
+   "target": "GAP",
+   "key": "drawing-lines",
+   "note": "secondary-on maker:drawing-lines"
+  },
+  {
+   "base": "graphisme ps",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "graphisme ps fiches à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "graphisme ms",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "graphisme ms fiches à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "graphisme gs",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "graphisme gs fiches à imprimer gratuit",
+   "target": "GAP",
+   "key": "drawing-lines",
+   "note": "secondary-on maker:drawing-lines"
+  },
+  {
+   "base": "graphisme boucles",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "graphisme les boucles gs à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "graphisme ponts",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "graphisme les ponts ms gs à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "graphisme lignes verticales",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "graphisme lignes verticales ps à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "graphisme spirales",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "graphisme spirales maternelle à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "graphisme vagues",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "graphisme vagues maternelle à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "graphisme créneaux",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "graphisme créneaux gs à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "graphisme petite section",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "graphisme petite section à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "graphisme moyenne section",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "graphisme moyenne section à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "graphisme grande section",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "graphisme grande section à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "répertoire graphique",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "répertoire graphique maternelle à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "apprendre à écrire",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "apprendre à écrire les lettres en ligne",
+   "target": "activity",
+   "id": "snippy.letter-formation.l-k-1-a",
+   "title": "Apprendre à écrire les lettres – exercice en ligne (GS)",
+   "metaDescription": "Apprendre à écrire les lettres avec Snippy : trace chaque lettre à l'écran, avec un geste guidé pas à pas. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "écriture cursive gs",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "écriture cursive gs fiches à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "lettres cursives",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "lettres cursives à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "écrire son prénom",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "écrire son prénom fiche à imprimer",
+   "target": "GAP",
+   "key": "writing",
+   "note": "secondary-on maker:writing"
+  },
+  {
+   "base": "prénom en capitales",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "prénom en capitales à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "écriture ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "fiches d'écriture ce1 à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "copie et dessine",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "copie et dessine cp à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "copie cp",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "copie cp fiches à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "rallye copie",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "rallye copie ce1 à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "dictée cp",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "dictée cp à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "dictée ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "dictée ce1 liste de mots",
+   "target": "GAP"
+  },
+  {
+   "base": "dictée ce2",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "dictée ce2 à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "dictée muette",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "dictée muette à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "dictées muettes cp",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "dictées muettes cp à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "autodictée ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "autodictée ce1 liste à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "dictée préparée ce2",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "dictée préparée ce2 à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "dictées de mots",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "dictées de mots ce1 à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "orthographe ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "orthographe ce1 exercices à imprimer",
+   "target": "landing",
+   "slug": "devine-le-mot-normal-animaux-5498",
+   "currentTitle": "Lettres manquantes CP mots longs – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Orthographe : mots à compléter – Animaux | à imprimer PDF gratuit",
+   "metaDescription": "Orthographe à imprimer : complète les lettres manquantes de mots illustrés, du CP au CE1. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "orthographe ce2",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "orthographe ce2 lettres mélangées à imprimer",
+   "target": "landing",
+   "slug": "lettres-melangees-facile-animaux-14b4",
+   "currentTitle": "Remettre les lettres CP mots courts – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Orthographe : lettres mélangées à remettre en ordre | PDF gratuit",
+   "metaDescription": "Remets les lettres mélangées dans l'ordre pour écrire chaque mot : un entraînement d'orthographe ludique. Fiches gratuites (PDF) avec corrigé."
+  },
+  {
+   "base": "mots invariables ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "mots invariables ce1 liste à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "mots invariables ce2",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "mots invariables ce2 liste à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "m devant mbp",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "m devant m b p exercices ce1",
+   "target": "GAP"
+  },
+  {
+   "base": "homophones grammaticaux",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "homophones grammaticaux ce1 exercices",
+   "target": "GAP"
+  },
+  {
+   "base": "a ou à",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "a ou à exercices à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "et est",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "et ou est exercices ce1",
+   "target": "GAP"
+  },
+  {
+   "base": "ou où",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "ou où exercices à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "on ont",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "on ou ont exercices ce1",
+   "target": "GAP"
+  },
+  {
+   "base": "son sont",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "son ou sont exercices ce1",
+   "target": "GAP"
+  },
+  {
+   "base": "singulier pluriel ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "singulier pluriel ce1 exercice en ligne",
+   "target": "activity",
+   "id": "daisy-plate-stack.plurals.l-k-1-c",
+   "title": "Singulier et pluriel – exercice en ligne (CE1)",
+   "metaDescription": "Singulier ou pluriel ? Forme le pluriel des noms avec Marguerite la cane, correction immédiate à chaque réponse. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "pluriel des noms",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "le pluriel des noms exercice en ligne",
+   "target": "GAP",
+   "id": "daisy-plate-stack.plurals.l-k-1-c",
+   "note": "secondary-on activity:daisy-plate-stack.plurals.l-k-1-c"
+  },
+  {
+   "base": "masculin féminin ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "masculin féminin ce1 exercices",
+   "target": "GAP"
+  },
+  {
+   "base": "genre du nom",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "genre du nom exercices ce1",
+   "target": "GAP"
+  },
+  {
+   "base": "nature des mots",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "nature des mots adjectif ou adverbe",
+   "target": "activity",
+   "id": "wordclass.adjective-adverb.l-2-1-e",
+   "title": "Nature des mots : adjectif ou adverbe – en ligne (CE2)",
+   "metaDescription": "Identifie la nature des mots : adjectif ou adverbe dans la phrase, avec correction immédiate. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "verbe nom adjectif",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "verbe nom adjectif exercices ce1",
+   "target": "GAP"
+  },
+  {
+   "base": "la phrase ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "la phrase ce1 exercice en ligne",
+   "target": "activity",
+   "id": "sentence-builder.build-a-sentence.l-1-1-j",
+   "title": "La phrase CE1 : remettre les mots dans l'ordre – en ligne",
+   "metaDescription": "La phrase au CE1 : remets les mots dans l'ordre pour construire une phrase correcte, étape par étape. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "ponctuation ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "ponctuation ce1 exercice en ligne",
+   "target": "activity",
+   "id": "pim-comma-mail.letter-commas.l-2-2-b",
+   "title": "Ponctuation : placer la virgule – exercice en ligne",
+   "metaDescription": "Ponctuation au CE1 : place la virgule au bon endroit dans la lettre, avec correction immédiate. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "majuscule et point",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "majuscule et point exercices cp",
+   "target": "GAP"
+  },
+  {
+   "base": "présent ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "le présent ce1 exercice en ligne",
+   "target": "GAP",
+   "id": "tense.past-present-future.l-1-1-e",
+   "note": "secondary-on activity:tense.past-present-future.l-1-1-e"
+  },
+  {
+   "base": "futur ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "le futur ce1 exercice en ligne",
+   "target": "GAP",
+   "id": "tense.past-present-future.l-1-1-e",
+   "note": "secondary-on activity:tense.past-present-future.l-1-1-e"
+  },
+  {
+   "base": "passé composé ce2",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "passé composé ce2 exercice en ligne",
+   "target": "GAP",
+   "id": "rusty-yesterday.irregular-past.l-2-1-d",
+   "note": "secondary-on activity:rusty-yesterday.irregular-past.l-2-1-d"
+  },
+  {
+   "base": "être et avoir",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "être et avoir au présent ce1 exercices",
+   "target": "GAP"
+  },
+  {
+   "base": "vocabulaire ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "vocabulaire ce1 fiches à imprimer",
+   "target": "landing",
+   "slug": "appariement-noms-animaux-d9fd",
+   "currentTitle": "Lire le mot CP – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Vocabulaire en images – fiches d'association | PDF gratuit",
+   "metaDescription": "Enrichir le vocabulaire avec des fiches d'association en images : relier chaque paire au bon mot. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "les contraires ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "les contraires ce1 exercice en ligne",
+   "target": "activity",
+   "id": "opposites.antonyms.k-l-5-b",
+   "title": "Les contraires – exercice en ligne (CP)",
+   "metaDescription": "Trouve le contraire de chaque mot au marché-miroir de Quill ; parfait du CP à la révision au CE1. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "synonymes ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "synonymes ce1 exercices à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "familles de mots",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "familles de mots exercice en ligne",
+   "target": "activity",
+   "id": "sage-root-garden.roots.l-2-4-c",
+   "title": "Les familles de mots : le radical – exercice en ligne",
+   "metaDescription": "Les familles de mots au CE1 : retrouve le radical et regroupe les mots de la même famille. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "ordre alphabétique ce1",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "ordre alphabétique ce1 exercices à imprimer",
+   "target": "landing",
+   "slug": "train-de-l-alphabet-indice-de-lettre-animaux-01da",
+   "currentTitle": "Ordre alphabétique en images pour la maternelle – Animaux | PDF gratuit",
+   "title": "Ordre alphabétique – lettres manquantes | à imprimer PDF gratuit",
+   "metaDescription": "Complète les lettres manquantes du train de l'alphabet pour mémoriser l'ordre alphabétique. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "écrire son prénom maternelle",
+   "segment": "ecriture-orthographe-grammaire",
+   "longtail": "écrire son prénom maternelle fiche personnalisée",
+   "target": "GAP",
+   "key": "writing",
+   "note": "secondary-on maker:writing"
+  },
+  {
+   "base": "objets cachés",
+   "segment": "logique-observation-jeux",
+   "longtail": "objets cachés à imprimer maternelle",
+   "target": "landing",
+   "slug": "trouve-les-objets-trouve-l-intrus-autour-de-la-maison-879a",
+   "currentTitle": "Trouve les différences – Autour de la maison | fiches à imprimer PDF gratuit",
+   "title": "Objets cachés maternelle – La maison | à imprimer PDF gratuit",
+   "metaDescription": "Objets cachés à imprimer pour la maternelle : observe la scène de la maison et retrouve chaque objet. Fiches gratuites (PDF) avec corrigé."
+  },
+  {
+   "base": "mots mêlés",
+   "segment": "logique-observation-jeux",
+   "longtail": "mots mêlés en images pour enfants",
+   "target": "landing",
+   "slug": "mots-meles-animaux-3654",
+   "currentTitle": "Mots mêlés CP – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Mots mêlés en images – Animaux | à imprimer PDF gratuit",
+   "metaDescription": "Mots mêlés en images pour enfants : retrouve les noms des animaux dans la grille. Fiches gratuites à imprimer (PDF) avec corrigé, dès le CP."
+  },
+  {
+   "base": "mots mêlés cp",
+   "segment": "logique-observation-jeux",
+   "longtail": "mots mêlés cp à imprimer",
+   "target": "landing",
+   "slug": "mots-meles-salle-de-classe-b196",
+   "currentTitle": "Mots mêlés CP – Salle de classe | fiches à imprimer PDF gratuit",
+   "title": "Mots mêlés CP – L'école | à imprimer PDF gratuit",
+   "metaDescription": "Mots mêlés CP à imprimer sur le thème de l'école : cherche les mots dans la grille et travaille la lecture en jouant. Gratuit (PDF) avec corrigé."
+  },
+  {
+   "base": "mots mêlés ce1",
+   "segment": "logique-observation-jeux",
+   "longtail": "mots mêlés ce1 à imprimer gratuit",
+   "target": "landing",
+   "slug": "mots-meles-creatures-de-la-foret-9840",
+   "currentTitle": "Mots mêlés CP – Créatures de la forêt | fiches à imprimer PDF gratuit",
+   "title": "Mots mêlés CE1 – Animaux de la forêt | à imprimer PDF gratuit",
+   "metaDescription": "Mots mêlés CE1 à imprimer : des grilles en images sur les animaux de la forêt pour réviser la lecture en s'amusant. Gratuit (PDF) avec corrigé."
+  },
+  {
+   "base": "mots cachés",
+   "segment": "logique-observation-jeux",
+   "longtail": "mots cachés à imprimer pour enfants",
+   "target": "landing",
+   "slug": "mots-meles-vie-oceanique-7d44",
+   "currentTitle": "Mots mêlés CP – Vie océanique | fiches à imprimer PDF gratuit",
+   "title": "Mots cachés pour enfants – Animaux marins | à imprimer PDF",
+   "metaDescription": "Mots cachés à imprimer pour enfants : retrouve les animaux marins cachés dans la grille. Fiches gratuites (PDF) avec corrigé, dès le CP."
+  },
+  {
+   "base": "mots croisés cp",
+   "segment": "logique-observation-jeux",
+   "longtail": "mots croisés cp à imprimer",
+   "target": "landing",
+   "slug": "mots-croises-animaux-2bc4",
+   "currentTitle": "Mots croisés CP – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Mots croisés CP en images – Animaux | à imprimer PDF gratuit",
+   "metaDescription": "Mots croisés CP à imprimer : chaque image donne le mot à écrire dans la grille. Lecture et orthographe en jouant. Gratuit (PDF) avec corrigé."
+  },
+  {
+   "base": "jeu de l'intrus",
+   "segment": "logique-observation-jeux",
+   "longtail": "jeu de l'intrus à imprimer",
+   "target": "landing",
+   "slug": "l-intrus-meme-theme-animaux",
+   "currentTitle": "L'intrus – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Jeu de l'intrus – Animaux | à imprimer PDF gratuit",
+   "metaDescription": "Jeu de l'intrus à imprimer : entoure l'image qui ne va pas avec les autres. Observation et logique dès la maternelle. Gratuit (PDF) avec corrigé."
+  },
+  {
+   "base": "trouver l'intrus",
+   "segment": "logique-observation-jeux",
+   "longtail": "trouver l'intrus gs à imprimer",
+   "target": "landing",
+   "slug": "l-intrus-meme-theme-fruits-86b7",
+   "currentTitle": "L'intrus – Fruits | fiches à imprimer PDF gratuit",
+   "title": "Trouver l'intrus GS – Fruits | fiches à imprimer PDF gratuit",
+   "metaDescription": "Trouver l'intrus en GS : observe les fruits et barre celui qui n'appartient pas à la série. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "jeux de logique",
+   "segment": "logique-observation-jeux",
+   "longtail": "jeux de logique cp à imprimer",
+   "target": "landing",
+   "slug": "puzzle-mathematique-addition-animaux-ed4b",
+   "currentTitle": "Calcul mystère CP – Animaux | à imprimer PDF gratuit",
+   "title": "Jeux de logique CP – énigmes en images – Animaux | PDF gratuit",
+   "metaDescription": "Jeux de logique CP à imprimer : de petites énigmes mathématiques en images où chaque animal cache une valeur. Gratuit (PDF) avec corrigé."
+  },
+  {
+   "base": "discrimination visuelle",
+   "segment": "logique-observation-jeux",
+   "longtail": "discrimination visuelle fiches maternelle",
+   "target": "landing",
+   "slug": "apparier-les-ombres-associe-l-ombre-animaux",
+   "currentTitle": "Les ombres – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Discrimination visuelle – jeu des ombres – Animaux | PDF gratuit",
+   "metaDescription": "Fiches de discrimination visuelle pour la maternelle : associe chaque animal à son ombre. Gratuit, à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "discrimination visuelle gs",
+   "segment": "logique-observation-jeux",
+   "longtail": "discrimination visuelle gs exercices",
+   "target": "landing",
+   "slug": "appariement-en-grille-jouets-f751",
+   "currentTitle": "Associer les images – Jouets | fiches à imprimer PDF gratuit",
+   "title": "Discrimination visuelle GS – quadrillage – Jouets | PDF gratuit",
+   "metaDescription": "Exercices de discrimination visuelle en GS : retrouve chaque jouet à sa place sur le quadrillage. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "jeu de l'intrus maternelle",
+   "segment": "logique-observation-jeux",
+   "longtail": "jeu de l'intrus maternelle à imprimer",
+   "target": "landing",
+   "slug": "l-intrus-meme-theme-vehicules-3ac4",
+   "currentTitle": "L'intrus – Véhicules | fiches à imprimer PDF gratuit",
+   "title": "Jeu de l'intrus maternelle – Véhicules | à imprimer PDF gratuit",
+   "metaDescription": "Jeu de l'intrus en maternelle : trouve le véhicule qui ne va pas avec les autres. Observation et catégorisation. Gratuit (PDF) avec corrigé."
+  },
+  {
+   "base": "tangram à imprimer",
+   "segment": "logique-observation-jeux",
+   "longtail": "tangram à imprimer maternelle",
+   "target": "GAP"
+  },
+  {
+   "base": "mots mêlés à imprimer",
+   "segment": "logique-observation-jeux",
+   "longtail": "mots mêlés à imprimer avec images",
+   "target": "landing",
+   "slug": "mots-meles-fruits-0d8a",
+   "currentTitle": "Mots mêlés CP – Fruits | fiches à imprimer PDF gratuit",
+   "title": "Mots mêlés à imprimer avec images – Fruits | PDF gratuit",
+   "metaDescription": "Mots mêlés à imprimer avec images : chaque fruit illustré donne un mot à retrouver dans la grille. Gratuit (PDF) avec corrigé, dès le CP."
+  },
+  {
+   "base": "coloriage magique",
+   "segment": "logique-observation-jeux",
+   "longtail": "coloriage magique à imprimer maternelle",
+   "target": "GAP"
+  },
+  {
+   "base": "coloriage magique soustraction",
+   "segment": "logique-observation-jeux",
+   "longtail": "coloriage magique soustraction cp",
+   "target": "GAP"
+  },
+  {
+   "base": "coloriage magique lecture",
+   "segment": "logique-observation-jeux",
+   "longtail": "coloriage magique lecture cp",
+   "target": "GAP"
+  },
+  {
+   "base": "jeux à imprimer 3 ans",
+   "segment": "logique-observation-jeux",
+   "longtail": "jeux à imprimer 3 ans gratuit",
+   "target": "landing",
+   "slug": "appariement-lettre-animaux-d80c",
+   "currentTitle": "Le son initial – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Jeux à imprimer 3 ans – relier les paires – Animaux | PDF",
+   "metaDescription": "Jeux à imprimer pour les 3 ans : relier chaque animal à sa paire, un premier jeu d'observation pour la petite section. Gratuit (PDF) avec corrigé."
+  },
+  {
+   "base": "jeux à imprimer maternelle",
+   "segment": "logique-observation-jeux",
+   "longtail": "jeux à imprimer maternelle gratuit pdf",
+   "target": "landing",
+   "slug": "loto-animaux-de-la-ferme-e42b",
+   "currentTitle": "Loto des images – Animaux de la ferme | fiches à imprimer PDF gratuit",
+   "title": "Jeux à imprimer maternelle – loto de la ferme | PDF gratuit",
+   "metaDescription": "Jeux à imprimer pour la maternelle : cartes de loto des animaux de la ferme, à jouer en classe ou à la maison. Gratuit à imprimer (PDF)."
+  },
+  {
+   "base": "jeu d'attention à imprimer",
+   "segment": "logique-observation-jeux",
+   "longtail": "jeu d'attention à imprimer maternelle",
+   "target": "landing",
+   "slug": "trouve-les-objets-je-vois-je-vois-jouets-6c8c",
+   "currentTitle": "Cherche et trouve – Jouets | fiches à imprimer PDF gratuit",
+   "title": "Jeu d'attention maternelle – cherche et trouve – Jouets | PDF",
+   "metaDescription": "Jeu d'attention à imprimer pour la maternelle : observe la scène et retrouve les jouets cachés. Fiches gratuites (PDF) avec corrigé."
+  },
+  {
+   "base": "sudoku enfant",
+   "segment": "logique-observation-jeux",
+   "longtail": "sudoku enfant avec des images",
+   "target": "landing",
+   "slug": "sudoku-illustre-facile-animaux-9534",
+   "currentTitle": "Sudoku des images facile – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Sudoku enfant avec images – Animaux | à imprimer PDF gratuit",
+   "metaDescription": "Sudoku enfant avec des images d'animaux : des grilles 4x4 faciles pour débuter la logique dès la maternelle. Gratuit (PDF) avec corrigé."
+  },
+  {
+   "base": "sudoku maternelle",
+   "segment": "logique-observation-jeux",
+   "longtail": "sudoku maternelle à imprimer gratuit",
+   "target": "landing",
+   "slug": "sudoku-illustre-facile-formes-314a",
+   "currentTitle": "Sudoku des images facile – Formes | fiches à imprimer PDF gratuit",
+   "title": "Sudoku maternelle – Formes | à imprimer PDF gratuit",
+   "metaDescription": "Sudoku maternelle à imprimer : complète la grille 4x4 avec les formes, sans doublon par ligne. Logique en douceur. Gratuit (PDF) avec corrigé."
+  },
+  {
+   "base": "sudoku facile enfant",
+   "segment": "logique-observation-jeux",
+   "longtail": "sudoku facile enfant 4x4",
+   "target": "landing",
+   "slug": "sudoku-illustre-facile-fruits-6f2a",
+   "currentTitle": "Sudoku des images facile – Fruits | fiches à imprimer PDF gratuit",
+   "title": "Sudoku facile enfant 4x4 – Fruits | à imprimer PDF gratuit",
+   "metaDescription": "Sudoku facile pour enfant : des grilles 4x4 avec des fruits, parfaites pour une première découverte du sudoku. Gratuit (PDF) avec corrigé."
+  },
+  {
+   "base": "sudoku gs",
+   "segment": "logique-observation-jeux",
+   "longtail": "sudoku gs à imprimer",
+   "target": "landing",
+   "slug": "sudoku-illustre-facile-vehicules-fc61",
+   "currentTitle": "Sudoku des images facile – Véhicules | fiches à imprimer PDF gratuit",
+   "title": "Sudoku GS – Véhicules | à imprimer PDF gratuit",
+   "metaDescription": "Sudoku GS à imprimer : place chaque véhicule une seule fois par ligne et par colonne. Logique en grande section. Gratuit (PDF) avec corrigé."
+  },
+  {
+   "base": "labyrinthe enfant",
+   "segment": "logique-observation-jeux",
+   "longtail": "labyrinthe enfant à imprimer gratuit",
+   "target": "landing",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-animaux-1077",
+   "currentTitle": "Labyrinthe choisis le bon chemin – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Labyrinthe enfant – Animaux | à imprimer PDF gratuit",
+   "metaDescription": "Labyrinthe enfant à imprimer : suis le bon chemin d'images pour traverser la grille. Repérage et logique dès la maternelle. Gratuit (PDF) avec corrigé."
+  },
+  {
+   "base": "labyrinthe maternelle",
+   "segment": "logique-observation-jeux",
+   "longtail": "labyrinthe maternelle animaux de la ferme",
+   "target": "landing",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-animaux-de-la-ferme-5521",
+   "currentTitle": "Labyrinthe choisis le bon chemin – Animaux de la ferme | fiches à imprimer PDF gratuit",
+   "title": "Labyrinthe maternelle – Animaux de la ferme | PDF gratuit",
+   "metaDescription": "Labyrinthe en maternelle : trace le chemin des animaux de la ferme dans la grille d'images. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "labyrinthe facile",
+   "segment": "logique-observation-jeux",
+   "longtail": "labyrinthe facile à imprimer",
+   "target": "landing",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-fruits-39e9",
+   "currentTitle": "Labyrinthe choisis le bon chemin – Fruits | fiches à imprimer PDF gratuit",
+   "title": "Labyrinthe facile – Fruits | à imprimer PDF gratuit",
+   "metaDescription": "Labyrinthe facile à imprimer : suis les fruits pour trouver la sortie, un premier jeu de repérage pour les petits. Gratuit (PDF) avec corrigé."
+  },
+  {
+   "base": "jeu de labyrinthe",
+   "segment": "logique-observation-jeux",
+   "longtail": "jeu de labyrinthe à imprimer",
+   "target": "landing",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-vie-oceanique-93e1",
+   "currentTitle": "Labyrinthe choisis le bon chemin – Vie océanique | fiches à imprimer PDF gratuit",
+   "title": "Jeu de labyrinthe – Animaux marins | à imprimer PDF gratuit",
+   "metaDescription": "Jeu de labyrinthe à imprimer : traverse la grille en suivant le bon chemin d'animaux marins. Gratuit (PDF) avec corrigé, dès la maternelle."
+  },
+  {
+   "base": "jeu des différences",
+   "segment": "logique-observation-jeux",
+   "longtail": "jeu des différences à imprimer maternelle",
+   "target": "landing",
+   "slug": "pieces-manquantes-1-piece-manquante-animaux",
+   "currentTitle": "Pièce manquante une pièce manque – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Jeu des différences – quelle pièce manque ? – Animaux | PDF",
+   "metaDescription": "Jeu des différences à imprimer : compare l'image et retrouve la pièce qui manque. Observation fine dès la maternelle. Gratuit (PDF) avec corrigé."
+  },
+  {
+   "base": "jeu des erreurs",
+   "segment": "logique-observation-jeux",
+   "longtail": "jeu des erreurs à imprimer maternelle",
+   "target": "landing",
+   "slug": "l-intrus-meme-theme-vetements-c08b",
+   "currentTitle": "L'intrus – Vêtements | fiches à imprimer PDF gratuit",
+   "title": "Jeu des erreurs – trouve ce qui ne va pas – Vêtements | PDF",
+   "metaDescription": "Jeu des erreurs à imprimer : repère le vêtement qui ne va pas avec les autres dans chaque série. Gratuit (PDF) avec corrigé, dès la maternelle."
+  },
+  {
+   "base": "cherche et trouve",
+   "segment": "logique-observation-jeux",
+   "longtail": "cherche et trouve animaux à imprimer",
+   "target": "landing",
+   "slug": "trouve-les-objets-je-vois-je-vois-animaux-c7d6",
+   "currentTitle": "Cherche et trouve – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Cherche et trouve – Animaux | à imprimer PDF gratuit",
+   "metaDescription": "Cherche et trouve à imprimer : observe la grande scène et retrouve tous les animaux demandés. Fiches gratuites (PDF) avec corrigé, dès 3 ans."
+  },
+  {
+   "base": "jeu d'observation",
+   "segment": "logique-observation-jeux",
+   "longtail": "jeu d'observation maternelle à imprimer",
+   "target": "landing",
+   "slug": "trouve-et-compte-cherche-les-lettres-animaux-de-la-ferme-a814",
+   "currentTitle": "Trouve la lettre – Animaux de la ferme | fiches à imprimer PDF gratuit",
+   "title": "Jeu d'observation – cherche et compte – La ferme | PDF gratuit",
+   "metaDescription": "Jeu d'observation pour la maternelle : cherche les animaux de la ferme, compte-les et note le total. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "mots mêlés enfants",
+   "segment": "logique-observation-jeux",
+   "longtail": "mots mêlés enfants animaux du zoo",
+   "target": "landing",
+   "slug": "mots-meles-animaux-du-zoo-91b0",
+   "currentTitle": "Mots mêlés CP – Animaux du zoo | fiches à imprimer PDF gratuit",
+   "title": "Mots mêlés enfants – Animaux du zoo | à imprimer PDF gratuit",
+   "metaDescription": "Mots mêlés pour enfants sur les animaux du zoo : retrouve chaque mot illustré dans la grille. Gratuit (PDF) avec corrigé, dès le CP."
+  },
+  {
+   "base": "mots croisés enfants",
+   "segment": "logique-observation-jeux",
+   "longtail": "mots croisés enfants en images",
+   "target": "landing",
+   "slug": "mots-croises-fruits-de0a",
+   "currentTitle": "Mots croisés CP – Fruits | fiches à imprimer PDF gratuit",
+   "title": "Mots croisés enfants en images – Fruits | à imprimer PDF",
+   "metaDescription": "Mots croisés pour enfants en images : écris le nom de chaque fruit dans la grille. Lecture et orthographe dès le CP. Gratuit (PDF) avec corrigé."
+  },
+  {
+   "base": "mots fléchés enfants",
+   "segment": "logique-observation-jeux",
+   "longtail": "mots fléchés enfants à imprimer",
+   "target": "landing",
+   "slug": "mots-croises-animaux-du-zoo-72fb",
+   "currentTitle": "Mots croisés CP – Animaux du zoo | fiches à imprimer PDF gratuit",
+   "title": "Mots fléchés enfants – Animaux du zoo | à imprimer PDF gratuit",
+   "metaDescription": "Mots fléchés pour enfants : les images d'animaux du zoo guident les mots à placer dans la grille. Gratuit (PDF) avec corrigé, dès le CP."
+  },
+  {
+   "base": "mots fléchés ce1",
+   "segment": "logique-observation-jeux",
+   "longtail": "mots fléchés ce1 à imprimer",
+   "target": "landing",
+   "slug": "mots-croises-vie-oceanique-8d75",
+   "currentTitle": "Mots croisés CP – Vie océanique | fiches à imprimer PDF gratuit",
+   "title": "Mots fléchés CE1 en images – Animaux marins | PDF gratuit",
+   "metaDescription": "Mots fléchés CE1 à imprimer : des grilles en images sur les animaux marins pour réviser l'orthographe en jouant. Gratuit (PDF) avec corrigé."
+  },
+  {
+   "base": "dessin magique",
+   "segment": "logique-observation-jeux",
+   "longtail": "dessin magique à imprimer maternelle",
+   "target": "GAP"
+  },
+  {
+   "base": "points à relier",
+   "segment": "logique-observation-jeux",
+   "longtail": "points à relier à imprimer maternelle",
+   "target": "GAP"
+  },
+  {
+   "base": "point par point",
+   "segment": "logique-observation-jeux",
+   "longtail": "point par point à imprimer enfant",
+   "target": "GAP"
+  },
+  {
+   "base": "relier les points",
+   "segment": "logique-observation-jeux",
+   "longtail": "relier les points de 1 à 10 à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "jeu de memory",
+   "segment": "logique-observation-jeux",
+   "longtail": "jeu de memory à imprimer maternelle",
+   "target": "landing",
+   "slug": "appariement-lettre-couleurs-b580",
+   "currentTitle": "Le son initial – Couleurs | fiches à imprimer PDF gratuit",
+   "title": "Jeu de memory des paires – Couleurs | à imprimer PDF gratuit",
+   "metaDescription": "Jeu de memory à imprimer en version fiche : retrouve et relie les paires de couleurs. Observation et mémoire en maternelle. Gratuit (PDF) avec corrigé."
+  },
+  {
+   "base": "memory maternelle",
+   "segment": "logique-observation-jeux",
+   "longtail": "memory maternelle à imprimer gratuit",
+   "target": "landing",
+   "slug": "appariement-lettre-animaux-de-la-ferme-028b",
+   "currentTitle": "Le son initial – Animaux de la ferme | fiches à imprimer PDF gratuit",
+   "title": "Memory maternelle – jeu des paires – La ferme | PDF gratuit",
+   "metaDescription": "Memory pour la maternelle en version fiche : associe chaque animal de la ferme à sa paire. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "jeu des ombres",
+   "segment": "logique-observation-jeux",
+   "longtail": "jeu des ombres animaux du zoo",
+   "target": "landing",
+   "slug": "apparier-les-ombres-associe-l-ombre-animaux-du-zoo-098b",
+   "currentTitle": "Les ombres – Animaux du zoo | fiches à imprimer PDF gratuit",
+   "title": "Jeu des ombres – Animaux du zoo | à imprimer PDF gratuit",
+   "metaDescription": "Jeu des ombres : associe chaque animal du zoo à sa silhouette. Discrimination visuelle en maternelle. Fiches gratuites (PDF) avec corrigé."
+  },
+  {
+   "base": "puzzle maternelle",
+   "segment": "logique-observation-jeux",
+   "longtail": "puzzle maternelle à imprimer",
+   "target": "landing",
+   "slug": "pieces-manquantes-1-piece-manquante-jouets-906e",
+   "currentTitle": "Pièce manquante une pièce manque – Jouets | fiches à imprimer PDF gratuit",
+   "title": "Puzzle maternelle – retrouve la pièce manquante – Jouets | PDF",
+   "metaDescription": "Puzzle à imprimer pour la maternelle : observe l'image des jouets et retrouve la pièce qui manque. Gratuit (PDF) avec corrigé, dès 3 ans."
+  },
+  {
+   "base": "tangram maternelle",
+   "segment": "logique-observation-jeux",
+   "longtail": "tangram maternelle à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "tangram cp",
+   "segment": "logique-observation-jeux",
+   "longtail": "tangram cp modèles à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "pixel art",
+   "segment": "logique-observation-jeux",
+   "longtail": "pixel art sur quadrillage à imprimer",
+   "target": "GAP",
+   "key": "draw-and-color",
+   "note": "secondary-on maker:draw-and-color"
+  },
+  {
+   "base": "pixel art ce1",
+   "segment": "logique-observation-jeux",
+   "longtail": "pixel art ce1 quadrillage à imprimer",
+   "target": "GAP",
+   "key": "draw-and-color",
+   "note": "secondary-on maker:draw-and-color"
+  },
+  {
+   "base": "repérage sur quadrillage",
+   "segment": "logique-observation-jeux",
+   "longtail": "repérage sur quadrillage maternelle",
+   "target": "GAP",
+   "note": "no-free-slug landing:grid-match/animals/maternelle"
+  },
+  {
+   "base": "énigmes pour enfants",
+   "segment": "logique-observation-jeux",
+   "longtail": "énigmes pour enfants à imprimer",
+   "target": "landing",
+   "slug": "puzzle-mathematique-addition-dinosaures-71a2",
+   "currentTitle": "Calcul mystère CP – Dinosaures | à imprimer PDF gratuit",
+   "title": "Énigmes pour enfants – maths en images – Dinosaures | PDF",
+   "metaDescription": "Énigmes pour enfants à imprimer : chaque dinosaure cache un nombre, à toi de trouver les valeurs. Logique et calcul dès le CP. Gratuit (PDF) avec corrigé."
+  },
+  {
+   "base": "casse-tête enfant",
+   "segment": "logique-observation-jeux",
+   "longtail": "casse-tête enfant à imprimer gratuit",
+   "target": "landing",
+   "slug": "sudoku-illustre-facile-dinosaures-7b6d",
+   "currentTitle": "Sudoku des images facile – Dinosaures | fiches à imprimer PDF gratuit",
+   "title": "Casse-tête enfant – sudoku d'images – Dinosaures | PDF gratuit",
+   "metaDescription": "Casse-tête pour enfant : des sudokus d'images 4x4 avec des dinosaures pour muscler la logique en s'amusant. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "coloriage magique noël",
+   "segment": "logique-observation-jeux",
+   "longtail": "coloriage magique noël à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "vivant non vivant",
+   "segment": "questionner-le-monde",
+   "longtail": "vivant non vivant ce1 à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "les animaux de la ferme",
+   "segment": "questionner-le-monde",
+   "longtail": "les animaux de la ferme jeu d'association",
+   "target": "GAP",
+   "note": "no-free-slug landing:matching/farm_animals/maternelle"
+  },
+  {
+   "base": "animaux de la ferme maternelle",
+   "segment": "questionner-le-monde",
+   "longtail": "compter les animaux de la ferme maternelle",
+   "target": "GAP",
+   "note": "no-free-slug landing:find-and-count/farm_animals/maternelle"
+  },
+  {
+   "base": "animaux de la savane",
+   "segment": "questionner-le-monde",
+   "longtail": "animaux de la savane jeu des ombres",
+   "target": "landing",
+   "slug": "apparier-les-ombres-complete-animaux-du-zoo-8cd7",
+   "currentTitle": "Compléter l'image – Animaux du zoo | fiches à imprimer PDF gratuit",
+   "title": "Animaux de la savane – jeu des ombres | maternelle à imprimer PDF",
+   "metaDescription": "Lion, girafe, zèbre : retrouver l'ombre de chaque animal de la savane et du zoo. Fiches maternelle gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "fruits et légumes maternelle",
+   "segment": "questionner-le-monde",
+   "longtail": "fruits et légumes maternelle jeu d'association",
+   "target": "landing",
+   "slug": "appariement-lettre-fruits-1634",
+   "currentTitle": "Le son initial – Fruits | fiches à imprimer PDF gratuit",
+   "title": "Les fruits en maternelle – jeu d'association | à imprimer PDF gratuit",
+   "metaDescription": "Fruits et légumes en maternelle : ici, associer les fruits en images et relier les paires. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "se repérer dans l'espace",
+   "segment": "questionner-le-monde",
+   "longtail": "se repérer dans l'espace exercice en ligne",
+   "target": "activity",
+   "id": "parking-tower.place-by-relation.k-g-a-1",
+   "title": "Se repérer dans l'espace – exercice en ligne (GS)",
+   "metaDescription": "Au-dessus, en dessous, à côté, entre : l'enfant place chaque objet au bon endroit pour se repérer dans l'espace. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "fiche maternelle à imprimer",
+   "segment": "questionner-le-monde",
+   "longtail": "fiche insectes maternelle à imprimer",
+   "target": "landing",
+   "slug": "trouve-les-objets-je-vois-je-vois-insectes-et-bestioles-7279",
+   "currentTitle": "Cherche et trouve – Insectes et bestioles | fiches à imprimer PDF gratuit",
+   "title": "Fiche insectes maternelle – cherche et trouve | à imprimer PDF gratuit",
+   "metaDescription": "Fiches maternelle à imprimer sur les insectes et petites bêtes : cherche et trouve en images. Gratuit (PDF) avec corrigé, prêt pour la classe."
+  },
+  {
+   "base": "fruits et légumes de saison",
+   "segment": "questionner-le-monde",
+   "longtail": "fruits et légumes de saison maternelle",
+   "target": "GAP"
+  },
+  {
+   "base": "questionner le monde",
+   "segment": "questionner-le-monde",
+   "longtail": "questionner le monde fiches à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "qlm cp",
+   "segment": "questionner-le-monde",
+   "longtail": "qlm cp fiches à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "qlm ce1",
+   "segment": "questionner-le-monde",
+   "longtail": "qlm ce1 traces écrites",
+   "target": "GAP"
+  },
+  {
+   "base": "découverte du monde",
+   "segment": "questionner-le-monde",
+   "longtail": "découverte du monde maternelle fiches",
+   "target": "GAP"
+  },
+  {
+   "base": "le calendrier cp",
+   "segment": "questionner-le-monde",
+   "longtail": "le calendrier et l'heure au cp",
+   "target": "landing",
+   "slug": "lire-l-heure-cp",
+   "currentTitle": "Lire l'heure CP – heures et demi-heures | fiches à imprimer (PDF gratuit)",
+   "title": "Se repérer dans le temps au CP – lire l'heure | à imprimer PDF gratuit",
+   "metaDescription": "Après le calendrier, la lecture de l'heure : des exercices pour se repérer dans le temps au CP. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "hier aujourd'hui demain",
+   "segment": "questionner-le-monde",
+   "longtail": "hier aujourd'hui demain cp à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "frise chronologique cp",
+   "segment": "questionner-le-monde",
+   "longtail": "frise chronologique cp à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "la météo maternelle",
+   "segment": "questionner-le-monde",
+   "longtail": "la météo maternelle fiches à imprimer",
+   "target": "landing",
+   "slug": "appariement-lettre-meteo-1357",
+   "currentTitle": "Le son initial – Météo | fiches à imprimer PDF gratuit",
+   "title": "La météo en maternelle – fiches d'association | à imprimer PDF gratuit",
+   "metaDescription": "Soleil, pluie, nuages : associer le vocabulaire de la météo en images. Fiches maternelle gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "météo cp",
+   "segment": "questionner-le-monde",
+   "longtail": "météo cp mots mêlés à imprimer",
+   "target": "landing",
+   "slug": "mots-meles-meteo-54a5",
+   "currentTitle": "Mots mêlés CP – Météo | fiches à imprimer PDF gratuit",
+   "title": "Mots mêlés de la météo – CP | à imprimer PDF gratuit",
+   "metaDescription": "Retrouver les mots de la météo dans la grille : mots mêlés illustrés pour le CP. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "classification des animaux",
+   "segment": "questionner-le-monde",
+   "longtail": "classification des animaux maternelle",
+   "target": "landing",
+   "slug": "l-intrus-multi-themes-animaux-755b",
+   "currentTitle": "L'intrus – Animaux (2) | fiches à imprimer PDF gratuit",
+   "title": "Classer les animaux – trouver l'intrus | maternelle à imprimer PDF",
+   "metaDescription": "Premiers pas de classification des animaux : trouver l'intrus qui n'appartient pas au groupe. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "ovipare vivipare ce2",
+   "segment": "questionner-le-monde",
+   "longtail": "ovipare vivipare ce2 exercices",
+   "target": "GAP"
+  },
+  {
+   "base": "le squelette cp",
+   "segment": "questionner-le-monde",
+   "longtail": "le squelette cp fiche à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "l'équilibre alimentaire ce1",
+   "segment": "questionner-le-monde",
+   "longtail": "l'équilibre alimentaire ce1 exercices",
+   "target": "GAP"
+  },
+  {
+   "base": "les familles d'aliments",
+   "segment": "questionner-le-monde",
+   "longtail": "les familles d'aliments en maternelle",
+   "target": "GAP",
+   "note": "no-free-slug landing:odd-one-out/fruits/maternelle"
+  },
+  {
+   "base": "la germination ce1",
+   "segment": "questionner-le-monde",
+   "longtail": "la germination ce1 séquence",
+   "target": "GAP"
+  },
+  {
+   "base": "germination du haricot",
+   "segment": "questionner-le-monde",
+   "longtail": "germination du haricot fiche à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "les végétaux ce1",
+   "segment": "questionner-le-monde",
+   "longtail": "les végétaux ce1 exercices",
+   "target": "GAP"
+  },
+  {
+   "base": "quadrillage maternelle",
+   "segment": "questionner-le-monde",
+   "longtail": "quadrillage maternelle exercices à imprimer",
+   "target": "GAP",
+   "note": "no-free-slug landing:grid-match/animals/maternelle"
+  },
+  {
+   "base": "déplacement sur quadrillage",
+   "segment": "questionner-le-monde",
+   "longtail": "déplacement sur quadrillage à imprimer",
+   "target": "landing",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-animaux",
+   "currentTitle": "Chasse au trésor avec flèches – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Déplacement sur quadrillage – chasse au trésor | à imprimer PDF gratuit",
+   "metaDescription": "Suivre les directions et se déplacer sur le quadrillage jusqu'au trésor. Fiches maternelle gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "le planisphère ce2",
+   "segment": "questionner-le-monde",
+   "longtail": "le planisphère ce2 fiche",
+   "target": "GAP"
+  },
+  {
+   "base": "la france ce2",
+   "segment": "questionner-le-monde",
+   "longtail": "la france ce2 fiches à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "les métiers maternelle",
+   "segment": "questionner-le-monde",
+   "longtail": "les métiers maternelle jeu d'association",
+   "target": "landing",
+   "slug": "appariement-lettre-metiers-ced2",
+   "currentTitle": "Le son initial – Métiers | fiches à imprimer PDF gratuit",
+   "title": "Les métiers en maternelle – jeu d'association | à imprimer PDF gratuit",
+   "metaDescription": "Découvrir les métiers en images et associer les paires : pompier, docteur, boulanger… Fiches maternelle gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "le recyclage cp",
+   "segment": "questionner-le-monde",
+   "longtail": "le recyclage cp fiche à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "l'électricité ce1",
+   "segment": "questionner-le-monde",
+   "longtail": "l'électricité ce1 évaluation",
+   "target": "GAP"
+  },
+  {
+   "base": "les aimants ce1",
+   "segment": "questionner-le-monde",
+   "longtail": "les aimants ce1 séquence",
+   "target": "GAP"
+  },
+  {
+   "base": "exercices noël maternelle",
+   "segment": "saisonnier-fetes",
+   "longtail": "exercices noël maternelle à imprimer",
+   "target": "landing",
+   "slug": "trouve-et-compte-objets-caches-noel-1bba",
+   "currentTitle": "Cherche et compte – Noël | fiches à imprimer PDF gratuit",
+   "title": "Exercices de Noël maternelle – cherche et compte | PDF gratuit",
+   "metaDescription": "Exercices de Noël pour la maternelle : cherche, compte et écris le bon nombre d'images. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "exercices automne maternelle",
+   "segment": "saisonnier-fetes",
+   "longtail": "exercices automne maternelle à imprimer",
+   "target": "landing",
+   "slug": "trouve-les-objets-je-vois-je-vois-action-de-grace-6bf1",
+   "currentTitle": "Cherche et trouve – Action de grâce | fiches à imprimer PDF gratuit",
+   "title": "Exercices d'automne maternelle – cherche et trouve | PDF gratuit",
+   "metaDescription": "Exercices d'automne pour la maternelle sur le thème des récoltes : cherche et trouve les images. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "exercices hiver maternelle",
+   "segment": "saisonnier-fetes",
+   "longtail": "exercices hiver maternelle à imprimer",
+   "target": "landing",
+   "slug": "apparier-les-ombres-associe-l-ombre-hiver-5ee1",
+   "currentTitle": "Les ombres – Hiver | fiches à imprimer PDF gratuit",
+   "title": "Exercices d'hiver maternelle – jeu des ombres | PDF gratuit",
+   "metaDescription": "Exercices d'hiver pour la maternelle : associe chaque image d'hiver à son ombre. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "exercices printemps maternelle",
+   "segment": "saisonnier-fetes",
+   "longtail": "exercices printemps maternelle à imprimer",
+   "target": "landing",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-printemps-2a88",
+   "currentTitle": "Labyrinthe choisis le bon chemin – Printemps | fiches à imprimer PDF gratuit",
+   "title": "Exercices de printemps maternelle – labyrinthe d'images | PDF gratuit",
+   "metaDescription": "Exercices de printemps pour la maternelle : suis le bon chemin dans le labyrinthe d'images. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "exercices halloween maternelle",
+   "segment": "saisonnier-fetes",
+   "longtail": "exercices halloween maternelle à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "graphisme noël maternelle",
+   "segment": "saisonnier-fetes",
+   "longtail": "graphisme noël maternelle à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "coloriage noël gs",
+   "segment": "saisonnier-fetes",
+   "longtail": "coloriage noël gs à imprimer gratuit",
+   "target": "maker",
+   "key": "coloring",
+   "title": "Coloriage de Noël GS – générateur de coloriages gratuit",
+   "metaDescription": "Créez des coloriages de Noël pour la grande section avec le générateur gratuit : choisissez vos images et imprimez en PDF. Sans inscription."
+  },
+  {
+   "base": "printemps gs",
+   "segment": "saisonnier-fetes",
+   "longtail": "exercices printemps gs à imprimer",
+   "target": "landing",
+   "slug": "appariement-lettre-printemps-1c02",
+   "currentTitle": "Le son initial – Printemps | fiches à imprimer PDF gratuit",
+   "title": "Printemps GS – fiches d'association à imprimer | PDF gratuit",
+   "metaDescription": "Exercices de printemps pour la GS : relie les paires d'images du printemps. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "loto des vacances",
+   "segment": "saisonnier-fetes",
+   "longtail": "loto des vacances à imprimer maternelle",
+   "target": "landing",
+   "slug": "loto-ete-e1cc",
+   "currentTitle": "Loto des images – Été | fiches à imprimer PDF gratuit",
+   "title": "Loto des vacances maternelle – cartes à imprimer | PDF gratuit",
+   "metaDescription": "Loto des vacances sur le thème de l'été : cartes de loto d'images pour la maternelle. Gratuit à imprimer (PDF), en classe ou à la maison."
+  },
+  {
+   "base": "halloween petite section",
+   "segment": "saisonnier-fetes",
+   "longtail": "halloween petite section à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "étiquettes prénom maternelle",
+   "segment": "saisonnier-fetes",
+   "longtail": "étiquettes prénom maternelle à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "coloriage cœur",
+   "segment": "saisonnier-fetes",
+   "longtail": "coloriage cœur à imprimer gratuit",
+   "target": "GAP"
+  },
+  {
+   "base": "bonhomme de neige maternelle",
+   "segment": "saisonnier-fetes",
+   "longtail": "bonhomme de neige maternelle à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "cahier de vacances ms",
+   "segment": "saisonnier-fetes",
+   "longtail": "cahier de vacances ms à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "cahier de vacances gs",
+   "segment": "saisonnier-fetes",
+   "longtail": "cahier de vacances gs à imprimer gratuit",
+   "target": "GAP"
+  },
+  {
+   "base": "cahier de vacances ps",
+   "segment": "saisonnier-fetes",
+   "longtail": "cahier de vacances ps à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "coloriage œuf de pâques",
+   "segment": "saisonnier-fetes",
+   "longtail": "coloriage œuf de pâques à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "coloriage lapin de pâques",
+   "segment": "saisonnier-fetes",
+   "longtail": "coloriage lapin de pâques à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "coloriage galette des rois",
+   "segment": "saisonnier-fetes",
+   "longtail": "coloriage galette des rois à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "coloriage bonne fête maman",
+   "segment": "saisonnier-fetes",
+   "longtail": "coloriage bonne fête maman à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "100 jours d'école cp",
+   "segment": "saisonnier-fetes",
+   "longtail": "100 jours d'école cp à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "graphisme galette des rois",
+   "segment": "saisonnier-fetes",
+   "longtail": "graphisme galette des rois maternelle",
+   "target": "GAP"
+  },
+  {
+   "base": "fiches noël maternelle",
+   "segment": "saisonnier-fetes",
+   "longtail": "fiches noël maternelle gs à imprimer",
+   "target": "landing",
+   "slug": "sudoku-illustre-facile-noel-e1fa",
+   "currentTitle": "Sudoku des images facile – Noël | fiches à imprimer PDF gratuit",
+   "title": "Fiches de Noël maternelle GS – sudoku d'images | PDF gratuit",
+   "metaDescription": "Fiches de Noël pour la maternelle (GS) : sudokus d'images 4x4 sur le thème de Noël. Gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "fiches automne maternelle",
+   "segment": "saisonnier-fetes",
+   "longtail": "fiches automne maternelle à imprimer pdf",
+   "target": "landing",
+   "slug": "parcours-illustre-choisis-le-bon-chemin-action-de-grace-15aa",
+   "currentTitle": "Labyrinthe choisis le bon chemin – Action de grâce | fiches à imprimer PDF gratuit",
+   "title": "Fiches d'automne maternelle – labyrinthe des récoltes | PDF gratuit",
+   "metaDescription": "Fiches d'automne pour la maternelle : labyrinthes d'images sur le thème des récoltes. Gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "fiches printemps maternelle",
+   "segment": "saisonnier-fetes",
+   "longtail": "fiches printemps maternelle ps ms à imprimer",
+   "target": "landing",
+   "slug": "train-de-modeles-printemps-ec99",
+   "currentTitle": "Algorithme AB – Printemps | fiches à imprimer PDF gratuit",
+   "title": "Fiches de printemps maternelle – suites à continuer | PDF gratuit",
+   "metaDescription": "Fiches de printemps pour la maternelle (PS-MS) : continue la suite d'images du printemps. Gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "fiches pédagogiques",
+   "segment": "registre-enseignant",
+   "longtail": "créer des fiches pédagogiques maternelle",
+   "target": "maker",
+   "key": "matching",
+   "title": "Créer des fiches pédagogiques maternelle – générateur gratuit",
+   "metaDescription": "Créez vos fiches pédagogiques pour la maternelle : associer des paires d'images en quelques clics. Générateur gratuit, PDF à imprimer avec corrigé."
+  },
+  {
+   "base": "loto à imprimer",
+   "segment": "registre-enseignant",
+   "longtail": "créer un loto à imprimer",
+   "target": "maker",
+   "key": "bingo",
+   "title": "Créer un loto à imprimer – générateur de cartes gratuit",
+   "metaDescription": "Créez votre loto à imprimer en quelques clics : cartes de loto d'images au thème de votre choix. Générateur gratuit, PDF prêt pour la classe."
+  },
+  {
+   "base": "fiches d'autonomie cp",
+   "segment": "registre-enseignant",
+   "longtail": "fiches d'autonomie cp à imprimer",
+   "target": "landing",
+   "slug": "addition-codee-animaux-9114",
+   "currentTitle": "Additions codées CP – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Fiches d'autonomie CP – additions codées – Animaux | PDF",
+   "metaDescription": "Des fiches d'autonomie pour le CP : additions codées à décoder seul, sur le thème des animaux. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "ateliers autonomes maternelle",
+   "segment": "registre-enseignant",
+   "longtail": "ateliers autonomes maternelle à imprimer",
+   "target": "landing",
+   "slug": "train-de-modeles-formes-ce6a",
+   "currentTitle": "Algorithme AB – Formes | fiches à imprimer PDF gratuit",
+   "title": "Ateliers autonomes maternelle – suites logiques de formes | PDF",
+   "metaDescription": "Des ateliers autonomes pour la maternelle : suites logiques de formes à observer et continuer. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "ateliers autonomes gs",
+   "segment": "registre-enseignant",
+   "longtail": "atelier autonome gs en ligne",
+   "target": "GAP",
+   "id": "numberbond.make-ten.k-oa-a-4",
+   "note": "secondary-on activity:numberbond.make-ten.k-oa-a-4"
+  },
+  {
+   "base": "évaluation cp",
+   "segment": "registre-enseignant",
+   "longtail": "évaluation cp à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "évaluation ce1",
+   "segment": "registre-enseignant",
+   "longtail": "évaluation ce1 à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "évaluations diagnostiques cp",
+   "segment": "registre-enseignant",
+   "longtail": "évaluations diagnostiques cp à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "remédiation lecture",
+   "segment": "registre-enseignant",
+   "longtail": "créer des fiches de remédiation lecture",
+   "target": "maker",
+   "key": "word-guess",
+   "title": "Créer des fiches de remédiation en lecture – générateur gratuit",
+   "metaDescription": "Créez des fiches de remédiation en lecture : mots illustrés à compléter, lettres manquantes au choix. Générateur gratuit, PDF avec corrigé."
+  },
+  {
+   "base": "différenciation pédagogique",
+   "segment": "registre-enseignant",
+   "longtail": "différenciation pédagogique en maternelle",
+   "target": "GAP"
+  },
+  {
+   "base": "pédagogie différenciée",
+   "segment": "registre-enseignant",
+   "longtail": "pédagogie différenciée au cp",
+   "target": "GAP"
+  },
+  {
+   "base": "sous-main cp",
+   "segment": "registre-enseignant",
+   "longtail": "sous-main cp à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "rituels maternelle",
+   "segment": "registre-enseignant",
+   "longtail": "rituels du matin maternelle",
+   "target": "GAP"
+  },
+  {
+   "base": "rituels cp",
+   "segment": "registre-enseignant",
+   "longtail": "rituels du matin cp",
+   "target": "GAP"
+  },
+  {
+   "base": "travail en autonomie",
+   "segment": "registre-enseignant",
+   "longtail": "fiches de travail en autonomie maternelle",
+   "target": "landing",
+   "slug": "sudoku-illustre-moyen-animaux-a8ef",
+   "currentTitle": "Sudoku des images moyen – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Travail en autonomie maternelle – sudoku des animaux | PDF",
+   "metaDescription": "Du travail en autonomie pour la maternelle : sudokus d'images des animaux à résoudre seul. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "ief",
+   "segment": "registre-enseignant",
+   "longtail": "ief fiches gratuites à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "instruction en famille",
+   "segment": "registre-enseignant",
+   "longtail": "instruction en famille supports à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "plan de travail ce1",
+   "segment": "registre-enseignant",
+   "longtail": "plan de travail ce1 à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "école à la maison",
+   "segment": "registre-enseignant",
+   "longtail": "fiches école à la maison cp",
+   "target": "landing",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-animaux-b57d",
+   "currentTitle": "Fiches de calcul CP – Animaux (2) | à imprimer PDF gratuit",
+   "title": "Fiches école à la maison – maths CP – Animaux | PDF",
+   "metaDescription": "L'école à la maison en douceur : fiches de maths CP illustrées sur le thème des animaux. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "fiche d'exercices",
+   "segment": "registre-enseignant",
+   "longtail": "créer une fiche d'exercices de maths",
+   "target": "GAP",
+   "key": "math-worksheet",
+   "note": "secondary-on maker:math-worksheet"
+  },
+  {
+   "base": "fiches d'activités",
+   "segment": "registre-enseignant",
+   "longtail": "créer des fiches d'activités maternelle",
+   "target": "maker",
+   "key": "find-objects",
+   "title": "Créer des fiches d'activités – cherche et trouve gratuit",
+   "metaDescription": "Créez des fiches d'activités pour la maternelle : cherche et trouve illustrés au thème de votre choix. Générateur gratuit, PDF avec corrigé."
+  },
+  {
+   "base": "fiches d'autonomie",
+   "segment": "registre-enseignant",
+   "longtail": "fiches d'autonomie maternelle à imprimer",
+   "target": "GAP",
+   "note": "no-free-slug landing:picture-path/animals/maternelle"
+  },
+  {
+   "base": "exercices de remédiation",
+   "segment": "registre-enseignant",
+   "longtail": "exercices de remédiation à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "dominos à imprimer",
+   "segment": "registre-enseignant",
+   "longtail": "dominos à imprimer maternelle",
+   "target": "GAP"
+  },
+  {
+   "base": "évaluation rentrée cp",
+   "segment": "registre-enseignant",
+   "longtail": "évaluation rentrée cp à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "maternelle",
+   "segment": "modificateurs-formats",
+   "longtail": "sudoku des animaux maternelle",
+   "target": "GAP",
+   "note": "no-free-slug landing:sudoku/animals/maternelle"
+  },
+  {
+   "base": "petite section",
+   "segment": "modificateurs-formats",
+   "longtail": "jeu des ombres petite section animaux",
+   "target": "landing",
+   "slug": "apparier-les-ombres-complete-animaux-5312",
+   "currentTitle": "Compléter l'image – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Jeu des ombres – petite section – Animaux | PDF gratuit",
+   "metaDescription": "Jeu des ombres pour la petite section : associer chaque animal à son ombre. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "ps",
+   "segment": "modificateurs-formats",
+   "longtail": "fiche formes ps à imprimer",
+   "target": "GAP",
+   "note": "no-free-slug landing:geometry/none/maternelle"
+  },
+  {
+   "base": "moyenne section",
+   "segment": "modificateurs-formats",
+   "longtail": "bingo des couleurs moyenne section",
+   "target": "landing",
+   "slug": "loto-couleurs-443a",
+   "currentTitle": "Loto des images – Couleurs | fiches à imprimer PDF gratuit",
+   "title": "Bingo des couleurs – moyenne section | à imprimer PDF gratuit",
+   "metaDescription": "Bingo des couleurs pour la moyenne section : cartes de loto illustrées à jouer en classe ou à la maison. Gratuit à imprimer (PDF)."
+  },
+  {
+   "base": "ms",
+   "segment": "modificateurs-formats",
+   "longtail": "repérage sur quadrillage ms",
+   "target": "landing",
+   "slug": "appariement-en-grille-vehicules-b03b",
+   "currentTitle": "Associer les images – Véhicules | fiches à imprimer PDF gratuit",
+   "title": "Repérage sur quadrillage – MS – Véhicules | PDF gratuit",
+   "metaDescription": "Repérage sur quadrillage en MS avec les véhicules : retrouver la bonne case. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "grande section",
+   "segment": "modificateurs-formats",
+   "longtail": "algorithmes grande section à imprimer",
+   "target": "landing",
+   "slug": "train-de-modeles-aab-formes-c308",
+   "currentTitle": "Algorithme AAB – Formes | fiches à imprimer PDF gratuit",
+   "title": "Algorithmes grande section – Formes | à imprimer PDF gratuit",
+   "metaDescription": "Algorithmes en grande section : continuer la suite de formes du train logique. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "gs",
+   "segment": "modificateurs-formats",
+   "longtail": "jeu de l'intrus gs à imprimer",
+   "target": "GAP",
+   "note": "no-free-slug landing:odd-one-out/fruits/maternelle"
+  },
+  {
+   "base": "cp",
+   "segment": "modificateurs-formats",
+   "longtail": "mots mêlés cp à imprimer",
+   "target": "GAP",
+   "note": "dup-longtail"
+  },
+  {
+   "base": "ce1",
+   "segment": "modificateurs-formats",
+   "longtail": "fiches de calcul ce1 à imprimer",
+   "target": "GAP",
+   "note": "no-free-slug landing:math-worksheet/animals/ce1"
+  },
+  {
+   "base": "ce2",
+   "segment": "modificateurs-formats",
+   "longtail": "exercices de mesure ce2 à imprimer",
+   "target": "landing",
+   "slug": "temperature-volume-ce2-chaud-froid",
+   "currentTitle": "Température et volume CE2 – chaud, froid, tours de cubes | fiches à imprimer (PDF gratuit)",
+   "title": "Exercices de mesure CE2 – longueurs | à imprimer PDF gratuit",
+   "metaDescription": "Exercices de mesure pour le CE2 : mesurer des longueurs avec la règle graduée. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "cycle 2",
+   "segment": "modificateurs-formats",
+   "longtail": "exercices de maths cycle 2 à imprimer",
+   "target": "landing",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-jouets-6352",
+   "currentTitle": "Fiches de calcul CP – Jouets | à imprimer PDF gratuit",
+   "title": "Exercices de maths cycle 2 – Jouets | à imprimer PDF gratuit",
+   "metaDescription": "Exercices de maths pour le cycle 2 : calculs illustrés par des jouets, du CP au CE1. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "primaire",
+   "segment": "modificateurs-formats",
+   "longtail": "mots croisés primaire à imprimer",
+   "target": "GAP",
+   "note": "no-free-slug landing:crossword/animals/cp"
+  },
+  {
+   "base": "3 ans",
+   "segment": "modificateurs-formats",
+   "longtail": "jeu des paires à imprimer 3 ans",
+   "target": "landing",
+   "slug": "appariement-lettre-jouets-693e",
+   "currentTitle": "Le son initial – Jouets | fiches à imprimer PDF gratuit",
+   "title": "Jeu des paires 3 ans – Jouets | à imprimer PDF gratuit",
+   "metaDescription": "Jeu des paires pour les enfants de 3 ans : relier les jouets identiques. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "4 ans",
+   "segment": "modificateurs-formats",
+   "longtail": "jeux à imprimer 4 ans animaux",
+   "target": "GAP",
+   "note": "no-free-slug landing:picture-path/animals/maternelle"
+  },
+  {
+   "base": "5 ans",
+   "segment": "modificateurs-formats",
+   "longtail": "trouver la pièce manquante 5 ans",
+   "target": "landing",
+   "slug": "pieces-manquantes-2-pieces-manquantes-jouets-d7af",
+   "currentTitle": "Pièce manquante deux pièces manquent – Jouets | fiches à imprimer PDF gratuit",
+   "title": "Pièce manquante 5 ans – Jouets | à imprimer PDF gratuit",
+   "metaDescription": "Trouver la pièce manquante à 5 ans : observer chaque jouet et compléter l'image. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "6 ans",
+   "segment": "modificateurs-formats",
+   "longtail": "mots à compléter 6 ans",
+   "target": "landing",
+   "slug": "devine-le-mot-animaux",
+   "currentTitle": "Lettres manquantes CP – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Mots à compléter 6 ans – Animaux | à imprimer PDF gratuit",
+   "metaDescription": "Mots à compléter pour les 6 ans : retrouver les lettres manquantes des animaux. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "fiche",
+   "segment": "modificateurs-formats",
+   "longtail": "fiche d'addition cp à imprimer",
+   "target": "landing",
+   "slug": "addition-image-image-animaux-de-la-ferme-08f5",
+   "currentTitle": "Fiches d'addition CP sans retenue avec images – Animaux de la ferme | à imprimer PDF gratuit",
+   "title": "Fiche d'addition CP – La ferme | à imprimer PDF gratuit",
+   "metaDescription": "Fiches d'addition CP avec les animaux de la ferme : compter et calculer en images. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "fiches",
+   "segment": "modificateurs-formats",
+   "longtail": "fiches de soustraction cp à imprimer",
+   "target": "landing",
+   "slug": "soustraction-barrer-fruits-3ff9",
+   "currentTitle": "Fiches de soustraction CP sans retenue à barrer – Fruits | à imprimer PDF gratuit",
+   "title": "Fiches de soustraction CP – Fruits | à imprimer PDF gratuit",
+   "metaDescription": "Fiches de soustraction CP illustrées de fruits : barrer, compter et calculer en images. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "exercice",
+   "segment": "modificateurs-formats",
+   "longtail": "exercice d'orthographe cp à imprimer",
+   "target": "landing",
+   "slug": "lettres-melangees-normal-animaux-31f5",
+   "currentTitle": "Remettre les lettres CP mots longs – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Exercices d'orthographe CP – Animaux | à imprimer PDF gratuit",
+   "metaDescription": "Exercice d'orthographe CP : remettre les lettres mélangées dans l'ordre pour écrire chaque animal. Gratuit (PDF) avec corrigé."
+  },
+  {
+   "base": "exercices",
+   "segment": "modificateurs-formats",
+   "longtail": "exercices sur les prépositions cp",
+   "target": "landing",
+   "slug": "prepositions-a-completer-salle-de-classe-f5e7",
+   "currentTitle": "Les positions CP à compléter – Salle de classe | fiches à imprimer PDF gratuit",
+   "title": "Exercices prépositions CP – La classe | à imprimer PDF gratuit",
+   "metaDescription": "Exercices sur les prépositions au CP : sur, sous, devant, derrière dans la classe. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "fiche de lecture",
+   "segment": "modificateurs-formats",
+   "longtail": "fiche de lecture cp à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "à imprimer",
+   "segment": "modificateurs-formats",
+   "longtail": "bingo de noël à imprimer",
+   "target": "landing",
+   "slug": "loto-noel-486b",
+   "currentTitle": "Loto des images – Noël | fiches à imprimer PDF gratuit",
+   "title": "Bingo de Noël – maternelle | à imprimer PDF gratuit",
+   "metaDescription": "Bingo de Noël à imprimer pour la maternelle : cartes de loto illustrées pour jouer en classe pendant les fêtes. Gratuit (PDF)."
+  },
+  {
+   "base": "activités",
+   "segment": "modificateurs-formats",
+   "longtail": "activités hiver maternelle à imprimer",
+   "target": "landing",
+   "slug": "trouve-les-objets-je-vois-je-vois-hiver-8958",
+   "currentTitle": "Cherche et trouve – Hiver | fiches à imprimer PDF gratuit",
+   "title": "Activités d'hiver maternelle – cherche et trouve | PDF gratuit",
+   "metaDescription": "Activités d'hiver pour la maternelle : chercher et trouver les objets dans la scène. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "jeux",
+   "segment": "modificateurs-formats",
+   "longtail": "jeux de pâques à imprimer maternelle",
+   "target": "landing",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-paques-fafe",
+   "currentTitle": "Chasse au trésor avec flèches – Pâques | fiches à imprimer PDF gratuit",
+   "title": "Jeux de Pâques maternelle – chasse au trésor | PDF gratuit",
+   "metaDescription": "Jeux de Pâques pour la maternelle : une chasse au trésor sur quadrillage. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "jeux éducatifs",
+   "segment": "modificateurs-formats",
+   "longtail": "jeux éducatifs maternelle à imprimer",
+   "target": "landing",
+   "slug": "trouve-et-compte-objets-caches-animaux-du-zoo-28eb",
+   "currentTitle": "Cherche et compte – Animaux du zoo | fiches à imprimer PDF gratuit",
+   "title": "Jeux éducatifs maternelle – Animaux du zoo | PDF gratuit",
+   "metaDescription": "Jeux éducatifs pour la maternelle : chercher et compter les animaux du zoo. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "fichier",
+   "segment": "modificateurs-formats",
+   "longtail": "créer un fichier de maths cp",
+   "target": "GAP",
+   "key": "math-worksheet",
+   "note": "secondary-on maker:math-worksheet"
+  },
+  {
+   "base": "coloriage",
+   "segment": "modificateurs-formats",
+   "longtail": "coloriage magique cp à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "évaluation",
+   "segment": "modificateurs-formats",
+   "longtail": "évaluation maths cp à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "leçon",
+   "segment": "modificateurs-formats",
+   "longtail": "leçon sur l'addition cp",
+   "target": "GAP"
+  },
+  {
+   "base": "révision",
+   "segment": "modificateurs-formats",
+   "longtail": "révision maths ce1 à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "gratuit",
+   "segment": "modificateurs-formats",
+   "longtail": "exercices alphabet maternelle gratuit",
+   "target": "GAP",
+   "note": "no-free-slug landing:alphabet-train/animals/maternelle"
+  },
+  {
+   "base": "gratuits",
+   "segment": "modificateurs-formats",
+   "longtail": "jeux de calcul gratuits ce1",
+   "target": "GAP",
+   "note": "no-free-slug landing:math-puzzle/pets/ce1"
+  },
+  {
+   "base": "gratuite",
+   "segment": "modificateurs-formats",
+   "longtail": "fiche de numération gratuite maternelle",
+   "target": "GAP",
+   "note": "no-free-slug landing:number-charts/none/maternelle"
+  },
+  {
+   "base": "gratuites",
+   "segment": "modificateurs-formats",
+   "longtail": "fiches gratuites pour lire l'heure cp",
+   "target": "GAP",
+   "note": "no-free-slug landing:telling-time/none/cp"
+  },
+  {
+   "base": "gratuitement",
+   "segment": "modificateurs-formats",
+   "longtail": "jeux enfants à imprimer gratuitement",
+   "target": "GAP",
+   "note": "no-free-slug landing:big-small/animals/maternelle"
+  },
+  {
+   "base": "pdf",
+   "segment": "modificateurs-formats",
+   "longtail": "mots croisés de noël pdf",
+   "target": "landing",
+   "slug": "mots-croises-noel-2eb5",
+   "currentTitle": "Mots croisés CP – Noël | fiches à imprimer PDF gratuit",
+   "title": "Mots croisés de Noël – CP | à imprimer PDF gratuit",
+   "metaDescription": "Mots croisés de Noël en PDF pour le CP : écrire les mots des fêtes à partir des images. Gratuit à imprimer avec corrigé."
+  },
+  {
+   "base": "en ligne",
+   "segment": "modificateurs-formats",
+   "longtail": "exercices d'addition en ligne cp",
+   "target": "activity",
+   "id": "numberbond.find-the-total.1-oa-a-1",
+   "title": "Additions en ligne CP – trouve le total (jusqu'à 20)",
+   "metaDescription": "Exercices d'addition en ligne pour le CP : trouver le total jusqu'à 20 avec l'arbre des nombres. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "avec correction",
+   "segment": "modificateurs-formats",
+   "longtail": "exercices de calcul cp avec correction",
+   "target": "landing",
+   "slug": "addition-image-image-jouets-a2ae",
+   "currentTitle": "Fiches d'addition CP sans retenue avec images – Jouets | à imprimer PDF gratuit",
+   "title": "Exercices de calcul CP avec correction – Jouets | PDF gratuit",
+   "metaDescription": "Exercices de calcul CP avec correction : des additions illustrées de jouets. Fiches gratuites à imprimer (PDF), corrigé inclus."
+  },
+  {
+   "base": "corrigé",
+   "segment": "modificateurs-formats",
+   "longtail": "fiches fractions ce1 avec corrigé",
+   "target": "landing",
+   "slug": "fractions-parts-egales-ce1",
+   "currentTitle": "Fractions CE1 – parts égales, moitiés, quarts | fiches à imprimer (PDF gratuit)",
+   "title": "Fractions CE1 – fiches avec corrigé | à imprimer PDF gratuit",
+   "metaDescription": "Fiches de fractions CE1 avec corrigé : reconnaître les moitiés, les tiers et les quarts en images. Gratuit à imprimer (PDF)."
+  },
+  {
+   "base": "à télécharger",
+   "segment": "modificateurs-formats",
+   "longtail": "fiches animaux marins à télécharger",
+   "target": "landing",
+   "slug": "appariement-lettre-vie-oceanique-f5d3",
+   "currentTitle": "Le son initial – Vie océanique | fiches à imprimer PDF gratuit",
+   "title": "Fiches animaux marins – maternelle | à télécharger PDF gratuit",
+   "metaDescription": "Fiches sur les animaux marins à télécharger : associer les paires en maternelle. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "interactif",
+   "segment": "modificateurs-formats",
+   "longtail": "lire l'heure jeu interactif cp",
+   "target": "GAP",
+   "id": "clock.set-clock.1-md-b-3",
+   "note": "secondary-on activity:clock.set-clock.1-md-b-3"
+  },
+  {
+   "base": "photocopiable",
+   "segment": "modificateurs-formats",
+   "longtail": "fiches photocopiables maths cp",
+   "target": "GAP",
+   "note": "no-free-slug landing:code-addition/animals/cp"
+  },
+  {
+   "base": "exercices cp à imprimer",
+   "segment": "modificateurs-formats",
+   "longtail": "exercices de soustraction cp à imprimer",
+   "target": "landing",
+   "slug": "soustraction-barrer-espace-3e32",
+   "currentTitle": "Fiches de soustraction CP sans retenue à barrer – Espace | à imprimer PDF gratuit",
+   "title": "Exercices de soustraction CP – L'espace | à imprimer PDF gratuit",
+   "metaDescription": "Exercices de soustraction CP sur le thème de l'espace : compter et calculer en images. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "fiche maternelle grande section",
+   "segment": "modificateurs-formats",
+   "longtail": "fiche maternelle grande section les métiers",
+   "target": "landing",
+   "slug": "trouve-et-compte-objets-caches-metiers-1971",
+   "currentTitle": "Cherche et compte – Métiers | fiches à imprimer PDF gratuit",
+   "title": "Fiche grande section – Les métiers – cherche et compte | PDF",
+   "metaDescription": "Fiche maternelle grande section sur les métiers : chercher et compter les personnages. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "ps-ms-gs",
+   "segment": "modificateurs-formats",
+   "longtail": "jeux sur quadrillage ps ms gs",
+   "target": "GAP",
+   "note": "no-free-slug landing:grid-match/toys/maternelle"
+  },
+  {
+   "base": "cycle 1",
+   "segment": "modificateurs-formats",
+   "longtail": "ateliers autonomes cycle 1 à imprimer",
+   "target": "landing",
+   "slug": "plus-ou-moins-image-image-animaux-de-la-ferme-ef3d",
+   "currentTitle": "Comparer les quantités avec images – Animaux de la ferme | fiches à imprimer PDF gratuit",
+   "title": "Ateliers cycle 1 – plus ou moins – La ferme | PDF gratuit",
+   "metaDescription": "Ateliers pour le cycle 1 à imprimer : comparer plus ou moins d'animaux de la ferme. Fiches gratuites (PDF) avec corrigé."
+  },
+  {
+   "base": "4-5 ans",
+   "segment": "modificateurs-formats",
+   "longtail": "jeu de comptage en ligne 4-5 ans",
+   "target": "GAP",
+   "id": "ten-frame.count-to-10.make-n.animals",
+   "note": "secondary-on activity:ten-frame.count-to-10.make-n.animals"
+  },
+  {
+   "base": "6-7 ans",
+   "segment": "modificateurs-formats",
+   "longtail": "jeu de calcul en ligne 6-7 ans",
+   "target": "activity",
+   "id": "numberbond.make-ten-to-add.1-oa-c-6",
+   "title": "Jeu de calcul en ligne 6-7 ans – faire 10 pour additionner",
+   "metaDescription": "Jeu de calcul en ligne pour les 6-7 ans : faire dix pour additionner jusqu'à 20. Gratuit, en ligne, sans inscription."
+  },
+  {
+   "base": "8-9 ans",
+   "segment": "modificateurs-formats",
+   "longtail": "jeux de multiplication 8-9 ans",
+   "target": "GAP",
+   "note": "no-free-slug landing:arrays-multiplication/none/ce2"
+  },
+  {
+   "base": "feuille d'exercices",
+   "segment": "modificateurs-formats",
+   "longtail": "créer une feuille d'exercices d'addition",
+   "target": "maker",
+   "key": "addition",
+   "title": "Créer des feuilles d'exercices d'addition – générateur gratuit",
+   "metaDescription": "Créez vos feuilles d'exercices d'addition en images : thèmes et niveaux au choix, PDF à imprimer avec corrigé. Générateur gratuit."
+  },
+  {
+   "base": "anglais cp",
+   "segment": "fle-anglais-dys",
+   "longtail": "anglais cp exercices à imprimer",
+   "target": "landing",
+   "slug": "anglais-mots-meles-animaux-6561",
+   "title": "Anglais CP – mots mêlés illustrés | à imprimer PDF gratuit",
+   "metaDescription": "Exercices d'anglais au CP : mots mêlés illustrés pour découvrir le vocabulaire anglais des animaux. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "fiches maternelle à imprimer",
+   "segment": "fle-anglais-dys",
+   "longtail": "fiches d'activités maternelle à imprimer gratuit",
+   "target": "GAP",
+   "note": "no-free-slug landing:matching/animals/maternelle"
+  },
+  {
+   "base": "anglais primaire exercices",
+   "segment": "fle-anglais-dys",
+   "longtail": "exercices d'anglais primaire à imprimer",
+   "target": "landing",
+   "slug": "anglais-mots-croises-animaux-a18f",
+   "title": "Exercices d'anglais primaire – mots croisés en images | PDF gratuit",
+   "metaDescription": "Exercices d'anglais pour le primaire : mots croisés en images pour apprendre le vocabulaire anglais. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "dyslexie exercices",
+   "segment": "fle-anglais-dys",
+   "longtail": "exercices dyslexie cp à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "dyscalculie exercices",
+   "segment": "fle-anglais-dys",
+   "longtail": "exercices dyscalculie à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "dyspraxie exercices",
+   "segment": "fle-anglais-dys",
+   "longtail": "exercices dyspraxie enfant à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "exercices concentration enfant",
+   "segment": "fle-anglais-dys",
+   "longtail": "exercices de concentration enfant à imprimer",
+   "target": "landing",
+   "slug": "trouve-les-objets-trouve-l-intrus-animaux-1ff1",
+   "currentTitle": "Trouve les différences – Animaux | fiches à imprimer PDF gratuit",
+   "title": "Exercices de concentration – cherche et trouve | PDF gratuit",
+   "metaDescription": "Exercices de concentration pour enfant : cherche et trouve les animaux dans l'image. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "coloriage magique maths",
+   "segment": "fle-anglais-dys",
+   "longtail": "coloriage magique maths cp à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "français langue étrangère exercices",
+   "segment": "fle-anglais-dys",
+   "longtail": "français langue étrangère exercices à imprimer",
+   "target": "landing",
+   "slug": "anglais-appariement-noms-animaux-aa14",
+   "title": "Exercices de français langue étrangère – vocabulaire en images | PDF",
+   "metaDescription": "Exercices de français langue étrangère : associer chaque image au mot français. Fiches de vocabulaire gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "les jours de la semaine exercices",
+   "segment": "fle-anglais-dys",
+   "longtail": "les jours de la semaine exercices à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "jeux à imprimer 4 ans",
+   "segment": "fle-anglais-dys",
+   "longtail": "jeux à imprimer 4 ans gratuit",
+   "target": "GAP",
+   "note": "no-free-slug landing:shadow-match/animals/maternelle"
+  },
+  {
+   "base": "fiche graphisme ps ms gs",
+   "segment": "fle-anglais-dys",
+   "longtail": "fiche de graphisme ps ms gs à imprimer",
+   "target": "GAP",
+   "key": "drawing-lines",
+   "note": "secondary-on maker:drawing-lines"
+  },
+  {
+   "base": "fle enfants",
+   "segment": "fle-anglais-dys",
+   "longtail": "fle enfants exercices à imprimer",
+   "target": "landing",
+   "slug": "anglais-appariement-noms-fruits-14da",
+   "title": "FLE enfants – vocabulaire en images – Fruits | à imprimer PDF",
+   "metaDescription": "FLE pour enfants : associer chaque fruit à son mot en français. Fiches de vocabulaire illustrées gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "vocabulaire fle",
+   "segment": "fle-anglais-dys",
+   "longtail": "vocabulaire fle à imprimer pdf",
+   "target": "landing",
+   "slug": "anglais-appariement-noms-vetements-e8b2",
+   "title": "Vocabulaire FLE – les vêtements en images | à imprimer PDF gratuit",
+   "metaDescription": "Vocabulaire FLE en images : associer chaque vêtement à son mot français. Fiches gratuites à imprimer (PDF) avec corrigé, idéales en classe."
+  },
+  {
+   "base": "imagier des animaux",
+   "segment": "fle-anglais-dys",
+   "longtail": "imagier des animaux à imprimer gratuit",
+   "target": "GAP",
+   "note": "no-free-slug landing:matching/animals/language-beginner"
+  },
+  {
+   "base": "imagier des émotions",
+   "segment": "fle-anglais-dys",
+   "longtail": "imagier des émotions à imprimer",
+   "target": "landing",
+   "slug": "anglais-appariement-noms-emotions-f4da",
+   "title": "Imagier des émotions – images et mots à associer | PDF gratuit",
+   "metaDescription": "Imagier des émotions à imprimer : associer chaque visage au mot juste pour nommer ce que l'on ressent. Gratuit (PDF) avec corrigé."
+  },
+  {
+   "base": "lexique corps humain",
+   "segment": "fle-anglais-dys",
+   "longtail": "lexique du corps humain à imprimer",
+   "target": "landing",
+   "slug": "anglais-appariement-noms-parties-du-corps-2fc1",
+   "title": "Lexique du corps humain – parties du corps en images | PDF gratuit",
+   "metaDescription": "Lexique du corps humain en images : associer chaque partie du corps à son mot. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "upe2a",
+   "segment": "fle-anglais-dys",
+   "longtail": "upe2a vocabulaire français à imprimer",
+   "target": "landing",
+   "slug": "anglais-appariement-noms-salle-de-classe-9917",
+   "title": "Vocabulaire UPE2A – l'école en images | à imprimer PDF gratuit",
+   "metaDescription": "Ressources UPE2A : vocabulaire français de l'école en images, à associer aux mots. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "élèves allophones",
+   "segment": "fle-anglais-dys",
+   "longtail": "vocabulaire français élèves allophones",
+   "target": "GAP",
+   "note": "no-free-slug landing:matching/classroom/language-beginner"
+  },
+  {
+   "base": "français langue seconde",
+   "segment": "fle-anglais-dys",
+   "longtail": "français langue seconde exercices enfants",
+   "target": "landing",
+   "slug": "anglais-appariement-noms-autour-de-la-maison-c207",
+   "title": "Français langue seconde – vocabulaire de la maison en images",
+   "metaDescription": "Français langue seconde pour enfants : associer les objets de la maison à leur mot. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "fle a1 enfants",
+   "segment": "fle-anglais-dys",
+   "longtail": "fle a1 enfants fiches de vocabulaire",
+   "target": "landing",
+   "slug": "anglais-appariement-noms-legumes-88a9",
+   "title": "FLE A1 enfants – vocabulaire en images – Légumes | PDF gratuit",
+   "metaDescription": "FLE niveau A1 pour enfants : fiches de vocabulaire illustrées, chaque image associée à son mot. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "anglais ce1",
+   "segment": "fle-anglais-dys",
+   "longtail": "anglais ce1 exercices à imprimer",
+   "target": "landing",
+   "slug": "anglais-mots-meles-fruits-5630",
+   "title": "Anglais CE1 – mots mêlés illustrés – Fruits | à imprimer PDF",
+   "metaDescription": "Exercices d'anglais au CE1 : mots mêlés illustrés pour mémoriser le vocabulaire anglais des fruits. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "anglais ce2",
+   "segment": "fle-anglais-dys",
+   "longtail": "anglais ce2 exercices à imprimer gratuit",
+   "target": "landing",
+   "slug": "anglais-mots-croises-vetements-1cfd",
+   "title": "Anglais CE2 – mots croisés en images – Vêtements | PDF gratuit",
+   "metaDescription": "Exercices d'anglais au CE2 : mots croisés en images sur les vêtements pour réviser le vocabulaire. Gratuit à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "vocabulaire anglais enfants",
+   "segment": "fle-anglais-dys",
+   "longtail": "vocabulaire anglais enfants à imprimer",
+   "target": "landing",
+   "slug": "anglais-appariement-noms-jouets-be13",
+   "title": "Vocabulaire anglais enfants – images à associer | PDF gratuit",
+   "metaDescription": "Vocabulaire anglais pour enfants : associer chaque jouet à son mot anglais. Fiches illustrées gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "anglais maternelle",
+   "segment": "fle-anglais-dys",
+   "longtail": "anglais maternelle fiches à imprimer",
+   "target": "landing",
+   "slug": "anglais-appariement-noms-animaux-de-la-ferme-41ab",
+   "title": "Anglais maternelle – animaux de la ferme en images | PDF gratuit",
+   "metaDescription": "Découvrir l'anglais en maternelle : associer les animaux de la ferme à leur mot anglais. Fiches gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "leçon anglais couleurs",
+   "segment": "fle-anglais-dys",
+   "longtail": "leçon anglais les couleurs à imprimer",
+   "target": "landing",
+   "slug": "anglais-appariement-noms-couleurs-77bb",
+   "title": "Les couleurs en anglais – images à associer | à imprimer PDF",
+   "metaDescription": "Leçon d'anglais sur les couleurs : associer chaque couleur à son mot anglais. Fiches illustrées gratuites à imprimer (PDF) avec corrigé."
+  },
+  {
+   "base": "adaptation dys",
+   "segment": "fle-anglais-dys",
+   "longtail": "adaptation dys exercices à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "lecture adaptée dys",
+   "segment": "fle-anglais-dys",
+   "longtail": "lecture adaptée dys à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "motricité fine activités",
+   "segment": "fle-anglais-dys",
+   "longtail": "activités de motricité fine à imprimer",
+   "target": "GAP",
+   "note": "no-free-slug landing:picture-path/animals/maternelle"
+  },
+  {
+   "base": "tdah activités enfant",
+   "segment": "fle-anglais-dys",
+   "longtail": "activités tdah enfant à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "ief ressources",
+   "segment": "fle-anglais-dys",
+   "longtail": "ief ressources gratuites à imprimer",
+   "target": "GAP",
+   "note": "no-free-slug landing:math-worksheet/animals/cp"
+  },
+  {
+   "base": "soutien scolaire gratuit",
+   "segment": "fle-anglais-dys",
+   "longtail": "soutien scolaire gratuit cp à imprimer",
+   "target": "landing",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-divers-b761",
+   "currentTitle": "Fiches de calcul CP – Divers | à imprimer PDF gratuit",
+   "title": "Soutien scolaire gratuit CP – fiches de maths à imprimer | PDF",
+   "metaDescription": "Soutien scolaire gratuit au CP : fiches de calcul variées à imprimer pour s'entraîner à la maison. PDF gratuit avec corrigé inclus."
+  },
+  {
+   "base": "évaluation diagnostique cp",
+   "segment": "fle-anglais-dys",
+   "longtail": "évaluation diagnostique cp à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "pixel art maths",
+   "segment": "fle-anglais-dys",
+   "longtail": "pixel art maths à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "escape game cp",
+   "segment": "fle-anglais-dys",
+   "longtail": "escape game cp à imprimer",
+   "target": "GAP"
+  },
+  {
+   "base": "défi maths",
+   "segment": "fle-anglais-dys",
+   "longtail": "défi maths cp à imprimer",
+   "target": "landing",
+   "slug": "puzzle-mathematique-soustraction-animaux-e863",
+   "currentTitle": "Calcul mystère CP – Animaux (3) | à imprimer PDF gratuit",
+   "title": "Défis maths CP – énigmes en images | à imprimer PDF gratuit",
+   "metaDescription": "Défis maths pour le CP : énigmes en images où chaque dessin cache un nombre. Fiches gratuites à imprimer (PDF) avec corrigé."
+  }
+ ]
+}

@@ -214,12 +214,12 @@
     "page_title": {
       "en": "Rivet's Number Forge — Count and Write the Numeral 0 to 20",
       "de": "Mengen und Zahlen zuordnen – bis 20 online üben",
-      "fr": "La forge à nombres de Rivet : compter et écrire le nombre (CP)"
+      "fr": "Nombre et quantité – compter puis écrire le nombre, en ligne (CP)"
     },
     "page_intro": {
       "en": "Help Rivet the raccoon turn loose treasure into collector cards: count the acorns, buttons, and fireflies and forge the numeral that says how many — the numeral is built from the very things you count. Even an empty pack has a number: zero! A warm Kindergarten counting-and-writing game aligned to Common Core K.CC.A.3.",
       "de": "Mengen und Zahlen zuordnen: Anzahl zählen und die passende Ziffer bis 20 finden – ideal für den Schulstart. Kostenlos online, ohne Anmeldung.",
-      "fr": "Un jeu de maths CP, gratuit et interactif : dans la forge de Rivet le raton laveur, déchire un paquet, le trésor dégringole, compte chaque objet une fois, et la presse FORGE le chiffre à partir de ton comptage — le « 3 » est fabriqué à partir des trois objets. Même un paquet vide a un nombre : zéro ! Remplis la page de l'album pour la dorer. Un jeu tout doux pour compter et écrire les nombres jusqu'à 20 en chiffres."
+      "fr": "Associer nombre et quantité : compter une collection puis écrire le nombre qui correspond. Gratuit, en ligne, sans inscription."
     },
     "kid_prompt_template": "numeral-album"
   }

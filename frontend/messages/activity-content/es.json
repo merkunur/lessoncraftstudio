@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "mosaic-menders.area-match.3-md-c-6": {
+      "about": [
+        "Tessa es mosaiquista y arma sus figuras con cuadritos iguales, como si fueran las piezas de un mosaico. En esta actividad gratuita, ella te muestra un modelo hecho de cierta cantidad de cuadritos y te pide encontrar, entre tres mosaicos, el que está hecho de la misma cantidad de cuadritos. Cada mosaico tiene su propia forma, así que hay que fijarse bien y contar.",
+        "Ojo con la trampa: uno de los mosaicos tiene un contorno más grande, pero eso no significa que tenga más área. Un contorno más grande no siempre está hecho de más cuadritos, y por eso no se puede decidir con la pura vista. La única manera segura es contar los cuadritos de cada figura, uno por uno, sin dejarse llevar por el tamaño.",
+        "Aquí está la idea importante que Tessa quiere compartir: el área es la cantidad de cuadritos que forman una figura, y esa cantidad no cambia aunque la figura tenga otra forma. Dos mosaicos muy distintos pueden tener exactamente la misma área si están hechos con la misma cantidad de cuadritos. Esta actividad está pensada para 3.º de primaria (alrededor de 8 a 9 años), cuando en México se mide el área contando cuadritos —sin fórmulas— dentro del eje Forma, espacio y medida de los Planes y programas de estudio (SEP). Todo esto se juega gratis, en el navegador, sin cronómetro ni puntos, para que cada niño cuente con calma."
+      ],
+      "practices": [
+        "Medir el área de una figura cubriéndola y contando cuántos cuadritos iguales la forman.",
+        "Comparar el área de dos figuras contando los cuadritos de cada una.",
+        "Entender que el área no depende de la forma: misma cantidad de cuadritos significa misma área.",
+        "Superar la idea equivocada de que un contorno más grande siempre tiene más área."
+      ],
+      "howToPlay": [
+        "Mira el modelo de Tessa y cuenta de cuántos cuadritos está hecho.",
+        "Compara los tres mosaicos y cuenta los cuadritos de cada uno, sin dejarte engañar por el tamaño del contorno.",
+        "Toca el mosaico que tiene los mismos cuadritos y, por lo tanto, la misma área."
+      ],
+      "learningGoals": [
+        "El niño entiende el área como la cantidad de cuadritos unidad que cubren una figura.",
+        "Comprende que dos figuras de distinta forma pueden tener la misma área si están hechas con la misma cantidad de cuadritos.",
+        "Aprende a comparar áreas contando los cuadritos en lugar de juzgar por el tamaño aparente de la figura."
+      ]
+    },
     "span-length-gap.how-much-longer.2-md-a-4": {
       "about": [
         "En \"¿Cuánto más largo?\", Span, una oruga medidora muy curiosa, muestra dos barras proporcionales, una encima de la otra. Cada barra tiene una etiqueta con un objeto y su longitud en centímetros, por ejemplo un listón de 8 cm y un hilo de 5 cm. Tu hija o hijo observa las dos barras y lee con calma la longitud de cada una.",

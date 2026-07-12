@@ -173,7 +173,7 @@ const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'marina-headline-desk.main-topic.ri-2-2': { fr: 'Lecture et compréhension de l’écrit' }, // FR CE2: identifier le sujet principal d'un texte documentaire = synthèse de surface sur l'écrit (PAS de l'inférence narrative) → domaine cycle-2 « Lecture et compréhension de l'écrit » (= atlas #57/field-guide #58/author-purpose #61/pearl, la frontière RI-vs-RL); NOT « Comprendre et interpréter » (réservé au RL narratif); "Reading: Informational Text" has no fr in strand-names.ts (would leak EN); en/de fall through
   'linc-fact-chain.connect.ri-k-3': { fr: 'Comprendre et interpréter' }, // FR CE1: relier deux faits par un lien séquentiel/causal = établir une relation / faire une inférence (cause à effet) → « Comprendre et interpréter » (= le précédent chaîne-causale wake-up-pip #49 « comprendre l'enchaînement / la relation de cause à effet »); le strand suit la COMPÉTENCE (inférence-vs-littéral), pas seulement le label RI — NOT « Lecture et compréhension de l'écrit » (le seau RI de récupération littérale); "Reading: Informational Text" has no fr in strand-names.ts; en/de fall through
   'point-of-view.who-told.rl-1-6': { fr: 'Comprendre et interpréter' }, // FR CE1: identifier de quel point de vue une phrase est racontée = interpréter la perspective narrative → « Comprendre et interpréter » (= tous les frères RL d'inférence narrative retell #49/fable #52/trait #56/wake-up-pip); "Reading: Literature" has no fr in strand-names.ts (would leak EN); en/de fall through
-  'graph-it.bar-graph.2-md-d-10': { de: 'Daten und Häufigkeit', fr: 'Organisation et gestion de données' },   // bar graph = data, not Größen / Grandeurs et mesures
+  'graph-it.bar-graph.2-md-d-10': { de: 'Daten und Häufigkeit', fr: 'Organisation et gestion de données', es: 'Análisis de datos' },   // bar graph = data, not Größen / Grandeurs et mesures / Magnitudes y medida (ES: eje Análisis de datos, Aprendizajes clave)
   'line-plot.read.2-md-d-9': { de: 'Daten und Häufigkeit', fr: 'Organisation et gestion de données' },        // line plot of measured lengths = data, not Größen / Grandeurs et mesures
   'hoppers-number-line.jump-sums.2-md-b-6': { de: 'Zahlen und Rechnen im Zehnersystem', fr: 'Nombres et calcul' }, // add/sub on a number line = arithmetic, not Größen / Grandeurs et mesures
   'mosaic-menders.area-match.3-md-c-6': { de: 'Raum und Form' },    // Flächeninhalt = Raum und Form in KMK, not Größen und Messen
@@ -517,7 +517,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.237';
+  const ACTIVITY_WRAPPER_VERSION = '9.238';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

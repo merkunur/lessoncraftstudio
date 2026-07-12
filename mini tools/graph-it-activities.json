@@ -52,12 +52,13 @@
           ] }
       ]
     },
-    "slug": { "en": "pips-stacking-fence", "de": "saeulendiagramm-lesen-und-bauen-klasse-2", "fr": "lire-et-construire-un-diagramme-en-barres-ce1" },
-    "page_title": { "en": "Pip's Stacking Fence — Build & Read a Bar Graph", "de": "Pips Stapelzaun – Säulendiagramm lesen und bauen (Klasse 2)", "fr": "La palissade de Pip — Lire et construire un diagramme en barres (CE1)" },
+    "slug": { "en": "pips-stacking-fence", "de": "saeulendiagramm-lesen-und-bauen-klasse-2", "fr": "lire-et-construire-un-diagramme-en-barres-ce1", "es": "grafica-de-barras-segundo-de-primaria" },
+    "page_title": { "en": "Pip's Stacking Fence — Build & Read a Bar Graph", "de": "Pips Stapelzaun – Säulendiagramm lesen und bauen (Klasse 2)", "fr": "La palissade de Pip — Lire et construire un diagramme en barres (CE1)", "es": "Pip y la gráfica de barras: construir y leer datos (2º de primaria)" },
     "page_intro": {
       "en": "Build a bar graph one unit at a time, then read it: how many more leaves than berries? A no-counting-pressure Grade 2 data activity aligned to Common Core 2.MD.D.10 — draw a bar graph for up to four categories and solve compare, put-together, and take-apart problems from it.",
       "de": "Mit Pip ein Säulendiagramm bauen und lesen: Strichliste übertragen, Säulen vergleichen, Daten auswerten. Mathe Klasse 2 – kostenlos und interaktiv im Browser.",
-      "fr": "Avec Pip, votre enfant lit, construit et compare un diagramme en barres à partir d'un tableau de comptage. Gratuit, interactif, CE1 — Organisation et gestion de données."
+      "fr": "Avec Pip, votre enfant lit, construit et compare un diagramme en barres à partir d'un tableau de comptage. Gratuit, interactif, CE1 — Organisation et gestion de données.",
+      "es": "Construye una gráfica de barras a partir de un conteo y apréndela a leer con Pip: cuántas más, cuántas menos y cuántas en total. Actividad de análisis de datos para 2º de primaria, gratis e interactiva, alineada a los programas de la SEP."
     },
     "kid_prompt_template": "Build Pip's fence, then read how many more!"
   }

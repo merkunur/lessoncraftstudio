@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "graph-it.bar-graph.2-md-d-10": {
+      "about": [
+        "Pip, el amiguito del bosque, salió a recolectar hojas, bayas, bellotas, piñas de pino y hongos, y anotó cada hallazgo en una tabla de conteo. Aquí el niño le ayuda a convertir ese conteo en una gráfica de barras, subiendo cada barra unidad por unidad hasta que coincida con lo que Pip encontró.",
+        "La idea central es que los datos se recopilan, se representan y se interpretan: primero se cuenta, luego se dibuja la gráfica y al final se lee. Con las barras a la vista, el niño compara categorías —cuántas hojas más que bayas—, suma cuántas hay en total y decide si una afirmación es verdadera o falsa, todo sin presión por contar rápido.",
+        "Esta actividad trabaja el eje de análisis de datos (manejo de la información) de los planes y programas de estudio de la SEP, dentro de la Nueva Escuela Mexicana: leer tablas de conteo, pictogramas y gráficas de barras es una de las bases del pensamiento matemático en la primaria baja."
+      ],
+      "practices": [
+        "Construir una gráfica de barras a partir de una tabla de conteo, una unidad a la vez",
+        "Leer y comparar los datos: cuántas más, cuántas menos y cuántas en total",
+        "Corregir una barra mal construida para que coincida con el conteo de Pip",
+        "Relacionar la tabla de conteo con la gráfica correcta y decidir si una afirmación es verdadera o falsa"
+      ],
+      "howToPlay": [
+        "Observa la tabla de conteo de Pip y toca cada barra para subirla, colocando una unidad por cada hallazgo hasta que la gráfica quede completa.",
+        "Cuando la gráfica esté lista, responde las preguntas: cuántas hojas más que bayas, cuántos hongos en total o si la afirmación es verdadera o falsa.",
+        "Si algo no cuadra, usa «Deshacer» para quitar la última unidad y ajustar la barra: aquí se aprende explorando, sin prisas ni marcadores."
+      ],
+      "learningGoals": [
+        "Representar datos organizando la información de un conteo en una gráfica de barras clara",
+        "Interpretar la gráfica para comparar categorías y calcular totales dentro del eje de análisis de datos",
+        "Fortalecer el manejo de la información que proponen los programas de estudio de la SEP, leyendo tablas y gráficas con confianza"
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "Restar 342 − 5 parece sencillo, hasta que descubres que solo hay 2 unidades y necesitas quitar 5. Aquí es donde Tuck, el hámster, aprende a «Desarmar una decena»: convierte una barra de diez en 10 cubitos sueltos para que sí alcancen las unidades.",

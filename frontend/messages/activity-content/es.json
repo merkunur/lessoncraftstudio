@@ -192,6 +192,31 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "seriation.compare-length.1-md-a-1": {
+      "about": [
+        "Los listones de Tilly es una actividad interactiva y gratuita de matemáticas para primer grado de primaria, pensada para que las niñas y los niños de alrededor de 6 y 7 años den sus primeros pasos en la comparación de longitudes. Tilly, la gata de la tienda, esconde listones de colores en estantes que están muy separados, y no se pueden poner uno junto al otro para saber cuál es más largo.",
+        "Aquí entra el cordón: al medir cada listón contra ese cordón, la niña o el niño descubre que puede comparar dos cosas que están lejos usando un tercer objeto como referencia. Esta idea —comparar de forma indirecta— es la base de la medición y prepara el terreno para el uso posterior de la regla y otras unidades.",
+        "Dentro del eje de Magnitudes y medida de los planes y programas de estudio de la SEP y la Nueva Escuela Mexicana, comparar y ordenar objetos por su longitud es uno de los aprendizajes clave de primer grado. La actividad lo presenta como un juego amable, sin cronómetro ni puntajes, para que la práctica se sienta tranquila y con confianza."
+      ],
+      "practices": [
+        "Comparar longitudes de forma directa e indirecta usando un objeto de referencia.",
+        "Ordenar tres objetos del más corto al más largo.",
+        "Usar el cordón como intermediario para comparar listones que están alejados.",
+        "Identificar el más largo, el más corto y el que mide igual que la referencia.",
+        "Emplear vocabulario de medición: más largo, más corto, igual de largo."
+      ],
+      "howToPlay": [
+        "Observa cada listón junto al cordón de Tilly y fíjate si sobra, falta o mide justo lo mismo.",
+        "Toca el listón más largo, el más corto o el que mide igual que el cordón, según lo que se pida en cada ronda.",
+        "En casa o en el salón, funciona en la computadora, en la tableta o en el pizarrón interactivo, sin necesidad de crear una cuenta.",
+        "Ideal para trabajarla en pareja o en grupo pequeño, comentando en voz alta por qué un listón es más largo que otro."
+      ],
+      "learningGoals": [
+        "Comprender que la longitud se puede comparar y ordenar, y que dos objetos alejados se comparan a través de un tercero.",
+        "Afianzar el aprendizaje de Magnitudes y medida de primer grado según los planes y programas de estudio de la SEP.",
+        "Construir las bases del razonamiento sobre medición antes de introducir la regla y las unidades convencionales."
+      ]
+    },
     "choice-board.fraction-noncongruent.2-g-a-3": {
       "about": [
         "El niño o la niña ve una figura dividida en partes iguales —un cuadrado o un rectángulo— y elige otra figura partida en ese mismo número de partes iguales, aunque los trozos tengan otra forma. Es una actividad de geometría gratuita e interactiva para 2.º de primaria que funciona en el navegador, sin instalar nada y sin crear cuenta.",

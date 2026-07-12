@@ -44,7 +44,11 @@
     /* FR — lowercase article-less plurals so they slot into the comparatives
        « Combien de {a} de plus que de {b} ? » (agreement-proof; French common
        nouns are not capitalized mid-sentence). Also the bar labels. */
-    fr: { leaf: 'feuilles', berry: 'baies', acorn: 'glands', pinecone: 'pommes de pin', mushroom: 'champignons', flower: 'fleurs' }
+    fr: { leaf: 'feuilles', berry: 'baies', acorn: 'glands', pinecone: 'pommes de pin', mushroom: 'champignons', flower: 'fleurs' },
+    /* es-MX — native ensemble. "piñas de pino" (NOT bare "piñas" = piña/pineapple in MX);
+       "hongos" (masc — el único masculino; el resto femenino → ver el truco de género
+       en qMore/qFewer/qTotal, partitivo "de {a}"). */
+    es: { leaf: 'hojas', berry: 'bayas', acorn: 'bellotas', pinecone: 'piñas de pino', mushroom: 'hongos', flower: 'flores' }
   };
   function clabel(k) { var lang = (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en'; return (CAT_L[lang] && CAT_L[lang][k]) || (CAT_L.en && CAT_L.en[k]) || cdef(k).label; }
 
@@ -109,6 +113,27 @@
       tru: 'Vrai', fls: 'Faux',
       announceBar: 'La barre des {label} est maintenant à {n}.',
       srCaption: 'Données du diagramme en barres'
+    },
+    /* es-MX — native ensemble (lingüista + pedagoga de 2º, análisis de datos SEP).
+       Vocabulario: gráfica de barras / conteo (tabla de conteo) / barra / verdadero-falso.
+       miss-lines en forma de dos puntos ({A}: {ca}) para esquivar la concordancia del
+       verbo plural (Hojas TIENEN, no tiene). Tono cálido, sin marcador; "Casi" no "mal". */
+    es: {
+      buildLine: '¡Lee el conteo y toca cada barra para irla apilando!',
+      fixLine: '¡Una barra está mal! Arréglala para que quede igual al conteo.',
+      matchLine: '¿Cuál gráfica coincide con el conteo?',
+      readLine: 'Lee la gráfica de Pip y elige la respuesta.',
+      undo: 'Deshacer',
+      commit: '¡Esa es mi respuesta!',
+      yes: '¡Sí, lo leíste bien!',
+      buildDone: '¡La gráfica quedó lista, qué bien apilaste!',
+      missMore: '{A}: {ca}, {B}: {cb}. Cuenta hacia adelante desde {B}.',
+      missTotal: '{A}: {ca}, {B}: {cb}. Ahora júntalos.',
+      missVerify: '{A}: {ca}, {B}: {cb}. ¡Míralo de nuevo!',
+      missMatch: 'Casi. Compara cada barra con el conteo.',
+      tru: 'Verdadero', fls: 'Falso',
+      announceBar: 'La barra de {label} ahora tiene {n}.',
+      srCaption: 'Datos de la gráfica de barras'
     }
   };
   function txt(key) { var lang = (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en'; return (L[lang] || L.en)[key] || L.en[key] || key; }
@@ -177,15 +202,19 @@
   var GraphItActivity = {
     id: 'graph-it',
     strings: {
-      title: { en: "Pip's Stacking Fence", de: 'Pips Stapelzaun', fr: 'La palissade de Pip' },
-      instruction: { en: 'Build a bar graph, then read how many more!', de: 'Baue ein Säulendiagramm und lies dann ab, wie viele mehr!', fr: 'Construis un diagramme en barres, puis lis combien il y en a de plus !' },
-      qBuild: { en: 'Build the fence to match the tally.', de: 'Baue das Säulendiagramm nach der Strichliste.', fr: 'Construis le diagramme en barres d\'après le tableau de comptage.' },
-      qFix: { en: 'One fence bar is wrong — fix it!', de: 'Eine Säule ist falsch – verbessere sie!', fr: 'Une barre est fausse — corrige-la !' },
-      qMatch: { en: 'Which fence matches the tally?', de: 'Welches Säulendiagramm passt zur Strichliste?', fr: 'Quel diagramme correspond au tableau de comptage ?' },
-      qMore: { en: 'How many MORE {a} than {b}?', de: 'Wie viele {a} mehr als {b}?', fr: 'Combien de {a} de plus que de {b} ?' },
-      qFewer: { en: 'How many FEWER {a} than {b}?', de: 'Wie viele {a} weniger als {b}?', fr: 'Combien de {a} de moins que de {b} ?' },
-      qTotal: { en: 'How many {a} and {b} TOGETHER?', de: 'Wie viele {a} und {b} zusammen?', fr: 'Combien de {a} et de {b} en tout ?' },
-      qVerify: { en: '{x} beat {y} by {by}. True or false?', de: 'Es gibt {by} {x} mehr als {y}. Stimmt das?', fr: 'Il y a {by} {x} de plus que de {y}. Vrai ou faux ?' }
+      /* es-MX — el truco de género (§A.13.56): en qMore/qFewer/qTotal el sustantivo va
+         DENTRO del partitivo "de {a}" → "cuántas" es pronombre interrogativo autónomo
+         (refiere a una cantidad femenina implícita), NO concuerda con {a}; funciona para
+         hongos (m) igual que para hojas (f). qVerify usa "Hay {by} {x}…" (impersonal → invariable). */
+      title: { en: "Pip's Stacking Fence", de: 'Pips Stapelzaun', fr: 'La palissade de Pip', es: 'La cerca apilada de Pip' },
+      instruction: { en: 'Build a bar graph, then read how many more!', de: 'Baue ein Säulendiagramm und lies dann ab, wie viele mehr!', fr: 'Construis un diagramme en barres, puis lis combien il y en a de plus !', es: '¡Construye una gráfica de barras y descubre cuántas hay de más!' },
+      qBuild: { en: 'Build the fence to match the tally.', de: 'Baue das Säulendiagramm nach der Strichliste.', fr: 'Construis le diagramme en barres d\'après le tableau de comptage.', es: 'Construye la gráfica para que quede igual al conteo.' },
+      qFix: { en: 'One fence bar is wrong — fix it!', de: 'Eine Säule ist falsch – verbessere sie!', fr: 'Une barre est fausse — corrige-la !', es: '¡Una barra está mal, arréglala!' },
+      qMatch: { en: 'Which fence matches the tally?', de: 'Welches Säulendiagramm passt zur Strichliste?', fr: 'Quel diagramme correspond au tableau de comptage ?', es: '¿Cuál gráfica coincide con el conteo?' },
+      qMore: { en: 'How many MORE {a} than {b}?', de: 'Wie viele {a} mehr als {b}?', fr: 'Combien de {a} de plus que de {b} ?', es: '¿Cuántas MÁS hay de {a} que de {b}?' },
+      qFewer: { en: 'How many FEWER {a} than {b}?', de: 'Wie viele {a} weniger als {b}?', fr: 'Combien de {a} de moins que de {b} ?', es: '¿Cuántas MENOS hay de {a} que de {b}?' },
+      qTotal: { en: 'How many {a} and {b} TOGETHER?', de: 'Wie viele {a} und {b} zusammen?', fr: 'Combien de {a} et de {b} en tout ?', es: '¿Cuántas hay de {a} y de {b} en TOTAL?' },
+      qVerify: { en: '{x} beat {y} by {by}. True or false?', de: 'Es gibt {by} {x} mehr als {y}. Stimmt das?', fr: 'Il y a {by} {x} de plus que de {y}. Vrai ou faux ?', es: 'Hay {by} {x} más que {y}. ¿Verdadero o falso?' }
     },
 
     init: function (api) {

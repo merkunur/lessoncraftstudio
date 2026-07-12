@@ -132,17 +132,20 @@
     "slug": {
       "en": "subtract-with-regrouping-break-a-ten",
       "de": "zehner-entbuendeln-mit-uebergang-subtrahieren-klasse-3",
-      "fr": "soustraction-avec-retenue-casser-une-dizaine-ce2"
+      "fr": "soustraction-avec-retenue-casser-une-dizaine-ce2",
+      "es": "resta-con-reagrupacion-desarmar-una-decena-primaria"
     },
     "page_title": {
       "en": "Tuck Breaks a Ten — Subtract with Regrouping (Grade 2)",
       "de": "Subtraktion mit Zehnerübergang – online üben (Klasse 3)",
-      "fr": "Soustraction avec retenue – exercice en ligne (CE2)"
+      "fr": "Soustraction avec retenue – exercice en ligne (CE2)",
+      "es": "Tuck desarma una decena: resta con reagrupación · 3er grado"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 math activity: subtract a one-digit number from a three-digit number when there are not enough ones. Tuck the hamster shows the base-ten blocks; tap “Break a ten” to turn one ten into ten ones, then take some away and type the answer. A clear, hands-on first look at borrowing — decomposing a ten. Common Core 2.NBT.B.7.",
       "de": "Subtraktion mit Zehnerübergang online üben: einen Zehner entbündeln und mit Übergang abziehen. Kostenlos online, ohne Anmeldung.",
-      "fr": "Exercice en ligne de soustraction avec retenue : casser une dizaine pour soustraire, pas à pas. Gratuit, en ligne, sans inscription."
+      "fr": "Exercice en ligne de soustraction avec retenue : casser une dizaine pour soustraire, pas à pas. Gratuit, en ligne, sans inscription.",
+      "es": "Practica la resta con reagrupación en 3er grado de primaria: cuando no alcanzan las unidades, Tuck desarma una decena en 10 unidades y quita. Actividad gratuita e interactiva alineada a los planes de la SEP."
     },
     "kid_prompt_template": "place-value-regroup"
   },
@@ -204,17 +207,20 @@
     "slug": {
       "en": "add-with-regrouping-make-a-hundred",
       "de": "hunderter-buendeln-mit-uebergang-addieren-klasse-3",
-      "fr": "addition-avec-retenue-grouper-une-centaine-ce2"
+      "fr": "addition-avec-retenue-grouper-une-centaine-ce2",
+      "es": "suma-con-reagrupacion-formar-una-centena-primaria"
     },
     "page_title": {
       "en": "Tuck Makes a Hundred — Add with Regrouping (Grade 2)",
       "de": "Tuck bündelt einen Hunderter – mit Übergang addieren (Klasse 3)",
-      "fr": "Additions CE2 avec retenue – exercice en ligne"
+      "fr": "Additions CE2 avec retenue – exercice en ligne",
+      "es": "Tuck forma una centena: suma con reagrupación · 3er grado"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 math activity: add tens that make more than ten tens. Tuck the hamster shows the base-ten blocks; tap “Make a hundred” to bundle 10 tens into one hundred-flat, then type the total. A clear, hands-on look at carrying into the hundreds — composing a hundred. Common Core 2.NBT.B.7.",
       "de": "Zehn Zehner zu einem Hunderter bündeln und mit Übergang addieren – mit Tuck dem Hamster. Kostenlose Mathe-Übung im Zahlenraum bis 1000 für Klasse 3.",
-      "fr": "Additions CE2 en ligne : additionner avec une retenue en fabriquant une centaine, pas à pas. Gratuit, en ligne, sans inscription."
+      "fr": "Additions CE2 en ligne : additionner avec une retenue en fabriquant une centaine, pas à pas. Gratuit, en ligne, sans inscription.",
+      "es": "Aprende la suma con reagrupación en 3er grado de primaria: cuando las decenas pasan de diez, Tuck junta 10 decenas para «Formar una centena». Actividad gratuita e interactiva con bloques de base diez, alineada a los planes de la SEP."
     },
     "kid_prompt_template": "place-value-regroup"
   },
@@ -276,17 +282,20 @@
     "slug": {
       "en": "subtract-with-regrouping-break-a-hundred",
       "de": "hunderter-entbuendeln-ueber-null-subtrahieren-klasse-3",
-      "fr": "soustraction-avec-retenue-casser-une-centaine-ce2"
+      "fr": "soustraction-avec-retenue-casser-une-centaine-ce2",
+      "es": "resta-con-reagrupacion-desarmar-una-centena-primaria"
     },
     "page_title": {
       "en": "Tuck Breaks a Hundred — Subtract with Regrouping (Grade 2)",
       "de": "Tuck entbündelt einen Hunderter – über Null abziehen (Klasse 3)",
-      "fr": "Soustractions CE2 avec retenue – exercice en ligne"
+      "fr": "Soustractions CE2 avec retenue – exercice en ligne",
+      "es": "Tuck desarma una centena: resta con reagrupación · 3er grado"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 math activity: subtract from a three-digit number with no tens to borrow from. Tuck the hamster shows the base-ten blocks; tap “Break a hundred” to turn one hundred into ten tens, then “Break a ten” for ten ones, take some away, and type the answer. A clear, hands-on look at borrowing across zero — decomposing a hundred. Common Core 2.NBT.B.7.",
       "de": "Einen Hunderter über die Null in Zehner und Einer entbündeln und subtrahieren. Tuck übt das Abziehen im Zahlenraum bis 1000 – kostenlose Mathe-Aufgabe, Klasse 3.",
-      "fr": "Soustractions CE2 en ligne : soustraire avec retenue en cassant une centaine, même par-dessus le zéro. Gratuit, sans inscription."
+      "fr": "Soustractions CE2 en ligne : soustraire avec retenue en cassant une centaine, même par-dessus le zéro. Gratuit, sans inscription.",
+      "es": "Domina la resta con reagrupación a través del cero en 3er grado de primaria: cuando no hay decenas para prestar, Tuck desarma una centena y luego una decena. Actividad gratuita e interactiva con bloques de base diez, alineada a la SEP."
     },
     "kid_prompt_template": "place-value-regroup"
   }

@@ -39,7 +39,9 @@
   var COLOR_L = {
     en: { red: 'Red', blue: 'Blue', green: 'Green', yellow: 'Yellow', purple: 'Purple', orange: 'Orange' },
     de: { red: 'Rot', blue: 'Blau', green: 'Grün', yellow: 'Gelb', purple: 'Lila', orange: 'Orange' },
-    fr: { red: 'Rouge', blue: 'Bleu', green: 'Vert', yellow: 'Jaune', purple: 'Violet', orange: 'Orange' }
+    fr: { red: 'Rouge', blue: 'Bleu', green: 'Vert', yellow: 'Jaune', purple: 'Violet', orange: 'Orange' },
+    /* es-MX — native ensemble: Morado (not púrpura), Naranja (not anaranjado) for ages 6–7. */
+    es: { red: 'Rojo', blue: 'Azul', green: 'Verde', yellow: 'Amarillo', purple: 'Morado', orange: 'Naranja' }
   };
   function clabel(color) { return (COLOR_L[LANG] && COLOR_L[LANG][color]) || (COLORS[color] && COLORS[color].label) || color; }
 
@@ -98,6 +100,29 @@
       relLonger: 'plus long que la ficelle',
       relShorter: 'plus court que la ficelle',
       relEqual: 'aussi long que la ficelle'
+    },
+    /* es-MX — native ensemble (lingüista + pedagoga de primaria, planes y programas SEP).
+       "el cordón" (intermediario de medición NO convencional — NO regla/cinta métrica, que
+       implican unidades estándar de 2.º); objetos = "los listones" (masc. — la palabra
+       mexicana para una cinta de color; comparativos limpios: el más largo / el más corto).
+       Referencia e ítems TODOS masculinos → cero trampas de concordancia. srItem con forma de
+       dos puntos (Listón {label}: {rel}) para que el adjetivo concuerde con "Listón", no con el
+       color, y reutilizar las etiquetas nominativas. "Toca" (no pulsa/presiona); tono cálido,
+       sin puntaje ni reloj; "¡Mira otra vez!" como pista amable (nunca "incorrecto"). */
+    es: {
+      qLongest: 'Toca el listón MÁS LARGO.',
+      qShortest: 'Toca el listón MÁS CORTO.',
+      qSamecord: '¿Cuál listón es igual de largo que el cordón?',
+      win: '¡Sí! {note}', winNote: '¡Comparaste las longitudes!',
+      nLongest: 'El listón más largo se pasa de TODOS los demás. ¡Mira otra vez!',
+      nShortest: 'El listón más corto termina primero. ¡Mira otra vez!',
+      nSamecord: 'Busca el listón que termina justo en la línea del cordón. ¡Mira otra vez!',
+      cord: 'el cordón',
+      srRef: 'El cordón es la medida para comparar.',
+      srItem: 'Listón {label}: {rel}',
+      relLonger: 'más largo que el cordón',
+      relShorter: 'más corto que el cordón',
+      relEqual: 'igual de largo que el cordón'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -121,8 +146,8 @@
   var SeriationActivity = {
     id: 'seriation-activity',
     strings: {
-      title: { en: 'The Faraway Shelf', de: 'Tillys fernes Regal', fr: 'Les étagères lointaines de Tilly' },
-      instruction: { en: 'Use the cord to compare the ribbons, then tap your answer!', de: 'Vergleiche die Bänder mit der Schnur und tippe dann auf deine Antwort!', fr: 'Utilise la ficelle pour comparer les rubans, puis touche ta réponse !' },
+      title: { en: 'The Faraway Shelf', de: 'Tillys fernes Regal', fr: 'Les étagères lointaines de Tilly', es: 'El estante lejano' },
+      instruction: { en: 'Use the cord to compare the ribbons, then tap your answer!', de: 'Vergleiche die Bänder mit der Schnur und tippe dann auf deine Antwort!', fr: 'Utilise la ficelle pour comparer les rubans, puis touche ta réponse !', es: '¡Usa el cordón para comparar los listones y toca tu respuesta!' },
       q: { en: '{q}' }
     },
 

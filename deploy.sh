@@ -227,6 +227,28 @@ fi
 echo "🔎 hreflang mirror parity check..."
 node /opt/lessoncraftstudio/scripts/publish-cli/hreflang-codes.test.js || { echo "ERROR: hreflang-codes.js has drifted from frontend/lib/seo/hreflang.ts — fix before deploying"; exit 1; }
 
+# ============================================
+# PAYMENT-SYSTEM PROTECTION (pre-build FAIL)
+# ============================================
+# The LEMONSQUEEZY_* env in source frontend/.env.production is copied into every release
+# (line ~"cp .env.production"). If the webhook secret (or API key / store id) is ever lost
+# or emptied, live purchases 401 silently and NO subscription activates. Refuse to build so
+# a broken payment env can never ship. See CLAUDE.md §A "Payment-system protection".
+echo "💳 Payment env guard (LEMONSQUEEZY_* present)..."
+PAY_ENV="/opt/lessoncraftstudio/frontend/.env.production"
+for V in LEMONSQUEEZY_WEBHOOK_SECRET LEMONSQUEEZY_API_KEY LEMONSQUEEZY_STORE_ID; do
+    VAL=$(grep -m1 "^${V}=" "$PAY_ENV" | sed "s/^${V}=//")
+    if [ -z "$VAL" ]; then
+        echo ""
+        echo "⛔ FATAL: payment env var ${V} is missing/empty in ${PAY_ENV}"
+        echo "   Refusing to deploy — a purchase would not activate a subscription."
+        echo "   Restore it before deploying (see CLAUDE.md §A payment protection)."
+        echo ""
+        exit 1
+    fi
+done
+echo "✅ Payment env present (webhook secret + API key + store id)"
+
 echo ""
 echo "🧹 Cleaning stale build output to force full regeneration..."
 echo "   (safe while live: the running server serves releases/current/, not .next/)"
@@ -570,6 +592,20 @@ echo "🔎 Checking deck URL-column drift (at-rest only; live links are slug-der
 ( set +e
   set -a; . /opt/lessoncraftstudio/frontend/.env.production 2>/dev/null; set +a
   node /opt/lessoncraftstudio/scripts/publish-cli/check-deck-url-drift.js 2>&1 | tail -15
+) || true
+
+echo ""
+echo "💳 Payment webhook canary (signed activation + tier-bridge + bad-sig rejection)..."
+# Post-flip WARN-only self-test of the LIVE payment path — proves a real purchase would
+# still activate a subscriber after THIS deploy (signature verify + product allowlist +
+# subscription upsert + subscriptionTier bridge). Sources .env.production for the webhook
+# secret + DATABASE_URL; runs from frontend/ so @prisma/client resolves. Cleans up its own
+# smoke rows (leaves only a bare internal user deploy-smoke@lcs.internal). Cannot un-deploy
+# post-flip, so WARN + loud "!!!" (never silent). See CLAUDE.md §A payment protection.
+( set +e
+  set -a; . /opt/lessoncraftstudio/frontend/.env.production 2>/dev/null; set +a
+  node /opt/lessoncraftstudio/scripts/payments/smoke-payment-webhook.js
+  [ $? -ne 0 ] && echo "   !!! PAYMENT CANARY FAILED — live purchases may NOT be activating. Investigate the webhook/secret NOW."
 ) || true
 
 echo ""

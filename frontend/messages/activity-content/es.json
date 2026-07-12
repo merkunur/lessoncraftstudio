@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "ten-stones.add-sub-within-20.1-oa-c-6": {
+      "about": [
+        "Lily, la rana, cruza la recta numérica del 0 al 20 dando brincos, y justo en el 10 la espera una piedra dorada. En lugar de brincar cada número de uno en uno, Lily usa una estrategia inteligente: primero brinca exactamente hasta la piedra dorada del diez y desde ahí sigue. Así, 8 + 6 se convierte en 8 + 2 = 10 y luego 10 + 4 = 14. Los niños viven el paso por el diez no como una regla que hay que memorizar, sino como dos brincos que se ven en la recta numérica.",
+        "Esta actividad practica el cálculo pasando por el diez para sumar y restar hasta 20. Los niños primero «forman un diez» (8 y 2 son amigos del diez), descansan en la piedra dorada y calculan lo que falta. El camino de regreso también cuenta: al restar, Lily brinca de nuevo hasta el 10, por ejemplo en 13 − 4 primero 13 − 3 = 10 y luego 10 − 1 = 9. En el camino aparecen también los dobles (7 + 8 está a uno de 7 + 7) y las familias de operaciones (de 8 + 6 = 14 sale 14 − 6 = 8), estrategias propias de segundo grado.",
+        "«Las piedras del diez de Lily» es un juego gratuito e interactivo —sin cronómetro, sin puntos, sin competir contra nadie—. No se trata de rapidez, sino de una estrategia de cálculo firme: quien entiende cómo pasar por el diez suma y resta con más seguridad en todo el rango. Los niños pueden probar, volver a brincar y pensar con calma, tal como se construye el cálculo hasta 20 en segundo grado de primaria."
+      ],
+      "practices": [
+        "Formar un diez: completar hasta el 10 y encontrar el amigo del diez que corresponde (8 + 2, 7 + 3, 9 + 1)",
+        "Calcular pasando por el diez: primero brincar al 10 y luego sumar lo que falta; al restar, regresar de nuevo al 10",
+        "Calcular con ingenio usando el orden de los sumandos, los dobles cercanos y las familias de operaciones: empezar por el número mayor, apoyarse en los dobles y reconocer sumas y restas como una misma familia",
+        "Reconocer cuándo hace falta pasar por el diez: decidir si una operación cruza el 10 y si Lily necesita descansar o no en la piedra dorada"
+      ],
+      "howToPlay": [
+        "Lee la operación de Lily y observa la recta numérica del 0 al 20: el 10 dorado es el descanso de Lily.",
+        "Ayuda a Lily paso a paso: toca primero el brinco hasta el 10 y luego el segundo brinco hasta el resultado (al restar, se regresa hasta el 10).",
+        "Revisa tu respuesta. Puedes brincar y probar las veces que quieras, sin tiempo y sin puntos."
+      ],
+      "learningGoals": [
+        "Comprender el paso por el diez al sumar y restar hasta 20, y realizar el cálculo pasando por el diez como dos brincos en la recta numérica.",
+        "Encontrar con seguridad los amigos del diez / parejas que forman 10 y calcular por encima del 10 tanto al sumar como al restar.",
+        "Usar de manera consciente las primeras estrategias de cálculo —orden de los sumandos, dobles cercanos y familias de operaciones— para calcular con flexibilidad y comprensión en lugar de contar, propias de segundo grado de la SEP."
+      ]
+    },
     "clock-digital.read-hour.1-md-b-3": {
       "about": [
         "Sprocket, el gallo, acompaña a los niños en su primer paso para leer el reloj: reconocer «la hora en punto». En cada ronda aparece un reloj de manecillas marcando una hora exacta, como las tres en punto, y el peque toca la hora digital que le corresponde.",

@@ -13,17 +13,20 @@
     "slug": {
       "en": "lilys-ten-stones",
       "de": "ueber-den-zehner-rechnen-am-zahlenstrahl-klasse-1",
-      "fr": "passer-par-dix-sur-la-piste-cp"
+      "fr": "passer-par-dix-sur-la-piste-cp",
+      "es": "formar-el-diez-sumar-y-restar-hasta-20-recta-numerica"
     },
     "page_title": {
       "en": "Lily's Ten Stones — Make a Ten to Add & Subtract",
       "de": "Zehnerübergang üben – über den Zehner rechnen (Klasse 1)",
-      "fr": "Les nénuphars de Lily — Passer par 10 pour calculer (CP)"
+      "fr": "Les nénuphars de Lily — Passer par 10 pour calculer (CP)",
+      "es": "Lily la rana: formar el diez para sumar y restar hasta 20 (2º primaria)"
     },
     "page_intro": {
       "en": "Help Lily the frog cross the pond on the number line: to add or subtract past ten, first hop to the golden Ten Stone, then the rest. Build the make-a-ten part yourself — 8 + 2 makes 10, then 10 + 4 is 14. A strategy game, not a speed drill. Common Core 1.OA.C.6.",
       "de": "Zehnerübergang üben in Klasse 1: über den Zehner rechnen am Zahlenstrahl, Schritt für Schritt. Kostenlos online, ohne Anmeldung.",
-      "fr": "Lily la grenouille passe par 10 : elle se pose sur le nénuphar du dix, sur la piste numérique, pour additionner et soustraire jusqu'à 20. Gratuit, interactif, CP."
+      "fr": "Lily la grenouille passe par 10 : elle se pose sur le nénuphar du dix, sur la piste numérique, pour additionner et soustraire jusqu'à 20. Gratuit, interactif, CP.",
+      "es": "Ayuda a Lily la rana a cruzar la recta numérica: para sumar o restar más allá del diez, primero brinca a la piedra dorada del diez y luego lo que falta. Tú formas el diez —8 + 2 son 10, luego 10 + 4 son 14—. Juego gratis, sin registro, para 2º de primaria (SEP)."
     },
     "kid_prompt_template": "ten-stones",
     "params": {
@@ -40,7 +43,8 @@
           "prompt": "8 + 6. Hop to the Ten Stone first: 8 + ⬚ = 10.",
           "promptL10n": {
             "de": "8 + 6. Hüpf zuerst zum Zehner-Stein: 8 + ⬚ = 10.",
-            "fr": "8 + 6. Saute d'abord sur le nénuphar du dix : 8 + ⬚ = 10."
+            "fr": "8 + 6. Saute d'abord sur le nénuphar du dix : 8 + ⬚ = 10.",
+            "es": "8 + 6. Brinca primero a la piedra del diez: 8 + ⬚ = 10."
           }
         },
         {
@@ -55,7 +59,8 @@
           "prompt": "7 + 5. Make a ten: 7 + ⬚ = 10, then hop the rest.",
           "promptL10n": {
             "de": "7 + 5. Mach den Zehner voll: 7 + ⬚ = 10, dann hüpf den Rest.",
-            "fr": "7 + 5. Passe par 10 : 7 + ⬚ = 10, puis saute le reste."
+            "fr": "7 + 5. Passe par 10 : 7 + ⬚ = 10, puis saute le reste.",
+            "es": "7 + 5. Forma un diez: 7 + ⬚ = 10 y luego brinca lo que falta."
           }
         },
         {
@@ -70,7 +75,8 @@
           "prompt": "6 + 3. Will Lily need to rest on the Ten Stone?",
           "promptL10n": {
             "de": "6 + 3. Muss Lily auf dem Zehner-Stein rasten?",
-            "fr": "6 + 3. Est-ce que Lily doit se poser sur le nénuphar du dix ?"
+            "fr": "6 + 3. Est-ce que Lily doit se poser sur le nénuphar du dix ?",
+            "es": "6 + 3. ¿Lily necesita descansar en la piedra del diez?"
           }
         },
         {
@@ -85,7 +91,8 @@
           "prompt": "13 − 4. Hop back to the Ten Stone: 13 − ⬚ = 10.",
           "promptL10n": {
             "de": "13 − 4. Hüpf zurück zum Zehner-Stein: 13 − ⬚ = 10.",
-            "fr": "13 − 4. Saute en arrière jusqu'au nénuphar du dix : 13 − ⬚ = 10."
+            "fr": "13 − 4. Saute en arrière jusqu'au nénuphar du dix : 13 − ⬚ = 10.",
+            "es": "13 − 4. Brinca de regreso a la piedra del diez: 13 − ⬚ = 10."
           }
         },
         {
@@ -98,7 +105,8 @@
           "prompt": "3 + 8. Which number should Lily stand on to reach ten quickest?",
           "promptL10n": {
             "de": "3 + 8. Auf welche Zahl stellt sich Lily, um schnell zum Zehner zu kommen?",
-            "fr": "3 + 8. Sur quel nombre Lily doit-elle se placer pour atteindre 10 le plus vite ?"
+            "fr": "3 + 8. Sur quel nombre Lily doit-elle se placer pour atteindre 10 le plus vite ?",
+            "es": "3 + 8. ¿En qué número debe pararse Lily para llegar más rápido al diez?"
           }
         },
         {
@@ -113,7 +121,8 @@
           "prompt": "8 + 6. Will Lily need to rest on the Ten Stone?",
           "promptL10n": {
             "de": "8 + 6. Muss Lily auf dem Zehner-Stein rasten?",
-            "fr": "8 + 6. Est-ce que Lily doit se poser sur le nénuphar du dix ?"
+            "fr": "8 + 6. Est-ce que Lily doit se poser sur le nénuphar du dix ?",
+            "es": "8 + 6. ¿Lily necesita descansar en la piedra del diez?"
           }
         },
         {
@@ -131,7 +140,8 @@
           "prompt": "7 + 8. Which DOUBLE is just one away from helping?",
           "promptL10n": {
             "de": "7 + 8. Welche Verdopplung ist nur um eins daneben?",
-            "fr": "7 + 8. Quel DOUBLE n'est qu'à 1 de la réponse ?"
+            "fr": "7 + 8. Quel DOUBLE n'est qu'à 1 de la réponse ?",
+            "es": "7 + 8. ¿Qué DOBLE está a solo uno de distancia y te puede ayudar?"
           }
         },
         {
@@ -146,7 +156,8 @@
           "prompt": "9 + 4. Make a ten: 9 + ⬚ = 10, then hop the rest.",
           "promptL10n": {
             "de": "9 + 4. Mach den Zehner voll: 9 + ⬚ = 10, dann hüpf den Rest.",
-            "fr": "9 + 4. Passe par 10 : 9 + ⬚ = 10, puis saute le reste."
+            "fr": "9 + 4. Passe par 10 : 9 + ⬚ = 10, puis saute le reste.",
+            "es": "9 + 4. Forma un diez: 9 + ⬚ = 10 y luego brinca lo que falta."
           }
         },
         {
@@ -161,7 +172,8 @@
           "prompt": "15 − 7. Hop back to the Ten Stone: 15 − ⬚ = 10.",
           "promptL10n": {
             "de": "15 − 7. Hüpf zurück zum Zehner-Stein: 15 − ⬚ = 10.",
-            "fr": "15 − 7. Saute en arrière jusqu'au nénuphar du dix : 15 − ⬚ = 10."
+            "fr": "15 − 7. Saute en arrière jusqu'au nénuphar du dix : 15 − ⬚ = 10.",
+            "es": "15 − 7. Brinca de regreso a la piedra del diez: 15 − ⬚ = 10."
           }
         },
         {
@@ -174,7 +186,8 @@
           "prompt": "9 + 2. Which number should Lily stand on to reach ten quickest?",
           "promptL10n": {
             "de": "9 + 2. Auf welche Zahl stellt sich Lily, um schnell zum Zehner zu kommen?",
-            "fr": "9 + 2. Sur quel nombre Lily doit-elle se placer pour atteindre 10 le plus vite ?"
+            "fr": "9 + 2. Sur quel nombre Lily doit-elle se placer pour atteindre 10 le plus vite ?",
+            "es": "9 + 2. ¿En qué número debe pararse Lily para llegar más rápido al diez?"
           }
         },
         {
@@ -189,7 +202,8 @@
           "prompt": "8 + 6 = 14. Watch it hop backward: 14 − 6 = 8. Same stones!",
           "promptL10n": {
             "de": "8 + 6 = 14. Schau, rückwärts: 14 − 6 = 8. Die gleichen Steine!",
-            "fr": "8 + 6 = 14. Regarde Lily sauter en arrière : 14 − 6 = 8. Les mêmes nénuphars !"
+            "fr": "8 + 6 = 14. Regarde Lily sauter en arrière : 14 − 6 = 8. Les mêmes nénuphars !",
+            "es": "8 + 6 = 14. Mírala brincar de regreso: 14 − 6 = 8. ¡Las mismas piedras!"
           }
         }
       ]

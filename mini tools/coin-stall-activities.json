@@ -3,146 +3,981 @@
     "id": "coin-stall.money.2-md-c-8",
     "tool": "coin-stall-activity",
     "task_template": "coin-stall",
-    "alignment": { "framework": "CCSS", "code": "2.MD.C.8", "grade": "2", "strand": "Measurement & Data" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "2.MD.C.8",
+      "grade": "2",
+      "strand": "Measurement & Data"
+    },
     "params": {
       "coinSet": [
-        { "den": "penny", "value": 1, "glyph": "P", "tint": "#C97B43", "diameter": 19 },
-        { "den": "nickel", "value": 5, "glyph": "N", "tint": "#A9A9A9", "diameter": 21 },
-        { "den": "dime", "value": 10, "glyph": "D", "tint": "#B8B8B8", "diameter": 18 },
-        { "den": "quarter", "value": 25, "glyph": "Q", "tint": "#9FA0A2", "diameter": 24 },
-        { "den": "dollar", "value": 100, "glyph": "$", "tint": "#7BA86B", "diameter": 28 }
+        {
+          "den": "penny",
+          "value": 1,
+          "glyph": "P",
+          "tint": "#C97B43",
+          "diameter": 19
+        },
+        {
+          "den": "nickel",
+          "value": 5,
+          "glyph": "N",
+          "tint": "#A9A9A9",
+          "diameter": 21
+        },
+        {
+          "den": "dime",
+          "value": 10,
+          "glyph": "D",
+          "tint": "#B8B8B8",
+          "diameter": 18
+        },
+        {
+          "den": "quarter",
+          "value": 25,
+          "glyph": "Q",
+          "tint": "#9FA0A2",
+          "diameter": 24
+        },
+        {
+          "den": "dollar",
+          "value": 100,
+          "glyph": "$",
+          "tint": "#7BA86B",
+          "diameter": 28
+        }
       ],
       "rounds": [
         {
-          "id": "count-set-till", "cog": "count-set", "band": 1, "legendTier": "full",
+          "id": "count-set-till",
+          "cog": "count-set",
+          "band": 1,
+          "legendTier": "full",
           "scenario": "Pip counts the till. How much is this worth?",
-          "pile": [ { "den": "dime", "count": 2 }, { "den": "penny", "count": 3 } ],
-          "options": [ 20, 23, 25, 26 ]
+          "pile": [
+            {
+              "den": "dime",
+              "count": 2
+            },
+            {
+              "den": "penny",
+              "count": 3
+            }
+          ],
+          "options": [
+            20,
+            23,
+            25,
+            26
+          ]
         },
         {
-          "id": "make-shell-30", "cog": "make-amount", "band": 2, "legendTier": "value", "target": 30,
+          "id": "make-shell-30",
+          "cog": "make-amount",
+          "band": 2,
+          "legendTier": "value",
+          "target": 30,
           "scenario": "A shell costs 30¢. Pay Pip exactly.",
-          "purse": [ "quarter", "nickel", "dime", "dime", "penny", "penny", "nickel", "quarter" ]
+          "purse": [
+            "quarter",
+            "nickel",
+            "dime",
+            "dime",
+            "penny",
+            "penny",
+            "nickel",
+            "quarter"
+          ]
         },
         {
-          "id": "make-starfish-41", "cog": "make-amount", "band": 3, "legendTier": "none", "target": 41,
+          "id": "make-starfish-41",
+          "cog": "make-amount",
+          "band": 3,
+          "legendTier": "none",
+          "target": 41,
           "scenario": "A starfish is 41¢. Pay the exact price.",
-          "purse": [ "quarter", "dime", "dime", "nickel", "penny", "quarter", "nickel", "penny" ]
+          "purse": [
+            "quarter",
+            "dime",
+            "dime",
+            "nickel",
+            "penny",
+            "quarter",
+            "nickel",
+            "penny"
+          ]
         },
         {
-          "id": "fewest-kite-35", "cog": "fewest", "band": 2, "legendTier": "none", "target": 35,
+          "id": "fewest-kite-35",
+          "cog": "fewest",
+          "band": 2,
+          "legendTier": "none",
+          "target": 35,
           "scenario": "A kite is 35¢. Use the FEWEST coins!",
-          "purse": [ "quarter", "dime", "dime", "nickel", "penny", "quarter", "nickel", "penny" ]
+          "purse": [
+            "quarter",
+            "dime",
+            "dime",
+            "nickel",
+            "penny",
+            "quarter",
+            "nickel",
+            "penny"
+          ]
         },
         {
-          "id": "fewest-crab-30", "cog": "fewest", "band": 2, "legendTier": "value", "target": 30,
+          "id": "fewest-crab-30",
+          "cog": "fewest",
+          "band": 2,
+          "legendTier": "value",
+          "target": 30,
           "scenario": "A toy crab is 30¢. Use the fewest coins you can.",
-          "purse": [ "quarter", "nickel", "dime", "dime", "penny", "quarter", "nickel", "penny" ]
+          "purse": [
+            "quarter",
+            "nickel",
+            "dime",
+            "dime",
+            "penny",
+            "quarter",
+            "nickel",
+            "penny"
+          ]
         },
         {
-          "id": "change-cheese-100", "cog": "change", "band": 3, "legendTier": "none", "price": 70, "paid": 100,
+          "id": "change-cheese-100",
+          "cog": "change",
+          "band": 3,
+          "legendTier": "none",
+          "price": 70,
+          "paid": 100,
           "scenario": "Cheese is 70¢. You pay $1 — give the change.",
-          "purse": [ "quarter", "nickel", "dime", "dime", "penny", "penny", "nickel", "quarter" ]
+          "purse": [
+            "quarter",
+            "nickel",
+            "dime",
+            "dime",
+            "penny",
+            "penny",
+            "nickel",
+            "quarter"
+          ]
         },
         {
-          "id": "change-shell-50", "cog": "change", "band": 2, "legendTier": "value", "price": 30, "paid": 50,
+          "id": "change-shell-50",
+          "cog": "change",
+          "band": 2,
+          "legendTier": "value",
+          "price": 30,
+          "paid": 50,
           "scenario": "A shell is 30¢. You pay 50¢. What is the change?",
-          "purse": [ "dime", "dime", "nickel", "nickel", "penny", "penny", "dime", "quarter" ]
+          "purse": [
+            "dime",
+            "dime",
+            "nickel",
+            "nickel",
+            "penny",
+            "penny",
+            "dime",
+            "quarter"
+          ]
         },
         {
-          "id": "enough-book-35", "cog": "enough", "band": 3, "legendTier": "none", "price": 35,
+          "id": "enough-book-35",
+          "cog": "enough",
+          "band": 3,
+          "legendTier": "none",
+          "price": 35,
           "scenario": "You have these coins. The book is 35¢. Is it enough?",
-          "pile": [ { "den": "quarter", "count": 1 }, { "den": "dime", "count": 1 } ]
+          "pile": [
+            {
+              "den": "quarter",
+              "count": 1
+            },
+            {
+              "den": "dime",
+              "count": 1
+            }
+          ]
         },
         {
-          "id": "enough-apple-40", "cog": "enough", "band": 2, "legendTier": "value", "price": 40,
+          "id": "enough-apple-40",
+          "cog": "enough",
+          "band": 2,
+          "legendTier": "value",
+          "price": 40,
           "scenario": "You have these coins. The apple is 40¢. Enough?",
-          "pile": [ { "den": "quarter", "count": 2 } ]
+          "pile": [
+            {
+              "den": "quarter",
+              "count": 2
+            }
+          ]
         },
         {
-          "id": "twoways-25", "cog": "two-ways", "band": 3, "legendTier": "none", "target": 25,
+          "id": "twoways-25",
+          "cog": "two-ways",
+          "band": 3,
+          "legendTier": "none",
+          "target": 25,
           "scenario": "A quarter is 25¢. Make 25¢ a new way!",
-          "shownSet": [ "quarter" ],
-          "purse": [ "dime", "dime", "nickel", "nickel", "penny", "quarter", "dime", "nickel" ]
+          "shownSet": [
+            "quarter"
+          ],
+          "purse": [
+            "dime",
+            "dime",
+            "nickel",
+            "nickel",
+            "penny",
+            "quarter",
+            "dime",
+            "nickel"
+          ]
         },
         {
-          "id": "twoways-30", "cog": "two-ways", "band": 2, "legendTier": "value", "target": 30,
+          "id": "twoways-30",
+          "cog": "two-ways",
+          "band": 2,
+          "legendTier": "value",
+          "target": 30,
           "scenario": "Pip made 30¢ with 3 dimes. Make 30¢ a different way!",
-          "shownSet": [ "dime", "dime", "dime" ],
-          "purse": [ "quarter", "nickel", "dime", "penny", "quarter", "nickel", "dime", "nickel" ]
+          "shownSet": [
+            "dime",
+            "dime",
+            "dime"
+          ],
+          "purse": [
+            "quarter",
+            "nickel",
+            "dime",
+            "penny",
+            "quarter",
+            "nickel",
+            "dime",
+            "nickel"
+          ]
         },
         {
-          "id": "trade-quarter", "cog": "trade", "band": 3, "legendTier": "none",
-          "offer": { "den": "quarter", "count": 1 },
+          "id": "trade-quarter",
+          "cog": "trade",
+          "band": 3,
+          "legendTier": "none",
+          "offer": {
+            "den": "quarter",
+            "count": 1
+          },
           "scenario": "Out of quarters! Trade coins worth 1 quarter.",
-          "purse": [ "dime", "dime", "nickel", "nickel", "penny", "dime", "nickel", "penny" ]
+          "purse": [
+            "dime",
+            "dime",
+            "nickel",
+            "nickel",
+            "penny",
+            "dime",
+            "nickel",
+            "penny"
+          ]
         },
         {
-          "id": "trade-dime", "cog": "trade", "band": 2, "legendTier": "value",
-          "offer": { "den": "dime", "count": 1 },
+          "id": "trade-dime",
+          "cog": "trade",
+          "band": 2,
+          "legendTier": "value",
+          "offer": {
+            "den": "dime",
+            "count": 1
+          },
           "scenario": "Pip needs change for a dime. Trade coins worth 1 dime!",
-          "purse": [ "nickel", "nickel", "penny", "penny", "nickel", "penny", "nickel", "dime" ]
+          "purse": [
+            "nickel",
+            "nickel",
+            "penny",
+            "penny",
+            "nickel",
+            "penny",
+            "nickel",
+            "dime"
+          ]
         },
         {
-          "id": "make-pebble-16", "cog": "make-amount", "band": 1, "legendTier": "full", "target": 16,
+          "id": "make-pebble-16",
+          "cog": "make-amount",
+          "band": 1,
+          "legendTier": "full",
+          "target": 16,
           "scenario": "A pebble is 16¢. Pay exactly.",
-          "purse": [ "dime", "nickel", "penny", "penny", "dime", "nickel", "quarter", "penny" ]
+          "purse": [
+            "dime",
+            "nickel",
+            "penny",
+            "penny",
+            "dime",
+            "nickel",
+            "quarter",
+            "penny"
+          ]
         }
       ],
       "coinSetL10n": {
         "de": [
-          { "den": "1c", "value": 1, "glyph": "1", "tint": "#C97B43", "diameter": 16 },
-          { "den": "2c", "value": 2, "glyph": "2", "tint": "#C97B43", "diameter": 19 },
-          { "den": "5c", "value": 5, "glyph": "5", "tint": "#B87333", "diameter": 21 },
-          { "den": "10c", "value": 10, "glyph": "10", "tint": "#D4AF37", "diameter": 20 },
-          { "den": "20c", "value": 20, "glyph": "20", "tint": "#D4AF37", "diameter": 22 },
-          { "den": "50c", "value": 50, "glyph": "50", "tint": "#C9A227", "diameter": 24 },
-          { "den": "1e", "value": 100, "glyph": "1€", "tint": "#C9CBD4", "diameter": 23 },
-          { "den": "2e", "value": 200, "glyph": "2€", "tint": "#B8B8B8", "diameter": 26 }
+          {
+            "den": "1c",
+            "value": 1,
+            "glyph": "1",
+            "tint": "#C97B43",
+            "diameter": 16
+          },
+          {
+            "den": "2c",
+            "value": 2,
+            "glyph": "2",
+            "tint": "#C97B43",
+            "diameter": 19
+          },
+          {
+            "den": "5c",
+            "value": 5,
+            "glyph": "5",
+            "tint": "#B87333",
+            "diameter": 21
+          },
+          {
+            "den": "10c",
+            "value": 10,
+            "glyph": "10",
+            "tint": "#D4AF37",
+            "diameter": 20
+          },
+          {
+            "den": "20c",
+            "value": 20,
+            "glyph": "20",
+            "tint": "#D4AF37",
+            "diameter": 22
+          },
+          {
+            "den": "50c",
+            "value": 50,
+            "glyph": "50",
+            "tint": "#C9A227",
+            "diameter": 24
+          },
+          {
+            "den": "1e",
+            "value": 100,
+            "glyph": "1€",
+            "tint": "#C9CBD4",
+            "diameter": 23
+          },
+          {
+            "den": "2e",
+            "value": 200,
+            "glyph": "2€",
+            "tint": "#B8B8B8",
+            "diameter": 26
+          }
         ],
         "fr": [
-          { "den": "1c", "value": 1, "glyph": "1", "tint": "#C97B43", "diameter": 16 },
-          { "den": "2c", "value": 2, "glyph": "2", "tint": "#C97B43", "diameter": 19 },
-          { "den": "5c", "value": 5, "glyph": "5", "tint": "#B87333", "diameter": 21 },
-          { "den": "10c", "value": 10, "glyph": "10", "tint": "#D4AF37", "diameter": 20 },
-          { "den": "20c", "value": 20, "glyph": "20", "tint": "#D4AF37", "diameter": 22 },
-          { "den": "50c", "value": 50, "glyph": "50", "tint": "#C9A227", "diameter": 24 },
-          { "den": "1e", "value": 100, "glyph": "1€", "tint": "#C9CBD4", "diameter": 23 },
-          { "den": "2e", "value": 200, "glyph": "2€", "tint": "#B8B8B8", "diameter": 26 }
+          {
+            "den": "1c",
+            "value": 1,
+            "glyph": "1",
+            "tint": "#C97B43",
+            "diameter": 16
+          },
+          {
+            "den": "2c",
+            "value": 2,
+            "glyph": "2",
+            "tint": "#C97B43",
+            "diameter": 19
+          },
+          {
+            "den": "5c",
+            "value": 5,
+            "glyph": "5",
+            "tint": "#B87333",
+            "diameter": 21
+          },
+          {
+            "den": "10c",
+            "value": 10,
+            "glyph": "10",
+            "tint": "#D4AF37",
+            "diameter": 20
+          },
+          {
+            "den": "20c",
+            "value": 20,
+            "glyph": "20",
+            "tint": "#D4AF37",
+            "diameter": 22
+          },
+          {
+            "den": "50c",
+            "value": 50,
+            "glyph": "50",
+            "tint": "#C9A227",
+            "diameter": 24
+          },
+          {
+            "den": "1e",
+            "value": 100,
+            "glyph": "1€",
+            "tint": "#C9CBD4",
+            "diameter": 23
+          },
+          {
+            "den": "2e",
+            "value": 200,
+            "glyph": "2€",
+            "tint": "#B8B8B8",
+            "diameter": 26
+          }
         ]
       },
       "roundsL10n": {
         "de": [
-          { "id": "count-euro", "cog": "count-set", "band": 1, "legendTier": "none", "scenario": "Otto zählt die Kasse. Wie viel ist das wert?", "pile": [ { "den": "10c", "count": 2 }, { "den": "1c", "count": 3 } ], "options": [ 20, 23, 25, 26 ] },
-          { "id": "make-30", "cog": "make-amount", "band": 2, "legendTier": "none", "target": 30, "scenario": "Eine Muschel kostet 30 Cent. Bezahle Otto genau.", "purse": [ "20c", "5c", "10c", "10c", "1c", "1c", "5c", "20c" ] },
-          { "id": "make-41", "cog": "make-amount", "band": 3, "legendTier": "none", "target": 41, "scenario": "Ein Krebs kostet 41 Cent. Bezahle den genauen Preis.", "purse": [ "20c", "10c", "10c", "5c", "1c", "20c", "5c", "1c" ] },
-          { "id": "fewest-35", "cog": "fewest", "band": 2, "legendTier": "none", "target": 35, "scenario": "Der Drachen kostet 35 Cent – nimm die wenigsten Münzen.", "purse": [ "20c", "10c", "10c", "5c", "1c", "20c", "5c", "1c" ] },
-          { "id": "fewest-30", "cog": "fewest", "band": 2, "legendTier": "none", "target": 30, "scenario": "Ein Apfel kostet 30 Cent – nimm so wenige Münzen wie möglich.", "purse": [ "20c", "5c", "10c", "10c", "1c", "20c", "5c", "1c" ] },
-          { "id": "change-70", "cog": "change", "band": 3, "legendTier": "none", "price": 70, "paid": 100, "scenario": "Ein Buch kostet 70 Cent. Du zahlst 1 Euro. Gib das Wechselgeld.", "purse": [ "20c", "5c", "10c", "10c", "1c", "1c", "5c", "20c" ] },
-          { "id": "change-30", "cog": "change", "band": 2, "legendTier": "none", "price": 30, "paid": 50, "scenario": "Ein Kieselstein kostet 30 Cent. Du zahlst 50 Cent. Wie viel Wechselgeld?", "purse": [ "10c", "10c", "5c", "5c", "1c", "1c", "10c", "20c" ] },
-          { "id": "enough-35", "cog": "enough", "band": 3, "legendTier": "none", "price": 35, "scenario": "Du hast diese Münzen. Der Käse kostet 35 Cent. Reicht das?", "pile": [ { "den": "20c", "count": 1 }, { "den": "10c", "count": 1 } ] },
-          { "id": "enough-40", "cog": "enough", "band": 2, "legendTier": "none", "price": 40, "scenario": "Du hast diese Münzen. Der Stern kostet 40 Cent. Reicht das?", "pile": [ { "den": "20c", "count": 2 } ] },
-          { "id": "twoways-20", "cog": "two-ways", "band": 3, "legendTier": "none", "target": 20, "scenario": "20 Cent sind ein 20-Cent-Stück. Mache 20 Cent auf eine neue Weise!", "shownSet": [ "20c" ], "purse": [ "10c", "10c", "5c", "5c", "1c", "20c", "10c", "5c" ] },
-          { "id": "twoways-30", "cog": "two-ways", "band": 2, "legendTier": "none", "target": 30, "scenario": "Otto hat 30 Cent aus drei 10-Cent-Stücken gelegt. Mache 30 Cent anders!", "shownSet": [ "10c", "10c", "10c" ], "purse": [ "20c", "5c", "10c", "1c", "20c", "5c", "10c", "5c" ] },
-          { "id": "trade-50", "cog": "trade", "band": 3, "legendTier": "none", "offer": { "den": "50c", "count": 1 }, "scenario": "Keine 50-Cent-Stücke mehr! Tausche Münzen im Wert von 50 Cent.", "purse": [ "20c", "20c", "10c", "5c", "5c", "20c", "10c", "5c" ] },
-          { "id": "trade-10", "cog": "trade", "band": 2, "legendTier": "none", "offer": { "den": "10c", "count": 1 }, "scenario": "Otto braucht Wechselgeld für ein 10-Cent-Stück. Tausche Münzen im Wert von 10 Cent!", "purse": [ "5c", "5c", "2c", "2c", "5c", "1c", "5c", "10c" ] },
-          { "id": "make-16", "cog": "make-amount", "band": 1, "legendTier": "none", "target": 16, "scenario": "Eine Nuss kostet 16 Cent. Bezahle genau.", "purse": [ "10c", "5c", "1c", "1c", "10c", "5c", "20c", "1c" ] }
+          {
+            "id": "count-euro",
+            "cog": "count-set",
+            "band": 1,
+            "legendTier": "none",
+            "scenario": "Otto zählt die Kasse. Wie viel ist das wert?",
+            "pile": [
+              {
+                "den": "10c",
+                "count": 2
+              },
+              {
+                "den": "1c",
+                "count": 3
+              }
+            ],
+            "options": [
+              20,
+              23,
+              25,
+              26
+            ]
+          },
+          {
+            "id": "make-30",
+            "cog": "make-amount",
+            "band": 2,
+            "legendTier": "none",
+            "target": 30,
+            "scenario": "Eine Muschel kostet 30 Cent. Bezahle Otto genau.",
+            "purse": [
+              "20c",
+              "5c",
+              "10c",
+              "10c",
+              "1c",
+              "1c",
+              "5c",
+              "20c"
+            ]
+          },
+          {
+            "id": "make-41",
+            "cog": "make-amount",
+            "band": 3,
+            "legendTier": "none",
+            "target": 41,
+            "scenario": "Ein Krebs kostet 41 Cent. Bezahle den genauen Preis.",
+            "purse": [
+              "20c",
+              "10c",
+              "10c",
+              "5c",
+              "1c",
+              "20c",
+              "5c",
+              "1c"
+            ]
+          },
+          {
+            "id": "fewest-35",
+            "cog": "fewest",
+            "band": 2,
+            "legendTier": "none",
+            "target": 35,
+            "scenario": "Der Drachen kostet 35 Cent – nimm die wenigsten Münzen.",
+            "purse": [
+              "20c",
+              "10c",
+              "10c",
+              "5c",
+              "1c",
+              "20c",
+              "5c",
+              "1c"
+            ]
+          },
+          {
+            "id": "fewest-30",
+            "cog": "fewest",
+            "band": 2,
+            "legendTier": "none",
+            "target": 30,
+            "scenario": "Ein Apfel kostet 30 Cent – nimm so wenige Münzen wie möglich.",
+            "purse": [
+              "20c",
+              "5c",
+              "10c",
+              "10c",
+              "1c",
+              "20c",
+              "5c",
+              "1c"
+            ]
+          },
+          {
+            "id": "change-70",
+            "cog": "change",
+            "band": 3,
+            "legendTier": "none",
+            "price": 70,
+            "paid": 100,
+            "scenario": "Ein Buch kostet 70 Cent. Du zahlst 1 Euro. Gib das Wechselgeld.",
+            "purse": [
+              "20c",
+              "5c",
+              "10c",
+              "10c",
+              "1c",
+              "1c",
+              "5c",
+              "20c"
+            ]
+          },
+          {
+            "id": "change-30",
+            "cog": "change",
+            "band": 2,
+            "legendTier": "none",
+            "price": 30,
+            "paid": 50,
+            "scenario": "Ein Kieselstein kostet 30 Cent. Du zahlst 50 Cent. Wie viel Wechselgeld?",
+            "purse": [
+              "10c",
+              "10c",
+              "5c",
+              "5c",
+              "1c",
+              "1c",
+              "10c",
+              "20c"
+            ]
+          },
+          {
+            "id": "enough-35",
+            "cog": "enough",
+            "band": 3,
+            "legendTier": "none",
+            "price": 35,
+            "scenario": "Du hast diese Münzen. Der Käse kostet 35 Cent. Reicht das?",
+            "pile": [
+              {
+                "den": "20c",
+                "count": 1
+              },
+              {
+                "den": "10c",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "id": "enough-40",
+            "cog": "enough",
+            "band": 2,
+            "legendTier": "none",
+            "price": 40,
+            "scenario": "Du hast diese Münzen. Der Stern kostet 40 Cent. Reicht das?",
+            "pile": [
+              {
+                "den": "20c",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "id": "twoways-20",
+            "cog": "two-ways",
+            "band": 3,
+            "legendTier": "none",
+            "target": 20,
+            "scenario": "20 Cent sind ein 20-Cent-Stück. Mache 20 Cent auf eine neue Weise!",
+            "shownSet": [
+              "20c"
+            ],
+            "purse": [
+              "10c",
+              "10c",
+              "5c",
+              "5c",
+              "1c",
+              "20c",
+              "10c",
+              "5c"
+            ]
+          },
+          {
+            "id": "twoways-30",
+            "cog": "two-ways",
+            "band": 2,
+            "legendTier": "none",
+            "target": 30,
+            "scenario": "Otto hat 30 Cent aus drei 10-Cent-Stücken gelegt. Mache 30 Cent anders!",
+            "shownSet": [
+              "10c",
+              "10c",
+              "10c"
+            ],
+            "purse": [
+              "20c",
+              "5c",
+              "10c",
+              "1c",
+              "20c",
+              "5c",
+              "10c",
+              "5c"
+            ]
+          },
+          {
+            "id": "trade-50",
+            "cog": "trade",
+            "band": 3,
+            "legendTier": "none",
+            "offer": {
+              "den": "50c",
+              "count": 1
+            },
+            "scenario": "Keine 50-Cent-Stücke mehr! Tausche Münzen im Wert von 50 Cent.",
+            "purse": [
+              "20c",
+              "20c",
+              "10c",
+              "5c",
+              "5c",
+              "20c",
+              "10c",
+              "5c"
+            ]
+          },
+          {
+            "id": "trade-10",
+            "cog": "trade",
+            "band": 2,
+            "legendTier": "none",
+            "offer": {
+              "den": "10c",
+              "count": 1
+            },
+            "scenario": "Otto braucht Wechselgeld für ein 10-Cent-Stück. Tausche Münzen im Wert von 10 Cent!",
+            "purse": [
+              "5c",
+              "5c",
+              "2c",
+              "2c",
+              "5c",
+              "1c",
+              "5c",
+              "10c"
+            ]
+          },
+          {
+            "id": "make-16",
+            "cog": "make-amount",
+            "band": 1,
+            "legendTier": "none",
+            "target": 16,
+            "scenario": "Eine Nuss kostet 16 Cent. Bezahle genau.",
+            "purse": [
+              "10c",
+              "5c",
+              "1c",
+              "1c",
+              "10c",
+              "5c",
+              "20c",
+              "1c"
+            ]
+          }
         ],
         "fr": [
-          { "id": "count-euro", "cog": "count-set", "band": 1, "legendTier": "none", "scenario": "Filou compte la caisse. Combien ça fait ?", "pile": [ { "den": "10c", "count": 2 }, { "den": "1c", "count": 3 } ], "options": [ 20, 23, 25, 26 ] },
-          { "id": "make-30", "cog": "make-amount", "band": 2, "legendTier": "none", "target": 30, "scenario": "Un coquillage coûte 30 centimes. Paie Filou exactement.", "purse": [ "20c", "5c", "10c", "10c", "1c", "1c", "5c", "20c" ] },
-          { "id": "make-41", "cog": "make-amount", "band": 3, "legendTier": "none", "target": 41, "scenario": "Un crabe coûte 41 centimes. Paie le prix exact.", "purse": [ "20c", "10c", "10c", "5c", "1c", "20c", "5c", "1c" ] },
-          { "id": "fewest-35", "cog": "fewest", "band": 2, "legendTier": "none", "target": 35, "scenario": "Le cerf-volant coûte 35 centimes — prends le moins de pièces possible.", "purse": [ "20c", "10c", "10c", "5c", "1c", "20c", "5c", "1c" ] },
-          { "id": "fewest-30", "cog": "fewest", "band": 2, "legendTier": "none", "target": 30, "scenario": "Une pomme coûte 30 centimes — prends le moins de pièces possible.", "purse": [ "20c", "5c", "10c", "10c", "1c", "20c", "5c", "1c" ] },
-          { "id": "change-70", "cog": "change", "band": 3, "legendTier": "none", "price": 70, "paid": 100, "scenario": "Un livre coûte 70 centimes. Tu paies 1 euro. Rends la monnaie.", "purse": [ "20c", "5c", "10c", "10c", "1c", "1c", "5c", "20c" ] },
-          { "id": "change-30", "cog": "change", "band": 2, "legendTier": "none", "price": 30, "paid": 50, "scenario": "Un caillou coûte 30 centimes. Tu paies 50 centimes. Combien rends-tu ?", "purse": [ "10c", "10c", "5c", "5c", "1c", "1c", "10c", "20c" ] },
-          { "id": "enough-35", "cog": "enough", "band": 3, "legendTier": "none", "price": 35, "scenario": "Tu as ces pièces. Le fromage coûte 35 centimes. Est-ce assez ?", "pile": [ { "den": "20c", "count": 1 }, { "den": "10c", "count": 1 } ] },
-          { "id": "enough-40", "cog": "enough", "band": 2, "legendTier": "none", "price": 40, "scenario": "Tu as ces pièces. L'étoile de mer coûte 40 centimes. Est-ce assez ?", "pile": [ { "den": "20c", "count": 2 } ] },
-          { "id": "twoways-20", "cog": "two-ways", "band": 3, "legendTier": "none", "target": 20, "scenario": "20 centimes, c'est une pièce de 20 centimes. Fais 20 centimes autrement !", "shownSet": [ "20c" ], "purse": [ "10c", "10c", "5c", "5c", "1c", "20c", "10c", "5c" ] },
-          { "id": "twoways-30", "cog": "two-ways", "band": 2, "legendTier": "none", "target": 30, "scenario": "Filou a fait 30 centimes avec trois pièces de 10 centimes. Fais 30 centimes autrement !", "shownSet": [ "10c", "10c", "10c" ], "purse": [ "20c", "5c", "10c", "1c", "20c", "5c", "10c", "5c" ] },
-          { "id": "trade-50", "cog": "trade", "band": 3, "legendTier": "none", "offer": { "den": "50c", "count": 1 }, "scenario": "Plus de pièces de 50 centimes ! Échange des pièces qui valent 50 centimes.", "purse": [ "20c", "20c", "10c", "5c", "5c", "20c", "10c", "5c" ] },
-          { "id": "trade-10", "cog": "trade", "band": 2, "legendTier": "none", "offer": { "den": "10c", "count": 1 }, "scenario": "Filou a besoin de monnaie pour une pièce de 10 centimes. Échange des pièces qui valent 10 centimes.", "purse": [ "5c", "5c", "2c", "2c", "5c", "1c", "5c", "10c" ] },
-          { "id": "make-16", "cog": "make-amount", "band": 1, "legendTier": "none", "target": 16, "scenario": "Une noix coûte 16 centimes. Paie exactement.", "purse": [ "10c", "5c", "1c", "1c", "10c", "5c", "20c", "1c" ] }
+          {
+            "id": "count-euro",
+            "cog": "count-set",
+            "band": 1,
+            "legendTier": "none",
+            "scenario": "Filou compte la caisse. Combien ça fait ?",
+            "pile": [
+              {
+                "den": "10c",
+                "count": 2
+              },
+              {
+                "den": "1c",
+                "count": 3
+              }
+            ],
+            "options": [
+              20,
+              23,
+              25,
+              26
+            ]
+          },
+          {
+            "id": "make-30",
+            "cog": "make-amount",
+            "band": 2,
+            "legendTier": "none",
+            "target": 30,
+            "scenario": "Un coquillage coûte 30 centimes. Paie Filou exactement.",
+            "purse": [
+              "20c",
+              "5c",
+              "10c",
+              "10c",
+              "1c",
+              "1c",
+              "5c",
+              "20c"
+            ]
+          },
+          {
+            "id": "make-41",
+            "cog": "make-amount",
+            "band": 3,
+            "legendTier": "none",
+            "target": 41,
+            "scenario": "Un crabe coûte 41 centimes. Paie le prix exact.",
+            "purse": [
+              "20c",
+              "10c",
+              "10c",
+              "5c",
+              "1c",
+              "20c",
+              "5c",
+              "1c"
+            ]
+          },
+          {
+            "id": "fewest-35",
+            "cog": "fewest",
+            "band": 2,
+            "legendTier": "none",
+            "target": 35,
+            "scenario": "Le cerf-volant coûte 35 centimes — prends le moins de pièces possible.",
+            "purse": [
+              "20c",
+              "10c",
+              "10c",
+              "5c",
+              "1c",
+              "20c",
+              "5c",
+              "1c"
+            ]
+          },
+          {
+            "id": "fewest-30",
+            "cog": "fewest",
+            "band": 2,
+            "legendTier": "none",
+            "target": 30,
+            "scenario": "Une pomme coûte 30 centimes — prends le moins de pièces possible.",
+            "purse": [
+              "20c",
+              "5c",
+              "10c",
+              "10c",
+              "1c",
+              "20c",
+              "5c",
+              "1c"
+            ]
+          },
+          {
+            "id": "change-70",
+            "cog": "change",
+            "band": 3,
+            "legendTier": "none",
+            "price": 70,
+            "paid": 100,
+            "scenario": "Un livre coûte 70 centimes. Tu paies 1 euro. Rends la monnaie.",
+            "purse": [
+              "20c",
+              "5c",
+              "10c",
+              "10c",
+              "1c",
+              "1c",
+              "5c",
+              "20c"
+            ]
+          },
+          {
+            "id": "change-30",
+            "cog": "change",
+            "band": 2,
+            "legendTier": "none",
+            "price": 30,
+            "paid": 50,
+            "scenario": "Un caillou coûte 30 centimes. Tu paies 50 centimes. Combien rends-tu ?",
+            "purse": [
+              "10c",
+              "10c",
+              "5c",
+              "5c",
+              "1c",
+              "1c",
+              "10c",
+              "20c"
+            ]
+          },
+          {
+            "id": "enough-35",
+            "cog": "enough",
+            "band": 3,
+            "legendTier": "none",
+            "price": 35,
+            "scenario": "Tu as ces pièces. Le fromage coûte 35 centimes. Est-ce assez ?",
+            "pile": [
+              {
+                "den": "20c",
+                "count": 1
+              },
+              {
+                "den": "10c",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "id": "enough-40",
+            "cog": "enough",
+            "band": 2,
+            "legendTier": "none",
+            "price": 40,
+            "scenario": "Tu as ces pièces. L'étoile de mer coûte 40 centimes. Est-ce assez ?",
+            "pile": [
+              {
+                "den": "20c",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "id": "twoways-20",
+            "cog": "two-ways",
+            "band": 3,
+            "legendTier": "none",
+            "target": 20,
+            "scenario": "20 centimes, c'est une pièce de 20 centimes. Fais 20 centimes autrement !",
+            "shownSet": [
+              "20c"
+            ],
+            "purse": [
+              "10c",
+              "10c",
+              "5c",
+              "5c",
+              "1c",
+              "20c",
+              "10c",
+              "5c"
+            ]
+          },
+          {
+            "id": "twoways-30",
+            "cog": "two-ways",
+            "band": 2,
+            "legendTier": "none",
+            "target": 30,
+            "scenario": "Filou a fait 30 centimes avec trois pièces de 10 centimes. Fais 30 centimes autrement !",
+            "shownSet": [
+              "10c",
+              "10c",
+              "10c"
+            ],
+            "purse": [
+              "20c",
+              "5c",
+              "10c",
+              "1c",
+              "20c",
+              "5c",
+              "10c",
+              "5c"
+            ]
+          },
+          {
+            "id": "trade-50",
+            "cog": "trade",
+            "band": 3,
+            "legendTier": "none",
+            "offer": {
+              "den": "50c",
+              "count": 1
+            },
+            "scenario": "Plus de pièces de 50 centimes ! Échange des pièces qui valent 50 centimes.",
+            "purse": [
+              "20c",
+              "20c",
+              "10c",
+              "5c",
+              "5c",
+              "20c",
+              "10c",
+              "5c"
+            ]
+          },
+          {
+            "id": "trade-10",
+            "cog": "trade",
+            "band": 2,
+            "legendTier": "none",
+            "offer": {
+              "den": "10c",
+              "count": 1
+            },
+            "scenario": "Filou a besoin de monnaie pour une pièce de 10 centimes. Échange des pièces qui valent 10 centimes.",
+            "purse": [
+              "5c",
+              "5c",
+              "2c",
+              "2c",
+              "5c",
+              "1c",
+              "5c",
+              "10c"
+            ]
+          },
+          {
+            "id": "make-16",
+            "cog": "make-amount",
+            "band": 1,
+            "legendTier": "none",
+            "target": 16,
+            "scenario": "Une noix coûte 16 centimes. Paie exactement.",
+            "purse": [
+              "10c",
+              "5c",
+              "1c",
+              "1c",
+              "10c",
+              "5c",
+              "20c",
+              "1c"
+            ]
+          }
         ]
       }
     },
@@ -154,12 +989,12 @@
     },
     "page_title": {
       "en": "Pip's Market Stall — Counting Coins & Making Change",
-      "de": "Otto der Otter: Rechnen mit Euro und Cent (Klasse 2)",
+      "de": "Rechnen mit Geld – Euro und Cent online üben (Klasse 2)",
       "fr": "Payer et rendre la monnaie en euros et centimes – L'étal de Filou | CE1"
     },
     "page_intro": {
       "en": "Pay at Pip the otter's seaside market stall! Read each word problem, then pick real coins — penny, nickel, dime, quarter — and pay the exact price, count a pile, make change, or trade coins of equal value. The catch: the value isn't written on the coin, so you have to KNOW what each one is worth. A warm Grade 2 money game (and yes — the tiny dime is worth more than the bigger nickel!), aligned to Common Core 2.MD.C.8.",
-      "de": "Otto der Otter hat einen kleinen Marktstand, und dein Kind darf bei ihm einkaufen. Es liest eine kurze Sachaufgabe, legt echte Euro-Münzen hin, um genau zu bezahlen, zählt Münzhaufen zusammen oder gibt Wechselgeld heraus. Alles ist kostenlos, ganz ohne Zeitdruck und ohne Punkte – dein Kind darf so lange überlegen und Münzen umlegen, wie es möchte.",
+      "de": "Rechnen mit Geld in Klasse 2: mit Euro und Cent an Ottos Stand bezahlen und rechnen. Kostenlos online üben, ohne Anmeldung.",
       "fr": "Filou la loutre tient un petit étal au bord de la mer, et ton enfant vient y faire ses achats ! Il lit un petit problème, choisit de vraies pièces en euros et en centimes pour payer le prix exact, compter un tas de pièces, rendre la monnaie ou échanger des pièces de même valeur. Le piège : la valeur n'est pas écrite sur la pièce — il faut connaître ce que vaut chacune (et oui, la petite pièce de 10 centimes vaut plus que la plus grosse de 5 centimes !). Un jeu de CE1 sur la monnaie. Gratuit et interactif."
     },
     "kid_prompt_template": "coin-stall"

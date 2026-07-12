@@ -3,37 +3,461 @@
     "id": "domino-two-part.two-syllable.rf-1-3-e",
     "tool": "domino-two-part-activity",
     "task_template": "two-syllable",
-    "alignment": { "framework": "CCSS", "code": "RF.1.3.e", "grade": "1", "strand": "Reading: Foundational Skills" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.1.3.e",
+      "grade": "1",
+      "strand": "Reading: Foundational Skills"
+    },
     "params": {
       "rounds": [
-        { "id": "rabbit", "band": 1, "word": "rabbit", "syl": ["rab", "bit"], "choices": [ { "noun": "rabbit", "themeDir": "animals" }, { "noun": "ribbon", "themeDir": "accessories" }, { "noun": "robot", "themeDir": "toys" } ] },
-        { "id": "basket", "band": 1, "word": "basket", "syl": ["bas", "ket"], "choices": [ { "noun": "bucket", "themeDir": "beach" }, { "noun": "basket", "themeDir": "At the Supermarket" }, { "noun": "muffin", "themeDir": "At the Supermarket" } ] },
-        { "id": "pencil", "band": 1, "word": "pencil", "syl": ["pen", "cil"], "choices": [ { "noun": "pizza", "themeDir": "At the Supermarket" }, { "noun": "panda", "themeDir": "animals" }, { "noun": "pencil", "themeDir": "around the house" } ] },
-        { "id": "tiger", "band": 2, "word": "tiger", "syl": ["ti", "ger"], "choices": [ { "noun": "tiger", "themeDir": "animals" }, { "noun": "table", "themeDir": "around the house" }, { "noun": "turtle", "themeDir": "animals" } ] },
-        { "id": "carrot", "band": 2, "word": "carrot", "syl": ["car", "rot"], "choices": [ { "noun": "camel", "themeDir": "animals" }, { "noun": "carrot", "themeDir": "At the Supermarket" }, { "noun": "rabbit", "themeDir": "animals" } ] },
-        { "id": "monkey", "band": 2, "word": "monkey", "syl": ["mon", "key"], "choices": [ { "noun": "donkey", "themeDir": "animals" }, { "noun": "muffin", "themeDir": "At the Supermarket" }, { "noun": "monkey", "themeDir": "zoo animals" } ] },
-        { "id": "rocket", "band": 3, "word": "rocket", "syl": ["rock", "et"], "choices": [ { "noun": "rocket", "themeDir": "space" }, { "noun": "jacket", "themeDir": "clothing" }, { "noun": "ribbon", "themeDir": "accessories" } ] },
-        { "id": "lemon", "band": 3, "word": "lemon", "syl": ["lem", "on"], "choices": [ { "noun": "tiger", "themeDir": "animals" }, { "noun": "lemon", "themeDir": "At the Supermarket" }, { "noun": "robot", "themeDir": "toys" } ] }
+        {
+          "id": "rabbit",
+          "band": 1,
+          "word": "rabbit",
+          "syl": [
+            "rab",
+            "bit"
+          ],
+          "choices": [
+            {
+              "noun": "rabbit",
+              "themeDir": "animals"
+            },
+            {
+              "noun": "ribbon",
+              "themeDir": "accessories"
+            },
+            {
+              "noun": "robot",
+              "themeDir": "toys"
+            }
+          ]
+        },
+        {
+          "id": "basket",
+          "band": 1,
+          "word": "basket",
+          "syl": [
+            "bas",
+            "ket"
+          ],
+          "choices": [
+            {
+              "noun": "bucket",
+              "themeDir": "beach"
+            },
+            {
+              "noun": "basket",
+              "themeDir": "At the Supermarket"
+            },
+            {
+              "noun": "muffin",
+              "themeDir": "At the Supermarket"
+            }
+          ]
+        },
+        {
+          "id": "pencil",
+          "band": 1,
+          "word": "pencil",
+          "syl": [
+            "pen",
+            "cil"
+          ],
+          "choices": [
+            {
+              "noun": "pizza",
+              "themeDir": "At the Supermarket"
+            },
+            {
+              "noun": "panda",
+              "themeDir": "animals"
+            },
+            {
+              "noun": "pencil",
+              "themeDir": "around the house"
+            }
+          ]
+        },
+        {
+          "id": "tiger",
+          "band": 2,
+          "word": "tiger",
+          "syl": [
+            "ti",
+            "ger"
+          ],
+          "choices": [
+            {
+              "noun": "tiger",
+              "themeDir": "animals"
+            },
+            {
+              "noun": "table",
+              "themeDir": "around the house"
+            },
+            {
+              "noun": "turtle",
+              "themeDir": "animals"
+            }
+          ]
+        },
+        {
+          "id": "carrot",
+          "band": 2,
+          "word": "carrot",
+          "syl": [
+            "car",
+            "rot"
+          ],
+          "choices": [
+            {
+              "noun": "camel",
+              "themeDir": "animals"
+            },
+            {
+              "noun": "carrot",
+              "themeDir": "At the Supermarket"
+            },
+            {
+              "noun": "rabbit",
+              "themeDir": "animals"
+            }
+          ]
+        },
+        {
+          "id": "monkey",
+          "band": 2,
+          "word": "monkey",
+          "syl": [
+            "mon",
+            "key"
+          ],
+          "choices": [
+            {
+              "noun": "donkey",
+              "themeDir": "animals"
+            },
+            {
+              "noun": "muffin",
+              "themeDir": "At the Supermarket"
+            },
+            {
+              "noun": "monkey",
+              "themeDir": "zoo animals"
+            }
+          ]
+        },
+        {
+          "id": "rocket",
+          "band": 3,
+          "word": "rocket",
+          "syl": [
+            "rock",
+            "et"
+          ],
+          "choices": [
+            {
+              "noun": "rocket",
+              "themeDir": "space"
+            },
+            {
+              "noun": "jacket",
+              "themeDir": "clothing"
+            },
+            {
+              "noun": "ribbon",
+              "themeDir": "accessories"
+            }
+          ]
+        },
+        {
+          "id": "lemon",
+          "band": 3,
+          "word": "lemon",
+          "syl": [
+            "lem",
+            "on"
+          ],
+          "choices": [
+            {
+              "noun": "tiger",
+              "themeDir": "animals"
+            },
+            {
+              "noun": "lemon",
+              "themeDir": "At the Supermarket"
+            },
+            {
+              "noun": "robot",
+              "themeDir": "toys"
+            }
+          ]
+        }
       ],
       "roundsL10n": {
         "//": "de = German Silbenlesen. `word` = the correct choice's EN image-key (Core.grade: choice.noun===word, 0-core). `displayWord`/`displaySyl` = the German word shown+split to the child; per-choice `de` = the German tile label.",
         "de": [
-          { "id": "katze", "band": 1, "word": "cat", "displayWord": "Katze", "displaySyl": ["Kat", "ze"], "choices": [ { "noun": "cat", "themeDir": "animals", "de": "Katze" }, { "noun": "camel", "themeDir": "animals", "de": "Kamel" }, { "noun": "cake", "themeDir": "bakery", "de": "Kuchen" } ] },
-          { "id": "hase", "band": 1, "word": "rabbit", "displayWord": "Hase", "displaySyl": ["Ha", "se"], "choices": [ { "noun": "rabbit", "themeDir": "animals", "de": "Hase" }, { "noun": "glove", "themeDir": "accessories", "de": "Handschuh" }, { "noun": "cat", "themeDir": "animals", "de": "Katze" } ] },
-          { "id": "affe", "band": 1, "word": "monkey", "displayWord": "Affe", "displaySyl": ["Af", "fe"], "choices": [ { "noun": "monkey", "themeDir": "zoo animals", "de": "Affe" }, { "noun": "apple", "themeDir": "fruits", "de": "Apfel" }, { "noun": "donkey", "themeDir": "animals", "de": "Esel" } ] },
-          { "id": "esel", "band": 2, "word": "donkey", "displayWord": "Esel", "displaySyl": ["E", "sel"], "choices": [ { "noun": "donkey", "themeDir": "animals", "de": "Esel" }, { "noun": "acorn", "themeDir": "miscellaneous", "de": "Eichel" }, { "noun": "apple", "themeDir": "fruits", "de": "Apfel" } ] },
-          { "id": "apfel", "band": 2, "word": "apple", "displayWord": "Apfel", "displaySyl": ["Ap", "fel"], "choices": [ { "noun": "apple", "themeDir": "fruits", "de": "Apfel" }, { "noun": "monkey", "themeDir": "zoo animals", "de": "Affe" }, { "noun": "acorn", "themeDir": "miscellaneous", "de": "Eichel" } ] },
-          { "id": "glocke", "band": 2, "word": "bell", "displayWord": "Glocke", "displaySyl": ["Glo", "cke"], "choices": [ { "noun": "bell", "themeDir": "christmas", "de": "Glocke" }, { "noun": "sock", "themeDir": "accessories", "de": "Socke" }, { "noun": "cake", "themeDir": "bakery", "de": "Kuchen" } ] },
-          { "id": "schinken", "band": 3, "word": "ham", "displayWord": "Schinken", "displaySyl": ["Schin", "ken"], "choices": [ { "noun": "ham", "themeDir": "At the Supermarket", "de": "Schinken" }, { "noun": "snowman", "themeDir": "winter", "de": "Schneemann" }, { "noun": "starfish", "themeDir": "beach", "de": "Seestern" } ] },
-          { "id": "baecker", "band": 3, "word": "baker", "displayWord": "Bäcker", "displaySyl": ["Bä", "cker"], "choices": [ { "noun": "baker", "themeDir": "occupations", "de": "Bäcker" }, { "noun": "brush", "themeDir": "around the house", "de": "Bürste" }, { "noun": "starfish", "themeDir": "beach", "de": "Seestern" } ] },
-          { "id": "seestern", "band": 3, "word": "starfish", "displayWord": "Seestern", "displaySyl": ["See", "stern"], "choices": [ { "noun": "starfish", "themeDir": "beach", "de": "Seestern" }, { "noun": "sock", "themeDir": "accessories", "de": "Socke" }, { "noun": "ham", "themeDir": "At the Supermarket", "de": "Schinken" } ] }
+          {
+            "id": "katze",
+            "band": 1,
+            "word": "cat",
+            "displayWord": "Katze",
+            "displaySyl": [
+              "Kat",
+              "ze"
+            ],
+            "choices": [
+              {
+                "noun": "cat",
+                "themeDir": "animals",
+                "de": "Katze"
+              },
+              {
+                "noun": "camel",
+                "themeDir": "animals",
+                "de": "Kamel"
+              },
+              {
+                "noun": "cake",
+                "themeDir": "bakery",
+                "de": "Kuchen"
+              }
+            ]
+          },
+          {
+            "id": "hase",
+            "band": 1,
+            "word": "rabbit",
+            "displayWord": "Hase",
+            "displaySyl": [
+              "Ha",
+              "se"
+            ],
+            "choices": [
+              {
+                "noun": "rabbit",
+                "themeDir": "animals",
+                "de": "Hase"
+              },
+              {
+                "noun": "glove",
+                "themeDir": "accessories",
+                "de": "Handschuh"
+              },
+              {
+                "noun": "cat",
+                "themeDir": "animals",
+                "de": "Katze"
+              }
+            ]
+          },
+          {
+            "id": "affe",
+            "band": 1,
+            "word": "monkey",
+            "displayWord": "Affe",
+            "displaySyl": [
+              "Af",
+              "fe"
+            ],
+            "choices": [
+              {
+                "noun": "monkey",
+                "themeDir": "zoo animals",
+                "de": "Affe"
+              },
+              {
+                "noun": "apple",
+                "themeDir": "fruits",
+                "de": "Apfel"
+              },
+              {
+                "noun": "donkey",
+                "themeDir": "animals",
+                "de": "Esel"
+              }
+            ]
+          },
+          {
+            "id": "esel",
+            "band": 2,
+            "word": "donkey",
+            "displayWord": "Esel",
+            "displaySyl": [
+              "E",
+              "sel"
+            ],
+            "choices": [
+              {
+                "noun": "donkey",
+                "themeDir": "animals",
+                "de": "Esel"
+              },
+              {
+                "noun": "acorn",
+                "themeDir": "miscellaneous",
+                "de": "Eichel"
+              },
+              {
+                "noun": "apple",
+                "themeDir": "fruits",
+                "de": "Apfel"
+              }
+            ]
+          },
+          {
+            "id": "apfel",
+            "band": 2,
+            "word": "apple",
+            "displayWord": "Apfel",
+            "displaySyl": [
+              "Ap",
+              "fel"
+            ],
+            "choices": [
+              {
+                "noun": "apple",
+                "themeDir": "fruits",
+                "de": "Apfel"
+              },
+              {
+                "noun": "monkey",
+                "themeDir": "zoo animals",
+                "de": "Affe"
+              },
+              {
+                "noun": "acorn",
+                "themeDir": "miscellaneous",
+                "de": "Eichel"
+              }
+            ]
+          },
+          {
+            "id": "glocke",
+            "band": 2,
+            "word": "bell",
+            "displayWord": "Glocke",
+            "displaySyl": [
+              "Glo",
+              "cke"
+            ],
+            "choices": [
+              {
+                "noun": "bell",
+                "themeDir": "christmas",
+                "de": "Glocke"
+              },
+              {
+                "noun": "sock",
+                "themeDir": "accessories",
+                "de": "Socke"
+              },
+              {
+                "noun": "cake",
+                "themeDir": "bakery",
+                "de": "Kuchen"
+              }
+            ]
+          },
+          {
+            "id": "schinken",
+            "band": 3,
+            "word": "ham",
+            "displayWord": "Schinken",
+            "displaySyl": [
+              "Schin",
+              "ken"
+            ],
+            "choices": [
+              {
+                "noun": "ham",
+                "themeDir": "At the Supermarket",
+                "de": "Schinken"
+              },
+              {
+                "noun": "snowman",
+                "themeDir": "winter",
+                "de": "Schneemann"
+              },
+              {
+                "noun": "starfish",
+                "themeDir": "beach",
+                "de": "Seestern"
+              }
+            ]
+          },
+          {
+            "id": "baecker",
+            "band": 3,
+            "word": "baker",
+            "displayWord": "Bäcker",
+            "displaySyl": [
+              "Bä",
+              "cker"
+            ],
+            "choices": [
+              {
+                "noun": "baker",
+                "themeDir": "occupations",
+                "de": "Bäcker"
+              },
+              {
+                "noun": "brush",
+                "themeDir": "around the house",
+                "de": "Bürste"
+              },
+              {
+                "noun": "starfish",
+                "themeDir": "beach",
+                "de": "Seestern"
+              }
+            ]
+          },
+          {
+            "id": "seestern",
+            "band": 3,
+            "word": "starfish",
+            "displayWord": "Seestern",
+            "displaySyl": [
+              "See",
+              "stern"
+            ],
+            "choices": [
+              {
+                "noun": "starfish",
+                "themeDir": "beach",
+                "de": "Seestern"
+              },
+              {
+                "noun": "sock",
+                "themeDir": "accessories",
+                "de": "Socke"
+              },
+              {
+                "noun": "ham",
+                "themeDir": "At the Supermarket",
+                "de": "Schinken"
+              }
+            ]
+          }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "domino-two-part", "de": "silben-lesen-zweisilbige-woerter-klasse-1" },
-    "page_title": { "en": "Domino's Two-Part Words — Read Two-Syllable Words (Grade 1)", "de": "Pauli der Pinguin: Silben lesen lernen (Klasse 1)" },
-    "page_intro": { "en": "Domino the penguin reads longer words in two parts! Read the word split into its two syllables (rab·bit), blend the parts together, then tap the picture it names. A Grade 1 decoding game, aligned to Common Core RF.1.3.e: decode two-syllable words by breaking them into syllables.", "de": "Mit Pauli dem Pinguin liest dein Kind zweisilbige Wörter Silbe für Silbe und tippt das passende Bild an – kostenlos, interaktiv, ohne Zeitdruck und ohne Konto, passend zum Lehrplan der Grundschule." },
+    "slug": {
+      "en": "domino-two-part",
+      "de": "silben-lesen-zweisilbige-woerter-klasse-1"
+    },
+    "page_title": {
+      "en": "Domino's Two-Part Words — Read Two-Syllable Words (Grade 1)",
+      "de": "Silben lesen üben – zweisilbige Wörter (Klasse 1)"
+    },
+    "page_intro": {
+      "en": "Domino the penguin reads longer words in two parts! Read the word split into its two syllables (rab·bit), blend the parts together, then tap the picture it names. A Grade 1 decoding game, aligned to Common Core RF.1.3.e: decode two-syllable words by breaking them into syllables.",
+      "de": "Silben lesen mit Pauli dem Pinguin: zweisilbige Wörter Silbe für Silbe erlesen und verbinden. Kostenlos online üben, ohne Anmeldung – Klasse 1."
+    },
     "kid_prompt_template": "Read both parts — tap the picture!"
   }
 ]

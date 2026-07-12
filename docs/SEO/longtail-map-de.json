@@ -1,0 +1,4150 @@
+{
+ "locale": "de",
+ "generated": "2026-07-12",
+ "method": "10 native-German SEO mapping agents over keywords-de-k3-500.json; coordinate requests resolved to concrete unused slugs; honest-fit gated.",
+ "stats": {
+  "total": 500,
+  "mapped": 270,
+  "gaps": 230,
+  "byKind": {
+   "landing": 189,
+   "tool": 1,
+   "activity": 71,
+   "maker": 9
+  }
+ },
+ "rows": [
+  {
+   "base": "zahlen vorschule",
+   "segment": "mathe-vorschule",
+   "longtail": "zahlen vorschule arbeitsblätter kostenlos",
+   "target": "landing",
+   "slug": "zahlenfolgen-vorschule",
+   "currentTitle": "Zahlenfolgen Arbeitsblätter Vorschule – fehlende Zahlen bis 20 | zum Ausdrucken (PDF, kostenlos)",
+   "title": "Arbeitsblätter Zahlen Vorschule – Zahlentafeln | PDF kostenlos",
+   "metaDescription": "Zahlen für die Vorschule: Zahlentafeln zum Entdecken und Üben der ersten Zahlen. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "mengen vergleichen",
+   "segment": "mathe-vorschule",
+   "longtail": "mengen vergleichen arbeitsblätter kindergarten",
+   "target": "landing",
+   "slug": "mehr-weniger-bild-bild-fruchte-e201",
+   "currentTitle": "Arbeitsblätter Mehr oder weniger – Früchte | zum Ausdrucken PDF",
+   "title": "Mengen vergleichen – Arbeitsblätter Kindergarten – Obst | PDF",
+   "metaDescription": "Mengen vergleichen im Kindergarten: mehr oder weniger? – Obst. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "zehnerfeld",
+   "segment": "mathe-vorschule",
+   "longtail": "interaktives zehnerfeld für kinder",
+   "target": "tool",
+   "key": "ten-frame",
+   "title": "Interaktives Zehnerfeld für Kinder – kostenlos online",
+   "metaDescription": "Interaktives Zehnerfeld für Kinder: Mengen legen, zählen und Zahlen bis 10 verstehen. Kostenlos online, ohne Anmeldung – ideal für Tafel und Tablet."
+  },
+  {
+   "base": "zahlenraum 10",
+   "segment": "mathe-vorschule",
+   "longtail": "zahlenraum 10 arbeitsblätter kindergarten",
+   "target": "landing",
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-bauernhoftiere-01fc",
+   "currentTitle": "Arbeitsblätter Anlaute suchen – Bauernhoftiere | PDF",
+   "title": "Zahlenraum 10 – Arbeitsblätter Kindergarten – Bauernhoftiere | PDF",
+   "metaDescription": "Zählen im Zahlenraum 10: Suchen-und-Zählen-Blätter – Bauernhoftiere. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "zahlenraum 20",
+   "segment": "mathe-vorschule",
+   "longtail": "zahlenraum 20 arbeitsblätter zum ausdrucken",
+   "target": "landing",
+   "slug": "addition-bild-bild-tiere",
+   "currentTitle": "Arbeitsblätter Addition bis 10 mit Bildern – Tiere | PDF",
+   "title": "Zahlenraum 20 – Arbeitsblätter Plusaufgaben – Tiere | PDF kostenlos",
+   "metaDescription": "Rechnen im Zahlenraum 20: Plusaufgaben mit Bildern – Tiere, 1. Klasse. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "zahlen bis 10",
+   "segment": "mathe-vorschule",
+   "longtail": "zahlen bis 10 arbeitsblätter kindergarten",
+   "target": "GAP",
+   "note": "no-free-slug landing:number-charts/none/vorschule"
+  },
+  {
+   "base": "zahlen schreiben",
+   "segment": "mathe-vorschule",
+   "longtail": "zahlen schreiben üben vorschule",
+   "target": "activity",
+   "id": "digby-number-trace.numeral-formation.k-cc-a-3",
+   "title": "Zahlen schreiben üben – Ziffern 0–9 online nachspuren",
+   "metaDescription": "Zahlen schreiben üben für die Vorschule: Ziffern von 0 bis 9 Schritt für Schritt nachspuren – mit Digby. Kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "nachspuren",
+   "segment": "mathe-vorschule",
+   "longtail": "buchstaben nachspuren online üben",
+   "target": "activity",
+   "id": "penny-alphabet-trace.letter-formation.l-k-1-a",
+   "title": "Buchstaben nachspuren – online üben mit Penny dem Stift",
+   "metaDescription": "Nachspuren üben: Buchstaben richtig formen und online nachfahren – mit Penny dem Stift. Kostenlos online üben, ohne Anmeldung."
+  },
+  {
+   "base": "muster fortsetzen",
+   "segment": "mathe-vorschule",
+   "longtail": "muster fortsetzen kindergarten pdf",
+   "target": "landing",
+   "slug": "muster-zug-formen-c3d6",
+   "currentTitle": "Arbeitsblätter AB-Muster – Formen | zum Ausdrucken PDF kostenlos",
+   "title": "Muster fortsetzen – Kindergarten – Formen | PDF kostenlos",
+   "metaDescription": "Muster fortsetzen im Kindergarten: Was kommt als Nächstes? – Formen-Reihen. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "muster erkennen",
+   "segment": "mathe-vorschule",
+   "longtail": "muster erkennen arbeitsblätter vorschule",
+   "target": "landing",
+   "slug": "muster-arbeitsblatt-farben-797b",
+   "currentTitle": "Arbeitsblätter Muster – Farben | zum Ausdrucken PDF kostenlos",
+   "title": "Muster erkennen – Arbeitsblätter Vorschule – Farben | PDF",
+   "metaDescription": "Muster erkennen und weiterführen: Muster-Arbeitsblätter für die Vorschule – Farben. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "geometrische formen",
+   "segment": "mathe-vorschule",
+   "longtail": "geometrische formen arbeitsblätter kindergarten",
+   "target": "landing",
+   "slug": "formen-vorschule-seiten-ecken",
+   "currentTitle": "Formen Arbeitsblätter Vorschule – Seiten & Ecken zählen | zum Ausdrucken (PDF, kostenlos)",
+   "title": "Geometrische Formen – Arbeitsblätter Kindergarten | PDF kostenlos",
+   "metaDescription": "Geometrische Formen erkennen und unterscheiden: Kreis, Dreieck, Viereck. Kostenlose Arbeitsblätter für den Kindergarten zum Ausdrucken (PDF)."
+  },
+  {
+   "base": "farben und formen",
+   "segment": "mathe-vorschule",
+   "longtail": "farben und formen bingo kindergarten",
+   "target": "landing",
+   "slug": "bingo-formen-a752",
+   "currentTitle": "Arbeitsblätter Bilder-Bingo – Formen | zum Ausdrucken PDF",
+   "title": "Farben und Formen – Bingo für den Kindergarten | PDF kostenlos",
+   "metaDescription": "Farben und Formen spielerisch lernen: Bild-Bingo-Karten – Formen. Kostenlos zum Ausdrucken (PDF) – ideal für Morgenkreis und Kleingruppe."
+  },
+  {
+   "base": "größer kleiner",
+   "segment": "mathe-vorschule",
+   "longtail": "größer kleiner arbeitsblätter kindergarten",
+   "target": "landing",
+   "slug": "gross-klein-grosses-finden-tiere-e63a",
+   "currentTitle": "Arbeitsblätter Das Größte finden – Tiere | zum Ausdrucken PDF",
+   "title": "Größer oder kleiner? – Arbeitsblätter Kindergarten – Tiere | PDF",
+   "metaDescription": "Größer kleiner vergleichen mit Tieren: welches Bild ist groß, welches klein? Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "mehr oder weniger",
+   "segment": "mathe-vorschule",
+   "longtail": "mehr oder weniger vergleichen vorschule",
+   "target": "landing",
+   "slug": "mehr-weniger-bild-bild-spielzeug-cff5",
+   "currentTitle": "Arbeitsblätter Mehr oder weniger – Spielzeug | zum Ausdrucken PDF",
+   "title": "Mehr oder weniger? – Vergleichen in der Vorschule – Spielzeug | PDF",
+   "metaDescription": "Mehr oder weniger vergleichen: Mengen zählen und entscheiden – Spielzeug. Kostenlose Arbeitsblätter für die Vorschule (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "erstes rechnen",
+   "segment": "mathe-vorschule",
+   "longtail": "erstes rechnen arbeitsblätter 1. klasse",
+   "target": "landing",
+   "slug": "addition-bild-bild-bauernhoftiere-cbcf",
+   "currentTitle": "Arbeitsblätter Addition bis 10 mit Bildern – Bauernhoftiere | PDF",
+   "title": "Erstes Rechnen – Arbeitsblätter 1. Klasse – Bauernhoftiere | PDF",
+   "metaDescription": "Erstes Rechnen mit Bildern: Plusaufgaben bis 20 – Bauernhoftiere, 1. Klasse. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "mathe vorschule",
+   "segment": "mathe-vorschule",
+   "longtail": "mathe vorschule arbeitsblätter zum ausdrucken",
+   "target": "landing",
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-spielzeug-2dc3",
+   "currentTitle": "Arbeitsblätter Anlaute suchen – Spielzeug | zum Ausdrucken PDF",
+   "title": "Mathe Vorschule – Suchen und Zählen – Spielzeug | PDF kostenlos",
+   "metaDescription": "Mathe für die Vorschule: Suchen-und-Zählen-Arbeitsblätter – Spielzeug. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt für Kita und Zuhause."
+  },
+  {
+   "base": "arbeitsblätter vorschule",
+   "segment": "mathe-vorschule",
+   "longtail": "arbeitsblätter vorschule zum ausdrucken",
+   "target": "landing",
+   "slug": "schatten-zuordnen-schatten-zuordnen-tiere",
+   "currentTitle": "Arbeitsblätter Schattenbilder – Tiere | zum Ausdrucken PDF",
+   "title": "Arbeitsblätter Vorschule – Schatten zuordnen – Tiere | PDF",
+   "metaDescription": "Arbeitsblätter für die Vorschule zum Ausdrucken: Schatten zuordnen – Tiere. Kostenlos als PDF mit Lösungsblatt, ideal für Kita und Zuhause."
+  },
+  {
+   "base": "übungsblätter vorschule",
+   "segment": "mathe-vorschule",
+   "longtail": "übungsblätter vorschule kostenlos ausdrucken",
+   "target": "landing",
+   "slug": "was-fehlt-1-fehlendes-teil-spielzeug-622e",
+   "currentTitle": "Arbeitsblätter Fehlendes Teil – Spielzeug | zum Ausdrucken PDF",
+   "title": "Übungsblätter Vorschule – fehlende Teile finden – Spielzeug | PDF",
+   "metaDescription": "Übungsblätter für die Vorschule: fehlende Bildteile finden – Spielzeug. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt – genaues Schauen üben."
+  },
+  {
+   "base": "arbeitsblätter kindergarten",
+   "segment": "mathe-vorschule",
+   "longtail": "arbeitsblätter kindergarten zum ausdrucken",
+   "target": "landing",
+   "slug": "muster-zug-tiere-9387",
+   "currentTitle": "Arbeitsblätter AB-Muster – Tiere | zum Ausdrucken PDF kostenlos",
+   "title": "Arbeitsblätter Kindergarten – Muster fortsetzen – Tiere | PDF",
+   "metaDescription": "Arbeitsblätter für den Kindergarten zum Ausdrucken: Muster fortsetzen – Tiere. Kostenlos als PDF mit Lösungsblatt – erstes logisches Denken."
+  },
+  {
+   "base": "sudoku kinder",
+   "segment": "mathe-vorschule",
+   "longtail": "sudoku kinder 4x4 kostenlos",
+   "target": "landing",
+   "slug": "bilder-sudoku-leicht-tiere-16ae",
+   "currentTitle": "Arbeitsblätter Bilder-Sudoku – Tiere | zum Ausdrucken PDF",
+   "title": "Sudoku für Kinder – Bilder-Sudoku 4x4 – Tiere | PDF kostenlos",
+   "metaDescription": "Sudoku für Kinder: einfache 4x4-Bilder-Sudokus mit Tieren für Vorschule und Kita. Kostenlos zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "zählen lernen",
+   "segment": "mathe-vorschule",
+   "longtail": "zählen lernen arbeitsblätter kindergarten",
+   "target": "landing",
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-tiere",
+   "currentTitle": "Arbeitsblätter Anlaute suchen – Tiere | zum Ausdrucken PDF",
+   "title": "Zählen lernen – Arbeitsblätter Kindergarten – Tiere | PDF kostenlos",
+   "metaDescription": "Zählen lernen mit Tieren: Such- und Zählblätter für den Kindergarten. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "zahlen lernen",
+   "segment": "mathe-vorschule",
+   "longtail": "zahlen lernen online kindergarten",
+   "target": "activity",
+   "id": "pips-round.mail-route.k-cc-a-3",
+   "title": "Zahlen lernen – Ziffern bis 20 erkennen, online üben",
+   "metaDescription": "Zahlen lernen im Kindergarten: Ziffern bis 20 lesen und erkennen – mit Pip auf Posttour. Kostenlos online üben, ohne Anmeldung."
+  },
+  {
+   "base": "erste zahlen",
+   "segment": "mathe-vorschule",
+   "longtail": "erste zahlen arbeitsblätter vorschule",
+   "target": "GAP",
+   "note": "no-free-slug landing:number-charts/none/vorschule"
+  },
+  {
+   "base": "mengen erfassen",
+   "segment": "mathe-vorschule",
+   "longtail": "mengen erfassen online üben",
+   "target": "activity",
+   "id": "ten-frame.how-many.0-10.animals",
+   "title": "Mengen erfassen – Zählen 0 bis 10 im Zehnerfeld, online",
+   "metaDescription": "Mengen erfassen und zählen: Wie viele Tiere sind im Zehnerfeld? Anzahlen von 0 bis 10 sicher erkennen. Kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "mengenerfassung",
+   "segment": "mathe-vorschule",
+   "longtail": "mengenerfassung arbeitsblätter kindergarten",
+   "target": "landing",
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-gemuse-9ee2",
+   "currentTitle": "Arbeitsblätter Anlaute suchen – Gemüse | zum Ausdrucken PDF",
+   "title": "Mengenerfassung – Arbeitsblätter Kindergarten – Gemüse | PDF",
+   "metaDescription": "Mengenerfassung üben: Bilder suchen, zählen und die Anzahl notieren – Gemüse. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "mengen und zahlen",
+   "segment": "mathe-vorschule",
+   "longtail": "mengen und zahlen zuordnen übung",
+   "target": "activity",
+   "id": "rivets-number-forge.numeral-album.k-cc-a-3",
+   "title": "Mengen und Zahlen zuordnen – bis 20 online üben",
+   "metaDescription": "Mengen und Zahlen zuordnen: Anzahl zählen und die passende Ziffer bis 20 finden – ideal für den Schulstart. Kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "mengen zählen",
+   "segment": "mathe-vorschule",
+   "longtail": "mengen zählen arbeitsblätter vorschule",
+   "target": "landing",
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-fruchte-513d",
+   "currentTitle": "Arbeitsblätter Anlaute suchen – Früchte | zum Ausdrucken PDF",
+   "title": "Mengen zählen – Arbeitsblätter Vorschule – Obst | PDF kostenlos",
+   "metaDescription": "Mengen zählen mit Obst: suchen, zählen und vergleichen für die Vorschule. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "simultanerfassung",
+   "segment": "mathe-vorschule",
+   "longtail": "simultanerfassung übungen kindergarten",
+   "target": "activity",
+   "id": "choice-board.how-many-group.k-c-c-b-5",
+   "title": "Simultanerfassung üben – Mengen auf einen Blick erkennen",
+   "metaDescription": "Simultanerfassung im Kindergarten: kleine Mengen auf einen Blick erfassen und die Anzahl bestimmen. Kostenlos online üben, ohne Anmeldung."
+  },
+  {
+   "base": "punktebilder",
+   "segment": "mathe-vorschule",
+   "longtail": "punktebilder zum zählen kindergarten",
+   "target": "GAP"
+  },
+  {
+   "base": "würfelbilder",
+   "segment": "mathe-vorschule",
+   "longtail": "würfelbilder und mengenbilder üben",
+   "target": "activity",
+   "id": "ten-frame.count-to-10.make-n.animals",
+   "title": "Mengenbilder bis 10 üben – Zehnerfeld online (Kindergarten)",
+   "metaDescription": "Statt Würfelbildern: Mengen bis 10 im Zehnerfeld legen und auf einen Blick erfassen. Kostenlos online üben, ohne Anmeldung – für Kita und Vorschule."
+  },
+  {
+   "base": "zwanzigerfeld",
+   "segment": "mathe-vorschule",
+   "longtail": "zwanzigerfeld übungen kindergarten",
+   "target": "activity",
+   "id": "ten-frame.count-to-20.make-n.fruits",
+   "title": "Zwanzigerfeld – Zählen bis 20 online üben (Kindergarten)",
+   "metaDescription": "Zwanzigerfeld üben: im doppelten Zehnerfeld Mengen bis 20 legen und zählen – mit Früchten. Kostenlos online üben, ohne Anmeldung."
+  },
+  {
+   "base": "zahlenhäuser",
+   "segment": "mathe-vorschule",
+   "longtail": "zahlenhäuser bis 10 üben",
+   "target": "activity",
+   "id": "numberbond.make-ten.k-oa-a-4",
+   "title": "Zahlenhaus der 10 – Zehnerfreunde online üben",
+   "metaDescription": "Zahlenhäuser bis 10: das Zahlenhaus der Zehn füllen und Zehnerfreunde entdecken – ideal für Vorschule und Schulstart. Kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "zahlzerlegung",
+   "segment": "mathe-vorschule",
+   "longtail": "zahlzerlegung bis 10 übungen",
+   "target": "activity",
+   "id": "chuffer.rail-decompose.k-oa-a-3",
+   "title": "Zahlzerlegung bis 10 – online üben mit Chuffers Zügen",
+   "metaDescription": "Zahlzerlegung bis 10 üben: Zahlen in Teilmengen zerlegen auf Chuffers Rangierbahnhof – Schritt für Schritt. Kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "zahlen zerlegen",
+   "segment": "mathe-vorschule",
+   "longtail": "zahlen zerlegen kindergarten online",
+   "target": "activity",
+   "id": "match-pairs.make-the-number.k-oa-a-3",
+   "title": "Zahlen zerlegen – Paare finden, die eine Zahl bilden (online)",
+   "metaDescription": "Zahlen zerlegen im Kindergarten: Paare finden, die zusammen die Zielzahl ergeben – Mengen spielerisch verstehen. Kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "zahlen ergänzen",
+   "segment": "mathe-vorschule",
+   "longtail": "zahlen ergänzen übungen klasse 1",
+   "target": "activity",
+   "id": "sharing-jar.make-fair.1-oa-d-8",
+   "title": "Zahlen ergänzen – die fehlende Zahl finden (Klasse 1)",
+   "metaDescription": "Zahlen ergänzen in Klasse 1: die fehlende Zahl in Plus- und Minusaufgaben finden – mit Pim und Bo. Kostenlos online üben, ohne Anmeldung."
+  },
+  {
+   "base": "verdoppeln und halbieren",
+   "segment": "mathe-vorschule",
+   "longtail": "verdoppeln und halbieren arbeitsblätter klasse 1",
+   "target": "GAP"
+  },
+  {
+   "base": "zahlenraum 5",
+   "segment": "mathe-vorschule",
+   "longtail": "zahlenraum 5 übungen online",
+   "target": "activity",
+   "id": "ten-frame.quick-facts-to-5.k-oa-a-5",
+   "title": "Zahlenraum 5 – Plus und Minus flüssig üben (online)",
+   "metaDescription": "Rechnen im Zahlenraum 5: Plus- und Minusaufgaben bis 5 sicher und flüssig lösen – im Zehnerfeld. Kostenlos online üben, ohne Anmeldung."
+  },
+  {
+   "base": "zahlen schreiben lernen",
+   "segment": "mathe-vorschule",
+   "longtail": "zahlen schreiben lernen kindergarten",
+   "target": "activity",
+   "id": "mamas-roll-call.numeral-trace.k-cc-b-5",
+   "title": "Zahlen schreiben lernen – zählen und Ziffern schreiben",
+   "metaDescription": "Zahlen schreiben lernen im Kindergarten: erst die Anzahl abzählen, dann die passende Ziffer schreiben. Kostenlos online üben, ohne Anmeldung."
+  },
+  {
+   "base": "ziffern schreiben",
+   "segment": "mathe-vorschule",
+   "longtail": "ziffern schreiben üben arbeitsblätter",
+   "target": "GAP"
+  },
+  {
+   "base": "zahlen nachspuren",
+   "segment": "mathe-vorschule",
+   "longtail": "zahlen nachspuren vorschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "ziffern nachspuren",
+   "segment": "mathe-vorschule",
+   "longtail": "ziffern nachspuren arbeitsblätter pdf",
+   "target": "GAP"
+  },
+  {
+   "base": "ziffernschreibkurs",
+   "segment": "mathe-vorschule",
+   "longtail": "ziffernschreibkurs zum ausdrucken",
+   "target": "GAP"
+  },
+  {
+   "base": "schwungübungen",
+   "segment": "mathe-vorschule",
+   "longtail": "schwungübungen arbeitsblätter selbst erstellen",
+   "target": "maker",
+   "key": "drawing-lines",
+   "title": "Schwungübungen selbst erstellen – Linien nachspuren kostenlos",
+   "metaDescription": "Schwungübungen-Arbeitsblätter selbst erstellen: Linien und Schwünge zum Nachspuren, fertig zum Ausdrucken. Kostenlos und ohne Anmeldung."
+  },
+  {
+   "base": "feinmotorik schulen",
+   "segment": "mathe-vorschule",
+   "longtail": "feinmotorik schulen arbeitsblätter kindergarten",
+   "target": "landing",
+   "slug": "bildpfad-den-richtigen-weg-wahlen-tiere-8e7d",
+   "currentTitle": "Arbeitsblätter Bilder-Labyrinth – Tiere | zum Ausdrucken PDF",
+   "title": "Feinmotorik schulen – Labyrinth-Arbeitsblätter – Tiere | PDF",
+   "metaDescription": "Feinmotorik schulen im Kindergarten: mit dem Stift den Weg durchs Bilder-Labyrinth finden – Tiere. Kostenlos zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "logische reihen",
+   "segment": "mathe-vorschule",
+   "longtail": "logische reihen arbeitsblätter kindergarten",
+   "target": "landing",
+   "slug": "muster-zug-fahrzeuge-712f",
+   "currentTitle": "Arbeitsblätter AB-Muster – Fahrzeuge | zum Ausdrucken PDF",
+   "title": "Logische Reihen – Arbeitsblätter Kindergarten – Fahrzeuge | PDF",
+   "metaDescription": "Logische Reihen fortsetzen: Was kommt als Nächstes? – Fahrzeuge. Kostenlose Arbeitsblätter für den Kindergarten zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "reihen fortsetzen",
+   "segment": "mathe-vorschule",
+   "longtail": "reihen fortsetzen vorschule kostenlos",
+   "target": "landing",
+   "slug": "muster-zug-fruchte-916e",
+   "currentTitle": "Arbeitsblätter AB-Muster – Früchte | zum Ausdrucken PDF kostenlos",
+   "title": "Reihen fortsetzen – Vorschule – Obst | zum Ausdrucken PDF",
+   "metaDescription": "Reihen fortsetzen in der Vorschule: Muster erkennen und die Reihe weiterführen – Obst. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "muster nachspuren",
+   "segment": "mathe-vorschule",
+   "longtail": "muster nachspuren vorschule pdf",
+   "target": "GAP"
+  },
+  {
+   "base": "muster zeichnen",
+   "segment": "mathe-vorschule",
+   "longtail": "muster zeichnen arbeitsblätter vorschule",
+   "target": "landing",
+   "slug": "muster-arbeitsblatt-formen-43ee",
+   "currentTitle": "Arbeitsblätter Muster – Formen | zum Ausdrucken PDF kostenlos",
+   "title": "Muster zeichnen – Arbeitsblätter Vorschule – Formen | PDF",
+   "metaDescription": "Muster zeichnen und fortsetzen: Muster-Arbeitsblätter mit Formen für die Vorschule. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "formen erkennen",
+   "segment": "mathe-vorschule",
+   "longtail": "formen erkennen kindergarten online",
+   "target": "activity",
+   "id": "choice-board.shape-id.k-g-a-2",
+   "title": "Formen erkennen – Geometrie online üben (Kindergarten)",
+   "metaDescription": "Formen erkennen im Kindergarten: Kreis, Dreieck, Quadrat und mehr sicher benennen. Kostenlos online üben, ohne Anmeldung – spielerische Geometrie."
+  },
+  {
+   "base": "formen lernen",
+   "segment": "mathe-vorschule",
+   "longtail": "formen lernen für kinder online",
+   "target": "activity",
+   "id": "pip-museum.curate-wing.k-g-a-2",
+   "title": "Formen lernen – Kreis, Dreieck & Co. online üben",
+   "metaDescription": "Formen lernen leicht gemacht: Kreis, Dreieck, Viereck erkennen und benennen – im Formen-Museum mit Pip. Kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "formen und figuren",
+   "segment": "mathe-vorschule",
+   "longtail": "formen und figuren kindergarten übungen",
+   "target": "GAP",
+   "note": "no-free-slug landing:geometry/none/vorschule"
+  },
+  {
+   "base": "formen kindergarten",
+   "segment": "mathe-vorschule",
+   "longtail": "formen kindergarten übungen pdf",
+   "target": "GAP",
+   "note": "no-free-slug landing:geometry/none/vorschule"
+  },
+  {
+   "base": "größer kleiner gleich",
+   "segment": "mathe-vorschule",
+   "longtail": "größer kleiner gleich übungen online",
+   "target": "activity",
+   "id": "friendship-bridge.compare-balance.k-cc-c-6",
+   "title": "Größer, kleiner, gleich – Mengen vergleichen online",
+   "metaDescription": "Größer, kleiner oder gleich? Mengen vergleichen: mehr, weniger, gleich viel – spielerisch üben. Kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "größenvergleich",
+   "segment": "mathe-vorschule",
+   "longtail": "größenvergleich übungen vorschule",
+   "target": "landing",
+   "slug": "gross-klein-grosses-finden-spielzeug-92d5",
+   "currentTitle": "Arbeitsblätter Das Größte finden – Spielzeug | zum Ausdrucken PDF",
+   "title": "Größenvergleich – Übungen Vorschule – Spielzeug | PDF kostenlos",
+   "metaDescription": "Größenvergleich in der Vorschule: groß und klein unterscheiden – Spielzeug. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "rechnen vorschule",
+   "segment": "mathe-vorschule",
+   "longtail": "rechnen vorschule übungen online",
+   "target": "activity",
+   "id": "ten-frame.solve-the-story.k-oa-a-2",
+   "title": "Rechnen in der Vorschule – Aufgaben bis 10 online üben",
+   "metaDescription": "Rechnen für die Vorschule: kleine Textaufgaben bis 10 mit dem Zehnerfeld lösen – Plus und Minus anschaulich. Kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "plusaufgaben bis 10",
+   "segment": "mathe-vorschule",
+   "longtail": "plusaufgaben bis 10 mit bildern",
+   "target": "activity",
+   "id": "ten-frame.show-the-operation.k-oa-a-1",
+   "title": "Plusaufgaben bis 10 – im Zehnerfeld zeigen und üben",
+   "metaDescription": "Plusaufgaben bis 10 mit Bildern: Plus und Minus im Zehnerfeld legen und verstehen. Kostenlos online üben, ohne Anmeldung – anschaulich und warm."
+  },
+  {
+   "base": "plusrechnen bis 10",
+   "segment": "mathe-vorschule",
+   "longtail": "plusrechnen bis 10 üben",
+   "target": "GAP"
+  },
+  {
+   "base": "mathematische frühförderung",
+   "segment": "mathe-vorschule",
+   "longtail": "mathematische frühförderung arbeitsblätter kostenlos",
+   "target": "landing",
+   "slug": "mehr-weniger-bild-bild-bauernhoftiere-59e2",
+   "currentTitle": "Arbeitsblätter Mehr oder weniger – Bauernhoftiere | PDF",
+   "title": "Mathematische Frühförderung – Mengen vergleichen | PDF kostenlos",
+   "metaDescription": "Mathematische Frühförderung: Mengen vergleichen mit mehr oder weniger – Bauernhoftiere. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "zahlenland",
+   "segment": "mathe-vorschule",
+   "longtail": "zahlenland material kindergarten",
+   "target": "GAP"
+  },
+  {
+   "base": "schuleingangsphase",
+   "segment": "mathe-vorschule",
+   "longtail": "schuleingangsphase arbeitsblätter kostenlos",
+   "target": "landing",
+   "slug": "gitter-zuordnung-klassenzimmer-91cd",
+   "currentTitle": "Arbeitsblätter Bildgitter – Klassenzimmer | zum Ausdrucken PDF",
+   "title": "Arbeitsblätter Schuleingangsphase – Gitterbilder – Schule | PDF",
+   "metaDescription": "Für die Schuleingangsphase: Gitterbilder zuordnen und genau schauen – Klassenzimmer. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "logik und knobeln",
+   "segment": "mathe-vorschule",
+   "longtail": "logik und knobeln kindergarten",
+   "target": "landing",
+   "slug": "bilder-sudoku-leicht-spielzeug-1ae2",
+   "currentTitle": "Arbeitsblätter Bilder-Sudoku – Spielzeug | zum Ausdrucken PDF",
+   "title": "Logik und Knobeln – Bilder-Sudoku – Spielzeug | PDF kostenlos",
+   "metaDescription": "Logik und Knobeln für den Kindergarten: einfache 4x4-Bilder-Sudokus – Spielzeug. Kostenlos zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "links rechts übungen",
+   "segment": "mathe-vorschule",
+   "longtail": "links rechts übungen kindergarten",
+   "target": "landing",
+   "slug": "praepositionen-multiple-choice-spielzeug-70d2",
+   "currentTitle": "Arbeitsblätter Präpositionen erkennen – Spielzeug | PDF",
+   "title": "Links-rechts-Übungen – Lagewörter Kindergarten – Spielzeug | PDF",
+   "metaDescription": "Links und rechts unterscheiden: Übungen zu Lagewörtern und Positionen – Spielzeug. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "konzentrationsübungen",
+   "segment": "mathe-vorschule",
+   "longtail": "konzentrationsübungen kindergarten zum ausdrucken",
+   "target": "landing",
+   "slug": "objekte-finden-anders-finden-tiere-f1df",
+   "currentTitle": "Arbeitsblätter Objekte suchen – Tiere | zum Ausdrucken PDF",
+   "title": "Konzentrationsübungen Kindergarten – Suchbilder – Tiere | PDF",
+   "metaDescription": "Konzentrationsübungen für den Kindergarten: Objekte im Suchbild finden und zählen – Tiere. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "arbeitsblätter mathe klasse 1",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "arbeitsblätter mathe klasse 1 kostenlos",
+   "target": "landing",
+   "slug": "addition-bild-zahl-bauernhoftiere-f029",
+   "currentTitle": "Arbeitsblätter Addition bis 10 mit Bildern und Zahlen – Bauernhoftiere",
+   "title": "Arbeitsblätter Mathe Klasse 1 – Bauernhoftiere | PDF kostenlos",
+   "metaDescription": "Arbeitsblätter Mathe Klasse 1 kostenlos: Plusaufgaben bis 20 – Bauernhoftiere. Zum Ausdrucken als PDF mit Lösungsblättern, für Schule und Zuhause."
+  },
+  {
+   "base": "arbeitsblätter mathe klasse 2",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "arbeitsblätter mathe klasse 2 kostenlos",
+   "target": "landing",
+   "slug": "code-addition-tiere-402f",
+   "currentTitle": "Arbeitsblätter Kodierrätsel – Tiere | zum Ausdrucken PDF",
+   "title": "Arbeitsblätter Mathe Klasse 2 – Tiere | PDF kostenlos",
+   "metaDescription": "Arbeitsblätter Mathe Klasse 2 kostenlos: Code-Addition bis 100 – Tiere. Symbole entschlüsseln und rechnen. Kostenlos zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "arbeitsblätter mathe klasse 3",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "arbeitsblätter mathe klasse 3 kostenlos",
+   "target": "landing",
+   "slug": "einmaleins-malnehmen-teilen-klasse-3",
+   "currentTitle": "Einmaleins Arbeitsblätter Klasse 3 – Malfelder, fehlender Faktor, Tauschaufgabe & Teilen | zum Ausdrucken (PDF, kostenlos)",
+   "title": "Arbeitsblätter Mathe Klasse 3 – Einmaleins | PDF kostenlos",
+   "metaDescription": "Arbeitsblätter Mathe Klasse 3 kostenlos: Einmaleins mit Punktefeldern verstehen und üben. Kostenlos zum Ausdrucken (PDF) mit Lösungsblättern."
+  },
+  {
+   "base": "mathe grundschule",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "mathe grundschule übungsblätter kostenlos",
+   "target": "landing",
+   "slug": "addition-bild-bild-fruchte-e51d",
+   "currentTitle": "Arbeitsblätter Addition bis 10 mit Bildern – Früchte | PDF",
+   "title": "Mathe Grundschule – Übungsblätter Addition – Obst | PDF kostenlos",
+   "metaDescription": "Mathe in der Grundschule: Übungsblätter Addition bis 20 – Obst. Kostenlos zum Ausdrucken (PDF) mit Lösungsblättern für die 1. Klasse."
+  },
+  {
+   "base": "zahlenraum 100",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "zahlenraum 100 arbeitsblätter kostenlos",
+   "target": "landing",
+   "slug": "mathe-arbeitsblatt-fahrzeuge",
+   "currentTitle": "Arbeitsblätter Rechnen mit Symbolen – Fahrzeuge | PDF",
+   "title": "Zahlenraum 100 – Arbeitsblätter Klasse 2 – Fahrzeuge | PDF",
+   "metaDescription": "Zahlenraum 100 Arbeitsblätter kostenlos: gemischte Rechenblätter für Klasse 2 – Fahrzeuge. Kostenlos zum Ausdrucken (PDF) mit Lösungsblättern."
+  },
+  {
+   "base": "zahlenraum 1000",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "zahlenraum 1000 online üben",
+   "target": "activity",
+   "id": "comet-kangaroo.tens-hundreds.2-nbt-b-8",
+   "title": "Zahlenraum 1000 – online üben (Klasse 3)",
+   "metaDescription": "Zahlenraum 1000 online üben: 10 und 100 mehr oder weniger – mit Känguru Komet bis 1000 rechnen. Kostenlos online, ohne Anmeldung – ideal für Klasse 3."
+  },
+  {
+   "base": "rechnen bis 20",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "rechnen bis 20 arbeitsblätter kostenlos",
+   "target": "landing",
+   "slug": "mathe-raetsel-addition-tiere-4eb8",
+   "currentTitle": "Arbeitsblätter Zahlenpuzzle zum Addieren bis 20 – Tiere | PDF",
+   "title": "Rechnen bis 20 – Arbeitsblätter Mathe-Rätsel – Tiere | PDF",
+   "metaDescription": "Rechnen bis 20: Arbeitsblätter mit Bilder-Mathe-Rätseln – Tiere. Für die 1. Klasse, kostenlos zum Ausdrucken (PDF) mit Lösungsblättern."
+  },
+  {
+   "base": "rechnen bis 100",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "rechnen bis 100 online üben",
+   "target": "activity",
+   "id": "gus-snack-cart.within-100.2-nbt-b-5",
+   "title": "Rechnen bis 100 – online üben (Klasse 2)",
+   "metaDescription": "Rechnen bis 100 online üben: Plus und Minus an Gus' Snackwagen für Klasse 2. Kostenlos online, ohne Anmeldung – sofort loslegen."
+  },
+  {
+   "base": "addition und subtraktion",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "addition und subtraktion bis 100 arbeitsblätter",
+   "target": "landing",
+   "slug": "mathe-arbeitsblatt-tiere",
+   "currentTitle": "Arbeitsblätter Rechnen mit Symbolen – Tiere | zum Ausdrucken PDF",
+   "title": "Addition und Subtraktion bis 100 – Arbeitsblätter Tiere | PDF",
+   "metaDescription": "Addition und Subtraktion bis 100: gemischte Arbeitsblätter für Klasse 2 – Tiere. Kostenlos zum Ausdrucken (PDF) mit Lösungsblättern."
+  },
+  {
+   "base": "zehnerübergang",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "zehnerübergang üben klasse 1",
+   "target": "activity",
+   "id": "ten-stones.add-sub-within-20.1-oa-c-6",
+   "title": "Zehnerübergang üben – über den Zehner rechnen (Klasse 1)",
+   "metaDescription": "Zehnerübergang üben in Klasse 1: über den Zehner rechnen am Zahlenstrahl, Schritt für Schritt. Kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "subtraktion mit zehnerübergang",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "subtraktion mit zehnerübergang online üben",
+   "target": "activity",
+   "id": "place-value-regroup.subtract-decompose.2-nbt-b-7",
+   "title": "Subtraktion mit Zehnerübergang – online üben (Klasse 3)",
+   "metaDescription": "Subtraktion mit Zehnerübergang online üben: einen Zehner entbündeln und mit Übergang abziehen. Kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "einmaleins",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "einmaleins lernen klasse 2 arbeitsblätter",
+   "target": "landing",
+   "slug": "malfeld-einmaleins-klasse-2",
+   "currentTitle": "Malfeld & Einmaleins vorbereiten Arbeitsblätter Klasse 2 – Reihen, Spalten & wiederholte Addition | zum Ausdrucken (PDF, kostenlos)",
+   "title": "Einmaleins Klasse 2 – Punktefelder-Arbeitsblätter | PDF kostenlos",
+   "metaDescription": "Einmaleins lernen in Klasse 2: Arbeitsblätter mit Punktefeldern zur Multiplikation. Kostenlos zum Ausdrucken (PDF) mit Lösungsblättern."
+  },
+  {
+   "base": "kopfrechnen",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "kopfrechnen bis 20 online üben",
+   "target": "activity",
+   "id": "match-pairs.match-facts-to-20.2-oa-b-2",
+   "title": "Kopfrechnen bis 20 – Plus und Minus online üben",
+   "metaDescription": "Kopfrechnen bis 20 online üben: Plus- und Minusaufgaben sicher auswendig lernen. Kostenlos online, ohne Anmeldung – für Klasse 1 und 2."
+  },
+  {
+   "base": "rechengeschichten",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "rechengeschichten bis 20 online üben",
+   "target": "activity",
+   "id": "vet-diagnosis.word-problems.1-oa-a-1",
+   "title": "Rechengeschichten bis 20 – Tierklinik online üben",
+   "metaDescription": "Rechengeschichten bis 20 online üben: kleine Sachaufgaben im Tierklinik-Rechenspiel lösen. Kostenlos online, ohne Anmeldung – für Klasse 2."
+  },
+  {
+   "base": "rechnen mit geld",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "rechnen mit geld klasse 2 üben",
+   "target": "activity",
+   "id": "coin-stall.money.2-md-c-8",
+   "title": "Rechnen mit Geld – Euro und Cent online üben (Klasse 2)",
+   "metaDescription": "Rechnen mit Geld in Klasse 2: mit Euro und Cent an Ottos Stand bezahlen und rechnen. Kostenlos online üben, ohne Anmeldung."
+  },
+  {
+   "base": "uhrzeit lernen",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "uhrzeit lernen 1. klasse online",
+   "target": "activity",
+   "id": "clock.set-clock.1-md-b-3",
+   "title": "Uhrzeit lernen – volle und halbe Stunden (1. Klasse)",
+   "metaDescription": "Uhrzeit lernen in der 1. Klasse: volle und halbe Stunden an der Analoguhr stellen und ablesen. Kostenlos online üben, ohne Anmeldung."
+  },
+  {
+   "base": "uhrzeit klasse 2",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "uhrzeit klasse 2 arbeitsblätter kostenlos",
+   "target": "landing",
+   "slug": "uhrzeit-klasse-2-fuenf-minuten",
+   "currentTitle": "Uhrzeit Arbeitsblätter Klasse 2 – 5 Minuten & Viertelstunde | zum Ausdrucken (PDF, kostenlos)",
+   "title": "Arbeitsblätter Uhrzeit Klasse 2 | zum Ausdrucken PDF kostenlos",
+   "metaDescription": "Uhrzeit Klasse 2: Arbeitsblätter zum Uhrzeit-Ablesen, kostenlos zum Ausdrucken (PDF) mit Lösungsblättern – für Schule und Zuhause."
+  },
+  {
+   "base": "längen messen",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "längen messen arbeitsblätter klasse 2",
+   "target": "landing",
+   "slug": "laenge-messen-lineal-klasse-2",
+   "currentTitle": "Längen messen mit dem Lineal Arbeitsblätter Klasse 2 – Zentimeter & vergleichen | zum Ausdrucken (PDF, kostenlos)",
+   "title": "Längen Messen – Arbeitsblätter Klasse 2 | PDF kostenlos",
+   "metaDescription": "Längen messen in Klasse 2: Arbeitsblätter zum Messen in Zentimetern. Kostenlos zum Ausdrucken (PDF) mit Lösungsblättern für Schule und Zuhause."
+  },
+  {
+   "base": "formen und körper",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "formen und körper arbeitsblätter klasse 2",
+   "target": "landing",
+   "slug": "geometrie-klasse-2-koerper-symmetrie",
+   "currentTitle": "Geometrie Arbeitsblätter Klasse 2 – Körper, Ecken & Symmetrie | zum Ausdrucken (PDF, kostenlos)",
+   "title": "Formen und Körper – Arbeitsblätter Klasse 2 | PDF kostenlos",
+   "metaDescription": "Formen und Körper: Geometrie-Arbeitsblätter für Klasse 2 zum Erkennen und Sortieren von Formen. Kostenlos zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "hundertertafel",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "hundertertafel übungen klasse 2",
+   "target": "landing",
+   "slug": "zahlenfolgen-klasse-2",
+   "currentTitle": "Zahlenfolgen Arbeitsblätter Klasse 2 – in 3er- & 4er-Schritten zählen | zum Ausdrucken (PDF, kostenlos)",
+   "title": "Hundertertafel Übungen Klasse 2 – Zahlentafeln | PDF kostenlos",
+   "metaDescription": "Hundertertafel-Übungen für Klasse 2: Zahlentafeln im Zahlenraum 100 ergänzen. Kostenlos zum Ausdrucken (PDF) mit Lösungsblättern."
+  },
+  {
+   "base": "zahlenstrahl",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "zahlenstrahl bis 100 üben",
+   "target": "activity",
+   "id": "hoppers-number-line.jump-sums.2-md-b-6",
+   "title": "Zahlenstrahl bis 100 – Plus und Minus online üben (Klasse 2)",
+   "metaDescription": "Zahlenstrahl bis 100 üben: mit Hopper am Zahlenstrahl addieren und subtrahieren – Klasse 2. Kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "stellenwerttabelle",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "stellenwerttabelle klasse 2 üben",
+   "target": "activity",
+   "id": "place-value.hundreds-tens-and-ones.2-nbt-a-1",
+   "title": "Stellenwerttabelle üben – Hunderter, Zehner, Einer (Klasse 2)",
+   "metaDescription": "Stellenwerttabelle üben für Klasse 2: Hunderter, Zehner und Einer legen und ablesen. Kostenlos online, ohne Anmeldung – sofort loslegen."
+  },
+  {
+   "base": "verliebte zahlen",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "verliebte zahlen bis 10 üben",
+   "target": "GAP",
+   "id": "numberbond.make-ten.k-oa-a-4",
+   "note": "secondary-on activity:numberbond.make-ten.k-oa-a-4"
+  },
+  {
+   "base": "tauschaufgaben",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "tauschaufgaben klasse 1 üben",
+   "target": "activity",
+   "id": "match-pairs.add-it-both-ways.1-oa-b-3",
+   "title": "Tauschaufgaben üben – beide Wege rechnen (Klasse 1)",
+   "metaDescription": "Tauschaufgaben in Klasse 1 üben: Plusaufgaben auf beide Wege rechnen und Paare finden. Kostenlos online, ohne Anmeldung – sofort loslegen."
+  },
+  {
+   "base": "umkehraufgaben",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "umkehraufgaben plus und minus üben",
+   "target": "activity",
+   "id": "numberbond.subtraction-unknown-addend.1-oa-b-4",
+   "title": "Umkehraufgaben – Plus und Minus online üben (Klasse 1)",
+   "metaDescription": "Umkehraufgaben üben: den fehlenden Teil finden und Minus als Zahlenzerlegung verstehen – Klasse 1. Kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "schriftliche addition",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "schriftliche addition arbeitsblätter klasse 3",
+   "target": "GAP"
+  },
+  {
+   "base": "schriftliche subtraktion",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "schriftliche subtraktion übungen klasse 3",
+   "target": "GAP"
+  },
+  {
+   "base": "gemischte aufgaben",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "gemischte aufgaben mathe klasse 2",
+   "target": "landing",
+   "slug": "mathe-arbeitsblatt-bauernhoftiere",
+   "currentTitle": "Arbeitsblätter Rechnen mit Symbolen – Bauernhoftiere | PDF",
+   "title": "Gemischte Aufgaben Mathe Klasse 2 – Bauernhoftiere | PDF",
+   "metaDescription": "Gemischte Aufgaben Mathe Klasse 2 – Bauernhoftiere: Rechenblätter bis 100 mit Plus und Minus. Kostenlos zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "matheaufgaben klasse 1",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "matheaufgaben klasse 1 zum ausdrucken",
+   "target": "landing",
+   "slug": "addition-bild-zahl-tiere-716a",
+   "currentTitle": "Arbeitsblätter Addition bis 10 mit Bildern und Zahlen – Tiere",
+   "title": "Matheaufgaben Klasse 1 – Plusaufgaben Tiere | zum Ausdrucken PDF",
+   "metaDescription": "Matheaufgaben für Klasse 1 zum Ausdrucken: Plusaufgaben bis 20 – Tiere. Kostenlose Arbeitsblätter (PDF) mit Lösungsblättern für zu Hause."
+  },
+  {
+   "base": "matheaufgaben klasse 2",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "matheaufgaben klasse 2 zum ausdrucken",
+   "target": "landing",
+   "slug": "mathe-raetsel-subtraktion-bauernhoftiere-d53d",
+   "currentTitle": "Arbeitsblätter Zahlenpuzzle zum Subtrahieren bis 100 – Bauernhoftiere",
+   "title": "Matheaufgaben Klasse 2 – Mathe-Rätsel Bauernhoftiere | PDF",
+   "metaDescription": "Matheaufgaben Klasse 2 zum Ausdrucken: Bilder-Mathe-Rätsel bis 100 – Bauernhoftiere. Kostenlose Arbeitsblätter (PDF) mit Lösungen."
+  },
+  {
+   "base": "matheaufgaben klasse 3",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "matheaufgaben klasse 3 zum ausdrucken",
+   "target": "GAP",
+   "note": "no-free-slug landing:arrays-multiplication/none/3-klasse"
+  },
+  {
+   "base": "rechenaufgaben klasse 1",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "rechenaufgaben klasse 1 zum ausdrucken",
+   "target": "landing",
+   "slug": "subtraktion-durchstreichen-tiere",
+   "currentTitle": "Arbeitsblätter Subtraktion bis 20 zum Durchstreichen – Tiere",
+   "title": "Rechenaufgaben Klasse 1 – Minusaufgaben Tiere | PDF kostenlos",
+   "metaDescription": "Rechenaufgaben für Klasse 1 zum Ausdrucken: Minusaufgaben bis 20 – Tiere. Kostenlose Arbeitsblätter (PDF) mit Lösungsblättern für zu Hause."
+  },
+  {
+   "base": "plusaufgaben",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "plusaufgaben 1. klasse zum ausdrucken",
+   "target": "landing",
+   "slug": "addition-bild-bild-spielzeug-6d52",
+   "currentTitle": "Arbeitsblätter Addition bis 10 mit Bildern – Spielzeug | PDF",
+   "title": "Plusaufgaben 1. Klasse – Spielzeug | zum Ausdrucken PDF kostenlos",
+   "metaDescription": "Plusaufgaben für die 1. Klasse zum Ausdrucken: Addition bis 20 – Spielzeug. Kostenlose Arbeitsblätter (PDF) mit Lösungsblättern."
+  },
+  {
+   "base": "minusaufgaben",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "minusaufgaben 1. klasse zum ausdrucken",
+   "target": "landing",
+   "slug": "subtraktion-durchstreichen-spielzeug-9b8b",
+   "currentTitle": "Arbeitsblätter Subtraktion bis 20 zum Durchstreichen – Spielzeug",
+   "title": "Minusaufgaben 1. Klasse – Spielzeug | zum Ausdrucken PDF kostenlos",
+   "metaDescription": "Minusaufgaben für die 1. Klasse zum Ausdrucken: Subtraktion bis 20 – Spielzeug. Kostenlose Arbeitsblätter (PDF) mit Lösungsblättern."
+  },
+  {
+   "base": "addition mit zehnerübergang",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "addition mit zehnerübergang üben",
+   "target": "activity",
+   "id": "place-value-regroup.add-compose-ten.1-nbt-c-4",
+   "title": "Addition mit Zehnerübergang – online üben (Klasse 1)",
+   "metaDescription": "Addition mit Zehnerübergang üben: Zehner bündeln und über den Zehner addieren – Klasse 1. Kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "kleines einmaleins",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "kleines einmaleins arbeitsblätter zum ausdrucken",
+   "target": "GAP",
+   "note": "no-free-slug landing:arrays-multiplication/none/2-klasse"
+  },
+  {
+   "base": "einmaleins üben",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "einmaleins üben online kostenlos",
+   "target": "activity",
+   "id": "echo-grove.match-the-rune.3-oa-a-1",
+   "title": "Einmaleins üben – Multiplikation als Gruppen (Klasse 2)",
+   "metaDescription": "Einmaleins üben online: Multiplikation als gleiche Gruppen erkennen – mit Pim der Eule. Kostenlos online, ohne Anmeldung – für Klasse 2."
+  },
+  {
+   "base": "1x1 aufgaben",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "1x1 aufgaben klasse 2 zum ausdrucken",
+   "target": "GAP",
+   "note": "no-free-slug landing:arrays-multiplication/none/2-klasse"
+  },
+  {
+   "base": "einmaleins reihen",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "einmaleins reihen verstehen und üben",
+   "target": "activity",
+   "id": "array.equal-groups.2-oa-c-4",
+   "title": "Einmaleins-Reihen verstehen – gleiche Gruppen bilden (Klasse 2)",
+   "metaDescription": "Einmaleins-Reihen verstehen: gleiche Gruppen bilden und mit wiederholter Addition rechnen. Kostenlos online üben, ohne Anmeldung."
+  },
+  {
+   "base": "2er einmaleins",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "2er einmaleins arbeitsblätter zum ausdrucken",
+   "target": "GAP"
+  },
+  {
+   "base": "division klasse 2",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "division klasse 2 online üben",
+   "target": "activity",
+   "id": "maple-bakery.share.3-oa-a-2",
+   "title": "Division Klasse 2 – Teilen online üben",
+   "metaDescription": "Division in Klasse 2 online üben: Teilen mit Maple der Maus – Mengen gerecht aufteilen und verstehen. Kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "teilen mit rest",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "teilen mit rest arbeitsblätter klasse 2",
+   "target": "GAP"
+  },
+  {
+   "base": "division mit rest",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "division mit rest übungen klasse 2",
+   "target": "GAP"
+  },
+  {
+   "base": "geteilt aufgaben",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "geteilt aufgaben klasse 2 üben",
+   "target": "GAP",
+   "id": "maple-bakery.share.3-oa-a-2",
+   "note": "secondary-on activity:maple-bakery.share.3-oa-a-2"
+  },
+  {
+   "base": "kopfrechnen klasse 2",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "kopfrechnen klasse 2 bis 100 üben",
+   "target": "GAP",
+   "id": "gus-snack-cart.within-100.2-nbt-b-5",
+   "note": "secondary-on activity:gus-snack-cart.within-100.2-nbt-b-5"
+  },
+  {
+   "base": "kopfrechnen klasse 3",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "kopfrechnen klasse 3 online üben",
+   "target": "GAP",
+   "id": "comet-kangaroo.tens-hundreds.2-nbt-b-8",
+   "note": "secondary-on activity:comet-kangaroo.tens-hundreds.2-nbt-b-8"
+  },
+  {
+   "base": "sachaufgaben klasse 2",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "sachaufgaben klasse 2 plus und minus",
+   "target": "activity",
+   "id": "numberbond.story-problem.2-oa-a-1",
+   "title": "Sachaufgaben Klasse 2 – Plus und Minus bis 100 online üben",
+   "metaDescription": "Sachaufgaben Klasse 2: Plus und Minus bis 100 in kleinen Geschichten lösen – Schritt für Schritt. Kostenlos online üben, ohne Anmeldung."
+  },
+  {
+   "base": "textaufgaben klasse 2",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "textaufgaben klasse 2 online üben",
+   "target": "GAP",
+   "id": "vet-diagnosis.word-problems.1-oa-a-1",
+   "note": "secondary-on activity:vet-diagnosis.word-problems.1-oa-a-1"
+  },
+  {
+   "base": "textaufgaben klasse 3",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "textaufgaben klasse 3 zum ausdrucken",
+   "target": "GAP"
+  },
+  {
+   "base": "sachaufgaben zum 1x1",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "sachaufgaben zum 1x1 klasse 2",
+   "target": "GAP"
+  },
+  {
+   "base": "euro und cent",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "euro und cent zählen üben",
+   "target": "activity",
+   "id": "money.count-out.2-md-c-8",
+   "title": "Euro und Cent zählen – Geld online üben (Klasse 2)",
+   "metaDescription": "Euro und Cent zählen üben: Geldbeträge mit Euro-Münzen abzählen – Mathe für Klasse 2. Kostenlos online, ohne Anmeldung – sofort loslegen."
+  },
+  {
+   "base": "geld klasse 2",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "geld klasse 2 wechselgeld üben",
+   "target": "activity",
+   "id": "money.make-change.2-md-c-8",
+   "title": "Geld Klasse 2 – Wechselgeld online üben",
+   "metaDescription": "Geld in Klasse 2: Wechselgeld mit Euro und Cent herausgeben und prüfen. Kostenlos online üben, ohne Anmeldung – alltagsnah rechnen lernen."
+  },
+  {
+   "base": "uhr lesen lernen",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "uhr lesen lernen online üben",
+   "target": "activity",
+   "id": "clock-read.tell-time.1-md-b-3",
+   "title": "Uhr lesen lernen – Uhrzeit online üben (Klasse 1)",
+   "metaDescription": "Uhr lesen lernen: Uhrzeiten an der Analoguhr ablesen und stellen – im Eulen-Tagesablauf. Kostenlos online üben, ohne Anmeldung."
+  },
+  {
+   "base": "zeitpunkt und zeitspanne",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "zeitpunkt und zeitspanne klasse 3",
+   "target": "activity",
+   "id": "clock-elapsed.what-time.3-md-a-1",
+   "title": "Zeitpunkt und Zeitspanne – Zeitspannen berechnen (Klasse 3)",
+   "metaDescription": "Zeitpunkt und Zeitspanne in Klasse 3: Zeitspannen an der Uhr berechnen – Schritt für Schritt an Sprockets Uhr. Kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "rechnen mit uhrzeiten",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "rechnen mit uhrzeiten online üben",
+   "target": "activity",
+   "id": "clock-elapsed.add-subtract.3-md-a-1",
+   "title": "Rechnen mit Uhrzeiten – Zeit addieren und subtrahieren (Klasse 3)",
+   "metaDescription": "Rechnen mit Uhrzeiten: Minuten addieren und subtrahieren – Klasse 3. Kostenlos online üben, ohne Anmeldung – Zeitspannen sicher berechnen."
+  },
+  {
+   "base": "längeneinheiten",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "längeneinheiten übungen klasse 2",
+   "target": "GAP",
+   "note": "no-free-slug landing:measurement/none/2-klasse"
+  },
+  {
+   "base": "meter und zentimeter",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "meter und zentimeter schätzen üben",
+   "target": "activity",
+   "id": "gauge-good-guess.estimate.2-md-a-3",
+   "title": "Meter und Zentimeter – Längen schätzen online (Klasse 2)",
+   "metaDescription": "Meter und Zentimeter: Längen schätzen und vergleichen mit Ziege Gauge – Klasse 2. Kostenlos online üben, ganz ohne Anmeldung."
+  },
+  {
+   "base": "größen klasse 2",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "größen klasse 2 arbeitsblätter kostenlos",
+   "target": "GAP",
+   "note": "no-free-slug landing:measurement/none/2-klasse"
+  },
+  {
+   "base": "geometrie grundschule",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "geometrie übungen grundschule kostenlos",
+   "target": "GAP",
+   "note": "no-free-slug landing:geometry/none/2-klasse"
+  },
+  {
+   "base": "geometrische körper",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "geometrische körper und flächen kindergarten",
+   "target": "activity",
+   "id": "choice-board.flat-solid.k-g-a-3",
+   "title": "Geometrische Körper erkennen – flach oder Körper? (Kindergarten)",
+   "metaDescription": "Geometrische Körper und Flächen im Kindergarten: flach oder Körper? 2D- und 3D-Formen unterscheiden. Kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "symmetrie",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "symmetrie arbeitsblätter grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "achsensymmetrie",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "achsensymmetrie arbeitsblätter klasse 3",
+   "target": "GAP"
+  },
+  {
+   "base": "spiegeln",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "figuren spiegeln arbeitsblätter grundschule",
+   "target": "GAP"
+  },
+  {
+   "base": "symmetrieachse",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "symmetrieachse einzeichnen arbeitsblatt",
+   "target": "GAP"
+  },
+  {
+   "base": "würfelnetze",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "würfelnetze arbeitsblätter zum ausdrucken",
+   "target": "GAP"
+  },
+  {
+   "base": "hunderterfeld",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "hunderterfeld arbeitsblätter zum ausdrucken",
+   "target": "GAP",
+   "note": "no-free-slug landing:number-charts/none/2-klasse"
+  },
+  {
+   "base": "nachbarzahlen",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "nachbarzahlen bis 10 üben",
+   "target": "activity",
+   "id": "choice-board.next-number.k-cc-a-2",
+   "title": "Nachbarzahlen bis 10 – welche Zahl kommt danach? online üben",
+   "metaDescription": "Nachbarzahlen bis 10 üben: welche Zahl kommt danach? Zählen und Nachfolger finden. Kostenlos online, ohne Anmeldung – für Vorschule und Klasse 1."
+  },
+  {
+   "base": "zahlenfolgen",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "zahlenfolgen fortsetzen klasse 2 üben",
+   "target": "activity",
+   "id": "skipcount.fill.2-nbt-a-2",
+   "title": "Zahlenfolgen fortsetzen – in Schritten zählen (Klasse 2)",
+   "metaDescription": "Zahlenfolgen fortsetzen in Klasse 2: in Schritten von 5, 10 und 100 zählen – mit Hoppers Seerosen-Sprüngen. Kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "schriftliches rechnen",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "schriftliches rechnen übungen klasse 3",
+   "target": "GAP"
+  },
+  {
+   "base": "halbschriftliches rechnen",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "halbschriftliches rechnen klasse 2 übungen",
+   "target": "GAP"
+  },
+  {
+   "base": "runden",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "runden auf zehner und hunderter üben",
+   "target": "activity",
+   "id": "halfway-harbors.nearest.3-nbt-a-1",
+   "title": "Runden auf Zehner und Hunderter – online üben (Klasse 3)",
+   "metaDescription": "Runden auf Zehner und Hunderter üben: Zahlen dem nächsten Zehner und Hunderter zuordnen – Klasse 3. Kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "runden und überschlag",
+   "segment": "mathe-klasse-1-3",
+   "longtail": "runden und überschlag klasse 3",
+   "target": "GAP",
+   "id": "halfway-harbors.nearest.3-nbt-a-1",
+   "note": "secondary-on activity:halfway-harbors.nearest.3-nbt-a-1"
+  },
+  {
+   "base": "buchstaben erkennen",
+   "segment": "deutsch-erstlesen",
+   "longtail": "buchstaben erkennen online üben",
+   "target": "activity",
+   "id": "choice-board.letter-case.rf-k-1-d",
+   "title": "Buchstaben erkennen – große und kleine Buchstaben online üben",
+   "metaDescription": "Buchstaben erkennen leicht gemacht: Groß- und Kleinbuchstaben zuordnen und sicher unterscheiden. Kostenlos online üben, ohne Anmeldung – ideal für die Vorschule."
+  },
+  {
+   "base": "anlaute",
+   "segment": "deutsch-erstlesen",
+   "longtail": "anlaute üben klasse 1",
+   "target": "activity",
+   "id": "choice-board.beginning-sound.rf-k-3-a",
+   "title": "Anlaute üben – welcher Buchstabe beginnt das Wort? (Klasse 1)",
+   "metaDescription": "Anlaute üben mit Bildern: Kinder hören das Wort und finden den passenden Anfangsbuchstaben. Kostenlos online, ohne Anmeldung – für Vorschule und Klasse 1."
+  },
+  {
+   "base": "anlaute hören",
+   "segment": "deutsch-erstlesen",
+   "longtail": "anlaute hören übungen kindergarten",
+   "target": "GAP",
+   "id": "choice-board.beginning-sound.rf-k-3-a",
+   "note": "secondary-on activity:choice-board.beginning-sound.rf-k-3-a"
+  },
+  {
+   "base": "laute hören",
+   "segment": "deutsch-erstlesen",
+   "longtail": "laute hören übungen klasse 1",
+   "target": "activity",
+   "id": "sound-boxes.phoneme-position.rf-k-2-d",
+   "title": "Laute hören – Anlaut, Inlaut, Auslaut online üben (Klasse 1)",
+   "metaDescription": "Laute hören mit Coco dem Koala: Wo klingt der Laut – am Anfang, in der Mitte oder am Ende des Wortes? Kostenlos online üben, ohne Anmeldung – Klasse 1."
+  },
+  {
+   "base": "laute erkennen",
+   "segment": "deutsch-erstlesen",
+   "longtail": "lange und kurze laute erkennen",
+   "target": "activity",
+   "id": "stretch-giraffe.long-short-vowel.rf-1-2-a",
+   "title": "Laute erkennen – langer oder kurzer Vokal? (Klasse 1)",
+   "metaDescription": "Laute erkennen mit Gina der Giraffe: hören, ob der Vokal lang oder kurz klingt. Kostenlos online üben, ohne Anmeldung – ideal für Klasse 1."
+  },
+  {
+   "base": "silben",
+   "segment": "deutsch-erstlesen",
+   "longtail": "silben üben kindergarten",
+   "target": "activity",
+   "id": "syllable-builder.bau-das-wort-aus-silben.rf-k-2-b",
+   "title": "Silben üben im Kindergarten – Wörter aus Silben bauen",
+   "metaDescription": "Silben üben: Kinder tippen Silben an, hören sie und bauen daraus ganze Wörter. Kostenlos online, ohne Anmeldung – für Kindergarten und Vorschule."
+  },
+  {
+   "base": "reime",
+   "segment": "deutsch-erstlesen",
+   "longtail": "reime üben klasse 1",
+   "target": "activity",
+   "id": "rhyme-shop.rhyme.rf-k-2-a",
+   "title": "Reime üben – Reimwörter hören und finden (Klasse 1)",
+   "metaDescription": "Reime üben mit Rudi Reimbär: Wörter anhören und das passende Reimwort finden. Kostenlos online, ohne Anmeldung – für Vorschule und Klasse 1."
+  },
+  {
+   "base": "lesen lernen",
+   "segment": "deutsch-erstlesen",
+   "longtail": "lesen lernen übungen klasse 1",
+   "target": "activity",
+   "id": "choice-board.read-cvc-word.rf-k-3",
+   "title": "Lesen lernen – erste Wörter online üben (Klasse 1)",
+   "metaDescription": "Lesen lernen mit Emil der Eule: kurze, lautgetreue Wörter Schritt für Schritt erlesen. Kostenlose Übungen für Klasse 1 – online, ohne Anmeldung."
+  },
+  {
+   "base": "buchstabensalat",
+   "segment": "deutsch-erstlesen",
+   "longtail": "buchstabensalat grundschule mit lösungen",
+   "target": "landing",
+   "slug": "buchstabensalat-tiere",
+   "currentTitle": "Arbeitsblätter Buchstabensalat – Tiere | zum Ausdrucken PDF",
+   "title": "Buchstabensalat Grundschule – Tiere | Arbeitsblätter PDF kostenlos",
+   "metaDescription": "Buchstabensalat für die Grundschule: Purzelwörter mit Tierbildern ordnen. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungsblatt – Klasse 1."
+  },
+  {
+   "base": "arbeitsblätter buchstaben",
+   "segment": "deutsch-erstlesen",
+   "longtail": "arbeitsblätter buchstaben vorschule kostenlos",
+   "target": "landing",
+   "slug": "buchstabenzug-tiere",
+   "currentTitle": "Arbeitsblätter Alphabet-Zug – Tiere | zum Ausdrucken PDF",
+   "title": "Arbeitsblätter Buchstaben – Vorschule – Tiere | PDF kostenlos",
+   "metaDescription": "Arbeitsblätter Buchstaben für die Vorschule: fehlende Buchstaben im ABC ergänzen – Tiere. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "anlaute arbeitsblätter",
+   "segment": "deutsch-erstlesen",
+   "longtail": "anlaute arbeitsblätter zum ausdrucken",
+   "target": "GAP"
+  },
+  {
+   "base": "lesen lernen arbeitsblätter",
+   "segment": "deutsch-erstlesen",
+   "longtail": "lesen lernen arbeitsblätter 1 klasse",
+   "target": "landing",
+   "slug": "wort-raten-leicht-tiere-7e76",
+   "currentTitle": "Arbeitsblätter Lückenwörter schreiben – Tiere | PDF",
+   "title": "Lesen lernen – Arbeitsblätter 1. Klasse – Tiere | PDF kostenlos",
+   "metaDescription": "Lesen lernen mit Lückenwörtern: fehlende Buchstaben ergänzen und Wort für Wort sicherer lesen. Kostenlose Arbeitsblätter (PDF) mit Lösungen – 1. Klasse."
+  },
+  {
+   "base": "buchstaben lernen",
+   "segment": "deutsch-erstlesen",
+   "longtail": "buchstaben lernen online üben",
+   "target": "GAP",
+   "id": "choice-board.letter-case.rf-k-1-d",
+   "note": "secondary-on activity:choice-board.letter-case.rf-k-1-d"
+  },
+  {
+   "base": "buchstaben schreiben lernen",
+   "segment": "deutsch-erstlesen",
+   "longtail": "buchstaben schreiben lernen klasse 1",
+   "target": "GAP",
+   "id": "penny-alphabet-trace.letter-formation.l-k-1-a",
+   "note": "secondary-on activity:penny-alphabet-trace.letter-formation.l-k-1-a"
+  },
+  {
+   "base": "buchstaben nachspuren",
+   "segment": "deutsch-erstlesen",
+   "longtail": "buchstaben nachspuren online üben",
+   "target": "GAP",
+   "note": "dup-longtail"
+  },
+  {
+   "base": "erste buchstaben",
+   "segment": "deutsch-erstlesen",
+   "longtail": "erste buchstaben lernen vorschule",
+   "target": "landing",
+   "slug": "buchstabenzug-haustiere-f77b",
+   "currentTitle": "Arbeitsblätter Alphabet-Zug – Haustiere | zum Ausdrucken PDF",
+   "title": "Erste Buchstaben lernen – Vorschule – Haustiere | PDF kostenlos",
+   "metaDescription": "Erste Buchstaben lernen: fehlende Buchstaben im Alphabet ergänzen – Haustiere. Kostenlose Arbeitsblätter für die Vorschule zum Ausdrucken (PDF)."
+  },
+  {
+   "base": "buchstaben vorschule",
+   "segment": "deutsch-erstlesen",
+   "longtail": "buchstaben vorschule zum ausdrucken",
+   "target": "landing",
+   "slug": "buchstabenzug-bauernhoftiere-68fc",
+   "currentTitle": "Arbeitsblätter Alphabet-Zug – Bauernhoftiere | zum Ausdrucken PDF",
+   "title": "Buchstaben Vorschule zum Ausdrucken – Bauernhoftiere | PDF",
+   "metaDescription": "Buchstaben für die Vorschule: ABC-Lücken füllen und die Reihenfolge festigen – Bauernhoftiere. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "buchstabeneinführung",
+   "segment": "deutsch-erstlesen",
+   "longtail": "buchstabeneinführung material klasse 1",
+   "target": "GAP",
+   "id": "penny-alphabet-trace.letter-formation.l-k-1-a",
+   "note": "secondary-on activity:penny-alphabet-trace.letter-formation.l-k-1-a"
+  },
+  {
+   "base": "schwungübungen vorschule",
+   "segment": "deutsch-erstlesen",
+   "longtail": "schwungübungen vorschule selbst erstellen",
+   "target": "GAP",
+   "key": "drawing-lines",
+   "note": "secondary-on maker:drawing-lines"
+  },
+  {
+   "base": "abc lernen",
+   "segment": "deutsch-erstlesen",
+   "longtail": "abc lernen arbeitsblätter kostenlos",
+   "target": "landing",
+   "slug": "buchstabenzug-zootiere-902c",
+   "currentTitle": "Arbeitsblätter Alphabet-Zug – Zootiere | zum Ausdrucken PDF",
+   "title": "ABC lernen – Arbeitsblätter – Zootiere | PDF kostenlos",
+   "metaDescription": "ABC lernen mit Zootieren: fehlende Buchstaben ergänzen und die Alphabet-Reihenfolge üben. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösung."
+  },
+  {
+   "base": "alphabet lernen",
+   "segment": "deutsch-erstlesen",
+   "longtail": "alphabet lernen übungen vorschule",
+   "target": "landing",
+   "slug": "buchstabenzug-spielzeug-3d6d",
+   "currentTitle": "Arbeitsblätter Alphabet-Zug – Spielzeug | zum Ausdrucken PDF",
+   "title": "Alphabet lernen – Vorschule – Spielzeug | PDF kostenlos",
+   "metaDescription": "Alphabet lernen Schritt für Schritt: Buchstabenlücken füllen – Spielzeug-Bilder. Kostenlose Übungen für die Vorschule zum Ausdrucken (PDF) mit Lösung."
+  },
+  {
+   "base": "abc reihenfolge",
+   "segment": "deutsch-erstlesen",
+   "longtail": "abc reihenfolge üben arbeitsblätter",
+   "target": "landing",
+   "slug": "buchstabenzug-fahrzeuge-6730",
+   "currentTitle": "Arbeitsblätter Alphabet-Zug – Fahrzeuge | zum Ausdrucken PDF",
+   "title": "ABC Reihenfolge üben – Fahrzeuge | Arbeitsblätter PDF kostenlos",
+   "metaDescription": "Die ABC-Reihenfolge üben: fehlende Buchstaben im Alphabet-Zug ergänzen – Fahrzeuge. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "das abc",
+   "segment": "deutsch-erstlesen",
+   "longtail": "das abc üben zum ausdrucken",
+   "target": "landing",
+   "slug": "buchstabenzug-fruchte-0964",
+   "currentTitle": "Arbeitsblätter Alphabet-Zug – Früchte | zum Ausdrucken PDF",
+   "title": "Das ABC üben – Obst | Arbeitsblätter zum Ausdrucken PDF kostenlos",
+   "metaDescription": "Das ABC üben: Buchstaben in der richtigen Reihenfolge ergänzen – Obst-Bilder. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungsblatt – Vorschule."
+  },
+  {
+   "base": "anfangslaute",
+   "segment": "deutsch-erstlesen",
+   "longtail": "anfangslaute üben vorschule",
+   "target": "GAP",
+   "id": "choice-board.beginning-sound.rf-k-3-a",
+   "note": "secondary-on activity:choice-board.beginning-sound.rf-k-3-a"
+  },
+  {
+   "base": "anlaut inlaut auslaut",
+   "segment": "deutsch-erstlesen",
+   "longtail": "anlaut inlaut auslaut übungen",
+   "target": "GAP",
+   "id": "sound-boxes.phoneme-position.rf-k-2-d",
+   "note": "secondary-on activity:sound-boxes.phoneme-position.rf-k-2-d"
+  },
+  {
+   "base": "auslaute",
+   "segment": "deutsch-erstlesen",
+   "longtail": "auslaute hören übungen klasse 1",
+   "target": "GAP",
+   "id": "sound-boxes.phoneme-position.rf-k-2-d",
+   "note": "secondary-on activity:sound-boxes.phoneme-position.rf-k-2-d"
+  },
+  {
+   "base": "lautschulung",
+   "segment": "deutsch-erstlesen",
+   "longtail": "lautschulung übungen klasse 1",
+   "target": "activity",
+   "id": "choice-board.onset-rime-blend.rf-k-2-c",
+   "title": "Lautschulung – Laute zusammenschleifen und üben (Klasse 1)",
+   "metaDescription": "Lautschulung mit Suse der Schnecke: Laute langsam verbinden und ganze Wörter erhören. Kostenlos online üben, ohne Anmeldung – für Klasse 1."
+  },
+  {
+   "base": "vorübungen zum lesen",
+   "segment": "deutsch-erstlesen",
+   "longtail": "vorübungen zum lesen vorschule",
+   "target": "GAP",
+   "id": "choice-board.onset-rime-blend.rf-k-2-c",
+   "note": "secondary-on activity:choice-board.onset-rime-blend.rf-k-2-c"
+  },
+  {
+   "base": "phonologische bewusstheit",
+   "segment": "deutsch-erstlesen",
+   "longtail": "phonologische bewusstheit übungen",
+   "target": "GAP",
+   "id": "choice-board.onset-rime-blend.rf-k-2-c",
+   "note": "secondary-on activity:choice-board.onset-rime-blend.rf-k-2-c"
+  },
+  {
+   "base": "silben klatschen",
+   "segment": "deutsch-erstlesen",
+   "longtail": "silben klatschen übungen kindergarten",
+   "target": "GAP",
+   "id": "syllable-builder.bau-das-wort-aus-silben.rf-k-2-b",
+   "note": "secondary-on activity:syllable-builder.bau-das-wort-aus-silben.rf-k-2-b"
+  },
+  {
+   "base": "silben schwingen",
+   "segment": "deutsch-erstlesen",
+   "longtail": "silben schwingen übungen grundschule",
+   "target": "GAP"
+  },
+  {
+   "base": "silbenbögen",
+   "segment": "deutsch-erstlesen",
+   "longtail": "silbenbögen übungen klasse 1",
+   "target": "GAP"
+  },
+  {
+   "base": "silbenbögen einzeichnen",
+   "segment": "deutsch-erstlesen",
+   "longtail": "silbenbögen einzeichnen arbeitsblätter",
+   "target": "GAP"
+  },
+  {
+   "base": "silben lesen",
+   "segment": "deutsch-erstlesen",
+   "longtail": "silben lesen üben klasse 1",
+   "target": "activity",
+   "id": "domino-two-part.two-syllable.rf-1-3-e",
+   "title": "Silben lesen üben – zweisilbige Wörter (Klasse 1)",
+   "metaDescription": "Silben lesen mit Pauli dem Pinguin: zweisilbige Wörter Silbe für Silbe erlesen und verbinden. Kostenlos online üben, ohne Anmeldung – Klasse 1."
+  },
+  {
+   "base": "silben zählen",
+   "segment": "deutsch-erstlesen",
+   "longtail": "silben zählen übungen vorschule",
+   "target": "GAP"
+  },
+  {
+   "base": "silbentrennung klasse 1",
+   "segment": "deutsch-erstlesen",
+   "longtail": "silbentrennung klasse 1 online üben",
+   "target": "GAP",
+   "id": "domino-two-part.two-syllable.rf-1-3-e",
+   "note": "secondary-on activity:domino-two-part.two-syllable.rf-1-3-e"
+  },
+  {
+   "base": "silbenmethode",
+   "segment": "deutsch-erstlesen",
+   "longtail": "lesen lernen mit der silbenmethode",
+   "target": "GAP",
+   "id": "domino-two-part.two-syllable.rf-1-3-e",
+   "note": "secondary-on activity:domino-two-part.two-syllable.rf-1-3-e"
+  },
+  {
+   "base": "silben vorschule",
+   "segment": "deutsch-erstlesen",
+   "longtail": "silben in der vorschule üben",
+   "target": "GAP",
+   "id": "syllable-builder.bau-das-wort-aus-silben.rf-k-2-b",
+   "note": "secondary-on activity:syllable-builder.bau-das-wort-aus-silben.rf-k-2-b"
+  },
+  {
+   "base": "reimwörter",
+   "segment": "deutsch-erstlesen",
+   "longtail": "reimwörter finden übungen",
+   "target": "GAP",
+   "id": "rhyme-shop.rhyme.rf-k-2-a",
+   "note": "secondary-on activity:rhyme-shop.rhyme.rf-k-2-a"
+  },
+  {
+   "base": "reime vorschule",
+   "segment": "deutsch-erstlesen",
+   "longtail": "reime vorschule spielerisch üben",
+   "target": "GAP"
+  },
+  {
+   "base": "reime finden",
+   "segment": "deutsch-erstlesen",
+   "longtail": "reime finden übungen klasse 1",
+   "target": "GAP",
+   "id": "rhyme-shop.rhyme.rf-k-2-a",
+   "note": "secondary-on activity:rhyme-shop.rhyme.rf-k-2-a"
+  },
+  {
+   "base": "erstlesen",
+   "segment": "deutsch-erstlesen",
+   "longtail": "erstlesen arbeitsblätter kostenlos",
+   "target": "landing",
+   "slug": "wort-raten-leicht-bauernhoftiere-c37d",
+   "currentTitle": "Arbeitsblätter Lückenwörter schreiben – Bauernhoftiere | PDF",
+   "title": "Erstlesen – Arbeitsblätter – Bauernhoftiere | PDF kostenlos",
+   "metaDescription": "Erstlesen üben mit Lückenwörtern: fehlende Buchstaben ergänzen und erste Wörter sicher lesen. Kostenlose Arbeitsblätter (PDF) mit Lösungen – 1. Klasse."
+  },
+  {
+   "base": "erstes lesen",
+   "segment": "deutsch-erstlesen",
+   "longtail": "erstes lesen üben online",
+   "target": "GAP",
+   "id": "choice-board.read-cvc-word.rf-k-3",
+   "note": "secondary-on activity:choice-board.read-cvc-word.rf-k-3"
+  },
+  {
+   "base": "anfangsunterricht deutsch",
+   "segment": "deutsch-erstlesen",
+   "longtail": "anfangsunterricht deutsch arbeitsblätter kostenlos",
+   "target": "landing",
+   "slug": "wort-raten-leicht-klassenzimmer-9275",
+   "currentTitle": "Arbeitsblätter Lückenwörter schreiben – Klassenzimmer | PDF",
+   "title": "Anfangsunterricht Deutsch – Arbeitsblätter | PDF kostenlos",
+   "metaDescription": "Arbeitsblätter für den Anfangsunterricht Deutsch: Lückenwörter mit Bildern rund ums Klassenzimmer. Kostenlos zum Ausdrucken (PDF) mit Lösungen – Klasse 1."
+  },
+  {
+   "base": "leseanfänger",
+   "segment": "deutsch-erstlesen",
+   "longtail": "übungen für leseanfänger zum ausdrucken",
+   "target": "landing",
+   "slug": "wort-raten-leicht-haustiere-6462",
+   "currentTitle": "Arbeitsblätter Lückenwörter schreiben – Haustiere | PDF",
+   "title": "Übungen für Leseanfänger – Haustiere | PDF kostenlos",
+   "metaDescription": "Übungen für Leseanfänger: Lückenwörter mit Haustier-Bildern, fehlende Buchstaben ergänzen. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt – Klasse 1."
+  },
+  {
+   "base": "erste wörter lesen",
+   "segment": "deutsch-erstlesen",
+   "longtail": "erste wörter lesen üben klasse 1",
+   "target": "GAP",
+   "id": "choice-board.read-cvc-word.rf-k-3",
+   "note": "secondary-on activity:choice-board.read-cvc-word.rf-k-3"
+  },
+  {
+   "base": "erste wörter",
+   "segment": "deutsch-erstlesen",
+   "longtail": "erste wörter arbeitsblätter grundschule",
+   "target": "landing",
+   "slug": "wort-raten-leicht-fruchte-9b53",
+   "currentTitle": "Arbeitsblätter Lückenwörter schreiben – Früchte | PDF",
+   "title": "Erste Wörter – Arbeitsblätter Grundschule – Obst | PDF kostenlos",
+   "metaDescription": "Erste Wörter üben: Lückenwörter mit Obst-Bildern, fehlende Buchstaben eintragen. Kostenlose Arbeitsblätter für die Grundschule (PDF) mit Lösungen."
+  },
+  {
+   "base": "lernwörter klasse 1",
+   "segment": "deutsch-erstlesen",
+   "longtail": "lernwörter klasse 1 online üben",
+   "target": "activity",
+   "id": "choice-board.read-sight-word.rf-k-3-c",
+   "title": "Lernwörter Klasse 1 – häufige Wörter online üben",
+   "metaDescription": "Lernwörter für Klasse 1: häufige Wörter hören, wiedererkennen und sicher lesen. Kostenlos online üben, ohne Anmeldung – für Schule und zu Hause."
+  },
+  {
+   "base": "lautgetreue wörter",
+   "segment": "deutsch-erstlesen",
+   "longtail": "lautgetreue wörter lesen üben",
+   "target": "GAP"
+  },
+  {
+   "base": "blitzlesen",
+   "segment": "deutsch-erstlesen",
+   "longtail": "blitzlesen übungen klasse 1",
+   "target": "GAP",
+   "id": "choice-board.read-sight-word.rf-k-3-c",
+   "note": "secondary-on activity:choice-board.read-sight-word.rf-k-3-c"
+  },
+  {
+   "base": "lesetempo aufbauen",
+   "segment": "deutsch-erstlesen",
+   "longtail": "lesetempo aufbauen übungen klasse 1",
+   "target": "GAP",
+   "id": "choice-board.read-sight-word.rf-k-3-c",
+   "note": "secondary-on activity:choice-board.read-sight-word.rf-k-3-c"
+  },
+  {
+   "base": "wörter bildern zuordnen",
+   "segment": "deutsch-erstlesen",
+   "longtail": "wörter und bilder zuordnen arbeitsblatt",
+   "target": "landing",
+   "slug": "zuordnung-buchstaben-tiere-aa36",
+   "currentTitle": "Arbeitsblätter Buchstaben zuordnen – Tiere | zum Ausdrucken PDF",
+   "title": "Wörter und Bilder zuordnen – Tiere | Arbeitsblätter PDF kostenlos",
+   "metaDescription": "Zuordnen üben: passende Paare finden und verbinden – Tier-Arbeitsblätter für Klasse 1. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "erste sätze lesen",
+   "segment": "deutsch-erstlesen",
+   "longtail": "erste sätze lesen üben klasse 1",
+   "target": "activity",
+   "id": "otto-picture-book.which-picture.rl-k-7",
+   "title": "Erste Sätze lesen – Satz und Bild zuordnen (Klasse 1)",
+   "metaDescription": "Erste Sätze lesen und verstehen: den Satz lesen und das passende Bild dazu finden. Kostenlos online üben, ohne Anmeldung – für Leseanfänger."
+  },
+  {
+   "base": "purzelwörter",
+   "segment": "deutsch-erstlesen",
+   "longtail": "purzelwörter grundschule zum ausdrucken",
+   "target": "landing",
+   "slug": "buchstabensalat-bauernhoftiere",
+   "currentTitle": "Arbeitsblätter Buchstabensalat – Bauernhoftiere | PDF",
+   "title": "Purzelwörter Grundschule – Bauernhoftiere | zum Ausdrucken PDF",
+   "metaDescription": "Purzelwörter für die Grundschule: durcheinandergeratene Buchstaben ordnen – Bauernhoftiere. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt – Klasse 1."
+  },
+  {
+   "base": "lesetexte klasse 1",
+   "segment": "deutsch-erstlesen",
+   "longtail": "lesetexte klasse 1 online lesen",
+   "target": "activity",
+   "id": "picture-story.read.rl-k-1",
+   "title": "Lesetexte Klasse 1 – Geschichte online lesen und verstehen",
+   "metaDescription": "Lesetexte für Klasse 1: eine kurze Geschichte lesen und Fragen zum Text beantworten. Kostenlos online, ohne Anmeldung – Leseverständnis üben."
+  },
+  {
+   "base": "lesetexte klasse 2",
+   "segment": "deutsch-erstlesen",
+   "longtail": "lesetexte klasse 2 online üben",
+   "target": "activity",
+   "id": "linc-fact-chain.connect.ri-k-3",
+   "title": "Lesetexte Klasse 2 – Sachtexte online lesen und verstehen",
+   "metaDescription": "Lesetexte für Klasse 2: Sachtexte lesen, Reihenfolge und Ursache-Wirkung verstehen. Kostenlos online üben, ohne Anmeldung – Leseverständnis stärken."
+  },
+  {
+   "base": "leseverständnis klasse 2",
+   "segment": "deutsch-erstlesen",
+   "longtail": "leseverständnis klasse 2 übungen online",
+   "target": "activity",
+   "id": "marina-headline-desk.main-topic.ri-2-2",
+   "title": "Leseverständnis Klasse 2 – das Hauptthema erkennen, online üben",
+   "metaDescription": "Leseverständnis für Klasse 2: Sachtexte lesen und das Hauptthema sicher erkennen. Kostenlose Übungen online, ohne Anmeldung – ideal zum Wiederholen."
+  },
+  {
+   "base": "leseverstehen",
+   "segment": "deutsch-erstlesen",
+   "longtail": "leseverstehen üben grundschule",
+   "target": "activity",
+   "id": "atlas-fact-files.key-detail.ri-k-1",
+   "title": "Leseverstehen üben – Sachtexte lesen (Grundschule)",
+   "metaDescription": "Leseverstehen in der Grundschule: kurze Sachtexte lesen und wichtige Details finden. Kostenlos online üben, ohne Anmeldung – ab Klasse 1."
+  },
+  {
+   "base": "lesen und verstehen",
+   "segment": "deutsch-erstlesen",
+   "longtail": "lesen und verstehen klasse 1 übungen",
+   "target": "GAP",
+   "id": "picture-story.read.rl-k-1",
+   "note": "secondary-on activity:picture-story.read.rl-k-1"
+  },
+  {
+   "base": "sinnerfassendes lesen",
+   "segment": "deutsch-erstlesen",
+   "longtail": "sinnerfassendes lesen übungen klasse 1",
+   "target": "activity",
+   "id": "nila-pond.main-idea-net.ri-k-2",
+   "title": "Sinnerfassendes Lesen – die Hauptaussage finden (Klasse 1)",
+   "metaDescription": "Sinnerfassendes Lesen üben: kurze Sachtexte lesen und die Hauptaussage herausfinden. Kostenlos online, ohne Anmeldung – für Klasse 1."
+  },
+  {
+   "base": "lesen und malen",
+   "segment": "deutsch-erstlesen",
+   "longtail": "lesen und malen arbeitsblätter klasse 1",
+   "target": "GAP"
+  },
+  {
+   "base": "leseförderung",
+   "segment": "deutsch-erstlesen",
+   "longtail": "leseförderung grundschule online übungen",
+   "target": "GAP",
+   "id": "picture-story.read.rl-k-1",
+   "note": "secondary-on activity:picture-story.read.rl-k-1"
+  },
+  {
+   "base": "hörverstehen klasse 1",
+   "segment": "deutsch-erstlesen",
+   "longtail": "hörverstehen klasse 1 übungen",
+   "target": "GAP"
+  },
+  {
+   "base": "daz lesetexte",
+   "segment": "deutsch-erstlesen",
+   "longtail": "daz lesetexte für leseanfänger",
+   "target": "GAP",
+   "id": "atlas-fact-files.key-detail.ri-k-1",
+   "note": "secondary-on activity:atlas-fact-files.key-detail.ri-k-1"
+  },
+  {
+   "base": "vorschule arbeitsblätter",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "vorschule arbeitsblätter tiere zum ausdrucken",
+   "target": "landing",
+   "slug": "schatten-zuordnen-ganz-machen-tiere-77a3",
+   "currentTitle": "Arbeitsblätter Passendes Ganzes – Tiere | zum Ausdrucken PDF",
+   "title": "Vorschule Arbeitsblätter Tiere – Schatten zuordnen | PDF kostenlos",
+   "metaDescription": "Vorschule Arbeitsblätter mit Tieren: Schatten zuordnen für Kinder ab 3 Jahren. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "buchstaben schreiben",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "buchstaben schreiben lernen online",
+   "target": "GAP",
+   "id": "penny-alphabet-trace.letter-formation.l-k-1-a",
+   "note": "secondary-on activity:penny-alphabet-trace.letter-formation.l-k-1-a"
+  },
+  {
+   "base": "silbentrennung",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "silbentrennung spielerisch üben",
+   "target": "GAP",
+   "id": "syllable-builder.bau-das-wort-aus-silben.rf-k-2-b",
+   "note": "secondary-on activity:syllable-builder.bau-das-wort-aus-silben.rf-k-2-b"
+  },
+  {
+   "base": "i oder ie",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "i oder ie übungen klasse 2",
+   "target": "GAP"
+  },
+  {
+   "base": "ss oder ß",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "ss oder ß übungen grundschule",
+   "target": "GAP"
+  },
+  {
+   "base": "wortarten",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "wortarten übungen klasse 2",
+   "target": "GAP"
+  },
+  {
+   "base": "wortarten bestimmen",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "wortarten bestimmen arbeitsblätter klasse 3",
+   "target": "GAP"
+  },
+  {
+   "base": "nomen verben adjektive",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "nomen verben adjektive übungen klasse 2",
+   "target": "GAP"
+  },
+  {
+   "base": "einzahl mehrzahl",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "einzahl mehrzahl übungen klasse 2",
+   "target": "activity",
+   "id": "daisy-plate-stack.plurals.l-k-1-c",
+   "title": "Einzahl und Mehrzahl – online üben (Klasse 2)",
+   "metaDescription": "Einzahl und Mehrzahl üben mit Ella der Ente: zu jedem Wort die passende Mehrzahlform finden. Klasse 2 – kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "zusammengesetzte nomen",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "zusammengesetzte nomen übungen klasse 2",
+   "target": "activity",
+   "id": "compound-meaning.predict.l-2-4-d",
+   "title": "Zusammengesetzte Nomen – online üben (Klasse 2)",
+   "metaDescription": "Zusammengesetzte Nomen üben: Was bedeuten Komposita? Wortbedeutungen aus zwei Wörtern erschließen. Klasse 2 – kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "wortfamilien",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "wortfamilien übungen klasse 2",
+   "target": "activity",
+   "id": "sage-root-garden.roots.l-2-4-c",
+   "title": "Wortfamilien – online üben (Klasse 2)",
+   "metaDescription": "Wortfamilien üben in Sages Wortgarten: verwandte Wörter zum gleichen Wortstamm finden. Für Klasse 2 – kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "wortstamm",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "wortstamm bestimmen übungen grundschule",
+   "target": "GAP",
+   "id": "sage-root-garden.roots.l-2-4-c",
+   "note": "secondary-on activity:sage-root-garden.roots.l-2-4-c"
+  },
+  {
+   "base": "zeitformen",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "zeitformen üben klasse 2",
+   "target": "activity",
+   "id": "tense.past-present-future.l-1-1-e",
+   "title": "Zeitformen üben – Verben online (Klasse 2)",
+   "metaDescription": "Zeitformen üben mit Junipers Uhrturm: Vergangenheit, Gegenwart und Zukunft unterscheiden. Verben für Klasse 2 – kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "satzzeichen",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "satzzeichen übungen klasse 2",
+   "target": "GAP"
+  },
+  {
+   "base": "wörtliche rede",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "wörtliche rede übungen klasse 3",
+   "target": "GAP"
+  },
+  {
+   "base": "linien nachspuren",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "linien nachspuren vorschule kostenlos",
+   "target": "GAP",
+   "key": "drawing-lines",
+   "note": "secondary-on maker:drawing-lines"
+  },
+  {
+   "base": "muster nachfahren",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "muster nachfahren arbeitsblätter vorschule",
+   "target": "GAP",
+   "key": "drawing-lines",
+   "note": "secondary-on maker:drawing-lines"
+  },
+  {
+   "base": "feinmotorik übungen",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "feinmotorik übungen kindergarten zum ausdrucken",
+   "target": "landing",
+   "slug": "bildpfad-den-richtigen-weg-wahlen-fahrzeuge-9142",
+   "currentTitle": "Arbeitsblätter Bilder-Labyrinth – Fahrzeuge | zum Ausdrucken PDF",
+   "title": "Feinmotorik-Übungen Kindergarten – Labyrinthe | PDF kostenlos",
+   "metaDescription": "Feinmotorik-Übungen für den Kindergarten: Labyrinthe – Fahrzeuge, den Weg mit dem Stift nachfahren. Kostenlos zum Ausdrucken (PDF) mit Lösung."
+  },
+  {
+   "base": "graphomotorik",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "graphomotorik übungen zum ausdrucken",
+   "target": "GAP",
+   "key": "drawing-lines",
+   "note": "secondary-on maker:drawing-lines"
+  },
+  {
+   "base": "vorschulübungen",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "vorschulübungen zum ausdrucken kostenlos",
+   "target": "GAP",
+   "note": "no-free-slug landing:picture-path/animals/vorschule"
+  },
+  {
+   "base": "abc schreiben",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "abc schreiben lernen online",
+   "target": "GAP",
+   "id": "penny-alphabet-trace.letter-formation.l-k-1-a",
+   "note": "secondary-on activity:penny-alphabet-trace.letter-formation.l-k-1-a"
+  },
+  {
+   "base": "druckschrift",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "druckschrift arbeitsblätter kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "druckschrift üben",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "druckschrift üben 1. klasse",
+   "target": "GAP"
+  },
+  {
+   "base": "grundschrift",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "grundschrift arbeitsblätter kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "schreibschrift üben",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "schreibschrift üben klasse 2",
+   "target": "GAP"
+  },
+  {
+   "base": "vereinfachte ausgangsschrift",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "vereinfachte ausgangsschrift übungsblätter",
+   "target": "GAP"
+  },
+  {
+   "base": "handschrift trainieren",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "handschrift trainieren arbeitsblätter grundschule",
+   "target": "maker",
+   "key": "writing",
+   "title": "Handschrift trainieren – Schreibübungen selbst erstellen",
+   "metaDescription": "Handschrift trainieren in der Grundschule: eigene Schreibübungen als Arbeitsblätter erstellen und ausdrucken. Kostenlos, ohne Anmeldung."
+  },
+  {
+   "base": "schreiben lernen",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "schreiben lernen übungen online",
+   "target": "GAP",
+   "id": "penny-alphabet-trace.letter-formation.l-k-1-a",
+   "note": "secondary-on activity:penny-alphabet-trace.letter-formation.l-k-1-a"
+  },
+  {
+   "base": "erstes schreiben",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "erstes schreiben arbeitsblätter erstellen",
+   "target": "GAP",
+   "key": "writing",
+   "note": "secondary-on maker:writing"
+  },
+  {
+   "base": "abschreibtexte klasse 2",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "abschreibtexte klasse 2 kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "sätze schreiben",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "sätze schreiben üben klasse 2",
+   "target": "activity",
+   "id": "sentence-builder.build-a-sentence.l-1-1-j",
+   "title": "Sätze schreiben üben – Satzbau online (Klasse 2)",
+   "metaDescription": "Sätze schreiben üben mit Wiggles: Wörter in die richtige Reihenfolge bringen und den Satzbau trainieren. Klasse 2 – kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "erste sätze",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "erste sätze lesen grundschule",
+   "target": "GAP",
+   "id": "otto-picture-book.which-picture.rl-k-7",
+   "note": "secondary-on activity:otto-picture-book.which-picture.rl-k-7"
+  },
+  {
+   "base": "diktate klasse 2",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "diktate klasse 2 zum ausdrucken",
+   "target": "GAP"
+  },
+  {
+   "base": "diktate grundschule",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "diktate grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "lernwörter",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "lernwörter klasse 2 üben",
+   "target": "GAP"
+  },
+  {
+   "base": "lernwörter üben",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "lernwörter spielerisch üben",
+   "target": "GAP"
+  },
+  {
+   "base": "rechtschreibung üben",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "rechtschreibung üben klasse 1",
+   "target": "landing",
+   "slug": "wort-raten-normal-tiere-99d4",
+   "currentTitle": "Arbeitsblätter Lückenwörter schreiben – Tiere (2) | PDF",
+   "title": "Rechtschreibung üben Klasse 1 – Lückenwörter | PDF kostenlos",
+   "metaDescription": "Rechtschreibung üben in Klasse 1: Lückenwörter mit Bildern – fehlende Buchstaben eintragen. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "rechtschreibung grundschule",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "rechtschreibung grundschule arbeitsblätter kostenlos",
+   "target": "GAP",
+   "note": "no-free-slug landing:word-scramble/animals/1-klasse"
+  },
+  {
+   "base": "groß- und kleinschreibung",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "groß- und kleinschreibung übungen klasse 2",
+   "target": "activity",
+   "id": "wally-capital-crane.special-names.l-2-2-a",
+   "title": "Groß- und Kleinschreibung – online üben (Klasse 2)",
+   "metaDescription": "Groß- und Kleinschreibung üben: Nomen erkennen und großschreiben mit Wallys Kran. Übungen für Klasse 2 – kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "wörter mit ie",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "wörter mit ie arbeitsblatt",
+   "target": "GAP"
+  },
+  {
+   "base": "doppelte konsonanten",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "doppelte konsonanten übungen klasse 2",
+   "target": "GAP"
+  },
+  {
+   "base": "doppelkonsonanten",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "doppelkonsonanten arbeitsblätter grundschule",
+   "target": "GAP"
+  },
+  {
+   "base": "dehnungs-h",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "dehnungs-h übungen klasse 3",
+   "target": "GAP"
+  },
+  {
+   "base": "g oder k",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "g oder k am wortende übungen",
+   "target": "GAP"
+  },
+  {
+   "base": "b oder p",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "b oder p am wortende arbeitsblatt",
+   "target": "GAP"
+  },
+  {
+   "base": "d oder t",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "d oder t am wortende übungen",
+   "target": "GAP"
+  },
+  {
+   "base": "au oder äu",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "au oder äu übungen klasse 2",
+   "target": "GAP"
+  },
+  {
+   "base": "nomen und artikel",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "nomen und artikel übungen klasse 1",
+   "target": "GAP"
+  },
+  {
+   "base": "zeitformen klasse 3",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "zeitformen klasse 3 übungen",
+   "target": "activity",
+   "id": "rusty-yesterday.irregular-past.l-2-1-d",
+   "title": "Zeitformen Klasse 3 – Präteritum online üben",
+   "metaDescription": "Zeitformen in Klasse 3: unregelmäßige Verben im Präteritum üben mit Rustys Gestern-Maschine. Kostenlos online üben, ohne Anmeldung."
+  },
+  {
+   "base": "zeitformen von verben",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "zeitformen von verben üben",
+   "target": "GAP",
+   "id": "tense.past-present-future.l-1-1-e",
+   "note": "secondary-on activity:tense.past-present-future.l-1-1-e"
+  },
+  {
+   "base": "vergangenheitsformen",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "vergangenheitsformen üben grundschule",
+   "target": "GAP",
+   "id": "rusty-yesterday.irregular-past.l-2-1-d",
+   "note": "secondary-on activity:rusty-yesterday.irregular-past.l-2-1-d"
+  },
+  {
+   "base": "satzarten",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "satzarten übungen klasse 2",
+   "target": "GAP"
+  },
+  {
+   "base": "satzarten und satzzeichen",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "satzarten und satzzeichen arbeitsblätter",
+   "target": "GAP"
+  },
+  {
+   "base": "wortschatz übungen",
+   "segment": "deutsch-schreiben-grammatik",
+   "longtail": "wortschatz übungen grundschule online",
+   "target": "activity",
+   "id": "jasper-just-right.real-life.l-1-5-c",
+   "title": "Wortschatz-Übungen – online üben (Klasse 1)",
+   "metaDescription": "Wortschatz-Übungen für die Grundschule: Wozu benutzt man das? Wörter und ihre Verwendung zuordnen. Klasse 1 – kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "sudoku für kinder",
+   "segment": "logik-wahrnehmung",
+   "longtail": "sudoku für kinder ab 5 jahren",
+   "target": "landing",
+   "slug": "bilder-sudoku-mittel-tiere-9ccc",
+   "currentTitle": "Arbeitsblätter Bilder-Sudoku (mittel) – Tiere | PDF",
+   "title": "Sudoku für Kinder ab 5 – Bilder-Sudoku 4x4 – Tiere | PDF kostenlos",
+   "metaDescription": "Sudoku für Kinder ab 5 Jahren: einfache 4x4-Bilder-Sudokus – Tiere. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "bilder sudoku",
+   "segment": "logik-wahrnehmung",
+   "longtail": "bilder sudoku kindergarten",
+   "target": "landing",
+   "slug": "bilder-sudoku-leicht-bauernhoftiere-134a",
+   "currentTitle": "Arbeitsblätter Bilder-Sudoku – Bauernhoftiere | PDF",
+   "title": "Bilder-Sudoku Kindergarten – Bauernhoftiere | PDF kostenlos",
+   "metaDescription": "Bilder-Sudoku für den Kindergarten: 4x4-Rätsel mit Bauernhoftieren statt Zahlen. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "visuelle wahrnehmung kindergarten",
+   "segment": "logik-wahrnehmung",
+   "longtail": "visuelle wahrnehmung kindergarten übungen",
+   "target": "landing",
+   "slug": "gitter-zuordnung-tiere",
+   "currentTitle": "Arbeitsblätter Bildgitter – Tiere | zum Ausdrucken PDF kostenlos",
+   "title": "Visuelle Wahrnehmung Kindergarten – Übungen – Tiere | PDF kostenlos",
+   "metaDescription": "Visuelle Wahrnehmung im Kindergarten üben: Gitterbilder zum Zuordnen – Tiere. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "rätsel für kinder",
+   "segment": "logik-wahrnehmung",
+   "longtail": "rätsel für kinder zum ausdrucken",
+   "target": "landing",
+   "slug": "kreuzwortraetsel-tiere-8fda",
+   "currentTitle": "Arbeitsblätter Bilderkreuzworträtsel – Tiere | zum Ausdrucken PDF",
+   "title": "Rätsel für Kinder zum Ausdrucken – Bilder-Kreuzworträtsel | PDF",
+   "metaDescription": "Rätsel für Kinder zum Ausdrucken: Bilder-Kreuzworträtsel – Tiere. Kostenlose Arbeitsblätter (PDF) mit Lösungsblatt für die Grundschule."
+  },
+  {
+   "base": "rätsel grundschule",
+   "segment": "logik-wahrnehmung",
+   "longtail": "rätsel grundschule zum ausdrucken kostenlos",
+   "target": "landing",
+   "slug": "wortsuche-zootiere",
+   "currentTitle": "Arbeitsblätter Wortsuche – Zootiere | zum Ausdrucken PDF",
+   "title": "Rätsel Grundschule – Wörtersuche mit Bildern – Zootiere | PDF",
+   "metaDescription": "Rätsel für die Grundschule: Wörtersuche mit Bildern – Zootiere. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungsblatt, Klasse 1."
+  },
+  {
+   "base": "logikrätsel kinder",
+   "segment": "logik-wahrnehmung",
+   "longtail": "logikrätsel für kinder zum ausdrucken",
+   "target": "landing",
+   "slug": "bilder-sudoku-leicht-formen-4957",
+   "currentTitle": "Arbeitsblätter Bilder-Sudoku – Formen | zum Ausdrucken PDF",
+   "title": "Logikrätsel für Kinder – Bilder-Sudoku 4x4 – Formen | PDF kostenlos",
+   "metaDescription": "Logikrätsel für Kinder zum Ausdrucken: 4x4-Bilder-Sudokus mit Formen – knobeln ganz ohne Zahlen. Kostenlose Arbeitsblätter (PDF) mit Lösung."
+  },
+  {
+   "base": "kreuzworträtsel kinder",
+   "segment": "logik-wahrnehmung",
+   "longtail": "kreuzworträtsel für kinder kostenlos",
+   "target": "landing",
+   "slug": "kreuzwortraetsel-spielzeug-e043",
+   "currentTitle": "Arbeitsblätter Bilderkreuzworträtsel – Spielzeug | PDF",
+   "title": "Kreuzworträtsel für Kinder mit Bildern – Spielzeug | PDF",
+   "metaDescription": "Kreuzworträtsel für Kinder kostenlos: Bilderrätsel rund um Spielzeug. Arbeitsblätter zum Ausdrucken (PDF) mit Lösungsblatt für die Grundschule."
+  },
+  {
+   "base": "kreuzworträtsel grundschule",
+   "segment": "logik-wahrnehmung",
+   "longtail": "kreuzworträtsel grundschule zum ausdrucken",
+   "target": "landing",
+   "slug": "kreuzwortraetsel-klassenzimmer-9b33",
+   "currentTitle": "Arbeitsblätter Bilderkreuzworträtsel – Klassenzimmer | PDF",
+   "title": "Kreuzworträtsel Grundschule – Schule | zum Ausdrucken PDF",
+   "metaDescription": "Kreuzworträtsel für die Grundschule zum Ausdrucken – Thema Schule. Kostenlose Arbeitsblätter (PDF) mit Bildern und Lösungsblatt, Klasse 2."
+  },
+  {
+   "base": "was passt nicht dazu",
+   "segment": "logik-wahrnehmung",
+   "longtail": "was passt nicht dazu arbeitsblatt",
+   "target": "landing",
+   "slug": "was-passt-nicht-gleiches-thema-tiere",
+   "currentTitle": "Arbeitsblätter Was passt nicht? – Tiere | zum Ausdrucken PDF",
+   "title": "Was passt nicht dazu? – Arbeitsblätter – Tiere | PDF kostenlos",
+   "metaDescription": "Was passt nicht dazu? Arbeitsblätter mit Tieren für Kindergarten und Vorschule. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "schatten zuordnen arbeitsblatt",
+   "segment": "logik-wahrnehmung",
+   "longtail": "schatten zuordnen arbeitsblätter vorschule",
+   "target": "GAP",
+   "note": "no-free-slug landing:shadow-match/animals/vorschule"
+  },
+  {
+   "base": "visuelle wahrnehmung arbeitsblätter",
+   "segment": "logik-wahrnehmung",
+   "longtail": "visuelle wahrnehmung arbeitsblätter vorschule",
+   "target": "landing",
+   "slug": "was-fehlt-2-fehlende-teile-spielzeug-e43a",
+   "currentTitle": "Arbeitsblätter Fehlende Teile – Spielzeug | zum Ausdrucken PDF",
+   "title": "Visuelle Wahrnehmung – Arbeitsblätter Vorschule – Spielzeug | PDF",
+   "metaDescription": "Visuelle Wahrnehmung: Arbeitsblätter für die Vorschule – fehlende Bildteile finden, Thema Spielzeug. Kostenlos zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "sudoku zum ausdrucken",
+   "segment": "logik-wahrnehmung",
+   "longtail": "sudoku zum ausdrucken kindergarten",
+   "target": "landing",
+   "slug": "bilder-sudoku-leicht-fahrzeuge-03d6",
+   "currentTitle": "Arbeitsblätter Bilder-Sudoku – Fahrzeuge | zum Ausdrucken PDF",
+   "title": "Sudoku zum Ausdrucken – Kindergarten – Fahrzeuge | PDF kostenlos",
+   "metaDescription": "Sudoku zum Ausdrucken für den Kindergarten: 4x4-Bilder-Sudokus – Fahrzeuge. Kostenlose Arbeitsblätter (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "kinder sudoku",
+   "segment": "logik-wahrnehmung",
+   "longtail": "kinder sudoku zum ausdrucken kostenlos",
+   "target": "landing",
+   "slug": "bilder-sudoku-mittel-spielzeug-26f9",
+   "currentTitle": "Arbeitsblätter Bilder-Sudoku (mittel) – Spielzeug | PDF",
+   "title": "Kinder-Sudoku zum Ausdrucken – Spielzeug | PDF kostenlos",
+   "metaDescription": "Kinder-Sudoku kostenlos zum Ausdrucken: leichte 4x4-Rätsel mit Spielzeug-Bildern. Arbeitsblätter (PDF) mit Lösungsblatt für die Kleinsten."
+  },
+  {
+   "base": "sudoku mit bildern",
+   "segment": "logik-wahrnehmung",
+   "longtail": "sudoku mit bildern für kinder",
+   "target": "landing",
+   "slug": "bilder-sudoku-leicht-fruchte-fbad",
+   "currentTitle": "Arbeitsblätter Bilder-Sudoku – Früchte | zum Ausdrucken PDF",
+   "title": "Sudoku mit Bildern für Kinder – Obst | PDF kostenlos",
+   "metaDescription": "Sudoku mit Bildern für Kinder: 4x4-Felder mit Obst statt Zahlen. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "kinder sudoku 4x4",
+   "segment": "logik-wahrnehmung",
+   "longtail": "kinder sudoku 4x4 zum ausdrucken",
+   "target": "landing",
+   "slug": "bilder-sudoku-leicht-farben-85c8",
+   "currentTitle": "Arbeitsblätter Bilder-Sudoku – Farben | zum Ausdrucken PDF",
+   "title": "Kinder-Sudoku 4x4 zum Ausdrucken – Farben | PDF kostenlos",
+   "metaDescription": "Kinder-Sudoku 4x4 zum Ausdrucken: Bilder-Sudokus mit Farben für den Einstieg. Kostenlose Arbeitsblätter (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "sudoku grundschule",
+   "segment": "logik-wahrnehmung",
+   "longtail": "sudoku grundschule zum ausdrucken",
+   "target": "landing",
+   "slug": "bilder-sudoku-leicht-zootiere-b423",
+   "currentTitle": "Arbeitsblätter Bilder-Sudoku – Zootiere | zum Ausdrucken PDF",
+   "title": "Sudoku Grundschule – leichte Bilder-Sudokus – Zootiere | PDF",
+   "metaDescription": "Sudoku für die Grundschule zum Ausdrucken: leichte 4x4-Bilder-Sudokus mit Zootieren für Schulanfänger. Kostenlos (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "sudoku vorschule",
+   "segment": "logik-wahrnehmung",
+   "longtail": "sudoku vorschule zum ausdrucken",
+   "target": "landing",
+   "slug": "bilder-sudoku-leicht-meeresleben-a9a9",
+   "currentTitle": "Arbeitsblätter Bilder-Sudoku – Meeresleben | zum Ausdrucken PDF",
+   "title": "Sudoku Vorschule – Bilder-Sudoku – Meerestiere | PDF kostenlos",
+   "metaDescription": "Sudoku für die Vorschule: 4x4-Bilder-Sudokus mit Meerestieren, ganz ohne Zahlen. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "mini sudoku",
+   "segment": "logik-wahrnehmung",
+   "longtail": "mini sudoku für kinder zum ausdrucken",
+   "target": "landing",
+   "slug": "bilder-sudoku-leicht-weltraum-bc9f",
+   "currentTitle": "Arbeitsblätter Bilder-Sudoku – Weltraum | zum Ausdrucken PDF",
+   "title": "Mini-Sudoku für Kinder – 4x4 mit Bildern – Weltraum | PDF",
+   "metaDescription": "Mini-Sudoku für Kinder zum Ausdrucken: kleine 4x4-Bilder-Sudokus – Weltraum. Kostenlose Arbeitsblätter (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "labyrinth kinder",
+   "segment": "logik-wahrnehmung",
+   "longtail": "labyrinth für kinder zum ausdrucken",
+   "target": "GAP",
+   "note": "no-free-slug landing:picture-path/animals/vorschule"
+  },
+  {
+   "base": "labyrinthe für kinder",
+   "segment": "logik-wahrnehmung",
+   "longtail": "labyrinthe für kinder ab 4 jahren",
+   "target": "landing",
+   "slug": "bildpfad-den-richtigen-weg-wahlen-waldtiere-363d",
+   "currentTitle": "Arbeitsblätter Bilder-Labyrinth – Waldtiere | zum Ausdrucken PDF",
+   "title": "Labyrinthe für Kinder ab 4 – Waldtiere | zum Ausdrucken PDF",
+   "metaDescription": "Labyrinthe für Kinder ab 4 Jahren: einfache Wege-Rätsel mit Waldtieren. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "labyrinth rätsel",
+   "segment": "logik-wahrnehmung",
+   "longtail": "labyrinth rätsel zum ausdrucken",
+   "target": "landing",
+   "slug": "bildpfad-den-richtigen-weg-wahlen-weltraum-a3a9",
+   "currentTitle": "Arbeitsblätter Bilder-Labyrinth – Weltraum | zum Ausdrucken PDF",
+   "title": "Labyrinth-Rätsel zum Ausdrucken – Weltraum | PDF kostenlos",
+   "metaDescription": "Labyrinth-Rätsel zum Ausdrucken: den Weg durchs Weltraum-Gitter finden. Kostenlose Arbeitsblätter (PDF) mit Lösungsblatt für Kinder."
+  },
+  {
+   "base": "irrgarten kinder",
+   "segment": "logik-wahrnehmung",
+   "longtail": "irrgarten für kinder zum ausdrucken",
+   "target": "landing",
+   "slug": "bildpfad-den-richtigen-weg-wahlen-zootiere-c05f",
+   "currentTitle": "Arbeitsblätter Bilder-Labyrinth – Zootiere | zum Ausdrucken PDF",
+   "title": "Irrgarten für Kinder – Bilder-Labyrinthe – Zootiere | PDF",
+   "metaDescription": "Irrgarten für Kinder zum Ausdrucken: Bilder-Labyrinthe mit Zootieren – Weg finden und knobeln. Kostenlose Arbeitsblätter (PDF) mit Lösung."
+  },
+  {
+   "base": "fehlersuchbilder",
+   "segment": "logik-wahrnehmung",
+   "longtail": "fehlersuchbilder für kinder kostenlos",
+   "target": "landing",
+   "slug": "was-fehlt-1-fehlendes-teil-tiere",
+   "currentTitle": "Arbeitsblätter Fehlendes Teil – Tiere | zum Ausdrucken PDF",
+   "title": "Fehlersuchbilder für Kinder – fehlende Teile finden | PDF",
+   "metaDescription": "Fehlersuchbilder für Kinder: Welches Teil fehlt im Bild? Tier-Suchbilder als kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "fehlerbilder kinder",
+   "segment": "logik-wahrnehmung",
+   "longtail": "fehlerbilder für kinder zum ausdrucken",
+   "target": "landing",
+   "slug": "was-fehlt-1-fehlendes-teil-fahrzeuge-46c0",
+   "currentTitle": "Arbeitsblätter Fehlendes Teil – Fahrzeuge | zum Ausdrucken PDF",
+   "title": "Fehlerbilder für Kinder – was fehlt im Bild? – Fahrzeuge | PDF",
+   "metaDescription": "Fehlerbilder für Kinder zum Ausdrucken: fehlende Teile bei Fahrzeugen entdecken. Kostenlose Arbeitsblätter (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "finde die fehler",
+   "segment": "logik-wahrnehmung",
+   "longtail": "finde die fehler rätsel für kinder",
+   "target": "landing",
+   "slug": "was-passt-nicht-gleiches-thema-spielzeug-bb93",
+   "currentTitle": "Arbeitsblätter Was passt nicht? – Spielzeug | zum Ausdrucken PDF",
+   "title": "Finde die Fehler – was passt nicht? – Spielzeug | PDF kostenlos",
+   "metaDescription": "Finde die Fehler: In jeder Reihe versteckt sich ein Bild, das nicht dazu passt – Spielzeug. Kostenlose Arbeitsblätter (PDF) mit Lösungen."
+  },
+  {
+   "base": "unterschiede finden",
+   "segment": "logik-wahrnehmung",
+   "longtail": "unterschiede finden übungen kindergarten",
+   "target": "landing",
+   "slug": "was-passt-nicht-gleiches-thema-fruchte-1614",
+   "currentTitle": "Arbeitsblätter Was passt nicht? – Früchte | zum Ausdrucken PDF",
+   "title": "Unterschiede finden – welches Bild ist anders? – Obst | PDF",
+   "metaDescription": "Unterschiede finden im Kindergarten: Welches Bild ist anders als die anderen? Obst-Übungen kostenlos zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "finde die unterschiede",
+   "segment": "logik-wahrnehmung",
+   "longtail": "finde die unterschiede zwei bilder",
+   "target": "GAP"
+  },
+  {
+   "base": "suchbilder kinder",
+   "segment": "logik-wahrnehmung",
+   "longtail": "suchbilder für kinder zum ausdrucken",
+   "target": "GAP",
+   "note": "no-free-slug landing:find-objects/animals/vorschule"
+  },
+  {
+   "base": "wimmelbild kindergarten",
+   "segment": "logik-wahrnehmung",
+   "longtail": "wimmelbild kindergarten kostenlos",
+   "target": "landing",
+   "slug": "objekte-finden-anders-finden-bauernhoftiere-9218",
+   "currentTitle": "Arbeitsblätter Objekte suchen – Bauernhoftiere | PDF",
+   "title": "Wimmelbild Kindergarten – suchen und finden – Bauernhof | PDF",
+   "metaDescription": "Wimmelbild für den Kindergarten kostenlos: Bauernhoftiere im Suchbild finden. Arbeitsblätter zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "wimmelbilder grundschule",
+   "segment": "logik-wahrnehmung",
+   "longtail": "wimmelbilder grundschule zum ausdrucken",
+   "target": "landing",
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-meeresleben-52ca",
+   "currentTitle": "Arbeitsblätter Anlaute suchen – Meeresleben | zum Ausdrucken PDF",
+   "title": "Wimmelbilder Grundschule – suchen und zählen – Meerestiere | PDF",
+   "metaDescription": "Wimmelbilder für die Grundschule zum Ausdrucken: Meerestiere suchen und zählen. Kostenlose Arbeitsblätter (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "schattenbilder zuordnen",
+   "segment": "logik-wahrnehmung",
+   "longtail": "schattenbilder zuordnen kindergarten",
+   "target": "landing",
+   "slug": "schatten-zuordnen-schatten-zuordnen-spielzeug-c723",
+   "currentTitle": "Arbeitsblätter Schattenbilder – Spielzeug | zum Ausdrucken PDF",
+   "title": "Schattenbilder zuordnen – Kindergarten – Spielzeug | PDF",
+   "metaDescription": "Schattenbilder zuordnen im Kindergarten: Welcher Umriss passt zum Spielzeug? Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "schattenrätsel",
+   "segment": "logik-wahrnehmung",
+   "longtail": "schattenrätsel für kinder zum ausdrucken",
+   "target": "landing",
+   "slug": "schatten-zuordnen-schatten-zuordnen-meeresleben-8419",
+   "currentTitle": "Arbeitsblätter Schattenbilder – Meeresleben | zum Ausdrucken PDF",
+   "title": "Schattenrätsel für Kinder – Meerestiere | zum Ausdrucken PDF",
+   "metaDescription": "Schattenrätsel für Kinder: den richtigen Schatten der Meerestiere finden. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "finde das schattenbild",
+   "segment": "logik-wahrnehmung",
+   "longtail": "finde das schattenbild arbeitsblatt",
+   "target": "landing",
+   "slug": "schatten-zuordnen-schatten-zuordnen-fahrzeuge-4325",
+   "currentTitle": "Arbeitsblätter Schattenbilder – Fahrzeuge | zum Ausdrucken PDF",
+   "title": "Finde das Schattenbild – Arbeitsblätter – Fahrzeuge | PDF",
+   "metaDescription": "Finde das Schattenbild: Arbeitsblätter mit Fahrzeugen für Kindergarten und Vorschule. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "konzentrationsübungen kinder",
+   "segment": "logik-wahrnehmung",
+   "longtail": "konzentrationsübungen für kinder zum ausdrucken",
+   "target": "GAP",
+   "note": "no-free-slug landing:find-and-count/animals/vorschule"
+  },
+  {
+   "base": "konzentrationsübungen grundschule",
+   "segment": "logik-wahrnehmung",
+   "longtail": "konzentrationsübungen grundschule kostenlos",
+   "target": "landing",
+   "slug": "wortsuche-tiere",
+   "currentTitle": "Arbeitsblätter Wortsuche – Tiere | zum Ausdrucken PDF kostenlos",
+   "title": "Konzentrationsübungen Grundschule – Suchsel – Tiere | PDF",
+   "metaDescription": "Konzentrationsübungen für die Grundschule: Wörter im Suchsel finden – Tiere. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "konzentrationsübungen vorschule",
+   "segment": "logik-wahrnehmung",
+   "longtail": "konzentrationsübungen vorschule zum ausdrucken",
+   "target": "landing",
+   "slug": "gitter-zuordnung-spielzeug-e77f",
+   "currentTitle": "Arbeitsblätter Bildgitter – Spielzeug | zum Ausdrucken PDF",
+   "title": "Konzentrationsübungen Vorschule – Gitterbilder – Spielzeug | PDF",
+   "metaDescription": "Konzentrationsübungen für die Vorschule: Bilder im Gitter richtig zuordnen – Spielzeug. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "konzentrationstraining",
+   "segment": "logik-wahrnehmung",
+   "longtail": "konzentrationstraining kinder arbeitsblätter",
+   "target": "landing",
+   "slug": "was-fehlt-1-fehlendes-teil-bauernhoftiere-b08c",
+   "currentTitle": "Arbeitsblätter Fehlendes Teil – Bauernhoftiere | PDF",
+   "title": "Konzentrationstraining für Kinder – was fehlt? – Bauernhof | PDF",
+   "metaDescription": "Konzentrationstraining für Kinder: fehlende Bildteile finden – Bauernhoftiere. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "konzentrationsaufgaben kinder",
+   "segment": "logik-wahrnehmung",
+   "longtail": "konzentrationsaufgaben für kinder kostenlos",
+   "target": "landing",
+   "slug": "bildpfad-den-richtigen-weg-wahlen-spielzeug-2ea1",
+   "currentTitle": "Arbeitsblätter Bilder-Labyrinth – Spielzeug | zum Ausdrucken PDF",
+   "title": "Konzentrationsaufgaben für Kinder – Bilder-Labyrinthe | PDF",
+   "metaDescription": "Konzentrationsaufgaben für Kinder kostenlos: konzentriert den Weg durchs Labyrinth finden – Spielzeug. Arbeitsblätter (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "aufmerksamkeitstraining kinder",
+   "segment": "logik-wahrnehmung",
+   "longtail": "aufmerksamkeitstraining kinder übungen",
+   "target": "landing",
+   "slug": "objekte-finden-anders-finden-spielzeug-8f02",
+   "currentTitle": "Arbeitsblätter Objekte suchen – Spielzeug | zum Ausdrucken PDF",
+   "title": "Aufmerksamkeitstraining für Kinder – Suchbilder – Spielzeug | PDF",
+   "metaDescription": "Aufmerksamkeitstraining für Kinder: Übungen mit Suchbildern – Spielzeug entdecken und markieren. Kostenlos zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "wahrnehmungsübungen kinder",
+   "segment": "logik-wahrnehmung",
+   "longtail": "wahrnehmungsübungen kinder arbeitsblätter",
+   "target": "landing",
+   "slug": "gitter-zuordnung-formen-f443",
+   "currentTitle": "Arbeitsblätter Bildgitter – Formen | zum Ausdrucken PDF kostenlos",
+   "title": "Wahrnehmungsübungen für Kinder – Gitterbilder – Formen | PDF",
+   "metaDescription": "Wahrnehmungsübungen für Kinder: Arbeitsblätter mit Formen im Gitter zuordnen – Vorschule. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "wahrnehmungstraining",
+   "segment": "logik-wahrnehmung",
+   "longtail": "wahrnehmungstraining kindergarten arbeitsblätter",
+   "target": "landing",
+   "slug": "was-fehlt-1-fehlendes-teil-meeresleben-168d",
+   "currentTitle": "Arbeitsblätter Fehlendes Teil – Meeresleben | zum Ausdrucken PDF",
+   "title": "Wahrnehmungstraining Kindergarten – was fehlt? – Meerestiere | PDF",
+   "metaDescription": "Wahrnehmungstraining im Kindergarten: fehlende Bildteile bei Meerestieren entdecken. Kostenlose Arbeitsblätter (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "figur-grund-wahrnehmung",
+   "segment": "logik-wahrnehmung",
+   "longtail": "figur-grund-wahrnehmung arbeitsblätter kostenlos",
+   "target": "landing",
+   "slug": "objekte-finden-anders-finden-formen-ffa7",
+   "currentTitle": "Arbeitsblätter Objekte suchen – Formen | zum Ausdrucken PDF",
+   "title": "Figur-Grund-Wahrnehmung – Arbeitsblätter Suchbilder | PDF",
+   "metaDescription": "Figur-Grund-Wahrnehmung fördern: Formen im Suchbild erkennen – Vorschule. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "formkonstanz",
+   "segment": "logik-wahrnehmung",
+   "longtail": "formkonstanz übungen kindergarten",
+   "target": "landing",
+   "slug": "schatten-zuordnen-ganz-machen-formen-7455",
+   "currentTitle": "Arbeitsblätter Passendes Ganzes – Formen | zum Ausdrucken PDF",
+   "title": "Formkonstanz üben – Schatten zuordnen – Formen | PDF kostenlos",
+   "metaDescription": "Formkonstanz-Übungen für den Kindergarten: Formen ihrem Umriss zuordnen. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "auge-hand-koordination",
+   "segment": "logik-wahrnehmung",
+   "longtail": "auge-hand-koordination übungen kindergarten",
+   "target": "GAP",
+   "note": "no-free-slug landing:picture-path/vehicles/vorschule"
+  },
+  {
+   "base": "bilderpuzzle",
+   "segment": "logik-wahrnehmung",
+   "longtail": "bilderpuzzle für kinder zum ausdrucken",
+   "target": "landing",
+   "slug": "was-fehlt-1-fehlendes-teil-dinosaurier-234c",
+   "currentTitle": "Arbeitsblätter Fehlendes Teil – Dinosaurier | zum Ausdrucken PDF",
+   "title": "Bilderpuzzle für Kinder – fehlende Teile – Dinosaurier | PDF",
+   "metaDescription": "Bilderpuzzle für Kinder zum Ausdrucken: Welches Puzzleteil fehlt im Dino-Bild? Kostenlose Arbeitsblätter (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "paare finden",
+   "segment": "logik-wahrnehmung",
+   "longtail": "paare finden spiel zum ausdrucken",
+   "target": "GAP",
+   "note": "no-free-slug landing:matching/animals/1-klasse"
+  },
+  {
+   "base": "memo-spiel",
+   "segment": "logik-wahrnehmung",
+   "longtail": "memo-spiel paare zuordnen ausdrucken",
+   "target": "landing",
+   "slug": "zuordnung-buchstaben-spielzeug-3a6a",
+   "currentTitle": "Arbeitsblätter Buchstaben zuordnen – Spielzeug | PDF",
+   "title": "Memo-Übung: Paare zuordnen – Spielzeug | zum Ausdrucken PDF",
+   "metaDescription": "Paare zuordnen wie beim Memo-Spiel: passende Spielzeug-Bilder verbinden. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "logisches denken kinder",
+   "segment": "logik-wahrnehmung",
+   "longtail": "logisches denken kinder übungen",
+   "target": "landing",
+   "slug": "mathe-raetsel-subtraktion-tiere-fa03",
+   "currentTitle": "Arbeitsblätter Zahlenpuzzle zum Subtrahieren bis 20 – Tiere | PDF",
+   "title": "Logisches Denken für Kinder – Bilder-Matherätsel | PDF kostenlos",
+   "metaDescription": "Logisches Denken für Kinder: Übungen mit Bilder-Matherätseln – Tiere stehen für Zahlen. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "gitterbilder",
+   "segment": "logik-wahrnehmung",
+   "longtail": "gitterbilder für kinder zum ausdrucken",
+   "target": "landing",
+   "slug": "gitter-zuordnung-bauernhoftiere-9368",
+   "currentTitle": "Arbeitsblätter Bildgitter – Bauernhoftiere | zum Ausdrucken PDF",
+   "title": "Gitterbilder für Kinder – Bauernhoftiere | zum Ausdrucken PDF",
+   "metaDescription": "Gitterbilder für Kinder zum Ausdrucken: Bilder im Raster finden und zuordnen – Bauernhoftiere. Kostenlose Arbeitsblätter (PDF) mit Lösungen."
+  },
+  {
+   "base": "zeichendiktat",
+   "segment": "logik-wahrnehmung",
+   "longtail": "zeichendiktat grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "knobelaufgaben kinder",
+   "segment": "logik-wahrnehmung",
+   "longtail": "knobelaufgaben für kinder zum ausdrucken",
+   "target": "landing",
+   "slug": "mathe-raetsel-gemischt-bauernhoftiere-c4c4",
+   "currentTitle": "Arbeitsblätter Zahlenpuzzle bis 20 – Bauernhoftiere | PDF",
+   "title": "Knobelaufgaben für Kinder – Bilder-Matherätsel | PDF kostenlos",
+   "metaDescription": "Knobelaufgaben für Kinder zum Ausdrucken: Bilder-Matherätsel – Bauernhoftiere. Kostenlose Arbeitsblätter (PDF) mit Lösungsblatt, Klasse 1."
+  },
+  {
+   "base": "knobelaufgaben grundschule",
+   "segment": "logik-wahrnehmung",
+   "longtail": "knobelaufgaben grundschule mit lösungen",
+   "target": "landing",
+   "slug": "mathe-raetsel-gemischt-weltraum-a47a",
+   "currentTitle": "Arbeitsblätter Zahlenpuzzle bis 100 – Weltraum | PDF",
+   "title": "Knobelaufgaben Grundschule – Matherätsel mit Lösungen | PDF",
+   "metaDescription": "Knobelaufgaben für die Grundschule mit Lösungen: Bilder-Matherätsel – Weltraum, Klasse 2. Kostenlose Arbeitsblätter zum Ausdrucken (PDF)."
+  },
+  {
+   "base": "denksportaufgaben kinder",
+   "segment": "logik-wahrnehmung",
+   "longtail": "denksportaufgaben für kinder zum ausdrucken",
+   "target": "landing",
+   "slug": "bilder-sudoku-leicht-vogel-5aff",
+   "currentTitle": "Arbeitsblätter Bilder-Sudoku – Vögel | zum Ausdrucken PDF",
+   "title": "Denksportaufgaben für Kinder – Bilder-Sudoku – Vögel | PDF",
+   "metaDescription": "Denksportaufgaben für Kinder zum Ausdrucken: 4x4-Bilder-Sudokus mit Vögeln. Kostenlose Arbeitsblätter (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "kinderrätsel",
+   "segment": "logik-wahrnehmung",
+   "longtail": "kinderrätsel zum ausdrucken kostenlos",
+   "target": "landing",
+   "slug": "kreuzwortraetsel-zootiere-6a95",
+   "currentTitle": "Arbeitsblätter Bilderkreuzworträtsel – Zootiere | PDF",
+   "title": "Kinderrätsel zum Ausdrucken – Bilder-Kreuzworträtsel | kostenlos",
+   "metaDescription": "Kinderrätsel kostenlos zum Ausdrucken: Bilder-Kreuzworträtsel mit Zootieren. Arbeitsblätter (PDF) mit Lösungsblatt für die Grundschule."
+  },
+  {
+   "base": "logicals grundschule",
+   "segment": "logik-wahrnehmung",
+   "longtail": "logicals grundschule zum ausdrucken",
+   "target": "landing",
+   "slug": "mathe-raetsel-addition-zootiere-5b59",
+   "currentTitle": "Arbeitsblätter Zahlenpuzzle zum Addieren bis 20 – Zootiere | PDF",
+   "title": "Logicals Grundschule – Bilder-Logikrätsel | zum Ausdrucken PDF",
+   "metaDescription": "Logicals für die Grundschule: Bilderrätsel mit Symbolwerten zum Knobeln – Zootiere. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "logikgitter",
+   "segment": "logik-wahrnehmung",
+   "longtail": "logikgitter für kinder zum ausdrucken",
+   "target": "landing",
+   "slug": "bilder-sudoku-leicht-haustiere-dde1",
+   "currentTitle": "Arbeitsblätter Bilder-Sudoku – Haustiere | zum Ausdrucken PDF",
+   "title": "Logikgitter für Kinder – Bilder-Sudoku 4x4 – Haustiere | PDF",
+   "metaDescription": "Logikgitter für Kinder zum Ausdrucken: 4x4-Bilder-Sudokus mit Haustieren. Kostenlose Arbeitsblätter (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "bilderrätsel",
+   "segment": "logik-wahrnehmung",
+   "longtail": "bilderrätsel zum ausdrucken kostenlos",
+   "target": "landing",
+   "slug": "mathe-raetsel-addition-fruchte-fe92",
+   "currentTitle": "Arbeitsblätter Zahlenpuzzle zum Addieren bis 20 – Früchte | PDF",
+   "title": "Bilderrätsel zum Ausdrucken – Mathe mit Symbolen | PDF kostenlos",
+   "metaDescription": "Bilderrätsel kostenlos zum Ausdrucken: Obst-Bilder stehen für Zahlen – rechnen und knobeln. Arbeitsblätter (PDF) mit Lösungsblatt, Klasse 1."
+  },
+  {
+   "base": "bilderrätsel kinder",
+   "segment": "logik-wahrnehmung",
+   "longtail": "bilderrätsel für kinder grundschule",
+   "target": "landing",
+   "slug": "kreuzwortraetsel-haustiere-82ff",
+   "currentTitle": "Arbeitsblätter Bilderkreuzworträtsel – Haustiere | PDF",
+   "title": "Bilderrätsel für Kinder – Kreuzworträtsel – Haustiere | PDF",
+   "metaDescription": "Bilderrätsel für Kinder in der Grundschule: Kreuzworträtsel mit Haustier-Bildern. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "rebus rätsel",
+   "segment": "logik-wahrnehmung",
+   "longtail": "rebus rätsel für kinder zum ausdrucken",
+   "target": "GAP"
+  },
+  {
+   "base": "kinderkreuzworträtsel",
+   "segment": "logik-wahrnehmung",
+   "longtail": "kinderkreuzworträtsel zum ausdrucken",
+   "target": "landing",
+   "slug": "kreuzwortraetsel-bauernhoftiere-0ca9",
+   "currentTitle": "Arbeitsblätter Bilderkreuzworträtsel – Bauernhoftiere | PDF",
+   "title": "Kinderkreuzworträtsel zum Ausdrucken – Bauernhof | PDF kostenlos",
+   "metaDescription": "Kinderkreuzworträtsel zum Ausdrucken: Bilder-Kreuzworträtsel mit Bauernhoftieren. Kostenlose Arbeitsblätter (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "kreuzworträtsel mit bildern",
+   "segment": "logik-wahrnehmung",
+   "longtail": "kreuzworträtsel mit bildern für kinder",
+   "target": "landing",
+   "slug": "kreuzwortraetsel-fruchte-dedd",
+   "currentTitle": "Arbeitsblätter Bilderkreuzworträtsel – Früchte | PDF",
+   "title": "Kreuzworträtsel mit Bildern für Kinder – Obst | PDF kostenlos",
+   "metaDescription": "Kreuzworträtsel mit Bildern für Kinder: Obst sehen, Wort eintragen. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "suchsel",
+   "segment": "logik-wahrnehmung",
+   "longtail": "suchsel für kinder zum ausdrucken",
+   "target": "landing",
+   "slug": "wortsuche-bauernhoftiere",
+   "currentTitle": "Arbeitsblätter Wortsuche – Bauernhoftiere | zum Ausdrucken PDF",
+   "title": "Suchsel für Kinder – Wörtersuche – Bauernhof | PDF kostenlos",
+   "metaDescription": "Suchsel für Kinder zum Ausdrucken: Wörter rund um den Bauernhof im Buchstabengitter finden. Kostenlose Arbeitsblätter (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "suchsel grundschule",
+   "segment": "logik-wahrnehmung",
+   "longtail": "suchsel grundschule klasse 1",
+   "target": "landing",
+   "slug": "wortsuche-waldtiere",
+   "currentTitle": "Arbeitsblätter Wortsuche – Waldtiere | zum Ausdrucken PDF",
+   "title": "Suchsel Grundschule Klasse 1 – Waldtiere | zum Ausdrucken PDF",
+   "metaDescription": "Suchsel für die Grundschule (Klasse 1): Waldtier-Wörter im Gitter suchen. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "wörtersuche",
+   "segment": "logik-wahrnehmung",
+   "longtail": "wörtersuche für kinder zum ausdrucken",
+   "target": "landing",
+   "slug": "wortsuche-spielzeug",
+   "currentTitle": "Arbeitsblätter Wortsuche – Spielzeug | zum Ausdrucken PDF",
+   "title": "Wörtersuche für Kinder – Suchsel mit Bildern – Spielzeug | PDF",
+   "metaDescription": "Wörtersuche für Kinder zum Ausdrucken: Spielzeug-Wörter mit Bildhilfen finden. Kostenlose Arbeitsblätter (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "wortgitter",
+   "segment": "logik-wahrnehmung",
+   "longtail": "wortgitter grundschule kostenlos",
+   "target": "landing",
+   "slug": "wortsuche-weltraum",
+   "currentTitle": "Arbeitsblätter Wortsuche – Weltraum | zum Ausdrucken PDF",
+   "title": "Wortgitter Grundschule – Wörtersuche – Weltraum | PDF kostenlos",
+   "metaDescription": "Wortgitter für die Grundschule kostenlos: Weltraum-Wörter im Buchstabengitter finden. Arbeitsblätter zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "buchstabengitter",
+   "segment": "logik-wahrnehmung",
+   "longtail": "buchstabengitter für kinder zum ausdrucken",
+   "target": "landing",
+   "slug": "wortsuche-meeresleben",
+   "currentTitle": "Arbeitsblätter Wortsuche – Meeresleben | zum Ausdrucken PDF",
+   "title": "Buchstabengitter für Kinder – Meerestiere | zum Ausdrucken PDF",
+   "metaDescription": "Buchstabengitter für Kinder: Meerestier-Wörter im Gitter entdecken. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "wortsuchrätsel",
+   "segment": "logik-wahrnehmung",
+   "longtail": "wortsuchrätsel zum ausdrucken kostenlos",
+   "target": "landing",
+   "slug": "wortsuche-fahrzeuge",
+   "currentTitle": "Arbeitsblätter Wortsuche – Fahrzeuge | zum Ausdrucken PDF",
+   "title": "Wortsuchrätsel zum Ausdrucken – Fahrzeuge | PDF kostenlos",
+   "metaDescription": "Wortsuchrätsel kostenlos zum Ausdrucken: Fahrzeug-Wörter im Buchstabengitter finden. Arbeitsblätter (PDF) mit Lösungsblatt, Klasse 1."
+  },
+  {
+   "base": "sachunterricht klasse 1",
+   "segment": "sachunterricht",
+   "longtail": "sachunterricht klasse 1 tiere arbeitsblätter",
+   "target": "GAP",
+   "note": "no-free-slug landing:wordsearch/animals/1-klasse"
+  },
+  {
+   "base": "sachunterricht klasse 2",
+   "segment": "sachunterricht",
+   "longtail": "sachunterricht klasse 2 wetter arbeitsblatt",
+   "target": "landing",
+   "slug": "kreuzwortraetsel-wetter-c7b2",
+   "currentTitle": "Arbeitsblätter Bilderkreuzworträtsel – Wetter | PDF",
+   "title": "Sachunterricht Klasse 2 – Wetter-Kreuzworträtsel | PDF kostenlos",
+   "metaDescription": "Wetter-Arbeitsblatt für den Sachunterricht Klasse 2: Bilder-Kreuzworträtsel rund ums Wetter. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "zootiere grundschule",
+   "segment": "sachunterricht",
+   "longtail": "zootiere zuordnen grundschule",
+   "target": "landing",
+   "slug": "zuordnung-buchstaben-zootiere-8d5b",
+   "currentTitle": "Arbeitsblätter Buchstaben zuordnen – Zootiere | PDF",
+   "title": "Zootiere zuordnen – Arbeitsblätter Grundschule | PDF kostenlos",
+   "metaDescription": "Zootiere zuordnen in der Grundschule: Bild und Wort verbinden auf liebevollen Arbeitsblättern. Kostenlos zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "tiere im wald",
+   "segment": "sachunterricht",
+   "longtail": "tiere im wald arbeitsblatt kindergarten",
+   "target": "landing",
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-waldtiere-6e6d",
+   "currentTitle": "Arbeitsblätter Anlaute suchen – Waldtiere | zum Ausdrucken PDF",
+   "title": "Tiere im Wald – Arbeitsblatt Kindergarten | zum Ausdrucken PDF",
+   "metaDescription": "Tiere im Wald suchen und zählen: Arbeitsblatt für den Kindergarten mit vielen Waldtieren. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "mein körper",
+   "segment": "sachunterricht",
+   "longtail": "mein körper arbeitsblätter 1. klasse",
+   "target": "landing",
+   "slug": "wort-raten-leicht-korperteile-657f",
+   "currentTitle": "Arbeitsblätter Lückenwörter schreiben – Körperteile | PDF",
+   "title": "Mein Körper – Arbeitsblätter 1. Klasse: Körperteile | PDF",
+   "metaDescription": "Mein Körper – Arbeitsblätter für die 1. Klasse: Körperteile benennen und fehlende Buchstaben ergänzen. Kostenlos zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "bundesländer und hauptstädte",
+   "segment": "sachunterricht",
+   "longtail": "bundesländer und hauptstädte grundschule arbeitsblatt",
+   "target": "GAP"
+  },
+  {
+   "base": "frühling arbeitsblätter",
+   "segment": "sachunterricht",
+   "longtail": "frühling arbeitsblätter mit lösungen",
+   "target": "landing",
+   "slug": "wortsuche-fruhling",
+   "currentTitle": "Arbeitsblätter Wortsuche – Frühling | zum Ausdrucken PDF",
+   "title": "Frühling-Arbeitsblätter mit Lösungen – Suchsel | PDF kostenlos",
+   "metaDescription": "Frühling-Arbeitsblätter mit Lösungen: Suchsel mit Frühlingswörtern und Bildern für die Grundschule. Kostenlos zum Ausdrucken (PDF)."
+  },
+  {
+   "base": "tiere arbeitsblätter",
+   "segment": "sachunterricht",
+   "longtail": "tiere arbeitsblätter kindergarten kostenlos",
+   "target": "GAP",
+   "note": "no-free-slug landing:shadow-match/animals/vorschule"
+  },
+  {
+   "base": "tiere im winter",
+   "segment": "sachunterricht",
+   "longtail": "tiere im winter arbeitsblatt kindergarten",
+   "target": "landing",
+   "slug": "schatten-zuordnen-schatten-zuordnen-waldtiere-a6ec",
+   "currentTitle": "Arbeitsblätter Schattenbilder – Waldtiere | zum Ausdrucken PDF",
+   "title": "Tiere im Winter – Waldtiere-Arbeitsblatt Kindergarten | PDF",
+   "metaDescription": "Waldtiere dem richtigen Schatten zuordnen – Arbeitsblatt für den Kindergarten zum Thema Tiere im Winter. Kostenlos zum Ausdrucken (PDF) mit Lösung."
+  },
+  {
+   "base": "vögel im winter",
+   "segment": "sachunterricht",
+   "longtail": "vögel im winter suchsel grundschule",
+   "target": "landing",
+   "slug": "wortsuche-vogel",
+   "currentTitle": "Arbeitsblätter Wortsuche – Vögel | zum Ausdrucken PDF kostenlos",
+   "title": "Vögel im Winter – Suchsel Grundschule | PDF kostenlos",
+   "metaDescription": "Vögel im Winter: Suchsel für die Grundschule mit Vogelnamen und Bildern zum Entdecken. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "sachunterricht grundschule",
+   "segment": "sachunterricht",
+   "longtail": "sachunterricht grundschule berufe arbeitsblätter",
+   "target": "landing",
+   "slug": "wortsuche-berufe",
+   "currentTitle": "Arbeitsblätter Wortsuche – Berufe | zum Ausdrucken PDF kostenlos",
+   "title": "Sachunterricht Grundschule – Berufe-Suchsel | PDF kostenlos",
+   "metaDescription": "Berufe-Arbeitsblätter für den Sachunterricht in der Grundschule: Suchsel mit Berufen und Bildern. Kostenlos zum Ausdrucken (PDF) mit Lösung."
+  },
+  {
+   "base": "hsu sachkunde",
+   "segment": "sachunterricht",
+   "longtail": "hsu sachkunde tiere arbeitsblätter",
+   "target": "GAP",
+   "note": "no-free-slug landing:crossword/animals/2-klasse"
+  },
+  {
+   "base": "sachunterricht klasse 3",
+   "segment": "sachunterricht",
+   "longtail": "sachunterricht klasse 3 arbeitsblätter kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "jahreszeiten grundschule",
+   "segment": "sachunterricht",
+   "longtail": "jahreszeiten arbeitsblätter grundschule kostenlos",
+   "target": "landing",
+   "slug": "zuordnung-buchstaben-fruhling-b9c0",
+   "currentTitle": "Arbeitsblätter Buchstaben zuordnen – Frühling | PDF",
+   "title": "Jahreszeiten-Arbeitsblätter Grundschule – Frühling zuordnen | PDF",
+   "metaDescription": "Jahreszeiten-Arbeitsblätter für die Grundschule: Frühlingsbilder und Wörter zuordnen. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "jahreszeiten kindergarten",
+   "segment": "sachunterricht",
+   "longtail": "jahreszeiten kindergarten arbeitsblätter kostenlos",
+   "target": "landing",
+   "slug": "objekte-finden-anders-finden-winter-78c2",
+   "currentTitle": "Arbeitsblätter Objekte suchen – Winter | zum Ausdrucken PDF",
+   "title": "Jahreszeiten im Kindergarten – Winter-Suchbild | PDF kostenlos",
+   "metaDescription": "Jahreszeiten im Kindergarten entdecken: Winter-Suchbild zum Finden und Zählen. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösung."
+  },
+  {
+   "base": "jahreskreis",
+   "segment": "sachunterricht",
+   "longtail": "jahreskreis grundschule material",
+   "target": "GAP"
+  },
+  {
+   "base": "kalender grundschule",
+   "segment": "sachunterricht",
+   "longtail": "kalender arbeitsblätter grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "wochentage lernen",
+   "segment": "sachunterricht",
+   "longtail": "wochentage lernen arbeitsblatt kindergarten",
+   "target": "GAP"
+  },
+  {
+   "base": "monate lernen",
+   "segment": "sachunterricht",
+   "longtail": "monate lernen arbeitsblätter grundschule",
+   "target": "GAP"
+  },
+  {
+   "base": "haustiere grundschule",
+   "segment": "sachunterricht",
+   "longtail": "haustiere suchsel grundschule",
+   "target": "landing",
+   "slug": "wortsuche-haustiere",
+   "currentTitle": "Arbeitsblätter Wortsuche – Haustiere | zum Ausdrucken PDF",
+   "title": "Haustiere-Suchsel Grundschule | zum Ausdrucken PDF kostenlos",
+   "metaDescription": "Haustiere-Suchsel für die Grundschule: Wörter rund um Hund, Katze & Co. mit Bildern finden. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "nutztiere grundschule",
+   "segment": "sachunterricht",
+   "longtail": "nutztiere arbeitsblätter grundschule kostenlos",
+   "target": "landing",
+   "slug": "zuordnung-buchstaben-bauernhoftiere-b6d6",
+   "currentTitle": "Arbeitsblätter Buchstaben zuordnen – Bauernhoftiere | PDF",
+   "title": "Nutztiere-Arbeitsblätter Grundschule – zuordnen | PDF kostenlos",
+   "metaDescription": "Nutztiere-Arbeitsblätter für die Grundschule: Bauernhoftiere Bild und Wort zuordnen. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "heimische wildtiere",
+   "segment": "sachunterricht",
+   "longtail": "heimische wildtiere arbeitsblätter grundschule",
+   "target": "landing",
+   "slug": "kreuzwortraetsel-waldtiere-77f7",
+   "currentTitle": "Arbeitsblätter Bilderkreuzworträtsel – Waldtiere | PDF",
+   "title": "Heimische Wildtiere – Arbeitsblätter Grundschule | PDF kostenlos",
+   "metaDescription": "Heimische Wildtiere: Bilder-Kreuzworträtsel mit Waldtieren für die Grundschule. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösung."
+  },
+  {
+   "base": "igel grundschule",
+   "segment": "sachunterricht",
+   "longtail": "igel steckbrief grundschule arbeitsblatt",
+   "target": "GAP"
+  },
+  {
+   "base": "schmetterling entwicklung",
+   "segment": "sachunterricht",
+   "longtail": "schmetterling entwicklung arbeitsblatt grundschule",
+   "target": "GAP"
+  },
+  {
+   "base": "schnecken grundschule",
+   "segment": "sachunterricht",
+   "longtail": "schnecken arbeitsblatt grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "körperteile benennen",
+   "segment": "sachunterricht",
+   "longtail": "körperteile benennen arbeitsblatt 1. klasse",
+   "target": "landing",
+   "slug": "zuordnung-buchstaben-korperteile-cb93",
+   "currentTitle": "Arbeitsblätter Buchstaben zuordnen – Körperteile | PDF",
+   "title": "Körperteile benennen – Arbeitsblatt 1. Klasse | PDF kostenlos",
+   "metaDescription": "Körperteile benennen und zuordnen: Arbeitsblatt für die 1. Klasse mit Bild-Wort-Paaren. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "die 5 sinne",
+   "segment": "sachunterricht",
+   "longtail": "die 5 sinne grundschule arbeitsblatt",
+   "target": "GAP"
+  },
+  {
+   "base": "sinnesorgane grundschule",
+   "segment": "sachunterricht",
+   "longtail": "sinnesorgane arbeitsblätter grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "zähne grundschule",
+   "segment": "sachunterricht",
+   "longtail": "zähne arbeitsblätter grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "zahnaufbau",
+   "segment": "sachunterricht",
+   "longtail": "zahnaufbau arbeitsblatt grundschule",
+   "target": "GAP"
+  },
+  {
+   "base": "gesunde ernährung grundschule",
+   "segment": "sachunterricht",
+   "longtail": "gesunde ernährung grundschule arbeitsblätter kostenlos",
+   "target": "landing",
+   "slug": "wortsuche-fruchte",
+   "currentTitle": "Arbeitsblätter Wortsuche – Früchte | zum Ausdrucken PDF kostenlos",
+   "title": "Gesunde Ernährung Grundschule – Obst-Suchsel | PDF kostenlos",
+   "metaDescription": "Gesunde Ernährung in der Grundschule: Obst-Suchsel mit Wörtern und Bildern zum Thema. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösung."
+  },
+  {
+   "base": "getreide grundschule",
+   "segment": "sachunterricht",
+   "longtail": "getreide arbeitsblätter grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "getreidearten",
+   "segment": "sachunterricht",
+   "longtail": "getreidearten arbeitsblatt grundschule",
+   "target": "GAP"
+  },
+  {
+   "base": "kartoffel grundschule",
+   "segment": "sachunterricht",
+   "longtail": "kartoffel arbeitsblätter grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "wetter grundschule",
+   "segment": "sachunterricht",
+   "longtail": "wetter suchsel grundschule kostenlos",
+   "target": "landing",
+   "slug": "wortsuche-wetter",
+   "currentTitle": "Arbeitsblätter Wortsuche – Wetter | zum Ausdrucken PDF kostenlos",
+   "title": "Wetter-Suchsel Grundschule | zum Ausdrucken PDF kostenlos",
+   "metaDescription": "Wetter-Suchsel für die Grundschule kostenlos: Wetterwörter mit Bildern finden und lesen. Zum Ausdrucken (PDF) mit Lösungsblatt – ohne Anmeldung."
+  },
+  {
+   "base": "wasserkreislauf grundschule",
+   "segment": "sachunterricht",
+   "longtail": "wasserkreislauf arbeitsblatt grundschule",
+   "target": "GAP"
+  },
+  {
+   "base": "wasser grundschule",
+   "segment": "sachunterricht",
+   "longtail": "wasser arbeitsblätter grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "frühblüher grundschule",
+   "segment": "sachunterricht",
+   "longtail": "frühblüher arbeitsblätter grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "laubbäume und nadelbäume",
+   "segment": "sachunterricht",
+   "longtail": "laubbäume und nadelbäume arbeitsblatt",
+   "target": "GAP"
+  },
+  {
+   "base": "blätter bestimmen",
+   "segment": "sachunterricht",
+   "longtail": "blätter bestimmen arbeitsblatt grundschule",
+   "target": "GAP"
+  },
+  {
+   "base": "wald grundschule",
+   "segment": "sachunterricht",
+   "longtail": "wald arbeitsblätter grundschule kostenlos",
+   "target": "GAP",
+   "note": "no-free-slug landing:wordsearch/forest_creatures/1-klasse"
+  },
+  {
+   "base": "verkehrserziehung grundschule",
+   "segment": "sachunterricht",
+   "longtail": "verkehrserziehung arbeitsblätter grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "verkehrsschilder grundschule",
+   "segment": "sachunterricht",
+   "longtail": "verkehrsschilder arbeitsblatt grundschule",
+   "target": "GAP"
+  },
+  {
+   "base": "fahrradprüfung grundschule",
+   "segment": "sachunterricht",
+   "longtail": "fahrradprüfung übungen grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "berufe grundschule",
+   "segment": "sachunterricht",
+   "longtail": "berufe zuordnen arbeitsblatt grundschule",
+   "target": "landing",
+   "slug": "zuordnung-buchstaben-berufe-ad67",
+   "currentTitle": "Arbeitsblätter Buchstaben zuordnen – Berufe | zum Ausdrucken PDF",
+   "title": "Berufe zuordnen – Arbeitsblatt Grundschule | PDF kostenlos",
+   "metaDescription": "Berufe zuordnen in der Grundschule: Bild und Berufsbezeichnung verbinden. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "deutschland grundschule",
+   "segment": "sachunterricht",
+   "longtail": "deutschland arbeitsblätter grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "europa grundschule",
+   "segment": "sachunterricht",
+   "longtail": "europa arbeitsblätter grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "experimente grundschule",
+   "segment": "sachunterricht",
+   "longtail": "experimente für grundschulkinder anleitung",
+   "target": "GAP"
+  },
+  {
+   "base": "feuerwehr grundschule",
+   "segment": "sachunterricht",
+   "longtail": "feuerwehr arbeitsblätter grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "mülltrennung grundschule",
+   "segment": "sachunterricht",
+   "longtail": "mülltrennung arbeitsblatt grundschule",
+   "target": "GAP"
+  },
+  {
+   "base": "strom grundschule",
+   "segment": "sachunterricht",
+   "longtail": "strom arbeitsblätter grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "magnetismus grundschule",
+   "segment": "sachunterricht",
+   "longtail": "magnetismus arbeitsblatt grundschule",
+   "target": "GAP"
+  },
+  {
+   "base": "weltall grundschule",
+   "segment": "sachunterricht",
+   "longtail": "weltall arbeitsblätter grundschule kostenlos",
+   "target": "GAP",
+   "note": "no-free-slug landing:wordsearch/space/1-klasse"
+  },
+  {
+   "base": "winter arbeitsblätter kindergarten",
+   "segment": "saisonal-feste",
+   "longtail": "winter arbeitsblätter kindergarten zum ausdrucken",
+   "target": "landing",
+   "slug": "muster-zug-winter-bba3",
+   "currentTitle": "Arbeitsblätter AB-Muster – Winter | zum Ausdrucken PDF kostenlos",
+   "title": "Winter Arbeitsblätter Kindergarten – Muster fortsetzen | PDF",
+   "metaDescription": "Winter Arbeitsblätter für den Kindergarten zum Ausdrucken: Muster fortsetzen mit Wintermotiven. Kostenlose PDFs mit Lösungsblatt – ohne Anmeldung."
+  },
+  {
+   "base": "weihnachten arbeitsblätter grundschule",
+   "segment": "saisonal-feste",
+   "longtail": "weihnachten arbeitsblätter grundschule klasse 1",
+   "target": "landing",
+   "slug": "wortsuche-weihnachten",
+   "currentTitle": "Arbeitsblätter Wortsuche – Weihnachten | zum Ausdrucken PDF",
+   "title": "Weihnachten Arbeitsblätter Grundschule – Suchsel Klasse 1 | PDF",
+   "metaDescription": "Weihnachten Arbeitsblätter für die Grundschule: Suchsel mit Weihnachtsbildern für Klasse 1. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "frühling arbeitsblätter kindergarten",
+   "segment": "saisonal-feste",
+   "longtail": "frühling suchbild kindergarten kostenlos",
+   "target": "landing",
+   "slug": "objekte-finden-anders-finden-fruhling-55e5",
+   "currentTitle": "Arbeitsblätter Objekte suchen – Frühling | zum Ausdrucken PDF",
+   "title": "Frühling Suchbild Kindergarten – Arbeitsblätter | PDF kostenlos",
+   "metaDescription": "Frühling Suchbild für den Kindergarten: Objekte finden und zählen mit Frühlingsbildern. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösung."
+  },
+  {
+   "base": "ostern grundschule",
+   "segment": "saisonal-feste",
+   "longtail": "ostern rätsel grundschule zum ausdrucken",
+   "target": "landing",
+   "slug": "kreuzwortraetsel-ostern-a998",
+   "currentTitle": "Arbeitsblätter Bilderkreuzworträtsel – Ostern | PDF",
+   "title": "Ostern Rätsel Grundschule – Kreuzworträtsel | PDF kostenlos",
+   "metaDescription": "Ostern Rätsel für die Grundschule zum Ausdrucken: Bilder-Kreuzworträtsel mit Ostermotiven für Klasse 2. Kostenlose PDFs mit Lösungsblatt."
+  },
+  {
+   "base": "winter arbeitsblätter",
+   "segment": "saisonal-feste",
+   "longtail": "winter arbeitsblätter mathe klasse 2",
+   "target": "landing",
+   "slug": "mathe-arbeitsblatt-winter",
+   "currentTitle": "Arbeitsblätter Rechnen mit Symbolen – Winter | zum Ausdrucken PDF",
+   "title": "Winter Arbeitsblätter Mathe Klasse 2 – Rechnen | PDF kostenlos",
+   "metaDescription": "Winter Arbeitsblätter Mathe Klasse 2: gemischte Plus- und Minusaufgaben mit Wintermotiven. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "weihnachten arbeitsblätter",
+   "segment": "saisonal-feste",
+   "longtail": "weihnachten arbeitsblätter mathe klasse 1",
+   "target": "landing",
+   "slug": "addition-bild-bild-weihnachten-e184",
+   "currentTitle": "Arbeitsblätter Addition bis 10 mit Bildern – Weihnachten | PDF",
+   "title": "Weihnachten Arbeitsblätter Mathe Klasse 1 – Plusaufgaben | PDF",
+   "metaDescription": "Weihnachten Arbeitsblätter Mathe für Klasse 1: Plusaufgaben bis 20 mit Weihnachtsbildern. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "ostern arbeitsblätter",
+   "segment": "saisonal-feste",
+   "longtail": "ostern arbeitsblätter kindergarten kostenlos",
+   "target": "landing",
+   "slug": "was-fehlt-1-fehlendes-teil-ostern-f62e",
+   "currentTitle": "Arbeitsblätter Fehlendes Teil – Ostern | zum Ausdrucken PDF",
+   "title": "Ostern Arbeitsblätter Kindergarten – Fehlende Teile | PDF",
+   "metaDescription": "Ostern Arbeitsblätter für den Kindergarten kostenlos: fehlende Bildteile finden – Ostermotive. Zum Ausdrucken als PDF, mit Lösungsblatt und ohne Anmeldung."
+  },
+  {
+   "base": "sommer arbeitsblätter",
+   "segment": "saisonal-feste",
+   "longtail": "sommer arbeitsblätter kindergarten zum ausdrucken",
+   "target": "landing",
+   "slug": "objekte-finden-anders-finden-sommer-455e",
+   "currentTitle": "Arbeitsblätter Objekte suchen – Sommer | zum Ausdrucken PDF",
+   "title": "Sommer Arbeitsblätter Kindergarten – Suchbilder | PDF kostenlos",
+   "metaDescription": "Sommer Arbeitsblätter für den Kindergarten zum Ausdrucken: Suchbilder mit Sommermotiven zum Finden und Zählen. Kostenlose PDFs mit Lösungsblatt."
+  },
+  {
+   "base": "herbst arbeitsblätter grundschule",
+   "segment": "saisonal-feste",
+   "longtail": "herbst arbeitsblätter grundschule zum ausdrucken",
+   "target": "landing",
+   "slug": "wortsuche-erntedankfest",
+   "currentTitle": "Arbeitsblätter Wortsuche – Erntedankfest | zum Ausdrucken PDF",
+   "title": "Herbst Arbeitsblätter Grundschule – Erntedank-Suchsel | PDF",
+   "metaDescription": "Herbst Arbeitsblätter für die Grundschule zum Ausdrucken: Suchsel mit Erntedank-Bildern für Klasse 1. Kostenlose PDFs mit Lösungsblatt."
+  },
+  {
+   "base": "jahreskreis kita",
+   "segment": "saisonal-feste",
+   "longtail": "jahreskreis kita material zum ausdrucken",
+   "target": "GAP"
+  },
+  {
+   "base": "jahreszeiten projekt kita",
+   "segment": "saisonal-feste",
+   "longtail": "jahreszeiten projekt kita ideen",
+   "target": "GAP"
+  },
+  {
+   "base": "herbst kindergarten",
+   "segment": "saisonal-feste",
+   "longtail": "herbst arbeitsblätter kindergarten kostenlos",
+   "target": "landing",
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-erntedankfest-d4ae",
+   "currentTitle": "Arbeitsblätter Anlaute suchen – Erntedankfest | PDF",
+   "title": "Herbst Arbeitsblätter Kindergarten – Suchen und Zählen | PDF",
+   "metaDescription": "Herbst Arbeitsblätter für den Kindergarten: Suchen und Zählen mit Erntedank-Motiven. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt, ohne Anmeldung."
+  },
+  {
+   "base": "projekt herbst kita",
+   "segment": "saisonal-feste",
+   "longtail": "projekt herbst kita arbeitsblätter",
+   "target": "landing",
+   "slug": "schatten-zuordnen-schatten-zuordnen-erntedankfest-7561",
+   "currentTitle": "Arbeitsblätter Schattenbilder – Erntedankfest | PDF",
+   "title": "Projekt Herbst Kita – Schatten zuordnen Arbeitsblätter | PDF",
+   "metaDescription": "Arbeitsblätter fürs Projekt Herbst in der Kita: Schatten zuordnen mit Erntedank-Motiven. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "winter im kindergarten",
+   "segment": "saisonal-feste",
+   "longtail": "winter im kindergarten arbeitsblätter",
+   "target": "landing",
+   "slug": "bingo-winter-0734",
+   "currentTitle": "Arbeitsblätter Bilder-Bingo – Winter | zum Ausdrucken PDF",
+   "title": "Winter im Kindergarten – Bild-Bingo Arbeitsblätter | PDF",
+   "metaDescription": "Winter im Kindergarten: Bild-Bingo-Karten mit Wintermotiven für Spielkreis und Freiarbeit. Kostenlose Arbeitsblätter zum Ausdrucken (PDF)."
+  },
+  {
+   "base": "weihnachtsrätsel grundschule",
+   "segment": "saisonal-feste",
+   "longtail": "weihnachtsrätsel grundschule zum ausdrucken",
+   "target": "landing",
+   "slug": "kreuzwortraetsel-weihnachten-39f5",
+   "currentTitle": "Arbeitsblätter Bilderkreuzworträtsel – Weihnachten | PDF",
+   "title": "Weihnachtsrätsel Grundschule – Kreuzworträtsel | PDF kostenlos",
+   "metaDescription": "Weihnachtsrätsel für die Grundschule zum Ausdrucken: Bilder-Kreuzworträtsel mit Weihnachtsmotiven für Klasse 2. Kostenlose PDFs mit Lösungsblatt."
+  },
+  {
+   "base": "advent grundschule",
+   "segment": "saisonal-feste",
+   "longtail": "advent arbeitsblätter grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "adventskalender grundschule",
+   "segment": "saisonal-feste",
+   "longtail": "adventskalender grundschule ideen unterricht",
+   "target": "GAP"
+  },
+  {
+   "base": "nikolaus grundschule",
+   "segment": "saisonal-feste",
+   "longtail": "nikolaus arbeitsblätter grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "silvester grundschule",
+   "segment": "saisonal-feste",
+   "longtail": "silvester arbeitsblätter grundschule",
+   "target": "GAP"
+  },
+  {
+   "base": "fasching grundschule",
+   "segment": "saisonal-feste",
+   "longtail": "fasching arbeitsblätter grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "karneval grundschule",
+   "segment": "saisonal-feste",
+   "longtail": "karneval arbeitsblätter grundschule",
+   "target": "GAP"
+  },
+  {
+   "base": "fasching kindergarten",
+   "segment": "saisonal-feste",
+   "longtail": "fasching ideen kindergarten zum ausdrucken",
+   "target": "GAP"
+  },
+  {
+   "base": "frühlingsgedichte grundschule",
+   "segment": "saisonal-feste",
+   "longtail": "frühlingsgedichte grundschule zum ausdrucken",
+   "target": "GAP"
+  },
+  {
+   "base": "ostern kita ideen",
+   "segment": "saisonal-feste",
+   "longtail": "ostern kita ideen zum ausdrucken",
+   "target": "landing",
+   "slug": "bingo-ostern-0147",
+   "currentTitle": "Arbeitsblätter Bilder-Bingo – Ostern | zum Ausdrucken PDF",
+   "title": "Ostern Kita-Ideen – Bild-Bingo zum Ausdrucken | PDF kostenlos",
+   "metaDescription": "Ostern in der Kita: Bild-Bingo mit Ostermotiven zum Ausdrucken – eine fertige Idee für Spielkreis und Feier. Kostenlose PDFs, ohne Anmeldung."
+  },
+  {
+   "base": "pfingsten grundschule",
+   "segment": "saisonal-feste",
+   "longtail": "pfingsten arbeitsblätter grundschule",
+   "target": "GAP"
+  },
+  {
+   "base": "st martin grundschule",
+   "segment": "saisonal-feste",
+   "longtail": "st martin arbeitsblätter grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "st martin kita",
+   "segment": "saisonal-feste",
+   "longtail": "st martin laterne ideen kita",
+   "target": "GAP"
+  },
+  {
+   "base": "halloween grundschule",
+   "segment": "saisonal-feste",
+   "longtail": "halloween arbeitsblätter grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "erntedank grundschule",
+   "segment": "saisonal-feste",
+   "longtail": "erntedank rätsel grundschule zum ausdrucken",
+   "target": "landing",
+   "slug": "kreuzwortraetsel-erntedankfest-8473",
+   "currentTitle": "Arbeitsblätter Bilderkreuzworträtsel – Erntedankfest | PDF",
+   "title": "Erntedank Rätsel Grundschule – Kreuzworträtsel | PDF kostenlos",
+   "metaDescription": "Erntedank Rätsel für die Grundschule zum Ausdrucken: Bilder-Kreuzworträtsel mit Erntedank-Motiven für Klasse 2. Kostenlose PDFs mit Lösungsblatt."
+  },
+  {
+   "base": "erntedank kindergarten",
+   "segment": "saisonal-feste",
+   "longtail": "erntedank arbeitsblätter kindergarten kostenlos",
+   "target": "landing",
+   "slug": "bilder-sudoku-leicht-erntedankfest-7c84",
+   "currentTitle": "Arbeitsblätter Bilder-Sudoku – Erntedankfest | zum Ausdrucken PDF",
+   "title": "Erntedank Arbeitsblätter Kindergarten – Bilder-Sudoku | PDF",
+   "metaDescription": "Erntedank Arbeitsblätter für den Kindergarten: Bilder-Sudoku mit Erntedank-Motiven. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt, ohne Anmeldung."
+  },
+  {
+   "base": "muttertag grundschule",
+   "segment": "saisonal-feste",
+   "longtail": "muttertag arbeitsblätter grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "muttertag kindergarten",
+   "segment": "saisonal-feste",
+   "longtail": "muttertag ideen kindergarten basteln",
+   "target": "GAP"
+  },
+  {
+   "base": "vatertag grundschule",
+   "segment": "saisonal-feste",
+   "longtail": "vatertag arbeitsblätter grundschule",
+   "target": "GAP"
+  },
+  {
+   "base": "arbeitsblätter grundschule",
+   "segment": "lehrer-register",
+   "longtail": "arbeitsblätter grundschule selbst erstellen",
+   "target": "maker",
+   "key": "math-worksheet",
+   "title": "Arbeitsblätter für die Grundschule selbst erstellen – kostenlos",
+   "metaDescription": "Mathe-Arbeitsblätter für die Grundschule selbst erstellen: Aufgaben und Bildthema wählen, als PDF ausdrucken. Kostenlos, mit Lösungsblatt."
+  },
+  {
+   "base": "daz arbeitsblätter",
+   "segment": "lehrer-register",
+   "longtail": "daz arbeitsblätter wortschatz kostenlos",
+   "target": "landing",
+   "slug": "englisch-zuordnung-namen-kleidung-c3a1",
+   "title": "DaZ-Arbeitsblätter Wortschatz – Kleidung zuordnen | PDF kostenlos",
+   "metaDescription": "Wortschatz üben für DaZ: Bilder und Wörter zuordnen – Kleidung. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungsblatt, ideal für Sprachanfänger."
+  },
+  {
+   "base": "unterrichtseinheit",
+   "segment": "lehrer-register",
+   "longtail": "unterrichtseinheit mathe klasse 1",
+   "target": "GAP"
+  },
+  {
+   "base": "arbeitsheft",
+   "segment": "lehrer-register",
+   "longtail": "arbeitsheft grundschule zum ausdrucken",
+   "target": "GAP"
+  },
+  {
+   "base": "einmaleins arbeitsblätter",
+   "segment": "lehrer-register",
+   "longtail": "einmaleins arbeitsblätter klasse 2 kostenlos",
+   "target": "GAP",
+   "note": "no-free-slug landing:arrays-multiplication/none/2-klasse"
+  },
+  {
+   "base": "differenzierung",
+   "segment": "lehrer-register",
+   "longtail": "differenzierte arbeitsblätter selbst erstellen",
+   "target": "maker",
+   "key": "addition",
+   "title": "Differenzierte Arbeitsblätter selbst erstellen – kostenlos",
+   "metaDescription": "Differenzierte Plus-Arbeitsblätter selbst erstellen: Zahlenraum und Schwierigkeit je Gruppe anpassen, als PDF ausdrucken. Kostenlos, mit Lösungsblatt."
+  },
+  {
+   "base": "lernzielkontrollen mathematik",
+   "segment": "lehrer-register",
+   "longtail": "lernzielkontrolle mathematik klasse 2",
+   "target": "GAP"
+  },
+  {
+   "base": "anfangsunterricht",
+   "segment": "lehrer-register",
+   "longtail": "anfangsunterricht mathe arbeitsblätter kostenlos",
+   "target": "landing",
+   "slug": "addition-gemischt-tiere-452f",
+   "currentTitle": "Arbeitsblätter Addition bis 10 ohne Zehnerübergang – Tiere | PDF",
+   "title": "Arbeitsblätter für den Anfangsunterricht Mathe – Tiere | PDF",
+   "metaDescription": "Erste Plusaufgaben mit Bildern für den Anfangsunterricht: zählen und rechnen bis 20 – Tiere. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "zahlenraum bis 20",
+   "segment": "lehrer-register",
+   "longtail": "rechnen im zahlenraum bis 20 arbeitsblätter",
+   "target": "GAP",
+   "note": "no-free-slug landing:math-puzzle/animals/1-klasse"
+  },
+  {
+   "base": "sachaufgaben",
+   "segment": "lehrer-register",
+   "longtail": "sachaufgaben klasse 2 online üben",
+   "target": "GAP",
+   "id": "numberbond.story-problem.2-oa-a-1",
+   "note": "secondary-on activity:numberbond.story-problem.2-oa-a-1"
+  },
+  {
+   "base": "klassenarbeit mathe klasse 2",
+   "segment": "lehrer-register",
+   "longtail": "klassenarbeit mathe klasse 2 zum ausdrucken",
+   "target": "GAP"
+  },
+  {
+   "base": "unterrichtsmaterial grundschule",
+   "segment": "lehrer-register",
+   "longtail": "unterrichtsmaterial grundschule selbst erstellen",
+   "target": "maker",
+   "key": "matching",
+   "title": "Unterrichtsmaterial für die Grundschule erstellen – kostenlos",
+   "metaDescription": "Zuordnungs-Arbeitsblätter als Unterrichtsmaterial für die Grundschule selbst erstellen: Bildthema wählen, Paare zuordnen, als PDF drucken. Kostenlos."
+  },
+  {
+   "base": "kopiervorlagen",
+   "segment": "lehrer-register",
+   "longtail": "kopiervorlagen selbst erstellen kostenlos",
+   "target": "maker",
+   "key": "wordsearch",
+   "title": "Kopiervorlagen selbst erstellen – Suchsel-Generator kostenlos",
+   "metaDescription": "Suchsel als Kopiervorlage selbst erstellen: Thema und Wörter wählen, fertiges Arbeitsblatt als PDF ausdrucken. Kostenlos, mit Lösungsblatt."
+  },
+  {
+   "base": "kopiervorlagen grundschule",
+   "segment": "lehrer-register",
+   "longtail": "bingo kopiervorlagen grundschule kostenlos",
+   "target": "maker",
+   "key": "bingo",
+   "title": "Bingo-Kopiervorlagen für die Grundschule erstellen – kostenlos",
+   "metaDescription": "Bild-Bingo-Karten als Kopiervorlagen für die Grundschule selbst erstellen: Thema wählen, Karten automatisch mischen, als PDF ausdrucken. Kostenlos."
+  },
+  {
+   "base": "übungsblätter grundschule",
+   "segment": "lehrer-register",
+   "longtail": "übungsblätter grundschule mathe zum ausdrucken",
+   "target": "GAP",
+   "note": "no-free-slug landing:math-worksheet/animals/2-klasse"
+  },
+  {
+   "base": "inklusion unterrichtsmaterial",
+   "segment": "lehrer-register",
+   "longtail": "inklusion unterrichtsmaterial grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "montessori arbeitsblätter",
+   "segment": "lehrer-register",
+   "longtail": "montessori arbeitsblätter kostenlos ausdrucken",
+   "target": "GAP"
+  },
+  {
+   "base": "jahreszeiten material",
+   "segment": "lehrer-register",
+   "longtail": "jahreszeiten material grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "monate wochentage",
+   "segment": "lehrer-register",
+   "longtail": "monate und wochentage arbeitsblätter",
+   "target": "GAP"
+  },
+  {
+   "base": "sankt martin grundschule",
+   "segment": "lehrer-register",
+   "longtail": "sankt martin material grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "arbeitsmaterialien",
+   "segment": "lehrer-register",
+   "longtail": "arbeitsmaterialien grundschule selbst erstellen",
+   "target": "maker",
+   "key": "crossword",
+   "title": "Arbeitsmaterialien selbst erstellen – Bilder-Kreuzworträtsel",
+   "metaDescription": "Bilder-Kreuzworträtsel als Arbeitsmaterialien für die Grundschule selbst erstellen: Thema wählen, Rätsel als PDF ausdrucken. Kostenlos, mit Lösung."
+  },
+  {
+   "base": "freiarbeit grundschule",
+   "segment": "lehrer-register",
+   "longtail": "freiarbeit grundschule material kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "freiarbeitsmaterial",
+   "segment": "lehrer-register",
+   "longtail": "freiarbeitsmaterial selbst erstellen kostenlos",
+   "target": "maker",
+   "key": "sudoku",
+   "title": "Freiarbeitsmaterial selbst erstellen – Bilder-Sudoku kostenlos",
+   "metaDescription": "Bilder-Sudoku als Freiarbeitsmaterial selbst erstellen: Thema wählen, Rätsel als PDF ausdrucken – mit Lösungsblatt zur Selbstkontrolle. Kostenlos."
+  },
+  {
+   "base": "stationsarbeit",
+   "segment": "lehrer-register",
+   "longtail": "stationsarbeit mathe grundschule material",
+   "target": "GAP"
+  },
+  {
+   "base": "stationenlernen",
+   "segment": "lehrer-register",
+   "longtail": "stationenlernen material grundschule",
+   "target": "GAP"
+  },
+  {
+   "base": "vorschule",
+   "segment": "modifikatoren-formate",
+   "longtail": "zahlen lernen arbeitsblätter vorschule",
+   "target": "GAP",
+   "note": "no-free-slug landing:number-charts/none/vorschule"
+  },
+  {
+   "base": "vorschulkinder",
+   "segment": "modifikatoren-formate",
+   "longtail": "übungsblätter für vorschulkinder kostenlos",
+   "target": "GAP",
+   "note": "no-free-slug landing:shadow-match/animals/vorschule"
+  },
+  {
+   "base": "kita",
+   "segment": "modifikatoren-formate",
+   "longtail": "suchbilder für kita kinder",
+   "target": "GAP",
+   "note": "no-free-slug landing:find-objects/animals/vorschule"
+  },
+  {
+   "base": "kindergarten",
+   "segment": "modifikatoren-formate",
+   "longtail": "labyrinth kindergarten zum ausdrucken",
+   "target": "landing",
+   "slug": "bildpfad-den-richtigen-weg-wahlen-bauernhoftiere-b6a7",
+   "currentTitle": "Arbeitsblätter Bilder-Labyrinth – Bauernhoftiere | PDF",
+   "title": "Labyrinth Kindergarten – Bauernhoftiere | zum Ausdrucken PDF",
+   "metaDescription": "Labyrinth für den Kindergarten zum Ausdrucken: den Weg durch die Bauernhoftiere finden. Kostenlose PDF-Arbeitsblätter mit Lösungsblatt."
+  },
+  {
+   "base": "1. klasse",
+   "segment": "modifikatoren-formate",
+   "longtail": "plusaufgaben 1. klasse zum ausdrucken",
+   "target": "GAP",
+   "note": "dup-longtail"
+  },
+  {
+   "base": "1 klasse",
+   "segment": "modifikatoren-formate",
+   "longtail": "minusaufgaben 1 klasse arbeitsblätter",
+   "target": "landing",
+   "slug": "subtraktion-durchstreichen-fruchte-26d6",
+   "currentTitle": "Arbeitsblätter Subtraktion bis 20 zum Durchstreichen – Früchte",
+   "title": "Minusaufgaben 1. Klasse – Arbeitsblätter – Obst | PDF kostenlos",
+   "metaDescription": "Minusaufgaben für die 1. Klasse: Subtrahieren bis 20 mit Obstbildern. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "klasse 1",
+   "segment": "modifikatoren-formate",
+   "longtail": "lückenwörter klasse 1 arbeitsblätter",
+   "target": "GAP",
+   "note": "no-free-slug landing:word-guess/animals/1-klasse"
+  },
+  {
+   "base": "2. klasse",
+   "segment": "modifikatoren-formate",
+   "longtail": "rechnen bis 100 arbeitsblätter 2. klasse",
+   "target": "GAP",
+   "note": "no-free-slug landing:math-worksheet/animals/2-klasse"
+  },
+  {
+   "base": "klasse 2",
+   "segment": "modifikatoren-formate",
+   "longtail": "knobelaufgaben klasse 2 zum ausdrucken",
+   "target": "GAP",
+   "note": "no-free-slug landing:math-puzzle/space/2-klasse"
+  },
+  {
+   "base": "3. klasse",
+   "segment": "modifikatoren-formate",
+   "longtail": "uhrzeit arbeitsblätter 3. klasse",
+   "target": "landing",
+   "slug": "uhrzeit-klasse-3-zeitspannen",
+   "currentTitle": "Uhrzeit Arbeitsblätter Klasse 3 – minutengenau & Zeitspannen | zum Ausdrucken (PDF, kostenlos)",
+   "title": "Uhrzeit – Arbeitsblätter 3. Klasse | zum Ausdrucken PDF kostenlos",
+   "metaDescription": "Uhrzeit ablesen in der 3. Klasse: Arbeitsblätter zum Üben mit der Analoguhr. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt – ideal für zu Hause."
+  },
+  {
+   "base": "klasse 3",
+   "segment": "modifikatoren-formate",
+   "longtail": "diagramme lesen klasse 3 arbeitsblätter",
+   "target": "landing",
+   "slug": "diagramme-klasse-3",
+   "currentTitle": "Diagramme Arbeitsblätter Klasse 3 – Säulendiagramm zeichnen & Legende | zum Ausdrucken (PDF, kostenlos)",
+   "title": "Diagramme lesen Klasse 3 – Arbeitsblätter | PDF kostenlos",
+   "metaDescription": "Diagramme lesen in Klasse 3: Daten ablesen und auswerten. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungsblatt für den Unterricht."
+  },
+  {
+   "base": "grundschule",
+   "segment": "modifikatoren-formate",
+   "longtail": "purzelwörter grundschule zum ausdrucken",
+   "target": "GAP",
+   "note": "dup-longtail"
+  },
+  {
+   "base": "förderschule",
+   "segment": "modifikatoren-formate",
+   "longtail": "mathe arbeitsblätter förderschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "arbeitsblatt",
+   "segment": "modifikatoren-formate",
+   "longtail": "meerestiere arbeitsblatt grundschule",
+   "target": "GAP",
+   "note": "no-free-slug landing:wordsearch/ocean_life/1-klasse"
+  },
+  {
+   "base": "arbeitsblätter",
+   "segment": "modifikatoren-formate",
+   "longtail": "insekten arbeitsblätter grundschule",
+   "target": "landing",
+   "slug": "kreuzwortraetsel-insekten-und-kafer-1ad7",
+   "currentTitle": "Arbeitsblätter Bilderkreuzworträtsel – Insekten und Käfer | PDF",
+   "title": "Insekten Arbeitsblätter Grundschule – Kreuzworträtsel | PDF kostenlos",
+   "metaDescription": "Insekten-Arbeitsblätter für die Grundschule: Bilder-Kreuzworträtsel mit Käfern und Krabbeltieren. Kostenlos zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "übungsblätter",
+   "segment": "modifikatoren-formate",
+   "longtail": "übungsblätter mathe 2. klasse kostenlos",
+   "target": "landing",
+   "slug": "code-addition-weltraum-c678",
+   "currentTitle": "Arbeitsblätter Kodierrätsel – Weltraum | zum Ausdrucken PDF",
+   "title": "Übungsblätter Mathe 2. Klasse – Code-Addition | PDF kostenlos",
+   "metaDescription": "Übungsblätter Mathe 2. Klasse kostenlos: Symbole entschlüsseln und addieren – Weltraum. Zum Ausdrucken als PDF mit Lösungsblatt."
+  },
+  {
+   "base": "übungen",
+   "segment": "modifikatoren-formate",
+   "longtail": "größer kleiner übungen vorschule",
+   "target": "landing",
+   "slug": "gross-klein-aufsteigend-ordnen-spielzeug-6aa7",
+   "currentTitle": "Arbeitsblätter Nach Größe ordnen – Spielzeug | zum Ausdrucken PDF",
+   "title": "Größer-kleiner-Übungen Vorschule – Spielzeug | PDF kostenlos",
+   "metaDescription": "Größer und kleiner vergleichen: Übungen für die Vorschule – Spielzeug. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "aufgaben",
+   "segment": "modifikatoren-formate",
+   "longtail": "aufgaben zum zählen kindergarten",
+   "target": "GAP",
+   "note": "no-free-slug landing:find-and-count/farm_animals/vorschule"
+  },
+  {
+   "base": "lernspiele",
+   "segment": "modifikatoren-formate",
+   "longtail": "lernspiele mathe 1. klasse online",
+   "target": "activity",
+   "id": "numberbond.make-ten-to-add.1-oa-c-6",
+   "title": "Lernspiel Mathe 1. Klasse – Zehn machen: online üben",
+   "metaDescription": "Lernspiel Mathe für die 1. Klasse: über die Zehn addieren bis 20 – interaktiv am Bildschirm. Kostenlos online, ohne Anmeldung."
+  },
+  {
+   "base": "kostenlos",
+   "segment": "modifikatoren-formate",
+   "longtail": "bingo karten kostenlos zum ausdrucken",
+   "target": "landing",
+   "slug": "bingo-bauernhoftiere-8f91",
+   "currentTitle": "Arbeitsblätter Bilder-Bingo – Bauernhoftiere | zum Ausdrucken PDF",
+   "title": "Bingo-Karten kostenlos zum Ausdrucken – Bauernhoftiere | PDF",
+   "metaDescription": "Bingo-Karten kostenlos zum Ausdrucken: Bild-Bingo mit Bauernhoftieren für Kindergarten und Vorschule. Fertige PDF-Vorlagen zum Spielen."
+  },
+  {
+   "base": "gratis",
+   "segment": "modifikatoren-formate",
+   "longtail": "abc lernen arbeitsblätter gratis",
+   "target": "landing",
+   "slug": "buchstabenzug-buchstaben-hilfe-tiere-d196",
+   "currentTitle": "Arbeitsblätter Alphabet-Zug mit Buchstaben-Hilfe – Tiere | PDF",
+   "title": "ABC lernen – Arbeitsblätter gratis – Tiere | zum Ausdrucken PDF",
+   "metaDescription": "ABC lernen mit gratis Arbeitsblättern: Buchstaben in die richtige Reihenfolge bringen – Tiere. Zum Ausdrucken als PDF mit Lösungsblatt."
+  },
+  {
+   "base": "zum ausdrucken",
+   "segment": "modifikatoren-formate",
+   "longtail": "wörtersuche zum ausdrucken 1. klasse",
+   "target": "GAP",
+   "note": "no-free-slug landing:wordsearch/pets/1-klasse"
+  },
+  {
+   "base": "pdf",
+   "segment": "modifikatoren-formate",
+   "longtail": "schatzsuche arbeitsblätter pdf",
+   "target": "landing",
+   "slug": "schatzsuche-haustiere",
+   "currentTitle": "Arbeitsblätter Schatzsuche – Haustiere | zum Ausdrucken PDF",
+   "title": "Schatzsuche Arbeitsblätter PDF – Haustiere | zum Ausdrucken",
+   "metaDescription": "Schatzsuche-Arbeitsblätter als PDF: im Gitter den Weg zum Schatz finden – Haustiere. Kostenlos zum Ausdrucken mit Lösungsblatt."
+  },
+  {
+   "base": "mit lösungen",
+   "segment": "modifikatoren-formate",
+   "longtail": "kreuzworträtsel mit lösungen grundschule",
+   "target": "landing",
+   "slug": "kreuzwortraetsel-gemuse-ff67",
+   "currentTitle": "Arbeitsblätter Bilderkreuzworträtsel – Gemüse | PDF",
+   "title": "Kreuzworträtsel mit Lösungen Grundschule – Gemüse | PDF",
+   "metaDescription": "Kreuzworträtsel mit Lösungen für die Grundschule: Bilder-Rätsel rund um Gemüse. Kostenlos zum Ausdrucken als PDF – Lösungsblatt inklusive."
+  },
+  {
+   "base": "vorlage",
+   "segment": "modifikatoren-formate",
+   "longtail": "bingo vorlage kindergarten zum ausdrucken",
+   "target": "GAP",
+   "key": "bingo",
+   "note": "secondary-on maker:bingo"
+  },
+  {
+   "base": "arbeitsblätter zum ausdrucken",
+   "segment": "modifikatoren-formate",
+   "longtail": "spielzeug arbeitsblätter zum ausdrucken",
+   "target": "GAP",
+   "note": "no-free-slug landing:matching/toys/1-klasse"
+  },
+  {
+   "base": "arbeitsblätter mit lösungen",
+   "segment": "modifikatoren-formate",
+   "longtail": "mathe arbeitsblätter mit lösungen 2. klasse",
+   "target": "GAP",
+   "note": "no-free-slug landing:math-worksheet/vehicles/2-klasse"
+  },
+  {
+   "base": "kostenlos zum ausdrucken",
+   "segment": "modifikatoren-formate",
+   "longtail": "was fehlt bilder kostenlos zum ausdrucken",
+   "target": "landing",
+   "slug": "was-fehlt-2-fehlende-teile-dinosaurier-163f",
+   "currentTitle": "Arbeitsblätter Fehlende Teile – Dinosaurier | zum Ausdrucken PDF",
+   "title": "Was fehlt? Bilder kostenlos zum Ausdrucken – Dinosaurier | PDF",
+   "metaDescription": "Was fehlt im Bild? Fehlende Bildteile bei Dinosauriern finden. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungsblatt – Vorschule."
+  },
+  {
+   "base": "zum ausdrucken kostenlos",
+   "segment": "modifikatoren-formate",
+   "longtail": "uhr lesen 1. klasse zum ausdrucken kostenlos",
+   "target": "landing",
+   "slug": "uhrzeit-klasse-1-uhr-lesen",
+   "currentTitle": "Uhrzeit Arbeitsblätter Klasse 1 – volle & halbe Stunde | zum Ausdrucken (PDF, kostenlos)",
+   "title": "Uhr lesen 1. Klasse – Arbeitsblätter | zum Ausdrucken kostenlos",
+   "metaDescription": "Uhr lesen in der 1. Klasse: volle und halbe Stunden ablesen und eintragen. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "mathe 1. klasse",
+   "segment": "modifikatoren-formate",
+   "longtail": "mathe 1. klasse arbeitsblätter kostenlos",
+   "target": "landing",
+   "slug": "mathe-raetsel-subtraktion-fruchte-0914",
+   "currentTitle": "Arbeitsblätter Zahlenpuzzle zum Subtrahieren bis 20 – Früchte",
+   "title": "Mathe 1. Klasse – Arbeitsblätter kostenlos – Bilder-Rätsel | PDF",
+   "metaDescription": "Mathe für die 1. Klasse: kostenlose Arbeitsblätter mit Bilder-Rechenrätseln bis 20 – Obst. Zum Ausdrucken als PDF mit Lösungsblatt."
+  },
+  {
+   "base": "1 klasse zum ausdrucken kostenlos",
+   "segment": "modifikatoren-formate",
+   "longtail": "wörter raten 1 klasse zum ausdrucken kostenlos",
+   "target": "landing",
+   "slug": "wort-raten-leicht-winter-7efe",
+   "currentTitle": "Arbeitsblätter Lückenwörter schreiben – Winter | PDF",
+   "title": "Wörter raten 1. Klasse – Winter | zum Ausdrucken kostenlos PDF",
+   "metaDescription": "Wörter raten für die 1. Klasse: fehlende Buchstaben in Winterwörtern ergänzen. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt für zu Hause."
+  },
+  {
+   "base": "schulanfänger",
+   "segment": "modifikatoren-formate",
+   "longtail": "übungsblätter für schulanfänger kostenlos",
+   "target": "GAP",
+   "note": "no-free-slug landing:pattern-worksheet/shapes/vorschule"
+  },
+  {
+   "base": "erstklässler",
+   "segment": "modifikatoren-formate",
+   "longtail": "rechenaufgaben für erstklässler zum ausdrucken",
+   "target": "landing",
+   "slug": "addition-gemischt-bauernhoftiere-f32e",
+   "currentTitle": "Arbeitsblätter Addition bis 10 ohne Zehnerübergang – Bauernhoftiere",
+   "title": "Rechenaufgaben für Erstklässler – Bauernhof | zum Ausdrucken PDF",
+   "metaDescription": "Rechenaufgaben für Erstklässler: Plusaufgaben bis 20 mit Bauernhoftieren. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungen."
+  },
+  {
+   "base": "ab 5 jahren",
+   "segment": "modifikatoren-formate",
+   "longtail": "rätsel für kinder ab 5 jahren zum ausdrucken",
+   "target": "GAP",
+   "note": "no-free-slug landing:sudoku/animals/vorschule"
+  },
+  {
+   "base": "für 5 jährige",
+   "segment": "modifikatoren-formate",
+   "longtail": "zählen lernen für 5 jährige online",
+   "target": "GAP",
+   "id": "ten-frame.count-to-10.make-n.animals",
+   "note": "secondary-on activity:ten-frame.count-to-10.make-n.animals"
+  },
+  {
+   "base": "für 4 jährige",
+   "segment": "modifikatoren-formate",
+   "longtail": "was passt nicht arbeitsblätter für 4 jährige",
+   "target": "GAP",
+   "note": "no-free-slug landing:odd-one-out/toys/vorschule"
+  },
+  {
+   "base": "zahlenraum bis 100",
+   "segment": "modifikatoren-formate",
+   "longtail": "arbeitsblätter zahlenraum bis 100 kostenlos",
+   "target": "GAP",
+   "note": "no-free-slug landing:number-charts/none/2-klasse"
+  },
+  {
+   "base": "mathe-arbeitsblätter",
+   "segment": "modifikatoren-formate",
+   "longtail": "mathe-arbeitsblätter selbst erstellen kostenlos",
+   "target": "GAP",
+   "key": "math-worksheet",
+   "note": "secondary-on maker:math-worksheet"
+  },
+  {
+   "base": "unterrichtsmaterial",
+   "segment": "modifikatoren-formate",
+   "longtail": "unterrichtsmaterial grundschule selbst erstellen",
+   "target": "GAP",
+   "note": "dup-longtail"
+  },
+  {
+   "base": "präpositionen arbeitsblätter",
+   "segment": "daz-mehrsprachig",
+   "longtail": "präpositionen arbeitsblätter daz",
+   "target": "landing",
+   "slug": "praepositionen-luckentext-klassenzimmer-56af",
+   "currentTitle": "Arbeitsblätter Präpositionen schreiben – Klassenzimmer | PDF",
+   "title": "Präpositionen-Arbeitsblätter DaZ – Klassenzimmer | PDF kostenlos",
+   "metaDescription": "Präpositionen-Arbeitsblätter für DaZ: auf, unter, neben mit Bildern aus dem Klassenzimmer üben. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "deutsch als zweitsprache",
+   "segment": "daz-mehrsprachig",
+   "longtail": "deutsch als zweitsprache arbeitsblätter",
+   "target": "landing",
+   "slug": "englisch-zuordnung-namen-rund-ums-haus-1b74",
+   "title": "Deutsch als Zweitsprache – Bild-Wort-Arbeitsblätter | PDF",
+   "metaDescription": "Arbeitsblätter für Deutsch als Zweitsprache: Bilder und Wörter zuordnen, Alltagswortschatz rund ums Haus aufbauen. Kostenlos zum Ausdrucken (PDF) mit Lösung."
+  },
+  {
+   "base": "deutsch lernen kinder",
+   "segment": "daz-mehrsprachig",
+   "longtail": "deutsch lernen kinder arbeitsblätter kostenlos",
+   "target": "landing",
+   "slug": "englisch-zuordnung-namen-tiere-038e",
+   "title": "Deutsch lernen für Kinder – Arbeitsblätter Tiere | PDF",
+   "metaDescription": "Deutsch lernen für Kinder mit Bildern: Tierwörter zuordnen und erste Wörter üben. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "colours arbeitsblätter",
+   "segment": "daz-mehrsprachig",
+   "longtail": "colours arbeitsblatt grundschule kostenlos",
+   "target": "landing",
+   "slug": "englisch-wortsuche-farben-abad",
+   "title": "Colours-Arbeitsblätter – Farben auf Englisch | PDF kostenlos",
+   "metaDescription": "Colours-Arbeitsblätter für die Grundschule: englische Farbwörter im Suchsel mit Bildern finden. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "adhs arbeitsblätter",
+   "segment": "daz-mehrsprachig",
+   "longtail": "adhs arbeitsblätter grundschule kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "daz material grundschule",
+   "segment": "daz-mehrsprachig",
+   "longtail": "daz material grundschule kostenlos",
+   "target": "landing",
+   "slug": "wort-raten-leicht-rund-ums-haus-7607",
+   "currentTitle": "Arbeitsblätter Lückenwörter schreiben – Rund ums Haus | PDF",
+   "title": "DaZ-Material Grundschule – Lückenwörter mit Bildern | PDF",
+   "metaDescription": "Kostenloses DaZ-Material für die Grundschule: Lückenwörter mit Bildern zum Alltagswortschatz ergänzen. Zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "daf daz grundschule",
+   "segment": "daz-mehrsprachig",
+   "longtail": "daf daz arbeitsblätter grundschule",
+   "target": "landing",
+   "slug": "englisch-kreuzwortraetsel-klassenzimmer-1f23",
+   "title": "DaF/DaZ-Arbeitsblätter Grundschule – Bilder-Kreuzworträtsel | PDF",
+   "metaDescription": "DaF- und DaZ-Arbeitsblätter für die Grundschule: Bilder-Kreuzworträtsel zum Schulwortschatz. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "sprachförderung",
+   "segment": "daz-mehrsprachig",
+   "longtail": "sprachförderung arbeitsblätter kostenlos",
+   "target": "landing",
+   "slug": "zuordnung-buchstaben-rund-ums-haus-e1d1",
+   "currentTitle": "Arbeitsblätter Buchstaben zuordnen – Rund ums Haus | PDF",
+   "title": "Sprachförderung – Arbeitsblätter Bilder zuordnen | PDF kostenlos",
+   "metaDescription": "Arbeitsblätter zur Sprachförderung: Wortschatz benennen und Paare zuordnen – Rund ums Haus. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "sprachförderung kita",
+   "segment": "daz-mehrsprachig",
+   "longtail": "sprachförderung kita material kostenlos",
+   "target": "GAP",
+   "note": "no-free-slug landing:bingo/farm_animals/vorschule"
+  },
+  {
+   "base": "sprachförderung kindergarten",
+   "segment": "daz-mehrsprachig",
+   "longtail": "sprachförderung kindergarten arbeitsblätter",
+   "target": "GAP",
+   "note": "no-free-slug landing:odd-one-out/animals/vorschule"
+  },
+  {
+   "base": "sprachförderung grundschule",
+   "segment": "daz-mehrsprachig",
+   "longtail": "sprachförderung grundschule material",
+   "target": "landing",
+   "slug": "zuordnung-buchstaben-emotionen-f949",
+   "currentTitle": "Arbeitsblätter Buchstaben zuordnen – Emotionen | PDF",
+   "title": "Sprachförderung Grundschule – Gefühle zuordnen | PDF kostenlos",
+   "metaDescription": "Material zur Sprachförderung in der Grundschule: Gefühle erkennen, benennen und zuordnen. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösung."
+  },
+  {
+   "base": "wortschatzarbeit",
+   "segment": "daz-mehrsprachig",
+   "longtail": "wortschatzarbeit grundschule arbeitsblätter",
+   "target": "landing",
+   "slug": "wort-raten-leicht-im-supermarkt-6c86",
+   "currentTitle": "Arbeitsblätter Lückenwörter schreiben – Im Supermarkt | PDF",
+   "title": "Wortschatzarbeit Grundschule – Lückenwörter Supermarkt | PDF",
+   "metaDescription": "Wortschatzarbeit in der Grundschule: Lückenwörter mit Bildern rund um den Supermarkt ergänzen. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "daz erste wörter",
+   "segment": "daz-mehrsprachig",
+   "longtail": "daz erste wörter arbeitsblätter",
+   "target": "GAP",
+   "note": "no-free-slug landing:matching/clothing/language-beginner"
+  },
+  {
+   "base": "alphabetisierung daz",
+   "segment": "daz-mehrsprachig",
+   "longtail": "alphabetisierung daz arbeitsblätter kostenlos",
+   "target": "GAP",
+   "note": "no-free-slug landing:alphabet-train/animals/vorschule"
+  },
+  {
+   "base": "daz grammatik",
+   "segment": "daz-mehrsprachig",
+   "longtail": "daz grammatik einzahl mehrzahl übungen",
+   "target": "GAP",
+   "id": "daisy-plate-stack.plurals.l-k-1-c",
+   "note": "secondary-on activity:daisy-plate-stack.plurals.l-k-1-c"
+  },
+  {
+   "base": "satzbau übungen",
+   "segment": "daz-mehrsprachig",
+   "longtail": "satzbau übungen grundschule online",
+   "target": "GAP",
+   "id": "sentence-builder.build-a-sentence.l-1-1-j",
+   "note": "secondary-on activity:sentence-builder.build-a-sentence.l-1-1-j"
+  },
+  {
+   "base": "sprachstandserhebung",
+   "segment": "daz-mehrsprachig",
+   "longtail": "sprachstandserhebung kita bogen kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "lernstandserhebung deutsch",
+   "segment": "daz-mehrsprachig",
+   "longtail": "lernstandserhebung deutsch klasse 1",
+   "target": "GAP"
+  },
+  {
+   "base": "bilinguale grundschule",
+   "segment": "daz-mehrsprachig",
+   "longtail": "bilinguale grundschule arbeitsblätter",
+   "target": "landing",
+   "slug": "englisch-kreuzwortraetsel-rund-ums-haus-ba8a",
+   "title": "Bilinguale Grundschule – Vokabel-Kreuzworträtsel | PDF kostenlos",
+   "metaDescription": "Arbeitsblätter für die bilinguale Grundschule: Bilder-Kreuzworträtsel zum Vokabellernen in der Zielsprache. Kostenlos zum Ausdrucken (PDF) mit Lösung."
+  },
+  {
+   "base": "bildwörterbuch ukrainisch deutsch",
+   "segment": "daz-mehrsprachig",
+   "longtail": "bildwörterbuch ukrainisch deutsch pdf kostenlos",
+   "target": "GAP"
+  },
+  {
+   "base": "bildwörterbuch türkisch deutsch",
+   "segment": "daz-mehrsprachig",
+   "longtail": "bildwörterbuch türkisch deutsch kinder pdf",
+   "target": "GAP"
+  },
+  {
+   "base": "deutsch arabisch kinder",
+   "segment": "daz-mehrsprachig",
+   "longtail": "deutsch arabisch lernen für kinder",
+   "target": "GAP"
+  },
+  {
+   "base": "mehrsprachiges vorlesen",
+   "segment": "daz-mehrsprachig",
+   "longtail": "mehrsprachiges vorlesen grundschule ideen",
+   "target": "GAP"
+  },
+  {
+   "base": "herkunftssprachlicher unterricht",
+   "segment": "daz-mehrsprachig",
+   "longtail": "herkunftssprachlicher unterricht material grundschule",
+   "target": "GAP"
+  },
+  {
+   "base": "mehrsprachigkeit grundschule",
+   "segment": "daz-mehrsprachig",
+   "longtail": "mehrsprachigkeit grundschule material",
+   "target": "landing",
+   "slug": "englisch-kreuzwortraetsel-tiere-3207",
+   "title": "Mehrsprachigkeit Grundschule – Vokabel-Arbeitsblätter | PDF",
+   "metaDescription": "Material für Mehrsprachigkeit in der Grundschule: Vokabel-Kreuzworträtsel mit Bildern für mehrsprachige Klassen. Kostenlos zum Ausdrucken (PDF) mit Lösung."
+  },
+  {
+   "base": "englisch grundschule",
+   "segment": "daz-mehrsprachig",
+   "longtail": "englisch grundschule arbeitsblätter kostenlos",
+   "target": "landing",
+   "slug": "englisch-wortsuche-fruchte-f319",
+   "title": "Englisch Grundschule – Arbeitsblätter Obst-Vokabeln | PDF",
+   "metaDescription": "Englisch in der Grundschule: Obst-Vokabeln im Bilder-Suchsel entdecken und festigen. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösung."
+  },
+  {
+   "base": "englisch 3. klasse",
+   "segment": "daz-mehrsprachig",
+   "longtail": "englisch 3. klasse arbeitsblätter kostenlos",
+   "target": "landing",
+   "slug": "englisch-wortsuche-tiere-b6d3",
+   "title": "Englisch 3. Klasse – Arbeitsblätter Tier-Vokabeln | PDF kostenlos",
+   "metaDescription": "Englisch-Arbeitsblätter für die 3. Klasse: Tier-Vokabeln im Suchsel mit Bildern üben und festigen. Kostenlos zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "englisch vokabeln grundschule",
+   "segment": "daz-mehrsprachig",
+   "longtail": "englisch vokabeln grundschule üben",
+   "target": "landing",
+   "slug": "englisch-wortsuche-kleidung-00fa",
+   "title": "Englisch-Vokabeln Grundschule – Arbeitsblätter Kleidung | PDF",
+   "metaDescription": "Englisch-Vokabeln in der Grundschule üben: Kleidungswörter im Bilder-Suchsel finden. Kostenlose Arbeitsblätter zum Ausdrucken (PDF) mit Lösung."
+  },
+  {
+   "base": "farben auf englisch",
+   "segment": "daz-mehrsprachig",
+   "longtail": "farben auf englisch arbeitsblatt",
+   "target": "landing",
+   "slug": "englisch-kreuzwortraetsel-farben-4730",
+   "title": "Farben auf Englisch – Kreuzworträtsel-Arbeitsblatt | PDF",
+   "metaDescription": "Farben auf Englisch lernen: Farbwörter im Bilder-Kreuzworträtsel eintragen. Kostenloses Arbeitsblatt zum Ausdrucken (PDF) mit Lösungsblatt."
+  },
+  {
+   "base": "zahlen englisch grundschule",
+   "segment": "daz-mehrsprachig",
+   "longtail": "zahlen auf englisch arbeitsblatt grundschule",
+   "target": "GAP"
+  }
+ ]
+}

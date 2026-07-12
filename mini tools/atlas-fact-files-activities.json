@@ -3,45 +3,326 @@
     "id": "atlas-fact-files.key-detail.ri-k-1",
     "tool": "atlas-fact-files-activity",
     "task_template": "key-detail",
-    "alignment": { "framework": "CCSS", "code": "RI.K.1", "grade": "K", "strand": "Reading: Informational Text" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RI.K.1",
+      "grade": "K",
+      "strand": "Reading: Informational Text"
+    },
     "params": {
       "rounds": [
-        { "id": "bees", "band": 1, "fact": "Bees live in a hive. They make sweet honey.", "question": "Where do bees live?", "answer": "in a hive", "options": ["in a hive", "in a nest", "in a pond"] },
-        { "id": "frog", "band": 1, "fact": "A frog has long legs. It eats little bugs.", "question": "What does a frog eat?", "answer": "little bugs", "options": ["green leaves", "little bugs", "small fish"] },
-        { "id": "sun", "band": 1, "fact": "The sun gives us light. It shines in the day.", "question": "When does the sun shine?", "answer": "in the day", "options": ["in the dark", "in a cave", "in the day"] },
-        { "id": "penguin", "band": 2, "fact": "A penguin has black wings. It lives on cold ice.", "question": "Where does a penguin live?", "answer": "on cold ice", "options": ["on cold ice", "in a den", "on the warm sand"] },
-        { "id": "spider", "band": 2, "fact": "A spider spins a web. It has eight legs.", "question": "How many legs does a spider have?", "answer": "eight legs", "options": ["seven legs", "eight legs", "nine legs"] },
-        { "id": "tree", "band": 2, "fact": "A big tree grows tall. It gives us cool shade.", "question": "What does a tree give us?", "answer": "cool shade", "options": ["loud noise", "cold snow", "cool shade"] },
-        { "id": "cow", "band": 3, "fact": "A cow eats green grass. It gives us white milk.", "question": "What does a cow give us?", "answer": "white milk", "options": ["white milk", "brown eggs", "sweet jam"] },
-        { "id": "rain", "band": 3, "fact": "Rain falls from clouds. It makes the ground wet.", "question": "What does rain make wet?", "answer": "the ground", "options": ["the sky", "the warm sun", "the ground"] }
+        {
+          "id": "bees",
+          "band": 1,
+          "fact": "Bees live in a hive. They make sweet honey.",
+          "question": "Where do bees live?",
+          "answer": "in a hive",
+          "options": [
+            "in a hive",
+            "in a nest",
+            "in a pond"
+          ]
+        },
+        {
+          "id": "frog",
+          "band": 1,
+          "fact": "A frog has long legs. It eats little bugs.",
+          "question": "What does a frog eat?",
+          "answer": "little bugs",
+          "options": [
+            "green leaves",
+            "little bugs",
+            "small fish"
+          ]
+        },
+        {
+          "id": "sun",
+          "band": 1,
+          "fact": "The sun gives us light. It shines in the day.",
+          "question": "When does the sun shine?",
+          "answer": "in the day",
+          "options": [
+            "in the dark",
+            "in a cave",
+            "in the day"
+          ]
+        },
+        {
+          "id": "penguin",
+          "band": 2,
+          "fact": "A penguin has black wings. It lives on cold ice.",
+          "question": "Where does a penguin live?",
+          "answer": "on cold ice",
+          "options": [
+            "on cold ice",
+            "in a den",
+            "on the warm sand"
+          ]
+        },
+        {
+          "id": "spider",
+          "band": 2,
+          "fact": "A spider spins a web. It has eight legs.",
+          "question": "How many legs does a spider have?",
+          "answer": "eight legs",
+          "options": [
+            "seven legs",
+            "eight legs",
+            "nine legs"
+          ]
+        },
+        {
+          "id": "tree",
+          "band": 2,
+          "fact": "A big tree grows tall. It gives us cool shade.",
+          "question": "What does a tree give us?",
+          "answer": "cool shade",
+          "options": [
+            "loud noise",
+            "cold snow",
+            "cool shade"
+          ]
+        },
+        {
+          "id": "cow",
+          "band": 3,
+          "fact": "A cow eats green grass. It gives us white milk.",
+          "question": "What does a cow give us?",
+          "answer": "white milk",
+          "options": [
+            "white milk",
+            "brown eggs",
+            "sweet jam"
+          ]
+        },
+        {
+          "id": "rain",
+          "band": 3,
+          "fact": "Rain falls from clouds. It makes the ground wet.",
+          "question": "What does rain make wet?",
+          "answer": "the ground",
+          "options": [
+            "the sky",
+            "the warm sun",
+            "the ground"
+          ]
+        }
       ],
       "roundsL10n": {
         "de": [
-          { "id": "bees", "band": 1, "fact": "Bienen leben in einem Stock. Sie machen süßen Honig.", "question": "Wo leben die Bienen?", "answer": "in einem Stock", "options": ["in einem Stock", "in einem Nest", "in einem Teich"] },
-          { "id": "frog", "band": 1, "fact": "Ein Frosch hat lange Beine. Er frisst kleine Käfer.", "question": "Was frisst der Frosch?", "answer": "kleine Käfer", "options": ["grüne Blätter", "kleine Käfer", "kleine Fische"] },
-          { "id": "sun", "band": 1, "fact": "Die Sonne gibt uns Licht. Sie scheint am hellen Tag.", "question": "Wann scheint die Sonne?", "answer": "am hellen Tag", "options": ["in der Nacht", "in der Höhle", "am hellen Tag"] },
-          { "id": "penguin", "band": 2, "fact": "Ein Pinguin hat schwarze Flügel. Er lebt auf kaltem Eis.", "question": "Wo lebt der Pinguin?", "answer": "auf kaltem Eis", "options": ["auf kaltem Eis", "in einem Bau", "auf warmem Sand"] },
-          { "id": "spider", "band": 2, "fact": "Eine Spinne webt ein Netz. Sie hat acht Beine.", "question": "Wie viele Beine hat die Spinne?", "answer": "acht Beine", "options": ["sieben Beine", "acht Beine", "neun Beine"] },
-          { "id": "tree", "band": 2, "fact": "Ein großer Baum wächst hoch. Er gibt uns kühlen Schatten.", "question": "Was gibt uns der Baum?", "answer": "kühlen Schatten", "options": ["kühles Wasser", "kalten Schnee", "kühlen Schatten"] },
-          { "id": "cow", "band": 3, "fact": "Eine Kuh frisst grünes Gras. Sie gibt uns weiße Milch.", "question": "Was gibt uns die Kuh?", "answer": "weiße Milch", "options": ["weiße Milch", "braune Eier", "süße Marmelade"] },
-          { "id": "rain", "band": 3, "fact": "Regen fällt aus den Wolken. Er macht den Boden nass.", "question": "Was macht der Regen nass?", "answer": "den Boden", "options": ["den Himmel", "die heiße Luft", "den Boden"] }
+          {
+            "id": "bees",
+            "band": 1,
+            "fact": "Bienen leben in einem Stock. Sie machen süßen Honig.",
+            "question": "Wo leben die Bienen?",
+            "answer": "in einem Stock",
+            "options": [
+              "in einem Stock",
+              "in einem Nest",
+              "in einem Teich"
+            ]
+          },
+          {
+            "id": "frog",
+            "band": 1,
+            "fact": "Ein Frosch hat lange Beine. Er frisst kleine Käfer.",
+            "question": "Was frisst der Frosch?",
+            "answer": "kleine Käfer",
+            "options": [
+              "grüne Blätter",
+              "kleine Käfer",
+              "kleine Fische"
+            ]
+          },
+          {
+            "id": "sun",
+            "band": 1,
+            "fact": "Die Sonne gibt uns Licht. Sie scheint am hellen Tag.",
+            "question": "Wann scheint die Sonne?",
+            "answer": "am hellen Tag",
+            "options": [
+              "in der Nacht",
+              "in der Höhle",
+              "am hellen Tag"
+            ]
+          },
+          {
+            "id": "penguin",
+            "band": 2,
+            "fact": "Ein Pinguin hat schwarze Flügel. Er lebt auf kaltem Eis.",
+            "question": "Wo lebt der Pinguin?",
+            "answer": "auf kaltem Eis",
+            "options": [
+              "auf kaltem Eis",
+              "in einem Bau",
+              "auf warmem Sand"
+            ]
+          },
+          {
+            "id": "spider",
+            "band": 2,
+            "fact": "Eine Spinne webt ein Netz. Sie hat acht Beine.",
+            "question": "Wie viele Beine hat die Spinne?",
+            "answer": "acht Beine",
+            "options": [
+              "sieben Beine",
+              "acht Beine",
+              "neun Beine"
+            ]
+          },
+          {
+            "id": "tree",
+            "band": 2,
+            "fact": "Ein großer Baum wächst hoch. Er gibt uns kühlen Schatten.",
+            "question": "Was gibt uns der Baum?",
+            "answer": "kühlen Schatten",
+            "options": [
+              "kühles Wasser",
+              "kalten Schnee",
+              "kühlen Schatten"
+            ]
+          },
+          {
+            "id": "cow",
+            "band": 3,
+            "fact": "Eine Kuh frisst grünes Gras. Sie gibt uns weiße Milch.",
+            "question": "Was gibt uns die Kuh?",
+            "answer": "weiße Milch",
+            "options": [
+              "weiße Milch",
+              "braune Eier",
+              "süße Marmelade"
+            ]
+          },
+          {
+            "id": "rain",
+            "band": 3,
+            "fact": "Regen fällt aus den Wolken. Er macht den Boden nass.",
+            "question": "Was macht der Regen nass?",
+            "answer": "den Boden",
+            "options": [
+              "den Himmel",
+              "die heiße Luft",
+              "den Boden"
+            ]
+          }
         ],
         "fr": [
-          { "id": "bees", "band": 1, "fact": "Les abeilles vivent dans une ruche. Elles fabriquent du miel doré.", "question": "Où vivent les abeilles ?", "answer": "dans une ruche", "options": ["dans une ruche", "du miel doré", "dans un nid"] },
-          { "id": "spider", "band": 1, "fact": "L’araignée tisse une belle toile. Elle a huit pattes.", "question": "Combien de pattes a l’araignée ?", "answer": "huit pattes", "options": ["huit pattes", "une belle toile", "six pattes"] },
-          { "id": "cow", "band": 1, "fact": "La vache mange de l’herbe verte. Elle nous donne du lait blanc.", "question": "Que nous donne la vache ?", "answer": "du lait blanc", "options": ["du lait blanc", "de l’herbe verte", "de la laine douce"] },
-          { "id": "frog", "band": 2, "fact": "La grenouille a de longues pattes. Elle mange de petits insectes.", "question": "Que mange la grenouille ?", "answer": "de petits insectes", "options": ["de petits insectes", "de longues pattes", "des graines dures"] },
-          { "id": "penguin", "band": 2, "fact": "Le manchot a des ailes noires. Il vit sur la glace froide.", "question": "Où vit le manchot ?", "answer": "sur la glace froide", "options": ["sur la glace froide", "des ailes noires", "sur le sable chaud"] },
-          { "id": "sun", "band": 2, "fact": "Le soleil nous donne de la lumière. Il brille pendant le jour.", "question": "Quand brille le soleil ?", "answer": "pendant le jour", "options": ["pendant le jour", "de la lumière", "pendant la nuit"] },
-          { "id": "tree", "band": 3, "fact": "L’arbre grandit très haut. Il nous donne de l’ombre fraîche.", "question": "Que nous donne l’arbre ?", "answer": "de l’ombre fraîche", "options": ["de l’ombre fraîche", "très haut", "de l’eau claire"] },
-          { "id": "rain", "band": 3, "fact": "La pluie tombe des nuages gris. Elle mouille tout le sol.", "question": "Que mouille la pluie ?", "answer": "le sol", "options": ["le sol", "des nuages gris", "le ciel"] }
+          {
+            "id": "bees",
+            "band": 1,
+            "fact": "Les abeilles vivent dans une ruche. Elles fabriquent du miel doré.",
+            "question": "Où vivent les abeilles ?",
+            "answer": "dans une ruche",
+            "options": [
+              "dans une ruche",
+              "du miel doré",
+              "dans un nid"
+            ]
+          },
+          {
+            "id": "spider",
+            "band": 1,
+            "fact": "L’araignée tisse une belle toile. Elle a huit pattes.",
+            "question": "Combien de pattes a l’araignée ?",
+            "answer": "huit pattes",
+            "options": [
+              "huit pattes",
+              "une belle toile",
+              "six pattes"
+            ]
+          },
+          {
+            "id": "cow",
+            "band": 1,
+            "fact": "La vache mange de l’herbe verte. Elle nous donne du lait blanc.",
+            "question": "Que nous donne la vache ?",
+            "answer": "du lait blanc",
+            "options": [
+              "du lait blanc",
+              "de l’herbe verte",
+              "de la laine douce"
+            ]
+          },
+          {
+            "id": "frog",
+            "band": 2,
+            "fact": "La grenouille a de longues pattes. Elle mange de petits insectes.",
+            "question": "Que mange la grenouille ?",
+            "answer": "de petits insectes",
+            "options": [
+              "de petits insectes",
+              "de longues pattes",
+              "des graines dures"
+            ]
+          },
+          {
+            "id": "penguin",
+            "band": 2,
+            "fact": "Le manchot a des ailes noires. Il vit sur la glace froide.",
+            "question": "Où vit le manchot ?",
+            "answer": "sur la glace froide",
+            "options": [
+              "sur la glace froide",
+              "des ailes noires",
+              "sur le sable chaud"
+            ]
+          },
+          {
+            "id": "sun",
+            "band": 2,
+            "fact": "Le soleil nous donne de la lumière. Il brille pendant le jour.",
+            "question": "Quand brille le soleil ?",
+            "answer": "pendant le jour",
+            "options": [
+              "pendant le jour",
+              "de la lumière",
+              "pendant la nuit"
+            ]
+          },
+          {
+            "id": "tree",
+            "band": 3,
+            "fact": "L’arbre grandit très haut. Il nous donne de l’ombre fraîche.",
+            "question": "Que nous donne l’arbre ?",
+            "answer": "de l’ombre fraîche",
+            "options": [
+              "de l’ombre fraîche",
+              "très haut",
+              "de l’eau claire"
+            ]
+          },
+          {
+            "id": "rain",
+            "band": 3,
+            "fact": "La pluie tombe des nuages gris. Elle mouille tout le sol.",
+            "question": "Que mouille la pluie ?",
+            "answer": "le sol",
+            "options": [
+              "le sol",
+              "des nuages gris",
+              "le ciel"
+            ]
+          }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "atlas-fact-files", "de": "leseverstaendnis-sachtext-w-fragen-beantworten-klasse-1", "fr": "repondre-a-une-question-texte-documentaire-cp" },
-    "page_title": { "en": "Atlas's Fact Files — Find the Key Detail (Kindergarten)", "de": "Leseverständnis Klasse 1: Sachtexte lesen mit Atlas", "fr": "Les fiches d'Atlas — Lire un texte documentaire (CP)" },
-    "page_intro": { "en": "Atlas the armadillo keeps a file full of real facts! Read his two-sentence fact, then answer the question by tapping the key detail you found — who, what, where, or how many. A Kindergarten reading game about finding key details in an informational (fact) text, aligned to Common Core RI.K.1.", "de": "Leseverständnis für Klasse 1 spielerisch üben: Lies mit Atlas einen kurzen Sachtext und tippe die Antwort auf die W-Frage an. Kostenlos, interaktiv und sofort startklar!", "fr": "Avec Atlas le tatou, votre enfant écoute ou lit un tout petit texte documentaire, puis retrouve la réponse à une question posée juste en dessous. En douceur, il apprend à comprendre ce qu'il lit, à prélever une information dans le texte et à répondre à une question précise (Où ? Que ? Quand ? Combien ?). C'est gratuit, interactif, cela se joue directement dans le navigateur, sans minuteur, sans score et sans compte à créer." },
+    "slug": {
+      "en": "atlas-fact-files",
+      "de": "leseverstaendnis-sachtext-w-fragen-beantworten-klasse-1",
+      "fr": "repondre-a-une-question-texte-documentaire-cp"
+    },
+    "page_title": {
+      "en": "Atlas's Fact Files — Find the Key Detail (Kindergarten)",
+      "de": "Leseverstehen üben – Sachtexte lesen (Grundschule)",
+      "fr": "Les fiches d'Atlas — Lire un texte documentaire (CP)"
+    },
+    "page_intro": {
+      "en": "Atlas the armadillo keeps a file full of real facts! Read his two-sentence fact, then answer the question by tapping the key detail you found — who, what, where, or how many. A Kindergarten reading game about finding key details in an informational (fact) text, aligned to Common Core RI.K.1.",
+      "de": "Leseverstehen in der Grundschule: kurze Sachtexte lesen und wichtige Details finden. Kostenlos online üben, ohne Anmeldung – ab Klasse 1.",
+      "fr": "Avec Atlas le tatou, votre enfant écoute ou lit un tout petit texte documentaire, puis retrouve la réponse à une question posée juste en dessous. En douceur, il apprend à comprendre ce qu'il lit, à prélever une information dans le texte et à répondre à une question précise (Où ? Que ? Quand ? Combien ?). C'est gratuit, interactif, cela se joue directement dans le navigateur, sans minuteur, sans score et sans compte à créer."
+    },
     "kid_prompt_template": "Read the facts, then tap the answer to the question."
   }
 ]

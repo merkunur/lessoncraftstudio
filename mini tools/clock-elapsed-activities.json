@@ -3,19 +3,213 @@
     "id": "clock-elapsed.what-time.3-md-a-1",
     "tool": "clock-elapsed-activity",
     "task_template": "elapsed-time",
-    "alignment": { "framework": "CCSS", "code": "3.MD.A.1", "grade": "3", "strand": "Measurement & Data" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "3.MD.A.1",
+      "grade": "3",
+      "strand": "Measurement & Data"
+    },
     "theme": null,
     "params": {
       "rounds": [
-        { "id": "ce-300-30", "start": { "h": 3, "m": 0 }, "deltaMin": 30, "options": [ { "h": 3, "m": 30 }, { "h": 4, "m": 0 }, { "h": 3, "m": 15 } ] },
-        { "id": "ce-345-30", "start": { "h": 3, "m": 45 }, "deltaMin": 30, "options": [ { "h": 4, "m": 15 }, { "h": 4, "m": 45 }, { "h": 3, "m": 15 } ] },
-        { "id": "ce-720-15", "start": { "h": 7, "m": 20 }, "deltaMin": 15, "options": [ { "h": 7, "m": 35 }, { "h": 7, "m": 5 }, { "h": 8, "m": 35 } ] },
-        { "id": "ce-1050-20", "start": { "h": 10, "m": 50 }, "deltaMin": 20, "options": [ { "h": 11, "m": 10 }, { "h": 10, "m": 30 }, { "h": 11, "m": 30 } ] },
-        { "id": "ce-215-45", "start": { "h": 2, "m": 15 }, "deltaMin": 45, "options": [ { "h": 3, "m": 0 }, { "h": 2, "m": 45 }, { "h": 3, "m": 30 } ] },
-        { "id": "ce-510-40", "start": { "h": 5, "m": 10 }, "deltaMin": 40, "options": [ { "h": 5, "m": 50 }, { "h": 6, "m": 50 }, { "h": 5, "m": 30 } ] },
-        { "id": "ce-830-25", "start": { "h": 8, "m": 30 }, "deltaMin": 25, "options": [ { "h": 8, "m": 55 }, { "h": 9, "m": 5 }, { "h": 8, "m": 5 } ] },
-        { "id": "ce-1140-30", "start": { "h": 11, "m": 40 }, "deltaMin": 30, "options": [ { "h": 12, "m": 10 }, { "h": 11, "m": 10 }, { "h": 12, "m": 40 } ] },
-        { "id": "ce-105-50", "start": { "h": 1, "m": 5 }, "deltaMin": 50, "options": [ { "h": 1, "m": 55 }, { "h": 2, "m": 55 }, { "h": 1, "m": 15 } ] }
+        {
+          "id": "ce-300-30",
+          "start": {
+            "h": 3,
+            "m": 0
+          },
+          "deltaMin": 30,
+          "options": [
+            {
+              "h": 3,
+              "m": 30
+            },
+            {
+              "h": 4,
+              "m": 0
+            },
+            {
+              "h": 3,
+              "m": 15
+            }
+          ]
+        },
+        {
+          "id": "ce-345-30",
+          "start": {
+            "h": 3,
+            "m": 45
+          },
+          "deltaMin": 30,
+          "options": [
+            {
+              "h": 4,
+              "m": 15
+            },
+            {
+              "h": 4,
+              "m": 45
+            },
+            {
+              "h": 3,
+              "m": 15
+            }
+          ]
+        },
+        {
+          "id": "ce-720-15",
+          "start": {
+            "h": 7,
+            "m": 20
+          },
+          "deltaMin": 15,
+          "options": [
+            {
+              "h": 7,
+              "m": 35
+            },
+            {
+              "h": 7,
+              "m": 5
+            },
+            {
+              "h": 8,
+              "m": 35
+            }
+          ]
+        },
+        {
+          "id": "ce-1050-20",
+          "start": {
+            "h": 10,
+            "m": 50
+          },
+          "deltaMin": 20,
+          "options": [
+            {
+              "h": 11,
+              "m": 10
+            },
+            {
+              "h": 10,
+              "m": 30
+            },
+            {
+              "h": 11,
+              "m": 30
+            }
+          ]
+        },
+        {
+          "id": "ce-215-45",
+          "start": {
+            "h": 2,
+            "m": 15
+          },
+          "deltaMin": 45,
+          "options": [
+            {
+              "h": 3,
+              "m": 0
+            },
+            {
+              "h": 2,
+              "m": 45
+            },
+            {
+              "h": 3,
+              "m": 30
+            }
+          ]
+        },
+        {
+          "id": "ce-510-40",
+          "start": {
+            "h": 5,
+            "m": 10
+          },
+          "deltaMin": 40,
+          "options": [
+            {
+              "h": 5,
+              "m": 50
+            },
+            {
+              "h": 6,
+              "m": 50
+            },
+            {
+              "h": 5,
+              "m": 30
+            }
+          ]
+        },
+        {
+          "id": "ce-830-25",
+          "start": {
+            "h": 8,
+            "m": 30
+          },
+          "deltaMin": 25,
+          "options": [
+            {
+              "h": 8,
+              "m": 55
+            },
+            {
+              "h": 9,
+              "m": 5
+            },
+            {
+              "h": 8,
+              "m": 5
+            }
+          ]
+        },
+        {
+          "id": "ce-1140-30",
+          "start": {
+            "h": 11,
+            "m": 40
+          },
+          "deltaMin": 30,
+          "options": [
+            {
+              "h": 12,
+              "m": 10
+            },
+            {
+              "h": 11,
+              "m": 10
+            },
+            {
+              "h": 12,
+              "m": 40
+            }
+          ]
+        },
+        {
+          "id": "ce-105-50",
+          "start": {
+            "h": 1,
+            "m": 5
+          },
+          "deltaMin": 50,
+          "options": [
+            {
+              "h": 1,
+              "m": 55
+            },
+            {
+              "h": 2,
+              "m": 55
+            },
+            {
+              "h": 1,
+              "m": 15
+            }
+          ]
+        }
       ]
     },
     "slug": {
@@ -25,12 +219,12 @@
     },
     "page_title": {
       "en": "Sprocket's Clock — Elapsed Time: What Time Will It Be? (Grade 3)",
-      "de": "Zeitspannen berechnen – Uhrzeit, Klasse 3 | Sprockets Uhr",
+      "de": "Zeitpunkt und Zeitspanne – Zeitspannen berechnen (Klasse 3)",
       "fr": "L'horloge de Sprocket : calculer une durée — quelle heure sera-t-il ? – CE2"
     },
     "page_intro": {
       "en": "A free interactive Grade 3 time activity: read the start time on the clock, then count on the minutes to find what time it will be. Children solve elapsed-time problems like 'it is 3:00 — what time will it be in 30 minutes?', including times that cross the next hour. Sprocket the rooster cheers them on. Common Core 3.MD.A.1.",
-      "de": "Wie spät ist es in 30 Minuten? Lies die Uhr ab, zähle die Minuten weiter und finde die Endzeit. Kostenlose, interaktive Übung für Klasse 3 – jetzt üben!",
+      "de": "Zeitpunkt und Zeitspanne in Klasse 3: Zeitspannen an der Uhr berechnen – Schritt für Schritt an Sprockets Uhr. Kostenlos online, ohne Anmeldung.",
       "fr": "Un jeu de maths CE2, gratuit et interactif : Sprocket le coq montre une horloge, et ton enfant lit l'heure de départ puis compte les minutes pour trouver l'heure d'arrivée parmi trois horloges numériques. L'enfant apprend à calculer une durée sur l'horloge — un premier pas vers les problèmes de durées. Sans minuteur, sans points, au rythme de l'enfant."
     },
     "kid_prompt_template": "clock-elapsed"
@@ -39,19 +233,213 @@
     "id": "clock-elapsed.add-subtract.3-md-a-1",
     "tool": "clock-elapsed-activity",
     "task_template": "elapsed-time",
-    "alignment": { "framework": "CCSS", "code": "3.MD.A.1", "grade": "3", "strand": "Measurement & Data" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "3.MD.A.1",
+      "grade": "3",
+      "strand": "Measurement & Data"
+    },
     "theme": null,
     "params": {
       "rounds": [
-        { "id": "as-300a30", "start": { "h": 3, "m": 0 }, "deltaMin": 30, "options": [ { "h": 3, "m": 30 }, { "h": 2, "m": 30 }, { "h": 4, "m": 0 } ] },
-        { "id": "as-330s30", "start": { "h": 3, "m": 30 }, "deltaMin": -30, "options": [ { "h": 3, "m": 0 }, { "h": 4, "m": 0 }, { "h": 2, "m": 30 } ] },
-        { "id": "as-720a15", "start": { "h": 7, "m": 20 }, "deltaMin": 15, "options": [ { "h": 7, "m": 35 }, { "h": 7, "m": 5 }, { "h": 7, "m": 50 } ] },
-        { "id": "as-1210s20", "start": { "h": 12, "m": 10 }, "deltaMin": -20, "options": [ { "h": 11, "m": 50 }, { "h": 12, "m": 30 }, { "h": 11, "m": 10 } ] },
-        { "id": "as-215a45", "start": { "h": 2, "m": 15 }, "deltaMin": 45, "options": [ { "h": 3, "m": 0 }, { "h": 1, "m": 30 }, { "h": 2, "m": 45 } ] },
-        { "id": "as-905s25", "start": { "h": 9, "m": 5 }, "deltaMin": -25, "options": [ { "h": 8, "m": 40 }, { "h": 9, "m": 30 }, { "h": 8, "m": 20 } ] },
-        { "id": "as-510a40", "start": { "h": 5, "m": 10 }, "deltaMin": 40, "options": [ { "h": 5, "m": 50 }, { "h": 4, "m": 30 }, { "h": 6, "m": 10 } ] },
-        { "id": "as-105s10", "start": { "h": 1, "m": 5 }, "deltaMin": -10, "options": [ { "h": 12, "m": 55 }, { "h": 1, "m": 15 }, { "h": 12, "m": 45 } ] },
-        { "id": "as-840s30", "start": { "h": 8, "m": 40 }, "deltaMin": -30, "options": [ { "h": 8, "m": 10 }, { "h": 9, "m": 10 }, { "h": 7, "m": 40 } ] }
+        {
+          "id": "as-300a30",
+          "start": {
+            "h": 3,
+            "m": 0
+          },
+          "deltaMin": 30,
+          "options": [
+            {
+              "h": 3,
+              "m": 30
+            },
+            {
+              "h": 2,
+              "m": 30
+            },
+            {
+              "h": 4,
+              "m": 0
+            }
+          ]
+        },
+        {
+          "id": "as-330s30",
+          "start": {
+            "h": 3,
+            "m": 30
+          },
+          "deltaMin": -30,
+          "options": [
+            {
+              "h": 3,
+              "m": 0
+            },
+            {
+              "h": 4,
+              "m": 0
+            },
+            {
+              "h": 2,
+              "m": 30
+            }
+          ]
+        },
+        {
+          "id": "as-720a15",
+          "start": {
+            "h": 7,
+            "m": 20
+          },
+          "deltaMin": 15,
+          "options": [
+            {
+              "h": 7,
+              "m": 35
+            },
+            {
+              "h": 7,
+              "m": 5
+            },
+            {
+              "h": 7,
+              "m": 50
+            }
+          ]
+        },
+        {
+          "id": "as-1210s20",
+          "start": {
+            "h": 12,
+            "m": 10
+          },
+          "deltaMin": -20,
+          "options": [
+            {
+              "h": 11,
+              "m": 50
+            },
+            {
+              "h": 12,
+              "m": 30
+            },
+            {
+              "h": 11,
+              "m": 10
+            }
+          ]
+        },
+        {
+          "id": "as-215a45",
+          "start": {
+            "h": 2,
+            "m": 15
+          },
+          "deltaMin": 45,
+          "options": [
+            {
+              "h": 3,
+              "m": 0
+            },
+            {
+              "h": 1,
+              "m": 30
+            },
+            {
+              "h": 2,
+              "m": 45
+            }
+          ]
+        },
+        {
+          "id": "as-905s25",
+          "start": {
+            "h": 9,
+            "m": 5
+          },
+          "deltaMin": -25,
+          "options": [
+            {
+              "h": 8,
+              "m": 40
+            },
+            {
+              "h": 9,
+              "m": 30
+            },
+            {
+              "h": 8,
+              "m": 20
+            }
+          ]
+        },
+        {
+          "id": "as-510a40",
+          "start": {
+            "h": 5,
+            "m": 10
+          },
+          "deltaMin": 40,
+          "options": [
+            {
+              "h": 5,
+              "m": 50
+            },
+            {
+              "h": 4,
+              "m": 30
+            },
+            {
+              "h": 6,
+              "m": 10
+            }
+          ]
+        },
+        {
+          "id": "as-105s10",
+          "start": {
+            "h": 1,
+            "m": 5
+          },
+          "deltaMin": -10,
+          "options": [
+            {
+              "h": 12,
+              "m": 55
+            },
+            {
+              "h": 1,
+              "m": 15
+            },
+            {
+              "h": 12,
+              "m": 45
+            }
+          ]
+        },
+        {
+          "id": "as-840s30",
+          "start": {
+            "h": 8,
+            "m": 40
+          },
+          "deltaMin": -30,
+          "options": [
+            {
+              "h": 8,
+              "m": 10
+            },
+            {
+              "h": 9,
+              "m": 10
+            },
+            {
+              "h": 7,
+              "m": 40
+            }
+          ]
+        }
       ]
     },
     "slug": {
@@ -61,13 +449,13 @@
     },
     "page_title": {
       "en": "Sprocket's Clock — Time Addition & Subtraction (Grade 3)",
-      "de": "Zeit addieren & subtrahieren – Minuten, Klasse 3 | Sprocket",
+      "de": "Rechnen mit Uhrzeiten – Zeit addieren und subtrahieren (Klasse 3)",
       "fr": "L'horloge de Sprocket : ajouter et retirer des minutes — calculer une durée – CE2"
     },
     "page_intro": {
       "en": "A free interactive Grade 3 time activity: add and subtract minutes to a clock time. Children read the start time, then count on ('what time will it be in 30 minutes?') or count back ('what time was it 30 minutes ago?'), including times that cross the hour. Sprocket the rooster cheers them on. Common Core 3.MD.A.1.",
       "fr": "Un jeu de maths CE2, gratuit et interactif : Sprocket le coq montre une horloge, et ton enfant calcule une durée en avançant ou en reculant les minutes : quelle heure sera-t-il dans 30 minutes, ou quelle heure était-il il y a 30 minutes ? Il lit l'heure de départ puis choisit la bonne heure parmi trois horloges numériques, même quand on change d'heure. Sans minuteur, sans points, au rythme de l'enfant.",
-      "de": "Minuten zur Uhrzeit dazurechnen und wieder abziehen: Wie spät ist es in oder vor N Minuten? Kostenlose, interaktive Uhrzeit-Übung für Klasse 3 – los geht's!"
+      "de": "Rechnen mit Uhrzeiten: Minuten addieren und subtrahieren – Klasse 3. Kostenlos online üben, ohne Anmeldung – Zeitspannen sicher berechnen."
     },
     "kid_prompt_template": "clock-elapsed"
   }

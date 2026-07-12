@@ -3,58 +3,433 @@
     "id": "stretch-giraffe.long-short-vowel.rf-1-2-a",
     "tool": "stretch-giraffe-activity",
     "task_template": "long-short-vowel",
-    "alignment": { "framework": "CCSS", "code": "RF.1.2.a", "grade": "1", "strand": "Reading: Foundational Skills" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.1.2.a",
+      "grade": "1",
+      "strand": "Reading: Foundational Skills"
+    },
     "params": {
       "rounds": [
-        { "id": "v-long-cake", "band": 1, "ask": "long",
-          "choices": [ { "noun": "cake", "themeDir": "4th of July", "vowel": "long" }, { "noun": "cat", "themeDir": "animals", "vowel": "short" }, { "noun": "pig", "themeDir": "animals", "vowel": "short" } ] },
-        { "id": "v-short-fish", "band": 1, "ask": "short",
-          "choices": [ { "noun": "bee", "themeDir": "farm animals", "vowel": "long" }, { "noun": "fish", "themeDir": "animals", "vowel": "short" }, { "noun": "pie", "themeDir": "At the Supermarket", "vowel": "long" } ] },
-        { "id": "v-long-bee", "band": 1, "ask": "long",
-          "choices": [ { "noun": "duck", "themeDir": "animals", "vowel": "short" }, { "noun": "sock", "themeDir": "accessories", "vowel": "short" }, { "noun": "bee", "themeDir": "farm animals", "vowel": "long" } ] },
-        { "id": "v-short-sun", "band": 2, "ask": "short",
-          "choices": [ { "noun": "sun", "themeDir": "beach", "vowel": "short" }, { "noun": "kite", "themeDir": "beach", "vowel": "long" }, { "noun": "rope", "themeDir": "camping", "vowel": "long" } ] },
-        { "id": "v-long-rope", "band": 2, "ask": "long",
-          "choices": [ { "noun": "frog", "themeDir": "camping", "vowel": "short" }, { "noun": "rope", "themeDir": "camping", "vowel": "long" }, { "noun": "duck", "themeDir": "animals", "vowel": "short" } ] },
-        { "id": "v-short-crab", "band": 2, "ask": "short",
-          "choices": [ { "noun": "rain", "themeDir": "spring", "vowel": "long" }, { "noun": "nose", "themeDir": "body parts", "vowel": "long" }, { "noun": "crab", "themeDir": "beach", "vowel": "short" } ] },
-        { "id": "v-long-pie", "band": 3, "ask": "long",
-          "choices": [ { "noun": "pie", "themeDir": "At the Supermarket", "vowel": "long" }, { "noun": "sun", "themeDir": "beach", "vowel": "short" }, { "noun": "hand", "themeDir": "body parts", "vowel": "short" } ] },
-        { "id": "v-short-hat", "band": 3, "ask": "short",
-          "choices": [ { "noun": "kite", "themeDir": "beach", "vowel": "long" }, { "noun": "hat", "themeDir": "accessories", "vowel": "short" }, { "noun": "leaf", "themeDir": "miscellaneous", "vowel": "long" } ] }
+        {
+          "id": "v-long-cake",
+          "band": 1,
+          "ask": "long",
+          "choices": [
+            {
+              "noun": "cake",
+              "themeDir": "4th of July",
+              "vowel": "long"
+            },
+            {
+              "noun": "cat",
+              "themeDir": "animals",
+              "vowel": "short"
+            },
+            {
+              "noun": "pig",
+              "themeDir": "animals",
+              "vowel": "short"
+            }
+          ]
+        },
+        {
+          "id": "v-short-fish",
+          "band": 1,
+          "ask": "short",
+          "choices": [
+            {
+              "noun": "bee",
+              "themeDir": "farm animals",
+              "vowel": "long"
+            },
+            {
+              "noun": "fish",
+              "themeDir": "animals",
+              "vowel": "short"
+            },
+            {
+              "noun": "pie",
+              "themeDir": "At the Supermarket",
+              "vowel": "long"
+            }
+          ]
+        },
+        {
+          "id": "v-long-bee",
+          "band": 1,
+          "ask": "long",
+          "choices": [
+            {
+              "noun": "duck",
+              "themeDir": "animals",
+              "vowel": "short"
+            },
+            {
+              "noun": "sock",
+              "themeDir": "accessories",
+              "vowel": "short"
+            },
+            {
+              "noun": "bee",
+              "themeDir": "farm animals",
+              "vowel": "long"
+            }
+          ]
+        },
+        {
+          "id": "v-short-sun",
+          "band": 2,
+          "ask": "short",
+          "choices": [
+            {
+              "noun": "sun",
+              "themeDir": "beach",
+              "vowel": "short"
+            },
+            {
+              "noun": "kite",
+              "themeDir": "beach",
+              "vowel": "long"
+            },
+            {
+              "noun": "rope",
+              "themeDir": "camping",
+              "vowel": "long"
+            }
+          ]
+        },
+        {
+          "id": "v-long-rope",
+          "band": 2,
+          "ask": "long",
+          "choices": [
+            {
+              "noun": "frog",
+              "themeDir": "camping",
+              "vowel": "short"
+            },
+            {
+              "noun": "rope",
+              "themeDir": "camping",
+              "vowel": "long"
+            },
+            {
+              "noun": "duck",
+              "themeDir": "animals",
+              "vowel": "short"
+            }
+          ]
+        },
+        {
+          "id": "v-short-crab",
+          "band": 2,
+          "ask": "short",
+          "choices": [
+            {
+              "noun": "rain",
+              "themeDir": "spring",
+              "vowel": "long"
+            },
+            {
+              "noun": "nose",
+              "themeDir": "body parts",
+              "vowel": "long"
+            },
+            {
+              "noun": "crab",
+              "themeDir": "beach",
+              "vowel": "short"
+            }
+          ]
+        },
+        {
+          "id": "v-long-pie",
+          "band": 3,
+          "ask": "long",
+          "choices": [
+            {
+              "noun": "pie",
+              "themeDir": "At the Supermarket",
+              "vowel": "long"
+            },
+            {
+              "noun": "sun",
+              "themeDir": "beach",
+              "vowel": "short"
+            },
+            {
+              "noun": "hand",
+              "themeDir": "body parts",
+              "vowel": "short"
+            }
+          ]
+        },
+        {
+          "id": "v-short-hat",
+          "band": 3,
+          "ask": "short",
+          "choices": [
+            {
+              "noun": "kite",
+              "themeDir": "beach",
+              "vowel": "long"
+            },
+            {
+              "noun": "hat",
+              "themeDir": "accessories",
+              "vowel": "short"
+            },
+            {
+              "noun": "leaf",
+              "themeDir": "miscellaneous",
+              "vowel": "long"
+            }
+          ]
+        }
       ],
       "roundsL10n": {
         "de": [
-          { "id": "vgl-de-boot", "band": 1, "ask": "long",
-            "choices": [ { "noun": "boat", "themeDir": "vehicles", "word": "Boot", "vowel": "long" }, { "noun": "ball", "themeDir": "toys", "word": "Ball", "vowel": "short" }, { "noun": "dog", "themeDir": "pets", "word": "Hund", "vowel": "short" } ] },
-          { "id": "vgl-de-fisch", "band": 1, "ask": "short",
-            "choices": [ { "noun": "fish", "themeDir": "ocean life", "word": "Fisch", "vowel": "short" }, { "noun": "deer", "themeDir": "forest creatures", "word": "Reh", "vowel": "long" }, { "noun": "cow", "themeDir": "farm animals", "word": "Kuh", "vowel": "long" } ] },
-          { "id": "vgl-de-mond", "band": 1, "ask": "long",
-            "choices": [ { "noun": "moon", "themeDir": "space", "word": "Mond", "vowel": "long" }, { "noun": "sun", "themeDir": "weather", "word": "Sonne", "vowel": "short" }, { "noun": "duck", "themeDir": "farm animals", "word": "Ente", "vowel": "short" } ] },
-          { "id": "vgl-de-nest", "band": 2, "ask": "short",
-            "choices": [ { "noun": "nest", "themeDir": "spring", "word": "Nest", "vowel": "short" }, { "noun": "nose", "themeDir": "body parts", "word": "Nase", "vowel": "long" }, { "noun": "hedgehog", "themeDir": "forest creatures", "word": "Igel", "vowel": "long" } ] },
-          { "id": "vgl-de-rose", "band": 2, "ask": "long",
-            "choices": [ { "noun": "rose", "themeDir": "flowers", "word": "Rose", "vowel": "long" }, { "noun": "frog", "themeDir": "reptiles and Amphibians", "word": "Frosch", "vowel": "short" }, { "noun": "leaf", "themeDir": "spring", "word": "Blatt", "vowel": "short" } ] },
-          { "id": "vgl-de-katze", "band": 2, "ask": "short",
-            "choices": [ { "noun": "cat", "themeDir": "pets", "word": "Katze", "vowel": "short" }, { "noun": "vase", "themeDir": "around the house", "word": "Vase", "vowel": "long" }, { "noun": "sheep", "themeDir": "farm animals", "word": "Schaf", "vowel": "long" } ] },
-          { "id": "vgl-de-ofen", "band": 3, "ask": "long",
-            "choices": [ { "noun": "oven", "themeDir": "kitchen tools", "word": "Ofen", "vowel": "long" }, { "noun": "sun", "themeDir": "weather", "word": "Sonne", "vowel": "short" }, { "noun": "frog", "themeDir": "reptiles and Amphibians", "word": "Frosch", "vowel": "short" } ] },
-          { "id": "vgl-de-hund", "band": 3, "ask": "short",
-            "choices": [ { "noun": "dog", "themeDir": "pets", "word": "Hund", "vowel": "short" }, { "noun": "hat", "themeDir": "clothing", "word": "Hut", "vowel": "long" }, { "noun": "foot", "themeDir": "body parts", "word": "Fuß", "vowel": "long" } ] },
-          { "id": "vgl-de-zahn", "band": 3, "ask": "long",
-            "choices": [ { "noun": "tooth", "themeDir": "body parts", "word": "Zahn", "vowel": "long" }, { "noun": "comb", "themeDir": "around the house", "word": "Kamm", "vowel": "short" }, { "noun": "hand", "themeDir": "body parts", "word": "Hand", "vowel": "short" } ] }
+          {
+            "id": "vgl-de-boot",
+            "band": 1,
+            "ask": "long",
+            "choices": [
+              {
+                "noun": "boat",
+                "themeDir": "vehicles",
+                "word": "Boot",
+                "vowel": "long"
+              },
+              {
+                "noun": "ball",
+                "themeDir": "toys",
+                "word": "Ball",
+                "vowel": "short"
+              },
+              {
+                "noun": "dog",
+                "themeDir": "pets",
+                "word": "Hund",
+                "vowel": "short"
+              }
+            ]
+          },
+          {
+            "id": "vgl-de-fisch",
+            "band": 1,
+            "ask": "short",
+            "choices": [
+              {
+                "noun": "fish",
+                "themeDir": "ocean life",
+                "word": "Fisch",
+                "vowel": "short"
+              },
+              {
+                "noun": "deer",
+                "themeDir": "forest creatures",
+                "word": "Reh",
+                "vowel": "long"
+              },
+              {
+                "noun": "cow",
+                "themeDir": "farm animals",
+                "word": "Kuh",
+                "vowel": "long"
+              }
+            ]
+          },
+          {
+            "id": "vgl-de-mond",
+            "band": 1,
+            "ask": "long",
+            "choices": [
+              {
+                "noun": "moon",
+                "themeDir": "space",
+                "word": "Mond",
+                "vowel": "long"
+              },
+              {
+                "noun": "sun",
+                "themeDir": "weather",
+                "word": "Sonne",
+                "vowel": "short"
+              },
+              {
+                "noun": "duck",
+                "themeDir": "farm animals",
+                "word": "Ente",
+                "vowel": "short"
+              }
+            ]
+          },
+          {
+            "id": "vgl-de-nest",
+            "band": 2,
+            "ask": "short",
+            "choices": [
+              {
+                "noun": "nest",
+                "themeDir": "spring",
+                "word": "Nest",
+                "vowel": "short"
+              },
+              {
+                "noun": "nose",
+                "themeDir": "body parts",
+                "word": "Nase",
+                "vowel": "long"
+              },
+              {
+                "noun": "hedgehog",
+                "themeDir": "forest creatures",
+                "word": "Igel",
+                "vowel": "long"
+              }
+            ]
+          },
+          {
+            "id": "vgl-de-rose",
+            "band": 2,
+            "ask": "long",
+            "choices": [
+              {
+                "noun": "rose",
+                "themeDir": "flowers",
+                "word": "Rose",
+                "vowel": "long"
+              },
+              {
+                "noun": "frog",
+                "themeDir": "reptiles and Amphibians",
+                "word": "Frosch",
+                "vowel": "short"
+              },
+              {
+                "noun": "leaf",
+                "themeDir": "spring",
+                "word": "Blatt",
+                "vowel": "short"
+              }
+            ]
+          },
+          {
+            "id": "vgl-de-katze",
+            "band": 2,
+            "ask": "short",
+            "choices": [
+              {
+                "noun": "cat",
+                "themeDir": "pets",
+                "word": "Katze",
+                "vowel": "short"
+              },
+              {
+                "noun": "vase",
+                "themeDir": "around the house",
+                "word": "Vase",
+                "vowel": "long"
+              },
+              {
+                "noun": "sheep",
+                "themeDir": "farm animals",
+                "word": "Schaf",
+                "vowel": "long"
+              }
+            ]
+          },
+          {
+            "id": "vgl-de-ofen",
+            "band": 3,
+            "ask": "long",
+            "choices": [
+              {
+                "noun": "oven",
+                "themeDir": "kitchen tools",
+                "word": "Ofen",
+                "vowel": "long"
+              },
+              {
+                "noun": "sun",
+                "themeDir": "weather",
+                "word": "Sonne",
+                "vowel": "short"
+              },
+              {
+                "noun": "frog",
+                "themeDir": "reptiles and Amphibians",
+                "word": "Frosch",
+                "vowel": "short"
+              }
+            ]
+          },
+          {
+            "id": "vgl-de-hund",
+            "band": 3,
+            "ask": "short",
+            "choices": [
+              {
+                "noun": "dog",
+                "themeDir": "pets",
+                "word": "Hund",
+                "vowel": "short"
+              },
+              {
+                "noun": "hat",
+                "themeDir": "clothing",
+                "word": "Hut",
+                "vowel": "long"
+              },
+              {
+                "noun": "foot",
+                "themeDir": "body parts",
+                "word": "Fuß",
+                "vowel": "long"
+              }
+            ]
+          },
+          {
+            "id": "vgl-de-zahn",
+            "band": 3,
+            "ask": "long",
+            "choices": [
+              {
+                "noun": "tooth",
+                "themeDir": "body parts",
+                "word": "Zahn",
+                "vowel": "long"
+              },
+              {
+                "noun": "comb",
+                "themeDir": "around the house",
+                "word": "Kamm",
+                "vowel": "short"
+              },
+              {
+                "noun": "hand",
+                "themeDir": "body parts",
+                "word": "Hand",
+                "vowel": "short"
+              }
+            ]
+          }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "stretch-giraffe", "de": "langer-kurzer-vokal-hoeren-klasse-1" },
+    "slug": {
+      "en": "stretch-giraffe",
+      "de": "langer-kurzer-vokal-hoeren-klasse-1"
+    },
     "page_title": {
       "en": "Stretch the Giraffe — Long & Short Vowel Sounds (Grade 1)",
-      "de": "Gina die Giraffe — langer & kurzer Vokal hören (Klasse 1)"
+      "de": "Laute erkennen – langer oder kurzer Vokal? (Klasse 1)"
     },
     "page_intro": {
       "en": "Headphones recommended! Tap a picture to HEAR its name. Stretch the giraffe loves long, stretched-out vowel sounds — the ones that say their name, like the a in cake or the e in bee. Listen, then tap the word with the long (or short) vowel sound. A listening game for Grade 1, aligned to Common Core RF.1.2.a: distinguish long from short vowel sounds.",
-      "de": "Bei Gina der Giraffe hört dein Kind drei Wörter und tippt das eine an, in dem der Vokal lang und gedehnt klingt – oder ganz kurz und knapp. Gina hat einen langen Hals und liebt die langen, gedehnten Vokale, deshalb hört sie immer ganz genau hin. Ganz ohne Lesen, nur mit den Ohren – kostenlos, ohne Zeitdruck und ohne Punkte. Kopfhörer empfohlen."
+      "de": "Laute erkennen mit Gina der Giraffe: hören, ob der Vokal lang oder kurz klingt. Kostenlos online üben, ohne Anmeldung – ideal für Klasse 1."
     },
     "kid_prompt_template": "Tap to hear — then find the vowel sound!"
   }

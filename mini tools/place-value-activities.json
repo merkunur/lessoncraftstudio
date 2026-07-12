@@ -9,7 +9,28 @@
       "grade": "1",
       "strand": "Number and Operations in Base Ten"
     },
-    "params": { "targets": [12, 13, 16, 19, 23, 29, 30, 35, 47, 50, 58, 64, 70, 72, 86, 89, 90, 95] },
+    "params": {
+      "targets": [
+        12,
+        13,
+        16,
+        19,
+        23,
+        29,
+        30,
+        35,
+        47,
+        50,
+        58,
+        64,
+        70,
+        72,
+        86,
+        89,
+        90,
+        95
+      ]
+    },
     "theme": null,
     "slug": {
       "en": "tens-and-ones",
@@ -62,7 +83,28 @@
       "grade": "2",
       "strand": "Number and Operations in Base Ten"
     },
-    "params": { "targets": [108, 160, 200, 247, 305, 408, 420, 463, 500, 583, 604, 670, 702, 730, 836, 850, 906, 974] },
+    "params": {
+      "targets": [
+        108,
+        160,
+        200,
+        247,
+        305,
+        408,
+        420,
+        463,
+        500,
+        583,
+        604,
+        670,
+        702,
+        730,
+        836,
+        850,
+        906,
+        974
+      ]
+    },
     "theme": null,
     "slug": {
       "en": "hundreds-tens-and-ones",
@@ -79,7 +121,7 @@
     },
     "page_title": {
       "en": "Hundreds, Tens, and Ones",
-      "de": "Hunderter, Zehner und Einer",
+      "de": "Stellenwerttabelle üben – Hunderter, Zehner, Einer (Klasse 2)",
       "es": "Centenas, decenas y unidades",
       "it": "Centinaia, decine e unità",
       "fr": "Centaines, dizaines et unités",
@@ -92,7 +134,7 @@
     },
     "page_intro": {
       "en": "Build each three-digit number using hundreds, tens, and ones. Tap to add a hundreds-flat, a ten-rod, or a unit-cube — and watch the number grow.",
-      "de": "Baue jede dreistellige Zahl mit Hundertern, Zehnern und Einern. Tippe, um eine Hunderterplatte, einen Zehnerstab oder einen Einerwürfel hinzuzufügen — und sieh zu, wie die Zahl wächst.",
+      "de": "Stellenwerttabelle üben für Klasse 2: Hunderter, Zehner und Einer legen und ablesen. Kostenlos online, ohne Anmeldung – sofort loslegen.",
       "es": "Construye cada número de tres dígitos usando centenas, decenas y unidades. Toca para añadir una placa de cien, una barra de diez o un cubo de uno — y mira cómo crece el número.",
       "it": "Costruisci ogni numero di tre cifre usando centinaia, decine e unità. Tocca per aggiungere una piastra da cento, una barra di dieci o un cubo da uno — e guarda crescere il numero.",
       "fr": "Construis chaque nombre à trois chiffres avec des centaines, des dizaines et des unités. Touche pour ajouter une plaque de cent, une barre de dix ou un cube unité — et regarde le nombre grandir.",
@@ -115,7 +157,28 @@
       "grade": "2",
       "strand": "Number and Operations in Base Ten"
     },
-    "params": { "targets": [108, 160, 200, 247, 305, 408, 420, 463, 500, 583, 604, 670, 702, 730, 836, 850, 906, 974] },
+    "params": {
+      "targets": [
+        108,
+        160,
+        200,
+        247,
+        305,
+        408,
+        420,
+        463,
+        500,
+        583,
+        604,
+        670,
+        702,
+        730,
+        836,
+        850,
+        906,
+        974
+      ]
+    },
     "theme": null,
     "slug": {
       "en": "expanded-form",

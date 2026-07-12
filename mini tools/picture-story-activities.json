@@ -3,107 +3,655 @@
     "id": "picture-story.read.rl-k-1",
     "tool": "picture-story-activity",
     "task_template": "picture-story",
-    "alignment": { "framework": "CCSS", "code": "RL.K.1", "grade": "K", "strand": "Reading: Literature" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RL.K.1",
+      "grade": "K",
+      "strand": "Reading: Literature"
+    },
     "theme": null,
     "params": {
       "stories": {
-        "mitten": { "title": "The Lost Mitten", "panels": [
-          { "caption": "Bo the bunny hopped in the snow.", "glyphs": ["bunny", "snow"] },
-          { "caption": "A red mitten slipped off by the tree.", "glyphs": ["tree", "mitten"] },
-          { "caption": "A bird found it and called Bo back.", "glyphs": ["bird", "mitten"] }
-        ] },
-        "carrot": { "title": "The Stuck Carrot", "panels": [
-          { "caption": "Millie the mouse found a giant carrot.", "glyphs": ["mouse", "carrot"] },
-          { "caption": "She pulled and pulled, but it was stuck.", "glyphs": ["mouse", "carrot"] },
-          { "caption": "Her friend pushed, and out it popped!", "glyphs": ["friend", "carrot"] }
-        ] },
-        "picnic": { "title": "The Rainy Picnic", "panels": [
-          { "caption": "Two friends sat down for a picnic.", "glyphs": ["friend", "basket"] },
-          { "caption": "Then dark clouds came and it rained.", "glyphs": ["rain"] },
-          { "caption": "They ate under a big umbrella, still happy.", "glyphs": ["umbrella", "friend"] }
-        ] }
+        "mitten": {
+          "title": "The Lost Mitten",
+          "panels": [
+            {
+              "caption": "Bo the bunny hopped in the snow.",
+              "glyphs": [
+                "bunny",
+                "snow"
+              ]
+            },
+            {
+              "caption": "A red mitten slipped off by the tree.",
+              "glyphs": [
+                "tree",
+                "mitten"
+              ]
+            },
+            {
+              "caption": "A bird found it and called Bo back.",
+              "glyphs": [
+                "bird",
+                "mitten"
+              ]
+            }
+          ]
+        },
+        "carrot": {
+          "title": "The Stuck Carrot",
+          "panels": [
+            {
+              "caption": "Millie the mouse found a giant carrot.",
+              "glyphs": [
+                "mouse",
+                "carrot"
+              ]
+            },
+            {
+              "caption": "She pulled and pulled, but it was stuck.",
+              "glyphs": [
+                "mouse",
+                "carrot"
+              ]
+            },
+            {
+              "caption": "Her friend pushed, and out it popped!",
+              "glyphs": [
+                "friend",
+                "carrot"
+              ]
+            }
+          ]
+        },
+        "picnic": {
+          "title": "The Rainy Picnic",
+          "panels": [
+            {
+              "caption": "Two friends sat down for a picnic.",
+              "glyphs": [
+                "friend",
+                "basket"
+              ]
+            },
+            {
+              "caption": "Then dark clouds came and it rained.",
+              "glyphs": [
+                "rain"
+              ]
+            },
+            {
+              "caption": "They ate under a big umbrella, still happy.",
+              "glyphs": [
+                "umbrella",
+                "friend"
+              ]
+            }
+          ]
+        }
       },
       "rounds": [
-        { "id": "ps-mit-who",   "storyId": "mitten", "qtype": "who",   "prompt": "Who hopped in the snow?",            "answer": "Bo the bunny",          "options": ["Bo the bunny", "A sleepy bear", "A green frog"] },
-        { "id": "ps-mit-what",  "storyId": "mitten", "qtype": "what",  "prompt": "What slipped off in the snow?",       "answer": "a red mitten",          "options": ["a red mitten", "a blue hat", "a wool scarf"] },
-        { "id": "ps-mit-where", "storyId": "mitten", "qtype": "where", "prompt": "Where did the mitten slip off?",      "answer": "by the tree",           "options": ["by the tree", "by a pond", "on a hill"] },
-        { "id": "ps-mit-order", "storyId": "mitten", "qtype": "order", "prompt": "What happened FIRST?",                "answer": "Bo hopped in the snow", "options": ["Bo hopped in the snow", "A bird found the mitten", "The mitten slipped off"] },
-
-        { "id": "ps-car-who",   "storyId": "carrot", "qtype": "who",   "prompt": "Who found the carrot?",               "answer": "Millie the mouse",      "options": ["Millie the mouse", "Bo the bunny", "A big crow"] },
-        { "id": "ps-car-what",  "storyId": "carrot", "qtype": "what",  "prompt": "What did Millie find?",               "answer": "a giant carrot",        "options": ["a giant carrot", "a shiny rock", "a lost key"] },
-        { "id": "ps-car-why",   "storyId": "carrot", "qtype": "why",   "prompt": "Why couldn't Millie pull it out?",    "answer": "it was stuck",          "options": ["it was stuck", "it was too small", "it rolled away"] },
-        { "id": "ps-car-order", "storyId": "carrot", "qtype": "order", "prompt": "What happened LAST?",                 "answer": "the carrot popped out", "options": ["the carrot popped out", "Millie found the carrot", "Millie pulled the carrot"] },
-
-        { "id": "ps-pic-what",  "storyId": "picnic", "qtype": "what",  "prompt": "What were the friends doing?",        "answer": "having a picnic",       "options": ["having a picnic", "playing ball", "taking a nap"] },
-        { "id": "ps-pic-why",   "storyId": "picnic", "qtype": "why",   "prompt": "Why did the friends move under the umbrella?", "answer": "because it rained", "options": ["because it rained", "because it got windy", "because they were sleepy"] },
-        { "id": "ps-pic-feel",  "storyId": "picnic", "qtype": "feeling", "prompt": "How did the friends feel at the end?", "answer": "happy",              "options": ["happy", "scared", "angry"] }
+        {
+          "id": "ps-mit-who",
+          "storyId": "mitten",
+          "qtype": "who",
+          "prompt": "Who hopped in the snow?",
+          "answer": "Bo the bunny",
+          "options": [
+            "Bo the bunny",
+            "A sleepy bear",
+            "A green frog"
+          ]
+        },
+        {
+          "id": "ps-mit-what",
+          "storyId": "mitten",
+          "qtype": "what",
+          "prompt": "What slipped off in the snow?",
+          "answer": "a red mitten",
+          "options": [
+            "a red mitten",
+            "a blue hat",
+            "a wool scarf"
+          ]
+        },
+        {
+          "id": "ps-mit-where",
+          "storyId": "mitten",
+          "qtype": "where",
+          "prompt": "Where did the mitten slip off?",
+          "answer": "by the tree",
+          "options": [
+            "by the tree",
+            "by a pond",
+            "on a hill"
+          ]
+        },
+        {
+          "id": "ps-mit-order",
+          "storyId": "mitten",
+          "qtype": "order",
+          "prompt": "What happened FIRST?",
+          "answer": "Bo hopped in the snow",
+          "options": [
+            "Bo hopped in the snow",
+            "A bird found the mitten",
+            "The mitten slipped off"
+          ]
+        },
+        {
+          "id": "ps-car-who",
+          "storyId": "carrot",
+          "qtype": "who",
+          "prompt": "Who found the carrot?",
+          "answer": "Millie the mouse",
+          "options": [
+            "Millie the mouse",
+            "Bo the bunny",
+            "A big crow"
+          ]
+        },
+        {
+          "id": "ps-car-what",
+          "storyId": "carrot",
+          "qtype": "what",
+          "prompt": "What did Millie find?",
+          "answer": "a giant carrot",
+          "options": [
+            "a giant carrot",
+            "a shiny rock",
+            "a lost key"
+          ]
+        },
+        {
+          "id": "ps-car-why",
+          "storyId": "carrot",
+          "qtype": "why",
+          "prompt": "Why couldn't Millie pull it out?",
+          "answer": "it was stuck",
+          "options": [
+            "it was stuck",
+            "it was too small",
+            "it rolled away"
+          ]
+        },
+        {
+          "id": "ps-car-order",
+          "storyId": "carrot",
+          "qtype": "order",
+          "prompt": "What happened LAST?",
+          "answer": "the carrot popped out",
+          "options": [
+            "the carrot popped out",
+            "Millie found the carrot",
+            "Millie pulled the carrot"
+          ]
+        },
+        {
+          "id": "ps-pic-what",
+          "storyId": "picnic",
+          "qtype": "what",
+          "prompt": "What were the friends doing?",
+          "answer": "having a picnic",
+          "options": [
+            "having a picnic",
+            "playing ball",
+            "taking a nap"
+          ]
+        },
+        {
+          "id": "ps-pic-why",
+          "storyId": "picnic",
+          "qtype": "why",
+          "prompt": "Why did the friends move under the umbrella?",
+          "answer": "because it rained",
+          "options": [
+            "because it rained",
+            "because it got windy",
+            "because they were sleepy"
+          ]
+        },
+        {
+          "id": "ps-pic-feel",
+          "storyId": "picnic",
+          "qtype": "feeling",
+          "prompt": "How did the friends feel at the end?",
+          "answer": "happy",
+          "options": [
+            "happy",
+            "scared",
+            "angry"
+          ]
+        }
       ],
       "storiesL10n": {
         "de": {
-          "mitten": { "title": "Der rote Handschuh", "panels": [
-            { "caption": "Bo das Häschen hüpfte durch den Schnee.", "glyphs": ["bunny", "snow"] },
-            { "caption": "Am Baum rutschte ein roter Handschuh herunter.", "glyphs": ["tree", "mitten"] },
-            { "caption": "Ein Vogel fand ihn und rief Bo zurück.", "glyphs": ["bird", "mitten"] }
-          ] },
-          "carrot": { "title": "Die riesige Möhre", "panels": [
-            { "caption": "Millie die Maus fand eine riesige Möhre.", "glyphs": ["mouse", "carrot"] },
-            { "caption": "Sie zog und zog, doch die Möhre steckte fest.", "glyphs": ["mouse", "carrot"] },
-            { "caption": "Ihr Freund schob, und schwupp — heraus kam sie!", "glyphs": ["friend", "carrot"] }
-          ] },
-          "picnic": { "title": "Das Picknick im Regen", "panels": [
-            { "caption": "Zwei Freunde machten ein Picknick.", "glyphs": ["friend", "basket"] },
-            { "caption": "Dann kamen dunkle Wolken und es regnete.", "glyphs": ["rain"] },
-            { "caption": "Unter einem großen Schirm waren sie froh.", "glyphs": ["umbrella", "friend"] }
-          ] }
+          "mitten": {
+            "title": "Der rote Handschuh",
+            "panels": [
+              {
+                "caption": "Bo das Häschen hüpfte durch den Schnee.",
+                "glyphs": [
+                  "bunny",
+                  "snow"
+                ]
+              },
+              {
+                "caption": "Am Baum rutschte ein roter Handschuh herunter.",
+                "glyphs": [
+                  "tree",
+                  "mitten"
+                ]
+              },
+              {
+                "caption": "Ein Vogel fand ihn und rief Bo zurück.",
+                "glyphs": [
+                  "bird",
+                  "mitten"
+                ]
+              }
+            ]
+          },
+          "carrot": {
+            "title": "Die riesige Möhre",
+            "panels": [
+              {
+                "caption": "Millie die Maus fand eine riesige Möhre.",
+                "glyphs": [
+                  "mouse",
+                  "carrot"
+                ]
+              },
+              {
+                "caption": "Sie zog und zog, doch die Möhre steckte fest.",
+                "glyphs": [
+                  "mouse",
+                  "carrot"
+                ]
+              },
+              {
+                "caption": "Ihr Freund schob, und schwupp — heraus kam sie!",
+                "glyphs": [
+                  "friend",
+                  "carrot"
+                ]
+              }
+            ]
+          },
+          "picnic": {
+            "title": "Das Picknick im Regen",
+            "panels": [
+              {
+                "caption": "Zwei Freunde machten ein Picknick.",
+                "glyphs": [
+                  "friend",
+                  "basket"
+                ]
+              },
+              {
+                "caption": "Dann kamen dunkle Wolken und es regnete.",
+                "glyphs": [
+                  "rain"
+                ]
+              },
+              {
+                "caption": "Unter einem großen Schirm waren sie froh.",
+                "glyphs": [
+                  "umbrella",
+                  "friend"
+                ]
+              }
+            ]
+          }
         },
         "fr": {
-          "mitten": { "title": "La moufle perdue", "panels": [
-            { "caption": "Bo le lapin a sauté dans la neige.", "glyphs": ["bunny", "snow"] },
-            { "caption": "Une moufle rouge est tombée près de l’arbre.", "glyphs": ["tree", "mitten"] },
-            { "caption": "Un oiseau l’a trouvée et a rappelé Bo.", "glyphs": ["bird", "mitten"] }
-          ] },
-          "carrot": { "title": "La carotte coincée", "panels": [
-            { "caption": "Millie la souris a trouvé une carotte géante.", "glyphs": ["mouse", "carrot"] },
-            { "caption": "Elle a tiré, tiré, mais c’était coincé.", "glyphs": ["mouse", "carrot"] },
-            { "caption": "Son amie a poussé, et hop, la carotte est sortie !", "glyphs": ["friend", "carrot"] }
-          ] },
-          "picnic": { "title": "Le pique-nique sous la pluie", "panels": [
-            { "caption": "Deux amis se sont assis pour un pique-nique.", "glyphs": ["friend", "basket"] },
-            { "caption": "Puis des nuages gris sont venus et il a plu.", "glyphs": ["rain"] },
-            { "caption": "Ils ont mangé sous un grand parapluie, toujours contents.", "glyphs": ["umbrella", "friend"] }
-          ] }
+          "mitten": {
+            "title": "La moufle perdue",
+            "panels": [
+              {
+                "caption": "Bo le lapin a sauté dans la neige.",
+                "glyphs": [
+                  "bunny",
+                  "snow"
+                ]
+              },
+              {
+                "caption": "Une moufle rouge est tombée près de l’arbre.",
+                "glyphs": [
+                  "tree",
+                  "mitten"
+                ]
+              },
+              {
+                "caption": "Un oiseau l’a trouvée et a rappelé Bo.",
+                "glyphs": [
+                  "bird",
+                  "mitten"
+                ]
+              }
+            ]
+          },
+          "carrot": {
+            "title": "La carotte coincée",
+            "panels": [
+              {
+                "caption": "Millie la souris a trouvé une carotte géante.",
+                "glyphs": [
+                  "mouse",
+                  "carrot"
+                ]
+              },
+              {
+                "caption": "Elle a tiré, tiré, mais c’était coincé.",
+                "glyphs": [
+                  "mouse",
+                  "carrot"
+                ]
+              },
+              {
+                "caption": "Son amie a poussé, et hop, la carotte est sortie !",
+                "glyphs": [
+                  "friend",
+                  "carrot"
+                ]
+              }
+            ]
+          },
+          "picnic": {
+            "title": "Le pique-nique sous la pluie",
+            "panels": [
+              {
+                "caption": "Deux amis se sont assis pour un pique-nique.",
+                "glyphs": [
+                  "friend",
+                  "basket"
+                ]
+              },
+              {
+                "caption": "Puis des nuages gris sont venus et il a plu.",
+                "glyphs": [
+                  "rain"
+                ]
+              },
+              {
+                "caption": "Ils ont mangé sous un grand parapluie, toujours contents.",
+                "glyphs": [
+                  "umbrella",
+                  "friend"
+                ]
+              }
+            ]
+          }
         }
       },
       "roundsL10n": {
         "de": [
-          { "id": "ps-mit-who",   "storyId": "mitten", "qtype": "who",   "prompt": "Wer ist durch den Schnee gehüpft?",         "answer": "Bo das Häschen",        "options": ["Bo das Häschen", "ein müder Bär", "ein grüner Frosch"] },
-          { "id": "ps-mit-what",  "storyId": "mitten", "qtype": "what",  "prompt": "Was ist am Baum heruntergerutscht?",        "answer": "ein roter Handschuh",   "options": ["ein roter Handschuh", "eine blaue Mütze", "ein Wollschal"] },
-          { "id": "ps-mit-where", "storyId": "mitten", "qtype": "where", "prompt": "Wo ist der Handschuh heruntergerutscht?",   "answer": "am Baum",               "options": ["am Baum", "am Teich", "auf dem Hügel"] },
-          { "id": "ps-mit-order", "storyId": "mitten", "qtype": "order", "prompt": "Was ist ZUERST passiert?",                  "answer": "Bo ist im Schnee gehüpft", "options": ["Bo ist im Schnee gehüpft", "Ein Vogel hat den Handschuh gefunden", "Der Handschuh ist heruntergerutscht"] },
-
-          { "id": "ps-car-who",   "storyId": "carrot", "qtype": "who",   "prompt": "Wer hat die Möhre gefunden?",               "answer": "Millie die Maus",       "options": ["Millie die Maus", "Bo das Häschen", "eine große Krähe"] },
-          { "id": "ps-car-what",  "storyId": "carrot", "qtype": "what",  "prompt": "Was hat Millie gefunden?",                  "answer": "eine riesige Möhre",    "options": ["eine riesige Möhre", "einen glänzenden Stein", "einen verlorenen Schlüssel"] },
-          { "id": "ps-car-why",   "storyId": "carrot", "qtype": "why",   "prompt": "Warum konnte Millie sie nicht herausziehen?", "answer": "sie steckte fest",     "options": ["sie steckte fest", "sie war zu klein", "sie rollte weg"] },
-          { "id": "ps-car-order", "storyId": "carrot", "qtype": "order", "prompt": "Was ist ZULETZT passiert?",                 "answer": "Die Möhre ist herausgekommen", "options": ["Die Möhre ist herausgekommen", "Millie hat die Möhre gefunden", "Millie hat an der Möhre gezogen"] },
-
-          { "id": "ps-pic-what",  "storyId": "picnic", "qtype": "what",  "prompt": "Was haben die zwei Freunde gemacht?",       "answer": "ein Picknick gemacht",  "options": ["ein Picknick gemacht", "Ball gespielt", "geschlafen"] },
-          { "id": "ps-pic-why",   "storyId": "picnic", "qtype": "why",   "prompt": "Warum sind die Freunde unter den Schirm gegangen?", "answer": "weil es regnete", "options": ["weil es regnete", "weil es windig wurde", "weil sie müde waren"] },
-          { "id": "ps-pic-feel",  "storyId": "picnic", "qtype": "feeling", "prompt": "Wie haben sich die Freunde am Ende gefühlt?", "answer": "froh",               "options": ["froh", "ängstlich", "wütend"] }
+          {
+            "id": "ps-mit-who",
+            "storyId": "mitten",
+            "qtype": "who",
+            "prompt": "Wer ist durch den Schnee gehüpft?",
+            "answer": "Bo das Häschen",
+            "options": [
+              "Bo das Häschen",
+              "ein müder Bär",
+              "ein grüner Frosch"
+            ]
+          },
+          {
+            "id": "ps-mit-what",
+            "storyId": "mitten",
+            "qtype": "what",
+            "prompt": "Was ist am Baum heruntergerutscht?",
+            "answer": "ein roter Handschuh",
+            "options": [
+              "ein roter Handschuh",
+              "eine blaue Mütze",
+              "ein Wollschal"
+            ]
+          },
+          {
+            "id": "ps-mit-where",
+            "storyId": "mitten",
+            "qtype": "where",
+            "prompt": "Wo ist der Handschuh heruntergerutscht?",
+            "answer": "am Baum",
+            "options": [
+              "am Baum",
+              "am Teich",
+              "auf dem Hügel"
+            ]
+          },
+          {
+            "id": "ps-mit-order",
+            "storyId": "mitten",
+            "qtype": "order",
+            "prompt": "Was ist ZUERST passiert?",
+            "answer": "Bo ist im Schnee gehüpft",
+            "options": [
+              "Bo ist im Schnee gehüpft",
+              "Ein Vogel hat den Handschuh gefunden",
+              "Der Handschuh ist heruntergerutscht"
+            ]
+          },
+          {
+            "id": "ps-car-who",
+            "storyId": "carrot",
+            "qtype": "who",
+            "prompt": "Wer hat die Möhre gefunden?",
+            "answer": "Millie die Maus",
+            "options": [
+              "Millie die Maus",
+              "Bo das Häschen",
+              "eine große Krähe"
+            ]
+          },
+          {
+            "id": "ps-car-what",
+            "storyId": "carrot",
+            "qtype": "what",
+            "prompt": "Was hat Millie gefunden?",
+            "answer": "eine riesige Möhre",
+            "options": [
+              "eine riesige Möhre",
+              "einen glänzenden Stein",
+              "einen verlorenen Schlüssel"
+            ]
+          },
+          {
+            "id": "ps-car-why",
+            "storyId": "carrot",
+            "qtype": "why",
+            "prompt": "Warum konnte Millie sie nicht herausziehen?",
+            "answer": "sie steckte fest",
+            "options": [
+              "sie steckte fest",
+              "sie war zu klein",
+              "sie rollte weg"
+            ]
+          },
+          {
+            "id": "ps-car-order",
+            "storyId": "carrot",
+            "qtype": "order",
+            "prompt": "Was ist ZULETZT passiert?",
+            "answer": "Die Möhre ist herausgekommen",
+            "options": [
+              "Die Möhre ist herausgekommen",
+              "Millie hat die Möhre gefunden",
+              "Millie hat an der Möhre gezogen"
+            ]
+          },
+          {
+            "id": "ps-pic-what",
+            "storyId": "picnic",
+            "qtype": "what",
+            "prompt": "Was haben die zwei Freunde gemacht?",
+            "answer": "ein Picknick gemacht",
+            "options": [
+              "ein Picknick gemacht",
+              "Ball gespielt",
+              "geschlafen"
+            ]
+          },
+          {
+            "id": "ps-pic-why",
+            "storyId": "picnic",
+            "qtype": "why",
+            "prompt": "Warum sind die Freunde unter den Schirm gegangen?",
+            "answer": "weil es regnete",
+            "options": [
+              "weil es regnete",
+              "weil es windig wurde",
+              "weil sie müde waren"
+            ]
+          },
+          {
+            "id": "ps-pic-feel",
+            "storyId": "picnic",
+            "qtype": "feeling",
+            "prompt": "Wie haben sich die Freunde am Ende gefühlt?",
+            "answer": "froh",
+            "options": [
+              "froh",
+              "ängstlich",
+              "wütend"
+            ]
+          }
         ],
         "fr": [
-          { "id": "ps-mit-who",   "storyId": "mitten", "qtype": "who",   "prompt": "Qui a sauté dans la neige ?",             "answer": "Bo le lapin",              "options": ["Bo le lapin", "un ours endormi", "une grenouille verte"] },
-          { "id": "ps-mit-what",  "storyId": "mitten", "qtype": "what",  "prompt": "Qu’est-ce qui est tombé dans la neige ?", "answer": "une moufle rouge",         "options": ["une moufle rouge", "un bonnet bleu", "une écharpe en laine"] },
-          { "id": "ps-mit-where", "storyId": "mitten", "qtype": "where", "prompt": "Où la moufle est-elle tombée ?",          "answer": "près de l’arbre",          "options": ["près de l’arbre", "près d’une mare", "sur une colline"] },
-          { "id": "ps-mit-order", "storyId": "mitten", "qtype": "order", "prompt": "Qu’est-ce qui s’est passé en PREMIER ?",  "answer": "Bo a sauté dans la neige", "options": ["Bo a sauté dans la neige", "Un oiseau a trouvé la moufle", "La moufle est tombée"] },
-
-          { "id": "ps-car-who",   "storyId": "carrot", "qtype": "who",   "prompt": "Qui a trouvé la carotte ?",               "answer": "Millie la souris",         "options": ["Millie la souris", "Bo le lapin", "un grand corbeau"] },
-          { "id": "ps-car-what",  "storyId": "carrot", "qtype": "what",  "prompt": "Qu’est-ce que Millie a trouvé ?",         "answer": "une carotte géante",       "options": ["une carotte géante", "un caillou brillant", "une clé perdue"] },
-          { "id": "ps-car-why",   "storyId": "carrot", "qtype": "why",   "prompt": "Pourquoi Millie n’a pas pu tirer la carotte ?", "answer": "elle était coincée",  "options": ["elle était coincée", "elle était trop petite", "elle a roulé au loin"] },
-          { "id": "ps-car-order", "storyId": "carrot", "qtype": "order", "prompt": "Qu’est-ce qui s’est passé en DERNIER ?",  "answer": "la carotte est sortie",    "options": ["la carotte est sortie", "Millie a trouvé la carotte", "Millie a tiré la carotte"] },
-
-          { "id": "ps-pic-what",  "storyId": "picnic", "qtype": "what",  "prompt": "Que faisaient les deux amis ?",           "answer": "un pique-nique",           "options": ["un pique-nique", "un jeu de ballon", "une petite sieste"] },
-          { "id": "ps-pic-why",   "storyId": "picnic", "qtype": "why",   "prompt": "Pourquoi les amis sont allés sous le parapluie ?", "answer": "parce qu’il a plu",  "options": ["parce qu’il a plu", "parce qu’il y avait du vent", "parce qu’ils avaient sommeil"] },
-          { "id": "ps-pic-feel",  "storyId": "picnic", "qtype": "feeling", "prompt": "Comment se sentaient les amis à la fin ?", "answer": "contents",               "options": ["contents", "effrayés", "en colère"] }
+          {
+            "id": "ps-mit-who",
+            "storyId": "mitten",
+            "qtype": "who",
+            "prompt": "Qui a sauté dans la neige ?",
+            "answer": "Bo le lapin",
+            "options": [
+              "Bo le lapin",
+              "un ours endormi",
+              "une grenouille verte"
+            ]
+          },
+          {
+            "id": "ps-mit-what",
+            "storyId": "mitten",
+            "qtype": "what",
+            "prompt": "Qu’est-ce qui est tombé dans la neige ?",
+            "answer": "une moufle rouge",
+            "options": [
+              "une moufle rouge",
+              "un bonnet bleu",
+              "une écharpe en laine"
+            ]
+          },
+          {
+            "id": "ps-mit-where",
+            "storyId": "mitten",
+            "qtype": "where",
+            "prompt": "Où la moufle est-elle tombée ?",
+            "answer": "près de l’arbre",
+            "options": [
+              "près de l’arbre",
+              "près d’une mare",
+              "sur une colline"
+            ]
+          },
+          {
+            "id": "ps-mit-order",
+            "storyId": "mitten",
+            "qtype": "order",
+            "prompt": "Qu’est-ce qui s’est passé en PREMIER ?",
+            "answer": "Bo a sauté dans la neige",
+            "options": [
+              "Bo a sauté dans la neige",
+              "Un oiseau a trouvé la moufle",
+              "La moufle est tombée"
+            ]
+          },
+          {
+            "id": "ps-car-who",
+            "storyId": "carrot",
+            "qtype": "who",
+            "prompt": "Qui a trouvé la carotte ?",
+            "answer": "Millie la souris",
+            "options": [
+              "Millie la souris",
+              "Bo le lapin",
+              "un grand corbeau"
+            ]
+          },
+          {
+            "id": "ps-car-what",
+            "storyId": "carrot",
+            "qtype": "what",
+            "prompt": "Qu’est-ce que Millie a trouvé ?",
+            "answer": "une carotte géante",
+            "options": [
+              "une carotte géante",
+              "un caillou brillant",
+              "une clé perdue"
+            ]
+          },
+          {
+            "id": "ps-car-why",
+            "storyId": "carrot",
+            "qtype": "why",
+            "prompt": "Pourquoi Millie n’a pas pu tirer la carotte ?",
+            "answer": "elle était coincée",
+            "options": [
+              "elle était coincée",
+              "elle était trop petite",
+              "elle a roulé au loin"
+            ]
+          },
+          {
+            "id": "ps-car-order",
+            "storyId": "carrot",
+            "qtype": "order",
+            "prompt": "Qu’est-ce qui s’est passé en DERNIER ?",
+            "answer": "la carotte est sortie",
+            "options": [
+              "la carotte est sortie",
+              "Millie a trouvé la carotte",
+              "Millie a tiré la carotte"
+            ]
+          },
+          {
+            "id": "ps-pic-what",
+            "storyId": "picnic",
+            "qtype": "what",
+            "prompt": "Que faisaient les deux amis ?",
+            "answer": "un pique-nique",
+            "options": [
+              "un pique-nique",
+              "un jeu de ballon",
+              "une petite sieste"
+            ]
+          },
+          {
+            "id": "ps-pic-why",
+            "storyId": "picnic",
+            "qtype": "why",
+            "prompt": "Pourquoi les amis sont allés sous le parapluie ?",
+            "answer": "parce qu’il a plu",
+            "options": [
+              "parce qu’il a plu",
+              "parce qu’il y avait du vent",
+              "parce qu’ils avaient sommeil"
+            ]
+          },
+          {
+            "id": "ps-pic-feel",
+            "storyId": "picnic",
+            "qtype": "feeling",
+            "prompt": "Comment se sentaient les amis à la fin ?",
+            "answer": "contents",
+            "options": [
+              "contents",
+              "effrayés",
+              "en colère"
+            ]
+          }
         ]
       }
     },
@@ -114,12 +662,12 @@
     },
     "page_title": {
       "en": "Fable's Picture Stories — Story Key Details (Kindergarten)",
-      "de": "Leseverständnis Klasse 1: Geschichte verstehen mit Fabel",
+      "de": "Lesetexte Klasse 1 – Geschichte online lesen und verstehen",
       "fr": "Lire une histoire avec Fable et répondre aux questions"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten reading activity: read a short three-picture story with Fable the fox, then answer questions about the key details — who is in the story, what happens, where it takes place, what happened first and last, and why. A friendly, picture-and-caption way to build early story comprehension. Common Core RL.K.1.",
-      "de": "Leseverständnis Klasse 1: Lies oder höre eine kurze Bildergeschichte und beantworte Fragen dazu – Wer, Was, Wo, Warum. Kostenlos und interaktiv. Jetzt entdecken!",
+      "de": "Lesetexte für Klasse 1: eine kurze Geschichte lesen und Fragen zum Text beantworten. Kostenlos online, ohne Anmeldung – Leseverständnis üben.",
       "fr": "L'enfant lit une petite histoire en images avec Fable le renard, écoute les phrases lues à voix haute, puis répond à des questions sur le récit. Gratuit et interactif, aligné sur les programmes officiels de l'école : à vous de jouer !"
     },
     "kid_prompt_template": "picture-story"

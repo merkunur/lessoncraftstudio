@@ -3,21 +3,75 @@
     "id": "maple-bakery.share.3-oa-a-2",
     "tool": "maple-bakery-activity",
     "task_template": "division",
-    "alignment": { "framework": "CCSS", "code": "3.OA.A.2", "grade": "3", "strand": "Operations & Algebraic Thinking" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "3.OA.A.2",
+      "grade": "3",
+      "strand": "Operations & Algebraic Thinking"
+    },
     "theme": null,
     "params": {
       "rounds": [
-        { "id": "mb-share-12-3", "cog": "share", "dividend": 12, "divisor": 3 },
-        { "id": "mb-share-12-4", "cog": "share", "dividend": 12, "divisor": 4 },
-        { "id": "mb-share-15-3", "cog": "share", "dividend": 15, "divisor": 3 },
-        { "id": "mb-share-20-5", "cog": "share", "dividend": 20, "divisor": 5 },
-        { "id": "mb-share-8-2",  "cog": "share", "dividend": 8,  "divisor": 2 },
-
-        { "id": "mb-pack-12-4",  "cog": "pack", "dividend": 12, "divisor": 4 },
-        { "id": "mb-pack-15-5",  "cog": "pack", "dividend": 15, "divisor": 5 },
-        { "id": "mb-pack-18-6",  "cog": "pack", "dividend": 18, "divisor": 6 },
-        { "id": "mb-pack-10-2",  "cog": "pack", "dividend": 10, "divisor": 2 },
-        { "id": "mb-pack-20-4",  "cog": "pack", "dividend": 20, "divisor": 4 }
+        {
+          "id": "mb-share-12-3",
+          "cog": "share",
+          "dividend": 12,
+          "divisor": 3
+        },
+        {
+          "id": "mb-share-12-4",
+          "cog": "share",
+          "dividend": 12,
+          "divisor": 4
+        },
+        {
+          "id": "mb-share-15-3",
+          "cog": "share",
+          "dividend": 15,
+          "divisor": 3
+        },
+        {
+          "id": "mb-share-20-5",
+          "cog": "share",
+          "dividend": 20,
+          "divisor": 5
+        },
+        {
+          "id": "mb-share-8-2",
+          "cog": "share",
+          "dividend": 8,
+          "divisor": 2
+        },
+        {
+          "id": "mb-pack-12-4",
+          "cog": "pack",
+          "dividend": 12,
+          "divisor": 4
+        },
+        {
+          "id": "mb-pack-15-5",
+          "cog": "pack",
+          "dividend": 15,
+          "divisor": 5
+        },
+        {
+          "id": "mb-pack-18-6",
+          "cog": "pack",
+          "dividend": 18,
+          "divisor": 6
+        },
+        {
+          "id": "mb-pack-10-2",
+          "cog": "pack",
+          "dividend": 10,
+          "divisor": 2
+        },
+        {
+          "id": "mb-pack-20-4",
+          "cog": "pack",
+          "dividend": 20,
+          "divisor": 4
+        }
       ]
     },
     "slug": {
@@ -27,12 +81,12 @@
     },
     "page_title": {
       "en": "Maple's Bakery — Division: Sharing & Grouping (Grade 3)",
-      "de": "Division Klasse 2: Teilen üben mit Maple der Maus",
+      "de": "Division Klasse 2 – Teilen online üben",
       "fr": "La division : partager et grouper – La boulangerie de Maple | CE1"
     },
     "page_intro": {
       "en": "A free interactive Grade 3 math activity: help Maple the mouse divide the cookies. Share the cookies equally onto the plates and find how many go on each plate, or pack the cookies into boxes that each hold the same number and find how many boxes you need. A friendly, picture-first way to understand what a division answer means. Common Core 3.OA.A.2.",
-      "de": "Maple die Maus teilt Kekse gerecht auf! Dein Kind übt spielerisch Dividieren und Geteiltaufgaben für Klasse 2 – kostenlos, interaktiv und ohne Anmeldung.",
+      "de": "Division in Klasse 2 online üben: Teilen mit Maple der Maus – Mengen gerecht aufteilen und verstehen. Kostenlos online, ohne Anmeldung.",
       "fr": "Aide Maple la souris à partager les biscuits de sa boulangerie ! Deux façons de faire : partage les biscuits également sur les assiettes et trouve combien il y en a sur chaque assiette, ou range les biscuits dans des boîtes qui contiennent toutes le même nombre et trouve combien de boîtes il te faut. Une façon douce et imagée de comprendre ce que veut dire une division. Un jeu de CE1 sur le sens de la division. Gratuit et interactif."
     },
     "kid_prompt_template": "division"

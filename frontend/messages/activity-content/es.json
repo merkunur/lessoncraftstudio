@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "affix.apply.l-2-4-b": {
+      "about": [
+        "Marigold, un topo muy curioso, tiene una máquina de palabras llena de engranes. Cada engrane guarda una piecita mágica del idioma: des-, re- y -oso. Al girarlos, tu peque ve cómo una palabra sencilla se transforma y cambia de significado ante sus ojos.",
+        "La idea que se enseña es sencilla y poderosa: los prefijos y sufijos cambian el significado de las palabras. El prefijo des- indica lo contrario (desordenar es lo contrario de ordenar), re- significa otra vez (releer es leer otra vez) y el sufijo -oso quiere decir lleno de (miedoso es lleno de miedo).",
+        "Es una actividad interactiva y totalmente gratuita de 2.º de primaria, alineada a los Planes y programas de estudio (SEP). Se juega directo en el navegador, sin registro y sin descargas, con un tono cálido y sin cronómetro ni puntajes: solo aprender jugando a su propio ritmo."
+      ],
+      "practices": [
+        "Reconocer prefijos y sufijos dentro de una palabra y darse cuenta de que son piecitas que se le agregan a la raíz.",
+        "Comprender que des-, re- y -oso cambian el significado de la palabra a la que se unen.",
+        "Deducir el significado de una palabra formada a partir de lo que aporta su prefijo o sufijo, por ejemplo entender qué quiere decir rehacer o cariñoso.",
+        "Elegir el prefijo o el sufijo correcto cuando se le da una raíz y el significado que se busca, formando la palabra adecuada."
+      ],
+      "howToPlay": [
+        "Lee con calma lo que muestra Marigold: a veces es una palabra completa y a veces es una raíz junto con el significado que hay que lograr.",
+        "Piensa qué hace cada piecita del idioma: si des- convierte en lo contrario, si re- significa otra vez o si -oso quiere decir lleno de algo.",
+        "Toca el significado correcto o el engrane correcto para armar la palabra. Puede intentarlo cuantas veces quiera, sin prisas y sin castigos, porque equivocarse también es parte de aprender."
+      ],
+      "learningGoals": [
+        "Pensada para niñas y niños de segundo grado de primaria (aproximadamente 7 a 8 años), esta actividad los ayuda a reconocer y usar prefijos y sufijos comunes con confianza.",
+        "Amplía el vocabulario de tu peque enseñándole a deducir el significado de palabras nuevas a partir de sus piecitas, una estrategia que le servirá al leer cualquier texto.",
+        "Sienta las bases de la formación de palabras, un aprendizaje clave para leer mejor, escribir con más recursos y seguir creciendo como lector."
+      ]
+    },
     "tense.past-present-future.l-1-1-e": {
       "about": [
         "Juniper, el petirrojo, tiene una torre del tiempo con tres ventanas: Pasado, Presente y Futuro. Una ventana se ilumina con una pista de tiempo (Ayer, Hoy o Mañana) y el niño toca la forma del verbo que corresponde entre tres opciones.",

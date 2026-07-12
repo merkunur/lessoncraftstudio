@@ -72,23 +72,48 @@
           { "id": "af-which-refaire",    "cog": "which", "root": "faire",    "affix": "re",  "meaning": "faire à nouveau",           "options": ["re","un","ful"] },
           { "id": "af-which-debrancher", "cog": "which", "root": "brancher", "affix": "un",  "meaning": "le contraire de brancher",  "options": ["re","un","ful"] },
           { "id": "af-which-chanceux",   "cog": "which", "root": "chance",   "affix": "ful", "meaning": "plein de chance",           "options": ["re","un","ful"] }
+        ],
+        "es": [
+          { "id": "af-desordenar", "cog": "apply", "word": "desordenar", "root": "ordenar", "affix": "un",
+            "options": [ {"affix":"re","text":"ordenar otra vez"}, {"affix":"un","text":"lo contrario de ordenar"}, {"affix":"ful","text":"lleno de ordenar"} ] },
+          { "id": "af-destapar",   "cog": "apply", "word": "destapar",   "root": "tapar",   "affix": "un",
+            "options": [ {"affix":"ful","text":"lleno de tapar"}, {"affix":"un","text":"lo contrario de tapar"}, {"affix":"re","text":"tapar otra vez"} ] },
+          { "id": "af-desatar",    "cog": "apply", "word": "desatar",    "root": "atar",    "affix": "un",
+            "options": [ {"affix":"re","text":"atar otra vez"}, {"affix":"ful","text":"lleno de atar"}, {"affix":"un","text":"lo contrario de atar"} ] },
+          { "id": "af-releer",     "cog": "apply", "word": "releer",     "root": "leer",    "affix": "re",
+            "options": [ {"affix":"un","text":"lo contrario de leer"}, {"affix":"re","text":"leer otra vez"}, {"affix":"ful","text":"lleno de leer"} ] },
+          { "id": "af-repintar",   "cog": "apply", "word": "repintar",   "root": "pintar",  "affix": "re",
+            "options": [ {"affix":"ful","text":"lleno de pintar"}, {"affix":"re","text":"pintar otra vez"}, {"affix":"un","text":"lo contrario de pintar"} ] },
+          { "id": "af-recargar",   "cog": "apply", "word": "recargar",   "root": "cargar",  "affix": "re",
+            "options": [ {"affix":"un","text":"lo contrario de cargar"}, {"affix":"ful","text":"lleno de cargar"}, {"affix":"re","text":"cargar otra vez"} ] },
+          { "id": "af-miedoso",    "cog": "apply", "word": "miedoso",    "root": "miedo",   "affix": "ful",
+            "options": [ {"affix":"un","text":"lo contrario de miedo"}, {"affix":"ful","text":"lleno de miedo"}, {"affix":"re","text":"miedo otra vez"} ] },
+          { "id": "af-carinoso",   "cog": "apply", "word": "cariñoso",   "root": "cariño",  "affix": "ful",
+            "options": [ {"affix":"re","text":"cariño otra vez"}, {"affix":"un","text":"lo contrario de cariño"}, {"affix":"ful","text":"lleno de cariño"} ] },
+
+          { "id": "af-which-peinar", "cog": "which", "root": "peinar", "affix": "un",  "meaning": "lo contrario de peinar", "options": ["un","re","ful"] },
+          { "id": "af-which-llenar", "cog": "which", "root": "llenar", "affix": "re",  "meaning": "llenar otra vez",        "options": ["un","re","ful"] },
+          { "id": "af-which-ruido",  "cog": "which", "root": "ruido",  "affix": "ful", "meaning": "lleno de ruido",         "options": ["un","re","ful"] }
         ]
       }
     },
     "slug": {
       "en": "prefixes-and-suffixes-word-meaning",
       "de": "wortbausteine-vorsilben-nachsilben-klasse-2",
-      "fr": "prefixes-suffixes-le-sens-des-mots-ce1"
+      "fr": "prefixes-suffixes-le-sens-des-mots-ce1",
+      "es": "prefijos-y-sufijos-formacion-de-palabras-2-primaria"
     },
     "page_title": {
       "en": "Marigold's Knowing Machine — Prefixes & Suffixes Word Meaning (Grade 2)",
       "de": "Marigolds Wortmaschine: Vorsilben & Nachsilben – Klasse 2",
-      "fr": "Préfixes et suffixes : le sens des mots – CE1"
+      "fr": "Préfixes et suffixes : le sens des mots – CE1",
+      "es": "Prefijos y sufijos para niños: forma palabras (2.º primaria)"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 reading activity: help Marigold the mole work out what a new word means when a prefix or suffix is added. Drop the un-, re-, -ful, or -less cog into the Knowing Machine and read the new word — then tap what it means. A clear, friendly way to learn how prefixes and suffixes change a word's meaning. Common Core L.2.4.b and L.2.4.c.",
       "de": "Mit Marigold un-, -voll und -los entdecken: Dein Kind verändert mit Vorsilben und Nachsilben die Wortbedeutung. Kostenlos, interaktiv üben – Deutsch Klasse 2.",
-      "fr": "Avec Marigold la taupe, découvrez comment les préfixes et suffixes (re-, dé-, -eux) changent le sens des mots. Activité gratuite et interactive, niveau CE1."
+      "fr": "Avec Marigold la taupe, découvrez comment les préfixes et suffixes (re-, dé-, -eux) changent le sens des mots. Activité gratuite et interactive, niveau CE1.",
+      "es": "Con Marigold y su máquina de engranes, tu peque descubre cómo los prefijos y sufijos cambian el significado de las palabras: des- es lo contrario, re- es otra vez y -oso es lleno de. Actividad interactiva y gratuita de formación de palabras para 2.º de primaria, alineada a los Planes y programas de estudio (SEP)."
     },
     "kid_prompt_template": "affix"
   }

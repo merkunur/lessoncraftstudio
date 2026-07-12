@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "plural.irregular.l-2-1-b": {
+      "about": [
+        "En «El estanque de Pearl», tu hijo ve una palabra en singular y toca su plural correcto entre tres opciones, mientras la luna Pearl se refleja en el agua para mostrar la forma verdadera.",
+        "La idea que se enseña es sencilla pero clave: el plural no siempre se forma solo con -s; las palabras terminadas en consonante piden -es (papel→papeles, flor→flores) y las que terminan en -z cambian a -ces (lápiz→lápices, luz→luces).",
+        "Es una actividad gratuita e interactiva para 2.º de primaria, con un tono cálido y sin cronómetro ni calificación; se juega directo en el navegador, sin registro, y está alineada a los Planes y programas de estudio (SEP)."
+      ],
+      "practices": [
+        "Forma el plural con -es en palabras que terminan en consonante, como papel→papeles o flor→flores.",
+        "Cambia la -z por -ces al pasar al plural, reconociendo casos como lápiz→lápices y luz→luces.",
+        "Descubre que agregar -s no siempre basta y evita la sobregeneralización típica de escribir «papels» o «flors».",
+        "Observa que en lápiz→lápices el sonido se mantiene, pero la letra z se escribe c antes de -es."
+      ],
+      "howToPlay": [
+        "Primero, el niño lee con calma la palabra en singular que aparece sobre el estanque.",
+        "Luego toca, entre las tres opciones, el plural que cree correcto; solo una es la forma verdadera.",
+        "Si se equivoca, Pearl —la luna reflejada en el estanque— le da una pista amable y lo invita a intentarlo de nuevo hasta reflejar el plural correcto."
+      ],
+      "learningGoals": [
+        "Está pensada para niños de segundo grado de primaria (~7 a 8 años) que ya empiezan a fijarse en cómo se escriben las palabras en plural.",
+        "Busca que el niño domine el plural regular con -es y con -ces, más allá de la idea de «solo agregar -s».",
+        "Sienta las bases de la ortografía del plural, para que escriba con seguridad palabras como papeles, flores, lápices y luces."
+      ]
+    },
     "hoppers-number-line.jump-sums.2-md-b-6": {
       "about": [
         "Hopper, la rana, brinca sobre una recta numérica y convierte cada cuenta en un movimiento con dirección. En esta actividad tu peque toca el número inicial, elige hacia dónde va Hopper —hacia adelante para sumar o hacia atrás para restar—, escoge el tamaño del brinco y descubre el número donde cae. La recta numérica deja de ser solo una fila de números y se vuelve el modelo con el que se calcula.",

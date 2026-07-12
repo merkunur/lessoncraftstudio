@@ -422,23 +422,37 @@
               "regular": true
             }
           }
+        ],
+        "es": [
+          { "id": "tn-p1", "time": "past",    "timeWord": "Ayer",   "subject": "los barcos",   "verb": { "lemma": "navegar", "regular": true,  "forms": { "present": "navegan", "past": "navegaron", "future": "navegarán" } } },
+          { "id": "tn-p2", "time": "past",    "timeWord": "Ayer",   "subject": "los perros",   "verb": { "lemma": "correr",  "regular": true,  "forms": { "present": "corren",  "past": "corrieron", "future": "correrán" } } },
+          { "id": "tn-p3", "time": "past",    "timeWord": "Ayer",   "subject": "los amigos",   "verb": { "lemma": "cantar",  "regular": true,  "forms": { "present": "cantan",  "past": "cantaron",  "future": "cantarán" } } },
+          { "id": "tn-n1", "time": "present", "timeWord": "Hoy",    "subject": "las ranas",    "verb": { "lemma": "saltar",  "regular": true,  "forms": { "present": "saltan",  "past": "saltaron",  "future": "saltarán" } } },
+          { "id": "tn-n2", "time": "present", "timeWord": "Hoy",    "subject": "los patos",    "verb": { "lemma": "nadar",   "regular": true,  "forms": { "present": "nadan",   "past": "nadaron",   "future": "nadarán" } } },
+          { "id": "tn-n3", "time": "present", "timeWord": "Hoy",    "subject": "los gatos",    "verb": { "lemma": "jugar",   "regular": false, "forms": { "present": "juegan",  "past": "jugaron",   "future": "jugarán" } } },
+          { "id": "tn-f1", "time": "future",  "timeWord": "Mañana", "subject": "las niñas",    "verb": { "lemma": "pintar",  "regular": true,  "forms": { "present": "pintan",  "past": "pintaron",  "future": "pintarán" } } },
+          { "id": "tn-f2", "time": "future",  "timeWord": "Mañana", "subject": "los niños",    "verb": { "lemma": "bailar",  "regular": true,  "forms": { "present": "bailan",  "past": "bailaron",  "future": "bailarán" } } },
+          { "id": "tn-f3", "time": "future",  "timeWord": "Mañana", "subject": "los ratones",  "verb": { "lemma": "comer",   "regular": true,  "forms": { "present": "comen",   "past": "comieron",  "future": "comerán" } } }
         ]
       }
     },
     "slug": {
       "en": "verb-tense-past-present-future",
       "de": "zeitformen-ueben-gegenwart-vergangenheit-zukunft-klasse-2",
-      "fr": "passe-present-futur-conjuguer-les-verbes-ce1"
+      "fr": "passe-present-futur-conjuguer-les-verbes-ce1",
+      "es": "tiempos-verbales-presente-pasado-futuro-2-primaria"
     },
     "page_title": {
       "en": "The Clock Tower — Verb Tense: Past, Present & Future (Grade 1)",
       "de": "Zeitformen üben – Verben online (Klasse 2)",
-      "fr": "Conjugaison CE1 : passé, présent, futur – en ligne"
+      "fr": "Conjugaison CE1 : passé, présent, futur – en ligne",
+      "es": "Tiempos verbales: presente, pasado y futuro (2.º primaria)"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 grammar activity: help Juniper the robin keep the clock tower's three time-windows — Before, Now, and Soon. Read the time word in each sentence, then tap the verb that fits the past, present, or future. A friendly first look at using verbs to tell when something happens. Common Core L.1.1.e.",
       "de": "Zeitformen üben mit Junipers Uhrturm: Vergangenheit, Gegenwart und Zukunft unterscheiden. Verben für Klasse 2 – kostenlos online, ohne Anmeldung.",
-      "fr": "Conjugaison CE1 : conjugue le verbe au passé, au présent ou au futur, phrase par phrase. Gratuit, en ligne, sans inscription."
+      "fr": "Conjugaison CE1 : conjugue le verbe au passé, au présent ou au futur, phrase par phrase. Gratuit, en ligne, sans inscription.",
+      "es": "La torre del tiempo de Juniper es una actividad interactiva y gratuita para practicar los tiempos verbales: el niño elige la forma del verbo según el tiempo, presente, pasado o futuro. Pensada para 2.º de primaria, se juega en el navegador, sin registro. Alineado a los Planes y programas de estudio (SEP)."
     },
     "kid_prompt_template": "tense"
   }

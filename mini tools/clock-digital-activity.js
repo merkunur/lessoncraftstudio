@@ -52,6 +52,21 @@
       hintMinute: 'Compte les petits traits : chacun vaut une minute.',
       srMatchBody: ' Il est {t}. Les horloges montrent : {cs}.',
       srReadBody: ' L\'horloge montre {t}. Les choix sont : {ds}.'
+    },
+    /* es-MX — native ensemble (lingüista + pedagoga de primaria). "reloj de manecillas";
+       "manecilla corta (la hora) / larga (los minutos)". {t} = frase autónoma capitalizada
+       de spoken() (empieza oración). Tono cálido, sin marcador; "Casi/Fíjate", nunca "mal". */
+    es: {
+      q: '¿Qué hora es?',
+      qMatch: '¿Cuál reloj marca esta hora?',
+      win: '¡Sí! {t}.',
+      hint: 'Fíjate a dónde apunta la manecilla corta: esa es la hora.',
+      hintMatch: 'Busca el reloj cuyas manecillas marcan esta hora.',
+      hintMin: 'Lee las dos manecillas: la larga te dice los minutos.',
+      hintFive: 'Cuenta de 5 en 5 alrededor del reloj: la manecilla larga marca los minutos.',
+      hintMinute: 'Cuenta las rayitas: cada una es un minuto.',
+      srMatchBody: ' {t}. Los relojes muestran: {cs}.',
+      srReadBody: ' El reloj marca la hora. {t}. Las opciones son: {ds}.'
     }
   };
   var LANG = 'en';
@@ -66,6 +81,20 @@
   /* a friendly spoken-time phrase for the win note / aria / sr (locale-aware: German uses „N Uhr" / „halb (N+1)" / „Viertel nach·vor"; French „N heures et demie") */
   function spoken(t) {
     var hh = t.h, mm = t.m;
+    /* es-MX — native ensemble. El idioma de la hora en México: "y media" = hora EN CURSO
+       (3:30 = "las tres y media"), y el "cuarto para" mexicano (3:45 = "un cuarto para las
+       cuatro", NUNCA el peninsular "menos cuarto"). El verbo+artículo van DENTRO de la frase
+       para resolver "Es la una" vs "Son las tres" (y "…para la una" al pasar de 12→1). */
+    if (LANG === 'es') {
+      var HRS = ['', 'una', 'dos', 'tres', 'cuatro', 'cinco', 'seis', 'siete', 'ocho', 'nueve', 'diez', 'once', 'doce'];
+      var one = (hh === 1), verbo = one ? 'Es' : 'Son', art = one ? 'la' : 'las', hp = HRS[hh];
+      if (mm === 0) return verbo + ' ' + art + ' ' + hp + ' en punto';
+      if (mm === 30) return verbo + ' ' + art + ' ' + hp + ' y media';
+      if (mm === 15) return verbo + ' ' + art + ' ' + hp + ' y cuarto';
+      if (mm === 45) { var nx = (hh === 12) ? 1 : hh + 1, nart = (nx === 1) ? 'la' : 'las'; return 'Es un cuarto para ' + nart + ' ' + HRS[nx]; }
+      var mmS = mm < 10 ? '0' + mm : '' + mm;
+      return verbo + ' ' + art + ' ' + hh + ':' + mmS;
+    }
     if (LANG === 'fr') {
       if (mm === 0) return hh + (hh === 1 ? ' heure' : ' heures');                 /* « 3 heures », « 1 heure », « 12 heures » (douze, not midi) */
       if (mm === 30) return hh + (hh === 1 ? ' heure et demie' : ' heures et demie'); /* feminine „demie" (agrees with heure) */
@@ -137,8 +166,8 @@
   var ClockDigitalActivity = {
     id: 'clock-digital-activity',
     strings: {
-      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr', fr: 'L\'horloge de Sprocket' },
-      instruction: { en: 'Read the clock, then tap the time that matches.', de: 'Lies die Uhr ab und tippe dann auf die passende Uhrzeit.', fr: 'Lis l\'horloge, puis touche l\'heure qui correspond.' },
+      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr', fr: 'L\'horloge de Sprocket', es: 'El reloj de Sprocket' },
+      instruction: { en: 'Read the clock, then tap the time that matches.', de: 'Lies die Uhr ab und tippe dann auf die passende Uhrzeit.', fr: 'Lis l\'horloge, puis touche l\'heure qui correspond.', es: 'Lee el reloj y luego toca la hora que coincida.' },
       q: { en: '{q}' }
     },
 

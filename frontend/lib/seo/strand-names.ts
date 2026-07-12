@@ -177,6 +177,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     en: 'Vocabulary Acquisition and Use',
     de: 'Wortschatz untersuchen', // Lehrplan vocabulary sub-area (de literacy fan-out; affix/Wortbildung + L.K.5.A category-sorting)
     fr: 'Le lexique', // programmes officiels cycle 2 sous-domaine d'Étude de la langue (fr literacy fan-out — préfixes/suffixes; distinct from the broader "Language"→fr « Étude de la langue »; reused by future fr lexique activities)
+    es: 'Ampliación del vocabulario', // SEP/NEM vocabulary-growth sub-area (es literacy fan-out — prefijos/sufijos; distinct from the grammar strand "Language"→es "Reflexión sobre la lengua"; reused by future es vocabulary activities)
   },
   'Number & Operations—Fractions': {
     en: 'Number & Operations—Fractions',

@@ -23,7 +23,11 @@
  */
 const crypto = require('crypto');
 const http = require('http');
-const { PrismaClient } = require('@prisma/client');
+const path = require('path');
+// Node resolves modules relative to THIS file's dir (scripts/payments/), not the cwd, and the
+// generated Prisma client lives in frontend/node_modules (where `prisma generate` writes it).
+// Resolve it explicitly so the canary works when deploy.sh runs it by absolute path.
+const { PrismaClient } = require(path.resolve(__dirname, '..', '..', 'frontend', 'node_modules', '@prisma', 'client'));
 
 const SECRET = process.env.LEMONSQUEEZY_WEBHOOK_SECRET;
 const PORT = Number(process.env.PORT) || 3000;

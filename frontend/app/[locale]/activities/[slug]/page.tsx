@@ -180,7 +180,7 @@ const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'point-of-view.who-told.rl-1-6': { fr: 'Comprendre et interpréter' }, // FR CE1: identifier de quel point de vue une phrase est racontée = interpréter la perspective narrative → « Comprendre et interpréter » (= tous les frères RL d'inférence narrative retell #49/fable #52/trait #56/wake-up-pip); "Reading: Literature" has no fr in strand-names.ts (would leak EN); en/de fall through
   'graph-it.bar-graph.2-md-d-10': { de: 'Daten und Häufigkeit', fr: 'Organisation et gestion de données', es: 'Análisis de datos' },   // bar graph = data, not Größen / Grandeurs et mesures / Magnitudes y medida (ES: eje Análisis de datos, Aprendizajes clave)
   'line-plot.read.2-md-d-9': { de: 'Daten und Häufigkeit', fr: 'Organisation et gestion de données', es: 'Análisis de datos' },        // line plot of measured lengths = data, not Größen / Grandeurs et mesures / Magnitudes y medida (ES: eje "Análisis de datos", igual que graph-it — la habilidad evaluada es leer frecuencias, no medir)
-  'hoppers-number-line.jump-sums.2-md-b-6': { de: 'Zahlen und Rechnen im Zehnersystem', fr: 'Nombres et calcul' }, // add/sub on a number line = arithmetic, not Größen / Grandeurs et mesures
+  'hoppers-number-line.jump-sums.2-md-b-6': { de: 'Zahlen und Rechnen im Zehnersystem', fr: 'Nombres et calcul', es: 'Sentido numérico' }, // add/sub on a number line = arithmetic, not Größen / Grandeurs et mesures / Magnitudes y medida (ES: eje "Sentido numérico" — la recta numérica es solo el modelo; igual que el skip-count Hopper #3, NO "Número, álgebra y variación")
   'mosaic-menders.area-match.3-md-c-6': { de: 'Raum und Form' },    // Flächeninhalt = Raum und Form in KMK, not Größen und Messen
   'patchwork-meadow.tile.3-md-c-6': { de: 'Raum und Form' },        // Flächeninhalt durch Auslegen = Raum und Form (sibling of mosaic-menders)
   'digby-number-trace.numeral-formation.k-cc-a-3': { de: 'Zahlen und Operationen', fr: 'Découvrir les nombres et leurs utilisations' },  // numeral WRITING = Zahldarstellung (NOT the reading sibling pips-round's „Zählen und Mengen"). FR GS-anchored (necklace/twinsies/mochi/wondering-jar precedent): écrire/tracer les chiffres 0-9 = attendu de GS (« écrire les nombres avec les chiffres », le geste graphique du chiffre, plage 0-9 = maternelle) → native 'K' auto-maps to GS (NO fr grade override; ⚠ diverges from the de Klasse-1 fan); the maternelle number domain, NOT the cycle-2 « Nombres et calcul » auto-map (a year off beside the GS chip), and NOT « Écriture » (that's for LETTER formation — here the CCSS strand is the math C&C domain); en/de fall through
@@ -522,7 +522,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.249';
+  const ACTIVITY_WRAPPER_VERSION = '9.250';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

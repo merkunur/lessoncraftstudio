@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "line-plot.read.2-md-d-9": {
+      "about": [
+        "Shelly, el cangrejo ermitaño, camina por la orilla del mar recogiendo conchas de todos los tamaños. En esta actividad gratuita tu peque la acompaña a medir cada concha en centímetros con una recta numérica y a registrar su longitud colocando una X justo encima del número que le corresponde. Poco a poco, esas X apiladas van formando un diagrama de frecuencias que muestra de un vistazo cuántas conchas hay de cada tamaño.",
+        "Cuando el diagrama está completo, la niña o el niño aprende a leerlo como un pequeño detective de datos: cuenta cuántas conchas miden cierta cantidad de centímetros, descubre cuál es la longitud más frecuente, averigua cuántas son más largas que otra medida y calcula la diferencia entre la concha más larga y la más corta. Todo se resuelve contando y comparando, sin operaciones complicadas.",
+        "Pensada para segundo grado de primaria (aproximadamente 7 a 8 años), esta experiencia conecta dos ideas clave del análisis de datos: medir en centímetros y representar esa información para poder leerla. Es una actividad gratis, funciona en el navegador y no tiene cronómetro ni puntos, así que tu peque explora con calma y a su propio ritmo."
+      ],
+      "practices": [
+        "Medir longitudes de conchas en centímetros usando la recta numérica.",
+        "Registrar los datos en un diagrama de frecuencias colocando una X sobre cada medida.",
+        "Leer frecuencias del diagrama: cuántas conchas hay de una longitud y cuántas más de otra.",
+        "Comparar longitudes para saber cuál concha es más larga y cuál es la diferencia entre ellas."
+      ],
+      "howToPlay": [
+        "Observa la concha de Shelly y lee con atención cuántos centímetros mide sobre la recta numérica.",
+        "Toca el número correcto y verás aparecer una X que se suma al diagrama de frecuencias.",
+        "En el modo de lectura, responde preguntas sobre el diagrama, por ejemplo cuál es la longitud más frecuente; tómate tu tiempo, aquí no hay cronómetro ni puntos."
+      ],
+      "learningGoals": [
+        "Representar longitudes medidas en centímetros dentro de un diagrama de frecuencias sobre una recta numérica.",
+        "Leer el diagrama para identificar cuál es la longitud más frecuente y cuántas conchas miden más de cierta cantidad de centímetros.",
+        "Determinar la diferencia entre la concha más larga y la más corta comparando los datos representados."
+      ]
+    },
     "bundle-bot.bundle-machine.1-nbt-b-2-a": {
       "about": [
         "Bolt es un robot que va soltando unidades sueltas, de una en una, dentro de una charola. Tu peque las cuenta y, al llegar a diez, jala la palanca: Bolt agrupa esas diez unidades en una decena, es decir, en una barra de diez. Así, decena tras decena, se van armando números de 20 a 49 con decenas y unidades, sin ninguna operación de por medio.",

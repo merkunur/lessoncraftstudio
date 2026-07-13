@@ -35,13 +35,23 @@
           { "id": "car-parapluie-pluie", "band": 2, "relation": "cause", "sentence": "Je prends le parapluie, ___ il pleut." },
           { "id": "mais-jeu-gagne", "band": 3, "relation": "contrast", "sentence": "Le jeu était difficile, ___ nous avons gagné." },
           { "id": "car-dedans-froid", "band": 3, "relation": "cause", "sentence": "On reste dedans aujourd’hui, ___ il fait très froid." }
+        ],
+        "es": [
+          { "id": "y-comida-mesa", "band": 1, "relation": "addition", "sentence": "Mamá cocina la comida ___ papá pone la mesa." },
+          { "id": "o-columpio-resbaladilla", "band": 1, "relation": "alternative", "sentence": "¿Quieres columpiarte ___ prefieres la resbaladilla?" },
+          { "id": "pero-parque-lluvia", "band": 1, "relation": "contrast", "sentence": "Quería ir al parque, ___ empezó a llover." },
+          { "id": "y-sol-pajaros", "band": 2, "relation": "addition", "sentence": "El sol brilla ___ los pájaros cantan." },
+          { "id": "o-bici-pelicula", "band": 2, "relation": "alternative", "sentence": "¿Salimos a andar en bici ___ nos quedamos a ver una película?" },
+          { "id": "porque-manzana-hambre", "band": 2, "relation": "cause", "sentence": "Me como una manzana ___ tengo hambre." },
+          { "id": "pero-juego-ganamos", "band": 3, "relation": "contrast", "sentence": "El juego estuvo difícil, ___ ganamos." },
+          { "id": "porque-adentro-frio", "band": 3, "relation": "cause", "sentence": "Hoy nos quedamos adentro ___ hace mucho frío." }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "hazel-word-bridge", "de": "bindewoerter-und-oder-aber-denn-klasse-3", "fr": "les-mots-de-liaison-et-ou-mais-car-ce2" },
-    "page_title": { "en": "Hazel's Word Bridge — Joining Words (Grade 1)", "de": "Hazels Wortbrücke – Bindewörter üben: und, oder, aber, denn (Klasse 3)", "fr": "Les mots de liaison : et, ou, mais, car — CE2" },
-    "page_intro": { "en": "Hazel the heron builds a little word-bridge between two ideas, and a joining word holds it together. Read each sentence, then tap the word that fills the blank — and, but, because, or so — so the two parts make sense. A warm Grade 1 grammar game about using conjunctions to join ideas, aligned to Common Core L.1.1.g.", "de": "Mit Hazel dem Reiher Bindewörter üben: Setze und, oder, aber oder denn passend in den Satz ein – kostenlos und interaktiv, passend zum Lehrplan der Klasse 3.", "fr": "Avec Hazel le héron, choisis le bon mot de liaison — et, ou, mais ou car — selon le sens de la phrase. Activité de grammaire CE2, gratuite et interactive." },
+    "slug": { "en": "hazel-word-bridge", "de": "bindewoerter-und-oder-aber-denn-klasse-3", "fr": "les-mots-de-liaison-et-ou-mais-car-ce2", "es": "nexos-y-o-pero-porque-3-primaria" },
+    "page_title": { "en": "Hazel's Word Bridge — Joining Words (Grade 1)", "de": "Hazels Wortbrücke – Bindewörter üben: und, oder, aber, denn (Klasse 3)", "fr": "Les mots de liaison : et, ou, mais, car — CE2", "es": "Hazel y los nexos: y, o, pero, porque (3.º de primaria)" },
+    "page_intro": { "en": "Hazel the heron builds a little word-bridge between two ideas, and a joining word holds it together. Read each sentence, then tap the word that fills the blank — and, but, because, or so — so the two parts make sense. A warm Grade 1 grammar game about using conjunctions to join ideas, aligned to Common Core L.1.1.g.", "de": "Mit Hazel dem Reiher Bindewörter üben: Setze und, oder, aber oder denn passend in den Satz ein – kostenlos und interaktiv, passend zum Lehrplan der Klasse 3.", "fr": "Avec Hazel le héron, choisis le bon mot de liaison — et, ou, mais ou car — selon le sens de la phrase. Activité de grammaire CE2, gratuite et interactive.", "es": "Con Hazel la garza, tu peque completa oraciones eligiendo el nexo que va con el sentido: y, o, pero o porque. Actividad gratis e interactiva para 3.º de primaria, alineada a los Planes y programas de estudio (SEP)." },
     "kid_prompt_template": "hazel-word-bridge"
   }
 ]

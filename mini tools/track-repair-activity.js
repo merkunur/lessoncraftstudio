@@ -26,8 +26,8 @@
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG), rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'es' ? 'es-MX' : LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
@@ -36,17 +36,17 @@
     id: 'track-repair-activity',
 
     strings: {
-      title: { en: 'Whistle Valley', de: 'Pfeiftal', fr: 'La vallée du Sifflet' },
-      instruction: { en: '', de: '', fr: '' },
-      prompt: { en: 'Lay the track to scale!', de: 'Leg jede Schwelle an die richtige Stelle!', fr: 'Pose chaque traverse à la bonne place !' },
-      send: { en: 'Send the train! 🚂', de: 'Schick den Zug los! 🚂', fr: 'Envoie le train ! 🚂' },
-      engineListen: { en: 'A tie goes where its number belongs.', de: 'Jede Schwelle gehört dorthin, wo ihre Zahl steht.', fr: 'Chaque traverse va là où se trouve son nombre.' },
-      engineWin: { en: 'All aboard! ', de: 'Alle einsteigen! ', fr: 'En voiture !  ' },
-      engineWait: { en: "Not yet — the train's still waiting.", de: 'Noch nicht – der Zug wartet noch.', fr: 'Pas encore — le train attend toujours.' },
-      tapToPlace: { en: 'Tap a tie, then tap the track where it belongs.', de: 'Tippe auf eine Schwelle und dann auf die Stelle, wo sie hingehört.', fr: 'Touche une traverse, puis touche l’endroit de la voie où elle va.' },
-      hintCheck: { en: 'Lay every tie, then send the train!', de: 'Leg alle Schwellen, dann schick den Zug los!', fr: 'Pose toutes les traverses, puis envoie le train !' },
-      ariaTie: { en: 'tie {n}', de: 'Schwelle {n}', fr: 'traverse {n}' },
-      ariaPlaced: { en: '{n}, placed — tap to pick up again', de: '{n}, gelegt – zum Aufheben tippen', fr: '{n}, posée — touche pour la reprendre' }
+      title: { en: 'Whistle Valley', de: 'Pfeiftal', fr: 'La vallée du Sifflet', es: 'El Valle del Silbato' },
+      instruction: { en: '', de: '', fr: '', es: '' },
+      prompt: { en: 'Lay the track to scale!', de: 'Leg jede Schwelle an die richtige Stelle!', fr: 'Pose chaque traverse à la bonne place !', es: '¡Coloca cada durmiente en su lugar!' },
+      send: { en: 'Send the train! 🚂', de: 'Schick den Zug los! 🚂', fr: 'Envoie le train ! 🚂', es: '¡Arranca el tren! 🚂' },
+      engineListen: { en: 'A tie goes where its number belongs.', de: 'Jede Schwelle gehört dorthin, wo ihre Zahl steht.', fr: 'Chaque traverse va là où se trouve son nombre.', es: 'Cada durmiente va donde le toca su número.' },
+      engineWin: { en: 'All aboard! ', de: 'Alle einsteigen! ', fr: 'En voiture !  ', es: '¡Todos a bordo! ' },
+      engineWait: { en: "Not yet — the train's still waiting.", de: 'Noch nicht – der Zug wartet noch.', fr: 'Pas encore — le train attend toujours.', es: 'Todavía no: el tren sigue esperando.' },
+      tapToPlace: { en: 'Tap a tie, then tap the track where it belongs.', de: 'Tippe auf eine Schwelle und dann auf die Stelle, wo sie hingehört.', fr: 'Touche une traverse, puis touche l’endroit de la voie où elle va.', es: 'Toca un durmiente y luego toca el lugar donde va.' },
+      hintCheck: { en: 'Lay every tie, then send the train!', de: 'Leg alle Schwellen, dann schick den Zug los!', fr: 'Pose toutes les traverses, puis envoie le train !', es: '¡Coloca todos los durmientes y arranca el tren!' },
+      ariaTie: { en: 'tie {n}', de: 'Schwelle {n}', fr: 'traverse {n}', es: 'durmiente {n}' },
+      ariaPlaced: { en: '{n}, placed — tap to pick up again', de: '{n}, gelegt – zum Aufheben tippen', fr: '{n}, posée — touche pour la reprendre', es: '{n}, colocado — toca para levantarlo otra vez' }
     },
     defaults: {},
 

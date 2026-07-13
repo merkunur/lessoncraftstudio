@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "track-repair.count-to-120.1-nbt-a-1": {
+      "about": [
+        "Una tormenta arrancó un tramo de vía en el valle del silbato y el trencito no puede avanzar hasta que los durmientes vuelvan a su lugar exacto. Ese tramo de vía es, en secreto, una recta numérica: entre dos estaciones marcadas, el niño o la niña coloca cada durmiente numerado en el punto donde de verdad va su número. Cuando cada número ocupa su sitio, la vía queda lista para el paso del tren.",
+        "Mientras juega, tu hijo cuenta hacia adelante y hacia atrás desde una estación y descubre que la posición dice el tamaño: mientras más grande el número, más a la derecha se coloca. También cuenta de 5 en 5 y de 10 en 10 —«10», «15», «20», «25»… o «40», «50», «60», «70»…— y busca el punto medio entre dos estaciones, por ejemplo el «60» justo entre el «40» y el «80»; en una ronda el trencito incluso rueda un poquito más allá del «100». Así construye una noción firme de los números y su orden: la orientación en la recta numérica hasta 100.",
+        "Toda la actividad es gratuita, sin cronómetro, sin puntajes y sin competencia; el niño o la niña avanza a su propio ritmo. Está alineada con el programa de primaria mexicano, dentro del eje de Sentido numérico, donde la recta numérica y los números hasta 100 tienen su lugar."
+      ],
+      "practices": [
+        "Ubicar un número en la recta numérica por su posición (posición = tamaño del número).",
+        "Contar hacia adelante y hacia atrás desde una estación, incluso al pasar una decena o el «100».",
+        "Contar de 5 en 5 y de 10 en 10 y continuar series numéricas.",
+        "Hallar el punto medio entre dos estaciones."
+      ],
+      "howToPlay": [
+        "Observa las dos estaciones marcadas al inicio y al final del tramo.",
+        "Coloca cada durmiente numerado en el lugar donde va su número en la recta; si dudas, cuenta desde la estación más cercana.",
+        "Cuando todos los durmientes queden en su sitio, el tramo queda reparado y la locomotora sigue su camino."
+      ],
+      "learningGoals": [
+        "Construir una noción firme de los números hasta 100.",
+        "Ordenar números en la recta numérica y entender su secuencia.",
+        "Contar de 5 en 5 y de 10 en 10 y continuar series con seguridad."
+      ]
+    },
     "bram-board-shop.length-word-problems.2-md-b-5": {
       "about": [
         "Bram, el castor, tiene un taller de tablas y siempre trae una pequeña historia de longitudes para tu hijo: dos tablas se juntan, se corta un pedazo, o hay que averiguar cuántos centímetros más larga es una tabla que otra. El niño o la niña lee la historia con calma y coloca en la cinta métrica las longitudes que ya conoce. Después busca la longitud que falta y la marca sobre la cinta, como si midiera una tabla de verdad en el taller de Bram.",

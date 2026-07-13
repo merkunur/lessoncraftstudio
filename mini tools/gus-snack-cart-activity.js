@@ -18,7 +18,7 @@
   var LANG = 'en';
 
   function gopherSVG() {
-    return '<svg class="gsc-go-svg" viewBox="0 0 100 100" role="img" aria-label="Gus the gopher">' +
+    return '<svg class="gsc-go-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'es' ? 'Gus la ardilla' : 'Gus the gopher') + '">' +
       '<ellipse cx="50" cy="64" rx="22" ry="22" fill="#B98A5E"/>' +                /* body */
       '<circle cx="50" cy="36" r="16" fill="#CBA070"/>' +                          /* head */
       '<circle cx="38" cy="24" r="6" fill="#CBA070"/><circle cx="62" cy="24" r="6" fill="#CBA070"/>' + /* ears */
@@ -33,13 +33,13 @@
     id: 'gus-snack-cart-activity',
 
     strings: {
-      title: { en: "Gus's Snack Cart", de: "Gus' Snackwagen", fr: 'Le stand de snacks de Gus' },
-      instruction: { en: 'Add or subtract within 100 and type the answer.', de: 'Rechne plus oder minus bis 100 und tippe die Antwort ein.', fr: 'Additionne ou soustrais jusqu’à 100, puis tape la réponse.' },
-      prompt: { en: 'Add or subtract. Type the answer below.', de: 'Rechne plus oder minus. Tippe die Antwort unten ein.', fr: 'Additionne ou soustrais.' },
-      gusIntro: { en: 'Help Gus count his snacks — add what he gets, take away what he sells!', de: 'Hilf Gus, seine Snacks zu zählen – rechne dazu, was er bekommt, und weg, was er verkauft!', fr: 'Aide Gus à compter ses snacks — ajoute ce qu’il récolte, enlève ce qu’il vend !' },
-      hintAdd: { en: 'He got MORE — add the two numbers together.', de: 'Er hat MEHR bekommen – zähle die beiden Zahlen zusammen.', fr: 'Il en a eu PLUS — additionne les deux nombres.' },
-      hintSub: { en: 'Some are gone — take the second number away.', de: 'Einige sind weg – ziehe die zweite Zahl ab.', fr: 'Il en manque — enlève le second nombre.' },
-      win: { en: 'Yes! That adds up. 🥜', de: 'Stimmt genau! 🥜', fr: 'Oui ! Le compte est bon. 🥜' }
+      title: { en: "Gus's Snack Cart", de: "Gus' Snackwagen", fr: 'Le stand de snacks de Gus', es: 'El carrito de Gus' },
+      instruction: { en: 'Add or subtract within 100 and type the answer.', de: 'Rechne plus oder minus bis 100 und tippe die Antwort ein.', fr: 'Additionne ou soustrais jusqu’à 100, puis tape la réponse.', es: 'Suma o resta hasta 100 y escribe la respuesta.' },
+      prompt: { en: 'Add or subtract. Type the answer below.', de: 'Rechne plus oder minus. Tippe die Antwort unten ein.', fr: 'Additionne ou soustrais.', es: 'Suma o resta. Escribe tu respuesta abajo.' },
+      gusIntro: { en: 'Help Gus count his snacks — add what he gets, take away what he sells!', de: 'Hilf Gus, seine Snacks zu zählen – rechne dazu, was er bekommt, und weg, was er verkauft!', fr: 'Aide Gus à compter ses snacks — ajoute ce qu’il récolte, enlève ce qu’il vend !', es: '¡Ayúdale a Gus a contar sus botanas: suma lo que recibe y quita lo que vende!' },
+      hintAdd: { en: 'He got MORE — add the two numbers together.', de: 'Er hat MEHR bekommen – zähle die beiden Zahlen zusammen.', fr: 'Il en a eu PLUS — additionne les deux nombres.', es: 'Recibió MÁS: suma los dos números.' },
+      hintSub: { en: 'Some are gone — take the second number away.', de: 'Einige sind weg – ziehe die zweite Zahl ab.', fr: 'Il en manque — enlève le second nombre.', es: 'Ya vendió algunas: resta el segundo número.' },
+      win: { en: 'Yes! That adds up. 🥜', de: 'Stimmt genau! 🥜', fr: 'Oui ! Le compte est bon. 🥜', es: '¡Justo! 🥜' }
     },
     defaults: {},
 

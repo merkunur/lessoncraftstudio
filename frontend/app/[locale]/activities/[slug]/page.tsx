@@ -185,7 +185,7 @@ const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'digby-number-trace.numeral-formation.k-cc-a-3': { de: 'Zahlen und Operationen', fr: 'Découvrir les nombres et leurs utilisations' },  // numeral WRITING = Zahldarstellung (NOT the reading sibling pips-round's „Zählen und Mengen"). FR GS-anchored (necklace/twinsies/mochi/wondering-jar precedent): écrire/tracer les chiffres 0-9 = attendu de GS (« écrire les nombres avec les chiffres », le geste graphique du chiffre, plage 0-9 = maternelle) → native 'K' auto-maps to GS (NO fr grade override; ⚠ diverges from the de Klasse-1 fan); the maternelle number domain, NOT the cycle-2 « Nombres et calcul » auto-map (a year off beside the GS chip), and NOT « Écriture » (that's for LETTER formation — here the CCSS strand is the math C&C domain); en/de fall through
   'olive-kind-of.category-attribute.l-1-5-b': { de: 'Wortschatz untersuchen', fr: 'Le lexique', es: 'Ampliación del vocabulario' }, // Oberbegriffe = Wortschatzarbeit, not Grammatik („Sprache untersuchen"); FR catégoriser/le mot générique = LE LEXIQUE (vocabulaire), beside affix/sage; en falls through to Language. MX: categorizar = trabajo de vocabulario, MISMO eje que #22 afijos + #26 familias de palabras → "Ampliación del vocabulario", NO gramática
   'cleo-packing-list.series-commas.l-1-2-b': { de: 'Richtig schreiben', es: 'Ortografía y puntuación' }, // Zeichensetzung = orthography/Rechtschreiben, not „Sprache untersuchen"; ES puntuación = ortografía, not "Reflexión sobre la lengua" (grammar)
-  'wally-capital-crane.special-names.l-2-2-a': { de: 'Richtig schreiben', fr: 'L’orthographe' }, // Nomen-Großschreibung = orthography/Rechtschreiben; FR: la majuscule d'un nom propre = orthographe lexicale (divergence from #30 ponctuation → étude de la langue)
+  'wally-capital-crane.special-names.l-2-2-a': { de: 'Richtig schreiben', fr: 'L’orthographe', es: 'Ortografía y puntuación' }, // Nomen-Großschreibung = orthography/Rechtschreiben; FR: la majuscule d'un nom propre = orthographe lexicale (divergence from #30 ponctuation → étude de la langue); ES mayúsculas = ortografía (same label as #30 comma), NOT "Reflexión sobre la lengua"
   'sunny-side-diner.compound-order.l-k-1-f': { fr: 'Langage oral' }, // FR: écouter la commande + la redire en jeu de rôle = production orale → « Langage oral » (composante cycle 2), NOT the grammar Bereich; the child PRODUCES the sentence, doesn't analyse it. en falls through to Language
   'snippy.letter-formation.l-k-1-a': { fr: 'Écriture' }, // FR: former/tracer les lettres = le geste graphique/geste d'écriture → domaine « Écriture » (calque le frère allemand « Schreiben »), NOT « Étude de la langue » (grammaire). en falls through to Language
   'rusty-yesterday.irregular-past.l-2-1-d': { fr: 'La conjugaison' },      // FR: le passé composé = conjugaison, its own named strand at l'école élémentaire (finer than the « Étude de la langue » umbrella; DE stays default « Sprache untersuchen »)
@@ -521,7 +521,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.262';
+  const ACTIVITY_WRAPPER_VERSION = '9.263';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

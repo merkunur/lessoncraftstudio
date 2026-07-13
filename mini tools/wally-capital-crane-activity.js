@@ -34,13 +34,13 @@
     id: 'wally-capital-crane-activity',
 
     strings: {
-      title: { en: "Wally's Capital Crane", de: 'Wallys Großbuchstaben-Kran', fr: 'Wally et la grue à majuscules' },
-      instruction: { en: 'Tap the special name that needs a capital letter.', de: 'Tippe das Nomen an, das großgeschrieben wird.', fr: 'Touche le nom propre qui a oublié sa majuscule.' },
-      prompt: { en: 'Tap the word that needs a capital letter.', de: 'Welches Wort ist ein Nomen und wird großgeschrieben?', fr: 'Quel mot est un nom propre et prend une majuscule ?' },
-      wallyIntro: { en: 'Special names get a BIG letter — lift it up with the crane!', de: 'Nomen schreibt man groß — mein Kran hebt den Buchstaben hoch!', fr: 'Personne, ville ou pays : ma grue lui met sa majuscule !' },
-      hintPick: { en: 'Holidays, places, and products are special names — they need a capital.', de: 'Nomen (Namenwörter für Menschen, Tiere und Dinge) schreibt man immer groß. Welches Wort ist ein Nomen?', fr: 'Cherche le nom d’une personne, d’une ville ou d’un pays : il prend une majuscule.' },
-      hintWrong: { en: 'That one is fine. Find the special name (a holiday, place, or product).', de: 'Fast! Das ist kein Nomen. Suche das Wort für einen Menschen, ein Tier oder ein Ding.', fr: 'Ce mot n’est pas un nom propre. Cherche plutôt le nom d’une personne, d’une ville ou d’un pays.' },
-      win: { en: 'Yes! That special name gets a big capital letter. 🏗️', de: 'Stark! Du hast das Nomen großgeschrieben! 🏗️', fr: 'Bravo ! Wally a soulevé la majuscule ! 🏗️' }
+      title: { en: "Wally's Capital Crane", de: 'Wallys Großbuchstaben-Kran', fr: 'Wally et la grue à majuscules', es: 'La grúa de mayúsculas de Wally' },
+      instruction: { en: 'Tap the special name that needs a capital letter.', de: 'Tippe das Nomen an, das großgeschrieben wird.', fr: 'Touche le nom propre qui a oublié sa majuscule.', es: 'Toca el nombre propio que necesita mayúscula.' },
+      prompt: { en: 'Tap the word that needs a capital letter.', de: 'Welches Wort ist ein Nomen und wird großgeschrieben?', fr: 'Quel mot est un nom propre et prend une majuscule ?', es: '¿Qué palabra es un nombre propio y necesita mayúscula?' },
+      wallyIntro: { en: 'Special names get a BIG letter — lift it up with the crane!', de: 'Nomen schreibt man groß — mein Kran hebt den Buchstaben hoch!', fr: 'Personne, ville ou pays : ma grue lui met sa majuscule !', es: 'Persona, ciudad o país: ¡mi grúa le pone su mayúscula!' },
+      hintPick: { en: 'Holidays, places, and products are special names — they need a capital.', de: 'Nomen (Namenwörter für Menschen, Tiere und Dinge) schreibt man immer groß. Welches Wort ist ein Nomen?', fr: 'Cherche le nom d’une personne, d’une ville ou d’un pays : il prend une majuscule.', es: 'Busca el nombre de una persona, una ciudad o un país: lleva mayúscula.' },
+      hintWrong: { en: 'That one is fine. Find the special name (a holiday, place, or product).', de: 'Fast! Das ist kein Nomen. Suche das Wort für einen Menschen, ein Tier oder ein Ding.', fr: 'Ce mot n’est pas un nom propre. Cherche plutôt le nom d’une personne, d’une ville ou d’un pays.', es: 'Esa palabra no es un nombre propio. Busca el nombre de una persona, una ciudad o un país.' },
+      win: { en: 'Yes! That special name gets a big capital letter. 🏗️', de: 'Stark! Du hast das Nomen großgeschrieben! 🏗️', fr: 'Bravo ! Wally a soulevé la majuscule ! 🏗️', es: '¡Muy bien! Wally levantó la mayúscula. 🏗️' }
     },
     defaults: {},
 

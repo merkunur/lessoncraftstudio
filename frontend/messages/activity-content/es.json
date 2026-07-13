@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "wally-capital-crane.special-names.l-2-2-a": {
+      "about": [
+        "Wally la morsa aparece con su grúa y una oración formada por chips de palabras; exactamente uno de los nombres propios está escrito con minúscula a mitad de la oración, y cuando el niño lo toca, la grúa de Wally levanta su primera letra y la convierte en mayúscula («méxico» se vuelve «México», «pedro» se vuelve «Pedro»), a lo largo de 8 rondas.",
+        "La regla es sencilla: los nombres propios —el nombre de una persona (Pedro, Sofía) o de un lugar (México, Puebla)— se escriben con mayúscula inicial, aun cuando aparecen a mitad de la oración; en cambio, los nombres comunes (amigo, perro, familia) van con minúscula, y así el niño aprende a distinguir unos de otros.",
+        "Es una actividad gratuita e interactiva que se juega directo en el navegador, sin registro ni descargas, con un tono cálido y sin presión: sin cronómetro y sin puntajes, alineada a los Planes y programas de estudio (SEP)."
+      ],
+      "practices": [
+        "Reconocer los nombres propios de personas y de lugares dentro de una oración.",
+        "Escribir con mayúscula inicial los nombres propios, aun cuando están a mitad de la oración.",
+        "Distinguir un nombre propio de un nombre común, como «Pedro» frente a «amigo».",
+        "Leer con atención cada oración para encontrar la palabra que necesita mayúscula."
+      ],
+      "howToPlay": [
+        "Lee la oración completa y busca el nombre de una persona o de un lugar.",
+        "Fíjate en cuál está escrito con minúscula y debería llevar mayúscula inicial.",
+        "Tócalo y la grúa de Wally levantará su letra para hacerla mayúscula; los intentos son ilimitados y no hay cronómetro."
+      ],
+      "learningGoals": [
+        "Reconoce los nombres propios de personas y de lugares cuando los ve en una oración.",
+        "Escribe con mayúscula inicial esos nombres propios, aunque aparezcan a mitad de la oración.",
+        "Diferencia un nombre propio de un nombre común y sabe cuál lleva mayúscula y cuál no."
+      ]
+    },
     "robin-mirror.reflexive.l-2-1-c": {
       "about": [
         "Robin el petirrojo aparece con su espejito y una oración a la que le falta una palabrita: el niño lee, por ejemplo, «Leo ___ levanta temprano», y toca la opción correcta entre me, te, se o nos, a lo largo de 8 rondas tranquilas.",

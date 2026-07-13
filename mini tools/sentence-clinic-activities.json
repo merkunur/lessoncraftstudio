@@ -513,6 +513,15 @@
               "beau"
             ]
           }
+        ],
+        "es": [
+          { "id": "cap-start",    "band": 1, "action": "capitalize",   "tokens": ["el","perro","es","grande","."], "targetIndex": 0, "replacement": "El", "convention": "Cada oración empieza con mayúscula.", "clean": ["El","perro","es","grande","."] },
+          { "id": "mark-end",     "band": 1, "action": "insert-punct", "tokens": ["El","sol","es","amarillo"], "gapIndex": 4, "replacement": ".", "distractors": [",","?"], "convention": "Cada oración termina con un punto.", "clean": ["El","sol","es","amarillo","."] },
+          { "id": "swap-agree",   "band": 2, "action": "swap",         "tokens": ["El","gato","comen","rápido","."], "targetIndex": 2, "replacement": "come", "distractors": ["comía","comes"], "convention": "La palabra de acción tiene que ir con quien la hace.", "clean": ["El","gato","come","rápido","."] },
+          { "id": "fill-verb",    "band": 2, "action": "insert-word",  "tokens": ["La","niña","una","manzana","."], "gapIndex": 2, "replacement": "come", "distractors": ["verde","debajo"], "convention": "A la oración le falta la palabra de acción.", "clean": ["La","niña","come","una","manzana","."] },
+          { "id": "order-svo",    "band": 3, "action": "reorder",      "tokens": ["bebe","gato","agua","El"], "correctOrder": [3,1,0,2], "convention": "Las palabras van en orden para que la oración tenga sentido.", "clean": ["El","gato","bebe","agua"] },
+          { "id": "del-double",   "band": 3, "action": "delete",       "tokens": ["Mi","mamá","ella","cocina","."], "targetIndex": 2, "convention": "No hace falta decir dos veces quién hace la acción.", "clean": ["Mi","mamá","cocina","."] },
+          { "id": "split-runon",  "band": 3, "action": "split",        "tokens": ["Yo","corro","hace","calor"], "seamIndex": 1, "replacement": "Hace", "convention": "Cuando hay dos ideas, se separan con un punto.", "clean": ["Yo","corro",".","Hace","calor"] }
         ]
       }
     },
@@ -520,17 +529,20 @@
     "slug": {
       "en": "dr-plumes-sentence-clinic",
       "de": "saetze-verbessern-klasse-2",
-      "fr": "corriger-une-phrase-la-reviser-ce1"
+      "fr": "corriger-une-phrase-la-reviser-ce1",
+      "es": "corregir-oraciones-mayuscula-punto-2-primaria"
     },
     "page_title": {
       "en": "Dr. Plume's Sentence Clinic — Fix-the-Sentence Grammar (Grade 2)",
       "de": "Dr. Plumes Satzklinik: Sätze verbessern – Klasse 2 üben",
-      "fr": "Grammaire CE1 : corriger une phrase – exercice en ligne"
+      "fr": "Grammaire CE1 : corriger une phrase – exercice en ligne",
+      "es": "Corregir oraciones: mayúscula, punto y verbo (2.º primaria)"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 grammar activity: help gentle Dr. Plume fix muddled sentences so they sound right again. Children find the trouble — a missing capital, the wrong verb form, a missing word, jumbled order, an extra word, or a run-on — then make the repair. Practising the conventions of standard English grammar and usage is the heart of Common Core L.2.1.",
       "de": "In Dr. Plumes Satzklinik findest du den Fehler im Satz und verbesserst ihn: Großbuchstabe, Punkt, Verb und Wortreihenfolge. Kostenlos und interaktiv – Klasse 2.",
-      "fr": "Grammaire CE1 en ligne : repère l'erreur et corrige la phrase, avec un retour immédiat à chaque réponse. Gratuit, en ligne, sans inscription."
+      "fr": "Grammaire CE1 en ligne : repère l'erreur et corrige la phrase, avec un retour immédiat à chaque réponse. Gratuit, en ligne, sans inscription.",
+      "es": "En la clínica de la Dra. Plume, cada oración tiene un pequeño error que hay que encontrar y corregir: la mayúscula inicial, el punto final, la concordancia del verbo o el orden de las palabras. Actividad interactiva y gratuita para 2.º de primaria, alineada a los Planes y programas de estudio (SEP)."
     },
     "kid_prompt_template": "fix-it"
   }

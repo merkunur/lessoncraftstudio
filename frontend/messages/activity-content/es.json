@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "sentence-clinic.fix-it.l-2-1": {
+      "about": [
+        "La Dra. Plume es una lechuza muy atenta que atiende su propia clínica de oraciones: a su consultorio llegan frases que están casi bien, pero a cada una le falta un pequeño arreglo para sonar de maravilla.",
+        "Cada oración esconde un solo error: a veces falta la mayúscula al inicio, otras el punto final o el verbo, o el orden de las palabras no es el correcto; también puede haber un sujeto repetido o dos oraciones pegadas que hay que separar. El niño lo encuentra, lo corrige y logra que la oración «suene bien».",
+        "Es una actividad interactiva y gratuita para 2.º de primaria, alineada a los Planes y programas de estudio (SEP): se juega en el navegador, sin registro, sin cronómetro y con un tono cálido que invita a intentarlo con calma."
+      ],
+      "practices": [
+        "Encontrar y corregir el único error que tiene cada oración para dejarla clara y bien escrita.",
+        "Usar la mayúscula al comienzo de la oración y el punto al final, como marca la escritura correcta.",
+        "Cuidar que el verbo concuerde con quien realiza la acción, por ejemplo «un gato come» y no «un gato comen».",
+        "Poner las palabras en el orden correcto y separar con un punto cuando hay dos oraciones juntas."
+      ],
+      "howToPlay": [
+        "Lee la oración con calma y busca la parte que no está del todo bien.",
+        "Corrige lo que haga falta: una mayúscula, un punto, el verbo adecuado o el orden de las palabras.",
+        "Si todavía no suena bien, no pasa nada: la Dra. Plume te deja intentarlo de nuevo, sin prisas y sin castigos."
+      ],
+      "learningGoals": [
+        "Pensada para segundo grado de primaria (alrededor de 7 a 8 años), acompaña a los niños a revisar y corregir sus oraciones con confianza.",
+        "Afianza el uso de la mayúscula inicial, el punto final y la concordancia entre el sujeto y el verbo.",
+        "Ayuda a escribir oraciones completas, ordenadas y claras que cualquiera pueda leer y entender."
+      ]
+    },
     "pronoun.case.l-1-1-d": {
       "about": [
         "Hattie la liebre atiende su sombrerería y necesita ayuda: cada oración tiene un espacio y dos opciones de pronombre, y tu niño elige la que completa la frase con sentido.",

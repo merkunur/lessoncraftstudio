@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "vera-verb-match.be-agreement.l-1-1-c": {
+      "about": [
+        "Vera, la ratoncita de campo, acompaña a tu peque a completar oraciones cortas: lee una frase con un espacio en blanco, como «El perro ___ en el parque», y toca la forma correcta entre estoy, está y están a lo largo de 8 rondas.",
+        "Cada oración muestra cómo el verbo estar cambia según el sujeto (yo → estoy, uno → está, varios → están), así el niño aprende a fijarse en quién es el sujeto y a hacer que el verbo concuerde: la concordancia sujeto-verbo, uno de los primeros patrones gramaticales que descubre de forma consciente.",
+        "Gratis, interactiva y desde el navegador, sin registro ni descargas, con un tono cálido, sin cronómetro y sin puntajes, alineada a los Planes y programas de estudio (SEP)."
+      ],
+      "practices": [
+        "Reconocer las formas estoy, está y están del verbo estar.",
+        "Concordar el sujeto con el verbo según sea «yo», singular o plural.",
+        "Distinguir el singular del plural fijándose en la forma del verbo.",
+        "Leer oraciones completas y completarlas con sentido."
+      ],
+      "howToPlay": [
+        "Lee la oración con el espacio en blanco con calma.",
+        "Piensa si el sujeto es «yo», uno (singular) o varios (plural).",
+        "Toca la forma correcta —estoy, está o están—; los intentos son ilimitados y no hay cronómetro."
+      ],
+      "learningGoals": [
+        "Reconoce que el verbo estar concuerda con su sujeto.",
+        "Elige con confianza entre estoy, está y están.",
+        "Lee oraciones cortas con atención y las completa formando frases correctas."
+      ]
+    },
     "olive-kind-of.category-attribute.l-1-5-b": {
       "about": [
         "En «El árbol de categorías de Olive», una lechuza llamada Olive muestra una imagen —un perro, un plátano, un carro o un sombrero— junto con una pista sobre una de sus características, y el niño toca la categoría general a la que pertenece esa cosa.",

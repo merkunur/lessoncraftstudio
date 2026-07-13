@@ -140,17 +140,20 @@
     "slug": {
       "en": "halfway-harbors-rounding",
       "de": "runden-auf-zehner-und-hunderter-am-zahlenstrahl-klasse-3",
-      "fr": "arrondir-a-la-dizaine-et-a-la-centaine-sur-la-droite-graduee-ce2"
+      "fr": "arrondir-a-la-dizaine-et-a-la-centaine-sur-la-droite-graduee-ce2",
+      "es": "redondear-a-la-decena-y-centena-recta-numerica-3-primaria"
     },
     "page_title": {
       "en": "The Halfway Harbors — Rounding on a Number Line (Grade 3)",
       "de": "Runden auf Zehner und Hunderter – online üben (Klasse 3)",
-      "fr": "Droite graduée CE2 : arrondir – exercice en ligne"
+      "fr": "Droite graduée CE2 : arrondir – exercice en ligne",
+      "es": "Marina y los puertos: redondear a la decena y centena (3.º primaria)"
     },
     "page_intro": {
       "en": "A free interactive Grade 3 math activity: help Marina the lighthouse-cat send each little boat to its nearest round-number harbor. See where the boat sits on the number line, find the halfway buoy in the middle, and tap the harbor it is closest to — rounding to the nearest 10 and the nearest 100. Common Core 3.NBT.A.1.",
       "de": "Runden auf Zehner und Hunderter üben: Zahlen dem nächsten Zehner und Hunderter zuordnen – Klasse 3. Kostenlos online, ohne Anmeldung.",
-      "fr": "Exercice en ligne sur la droite graduée au CE2 : arrondir à la dizaine et à la centaine les plus proches. Gratuit, sans inscription."
+      "fr": "Exercice en ligne sur la droite graduée au CE2 : arrondir à la dizaine et à la centaine les plus proches. Gratuit, sans inscription.",
+      "es": "Redondea a la decena y a la centena más cercana en la recta numérica con Marina, la gata del faro. Actividad interactiva y gratis de matemáticas para 3.º de primaria, sin registro y alineada a los Planes y programas de estudio (SEP)."
     },
     "kid_prompt_template": "rounding"
   }

@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "sage-root-garden.roots.l-2-4-c": {
+      "about": [
+        "En «El jardín de palabras de Sage», la tortuga te muestra un jardín donde cada palabra tiene una raíz. Aparece una raíz como «flor» y, junto a ella, tres palabras entre las que hay que descubrir cuál nació de esa misma raíz.",
+        "La idea es sencilla y poderosa: muchas palabras crecen de una misma raíz y forman una familia de palabras. De «flor» crecen «florero», «florería» y «florecer»; en cambio, «flauta» o «flota» solo se PARECEN, pero vienen de otra raíz, así que hay que fijarse muy bien.",
+        "Es una actividad gratuita e interactiva de 2.º de primaria, alineada a los Planes y programas de estudio (SEP). Se juega directamente en el navegador, sin registro, sin cronómetro y con un tono cálido para que aprender sea tranquilo."
+      ],
+      "practices": [
+        "Reconocer la raíz que se esconde dentro de una palabra y notar la parte que comparten las palabras parientes.",
+        "Elegir, entre varias opciones, la palabra que pertenece a la misma familia que la raíz.",
+        "Distinguir las palabras que solo se parecen por fuera de las que de verdad comparten la misma raíz.",
+        "Aprovechar la raíz como pista para entender el significado de palabras nuevas al leer."
+      ],
+      "howToPlay": [
+        "Sage te muestra una raíz en su jardín, por ejemplo «flor», para que sepas de dónde va a crecer la palabra correcta.",
+        "Observa con calma las tres palabras y toca la que crece de esa raíz, la que pertenece a la misma familia.",
+        "Si te equivocas, no pasa nada: puedes intentarlo de nuevo las veces que quieras, sin prisas y sin puntajes."
+      ],
+      "learningGoals": [
+        "Está pensada para niñas y niños de segundo grado de primaria (de ~7 a 8 años), que ya empiezan a reconocer cómo se relacionan las palabras.",
+        "Al terminar, tu peque reconoce la raíz de una palabra y comprende cómo se agrupan en familias de palabras.",
+        "También aprende a distinguir las palabras derivadas de las que solo se parecen, y a ampliar su vocabulario usando la raíz como pista."
+      ]
+    },
     "sentence-clinic.fix-it.l-2-1": {
       "about": [
         "La Dra. Plume es una lechuza muy atenta que atiende su propia clínica de oraciones: a su consultorio llegan frases que están casi bien, pero a cada una le falta un pequeño arreglo para sonar de maravilla.",

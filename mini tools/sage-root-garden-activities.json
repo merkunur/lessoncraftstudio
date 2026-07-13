@@ -424,6 +424,16 @@
               }
             ]
           }
+        ],
+        "es": [
+          { "id": "es-flor",  "band": 1, "root": "flor",  "correct": "florero",   "choices": [ { "word": "florero" }, { "word": "flauta" }, { "word": "flecha" } ] },
+          { "id": "es-sol",   "band": 1, "root": "sol",   "correct": "solar",     "choices": [ { "word": "sombra" }, { "word": "solar" }, { "word": "sopa" } ] },
+          { "id": "es-pan",   "band": 1, "root": "pan",   "correct": "panadero",  "choices": [ { "word": "pato" }, { "word": "paloma" }, { "word": "panadero" } ] },
+          { "id": "es-mar",   "band": 2, "root": "mar",   "correct": "marinero",  "choices": [ { "word": "marinero" }, { "word": "manzana" }, { "word": "maleta" } ] },
+          { "id": "es-color", "band": 2, "root": "color", "correct": "colorido",  "choices": [ { "word": "coliflor" }, { "word": "colorido" }, { "word": "collar" } ] },
+          { "id": "es-sal",   "band": 2, "root": "sal",   "correct": "salero",    "choices": [ { "word": "sartén" }, { "word": "saco" }, { "word": "salero" } ] },
+          { "id": "es-reloj", "band": 3, "root": "reloj", "correct": "relojero",  "choices": [ { "word": "relojero" }, { "word": "remolino" }, { "word": "regla" } ] },
+          { "id": "es-papel", "band": 3, "root": "papel", "correct": "papelería", "choices": [ { "word": "pastel" }, { "word": "papelería" }, { "word": "pared" } ] }
         ]
       }
     },
@@ -431,17 +441,20 @@
     "slug": {
       "en": "sage-root-garden",
       "de": "wortfamilien-wortstamm-erkennen-klasse-2",
-      "fr": "les-familles-de-mots-le-radical-ce1"
+      "fr": "les-familles-de-mots-le-radical-ce1",
+      "es": "familias-de-palabras-la-raiz-2-primaria"
     },
     "page_title": {
       "en": "Sage's Root Garden — Find the Root Word Family (Grade 2)",
       "de": "Wortfamilien – online üben (Klasse 2)",
-      "fr": "Les familles de mots : le radical – exercice en ligne"
+      "fr": "Les familles de mots : le radical – exercice en ligne",
+      "es": "Familias de palabras y la raíz: actividad de 2.º primaria"
     },
     "page_intro": {
       "en": "Sage the tortoise grows word families from a single root! Big words often grow from a smaller root word you already know — farm grows into farmer. Read the root, then tap the word that GROWS from it (watch out for words that just look alike). A Grade 2 vocabulary game about using root words as a clue to meaning, aligned to Common Core L.2.4.c.",
       "de": "Wortfamilien üben in Sages Wortgarten: verwandte Wörter zum gleichen Wortstamm finden. Für Klasse 2 – kostenlos online, ohne Anmeldung.",
-      "fr": "Les familles de mots au CE1 : retrouve le radical et regroupe les mots de la même famille. Gratuit, en ligne, sans inscription."
+      "fr": "Les familles de mots au CE1 : retrouve le radical et regroupe les mots de la même famille. Gratuit, en ligne, sans inscription.",
+      "es": "Con Sage la tortuga, tu peque encuentra la raíz de una palabra y elige la que crece de la misma familia. Actividad gratis e interactiva de español para 2.º de primaria, alineado a los Planes y programas de estudio (SEP)."
     },
     "kid_prompt_template": "Tap the word that grows from the root."
   }

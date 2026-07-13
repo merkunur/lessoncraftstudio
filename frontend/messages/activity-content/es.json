@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "gauge-good-guess.estimate.2-md-a-3": {
+      "about": [
+        "Con Gauge, la cabra, tu hijo ve una pregunta como «¿Cuánto mide aproximadamente una hormiga?» o «¿Qué tan alta es una puerta?» y toca la mejor de tres estimaciones, por ejemplo «1 cm», «12 cm» o «2 m». En lugar de adivinar al azar, el niño o la niña se detiene a pensar qué tamaño sí tiene sentido. Así la adivinanza se convierte en una estimación razonada.",
+        "La idea matemática es construir una verdadera noción del tamaño usando puntos de referencia familiares. Cuando el niño recuerda que «una regla mide unos 30 centímetros» o que «una puerta mide como 2 metros», tiene anclas mentales para estimar sin necesidad de medir. Con esos referentes en mente aprende también a distinguir los centímetros de los metros y a elegir la unidad correcta.",
+        "Toda la actividad es gratuita, sin cronómetro, sin calificación y sin competencia, para que cada quien avance a su propio ritmo. Está alineada al programa de primaria mexicano dentro del eje Magnitudes y medida, donde estimar longitudes en centímetros y metros forma parte de lo que se aprende. Tu hijo practica con calma mientras acompaña a Gauge en cada estimación."
+      ],
+      "practices": [
+        "Estimar longitudes eligiendo una magnitud sensata en cm o metros.",
+        "Construir una noción de tamaño con puntos de referencia familiares («del tamaño de una puerta»).",
+        "Distinguir centímetros de metros y usar la unidad correcta.",
+        "Estimar y comparar el tamaño de objetos cotidianos."
+      ],
+      "howToPlay": [
+        "Lee la pregunta de Gauge, por ejemplo «¿Cuánto mide una hormiga?».",
+        "Mira las tres estimaciones y piensa cuál tamaño sí tiene sentido.",
+        "Toca la estimación sensata y sigue estimando con Gauge."
+      ],
+      "learningGoals": [
+        "Desarrollar un sentido firme de las longitudes en cm y metros.",
+        "Usar puntos de referencia para estimar tamaños sin medir.",
+        "Practicar la estimación con calma, sin calificación."
+      ]
+    },
     "mending-fences.mend-board.3-md-d-8": {
       "about": [
         "Con Hazel el tejón, tu hijo repara y revisa cercas de campo a lo largo de cinco tipos de ronda. Arregla una cerca a la que le falta un lado, compara dos campos para decidir «¿cuál necesita más cerca? ¿cuál tiene más pasto?», y elige si debe contar las marcas del borde (el perímetro) o los cuadritos de adentro (el área). También revisa si un rollo de cerca alcanza a dar toda la vuelta al campo y descubre que dos campos con el mismo pasto pueden necesitar distinta cerca.",

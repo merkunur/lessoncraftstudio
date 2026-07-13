@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "comet-kangaroo.tens-hundreds.2-nbt-b-8": {
+      "about": [
+        "Cometa el canguro salta a lo largo de los números y tu hijo lo acompaña. En la pantalla aparece un número de tres cifras, como «247», junto con un salto: «10 más», «10 menos», «100 más» o «100 menos». El niño o la niña calcula mentalmente dónde cae Cometa y escribe el número nuevo. A veces son saltos pequeños de decenas y a veces son saltos grandes de centenas, así que cada ronda pide una atención distinta.",
+        "Detrás del juego hay una idea matemática clara: al sumar o quitar 10 solo cambia la cifra de las decenas, y al sumar o quitar 100 solo cambia la cifra de las centenas; las unidades se quedan igual. De esta manera tu hijo aprende a «leer» los números de tres cifras por su valor posicional y a moverse con seguridad en el rango hasta 1000. Esto es el valor posicional, una de las bases del cálculo.",
+        "Gratis, sin cronómetro, sin puntajes y sin competencia: cada niño avanza a su propio ritmo y repite los saltos que necesite. La actividad está alineada con el programa de primaria mexicano en el eje de Sentido numérico, donde el valor posicional y los números hasta 1000 tienen su lugar natural."
+      ],
+      "practices": [
+        "Calcular mentalmente 10 o 100 más o menos de un número de tres cifras (cálculo mental).",
+        "Reconocer las cifras de un número: centenas, decenas y unidades.",
+        "Entender que en el salto solo cambia una cifra y las demás se quedan igual.",
+        "Orientarse con seguridad en el rango hasta 1000."
+      ],
+      "howToPlay": [
+        "Mira el número y lee el salto de Cometa: «10 más», «10 menos», «100 más» o «100 menos».",
+        "Piensa qué cifra cambia y calcula dónde cae Cometa.",
+        "Escribe el número nuevo; si aciertas, Cometa sigue saltando feliz."
+      ],
+      "learningGoals": [
+        "Calcula con seguridad 10 o 100 más y menos en el rango hasta 1000.",
+        "Entiende que en el salto solo cambia la cifra de las decenas o la de las centenas.",
+        "Construye una comprensión firme del valor posicional como base del cálculo."
+      ]
+    },
     "winter-piles.draw-partition.2-oa-c-4": {
       "about": [
         "Con Flo la ardilla, tu hijo acomoda bellotas en un arreglo rectangular —filas y columnas— y traza una línea para partirlo en montoncitos iguales. Cuenta cuántas bellotas hay en un montoncito, escribe ese número una vez por cada montoncito y arma la ecuación, por ejemplo «4 + 4 + 4 = 12». A lo largo de los distintos retos hace montoncitos iguales, hace exactamente cierto número de montoncitos, arregla un corte disparejo y construye una suma que se le pide.",

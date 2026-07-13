@@ -35,13 +35,23 @@
           { "id": "wren-que-prends", "band": 2, "sentence": "___ prends-tu ?", "asks": "thing" },
           { "id": "wren-pourquoi-retard", "band": 3, "sentence": "___ es-tu en retard ?", "asks": "reason" },
           { "id": "wren-comment-oeuf", "band": 3, "sentence": "___ veux-tu ton œuf ?", "asks": "manner" }
+        ],
+        "es": [
+          { "id": "wren-que-quieres", "band": 1, "sentence": "¿___ quieres?", "asks": "thing" },
+          { "id": "wren-quien-jugo", "band": 1, "sentence": "¿___ pide el jugo?", "asks": "person" },
+          { "id": "wren-donde-sal", "band": 1, "sentence": "¿___ está la sal?", "asks": "place" },
+          { "id": "wren-cuando-comida", "band": 2, "sentence": "¿___ llega la comida?", "asks": "time" },
+          { "id": "wren-como-huevo", "band": 2, "sentence": "¿___ quieres tu huevo, revuelto o estrellado?", "asks": "manner" },
+          { "id": "wren-que-tomas", "band": 2, "sentence": "¿___ tomas?", "asks": "thing" },
+          { "id": "wren-porque-hambre", "band": 3, "sentence": "¿___ tienes tanta hambre?", "asks": "reason" },
+          { "id": "wren-quien-cuenta", "band": 3, "sentence": "¿___ paga la cuenta?", "asks": "person" }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "wren-question-window", "de": "fragewoerter-ueben-wer-was-wo-wann-klasse-1", "fr": "les-mots-interrogatifs-qui-que-ou-quand-ce1" },
-    "page_title": { "en": "Wren's Question Window — Ask the Right Word (Kindergarten)", "de": "Wrens Fragefenster: W-Fragen üben – Fragewörter, Klasse 1", "fr": "Wren au guichet des questions : les mots interrogatifs (CE1)" },
-    "page_intro": { "en": "Wren takes orders at the diner window, and every order starts with a good question. Read each question, then tap the question word that fills the blank — who, what, where, when, why, or how — so Wren can ask it just right. A warm Kindergarten language game about understanding and using question words, aligned to Common Core L.K.1.d.", "de": "Hilf dem Vögelchen Wren am Bestellfenster: Lies die Frage, tippe das richtige Fragewort – wer, was, wo oder wann? W-Fragen üben für Klasse 1, kostenlos und interaktiv.", "fr": "Avec Wren l’oiseau à son guichet, lis la question et touche le bon mot interrogatif — qui, que, où, quand, pourquoi ou comment. Une activité de grammaire CE1, gratuite et interactive." },
+    "slug": { "en": "wren-question-window", "de": "fragewoerter-ueben-wer-was-wo-wann-klasse-1", "fr": "les-mots-interrogatifs-qui-que-ou-quand-ce1", "es": "palabras-interrogativas-que-quien-donde-cuando-1-primaria" },
+    "page_title": { "en": "Wren's Question Window — Ask the Right Word (Kindergarten)", "de": "Wrens Fragefenster: W-Fragen üben – Fragewörter, Klasse 1", "fr": "Wren au guichet des questions : les mots interrogatifs (CE1)", "es": "Wren y la ventanilla: palabras interrogativas (1.º primaria)" },
+    "page_intro": { "en": "Wren takes orders at the diner window, and every order starts with a good question. Read each question, then tap the question word that fills the blank — who, what, where, when, why, or how — so Wren can ask it just right. A warm Kindergarten language game about understanding and using question words, aligned to Common Core L.K.1.d.", "de": "Hilf dem Vögelchen Wren am Bestellfenster: Lies die Frage, tippe das richtige Fragewort – wer, was, wo oder wann? W-Fragen üben für Klasse 1, kostenlos und interaktiv.", "fr": "Avec Wren l’oiseau à son guichet, lis la question et touche le bon mot interrogatif — qui, que, où, quand, pourquoi ou comment. Une activité de grammaire CE1, gratuite et interactive.", "es": "Wren atiende su ventanilla de comida y cada cliente llega con una pregunta a la que le falta una palabra. Ayuda a este pajarito a completar cada pregunta con la palabra interrogativa correcta —qué, quién, dónde, cuándo, por qué o cómo—. Actividad gratis e interactiva para 1.º de primaria, alineada a los Planes y programas de estudio (SEP)." },
     "kid_prompt_template": "wren-question-window"
   }
 ]

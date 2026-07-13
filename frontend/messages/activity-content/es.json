@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "cleo-packing-list.series-commas.l-1-2-b": {
+      "about": [
+        "Cleo el camaleón te muestra la misma oración con una lista de tres cosas escrita de tres maneras distintas, y tu peque toca la versión que tiene las comas bien puestas a lo largo de 8 rondas tranquilas.",
+        "La regla es sencilla: en una enumeración se pone una coma entre las cosas, pero nunca se pone coma antes de la «y» final —«manzanas, peras y ciruelas» es lo correcto, y poner una coma antes de la «y» es el error clásico—; es una de las primeras reglas de puntuación que el niño llega a conocer.",
+        "Todo es gratis, se juega directo en el navegador sin registro y sin descargar nada, con un tono cálido, sin cronómetro y sin puntajes, y está alineado a los Planes y programas de estudio (SEP)."
+      ],
+      "practices": [
+        "Reconocer dónde va la coma cuando enumeramos varias cosas en una misma oración.",
+        "Aplicar la regla de no poner coma justo antes de la «y» que cierra la lista.",
+        "Comparar tres versiones de la misma oración y elegir con calma la que está bien puntuada.",
+        "Ganar seguridad al usar la coma tanto para escribir como para leer en voz alta."
+      ],
+      "howToPlay": [
+        "Lee con calma las tres versiones de la misma oración que te presenta Cleo.",
+        "Fíjate bien dónde están las comas y revisa si hay una coma antes de la «y».",
+        "Toca la oración que tiene todas las comas en su lugar; puedes intentarlo las veces que quieras, sin cronómetro."
+      ],
+      "learningGoals": [
+        "Reconoce que, en una lista, la coma sirve para separar las cosas que se enumeran.",
+        "Recuerda que no se pone coma antes de la «y» que cierra la enumeración.",
+        "Compara las oraciones con atención y escoge la que tiene la puntuación correcta."
+      ]
+    },
     "hazel-word-bridge.joining-words.l-1-1-g": {
       "about": [
         "Hazel la garza acompaña a tu peque en 8 rondas: en cada una aparece una oración con un espacio en blanco, como «Me como una manzana ___ tengo hambre.», y el niño toca la palabra que la completa entre cuatro tarjetas: y, o, pero, porque.",

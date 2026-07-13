@@ -35,13 +35,23 @@
           { "id": "dessiner-materiel", "band": 2, "lead": "Je dessine avec", "items": ["un feutre", "un pinceau", "une craie"], "slot": 2 },
           { "id": "observer-ciel", "band": 3, "lead": "Nous regardons", "items": ["la lune", "les étoiles", "les nuages"], "slot": 0 },
           { "id": "cueillir-jardin", "band": 3, "lead": "Je cueille", "items": ["des fraises", "des framboises", "des groseilles"], "slot": 1 }
+        ],
+        "es": [
+          { "id": "lista-frutas", "band": 1, "lead": "Empaco", "items": ["manzanas", "peras", "ciruelas"], "slot": 0 },
+          { "id": "lista-animales", "band": 1, "lead": "Vemos", "items": ["gatos", "perros", "conejos"], "slot": 1 },
+          { "id": "lista-colores", "band": 1, "lead": "Pinto con", "items": ["rojo", "azul", "verde"], "slot": 2 },
+          { "id": "lista-trastes", "band": 2, "lead": "Necesitamos", "items": ["tazas", "platos", "vasos"], "slot": 0 },
+          { "id": "lista-ropa", "band": 2, "lead": "Empaco", "items": ["gorras", "suéteres", "botas"], "slot": 1 },
+          { "id": "lista-cielo", "band": 2, "lead": "Dibujo", "items": ["estrellas", "lunas", "nubes"], "slot": 2 },
+          { "id": "lista-aves", "band": 3, "lead": "Veo", "items": ["pájaros", "abejas", "mariposas"], "slot": 0 },
+          { "id": "lista-manualidades", "band": 3, "lead": "Necesitamos", "items": ["pinceles", "tijeras", "crayones"], "slot": 1 }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "cleo-packing-list", "de": "komma-bei-aufzaehlung-ueben-klasse-3", "fr": "la-virgule-dans-une-enumeration-ce2" },
-    "page_title": { "en": "Cleo's Packing List — Commas in a List (Grade 1)", "de": "Cleo das Chamäleon: Komma bei Aufzählung üben – Klasse 3", "fr": "Cléo le caméléon : la virgule dans une énumération — CE2" },
-    "page_intro": { "en": "Cleo the chameleon makes lists all day! When you list three or more things, a comma goes after each one — apples, pears, and plums. Read the three sentences and tap the one with the commas in the right places. A Grade 1 grammar game about using commas in a series, aligned to Common Core L.1.2.b.", "de": "Mit Cleo dem Chamäleon das Komma bei Aufzählung üben: Tippe die Liste mit den Kommas an der richtigen Stelle an – kostenlos und interaktiv für Klasse 3.", "fr": "Avec Cléo le caméléon, place la virgule au bon endroit dans une liste — une virgule entre les mots, jamais devant « et ». Activité de ponctuation CE2, gratuite et interactive." },
+    "slug": { "en": "cleo-packing-list", "de": "komma-bei-aufzaehlung-ueben-klasse-3", "fr": "la-virgule-dans-une-enumeration-ce2", "es": "la-coma-en-enumeraciones-3-primaria" },
+    "page_title": { "en": "Cleo's Packing List — Commas in a List (Grade 1)", "de": "Cleo das Chamäleon: Komma bei Aufzählung üben – Klasse 3", "fr": "Cléo le caméléon : la virgule dans une énumération — CE2", "es": "Cleo el camaleón: la coma en enumeraciones (3.º de primaria)" },
+    "page_intro": { "en": "Cleo the chameleon makes lists all day! When you list three or more things, a comma goes after each one — apples, pears, and plums. Read the three sentences and tap the one with the commas in the right places. A Grade 1 grammar game about using commas in a series, aligned to Common Core L.1.2.b.", "de": "Mit Cleo dem Chamäleon das Komma bei Aufzählung üben: Tippe die Liste mit den Kommas an der richtigen Stelle an – kostenlos und interaktiv für Klasse 3.", "fr": "Avec Cléo le caméléon, place la virgule au bon endroit dans une liste — une virgule entre les mots, jamais devant « et ». Activité de ponctuation CE2, gratuite et interactive.", "es": "Cleo el camaleón te ayuda a practicar la coma en las enumeraciones: elige la oración con las comas bien puestas. Actividad gratuita e interactiva para 3.º de primaria, alineada a los Planes y programas de estudio (SEP)." },
     "kid_prompt_template": "Tap the list that has its commas in the right places."
   }
 ]

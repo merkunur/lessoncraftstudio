@@ -40,16 +40,30 @@
     for (var i = 0; i < 3; i++) { if (i === slot) out.push({ text: correct, ok: true }); else out.push({ text: foils[fi++], ok: false }); }
     return out;
   }
-  /* Per-locale forms builder (en falls to the English core; de/fr use their own
+  /* Spanish (Mexican) list-comma forms (0 lines to series-comma-core.js): comma
+     between items, none before "y". Mirrors the de recipe (und→y) — correct &
+     misplaced both carry 1 comma; misplaced puts it at the forbidden spot before
+     "y" ("no coma antes de y", RAE §3.4.3.1). Items chosen so the 3rd never starts
+     with i-/hi- → the hardcoded " y " never needs the euphonic "e". */
+  function esCorrect(r) { var i = r.items; return r.lead + ' ' + i[0] + ', ' + i[1] + ' y ' + i[2] + '.'; }
+  function esNocomma(r) { var i = r.items; return r.lead + ' ' + i[0] + ' ' + i[1] + ' y ' + i[2] + '.'; }
+  function esMisplaced(r) { var i = r.items; return r.lead + ' ' + i[0] + ' ' + i[1] + ', y ' + i[2] + '.'; }
+  function esFormsOf(r) {
+    var correct = esCorrect(r), foils = [esNocomma(r), esMisplaced(r)];
+    var slot = (((r.slot || 0) % 3) + 3) % 3, out = [], fi = 0;
+    for (var i = 0; i < 3; i++) { if (i === slot) out.push({ text: correct, ok: true }); else out.push({ text: foils[fi++], ok: false }); }
+    return out;
+  }
+  /* Per-locale forms builder (en falls to the English core; de/fr/es use their own
      builders). Behaviour-identical to the prior `LANG!=='de'` guard for en/de. */
-  var FORMS_BUILDER = { de: deFormsOf, fr: frFormsOf };
+  var FORMS_BUILDER = { de: deFormsOf, fr: frFormsOf, es: esFormsOf };
   function cplFormsOf(r) { var b = FORMS_BUILDER[LANG]; return b ? b(r) : null; }
   function cplChildView(r) { var f = cplFormsOf(r); if (!f) return Core.childView(r); return { lead: r.lead, choices: f.map(function (x, i) { return { id: i, text: x.text }; }) }; }
   function cplGrade(r, id) { var f = cplFormsOf(r); if (!f) return Core.grade(r, id); var x = f[id]; return !!x && !!x.ok; }
 
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG), rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -68,13 +82,13 @@
     id: 'cleo-packing-list-activity',
 
     strings: {
-      title: { en: "Cleo's Packing List", de: 'Cleos Packliste', fr: 'Les virgules de Cléo' },
-      instruction: { en: 'Tap the list that has its commas in the right places.', de: 'Tippe die Liste mit den Kommas an der richtigen Stelle.', fr: 'Touche la liste où les virgules sont au bon endroit.' },
-      prompt: { en: 'Which list has the commas in the right places?', de: 'Welche Liste hat die Kommas an der richtigen Stelle?', fr: 'Quelle liste a les virgules au bon endroit ?' },
-      cleoIntro: { en: 'A comma goes after each thing in a list!', de: 'Tipp von Cleo: Zwischen den Dingen steht ein Komma – aber nie vor „und"!', fr: 'Une virgule entre les mots, jamais devant « et » !' },
-      hintPick: { en: 'A comma comes after each item — and before the last "and".', de: 'Komma zwischen den Wörtern – aber KEIN Komma vor „und".', fr: 'Mets une virgule entre les mots, pas devant « et ».' },
-      hintWrong: { en: 'Check each comma — one after each thing in the list.', de: 'Fast! Das Komma gehört zwischen die Wörter – nicht vor „und".', fr: 'La virgule va entre les mots, pas devant « et ».' },
-      win: { en: 'Yes! The commas are just right. 🦎', de: 'Super – alle Kommas sitzen genau richtig! 🦎', fr: 'Bravo ! Tes virgules sont parfaites ! 🦎' }
+      title: { en: "Cleo's Packing List", de: 'Cleos Packliste', fr: 'Les virgules de Cléo', es: 'La lista de Cleo' },
+      instruction: { en: 'Tap the list that has its commas in the right places.', de: 'Tippe die Liste mit den Kommas an der richtigen Stelle.', fr: 'Touche la liste où les virgules sont au bon endroit.', es: 'Toca la lista que tiene las comas en el lugar correcto.' },
+      prompt: { en: 'Which list has the commas in the right places?', de: 'Welche Liste hat die Kommas an der richtigen Stelle?', fr: 'Quelle liste a les virgules au bon endroit ?', es: '¿Cuál lista tiene las comas en el lugar correcto?' },
+      cleoIntro: { en: 'A comma goes after each thing in a list!', de: 'Tipp von Cleo: Zwischen den Dingen steht ein Komma – aber nie vor „und"!', fr: 'Une virgule entre les mots, jamais devant « et » !', es: 'Consejo de Cleo: una coma entre las cosas, ¡pero nunca antes de «y»!' },
+      hintPick: { en: 'A comma comes after each item — and before the last "and".', de: 'Komma zwischen den Wörtern – aber KEIN Komma vor „und".', fr: 'Mets une virgule entre les mots, pas devant « et ».', es: 'Pon una coma entre las palabras, pero NO antes de «y».' },
+      hintWrong: { en: 'Check each comma — one after each thing in the list.', de: 'Fast! Das Komma gehört zwischen die Wörter – nicht vor „und".', fr: 'La virgule va entre les mots, pas devant « et ».', es: '¡Casi! La coma va entre las palabras, no antes de «y».' },
+      win: { en: 'Yes! The commas are just right. 🦎', de: 'Super – alle Kommas sitzen genau richtig! 🦎', fr: 'Bravo ! Tes virgules sont parfaites ! 🦎', es: '¡Muy bien! Todas las comas están en su lugar. 🦎' }
     },
     defaults: {},
 

@@ -77,17 +77,20 @@
     "slug": {
       "en": "maple-bakery-division",
       "de": "division-teilen-verteilen-aufteilen-klasse-2",
-      "fr": "la-division-partage-et-groupement-ce1"
+      "fr": "la-division-partage-et-groupement-ce1",
+      "es": "division-como-reparto-repartir-partes-iguales-primaria"
     },
     "page_title": {
       "en": "Maple's Bakery — Division: Sharing & Grouping (Grade 3)",
       "de": "Division Klasse 2 – Teilen online üben",
-      "fr": "La division : partager et grouper – La boulangerie de Maple | CE1"
+      "fr": "La division : partager et grouper – La boulangerie de Maple | CE1",
+      "es": "Maple reparte galletas: la división como reparto para primaria"
     },
     "page_intro": {
       "en": "A free interactive Grade 3 math activity: help Maple the mouse divide the cookies. Share the cookies equally onto the plates and find how many go on each plate, or pack the cookies into boxes that each hold the same number and find how many boxes you need. A friendly, picture-first way to understand what a division answer means. Common Core 3.OA.A.2.",
       "de": "Division in Klasse 2 online üben: Teilen mit Maple der Maus – Mengen gerecht aufteilen und verstehen. Kostenlos online, ohne Anmeldung.",
-      "fr": "Aide Maple la souris à partager les biscuits de sa boulangerie ! Deux façons de faire : partage les biscuits également sur les assiettes et trouve combien il y en a sur chaque assiette, ou range les biscuits dans des boîtes qui contiennent toutes le même nombre et trouve combien de boîtes il te faut. Une façon douce et imagée de comprendre ce que veut dire une division. Un jeu de CE1 sur le sens de la division. Gratuit et interactif."
+      "fr": "Aide Maple la souris à partager les biscuits de sa boulangerie ! Deux façons de faire : partage les biscuits également sur les assiettes et trouve combien il y en a sur chaque assiette, ou range les biscuits dans des boîtes qui contiennent toutes le même nombre et trouve combien de boîtes il te faut. Une façon douce et imagée de comprendre ce que veut dire une division. Un jeu de CE1 sur le sens de la division. Gratuit et interactif.",
+      "es": "Ayuda a Maple, la ratona, a repartir galletas en partes iguales y descubre la división como reparto. Actividad gratis e interactiva, sin registro, alineada a los Planes y programas de estudio (SEP)."
     },
     "kid_prompt_template": "division"
   }

@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "halfway-harbors.nearest.3-nbt-a-1": {
+      "about": [
+        "En esta actividad, tu hijo o hija acompaña a Marina, una gata farera, que guía barcos por el mar de los números. Cada barco lleva un número y hay que llevarlo al puerto más cercano —una decena redonda como «40»— o, en las rondas de centenas, al faro más cercano —una centena redonda como «300»—. El niño o la niña observa la recta numérica, ubica el número del barco y decide a qué puerto o faro conviene acercarlo.",
+        "Sobre la recta numérica se ve con claridad cuál número redondo queda más cerca, así que se redondea hacia abajo o hacia arriba según la distancia. El punto de en medio es el que decide: en las rondas «de en medio», tu hijo o hija toca justo el número que está a la mitad entre dos puertos, y descubre que un número que cae exactamente en medio se redondea hacia arriba. Lo entiende viéndolo en la recta numérica, no como una regla memorizada.",
+        "Es una actividad gratuita, sin cronómetro, sin puntajes y sin competencia, para avanzar al ritmo de cada niño. Está pensada para acompañar el programa de primaria mexicano dentro del eje «Número, álgebra y variación», donde se ubica el redondeo de números hasta el 1000 a la decena y a la centena más cercana. Así, el juego refuerza en casa lo que se trabaja en la escuela."
+      ],
+      "practices": [
+        "Redondear números a la decena y a la centena más cercana.",
+        "Ubicar números en la recta numérica y comparar distancias.",
+        "Decidir cuál número redondo queda más cerca (redondear hacia abajo o hacia arriba).",
+        "Encontrar el punto medio entre dos números redondos."
+      ],
+      "howToPlay": [
+        "Mira el número en el barco de Marina y encuéntralo en la recta numérica.",
+        "Piensa cuál puerto o faro redondo queda más cerca y tócalo.",
+        "En las rondas de en medio, toca el número que está justo entre dos puertos (o faros)."
+      ],
+      "learningGoals": [
+        "Redondea con seguridad a la decena y a la centena más cercana.",
+        "Usa la recta numérica para juzgar cercanía y distancia.",
+        "Comprende por qué un número que cae exactamente en medio se redondea hacia arriba."
+      ]
+    },
     "wren-question-window.question-words.l-k-1-d": {
       "about": [
         "Wren atiende su ventanilla de comida y, en cada ronda, aparece una pregunta escrita a la que le falta la primera palabra —por ejemplo, «¿___ quieres?»—; el niño lee, elige entre seis palabras para preguntar y toca la que completa la pregunta, a lo largo de 8 rondas.",

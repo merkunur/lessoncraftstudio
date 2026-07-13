@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "rusty-yesterday.irregular-past.l-2-1-d": {
+      "about": [
+        "Rusty el robot tiene una máquina del tiempo: la pantalla muestra una oración en presente, «Hoy hago un pastel.», y pregunta «¿Y ayer?»; tu hijo toca la forma correcta del pasado entre tres opciones y así avanza por ocho rondas divertidas.",
+        "Algunos verbos son irregulares y no forman el pasado de manera regular: «hago» se vuelve «hice», no «hací», y «ando» se vuelve «anduve», no «andé»; en esta actividad el niño aprende a reconocer la forma correcta del pretérito y a evitar el error típico de agregarle la terminación regular a un verbo irregular.",
+        "Es una actividad gratuita e interactiva que se juega directo en el navegador, sin registro y sin descargas, con un tono cálido, sin cronómetro y sin puntajes, alineada a los Planes y programas de estudio (SEP)."
+      ],
+      "practices": [
+        "Formar el pretérito de los verbos irregulares más comunes: hacer→hice, tener→tuve, venir→vine, poner→puse, decir→dije, poder→pude, querer→quise y andar→anduve.",
+        "Reconocer que algunos verbos cambian su raíz al pasar al pasado, como «hacer», que en pretérito se convierte en «hice».",
+        "Evitar el error de sobrerregularizar, es decir, dejar de decir «hací» en vez de «hice» o «andé» en vez de «anduve».",
+        "Distinguir la forma de hoy (el presente, «hago») de la forma de ayer (el pretérito, «hice»)."
+      ],
+      "howToPlay": [
+        "Lee la oración en presente que te muestra Rusty en su pantalla: «Hoy hago un pastel».",
+        "Piensa cómo se dice ese verbo en pasado, como si le contaras a alguien lo que pasó ayer.",
+        "Toca la forma correcta del pretérito entre las tres opciones; los intentos son ilimitados y no hay cronómetro, así que tu hijo puede probar con calma."
+      ],
+      "learningGoals": [
+        "Forma correctamente el pretérito de los verbos irregulares más usados a los 8 y 9 años.",
+        "Reconoce y corrige el error de sobrerregularización, dejando atrás formas como «hací» o «andé».",
+        "Diferencia con seguridad entre el presente y el pretérito de un mismo verbo."
+      ]
+    },
     "wally-capital-crane.special-names.l-2-2-a": {
       "about": [
         "Wally la morsa aparece con su grúa y una oración formada por chips de palabras; exactamente uno de los nombres propios está escrito con minúscula a mitad de la oración, y cuando el niño lo toca, la grúa de Wally levanta su primera letra y la convierte en mayúscula («méxico» se vuelve «México», «pedro» se vuelve «Pedro»), a lo largo de 8 rondas.",

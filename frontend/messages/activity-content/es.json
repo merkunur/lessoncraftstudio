@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "olive-kind-of.category-attribute.l-1-5-b": {
+      "about": [
+        "En «El árbol de categorías de Olive», una lechuza llamada Olive muestra una imagen —un perro, un plátano, un carro o un sombrero— junto con una pista sobre una de sus características, y el niño toca la categoría general a la que pertenece esa cosa.",
+        "La idea es aprender a agrupar una cosa concreta dentro de su categoría general: de «perro», «pez» y «gato», la categoría común es «Animal». El peque lee una pista sobre una característica (por ejemplo, «Tiene cuatro patas y ladra») y elige la categoría correcta entre Animal, Planta, Vehículo, Comida, Ropa o Mueble.",
+        "Es una actividad gratuita e interactiva para 2.º de primaria, alineada a los Planes y programas de estudio (SEP). Se juega directamente en el navegador, sin registro y sin descargar nada, con un tono cálido, sin cronómetro y sin puntajes que presionen."
+      ],
+      "practices": [
+        "Leer con atención una pista sobre una característica de la cosa y usarla para decidir a qué grupo pertenece.",
+        "Agrupar una cosa concreta dentro de su categoría general, eligiendo entre Animal, Planta, Vehículo, Comida, Ropa y Mueble.",
+        "Pensar de lo particular a lo general, subiendo del ejemplo a la categoría: de «perro» a «Animal», o de «plátano» a «Comida».",
+        "Ordenar y ampliar el vocabulario clasificando las palabras por categorías, para nombrar y relacionar mejor las cosas del mundo."
+      ],
+      "howToPlay": [
+        "Observa la imagen que muestra Olive y lee la pista sobre su característica, sin ninguna prisa.",
+        "Piensa a qué grupo o categoría pertenece esa cosa: si es un Animal, una Planta, un Vehículo, una Comida, una prenda de Ropa o un Mueble.",
+        "Toca la categoría correcta; si te equivocas, Olive te deja intentarlo de nuevo con intentos ilimitados y sin cronómetro, para aprender con calma."
+      ],
+      "learningGoals": [
+        "Pensada para segundo grado de primaria (~7 a 8 años), esta actividad ayuda a clasificar cosas concretas dentro de categorías generales de forma clara y segura.",
+        "El niño practica el razonamiento de lo particular a lo general, aprendiendo a subir de un ejemplo, como «rosa», hasta su categoría, «Planta».",
+        "Al agrupar palabras por categorías, el peque amplía y organiza su vocabulario, una base importante para leer, escribir y expresar ideas con más precisión."
+      ]
+    },
     "sage-root-garden.roots.l-2-4-c": {
       "about": [
         "En «El jardín de palabras de Sage», la tortuga te muestra un jardín donde cada palabra tiene una raíz. Aparece una raíz como «flor» y, junto a ella, tres palabras entre las que hay que descubrir cuál nació de esa misma raíz.",

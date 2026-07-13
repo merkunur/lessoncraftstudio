@@ -48,6 +48,16 @@
       nSubject: 'Presque ! Demande-toi : qui FAIT l’action ?',
       nObject: 'Presque ! Demande-toi : de qui parle la phrase ?',
       nPossessive: 'Presque ! Demande-toi : c’est à qui ?'
+    },
+    es: {
+      q: '¿Cuál palabra completa la oración?',
+      win: '¡Sí! {note}', hear: '🔊 Escúchala',
+      noteSubject: '¡Aquí alguien HACE la acción!',
+      noteObject: '¡Aquí le pasa algo a alguien!',
+      notePossessive: '¡Esto muestra de QUIÉN es algo!',
+      nSubject: '¡Casi! Pregúntate: ¿Quién HACE la acción? Mira otra vez.',
+      nObject: '¡Casi! Pregúntate: ¿A quién le pasa? Mira otra vez.',
+      nPossessive: '¡Casi! Pregúntate: ¿De quién es? Mira otra vez.'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -72,9 +82,9 @@
   var PronounActivity = {
     id: 'pronoun-activity',
     strings: {
-      title: { en: 'The Borrowed Hat', de: 'Hatties Hutladen', fr: 'La boutique de Hattie' },
-      instruction: { en: 'Give the character the right word — the one that fits its job!', de: 'Gib Hattie das richtige Wort — das, das in den Satz passt!', fr: 'Donne à Hattie le bon mot — celui qui va dans la phrase !' },
-      q: { en: '{q}', de: '{q}', fr: '{q}' }
+      title: { en: 'The Borrowed Hat', de: 'Hatties Hutladen', fr: 'La boutique de Hattie', es: 'La sombrerería de Hattie' },
+      instruction: { en: 'Give the character the right word — the one that fits its job!', de: 'Gib Hattie das richtige Wort — das, das in den Satz passt!', fr: 'Donne à Hattie le bon mot — celui qui va dans la phrase !', es: 'Dale a Hattie la palabra correcta: ¡la que sí queda en la oración!' },
+      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}' }
     },
 
     init: function (api) {
@@ -185,8 +195,8 @@
       /* Hear it */
       var self = this, hear = el('button', 'pn-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
-        var t = String(round.sentence).replace('___', LANG === 'de' ? 'Lücke' : LANG === 'fr' ? 'trou' : 'blank') + ' ' + txt('q');
-        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: LANG, rate: 0.92 }); } catch (e) { } }
+        var t = String(round.sentence).replace('___', LANG === 'de' ? 'Lücke' : LANG === 'fr' ? 'trou' : LANG === 'es' ? 'espacio' : 'blank') + ' ' + txt('q');
+        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: (LANG === 'es' ? 'es-MX' : LANG), rate: 0.92 }); } catch (e) { } }
       });
       root.appendChild(hear);
 
@@ -234,8 +244,8 @@
 
     _srMirror: function (round) {
       var wrap = el('div', 'pn-sronly'); wrap.setAttribute('aria-live', 'polite');
-      var chips = pnChips(round).join(LANG === 'de' ? ' oder ' : LANG === 'fr' ? ' ou ' : ' or ');
-      var sent = String(round.sentence).replace('___', LANG === 'de' ? 'Lücke' : LANG === 'fr' ? 'trou' : 'blank');
+      var chips = pnChips(round).join(LANG === 'de' ? ' oder ' : LANG === 'fr' ? ' ou ' : LANG === 'es' ? ' o ' : ' or ');
+      var sent = String(round.sentence).replace('___', LANG === 'de' ? 'Lücke' : LANG === 'fr' ? 'trou' : LANG === 'es' ? 'espacio' : 'blank');
       wrap.innerHTML = '<p>' + sent + ' ' + txt('q') + ' ' + chips + '?</p>';
       return wrap;
     },

@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "bos-berry-pantry.slingshot-tens.1-nbt-b-2": {
+      "about": [
+        "«Diez moras caben justas en cada caja sellada de la despensa de Bo, y esa caja ya no se abre: vale una decena entera sin contarla una por una.» Bo el conejo prepara su despensa para el invierno acomodando moras en el estante. Cada caja cerrada guarda exactamente diez moras —una decena— y las moras que quedan afuera, sueltas, son las unidades. El niño LEE lo que Bo le muestra —un montón de moras, una palabra como «veinticinco» o un número escrito— y lanza las moras al estante correcto: las cajas que hacen falta y las moras sueltas que sobran.",
+        "La idea matemática es el valor posicional: un número de dos cifras se arma con tantas decenas y tantas unidades, usando siempre las MÁS decenas posibles. Veinticinco son 2 cajas y 5 moras sueltas —nunca 1 caja y 15 sueltas, porque esas quince todavía forman otra decena—. Así el niño aprende a leer un número como una cantidad agrupada de diez en diez, no como una fila suelta de cifras.",
+        "La actividad es totalmente gratuita, sin cronómetro, sin puntaje y sin competencia: nadie corre contra nadie y no hay forma de «perder». Está pensada con calma y cariño para acompañar el ritmo de cada niño, y se alinea al programa de primaria mexicano (Planes y programas de la Nueva Escuela Mexicana) dentro del eje de Sentido numérico."
+      ],
+      "practices": [
+        "Leer las decenas y las unidades de un número de dos cifras y emparejarlo con su representación en el estante.",
+        "Representar un número como decenas y unidades usando las más decenas posibles, sin dejar ninguna caja a medio llenar.",
+        "Reconocer las decenas exactas —por ejemplo «cuarenta» son solo cajas, sin moras sueltas—.",
+        "Notar la trampa del valor posicional (85 no es 805) y comparar dos números para ver cuál tiene más."
+      ],
+      "howToPlay": [
+        "Lee lo que Bo te muestra: un montón de moras, una palabra de número o un número escrito.",
+        "Toca el estante que tenga las cajas y las moras sueltas que corresponden.",
+        "¡Lanza las moras al estante y listo!"
+      ],
+      "learningGoals": [
+        "Construir una comprensión firme del valor posicional dentro del 100.",
+        "Descomponer y leer un número de dos cifras como decenas y unidades.",
+        "Sentar la base para calcular dentro del 100."
+      ]
+    },
     "gus-snack-cart.within-100.2-nbt-b-5": {
       "about": [
         "Gus, la ardilla, tiene un carrito de botanas y en su puesto siempre hay movimiento: a veces surte más productos y a veces les vende golosinas a sus clientes. En cada ronda tu hijo lee una historia corta de lo que pasa en el carrito y ve la operación que le corresponde a esa escena. Así el cálculo aparece dentro de una situación que el niño o la niña puede imaginar.",

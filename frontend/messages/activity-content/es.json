@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "echo-grove.match-the-rune.3-oa-a-1": {
+      "about": [
+        "Pim, el búho, le muestra a tu hijo una runa como «3 × 4» y lo invita a mirar varias imágenes con frutas acomodadas en grupos. El niño o la niña debe tocar la imagen que muestra exactamente 3 grupos con 4 frutas en cada grupo. Entre las opciones hay señuelos que tienen el mismo total, pero agrupado de otra manera, incluida la imagen gemela de 4 grupos de 3.",
+        "En «3 × 4», el primer factor dice cuántos grupos hay y el segundo dice cuántas frutas van en cada grupo, así que significa 3 grupos de 4. Esta lectura de la multiplicación como grupos iguales es el inicio de las tablas y ayuda a entender que multiplicar es una suma repetida, como 4 + 4 + 4. También deja ver por qué «3 × 4» y «4 × 3» dan el mismo resultado, aunque están agrupados de distinta forma; la conmutatividad se nombra más adelante.",
+        "Esta actividad es gratuita, sin cronómetro, sin puntaje y sin competencia, para que cada quien avance a su propio ritmo. El niño o la niña puede observar, comparar y volver a intentar con calma las veces que necesite. Está alineada con el programa de primaria mexicano en el eje de Sentido numérico, donde la multiplicación como grupos iguales encuentra su lugar."
+      ],
+      "practices": [
+        "Leer la multiplicación como grupos iguales: el primer factor es el número de grupos y el segundo, el tamaño de cada grupo.",
+        "Distinguir \"3 grupos de 4\" de \"4 grupos de 3\", aunque tengan el mismo total.",
+        "Conectar el signo × con la suma repetida, como 4 + 4 + 4.",
+        "Observar con atención y comparar varias imágenes que comparten el mismo total."
+      ],
+      "howToPlay": [
+        "Pim muestra arriba una runa como «3 × 4».",
+        "Toca la imagen que muestra exactamente esos grupos: 3 grupos de 4.",
+        "Si aciertas, Pim se pone feliz; si no, compara con calma y vuelve a intentar."
+      ],
+      "learningGoals": [
+        "Comprende la multiplicación como grupos iguales, no solo como un producto memorizado.",
+        "Reconoce el significado de los dos factores: cuántos grupos y de qué tamaño.",
+        "Sienta las bases para las tablas de multiplicar y para la conmutatividad."
+      ]
+    },
     "halfway-harbors.nearest.3-nbt-a-1": {
       "about": [
         "En esta actividad, tu hijo o hija acompaña a Marina, una gata farera, que guía barcos por el mar de los números. Cada barco lleva un número y hay que llevarlo al puerto más cercano —una decena redonda como «40»— o, en las rondas de centenas, al faro más cercano —una centena redonda como «300»—. El niño o la niña observa la recta numérica, ubica el número del barco y decide a qué puerto o faro conviene acercarlo.",

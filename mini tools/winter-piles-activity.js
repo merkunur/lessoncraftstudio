@@ -25,11 +25,13 @@
   var ONES_DE = ['null', 'eins', 'zwei', 'drei', 'vier', 'fünf', 'sechs', 'sieben', 'acht', 'neun', 'zehn', 'elf', 'zwölf', 'dreizehn', 'vierzehn', 'fünfzehn', 'sechzehn'];
   /* French standalone number words 0–16 (arrays ≤4×4 → addends/totals ≤16) */
   var ONES_FR = ['zéro', 'un', 'deux', 'trois', 'quatre', 'cinq', 'six', 'sept', 'huit', 'neuf', 'dix', 'onze', 'douze', 'treize', 'quatorze', 'quinze', 'seize'];
-  function numWord(n) { if (LANG === 'de') return ONES_DE[n] || String(n); if (LANG === 'fr') return ONES_FR[n] || String(n); if (n < 20) return ONES[n]; var t = ['', '', 'twenty', 'thirty', 'forty', 'fifty']; return (t[Math.floor(n / 10)] || n) + (n % 10 ? '-' + ONES[n % 10] : ''); }
+  /* Spanish standalone number words 0–16 (arrays ≤4×4 → addends/totals ≤16): uno standalone, dieciséis accented */
+  var ONES_ES = ['cero', 'uno', 'dos', 'tres', 'cuatro', 'cinco', 'seis', 'siete', 'ocho', 'nueve', 'diez', 'once', 'doce', 'trece', 'catorce', 'quince', 'dieciséis'];
+  function numWord(n) { if (LANG === 'de') return ONES_DE[n] || String(n); if (LANG === 'fr') return ONES_FR[n] || String(n); if (LANG === 'es') return ONES_ES[n] || String(n); if (n < 20) return ONES[n]; var t = ['', '', 'twenty', 'thirty', 'forty', 'fifty']; return (t[Math.floor(n / 10)] || n) + (n % 10 ? '-' + ONES[n % 10] : ''); }
 
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'number', text: text, lang: LANG, rate: 0.92 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .92; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'number', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG), rate: 0.92 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .92; u.lang = (LANG === 'es' ? 'es-MX' : LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function svgEl(tag, attrs) { var e = document.createElementNS('http://www.w3.org/2000/svg', tag); if (attrs) for (var k in attrs) e.setAttribute(k, attrs[k]); return e; }
 
@@ -37,7 +39,7 @@
     var happy = mood === 'happy';
     var eyes = happy ? '<path d="M40 44 q4 -5 8 0 M54 44 q4 -5 8 0" stroke="#2A2A35" stroke-width="2.4" fill="none" stroke-linecap="round"/>' : '<circle cx="44" cy="45" r="3" fill="#2A2A35"/><circle cx="58" cy="45" r="3" fill="#2A2A35"/>';
     var mouth = happy ? '<path d="M44 55 q7 7 14 0" stroke="#2A2A35" stroke-width="2.3" fill="none" stroke-linecap="round"/>' : '<path d="M46 55 q5 3 10 0" stroke="#2A2A35" stroke-width="2" fill="none" stroke-linecap="round"/>';
-    return '<svg class="wp-sq-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Eichhörnchen' : LANG === 'fr' ? 'écureuil' : 'squirrel') + '">' +
+    return '<svg class="wp-sq-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Eichhörnchen' : LANG === 'fr' ? 'écureuil' : LANG === 'es' ? 'ardilla' : 'squirrel') + '">' +
       '<path d="M78 64 Q96 50 86 30 Q80 18 70 28 Q82 40 72 56 Z" fill="#B5713C"/>' + // tail
       '<ellipse cx="51" cy="58" rx="24" ry="22" fill="#C8854A"/>' +
       '<circle cx="40" cy="30" r="7" fill="#C8854A"/><circle cx="62" cy="30" r="7" fill="#C8854A"/>' +
@@ -50,17 +52,17 @@
     reward: { id: 'acorn-hoard', label: 'Acorn Hoard', emoji: '🌰' },
 
     strings: {
-      title: { en: "Squirrel's Fair Winter Piles", de: 'Flos faire Winterhäufchen', fr: 'Les tas égaux de Flo' },
-      prompt: { en: 'Make fair piles!', de: 'Mach faire Häufchen!', fr: 'Fais des tas égaux !' },
-      promptFair: { en: 'Cut the rows into piles that are all the same size.', de: 'Schneide die Reihen in Häufchen, die alle gleich groß sind.', fr: 'Coupe les rangées en tas qui ont tous la même taille.' },
-      promptN: { en: 'Make exactly {n} fair piles.', de: 'Mach genau {n} gleich große Häufchen.', fr: 'Fais exactement {n} tas égaux.' },
-      promptFix: { en: 'These piles are unfair — re-cut them so they match!', de: 'Diese Häufchen sind nicht gleich groß – schneide noch mal, damit sie zusammenpassen!', fr: 'Ces tas ne sont pas égaux — recoupe-les pour qu’ils correspondent !' },
-      promptMatch: { en: 'Cut and read to make {eq}.', de: 'Schneide und lies, um {eq} zu bauen.', fr: 'Coupe et lis pour faire {eq}.' },
-      readHint: { en: 'Read each pile and tap its number in.', de: 'Lies jedes Häufchen und tippe seine Zahl ein.', fr: 'Lis chaque tas et entre son nombre.' },
-      lockIt: { en: 'Lock it in!', de: 'Einrasten!', fr: 'Valide !' },
-      win: { en: 'Fair piles! They sparkle as one!', de: 'Faire Häufchen! Sie funkeln wie eins!', fr: 'Des tas égaux ! Ils brillent ensemble !' },
-      unfair: { en: "Those piles aren't equal yet — make them all the same.", de: 'Die Häufchen sind noch nicht gleich groß – mach sie alle gleich.', fr: 'Ces tas ne sont pas encore égaux — fais-les tous pareils.' },
-      hintCheck: { en: 'Make fair piles + read each one, then lock it in.', de: 'Mach gleich große Häufchen und lies jedes, dann raste sie ein.', fr: 'Fais des tas égaux et lis chacun, puis valide.' }
+      title: { en: "Squirrel's Fair Winter Piles", de: 'Flos faire Winterhäufchen', fr: 'Les tas égaux de Flo', es: 'Los montoncitos justos de Flo' },
+      prompt: { en: 'Make fair piles!', de: 'Mach faire Häufchen!', fr: 'Fais des tas égaux !', es: '¡Haz montoncitos iguales!' },
+      promptFair: { en: 'Cut the rows into piles that are all the same size.', de: 'Schneide die Reihen in Häufchen, die alle gleich groß sind.', fr: 'Coupe les rangées en tas qui ont tous la même taille.', es: 'Corta las filas en montoncitos que sean todos del mismo tamaño.' },
+      promptN: { en: 'Make exactly {n} fair piles.', de: 'Mach genau {n} gleich große Häufchen.', fr: 'Fais exactement {n} tas égaux.', es: 'Haz exactamente {n} montoncitos iguales.' },
+      promptFix: { en: 'These piles are unfair — re-cut them so they match!', de: 'Diese Häufchen sind nicht gleich groß – schneide noch mal, damit sie zusammenpassen!', fr: 'Ces tas ne sont pas égaux — recoupe-les pour qu’ils correspondent !', es: 'Estos montoncitos no son iguales. ¡Corta otra vez para que queden iguales!' },
+      promptMatch: { en: 'Cut and read to make {eq}.', de: 'Schneide und lies, um {eq} zu bauen.', fr: 'Coupe et lis pour faire {eq}.', es: 'Corta y lee para formar {eq}.' },
+      readHint: { en: 'Read each pile and tap its number in.', de: 'Lies jedes Häufchen und tippe seine Zahl ein.', fr: 'Lis chaque tas et entre son nombre.', es: 'Lee cada montoncito y escribe su número.' },
+      lockIt: { en: 'Lock it in!', de: 'Einrasten!', fr: 'Valide !', es: '¡Fíjalos!' },
+      win: { en: 'Fair piles! They sparkle as one!', de: 'Faire Häufchen! Sie funkeln wie eins!', fr: 'Des tas égaux ! Ils brillent ensemble !', es: '¡Montoncitos iguales! ¡Brillan como uno solo!' },
+      unfair: { en: "Those piles aren't equal yet — make them all the same.", de: 'Die Häufchen sind noch nicht gleich groß – mach sie alle gleich.', fr: 'Ces tas ne sont pas encore égaux — fais-les tous pareils.', es: 'Los montoncitos todavía no son iguales. Haz que todos queden del mismo tamaño.' },
+      hintCheck: { en: 'Make fair piles + read each one, then lock it in.', de: 'Mach gleich große Häufchen und lies jedes, dann raste sie ein.', fr: 'Fais des tas égaux et lis chacun, puis valide.', es: 'Haz montoncitos iguales y lee cada uno; luego fíjalos.' }
     },
     defaults: {},
 
@@ -206,9 +208,9 @@
       piles.forEach(function (trueCount, i) {
         if (i > 0) { var op = api.el('span', 'wp-op'); op.textContent = '+'; strip.appendChild(op); }
         var slot = api.el('div', 'wp-slot' + (self.addends[i] == null ? ' wp-blank' : '') + (valid ? ' wp-slot-win' : ''));
-        var minus = api.el('button', 'wp-step wp-minus'); minus.type = 'button'; minus.textContent = '−'; minus.setAttribute('aria-label', 'minus');
+        var minus = api.el('button', 'wp-step wp-minus'); minus.type = 'button'; minus.textContent = '−'; minus.setAttribute('aria-label', (LANG === 'es' ? 'menos' : 'minus'));
         var num = api.el('span', 'wp-num'); num.textContent = self.addends[i] == null ? '?' : self.addends[i];
-        var plus = api.el('button', 'wp-step wp-plus'); plus.type = 'button'; plus.textContent = '+'; plus.setAttribute('aria-label', 'plus');
+        var plus = api.el('button', 'wp-step wp-plus'); plus.type = 'button'; plus.textContent = '+'; plus.setAttribute('aria-label', (LANG === 'es' ? 'más' : 'plus'));
         if (!self.solved) {
           minus.addEventListener('click', function () { self._setAddend(i, Math.max(0, (self.addends[i] || 0) - 1)); });
           plus.addEventListener('click', function () { self._setAddend(i, Math.min(self._R() * self._Cc(), (self.addends[i] == null ? 0 : self.addends[i]) + 1)); });
@@ -232,7 +234,7 @@
     _isValid: function () { return Core.validate(this.round, this.cuts, this.addends.map(function (a) { return a == null ? -1 : a; })); },
     _onBecomeValid: function () {
       this.api.sound && this.api.sound(880);
-      var piles = Core.derivePiles(this.round, this.cuts), eq = piles.map(numWord).join(' plus ') + (LANG === 'de' ? ' ist gleich ' : LANG === 'fr' ? ' égale ' : ' equals ') + numWord(this._R() * this._Cc());
+      var piles = Core.derivePiles(this.round, this.cuts), eq = piles.map(numWord).join(LANG === 'es' ? ' más ' : ' plus ') + (LANG === 'de' ? ' ist gleich ' : LANG === 'fr' ? ' égale ' : LANG === 'es' ? ' es igual a ' : ' equals ') + numWord(this._R() * this._Cc());
       this.api.announce && this.api.announce(this.api.t('win')); speak(eq);
     },
 

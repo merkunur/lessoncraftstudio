@@ -18,13 +18,13 @@
   var LANG = 'en';
 
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG), rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = (LANG === 'es' ? 'es-MX' : LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function goatSVG() {
-    return '<svg class="ggg-goat-svg" viewBox="0 0 100 100" role="img" aria-label="Gauge the goat">' +
+    return '<svg class="ggg-goat-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'es' ? 'Gauge la cabra' : 'Gauge the goat') + '">' +
       '<ellipse cx="46" cy="62" rx="24" ry="18" fill="#E6E0D6"/>' +                /* body */
       '<circle cx="74" cy="46" r="13" fill="#EFEAE0"/>' +                          /* head */
       '<path d="M66 36 q-6 -8 -2 -14 M82 36 q6 -8 2 -14" stroke="#B79B6E" stroke-width="4" fill="none" stroke-linecap="round"/>' + /* horns */
@@ -39,13 +39,13 @@
     id: 'gauge-good-guess-activity',
 
     strings: {
-      title: { en: "Gauge's Good Guess", de: 'Gauges gute Schätzung', fr: 'La bonne estimation de Gauge' },
-      instruction: { en: 'Picture the real size, then tap the estimate that makes sense.', de: 'Stell dir die echte Größe vor und tippe dann auf die Schätzung, die passt.', fr: 'Imagine la taille réelle, puis touche l’estimation qui a du sens.' },
-      prompt: { en: 'Tap the estimate that makes sense.', de: 'Tippe auf die Schätzung, die passt.', fr: 'Touche l’estimation qui a du sens.' },
-      gaugeIntro: { en: 'I guess sizes by eye — picture how big it really is!', de: 'Ich schätze Größen mit dem Auge – stell dir vor, wie groß etwas wirklich ist!', fr: 'Je devine les tailles à l’œil — imagine la taille réelle !' },
-      hintPick: { en: 'Think about the real object. Is it small, or really big?', de: 'Denk an den echten Gegenstand. Ist er klein oder richtig groß?', fr: 'Pense à l’objet réel. Est-il petit, ou vraiment grand ?' },
-      hintWrong: { en: 'That size is way off. Picture the real thing again.', de: 'Diese Größe passt gar nicht. Stell dir das echte Ding noch einmal vor.', fr: 'Cette taille est loin du compte. Imagine à nouveau l’objet réel.' },
-      win: { en: 'Yes! That is a sensible estimate. 📏', de: 'Ja! Das ist eine sinnvolle Schätzung. 📏', fr: 'Oui ! C’est une estimation qui a du sens. 📏' }
+      title: { en: "Gauge's Good Guess", de: 'Gauges gute Schätzung', fr: 'La bonne estimation de Gauge', es: 'El buen ojo de Gauge' },
+      instruction: { en: 'Picture the real size, then tap the estimate that makes sense.', de: 'Stell dir die echte Größe vor und tippe dann auf die Schätzung, die passt.', fr: 'Imagine la taille réelle, puis touche l’estimation qui a du sens.', es: 'Imagina el tamaño real y luego toca la estimación que le queda bien.' },
+      prompt: { en: 'Tap the estimate that makes sense.', de: 'Tippe auf die Schätzung, die passt.', fr: 'Touche l’estimation qui a du sens.', es: 'Toca la estimación que le queda bien.' },
+      gaugeIntro: { en: 'I guess sizes by eye — picture how big it really is!', de: 'Ich schätze Größen mit dem Auge – stell dir vor, wie groß etwas wirklich ist!', fr: 'Je devine les tailles à l’œil — imagine la taille réelle !', es: '¡Yo calculo tamaños con la vista! Imagina qué tan grande es algo de verdad.' },
+      hintPick: { en: 'Think about the real object. Is it small, or really big?', de: 'Denk an den echten Gegenstand. Ist er klein oder richtig groß?', fr: 'Pense à l’objet réel. Est-il petit, ou vraiment grand ?', es: 'Piensa en el objeto real. ¿Es chiquito o de verdad enorme?' },
+      hintWrong: { en: 'That size is way off. Picture the real thing again.', de: 'Diese Größe passt gar nicht. Stell dir das echte Ding noch einmal vor.', fr: 'Cette taille est loin du compte. Imagine à nouveau l’objet réel.', es: 'Ese tamaño no le queda para nada. Vuelve a imaginar el objeto real.' },
+      win: { en: 'Yes! That is a sensible estimate. 📏', de: 'Ja! Das ist eine sinnvolle Schätzung. 📏', fr: 'Oui ! C’est une estimation qui a du sens. 📏', es: '¡Sí! Esa es una buena estimación. 📏' }
     },
     defaults: {},
 

@@ -304,6 +304,104 @@
               "80 m"
             ]
           }
+        ],
+        "es": [
+          {
+            "id": "ant",
+            "band": 1,
+            "object": "una hormiga",
+            "question": "¿Cuánto mide de largo una hormiga?",
+            "answer": "1 cm",
+            "options": [
+              "1 cm",
+              "12 cm",
+              "30 cm"
+            ]
+          },
+          {
+            "id": "door",
+            "band": 1,
+            "object": "una puerta",
+            "question": "¿Qué tan alta es una puerta?",
+            "answer": "2 m",
+            "options": [
+              "1 m",
+              "2 m",
+              "9 m"
+            ]
+          },
+          {
+            "id": "train",
+            "band": 2,
+            "object": "un tren",
+            "question": "¿Cuánto mide de largo un tren?",
+            "answer": "200 m",
+            "options": [
+              "3 m",
+              "40 m",
+              "200 m"
+            ]
+          },
+          {
+            "id": "crayon",
+            "band": 1,
+            "object": "un crayón",
+            "question": "¿Cuánto mide de largo un crayón?",
+            "answer": "9 cm",
+            "options": [
+              "9 cm",
+              "50 cm",
+              "90 cm"
+            ]
+          },
+          {
+            "id": "bus",
+            "band": 2,
+            "object": "un camión",
+            "question": "¿Cuánto mide de largo un camión?",
+            "answer": "12 m",
+            "options": [
+              "2 m",
+              "12 m",
+              "90 m"
+            ]
+          },
+          {
+            "id": "building",
+            "band": 3,
+            "object": "un edificio alto",
+            "question": "¿Qué tan alto es un edificio grande?",
+            "answer": "150 m",
+            "options": [
+              "5 m",
+              "40 m",
+              "150 m"
+            ]
+          },
+          {
+            "id": "spoon",
+            "band": 2,
+            "object": "una cuchara",
+            "question": "¿Cuánto mide de largo una cuchara?",
+            "answer": "15 cm",
+            "options": [
+              "15 cm",
+              "60 cm",
+              "150 cm"
+            ]
+          },
+          {
+            "id": "flagpole",
+            "band": 3,
+            "object": "un asta bandera",
+            "question": "¿Qué tan alta es un asta bandera?",
+            "answer": "10 m",
+            "options": [
+              "1 m",
+              "10 m",
+              "80 m"
+            ]
+          }
         ]
       }
     },
@@ -311,17 +409,20 @@
     "slug": {
       "en": "gauge-good-guess",
       "de": "laengen-schaetzen-cm-und-meter-klasse-2",
-      "fr": "estimer-des-longueurs-cm-et-metres-ce1"
+      "fr": "estimer-des-longueurs-cm-et-metres-ce1",
+      "es": "estimar-longitudes-cm-y-metros-2-primaria"
     },
     "page_title": {
       "en": "Gauge's Good Guess — Estimate the Length (Grade 2)",
       "de": "Meter und Zentimeter – Längen schätzen online (Klasse 2)",
-      "fr": "Estimer des longueurs en cm et en mètres – La chèvre Gauge | CE1"
+      "fr": "Estimer des longueurs en cm et en mètres – La chèvre Gauge | CE1",
+      "es": "Estimar longitudes en cm y metros con Gauge | 2.º primaria"
     },
     "page_intro": {
       "en": "Gauge the goat guesses sizes just by looking! Read the question, picture how big the real thing is, and tap the estimate that makes sense — in centimeters or meters. A Grade 2 math game about estimating lengths with sensible units, aligned to Common Core 2.MD.A.3.",
       "de": "Meter und Zentimeter: Längen schätzen und vergleichen mit Ziege Gauge – Klasse 2. Kostenlos online üben, ganz ohne Anmeldung.",
-      "fr": "Gauge la chèvre devine les tailles rien qu'en regardant ! Lis la question, imagine la taille réelle de l'objet, et touche l'estimation qui a du sens — en centimètres ou en mètres. Une fourmi mesure à peu près 1 cm, un train près de 200 m ! Un jeu de CE1 pour estimer des longueurs et choisir la bonne unité. Gratuit et interactif."
+      "fr": "Gauge la chèvre devine les tailles rien qu'en regardant ! Lis la question, imagine la taille réelle de l'objet, et touche l'estimation qui a du sens — en centimètres ou en mètres. Une fourmi mesure à peu près 1 cm, un train près de 200 m ! Un jeu de CE1 pour estimer des longueurs et choisir la bonne unité. Gratuit et interactif.",
+      "es": "Con Gauge, la cabra, tu peque estima longitudes en centímetros y metros: mira un objeto y elige cuánto mide. Actividad de 2.º de primaria, gratis, interactiva y sin registro, alineada a los Planes y programas de estudio (SEP)."
     },
     "kid_prompt_template": "Picture the real size, then tap the estimate that makes sense."
   }

@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "mending-fences.mend-board.3-md-d-8": {
+      "about": [
+        "Con Hazel el tejón, tu hijo repara y revisa cercas de campo a lo largo de cinco tipos de ronda. Arregla una cerca a la que le falta un lado, compara dos campos para decidir «¿cuál necesita más cerca? ¿cuál tiene más pasto?», y elige si debe contar las marcas del borde (el perímetro) o los cuadritos de adentro (el área). También revisa si un rollo de cerca alcanza a dar toda la vuelta al campo y descubre que dos campos con el mismo pasto pueden necesitar distinta cerca.",
+        "La idea matemática es sencilla y poderosa: la diferencia entre el perímetro —la cerca que rodea el campo, una vuelta completa— y el área —el pasto de adentro, la superficie del campo—. Los dos pertenecen al mismo campo, pero son cosas distintas. El niño o la niña lo entiende sin fórmulas, contando y comparando con números pequeños, para que el concepto quede claro antes de llegar a cualquier operación.",
+        "Esta actividad es gratuita, a su propio ritmo, sin cronómetro, sin puntaje y sin competencia. Está alineada con el programa de primaria mexicano dentro del eje Forma, espacio y medida, donde el perímetro y el área se aprenden juntos, como dos propiedades distintas de una misma figura."
+      ],
+      "practices": [
+        "Entender el perímetro como «la cerca alrededor» por conteo, sin fórmula.",
+        "Encontrar el lado que falta de un rectángulo cuando ya se conoce el perímetro y un lado.",
+        "Distinguir con claridad el perímetro del área del mismo campo y contar lo correcto.",
+        "Descubrir que el mismo pasto (área) no significa la misma cerca (perímetro)."
+      ],
+      "howToPlay": [
+        "Lee qué necesita Hazel: la cerca alrededor (perímetro) o el pasto del campo (área).",
+        "Cuenta las marcas que corresponden, o toca el lado de cerca que falta y escribe tu respuesta.",
+        "Compara dos campos y elige el correcto; si te equivocas, vuelve a intentar con calma."
+      ],
+      "learningGoals": [
+        "Determinar el perímetro de un rectángulo contando sus lados.",
+        "Reconocer el perímetro y el área como dos propiedades distintas de la misma figura.",
+        "Descubrir de forma visual que campos con la misma área pueden tener distinto perímetro."
+      ]
+    },
     "comet-kangaroo.tens-hundreds.2-nbt-b-8": {
       "about": [
         "Cometa el canguro salta a lo largo de los números y tu hijo lo acompaña. En la pantalla aparece un número de tres cifras, como «247», junto con un salto: «10 más», «10 menos», «100 más» o «100 menos». El niño o la niña calcula mentalmente dónde cae Cometa y escribe el número nuevo. A veces son saltos pequeños de decenas y a veces son saltos grandes de centenas, así que cada ronda pide una atención distinta.",

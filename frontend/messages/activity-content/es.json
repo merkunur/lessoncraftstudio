@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "hazel-word-bridge.joining-words.l-1-1-g": {
+      "about": [
+        "Hazel la garza acompaña a tu peque en 8 rondas: en cada una aparece una oración con un espacio en blanco, como «Me como una manzana ___ tengo hambre.», y el niño toca la palabra que la completa entre cuatro tarjetas: y, o, pero, porque.",
+        "Un nexo une dos partes de una oración, y cada uno cambia el significado: «y» agrega, «o» ofrece una opción, «pero» marca un contraste y «porque» da una razón; así el peque aprende a leer toda la oración y a elegir por el sentido en vez de adivinar, en un primer acercamiento consciente a cómo se arman las oraciones.",
+        "Es gratis, interactiva y se juega directo en el navegador, sin registro, sin descargas, sin cronómetro y sin puntajes, con un tono cálido y a tu ritmo, alineada a los Planes y programas de estudio (SEP)."
+      ],
+      "practices": [
+        "Distinguir los nexos por su significado: agregar, elegir, contrastar y dar una razón.",
+        "Unir dos partes de una oración de manera que tengan sentido.",
+        "Leer con atención toda la oración antes de responder, en lugar de adivinar.",
+        "Reconocer que cambiar el nexo cambia el significado de la oración completa."
+      ],
+      "howToPlay": [
+        "Lee toda la oración y fíjate bien en el espacio en blanco.",
+        "Piensa cómo se relacionan las dos partes y elige el nexo que va con ese sentido.",
+        "Toca la palabra correcta —y, o, pero o porque—; los intentos son ilimitados y no hay cronómetro."
+      ],
+      "learningGoals": [
+        "Reconoce que un nexo une dos partes de una oración y las conecta.",
+        "Elige entre y, o, pero y porque según el significado de la oración.",
+        "Comprende que el nexo correcto es el que le da sentido a toda la oración."
+      ]
+    },
     "vera-verb-match.be-agreement.l-1-1-c": {
       "about": [
         "Vera, la ratoncita de campo, acompaña a tu peque a completar oraciones cortas: lee una frase con un espacio en blanco, como «El perro ___ en el parque», y toca la forma correcta entre estoy, está y están a lo largo de 8 rondas.",

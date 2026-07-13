@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "winter-piles.draw-partition.2-oa-c-4": {
+      "about": [
+        "Con Flo la ardilla, tu hijo acomoda bellotas en un arreglo rectangular —filas y columnas— y traza una línea para partirlo en montoncitos iguales. Cuenta cuántas bellotas hay en un montoncito, escribe ese número una vez por cada montoncito y arma la ecuación, por ejemplo «4 + 4 + 4 = 12». A lo largo de los distintos retos hace montoncitos iguales, hace exactamente cierto número de montoncitos, arregla un corte disparejo y construye una suma que se le pide.",
+        "Detrás del juego hay una idea poderosa: cuando sumamos varias veces la misma cantidad, lo escribimos como una suma de sumandos iguales, es decir, una suma repetida. El arreglo ordenado de bellotas es el puente hacia la multiplicación, porque de «4 + 4 + 4» nace «3 × 4». Así el niño o la niña entiende POR QUÉ funciona la multiplicación, no la memoriza.",
+        "Todo es gratuito, sin cronómetro, sin puntajes y sin competencia, para que cada quien avance a su propio ritmo. La actividad está alineada al programa de primaria mexicano dentro del eje de Sentido numérico, donde vive la suma de sumandos iguales y el trabajo con arreglos."
+      ],
+      "practices": [
+        "Partir un arreglo en montoncitos iguales y verificar la igualdad.",
+        "Leer y escribir una suma de sumandos iguales, por ejemplo «5 + 5 + 5 = 15».",
+        "Distinguir un reparto justo de uno desigual y corregir un corte disparejo.",
+        "Dar el primer paso firme hacia la multiplicación, entendiendo el producto como suma repetida."
+      ],
+      "howToPlay": [
+        "Traza una línea para partir el arreglo de bellotas en montoncitos iguales.",
+        "Cuenta cuántas bellotas hay en un montoncito y escribe ese número por cada montoncito.",
+        "Revisa si tu suma cuadra, y prueba otro corte si los montoncitos aún no son iguales."
+      ],
+      "learningGoals": [
+        "Reconoce que cantidades iguales se escriben como una suma de sumandos iguales.",
+        "Construye una comprensión sólida del arreglo como base de la multiplicación.",
+        "Afianza la idea de «igual» o «del mismo tamaño» y prepara la multiplicación de forma visual."
+      ]
+    },
     "maple-bakery.share.3-oa-a-2": {
       "about": [
         "Maple, la ratoncita, atiende su panadería y necesita ayuda para repartir sus galletas. En algunas rondas pone varios platos sobre la mesa y reparte las galletas por igual entre ellos, para saber cuántas galletas quedan en cada plato. En otras rondas acomoda las galletas en cajas que se llenan con la misma cantidad cada una, y entonces la pregunta cambia: cuántas cajas alcanza a llenar. Tu hijo observa la situación, piensa el resultado y toca el número correcto.",

@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "pronoun.case.l-1-1-d": {
+      "about": [
+        "Hattie la liebre atiende su sombrerería y necesita ayuda: cada oración tiene un espacio y dos opciones de pronombre, y tu niño elige la que completa la frase con sentido.",
+        "La idea es que un mismo pronombre cambia de forma según su papel en la oración: quién hace la acción («Él corre»), a quién le pasa («Mamá me ve») o de quién es algo («Es mi pelota»). Se aprende por el oído y el sentido de la frase, sin nombres técnicos.",
+        "Es una actividad gratuita e interactiva para 3.º de primaria, alineada a los Planes y programas de estudio (SEP). Se juega en el navegador, sin registro, con un tono cálido y sin cronómetro que apresure."
+      ],
+      "practices": [
+        "Elegir el pronombre que hace la acción en la oración: yo, él, ella o ellos.",
+        "Reconocer el pronombre al que le pasa la acción, como me, te, lo o la.",
+        "Expresar de quién es algo usando mi, tu, su o nuestro.",
+        "Desarrollar el oído para la forma correcta del pronombre antes de aprender los nombres técnicos de la gramática."
+      ],
+      "howToPlay": [
+        "Lee con calma la oración que tiene un espacio en blanco.",
+        "Escucha cuál de las dos palabras suena bien y va con su papel dentro de la frase.",
+        "Toca la opción correcta: Hattie te acompaña sin prisas y con intentos ilimitados, para que aprendas jugando."
+      ],
+      "learningGoals": [
+        "Al terminar, tu niño usa los pronombres personales en la forma correcta según el papel que cumplen en la oración.",
+        "Distingue quién hace la acción de a quién le pasa la acción, una base clave de la gramática de tercer grado de primaria (~8 a 9 años).",
+        "Expresa posesión con naturalidad usando mi, tu, su y nuestro."
+      ]
+    },
     "sentence-builder.build-a-sentence.l-1-1-j": {
       "about": [
         "En esta actividad, Wiggles la oruga acompaña a tu peque con una imagen y varias palabras revueltas que hay que acomodar en el orden correcto para formar una oración.",

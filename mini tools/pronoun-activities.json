@@ -260,23 +260,37 @@
               "wrong": "nous"
             }
           }
+        ],
+        "es": [
+          { "id": "es-sub-1", "role": "subject",    "sentence": "___ sonríe.",           "es": { "correct": "Ella",    "wrong": "La" } },
+          { "id": "es-sub-2", "role": "subject",    "sentence": "___ estornuda.",        "es": { "correct": "Él",      "wrong": "Lo" } },
+          { "id": "es-sub-3", "role": "subject",    "sentence": "___ bostezan.",         "es": { "correct": "Ellos",   "wrong": "Los" } },
+          { "id": "es-obj-1", "role": "object",     "sentence": "Mamá ___ ve.",          "es": { "correct": "me",      "wrong": "yo" } },
+          { "id": "es-obj-2", "role": "object",     "sentence": "Papá ___ carga.",       "es": { "correct": "te",      "wrong": "tú" } },
+          { "id": "es-obj-3", "role": "object",     "sentence": "Leo ___ sigue.",        "es": { "correct": "lo",      "wrong": "él" } },
+          { "id": "es-pos-1", "role": "possessive", "sentence": "Es ___ pelota.",        "es": { "correct": "mi",      "wrong": "me" } },
+          { "id": "es-pos-2", "role": "possessive", "sentence": "Aquí está ___ perro.",  "es": { "correct": "tu",      "wrong": "te" } },
+          { "id": "es-pos-3", "role": "possessive", "sentence": "Es ___ salón.",         "es": { "correct": "nuestro", "wrong": "nos" } }
         ]
       }
     },
     "slug": {
       "en": "personal-pronouns",
       "de": "personalpronomen-ueben-er-ihn-ich-mich-klasse-3",
-      "fr": "les-pronoms-choisir-la-bonne-forme-ce2"
+      "fr": "les-pronoms-choisir-la-bonne-forme-ce2",
+      "es": "pronombres-personales-para-ninos-3-primaria"
     },
     "page_title": {
       "en": "The Borrowed Hat — Personal Pronouns (Grade 1)",
       "de": "Hattie übt Personalpronomen: er/ihn, ich/mich – Klasse 3",
-      "fr": "Grammaire CE2 : les pronoms – exercice en ligne"
+      "fr": "Grammaire CE2 : les pronoms – exercice en ligne",
+      "es": "Pronombres personales para niños: yo, él, me, mi (3.º primaria)"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 grammar activity: at Hattie's Lost-and-Found Hat Shop, every character needs the right word-hat for its job in the sentence — he when doing, him when it is done to him, his when it belongs to him. Read the sentence, then pick the pronoun that fits. A friendly first look at using pronouns correctly. Common Core L.1.1.d.",
       "de": "Bei Hattie im Hutladen das passende Fürwort wählen: er oder ihn, ich oder mich – je nach Satzrolle. Personalpronomen kostenlos und interaktiv üben, Klasse 3.",
-      "fr": "Grammaire CE2 en ligne : choisis la bonne forme du pronom dans la phrase, avec correction immédiate. Gratuit, en ligne, sans inscription."
+      "fr": "Grammaire CE2 en ligne : choisis la bonne forme du pronom dans la phrase, avec correction immédiate. Gratuit, en ligne, sans inscription.",
+      "es": "Con Hattie la liebre y su sombrerería, tu niño lee una oración con un espacio y elige el pronombre personal correcto: quién hace la acción, a quién le pasa o de quién es algo. Actividad gratuita e interactiva para 3.º de primaria, alineada a los Planes y programas de estudio (SEP)."
     },
     "kid_prompt_template": "pronoun"
   }

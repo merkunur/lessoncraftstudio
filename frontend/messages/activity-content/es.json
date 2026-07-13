@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "ziggy-odd-one-out.category.l-1-5-a": {
+      "about": [
+        "Ziggy la cebra te muestra en cada ronda cuatro imágenes con sus palabras —por ejemplo «perro», «gato», «cerdo» y «manzana»— y tu niño toca la que no pertenece al grupo; son 8 rondas para jugar con calma.",
+        "Las palabras y las cosas pertenecen a grupos o categorías —animales, comida, ropa, plantas—, y al descubrir cuál no pertenece, el niño afina su idea de qué tienen en común las otras tres y qué hace que un grupo sea un grupo; esa es la base para después ordenar palabras por categorías y enriquecer su vocabulario.",
+        "Gratis, interactiva y desde el navegador, sin registro ni descargas, con un tono cálido, sin cronómetro y sin puntajes, alineada a los Planes y programas de estudio (SEP)."
+      ],
+      "practices": [
+        "Clasificar palabras e imágenes por categorías conocidas, como animales, comida, ropa y plantas.",
+        "Reconocer qué tienen en común varias cosas para saber cuál se sale del grupo.",
+        "Observar y comparar con atención, en vez de adivinar al azar.",
+        "Afianzar el vocabulario ordenando y agrupando palabras que el niño ya conoce."
+      ],
+      "howToPlay": [
+        "Observa las cuatro imágenes con sus palabras que te muestra Ziggy la cebra.",
+        "Piensa cuáles tres van juntas porque son del mismo grupo y cuál no pertenece.",
+        "Toca la imagen que no pertenece al grupo; los intentos son ilimitados y no hay cronómetro, así que puedes probar con toda tranquilidad."
+      ],
+      "learningGoals": [
+        "Reconoce que las palabras pertenecen a categorías, como los animales, la comida o la ropa.",
+        "Encuentra la palabra o imagen que no pertenece a un grupo y explica por qué.",
+        "Fortalece su vocabulario al ordenar y agrupar palabras familiares por lo que tienen en común."
+      ]
+    },
     "roary-roar-meter.shades.l-2-5-b": {
       "about": [
         "Roary el león llega con su rugidómetro y, en cada una de las 8 rondas, te muestra tres palabras parecidas —como «susurrar», «hablar» y «gritar»— para que toques la más fuerte o la más suave según lo que él te pida.",

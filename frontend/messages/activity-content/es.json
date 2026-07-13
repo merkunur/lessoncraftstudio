@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "bram-board-shop.length-word-problems.2-md-b-5": {
+      "about": [
+        "Bram, el castor, tiene un taller de tablas y siempre trae una pequeña historia de longitudes para tu hijo: dos tablas se juntan, se corta un pedazo, o hay que averiguar cuántos centímetros más larga es una tabla que otra. El niño o la niña lee la historia con calma y coloca en la cinta métrica las longitudes que ya conoce. Después busca la longitud que falta y la marca sobre la cinta, como si midiera una tabla de verdad en el taller de Bram.",
+        "Lo interesante es dónde se esconde la incógnita: a veces está al final de la historia, a veces en medio y a veces hasta al inicio. Según el problema, hay que agregar dos longitudes, quitar un pedazo o comparar dos tablas para ver cuál es más larga. Así el niño o la niña aprende a ENTENDER el problema y a representarlo en la cinta, no solo a hacer una cuenta rápida; es cálculo con longitudes hasta 100.",
+        "Esta actividad es gratuita, sin cronómetro, sin puntaje y sin competencia, para que cada niño o niña avance a su propio ritmo. Está alineada con el programa de primaria mexicano dentro del eje Magnitudes y medida, donde viven los problemas con longitudes. El único objetivo es que tu hijo piense, mida y resuelva con confianza."
+      ],
+      "practices": [
+        "Leer, entender y modelar en la cinta métrica problemas de longitudes.",
+        "Sumar y restar hasta 100 con centímetros.",
+        "Encontrar la longitud desconocida en cualquier posición: al final, en medio o al inicio.",
+        "Comparar longitudes y hallar cuánto más larga o más corta es una que otra."
+      ],
+      "howToPlay": [
+        "Lee la historia de Bram y coloca las longitudes conocidas en la cinta métrica.",
+        "Marca el lugar de la longitud que falta y piensa: ¿hay que agregar, quitar o comparar?",
+        "Escribe la longitud que falta en centímetros y revisa si la tabla queda bien."
+      ],
+      "learningGoals": [
+        "Resolver y representar problemas de longitudes en la cinta métrica.",
+        "Calcular con flexibilidad cuando la incógnita cambia de lugar.",
+        "Construir un sentido firme de las longitudes en centímetros hasta 100."
+      ]
+    },
     "gauge-good-guess.estimate.2-md-a-3": {
       "about": [
         "Con Gauge, la cabra, tu hijo ve una pregunta como «¿Cuánto mide aproximadamente una hormiga?» o «¿Qué tan alta es una puerta?» y toca la mejor de tres estimaciones, por ejemplo «1 cm», «12 cm» o «2 m». En lugar de adivinar al azar, el niño o la niña se detiene a pensar qué tamaño sí tiene sentido. Así la adivinanza se convierte en una estimación razonada.",

@@ -174,13 +174,69 @@
             "tiles": [ { "id": "k1", "value": 70 }, { "id": "k2", "value": 25 }, { "id": "d", "value": 95 } ], "decoyId": "d",
             "slots": [ { "role": "bigger", "correct": "k1" }, { "role": "smaller", "correct": null }, { "role": "difference", "correct": "k2" } ]
           }
+        ],
+        "es": [
+          {
+            "id": "takeapart-piece", "cog": "takeapart-piece", "band": 1, "diagram": "bracket", "op": "add", "unknownRole": "partB",
+            "story": "Una cinta mide 50 cm de largo. Bram la corta en dos pedazos. El primer pedazo mide 20 cm. ¿Cuánto mide el segundo pedazo?",
+            "tiles": [ {"id":"k1","value":50}, {"id":"k2","value":20}, {"id":"d","value":80} ], "decoyId": "d",
+            "slots": [ {"role":"whole","correct":"k1"}, {"role":"partA","correct":"k2"}, {"role":"partB","correct":null} ]
+          },
+          {
+            "id": "combine-part", "cog": "combine-part", "band": 1, "diagram": "bracket", "op": "add", "unknownRole": "partB",
+            "story": "La repisa de Bram mide 60 cm de largo. La parte pintada mide 35 cm y el resto está sin pintar. ¿Cuánto mide la parte sin pintar?",
+            "tiles": [ {"id":"k1","value":60}, {"id":"k2","value":35}, {"id":"d","value":90} ], "decoyId": "d",
+            "slots": [ {"role":"whole","correct":"k1"}, {"role":"partA","correct":"k2"}, {"role":"partB","correct":null} ]
+          },
+          {
+            "id": "addto-result", "cog": "addto-result", "band": 2, "diagram": "change", "op": "add", "unknownRole": "result",
+            "story": "La cuerda de Bram mide 45 cm de largo. Le amarra 20 cm más. ¿Cuánto mide la cuerda ahora?",
+            "tiles": [ {"id":"k1","value":45}, {"id":"k2","value":20}, {"id":"d","value":90} ], "decoyId": "d",
+            "slots": [ {"role":"start","correct":"k1"}, {"role":"change","correct":"k2"}, {"role":"result","correct":null} ]
+          },
+          {
+            "id": "takefrom-result", "cog": "takefrom-result", "band": 2, "diagram": "change", "op": "sub", "unknownRole": "result",
+            "story": "Una tabla mide 40 cm de largo. Bram le corta 15 cm con el serrucho. ¿Cuánto mide la tabla ahora?",
+            "tiles": [ {"id":"k1","value":40}, {"id":"k2","value":15}, {"id":"d","value":70} ], "decoyId": "d",
+            "slots": [ {"role":"start","correct":"k1"}, {"role":"change","correct":"k2"}, {"role":"result","correct":null} ]
+          },
+          {
+            "id": "takefrom-change", "cog": "takefrom-change", "band": 2, "diagram": "change", "op": "sub", "unknownRole": "change",
+            "story": "Bram tiene un tablón de 50 cm. Le corta un pedazo y ahora mide solo 32 cm. ¿Cuánto medía el pedazo que cortó?",
+            "tiles": [ {"id":"k1","value":50}, {"id":"k2","value":32}, {"id":"d","value":80} ], "decoyId": "d",
+            "slots": [ {"role":"start","correct":"k1"}, {"role":"change","correct":null}, {"role":"result","correct":"k2"} ]
+          },
+          {
+            "id": "takefrom-start", "cog": "takefrom-start", "band": 2, "diagram": "change", "op": "sub", "unknownRole": "start",
+            "story": "Bram le cortó 12 cm a una tabla. Ahora mide 24 cm. ¿Cuánto medía la tabla antes?",
+            "tiles": [ {"id":"k1","value":12}, {"id":"k2","value":24}, {"id":"d","value":48} ], "decoyId": "d",
+            "slots": [ {"role":"start","correct":null}, {"role":"change","correct":"k1"}, {"role":"result","correct":"k2"} ]
+          },
+          {
+            "id": "compare-diff", "cog": "compare-diff", "band": 3, "diagram": "compare", "op": "add", "unknownRole": "difference",
+            "story": "La repisa de Bram mide 60 cm de largo. Su escritorio mide 45 cm. ¿Cuánto más larga es la repisa que el escritorio?",
+            "tiles": [ {"id":"k1","value":60}, {"id":"k2","value":45}, {"id":"d","value":90} ], "decoyId": "d",
+            "slots": [ {"role":"bigger","correct":"k1"}, {"role":"smaller","correct":"k2"}, {"role":"difference","correct":null} ]
+          },
+          {
+            "id": "compare-bigger", "cog": "compare-bigger", "band": 3, "diagram": "compare", "op": "add", "unknownRole": "bigger",
+            "story": "El escritorio de Bram mide 45 cm de largo. La repisa mide 20 cm más que el escritorio. ¿Cuánto mide la repisa?",
+            "tiles": [ {"id":"k1","value":45}, {"id":"k2","value":20}, {"id":"d","value":90} ], "decoyId": "d",
+            "slots": [ {"role":"bigger","correct":null}, {"role":"smaller","correct":"k1"}, {"role":"difference","correct":"k2"} ]
+          },
+          {
+            "id": "compare-smaller", "cog": "compare-smaller", "band": 3, "diagram": "compare", "op": "add", "unknownRole": "smaller",
+            "story": "La tabla de Bram mide 70 cm de largo. Es 25 cm más larga que la tira. ¿Cuánto mide la tira?",
+            "tiles": [ {"id":"k1","value":70}, {"id":"k2","value":25}, {"id":"d","value":95} ], "decoyId": "d",
+            "slots": [ {"role":"bigger","correct":"k1"}, {"role":"smaller","correct":null}, {"role":"difference","correct":"k2"} ]
+          }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "brams-board-shop", "de": "sachaufgaben-mit-laengen-cm-klasse-2", "fr": "problemes-de-longueurs-additionner-et-soustraire-cm-ce1" },
-    "page_title": { "en": "Bram's Board Shop — Measure & Cut Word Problems (Grade 2)", "de": "Sachaufgaben mit Längen – Brams Bretter-Werkstatt | Klasse 2", "fr": "Problèmes de longueurs en cm – La menuiserie de Bram | CE1" },
-    "page_intro": { "en": "Bram the beaver runs a busy board shop, and every order is a length STORY: glue two boards together, saw a piece off, or measure how much longer the shelf is than the desk. Read the order, then MODEL it on Bram's measuring tape — place each length where it belongs, mark the mystery length, and dial the answer in centimetres. A warm Grade 2 game about adding and subtracting lengths within 100 with the unknown in every position, aligned to Common Core 2.MD.B.5.", "de": "Löse mit Bram dem Biber Sachaufgaben zu Längen: cm addieren, abschneiden und vergleichen bis 100. Kostenlos, interaktiv – Rechnen mit Längen für Klasse 2.", "fr": "Aide Bram le castor dans sa menuiserie : chaque commande est une histoire de longueur ! Colle deux planches, scie un bout, ou mesure de combien l'étagère est plus longue que le bureau. Lis la commande, puis modélise-la sur le mètre-ruban de Bram — place chaque longueur, marque la longueur mystère et compose la réponse en centimètres. Un jeu chaleureux de CE1 pour additionner et soustraire des longueurs jusqu'à 100, avec l'inconnue à toutes les places. Gratuit et interactif." },
+    "slug": { "en": "brams-board-shop", "de": "sachaufgaben-mit-laengen-cm-klasse-2", "fr": "problemes-de-longueurs-additionner-et-soustraire-cm-ce1", "es": "problemas-de-longitudes-sumar-restar-cm-2-primaria" },
+    "page_title": { "en": "Bram's Board Shop — Measure & Cut Word Problems (Grade 2)", "de": "Sachaufgaben mit Längen – Brams Bretter-Werkstatt | Klasse 2", "fr": "Problèmes de longueurs en cm – La menuiserie de Bram | CE1", "es": "Problemas de longitudes con Bram: sumar y restar cm (2.º primaria)" },
+    "page_intro": { "en": "Bram the beaver runs a busy board shop, and every order is a length STORY: glue two boards together, saw a piece off, or measure how much longer the shelf is than the desk. Read the order, then MODEL it on Bram's measuring tape — place each length where it belongs, mark the mystery length, and dial the answer in centimetres. A warm Grade 2 game about adding and subtracting lengths within 100 with the unknown in every position, aligned to Common Core 2.MD.B.5.", "de": "Löse mit Bram dem Biber Sachaufgaben zu Längen: cm addieren, abschneiden und vergleichen bis 100. Kostenlos, interaktiv – Rechnen mit Längen für Klasse 2.", "fr": "Aide Bram le castor dans sa menuiserie : chaque commande est une histoire de longueur ! Colle deux planches, scie un bout, ou mesure de combien l'étagère est plus longue que le bureau. Lis la commande, puis modélise-la sur le mètre-ruban de Bram — place chaque longueur, marque la longueur mystère et compose la réponse en centimètres. Un jeu chaleureux de CE1 pour additionner et soustraire des longueurs jusqu'à 100, avec l'inconnue à toutes les places. Gratuit et interactif.", "es": "En el taller de tablas de Bram, tu peque resuelve problemas de longitudes: suma y resta centímetros hasta 100 en una cinta métrica. Actividad gratis, interactiva y sin registro para 2.º de primaria, alineada a los Planes y programas de estudio (SEP)." },
     "kid_prompt_template": "bram-board-shop"
   }
 ]

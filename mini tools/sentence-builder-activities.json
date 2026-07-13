@@ -413,23 +413,37 @@
               "label": "la fleur"
             }
           }
+        ],
+        "es": [
+          { "id": "snt-dog",    "seed": 11, "canonical": ["El","perro","café","ladra."],      "subject": { "noun": "dog",    "themeDir": "animals",  "label": "el perro" } },
+          { "id": "snt-cat",    "seed": 23, "canonical": ["La","gata","naranja","duerme."],   "subject": { "noun": "cat",    "themeDir": "animals",  "label": "la gata" } },
+          { "id": "snt-sun",    "seed": 31, "canonical": ["El","sol","amarillo","brilla."],   "subject": { "noun": "sun",    "themeDir": "beach",    "label": "el sol" } },
+          { "id": "snt-bus",    "seed": 53, "canonical": ["El","camión","azul","avanza."],    "subject": { "noun": "bus",    "themeDir": "vehicles", "label": "el camión" } },
+          { "id": "snt-frog",   "seed": 61, "canonical": ["La","rana","verde","salta."],      "subject": { "noun": "frog",   "themeDir": "camping",  "label": "la rana" } },
+          { "id": "snt-pig",    "seed": 67, "canonical": ["El","cerdo","rosa","gruñe."],      "subject": { "noun": "pig",    "themeDir": "animals",  "label": "el cerdo" } },
+          { "id": "snt-hen",    "seed": 41, "canonical": ["La","gallina","blanca","picotea."],"subject": { "noun": "hen",    "themeDir": "birds 2",  "label": "la gallina" } },
+          { "id": "snt-fish",   "seed": 71, "canonical": ["El","pez","rojo","nada."],         "subject": { "noun": "fish",   "themeDir": "animals",  "label": "el pez" } },
+          { "id": "snt-flower", "seed": 83, "canonical": ["La","flor","roja","crece."],       "subject": { "noun": "flower", "themeDir": "spring",   "label": "la flor" } }
         ]
       }
     },
     "slug": {
       "en": "build-a-sentence-word-order",
       "de": "saetze-bauen-klasse-2",
-      "fr": "construire-une-phrase-ordre-des-mots-ce1"
+      "fr": "construire-une-phrase-ordre-des-mots-ce1",
+      "es": "construir-oraciones-orden-de-las-palabras-2-primaria"
     },
     "page_title": {
       "en": "Wiggles' Sentence Builder — Build a Sentence (Grade 1)",
       "de": "Sätze schreiben üben – Satzbau online (Klasse 2)",
-      "fr": "La phrase CE1 : remettre les mots dans l'ordre – en ligne"
+      "fr": "La phrase CE1 : remettre les mots dans l'ordre – en ligne",
+      "es": "Wiggles arma oraciones: orden de las palabras (2.º primaria)"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 grammar activity: put the scrambled words in the right order to build a complete sentence — a capital letter to start, a noun and a verb in the middle, and a period at the end. Wiggles the caterpillar helps children produce simple, complete sentences. Common Core L.1.1.j (and L.K.1.b nouns and verbs).",
       "de": "Sätze schreiben üben mit Wiggles: Wörter in die richtige Reihenfolge bringen und den Satzbau trainieren. Klasse 2 – kostenlos online, ohne Anmeldung.",
-      "fr": "La phrase au CE1 : remets les mots dans l'ordre pour construire une phrase correcte, étape par étape. Gratuit, en ligne, sans inscription."
+      "fr": "La phrase au CE1 : remets les mots dans l'ordre pour construire une phrase correcte, étape par étape. Gratuit, en ligne, sans inscription.",
+      "es": "Con Wiggles la oruga, tu peque ordena las palabras revueltas para armar una oración completa: mayúscula al inicio, concordancia y punto final. Actividad gratis e interactiva de español para 2.º de primaria, alineada a los Planes y programas de estudio (SEP)."
     },
     "kid_prompt_template": "sentence-builder"
   }

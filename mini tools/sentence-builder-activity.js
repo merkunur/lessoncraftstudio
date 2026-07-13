@@ -39,6 +39,13 @@
       win: 'Tu as construit une phrase !',
       hintFill: 'Utilise tous les mots — remplis chaque case.',
       hintOrder: 'Ce n’est pas encore une phrase — commence par « Le » ou « La », mets le point à la fin, et fais une phrase qui a du sens.'
+    },
+    es: {
+      q: 'Pon las palabras en orden.',
+      hear: '🔊 Escúchala',
+      win: '¡Armaste una oración!',
+      hintFill: 'Usa todas las palabras: llena todas las casillas.',
+      hintOrder: 'Todavía no es una oración: empieza con El o La, pon el punto al final, y arma una oración que tenga sentido.'
     }
   };
   function txt(k) { return (L[LANG] && L[LANG][k]) || L.en[k] || k; }
@@ -62,11 +69,11 @@
   var SentenceBuilderActivity = {
     id: 'sentence-builder-activity',
     strings: {
-      title: { en: "Wiggles' Sentence Builder", de: 'Wiggles baut Sätze', fr: 'Wiggles construit des phrases' },
-      instruction: { en: 'Tap the words to put them in order and build a sentence.', de: 'Tippe die Wörter an und bringe sie in die richtige Reihenfolge, um einen Satz zu bauen.', fr: 'Touche les mots et mets-les dans le bon ordre pour construire une phrase.' },
-      q: { en: '{q}', de: '{q}', fr: '{q}' },
-      hintFill: { en: 'Use all the words — fill every box.', de: 'Nutze alle Wörter – fülle jedes Feld.', fr: 'Utilise tous les mots — remplis chaque case.' },
-      hintOrder: { en: 'Not a sentence yet — start with the capital word, end with the period, and make it make sense.', de: 'Noch kein Satz – fang mit Der, Die oder Das an, setze den Punkt ans Ende und bau einen sinnvollen Satz.', fr: 'Ce n’est pas encore une phrase — commence par « Le » ou « La », mets le point à la fin, et fais une phrase qui a du sens.' }
+      title: { en: "Wiggles' Sentence Builder", de: 'Wiggles baut Sätze', fr: 'Wiggles construit des phrases', es: 'Wiggles arma oraciones' },
+      instruction: { en: 'Tap the words to put them in order and build a sentence.', de: 'Tippe die Wörter an und bringe sie in die richtige Reihenfolge, um einen Satz zu bauen.', fr: 'Touche les mots et mets-les dans le bon ordre pour construire une phrase.', es: 'Toca las palabras para ponerlas en orden y armar una oración.' },
+      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}' },
+      hintFill: { en: 'Use all the words — fill every box.', de: 'Nutze alle Wörter – fülle jedes Feld.', fr: 'Utilise tous les mots — remplis chaque case.', es: 'Usa todas las palabras: llena todas las casillas.' },
+      hintOrder: { en: 'Not a sentence yet — start with the capital word, end with the period, and make it make sense.', de: 'Noch kein Satz – fang mit Der, Die oder Das an, setze den Punkt ans Ende und bau einen sinnvollen Satz.', fr: 'Ce n’est pas encore une phrase — commence par « Le » ou « La », mets le point à la fin, et fais une phrase qui a du sens.', es: 'Todavía no es una oración: empieza con El o La, pon el punto al final, y arma una oración que tenga sentido.' }
     },
 
     init: function (api) {
@@ -181,7 +188,7 @@
       if (ok) {
         this.readOnly = true;
         this.render();
-        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: this._canonical.join(' '), lang: LANG, rate: 0.85 }); } catch (e) { } }
+        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: this._canonical.join(' '), lang: (LANG === 'es' ? 'es-MX' : LANG), rate: 0.85 }); } catch (e) { } }
       }
       return ok;
     },
@@ -227,7 +234,7 @@
       var hear = el('button', 'snt-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
         var built = self._placedWords().filter(Boolean).join(' ');
-        if (built && global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: built, lang: LANG, rate: 0.85 }); } catch (e) { } }
+        if (built && global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: built, lang: (LANG === 'es' ? 'es-MX' : LANG), rate: 0.85 }); } catch (e) { } }
       });
       say.append(wig, hear); root.appendChild(say); this._wig = wig;
 
@@ -241,6 +248,8 @@
         ? ('Baue einen Satz. Die Wörter sind: ' + this._tiles.join(', ') + '.')
         : LANG === 'fr'
         ? ('Construis une phrase. Les mots sont : ' + this._tiles.join(', ') + '.')
+        : LANG === 'es'
+        ? ('Arma una oración. Las palabras son: ' + this._tiles.join(', ') + '.')
         : ('Build a sentence. The words are: ' + this._tiles.join(', ') + '.');
       wrap.innerHTML = '<p>' + msg + '</p>';
       return wrap;

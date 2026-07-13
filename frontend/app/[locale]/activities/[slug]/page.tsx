@@ -70,7 +70,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'pond-juice.pour-measure.3-md-a-2': { de: '2', fr: '2', es: '2' },      // Hohlmaße/Liter (whole-l 0-10, no ml) → DE Klasse 2 (ml/Umrechnung = Klasse 3); FR CE1 (le litre introduced CE1, mL/conversions = cycle 3); MX 2.º (el litro se introduce en 2.º; ml/conversiones = 3.º-4.º); en Grade 3 unchanged
   'bundle-bot.bundle-machine.1-nbt-b-2-a': { de: '2' },                   // two-digit Stellenwert (20-49, multiple tens) → DE Klasse 2 (Klasse 1 = ZR bis 20)
   'tense.past-present-future.l-1-1-e': { de: '2', fr: '2', es: '2' },     // Zeitformen 3-way contrast + werden-future → DE Klasse 2 (Klasse 1 = nur Gegenwart); FR CE1 (présent seul = CP, la conjugaison systématique imparfait+futur simple = attendu CE1). MX 2.º: el contraste sistemático presente/pretérito/futuro CON futuro = reflexión sobre la lengua de 2.º (en 1.º el verbo se usa de forma incidental); espeja de/fr
-  'sentence-builder.build-a-sentence.l-1-1-j': { de: '2', fr: '2' },      // Satzbau/Wortreihenfolge reorder task → DE Klasse 2 (mastery by end of Klasse 2); FR CE1 (l'accord dans le groupe nominal — le chat noir — = attendu CE1, past CP word-order-only)
+  'sentence-builder.build-a-sentence.l-1-1-j': { de: '2', fr: '2', es: '2' },  // Satzbau/Wortreihenfolge reorder task → DE Klasse 2 (mastery by end of Klasse 2); FR CE1 (l'accord dans le groupe nominal — le chat noir — = attendu CE1, past CP word-order-only). MX 2.º: construcción de oraciones + orden de palabras + concordancia (el perro café / la flor roja) + mayúscula/punto = trabajo metalingüístico de 2.º (1.º es decodificación); espeja de/fr
   'pronoun.case.l-1-1-d': { de: '3', fr: '3' },                           // case-correct pronoun-form choice (er/ihn) → DE Klasse 3 (Fall-arbeit is Klasse 3/4); FR CE2 (les pronoms sujets = CE1, but the COD/object form me/te/le is the CE2 attendu — the activity's central difficulty)
   'olive-kind-of.category-attribute.l-1-5-b': { de: '2', fr: '2' },       // Oberbegriff/Hyperonym abstraction → DE Klasse 2 (EN Grade 1 placement doesn't transfer); FR CE1 (catégoriser / le mot générique vs particulier = attendu CE1, réflexif, past CP naming)
   'vera-verb-match.be-agreement.l-1-1-c': { de: '2', fr: '2' },           // reflective Subjekt-Verb-Kongruenz (bin/ist/sind) → DE Klasse 2 (K-1 kids speak it; the grammar task is Klasse 2); FR CE1 (l'accord sujet-verbe / conjuguer être au présent = attendu CE1, réflexif, past CP oral use)
@@ -521,7 +521,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.253';
+  const ACTIVITY_WRAPPER_VERSION = '9.254';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

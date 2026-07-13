@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "sentence-builder.build-a-sentence.l-1-1-j": {
+      "about": [
+        "En esta actividad, Wiggles la oruga acompaña a tu peque con una imagen y varias palabras revueltas que hay que acomodar en el orden correcto para formar una oración.",
+        "La idea es armar una oración completa cuidando el orden de las palabras, la mayúscula inicial, la concordancia entre el artículo y el adjetivo, y el punto final: por ejemplo, «El perro café ladra.» o «La flor roja crece.»",
+        "Es una actividad de español gratis e interactiva para 2.º de primaria, con un tono cálido, sin cronómetro ni calificaciones; se juega en el navegador, sin registro, y está alineada a los Planes y programas de estudio (SEP)."
+      ],
+      "practices": [
+        "Ordenar las palabras para formar una oración que tenga sentido.",
+        "Empezar la oración con mayúscula y terminarla con un punto.",
+        "Cuidar la concordancia entre el artículo, el sustantivo y el adjetivo de color (el pez rojo / la flor roja).",
+        "Reconocer las partes de la oración: el artículo, el sustantivo, el adjetivo y el verbo."
+      ],
+      "howToPlay": [
+        "Observa la imagen y lee con calma las palabras revueltas que aparecen debajo.",
+        "Toca las palabras en orden para ir llenando los espacios: empieza con la mayúscula y cierra con el punto final.",
+        "Revisa tu oración y, si hace falta, corrige el orden de las palabras; Wiggles te acompaña sin prisas hasta que quede bien."
+      ],
+      "learningGoals": [
+        "Construir oraciones completas colocando las palabras en el orden correcto.",
+        "Afianzar el uso de la mayúscula inicial, la concordancia y el punto final.",
+        "Pensada para segundo grado de primaria (~7 a 8 años), sienta las bases para que tu peque empiece a escribir sus propios textos."
+      ]
+    },
     "affix.apply.l-2-4-b": {
       "about": [
         "Marigold, un topo muy curioso, tiene una máquina de palabras llena de engranes. Cada engrane guarda una piecita mágica del idioma: des-, re- y -oso. Al girarlos, tu peque ve cómo una palabra sencilla se transforma y cambia de significado ante sus ojos.",

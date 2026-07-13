@@ -55,8 +55,20 @@
     if (n < 100) { if (n === 80) return 'quatre-vingts'; return 'quatre-vingt-' + ONES_FR[n - 80]; }
     return String(n);
   }
+  /* Spanish number-words (ZR bis 100). 0-29 one-word (accents live only here: dieciséis,
+     veintidós, veintitrés, veintiséis); 30-99 = TENS_ES[t] + ' y ' + UNIT_ES[o] (accent-free). */
+  var ONES_ES = ['cero', 'uno', 'dos', 'tres', 'cuatro', 'cinco', 'seis', 'siete', 'ocho', 'nueve', 'diez', 'once', 'doce', 'trece', 'catorce', 'quince', 'dieciséis', 'diecisiete', 'dieciocho', 'diecinueve', 'veinte', 'veintiuno', 'veintidós', 'veintitrés', 'veinticuatro', 'veinticinco', 'veintiséis', 'veintisiete', 'veintiocho', 'veintinueve'];
+  var TENS_ES = ['', '', 'veinte', 'treinta', 'cuarenta', 'cincuenta', 'sesenta', 'setenta', 'ochenta', 'noventa'];
+  var UNIT_ES = ['', 'uno', 'dos', 'tres', 'cuatro', 'cinco', 'seis', 'siete', 'ocho', 'nueve'];
+  function numWordES(n) {
+    n = n | 0;
+    if (n < 30) return ONES_ES[n] || String(n);
+    var t = Math.floor(n / 10), o = n % 10;
+    if (t > 9) return String(n);
+    return o ? TENS_ES[t] + ' y ' + UNIT_ES[o] : TENS_ES[t];
+  }
   var LANG = 'en';
-  function numWord(n) { return LANG === 'fr' ? numWordFR(n) : (LANG === 'de' ? numWordDE(n) : enWord(n)); }
+  function numWord(n) { return LANG === 'es' ? numWordES(n) : (LANG === 'fr' ? numWordFR(n) : (LANG === 'de' ? numWordDE(n) : enWord(n))); }
   /* shelf-hoard aria — German needs singular/plural (1 Kiste / N Kisten; 1 lose Beere /
      N lose Beeren) and drops the loose clause when ones=0. EN stays byte-identical. */
   function hoardAria(tens, ones) {
@@ -70,20 +82,25 @@
       if (ones) f += ' et ' + ones + (ones === 1 ? ' baie libre' : ' baies libres');
       return f;
     }
+    if (LANG === 'es') {
+      var e = (tens === 1 ? '1 caja' : tens + ' cajas');
+      if (ones) e += ' y ' + ones + ' ' + (ones === 1 ? 'mora suelta' : 'moras sueltas');
+      return e;
+    }
     return tens + ' crates and ' + ones + ' loose berries';
   }
 
   function speak(text) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'de' ? 'de-DE' : (LANG === 'fr' ? 'fr-FR' : 'en-US')); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: (LANG === 'es' ? 'es-MX' : LANG), rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'es' ? 'es-MX' : (LANG === 'de' ? 'de-DE' : (LANG === 'fr' ? 'fr-FR' : 'en-US'))); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   var REDUCED = (global.matchMedia && global.matchMedia('(prefers-reduced-motion: reduce)').matches);
 
   function boSVG(mood) {
     var happy = mood === 'happy';
-    return '<svg viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Bo das Kaninchen' : (LANG === 'fr' ? 'Bo le lapin' : 'Bo the bunny')) + '">'
+    return '<svg viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'es' ? 'Bo el conejo' : (LANG === 'de' ? 'Bo das Kaninchen' : (LANG === 'fr' ? 'Bo le lapin' : 'Bo the bunny'))) + '">'
       + '<ellipse cx="38" cy="20" rx="6" ry="15" fill="#E9D9C6"/><ellipse cx="62" cy="20" rx="6" ry="15" fill="#E9D9C6"/>'   // ears
       + '<ellipse cx="38" cy="20" rx="3" ry="10" fill="#F4C9C0"/><ellipse cx="62" cy="20" rx="3" ry="10" fill="#F4C9C0"/>'
       + '<circle cx="50" cy="52" r="30" fill="#EFE2D2"/>'                                                                     // head
@@ -108,25 +125,25 @@
     reward: { id: 'pantry', label: "Bo's Winter Pantry", emoji: '🧺' },
 
     strings: {
-      title: { en: "Bo's Berry Pantry", de: 'Bos Beerenkammer', fr: 'Le garde-manger de Bo' },
-      instruction: { en: 'Read Bo’s berries, then sling them to the matching shelf.', de: 'Lies Bos Beeren und schieß sie zum passenden Regal!', fr: 'Lis les baies de Bo, puis lance-les sur la bonne étagère !' },
-      prompt: { en: 'Pack Bo’s berries!', de: 'Pack Bos Beeren!', fr: 'Range les baies de Bo !' },
-      qPile: { en: 'Pack Bo’s berries — crates and loose!', de: 'Pack Bos Beeren — Kisten und lose Beeren!', fr: 'Range les baies de Bo — des caisses et des baies libres !' },
-      qDecade: { en: 'Send Bo’s {w} — all crates, no loose!', de: 'Schick Bos {w} — nur Kisten, nichts Loses!', fr: 'Envoie les {w} de Bo — que des caisses, rien de libre !' },
-      qUnitize: { en: 'Pack {w} — use the MOST crates you can!', de: 'Pack {w} — nimm so viele Kisten wie möglich!', fr: 'Range {w} — utilise le PLUS de caisses possible !' },
-      qCompare: { en: 'Which shelf has MORE?', de: 'Welches Regal hat MEHR?', fr: 'Quelle étagère en a le PLUS ?' },
-      qNumeral: { en: 'Send {w} home — match the shelf!', de: 'Schick {w} nach Hause — finde das passende Regal!', fr: 'Renvoie {w} à la maison — trouve la bonne étagère !' },
-      qEncode: { en: 'Which number is Bo’s hoard?', de: 'Welche Zahl ist Bos Vorrat?', fr: 'Quel nombre est le trésor de Bo ?' },
-      crateWord: { en: 'a crate is TEN', de: 'eine Kiste ist ZEHN', fr: 'une caisse, c’est DIX' },
-      shelvesLab: { en: 'Pantry shelves', de: 'VORRATSREGALE', fr: 'ÉTAGÈRES DU GARDE-MANGER' },
-      sling: { en: 'Sling it! 🪃', de: 'Schieß los! 🪃', fr: 'Lance ! 🪃' },
-      slingHint: { en: 'Tap a shelf, then sling Bo’s berries!', de: 'Tipp ein Regal an und schieß Bos Beeren!', fr: 'Touche une étagère, puis lance les baies de Bo !' },
-      lockedHint: { en: 'Now sling it to that shelf!', de: 'Jetzt schieß sie zum Regal!', fr: 'Maintenant, lance-les sur cette étagère !' },
-      wrongCrates: { en: 'That shelf holds {k} crates — count again for Bo!', de: 'Dieses Regal hat {k} Kisten — zähl noch mal für Bo!', fr: 'Cette étagère a {k} caisses — recompte pour Bo !' },
-      wrongOne: { en: 'That shelf holds 1 crate — count again for Bo!', de: 'Dieses Regal hat 1 Kiste — zähl noch mal für Bo!', fr: 'Cette étagère a 1 caisse — recompte pour Bo !' },
-      wrongNum: { en: 'That number isn’t Bo’s hoard — count again!', de: 'Das ist nicht Bos Vorrat — zähl noch mal!', fr: 'Ce n’est pas le trésor de Bo — recompte !' },
-      win: { en: '{w} — packed into tens! 🧺', de: '{w} — in Zehner gepackt! 🧺', fr: '{w} — rangé en dizaines ! 🧺' },
-      tapCheck: { en: 'Tap Check! ✓', de: 'Tipp auf „Prüfen"! ✓', fr: 'Touche Vérifier ! ✓' }
+      title: { en: "Bo's Berry Pantry", de: 'Bos Beerenkammer', fr: 'Le garde-manger de Bo', es: 'La despensa de Bo' },
+      instruction: { en: 'Read Bo’s berries, then sling them to the matching shelf.', de: 'Lies Bos Beeren und schieß sie zum passenden Regal!', fr: 'Lis les baies de Bo, puis lance-les sur la bonne étagère !', es: '¡Lee las moras de Bo y dispáralas al estante que coincide!' },
+      prompt: { en: 'Pack Bo’s berries!', de: 'Pack Bos Beeren!', fr: 'Range les baies de Bo !', es: '¡Acomoda las moras de Bo!' },
+      qPile: { en: 'Pack Bo’s berries — crates and loose!', de: 'Pack Bos Beeren — Kisten und lose Beeren!', fr: 'Range les baies de Bo — des caisses et des baies libres !', es: '¡Acomoda las moras de Bo: cajas y moras sueltas!' },
+      qDecade: { en: 'Send Bo’s {w} — all crates, no loose!', de: 'Schick Bos {w} — nur Kisten, nichts Loses!', fr: 'Envoie les {w} de Bo — que des caisses, rien de libre !', es: '¡Manda las {w} de Bo: solo cajas, nada suelto!' },
+      qUnitize: { en: 'Pack {w} — use the MOST crates you can!', de: 'Pack {w} — nimm so viele Kisten wie möglich!', fr: 'Range {w} — utilise le PLUS de caisses possible !', es: 'Acomoda {w}: ¡usa la mayor cantidad de cajas posible!' },
+      qCompare: { en: 'Which shelf has MORE?', de: 'Welches Regal hat MEHR?', fr: 'Quelle étagère en a le PLUS ?', es: '¿Cuál estante tiene MÁS?' },
+      qNumeral: { en: 'Send {w} home — match the shelf!', de: 'Schick {w} nach Hause — finde das passende Regal!', fr: 'Renvoie {w} à la maison — trouve la bonne étagère !', es: '¡Manda {w} a su lugar: encuentra el estante que coincide!' },
+      qEncode: { en: 'Which number is Bo’s hoard?', de: 'Welche Zahl ist Bos Vorrat?', fr: 'Quel nombre est le trésor de Bo ?', es: '¿Qué número tiene Bo guardado?' },
+      crateWord: { en: 'a crate is TEN', de: 'eine Kiste ist ZEHN', fr: 'une caisse, c’est DIX', es: 'una caja tiene DIEZ (una decena)' },
+      shelvesLab: { en: 'Pantry shelves', de: 'VORRATSREGALE', fr: 'ÉTAGÈRES DU GARDE-MANGER', es: 'ESTANTES DE LA DESPENSA' },
+      sling: { en: 'Sling it! 🪃', de: 'Schieß los! 🪃', fr: 'Lance ! 🪃', es: '¡Dispara! 🪃' },
+      slingHint: { en: 'Tap a shelf, then sling Bo’s berries!', de: 'Tipp ein Regal an und schieß Bos Beeren!', fr: 'Touche une étagère, puis lance les baies de Bo !', es: '¡Toca un estante y dispara las moras de Bo!' },
+      lockedHint: { en: 'Now sling it to that shelf!', de: 'Jetzt schieß sie zum Regal!', fr: 'Maintenant, lance-les sur cette étagère !', es: '¡Ahora dispáralas al estante!' },
+      wrongCrates: { en: 'That shelf holds {k} crates — count again for Bo!', de: 'Dieses Regal hat {k} Kisten — zähl noch mal für Bo!', fr: 'Cette étagère a {k} caisses — recompte pour Bo !', es: 'Este estante tiene {k} cajas: ¡cuenta otra vez para Bo!' },
+      wrongOne: { en: 'That shelf holds 1 crate — count again for Bo!', de: 'Dieses Regal hat 1 Kiste — zähl noch mal für Bo!', fr: 'Cette étagère a 1 caisse — recompte pour Bo !', es: 'Este estante tiene 1 caja: ¡cuenta otra vez para Bo!' },
+      wrongNum: { en: 'That number isn’t Bo’s hoard — count again!', de: 'Das ist nicht Bos Vorrat — zähl noch mal!', fr: 'Ce n’est pas le trésor de Bo — recompte !', es: 'Ese no es lo que guardó Bo: ¡cuenta otra vez!' },
+      win: { en: '{w} — packed into tens! 🧺', de: '{w} — in Zehner gepackt! 🧺', fr: '{w} — rangé en dizaines ! 🧺', es: '{w}: ¡acomodadas en decenas! 🧺' },
+      tapCheck: { en: 'Tap Check! ✓', de: 'Tipp auf „Prüfen"! ✓', fr: 'Touche Vérifier ! ✓', es: '¡Toca «Comprobar»! ✓' }
     },
     defaults: {},
 
@@ -217,7 +234,7 @@
       this.cstate.positions.forEach(function (key) {
         var sh = self.round.shelves[key], locked = (self.cstate.lockedKey === key);
         var btn = api.el('button', 'bp-shelf' + (locked ? ' bp-locked' : '')); btn.type = 'button'; btn.setAttribute('data-key', key);
-        if (sh.numeral != null) { var num = api.el('span', 'bp-shnum'); num.textContent = sh.numeral; btn.appendChild(num); btn.setAttribute('aria-label', (LANG === 'de' ? 'die Zahl ' : (LANG === 'fr' ? 'le nombre ' : 'the number ')) + sh.numeral); }
+        if (sh.numeral != null) { var num = api.el('span', 'bp-shnum'); num.textContent = sh.numeral; btn.appendChild(num); btn.setAttribute('aria-label', (LANG === 'es' ? 'el número ' : (LANG === 'de' ? 'die Zahl ' : (LANG === 'fr' ? 'le nombre ' : 'the number '))) + sh.numeral); }
         else { btn.appendChild(self._hoard(sh.tens | 0, sh.ones | 0)); btn.setAttribute('aria-label', hoardAria(sh.tens | 0, sh.ones | 0)); }
         btn.addEventListener('click', function () { self._lockShelf(key); });
         self._shelfEls[key] = btn; row.appendChild(btn);
@@ -267,7 +284,7 @@
       if (r === 'wrong') {
         if (shelf.numeral != null) this.msg = this.api.t('wrongNum');
         else { var k = shelf.tens | 0; this.msg = (k === 1) ? this.api.t('wrongOne') : this.api.t('wrongCrates').replace('{k}', k); }
-        this.api.sound && this.api.sound(330); speak(LANG === 'de' ? 'Zähl noch einmal' : (LANG === 'fr' ? 'Compte encore' : 'count again')); this.render();
+        this.api.sound && this.api.sound(330); speak(LANG === 'es' ? 'cuenta otra vez' : (LANG === 'de' ? 'Zähl noch einmal' : (LANG === 'fr' ? 'Compte encore' : 'count again'))); this.render();
       } else { this.render(); }
     },
     _win: function () {

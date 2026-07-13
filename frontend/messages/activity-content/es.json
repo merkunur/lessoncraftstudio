@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "vet-diagnosis.word-problems.1-oa-a-1": {
+      "about": [
+        "Toca a la puerta un pacientito tímido en el consultorio del zorro veterinario. Su «síntoma» no es tos ni fiebre: es una pequeña historia con números. El zorro enciende su radiografía mágica y en la pantalla aparece la historia hecha imagen. El niño la LEE con calma, coloca los números en el diagrama —inicio, cambio y resultado; o entero, parte y parte; o mayor, menor y diferencia— y marca con «?» el lugar del misterio: el dato que hay que descubrir.",
+        "La idea matemática es entender y MODELAR el problema, no solo calcular. Aquí el dato desconocido puede estar en cualquier lugar: al final, en medio, o hasta al inicio («? + 5 = 12»); y a veces la historia compara dos cantidades («¿cuántos más?», «¿cuántos menos?»). Para que nadie adivine mirando la escena, la parte misteriosa aparece empañada en la radiografía —no se puede contar directamente, hay que deducirla— y en la charola espera, a propósito, un número-señuelo demasiado grande. Así el niño aprende a fijarse en la estructura del problema y a decidir cuándo sumar y cuándo restar.",
+        "Es gratis, sin cronómetro, sin puntaje y sin competencia: cada quien avanza a su ritmo y equivocarse es parte de aprender. La actividad está alineada al programa de primaria mexicano (Planes y programas de estudio de la Nueva Escuela Mexicana), en el eje de Sentido numérico, dentro de los problemas de suma y resta dentro del 20."
+      ],
+      "practices": [
+        "Leer con atención un problema y entender de qué se trata antes de operar.",
+        "Modelar la historia con números: ¿cuál es el inicio, cuál el cambio y cuál el resultado?",
+        "Sumar y restar con confianza dentro del 20.",
+        "Encontrar el dato desconocido en cualquier lugar del problema —incluso invirtiendo la operación y cuando se comparan dos cantidades."
+      ],
+      "howToPlay": [
+        "Lee (o escucha) la historia del pacientito en la ventana de la radiografía.",
+        "Coloca los números en el diagrama y marca con «?» el lugar donde está el misterio.",
+        "Marca la respuesta en el dial y toca «Diagnóstico»."
+      ],
+      "learningGoals": [
+        "Puedo entender un problema y reconstruirlo con un diagrama.",
+        "Puedo encontrar el número desconocido, esté al inicio, en medio o al final.",
+        "Puedo decidir cuándo sumar y cuándo restar —también cuando se comparan dos cantidades."
+      ]
+    },
     "bos-berry-pantry.slingshot-tens.1-nbt-b-2": {
       "about": [
         "«Diez moras caben justas en cada caja sellada de la despensa de Bo, y esa caja ya no se abre: vale una decena entera sin contarla una por una.» Bo el conejo prepara su despensa para el invierno acomodando moras en el estante. Cada caja cerrada guarda exactamente diez moras —una decena— y las moras que quedan afuera, sueltas, son las unidades. El niño LEE lo que Bo le muestra —un montón de moras, una palabra como «veinticinco» o un número escrito— y lanza las moras al estante correcto: las cajas que hacen falta y las moras sueltas que sobran.",

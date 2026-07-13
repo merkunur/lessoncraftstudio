@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "robin-mirror.reflexive.l-2-1-c": {
+      "about": [
+        "Robin el petirrojo aparece con su espejito y una oración a la que le falta una palabrita: el niño lee, por ejemplo, «Leo ___ levanta temprano», y toca la opción correcta entre me, te, se o nos, a lo largo de 8 rondas tranquilas.",
+        "Algunos verbos llevan una palabrita que cambia según quién hace la acción: «me» va con yo, «te» con tú, «se» con él, ella o ustedes, y «nos» con nosotros; como en un espejo, esa palabra apunta de regreso a quien realiza la acción, y así el niño descubre que el pronombre se mueve junto con la persona en un primer acercamiento consciente a los pronombres reflexivos.",
+        "Gratis, interactiva y desde el navegador, sin registro ni descargas, con un tono cálido, sin cronómetro y sin puntajes, alineada a los Planes y programas de estudio (SEP)."
+      ],
+      "practices": [
+        "Elegir el pronombre reflexivo que concuerda con el sujeto de la oración: me, te, se o nos.",
+        "Reconocer que «se» acompaña a él y a ella, y también a ustedes, cuando dos personas hacen la acción.",
+        "Leer con atención para identificar quién realiza la acción antes de escoger la palabra.",
+        "Usar bien el pronombre en verbos cotidianos como lavarse, peinarse, bañarse o sentarse."
+      ],
+      "howToPlay": [
+        "Lee la oración y fíjate en quién hace la acción.",
+        "Piensa qué palabrita va con esa persona: me, te, se o nos.",
+        "Toca la palabra correcta; los intentos son ilimitados y no hay cronómetro."
+      ],
+      "learningGoals": [
+        "Elige el pronombre reflexivo que concuerda con el sujeto de la oración.",
+        "Reconoce que la palabrita cambia según la persona: yo lleva «me», nosotros lleva «nos».",
+        "Lee con cuidado para descubrir quién realiza la acción y así acertar con el pronombre."
+      ]
+    },
     "cleo-packing-list.series-commas.l-1-2-b": {
       "about": [
         "Cleo el camaleón te muestra la misma oración con una lista de tres cosas escrita de tres maneras distintas, y tu peque toca la versión que tiene las comas bien puestas a lo largo de 8 rondas tranquilas.",

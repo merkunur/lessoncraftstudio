@@ -35,13 +35,23 @@
           { "id": "leo-leve-se", "band": 2, "sentence": "Léo ___ lève tôt.", "referent": "il", "wrongA": "nous", "wrongB": "vous" },
           { "id": "maya-moi-promene-nous", "band": 3, "sentence": "Maya et moi ___ promenons.", "referent": "nous", "wrongA": "tu", "wrongB": "vous" },
           { "id": "maya-toi-peigne-vous", "band": 3, "sentence": "Maya et toi ___ peignez.", "referent": "vous", "wrongA": "je", "wrongB": "elle" }
+        ],
+        "es": [
+          { "id": "lava-yo", "band": 1, "sentence": "En la mañana, yo ___ lavo.", "referent": "yo", "wrongA": "tu", "wrongB": "nosotros" },
+          { "id": "esconde-tu", "band": 1, "sentence": "Tú ___ escondes muy bien.", "referent": "tu", "wrongA": "yo", "wrongB": "el" },
+          { "id": "apura-papa-yo", "band": 1, "sentence": "Papá y yo ___ apuramos para la escuela.", "referent": "nosotros", "wrongA": "yo", "wrongB": "tu" },
+          { "id": "levanta-leo", "band": 2, "sentence": "Leo ___ levanta temprano.", "referent": "el", "wrongA": "yo", "wrongB": "nosotros" },
+          { "id": "bana-yo", "band": 2, "sentence": "Yo ___ baño en la noche.", "referent": "yo", "wrongA": "tu", "wrongB": "ella" },
+          { "id": "seca-tu", "band": 2, "sentence": "Tú ___ secas con la toalla.", "referent": "tu", "wrongA": "nosotros", "wrongB": "yo" },
+          { "id": "peina-sofia-tu", "band": 3, "sentence": "Sofía y tú ___ peinan frente al espejo.", "referent": "ustedes", "wrongA": "tu", "wrongB": "nosotros" },
+          { "id": "sienta-sofia-yo", "band": 3, "sentence": "Sofía y yo ___ sentamos en la banca.", "referent": "nosotros", "wrongA": "tu", "wrongB": "el" }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "robins-mirror", "de": "reflexivpronomen-ueben-mich-dich-sich-klasse-3", "fr": "le-pronom-reflechi-me-te-se-ce2" },
-    "page_title": { "en": "Robin's Mirror — All By Myself (Grade 2)", "de": "Robins Spiegel: Reflexivpronomen üben – mich, dich, sich (Klasse 3)", "fr": "Robin et le miroir magique : le pronom réfléchi — me, te, se (CE2)" },
-    "page_intro": { "en": "Robin holds up a mirror: a reflexive pronoun points right back at the one doing the action. Read each sentence, then tap the word that fills the blank and matches the subject — myself, herself, themselves, and friends. A warm Grade 2 grammar game about using reflexive pronouns correctly, aligned to Common Core L.2.1.c.", "de": "Hilf Robin dem Rotkehlchen, das passende Reflexivpronomen einzusetzen – mich, dich, sich, uns, euch – und übe reflexive Verben kostenlos und interaktiv im Browser.", "fr": "Aide Robin le rouge-gorge à choisir le bon petit mot — me, te, se, nous, vous — qui va avec le sujet. Une activité de grammaire CE2 sur les verbes pronominaux, gratuite et interactive." },
+    "slug": { "en": "robins-mirror", "de": "reflexivpronomen-ueben-mich-dich-sich-klasse-3", "fr": "le-pronom-reflechi-me-te-se-ce2", "es": "pronombres-reflexivos-me-te-se-nos-3-primaria" },
+    "page_title": { "en": "Robin's Mirror — All By Myself (Grade 2)", "de": "Robins Spiegel: Reflexivpronomen üben – mich, dich, sich (Klasse 3)", "fr": "Robin et le miroir magique : le pronom réfléchi — me, te, se (CE2)", "es": "Robin y el espejo: pronombres reflexivos me, te, se, nos (3.º primaria)" },
+    "page_intro": { "en": "Robin holds up a mirror: a reflexive pronoun points right back at the one doing the action. Read each sentence, then tap the word that fills the blank and matches the subject — myself, herself, themselves, and friends. A warm Grade 2 grammar game about using reflexive pronouns correctly, aligned to Common Core L.2.1.c.", "de": "Hilf Robin dem Rotkehlchen, das passende Reflexivpronomen einzusetzen – mich, dich, sich, uns, euch – und übe reflexive Verben kostenlos und interaktiv im Browser.", "fr": "Aide Robin le rouge-gorge à choisir le bon petit mot — me, te, se, nous, vous — qui va avec le sujet. Une activité de grammaire CE2 sur les verbes pronominaux, gratuite et interactive.", "es": "Robin el petirrojo y su espejito te ayudan a practicar los pronombres reflexivos: me, te, se y nos. Actividad gratis e interactiva para 3.º de primaria, alineada a los Planes y programas de estudio (SEP)." },
     "kid_prompt_template": "robin-mirror"
   }
 ]

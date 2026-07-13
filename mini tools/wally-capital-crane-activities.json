@@ -334,6 +334,16 @@
             ],
             "proper": "lila"
           }
+        ],
+        "es": [
+          { "id": "amigo-pedro", "band": 1, "tokens": ["Mi", "amigo", "se", "llama", "pedro", "."], "proper": "pedro" },
+          { "id": "mexico-calor", "band": 1, "tokens": ["En", "méxico", "hace", "mucho", "calor", "."], "proper": "méxico" },
+          { "id": "perro-sofia", "band": 1, "tokens": ["El", "perro", "de", "sofía", "es", "café", "."], "proper": "sofía" },
+          { "id": "prima-laura", "band": 2, "tokens": ["Mi", "prima", "laura", "vive", "aquí", "."], "proper": "laura" },
+          { "id": "familia-puebla", "band": 2, "tokens": ["Mi", "familia", "viaja", "a", "puebla", "."], "proper": "puebla" },
+          { "id": "tio-ramon", "band": 2, "tokens": ["Hoy", "visito", "a", "mi", "tío", "ramón", "."], "proper": "ramón" },
+          { "id": "senora-lopez", "band": 3, "tokens": ["Mi", "maestra", "es", "la", "señora", "lópez", "."], "proper": "lópez" },
+          { "id": "oaxaca-abuelo", "band": 3, "tokens": ["En", "oaxaca", "vive", "mi", "abuelo", "."], "proper": "oaxaca" }
         ]
       }
     },
@@ -341,17 +351,20 @@
     "slug": {
       "en": "wally-capital-crane",
       "de": "nomen-grossschreiben-ueben-klasse-2",
-      "fr": "la-majuscule-aux-noms-propres-ce1"
+      "fr": "la-majuscule-aux-noms-propres-ce1",
+      "es": "mayuscula-en-nombres-propios-2-primaria"
     },
     "page_title": {
       "en": "Wally's Capital Crane — Capitalize Special Names (Grade 2)",
       "de": "Groß- und Kleinschreibung – online üben (Klasse 2)",
-      "fr": "Wally et la grue à majuscules : la majuscule aux noms propres (CE1)"
+      "fr": "Wally et la grue à majuscules : la majuscule aux noms propres (CE1)",
+      "es": "Wally y su grúa: la mayúscula en nombres propios (2.º primaria)"
     },
     "page_intro": {
       "en": "Wally the walrus runs a crane that lifts a little letter up into a big CAPITAL! Special names — holidays like Halloween, places like Texas, and products like Lego — always start with a capital letter. Read the sentence and tap the word that needs Wally's big letter. A Grade 2 grammar game about capitalizing holidays, places, and product names, aligned to Common Core L.2.2.a.",
       "de": "Groß- und Kleinschreibung üben: Nomen erkennen und großschreiben mit Wallys Kran. Übungen für Klasse 2 – kostenlos online, ohne Anmeldung.",
-      "fr": "Aide Wally le morse à mettre la majuscule aux noms propres — noms de personnes, de villes, de pays. Une activité d’orthographe CE1, gratuite et interactive."
+      "fr": "Aide Wally le morse à mettre la majuscule aux noms propres — noms de personnes, de villes, de pays. Une activité d’orthographe CE1, gratuite et interactive.",
+      "es": "Wally la morsa maneja su grúa para levantar la mayúscula en los nombres propios. Actividad gratuita e interactiva para 2.º de primaria, alineada a los Planes y programas de estudio (SEP). Sin registro, sin cronómetro."
     },
     "kid_prompt_template": "Tap the special name that needs a capital letter."
   }

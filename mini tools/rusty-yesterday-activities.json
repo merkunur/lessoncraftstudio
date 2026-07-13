@@ -424,6 +424,16 @@
               }
             ]
           }
+        ],
+        "es": [
+          { "id": "hacer", "band": 1, "present": "hago un pastel", "correct": "hice", "choices": [ { "word": "hice" }, { "word": "hago" }, { "word": "hací" } ] },
+          { "id": "tener", "band": 1, "present": "tengo un globo", "correct": "tuve", "choices": [ { "word": "tuve" }, { "word": "tengo" }, { "word": "tení" } ] },
+          { "id": "poner", "band": 1, "present": "pongo la mesa", "correct": "puse", "choices": [ { "word": "puse" }, { "word": "pongo" }, { "word": "poní" } ] },
+          { "id": "venir", "band": 2, "present": "vengo a casa", "correct": "vine", "choices": [ { "word": "vine" }, { "word": "vengo" }, { "word": "viné" } ] },
+          { "id": "decir", "band": 2, "present": "digo la verdad", "correct": "dije", "choices": [ { "word": "dije" }, { "word": "digo" }, { "word": "dijé" } ] },
+          { "id": "poder", "band": 2, "present": "puedo saltar", "correct": "pude", "choices": [ { "word": "pude" }, { "word": "puedo" }, { "word": "podí" } ] },
+          { "id": "querer", "band": 3, "present": "quiero un dulce", "correct": "quise", "choices": [ { "word": "quise" }, { "word": "quiero" }, { "word": "querí" } ] },
+          { "id": "andar", "band": 3, "present": "ando en bici", "correct": "anduve", "choices": [ { "word": "anduve" }, { "word": "ando" }, { "word": "andé" } ] }
         ]
       }
     },
@@ -431,17 +441,20 @@
     "slug": {
       "en": "rusty-yesterday",
       "de": "unregelmaessige-verben-praeteritum-ueben-klasse-3",
-      "fr": "le-passe-compose-verbes-irreguliers-ce2"
+      "fr": "le-passe-compose-verbes-irreguliers-ce2",
+      "es": "preterito-verbos-irregulares-pasado-3-primaria"
     },
     "page_title": {
       "en": "Rusty's Yesterday Machine — Irregular Past-Tense Verbs (Grade 2)",
       "de": "Zeitformen Klasse 3 – Präteritum online üben",
-      "fr": "Conjugaison CE2 : le passé composé – exercice en ligne"
+      "fr": "Conjugaison CE2 : le passé composé – exercice en ligne",
+      "es": "Rusty y la máquina del tiempo: verbos irregulares en pretérito (3.º primaria)"
     },
     "page_intro": {
       "en": "Rusty the robot's machine turns today's verbs into yesterday's! Some verbs are tricky — they don't just add -ed. Today I go, but yesterday I went (not 'goed'). Read the verb, then tap the right way to say it about yesterday. A Grade 2 grammar game about irregular past-tense verbs, aligned to Common Core L.2.1.d.",
       "de": "Zeitformen in Klasse 3: unregelmäßige Verben im Präteritum üben mit Rustys Gestern-Maschine. Kostenlos online üben, ohne Anmeldung.",
-      "fr": "Conjugaison CE2 en ligne : entraîne-toi sur le passé composé des verbes irréguliers, avec correction immédiate. Gratuit, sans inscription."
+      "fr": "Conjugaison CE2 en ligne : entraîne-toi sur le passé composé des verbes irréguliers, avec correction immédiate. Gratuit, sans inscription.",
+      "es": "Rusty el robot enciende su máquina del tiempo para viajar de «hoy» a «ayer»: tu hijo toca el pretérito correcto de los verbos irregulares. Gratis e interactivo para 3.º de primaria, alineado a los Planes y programas de estudio (SEP)."
     },
     "kid_prompt_template": "Yesterday — which word is right?"
   }

@@ -73,7 +73,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'sentence-builder.build-a-sentence.l-1-1-j': { de: '2', fr: '2', es: '2' },  // Satzbau/Wortreihenfolge reorder task → DE Klasse 2 (mastery by end of Klasse 2); FR CE1 (l'accord dans le groupe nominal — le chat noir — = attendu CE1, past CP word-order-only). MX 2.º: construcción de oraciones + orden de palabras + concordancia (el perro café / la flor roja) + mayúscula/punto = trabajo metalingüístico de 2.º (1.º es decodificación); espeja de/fr
   'pronoun.case.l-1-1-d': { de: '3', fr: '3', es: '3' },                  // case-correct pronoun-form choice (er/ihn) → DE Klasse 3 (Fall-arbeit is Klasse 3/4); FR CE2 (les pronoms sujets = CE1, but the COD/object form me/te/le is the CE2 attendu — the activity's central difficulty). MX 3.º: los pronombres de sujeto son 2.º, pero el contraste sujeto/objeto-clítico (Mamá me ve) + posesivo es habilidad de 3.º (misma lógica que fr CE2/de Klasse 3); espeja de/fr
   'olive-kind-of.category-attribute.l-1-5-b': { de: '2', fr: '2', es: '2' },  // Oberbegriff/Hyperonym abstraction → DE Klasse 2 (EN Grade 1 placement doesn't transfer); FR CE1 (catégoriser / le mot générique vs particulier = attendu CE1, réflexif, past CP naming). MX 2.º: subsumir un referente concreto en su término general (categorizar/agrupar) es competencia de 2.º NEM (1.º es nombrar concreto); espeja de/fr
-  'vera-verb-match.be-agreement.l-1-1-c': { de: '2', fr: '2' },           // reflective Subjekt-Verb-Kongruenz (bin/ist/sind) → DE Klasse 2 (K-1 kids speak it; the grammar task is Klasse 2); FR CE1 (l'accord sujet-verbe / conjuguer être au présent = attendu CE1, réflexif, past CP oral use)
+  'vera-verb-match.be-agreement.l-1-1-c': { de: '2', fr: '2', es: '2' },  // reflective Subjekt-Verb-Kongruenz (bin/ist/sind) → DE Klasse 2 (K-1 kids speak it; the grammar task is Klasse 2); FR CE1 (l'accord sujet-verbe / conjuguer être au présent = attendu CE1, réflexif, past CP oral use); ES 2.º (concordancia sujeto-verbo con estar = reflexión metalingüística 2.º NEM; kids speak estoy/está/están at 1.º)
   'hazel-word-bridge.joining-words.l-1-1-g': { de: '3', fr: '3' },        // selection-by-meaning across 4 Bindewörter incl. causal „denn" + Pflichtkomma → DE Klasse 3; FR: coordination + car + comma-before-mais/car → CE2
   'cleo-packing-list.series-commas.l-1-2-b': { de: '3', fr: '3' },        // Komma bei Aufzählung = first comma rule, DE Klasse 3; FR: la virgule d'énumération = premier attendu interne → CE2
   'robin-mirror.reflexive.l-2-1-c': { de: '3', fr: '3' },                 // Reflexivpronomen → DE Klasse 3; FR: le pronom réfléchi qui varie avec le sujet = consolidation CE2 (au-dessus du pronom sujet CE1)
@@ -521,7 +521,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.258';
+  const ACTIVITY_WRAPPER_VERSION = '9.259';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

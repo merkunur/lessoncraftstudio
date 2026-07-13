@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "gus-snack-cart.within-100.2-nbt-b-5": {
+      "about": [
+        "Gus, la ardilla, tiene un carrito de botanas y en su puesto siempre hay movimiento: a veces surte más productos y a veces les vende golosinas a sus clientes. En cada ronda tu hijo lee una historia corta de lo que pasa en el carrito y ve la operación que le corresponde a esa escena. Así el cálculo aparece dentro de una situación que el niño o la niña puede imaginar.",
+        "La idea matemática es sencilla: si a Gus le llega más mercancía, se suma; si vende, se resta. Después el niño escribe el resultado y avanza. De esta forma practica sumar y restar hasta 100, incluso cuando hay reagrupación, por ejemplo «27 + 36» o «45 − 8», que son los casos en los que hay que llevar o desagrupar.",
+        "Esta actividad es gratuita, sin cronómetro, sin puntaje y sin competencia, para que cada quien avance a su propio ritmo. Está alineada al programa de primaria mexicano en el eje de Sentido numérico, donde sumar y restar hasta 100 es una de las habilidades centrales de segundo grado."
+      ],
+      "practices": [
+        "Sumar y agregar hasta 100.",
+        "Restar y quitar hasta 100.",
+        "Calcular con números de dos cifras, incluso con reagrupación.",
+        "Entender problemas: reconocer en la historia si hay que sumar o restar."
+      ],
+      "howToPlay": [
+        "Lee la historia corta de Gus y su carrito.",
+        "Mira la operación y calcula, suma o resta.",
+        "Escribe tu resultado y pasa a la siguiente ronda."
+      ],
+      "learningGoals": [
+        "Sumar y restar con seguridad hasta 100.",
+        "Dominar la reagrupación al sumar y restar.",
+        "Aplicar el cálculo en pequeñas situaciones (problemas)."
+      ]
+    },
     "track-repair.count-to-120.1-nbt-a-1": {
       "about": [
         "Una tormenta arrancó un tramo de vía en el valle del silbato y el trencito no puede avanzar hasta que los durmientes vuelvan a su lugar exacto. Ese tramo de vía es, en secreto, una recta numérica: entre dos estaciones marcadas, el niño o la niña coloca cada durmiente numerado en el punto donde de verdad va su número. Cuando cada número ocupa su sitio, la vía queda lista para el paso del tren.",

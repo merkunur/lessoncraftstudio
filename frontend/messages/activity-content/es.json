@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "maple-bakery.share.3-oa-a-2": {
+      "about": [
+        "Maple, la ratoncita, atiende su panadería y necesita ayuda para repartir sus galletas. En algunas rondas pone varios platos sobre la mesa y reparte las galletas por igual entre ellos, para saber cuántas galletas quedan en cada plato. En otras rondas acomoda las galletas en cajas que se llenan con la misma cantidad cada una, y entonces la pregunta cambia: cuántas cajas alcanza a llenar. Tu hijo observa la situación, piensa el resultado y toca el número correcto.",
+        "Detrás del juego está una idea clara de la división. Repartir una cantidad en partes iguales («¿cuántas galletas hay en cada plato?») y agrupar en cajas de cierto tamaño («¿cuántas cajas se llenan?») son dos situaciones distintas que llegan a la misma división. Todo se mantiene con números pequeños y sin residuo, para que el niño o la niña trabaje con confianza y sin frustrarse, y así descubra que la división es la operación compañera e inversa de la multiplicación.",
+        "Gratis, sin cronómetro, sin puntaje y sin competir con nadie, la actividad avanza al ritmo de cada niño. Está alineada con el programa de primaria de México dentro del eje Sentido numérico, donde la división como reparto y agrupamiento tiene su lugar natural."
+      ],
+      "practices": [
+        "Repartir una cantidad en partes iguales y decir cuántas tocan a cada uno.",
+        "Distinguir el reparto del agrupamiento (¿cuántos grupos o cajas se llenan?).",
+        "Relacionar la división con números pequeños y sin residuo.",
+        "Tocar el número correcto y revisar con calma."
+      ],
+      "howToPlay": [
+        "Lee lo que quiere Maple: repartir las galletas en platos o acomodarlas en cajas.",
+        "Piensa cuántas galletas van en cada plato o cuántas cajas se llenan.",
+        "Toca la respuesta; si es correcta, sigue; si no, vuelve a intentarlo con calma."
+      ],
+      "learningGoals": [
+        "Entiende la división como reparto y como agrupamiento.",
+        "Resuelve divisiones sencillas hasta cerca de 20 sin residuo.",
+        "Vive la división y la multiplicación como una pareja relacionada."
+      ]
+    },
     "echo-grove.match-the-rune.3-oa-a-1": {
       "about": [
         "Pim, el búho, le muestra a tu hijo una runa como «3 × 4» y lo invita a mirar varias imágenes con frutas acomodadas en grupos. El niño o la niña debe tocar la imagen que muestra exactamente 3 grupos con 4 frutas en cada grupo. Entre las opciones hay señuelos que tienen el mismo total, pero agrupado de otra manera, incluida la imagen gemela de 4 grupos de 3.",

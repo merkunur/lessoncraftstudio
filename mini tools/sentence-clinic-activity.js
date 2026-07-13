@@ -46,9 +46,9 @@
   }
   function speak(text) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'ui', text: text, lang: LANG, rate: 0.92 }); return; }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'ui', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG), rate: 0.92 }); return; }
       if (global.speechSynthesis && global.SpeechSynthesisUtterance) {
-        var u = new global.SpeechSynthesisUtterance(text); u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'; u.rate = 0.92; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u);
+        var u = new global.SpeechSynthesisUtterance(text); u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : 'en-US'; u.rate = 0.92; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u);
       }
     } catch (e) { /* audio is a scaffold; visual is the spine */ }
   }
@@ -91,19 +91,19 @@
     id: 'sentence-clinic-activity',
 
     strings: {
-      title:        { en: "Dr. Plume's Sentence Clinic", de: 'Dr. Plumes Satzklinik', fr: 'La clinique des phrases du Dr. Plume' },
-      instruction:  { en: 'Help each muddled sentence sound right again. Tap Check when it sounds good.', de: 'Hilf jedem verdrehten Satz, wieder richtig zu klingen. Tippe auf Prüfen, wenn er gut klingt.', fr: 'Aide chaque phrase mélangée à sonner juste. Touche Vérifier quand elle sonne bien.' },
-      promptCap:    { en: 'Tap the word that needs a capital letter.', de: 'Tippe das Wort an, das einen großen Buchstaben braucht.', fr: 'Touche le mot qui a besoin d’une majuscule.' },
-      promptPunct:  { en: 'Tap the mark that finishes the sentence.', de: 'Tippe das Satzzeichen an, das den Satz beendet.', fr: 'Touche le signe qui termine la phrase.' },
-      promptSwap:   { en: "Tap the word that sounds wrong, then pick the right one.", de: 'Tippe das falsche Wort an und wähle das richtige.', fr: 'Touche le mot qui sonne faux, puis choisis le bon.' },
-      promptInsert: { en: 'Tap the word that fills the gap.', de: 'Wähle das Wort, das in die Lücke passt.', fr: 'Choisis le mot qui remplit le trou.' },
-      promptReorder:{ en: 'Tap the words in order to build the sentence.', de: 'Tippe die Wörter der Reihe nach an, um den Satz zu bauen.', fr: 'Touche les mots dans l’ordre pour construire la phrase.' },
-      promptDelete: { en: "Tap the word that doesn't belong.", de: 'Tippe das Wort an, das zu viel ist.', fr: 'Touche le mot qui est en trop.' },
-      promptSplit:  { en: 'Tap where two sentences bump together.', de: 'Tippe dort, wo zwei Sätze zusammenstoßen.', fr: 'Touche l’endroit où deux phrases se cognent.' },
-      alright:      { en: "That one's alright — look again!", de: 'Der ist schon richtig — schau noch mal!', fr: 'C’est déjà correct — regarde encore !' },
-      giggle:       { en: 'Hee hee — not quite. Listen again!', de: 'Hi hi — nicht ganz. Hör noch mal hin!', fr: 'Hi hi — presque ! Écoute encore.' },
-      soundsRight:  { en: 'Yes! Now it sounds right.', de: 'Ja! Jetzt klingt er richtig.', fr: 'Oui ! Maintenant, ça sonne juste.' },
-      hintCheck:    { en: "Keep helping the sentence — then tap Check.", de: 'Hilf dem Satz weiter — tippe dann auf Prüfen.', fr: 'Aide la phrase — puis touche Vérifier.' }
+      title:        { en: "Dr. Plume's Sentence Clinic", de: 'Dr. Plumes Satzklinik', fr: 'La clinique des phrases du Dr. Plume', es: 'La clínica de oraciones de la Dra. Plume' },
+      instruction:  { en: 'Help each muddled sentence sound right again. Tap Check when it sounds good.', de: 'Hilf jedem verdrehten Satz, wieder richtig zu klingen. Tippe auf Prüfen, wenn er gut klingt.', fr: 'Aide chaque phrase mélangée à sonner juste. Touche Vérifier quand elle sonne bien.', es: 'Ayuda a que cada oración enredada suene bien otra vez. Toca Comprobar cuando suene bien.' },
+      promptCap:    { en: 'Tap the word that needs a capital letter.', de: 'Tippe das Wort an, das einen großen Buchstaben braucht.', fr: 'Touche le mot qui a besoin d’une majuscule.', es: 'Toca la palabra que necesita mayúscula.' },
+      promptPunct:  { en: 'Tap the mark that finishes the sentence.', de: 'Tippe das Satzzeichen an, das den Satz beendet.', fr: 'Touche le signe qui termine la phrase.', es: 'Toca el signo que termina la oración.' },
+      promptSwap:   { en: "Tap the word that sounds wrong, then pick the right one.", de: 'Tippe das falsche Wort an und wähle das richtige.', fr: 'Touche le mot qui sonne faux, puis choisis le bon.', es: 'Toca la palabra que suena mal y luego elige la correcta.' },
+      promptInsert: { en: 'Tap the word that fills the gap.', de: 'Wähle das Wort, das in die Lücke passt.', fr: 'Choisis le mot qui remplit le trou.', es: 'Toca la palabra que llena el espacio.' },
+      promptReorder:{ en: 'Tap the words in order to build the sentence.', de: 'Tippe die Wörter der Reihe nach an, um den Satz zu bauen.', fr: 'Touche les mots dans l’ordre pour construire la phrase.', es: 'Toca las palabras en orden para formar la oración.' },
+      promptDelete: { en: "Tap the word that doesn't belong.", de: 'Tippe das Wort an, das zu viel ist.', fr: 'Touche le mot qui est en trop.', es: 'Toca la palabra que sobra.' },
+      promptSplit:  { en: 'Tap where two sentences bump together.', de: 'Tippe dort, wo zwei Sätze zusammenstoßen.', fr: 'Touche l’endroit où deux phrases se cognent.', es: 'Toca donde se juntan dos oraciones.' },
+      alright:      { en: "That one's alright — look again!", de: 'Der ist schon richtig — schau noch mal!', fr: 'C’est déjà correct — regarde encore !', es: '¡Esa está bien, mira otra vez!' },
+      giggle:       { en: 'Hee hee — not quite. Listen again!', de: 'Hi hi — nicht ganz. Hör noch mal hin!', fr: 'Hi hi — presque ! Écoute encore.', es: '¡Ji ji, casi! ¡Escucha otra vez!' },
+      soundsRight:  { en: 'Yes! Now it sounds right.', de: 'Ja! Jetzt klingt er richtig.', fr: 'Oui ! Maintenant, ça sonne juste.', es: '¡Sí! Ahora sí suena bien.' },
+      hintCheck:    { en: "Keep helping the sentence — then tap Check.", de: 'Hilf dem Satz weiter — tippe dann auf Prüfen.', fr: 'Aide la phrase — puis touche Vérifier.', es: 'Sigue ayudando a la oración y luego toca Comprobar.' }
     },
 
     defaults: {},

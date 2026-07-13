@@ -79,7 +79,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'robin-mirror.reflexive.l-2-1-c': { de: '3', fr: '3', es: '3' },        // Reflexivpronomen → DE Klasse 3; FR: le pronom réfléchi qui varie avec le sujet = consolidation CE2; ES 3.º (pronombres reflexivos como categoría metalingüística = 3.º NEM; uso oral desde preescolar)
   'rusty-yesterday.irregular-past.l-2-1-d': { de: '3', fr: '3', es: '3' }, // starke Verben Präteritum → DE Klasse 3; FR: passé composé irrégulier (résister à « faisé ») = consolidation CE2; ES 3.º (estudio consciente del pretérito de verbos irregulares + rechazar la sobrerregularización = 3.º NEM; uso oral desde preescolar)
   'roary-roar-meter.shades.l-2-5-b': { de: '3', fr: '3', es: '3' },        // Bedeutungsnuancen → DE Klasse 3; FR: classer des synonymes par intensité = CE2; ES 3.º (graduar matices de significado dentro de un mismo sentido = tarea léxica fina de 3.º NEM; los opuestos claros son 1.º-2.º)
-  'wren-question-window.question-words.l-k-1-d': { de: '1', fr: '2' },    // Fragewörter = DE Klasse 1 (mechanical K→1); FR: emploi écrit des 6 mots interrogatifs = CE1 attendu (maternelle=oral, CP=déchiffrage) — deliberately one notch above the DE bump
+  'wren-question-window.question-words.l-k-1-d': { de: '1', fr: '2', es: '1' },    // Fragewörter = DE Klasse 1 (mechanical K→1); FR: emploi écrit des 6 mots interrogatifs = CE1 attendu (maternelle=oral, CP=déchiffrage) — deliberately one notch above the DE bump; ES: palabras interrogativas = tarea de lengua escrita → 1.º primaria (frontera preescolar→primaria; el niño RECONOCE la tilde, no la produce → no 2.º)
   'wordclass.adjective-adverb.l-2-1-e': { fr: '3' },                     // FR CE2: l'adverbe comme classe nommée + le CHOIX fonctionnel adjectif/adverbe = attendu de fin de cycle 2 (l'adjectif seul = CE1); the CCSS-Grade-2→CE1 auto-map under-levels it. en Grade 2 unchanged
   'sunny-side-diner.compound-order.l-k-1-f': { fr: '1' },                // FR CP: produire une phrase complète + coordonner deux groupes avec « et » = charnière oral→écrit CP (au-dessus de la production orale GS, en deçà de l'analyse CE1); native 'K'→« Grande section » too low; en Kindergarten unchanged
   'echo-grove.match-the-rune.3-oa-a-1': { de: '2', fr: '2' },             // Multiplikation als gleiche Gruppen / kleines Einmaleins = DE Klasse 2 (US Grade 3 a year higher). FR CE1 (operator-ruled): le sens de la multiplication (groupes égaux, petits nombres, avant les tables) = attendu CE1 (CE2 = tables + multiplication posée); native '3'→CE2 too high; de Klasse-2 ≈ fr-CE1; twin of maple-bakery division-sens; « Nombres et calcul » auto-map → NO STRAND override
@@ -521,7 +521,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.266';
+  const ACTIVITY_WRAPPER_VERSION = '9.267';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

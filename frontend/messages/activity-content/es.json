@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "wren-question-window.question-words.l-k-1-d": {
+      "about": [
+        "Wren atiende su ventanilla de comida y, en cada ronda, aparece una pregunta escrita a la que le falta la primera palabra —por ejemplo, «¿___ quieres?»—; el niño lee, elige entre seis palabras para preguntar y toca la que completa la pregunta, a lo largo de 8 rondas.",
+        "Cada palabra interrogativa pregunta por algo distinto: «Qué» pregunta por una cosa, «Quién» por una persona, «Dónde» por un lugar, «Cuándo» por un tiempo, «Por qué» por una razón y «Cómo» por el modo; al leer la pregunta con atención, el niño descubre qué se está preguntando y escoge la palabra correcta.",
+        "Es una actividad gratuita e interactiva que se juega directo en el navegador, sin registro ni descargas, con un tono cálido, sin cronómetro y sin puntajes, alineada a los Planes y programas de estudio (SEP)."
+      ],
+      "practices": [
+        "Reconocer y usar las palabras interrogativas: qué, quién, dónde, cuándo, por qué y cómo.",
+        "Leer con atención una oración para darse cuenta de qué es lo que pregunta.",
+        "Distinguir si la pregunta se refiere a una persona, una cosa, un lugar, un tiempo o una razón.",
+        "Completar preguntas escritas colocando al inicio la palabra interrogativa adecuada."
+      ],
+      "howToPlay": [
+        "Lee la pregunta que aparece en la ventanilla de Wren.",
+        "Piensa si esa pregunta es por una persona, una cosa, un lugar, un tiempo, una razón o el modo.",
+        "Toca la palabra que completa la pregunta; los intentos son ilimitados y no hay cronómetro."
+      ],
+      "learningGoals": [
+        "Elige la palabra interrogativa correcta para completar cada pregunta.",
+        "Comprende que cada palabra para preguntar sirve para averiguar algo específico: una persona, una cosa, un lugar, un tiempo, una razón o el modo.",
+        "Lee una pregunta escrita con atención antes de responder."
+      ]
+    },
     "ziggy-odd-one-out.category.l-1-5-a": {
       "about": [
         "Ziggy la cebra te muestra en cada ronda cuatro imágenes con sus palabras —por ejemplo «perro», «gato», «cerdo» y «manzana»— y tu niño toca la que no pertenece al grupo; son 8 rondas para jugar con calma.",

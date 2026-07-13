@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "roary-roar-meter.shades.l-2-5-b": {
+      "about": [
+        "Roary el león llega con su rugidómetro y, en cada una de las 8 rondas, te muestra tres palabras parecidas —como «susurrar», «hablar» y «gritar»— para que toques la más fuerte o la más suave según lo que él te pida.",
+        "Muchas palabras significan casi lo mismo pero con distinta intensidad: «fresco», «frío» y «helado», o «húmedo», «mojado» y «empapado»; aquí tu hijo aprende a ordenarlas de la más suave a la más fuerte y a escoger la palabra más precisa, lo que poco a poco enriquece su vocabulario.",
+        "Es una actividad gratuita e interactiva que se juega directo en el navegador, sin registro y sin descargas, con un tono cálido, sin cronómetro y sin puntajes, alineada a los Planes y programas de estudio (SEP)."
+      ],
+      "practices": [
+        "Reconocer palabras de significado parecido que no son idénticas.",
+        "Ordenar palabras según su intensidad, de la más suave a la más fuerte.",
+        "Elegir la palabra más precisa para expresar exactamente lo que se quiere decir.",
+        "Enriquecer el vocabulario aprendiendo los matices de significado entre palabras."
+      ],
+      "howToPlay": [
+        "Lee o escucha las tres palabras parecidas que te muestra Roary en su rugidómetro.",
+        "Fíjate bien si Roary te pide la palabra más fuerte o la palabra más suave de las tres.",
+        "Toca la palabra correcta; puedes intentarlo las veces que quieras, porque los intentos son ilimitados y no hay cronómetro."
+      ],
+      "learningGoals": [
+        "Reconoce que las palabras parecidas no significan exactamente lo mismo, sino que se diferencian por su intensidad.",
+        "Ordena tres palabras relacionadas de la más suave a la más fuerte para comparar su significado.",
+        "Escoge palabras más precisas al hablar y al escribir, ampliando así su vocabulario."
+      ]
+    },
     "rusty-yesterday.irregular-past.l-2-1-d": {
       "about": [
         "Rusty el robot tiene una máquina del tiempo: la pantalla muestra una oración en presente, «Hoy hago un pastel.», y pregunta «¿Y ayer?»; tu hijo toca la forma correcta del pasado entre tres opciones y así avanza por ocho rondas divertidas.",

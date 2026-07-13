@@ -35,13 +35,23 @@
           { "id": "froid", "band": 2, "setId": "froid", "ask": "weakest", "words": [ { "word": "frais", "rank": 1 }, { "word": "froid", "rank": 2 }, { "word": "glacial", "rank": 3 } ] },
           { "id": "contentement", "band": 3, "setId": "contentement", "ask": "strongest", "words": [ { "word": "content", "rank": 1 }, { "word": "heureux", "rank": 2 }, { "word": "ravi", "rank": 3 } ] },
           { "id": "colere", "band": 3, "setId": "colere", "ask": "weakest", "words": [ { "word": "agacé", "rank": 1 }, { "word": "fâché", "rank": 2 }, { "word": "furieux", "rank": 3 } ] }
+        ],
+        "es": [
+          { "id": "volumen", "band": 1, "setId": "volumen", "ask": "strongest", "words": [ { "word": "susurrar", "rank": 1 }, { "word": "hablar", "rank": 2 }, { "word": "gritar", "rank": 3 } ] },
+          { "id": "mojado", "band": 1, "setId": "mojado", "ask": "weakest", "words": [ { "word": "húmedo", "rank": 1 }, { "word": "mojado", "rank": 2 }, { "word": "empapado", "rank": 3 } ] },
+          { "id": "velocidad", "band": 1, "setId": "velocidad", "ask": "strongest", "words": [ { "word": "caminar", "rank": 1 }, { "word": "trotar", "rank": 2 }, { "word": "correr", "rank": 3 } ] },
+          { "id": "frio", "band": 2, "setId": "frio", "ask": "weakest", "words": [ { "word": "fresco", "rank": 1 }, { "word": "frío", "rank": 2 }, { "word": "helado", "rank": 3 } ] },
+          { "id": "calor", "band": 2, "setId": "calor", "ask": "strongest", "words": [ { "word": "tibio", "rank": 1 }, { "word": "caliente", "rank": 2 }, { "word": "ardiendo", "rank": 3 } ] },
+          { "id": "enojo", "band": 2, "setId": "enojo", "ask": "weakest", "words": [ { "word": "molesto", "rank": 1 }, { "word": "enojado", "rank": 2 }, { "word": "furioso", "rank": 3 } ] },
+          { "id": "tamano", "band": 3, "setId": "tamano", "ask": "strongest", "words": [ { "word": "pequeño", "rank": 1 }, { "word": "grande", "rank": 2 }, { "word": "enorme", "rank": 3 } ] },
+          { "id": "lluvia", "band": 3, "setId": "lluvia", "ask": "weakest", "words": [ { "word": "lloviznar", "rank": 1 }, { "word": "llover", "rank": 2 }, { "word": "diluviar", "rank": 3 } ] }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "roary-roar-meter", "de": "woerter-steigern-stark-schwach-klasse-3", "fr": "les-nuances-de-sens-mots-forts-faibles-ce2" },
-    "page_title": { "en": "Roary's Roar Meter — Strongest & Weakest Words (Grade 2)", "de": "Roarys Brüll-Meter: Wörter steigern – stark oder schwach? (Klasse 3)", "fr": "Roary et le rugissomètre : les nuances de sens — le mot le plus fort ou le plus faible (CE2)" },
-    "page_intro": { "en": "Roary the lion's roar can be soft or mighty! These words are all alike, but some are stronger than others — big, large, huge. Read the three words, then tap the STRONGEST one (or the WEAKEST one). A Grade 2 vocabulary game about shades of meaning, aligned to Common Core L.2.5.b.", "de": "Mit Roary dem Löwen ähnliche Wörter nach ihrer Stärke unterscheiden: Finde das stärkste oder schwächste Wort – kostenlos, interaktiv und passend zum Lehrplan.", "fr": "Avec Roary le lion et son rugissomètre, classe trois mots de sens proche — chuchoter, parler, crier — et trouve le plus fort ou le plus faible. Une activité de lexique CE2, gratuite et interactive." },
+    "slug": { "en": "roary-roar-meter", "de": "woerter-steigern-stark-schwach-klasse-3", "fr": "les-nuances-de-sens-mots-forts-faibles-ce2", "es": "matices-de-significado-palabras-fuertes-suaves-3-primaria" },
+    "page_title": { "en": "Roary's Roar Meter — Strongest & Weakest Words (Grade 2)", "de": "Roarys Brüll-Meter: Wörter steigern – stark oder schwach? (Klasse 3)", "fr": "Roary et le rugissomètre : les nuances de sens — le mot le plus fort ou le plus faible (CE2)", "es": "Roary y el rugidómetro: matices de significado (3.º primaria)" },
+    "page_intro": { "en": "Roary the lion's roar can be soft or mighty! These words are all alike, but some are stronger than others — big, large, huge. Read the three words, then tap the STRONGEST one (or the WEAKEST one). A Grade 2 vocabulary game about shades of meaning, aligned to Common Core L.2.5.b.", "de": "Mit Roary dem Löwen ähnliche Wörter nach ihrer Stärke unterscheiden: Finde das stärkste oder schwächste Wort – kostenlos, interaktiv und passend zum Lehrplan.", "fr": "Avec Roary le lion et son rugissomètre, classe trois mots de sens proche — chuchoter, parler, crier — et trouve le plus fort ou le plus faible. Une activité de lexique CE2, gratuite et interactive.", "es": "Roary el león y su rugidómetro te muestran tres palabras parecidas y tú eliges la más fuerte o la más suave. Aprende los matices de significado jugando gratis en 3.º de primaria, alineado a los Planes y programas de estudio (SEP)." },
     "kid_prompt_template": "Read the words — tap the strongest or weakest!"
   }
 ]

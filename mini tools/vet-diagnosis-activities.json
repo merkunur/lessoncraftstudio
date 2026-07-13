@@ -1612,6 +1612,540 @@
               }
             ]
           }
+        ],
+        "es": [
+          {
+            "id": "result-buns",
+            "cog": "result",
+            "band": 1,
+            "diagram": "change",
+            "op": "sub",
+            "unknownRole": "result",
+            "story": "Hay 9 panes en el plato. Se comieron 3. ¿Cuántos quedan?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 9
+              },
+              {
+                "id": "k2",
+                "value": 3
+              },
+              {
+                "id": "d",
+                "value": 10
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": "k1"
+              },
+              {
+                "role": "change",
+                "correct": "k2"
+              },
+              {
+                "role": "result",
+                "correct": null
+              }
+            ]
+          },
+          {
+            "id": "addto-change-acorns",
+            "cog": "addto-change",
+            "band": 1,
+            "diagram": "change",
+            "op": "add",
+            "unknownRole": "change",
+            "story": "Pip tenía 5 bellotas y encontró más. Ahora hay 12. ¿Cuántas encontró Pip?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 5
+              },
+              {
+                "id": "k2",
+                "value": 12
+              },
+              {
+                "id": "d",
+                "value": 14
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": "k1"
+              },
+              {
+                "role": "change",
+                "correct": null
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "addto-start-eggs",
+            "cog": "addto-start",
+            "band": 1,
+            "diagram": "change",
+            "op": "add",
+            "unknownRole": "start",
+            "story": "Un nido tenía algunos huevos. Le pusieron 5 huevos más. Ahora hay 12. ¿Cuántos había antes?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 5
+              },
+              {
+                "id": "k2",
+                "value": 12
+              },
+              {
+                "id": "d",
+                "value": 15
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": null
+              },
+              {
+                "role": "change",
+                "correct": "k1"
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "addto-start-shells",
+            "cog": "addto-start",
+            "band": 1,
+            "diagram": "change",
+            "op": "add",
+            "unknownRole": "start",
+            "story": "Bo tenía algunas conchas y consiguió 4 más. Ahora hay 11. ¿Cuántas tenía Bo antes?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 4
+              },
+              {
+                "id": "k2",
+                "value": 11
+              },
+              {
+                "id": "d",
+                "value": 13
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": null
+              },
+              {
+                "role": "change",
+                "correct": "k1"
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "takefrom-change-ducks",
+            "cog": "takefrom-change",
+            "band": 2,
+            "diagram": "change",
+            "op": "sub",
+            "unknownRole": "change",
+            "story": "Había 12 patos en el estanque. Algunos se fueron volando. Ahora hay 8. ¿Cuántos se fueron volando?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 12
+              },
+              {
+                "id": "k2",
+                "value": 8
+              },
+              {
+                "id": "d",
+                "value": 6
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": "k1"
+              },
+              {
+                "role": "change",
+                "correct": null
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "takefrom-change-berries",
+            "cog": "takefrom-change",
+            "band": 2,
+            "diagram": "change",
+            "op": "sub",
+            "unknownRole": "change",
+            "story": "Había 15 moras en el arbusto. Un pájaro se comió algunas. Ahora hay 9. ¿Cuántas se comió?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 15
+              },
+              {
+                "id": "k2",
+                "value": 9
+              },
+              {
+                "id": "d",
+                "value": 7
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": "k1"
+              },
+              {
+                "role": "change",
+                "correct": null
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "takefrom-start-bunnies",
+            "cog": "takefrom-start",
+            "band": 2,
+            "diagram": "change",
+            "op": "sub",
+            "unknownRole": "start",
+            "story": "Unos conejos estaban saltando. 4 se fueron saltando. Ahora hay 6. ¿Cuántos había antes?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 4
+              },
+              {
+                "id": "k2",
+                "value": 6
+              },
+              {
+                "id": "d",
+                "value": 12
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": null
+              },
+              {
+                "role": "change",
+                "correct": "k1"
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "puttogether-apples",
+            "cog": "puttogether-addend",
+            "band": 2,
+            "diagram": "bracket",
+            "op": "add",
+            "unknownRole": "partB",
+            "story": "Hay 12 manzanas. 5 son rojas y las demás verdes. ¿Cuántas verdes?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 12
+              },
+              {
+                "id": "k2",
+                "value": 5
+              },
+              {
+                "id": "d",
+                "value": 14
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "whole",
+                "correct": "k1"
+              },
+              {
+                "role": "partA",
+                "correct": "k2"
+              },
+              {
+                "role": "partB",
+                "correct": null
+              }
+            ]
+          },
+          {
+            "id": "puttogether-socks",
+            "cog": "puttogether-addend",
+            "band": 2,
+            "diagram": "bracket",
+            "op": "add",
+            "unknownRole": "partB",
+            "story": "Hay 11 calcetines. 4 son azules y los demás blancos. ¿Cuántos blancos?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 11
+              },
+              {
+                "id": "k2",
+                "value": 4
+              },
+              {
+                "id": "d",
+                "value": 13
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "whole",
+                "correct": "k1"
+              },
+              {
+                "role": "partA",
+                "correct": "k2"
+              },
+              {
+                "role": "partB",
+                "correct": null
+              }
+            ]
+          },
+          {
+            "id": "compare-diff-cats",
+            "cog": "compare-diff",
+            "band": 3,
+            "diagram": "compare",
+            "op": "add",
+            "unknownRole": "difference",
+            "story": "Hay 12 gatos y 5 perros. ¿Cuántos gatos más que perros hay?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 12
+              },
+              {
+                "id": "k2",
+                "value": 5
+              },
+              {
+                "id": "d",
+                "value": 14
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "bigger",
+                "correct": "k1"
+              },
+              {
+                "role": "smaller",
+                "correct": "k2"
+              },
+              {
+                "role": "difference",
+                "correct": null
+              }
+            ]
+          },
+          {
+            "id": "compare-bigger-cats",
+            "cog": "compare-bigger",
+            "band": 3,
+            "diagram": "compare",
+            "op": "add",
+            "unknownRole": "bigger",
+            "story": "Hay 5 perros. Hay 7 gatos más que perros. ¿Cuántos gatos hay?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 5
+              },
+              {
+                "id": "k2",
+                "value": 7
+              },
+              {
+                "id": "d",
+                "value": 14
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "bigger",
+                "correct": null
+              },
+              {
+                "role": "smaller",
+                "correct": "k1"
+              },
+              {
+                "role": "difference",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "compare-bigger-geese",
+            "cog": "compare-bigger",
+            "band": 3,
+            "diagram": "compare",
+            "op": "add",
+            "unknownRole": "bigger",
+            "story": "Hay 6 patos. Hay 5 gansos más que patos. ¿Cuántos gansos hay?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 6
+              },
+              {
+                "id": "k2",
+                "value": 5
+              },
+              {
+                "id": "d",
+                "value": 13
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "bigger",
+                "correct": null
+              },
+              {
+                "role": "smaller",
+                "correct": "k1"
+              },
+              {
+                "role": "difference",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "compare-smaller-cats",
+            "cog": "compare-smaller",
+            "band": 3,
+            "diagram": "compare",
+            "op": "add",
+            "unknownRole": "smaller",
+            "story": "Hay 12 gatos. Hay 7 gatos más que perros. ¿Cuántos perros hay?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 12
+              },
+              {
+                "id": "k2",
+                "value": 7
+              },
+              {
+                "id": "d",
+                "value": 15
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "bigger",
+                "correct": "k1"
+              },
+              {
+                "role": "smaller",
+                "correct": null
+              },
+              {
+                "role": "difference",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "compare-smaller-birds",
+            "cog": "compare-smaller",
+            "band": 3,
+            "diagram": "compare",
+            "op": "add",
+            "unknownRole": "smaller",
+            "story": "Hay 11 pájaros rojos. Hay 6 pájaros rojos más que azules. ¿Cuántos pájaros azules hay?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 11
+              },
+              {
+                "id": "k2",
+                "value": 6
+              },
+              {
+                "id": "d",
+                "value": 14
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "bigger",
+                "correct": "k1"
+              },
+              {
+                "role": "smaller",
+                "correct": null
+              },
+              {
+                "role": "difference",
+                "correct": "k2"
+              }
+            ]
+          }
         ]
       }
     },
@@ -1619,17 +2153,20 @@
     "slug": {
       "en": "vet-diagnosis-window",
       "de": "sachaufgaben-bis-20-klasse-2",
-      "fr": "resoudre-des-problemes-jusqu-a-20-ce1"
+      "fr": "resoudre-des-problemes-jusqu-a-20-ce1",
+      "es": "problemas-de-suma-y-resta-hasta-20"
     },
     "page_title": {
       "en": "Vet's Diagnosis Window — Word-Problem Modeling",
       "de": "Rechengeschichten bis 20 – Tierklinik online üben",
-      "fr": "Problèmes de maths CE1 – exercice en ligne (jusqu'à 20)"
+      "fr": "Problèmes de maths CE1 – exercice en ligne (jusqu'à 20)",
+      "es": "Problemas de suma y resta hasta 20 (2.º primaria)"
     },
     "page_intro": {
       "en": "A shy little animal shuffles into the woodland vet clinic, and its symptom is a number STORY. Watch the x-ray act out what happened, then model it: place each amount in its spot, mark the mystery part, and dial the answer to clear the x-ray and heal your patient. A warm Grade 1 game about adding and subtracting within 20 to solve word problems with unknowns in every position, aligned to Common Core 1.OA.A.1.",
       "de": "Rechengeschichten bis 20 online üben: kleine Sachaufgaben im Tierklinik-Rechenspiel lösen. Kostenlos online, ohne Anmeldung – für Klasse 2.",
-      "fr": "Problèmes de maths CE1 en ligne : résoudre des situations jusqu'à 20 chez le vétérinaire. Gratuit, en ligne, sans inscription."
+      "fr": "Problèmes de maths CE1 en ligne : résoudre des situations jusqu'à 20 chez le vétérinaire. Gratuit, en ligne, sans inscription.",
+      "es": "Resuelve problemas de suma y resta hasta 20 con el zorro veterinario. Juego gratis, interactivo y sin registro para 2.º de primaria (Planes de estudio, SEP)."
     },
     "kid_prompt_template": "vet-diagnosis"
   }

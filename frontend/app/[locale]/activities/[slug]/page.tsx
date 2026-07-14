@@ -181,7 +181,7 @@ const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'graph-it.bar-graph.2-md-d-10': { de: 'Daten und Häufigkeit', fr: 'Organisation et gestion de données', es: 'Análisis de datos' },   // bar graph = data, not Größen / Grandeurs et mesures / Magnitudes y medida (ES: eje Análisis de datos, Aprendizajes clave)
   'line-plot.read.2-md-d-9': { de: 'Daten und Häufigkeit', fr: 'Organisation et gestion de données', es: 'Análisis de datos' },        // line plot of measured lengths = data, not Größen / Grandeurs et mesures / Magnitudes y medida (ES: eje "Análisis de datos", igual que graph-it — la habilidad evaluada es leer frecuencias, no medir)
   'hoppers-number-line.jump-sums.2-md-b-6': { de: 'Zahlen und Rechnen im Zehnersystem', fr: 'Nombres et calcul', es: 'Sentido numérico' }, // add/sub on a number line = arithmetic, not Größen / Grandeurs et mesures / Magnitudes y medida (ES: eje "Sentido numérico" — la recta numérica es solo el modelo; igual que el skip-count Hopper #3, NO "Número, álgebra y variación")
-  'patchwork-meadow.tile.3-md-c-6': { de: 'Raum und Form' },        // Flächeninhalt durch Auslegen = Raum und Form (sibling of mosaic-menders)
+  'patchwork-meadow.tile.3-md-c-6': { de: 'Raum und Form', es: 'Forma, espacio y medida' },        // Flächeninhalt durch Auslegen = Raum und Form (sibling of mosaic-menders); es área/superficie = geometría-medida → «Forma, espacio y medida» (espeja mosaic-menders/mending-fences es, NO «Magnitudes y medida»)
   'digby-number-trace.numeral-formation.k-cc-a-3': { de: 'Zahlen und Operationen', fr: 'Découvrir les nombres et leurs utilisations' },  // numeral WRITING = Zahldarstellung (NOT the reading sibling pips-round's „Zählen und Mengen"). FR GS-anchored (necklace/twinsies/mochi/wondering-jar precedent): écrire/tracer les chiffres 0-9 = attendu de GS (« écrire les nombres avec les chiffres », le geste graphique du chiffre, plage 0-9 = maternelle) → native 'K' auto-maps to GS (NO fr grade override; ⚠ diverges from the de Klasse-1 fan); the maternelle number domain, NOT the cycle-2 « Nombres et calcul » auto-map (a year off beside the GS chip), and NOT « Écriture » (that's for LETTER formation — here the CCSS strand is the math C&C domain); en/de fall through
   'olive-kind-of.category-attribute.l-1-5-b': { de: 'Wortschatz untersuchen', fr: 'Le lexique', es: 'Ampliación del vocabulario' }, // Oberbegriffe = Wortschatzarbeit, not Grammatik („Sprache untersuchen"); FR catégoriser/le mot générique = LE LEXIQUE (vocabulaire), beside affix/sage; en falls through to Language. MX: categorizar = trabajo de vocabulario, MISMO eje que #22 afijos + #26 familias de palabras → "Ampliación del vocabulario", NO gramática
   'cleo-packing-list.series-commas.l-1-2-b': { de: 'Richtig schreiben', es: 'Ortografía y puntuación' }, // Zeichensetzung = orthography/Rechtschreiben, not „Sprache untersuchen"; ES puntuación = ortografía, not "Reflexión sobre la lengua" (grammar)
@@ -521,7 +521,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.293';
+  const ACTIVITY_WRAPPER_VERSION = '9.294';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

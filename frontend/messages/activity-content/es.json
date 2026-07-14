@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "clock-read.tell-time.1-md-b-3": {
+      "about": [
+        "En una casita del bosque vive Tecolín, un tecolote, y todo su día cabe en un gran reloj de cucú. Cada vez que las manecillas marcan una hora, algo pasa en su casita: el desayuno, la hora del jardín, la comida, la hora de dormir… Tu peque lee el reloj para descubrir qué está haciendo Tecolín en ese momento y, cuando hace falta, mueve las manecillas para acomodarlas en la hora correcta. Así, leer la hora deja de ser un ejercicio abstracto y se vuelve una historia que avanza sola.",
+        "La actividad va cambiando para que no se sienta repetitiva. A veces aparece un reloj ya puesto y hay que tocar el momento del día que le corresponde; otras veces se pide poner las manecillas en una hora dada para despertar al cucú (¡cucú!); también hay que ordenar varios relojes según la rutina del día y descifrar una pista del cielo, como el amanecer o el mediodía. Entre todas las rondas se practican las cuatro formas de la hora: las 3 en punto, las 3 y media, las 3 y cuarto y cuarto para las 4.",
+        "Todo sucede con calma. No hay reloj que corra en contra, no hay puntaje y nadie gana ni pierde: tu peque prueba a su propio ritmo, se equivoca sin pena y lo vuelve a intentar hasta que el cucú canta la hora. Esa tranquilidad es justo lo que ayuda a que un niño de los primeros grados se anime a leer las manecillas sin miedo a fallar. (Alineada a los Planes y programas de estudio de la SEP, en el eje de Magnitudes y medida.)"
+      ],
+      "practices": [
+        "Leer la hora en un reloj analógico —en punto, y media, y cuarto—.",
+        "Poner las manecillas en una hora dada.",
+        "Relacionar la hora con los momentos del día.",
+        "Leer también los «cuarto para» las horas."
+      ],
+      "howToPlay": [
+        "Mira las manecillas del reloj de cucú y lee la hora.",
+        "Toca el momento del día que corresponde, o pon las manecillas en la hora que se pide.",
+        "Si está bien, sale el cucú y canta la hora."
+      ],
+      "learningGoals": [
+        "Leo la hora en un reloj de manecillas.",
+        "Pongo el reloj en una hora dada.",
+        "Relaciono la hora con lo que pasa en el día."
+      ]
+    },
     "parking-tower.place-by-relation.k-g-a-1": {
       "about": [
         "En lo alto de la ciudad hay un estacionamiento de vidrio con muchos pisos, y Beto el castor es el encargado que recibe cada vehículo. En cada piso ya hay algo estacionado —el autobús, el carro, el tráiler, la camioneta o el barco—, y Beto le dice al niño dónde acomodar el que llega: «estaciona el carro encima del autobús», «pon la camioneta junto al tráiler», «deja el barco debajo del carro». El niño escucha la palabra de ubicación y coloca el vehículo en el lugar correcto respecto a ese punto de referencia. Así, jugando, va usando y entendiendo las relaciones espaciales: encima, debajo, junto a y entre.",

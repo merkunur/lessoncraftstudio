@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "twinsies.count-twin.k-cc-b-5": {
+      "about": [
+        "Zwicke, el duende gemelo, junta en el bosque las bellotas más bonitas y las amontona en una pilita. Pero Zwicke quiere algo especial: un gemelo para su montón. «Gemelo» no significa la misma foto —significa la misma cantidad. Igual que dos niños gemelos son niños distintos y aun así tienen los mismos años.",
+        "Primero, tu hijo cuenta las bellotas de Zwicke tocando cada una: una bellota, un toque, un número. Así descubre cuántas hay. Luego arma en su propio plato exactamente la misma cantidad de bellotas, pero acomodadas de otra forma: a veces en línea, a veces regadas, a veces en un arreglo, a veces según un número escrito. El acomodo puede verse muy distinto; solo la cantidad tiene que coincidir. Y cuando los dos tienen la misma cantidad, Zwicke grita feliz: «¡Somos gemelos!».",
+        "La gran idea es esta: es la misma cantidad, sin importar cómo se acomode. Una cantidad sigue siendo la misma, ya sea que las bellotas estén en fila, revueltas o bien ordenadas una junto a otra. Aquí no hay reloj que corra, ni puntos que ganar. Nadie tiene que apurarse ni se compara con nadie: Zwicke simplemente disfruta encontrar gemelos a su propio ritmo, las veces que quiera. La actividad está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para el preescolar, dentro del eje de Sentido numérico."
+      ],
+      "practices": [
+        "Cuenta la pila de bellotas de Zwicke, tocando cada una mientras dices el número en voz alta.",
+        "Arma tu propio plato con la misma cantidad de bellotas, acomodándolas en una línea.",
+        "Vuelve a armar la misma cantidad, pero ahora regadas o en un arreglo de 2×3: descubre que la cantidad no cambia.",
+        "Iguala la cantidad que te pide un numeral escrito y declara «¡Somos gemelos!»."
+      ],
+      "howToPlay": [
+        "Cuenta las bellotas de Zwicke, una por una.",
+        "En tu plato, pon la misma cantidad de bellotas: puedes acomodarlas como quieras.",
+        "Cuando tengas las mismas, di «¡Somos gemelos!»."
+      ],
+      "learningGoals": [
+        "Contar una colección hasta 12 y decir cuántas hay (cardinalidad).",
+        "Formar un conjunto con la misma cantidad en un acomodo distinto (correspondencia uno a uno).",
+        "Comprender la conservación del número: la cantidad no cambia con el acomodo."
+      ]
+    },
     "fix-it-corner.missing-part.1-oa-d-8": {
       "about": [
         "En «El rincón de arreglos de Fixit» ayudas a Fixit, un topo reparador un poco cegatón, a echar a andar aparatos descompuestos. Cada aparato muestra una suma o una resta en la que un solo lugar brilla como un foco vacío: ahí está el número que falta. Si colocas el número correcto, el aparato arranca feliz. A veces llenas un marco de diez hasta el 10, a veces das brincos hacia adelante o hacia atrás en la recta numérica, y a veces equilibras una balanza.",

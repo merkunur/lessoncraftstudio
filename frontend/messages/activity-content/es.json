@@ -192,6 +192,52 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "clock-elapsed.what-time.3-md-a-1": {
+      "about": [
+        "Acompaña a Sprocket a poner el reloj a tiempo: el niño lee la hora de inicio en el reloj de manecillas, cuenta los minutos hacia adelante de cinco en cinco y descubre qué hora será cuando pase ese ratito. Entre tres tarjetas digitales, toca la hora correcta.",
+        "Aquí vive una idea importante de tercer grado: calcular el tiempo transcurrido. El tiempo es una magnitud, y al contar los minutos hacia adelante —incluso cruzando la hora entera— el niño aprende a usar las marcas de 5 en 5 de la carátula y a pasar de una hora a la siguiente. Así el reloj deja de ser solo algo que se lee y se convierte en algo con lo que se opera.",
+        "No hay cronómetro, ni puntaje, ni competencia: el niño practica con calma, a su propio ritmo, y puede mirar el reloj las veces que quiera. La actividad es gratuita. Está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para tercer grado de primaria, dentro del eje de Magnitudes y medida."
+      ],
+      "practices": [
+        "Observar la carátula del reloj analógico y leer la hora de inicio; después contar los minutos hacia adelante, de 5 en 5, para saber qué hora será.",
+        "Sumar 15, 20 o 25 minutos a la hora de inicio sin pasar de la hora entera, y elegir la hora final en el reloj digital.",
+        "Contar minutos hacia adelante cruzando la hora entera: cuando la manecilla llega al 12, empieza una hora nueva y se sigue contando.",
+        "Comparar la hora de inicio con la hora final y comprobar cuántos minutos transcurrieron entre las dos."
+      ],
+      "howToPlay": [
+        "Mira la hora de inicio en el reloj de Sprocket.",
+        "Cuenta los minutos indicados paso a paso, de 5 en 5, hacia adelante.",
+        "Toca la tarjeta con la hora final correcta."
+      ],
+      "learningGoals": [
+        "Leer la hora de inicio en un reloj analógico y calcular el tiempo transcurrido sumando minutos.",
+        "Contar los minutos de 5 en 5 hacia adelante usando las marcas de la carátula.",
+        "Cruzar la hora entera al sumar minutos y expresar la hora final en el reloj digital."
+      ]
+    },
+    "clock-elapsed.add-subtract.3-md-a-1": {
+      "about": [
+        "Con Sprocket y su reloj, el niño practica calcular la hora en los dos sentidos: suma los minutos cuando algo pasará «en un rato» y los resta cuando ocurrió «hace un rato», cruzando la hora sin perderse. Entre tres tarjetas digitales, elige la hora correcta.",
+        "Lo especial es el cambio de dirección: a veces el tiempo avanza y a veces el niño mira hacia atrás y cuenta en reversa —incluso pasando del 12 hacia la hora anterior—. Así aprende a distinguir con cuidado entre contar hacia adelante y contar hacia atrás, y a recorrer ambos caminos con el ritmo de 5 en 5 de la carátula. Esto profundiza la idea del tiempo como una magnitud con la que se puede operar.",
+        "Tampoco aquí hay cronómetro, puntaje ni competencia: solo Sprocket, el reloj y el niño, que prueba con calma. La actividad es gratuita. Pertenece al eje de Magnitudes y medida de los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) y acompaña las matemáticas de tercer grado de primaria."
+      ],
+      "practices": [
+        "Leer la hora de inicio y decidir si hay que contar hacia adelante («en N minutos») o hacia atrás («hace N minutos») para hallar la hora final.",
+        "Sumar minutos a la hora de inicio, de 5 en 5, cruzando la hora entera cuando sea necesario.",
+        "Restar minutos a la hora de inicio contando hacia atrás en la carátula, incluso pasando del 12 hacia la hora anterior.",
+        "Alternar entre sumar y restar minutos para calcular el tiempo transcurrido en distintas situaciones del día."
+      ],
+      "howToPlay": [
+        "Lee la hora de inicio en el reloj de Sprocket.",
+        "Fíjate: ¿debes contar hacia adelante o hacia atrás?",
+        "Toca la tarjeta con la hora correcta."
+      ],
+      "learningGoals": [
+        "Calcular el tiempo transcurrido sumando y restando minutos a una hora dada.",
+        "Contar los minutos hacia adelante y hacia atrás, de 5 en 5, cruzando la hora entera.",
+        "Relacionar la hora de inicio y la hora final tanto en el reloj analógico como en el digital."
+      ]
+    },
     "posy-egg-cartons.count-tens.k-cc-a-1": {
       "about": [
         "Posy la gallina acomoda sus huevos en cajas: cada caja llena guarda exactamente diez huevos, una decena. Tu pequeño no cuenta huevo por huevo —cuenta las cajas de diez en diez: diez, veinte, treinta…— y al final toca el número total.",

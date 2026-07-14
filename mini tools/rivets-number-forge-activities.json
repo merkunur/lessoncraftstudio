@@ -209,17 +209,20 @@
     "slug": {
       "en": "rivets-number-forge",
       "de": "anzahl-zaehlen-und-passende-ziffer-bis-20-klasse-1",
-      "fr": "compter-et-ecrire-le-nombre-jusqu-a-20-cp"
+      "fr": "compter-et-ecrire-le-nombre-jusqu-a-20-cp",
+      "es": "contar-y-su-numero-asociar-cantidad-y-numeral-preescolar"
     },
     "page_title": {
       "en": "Rivet's Number Forge — Count and Write the Numeral 0 to 20",
       "de": "Mengen und Zahlen zuordnen – bis 20 online üben",
-      "fr": "Nombre et quantité – compter puis écrire le nombre, en ligne (CP)"
+      "fr": "Nombre et quantité – compter puis écrire le nombre, en ligne (CP)",
+      "es": "Contar y su número: cantidad y numeral (preescolar)"
     },
     "page_intro": {
       "en": "Help Rivet the raccoon turn loose treasure into collector cards: count the acorns, buttons, and fireflies and forge the numeral that says how many — the numeral is built from the very things you count. Even an empty pack has a number: zero! A warm Kindergarten counting-and-writing game aligned to Common Core K.CC.A.3.",
       "de": "Mengen und Zahlen zuordnen: Anzahl zählen und die passende Ziffer bis 20 finden – ideal für den Schulstart. Kostenlos online, ohne Anmeldung.",
-      "fr": "Associer nombre et quantité : compter une collection puis écrire le nombre qui correspond. Gratuit, en ligne, sans inscription."
+      "fr": "Associer nombre et quantité : compter une collection puis écrire le nombre qui correspond. Gratuit, en ligne, sans inscription.",
+      "es": "El niño cuenta los tesoros y aparece el número que corresponde, hasta el cero: actividad interactiva gratis, sin registro y alineada al plan de la SEP."
     },
     "kid_prompt_template": "numeral-album"
   }

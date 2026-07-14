@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "patchwork-meadow.tile.3-md-c-6": {
+      "about": [
+        "Sprout, el conejo jardinero, cuida jardines con formas irregulares —en forma de L, en escalera— que hay que cubrir por completo con cuadritos de musgo, sin dejar huecos ni encimar ninguno. El área del jardín es la cantidad de cuadritos que lo cubren. Como las figuras son irregulares, no se puede usar «largo por ancho»: el niño mide el área cubriendo y contando, uno por uno.",
+        "Aquí vive una de las ideas más importantes de la geometría de primaria: el área de una figura es la cantidad de unidades cuadradas iguales que la cubren, y eso vale también para las formas irregulares, donde no se puede calcular «largo por ancho». Por eso los jardines de Sprout se eligieron chuecos: el niño mide el área tal como de verdad la entiende —cubriendo, cerrando huecos y contando—, no con una fórmula. A veces repara un hueco escondido o un cuadrito encimado, a veces estima antes, y a veces arma él mismo un jardín con exactamente los cuadritos que se piden.",
+        "No hay cronómetro, ni puntaje, ni competencia, y se juega con calma: el niño puede acomodar los cuadritos, probar y volver a contar sin prisa. Sprout se alegra con cada jardín cubierto. La actividad es gratuita y está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para tercer grado de primaria, dentro del eje de Forma, espacio y medida, donde el área de una figura se aprende cubriendo con unidades y contando, antes de cualquier fórmula."
+      ],
+      "practices": [
+        "Cubrir un jardín irregular con cuadritos de musgo iguales, sin huecos ni encimados, y contar cuántos cuadritos lo cubren para saber su área.",
+        "Reparar un jardín: encontrar el hueco sin cubrir o el cuadrito encimado y arreglarlo para que el musgo cubra la figura de forma pareja.",
+        "Estimar a ojo cuántos cuadritos harán falta y luego comprobarlo cubriendo y contando.",
+        "Terminar un jardín que ya está medio cubierto y armar un jardín de exactamente N cuadritos: el camino inverso, del número al área."
+      ],
+      "howToPlay": [
+        "Cubre todo el jardín con cuadritos de musgo, sin dejar huecos ni encimarlos.",
+        "Cuenta cuántos cuadritos cubren el jardín.",
+        "Fíjate cuántos cuadritos quedaron: esa es el área, «Área: N cuadritos»."
+      ],
+      "learningGoals": [
+        "Comprender que el área de una figura es la cantidad de cuadritos iguales que la cubren por completo, sin huecos ni encimados.",
+        "Medir el área contando los cuadritos, uno por uno, en figuras irregulares donde no se puede usar una fórmula.",
+        "Descubrir que dos jardines de forma distinta pueden tener la misma área si los cubre la misma cantidad de cuadritos."
+      ]
+    },
     "clock-elapsed.what-time.3-md-a-1": {
       "about": [
         "Acompaña a Sprocket a poner el reloj a tiempo: el niño lee la hora de inicio en el reloj de manecillas, cuenta los minutos hacia adelante de cinco en cinco y descubre qué hora será cuando pase ese ratito. Entre tres tarjetas digitales, toca la hora correcta.",

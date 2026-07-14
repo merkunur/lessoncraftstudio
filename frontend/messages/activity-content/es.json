@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "posy-egg-cartons.count-tens.k-cc-a-1": {
+      "about": [
+        "Posy la gallina acomoda sus huevos en cajas: cada caja llena guarda exactamente diez huevos, una decena. Tu pequeño no cuenta huevo por huevo —cuenta las cajas de diez en diez: diez, veinte, treinta…— y al final toca el número total.",
+        "Aquí vive una idea importante del primer grado: agrupar de diez en diez. Quien reconoce que una caja llena vale una decena —diez huevos— no tiene que contar de uno en uno, sino que avanza a saltos: 10, 20, 30, 40… Así se forma la serie de las decenas, la manera rápida y ordenada de saber cuántos hay hasta 100, y una base del sistema decimal y del valor posicional.",
+        "Es una actividad gratuita, sin cronómetro, sin puntaje y sin competencia: el niño agrupa y cuenta a su propio ritmo, con calma. Está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para primer grado de primaria, dentro del eje de Sentido numérico, con totales de 20 hasta 100."
+      ],
+      "practices": [
+        "Reconocer que cada caja llena guarda exactamente diez huevos, una decena, sin necesidad de contar huevo por huevo.",
+        "Contar las cajas de diez en diez —diez, veinte, treinta, cuarenta…— avanzando una decena por cada caja.",
+        "Tocar el número total de huevos, del grupo al total, con cantidades que crecen de 20 hasta 100.",
+        "Descubrir que agrupar de diez en diez es una forma rápida y ordenada de saber cuántos huevos hay en total."
+      ],
+      "howToPlay": [
+        "En cada caja hay exactamente diez huevos.",
+        "Cuenta las cajas llenas de diez en diez: 10, 20, 30…",
+        "Toca el número total de huevos."
+      ],
+      "learningGoals": [
+        "Contar de diez en diez hasta cien apoyándose en grupos concretos (las cajas-decena).",
+        "Reconocer la decena como un grupo de diez y comprender que agrupar de diez en diez organiza la cantidad.",
+        "Relacionar el grupo con el total, sentando las bases del sistema decimal y del valor posicional que se trabaja en primer grado."
+      ]
+    },
     "pips-round.mail-route.k-cc-a-3": {
       "about": [
         "Pip, el ratón cartero, reparte cartas por todo el vecindario: en cada sobre viene un número escrito y tu pequeño tiene que leerlo y tocar la casa que le toca —aunque el número esté en otro tipo de letra—. A veces Pip no lo muestra: solo lo dice en voz alta, y el niño reconoce ese mismo número entre las casas.",

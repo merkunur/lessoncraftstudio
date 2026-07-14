@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "nesting-pots.seriate.k-cc-c-7": {
+      "about": [
+        "El abuelo Pip talla ollitas de madera que se encajan una dentro de otra, cada vez más pequeñas, y en cada una pintó un número. El bebé Wee Olen debe quedar hasta adentro, en la ollita más pequeña, mientras Doot el pato observa. Tu tarea: acomodar las ollitas del número mayor al menor, metiendo cada una dentro de la siguiente, para que al final el bebé quede seguro en el centro.",
+        "Lo interesante es que las ollitas son de todos los tamaños, revueltas: una ollita gorda puede llevar un número menor y una delgada un número mayor. Por eso nunca te dejes engañar por el tamaño de la olla: lee el número pintado y ordena los números de mayor a menor. Así aprendes a comparar y ordenar: cuál es el mayor, cuál el menor, cuál va entre los dos. A veces falta una ollita en la serie y buscas cuál encaja en el hueco; a veces dos ollitas llevan el mismo número —son gemelas iguales— y entonces se quedan una junto a la otra, porque ninguna cabe en la otra.",
+        "Aquí no hay reloj, ni puntaje, ni quién gana primero: puedes pensar con calma, probar y volver a empezar. Todo es gratis. La actividad está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para el preescolar, dentro del eje de Sentido numérico. Nadie te apura: el abuelo Pip, Wee Olen y Doot tienen todo el tiempo del mundo, y tú también."
+      ],
+      "practices": [
+        "Ordenar un conjunto de ollitas de mayor a menor, leyendo el número pintado y no el tamaño de la olla.",
+        "Descubrir cuál número falta entre dos ollitas que ya están acomodadas.",
+        "Reconocer ollitas gemelas: dos que tienen el mismo número, aunque sean de distinto tamaño.",
+        "Vencer la «trampa del tamaño»: acomodar bien aunque una olla gorda lleve un número menor y una olla delgada lleve un número mayor."
+      ],
+      "howToPlay": [
+        "Mira el número pintado en cada ollita; no te fijes en si la olla es grande o chica.",
+        "Empieza con el número mayor y ve metiendo cada ollita dentro de la siguiente, de mayor a menor.",
+        "Al final, el bebé Wee Olen queda seguro dentro de la ollita más pequeña. Si falta un número o hay dos gemelas iguales, acomódalas con calma."
+      ],
+      "learningGoals": [
+        "Comparar y ordenar números del 1 al 10 —con un reto de números de dos cifras hasta el 40— de mayor a menor.",
+        "Leer el numeral escrito y usarlo para decidir, distinguiendo la cantidad del tamaño del objeto.",
+        "Identificar relaciones de «mayor que», «menor que» e «igual» entre dos números."
+      ]
+    },
     "clock-ampm.morning-or-night.2-md-c-7": {
       "about": [
         "Sprocket, el gallo, conoce el día entero: canta en la mañana cuando sale el sol y cierra los ojos en la noche cuando aparece la luna. En esta actividad te muestra algo que haces durante el día —como «desayunas» a las 7 o «miras las estrellas» a las 9— junto con la hora en el reloj, y tú decides con él: ¿esto pasa en la mañana, antes del mediodía, o en la tarde y noche, después del mediodía?",

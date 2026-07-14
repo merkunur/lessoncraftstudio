@@ -39,6 +39,14 @@
       winBack: 'Oui ! {start} − {n} min = {end}.',
       hint: 'Commence à l’horloge, puis compte les minutes.',
       hintBack: 'Commence à l’horloge, puis compte les minutes en arrière.'
+    },
+    es: {
+      q: '¿Qué hora será en {n} minutos?',
+      qBack: '¿Qué hora era hace {n} minutos?',
+      win: '¡Exacto! {start} + {n} min = {end}.',
+      winBack: '¡Exacto! {start} − {n} min = {end}.',
+      hint: 'Empieza en el reloj y cuenta los minutos hacia adelante.',
+      hintBack: 'Empieza en el reloj y cuenta los minutos hacia atrás.'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -48,6 +56,15 @@
   /* a friendly spoken-time phrase for the aria / sr (locale-aware: German „N Uhr" / „halb (N+1)" / „Viertel nach·vor" — reused from clock-digital #8) */
   function spoken(t) {
     var hh = t.h, mm = t.m;
+    if (LANG === 'es') {
+      var HRS = ['', 'una', 'dos', 'tres', 'cuatro', 'cinco', 'seis', 'siete', 'ocho', 'nueve', 'diez', 'once', 'doce'];
+      var art = (hh === 1) ? 'la' : 'las';
+      if (mm === 0) return art + ' ' + HRS[hh] + ' en punto';
+      if (mm === 30) return art + ' ' + HRS[hh] + ' y media';
+      if (mm === 15) return art + ' ' + HRS[hh] + ' y cuarto';
+      if (mm === 45) { var nx = (hh === 12 ? 1 : hh + 1); return 'un cuarto para ' + (nx === 1 ? 'la' : 'las') + ' ' + HRS[nx]; }
+      return art + ' ' + Core.digitalStr(t);
+    }
     if (LANG === 'de') {
       if (mm === 0) return hh + ' Uhr';
       if (mm === 30) return 'halb ' + wrapH(hh + 1);
@@ -70,7 +87,7 @@
   }
 
   function clockSVG(h, m) {
-    var svg = elNS('svg', { viewBox: '0 0 100 100', class: 'ce-clock', role: 'img', 'aria-label': (LANG === 'de' ? 'Zifferblatt' : LANG === 'fr' ? 'cadran de l’horloge' : 'clock face') });
+    var svg = elNS('svg', { viewBox: '0 0 100 100', class: 'ce-clock', role: 'img', 'aria-label': (LANG === 'es' ? 'carátula del reloj' : LANG === 'de' ? 'Zifferblatt' : LANG === 'fr' ? 'cadran de l’horloge' : 'clock face') });
     svg.appendChild(elNS('circle', { cx: 50, cy: 50, r: 46, fill: C.FACE, stroke: C.RIM, 'stroke-width': 3.5 }));
     for (var n = 1; n <= 12; n++) {
       var a = n * 30 * Math.PI / 180;
@@ -106,8 +123,8 @@
   var ClockElapsedActivity = {
     id: 'clock-elapsed-activity',
     strings: {
-      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr — Zeitspannen', fr: 'L’horloge de Sprocket' },
-      instruction: { en: 'Read the start time, then count on the minutes.', de: 'Lies die Startzeit ab und zähle dann die Minuten weiter.', fr: 'Lis l’heure de départ, puis compte les minutes.' },
+      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr — Zeitspannen', fr: 'L’horloge de Sprocket', es: 'El reloj de Sprocket' },
+      instruction: { en: 'Read the start time, then count on the minutes.', de: 'Lies die Startzeit ab und zähle dann die Minuten weiter.', fr: 'Lis l’heure de départ, puis compte les minutes.', es: 'Lee la hora de inicio y luego cuenta los minutos hacia adelante.' },
       q: { en: '{q}' }
     },
 
@@ -256,7 +273,9 @@
       var cs = (round.options || []).map(function (t) { return Core.digitalStr(t); }).join(', ');
       var n = Math.abs(round.deltaMin);
       var qText = round.deltaMin < 0 ? txt('qBack', { n: n }) : txt('q', { n: n });
-      wrap.innerHTML = (LANG === 'de')
+      wrap.innerHTML = (LANG === 'es')
+        ? '<p>El reloj marca ' + spoken(round.start) + '. ' + qText + ' Las opciones son: ' + cs + '.</p>'
+        : (LANG === 'de')
         ? '<p>Die Uhr zeigt ' + spoken(round.start) + '. ' + qText + ' Zur Auswahl stehen: ' + cs + '.</p>'
         : (LANG === 'fr')
         ? '<p>L’horloge indique ' + spoken(round.start) + '. ' + qText + ' Les choix sont : ' + cs + '.</p>'

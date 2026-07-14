@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "fix-it-corner.missing-part.1-oa-d-8": {
+      "about": [
+        "En «El rincón de arreglos de Fixit» ayudas a Fixit, un topo reparador un poco cegatón, a echar a andar aparatos descompuestos. Cada aparato muestra una suma o una resta en la que un solo lugar brilla como un foco vacío: ahí está el número que falta. Si colocas el número correcto, el aparato arranca feliz. A veces llenas un marco de diez hasta el 10, a veces das brincos hacia adelante o hacia atrás en la recta numérica, y a veces equilibras una balanza.",
+        "Detrás de esto vive una de las ideas más importantes del primer grado: el número que falta en una suma o una resta puede estar en cualquier lugar —puede ser el resultado, un sumando o el número del que quitas—. Con estos aparatos tan claros descubres las familias de operaciones (si 3 más 4 es igual a 7, entonces 7 menos 4 es igual a 3), aprendes a completar («¿cuántos faltan?») y vives el signo igual como un verdadero equilibrio: los dos lados de la balanza valen lo mismo.",
+        "Aquí no hay reloj que corra, ni puntos, ni estrellas, y todo es gratuito. Si eliges un número que todavía no cabe, el aparato te muestra con calma qué pasa, y Fixit lo resuelve contigo sin prisa. Así puedes probar, pensar y encontrar el número que falta a tu propio ritmo. La actividad está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para primer grado de primaria, dentro del eje de Sentido numérico."
+      ],
+      "practices": [
+        "Encontrar el número que falta en cualquier posición de una suma o una resta: el resultado, un sumando, el sustraendo o el minuendo.",
+        "Usar familias de operaciones para pensar en la suma y resolver la resta (si 3 más 4 es igual a 7, entonces 7 menos 4 es igual a 3).",
+        "Apoyarse en el marco de diez y en la recta numérica para completar hasta 10 y dar brincos hacia adelante o hacia atrás.",
+        "Leer el signo igual como un equilibrio: los dos lados de la balanza valen lo mismo."
+      ],
+      "howToPlay": [
+        "Observa el aparato descompuesto de Fixit: verás una operación con un foco vacío que brilla; ahí va el número que falta.",
+        "Usa la herramienta que aparece —el marco de diez, la recta numérica, el triángulo de la familia de operaciones o la balanza— para descubrir ese número.",
+        "Coloca el número en el foco vacío y comprueba que los dos lados queden en equilibrio. ¡Aparato reparado!"
+      ],
+      "learningGoals": [
+        "Comprender que, en una igualdad, el número que falta puede estar en cualquier lugar, no solo después del signo igual.",
+        "Reconocer la relación entre la suma y la resta dentro de una misma familia de operaciones, distinguiendo el todo y sus partes.",
+        "Entender que el signo igual significa «vale lo mismo de los dos lados» y no «aquí va la respuesta»."
+      ]
+    },
     "clunks-lost-lunch.make-total.k-oa-a-3": {
       "about": [
         "Clunk es un robot comelón con una pancita abollada y muchísima hambre, pero solo de una cantidad exacta: hoy quiere justo el número de botanas que muestra su pantalla. En la pared cuelgan muchas botanas con números. Tú tocas botanas para meterlas a la lonchera y así vas formando el número, poco a poco, sumando en tu mente hasta que quede justo. Entonces Clunk puede comer.",

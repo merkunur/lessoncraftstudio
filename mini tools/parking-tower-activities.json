@@ -399,17 +399,20 @@
     "slug": {
       "en": "brambles-parking-tower",
       "de": "lagebeziehungen-ueber-unter-neben-zwischen-klasse-1",
-      "fr": "au-dessus-en-dessous-a-cote-entre-mots-de-position-gs"
+      "fr": "au-dessus-en-dessous-a-cote-entre-mots-de-position-gs",
+      "es": "palabras-de-ubicacion-encima-debajo-junto-entre-preescolar"
     },
     "page_title": {
       "en": "Bramble's Parking Tower — Position Words: Above, Below, Between (Kindergarten)",
       "de": "Lagebeziehungen üben: über, unter, neben | Klasse 1",
-      "fr": "Se repérer dans l'espace – exercice en ligne (GS)"
+      "fr": "Se repérer dans l'espace – exercice en ligne (GS)",
+      "es": "Palabras de ubicación: encima, debajo, junto a y entre"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten activity for position words: help Beaver Bramble park each vehicle above, below, next to, or between the others in his side-on parking tower. The floor between levels makes \"above\" mean one level up, so children must listen to the word — not just guess the nearest spot. Describing relative positions is the heart of Common Core K.G.A.1.",
       "de": "Lagebeziehungen & Positionswörter über, unter, neben, zwischen üben: Parke die Autos im Parkturm – interaktiv & kostenlos für Klasse 1. Jetzt spielen!",
-      "fr": "Au-dessus, en dessous, à côté, entre : l'enfant place chaque objet au bon endroit pour se repérer dans l'espace. Gratuit, en ligne, sans inscription."
+      "fr": "Au-dessus, en dessous, à côté, entre : l'enfant place chaque objet au bon endroit pour se repérer dans l'espace. Gratuit, en ligne, sans inscription.",
+      "es": "El niño escucha a Beto el castor y estaciona cada vehículo en el piso correcto —encima, debajo, junto a o entre—; gratis, sin registro y alineada al plan de la SEP."
     },
     "kid_prompt_template": "place-by-relation"
   }

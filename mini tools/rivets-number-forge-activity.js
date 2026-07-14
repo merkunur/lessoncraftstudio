@@ -38,13 +38,21 @@
     firefly: { art: 'une luciole', bare: 'luciole',  pl: 'lucioles' },
     marble:  { art: 'une bille',   bare: 'bille',    pl: 'billes' }
   };
+  var WORDS_ES = { 0: 'cero', 1: 'uno', 2: 'dos', 3: 'tres', 4: 'cuatro', 5: 'cinco', 6: 'seis', 7: 'siete', 8: 'ocho', 9: 'nueve', 10: 'diez', 11: 'once', 12: 'doce', 13: 'trece', 14: 'catorce', 15: 'quince', 16: 'dieciséis', 17: 'diecisiete', 18: 'dieciocho', 19: 'diecinueve', 20: 'veinte' };
+  /* Mexican treasure names — gender-aware (art = indef. article; pl carries the article; ct = counted-suffix agreeing in gender). */
+  var KIND_ES = {
+    acorn:   { art: 'una bellota',    bare: 'bellota',    pl: 'las bellotas',    ct: 'contada' },
+    button:  { art: 'un botón',       bare: 'botón',      pl: 'los botones',     ct: 'contado' },
+    firefly: { art: 'una luciérnaga', bare: 'luciérnaga', pl: 'las luciérnagas', ct: 'contada' },
+    marble:  { art: 'una canica',     bare: 'canica',     pl: 'las canicas',     ct: 'contada' }
+  };
   var LANG = 'en';
-  function numWord(n) { return (LANG === 'de' ? WORDS_DE : (LANG === 'fr' ? WORDS_FR : WORDS))[n] || n; }
+  function numWord(n) { return (LANG === 'de' ? WORDS_DE : (LANG === 'fr' ? WORDS_FR : (LANG === 'es' ? WORDS_ES : WORDS)))[n] || n; }
 
   function speak(text) {
     try {
       if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'number', text: String(text), lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'de' ? 'de-DE' : (LANG === 'fr' ? 'fr-FR' : 'en-US')); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'de' ? 'de-DE' : (LANG === 'fr' ? 'fr-FR' : (LANG === 'es' ? 'es-MX' : 'en-US'))); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function rivetSVG(mood) {
@@ -74,33 +82,33 @@
 
     /* child-facing copy below — MORE/FEWER not relevant; numerals are produced, never selected */
     strings: {
-      title: { en: "Rivet's Number Forge", de: 'Rivets Zahlen-Schmiede', fr: 'La forge à nombres de Rivet' },
-      instruction: { en: 'Count the treasure and forge its number.', de: 'Zähle die Schätze und schmiede ihre Zahl.', fr: 'Compte les trésors et forge leur nombre.' },
-      prompt: { en: 'Count it, then forge!', de: 'Zähl sie, dann schmiede!', fr: 'Compte-les, puis forge !' },
-      promptZero: { en: 'Empty pack — what number is that?', de: 'Leeres Päckchen — welche Zahl ist das?', fr: 'Paquet vide — quel nombre est-ce ?' },
-      promptParade: { en: 'Count them as they march past!', de: 'Zähle sie, während sie vorbeiziehen!', fr: 'Compte-les pendant qu’ils défilent !' },
-      promptSubset: { en: 'Count only the {kind}s!', de: 'Zähle nur die {kind}!', fr: 'Compte seulement les {kind} !' },
-      promptVerify: { en: 'Rivet wrote {claim}. Count again — is it right?', de: 'Rivet hat {claim} geschrieben. Zähl noch einmal — stimmt das?', fr: 'Rivet a écrit {claim}. Recompte — est-ce juste ?' },
-      promptBuild: { en: 'Fill the pack to match the dots, then forge!', de: 'Fülle das Päckchen, bis es zu den Punkten passt, dann schmiede!', fr: 'Remplis le paquet pour qu’il corresponde aux points, puis forge !' },
-      promptReverse: { en: 'The ticket says {n} — pouch up that many!', de: 'Auf dem Zettel steht {n} — fülle so viele in den Beutel!', fr: 'Le ticket indique {n} — mets-en autant dans le sac !' },
-      hintIdle: { en: 'Tap each treasure to count it, then pull the lever.', de: 'Tippe jeden Schatz an, um ihn zu zählen, dann zieh am Hebel.', fr: 'Touche chaque trésor pour le compter, puis tire le levier.' },
-      hintParade: { en: 'Tap the one on the forge — here comes the next!', de: 'Tippe den auf dem Amboss an — der nächste kommt schon!', fr: 'Touche celui qui est sur l’enclume — voici le suivant !' },
-      hintBuild: { en: 'Tap +Add until the pack matches the dots.', de: 'Tippe auf ＋Hinzufügen, bis das Päckchen zu den Punkten passt.', fr: 'Touche ＋Ajouter jusqu’à ce que le paquet corresponde aux points.' },
-      hintReverse: { en: 'Tap +Add until the pouch holds that many.', de: 'Tippe auf ＋Hinzufügen, bis der Beutel so viele hält.', fr: 'Touche ＋Ajouter jusqu’à ce que le sac en contienne autant.' },
-      hintCheck: { en: 'Count every treasure, then pull the lever to forge!', de: 'Zähle jeden Schatz, dann zieh am Hebel zum Schmieden!', fr: 'Compte chaque trésor, puis tire le levier pour forger !' },
-      lever: { en: 'Forge it! 🔨', de: 'Schmiede sie! 🔨', fr: 'Forge ! 🔨' },
-      add: { en: '＋ Add', de: '＋ Hinzufügen', fr: '＋ Ajouter' },
-      undo: { en: '－ Take one', de: '－ Eins wegnehmen', fr: '－ En enlever un' },
-      forging: { en: 'Forging…', de: 'Wird geschmiedet …', fr: 'Forgeage…' },
-      made: { en: 'made of {n}', de: 'aus {n} gemacht', fr: 'fait de {n}' },
-      minted: { en: 'Forged a {numeral}! 🪙', de: 'Eine {numeral} geschmiedet! 🪙', fr: 'Un {numeral} forgé ! 🪙' },
-      mintedZero: { en: 'No treasure at all — that is ZERO! Zero is a number too. 🪙', de: 'Gar kein Schatz — das ist die NULL! Null ist auch eine Zahl. 🪙', fr: 'Aucun trésor — c’est le ZÉRO ! Zéro est aussi un nombre. 🪙' },
-      wheeze: { en: "Not hot enough — let's count them again!", de: 'Nicht heiß genug — zählen wir noch einmal!', fr: 'Pas assez chaud — recomptons !' },
-      pageDone: { en: 'Page complete — gilded! 📒✨', de: 'Seite geschafft — vergoldet! 📒✨', fr: 'Page terminée — dorée ! 📒✨' },
-      countOnly: { en: 'only count the {kind}s', de: 'zähle nur die {kind}', fr: 'compte seulement les {kind}' },
-      ticket: { en: 'Ticket', de: 'Zettel', fr: 'Ticket' },
-      rivetClaim: { en: 'Rivet says', de: 'Rivet sagt', fr: 'Rivet dit' },
-      nextNudge: { en: 'Tap Check! ✓', de: 'Tippe auf Prüfen! ✓', fr: 'Touche Vérifier ! ✓' }
+      title: { en: "Rivet's Number Forge", de: 'Rivets Zahlen-Schmiede', fr: 'La forge à nombres de Rivet', es: 'La forja de números de Rivet' },
+      instruction: { en: 'Count the treasure and forge its number.', de: 'Zähle die Schätze und schmiede ihre Zahl.', fr: 'Compte les trésors et forge leur nombre.', es: 'Cuenta los tesoros y forja su número.' },
+      prompt: { en: 'Count it, then forge!', de: 'Zähl sie, dann schmiede!', fr: 'Compte-les, puis forge !', es: '¡Cuéntalos y luego fórjalos!' },
+      promptZero: { en: 'Empty pack — what number is that?', de: 'Leeres Päckchen — welche Zahl ist das?', fr: 'Paquet vide — quel nombre est-ce ?', es: 'El paquete está vacío… ¿qué número es ese?' },
+      promptParade: { en: 'Count them as they march past!', de: 'Zähle sie, während sie vorbeiziehen!', fr: 'Compte-les pendant qu’ils défilent !', es: '¡Cuéntalos mientras van pasando!' },
+      promptSubset: { en: 'Count only the {kind}s!', de: 'Zähle nur die {kind}!', fr: 'Compte seulement les {kind} !', es: '¡Cuenta solo {kind}!' },
+      promptVerify: { en: 'Rivet wrote {claim}. Count again — is it right?', de: 'Rivet hat {claim} geschrieben. Zähl noch einmal — stimmt das?', fr: 'Rivet a écrit {claim}. Recompte — est-ce juste ?', es: 'Rivet escribió {claim}. Cuenta otra vez… ¿está bien?' },
+      promptBuild: { en: 'Fill the pack to match the dots, then forge!', de: 'Fülle das Päckchen, bis es zu den Punkten passt, dann schmiede!', fr: 'Remplis le paquet pour qu’il corresponde aux points, puis forge !', es: 'Llena el paquete hasta que tenga los mismos puntos y luego forja.' },
+      promptReverse: { en: 'The ticket says {n} — pouch up that many!', de: 'Auf dem Zettel steht {n} — fülle so viele in den Beutel!', fr: 'Le ticket indique {n} — mets-en autant dans le sac !', es: 'El boleto dice {n}… ¡pon esa cantidad en la bolsa!' },
+      hintIdle: { en: 'Tap each treasure to count it, then pull the lever.', de: 'Tippe jeden Schatz an, um ihn zu zählen, dann zieh am Hebel.', fr: 'Touche chaque trésor pour le compter, puis tire le levier.', es: 'Toca cada tesoro para contarlo y luego jala la palanca.' },
+      hintParade: { en: 'Tap the one on the forge — here comes the next!', de: 'Tippe den auf dem Amboss an — der nächste kommt schon!', fr: 'Touche celui qui est sur l’enclume — voici le suivant !', es: 'Toca el que está en el yunque… ¡ya viene el siguiente!' },
+      hintBuild: { en: 'Tap +Add until the pack matches the dots.', de: 'Tippe auf ＋Hinzufügen, bis das Päckchen zu den Punkten passt.', fr: 'Touche ＋Ajouter jusqu’à ce que le paquet corresponde aux points.', es: 'Toca ＋Agregar hasta que el paquete tenga los mismos puntos.' },
+      hintReverse: { en: 'Tap +Add until the pouch holds that many.', de: 'Tippe auf ＋Hinzufügen, bis der Beutel so viele hält.', fr: 'Touche ＋Ajouter jusqu’à ce que le sac en contienne autant.', es: 'Toca ＋Agregar hasta que la bolsa tenga esa cantidad.' },
+      hintCheck: { en: 'Count every treasure, then pull the lever to forge!', de: 'Zähle jeden Schatz, dann zieh am Hebel zum Schmieden!', fr: 'Compte chaque trésor, puis tire le levier pour forger !', es: 'Cuenta cada tesoro y luego jala la palanca para forjar.' },
+      lever: { en: 'Forge it! 🔨', de: 'Schmiede sie! 🔨', fr: 'Forge ! 🔨', es: '¡Fórjalo! 🔨' },
+      add: { en: '＋ Add', de: '＋ Hinzufügen', fr: '＋ Ajouter', es: '＋ Agregar' },
+      undo: { en: '－ Take one', de: '－ Eins wegnehmen', fr: '－ En enlever un', es: '－ Quitar uno' },
+      forging: { en: 'Forging…', de: 'Wird geschmiedet …', fr: 'Forgeage…', es: 'Forjando…' },
+      made: { en: 'made of {n}', de: 'aus {n} gemacht', fr: 'fait de {n}', es: 'hecho con {n}' },
+      minted: { en: 'Forged a {numeral}! 🪙', de: 'Eine {numeral} geschmiedet! 🪙', fr: 'Un {numeral} forgé ! 🪙', es: '¡Forjaste un {numeral}! 🪙' },
+      mintedZero: { en: 'No treasure at all — that is ZERO! Zero is a number too. 🪙', de: 'Gar kein Schatz — das ist die NULL! Null ist auch eine Zahl. 🪙', fr: 'Aucun trésor — c’est le ZÉRO ! Zéro est aussi un nombre. 🪙', es: 'No hay ningún tesoro… ¡eso es CERO! El cero también es un número. 🪙' },
+      wheeze: { en: "Not hot enough — let's count them again!", de: 'Nicht heiß genug — zählen wir noch einmal!', fr: 'Pas assez chaud — recomptons !', es: 'No está bastante caliente… ¡vamos a contar otra vez!' },
+      pageDone: { en: 'Page complete — gilded! 📒✨', de: 'Seite geschafft — vergoldet! 📒✨', fr: 'Page terminée — dorée ! 📒✨', es: '¡Página lista y bien dorada! 📒✨' },
+      countOnly: { en: 'only count the {kind}s', de: 'zähle nur die {kind}', fr: 'compte seulement les {kind}', es: 'cuenta solo {kind}' },
+      ticket: { en: 'Ticket', de: 'Zettel', fr: 'Ticket', es: 'Boleto' },
+      rivetClaim: { en: 'Rivet says', de: 'Rivet sagt', fr: 'Rivet dit', es: 'Rivet dice' },
+      nextNudge: { en: 'Tap Check! ✓', de: 'Tippe auf Prüfen! ✓', fr: 'Touche Vérifier ! ✓', es: '¡Toca Comprobar! ✓' }
     },
     defaults: {},
 
@@ -143,7 +151,7 @@
       var api = this.api, f = this._frame();
       if (this.act === 'zero' && (f.count | 0) === 0) return api.t('promptZero');
       if (this.act === 'parade') return api.t('promptParade');
-      if (this.act === 'subset') return api.t('promptSubset').replace('{kind}', LANG === 'de' ? (KIND_DE[f.kind] && KIND_DE[f.kind].pl) || f.kind : (LANG === 'fr' ? (KIND_FR[f.kind] && KIND_FR[f.kind].pl) || f.kind : f.kind));
+      if (this.act === 'subset') return api.t('promptSubset').replace('{kind}', LANG === 'de' ? (KIND_DE[f.kind] && KIND_DE[f.kind].pl) || f.kind : (LANG === 'fr' ? (KIND_FR[f.kind] && KIND_FR[f.kind].pl) || f.kind : (LANG === 'es' ? (KIND_ES[f.kind] && KIND_ES[f.kind].pl) || f.kind : f.kind)));
       if (this.act === 'verify') return api.t('promptVerify').replace('{claim}', f.claimNumeral);
       if (this.act === 'build-mint') return api.t('promptBuild');
       if (this.act === 'reverse') return api.t('promptReverse').replace('{n}', f.numeral);
@@ -191,7 +199,7 @@
         (function (base) {
           var on = true; for (var k = 0; k < 10; k++) if (!s.counted['t' + (base + k)]) on = false;
           var blk = api.el('button', 'nf-tenblock' + (on ? ' nf-tenblock-on' : '')); blk.type = 'button';
-          blk.setAttribute('aria-label', LANG === 'de' ? 'ein voller Zehner — tippe, um alle zehn zu zählen' : (LANG === 'fr' ? 'une dizaine complète — touche pour compter les dix' : 'a full ten — tap to count all ten'));
+          blk.setAttribute('aria-label', LANG === 'de' ? 'ein voller Zehner — tippe, um alle zehn zu zählen' : (LANG === 'fr' ? 'une dizaine complète — touche pour compter les dix' : (LANG === 'es' ? 'una decena completa — toca para contar las diez' : 'a full ten — tap to count all ten')));
           for (var d = 0; d < 10; d++) { var dot = api.el('span', 'nf-tendot' + (s.counted['t' + (base + d)] ? ' nf-tendot-on' : '')); dot.innerHTML = treasureSVG(f.kind); blk.appendChild(dot); }
           if (on) { var ck = api.el('span', 'nf-check'); ck.textContent = '✓'; blk.appendChild(ck); }
           blk.addEventListener('click', function () { self._tapBlock(base); });
@@ -202,7 +210,7 @@
         (function (id) {
           var counted = !!s.counted[id];
           var ob = api.el('button', 'nf-obj' + (counted ? ' nf-counted' : '')); ob.type = 'button'; ob.innerHTML = treasureSVG(f.kind);
-          ob.setAttribute('aria-label', (LANG === 'de' ? ((KIND_DE[f.kind] && KIND_DE[f.kind].art) || f.kind) + (counted ? ', gezählt' : '') : (LANG === 'fr' ? ((KIND_FR[f.kind] && KIND_FR[f.kind].art) || f.kind) + (counted ? ', compté' : '') : f.kind + (counted ? ', counted' : ''))));
+          ob.setAttribute('aria-label', (LANG === 'de' ? ((KIND_DE[f.kind] && KIND_DE[f.kind].art) || f.kind) + (counted ? ', gezählt' : '') : (LANG === 'fr' ? ((KIND_FR[f.kind] && KIND_FR[f.kind].art) || f.kind) + (counted ? ', compté' : '') : (LANG === 'es' ? ((KIND_ES[f.kind] && KIND_ES[f.kind].art) || f.kind) + (counted ? ', ' + ((KIND_ES[f.kind] && KIND_ES[f.kind].ct) || 'contado') : '') : f.kind + (counted ? ', counted' : '')))));
           ob.addEventListener('click', function () { self._tap(id, true); });
           if (counted) { var c2 = api.el('span', 'nf-check'); c2.textContent = '✓'; ob.appendChild(c2); }
           box.appendChild(ob);
@@ -225,7 +233,7 @@
         var counted = !!s.counted[o.id];
         var b = api.el('button', 'nf-obj' + (counted ? ' nf-counted' : '') + (o.target ? '' : ' nf-decoy'));
         b.type = 'button'; b.innerHTML = treasureSVG(o.kind);
-        b.setAttribute('aria-label', (LANG === 'de' ? ((KIND_DE[o.kind] && KIND_DE[o.kind].art) || o.kind) + (counted ? ', gezählt' : '') : (LANG === 'fr' ? ((KIND_FR[o.kind] && KIND_FR[o.kind].art) || o.kind) + (counted ? ', compté' : '') : o.kind + (counted ? ', counted' : ''))));
+        b.setAttribute('aria-label', (LANG === 'de' ? ((KIND_DE[o.kind] && KIND_DE[o.kind].art) || o.kind) + (counted ? ', gezählt' : '') : (LANG === 'fr' ? ((KIND_FR[o.kind] && KIND_FR[o.kind].art) || o.kind) + (counted ? ', compté' : '') : (LANG === 'es' ? ((KIND_ES[o.kind] && KIND_ES[o.kind].art) || o.kind) + (counted ? ', ' + ((KIND_ES[o.kind] && KIND_ES[o.kind].ct) || 'contado') : '') : o.kind + (counted ? ', counted' : '')))));
         b.addEventListener('click', function () { self._tap(o.id, o.target); });
         if (counted) { var ck = api.el('span', 'nf-check'); ck.textContent = '✓'; b.appendChild(ck); }
         box.appendChild(b);
@@ -237,7 +245,7 @@
       if (this.paradeIdx < n) {
         var lab = api.el('div', 'nf-paradelab'); lab.textContent = (this.paradeIdx + 1) + ''; lab.setAttribute('aria-hidden', 'true'); // running position
         var b = api.el('button', 'nf-obj nf-obj-big'); b.type = 'button'; b.innerHTML = treasureSVG(f.kind);
-        b.setAttribute('aria-label', LANG === 'de' ? ((KIND_DE[f.kind] && KIND_DE[f.kind].bare) || f.kind) + ' zieht vorbei — tippe zum Zählen' : (LANG === 'fr' ? ((KIND_FR[f.kind] && KIND_FR[f.kind].bare) || f.kind) + ' défile — touche pour compter' : f.kind + ' marching past — tap to count'));
+        b.setAttribute('aria-label', LANG === 'de' ? ((KIND_DE[f.kind] && KIND_DE[f.kind].bare) || f.kind) + ' zieht vorbei — tippe zum Zählen' : (LANG === 'fr' ? ((KIND_FR[f.kind] && KIND_FR[f.kind].bare) || f.kind) + ' défile — touche pour compter' : (LANG === 'es' ? ((KIND_ES[f.kind] && KIND_ES[f.kind].bare) || f.kind) + ' pasa — toca para contar' : f.kind + ' marching past — tap to count')));
         b.addEventListener('click', function () { self._tapParade(); });
         box.appendChild(b);
         var hint = api.el('div', 'nf-paradehint'); hint.textContent = '➡'; box.appendChild(hint);
@@ -286,7 +294,7 @@
       var s = this.cstate;
       if (s.counted[id]) return;                                  // re-tap inert
       if (Core.tapObject(s, id)) { this.api.sound && this.api.sound(540 + Core.countedSize(s) * 22); speak(Core.countedSize(s)); this.msg = null; this.render(); }
-      else { this.api.sound && this.api.sound(300); var dk = this._frame().kind; this.msg = this.api.t('promptSubset').replace('{kind}', LANG === 'de' ? ((KIND_DE[dk] && KIND_DE[dk].pl) || dk) : (LANG === 'fr' ? ((KIND_FR[dk] && KIND_FR[dk].pl) || dk) : dk)); this.render(); } // a decoy tap
+      else { this.api.sound && this.api.sound(300); var dk = this._frame().kind; this.msg = this.api.t('promptSubset').replace('{kind}', LANG === 'de' ? ((KIND_DE[dk] && KIND_DE[dk].pl) || dk) : (LANG === 'fr' ? ((KIND_FR[dk] && KIND_FR[dk].pl) || dk) : (LANG === 'es' ? ((KIND_ES[dk] && KIND_ES[dk].pl) || dk) : dk))); this.render(); } // a decoy tap
     },
     _tapParade: function () {
       var s = this.cstate, id = 't' + this.paradeIdx;
@@ -300,7 +308,7 @@
       if (r === 'minted') {
         var m = this.cstate.minted[this.cstate.minted.length - 1];
         this.api.sound && this.api.sound(900);
-        if (m.numeral === '0') { this.msg = api.t('mintedZero'); speak(LANG === 'de' ? 'null' : (LANG === 'fr' ? 'zéro' : 'zero')); }
+        if (m.numeral === '0') { this.msg = api.t('mintedZero'); speak(LANG === 'de' ? 'null' : (LANG === 'fr' ? 'zéro' : (LANG === 'es' ? 'cero' : 'zero'))); }
         else if (m.numeral != null) { this.msg = api.t('minted').replace('{numeral}', m.numeral); speak(numWord(m.count)); }
         else { this.msg = api.t('pageDone'); speak(numWord(m.count)); }
         this.paradeIdx = 0;
@@ -311,7 +319,7 @@
         this.render();
       }
     },
-    _win: function () { this.solved = true; this.solvedCount = Math.min(this.solvedCount + 1, (this._pool && this._pool.length) || 9); this.api.sound && this.api.sound(960); this.msg = api_t(this, 'pageDone'); this.render(); this.announce(this.msg); speak(LANG === 'de' ? 'Seite geschafft' : (LANG === 'fr' ? 'Page terminée' : 'page complete')); },
+    _win: function () { this.solved = true; this.solvedCount = Math.min(this.solvedCount + 1, (this._pool && this._pool.length) || 9); this.api.sound && this.api.sound(960); this.msg = api_t(this, 'pageDone'); this.render(); this.announce(this.msg); speak(LANG === 'de' ? 'Seite geschafft' : (LANG === 'fr' ? 'Page terminée' : (LANG === 'es' ? 'página lista' : 'page complete'))); },
 
     _renderDone: function (root) {
       var api = this.api, n = (this._pool && this._pool.length) || 9, album = api.el('div', 'nf-album');

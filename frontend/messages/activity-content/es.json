@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "rivets-number-forge.numeral-album.k-cc-a-3": {
+      "about": [
+        "Rivet, el mapache, construyó en su taller una forja que brilla. Aquí no se escoge un número: ¡aquí se forja! Abres un paquete y salen tesoros: bellotas, botones, luciérnagas o canicas. Tocas cada tesoro una sola vez y lo cuentas, uno tras otro. Luego jalas la palanca, y la forja hace, a partir de tu cantidad, el número que le corresponde. El «3» aparece porque contaste tres cosas: el número lo hace tu conteo.",
+        "A veces el paquete está vacío: entonces la forja hace el cero, porque el cero también es un número y dice «aquí no hay nada». A veces los tesoros pasan en desfile y los cuentas al pasar. A veces hay cosas revueltas y cuentas solo una clase. Y a veces Rivet ya hizo un número: entonces cuentas otra vez y dices si está bien o no. Así aprendes a confiar en tu propio conteo y a comprobarlo.",
+        "También hay rondas al revés: un boleto muestra un número y tú pones esa cantidad de tesoros en la bolsa. En esta forja no hay reloj, ni puntos, ni competencia: puedes contar, forjar y probar a tu propio ritmo, las veces que quieras, sin ninguna prisa. La actividad está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para el preescolar, dentro del eje de Sentido numérico."
+      ],
+      "practices": [
+        "Contar uno por uno los tesoros de un paquete, tocando cada uno, y decir cuántos hay.",
+        "Ver cómo la forja de Rivet hace la cifra que le corresponde a esa cantidad, incluido el cero cuando el paquete está vacío.",
+        "Contar solo una clase de tesoro entre varios revueltos, y contar tesoros que pasan en desfile.",
+        "Comprobar un conteo que ya hizo Rivet y, al revés, formar la colección que pide un boleto con un número."
+      ],
+      "howToPlay": [
+        "Abre el paquete y toca cada tesoro mientras cuentas en voz alta: uno, dos, tres…",
+        "Jala la palanca: la forja hace el número que corresponde a la cantidad que contaste.",
+        "Sigue con paquetes nuevos —a veces vacíos, a veces revueltos, a veces con un boleto— y cuenta cada vez con calma."
+      ],
+      "learningGoals": [
+        "Cuento colecciones uno por uno sin saltarme ni repetir, y sé que el último número que digo es cuántos hay (cardinalidad).",
+        "Asocio cada cantidad con el número que le corresponde, desde el 0 hasta el 14, y reconozco que el cero también es un número.",
+        "Uso el conteo en los dos sentidos: de los tesoros al número, y de un número a la cantidad de tesoros."
+      ]
+    },
     "twinsies.count-twin.k-cc-b-5": {
       "about": [
         "Zwicke, el duende gemelo, junta en el bosque las bellotas más bonitas y las amontona en una pilita. Pero Zwicke quiere algo especial: un gemelo para su montón. «Gemelo» no significa la misma foto —significa la misma cantidad. Igual que dos niños gemelos son niños distintos y aun así tienen los mismos años.",

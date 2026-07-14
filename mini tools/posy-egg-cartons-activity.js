@@ -19,7 +19,7 @@
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function henSVG() {
-    return '<svg class="pec-hen-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Posy die Henne' : LANG === 'fr' ? 'Posy la poule' : 'Posy the hen') + '">' +
+    return '<svg class="pec-hen-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'es' ? 'Posy la gallina' : LANG === 'de' ? 'Posy die Henne' : LANG === 'fr' ? 'Posy la poule' : 'Posy the hen') + '">' +
       '<ellipse cx="50" cy="62" rx="26" ry="24" fill="#F6E7C8"/>' +                /* body */
       '<circle cx="50" cy="34" r="15" fill="#FBF1DA"/>' +                          /* head */
       '<path d="M50 19 q4 -8 8 -2 q6 -1 2 6" fill="#E5453B"/>' +                   /* comb */
@@ -34,21 +34,21 @@
   function cartonHTML(n) {
     var eggs = '';
     for (var i = 0; i < 10; i++) eggs += '<span class="pec-egg"></span>';
-    return '<div class="pec-carton" aria-label="' + (LANG === 'de' ? 'eine Schachtel mit zehn Eiern' : LANG === 'fr' ? 'une boîte de dix œufs' : 'a carton of ten eggs') + '"><div class="pec-eggs">' + eggs + '</div><span class="pec-ten">10</span></div>';
+    return '<div class="pec-carton" aria-label="' + (LANG === 'es' ? 'una caja con diez huevos' : LANG === 'de' ? 'eine Schachtel mit zehn Eiern' : LANG === 'fr' ? 'une boîte de dix œufs' : 'a carton of ten eggs') + '"><div class="pec-eggs">' + eggs + '</div><span class="pec-ten">10</span></div>';
   }
 
   global.PosyEggCartonsActivity = {
     id: 'posy-egg-cartons-activity',
 
     strings: {
-      title: { en: "Posy's Egg Cartons", de: 'Posys Eierschachteln', fr: 'Les boîtes d’œufs de Posy' },
-      instruction: { en: 'Count the full cartons by tens and tap the total.', de: 'Zähle die vollen Schachteln in Zehnerschritten und tippe auf die Gesamtzahl.', fr: 'Compte les boîtes pleines de dix en dix, puis touche le total.' },
-      prompt: { en: 'Count by tens. How many eggs?', de: 'Zähle in Zehnerschritten. Wie viele Eier?', fr: 'Compte de dix en dix. Combien d’œufs ?' },
-      posyIntro: { en: 'Each carton holds ten eggs — count them by tens!', de: 'In jede Schachtel passen zehn Eier!', fr: 'Chaque boîte contient dix œufs !' },
-      ask: { en: 'Tap the total number of eggs.', de: 'Tippe auf die Gesamtzahl.', fr: 'Touche le nombre total d’œufs.' },
-      hintPick: { en: 'Count by tens: 10, 20, 30… one carton at a time.', de: 'Zähle in Zehnerschritten: 10, 20, 30 … immer eine Schachtel nach der anderen.', fr: 'Compte de dix en dix : 10, 20, 30… une boîte à la fois.' },
-      hintWrong: { en: "Each carton is TEN, not one — count 10, 20, 30…", de: 'Jede Schachtel sind ZEHN Eier, nicht eins — zähle 10, 20, 30 …', fr: 'Chaque boîte, c’est DIX œufs, pas un — compte 10, 20, 30…' },
-      win: { en: 'Yes! You counted by tens. 🥚', de: 'Ja! Du hast in Zehnerschritten gezählt. 🥚', fr: 'Bravo ! Tu as compté de dix en dix. 🥚' }
+      title: { en: "Posy's Egg Cartons", de: 'Posys Eierschachteln', fr: 'Les boîtes d’œufs de Posy', es: 'Las cajas de huevos de Posy' },
+      instruction: { en: 'Count the full cartons by tens and tap the total.', de: 'Zähle die vollen Schachteln in Zehnerschritten und tippe auf die Gesamtzahl.', fr: 'Compte les boîtes pleines de dix en dix, puis touche le total.', es: 'Cuenta las cajas llenas de diez en diez y toca el total.' },
+      prompt: { en: 'Count by tens. How many eggs?', de: 'Zähle in Zehnerschritten. Wie viele Eier?', fr: 'Compte de dix en dix. Combien d’œufs ?', es: 'Cuenta de diez en diez. ¿Cuántos huevos hay?' },
+      posyIntro: { en: 'Each carton holds ten eggs — count them by tens!', de: 'In jede Schachtel passen zehn Eier!', fr: 'Chaque boîte contient dix œufs !', es: 'Cada caja tiene diez huevos: ¡cuéntalos de diez en diez!' },
+      ask: { en: 'Tap the total number of eggs.', de: 'Tippe auf die Gesamtzahl.', fr: 'Touche le nombre total d’œufs.', es: 'Toca el número total de huevos.' },
+      hintPick: { en: 'Count by tens: 10, 20, 30… one carton at a time.', de: 'Zähle in Zehnerschritten: 10, 20, 30 … immer eine Schachtel nach der anderen.', fr: 'Compte de dix en dix : 10, 20, 30… une boîte à la fois.', es: 'Cuenta de diez en diez: 10, 20, 30… una caja a la vez.' },
+      hintWrong: { en: "Each carton is TEN, not one — count 10, 20, 30…", de: 'Jede Schachtel sind ZEHN Eier, nicht eins — zähle 10, 20, 30 …', fr: 'Chaque boîte, c’est DIX œufs, pas un — compte 10, 20, 30…', es: 'Cada caja son DIEZ huevos, no uno: cuenta 10, 20, 30…' },
+      win: { en: 'Yes! You counted by tens. 🥚', de: 'Ja! Du hast in Zehnerschritten gezählt. 🥚', fr: 'Bravo ! Tu as compté de dix en dix. 🥚', es: '¡Sí! Contaste de diez en diez. 🥚' }
     },
     defaults: {},
 

@@ -58,7 +58,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
   'Geometry': {
     en: 'Geometry',
     de: 'Geometrie',
-    es: 'Sentido espacial',
+    es: 'Forma, espacio y medida', // SEP/NEM: figuras/geometría viven en el eje "Forma, espacio y medida" (la doctrina es: figuras→FEM; "Sentido espacial" no es eje SEP). Operator "FEM global" #52
     fr: 'Espace et géométrie',
     it: 'Spazio e figure',
     pt: 'Geometria',

@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "friendship-bridge.compare-balance.k-cc-c-6": {
+      "about": [
+        "Big y Bit se encuentran en el puente de la amistad, y cada uno trae un puñado de amiguitos redondos. ¿Quién trajo más? En lugar de adivinar, tu pequeño le da a cada amigo de Big una pareja del lado de Bit: uno con uno, cruzando el puente. Quien se queda con un amigo sin pareja, tiene más.",
+        "Aquí vive una de las ideas más importantes del inicio de las matemáticas: comparar dos colecciones por correspondencia uno a uno, y descubrir que los ojos a veces engañan. Una fila larga y esparcida parece tener más, aunque un montoncito juntito tenga en realidad la misma cantidad o incluso más. Solo al emparejar, pareja por pareja, sabemos con seguridad si hay más, menos o la misma cantidad.",
+        "«El puente de la amistad» es una actividad gratuita e interactiva para preescolar (Kínder), alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP), dentro del eje de Sentido numérico. No hay cronómetro ni puntaje: los niños emparejan, cuentan y descubren con calma, a su propio ritmo, con números hasta el 10."
+      ],
+      "practices": [
+        "Emparejar uno a uno los amigos de dos grupos para descubrir dónde hay más, dónde hay menos y dónde hay la misma cantidad, sin usar todavía números escritos.",
+        "Descubrir que la cantidad no cambia aunque cambie el acomodo: una fila larga y esparcida puede tener la misma cantidad que un montoncito juntito.",
+        "Igualar dos grupos agregando amigos al que tiene menos, hasta que todos tengan pareja.",
+        "Nombrar cada comparación en voz alta: más, menos o la misma cantidad."
+      ],
+      "howToPlay": [
+        "Dale a cada amigo una pareja del otro lado del puente: uno con uno.",
+        "Fíjate si queda un amigo sin pareja: ese lado tiene más.",
+        "Di cómo están los grupos: más, menos o la misma cantidad."
+      ],
+      "learningGoals": [
+        "Comparar colecciones por correspondencia uno a uno y nombrar la relación con las palabras más, menos y la misma cantidad.",
+        "Comprender la invariancia de la cantidad: reconocer que el número de amigos no depende de cómo se vean acomodados.",
+        "Iniciar la idea de diferencia e igualación —cuántos más hay en un grupo y cuántos faltan para igualar— como puente hacia la suma."
+      ]
+    },
     "chuffer.rail-decompose.k-oa-a-3": {
       "about": [
         "En el patio de maniobras de Chuffer el tren, las vías se cruzan y suena el silbato: acaba de llegar una carga de cajas que hay que repartir entre dos vagones, uno azul y uno rojo. El niño desliza las cajas de un vagón al otro, dice en voz alta cuántas quedan en cada uno —«5 es 2 y 3»— y engancha para registrar cada reparto en la bitácora del tren. Cada vez que mueve una caja, aparece una manera nueva de repartir la misma carga.",

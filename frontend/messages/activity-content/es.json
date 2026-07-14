@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "wondering-jar.estimate-jar.k-cc-b-5": {
+      "about": [
+        "Una lechuza curiosa mira un frasco lleno de dulces y le pregunta a tu pequeño: «¿cuántos crees que hay?». El niño hace su estimación —desliza una estrella en la recta numérica, o elige más o menos— y esa estimación siempre se respeta: nunca puede estar mal.",
+        "Después el frasco se abre y los dulces se esparcen: a veces en fila, a veces en círculo, a veces regados. Ahora el niño cuenta cada dulce, uno por uno, para descubrir cuántos hay de verdad, y ve si su estimación fue igual, mayor o menor —solo la dirección, nunca un puntaje. Lo importante no es «adivinar bien», sino volverse seguro contando.",
+        "Como el acomodo cambia en cada ronda, el niño descubre además una idea clave del inicio de las matemáticas: la cantidad no cambia aunque las cosas estén acomodadas de otra forma. Es una actividad gratuita, sin cronómetro, sin puntaje y sin competencia. Está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para educación preescolar, dentro del eje de Sentido numérico, con números hasta el 20."
+      ],
+      "practices": [
+        "Estimar cuántos dulces hay en el frasco antes de contar —anticipar una cantidad a ojo, sin miedo a equivocarse.",
+        "Cuando el frasco se abre, contar los dulces uno por uno, tocando cada uno (correspondencia uno a uno).",
+        "Decir cuántos hay en total: el último número contado es la cantidad de la colección (principio de cardinalidad).",
+        "Ver los dulces acomodados de distintas maneras y descubrir que la cantidad no cambia aunque cambie el acomodo (invariancia de la cantidad)."
+      ],
+      "howToPlay": [
+        "Haz tu estimación: desliza la estrella en la recta numérica o elige «más» o «menos».",
+        "El frasco se abre y los dulces se esparcen.",
+        "Cuenta cada dulce, uno por uno, y descubre cuántos hay de verdad."
+      ],
+      "learningGoals": [
+        "Estimar cantidades y luego comprobar contando, comparando lo que creía con lo que contó (igual, más o menos).",
+        "Contar con correspondencia uno a uno y comprender la cardinalidad de una colección de hasta 20 elementos.",
+        "Reconocer que la cantidad de una colección se mantiene aunque los objetos se acomoden de forma diferente, y comparar colecciones para saber cuál tiene más."
+      ]
+    },
     "ten-tank.ten-frame-tank.k-nbt-a-1": {
       "about": [
         "Ayuda a Dewey el patito a llenar su tanque de burbujas: cada vez que tocas, cae una burbuja en el marco de diez. Cuando se juntan diez, ¡se sellan y forman una sola decena!, y las que sobran quedan como unidades. Así tu pequeño descubre que los números del 11 al 19 son una decena y unas cuantas unidades.",

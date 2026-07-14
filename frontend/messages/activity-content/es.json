@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "chuffer.rail-decompose.k-oa-a-3": {
+      "about": [
+        "En el patio de maniobras de Chuffer el tren, las vías se cruzan y suena el silbato: acaba de llegar una carga de cajas que hay que repartir entre dos vagones, uno azul y uno rojo. El niño desliza las cajas de un vagón al otro, dice en voz alta cuántas quedan en cada uno —«5 es 2 y 3»— y engancha para registrar cada reparto en la bitácora del tren. Cada vez que mueve una caja, aparece una manera nueva de repartir la misma carga.",
+        "Aquí vive una de las ideas más importantes al inicio de las matemáticas: un mismo número se puede descomponer en dos partes de muchas maneras. El 5 es 1 y 4, es 2 y 3, es 0 y 5 —y sigue siendo el mismo 5. Así el niño descubre el todo y sus partes, y arma poco a poco su «casa de números», donde caben todos los repartos posibles. Quien encuentra todos los caminos empieza a entender cómo se forman los números, que es la base para sumar y restar más adelante.",
+        "Es una actividad gratuita, sin cronómetro, sin puntaje y sin competencia: solo deslizar, decir y descubrir. Si el niño se equivoca, no pasa nada: el tren vuelve a pasar y puede intentar otro reparto con calma. Está alineada al programa mexicano (Planes y programas de estudio de la Nueva Escuela Mexicana, SEP) para educación preescolar, dentro del eje de Sentido numérico."
+      ],
+      "practices": [
+        "Descompone un número en dos partes, repartiendo las cajas entre el vagón azul y el rojo.",
+        "Encuentra todas las maneras posibles de repartir un mismo número.",
+        "Nombra cada reparto en voz alta: «5 es 2 y 3».",
+        "Reconoce que 2 y 3 son las mismas partes que 3 y 2, solo cambiadas de vagón."
+      ],
+      "howToPlay": [
+        "Desliza las cajas entre los dos vagones, el azul y el rojo.",
+        "Di cuántas cajas quedan en cada vagón.",
+        "Busca todas las demás maneras de repartir la carga."
+      ],
+      "learningGoals": [
+        "Descomponer números hasta el 10 en dos partes y comprender el todo y sus partes.",
+        "Encontrar y nombrar poco a poco todos los repartos de un número.",
+        "Descubrir las parejas del diez y los primeros pares cambiados (2 y 3 / 3 y 2)."
+      ]
+    },
     "pip-museum.curate-wing.k-g-a-2": {
       "about": [
         "En el museo del Profesor Pip, el pingüino de moño rojo, hoy llega un cargamento muy travieso: las figuras aparecen giradas, otras chiquititas, algunas estiradas y varias hasta de cabeza. Pip las mira desde su escalerita y sonríe, porque él sabe un secreto: cada figura tiene su nombre y su pedestal. El niño se vuelve su ayudante y observa con calma cada figura que llega, la reconoce y la lleva al pedestal correcto —círculo, triángulo, cuadrado, rectángulo o hexágono— hasta que todo el museo queda en orden.",

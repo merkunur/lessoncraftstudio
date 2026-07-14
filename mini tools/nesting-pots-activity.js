@@ -82,7 +82,7 @@
 
   /* ---- characters — SVG PLACEHOLDERS via [data-pose] (CA5 swaps in later) ---- */
   function grandpaSVG() {
-    return '<svg class="np-grandpa-svg" viewBox="0 0 120 120" role="img" aria-label="' + (LANG === 'de' ? 'Opa Pip' : LANG === 'fr' ? 'Papi Pip' : 'Grandpa Pip') + '">' +
+    return '<svg class="np-grandpa-svg" viewBox="0 0 120 120" role="img" aria-label="' + (LANG === 'de' ? 'Opa Pip' : LANG === 'fr' ? 'Papi Pip' : LANG === 'es' ? 'Abuelo Pip' : 'Grandpa Pip') + '">' +
       '<ellipse cx="60" cy="108" rx="34" ry="8" fill="rgba(0,0,0,.08)"/>' +
       '<path d="M34 70 Q34 44 60 44 Q86 44 86 70 L84 96 Q82 104 60 104 Q38 104 36 96 Z" fill="' + C.T + '"/>' +
       '<circle cx="60" cy="40" r="22" fill="#F3D8B8"/>' +
@@ -96,7 +96,7 @@
       '</svg>';
   }
   function weeOlenSVG() {
-    return '<svg class="np-olen-svg" viewBox="0 0 60 60" role="img" aria-label="' + (LANG === 'de' ? 'Baby Wee Olen' : LANG === 'fr' ? 'Bébé Wee Olen' : 'Wee Olen the baby') + '">' +
+    return '<svg class="np-olen-svg" viewBox="0 0 60 60" role="img" aria-label="' + (LANG === 'de' ? 'Baby Wee Olen' : LANG === 'fr' ? 'Bébé Wee Olen' : LANG === 'es' ? 'Bebé Wee Olen' : 'Wee Olen the baby') + '">' +
       /* two little hands gripping the pot rim (reads as a baby peeking OUT) */
       '<ellipse cx="17" cy="49" rx="5" ry="4" fill="#F3D8B8" stroke="' + C.CORAL2 + '" stroke-width="1"/>' +
       '<ellipse cx="43" cy="49" rx="5" ry="4" fill="#F3D8B8" stroke="' + C.CORAL2 + '" stroke-width="1"/>' +
@@ -111,7 +111,7 @@
       '</svg>';
   }
   function dootSVG() {
-    return '<svg class="np-doot-svg" viewBox="0 0 70 70" role="img" aria-label="' + (LANG === 'de' ? 'Doot die Ente' : LANG === 'fr' ? 'Doot le canard' : 'Doot the Duck') + '">' +
+    return '<svg class="np-doot-svg" viewBox="0 0 70 70" role="img" aria-label="' + (LANG === 'de' ? 'Doot die Ente' : LANG === 'fr' ? 'Doot le canard' : LANG === 'es' ? 'Doot el pato' : 'Doot the Duck') + '">' +
       '<ellipse cx="35" cy="46" rx="20" ry="16" fill="#F4E04D"/>' +
       '<circle cx="35" cy="26" r="13" fill="#F4E04D"/>' +
       '<path d="M22 26 Q12 28 16 33 Q22 33 24 30 Z" fill="' + C.CORAL + '"/>' +
@@ -125,19 +125,19 @@
     id: 'nesting-pots-activity',
 
     strings: {
-      title:        { en: "Grandpa Pip's Nesting Pots", de: 'Opa Pips Stapeltöpfe', fr: 'Les pots gigognes de Papi Pip' },
-      instruction:  { en: 'Tuck the pots away biggest number first, so little Wee Olen is safe in the middle. Tap Check when the family is all tucked in.', de: 'Räum die Töpfe weg – die größte Zahl zuerst, damit das kleine Wee Olen sicher in der Mitte sitzt. Tipp auf Prüfen, wenn die ganze Familie eingeräumt ist.', fr: 'Range les pots en commençant par le plus grand nombre, pour que le petit Wee Olen soit bien au milieu. Touche Vérifier quand toute la famille est rangée.' },
-      prompt:       { en: 'Pack the pots — biggest number first.', de: 'Räum die Töpfe ein – die größte Zahl zuerst.', fr: 'Range les pots — le plus grand nombre en premier.' },
-      promptGap:    { en: 'Which pot fills the gap?', de: 'Welcher Topf passt in die Lücke?', fr: 'Quel pot remplit le trou ?' },
-      hintPick:     { en: 'Tap a pot first, then tap the glowing pot.', de: 'Tipp zuerst auf einen Topf, dann auf den leuchtenden Topf.', fr: 'Touche d’abord un pot, puis touche le pot qui brille.' },
-      hintBigger:   { en: 'Start with the BIGGEST number — read the numbers, not the pot size.', de: 'Fang mit der GRÖSSTEN Zahl an – lies die Zahlen, nicht die Topfgröße.', fr: 'Commence par le plus GRAND nombre — lis les nombres, pas la taille du pot.' },
-      hintRelation: { en: '{a} is more than {b}, so {b} tucks inside {a}.', de: '{a} ist größer als {b}, also passt {b} in {a}.', fr: '{a} est plus grand que {b}, donc {b} se range dans {a}.' },
-      hintGap:      { en: 'The missing pot is more than {b} and less than {a}.', de: 'Der fehlende Topf ist größer als {b} und kleiner als {a}.', fr: 'Le pot qui manque est plus grand que {b} et plus petit que {a}.' },
-      twin:         { en: '{a} and {a} are the same — neither fits inside, so they rest side by side.', de: '{a} und {a} sind gleich – keiner passt in den anderen, also stehen sie nebeneinander.', fr: '{a} et {a}, c’est pareil — aucun ne rentre dans l’autre, ils se posent côte à côte.' },
-      relateOk:     { en: '{b} tucks inside {a} — {b} is less than {a}.', de: '{b} passt in {a} – {b} ist kleiner als {a}.', fr: '{b} se range dans {a} — {b} est plus petit que {a}.' },
-      sr:           { en: 'A pot holding {n} friends.', de: 'Ein Topf mit {n} Freunden.', fr: 'Un pot avec {n} amis.' },
-      srTarget:     { en: 'Tuck a smaller-number pot in here.', de: 'Hier kommt ein Topf mit einer kleineren Zahl hinein.', fr: 'Range ici un pot avec un nombre plus petit.' },
-      srGap:        { en: 'A missing pot — tuck the right number in here.', de: 'Ein fehlender Topf – hier kommt die richtige Zahl hinein.', fr: 'Un pot manquant — range ici le bon nombre.' }
+      title:        { en: "Grandpa Pip's Nesting Pots", de: 'Opa Pips Stapeltöpfe', fr: 'Les pots gigognes de Papi Pip', es: 'Las ollitas del Abuelo Pip' },
+      instruction:  { en: 'Tuck the pots away biggest number first, so little Wee Olen is safe in the middle. Tap Check when the family is all tucked in.', de: 'Räum die Töpfe weg – die größte Zahl zuerst, damit das kleine Wee Olen sicher in der Mitte sitzt. Tipp auf Prüfen, wenn die ganze Familie eingeräumt ist.', fr: 'Range les pots en commençant par le plus grand nombre, pour que le petit Wee Olen soit bien au milieu. Touche Vérifier quand toute la famille est rangée.', es: 'Guarda las ollitas: primero el número mayor, para que el pequeño Wee Olen quede seguro en el centro. Toca Revisar cuando toda la familia esté anidada.' },
+      prompt:       { en: 'Pack the pots — biggest number first.', de: 'Räum die Töpfe ein – die größte Zahl zuerst.', fr: 'Range les pots — le plus grand nombre en premier.', es: 'Anida las ollitas: primero el número mayor.' },
+      promptGap:    { en: 'Which pot fills the gap?', de: 'Welcher Topf passt in die Lücke?', fr: 'Quel pot remplit le trou ?', es: '¿Cuál ollita va en el hueco?' },
+      hintPick:     { en: 'Tap a pot first, then tap the glowing pot.', de: 'Tipp zuerst auf einen Topf, dann auf den leuchtenden Topf.', fr: 'Touche d’abord un pot, puis touche le pot qui brille.', es: 'Toca primero una ollita y luego la ollita que brilla.' },
+      hintBigger:   { en: 'Start with the BIGGEST number — read the numbers, not the pot size.', de: 'Fang mit der GRÖSSTEN Zahl an – lies die Zahlen, nicht die Topfgröße.', fr: 'Commence par le plus GRAND nombre — lis les nombres, pas la taille du pot.', es: 'Empieza con el número MAYOR: lee los números, no el tamaño de la ollita.' },
+      hintRelation: { en: '{a} is more than {b}, so {b} tucks inside {a}.', de: '{a} ist größer als {b}, also passt {b} in {a}.', fr: '{a} est plus grand que {b}, donc {b} se range dans {a}.', es: '{a} es mayor que {b}, así que {b} cabe en {a}.' },
+      hintGap:      { en: 'The missing pot is more than {b} and less than {a}.', de: 'Der fehlende Topf ist größer als {b} und kleiner als {a}.', fr: 'Le pot qui manque est plus grand que {b} et plus petit que {a}.', es: 'La ollita que falta es mayor que {b} y menor que {a}.' },
+      twin:         { en: '{a} and {a} are the same — neither fits inside, so they rest side by side.', de: '{a} und {a} sind gleich – keiner passt in den anderen, also stehen sie nebeneinander.', fr: '{a} et {a}, c’est pareil — aucun ne rentre dans l’autre, ils se posent côte à côte.', es: '{a} y {a} son iguales: ninguna cabe en la otra, así que se quedan una al lado de la otra.' },
+      relateOk:     { en: '{b} tucks inside {a} — {b} is less than {a}.', de: '{b} passt in {a} – {b} ist kleiner als {a}.', fr: '{b} se range dans {a} — {b} est plus petit que {a}.', es: '{b} cabe en {a}: {b} es menor que {a}.' },
+      sr:           { en: 'A pot holding {n} friends.', de: 'Ein Topf mit {n} Freunden.', fr: 'Un pot avec {n} amis.', es: 'Una ollita con el número {n}.' },
+      srTarget:     { en: 'Tuck a smaller-number pot in here.', de: 'Hier kommt ein Topf mit einer kleineren Zahl hinein.', fr: 'Range ici un pot avec un nombre plus petit.', es: 'Aquí va una ollita con un número menor.' },
+      srGap:        { en: 'A missing pot — tuck the right number in here.', de: 'Ein fehlender Topf – hier kommt die richtige Zahl hinein.', fr: 'Un pot manquant — range ici le bon nombre.', es: 'Una ollita que falta: aquí va el número correcto.' }
     },
 
     defaults: {},

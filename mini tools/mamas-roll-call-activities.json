@@ -138,17 +138,20 @@
     "slug": {
       "en": "mamas-roll-call",
       "de": "mama-ente-appell-richtige-anzahl-schicken-und-ziffer-schreiben-klasse-1",
-      "fr": "envoyer-le-bon-nombre-et-ecrire-le-chiffre-gs"
+      "fr": "envoyer-le-bon-nombre-et-ecrire-le-chiffre-gs",
+      "es": "pase-de-lista-en-el-estanque-contar-y-escribir-el-numero-preescolar"
     },
     "page_title": {
       "en": "Mama's Roll Call — Count Out That Many (0 to 9)",
       "de": "Zahlen schreiben lernen – zählen und Ziffern schreiben",
-      "fr": "Associer quantité et chiffre – compter et écrire (GS, en ligne)"
+      "fr": "Associer quantité et chiffre – compter et écrire (GS, en ligne)",
+      "es": "Pase de lista: cuenta y escribe el número (preescolar)"
     },
     "page_intro": {
       "en": "Mama Duck calls the morning roll at Quack Creek: send her exactly the number of ducklings she asks for — count them out one by one from the raft — then sign the roll by writing that number in the mud. Even a quiet morning has a number: zero! A warm Kindergarten counting game aligned to Common Core K.CC.B.5.",
       "de": "Zahlen schreiben lernen im Kindergarten: erst die Anzahl abzählen, dann die passende Ziffer schreiben. Kostenlos online üben, ohne Anmeldung.",
-      "fr": "Associer quantité et chiffre : compter la collection puis écrire le chiffre qui correspond, jusqu'à 9. Gratuit, en ligne, sans inscription."
+      "fr": "Associer quantité et chiffre : compter la collection puis écrire le chiffre qui correspond, jusqu'à 9. Gratuit, en ligne, sans inscription.",
+      "es": "Mamá Pata pasa lista: tu peque envía la cantidad exacta de patitos, los cuenta uno por uno y escribe la cifra en el lodo. Gratis, sin registro y alineada al plan de la SEP para el preescolar."
     },
     "kid_prompt_template": "numeral-trace"
   }

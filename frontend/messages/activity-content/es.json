@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "mochi-feast.count-out.k-cc-b-5": {
+      "about": [
+        "Mochi, un bollito siempre hambriento, pide cierto número de golosinas en cada ronda, y tu pequeño las va soltando una por una en su tazón hasta juntar exactamente las que necesita. Toca el plato, cae una golosina, cuenta… y se detiene justo en el número que Mochi pidió.",
+        "Aquí vive una idea importante de las matemáticas: no se trata de contar cuántas cosas ya hay, sino de FORMAR una colección del tamaño que se pide. El niño lee cuántas quiere Mochi y construye esa cantidad poco a poco —cada golosina que toca es exactamente una más— hasta detenerse justo en el número pedido. Así aplica el conteo para producir una colección, no solo para contar una que ya estaba.",
+        "Es una actividad gratuita, sin cronómetro, sin puntaje y sin competencia: si Mochi recibe una golosina de más, el niño toca una en el tazón para quitarla y vuelve a contar con calma. Está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para educación preescolar, dentro del eje de Sentido numérico, con números del 2 al 10."
+      ],
+      "practices": [
+        "Formar una colección del tamaño que Mochi pide: tocar el plato y dejar caer las golosinas una a una, aplicando los principios de conteo.",
+        "Contar en voz alta mientras sirve y detenerse exactamente en el número pedido, controlando cuándo parar.",
+        "Cuando pone de más, quitar una y volver a contar: verificar la colección por correspondencia uno a uno y corregirla.",
+        "Repetir con distintas cantidades del 2 al 10, formando cada vez una colección nueva de la cantidad solicitada."
+      ],
+      "howToPlay": [
+        "Lee cuántas golosinas quiere Mochi.",
+        "Toca el plato y deja caer las golosinas una por una en el tazón.",
+        "Detente en esa cantidad exacta y toca «Comprobar»; si pusiste una de más, toca una golosina del tazón para quitarla."
+      ],
+      "learningGoals": [
+        "Formar una colección con una cantidad determinada de elementos (del 2 al 10), poniendo en práctica los principios de conteo.",
+        "Aplicar la cardinalidad a la producción: usar la última palabra-número contada para saber cuándo detenerse.",
+        "Verificar y ajustar la colección mediante correspondencia uno a uno, corrigiendo el sobreconteo con confianza."
+      ]
+    },
     "star-stitcher.connect-sequence.k-cc-a-2": {
       "about": [
         "Una luciérnaga vuela por el cielo nocturno y despierta las estrellas dormidas de una en una. En lugar de empezar desde el 1, tu pequeño sigue contando hacia adelante a partir del número que ya lleva: la luciérnaga vuela a la siguiente estrella, se dice el siguiente número y, al llegar a la estrella correcta, la despierta.",

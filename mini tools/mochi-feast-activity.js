@@ -101,22 +101,22 @@ window.MochiFeastActivity = Object.assign({}, MochiFeastCore, {
      the German treat PLURAL rides each per-treat prompt (no separate noun map).
      Teller = the dish you tap; Schüssel = the bowl treats land in. */
   strings: {
-    title:        { en: "Mochi's Counting Feast", de: 'Mochis Zählfest', fr: 'Le grand festin de Mochi' },
-    instruction:  { en: "Tap the dish to feed Mochi the right number of treats, then tap Check.", de: 'Tippe auf den Teller, um Mochi die richtige Anzahl Leckereien zu geben, und tippe dann auf „Prüfen".', fr: 'Tape sur le plat pour donner à Mochi le bon nombre de gourmandises, puis tape sur « Vérifier ».' },
-    promptStrawberry: { en: "Feed Mochi {n} strawberries!", de: 'Gib Mochi {n} Erdbeeren!', fr: 'Donne {n} fraises à Mochi !' },
-    promptCookie:     { en: "Feed Mochi {n} cookies!",      de: 'Gib Mochi {n} Kekse!', fr: 'Donne {n} cookies à Mochi !' },
-    promptCherry:     { en: "Feed Mochi {n} cherries!",     de: 'Gib Mochi {n} Kirschen!', fr: 'Donne {n} cerises à Mochi !' },
-    promptCupcake:    { en: "Feed Mochi {n} cupcakes!",     de: 'Gib Mochi {n} Cupcakes!', fr: 'Donne {n} cupcakes à Mochi !' },
-    promptBanana:     { en: "Feed Mochi {n} bananas!",      de: 'Gib Mochi {n} Bananen!', fr: 'Donne {n} bananes à Mochi !' },
-    promptApple:      { en: "Feed Mochi {n} apples!",       de: 'Gib Mochi {n} Äpfel!', fr: 'Donne {n} pommes à Mochi !' },
-    promptDonut:      { en: "Feed Mochi {n} donuts!",       de: 'Gib Mochi {n} Donuts!', fr: 'Donne {n} donuts à Mochi !' },
-    promptMuffin:     { en: "Feed Mochi {n} muffins!",      de: 'Gib Mochi {n} Muffins!', fr: 'Donne {n} muffins à Mochi !' },
-    hintAddSome: { en: "Tap the dish to give Mochi a treat.", de: 'Tippe auf den Teller, um Mochi eine Leckerei zu geben.', fr: 'Tape sur le plat pour donner une gourmandise à Mochi.' },
-    hintMore:    { en: "Mochi is still a little hungry — add a few more.", de: 'Mochi hat noch ein bisschen Hunger – leg noch ein paar dazu.', fr: 'Mochi a encore un petit peu faim… ajoute-en encore quelques-unes.' },
-    hintTooMany: { en: "Ooh, that's a lot! Tap a treat in the bowl to take one back.", de: 'Oh, das sind zu viele! Tippe auf eine Leckerei in der Schüssel, um eine zurückzunehmen.', fr: 'Oh là là, ça fait beaucoup ! Tape sur une gourmandise dans le bol pour en reprendre une.' },
-    trayLabel:  { en: "Tap to feed", de: 'Zum Füttern tippen', fr: 'Tape pour nourrir' },
-    srAddTreat: { en: "Give Mochi a treat", de: 'Mochi eine Leckerei geben', fr: 'Donner une gourmandise à Mochi' },
-    srTakeBack: { en: "Take this treat back", de: 'Diese Leckerei zurücknehmen', fr: 'Reprendre cette gourmandise' }
+    title:        { en: "Mochi's Counting Feast", de: 'Mochis Zählfest', fr: 'Le grand festin de Mochi', es: 'El banquete de Mochi' },
+    instruction:  { en: "Tap the dish to feed Mochi the right number of treats, then tap Check.", de: 'Tippe auf den Teller, um Mochi die richtige Anzahl Leckereien zu geben, und tippe dann auf „Prüfen".', fr: 'Tape sur le plat pour donner à Mochi le bon nombre de gourmandises, puis tape sur « Vérifier ».', es: 'Toca el plato para darle a Mochi el número correcto de golosinas y luego toca Comprobar.' },
+    promptStrawberry: { en: "Feed Mochi {n} strawberries!", de: 'Gib Mochi {n} Erdbeeren!', fr: 'Donne {n} fraises à Mochi !', es: '¡Dale a Mochi {n} fresas!' },
+    promptCookie:     { en: "Feed Mochi {n} cookies!",      de: 'Gib Mochi {n} Kekse!', fr: 'Donne {n} cookies à Mochi !', es: '¡Dale a Mochi {n} galletas!' },
+    promptCherry:     { en: "Feed Mochi {n} cherries!",     de: 'Gib Mochi {n} Kirschen!', fr: 'Donne {n} cerises à Mochi !', es: '¡Dale a Mochi {n} cerezas!' },
+    promptCupcake:    { en: "Feed Mochi {n} cupcakes!",     de: 'Gib Mochi {n} Cupcakes!', fr: 'Donne {n} cupcakes à Mochi !', es: '¡Dale a Mochi {n} cupcakes!' },
+    promptBanana:     { en: "Feed Mochi {n} bananas!",      de: 'Gib Mochi {n} Bananen!', fr: 'Donne {n} bananes à Mochi !', es: '¡Dale a Mochi {n} plátanos!' },
+    promptApple:      { en: "Feed Mochi {n} apples!",       de: 'Gib Mochi {n} Äpfel!', fr: 'Donne {n} pommes à Mochi !', es: '¡Dale a Mochi {n} manzanas!' },
+    promptDonut:      { en: "Feed Mochi {n} donuts!",       de: 'Gib Mochi {n} Donuts!', fr: 'Donne {n} donuts à Mochi !', es: '¡Dale a Mochi {n} donas!' },
+    promptMuffin:     { en: "Feed Mochi {n} muffins!",      de: 'Gib Mochi {n} Muffins!', fr: 'Donne {n} muffins à Mochi !', es: '¡Dale a Mochi {n} muffins!' },
+    hintAddSome: { en: "Tap the dish to give Mochi a treat.", de: 'Tippe auf den Teller, um Mochi eine Leckerei zu geben.', fr: 'Tape sur le plat pour donner une gourmandise à Mochi.', es: 'Toca el plato para darle una golosina a Mochi.' },
+    hintMore:    { en: "Mochi is still a little hungry — add a few more.", de: 'Mochi hat noch ein bisschen Hunger – leg noch ein paar dazu.', fr: 'Mochi a encore un petit peu faim… ajoute-en encore quelques-unes.', es: 'Mochi todavía tiene un poquito de hambre… agrégale unas cuantas más.' },
+    hintTooMany: { en: "Ooh, that's a lot! Tap a treat in the bowl to take one back.", de: 'Oh, das sind zu viele! Tippe auf eine Leckerei in der Schüssel, um eine zurückzunehmen.', fr: 'Oh là là, ça fait beaucoup ! Tape sur une gourmandise dans le bol pour en reprendre une.', es: '¡Uy, son muchas! Toca una golosina del tazón para quitar una.' },
+    trayLabel:  { en: "Tap to feed", de: 'Zum Füttern tippen', fr: 'Tape pour nourrir', es: 'Toca para dar' },
+    srAddTreat: { en: "Give Mochi a treat", de: 'Mochi eine Leckerei geben', fr: 'Donner une gourmandise à Mochi', es: 'Darle una golosina a Mochi' },
+    srTakeBack: { en: "Take this treat back", de: 'Diese Leckerei zurücknehmen', fr: 'Reprendre cette gourmandise', es: 'Quitar esta golosina' }
   },
 
   /* NO `tasks` property → the shell calls our nextTask() for ordering, so

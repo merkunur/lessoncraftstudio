@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "clunks-lost-lunch.make-total.k-oa-a-3": {
+      "about": [
+        "Clunk es un robot comelón con una pancita abollada y muchísima hambre, pero solo de una cantidad exacta: hoy quiere justo el número de botanas que muestra su pantalla. En la pared cuelgan muchas botanas con números. Tú tocas botanas para meterlas a la lonchera y así vas formando el número, poco a poco, sumando en tu mente hasta que quede justo. Entonces Clunk puede comer.",
+        "Detrás de esto vive una idea importante de la primaria: un mismo número se puede formar de muchas maneras distintas. El 11 puede ser 5 y 6, o 4, 3 y 4, o 9 y 2. A veces buscas una manera totalmente nueva, a veces completas lo que a Clunk le falta, a veces solo puedes usar dos botanas, y si la lonchera quedó muy llena, sacas algunas. Lo importante: la lonchera nunca te muestra la suma —tú sumas de cabeza y compruebas al darle de comer a Clunk.",
+        "Aquí no hay reloj, ni puntaje, ni competencia por ver quién gana. Pruebas a tu ritmo, encuentras cada vez más maneras y descubres de paso lo bien que los números se arman con números más pequeños. Si algo no sale, no pasa nada: Clunk espera con calma y se alegra con cada intento. La actividad es gratuita y está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para primer grado de primaria, dentro del eje de Sentido numérico."
+      ],
+      "practices": [
+        "Formar un número de varias maneras distintas (por ejemplo, formar 11 como 5 y 6, o como 4, 3 y 4).",
+        "Sumar mentalmente las botanas que vas guardando, sin apoyarte en un marcador: compruebas alimentando a Clunk.",
+        "Completar lo que falta para llegar al número exacto cuando Clunk ya tiene algunas botanas.",
+        "Quitar botanas cuando hay de más, para ajustar la cantidad justa."
+      ],
+      "howToPlay": [
+        "Mira el número que Clunk pide en su pantalla.",
+        "Toca las botanas de la pared para guardarlas en la lonchera y ve sumándolas en tu mente.",
+        "Cuando creas que ya reuniste la cantidad exacta, alimenta a Clunk para comprobar; si quieres, fórmalo de otra manera."
+      ],
+      "learningGoals": [
+        "Comprender que un mismo número puede componerse y descomponerse de muchas maneras.",
+        "Fortalecer el cálculo mental de sumas hasta 14, incluso al pasar de la decena.",
+        "Reconocer las relaciones entre las partes y el todo —lo que falta y lo que sobra— para resolver con seguridad."
+      ]
+    },
     "nesting-pots.seriate.k-cc-c-7": {
       "about": [
         "El abuelo Pip talla ollitas de madera que se encajan una dentro de otra, cada vez más pequeñas, y en cada una pintó un número. El bebé Wee Olen debe quedar hasta adentro, en la ollita más pequeña, mientras Doot el pato observa. Tu tarea: acomodar las ollitas del número mayor al menor, metiendo cada una dentro de la siguiente, para que al final el bebé quede seguro en el centro.",

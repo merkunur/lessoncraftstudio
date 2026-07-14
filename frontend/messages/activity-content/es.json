@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "ten-tank.ten-frame-tank.k-nbt-a-1": {
+      "about": [
+        "Ayuda a Dewey el patito a llenar su tanque de burbujas: cada vez que tocas, cae una burbuja en el marco de diez. Cuando se juntan diez, ¡se sellan y forman una sola decena!, y las que sobran quedan como unidades. Así tu pequeño descubre que los números del 11 al 19 son una decena y unas cuantas unidades.",
+        "Aquí vive una idea clave al inicio de la primaria: diez unidades se agrupan en una decena, una sola unidad de orden mayor. En lugar de contar quince cosas sueltas, el niño lee el número por su estructura —una decena y cinco unidades, 10 + 5— y empieza a usar el valor posicional. Esta es la base del sistema de numeración decimal, que más adelante sostendrá todo el trabajo con números hasta el 100.",
+        "Es una actividad gratuita, sin cronómetro, sin puntaje y sin competencia: el niño forma sus decenas a su propio ritmo, explora, descompone y vuelve a intentar con calma. Está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para primer grado de primaria, dentro del eje de Sentido numérico, con los números del 11 al 19."
+      ],
+      "practices": [
+        "Llenar el marco de diez de Dewey tocando burbujas una por una; al caer la décima, las diez se sellan y forman una decena —una sola unidad de orden mayor.",
+        "Leer el número formado como «una decena y N unidades» (10 + N): catorce es una decena y cuatro unidades.",
+        "Descomponer un número del 11 al 19 en su decena y sus unidades, y reagrupar burbujas sueltas hasta formar una decena.",
+        "Comparar dos cantidades observando primero las decenas y luego las unidades, apoyándose en el valor posicional."
+      ],
+      "howToPlay": [
+        "Toca burbujas en el tanque hasta que diez se sellen y formen una decena.",
+        "Agrega las burbujas sueltas que sobran como unidades.",
+        "Lee el número como «una decena y … unidades», es decir 10 + N."
+      ],
+      "learningGoals": [
+        "Comprender que diez unidades se agrupan en una decena y que los números del 11 al 19 se forman con una decena y algunas unidades.",
+        "Representar, leer y descomponer números como 10 + N, iniciando el uso del valor posicional y del sistema de numeración decimal.",
+        "Comparar y ordenar cantidades usando la estructura de decenas y unidades, construyendo la base del pensamiento sobre base diez."
+      ]
+    },
     "mochi-feast.count-out.k-cc-b-5": {
       "about": [
         "Mochi, un bollito siempre hambriento, pide cierto número de golosinas en cada ronda, y tu pequeño las va soltando una por una en su tazón hasta juntar exactamente las que necesita. Toca el plato, cae una golosina, cuenta… y se detiene justo en el número que Mochi pidió.",

@@ -5,65 +5,65 @@
     "task_template": "fox-forge",
     "alignment": { "framework": "CCSS", "code": "3.NF.A.1", "grade": "3", "strand": "Number & Operations—Fractions" },
     "theme": null,
-    "slug": { "en": "pips-chocolate-forge", "de": "brueche-bauen-klasse-3", "fr": "construire-des-fractions-cm1" },
-    "page_title": { "en": "Pip's Chocolate Forge — Build Fractions", "de": "Brüche bauen: Bruchteile üben für Klasse 3 | LessonCraft", "fr": "La fabrique de chocolat de Pip : construire des fractions (CM1)" },
-    "page_intro": { "en": "Help Pip the fox fill each chocolate order: pick the unit-piece by its SIZE (no labels to read) and forge it the right number of times. A fraction like 3/4 is three copies of the one-fourth piece — built, not read. Common Core 3.NF.A.1.", "de": "Brüche bauen leicht gemacht: In Pips Schokoladenwerkstatt legst du ½, ⅓ und ¼ aus Einzelstücken – kostenlos, interaktiv und ideal für Klasse 3. Jetzt ausprobieren!", "fr": "Aide Pip le renard à préparer chaque commande de chocolat : choisis le morceau unité d'après sa TAILLE (aucune étiquette à lire) et fabrique-le le bon nombre de fois. Une fraction comme 3/4, c'est trois copies du morceau d'un quart — construite, pas seulement lue. Un jeu de maths CM1, gratuit et interactif." },
+    "slug": { "en": "pips-chocolate-forge", "de": "brueche-bauen-klasse-3", "fr": "construire-des-fractions-cm1", "es": "construir-fracciones-simples-tercero-primaria" },
+    "page_title": { "en": "Pip's Chocolate Forge — Build Fractions", "de": "Brüche bauen: Bruchteile üben für Klasse 3 | LessonCraft", "fr": "La fabrique de chocolat de Pip : construire des fractions (CM1)", "es": "Construir fracciones: medios, tercios y cuartos (3.º primaria)" },
+    "page_intro": { "en": "Help Pip the fox fill each chocolate order: pick the unit-piece by its SIZE (no labels to read) and forge it the right number of times. A fraction like 3/4 is three copies of the one-fourth piece — built, not read. Common Core 3.NF.A.1.", "de": "Brüche bauen leicht gemacht: In Pips Schokoladenwerkstatt legst du ½, ⅓ und ¼ aus Einzelstücken – kostenlos, interaktiv und ideal für Klasse 3. Jetzt ausprobieren!", "fr": "Aide Pip le renard à préparer chaque commande de chocolat : choisis le morceau unité d'après sa TAILLE (aucune étiquette à lire) et fabrique-le le bon nombre de fois. Une fraction comme 3/4, c'est trois copies du morceau d'un quart — construite, pas seulement lue. Un jeu de maths CM1, gratuit et interactif.", "es": "Fracciones simples (medios, tercios y cuartos) con Pip. Gratis, interactiva y sin registro, 3.º de primaria. Alineada a los Planes y programas de estudio (SEP)." },
     "kid_prompt_template": "fox-forge",
     "params": {
       "rounds": [
         {
           "id": "build-half", "cog": "build", "band": 1, "a": 1, "b": 2, "wholeLen": 120,
           "molds": [{ "b": 2 }, { "b": 4 }, { "b": 8 }],
-          "prompt": "Forge one half (1/2). Pick the piece that fits the bar TWO times.", "promptL10n": { "de": "Gieße ein Halb (1/2). Wähle das Stück, das ZWEIMAL auf die Tafel passt.", "fr": "Fabrique un demi (1/2). Choisis le morceau qui rentre DEUX fois dans la barre." }
+          "prompt": "Forge one half (1/2). Pick the piece that fits the bar TWO times.", "promptL10n": { "de": "Gieße ein Halb (1/2). Wähle das Stück, das ZWEIMAL auf die Tafel passt.", "fr": "Fabrique un demi (1/2). Choisis le morceau qui rentre DEUX fois dans la barre.", "es": "Vacía un medio (1/2). Elige la pieza que cabe DOS veces en la barra." }
         },
         {
           "id": "build-three-fourths", "cog": "build", "band": 1, "a": 3, "b": 4, "wholeLen": 120,
           "molds": [{ "b": 4 }, { "b": 2 }, { "b": 8 }],
-          "prompt": "Forge three fourths (3/4). One-fourth pieces, three of them.", "promptL10n": { "de": "Gieße drei Viertel (3/4). Viertel-Stücke, drei davon.", "fr": "Fabrique trois quarts (3/4). Des morceaux d'un quart, trois en tout." }
+          "prompt": "Forge three fourths (3/4). One-fourth pieces, three of them.", "promptL10n": { "de": "Gieße drei Viertel (3/4). Viertel-Stücke, drei davon.", "fr": "Fabrique trois quarts (3/4). Des morceaux d'un quart, trois en tout.", "es": "Vacía tres cuartos (3/4). Piezas de un cuarto, tres de ellas." }
         },
         {
           "id": "name-unit-thirds", "cog": "name-unit", "band": 1, "a": 1, "b": 3, "wholeLen": 120,
           "options": [[1, 2], [1, 4], [1, 3]],
-          "prompt": "The bar is in 3 equal parts. What fraction is ONE part?", "promptL10n": { "de": "Die Tafel ist in 3 gleiche Teile geteilt. Welcher Bruch ist EIN Teil?", "fr": "La barre est en 3 parts égales. Quelle fraction représente UNE part ?" }
+          "prompt": "The bar is in 3 equal parts. What fraction is ONE part?", "promptL10n": { "de": "Die Tafel ist in 3 gleiche Teile geteilt. Welcher Bruch ist EIN Teil?", "fr": "La barre est en 3 parts égales. Quelle fraction représente UNE part ?", "es": "La barra está dividida en 3 partes iguales. ¿Qué fracción es UNA parte?" }
         },
         {
           "id": "name-unit-eighths", "cog": "name-unit", "band": 1, "a": 1, "b": 8, "wholeLen": 120,
           "options": [[1, 4], [1, 6], [1, 8]],
-          "prompt": "The bar is in 8 equal parts. What fraction is ONE part?", "promptL10n": { "de": "Die Tafel ist in 8 gleiche Teile geteilt. Welcher Bruch ist EIN Teil?", "fr": "La barre est en 8 parts égales. Quelle fraction représente UNE part ?" }
+          "prompt": "The bar is in 8 equal parts. What fraction is ONE part?", "promptL10n": { "de": "Die Tafel ist in 8 gleiche Teile geteilt. Welcher Bruch ist EIN Teil?", "fr": "La barre est en 8 parts égales. Quelle fraction représente UNE part ?", "es": "La barra está dividida en 8 partes iguales. ¿Qué fracción es UNA parte?" }
         },
         {
           "id": "equal-parts-fourths", "cog": "equal-parts", "band": 2, "a": 3, "b": 4, "wholeLen": 120,
           "molds": [{ "b": "unequal" }, { "b": 4 }, { "b": 2 }],
-          "prompt": "One mold makes UNEQUAL pieces. Pick the fair mold, forge 3/4.", "promptL10n": { "de": "Eine Form macht UNGLEICHE Stücke. Wähle die faire Form und gieße 3/4.", "fr": "Un moule fait des morceaux INÉGAUX. Choisis le moule juste et fabrique 3/4." }
+          "prompt": "One mold makes UNEQUAL pieces. Pick the fair mold, forge 3/4.", "promptL10n": { "de": "Eine Form macht UNGLEICHE Stücke. Wähle die faire Form und gieße 3/4.", "fr": "Un moule fait des morceaux INÉGAUX. Choisis le moule juste et fabrique 3/4.", "es": "Un molde hace piezas DESIGUALES. Elige el molde parejo y vacía tres cuartos (3/4)." }
         },
         {
           "id": "denominator-three-eighths", "cog": "denominator", "band": 2, "a": 3, "b": 8, "wholeLen": 120,
           "molds": [{ "b": 8 }, { "b": 4 }, { "b": 2 }],
-          "prompt": "Still THREE pieces — but eighths now. Forge three eighths (3/8). Smaller pieces!", "promptL10n": { "de": "Immer noch DREI Stücke – aber jetzt Achtel. Gieße drei Achtel (3/8). Kleinere Stücke!", "fr": "Toujours TROIS morceaux — mais des huitièmes cette fois. Fabrique trois huitièmes (3/8). Des morceaux plus petits !" }
+          "prompt": "Still THREE pieces — but eighths now. Forge three eighths (3/8). Smaller pieces!", "promptL10n": { "de": "Immer noch DREI Stücke – aber jetzt Achtel. Gieße drei Achtel (3/8). Kleinere Stücke!", "fr": "Toujours TROIS morceaux — mais des huitièmes cette fois. Fabrique trois huitièmes (3/8). Des morceaux plus petits !", "es": "Siguen siendo TRES piezas… pero ahora en octavos. Vacía tres octavos (3/8). ¡Piezas más chicas!" }
         },
         {
           "id": "magnitude-two-thirds", "cog": "magnitude", "band": 2, "a": 2, "b": 3, "wholeLen": 108,
           "molds": [{ "b": 3 }, { "b": 6 }, { "b": 2 }],
-          "prompt": "Forge two thirds (2/3) of THIS bar.", "promptL10n": { "de": "Gieße zwei Drittel (2/3) von DIESER Tafel.", "fr": "Fabrique deux tiers (2/3) de CETTE barre." }
+          "prompt": "Forge two thirds (2/3) of THIS bar.", "promptL10n": { "de": "Gieße zwei Drittel (2/3) von DIESER Tafel.", "fr": "Fabrique deux tiers (2/3) de CETTE barre.", "es": "Vacía dos tercios (2/3) de ESTA barra." }
         },
         {
           "id": "the-whole-three-fourths", "cog": "the-whole", "band": 3, "a": 3, "b": 4, "wholeLen": 144, "refWhole": 90,
           "molds": [{ "b": 4 }, { "b": 2 }],
-          "prompt": "Forge 3/4 on the BIG bar. Both are 3/4 — but the big one is more!", "promptL10n": { "de": "Gieße 3/4 auf die GROSSE Tafel. Beide sind 3/4 – aber die große ist mehr!", "fr": "Fabrique 3/4 sur la GRANDE barre. Les deux font 3/4 — mais la grande en a plus !" }
+          "prompt": "Forge 3/4 on the BIG bar. Both are 3/4 — but the big one is more!", "promptL10n": { "de": "Gieße 3/4 auf die GROSSE Tafel. Beide sind 3/4 – aber die große ist mehr!", "fr": "Fabrique 3/4 sur la GRANDE barre. Les deux font 3/4 — mais la grande en a plus !", "es": "Vacía 3/4 en la barra GRANDE. Las dos son 3/4… ¡pero la grande es más!" }
         },
         {
           "id": "build-five-sixths", "cog": "build", "band": 3, "a": 5, "b": 6, "wholeLen": 120,
           "molds": [{ "b": 6 }, { "b": 3 }, { "b": 2 }],
-          "prompt": "Forge five sixths (5/6). One-sixth pieces, five of them.", "promptL10n": { "de": "Gieße fünf Sechstel (5/6). Sechstel-Stücke, fünf davon.", "fr": "Fabrique cinq sixièmes (5/6). Des morceaux d'un sixième, cinq en tout." }
+          "prompt": "Forge five sixths (5/6). One-sixth pieces, five of them.", "promptL10n": { "de": "Gieße fünf Sechstel (5/6). Sechstel-Stücke, fünf davon.", "fr": "Fabrique cinq sixièmes (5/6). Des morceaux d'un sixième, cinq en tout.", "es": "Vacía cinco sextos (5/6). Piezas de un sexto, cinco de ellas." }
         },
         {
           "id": "magnitude-three-fourths-big", "cog": "magnitude", "band": 3, "a": 3, "b": 4, "wholeLen": 150,
           "molds": [{ "b": 4 }, { "b": 2 }, { "b": 8 }],
-          "prompt": "Forge three fourths (3/4) of THIS bigger bar.", "promptL10n": { "de": "Gieße drei Viertel (3/4) von DIESER größeren Tafel.", "fr": "Fabrique trois quarts (3/4) de CETTE barre plus grande." }
+          "prompt": "Forge three fourths (3/4) of THIS bigger bar.", "promptL10n": { "de": "Gieße drei Viertel (3/4) von DIESER größeren Tafel.", "fr": "Fabrique trois quarts (3/4) de CETTE barre plus grande.", "es": "Vacía tres cuartos (3/4) de ESTA barra más grande." }
         },
         {
           "id": "cross-shape-half", "cog": "cross-shape", "band": 3, "a": 1, "b": 2, "wholeLen": 120, "shape": "pizza",
-          "prompt": "One half of the bar — is one half of the PIZZA the same share?", "promptL10n": { "de": "Die Hälfte der Tafel – ist die Hälfte der PIZZA der gleiche Anteil?", "fr": "La moitié de la barre — est-ce que la moitié de la PIZZA, c'est le même partage ?" }
+          "prompt": "One half of the bar — is one half of the PIZZA the same share?", "promptL10n": { "de": "Die Hälfte der Tafel – ist die Hälfte der PIZZA der gleiche Anteil?", "fr": "La moitié de la barre — est-ce que la moitié de la PIZZA, c'est le même partage ?", "es": "La mitad de la barra… ¿la mitad de la PIZZA es la misma parte?" }
         }
       ]
     }

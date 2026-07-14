@@ -182,6 +182,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
   'Number & Operations—Fractions': {
     en: 'Number & Operations—Fractions',
     de: 'Zahlen und Operationen', // KMK Primarstufe has no separate „Brüche" Leitidee — basic Bruchteile sit under „Zahlen und Operationen" (de fan-out; fox-forge 3.NF.A.1)
+    es: 'Sentido numérico', // SEP/NEM: una fracción es un número; no hay eje de fracciones aparte en primaria → viven en "Sentido numérico" (es fan-out; fox-forge 3.NF.A.1)
   },
 };
 

@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "fox-forge.fraction.3-nf-a-1": {
+      "about": [
+        "En el taller de chocolate de Pip el zorro huele a cacao tibio y las repisas están llenas de moldes de todos los tamaños. Cada rato llega un pedido escrito en una tarjeta: «¾», «⅚», «⅜». Pero aquí no basta con leer la fracción: hay que construirla. El niño busca entre los moldes la pieza de chocolate del tamaño correcto —la pieza unitaria 1/b, reconocida por su tamaño— y la vierte una y otra vez hasta armar el pedido. Así, poco a poco, una fracción deja de ser solo un número en una tarjeta y se vuelve algo que se puede ver, medir y tocar.",
+        "La idea matemática es sencilla y profunda a la vez. Una fracción como ¾ significa tres de las piezas de un cuarto: una parte de un entero dividido en partes IGUALES, juntada tres veces. De ahí que a/b sea simplemente a copias de la pieza unitaria 1/b. Jugando, el niño aprende a reconocer cada pieza por su tamaño, a cuidar que las partes sean realmente iguales —porque si no lo son, no es una fracción de verdad— y a descubrir que la misma fracción de un entero más grande da más chocolate, porque la parte siempre se refiere a su propio entero.",
+        "Esta actividad es gratis, sin cronómetro, sin puntaje y sin competencia: solo el gusto de armar cada pedido a su ritmo. Está alineada al programa de primaria mexicano (Planes y programas de estudio de la Nueva Escuela Mexicana), dentro del eje de Sentido numérico, para acompañar a los niños de tercero en sus primeros pasos con las fracciones."
+      ],
+      "practices": [
+        "Reconocer y nombrar las fracciones unitarias (un medio, un tercio, un cuarto) como una parte de un entero.",
+        "Construir a/b juntando a partes iguales: ¾ son tres cuartos, tres piezas de un cuarto puestas juntas.",
+        "Asegurarse de que las partes sean iguales; si no lo son, no es una fracción de verdad.",
+        "Entender que la misma fracción de un entero más grande es más, y que una parte puede verse distinta en formas distintas (una barra o una pizza)."
+      ],
+      "howToPlay": [
+        "Escoge la pieza de chocolate del tamaño correcto por su tamaño.",
+        "Viértela en el molde tantas veces como pida el pedido.",
+        "Entrégale a Pip el pedido terminado."
+      ],
+      "learningGoals": [
+        "Entender las fracciones como partes de un entero dividido en partes iguales.",
+        "Construir una fracción a/b como a copias de la pieza unitaria 1/b.",
+        "Reconocer que toda parte siempre se refiere a su entero."
+      ]
+    },
     "tildy.measure-ruler.2-md-a-1": {
       "about": [
         "En el taller de Tildy, la costurera, siempre hay retazos de cinta, cordón, hilo y cuero esperando su turno sobre la mesa. Para que un moño quede parejo o un dobladillo caiga bien, Tildy necesita el trozo justo: ni un centímetro de más, ni uno de menos. En esta actividad el niño la ayuda a medir. Desliza la regla hasta poner el 0 justo al inicio de la tira, presiona «Medir» y lee cuántos centímetros hay en el otro extremo. Medir se vuelve un gesto tranquilo y cuidadoso, como el de quien trabaja con las manos.",

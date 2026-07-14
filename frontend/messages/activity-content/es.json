@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "fern-clue-garden.context-clues.l-2-4-a": {
+      "about": [
+        "En el jardín de acertijos vive Fern, un pequeño cervatillo que colecciona palabras traviesas: esas que significan más de una cosa. En cada ronda, Fern muestra una oración con una palabra resaltada, y aparecen tres tarjetas, cada una con un significado distinto. La tarea del niño es tocar el significado que la oración de verdad está señalando. Por ejemplo, con la palabra «banco»: en «En el parque nos sentamos en el banco a descansar», el banco es un asiento para sentarse, no el lugar donde se guarda el dinero. La oración completa es la que da la pista.",
+        "La gran idea es sencilla y poderosa: muchas palabras tienen más de un significado, y lo que decide cuál es el correcto no es la palabra sola, sino el contexto, es decir, las demás palabras que la acompañan en la oración. Palabras como «hoja» (de un árbol o de papel) o «llave» (de una puerta o del agua) solo se entienden bien cuando leemos todo lo que las rodea. Así el niño aprende algo que le servirá para siempre: leer con atención la oración entera y no quedarse solo con una palabra suelta.",
+        "La dificultad sube poco a poco. Al principio, los tres significados son muy distintos entre sí, por lo que es fácil distinguirlos; más adelante, los significados se parecen más y hay que fijarse con más cuidado en las pistas de la oración. Y todo pasa con calma: no hay cronómetro, no hay puntaje y no se gana ni se pierde. Si el niño se equivoca, simplemente vuelve a intentarlo, porque equivocarse también es parte de aprender. (Alineada a los Planes y programas de estudio de la SEP, en el eje de Ampliación del vocabulario.)"
+      ],
+      "practices": [
+        "Reconocer que una palabra puede tener varios significados.",
+        "Leer toda la oración y fijarse en el contexto.",
+        "Elegir el significado que le queda bien a la oración.",
+        "Usar las pistas de la oración en lugar de solo la palabra."
+      ],
+      "howToPlay": [
+        "Lee toda la oración y encuentra la palabra resaltada.",
+        "Mira los tres significados y piensa cuál muestra la oración.",
+        "Toca esa tarjeta; si te equivocas, lo intentas de nuevo con calma."
+      ],
+      "learningGoals": [
+        "Sé que una palabra puede tener varios significados.",
+        "Uso el contexto de la oración para elegir el significado correcto.",
+        "Leo con atención toda la oración, no solo una palabra."
+      ]
+    },
     "booker-glossary-desk.guide-words.l-2-4-e": {
       "about": [
         "Booker, el oso, está en su escritorio hojeando un diccionario enorme, tranquilo y sin prisa. Cada página del diccionario tiene hasta arriba dos «palabras guía»: la primera y la última palabra de esa página. En cada ronda, el niño lee esas dos palabras guía y mira tres tarjetas con palabras; su tarea es tocar la palabra que va, en orden alfabético, justo entre las dos. Así descubre —jugando— para qué sirven las palabras guía y cómo lo ayudan a encontrar cualquier palabra en el diccionario.",

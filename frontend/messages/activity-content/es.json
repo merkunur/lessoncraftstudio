@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "necklace.bead-string.k-cc-b-4": {
+      "about": [
+        "Un zorro arma un collar de cuentas y quiere hacer uno con la misma cantidad que el de su amiga. Lo importante no son los colores, sino CUÁNTAS cuentas hay. Tu pequeño cuenta las cuentas del collar de la amiga, una por una, y luego ensarta esa misma cantidad en el cordón del zorro.",
+        "Aquí vive una de las ideas más importantes al inicio de las matemáticas: se cuenta para saber cuántas cosas hay, y el último número que decimos dice cuántas hay en total. Y lo mejor: esa cantidad no cambia aunque el zorro esconda el collar, lo sacuda, lo amontone o riegue las cuentas —siguen siendo la misma cantidad. Descubrir que la cantidad se mantiene aunque cambie el acomodo es un gran hallazgo a esta edad, que el niño comprueba volviendo a contar.",
+        "Es una actividad gratuita, sin cronómetro, sin puntaje y sin competencia: el niño cuenta a su propio ritmo y vuelve a contar las veces que necesite. Está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para educación preescolar, dentro del eje de Sentido numérico, con números hasta el 10."
+      ],
+      "practices": [
+        "Contar las cuentas del collar una por una, tocando cada cuenta al decir cada número (correspondencia uno a uno), sin saltarse ni repetir ninguna.",
+        "Reconocer que el último número dicho indica cuántas hay en total (principio de cardinalidad) y ensartar esa misma cantidad en el cordón del zorro.",
+        "Comprobar contando que la cantidad se mantiene aunque el collar se esconda, se sacuda, se amontone o se disperse: la forma cambia, el número no.",
+        "Revisar y corregir el conteo cuando hay una cuenta de más, y armar una colección a partir de un número que escucha."
+      ],
+      "howToPlay": [
+        "Cuenta en voz alta las cuentas de la amiga, una por una.",
+        "Recuerda cuántas son: el último número es la cantidad.",
+        "Ensarta esa misma cantidad en el collar del zorro y ciérralo."
+      ],
+      "learningGoals": [
+        "Contar colecciones de hasta 10 objetos con correspondencia uno a uno y decir cuántas hay.",
+        "Comprender la cardinalidad: la última palabra al contar responde a «¿cuántas hay?».",
+        "Empezar a descubrir que la cantidad no cambia al reacomodar los objetos, comprobándolo con el conteo."
+      ]
+    },
     "friendship-bridge.compare-balance.k-cc-c-6": {
       "about": [
         "Big y Bit se encuentran en el puente de la amistad, y cada uno trae un puñado de amiguitos redondos. ¿Quién trajo más? En lugar de adivinar, tu pequeño le da a cada amigo de Big una pareja del lado de Bit: uno con uno, cruzando el puente. Quien se queda con un amigo sin pareja, tiene más.",

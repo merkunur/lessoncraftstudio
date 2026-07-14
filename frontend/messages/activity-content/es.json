@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "clock-ampm.morning-or-night.2-md-c-7": {
+      "about": [
+        "Sprocket, el gallo, conoce el día entero: canta en la mañana cuando sale el sol y cierra los ojos en la noche cuando aparece la luna. En esta actividad te muestra algo que haces durante el día —como «desayunas» a las 7 o «miras las estrellas» a las 9— junto con la hora en el reloj, y tú decides con él: ¿esto pasa en la mañana, antes del mediodía, o en la tarde y noche, después del mediodía?",
+        "Así aprendes, poco a poco, a ubicar las actividades de tu rutina diaria en la parte del día que les toca y a leer la hora en punto. El mediodía es la frontera: antes es la mañana; después vienen la tarde y la noche, que van juntas porque las dos pasan después del mediodía —aunque en la tarde todavía haya luz de sol—. Tocas el sol para la mañana o la luna para la tarde y noche. (Las personas grandes escriben a.m. para la mañana y p.m. para la tarde y noche.)",
+        "No hay cronómetro, ni puntaje, ni competencia: observas y clasificas con calma, a tu propio ritmo, y puedes pensarlo las veces que quieras. La actividad es gratuita y está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para primer grado de primaria, dentro del eje de Magnitudes y medida, donde el tiempo se aprende como una magnitud que ordena el día. Sprocket se alegra con cada ronda, sin prisa."
+      ],
+      "practices": [
+        "Distinguir las dos grandes partes del día: la mañana (antes del mediodía) y la tarde y noche (después del mediodía).",
+        "Relacionar las actividades de tu rutina diaria con la hora en punto en que suelen ocurrir.",
+        "Leer la hora en punto en el reloj (las 7, las 9).",
+        "Usar el mediodía como punto de referencia para decidir a qué parte del día pertenece cada momento."
+      ],
+      "howToPlay": [
+        "Sprocket, el gallo, te muestra una actividad y una hora en el reloj.",
+        "Piensa: ¿esto pasa antes o después del mediodía?",
+        "Toca el sol para la mañana, o la luna para la tarde y noche."
+      ],
+      "learningGoals": [
+        "Ubicar acciones cotidianas en la mañana o en la tarde y noche, tomando el mediodía como la frontera entre ambas.",
+        "Comprender que la tarde y la noche van juntas porque las dos ocurren después del mediodía, aunque en la tarde todavía haya luz de sol.",
+        "Fortalecer la noción del tiempo como una magnitud que organiza y da orden a tu día."
+      ]
+    },
     "digby-number-trace.numeral-formation.k-cc-a-3": {
       "about": [
         "Digby el perrito está aprendiendo a escribir los números, y tu hijo lo ayuda. En la pantalla aparece un número punteado con un pequeño punto de inicio de color coral: justo ahí empieza el trazo. Tu hijo sigue cada trazo en orden, y cuando termina el último, el número se rellena y Digby se pone feliz. Así se forman, uno por uno, todos los números del 0 al 9.",

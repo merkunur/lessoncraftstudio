@@ -34,6 +34,13 @@
       winAM: 'Oui ! C’est le matin.',
       winPM: 'Oui ! C’est l’après-midi ou le soir.',
       hint: 'Le matin, c’est avant midi. L’après-midi et le soir, c’est après midi.'
+    },
+    es: {
+      q: '¿Esto es en la mañana, o en la tarde y noche?',
+      am: 'Mañana', pm: 'Tarde y noche',
+      winAM: '¡Sí! Eso es en la mañana.',
+      winPM: '¡Sí! Eso es en la tarde o noche.',
+      hint: 'Antes del mediodía es la mañana. Después del mediodía vienen la tarde y la noche.'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -63,8 +70,8 @@
   var ClockAmpmActivity = {
     id: 'clock-ampm-activity',
     strings: {
-      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr — Tageszeiten', fr: 'L’horloge de Sprocket' },
-      instruction: { en: 'Read what you are doing, then choose a.m. or p.m.', de: 'Lies, was du gerade tust, und wähle dann die richtige Tageszeit.', fr: 'Lis ce que tu fais, puis choisis le matin ou l’après-midi.' },
+      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr — Tageszeiten', fr: 'L’horloge de Sprocket', es: 'El reloj de Sprocket — mañana o noche' },
+      instruction: { en: 'Read what you are doing, then choose a.m. or p.m.', de: 'Lies, was du gerade tust, und wähle dann die richtige Tageszeit.', fr: 'Lis ce que tu fais, puis choisis le matin ou l’après-midi.', es: 'Lee lo que haces y elige la parte del día correcta.' },
       q: { en: '{q}' }
     },
 
@@ -108,6 +115,10 @@
         '.ap-fr .ap-choice{font-size:1.05rem;max-width:128px;}',
         '.ap-fr .ap-icon{width:88px;height:88px;}',
         '@media (max-width:380px){.ap-fr .ap-choice{font-size:.92rem;}}',
+        /* es: the dual label „Tarde y noche" is longer → shrink the label + tighten the card + enlarge the icon so the buttons fill their area (not-sparse) and the short „Mañana" sun button isn't stretched empty (§A.13.62 fix-layout). es-scoped → EN untouched. */
+        '.ap-es .ap-choice{font-size:1.05rem;max-width:128px;}',
+        '.ap-es .ap-icon{width:88px;height:88px;}',
+        '@media (max-width:380px){.ap-es .ap-choice{font-size:.92rem;}}',
         '.lcs-app:not(.sprocket-resolved) .lcs-activity-check{display:none !important;}'
       ].join('');
       document.head.appendChild(s);
@@ -163,11 +174,11 @@
       var stage = api.stage; stage.innerHTML = '';
       var round = this._round; if (!round) return;
       var self = this, tok = this._token;
-      var root = el('div', 'ap-root' + (LANG === 'de' ? ' ap-de' : (LANG === 'fr' ? ' ap-fr' : '')));
+      var root = el('div', 'ap-root' + (LANG === 'de' ? ' ap-de' : (LANG === 'fr' ? ' ap-fr' : (LANG === 'es' ? ' ap-es' : ''))));
 
       var scene = el('div', 'ap-scene');
-      var act = el('p', 'ap-activity'); act.textContent = (LANG === 'de' && round.activityL10n && round.activityL10n.de) || (LANG === 'fr' && round.activityL10n && round.activityL10n.fr) || round.activity; scene.appendChild(act);
-      var tm = el('div', 'ap-time'); tm.textContent = (LANG === 'de' ? round.time.split(':')[0] + ' Uhr' : (LANG === 'fr' ? round.time.split(':')[0] + ' h' : round.time)); scene.appendChild(tm);
+      var act = el('p', 'ap-activity'); act.textContent = (LANG === 'de' && round.activityL10n && round.activityL10n.de) || (LANG === 'fr' && round.activityL10n && round.activityL10n.fr) || (LANG === 'es' && round.activityL10n && round.activityL10n.es) || round.activity; scene.appendChild(act);
+      var tm = el('div', 'ap-time'); tm.textContent = (LANG === 'de' ? round.time.split(':')[0] + ' Uhr' : (LANG === 'fr' ? round.time.split(':')[0] + ' h' : (LANG === 'es' ? (round.time.split(':')[0] === '1' ? 'la ' : 'las ') + round.time.split(':')[0] : round.time))); scene.appendChild(tm);
       root.appendChild(scene);
 
       var row = el('div', 'ap-row');
@@ -225,6 +236,10 @@
         var frAct = (round.activityL10n && round.activityL10n.fr) || round.activity;
         var frTime = round.time.split(':')[0] + ' h';
         wrap.innerHTML = '<p>' + frAct + ' À ' + frTime + '. ' + txt('q') + ' Les choix sont : le matin (avant midi), l’après-midi et le soir (après midi).</p>';
+      } else if (LANG === 'es') {
+        var esAct = (round.activityL10n && round.activityL10n.es) || round.activity;
+        var esTime = (round.time.split(':')[0] === '1' ? 'la ' : 'las ') + round.time.split(':')[0];
+        wrap.innerHTML = '<p>' + esAct + ' El reloj marca ' + esTime + '. ' + txt('q') + ' Puedes elegir: mañana (antes del mediodía) o tarde y noche (después del mediodía).</p>';
       } else {
         wrap.innerHTML = '<p>' + round.activity + ' at ' + round.time + '. ' + txt('q') + ' The choices are: a.m. (morning), p.m. (afternoon or evening).</p>';
       }

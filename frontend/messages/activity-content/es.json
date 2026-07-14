@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "digby-number-trace.numeral-formation.k-cc-a-3": {
+      "about": [
+        "Digby el perrito está aprendiendo a escribir los números, y tu hijo lo ayuda. En la pantalla aparece un número punteado con un pequeño punto de inicio de color coral: justo ahí empieza el trazo. Tu hijo sigue cada trazo en orden, y cuando termina el último, el número se rellena y Digby se pone feliz. Así se forman, uno por uno, todos los números del 0 al 9.",
+        "Trazar los números es mucho más que colorear: tu hijo practica la dirección correcta al escribir y el orden de los trazos de cada cifra. El punto de inicio y la secuencia fija de trazos lo ayudan a formar cada numeral de manera limpia y sin escritura en espejo —ese 3, 5 o 9 al revés tan común al principio—. Esta motricidad fina y este trazo guiado son la base de una escritura de números clara y segura, una de las primeras destrezas del preescolar.",
+        "No hay cronómetro, ni puntaje, ni competencia: tu hijo puede repasar cada número las veces que quiera, a su propio ritmo. La actividad es gratuita y está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para el preescolar, dentro del eje de Sentido numérico, donde el niño aprende a representar los números también escribiéndolos. Un rato tranquilo y amable donde aprender a escribir da gusto."
+      ],
+      "practices": [
+        "Trazar los numerales del 0 al 9 siguiendo el punto de inicio y el orden de los trazos.",
+        "Practicar la dirección correcta al escribir cada número para evitar la escritura en espejo.",
+        "Reconocer la forma de cada numeral mientras la mano lo va formando.",
+        "Afianzar la motricidad fina y la coordinación ojo-mano al repasar cada trazo."
+      ],
+      "howToPlay": [
+        "Aparece un número punteado con un punto de inicio de color coral: ahí empieza Digby.",
+        "Arrastra el dedo siguiendo cada trazo, en orden, desde el punto de inicio.",
+        "Cuando completas todos los trazos, el número se rellena y pasas al siguiente. ¡Del 0 al 9 con Digby!"
+      ],
+      "learningGoals": [
+        "Trazar los números del 0 al 9 con el orden y la dirección de trazo correctos.",
+        "Iniciar cada numeral en el punto de inicio y completar todos sus trazos sin invertir la forma.",
+        "Asociar el símbolo escrito con el número, fortaleciendo su representación escrita."
+      ]
+    },
     "patchwork-meadow.tile.3-md-c-6": {
       "about": [
         "Sprout, el conejo jardinero, cuida jardines con formas irregulares —en forma de L, en escalera— que hay que cubrir por completo con cuadritos de musgo, sin dejar huecos ni encimar ninguno. El área del jardín es la cantidad de cuadritos que lo cubren. Como las figuras son irregulares, no se puede usar «largo por ancho»: el niño mide el área cubriendo y contando, uno por uno.",

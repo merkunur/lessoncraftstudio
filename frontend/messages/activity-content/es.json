@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "star-stitcher.connect-sequence.k-cc-a-2": {
+      "about": [
+        "Una luciérnaga vuela por el cielo nocturno y despierta las estrellas dormidas de una en una. En lugar de empezar desde el 1, tu pequeño sigue contando hacia adelante a partir del número que ya lleva: la luciérnaga vuela a la siguiente estrella, se dice el siguiente número y, al llegar a la estrella correcta, la despierta.",
+        "Aquí está el corazón de la actividad: las estrellas apagadas no tienen número. El niño solo descubre cuál sigue si continúa la serie —siete, ocho, nueve…— sin volver a contar todo desde el uno. A esto se le llama sobreconteo, o contar a partir de un número, y es una de las primeras estrategias que preparan el camino hacia la suma.",
+        "Es una actividad gratuita, sin cronómetro, sin puntaje y sin competencia: el niño cuenta con calma y a su propio ritmo, y si se pasa de la estrella, la luciérnaga regresa suavemente para intentarlo otra vez. Está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para educación preescolar, dentro del eje de Sentido numérico, con números hasta el 18."
+      ],
+      "practices": [
+        "Seguir la serie numérica oral hacia adelante a partir de un número dado, sin regresar al uno.",
+        "Usar el sobreconteo: contar una pequeña colección, descubrir en qué número va y seguir contando a partir de ahí.",
+        "Encontrar el número que falta entre dos que ya conoce, apoyándose en el orden de la serie.",
+        "Leer un número y contar en voz alta hasta llegar a él."
+      ],
+      "howToPlay": [
+        "Mira en qué estrella que brilla empieza la luciérnaga.",
+        "Toca «Sigue contando»: la luciérnaga vuela a la siguiente estrella y dice el siguiente número.",
+        "Al llegar a la estrella correcta, toca «Despierta» para encenderla."
+      ],
+      "learningGoals": [
+        "Consolidar el conocimiento de la serie numérica oral hasta el 18 y su orden estable.",
+        "Desarrollar el sobreconteo —contar a partir de un número— como base para resolver sumas sin volver a contar todo desde el uno.",
+        "Fortalecer el sentido numérico al relacionar el número que se dice, el que se lee y la cantidad que representa."
+      ]
+    },
     "necklace.bead-string.k-cc-b-4": {
       "about": [
         "Un zorro arma un collar de cuentas y quiere hacer uno con la misma cantidad que el de su amiga. Lo importante no son los colores, sino CUÁNTAS cuentas hay. Tu pequeño cuenta las cuentas del collar de la amiga, una por una, y luego ensarta esa misma cantidad en el cordón del zorro.",

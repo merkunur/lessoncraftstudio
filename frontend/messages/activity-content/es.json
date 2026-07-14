@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "bramble.holds-more.k-md-a-2": {
+      "about": [
+        "En el puesto de jugos de Bramble el tejón, siempre hay dos recipientes esperando lado a lado: a veces un vaso alto y delgado junto a un tazón bajo y ancho, a veces una jarra frente a una taza. Bramble te hace una sola pregunta antes de servir: «¿En cuál cabe más jugo de mora?». Tú eliges —izquierda, derecha o lo mismo— y entonces se vierte el jugo para comprobar quién tenía razón.",
+        "La idea del juego es comparar la capacidad de dos recipientes de forma directa, sin números y sin medir: solo mirar, predecir y verter. Lo interesante es que la forma engaña. Un vaso alto y delgado parece de «más» solo porque es alto, pero a veces a un tazón bajo y ancho le cabe más jugo. La altura por sí sola no dice cuánto cabe, y descubrirlo con los ojos y con el jugo es justo lo que hace pensar.",
+        "Es una actividad gratuita, sin cronómetro, sin puntaje y sin nada que contar. Si tu predicción no coincide con el jugo, no pasa nada: es un descubrimiento —«¡mis ojos me engañaron!»— y así se aprende. Está alineada con los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para educación preescolar, dentro del campo del pensamiento matemático (Magnitudes y medida)."
+      ],
+      "practices": [
+        "Predecir en cuál de los dos recipientes cabe más jugo.",
+        "Verter el jugo para comprobar si la predicción fue correcta.",
+        "Reconocer que la forma engaña: un recipiente alto y delgado no siempre tiene más que uno bajo y ancho.",
+        "Describir con las palabras «cabe más», «cabe menos» y «cabe lo mismo»."
+      ],
+      "howToPlay": [
+        "Observa con calma los dos recipientes que puso Bramble.",
+        "Predice en cuál cabe más jugo: izquierda, derecha o los dos lo mismo.",
+        "Mira cómo se vierte el jugo y comprueba si acertaste."
+      ],
+      "learningGoals": [
+        "Comparar dos recipientes directamente por su capacidad, sin medir ni contar.",
+        "Entender que a un recipiente le puede caber más aunque se vea más bajo o más pequeño.",
+        "Construir un primer sentido de la magnitud, como preparación para medir más adelante con litros."
+      ]
+    },
     "fox-forge.fraction.3-nf-a-1": {
       "about": [
         "En el taller de chocolate de Pip el zorro huele a cacao tibio y las repisas están llenas de moldes de todos los tamaños. Cada rato llega un pedido escrito en una tarjeta: «¾», «⅚», «⅜». Pero aquí no basta con leer la fracción: hay que construirla. El niño busca entre los moldes la pieza de chocolate del tamaño correcto —la pieza unitaria 1/b, reconocida por su tamaño— y la vierte una y otra vez hasta armar el pedido. Así, poco a poco, una fracción deja de ser solo un número en una tarjeta y se vuelve algo que se puede ver, medir y tocar.",

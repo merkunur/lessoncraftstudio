@@ -169,17 +169,20 @@
     "slug": {
       "en": "the-necklace-that-wont-hold-still",
       "de": "zaehlen-anzahl-bestimmen-so-viele-wie-klasse-1",
-      "fr": "compter-les-perles-du-collier-autant-gs"
+      "fr": "compter-les-perles-du-collier-autant-gs",
+      "es": "contar-cuantos-hay-cardinalidad-preescolar"
     },
     "page_title": {
       "en": "The Necklace That Won't Hold Still — Count & Make the Same Many (Kindergarten)",
       "de": "Anzahl zählen: So viele Perlen wie der Fuchs – Klasse 1",
-      "fr": "Conservation des quantités – enfiler autant de perles, en ligne"
+      "fr": "Conservation des quantités – enfiler autant de perles, en ligne",
+      "es": "Contar cuántos hay: cardinalidad (preescolar)"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten counting game: a little fox makes a necklace to match its friend's — not the same colors, the same HOW-MANY. Count the friend's beads one by one, then thread your own to that number — even after the fox tucks it away or gives it a playful shake. The number is the one thing that doesn't change when everything else does. Counting each bead once, and knowing the last number tells how many, is the heart of Common Core K.CC.B.4.",
       "de": "Anzahl zählen üben: Zähl die Perlen und fädle genauso viele auf wie der Fuchs. Kostenloses, interaktives Mathe-Spiel für Klasse 1 – jetzt spielen!",
-      "fr": "Travailler la conservation des quantités : compter les perles du renard et en enfiler exactement autant. Gratuit, en ligne, sans inscription."
+      "fr": "Travailler la conservation des quantités : compter les perles du renard et en enfiler exactement autant. Gratuit, en ligne, sans inscription.",
+      "es": "Actividad interactiva y gratis: el niño cuenta objetos uno por uno para saber cuántos hay. Cardinalidad en preescolar, alineada a la SEP, sin registro."
     },
     "kid_prompt_template": "bead-string"
   }

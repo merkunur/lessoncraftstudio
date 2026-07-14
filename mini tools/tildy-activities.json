@@ -13,17 +13,20 @@
     "slug": {
       "en": "tildys-tailor-shop",
       "de": "mit-dem-lineal-messen-null-anlegen-klasse-2",
-      "fr": "mesurer-avec-la-regle-graduee-cm-ce1"
+      "fr": "mesurer-avec-la-regle-graduee-cm-ce1",
+      "es": "medir-longitudes-con-regla-centimetros-primaria"
     },
     "page_title": {
       "en": "Tildy's Tailor Shop — Measure with a Ruler",
       "de": "Mit dem Lineal messen: Längen in cm – Klasse 2 | Tildy",
-      "fr": "Mesurer des longueurs CE1 – exercice en ligne (cm)"
+      "fr": "Mesurer des longueurs CE1 – exercice en ligne (cm)",
+      "es": "Medir con regla: longitudes en centímetros (2.º primaria)"
     },
     "page_intro": {
       "en": "Help Tildy measure ribbons and cords: slide the ruler so its 0 lines up with the start of the strip, then read the number at the other end. Knot the cat keeps nudging the ruler, so YOU place it — if you start at the 1 instead of the 0, it reads one short. Common Core 2.MD.A.1.",
       "de": "Mit dem Lineal messen lernen: Lege die Null an den Anfang und lies die cm am Ende ab. Kostenloses, interaktives Längen-Übungsspiel für Klasse 2 – jetzt loslegen!",
-      "fr": "Exercice en ligne pour mesurer des longueurs au CE1 avec la règle graduée en centimètres. Gratuit, en ligne, sans inscription."
+      "fr": "Exercice en ligne pour mesurer des longueurs au CE1 avec la règle graduée en centimètres. Gratuit, en ligne, sans inscription.",
+      "es": "Mide listones y cordones con regla en centímetros junto a Tildy: alinea el 0 y lee el final. Gratis, interactiva, sin registro. 2.º de primaria, alineada a la SEP."
     },
     "kid_prompt_template": "tildy",
     "params": {
@@ -41,7 +44,8 @@
           "prompt": "Measure the ribbon. Slide the ruler so 0 is at the start, then read the end.",
           "promptL10n": {
             "de": "Miss das Band. Schieb die 0 an den Anfang, dann lies das Ende ab.",
-            "fr": "Mesure le ruban. Fais glisser le 0 au début, puis lis l'autre bout."
+            "fr": "Mesure le ruban. Fais glisser le 0 au début, puis lis l'autre bout.",
+            "es": "Mide la cinta: desliza el 0 hasta el inicio y luego lee el extremo."
           }
         },
         {
@@ -56,7 +60,8 @@
           "prompt": "Measure the leather strip. Line up 0 with the start.",
           "promptL10n": {
             "de": "Miss den Lederstreifen. Leg die 0 genau an den Anfang.",
-            "fr": "Mesure la bande de cuir. Aligne le 0 sur le début."
+            "fr": "Mesure la bande de cuir. Aligne le 0 sur le début.",
+            "es": "Mide la tira de cuero: pon el 0 justo al inicio."
           }
         },
         {
@@ -71,7 +76,8 @@
           "prompt": "Measure the yarn. Put 0 at the start — not the 1!",
           "promptL10n": {
             "de": "Miss das Garn. Leg die 0 an den Anfang — nicht die 1!",
-            "fr": "Mesure la laine. Mets le 0 au début — pas le 1 !"
+            "fr": "Mesure la laine. Mets le 0 au début — pas le 1 !",
+            "es": "Mide el hilo: pon el 0 al inicio… ¡no en el 1!"
           }
         },
         {
@@ -86,7 +92,8 @@
           "prompt": "Measure the cord. Slide the 0 to the start, then read the end.",
           "promptL10n": {
             "de": "Miss die Schnur. Schieb die 0 an den Anfang, dann lies das Ende ab.",
-            "fr": "Mesure la corde. Fais glisser le 0 au début, puis lis l'autre bout."
+            "fr": "Mesure la corde. Fais glisser le 0 au début, puis lis l'autre bout.",
+            "es": "Mide el cordón: desliza el 0 hasta el inicio y luego lee el extremo."
           }
         },
         {
@@ -101,7 +108,8 @@
           "prompt": "Measure the wide ribbon. 0 at the start, read the far end.",
           "promptL10n": {
             "de": "Miss das breite Band. 0 an den Anfang, dann das andere Ende ablesen.",
-            "fr": "Mesure le large ruban. Le 0 au début, lis l'autre bout."
+            "fr": "Mesure le large ruban. Le 0 au début, lis l'autre bout.",
+            "es": "Mide la cinta ancha: el 0 al inicio y luego lee el otro extremo."
           }
         },
         {
@@ -116,7 +124,8 @@
           "prompt": "The ruler is broken — it starts at 2! Count the cm-marks the strip covers.",
           "promptL10n": {
             "de": "Das Lineal ist abgebrochen — es beginnt erst bei 2! Zähl die Zentimeter, die der Streifen bedeckt.",
-            "fr": "La règle est cassée — elle commence à 2 ! Compte les centimètres que la bande recouvre."
+            "fr": "La règle est cassée — elle commence à 2 ! Compte les centimètres que la bande recouvre.",
+            "es": "¡La regla está rota, empieza en el 2! Cuenta los centímetros que cubre la tira."
           }
         },
         {
@@ -136,7 +145,8 @@
           "prompt": "Tildy got 5, but the ribbon is longer. What went wrong?",
           "promptL10n": {
             "de": "Tildy hat 5 gemessen, aber das Band ist länger. Was ist passiert?",
-            "fr": "Tildy a mesuré 5, mais le ruban est plus long. Qu'est-ce qui s'est passé ?"
+            "fr": "Tildy a mesuré 5, mais le ruban est plus long. Qu'est-ce qui s'est passé ?",
+            "es": "Tildy midió 5, pero la cinta es más larga. ¿Qué pasó?"
           }
         },
         {
@@ -153,7 +163,8 @@
           "prompt": "This strip is long! Pick a ruler that reaches all the way.",
           "promptL10n": {
             "de": "Dieser Streifen ist lang! Wähl ein Lineal, das ganz bis zum Ende reicht.",
-            "fr": "Cette bande est longue ! Choisis une règle qui va jusqu'au bout."
+            "fr": "Cette bande est longue ! Choisis une règle qui va jusqu'au bout.",
+            "es": "¡Esta tira es muy larga! Elige una regla que llegue hasta el final."
           }
         },
         {
@@ -170,7 +181,8 @@
           "prompt": "Pick a tool long enough to measure this strip.",
           "promptL10n": {
             "de": "Wähl ein Lineal, das lang genug für diesen Streifen ist.",
-            "fr": "Choisis une règle assez longue pour mesurer cette bande."
+            "fr": "Choisis une règle assez longue pour mesurer cette bande.",
+            "es": "Elige una regla lo bastante larga para esta tira."
           }
         }
       ]

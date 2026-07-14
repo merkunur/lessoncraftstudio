@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "tildy.measure-ruler.2-md-a-1": {
+      "about": [
+        "En el taller de Tildy, la costurera, siempre hay retazos de cinta, cordón, hilo y cuero esperando su turno sobre la mesa. Para que un moño quede parejo o un dobladillo caiga bien, Tildy necesita el trozo justo: ni un centímetro de más, ni uno de menos. En esta actividad el niño la ayuda a medir. Desliza la regla hasta poner el 0 justo al inicio de la tira, presiona «Medir» y lee cuántos centímetros hay en el otro extremo. Medir se vuelve un gesto tranquilo y cuidadoso, como el de quien trabaja con las manos.",
+        "El truco de medir bien está en el arranque: el 0 —no el 1— debe quedar exactamente al inicio de la tira. Quien empieza en el 1 mide siempre un centímetro de menos; es el error de alineación más común, y aquí el niño lo reconoce, entiende por qué pasa y aprende a evitarlo con calma. Algunas rondas ofrecen una regla «rota» que empieza en el 2: entonces la longitud no es el número del extremo, sino la cantidad de centímetros que la tira cubre entre el inicio y el final. Otras rondas piden elegir una regla lo bastante larga para el trozo que Tildy va a cortar. Así el niño no solo lee números: comprende qué significa la longitud.",
+        "Esta actividad es gratuita, sin cronómetro, sin puntaje y sin competencia: nadie corre ni pierde, solo se mide con cuidado y se vuelve a intentar sin pena. Está alineada al programa de primaria mexicano (Planes y programas de estudio de la Nueva Escuela Mexicana, SEP), dentro del eje «Magnitudes y medida», para el aprendizaje de la medición de longitudes con regla y centímetros."
+      ],
+      "practices": [
+        "Alinear el 0 de la regla exactamente con el inicio de la tira.",
+        "Leer el otro extremo de la tira en centímetros.",
+        "Reconocer y evitar el error de empezar en el 1 (que mide un centímetro de menos).",
+        "Medir con una regla desplazada o «rota» contando los centímetros que la tira cubre, y elegir una regla lo bastante larga."
+      ],
+      "howToPlay": [
+        "Desliza la regla hasta que el 0 quede justo al inicio de la tira.",
+        "Presiona «Medir».",
+        "Lee el número que marca el otro extremo y tócalo."
+      ],
+      "learningGoals": [
+        "Medir con seguridad en centímetros usando la regla.",
+        "Entender que la longitud es la cantidad de centímetros que hay entre el inicio y el final.",
+        "Reconocer los errores típicos al medir y elegir la regla adecuada."
+      ]
+    },
     "vet-diagnosis.word-problems.1-oa-a-1": {
       "about": [
         "Toca a la puerta un pacientito tímido en el consultorio del zorro veterinario. Su «síntoma» no es tos ni fiebre: es una pequeña historia con números. El zorro enciende su radiografía mágica y en la pantalla aparece la historia hecha imagen. El niño la LEE con calma, coloca los números en el diagrama —inicio, cambio y resultado; o entero, parte y parte; o mayor, menor y diferencia— y marca con «?» el lugar del misterio: el dato que hay que descubrir.",

@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "pips-round.mail-route.k-cc-a-3": {
+      "about": [
+        "Pip, el ratón cartero, reparte cartas por todo el vecindario: en cada sobre viene un número escrito y tu pequeño tiene que leerlo y tocar la casa que le toca —aunque el número esté en otro tipo de letra—. A veces Pip no lo muestra: solo lo dice en voz alta, y el niño reconoce ese mismo número entre las casas.",
+        "Aquí el niño practica algo importante del inicio de la primaria: leer y reconocer los números escritos del 0 al 20. No basta con emparejar la forma —por eso el número aparece en distintas letras—, hay que leerlo de verdad. Y hay una trampa deliciosa: el 13 y el 31 usan las mismas cifras, pero no son el mismo número. Fijarse en qué cifra va adelante enseña que el orden de las cifras cambia el número.",
+        "Es una actividad gratuita, sin cronómetro, sin puntaje y sin competencia: el niño entrega las cartas a su propio ritmo, sin prisa. Está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para primer grado de primaria, dentro del eje de Sentido numérico, con los números del 0 al 20."
+      ],
+      "practices": [
+        "Leer números escritos del 0 al 20 y entregar la carta en la casa cuyo número coincide, aunque el número aparezca en otro tipo de letra.",
+        "Escuchar el número que dice Pip en voz alta y reconocer ese mismo número escrito entre las casas.",
+        "Distinguir números parecidos de la misma familia (13, 14, 15, 17), fijándose en la cifra de las unidades.",
+        "Notar la inversión de cifras: descubrir que el 13 y el 31 no son el mismo número, observando qué cifra va adelante."
+      ],
+      "howToPlay": [
+        "Lee el número de la carta —o escucha cuando Pip lo dice.",
+        "Busca la casa cuyo número coincide con ese número.",
+        "Toca la casa correcta para que Pip entregue la carta."
+      ],
+      "learningGoals": [
+        "Leer y reconocer números escritos del 0 al 20, identificándolos aunque cambie el tamaño o el tipo de letra.",
+        "Relacionar el número que se escucha en voz alta con su forma escrita.",
+        "Diferenciar números que se parecen y comprender que el orden de las cifras cambia el número (13 no es lo mismo que 31)."
+      ]
+    },
     "wondering-jar.estimate-jar.k-cc-b-5": {
       "about": [
         "Una lechuza curiosa mira un frasco lleno de dulces y le pregunta a tu pequeño: «¿cuántos crees que hay?». El niño hace su estimación —desliza una estrella en la recta numérica, o elige más o menos— y esa estimación siempre se respeta: nunca puede estar mal.",

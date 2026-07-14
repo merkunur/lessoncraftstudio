@@ -292,17 +292,20 @@
     "slug": {
       "en": "pips-round",
       "de": "zahlen-lesen-ziffern-erkennen-bis-20-klasse-1",
-      "fr": "lire-les-nombres-jusqu-a-20-cp"
+      "fr": "lire-les-nombres-jusqu-a-20-cp",
+      "es": "leer-numeros-reconocer-numeros-escritos-0-20-primaria"
     },
     "page_title": {
       "en": "Pip's Round — Read the House Numbers",
       "de": "Zahlen lernen – Ziffern bis 20 erkennen, online üben",
-      "fr": "Reconnaître les chiffres – nombres jusqu'à 20, en ligne (CP)"
+      "fr": "Reconnaître les chiffres – nombres jusqu'à 20, en ligne (CP)",
+      "es": "Leer y reconocer números escritos 0 a 20 (1.º de primaria)"
     },
     "page_intro": {
       "en": "Pip the postal mouse is on her morning round, and someone is waiting for their letter! Read the number on the envelope — or listen for it — then tap the matching house to deliver. The curtains fly open and a happy neighbor waves. A warm Kindergarten number-reading game aligned to Common Core K.CC.A.3.",
       "de": "Zahlen lernen im Kindergarten: Ziffern bis 20 lesen und erkennen – mit Pip auf Posttour. Kostenlos online üben, ohne Anmeldung.",
-      "fr": "Reconnaître les chiffres et lire les nombres jusqu'à 20 pendant la tournée du facteur Pip. Gratuit, en ligne, sans inscription."
+      "fr": "Reconnaître les chiffres et lire les nombres jusqu'à 20 pendant la tournée du facteur Pip. Gratuit, en ligne, sans inscription.",
+      "es": "El niño lee el número del sobre y toca la casa correcta: actividad gratis para reconocer números escritos del 0 al 20. Primer grado, sin registro (SEP)."
     },
     "kid_prompt_template": "mail-route"
   }

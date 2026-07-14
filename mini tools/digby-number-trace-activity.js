@@ -21,8 +21,8 @@
 
   function svg(tag, attrs) { var e = document.createElementNS(SVGNS, tag); for (var k in attrs) if (attrs.hasOwnProperty(k)) e.setAttribute(k, attrs[k]); return e; }
   function speak(text, rate) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG), rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   /* Catmull-Rom → cubic-Bézier spline that PASSES THROUGH every point. <3 → line. */
   function splinePath(pts) {
@@ -39,7 +39,7 @@
   }
 
   function dogSVG() {
-    return '<svg class="dnt-dog-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Digby der Hund' : LANG === 'fr' ? 'Digby le chien' : 'Digby the dog') + '">' +
+    return '<svg class="dnt-dog-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Digby der Hund' : LANG === 'fr' ? 'Digby le chien' : LANG === 'es' ? 'Digby el perro' : 'Digby the dog') + '">' +
       '<ellipse cx="50" cy="58" rx="22" ry="20" fill="#C79B6E"/>' +                /* head */
       '<path d="M30 40 q-10 -4 -8 16 q8 6 14 -2z" fill="#A77B4E"/>' +              /* left ear */
       '<path d="M70 40 q10 -4 8 16 q-8 6 -14 -2z" fill="#A77B4E"/>' +             /* right ear */
@@ -54,19 +54,19 @@
     id: 'digby-number-trace-activity',
 
     strings: {
-      title: { en: "Digby's Number Trace", de: 'Digbys Zahlen-Spur', fr: 'Le tracé des chiffres de Digby' },
-      instruction: { en: 'Start on the dot and trace the number.', de: 'Beginne am Punkt und spure die Zahl nach.', fr: 'Pars du point et trace le chiffre.' },
-      prompt: { en: 'Start on the dot and trace the number.', de: 'Beginne am Punkt und spure die Zahl nach.', fr: 'Pars du point et trace le chiffre.' },
-      digbyIntro: { en: "Start on the dot and trace each stroke in order!", de: 'Starte am Punkt und fahre jeden Strich der Reihe nach!', fr: 'Trace chaque trait dans l’ordre !' },
-      sayStroke: { en: 'Nice — next stroke!', de: 'Super – nächster Strich!', fr: 'Bien — trait suivant !' },
-      sayOff: { en: 'Follow the shape — start on the dot.', de: 'Bleib auf der Linie – starte am Punkt.', fr: 'Suis la forme — commence sur le point.' },
-      sayWin: { en: 'Great number! ✏️', de: 'Tolle Zahl! ✏️', fr: 'Beau chiffre ! ✏️' },
-      hintCheck: { en: 'Trace each stroke in order, starting on the dot.', de: 'Spure jeden Strich in der richtigen Reihenfolge nach – beginne am Punkt.', fr: 'Trace chaque trait dans l’ordre, en commençant sur le point.' },
-      sayWinSpoken: { en: 'Great!', de: 'Super!', fr: 'Bravo !' },
-      numlab: { en: 'Trace {d}', de: 'Schreibe die {d}', fr: 'Trace le {d}' },
-      numlabAria: { en: 'trace the number {n}', de: 'die Zahl {n} nachspuren', fr: 'trace le chiffre {n}' },
-      svgAria: { en: 'trace {n}', de: 'die {n} nachspuren', fr: 'trace le {n}' },
-      doneAria: { en: 'the number you wrote: {n}', de: 'die Zahl, die du geschrieben hast: {n}', fr: 'le chiffre que tu as écrit : {n}' }
+      title: { en: "Digby's Number Trace", de: 'Digbys Zahlen-Spur', fr: 'Le tracé des chiffres de Digby', es: 'Digby traza los números' },
+      instruction: { en: 'Start on the dot and trace the number.', de: 'Beginne am Punkt und spure die Zahl nach.', fr: 'Pars du point et trace le chiffre.', es: 'Empieza en el punto y traza el número.' },
+      prompt: { en: 'Start on the dot and trace the number.', de: 'Beginne am Punkt und spure die Zahl nach.', fr: 'Pars du point et trace le chiffre.', es: 'Empieza en el punto y traza el número.' },
+      digbyIntro: { en: "Start on the dot and trace each stroke in order!", de: 'Starte am Punkt und fahre jeden Strich der Reihe nach!', fr: 'Trace chaque trait dans l’ordre !', es: '¡Empieza en el punto y sigue cada trazo en orden!' },
+      sayStroke: { en: 'Nice — next stroke!', de: 'Super – nächster Strich!', fr: 'Bien — trait suivant !', es: '¡Muy bien! Sigue con el siguiente trazo.' },
+      sayOff: { en: 'Follow the shape — start on the dot.', de: 'Bleib auf der Linie – starte am Punkt.', fr: 'Suis la forme — commence sur le point.', es: 'No te salgas de la línea; empieza en el punto.' },
+      sayWin: { en: 'Great number! ✏️', de: 'Tolle Zahl! ✏️', fr: 'Beau chiffre ! ✏️', es: '¡Excelente número! ✏️' },
+      hintCheck: { en: 'Trace each stroke in order, starting on the dot.', de: 'Spure jeden Strich in der richtigen Reihenfolge nach – beginne am Punkt.', fr: 'Trace chaque trait dans l’ordre, en commençant sur le point.', es: 'Repasa cada trazo en el orden correcto; empieza en el punto.' },
+      sayWinSpoken: { en: 'Great!', de: 'Super!', fr: 'Bravo !', es: '¡Muy bien!' },
+      numlab: { en: 'Trace {d}', de: 'Schreibe die {d}', fr: 'Trace le {d}', es: 'Traza el {d}' },
+      numlabAria: { en: 'trace the number {n}', de: 'die Zahl {n} nachspuren', fr: 'trace le chiffre {n}', es: 'traza el número {n}' },
+      svgAria: { en: 'trace {n}', de: 'die {n} nachspuren', fr: 'trace le {n}', es: 'traza el {n}' },
+      doneAria: { en: 'the number you wrote: {n}', de: 'die Zahl, die du geschrieben hast: {n}', fr: 'le chiffre que tu as écrit : {n}', es: 'el número que escribiste: {n}' }
     },
     defaults: {},
 

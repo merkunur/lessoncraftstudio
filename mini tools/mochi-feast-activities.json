@@ -65,17 +65,20 @@
     "slug": {
       "en": "feed-mochi-counting",
       "de": "genau-so-viele-abzaehlen-menge-herstellen-klasse-1",
-      "fr": "compter-nourrir-mochi-le-bon-nombre-gs"
+      "fr": "compter-nourrir-mochi-le-bon-nombre-gs",
+      "es": "formar-conjuntos-poner-cantidad-exacta-preescolar"
     },
     "page_title": {
       "en": "Feed Mochi — Count Out Treats (Kindergarten Counting Game)",
       "de": "Menge herstellen: genau so viele abzählen – Klasse 1",
-      "fr": "Dénombrer en maternelle – donner le bon nombre, en ligne (GS)"
+      "fr": "Dénombrer en maternelle – donner le bon nombre, en ligne (GS)",
+      "es": "Formar conjuntos: pon la cantidad exacta (preescolar)"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten counting activity: feed Mochi the dumpling exactly the number of treats asked. Tap the dish to drop berries, cookies, acorns and more into the bowl one at a time, then check. The bowl filling IS the count — no numerals — so children build cardinality and learn to count out a given number of objects. Common Core K.CC.B.5.",
       "de": "Genau so viele abzählen bis 10: Füttere Mochi die richtige Anzahl Häppchen. Kostenlose, interaktive Zählübung für Klasse 1 – jetzt spielen!",
-      "fr": "Dénombrer en maternelle : compter et donner exactement le bon nombre de gourmandises à Mochi. Gratuit, en ligne, sans inscription."
+      "fr": "Dénombrer en maternelle : compter et donner exactement le bon nombre de gourmandises à Mochi. Gratuit, en ligne, sans inscription.",
+      "es": "Actividad gratis, interactiva y sin registro: el niño pone las golosinas una por una hasta formar la cantidad exacta que pide Mochi. Para preescolar (SEP)."
     },
     "kid_prompt_template": "count-out"
   }

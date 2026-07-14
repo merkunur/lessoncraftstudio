@@ -107,6 +107,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'rivets-number-forge.numeral-album.k-cc-a-3': { de: '1', fr: '1' },     // K count-enacted numeral production (Anzahl bis 20 + passende Ziffer) → Klasse 1 (ZR bis 20); en stays Kindergarten (K-cluster; digby/pips siblings precedent). fr → CP (RANGE-driven like the READ sibling pips #99: producing two-digit teen numerals 10-14 = « écrire les nombres jusqu'à 20 en chiffres » CP, not the GS 0-9 digby ceiling); strand auto-maps « Nombres et calcul »
   'mamas-roll-call.numeral-trace.k-cc-b-5': { de: '1' },                  // K count-out (self-stop) + Ziffer formen (Anzahl bis 9) → Klasse 1; en stays Kindergarten (K-cluster; mochi/twinsies K.CC.B.5 precedent)
   'parking-tower.place-by-relation.k-g-a-1': { de: '1' },                 // K Lagebeziehungen über/unter/neben/zwischen → Klasse 1 Geometrie; en stays Kindergarten (K-cluster)
+  'clock-read.tell-time.1-md-b-3': { es: '2' },                          // ES 2.º primaria (operator-ruled #73, maestra-decisive): leer/poner el reloj analógico es PRIMARIA (no preescolar); dentro de primaria el SEP «Magnitudes y medida» separa 1.º=en punto+y media, 2.º=cuartos («y cuarto»/«cuarto para las…»); el techo de la actividad es "cuarto para las…" = objetivo de 2.º → override deliberado del manifest "1" + de Klasse 1 (de/fr caen al grado 1 del manifest); strand auto «Magnitudes y medida» (no override)
   'author-purpose.why-wrote.ri-2-6': { de: '3', fr: '3' },                // judging Textfunktion/Autorintention (informieren/unterhalten/anleiten) = metatextual Klasse-3/4 (one step up from field-guide's Klasse 2); en stays Grade 2. FR CE2: identifier la VISÉE/l'intention de l'auteur (le POURQUOI) = un cran d'abstraction au-dessus du genre (bea #50 CE1); repères annuels situent « identifier la visée d'un texte » en fin de cycle 2 = CE2 → native '2' does NOT auto-map to CE1
   'juniper-story-lantern.central-message.rl-1-2': { de: '3', fr: '2' },    // die Lehre/Moral einer Fabel = abstraction + inference (Tiere stellvertretend), Klasse-3/4 Textsorte; en stays Grade 1; FR CE1: dégager la morale = inférer l'implicite (attendu CE1, PAS la compréhension littérale CP)
   'story-spine.role.rl-k-3': { de: '1' },                                 // Erzählstruktur / Anfang-Problem-Lösung = früheste Erzählkompetenz, bildgestützt + Vorlesehilfe = Klasse 1 (picture-story #82 precedent); en stays Kindergarten (K-cluster K-label)
@@ -521,7 +522,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.303';
+  const ACTIVITY_WRAPPER_VERSION = '9.304';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

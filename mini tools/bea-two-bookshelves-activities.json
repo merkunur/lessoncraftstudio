@@ -3,141 +3,747 @@
     "id": "bea-two-bookshelves.story-or-fact.rl-1-5",
     "tool": "bea-two-bookshelves-activity",
     "task_template": "story-or-fact",
-    "alignment": { "framework": "CCSS", "code": "RL.1.5", "grade": "1", "strand": "Reading: Literature" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RL.1.5",
+      "grade": "1",
+      "strand": "Reading: Literature"
+    },
     "params": {
       "rounds": [
-        { "id": "sf1", "band": 1, "ask": "story", "books": [
-          { "title": "The Sleepy Dragons", "blurb": "Two dragons go looking for a cozy nap.", "type": "story" },
-          { "title": "All About Real Bugs", "blurb": "Facts about bugs and where they live.", "type": "fact" },
-          { "title": "Diggers and Cranes", "blurb": "How real machines lift and dig.", "type": "fact" }
-        ] },
-        { "id": "sf2", "band": 1, "ask": "story", "books": [
-          { "title": "Bones in Your Body", "blurb": "The real bones that hold your body up.", "type": "fact" },
-          { "title": "Bunny's Lost Mitten", "blurb": "Bunny hops all over town to find it.", "type": "story" },
-          { "title": "How Tall Trees Grow", "blurb": "A seed becomes a tree over many years.", "type": "fact" }
-        ] },
-        { "id": "sf3", "band": 2, "ask": "story", "books": [
-          { "title": "How Bees Make Honey", "blurb": "Real bees turn flower nectar into honey.", "type": "fact" },
-          { "title": "Bones in Your Body", "blurb": "The real bones that hold your body up.", "type": "fact" },
-          { "title": "The Brave Red Boat", "blurb": "A little boat sails through a big storm.", "type": "story" }
-        ] },
-        { "id": "sf4", "band": 2, "ask": "story", "books": [
-          { "title": "How Tall Trees Grow", "blurb": "A seed becomes a tree over many years.", "type": "fact" },
-          { "title": "Goblin's Sock Hunt", "blurb": "A goblin sneaks around for missing socks.", "type": "story" },
-          { "title": "Diggers and Cranes", "blurb": "How real machines lift and dig.", "type": "fact" }
-        ] },
-        { "id": "sf5", "band": 1, "ask": "fact", "books": [
-          { "title": "Bunny's Lost Mitten", "blurb": "Bunny hops all over town to find it.", "type": "story" },
-          { "title": "Goblin's Sock Hunt", "blurb": "A goblin sneaks around for missing socks.", "type": "story" },
-          { "title": "How Bees Make Honey", "blurb": "Real bees turn flower nectar into honey.", "type": "fact" }
-        ] },
-        { "id": "sf6", "band": 2, "ask": "fact", "books": [
-          { "title": "Bones in Your Body", "blurb": "The real bones that hold your body up.", "type": "fact" },
-          { "title": "The Sleepy Dragons", "blurb": "Two dragons go looking for a cozy nap.", "type": "story" },
-          { "title": "Pip's Lucky Acorns", "blurb": "Pip plants acorns and makes a wish.", "type": "story" }
-        ] },
-        { "id": "sf7", "band": 3, "ask": "fact", "books": [
-          { "title": "Bunny's Lost Mitten", "blurb": "Bunny hops all over town to find it.", "type": "story" },
-          { "title": "The Brave Red Boat", "blurb": "A little boat sails through a big storm.", "type": "story" },
-          { "title": "How Tall Trees Grow", "blurb": "A seed becomes a tree over many years.", "type": "fact" }
-        ] },
-        { "id": "sf8", "band": 3, "ask": "fact", "books": [
-          { "title": "The Sleepy Dragons", "blurb": "Two dragons go looking for a cozy nap.", "type": "story" },
-          { "title": "Diggers and Cranes", "blurb": "How real machines lift and dig.", "type": "fact" },
-          { "title": "Goblin's Sock Hunt", "blurb": "A goblin sneaks around for missing socks.", "type": "story" }
-        ] }
+        {
+          "id": "sf1",
+          "band": 1,
+          "ask": "story",
+          "books": [
+            {
+              "title": "The Sleepy Dragons",
+              "blurb": "Two dragons go looking for a cozy nap.",
+              "type": "story"
+            },
+            {
+              "title": "All About Real Bugs",
+              "blurb": "Facts about bugs and where they live.",
+              "type": "fact"
+            },
+            {
+              "title": "Diggers and Cranes",
+              "blurb": "How real machines lift and dig.",
+              "type": "fact"
+            }
+          ]
+        },
+        {
+          "id": "sf2",
+          "band": 1,
+          "ask": "story",
+          "books": [
+            {
+              "title": "Bones in Your Body",
+              "blurb": "The real bones that hold your body up.",
+              "type": "fact"
+            },
+            {
+              "title": "Bunny's Lost Mitten",
+              "blurb": "Bunny hops all over town to find it.",
+              "type": "story"
+            },
+            {
+              "title": "How Tall Trees Grow",
+              "blurb": "A seed becomes a tree over many years.",
+              "type": "fact"
+            }
+          ]
+        },
+        {
+          "id": "sf3",
+          "band": 2,
+          "ask": "story",
+          "books": [
+            {
+              "title": "How Bees Make Honey",
+              "blurb": "Real bees turn flower nectar into honey.",
+              "type": "fact"
+            },
+            {
+              "title": "Bones in Your Body",
+              "blurb": "The real bones that hold your body up.",
+              "type": "fact"
+            },
+            {
+              "title": "The Brave Red Boat",
+              "blurb": "A little boat sails through a big storm.",
+              "type": "story"
+            }
+          ]
+        },
+        {
+          "id": "sf4",
+          "band": 2,
+          "ask": "story",
+          "books": [
+            {
+              "title": "How Tall Trees Grow",
+              "blurb": "A seed becomes a tree over many years.",
+              "type": "fact"
+            },
+            {
+              "title": "Goblin's Sock Hunt",
+              "blurb": "A goblin sneaks around for missing socks.",
+              "type": "story"
+            },
+            {
+              "title": "Diggers and Cranes",
+              "blurb": "How real machines lift and dig.",
+              "type": "fact"
+            }
+          ]
+        },
+        {
+          "id": "sf5",
+          "band": 1,
+          "ask": "fact",
+          "books": [
+            {
+              "title": "Bunny's Lost Mitten",
+              "blurb": "Bunny hops all over town to find it.",
+              "type": "story"
+            },
+            {
+              "title": "Goblin's Sock Hunt",
+              "blurb": "A goblin sneaks around for missing socks.",
+              "type": "story"
+            },
+            {
+              "title": "How Bees Make Honey",
+              "blurb": "Real bees turn flower nectar into honey.",
+              "type": "fact"
+            }
+          ]
+        },
+        {
+          "id": "sf6",
+          "band": 2,
+          "ask": "fact",
+          "books": [
+            {
+              "title": "Bones in Your Body",
+              "blurb": "The real bones that hold your body up.",
+              "type": "fact"
+            },
+            {
+              "title": "The Sleepy Dragons",
+              "blurb": "Two dragons go looking for a cozy nap.",
+              "type": "story"
+            },
+            {
+              "title": "Pip's Lucky Acorns",
+              "blurb": "Pip plants acorns and makes a wish.",
+              "type": "story"
+            }
+          ]
+        },
+        {
+          "id": "sf7",
+          "band": 3,
+          "ask": "fact",
+          "books": [
+            {
+              "title": "Bunny's Lost Mitten",
+              "blurb": "Bunny hops all over town to find it.",
+              "type": "story"
+            },
+            {
+              "title": "The Brave Red Boat",
+              "blurb": "A little boat sails through a big storm.",
+              "type": "story"
+            },
+            {
+              "title": "How Tall Trees Grow",
+              "blurb": "A seed becomes a tree over many years.",
+              "type": "fact"
+            }
+          ]
+        },
+        {
+          "id": "sf8",
+          "band": 3,
+          "ask": "fact",
+          "books": [
+            {
+              "title": "The Sleepy Dragons",
+              "blurb": "Two dragons go looking for a cozy nap.",
+              "type": "story"
+            },
+            {
+              "title": "Diggers and Cranes",
+              "blurb": "How real machines lift and dig.",
+              "type": "fact"
+            },
+            {
+              "title": "Goblin's Sock Hunt",
+              "blurb": "A goblin sneaks around for missing socks.",
+              "type": "story"
+            }
+          ]
+        }
       ],
       "roundsL10n": {
         "de": [
-          { "id": "sf1", "band": 1, "ask": "story", "books": [
-            { "title": "Die schläfrigen Drachen", "blurb": "Zwei Drachen suchen ein gemütliches Nickerchen.", "type": "story" },
-            { "title": "Alles über echte Käfer", "blurb": "Fakten über Käfer und wo sie leben.", "type": "fact" },
-            { "title": "Bagger und Kräne", "blurb": "So arbeiten echte Bagger und Kräne.", "type": "fact" }
-          ] },
-          { "id": "sf2", "band": 1, "ask": "story", "books": [
-            { "title": "Die Knochen in deinem Körper", "blurb": "Wie viele Knochen hast du wirklich?", "type": "fact" },
-            { "title": "Hoppels verlorener Fäustling", "blurb": "Hoppel sucht seinen warmen Fäustling im Schnee.", "type": "story" },
-            { "title": "Wie Bäume so hoch wachsen", "blurb": "Echte Fakten, wie Bäume groß werden.", "type": "fact" }
-          ] },
-          { "id": "sf3", "band": 2, "ask": "story", "books": [
-            { "title": "Wie Bienen Honig machen", "blurb": "So machen echte Bienen ihren Honig.", "type": "fact" },
-            { "title": "Das mutige rote Boot", "blurb": "Ein kleines Boot segelt mutig durch den Sturm.", "type": "story" },
-            { "title": "Alles über echte Käfer", "blurb": "Fakten über Käfer und wo sie leben.", "type": "fact" }
-          ] },
-          { "id": "sf4", "band": 2, "ask": "story", "books": [
-            { "title": "Bagger und Kräne", "blurb": "So arbeiten echte Bagger und Kräne.", "type": "fact" },
-            { "title": "Die Knochen in deinem Körper", "blurb": "Wie viele Knochen hast du wirklich?", "type": "fact" },
-            { "title": "Der Kobold sucht seine Socke", "blurb": "Ein Kobold jagt seiner verlorenen Socke nach.", "type": "story" }
-          ] },
-          { "id": "sf5", "band": 1, "ask": "fact", "books": [
-            { "title": "Die schläfrigen Drachen", "blurb": "Zwei Drachen suchen ein gemütliches Nickerchen.", "type": "story" },
-            { "title": "Alles über echte Käfer", "blurb": "Fakten über Käfer und wo sie leben.", "type": "fact" },
-            { "title": "Pips Glückseicheln", "blurb": "Eichhörnchen Pip sammelt drei Glückseicheln.", "type": "story" }
-          ] },
-          { "id": "sf6", "band": 2, "ask": "fact", "books": [
-            { "title": "Hoppels verlorener Fäustling", "blurb": "Hoppel sucht seinen warmen Fäustling im Schnee.", "type": "story" },
-            { "title": "Bagger und Kräne", "blurb": "So arbeiten echte Bagger und Kräne.", "type": "fact" },
-            { "title": "Das mutige rote Boot", "blurb": "Ein kleines Boot segelt mutig durch den Sturm.", "type": "story" }
-          ] },
-          { "id": "sf7", "band": 3, "ask": "fact", "books": [
-            { "title": "Der Kobold sucht seine Socke", "blurb": "Ein Kobold jagt seiner verlorenen Socke nach.", "type": "story" },
-            { "title": "Die Knochen in deinem Körper", "blurb": "Wie viele Knochen hast du wirklich?", "type": "fact" },
-            { "title": "Pips Glückseicheln", "blurb": "Eichhörnchen Pip sammelt drei Glückseicheln.", "type": "story" }
-          ] },
-          { "id": "sf8", "band": 3, "ask": "fact", "books": [
-            { "title": "Die schläfrigen Drachen", "blurb": "Zwei Drachen suchen ein gemütliches Nickerchen.", "type": "story" },
-            { "title": "Wie Bäume so hoch wachsen", "blurb": "Echte Fakten, wie Bäume groß werden.", "type": "fact" },
-            { "title": "Das mutige rote Boot", "blurb": "Ein kleines Boot segelt mutig durch den Sturm.", "type": "story" }
-          ] }
+          {
+            "id": "sf1",
+            "band": 1,
+            "ask": "story",
+            "books": [
+              {
+                "title": "Die schläfrigen Drachen",
+                "blurb": "Zwei Drachen suchen ein gemütliches Nickerchen.",
+                "type": "story"
+              },
+              {
+                "title": "Alles über echte Käfer",
+                "blurb": "Fakten über Käfer und wo sie leben.",
+                "type": "fact"
+              },
+              {
+                "title": "Bagger und Kräne",
+                "blurb": "So arbeiten echte Bagger und Kräne.",
+                "type": "fact"
+              }
+            ]
+          },
+          {
+            "id": "sf2",
+            "band": 1,
+            "ask": "story",
+            "books": [
+              {
+                "title": "Die Knochen in deinem Körper",
+                "blurb": "Wie viele Knochen hast du wirklich?",
+                "type": "fact"
+              },
+              {
+                "title": "Hoppels verlorener Fäustling",
+                "blurb": "Hoppel sucht seinen warmen Fäustling im Schnee.",
+                "type": "story"
+              },
+              {
+                "title": "Wie Bäume so hoch wachsen",
+                "blurb": "Echte Fakten, wie Bäume groß werden.",
+                "type": "fact"
+              }
+            ]
+          },
+          {
+            "id": "sf3",
+            "band": 2,
+            "ask": "story",
+            "books": [
+              {
+                "title": "Wie Bienen Honig machen",
+                "blurb": "So machen echte Bienen ihren Honig.",
+                "type": "fact"
+              },
+              {
+                "title": "Das mutige rote Boot",
+                "blurb": "Ein kleines Boot segelt mutig durch den Sturm.",
+                "type": "story"
+              },
+              {
+                "title": "Alles über echte Käfer",
+                "blurb": "Fakten über Käfer und wo sie leben.",
+                "type": "fact"
+              }
+            ]
+          },
+          {
+            "id": "sf4",
+            "band": 2,
+            "ask": "story",
+            "books": [
+              {
+                "title": "Bagger und Kräne",
+                "blurb": "So arbeiten echte Bagger und Kräne.",
+                "type": "fact"
+              },
+              {
+                "title": "Die Knochen in deinem Körper",
+                "blurb": "Wie viele Knochen hast du wirklich?",
+                "type": "fact"
+              },
+              {
+                "title": "Der Kobold sucht seine Socke",
+                "blurb": "Ein Kobold jagt seiner verlorenen Socke nach.",
+                "type": "story"
+              }
+            ]
+          },
+          {
+            "id": "sf5",
+            "band": 1,
+            "ask": "fact",
+            "books": [
+              {
+                "title": "Die schläfrigen Drachen",
+                "blurb": "Zwei Drachen suchen ein gemütliches Nickerchen.",
+                "type": "story"
+              },
+              {
+                "title": "Alles über echte Käfer",
+                "blurb": "Fakten über Käfer und wo sie leben.",
+                "type": "fact"
+              },
+              {
+                "title": "Pips Glückseicheln",
+                "blurb": "Eichhörnchen Pip sammelt drei Glückseicheln.",
+                "type": "story"
+              }
+            ]
+          },
+          {
+            "id": "sf6",
+            "band": 2,
+            "ask": "fact",
+            "books": [
+              {
+                "title": "Hoppels verlorener Fäustling",
+                "blurb": "Hoppel sucht seinen warmen Fäustling im Schnee.",
+                "type": "story"
+              },
+              {
+                "title": "Bagger und Kräne",
+                "blurb": "So arbeiten echte Bagger und Kräne.",
+                "type": "fact"
+              },
+              {
+                "title": "Das mutige rote Boot",
+                "blurb": "Ein kleines Boot segelt mutig durch den Sturm.",
+                "type": "story"
+              }
+            ]
+          },
+          {
+            "id": "sf7",
+            "band": 3,
+            "ask": "fact",
+            "books": [
+              {
+                "title": "Der Kobold sucht seine Socke",
+                "blurb": "Ein Kobold jagt seiner verlorenen Socke nach.",
+                "type": "story"
+              },
+              {
+                "title": "Die Knochen in deinem Körper",
+                "blurb": "Wie viele Knochen hast du wirklich?",
+                "type": "fact"
+              },
+              {
+                "title": "Pips Glückseicheln",
+                "blurb": "Eichhörnchen Pip sammelt drei Glückseicheln.",
+                "type": "story"
+              }
+            ]
+          },
+          {
+            "id": "sf8",
+            "band": 3,
+            "ask": "fact",
+            "books": [
+              {
+                "title": "Die schläfrigen Drachen",
+                "blurb": "Zwei Drachen suchen ein gemütliches Nickerchen.",
+                "type": "story"
+              },
+              {
+                "title": "Wie Bäume so hoch wachsen",
+                "blurb": "Echte Fakten, wie Bäume groß werden.",
+                "type": "fact"
+              },
+              {
+                "title": "Das mutige rote Boot",
+                "blurb": "Ein kleines Boot segelt mutig durch den Sturm.",
+                "type": "story"
+              }
+            ]
+          }
         ],
         "fr": [
-          { "id": "sf1", "band": 1, "ask": "story", "books": [
-            { "title": "Les deux dragons endormis", "blurb": "Deux dragons cherchent un coin doux pour faire la sieste.", "type": "story" },
-            { "title": "Tout sur les insectes", "blurb": "Des infos sur les vrais insectes et leur maison.", "type": "fact" },
-            { "title": "Les pelleteuses et les grues", "blurb": "Comment les vraies machines creusent et soulèvent.", "type": "fact" }
-          ] },
-          { "id": "sf2", "band": 1, "ask": "story", "books": [
-            { "title": "Les os de ton corps", "blurb": "Les vrais os qui tiennent ton corps debout.", "type": "fact" },
-            { "title": "La moufle perdue de Lapin", "blurb": "Lapin saute partout dans la ville pour la retrouver.", "type": "story" },
-            { "title": "Comment poussent les grands arbres", "blurb": "Comment une graine devient un arbre, pour de vrai.", "type": "fact" }
-          ] },
-          { "id": "sf3", "band": 2, "ask": "story", "books": [
-            { "title": "Comment les abeilles font le miel", "blurb": "Comment les vraies abeilles fabriquent leur miel.", "type": "fact" },
-            { "title": "Les os de ton corps", "blurb": "Les vrais os qui tiennent ton corps debout.", "type": "fact" },
-            { "title": "Le courageux petit bateau rouge", "blurb": "Un petit bateau navigue à travers une grande tempête.", "type": "story" }
-          ] },
-          { "id": "sf4", "band": 2, "ask": "story", "books": [
-            { "title": "Comment poussent les grands arbres", "blurb": "Comment une graine devient un arbre, pour de vrai.", "type": "fact" },
-            { "title": "Le lutin et les chaussettes", "blurb": "Un lutin cherche partout des chaussettes disparues.", "type": "story" },
-            { "title": "Les pelleteuses et les grues", "blurb": "Comment les vraies machines creusent et soulèvent.", "type": "fact" }
-          ] },
-          { "id": "sf5", "band": 1, "ask": "fact", "books": [
-            { "title": "La moufle perdue de Lapin", "blurb": "Lapin saute partout dans la ville pour la retrouver.", "type": "story" },
-            { "title": "Le lutin et les chaussettes", "blurb": "Un lutin cherche partout des chaussettes disparues.", "type": "story" },
-            { "title": "Comment les abeilles font le miel", "blurb": "Comment les vraies abeilles fabriquent leur miel.", "type": "fact" }
-          ] },
-          { "id": "sf6", "band": 2, "ask": "fact", "books": [
-            { "title": "Les os de ton corps", "blurb": "Les vrais os qui tiennent ton corps debout.", "type": "fact" },
-            { "title": "Les deux dragons endormis", "blurb": "Deux dragons cherchent un coin doux pour faire la sieste.", "type": "story" },
-            { "title": "Les glands magiques de Pip", "blurb": "Pip l’écureuil plante des glands et fait un vœu.", "type": "story" }
-          ] },
-          { "id": "sf7", "band": 3, "ask": "fact", "books": [
-            { "title": "La moufle perdue de Lapin", "blurb": "Lapin saute partout dans la ville pour la retrouver.", "type": "story" },
-            { "title": "Le courageux petit bateau rouge", "blurb": "Un petit bateau navigue à travers une grande tempête.", "type": "story" },
-            { "title": "Comment poussent les grands arbres", "blurb": "Comment une graine devient un arbre, pour de vrai.", "type": "fact" }
-          ] },
-          { "id": "sf8", "band": 3, "ask": "fact", "books": [
-            { "title": "Les deux dragons endormis", "blurb": "Deux dragons cherchent un coin doux pour faire la sieste.", "type": "story" },
-            { "title": "Les pelleteuses et les grues", "blurb": "Comment les vraies machines creusent et soulèvent.", "type": "fact" },
-            { "title": "Le lutin et les chaussettes", "blurb": "Un lutin cherche partout des chaussettes disparues.", "type": "story" }
-          ] }
+          {
+            "id": "sf1",
+            "band": 1,
+            "ask": "story",
+            "books": [
+              {
+                "title": "Les deux dragons endormis",
+                "blurb": "Deux dragons cherchent un coin doux pour faire la sieste.",
+                "type": "story"
+              },
+              {
+                "title": "Tout sur les insectes",
+                "blurb": "Des infos sur les vrais insectes et leur maison.",
+                "type": "fact"
+              },
+              {
+                "title": "Les pelleteuses et les grues",
+                "blurb": "Comment les vraies machines creusent et soulèvent.",
+                "type": "fact"
+              }
+            ]
+          },
+          {
+            "id": "sf2",
+            "band": 1,
+            "ask": "story",
+            "books": [
+              {
+                "title": "Les os de ton corps",
+                "blurb": "Les vrais os qui tiennent ton corps debout.",
+                "type": "fact"
+              },
+              {
+                "title": "La moufle perdue de Lapin",
+                "blurb": "Lapin saute partout dans la ville pour la retrouver.",
+                "type": "story"
+              },
+              {
+                "title": "Comment poussent les grands arbres",
+                "blurb": "Comment une graine devient un arbre, pour de vrai.",
+                "type": "fact"
+              }
+            ]
+          },
+          {
+            "id": "sf3",
+            "band": 2,
+            "ask": "story",
+            "books": [
+              {
+                "title": "Comment les abeilles font le miel",
+                "blurb": "Comment les vraies abeilles fabriquent leur miel.",
+                "type": "fact"
+              },
+              {
+                "title": "Les os de ton corps",
+                "blurb": "Les vrais os qui tiennent ton corps debout.",
+                "type": "fact"
+              },
+              {
+                "title": "Le courageux petit bateau rouge",
+                "blurb": "Un petit bateau navigue à travers une grande tempête.",
+                "type": "story"
+              }
+            ]
+          },
+          {
+            "id": "sf4",
+            "band": 2,
+            "ask": "story",
+            "books": [
+              {
+                "title": "Comment poussent les grands arbres",
+                "blurb": "Comment une graine devient un arbre, pour de vrai.",
+                "type": "fact"
+              },
+              {
+                "title": "Le lutin et les chaussettes",
+                "blurb": "Un lutin cherche partout des chaussettes disparues.",
+                "type": "story"
+              },
+              {
+                "title": "Les pelleteuses et les grues",
+                "blurb": "Comment les vraies machines creusent et soulèvent.",
+                "type": "fact"
+              }
+            ]
+          },
+          {
+            "id": "sf5",
+            "band": 1,
+            "ask": "fact",
+            "books": [
+              {
+                "title": "La moufle perdue de Lapin",
+                "blurb": "Lapin saute partout dans la ville pour la retrouver.",
+                "type": "story"
+              },
+              {
+                "title": "Le lutin et les chaussettes",
+                "blurb": "Un lutin cherche partout des chaussettes disparues.",
+                "type": "story"
+              },
+              {
+                "title": "Comment les abeilles font le miel",
+                "blurb": "Comment les vraies abeilles fabriquent leur miel.",
+                "type": "fact"
+              }
+            ]
+          },
+          {
+            "id": "sf6",
+            "band": 2,
+            "ask": "fact",
+            "books": [
+              {
+                "title": "Les os de ton corps",
+                "blurb": "Les vrais os qui tiennent ton corps debout.",
+                "type": "fact"
+              },
+              {
+                "title": "Les deux dragons endormis",
+                "blurb": "Deux dragons cherchent un coin doux pour faire la sieste.",
+                "type": "story"
+              },
+              {
+                "title": "Les glands magiques de Pip",
+                "blurb": "Pip l’écureuil plante des glands et fait un vœu.",
+                "type": "story"
+              }
+            ]
+          },
+          {
+            "id": "sf7",
+            "band": 3,
+            "ask": "fact",
+            "books": [
+              {
+                "title": "La moufle perdue de Lapin",
+                "blurb": "Lapin saute partout dans la ville pour la retrouver.",
+                "type": "story"
+              },
+              {
+                "title": "Le courageux petit bateau rouge",
+                "blurb": "Un petit bateau navigue à travers une grande tempête.",
+                "type": "story"
+              },
+              {
+                "title": "Comment poussent les grands arbres",
+                "blurb": "Comment une graine devient un arbre, pour de vrai.",
+                "type": "fact"
+              }
+            ]
+          },
+          {
+            "id": "sf8",
+            "band": 3,
+            "ask": "fact",
+            "books": [
+              {
+                "title": "Les deux dragons endormis",
+                "blurb": "Deux dragons cherchent un coin doux pour faire la sieste.",
+                "type": "story"
+              },
+              {
+                "title": "Les pelleteuses et les grues",
+                "blurb": "Comment les vraies machines creusent et soulèvent.",
+                "type": "fact"
+              },
+              {
+                "title": "Le lutin et les chaussettes",
+                "blurb": "Un lutin cherche partout des chaussettes disparues.",
+                "type": "story"
+              }
+            ]
+          }
+        ],
+        "es": [
+          {
+            "id": "sf1",
+            "band": 1,
+            "ask": "story",
+            "books": [
+              {
+                "title": "Los huesos de tu cuerpo",
+                "blurb": "Tienes huesos reales dentro de ti.",
+                "type": "fact"
+              },
+              {
+                "title": "Los dragones dormilones",
+                "blurb": "Había una vez dos dragones muy dormilones.",
+                "type": "story"
+              },
+              {
+                "title": "Cómo trabajan las máquinas grandes",
+                "blurb": "Máquinas reales: la grúa y el tractor.",
+                "type": "fact"
+              }
+            ]
+          },
+          {
+            "id": "sf2",
+            "band": 1,
+            "ask": "fact",
+            "books": [
+              {
+                "title": "Los dragones dormilones",
+                "blurb": "Había una vez dos dragones muy dormilones.",
+                "type": "story"
+              },
+              {
+                "title": "El duende y su calcetín",
+                "blurb": "Nico, el duende, no encuentra su calcetín.",
+                "type": "story"
+              },
+              {
+                "title": "Los huesos de tu cuerpo",
+                "blurb": "Tienes huesos reales dentro de ti.",
+                "type": "fact"
+              }
+            ]
+          },
+          {
+            "id": "sf3",
+            "band": 2,
+            "ask": "story",
+            "books": [
+              {
+                "title": "El duende y su calcetín",
+                "blurb": "Nico, el duende, no encuentra su calcetín.",
+                "type": "story"
+              },
+              {
+                "title": "Todo sobre los insectos",
+                "blurb": "Insectos de verdad: patas, alas y antenas.",
+                "type": "fact"
+              },
+              {
+                "title": "¿Cómo crecen los árboles?",
+                "blurb": "Datos curiosos de los árboles más altos.",
+                "type": "fact"
+              }
+            ]
+          },
+          {
+            "id": "sf4",
+            "band": 2,
+            "ask": "fact",
+            "books": [
+              {
+                "title": "Lucho, el barquito valiente",
+                "blurb": "Lucho, el barquito, no quería mojarse.",
+                "type": "story"
+              },
+              {
+                "title": "Tito y su sombrero",
+                "blurb": "Había una vez un conejo llamado Tito.",
+                "type": "story"
+              },
+              {
+                "title": "Cómo trabajan las máquinas grandes",
+                "blurb": "Máquinas reales: la grúa y el tractor.",
+                "type": "fact"
+              }
+            ]
+          },
+          {
+            "id": "sf5",
+            "band": 1,
+            "ask": "story",
+            "books": [
+              {
+                "title": "¿Cómo crecen los árboles?",
+                "blurb": "Datos curiosos de los árboles más altos.",
+                "type": "fact"
+              },
+              {
+                "title": "Lucho, el barquito valiente",
+                "blurb": "Lucho, el barquito, no quería mojarse.",
+                "type": "story"
+              },
+              {
+                "title": "¿Cómo hacen la miel?",
+                "blurb": "Abejas de verdad y su rica miel.",
+                "type": "fact"
+              }
+            ]
+          },
+          {
+            "id": "sf6",
+            "band": 2,
+            "ask": "fact",
+            "books": [
+              {
+                "title": "¿Cómo crecen los árboles?",
+                "blurb": "Datos curiosos de los árboles más altos.",
+                "type": "fact"
+              },
+              {
+                "title": "La ardilla que quiere volar",
+                "blurb": "Pip sueña con volar muy alto.",
+                "type": "story"
+              },
+              {
+                "title": "Tito y su sombrero",
+                "blurb": "Había una vez un conejo llamado Tito.",
+                "type": "story"
+              }
+            ]
+          },
+          {
+            "id": "sf7",
+            "band": 3,
+            "ask": "story",
+            "books": [
+              {
+                "title": "Todo sobre los insectos",
+                "blurb": "Insectos de verdad: patas, alas y antenas.",
+                "type": "fact"
+              },
+              {
+                "title": "¿Cómo hacen la miel?",
+                "blurb": "Abejas de verdad y su rica miel.",
+                "type": "fact"
+              },
+              {
+                "title": "La ardilla que quiere volar",
+                "blurb": "Pip sueña con volar muy alto.",
+                "type": "story"
+              }
+            ]
+          },
+          {
+            "id": "sf8",
+            "band": 3,
+            "ask": "fact",
+            "books": [
+              {
+                "title": "Todo sobre los insectos",
+                "blurb": "Insectos de verdad: patas, alas y antenas.",
+                "type": "fact"
+              },
+              {
+                "title": "La ardilla que quiere volar",
+                "blurb": "Pip sueña con volar muy alto.",
+                "type": "story"
+              },
+              {
+                "title": "Tito y su sombrero",
+                "blurb": "Había una vez un conejo llamado Tito.",
+                "type": "story"
+              }
+            ]
+          }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "bea-two-bookshelves", "de": "geschichte-oder-sachbuch-textsorten-unterscheiden-klasse-1", "fr": "histoire-ou-documentaire-cp" },
-    "page_title": { "en": "Bea's Two Bookshelves — Story Book or Fact Book? (Grade 1)", "de": "Geschichte oder Sachbuch? Textsorten unterscheiden", "fr": "Les deux étagères de Bea — Récit ou documentaire ? (CP)" },
-    "page_intro": { "en": "Bea the bookworm keeps two bookshelves: one for STORY books that tell a make-believe tale, and one for FACT books that teach you about real things. Read the three book covers, then tap the one Bea asks for — a make-believe story, or a book of real facts. A Grade 1 reading game about telling story books from informational books, aligned to Common Core RL.1.5.", "de": "Geschichte oder Sachbuch? Erkenne am Buchdeckel, ob ein Buch eine erfundene Geschichte erzählt oder als Sachbuch echte Infos zeigt. Kostenlos und interaktiv für Klasse 1 – jetzt mit Bea üben!", "fr": "Bea, un petit ver de livre, a deux étagères : une pour les livres qui racontent une histoire inventée, une pour les livres documentaires qui expliquent de vraies choses. À chaque tour, votre enfant regarde trois livres et tape celui que Bea demande : un récit ou un documentaire. Un jeu de lecture gratuit et interactif, à jouer dans le navigateur." },
+    "slug": {
+      "en": "bea-two-bookshelves",
+      "de": "geschichte-oder-sachbuch-textsorten-unterscheiden-klasse-1",
+      "fr": "histoire-ou-documentaire-cp",
+      "es": "cuento-o-texto-informativo-tipos-de-texto-primer-grado"
+    },
+    "page_title": {
+      "en": "Bea's Two Bookshelves — Story Book or Fact Book? (Grade 1)",
+      "de": "Geschichte oder Sachbuch? Textsorten unterscheiden",
+      "fr": "Les deux étagères de Bea — Récit ou documentaire ? (CP)",
+      "es": "Cuento o texto informativo: tipos de texto 1.º de primaria"
+    },
+    "page_intro": {
+      "en": "Bea the bookworm keeps two bookshelves: one for STORY books that tell a make-believe tale, and one for FACT books that teach you about real things. Read the three book covers, then tap the one Bea asks for — a make-believe story, or a book of real facts. A Grade 1 reading game about telling story books from informational books, aligned to Common Core RL.1.5.",
+      "de": "Geschichte oder Sachbuch? Erkenne am Buchdeckel, ob ein Buch eine erfundene Geschichte erzählt oder als Sachbuch echte Infos zeigt. Kostenlos und interaktiv für Klasse 1 – jetzt mit Bea üben!",
+      "fr": "Bea, un petit ver de livre, a deux étagères : une pour les livres qui racontent une histoire inventée, une pour les livres documentaires qui expliquent de vraies choses. À chaque tour, votre enfant regarde trois livres et tape celui que Bea demande : un récit ou un documentaire. Un jeu de lecture gratuit et interactif, à jouer dans le navigateur.",
+      "es": "Distingue el cuento del texto informativo mirando la portada: ayuda a Bea con sus libreros. Tipos de texto para 1.º de primaria, gratis, en línea y sin registro."
+    },
     "kid_prompt_template": "Tap the story book, or the fact book, that Bea asks for."
   }
 ]

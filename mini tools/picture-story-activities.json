@@ -382,6 +382,85 @@
               }
             ]
           }
+        },
+        "es": {
+          "mitten": {
+            "title": "El guante perdido",
+            "panels": [
+              {
+                "caption": "Bo el conejo brincó en la nieve.",
+                "glyphs": [
+                  "bunny",
+                  "snow"
+                ]
+              },
+              {
+                "caption": "Un guante rojo se cayó junto al árbol.",
+                "glyphs": [
+                  "tree",
+                  "mitten"
+                ]
+              },
+              {
+                "caption": "Un pájaro lo encontró y llamó a Bo.",
+                "glyphs": [
+                  "bird",
+                  "mitten"
+                ]
+              }
+            ]
+          },
+          "carrot": {
+            "title": "La zanahoria atorada",
+            "panels": [
+              {
+                "caption": "Millie la ratona encontró una zanahoria gigante.",
+                "glyphs": [
+                  "mouse",
+                  "carrot"
+                ]
+              },
+              {
+                "caption": "Jaló la zanahoria una y otra vez, pero estaba atorada.",
+                "glyphs": [
+                  "mouse",
+                  "carrot"
+                ]
+              },
+              {
+                "caption": "Su amiga llegó a ayudar y ¡zas!, la zanahoria salió.",
+                "glyphs": [
+                  "friend",
+                  "carrot"
+                ]
+              }
+            ]
+          },
+          "picnic": {
+            "title": "El día de campo bajo la lluvia",
+            "panels": [
+              {
+                "caption": "Dos amigos se sentaron para un día de campo.",
+                "glyphs": [
+                  "friend",
+                  "basket"
+                ]
+              },
+              {
+                "caption": "Luego llegaron nubes grises y llovió.",
+                "glyphs": [
+                  "rain"
+                ]
+              },
+              {
+                "caption": "Comieron bajo un paraguas grande, muy contentos.",
+                "glyphs": [
+                  "umbrella",
+                  "friend"
+                ]
+              }
+            ]
+          }
         }
       },
       "roundsL10n": {
@@ -652,23 +731,160 @@
               "en colère"
             ]
           }
+        ],
+        "es": [
+          {
+            "id": "ps-mit-who",
+            "storyId": "mitten",
+            "qtype": "who",
+            "prompt": "¿Quién brincó en la nieve?",
+            "answer": "Bo el conejo",
+            "options": [
+              "Bo el conejo",
+              "un oso dormilón",
+              "una rana verde"
+            ]
+          },
+          {
+            "id": "ps-mit-what",
+            "storyId": "mitten",
+            "qtype": "what",
+            "prompt": "¿Qué se cayó en la nieve?",
+            "answer": "un guante rojo",
+            "options": [
+              "un guante rojo",
+              "un gorro azul",
+              "una bufanda de lana"
+            ]
+          },
+          {
+            "id": "ps-mit-where",
+            "storyId": "mitten",
+            "qtype": "where",
+            "prompt": "¿Dónde se cayó el guante?",
+            "answer": "junto al árbol",
+            "options": [
+              "junto al árbol",
+              "junto a un charco",
+              "en una colina"
+            ]
+          },
+          {
+            "id": "ps-mit-order",
+            "storyId": "mitten",
+            "qtype": "order",
+            "prompt": "¿Qué pasó PRIMERO?",
+            "answer": "Bo brincó en la nieve",
+            "options": [
+              "Bo brincó en la nieve",
+              "Un pájaro encontró el guante",
+              "El guante se cayó"
+            ]
+          },
+          {
+            "id": "ps-car-who",
+            "storyId": "carrot",
+            "qtype": "who",
+            "prompt": "¿Quién encontró la zanahoria?",
+            "answer": "Millie la ratona",
+            "options": [
+              "Millie la ratona",
+              "Bo el conejo",
+              "un cuervo grande"
+            ]
+          },
+          {
+            "id": "ps-car-what",
+            "storyId": "carrot",
+            "qtype": "what",
+            "prompt": "¿Qué encontró Millie?",
+            "answer": "una zanahoria gigante",
+            "options": [
+              "una zanahoria gigante",
+              "una piedra brillante",
+              "una llave perdida"
+            ]
+          },
+          {
+            "id": "ps-car-why",
+            "storyId": "carrot",
+            "qtype": "why",
+            "prompt": "¿Por qué Millie no pudo sacar la zanahoria?",
+            "answer": "estaba atorada",
+            "options": [
+              "estaba atorada",
+              "estaba muy chiquita",
+              "rodó muy lejos"
+            ]
+          },
+          {
+            "id": "ps-car-order",
+            "storyId": "carrot",
+            "qtype": "order",
+            "prompt": "¿Qué pasó AL FINAL?",
+            "answer": "la zanahoria salió",
+            "options": [
+              "la zanahoria salió",
+              "Millie encontró la zanahoria",
+              "Millie jaló la zanahoria"
+            ]
+          },
+          {
+            "id": "ps-pic-what",
+            "storyId": "picnic",
+            "qtype": "what",
+            "prompt": "¿Qué hacían los dos amigos?",
+            "answer": "un día de campo",
+            "options": [
+              "un día de campo",
+              "un juego de pelota",
+              "una siesta cortita"
+            ]
+          },
+          {
+            "id": "ps-pic-why",
+            "storyId": "picnic",
+            "qtype": "why",
+            "prompt": "¿Por qué los amigos se metieron bajo el paraguas?",
+            "answer": "porque llovió",
+            "options": [
+              "porque llovió",
+              "porque hacía viento",
+              "porque tenían sueño"
+            ]
+          },
+          {
+            "id": "ps-pic-feel",
+            "storyId": "picnic",
+            "qtype": "feeling",
+            "prompt": "¿Cómo se sentían los amigos al final?",
+            "answer": "contentos",
+            "options": [
+              "contentos",
+              "asustados",
+              "enojados"
+            ]
+          }
         ]
       }
     },
     "slug": {
       "en": "story-key-details",
       "de": "leseverstaendnis-geschichte-fragen-beantworten-klasse-1",
-      "fr": "lire-une-histoire-et-repondre-aux-questions"
+      "fr": "lire-une-histoire-et-repondre-aux-questions",
+      "es": "cuentos-cortos-con-preguntas-primer-grado"
     },
     "page_title": {
       "en": "Fable's Picture Stories — Story Key Details (Kindergarten)",
       "de": "Lesetexte Klasse 1 – Geschichte online lesen und verstehen",
-      "fr": "Apprendre à lire en s'amusant – histoire en ligne (GS-CP)"
+      "fr": "Apprendre à lire en s'amusant – histoire en ligne (GS-CP)",
+      "es": "Cuentos cortos con preguntas en línea para primer grado"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten reading activity: read a short three-picture story with Fable the fox, then answer questions about the key details — who is in the story, what happens, where it takes place, what happened first and last, and why. A friendly, picture-and-caption way to build early story comprehension. Common Core RL.K.1.",
       "de": "Lesetexte für Klasse 1: eine kurze Geschichte lesen und Fragen zum Text beantworten. Kostenlos online, ohne Anmeldung – Leseverständnis üben.",
-      "fr": "Apprendre à lire en s'amusant : lire une petite histoire avec Fable et répondre aux questions. Gratuit, en ligne, sans inscription."
+      "fr": "Apprendre à lire en s'amusant : lire une petite histoire avec Fable et répondre aux questions. Gratuit, en ligne, sans inscription.",
+      "es": "Cuento corto en imágenes: el niño lee, escucha y responde preguntas sobre quién, qué, dónde y por qué. Actividad de primer grado, gratis y en línea, sin registro."
     },
     "kid_prompt_template": "picture-story"
   }

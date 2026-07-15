@@ -33,6 +33,15 @@
       win: 'Oui ! {note}', winNote: 'Tu t’es rappelé toute l’histoire !',
       nudge: 'Regarde encore les images — la réponse est dans l’histoire.',
       hear: '🔊 Écouter l’histoire'
+    },
+    /* es: «cuento», NEVER «historia» — in Spanish «historia» means both *History* (the school
+       subject) and *a TRUE account*, and the sibling bea-two-bookshelves teaches literally
+       cuento-vs-texto-informativo (fiction vs truth), so «historia» would blur the very
+       distinction the platform teaches one door over. */
+    es: {
+      win: '¡Sí! {note}', winNote: '¡Te acordaste del cuento!',
+      nudge: 'Mira otra vez los dibujos: la respuesta está en el cuento.',
+      hear: '🔊 Escuchar el cuento'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -75,9 +84,16 @@
   var PictureStoryActivity = {
     id: 'picture-story-activity',
     strings: {
-      title: { en: "Fable's Picture Stories", de: 'Fabels Bildergeschichten', fr: 'Les histoires de Fable' },
-      instruction: { en: 'Read the little story with Fable the fox, then answer about it!', de: 'Lies die kleine Geschichte mit Fabel dem Fuchs und beantworte dann die Frage!', fr: 'Lis la petite histoire avec Fable le renard, puis réponds !' },
-      q: { en: '{q}', de: '{q}', fr: '{q}' }
+      /* es character = «Fabio el zorro» — the EN/de *fable* pun is DELIBERATELY dropped: «fábula»
+         is a CURRICULAR TERM in Spanish naming a specific genre (animals + moraleja), these 3
+         cuentos have none, and the sibling juniper-story-lantern teaches exactly la moraleja →
+         «Fábula» would assert a false genre on a platform that also teaches the real one.
+         🚨 PERMANENT: the fox is ALWAYS masculine «el zorro». «la zorra» is a sexual insult in
+         Spanish — never feminize the character in any string, aria, alt-text or future variant.
+         The `instruction` carries «el zorro» explicitly, which makes the masculinity visible. */
+      title: { en: "Fable's Picture Stories", de: 'Fabels Bildergeschichten', fr: 'Les histoires de Fable', es: 'Los cuentos de Fabio' },
+      instruction: { en: 'Read the little story with Fable the fox, then answer about it!', de: 'Lies die kleine Geschichte mit Fabel dem Fuchs und beantworte dann die Frage!', fr: 'Lis la petite histoire avec Fable le renard, puis réponds !', es: '¡Lee el cuento con Fabio el zorro y luego contesta!' },
+      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}' }
     },
 
     init: function (api) {
@@ -197,7 +213,7 @@
       var hear = el('button', 'ps-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
         var t = (story.panels || []).map(function (p) { return p.caption; }).join('. ');
-        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: LANG, rate: 0.9 }); } catch (e) { } }
+        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: (LANG === 'es' ? 'es-MX' : LANG), rate: 0.9 }); } catch (e) { } }
       });
       root.appendChild(hear);
     },

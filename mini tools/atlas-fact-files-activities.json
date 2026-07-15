@@ -304,6 +304,104 @@
               "le ciel"
             ]
           }
+        ],
+        "es": [
+          {
+            "id": "bees",
+            "band": 1,
+            "fact": "Las abejas viven en una colmena. Hacen miel dulce.",
+            "question": "¿Dónde viven las abejas?",
+            "answer": "en una colmena",
+            "options": [
+              "en una cueva",
+              "en una colmena",
+              "en una charca"
+            ]
+          },
+          {
+            "id": "frog",
+            "band": 1,
+            "fact": "La rana tiene patas largas. Come moscas chicas.",
+            "question": "¿Qué come la rana?",
+            "answer": "moscas chicas",
+            "options": [
+              "moscas chicas",
+              "hojas verdes",
+              "peces chicos"
+            ]
+          },
+          {
+            "id": "sun",
+            "band": 1,
+            "fact": "El sol nos da luz. Brilla en el día.",
+            "question": "¿Cuándo brilla el sol?",
+            "answer": "en el día",
+            "options": [
+              "en la noche",
+              "en la cueva",
+              "en el día"
+            ]
+          },
+          {
+            "id": "penguin",
+            "band": 2,
+            "fact": "El pingüino tiene alas negras. Vive en el hielo frío.",
+            "question": "¿Dónde vive el pingüino?",
+            "answer": "en el hielo frío",
+            "options": [
+              "en el hielo frío",
+              "en la arena tibia",
+              "en la selva verde"
+            ]
+          },
+          {
+            "id": "spider",
+            "band": 2,
+            "fact": "La araña teje una telaraña. Tiene ocho patas.",
+            "question": "¿Cuántas patas tiene la araña?",
+            "answer": "ocho patas",
+            "options": [
+              "siete patas",
+              "ocho patas",
+              "nueve patas"
+            ]
+          },
+          {
+            "id": "tree",
+            "band": 2,
+            "fact": "El árbol grande crece alto. Nos da sombra fresca.",
+            "question": "¿Qué nos da el árbol?",
+            "answer": "sombra fresca",
+            "options": [
+              "ruido fuerte",
+              "nieve fría",
+              "sombra fresca"
+            ]
+          },
+          {
+            "id": "cow",
+            "band": 3,
+            "fact": "La vaca come pasto verde. Nos da leche fresca.",
+            "question": "¿Qué nos da la vaca?",
+            "answer": "leche fresca",
+            "options": [
+              "leche fresca",
+              "huevos cafés",
+              "jugo dulce"
+            ]
+          },
+          {
+            "id": "rain",
+            "band": 3,
+            "fact": "La lluvia cae de las nubes. Moja el suelo.",
+            "question": "¿Qué moja la lluvia?",
+            "answer": "el suelo",
+            "options": [
+              "el cielo",
+              "el suelo",
+              "el sol"
+            ]
+          }
         ]
       }
     },
@@ -311,17 +409,20 @@
     "slug": {
       "en": "atlas-fact-files",
       "de": "leseverstaendnis-sachtext-w-fragen-beantworten-klasse-1",
-      "fr": "repondre-a-une-question-texte-documentaire-cp"
+      "fr": "repondre-a-une-question-texte-documentaire-cp",
+      "es": "lecturas-cortas-con-preguntas-primer-grado"
     },
     "page_title": {
       "en": "Atlas's Fact Files — Find the Key Detail (Kindergarten)",
       "de": "Leseverstehen üben – Sachtexte lesen (Grundschule)",
-      "fr": "Lecture CP – lire un texte documentaire en ligne"
+      "fr": "Lecture CP – lire un texte documentaire en ligne",
+      "es": "Comprensión lectora 1.º: lecturas cortas con preguntas"
     },
     "page_intro": {
       "en": "Atlas the armadillo keeps a file full of real facts! Read his two-sentence fact, then answer the question by tapping the key detail you found — who, what, where, or how many. A Kindergarten reading game about finding key details in an informational (fact) text, aligned to Common Core RI.K.1.",
       "de": "Leseverstehen in der Grundschule: kurze Sachtexte lesen und wichtige Details finden. Kostenlos online üben, ohne Anmeldung – ab Klasse 1.",
-      "fr": "Lecture au CP : lire un petit texte documentaire avec Atlas et retrouver les détails clés. Gratuit, en ligne, sans inscription."
+      "fr": "Lecture au CP : lire un petit texte documentaire avec Atlas et retrouver les détails clés. Gratuit, en ligne, sans inscription.",
+      "es": "Lee un texto corto y toca la respuesta: preguntas de qué, dónde y cuántos. Comprensión lectora para 1.º de primaria, gratis, en línea y sin registro."
     },
     "kid_prompt_template": "Read the facts, then tap the answer to the question."
   }

@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "atlas-fact-files.key-detail.ri-k-1": {
+      "about": [
+        "Atlas el armadillo guarda un fichero lleno de datos del mundo real. En cada ronda muestra una ficha con un texto muy corto, de solo dos oraciones —por ejemplo: «Las abejas viven en una colmena. Hacen miel dulce.»— y debajo hace una pregunta: «¿Dónde viven las abejas?». Su hijo/a lee el texto con calma y toca, entre tres opciones, la respuesta correcta: «en una colmena». La respuesta no es ningún secreto: ya está escrita en el texto, solo hay que encontrarla.",
+        "De eso se trata: leer con atención y buscar la respuesta en el texto en lugar de adivinar. Las dos opciones equivocadas tienen que ver con el tema, pero no aparecen en el texto; así el niño tiene que regresar a leer para estar seguro. Ese es el primer nivel de la comprensión lectora, el nivel literal: darse cuenta de que en un texto breve hay respuestas de verdad y de que uno mismo puede localizarlas. Cada ronda es un poquito más difícil, pero la respuesta siempre está ahí, escrita.",
+        "Esta actividad pertenece al campo formativo «Lenguajes» y trabaja la comprensión de textos informativos en la Fase 3, cuando el niño ya lee por su cuenta oraciones breves y localiza información explícita. Es gratuita, se juega en línea sin registro y no tiene cronómetro ni puntos: su hijo/a puede leer y releer con toda la calma que necesite."
+      ],
+      "practices": [
+        "Leer un texto informativo breve de dos oraciones y entender de qué habla",
+        "Localizar en el texto la información que responde a una pregunta de qué, dónde, cuándo o cuántas",
+        "Leer con atención en lugar de adivinar: la respuesta ya está escrita en el texto",
+        "Elegir, entre tres opciones, la única que de verdad aparece en el texto"
+      ],
+      "howToPlay": [
+        "Lea con su hijo/a las dos oraciones que muestra Atlas en su ficha",
+        "Lean juntos la pregunta de abajo y pregúntele: ¿en qué parte del texto lo dice?",
+        "El niño toca la respuesta y luego «Comprobar»; si no queda a la primera, puede volver a leer el texto con calma"
+      ],
+      "learningGoals": [
+        "Su hijo/a localiza en un texto informativo breve la información que se le pide",
+        "Responde una pregunta sencilla releyendo el texto y encontrando ahí la respuesta",
+        "Vive el primer paso de la comprensión lectora: las respuestas están en el texto y él mismo puede hallarlas"
+      ]
+    },
     "jasper-just-right.real-life.l-1-5-c": {
       "about": [
         "Jasper el arrendajo lleva en su mochila justo lo que hace falta para cada momento del día. En cada ronda, Jasper plantea una situación cortita de la vida diaria —por ejemplo: «Quieres tomar agua. ¿Qué usas?»— y aparecen tres imágenes. El niño toca la imagen del objeto que de verdad usaría: el vaso. Las otras dos son objetos reales y conocidos, pero que no sirven para eso, así que hay que pensar antes de tocar.",

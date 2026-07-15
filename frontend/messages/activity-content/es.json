@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "pim-comma-mail.letter-commas.l-2-2-b": {
+      "about": [
+        "Pim, la paloma mensajera, reparte cartas todo el día, pero necesita que estén bien escritas. En cada ronda aparece el saludo o la despedida de una carta en tres versiones y su hijo/a toca la que está bien puntuada. Por ejemplo, ante «Querida abuela», la correcta es «Querida abuela:» —con dos puntos— y no «Querida abuela,», que es el error más común.",
+        "¿Después del saludo va coma o dos puntos? Van dos puntos. En español, el saludo de una carta se cierra con dos puntos: «Querida abuela:», «Querido papá:», «Estimada maestra Ruiz:». La coma en ese lugar viene del inglés, y la Real Academia Española pide evitarla. La despedida, en cambio, sí lleva coma: «Con cariño,», «Un abrazo,». Son dos reglas cortitas y opuestas, y esta actividad las enseña juntas a propósito: quien solo aprende la primera termina escribiendo «Con cariño:», que tampoco es correcto.",
+        "Es una de esas cosas que casi nadie explica y que se ve en cuanto tu hijo/a escribe su primera carta. Aquí no hay que recordar la regla de memoria: se ven las tres versiones juntas, se compara y se elige. Si se equivoca, Pim le dice en qué fijarse y puede intentarlo otra vez, sin prisa. La actividad es gratuita, sin cronómetro, sin puntaje y sin cuenta; se juega en el navegador."
+      ],
+      "practices": [
+        "Cerrar el saludo de una carta con dos puntos: «Querida abuela:»",
+        "Cerrar la despedida con coma: «Con cariño,»",
+        "Reconocer que la coma después del saludo es un error que viene del inglés",
+        "Fijarse en el signo del final para decidir, en vez de adivinar"
+      ],
+      "howToPlay": [
+        "Vean juntos si la tarjeta muestra el saludo o la despedida de la carta",
+        "Pregúntele a su hijo/a con qué signo termina cada uno: el saludo con dos puntos, la despedida con coma",
+        "El niño toca la versión bien puntuada; si no le atina, Pim le dice en qué fijarse y puede volver a intentar"
+      ],
+      "learningGoals": [
+        "Su hijo/a puntúa correctamente el saludo y la despedida de una carta",
+        "Distingue los dos puntos de la coma y sabe dónde va cada uno",
+        "Evita el anglicismo de poner coma después del saludo"
+      ]
+    },
     "inky-book-workshop.author-illustrator.rl-k-6": {
       "about": [
         "Inky el pulpo hace libros con su tinta y necesita ayuda para repartir el trabajo. En cada ronda aparece un libro y un aviso de lo que alguien acaba de hacer; su hijo/a toca a quién le corresponde. Por ejemplo, ante «un libro de dibujos de un dragón dormilón» y el aviso «Alguien DIBUJÓ las imágenes», la respuesta es el ilustrador 🎨, no el autor ✍️ —porque el autor es quien escribe las palabras.",

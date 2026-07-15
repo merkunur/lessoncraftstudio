@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "inky-book-workshop.author-illustrator.rl-k-6": {
+      "about": [
+        "Inky el pulpo hace libros con su tinta y necesita ayuda para repartir el trabajo. En cada ronda aparece un libro y un aviso de lo que alguien acaba de hacer; su hijo/a toca a quién le corresponde. Por ejemplo, ante «un libro de dibujos de un dragón dormilón» y el aviso «Alguien DIBUJÓ las imágenes», la respuesta es el ilustrador 🎨, no el autor ✍️ —porque el autor es quien escribe las palabras.",
+        "Detrás del juego hay una idea que un lector necesita temprano: un libro no aparece solo, lo hacen personas, y cada una hace algo distinto. La persona que escribe las palabras es el autor. Quien hace las ilustraciones es el ilustrador. Y quien lo abre y lo disfruta es el lector: su hijo/a. Son tres oficios alrededor de un mismo libro, y distinguirlos es el primer paso para entender cómo se hace lo que uno lee.",
+        "Es el mismo gesto que hace la maestra cuando levanta un libro y pregunta: «¿Quién escribió este libro? ¿Y quién lo ilustró?». Las dos palabras vienen impresas en la portada de los libros que su hijo/a ya tiene en las manos —ahí están, junto al título—, así que no son palabras nuevas: son palabras que por fin se pueden leer. La actividad es gratuita, sin cronómetro, sin puntaje y sin cuenta; se juega en el navegador."
+      ],
+      "practices": [
+        "Reconocer que un libro lo hacen varias personas y cada una tiene un trabajo distinto",
+        "Distinguir al autor (escribe las palabras) del ilustrador (hace las ilustraciones)",
+        "Ubicar al lector como quien recibe el libro, no como quien lo hace",
+        "Leer solo/a un aviso corto y decidir con esa información"
+      ],
+      "howToPlay": [
+        "Lean juntos el aviso de Inky: ¿alguien escribió, alguien dibujó o alguien está leyendo?",
+        "Pregúntele a su hijo/a de quién es ese trabajo y por qué",
+        "El niño toca la tarjeta: ✍️ autor, 🎨 ilustrador o 📖 lector; si no le atina, Inky lo invita a mirar otra vez"
+      ],
+      "learningGoals": [
+        "Su hijo/a identifica quién escribe y quién ilustra un libro, y sabe que son trabajos distintos",
+        "Reconoce las palabras «autor» e «ilustrador» y las relaciona con la portada de sus libros",
+        "Entiende que detrás de cada libro hay personas con oficios distintos, y que leer es su parte"
+      ]
+    },
     "juniper-story-lantern.central-message.rl-1-2": {
       "about": [
         "Juniper el erizo prende su farolito y cuenta una fábula chiquita: tres renglones, ni uno más. Luego aparecen tres tarjetas y su hijo/a tiene que tocar la que dice la moraleja. Por ejemplo, después de «El viento y el sol discutían para ver quién era más fuerte… y el señor se quitó el abrigo», la respuesta es «Tratar bien consigue más que obligar», no «El viento sopló muy fuerte contra el señor» —que sí pasó en la fábula, pero es sólo un suceso, no la enseñanza.",

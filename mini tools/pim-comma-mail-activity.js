@@ -53,14 +53,39 @@
       promptGreeting: { en: 'Which is the right way to START the letter?', de: 'Wie beginnt der Brief richtig?', fr: 'Comment bien commencer la lettre ?', es: '¿Cómo empieza bien la carta?' },
       promptClosing: { en: 'Which is the right way to END the letter?', de: 'Wie endet der Brief richtig?', fr: 'Comment bien terminer la lettre ?', es: '¿Cómo termina bien la carta?' },
       /* ⚠ `.pcm-say` is `-webkit-line-clamp:2` + `overflow:hidden` → anything past 2 lines
-         is SILENTLY CLIPPED, and because the clip is by design the visual-qa harness does
-         NOT score it as overflow — only the personal Read catches it. Keep es inside the
-         en/fr envelope (48/50 ch). The first draft at 66 ch clipped mid-sentence at 360.
-         🚩 de is 65 ch and almost certainly clips the same way — a pre-existing German
-         defect surfaced here, NOT fixed (not this locale's scope). */
-      pimIntro: { en: 'A letter needs its comma in just the right spot!', de: 'Ich bin Pim, die Taube! Hilf mir, die Briefe richtig zuzustellen.', fr: 'Une lettre a besoin de sa virgule au bon endroit !', es: 'Soy Pim. ¡Ayúdame a entregar bien las cartas!' },
+         is SILENTLY CLIPPED. The clamp is BY DESIGN, so the node reports no overflow and
+         its box is the intended size — the copy just vanishes. This is now MEASURED by
+         `visual-qa-activity.js`'s TEXT-CLIP gate (scrollHeight > clientHeight), added
+         2026-07-15 precisely because nothing else could see it.
+         Measured envelope (full sweep × 8 rounds): en 48 ✓ · es 45 ✓ · fr 50 ✓ · de ≤45.
+         de was 65 ch and DID clip — 16px (a whole line) hidden at 360, cut mid-word at
+         "zuzuste…", failing 8/48 renders. Curiously it passed at 320: the row re-flows
+         there and the bubble gets more width, so 360 (the commonest phone) was the ONLY
+         break. Now 44 ch. ⚠ The char limit is a per-locale PROXY for rendered width, not
+         a transferable rule — German runs wide with long unbreakable tokens, so it keeps
+         a tighter budget than fr's 50. If you change a string here, re-run the gate. */
+      /* ⚠ `austragen`, NOT `zustellen` (Amtsdeutsch: Zustellung/Zusteller — no 8-year-old
+         says it). `die Post austragen` is the collocation a German child owns, and it
+         echoes the title "Pims Komma-Post". Dropping ", die Taube" is grammatically free
+         in German (Pim is a name; `stolz` in `win` is predicative → never inflects) — and
+         costs nothing: the pigeon SVG's aria-label (:22) still carries "Pim, die Taube".
+         🚩 ANTI-CUE, the real reason this string changed: "Ich bin Pim, die Taube!" put a
+         comma after the opening word before a noun phrase — the SAME visual shape as the
+         WRONG foil "Liebe, Oma" — sitting permanently above the cards while `hintWrong`
+         says the comma must not be "mittendrin". Do not reintroduce that shape here.
+         ⚠ de must NOT state the rule (the en/fr shape): the de foils include a BARE
+         no-comma "Liebe Oma", so a rule-stating bubble would eliminate a foil for free.
+         Self-intro + call-to-action leaks nothing. */
+      pimIntro: { en: 'A letter needs its comma in just the right spot!', de: 'Ich bin Pim! Hilf mir, die Post auszutragen.', fr: 'Une lettre a besoin de sa virgule au bon endroit !', es: 'Soy Pim. ¡Ayúdame a entregar bien las cartas!' },
       /* ⚠ the labels are ALWAYS visible — they must NOT name the mark, or they leak the answer. */
       labelGreeting: { en: '✉️ The greeting', de: '✉️ Die Anrede', fr: '✉️ Le début de la lettre', es: '✉️ El saludo' },
+      /* 🚩 `de.labelClosing` is DEAD — the de deck is Anrede-only (8 greeting / 0 closing;
+         en+fr are 4/4, es 5/3). That is CORRECT, not an omission: the German Grußformel
+         takes NO comma ("Viele Grüße" ⏎ name, DIN 5008), so a de closing round is
+         unbuildable in this 3-foil shape. ⚠ Do NOT "complete" the de deck with closing
+         rounds — it would teach a comma German does not use. (Same reason `de.hintWrong`
+         names only the Anrede and does NOT state both halves: the other half never
+         renders. It is right as shipped — do not "fix" it.) */
       labelClosing: { en: '✉️ The closing', de: '✉️ Der Gruß', fr: '✉️ La fin de la lettre', es: '✉️ La despedida' },
       hintPick: { en: 'The greeting and the closing each end with a comma.', de: 'Schau genau hin, wo das Komma bei der Anrede steht.', fr: 'Le début et la fin de la lettre se terminent chacun par une virgule.', es: 'El saludo termina con dos puntos. La despedida termina con coma.' },
       /* hintKey returns ONE shared key for both kinds → hintWrong must state both halves. */

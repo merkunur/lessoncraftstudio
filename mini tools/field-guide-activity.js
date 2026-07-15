@@ -48,6 +48,19 @@
       found: 'TROUVÉ ! Bien lu, détective.',
       wordsToKnow: 'Mots à connaître',
       contents: 'Sommaire'
+    },
+    /* es: `contents` is «Índice» — deliberately the same word as the which-feature TOC label.
+       In a real Mexican book the section header AND the tool name are the same word, and the
+       which-feature round asks about a FUNCTION (not about which page the child saw), so this
+       reinforces rather than telegraphs. «pie de imagen» (a drawing) — never «pie de foto». */
+    es: {
+      readLine: 'Lee la página y luego toca la respuesta.',
+      diagramLine: 'Lee el pie de imagen y luego toca la parte correcta.',
+      whichLine: 'Piensa para qué sirve cada parte del libro.',
+      reread: 'Mmm… volvamos a leer lo que dice la página. ¡Inténtalo otra vez!',
+      found: '¡LO ENCONTRASTE! Qué bien lees, detective.',
+      wordsToKnow: 'Palabras importantes',
+      contents: 'Índice'
     }
   };
   function txt(k) { var lang = (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en'; return (L[lang] || L.en)[k] || L.en[k] || k; }
@@ -82,16 +95,25 @@
   var FieldGuideActivity = {
     id: 'field-guide',
     strings: {
-      title: { en: "Detective Dewey's Field Guide", de: 'Detektiv Deweys Forscherheft', fr: 'Le carnet du détective Dewey' },
-      instruction: { en: 'Read the book’s tools to find the fact!', de: 'Lies die Werkzeuge des Buches, um die Information zu finden!', fr: 'Lis les outils du livre pour trouver l’information !' },
-      qDiagram: { en: 'Which part helps it {fn}?', de: 'Welcher Teil hilft ihm beim {fn}?', fr: 'Quelle partie l’aide à {fn} ?' },
-      qGlossary: { en: 'Which word means the part that can {fn}?', de: 'Welches Wort beschreibt den Teil zum {fn}?', fr: 'Quel mot désigne la partie qui sert à {fn} ?' },
-      qToc: { en: 'Which chapter is about how it can {fn}?', de: 'In welchem Kapitel geht es ums {fn}?', fr: 'Quel chapitre explique comment il fait pour {fn} ?' },
-      qHeading: { en: 'Which heading tells how it can {fn}?', de: 'Welche Überschrift handelt vom {fn}?', fr: 'Quel titre raconte comment il fait pour {fn} ?' },
-      qMenu: { en: 'Which button helps you {fn}?', de: 'Welcher Knopf hilft dir beim {fn}?', fr: 'Quel bouton t’aide à {fn} ?' },
-      qIndex: { en: 'Which line leads to the part that can {fn}?', de: 'Welche Zeile führt zur Stelle übers {fn}?', fr: 'Quelle ligne mène à la partie qui sert à {fn} ?' },
-      qWhichMeaning: { en: 'To find what a WORD means, which tool do you open?', de: 'Um herauszufinden, was ein WORT bedeutet — welches Buch-Werkzeug öffnest du?', fr: 'Pour trouver ce qu’un MOT veut dire, quel outil ouvres-tu ?' },
-      qWhichTopic: { en: 'To find which chapter a TOPIC is in, which tool do you open?', de: 'Um herauszufinden, in welchem KAPITEL ein Thema steht — welches Buch-Werkzeug nimmst du?', fr: 'Pour trouver dans quel CHAPITRE un sujet se trouve, quel outil prends-tu ?' }
+      /* es: «guía» not «cuaderno»/«carnet» — the object is a PUBLISHED book (índice, capítulos,
+         glosario), not a personal notebook. 27 ch: stays 1 line at 320px.
+         Template grammar: Spanish fuses only a+el→al / de+el→del, and NO template ends in a
+         preposition that can meet an article — every {fn} slot takes a bare infinitive, so no
+         German-style nominalization is needed (Spanish behaves like French here). Verified on the
+         hardest case, the reflexive: «…le ayuda a esconderse?» / «…que sirve para esconderse?».
+         «parte del libro» not «herramienta» (abstract-adult); «renglón» not «línea» (MX school word). */
+      title: { en: "Detective Dewey's Field Guide", de: 'Detektiv Deweys Forscherheft', fr: 'Le carnet du détective Dewey', es: 'La guía del detective Dewey' },
+      instruction: { en: 'Read the book’s tools to find the fact!', de: 'Lies die Werkzeuge des Buches, um die Information zu finden!', fr: 'Lis les outils du livre pour trouver l’information !', es: '¡Lee las partes del libro para encontrar el dato!' },
+      qDiagram: { en: 'Which part helps it {fn}?', de: 'Welcher Teil hilft ihm beim {fn}?', fr: 'Quelle partie l’aide à {fn} ?', es: '¿Qué parte le ayuda a {fn}?' },
+      qGlossary: { en: 'Which word means the part that can {fn}?', de: 'Welches Wort beschreibt den Teil zum {fn}?', fr: 'Quel mot désigne la partie qui sert à {fn} ?', es: '¿Qué palabra nombra la parte que sirve para {fn}?' },
+      qToc: { en: 'Which chapter is about how it can {fn}?', de: 'In welchem Kapitel geht es ums {fn}?', fr: 'Quel chapitre explique comment il fait pour {fn} ?', es: '¿Qué capítulo explica cómo hace para {fn}?' },
+      qHeading: { en: 'Which heading tells how it can {fn}?', de: 'Welche Überschrift handelt vom {fn}?', fr: 'Quel titre raconte comment il fait pour {fn} ?', es: '¿Qué título cuenta cómo hace para {fn}?' },
+      qMenu: { en: 'Which button helps you {fn}?', de: 'Welcher Knopf hilft dir beim {fn}?', fr: 'Quel bouton t’aide à {fn} ?', es: '¿Qué botón te ayuda a {fn}?' },
+      /* es: no es round uses qIndex — the index cog is dropped for es (a MX 2.º child never meets a
+         back-of-book alphabetical index; SEP libros carry a front «Índice» only). Kept for parity. */
+      qIndex: { en: 'Which line leads to the part that can {fn}?', de: 'Welche Zeile führt zur Stelle übers {fn}?', fr: 'Quelle ligne mène à la partie qui sert à {fn} ?', es: '¿Qué renglón te lleva a la página donde se habla de {fn}?' },
+      qWhichMeaning: { en: 'To find what a WORD means, which tool do you open?', de: 'Um herauszufinden, was ein WORT bedeutet — welches Buch-Werkzeug öffnest du?', fr: 'Pour trouver ce qu’un MOT veut dire, quel outil ouvres-tu ?', es: 'Para saber qué significa una PALABRA, ¿qué parte del libro abres?' },
+      qWhichTopic: { en: 'To find which chapter a TOPIC is in, which tool do you open?', de: 'Um herauszufinden, in welchem KAPITEL ein Thema steht — welches Buch-Werkzeug nimmst du?', fr: 'Pour trouver dans quel CHAPITRE un sujet se trouve, quel outil prends-tu ?', es: 'Para saber en qué capítulo está un TEMA, ¿qué parte del libro abres?' }
     },
 
     init: function (api) {

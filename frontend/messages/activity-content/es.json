@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "point-of-view.who-told.rl-1-6": {
+      "about": [
+        "Lumen el búho vive en un faro con ventanas a distintas alturas, y en cada una vive un animalito. Pasa algo en el puerto y alguien lo cuenta; su hijo/a lee la oración y toca la ventana desde donde se vio. Por ejemplo, ante «La lancha se veía como un puntito, allá lejos», hay que tocar al animalito de hasta arriba: sólo desde allá arriba una lancha se ve tan pequeña.",
+        "La regla es cortita y el faro la enseña sola: desde hasta arriba, todo se ve muy pequeño y lejos; desde hasta abajo, junto al agua, todo se ve enorme y bien cerca. Con eso basta para resolver cada ronda —no hay que adivinar—, y de paso su hijo/a descubre algo que le va a servir toda la vida como lector: lo que alguien cuenta depende de dónde estaba parado cuando lo vio.",
+        "Es una primera probadita, muy concreta, de algo que en la escuela se vuelve importante más adelante: darse cuenta de que una misma cosa se cuenta distinto según quién la mire. Aquí no hay nada abstracto —hay una ola, un cangrejo, un barco— y la pista siempre está en las palabras de tamaño y distancia. La actividad es gratuita, sin cronómetro, sin puntaje y sin cuenta; se juega en el navegador."
+      ],
+      "practices": [
+        "Darse cuenta de que lo que alguien cuenta depende de dónde estaba",
+        "Fijarse en las palabras de tamaño y distancia: «pequeño y lejos» o «enorme y bien cerca»",
+        "Relacionar lo que dice la oración con la altura de quien la cuenta",
+        "Leer solo/a una oración corta y decidir con esa información"
+      ],
+      "howToPlay": [
+        "Lean juntos qué pasó en el puerto y luego la oración de quien lo vio",
+        "Pregúntele a su hijo/a: ¿se veía pequeño y lejos, o enorme y bien cerca?",
+        "El niño toca la ventana que corresponde: hasta arriba si se veía pequeño, hasta abajo si se veía enorme"
+      ],
+      "learningGoals": [
+        "Su hijo/a identifica desde qué lugar se cuenta una oración",
+        "Usa las pistas de tamaño y distancia en vez de adivinar",
+        "Entiende que una misma cosa se ve distinta según desde dónde se mire"
+      ]
+    },
     "pim-comma-mail.letter-commas.l-2-2-b": {
       "about": [
         "Pim, la paloma mensajera, reparte cartas todo el día, pero necesita que estén bien escritas. En cada ronda aparece el saludo o la despedida de una carta en tres versiones y su hijo/a toca la que está bien puntuada. Por ejemplo, ante «Querida abuela», la correcta es «Querida abuela:» —con dos puntos— y no «Querida abuela,», que es el error más común.",

@@ -1481,23 +1481,516 @@
               }
             ]
           }
+        ],
+        "es": [
+          {
+            "id": "opposites.pick-black",
+            "cog": "pick",
+            "complementary": false,
+            "target": {
+              "word": "negro",
+              "glyph": {
+                "type": "swatch",
+                "param": "#262626"
+              },
+              "oppositionId": "color",
+              "pos": "adj"
+            },
+            "choices": [
+              {
+                "word": "arriba",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "up"
+                },
+                "relation": "unrelated",
+                "dimension": "direction"
+              },
+              {
+                "word": "blanco",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#ffffff"
+                },
+                "relation": "opposite",
+                "dimension": "color"
+              },
+              {
+                "word": "rojo",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#e23b2e"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "color"
+              }
+            ]
+          },
+          {
+            "id": "opposites.pick-up",
+            "cog": "pick",
+            "complementary": false,
+            "target": {
+              "word": "arriba",
+              "glyph": {
+                "type": "arrow",
+                "param": "up"
+              },
+              "oppositionId": "direction",
+              "pos": "adj"
+            },
+            "choices": [
+              {
+                "word": "negro",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#262626"
+                },
+                "relation": "unrelated",
+                "dimension": "color"
+              },
+              {
+                "word": "abajo",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "down"
+                },
+                "relation": "opposite",
+                "dimension": "direction"
+              },
+              {
+                "word": "izquierda",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "left"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "direction"
+              }
+            ]
+          },
+          {
+            "id": "opposites.pick-big",
+            "cog": "pick",
+            "complementary": true,
+            "target": {
+              "word": "grande",
+              "glyph": {
+                "type": "size",
+                "param": "big"
+              },
+              "oppositionId": "size",
+              "pos": "adj"
+            },
+            "choices": [
+              {
+                "word": "abajo",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "down"
+                },
+                "relation": "unrelated",
+                "dimension": "direction"
+              },
+              {
+                "word": "pequeño",
+                "glyph": {
+                  "type": "size",
+                  "param": "small"
+                },
+                "relation": "opposite",
+                "dimension": "size"
+              },
+              {
+                "word": "contento",
+                "glyph": {
+                  "type": "face",
+                  "param": "happy"
+                },
+                "relation": "unrelated",
+                "dimension": "emotion"
+              }
+            ]
+          },
+          {
+            "id": "opposites.route-black",
+            "cog": "route",
+            "complementary": false,
+            "anchor": {
+              "word": "negro",
+              "glyph": {
+                "type": "swatch",
+                "param": "#262626"
+              },
+              "oppositionId": "color"
+            },
+            "stream": [
+              {
+                "word": "blanco",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#ffffff"
+                },
+                "relation": "opposite",
+                "dimension": "color"
+              },
+              {
+                "word": "rojo",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#e23b2e"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "color"
+              },
+              {
+                "word": "azul",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#2f6fd0"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "color"
+              }
+            ]
+          },
+          {
+            "id": "opposites.oddpair-1",
+            "cog": "oddpair",
+            "complementary": false,
+            "pairs": [
+              {
+                "a": {
+                  "word": "negro",
+                  "glyph": {
+                    "type": "swatch",
+                    "param": "#262626"
+                  }
+                },
+                "b": {
+                  "word": "blanco",
+                  "glyph": {
+                    "type": "swatch",
+                    "param": "#ffffff"
+                  }
+                },
+                "relation": "opposite"
+              },
+              {
+                "a": {
+                  "word": "arriba",
+                  "glyph": {
+                    "type": "arrow",
+                    "param": "up"
+                  }
+                },
+                "b": {
+                  "word": "abajo",
+                  "glyph": {
+                    "type": "arrow",
+                    "param": "down"
+                  }
+                },
+                "relation": "opposite"
+              },
+              {
+                "a": {
+                  "word": "rojo",
+                  "glyph": {
+                    "type": "swatch",
+                    "param": "#e23b2e"
+                  }
+                },
+                "b": {
+                  "word": "azul",
+                  "glyph": {
+                    "type": "swatch",
+                    "param": "#2f6fd0"
+                  }
+                },
+                "relation": "related"
+              }
+            ]
+          },
+          {
+            "id": "opposites.scene-bedtime",
+            "cog": "scene",
+            "complementary": true,
+            "sceneLabel": "¡Es hora de dormir, pero todo está al revés!",
+            "elements": [
+              {
+                "word": "sol",
+                "glyph": {
+                  "type": "celestial",
+                  "param": "sun"
+                },
+                "flipGlyph": {
+                  "type": "celestial",
+                  "param": "moon"
+                },
+                "flipWord": "luna"
+              },
+              {
+                "word": "lámpara prendida",
+                "glyph": {
+                  "type": "lamp",
+                  "param": "on"
+                },
+                "flipGlyph": {
+                  "type": "lamp",
+                  "param": "off"
+                },
+                "flipWord": "lámpara apagada"
+              },
+              {
+                "word": "puerta abierta",
+                "glyph": {
+                  "type": "door",
+                  "param": "open"
+                },
+                "flipGlyph": {
+                  "type": "door",
+                  "param": "closed"
+                },
+                "flipWord": "puerta cerrada"
+              }
+            ]
+          },
+          {
+            "id": "opposites.generate-left",
+            "cog": "generate",
+            "complementary": false,
+            "target": {
+              "word": "izquierda",
+              "glyph": {
+                "type": "arrow",
+                "param": "left"
+              },
+              "oppositionId": "direction",
+              "pos": "adj"
+            },
+            "choices": [
+              {
+                "word": "contento",
+                "glyph": {
+                  "type": "face",
+                  "param": "happy"
+                },
+                "relation": "unrelated",
+                "dimension": "emotion"
+              },
+              {
+                "word": "derecha",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "right"
+                },
+                "relation": "opposite",
+                "dimension": "direction"
+              },
+              {
+                "word": "arriba",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "up"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "direction"
+              }
+            ]
+          },
+          {
+            "id": "opposites.balance-white",
+            "cog": "balance",
+            "complementary": false,
+            "target": {
+              "word": "blanco",
+              "glyph": {
+                "type": "swatch",
+                "param": "#ffffff"
+              },
+              "oppositionId": "color",
+              "pos": "adj"
+            },
+            "choices": [
+              {
+                "word": "abajo",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "down"
+                },
+                "relation": "unrelated",
+                "dimension": "direction"
+              },
+              {
+                "word": "negro",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#262626"
+                },
+                "relation": "opposite",
+                "dimension": "color"
+              },
+              {
+                "word": "azul",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#2f6fd0"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "color"
+              }
+            ]
+          },
+          {
+            "id": "opposites.balance-down",
+            "cog": "balance",
+            "complementary": false,
+            "target": {
+              "word": "abajo",
+              "glyph": {
+                "type": "arrow",
+                "param": "down"
+              },
+              "oppositionId": "direction",
+              "pos": "adj"
+            },
+            "choices": [
+              {
+                "word": "rojo",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#e23b2e"
+                },
+                "relation": "unrelated",
+                "dimension": "color"
+              },
+              {
+                "word": "arriba",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "up"
+                },
+                "relation": "opposite",
+                "dimension": "direction"
+              },
+              {
+                "word": "derecha",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "right"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "direction"
+              }
+            ]
+          },
+          {
+            "id": "opposites.verb-push",
+            "cog": "verb",
+            "complementary": false,
+            "target": {
+              "word": "empujar",
+              "glyph": {
+                "type": "motion",
+                "param": "push"
+              },
+              "oppositionId": "motion",
+              "pos": "verb"
+            },
+            "choices": [
+              {
+                "word": "abrir",
+                "glyph": {
+                  "type": "door",
+                  "param": "open"
+                },
+                "relation": "unrelated",
+                "dimension": "state"
+              },
+              {
+                "word": "jalar",
+                "glyph": {
+                  "type": "motion",
+                  "param": "pull"
+                },
+                "relation": "opposite",
+                "dimension": "motion"
+              },
+              {
+                "word": "levantar",
+                "glyph": {
+                  "type": "motion",
+                  "param": "lift"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "motion"
+              }
+            ]
+          },
+          {
+            "id": "opposites.pick-hot",
+            "cog": "pick",
+            "complementary": true,
+            "target": {
+              "word": "caliente",
+              "glyph": {
+                "type": "temp",
+                "param": "hot"
+              },
+              "oppositionId": "temperature",
+              "pos": "adj"
+            },
+            "choices": [
+              {
+                "word": "izquierda",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "left"
+                },
+                "relation": "unrelated",
+                "dimension": "direction"
+              },
+              {
+                "word": "frío",
+                "glyph": {
+                  "type": "temp",
+                  "param": "cold"
+                },
+                "relation": "opposite",
+                "dimension": "temperature"
+              },
+              {
+                "word": "grande",
+                "glyph": {
+                  "type": "size",
+                  "param": "big"
+                },
+                "relation": "unrelated",
+                "dimension": "size"
+              }
+            ]
+          }
         ]
       }
     },
     "slug": {
       "en": "quills-mirror-market",
       "de": "gegensaetze-finden-gegenteile-klasse-1",
-      "fr": "trouver-les-contraires-cp"
+      "fr": "trouver-les-contraires-cp",
+      "es": "palabras-contrarias-antonimos-primer-grado"
     },
     "page_title": {
       "en": "Quill's Mirror Market — Find the Opposite",
       "de": "Gegensätze finden: Gegenteile-Spiel – Klasse 1",
-      "fr": "Les contraires – exercice en ligne (CP)"
+      "fr": "Les contraires – exercice en ligne (CP)",
+      "es": "Palabras contrarias y antónimos – Primer grado"
     },
     "page_intro": {
       "en": "Quill the hedgehog only seals a trade when you bring the OPPOSITE — the other end, not just a friend! Tap the word that means the reverse: black→white, up→down, push→pull. A Kindergarten antonyms game aligned to Common Core K.L.5.b: relate words to their opposites.",
       "de": "Welches Wort ist das Gegenteil? Dein Kind findet zu schwarz das passende weiß – ein kostenloses, interaktives Gegensätze-Spiel für Klasse 1.",
-      "fr": "Trouve le contraire de chaque mot au marché-miroir de Quill ; parfait du CP à la révision au CE1. Gratuit, en ligne, sans inscription."
+      "fr": "Trouve le contraire de chaque mot au marché-miroir de Quill ; parfait du CP à la révision au CE1. Gratuit, en ligne, sans inscription.",
+      "es": "Toca lo contrario de cada palabra: negro y blanco, grande y pequeño, caliente y frío. Actividad de antónimos de primer grado, gratis y en línea, sin registro."
     },
     "kid_prompt_template": "Find the opposite — the OTHER end!"
   }

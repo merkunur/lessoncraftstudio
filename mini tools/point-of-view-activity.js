@@ -33,12 +33,28 @@
       win: 'Bravo ! {note}', winNote: 'C’est bien de cette fenêtre qu’on l’a vu !',
       nHigh: 'Qui est tout en HAUT ? Tout en haut, les choses paraissent minuscules et lointaines.',
       nLow: 'Qui est tout en BAS, près de l’eau ? Tout en bas, les choses paraissent énormes et toutes proches.'
+    },
+    /* es-MX. The nudges TEACH the rule, so they must state the size+distance contrast
+       explicitly and in the SAME words as POSLABEL.es + the instruction.
+       §A.13.54: the speaker's gender VARIES across rounds (la gaviota f / el ratón m /
+       el conejo m) — every string here is invariant (`está`, impersonal `se ve`, generic
+       `todo…pequeño`, and `enorme`, which is COMMON-GENDER and therefore agreement-proof
+       no matter what object a future round names). */
+    es: {
+      win: '¡Sí! {note}', winNote: '¡Desde esa ventana se ve justo así!',
+      nHigh: '¿Quién está hasta arriba? Desde ahí todo se ve muy pequeño y muy lejos.',
+      nLow: '¿Quién está hasta abajo, junto al agua? Desde ahí todo se ve enorme y bien cerca.'
     }
   };
   var POSLABEL = {
     en: { high: 'Up high', mid: 'Middle', low: 'Down low' },
     de: { high: 'Ganz oben', mid: 'In der Mitte', low: 'Ganz unten' },
-    fr: { high: 'Tout en haut', mid: 'Au milieu', low: 'Tout en bas' }
+    fr: { high: 'Tout en haut', mid: 'Au milieu', low: 'Tout en bas' },
+    /* es: «Hasta arriba/abajo» = THE MX intensified locative, the register match for
+       „Ganz oben/unten". ⚠ Do NOT flatten to bare «Arriba»/«Abajo» — the intensity IS the
+       rule the activity teaches, and these words are locked to the instruction + nudges so
+       the child maps rule→label with zero inference. */
+    es: { high: 'Hasta arriba', mid: 'En medio', low: 'Hasta abajo' }
   };
   function poslabel(pos) { return (POSLABEL[LANG] && POSLABEL[LANG][pos]) || POSLABEL.en[pos]; }
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -85,9 +101,17 @@
   var PointOfViewActivity = {
     id: 'point-of-view-activity',
     strings: {
-      title: { en: "Lumen's Lighthouse Windows", de: 'Lumens Leuchtturm', fr: 'Le phare de Lumen' },
-      instruction: { en: 'Lumen the owl needs help — whose window is the story told from?', de: 'Lies den Satz. Von ganz oben sieht alles winzig und weit weg aus. Von ganz unten sieht alles riesig und ganz nah aus. Tippe auf das Fenster, aus dem der Satz erzählt wird.', fr: 'Lis la phrase. Tout en haut, tout paraît minuscule et lointain ; tout en bas, énorme et tout proche. Touche la fenêtre d’où la phrase est racontée.' },
-      q: { en: '“{line}” Who said it?', de: '„{line}“ Wer erzählt das?', fr: '« {line} » Qui l’a dit ?' }
+      /* es-MX. ⚠ `“ ”` NOT `« »`: RAE/AML prescribe guillemets, but SEP's Libros de Texto
+         Gratuitos use curly quotes — that is what a Mexican 1.º-grader actually sees. Do
+         not "correct" it. ⚠ `¿Quién lo cuenta?` not `¿Quién lo dijo?` — deviates from en
+         "said"/fr "dit" and follows de: RL.1.6 is *who is TELLING*, `contar/narrar` is the
+         SEP verb, and it closes the loop with «desde donde se cuenta».
+         ⚠ The 3-sentence instruction is deliberate: the EN one-liner does NOT teach the
+         rule, and the rule is the whole activity. Fused with «;» (the fr move) → 157 ch,
+         SHORTER than de's shipped 168. */
+      title: { en: "Lumen's Lighthouse Windows", de: 'Lumens Leuchtturm', fr: 'Le phare de Lumen', es: 'El faro de Lumen' },
+      instruction: { en: 'Lumen the owl needs help — whose window is the story told from?', de: 'Lies den Satz. Von ganz oben sieht alles winzig und weit weg aus. Von ganz unten sieht alles riesig und ganz nah aus. Tippe auf das Fenster, aus dem der Satz erzählt wird.', fr: 'Lis la phrase. Tout en haut, tout paraît minuscule et lointain ; tout en bas, énorme et tout proche. Touche la fenêtre d’où la phrase est racontée.', es: 'Lee la oración. Hasta arriba todo se ve muy pequeño y lejos; hasta abajo, todo se ve enorme y bien cerca. Toca la ventana desde donde se cuenta la oración.' },
+      q: { en: '“{line}” Who said it?', de: '„{line}“ Wer erzählt das?', fr: '« {line} » Qui l’a dit ?', es: '“{line}” ¿Quién lo cuenta?' }
     },
 
     init: function (api) {
@@ -237,6 +261,13 @@
       if (LANG === 'fr') {
         var whoFr = (r.chars || []).map(function (c) { return c.name + ' est ' + poslabel(c.pos).toLowerCase(); }).join(', ');
         wrap.innerHTML = '<p>' + (r.event || '') + ' La phrase « ' + r.line + ' » est racontée depuis une fenêtre. ' + whoFr + '. Qui la raconte ?</p>';
+        return wrap;
+      }
+      if (LANG === 'es') {
+        /* `está` takes no agreement → safe for the mixed-gender names; `¿Quién LA cuenta?`
+           agrees with «la oración», never with the speaker (whose gender varies). */
+        var whoEs = (r.chars || []).map(function (c) { return c.name + ' está ' + poslabel(c.pos).toLowerCase(); }).join(', ');
+        wrap.innerHTML = '<p>' + (r.event || '') + ' La oración “' + r.line + '” se cuenta desde una ventana. ' + whoEs + '. ¿Quién la cuenta?</p>';
         return wrap;
       }
       var who = (r.chars || []).map(function (c) { return c.name + ' is ' + poslabel(c.pos).toLowerCase(); }).join('; ');

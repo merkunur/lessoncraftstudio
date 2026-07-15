@@ -1,0 +1,37 @@
+{
+  "locale": "it",
+  "version": 1,
+  "stages": [
+    { "id": "s1", "label": "Sillabe · parole di 2 sillabe", "free": true, "type": "syllables" },
+    { "id": "s2", "label": "Suoni · fonemi", "free": false },
+    { "id": "s3", "label": "Doppie e digrammi · tt ch sc gn", "free": false }
+  ],
+  "words": [
+    { "id": "sole",    "noun": "sun",   "themeDir": "weather",                 "display": "sole",    "boxes": ["so","le"],           "syllables": ["so","le"],       "stage": "s1" },
+    { "id": "luna",    "noun": "moon",  "themeDir": "space",                   "display": "luna",    "boxes": ["lu","na"],           "syllables": ["lu","na"],       "stage": "s1" },
+    { "id": "mela",    "noun": "apple", "themeDir": "At the Supermarket",      "display": "mela",    "boxes": ["me","la"],           "syllables": ["me","la"],       "stage": "s1" },
+    { "id": "pera",    "noun": "pear",  "themeDir": "fruits",                  "display": "pera",    "boxes": ["pe","ra"],           "syllables": ["pe","ra"],       "stage": "s1" },
+    { "id": "rana",    "noun": "frog",  "themeDir": "reptiles and Amphibians", "display": "rana",    "boxes": ["ra","na"],           "syllables": ["ra","na"],       "stage": "s1" },
+    { "id": "topo",    "noun": "mouse", "themeDir": "pets",                    "display": "topo",    "boxes": ["to","po"],           "syllables": ["to","po"],       "stage": "s1" },
+    { "id": "nido",    "noun": "nest",  "themeDir": "spring",                  "display": "nido",    "boxes": ["ni","do"],           "syllables": ["ni","do"],       "stage": "s1" },
+    { "id": "casa",    "noun": "house", "themeDir": "miscellaneous",           "display": "casa",    "boxes": ["ca","sa"],           "syllables": ["ca","sa"],       "stage": "s1" },
+
+    { "id": "mano",    "noun": "hand",  "themeDir": "body parts",              "display": "mano",    "boxes": ["m","a","n","o"],     "syllables": ["ma","no"],       "stage": "s2" },
+    { "id": "naso",    "noun": "nose",  "themeDir": "body parts",              "display": "naso",    "boxes": ["n","a","s","o"],     "syllables": ["na","so"],       "stage": "s2" },
+    { "id": "vaso",    "noun": "vase",  "themeDir": "around the house",        "display": "vaso",    "boxes": ["v","a","s","o"],     "syllables": ["va","so"],       "stage": "s2" },
+    { "id": "lupo",    "noun": "wolf",  "themeDir": "animals",                 "display": "lupo",    "boxes": ["l","u","p","o"],     "syllables": ["lu","po"],       "stage": "s2" },
+    { "id": "pane",    "noun": "bread", "themeDir": "At the Supermarket",      "display": "pane",    "boxes": ["p","a","n","e"],     "syllables": ["pa","ne"],       "stage": "s2" },
+    { "id": "fico",    "noun": "fig",   "themeDir": "fruits",                  "display": "fico",    "boxes": ["f","i","c","o"],     "syllables": ["fi","co"],       "stage": "s2", "note": "c davanti a o = suono duro /k/" },
+    { "id": "riso",    "noun": "rice",  "themeDir": "At the Supermarket",      "display": "riso",    "boxes": ["r","i","s","o"],     "syllables": ["ri","so"],       "stage": "s2" },
+    { "id": "treno",   "noun": "train", "themeDir": "toys",                    "display": "treno",   "boxes": ["t","r","e","n","o"], "syllables": ["tre","no"],      "stage": "s2", "note": "t e r sono due suoni: due caselle" },
+
+    { "id": "gatto",   "noun": "cat",   "themeDir": "animals",                 "display": "gatto",   "boxes": ["g","a","tt","o"],    "syllables": ["gat","to"],      "stage": "s3", "note": "doppia = un suono lungo" },
+    { "id": "palla",   "noun": "ball",  "themeDir": "toys",                    "display": "palla",   "boxes": ["p","a","ll","a"],    "syllables": ["pal","la"],      "stage": "s3", "note": "ll = un suono lungo" },
+    { "id": "penna",   "noun": "pen",   "themeDir": "classroom",               "display": "penna",   "boxes": ["p","e","nn","a"],    "syllables": ["pen","na"],      "stage": "s3", "note": "nn = un suono lungo" },
+    { "id": "mucca",   "noun": "cow",   "themeDir": "farm animals",            "display": "mucca",   "boxes": ["m","u","cc","a"],    "syllables": ["muc","ca"],      "stage": "s3", "note": "cc = un suono /k/ lungo" },
+    { "id": "pesce",   "noun": "fish",  "themeDir": "animals",                 "display": "pesce",   "boxes": ["p","e","sc","e"],    "syllables": ["pe","sce"],      "stage": "s3", "note": "sc davanti a e = un suono solo /ʃ/" },
+    { "id": "chiave",  "noun": "key",   "themeDir": "around the house",        "display": "chiave",  "boxes": ["ch","i","a","v","e"],"syllables": ["chia","ve"],     "stage": "s3", "note": "ch = un suono duro /k/" },
+    { "id": "giacca",  "noun": "jacket","themeDir": "clothing",                "display": "giacca",  "boxes": ["gi","a","cc","a"],   "syllables": ["giac","ca"],     "stage": "s3", "note": "gi davanti ad a = un suono solo /ʤ/; cc = suono lungo" },
+    { "id": "agnello", "noun": "lamb",  "themeDir": "easter",                  "display": "agnello", "boxes": ["a","gn","e","ll","o"],"syllables": ["a","gnel","lo"], "stage": "s3", "note": "gn = un suono solo; ll = suono lungo" }
+  ]
+}

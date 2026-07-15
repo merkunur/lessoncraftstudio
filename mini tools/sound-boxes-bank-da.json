@@ -1,0 +1,27 @@
+{
+  "locale": "da",
+  "version": 1,
+  "stages": [
+    { "id": "s1", "label": "Lydrette ord · 2–3 lyde", "free": true },
+    { "id": "s2", "label": "Lidt længere lydrette ord · 4 lyde", "free": false }
+  ],
+  "words": [
+    { "id": "sol",  "noun": "sun",   "themeDir": "weather",            "display": "sol",  "boxes": ["s","o","l"],     "syllables": ["sol"],  "stage": "s1" },
+    { "id": "hus",  "noun": "house", "themeDir": "miscellaneous",      "display": "hus",  "boxes": ["h","u","s"],     "syllables": ["hus"],  "stage": "s1" },
+    { "id": "kat",  "noun": "cat",   "themeDir": "animals",            "display": "kat",  "boxes": ["k","a","t"],     "syllables": ["kat"],  "stage": "s1" },
+    { "id": "mus",  "noun": "mouse", "themeDir": "pets",               "display": "mus",  "boxes": ["m","u","s"],     "syllables": ["mus"],  "stage": "s1" },
+    { "id": "bus",  "noun": "bus",   "themeDir": "vehicles",           "display": "bus",  "boxes": ["b","u","s"],     "syllables": ["bus"],  "stage": "s1" },
+    { "id": "bi",   "noun": "bee",   "themeDir": "farm animals",       "display": "bi",   "boxes": ["b","i"],         "syllables": ["bi"],   "stage": "s1", "note": "kun 2 lyde" },
+    { "id": "ko",   "noun": "cow",   "themeDir": "farm animals",       "display": "ko",   "boxes": ["k","o"],         "syllables": ["ko"],   "stage": "s1", "note": "kun 2 lyde" },
+    { "id": "soe",  "noun": "lake",  "themeDir": "camping",            "display": "sø",   "boxes": ["s","ø"],         "syllables": ["sø"],   "stage": "s1", "note": "kun 2 lyde" },
+    { "id": "ris",  "noun": "rice",  "themeDir": "At the Supermarket", "display": "ris",  "boxes": ["r","i","s"],     "syllables": ["ris"],  "stage": "s1" },
+    { "id": "hat",  "noun": "hat",   "themeDir": "accessories",        "display": "hat",  "boxes": ["h","a","t"],     "syllables": ["hat"],  "stage": "s1" },
+    { "id": "ben",  "noun": "leg",   "themeDir": "body parts",         "display": "ben",  "boxes": ["b","e","n"],     "syllables": ["ben"],  "stage": "s1" },
+    { "id": "sko",  "noun": "shoe",  "themeDir": "clothing",           "display": "sko",  "boxes": ["s","k","o"],     "syllables": ["sko"],  "stage": "s1", "note": "s og k er to lyde — to bokse" },
+
+    { "id": "gris", "noun": "pig",   "themeDir": "animals",            "display": "gris", "boxes": ["g","r","i","s"], "syllables": ["gris"], "stage": "s2", "note": "g og r er to lyde — to bokse" },
+    { "id": "fisk", "noun": "fish",  "themeDir": "animals",            "display": "fisk", "boxes": ["f","i","s","k"], "syllables": ["fisk"], "stage": "s2", "note": "4 bogstaver, 4 lyde" },
+    { "id": "glas", "noun": "glass", "themeDir": "kitchen tools",      "display": "glas", "boxes": ["g","l","a","s"], "syllables": ["glas"], "stage": "s2" },
+    { "id": "krus", "noun": "mug",   "themeDir": "kitchen tools",      "display": "krus", "boxes": ["k","r","u","s"], "syllables": ["krus"], "stage": "s2" }
+  ]
+}

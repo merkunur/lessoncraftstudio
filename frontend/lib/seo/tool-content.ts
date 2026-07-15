@@ -17,7 +17,7 @@ import { TOPIC_ENABLED_LOCALES } from '@/config/topic-locales';
 import { buildHreflangAlternates } from './hreflang';
 
 /** Canonical tool keys — match the mini-tool file basenames + MANIPULATIVES ids. */
-export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler'] as const;
+export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes'] as const;
 export type ToolKey = (typeof TOOL_KEYS)[number];
 
 /** Mini-tool HTML path (nginx-direct, §3.3) per tool key. */
@@ -25,17 +25,21 @@ export const TOOL_MINI_URL: Record<ToolKey, string> = {
   'ten-frame': '/mini-tools/ten-frame.html',
   'number-line': '/mini-tools/number-line.html',
   ruler: '/mini-tools/ruler.html',
+  'sound-boxes': '/mini-tools/sound-boxes.html',
 };
 
 /**
  * Activity-manifest `tool` field prefix per tool key — used to surface
  * "activities that use this tool". ten-frame-activity exists today; the
  * others have no activity engine yet (their strip self-skips).
+ * 'sound-boxes' prefix also matches the existing 'sound-boxes-activity'
+ * (RF.K.2.d) — deliberate cross-link between the tool + its activity.
  */
 export const TOOL_ACTIVITY_PREFIX: Record<ToolKey, string> = {
   'ten-frame': 'ten-frame',
   'number-line': 'number-line',
   ruler: 'ruler',
+  'sound-boxes': 'sound-boxes',
 };
 
 export interface ToolEntry {
@@ -63,6 +67,8 @@ interface ToolContentFile {
   'ten-frame': ToolEntry;
   'number-line': ToolEntry;
   ruler: ToolEntry;
+  /** optional so locales can ship the entry as their content lands */
+  'sound-boxes'?: ToolEntry;
   labels: ToolContentLabels;
 }
 

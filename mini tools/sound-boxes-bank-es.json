@@ -1,0 +1,55 @@
+{
+  "locale": "es",
+  "version": 1,
+  "stages": [
+    { "id": "s1", "label": "Sílabas · palabras de 2 sílabas", "free": true, "type": "syllables" },
+    { "id": "s2", "label": "Sonidos · conciencia fonémica", "free": false },
+    { "id": "s3", "label": "Dígrafos · rr ll ch qu", "free": false },
+    { "id": "s4", "label": "Sílabas trabadas · pla, bru", "free": false, "type": "syllables" }
+  ],
+  "words": [
+    { "id": "gato",     "noun": "cat",        "themeDir": "animals",                 "display": "gato",     "boxes": ["ga","to"],           "syllables": ["ga","to"],           "stage": "s1" },
+    { "id": "pato",     "noun": "duck",       "themeDir": "animals",                 "display": "pato",     "boxes": ["pa","to"],           "syllables": ["pa","to"],           "stage": "s1" },
+    { "id": "casa",     "noun": "house",      "themeDir": "miscellaneous",           "display": "casa",     "boxes": ["ca","sa"],           "syllables": ["ca","sa"],           "stage": "s1" },
+    { "id": "luna",     "noun": "moon",       "themeDir": "space",                   "display": "luna",     "boxes": ["lu","na"],           "syllables": ["lu","na"],           "stage": "s1" },
+    { "id": "mesa",     "noun": "table",      "themeDir": "furniture",               "display": "mesa",     "boxes": ["me","sa"],           "syllables": ["me","sa"],           "stage": "s1" },
+    { "id": "vaca",     "noun": "cow",        "themeDir": "farm animals",            "display": "vaca",     "boxes": ["va","ca"],           "syllables": ["va","ca"],           "stage": "s1" },
+    { "id": "taza",     "noun": "cup",        "themeDir": "around the house",        "display": "taza",     "boxes": ["ta","za"],           "syllables": ["ta","za"],           "stage": "s1", "note": "la z suena /s/ con seseo y /θ/ con distinción; las dos pronunciaciones son correctas" },
+    { "id": "boca",     "noun": "mouth",      "themeDir": "body parts",              "display": "boca",     "boxes": ["bo","ca"],           "syllables": ["bo","ca"],           "stage": "s1" },
+    { "id": "mano",     "noun": "hand",       "themeDir": "body parts",              "display": "mano",     "boxes": ["ma","no"],           "syllables": ["ma","no"],           "stage": "s1" },
+    { "id": "mono",     "noun": "monkey",     "themeDir": "zoo animals",             "display": "mono",     "boxes": ["mo","no"],           "syllables": ["mo","no"],           "stage": "s1" },
+
+    { "id": "sol",      "noun": "sun",        "themeDir": "weather",                 "display": "sol",      "boxes": ["s","o","l"],         "syllables": ["sol"],               "stage": "s2" },
+    { "id": "pan",      "noun": "bread",      "themeDir": "At the Supermarket",      "display": "pan",      "boxes": ["p","a","n"],         "syllables": ["pan"],               "stage": "s2" },
+    { "id": "mapa",     "noun": "map",        "themeDir": "camping",                 "display": "mapa",     "boxes": ["m","a","p","a"],     "syllables": ["ma","pa"],           "stage": "s2" },
+    { "id": "nido",     "noun": "nest",       "themeDir": "spring",                  "display": "nido",     "boxes": ["n","i","d","o"],     "syllables": ["ni","do"],           "stage": "s2" },
+    { "id": "pera",     "noun": "pear",       "themeDir": "fruits",                  "display": "pera",     "boxes": ["p","e","r","a"],     "syllables": ["pe","ra"],           "stage": "s2", "note": "la r entre vocales es suave (vibrante simple)" },
+    { "id": "foca",     "noun": "seal",       "themeDir": "ocean life",              "display": "foca",     "boxes": ["f","o","c","a"],     "syllables": ["fo","ca"],           "stage": "s2", "note": "la c suena /k/" },
+    { "id": "nube",     "noun": "cloud",      "themeDir": "beach",                   "display": "nube",     "boxes": ["n","u","b","e"],     "syllables": ["nu","be"],           "stage": "s2" },
+    { "id": "vaso",     "noun": "glass",      "themeDir": "kitchen tools",           "display": "vaso",     "boxes": ["v","a","s","o"],     "syllables": ["va","so"],           "stage": "s2", "note": "la v suena igual que la b" },
+    { "id": "lobo",     "noun": "wolf",       "themeDir": "animals",                 "display": "lobo",     "boxes": ["l","o","b","o"],     "syllables": ["lo","bo"],           "stage": "s2" },
+    { "id": "rana",     "noun": "frog",       "themeDir": "reptiles and Amphibians", "display": "rana",     "boxes": ["r","a","n","a"],     "syllables": ["ra","na"],           "stage": "s2", "note": "la r inicial suena fuerte, como rr" },
+
+    { "id": "queso",    "noun": "cheese",     "themeDir": "At the Supermarket",      "display": "queso",    "boxes": ["qu","e","s","o"],    "syllables": ["que","so"],          "stage": "s3", "note": "qu es un solo sonido /k/; la u no suena" },
+    { "id": "perro",    "noun": "dog",        "themeDir": "animals",                 "display": "perro",    "boxes": ["p","e","rr","o"],    "syllables": ["pe","rro"],          "stage": "s3", "note": "rr es un solo sonido: la vibrante fuerte" },
+    { "id": "gallo",    "noun": "rooster",    "themeDir": "farm animals",            "display": "gallo",    "boxes": ["g","a","ll","o"],    "syllables": ["ga","llo"],          "stage": "s3", "note": "ll es un solo sonido" },
+    { "id": "silla",    "noun": "chair",      "themeDir": "around the house",        "display": "silla",    "boxes": ["s","i","ll","a"],    "syllables": ["si","lla"],          "stage": "s3" },
+    { "id": "gorro",    "noun": "beanie",     "themeDir": "accessories",             "display": "gorro",    "boxes": ["g","o","rr","o"],    "syllables": ["go","rro"],          "stage": "s3" },
+    { "id": "pollo",    "noun": "chicken",    "themeDir": "farm animals",            "display": "pollo",    "boxes": ["p","o","ll","o"],    "syllables": ["po","llo"],          "stage": "s3" },
+    { "id": "llave",    "noun": "key",        "themeDir": "around the house",        "display": "llave",    "boxes": ["ll","a","v","e"],    "syllables": ["lla","ve"],          "stage": "s3" },
+    { "id": "carro",    "noun": "car",        "themeDir": "toys",                    "display": "carro",    "boxes": ["c","a","rr","o"],    "syllables": ["ca","rro"],          "stage": "s3" },
+    { "id": "leche",    "noun": "milk",       "themeDir": "At the Supermarket",      "display": "leche",    "boxes": ["l","e","ch","e"],    "syllables": ["le","che"],          "stage": "s3", "note": "ch es un solo sonido" },
+    { "id": "burro",    "noun": "donkey",     "themeDir": "animals",                 "display": "burro",    "boxes": ["b","u","rr","o"],    "syllables": ["bu","rro"],          "stage": "s3" },
+
+    { "id": "globo",    "noun": "balloon",    "themeDir": "toys",                    "display": "globo",    "boxes": ["glo","bo"],          "syllables": ["glo","bo"],          "stage": "s4", "note": "sílaba trabada glo: dos consonantes juntas antes de la vocal" },
+    { "id": "libro",    "noun": "book",       "themeDir": "classroom",               "display": "libro",    "boxes": ["li","bro"],          "syllables": ["li","bro"],          "stage": "s4" },
+    { "id": "tigre",    "noun": "tiger",      "themeDir": "animals",                 "display": "tigre",    "boxes": ["ti","gre"],          "syllables": ["ti","gre"],          "stage": "s4" },
+    { "id": "cabra",    "noun": "goat",       "themeDir": "farm animals",            "display": "cabra",    "boxes": ["ca","bra"],          "syllables": ["ca","bra"],          "stage": "s4" },
+    { "id": "fresa",    "noun": "strawberry", "themeDir": "fruits",                  "display": "fresa",    "boxes": ["fre","sa"],          "syllables": ["fre","sa"],          "stage": "s4" },
+    { "id": "cebra",    "noun": "zebra",      "themeDir": "animals",                 "display": "cebra",    "boxes": ["ce","bra"],          "syllables": ["ce","bra"],          "stage": "s4", "note": "la c de ce suena /s/ con seseo y /θ/ con distinción; las dos son correctas" },
+    { "id": "platano",  "noun": "banana",     "themeDir": "At the Supermarket",      "display": "plátano",  "boxes": ["plá","ta","no"],     "syllables": ["plá","ta","no"],     "stage": "s4" },
+    { "id": "brocoli",  "noun": "broccoli",   "themeDir": "vegetables",              "display": "brócoli",  "boxes": ["bró","co","li"],     "syllables": ["bró","co","li"],     "stage": "s4" },
+    { "id": "trineo",   "noun": "sled",       "themeDir": "winter",                  "display": "trineo",   "boxes": ["tri","ne","o"],      "syllables": ["tri","ne","o"],      "stage": "s4" },
+    { "id": "sombrero", "noun": "hat",        "themeDir": "accessories",             "display": "sombrero", "boxes": ["som","bre","ro"],    "syllables": ["som","bre","ro"],    "stage": "s4" }
+  ]
+}

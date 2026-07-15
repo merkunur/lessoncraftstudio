@@ -71,6 +71,32 @@
       "Classez plusieurs longueurs de la plus courte à la plus longue et mesurez pour vérifier l'ordre."
     ]
   },
+  "sound-boxes": {
+    "slug": "boites-a-sons",
+    "name": "Boîtes à sons",
+    "tagline": "Segmenter les mots en sons, du son à la lettre",
+    "metaTitle": "Boîtes à sons – conscience phonologique | LessonCraftStudio",
+    "metaDescription": "Des boîtes à sons gratuites et interactives pour la conscience phonologique au CP : l'enfant écoute le mot, place un jeton par son, puis découvre les lettres.",
+    "about": [
+      "Les boîtes à sons (les boîtes d'Elkonin) sont un outil classique de la conscience phonologique : une case par son, jamais une case par lettre. L'enfant écoute un mot, le prononce lentement, puis pose un jeton dans une case pour chaque son qu'il entend — il voit ainsi que « chat » ne fait que deux sons, même s'il s'écrit avec quatre lettres.",
+      "Cette version interactive et gratuite suit la progression du CP : d'abord des mots transparents où chaque lettre s'entend (bol, vélo), puis les sons complexes ch, ou, oi — une seule case pour un seul son — et les lettres muettes, affichées en gris à l'extérieur des cases pour montrer qu'elles ne se prononcent pas.",
+      "L'outil fonctionne directement dans le navigateur, sur TBI, tablette et ordinateur : rien à installer, aucun compte à créer. Pas de minuteur, pas de score — un espace calme pour segmenter, encoder et fusionner les sons, au rythme de chaque enfant."
+    ],
+    "howToUse": [
+      "Touchez l'image pour faire entendre le mot, puis demandez à l'enfant de le redire lentement en étirant les sons.",
+      "Posez un jeton dans une case pour chaque son entendu, de gauche à droite, en prononçant le son au moment où le jeton se pose.",
+      "Commencez avec les lettres cachées : on travaille d'abord l'oreille, pas l'orthographe.",
+      "Affichez ensuite les lettres pour relier chaque son à son graphème — et montrer que ch, ou ou oi occupent une seule case.",
+      "Terminez par la fusion : balayez les cases du doigt en accélérant jusqu'à redire le mot entier d'un seul souffle."
+    ],
+    "classroomIdeas": [
+      "En rituel de phonologie, projetez un mot au TBI : toute la classe frappe les sons dans les mains, un élève vient poser les jetons.",
+      "En atelier dirigé, faites segmenter le même mot avec des jetons réels sur la table, puis vérifiez avec l'outil.",
+      "Jouez à « combien de sons ? » : les enfants annoncent le nombre de sons avant d'ouvrir les cases, puis vérifient en posant les jetons.",
+      "Utilisez les lettres muettes en gris comme point de départ d'une chasse aux lettres muettes dans les mots de la classe.",
+      "Passez de la segmentation à l'encodage : après avoir posé les jetons, les enfants écrivent le mot sur l'ardoise, une case après l'autre."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

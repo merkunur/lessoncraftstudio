@@ -1,0 +1,31 @@
+{
+  "locale": "fr",
+  "version": 1,
+  "stages": [
+    { "id": "s1", "label": "Sons simples", "free": true },
+    { "id": "s2", "label": "Sons complexes (ch, ou, oi) et lettres muettes", "free": false }
+  ],
+  "words": [
+    { "id": "bol",    "noun": "bowl",    "themeDir": "around the house",   "display": "bol",    "boxes": ["b","o","l"],          "syllables": ["bol"],          "stage": "s1" },
+    { "id": "lac",    "noun": "lake",    "themeDir": "camping",            "display": "lac",    "boxes": ["l","a","c"],          "syllables": ["lac"],          "stage": "s1" },
+    { "id": "sac",    "noun": "bag",     "themeDir": "At the Supermarket", "display": "sac",    "boxes": ["s","a","c"],          "syllables": ["sac"],          "stage": "s1" },
+    { "id": "bus",    "noun": "bus",     "themeDir": "vehicles",           "display": "bus",    "boxes": ["b","u","s"],          "syllables": ["bus"],          "stage": "s1", "note": "le s final se prononce dans bus" },
+    { "id": "cle",    "noun": "key",     "themeDir": "around the house",   "display": "clé",    "boxes": ["c","l","é"],          "syllables": ["clé"],          "stage": "s1" },
+    { "id": "velo",   "noun": "bicycle", "themeDir": "vehicles",           "display": "vélo",   "boxes": ["v","é","l","o"],      "syllables": ["vé","lo"],      "stage": "s1" },
+    { "id": "sofa",   "noun": "sofa",    "themeDir": "furniture",          "display": "sofa",   "boxes": ["s","o","f","a"],      "syllables": ["so","fa"],      "stage": "s1" },
+
+    { "id": "chat",   "noun": "cat",     "themeDir": "animals",            "display": "chat",   "boxes": ["ch","a"],             "syllables": ["chat"],         "stage": "s2", "silentTail": "t", "note": "ch = un seul son ; le t final est muet" },
+    { "id": "lit",    "noun": "bed",     "themeDir": "around the house",   "display": "lit",    "boxes": ["l","i"],              "syllables": ["lit"],          "stage": "s2", "silentTail": "t" },
+    { "id": "nid",    "noun": "nest",    "themeDir": "spring",             "display": "nid",    "boxes": ["n","i"],              "syllables": ["nid"],          "stage": "s2", "silentTail": "d" },
+    { "id": "loup",   "noun": "wolf",    "themeDir": "animals",            "display": "loup",   "boxes": ["l","ou"],             "syllables": ["loup"],         "stage": "s2", "silentTail": "p", "note": "ou = un seul son ; le p final est muet" },
+    { "id": "chou",   "noun": "cabbage", "themeDir": "vegetables",         "display": "chou",   "boxes": ["ch","ou"],            "syllables": ["chou"],         "stage": "s2", "note": "deux sons seulement : ch + ou" },
+    { "id": "souris", "noun": "mouse",   "themeDir": "pets",               "display": "souris", "boxes": ["s","ou","r","i"],     "syllables": ["sou","ris"],    "stage": "s2", "silentTail": "s" },
+    { "id": "tapis",  "noun": "carpet",  "themeDir": "around the house",   "display": "tapis",  "boxes": ["t","a","p","i"],      "syllables": ["ta","pis"],     "stage": "s2", "silentTail": "s" },
+    { "id": "poule",  "noun": "hen",     "themeDir": "birds 2",            "display": "poule",  "boxes": ["p","ou","l"],         "syllables": ["pou","le"],     "stage": "s2", "silentTail": "e", "note": "le e final est muet" },
+    { "id": "bouche", "noun": "mouth",   "themeDir": "body parts",         "display": "bouche", "boxes": ["b","ou","ch"],        "syllables": ["bou","che"],    "stage": "s2", "silentTail": "e" },
+    { "id": "poire",  "noun": "pear",    "themeDir": "fruits",             "display": "poire",  "boxes": ["p","oi","r"],         "syllables": ["poi","re"],     "stage": "s2", "silentTail": "e", "note": "oi = un seul son /wa/" },
+    { "id": "etoile", "noun": "star",    "themeDir": "christmas",          "display": "étoile", "boxes": ["é","t","oi","l"],     "syllables": ["é","toi","le"], "stage": "s2", "silentTail": "e" },
+    { "id": "lune",   "noun": "moon",    "themeDir": "space",              "display": "lune",   "boxes": ["l","u","n"],          "syllables": ["lu","ne"],      "stage": "s2", "silentTail": "e" },
+    { "id": "tomate", "noun": "tomato",  "themeDir": "vegetables",         "display": "tomate", "boxes": ["t","o","m","a","t"],  "syllables": ["to","ma","te"], "stage": "s2", "silentTail": "e" }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "locale": "pt",
+  "version": 1,
+  "stages": [
+    { "id": "s1", "label": "Sílabas · palavras de 2 sílabas", "free": true, "type": "syllables" },
+    { "id": "s2", "label": "Sons · consciência fonêmica", "free": false },
+    { "id": "s3", "label": "Dígrafos · nh lh ch rr", "free": false }
+  ],
+  "words": [
+    { "id": "lua",    "noun": "moon",   "themeDir": "space",            "display": "lua",    "boxes": ["lu","a"],            "syllables": ["lu","a"],      "stage": "s1", "note": "hiato — cada vogal fica em sua sílaba: lu-a" },
+    { "id": "gato",   "noun": "cat",    "themeDir": "animals",          "display": "gato",   "boxes": ["ga","to"],           "syllables": ["ga","to"],     "stage": "s1" },
+    { "id": "bola",   "noun": "ball",   "themeDir": "toys",             "display": "bola",   "boxes": ["bo","la"],           "syllables": ["bo","la"],     "stage": "s1" },
+    { "id": "casa",   "noun": "house",  "themeDir": "miscellaneous",    "display": "casa",   "boxes": ["ca","sa"],           "syllables": ["ca","sa"],     "stage": "s1", "note": "o s entre vogais soa como /z/" },
+    { "id": "pato",   "noun": "duck",   "themeDir": "animals",          "display": "pato",   "boxes": ["pa","to"],           "syllables": ["pa","to"],     "stage": "s1" },
+    { "id": "vaca",   "noun": "cow",    "themeDir": "farm animals",     "display": "vaca",   "boxes": ["va","ca"],           "syllables": ["va","ca"],     "stage": "s1" },
+    { "id": "pipa",   "noun": "kite",   "themeDir": "toys",             "display": "pipa",   "boxes": ["pi","pa"],           "syllables": ["pi","pa"],     "stage": "s1" },
+    { "id": "mesa",   "noun": "table",  "themeDir": "furniture",        "display": "mesa",   "boxes": ["me","sa"],           "syllables": ["me","sa"],     "stage": "s1", "note": "o s entre vogais soa como /z/" },
+
+    { "id": "rato",   "noun": "mouse",  "themeDir": "pets",             "display": "rato",   "boxes": ["r","a","t","o"],     "syllables": ["ra","to"],     "stage": "s2", "note": "r no início da palavra = som forte, uma caixa só" },
+    { "id": "sapo",   "noun": "toad",   "themeDir": "forest creatures", "display": "sapo",   "boxes": ["s","a","p","o"],     "syllables": ["sa","po"],     "stage": "s2" },
+    { "id": "dedo",   "noun": "finger", "themeDir": "body parts",       "display": "dedo",   "boxes": ["d","e","d","o"],     "syllables": ["de","do"],     "stage": "s2" },
+    { "id": "bolo",   "noun": "cake",   "themeDir": "bakery",           "display": "bolo",   "boxes": ["b","o","l","o"],     "syllables": ["bo","lo"],     "stage": "s2" },
+    { "id": "vela",   "noun": "candle", "themeDir": "christmas",        "display": "vela",   "boxes": ["v","e","l","a"],     "syllables": ["ve","la"],     "stage": "s2" },
+    { "id": "copo",   "noun": "glass",  "themeDir": "kitchen tools",    "display": "copo",   "boxes": ["c","o","p","o"],     "syllables": ["co","po"],     "stage": "s2" },
+    { "id": "luva",   "noun": "glove",  "themeDir": "accessories",      "display": "luva",   "boxes": ["l","u","v","a"],     "syllables": ["lu","va"],     "stage": "s2" },
+    { "id": "pe",     "noun": "foot",   "themeDir": "body parts",       "display": "pé",     "boxes": ["p","é"],             "syllables": ["pé"],          "stage": "s2", "note": "só 2 sons — palavra de uma sílaba" },
+
+    { "id": "chave",  "noun": "key",    "themeDir": "around the house", "display": "chave",  "boxes": ["ch","a","v","e"],    "syllables": ["cha","ve"],    "stage": "s3", "note": "ch é um som só — uma caixa" },
+    { "id": "chuva",  "noun": "rain",   "themeDir": "spring",           "display": "chuva",  "boxes": ["ch","u","v","a"],    "syllables": ["chu","va"],    "stage": "s3" },
+    { "id": "ninho",  "noun": "nest",   "themeDir": "spring",           "display": "ninho",  "boxes": ["n","i","nh","o"],    "syllables": ["ni","nho"],    "stage": "s3", "note": "nh é um som só — uma caixa" },
+    { "id": "olho",   "noun": "eye",    "themeDir": "body parts",       "display": "olho",   "boxes": ["o","lh","o"],        "syllables": ["o","lho"],     "stage": "s3", "note": "lh é um som só — uma caixa" },
+    { "id": "folha",  "noun": "leaf",   "themeDir": "miscellaneous",    "display": "folha",  "boxes": ["f","o","lh","a"],    "syllables": ["fo","lha"],    "stage": "s3" },
+    { "id": "ovelha", "noun": "sheep",  "themeDir": "farm animals",     "display": "ovelha", "boxes": ["o","v","e","lh","a"], "syllables": ["o","ve","lha"], "stage": "s3" },
+    { "id": "carro",  "noun": "car",    "themeDir": "toys",             "display": "carro",  "boxes": ["c","a","rr","o"],    "syllables": ["car","ro"],    "stage": "s3", "note": "rr entre vogais é um som só — uma caixa" },
+    { "id": "burro",  "noun": "donkey", "themeDir": "animals",          "display": "burro",  "boxes": ["b","u","rr","o"],    "syllables": ["bur","ro"],    "stage": "s3" }
+  ]
+}

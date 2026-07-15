@@ -1,0 +1,31 @@
+{
+  "locale": "sv",
+  "version": 1,
+  "stages": [
+    { "id": "s1", "label": "Ljudenliga ord · 2–3 ljud", "free": true },
+    { "id": "s2", "label": "Dubbelteckning · kort vokal", "free": false }
+  ],
+  "words": [
+    { "id": "sol",  "noun": "sun",      "themeDir": "weather",            "display": "sol",  "boxes": ["s","o","l"],  "syllables": ["sol"],  "stage": "s1" },
+    { "id": "bi",   "noun": "bee",      "themeDir": "farm animals",       "display": "bi",   "boxes": ["b","i"],      "syllables": ["bi"],   "stage": "s1", "note": "bara 2 ljud" },
+    { "id": "ko",   "noun": "cow",      "themeDir": "farm animals",       "display": "ko",   "boxes": ["k","o"],      "syllables": ["ko"],   "stage": "s1", "note": "bara 2 ljud" },
+    { "id": "bo",   "noun": "nest",     "themeDir": "spring",             "display": "bo",   "boxes": ["b","o"],      "syllables": ["bo"],   "stage": "s1", "note": "bara 2 ljud" },
+    { "id": "mus",  "noun": "mouse",    "themeDir": "pets",               "display": "mus",  "boxes": ["m","u","s"],  "syllables": ["mus"],  "stage": "s1" },
+    { "id": "hus",  "noun": "house",    "themeDir": "miscellaneous",      "display": "hus",  "boxes": ["h","u","s"],  "syllables": ["hus"],  "stage": "s1" },
+    { "id": "ris",  "noun": "rice",     "themeDir": "At the Supermarket", "display": "ris",  "boxes": ["r","i","s"],  "syllables": ["ris"],  "stage": "s1" },
+    { "id": "ben",  "noun": "leg",      "themeDir": "body parts",         "display": "ben",  "boxes": ["b","e","n"],  "syllables": ["ben"],  "stage": "s1" },
+    { "id": "rav",  "noun": "fox",      "themeDir": "animals",            "display": "räv",  "boxes": ["r","ä","v"],  "syllables": ["räv"],  "stage": "s1" },
+    { "id": "lok",  "noun": "onion",    "themeDir": "vegetables",         "display": "lök",  "boxes": ["l","ö","k"],  "syllables": ["lök"],  "stage": "s1" },
+    { "id": "val",  "noun": "whale",    "themeDir": "ocean life",         "display": "val",  "boxes": ["v","a","l"],  "syllables": ["val"],  "stage": "s1" },
+    { "id": "far",  "noun": "sheep",    "themeDir": "farm animals",       "display": "får",  "boxes": ["f","å","r"],  "syllables": ["får"],  "stage": "s1" },
+
+    { "id": "katt", "noun": "cat",      "themeDir": "animals",            "display": "katt", "boxes": ["k","a","tt"], "syllables": ["katt"], "stage": "s2", "note": "tt är ETT ljud /t/ — dubbelteckning visar att vokalen är kort" },
+    { "id": "hatt", "noun": "hat",      "themeDir": "accessories",        "display": "hatt", "boxes": ["h","a","tt"], "syllables": ["hatt"], "stage": "s2", "note": "tt är ett ljud — kort a" },
+    { "id": "tupp", "noun": "rooster",  "themeDir": "farm animals",       "display": "tupp", "boxes": ["t","u","pp"], "syllables": ["tupp"], "stage": "s2", "note": "pp är ett ljud — kort u" },
+    { "id": "lamm", "noun": "lamb",     "themeDir": "easter",             "display": "lamm", "boxes": ["l","a","mm"], "syllables": ["lamm"], "stage": "s2", "note": "mm är ett ljud — kort a" },
+    { "id": "lapp", "noun": "lip",      "themeDir": "body parts",         "display": "läpp", "boxes": ["l","ä","pp"], "syllables": ["läpp"], "stage": "s2", "note": "pp är ett ljud — kort ä" },
+    { "id": "agg",  "noun": "egg",      "themeDir": "At the Supermarket", "display": "ägg",  "boxes": ["ä","gg"],     "syllables": ["ägg"],  "stage": "s2", "note": "gg är ett ljud — bara 2 rutor" },
+    { "id": "mugg", "noun": "mug",      "themeDir": "kitchen tools",      "display": "mugg", "boxes": ["m","u","gg"], "syllables": ["mugg"], "stage": "s2", "note": "gg är ett ljud — kort u" },
+    { "id": "dorr", "noun": "door",     "themeDir": "around the house",   "display": "dörr", "boxes": ["d","ö","rr"], "syllables": ["dörr"], "stage": "s2", "note": "rr är ett ljud — kort ö" }
+  ]
+}

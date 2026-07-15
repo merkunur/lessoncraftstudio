@@ -1,0 +1,31 @@
+{
+  "locale": "no",
+  "version": 1,
+  "stages": [
+    { "id": "s1", "label": "Lydrette ord · 2–3 lyder", "free": true },
+    { "id": "s2", "label": "Lengre ord og dobbel konsonant", "free": false }
+  ],
+  "words": [
+    { "id": "sol",   "noun": "sun",   "themeDir": "weather",            "display": "sol",   "boxes": ["s","o","l"],      "syllables": ["sol"],   "stage": "s1" },
+    { "id": "ku",    "noun": "cow",   "themeDir": "farm animals",       "display": "ku",    "boxes": ["k","u"],          "syllables": ["ku"],    "stage": "s1", "note": "bare 2 lyder" },
+    { "id": "bil",   "noun": "car",   "themeDir": "toys",               "display": "bil",   "boxes": ["b","i","l"],      "syllables": ["bil"],   "stage": "s1" },
+    { "id": "hus",   "noun": "house", "themeDir": "miscellaneous",      "display": "hus",   "boxes": ["h","u","s"],      "syllables": ["hus"],   "stage": "s1" },
+    { "id": "mus",   "noun": "mouse", "themeDir": "pets",               "display": "mus",   "boxes": ["m","u","s"],      "syllables": ["mus"],   "stage": "s1" },
+    { "id": "sko",   "noun": "shoe",  "themeDir": "clothing",           "display": "sko",   "boxes": ["s","k","o"],      "syllables": ["sko"],   "stage": "s1" },
+    { "id": "lam",   "noun": "lamb",  "themeDir": "easter",             "display": "lam",   "boxes": ["l","a","m"],      "syllables": ["lam"],   "stage": "s1" },
+    { "id": "gaas",  "noun": "goose", "themeDir": "birds 2",            "display": "gås",   "boxes": ["g","å","s"],      "syllables": ["gås"],   "stage": "s1" },
+    { "id": "sau",   "noun": "sheep", "themeDir": "farm animals",       "display": "sau",   "boxes": ["s","au"],         "syllables": ["sau"],   "stage": "s1", "note": "diftongen au er én lyd — én boks" },
+
+    { "id": "fisk",  "noun": "fish",  "themeDir": "animals",            "display": "fisk",  "boxes": ["f","i","s","k"],  "syllables": ["fisk"],  "stage": "s2", "note": "4 bokstaver, 4 lyder" },
+    { "id": "hest",  "noun": "horse", "themeDir": "farm animals",       "display": "hest",  "boxes": ["h","e","s","t"],  "syllables": ["hest"],  "stage": "s2" },
+    { "id": "gris",  "noun": "pig",   "themeDir": "animals",            "display": "gris",  "boxes": ["g","r","i","s"],  "syllables": ["gris"],  "stage": "s2" },
+    { "id": "melk",  "noun": "milk",  "themeDir": "At the Supermarket", "display": "melk",  "boxes": ["m","e","l","k"],  "syllables": ["melk"],  "stage": "s2" },
+    { "id": "katt",  "noun": "cat",   "themeDir": "animals",            "display": "katt",  "boxes": ["k","a","tt"],     "syllables": ["katt"],  "stage": "s2", "note": "tt er én lyd — kort vokal foran dobbel konsonant" },
+    { "id": "penn",  "noun": "pen",   "themeDir": "classroom",          "display": "penn",  "boxes": ["p","e","nn"],     "syllables": ["penn"],  "stage": "s2", "note": "nn er én lyd" },
+    { "id": "buss",  "noun": "bus",   "themeDir": "vehicles",           "display": "buss",  "boxes": ["b","u","ss"],     "syllables": ["buss"],  "stage": "s2", "note": "ss er én lyd" },
+    { "id": "egg",   "noun": "egg",   "themeDir": "At the Supermarket", "display": "egg",   "boxes": ["e","gg"],         "syllables": ["egg"],   "stage": "s2", "note": "gg er én lyd — bare 2 bokser" },
+    { "id": "ring",  "noun": "ring",  "themeDir": "accessories",        "display": "ring",  "boxes": ["r","i","ng"],     "syllables": ["ring"],  "stage": "s2", "note": "ng er én lyd" },
+    { "id": "hund",  "noun": "dog",   "themeDir": "animals",            "display": "hund",  "boxes": ["h","u","n"],      "syllables": ["hund"],  "stage": "s2", "silentTail": "d", "note": "stum d — 4 bokstaver, bare 3 lyder" },
+    { "id": "broed", "noun": "bread", "themeDir": "At the Supermarket", "display": "brød",  "boxes": ["b","r","ø"],      "syllables": ["brød"],  "stage": "s2", "silentTail": "d", "note": "stum d — d-en høres ikke" }
+  ]
+}

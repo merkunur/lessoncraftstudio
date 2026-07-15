@@ -3,304 +3,2051 @@
     "id": "field-guide.text-features.1-ri-5",
     "tool": "field-guide-activity",
     "task_template": "field-guide",
-    "alignment": { "framework": "CCSS", "code": "1.RI.5", "grade": "1", "strand": "Reading: Informational Text" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "1.RI.5",
+      "grade": "1",
+      "strand": "Reading: Informational Text"
+    },
     "theme": null,
     "params": {
       "rounds": [
-        { "id": "field-guide.diagram-gribbet-glow", "cog": "diagram", "skin": "diagram", "featureType": "caption", "fictional": true,
-          "question": { "functionPhrase": "glow" },
+        {
+          "id": "field-guide.diagram-gribbet-glow",
+          "cog": "diagram",
+          "skin": "diagram",
+          "featureType": "caption",
+          "fictional": true,
+          "question": {
+            "functionPhrase": "glow"
+          },
           "items": [
-            { "id": "snood", "label": "Snood", "gloss": "The snood helps it swim.", "functions": ["swim"], "affordance": "neutral" },
-            { "id": "frell", "label": "Frell", "gloss": "The frell helps it glow.", "functions": ["glow"], "affordance": "neutral" },
-            { "id": "tarn", "label": "Tarn", "gloss": "The tarn helps it dig.", "functions": ["dig"], "affordance": "neutral" }
-          ] },
-        { "id": "field-guide.diagram-wuzzle-climb", "cog": "diagram", "skin": "diagram", "featureType": "caption", "fictional": true,
-          "question": { "functionPhrase": "climb" },
+            {
+              "id": "snood",
+              "label": "Snood",
+              "gloss": "The snood helps it swim.",
+              "functions": [
+                "swim"
+              ],
+              "affordance": "neutral"
+            },
+            {
+              "id": "frell",
+              "label": "Frell",
+              "gloss": "The frell helps it glow.",
+              "functions": [
+                "glow"
+              ],
+              "affordance": "neutral"
+            },
+            {
+              "id": "tarn",
+              "label": "Tarn",
+              "gloss": "The tarn helps it dig.",
+              "functions": [
+                "dig"
+              ],
+              "affordance": "neutral"
+            }
+          ]
+        },
+        {
+          "id": "field-guide.diagram-wuzzle-climb",
+          "cog": "diagram",
+          "skin": "diagram",
+          "featureType": "caption",
+          "fictional": true,
+          "question": {
+            "functionPhrase": "climb"
+          },
           "items": [
-            { "id": "blorp", "label": "Blorp", "gloss": "The blorp helps it float.", "functions": ["float"], "affordance": "neutral" },
-            { "id": "gleen", "label": "Gleen", "gloss": "The gleen helps it sting.", "functions": ["sting"], "affordance": "neutral" },
-            { "id": "fid", "label": "Fid", "gloss": "The fid helps it climb.", "functions": ["climb"], "affordance": "neutral" }
-          ] },
-        { "id": "field-guide.diagram-nim-spark", "cog": "diagram", "skin": "diagram", "featureType": "caption", "fictional": true,
-          "question": { "functionPhrase": "spark" },
+            {
+              "id": "blorp",
+              "label": "Blorp",
+              "gloss": "The blorp helps it float.",
+              "functions": [
+                "float"
+              ],
+              "affordance": "neutral"
+            },
+            {
+              "id": "gleen",
+              "label": "Gleen",
+              "gloss": "The gleen helps it sting.",
+              "functions": [
+                "sting"
+              ],
+              "affordance": "neutral"
+            },
+            {
+              "id": "fid",
+              "label": "Fid",
+              "gloss": "The fid helps it climb.",
+              "functions": [
+                "climb"
+              ],
+              "affordance": "neutral"
+            }
+          ]
+        },
+        {
+          "id": "field-guide.diagram-nim-spark",
+          "cog": "diagram",
+          "skin": "diagram",
+          "featureType": "caption",
+          "fictional": true,
+          "question": {
+            "functionPhrase": "spark"
+          },
           "items": [
-            { "id": "quib", "label": "Quib", "gloss": "The quib helps it jump.", "functions": ["jump"], "affordance": "neutral" },
-            { "id": "sten", "label": "Sten", "gloss": "The sten helps it hide.", "functions": ["hide"], "affordance": "neutral" },
-            { "id": "vorl", "label": "Vorl", "gloss": "The vorl helps it spark.", "functions": ["spark"], "affordance": "neutral" }
-          ] },
-        { "id": "field-guide.glossary-gribbet-glow", "cog": "glossary", "skin": "page", "featureType": "glossary", "fictional": true,
-          "question": { "functionPhrase": "glow" },
+            {
+              "id": "quib",
+              "label": "Quib",
+              "gloss": "The quib helps it jump.",
+              "functions": [
+                "jump"
+              ],
+              "affordance": "neutral"
+            },
+            {
+              "id": "sten",
+              "label": "Sten",
+              "gloss": "The sten helps it hide.",
+              "functions": [
+                "hide"
+              ],
+              "affordance": "neutral"
+            },
+            {
+              "id": "vorl",
+              "label": "Vorl",
+              "gloss": "The vorl helps it spark.",
+              "functions": [
+                "spark"
+              ],
+              "affordance": "neutral"
+            }
+          ]
+        },
+        {
+          "id": "field-guide.glossary-gribbet-glow",
+          "cog": "glossary",
+          "skin": "page",
+          "featureType": "glossary",
+          "fictional": true,
+          "question": {
+            "functionPhrase": "glow"
+          },
           "items": [
-            { "id": "snood", "label": "Snood", "gloss": "a part for swimming", "functions": ["swim"], "affordance": "neutral" },
-            { "id": "frell", "label": "Frell", "gloss": "a part that glows", "functions": ["glow"], "affordance": "neutral" },
-            { "id": "tarn", "label": "Tarn", "gloss": "a part for digging", "functions": ["dig"], "affordance": "neutral" }
-          ] },
-        { "id": "field-guide.glossary-wuzzle-sting", "cog": "glossary", "skin": "page", "featureType": "glossary", "fictional": true,
-          "question": { "functionPhrase": "sting" },
+            {
+              "id": "snood",
+              "label": "Snood",
+              "gloss": "a part for swimming",
+              "functions": [
+                "swim"
+              ],
+              "affordance": "neutral"
+            },
+            {
+              "id": "frell",
+              "label": "Frell",
+              "gloss": "a part that glows",
+              "functions": [
+                "glow"
+              ],
+              "affordance": "neutral"
+            },
+            {
+              "id": "tarn",
+              "label": "Tarn",
+              "gloss": "a part for digging",
+              "functions": [
+                "dig"
+              ],
+              "affordance": "neutral"
+            }
+          ]
+        },
+        {
+          "id": "field-guide.glossary-wuzzle-sting",
+          "cog": "glossary",
+          "skin": "page",
+          "featureType": "glossary",
+          "fictional": true,
+          "question": {
+            "functionPhrase": "sting"
+          },
           "items": [
-            { "id": "blorp", "label": "Blorp", "gloss": "a part for floating", "functions": ["float"], "affordance": "neutral" },
-            { "id": "gleen", "label": "Gleen", "gloss": "a part that stings", "functions": ["sting"], "affordance": "neutral" },
-            { "id": "fid", "label": "Fid", "gloss": "a part for climbing", "functions": ["climb"], "affordance": "neutral" }
-          ] },
-        { "id": "field-guide.toc-gribbet-glow", "cog": "toc", "skin": "page", "featureType": "toc", "fictional": true,
-          "question": { "functionPhrase": "glow" },
+            {
+              "id": "blorp",
+              "label": "Blorp",
+              "gloss": "a part for floating",
+              "functions": [
+                "float"
+              ],
+              "affordance": "neutral"
+            },
+            {
+              "id": "gleen",
+              "label": "Gleen",
+              "gloss": "a part that stings",
+              "functions": [
+                "sting"
+              ],
+              "affordance": "neutral"
+            },
+            {
+              "id": "fid",
+              "label": "Fid",
+              "gloss": "a part for climbing",
+              "functions": [
+                "climb"
+              ],
+              "affordance": "neutral"
+            }
+          ]
+        },
+        {
+          "id": "field-guide.toc-gribbet-glow",
+          "cog": "toc",
+          "skin": "page",
+          "featureType": "toc",
+          "fictional": true,
+          "question": {
+            "functionPhrase": "glow"
+          },
           "items": [
-            { "id": "ch1", "label": "Chapter 1: Snoods", "gloss": "all about swimming", "functions": ["swim"], "affordance": "neutral", "page": 4 },
-            { "id": "ch2", "label": "Chapter 2: Frells", "gloss": "all about glowing", "functions": ["glow"], "affordance": "neutral", "page": 9 },
-            { "id": "ch3", "label": "Chapter 3: Tarns", "gloss": "all about digging", "functions": ["dig"], "affordance": "neutral", "page": 14 }
-          ] },
-        { "id": "field-guide.toc-nim-hide", "cog": "toc", "skin": "page", "featureType": "toc", "fictional": true,
-          "question": { "functionPhrase": "hide" },
+            {
+              "id": "ch1",
+              "label": "Chapter 1: Snoods",
+              "gloss": "all about swimming",
+              "functions": [
+                "swim"
+              ],
+              "affordance": "neutral",
+              "page": 4
+            },
+            {
+              "id": "ch2",
+              "label": "Chapter 2: Frells",
+              "gloss": "all about glowing",
+              "functions": [
+                "glow"
+              ],
+              "affordance": "neutral",
+              "page": 9
+            },
+            {
+              "id": "ch3",
+              "label": "Chapter 3: Tarns",
+              "gloss": "all about digging",
+              "functions": [
+                "dig"
+              ],
+              "affordance": "neutral",
+              "page": 14
+            }
+          ]
+        },
+        {
+          "id": "field-guide.toc-nim-hide",
+          "cog": "toc",
+          "skin": "page",
+          "featureType": "toc",
+          "fictional": true,
+          "question": {
+            "functionPhrase": "hide"
+          },
           "items": [
-            { "id": "ch1", "label": "Chapter 1: Quibs", "gloss": "all about jumping", "functions": ["jump"], "affordance": "neutral", "page": 3 },
-            { "id": "ch2", "label": "Chapter 2: Stens", "gloss": "all about hiding", "functions": ["hide"], "affordance": "neutral", "page": 8 },
-            { "id": "ch3", "label": "Chapter 3: Vorls", "gloss": "all about sparking", "functions": ["spark"], "affordance": "neutral", "page": 12 }
-          ] },
-        { "id": "field-guide.heading-gribbet-dig", "cog": "heading", "skin": "page", "featureType": "heading", "fictional": true,
-          "question": { "functionPhrase": "dig" },
+            {
+              "id": "ch1",
+              "label": "Chapter 1: Quibs",
+              "gloss": "all about jumping",
+              "functions": [
+                "jump"
+              ],
+              "affordance": "neutral",
+              "page": 3
+            },
+            {
+              "id": "ch2",
+              "label": "Chapter 2: Stens",
+              "gloss": "all about hiding",
+              "functions": [
+                "hide"
+              ],
+              "affordance": "neutral",
+              "page": 8
+            },
+            {
+              "id": "ch3",
+              "label": "Chapter 3: Vorls",
+              "gloss": "all about sparking",
+              "functions": [
+                "spark"
+              ],
+              "affordance": "neutral",
+              "page": 12
+            }
+          ]
+        },
+        {
+          "id": "field-guide.heading-gribbet-dig",
+          "cog": "heading",
+          "skin": "page",
+          "featureType": "heading",
+          "fictional": true,
+          "question": {
+            "functionPhrase": "dig"
+          },
           "items": [
-            { "id": "h1", "label": "Snood Facts", "gloss": "how it swims", "functions": ["swim"], "affordance": "neutral" },
-            { "id": "h2", "label": "Frell Facts", "gloss": "how it glows", "functions": ["glow"], "affordance": "neutral" },
-            { "id": "h3", "label": "Tarn Facts", "gloss": "how it digs", "functions": ["dig"], "affordance": "neutral" }
-          ] },
-        { "id": "field-guide.heading-wuzzle-float", "cog": "heading", "skin": "page", "featureType": "heading", "fictional": true,
-          "question": { "functionPhrase": "float" },
+            {
+              "id": "h1",
+              "label": "Snood Facts",
+              "gloss": "how it swims",
+              "functions": [
+                "swim"
+              ],
+              "affordance": "neutral"
+            },
+            {
+              "id": "h2",
+              "label": "Frell Facts",
+              "gloss": "how it glows",
+              "functions": [
+                "glow"
+              ],
+              "affordance": "neutral"
+            },
+            {
+              "id": "h3",
+              "label": "Tarn Facts",
+              "gloss": "how it digs",
+              "functions": [
+                "dig"
+              ],
+              "affordance": "neutral"
+            }
+          ]
+        },
+        {
+          "id": "field-guide.heading-wuzzle-float",
+          "cog": "heading",
+          "skin": "page",
+          "featureType": "heading",
+          "fictional": true,
+          "question": {
+            "functionPhrase": "float"
+          },
           "items": [
-            { "id": "h1", "label": "Gleen Facts", "gloss": "how it stings", "functions": ["sting"], "affordance": "neutral" },
-            { "id": "h2", "label": "Fid Facts", "gloss": "how it climbs", "functions": ["climb"], "affordance": "neutral" },
-            { "id": "h3", "label": "Blorp Facts", "gloss": "how it floats", "functions": ["float"], "affordance": "neutral" }
-          ] },
-        { "id": "field-guide.menu-search", "cog": "menu", "skin": "page", "featureType": "menu", "fictional": true,
-          "question": { "functionPhrase": "search" },
+            {
+              "id": "h1",
+              "label": "Gleen Facts",
+              "gloss": "how it stings",
+              "functions": [
+                "sting"
+              ],
+              "affordance": "neutral"
+            },
+            {
+              "id": "h2",
+              "label": "Fid Facts",
+              "gloss": "how it climbs",
+              "functions": [
+                "climb"
+              ],
+              "affordance": "neutral"
+            },
+            {
+              "id": "h3",
+              "label": "Blorp Facts",
+              "gloss": "how it floats",
+              "functions": [
+                "float"
+              ],
+              "affordance": "neutral"
+            }
+          ]
+        },
+        {
+          "id": "field-guide.menu-search",
+          "cog": "menu",
+          "skin": "page",
+          "featureType": "menu",
+          "fictional": true,
+          "question": {
+            "functionPhrase": "search"
+          },
           "items": [
-            { "id": "drext", "label": "Drext", "gloss": "turns the page", "functions": ["turn"], "affordance": "neutral" },
-            { "id": "glarn", "label": "Glarn", "gloss": "finds lost facts", "functions": ["search"], "affordance": "neutral" },
-            { "id": "pled", "label": "Pled", "gloss": "reads it out loud", "functions": ["listen"], "affordance": "neutral" }
-          ] },
-        { "id": "field-guide.menu-listen", "cog": "menu", "skin": "page", "featureType": "menu", "fictional": true,
-          "question": { "functionPhrase": "listen" },
+            {
+              "id": "drext",
+              "label": "Drext",
+              "gloss": "turns the page",
+              "functions": [
+                "turn"
+              ],
+              "affordance": "neutral"
+            },
+            {
+              "id": "glarn",
+              "label": "Glarn",
+              "gloss": "finds lost facts",
+              "functions": [
+                "search"
+              ],
+              "affordance": "neutral"
+            },
+            {
+              "id": "pled",
+              "label": "Pled",
+              "gloss": "reads it out loud",
+              "functions": [
+                "listen"
+              ],
+              "affordance": "neutral"
+            }
+          ]
+        },
+        {
+          "id": "field-guide.menu-listen",
+          "cog": "menu",
+          "skin": "page",
+          "featureType": "menu",
+          "fictional": true,
+          "question": {
+            "functionPhrase": "listen"
+          },
           "items": [
-            { "id": "glarn", "label": "Glarn", "gloss": "finds lost facts", "functions": ["search"], "affordance": "neutral" },
-            { "id": "drext", "label": "Drext", "gloss": "turns the page", "functions": ["turn"], "affordance": "neutral" },
-            { "id": "pled", "label": "Pled", "gloss": "reads it out loud", "functions": ["listen"], "affordance": "neutral" }
-          ] },
-        { "id": "field-guide.index-gribbet-glow", "cog": "index", "skin": "page", "featureType": "index", "fictional": true,
-          "question": { "functionPhrase": "glow" },
+            {
+              "id": "glarn",
+              "label": "Glarn",
+              "gloss": "finds lost facts",
+              "functions": [
+                "search"
+              ],
+              "affordance": "neutral"
+            },
+            {
+              "id": "drext",
+              "label": "Drext",
+              "gloss": "turns the page",
+              "functions": [
+                "turn"
+              ],
+              "affordance": "neutral"
+            },
+            {
+              "id": "pled",
+              "label": "Pled",
+              "gloss": "reads it out loud",
+              "functions": [
+                "listen"
+              ],
+              "affordance": "neutral"
+            }
+          ]
+        },
+        {
+          "id": "field-guide.index-gribbet-glow",
+          "cog": "index",
+          "skin": "page",
+          "featureType": "index",
+          "fictional": true,
+          "question": {
+            "functionPhrase": "glow"
+          },
           "items": [
-            { "id": "i1", "label": "Snood", "gloss": "about swimming", "functions": ["swim"], "affordance": "neutral", "page": 4 },
-            { "id": "i2", "label": "Frell", "gloss": "about glowing", "functions": ["glow"], "affordance": "neutral", "page": 9 },
-            { "id": "i3", "label": "Tarn", "gloss": "about digging", "functions": ["dig"], "affordance": "neutral", "page": 14 }
-          ] },
-        { "id": "field-guide.which-feature-meaning", "cog": "which-feature", "skin": "page", "featureType": "which-feature", "fictional": false,
-          "question": { "functionPhrase": "meaning" },
+            {
+              "id": "i1",
+              "label": "Snood",
+              "gloss": "about swimming",
+              "functions": [
+                "swim"
+              ],
+              "affordance": "neutral",
+              "page": 4
+            },
+            {
+              "id": "i2",
+              "label": "Frell",
+              "gloss": "about glowing",
+              "functions": [
+                "glow"
+              ],
+              "affordance": "neutral",
+              "page": 9
+            },
+            {
+              "id": "i3",
+              "label": "Tarn",
+              "gloss": "about digging",
+              "functions": [
+                "dig"
+              ],
+              "affordance": "neutral",
+              "page": 14
+            }
+          ]
+        },
+        {
+          "id": "field-guide.which-feature-meaning",
+          "cog": "which-feature",
+          "skin": "page",
+          "featureType": "which-feature",
+          "fictional": false,
+          "question": {
+            "functionPhrase": "meaning"
+          },
           "items": [
-            { "id": "contents", "label": "Contents", "functions": ["section", "topic"], "affordance": "neutral" },
-            { "id": "glossary", "label": "Glossary", "functions": ["meaning"], "affordance": "neutral" },
-            { "id": "index", "label": "Index", "functions": ["page"], "affordance": "neutral" }
-          ] },
-        { "id": "field-guide.which-feature-topic", "cog": "which-feature", "skin": "page", "featureType": "which-feature", "fictional": false,
-          "question": { "functionPhrase": "topic" },
+            {
+              "id": "contents",
+              "label": "Contents",
+              "functions": [
+                "section",
+                "topic"
+              ],
+              "affordance": "neutral"
+            },
+            {
+              "id": "glossary",
+              "label": "Glossary",
+              "functions": [
+                "meaning"
+              ],
+              "affordance": "neutral"
+            },
+            {
+              "id": "index",
+              "label": "Index",
+              "functions": [
+                "page"
+              ],
+              "affordance": "neutral"
+            }
+          ]
+        },
+        {
+          "id": "field-guide.which-feature-topic",
+          "cog": "which-feature",
+          "skin": "page",
+          "featureType": "which-feature",
+          "fictional": false,
+          "question": {
+            "functionPhrase": "topic"
+          },
           "items": [
-            { "id": "glossary", "label": "Glossary", "functions": ["meaning"], "affordance": "neutral" },
-            { "id": "contents", "label": "Contents", "functions": ["section", "topic"], "affordance": "neutral" },
-            { "id": "index", "label": "Index", "functions": ["page"], "affordance": "neutral" }
-          ] }
+            {
+              "id": "glossary",
+              "label": "Glossary",
+              "functions": [
+                "meaning"
+              ],
+              "affordance": "neutral"
+            },
+            {
+              "id": "contents",
+              "label": "Contents",
+              "functions": [
+                "section",
+                "topic"
+              ],
+              "affordance": "neutral"
+            },
+            {
+              "id": "index",
+              "label": "Index",
+              "functions": [
+                "page"
+              ],
+              "affordance": "neutral"
+            }
+          ]
+        }
       ],
       "roundsL10n": {
         "de": [
-          { "id": "r1", "cog": "diagram", "skin": "diagram", "featureType": "caption", "fictional": true,
-            "question": { "functionPhrase": "Leuchten" },
+          {
+            "id": "r1",
+            "cog": "diagram",
+            "skin": "diagram",
+            "featureType": "caption",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "Leuchten"
+            },
             "items": [
-              { "id": "snood", "label": "Snood", "gloss": "Der Snood hilft ihm beim Schwimmen.", "functions": ["Schwimmen"], "affordance": "neutral" },
-              { "id": "frell", "label": "Frell", "gloss": "Der Frell hilft ihm beim Leuchten.", "functions": ["Leuchten"], "affordance": "neutral" },
-              { "id": "tarn", "label": "Tarn", "gloss": "Der Tarn hilft ihm beim Graben.", "functions": ["Graben"], "affordance": "neutral" }
-            ] },
-          { "id": "r2", "cog": "diagram", "skin": "diagram", "featureType": "caption", "fictional": true,
-            "question": { "functionPhrase": "Klettern" },
+              {
+                "id": "snood",
+                "label": "Snood",
+                "gloss": "Der Snood hilft ihm beim Schwimmen.",
+                "functions": [
+                  "Schwimmen"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "frell",
+                "label": "Frell",
+                "gloss": "Der Frell hilft ihm beim Leuchten.",
+                "functions": [
+                  "Leuchten"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "tarn",
+                "label": "Tarn",
+                "gloss": "Der Tarn hilft ihm beim Graben.",
+                "functions": [
+                  "Graben"
+                ],
+                "affordance": "neutral"
+              }
+            ]
+          },
+          {
+            "id": "r2",
+            "cog": "diagram",
+            "skin": "diagram",
+            "featureType": "caption",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "Klettern"
+            },
             "items": [
-              { "id": "blorp", "label": "Blorp", "gloss": "Der Blorp hilft ihm beim Schweben.", "functions": ["Schweben"], "affordance": "neutral" },
-              { "id": "gleen", "label": "Gleen", "gloss": "Der Gleen hilft ihm beim Stechen.", "functions": ["Stechen"], "affordance": "neutral" },
-              { "id": "fid", "label": "Fid", "gloss": "Der Fid hilft ihm beim Klettern.", "functions": ["Klettern"], "affordance": "neutral" }
-            ] },
-          { "id": "r3", "cog": "diagram", "skin": "diagram", "featureType": "caption", "fictional": true,
-            "question": { "functionPhrase": "Funkeln" },
+              {
+                "id": "blorp",
+                "label": "Blorp",
+                "gloss": "Der Blorp hilft ihm beim Schweben.",
+                "functions": [
+                  "Schweben"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "gleen",
+                "label": "Gleen",
+                "gloss": "Der Gleen hilft ihm beim Stechen.",
+                "functions": [
+                  "Stechen"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "fid",
+                "label": "Fid",
+                "gloss": "Der Fid hilft ihm beim Klettern.",
+                "functions": [
+                  "Klettern"
+                ],
+                "affordance": "neutral"
+              }
+            ]
+          },
+          {
+            "id": "r3",
+            "cog": "diagram",
+            "skin": "diagram",
+            "featureType": "caption",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "Funkeln"
+            },
             "items": [
-              { "id": "quib", "label": "Quib", "gloss": "Der Quib hilft ihm beim Springen.", "functions": ["Springen"], "affordance": "neutral" },
-              { "id": "sten", "label": "Sten", "gloss": "Der Sten hilft ihm beim Verstecken.", "functions": ["Verstecken"], "affordance": "neutral" },
-              { "id": "vorl", "label": "Vorl", "gloss": "Der Vorl hilft ihm beim Funkeln.", "functions": ["Funkeln"], "affordance": "neutral" }
-            ] },
-          { "id": "r4", "cog": "glossary", "skin": "page", "featureType": "glossary", "fictional": true,
-            "question": { "functionPhrase": "Leuchten" },
+              {
+                "id": "quib",
+                "label": "Quib",
+                "gloss": "Der Quib hilft ihm beim Springen.",
+                "functions": [
+                  "Springen"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "sten",
+                "label": "Sten",
+                "gloss": "Der Sten hilft ihm beim Verstecken.",
+                "functions": [
+                  "Verstecken"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "vorl",
+                "label": "Vorl",
+                "gloss": "Der Vorl hilft ihm beim Funkeln.",
+                "functions": [
+                  "Funkeln"
+                ],
+                "affordance": "neutral"
+              }
+            ]
+          },
+          {
+            "id": "r4",
+            "cog": "glossary",
+            "skin": "page",
+            "featureType": "glossary",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "Leuchten"
+            },
             "items": [
-              { "id": "snood", "label": "Snood", "gloss": "ein Teil zum Schwimmen", "functions": ["Schwimmen"], "affordance": "neutral" },
-              { "id": "frell", "label": "Frell", "gloss": "ein Teil, der leuchtet", "functions": ["Leuchten"], "affordance": "neutral" },
-              { "id": "tarn", "label": "Tarn", "gloss": "ein Teil zum Graben", "functions": ["Graben"], "affordance": "neutral" }
-            ] },
-          { "id": "r5", "cog": "glossary", "skin": "page", "featureType": "glossary", "fictional": true,
-            "question": { "functionPhrase": "Stechen" },
+              {
+                "id": "snood",
+                "label": "Snood",
+                "gloss": "ein Teil zum Schwimmen",
+                "functions": [
+                  "Schwimmen"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "frell",
+                "label": "Frell",
+                "gloss": "ein Teil, der leuchtet",
+                "functions": [
+                  "Leuchten"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "tarn",
+                "label": "Tarn",
+                "gloss": "ein Teil zum Graben",
+                "functions": [
+                  "Graben"
+                ],
+                "affordance": "neutral"
+              }
+            ]
+          },
+          {
+            "id": "r5",
+            "cog": "glossary",
+            "skin": "page",
+            "featureType": "glossary",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "Stechen"
+            },
             "items": [
-              { "id": "blorp", "label": "Blorp", "gloss": "ein Teil zum Schweben", "functions": ["Schweben"], "affordance": "neutral" },
-              { "id": "gleen", "label": "Gleen", "gloss": "ein Teil, der sticht", "functions": ["Stechen"], "affordance": "neutral" },
-              { "id": "fid", "label": "Fid", "gloss": "ein Teil zum Klettern", "functions": ["Klettern"], "affordance": "neutral" }
-            ] },
-          { "id": "r6", "cog": "toc", "skin": "page", "featureType": "toc", "fictional": true,
-            "question": { "functionPhrase": "Leuchten" },
+              {
+                "id": "blorp",
+                "label": "Blorp",
+                "gloss": "ein Teil zum Schweben",
+                "functions": [
+                  "Schweben"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "gleen",
+                "label": "Gleen",
+                "gloss": "ein Teil, der sticht",
+                "functions": [
+                  "Stechen"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "fid",
+                "label": "Fid",
+                "gloss": "ein Teil zum Klettern",
+                "functions": [
+                  "Klettern"
+                ],
+                "affordance": "neutral"
+              }
+            ]
+          },
+          {
+            "id": "r6",
+            "cog": "toc",
+            "skin": "page",
+            "featureType": "toc",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "Leuchten"
+            },
             "items": [
-              { "id": "ch1", "label": "Kapitel 1: Snoods", "gloss": "alles übers Schwimmen", "functions": ["Schwimmen"], "affordance": "neutral", "page": 4 },
-              { "id": "ch2", "label": "Kapitel 2: Frells", "gloss": "alles übers Leuchten", "functions": ["Leuchten"], "affordance": "neutral", "page": 9 },
-              { "id": "ch3", "label": "Kapitel 3: Tarns", "gloss": "alles übers Graben", "functions": ["Graben"], "affordance": "neutral", "page": 14 }
-            ] },
-          { "id": "r7", "cog": "toc", "skin": "page", "featureType": "toc", "fictional": true,
-            "question": { "functionPhrase": "Verstecken" },
+              {
+                "id": "ch1",
+                "label": "Kapitel 1: Snoods",
+                "gloss": "alles übers Schwimmen",
+                "functions": [
+                  "Schwimmen"
+                ],
+                "affordance": "neutral",
+                "page": 4
+              },
+              {
+                "id": "ch2",
+                "label": "Kapitel 2: Frells",
+                "gloss": "alles übers Leuchten",
+                "functions": [
+                  "Leuchten"
+                ],
+                "affordance": "neutral",
+                "page": 9
+              },
+              {
+                "id": "ch3",
+                "label": "Kapitel 3: Tarns",
+                "gloss": "alles übers Graben",
+                "functions": [
+                  "Graben"
+                ],
+                "affordance": "neutral",
+                "page": 14
+              }
+            ]
+          },
+          {
+            "id": "r7",
+            "cog": "toc",
+            "skin": "page",
+            "featureType": "toc",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "Verstecken"
+            },
             "items": [
-              { "id": "ch1", "label": "Kapitel 1: Quibs", "gloss": "alles übers Springen", "functions": ["Springen"], "affordance": "neutral", "page": 3 },
-              { "id": "ch2", "label": "Kapitel 2: Stens", "gloss": "alles übers Verstecken", "functions": ["Verstecken"], "affordance": "neutral", "page": 8 },
-              { "id": "ch3", "label": "Kapitel 3: Vorls", "gloss": "alles übers Funkeln", "functions": ["Funkeln"], "affordance": "neutral", "page": 12 }
-            ] },
-          { "id": "r8", "cog": "heading", "skin": "page", "featureType": "heading", "fictional": true,
-            "question": { "functionPhrase": "Graben" },
+              {
+                "id": "ch1",
+                "label": "Kapitel 1: Quibs",
+                "gloss": "alles übers Springen",
+                "functions": [
+                  "Springen"
+                ],
+                "affordance": "neutral",
+                "page": 3
+              },
+              {
+                "id": "ch2",
+                "label": "Kapitel 2: Stens",
+                "gloss": "alles übers Verstecken",
+                "functions": [
+                  "Verstecken"
+                ],
+                "affordance": "neutral",
+                "page": 8
+              },
+              {
+                "id": "ch3",
+                "label": "Kapitel 3: Vorls",
+                "gloss": "alles übers Funkeln",
+                "functions": [
+                  "Funkeln"
+                ],
+                "affordance": "neutral",
+                "page": 12
+              }
+            ]
+          },
+          {
+            "id": "r8",
+            "cog": "heading",
+            "skin": "page",
+            "featureType": "heading",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "Graben"
+            },
             "items": [
-              { "id": "h1", "label": "Alles über Snoods", "gloss": "wie er schwimmt", "functions": ["Schwimmen"], "affordance": "neutral" },
-              { "id": "h2", "label": "Alles über Frells", "gloss": "wie er leuchtet", "functions": ["Leuchten"], "affordance": "neutral" },
-              { "id": "h3", "label": "Alles über Tarns", "gloss": "wie er gräbt", "functions": ["Graben"], "affordance": "neutral" }
-            ] },
-          { "id": "r9", "cog": "heading", "skin": "page", "featureType": "heading", "fictional": true,
-            "question": { "functionPhrase": "Schweben" },
+              {
+                "id": "h1",
+                "label": "Alles über Snoods",
+                "gloss": "wie er schwimmt",
+                "functions": [
+                  "Schwimmen"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "h2",
+                "label": "Alles über Frells",
+                "gloss": "wie er leuchtet",
+                "functions": [
+                  "Leuchten"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "h3",
+                "label": "Alles über Tarns",
+                "gloss": "wie er gräbt",
+                "functions": [
+                  "Graben"
+                ],
+                "affordance": "neutral"
+              }
+            ]
+          },
+          {
+            "id": "r9",
+            "cog": "heading",
+            "skin": "page",
+            "featureType": "heading",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "Schweben"
+            },
             "items": [
-              { "id": "h1", "label": "Alles über Gleens", "gloss": "wie er sticht", "functions": ["Stechen"], "affordance": "neutral" },
-              { "id": "h2", "label": "Alles über Fids", "gloss": "wie er klettert", "functions": ["Klettern"], "affordance": "neutral" },
-              { "id": "h3", "label": "Alles über Blorps", "gloss": "wie er schwebt", "functions": ["Schweben"], "affordance": "neutral" }
-            ] },
-          { "id": "r10", "cog": "menu", "skin": "page", "featureType": "menu", "fictional": true,
-            "question": { "functionPhrase": "Suchen" },
+              {
+                "id": "h1",
+                "label": "Alles über Gleens",
+                "gloss": "wie er sticht",
+                "functions": [
+                  "Stechen"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "h2",
+                "label": "Alles über Fids",
+                "gloss": "wie er klettert",
+                "functions": [
+                  "Klettern"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "h3",
+                "label": "Alles über Blorps",
+                "gloss": "wie er schwebt",
+                "functions": [
+                  "Schweben"
+                ],
+                "affordance": "neutral"
+              }
+            ]
+          },
+          {
+            "id": "r10",
+            "cog": "menu",
+            "skin": "page",
+            "featureType": "menu",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "Suchen"
+            },
             "items": [
-              { "id": "drext", "label": "Drext", "gloss": "blättert die Seite um", "functions": ["Umblättern"], "affordance": "neutral" },
-              { "id": "glarn", "label": "Glarn", "gloss": "findet verlorene Fakten", "functions": ["Suchen"], "affordance": "neutral" },
-              { "id": "pled", "label": "Pled", "gloss": "liest laut vor", "functions": ["Vorlesen"], "affordance": "neutral" }
-            ] },
-          { "id": "r11", "cog": "index", "skin": "page", "featureType": "index", "fictional": true,
-            "question": { "functionPhrase": "Leuchten" },
+              {
+                "id": "drext",
+                "label": "Drext",
+                "gloss": "blättert die Seite um",
+                "functions": [
+                  "Umblättern"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "glarn",
+                "label": "Glarn",
+                "gloss": "findet verlorene Fakten",
+                "functions": [
+                  "Suchen"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "pled",
+                "label": "Pled",
+                "gloss": "liest laut vor",
+                "functions": [
+                  "Vorlesen"
+                ],
+                "affordance": "neutral"
+              }
+            ]
+          },
+          {
+            "id": "r11",
+            "cog": "index",
+            "skin": "page",
+            "featureType": "index",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "Leuchten"
+            },
             "items": [
-              { "id": "idx1", "label": "Snood … Seite 4", "gloss": "Auf Seite 4 geht es ums Schwimmen.", "functions": ["Schwimmen"], "affordance": "neutral", "page": 4 },
-              { "id": "idx2", "label": "Frell … Seite 9", "gloss": "Auf Seite 9 geht es ums Leuchten.", "functions": ["Leuchten"], "affordance": "neutral", "page": 9 },
-              { "id": "idx3", "label": "Tarn … Seite 14", "gloss": "Auf Seite 14 geht es ums Graben.", "functions": ["Graben"], "affordance": "neutral", "page": 14 }
-            ] },
-          { "id": "r12", "cog": "which-feature", "skin": "page", "featureType": "which-feature", "fictional": false,
-            "question": { "functionPhrase": "meaning" },
+              {
+                "id": "idx1",
+                "label": "Snood … Seite 4",
+                "gloss": "Auf Seite 4 geht es ums Schwimmen.",
+                "functions": [
+                  "Schwimmen"
+                ],
+                "affordance": "neutral",
+                "page": 4
+              },
+              {
+                "id": "idx2",
+                "label": "Frell … Seite 9",
+                "gloss": "Auf Seite 9 geht es ums Leuchten.",
+                "functions": [
+                  "Leuchten"
+                ],
+                "affordance": "neutral",
+                "page": 9
+              },
+              {
+                "id": "idx3",
+                "label": "Tarn … Seite 14",
+                "gloss": "Auf Seite 14 geht es ums Graben.",
+                "functions": [
+                  "Graben"
+                ],
+                "affordance": "neutral",
+                "page": 14
+              }
+            ]
+          },
+          {
+            "id": "r12",
+            "cog": "which-feature",
+            "skin": "page",
+            "featureType": "which-feature",
+            "fictional": false,
+            "question": {
+              "functionPhrase": "meaning"
+            },
             "items": [
-              { "id": "toc", "label": "Inhaltsverzeichnis", "gloss": "zeigt, in welchem Kapitel ein Thema steht", "functions": ["topic"], "affordance": "neutral" },
-              { "id": "glossary", "label": "Glossar", "gloss": "erklärt, was ein Wort bedeutet", "functions": ["meaning"], "affordance": "neutral" },
-              { "id": "index", "label": "Register", "gloss": "zeigt, auf welcher Seite ein Wort steht", "functions": ["page"], "affordance": "neutral" }
-            ] },
-          { "id": "r13", "cog": "which-feature", "skin": "page", "featureType": "which-feature", "fictional": false,
-            "question": { "functionPhrase": "topic" },
+              {
+                "id": "toc",
+                "label": "Inhaltsverzeichnis",
+                "gloss": "zeigt, in welchem Kapitel ein Thema steht",
+                "functions": [
+                  "topic"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "glossary",
+                "label": "Glossar",
+                "gloss": "erklärt, was ein Wort bedeutet",
+                "functions": [
+                  "meaning"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "index",
+                "label": "Register",
+                "gloss": "zeigt, auf welcher Seite ein Wort steht",
+                "functions": [
+                  "page"
+                ],
+                "affordance": "neutral"
+              }
+            ]
+          },
+          {
+            "id": "r13",
+            "cog": "which-feature",
+            "skin": "page",
+            "featureType": "which-feature",
+            "fictional": false,
+            "question": {
+              "functionPhrase": "topic"
+            },
             "items": [
-              { "id": "glossary", "label": "Glossar", "gloss": "erklärt, was ein Wort bedeutet", "functions": ["meaning"], "affordance": "neutral" },
-              { "id": "toc", "label": "Inhaltsverzeichnis", "gloss": "zeigt, in welchem Kapitel ein Thema steht", "functions": ["topic"], "affordance": "neutral" },
-              { "id": "index", "label": "Register", "gloss": "zeigt, auf welcher Seite ein Wort steht", "functions": ["page"], "affordance": "neutral" }
-            ] }
+              {
+                "id": "glossary",
+                "label": "Glossar",
+                "gloss": "erklärt, was ein Wort bedeutet",
+                "functions": [
+                  "meaning"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "toc",
+                "label": "Inhaltsverzeichnis",
+                "gloss": "zeigt, in welchem Kapitel ein Thema steht",
+                "functions": [
+                  "topic"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "index",
+                "label": "Register",
+                "gloss": "zeigt, auf welcher Seite ein Wort steht",
+                "functions": [
+                  "page"
+                ],
+                "affordance": "neutral"
+              }
+            ]
+          }
         ],
         "fr": [
-          { "id": "r1", "cog": "diagram", "skin": "diagram", "featureType": "caption", "fictional": true,
-            "question": { "functionPhrase": "briller" },
+          {
+            "id": "r1",
+            "cog": "diagram",
+            "skin": "diagram",
+            "featureType": "caption",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "briller"
+            },
             "items": [
-              { "id": "snood", "label": "Snoud", "gloss": "Le snoud l’aide à nager.", "functions": ["nager"], "affordance": "neutral" },
-              { "id": "frell", "label": "Frell", "gloss": "Le frell l’aide à briller.", "functions": ["briller"], "affordance": "neutral" },
-              { "id": "tarn", "label": "Tarn", "gloss": "Le tarn l’aide à creuser.", "functions": ["creuser"], "affordance": "neutral" }
-            ] },
-          { "id": "r2", "cog": "diagram", "skin": "diagram", "featureType": "caption", "fictional": true,
-            "question": { "functionPhrase": "grimper" },
+              {
+                "id": "snood",
+                "label": "Snoud",
+                "gloss": "Le snoud l’aide à nager.",
+                "functions": [
+                  "nager"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "frell",
+                "label": "Frell",
+                "gloss": "Le frell l’aide à briller.",
+                "functions": [
+                  "briller"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "tarn",
+                "label": "Tarn",
+                "gloss": "Le tarn l’aide à creuser.",
+                "functions": [
+                  "creuser"
+                ],
+                "affordance": "neutral"
+              }
+            ]
+          },
+          {
+            "id": "r2",
+            "cog": "diagram",
+            "skin": "diagram",
+            "featureType": "caption",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "grimper"
+            },
             "items": [
-              { "id": "blorp", "label": "Blorp", "gloss": "Le blorp l’aide à flotter.", "functions": ["flotter"], "affordance": "neutral" },
-              { "id": "gleen", "label": "Gline", "gloss": "Le gline l’aide à piquer.", "functions": ["piquer"], "affordance": "neutral" },
-              { "id": "fid", "label": "Fid", "gloss": "Le fid l’aide à grimper.", "functions": ["grimper"], "affordance": "neutral" }
-            ] },
-          { "id": "r3", "cog": "diagram", "skin": "diagram", "featureType": "caption", "fictional": true,
-            "question": { "functionPhrase": "étinceler" },
+              {
+                "id": "blorp",
+                "label": "Blorp",
+                "gloss": "Le blorp l’aide à flotter.",
+                "functions": [
+                  "flotter"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "gleen",
+                "label": "Gline",
+                "gloss": "Le gline l’aide à piquer.",
+                "functions": [
+                  "piquer"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "fid",
+                "label": "Fid",
+                "gloss": "Le fid l’aide à grimper.",
+                "functions": [
+                  "grimper"
+                ],
+                "affordance": "neutral"
+              }
+            ]
+          },
+          {
+            "id": "r3",
+            "cog": "diagram",
+            "skin": "diagram",
+            "featureType": "caption",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "étinceler"
+            },
             "items": [
-              { "id": "quib", "label": "Quib", "gloss": "Le quib l’aide à sauter.", "functions": ["sauter"], "affordance": "neutral" },
-              { "id": "sten", "label": "Sten", "gloss": "Le sten l’aide à se cacher.", "functions": ["se cacher"], "affordance": "neutral" },
-              { "id": "vorl", "label": "Vorl", "gloss": "Le vorl l’aide à étinceler.", "functions": ["étinceler"], "affordance": "neutral" }
-            ] },
-          { "id": "r4", "cog": "glossary", "skin": "page", "featureType": "glossary", "fictional": true,
-            "question": { "functionPhrase": "briller" },
+              {
+                "id": "quib",
+                "label": "Quib",
+                "gloss": "Le quib l’aide à sauter.",
+                "functions": [
+                  "sauter"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "sten",
+                "label": "Sten",
+                "gloss": "Le sten l’aide à se cacher.",
+                "functions": [
+                  "se cacher"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "vorl",
+                "label": "Vorl",
+                "gloss": "Le vorl l’aide à étinceler.",
+                "functions": [
+                  "étinceler"
+                ],
+                "affordance": "neutral"
+              }
+            ]
+          },
+          {
+            "id": "r4",
+            "cog": "glossary",
+            "skin": "page",
+            "featureType": "glossary",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "briller"
+            },
             "items": [
-              { "id": "snood", "label": "Snoud", "gloss": "une partie pour nager", "functions": ["nager"], "affordance": "neutral" },
-              { "id": "frell", "label": "Frell", "gloss": "une partie qui brille", "functions": ["briller"], "affordance": "neutral" },
-              { "id": "tarn", "label": "Tarn", "gloss": "une partie pour creuser", "functions": ["creuser"], "affordance": "neutral" }
-            ] },
-          { "id": "r5", "cog": "glossary", "skin": "page", "featureType": "glossary", "fictional": true,
-            "question": { "functionPhrase": "piquer" },
+              {
+                "id": "snood",
+                "label": "Snoud",
+                "gloss": "une partie pour nager",
+                "functions": [
+                  "nager"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "frell",
+                "label": "Frell",
+                "gloss": "une partie qui brille",
+                "functions": [
+                  "briller"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "tarn",
+                "label": "Tarn",
+                "gloss": "une partie pour creuser",
+                "functions": [
+                  "creuser"
+                ],
+                "affordance": "neutral"
+              }
+            ]
+          },
+          {
+            "id": "r5",
+            "cog": "glossary",
+            "skin": "page",
+            "featureType": "glossary",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "piquer"
+            },
             "items": [
-              { "id": "blorp", "label": "Blorp", "gloss": "une partie pour flotter", "functions": ["flotter"], "affordance": "neutral" },
-              { "id": "gleen", "label": "Gline", "gloss": "une partie qui pique", "functions": ["piquer"], "affordance": "neutral" },
-              { "id": "fid", "label": "Fid", "gloss": "une partie pour grimper", "functions": ["grimper"], "affordance": "neutral" }
-            ] },
-          { "id": "r6", "cog": "toc", "skin": "page", "featureType": "toc", "fictional": true,
-            "question": { "functionPhrase": "briller" },
+              {
+                "id": "blorp",
+                "label": "Blorp",
+                "gloss": "une partie pour flotter",
+                "functions": [
+                  "flotter"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "gleen",
+                "label": "Gline",
+                "gloss": "une partie qui pique",
+                "functions": [
+                  "piquer"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "fid",
+                "label": "Fid",
+                "gloss": "une partie pour grimper",
+                "functions": [
+                  "grimper"
+                ],
+                "affordance": "neutral"
+              }
+            ]
+          },
+          {
+            "id": "r6",
+            "cog": "toc",
+            "skin": "page",
+            "featureType": "toc",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "briller"
+            },
             "items": [
-              { "id": "ch1", "label": "Chapitre 1 : les Snouds", "gloss": "comment il nage", "functions": ["nager"], "affordance": "neutral", "page": 4 },
-              { "id": "ch2", "label": "Chapitre 2 : les Frells", "gloss": "comment il brille", "functions": ["briller"], "affordance": "neutral", "page": 9 },
-              { "id": "ch3", "label": "Chapitre 3 : les Tarns", "gloss": "comment il creuse", "functions": ["creuser"], "affordance": "neutral", "page": 14 }
-            ] },
-          { "id": "r7", "cog": "toc", "skin": "page", "featureType": "toc", "fictional": true,
-            "question": { "functionPhrase": "se cacher" },
+              {
+                "id": "ch1",
+                "label": "Chapitre 1 : les Snouds",
+                "gloss": "comment il nage",
+                "functions": [
+                  "nager"
+                ],
+                "affordance": "neutral",
+                "page": 4
+              },
+              {
+                "id": "ch2",
+                "label": "Chapitre 2 : les Frells",
+                "gloss": "comment il brille",
+                "functions": [
+                  "briller"
+                ],
+                "affordance": "neutral",
+                "page": 9
+              },
+              {
+                "id": "ch3",
+                "label": "Chapitre 3 : les Tarns",
+                "gloss": "comment il creuse",
+                "functions": [
+                  "creuser"
+                ],
+                "affordance": "neutral",
+                "page": 14
+              }
+            ]
+          },
+          {
+            "id": "r7",
+            "cog": "toc",
+            "skin": "page",
+            "featureType": "toc",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "se cacher"
+            },
             "items": [
-              { "id": "ch1", "label": "Chapitre 1 : les Quibs", "gloss": "comment il saute", "functions": ["sauter"], "affordance": "neutral", "page": 3 },
-              { "id": "ch2", "label": "Chapitre 2 : les Stens", "gloss": "comment il se cache", "functions": ["se cacher"], "affordance": "neutral", "page": 8 },
-              { "id": "ch3", "label": "Chapitre 3 : les Vorls", "gloss": "comment il étincelle", "functions": ["étinceler"], "affordance": "neutral", "page": 12 }
-            ] },
-          { "id": "r8", "cog": "heading", "skin": "page", "featureType": "heading", "fictional": true,
-            "question": { "functionPhrase": "creuser" },
+              {
+                "id": "ch1",
+                "label": "Chapitre 1 : les Quibs",
+                "gloss": "comment il saute",
+                "functions": [
+                  "sauter"
+                ],
+                "affordance": "neutral",
+                "page": 3
+              },
+              {
+                "id": "ch2",
+                "label": "Chapitre 2 : les Stens",
+                "gloss": "comment il se cache",
+                "functions": [
+                  "se cacher"
+                ],
+                "affordance": "neutral",
+                "page": 8
+              },
+              {
+                "id": "ch3",
+                "label": "Chapitre 3 : les Vorls",
+                "gloss": "comment il étincelle",
+                "functions": [
+                  "étinceler"
+                ],
+                "affordance": "neutral",
+                "page": 12
+              }
+            ]
+          },
+          {
+            "id": "r8",
+            "cog": "heading",
+            "skin": "page",
+            "featureType": "heading",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "creuser"
+            },
             "items": [
-              { "id": "h1", "label": "Tout sur les Snouds", "gloss": "comment il nage", "functions": ["nager"], "affordance": "neutral" },
-              { "id": "h2", "label": "Tout sur les Frells", "gloss": "comment il brille", "functions": ["briller"], "affordance": "neutral" },
-              { "id": "h3", "label": "Tout sur les Tarns", "gloss": "comment il creuse", "functions": ["creuser"], "affordance": "neutral" }
-            ] },
-          { "id": "r9", "cog": "heading", "skin": "page", "featureType": "heading", "fictional": true,
-            "question": { "functionPhrase": "flotter" },
+              {
+                "id": "h1",
+                "label": "Tout sur les Snouds",
+                "gloss": "comment il nage",
+                "functions": [
+                  "nager"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "h2",
+                "label": "Tout sur les Frells",
+                "gloss": "comment il brille",
+                "functions": [
+                  "briller"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "h3",
+                "label": "Tout sur les Tarns",
+                "gloss": "comment il creuse",
+                "functions": [
+                  "creuser"
+                ],
+                "affordance": "neutral"
+              }
+            ]
+          },
+          {
+            "id": "r9",
+            "cog": "heading",
+            "skin": "page",
+            "featureType": "heading",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "flotter"
+            },
             "items": [
-              { "id": "h1", "label": "Tout sur les Glines", "gloss": "comment il pique", "functions": ["piquer"], "affordance": "neutral" },
-              { "id": "h2", "label": "Tout sur les Fids", "gloss": "comment il grimpe", "functions": ["grimper"], "affordance": "neutral" },
-              { "id": "h3", "label": "Tout sur les Blorps", "gloss": "comment il flotte", "functions": ["flotter"], "affordance": "neutral" }
-            ] },
-          { "id": "r10", "cog": "menu", "skin": "page", "featureType": "menu", "fictional": true,
-            "question": { "functionPhrase": "chercher" },
+              {
+                "id": "h1",
+                "label": "Tout sur les Glines",
+                "gloss": "comment il pique",
+                "functions": [
+                  "piquer"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "h2",
+                "label": "Tout sur les Fids",
+                "gloss": "comment il grimpe",
+                "functions": [
+                  "grimper"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "h3",
+                "label": "Tout sur les Blorps",
+                "gloss": "comment il flotte",
+                "functions": [
+                  "flotter"
+                ],
+                "affordance": "neutral"
+              }
+            ]
+          },
+          {
+            "id": "r10",
+            "cog": "menu",
+            "skin": "page",
+            "featureType": "menu",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "chercher"
+            },
             "items": [
-              { "id": "drext", "label": "Drext", "gloss": "sert à tourner la page", "functions": ["tourner"], "affordance": "neutral" },
-              { "id": "glarn", "label": "Glarn", "gloss": "sert à chercher les faits perdus", "functions": ["chercher"], "affordance": "neutral" },
-              { "id": "pled", "label": "Pled", "gloss": "sert à lire à voix haute", "functions": ["lire à voix haute"], "affordance": "neutral" }
-            ] },
-          { "id": "r11", "cog": "index", "skin": "page", "featureType": "index", "fictional": true,
-            "question": { "functionPhrase": "briller" },
+              {
+                "id": "drext",
+                "label": "Drext",
+                "gloss": "sert à tourner la page",
+                "functions": [
+                  "tourner"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "glarn",
+                "label": "Glarn",
+                "gloss": "sert à chercher les faits perdus",
+                "functions": [
+                  "chercher"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "pled",
+                "label": "Pled",
+                "gloss": "sert à lire à voix haute",
+                "functions": [
+                  "lire à voix haute"
+                ],
+                "affordance": "neutral"
+              }
+            ]
+          },
+          {
+            "id": "r11",
+            "cog": "index",
+            "skin": "page",
+            "featureType": "index",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "briller"
+            },
             "items": [
-              { "id": "idx1", "label": "Snoud … page 4", "gloss": "À la page 4, on parle de nager.", "functions": ["nager"], "affordance": "neutral", "page": 4 },
-              { "id": "idx2", "label": "Frell … page 9", "gloss": "À la page 9, on parle de briller.", "functions": ["briller"], "affordance": "neutral", "page": 9 },
-              { "id": "idx3", "label": "Tarn … page 14", "gloss": "À la page 14, on parle de creuser.", "functions": ["creuser"], "affordance": "neutral", "page": 14 }
-            ] },
-          { "id": "r12", "cog": "which-feature", "skin": "page", "featureType": "which-feature", "fictional": false,
-            "question": { "functionPhrase": "meaning" },
+              {
+                "id": "idx1",
+                "label": "Snoud … page 4",
+                "gloss": "À la page 4, on parle de nager.",
+                "functions": [
+                  "nager"
+                ],
+                "affordance": "neutral",
+                "page": 4
+              },
+              {
+                "id": "idx2",
+                "label": "Frell … page 9",
+                "gloss": "À la page 9, on parle de briller.",
+                "functions": [
+                  "briller"
+                ],
+                "affordance": "neutral",
+                "page": 9
+              },
+              {
+                "id": "idx3",
+                "label": "Tarn … page 14",
+                "gloss": "À la page 14, on parle de creuser.",
+                "functions": [
+                  "creuser"
+                ],
+                "affordance": "neutral",
+                "page": 14
+              }
+            ]
+          },
+          {
+            "id": "r12",
+            "cog": "which-feature",
+            "skin": "page",
+            "featureType": "which-feature",
+            "fictional": false,
+            "question": {
+              "functionPhrase": "meaning"
+            },
             "items": [
-              { "id": "sommaire", "label": "Sommaire", "gloss": "montre dans quel chapitre se trouve un sujet", "functions": ["topic"], "affordance": "neutral" },
-              { "id": "glossaire", "label": "Glossaire", "gloss": "explique ce qu’un mot veut dire", "functions": ["meaning"], "affordance": "neutral" },
-              { "id": "index", "label": "Index", "gloss": "montre à quelle page se trouve un mot", "functions": ["page"], "affordance": "neutral" }
-            ] },
-          { "id": "r13", "cog": "which-feature", "skin": "page", "featureType": "which-feature", "fictional": false,
-            "question": { "functionPhrase": "topic" },
+              {
+                "id": "sommaire",
+                "label": "Sommaire",
+                "gloss": "montre dans quel chapitre se trouve un sujet",
+                "functions": [
+                  "topic"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "glossaire",
+                "label": "Glossaire",
+                "gloss": "explique ce qu’un mot veut dire",
+                "functions": [
+                  "meaning"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "index",
+                "label": "Index",
+                "gloss": "montre à quelle page se trouve un mot",
+                "functions": [
+                  "page"
+                ],
+                "affordance": "neutral"
+              }
+            ]
+          },
+          {
+            "id": "r13",
+            "cog": "which-feature",
+            "skin": "page",
+            "featureType": "which-feature",
+            "fictional": false,
+            "question": {
+              "functionPhrase": "topic"
+            },
             "items": [
-              { "id": "glossaire", "label": "Glossaire", "gloss": "explique ce qu’un mot veut dire", "functions": ["meaning"], "affordance": "neutral" },
-              { "id": "sommaire", "label": "Sommaire", "gloss": "montre dans quel chapitre se trouve un sujet", "functions": ["topic"], "affordance": "neutral" },
-              { "id": "index", "label": "Index", "gloss": "montre à quelle page se trouve un mot", "functions": ["page"], "affordance": "neutral" }
-            ] }
+              {
+                "id": "glossaire",
+                "label": "Glossaire",
+                "gloss": "explique ce qu’un mot veut dire",
+                "functions": [
+                  "meaning"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "sommaire",
+                "label": "Sommaire",
+                "gloss": "montre dans quel chapitre se trouve un sujet",
+                "functions": [
+                  "topic"
+                ],
+                "affordance": "neutral"
+              },
+              {
+                "id": "index",
+                "label": "Index",
+                "gloss": "montre à quelle page se trouve un mot",
+                "functions": [
+                  "page"
+                ],
+                "affordance": "neutral"
+              }
+            ]
+          }
+        ],
+        "es": [
+          {
+            "id": "r1",
+            "cog": "diagram",
+            "featureType": "caption",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "brillar"
+            },
+            "items": [
+              {
+                "id": "snoud",
+                "label": "Snoud",
+                "gloss": "El snoud le ayuda a nadar.",
+                "functions": [
+                  "nadar"
+                ]
+              },
+              {
+                "id": "frell",
+                "label": "Frell",
+                "gloss": "El frell le ayuda a brillar.",
+                "functions": [
+                  "brillar"
+                ]
+              },
+              {
+                "id": "tarn",
+                "label": "Tarn",
+                "gloss": "El tarn le ayuda a escarbar.",
+                "functions": [
+                  "escarbar"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "r2",
+            "cog": "diagram",
+            "featureType": "caption",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "trepar"
+            },
+            "items": [
+              {
+                "id": "blorp",
+                "label": "Blorp",
+                "gloss": "El blorp le ayuda a flotar.",
+                "functions": [
+                  "flotar"
+                ]
+              },
+              {
+                "id": "gline",
+                "label": "Gline",
+                "gloss": "El gline le ayuda a picar.",
+                "functions": [
+                  "picar"
+                ]
+              },
+              {
+                "id": "fid",
+                "label": "Fid",
+                "gloss": "El fid le ayuda a trepar.",
+                "functions": [
+                  "trepar"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "r3",
+            "cog": "diagram",
+            "featureType": "caption",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "saltar"
+            },
+            "items": [
+              {
+                "id": "quib",
+                "label": "Quib",
+                "gloss": "El quib le ayuda a esconderse.",
+                "functions": [
+                  "esconderse"
+                ]
+              },
+              {
+                "id": "sten",
+                "label": "Sten",
+                "gloss": "El sten le ayuda a saltar.",
+                "functions": [
+                  "saltar"
+                ]
+              },
+              {
+                "id": "vorl",
+                "label": "Vorl",
+                "gloss": "El vorl le ayuda a flotar.",
+                "functions": [
+                  "flotar"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "r4",
+            "cog": "glossary",
+            "featureType": "glossary",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "picar"
+            },
+            "items": [
+              {
+                "id": "snoud",
+                "label": "Snoud",
+                "gloss": "Parte que sirve para nadar.",
+                "functions": [
+                  "nadar"
+                ]
+              },
+              {
+                "id": "gline",
+                "label": "Gline",
+                "gloss": "Parte que sirve para picar.",
+                "functions": [
+                  "picar"
+                ]
+              },
+              {
+                "id": "tarn",
+                "label": "Tarn",
+                "gloss": "Parte que sirve para escarbar.",
+                "functions": [
+                  "escarbar"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "r5",
+            "cog": "glossary",
+            "featureType": "glossary",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "brillar"
+            },
+            "items": [
+              {
+                "id": "fid",
+                "label": "Fid",
+                "gloss": "Parte que sirve para trepar.",
+                "functions": [
+                  "trepar"
+                ]
+              },
+              {
+                "id": "blorp",
+                "label": "Blorp",
+                "gloss": "Parte que sirve para flotar.",
+                "functions": [
+                  "flotar"
+                ]
+              },
+              {
+                "id": "frell",
+                "label": "Frell",
+                "gloss": "Parte que sirve para brillar.",
+                "functions": [
+                  "brillar"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "r6",
+            "cog": "toc",
+            "featureType": "toc",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "brillar"
+            },
+            "items": [
+              {
+                "id": "c1",
+                "label": "Capítulo 1: los snouds",
+                "gloss": "cómo nada",
+                "functions": [
+                  "nadar"
+                ],
+                "page": 4
+              },
+              {
+                "id": "c2",
+                "label": "Capítulo 2: los frells",
+                "gloss": "cómo brilla",
+                "functions": [
+                  "brillar"
+                ],
+                "page": 9
+              },
+              {
+                "id": "c3",
+                "label": "Capítulo 3: los tarns",
+                "gloss": "cómo escarba",
+                "functions": [
+                  "escarbar"
+                ],
+                "page": 14
+              }
+            ]
+          },
+          {
+            "id": "r7",
+            "cog": "toc",
+            "featureType": "toc",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "esconderse"
+            },
+            "items": [
+              {
+                "id": "c1",
+                "label": "Capítulo 1: los blorps",
+                "gloss": "cómo flota",
+                "functions": [
+                  "flotar"
+                ],
+                "page": 3
+              },
+              {
+                "id": "c2",
+                "label": "Capítulo 2: los stens",
+                "gloss": "cómo salta",
+                "functions": [
+                  "saltar"
+                ],
+                "page": 8
+              },
+              {
+                "id": "c3",
+                "label": "Capítulo 3: los quibs",
+                "gloss": "cómo se esconde",
+                "functions": [
+                  "esconderse"
+                ],
+                "page": 12
+              }
+            ]
+          },
+          {
+            "id": "r8",
+            "cog": "heading",
+            "featureType": "heading",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "escarbar"
+            },
+            "items": [
+              {
+                "id": "h1",
+                "label": "Todo sobre los snouds",
+                "gloss": "cómo nada",
+                "functions": [
+                  "nadar"
+                ]
+              },
+              {
+                "id": "h2",
+                "label": "Todo sobre los frells",
+                "gloss": "cómo brilla",
+                "functions": [
+                  "brillar"
+                ]
+              },
+              {
+                "id": "h3",
+                "label": "Todo sobre los tarns",
+                "gloss": "cómo escarba",
+                "functions": [
+                  "escarbar"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "r9",
+            "cog": "heading",
+            "featureType": "heading",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "flotar"
+            },
+            "items": [
+              {
+                "id": "h1",
+                "label": "Todo sobre los glines",
+                "gloss": "cómo pica",
+                "functions": [
+                  "picar"
+                ]
+              },
+              {
+                "id": "h2",
+                "label": "Todo sobre los blorps",
+                "gloss": "cómo flota",
+                "functions": [
+                  "flotar"
+                ]
+              },
+              {
+                "id": "h3",
+                "label": "Todo sobre los fids",
+                "gloss": "cómo trepa",
+                "functions": [
+                  "trepar"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "r10",
+            "cog": "menu",
+            "featureType": "menu",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "buscar"
+            },
+            "items": [
+              {
+                "id": "drext",
+                "label": "Drext",
+                "gloss": "sirve para pasar la página",
+                "functions": [
+                  "pasar la página"
+                ]
+              },
+              {
+                "id": "glarn",
+                "label": "Glarn",
+                "gloss": "sirve para buscar los datos perdidos",
+                "functions": [
+                  "buscar"
+                ]
+              },
+              {
+                "id": "pled",
+                "label": "Pled",
+                "gloss": "sirve para leer en voz alta",
+                "functions": [
+                  "leer en voz alta"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "r12",
+            "cog": "which-feature",
+            "featureType": "which",
+            "fictional": false,
+            "question": {
+              "functionPhrase": "meaning"
+            },
+            "items": [
+              {
+                "id": "toc",
+                "label": "Índice",
+                "gloss": "Muestra en qué capítulo está cada tema.",
+                "functions": [
+                  "topic"
+                ]
+              },
+              {
+                "id": "glossary",
+                "label": "Glosario",
+                "gloss": "Explica lo que quiere decir una palabra.",
+                "functions": [
+                  "meaning"
+                ]
+              },
+              {
+                "id": "caption",
+                "label": "Pie de imagen",
+                "gloss": "Explica lo que se ve en el dibujo.",
+                "functions": [
+                  "picture"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "r13",
+            "cog": "which-feature",
+            "featureType": "which",
+            "fictional": false,
+            "question": {
+              "functionPhrase": "topic"
+            },
+            "items": [
+              {
+                "id": "glossary",
+                "label": "Glosario",
+                "gloss": "Explica lo que quiere decir una palabra.",
+                "functions": [
+                  "meaning"
+                ]
+              },
+              {
+                "id": "toc",
+                "label": "Índice",
+                "gloss": "Muestra en qué capítulo está cada tema.",
+                "functions": [
+                  "topic"
+                ]
+              },
+              {
+                "id": "caption",
+                "label": "Pie de imagen",
+                "gloss": "Explica lo que se ve en el dibujo.",
+                "functions": [
+                  "picture"
+                ]
+              }
+            ]
+          }
         ]
       }
     },
-    "slug": { "en": "detective-deweys-field-guide", "de": "textmerkmale-sachtext-informationen-finden-klasse-2", "fr": "utiliser-les-outils-du-texte-documentaire-ce1" },
-    "page_title": { "en": "Detective Dewey's Field Guide — Find Facts with Text Features", "de": "Textmerkmale nutzen – Sachbuch lesen, Klasse 2", "fr": "Le carnet du détective Dewey — Lire un texte documentaire (CE1)" },
+    "slug": {
+      "en": "detective-deweys-field-guide",
+      "de": "textmerkmale-sachtext-informationen-finden-klasse-2",
+      "fr": "utiliser-les-outils-du-texte-documentaire-ce1",
+      "es": "partes-del-libro-localizar-informacion-segundo-grado"
+    },
+    "page_title": {
+      "en": "Detective Dewey's Field Guide — Find Facts with Text Features",
+      "de": "Textmerkmale nutzen – Sachbuch lesen, Klasse 2",
+      "fr": "Le carnet du détective Dewey — Lire un texte documentaire (CE1)",
+      "es": "Partes del libro: localizar información – 2.º primaria"
+    },
     "page_intro": {
       "en": "Help Detective Dewey find lost facts! Read the book's own tools — the table of contents, headings, glossary, and labeled pictures — to locate the answer, never by guessing. A Grade 1 reading activity aligned to Common Core 1.RI.5: know and use text features to locate key facts.",
       "de": "Textmerkmale nutzen: Hilf Detektiv Dewey, im Sachbuch Informationen zu finden – mit Inhaltsverzeichnis, Glossar und Überschrift. Kostenlos und interaktiv, Klasse 2.",
-      "fr": "Avec le détective Dewey, votre enfant apprend à se repérer dans un texte documentaire et à y trouver une information. À chaque énigme, il utilise les vrais outils du livre — le sommaire, le glossaire, les titres, l'index, un schéma légendé — pour répondre à la question posée. Les créatures de ce carnet sont imaginaires, alors on ne peut pas deviner : il faut ouvrir le bon outil et le lire. Une activité gratuite et interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte. Alignée sur les programmes officiels de l'école."
+      "fr": "Avec le détective Dewey, votre enfant apprend à se repérer dans un texte documentaire et à y trouver une information. À chaque énigme, il utilise les vrais outils du livre — le sommaire, le glossaire, les titres, l'index, un schéma légendé — pour répondre à la question posée. Les créatures de ce carnet sont imaginaires, alors on ne peut pas deviner : il faut ouvrir le bon outil et le lire. Une activité gratuite et interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte. Alignée sur les programmes officiels de l'école.",
+      "es": "Actividad en línea gratis de 2.º de primaria: usa el índice, el glosario y los títulos de un libro informativo para localizar información. Sin registro."
     },
     "kid_prompt_template": "Read the feature to find the fact!"
   }

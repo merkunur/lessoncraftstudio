@@ -71,6 +71,32 @@
       "Order several lengths from shortest to longest and measure to check the order."
     ]
   },
+  "sound-boxes": {
+    "slug": "sound-boxes",
+    "name": "Sound Boxes",
+    "tagline": "Push a chip for every sound you hear",
+    "metaTitle": "Free Interactive Sound Boxes (Elkonin) | LessonCraftStudio",
+    "metaDescription": "Free online Elkonin sound boxes for the classroom. Say a word, push a chip for each sound, then reveal the letters — no login, no install, on any device.",
+    "about": [
+      "Sound boxes — often called Elkonin boxes — give children a way to see something invisible: the individual sounds inside a spoken word. A picture appears, the word is spoken aloud, and the child pushes one chip into a box for every sound they hear. Three boxes for \"ship,\" four for \"frog\" — the boxes quietly confirm the answer without a single red X.",
+      "Segmenting words into phonemes is one of the strongest predictors of early reading success, and it comes straight out of the Science of Reading playbook: first hear the sounds, then map them to letters. That is exactly how this tool is built. Start with chips only for pure phonemic awareness, then tap the letters button and watch each sound's spelling appear in its box — the bridge from listening to reading, made visible.",
+      "It runs in the browser on whiteboards, tablets, and classroom computers, with nothing to install and no account to create. Word lists follow a phonics progression from simple three-sound words to blends and vowel teams, every word comes with a friendly picture and spoken audio, and there is no timer and no score — just a calm space to stretch words out, sound by sound."
+    ],
+    "howToUse": [
+      "Pick a word list that matches your phonics focus — the starter list of simple three-sound words is a good first stop.",
+      "Tap the speaker to hear the word, then say it together slowly, stretching it out.",
+      "Have children push one chip into a box for each sound they hear, left to right, saying each sound as the chip lands.",
+      "Tap the letters button to reveal how each sound is spelled — one sound per box, even when the spelling is two letters like \"sh.\"",
+      "Use the arrows to move to the next word, or open the word list to jump to any word your group needs."
+    ],
+    "classroomIdeas": [
+      "Warm up whole-class on the whiteboard: say the word, have everyone tap an invisible box on their desk for each sound, then let one child push the chips up front.",
+      "At the small-group table, set the word filter to 2–3 sounds for children who are still building the skill, and 4–5 sounds for those ready to stretch.",
+      "Play \"secret word\": hide the picture, say a word yourself, and have children build the sounds before the reveal.",
+      "Type in this week's spelling or decodable words and use the same routine your class already knows — same boxes, your words.",
+      "Let a child at a center tap the speaker, push the chips, then check themselves by revealing the letters."
+    ]
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

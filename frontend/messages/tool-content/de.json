@@ -71,6 +71,32 @@
       "Ordnen Sie mehrere Längen vom Kürzesten zum Längsten und messen Sie nach, um die Reihenfolge zu prüfen."
     ]
   },
+  "sound-boxes": {
+    "slug": "lautboxen",
+    "name": "Lautboxen",
+    "tagline": "Wörter hören und in Laute gliedern",
+    "metaTitle": "Lautboxen – Wörter in Laute gliedern | LessonCraftStudio",
+    "metaDescription": "Interaktive Lautboxen für Kinder: Wörter anhören, in Laute gliedern und für jeden Laut ein Plättchen legen. Kostenlos, ohne Anmeldung – für Tafel und Tablet.",
+    "about": [
+      "Lautboxen machen sichtbar, was Kinder beim Lesen- und Schreibenlernen zuerst können müssen: ein Wort in seine Laute gliedern. Für jeden Laut steht eine Box – das Kind spricht das Wort langsam, hört die Laute nacheinander heraus und legt für jeden Laut ein Plättchen. Aus einem flüchtigen Höreindruck wird so eine Menge, die man sehen, zählen und besprechen kann.",
+      "Dabei gilt: eine Box ist ein Laut, nicht ein Buchstabe. \"Fisch\" hat fünf Buchstaben, aber nur drei Laute – und deshalb drei Boxen, denn sch ist ein einziger Laut. Genau diese Einsicht trägt das lautgetreue Schreiben: Wer hört, dass \"Schaf\" mit /sch/ beginnt, den Anlaut sicher erkennt und weiß, dass ei, au und ck für je einen Laut stehen, verschriftet Wörter von Anfang an strukturiert statt Buchstabe für Buchstabe zu raten.",
+      "Die Wortlisten sind nach dem Aufbau des Anfangsunterrichts gestuft: von lauttreuen Wörtern mit zwei bis drei Lauten über mehrgliedrige Grapheme (sch, ch, ei, au, eu) und längere Wörter bis zu Merkwörtern mit Doppelkonsonanten, ie und stummem h. Jedes Wort kommt mit Bild und Vorsprechfunktion. Das Werkzeug läuft direkt im Browser auf Tafel, Tablet und PC – ohne Installation, ohne Konto, ohne Timer und ohne Punktzahl."
+    ],
+    "howToUse": [
+      "Zeigen Sie die Lautboxen an der Tafel oder geben Sie sie den Kindern auf Tablets. Das Kind tippt auf das Bild und hört das Wort.",
+      "Sprechen Sie das Wort gemeinsam gedehnt vor – \"Mmm-aaa-uuu-sss\" – und lassen Sie das Kind für jeden gehörten Laut ein Plättchen in eine Box legen.",
+      "Fragen Sie nach: \"Wie viele Laute hörst du? Welcher Laut ist am Anfang, welcher am Ende?\" So üben die Kinder Anlaut, Endlaut und Lautfolge.",
+      "Blenden Sie danach die Buchstaben ein: Jede Box zeigt nun ihr Graphem – auch sch, ei oder ck als eine Einheit. Die Kinder sehen, wie Laut und Schreibung zusammengehören.",
+      "Beginnen Sie mit der Liste der lauttreuen Wörter und wechseln Sie erst zu den mehrgliedrigen Graphemen und Merkwörtern, wenn die Kinder sicher gliedern."
+    ],
+    "classroomIdeas": [
+      "Anlaut-Runde im Sitzkreis: Ein Wort wird angehört, alle sprechen es gedehnt, ein Kind legt das erste Plättchen und benennt den Anlaut.",
+      "Lautdetektive: Zeigen Sie nur das Bild (Buchstaben versteckt). Die Kinder klären zu zweit, wie viele Laute das Wort hat, dann wird gemeinsam gelegt und geprüft.",
+      "Schreibtabellen-Brücke: Nach dem Legen schreiben die Kinder das Wort lautgetreu ins Heft und vergleichen anschließend mit den eingeblendeten Buchstaben-Boxen.",
+      "Stolperstellen besprechen: Wörter wie Hund oder Zahn gezielt wählen und gemeinsam entdecken, dass man am Ende /t/ hört, aber d schreibt – oder dass das stumme h mit in die Box gehört.",
+      "Wörter der Woche: Tragen Sie Ihre aktuellen Lernwörter als eigene Liste ein und lassen Sie die Kinder an der Station selbstständig gliedern und legen."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

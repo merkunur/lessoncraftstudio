@@ -1,0 +1,37 @@
+{
+  "locale": "fi",
+  "version": 1,
+  "stages": [
+    { "id": "s1", "label": "Tavut · 2 tavun sanat", "free": true, "type": "syllables" },
+    { "id": "s2", "label": "Äänteet · lyhyet sanat", "free": false },
+    { "id": "s3", "label": "Pitkät äänteet · kaksoiskirjaimet", "free": false }
+  ],
+  "words": [
+    { "id": "talo",  "noun": "house",    "themeDir": "miscellaneous",     "display": "talo",  "boxes": ["ta","lo"],            "syllables": ["ta","lo"],   "stage": "s1" },
+    { "id": "kala",  "noun": "fish",     "themeDir": "animals",           "display": "kala",  "boxes": ["ka","la"],            "syllables": ["ka","la"],   "stage": "s1" },
+    { "id": "sika",  "noun": "pig",      "themeDir": "animals",           "display": "sika",  "boxes": ["si","ka"],            "syllables": ["si","ka"],   "stage": "s1" },
+    { "id": "muna",  "noun": "egg",      "themeDir": "At the Supermarket","display": "muna",  "boxes": ["mu","na"],            "syllables": ["mu","na"],   "stage": "s1" },
+    { "id": "kynä",  "noun": "pen",      "themeDir": "classroom",         "display": "kynä",  "boxes": ["ky","nä"],            "syllables": ["ky","nä"],   "stage": "s1" },
+    { "id": "pesä",  "noun": "nest",     "themeDir": "spring",            "display": "pesä",  "boxes": ["pe","sä"],            "syllables": ["pe","sä"],   "stage": "s1" },
+    { "id": "rapu",  "noun": "crab",     "themeDir": "beach",             "display": "rapu",  "boxes": ["ra","pu"],            "syllables": ["ra","pu"],   "stage": "s1" },
+    { "id": "juna",  "noun": "train",    "themeDir": "toys",              "display": "juna",  "boxes": ["ju","na"],            "syllables": ["ju","na"],   "stage": "s1" },
+
+    { "id": "ovi",   "noun": "door",     "themeDir": "around the house",  "display": "ovi",   "boxes": ["o","v","i"],          "syllables": ["o","vi"],    "stage": "s2" },
+    { "id": "susi",  "noun": "wolf",     "themeDir": "animals",           "display": "susi",  "boxes": ["s","u","s","i"],      "syllables": ["su","si"],   "stage": "s2" },
+    { "id": "käsi",  "noun": "hand",     "themeDir": "body parts",        "display": "käsi",  "boxes": ["k","ä","s","i"],      "syllables": ["kä","si"],   "stage": "s2" },
+    { "id": "poro",  "noun": "reindeer", "themeDir": "animals",           "display": "poro",  "boxes": ["p","o","r","o"],      "syllables": ["po","ro"],   "stage": "s2" },
+    { "id": "muki",  "noun": "mug",      "themeDir": "kitchen tools",     "display": "muki",  "boxes": ["m","u","k","i"],      "syllables": ["mu","ki"],   "stage": "s2" },
+    { "id": "lasi",  "noun": "glass",    "themeDir": "kitchen tools",     "display": "lasi",  "boxes": ["l","a","s","i"],      "syllables": ["la","si"],   "stage": "s2" },
+    { "id": "vene",  "noun": "boat",     "themeDir": "beach",             "display": "vene",  "boxes": ["v","e","n","e"],      "syllables": ["ve","ne"],   "stage": "s2" },
+    { "id": "auto",  "noun": "car",      "themeDir": "toys",              "display": "auto",  "boxes": ["a","u","t","o"],      "syllables": ["au","to"],   "stage": "s2", "note": "au on diftongi – kaksi vokaalia, kaksi laatikkoa" },
+
+    { "id": "kuu",   "noun": "moon",     "themeDir": "space",             "display": "kuu",   "boxes": ["k","u","u"],          "syllables": ["kuu"],       "stage": "s3", "note": "pitkä vokaali: kirjoita kirjain kahdesti" },
+    { "id": "suu",   "noun": "mouth",    "themeDir": "body parts",        "display": "suu",   "boxes": ["s","u","u"],          "syllables": ["suu"],       "stage": "s3", "note": "pitkä vokaali: kirjoita kirjain kahdesti" },
+    { "id": "kukka", "noun": "flower",   "themeDir": "summer",            "display": "kukka", "boxes": ["k","u","k","k","a"],  "syllables": ["kuk","ka"],  "stage": "s3", "note": "kaksoiskonsonantti: kirjoita kirjain kahdesti" },
+    { "id": "kuppi", "noun": "cup",      "themeDir": "around the house",  "display": "kuppi", "boxes": ["k","u","p","p","i"],  "syllables": ["kup","pi"],  "stage": "s3", "note": "kaksoiskonsonantti: kirjoita kirjain kahdesti" },
+    { "id": "pallo", "noun": "ball",     "themeDir": "toys",              "display": "pallo", "boxes": ["p","a","l","l","o"],  "syllables": ["pal","lo"],  "stage": "s3", "note": "kaksoiskonsonantti: kirjoita kirjain kahdesti" },
+    { "id": "kettu", "noun": "fox",      "themeDir": "animals",           "display": "kettu", "boxes": ["k","e","t","t","u"],  "syllables": ["ket","tu"],  "stage": "s3", "note": "kaksoiskonsonantti: kirjoita kirjain kahdesti" },
+    { "id": "sukka", "noun": "sock",     "themeDir": "accessories",       "display": "sukka", "boxes": ["s","u","k","k","a"],  "syllables": ["suk","ka"],  "stage": "s3", "note": "kaksoiskonsonantti: kirjoita kirjain kahdesti" },
+    { "id": "lippu", "noun": "flag",     "themeDir": "4th of July",       "display": "lippu", "boxes": ["l","i","p","p","u"],  "syllables": ["lip","pu"],  "stage": "s3", "note": "kaksoiskonsonantti: kirjoita kirjain kahdesti" }
+  ]
+}

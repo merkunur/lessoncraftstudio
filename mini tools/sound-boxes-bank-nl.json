@@ -1,0 +1,37 @@
+{
+  "locale": "nl",
+  "version": 1,
+  "stages": [
+    { "id": "s1", "label": "Klankzuivere woorden · mkm", "free": true },
+    { "id": "s2", "label": "Tweetekenklanken · aa oo oe ie ij ui eu ei ou au", "free": false },
+    { "id": "s3", "label": "Clusters · mmkm en mkmm", "free": false }
+  ],
+  "words": [
+    { "id": "vis",   "noun": "fish",    "themeDir": "animals",            "display": "vis",   "boxes": ["v","i","s"],      "syllables": ["vis"],   "stage": "s1" },
+    { "id": "zon",   "noun": "sun",     "themeDir": "weather",            "display": "zon",   "boxes": ["z","o","n"],      "syllables": ["zon"],   "stage": "s1" },
+    { "id": "kat",   "noun": "cat",     "themeDir": "animals",            "display": "kat",   "boxes": ["k","a","t"],      "syllables": ["kat"],   "stage": "s1" },
+    { "id": "pen",   "noun": "pen",     "themeDir": "classroom",          "display": "pen",   "boxes": ["p","e","n"],      "syllables": ["pen"],   "stage": "s1" },
+    { "id": "sok",   "noun": "sock",    "themeDir": "accessories",        "display": "sok",   "boxes": ["s","o","k"],      "syllables": ["sok"],   "stage": "s1" },
+    { "id": "bus",   "noun": "bus",     "themeDir": "vehicles",           "display": "bus",   "boxes": ["b","u","s"],      "syllables": ["bus"],   "stage": "s1" },
+    { "id": "mok",   "noun": "mug",     "themeDir": "kitchen tools",      "display": "mok",   "boxes": ["m","o","k"],      "syllables": ["mok"],   "stage": "s1" },
+    { "id": "kip",   "noun": "chicken", "themeDir": "farm animals",       "display": "kip",   "boxes": ["k","i","p"],      "syllables": ["kip"],   "stage": "s1" },
+
+    { "id": "maan",  "noun": "moon",    "themeDir": "space",              "display": "maan",  "boxes": ["m","aa","n"],     "syllables": ["maan"],  "stage": "s2", "note": "aa is één klank — één vakje" },
+    { "id": "boot",  "noun": "boat",    "themeDir": "beach",              "display": "boot",  "boxes": ["b","oo","t"],     "syllables": ["boot"],  "stage": "s2" },
+    { "id": "boek",  "noun": "book",    "themeDir": "classroom",          "display": "boek",  "boxes": ["b","oe","k"],     "syllables": ["boek"],  "stage": "s2" },
+    { "id": "muis",  "noun": "mouse",   "themeDir": "pets",               "display": "muis",  "boxes": ["m","ui","s"],     "syllables": ["muis"],  "stage": "s2" },
+    { "id": "uil",   "noun": "owl",     "themeDir": "animals",            "display": "uil",   "boxes": ["ui","l"],         "syllables": ["uil"],   "stage": "s2", "note": "3 letters, 2 klanken — 2 vakjes" },
+    { "id": "deur",  "noun": "door",    "themeDir": "around the house",   "display": "deur",  "boxes": ["d","eu","r"],     "syllables": ["deur"],  "stage": "s2" },
+    { "id": "vijg",  "noun": "fig",     "themeDir": "fruits",             "display": "vijg",  "boxes": ["v","ij","g"],     "syllables": ["vijg"],  "stage": "s2", "note": "ij is één klank — één vakje" },
+    { "id": "ring",  "noun": "ring",    "themeDir": "accessories",        "display": "ring",  "boxes": ["r","i","ng"],     "syllables": ["ring"],  "stage": "s2", "note": "ng is één klank — één vakje" },
+
+    { "id": "slak",  "noun": "snail",   "themeDir": "insects and bugs",   "display": "slak",  "boxes": ["s","l","a","k"],  "syllables": ["slak"],  "stage": "s3", "note": "s en l zijn twee klanken — twee vakjes" },
+    { "id": "vlag",  "noun": "flag",    "themeDir": "4th of July",        "display": "vlag",  "boxes": ["v","l","a","g"],  "syllables": ["vlag"],  "stage": "s3" },
+    { "id": "klok",  "noun": "clock",   "themeDir": "around the house",   "display": "klok",  "boxes": ["k","l","o","k"],  "syllables": ["klok"],  "stage": "s3" },
+    { "id": "melk",  "noun": "milk",    "themeDir": "At the Supermarket", "display": "melk",  "boxes": ["m","e","l","k"],  "syllables": ["melk"],  "stage": "s3" },
+    { "id": "vork",  "noun": "fork",    "themeDir": "around the house",   "display": "vork",  "boxes": ["v","o","r","k"],  "syllables": ["vork"],  "stage": "s3" },
+    { "id": "lamp",  "noun": "lamp",    "themeDir": "furniture",          "display": "lamp",  "boxes": ["l","a","m","p"],  "syllables": ["lamp"],  "stage": "s3" },
+    { "id": "wolf",  "noun": "wolf",    "themeDir": "animals",            "display": "wolf",  "boxes": ["w","o","l","f"],  "syllables": ["wolf"],  "stage": "s3" },
+    { "id": "schip", "noun": "ship",    "themeDir": "vehicles",           "display": "schip", "boxes": ["s","ch","i","p"], "syllables": ["schip"], "stage": "s3", "note": "sch hoor je als s + ch: twee klanken, twee vakjes" }
+  ]
+}

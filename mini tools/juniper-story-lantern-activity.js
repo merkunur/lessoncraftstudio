@@ -20,8 +20,11 @@
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    /* es→es-MX in BOTH arms: the bare LANG (and the en-US fallback default) read the
+       fable aloud in an English voice. Matches the es-shipped siblings
+       (atlas-fact-files :23, bea-two-bookshelves :20, booker-glossary-desk :24). */
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG), rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : LANG === 'es' ? 'es-MX' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -31,7 +34,7 @@
       : '<circle cx="43" cy="48" r="2.6" fill="#2A2A35"/><circle cx="57" cy="48" r="2.6" fill="#2A2A35"/>';
     var spikes = '';
     for (var i = 0; i < 9; i++) { var ang = Math.PI * (0.08 + 0.84 * (i / 8)); var cx = 50 - Math.cos(ang) * 30, cy = 52 - Math.sin(ang) * 30; var tx = 50 - Math.cos(ang) * 44, ty = 52 - Math.sin(ang) * 44; spikes += '<line x1="' + cx.toFixed(1) + '" y1="' + cy.toFixed(1) + '" x2="' + tx.toFixed(1) + '" y2="' + ty.toFixed(1) + '" stroke="#8A6D4B" stroke-width="3" stroke-linecap="round"/>'; }
-    return '<svg class="jsl-hog-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Juniper le hérisson' : LANG === 'de' ? 'Juniper, der Igel' : 'Juniper the hedgehog') + '">' + spikes +
+    return '<svg class="jsl-hog-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Juniper le hérisson' : LANG === 'de' ? 'Juniper, der Igel' : LANG === 'es' ? 'Juniper, el erizo' : 'Juniper the hedgehog') + '">' + spikes +
       '<ellipse cx="50" cy="54" rx="30" ry="26" fill="#C9A877"/>' +
       '<ellipse cx="62" cy="56" rx="16" ry="14" fill="#F0DEC2"/>' +   /* face */
       eyes + '<circle cx="70" cy="56" r="2.4" fill="#2A2A35"/>' +     /* nose */
@@ -42,15 +45,23 @@
     id: 'juniper-story-lantern-activity',
 
     strings: {
-      title: { en: "Juniper's Story Lantern", de: 'Junipers Geschichten-Laterne', fr: 'La lanterne à histoires de Juniper' },
-      prompt: { en: 'What does this story teach us?', de: 'Was lehrt uns diese Fabel?', fr: 'Quelle est la morale de cette histoire ?' },
-      juniperIntro: { en: 'Here is a little tale. What does it teach us?', de: 'Hier ist eine kleine Fabel. Was lehrt sie uns?', fr: 'Voici une petite fable. Que nous apprend-elle ?' },
-      readStory: { en: '📖 Read the story', de: '📖 Fabel lesen', fr: '📖 Lire l’histoire' },
-      readAgain: { en: '📖 Read it again', de: '📖 Noch einmal lesen', fr: '📖 Relire l’histoire' },
-      theAsk: { en: 'What is the lesson?', de: 'Was ist die Lehre?', fr: 'Quelle est la morale ?' },
-      hintPick: { en: 'Tap the lesson the story teaches!', de: 'Tippe auf die Lehre, die die Fabel uns zeigt!', fr: 'Tape la morale que l’histoire nous apprend !' },
-      hintWrong: { en: "That's not the lesson — listen to the tale again.", de: 'Das ist nicht die Lehre – hör dir die Fabel noch einmal an.', fr: 'Ce n’est pas la morale — réécoute bien l’histoire.' },
-      win: { en: 'Yes! That is the lesson of the tale. 🏮', de: 'Ja! Das ist die Lehre der Fabel. 🏮', fr: 'Oui ! C’est bien la morale de la fable. 🏮' }
+      /* es-MX. «historia» is BANNED (means *History* the subject AND a true account),
+         so the de/fr title cannot be calqued — AND «linterna» is a FLASHLIGHT in MX:
+         «farolito» is the candle-lantern (posadas-warm, matches 🏮). «fábula» stays out
+         of the title (the prompt says it every round; its SEO value lives in the slug).
+         Kid term = «moraleja» (the SEP term, counterpart of de „die Lehre"); the VERB
+         «enseña» scaffolds, the NOUN «moraleja» names where the answer lives — the same
+         split German makes. §A.13.54: every agreement anchors to the fixed feminine
+         «la fábula»/«la moraleja»; the round's subject never enters an every-round string. */
+      title: { en: "Juniper's Story Lantern", de: 'Junipers Geschichten-Laterne', fr: 'La lanterne à histoires de Juniper', es: 'El farolito de Juniper' },
+      prompt: { en: 'What does this story teach us?', de: 'Was lehrt uns diese Fabel?', fr: 'Quelle est la morale de cette histoire ?', es: '¿Qué nos enseña esta fábula?' },
+      juniperIntro: { en: 'Here is a little tale. What does it teach us?', de: 'Hier ist eine kleine Fabel. Was lehrt sie uns?', fr: 'Voici une petite fable. Que nous apprend-elle ?', es: 'Aquí va una fábula chiquita. ¿Qué nos enseña?' },
+      readStory: { en: '📖 Read the story', de: '📖 Fabel lesen', fr: '📖 Lire l’histoire', es: '📖 Leer la fábula' },
+      readAgain: { en: '📖 Read it again', de: '📖 Noch einmal lesen', fr: '📖 Relire l’histoire', es: '📖 Leer otra vez' },
+      theAsk: { en: 'What is the lesson?', de: 'Was ist die Lehre?', fr: 'Quelle est la morale ?', es: '¿Cuál es la moraleja?' },
+      hintPick: { en: 'Tap the lesson the story teaches!', de: 'Tippe auf die Lehre, die die Fabel uns zeigt!', fr: 'Tape la morale que l’histoire nous apprend !', es: '¡Toca la moraleja que nos enseña la fábula!' },
+      hintWrong: { en: "That's not the lesson — listen to the tale again.", de: 'Das ist nicht die Lehre – hör dir die Fabel noch einmal an.', fr: 'Ce n’est pas la morale — réécoute bien l’histoire.', es: 'Esa no es la moraleja. Escucha otra vez la fábula.' },
+      win: { en: 'Yes! That is the lesson of the tale. 🏮', de: 'Ja! Das ist die Lehre der Fabel. 🏮', fr: 'Oui ! C’est bien la morale de la fable. 🏮', es: '¡Sí! Esa es la moraleja de la fábula. 🏮' }
     },
     defaults: {},
 

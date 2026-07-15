@@ -227,13 +227,87 @@
               { "id": "o3", "kind": "moral", "text": "Le malheur montre qui sont nos vrais amis." }
             ]
           }
+        ],
+        "es": [
+          {
+            "id": "tortoise", "band": 1,
+            "story": ["La liebre presumía que era mucho más rápida que la tortuga.", "Corrió muy lejos y se echó una larga siesta bajo un árbol.", "La tortuga, muy lenta, siguió y siguió, y ganó la carrera."],
+            "options": [
+              { "id": "o1", "kind": "moral", "text": "Quien no se rinde, al final lo logra." },
+              { "id": "o2", "kind": "detail", "text": "La liebre se echó una larga siesta." },
+              { "id": "o3", "kind": "wrongmoral", "text": "El más rápido siempre gana." }
+            ]
+          },
+          {
+            "id": "ant", "band": 1,
+            "story": ["Todo el verano la cigarra cantó y la hormiga guardó comida.", "Después llegó el invierno, con mucho frío.", "La cigarra tenía hambre; la hormiga estaba abrigada y con comida."],
+            "options": [
+              { "id": "o1", "kind": "detail", "text": "La cigarra cantó y jugó todo el verano." },
+              { "id": "o2", "kind": "wrongmoral", "text": "El verano es el mejor momento para descansar." },
+              { "id": "o3", "kind": "moral", "text": "Es mejor prepararse antes que sufrir después." }
+            ]
+          },
+          {
+            "id": "lion", "band": 1,
+            "story": ["Un ratoncito muy pequeño despertó a un león que dormía.", "El león fue bueno: sonrió y lo dejó ir.", "Después el león cayó en una red, y el ratón lo liberó a mordidas."],
+            "options": [
+              { "id": "o1", "kind": "detail", "text": "El león grande cayó en una red." },
+              { "id": "o2", "kind": "moral", "text": "Hasta un amigo pequeño puede ayudar mucho." },
+              { "id": "o3", "kind": "wrongmoral", "text": "No hay que despertar a un león dormido." }
+            ]
+          },
+          {
+            "id": "crow", "band": 2,
+            "story": ["Un cuervo con mucha sed encontró un cántaro con poquita agua.", "No alcanzaba el agua con el pico.", "Aventó piedritas hasta que el agua subió, y por fin tomó agua."],
+            "options": [
+              { "id": "o1", "kind": "moral", "text": "Una buena idea resuelve un problema." },
+              { "id": "o2", "kind": "detail", "text": "El cuervo aventó piedritas al cántaro." },
+              { "id": "o3", "kind": "wrongmoral", "text": "Siempre hay que llevar agua cuando hace calor." }
+            ]
+          },
+          {
+            "id": "wolf", "band": 2,
+            "story": ["Un pastorcito gritó «¡Lobo!» por jugar, y la gente corrió a ayudar.", "Se rio, porque no había ningún lobo.", "Cuando llegó un lobo de verdad, nadie le creyó."],
+            "options": [
+              { "id": "o1", "kind": "detail", "text": "El pastorcito gritó «¡Lobo!» por jugar." },
+              { "id": "o2", "kind": "wrongmoral", "text": "Los lobos son grandes y dan mucho miedo." },
+              { "id": "o3", "kind": "moral", "text": "Al que miente, nadie le tiene confianza." }
+            ]
+          },
+          {
+            "id": "wind", "band": 2,
+            "story": ["El viento y el sol discutían para ver quién era más fuerte.", "El viento sopló muy fuerte, pero el señor se apretó el abrigo.", "Luego el sol brilló con calorcito, y el señor se quitó el abrigo."],
+            "options": [
+              { "id": "o1", "kind": "detail", "text": "El viento sopló muy fuerte contra el señor." },
+              { "id": "o2", "kind": "moral", "text": "Tratar bien consigue más que obligar." },
+              { "id": "o3", "kind": "wrongmoral", "text": "El sol calienta más que el viento." }
+            ]
+          },
+          {
+            "id": "goose", "band": 3,
+            "story": ["Una gallina ponía un huevo de oro brillante todos los días.", "El granjero quería todo el oro de una sola vez.", "Abrió a la gallina, no encontró nada y nunca más hubo oro."],
+            "options": [
+              { "id": "o1", "kind": "moral", "text": "Quien quiere demasiado, termina perdiendo." },
+              { "id": "o2", "kind": "detail", "text": "El granjero quería todo el oro de una vez." },
+              { "id": "o3", "kind": "wrongmoral", "text": "Las gallinas están hechas de oro puro." }
+            ]
+          },
+          {
+            "id": "bear", "band": 3,
+            "story": ["Dos amigos iban caminando cuando apareció un oso grande.", "Uno se subió a un árbol y dejó solo al otro.", "El otro se quedó quietecito hasta que el oso se fue."],
+            "options": [
+              { "id": "o1", "kind": "detail", "text": "Un amigo se subió a un árbol muy alto." },
+              { "id": "o2", "kind": "wrongmoral", "text": "Los osos se espantan fácilmente." },
+              { "id": "o3", "kind": "moral", "text": "Un amigo de verdad se nota en lo difícil." }
+            ]
+          }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "juniper-story-lantern", "de": "die-lehre-einer-fabel-erkennen-klasse-3", "fr": "la-morale-d-une-fable-ce1" },
-    "page_title": { "en": "Juniper's Story Lantern — What's the Lesson? (Grade 1)", "de": "Die Lehre einer Fabel erkennen – Klasse 3", "fr": "La lanterne de Juniper — La morale d'une fable (CE1)" },
-    "page_intro": { "en": "By lantern-light, Juniper the hedgehog tells a tiny fable, then asks the big question: what does this story TEACH us? Listen to the tale, then tap the card that tells its lesson — not just something that happened in it, and not a lesson that sounds right but isn't. A warm Grade 1 reading game about finding a story's central message or lesson, aligned to Common Core RL.1.2.", "de": "Dein Kind hört eine kurze Fabel – etwa von Hase und Schildkröte – und tippt bei Junipers Laterne die Karte mit der echten Lehre. Kostenlos und interaktiv, Klasse 3.", "fr": "À la lueur de sa lanterne, Juniper le hérisson raconte une petite fable, puis demande à votre enfant d'en trouver la morale : la vraie leçon de l'histoire, et non un simple détail. En jouant, votre enfant apprend à comprendre le sens d'un récit et à distinguer le message d'une fable d'une phrase qui « sonne bien » mais reste fausse. Gratuit et interactif, à jouer directement dans le navigateur, sans minuteur, sans score et sans compte." },
+    "slug": { "en": "juniper-story-lantern", "de": "die-lehre-einer-fabel-erkennen-klasse-3", "fr": "la-morale-d-une-fable-ce1", "es": "identificar-la-moraleja-de-una-fabula-tercer-grado" },
+    "page_title": { "en": "Juniper's Story Lantern — What's the Lesson? (Grade 1)", "de": "Die Lehre einer Fabel erkennen – Klasse 3", "fr": "La lanterne de Juniper — La morale d'une fable (CE1)", "es": "Identificar la moraleja de una fábula – 3.º primaria" },
+    "page_intro": { "en": "By lantern-light, Juniper the hedgehog tells a tiny fable, then asks the big question: what does this story TEACH us? Listen to the tale, then tap the card that tells its lesson — not just something that happened in it, and not a lesson that sounds right but isn't. A warm Grade 1 reading game about finding a story's central message or lesson, aligned to Common Core RL.1.2.", "de": "Dein Kind hört eine kurze Fabel – etwa von Hase und Schildkröte – und tippt bei Junipers Laterne die Karte mit der echten Lehre. Kostenlos und interaktiv, Klasse 3.", "fr": "À la lueur de sa lanterne, Juniper le hérisson raconte une petite fable, puis demande à votre enfant d'en trouver la morale : la vraie leçon de l'histoire, et non un simple détail. En jouant, votre enfant apprend à comprendre le sens d'un récit et à distinguer le message d'une fable d'une phrase qui « sonne bien » mais reste fausse. Gratuit et interactif, à jouer directement dans le navigateur, sans minuteur, sans score et sans compte.", "es": "Actividad gratis en línea de 3.º de primaria: lee una fábula corta, como la liebre y la tortuga, y toca cuál es su moraleja. Sin registro ni calificación." },
     "kid_prompt_template": "juniper-story-lantern"
   }
 ]

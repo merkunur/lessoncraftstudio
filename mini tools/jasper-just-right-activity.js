@@ -22,13 +22,13 @@
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function imgUrl(t) { return '/image-library-webp/themes/' + t.themeDir + '/' + t.noun + '@2x.webp'; }
   function speak(word) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: word, lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(word); u.rate = 0.95; u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: word, lang: (LANG === 'es' ? 'es-MX' : LANG), rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(word); u.rate = 0.95; u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : LANG === 'es' ? 'es-MX' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function jaySVG() {
-    return '<svg class="jjr-jay-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Jasper le geai' : LANG === 'de' ? 'Jasper, der Häher' : 'Jasper the jay') + '">' +
+    return '<svg class="jjr-jay-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Jasper le geai' : LANG === 'de' ? 'Jasper, der Häher' : LANG === 'es' ? 'Jasper el arrendajo' : 'Jasper the jay') + '">' +
       '<path d="M30 80 q-14 -8 -8 -30 q4 -14 16 -12 q-10 12 -4 28 q3 10 6 16 Z" fill="#3B7DD8"/>' +    /* blue tail/wing */
       '<ellipse cx="52" cy="56" rx="20" ry="22" fill="#4F92E8"/>' +                 /* body */
       '<ellipse cx="52" cy="64" rx="12" ry="13" fill="#DCEBFB"/>' +                /* belly */
@@ -43,13 +43,15 @@
     id: 'jasper-just-right-activity',
 
     strings: {
-      title: { en: "Jasper's Just-Right Bag", de: 'Jaspers Genau-richtig-Tasche', fr: 'Jasper le geai' },
-      prompt: { en: 'Which one would you use?', de: 'Welches würdest du benutzen?', fr: 'Qu’est-ce que tu utiliserais ?' },
-      jasperIntro: { en: 'Read what is happening — what would you use?', de: 'Hallo, ich bin Jasper! Lies die Situation und tippe das Bild an, das am besten dazu passt.', fr: 'Coucou, c’est Jasper ! Lis bien la situation, puis tape la bonne image.' },
-      theAsk: { en: 'Tap the picture of what you would use.', de: 'Tippe das Bild von dem an, was du benutzen würdest.', fr: 'Tape l’image de ce que tu utiliserais.' },
-      hintPick: { en: 'Think about what fits — tap a picture, then Check!', de: 'Lies die Situation und überlege: Was würdest du dafür benutzen?', fr: 'Pense à ce qui convient — tape une image, puis Vérifie !' },
-      hintWrong: { en: "That one doesn't quite fit — read it again.", de: 'Das passt noch nicht ganz – lies die Situation noch einmal.', fr: 'Ça ne convient pas tout à fait — relis la situation et réessaie.' },
-      win: { en: 'Yes! That is just right. 🐦', de: 'Ja! Das passt genau richtig. 🐦', fr: 'Oui ! C’est exactement ça. 🐦' }
+      title: { en: "Jasper's Just-Right Bag", de: 'Jaspers Genau-richtig-Tasche', fr: 'Jasper le geai', es: 'La mochila de Jasper' },
+      prompt: { en: 'Which one would you use?', de: 'Welches würdest du benutzen?', fr: 'Qu’est-ce que tu utiliserais ?', es: '¿Cuál usarías?' },
+      jasperIntro: { en: 'Read what is happening — what would you use?', de: 'Hallo, ich bin Jasper! Lies die Situation und tippe das Bild an, das am besten dazu passt.', fr: 'Coucou, c’est Jasper ! Lis bien la situation, puis tape la bonne image.', es: '¡Hola, soy Jasper! Lee la situación y toca la imagen que mejor va con ella.' },
+      theAsk: { en: 'Tap the picture of what you would use.', de: 'Tippe das Bild von dem an, was du benutzen würdest.', fr: 'Tape l’image de ce que tu utiliserais.', es: 'Toca la imagen de lo que usarías.' },
+      hintPick: { en: 'Think about what fits — tap a picture, then Check!', de: 'Lies die Situation und überlege: Was würdest du dafür benutzen?', fr: 'Pense à ce qui convient — tape une image, puis Vérifie !', es: 'Lee la situación y piensa: ¿qué usarías para eso?' },
+      /* es: `win`/`hintWrong` show for ANY round, but the objects span genders (el vaso / la cama /
+         las tijeras) → anchored on the NEUTER demonstrative «eso», which is gender-invariant. */
+      hintWrong: { en: "That one doesn't quite fit — read it again.", de: 'Das passt noch nicht ganz – lies die Situation noch einmal.', fr: 'Ça ne convient pas tout à fait — relis la situation et réessaie.', es: 'Eso no va del todo. Vuelve a leer la situación.' },
+      win: { en: 'Yes! That is just right. 🐦', de: 'Ja! Das passt genau richtig. 🐦', fr: 'Oui ! C’est exactement ça. 🐦', es: '¡Sí! Eso es justo lo que necesitas. 🐦' }
     },
     defaults: {},
 

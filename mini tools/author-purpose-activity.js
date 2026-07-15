@@ -43,6 +43,25 @@
       nInform: 'Cette note donne de vrais faits — elle veut informer.',
       nEntertain: 'Cette note raconte une histoire drôle — elle veut distraire.',
       nInstruct: 'Cette note montre les étapes — cherche « d’abord… ensuite… enfin ».'
+    },
+    /* es-MX. `q` is AGENTLESS by design: (a) «el autor» ×9 rounds is the generic
+       masculine the NEM Igualdad-de-género eje rules out, (b) the conceit is
+       anonymous harbor mail so «el autor» has no referent on screen, and (c) the
+       core states the standard agentlessly ("judge WHY a text was written") — the
+       author-MOVE law binds the BINS (dar/contar/decir), not the question.
+       ⚠ «¿Para qué…?» NOT «¿Por qué…?» — a deliberate divergence from de `Warum` /
+       fr `Pourquoi`, forced by Spanish: ¿Por qué?→Porque… is CAUSE; ¿Para qué?→Para…
+       is PURPOSE, and every bin reads «Para …». Do not "fix" it back.
+       §A.13.54: every agreeing token is anchored to a FIXED noun — `esta`→la nota,
+       `real`→la información, `chistoso`→algo — never to the round's varying subject
+       (el sol / las abejas / Michi). Never rewrite to «Esta nota es chistosa». */
+    es: {
+      q: '¿Para qué se escribió esta nota?',
+      win: '¡Sí! {note}', winNote: '¡Descubriste el propósito de la nota!',
+      hear: '🔊 Escucha',
+      nInform: 'Esta nota da información real — quiere informar.',
+      nEntertain: 'Esta nota cuenta algo chistoso — quiere entretener.',
+      nInstruct: 'Esta nota enseña los pasos — busca «primero… después… al final».'
     }
   };
   var LANG = 'en';
@@ -65,8 +84,8 @@
   var AuthorPurposeActivity = {
     id: 'author-purpose-activity',
     strings: {
-      title: { en: 'The Harbor Post', de: 'Marlows Hafenpost', fr: 'Le courrier du port de Marlow' },
-      instruction: { en: 'Read the note, then send it to the bin that tells WHY the author wrote it!', de: 'Lies die Notiz und tippe an, warum der Autor sie geschrieben hat.', fr: 'Lis la note, puis envoie-la dans la boîte qui dit POURQUOI l’auteur l’a écrite !' },
+      title: { en: 'The Harbor Post', de: 'Marlows Hafenpost', fr: 'Le courrier du port de Marlow', es: 'El correo del puerto de Marlow' },
+      instruction: { en: 'Read the note, then send it to the bin that tells WHY the author wrote it!', de: 'Lies die Notiz und tippe an, warum der Autor sie geschrieben hat.', fr: 'Lis la note, puis envoie-la dans la boîte qui dit POURQUOI l’auteur l’a écrite !', es: 'Lee la nota y toca para qué se escribió.' },
       q: { en: '{q}' }
     },
 
@@ -165,7 +184,10 @@
       /* Hear it */
       var self = this, hear = el('button', 'ap-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
-        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: round.note.text, lang: LANG, rate: 0.92 }); } catch (e) { } }
+        /* es→es-MX: the bare LANG shipped a generic/peninsular voice, and the 🔊 is
+           this activity's only audio (the notes ARE the content). Matches the
+           es-shipped siblings (atlas-fact-files :23, bea-two-bookshelves :20). */
+        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: round.note.text, lang: (LANG === 'es' ? 'es-MX' : LANG), rate: 0.92 }); } catch (e) { } }
       });
       root.appendChild(hear);
 
@@ -225,6 +247,10 @@
         ? '<p>Notiz: ' + round.note.text + ' ' + txt('q') + ' Zur Auswahl: ' + bins + '.</p>'
         : LANG === 'fr'
         ? '<p>Note : ' + round.note.text + ' ' + txt('q') + ' Choix : ' + bins + '.</p>'
+        /* es: no space before the colon (that's a French rule, wrong in Spanish);
+           «Opciones» for fr «Choix» — «Cajas»/«Buzones» would read as furniture. */
+        : LANG === 'es'
+        ? '<p>Nota: ' + round.note.text + ' ' + txt('q') + ' Opciones: ' + bins + '.</p>'
         : '<p>Note: ' + round.note.text + ' ' + txt('q') + ' Bins: ' + bins + '.</p>';
       return wrap;
     },

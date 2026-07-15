@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "juniper-story-lantern.central-message.rl-1-2": {
+      "about": [
+        "Juniper el erizo prende su farolito y cuenta una fábula chiquita: tres renglones, ni uno más. Luego aparecen tres tarjetas y su hijo/a tiene que tocar la que dice la moraleja. Por ejemplo, después de «El viento y el sol discutían para ver quién era más fuerte… y el señor se quitó el abrigo», la respuesta es «Tratar bien consigue más que obligar», no «El viento sopló muy fuerte contra el señor» —que sí pasó en la fábula, pero es sólo un suceso, no la enseñanza.",
+        "Ahí está lo bonito y lo difícil: la moraleja nunca viene escrita en la fábula. Hay que sacarla. Los animales no son nada más animales —la liebre presumida, la hormiga precavida, el pastorcito mentiroso son maneras de ser que su hijo/a reconoce en la gente, y hasta en sí mismo/a. Pasar de «esto fue lo que pasó» a «esto es lo que nos enseña» es un salto de verdad, y es justo el que la escuela le pide en tercero.",
+        "Las tarjetas están hechas para que no se pueda adivinar. Una repite las palabras de la fábula, y es trampa: la que gana no repite casi ninguna. Otra suena bonito pero es falsa. Así que copiar palabras no sirve; hay que entender. La actividad es gratuita, sin cronómetro, sin puntaje y sin cuenta; se juega en el navegador y la fábula se puede volver a leer las veces que haga falta."
+      ],
+      "practices": [
+        "Descubrir la moraleja de una fábula: la enseñanza que deja, aunque no esté escrita",
+        "Distinguir la moraleja de un suceso del cuento: lo que pasó no es lo que enseña",
+        "Darse cuenta de que una moraleja puede sonar bonito y aun así ser falsa",
+        "Entender que en una fábula los animales representan modos de ser de las personas"
+      ],
+      "howToPlay": [
+        "Toquen «Leer la fábula» y escúchenla juntos; son tres renglones, se puede repetir cuantas veces quieran",
+        "Pregúntele a su hijo/a: ¿qué nos enseña esta fábula? ¿Y qué nada más pasó en ella?",
+        "El niño toca la tarjeta de la moraleja; si no le atina, Juniper lo invita a oír la fábula otra vez —no le dice cuál era"
+      ],
+      "learningGoals": [
+        "Su hijo/a identifica la moraleja de una fábula y la distingue de los sucesos del relato",
+        "Sostiene su respuesta en lo que la fábula cuenta, y no en repetir sus palabras",
+        "Conoce la fábula como un tipo de texto que siempre deja una enseñanza"
+      ]
+    },
     "author-purpose.why-wrote.ri-2-6": {
       "about": [
         "Marlow el pelícano reparte el correo del puerto, pero se le revolvieron las notas y ya no sabe en qué buzón va cada una. En cada ronda aparece una nota cortita y su hijo/a decide para qué se escribió: para dar información, para contar algo chistoso o para decir cómo se hace algo. Por ejemplo, ante «Las abejas juntan el néctar dulce de las flores. En el panal lo convierten poco a poco en miel dorada», toca «Para dar información», porque la nota está dando datos de verdad y no está contando ningún cuento.",

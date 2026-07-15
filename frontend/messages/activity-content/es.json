@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "author-purpose.why-wrote.ri-2-6": {
+      "about": [
+        "Marlow el pelícano reparte el correo del puerto, pero se le revolvieron las notas y ya no sabe en qué buzón va cada una. En cada ronda aparece una nota cortita y su hijo/a decide para qué se escribió: para dar información, para contar algo chistoso o para decir cómo se hace algo. Por ejemplo, ante «Las abejas juntan el néctar dulce de las flores. En el panal lo convierten poco a poco en miel dorada», toca «Para dar información», porque la nota está dando datos de verdad y no está contando ningún cuento.",
+        "Atrás de este juego de repartir correo hay una idea que sostiene toda la lectura: nadie escribe por escribir. Todo texto se escribió para algo, y ese «para algo» es el propósito del texto. Su hijo/a aprende a descubrirlo sin que nadie se lo diga, fijándose en cómo está escrita la nota: los datos de verdad avisan que quiere informar; algo imposible y chistoso —unas hojas que aplauden, una luna que guiña el ojo— avisa que quiere entretener; los pasos «primero… después… al final» avisan que quiere enseñar cómo se hace.",
+        "Es el siguiente escalón después de reconocer qué clase de texto es. Un lector de segundo ya sabe si tiene enfrente un cuento o un texto informativo; aquí da un paso más y se pregunta para qué lo escribió quien lo escribió. Esa pregunta lo acompaña el resto de su vida escolar: es la que le permite leer una receta distinto que un cuento, y un cuento distinto que un instructivo. La actividad es gratuita, sin cronómetro, sin puntaje y sin cuenta; se juega en el navegador y cada quien avanza a su ritmo."
+      ],
+      "practices": [
+        "Descubrir para qué se escribió un texto: para informar, para entretener o para instruir",
+        "Reconocer las pistas de una nota que informa: datos de verdad, cosas que sí pasan, nada inventado",
+        "Reconocer las pistas de una nota que entretiene: un personaje con nombre y algo imposible o chistoso",
+        "Reconocer las pistas de una nota que instruye: los pasos en orden, «primero… después… al final»"
+      ],
+      "howToPlay": [
+        "Lean juntos la nota que le llegó a Marlow; si quieren, toquen «Escucha» para oírla en voz alta",
+        "Pregúntele a su hijo/a: ¿esta nota me está dando información, me está contando algo chistoso o me está diciendo cómo se hace algo?",
+        "El niño toca el buzón que corresponde; si no le atina a la primera, Marlow le dice qué quería la nota y puede volver a leerla con calma"
+      ],
+      "learningGoals": [
+        "Su hijo/a identifica el propósito de un texto y lo distingue de otros dos propósitos posibles",
+        "Se apoya en cómo está escrito el texto —los datos, el «¡», las palabras de paso— y no en adivinar",
+        "Entiende que quien escribe siempre escribe con una intención, y que reconocerla ayuda a comprender mejor lo que lee"
+      ]
+    },
     "opposites.antonyms.k-l-5-b": {
       "about": [
         "Quill el erizo atiende un mercado muy raro: todo lo que vende viene en parejas que se dan la espalda. En cada ronda aparece una palabra con su dibujito —negro con su cuadrito de color, arriba con su flecha— y su hijo/a tiene que tocar lo contrario. Suena fácil, pero hay una trampa: junto a la respuesta correcta siempre hay una palabra del mismo tipo que NO es lo contrario. Lo contrario de «negro» es «blanco»; «rojo» también es un color, pero no es lo contrario.",

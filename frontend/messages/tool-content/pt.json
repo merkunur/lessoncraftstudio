@@ -304,6 +304,32 @@
       "Folga que vira leitura livre: com cinco times e quatro cantinhos, o time de folga pega um livro no tapete — descansar também faz parte do rodízio, e o quadro mostra isso sem drama."
     ]
   },
+  "learning-clock": {
+    "slug": "relogio-das-horas",
+    "name": "Relógio das horas",
+    "tagline": "O relógio que fala a hora do jeito que a gente fala",
+    "metaTitle": "Relógio para aprender as horas grátis | LessonCraftStudio",
+    "metaDescription": "Relógio pedagógico online e grátis: arraste os ponteiros e ouça a hora como a gente fala — “quinze para as oito”. Sem login, em qualquer aparelho.",
+    "about": [
+      "Aprender a ver as horas são duas coisas ao mesmo tempo: entender os ponteiros e entender o jeito que a gente fala. No relógio, o ponteiro grande aponta para o 9 — mas em casa ninguém diz “oito e quarenta e cinco”: a gente diz “quinze para as nove”. Este relógio das horas junta as duas partes: a criança arrasta os ponteiros e o relógio fala a hora em voz alta, do jeito que os brasileiros falam de verdade.",
+      "Os ponteiros são engrenados como num relógio de verdade: quando o ponteiro comprido dá a volta, o curto caminha devagar para a próxima hora — a criança vê por que às sete e meia o ponteiro das horas fica no meio do caminho entre o 7 e o 8. O botão “Por que falamos assim?” abre a explicação: nas horas cheias contamos a partir da hora, e perto da hora seguinte contamos para ela — “quinze para as oito”. Ao meio-dia, o relógio fala “meio-dia”, como qualquer pessoa falaria.",
+      "Funciona direto no navegador, na lousa digital, no tablet ou no computador da sala — sem instalar nada e sem criar conta. Não há cronômetro e não há pontuação: é um espaço calmo para girar os ponteiros, ouvir, errar e tentar de novo."
+    ],
+    "howToUse": [
+      "Mostre o relógio na lousa digital, arraste os ponteiros e deixe a turma ouvir o relógio falar a hora — comece pelas horas que as crianças conhecem: a hora do lanche, a hora da saída.",
+      "Comece com passos de hora e de meia hora; quando a turma estiver segura, avance para os quartos de hora e depois para os minutos.",
+      "Toque em “Por que falamos assim?” quando aparecer um “quinze para as oito” — é aí que a leitura do relógio vira linguagem de verdade.",
+      "No modo Praticar, a criança marca a hora pedida e confere sozinha — sem pontos e sem pressa; a dica lembra que o ponteiro curto marca a hora e o comprido, os minutos.",
+      "Ligue o mostrador digital para ligar o relógio de ponteiros ao horário digital de 12 e de 24 horas que as crianças veem no celular e no micro-ondas."
+    ],
+    "classroomIdeas": [
+      "Salve os horários da turma — entrada, lanche, almoço, saída — e peça que cada criança marque um deles no relógio na hora certa do dia.",
+      "Rotina viva: a cada transição do dia, uma criança é a ajudante do relógio e marca a hora da próxima atividade para a turma conferir.",
+      "Use o modo Quanto tempo? para medir quanto durou o recreio ou a leitura em voz alta — as crianças fixam o início, fixam o fim e leem a duração juntas.",
+      "Detetive das horas: uma criança marca uma hora em segredo e dá pistas — “é depois do almoço, o ponteiro comprido está no 6” — até a turma descobrir.",
+      "Toque no sol e na lua e converse sobre manhã e noite: o que a gente faz às sete da manhã? E às sete da noite? O mostrador de 24 horas ajuda os maiores a ver a diferença."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

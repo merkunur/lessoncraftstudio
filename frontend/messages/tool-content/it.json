@@ -304,6 +304,32 @@
       "Anche per i più piccoli: alla scuola dell’infanzia bastano le carte con gli animali — la squadra Coniglio vede il suo coniglietto scivolare verso le Costruzioni e sa da sola dove andare."
     ]
   },
+  "learning-clock": {
+    "slug": "orologio-didattico",
+    "name": "Orologio didattico",
+    "tagline": "Trascina le lancette e ascolta l’ora come la diciamo davvero",
+    "metaTitle": "Orologio per imparare a leggere l’ora | LessonCraftStudio",
+    "metaDescription": "Orologio didattico online e gratuito: i bambini trascinano le lancette e l’orologio dice l’ora come la diciamo davvero. Senza login, su LIM e tablet.",
+    "about": [
+      "Leggere l’orologio è una delle conquiste più concrete della primaria, e questo orologio didattico interattivo e gratuito la rende visibile e udibile. Le lancette sono ingranate come in un orologio vero: quando la lancetta lunga dei minuti fa il suo giro, quella corta delle ore avanza piano piano. E a ogni fermata l’orologio dice l’ora ad alta voce, non come la leggerebbe una macchina ma come la diciamo davvero: «le sette e mezza», «le otto meno un quarto», «mezzogiorno e venticinque».",
+      "È proprio qui che i bambini inciampano: alle 7:45 sul display c’è un sette, ma la voce dice «le otto meno un quarto» — l’ora che ancora non è arrivata. Il quarto, la mezza, il «meno»: sono modi di dire che vanno ascoltati tante volte accanto alle lancette che li mostrano. Il percorso cresce a passi — prima le ore e le mezz’ore, poi i quarti d’ora, i cinque minuti e il minuto — mentre il sole e la luna aprono il discorso su mattina e sera e il display digitale, in formato 12 o 24 ore, costruisce il ponte tra il quadrante, le cifre e le parole, come chiedono i traguardi di matematica delle Indicazioni nazionali sul tempo e la sua misura.",
+      "Funziona direttamente nel browser su LIM, tablet e computer della classe, senza nulla da installare e senza dover creare un account. Non c’è nessun timer e nessun punteggio: solo un orologio calmo che si lascia girare le lancette e dice l’ora con la voce di tutti i giorni."
+    ],
+    "howToUse": [
+      "Proietta l’orologio sulla LIM e lascia che i bambini trascinino le lancette: sono ingranate come in un orologio vero, così si vede la lancetta corta muoversi piano mentre passano i minuti.",
+      "Inizia con il passo delle ore e delle mezz’ore, poi apri i quarti d’ora, i cinque minuti e il minuto quando la classe è pronta: l’orologio si ferma solo sulle ore che i bambini sanno già dire.",
+      "Tocca «Di’ l’ora» per far parlare l’orologio, e «Perché si dice così?» quando un modo di dire sorprende: la spiegazione mostra da dove nasce il «meno un quarto».",
+      "Passa alla modalità Esercizi: l’orologio chiede un’ora a parole — «Fai segnare le otto meno un quarto all’orologio» — e il bambino la costruisce con le lancette, poi controlla.",
+      "Con «Quanto tempo?» fissa un inizio e una fine e leggete insieme quanto è passato; in «I nostri orari» salva i momenti della vostra giornata di classe, dalla ricreazione all’uscita."
+    ],
+    "classroomIdeas": [
+      "Il rituale del mattino: ogni giorno un bambino diverso mette l’orologio sull’ora d’inizio della lezione e la annuncia alla classe — prima con le parole sue, poi con la voce dell’orologio a confermare.",
+      "Gli orari della nostra classe: salvate insieme la ricreazione, la mensa e l’uscita, e durante la giornata chiedete «quanto manca?» — la modalità «Quanto tempo?» lo mostra a salti di lancetta.",
+      "Il gioco del meno: scrivi 7:45 alla lavagna e chiedi come si dice; poi accendi il display digitale accanto al quadrante e fate scoprire che «le otto meno un quarto» e 7:45 sono la stessa ora vestita in due modi.",
+      "Detto e fatto, a coppie: un bambino dice un’ora a voce alta, il compagno la costruisce sull’orologio del tablet, poi «Di’ l’ora» fa da arbitro — se la voce ripete l’ora detta, punto alla coppia.",
+      "Mezzogiorno e mezzanotte: alle 12 in punto toccate il sole e fatelo diventare luna — che ora sarebbe adesso? È l’occasione per parlare di mezzogiorno, mezzanotte e del giro doppio delle lancette in un giorno intero."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

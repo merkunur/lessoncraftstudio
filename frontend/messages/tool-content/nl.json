@@ -252,6 +252,32 @@
       "Praten met je maatje: twee minuten over het prentenboek of de som van de dag; bij 'nog één minuut' weten maatjes dat ze samen mogen afronden."
     ]
   },
+  "name-sticks": {
+    "slug": "beurtenstokjes",
+    "name": "Beurtenstokjes",
+    "tagline": "Iedereen eerlijk aan de beurt",
+    "metaTitle": "Beurtenstokjes: willekeurige naam kiezen | LessonCraftStudio",
+    "metaDescription": "Gratis online beurtenstokjes: trek een stokje en de naam verschijnt groot in beeld. Iedereen komt eerlijk aan de beurt. Werkt op het digibord, zonder account.",
+    "about": [
+      "Wie mag de kalender doen? Wie mag antwoorden? Met deze digitale beurtenstokjes wordt kiezen eerlijk én zichtbaar. Je klassenlijst verandert in een pot vol getekende stokjes met namen. Trek een stokje: het rammelt even, en dan verschijnt de naam groot in beeld. Getrokken stokjes verdwijnen niet stiekem — ze wachten in een beker die de hele klas kan zien. Pas als de pot leeg is en iedereen aan de beurt is geweest, kieper je alles terug. Zo ziet de groep met eigen ogen dat niemand wordt overgeslagen en niemand steeds opnieuw aan de beurt komt. Geen discussie meer over \"juf, hij mocht al!\"",
+      "Zet het geluid aan en de naam wordt ook hardop gezegd — fijn op het digibord, want de hele klas hoort meteen wie er aan de beurt is. Wordt een naam steeds verkeerd uitgesproken? Typ bij die naam onder \"Spreek uit als…\" precies hoe het moet klinken, en vanaf dan zegt de tool het goed. Is een kind vandaag ziek of naar de logopedist? Eén tik op \"Vandaag afwezig\" en het stokje wacht netjes aan de kant, zonder dat je lijst kwijtraakt. En trok je een naam net op het verkeerde moment? Met \"Terug in de pot\" krijgt dat kind later gewoon opnieuw een kans.",
+      "Groepjes maken kan ook: schud de pot en de stokjes vallen vanzelf in twee tot zes bekers — team Vos, team Schildpad, team Bij. Zonder gedoe, zonder tranen over wie bij wie zit. Je klassenlijst plak je er in één keer in, één naam per regel, en met Premium bewaar je meerdere klassen tegelijk. Belangrijk om te weten: alle namen blijven alleen op jouw apparaat en worden nooit ergens naartoe gestuurd — precies zoals je dat met gegevens van kinderen wilt. En zoals altijd bij onze klastools: geen timer, geen scores, geen wedstrijdje. Gewoon een rustige, eerlijke helper voor elke schooldag."
+    ],
+    "howToUse": [
+      "Tik op \"Mijn klassen\", plak je klassenlijst (één naam per regel) en tik op \"Namen toevoegen\" — de pot vult zich vanzelf met stokjes.",
+      "Trek een stokje op het digibord: de naam verschijnt groot in beeld en wordt hardop gezegd als het geluid aanstaat.",
+      "Getrokken namen wachten zichtbaar in de beker; is de pot leeg, dan kieper je alles terug voor een nieuwe ronde.",
+      "Zet zieke kinderen op \"Vandaag afwezig\" en gebruik \"Terug in de pot\" als een beurt nu even niet uitkomt.",
+      "Wissel naar \"Groepjes\" en schud de klas in twee tot zes dierenteams voor hoekenwerk, spelletjes of samenwerkopdrachten."
+    ],
+    "classroomIdeas": [
+      "Kringgesprek op maandag: trek een stokje voor wie mag vertellen over het weekend — zet de stille denktijd aan, zodat iedereen alvast nadenkt vóór de naam verschijnt.",
+      "Verdeel de klassentaakjes eerlijk: planten water geven, de rij sluiten, het licht uitdoen — de beker laat de hele week zien wie al een taakje heeft gehad.",
+      "Stel eerst de vraag, laat iedereen even denken en trek dán pas een naam: zo blijft de hele groep meedenken in plaats van alleen de snelle vingers.",
+      "Maak groepjes voor rekenspellen of hoekenwerk met één schud-beweging — geen discussie over wie bij wie zit, de pot beslist.",
+      "Wie mag vooraan in de rij naar de gymzaal? Trek bij elk loopmoment een stokje en de eeuwige voorkruipdiscussie is voorbij."
+    ]
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

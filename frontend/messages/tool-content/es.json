@@ -252,6 +252,32 @@
       "Platicamos en pareja con tiempo parejo: 2 minutos por turno; cuando suena la campanita, cambia quién habla y quién escucha — el temporizador reparte la palabra, no la maestra."
     ]
   },
+  "name-sticks": {
+    "slug": "palitos-con-nombre",
+    "name": "Palitos con nombre",
+    "tagline": "El frasco de palitos del salón: nombres al azar con turnos justos que todo el grupo puede ver",
+    "metaTitle": "Sacar nombres al azar en el salón gratis | LessonCraftStudio",
+    "metaDescription": "Frasco de palitos con nombres para el salón: saca nombres al azar, turnos justos a la vista y equipos aleatorios. Gratis, sin registro y sin enviar nombres.",
+    "about": [
+      "En casi todo salón de México hay un frasco con palitos de paleta que llevan los nombres del grupo — esta es esa misma tradición, lista para proyectar. Cada nombre se vuelve un palito ilustrado; tocas el frasco, suena el traqueteo de la madera y un nombre sale en grande. Y aquí está el detalle que lo cambia todo: los palitos que ya salieron no desaparecen — descansan en un vaso que todo el grupo puede ver. Nadie pasa dos veces hasta que el frasco se vacía, y los niños lo comprueban con sus propios ojos. Se acabó el «siempre pasan los mismos»: la justicia del turno deja de ser una promesa y se convierte en algo que se mira.",
+      "Al sacar un palito, el nombre aparece en grande y la herramienta lo dice en voz alta — y si el nombre de un niño no suena como se escribe, tú le enseñas cómo: escribe «se pronuncia…» una sola vez y, de ahí en adelante, su nombre saldrá dicho como se dice en su casa. ¿Un niño faltó? Pasa su palito a «Hoy no vino»: espera aparte y regresa al frasco en cuanto el niño vuelve. ¿Salió un nombre en mal momento? «De vuelta al frasco» lo regresa sin quemarle el turno. Y con el tiempo para pensar antes del nombre, todo el grupo trabaja la pregunta — porque cualquiera podría ser quien salga.",
+      "El modo de equipos convierte el mismo frasco en la manera más tranquila de formar equipos: agita y los palitos se reparten solos en dos a seis vasos con animales — Equipo Zorro, Equipo Tortuga, Equipo Abeja… — sin discusiones y sin que nadie quede al final esperando a que lo escojan. Guarda tus grupos (2.º A, el taller de los martes) y cada mañana el frasco queda listo con un toque. Y la promesa que más importa con nombres de niños: se guardan solo en este dispositivo — nunca se envían a ningún lado, ni a nuestros servidores ni a nadie. Sin puntos, sin estrellas y sin competencia: aquí lo único que se reparte es la palabra."
+    ],
+    "howToUse": [
+      "Pega tu lista del grupo — un nombre por línea — y los palitos se dibujan solos dentro del frasco.",
+      "Toca Sacar un palito: suena la madera, el nombre aparece en grande y, si quieres, la voz lo dice.",
+      "El palito que salió descansa en el vaso, a la vista de todos — nadie repite hasta que el frasco se vacía y lo vuelves a llenar.",
+      "¿Alguien faltó? Pasa su palito a «Hoy no vino»; cuando regrese, tócalo y vuelve al frasco sin perder su lugar.",
+      "Para formar equipos, cambia a Equipos, elige de 2 a 6 vasos con animales y agita — los palitos se reparten solos."
+    ],
+    "classroomIdeas": [
+      "Participación pareja: en vez de manos levantadas, haz la pregunta, da el tiempo para pensar y saca un palito — los niños callados también son escuchados, y como cualquiera puede salir, todos preparan su respuesta.",
+      "Encargados de la semana: cada lunes saca palitos para repartir las comisiones — borrar el pizarrón, repartir material, regar las plantas, pasar lista — y el vaso demuestra que a todos les toca antes de repetir.",
+      "Lectura en voz alta por turnos: durante el cuento, saca un palito para el siguiente párrafo; el frasco decide y nadie discute a quién le toca leer.",
+      "Rincones sin pleito: agita el frasco en modo Equipos para repartir al grupo en las estaciones del día; con los grupos guardados, los equipos del proyecto duran toda la semana.",
+      "El orden de las exposiciones: cuando toque presentar trabajos, saca los palitos uno por uno para armar el orden de pase — justo, visible y sin que nadie quede «al último otra vez»."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

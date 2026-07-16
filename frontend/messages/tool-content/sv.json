@@ -252,6 +252,32 @@
       "Bikupa med tydlig ram: två minuter på Prata med grannen efter en fråga i samlingen — den korta, synliga tiden gör att även de tysta vågar, för alla vet att stunden tar slut snart."
     ]
   },
+  "name-sticks": {
+    "slug": "namnpinnar",
+    "name": "Namnpinnar",
+    "tagline": "Hela klassen i en burk — dra en pinne och alla får sin tur",
+    "metaTitle": "Namnpinnar – slumpa namn och grupper | LessonCraftStudio",
+    "metaDescription": "Gratis namnpinnar för klassrummet: dra en pinne ur burken, namnet visas stort och sägs högt — och alla får sin tur. Skaka fram lag — namnen stannar på enheten.",
+    "about": [
+      "Namnpinnar är den digitala versionen av burken med glasspinnar som redan står på många lärarbord: varje barn i klassen blir en illustrerad pinne i en burk på tavlan. Tryck på Dra en pinne — burken skramlar som riktigt trä, pinnen åker upp och namnet visas stort och tydligt för hela klassen. Det fina är vad som händer sedan: dragna pinnar vilar i en mugg som alla kan se, och de åker inte tillbaka förrän burken är tom. Rättvisan blir synlig — ingen kan säga att samma barn alltid får svara, för hela klassen ser med egna ögon att alla får sin tur. Inga poäng, ingen tävling, bara en turordning som känns rätt.",
+      "När pinnen dras kan namnet också sägas högt med vänlig röst — och det ska låta rätt. I rutan Uttalas som… skriver du hur varje namn faktiskt låter, så att Chloe, Nguyen och Joaquín sägs som hemma och inte som datorn gissar. Det gör mer än man tror: att höra sitt namn uttalas rätt inför klassen är ett litet kvitto på att man hör till. Slå på en stunds tyst tänketid före namnet, så hinner alla fundera på frågan innan någon vet vem som ska svara. Är ett barn sjukt lägger du pinnen i facket Borta i dag, och passar det inte just nu åker den Tillbaka i burken — utan att turordningen går sönder.",
+      "Behöver du grupper i stället för ett namn i taget byter du till Lag: välj två till sex muggar — Rävlaget, Ugglelaget, Kaninlaget och de andra — och skaka fram lagen med ett tryck. Slumpen delar in klassen, inte du, och det brukar ta udden av både suckar och önskelistor. Under Mina klasser sparar du flera klasslistor och byter mellan dem på sekunder; gratis listor räcker dagen ut, med Premium finns de kvar. Och det viktigaste till sist: namnen sparas bara på den här enheten och skickas aldrig någonstans — ingen server, inget konto, inget att fundera på inför GDPR. Verktyget finns på elva språk, och att dra pinnar är alltid gratis."
+    ],
+    "howToUse": [
+      "Klistra in din klasslista — ett namn per rad — så blir varje namn en illustrerad pinne i burken.",
+      "Tryck på Dra en pinne: burken skramlar, namnet visas stort på tavlan och sägs högt om du vill — skriv in Uttalas som… för namn som datorn annars säger fel.",
+      "Låt dragna pinnar vila i muggen — klassen ser själv vilka som redan har fått sin tur, och när burken är tom har alla varit med.",
+      "Markera den som är hemma med Borta i dag, och lägg tillbaka en pinne med Tillbaka i burken om det inte passade just då — Ångra finns alltid.",
+      "Byt till Lag och skaka fram två till sex lag med ett tryck — och spara klassen under Mina klasser så står burken redo i morgon."
+    ],
+    "classroomIdeas": [
+      "Frågerundor utan handuppräckning: ställ frågan, slå på tänketiden och dra en pinne — alla tänker, för ingen vet vems namn som kommer, och muggen visar att alla får chansen.",
+      "Veckans hjälpredor: dra pinnar för matvärd, blomvattnare och ljussläckare — när klassen ser muggen fyllas försvinner allt tjat om vems tur det är.",
+      "Läspar och bänkkompisar: skaka fram lag om två, så bestämmer slumpen paren i stället för kompistrycket — nya par varje vecka utan suckar.",
+      "Samlingens berättare: dra en pinne på fredagen för veckans berättelse eller helgens nyhet — burken kommer ihåg vilka som redan berättat, även om du glömmer.",
+      "Stationsgrupper på sekunder: skaka fram fyra lag inför stationsarbetet och låt djurmuggarna vara stationsnamnen — Rävlaget börjar vid läshörnan."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

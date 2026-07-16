@@ -252,6 +252,32 @@
       "Prepariamo lo zaino con calma: salva «Zaino — 7 minuti» in «I miei timer» e a fine giornata basta un tocco; il suono all'ultimo minuto ricorda che è quasi ora, senza fretta e senza allarmi."
     ]
   },
+  "name-sticks": {
+    "slug": "bastoncini-dei-nomi",
+    "name": "Bastoncini dei nomi",
+    "tagline": "Pesca un nome a caso, con turni giusti per tutti",
+    "metaTitle": "Bastoncini dei nomi: estrai nomi a caso | LessonCraftStudio",
+    "metaDescription": "Pesca un nome a caso dal barattolo della classe: turni giusti e visibili, nomi letti ad alta voce e squadre casuali. Tutto resta sul dispositivo, senza login.",
+    "about": [
+      "Chi non è ancora stato chiamato? Con i bastoncini dei nomi la risposta è sotto gli occhi di tutti. L’elenco della classe diventa un barattolo di bastoncini illustrati: ne peschi uno, il legnetto tintinna e il nome appare grande sullo schermo. Il bastoncino pescato non sparisce: si posa in un bicchiere ben visibile accanto al barattolo e ci resta finché il barattolo non si svuota. Così nessuno può essere chiamato due volte prima che sia toccato a tutti — e sono i bambini stessi a vederlo: la giustizia dei turni non è una promessa della maestra, è lì, in bella vista.",
+      "Quando il bastoncino esce, il nome può anche essere pronunciato ad alta voce: un piccolo momento di attesa che fa alzare la testa a tutta la classe. E se la voce inciampa su un nome, accanto a ogni bambino c’è un campo “Si pronuncia…”: scrivi il nome come si legge e da quel momento verrà detto bene, ogni volta — un dettaglio che conta molto nelle classi dove i nomi arrivano da tante lingue. Chi manca si sposta nel vassoio degli assenti con un tocco, senza uscire dall’elenco; e se un bambino chiamato non è pronto, “Torna nel barattolo” rimette il suo bastoncino tra gli altri senza fargli perdere il turno.",
+      "Serve dividere la classe? Passa alle squadre: scuoti il barattolo e i bastoncini cadono da soli in due, tre… fino a sei bicchieri con gli animali — Squadra Volpe, Squadra Tartaruga, Squadra Ape — gruppi casuali pronti in un attimo, senza discussioni. Con Premium le tue classi restano salvate sul dispositivo, pronte per domani mattina. E una promessa semplice: i nomi dei bambini restano solo su questo dispositivo e non vengono mai inviati da nessuna parte. Funziona nel browser su LIM, tablet e computer, senza registrazione; non ci sono punteggi né timer, solo turni giusti che si vedono."
+    ],
+    "howToUse": [
+      "Apri “Le mie classi”, incolla l’elenco della classe — un nome per riga — e i bastoncini si preparano da soli.",
+      "Proietta il barattolo sulla LIM e tocca “Pesca un bastoncino”: il legnetto tintinna e il nome appare grande davanti a tutti.",
+      "Lascia il bicchiere in vista: i nomi già pescati riposano lì, così la classe vede con i propri occhi che i turni sono davvero giusti.",
+      "Prima di iniziare segna chi manca con “Assente oggi”, così nel barattolo restano solo i bambini presenti.",
+      "Quando il barattolo si svuota, versali di nuovo dentro e ricomincia — oppure passa alle squadre e scuoti il barattolo per formare i gruppi."
+    ],
+    "classroomIdeas": [
+      "Chi risponde? Pesca un bastoncino invece di scegliere tra le mani alzate: con il tempo prendono la parola anche i bambini che non si propongono mai.",
+      "Incarichi della settimana: pesca i nomi per assegnare i compiti di classe — chi bagna le piante, chi consegna i quaderni — senza discussioni.",
+      "Coppie di lettura: pesca due bastoncini alla volta e forma le coppie del giorno, ogni giorno diverse.",
+      "Attiva il tempo per pensare: fai la domanda, lascia qualche secondo di silenzio a tutta la classe e solo dopo pesca il nome — così riflettono tutti, non solo chi viene chiamato.",
+      "Giornata delle squadre: scuoti il barattolo in quattro squadre con gli animali per i giochi in palestra o i lavori di gruppo — i gruppi cambiano ogni volta e nessuno resta sempre con gli stessi compagni."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

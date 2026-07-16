@@ -1,0 +1,178 @@
+#!/usr/bin/env node
+/* =====================================================================
+   verify-place-value-lab.js — THE GATE for Place Value Lab
+   (mini tools/place-value-lab.js). MEASURED invariants (fix the data,
+   never the gate):
+     1. SPAN BYTE-EQUALITY: PV_WORD_SPANS[loc](n) texts concatenate
+        BYTE-EQUAL to the spliced NUM_WORDS_HELPERS[loc](n,'cardinal')
+        for n = 0..999 × 11 locales (11,000 asserts) — the moat's
+        regression net against the protected core's composers.
+     2. PART HYGIENE: every part ∈ {hundreds,tens,ones,joiner,teen,
+        mixed}; joiners are never empty-adjacent artifacts; 'mixed'
+        appears ONLY inside each locale's MIXED_RANGES (fr 70-99),
+        and every n in a mixed range HAS a mixed span in its sub-99
+        tail. Non-mixed 21-99 (o≠0) must carry BOTH a tens and a ones
+        span (the highlight can always point at both parts).
+     3. SPLICE FIDELITY: NUM_WORDS_HELPERS output equals the LIVE
+        place-value-core.js _NUMBER_WORD_HELPERS output for a 60-value
+        stratified sample × 11 (the splice never drifts from the core).
+     4. ENGINE INVARIANTS (pure, DOM-free): auto-snap keeps committed
+        ones ≤ 9 under a 500-op fuzz; makeTen only when ones ≥ 10;
+        breakTen only when tens ≥ 1; value() ≡ 100h+10t+o after every
+        mutation; subtract grader rejects a correct difference reached
+        WITHOUT the break and accepts it WITH.
+     5. STRINGS ×11 complete; {n}/{a}/{b}/{c}/{word} placeholders
+        survive; no "Common Core".
+   Exit 1 on any ERROR.
+   ===================================================================== */
+'use strict';
+const fs = require('fs');
+const path = require('path');
+const vm = require('vm');
+
+const LOCALES = ['en', 'de', 'fr', 'it', 'es', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
+const PARTS = ['hundreds', 'tens', 'ones', 'joiner', 'teen', 'mixed'];
+const errors = [];
+const E = (m) => errors.push(m);
+
+function load(file, name) {
+  const sb = { window: {}, document: { createElement: () => ({ style: {} }), head: { appendChild: () => {} }, addEventListener: () => {} }, navigator: {}, location: { search: '' }, localStorage: { getItem: () => null, setItem: () => {} }, sessionStorage: { getItem: () => null, setItem: () => {} } };
+  sb.global = sb;
+  vm.createContext(sb);
+  vm.runInContext(fs.readFileSync(file, 'utf8'), sb);
+  return sb[name] || sb.window[name];
+}
+
+let tool, core;
+try {
+  tool = load(path.join(__dirname, '..', 'mini tools', 'place-value-lab.js'), 'PlaceValueLab');
+  core = load(path.join(__dirname, '..', 'mini tools', 'place-value-core.js'), 'PlaceValueCore');
+} catch (e) { console.log('FAIL  eval: ' + e.message); process.exit(1); }
+if (!tool || !tool.PV_WORD_SPANS) { console.log('FAIL  PlaceValueLab.PV_WORD_SPANS not found'); process.exit(1); }
+
+/* ---- 1 + 2. span byte-equality + part hygiene, 0-999 × 11 ---- */
+let spanAsserts = 0;
+for (const L of LOCALES) {
+  const helper = tool.NUM_WORDS_HELPERS[L];
+  const spansFn = tool.PV_WORD_SPANS[L];
+  const mixedRange = tool.MIXED_RANGES[L] || null;
+  if (!helper) { E(`${L}: helper missing`); continue; }
+  if (!spansFn) { E(`${L}: span composer missing`); continue; }
+  for (let n = 0; n <= 999; n++) {
+    const want = helper(n, 'cardinal');
+    const spans = spansFn(n);
+    const got = spans.map((s) => s.t).join('');
+    if (got !== want) { if (spanAsserts < 12000) E(`SPAN ${L} ${n}: "${got}" ≠ "${want}"`); spanAsserts++; continue; }
+    spanAsserts++;
+    let hasMixed = false, nTens = 0, nOnes = 0, nHund = 0;
+    for (const s of spans) {
+      if (PARTS.indexOf(s.p) < 0) E(`PART ${L} ${n}: illegal part "${s.p}"`);
+      if (!s.t) E(`PART ${L} ${n}: empty span text`);
+      if (s.p === 'mixed') hasMixed = true;
+      if (s.p === 'tens') nTens++;
+      if (s.p === 'ones') nOnes++;
+      if (s.p === 'hundreds') nHund++;
+    }
+    /* a number names each place at most once — a duplicated content
+       part is a mislabeled joiner */
+    if (nTens > 1 || nOnes > 1 || nHund > 1) E(`DUP ${L} ${n}: parts tens×${nTens} ones×${nOnes} hundreds×${nHund}`);
+    const hasTens = nTens > 0, hasOnes = nOnes > 0;
+    const sub = n % 100;
+    const inMixed = mixedRange && sub >= mixedRange[0] && sub <= mixedRange[1];
+    if (hasMixed && !inMixed) E(`MIXED ${L} ${n}: mixed span outside MIXED_RANGES`);
+    if (inMixed && !hasMixed) E(`MIXED ${L} ${n}: in mixed range but no mixed span`);
+    /* the highlight can always point at both parts on a clean split */
+    if (!inMixed && sub >= 21 && sub <= 99 && sub % 10 !== 0) {
+      if (!hasTens || !hasOnes) E(`SPLIT ${L} ${n}: missing tens/ones span (${hasTens}/${hasOnes})`);
+    }
+  }
+}
+
+/* ---- 3. splice fidelity vs the LIVE core ---- */
+let spliceAsserts = 0;
+if (core && core._NUMBER_WORD_HELPERS) {
+  const sample = [];
+  for (let n = 0; n <= 20; n++) sample.push(n);
+  [24, 31, 47, 55, 68, 71, 72, 80, 81, 89, 90, 97, 99, 100, 101, 110, 121, 147, 200, 215, 247, 305, 380, 382, 420, 500, 583, 700, 771, 883, 906, 909, 990, 999].forEach((n) => sample.push(n));
+  for (const L of LOCALES) {
+    for (const n of sample) {
+      for (const mode of ['cardinal', 'attributive', 'attributive-fem']) {
+        const a = tool.NUM_WORDS_HELPERS[L](n, mode);
+        const b = core._NUMBER_WORD_HELPERS[L](n, mode);
+        if (a !== b) E(`SPLICE ${L} ${n} ${mode}: "${a}" ≠ core "${b}"`);
+        spliceAsserts++;
+      }
+    }
+  }
+} else E('core _NUMBER_WORD_HELPERS unreadable — splice fidelity unverified');
+
+/* ---- 4. engine invariants (pure) ---- */
+let engineAsserts = 0;
+if (typeof tool.engineNew === 'function') {
+  /* auto-mode fuzz: committed ones ≤ 9 always */
+  let st = tool.engineNew({ bundle: 'auto', maxPlaces: 3 });
+  let seed = 42;
+  const rnd = () => { seed = (seed * 1103515245 + 12345) & 0x7fffffff; return seed / 0x7fffffff; };
+  for (let i = 0; i < 500; i++) {
+    const op = Math.floor(rnd() * 6);
+    if (op === 0) tool.engineAddOne(st);
+    else if (op === 1) tool.engineAddTen(st);
+    else if (op === 2) tool.engineAddHundred(st);
+    else if (op === 3) tool.engineRemove(st, 'ones');
+    else if (op === 4) tool.engineRemove(st, 'tens');
+    else tool.engineRemove(st, 'hundreds');
+    if (st.bundleMode === 'auto' && st.o > 9) { E(`FUZZ auto op${i}: ones=${st.o} > 9`); break; }
+    if (st.h < 0 || st.t < 0 || st.o < 0) { E(`FUZZ op${i}: negative count`); break; }
+    if (tool.engineValue(st) !== st.h * 100 + st.t * 10 + st.o) { E(`FUZZ op${i}: value mismatch`); break; }
+    engineAsserts++;
+  }
+  /* invited mode: 10th one sits at 10; makeTen canonicalizes */
+  st = tool.engineNew({ bundle: 'invited', maxPlaces: 2 });
+  for (let i = 0; i < 10; i++) tool.engineAddOne(st);
+  if (st.o !== 10 || st.t !== 0) E(`INVITED: after 10 adds o=${st.o} t=${st.t} (want 10/0)`);
+  if (!tool.engineCanMakeTen(st)) E('INVITED: canMakeTen false at o=10');
+  tool.engineMakeTen(st);
+  if (st.o !== 0 || st.t !== 1) E(`INVITED: after makeTen o=${st.o} t=${st.t} (want 0/1)`);
+  if (tool.engineCanMakeTen(st)) E('INVITED: canMakeTen true at o=0');
+  /* preconditions */
+  st = tool.engineNew({ bundle: 'invited', maxPlaces: 2 });
+  tool.engineMakeTen(st);
+  if (st.t !== 0) E('makeTen fired with ones<10');
+  tool.engineBreakTen(st);
+  if (st.o !== 0) E('breakTen fired with tens<1');
+  tool.engineAddTen(st);
+  tool.engineBreakTen(st);
+  if (st.t !== 0 || st.o !== 10) E(`breakTen: t=${st.t} o=${st.o} (want 0/10)`);
+  engineAsserts += 8;
+  /* subtract grader: the break is load-bearing */
+  if (typeof tool.gradeSubtract === 'function') {
+    /* 42−17: reached WITHOUT a break (teacher typed 25 directly) → rejected */
+    const noBreak = { h: 0, t: 2, o: 5, _decomposed: false };
+    if (tool.gradeSubtract(noBreak, 42, 17)) E('gradeSubtract accepts the no-break path');
+    const withBreak = { h: 0, t: 2, o: 5, _decomposed: true };
+    if (!tool.gradeSubtract(withBreak, 42, 17)) E('gradeSubtract rejects the correct break path');
+    const wrong = { h: 0, t: 3, o: 5, _decomposed: true };
+    if (tool.gradeSubtract(wrong, 42, 17)) E('gradeSubtract accepts a wrong difference');
+    engineAsserts += 3;
+  } else E('gradeSubtract missing');
+} else E('engine fns missing (engineNew/engineAddOne/...)');
+
+/* ---- 5. strings hygiene ---- */
+const S = tool.strings;
+for (const key of Object.keys(S)) {
+  for (const L of LOCALES) {
+    const v = S[key][L];
+    if (typeof v !== 'string' || !v.trim()) E(`${key}.${L}: missing/empty`);
+    else if (v.includes('Common Core')) E(`${key}.${L}: mentions Common Core`);
+  }
+}
+for (const L of LOCALES) {
+  for (const [k, ph] of [['showPrompt', '{n}'], ['showNice', '{n}'], ['showNice', '{word}'], ['showMiss', '{n}'], ['showMiss', '{word}'], ['subPrompt', '{a}'], ['subPrompt', '{b}'], ['subDone', '{c}']]) {
+    if (S[k] && S[k][L] && !S[k][L].includes(ph)) E(`${k}.${L}: ${ph} missing`);
+  }
+}
+
+console.log(`${errors.length ? 'FAIL' : 'PASS'}  place-value-lab gate  (${spanAsserts} span, ${spliceAsserts} splice, ${engineAsserts} engine asserts, ${errors.length} errors)`);
+for (const e of errors.slice(0, 20)) console.log('   ERROR ' + e);
+if (errors.length > 20) console.log(`   … +${errors.length - 20} more`);
+process.exit(errors.length ? 1 : 0);

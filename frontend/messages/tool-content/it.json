@@ -330,6 +330,32 @@
       "Mezzogiorno e mezzanotte: alle 12 in punto toccate il sole e fatelo diventare luna — che ora sarebbe adesso? È l’occasione per parlare di mezzogiorno, mezzanotte e del giro doppio delle lancette in un giorno intero."
     ]
   },
+  "place-value-lab": {
+    "slug": "decine-e-unita",
+    "name": "Laboratorio di decine e unità",
+    "tagline": "Costruisci i numeri con i blocchi e guarda la parola colorarsi",
+    "metaTitle": "Decine e unità: abaco interattivo gratis | LessonCraftStudio",
+    "metaDescription": "Un abaco interattivo gratuito per la classe: blocchi da dieci e da uno, numero e parola che si costruiscono insieme, colorati per decine e unità. Senza login.",
+    "about": [
+      "Il valore posizionale è il segreto che rende leggibili tutti i numeri: capire che in 34 quel 3 non vale tre, ma trenta. Questo laboratorio di decine e unità, interattivo e gratuito, lo rende visibile: i bambini toccano per posare blocchi da dieci e da uno sul tappeto delle posizioni — h, da, u, come sull'abaco — e a ogni blocco le cifre e la parola del numero si costruiscono da sole, davanti ai loro occhi.",
+      "La parte speciale è proprio la parola: in trentaquattro, «trenta» si colora come le decine e «quattro» come le unità, così il bambino scopre che il numero in lettere è fatto degli stessi pezzi dei blocchi. E funziona anche dove l'italiano fa i capricci: in ventuno il colore mostra che «vent» è il venti che ha perso la sua i davanti a uno. Quando le unità arrivano a dieci, il laboratorio invita a fare il cambio — dieci cubetti diventano una barretta da dieci, il gesto su cui poggiano il riporto e la sottrazione con il cambio, come chiedono i traguardi di matematica delle Indicazioni nazionali sul sistema di numerazione posizionale.",
+      "Funziona direttamente nel browser su LIM, tablet e computer della classe, senza nulla da installare e senza dover creare un account. Non c'è nessun timer e nessun punteggio: solo uno spazio calmo dove i numeri si montano, si smontano e si leggono ad alta voce."
+    ],
+    "howToUse": [
+      "Proietta il laboratorio sulla LIM e costruite un numero insieme, un blocco alla volta: a ogni tocco leggete la parola che cresce e chiedete dove finiscono le decine e dove cominciano le unità — i colori rispondono.",
+      "Arriva a dieci unità e fermati: è il momento del cambio. Lascia che sia un bambino a toccare per raggruppare i dieci cubetti in una decina, e ditelo insieme: dieci unità fanno una decina.",
+      "Passa alla modalità Mostrami: il laboratorio chiede un numero — scritto, oppure solo detto a voce — e il bambino lo costruisce con i blocchi, poi controlla e riprova guardando la parola.",
+      "Nella modalità Sottrai, quando le unità non bastano, il laboratorio suggerisce di cambiare una decina: è la sottrazione con il cambio vista con le mani, prima ancora che in colonna.",
+      "Tocca una cifra e chiedi: quale parte della parola la dice? In ventisette il venti e il sette si accendono ciascuno del proprio colore — e in ventuno si scopre che venti ha perso la sua i."
+    ],
+    "classroomIdeas": [
+      "I giorni di scuola: ogni mattina aggiungete un'unità al numero dei giorni passati insieme e salvatelo nella lista — il giorno del cambio, dal 29 al 30, diventa una piccola festa della decina.",
+      "Caccia alla parola: scrivi 27 alla lavagna e chiedi dove si nasconde il venti dentro ventisette; poi verificate nel laboratorio, dove i colori mostrano esattamente il pezzo delle decine e quello delle unità.",
+      "Le parole che perdono un pezzo: costruite 21, 28, poi 31 e 38 — e scoprite insieme che venti e trenta perdono l'ultima lettera davanti a uno e a otto. Una regola di grammatica trovata dentro la matematica.",
+      "Il gioco del contrario: costruisci 27 e poi 72 e confrontate — stesse cifre, blocchi diversissimi. Perché il 7 una volta vale sette e una volta settanta?",
+      "Dettato di numeri a coppie: un bambino dice un numero a voce alta, il compagno lo costruisce con i blocchi sul tablet, e la parola colorata fa da arbitro."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

@@ -330,6 +330,32 @@
       "Kielisalapoliisit: sanooko joku kotona ”vartti yli kolme” ja joku toinen ”vartin yli kolme”? Lapset kysyvät illalla kotona, ja aamulla verrataan — molemmat ovat oikein, ja kello näyttää saman ajan."
     ]
   },
+  "place-value-lab": {
+    "slug": "kymmenpaja",
+    "name": "Kymmenpaja",
+    "tagline": "Rakenna luku palikoista — numerot ja lukusana kasvavat mukana",
+    "metaTitle": "Kymmenpaja — kymmenet ja ykköset | LessonCraftStudio",
+    "metaDescription": "Ilmainen kymmenjärjestelmätyökalu alkuopetukseen: rakenna luku palikoista, näe kymmenet ja ykköset omin värein — lukusana rakentuu mukana. Ei kirjautumista.",
+    "about": [
+      "Kymmenpaja on kymmenjärjestelmän työalusta, jossa palikat, numerot ja lukusana ovat koko ajan yhteydessä toisiinsa: kun lapsi lisää palikan, luku ja sana rakentuvat samalla hetkellä. Kymmenet ja ykköset hehkuvat omissa väreissään sekä palikoissa, numeroissa että sanan osissa, joten lapsi näkee, että 47 on neljä kymppiä ja seitsemän ykköstä — ei vain kaksi numeroa vierekkäin.",
+      "Suomen kieli on tässä harvinaisen reilu opettaja: neljäkymmentäseitsemän sanoo suoraan, mitä luvussa on — neljä kymmentä ja seitsemän. Kun sanan osat värittyvät samoin värein kuin palikat, lukusana lakkaa olemasta ulkoa opeteltava pötkö ja muuttuu läpinäkyväksi. Ja kun kymmenen ykköstä niputetaan yhdeksi kympiksi — tai kymppi vaihdetaan takaisin ykkösiksi vähennyslaskussa — kymmenylityksen idea syntyy käsillä tekemällä, juuri niin kuin OPS:n 1.–2. luokan kymmenjärjestelmätavoitteet tarkoittavat.",
+      "Kaikki toimii suoraan selaimessa taululla, tabletilla ja tietokoneella ilman kirjautumista tai asennusta. Ei ajastinta eikä pisteitä — vain rauhallinen paja, jossa lukuja rakennetaan, puretaan ja ihmetellään omaan tahtiin."
+    ],
+    "howToUse": [
+      "Heijasta paja luokan taululle ja mallinna ensin itse: lisää ykkösiä napauttamalla ja lukekaa yhdessä, miten luku ja lukusana kasvavat.",
+      "Rakentakaa kymmenen ykköstä ja niputtakaa ne yhdeksi kympiksi — se on hetki, jolloin kymmenjärjestelmä muuttuu näkyväksi.",
+      "Käytä Näytä-tilaa: paja pyytää luvun, lapsi rakentaa sen palikoista ja tarkistaa itse.",
+      "Kokeile kuuntelutehtävää: lapsi kuulee lukusanan ja rakentaa luvun pelkän korvan varassa — värit paljastavat lopuksi, mikä sanan osa oli kympit ja mikä ykköset.",
+      "Siirry Vähennä-tilaan, kun rakentaminen sujuu: kympin vaihtaminen ykkösiksi tekee lainaamisesta käsin kosketeltavaa."
+    ],
+    "classroomIdeas": [
+      "Päivänumero: rakentakaa aamupiirissä koulupäivien määrä ja lisätkää joka aamu yksi ykkönen — sadas koulupäivä on juhlan paikka, kun ykköset ovat matkan varrella niputtuneet kympeiksi ja sataseksi.",
+      "Sanasalapoliisit: näytä luku ja pyydä lapsia osoittamaan sanasta se osa, joka kertoo kympit — värit paljastavat, osuiko oikeaan.",
+      "Parityö: toinen sanoo luvun ja toinen rakentaa sen — sitten roolit vaihtuvat, ja lukusana luetaan lopuksi yhdessä ääneen.",
+      "Arvausleikki: rakenna luku valmiiksi, peitä numero kädelläsi ja anna lasten lukea luku pelkistä palikoista.",
+      "S2-oppijoille väritetyt sanan osat ovat suora silta suomen lukusanoihin: kuuntele, osoita ja toista — sama luku moneen kertaan eri aistein."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

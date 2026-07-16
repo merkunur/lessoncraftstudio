@@ -175,6 +175,32 @@
       "Eilen, tänään, huomenna: leikkikää riveillä aikajanaa – 'jos tänään on tiistai, mikä päivä oli eilen?' – ennen kuin kortti käännetään ja tarkistetaan."
     ]
   },
+  "number-talk-easel": {
+    "slug": "valahdyskuvat",
+    "name": "Välähdyskuvat",
+    "tagline": "Näytä lukumääräkuva kolmen sekunnin välähdyksenä ja puhukaa, miten lapset sen näkivät",
+    "metaTitle": "Ilmaiset välähdyskuvat aamupiiriin | LessonCraftStudio",
+    "metaDescription": "Ilmaiset välähdyskuvat aamupiiriin: pisteet, nopat, kymmenruudukot ja helmitaulu välähtävät verhon takaa hetken – luokka kertoo, miten näki. Ei kirjautumista.",
+    "about": [
+      "Välähdyskuvat tuo aamupiirin rakkaimman matematiikkahetken taululle: verho nousee, lukumääräkuva näkyy noin kolmen sekunnin ajan ja verho laskeutuu — liian vähän aikaa yksitellen laskemiseen, juuri tarpeeksi lukumäärän hahmottamiseen yhdellä silmäyksellä. Tämä silmäyksellä näkeminen eli subitisaatio on lukukäsitteen perusta: kun laskeminen yksi kerrallaan ei ehdi, silmät alkavat etsiä ryhmiä ja rakenteita. Näytä uudelleen välähdyttää täsmälleen saman kuvan, joten lapsi saa tarkistaa oman mielikuvansa — ja verhorituaali on juuri sellainen pieni jännitysnäytelmä, jota luokka jaksaa odottaa joka aamu.",
+      "Kuvat etenevät samaa polkua kuin alkuopetuksen lukukäsite: satunnaiset pisteet ja noppakuviot, kymmenruudukko, kaksoiskymmenruudukko ja helmitaulu, jonka värinvaihto viiden kohdalla tekee viiden ja kymmenen rakenteista näkyviä. Seitsemän ei ole enää seitsemän yksittäistä pistettä vaan ”viisi ja kaksi” — juuri se kymmenjärjestelmän pohja, jolle OPS 2014:n vuosiluokkien 1–2 matematiikka rakentaa. Valmiit kuvasarjat, kuten Viisi ja vähän lisää tai Täydennä kymmeneen, on koottu niin, että peräkkäisten kuvien välinen suhde opettaa strategian — ei yksittäinen kuva.",
+      "Välähdyksen jälkeen puhutaan: Montako näit? Miten sinä sen näit? Näkikö joku sen eri tavalla? Taulu ei sano oikein eikä väärin — lasten omat näkemisen tavat väritetään kuvaan napautuksella, ja liidulla voi ympyröidä, mistä joku löysi viitosen. Vasta kun luokka on puhunut, opettaja napauttaa Lasketaan! ja rakenne lasketaan ääneen: viisi… kolme… kahdeksan. Kaikki toimii selaimessa taululla ja tabletilla ilman kirjautumista, ajastinta ja pistelaskua."
+    ],
+    "howToUse": [
+      "Heijasta välähdyskuvat luokan taululle aamupiirissä — päivän välähdyskuva odottaa valmiina verhon takana.",
+      "Napauta Näytä: verho nousee noin kolmeksi sekunniksi ja laskeutuu itsestään. Pitkä painallus pitää verhon auki niin kauan kuin sormi on pohjassa.",
+      "Kysy kysymyskuplasta: Montako näit? Miten sinä sen näit? Näytä uudelleen välähdyttää täsmälleen saman kuvan, jotta jokainen saa tarkistaa mielikuvansa.",
+      "Napauta Paljasta, kun on keskustelun aika: väritä lasten ryhmittelyt napautuksella ja ympyröi liidulla, miten joku näki luvun.",
+      "Päätä hetki Lasketaan!-napautukseen: rakenne lasketaan ääneen ryhmä kerrallaan — viisi… kolme… kahdeksan — ja lukukortti nousee esiin."
+    ],
+    "classroomIdeas": [
+      "Aamun välähdys: sama rituaali joka aamu — päivän välähdyskuva vaihtuu itsestään, ja luokka tietää, että verhon noustessa katsotaan tarkasti mutta ei ehditä laskea.",
+      "Sormet rintaa vasten: jokainen näyttää vastauksensa sormilla rintaansa vasten ennen kuin kukaan sanoo mitään — kaikki ehtivät ajatella itse, eikä nopein vie vastausta.",
+      "Paripuhe: välähdyksen jälkeen jokainen kertoo ensin parilleen, montako näki ja miten — vasta sitten näkemisen tavat kootaan taululle ja väritetään ryhmittelyt.",
+      "Näin minä näin: lapset piirtävät vihkoon, miten näkivät kahdeksan pisteen kuvan — piirroksista syntyy seinälle näyttely, jossa sama luku näkyy monella eri tavalla.",
+      "Oma sarja aapisen tahtiin: kokoa Omat sarjat -välilehdellä viikon sarja, joka harjoittaa juuri sitä rakennetta, jota luokka parhaillaan opettelee — vaikkapa kymmeneen täydentämistä."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

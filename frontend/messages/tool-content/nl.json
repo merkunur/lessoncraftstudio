@@ -175,6 +175,32 @@
       "Het 100-dagenfeest: tel samen met sprongen van tien naar honderd terwijl de tien bundels één bundel van honderd worden — en tel daarna gewoon door, want dag 101 is ook een getal."
     ]
   },
+  "number-talk-easel": {
+    "slug": "flitsbeelden",
+    "name": "Flitsbeelden",
+    "tagline": "Getalbeelden flitsen en napraten in de kring",
+    "metaTitle": "Flitsbeelden: getalbeelden flitsen | LessonCraftStudio",
+    "metaDescription": "Gratis flitsbeelden voor het digibord: flits getalbeelden, tienramen of het rekenrek een paar tellen en praat na over wat de klas zag. Zonder account.",
+    "about": [
+      "Flitsen is de oudste rekentruc van de kleuter- en onderbouwklas: laat een getalbeeld maar heel even zien, en tellen één voor één kan niet meer — kijken in groepjes moet wel. Dit digitale flitsbord doet precies dat op het digibord: achter een rolgordijn wacht een getalbeeld — losse stippen, een dobbelsteenpatroon, een tienraam of het rekenrek — en jij bepaalt het gordijn. Eén tik flitst het beeld ongeveer drie tellen, ingedrukt houden houdt het open precies zolang jouw duim erop ligt, en nog eens flitsen toont gegarandeerd hetzélfde beeld, zodat kinderen het beeld in hun hoofd kunnen checken. Zo oefent de klas het in één oogopslag zien van hoeveelheden — subiteren — de fundering onder al het getalbegrip van groep 1 tot en met 4.",
+      "De beelden zijn geen plaatjes maar structuren: de vijfstructuur en de tienstructuur waarop ons hele rekenonderwijs bouwt. Het volle rijtje van vijf in het tienraam, de kleurwissel na vijf kralen — wie die houvasten ziet, leest veertien als tien en nog vier in plaats van als een lange telrij. En het rekenrek is daarbij een thuiswedstrijd: een Nederlandse vinding uit de realistische rekentraditie die al in vrijwel elke groep 3 hangt — hier hangt het ook op het digibord, flitsklaar van 1 tot 20. Precies het getalbegrip en het handig rekenen waar de kerndoelen rekenen in de onderbouw om vragen.",
+      "Na de flits begint het echte werk: het rekengesprek. Hoeveel zag je er — en hoe zag je het? Het bord zegt nooit goed of fout: geen sterren, geen piepjes, en het getal blijft verborgen tot jij op Tellen maar! tikt en de structuur hardop wordt nageteld. In het nagesprek kleurt één tik de stippen zoals een kind ze groepeerde — vijf rood en drie blauw — en omcirkelt het krijtje de dubbelen en vijven die de klas ontdekte. De flitsreeksen zijn een jaar aan rekengesprekken zonder voorbereiding: series van drie tot vijf verwante beelden — vijf en nog wat, dubbelen, aanvullen tot tien — elk met één regel toelichting voor jou, en in elke klas exact hetzelfde beeld."
+    ],
+    "howToUse": [
+      "Kies een beeldtype en een getallenrange — of begin met het flitsbeeld van vandaag, dat klaarstaat zodra het digibord aangaat.",
+      "Tik op Laat zien voor een flits van een paar tellen, of houd de knop ingedrukt om het beeld precies zo lang te tonen als jij wilt.",
+      "Vraag de kring: hoeveel zag je er? En hoe zag je het? Verzamel alle manieren van kijken, zonder er één goed of fout te noemen.",
+      "Tik op Laat nog eens zien voor een tweede blik — het beeld is precies hetzelfde — en daarna op Gordijn open om het open te laten voor het nagesprek.",
+      "Kleur de groepjes die kinderen noemen, omcirkel structuren met het krijtje en sluit af met Tellen maar!: het getal klinkt en wordt samen nageteld."
+    ],
+    "classroomIdeas": [
+      "Dagelijkse opwarmer: één flitsbeeld vóór de rekenles — drie minuten, hele klas, nul voorbereiding.",
+      "Zelfde getal, ander jasje: flits zes als dobbelsteen, als cirkel en in het tienraam — en kijk hoe kinderen ontdekken dat het getal blijft.",
+      "Vertel het je maatje: na de eerste flits vergelijken maatjes wat ze zagen, vóór de tweede blik.",
+      "Strategieën verzamelen: kleur het groepje van één kind, vraag wie het anders zag en kleur dat er in een andere tint bij — drie splitsingen van dezelfde acht.",
+      "Rekenrek lezen: flits veertien op het rekenrek en vraag hoe de kleurwissel bij vijf hielp — zo wordt tellen kijken."
+    ]
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

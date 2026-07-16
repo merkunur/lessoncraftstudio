@@ -175,6 +175,32 @@
       "La barna si mønsteret på kalenderkortene høyt og gjette hva som kommer på morgendagens kort."
     ]
   },
+  "number-talk-easel": {
+    "slug": "kvikkbilder",
+    "name": "Kvikkbilder",
+    "tagline": "Tallbilder i et glimt — barna ser antall uten å telle",
+    "metaTitle": "Gratis kvikkbilder til tallsamtalen | LessonCraftStudio",
+    "metaDescription": "Gratis kvikkbilder: tallbilder blinker i tre sekunder bak teppet, og klassen snakker om hvordan de så det. Ferdige serier for 1.–2. trinn — uten innlogging.",
+    "about": [
+      "Kvikkbilder er samlingsstundens tallsamtale i digital form: et tallbilde vises i noen få sekunder bak teppet — så kort at ingen rekker å telle én og én, og akkurat lenge nok til at øynene griper strukturen. Det er selve poenget: barna skal se antall, ikke telle seg fram til dem. Teppet styrer du selv — trykk «Vis» for et glimt, hold knappen inne for å holde bildet framme, og trykk «Vis igjen» for å sjekke: det er nøyaktig samme bilde som kommer tilbake, så barna kan prøve det indre bildet sitt mot det ekte.",
+      "Bildene er bygget på strukturene barna skal lene seg på: prikker og terningbilder for de første glimtene, tierramme og dobbel tierramme der den fulle raden er fem og den fulle ramma er ti, og kuleramme med fargeskifte ved fem — slik leses sju som «fem og to», og fjorten som «ti og fire». De ferdige bildeseriene ligger klare for 1. og 2. trinn: doblinger, tiervenner, én mer og én mindre — et helt år med kvikkbilder uten kveldsforberedelse. Du kan også sette sammen egne serier, og hver serie blinker likt hver gang, så samtalen kan planlegges.",
+      "Samtalen er kjernen, og her finnes verken rett-svar-lyd eller røde kryss. Spørsmålene ligger klare på tavla — «Hvor mange så du nå?», «Hvordan tenkte du?», «Så noen det på en annen måte?» — og når teppet står oppe, kan barna vise: ett trykk fargelegger en gruppe («jeg så fem og tre»), og med fargestiften ringer dere inn strukturer. Den eneste fasiten er «Vi teller!», som du velger når klassen vil ha bekreftelse — da telles strukturen høyt: «fem … tre … åtte». Verktøyet kjører rett i nettleseren på klasseromsskjerm og nettbrett, uten innlogging og uten installasjon — ingen tidtaker og ingen poengsum, bare den rolige tallpraten læreplanen i matematikk legger opp til i arbeidet med tall og tallforståelse i småskolen."
+    ],
+    "howToUse": [
+      "Vis Kvikkbilder på storskjerm eller projektor i samlingsstunden — dagens kvikkbilde ligger klart, eller velg en serie fra biblioteket.",
+      "Trykk «Vis»: bildet blinker i tre sekunder bak teppet. Ingen rekker å telle én og én — og det er meningen.",
+      "Spør: «Hvor mange så du nå? Hvordan tenkte du?» La flere fortelle før dere ser igjen — «Vis igjen» gir nøyaktig samme bilde.",
+      "Trykk «Opp med teppet» når dere skal snakke: fargelegg grupper med ett trykk og ring inn strukturer med fargestiften.",
+      "Avslutt med «Vi teller!» når klassen vil ha bekreftelse — strukturen telles høyt, og tallet vises til slutt."
+    ],
+    "classroomIdeas": [
+      "Fast morgenritual: ett kvikkbilde rett etter kalenderen — to minutter hver dag gjør mer for tallforståelsen enn en lang økt i ny og ne.",
+      "Læringspartnere: etter glimtet snur alle seg til partneren sin og forteller hvordan de så det — først etterpå deler noen i plenum.",
+      "Tiervenner: bruk serien «Lag ti» og spør hvor mange som mangler i ramma — de tomme rutene gjør jobben.",
+      "La et barn være teppevakt: den som har rollen, trykker «Vis» og «Opp med teppet» — teppet gir en høytidelig ro i samlingen.",
+      "Lag en egen serie til uka og gjenta favorittene på fredag — gjentakelsen er ikke juks, det er slik strukturene setter seg."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

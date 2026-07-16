@@ -175,6 +175,32 @@
       "The hundredth day: count to 100 by tens together as the ten bundles become one hundred — then keep counting past it (day 101 is a number too)."
     ]
   },
+  "number-talk-easel": {
+    "slug": "number-talk-easel",
+    "name": "Number Talk Easel",
+    "tagline": "Flash a picture, talk about the math",
+    "metaTitle": "Free Number Talk & Subitizing Easel | LessonCraftStudio",
+    "metaDescription": "Free quick-image easel for number talks: flash dots, frames or a bead rack for three seconds, then talk about how children saw it — no login needed.",
+    "about": [
+      "A number talk starts with a picture you can only look at for a moment. This easel flashes a quantity image — scattered dots, dice patterns, ten frames, a bead rack, or seven ducks — for about three seconds, long enough to see structure and too short to count one by one. That constraint is the entire pedagogy: children stop counting and start seeing groups, and the roller-shade curtain that hides and reveals the picture is yours to control, including press-and-hold for exactly as long as your thumb is down.",
+      "What follows the flash matters more than the flash: children describe how they saw it, and every way of seeing is welcome. The easel never says right or wrong — there are no chimes, no stars, and the number itself stays hidden until you tap Count it, which counts the structure aloud and raises the answer card. In the discussion, a tap colors the dots the way a child grouped them — five red and three blue — and a crayon circles the pairs and fives children found.",
+      "The strings library is a year of number talks with zero preparation: sequences of three to five related images where each is a small variation of the last — five and some more, doubles, make ten — each with a one-line teaching note, flashing identically in every classroom. Build your own sets for the week, and run the whole routine in any of eleven languages, with the number words spoken the way your class says them."
+    ],
+    "howToUse": [
+      "Pick a picture type and range — or start with today’s quick image, ready when the projector turns on.",
+      "Tap Show for a three-second flash, or press and hold to keep the picture up exactly as long as you want.",
+      "Ask: how many did you see? How did you see it? Collect every answer without judging any.",
+      "Tap Show again for a second look — the picture is identical — then Reveal to leave it open for the discussion.",
+      "Color the groupings children describe, circle structures with the crayon, and finish with Count it: the number is spoken and confirmed by counting the structure."
+    ],
+    "classroomIdeas": [
+      "Daily warm-up: one quick image before math — three minutes, whole class, zero prep.",
+      "Same number, different look: flash 6 as dice, then a circle, then a ten frame — watch children discover the number stays the same.",
+      "Turn and talk: after the first flash, partners compare what they saw before the second look.",
+      "Strategy collection: tint one child’s grouping in color, then ask who saw it differently and tint that too — three decompositions of the same eight.",
+      "Make-ten talks: flash 9 + 3 on the double frame and ask how many the first frame still needs — the empty cells teach the strategy."
+    ]
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

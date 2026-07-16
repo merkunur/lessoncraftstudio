@@ -227,6 +227,32 @@
       "The hundred wall: on ten racks, build 47 as four full rows and seven — then say it aloud and hear how the number word matches the rows."
     ]
   },
+  "class-timer": {
+    "slug": "class-timer",
+    "name": "Class Timer",
+    "tagline": "A calm picture of the time you have left",
+    "metaTitle": "Free Visual Classroom Timer — No Alarm | LessonCraftStudio",
+    "metaDescription": "A calm visual timer for classroom transitions: a shrinking clock wedge, gentle voice cues and a warm chime instead of an alarm — free, no login.",
+    "about": [
+      "Five minutes of cleanup goes better when the whole class can see the five minutes. This timer turns time into a picture — a coral wedge that quietly shrinks on a clock face, a jar filling with sand, a candle burning down, or a balloon drifting to a soft landing. There are no flashing colors, no ticking, no acceleration, and no alarm at the end: the time you have left is simply an amount children can glance at, the way they glance at the classic red-disc timer on your shelf. It times the routine — never a child.",
+      "The routine is one tap. Pick the minutes, pick what you are doing — Cleanup, Centers, Quiet reading, Pack-up, Turn and talk — and tap Start. A warm voice can announce the start in your classroom's language, whisper \"one more minute\" near the end, and finish with a gentle three-note chime and \"time to gather.\" Need more time? The +1 minute button visibly grows the wedge back — the honest version of \"I'm giving you one more minute\" — and pausing dims the picture instead of hiding anything.",
+      "Saved timers make it a daily habit: your own one-tap presets keep the label, the minutes and the picture together, so \"Cleanup 5:00 with the candle\" is a single touch during a live transition. The corner view shrinks the timer to a small card you can snap beside another projected tool, and the minutes readout stays off by default — teachers can switch it on, but the picture is the point. The timer keeps perfect time even if the projector tab sleeps, and picks up exactly where it was if the page reloads."
+    ],
+    "howToUse": [
+      "Tap a minutes chip — 1 to 30 — or nudge with +1/−1, then pick what you are doing so the label shows above the picture.",
+      "Tap Start. The wedge, sand, candle or balloon begins its slow, calm drain — continuous, never ticking.",
+      "While it runs you have exactly three controls: Pause, +1 min (the wedge visibly grows back), and End now.",
+      "Listen for the gentle cues: an optional halfway chime, a one-minute chime, and the warm three-note finish — never an alarm.",
+      "Save your favorite routines as one-tap presets, and use the corner view to run the timer beside another projected tool."
+    ],
+    "classroomIdeas": [
+      "Cleanup with the wedge: \"when the orange is gone, we sit on the carpet\" — children read the remaining wedge from anywhere in the room.",
+      "Quiet reading with the candle: the slow burn sets a hushed mood, and the one-minute chime gives bookmarks time to go in.",
+      "Centers with saved presets: one tap starts the same 15 minutes every day, and +1 min honestly extends the round when the work is good.",
+      "Turn and talk in two minutes: the balloon drifts down while partners share — when it lands, eyes back on the teacher.",
+      "Beside the rekenrek: shrink the timer into the corner view and project a math tool next to it during warm-up routines."
+    ]
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

@@ -227,6 +227,31 @@
       "Parede de 100: monte 47 preenchendo fileiras de dez e peça para a turma dizer o número em voz alta — ver as dezenas, ouvir a palavra."
     ]
   },
+  "class-timer": {
+    "slug": "timer-da-turma",
+    "name": "Timer da turma",
+    "tagline": "O tempo vira imagem: transições calmas na sala",
+    "metaTitle": "Timer visual para a sala de aula grátis | LessonCraftStudio",
+    "metaDescription": "Timer visual para projetar: relógio de fatia, pote de areia, vela ou balão mostram o tempo da rotina, com voz calma e sino suave — nunca um alarme. Grátis.",
+    "about": [
+      "Quanto tempo é sete minutos? Para quem tem cinco ou seis anos, quase nada e uma eternidade ao mesmo tempo — o número sozinho não diz nada para quem ainda não lê o relógio. O Timer da turma transforma o tempo em imagem: uma fatia colorida que encolhe no relógio, a areia que desce no pote, a vela que vai baixando, o balão que aterrissa devagar. A criança olha e entende na hora: ainda tem bastante, está quase acabando. É o tempo visível que as salas dos anos iniciais conhecem bem — e que faz as transições acontecerem sem pressa e sem susto.",
+      "Ele marca a rotina da turma, nunca o desempenho de uma criança. Escolha os minutos, toque em Arrumação, Cantinhos ou Leitura silenciosa, e a voz anuncia com calma: nosso tempo de arrumação está começando. Na metade do caminho, um aviso gentil; faltando um minutinho, outro; e no fim, um sino suave — nunca um alarme, nunca uma buzina. Não há pontuação nem corrida: a tela não mede ninguém, só ajuda a sala inteira a caminhar junta para o próximo momento do dia.",
+      "Com o tempo, o timer vira parte do combinado da sala. Os timers salvos guardam as rotinas de sempre — dez minutos de cantinhos, cinco de arrumação — prontos com um só toque. O modo canto da tela deixa o timer pequenininho ao lado de outra ferramenta projetada, e a fatia continua encolhendo enquanto a aula segue. Essa previsibilidade é justamente o que a BNCC pede quando fala de autonomia e autorregulação: a criança que vê o tempo passar aprende a se organizar dentro dele. Tudo direto no navegador, grátis, sem cadastro."
+    ],
+    "howToUse": [
+      "Projete o timer na lousa digital, escolha os minutos e toque no que a turma vai fazer — Arrumação, Cantinhos, Leitura silenciosa, Arrumar a mochila ou Conversa em dupla.",
+      "Toque em Começar: a voz anuncia o início com calma e a imagem começa a diminuir — a fatia do relógio, a areia do pote, a vela ou o balão.",
+      "Deixe as crianças consultarem a imagem sozinhas: 'ainda tem bastante' e 'está quase acabando' se enxergam, sem precisar ler números.",
+      "Precisa de mais um pouquinho? Toque em +1 min para esticar o tempo sem drama, ou em Pausar quando surgir um imprevisto.",
+      "No fim, o sino suave e o 'muito bem, turma' fecham a rotina; toque em Salvar este timer para deixar os seus preferidos prontos com um toque."
+    ],
+    "classroomIdeas": [
+      "Desafio sereno da arrumação: combine que a sala inteira estará arrumada antes de a fatia sumir — a turma trabalha junta contra a fatia, nunca uma criança contra a outra.",
+      "Cantinhos que rodam sozinhos: dez minutos por cantinho, e a troca deixa de ser choro — quando o balão aterrissa, todo mundo já sabe para onde ir.",
+      "Leitura silenciosa que cresce: comece com cinco minutos de vela e aumente um minutinho por semana — a turma vê a própria resistência leitora crescer.",
+      "Conversa em dupla na rodinha: dois minutos de fatia para cada pergunta — vendo o tempo passar, a criança aprende a dividir a fala com o colega."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

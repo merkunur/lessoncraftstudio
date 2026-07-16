@@ -227,6 +227,31 @@
       "Satahelminen seinä: kootkaa luku 47 rivi kerrallaan kymmenen taulun seinälle ja sanokaa se ääneen — neljä täyttä kymmenriviä ja seitsemän näkyvät suoraan seinältä."
     ]
   },
+  "class-timer": {
+    "slug": "luokan-ajastin",
+    "name": "Luokan ajastin",
+    "tagline": "Heijasta rauhallinen visuaalinen ajastin taululle: kiekkokello tai hiekkapurkki näyttää, paljonko yhteistä aikaa on jäljellä",
+    "metaTitle": "Ilmainen visuaalinen ajastin luokkaan | LessonCraftStudio",
+    "metaDescription": "Ilmainen visuaalinen ajastin luokan taululle: kiekkokello, hiekkapurkki, kynttilä ja kuumailmapallo näyttävät, paljonko aikaa on jäljellä. Ei kirjautumista.",
+    "about": [
+      "Luokan ajastin tekee ajasta jotakin, minkä pieni koululainen voi nähdä: taululla hupenee värikäs kiekko — tuttu jokaisesta luokasta, jossa punakiekkoinen kello on joskus tikittänyt — ja jokainen näkee yhdellä silmäyksellä, onko aikaa vielä paljon vai enää vähän. Kello ei mittaa ketään: se ajastaa luokan yhteisen hetken — siivouksen, lukuhetken, parikeskustelun — eikä koskaan yksittäisen lapsen suoritusta. Siksi täällä ei ole pisteitä, kilpailua eikä hälyttävää pärinää, vaan rauhallinen kuva, lämmin merkkiääni ja opettajan äänellä puhuvat pehmeät ilmoitukset: Vielä yksi minuutti.",
+      "Ajastimen kuvan saa valita hetken tunnelman mukaan: kiekkokello on selkeä perusnäkymä, hiekkapurkin pinta laskee hitaasti kuin hiekka pullossa, kynttilä palaa lyhyemmäksi hiljaisen lukemisen ajan ja kuumailmapallo vajoaa kohti maata, kunnes yhteinen aika on lopussa. Arjen rutiinit ovat valmiina yhden napautuksen takana — Siivous, Työpisteet, Hiljainen lukeminen, Repun pakkaus, Parikeskustelu — joten siirtymä alkaa sanoilla, jotka luokka tuntee. Juuri siirtymissä ajan näkyväksi tekeminen kantaa pisimmälle: kun aika näkyy kuvana, lapsen ei tarvitse kysyä 'kauanko vielä?', vaan hän oppii säätelemään omaa tekemistään — sitä toiminnanohjauksen taitoa, jota alkuopetuksen arki joka päivä harjoittaa.",
+      "Kaikki toimii selaimessa taululla ja tabletilla ilman kirjautumista. Puoliväli ja viimeinen minuutti voivat helähtää hiljaa, +1 min joustaa, jos hyvä työ on vielä kesken, ja lopussa kuuluu lämmin loppuääni ja ystävällinen lause — ei koskaan hälytys. Omat ajastimet voi tallentaa yhden napautuksen taakse, ja kulmanäkymä siirtää kellon näytön nurkkaan toisen heijastetun työkalun viereen, jolloin aika kulkee mukana koko oppitunnin — ja opettajan kädet jäävät vapaiksi tärkeimpään."
+    ],
+    "howToUse": [
+      "Heijasta ajastin luokan taululle ja valitse minuutit — plus- ja miinusnapeilla aika säätyy vielä kesken kaiken.",
+      "Napauta, mitä olette tekemässä: Siivous, Työpisteet, Hiljainen lukeminen, Repun pakkaus tai Parikeskustelu — tai anna kellon käydä ilman nimeä.",
+      "Napauta Aloita: kuva alkaa huveta, ja luokka näkee yhdellä silmäyksellä, paljonko yhteistä aikaa on jäljellä.",
+      "Anna äänen auttaa: pehmeä ilmoitus kertoo puolivälin ja viimeisen minuutin, joten kenenkään ei tarvitse vahtia kelloa.",
+      "Lopussa lämmin loppuääni ja ystävällinen lause kokoavat luokan — ja +1 min joustaa, jos hieno työ kaipaa vielä hetken."
+    ],
+    "classroomIdeas": [
+      "Siivoushetki kiekkokellolla: viisi minuuttia, napautus Siivous-nimikkeeseen ja koko luokka näkee itse, milloin luokan on oltava valmis — kukaan ei kysele, kauanko vielä.",
+      "Hiljainen lukeminen kynttilän valossa: kynttiläkuva palaa rauhassa lukuhetken ajan, ja lyhenevä liekki kertoo sanattomasti, että lukuaikaa on vielä jäljellä.",
+      "Parikeskustelun rytmi: kaksi minuuttia paria kohden — puolivälin merkkiääni kertoo, että on toisen vuoro puhua, eikä opettajan tarvitse keskeyttää.",
+      "Kulmanäkymä toisen työkalun rinnalle: pieni ajastin näytön nurkkaan ja välähdyskuvat tai helmitaulu viereen — aika näkyy koko työskentelyn ajan viemättä tilaa."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

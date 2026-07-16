@@ -227,6 +227,31 @@
       "La parete del 100: costruite insieme il 47 riempiendo le file di dieci — quattro file piene e ancora sette — e poi ditelo a voce alta: le decine si vedono e si sentono."
     ]
   },
+  "class-timer": {
+    "slug": "timer-visivo",
+    "name": "Timer visivo",
+    "tagline": "Lo spicchio si restringe, la sabbia scende: il tempo che resta si vede a colpo d'occhio",
+    "metaTitle": "Timer visivo per la classe online gratis | LessonCraftStudio",
+    "metaDescription": "Timer visivo da proiettare sulla LIM: spicchio, sabbia o candela mostrano quanto tempo resta, con voce gentile e suono caldo di fine. Gratis, senza login.",
+    "about": [
+      "Cinque minuti di riordino: l'insegnante sceglie i minuti, tocca «Riordino» e poi «Avvia». Sulla LIM compare un grande orologio con uno spicchio colorato che piano piano si restringe, e una voce gentile annuncia: «Il nostro tempo comincia adesso: Riordino!». I bambini non hanno bisogno di saper leggere l'orologio: quando lo spicchio è largo c'è ancora tempo, quando diventa sottile si finisce con calma. È un timer visivo pensato per la classe, non un cronometro: scandisce la routine di tutti — mai la prestazione di un bambino — e alla fine non suona un allarme, ma un suono caldo, come un campanellino di legno.",
+      "Ogni classe ha la sua immagine del tempo. C'è l'orologio a spicchio, quello dei timer visivi che tanti bambini conoscono già; il barattolo di sabbia che si svuota granello dopo granello; la candela che si accorcia senza fretta; la mongolfiera che scende piano verso il prato. E la voce accompagna i passaggi delicati — «Siamo a metà», «Ancora un minuto» — finché alla fine raccoglie la classe: «È il momento di ritrovarci», «occhi a me», «bravi tutti». Ogni annuncio si accende o si spegne dalle impostazioni: c'è chi vuole solo l'immagine, chi solo il suono finale, chi tutto insieme.",
+      "Le routine di ogni giorno sono pronte con un tocco: «Riordino», «Angoli», «Lettura silenziosa», «Prepariamo lo zaino», «Parliamo a coppie» — e con «I miei timer» le combinazioni di sempre, come «Riordino — 5 minuti», si salvano e si ritrovano domattina. La modalità angolo tiene il timer piccolo accanto a un altro strumento proiettato, «+1 min» regala un minuto in più quando serve davvero, e «Pausa» ferma tutto senza drammi quando arriva un imprevisto. Niente punteggi, niente conto alla rovescia ansioso, niente registrazione: si apre nel browser — LIM, tablet o computer — e il tempo della classe torna a essere una cosa serena."
+    ],
+    "howToUse": [
+      "Proietta il timer sulla LIM e scegli i minuti con i tasti grandi: per un riordino bastano cinque, per gli angoli anche venti.",
+      "Tocca «Cosa facciamo?» e scegli la routine — «Riordino», «Angoli», «Lettura silenziosa», «Prepariamo lo zaino», «Parliamo a coppie» — oppure lascia il timer semplice.",
+      "Tocca «Avvia»: la voce annuncia l'inizio e l'immagine comincia a cambiare — i bambini alzano gli occhi e sanno da soli quanto tempo resta.",
+      "Serve più calma? «+1 min» aggiunge un minuto senza discussioni, «Pausa» ferma tutto quando bussa qualcuno alla porta, e la voce avvisa a metà e all'ultimo minuto.",
+      "Alla fine suona un campanellino caldo — mai un allarme — e la voce raccoglie la classe: «Il nostro tempo è finito — occhi a me»."
+    ],
+    "classroomIdeas": [
+      "Il rito del riordino: ogni giorno gli stessi cinque minuti con la stessa immagine — dopo una settimana i bambini si regolano da soli, senza che nessuno debba alzare la voce.",
+      "Angoli senza strappi: dieci minuti di mongolfiera per il lavoro negli angoli; quando la mongolfiera tocca il prato si cambia — e il momento del cambio non è più una sorpresa per nessuno.",
+      "La candela della lettura silenziosa: luci basse, libri aperti e la candela sulla LIM che si accorcia piano — un piccolo rito che dice a tutti: questo è il nostro tempo tranquillo.",
+      "Prepariamo lo zaino con calma: salva «Zaino — 7 minuti» in «I miei timer» e a fine giornata basta un tocco; il suono all'ultimo minuto ricorda che è quasi ora, senza fretta e senza allarmi."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

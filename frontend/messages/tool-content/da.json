@@ -227,6 +227,31 @@
       "100-væggen: byg 47 række for række — fire fulde tiere og syv til — og hør rammen sige syvogfyrre, mens hele tallet står på væggen."
     ]
   },
+  "class-timer": {
+    "slug": "nedtaellingsur",
+    "name": "Nedtællingsur",
+    "tagline": "Tiden gjort synlig på tavlen — et lagkagestykke, der stille og roligt bliver mindre",
+    "metaTitle": "Gratis visuel timer til klasseværelset | LessonCraftStudio",
+    "metaDescription": "Gratis visuel timer til tavlen: ur med lagkagestykke, sandkrukke eller stearinlys viser stille og roligt, hvor meget tid der er tilbage. Uden login.",
+    "about": [
+      "Et nedtællingsur er en visuel timer til projektoren: et rundt ur med et farvet lagkagestykke, der langsomt bliver mindre, mens tiden går. Børn i børnehaveklassen og indskolingen kan endnu ikke aflæse et almindeligt ur — men de kan SE et stykke, der skrumper. Ingen behøver at spørge »hvor lang tid endnu?«, for svaret hænger på tavlen hele tiden. Ud over uret med lagkagestykke findes tre lige så rolige billeder: en sandkrukke, hvor sandet stille siver ned, et stearinlys, der brænder ned, og en luftballon, der langsomt daler mod jorden. Fælles for dem alle: ingen tikken, intet blink, ingen alarm — kun en varm klokkelyd, når tiden er gået.",
+      "Uret måler klassens rutine, aldrig det enkelte barn. Med ét tryk vælger du, hvad I laver — oprydning, værksteder, stillelæsning, pakke sammen eller snak med sidemanden — og en rolig stemme følger klassen gennem tiden med venlige beskeder: »Nu begynder vores tid«, »Vi er halvvejs«, »Ét minut tilbage«. Har klassen brug for lidt mere tid, lægger du et minut til med ét tryk — uret er en hjælper, ikke en dommer. Der er ingen point, ingen rekorder og intet stopur; når tiden er gået, slutter det med et »flot klaret, alle sammen«.",
+      "Synlig tid er stille klasseledelse: Faste, forudsigelige overgange giver ro, og et fælles ur på tavlen flytter diskussionen om tid væk fra læreren — det er ikke dig, der afbryder legen, det er lagkagestykket, der er spist. Gem dine faste rutiner som ét-tryks-timere — »Oprydning, 5 minutter« ligger klar hver dag — og brug hjørnevisningen, når uret skal stå ved siden af et andet projiceret værktøj, for eksempel under værkstedsarbejde. Alt kører på dansk, direkte i browseren og uden login."
+    ],
+    "howToUse": [
+      "Projicér nedtællingsuret på tavlen, og vælg antal minutter med ét tryk — eller finjustér med +1 og −1.",
+      "Vælg, hvad I laver — oprydning, værksteder, stillelæsning, pakke sammen eller snak med sidemanden — eller lad uret stå uden etiket.",
+      "Tryk på Start — lagkagestykket bliver stille og roligt mindre, og klassen kan hele tiden se, hvor meget tid der er tilbage.",
+      "Læg et minut til, hvis klassen er godt i gang, eller sæt uret på pause — det er rutinen, der styres, ikke børnene, der måles.",
+      "Når tiden er gået, lyder en varm klokke og en rolig stemme — gem så indstillingen som én af dine egne timere til i morgen."
+    ],
+    "classroomIdeas": [
+      "Oprydning med luftballonen: »Kan vi have ryddet op, inden ballonen lander?« — hele klassen arbejder sammen mod det samme billede, ikke mod hinanden.",
+      "Stillelæsning med stearinlyset: lyset brænder roligt ned, mens klassen læser — et blidt ro-signal helt uden ord fra læreren.",
+      "Fast pakke sammen-rutine sidst på dagen: samme etiket, samme fem minutter, samme klokkelyd hver dag — forudsigeligheden gør overgangen fredelig.",
+      "Hjørnevisning under værksteder: sæt uret i hjørnet ved siden af lynbillederne eller kuglerammen, så både opgaven og tiden er synlig på én gang."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

@@ -1,0 +1,816 @@
+{
+  "locale": "pt",
+  "version": 1,
+  "nonwordTTS": true,
+  "tray": [
+    {
+      "g": "a",
+      "kind": "vowel",
+      "anchor": {
+        "word": "abelha",
+        "noun": "bee",
+        "themeDir": "farm animals",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "b",
+      "kind": "consonant",
+      "anchor": {
+        "word": "bola",
+        "noun": "ball",
+        "themeDir": "toys",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "c",
+      "kind": "consonant",
+      "anchor": {
+        "word": "casa",
+        "noun": "house",
+        "themeDir": "miscellaneous",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "d",
+      "kind": "consonant",
+      "anchor": {
+        "word": "dedo",
+        "noun": "finger",
+        "themeDir": "body parts",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "e",
+      "kind": "vowel",
+      "anchor": {
+        "word": "elefante",
+        "noun": "elephant",
+        "themeDir": "animals",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "f",
+      "kind": "consonant",
+      "anchor": {
+        "word": "fita",
+        "noun": "ribbon",
+        "themeDir": "accessories",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "g",
+      "kind": "consonant",
+      "anchor": {
+        "word": "gato",
+        "noun": "cat",
+        "themeDir": "animals",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "h",
+      "kind": "consonant",
+      "anchor": null
+    },
+    {
+      "g": "i",
+      "kind": "vowel",
+      "anchor": {
+        "word": "iglu",
+        "noun": "igloo",
+        "themeDir": "winter",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "j",
+      "kind": "consonant",
+      "anchor": {
+        "word": "janela",
+        "noun": "window",
+        "themeDir": "around the house",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "k",
+      "kind": "consonant",
+      "anchor": null
+    },
+    {
+      "g": "l",
+      "kind": "consonant",
+      "anchor": {
+        "word": "lua",
+        "noun": "moon",
+        "themeDir": "space",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "m",
+      "kind": "consonant",
+      "anchor": {
+        "word": "macaco",
+        "noun": "monkey",
+        "themeDir": "zoo animals",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "n",
+      "kind": "consonant",
+      "anchor": {
+        "word": "navio",
+        "noun": "ship",
+        "themeDir": "vehicles",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "o",
+      "kind": "vowel",
+      "anchor": {
+        "word": "ovo",
+        "noun": "egg",
+        "themeDir": "At the Supermarket",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "p",
+      "kind": "consonant",
+      "anchor": {
+        "word": "pato",
+        "noun": "duck",
+        "themeDir": "animals",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "q",
+      "kind": "consonant",
+      "anchor": null
+    },
+    {
+      "g": "r",
+      "kind": "consonant",
+      "anchor": {
+        "word": "rato",
+        "noun": "mouse",
+        "themeDir": "pets",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "s",
+      "kind": "consonant",
+      "anchor": {
+        "word": "sapo",
+        "noun": "toad",
+        "themeDir": "forest creatures",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "t",
+      "kind": "consonant",
+      "anchor": {
+        "word": "tomate",
+        "noun": "tomato",
+        "themeDir": "vegetables",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "u",
+      "kind": "vowel",
+      "anchor": {
+        "word": "uva",
+        "noun": "grapes",
+        "themeDir": "At the Supermarket",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "v",
+      "kind": "consonant",
+      "anchor": {
+        "word": "vaca",
+        "noun": "cow",
+        "themeDir": "farm animals",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "w",
+      "kind": "consonant",
+      "anchor": null
+    },
+    {
+      "g": "x",
+      "kind": "consonant",
+      "anchor": {
+        "word": "xícara",
+        "noun": "cup",
+        "themeDir": "around the house",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "y",
+      "kind": "consonant",
+      "anchor": null
+    },
+    {
+      "g": "z",
+      "kind": "consonant",
+      "anchor": {
+        "word": "zebra",
+        "noun": "zebra",
+        "themeDir": "animals",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "ç",
+      "kind": "consonant",
+      "anchor": {
+        "word": "maçã",
+        "noun": "apple",
+        "themeDir": "At the Supermarket",
+        "position": "medial"
+      }
+    },
+    {
+      "g": "á",
+      "kind": "vowel",
+      "anchor": null
+    },
+    {
+      "g": "é",
+      "kind": "vowel",
+      "anchor": null
+    },
+    {
+      "g": "í",
+      "kind": "vowel",
+      "anchor": null
+    },
+    {
+      "g": "ó",
+      "kind": "vowel",
+      "anchor": null
+    },
+    {
+      "g": "ê",
+      "kind": "vowel",
+      "anchor": null
+    },
+    {
+      "g": "ô",
+      "kind": "vowel",
+      "anchor": null
+    },
+    {
+      "g": "ã",
+      "kind": "vowel",
+      "anchor": null
+    },
+    {
+      "g": "õ",
+      "kind": "vowel",
+      "anchor": null
+    },
+    {
+      "g": "ch",
+      "kind": "digraph",
+      "warm": false,
+      "anchor": {
+        "word": "chave",
+        "noun": "key",
+        "themeDir": "around the house",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "nh",
+      "kind": "digraph",
+      "warm": false,
+      "anchor": {
+        "word": "ninho",
+        "noun": "nest",
+        "themeDir": "spring",
+        "position": "medial"
+      }
+    },
+    {
+      "g": "lh",
+      "kind": "digraph",
+      "warm": false,
+      "anchor": {
+        "word": "coelho",
+        "noun": "rabbit",
+        "themeDir": "animals",
+        "position": "medial"
+      }
+    },
+    {
+      "g": "rr",
+      "kind": "digraph",
+      "warm": false,
+      "anchor": {
+        "word": "carro",
+        "noun": "car",
+        "themeDir": "toys",
+        "position": "medial"
+      }
+    },
+    {
+      "g": "ss",
+      "kind": "digraph",
+      "warm": false,
+      "anchor": {
+        "word": "vassoura",
+        "noun": "broom",
+        "themeDir": "around the house",
+        "position": "medial"
+      }
+    },
+    {
+      "g": "qu",
+      "kind": "digraph",
+      "warm": false,
+      "anchor": {
+        "word": "queijo",
+        "noun": "cheese",
+        "themeDir": "At the Supermarket",
+        "position": "initial"
+      }
+    }
+  ],
+  "extraWords": {
+    "o": {},
+    "a": {},
+    "e": {},
+    "é": {},
+    "um": {},
+    "uma": {},
+    "os": {},
+    "as": {},
+    "no": {},
+    "na": {},
+    "do": {},
+    "da": {},
+    "de": {},
+    "em": {},
+    "ao": {},
+    "eu": {},
+    "ele": {},
+    "ela": {},
+    "nós": {},
+    "você": {},
+    "vocês": {},
+    "me": {},
+    "te": {},
+    "se": {},
+    "meu": {},
+    "minha": {},
+    "seu": {},
+    "sua": {},
+    "nosso": {},
+    "nossa": {},
+    "isso": {},
+    "aqui": {},
+    "ali": {},
+    "lá": {},
+    "aí": {},
+    "já": {},
+    "sim": {},
+    "não": {},
+    "mais": {},
+    "menos": {},
+    "muito": {},
+    "tudo": {},
+    "nada": {},
+    "todo": {},
+    "cada": {},
+    "outro": {},
+    "quem": {},
+    "que": {},
+    "qual": {},
+    "quando": {},
+    "onde": {},
+    "como": {},
+    "com": {},
+    "sem": {},
+    "por": {},
+    "para": {},
+    "mas": {},
+    "ou": {},
+    "bem": {},
+    "até": {},
+    "também": {},
+    "hoje": {},
+    "amanhã": {},
+    "depois": {},
+    "dentro": {},
+    "fora": {},
+    "baixo": {},
+    "ser": {},
+    "são": {},
+    "foi": {},
+    "estar": {},
+    "está": {},
+    "ter": {},
+    "tem": {},
+    "ir": {},
+    "vai": {},
+    "vou": {},
+    "ver": {},
+    "vem": {},
+    "dar": {},
+    "dá": {},
+    "diz": {},
+    "faz": {},
+    "fazer": {},
+    "quero": {},
+    "pode": {},
+    "posso": {},
+    "gosta": {},
+    "come": {},
+    "bebe": {},
+    "dorme": {},
+    "brinca": {},
+    "pula": {},
+    "corre": {},
+    "anda": {},
+    "ler": {},
+    "lê": {},
+    "escreve": {},
+    "olha": {},
+    "ouve": {},
+    "fala": {},
+    "canta": {},
+    "pinta": {},
+    "desenha": {},
+    "abre": {},
+    "fecha": {},
+    "zero": {},
+    "dois": {},
+    "três": {},
+    "quatro": {},
+    "cinco": {},
+    "seis": {},
+    "sete": {},
+    "oito": {},
+    "nove": {},
+    "dez": {},
+    "azul": {},
+    "verde": {},
+    "amarelo": {},
+    "vermelho": {},
+    "rosa": {},
+    "preto": {},
+    "branco": {},
+    "laranja": {},
+    "roxo": {},
+    "marrom": {},
+    "cinza": {},
+    "mamãe": {},
+    "papai": {},
+    "vovó": {},
+    "vovô": {},
+    "avó": {},
+    "avô": {},
+    "irmã": {},
+    "irmão": {},
+    "bebê": {},
+    "menino": {},
+    "menina": {},
+    "amigo": {},
+    "amiga": {},
+    "família": {},
+    "nome": {},
+    "escola": {},
+    "professora": {},
+    "festa": {},
+    "sol": {},
+    "lua": {
+      "noun": "moon",
+      "themeDir": "space"
+    },
+    "céu": {},
+    "estrela": {},
+    "chuva": {
+      "noun": "rain",
+      "themeDir": "spring"
+    },
+    "água": {},
+    "mar": {},
+    "rio": {},
+    "praia": {},
+    "flor": {},
+    "folha": {
+      "noun": "leaf",
+      "themeDir": "miscellaneous"
+    },
+    "árvore": {},
+    "chão": {},
+    "dia": {},
+    "noite": {},
+    "verão": {},
+    "frio": {},
+    "quente": {},
+    "gato": {
+      "noun": "cat",
+      "themeDir": "animals"
+    },
+    "cachorro": {},
+    "cão": {},
+    "pato": {
+      "noun": "duck",
+      "themeDir": "animals"
+    },
+    "sapo": {
+      "noun": "toad",
+      "themeDir": "forest creatures"
+    },
+    "rato": {
+      "noun": "mouse",
+      "themeDir": "pets"
+    },
+    "vaca": {
+      "noun": "cow",
+      "themeDir": "farm animals"
+    },
+    "galo": {
+      "noun": "rooster",
+      "themeDir": "farm animals"
+    },
+    "galinha": {},
+    "peixe": {},
+    "urso": {},
+    "leão": {},
+    "lobo": {},
+    "macaco": {},
+    "zebra": {},
+    "cavalo": {
+      "noun": "horse",
+      "themeDir": "farm animals"
+    },
+    "burro": {
+      "noun": "donkey",
+      "themeDir": "animals"
+    },
+    "coelho": {},
+    "ovelha": {
+      "noun": "sheep",
+      "themeDir": "farm animals"
+    },
+    "abelha": {},
+    "borboleta": {},
+    "pássaro": {},
+    "jacaré": {},
+    "rã": {},
+    "tatu": {},
+    "arara": {},
+    "pinguim": {},
+    "pão": {},
+    "bolo": {
+      "noun": "cake",
+      "themeDir": "bakery"
+    },
+    "leite": {},
+    "suco": {},
+    "ovo": {},
+    "arroz": {},
+    "feijão": {},
+    "doce": {},
+    "maçã": {},
+    "banana": {
+      "noun": "banana",
+      "themeDir": "At the Supermarket"
+    },
+    "uva": {},
+    "limão": {},
+    "limões": {},
+    "queijo": {},
+    "pizza": {},
+    "batata": {},
+    "picolé": {},
+    "sorvete": {},
+    "casa": {
+      "noun": "house",
+      "themeDir": "miscellaneous"
+    },
+    "bola": {
+      "noun": "ball",
+      "themeDir": "toys"
+    },
+    "pipa": {
+      "noun": "kite",
+      "themeDir": "toys"
+    },
+    "boneca": {},
+    "brinquedo": {},
+    "peteca": {},
+    "pião": {},
+    "balão": {},
+    "balões": {},
+    "carro": {
+      "noun": "car",
+      "themeDir": "toys"
+    },
+    "trem": {},
+    "avião": {},
+    "barco": {},
+    "bicicleta": {},
+    "ônibus": {},
+    "táxi": {},
+    "robô": {},
+    "janela": {},
+    "porta": {},
+    "cama": {
+      "noun": "bed",
+      "themeDir": "around the house"
+    },
+    "mesa": {
+      "noun": "table",
+      "themeDir": "furniture"
+    },
+    "sofá": {},
+    "copo": {
+      "noun": "glass",
+      "themeDir": "kitchen tools"
+    },
+    "chave": {
+      "noun": "key",
+      "themeDir": "around the house"
+    },
+    "vela": {
+      "noun": "candle",
+      "themeDir": "christmas"
+    },
+    "sino": {
+      "noun": "bell",
+      "themeDir": "christmas"
+    },
+    "fita": {
+      "noun": "ribbon",
+      "themeDir": "accessories"
+    },
+    "figo": {
+      "noun": "fig",
+      "themeDir": "fruits"
+    },
+    "caneca": {
+      "noun": "mug",
+      "themeDir": "kitchen tools"
+    },
+    "xícara": {},
+    "relógio": {},
+    "ninho": {
+      "noun": "nest",
+      "themeDir": "spring"
+    },
+    "sapato": {
+      "noun": "shoe",
+      "themeDir": "clothing"
+    },
+    "meia": {},
+    "boné": {},
+    "chapéu": {},
+    "luva": {
+      "noun": "glove",
+      "themeDir": "accessories"
+    },
+    "mochila": {},
+    "caderno": {},
+    "livro": {},
+    "lápis": {},
+    "papel": {},
+    "cola": {},
+    "tesoura": {},
+    "borracha": {},
+    "régua": {},
+    "giz": {},
+    "letra": {},
+    "palavra": {},
+    "mão": {},
+    "pé": {
+      "noun": "foot",
+      "themeDir": "body parts"
+    },
+    "olho": {
+      "noun": "eye",
+      "themeDir": "body parts"
+    },
+    "boca": {},
+    "nariz": {},
+    "orelha": {},
+    "dedo": {
+      "noun": "finger",
+      "themeDir": "body parts"
+    },
+    "perna": {},
+    "braço": {},
+    "cabeça": {},
+    "cabelo": {},
+    "dente": {},
+    "barriga": {},
+    "coração": {},
+    "bom": {},
+    "boa": {},
+    "grande": {},
+    "pequeno": {},
+    "novo": {},
+    "velho": {},
+    "feliz": {},
+    "triste": {},
+    "bonito": {},
+    "lindo": {},
+    "alto": {},
+    "forte": {},
+    "limpo": {},
+    "sujo": {},
+    "cheio": {},
+    "vazio": {},
+    "fofo": {},
+    "legal": {},
+    "rápido": {},
+    "devagar": {},
+    "oi": {},
+    "olá": {},
+    "tchau": {},
+    "obrigado": {},
+    "obrigada": {},
+    "amor": {},
+    "abraço": {},
+    "põe": {},
+    "lã": {}
+  },
+  "neverSpeak": [
+    "cu",
+    "cocô",
+    "xixi",
+    "pum",
+    "peido",
+    "bunda",
+    "teta",
+    "mama",
+    "seio",
+    "seios",
+    "pênis",
+    "vagina",
+    "pinto",
+    "pica",
+    "piru",
+    "pau",
+    "rola",
+    "buceta",
+    "boceta",
+    "xereca",
+    "xoxota",
+    "pepeca",
+    "puta",
+    "puto",
+    "porra",
+    "merda",
+    "bosta",
+    "cacete",
+    "caralho",
+    "foda",
+    "fode",
+    "fuder",
+    "viado",
+    "veado",
+    "bicha",
+    "sapatão",
+    "gay",
+    "vadia",
+    "piranha",
+    "mija",
+    "mijo",
+    "caga",
+    "cagar",
+    "cagão",
+    "cerveja",
+    "vinho",
+    "pinga",
+    "cachaça",
+    "chope",
+    "vodca",
+    "maconha",
+    "cigarro",
+    "crack"
+  ],
+  "comboAudit": "Anchor set: every anchor is sound-initial + spelling-initial (or documented medial) from the illustrated library, cartilha-canonical for pt-BR: a-abelha, e-elefante (clear initial /e/ — estrela-class es- words rejected because initial e reduces to /i/), i-iglu, o-ovo (stressed initial /o/), u-uva (classic 'U de uva'; the illustrated noun is grapes/bunch — acceptable, the keyword names the fruit); c-casa keeps c = /k/ before a; g-gato keeps g = /g/; r-rato models the strong initial /ʁ/ (matches the sound-boxes note); s-sapo = initial /s/; x-xícara = the canonical school value /ʃ/ (needs the í tile in the vowel set — present); z-zebra = /z/. h is SILENT in pt (hora) → quiet tile; k/w/y are loanword-only letters → quiet tiles; single q never occurs without u → quiet tile, the qu digraph (queijo) carries the sound. ç never begins a word → medial anchor maçã; rr/ss/nh/lh are never word-initial or word-initial-sounding → medial anchors (carro, vassoura, ninho, coelho); ch is word-initial → chave. Anchors verified live 2026-07-16 against /image-library-webp/themes/: bee|farm animals, elephant|animals, igloo|winter, egg+grapes+cheese+apple|At the Supermarket, monkey|zoo animals, ship|vehicles, tomato|vegetables, cup+window+broom|around the house, rabbit|animals all curl 200. extraWords: ~300 high-frequency K-2 Brazilian Portuguese words (BR register: ônibus, trem, sorvete, tchau, vovó), all buildable accent-exact from the tray singles (á é í ó ê ô ã õ ç earn their tiles: é, não, mamãe, você, vovó, robô, família, limões), hand-swept for profanity/anatomy/alcohol/slur surfaces — pinto, peito, cueca, gostoso-class words excluded; mama/teta/meto follow the sound-boxes-bank sensitive flags and are excluded. nonwordTTS true (pt TTS reads pseudowords cleanly, matching the blending-board decks) — therefore neverSpeak lists the vulgar/anatomy/slur/alcohol/drug buildables (including veado, which is a real animal word but a live slur in BR classrooms) so the board never voices them.",
+  "notes": "pt tray = a-z + ç + accented vowels á é í ó ê ô ã õ + digraph tiles ch/nh/lh/rr/ss/qu. â û ú omitted (no K-2 payoff at this tray size; ú words like música/número stay out of extraWords). Digraphs follow BNCC 1º/2º-ano análise fonológica: ch nh lh rr ss are the five taught first; qu included because q alone is unusable. h/k/w/y/q = quiet tiles by convention (documented in comboAudit)."
+}

@@ -64,7 +64,10 @@ var BlendingBoard = {
     lockedLabel:  {en:'Premium',de:'Premium',fr:'Premium',it:'Premium',es:'Premium',pt:'Premium',nl:'Premium',sv:'Premium',da:'Premium',no:'Premium',fi:'Premium'},
     copyLink:     {en:'Copy link to this word',de:'Link zu diesem Wort kopieren',fr:'Copier le lien vers ce mot',it:'Copia il link a questa parola',es:'Copiar el enlace de esta palabra',pt:'Copiar link desta palavra',nl:'Link naar dit woord kopiëren',sv:'Kopiera länk till ordet',da:'Kopiér link til ordet',no:'Kopier lenke til ordet',fi:'Kopioi linkki tähän sanaan'},
     copied:       {en:'Link copied!',de:'Link kopiert!',fr:'Lien copié !',it:'Link copiato!',es:'¡Enlace copiado!',pt:'Link copiado!',nl:'Link gekopieerd!',sv:'Länk kopierad!',da:'Link kopieret!',no:'Lenke kopiert!',fi:'Linkki kopioitu!'},
-    siblingLink:  {en:'Segmenting today? → Sound Boxes',de:'Heute Laute gliedern? → Lautboxen',fr:'Segmenter aujourd’hui ? → Boîtes à sons',it:'Oggi segmentate? → Caselle dei suoni',es:'¿Hoy toca separar sonidos? → Cajas de sonidos',pt:'Hoje é dia de separar sons? → Caixas de sons',nl:'Vandaag hakken? → Klankdozen',sv:'Ljuda isär i dag? → Ljudrutor',da:'Lytte lyde ud i dag? → Lydbokse',no:'Lytte ut lyder i dag? → Lydbokser',fi:'Tänään äänteiden erottelua? → Äännelaatikot'},
+    /* the trio footer — the SoR phonics family (segment · blend · build) */
+    trioLabel:    {en:'Phonics tools:',de:'Werkzeuge zum Lesenlernen:',fr:'Outils de phonologie :',it:'Strumenti fonologici:',es:'Herramientas de conciencia fonológica:',pt:'Ferramentas de alfabetização:',nl:'Klankhulpjes:',sv:'Ljudverktyg:',da:'Lydværktøjer:',no:'Lydverktøy:',fi:'Äännetyökalut:'},
+    siblingSbx:   {en:'Sound Boxes',de:'Lautboxen',fr:'Boîtes à sons',it:'Caselle dei suoni',es:'Cajas de sonidos',pt:'Caixas de sons',nl:'Klankdozen',sv:'Ljudrutor',da:'Lydbokse',no:'Lydbokser',fi:'Äännelaatikot'},
+    siblingLtl:   {en:'Letter Tiles',de:'Magnetbuchstaben',fr:'Lettres magnétiques',it:'Lettere magnetiche',es:'Letras magnéticas',pt:'Alfabeto móvel',nl:'Letterdoos',sv:'Magnetbokstäver',da:'Magnetbogstaver',no:'Magnetbokstaver',fi:'Magneettikirjaimet'},
 
     /* stage + aria */
     blendWord:    {en:'Blend the word',de:'Laute zusammenziehen',fr:'Fusionner les sons',it:'Unisci i suoni',es:'Unir los sonidos',pt:'Juntar os sons',nl:'Klanken plakken',sv:'Ljuda ihop ordet',da:'Træk lydene sammen',no:'Trekk lydene sammen',fi:'Yhdistä äänteet sanaksi'},
@@ -822,11 +825,28 @@ var BlendingBoard = {
       if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(url).then(done, done);
       else { try { prompt('', url); } catch (_) {} done(); }
     });
-    var sib = document.createElement('a');
-    sib.className = 'bbd-sibling';
-    sib.href = '/mini-tools/sound-boxes.html?lang=' + api.lang;
-    sib.textContent = api.t('siblingLink');
-    foot.append(copy, sib);
+    var trio = api.el('span');
+    trio.style.display = 'inline-flex';
+    trio.style.alignItems = 'center';
+    trio.style.gap = '4px';
+    var trioLbl = api.el('span');
+    trioLbl.style.fontFamily = 'var(--lcs-font-body)';
+    trioLbl.style.fontWeight = '700';
+    trioLbl.style.fontSize = '13px';
+    trioLbl.style.color = 'var(--lcs-ink-soft)';
+    trioLbl.textContent = api.t('trioLabel') + ' ';
+    var sib1 = document.createElement('a');
+    sib1.className = 'bbd-sibling';
+    sib1.href = '/mini-tools/sound-boxes.html?lang=' + api.lang;
+    sib1.textContent = api.t('siblingSbx');
+    var trioDot = trioLbl.cloneNode(false);
+    trioDot.textContent = ' · ';
+    var sib2 = document.createElement('a');
+    sib2.className = 'bbd-sibling';
+    sib2.href = '/mini-tools/letter-tiles.html?lang=' + api.lang;
+    sib2.textContent = api.t('siblingLtl');
+    trio.append(trioLbl, sib1, trioDot, sib2);
+    foot.append(copy, trio);
     panel.appendChild(foot);
   },
 

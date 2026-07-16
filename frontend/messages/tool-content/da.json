@@ -123,6 +123,32 @@
       "Gå på jagt efter rigtige ord: hvor mange kan klassen finde med dagens kort? Billedmærkerne viser, når et ord er fundet."
     ]
   },
+  "letter-tiles": {
+    "slug": "magnetbogstaver",
+    "name": "Magnetbogstaver",
+    "tagline": "Byg ord med bogstaver, der siger lyden forrest",
+    "metaTitle": "Gratis interaktive magnetbogstaver | LessonCraftStudio",
+    "metaDescription": "Gratis magnetbogstaver online: byg ord på den åbne tavle, og tryk på et bogstav for at høre et ord med lyden forrest — sol, mus. Uden login, på alle enheder.",
+    "about": [
+      "Magnetbogstaver er klassens magnettavle i digital form: en åben tavle, hvor barnet trækker bogstaver op og bygger ord — sit eget navn, ugens ord eller det, der lige dukker op i hovedet. Trykker barnet på en brik, siger tavlen et ord, hvor lyden sidder forrest — s som i sol, m som i mus — aldrig bogstavets navn, for det er lydene, man læser og staver med. Alle danske bogstaver er med, også æ, ø og å.",
+      "Tavlen retter ikke og viser aldrig et rødt kryds. Børnestavning er et vigtigt skridt på vejen mod korrekt stavning: skriver barnet jak for jakke, har det lyttet rigtigt, og netop den lytning skal have plads i børnehaveklassen og 1. klasse. Bliver bogstaverne til et rigtigt ord, kvitterer tavlen stille og roligt med et lille billede — alt andet får bare lov at stå, som barnet har skrevet det.",
+      "Værktøjet kører direkte i browseren på den interaktive tavle, tablets og klassens computere — uden installation og uden login. Der er ingen point og ingen tidtagning, bare en rolig tavle med bogstaver, lyde og plads til at prøve sig frem."
+    ],
+    "howToUse": [
+      "Vis tavlen på den interaktive tavle, eller giv børnene den på tablets — bogstaverne ligger klar i bakken nederst.",
+      "Lad barnet trykke på bogstaverne og lytte: hvert bogstav siger et ord, hvor lyden sidder forrest — s som i sol, ikke bogstavets navn.",
+      "Byg de første ord sammen: sig ordet langsomt, lyt jer frem til lydene, og træk bogstaverne op ét ad gangen.",
+      "Slå bogstavbokse til, når I arbejder med ordkort, så barnet kan se, hvor mange bogstaver ordet skal bruge — og slå dem fra igen, når barnet vil bygge frit.",
+      "Skriv ugens ord ind under Mine ord, så stationen på klassens tablets altid passer til det, I arbejder med."
+    ],
+    "classroomIdeas": [
+      "Lad barnet bygge sit eget navn — det første ord, de fleste børn kan stave — og bagefter navnene på dem, barnet holder af.",
+      "Leg lydjagt: sig et ord, og lad barnet finde det bogstav, ordet begynder med — billedalfabetet på brikkerne støtter undervejs.",
+      "Byg ordkæder: skift ét bogstav ad gangen — sol bliver til sal, hus bliver til mus — og se, hvor lang en kæde klassen kan lave.",
+      "Lad to børn arbejde sammen: den ene siger et ord, den anden bygger det — og byt så roller.",
+      "Brug alle tre lydværktøjer til det samme ord: del ordet i lyde i Lydbokse, træk lydene sammen på Lydtavlen, og byg det til sidst med magnetbogstaverne — fra lyd til bogstav og tilbage igen."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

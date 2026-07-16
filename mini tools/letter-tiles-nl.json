@@ -1,0 +1,944 @@
+{
+  "locale": "nl",
+  "version": 1,
+  "nonwordTTS": true,
+  "tray": [
+    {
+      "g": "a",
+      "kind": "vowel",
+      "anchor": {
+        "word": "appel",
+        "noun": "apple",
+        "themeDir": "At the Supermarket",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "b",
+      "kind": "consonant",
+      "anchor": {
+        "word": "bal",
+        "noun": "ball",
+        "themeDir": "toys",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "c",
+      "kind": "consonant",
+      "anchor": null
+    },
+    {
+      "g": "d",
+      "kind": "consonant",
+      "anchor": {
+        "word": "deur",
+        "noun": "door",
+        "themeDir": "around the house",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "e",
+      "kind": "vowel",
+      "anchor": {
+        "word": "emmer",
+        "noun": "bucket",
+        "themeDir": "beach",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "f",
+      "kind": "consonant",
+      "anchor": {
+        "word": "fiets",
+        "noun": "bicycle",
+        "themeDir": "vehicles",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "g",
+      "kind": "consonant",
+      "anchor": {
+        "word": "geit",
+        "noun": "goat",
+        "themeDir": "farm animals",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "h",
+      "kind": "consonant",
+      "anchor": {
+        "word": "hond",
+        "noun": "dog",
+        "themeDir": "animals",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "i",
+      "kind": "vowel",
+      "anchor": null
+    },
+    {
+      "g": "j",
+      "kind": "consonant",
+      "anchor": {
+        "word": "jas",
+        "noun": "coat",
+        "themeDir": "clothing",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "k",
+      "kind": "consonant",
+      "anchor": {
+        "word": "kat",
+        "noun": "cat",
+        "themeDir": "animals",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "l",
+      "kind": "consonant",
+      "anchor": {
+        "word": "lamp",
+        "noun": "lamp",
+        "themeDir": "furniture",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "m",
+      "kind": "consonant",
+      "anchor": {
+        "word": "maan",
+        "noun": "moon",
+        "themeDir": "space",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "n",
+      "kind": "consonant",
+      "anchor": {
+        "word": "nest",
+        "noun": "nest",
+        "themeDir": "spring",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "o",
+      "kind": "vowel",
+      "anchor": {
+        "word": "otter",
+        "noun": "otter",
+        "themeDir": "zoo animals",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "p",
+      "kind": "consonant",
+      "anchor": {
+        "word": "pen",
+        "noun": "pen",
+        "themeDir": "classroom",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "q",
+      "kind": "consonant",
+      "anchor": null
+    },
+    {
+      "g": "r",
+      "kind": "consonant",
+      "anchor": {
+        "word": "roos",
+        "noun": "rose",
+        "themeDir": "flowers",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "s",
+      "kind": "consonant",
+      "anchor": {
+        "word": "sok",
+        "noun": "sock",
+        "themeDir": "accessories",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "t",
+      "kind": "consonant",
+      "anchor": {
+        "word": "tas",
+        "noun": "bag",
+        "themeDir": "At the Supermarket",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "u",
+      "kind": "vowel",
+      "anchor": null
+    },
+    {
+      "g": "v",
+      "kind": "consonant",
+      "anchor": {
+        "word": "vis",
+        "noun": "fish",
+        "themeDir": "animals",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "w",
+      "kind": "consonant",
+      "anchor": {
+        "word": "wolf",
+        "noun": "wolf",
+        "themeDir": "animals",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "x",
+      "kind": "consonant",
+      "anchor": null
+    },
+    {
+      "g": "y",
+      "kind": "consonant",
+      "anchor": null
+    },
+    {
+      "g": "z",
+      "kind": "consonant",
+      "anchor": {
+        "word": "zon",
+        "noun": "sun",
+        "themeDir": "weather",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "aa",
+      "kind": "digraph",
+      "vowel": true,
+      "warm": true,
+      "anchor": {
+        "word": "aap",
+        "noun": "monkey",
+        "themeDir": "zoo animals",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "ee",
+      "kind": "digraph",
+      "vowel": true,
+      "warm": true,
+      "anchor": {
+        "word": "eend",
+        "noun": "duck",
+        "themeDir": "animals",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "oo",
+      "kind": "digraph",
+      "vowel": true,
+      "warm": true,
+      "anchor": {
+        "word": "oog",
+        "noun": "eye",
+        "themeDir": "body parts",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "uu",
+      "kind": "digraph",
+      "vowel": true,
+      "warm": true,
+      "anchor": null
+    },
+    {
+      "g": "oe",
+      "kind": "digraph",
+      "vowel": true,
+      "warm": true,
+      "anchor": {
+        "word": "boek",
+        "noun": "book",
+        "themeDir": "classroom",
+        "position": "medial"
+      }
+    },
+    {
+      "g": "ie",
+      "kind": "digraph",
+      "vowel": true,
+      "warm": true,
+      "anchor": {
+        "word": "mier",
+        "noun": "ant",
+        "themeDir": "forest creatures",
+        "position": "medial"
+      }
+    },
+    {
+      "g": "ui",
+      "kind": "digraph",
+      "vowel": true,
+      "warm": true,
+      "anchor": {
+        "word": "ui",
+        "noun": "onion",
+        "themeDir": "vegetables",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "eu",
+      "kind": "digraph",
+      "vowel": true,
+      "warm": true,
+      "anchor": {
+        "word": "neus",
+        "noun": "nose",
+        "themeDir": "body parts",
+        "position": "medial"
+      }
+    },
+    {
+      "g": "ij",
+      "kind": "digraph",
+      "vowel": true,
+      "warm": true,
+      "anchor": {
+        "word": "ijs",
+        "noun": "ice",
+        "themeDir": "winter",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "ei",
+      "kind": "digraph",
+      "vowel": true,
+      "warm": true,
+      "anchor": {
+        "word": "ei",
+        "noun": "egg",
+        "themeDir": "At the Supermarket",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "au",
+      "kind": "digraph",
+      "vowel": true,
+      "warm": true,
+      "anchor": {
+        "word": "auto",
+        "noun": "car",
+        "themeDir": "toys",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "ou",
+      "kind": "digraph",
+      "vowel": true,
+      "warm": true,
+      "anchor": {
+        "word": "touw",
+        "noun": "rope",
+        "themeDir": "camping",
+        "position": "medial"
+      }
+    },
+    {
+      "g": "ng",
+      "kind": "digraph",
+      "warm": false,
+      "anchor": {
+        "word": "ring",
+        "noun": "ring",
+        "themeDir": "accessories",
+        "position": "final"
+      }
+    },
+    {
+      "g": "ch",
+      "kind": "digraph",
+      "warm": false,
+      "anchor": null
+    }
+  ],
+  "extraWords": {
+    "de": {},
+    "het": {},
+    "een": {},
+    "en": {},
+    "ik": {},
+    "jij": {},
+    "je": {},
+    "hij": {},
+    "zij": {},
+    "ze": {},
+    "wij": {},
+    "we": {},
+    "jullie": {},
+    "mij": {},
+    "ons": {},
+    "hun": {},
+    "dit": {},
+    "dat": {},
+    "die": {},
+    "deze": {},
+    "mijn": {},
+    "jouw": {},
+    "zijn": {},
+    "daar": {},
+    "hier": {},
+    "er": {},
+    "waar": {},
+    "wat": {},
+    "wie": {},
+    "hoe": {},
+    "nu": {},
+    "dan": {},
+    "toen": {},
+    "nog": {},
+    "al": {},
+    "ook": {},
+    "niet": {},
+    "wel": {},
+    "nee": {},
+    "ja": {},
+    "maar": {},
+    "want": {},
+    "of": {},
+    "dus": {},
+    "als": {},
+    "om": {},
+    "op": {},
+    "in": {},
+    "uit": {},
+    "aan": {},
+    "af": {},
+    "bij": {},
+    "met": {},
+    "mee": {},
+    "van": {},
+    "voor": {},
+    "naar": {},
+    "tot": {},
+    "door": {},
+    "over": {},
+    "onder": {},
+    "boven": {},
+    "achter": {},
+    "tussen": {},
+    "tegen": {},
+    "zonder": {},
+    "heel": {},
+    "erg": {},
+    "zo": {},
+    "te": {},
+    "samen": {},
+    "weer": {},
+    "vandaag": {},
+    "morgen": {},
+    "binnen": {},
+    "buiten": {},
+    "thuis": {},
+    "weg": {},
+    "terug": {},
+    "klaar": {},
+    "goed": {},
+    "is": {},
+    "ben": {},
+    "was": {},
+    "heb": {},
+    "heeft": {},
+    "had": {},
+    "doe": {},
+    "ga": {},
+    "gaat": {},
+    "ging": {},
+    "kom": {},
+    "komt": {},
+    "kwam": {},
+    "zie": {},
+    "zag": {},
+    "wil": {},
+    "kan": {},
+    "mag": {},
+    "moet": {},
+    "zal": {},
+    "weet": {},
+    "zeg": {},
+    "zei": {},
+    "vind": {},
+    "maak": {},
+    "loop": {},
+    "speel": {},
+    "lees": {},
+    "eet": {},
+    "geef": {},
+    "pak": {},
+    "kijk": {},
+    "hoor": {},
+    "roep": {},
+    "slaap": {},
+    "zit": {},
+    "zat": {},
+    "sta": {},
+    "help": {},
+    "ren": {},
+    "spring": {},
+    "zwem": {},
+    "zing": {},
+    "tel": {},
+    "mama": {},
+    "papa": {},
+    "opa": {},
+    "oma": {},
+    "kind": {},
+    "juf": {},
+    "meester": {},
+    "school": {},
+    "klas": {},
+    "vriend": {},
+    "feest": {},
+    "aap": {
+      "noun": "monkey",
+      "themeDir": "zoo animals"
+    },
+    "kat": {
+      "noun": "cat",
+      "themeDir": "animals"
+    },
+    "poes": {},
+    "hond": {
+      "noun": "dog",
+      "themeDir": "animals"
+    },
+    "kip": {
+      "noun": "chicken",
+      "themeDir": "farm animals"
+    },
+    "koe": {
+      "noun": "cow",
+      "themeDir": "farm animals"
+    },
+    "muis": {
+      "noun": "mouse",
+      "themeDir": "pets"
+    },
+    "beer": {
+      "noun": "bear",
+      "themeDir": "camping"
+    },
+    "uil": {
+      "noun": "owl",
+      "themeDir": "animals"
+    },
+    "eend": {
+      "noun": "duck",
+      "themeDir": "animals"
+    },
+    "geit": {
+      "noun": "goat",
+      "themeDir": "farm animals"
+    },
+    "paard": {
+      "noun": "horse",
+      "themeDir": "farm animals"
+    },
+    "schaap": {
+      "noun": "sheep",
+      "themeDir": "farm animals"
+    },
+    "vogel": {
+      "noun": "bird",
+      "themeDir": "spring"
+    },
+    "konijn": {
+      "noun": "rabbit",
+      "themeDir": "animals"
+    },
+    "kikker": {
+      "noun": "frog",
+      "themeDir": "reptiles and Amphibians"
+    },
+    "slak": {
+      "noun": "snail",
+      "themeDir": "insects and bugs"
+    },
+    "mier": {
+      "noun": "ant",
+      "themeDir": "forest creatures"
+    },
+    "vis": {
+      "noun": "fish",
+      "themeDir": "animals"
+    },
+    "duif": {},
+    "maan": {
+      "noun": "moon",
+      "themeDir": "space"
+    },
+    "roos": {
+      "noun": "rose",
+      "themeDir": "flowers"
+    },
+    "sok": {
+      "noun": "sock",
+      "themeDir": "accessories"
+    },
+    "pen": {
+      "noun": "pen",
+      "themeDir": "classroom"
+    },
+    "zon": {
+      "noun": "sun",
+      "themeDir": "weather"
+    },
+    "bal": {
+      "noun": "ball",
+      "themeDir": "toys"
+    },
+    "bed": {
+      "noun": "bed",
+      "themeDir": "around the house"
+    },
+    "boek": {
+      "noun": "book",
+      "themeDir": "classroom"
+    },
+    "boom": {
+      "noun": "tree",
+      "themeDir": "christmas"
+    },
+    "bos": {},
+    "bus": {
+      "noun": "bus",
+      "themeDir": "vehicles"
+    },
+    "fiets": {
+      "noun": "bicycle",
+      "themeDir": "vehicles"
+    },
+    "auto": {
+      "noun": "car",
+      "themeDir": "toys"
+    },
+    "trein": {
+      "noun": "train",
+      "themeDir": "toys"
+    },
+    "boot": {
+      "noun": "boat",
+      "themeDir": "beach"
+    },
+    "huis": {
+      "noun": "house",
+      "themeDir": "miscellaneous"
+    },
+    "deur": {
+      "noun": "door",
+      "themeDir": "around the house"
+    },
+    "raam": {
+      "noun": "window",
+      "themeDir": "around the house"
+    },
+    "dak": {},
+    "tuin": {},
+    "stoel": {
+      "noun": "chair",
+      "themeDir": "around the house"
+    },
+    "tafel": {
+      "noun": "table",
+      "themeDir": "furniture"
+    },
+    "kast": {},
+    "lamp": {
+      "noun": "lamp",
+      "themeDir": "furniture"
+    },
+    "trap": {},
+    "bank": {
+      "noun": "couch",
+      "themeDir": "around the house"
+    },
+    "jas": {
+      "noun": "coat",
+      "themeDir": "clothing"
+    },
+    "muts": {
+      "noun": "beanie",
+      "themeDir": "accessories"
+    },
+    "broek": {
+      "noun": "pants",
+      "themeDir": "clothing"
+    },
+    "trui": {},
+    "schoen": {
+      "noun": "shoe",
+      "themeDir": "clothing"
+    },
+    "voet": {
+      "noun": "foot",
+      "themeDir": "body parts"
+    },
+    "hand": {
+      "noun": "hand",
+      "themeDir": "body parts"
+    },
+    "oog": {
+      "noun": "eye",
+      "themeDir": "body parts"
+    },
+    "oor": {
+      "noun": "ear",
+      "themeDir": "body parts"
+    },
+    "neus": {
+      "noun": "nose",
+      "themeDir": "body parts"
+    },
+    "mond": {
+      "noun": "mouth",
+      "themeDir": "body parts"
+    },
+    "haar": {
+      "noun": "hair",
+      "themeDir": "body parts"
+    },
+    "been": {
+      "noun": "leg",
+      "themeDir": "body parts"
+    },
+    "arm": {},
+    "buik": {},
+    "knie": {
+      "noun": "knee",
+      "themeDir": "body parts"
+    },
+    "teen": {},
+    "rug": {},
+    "melk": {
+      "noun": "milk",
+      "themeDir": "At the Supermarket"
+    },
+    "kaas": {
+      "noun": "cheese",
+      "themeDir": "At the Supermarket"
+    },
+    "brood": {
+      "noun": "bread",
+      "themeDir": "At the Supermarket"
+    },
+    "ei": {
+      "noun": "egg",
+      "themeDir": "At the Supermarket"
+    },
+    "appel": {
+      "noun": "apple",
+      "themeDir": "At the Supermarket"
+    },
+    "peer": {
+      "noun": "pear",
+      "themeDir": "fruits"
+    },
+    "banaan": {
+      "noun": "banana",
+      "themeDir": "At the Supermarket"
+    },
+    "soep": {},
+    "koek": {},
+    "taart": {
+      "noun": "cake",
+      "themeDir": "bakery"
+    },
+    "ijs": {
+      "noun": "ice",
+      "themeDir": "winter"
+    },
+    "ijsje": {},
+    "water": {},
+    "thee": {},
+    "jam": {
+      "noun": "jam",
+      "themeDir": "At the Supermarket"
+    },
+    "rijst": {
+      "noun": "rice",
+      "themeDir": "At the Supermarket"
+    },
+    "doos": {},
+    "zeep": {},
+    "ster": {
+      "noun": "star",
+      "themeDir": "christmas"
+    },
+    "lucht": {},
+    "zee": {},
+    "strand": {},
+    "gras": {},
+    "bloem": {
+      "noun": "flower",
+      "themeDir": "summer"
+    },
+    "blad": {
+      "noun": "leaf",
+      "themeDir": "miscellaneous"
+    },
+    "dier": {},
+    "spel": {},
+    "dag": {},
+    "nacht": {},
+    "week": {},
+    "jaar": {},
+    "uur": {},
+    "zomer": {},
+    "winter": {},
+    "lente": {},
+    "herfst": {},
+    "regen": {
+      "noun": "rain",
+      "themeDir": "spring"
+    },
+    "sneeuw": {},
+    "wind": {},
+    "wolk": {
+      "noun": "cloud",
+      "themeDir": "beach"
+    },
+    "hout": {},
+    "touw": {
+      "noun": "rope",
+      "themeDir": "camping"
+    },
+    "zout": {},
+    "kaart": {
+      "noun": "map",
+      "themeDir": "camping"
+    },
+    "tent": {},
+    "vuur": {},
+    "rood": {
+      "noun": "red",
+      "themeDir": "colors"
+    },
+    "geel": {},
+    "groen": {},
+    "blauw": {},
+    "wit": {},
+    "zwart": {},
+    "bruin": {},
+    "roze": {},
+    "paars": {},
+    "grijs": {},
+    "oranje": {},
+    "groot": {},
+    "klein": {},
+    "dik": {},
+    "dun": {},
+    "lang": {},
+    "kort": {},
+    "hoog": {},
+    "laag": {},
+    "oud": {},
+    "jong": {},
+    "nieuw": {},
+    "mooi": {},
+    "lief": {},
+    "blij": {},
+    "boos": {},
+    "bang": {},
+    "moe": {},
+    "ziek": {},
+    "warm": {},
+    "koud": {},
+    "nat": {},
+    "droog": {},
+    "vol": {},
+    "leeg": {},
+    "snel": {},
+    "zacht": {},
+    "hard": {},
+    "licht": {},
+    "donker": {},
+    "leuk": {},
+    "fijn": {},
+    "stil": {},
+    "twee": {},
+    "drie": {},
+    "vier": {},
+    "vijf": {},
+    "zes": {},
+    "zeven": {},
+    "acht": {},
+    "negen": {},
+    "tien": {},
+    "twaalf": {}
+  },
+  "neverSpeak": [
+    "kut",
+    "lul",
+    "pik",
+    "kak",
+    "pis",
+    "poep",
+    "plas",
+    "kont",
+    "reet",
+    "bil",
+    "neuk",
+    "neuken",
+    "hoer",
+    "slet",
+    "kloot",
+    "klote",
+    "kanker",
+    "tering",
+    "tyfus",
+    "trut",
+    "shit",
+    "fuck",
+    "homo",
+    "mof",
+    "debiel",
+    "mongool",
+    "zuip",
+    "zuipen",
+    "bier",
+    "pils",
+    "wijn",
+    "wodka",
+    "godver"
+  ],
+  "comboAudit": "Anchor set groep 3 (aanvankelijk lezen, klankzuiver): every anchor is sound-value-true and spelling-aligned from the illustrated library. Singles: a=appel (korte a), e=emmer (korte e), o=otter (korte o; image live-verified 200 at zoo animals 2026-07-16); i/u quiet (no illustrated noun with the short klankzuivere value — iglo rejected: pronounced with long ie); c/q/x/y quiet (outside the groep-3 letterset; c is ambiguous /s/~/k/). Vowel teams: aa=aap, ee=eend, oo=oog, ui=ui, ei=ei, au=auto (all sound-initial); oe=boek, ie=mier, eu=neus, ou=touw anchored medially — the established 'je hoort de oe in boek' convention, parallel to en's final-position sock/ring; uu quiet (no uu-initial illustrated noun). ij=ijs (image live-verified 200 at winter 2026-07-16; ijsbeer not in the vocabulary). ng=ring (final, one sound /ng/); ch quiet (/x/-initial illustrated nouns do not exist in Dutch; chocolade is /sj/ — wrong value, banned). NO sch tile: Dutch sch = s + ch, decodable from singles — shipped platform doctrine (Klankdozen gives schip four boxes; sch was removed from all nl whitelists). extraWords: ~230 high-frequency groep 3/4 words, hand-swept for profanity/anatomy/alcohol — bier/wijn/zat-class and poep/plas-class excluded or covered by neverSpeak; zat kept out despite being a normal past tense (doubles as 'drunk'). neverSpeak covers the vulgar/anatomy/alcohol/slur buildables incl. the Dutch disease-curses (kanker/tering/tyfus) and kak/pik/pis (flagged sensitive in the shipped blending decks). nonwordTTS true — Dutch TTS verklankt robotwoorden acceptably (same setting as the shipped nl blending decks).",
+  "notes": "nl tray = a-z + 12 vowel-valued teams (aa ee oo uu / oe ie ui eu / ij ei / au ou, all vowel:true warm:true) + ng + ch. ij is the mandatory fused tile (one klank, one tile — never i+j). au and ou are separate tiles (same sound, different spelling — the groep-3 spelling distinction). No sch tile by platform doctrine. Quiet tiles: c q x y (outside the groep-3 core letterset), i u uu ch (no honest illustrated anchor with the correct klankwaarde)."
+}

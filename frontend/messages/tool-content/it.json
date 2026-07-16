@@ -123,6 +123,32 @@
       "Dettato al contrario: pronuncia tu una parola del mazzo e chiedi ai bambini di scrivere sul quaderno le due sillabe separate da un trattino prima di verificarla sul tabellone."
     ]
   },
+  "letter-tiles": {
+    "slug": "lettere-magnetiche",
+    "name": "Lettere magnetiche",
+    "tagline": "Costruisci parole con l'alfabeto mobile",
+    "metaTitle": "Lettere magnetiche interattive | LessonCraftStudio",
+    "metaDescription": "Lettere magnetiche online per la classe prima: i bambini costruiscono parole con l'alfabeto mobile e ogni lettera dice la sua parola guida. Gratis, senza login.",
+    "about": [
+      "Le lettere magnetiche sono l'alfabeto mobile della classe prima portato nel browser: una scatola di lettere da trascinare sulla lavagna per comporre parole, come sul frigorifero di casa o sul pannello dell'aula. Ogni lettera ha la sua parola guida dall'alfabetiere illustrato: tocchi la m e senti «mela», tocchi la s e senti «sole». Mai il nome della lettera, mai un suono isolato e artificiale: il bambino aggancia ogni segno a una parola vera che conosce, proprio come prevede il metodo fono-sillabico.",
+      "La lavagna libera rispetta la scrittura spontanea: il bambino compone come sa, e nessuna X rossa gli dice che ha sbagliato. Quando la sequenza forma una parola vera compare la figurina, e la scoperta è tutta sua; quando non la forma, la parola inventata si può comunque ascoltare — leggerla è già decodificare. I punti delicati dell'italiano hanno le loro tessere dedicate: ch di chiave, gh di ghianda, gn di agnello, gli di coniglio, sc di sciarpa, mentre le doppie si costruiscono con due lettere uguali, g-a-t-t-o.",
+      "Lo strumento funziona nel browser su LIM, tablet e computer, senza registrazione e senza installare nulla. Non ci sono punteggi né timer: solo una scatola di lettere, una lavagna e le carte delle parole, in linea con i traguardi di scrittura e di riflessione sulla lingua delle Indicazioni nazionali per il primo ciclo."
+    ],
+    "howToUse": [
+      "Proietta la lavagna sulla LIM e presenta le lettere: un bambino tocca una tessera, la classe ascolta la parola guida e la ripete allungando il primo suono.",
+      "Nella lavagna libera lascia comporre liberamente: il bambino trascina le lettere, prova, sposta, riprova — la scrittura spontanea non riceve mai un segno di errore.",
+      "Passa alle carte delle parole quando vuoi guidare l'esercizio: la figura mostra la parola da costruire e le caselle suggeriscono quante lettere servono.",
+      "Usa le tessere dei digrammi per le parole con ch, gh, gn, gli e sc: un suono, una tessera — e fai notare che le doppie invece vogliono due lettere uguali.",
+      "Con «Le mie parole» inserisci le parole della settimana, una per riga: il tabellone diventa il tuo dettato, con le stesse carte e le stesse caselle."
+    ],
+    "classroomIdeas": [
+      "Dettato muto: mostra una figura dell'alfabetiere senza dire nulla e chiedi di costruire la parola con le lettere; alla fine si tocca «Leggi la parola» e si verifica insieme.",
+      "Prima monta, poi scrivi: il bambino compone la parola con le lettere magnetiche, la legge, poi la copia sul quaderno — il passaggio dalla manipolazione alla scrittura.",
+      "Coppie minime: costruisci pala e trasformala in palla aggiungendo una sola tessera; la classe sente che la doppia cambia il suono e il significato.",
+      "Catena di parole: cambia una lettera alla volta — casa diventa cosa, cosa diventa rosa — e chiedi chi trova l'anello successivo della catena.",
+      "Il nome sulla lavagna: ogni bambino compone il proprio nome; le lettere ospiti j, k, w, x e y aspettano in fondo alla scatola i nomi che ne hanno bisogno."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

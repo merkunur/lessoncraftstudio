@@ -123,6 +123,32 @@
       "Jobb i par med Lydbokser: den ene trekker lydene sammen til et ord på lydtavla, den andre lytter ut lydene i det samme ordet i lydboksene – sammentrekking og utlytting er to sider av samme sak."
     ]
   },
+  "letter-tiles": {
+    "slug": "magnetbokstaver",
+    "name": "Magnetbokstaver",
+    "tagline": "Bygg ord med bokstaver som sier lydordet sitt",
+    "metaTitle": "Gratis interaktive magnetbokstaver | LessonCraftStudio",
+    "metaDescription": "Gratis magnetbokstaver på nett for begynneropplæringen. Barna bygger ord på tavla, og hver bokstav sier lydordet sitt – ingen innlogging, ingen røde kryss.",
+    "about": [
+      "Magnetbokstaver er klasserommets klassiker: en tavle full av bokstaver som barnet kan flytte på, sortere og bygge ord med. Denne digitale utgaven har alle bokstavene fra a til å – med æ, ø og å på plass – og hver bokstav sier sitt eget lydord når barnet trykker på den: s sier «sol», k sier «katt». Bokstav og lyd knyttes sammen i ett trykk, og det er selve kjernen i bokstavinnlæringen på 1. trinn.",
+      "Tavla er laget for norsk begynneropplæring, ikke oversatt fra engelsk. Diftongene au, ei og øy ligger som egne brikker – én lyd, én brikke, akkurat som på Lydtavla – og lydordene er de samme ordene barna møter i Lydbokser og Lydtavle: sol, katt, hus, gås. Barnet kan bygge helt fritt, eller jobbe med ordkort med ukens ord. Bygger barnet et ekte ord, feirer tavla stille – og skriver barnet sitt eget ord på sin egen måte, får det stå. Her finnes ingen røde kryss: oppdagende skriving trenger et rom der barnets egen stavemåte er god nok underveis.",
+      "Verktøyet kjører rett i nettleseren på nettbrett, telefon og klasseromsskjerm, uten innlogging og uten installasjon. Det er ingen tidtaker og ingen poengsum – bare bokstaver, lyder og ord i barnets eget tempo, slik læreplanen i norsk legger opp til i den første lese- og skriveopplæringen."
+    ],
+    "howToUse": [
+      "Vis tavla på storskjerm eller gi den til barna på nettbrett, og velg små eller store bokstaver.",
+      "La barnet trykke på bokstavene og høre lydordene: s sier «sol», m sier «mus».",
+      "Dra bokstaver ut på tavla og bygg et ord sammen – snakk om lydene mens dere bygger.",
+      "Les ordet sammen når det er ferdig. Blir det et ekte ord, feirer tavla – blir det et tulleord, ler dere godt og prøver igjen.",
+      "Bruk ordkortene når klassen jobber med ukens ord, eller legg inn dine egne ord under «Mine ord»."
+    ],
+    "classroomIdeas": [
+      "Dagens bokstav: sett tavla på en stasjon og la barna finne dagens bokstav, høre lydordet og bygge små ord med den.",
+      "Navnebygging: la hvert barn bygge navnet sitt med magnetbokstavene – navnet er den første teksten som virkelig betyr noe for et barn.",
+      "Ukens ord: legg ukens ord inn som ordkort og la barna bygge dem om igjen og om igjen – bygging fester stavemåten bedre enn avskrift.",
+      "Par med Lydbokser: den ene lytter ut lydene i ordet i lydboksene, den andre bygger det samme ordet med magnetbokstavene – utlytting og bygging er to sider av samme sak.",
+      "Oppdagende skriving: la barnet bygge sitt eget ord på sin egen måte og les det sammen. Skriv gjerne voksenversjonen ved siden av etterpå – uten å rette."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

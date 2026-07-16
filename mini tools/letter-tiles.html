@@ -3,23 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Blending Board — LessonCraft Studio</title>
+  <title>Letter Tiles — LessonCraft Studio</title>
   <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=18">
 </head>
 <body>
   <!-- The shell mounts the whole tool into this element. -->
   <div id="lcs-root"></div>
 
-  <!-- Shell first, then this tool. The tool fetches its per-locale deck
-       file from /mini-tools/blending-board-deck-<lang>.json at runtime. -->
+  <!-- Shell first, then this tool. The tool fetches its per-locale
+       inventory from /mini-tools/letter-tiles-<lang>.json plus the two
+       sibling data sets (sound-boxes bank + blending decks) at runtime. -->
   <script src="/mini-tools/lcs-shell.js?v=3"></script>
-  <script src="/mini-tools/blending-board.js?v=2"></script>
+  <script src="/mini-tools/letter-tiles.js?v=1"></script>
   <script>
     // URL params the shell understands:
     //   ?lang=sv  ?lang=fi  (any of: en de fr it es pt nl sv da no fi)
     //   ?embed=1 / ?embed=compact
-    // Tool-specific deep links: ?deck=<deckId>&cards=<v.v.v>
-    LCS.mount(BlendingBoard, { mount: '#lcs-root' });
+    // Tool-specific deep links: ?list=<stageId>&card=<wordId>
+    LCS.mount(LetterTiles, { mount: '#lcs-root' });
   </script>
 </body>
 </html>

@@ -227,6 +227,31 @@
       "På 2. trinn: bygg tall på 100-kuleveggen rad for rad og si tallordene høyt — femtisju er fem fulle rader og sju til."
     ]
   },
+  "class-timer": {
+    "slug": "klassens-tidsur",
+    "name": "Klassens tidsur",
+    "tagline": "Rolige overganger med tid barna kan se",
+    "metaTitle": "Gratis visuelt tidsur for klasserommet | LessonCraftStudio",
+    "metaDescription": "Gratis visuelt tidsur for klasserommet: kakestykke-klokke, sandkrukke, stearinlys eller luftballong viser rolig hvor mye tid som er igjen — helt uten alarm.",
+    "about": [
+      "Klassens tidsur gjør tiden synlig for hele klassen: i stedet for tall som raser nedover, ser barna et bilde som langsomt blir mindre — et kakestykke på klokka som krymper, sand som renner ned i krukken, et stearinlys som brenner rolig ned eller en luftballong som sakte lander. Barn på 1. og 2. trinn har ennå ikke noe indre bilde av hva «ti minutter» er, men de ser med én gang at det er mye igjen, litt igjen eller nesten ingenting igjen. Derfor senker et visuelt tidsur skuldrene i rommet i stedet for å heve dem: ingen alarm som skremmer, ingen røde tall som stresser — bare en varm klang og en vennlig stemme når tiden er ute.",
+      "Tidsuret måler rutinen, aldri barna. Med ett trykk velger du hva klassen skal: rydding, stasjoner, stillelesing, pakke sammen eller snakk med naboen — og en rolig stemme sier ifra på ordentlig klasseromsvis: «Nå begynner tiden vår», «Ett minutt igjen», «Nå samler vi oss». Halvveissignalet og ettminuttssignalet gir barna tid til å gjøre seg ferdige i eget tempo, slik at overgangen kommer som en ventet venn og ikke som en overraskelse. Her finnes ingen stoppeklokke, ingen poeng og ingen «hvem ble først ferdig» — bare den forutsigbarheten småskolebarn trenger for å klare overgangene selv.",
+      "Verktøyet kjører rett i nettleseren på klasseromsskjerm, projektor og nettbrett — uten innlogging og uten installasjon. Vis minuttene for de eldste, eller skjul dem og la bildet snakke for seg. Lagre favorittene dine — «Rydding 5 min», «Stillelesing 15 min» — og start dem igjen med ett trykk, eller sett tidsuret i hjørnevisning ved siden av et annet projisert verktøy. Faste, synlige rutiner er selve grunnmuren i et trygt klasserom, og et rolig tidsur er den enkleste veien dit — helt i tråd med småskolens vekt på struktur, trygghet og gode overganger."
+    ],
+    "howToUse": [
+      "Vis tidsuret på storskjerm eller projektor, og velg hvor mange minutter rutinen skal vare.",
+      "Trykk på det klassen skal gjøre — rydding, stasjoner, stillelesing, pakke sammen eller snakk med naboen — så vet alle hva tiden gjelder.",
+      "Trykk på Start: kakestykket krymper, sanden renner eller lyset brenner rolig ned mens barna jobber.",
+      "Lytt etter de vennlige signalene underveis — halve tiden og ett minutt igjen — så rekker alle å gjøre seg ferdige.",
+      "Når tiden er ute, kommer en varm klang og en rolig stemme — aldri en alarm. Trenger dere litt mer tid, gir «+1 min» dere det uten stress."
+    ],
+    "classroomIdeas": [
+      "Rydderutine med ro: sett tidsuret på fem minutter og la kakestykket styre ryddingen — du slipper å mase, for klokka sier ifra for deg.",
+      "Stillelesing som vokser: start med ti minutter og legg til ett minutt hver uke — barna ser fremgangen sin i det store kakestykket.",
+      "Stasjonsbytte uten kaos: like mange minutter på hver stasjon og halvveissignalet på — barna lærer å disponere tiden selv.",
+      "La tidsuret være den voksne: når stemmen sier «Nå samler vi oss», er det ikke læreren som avbryter leken — det er tiden selv, og det tar barna langt mer sporty."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

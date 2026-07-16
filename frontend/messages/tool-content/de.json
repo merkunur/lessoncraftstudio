@@ -227,6 +227,32 @@
       "Förderkreis gegen das Einzelzählen: Für Kinder, die noch alles abzählen, nur eine Stange und kleine Zahlen wählen — der eine Schwung macht das Sehen in Fünfern zur einzigen Chance, und genau das ist der Zweck."
     ]
   },
+  "class-timer": {
+    "slug": "klassen-timer",
+    "name": "Klassen-Timer",
+    "tagline": "Die Restzeit sehen, ruhig wechseln — ganz ohne Alarm",
+    "metaTitle": "Timer für die Grundschule – Zeitdauer-Uhr online | Kostenlos",
+    "metaDescription": "Ruhiger Klassen-Timer für Beamer & Whiteboard: Zeitdauer-Uhr, Sanduhr, Kerze oder Heißluftballon zeigen die Restzeit — ohne Alarm. Kostenlos, ohne Anmeldung.",
+    "about": [
+      "Der Klassen-Timer bringt die vertraute Zeitdauer-Uhr an Beamer und Whiteboard: Eine farbige Scheibe wird von Minute zu Minute kleiner, und die Kinder sehen die restliche Zeit, lange bevor sie Ziffern sicher lesen können. Statt eines Weckers, der die Klasse zusammenzucken lässt, gibt es einen warmen Drei-Ton-Klang und eine ruhige Stimme — Übergänge werden planbar statt hektisch. Und ein Grundsatz steht fest: Der Timer misst die gemeinsame Routine der Klasse, nie das Tempo eines Kindes. Kein Countdown-Druck, keine Punkte, kein Wettrennen — nur ein Bild, das leise sagt: So viel Zeit haben wir noch.",
+      "Im Alltag zählt jeder Handgriff: Minuten wählen, mit einem Tipp die Routine dazu — Aufräumen, Stationen, Lesezeit, Einpacken oder Murmelphase — und Start. Zu Beginn sagt eine freundliche Stimme den Kindern, wofür die Zeit ist; zur Halbzeit und bei der letzten Minute kommt ein sanfter Hinweis, ganz ohne Erschrecken. Reicht die Zeit einmal nicht, genügt ein Tipp auf „+1 Min.“ — ehrlicher als heimliches Nachstellen und für alle sichtbar. Am Ende lädt die Stimme zum Zusammenkommen ein, und der warme Dreiklang schließt die Phase ab: fertig, gut gemacht, weiter geht’s.",
+      "Wer mag, wechselt das Timer-Bild: Neben der Zeitdauer-Uhr schmilzt eine Kerze langsam herunter, rieselt Sand durch die Sanduhr oder steigt ein Heißluftballon Stück für Stück in den Himmel — vier ruhige Bilder für dieselbe Idee: die restliche Zeit sichtbar machen. Bewährte Abläufe wie „5 Minuten Aufräumen“ oder „15 Minuten Lesezeit“ lassen sich als eigene Timer speichern und morgen mit einem einzigen Tipp starten. In der Eckansicht macht sich der Timer klein und läuft in einem zweiten Browserfenster neben einem anderen projizierten Werkzeug mit — etwa neben der Blitzblick-Tafel —, ohne die Tafel zu verdecken. Alles direkt im Browser, ohne Installation und ohne Konto."
+    ],
+    "howToUse": [
+      "Öffnen Sie den Timer am Beamer oder Whiteboard und stellen Sie die Minuten ein — für den Anfang reichen die schnellen Vorschläge wie 5, 10 oder 15 Minuten.",
+      "Tippen Sie auf die passende Routine — Aufräumen, Stationen, Lesezeit, Einpacken oder Murmelphase —, damit alle wissen, wofür die Zeit ist.",
+      "Tippen Sie auf Start: Die Stimme kündigt die gemeinsame Zeit ruhig an, und das Bild beginnt sichtbar zu schrumpfen.",
+      "Lassen Sie die Kinder das Bild lesen: Zur Halbzeit und bei der letzten Minute erinnert ein sanfter Klang — wird es knapp, gibt „+1 Min.“ für alle sichtbar Zeit dazu.",
+      "Am Ende lädt die Stimme zum Zusammenkommen ein. Speichern Sie bewährte Abläufe als eigene Timer — morgen genügt ein einziger Tipp."
+    ],
+    "classroomIdeas": [
+      "Aufräum-Ritual: Jeden Tag dieselben fünf Minuten mit demselben Bild — nach einer Woche räumen die Kinder los, sobald die Scheibe erscheint, ganz ohne Ermahnung.",
+      "Stationenarbeit im Takt: Für jede Runde zehn Minuten stellen — der Klang zur Halbzeit heißt „zum Ende kommen“, die letzte Minute heißt „Platz für die Nächsten vorbereiten“.",
+      "Lesezeit mit Kerze: Für das Stillelesen die Kerze wählen und die Minutenanzeige ausblenden — im Raum wird es ruhig, und niemand schaut auf Ziffern.",
+      "Kurze Murmelphase: Zwei Minuten mit dem Heißluftballon — wenn er oben ankommt, kommen die Gespräche zurück in den Kreis. Der warme Dreiklang ersetzt das Klingelzeichen.",
+      "Eckansicht bei der Arbeit: Den Timer klein in die Ecke neben das Tafelbild oder die Blitzblick-Tafel legen — die Klasse behält die Zeit im Blick, während vorne weitergearbeitet wird."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

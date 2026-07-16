@@ -227,6 +227,31 @@
       "Hundraväggen: låt varje par äga en ram på väggen och bygg klassens tal tillsammans — se hur 47 blir fyra fulla tiorader och sju till."
     ]
   },
+  "class-timer": {
+    "slug": "klassrumstimer",
+    "name": "Klassrumstimer",
+    "tagline": "Se tiden krympa på tavlan — lugnt, vänligt och helt utan larm",
+    "metaTitle": "Visuell timer för klassrummet – gratis | LessonCraftStudio",
+    "metaDescription": "Gratis visuell timer för klassrummet: klocka med tårtbit som en timstock, lugn röst och mjukt pling. Perfekt för städning och tyst läsning — utan inloggning.",
+    "about": [
+      "Klassrumstimern gör tiden synlig för hela klassen: en klocka med en färgad tårtbit — precis som timstocken och Time Timer-klockan som redan hänger i många svenska klassrum — visas stor på projektorn, och tårtbiten krymper lugnt i takt med att minuterna går. Välj minuter, välj vad ni ska göra och tryck på Starta — sedan behöver ingen fråga hur länge det är kvar, för även en sexåring som inte kan klockan ser svaret på tavlan. Här finns inget tickande och inget larm som får axlarna att åka upp: när tiden är ute hörs ett mjukt pling och en vänlig röst, ungefär som när fröken säger till med lugn i rösten.",
+      "Timern mäter rutinen — aldrig barnen. Det är hela skillnaden mot ett tidtagarur: ingen tävlar, ingen stressas och ingen jämförs, utan klassen får en gemensam bild av en gemensam stund. Fem färdiga etiketter täcker skoldagens vanligaste övergångar — Städning, Stationer, Tyst läsning, Packa ihop och Prata med grannen — och rösten följer med genom stunden: 'Halva tiden har gått', 'En minut kvar' och till sist 'Dags att samlas'. Just de mjuka förvarningarna gör underverk för studieron: barnen hinner avsluta det de håller på med i stället för att bli avbrutna, och övergångarna blir lugna i stället för kaotiska. Behöver klassen lite till räcker ett tryck på +1 min — utan att någon märker något dramatiskt.",
+      "Tröttnar klassen på klockan finns tre bilder till: en sandburk där sanden sjunker, ett stearinljus som sakta brinner ner och en luftballong som landar precis när tiden är slut. Spara dina vanligaste stunder under Mina timrar — städtimern på fem minuter, lästimern på tjugo — så startar morgondagens rutin med ett enda tryck. Hörnvyn låter timern stå i ett hörn bredvid ett annat projicerat verktyg, till exempel blixtbilderna eller kulramen under samlingen. Allt körs direkt i webbläsaren på klassrumsdatorn eller projektorn — inget konto, ingen inloggning, på elva språk — och klockan med tårtbit är alltid gratis."
+    ],
+    "howToUse": [
+      "Välj minuter med ett par tryck — fem för städning, tjugo för tyst läsning — och lägg till eller dra ifrån med +1 och −1.",
+      "Välj vad ni ska göra: Städning, Stationer, Tyst läsning, Packa ihop eller Prata med grannen — eller låt timern vara utan etikett.",
+      "Tryck på Starta och låt bilden sköta resten: tårtbiten krymper lugnt, och klassen ser med en enda blick hur mycket tid som är kvar.",
+      "Lyssna efter de vänliga påminnelserna — halva tiden, en minut kvar — och det mjuka plinget på slutet; allt går att slå av eller på under inställningarna.",
+      "Behöver klassen mer tid? Tryck på +1 min medan timern går, eller pausa den helt när något oväntat händer — det är du som bestämmer över tiden, inte tvärtom."
+    ],
+    "classroomIdeas": [
+      "Städdags utan tjat: sätt fem minuter på Städning och låt tårtbiten göra påminnandet — rösten säger till när det är en minut kvar, och du slipper räkna ner själv.",
+      "Tyst läsning som håller hela vägen: tjugo minuter på projektorn tar bort alla 'hur länge till?' — och den som blir klar med sin bok ser själv om det är läge att hämta en ny.",
+      "Stationsbyte i samma lugna takt: samma antal minuter vid varje station, med plinget som signal — efter några veckor byter klassen station på ren rutin, utan att du höjer rösten.",
+      "Bikupa med tydlig ram: två minuter på Prata med grannen efter en fråga i samlingen — den korta, synliga tiden gör att även de tysta vågar, för alla vet att stunden tar slut snart."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

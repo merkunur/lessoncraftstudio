@@ -227,6 +227,31 @@
       "En atelier, un enfant montre un nombre de son choix et défie un camarade de le refaire — en un seul geste, évidemment."
     ]
   },
+  "class-timer": {
+    "slug": "minuteur-de-classe",
+    "name": "Minuteur de classe",
+    "tagline": "Le minuteur visuel des transitions sereines : horloge à quartier, bocal de sable, bougie ou montgolfière",
+    "metaTitle": "Minuteur visuel gratuit pour la classe | LessonCraftStudio",
+    "metaDescription": "Minuteur visuel gratuit à projeter : horloge à quartier, bocal de sable ou bougie, voix douce et carillon — des transitions sereines, de la maternelle au CE1.",
+    "about": [
+      "Dans une journée de classe, ce ne sont pas les séances qui fatiguent, ce sont les transitions : ranger les ateliers, sortir les cahiers, préparer les cartables. Le minuteur de classe rend le temps visible : un quartier coloré qui rétrécit doucement, comme sur les horloges visuelles que les classes de maternelle connaissent bien — et même les enfants qui ne lisent pas encore l’heure voient combien de temps il reste. Choisissez les minutes, touchez « Rangement », « Ateliers » ou « Lecture calme », appuyez sur Démarrer : la classe sait ce qu’elle fait, et jusqu’à quand. Et une chose ne change jamais : ce minuteur mesure le temps d’un rituel, jamais la performance d’un enfant — pas de course, pas de score, pas de pression.",
+      "Quatre images racontent le temps qui passe : l’horloge à quartier, le bocal de sable qui se vide, la bougie qui descend et la montgolfière qui se pose tout doucement. À votre place, une voix chaleureuse fait les annonces du rituel : « Notre temps commence », « Nous sommes à la moitié du temps », « Encore une minute » — et à la fin, un carillon doux, jamais une sonnerie d’alarme. C’est la voix de la maîtresse en version reposée : les repères sont donnés calmement, toujours avec les mêmes mots, et votre propre voix reste disponible pour ce qui compte — accompagner les enfants.",
+      "Le minuteur s’adapte à la vraie vie de la classe : « +1 min » quand un atelier a besoin d’un petit rab, Pause quand une visite interrompt le rangement, et « Mes minuteurs » pour retrouver en un geste les durées de vos rituels — les cinq minutes du rangement, les vingt minutes des ateliers. La vue en coin d’écran glisse le minuteur à côté d’un autre outil projeté. Tout fonctionne directement dans le navigateur, sur TBI, tablette et ordinateur : rien à installer, aucun compte à créer — et l’horloge à quartier reste gratuite, de la petite section au CE1."
+    ],
+    "howToUse": [
+      "Projetez le minuteur au TBI, choisissez les minutes, puis l’activité — Rangement, Ateliers, Lecture calme, On prépare les cartables ou Discussion à deux — et appuyez sur Démarrer.",
+      "Choisissez l’image qui raconte le temps : l’horloge à quartier, le bocal de sable, la bougie ou la montgolfière — l’image se vide à mesure que le temps passe, et chacun voit où l’on en est, sans savoir lire l’heure.",
+      "Activez les annonces vocales : la voix annonce le début, la moitié du temps et la dernière minute — des repères calmes, toujours dits avec les mêmes mots.",
+      "Ajustez sans drame : « +1 min » si la classe a besoin d’un peu plus, Pause si un imprévu arrive — c’est le minuteur qui suit la classe, jamais l’inverse.",
+      "À la fin, un carillon doux et une phrase chaleureuse — « C’est l’heure de se rassembler » — ramènent la classe vers vous, sans sonnerie stridente."
+    ],
+    "classroomIdeas": [
+      "Faites du rangement un rituel : chaque jour les mêmes cinq minutes, la même image, les mêmes annonces — au bout d’une semaine, la classe range au rythme de la montgolfière, sans que vous ayez à élever la voix.",
+      "En ateliers tournants, donnez la même durée à chaque groupe : l’annonce « Encore une minute » prépare la rotation en douceur — chacun finit son geste au lieu de s’arrêter net.",
+      "Pour la lecture calme, choisissez la bougie : elle descend sans bruit, et si toute la classe est plongée dans les livres, offrez « +1 min » — le plus joli des compliments.",
+      "En fin de journée, lancez « On prépare les cartables » en vue coin d’écran, à côté du Calendrier de la classe : la routine du soir se déroule pendant que vous vérifiez les mots aux familles."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

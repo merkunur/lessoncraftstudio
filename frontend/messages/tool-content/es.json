@@ -227,6 +227,31 @@
       "Conteo de decenas en la pared de 100: llena filas de diez mientras el grupo corea diez, veinte, treinta… y al final la herramienta dice el número en voz alta."
     ]
   },
+  "class-timer": {
+    "slug": "temporizador-visual",
+    "name": "Temporizador del salón",
+    "tagline": "El temporizador visual y sereno: rebanada, arena, vela o globo — un aviso amable, nunca una alarma",
+    "metaTitle": "Temporizador visual para el salón gratis | LessonCraftStudio",
+    "metaDescription": "Temporizador visual gratis para proyectar: reloj de rebanada, frasco de arena, vela o globo, con avisos suaves de voz. Para rutinas del salón, sin registro.",
+    "about": [
+      "Los niños de preescolar y primaria baja todavía no leen el reloj, pero sí pueden ver el tiempo. Este temporizador convierte los minutos en una imagen que se transforma despacio: la rebanada de color del reloj se hace más delgadita, la arena baja en el frasco, la vela se consume o el globo desciende suavecito. Con un vistazo desde cualquier rincón del salón, hasta el más pequeño sabe si queda mucho o poquito — sin números, sin nervios y sin que nadie pregunte cada dos minutos «¿ya?». Es la misma idea del reloj visual que las educadoras conocen bien, pero pensado para proyectarse en grande y acompañar las rutinas que piden los planes y programas: ordenar el día, anticipar lo que sigue y cerrar cada momento con calma.",
+      "Aquí se le pone tiempo a la rutina, nunca al niño. Eliges los minutos, tocas una de las rutinas de siempre —A recoger, Rincones, Lectura en silencio, A guardar o Platicamos en pareja— y el temporizador anuncia con voz cálida de maestra: «Empieza nuestro tiempo: A recoger». A la mitad avisa que vamos a la mitad, al final avisa con un minuto de anticipación, y cuando el tiempo se termina suena una campanita amable — nunca una alarma, nunca un timbre que sobresalte al grupo. No hay puntos, no hay carreras y no hay tache: si el salón necesita un momentito más, el botón de +1 min se lo da sin drama.",
+      "Cada aviso se puede prender o apagar por separado —la voz, la campanita del minuto, la de la mitad— para que el temporizador hable exactamente lo que tu grupo necesita, en once idiomas. Con Premium se abren las demás imágenes —la vela, el frasco de arena y el globo—, los temporizadores guardados de un toque («Recoger, 5 minutos» listo cada mañana sin volver a configurar nada) y la vista de esquina, que encoge el temporizador para acomodarlo junto a otra herramienta proyectada. El reloj de rebanada, las voces y las rutinas son gratis, siempre."
+    ],
+    "howToUse": [
+      "Proyecta el temporizador y elige los minutos con un toque — para una transición corta bastan 5; para lectura en silencio, 10 o 15.",
+      "Toca la rutina que van a hacer —A recoger, Rincones, Lectura en silencio, A guardar o Platicamos en pareja— o déjalo como temporizador sencillo.",
+      "Toca Empezar: la voz anuncia que el tiempo comienza y la imagen empieza a encogerse — los niños ven cuánto queda sin leer ningún número.",
+      "Deja que los avisos trabajen por ti: a la mitad y a falta de un minuto, la voz prepara al grupo para cerrar sin prisas ni sustos.",
+      "Al final suena la campanita amable — si el grupo necesita un momentito más, toca +1 min; si terminaron antes, Terminar ya cierra la rutina."
+    ],
+    "classroomIdeas": [
+      "A recoger con la canción: pon 5 minutos, toca A recoger y deja que la rebanada compita con «a guardar, a guardar, cada cosa en su lugar» — el salón queda listo antes del aviso final.",
+      "Rotación de rincones sin reloj de pared: 12 minutos por rincón; el aviso de la mitad les recuerda avanzar en su trabajo y el del minuto les da tiempo de dejar el material como lo encontraron.",
+      "Lectura en silencio que crece: empieza con 5 minutos y agrega uno cada semana — los niños ven la rebanada más ancha y se dan cuenta solitos de cuánto ha crecido su resistencia lectora.",
+      "Platicamos en pareja con tiempo parejo: 2 minutos por turno; cuando suena la campanita, cambia quién habla y quién escucha — el temporizador reparte la palabra, no la maestra."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

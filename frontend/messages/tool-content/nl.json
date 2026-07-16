@@ -227,6 +227,31 @@
       "Op de wand van 100: bouw 47 rij voor rij en zeg het getal samen — de tientallen zie je zó."
     ]
   },
+  "class-timer": {
+    "slug": "klassentimer",
+    "name": "Klassentimer",
+    "tagline": "Rustig aftellen bij elke overgang op het digibord",
+    "metaTitle": "Klassentimer: timer voor het digibord | LessonCraftStudio",
+    "metaDescription": "Gratis timer voor het digibord: kies de minuten en de routine, tik op Start en een rustige klok met taartpunt laat zien hoeveel tijd er nog is. Zonder account.",
+    "about": [
+      "In bijna elke klas hangt zo'n klok met een gekleurde taartpunt aan de muur — en wie hem heeft, weet waarom: kinderen die de klok nog lang niet kunnen lezen, zíén erop hoeveel tijd er nog is. Deze klassentimer zet dat vertrouwde beeld levensgroot op het digibord, als online time-timer voor het digibord: kies de minuten, kies wat de klas gaat doen — opruimen, hoekenwerk, stillezen — en tik op Start. De taartpunt wordt langzaam kleiner, de klas werkt rustig door en jij hebt je handen vrij. Geen zoemer, geen wekker, geen aftellende rode cijfers: de tijd wordt zichtbaar in plaats van spannend.",
+      "Wie wil, wisselt het beeld: naast de klok met taartpunt is er een zandpotje dat langzaam leegloopt, een kaars die opbrandt en een luchtballon die zachtjes landt — vier manieren om dezelfde tijd te laten zien, allemaal even kalm. Onderweg helpen zachte seintjes: een belletje halverwege, een vriendelijke stem die zegt dat er nog één minuut is, en aan het einde een warme toon met een gesproken zin — 'De tijd is om — goed gedaan, allemaal.' Nooit schril, nooit een alarm. En belangrijker nog: er is geen score, geen wedstrijd en geen snelste. De timer meet de routine van de klas — nooit de prestatie van een kind.",
+      "Vaste routines geven houvast, net als dagritmekaarten: als de klas wéét hoelang iets duurt, verlopen overgangen vanzelf rustiger. Daarom staan de vijf bekendste routines klaar als knop — opruimen, hoekenwerk, stillezen, inpakken, praten met je maatje — en de stem noemt de routine bij het starten: 'Onze tijd voor stillezen begint nu.' Eigen timers bewaar je met één tik: de opruimtimer van vijf minuten, het stilleeskwartier, de twee praatminuten in de kring. En met de hoekweergave zet je de timer klein in de hoek van het bord, naast de flitsbeelden of het rekenrek — zo groeit hij mee met alles wat je projecteert, van groep 1 tot en met 4."
+    ],
+    "howToUse": [
+      "Open de timer op het digibord en kies de minuten met de grote knoppen — bijsturen kan altijd met +1 en −1.",
+      "Kies wat de klas gaat doen — opruimen, hoekenwerk, stillezen, inpakken of praten met je maatje — of laat het label gewoon leeg.",
+      "Tik op Start en projecteer groot: de taartpunt wordt kleiner en de hele klas ziet de tijd verstrijken, zonder dat er iemand hoeft te vragen hoelang nog.",
+      "Laat de zachte seintjes het werk doen — een belletje halverwege en bij de laatste minuut — of zet ze uit als de klas in stilte werkt.",
+      "Is de tijd om, dan klinkt een warm belletje met een gesproken zin. Loopt iets uit? Eén tik op +1 min en niemand raakt gehaast."
+    ],
+    "classroomIdeas": [
+      "De opruimtimer van vijf minuten: start de timer, zet de klas aan het werk en laat het beeld het aansporen overnemen — iedereen ziet zelf hoeveel tijd er nog is.",
+      "Stillezen in groep 3 en 4: kies de kaars, veertien minuten, en lees zelf ook — de klas leest door tot het belletje, zonder dat er een klok tikt.",
+      "Wisselmoment bij hoekenwerk: elke ronde dezelfde timer, dezelfde stem, hetzelfde belletje — na een week wisselen de hoeken bijna vanzelf.",
+      "Praten met je maatje: twee minuten over het prentenboek of de som van de dag; bij 'nog één minuut' weten maatjes dat ze samen mogen afronden."
+    ]
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

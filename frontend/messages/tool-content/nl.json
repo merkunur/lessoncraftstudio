@@ -278,6 +278,32 @@
       "Wie mag vooraan in de rij naar de gymzaal? Trek bij elk loopmoment een stokje en de eeuwige voorkruipdiscussie is voorbij."
     ]
   },
+  "center-board": {
+    "slug": "hoekenbord",
+    "name": "Hoekenbord",
+    "tagline": "Het hele hoekenwerk op het digibord — doordraaien met één tik",
+    "metaTitle": "Hoekenbord: planbord voor hoekenwerk | LessonCraftStudio",
+    "metaDescription": "Gratis digitaal planbord voor hoekenwerk op het digibord: hang de groepjes aan de hoeken en tik op Doordraaien — de kaartjes schuiven door. Zonder account.",
+    "about": [
+      "Hoekenwerk draait op één ding: dat iedereen weet waar hij nu mag werken — en waar straks. Op de muur hangt daarvoor vaak een planbord met kaartjes en punaises; dit hoekenbord zet dat vertrouwde bord levensgroot op het digibord. Je zet je hoeken klaar — de luisterhoek, de leeshoek, bij de juf — en hangt er de groepjes aan: team Vos, team Schildpad, team Bij. Is de ronde voorbij, dan tik je op Doordraaien: een zacht belletje, een vriendelijke stem die zegt dat het tijd is, en de groepskaartjes schuiven vanzelf door naar de volgende hoek. De hele klas ziet het gebeuren — niemand hoeft meer te vragen waar hij heen moet.",
+      "In de hoeken werkt de klas rustig door, want de tijd is zichtbaar zonder spannend te zijn. Dezelfde kalme taartpunt als in onze klassentimer laat zien hoeveel er van de ronde over is, en bij de laatste minuut zegt de stem zachtjes dat het bijna opruimtijd is. Belangrijk: het bord draait nóóit vanzelf door. Jij bepaalt het moment, met één tik — want jij ziet of dat ene groepje net zijn bouwwerk aan het afmaken is. Per hoek kies je een pictogram voor het stemgebruik — stil, fluisterstem, maatjesstem — en een groepje dat deze ronde vrij is, staat er gewoon eerlijk bij. Geen score, geen wedstrijd, geen haast.",
+      "Het bord denkt ook mee met iedereen die je klas binnenloopt. Bovenin staat groot 'Ronde 2 van 4', en je zet met één regel een notitie klaar voor de hulpouder of de invaller — het hoekenwerk loopt gewoon door als jij er even niet bent. Aan elke hoek hang je bovendien een LessonCraftStudio-link: print de hoekkaart met QR-code, leg hem in de luisterhoek, en de kinderen scannen zelf de oefening die daar klaarstaat. De groepjes van vandaag haal je met één tik uit Beurtenstokjes, en net als daar blijven alle namen op jouw apparaat — er wordt niets verstuurd. Van groep 1 tot en met 4: het planbord van de klas, gewoon op het bord dat er al hangt."
+    ],
+    "howToUse": [
+      "Tik op 'Bord instellen' en kies je hoeken — of houd de klaargezette hoeken zoals de luisterhoek en de bouwhoek — en zet het aantal rondes en de minuten per ronde.",
+      "Haal de groepjes van vandaag met één tik uit Beurtenstokjes, of voeg zelf groepjes toe — elk groepje krijgt een kaartje op het bord.",
+      "Start de ronde: de taartpunt telt rustig af en de hele klas ziet in één oogopslag wie waar werkt en hoeveel tijd er nog is.",
+      "Is de ronde klaar, tik dan op Doordraaien — een belletje, een vriendelijke stem, en de kaartjes schuiven door naar de volgende hoek.",
+      "Hang aan een hoek een LessonCraftStudio-link en print de hoekkaart met QR-code — de kinderen scannen hem en de oefening staat meteen klaar."
+    ],
+    "classroomIdeas": [
+      "Doordraaimoment bij de kleuters: vier hoeken, vier groepjes, tien minuten per ronde — na een paar weken hoort de klas het belletje en pakt iedereen vanzelf zijn spullen om door te draaien.",
+      "Leesgroepjes in groep 3: zet 'Bij de juf' als vaste hoek en haal er elke ronde een ander groepje bij — de rest werkt zelfstandig door en jij hebt je handen vrij voor de instructie.",
+      "Voor de invaller: zet 's ochtends het bord klaar met een notitie ('team Vos heeft extra hulp nodig in de knutselhoek') — met 'Ronde 2 van 4' groot in beeld loopt het hoekenwerk door alsof je er zelf bij bent.",
+      "Oefen het stemgebruik: laat de klas vóór het doordraaien raden welk pictogram er bij de volgende hoek hoort — stil in de leeshoek, maatjesstem in de bouwhoek.",
+      "Leg in de luisterhoek een tablet met de gescande hoekkaart: de oefening van vandaag staat al open en niemand hoeft te wachten tot de juf komt helpen."
+    ]
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

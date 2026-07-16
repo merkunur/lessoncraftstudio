@@ -279,6 +279,32 @@
       "Fairness talk: let the class watch the cup fill and predict how many pulls until the jar is empty — turn-taking becomes math."
     ]
   },
+  "center-board": {
+    "slug": "center-board",
+    "name": "Center Board",
+    "tagline": "Your rotation chart, running itself calmly",
+    "metaTitle": "Free Center Rotation Board for K-3 | LessonCraftStudio",
+    "metaDescription": "A projector rotation board for classroom centers: animal team cards slide station to station with a chime, a calm round timer, and QR links per station.",
+    "about": [
+      "Centers run on one question asked thirty times an hour: \"where do I go?\" Center Board answers it from the projector. Stations sit as big illustrated cards — Listening, Math Table, Teacher Time — and every team's animal card is docked right under its station. When you tap Rotate, the cards physically slide one station over with a warm chime and a spoken \"time to rotate,\" so a five-year-old watches their fox walk to the writing table. No spreadsheet grid, no legend to decode: it works like the pocket chart on your wall, but it moves.",
+      "The round timer is the calm kind: a small coral wedge empties beside the Rotate button, whispers \"one minute — clean-up time\" near the end, and then simply makes the button glow. It never rotates the room on its own — you might be mid-sentence with your guided-reading group, so the transition always waits for your tap. A substitute can run the whole block from the board alone: \"Round 2 of 4\" sits above the stations, and each station can carry a one-line note like \"listen to the story, then draw your favorite part.\"",
+      "The board plugs into your other tools: pull today's teams straight from Name Sticks with one tap — same animals, same colors, kids' names on the cards — and give any station a LessonCraftStudio link, so the tablet basket at the listening center opens exactly the activity you chose, by QR card or a copied link. Drag any team card between stations when two friends need distance; the rotation keeps working around your change. Boards save per class, and each morning starts fresh at round one with your setup intact."
+    ],
+    "howToUse": [
+      "Set up your stations — pick from twelve illustrated center icons, rename them your way, and add an optional note or voice-level badge.",
+      "Bring in your teams: import today's groups from Name Sticks or add animal teams right on the board.",
+      "Start the round timer (5–20 minutes). The wedge empties calmly; at one minute the clean-up cue plays.",
+      "When the Rotate button glows, finish your sentence, then tap it — the cards slide one station over with a chime.",
+      "Give a station a LessonCraft link and print its QR card so the tablet station opens exactly what you planned."
+    ],
+    "classroomIdeas": [
+      "Daily 5 rotations: literacy stations with the teacher table as one stop — you see your striving readers while the board runs the room.",
+      "The substitute plan: save the board, leave \"Round 2 of 4\" on screen, and the note on each station card says what to do there.",
+      "Tablet listening center: tape the printed QR card to the table — kids scan and land exactly on this week's listening activity.",
+      "Uneven weeks: three teams on five stations just means two stations rest each round — every team still visits everything.",
+      "Fair transitions: kids watch their own animal card travel, so \"where do I go?\" answers itself without a single reminder."
+    ]
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

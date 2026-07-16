@@ -278,6 +278,32 @@
       "Makkerpar på få sekunder: sæt trækket til to pinde ad gangen, og lad krukken sætte parrene — nye makkere hver gang, helt uden diskussion."
     ]
   },
+  "center-board": {
+    "slug": "vaerkstedstavle",
+    "name": "Værkstedstavle",
+    "tagline": "Værkstedsarbejde gjort synligt på tavlen — hvert hold ved, hvor de skal hen, og kortene glider selv videre",
+    "metaTitle": "Værkstedstavle til værkstedsundervisning | LessonCraftStudio",
+    "metaDescription": "Gratis værkstedstavle til klassen: hvert hold har sit værksted, kortene glider selv videre ved rotation, rolig rundetimer og QR-kort. Alt på dansk, uden login.",
+    "about": [
+      "En værkstedstavle er hele klassens rotationsplan på projektoren: Øverst står værkstederne — Lyttehjørne, Læsehjørne, Matematikbord, Hos læreren — og under hvert værksted hænger et holdkort med dyr og navne. Alle kan se, hvor de skal hen, og ingen behøver at spørge. Når det er tid til at skifte, trykker du på Skift: En blid klokke lyder, en rolig stemme siger »Tid til at skifte!«, og kortene glider selv videre til næste værksted. Rotationen, som ellers koster fem minutters uro, tager ti sekunder — for det er tavlen, der viser vejen, ikke læreren. Værkstedsarbejde og stationsundervisning bliver til at overskue, også for de yngste.",
+      "Tavlen styrer rutinen, aldrig børnene. Rundetimeren er et stille lagkagestykke, der langsomt bliver mindre — og den starter først, når du selv trykker; tavlen skifter aldrig af sig selv. Et minut før tid siger stemmen »Ét minut tilbage — ryd op!«, så oprydningen er i gang, før rotationen begynder. Øverst står der altid »Runde 2 af 4«, så en vikar eller en forælder på besøg kan følge med uden forklaring — og du kan hænge en lille seddel til hjælperen på tavlen. Hvert værksted kan få et stemmeskilt — helt stille, hviskestemme eller makkerstemme — og et hold kan have fri en runde, når kabalen ikke går op. Ingen point, intet stopur og ingen konkurrence.",
+      "Tavlen arbejder sammen med resten af klasseværelset. Hvert værksted kan få sit eget LessonCraftStudio-link: Print værkstedskortet med QR-kode, hæng det ved bordet, og børnene scanner sig direkte ind i opgaven — uden at nogen skal stave til en adresse. Holdene henter du med ét tryk fra Navnepinde, så Ræveholdet, Biholdet og Ugleholdet er de samme hele ugen — eller du skriver dine egne. To værksteder er altid gratis; større tavler, værkstedslinks og gemte opstillinger er en del af Premium. Alt kører på dansk, direkte i browseren og uden login — sæt projektoren til, og lad kortene glide."
+    ],
+    "howToUse": [
+      "Vælg dine værksteder — Lyttehjørne, Matematikbord, Hos læreren — eller skriv dine egne, og hent dagens hold fra Navnepinde med ét tryk.",
+      "Sæt antal runder og minutter pr. runde, og læg eventuelt en seddel til hjælperen eller vikaren på tavlen.",
+      "Tryk på Start runden — lagkagestykket bliver stille og roligt mindre, og et minut før tid minder stemmen klassen om at rydde op.",
+      "Når I er klar, trykker du på Skift: Klokken lyder, stemmen siger »Tid til at skifte!«, og holdkortene glider selv videre til næste værksted.",
+      "Print værkstedskort med QR-koder, så hvert hold kan scanne sig direkte ind i opgaven ved bordet — og følg med i »Runde 2 af 4« øverst på tavlen."
+    ],
+    "classroomIdeas": [
+      "Dansktimen i fire værksteder: Læsehjørne, Ordværksted, Skrivehjørne og Hos læreren — læreren har ro til sin lille gruppe, for tavlen svarer på »hvor skal jeg hen?«.",
+      "Vikardagen: Sæt tavlen op om morgenen med en seddel til vikaren — »Runde 2 af 4« og de glidende kort betyder, at rotationen kører, selv om du ikke selv er der.",
+      "QR-værksteder: Hæng et printet værkstedskort ved tabletbordet, så holdet scanner sig direkte ind i dagens opgave — ingen adresser, der skal staves.",
+      "Ro med stemmeskilte: Læsehjørnet står på helt stille og Spillehjørnet på makkerstemme — skiltet på tavlen minder om det, så læreren ikke skal.",
+      "Fredagsværksteder på tværs: Kreahjørne, Byggehjørne og Spillehjørne med korte runder — og efter sidste runde siger tavlen pænt, at værkstederne er færdige for i dag."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

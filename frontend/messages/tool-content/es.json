@@ -278,6 +278,32 @@
       "El orden de las exposiciones: cuando toque presentar trabajos, saca los palitos uno por uno para armar el orden de pase — justo, visible y sin que nadie quede «al último otra vez»."
     ]
   },
+  "center-board": {
+    "slug": "tablero-de-rincones",
+    "name": "Tablero de rincones",
+    "tagline": "La rotación de rincones y estaciones a la vista: cada equipo sabe a dónde va",
+    "metaTitle": "Tablero de rincones y estaciones gratis | LessonCraftStudio",
+    "metaDescription": "Tablero de rincones para el aula: rotación de estaciones con equipos, temporizador sereno, avisos de voz y tarjetas QR. Gratis y sin registro, para proyectar.",
+    "about": [
+      "En muchos salones de México ya existe este tablero en la pared: bolsillos con los nombres de los rincones y tarjetas que la maestra mueve cada vez que toca cambiar. Esta es esa misma idea, lista para proyectar en grande. Cada rincón o estación de aprendizaje tiene su tarjeta —Biblioteca, Con la maestra, Construcción, Tabletas— y cada equipo del grupo aparece con su animal: Equipo Zorro, Equipo Tortuga, Equipo Abeja. Con un vistazo desde cualquier lugar del salón, hasta el más pequeño sabe exactamente a dónde le toca ir. Y cuando llega la hora de cambiar, tocas «¡A rotar!»: las tarjetas se deslizan al siguiente rincón, suena una campanita y una voz cálida avisa que es hora de rotar.",
+      "El tiempo lo marca un temporizador sereno: una rebanada de color que se va haciendo delgadita mientras avanza la ronda. Cuando falta un minuto, la voz avisa con calma —«Un minuto — ¡a recoger!»— para que los niños dejen el material como lo encontraron. Y aquí está la decisión más importante de la herramienta: el tablero nunca rota solo. La rotación siempre la decide la maestra con un toque, porque nadie conoce mejor el ritmo de su grupo que quien lo tiene enfrente. El contador de «Ronda 2 de 4» mantiene el hilo de la mañana a la vista de todos — algo que un ayudante o un maestro suplente agradece muchísimo.",
+      "Cada rincón puede llevar su propio enlace de LessonCraftStudio: pega el enlace de una hoja interactiva o de una herramienta, imprime la tarjeta con su código QR y déjala en la mesa — los niños la escanean con la tableta y llegan directo a su actividad, sin escribir nada. Los equipos de hoy se traen con un toque desde Palitos con nombre, para que el frasco y el tablero trabajen juntos. Funciona directamente en el navegador —pizarra digital, tabletas y computadoras del aula— sin instalar nada y sin crear cuentas. Sin puntos, sin carreras y sin tache: solo el orden tranquilo de los rincones, ronda tras ronda."
+    ],
+    "howToUse": [
+      "Prepara el tablero: elige tus rincones —puedes cambiarles el nombre a cada uno— y trae los equipos de hoy desde Palitos con nombre, o agrégalos aquí mismo.",
+      "Proyecta el tablero en la pizarra digital: cada equipo aparece con su animal en el rincón que le toca, y el grupo entero puede comprobarlo con sus propios ojos.",
+      "Elige los minutos y toca Empezar la ronda: la rebanada de color avanza despacio y, a falta de un minuto, la voz avisa que es hora de recoger.",
+      "Cuando el grupo esté listo, toca «¡A rotar!»: las tarjetas se deslizan al siguiente rincón con su campanita — el tablero nunca rota solo, tú decides el momento.",
+      "Para las estaciones con tableta, pega un enlace de LessonCraftStudio en el rincón e imprime su tarjeta con código QR; deja una nota para el ayudante o el suplente y el contador de rondas hace el resto."
+    ],
+    "classroomIdeas": [
+      "Rincones de preescolar con grupo pequeño: fija «Con la maestra» como tu estación de trabajo dirigido; mientras los demás equipos rotan solos, tú atiendes a un equipo por ronda y el tablero lleva la cuenta.",
+      "Un equipo que descansa: si tienes más equipos que rincones, el tablero sienta a uno con «Descansa esta ronda» — perfecto para que ese equipo termine trabajos pendientes o lea en la biblioteca.",
+      "Día a prueba de suplentes: deja escrita la nota para el suplente, configura las rondas y los minutos, y el tablero dirige la mañana: «Ronda 2 de 4» le dice a cualquiera exactamente en qué momento del día van.",
+      "Estación de tabletas con QR: enlaza una hoja interactiva de LessonCraftStudio al rincón de Tabletas e imprime la tarjeta; los niños escanean y trabajan solos, sin teclear direcciones ni pedir ayuda.",
+      "Letreros de voz por rincón: pon Silencio en la Biblioteca, Susurro en Escritura y Voz baja en Juegos — el letrero de cada tarjeta les recuerda a los niños cómo se habla en cada rincón sin que nadie lo repita."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

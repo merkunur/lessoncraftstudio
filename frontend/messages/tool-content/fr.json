@@ -304,6 +304,32 @@
       "À l’atelier écoute, imprimez la carte QR d’une histoire LessonCraftStudio : les enfants scannent, écoutent, et la tablette est déjà à la bonne page quand l’équipe suivante arrive."
     ]
   },
+  "learning-clock": {
+    "slug": "horloge-parlante",
+    "name": "Horloge parlante",
+    "tagline": "L'horloge qui dit l'heure comme on la dit vraiment — « huit heures moins le quart »",
+    "metaTitle": "Horloge parlante interactive – apprendre à lire l'heure",
+    "metaDescription": "Une horloge parlante pour apprendre à lire l'heure : l'enfant déplace les aiguilles et l'horloge dit l'heure comme on la dit vraiment, du CP au CE2.",
+    "about": [
+      "L'horloge parlante fait ce qu'aucune affiche ne sait faire : elle dit l'heure comme on la dit vraiment. L'enfant fait glisser la grande aiguille, la petite avance toute seule — les deux sont engrenées, comme sur une vraie horloge — et la bulle annonce « huit heures moins le quart », jamais le « sept heures quarante-cinq » raide des écrans. C'est tout le nœud de la lecture de l'heure en français : entre ce que montrent les aiguilles et ce que dit la voix, il y a nos façons de dire — et quart, et demie, moins dix, moins le quart. Le bouton « Pourquoi on dit ça comme ça ? » ouvre l'explication au moment exact où la question se pose, et le clin d'œil est assumé : nos élèves ont désormais leur horloge parlante à eux.",
+      "La précision suit la progression du cycle 2 : les heures pleines et les demi-heures pour commencer (CP), puis les quarts d'heure (CE1), les cinq minutes et la minute (CE2) — exactement l'attendu des programmes, « lire l'heure sur une horloge à aiguilles ». Le côté « moins » — la vraie difficulté — devient visible : à partir de trente-cinq, la voix bascule vers l'heure suivante, et l'enfant voit pourquoi « cinq heures moins vingt », c'est la grande aiguille sur le 8 et la petite déjà presque sur le 5. Le soleil et la lune font vivre midi et minuit — et leur grammaire : sept heures et demiE, mais midi et demi. L'affichage numérique, débrayable, montre 2:30, 14:30 ou les deux : le pont entre l'horloge à aiguilles et l'heure de la gare.",
+      "Trois modes prolongent la découverte : l'Entraînement demande « Règle l'horloge sur… » et l'enfant place les aiguilles lui-même ; « Combien de temps ? » fixe un début et une fin pour lire une durée — le calcul de durées du CE2 en un geste ; et « Les heures de notre journée » garde les moments de la classe — la cantine, la récréation, la sortie — pour que lire l'heure serve à quelque chose dès le premier jour. Sans minuteur, sans score, rien à installer : une horloge calme pour le TBI, la tablette et l'ordinateur — et explorer l'horloge parlante reste gratuit."
+    ],
+    "howToUse": [
+      "Projetez l'horloge au TBI en mode Découverte : un enfant fait glisser la grande aiguille, l'horloge dit l'heure à voix haute, la classe répète — la petite aiguille avance toute seule, comme sur une vraie horloge.",
+      "Choisissez la précision selon la classe : heures et demi-heures au CP, quarts d'heure au CE1, cinq minutes puis minute au CE2 — l'horloge ne dit jamais une heure que la classe ne sait pas encore lire.",
+      "Au premier « moins le quart », appuyez sur « Pourquoi on dit ça comme ça ? » : l'horloge montre pourquoi, passé la demie, on regarde déjà vers l'heure suivante.",
+      "Passez en mode Entraînement : l'horloge demande « Règle l'horloge sur trois heures et quart », l'enfant place les aiguilles, puis Vérifier — en cas d'erreur, un rappel doux : la petite aiguille montre l'heure, la grande les minutes.",
+      "Enregistrez les heures de votre journée — la cantine, la récréation, la sortie — puis utilisez « Combien de temps ? » : on fixe le début, on fixe la fin, et la classe lit la durée."
+    ],
+    "classroomIdeas": [
+      "En rituel du matin, l'enfant responsable règle l'horloge sur le prochain moment de la journée — « Règle l'horloge sur la cantine — midi et demi » — et la classe valide en lisant l'heure à voix haute.",
+      "La leçon du « moins » : affichez 7 h 45 avec l'affichage numérique en mode « Les deux » — la classe compare « sept heures quarante-cinq » et « huit heures moins le quart », deux façons de dire la même chose, et cherche laquelle on dit à la maison.",
+      "Jeu de l'horloger par deux : un enfant règle une heure en secret, l'autre la lit à voix haute — puis on échange ; sur ardoise, toute la classe écrit l'heure que montre l'horloge du TBI.",
+      "Combien dure la récréation ? Fixez le début à dix heures et quart, la fin à dix heures et demie — la classe lit « 15 minutes » et vérifie en comptant les graduations de cinq en cinq.",
+      "Au CE2, le pont vers l'heure de la gare : l'horloge montre « deux heures et demie », l'affichage numérique dit 14:30 — matin ou après-midi ? Le soleil et la lune tranchent, et on découvre midi, minuit… et pourquoi on dit midi et demi, sans e."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

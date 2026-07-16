@@ -304,6 +304,32 @@
       "Fredagsværksteder på tværs: Kreahjørne, Byggehjørne og Spillehjørne med korte runder — og efter sidste runde siger tavlen pænt, at værkstederne er færdige for i dag."
     ]
   },
+  "learning-clock": {
+    "slug": "laeringsur",
+    "name": "Læringsur",
+    "tagline": "Uret, der siger »halv tre« — lær klokken, som vi rigtigt siger det",
+    "metaTitle": "Lær klokken – gratis læringsur online | LessonCraftStudio",
+    "metaDescription": "Lær klokken med det talende læringsur: træk i viserne, og uret siger »halv tre« og »ti i halv ti« — som vi rigtigt siger det på dansk. Gratis, uden login.",
+    "about": [
+      "Læringsuret siger klokken, som vi rigtigt siger det på dansk: Står viserne på 2:30, siger taleboblen »halv tre« — og på 9:20 siger den »ti i halv ti«. Det er præcis dér, mange børn kører fast, for det danske »halv« og hele »i halv«-familien peger allerede frem mod den NÆSTE time. Et tryk på »Hvorfor siger vi det sådan?« viser det direkte på urskiven: En farvet bue gør synligt, at der på vejen mod tre allerede er gået en halv time.",
+      "Viserne er tandhjulsforbundne som på et rigtigt ur: Drejer barnet den lange minutviser, vandrer den korte timeviser langsomt med — netop den detalje, papurene ikke kan vise, og som forklarer, hvorfor timeviseren klokken halv tre står mellem 2-tallet og 3-tallet. Der læres i små trin: først hele timer, så halve timer, kvarterer, 5-minutters trin og til sidst det enkelte minut. Sol og måne skifter mellem dag og aften, og den digitale visning kan vise 2:30, 14:30 eller begge dele — broen fra viserur til digitalur, helt uden ekstra forklaring.",
+      "Tre veje gennem tiden: I øvetilstanden stiller uret opgaver — »Stil uret på halv tre.« Børnene drejer viserne og trykker på Tjek; ved en fejl kommer der ikke et rødt kryds, men et venligt hint om den korte og den lange viser. I Hvor længe-tilstanden sættes en starttid og en sluttid, og uret viser, hvor lang tid der er imellem — fra frikvarteret begynder, til det slutter. Og under »Vores tider« gemmer I klassens egne tidspunkter — spisepause, idræt, hjemtid — som uret laver opgaver ud af. Det hele kører direkte i browseren, uden installation og uden login — og som altid hos os: uden point, uden tidspres, uden kapløb."
+    ],
+    "howToUse": [
+      "Åbn læringsuret på den interaktive tavle, og lad børnene først udforske frit: trække i viserne, lytte og blive overraskede — uret siger hver eneste tid højt.",
+      "Vælg det trin, der passer til klassen — hele timer til begyndelsen, halve timer til »halv tre«-aha-oplevelsen, senere kvarterer, 5-minutters trin og minutter.",
+      "Tryk på »Hvorfor siger vi det sådan?« ved de svære tider — den farvede bue på urskiven viser, hvorfor »halv tre« allerede er på vej mod tre.",
+      "Skift til øvetilstanden: Uret stiller opgaver, børnene drejer viserne og tjekker selv — med venlige hint i stedet for røde krydser.",
+      "Gem klassens faste tidspunkter under »Vores tider« — spisepause, idræt, hjemtid — og lad uret lave opgaver ud af dem."
+    ],
+    "classroomIdeas": [
+      "Morgenritual: Hver dag stiller et nyt barn uret på den aktuelle tid og lader det tale — efter et par uger siger halvdelen af klassen tiden, før uret gør det.",
+      "Hvor længe varer frikvarteret? Sæt start og slut i Hvor længe-tilstanden — klassen gætter først, og uret afslører den rigtige længde.",
+      "Vores dag på uret: Gem klassens faste tider — spisepause, idræt, hjemtid — under »Vores tider«, og stil dem som opgaver: »Stil uret på spisepause.«",
+      "Hviske-makkerpar: Det ene barn stiller i al hemmelighed en tid, makkeren siger den højt — og trykker så på »Sig klokken«, så uret afslører, om det passede.",
+      "To måder at sige det på: Skriv »9:20« på tavlen, og lad børnene stille uret og sige det på den danske måde — »ti i halv ti«. Bagefter byttes der om: Uret taler, og børnene skriver de digitale tal."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

@@ -304,6 +304,32 @@
       "Temadag: bygg stationer kring ett tema — experiment i Forskarhörna, faktaböcker i Läshörna, eget skapande i Skapande — och låt tavlan hålla i rotationen."
     ]
   },
+  "learning-clock": {
+    "slug": "lara-sig-klockan",
+    "name": "Lärklockan",
+    "tagline": "Dra i visarna — klockan säger tiden som vi säger den: halv tre, kvart i fem.",
+    "metaTitle": "Lära sig klockan — talande övningsklocka | LessonCraftStudio",
+    "metaDescription": "Gratis talande övningsklocka: dra i visarna och hör tiden på riktig svenska — halv tre, kvart i fem, fem i halv ett. Träna klockan i åk 1–2, utan konto.",
+    "about": [
+      "Lärklockan är en urtavla med riktiga växlar: när minutvisaren snurrar följer timvisaren med, precis som på klockan i klassrummet. Men det som gör den speciell är rösten — dra i visarna, så säger klockan tiden högt så som vi faktiskt säger den på svenska: halv tre, kvart i fem, fem i halv ett. Projicera den på tavlan, låt barnen turas om att dra, och växla mellan sol och måne när ni pratar om morgon och kväll. En digital ruta kan visa 2:30, 14:30 eller båda — när klassen är redo att koppla urtavlan till tidtabellernas språk.",
+      "Att kunna klockan är centralt innehåll i matematiken för årskurs 1–3 i Lgr22 — och det svåra är sällan visarna utan språket. Varför heter det halv tre när klockan är på väg mot tre? Varför betyder fem i halv ett tjugofem minuter över tolv? Lärklockan gör språket hörbart: varje läge på urtavlan har sitt riktiga uttryck, uppläst med svenskt uttal, och knappen Varför säger vi så? förklarar tanken bakom — att halv, i och över alltid pekar mot en hel timme. Här finns inga timers, inga poäng och inget stressigt — bara en klocka som pratar och barn som lyssnar, härmar och till slut säger det själva.",
+      "Börja med hela timmar och halvtimmar och lägg till kvartar och minuter i takt med klassen. I övningsläget ber klockan om en tid — Ställ klockan på halv åtta — och barnet drar visarna och trycker Kolla, med en vänlig knuff i rätt riktning om det blev fel. I läget Hur länge? fäster ni en start och ett slut och ser hur lång rasten faktiskt är. Och under Våra tider sparar ni klassens egna klockslag — lunch, idrott, hemgång — så att övningen handlar om barnens egen dag. Verktyget körs direkt i webbläsaren på klassrumsdatorn eller projektorn — inget konto, ingen inloggning — och finns på elva språk, med tiden sagd som din klass säger den."
+    ],
+    "howToUse": [
+      "Välj steg efter klassen: börja med Timmar och Halvtimmar, och lägg till Kvartar och minutsteg längre fram.",
+      "Dra i visarna — minutvisaren drar timvisaren med sig, precis som på en riktig klocka, och klockan säger tiden medan du drar.",
+      "Tryck på Säg tiden för att höra tiden igen, och på Varför säger vi så? när någon undrar över halv tre och fem i halv ett.",
+      "Byt till Öva: klockan ber om en tid, barnet ställer visarna och trycker Kolla — och får en vänlig ledtråd om den korta visaren hamnat fel.",
+      "Spara klassens egna tider under Våra tider — lunch, rast, hemgång — och använd Hur länge? för att mäta hur lång en aktivitet är."
+    ],
+    "classroomIdeas": [
+      "Dagens schema: ställ klockan på nästa hållpunkt varje morgon — vad händer klockan halv nio? — och låt ett barn dra visarna medan klassen säger tiden i kör.",
+      "Halv tre-gåtan: visa 2:30, låt klockan säga halv tre och fråga: halv på väg mot vad? Låt barnen upptäcka att halv, i och över alltid pekar framåt mot en hel timme.",
+      "Rastmätaren: fäst rastens start och slut i Hur länge?-läget, låt klassen räkna minuterna först — och låt klockan avslöja svaret.",
+      "Sol och måne: samma urtavla, två tider — visa klockan 8 på morgonen och klockan 8 på kvällen och prata om vad som händer då; slå på 14:30-rutan för de som är redo.",
+      "Våra tider: spara lunch, idrott och hemgång tillsammans, och låt ett barn ställa klockan på nästa sparade tid — med etiketten som ledtråd."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

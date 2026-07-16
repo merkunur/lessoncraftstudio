@@ -305,6 +305,32 @@
       "Fair transitions: kids watch their own animal card travel, so \"where do I go?\" answers itself without a single reminder."
     ]
   },
+  "learning-clock": {
+    "slug": "learning-clock",
+    "name": "Learning Clock",
+    "tagline": "The clock that says the time the way people really say it",
+    "metaTitle": "Free Interactive Learning Clock — Telling Time K-3",
+    "metaDescription": "A big geared teaching clock for the projector: drag the hands and it says the time out loud — \"half past 2\" — with an arc that shows why. Free, no signup.",
+    "about": [
+      "The Learning Clock is a big, friendly analog clock with real gearing: drag the minute hand all the way around and the hour hand creeps forward with it, exactly like the classroom clock on your wall. That one detail quietly fixes the most stubborn time-telling misconception — at 2:50, is it 2 o'clock or 3? Children who only ever see clocks drawn with the hour hand parked on a number never get to wrestle with that; here the answer is visible in the hands themselves.",
+      "The speech bubble is the part your class will remember. Set the clock to 2:30 and it doesn't recite \"two thirty\" — it says \"half past 2\", out loud, the way people actually say it. A tap on the little question mark draws a soft arc on the face showing exactly which half the words are talking about, and the numeral the phrase points to gives a friendly wave. Reading a clock and saying the time are two different skills; this tool teaches them together.",
+      "A five-stop difficulty ladder walks the whole journey: whole hours for the youngest, then half hours, quarters, five minutes, and finally to-the-minute times, where the bubble switches to the formal reading a station announcer would use. Task mode asks children to set the clock themselves, elapsed mode shades the time between a start and an end flag, and you can save your own class times — lunch, story time, home time — as prompts. It runs in the browser, no account needed."
+    ],
+    "howToUse": [
+      "Project the clock and drag either hand — the bubble reads the new time aloud when you let go. Let children take turns being the one who sets it.",
+      "Pick the difficulty stop that matches your unit: whole hours, half hours, quarters, five minutes, or to the minute.",
+      "Tap the question mark when a phrase like \"half past 2\" needs unpacking — the arc shows exactly the stretch of clock the words describe.",
+      "Switch to Task mode and the clock asks for a time; children drag the hands and check. Misses get a gentle nudge, never a buzzer.",
+      "Use Elapsed mode for \"how long until lunch?\" — pin the start and end flags and the shaded arc shows the answer in hour-sized chunks."
+    ],
+    "classroomIdeas": [
+      "Morning meeting: one child sets today's special time — the class reads it together before the bubble confirms it out loud.",
+      "Save your real class times — recess, library, home time — and use them as task prompts; children practice on times that matter to them.",
+      "The daily-schedule link: set the clock to the next transition and leave it on the projector; the hands and the wall clock will agree when it's time.",
+      "Quarter-hour scavenger hunt: call out \"quarter to 4\" and pairs race to set their own clock on tablets, then check against the board.",
+      "Elapsed-time stories: \"We started reading at half past 9 and stopped at 10 past 10 — how long did we read?\" Pin both flags and count the shaded chunks together."
+    ]
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

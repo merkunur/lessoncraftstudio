@@ -304,6 +304,32 @@
       "La stemmen ta ryddemaset: når det lyder «Ett minutt — ryddetid!», er det tavla som sier det, ikke du — og barn rydder påfallende mye bedre for en klokke enn for en voksen."
     ]
   },
+  "learning-clock": {
+    "slug": "laeringsklokka",
+    "name": "Læringsklokka",
+    "tagline": "Klokka som sier tiden slik vi faktisk sier den",
+    "metaTitle": "Lære klokka — gratis snakkende klokke | LessonCraftStudio",
+    "metaDescription": "En gratis interaktiv klokke for å lære klokka: dra i viserne og hør tiden slik vi faktisk sier den — «halv tre», «ti på halv ti». Ingen innlogging, fungerer på alle enheter.",
+    "about": [
+      "Å lære klokka er en av de store milepælene i småskolen — og den vanskeligste biten er ikke viserne, men språket. På norsk sier vi «halv tre» når klokka er 2:30, og «ti på halv ti» når den er 9:20. Læringsklokka er en interaktiv klokke med ekte tannhjul: barna drar i viserne, og klokka sier tiden høyt akkurat slik vi faktisk sier den.",
+      "Nettopp halv-systemet er stedet der mange barn snubler, for det peker alltid framover mot neste time — «halv tre» betyr at klokka er på vei mot tre. Når barna selv flytter den lange viseren forbi kvart over og hører klokka skifte fra «kvart over to» til «ti på halv tre», ser og hører de logikken samtidig. Knappen «Hvorfor sier vi det slik?» forklarer med enkle ord, og den digitale visningen kobler «halv tre» til 2:30 og 14:30 når klassen er klar for det.",
+      "Læringsklokka kjører rett i nettleseren på tavle, nettbrett og klasseromsdatamaskiner — ingen innlogging, ingenting å installere. Begynn med hele og halve timer, og åpne for kvarter og minutter etter hvert som klassen vokser. Det er ingen tidtaker og ingen poeng — bare en vennlig klokke som snakker, i det rolige tempoet småskolen lærer klokka i."
+    ],
+    "howToUse": [
+      "Vis klokka på storskjerm eller gi den til barna på nettbrett, og la dem dra i viserne — klokka sier tiden høyt mens de utforsker.",
+      "Begynn med steget «Timer», og gå videre til halve timer når barna er trygge — halv-systemet er den viktigste biten å øve på.",
+      "Trykk på «Si hva klokka er» for å høre tiden igjen, og på «Hvorfor sier vi det slik?» når noen lurer på halv- og kvart-uttrykkene.",
+      "Bytt til Øv-modus og la klokka gi oppgaver: «Still klokka på halv tre» — barna drar viserne og sjekker selv.",
+      "Slå på den digitale visningen når klassen er klar, så ser barna «halv tre», 2:30 og 14:30 side om side."
+    ],
+    "classroomIdeas": [
+      "Dagsrytmen på veggen: lagre klassens faste tider under «Tidene våre» — skolestart, matfri, utetid — og la et barn stille klokka på neste hendelse hver morgen.",
+      "Halv-jakt: si en tid med halv («halv ni», «ti på halv ni») og la barna stille klokka — en fin, kort aktivitet i samlingsstunden.",
+      "Hvor lenge-modusen: fest starten når friminuttet begynner og slutten når det er over, og finn ut sammen hvor mange minutter det varte.",
+      "Analog møter digital: vis 14:30 på den digitale visningen og la barna finne ut hva vi sier — og motsatt vei.",
+      "Klokke-diktat i par: ett barn sier en tid, det andre stiller klokka — så bytter de, og klokka selv er fasit når den sier tiden høyt."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

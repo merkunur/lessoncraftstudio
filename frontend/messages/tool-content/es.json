@@ -304,6 +304,32 @@
       "Letreros de voz por rincón: pon Silencio en la Biblioteca, Susurro en Escritura y Voz baja en Juegos — el letrero de cada tarjeta les recuerda a los niños cómo se habla en cada rincón sin que nadie lo repita."
     ]
   },
+  "learning-clock": {
+    "slug": "aprender-la-hora",
+    "name": "Reloj para aprender la hora",
+    "tagline": "El reloj parlante que dice la hora como la decimos de verdad",
+    "metaTitle": "Reloj didáctico para aprender la hora | LessonCraftStudio",
+    "metaDescription": "Reloj didáctico gratis: mueve las manecillas y el reloj dice la hora en voz alta, como la decimos — «un cuarto para las ocho». Sin registro, para proyectar.",
+    "about": [
+      "Este es el reloj didáctico de siempre, pero que habla. Las manecillas están engranadas como en un reloj de verdad: cuando el niño arrastra la manecilla larga, la corta avanza sola poquito a poquito — y esa es media lección de la hora, porque deja de ser un misterio por qué a las tres y media la manecilla corta ya no apunta exactamente al tres. Al soltar, una burbuja dice la hora en voz alta tal como la decimos en México: «las tres y media», «las siete y cuarto», «un cuarto para las ocho». No la lectura robótica de un reloj digital, sino la hora de a de veras, la que el niño oye en su casa.",
+      "La parte difícil de la hora en español es el brinco de «y» a «para»: hasta la media hora decimos «las cuatro y veinte», pero después el reloj se voltea y decimos «veinte para las cinco» — mirando la hora que viene, no la que pasó. El reloj hace visible ese brinco: el botón «¿Por qué se dice así?» explica con palabras sencillas qué está mirando cada expresión, y los pasos se ajustan al grupo — horas y medias horas para empezar (gratis siempre), cuartos de hora y minuto a minuto cuando ya están listos. En el modo Practicar, el reloj pide una hora («Pon el reloj en diez para las dos») y el niño la arma con sus manos; si no sale, una pista amable recuerda cuál manecilla marca qué — sin taches, sin estrellas, sin prisa.",
+      "Alrededor del reloj vive el día del salón. En «Nuestros horarios» guardas las horas reales del grupo — el recreo, la comida, la salida — y se vuelven retos: «Pon el reloj en recreo — las diez y media». El modo «¿Cuánto tiempo?» fija un inicio y un final y cuenta cuánto pasó, para responder la pregunta eterna de «¿cuánto falta?». Y la pantalla digital opcional tiende el puente entre el 2:30 del horno de microondas y «las dos y media» de la abuela — en formato de 12 horas, de 24, o ambos. Todo se proyecta en grande y funciona en once idiomas, cada uno diciendo la hora a su manera."
+    ],
+    "howToUse": [
+      "Elige los pasos según tu grupo: horas y medias horas para empezar — esos son gratis siempre —, cuartos de hora o minuto a minuto cuando ya dominen lo básico.",
+      "Deja que arrastren las manecillas y escuchen: el reloj dice cada hora en voz alta, como la decimos. Con el sol y la luna cambian entre mañana y noche.",
+      "Cuando salga una hora con «para» — «veinte para las cinco» — toca «¿Por qué se dice así?» y platiquen la explicación: después de la media, miramos la hora que viene.",
+      "Pasa al modo Practicar: el reloj pide una hora, el niño la arma y toca Revisar. Si no sale, la pista recuerda que la manecilla corta marca la hora y la larga los minutos.",
+      "Guarda los horarios del grupo en «Nuestros horarios» — recreo, comida, salida — y úsalos como retos con nombre propio."
+    ],
+    "classroomIdeas": [
+      "Las horas de nuestro día: al empezar el ciclo, guarden juntos el horario del grupo — ¿a qué hora es el recreo?, ¿a qué hora nos vamos? — y cada mañana un niño pone el reloj en el momento que sigue.",
+      "El juego del para: proyecta las cuatro y veinte y avanza cinco minutos a la vez — «y veinticinco», «y media»… y de repente «veinticinco para las cinco». Que descubran ellos dónde se volteó el reloj.",
+      "Reto de pares: un niño dice una hora de su casa («me duermo a las ocho y media») y su pareja la pone en el reloj; luego cambian. El reloj es el juez: la dice en voz alta.",
+      "¿Cuánto dura el recreo?: con el modo «¿Cuánto tiempo?», fija el inicio y el final del recreo y cuenten juntos los minutos — luego compárenlo con lo que dura la clase de matemáticas.",
+      "El puente digital: activa la pantalla en «Ambas» y juega a traducir — el reloj de manecillas dice «un cuarto para las ocho» y los niños buscan cómo se ve eso en números: 7:45."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

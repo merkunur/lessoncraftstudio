@@ -305,6 +305,32 @@
       "Ruhiger Ausklang: Die Ansage zur letzten Minute ist das Aufräumsignal — wenn die Karten weitergleiten, ist jede Station schon ordentlich für das nächste Team."
     ]
   },
+  "learning-clock": {
+    "slug": "lernuhr",
+    "name": "Lernuhr",
+    "tagline": "Die Uhr, die „halb drei“ sagt — Uhrzeit lernen, wie wir sie wirklich sprechen",
+    "metaTitle": "Uhrzeit lernen – Lernuhr online Grundschule | Kostenlos",
+    "metaDescription": "Uhrzeit lernen mit der sprechenden Lernuhr: Zeiger drehen, und die Uhr sagt „halb drei“ — so, wie wir es wirklich sagen. Kostenlos, ohne Anmeldung.",
+    "about": [
+      "Die Lernuhr sagt die Uhrzeit so, wie wir sie im Alltag wirklich sagen: Stehen die Zeiger auf 2:30, sagt die Sprechblase „halb drei“ — genau die Hürde, an der viele Kinder hängen bleiben, denn das deutsche „halb“ schaut schon zur nächsten Stunde. Ein Tipp auf „Warum sagen wir das so?“ zeigt es direkt am Zifferblatt: Ein farbiger Bogen macht sichtbar, dass auf dem Weg zur Drei bereits eine halbe Stunde geschafft ist. Auch die regionale Frage ist mitgedacht: Ob bei Ihnen „Viertel nach zwei“ oder „viertel drei“ gesagt wird, stellen Sie mit einem Tipp um — die Uhr spricht so, wie Ihre Klasse spricht.",
+      "Die Zeiger sind verzahnt wie bei einer echten Uhr: Dreht ein Kind den langen Minutenzeiger, wandert der kurze Stundenzeiger langsam mit — genau das Detail, das Pappuhren nicht zeigen können und das erklärt, warum der Stundenzeiger um halb drei zwischen der Zwei und der Drei steht. Gelernt wird in kleinen Schritten: erst volle Stunden, dann halbe Stunden, Viertelstunden, 5-Minuten-Schritte und zuletzt die einzelne Minute. Sonne und Mond schalten zwischen Tag und Abend um, und die digitale Anzeige zeigt auf Wunsch 2:30, 14:30 oder beides — die Brücke von der Zeigeruhr zur Digitaluhr, ganz ohne Extra-Erklärung.",
+      "Drei Wege durch die Zeit: Im Übungsmodus stellt die Uhr Aufgaben — „Stell die Uhr auf halb drei.“ Die Kinder drehen die Zeiger und tippen auf Prüfen; bei einem Fehler gibt es kein rotes Kreuz, sondern einen freundlichen Hinweis auf den kurzen und den langen Zeiger. Im Wie-lange-Modus werden Start- und Endzeit angepinnt, und die Uhr zeigt die Dauer dazwischen — vom Pausenbeginn bis zum Pausenende. Und unter „Unsere Zeiten“ speichern Sie die Zeiten Ihrer Klasse — Mittagessen, Hofpause, Abholzeit —, aus denen die Uhr eigene Aufgaben macht. Alles läuft direkt im Browser, ohne Installation und ohne Konto — und wie überall bei uns: ohne Punkte, ohne Zeitdruck, ohne Wettrennen."
+    ],
+    "howToUse": [
+      "Öffnen Sie die Lernuhr am Beamer oder Whiteboard und lassen Sie die Kinder zuerst frei entdecken: an den Zeigern ziehen, zuhören, staunen — die Uhr sagt jede Zeit laut an.",
+      "Wählen Sie bei den Schritten die passende Stufe — volle Stunden für den Einstieg, halbe Stunden für den „halb drei“-Aha-Moment, später Viertelstunden, 5-Minuten-Schritte und Minuten.",
+      "Tippen Sie bei kniffligen Zeiten auf „Warum sagen wir das so?“ — der farbige Bogen am Zifferblatt zeigt, warum „halb drei“ schon auf dem Weg zur Drei liegt.",
+      "Wechseln Sie in den Übungsmodus: Die Uhr stellt Aufgaben, die Kinder drehen die Zeiger und prüfen selbst — mit freundlichen Hinweisen statt roter Kreuze.",
+      "Speichern Sie unter „Unsere Zeiten“ die Zeiten Ihrer Klasse — Mittagessen, Hofpause, Abholzeit — und lassen Sie die Uhr daraus eigene Aufgaben machen."
+    ],
+    "classroomIdeas": [
+      "Morgenritual: Jeden Tag stellt ein anderes Kind die Uhr auf die aktuelle Zeit und lässt sie sprechen — nach ein paar Wochen sagt die halbe Klasse die Zeit schon vor der Uhr.",
+      "Sprachforscher-Auftrag: „Viertel nach zwei“ oder „viertel drei“? Die Kinder fragen zu Hause nach, wie Eltern und Großeltern die Zeit sagen — am nächsten Tag wird die Karte der Familien-Uhrzeiten verglichen und beides an der Lernuhr ausprobiert.",
+      "Wie lange dauert unsere Pause? Im Wie-lange-Modus Start und Ende der Hofpause anpinnen — die Klasse schätzt vorher, die Uhr verrät die echte Dauer.",
+      "Unser Tag an der Uhr: Die festen Zeiten der Klasse — Frühstück, Sport, Abholzeit — unter „Unsere Zeiten“ speichern und als Aufgaben stellen: „Stell die Uhr auf Mittagessen.“",
+      "Flüster-Duo: Ein Kind stellt heimlich eine Zeit ein, das Partnerkind sagt sie laut — dann drückt es „Uhrzeit ansagen“ und die Uhr verrät, ob es stimmt."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

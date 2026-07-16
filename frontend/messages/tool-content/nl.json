@@ -304,6 +304,32 @@
       "Leg in de luisterhoek een tablet met de gescande hoekkaart: de oefening van vandaag staat al open en niemand hoeft te wachten tot de juf komt helpen."
     ]
   },
+  "learning-clock": {
+    "slug": "oefenklok",
+    "name": "Oefenklok",
+    "tagline": "Klokkijken met een klok die de tijd echt zegt",
+    "metaTitle": "Oefenklok: klokkijken oefenen groep 3-5 | LessonCraftStudio",
+    "metaDescription": "Gratis pratende oefenklok: sleep de wijzers en hoor de tijd zoals wij die echt zeggen — 'tien voor half tien'. Klokkijken en kloklezen oefenen, zonder account.",
+    "about": [
+      "Klokkijken is in het Nederlands moeilijker dan in bijna elke andere taal. Om twintig over negen zeggen wij 'tien voor half tien' — het hele systeem draait om het halve uur, en het uur dat je noemt is het uur dat nog moet komen. Deze gratis oefenklok is daarvoor gebouwd: een analoge klok met echte tandwielen, waarbij de wijzers meedraaien zoals op een echte klok, en die bij elke stand de tijd hardop zegt zoals wij die werkelijk zeggen.",
+      "Een kind sleept de grote wijzer en hoort de taal met de klok meebewegen: vijf over negen, tien over negen, kwart over negen — en dan het spannende stuk — tien voor half tien, vijf voor half tien, half tien. Precies de zone waar het in groep 4 en 5 op vastloopt, wordt hier zichtbaar én hoorbaar. De knop 'Waarom zeggen we het zo?' legt het geheim uit, en de digitale weergave koppelt 'half tien' meteen aan 9:30 en 21:30.",
+      "De oefenklok werkt direct in de browser op het digibord, de tablet en de computer, zonder installatie en zonder account. Er is geen timer en geen score — alleen een geduldige klok die net zo vaak voordoet, naspreekt en meedraait als jouw klas nodig heeft."
+    ],
+    "howToUse": [
+      "Zet de oefenklok op het digibord, sleep de grote wijzer langzaam rond en laat de klok bij elke stap hardop zeggen wat er verandert — kinderen horen zo het systeem vóór ze het zelf hoeven te maken.",
+      "Begin met de stappen op 'Hele uren' en 'Halve uren' voor groep 3 en begin groep 4; zet kwartieren en minuten pas aan wanneer de klas eraan toe is.",
+      "Kies de oefenmodus: de klok vraagt bijvoorbeeld 'Zet de klok op tien voor half tien', het kind sleept de wijzers en drukt op Nakijken.",
+      "Gebruik de knop 'Waarom zeggen we het zo?' bij de lastige tijden rond het halve uur (20, 25, 35 en 40 minuten) en laat zien dat alles om 'half' draait.",
+      "Zet de digitale weergave aan zodra het benoemen lukt, zodat 'half 3' vanzelf aan 2:30 en 14:30 vastgeknoopt wordt."
+    ],
+    "classroomIdeas": [
+      "Sla bij 'Onze tijden' de vaste momenten van jullie dag op — gymles, overblijven, naar huis — en laat kinderen om de beurt de klok op zo'n moment zetten.",
+      "Speel echo-klok: de klok zegt de tijd, de hele klas zegt het na; daarna draait het om — een kind zegt de tijd eerst en controleert zichzelf met 'Zeg de tijd'.",
+      "Gebruik de Hoe-lang-modus voor echte vragen: zet de begintijd van de pauze vast, de eindtijd, en lees samen af hoe lang die duurde.",
+      "Tik op het zonnetje en het maantje en praat over dag en avond: half 4 's middags is 15:30 — waar ben jij dan, en waar ben je om half 4 's nachts?",
+      "Houd een 'tien voor half'-jacht in tweetallen: het ene kind kiest een moeilijke tijd rond het halve uur, het andere kind bouwt hem na en de klok is de scheidsrechter."
+    ]
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

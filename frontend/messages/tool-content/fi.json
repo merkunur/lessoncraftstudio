@@ -304,6 +304,32 @@
       "Eriyttämisen kierros: kun ryhmiä on yksi enemmän kuin pisteitä, lepäävä ryhmä hengähtää — tai istahtaa sinun kanssasi kertaamaan päivän tärkeimmän asian."
     ]
   },
+  "learning-clock": {
+    "slug": "opettelukello",
+    "name": "Opettelukello",
+    "tagline": "Kello, joka sanoo ”puoli kolme” — kellonajat niin kuin ne oikeasti sanotaan",
+    "metaTitle": "Opettele kellonajat – puhuva opettelukello | Ilmainen",
+    "metaDescription": "Ilmainen puhuva opettelukello: vedä viisareita, ja kello sanoo ajan niin kuin me sen oikeasti sanomme — ”puoli kolme”, ”viittä vaille kaksi”. Ei kirjautumista.",
+    "about": [
+      "Opettelukello sanoo kellonajan ääneen juuri niin kuin me sen suomeksi sanomme. Kun viisarit osoittavat 2.30, puhekupla sanoo ”puoli kolme” — ja siinä onkin suomen kellonaikojen koko juju: ”puoli” katsoo jo seuraavaan tuntiin, ja minuutit taipuvat omiin muotoihinsa — ”kymmentä vaille”, ”viittä vaille”, ”varttia vaille”. Juuri nämä muodot lapsi kuulee kellolta sata kertaa oikein sanottuina, kunnes ne alkavat soljua omasta suusta. Ja kun jokin aika ihmetyttää, napautus kysymykseen ”Miksi sanomme niin?” näyttää vastauksen suoraan kellotaululla: värikaari tekee näkyväksi, että matkalla kolmeen on jo puoli tuntia takana.",
+      "Viisarit ovat hammasrattaissa kuin oikeassa kellossa: kun lapsi vetää pitkää minuuttiviisaria, lyhyt tuntiviisari matkaa hitaasti mukana — juuri se yksityiskohta, jota pahvikello ei näytä ja joka selittää, miksi tuntiviisari on puoli kolmelta kakkosen ja kolmosen välissä. Opettelu etenee pienin askelin: ensin tasatunnit, sitten puolitunnit, vartit, 5 minuutin askeleet ja lopulta yksittäinen minuutti — samassa järjestyksessä kuin kellonajat opetellaan esiopetuksessa ja 1.–2. luokalla. Aurinko ja kuu vaihtavat päivän iltaan, ja digitaalinen näyttö näyttää halutessasi 2.30, 14.30 tai molemmat — silta viisarikellosta bussipysäkin ja lukujärjestyksen aikoihin.",
+      "Aikaan on kolme reittiä. Harjoittelutilassa kello antaa tehtävän — ”Aseta kello näyttämään: puoli kolme.” Lapsi kääntää viisarit ja tarkistaa itse; väärästä vastauksesta ei tule punaista ruksia vaan ystävällinen vihje lyhyestä ja pitkästä viisarista. Kuinka kauan -tilassa kiinnitetään alku- ja loppuaika, ja kello näyttää, kuinka pitkä hetki niiden väliin jää — vaikkapa välitunnin alusta sen loppuun. Ja Meidän ajat -kohtaan tallennetaan oman luokan ajat — ruokailu, välitunti, kotiinlähtö — joista kello tekee omia tehtäviä. Kaikki toimii suoraan selaimessa ilman asennusta ja tiliä, eikä täällä ole pisteitä, ajastinta eikä kilpailua."
+    ],
+    "howToUse": [
+      "Avaa Opettelukello valkotaululle tai anna se lapsille tableteille ja anna heidän ensin tutkia vapaasti: vedä viisareita ja kuuntele — kello sanoo jokaisen ajan ääneen.",
+      "Valitse Askeleet-kohdasta sopiva taso — tasatunnit alkuun, puolitunnit ”puoli kolme” -oivallukseen, myöhemmin vartit, 5 minuutin askeleet ja minuutit.",
+      "Napauta hankalan ajan kohdalla ”Miksi sanomme niin?” — värikaari kellotaululla näyttää, miksi puoli kolme on jo matkalla kolmeen.",
+      "Siirry harjoittelutilaan: kello antaa tehtäviä, lapset kääntävät viisarit ja tarkistavat itse — vihjeet ovat ystävällisiä, eivät punaisia rukseja.",
+      "Tallenna Meidän ajat -kohtaan luokan omat ajat — ruokailu, välitunti, kotiinlähtö — ja anna kellon tehdä niistä tehtäviä."
+    ],
+    "classroomIdeas": [
+      "Aamupiirin rituaali: joka aamu eri lapsi asettaa kellon näyttämään sen hetken aikaa ja antaa kellon puhua — muutaman viikon päästä puoli luokkaa sanoo ajan ennen kelloa.",
+      "Kaikukello: kello sanoo ajan ja koko luokka toistaa sen sanasta sanaan — ”kymmentä vaille puoli kymmenen” istuu suuhun vain sanomalla.",
+      "Kuinka pitkä on välitunti? Kiinnittäkää Kuinka kauan -tilassa välitunnin alku ja loppu — luokka arvaa ensin, kello paljastaa oikean vastauksen.",
+      "Meidän päivämme: tallentakaa luokan kiintopisteet — ruokailu, liikunta, kotiinlähtö — ja antakaa kellon kysellä niitä: ”Aseta kello näyttämään: ruokailu.”",
+      "Kielisalapoliisit: sanooko joku kotona ”vartti yli kolme” ja joku toinen ”vartin yli kolme”? Lapset kysyvät illalla kotona, ja aamulla verrataan — molemmat ovat oikein, ja kello näyttää saman ajan."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

@@ -278,6 +278,32 @@
       "Stationsgrupper på sekunder: skaka fram fyra lag inför stationsarbetet och låt djurmuggarna vara stationsnamnen — Rävlaget börjar vid läshörnan."
     ]
   },
+  "center-board": {
+    "slug": "stationstavla",
+    "name": "Stationstavla",
+    "tagline": "Stationsarbete med lugna byten",
+    "metaTitle": "Stationstavla för stationsarbete | LessonCraftStudio",
+    "metaDescription": "En gratis digital stationstavla för klassrummet. Lagen roterar mellan stationerna med lugna byten, uppläst röst och rundtimer — ingen inloggning, inget konto.",
+    "about": [
+      "Stationsarbete bygger på en enkel idé: klassen delas i lag, varje lag har en station, och med jämna mellanrum byter alla. Den här digitala stationstavlan gör bytena synliga och lugna. Stationerna ligger som kort på tavlan — Läshörna, Mattebord, Hos läraren — och varje lag har ett eget djurkort dockat vid sin station. När det är dags trycker du på Byt: korten glider vidare till nästa station, ett mjukt pling hörs och en vänlig röst säger att det är dags. Alla ser vart de ska, utan att någon behöver ropa.",
+      "För barnen ger tavlan trygghet: samma tydliga bild varje gång, ett förutsägbart byte och en rundräknare som visar var i passet ni är, så att även den som tappar tråden hittar tillbaka. För dig som lärare ger den ro att arbeta med en grupp i taget — vid stationen Hos läraren kan du köra läsgrupper eller ge extra mattestöd medan resten av klassen vet precis vad de ska göra. Rundtimern visar tiden som en lugn tårtbit och säger till när en minut återstår, men byter aldrig runda av sig själv: det är alltid du som trycker. Upplägget fungerar lika bra i förskoleklass som i årskurs 3.",
+      "Tavlan är byggd för verkliga klassrumsdagar. Hämta dagens lag direkt från Namnpinnar, lägg en lapp till resursen eller vikarien och skriv ut stationskort med QR-koder som öppnar rätt övning på surfplattan vid stationen. Allt körs direkt i webbläsaren på den interaktiva tavlan, surfplattor och datorer — inget konto, ingen installation. Och som alltid hos oss: inga poäng, ingen stress och ingen klocka som tar besluten åt dig. Tavlan håller ordningen, du håller i taktpinnen, och klassen får ett stationsarbete som byter i lugnt tempo."
+    ],
+    "howToUse": [
+      "Ställ in tavlan: välj hur många stationer ni kör, döp dem som i ert klassrum och hämta dagens lag från Namnpinnar — eller lägg till egna lag.",
+      "Visa tavlan på storbild. Varje lag ser sitt djurkort vid sin station, och rundräknaren visar var i passet ni är.",
+      "När det är dags trycker du på Byt — korten glider vidare till nästa station med ett pling och en uppläst rad.",
+      "Vill du ha stöd av tiden? Starta rundtimern: den räknar lugnt ner och säger till när en minut återstår, men den byter aldrig av sig själv.",
+      "Länka en LessonCraftStudio-övning till en station och skriv ut stationskortet med QR-kod — barnen skannar och hamnar rätt direkt."
+    ],
+    "classroomIdeas": [
+      "Läsgrupper: låt lagen rotera mellan Hos läraren, Läshörna, Lyssna och Ordverkstad medan du arbetar med en grupp i taget.",
+      "Matteverkstad: lägg olika material på varje station och QR-länka Tioram eller Tallinje till stationen med surfplattor.",
+      "Förskoleklassens hörnor: styr rotationen mellan Bygghörna, Skapande och Spel — bytena blir lugna när alla ser dem komma.",
+      "Vikariedagen: förbered tavlan i förväg, skriv en lapp i vikarierutan och låt rundräknaren visa var klassen är — vikarien behöver bara trycka på Byt.",
+      "Temadag: bygg stationer kring ett tema — experiment i Forskarhörna, faktaböcker i Läshörna, eget skapande i Skapande — och låt tavlan hålla i rotationen."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

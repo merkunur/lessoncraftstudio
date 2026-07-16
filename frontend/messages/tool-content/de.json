@@ -279,6 +279,32 @@
       "Namens-Ritual zum Schuljahresbeginn: Tragen Sie in der ersten Woche gemeinsam mit jedem Kind den „Klingt wie…“-Hinweis ein — jedes Kind hört seinen Namen einmal richtig von der Tafel, ein kleines Stück Ankommen."
     ]
   },
+  "center-board": {
+    "slug": "stationen-tafel",
+    "name": "Stationen-Tafel",
+    "tagline": "Stationsarbeit an der Tafel — jedes Team sieht, wohin es geht",
+    "metaTitle": "Stationsarbeit organisieren – Stationen-Tafel Grundschule",
+    "metaDescription": "Digitale Stationen-Tafel für Beamer & Whiteboard: Teams wandern per Tipp zur nächsten Station, mit ruhigem Runden-Timer und Ansage. Kostenlos, ohne Anmeldung.",
+    "about": [
+      "Die Stationen-Tafel bringt den vertrauten Stationsplan an Beamer und Whiteboard: Oben stehen die Stationen — Leseecke, Mathe-Tisch, Hörstation —, darunter docken die Tierteams an. Jedes Kind sieht auf einen Blick: Team Fuchs ist gerade an der Bauecke, danach kommt die Schreibstation. Wenn es Zeit ist, genügt ein Tipp auf „Wechseln“ — die Teamkarten gleiten sichtbar eine Station weiter, mit einem warmen Klang und einer freundlichen Ansage. Die ewige Frage „Und wohin gehen wir jetzt?“ beantwortet sich damit von selbst: Die Kinder schauen zur Tafel, finden ihr Tier und gehen los — ohne Gedränge, ohne Zettelwirtschaft, ohne dass jemand durch die Klasse rufen muss.",
+      "Den Takt behalten Sie in der Hand: Der kleine Runden-Timer zeigt die restliche Zeit als ruhige Scheibe — ohne Alarm, ohne Countdown-Druck. Bei der letzten Minute erinnert eine sanfte Stimme ans Aufräumen, gewechselt wird aber erst, wenn Sie tippen: Die Tafel dreht nie von allein weiter, denn ob eine Runde zwei Minuten länger braucht, entscheidet der Unterricht und nicht die Uhr. Auch an Vertretungen ist gedacht: „Runde 2 von 4“ steht gut lesbar über dem Plan, und eine kurze Stations-Notiz — „Heute nur die roten Karten“ — sagt Helfern und Vertretungslehrern genau das, was sie wissen müssen, ohne dass irgendwo ein Zettel gesucht werden muss.",
+      "Die Teams müssen Sie nicht neu anlegen: Ein Tipp übernimmt die heutigen Tierteams aus den Namensstäbchen — samt der Kinder, die gerade fehlen. Trägt eine Station einen LessonCraftStudio-Link, wird daraus eine QR-Karte: einmal ausdrucken oder am Stations-Tablet scannen, und die passende Übung ist geöffnet, ohne dass ein Kind eine Adresse eintippen muss. Bewährte Aufbauten — der Montagsplan mit vier Stationen, der Förderplan mit dem Lehrertisch — lassen sich speichern und sind morgen mit einem einzigen Tipp wieder da. Alles läuft direkt im Browser, ohne Installation und ohne Konto — und wie überall bei uns gilt: keine Punkte, kein Wettrennen, nur ein ruhiger Wechsel."
+    ],
+    "howToUse": [
+      "Öffnen Sie die Stationen-Tafel am Beamer oder Whiteboard und wählen Sie Ihre Stationen — die Karten sind frei beschriftbar, von der Leseecke bis zum Lehrertisch.",
+      "Holen Sie die Teams dazu: Übernehmen Sie die heutigen Tierteams aus den Namensstäbchen — oder legen Sie mit einem Tipp eigene Teams an.",
+      "Stellen Sie Runden und Minuten ein und starten Sie die erste Runde — der ruhige Timer zeigt die Restzeit, ganz ohne Alarm.",
+      "Wenn es so weit ist, tippen Sie auf „Wechseln“: Die Teamkarten gleiten zur nächsten Station, ein Klang und eine freundliche Ansage begleiten den Wechsel.",
+      "Hängen Sie an eine Station bei Bedarf einen LessonCraftStudio-Link — die QR-Karte öffnet die Übung direkt am Stations-Tablet. Bewährte Tafeln speichern Sie für morgen."
+    ],
+    "classroomIdeas": [
+      "Deutsch-Stationen am Morgen: Leseecke, Hörstation, Wörterwerkstatt und Lehrertisch — vier Runden à zehn Minuten, und am Ende war jedes Team einmal überall.",
+      "Förderzeit am Lehrertisch: Während drei Teams selbstständig arbeiten, sitzt eines bei Ihnen — der Wechsel per Tipp holt die nächste Kleingruppe an den Tisch, ganz ohne Rufen.",
+      "Tablet-Station ohne Tippfehler: Hängen Sie den Link zu einer LessonCraftStudio-Übung an die Station — die Kinder scannen die QR-Karte, und Runde für Runde ist die richtige Aufgabe schon offen.",
+      "Vertretungsstunde ohne Rätselraten: „Runde 2 von 4“ steht groß an der Tafel, die Stations-Notizen erklären den Rest — die Vertretung tippt nur auf „Wechseln“, den Ablauf kennt die Tafel.",
+      "Ruhiger Ausklang: Die Ansage zur letzten Minute ist das Aufräumsignal — wenn die Karten weitergleiten, ist jede Station schon ordentlich für das nächste Team."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

@@ -278,6 +278,32 @@
       "Chamada cantada no começo do ano: puxe os palitos um a um e a turma responde 'presente!' em coro — jeito bonito de aprender o nome dos colegas."
     ]
   },
+  "center-board": {
+    "slug": "quadro-de-cantinhos",
+    "name": "Quadro de cantinhos",
+    "tagline": "A rotação dos cantinhos em um toque — cada time no seu lugar",
+    "metaTitle": "Quadro de cantinhos interativo grátis | LessonCraftStudio",
+    "metaDescription": "Quadro de cantinhos de aprendizagem para projetar: times de bichos, rotação com um toque, aviso falado e timer calmo de rodada. Grátis, sem cadastro.",
+    "about": [
+      "Toda sala com cantinhos conhece a cena: acabou o tempo, e metade da turma não sabe para onde ir. O Quadro de cantinhos coloca a rotação na lousa digital: cada cantinho vira um cartão — Leitura, Mesa de matemática, Com a professora — e cada time de bichos fica encaixado no seu. Na hora de trocar, um toque em Trocar faz os cartões deslizarem para o próximo cantinho, com um sininho suave e uma voz calma avisando. A criança não pergunta 'onde eu fico?': ela olha para o quadro, encontra o seu time e vai — a transição acontece sem fila na mesa da professora e sem tumulto no meio da sala.",
+      "O ritmo é sempre da professora. O timer da rodada mostra uma fatia de tempo encolhendo e avisa com gentileza quando falta um minuto — hora de arrumar! — mas nunca troca sozinho: a rotação só acontece quando você toca. É o tempo visível a serviço da autonomia e da autorregulação que a BNCC espera dos anos iniciais: a criança vê quanto falta, se organiza e caminha para o próximo cantinho sem susto. O quadro ainda mostra 'Rodada 2 de 4' bem grande — quem chega no meio da manhã, do estagiário ao professor substituto, entende a rotina num olhar. E se há mais times que cantinhos, o time de folga descansa à vista de todos, sem ninguém perdido.",
+      "Os cantinhos ganham ajudas práticas: cole um link do LessonCraftStudio em um cantinho e imprima o cartão com QR — no tablet da estação, a criança aponta a câmera e a atividade certa abre sozinha, sem digitar nada. Os times de hoje vêm prontos dos Palitos de nomes, com os mesmos Time Raposa e Time Coruja que a turma já conhece, e cada cantinho pode exibir uma plaquinha de nível de voz: silêncio na leitura, cochicho na escrita, voz de dupla nos jogos. Tudo funciona direto no navegador, na lousa digital ou no tablet, sem instalar nada e sem criar conta — e sem pontos, sem placar e sem pressa."
+    ],
+    "howToUse": [
+      "Monte o quadro: escolha os cantinhos do dia — Leitura, Mesa de matemática, Com a professora… — e renomeie cada cartão do jeito da sua sala.",
+      "Traga os times: use os times de hoje dos Palitos de nomes ou crie times aqui mesmo — cada um começa encaixado em um cantinho.",
+      "Combine as rodadas e os minutos, toque em Começar a rodada e deixe a fatia do tempo à vista da turma inteira.",
+      "Na hora de trocar, toque em Trocar: os cartões deslizam, o sininho toca e a voz avisa — a turma olha para o quadro e já sabe para onde ir.",
+      "Cole um link do LessonCraftStudio em um cantinho e imprima o cartão da estação com QR — a atividade abre sozinha no tablet do cantinho."
+    ],
+    "classroomIdeas": [
+      "Grupinho com a professora: deixe o cantinho Com a professora fixo na rotação — a cada rodada chega um time novo, e no fim da manhã você trabalhou de pertinho com a turma inteira.",
+      "Plano pronto para o substituto: monte o quadro, escreva o recado — 'leitura silenciosa termina às 9h40' — e o 'Rodada 2 de 4' mostra sozinho onde a rotina parou.",
+      "Combinados de voz por cantinho: antes de começar, a turma lê as plaquinhas em coro — silêncio na leitura, cochicho na escrita, voz de dupla nos jogos — e o quadro lembra por vocês.",
+      "QR no cantinho dos tablets: imprima o cartão da estação com o QR da atividade da semana — a criança escaneia e cai direto no jogo certo, sem digitar endereço.",
+      "Folga que vira leitura livre: com cinco times e quatro cantinhos, o time de folga pega um livro no tapete — descansar também faz parte do rodízio, e o quadro mostra isso sem drama."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

@@ -278,6 +278,32 @@
       "Nimet oikein lukuvuoden alusta: kirjoita lausumisohjeet ja kuunnelkaa nimet yhdessä Kuuntele-painikkeella — koko luokka oppii sanomaan jokaisen nimen oikein."
     ]
   },
+  "center-board": {
+    "slug": "tyopistetaulu",
+    "name": "Työpistetaulu",
+    "tagline": "Pistetyöskentely taululle — ryhmäkortit kiertävät pisteeltä toiselle yhdellä napautuksella",
+    "metaTitle": "Työpistetaulu luokan pistetyöskentelyyn | LessonCraftStudio",
+    "metaDescription": "Ilmainen työpistetaulu luokkaan: pisteet ja ryhmät näkyvät taululla, napautus kierrättää kortit, rauhallinen ajastin ja QR-kortit pisteille. Ei kirjautumista.",
+    "about": [
+      "Pistetyöskentely on suomalaisen alkuopetuksen tuttuja työtapoja: luokka jakautuu pienryhmiin, ja jokainen ryhmä työskentelee vuorollaan omalla pisteellään — Lukunurkassa, Matikkapöydässä, Open pöydässä. Työpistetaulu nostaa tämän taululle niin, että jokainen näkee sen yhdellä silmäyksellä. Pisteet ovat isoja kortteja, ja eläinryhmien kortit — Ketut, Puput, Pöllöt ja kumppanit — kiinnittyvät kukin oman pisteensä viereen. Kun on aika vaihtaa, opettaja napauttaa Vaihda-painiketta: kortit liukuvat seuraavalle pisteelle, helähdys soi ja ystävällinen ääni kertoo, että nyt siirrytään. Kukaan ei kysele, minne piti mennä — taulu näyttää sen, ja siirtymä pysyy rauhallisena. Kilpailua, pisteidenlaskua tai kiirettä ei ole — taulu vain ohjaa liikettä, jotta työrauha säilyy.",
+      "Kierroksen kulku pysyy koko ajan opettajan käsissä. Rauhallinen ajastinkiekko näyttää, paljonko yhteistä aikaa on jäljellä, mutta kortit eivät koskaan vaihda paikkaa itsekseen: siirtymä tapahtuu vain, kun sinä napautat. Kun viimeinen minuutti alkaa, pehmeä ääni muistuttaa siivouksesta, ja Vaihda-painallus lähettää ryhmät eteenpäin. Jokaiselle pisteelle voi valita äänitason merkin — hiljaisuus, kuiskaus tai hiljainen puhe — niin odotukset ovat näkyvissä ilman yhtäkään komentoa. Jos ryhmiä on enemmän kuin pisteitä, yksi ryhmä lepää kierroksen ja hengähtää. Taulun kulmassa lukee koko ajan Kierros 2 / 4, joten sijainen tai avustaja näkee yhdellä vilkaisulla, missä kohtaa päivää mennään — ja viestikenttään voit jättää hänelle lyhyen ohjeen.",
+      "Pisteille voi liittää suoraan tekemistä: liitä pisteen kohdalle LessonCraftStudio-linkki, niin taulu piirtää QR-koodin, jonka lapset skannaavat tabletilla pisteelle tullessaan — tai tulosta valmis pistekortti pöydälle. Ryhmiä ei tarvitse rakentaa kahdesti: tuo tämän päivän ryhmät Nimitikuista yhdellä napautuksella, niin samat Ketut ja Kilpikonnat jatkavat pistetyöskentelyssä. Kaikki toimii selaimessa taululla ja tabletilla ilman kirjautumista, ja oppilaiden nimet pysyvät vain omalla laitteellasi. Kaksi pistettä saat käyttöön aina ilmaiseksi; Premium avaa isommat taulut, pistelinkit QR-kortteineen ja taulujen tallentamisen valmiiksi huomista varten. Näin sama taulu odottaa valmiina maanantaiaamuna, kun luokka astuu ovesta sisään."
+    ],
+    "howToUse": [
+      "Avaa Muokkaa taulua, nimeä pisteet valmiiden ehdotusten pohjalta — Kuuntelu, Lukunurkka, Open pöytä — ja lisää ryhmät tai tuo ne suoraan Nimitikuista.",
+      "Heijasta taulu luokan eteen: jokaisen ryhmän kortti on oman pisteensä vieressä, ja kaikki näkevät, minne mennään.",
+      "Valitse kierrosten määrä ja minuutit ja napauta Aloita kierros — ajastinkiekko näyttää jäljellä olevan ajan rauhallisesti, ilman hälytyksiä.",
+      "Kun on aika, napauta Vaihda: kortit liukuvat seuraavalle pisteelle helähdyksen ja puhutun ilmoituksen saattelemana — vaihto tapahtuu aina sinun napautuksestasi, ei koskaan itsekseen.",
+      "Liitä pisteelle LessonCraftStudio-linkki ja tulosta pistekortti QR-koodeineen — lapset avaavat tehtävän skannaamalla, ja piste ohjaa itse itsensä."
+    ],
+    "classroomIdeas": [
+      "Äidinkielen pistetyöskentely: Lukunurkka, Sanapaja, Kuuntelu ja Open pöytä — pidä oma pienryhmäohjaus Open pöydässä, kun muut ryhmät kiertävät itsenäisesti.",
+      "Matikan pajapäivä: Matikkapöytä, Pelit, Rakentelu ja Tabletit — liitä tablettipisteelle QR-koodilla LessonCraftStudion tehtävä, niin ryhmä pääsee suoraan asiaan.",
+      "Sijaisen pelastusrengas: rakenna taulu valmiiksi, kirjoita viesti sijaiselle ja anna Kierros 2 / 4 -näkymän hoitaa loput — päivä rullaa tutulla rakenteella, vaikka ope on poissa.",
+      "Rauhalliset siirtymät harjoitellen: anna minuutin siivousilmoituksen ja helähdyksen rytmittää vaihdot — muutamassa viikossa luokka siirtyy pisteeltä toiselle ilman yhtäkään korotettua ääntä.",
+      "Eriyttämisen kierros: kun ryhmiä on yksi enemmän kuin pisteitä, lepäävä ryhmä hengähtää — tai istahtaa sinun kanssasi kertaamaan päivän tärkeimmän asian."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

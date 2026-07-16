@@ -278,6 +278,32 @@
       "Læringspartnere: rist ut lagene med to og to i koppene — dagens par er trukket, og på fredag rister dere på nytt."
     ]
   },
+  "center-board": {
+    "slug": "stasjonstavle",
+    "name": "Stasjonstavle",
+    "tagline": "Stasjonsarbeid uten kaos — tavlen viser hvem som skal hvor",
+    "metaTitle": "Gratis stasjonstavle for stasjonsarbeid | LessonCraftStudio",
+    "metaDescription": "Gratis stasjonstavle for stasjonsarbeid i klasserommet: lagkort som glir til neste stasjon, rolig tidsur, «Runde 2 av 4» og QR-kort til hver stasjon.",
+    "about": [
+      "Stasjonstavla er den digitale utgaven av noe norske klasserom kan utenat: stasjonsarbeid. Stasjonene dine står som kort på tavla — Lyttekrok, Lesekrok, Mattebord, Lærerstasjon — og under hver stasjon henger lagkortet til laget som er der nå: Revelaget, Skilpaddelaget, Bielaget og de andre dyrelagene. Når det er tid for å bytte, trykker du på Bytt: en varm klang, en rolig stemme som sier «Tid for å bytte!», og lagkortene glir synlig videre til neste stasjon. Ingen behøver å spørre hvor de skal — de ser det på skjermen, akkurat som de ser hvilket lag som kommer til stasjonen etterpå. Rotasjonen slutter å bo i hodet til læreren og flytter opp på veggen, der hele klassen kan lese den.",
+      "Tavla holder styr på tiden uten å stresse noen. Et rolig tidsur viser runden som et stykke som langsomt blir mindre, og når det er ett minutt igjen, sier stemmen ifra: «Ett minutt — ryddetid!» Men det er alltid du som bytter — tavla roterer aldri av seg selv, for det er læreren som kjenner rommet og vet når en lesegruppe trenger to minutter til. Øverst står det «Runde 2 av 4», slik at både barna, hjelperen og vikaren alltid vet nøyaktig hvor dagen står. Har du flere lag enn stasjoner, viser tavla tydelig hvem som har fri denne runden. Og hver stasjon kan få sitt eget stemmeskilt: stille i Lesekroken, hviskestemme i Skrivekroken, samarbeidsstemme ved Mattebordet.",
+      "Hver stasjon kan bære en LessonCraftStudio-lenke: heng QR-kortet på stasjonen, så skanner barna det med nettbrettet og lander rett i riktig aktivitet — ingen skriving av adresser, ingen leting. Lagene henter du med ett trykk fra Navnepinner, med de samme dyrelagene barna allerede kjenner fra krukken, eller du legger dem til direkte på tavla. Alt kjører rett i nettleseren på klasseromsskjerm, projektor og nettbrett — uten innlogging og uten installasjon. To stasjoner er alltid gratis, så du kan prøve rutinen i det små. Med Premium får du større tavler, stasjonslenker med QR-kort og lagrede tavler som står klare til i morgen — akkurat slik du forlot dem."
+    ],
+    "howToUse": [
+      "Sett opp stasjonene på tavla — bruk de ferdige kortene som Lyttekrok, Lesekrok og Mattebord, eller skriv dine egne navn.",
+      "Hent dagens lag fra Navnepinner med ett trykk — eller legg til lag direkte, så legger dyrelagene seg under hver sin stasjon.",
+      "Velg hvor mange runder dagen skal ha og hvor mange minutter hver runde varer, og trykk «Start runden».",
+      "Når tiden er inne, trykker du på Bytt — kortene glir til neste stasjon med en varm klang og en rolig stemme, og «Runde 2 av 4» teller videre.",
+      "Lim inn en LessonCraftStudio-lenke på en stasjon og skriv ut QR-kortet — så åpner nettbrettene riktig aktivitet helt av seg selv."
+    ],
+    "classroomIdeas": [
+      "Veiledet lesing uten avbrytelser: sett deg på Lærerstasjonen med en lesegruppe mens tavla styrer resten av rommet — barna ser selv hvor de skal, og du slipper å reise deg.",
+      "Vikarens beste venn: skriv en kort lapp til vikaren, la «Runde 2 av 4» stå synlig og heng QR-kortene klare — så ruller stasjonsdagen som normalt selv når du er borte.",
+      "Øv stemmebruk sammen med rommet: stille i Lesekroken, hviskestemme i Skrivekroken og samarbeidsstemme ved Mattebordet — skiltet på stasjonen minner barna på det, ikke du.",
+      "Start i det små: to stasjoner og to lag er nok den første uka — halve klassen på Lærerstasjonen, halve i Spillkroken — og bygg ut tavla etter hvert som rutinen sitter.",
+      "La stemmen ta ryddemaset: når det lyder «Ett minutt — ryddetid!», er det tavla som sier det, ikke du — og barn rydder påfallende mye bedre for en klokke enn for en voksen."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

@@ -278,6 +278,32 @@
       "En début d’année, remplissez les « Ça se prononce… » avec les enfants : chaque prénom dit juste dès la première semaine — un petit geste qui compte énormément."
     ]
   },
+  "center-board": {
+    "slug": "tableau-des-ateliers",
+    "name": "Tableau des ateliers",
+    "tagline": "Le plan des ateliers tournants à projeter : chaque équipe voit son atelier — et la rotation glisse en douceur",
+    "metaTitle": "Tableau des ateliers tournants en classe | LessonCraftStudio",
+    "metaDescription": "Tableau de rotation des ateliers à projeter : équipes d’animaux, rotation en un geste, minuteur calme et cartes QR par atelier — de la maternelle au CE1.",
+    "about": [
+      "Qui va où ? Dans une classe qui tourne en ateliers, la question se pose à chaque rotation — et le tableau mural n’est pas toujours à jour. Le Tableau des ateliers reprend le grand tableau à pochettes des ateliers tournants et le projette au TBI : en haut, les cartes d’atelier — Écoute, Bibliothèque, Avec la maîtresse… — et dessous, les cartes des équipes d’animaux. Quand c’est l’heure, un geste sur « On tourne ! » : les cartes glissent vers l’atelier suivant, un petit carillon sonne et une voix chaleureuse annonce « On change d’atelier ! ». Toute la classe voit la rotation se faire — personne ne demande deux fois où aller.",
+      "Le tour se vit sereinement : un quartier coloré rétrécit doucement pendant l’atelier, comme sur le Minuteur de classe, et à la dernière minute la voix prévient — « Encore une minute — on range ! ». Mais une chose ne se fait jamais toute seule : la rotation. C’est toujours vous qui appuyez, jamais l’horloge — si un atelier a besoin d’un petit rab, « +1 min » suffit, et la classe finit son geste au lieu de s’arrêter net. Et comme le tableau affiche « Tour 2 sur 4 » en toutes lettres, un remplaçant ou une ATSEM comprend la matinée d’un coup d’œil : qui est où, ce qui vient ensuite, jusqu’à quand.",
+      "Les équipes arrivent toutes prêtes : un geste reprend les équipes du jour formées dans les Bâtonnets de prénoms — équipe Renard, équipe Tortue — avec les prénoms sur les cartes si vous le souhaitez. Sur chaque atelier, collez un lien LessonCraftStudio — une fiche à écouter, un jeu de mots — et imprimez la carte QR : à l’atelier tablettes, les enfants scannent et arrivent directement au bon endroit, sans adresse à taper. Premium garde vos tableaux d’un jour à l’autre — le plan du lundi, celui du jeudi — et deux ateliers restent toujours gratuits pour essayer. Tout se passe dans le navigateur : rien à installer, aucun compte pour les enfants."
+    ],
+    "howToUse": [
+      "Préparez le tableau : choisissez vos ateliers — Écoute, Maths, Avec la maîtresse… — ou renommez-les librement, puis reprenez les équipes du jour depuis les Bâtonnets de prénoms.",
+      "Projetez le tableau au TBI en regroupement : chaque équipe repère sa carte d’animal et l’atelier où elle commence — le plan de la matinée est sous les yeux de tous.",
+      "Lancez le tour : le quartier coloré s’écoule doucement pendant l’atelier, et la voix prévient à la dernière minute — « Encore une minute — on range ! ».",
+      "Quand la classe est prête, appuyez sur « On tourne ! » : les cartes glissent vers l’atelier suivant, carillon et annonce à l’appui — la rotation n’est jamais automatique, c’est toujours vous qui décidez.",
+      "Besoin d’un support à un atelier ? Collez un lien LessonCraftStudio sur sa carte et imprimez la carte QR — les enfants scannent et travaillent en autonomie, sans adresse à taper."
+    ],
+    "classroomIdeas": [
+      "En maternelle, faites du tableau le rituel d’après-regroupement : les équipes retrouvent leur animal, l’ATSEM s’installe aux arts plastiques, vous prenez le groupe « Avec la maîtresse » — et la rotation se fait au signal, sans cortège ni bousculade.",
+      "Au CP, pendant la lecture par groupes : gardez l’atelier « Avec la maîtresse » pour la lecture guidée et laissez les autres équipes tourner entre bibliothèque, étude de mots et tablettes — l’annonce vocale ramène tout le monde sans que vous quittiez votre groupe.",
+      "Jour d’absence ? Enregistrez le tableau et laissez une consigne pour le remplaçant : « Tour 2 sur 4 » affiché en toutes lettres, les équipes en place, le minuteur qui prévient — la matinée tourne comme d’habitude.",
+      "Plus d’équipes que d’ateliers ? L’équipe « au repos » souffle un tour sur le tapis — pratique pour faire tourner cinq équipes sur quatre ateliers sans bousculer personne.",
+      "À l’atelier écoute, imprimez la carte QR d’une histoire LessonCraftStudio : les enfants scannent, écoutent, et la tablette est déjà à la bonne page quand l’équipe suivante arrive."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

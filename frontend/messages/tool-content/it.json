@@ -278,6 +278,32 @@
       "Giornata delle squadre: scuoti il barattolo in quattro squadre con gli animali per i giochi in palestra o i lavori di gruppo — i gruppi cambiano ogni volta e nessuno resta sempre con gli stessi compagni."
     ]
   },
+  "center-board": {
+    "slug": "tabellone-degli-angoli",
+    "name": "Tabellone degli angoli",
+    "tagline": "Ogni squadra al suo angolo: tocca Ruota e le carte scivolano al posto giusto, senza fretta",
+    "metaTitle": "Tabellone degli angoli didattici online | LessonCraftStudio",
+    "metaDescription": "Tabellone per la rotazione degli angoli sulla LIM: tocca Ruota e le squadre passano alla stazione successiva, con voce gentile, timer sereno e cartellini QR.",
+    "about": [
+      "È l’ora degli angoli: sul tabellone proiettato sulla LIM ogni squadra ha la sua carta — Squadra Volpe all’Ascolto, Squadra Gufo alle Costruzioni — e tutta la classe vede a colpo d’occhio chi lavora dove. Quando il turno finisce, l’insegnante tocca Ruota: un campanellino gentile, le carte scivolano all’angolo successivo e una voce annuncia «Si cambia angolo!». Nessuno deve chiedere «e adesso dove vado?»: basta alzare gli occhi al tabellone. E una cosa non succede mai: il tabellone non decide da solo. La rotazione parte soltanto dal tocco dell’insegnante, perché è la classe a dettare i tempi — non il contrario.",
+      "Accanto agli angoli c’è un piccolo timer a spicchio, sereno come quello del Timer visivo: si restringe piano piano e all’ultimo minuto la voce avvisa «Un minuto — si riordina!», così il cambio non coglie nessuno a metà di un disegno. In alto la scritta «Turno 2 di 4» racconta la giornata anche a chi entra in classe in quel momento: una supplente capisce al volo a che punto siete, e una nota facoltativa — «dopo il terzo turno si esce in giardino» — le dice tutto il resto. Se una squadra ha un turno di riposo, la sua carta lo mostra con calma: niente allarmi, niente corse, solo una routine che si vede.",
+      "Ogni angolo può avere il suo link LessonCraftStudio: stampa il cartellino con il codice QR e appoggialo sul tavolo dei tablet — i bambini inquadrano e trovano l’attività giusta, senza cercare nulla. Le squadre di oggi arrivano con un tocco dai Bastoncini dei nomi, e i cartellini del volume della voce — silenzio, sussurro, voce da coppia — ricordano il tono giusto in ogni angolo. Con Premium il tabellone resta salvato per domattina; quello di oggi funziona comunque gratis. Tutto vive nel browser — LIM, tablet o computer — senza registrazione: niente punteggi, niente classifiche, solo una classe che gira per i suoi angoli con ordine e serenità."
+    ],
+    "howToUse": [
+      "Prepara il tabellone: scegli gli angoli della tua classe — Ascolto, Biblioteca, Con la maestra… — e aggiungi le squadre, oppure riprendi quelle di oggi dai Bastoncini dei nomi.",
+      "Imposta i turni e i minuti: «4 turni da 15 minuti» copre un’ora di angoli, e la scritta «Turno 1 di 4» resta sempre in vista per tutti.",
+      "Avvia il turno e lascia lavorare la classe: lo spicchio si restringe piano e all’ultimo minuto la voce ricorda che si riordina.",
+      "Quando è il momento, tocca Ruota: le carte scivolano all’angolo successivo e la voce annuncia il cambio — nessuna rotazione parte mai da sola.",
+      "Serve più calma? «+1 min» allunga il turno senza discussioni; e alla fine della giornata il tabellone saluta: gli angoli sono finiti per oggi."
+    ],
+    "classroomIdeas": [
+      "Il giro del mattino: quattro angoli — Ascolto, Scrittura, Officina delle parole e Con la maestra — e quattro turni da dieci minuti: in un’ora vedi tutti i gruppi al tuo tavolo, senza mai guardare l’orologio.",
+      "L’angolo dei tablet che si apre da solo: incolla il link di un’attività LessonCraftStudio, stampa il cartellino QR e i bambini inquadrano e cominciano — niente ricerche, niente «maestra, non lo trovo».",
+      "Il giorno della supplente: tabellone proiettato, «Turno 2 di 4» bene in vista e una nota — «la squadra Balena oggi riposa» — e la mattinata fila liscia anche senza di te.",
+      "Il tono giusto in ogni angolo: sussurro in Biblioteca, voce da coppia ai Giochi, silenzio in Scrittura — il cartellino sul tabellone lo ricorda al posto tuo, senza alzare la voce.",
+      "Anche per i più piccoli: alla scuola dell’infanzia bastano le carte con gli animali — la squadra Coniglio vede il suo coniglietto scivolare verso le Costruzioni e sa da sola dove andare."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

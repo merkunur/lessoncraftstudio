@@ -123,6 +123,32 @@
       "Låt barnen arbeta i par: en bygger ett ord i smyg, den andra ljudar ihop det högt — sedan byter de roller."
     ]
   },
+  "letter-tiles": {
+    "slug": "magnetbokstaver",
+    "name": "Magnetbokstäver",
+    "tagline": "Dra bokstäver, bygg ord — och hör bokstavens ord",
+    "metaTitle": "Magnetbokstäver – bygg ord gratis | LessonCraftStudio",
+    "metaDescription": "Gratis magnetbokstäver på skärmen: dra bokstäver till tavlan, bygg namn och veckans ord och hör bokstavens ord vid varje tryck. Med å, ä, ö – utan inloggning.",
+    "about": [
+      "Magnetbokstäver är bokstavsmagneterna från kylskåpet och klassrumstavlan, fast på skärmen: hela alfabetet med å, ä och ö, en öppen tavla och ingenting som kan gå sönder eller tappas bort under bänken. Barnet drar bokstäver till tavlan och bygger sitt namn, veckans ord eller helt egna ord. Ett tryck på en bokstav spelar upp bokstavens ord — s som i sol, ä som i ägg — aldrig bokstavsnamn och aldrig ensamma ljud, för det är i riktiga ord som ljuden bor.",
+      "Fri ordbyggning hör till kärnan i bokstavsarbetet i förskoleklass och årskurs 1, där sambandet mellan ljud och bokstav står i centrum enligt Lgr22. Tavlan respekterar barnets egen stavning: den som bygger hunn i stället för hund får aldrig ett rött kryss — läraren ser i stället precis vilka ljud barnet hör, och det är där undervisningen kan ta vid. Riktiga ord firas med en glad liten hälsning, och allt annat får stå kvar som det är: ett barns bygge, mitt i läsinlärningen.",
+      "Verktyget körs direkt i webbläsaren på surfplattor, telefoner och klassrumsdatorer — inget konto, ingen installation, ingen timer och inga poäng. Tillsammans med Ljudrutor och Ljudtavla bildar Magnetbokstäver en ljudningstrio: Ljudrutor delar upp orden, Ljudtavlan ljudar ihop dem, och här bygger barnet dem själv."
+    ],
+    "howToUse": [
+      "Visa tavlan på storbild i samlingen, eller låt barnen arbeta själva på surfplattor.",
+      "Låt barnet dra bokstäver och bygga fritt — det egna namnet är alltid den bästa början.",
+      "Tryck på en bokstav när barnet är osäkert: tavlan säger bokstavens ord, som s i sol.",
+      "Öppna ordkorten när ni vill arbeta styrt: barnet hör ett ord, bygger det och trycker på Läs ordet.",
+      "Skriv in veckans ord under Mina ord och låt barnen bygga dem innan de skriver dem för hand."
+    ],
+    "classroomIdeas": [
+      "Namnverkstad i förskoleklass: alla bygger sitt eget namn och sedan en kompis namn — vilka bokstäver delar ni?",
+      "Ljudjakt: säg ett ljud, till exempel /m/, och låt barnen hitta bokstaven på tavlan och trycka för att höra bokstavens ord.",
+      "Byt ett ljud: bygg mus, byt en enda bokstav och läs igen — mun! Samma ordkedjor som på Ljudtavlan, men nu bygger barnet själv.",
+      "Dubbelteckning i årskurs 1: bygg katt och hatt med två likadana brickor och prata om varför det korta a:et vill ha två t.",
+      "Stationsarbete: ljuda veckans ord i Ljudrutor först, bygg dem sedan här med magnetbokstäver — och skriv dem till sist i skrivboken."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

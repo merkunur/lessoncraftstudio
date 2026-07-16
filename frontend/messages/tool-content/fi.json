@@ -123,6 +123,32 @@
       "S2-oppijoille kuvamerkit ovat sanavarastotuki: liu'uta sana, näytä kuva ja keksikää sanalle yhdessä lause – ääntäminen, merkitys ja lukeminen harjaantuvat samalla kertaa."
     ]
   },
+  "letter-tiles": {
+    "slug": "magneettikirjaimet",
+    "name": "Magneettikirjaimet",
+    "tagline": "Rakenna sanoja kirjain kerrallaan ja kuule jokaisen kirjaimen avainsana",
+    "metaTitle": "Ilmaiset magneettikirjaimet netissä | LessonCraftStudio",
+    "metaDescription": "Ilmainen magneettikirjaintaulu alkuopetukseen: rakenna sanoja, napauta kirjainta ja kuule sen avainsana. Sanakortit ja viikon sanat – ei kirjautumista.",
+    "about": [
+      "Magneettikirjaimet ovat jokaisen alkuopetusluokan perusväline, ja tämä taulu tuo ne suoraan älytaululle ja tabletille. Kun lapsi napauttaa kirjainta, hän kuulee sen avainsanan – a niin kuin apina, o niin kuin ovi, t niin kuin talo – ei koskaan kirjaimen nimeä eikä irrallista äännettä. Suomen vahva äänne–kirjain-vastaavuus tekee rakentelusta palkitsevaa: se, mikä taululle kootaan, on juuri se, mikä luetaan.",
+      "Taulussa ei ole kaksoiskirjainlaattoja, ja se on tarkoituksellista: pitkä äänne rakennetaan kahdesta samasta kirjaimesta – kukka, kuppi ja kuu syntyvät lapsen omin käsin, ja juuri kirjaimen kahdentaminen on suomen oikeinkirjoituksen tärkein yksittäinen oivallus. Myös y, ä ja ö ovat taulussa omina, täysinä vokaaleinaan, kuten luokan seinäaakkosissa.",
+      "Vapaa taulu kunnioittaa lapsen omaa kirjoittamista: kokeilut ja keksityt kirjoitusasut ovat osa oppimista, eikä mikään rakennelma saa punaista ruksia. Kun taululle syntyy oikea sana, taulu iloitsee siitä – muuten se antaa lapsen tutkia rauhassa. Kaikki toimii selaimessa ilman kirjautumista, ajastinta ja pisteitä, ja tukee OPS:n mukaista äidinkielen alkuopetusta."
+    ],
+    "howToUse": [
+      "Heijasta taulu luokan älytaululle ja mallinna ensin itse: vedä kirjaimia taululle, napauta niitä ja kuunnelkaa avainsanat yhdessä.",
+      "Aloita lapselle tärkeimmästä sanasta eli omasta nimestä: etsikää nimen kirjaimet laatikosta ja rakentakaa nimi taululle.",
+      "Harjoitelkaa kirjaimen kahdentamista sanapareilla: rakentakaa ensin kuka ja lisätkää sitten toinen k – kun äänne kuuluu pitkänä, kirjaimia tarvitaan kaksi.",
+      "Ota sanakortit käyttöön, kun vapaa rakentelu sujuu: kortti näyttää kuvan, lukee sanan ja kirjainlaatikot tukevat kirjain kerrallaan etenemistä.",
+      "Kirjoita viikon sanat Omat sanat -välilehdelle, niin taulu harjoittelee täsmälleen samoja sanoja kuin luokan aapinen ja vihko."
+    ],
+    "classroomIdeas": [
+      "Nimipaja: jokainen rakentaa vuorollaan oman nimensä taululle ja luokka lukee sen yhdessä – nimi on lapsen ensimmäinen ja rakkain sana.",
+      "Kahdentamispaja: vertailkaa pareja kuka–kukka ja tuli–tulli. Sanokaa sana ääneen, kuunnelkaa äänteen kesto ja lisätkää toinen kirjain vasta, kun pitkä äänne on kuultu.",
+      "Sanaketjut: vaihtakaa vain yksi kirjain kerrallaan – kala muuttuu sanaksi pala, pala sanaksi palo – ja huomatkaa, miten yksi äänne muuttaa koko sanan.",
+      "S2-oppijoille avainsanakuvat ovat samalla sanavarastoharjoitus: napauta kirjainta, kuuntele sana, näytä esine luokasta tai kuvasta ja keksikää sanalle lause.",
+      "Eriyttäminen: osa rakentaa vapaasti, osa etenee sanakorttien tuella kirjainlaatikko kerrallaan – sama taulu, monta tasoa."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

@@ -123,6 +123,32 @@
       "Gebruik de set met sch en ng als ontdekles: waarom heeft sch een stippellijn (twee klanken) en ng niet (één klank)?"
     ]
   },
+  "letter-tiles": {
+    "slug": "letterdoos",
+    "name": "Letterdoos",
+    "tagline": "Magnetische letters om woorden mee te bouwen",
+    "metaTitle": "Letterdoos: magnetische letters online | LessonCraftStudio",
+    "metaDescription": "Gratis online letterdoos voor groep 3: bouw woorden met magnetische letters en tweetekenklanken. Tik op een letter en hoor het woord erbij. Zonder account.",
+    "about": [
+      "De letterdoos is het open bord van het aanvankelijk lezen en spellen: het kind pakt letters uit de bak, schuift ze op het bord en bouwt zo zijn eigen woorden. Tik op een letter en je hoort het woord dat erbij hoort — de m van maan, de s van sok. Nooit letternamen en nooit losse klanken uit een computerstem: precies zoals in groep 3 met klanken wordt gespeld.",
+      "De bak volgt de Nederlandse klankopbouw. Alle tweetekenklanken liggen er als één letterkaartje in — aa, oo, oe, ui, ei, au, ou én de ij — want twee letters die samen één klank maken, horen bij elkaar. Alleen sch ligt er bewust niet in: dat bouw je gewoon met s en ch, net zoals het kind het hoort. De woordkaarten komen uit dezelfde lijsten als de Klankdozen, van klankzuivere mkm-woorden tot tweetekenklanken en clusters.",
+      "Op het vrije bord is niets fout. Bouwt een kind zeep als seep, dan leest het bord gewoon voor wat er staat — geen rood kruis, geen zoemer, want zelf verzonnen spelling is een echte en waardevolle stap in het leren schrijven. Echte woorden krijgen een plaatje als stille beloning. Zonder timer, zonder score en zonder account, op digibord, tablet en computer — een rustige oefenplek voor lezen en spellen, zoals de kerndoelen voor taal in de onderbouw bedoelen."
+    ],
+    "howToUse": [
+      "Kies kleine letters of hoofdletters en zet de letterplaatjes aan of uit — met plaatjes is de bak meteen een klankenkaart.",
+      "Laat het kind vrij bouwen: letters op het bord schuiven, schuiven en proberen. Tik op een letter om het woord erbij te horen.",
+      "Klaar met een woord? Tik op voorlezen en het bord leest precies voor wat er staat — ook een robotwoord mag er zijn.",
+      "Pak de woordkaarten voor gericht oefenen: het kind hoort een woord bij een plaatje en legt het met letters na, met of zonder lettervakjes als steuntje.",
+      "Typ onder Mijn woorden de woorden van de kern van deze week en oefen ze op het digibord of in de kleine kring."
+    ],
+    "classroomIdeas": [
+      "Letter van de week: zet de letter groot op het digibord en laat kinderen om de beurt een woord bouwen waarin je die letter hoort.",
+      "Hakken, leggen, plakken: hak een woord eerst in de Klankdozen, bouw het daarna in de letterdoos na en lees het samen weer aan elkaar.",
+      "Woorddictee zonder pen: zeg een klankzuiver woord, elk tweetal bouwt het met letters en controleert daarna zelf met de voorleesknop.",
+      "Echt of robotwoord? Laat een kind een woord bouwen, de klas luistert naar het bord en stemt met duimen: bestaat het echt?",
+      "Vrije schrijfhoek: laat kinderen hun eigen naam, mama, papa of het weekthema bouwen — alles wat het kind zelf spelt, telt."
+    ]
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

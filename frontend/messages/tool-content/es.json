@@ -123,6 +123,32 @@
       "Dictado al revés: di una palabra del mazo (vaca, luna, fresa) y pide a un niño que la construya deslizando las columnas; el resto verifica sílaba por sílaba si el tablero dice lo mismo que la voz."
     ]
   },
+  "letter-tiles": {
+    "slug": "letras-magneticas",
+    "name": "Letras magnéticas",
+    "tagline": "Forma palabras con el alfabeto móvil",
+    "metaTitle": "Letras magnéticas interactivas gratis | LessonCraftStudio",
+    "metaDescription": "Letras magnéticas en línea y gratis: un alfabeto móvil con voz e imágenes para formar palabras en el aula. Sin registro, en pizarra, tableta o computadora.",
+    "about": [
+      "Las letras magnéticas de toda la vida —las del refrigerador y las del pizarrón— convertidas en tablero interactivo: un alfabeto móvil con las 27 letras, las vocales con acento y los dígrafos ch, ll, rr y qu. El niño arrastra las fichas, forma lo que quiere y, al tocar una letra, escucha su palabra guía: m de mono, j de jirafa, ñ de piña. Nunca el nombre de la letra ni un sonido suelto, porque lo que abre la puerta de la lectura es unir cada letra con una palabra que el niño ya conoce.",
+      "El tablero es libre y no marca errores: aquí no hay tache rojo. Si el niño arma una palabra real, el tablero la celebra con su insignia (muchas traen imagen); si arma una palabra inventada, también la lee en voz alta, porque leer «tano» sin equivocarse también es leer. Y si escribe «jirafa» con g, ese intento vale oro: la escritura que los niños inventan camino a la convencional es una etapa del aprendizaje que los planes de estudio piden acompañar, no corregir con rojo.",
+      "Funciona directamente en el navegador —pizarra digital, tabletas y computadoras del aula— sin instalar nada y sin crear cuentas. No hay cronómetro ni puntuación: solo letras, voz y el gusto de jugar con las palabras."
+    ],
+    "howToUse": [
+      "Proyecta el tablero en la pizarra digital o ábrelo en las tabletas y deja primero que los niños exploren: arrastrar, acomodar y regresar letras a la bandeja también es aprender a mirarlas.",
+      "Pide a los niños que toquen una ficha para escuchar su palabra guía —m de mono, ll de llave—; así unen cada letra con un sonido dentro de una palabra conocida, no con un nombre abstracto.",
+      "Dicta una palabra corta (sol, pan, luna) y pide que la armen letra por letra, diciendo cada parte en voz alta mientras la colocan en el tablero.",
+      "Abre las tarjetas de palabras para trabajar con las mismas listas de las Cajas de sonidos: la tarjeta muestra la imagen y dice la palabra, y el niño la construye con sus letras.",
+      "Al terminar, deja que el tablero lea lo que el niño escribió: escuchar su propia palabra en voz alta le dice más que cualquier corrección."
+    ],
+    "classroomIdeas": [
+      "Mi nombre con imanes: cada niño arma su nombre en el tablero; el nombre propio es la primera palabra que todo niño quiere leer y escribir.",
+      "Cambia una letra: forma mano y pide convertirla en mono, luego en mona… el grupo lee cada eslabón y descubre qué letra cambió, la misma cadena que en el Tablero de sílabas.",
+      "Cacería de dígrafos: forma chocolate, llave, perro y queso, y pide a los niños que encuentren las dos letras que suenan como una sola.",
+      "Estación de palabras de la semana: escribe tu propia lista con el vocabulario que estén trabajando y usa las tarjetas como estación de repaso en pequeños grupos.",
+      "Dictado en parejas: un niño dicta una palabra de la lista y el otro la construye; luego el tablero la lee y los dos verifican letra por letra."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

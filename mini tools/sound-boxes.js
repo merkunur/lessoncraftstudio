@@ -71,8 +71,10 @@ var SoundBoxes = {
     wordsCount:   {en:'{n} words',de:'{n} Wörter',fr:'{n} mots',it:'{n} parole',es:'{n} palabras',pt:'{n} palavras',nl:'{n} woorden',sv:'{n} ord',da:'{n} ord',no:'{n} ord',fi:'{n} sanaa'},
     copyLink:     {en:'Copy link to this word',de:'Link zu diesem Wort kopieren',fr:'Copier le lien vers ce mot',it:'Copia il link a questa parola',es:'Copiar el enlace de esta palabra',pt:'Copiar link desta palavra',nl:'Link naar dit woord kopiëren',sv:'Kopiera länk till ordet',da:'Kopiér link til ordet',no:'Kopier lenke til ordet',fi:'Kopioi linkki tähän sanaan'},
     copied:       {en:'Link copied!',de:'Link kopiert!',fr:'Lien copié !',it:'Link copiato!',es:'¡Enlace copiado!',pt:'Link copiado!',nl:'Link gekopieerd!',sv:'Länk kopierad!',da:'Link kopieret!',no:'Lenke kopiert!',fi:'Linkki kopioitu!'},
-    /* sibling cross-link — the daily SoR pair (segment here, blend there) */
-    siblingLink:  {en:'Blending today? → Blending Board',de:'Heute zusammenziehen? → Lesemaschine',fr:'Fusionner aujourd’hui ? → Tableau de syllabes',it:'Oggi si uniscono i suoni? → Tabellone delle sillabe',es:'¿Hoy toca unir sonidos? → Tablero de sílabas',pt:'Hoje é dia de juntar sons? → Quadro de sílabas',nl:'Vandaag plakken? → Klankenbord',sv:'Ljuda ihop i dag? → Ljudtavla',da:'Trække lyde sammen i dag? → Lydtavle',no:'Trekke lyder sammen i dag? → Lydtavle',fi:'Tänään äänteiden yhdistämistä? → Tavutaulu'},
+    /* the trio footer — the SoR phonics family (segment · blend · build) */
+    trioLabel:    {en:'Phonics tools:',de:'Werkzeuge zum Lesenlernen:',fr:'Outils de phonologie :',it:'Strumenti fonologici:',es:'Herramientas de conciencia fonológica:',pt:'Ferramentas de alfabetização:',nl:'Klankhulpjes:',sv:'Ljudverktyg:',da:'Lydværktøjer:',no:'Lydverktøy:',fi:'Äännetyökalut:'},
+    siblingBbd:   {en:'Blending Board',de:'Lesemaschine',fr:'Tableau de syllabes',it:'Tabellone delle sillabe',es:'Tablero de sílabas',pt:'Quadro de sílabas',nl:'Klankenbord',sv:'Ljudtavla',da:'Lydtavle',no:'Lydtavle',fi:'Tavutaulu'},
+    siblingLtl:   {en:'Letter Tiles',de:'Magnetbuchstaben',fr:'Lettres magnétiques',it:'Lettere magnetiche',es:'Letras magnéticas',pt:'Alfabeto móvel',nl:'Letterdoos',sv:'Magnetbokstäver',da:'Magnetbogstaver',no:'Magnetbokstaver',fi:'Magneettikirjaimet'},
 
     /* stage buttons + aria */
     prevWord:     {en:'Previous word',de:'Vorheriges Wort',fr:'Mot précédent',it:'Parola precedente',es:'Palabra anterior',pt:'Palavra anterior',nl:'Vorig woord',sv:'Föregående ord',da:'Forrige ord',no:'Forrige ord',fi:'Edellinen sana'},
@@ -1033,11 +1035,28 @@ var SoundBoxes = {
         if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(url).then(done, done);
         else { try { prompt('', url); } catch (_) {} done(); }
       });
-      var sib = document.createElement('a');
-      sib.className = 'sbx-copylink';
-      sib.href = '/mini-tools/blending-board.html?lang=' + api.lang;
-      sib.textContent = api.t('siblingLink');
-      foot.append(copy, sib);
+      var trio = api.el('span');
+      trio.style.display = 'inline-flex';
+      trio.style.alignItems = 'center';
+      trio.style.gap = '4px';
+      var trioLbl = api.el('span');
+      trioLbl.style.fontFamily = 'var(--lcs-font-body)';
+      trioLbl.style.fontWeight = '700';
+      trioLbl.style.fontSize = '13px';
+      trioLbl.style.color = 'var(--lcs-ink-soft)';
+      trioLbl.textContent = api.t('trioLabel') + ' ';
+      var sib1 = document.createElement('a');
+      sib1.className = 'sbx-copylink';
+      sib1.href = '/mini-tools/blending-board.html?lang=' + api.lang;
+      sib1.textContent = api.t('siblingBbd');
+      var trioDot = trioLbl.cloneNode(false);
+      trioDot.textContent = ' · ';
+      var sib2 = document.createElement('a');
+      sib2.className = 'sbx-copylink';
+      sib2.href = '/mini-tools/letter-tiles.html?lang=' + api.lang;
+      sib2.textContent = api.t('siblingLtl');
+      trio.append(trioLbl, sib1, trioDot, sib2);
+      foot.append(copy, trio);
       foot.style.display = 'flex';
       foot.style.flexWrap = 'wrap';
       foot.style.gap = '10px';

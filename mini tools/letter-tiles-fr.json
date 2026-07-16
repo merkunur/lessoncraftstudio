@@ -1,0 +1,688 @@
+{
+  "locale": "fr",
+  "version": 1,
+  "nonwordTTS": false,
+  "tray": [
+    {
+      "g": "a",
+      "kind": "vowel",
+      "anchor": {
+        "word": "avion",
+        "noun": "airplane",
+        "themeDir": "vehicles",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "b",
+      "kind": "consonant",
+      "anchor": {
+        "word": "banane",
+        "noun": "banana",
+        "themeDir": "At the Supermarket",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "c",
+      "kind": "consonant",
+      "anchor": {
+        "word": "canard",
+        "noun": "duck",
+        "themeDir": "animals",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "d",
+      "kind": "consonant",
+      "anchor": {
+        "word": "dauphin",
+        "noun": "dolphin",
+        "themeDir": "animals",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "e",
+      "kind": "vowel",
+      "anchor": {
+        "word": "cheval",
+        "noun": "horse",
+        "themeDir": "farm animals",
+        "position": "medial"
+      }
+    },
+    {
+      "g": "f",
+      "kind": "consonant",
+      "anchor": {
+        "word": "fusée",
+        "noun": "rocket",
+        "themeDir": "space",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "g",
+      "kind": "consonant",
+      "anchor": {
+        "word": "gant",
+        "noun": "glove",
+        "themeDir": "accessories",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "h",
+      "kind": "consonant",
+      "anchor": null
+    },
+    {
+      "g": "i",
+      "kind": "vowel",
+      "anchor": {
+        "word": "igloo",
+        "noun": "igloo",
+        "themeDir": "winter",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "j",
+      "kind": "consonant",
+      "anchor": {
+        "word": "jupe",
+        "noun": "skirt",
+        "themeDir": "clothing",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "k",
+      "kind": "consonant",
+      "anchor": {
+        "word": "kiwi",
+        "noun": "kiwi",
+        "themeDir": "fruits",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "l",
+      "kind": "consonant",
+      "anchor": {
+        "word": "lapin",
+        "noun": "rabbit",
+        "themeDir": "animals",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "m",
+      "kind": "consonant",
+      "anchor": {
+        "word": "maison",
+        "noun": "house",
+        "themeDir": "miscellaneous",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "n",
+      "kind": "consonant",
+      "anchor": {
+        "word": "nid",
+        "noun": "nest",
+        "themeDir": "spring",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "o",
+      "kind": "vowel",
+      "anchor": {
+        "word": "orange",
+        "noun": "orange",
+        "themeDir": "At the Supermarket",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "p",
+      "kind": "consonant",
+      "anchor": {
+        "word": "pomme",
+        "noun": "apple",
+        "themeDir": "At the Supermarket",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "q",
+      "kind": "consonant",
+      "anchor": null
+    },
+    {
+      "g": "r",
+      "kind": "consonant",
+      "anchor": {
+        "word": "robot",
+        "noun": "robot",
+        "themeDir": "toys",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "s",
+      "kind": "consonant",
+      "anchor": {
+        "word": "soleil",
+        "noun": "sun",
+        "themeDir": "weather",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "t",
+      "kind": "consonant",
+      "anchor": {
+        "word": "tomate",
+        "noun": "tomato",
+        "themeDir": "vegetables",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "u",
+      "kind": "vowel",
+      "anchor": {
+        "word": "lune",
+        "noun": "moon",
+        "themeDir": "space",
+        "position": "medial"
+      }
+    },
+    {
+      "g": "v",
+      "kind": "consonant",
+      "anchor": {
+        "word": "vélo",
+        "noun": "bicycle",
+        "themeDir": "vehicles",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "w",
+      "kind": "consonant",
+      "anchor": null
+    },
+    {
+      "g": "x",
+      "kind": "consonant",
+      "anchor": null
+    },
+    {
+      "g": "y",
+      "kind": "vowel",
+      "anchor": {
+        "word": "stylo",
+        "noun": "pen",
+        "themeDir": "classroom",
+        "position": "medial"
+      }
+    },
+    {
+      "g": "z",
+      "kind": "consonant",
+      "anchor": {
+        "word": "zèbre",
+        "noun": "zebra",
+        "themeDir": "animals",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "é",
+      "kind": "vowel",
+      "anchor": {
+        "word": "éléphant",
+        "noun": "elephant",
+        "themeDir": "animals",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "è",
+      "kind": "vowel",
+      "anchor": {
+        "word": "chèvre",
+        "noun": "goat",
+        "themeDir": "farm animals",
+        "position": "medial"
+      }
+    },
+    {
+      "g": "ê",
+      "kind": "vowel",
+      "anchor": {
+        "word": "pêche",
+        "noun": "peach",
+        "themeDir": "fruits",
+        "position": "medial"
+      }
+    },
+    {
+      "g": "à",
+      "kind": "vowel",
+      "anchor": null
+    },
+    {
+      "g": "ç",
+      "kind": "consonant",
+      "anchor": null
+    },
+    {
+      "g": "ch",
+      "kind": "digraph",
+      "warm": false,
+      "anchor": {
+        "word": "chat",
+        "noun": "cat",
+        "themeDir": "animals",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "ou",
+      "kind": "digraph",
+      "vowel": true,
+      "warm": true,
+      "anchor": {
+        "word": "ours",
+        "noun": "bear",
+        "themeDir": "camping",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "oi",
+      "kind": "digraph",
+      "vowel": true,
+      "warm": true,
+      "anchor": {
+        "word": "oiseau",
+        "noun": "bird",
+        "themeDir": "spring",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "an",
+      "kind": "digraph",
+      "vowel": true,
+      "warm": true,
+      "anchor": {
+        "word": "ange",
+        "noun": "angel",
+        "themeDir": "christmas",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "on",
+      "kind": "digraph",
+      "vowel": true,
+      "warm": true,
+      "anchor": {
+        "word": "ongle",
+        "noun": "nail",
+        "themeDir": "tools",
+        "position": "initial"
+      }
+    }
+  ],
+  "extraWords": {
+    "le": {},
+    "la": {},
+    "les": {},
+    "un": {},
+    "une": {},
+    "des": {},
+    "de": {},
+    "du": {},
+    "au": {},
+    "à": {},
+    "et": {},
+    "est": {},
+    "en": {},
+    "dans": {},
+    "sur": {},
+    "sous": {},
+    "avec": {},
+    "pour": {},
+    "par": {},
+    "chez": {},
+    "si": {},
+    "oui": {},
+    "non": {},
+    "qui": {},
+    "que": {},
+    "quand": {},
+    "comme": {},
+    "aussi": {},
+    "alors": {},
+    "bien": {},
+    "mal": {},
+    "très": {},
+    "trop": {},
+    "peu": {},
+    "tout": {},
+    "ici": {},
+    "voilà": {},
+    "là": {},
+    "ça": {},
+    "moi": {},
+    "toi": {},
+    "lui": {},
+    "il": {},
+    "elle": {},
+    "ils": {},
+    "elles": {},
+    "on": {},
+    "je": {},
+    "tu": {},
+    "nous": {},
+    "vous": {},
+    "ne": {},
+    "pas": {},
+    "plus": {},
+    "mais": {},
+    "ou": {},
+    "se": {},
+    "me": {},
+    "te": {},
+    "y": {},
+    "mon": {},
+    "ma": {},
+    "mes": {},
+    "ton": {},
+    "ta": {},
+    "tes": {},
+    "son": {},
+    "sa": {},
+    "ses": {},
+    "notre": {},
+    "votre": {},
+    "leur": {},
+    "ce": {},
+    "deux": {},
+    "trois": {},
+    "quatre": {},
+    "cinq": {},
+    "six": {},
+    "sept": {},
+    "huit": {},
+    "neuf": {},
+    "dix": {},
+    "a": {},
+    "ai": {},
+    "as": {},
+    "ont": {},
+    "sont": {},
+    "suis": {},
+    "va": {},
+    "fait": {},
+    "dit": {},
+    "lit": {},
+    "vu": {},
+    "voit": {},
+    "veut": {},
+    "peut": {},
+    "prend": {},
+    "met": {},
+    "joue": {},
+    "mange": {},
+    "donne": {},
+    "aime": {},
+    "saute": {},
+    "court": {},
+    "dort": {},
+    "rit": {},
+    "chante": {},
+    "danse": {},
+    "dessine": {},
+    "regarde": {},
+    "écoute": {},
+    "parle": {},
+    "marche": {},
+    "lave": {},
+    "range": {},
+    "colle": {},
+    "découpe": {},
+    "écrit": {},
+    "compte": {},
+    "ferme": {},
+    "ouvre": {},
+    "monte": {},
+    "tombe": {},
+    "porte": {},
+    "trouve": {},
+    "cherche": {},
+    "sait": {},
+    "être": {},
+    "avoir": {},
+    "aller": {},
+    "faire": {},
+    "lire": {},
+    "jouer": {},
+    "papa": {},
+    "maman": {},
+    "mamie": {},
+    "papi": {},
+    "bébé": {},
+    "ami": {},
+    "amie": {},
+    "fille": {},
+    "garçon": {},
+    "enfant": {},
+    "école": {},
+    "classe": {},
+    "cahier": {},
+    "livre": {},
+    "stylo": {},
+    "crayon": {},
+    "gomme": {},
+    "règle": {},
+    "table": {},
+    "chaise": {},
+    "maison": {},
+    "jardin": {},
+    "rue": {},
+    "vélo": {},
+    "train": {},
+    "avion": {},
+    "bateau": {},
+    "voiture": {},
+    "chat": {},
+    "chien": {},
+    "lapin": {},
+    "poule": {},
+    "coq": {},
+    "vache": {},
+    "cochon": {},
+    "mouton": {},
+    "cheval": {},
+    "canard": {},
+    "loup": {},
+    "ours": {},
+    "souris": {},
+    "tortue": {},
+    "oiseau": {},
+    "poisson": {},
+    "lion": {},
+    "singe": {},
+    "zèbre": {},
+    "pomme": {},
+    "poire": {},
+    "banane": {},
+    "fraise": {},
+    "cerise": {},
+    "orange": {},
+    "citron": {},
+    "melon": {},
+    "salade": {},
+    "soupe": {},
+    "pain": {},
+    "lait": {},
+    "eau": {},
+    "chocolat": {},
+    "bonbon": {},
+    "sucre": {},
+    "riz": {},
+    "fromage": {},
+    "pizza": {},
+    "main": {},
+    "pied": {},
+    "bras": {},
+    "jambe": {},
+    "nez": {},
+    "bouche": {},
+    "dent": {},
+    "yeux": {},
+    "oreille": {},
+    "cheveux": {},
+    "lune": {},
+    "soleil": {},
+    "étoile": {},
+    "ciel": {},
+    "pluie": {},
+    "neige": {},
+    "vent": {},
+    "nuage": {},
+    "mer": {},
+    "plage": {},
+    "sable": {},
+    "fleur": {},
+    "arbre": {},
+    "feuille": {},
+    "robe": {},
+    "jupe": {},
+    "pull": {},
+    "bonnet": {},
+    "gant": {},
+    "sac": {},
+    "ballon": {},
+    "robot": {},
+    "cube": {},
+    "jeu": {},
+    "jouet": {},
+    "image": {},
+    "page": {},
+    "mot": {},
+    "lettre": {},
+    "jour": {},
+    "nuit": {},
+    "matin": {},
+    "soir": {},
+    "fête": {},
+    "cadeau": {},
+    "roi": {},
+    "reine": {},
+    "fée": {},
+    "père": {},
+    "mère": {},
+    "frère": {},
+    "forêt": {},
+    "rêve": {},
+    "tête": {},
+    "fenêtre": {},
+    "leçon": {},
+    "petit": {},
+    "petite": {},
+    "grand": {},
+    "grande": {},
+    "gros": {},
+    "beau": {},
+    "belle": {},
+    "joli": {},
+    "jolie": {},
+    "bon": {},
+    "bonne": {},
+    "rouge": {},
+    "bleu": {},
+    "vert": {},
+    "jaune": {},
+    "rose": {},
+    "noir": {},
+    "blanc": {},
+    "gris": {},
+    "chaud": {},
+    "froid": {},
+    "propre": {},
+    "sale": {},
+    "facile": {},
+    "lundi": {},
+    "mardi": {},
+    "mercredi": {},
+    "jeudi": {},
+    "vendredi": {},
+    "samedi": {},
+    "dimanche": {},
+    "merci": {},
+    "bonjour": {},
+    "salut": {},
+    "bravo": {},
+    "vite": {},
+    "demain": {},
+    "hier": {},
+    "encore": {},
+    "jamais": {},
+    "rien": {},
+    "même": {},
+    "autre": {}
+  },
+  "neverSpeak": [
+    "cul",
+    "con",
+    "conne",
+    "connard",
+    "pute",
+    "putain",
+    "merde",
+    "zizi",
+    "pipi",
+    "caca",
+    "prout",
+    "pet",
+    "pets",
+    "bite",
+    "nichon",
+    "couille",
+    "couilles",
+    "salope",
+    "chier",
+    "chiotte",
+    "nique",
+    "niquer",
+    "pipe",
+    "sein",
+    "seins",
+    "fesse",
+    "fesses",
+    "nu",
+    "nue",
+    "sexe",
+    "gode",
+    "zob",
+    "chatte",
+    "queue",
+    "suce",
+    "sucer",
+    "bander",
+    "pédé"
+  ],
+  "comboAudit": "Référents : chaque ancre est à la fois initiale à l'oreille et initiale à l'écrit (avion, banane, canard…) — aucune lettre muette en tête, aucun référent à valeur trompeuse. Cinq référents médians assumés, à la manière des affichages de CP (« le e de cheval, le u de lune ») : e/cheval, è/chèvre, ê/pêche, u/lune, y/stylo. Paires (noun, themeDir) toutes prouvées dans les manifestes/banques livrés, sauf igloo/winter et kiwi/fruits vérifiées en ligne le 2026-07-16 (curl -sI → HTTP 200, image/webp). x = valeurs multiples (/ks/, /gz/, /s/, /z/) → tuile muette plutôt qu'un référent faux ; q, w, à, ç, h muettes aussi. extraWords : ~210 mots très fréquents CP/CE1, passés au crible vulgarité/anatomie/alcool — propres ; les doubles sens risqués (pipe, chatte, queue) sont exclus des mots ET inscrits dans neverSpeak. nonwordTTS false — verrouillé : la synthèse française écorche les pseudo-mots, une chaîne inconnue reste silencieuse.",
+  "notes": "Plateau français = a-z + é è ê à ç + digraphes ch, ou, oi, an, on. Conventions CP : (1) jamais le NOM de la lettre, jamais un phonème isolé par la machine — la tuile parle par son mot-repère, comme l'affichage mural. (2) y = VOYELLE (valeur /i/ : stylo) ; le e = /ə/ n'existe pas à l'initiale d'un nom illustrable, d'où le référent médian cheval — idem è, ê, u (/y/), y. (3) h = lettre muette → tuile muette (le piège hibou/haricot est structurellement évité) ; q (qu = /k/), w, x (multi-valeurs), à (mot-outil pur), ç (jamais à l'initiale) = muettes aussi. (4) Digraphes à valeur vocalique ou/oi/an/on : vowel:true + warm:true (teinte chaude des voyelles, et le validateur ne leur applique pas le test d'attaque consonantique). ch reste froid comme consonne. Le digraphe in est omis faute de référent illustré à l'initiale (les mots en in- illustrables se lisent /in-/, pas /ɛ̃/) ; gn et ph relèvent du CE1 et se construisent avec les lettres simples. (5) g = /g/ ancré sur gant (g+a) ; on évite gui-/ge- qui enseigneraient une fausse règle. (6) extraWords sans ù û î ô ï ë œ ni apostrophe/trait d'union (où, île, sœur, aujourd'hui exclus) : le plateau est exact à l'accent près."
+}

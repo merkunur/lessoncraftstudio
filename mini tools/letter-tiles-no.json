@@ -1,0 +1,720 @@
+{
+  "locale": "no",
+  "version": 1,
+  "nonwordTTS": true,
+  "tray": [
+    {
+      "g": "a",
+      "kind": "vowel",
+      "anchor": {
+        "word": "and",
+        "noun": "duck",
+        "themeDir": "animals",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "b",
+      "kind": "consonant",
+      "anchor": {
+        "word": "bil",
+        "noun": "car",
+        "themeDir": "toys",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "c",
+      "kind": "consonant",
+      "anchor": null
+    },
+    {
+      "g": "d",
+      "kind": "consonant",
+      "anchor": {
+        "word": "dør",
+        "noun": "door",
+        "themeDir": "around the house",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "e",
+      "kind": "vowel",
+      "anchor": {
+        "word": "egg",
+        "noun": "egg",
+        "themeDir": "At the Supermarket",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "f",
+      "kind": "consonant",
+      "anchor": {
+        "word": "fisk",
+        "noun": "fish",
+        "themeDir": "animals",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "g",
+      "kind": "consonant",
+      "anchor": {
+        "word": "gås",
+        "noun": "goose",
+        "themeDir": "birds 2",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "h",
+      "kind": "consonant",
+      "anchor": {
+        "word": "hus",
+        "noun": "house",
+        "themeDir": "miscellaneous",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "i",
+      "kind": "vowel",
+      "anchor": {
+        "word": "is",
+        "noun": "ice",
+        "themeDir": "winter",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "j",
+      "kind": "consonant",
+      "anchor": {
+        "word": "jakke",
+        "noun": "jacket",
+        "themeDir": "clothing",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "k",
+      "kind": "consonant",
+      "anchor": {
+        "word": "katt",
+        "noun": "cat",
+        "themeDir": "animals",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "l",
+      "kind": "consonant",
+      "anchor": {
+        "word": "lam",
+        "noun": "lamb",
+        "themeDir": "easter",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "m",
+      "kind": "consonant",
+      "anchor": {
+        "word": "mus",
+        "noun": "mouse",
+        "themeDir": "pets",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "n",
+      "kind": "consonant",
+      "anchor": {
+        "word": "nese",
+        "noun": "nose",
+        "themeDir": "body parts",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "o",
+      "kind": "vowel",
+      "anchor": {
+        "word": "ost",
+        "noun": "cheese",
+        "themeDir": "At the Supermarket",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "p",
+      "kind": "consonant",
+      "anchor": {
+        "word": "penn",
+        "noun": "pen",
+        "themeDir": "classroom",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "q",
+      "kind": "consonant",
+      "anchor": null
+    },
+    {
+      "g": "r",
+      "kind": "consonant",
+      "anchor": {
+        "word": "rev",
+        "noun": "fox",
+        "themeDir": "animals",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "s",
+      "kind": "consonant",
+      "anchor": {
+        "word": "sol",
+        "noun": "sun",
+        "themeDir": "weather",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "t",
+      "kind": "consonant",
+      "anchor": {
+        "word": "tog",
+        "noun": "train",
+        "themeDir": "toys",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "u",
+      "kind": "vowel",
+      "anchor": {
+        "word": "ugle",
+        "noun": "owl",
+        "themeDir": "animals",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "v",
+      "kind": "consonant",
+      "anchor": {
+        "word": "vott",
+        "noun": "mitten",
+        "themeDir": "accessories",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "w",
+      "kind": "consonant",
+      "anchor": null
+    },
+    {
+      "g": "x",
+      "kind": "consonant",
+      "anchor": null
+    },
+    {
+      "g": "y",
+      "kind": "vowel",
+      "anchor": null
+    },
+    {
+      "g": "z",
+      "kind": "consonant",
+      "anchor": null
+    },
+    {
+      "g": "æ",
+      "kind": "vowel",
+      "anchor": null
+    },
+    {
+      "g": "ø",
+      "kind": "vowel",
+      "anchor": {
+        "word": "øye",
+        "noun": "eye",
+        "themeDir": "body parts",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "å",
+      "kind": "vowel",
+      "anchor": {
+        "word": "åre",
+        "noun": "oar",
+        "themeDir": "camping",
+        "position": "initial"
+      }
+    },
+    {
+      "g": "au",
+      "kind": "digraph",
+      "vowel": true,
+      "warm": true,
+      "anchor": {
+        "word": "sau",
+        "noun": "sheep",
+        "themeDir": "farm animals",
+        "position": "final"
+      }
+    },
+    {
+      "g": "ei",
+      "kind": "digraph",
+      "vowel": true,
+      "warm": true,
+      "anchor": {
+        "word": "geit",
+        "noun": "goat",
+        "themeDir": "farm animals",
+        "position": "medial"
+      }
+    },
+    {
+      "g": "øy",
+      "kind": "digraph",
+      "vowel": true,
+      "warm": true,
+      "anchor": {
+        "word": "fløyte",
+        "noun": "whistle",
+        "themeDir": "accessories",
+        "position": "medial"
+      }
+    },
+    {
+      "g": "ng",
+      "kind": "digraph",
+      "warm": false,
+      "anchor": {
+        "word": "ring",
+        "noun": "ring",
+        "themeDir": "accessories",
+        "position": "final"
+      }
+    }
+  ],
+  "extraWords": {
+    "og": {},
+    "i": {},
+    "er": {},
+    "en": {},
+    "et": {},
+    "ei": {},
+    "å": {},
+    "den": {},
+    "det": {},
+    "de": {},
+    "dem": {},
+    "han": {},
+    "hun": {},
+    "ham": {},
+    "henne": {},
+    "vi": {},
+    "du": {},
+    "jeg": {},
+    "meg": {},
+    "deg": {},
+    "seg": {},
+    "oss": {},
+    "dere": {},
+    "min": {},
+    "mi": {},
+    "mitt": {},
+    "din": {},
+    "ditt": {},
+    "sin": {},
+    "si": {},
+    "sitt": {},
+    "vår": {},
+    "på": {},
+    "av": {},
+    "til": {},
+    "fra": {},
+    "med": {},
+    "hos": {},
+    "om": {},
+    "opp": {},
+    "ned": {},
+    "ut": {},
+    "inn": {},
+    "ute": {},
+    "inne": {},
+    "her": {},
+    "der": {},
+    "hit": {},
+    "dit": {},
+    "nå": {},
+    "da": {},
+    "så": {},
+    "når": {},
+    "hvem": {},
+    "hva": {},
+    "hvor": {},
+    "ikke": {},
+    "ja": {},
+    "nei": {},
+    "jo": {},
+    "mer": {},
+    "mest": {},
+    "alle": {},
+    "alt": {},
+    "noen": {},
+    "noe": {},
+    "mange": {},
+    "som": {},
+    "at": {},
+    "men": {},
+    "eller": {},
+    "for": {},
+    "over": {},
+    "under": {},
+    "bak": {},
+    "foran": {},
+    "mellom": {},
+    "etter": {},
+    "før": {},
+    "igjen": {},
+    "også": {},
+    "bare": {},
+    "mye": {},
+    "litt": {},
+    "selv": {},
+    "denne": {},
+    "dette": {},
+    "disse": {},
+    "sammen": {},
+    "andre": {},
+    "se": {},
+    "ser": {},
+    "sa": {},
+    "sier": {},
+    "gå": {},
+    "går": {},
+    "gikk": {},
+    "kom": {},
+    "kommer": {},
+    "var": {},
+    "være": {},
+    "bli": {},
+    "blir": {},
+    "ble": {},
+    "ha": {},
+    "har": {},
+    "hadde": {},
+    "kan": {},
+    "kunne": {},
+    "vil": {},
+    "ville": {},
+    "skal": {},
+    "skulle": {},
+    "må": {},
+    "få": {},
+    "får": {},
+    "fikk": {},
+    "gi": {},
+    "gir": {},
+    "ga": {},
+    "ta": {},
+    "tar": {},
+    "tok": {},
+    "les": {},
+    "leser": {},
+    "leke": {},
+    "leker": {},
+    "løpe": {},
+    "løper": {},
+    "hoppe": {},
+    "hopper": {},
+    "spise": {},
+    "spiser": {},
+    "sover": {},
+    "sov": {},
+    "bo": {},
+    "bor": {},
+    "like": {},
+    "liker": {},
+    "elsker": {},
+    "synger": {},
+    "sang": {},
+    "tegner": {},
+    "skriver": {},
+    "skrev": {},
+    "gjør": {},
+    "står": {},
+    "sitter": {},
+    "satt": {},
+    "vet": {},
+    "heter": {},
+    "finner": {},
+    "fant": {},
+    "mor": {},
+    "far": {},
+    "mamma": {},
+    "pappa": {},
+    "barn": {},
+    "gutt": {},
+    "jente": {},
+    "venn": {},
+    "dag": {},
+    "natt": {},
+    "uke": {},
+    "år": {},
+    "hjem": {},
+    "hjemme": {},
+    "skole": {},
+    "bok": {},
+    "penn": {
+      "noun": "pen",
+      "themeDir": "classroom"
+    },
+    "hus": {
+      "noun": "house",
+      "themeDir": "miscellaneous"
+    },
+    "dør": {},
+    "seng": {},
+    "bord": {},
+    "stol": {},
+    "mat": {},
+    "brød": {
+      "noun": "bread",
+      "themeDir": "At the Supermarket"
+    },
+    "melk": {
+      "noun": "milk",
+      "themeDir": "At the Supermarket"
+    },
+    "ost": {},
+    "egg": {
+      "noun": "egg",
+      "themeDir": "At the Supermarket"
+    },
+    "is": {},
+    "vann": {},
+    "sol": {
+      "noun": "sun",
+      "themeDir": "weather"
+    },
+    "måne": {},
+    "stjerne": {},
+    "regn": {},
+    "snø": {},
+    "vind": {},
+    "tre": {},
+    "blad": {},
+    "blomst": {},
+    "gress": {},
+    "dyr": {},
+    "katt": {
+      "noun": "cat",
+      "themeDir": "animals"
+    },
+    "hund": {
+      "noun": "dog",
+      "themeDir": "animals"
+    },
+    "mus": {
+      "noun": "mouse",
+      "themeDir": "pets"
+    },
+    "hest": {
+      "noun": "horse",
+      "themeDir": "farm animals"
+    },
+    "ku": {
+      "noun": "cow",
+      "themeDir": "farm animals"
+    },
+    "sau": {
+      "noun": "sheep",
+      "themeDir": "farm animals"
+    },
+    "lam": {
+      "noun": "lamb",
+      "themeDir": "easter"
+    },
+    "gris": {
+      "noun": "pig",
+      "themeDir": "animals"
+    },
+    "gås": {
+      "noun": "goose",
+      "themeDir": "birds 2"
+    },
+    "and": {},
+    "fisk": {
+      "noun": "fish",
+      "themeDir": "animals"
+    },
+    "fugl": {},
+    "ugle": {},
+    "rev": {},
+    "elg": {},
+    "bjørn": {},
+    "ulv": {},
+    "geit": {},
+    "høne": {},
+    "bie": {},
+    "frosk": {},
+    "bil": {
+      "noun": "car",
+      "themeDir": "toys"
+    },
+    "buss": {},
+    "båt": {
+      "noun": "boat",
+      "themeDir": "beach"
+    },
+    "tog": {},
+    "fly": {},
+    "sykkel": {},
+    "ball": {},
+    "ring": {
+      "noun": "ring",
+      "themeDir": "accessories"
+    },
+    "sko": {
+      "noun": "shoe",
+      "themeDir": "clothing"
+    },
+    "lue": {},
+    "vott": {},
+    "jakke": {},
+    "hår": {},
+    "øye": {},
+    "øre": {},
+    "nese": {},
+    "munn": {},
+    "hånd": {},
+    "fot": {},
+    "tann": {},
+    "bein": {},
+    "arm": {},
+    "mage": {},
+    "hode": {},
+    "kake": {},
+    "eple": {},
+    "pære": {},
+    "bær": {},
+    "vei": {},
+    "by": {},
+    "fjell": {},
+    "skog": {},
+    "hav": {},
+    "sjø": {},
+    "strand": {},
+    "sand": {},
+    "stein": {},
+    "gull": {},
+    "navn": {},
+    "tall": {},
+    "ord": {},
+    "lys": {},
+    "nøkkel": {},
+    "klokke": {},
+    "rød": {},
+    "blå": {},
+    "gul": {},
+    "grønn": {},
+    "hvit": {},
+    "svart": {},
+    "brun": {},
+    "rosa": {},
+    "stor": {},
+    "liten": {},
+    "lang": {},
+    "kort": {},
+    "ny": {},
+    "gammel": {},
+    "god": {},
+    "fin": {},
+    "glad": {},
+    "trist": {},
+    "varm": {},
+    "kald": {},
+    "våt": {},
+    "tørr": {},
+    "rask": {},
+    "snill": {},
+    "sterk": {},
+    "myk": {},
+    "søt": {},
+    "høy": {},
+    "redd": {},
+    "mørk": {},
+    "to": {},
+    "fire": {},
+    "fem": {},
+    "seks": {},
+    "sju": {},
+    "åtte": {},
+    "ni": {},
+    "ti": {},
+    "hei": {},
+    "takk": {},
+    "bra": {}
+  },
+  "neverSpeak": [
+    "faen",
+    "fitte",
+    "kuk",
+    "kukk",
+    "pikk",
+    "hore",
+    "horer",
+    "dritt",
+    "drit",
+    "bæsj",
+    "tiss",
+    "piss",
+    "promp",
+    "rumpe",
+    "ræv",
+    "ræva",
+    "rasshøl",
+    "pupp",
+    "pupper",
+    "sæd",
+    "satan",
+    "helvete",
+    "jævel",
+    "jævla",
+    "jævlig",
+    "neger",
+    "svarting",
+    "homo",
+    "mongo",
+    "kåt",
+    "merr",
+    "tøs",
+    "hor",
+    "dop",
+    "øl",
+    "vin",
+    "rus",
+    "fyll",
+    "dust",
+    "idiot",
+    "teit",
+    "dum",
+    "dø",
+    "død",
+    "drap",
+    "mord"
+  ],
+  "comboAudit": "Ankerord: alle anker er lyd- og skriftinitiale fra billedbiblioteket, med ren CV-start (ingen konsonantklynger, ingen stumme onsets — hjul-klassen er bannlyst, h = hus). Alle (noun, themeDir)-par unntatt to er belagt i skipte manifester/bank/deck-filer; i = is (ice, winter) og å = åre (oar, camping) er verifisert live med curl HTTP 200 mot image-library-webp 2026-07-16. Diftongbrikkene har final/medial anker (sau, geit, fløyte), ng har final anker (ring) — samme mønster som en ck/ng. extraWords: 299 høyfrekvente 1.–2.-trinnsord i bokmål, håndvasket for banning/anatomi/alkohol/øl-vin-rus-klassen — rene; full (beruset-lesningen), bæsj/tiss-klassen og skjellsord er holdt ute av listen, og risikable byggbare strenger ligger i neverSpeak. mus beholdt som ekte ord med bilde per lydbokser/lydtavle-presedens (kanonisk førstelesingsord; musemerket forankrer betydningen). nonwordTTS true — norsk TTS leser tulleord greit (samme valg som lydbokser/lydtavle-no).",
+  "notes": "no-brettet = a–å (29 enkeltbokstaver; y klassifisert som vokal per norsk fonologi) + diftongbrikkene au/ei/øy som vokal-verdige digrafer (én lyd, én brikke — samme behandling som Lydtavlas diftongkort) + ng (final, ring). kj/sj/skj er bevisst UTELATT: kj/sj-bevissthet hører til 2. trinn per plattformens fonikk-doktrine (§20.7), og K-1-brettet holdes enkelt. Stille brikker: c q w x z (lånordsbokstaver uten rene norske billedord), y (ingen y-initial billednoun), æ (ingen æ-initial billednoun — æ lever nesten bare foran r i bokmål). Ankerordene er de samme ordene barna møter i Lydbokser og Lydtavle (sol, katt, hus, mus, gås, sau) der det var mulig."
+}

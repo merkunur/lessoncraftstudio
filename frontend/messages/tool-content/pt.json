@@ -123,6 +123,32 @@
       "Ditado ao contrário: diga uma palavra do baralho (pato, mesa, luz) e peça que a criança gire as colunas até montá-la, falando cada sílaba enquanto procura."
     ]
   },
+  "letter-tiles": {
+    "slug": "alfabeto-movel",
+    "name": "Alfabeto móvel",
+    "tagline": "Monte palavras com letras que falam",
+    "metaTitle": "Alfabeto móvel interativo grátis | LessonCraftStudio",
+    "metaDescription": "Alfabeto móvel interativo e gratuito para a alfabetização: a criança monta palavras com letras que falam a palavra-chave — sem login, em qualquer aparelho.",
+    "about": [
+      "O alfabeto móvel é o material clássico da alfabetização brasileira — e aqui ele ganha voz. A criança arrasta letras para o quadro e monta o que quiser: o próprio nome, mamãe, bola. Ao tocar em uma letra, ela ouve a palavra-chave ilustrada daquela letra (A de abelha, X de xícara) — nunca o nome da letra solto nem um som artificial, sempre uma palavra de verdade que ancora o som à escrita.",
+      "O quadro livre respeita a escrita espontânea: não há X vermelho nem alarme de erro. Se a criança escreve bola como BOA, tudo bem — é assim que as hipóteses de escrita evoluem, e é escrevendo do seu jeito que ela caminha da hipótese silábica para a alfabética. Quando a montagem forma uma palavra que existe, o quadro celebra: bola — uma palavra de verdade! É a construção de palavras com alfabeto móvel que a BNCC espera na análise do sistema de escrita no 1º e no 2º ano.",
+      "A bandeja traz de A a Z, o ç, as vogais acentuadas (á, é, ã, õ…) e os dígrafos nh, lh, ch, rr, ss e qu — porque em português duas letras podem ser um som só. Há cartões de palavras para praticar, uma aba para as palavras da semana da turma, e tudo funciona no navegador, na lousa digital, no tablet ou no celular, sem conta, sem cronômetro e sem pontuação."
+    ],
+    "howToUse": [
+      "Comece no quadro livre: deixe a criança explorar as letras e montar o próprio nome — a palavra mais importante da alfabetização.",
+      "Toquem juntos nas letras para ouvir as palavras-chave: A de abelha, G de gato. Pergunte: com que letra começa o seu nome?",
+      "Dite uma palavra simples (bola, pato, casa) e peça que a criança monte do jeito que acha que se escreve — acolha a escrita espontânea e conversem sobre os sons que ela ouviu.",
+      "Passe aos cartões de palavras quando quiser praticar: a criança ouve a palavra, monta com as letras e confere ouvindo de novo.",
+      "Apresente os dígrafos: monte ninho e pergunte por que N e H juntos fazem um som novo — a bandeja tem peças prontas para nh, lh, ch, rr e ss."
+    ],
+    "classroomIdeas": [
+      "Nome do dia: a cada dia uma criança monta o próprio nome no quadro projetado; a turma conta as letras e descobre com que som começa.",
+      "Do som à letra: diga uma palavra da rotina (janela, suco, fila), peça que a turma fale o primeiro som e chame uma criança para achar a letra na bandeja.",
+      "Dupla com as Caixas de sons: primeiro a criança separa gato nas caixas, som por som; depois monta a mesma palavra no alfabeto móvel — segmentar e escrever são as duas mãos da alfabetização.",
+      "Fábrica de rimas: monte pato e desafie a turma a trocar uma letra só para virar gato, rato, mato — uma letra muda, a palavra muda.",
+      "Palavras da semana: digite a lista do projeto da turma na aba de palavras próprias e use os cartões na rotina de sistematização da escrita."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

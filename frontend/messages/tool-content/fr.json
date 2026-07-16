@@ -123,6 +123,32 @@
       "En aide personnalisée, restez sur une seule ligne : gardez la même consonne et ne changez que la voyelle (ma, mi, mo, mu, mé) pour automatiser la fusion sans surcharge."
     ]
   },
+  "letter-tiles": {
+    "slug": "lettres-magnetiques",
+    "name": "Lettres magnétiques",
+    "tagline": "L'alphabet mobile du CP : former ses premiers mots, lettre à lettre",
+    "metaTitle": "Lettres magnétiques – alphabet mobile | LessonCraftStudio",
+    "metaDescription": "Des lettres magnétiques gratuites et interactives pour le CP : l'enfant forme des mots sur le tableau, touche une lettre et entend son mot-repère.",
+    "about": [
+      "Les lettres magnétiques sont le grand classique de la maternelle et du CP : un tableau, des lettres aimantées, et une main d'enfant qui les déplace pour écrire avant même de savoir tenir un stylo. Cette version interactive reprend le geste tel quel — on fait glisser les lettres sur le tableau, on les range, on recommence — et y ajoute l'oreille : quand l'enfant touche une lettre, il entend son mot-repère, « a comme avion, ch comme chat », jamais le nom de la lettre, jamais un son isolé prononcé par une machine.",
+      "Le plateau est pensé pour le français : les voyelles en teinte chaude, les accents é, è, ê, à, ç en tuiles à part entière, et les sons complexes ch, ou, oi, an, on en une seule tuile — une tuile pour un son, comme une case des boîtes à sons. Les lettres sans référent honnête (le h muet, le q, le x aux quatre valeurs) restent des tuiles muettes : mieux vaut une lettre silencieuse qu'un mot-repère qui trompe. Aux cartes de mots s'ajoute le tableau libre, où l'enfant encode ses propres mots — c'est l'écriture inventée, ou écriture tâtonnée, que les programmes de cycle 2 encouragent : on écrit comme on entend, on compare ensuite avec l'orthographe, et personne ne sort le stylo rouge.",
+      "Aucune croix rouge, aucun minuteur, aucun score : quand un assemblage forme un vrai mot, un badge le fête ; sinon, le tableau attend simplement la suite. L'outil fonctionne directement dans le navigateur — TBI, tablette, ordinateur —, sans installation ni compte, et se relie à ses deux compagnons de phonologie, les Boîtes à sons et le Tableau de syllabes."
+    ],
+    "howToUse": [
+      "Choisissez le tableau libre pour l'écriture inventée, ou les cartes de mots pour une dictée guidée ; les lettres existent en minuscules et en capitales.",
+      "L'enfant dit le mot lentement, puis fait glisser sur le tableau une lettre pour chaque son qu'il entend, de gauche à droite.",
+      "S'il hésite entre deux lettres, il en touche une : le mot-repère la fait entendre — « e comme cheval, é comme éléphant » — et il choisit.",
+      "Avec les cartes de mots, affichez « Une case par lettre » pour guider les premiers essais, puis retirez l'aide dès que possible.",
+      "À la vérification, l'outil lit le mot construit : comparez à l'oral ce que l'enfant a écrit et ce qu'il voulait écrire — on corrige avec la bouche, jamais avec une croix rouge."
+    ],
+    "classroomIdeas": [
+      "En dictée muette, projetez une image (ou posez un objet) : chaque enfant encode le mot avec ses lettres, puis la classe compare les essais et cherche l'orthographe ensemble.",
+      "En rituel du matin au TBI, construisez le mot du jour lettre à lettre : la classe propose les sons, un élève vient poser les tuiles.",
+      "Faites écrire les prénoms de la classe : les tuiles é, è, ê et ç permettent Chloé, Angèle ou François sans tricher sur les accents.",
+      "Reliez les trois outils : on segmente d'abord le mot dans les Boîtes à sons, on le reconstruit ensuite en lettres magnétiques — une case par son, une tuile par graphème.",
+      "Avec « Mes mots », entrez les mots de la semaine : chaque enfant les construit en atelier autonome, puis les écrit sur l'ardoise."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

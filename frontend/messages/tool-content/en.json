@@ -123,6 +123,32 @@
       "Pair it with Sound Boxes for the full routine: segment a word into its sounds there, then come back and blend words here."
     ]
   },
+  "letter-tiles": {
+    "slug": "letter-tiles",
+    "name": "Letter Tiles",
+    "tagline": "An open magnetic board for building words",
+    "metaTitle": "Free Online Letter Tiles for Word Building | LessonCraftStudio",
+    "metaDescription": "Free magnetic letter tiles for phonics and spelling. Drag letters onto the board, hear anchor words, and check real words — no login, on any device.",
+    "about": [
+      "Letter tiles are the classic word-building manipulative: a tray of magnetic letters and an open board where any word can take shape. This digital board keeps everything teachers love about the physical version — tiles that snap side by side, a tray that never runs out of letters — and adds the one thing plastic letters cannot do: every tile can talk. Tap a letter and it says its anchor word, so a child who has forgotten which letter makes a sound can find it again on their own.",
+      "The board is built for encoding — the spelling half of phonics. Children segment a word into sounds, then pick the letter for each sound and build it. When they press check, the board reads their word aloud. Real words earn a picture; a child’s own inventive spelling is simply read back, never marked wrong — because a kindergartner who writes “kat” has done real phonemic work, and a red X would undo it. There is no timer, no score, and nothing to get wrong on an open board.",
+      "A picture alphabet puts an anchor image on every tile, in the tradition of the German Anlauttabelle — and it works in all eleven languages, each with its own tray, its own anchor words, and its own high-frequency word list. Word cards from the Sound Boxes word bank turn the board into a guided spelling station: the child hears a word, builds it letter by letter, and optional ghost boxes show how many letter chunks it needs."
+    ],
+    "howToUse": [
+      "Drag letters from the tray onto the board — they settle onto the writing lines and snap neatly next to their neighbours.",
+      "Tap any tile to hear its anchor word, the same way a child uses a picture alphabet chart.",
+      "Build a word, then press the check button: the board reads the letters left to right and speaks the word.",
+      "Watch for the badge: a picture means a real word. Anything else is simply read aloud — never marked wrong.",
+      "Open the word cards for a guided round: the child hears a word, builds it, and checks — with optional letter boxes as a scaffold."
+    ],
+    "classroomIdeas": [
+      "Morning word work: put yesterday’s word family on the board and have children change one letter at a time — cat, hat, hot, hop.",
+      "Sound hunt: say a word aloud, have children find the letter for its first sound by tapping tiles and listening to the anchor words.",
+      "Invented-spelling journal warm-up: children build the word exactly as they hear it, the board reads it back, and the class compares it with the book spelling.",
+      "Name station: children build their own names and classmates’ names — the board reads every name aloud without judging it.",
+      "Guided spelling with word cards: deal a card, build the word in the ghost boxes, and let the picture badge confirm the match."
+    ]
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

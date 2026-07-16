@@ -123,6 +123,32 @@
       "Eigener Kartensatz für die Differenzierung: Schalten Sie noch nicht eingeführte Buchstaben aus, sodass die Maschine exakt Ihrem Buchstabenweg entspricht."
     ]
   },
+  "letter-tiles": {
+    "slug": "magnetbuchstaben",
+    "name": "Magnetbuchstaben",
+    "tagline": "Wörter legen mit Anlautbildern",
+    "metaTitle": "Magnetbuchstaben online – Wörter bauen | LessonCraftStudio",
+    "metaDescription": "Magnetbuchstaben mit Anlautbildern: Buchstaben auf die Tafel ziehen, Wörter bauen, Anlautwörter hören. Kostenlos, ohne Anmeldung – für Tafel und Tablet.",
+    "about": [
+      "Magnetbuchstaben gehören in jede erste Klasse – hier liegen sie digital bereit: eine freie Tafel, ein Kasten voller Buchstaben von A bis Z samt Ä, Ö, Ü und ß, dazu mehrgliedrige Grapheme wie Sch, Ch, St, Sp, Ei, Au und Eu als eigene Magnete. Die Kinder ziehen Buchstaben auf die Tafel, schieben sie zu Wörtern zusammen und räumen sie wieder in den Kasten. Wer auf einen Buchstaben tippt, hört sein Anlautwort – A wie Affe, M wie Maus: das Prinzip der Anlauttabelle, direkt am Material.",
+      "Hinter dem Werkzeug steht die Anlauttabelle des Anfangsunterrichts: Kinder erschreiben sich Wörter selbstständig, indem sie zu jedem gehörten Laut das passende Zeichen finden. Darum sprechen die Kacheln nie Buchstabennamen, sondern immer Anlautwörter – mit den richtigen deutschen Konventionen: S wie Sonne (das stimmhafte /z/ vor Vokal), V wie Vogel (/f/), St und Sp als verschmolzene Einheiten. Und das freie, lautorientierte Schreiben wird respektiert: Echte Wörter bekommen beim Vorlesen ein Bild oder Häkchen, alles andere wird einfach vorgelesen – kein rotes Kreuz, kein Fehlerton. Wer Mama baut, wird gefeiert; wer Schif schreibt, hört sein Wort und darf weiterprobieren.",
+      "Im Wortkarten-Modus kommen Bildkarten aus denselben Stufen wie in den Lautboxen: lauttreue Wörter zuerst, dann mehrgliedrige Grapheme und Merkwörter – auf Wunsch mit Buchstabenkästchen als Stütze. Zusammen mit den Lautboxen (Laute gliedern) und der Lesemaschine (Laute zusammenziehen) bildet das Werkzeug ein vollständiges Trio für den Schriftspracherwerb. Es läuft direkt im Browser auf Tafel, Tablet und PC – ohne Installation, ohne Konto, ohne Timer und ohne Punktzahl – und steht wie die ganze Plattform in elf Sprachen bereit."
+    ],
+    "howToUse": [
+      "Öffnen Sie die Tafel im Vollbild – am Whiteboard, am Tablet oder an der Schreibstation. Die Kinder bedienen alles selbst: Buchstaben ziehen, antippen, zurücklegen.",
+      "Lassen Sie die Kinder zuerst frei bauen: den eigenen Namen, Mama, Oma. Ein Tipp auf einen Buchstaben spielt sein Anlautwort – so finden die Kinder den Laut, den sie gerade suchen.",
+      "Sprechen Sie ein Wort gedehnt vor und lassen Sie es legen: Mmm-aaa-uuu-sss. Danach „Wort vorlesen“ antippen – die Tafel liest, was wirklich dasteht.",
+      "Wechseln Sie zu den Wortkarten: Ein Bild erscheint, das Kind hört das Wort und legt es nach – mit oder ohne Buchstabenkästchen als Hilfe.",
+      "Tragen Sie unter „Meine Wörter“ die Lernwörter der Woche ein – dann üben die Kinder an der Station genau Ihren Wortschatz."
+    ],
+    "classroomIdeas": [
+      "Namen-Werkstatt zum Schulstart: Jedes Kind legt seinen Namen aus Magnetbuchstaben und hört die Anlautwörter seiner Buchstaben – der klassische Einstieg in die Anlauttabelle.",
+      "Anlaut-Jagd: Sie sagen ein Wort (Sonne), die Kinder ziehen den passenden Anfangsbuchstaben auf die Tafel und begründen ihre Wahl mit dem Anlautwort.",
+      "Wörter verwandeln: Aus Maus wird Haus, aus Haus wird Hase – immer nur einen Buchstaben tauschen und vorlesen lassen. So wird die Lautfolge bewusst.",
+      "Freies Schreiben würdigen: Die Kinder verschriften eine kleine Botschaft lautorientiert; die Tafel liest sie vor, ohne zu korrigieren – besprochen wird gemeinsam im Gespräch.",
+      "Brücke im Trio: Ein Wort erst in den Lautboxen gliedern, dann mit Magnetbuchstaben legen, zuletzt an der Lesemaschine erlesen – Analyse, Verschriftung und Synthese als Dreiklang."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

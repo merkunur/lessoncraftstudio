@@ -175,6 +175,32 @@
       "Hundradagarsfesten: räkna till 100 med tiohopp när tio buntar blir ett hundratal — och räkna sedan vidare förbi (dag 101 är också ett tal)."
     ]
   },
+  "number-talk-easel": {
+    "slug": "blixtbilder",
+    "name": "Blixtbilder",
+    "tagline": "En talbild i tre sekunder — och sedan pratar vi matte",
+    "metaTitle": "Gratis blixtbilder för samlingen | LessonCraftStudio",
+    "metaDescription": "Gratis blixtbilder för mattesamtal: prickar, tioramar och kulram visas i tre sekunder — barnen ser antal utan att räkna och berättar hur. Utan inloggning.",
+    "about": [
+      "Blixtbilder är en av samlingens enklaste och starkaste rutiner: en talbild — prickar, en tärningsbild, en tioram, kulramen eller sju ankor — visas i ungefär tre sekunder, och sedan dras rullgardinen ner igen. Tre sekunder är för kort för att hinna räkna en och en men lagom för att se strukturer, och det är hela poängen: barnen slutar rabbla och börjar se grupper. Rullgardinen är din — ett tryck ger en tidsatt blixt, och håller du knappen nere är bilden framme exakt så länge tummen ligger kvar. Samma bild kan visas igen, exakt likadan, så att barnen får pröva sin inre bild mot originalet.",
+      "Det viktigaste händer efter blixten: barnen berättar hur de såg det. Fem och tre? Fyra och fyra? Alla sätt att se är välkomna, och verktyget säger aldrig rätt eller fel — inga pling, inga stjärnor, och talet hålls hemligt tills du själv trycker på Vi räknar!, då strukturen räknas högt och svarskortet lyfts fram. Under samtalet färgar ett tryck prickarna precis som ett barn grupperade dem — fem röda och tre blå — och med kritan ringar ni in paren, femmorna och tiorna klassen hittade. Femstrukturen i tioramens övre rad och färgbytet vid fem på kulramen gör grupperna synliga av sig själva — det är sådan taluppfattning som matematiken i Lgr22 vilar på: att se, dela upp och jämföra tal, inte att svara snabbast.",
+      "Bildserierna är ett helt läsår av mattesamtal utan förberedelse: serier om tre till fem bilder där varje bild är en liten variation av den förra — fem och lite till, dubblor, tiokompisar — med en rads lärarnotis till varje serie. Bilderna är fasta, så en serie ser exakt likadan ut i varje klassrum, precis som lärarnotisen förutsätter. Bygg egna serier för veckans samlingar, och kör hela rutinen på något av elva språk, med räkneorden sagda som din klass säger dem. Verktyget körs direkt i webbläsaren på klassrumsdatorn eller projektorn — inget konto, ingen timer och inga poäng, bara en lugn mattestund som är redo när klassen har satt sig."
+    ],
+    "howToUse": [
+      "Välj bildtyp och talområde — eller börja med dagens blixtbild, som står redo när projektorn tänds.",
+      "Tryck på Visa för en blixt på tre sekunder, eller håll knappen nere så är bilden framme exakt så länge du vill.",
+      "Fråga: Hur många såg du? Hur såg du det? Samla alla svar utan att värdera något av dem.",
+      "Tryck på Visa igen för en andra titt — bilden är exakt densamma — och sedan på Ta fram för att lämna den framme under samtalet.",
+      "Färga grupperna barnen beskriver, ringa in strukturer med kritan och avsluta med Vi räknar!: talet sägs högt och bekräftas genom att strukturen räknas."
+    ],
+    "classroomIdeas": [
+      "Daglig uppvärmning: en blixtbild innan mattelektionen börjar — tre minuter, hela klassen, noll förberedelse.",
+      "Samma tal, nya kläder: visa sexan som tärningsbild, sedan som cirkel, sedan i tioramen — och låt barnen upptäcka att talet består fast bilden byter skepnad.",
+      "EPA i miniformat: efter första blixten pratar paren om vad de såg — sedan kommer andra titten, och alla får tänka om.",
+      "Strategisamling: färga ett barns gruppering, fråga vem som såg det på ett annat sätt och färga den med nästa färg — tre olika sätt att se samma åtta.",
+      "Tiokompissamtal: visa 9 + 3 på den dubbla tioramen och fråga hur många som fattas i första ramen — de tomma rutorna gör jobbet."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

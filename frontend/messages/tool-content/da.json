@@ -175,6 +175,32 @@
       "Hent regnehistorier i vejrdiagrammet: hvor mange dage har vi noteret i alt, og hvor mange flere skyede dage end snevejrsdage har måneden haft?"
     ]
   },
+  "number-talk-easel": {
+    "slug": "lynbilleder",
+    "name": "Lynbilleder",
+    "tagline": "Et talbillede i tre sekunder — og så taler I om, hvordan I så det",
+    "metaTitle": "Gratis lynbilleder og talbilleder | LessonCraftStudio",
+    "metaDescription": "Gratis lynbilleder til matematiksamtalen: vis prikker, terninger, tierrammer eller kuglerammen i tre sekunder, og tal om, hvordan børnene så det. Uden login.",
+    "about": [
+      "Et lynbillede er et talbillede, man kun må se i et kort glimt. Værktøjet viser spredte prikker, terningebilleder, tierrammer, kuglerammen eller syv ænder i cirka tre sekunder — for kort til at tælle én ad gangen, men længe nok til at se grupper og strukturer. Netop dét er hele pointen: børnene holder op med at tælle og begynder at se. Tæppet ruller op og ned som i teatret, og det er dig, der styrer det — hold fingeren på knappen, og billedet står fremme, præcis så længe du vil.",
+      "Det vigtigste kommer efter glimtet: samtalen. Børnene fortæller, hvordan de så billedet — »jeg så fem og tre«, »jeg så to rækker« — og alle måder at se på er velkomne. Værktøjet siger aldrig rigtigt eller forkert: ingen klokker, ingen stjerner, og tallet holdes skjult, indtil du trykker »Vi tæller!«, og strukturen tælles højt. Undervejs kan du farve prikkerne, som et barn grupperede dem — fem røde og tre blå — og sætte ringe med farvekridtet om de par og femmere, klassen fandt.",
+      "Billedserierne er et helt års matematiksamtaler uden forberedelse: serier på tre til fem billeder, hvor hvert billede er en lille variation af det forrige — fem og lidt til, dobbelter, tiervenner — hver med en kort lærernote. Serierne bygger på fem- og ti-strukturerne, som talforståelsen i børnehaveklassen og indskolingen vokser ud af, helt i tråd med arbejdet med tal og antal i Fælles Mål for matematik. Byg dine egne serier til ugen, og kør hele rutinen på dansk — tallene siges højt, som klassen siger dem."
+    ],
+    "howToUse": [
+      "Vælg billedtype og talområde — eller start med dagens lynbillede, der ligger klar, når projektoren tændes.",
+      "Tryk på Vis for et glimt på tre sekunder, eller hold knappen nede, så billedet står fremme, præcis så længe du vil.",
+      "Spørg: Hvor mange så du? Hvordan så du det? — og tag imod alle svar uden at dømme nogen af dem.",
+      "Tryk på Vis igen for endnu et kig — billedet er nøjagtig det samme — og til sidst på Tæppet fra, så det står åbent til samtalen.",
+      "Farv de grupperinger, børnene beskriver, sæt ringe med farvekridtet, og slut af med »Vi tæller!« — tallet siges højt og bekræftes ved at tælle strukturen."
+    ],
+    "classroomIdeas": [
+      "Fast opvarmning i morgensamlingen: ét lynbillede før matematik — tre minutter, hele klassen, ingen forberedelse.",
+      "Samme tal, nyt tøj: vis 6 som terning, som cirkel og i tierrammen — og se børnene opdage, at tallet består, selv om billedet skifter.",
+      "Makkersnak: efter det første glimt fortæller makkerparrene hinanden, hvad de så, inden det andet kig.",
+      "Strategisamling: farv ét barns gruppering, og spørg, hvem der så det på en anden måde — og farv så dén med; tre måder at se den samme otter på.",
+      "Tiervenner: vis 9 + 3 i den dobbelte tierramme, og spørg, hvor mange der mangler i den første ramme — de tomme felter underviser."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

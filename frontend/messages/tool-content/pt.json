@@ -175,6 +175,32 @@
       "Ontem, hoje e amanhã: use as faixas para brincar de linha do tempo — 'se hoje é terça, que dia foi ontem?' — antes de virar o cartão e conferir."
     ]
   },
+  "number-talk-easel": {
+    "slug": "conversa-numerica",
+    "name": "Conversa numérica",
+    "tagline": "Imagens relâmpago, conversa e contagem na rodinha",
+    "metaTitle": "Conversa numérica interativa grátis | LessonCraftStudio",
+    "metaDescription": "Conversa numérica para projetar: a imagem relâmpago aparece por 3 segundos atrás da cortina, a turma conta como viu e só se conta no final. Grátis, sem login.",
+    "about": [
+      "A conversa numérica começa com um relâmpago: uma imagem de quantidade — pontos, dados, quadro de dez, ábaco ou sete patos — aparece por uns três segundos e a cortina desce. É pouco tempo para contar um a um, e é essa a intenção: o olho procura estruturas. Cinco e mais dois. Duas fileiras de três. É a subitização e a percepção das estruturas de 5 e de 10 que sustentam o cálculo mental da Educação Infantil ao 2º ano — a base que a BNCC pede quando fala em contagem, composição e decomposição de quantidades.",
+      "Depois do relâmpago, ninguém diz que errou. A tela não mostra X vermelho nem pontuação — quem conduz é a professora, com as perguntas clássicas da rotina: quantos você viu? Como você viu? Alguém viu de outro jeito? Cada jeito de ver vale: vi 5 e 3, vi 4 e 4. Ao revelar a imagem, um toque colore os grupos que as crianças descrevem e o giz circula as estruturas — o raciocínio de cada criança fica visível para a turma inteira. Só existe uma confirmação: o Vamos contar!, que a professora chama quando a turma quer conferir, contando a estrutura em voz alta — cinco… três… oito!",
+      "A cortina é a pedagogia. Mostrar de novo reabre exatamente a mesma imagem — a criança confere a imagem mental que guardou, não uma figura nova. Revelar deixa a imagem aberta para a conversa durar o quanto precisar. E as séries prontas — organizadas por ano, dos primeiros olhares aos dobros até vinte — encadeiam imagens que conversam entre si: um a mais, quase dobros, completar dez. Tudo direto no navegador da lousa digital, sem cadastro, sem cronômetro e sem pontuação."
+    ],
+    "howToUse": [
+      "Projete na rodinha e escolha a imagem relâmpago de hoje ou uma série pronta do ano da sua turma.",
+      "Combine o ritual: a imagem aparece só por um instante — quem já sabe quantos são faz um sinal discreto, sem gritar a resposta.",
+      "Toque em Mostrar e deixe a cortina trabalhar; depois pergunte: quantos você viu? Como você viu?",
+      "Toque em Revelar e registre a conversa: um toque colore os grupos que cada criança descreveu, e o giz circula as estruturas.",
+      "Quando a turma quiser conferir, toque em Vamos contar! — a contagem em voz alta, na estrutura, é a única confirmação."
+    ],
+    "classroomIdeas": [
+      "Ritual de chegada: uma imagem relâmpago por dia, sempre no mesmo momento da rodinha — em duas semanas a turma pede sozinha o vamos olhar de novo?",
+      "Caça ao cinco: na série do ábaco ou do quadro de dez, pergunte onde o cinco está escondido — pintar o cinco de uma cor e o resto de outra faz a estrutura saltar aos olhos.",
+      "O que mudou?: na série um a mais, um a menos, mostre duas imagens seguidas e pergunte o que mudou — a mudança se vê, não se reconta.",
+      "Do quadro para o concreto: depois da conversa, as crianças reconstroem a imagem com tampinhas ou feijões na mesa — e inventam uma imagem relâmpago para desafiar a turma.",
+      "Diário da conversa: cada criança desenha no caderno como viu a quantidade — eu vi 4 e 4 — e o mural da sala ganha os jeitos diferentes de ver o mesmo número."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

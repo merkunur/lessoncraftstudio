@@ -175,6 +175,32 @@
       "Diagramm ins Heft: Am Monatsende übertragen die Kinder das Wetterdiagramm als eigenes Säulendiagramm ins Heft und schreiben zwei Sätze dazu – ein erster Schritt zum Darstellen und Auswerten von Daten."
     ]
   },
+  "number-talk-easel": {
+    "slug": "blitzblick-tafel",
+    "name": "Blitzblick-Tafel",
+    "tagline": "Mengenbilder blitzen, Strukturen sehen, über Zahlen sprechen",
+    "metaTitle": "Blitzblick-Tafel – Blitzbilder digital | LessonCraftStudio",
+    "metaDescription": "Digitale Blitzblick-Tafel: Mengenbilder kurz aufblitzen lassen, Fünfer- und Zehnerstrukturen sehen statt zählen, gemeinsam sprechen. Kostenlos, ohne Anmeldung.",
+    "about": [
+      "Die Blitzblick-Tafel bringt die klassische Blitzblick-Übung des Anfangsunterrichts an Beamer und Whiteboard: Hinter einem Vorhang wartet ein Mengenbild — Punkte, Würfelbild, Zehnerfeld, Zwanzigerfeld oder Rechenrahmen. Ein Tipp, der Vorhang öffnet sich für wenige Sekunden und schließt sich wieder. Die Zeit ist mit Absicht zu kurz zum Einzelzählen und genau lang genug zum Sehen: Wer die Menge erfassen will, muss sie gliedern — eine volle Fünferreihe, ein bekanntes Würfelbild, zwei gleiche Gruppen. Genau dieses strukturierte Zahlbild-Sehen wollen die Lehrpläne für die Klassen 1 und 2, denn verfestigtes zählendes Rechnen ist das größte Hindernis auf dem Weg zu tragfähigen Rechenstrategien.",
+      "Nach dem Blitz beginnt das Eigentliche: das Zahlgespräch. Die Tafel hält die bewährten Satzanfänge der Rechenkonferenz bereit — Wie viele hast du gesehen? Wie hast du es gesehen? Wer hat es anders gesehen? — und beim Aufdecken bleiben alle Sehweisen gleich wertvoll: Ein Kind hat die Kraft der Fünf genutzt, eines das Doppelte gesehen, eines zum Zehner ergänzt. Mit Tipp-Färbung und Stift lassen sich die Gruppierungen direkt im Bild nachzeichnen, sodass die ganze Klasse sieht, wie ein Kind gedacht hat. Und nachgezählt wird erst ganz zum Schluss — auf Ihr Zeichen, als Bestätigung, nie als erste Strategie.",
+      "Die Reihen-Bibliothek liefert fertige Blitzblick-Reihen, wie sie die Grundschuldidaktik seit Jahrzehnten prägen: drei bis fünf Bilder, von denen jedes eine kleine, gezielte Veränderung des vorigen ist — Einer mehr, einer weniger; die Kraft der Fünf; den Zehner voll machen; Verdoppeln bis zwanzig. Die Beziehung zwischen den Bildern trägt die Strategie, und zu jeder Reihe steht ein kurzer didaktischer Hinweis bereit. Eigene Reihen sind schnell zusammengestellt und gespeichert. Alles läuft direkt im Browser auf Tafel, Beamer und Tablet — ohne Installation, ohne Konto für die Kinder, ohne Timer und ohne Punktzahl."
+    ],
+    "howToUse": [
+      "Öffnen Sie die Tafel am Beamer oder Whiteboard und wählen Sie ein Bild — Punkte, Würfelbild, Zehnerfeld, Zwanzigerfeld oder Rechenrahmen — und den Zahlenraum. Oder starten Sie direkt eine Reihe aus der Bibliothek.",
+      "Sammeln Sie die Blicke („Schaut genau!“) und tippen Sie auf „Zeigen“: Der Vorhang öffnet sich für zwei, drei oder fünf Sekunden — zu kurz zum Zählen, lang genug zum Sehen.",
+      "Fragen Sie mit den Satzanfängen: Wie viele hast du gesehen? Wie hast du es gesehen? Wer hat es anders gesehen? Lassen Sie erst die Partner flüstern, dann den Kreis sprechen.",
+      "Tippen Sie auf „Aufdecken“ für das Gespräch: Die Kinder erklären ihre Sehweise, und Sie färben die Gruppierungen mit Tipp oder Stift nach — jede Sehweise bekommt ihre Farbe.",
+      "Erst zum Schluss, wenn die Klasse es braucht: „Wir zählen nach!“ — die Tafel zählt hörbar mit und bestätigt die Zahl. Dann „Weiter“ zum nächsten Bild der Reihe."
+    ],
+    "classroomIdeas": [
+      "Blitzbild des Tages: ein festes Mini-Ritual im Morgenkreis — ein Bild, ein Blitz, drei Sätze. Nach zwei Wochen fragen die Kinder von selbst: „Machen wir heute wieder Blitzblick?“",
+      "Rechenkonferenz am Bild: Ein Kind kommt nach vorn und zeichnet mit dem Stift ein, wie es gesehen hat — die Klasse vergleicht: Wo steckt die Fünf? Wer hat Gruppen gesehen?",
+      "Partner-Blitz: Nach dem Vorhang erst „Erzähl es deinem Sitznachbarn“ — so sprechen alle Kinder, nicht nur die schnellsten Melder, und die leisen Denker kommen ins Gespräch.",
+      "Förderband gegen das Einzelzählen: Für Kinder, die noch alles abzählen, kleine Mengen (1–5) und die Fünf-und-noch-mehr-Reihe wählen — der kurze Blitz macht das Strukturensehen zur einzigen Chance, und genau das ist der Zweck.",
+      "Wochen-Reihe speichern: Stellen Sie passend zum aktuellen Thema — Verdoppeln, Zehner voll machen, Zählen in Schritten — eine eigene Reihe zusammen und öffnen Sie sie jeden Morgen mit einem Tipp."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

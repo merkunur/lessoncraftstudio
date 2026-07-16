@@ -175,6 +175,32 @@
       "Le previsioni del venerdì: prima del fine settimana ogni bambino prevede il tempo di lunedì; lunedì mattina si verifica insieme sul grafico chi ci aveva visto giusto."
     ]
   },
+  "number-talk-easel": {
+    "slug": "immagini-lampo",
+    "name": "Immagini lampo",
+    "tagline": "Vedere le quantità a colpo d’occhio: guarda, pensa, racconta",
+    "metaTitle": "Immagini lampo per il subitizing | LessonCraftStudio",
+    "metaDescription": "Immagini lampo da proiettare sulla LIM per il subitizing: la quantità appare per tre secondi dietro il sipario, la classe racconta come l’ha vista. Senza login.",
+    "about": [
+      "C’è un sipario chiuso sulla LIM e i bambini lo sanno: tra un attimo si aprirà per pochi secondi. L’insegnante tocca «Mostra», l’immagine appare — punti, dadi, una tabella del dieci — e il sipario si richiude prima che si possa contare uno a uno. È il subitizing: riconoscere le quantità a colpo d’occhio, il gesto mentale su cui si costruisce tutto il calcolo. Il lampo dura circa tre secondi, si può accorciare o allungare, e «Mostra ancora» fa tornare la stessa identica immagine: ogni bambino confronta ciò che ha in mente con ciò che riappare.",
+      "Le immagini non sono casuali: seguono le strutture del cinque e del dieci. La riga piena della tabella del dieci si vede senza contare; l’abaco cambia colore al quinto pallino; i dadi mostrano i doppi; la doppia tabella fa leggere i numeri da 11 a 19 come «dieci e ancora qualcosa». Vedere i numeri dentro i numeri — il 7 come 5 e 2, l’8 come il doppio del 4 — è la strada verso il calcolo mentale che i traguardi di matematica delle Indicazioni nazionali per il primo ciclo tracciano per i primi anni della primaria. Le serie pronte, dalla scuola dell’infanzia alla classe seconda, mettono in fila immagini che cambiano di poco l’una dall’altra: è la relazione tra un’immagine e la successiva a insegnare la strategia.",
+      "Poi c’è la conversazione, ed è il cuore dello strumento: qui non esiste giusto o sbagliato. Le domande pronte accompagnano la discussione — «Quanti ne hai visti?», «Come li hai visti?», «Qualcuno li ha visti in un altro modo?» — e ogni modo di vedere ha valore. Con «Scopri» il sipario resta aperto: si colorano i raggruppamenti con un tocco, si cerchiano col pastello le strutture che i bambini raccontano. Il numero non appare mai da solo: arriva soltanto quando l’insegnante tocca «Contiamo!» e la struttura viene contata a voce alta — «cinque… tre… otto». Niente punteggi, niente timer sotto gli occhi dei bambini: tutto funziona nel browser su LIM, tablet e computer, senza registrazione."
+    ],
+    "howToUse": [
+      "Proietta lo strumento sulla LIM e raduna i bambini davanti al sipario chiuso: scegli l’immagine lampo del giorno, una serie pronta o componi la tua.",
+      "Tocca «Mostra»: l’immagine appare per circa tre secondi — troppo poco per contare uno a uno, giusto il tempo del colpo d’occhio. Tieni premuto se vuoi tenere il sipario aperto tu.",
+      "Apri la conversazione con le domande pronte: «Quanti ne hai visti?», «Come li hai visti?», «Qualcuno li ha visti in un altro modo?» — ogni modo di vedere va bene, nessuno è sbagliato.",
+      "Tocca «Scopri» per lasciare il sipario aperto: colora i raggruppamenti con un tocco o cerchia col pastello quello che i bambini raccontano — «io ho visto 5 e 3».",
+      "Quando la classe è pronta, tocca «Contiamo!»: la struttura viene contata a voce alta — «cinque… tre… otto» — e solo allora compare il numero."
+    ],
+    "classroomIdeas": [
+      "Il minuto matematico del mattino: subito dopo il calendario, un’unica immagine lampo al giorno — l’«Immagine lampo del giorno» cambia da sola ogni mattina e diventa il secondo rituale del cerchio.",
+      "«Raccontalo al tuo compagno di banco»: dopo il lampo, trenta secondi in coppia prima della condivisione con tutti — così parlano tutti, anche chi in cerchio non alza mai la mano.",
+      "La caccia agli amici del dieci: con la serie «Gli amici del dieci» chiedi quanti pallini mancano per riempire la tabella — sono le celle vuote a fare la domanda.",
+      "Sempre sei: la serie mostra lo stesso numero in vesti sempre diverse — dado, cerchio, tabella, mele. Chi si accorge che il numero non è cambiato ha scoperto che la quantità non dipende da com’è disposta.",
+      "Le serie della tua classe: componi una serie su misura — le quantità che state esplorando in questi giorni, il tema che i bambini amano — e ritrovala pronta ogni mattina in «Le mie serie»."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

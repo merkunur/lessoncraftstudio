@@ -175,6 +175,32 @@
       "Le vendredi, jouez avec hier / aujourd'hui / demain : que dira-t-on lundi ? L'occasion de parler des jours sans école — le calendrier avance tous les jours, le compteur des jours d'école, non."
     ]
   },
+  "number-talk-easel": {
+    "slug": "cartes-a-points",
+    "name": "Cartes à points",
+    "tagline": "Le rituel des images flash : constellations, boîtes de dix et boulier derrière le rideau",
+    "metaTitle": "Cartes à points flash – calcul mental | LessonCraftStudio",
+    "metaDescription": "Cartes à points interactives pour le rituel du flash : une quantité montrée trois secondes, et la classe raconte comment elle l'a vue — de la maternelle au CE1.",
+    "about": [
+      "Les cartes à points sont le rituel de numération préféré des classes de maternelle et de CP : une quantité s'affiche trois secondes à peine — trop peu pour compter un par un, juste assez pour la voir par groupes. C'est la subitisation : l'œil attrape « 5 et encore 3 » d'un seul regard, et le calcul mental commence là, bien avant les opérations posées. Cette version interactive reprend le rituel au TBI : le rideau se lève, l'image flashe, le rideau retombe — et la discussion commence. Un appui long garde le rideau ouvert tant que vous le tenez, et « Remontrer » fait revoir exactement la même image, pour que chacun vérifie son image mentale.",
+      "Les représentations suivent la progression des classes françaises : les points et les constellations du dé pour la maternelle, les points en cercle, puis la boîte de dix et la double boîte pour le passage à la dizaine, le boulier avec sa rupture de couleur à cinq, et les images d'objets à compter par paquets. Toutes travaillent la même chose : les décompositions autour de 5 et de 10 — « 7, c'est 5 et 2 », « 13, c'est 10 et 3 » — le socle du calcul mental quotidien que demandent les programmes de cycle 1 et de cycle 2. Les suites d'images toutes prêtes enchaînent trois à cinq images dont chacune varie légèrement la précédente : les presque-doubles, les compléments à dix, un de plus, un de moins — c'est la relation entre les images qui enseigne la stratégie.",
+      "Après le flash vient la parole : « Combien en as-tu vu ? Comment as-tu fait pour le voir ? » L'image dévoilée reste affichée pour la discussion — un doigt colorie les groupes qu'un élève a vus, le crayon entoure une structure. Aucune bonne ou mauvaise réponse ne s'affiche jamais : la seule vérification, c'est « On compte ! », lancé par l'enseignant, qui compte la structure à voix haute — cinq… trois… huit. Sans minuteur, sans score, rien à installer : un rituel calme pour le TBI, et le flash de points reste gratuit."
+    ],
+    "howToUse": [
+      "Projetez l'outil au TBI et choisissez une représentation — points, constellations, en cercle, boîte de dix, boulier, images — et une plage de nombres ; ou lancez une suite d'images toute prête, de la maternelle (GS) au CE1.",
+      "Annoncez le rituel : « Regardez bien, l'image ne reste que trois secondes ! » Puis appuyez sur Montrer — un appui long garde le rideau ouvert exactement le temps que vous le tenez.",
+      "Faites parler la classe avec les questions du rituel : « Combien en as-tu vu ? Comment as-tu fait pour le voir ? Qui l'a vu d'une autre façon ? » — et Remontrer refait flasher la même image pour vérifier son image mentale.",
+      "Dévoilez, puis faites venir un élève : d'un doigt il colorie les groupes qu'il a vus, au crayon il entoure la structure — « j'ai vu 5 et encore 3 ».",
+      "Terminez par « On compte ! » : l'outil compte la structure à voix haute — cinq… trois… huit — c'est la seule vérification, jamais de croix rouge. Puis passez à l'image suivante de la suite."
+    ],
+    "classroomIdeas": [
+      "Enchaînez avec le Calendrier de la classe : après la date et la météo, l'image flash du jour — trois minutes de calcul mental rituel, tous les matins, toute l'année.",
+      "En maternelle, restez sur les points et les constellations de 1 à 6 : chaque enfant montre avec ses doigts combien il a vu — toute la classe répond en silence avant que la parole ne commence.",
+      "Au CP, lancez la suite « Les compléments à dix » avant une séance sur les compléments : demandez combien il manque dans la boîte pour faire dix — les cases vides font la leçon.",
+      "Au CE1, faites écrire sur l'ardoise l'écriture qui raconte le regard de chacun — 5 + 3, 4 + 4, 10 − 2… — puis comparez : même nombre, chemins différents ; c'est la discussion qui fait la séance.",
+      "Avec « Mes suites », composez votre propre suite autour du nombre de la semaine : le même nombre en constellation, en boîte de dix, sur le boulier — le nombre reste, l'image change."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

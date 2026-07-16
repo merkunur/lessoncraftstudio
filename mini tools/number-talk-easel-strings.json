@@ -1,0 +1,706 @@
+{
+  "$comment": "Number Talk Easel — the authored string library. Each string = 3-5 images where each is a controlled variation of the previous; the RELATIONSHIP teaches the strategy (Fosnot minilesson strings). Seeds are AUTHORED so a string flashes pixel-identically in every classroom — that is what makes the teaching notes accurate. reprs: random|dice|circular|tenframe|doubletenframe|rekenrek|objects. split = first-group fill (tenframe: first-N cells; doubletenframe: first frame); rows = rekenrek per-rod push; arrangement groups/pairs = clustered scatter for objects. Locale name/note drafts by the builder; corrected by the per-locale native ensembles (sv/da/no/fi [NSR-FLAG]).",
+  "version": 1,
+  "strings": [
+    {
+      "id": "s_starter_dots",
+      "band": "k",
+      "free": true,
+      "name": {
+        "en": "First looks",
+        "de": "Erste Blicke",
+        "fr": "Premiers regards",
+        "it": "Primi sguardi",
+        "es": "Primeras miradas",
+        "pt": "Primeiros olhares",
+        "nl": "In één oogopslag",
+        "sv": "Första titten",
+        "da": "Første blik",
+        "no": "Første blikk",
+        "fi": "Ensimmäiset välähdykset"
+      },
+      "note": {
+        "en": "Small quantities, different looks — trust what the eyes grab in one flash.",
+        "de": "Kleine Mengen, verschiedene Bilder — dem ersten Blick vertrauen.",
+        "fr": "Petites quantités, images variées — on fait confiance au premier regard.",
+        "it": "Piccole quantità, immagini diverse — fidati del colpo d’occhio.",
+        "es": "Cantidades pequeñas, imágenes distintas — confía en el primer vistazo.",
+        "pt": "Quantidades pequenas, imagens diferentes — confie no primeiro olhar.",
+        "nl": "Kleine hoeveelheden, steeds anders — vertrouw op de eerste blik.",
+        "sv": "Små mängder, olika bilder — lita på första titten.",
+        "da": "Små mængder, forskellige billeder — stol på det første blik.",
+        "no": "Små mengder, ulike bilder — stol på det første blikket.",
+        "fi": "Pieniä määriä, erilaisia kuvia — luota ensimmäiseen vilkaisuun."
+      },
+      "items": [
+        {
+          "repr": "random",
+          "qty": 3,
+          "seed": 101
+        },
+        {
+          "repr": "dice",
+          "qty": 4,
+          "seed": 102
+        },
+        {
+          "repr": "circular",
+          "qty": 5,
+          "seed": 103
+        },
+        {
+          "repr": "dice",
+          "qty": 6,
+          "seed": 104
+        }
+      ]
+    },
+    {
+      "id": "s_five_more",
+      "band": "k",
+      "name": {
+        "en": "Five and some more",
+        "de": "Die Kraft der Fünf",
+        "fr": "Cinq et quelques",
+        "it": "Cinque e qualcosa in più",
+        "es": "Cinco y algo más",
+        "pt": "Cinco e mais alguns",
+        "nl": "Vijf en nog wat",
+        "sv": "Fem och lite till",
+        "da": "Fem og lidt til",
+        "no": "Fem og litt til",
+        "fi": "Viisi ja vähän lisää"
+      },
+      "note": {
+        "en": "The full top row is the anchor: children see 5 without counting, then add the rest.",
+        "de": "Die volle obere Reihe ist der Anker: Kinder sehen die 5 ohne zu zählen.",
+        "fr": "La rangée pleine est le repère : on voit 5 sans compter, puis on ajoute.",
+        "it": "La riga di sopra è piena: il 5 si vede senza contare, il resto si aggiunge.",
+        "es": "La fila de arriba llena es el ancla: los niños ven el 5 sin contar y agregan el resto.",
+        "pt": "A fileira cheia é a âncora: veem o 5 sem contar e somam o resto.",
+        "nl": "De volle rij is het houvast: kinderen zien de vijf zonder te tellen.",
+        "sv": "Den fulla övre raden är ankaret: barnen ser fem utan att räkna och lägger till resten.",
+        "da": "Den fulde række er ankeret: børnene ser 5 uden at tælle og lægger resten til.",
+        "no": "Den fulle øverste raden er ankeret: barna ser fem uten å telle, og legger til resten.",
+        "fi": "Täysi ylärivi on ankkuri: lapset näkevät viitosen laskematta ja lisäävät loput."
+      },
+      "items": [
+        {
+          "repr": "tenframe",
+          "qty": 5,
+          "split": 5,
+          "seed": 111
+        },
+        {
+          "repr": "tenframe",
+          "qty": 6,
+          "split": 5,
+          "seed": 112
+        },
+        {
+          "repr": "tenframe",
+          "qty": 7,
+          "split": 5,
+          "seed": 113
+        },
+        {
+          "repr": "tenframe",
+          "qty": 9,
+          "split": 5,
+          "seed": 114
+        }
+      ]
+    },
+    {
+      "id": "s_one_more_less",
+      "band": "k",
+      "name": {
+        "en": "One more, one less",
+        "de": "Einer mehr, einer weniger",
+        "fr": "Un de plus, un de moins",
+        "it": "Uno in più, uno in meno",
+        "es": "Uno más, uno menos",
+        "pt": "Um a mais, um a menos",
+        "nl": "Eén meer, één minder",
+        "sv": "En fler, en färre",
+        "da": "Én mere, én mindre",
+        "no": "Én mer, én mindre",
+        "fi": "Yksi enemmän, yksi vähemmän"
+      },
+      "note": {
+        "en": "Ask what CHANGED, not how many — the change is seen, never recounted.",
+        "de": "Frage, was sich VERÄNDERT hat — die Veränderung wird gesehen, nicht neu gezählt.",
+        "fr": "Demande ce qui a CHANGÉ — le changement se voit, on ne recompte pas.",
+        "it": "Chiedi che cosa è CAMBIATO — il cambiamento si vede, non si riconta.",
+        "es": "Pregunta qué CAMBIÓ — el cambio se ve, no se vuelve a contar.",
+        "pt": "Pergunte o que MUDOU — a mudança se vê, não se reconta.",
+        "nl": "Vraag wat er VERANDERD is — je ziet het, je telt niet opnieuw.",
+        "sv": "Fråga vad som ÄNDRADES, inte hur många — ändringen syns, den räknas inte om.",
+        "da": "Spørg, hvad der ÆNDREDE sig — ændringen ses, der tælles ikke om.",
+        "no": "Spør hva som ENDRET seg — barna ser endringen i stedet for å telle på nytt.",
+        "fi": "Kysy, mikä MUUTTUI — muutos nähdään, ei lasketa uudelleen."
+      },
+      "items": [
+        {
+          "repr": "tenframe",
+          "qty": 6,
+          "split": 5,
+          "seed": 121
+        },
+        {
+          "repr": "tenframe",
+          "qty": 7,
+          "split": 5,
+          "seed": 122
+        },
+        {
+          "repr": "tenframe",
+          "qty": 6,
+          "split": 5,
+          "seed": 123
+        },
+        {
+          "repr": "tenframe",
+          "qty": 5,
+          "split": 5,
+          "seed": 124
+        }
+      ]
+    },
+    {
+      "id": "s_doubles_dice",
+      "band": "k",
+      "name": {
+        "en": "Doubles in the dice",
+        "de": "Verdoppeln im Würfelbild",
+        "fr": "Les doubles des dés",
+        "it": "Doppi nei dadi",
+        "es": "Dobles en los dados",
+        "pt": "Dobros nos dados",
+        "nl": "Dubbelen op de dobbelsteen",
+        "sv": "Dubblor i tärningen",
+        "da": "Dobbelt i terningerne",
+        "no": "Dobling i terningen",
+        "fi": "Tuplat nopassa"
+      },
+      "note": {
+        "en": "Two matching faces: the symmetry IS the double — 3 and 3 makes 6.",
+        "de": "Zwei gleiche Bilder: die Symmetrie IST das Doppelte — 3 und 3 sind 6.",
+        "fr": "Deux constellations identiques : la symétrie EST le double — 3 et 3 font 6.",
+        "it": "Due facce uguali: la simmetria È il doppio — 3 e 3 fa 6.",
+        "es": "Dos caras iguales: la simetría ES el doble — 3 y 3 son 6.",
+        "pt": "Duas faces iguais: a simetria É o dobro — 3 e 3 são 6.",
+        "nl": "Twee gelijke beelden: de symmetrie IS het dubbele — 3 en 3 is 6.",
+        "sv": "Två lika tärningsbilder: symmetrin ÄR dubblan — 3 och 3 är 6.",
+        "da": "To ens billeder: symmetrien ER det dobbelte — 3 og 3 er 6.",
+        "no": "To like bilder: symmetrien ER doblingen — 3 og 3 er 6.",
+        "fi": "Kaksi samanlaista kuvaa: symmetria ON tupla — 3 ja 3 on 6."
+      },
+      "items": [
+        {
+          "repr": "dice",
+          "qty": 4,
+          "seed": 131
+        },
+        {
+          "repr": "dice",
+          "qty": 6,
+          "seed": 132
+        },
+        {
+          "repr": "dice",
+          "qty": 8,
+          "seed": 133
+        },
+        {
+          "repr": "dice",
+          "qty": 10,
+          "seed": 134
+        }
+      ]
+    },
+    {
+      "id": "s_near_doubles",
+      "band": "g1",
+      "name": {
+        "en": "Near doubles",
+        "de": "Fast verdoppelt",
+        "fr": "Les presque-doubles",
+        "it": "Quasi doppi",
+        "es": "Casi dobles",
+        "pt": "Quase dobros",
+        "nl": "Bijna-dubbelen",
+        "sv": "Nästan-dubblor",
+        "da": "Næsten dobbelt",
+        "no": "Nesten dobling",
+        "fi": "Melkein tuplat"
+      },
+      "note": {
+        "en": "From a known double to one more: 3+3 helps see 3+4.",
+        "de": "Vom bekannten Doppelten zu einem mehr: 3+3 hilft, 3+4 zu sehen.",
+        "fr": "D’un double connu à un de plus : 3 + 3 aide à voir 3 + 4.",
+        "it": "Da un doppio che conosci a uno in più: 3+3 aiuta a vedere 3+4.",
+        "es": "De un doble conocido a uno más: 3+3 ayuda a ver 3+4.",
+        "pt": "De um dobro conhecido para um a mais: 3+3 ajuda a ver 3+4.",
+        "nl": "Eerst de dubbel die je kent, dan één meer: 3+3 helpt je 3+4 te zien.",
+        "sv": "Från en känd dubbla ett steg vidare: 3+3 hjälper barnen att se 3+4.",
+        "da": "Fra en kendt dobbelt til en mere: 3+3 hjælper med at se 3+4.",
+        "no": "Fra en kjent dobling til én til: 3+3 hjelper barna å se 3+4.",
+        "fi": "Tutusta tuplasta yksi lisää: 3+3 auttaa näkemään 3+4."
+      },
+      "items": [
+        {
+          "repr": "rekenrek",
+          "qty": 6,
+          "rows": [
+            3,
+            3
+          ],
+          "seed": 141
+        },
+        {
+          "repr": "rekenrek",
+          "qty": 7,
+          "rows": [
+            3,
+            4
+          ],
+          "seed": 142
+        },
+        {
+          "repr": "rekenrek",
+          "qty": 8,
+          "rows": [
+            4,
+            4
+          ],
+          "seed": 143
+        },
+        {
+          "repr": "rekenrek",
+          "qty": 9,
+          "rows": [
+            4,
+            5
+          ],
+          "seed": 144
+        }
+      ]
+    },
+    {
+      "id": "s_ten_more",
+      "band": "g1",
+      "name": {
+        "en": "Ten and some more",
+        "de": "Zehn und noch mehr",
+        "fr": "Dix et quelques",
+        "it": "Dieci e qualcosa in più",
+        "es": "Diez y algo más",
+        "pt": "Dez e mais alguns",
+        "nl": "Tien en nog wat",
+        "sv": "Tio och lite till",
+        "da": "Ti og lidt til",
+        "no": "Ti og litt til",
+        "fi": "Kymmenen ja vähän lisää"
+      },
+      "note": {
+        "en": "The full frame is ten — teens become ten-and-some, not a long count.",
+        "de": "Das volle Feld ist zehn — die Zahlen von 11 bis 19 werden „zehn und noch …“, keine lange Zählerei.",
+        "fr": "La boîte pleine fait dix — les nombres de 11 à 19 deviennent « dix et… ».",
+        "it": "La tabella piena vale dieci — i numeri da 11 a 19 diventano «dieci e ancora…», non una lunga conta.",
+        "es": "El marco lleno es diez — los números del 11 al 19 se vuelven «diez y …».",
+        "pt": "O quadro cheio é dez — de 11 a 19, tudo vira “dez e mais alguns”.",
+        "nl": "Het volle raam is tien — dertien wordt tien en nog drie, geen lange telrij.",
+        "sv": "Den fulla ramen är tio — talen 11–19 blir ”tio och lite till”, ingen lång räkning.",
+        "da": "Den fulde ramme er ti — tallene 11–19 bliver »ti og …«.",
+        "no": "Den fulle rammen er ti — tallene 11–19 blir «ti og litt til», ikke en lang telleramse.",
+        "fi": "Täysi ruudukko on kymmenen — luvut 11–19 ovat ”kymmenen ja …”."
+      },
+      "items": [
+        {
+          "repr": "doubletenframe",
+          "qty": 11,
+          "split": 10,
+          "seed": 151
+        },
+        {
+          "repr": "doubletenframe",
+          "qty": 13,
+          "split": 10,
+          "seed": 152
+        },
+        {
+          "repr": "doubletenframe",
+          "qty": 15,
+          "split": 10,
+          "seed": 153
+        },
+        {
+          "repr": "doubletenframe",
+          "qty": 18,
+          "split": 10,
+          "seed": 154
+        }
+      ]
+    },
+    {
+      "id": "s_make_ten",
+      "band": "g1",
+      "name": {
+        "en": "Make ten",
+        "de": "Den Zehner voll machen",
+        "fr": "Les compléments à dix",
+        "it": "Gli amici del dieci",
+        "es": "Completar diez",
+        "pt": "Completar dez",
+        "nl": "Aanvullen tot tien",
+        "sv": "Tiokompisar",
+        "da": "Tiervenner",
+        "no": "Lag ti",
+        "fi": "Täydennä kymmeneen"
+      },
+      "note": {
+        "en": "Ask how many the first frame still needs — the empty cells do the teaching.",
+        "de": "Frage, wie viele im ersten Feld noch fehlen — gerade die leeren Felder bringen die Kinder zum Denken.",
+        "fr": "Demande combien il en manque dans la première boîte — les cases vides font la leçon.",
+        "it": "Chiedi quanti ne mancano alla prima tabella — sono le celle vuote a insegnare.",
+        "es": "Pregunta cuántos faltan en el primer marco — las casillas vacías enseñan.",
+        "pt": "Pergunte quantos faltam no primeiro quadro — as casas vazias também ensinam.",
+        "nl": "Vraag hoeveel er in het eerste raam nog bij kunnen — de lege vakjes doen het werk.",
+        "sv": "Fråga hur många som fattas i första ramen — de tomma rutorna gör jobbet.",
+        "da": "Spørg, hvor mange der mangler i den første ramme — det er de tomme felter, der underviser.",
+        "no": "Spør hvor mange som mangler i den første ramma — de tomme rutene gjør jobben.",
+        "fi": "Kysy, montako ensimmäisestä ruudukosta puuttuu — tyhjät ruudut opettavat."
+      },
+      "items": [
+        {
+          "repr": "doubletenframe",
+          "qty": 12,
+          "split": 9,
+          "seed": 161
+        },
+        {
+          "repr": "doubletenframe",
+          "qty": 14,
+          "split": 9,
+          "seed": 162
+        },
+        {
+          "repr": "doubletenframe",
+          "qty": 12,
+          "split": 8,
+          "seed": 163
+        },
+        {
+          "repr": "doubletenframe",
+          "qty": 14,
+          "split": 8,
+          "seed": 164
+        }
+      ]
+    },
+    {
+      "id": "s_fivewise_rek",
+      "band": "g1",
+      "name": {
+        "en": "Fives on the rack",
+        "de": "Fünferblick am Rechenrahmen",
+        "fr": "Par cinq sur le boulier",
+        "it": "A cinque a cinque sull’abaco",
+        "es": "De cinco en cinco en el ábaco",
+        "pt": "De cinco em cinco no ábaco",
+        "nl": "De vijfstructuur op het rekenrek",
+        "sv": "Femmor på kulramen",
+        "da": "Femmere på kuglerammen",
+        "no": "Femmere på kulerammen",
+        "fi": "Viitosia helmitaululla"
+      },
+      "note": {
+        "en": "The color break at five lets children read quantities in fives and tens, never one by one.",
+        "de": "Der Farbwechsel bei fünf lässt die Kinder Mengen in Fünfern und Zehnern lesen — nie einzeln.",
+        "fr": "Le changement de couleur à cinq fait lire par cinq et par dix, jamais un par un.",
+        "it": "Il cambio di colore al cinque fa leggere le quantità a cinque a cinque e a dieci a dieci, mai una a una.",
+        "es": "El cambio de color en el cinco hace leer de cinco en cinco, nunca de uno en uno.",
+        "pt": "A troca de cor no cinco faz ler de cinco em cinco, nunca um a um.",
+        "nl": "De kleurwissel bij vijf laat kinderen hoeveelheden lezen in vijven en tienen, nooit één voor één.",
+        "sv": "Färgbytet vid fem gör att barnen läser mängder i femmor och tior — aldrig en och en.",
+        "da": "Farveskiftet ved fem gør, at mængderne læses i femmere og tiere — aldrig én ad gangen.",
+        "no": "Fargeskiftet ved fem gjør at barna leser mengder i femmere og tiere — aldri én og én.",
+        "fi": "Värinvaihto viiden kohdalla opettaa lukemaan määrät viitosina ja kymmeninä — ei yksitellen."
+      },
+      "items": [
+        {
+          "repr": "rekenrek",
+          "qty": 5,
+          "seed": 171
+        },
+        {
+          "repr": "rekenrek",
+          "qty": 7,
+          "seed": 172
+        },
+        {
+          "repr": "rekenrek",
+          "qty": 10,
+          "seed": 173
+        },
+        {
+          "repr": "rekenrek",
+          "qty": 12,
+          "seed": 174
+        },
+        {
+          "repr": "rekenrek",
+          "qty": 15,
+          "seed": 175
+        }
+      ]
+    },
+    {
+      "id": "s_same_six",
+      "band": "k",
+      "name": {
+        "en": "The same six",
+        "de": "Immer wieder sechs",
+        "fr": "Toujours six",
+        "it": "Sempre sei",
+        "es": "Siempre seis",
+        "pt": "Sempre seis",
+        "nl": "Steeds weer zes",
+        "sv": "Samma sexa",
+        "da": "Samme sekser",
+        "no": "Samme sekser",
+        "fi": "Sama kuutonen"
+      },
+      "note": {
+        "en": "Six in four costumes — the number stays, the look changes. That is conservation.",
+        "de": "Sechs in vier Kostümen — die Zahl bleibt, das Bild wechselt.",
+        "fr": "Six sous quatre costumes — le nombre reste, l'image change.",
+        "it": "Sei in quattro travestimenti — il numero resta, l'immagine cambia.",
+        "es": "Seis con cuatro disfraces — el número es el mismo, la imagen cambia. Eso es conservación.",
+        "pt": "Seis em quatro fantasias — o número fica, a imagem muda.",
+        "nl": "Zes in vier jasjes — het getal blijft, het beeld verandert.",
+        "sv": "Sexan i fyra olika dräkter — talet består, bilden växlar.",
+        "da": "Seks i fire forklædninger — tallet består, billedet skifter.",
+        "no": "Seks i fire forkledninger — tallet er det samme, bildet skifter.",
+        "fi": "Kuusi neljässä asussa — luku pysyy, kuva vaihtuu."
+      },
+      "items": [
+        {
+          "repr": "dice",
+          "qty": 6,
+          "seed": 181
+        },
+        {
+          "repr": "circular",
+          "qty": 6,
+          "seed": 182
+        },
+        {
+          "repr": "tenframe",
+          "qty": 6,
+          "split": 5,
+          "seed": 183
+        },
+        {
+          "repr": "objects",
+          "qty": 6,
+          "theme": "fruits",
+          "noun": "apple",
+          "seed": 184
+        }
+      ]
+    },
+    {
+      "id": "s_groups_not_ones",
+      "band": "g2",
+      "name": {
+        "en": "Groups, not ones",
+        "de": "Gruppen zählen, nicht Dinge",
+        "fr": "Des groupes, pas des unités",
+        "it": "Gruppi, non uno a uno",
+        "es": "Grupos, no de uno en uno",
+        "pt": "Grupos, não unidades",
+        "nl": "Groepjes, geen losse",
+        "sv": "Grupper, inte en och en",
+        "da": "Grupper, ikke enere",
+        "no": "Grupper, ikke enere",
+        "fi": "Ryhmiä, ei yksittäisiä"
+      },
+      "note": {
+        "en": "Twelve keeps regrouping itself — children start counting groups instead of things.",
+        "de": "Die Zwölf gruppiert sich immer neu — Kinder zählen Gruppen statt Dinge.",
+        "fr": "Douze se regroupe sans cesse — on compte des groupes, et non plus des objets.",
+        "it": "Il dodici si raggruppa ogni volta in modo nuovo — i bambini contano i gruppi, non le cose.",
+        "es": "El doce se reagrupa una y otra vez — cuentan grupos, no cosas.",
+        "pt": "O doze se reagrupa o tempo todo — contam grupos, não coisas.",
+        "nl": "Twaalf hergroepeert zichzelf — kinderen tellen groepjes in plaats van dingen.",
+        "sv": "Tolv grupperar om sig — barnen räknar grupper i stället för saker.",
+        "da": "Tolv grupperer sig på nye måder — børnene tæller grupper i stedet for ting.",
+        "no": "Tolv grupperer seg på nye måter — barna begynner å telle grupper i stedet for enkeltting.",
+        "fi": "Kaksitoista ryhmittyy yhä uudelleen — lapset laskevat ryhmiä, eivät esineitä."
+      },
+      "items": [
+        {
+          "repr": "objects",
+          "qty": 12,
+          "theme": "animals",
+          "noun": "fish",
+          "arrangement": "groups",
+          "groups": [
+            4,
+            4,
+            4
+          ],
+          "seed": 191
+        },
+        {
+          "repr": "objects",
+          "qty": 12,
+          "theme": "animals",
+          "noun": "fish",
+          "arrangement": "groups",
+          "groups": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "seed": 192
+        },
+        {
+          "repr": "objects",
+          "qty": 12,
+          "theme": "animals",
+          "noun": "fish",
+          "arrangement": "groups",
+          "groups": [
+            6,
+            6
+          ],
+          "seed": 193
+        }
+      ]
+    },
+    {
+      "id": "s_counting_pairs",
+      "band": "g1",
+      "name": {
+        "en": "Counting in pairs",
+        "de": "In Zweierschritten zählen",
+        "fr": "Compter de deux en deux",
+        "it": "Contare a due a due",
+        "es": "Contar de dos en dos",
+        "pt": "Contar de dois em dois",
+        "nl": "Met sprongen van twee",
+        "sv": "Räkna i par",
+        "da": "Tælle i par",
+        "no": "Telle to og to",
+        "fi": "Lasketaan pareittain"
+      },
+      "note": {
+        "en": "The pairs invite skip counting: two, four, six… ask who counted by twos.",
+        "de": "Die Paare laden zum Zählen in Zweierschritten ein: zwei, vier, sechs … Frag nach, wer in Zweierschritten gezählt hat.",
+        "fr": "Les paires invitent à compter de deux en deux : deux, quatre, six…",
+        "it": "Le coppie invitano a contare a due a due: due, quattro, sei… chiedi chi ha contato a salti.",
+        "es": "Las parejas invitan a contar de dos en dos: dos, cuatro, seis… pregunta quién contó así.",
+        "pt": "Os pares convidam a contar de dois em dois: dois, quatro, seis…",
+        "nl": "De paartjes nodigen uit tot tellen met sprongen: twee, vier, zes…",
+        "sv": "Paren lockar till hoppräkning: två, fyra, sex … Fråga vem som räknade med tvåhopp.",
+        "da": "Parrene lægger op til at tælle i spring: to, fire, seks … — spørg, hvem der talte to ad gangen.",
+        "no": "Parene innbyr til å telle to og to: to, fire, seks … Spør hvem som telte med hopp.",
+        "fi": "Parit kutsuvat hyppylaskentaan: kaksi, neljä, kuusi…"
+      },
+      "items": [
+        {
+          "repr": "objects",
+          "qty": 6,
+          "theme": "animals",
+          "noun": "duck",
+          "arrangement": "pairs",
+          "seed": 201
+        },
+        {
+          "repr": "objects",
+          "qty": 8,
+          "theme": "animals",
+          "noun": "duck",
+          "arrangement": "pairs",
+          "seed": 202
+        },
+        {
+          "repr": "objects",
+          "qty": 10,
+          "theme": "animals",
+          "noun": "duck",
+          "arrangement": "pairs",
+          "seed": 203
+        },
+        {
+          "repr": "objects",
+          "qty": 12,
+          "theme": "animals",
+          "noun": "duck",
+          "arrangement": "pairs",
+          "seed": 204
+        }
+      ]
+    },
+    {
+      "id": "s_doubles_twenty",
+      "band": "g2",
+      "name": {
+        "en": "Doubles to twenty",
+        "de": "Verdoppeln bis zwanzig",
+        "fr": "Les doubles jusqu'à vingt",
+        "it": "Doppi fino a venti",
+        "es": "Dobles hasta veinte",
+        "pt": "Dobros até vinte",
+        "nl": "Dubbelen tot twintig",
+        "sv": "Dubblor upp till tjugo",
+        "da": "Dobbelt til tyve",
+        "no": "Dobling til tjue",
+        "fi": "Tuplat kahteenkymmeneen"
+      },
+      "note": {
+        "en": "Matching frames make the double visible; ask how the ten helps say it fast.",
+        "de": "Gleiche Felder machen das Doppelte sichtbar; frage, wie die Zehn beim schnellen Sehen hilft.",
+        "fr": "Les boîtes jumelles rendent le double visible ; demande comment le dix aide à le dire vite.",
+        "it": "Le tabelle gemelle fanno vedere il doppio; chiedi come il dieci aiuta a dirlo al volo.",
+        "es": "Los marcos gemelos hacen visible el doble; pregunta cómo ayuda el diez a decirlo rápido.",
+        "pt": "Quadros gêmeos tornam o dobro visível; pergunte como o dez ajuda.",
+        "nl": "Gelijke ramen maken het dubbele zichtbaar; vraag hoe de tien helpt.",
+        "sv": "Lika ramar gör dubblan synlig — fråga hur tian hjälper till att se den snabbt.",
+        "da": "Ens rammer gør det dobbelte synligt — spørg, hvordan tieren hjælper.",
+        "no": "Like rammer gjør doblingen synlig — spør hvordan tieren hjelper barna å se det raskt.",
+        "fi": "Samanlaiset ruudukot näyttävät tuplan; kysy, miten kymmenen auttaa."
+      },
+      "items": [
+        {
+          "repr": "doubletenframe",
+          "qty": 12,
+          "split": 6,
+          "seed": 211
+        },
+        {
+          "repr": "doubletenframe",
+          "qty": 14,
+          "split": 7,
+          "seed": 212
+        },
+        {
+          "repr": "doubletenframe",
+          "qty": 16,
+          "split": 8,
+          "seed": 213
+        },
+        {
+          "repr": "doubletenframe",
+          "qty": 18,
+          "split": 9,
+          "seed": 214
+        }
+      ]
+    }
+  ]
+}

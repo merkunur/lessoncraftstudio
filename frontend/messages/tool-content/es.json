@@ -175,6 +175,32 @@
       "Patrones en las tarjetas: pide al grupo que descubra el patrón de colores del mes (AB, AAB…) y que prediga de qué color será la tarjeta de mañana; los patrones también son matemáticas."
     ]
   },
+  "number-talk-easel": {
+    "slug": "subitizacion",
+    "name": "Caballete numérico",
+    "tagline": "La rutina de subitización: imagen relámpago, charla y conteo",
+    "metaTitle": "Subitización e imágenes relámpago gratis | LessonCraftStudio",
+    "metaDescription": "Caballete de subitización gratis: un destello de tres segundos con puntos, dados o marcos de diez, y a platicar cómo lo vieron. Sin registro, para proyectar.",
+    "about": [
+      "Una charla numérica empieza con una imagen que solo se puede mirar un instante. Este caballete muestra una imagen de cantidad —puntos dispersos, caras de dado, marcos de diez, un ábaco o siete patitos— durante unos tres segundos: suficiente para ver la estructura y demasiado poco para contar de uno en uno. Esa restricción es toda la pedagogía: los niños dejan de contar y empiezan a subitizar, a ver grupos de un solo vistazo. Las estructuras de cinco y de diez —la fila llena del marco, el cambio de color del ábaco en la quinta cuenta— se vuelven las anclas del sentido numérico que piden los planes de estudio.",
+      "Lo que sigue al destello importa más que el destello: los niños platican cómo lo vieron, y todas las maneras de ver se escuchan. El caballete nunca dice bien o mal — no hay campanitas, no hay estrellas y no hay tache; el número queda escondido hasta que tú tocas ¡A contar!, que cuenta la estructura en voz alta y levanta la tarjeta con la respuesta. Durante la plática, un toque colorea los puntos tal como los agrupó un niño —cinco rojos y tres azules— y el crayón encierra los pares y los cincos que el grupo descubrió.",
+      "La cortina es el ritual: se cierra para esconder, se abre para el destello y, si mantienes presionado el botón, queda abierta exactamente el tiempo que tu dedo decide; Mostrar otra vez repite la misma imagen, idéntica, para que cada quien compruebe lo que vio. Y la biblioteca de series es un ciclo escolar de charlas numéricas sin preparación: secuencias de tres a cinco imágenes donde cada una es una pequeña variación de la anterior —cinco y algo más, dobles, completar diez— con su nota didáctica de una línea, que se ven igual en cualquier salón. Arma tus propias series para la semana y dirige la rutina en once idiomas, con los números dichos como los dice tu grupo."
+    ],
+    "howToUse": [
+      "Elige el tipo de imagen y el rango — o empieza con la imagen relámpago de hoy, lista desde que enciendes el proyector.",
+      "Toca Mostrar para un destello de tres segundos, o mantén presionado el botón para que la imagen se vea exactamente el tiempo que tú decidas.",
+      "Pregunta: ¿cuántos viste?, ¿cómo lo viste? Recibe todas las respuestas sin calificar ninguna.",
+      "Toca Mostrar otra vez para una segunda mirada —la imagen es idéntica— y luego Destapar para dejarla abierta durante la plática.",
+      "Colorea las agrupaciones que los niños describan, encierra estructuras con el crayón y cierra con ¡A contar!: el número se dice y se confirma contando la estructura."
+    ],
+    "classroomIdeas": [
+      "Calentamiento diario: una imagen relámpago antes de la clase de matemáticas — tres minutos, todo el grupo, cero preparación.",
+      "El mismo número con otro disfraz: muestra el 6 en dados, luego en círculo, luego en marco de diez — mira cómo descubren que el número no cambia.",
+      "Platica con tu compañero: después del primer destello, las parejas comparan qué vieron antes de la segunda mirada.",
+      "Colección de estrategias: colorea la agrupación de un niño, pregunta quién lo vio diferente y coloréala también — tres descomposiciones del mismo ocho.",
+      "Charlas de completar diez: muestra 9 + 3 en el marco doble y pregunta cuántos le faltan al primer marco — las casillas vacías enseñan la estrategia."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

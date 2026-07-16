@@ -17,7 +17,7 @@ import { TOPIC_ENABLED_LOCALES } from '@/config/topic-locales';
 import { buildHreflangAlternates } from './hreflang';
 
 /** Canonical tool keys — match the mini-tool file basenames + MANIPULATIVES ids. */
-export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board', 'letter-tiles'] as const;
+export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board', 'letter-tiles', 'calendar-wall'] as const;
 export type ToolKey = (typeof TOOL_KEYS)[number];
 
 /** Mini-tool HTML path (nginx-direct, §3.3) per tool key. */
@@ -28,6 +28,7 @@ export const TOOL_MINI_URL: Record<ToolKey, string> = {
   'sound-boxes': '/mini-tools/sound-boxes.html',
   'blending-board': '/mini-tools/blending-board.html',
   'letter-tiles': '/mini-tools/letter-tiles.html',
+  'calendar-wall': '/mini-tools/calendar-wall.html',
 };
 
 /**
@@ -44,6 +45,7 @@ export const TOOL_ACTIVITY_PREFIX: Record<ToolKey, string> = {
   'sound-boxes': 'sound-boxes',
   'blending-board': 'blending-board',
   'letter-tiles': 'letter-tiles',
+  'calendar-wall': 'calendar-wall',
 };
 
 export interface ToolEntry {
@@ -75,6 +77,7 @@ interface ToolContentFile {
   'sound-boxes'?: ToolEntry;
   'blending-board'?: ToolEntry;
   'letter-tiles'?: ToolEntry;
+  'calendar-wall'?: ToolEntry;
   labels: ToolContentLabels;
 }
 

@@ -149,6 +149,32 @@
       "Avec « Mes mots », entrez les mots de la semaine : chaque enfant les construit en atelier autonome, puis les écrit sur l'ardoise."
     ]
   },
+  "calendar-wall": {
+    "slug": "calendrier-de-la-classe",
+    "name": "Calendrier de la classe",
+    "tagline": "Les rituels du matin au TBI : la date, chaque jour compte, la météo",
+    "metaTitle": "Calendrier de classe – rituels du matin | LessonCraftStudio",
+    "metaDescription": "Un calendrier de classe interactif et gratuit pour les rituels du matin : la date à écouter, le compteur des jours d'école et la météo du jour, au TBI.",
+    "about": [
+      "Le calendrier de la classe est le cœur des rituels du matin : chaque jour, l'élève responsable de la date retourne la carte du jour sur le calendrier du mois, dit la date — « aujourd'hui, c'est jeudi seize juillet » — puis la touche pour la faire écouter à toute la classe. Les mots affichés sont exactement les mots prononcés : on lit « seize », jamais « 16 », et le premier du mois se dit bien « premier ». Sous le calendrier, hier, aujourd'hui et demain s'enchaînent comme sur l'affichage du coin regroupement — se repérer dans le temps, jour après jour.",
+      "Le compteur des jours d'école reprend le rituel « chaque jour compte » : chaque matin d'école, un seul geste ajoute une paille, remplit la boîte de dix et fait grandir le nombre — les trois représentations avancent ensemble, jamais l'une sans les autres. Au dixième jour, les dix pailles s'attachent en un paquet de dix sous les yeux de la classe : « dix unités font une dizaine ! ». Et au centième jour, la classe fête le 100e jour d'école, comme le veut la tradition. C'est la numération du CP en actes : unités, dizaines, centaines, et l'échange rendu visible.",
+      "La météo du jour se choisit d'un geste après l'observation par la fenêtre, et chaque journée se range dans le graphique du mois : une icône pour un jour, ni plus ni moins. Au fil des semaines, la classe lit son tout premier graphique — quel temps revient le plus souvent ? combien de jours de pluie ? — les premiers pas de l'organisation et de la gestion de données, accessibles dès la maternelle avec un jeu réduit à quatre météos. Sans minuteur, sans score, rien à installer : un affichage calme pour le TBI, qui garde la mémoire de l'année."
+    ],
+    "howToUse": [
+      "Projetez le calendrier au TBI dès l'accueil : l'élève responsable de la date retourne la carte du jour, puis la touche pour faire écouter la date à la classe.",
+      "Faites dire la date avant de l'écouter : l'enfant la lit sur le calendrier, la classe valide, puis la voix la confirme — les mots écrits sont les mots dits.",
+      "Chaque matin d'école, un enfant appuie sur « +1 jour d'école » : une paille s'ajoute, la boîte de dix se remplit, le nombre grandit — et au dixième jour, regardez ensemble le paquet de dix se former.",
+      "Terminez par la météo : la classe observe par la fenêtre, discute, puis un enfant touche la météo du jour — une seule observation par jour d'école, comme dans un vrai relevé.",
+      "Dans les réglages, choisissez ce que montre le compteur (pailles, boîte de dix, nombre seul) et passez à quatre météos pour la maternelle."
+    ],
+    "classroomIdeas": [
+      "Préparez la fête du 100e jour : à chaque nouveau paquet de dix, demandez combien il manque jusqu'à cent — le compteur devient le fil rouge de l'année, jusqu'aux défis du centième jour d'école.",
+      "Faites verbaliser l'échange : quand dix pailles deviennent un paquet, la classe dit la formule — « dix unités font une dizaine ! » — puis l'écrit sur l'ardoise (10 u = 1 d).",
+      "Reliez le compteur au nombre du jour : le 42e jour d'école, décomposez 42 — quatre paquets de dix et deux pailles — puis cherchez d'autres façons de le dire (40 + 2, 30 + 12…).",
+      "En fin de mois, lisez le graphique météo comme un vrai relevé : quel temps a gagné ? combien de jours de soleil de plus que de jours de pluie ? Chaque élève écrit une phrase-réponse sur l'ardoise.",
+      "Le vendredi, jouez avec hier / aujourd'hui / demain : que dira-t-on lundi ? L'occasion de parler des jours sans école — le calendrier avance tous les jours, le compteur des jours d'école, non."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

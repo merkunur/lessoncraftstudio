@@ -149,6 +149,32 @@
       "Oppdagende skriving: la barnet bygge sitt eget ord på sin egen måte og les det sammen. Skriv gjerne voksenversjonen ved siden av etterpå – uten å rette."
     ]
   },
+  "calendar-wall": {
+    "slug": "kalendervegg",
+    "name": "Kalendervegg",
+    "tagline": "Dato, skoledager og vær – hele samlingsstunden på én vegg",
+    "metaTitle": "Gratis interaktiv kalendervegg | LessonCraftStudio",
+    "metaDescription": "Gratis interaktiv kalendervegg for samlingsstunden: dato som leses høyt, skoledager med bunter og tierramme, og værdiagram for hele måneden – uten innlogging.",
+    "about": [
+      "Kalenderveggen er samlingsstundens faste ritual i digital form: månedskalenderen, dagens kort og dagens dato – alt på klasseromsskjermen. Datolinjen står med akkurat de ordene som skal sies høyt – «torsdag den sekstende juli» – og kalenderbarnet trykker selv på kortet for å høre datoen. Ordene på skjermen er ordene som sies, dag etter dag, og det er nettopp den rolige gjentakelsen som får ukedager, datoer og måneder til å feste seg på 1. og 2. trinn.",
+      "Telleren for skoledager gjør tallforståelse til en daglig vane. Ett trykk på «+1 skoledag», og tre ting skjer samtidig: en ny brikke i tierramma, buntene som vokser, og tallet som blir én større. Når ti enere blir én tier, bindes bunten sammen foran øynene på klassen – og den dagen telleren runder hundre, henger flaggene ute. Slik møter barna plassverdisystemet konkret, bilde og tall side om side, lenge før noen sier ordet «hundrere».",
+      "Værdiagrammet er klassens egen statistikk: én observasjon per skoledag, ett symbol i diagrammet, og en måned som langsomt blir til data klassen kan lese – hvilket vær har flest dager, hvor mange flere soldager enn regndager? Verktøyet kjører rett i nettleseren på klasseromsskjerm, nettbrett og telefon, uten innlogging og uten installasjon. Det er ingen tidtaker og ingen poengsum – bare den samme trygge rutinen hver morgen, slik læreplanen i matematikk legger opp til i arbeidet med tall, telling og statistikk i småskolen."
+    ],
+    "howToUse": [
+      "Vis kalenderveggen på storskjerm eller projektor når samlingsstunden begynner.",
+      "La kalenderbarnet snu dagens kort og trykke på datolinjen for å høre datoen – les den gjerne i kor etterpå: i går, i dag, i morgen.",
+      "Trykk «+1 skoledag» sammen, og se bunter, tierramme og tall vokse i takt – stopp opp når ti enere blir én tier.",
+      "La et barn velge dagens vær og sette symbolet inn i månedens diagram.",
+      "Avslutt med et spørsmål til diagrammet: hvilket vær har flest dager så langt?"
+    ],
+    "classroomIdeas": [
+      "Gi rollen som kalenderbarn på rundgang – den som har ansvaret, snur kortet, sier datoen og velger været den dagen.",
+      "Bruk stripene «I går var det … / I dag er det … / I morgen blir det …» som daglig språktrening, gjerne i kor.",
+      "Tell ned til dag hundre og planlegg hundredagsfesten: hundre hopp, hundre brikker, hundre av alt.",
+      "Ved månedsslutt leser dere diagrammet sammen som ekte statistikere: flest, færrest, hvor mange flere?",
+      "La barna si mønsteret på kalenderkortene høyt og gjette hva som kommer på morgendagens kort."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

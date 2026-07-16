@@ -149,6 +149,32 @@
       "Palavras da semana: digite a lista do projeto da turma na aba de palavras próprias e use os cartões na rotina de sistematização da escrita."
     ]
   },
+  "calendar-wall": {
+    "slug": "mural-do-calendario",
+    "name": "Mural do calendário",
+    "tagline": "A rodinha da manhã: data, dias de aula e tempo",
+    "metaTitle": "Mural do calendário interativo grátis | LessonCraftStudio",
+    "metaDescription": "Mural do calendário grátis para a rodinha: data falada, contagem dos dias de aula com dezenas e unidades e gráfico do tempo. Sem login, em qualquer aparelho.",
+    "about": [
+      "O mural do calendário traz para a tela a rotina mais querida da rodinha: que dia é hoje? A criança-ajudante toca no cartão do dia, vira, e a data aparece — e é falada em voz alta, palavra por palavra, exatamente como está escrita: quinta-feira, dezesseis de julho. Ontem, hoje e amanhã ganham faixas próprias, e o mês inteiro fica à vista, como no mural da sala — só que projetado, grande e vivo.",
+      "O contador de dias de aula é matemática de verdade acontecendo todos os dias: a cada +1, os canudinhos, o quadro de dez e o número crescem juntos. No décimo dia, dez unidades se amarram em um feixe — nasce uma dezena! — e, no centésimo dia, dez feixes formam uma centena. É o agrupamento de 10 em 10 e o valor posicional (unidades, dezenas e centenas) que a BNCC espera do 1º e do 2º ano, construídos um dia de aula por vez.",
+      "Como está o tempo hoje? A criança observa pela janela, escolhe o cartão — ensolarado, nublado, chuvoso — e o dia entra no gráfico do mês, um quadradinho para cada dia. No fim do mês, a turma lê um gráfico de verdade: que tempo apareceu mais? Quantos dias de chuva a mais? É a leitura de tabelas e gráficos da BNCC nascendo da observação diária — sem cronômetro e sem pontuação, direto no navegador da lousa digital."
+    ],
+    "howToUse": [
+      "Projete o mural na chegada da turma e escolha a criança-ajudante do dia — o calendário é dela.",
+      "Na rodinha, a criança toca no cartão de hoje para virá-lo e depois toca na faixa da data para ouvir; a turma repete em coro.",
+      "Toque em +1 dia de aula e acompanhem juntos: quando as unidades chegarem a dez, a turma vê nascer uma dezena.",
+      "Pergunte 'Como está o tempo hoje?', deixe a criança escolher o cartão e mostrem o quadradinho novo no gráfico do mês.",
+      "Nas configurações, ajuste o que o contador mostra — feixes, quadro de dez ou só o número — conforme a turma avança."
+    ],
+    "classroomIdeas": [
+      "Ajudante da semana: cada semana uma criança é dona do mural — vira o cartão, fala a data e marca o tempo; rotina, oralidade e responsabilidade na mesma função.",
+      "Aposta da dezena: nos dias 9, 19, 29… pergunte antes do +1: 'amanhã nasce uma dezena nova?' Antecipar o reagrupamento é valor posicional puro.",
+      "Festa dos cem dias: no centésimo dia de aula, celebrem — cem palmas, cem passos, coleções de cem — e mostrem no mural as dez dezenas virando uma centena.",
+      "Detetives do tempo: no fim do mês, a turma lê o gráfico e responde: que tempo ganhou? Quantos dias a mais? Registrem a descoberta no caderno.",
+      "Ontem, hoje e amanhã: use as faixas para brincar de linha do tempo — 'se hoje é terça, que dia foi ontem?' — antes de virar o cartão e conferir."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

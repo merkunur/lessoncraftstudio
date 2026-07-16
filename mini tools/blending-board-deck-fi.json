@@ -1,0 +1,113 @@
+{
+  "locale": "fi",
+  "version": 1,
+  "decks": [
+    {
+      "id": "fi-tavut-1",
+      "label": "Tavuista sanoja · talo ja kala",
+      "free": true,
+      "type": "word",
+      "stage": "s1",
+      "scope": ["t","a","k","m","u","j","r","s","i","p","v","l","o","n"],
+      "nonwordTTS": true,
+      "columns": [
+        { "role": "syl1", "cards": ["ta","ka","mu","ju","ra","si","pa","va"] },
+        { "role": "syl2", "cards": ["lo","la","na","pu","su","ta","sa","to"] }
+      ],
+      "real": {
+        "talo": { "noun": "house", "themeDir": "miscellaneous" },
+        "kala": { "noun": "fish", "themeDir": "animals" },
+        "kana": { "noun": "chicken", "themeDir": "farm animals" },
+        "kasa": {}, "kato": {},
+        "muna": { "noun": "egg", "themeDir": "At the Supermarket" },
+        "muta": {}, "musu": {}, "musa": {},
+        "juna": { "noun": "train", "themeDir": "toys" },
+        "rapu": { "noun": "crab", "themeDir": "beach" },
+        "rata": {},
+        "silo": {}, "sisu": {},
+        "palo": {}, "pala": {}, "papu": {}, "pata": {}, "pato": {},
+        "pana": { "flags": ["sensitive"] },
+        "valo": {}, "vala": {}, "vana": {}, "vasa": {}
+      },
+      "chains": [
+        ["kala","kana","muna","muta","rata","rapu"],
+        ["talo","valo","palo","pala","pata","papu","rapu"]
+      ],
+      "comboAudit": "All 64 combinations enumerated and screened for vulgar/anatomy/slur/toilet surfaces (kikkeli/pillu/paska/kusi/kakka class). Structural exclusions: no 'no' card (pano impossible); 'ka' deliberately dropped from column 2 so kaka is NOT formable (kakka-adjacent giggle magnet in a K-1 class) — cost was sika and muka, replaced by 'su' which yields sisu and musu. Flagged sensitive: pana (colloquial vulgar slang; pa+na kept because pa carries palo/pala/papu/pata/pato and na carries kana/muna/juna — the flag suppresses it from chains and celebration). muna kept as a plain real word with its egg badge — standard aapinen vocabulary; the picture anchors the meaning. Colloquial-but-dictionary words musu (kiss) and musa (music) classified real; tasa/taka-type bound stems and names (Jusu, Vapu) left robot. Vowel harmony legal by construction: every card is back-vowel or neutral (a/o/u + i).",
+      "notes": "KÄTS starter: open CV syllables slide together into 2-syllable words (tavuista sanoiksi). Back-vowel space only; the front-vowel sister deck is fi-etuvokaalit. Real density 23/64."
+    },
+    {
+      "id": "fi-pitkat-tavut",
+      "label": "Pitkät tavut · kuk-ka ja pal-lo",
+      "free": false,
+      "type": "word",
+      "stage": "s3",
+      "scope": ["k","u","p","a","l","o","e","t","i","s"],
+      "nonwordTTS": true,
+      "columns": [
+        { "role": "syl1", "cards": ["kuk","pal","ket","lip","suk","tak"] },
+        { "role": "syl2", "cards": ["ka","lo","tu","pu","pa"] }
+      ],
+      "real": {
+        "kukka": { "noun": "flower", "themeDir": "summer" },
+        "pallo": { "noun": "ball", "themeDir": "toys" },
+        "kettu": { "noun": "fox", "themeDir": "animals" },
+        "lippu": { "noun": "flag", "themeDir": "4th of July" },
+        "lippa": {},
+        "sukka": { "noun": "sock", "themeDir": "accessories" },
+        "takka": {}
+      },
+      "chains": [
+        ["kukka","sukka","takka"],
+        ["lippu","lippa"]
+      ],
+      "comboAudit": "All 30 combinations enumerated and screened for vulgar/anatomy/slur/toilet surfaces — the space is clean (kukko, kulli, paska, pillu, kakka not formable: no ko/li/sa cards). Geminates split across the card seam exactly as Finnish tavutus divides them: kuk-ka, pal-lo, ket-tu, lip-pu, suk-ka, tak-ka. Non-matching combos (kuk+lo, suk+pa) yield robot words with non-native clusters — TTS reads them syllabically, which is itself a useful contrast against the geminate hits. palka left robot deliberately: palkka needs kk, and hearing pal+ka fall short of palkka is the whole kesto point.",
+      "notes": "THE flagship fi deck: kaksoiskonsonantti (geminate) heard as a long sound across the syllable seam — the single most important spelling skill in Finnish alkuopetus. Closed first syllable + open second syllable; all back-vowel/neutral. Real density 7/30."
+    },
+    {
+      "id": "fi-etuvokaalit",
+      "label": "Etuvokaalit · kynä ja pesä",
+      "free": false,
+      "type": "word",
+      "stage": "s1",
+      "scope": ["k","y","p","e","ä","m","s","v","ö","n","i","l"],
+      "nonwordTTS": true,
+      "columns": [
+        { "role": "syl1", "cards": ["ky","pe","kä","mä","sy","ve","pö"] },
+        { "role": "syl2", "cards": ["nä","sä","si","lä","ki","li","ly"] }
+      ],
+      "real": {
+        "kynä": { "noun": "pen", "themeDir": "classroom" },
+        "kylä": {},
+        "pesä": { "noun": "nest", "themeDir": "spring" },
+        "pesi": {}, "peli": {},
+        "käsi": { "noun": "hand", "themeDir": "body parts" },
+        "käki": {}, "käly": {},
+        "mäki": {},
+        "sysi": {}, "syli": {},
+        "vesi": {}, "veli": {},
+        "pöly": {}
+      },
+      "chains": [
+        ["vesi","veli","peli","pesi","käsi","käki","mäki"],
+        ["kynä","kylä"]
+      ],
+      "comboAudit": "All 49 combinations enumerated and screened for vulgar/anatomy/slur/toilet surfaces — the space is clean (pylly, kyrpä, pillu not formable: no py card, no geminate ll). Vowel harmony legal by construction: every card is front-vowel or neutral (y/ä/ö + e/i), so no combo can violate harmony. Classification calls: pesi (past of pestä) and peli real; sysi (dictionary: charcoal, as in sysimusta) real; kyly (dialectal/Kalevala sauna word) and mäsä (bound colloquial stem) left robot; vesä left robot (the real word is back-vowel vesa). syki left robot — the verb is sykkiä, imperfect sykki.",
+      "notes": "Front-vowel sister of the starter deck: y, ä, ö with neutral e/i. The 7-word chain vesi→veli→peli→pesi→käsi→käki→mäki is the deck's showpiece — one card flick per step, all real words. Real density 14/49."
+    },
+    {
+      "id": "fi-liukuminen",
+      "label": "Äänteistä tavuiksi · k + a = ka",
+      "free": false,
+      "type": "syllable",
+      "stage": "s2",
+      "scope": ["k","l","m","n","p","s","t","v","a","e","i","o","u","y","ä","ö"],
+      "columns": [
+        { "role": "onset", "cards": ["k","l","m","n","p","s","t","v"] },
+        { "role": "vowel", "cards": ["a","e","i","o","u","y","ä","ö","aa","uu"] }
+      ],
+      "comboAudit": "All 80 combinations enumerated and screened — a bare C+V space cannot surface the kusi/paska class (two cards only, no si/ka codas). Expert confirmation: vowel harmony is a word-level constraint in Finnish; ANY consonant + ANY vowel is a fully legal syllable in isolation (kä, ko, py, mö all fine), so no harmony filtering is needed or wanted here. Long-vowel cards aa/uu let the child hear kesto at the äänne level: ka vs kaa, ku vs kuu. Many combos happen to be real words (maa, puu, suu, kuu, luu, syy, työ-adjacent) — by design this deck carries no real map: it drills the slide, not word recognition.",
+      "notes": "The KÄTS liukuminen drill: slide from the consonant sound into the vowel without stopping — äänteistä tavuiksi. This is the first blending skill in Finnish alkuopetus, before any word-level deck. No badges, no TTS celebration: mouths only."
+    }
+  ]
+}

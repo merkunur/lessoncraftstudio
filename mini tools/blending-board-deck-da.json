@@ -1,0 +1,65 @@
+{
+  "locale": "da",
+  "version": 1,
+  "decks": [
+    {
+      "id": "da-cvc-1",
+      "label": "Lydrette ord · 3 lyde",
+      "free": true,
+      "type": "word",
+      "stage": "s1",
+      "scope": ["s","m","b","h","l","n","g","t","u","i","o","a"],
+      "nonwordTTS": false,
+      "columns": [
+        { "role": "onset", "cards": ["s","m","b","h","l","n","g","t"] },
+        { "role": "vowel", "cards": ["u","i","o","a"] },
+        { "role": "coda",  "cards": ["s","l","n","m"] }
+      ],
+      "real": {
+        "sus": {}, "sum": {}, "sin": {}, "sol": { "noun": "sun", "themeDir": "weather" }, "som": {}, "sal": {},
+        "mus": { "noun": "mouse", "themeDir": "pets" }, "mis": { "noun": "cat", "themeDir": "animals" }, "mil": {}, "min": {}, "mos": {}, "mol": {}, "mon": {}, "mas": {}, "mal": {}, "man": {},
+        "bus": { "noun": "bus", "themeDir": "vehicles" }, "bil": { "noun": "car", "themeDir": "toys" }, "bom": {}, "bon": {}, "bas": {}, "bal": {},
+        "bol": { "flags": ["sensitive"] },
+        "hus": { "noun": "house", "themeDir": "miscellaneous" }, "hul": {}, "hun": {}, "hos": {}, "hal": {}, "han": {}, "ham": {},
+        "lus": {}, "lun": {}, "lim": {}, "los": {}, "lam": { "noun": "lamb", "themeDir": "easter" },
+        "nul": {}, "nam": {},
+        "nos": { "flags": ["sensitive"] },
+        "gul": {}, "gal": {}, "gas": {},
+        "gin": { "flags": ["sensitive"] },
+        "tun": {}, "til": {}, "tin": {}, "ton": {}, "tom": {}, "tam": {}, "tal": {},
+        "tis": { "flags": ["sensitive"] }
+      },
+      "chains": [
+        ["sol","sal","hal","han","hun","hus","mus","mis","min"]
+      ],
+      "comboAudit": "All 128 combinations (8 onsets × 4 vowels × 4 codas) enumerated and screened for vulgar/slur/anatomy/alcohol surfaces. Flagged sensitive: tis (children's word for pee — real but giggle-bait), gin (alcohol), nos (fragment of the vulgar plural 'nosser'), bol (imperative of the vulgar verb 'bolle'; the innocent bun sense is the noun 'bolle', never bare 'bol'). mus kept real with badge: the mouse sense is THE canonical Danish first-reading word (Søren og Mette class); the slang sense was weighed and dismissed. lort/pik/fis-class words are structurally unbuildable (no d/g/r/t/f codas or onsets as needed). Real-but-rare RO/DDO forms deliberately left as robot words after review: sul, bum, bis, lin, lom, las, gol, gom, tus, hin, sot — a børnehaveklasse teacher will not miss them, and a false 'vrøvleord' on an archaism is harmless. No slur is composable in this space.",
+      "notes": "NATIVE RULING on final -t: EXCLUDED. Word-final /t/ in Danish de-aspirates to [d̥] (hat ≈ 'had'), and beginning spellers systematically write final t as d — the classic 'kad' error — so -t codas are not lydret enough for børnehaveklassen under a maximally conservative bar. This card set also has no k onset, so the one canonical t-word payoff (kat) is unbuildable regardless, and a t coda would add 'gat' (vulgar) to the combo space. Codas restricted to the four stable continuants s/l/n/m; no d/g/r/v/t codas (blødt d, blødt g, r-vokalisering, affrikering). Vowel note: u lowers toward [ɔ] before l (hul, nul) — both are unambiguously real words and stay classified real, but the chain deliberately routes through drift-free words only. nonwordTTS false CONFIRMED: Danish TTS is marginal even on real words; robot words stay silent and live in the teacher's mouth."
+    },
+    {
+      "id": "da-cv-1",
+      "label": "To lyde · korte ord",
+      "free": false,
+      "type": "word",
+      "stage": "s1",
+      "scope": ["k","s","t","b","m","n","o","ø","å","i","u","y"],
+      "nonwordTTS": false,
+      "columns": [
+        { "role": "onset", "cards": ["k","s","t","b","m","n"] },
+        { "role": "vowel", "cards": ["o","ø","å","i","u","y"] }
+      ],
+      "real": {
+        "ko": { "noun": "cow", "themeDir": "farm animals" }, "kø": {},
+        "so": { "flags": ["sensitive"] },
+        "sø": { "noun": "lake", "themeDir": "camping" }, "så": {}, "si": {}, "sy": {},
+        "to": {}, "tø": {}, "tå": {}, "ti": {}, "ty": {},
+        "bo": {}, "bø": {}, "bi": { "noun": "bee", "themeDir": "farm animals" }, "by": {},
+        "må": {}, "nå": {}, "ni": {}, "nu": {}, "ny": {}
+      },
+      "chains": [
+        ["ko","kø","sø","så","må","nå","nu","ny"]
+      ],
+      "comboAudit": "All 36 combinations (6 onsets × 6 vowels) enumerated and screened for vulgar/slur/anatomy/alcohol surfaces. Flagged sensitive: so (real farm word — a sow — but also a common insult aimed at women; kept real for the farm sense, excluded from chains and celebrations). Every other combo is clean: robot set kå, ki, ku, ky, su, tu, bå, bu, mo, mø, mi, mu, my, no, nø screened word by word — none vulgar. mø (archaic maiden) and the interjection spellings bu/muh-class left as robot by the rare/archaic rule; bø (the boo! interjection, DDO) kept real — children love it.",
+      "notes": "Open CV syllables: every vowel is long and true to its letter sound, so this is the phonetically cleanest deck in the Danish set — no soft-d, no soft-g, no r, no vowel drift anywhere in the space. 21 of 36 combos are real words (to, ti, ni are number words; ko, sø, bi carry picture badges). Designed as the very first sammentrækning experience: two cards, two sounds, one word."
+    }
+  ]
+}

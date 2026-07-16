@@ -97,6 +97,32 @@
       "Skriv in veckans ord under Mina ord och använd ljudrutorna som stationsarbete innan barnen skriver orden själva."
     ]
   },
+  "blending-board": {
+    "slug": "ljudtavla",
+    "name": "Ljudtavla",
+    "tagline": "Bygg ord och ljuda ihop — kort för kort",
+    "metaTitle": "Ljudtavla – ljuda ihop ord gratis | LessonCraftStudio",
+    "metaDescription": "Gratis interaktiv ljudtavla för klassrummet. Eleverna bygger ord kort för kort, ljudar ihop dem och hör om det blev ett riktigt ord – helt utan inloggning.",
+    "about": [
+      "Ljudtavlan är den klassiska övningen att ljuda ihop, fast på skärmen: barnet bläddrar fram ett kort i varje kolumn — första ljudet, vokalen, sista ljudet — och drar sedan med fingret över korten för att dra ihop ljuden till ett ord. Ibland blir det ett riktigt ord, ibland ett tramsord, och just det är poängen: barnet måste lyssna på ordet det byggt, inte gissa från en bild.",
+      "Att ljuda ihop är andra halvan av den fonologiska grunden i den tidiga läsundervisningen — Ljudrutor delar upp orden, Ljudtavlan sätter ihop dem. Arbetssättet bär rakt in i kartläggningen i förskoleklass och svenskan i årskurs 1 enligt Lgr22, där sambandet mellan ljud och bokstav står i centrum. De svenska kortlekarna är byggda ultraförsiktigt: bara ljudenliga ord där en bokstav är ett ljud, en egen lek för å, ä och ö, och ordfamiljer med svenska rimdelar som -al och -ål.",
+      "Verktyget körs direkt i webbläsaren på surfplattor, telefoner och klassrumsdatorer — inget konto, ingen installation, ingen timer och inga poäng. Riktiga ord firas med en bild när det finns en, tramsorden får en glad robot, och ingen blir fel: allt som ljudas ihop är väl ljudat."
+    ],
+    "howToUse": [
+      "Välj en kortlek och visa tavlan på storbild, eller låt barnen arbeta själva på surfplattor.",
+      "Bläddra fram kort i kolumnerna — första ljudet, vokalen, sista ljudet — tills ett ord står på tavlan.",
+      "Säg varje ljud för sig och dra sedan med fingret över korten: sssooolll — sol!",
+      "Prata om ordet: blev det ett riktigt ord eller ett tramsord? Båda är lika bra ljudade.",
+      "Stäng av de kort klassen inte har lärt sig än, och börja med den ljudenliga startleken innan ni går vidare till å, ä, ö och ordfamiljerna."
+    ],
+    "classroomIdeas": [
+      "Ordkedjor i samlingen: byt ETT kort i taget och ljuda ihop på nytt — mus blir mun, mun blir man, man blir mat. Vilket ljud var det som byttes?",
+      "Riktigt eller trams? Bygg ett ord, låt barnen ljuda ihop det tyst och rösta med tummen innan tavlan avslöjar svaret.",
+      "Para ihop med Ljudrutor: ljuda isär veckans ord i rutorna först, och bygg sedan samma ord på Ljudtavlan — isär och ihop är två sidor av samma färdighet.",
+      "Ordfamiljestund i årskurs 1: lås rimdelen -ål och byt bara första ljudet — mål, hål, nål. Hör ni att allt rimmar?",
+      "Låt barnen arbeta i par: en bygger ett ord i smyg, den andra ljudar ihop det högt — sedan byter de roller."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

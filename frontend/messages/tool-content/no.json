@@ -97,6 +97,32 @@
       "La barna tegne egne lydbokser i skriveboka etterpå og skrive ukens ord lyd for lyd."
     ]
   },
+  "blending-board": {
+    "slug": "lydtavle",
+    "name": "Lydtavle",
+    "tagline": "Bygg ord og trekk lydene sammen – kort for kort",
+    "metaTitle": "Gratis interaktiv lydtavle | LessonCraftStudio",
+    "metaDescription": "Gratis interaktiv lydtavle for begynneropplæringen. Barna bygger ord med lydkort og trekker lydene sammen til ekte ord og tulleord – helt uten innlogging.",
+    "about": [
+      "Lydtavla er den klassiske blandingstavla fra begynneropplæringen: to eller tre kolonner med lydkort som barnet blar i for å bygge ord, og deretter drar fingeren over for å trekke lydene sammen – s-o-l blir sol. Å trekke lydene sammen er selve nøkkelferdigheten i den første leseopplæringen, og tavla lar barna øve på akkurat det, ord etter ord, i sitt eget tempo.",
+      "Kortsettene er bygget for norsk lydering, ikke oversatt fra engelsk. Startsettet holder seg til lydrette ord med de vanligste bokstavene (sol, mus, bil, hus), neste sett øver de norske vokalene å, ø og æ (bål, søt, bær), og diftongsettet lar barna møte au, øy og ei som ett lydkort – én lyd, ett kort. Blir kombinasjonen et ekte ord, feirer tavla; blir det et tulleord, ler vi godt og prøver igjen – tulleord er lesing på liksom, og helt ufarlige.",
+      "Verktøyet kjører rett i nettleseren på nettbrett, telefon og klasseromsskjerm, uten innlogging og uten installasjon. Det finnes ingen tidtaker og ingen poengsum – bare rolige kort og gleden ved at lydene plutselig blir til ord, slik læreplanen legger opp til i den første lese- og skriveopplæringen."
+    ],
+    "howToUse": [
+      "Vis lydtavla på storskjerm eller gi den til barna på nettbrett, og velg kortsettet klassen jobber med.",
+      "Bla i kolonnene for å bygge et ord – første lyd, vokal og sluttlyd.",
+      "La barnet dra fingeren over kortene fra venstre mot høyre og trekke lydene sammen til et helt ord.",
+      "Snakk om resultatet: ble det et ekte ord eller et tulleord? Begge deler er god lesetrening.",
+      "Bruk «Overraskelsesord» når klassen trenger fart og latter, og slå av kort klassen ikke har lært ennå i «Mitt kortsett»."
+    ],
+    "classroomIdeas": [
+      "Felles oppstart i lesestunden: bygg dagens ord på tavla og la hele klassen trekke lydene sammen i kor.",
+      "Ordjakt i par: hvor mange ekte ord finner dere på fem minutter? Skriv dem i skriveboka etterpå.",
+      "Bytt én lyd: start med sol og se hvor langt klassen kommer ved å bytte bare ett kort om gangen – sol, sel, mel, men …",
+      "Tulleord-lek: når tavla sier tulleord, får barnet dikte hva ordet kunne bety – god trening i å skille ekte ord fra tull.",
+      "Jobb i par med Lydbokser: den ene trekker lydene sammen til et ord på lydtavla, den andre lytter ut lydene i det samme ordet i lydboksene – sammentrekking og utlytting er to sider av samme sak."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

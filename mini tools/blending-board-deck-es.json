@@ -1,0 +1,150 @@
+{
+  "locale": "es",
+  "version": 1,
+  "decks": [
+    {
+      "id": "es-silabas-1",
+      "label": "Sílabas → palabras · ma, pa, to",
+      "free": true,
+      "type": "word",
+      "stage": "s1",
+      "scope": ["ma","pa","ga","lu","ta","bo","va","mo","no","to","sa","la","na","ca","so"],
+      "nonwordTTS": true,
+      "columns": [
+        { "role": "syl1", "cards": ["ma","pa","ga","lu","ta","bo","va","mo"] },
+        { "role": "syl2", "cards": ["no","to","sa","la","na","ca","so","ta"] }
+      ],
+      "real": {
+        "mano": { "noun": "hand", "themeDir": "body parts" },
+        "mato": { "flags": ["sensitive"] },
+        "masa": {}, "mala": {}, "mata": {},
+        "pato": { "noun": "duck", "themeDir": "animals" },
+        "pasa": {}, "pala": {}, "pana": {}, "paca": {}, "paso": {}, "pata": {},
+        "gano": {},
+        "gato": { "noun": "cat", "themeDir": "animals" },
+        "gasa": {}, "gala": {}, "gana": {}, "gata": {},
+        "luto": {},
+        "luna": { "noun": "moon", "themeDir": "space" },
+        "tasa": {}, "tala": {}, "tata": {},
+        "bono": {}, "boto": {}, "bola": {},
+        "boca": { "noun": "mouth", "themeDir": "body parts" },
+        "bota": {},
+        "vano": {}, "vana": {},
+        "vaca": { "noun": "cow", "themeDir": "farm animals" },
+        "vaso": { "noun": "glass", "themeDir": "kitchen tools" },
+        "mono": { "noun": "monkey", "themeDir": "zoo animals" },
+        "moto": {}, "mona": {},
+        "mota": { "flags": ["sensitive"] }
+      },
+      "chains": [
+        ["mano","mono","mona","pana","pata","gata","gato"],
+        ["pato","gato","gata","pata","pasa","masa"]
+      ],
+      "comboAudit": "Las 64 combinaciones (8×8) fueron enumeradas y revisadas una por una contra vulgaridades, anatomía, alcohol y albures mexicanos. Estructuralmente imposibles: caca (ca solo en la 2.ª columna), culo, pipí, popó, pedo, teta, puto/puta (sin cu, lo, pi, po, pe, te, pu) y mamá/mama (ma solo en la 1.ª columna). Marcadas sensibles: mato (verbo matar) y mota (acepción coloquial de marihuana en México). Voces del DRAE poco frecuentes dejadas deliberadamente como palabra inventada: mana, maca, maso, luca, luso, lusa; vato (coloquial norteño) también queda como inventada. tata se incluye como real por ser trato familiar común; gano, gana, boto y paso son formas frecuentes de verbos de uso diario.",
+      "notes": "Mazo inicial del método silábico: sílabas directas con a, o, u. Vocales e·i, dígrafos y trabadas llegan en los mazos siguientes. Densidad ~36/64 palabras reales."
+    },
+    {
+      "id": "es-silabas-ei",
+      "label": "Sílabas con e · i · mesa, nido",
+      "free": false,
+      "type": "word",
+      "stage": "s1",
+      "scope": ["me","pe","de","te","si","ni","pi","mi","sa","do","no","la","na","to","pa","ma"],
+      "nonwordTTS": true,
+      "columns": [
+        { "role": "syl1", "cards": ["me","pe","de","te","si","ni","pi","mi"] },
+        { "role": "syl2", "cards": ["sa","do","no","la","na","to","pa","ma"] }
+      ],
+      "real": {
+        "mesa": { "noun": "table", "themeDir": "furniture" },
+        "meto": {},
+        "pesa": {},
+        "pedo": { "flags": ["sensitive"] },
+        "pela": {}, "pena": {}, "pepa": {},
+        "dedo": { "noun": "finger", "themeDir": "body parts" },
+        "tela": {}, "tema": {},
+        "sino": {},
+        "nido": { "noun": "nest", "themeDir": "spring" },
+        "pisa": {}, "pido": {}, "pino": {}, "pila": {},
+        "pito": { "flags": ["sensitive"] },
+        "pipa": {},
+        "misa": {}, "mido": {}, "mina": {}, "mito": {}, "mima": {}
+      },
+      "chains": [
+        ["mesa","pesa","pela","tela","tema"],
+        ["pino","pido","mido","misa","mina"]
+      ],
+      "comboAudit": "Las 64 combinaciones (8×8) fueron enumeradas y revisadas una por una. Estructuralmente imposibles: pipí (pi solo en la 1.ª columna), popó (sin po en la 2.ª), teta (sin ta en la 2.ª), caca, culo y mamá (ma solo en la 2.ª columna, sin ma inicial); seno queda excluida porque se no es tarjeta (se eligió te en su lugar). Marcadas sensibles: pedo y pito (doble sentido anatómico en México). nino y nina quedan como inventadas porque niño y niña llevan ñ, ausente del tablero. Voces raras o coloquiales dejadas como inventadas y anotadas: mena, mema, peto, depa, sisa, sito, sima, pina (piña lleva ñ); sido se deja como inventada por ser participio aislado. mima, pido, mido, pisa y meto son formas frecuentes de verbos cotidianos (mi mamá me mima).",
+      "notes": "Segundo mazo silábico: entran e · i en la primera sílaba. Densidad ~23/64 palabras reales."
+    },
+    {
+      "id": "es-trabadas",
+      "label": "Sílabas trabadas · pla, bru",
+      "free": false,
+      "type": "word",
+      "stage": "s4",
+      "scope": ["pla","tra","bru","glo","fre","blu","fla","gra","to","po","ma","bo","sa","no","ta","co"],
+      "nonwordTTS": true,
+      "columns": [
+        { "role": "syl1", "cards": [
+          { "g": "pla", "sounds": 3 }, { "g": "tra", "sounds": 3 }, { "g": "bru", "sounds": 3 }, { "g": "glo", "sounds": 3 },
+          { "g": "fre", "sounds": 3 }, { "g": "blu", "sounds": 3 }, { "g": "fla", "sounds": 3 }, { "g": "gra", "sounds": 3 }
+        ]},
+        { "role": "syl2", "cards": ["to","po","ma","bo","sa","no","ta","co"] }
+      ],
+      "real": {
+        "plato": {}, "plano": {}, "plata": {},
+        "trato": {}, "trapo": {}, "trama": {}, "trata": {},
+        "bruto": { "flags": ["sensitive"] },
+        "bruma": {},
+        "bruta": { "flags": ["sensitive"] },
+        "globo": { "noun": "balloon", "themeDir": "toys" },
+        "fresa": { "noun": "strawberry", "themeDir": "fruits" },
+        "freno": {},
+        "blusa": {},
+        "flama": {}, "flaco": {},
+        "grato": {}, "grabo": {}, "grasa": {}, "grano": {}, "grata": {}
+      },
+      "chains": [
+        ["plato","plata","grata","grasa","fresa","blusa"],
+        ["trapo","trato","plato","plano","grano"]
+      ],
+      "comboAudit": "Las 64 combinaciones (8×8) fueron enumeradas y revisadas una por una. Ninguna combinación produce voces de anatomía, escatología ni alcohol: caca, culo, teta, pipí, popó y pedo son estructuralmente imposibles (la 1.ª columna solo tiene sílabas trabadas). Marcadas sensibles: bruto y bruta (uso como insulto). Voces del DRAE raras o regionales dejadas deliberadamente como palabra inventada: glosa, grama, flato, trabo; bruno queda como inventada por ser nombre propio. fresa conserva su sentido primario de fruta (el uso coloquial mexicano es inocuo); trata y grabo son formas frecuentes de verbos cotidianos.",
+      "notes": "Sílabas trabadas (grupos consonánticos), el escollo clásico de primero de primaria. Cada tarjeta trabada lleva costura punteada de 3 sonidos. Densidad ~21/64 palabras reales."
+    },
+    {
+      "id": "es-tres-sonidos",
+      "label": "Tres sonidos · sol, mar, pan",
+      "free": false,
+      "type": "word",
+      "stage": "s2",
+      "scope": ["s","p","m","t","f","l","a","e","i","o","u","n","r"],
+      "nonwordTTS": true,
+      "columns": [
+        { "role": "onset", "cards": ["s","p","m","t","f","l"] },
+        { "role": "vowel", "cards": ["a","e","i","o","u"] },
+        { "role": "coda",  "cards": ["l","n","r","s"] }
+      ],
+      "real": {
+        "sal": {}, "ser": {}, "sin": {},
+        "sol": { "noun": "sun", "themeDir": "weather" },
+        "son": {}, "sur": {}, "sus": {},
+        "pan": { "noun": "bread", "themeDir": "At the Supermarket" },
+        "par": {},
+        "pis": { "flags": ["sensitive"] },
+        "pon": {}, "por": {},
+        "pus": { "flags": ["sensitive"] },
+        "mal": {}, "mar": {}, "mes": {}, "mil": {}, "mis": {},
+        "tal": {}, "tan": {}, "ten": {}, "tos": {}, "tul": {}, "tus": {},
+        "fan": {}, "fin": {},
+        "las": {}, "les": {}, "los": {}
+      },
+      "chains": [
+        ["sol","sal","mal","mar","par","pan","tan","ten"],
+        ["fin","sin","son","sol"]
+      ],
+      "comboAudit": "Las 120 combinaciones (6×5×4) fueron enumeradas y revisadas una por una. Solo letras transparentes: sin c (se evita de raíz el conflicto ca/co/cu frente a ce/ci), sin g, sin h muda, sin b/v ni z. Estructuralmente imposibles: caca, culo, teta, pipí, popó, puto/puta (ninguna palabra de 4+ letras es formable; sin c ni t en coda). Marcadas sensibles: pis y pus (voz de baño y voz corporal). paz, luz y más quedan fuera del alcance del tablero (z y tilde no están en las tarjetas): pas, lus y mas quedan como palabra inventada, anotado para docentes. san y sor (apócopes ante nombre propio) y voces raras (sen, mus, mol, ful, lar, lis) quedan como inventadas. Se incluyen como reales palabras funcionales de alta frecuencia: las, les, los, mis, tus, sus, sin, por, tan, tal; pon y ten son imperativos cotidianos (pon la mesa).",
+      "notes": "Mazo fonémico: tres sonidos, un sonido por tarjeta, para el paso de la sílaba al fonema (sol → s-o-l). Densidad ~29/120 palabras reales."
+    }
+  ]
+}

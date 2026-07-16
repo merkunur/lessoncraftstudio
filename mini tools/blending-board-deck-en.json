@@ -1,0 +1,176 @@
+{
+  "locale": "en",
+  "version": 1,
+  "decks": [
+    {
+      "id": "en-cvc-1",
+      "label": "First words · a, i, o",
+      "free": true,
+      "type": "word",
+      "stage": "s1",
+      "scope": ["s","m","t","p","c","h","a","i","o","n","g","d"],
+      "nonwordTTS": false,
+      "columns": [
+        { "role": "onset", "cards": ["s","m","t","p","c","h"] },
+        { "role": "vowel", "cards": ["a","i","o"] },
+        { "role": "coda",  "cards": ["t","n","p","g","d"] }
+      ],
+      "real": {
+        "sat": {}, "sit": {}, "sad": {}, "sap": {}, "sip": {}, "sin": {}, "sag": {}, "son": {},
+        "sod": { "flags": ["sensitive"] },
+        "mat": {}, "man": {}, "mad": {}, "map": { "noun": "map", "themeDir": "camping" }, "mop": { "noun": "mop", "themeDir": "around the house" },
+        "tan": {}, "tap": {}, "tag": {}, "tin": {}, "tip": {}, "top": {}, "tot": {}, "ton": {},
+        "tit": { "flags": ["sensitive"] },
+        "pat": {}, "pan": { "noun": "pan", "themeDir": "kitchen tools" }, "pad": {}, "pig": { "noun": "pig", "themeDir": "animals" }, "pin": {}, "pip": {}, "pit": {}, "pot": { "noun": "pot", "themeDir": "around the house" }, "pop": {}, "pod": {},
+        "cat": { "noun": "cat", "themeDir": "animals" }, "can": { "noun": "can", "themeDir": "At the Supermarket" }, "cap": { "noun": "cap", "themeDir": "accessories" }, "cot": {}, "cop": {}, "cod": {}, "cog": {}, "con": {},
+        "hat": { "noun": "hat", "themeDir": "accessories" }, "had": {}, "hag": {}, "hid": {}, "hip": {}, "hit": {}, "hot": {}, "hop": {}, "hog": {}
+      },
+      "chains": [
+        ["cat","cot","cop","top","tip","tin","pin","pig"],
+        ["sat","mat","map","mop","top","tap"]
+      ],
+      "comboAudit": "All 90 combinations enumerated and screened for vulgar/slur/anatomy/alcohol surfaces. Flagged sensitive: sod, tit. Robot combos with c+i (cip, cit) read /k/ per the taught code — kept out of chains.",
+      "notes": "Classic first-six letter set; highest real-word density in English CVC space (~48/90)."
+    },
+    {
+      "id": "en-digraphs",
+      "label": "Two-letter sounds · sh ch th",
+      "free": false,
+      "type": "word",
+      "stage": "s2",
+      "scope": ["sh","ch","th","r","w","a","i","o","u","t","p","n","ck","ng"],
+      "nonwordTTS": false,
+      "columns": [
+        { "role": "onset", "cards": ["sh","ch","th","r","w"] },
+        { "role": "vowel", "cards": ["a","i","o","u"] },
+        { "role": "coda",  "cards": ["t","p","n","ck","sh","ng","ch"] }
+      ],
+      "real": {
+        "shack": {}, "chat": {}, "chap": {}, "that": {}, "than": {},
+        "rat": {}, "rap": {}, "ran": {}, "rack": {}, "rash": {}, "rang": {},
+        "wash": {},
+        "shat": { "flags": ["sensitive"] }, "wang": { "flags": ["sensitive"] },
+        "shin": {}, "ship": { "noun": "ship", "themeDir": "vehicles" },
+        "chin": { "noun": "chin", "themeDir": "body parts" }, "chip": {}, "chick": {},
+        "thin": {}, "thick": {}, "thing": {},
+        "rip": {}, "rich": {}, "ring": { "noun": "ring", "themeDir": "accessories" },
+        "wit": {}, "win": {}, "wick": {}, "wish": {}, "wing": {},
+        "shit": { "flags": ["sensitive"] },
+        "shot": {}, "shop": {}, "shock": {},
+        "chop": {},
+        "rot": {}, "rock": { "noun": "rock", "themeDir": "camping" },
+        "won": {},
+        "thot": { "flags": ["sensitive"] }, "thong": { "flags": ["sensitive"] }, "wop": { "flags": ["sensitive"] },
+        "shut": {}, "shun": {}, "shuck": {}, "shush": {},
+        "chuck": {},
+        "rut": {}, "run": {}, "rush": {}, "rung": {}
+      },
+      "chains": [
+        ["chin","chip","ship","shop","chop"],
+        ["run","rung","ring","wing","win"]
+      ],
+      "comboAudit": "All 140 combinations enumerated and screened. Flagged sensitive: shat, shit, thot, thong, wop, wang. wash noted (a says /o/) but kept as real; teachers model it.",
+      "notes": "sh/ch/th onsets and codas; ck and ng as single coda cards."
+    },
+    {
+      "id": "en-blends",
+      "label": "Blends to start · st sl fr gr",
+      "free": false,
+      "type": "word",
+      "stage": "s3",
+      "scope": ["s","t","l","p","f","r","g","d","c","a","i","o","m","b","n"],
+      "nonwordTTS": false,
+      "columns": [
+        { "role": "onset", "cards": [
+          { "g": "st", "sounds": 2 }, { "g": "sl", "sounds": 2 }, { "g": "sp", "sounds": 2 }, { "g": "fl", "sounds": 2 },
+          { "g": "fr", "sounds": 2 }, { "g": "gr", "sounds": 2 }, { "g": "dr", "sounds": 2 }, { "g": "cl", "sounds": 2 }
+        ]},
+        { "role": "vowel", "cards": ["a","i","o"] },
+        { "role": "coda",  "cards": ["p","t","g","m","b","n"] }
+      ],
+      "real": {
+        "stab": {}, "stag": {}, "stop": {},
+        "slab": {}, "slam": {}, "slap": {}, "slat": {}, "slim": {}, "slip": {}, "slit": {}, "slot": {}, "slop": {}, "slog": {}, "slob": {},
+        "slag": { "flags": ["sensitive"] },
+        "flat": {}, "flag": { "noun": "flag", "themeDir": "4th of July" }, "flap": {}, "flab": {}, "flan": {}, "flip": {}, "flit": {}, "flop": {}, "flog": {},
+        "frog": { "noun": "frog", "themeDir": "reptiles and Amphibians" }, "from": {},
+        "frig": { "flags": ["sensitive"] },
+        "grab": {}, "gram": {}, "gran": {}, "grim": {}, "grin": {}, "grip": {}, "grit": {},
+        "grog": { "flags": ["sensitive"] },
+        "drab": {}, "drag": {}, "drat": {}, "drip": {}, "drop": {},
+        "dram": { "flags": ["sensitive"] },
+        "clam": {}, "clan": {}, "clap": {}, "clip": {}, "clot": {}, "clop": {}, "clog": {},
+        "clit": { "flags": ["sensitive"] },
+        "spat": {}, "span": {}, "spam": {}, "spit": {}, "spin": {}, "spot": {}
+      },
+      "chains": [
+        ["drip","drop","stop","slop","slip","slap","clap"]
+      ],
+      "comboAudit": "All 144 combinations enumerated and screened. Flagged sensitive: slag, frig, grog (alcohol), dram (alcohol measure), clit. Blend onsets are single seamed cards (two sounds, one card) — never two columns.",
+      "notes": "Initial-blend cards carry sounds:2 for the dotted seam rendering; the sweep pulses each letter within the card."
+    },
+    {
+      "id": "en-endblends",
+      "label": "Ends with a blend · st nd mp nt",
+      "free": false,
+      "type": "word",
+      "stage": "s3",
+      "scope": ["n","h","l","s","t","b","m","a","e","i","o","u","d","p"],
+      "nonwordTTS": false,
+      "columns": [
+        { "role": "onset", "cards": ["n","h","l","s","t","b","m"] },
+        { "role": "vowel", "cards": ["a","e","i","o","u"] },
+        { "role": "coda",  "cards": [
+          { "g": "st", "sounds": 2 }, { "g": "nd", "sounds": 2 }, { "g": "mp", "sounds": 2 }, { "g": "nt", "sounds": 2 }
+        ]}
+      ],
+      "real": {
+        "nest": { "noun": "nest", "themeDir": "spring" },
+        "hand": { "noun": "hand", "themeDir": "body parts" }, "hemp": {}, "hint": {}, "hunt": {}, "hump": {},
+        "last": {}, "land": {}, "lamp": { "noun": "lamp", "themeDir": "furniture" }, "lend": {}, "lent": {}, "list": {}, "lint": {}, "limp": {}, "lost": {}, "lump": {},
+        "lust": { "flags": ["sensitive"] },
+        "sand": {}, "sent": {}, "send": {},
+        "tamp": {}, "test": {}, "tend": {}, "tent": {}, "temp": {}, "tint": {},
+        "band": {}, "best": {}, "bend": {}, "bent": {}, "bond": {}, "bust": {}, "bump": {}, "bunt": {},
+        "bint": { "flags": ["sensitive"] },
+        "mast": {}, "mend": {}, "mist": {}, "mint": {}, "must": {},
+        "munt": { "flags": ["sensitive"] }
+      },
+      "chains": [
+        ["sand","band","bend","bent","tent","test"],
+        ["lamp","lump","bump","bust","best","nest"]
+      ],
+      "comboAudit": "All 140 combinations enumerated and screened. Flagged sensitive: lust, bint, munt. Long-vowel irregulars (hind, bind, mind, most, host) deliberately absent from the real map (they break the short-vowel code; noted for teachers).",
+      "notes": "Final-blend cards seamed; long-i/-o irregulars excluded from real (see comboAudit)."
+    },
+    {
+      "id": "en-families",
+      "label": "Word families · -at -in -op -ug",
+      "free": false,
+      "type": "word",
+      "stage": "s2",
+      "scope": ["c","b","s","m","r","h","p","f","a","t","n","i","g","o","u"],
+      "nonwordTTS": false,
+      "columns": [
+        { "role": "onset", "cards": ["c","b","s","m","r","h","p","f"] },
+        { "role": "coda",  "cards": ["at","an","ap","ig","in","it","op","ot","ug","un"] }
+      ],
+      "real": {
+        "cat": { "noun": "cat", "themeDir": "animals" }, "can": { "noun": "can", "themeDir": "At the Supermarket" }, "cap": { "noun": "cap", "themeDir": "accessories" }, "cop": {}, "cot": {},
+        "bat": { "noun": "bat", "themeDir": "animals" }, "ban": {}, "big": {}, "bin": {}, "bit": {}, "bop": {}, "bot": {}, "bug": {}, "bun": { "noun": "bun", "themeDir": "bakery" },
+        "sat": {}, "sap": {}, "sin": {}, "sit": {}, "sop": {}, "sun": { "noun": "sun", "themeDir": "weather" },
+        "mat": {}, "man": {}, "map": { "noun": "map", "themeDir": "camping" }, "mop": { "noun": "mop", "themeDir": "around the house" }, "mug": { "noun": "mug", "themeDir": "kitchen tools" },
+        "rat": {}, "ran": {}, "rap": {}, "rig": {}, "rot": {}, "rug": {}, "run": {},
+        "hat": { "noun": "hat", "themeDir": "accessories" }, "hit": {}, "hop": {}, "hot": {}, "hug": {},
+        "pat": {}, "pan": { "noun": "pan", "themeDir": "kitchen tools" }, "pig": { "noun": "pig", "themeDir": "animals" }, "pin": {}, "pit": {}, "pop": {}, "pot": { "noun": "pot", "themeDir": "around the house" }, "pug": {}, "pun": {},
+        "fat": {}, "fan": { "noun": "fan", "themeDir": "around the house" }, "fig": { "noun": "fig", "themeDir": "fruits" }, "fin": {}, "fit": {}, "fun": {},
+        "fap": { "flags": ["sensitive"] }
+      },
+      "chains": [
+        ["cat","bat","bit","bin","bun","fun"]
+      ],
+      "comboAudit": "All 80 combinations enumerated and screened. Flagged sensitive: fap. hun/cun/sug-class non-words stay robot; fat kept as a plain real word (normal vocabulary).",
+      "notes": "2-column onset × rime analogy deck — the classic word-family drill; near-half real density."
+    }
+  ]
+}

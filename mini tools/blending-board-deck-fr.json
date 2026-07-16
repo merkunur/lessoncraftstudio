@@ -1,0 +1,107 @@
+{
+  "locale": "fr",
+  "version": 1,
+  "decks": [
+    {
+      "id": "fr-syll-1",
+      "label": "Tableau de syllabes 1",
+      "free": true,
+      "type": "syllable",
+      "stage": "s1",
+      "scope": ["l","m","r","p","t","n","s","f","a","i","o","u","é"],
+      "nonwordTTS": false,
+      "columns": [
+        { "role": "onset", "cards": ["l","m","r","p","t","n","s","f"] },
+        { "role": "vowel", "cards": ["a","i","o","u","é"] }
+      ],
+      "comboAudit": "Les 40 syllabes (8 consonnes × 5 voyelles) ont toutes été passées en revue : aucune syllabe vulgaire. La syllabe « cu » est impossible par construction — la consonne c est volontairement absente de toutes les colonnes. « pu » et « nu » sont des syllabes standard des tableaux de CP, conservées.",
+      "notes": "Le tableau de fusion syllabique du CP : b + a → ba, ici avec l, m, r, p, t, n, s, f — les consonnes « longues » que l'on peut étirer. La carte u se lit /y/ comme dans « lune » (jamais /ou/). Pas de carte réel/inventé ni de synthèse vocale : au CP on ne prononce pas une syllabe isolée par machine, c'est la bouche du maître ou de l'élève qui fusionne."
+    },
+    {
+      "id": "fr-syll-2",
+      "label": "Tableau 2 · ou, oi, on, an + ch",
+      "free": false,
+      "type": "syllable",
+      "stage": "s2",
+      "scope": ["ch","l","m","r","p","t","n","s","f","a","i","o","ou","oi","on","an"],
+      "nonwordTTS": false,
+      "columns": [
+        { "role": "onset", "cards": ["ch","l","m","r","p","t","n","s","f"] },
+        { "role": "vowel", "cards": ["a","i","o","ou","oi","on","an"] }
+      ],
+      "comboAudit": "Les 63 syllabes (9 attaques × 7 voyelles) ont toutes été passées en revue : aucune syllabe vulgaire. « cu » impossible (pas de c ; le u simple n'est pas dans ce tableau). « con » impossible (pas de c). Syllabes-mots innocentes conservées : moi, toi, roi, loi, mon, ton, son, non, chou, fou, mou, pan, chat sans t…",
+      "notes": "Les sons complexes du CP : ou /u/, oi /wa/, on /ɔ̃/, an /ɑ̃/ — un seul son par carte, donc PAS de couture pointillée (sounds) : ce sont des graphèmes simples à deux lettres, pas des groupes de deux sons. ch /ʃ/ rejoint les attaques : cho, lou, moi, ron, chan…"
+    },
+    {
+      "id": "fr-cvcv",
+      "label": "Syllabes → mots",
+      "free": false,
+      "type": "word",
+      "stage": "s1",
+      "scope": ["m","o","t","v","é","l","d","p","a","j","u","n","e","i"],
+      "nonwordTTS": false,
+      "columns": [
+        { "role": "syl1", "cards": ["mo","vé","do","pa","ju","lu","pi","mi"] },
+        { "role": "syl2", "cards": ["to","lo","do","pa","ne","pe","di","la"] }
+      ],
+      "real": {
+        "moto": {},
+        "véto": {},
+        "vélo": { "noun": "bicycle", "themeDir": "vehicles" },
+        "dodo": {},
+        "dope": { "flags": ["sensitive"] },
+        "papa": {},
+        "pape": {},
+        "judo": {},
+        "jupe": { "noun": "skirt", "themeDir": "clothing" },
+        "lune": { "noun": "moon", "themeDir": "space" },
+        "pine": { "flags": ["sensitive"] },
+        "pipe": { "flags": ["sensitive"] },
+        "mine": {},
+        "midi": {}
+      },
+      "chains": [
+        ["moto","véto","vélo"],
+        ["papa","pape","jupe","judo","dodo"],
+        ["lune","mine","midi"]
+      ],
+      "comboAudit": "Les 64 combinaisons (8 syllabes × 8 syllabes) ont toutes été énumérées et passées en revue. Marquées sensitive : pine (vulgaire), pipe (double sens familier), dope (drogue). Exclusions structurelles : pipi impossible (pi seulement en colonne 1), caca/popo impossibles (pas de carte ca ni po), zizi impossible (pas de zi), pédé/pute impossibles (pas de pé+dé ni pu+te), sodo évité en écartant la carte so (au prix du mot-image sofa). Vrais mots rares/familiers laissés en mot inventé : molo, mito, ludo (jeu), véla. véto (familier courant) et mine/midi conservés comme vrais mots.",
+      "notes": "L'étape 2 de la fusion syllabique : des syllabes déjà fusionnées vers de vrais mots de deux syllabes (mo + to → moto). Les cartes-syllabes restent des unités pleines, sans couture pointillée : au stade syllabes → mots, la syllabe se lit d'un coup. nonwordTTS:false — la synthèse vocale française écorche les pseudo-mots ; le badge robot apparaît en silence et c'est l'enseignant qui confirme."
+    },
+    {
+      "id": "fr-cvc",
+      "label": "Mots de 3 sons",
+      "free": false,
+      "type": "word",
+      "stage": "s1",
+      "scope": ["s","b","m","f","l","v","d","p","a","i","o","u","e","c","r"],
+      "nonwordTTS": false,
+      "columns": [
+        { "role": "onset", "cards": ["s","b","m","f","l","v","d","p"] },
+        { "role": "vowel", "cards": ["a","i","o","u","e"] },
+        { "role": "coda",  "cards": ["c","r","f","l"] }
+      ],
+      "real": {
+        "sac": { "noun": "bag", "themeDir": "At the Supermarket" },
+        "sec": {}, "sel": {}, "sol": {}, "soc": {}, "sur": {},
+        "bac": {}, "bal": {}, "bec": {}, "bel": {}, "bof": {},
+        "bol": { "noun": "bowl", "themeDir": "around the house" },
+        "bar": { "flags": ["sensitive"] },
+        "mal": {}, "mer": {}, "mur": {}, "mec": {},
+        "mac": { "flags": ["sensitive"] },
+        "fil": {}, "fer": {},
+        "lac": { "noun": "lake", "themeDir": "camping" },
+        "val": {}, "ver": {}, "vif": {}, "vol": {},
+        "dur": {}, "duc": {},
+        "par": {}, "pic": {}, "pur": {}
+      },
+      "chains": [
+        ["sac","lac","bac","bal","bol","sol","vol"],
+        ["mur","mer","fer","ver"],
+        ["dur","pur","sur"]
+      ],
+      "comboAudit": "Les 160 combinaisons (8 attaques × 5 voyelles × 4 codas c/r/f/l) ont toutes été énumérées et passées en revue. cul impossible par construction : pas d'attaque c (c n'existe qu'en coda, comme dans sac, lac, bec). Marquées sensitive : bar (débit de boissons), mac (argot). fuc, vul, sal examinés : pseudo-mots muets sans sens en français (/fyk/, /vyl/, /sal/), conservés. Vrais mots rares ou trop familiers laissés en mot inventé : suc, mil, fol, mol, pal, vil, far, foc, doc, dol, fac, pif, lol. Aucune lettre muette, aucune nasale : le e en syllabe fermée se lit /ɛ/ (sel, mer, fer, bec) — code enseigné au CP.",
+      "notes": "Mots transparents de 3 sons : chaque lettre s'entend. Codas limitées aux finales fiables du français : c, r, f, l (les consonnes de « careful ») — pas de s final (souvent muet), pas de t/d/p muets, pas de nasales. nonwordTTS:false — le badge robot reste silencieux, l'enseignant confirme."
+    }
+  ]
+}

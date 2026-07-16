@@ -97,6 +97,32 @@
       "Passez de la segmentation à l'encodage : après avoir posé les jetons, les enfants écrivent le mot sur l'ardoise, une case après l'autre."
     ]
   },
+  "blending-board": {
+    "slug": "tableau-de-syllabes",
+    "name": "Tableau de syllabes",
+    "tagline": "La fusion syllabique : des sons aux syllabes, des syllabes aux mots",
+    "metaTitle": "Tableau de syllabes – fusion syllabique | LessonCraftStudio",
+    "metaDescription": "Un tableau de syllabes gratuit et interactif pour le CP : l’enfant fait défiler consonnes et voyelles, fusionne les sons et découvre de vrais mots à lire.",
+    "about": [
+      "Le tableau de syllabes est le geste fondateur de la méthode syllabique : une consonne, une voyelle, et la bouche qui les attache — b et a font ba. Cette version interactive reprend le rituel du CP : l’enfant fait défiler les cartes, forme une syllabe, puis balaie les colonnes du doigt pour fusionner les sons d’un seul souffle.",
+      "La progression suit l’année de CP : d’abord les consonnes « longues » que l’on peut étirer (l, m, r, s, f…) avec les voyelles simples a, i, o, u, é ; puis les sons complexes ou, oi, on, an et le ch — une carte pour un son ; enfin les tableaux de mots, où les syllabes s’assemblent en vrais mots (moto, vélo, lune) et les trois sons en mots transparents (sac, bol, mur, fil).",
+      "Sur les tableaux de mots, un badge indique si l’assemblage est un vrai mot ou un mot inventé — et les mots inventés font partie du jeu : les lire prouve que l’enfant décode vraiment au lieu de deviner. Aucun minuteur, aucun score, rien à installer : un outil calme pour le TBI, la tablette et l’ordinateur."
+    ],
+    "howToUse": [
+      "Choisissez un jeu de cartes : syllabes simples pour début de CP, sons complexes ensuite, puis les tableaux « Syllabes → mots » et « Mots de 3 sons ».",
+      "Faites défiler une colonne pour changer une carte : la nouvelle syllabe ou le nouveau mot se forme sous les yeux de l’enfant.",
+      "Demandez d’abord le son de chaque carte séparément, en pointant de gauche à droite — la consonne s’étire, la voyelle la rejoint.",
+      "Balayez ensuite les cartes d’un geste continu pour fusionner : l’enfant redit la syllabe ou le mot d’un seul souffle, de plus en plus vite.",
+      "Sur les tableaux de mots, laissez l’enfant annoncer « vrai mot » ou « mot inventé » avant de vérifier avec le badge — puis ne changez qu’une carte et recommencez."
+    ],
+    "classroomIdeas": [
+      "En rituel de lecture au TBI, projetez le tableau 1 : la classe fusionne en chœur chaque syllabe que vous formez, puis un élève vient faire défiler la colonne suivante.",
+      "Jouez aux « chaînes de mots » : sac → lac → bac… on ne change qu’une carte à la fois, et la classe lit chaque nouveau mot avant de proposer le suivant.",
+      "En atelier autonome, l’enfant forme cinq assemblages, les lit à voix basse et les trie sur son ardoise en deux colonnes : vrais mots et mots inventés.",
+      "Faites le chemin inverse avec les Boîtes à sons : on segmente d’abord un mot en sons dans les boîtes, puis on le reconstruit sur le tableau de syllabes — segmenter et fusionner sont les deux faces du même apprentissage.",
+      "En aide personnalisée, restez sur une seule ligne : gardez la même consonne et ne changez que la voyelle (ma, mi, mo, mu, mé) pour automatiser la fusion sans surcharge."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

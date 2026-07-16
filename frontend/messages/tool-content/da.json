@@ -97,6 +97,32 @@
       "Skriv ugens lydrette ord ind under Mine ord, så stationen på klassens tablets altid passer til det, I arbejder med."
     ]
   },
+  "blending-board": {
+    "slug": "lydtavle",
+    "name": "Lydtavle",
+    "tagline": "Vend kortene — og træk lydene sammen til et ord",
+    "metaTitle": "Gratis interaktiv lydtavle | LessonCraftStudio",
+    "metaDescription": "Gratis online lydtavle til den første læsning: barnet vender kort, trækker lydene sammen og opdager rigtige ord og vrøvleord. Uden login, på alle enheder.",
+    "about": [
+      "Lydtavlen viser ordet som en række kort — én lyd på hvert kort. Barnet vender ét kort ad gangen, siger lydene og trækker dem sammen: s … o … l — sol! Netop den lydsyntese er nøglen til afkodningen i børnehaveklassen og 1. klasse, og tavlen lader barnet øve den igen og igen med nye ord.",
+      "Alle kortsæt består af helt lydrette danske ord, hvor hver lyd svarer til ét bogstav — og de danske faldgruber som blødt d, blødt g og r-farvede vokaler er bevidst holdt ude. Lander kortene på et ord, der ikke findes, fejrer tavlen det som et vrøvleord: den, der kan læse vrøvleord, afkoder i stedet for at gætte.",
+      "Kendte ord som sol, mus, hus og ko kvitterer med et lille billede, så barnet ser, at lydene blev til mening. Værktøjet kører direkte i browseren på tavle, tablet og computer — uden installation, uden login, uden point og uden tidtagning."
+    ],
+    "howToUse": [
+      "Vis lydtavlen på den interaktive tavle, og vælg et kortsæt, der passer til klassen — begynd med de korte ord med to lyde.",
+      "Vend ét kort ad gangen, og sig lyden sammen — ikke bogstavets navn, men dets lyd.",
+      "Kør fingeren hen under kortene, og træk lydene sammen til ordet — først langsomt, så hurtigt.",
+      "Tal om, hvad det blev: et rigtigt ord eller et vrøvleord? Begge dele er god læsetræning.",
+      "Skift kun ét kort ad gangen, og hør, hvordan ordet ændrer sig — sol bliver til sal, og mus bliver til hus."
+    ],
+    "classroomIdeas": [
+      "Leg vrøvleords-leg: læs vrøvleordene med helt alvorlig stemme, og lad børnene råbe, når et rigtigt ord dukker op.",
+      "Byg ordkæder sammen: skift én lyd ad gangen, og se, hvor lang en kæde af rigtige ord klassen kan lave.",
+      "Lad to børn arbejde sammen: den ene vender kortene, den anden trækker lydene sammen — og byt så roller.",
+      "Arbejd med det samme ord i begge redskaber: del først ordet i lyde med brikkerne i Lydbokse, og byg det bagefter igen på Lydtavlen — fra ord til lyde og fra lyde til ord.",
+      "Gå på jagt efter rigtige ord: hvor mange kan klassen finde med dagens kort? Billedmærkerne viser, når et ord er fundet."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

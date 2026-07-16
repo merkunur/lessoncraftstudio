@@ -97,6 +97,32 @@
       "Eriytä listoilla: osa harjoittelee tavuja, osa lyhyitä sanoja ja edistyneet kirjoittavat sanan vihkoon sen jälkeen, kun nappulat ovat paikoillaan."
     ]
   },
+  "blending-board": {
+    "slug": "tavutaulu",
+    "name": "Tavutaulu",
+    "tagline": "Liu'uta äänteet tavuiksi ja tavut sanoiksi kortti kerrallaan",
+    "metaTitle": "Ilmainen interaktiivinen tavutaulu | LessonCraftStudio",
+    "metaDescription": "Ilmainen tavutaulu alkuopetukseen: liu'uta äänteet tavuiksi ja tavut sanoiksi, kuuntele sana ja löydä piilossa olevat oikeat sanat – toimii ilman kirjautumista.",
+    "about": [
+      "Tavutaulu on lukemaan opettamisen liukumisharjoitus: korttisarakkeista rakennetaan tavuja ja sanoja, ja pyyhkäisy korttien yli liu'uttaa äänteet yhteen ilman pysähdyksiä. Juuri liukuminen – äänteistä tavuiksi ja tavuista sanoiksi – on suomalaisen alkuopetuksen ydinmenetelmä, ja vahva äänne–kirjain-vastaavuus tekee siitä palkitsevan: se, mikä liu'utetaan, on juuri se, mikä luetaan.",
+      "Sarjat etenevät samassa järjestyksessä kuin lukemaan opettaminen: ensin äänteistä tavuiksi (k + a = ka), sitten takavokaalisista tavuista sanoja (ta-lo, ka-la), etuvokaaliset sanat (ky-nä, pe-sä) ja lopuksi pitkät tavut, joissa kaksoiskonsonantti jakautuu tavurajalle – kuk-ka, pal-lo, ket-tu. Äänteen keston kuuleminen tavurajan yli on suomen oikeinkirjoituksen tärkein yksittäinen taito.",
+      "Osa yhdistelmistä on oikeita sanoja ja osa hauskoja robottisanoja – molemmat luetaan täsmälleen samalla tavalla, ja juuri se opettaa, että lukeminen on liukumista, ei arvaamista. Kaikki toimii suoraan selaimessa taululla, tabletilla ja tietokoneella ilman kirjautumista, ajastinta tai pisteitä."
+    ],
+    "howToUse": [
+      "Heijasta tavutaulu luokan taululle ja mallinna liukuminen itse: sano ensimmäisen kortin äänne tai tavu, liu'uta sormella seuraavaan äläkä päästä ääntä poikki.",
+      "Aloita ilmaisesta Tavuista sanoja -sarjasta: pyyhkäise saraketta, lukekaa tavut yhdessä ja liu'uttakaa ne sanaksi.",
+      "Kysy jokaisen sanan jälkeen: oliko se oikea sana vai robottisana? Luokitteluhetki pakottaa kuuntelemaan koko sanan, ei vain alkua.",
+      "Siirry Pitkät tavut -sarjaan, kun liukuminen sujuu: kuunnelkaa, miten kaksoiskonsonantti kuuluu pitkänä tavurajan yli – kuk-ka, ei ku-ka.",
+      "Poista Oma sarja -välilehdellä käytöstä kortit, joita ei ole vielä opeteltu, niin taulu seuraa täsmälleen luokan aapisen tahtia."
+    ],
+    "classroomIdeas": [
+      "Sanajahti: näytä yhdistelmien määrä ja etsikää yhdessä kaikki piilossa olevat oikeat sanat – jokainen löytö kirjoitetaan taululle ja tavutetaan taputtaen.",
+      "Sanaketjut: muuta vain yhtä korttia kerrallaan ja kulkekaa ketju vesi → veli → peli → pesi → käsi → käki → mäki – yksi äänne vaihtuu, koko sana muuttuu.",
+      "Robottisanatuomarit: puolet luokasta liu'uttaa sanan, toinen puoli näyttää peukulla, oliko se oikea sana vai robottisana – perustelu sanotaan ääneen.",
+      "Pari Äännelaatikoiden kanssa: rakentakaa sana ensin tavutaululla liu'uttaen ja purkakaa sama sana sitten Äännelaatikoissa äänne kerrallaan – kokoaminen ja erottelu ovat saman taidon kaksi suuntaa.",
+      "S2-oppijoille kuvamerkit ovat sanavarastotuki: liu'uta sana, näytä kuva ja keksikää sanalle yhdessä lause – ääntäminen, merkitys ja lukeminen harjaantuvat samalla kertaa."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

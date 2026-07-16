@@ -331,6 +331,32 @@
       "Flüster-Duo: Ein Kind stellt heimlich eine Zeit ein, das Partnerkind sagt sie laut — dann drückt es „Uhrzeit ansagen“ und die Uhr verrät, ob es stimmt."
     ]
   },
+  "place-value-lab": {
+    "slug": "stellenwert-labor",
+    "name": "Stellenwert-Labor",
+    "tagline": "Blöcke legen, Zahlwort sehen — warum „vierundzwanzig“ die Vier zuerst sagt",
+    "metaTitle": "Zehner und Einer – Stellenwerttafel interaktiv | Kostenlos",
+    "metaDescription": "Digitales Dienes-Material: Blöcke legen, Zahl und Zahlwort bauen mit — farbige Wortteile zeigen Zehner und Einer. Gegen Zahlendreher. Kostenlos, ohne Anmeldung.",
+    "about": [
+      "Warum schreiben so viele Kinder 42, wenn sie „vierundzwanzig“ hören? Weil das deutsche Zahlwort die Einer zuerst sagt — die Zahl aber die Zehner zuerst schreibt. Genau diesen Zahlendreher packt das Stellenwert-Labor an der Wurzel: Unter den Blöcken bauen sich Zahl und Zahlwort live mit, und die Wortteile leuchten in den Farben ihrer Stellen — „vier“ in Koralle wie die Einer, „zwanzig“ in Türkis wie die Zehner, das „und“ bleibt neutral. So sieht jedes Kind bei jedem Tipp: Das Wort sagt die Vier zuerst, geschrieben wird sie trotzdem hinten. Und ein Tipp auf eine Ziffer zeigt umgekehrt, welcher Teil des Wortes sie spricht.",
+      "Gebaut wird wie mit echtem Dienes-Material — nur dass hier alles zusammenhängt. Liegen zehn einzelne Einerwürfel auf der Matte, lädt das Labor zum Bündeln ein: „Zehn Einer! Machst du einen Zehner daraus?“ Ein Tipp, und die zehn Würfel schnappen sichtbar zu einer Zehnerstange zusammen — auf Wunsch bündelt die Matte auch von selbst. Genauso begreifbar wird der Rückweg: Beim Abziehen reichen die losen Einer manchmal nicht, also wird ein Zehner getauscht — die Stange springt in zehn Würfel auf, und der Zehnerübergang, sonst ein abstrakter Rechentrick, passiert sichtbar vor der ganzen Klasse. Über den Spalten steht dabei die vertraute Stellenwerttafel: H, Z, E.",
+      "Drei Modi führen durch das Labor: Beim Bauen erkunden die Kinder frei — jeder Block verändert Zahl und Zahlwort sofort. Bei „Zeig mir“ stellt das Labor Aufgaben: „Kannst du 47 bauen?“ — oder es spricht nur das Zahlwort, und die Kinder bauen, was sie hören: die ehrlichste Zahlendreher-Probe, die es gibt. Beim Abziehen wird weggenommen und getauscht, bis das Ergebnis auf der Matte liegt. Unter „Unsere Zahlen“ speichern Sie die Zahlen Ihrer Klasse — die Schultage, die Anzahl der Kinder, die gesammelten Pfandflaschen —, damit an echten Zahlen geübt wird. Alles läuft direkt im Browser, ohne Installation und ohne Konto — und wie überall bei uns: ohne Punkte, ohne Zeitdruck, ohne Wettrennen."
+    ],
+    "howToUse": [
+      "Öffnen Sie das Stellenwert-Labor am Beamer oder Whiteboard und lassen Sie die Kinder zuerst frei bauen: Blöcke legen, wegnehmen und staunen, wie Zahl und Zahlwort mitwachsen.",
+      "Sprechen Sie über die Farben: „vier“ leuchtet wie die Einer, „zwanzig“ wie die Zehner. Fragen Sie: Welchen Teil sagen wir zuerst — und welche Ziffer schreiben wir zuerst?",
+      "Legen Sie gemeinsam zehn Einer und lassen Sie ein Kind bündeln — die zehn Würfel schnappen zur Zehnerstange zusammen. Beim Abziehen geht es andersherum: Ein Zehner wird in zehn Einer getauscht.",
+      "Wechseln Sie zu „Zeig mir“: Das Labor sagt ein Zahlwort an, die Kinder bauen es nach Gehör — bei einem Zahlendreher hilft der Blick aufs farbige Wort.",
+      "Speichern Sie unter „Unsere Zahlen“ die Zahlen Ihrer Klasse — die Schultage, die Kinderzahl, das Sammelziel — und beginnen Sie die Mathestunde mit einer echten Zahl."
+    ],
+    "classroomIdeas": [
+      "Schultage-Ritual: Jeden Morgen legt ein Kind einen Einer dazu — und am zehnten, zwanzigsten, dreißigsten Schultag feiert die Klasse das große Bündeln, wenn wieder eine volle Zehnerstange entsteht.",
+      "Zahlendreher-Detektive: Schreiben Sie 24 und 42 an die Tafel und sagen Sie „vierundzwanzig“ — die Klasse baut die Zahl, und das farbige Zahlwort verrät, welche der beiden stimmt und warum.",
+      "Flüster-Duo: Ein Kind flüstert seinem Partnerkind ein Zahlwort zu, das Partnerkind baut es auf der Matte — dann sagt das Labor die Zahl laut an, und beide prüfen gemeinsam.",
+      "Hör-Station: In „Zeig mir“ spricht das Labor nur das Zahlwort — perfekt als Tablet-Station, an der jedes Kind im eigenen Tempo baut, hört und sich selbst prüft.",
+      "Der große Tausch: Rechnen Sie 32 − 5 vor der Klasse — die losen Einer reichen nicht, ein Kind darf den Zehner tauschen, und der Zehnerübergang wird zum Ereignis statt zur Hürde."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

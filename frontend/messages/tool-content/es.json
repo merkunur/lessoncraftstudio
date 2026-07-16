@@ -330,6 +330,32 @@
       "El puente digital: activa la pantalla en «Ambas» y juega a traducir — el reloj de manecillas dice «un cuarto para las ocho» y los niños buscan cómo se ve eso en números: 7:45."
     ]
   },
+  "place-value-lab": {
+    "slug": "decenas-y-unidades",
+    "name": "Laboratorio de decenas y unidades",
+    "tagline": "Construye números con decenas y unidades",
+    "metaTitle": "Decenas y unidades interactivo gratis | LessonCraftStudio",
+    "metaDescription": "Bloques de base diez en línea y gratis: arma decenas y unidades y mira cómo el número y su palabra cambian a color. Sin registro, listo para el aula.",
+    "about": [
+      "Los bloques de base diez de toda la vida convertidos en un tapete interactivo donde nada queda suelto: cada bloque que el niño pone o quita cambia al instante el número y su palabra. Las decenas se ven en turquesa y las unidades en coral — en los bloques, en las cifras de la tabla C-D-U y dentro de la propia palabra: en «cuarenta y siete», cuarenta se ilumina como las cuatro decenas y siete como las siete unidades.",
+      "El corazón del valor posicional en primero y segundo de primaria es agrupar y desagrupar: diez unidades se arman en una decena, y una decena se desarma en diez unidades cuando la resta lo pide. Aquí ese cambio se hace con los dedos y se ve en el momento — también en la palabra. Los niños descubren la familia del veinte (veintidós enciende su veinti- con el color de las decenas) y que en «treinta y cinco» la y solo une, no vale nada. Es la conexión que más trabajo cuesta lograr con material recortado: bloque, cifra y palabra diciendo lo mismo al mismo tiempo.",
+      "Funciona directamente en el navegador, en pizarras digitales, tabletas y computadoras del aula, sin instalar nada y sin crear cuentas. No hay cronómetro ni puntuación: solo un espacio tranquilo para armar, desarmar y leer números."
+    ],
+    "howToUse": [
+      "Proyecta el tapete en la pizarra digital o ábrelo en las tabletas; empieza en Construir y deja que los niños pongan y quiten bloques libremente mientras miran cómo cambian el número y su palabra.",
+      "Dicta un número y pide que lo armen; luego pregunten juntos cuántas decenas y cuántas unidades tiene, leyendo los colores de la palabra para comprobarlo.",
+      "Cuando se junten diez unidades sueltas aparece la invitación: tóquenla y miren cómo se arman en una decena — o activa en los ajustes el agrupado automático para que suceda solo.",
+      "Usa Muéstrame para poner retos: el laboratorio propone un número — con cifra o solo con la voz — y el niño lo construye y lo comprueba él mismo.",
+      "En Restar, los niños quitan los bloques marcados; cuando no alcanzan las unidades, desarman una decena: así «pedir prestado» deja de ser un truco de libreta y se convierte en algo que se ve."
+    ],
+    "classroomIdeas": [
+      "Contador de días de clase: cada mañana agreguen una unidad, y el día que se junten diez, ármenla en decena frente a todo el grupo — la rutina de calendario matemático de toda la vida.",
+      "Banco de cambio: jueguen a la tiendita con monedas de un peso y de diez pesos — diez monedas de a peso se cambian por una de diez, exactamente igual que los bloques del tapete.",
+      "Dictado con los ojos cerrados: usa el reto de solo voz para que escuchen el número, lo armen con bloques y después comparen la palabra a color con lo que oyeron.",
+      "¿Qué parte de la palabra?: señala la cifra de las decenas y pregunta qué parte de la palabra la dice; al tocarla se ilumina, y en la familia del veinte descubrirán el veinti-.",
+      "Números nuestros: guarden los números del salón — cuántos alumnos son, cuántos libros hay en el rincón de lectura — y revísenlos cada semana para ver si cambiaron."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

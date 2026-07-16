@@ -17,7 +17,7 @@ import { TOPIC_ENABLED_LOCALES } from '@/config/topic-locales';
 import { buildHreflangAlternates } from './hreflang';
 
 /** Canonical tool keys — match the mini-tool file basenames + MANIPULATIVES ids. */
-export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board', 'letter-tiles', 'calendar-wall', 'number-talk-easel', 'rekenrek', 'class-timer', 'name-sticks', 'center-board', 'learning-clock'] as const;
+export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board', 'letter-tiles', 'calendar-wall', 'number-talk-easel', 'rekenrek', 'class-timer', 'name-sticks', 'center-board', 'learning-clock', 'place-value-lab'] as const;
 export type ToolKey = (typeof TOOL_KEYS)[number];
 
 /** Mini-tool HTML path (nginx-direct, §3.3) per tool key. */
@@ -35,6 +35,7 @@ export const TOOL_MINI_URL: Record<ToolKey, string> = {
   'name-sticks': '/mini-tools/name-sticks.html',
   'center-board': '/mini-tools/center-board.html',
   'learning-clock': '/mini-tools/learning-clock.html',
+  'place-value-lab': '/mini-tools/place-value-lab.html',
 };
 
 /**
@@ -58,6 +59,7 @@ export const TOOL_ACTIVITY_PREFIX: Record<ToolKey, string> = {
   'name-sticks': 'name-sticks',
   'center-board': 'center-board',
   'learning-clock': 'learning-clock',
+  'place-value-lab': 'place-value-lab',
 };
 
 export interface ToolEntry {
@@ -96,6 +98,7 @@ interface ToolContentFile {
   'name-sticks'?: ToolEntry;
   'center-board'?: ToolEntry;
   'learning-clock'?: ToolEntry;
+  'place-value-lab'?: ToolEntry;
   labels: ToolContentLabels;
 }
 

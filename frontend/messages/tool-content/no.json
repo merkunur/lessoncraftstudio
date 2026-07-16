@@ -330,6 +330,32 @@
       "Klokke-diktat i par: ett barn sier en tid, det andre stiller klokka — så bytter de, og klokka selv er fasit når den sier tiden høyt."
     ]
   },
+  "place-value-lab": {
+    "slug": "tierverksted",
+    "name": "Tierverkstedet",
+    "tagline": "Bygg tall med tiere og enere — og se tallordet vokse",
+    "metaTitle": "Gratis tierverksted – tiere og enere | LessonCraftStudio",
+    "metaDescription": "Et gratis tierverksted: bygg tall med tibasmateriell, veksle tiere og enere, og se tall og tallord henge sammen — ingen innlogging, ingen installasjon.",
+    "about": [
+      "Tierverkstedet er en digital arbeidsmatte for titallsystemet: barna trykker for å legge enere og tiere med tibasmateriell (base ti), og ser tallet vokse tre steder samtidig — som klosser på matten, som siffer og som tallord. Tierne og enerne har hver sin farge, og fargene går igjen både i sifrene og i selve tallordet: i «tjuefire» er tjue farget som tierne og fire som enerne. Slik blir det usynlige synlig — at tallordet forteller nøyaktig hva tallet er bygget av.",
+      "Kjernen i plassverdiforståelsen er vekslingen: ti enere blir én tier, og en tier kan veksles tilbake til ti løse enere. I verkstedet skjer det foran øynene på barna — de bunter selv, eller ser klossene bunte seg ved ti — og i minus-verkstedet blir «å låne» endelig noe konkret: du veksler en tier fordi du trenger flere løse enere. Verktøyet viser den moderne tellemåten — tjuefire, ikke fireogtyve — men mange barn hører fortsatt den gamle rekkefølgen hjemme hos besteforeldre, og nettopp den samtalen er god tallforståelse. Alt sammen slik læreplanen i matematikk legger opp til i arbeidet med tall og tallforståelse på 1. og 2. trinn.",
+      "Verktøyet kjører rett i nettleseren på klasseromsskjerm, nettbrett og telefon, uten innlogging og uten installasjon. Tallet kan sies høyt med ordentlige tallord — «femtisju», ikke siffer for siffer — og det er ingen tidtaker og ingen poengsum: bare et rolig verksted for å bygge, veksle og snakke om tall."
+    ],
+    "howToUse": [
+      "Vis verkstedet på storskjerm eller gi det til barna på nettbrett, og la dem trykke for å legge enere og tiere — tall og tallord bygger seg opp underveis.",
+      "Stopp opp ved ti: la barna legge ti løse enere og se buntingen — ti enere blir én tier, og det er selve nøkkelen til titallsystemet.",
+      "Bruk «Vis meg»: verkstedet sier et tall, barnet bygger det med klosser og trykker «Sjekk» — ordet og fargene hjelper til underveis.",
+      "Trykk på et siffer og spør: hvilken del av ordet sier dette sifferet? Fargene viser at 5-tallet i 53 heter «femti» — ikke fem.",
+      "Ta fram minus-verkstedet når klassen er klar: her må barna veksle en tier for å få nok løse enere — «å låne» blir noe de gjør med hendene."
+    ],
+    "classroomIdeas": [
+      "Dagens tall i samlingsstunden: bygg antall skoledager i verkstedet og se buntene vokse dag for dag — den dagen ti enere blir en tier, feirer dere.",
+      "Tallord-detektiver: si et tallord langsomt — «femtitre» — og la barna bygge det før sifrene avsløres. Hvem hørte tierne først?",
+      "Gammel og ny tellemåte: spør om noen har hørt bestemor si «fireogtyve». Bygg tallet og se at det er nøyaktig det samme som tjuefire — bare sagt i en annen rekkefølge. (Den gamle tellemåten var vanlig helt til 1951!)",
+      "Byggepar på nettbrett: den ene bygger et hemmelig tall, den andre sier tallet høyt og forklarer med tiere og enere — så bytter de.",
+      "Klassens egne tall: lagre tall som betyr noe — antall barn i klassen, dager til sommerferien — og les dem som tiere og enere ved neste samling."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

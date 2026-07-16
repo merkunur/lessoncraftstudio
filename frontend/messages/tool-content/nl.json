@@ -330,6 +330,32 @@
       "Houd een 'tien voor half'-jacht in tweetallen: het ene kind kiest een moeilijke tijd rond het halve uur, het andere kind bouwt hem na en de klok is de scheidsrechter."
     ]
   },
+  "place-value-lab": {
+    "slug": "getallenlab",
+    "name": "Getallenlab",
+    "tagline": "Bouw getallen met blokjes, cijfer en telwoord",
+    "metaTitle": "Getallenlab: tientallen en eenheden | LessonCraftStudio",
+    "metaDescription": "Gratis digitaal MAB-materiaal voor groep 3 tot 5: bouw getallen met blokjes en zie cijfer en telwoord meebouwen — vierentwintig is 24, niet 42. Zonder account.",
+    "about": [
+      "Het Getallenlab is een digitale werkmat met MAB-materiaal: losse blokjes, staafjes van tien en platen van honderd. Het kind tikt blokjes op de mat, en alles bouwt live mee — het getal in de positietabel met H, T en E, én het telwoord voluit geschreven. Leg tien losse blokjes neer en ze kunnen samen één staafje van tien worden: bundelen en inwisselen gebeuren voor je ogen, precies zoals met het echte materiaal op tafel — maar dan levensgroot op het digibord.",
+      "En dan het stuk waar dit lab écht voor gebouwd is: de omkering in onze telwoorden. Wij zeggen vierentwintig — de vier klinkt eerst — maar we schrijven eerst de 2 en dan de 4. Vandaar de klassieke fout in groep 4: een kind hoort vierentwintig en schrijft 42. Het Getallenlab maakt die omkering zichtbaar met kleur: de eenheden hebben in het cijfer én in het woord dezelfde kleur, de tientallen ook. Zo ziet het kind dat het stukje 'vier' vooraan in het woord bij het láátste cijfer hoort — en het tussenstukje 'en' (met soms een trema, zoals in tweeëntwintig) plakt de twee delen aan elkaar. Tik op een cijfer en het bijbehorende woorddeel licht op.",
+      "Het lab werkt direct in de browser op het digibord, de tablet en de computer, zonder installatie en zonder account. Er is geen timer en geen score — alleen een rustige werkmat waar getalbegrip, tientallig stelsel en telwoorden samenkomen, precies zoals de kerndoelen rekenen voor de onderbouw het bedoelen."
+    ],
+    "howToUse": [
+      "Open het Getallenlab op het digibord en laat een kind blokjes op de mat tikken — de klas ziet het getal en het telwoord live meebouwen.",
+      "Begin in groep 3 en 4 met alleen tientallen en eenheden; zet de plaats van de honderdtallen pas aan als de klas eraan toe is.",
+      "Kies 'Laat zien' voor gerichte opdrachten: het lab vraagt een getal — als cijfer of alleen op het gehoor — en het kind bouwt het na en tikt op Nakijken.",
+      "Maak de omkering tot lesstof: tik op een cijfer en vraag welk deel van het woord oplicht — waarom staat 'vier' vooraan in vierentwintig, maar achteraan in het getal?",
+      "Gebruik 'Eraf halen' voor aftrekken met inwisselen: zijn er niet genoeg losse blokjes, dan wisselt het kind een tiental in — lenen wordt iets wat je ziet gebeuren."
+    ],
+    "classroomIdeas": [
+      "Omkeerdetective: zeg een telwoord hardop, laat de kinderen het getal op het wisbordje schrijven en controleer daarna samen op de mat — wie is er in de omkeerval van 42 en 24 getrapt?",
+      "Getallendictee in tweetallen: het ene kind kiest in de luistermodus een getal, het andere bouwt het na — het lab zegt het telwoord, de blokjes bewijzen het antwoord.",
+      "Inwisselcircus: bouw samen 38 en tel er blokje voor blokje bij tot 42 — de klas voorspelt hardop wanneer de tien losse blokjes één staafje worden.",
+      "Koppel het aan de dagopening: bewaar het getal van vandaag — de zoveelste schooldag, het aantal kinderen in de klas — bij 'Onze getallen' en bekijk elke week hoe het gegroeid is.",
+      "Van mat naar materiaal: laat hetzelfde getal eerst met echt MAB-materiaal op tafel leggen en dan op het lab bouwen — zo verbindt de klas het tastbare blokje met het cijfer én het woord."
+    ]
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

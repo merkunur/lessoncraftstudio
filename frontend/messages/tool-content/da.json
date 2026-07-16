@@ -330,6 +330,32 @@
       "To måder at sige det på: Skriv »9:20« på tavlen, og lad børnene stille uret og sige det på den danske måde — »ti i halv ti«. Bagefter byttes der om: Uret taler, og børnene skriver de digitale tal."
     ]
   },
+  "place-value-lab": {
+    "slug": "tiervaerksted",
+    "name": "Tierværkstedet",
+    "tagline": "Byg tallet med klodser — og se talordet bygge med",
+    "metaTitle": "Gratis tierværksted — tiere og enere | LessonCraftStudio",
+    "metaDescription": "Et gratis online tierværksted til klassen: klodser, tal og talord hænger sammen — også de svære danske ord som halvfjerds. Uden login, på alle enheder.",
+    "about": [
+      "Titalssystemet er let at se med klodser — men på dansk er det svært at høre. Dette gratis tierværksted kobler tre ting sammen, som ellers lever hver for sig: klodserne på måtten, tallet med cifre og talordet med bogstaver. Lægger barnet en klods, bygger tallet og ordet med i samme øjeblik — og hver del har sin egen farve, så man kan se, hvad der hører sammen.",
+      "Danske talord driller nemlig. I fireogtyve siges 4-tallet først, selvom det skrives sidst — og halvtreds, halvfjerds og halvfems gemmer helt, hvor mange tiere de rummer. Værkstedet gør det usynlige synligt: i tooghalvfjerds farves to som enerne, og som bindeled og halvfjerds i tiernes farve — samme farve som de syv tierstænger på måtten og 7-tallet på tierpladsen. Barnet kan endda trykke på et ciffer og finde den del af ordet, der siger det.",
+      "Værktøjet kører direkte i browseren på den interaktive tavle, tablets og klassens computere — uden installation og uden login. Der er ingen tidtagning og ingen point — bare et roligt værksted, hvor ti enere kan veksles til en tier, og hvor klodser, tal og ord taler samme sprog."
+    ],
+    "howToUse": [
+      "Vis værkstedet på den interaktive tavle, og lad børnene lægge klodser — tallet og talordet bygger med for hver klods, de lægger.",
+      "Læg ti enere sammen, og lad barnet trykke for at veksle dem til en tier — hele titalssystemets idé samlet i ét tryk.",
+      "Tryk på højttaleren og hør tallet — og hør det bagefter som tiere og enere: tooghalvfjerds er 7 tiere og 2 enere.",
+      "Brug Vis mig-opgaverne: barnet får et tal at se — eller kun at høre — og skal bygge det med klodser.",
+      "Gå i minus-værkstedet og træk fra: barnet opdager selv, at en tier må veksles til ti enere, når de løse enere slipper op."
+    ],
+    "classroomIdeas": [
+      "Byg dagens tal: tallet for antal skoledage vokser med én ener hver morgen — og klassen ser selv, hvornår der skal veksles.",
+      "Leg \"sig det som tiere og enere\": vis fx tooghalvfjerds, og lad børnene sige \"7 tiere og 2 enere\", før I lytter til svaret.",
+      "Gå på jagt i ordet: sig et tal, og lad børnene pege på den del af ordet, der siger enerne — på dansk kommer den først!",
+      "Byg femogfyrre og fireoghalvtreds ved siden af hinanden, og tal om, hvorfor de to tal er så lette at bytte rundt — og hvordan klodserne afslører forskellen.",
+      "Lad de ældste forklare de yngste, hvorfor halvfjerds betyder 7 tiere — med klodserne som bevis."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

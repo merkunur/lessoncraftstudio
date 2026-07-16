@@ -331,6 +331,32 @@
       "Elapsed-time stories: \"We started reading at half past 9 and stopped at 10 past 10 — how long did we read?\" Pin both flags and count the shaded chunks together."
     ]
   },
+  "place-value-lab": {
+    "slug": "place-value-lab",
+    "name": "Place Value Lab",
+    "tagline": "Blocks, digits, and the number word — linked live",
+    "metaTitle": "Free Interactive Base-10 Blocks — Place Value Lab K-2",
+    "metaDescription": "A projector base-10 workmat: ten ones snap into a ten, and the number word lights up to show which part means tens and which means ones. Free, no signup.",
+    "about": [
+      "The Place Value Lab is a base-10 blocks workmat with a twist no physical set can offer: three displays stay linked while you work. Tap blocks onto the mat and the numeral builds itself in labeled place columns — and beneath it, the number word assembles too, with its tens part and ones part glowing in the same colors as the columns. Twenty-four shows twenty in teal and four in coral; the connection between what we SAY and what we WRITE stops being invisible.",
+      "The bundling moment is the heart of place value, so the Lab makes it a moment worth watching. Collect ten loose ones and the mat offers a bundle — one tap, and the cubes squeeze together with a rubber-band snap and become a ten rod that slides into the tens column. It works the other way too: break a ten back into ten ones with a pop. That unbundling IS borrowing, and the premium Subtract lab stages it: take 17 from 42, hit the wall at two loose ones, and the borrow becomes something children physically do rather than a rule they memorize.",
+      "A Show me mode turns it into a gentle challenge — build the number you see, or the trickier version: build the number you HEAR. When a child hears the word and builds the digits reversed, the tool never buzzes; it names what they actually built, lights up the word parts, and invites another look. Premium adds the hundreds place and lets you save your class's own numbers — days of school, kids in the room — the numbers children actually care about. Free in the browser, no account needed."
+    ],
+    "howToUse": [
+      "Project the mat and tap the + buttons to add blocks — the numeral and the number word build along with you.",
+      "Collect ten ones and tap the glowing bundle button: the snap into a ten rod is the place-value lesson in one second.",
+      "Tap any digit to interrogate it — its part of the word and its blocks flash together, and it is spoken alone.",
+      "Switch to Show me for build-what-you-hear challenges; misses get a warm comparison, never a buzzer.",
+      "In the Subtract lab (premium), watch borrowing become physical: break a ten, remove the marked blocks, done."
+    ],
+    "classroomIdeas": [
+      "The daily number ritual: build the day-of-school count every morning and save it — the hundred-day party builds itself.",
+      "Zahlendreher clinic: say a tricky number aloud, let children build it, then tap the digits to see which part of the word said what.",
+      "Estimation warm-up: show a pile of ones, ask \"can we make a ten?\", and let a child perform the bundle for the class.",
+      "Partner check: one child types a number on the keypad, the other reads the word aloud before the speech button confirms it.",
+      "Borrowing theater: run one subtraction on the projector before workbook time — the pop of the breaking ten is the anchor image for the whole lesson."
+    ]
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

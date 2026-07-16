@@ -330,6 +330,32 @@
       "Toque no sol e na lua e converse sobre manhã e noite: o que a gente faz às sete da manhã? E às sete da noite? O mostrador de 24 horas ajuda os maiores a ver a diferença."
     ]
   },
+  "place-value-lab": {
+    "slug": "laboratorio-das-dezenas",
+    "name": "Laboratório das dezenas",
+    "tagline": "Material dourado digital: blocos, número e palavra juntos",
+    "metaTitle": "Material dourado interativo grátis | LessonCraftStudio",
+    "metaDescription": "Material dourado digital e gratuito: monte dezenas e unidades, veja o número e o nome dele se formarem juntos e troque dez unidades por uma dezena. Sem login.",
+    "about": [
+      "O material dourado é o material mais querido da matemática brasileira — e este laboratório é o seu gêmeo digital. A criança toca para colocar cubinhos e barras no quadro valor de lugar e vê três coisas se moverem juntas: os blocos, o número e o nome do número por escrito. As dezenas aparecem em verde-azulado e as unidades em coral — no bloco, no algarismo e no pedaço da palavra. Em vinte e quatro, o vinte tem a cor das duas barras e o quatro, a cor dos quatro cubinhos.",
+      "O coração do laboratório é a troca, exatamente como no material dourado da mesa: quando dez cubinhos se juntam, a criança os agrupa e nasce uma dezena — e, na subtração, troca uma dezena por dez unidades para conseguir tirar. É o agrupamento de 10 em 10 e o valor posicional (unidades, dezenas e centenas) que a BNCC espera do 1º e do 2º ano, construídos com as mãos e com os olhos. E como o nome do número se monta junto, a criança liga o vinte da palavra às duas barras do quadro — quantidade, algarismo e escrita de uma vez só.",
+      "Funciona direto no navegador, na lousa digital, no tablet ou no celular, sem instalar nada e sem criar conta. Não há cronômetro e não há pontuação — apenas um espaço calmo para montar números, trocar dezenas e descobrir como o nosso sistema de numeração funciona."
+    ],
+    "howToUse": [
+      "Projete o laboratório na lousa digital e montem um número juntos, colocando barras de dez e cubinhos soltos — peça que a turma leia o número e a palavra que vão se formando.",
+      "Deixe dez cubinhos se acumularem e pergunte: e agora? A criança toca para agrupar e vê dez unidades virarem uma dezena diante da turma.",
+      "No modo Me mostre, o laboratório pede um número — escrito ou falado — e a criança monta com os blocos; o Conferir mostra o que ela construiu e convida a tentar de novo, sem X vermelho.",
+      "Aponte para as cores: o pedaço da palavra que fala das dezenas tem a mesma cor das barras. Pergunte: onde está o trinta em trinta e dois?",
+      "No laboratório de subtração, proponha uma conta como 32 − 5 e deixe a criança descobrir sozinha que precisa trocar uma dezena por dez unidades antes de tirar."
+    ],
+    "classroomIdeas": [
+      "Número do dia: a cada manhã, uma criança monta no laboratório o dia do mês ou a contagem de dias de aula — e a turma lê o número e a palavra em coro.",
+      "Ditado de blocos: fale um número em voz alta — quarenta e sete — e peça que a criança monte só de ouvir; depois toquem no botão de falar para conferir.",
+      "Troca e destroca: brinquem com o clássico do material dourado — montem 30 e tirem 4; a turma discute por que é preciso destrocar uma barra antes de tirar os cubinhos.",
+      "Detetive da palavra: mostre um número montado e pergunte que pedaço da palavra mudaria se você colocasse mais uma dezena — a cor ajuda a achar.",
+      "Do concreto ao digital: montem o mesmo número no material dourado da mesa e no laboratório, lado a lado — o mesmo agrupamento, agora com o nome escrito se montando junto."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

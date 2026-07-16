@@ -330,6 +330,32 @@
       "Au CE2, le pont vers l'heure de la gare : l'horloge montre « deux heures et demie », l'affichage numérique dit 14:30 — matin ou après-midi ? Le soleil et la lune tranchent, et on découvre midi, minuit… et pourquoi on dit midi et demi, sans e."
     ]
   },
+  "place-value-lab": {
+    "slug": "dizaines-et-unites",
+    "name": "Labo des nombres",
+    "tagline": "Construire les nombres avec les blocs : dizaines et unités en couleurs",
+    "metaTitle": "Dizaines et unités – matériel base 10 interactif gratuit",
+    "metaDescription": "Matériel base 10 interactif et gratuit : l'enfant pose des blocs, le nombre s'écrit en chiffres et en lettres, dizaines et unités en couleurs. Du CP au CE1.",
+    "about": [
+      "Le matériel base 10 — les cubes d'unités, les barres de dix — est le grand classique de la numération au CP et au CE1. Ce labo des nombres interactif et gratuit y ajoute ce qu'aucun matériel réel ne sait faire : à chaque bloc posé, le nombre s'écrit en chiffres ET en lettres, et chaque partie du mot prend la couleur de sa colonne — les dizaines en bleu-vert, les unités en corail. L'enfant voit d'un seul regard que dans « quarante-trois », « quarante » dit le 4 des dizaines et « trois » dit le 3 des unités : les blocs, le chiffre et le mot racontent le même nombre, ensemble.",
+      "Tout le cœur de la numération s'y joue en gestes : à dix unités, l'enfant les attache lui-même en une dizaine — « dix unités font une dizaine ! » — et pour soustraire, il casse une dizaine pour retrouver dix unités. L'échange devient visible, dans les deux sens : c'est exactement le passage de la dizaine et la retenue que travaille le cycle 2. Et parce que le français a ses nombres à lui, le labo est honnête avec eux : de soixante-dix à quatre-vingt-dix-neuf, le mot ne se laisse pas découper en dizaines et unités — il s'affiche alors en entier, avec un petit clin d'œil « un nombre un peu spécial ! ». L'occasion rêvée de parler de soixante-douze et de quatre-vingts, au lieu de faire semblant qu'ils sont réguliers.",
+      "Trois façons de travailler : Construire, librement ; « Montre-moi », où l'enfant bâtit le nombre qu'il lit — ou seulement qu'il entend : une vraie dictée de nombres ; et Soustraire, où casser la dizaine devient le geste qui explique la retenue. L'outil fonctionne directement dans le navigateur, sur TBI, tablette et ordinateur : rien à installer, aucun compte à créer. Ni minuteur ni score — juste un espace calme pour construire les nombres."
+    ],
+    "howToUse": [
+      "Projetez le labo au TBI et posez des blocs ensemble : à chaque unité ajoutée, le nombre et le mot se réécrivent sous les yeux de la classe.",
+      "À dix unités, laissez l'enfant faire la dizaine lui-même — le geste de grouper vaut mieux que mille explications ; dans les réglages, le groupement peut aussi se faire tout seul.",
+      "Activez les couleurs du mot : la classe cherche quelle partie du mot dit les dizaines et quelle partie dit les unités, puis vérifie en touchant un chiffre.",
+      "Passez en « Montre-moi » pour la dictée de nombres : l'enfant écoute le nombre, le construit en blocs, puis vérifie — le mot en couleurs le guide s'il se trompe.",
+      "Au CE1, ouvrez le mode Soustraire : quand les unités manquent, l'outil invite à casser une dizaine — la retenue devient un geste que l'on voit, avant d'être une technique que l'on pose."
+    ],
+    "classroomIdeas": [
+      "En rituel du nombre du jour, construisez le nombre en blocs, lisez-le en couleurs, puis décomposez-le sur l'ardoise : 43, c'est 40 + 3, c'est 4 d et 3 u.",
+      "Reliez-le au compteur des jours d'école du Calendrier de la classe : le 57e jour, construisez 57 dans le labo et enregistrez-le dans « Nos nombres » — le nombre de la classe, gardé d'un jour à l'autre.",
+      "Faites la chasse aux nombres un peu spéciaux : construisez 69, puis 70 — pourquoi le mot ne se colore-t-il plus ? La discussion sur soixante-dix et quatre-vingts est toute prête.",
+      "En atelier par deux, l'un tape un nombre au clavier, l'autre le construit en blocs — puis on échange les rôles, et on vérifie ensemble en écoutant le nombre.",
+      "Au CE1, posez 32 − 15 avec les blocs : pas assez d'unités ! On casse une dizaine, on enlève, puis on écrit la soustraction posée sur l'ardoise — le geste d'abord, la technique ensuite."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

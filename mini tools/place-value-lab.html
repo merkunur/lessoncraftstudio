@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Place Value Lab — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=18">
+</head>
+<body>
+  <!-- The shell mounts the whole tool into this element. -->
+  <div id="lcs-root"></div>
+
+  <!-- Shell first, then this tool. The span-tagged word composer
+       (PV_WORD_SPANS) lives inline — the moat in one file. -->
+  <script src="/mini-tools/lcs-shell.js?v=3"></script>
+  <script src="/mini-tools/place-value-lab.js?v=1"></script>
+  <script>
+    // URL params the shell understands:
+    //   ?lang=de  ?lang=fi  (any of: en de fr it es pt nl sv da no fi)
+    //   ?embed=1 / ?embed=compact
+    LCS.mount(PlaceValueLab, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

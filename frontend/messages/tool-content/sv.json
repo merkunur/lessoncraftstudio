@@ -330,6 +330,32 @@
       "Våra tider: spara lunch, idrott och hemgång tillsammans, och låt ett barn ställa klockan på nästa sparade tid — med etiketten som ledtråd."
     ]
   },
+  "place-value-lab": {
+    "slug": "tiotal-och-ental",
+    "name": "Tiotalslabbet",
+    "tagline": "Bygg tal med tiotal och ental — siffror och talord hänger med",
+    "metaTitle": "Tiotal och ental – gratis tiobasmaterial | LessonCraftStudio",
+    "metaDescription": "Gratis digitalt tiobasmaterial: bygg tal med tiotal och ental, se talordet färgläggas och växla tio ental till ett tiotal. För åk 1–2 — utan inloggning.",
+    "about": [
+      "Tiotalslabbet är tiobasmaterialet från mattelådan, fast på skärmen — och med en hemlighet som plastblocken saknar: talet och talordet lever. Barnet trycker fram entalskuber och tiotalsstavar, och i samma stund växer siffrorna och räkneordet fram bredvid — med tiotalen i en färg och entalen i en annan, i blocken, i siffrorna och i själva ordet. Fyrtiosju är inte längre bara något man säger: barnet ser att fyrtio är de fyra stavarna och sju är de sju kuberna.",
+      "Positionssystemet är en av de största idéerna i lågstadiets matematik — och en av de svåraste, för i talet 47 syns det inte att fyran är värd fyrtio. Här står just den taluppfattningen i centrum, precis som i matematiken för årskurs 1–3 i Lgr22: barnet bygger tal med ental, tiotal och hundratal, buntar tio ental till ett tiotal och växlar tillbaka när subtraktionen kräver det. Växlingen — att tio ental blir ett tiotal, och att ett tiotal kan bli tio ental igen — är nyckeln till både tiotalsövergångar och uppställningarna som väntar längre fram.",
+      "Verktyget körs direkt i webbläsaren på surfplattor, telefoner och klassrumsdatorer — inget konto, ingen installation, ingen timer och inga poäng. Bara ett lugnt labb där tal får byggas, växlas och sägas högt, i barnets egen takt."
+    ],
+    "howToUse": [
+      "Visa labbet på storbild i samlingen, eller låt barnen arbeta själva på surfplattor.",
+      "Låt barnet trycka fram ental och tiotal och se hur siffrorna och talordet bygger med — tiotal i en färg, ental i en annan.",
+      "När tio lösa ental ligger på mattan: fråga klassen vad som kan hända — och låt barnet bunta ihop dem till ett tiotal.",
+      "Byt till Visa mig: labbet ber om ett tal, eller säger det bara högt, och barnet bygger det med block.",
+      "Använd Dra ifrån för subtraktion med växling: när entalen inte räcker får barnet växla ett tiotal — och se lånet på riktigt."
+    ],
+    "classroomIdeas": [
+      "Dagens tal: bygg dagens datum eller antalet skoldagar tillsammans och säg talet i kör — först i tiotal och ental, sedan som ett ord.",
+      "Ordjakten: visa ett tal och fråga var i ordet tiotalen bor — tryck på siffran och se rätt del av ordet lysa i samma färg.",
+      "Kompistal: ett barn bygger ett tal i smyg, kompisen läser blocken och säger talet högt — sedan byter de roller.",
+      "Växlingsverkstad: bygg 32, dra ifrån 5 och prata om varför ett tiotal måste växlas — samma tänk som i uppställningen, fast synligt.",
+      "Spara klassens egna tal — skoldagar, antal barn i dag, morgondagens datum — och börja mattestunden med att läsa dem tillsammans."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

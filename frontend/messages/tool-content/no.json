@@ -201,6 +201,32 @@
       "Lag en egen serie til uka og gjenta favorittene på fredag — gjentakelsen er ikke juks, det er slik strukturene setter seg."
     ]
   },
+  "rekenrek": {
+    "slug": "kuleramme",
+    "name": "Kuleramme",
+    "tagline": "Skyv kulene — se tallene i femmere og tiere",
+    "metaTitle": "Gratis interaktiv kuleramme på nett | LessonCraftStudio",
+    "metaDescription": "En gratis kuleramme med 20 kuler for klasserommet. Skyv kulene, vis tall med ett skyv og øv på tiervenner — ingen innlogging, fungerer på alle enheter.",
+    "about": [
+      "En kuleramme med 20 kuler — to rader med ti, fem røde og fem hvite på hver — er et av de sterkeste bildene i begynneropplæringen i matematikk. Fargeskiftet ved fem gjør at barna slipper å telle én og én: sju leses som «fem og to», og tolv som «ti og to». Denne gratis interaktive kulerammen lar deg vise rammen på storskjerm mens barna skyver kulene selv — kulene glir i kjeder, akkurat som på en ekte ramme, og tallet kan vises eller skjules mens dere snakker.",
+      "«Med ett skyv» er selve hjertet i verktøyet: skal du vise sju, tar du tak i den sjuende kula og skyver én gang — hele mengden kommer samlet, og femstrukturen gjør tellingen overflødig. Slik bygger barna tallforståelse: de ser doblinger, tiervenner og tierovergangen i stedet for å telle seg fram, akkurat slik læreplanen legger opp til i tallområdet 0–20. De ferdige kuleseriene følger småskolens progresjon steg for steg, og glimtmodusen gjemmer rammen bak et teppe, viser den et øyeblikk og åpner for tallsamtalen: «Hvor mange så du — og hvordan så du det?»",
+      "Verktøyet vokser med klassen: start med én rad til 10, ta to rader til 20, og bygg helt opp til veggen med ti rammer — 100 kuler — når tierne skal på plass på 2. trinn. Tallet kan sies høyt med ordentlige tallord — «femtisju», ikke siffer for siffer — og kulelydene gir den samme lune klikkingen som en ekte ramme. Alt kjører rett i nettleseren på klasseromsskjerm og nettbrett, uten innlogging og uten installasjon. Det er ingen tidtaker og ingen poengsum — bare et rolig rom for å skyve, se og snakke om tall."
+    ],
+    "howToUse": [
+      "Vis kulerammen på storskjerm eller projektor, og la barna komme fram og skyve kulene — eller gi dem hvert sitt nettbrett.",
+      "Be klassen vise et tall med ett skyv: ta tak i riktig kule og skyv én gang — ikke telle én og én.",
+      "Snakk om det dere ser: «Hvordan vet du at det er sju?» — «Fem røde og to hvite!»",
+      "Bruk glimtmodusen: teppet gjemmer rammen, kulene vises et øyeblikk, og barna forteller hva de så før teppet går opp igjen.",
+      "Velg en ferdig kuleserie — doblinger, tiervenner, «Lag ti først» — eller sett sammen din egen til morgendagens samling."
+    ],
+    "classroomIdeas": [
+      "Fast tallsamtale i samlingsstunden: ett glimt, én prat — «Hvor mange så du, og hvordan så du det?»",
+      "La barna leke «Ett skyv!» i par på nettbrett: den ene sier et tall, den andre viser det med ett eneste skyv.",
+      "Øv tiervenner med to rader: skyv noen kuler fram på den øverste raden og spør hvor mange som må til på den nederste for å lage ti.",
+      "Bruk teppet til «Hvor mange gjemmer seg?»: ti kuler er med, den nederste raden er gjemt — hvor mange står bak teppet?",
+      "På 2. trinn: bygg tall på 100-kuleveggen rad for rad og si tallordene høyt — femtisju er fem fulle rader og sju til."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

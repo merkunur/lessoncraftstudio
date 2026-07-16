@@ -201,6 +201,32 @@
       "Tiervenner: vis 9 + 3 i den dobbelte tierramme, og spørg, hvor mange der mangler i den første ramme — de tomme felter underviser."
     ]
   },
+  "rekenrek": {
+    "slug": "kugleramme",
+    "name": "Kugleramme",
+    "tagline": "Fem røde, fem hvide på hver stang — og hele tallet vist med ét skub",
+    "metaTitle": "Gratis kugleramme online — 20 kugler | LessonCraftStudio",
+    "metaDescription": "Gratis kugleramme til tavlen: 1–2 rækker med fem røde og fem hvide kugler. Vis tal med ét skub, lyn bag tæppet, og hør tallet sagt på dansk. Uden login.",
+    "about": [
+      "Denne kugleramme med 20 kugler — i Holland kendt som rekenrek — er ikke en almindelig abacus. Hver stang har ti kugler: fem røde og fem hvide, så femstrukturen er bygget ind i selve redskabet. Projicér den på tavlen, og lad børnene skubbe kuglekæderne — én række til tallene op til 10, to rækker op til 20. Hele pointen ligger i ét skub: skal du vise 7, tager du fat i den syvende kugle og skubber én gang — og alle SER fem røde og to hvide uden at tælle en ad gangen. Ingen point, ingen ure, intet rigtigt eller forkert — bare kugler, der er til at tale om.",
+      "Bag tæppet bliver kuglerammen til et lynbillede: du stiller kuglerne, tæppet går for, og klassen ser opstillingen i et kort glimt — for kort til at tælle, langt nok til at se. Bagefter fortæller børnene, hvordan de så det: »fem røde og to hvide«, »tre huller op til ti« — og alle måder at se på er velkomne. Tæppet kan også nøjes med at dække den nederste række, så gemmelegen melder sig af sig selv: ti kugler er i spil — hvor mange gemmer sig? Og når I vil have svaret bekræftet, siger værktøjet tallet højt med rigtige danske talord — også syvogfyrre, halvtreds og enoghalvfjerds, præcis som klassen siger dem.",
+      "Kugleserierne er små talsamtaler, der ligger klar: Ét skub!, Fem og lidt til, Tiervenner, Lav ti først — hver serie er en håndfuld opstillinger med en kort lærernote, bygget over fem- og tistrukturerne, som talforståelsen i børnehaveklassen og indskolingen vokser ud af, helt i tråd med arbejdet med tal og antal i Fælles Mål for talområdet 0-20. Og når klassen er klar til mere, vokser rammen med: op til ti rammer på 100-kugle-væggen, hvor tierne står som hele rækker — fire fulde rækker og syv til, og alle kan se, hvorfor tallet hedder syvogfyrre. Byg dine egne serier til ugen, og gem dem til i morgen."
+    ],
+    "howToUse": [
+      "Projicér kuglerammen, og vælg én række (til 10) eller to rækker (til 20) — kuglerne står klar med fem røde og fem hvide på hver stang.",
+      "Vis et tal med ét skub: tag fat i den kugle, tallet når til, og skub hele kæden på én gang — femstrukturen gør resten synligt uden tælling.",
+      "Spørg: Hvor mange kan du se? Hvordan kan du se det uden at tælle? — og lad børnene skiftes til at komme op og skubbe.",
+      "Tryk på Lyn for et kort glimt bag tæppet — eller dæk kun den nederste række, og leg: ti kugler i spil, hvor mange gemmer sig?",
+      "Slå Sig tallet til, så tallet siges højt med rigtige danske talord, og hent en kugleserie — eller byg din egen og gem den til ugens taltema."
+    ],
+    "classroomIdeas": [
+      "Fast opvarmning: tre tal med ét skub — børnene siger, hvad de ser, før nogen når at tælle: »fem og to«, »ti minus én«.",
+      "Tiervenner på to rækker: skub 9 oppe og 1 nede, 8 og 2, 7 og 3 — og lad børnene opdage, at de tomme pladser foroven fortæller resten.",
+      "Dobbelt op-makkere: ét barn skubber et antal på øverste række, makkeren bygger det samme nedenunder — og klassen siger det dobbelte i kor.",
+      "Gemmeleg med tæppet: ti kugler i spil, den nederste række dækket — hvor mange gemmer sig? Saml børnenes forslag, før tæppet går fra.",
+      "100-væggen: byg 47 række for række — fire fulde tiere og syv til — og hør rammen sige syvogfyrre, mens hele tallet står på væggen."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

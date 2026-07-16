@@ -201,6 +201,32 @@
       "Diário da conversa: cada criança desenha no caderno como viu a quantidade — eu vi 4 e 4 — e o mural da sala ganha os jeitos diferentes de ver o mesmo número."
     ]
   },
+  "rekenrek": {
+    "slug": "abaco-de-20",
+    "name": "Ábaco de 20",
+    "tagline": "Cinco vermelhas, cinco brancas — o número de um empurrão só",
+    "metaTitle": "Ábaco de 20 online grátis (rekenrek) | LessonCraftStudio",
+    "metaDescription": "Ábaco de 20 para projetar: 5 contas vermelhas e 5 brancas por fileira, modo relâmpago com cortina e número falado em voz alta. Grátis, sem cadastro.",
+    "about": [
+      "O ábaco de 20 — o rekenrek, criado no Instituto Freudenthal, na Holanda — parece um ábaco comum, mas guarda um segredo: em cada fileira de dez contas, cinco são vermelhas e cinco são brancas. Essa quebra de cor faz o cinco saltar aos olhos. Quando a criança olha para sete contas, ela não vê sete unidades soltas: vê um bloco de cinco e mais duas. É a subitização e a percepção das estruturas de 5 e de 10 que sustentam o cálculo mental — exatamente a composição e a decomposição de quantidades que a BNCC pede da Educação Infantil ao 2º ano.",
+      "A alma do ábaco de 20 está no empurrão só. Para mostrar 7, a criança não empurra conta por conta: pega a sétima conta e desliza tudo de uma vez — e a turma VÊ o 5 vermelho e o 2 branco, sem contar de um em um. É assim que os dobros, os quase dobros, os amigos do dez e a passagem pelo dez deixam de ser truques decorados e viram imagens mentais. Na tela não existe certo nem errado, cronômetro nem pontuação: quem conduz é a professora, perguntando como você viu? — e cada jeito de ver vale.",
+      "Na rodinha ou na lousa digital, o modo relâmpago desce a cortina: as contas aparecem por dois, três ou cinco segundos e se escondem — tempo de ver a estrutura, não de contar. Mostrar de novo reabre exatamente a mesma imagem; Revelar deixa o ábaco aberto para a conversa durar o quanto precisar. As séries prontas, organizadas por ano, encadeiam as minilições clássicas — do empurrão só às fileiras de dez — e a parede de 100 contas empilha dez ábacos para enxergar as dezenas. O número pode aparecer escrito e ser falado em voz alta. Tudo grátis, direto no navegador, sem cadastro."
+    ],
+    "howToUse": [
+      "Projete o ábaco na lousa digital e deixe uma criança vir à frente deslizar as contas — ou use as setas do teclado.",
+      "Combine a regra de ouro da turma: mostrar o número de um empurrão só, sem contar conta por conta.",
+      "Escolha uma série pronta do ano da sua turma ou toque em Mostrar um número para posicionar as contas na hora.",
+      "No modo relâmpago, a cortina mostra as contas por poucos segundos — depois pergunte: quantas você viu? Como você viu?",
+      "Toque em Falar o número para a turma ouvir em voz alta o nome do número que acabou de ver — e conferir a própria leitura."
+    ],
+    "classroomIdeas": [
+      "Ritual da rodinha: um número por dia, sempre de um empurrão só — em uma semana a turma inteira já enxerga o 5 vermelho sem contar.",
+      "Caça ao cinco: mostre 8 e pergunte onde o cinco está escondido — o bloco vermelho vira o ponto de apoio de toda leitura.",
+      "Metade da cortina: dez contas em jogo, a fileira de baixo escondida — quem descobre quantas estão atrás da cortina explica como pensou.",
+      "Dobros gêmeos: o mesmo empurrão nas duas fileiras — a criança vê 4 e 4 e nomeia o dobro antes de qualquer conta de somar.",
+      "Parede de 100: monte 47 preenchendo fileiras de dez e peça para a turma dizer o número em voz alta — ver as dezenas, ouvir a palavra."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

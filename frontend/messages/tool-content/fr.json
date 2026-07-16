@@ -201,6 +201,32 @@
       "Avec « Mes suites », composez votre propre suite autour du nombre de la semaine : le même nombre en constellation, en boîte de dix, sur le boulier — le nombre reste, l'image change."
     ]
   },
+  "rekenrek": {
+    "slug": "boulier-de-calcul",
+    "name": "Boulier de calcul",
+    "tagline": "Le rekenrek : voir les nombres par 5 et 10, en un seul geste",
+    "metaTitle": "Boulier en ligne gratuit – rekenrek | LessonCraftStudio",
+    "metaDescription": "Un boulier de calcul (rekenrek) en ligne et gratuit : montrez un nombre en un seul geste, flashez-le derrière le rideau — de la maternelle au mur de 100 boules.",
+    "about": [
+      "Le boulier de calcul — le rekenrek venu des classes néerlandaises — est l'un des outils de numération les plus malins qui soient : dix boules par rangée, cinq rouges puis cinq blanches, pour que l'œil s'appuie toujours sur le repère de cinq. Montrer 7, c'est attraper la septième boule et pousser UNE seule fois : on voit alors 5 rouges et 2 blanches, sans compter un par un. Ce geste unique est l'âme de l'outil — il fait passer doucement l'enfant du comptage un à un aux groupes, aux décompositions et au vrai sens du nombre : « 7, c'est 5 et 2 ».",
+      "Le mode flash transforme le boulier en rituel de calcul mental : le rideau se lève quelques secondes, les boules apparaissent, le rideau retombe — trop court pour compter, juste assez pour voir les groupes. La classe raconte ce qu'elle a vu, « Remontrer » refait flasher exactement la même image, et « Dévoiler » laisse le boulier visible pour la discussion. À tout moment, l'outil peut dire le nombre à voix haute — sept, treize, soixante et onze — pour relier la quantité vue au mot entendu et à l'écriture chiffrée. Aucune bonne ou mauvaise réponse ne s'affiche jamais : c'est la parole des élèves qui fait la séance.",
+      "Une bibliothèque de suites toutes prêtes accompagne les moments clés de la GS au CE1 : « En un seul geste ! », « Les compléments à dix », « Les presque-doubles », « Passer par la dizaine »… et vous pouvez composer puis enregistrer vos propres suites. En ajoutant des bouliers, on monte jusqu'au mur de 100 boules — dix rangées de dix — pour voir les dizaines se construire ligne après ligne. L'outil fonctionne directement dans le navigateur, sur TBI, tablette et ordinateur : rien à installer, aucun compte à créer. Ni minuteur ni score — un espace calme pour parler des nombres."
+    ],
+    "howToUse": [
+      "Projetez le boulier au TBI et lancez le rituel : demandez de montrer un nombre en un seul geste — attraper la bonne boule et pousser une fois, sans compter un par un.",
+      "Commencez avec une rangée (jusqu'à 10), puis passez à deux rangées (jusqu'à 20) quand les décompositions autour de cinq sont solides.",
+      "Utilisez le mode flash : le rideau cache le boulier, les boules apparaissent quelques secondes, et la classe dit combien elle en a vu — et surtout comment elle les a vues.",
+      "Activez « Dire le nombre » pour que la quantité soit dite à voix haute, et affichez l'écriture chiffrée quand vous voulez relier quantité, mot et chiffre.",
+      "Choisissez une suite toute prête — ou composez la vôtre — et laissez chaque étape nourrir la discussion : qu'est-ce qui a changé depuis l'image d'avant ?"
+    ],
+    "classroomIdeas": [
+      "En rituel du matin, trois nombres en un seul geste : un élève vient au tableau, la classe valide en expliquant ce qu'elle voit — « 8, c'est 5 rouges et 3 blanches ».",
+      "Jouez à « Combien se cachent ? » : dix boules en jeu, le rideau cache la rangée du bas — on voit celles du haut, on cherche le complément.",
+      "Au CP, rendez visible le passage par la dizaine : 9 et 4 sur deux rangées, une seule boule monte — et voilà 10 et 3.",
+      "Au CE1, ouvrez le mur de 100 boules : construisez 47 rangée après rangée, puis dites-le ensemble — quatre dizaines et sept unités.",
+      "En atelier, un enfant montre un nombre de son choix et défie un camarade de le refaire — en un seul geste, évidemment."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

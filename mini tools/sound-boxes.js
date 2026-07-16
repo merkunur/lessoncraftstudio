@@ -71,6 +71,8 @@ var SoundBoxes = {
     wordsCount:   {en:'{n} words',de:'{n} Wörter',fr:'{n} mots',it:'{n} parole',es:'{n} palabras',pt:'{n} palavras',nl:'{n} woorden',sv:'{n} ord',da:'{n} ord',no:'{n} ord',fi:'{n} sanaa'},
     copyLink:     {en:'Copy link to this word',de:'Link zu diesem Wort kopieren',fr:'Copier le lien vers ce mot',it:'Copia il link a questa parola',es:'Copiar el enlace de esta palabra',pt:'Copiar link desta palavra',nl:'Link naar dit woord kopiëren',sv:'Kopiera länk till ordet',da:'Kopiér link til ordet',no:'Kopier lenke til ordet',fi:'Kopioi linkki tähän sanaan'},
     copied:       {en:'Link copied!',de:'Link kopiert!',fr:'Lien copié !',it:'Link copiato!',es:'¡Enlace copiado!',pt:'Link copiado!',nl:'Link gekopieerd!',sv:'Länk kopierad!',da:'Link kopieret!',no:'Lenke kopiert!',fi:'Linkki kopioitu!'},
+    /* sibling cross-link — the daily SoR pair (segment here, blend there) */
+    siblingLink:  {en:'Blending today? → Blending Board',de:'Heute zusammenziehen? → Lesemaschine',fr:'Fusionner aujourd’hui ? → Tableau de syllabes',it:'Oggi si uniscono i suoni? → Tabellone delle sillabe',es:'¿Hoy toca unir sonidos? → Tablero de sílabas',pt:'Hoje é dia de juntar sons? → Quadro de sílabas',nl:'Vandaag plakken? → Klankenbord',sv:'Ljuda ihop i dag? → Ljudtavla',da:'Trække lyde sammen i dag? → Lydtavle',no:'Trekke lyder sammen i dag? → Lydtavle',fi:'Tänään äänteiden yhdistämistä? → Tavutaulu'},
 
     /* stage buttons + aria */
     prevWord:     {en:'Previous word',de:'Vorheriges Wort',fr:'Mot précédent',it:'Parola precedente',es:'Palabra anterior',pt:'Palavra anterior',nl:'Vorig woord',sv:'Föregående ord',da:'Forrige ord',no:'Forrige ord',fi:'Edellinen sana'},
@@ -1017,7 +1019,8 @@ var SoundBoxes = {
     if (this._panelTab === 'stages') this._renderStagesTab(body);
     else this._renderCustomTab(body);
 
-    /* copy-link footer */
+    /* copy-link footer + the sibling cross-link (the daily SoR pair:
+       segment here, blend on the Blending Board) */
     var word = this.currentWord();
     if (word) {
       var foot = api.el('div', 'sbx-panel-foot');
@@ -1030,7 +1033,15 @@ var SoundBoxes = {
         if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(url).then(done, done);
         else { try { prompt('', url); } catch (_) {} done(); }
       });
-      foot.appendChild(copy);
+      var sib = document.createElement('a');
+      sib.className = 'sbx-copylink';
+      sib.href = '/mini-tools/blending-board.html?lang=' + api.lang;
+      sib.textContent = api.t('siblingLink');
+      foot.append(copy, sib);
+      foot.style.display = 'flex';
+      foot.style.flexWrap = 'wrap';
+      foot.style.gap = '10px';
+      foot.style.justifyContent = 'space-between';
       panel.appendChild(foot);
     }
   },
@@ -1408,12 +1419,12 @@ var SoundBoxes = {
 
   /* word panel */
   + '.sbx-scrim{position:absolute;inset:0;background:rgba(38,51,47,.28);'
-  +   'opacity:0;pointer-events:none;transition:opacity .2s;z-index:30;'
+  +   'opacity:0;pointer-events:none;transition:opacity .2s;z-index:70;'
   +   'border-radius:inherit;}'
   + '.sbx-scrim.open{opacity:1;pointer-events:auto;}'
   + '.sbx-panel{position:absolute;left:50%;top:8%;transform:translateX(-50%) translateY(8px);'
   +   'width:min(560px,92%);max-height:84%;overflow:auto;background:var(--lcs-surface);'
-  +   'border-radius:var(--lcs-radius);box-shadow:var(--lcs-shadow);z-index:31;'
+  +   'border-radius:var(--lcs-radius);box-shadow:var(--lcs-shadow);z-index:71;'
   +   'opacity:0;pointer-events:none;transition:opacity .2s,transform .2s var(--lcs-ease);'
   +   'display:flex;flex-direction:column;}'
   + '.sbx-panel.open{opacity:1;pointer-events:auto;transform:translateX(-50%) translateY(0);}'

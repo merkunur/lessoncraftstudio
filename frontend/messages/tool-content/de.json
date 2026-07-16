@@ -97,6 +97,32 @@
       "Wörter der Woche: Tragen Sie Ihre aktuellen Lernwörter als eigene Liste ein und lassen Sie die Kinder an der Station selbstständig gliedern und legen."
     ]
   },
+  "blending-board": {
+    "slug": "lesemaschine",
+    "name": "Lesemaschine",
+    "tagline": "Laute schleifend zu Wörtern zusammenziehen",
+    "metaTitle": "Lesemaschine – Laute zu Wörtern ziehen | LessonCraftStudio",
+    "metaDescription": "Lesemaschine für den Anfangsunterricht: Laute schleifend zu Wörtern zusammenziehen, echte Wörter entdecken. Kostenlos, ohne Anmeldung – für Tafel und Tablet.",
+    "about": [
+      "Die Lesemaschine übt den entscheidenden Schritt des Lesenlernens: die Synthese. Aus einzelnen Lauten wird schleifend ein Wort – mmm-uuu-t → Mut. Drei Kartenspalten (Anfangslaut, Vokal, Endlaut) lassen sich wie an der klassischen Lesemaschine weiterdrehen; bei jedem Wisch steht ein neues Wort, das die Klasse laut erliest. Der Blend-Durchlauf hebt die Karten nacheinander im Lesetempo hervor – ein sichtbares Metronom für das schleifende Lesen, ganz ohne Stoppuhr und Punkte.",
+      "Erst nach dem Zusammenziehen zeigt die Maschine, was erlesen wurde: ein Bild oder Häkchen für ein echtes Wort – oder der freundliche Roboter für ein Quatschwort. Quatschwörter sind kein Trick, sondern der ehrlichste Lesebeweis: Wer wul und mus richtig erliest, wendet die Laut-Buchstaben-Zuordnung an, statt Wörter zu raten. Genau deshalb arbeiten auch Lernstandserhebungen im Anfangsunterricht mit Pseudowörtern.",
+      "Die Kartensätze folgen dem Aufbau des Anfangsunterrichts: lauttreue erste Wörter, der tägliche Silbenteppich (Konsonant und Vokal schleifend verbinden: mmmaaa → ma), die Zwielaute ei, au, eu und die mehrgliedrigen Grapheme sch und ch. Harte b-, d- und g-Auslaute kommen bewusst nicht vor (Auslautverhärtung). Das Werkzeug läuft direkt im Browser auf Tafel, Tablet und PC – ohne Installation und ohne Konto."
+    ],
+    "howToUse": [
+      "Wählen Sie einen Kartensatz, der zum Stand Ihrer Klasse passt – für den Einstieg die lauttreuen ersten Wörter oder den Silbenteppich.",
+      "Wischen Sie eine Spalte oder tippen Sie auf die Pfeile: Ein neues Wort steht auf der Maschine. Noch wird nicht verraten, ob es ein echtes Wort ist.",
+      "Starten Sie den Blend-Durchlauf und lassen Sie die Klasse mitsprechen: Jeder Laut wird gedehnt und ohne Pause an den nächsten geschleift – mmm-aaa-l.",
+      "Erst jetzt zeigt die Maschine das Symbol: Bild oder Häkchen für ein echtes Wort, Roboter für ein Quatschwort. Fragen Sie nach: Woran hast du es gemerkt?",
+      "Tauschen Sie gezielt nur eine Spalte (Hut → hat → hin) und lassen Sie hören, welcher Laut sich geändert hat – so wird die Lautfolge bewusst."
+    ],
+    "classroomIdeas": [
+      "Silbenteppich als Tagesritual: Zwei Minuten zum Stundenbeginn schleifend lesen – jede Reihe spricht eine Silbenzeile, das Tempo gibt der Durchlauf vor.",
+      "Roboter-Detektive: Die Klasse erliest das Wort und stimmt ab – echtes Wort oder Quatschwort? Erst dann wird das Symbol aufgedeckt und begründet.",
+      "Wörterketten bauen: Immer nur eine Karte tauschen und die neue Wortspur an der Tafel mitschreiben (Maus → Haus → Haut → Baut → Baum).",
+      "Brücke zu den Lautboxen: Ein Wort erst an der Lesemaschine zusammenziehen, dann in den Lautboxen in seine Laute gliedern – Synthese und Analyse als Paar.",
+      "Eigener Kartensatz für die Differenzierung: Schalten Sie noch nicht eingeführte Buchstaben aus, sodass die Maschine exakt Ihrem Buchstabenweg entspricht."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

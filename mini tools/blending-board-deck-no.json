@@ -1,0 +1,114 @@
+{
+  "locale": "no",
+  "version": 1,
+  "decks": [
+    {
+      "id": "no-lydrett-1",
+      "label": "Lydrette ord · a i o u e",
+      "free": true,
+      "type": "word",
+      "stage": "s1",
+      "scope": ["s","m","l","r","v","b","t","h","a","i","o","u","e","n"],
+      "nonwordTTS": true,
+      "columns": [
+        { "role": "onset", "cards": ["s","m","l","r","v","b","t","h"] },
+        { "role": "vowel", "cards": ["a","i","o","u","e"] },
+        { "role": "coda",  "cards": ["l","s","t","n","m"] }
+      ],
+      "real": {
+        "sal": {}, "sil": {}, "sin": {}, "sol": { "noun": "sun", "themeDir": "weather" }, "sot": {}, "som": {}, "sus": {}, "sum": {},
+        "sel": { "noun": "seal", "themeDir": "ocean life" }, "ses": {}, "sen": {},
+        "mal": {}, "mas": {}, "mat": {}, "man": {}, "mil": {}, "min": {}, "mol": {}, "mos": {}, "mot": {},
+        "mus": { "noun": "mouse", "themeDir": "pets" }, "mel": {}, "men": {},
+        "lat": {}, "lam": { "noun": "lamb", "themeDir": "easter" }, "lin": {}, "lim": {}, "los": {}, "lot": {}, "lom": {},
+        "lus": {}, "lut": {}, "lun": {}, "les": {}, "let": {}, "len": {}, "lem": {},
+        "ras": {}, "ran": {}, "ris": { "noun": "rice", "themeDir": "At the Supermarket" }, "rim": {}, "ros": {}, "rot": {}, "rom": {},
+        "rus": { "flags": ["sensitive"] }, "ren": {}, "rem": {},
+        "vil": {}, "vis": {}, "vin": { "flags": ["sensitive"] }, "vom": {}, "vel": {}, "vet": {},
+        "bil": { "noun": "car", "themeDir": "toys" }, "bit": {}, "bol": {}, "bot": {}, "bom": {}, "bet": {}, "ben": {},
+        "tas": {}, "tam": {}, "til": {}, "tom": {}, "tut": {}, "tun": {}, "tet": {},
+        "hat": {}, "han": {}, "ham": {}, "hit": {}, "hos": {}, "hul": {}, "hus": { "noun": "house", "themeDir": "miscellaneous" },
+        "hun": {}, "hel": {}, "hes": {}, "het": {}, "hen": {}
+      },
+      "chains": [
+        ["sol","sel","mel","men","min","mil","bil"],
+        ["mus","hus","hun","han","ham","lam"]
+      ],
+      "comboAudit": "All 200 combinations (8 onsets x 5 vowels x 5 codas) enumerated and screened for vulgar/slur/anatomy/alcohol surfaces. Flagged sensitive: rus (intoxication), vin (wine/alcohol). k is excluded from both onset and coda so the kuk/kaat class is unformable; no doubled codas (takk/katt out of v1); r is not a coda, so hor is unformable. mus kept as a plain real word with picture: it is the canonical Norwegian first-reader word (mouse) — the slang sense is secondary and the mouse badge anchors the meaning. Robot combos echoing informal words (tis ~ tiss 'pee'; sat = Danish/archaic past of sitte) verified harmless and left robot.",
+      "notes": "Norwegian lydrett CVC space over early-taught letters; long-vowel single-coda words (sol, mus, hus, bil) are the canonical first blending words in norsk begynneropplaering. Verb forms kept real only when common in speech (les, let, len, vet, vil, bet, lot, mol, ses, tas); rare imperatives (tin, tem, taal) left robot."
+    },
+    {
+      "id": "no-aoae-1",
+      "label": "Ord med å · ø · æ",
+      "free": false,
+      "type": "word",
+      "stage": "s2",
+      "scope": ["b","m","s","l","f","h","v","t","g","n","å","ø","æ","r"],
+      "nonwordTTS": true,
+      "columns": [
+        { "role": "onset", "cards": ["b","m","s","l","f","h","v","t","g","n"] },
+        { "role": "vowel", "cards": ["å","ø","æ"] },
+        { "role": "coda",  "cards": ["l","r","s","t"] }
+      ],
+      "real": {
+        "bål": {}, "bås": {}, "båt": { "noun": "boat", "themeDir": "beach" },
+        "mål": {}, "mår": {},
+        "sår": {},
+        "lår": {}, "lås": { "noun": "lock", "themeDir": "around the house" }, "låt": {},
+        "får": {},
+        "hår": { "noun": "hair", "themeDir": "body parts" },
+        "vår": {}, "vås": {}, "våt": {},
+        "tår": {},
+        "går": {}, "gås": { "noun": "goose", "themeDir": "birds 2" },
+        "nål": {}, "når": {},
+        "bør": {},
+        "mør": {}, "møt": {},
+        "søl": {}, "sør": {}, "søt": {},
+        "løs": {},
+        "føl": {}, "før": {},
+        "hør": {},
+        "tør": {}, "tøs": { "flags": ["sensitive"] },
+        "nøl": {}, "nøs": {}, "nøt": {},
+        "bær": {},
+        "sær": {},
+        "lær": {},
+        "fæl": {},
+        "hæl": {}, "hær": {},
+        "vær": {},
+        "tæl": {}, "tær": {},
+        "nær": {}
+      },
+      "chains": [
+        ["gås","lås","lår","hår","vår","våt","båt"],
+        ["søl","sør","hør","hår","hær","hæl","fæl"]
+      ],
+      "comboAudit": "All 120 combinations (10 onsets x 3 vowels x 4 codas) enumerated and screened for vulgar/slur/anatomy/alcohol surfaces. Flagged sensitive: tøs (a real but derogatory word for a woman — kept out of chains and celebration). d is excluded from the coda row so the sæd class is unformable; k excluded entirely (kåt unformable); no doubled consonants. Robot near-homophones verified acceptable: mær (~merr, a dated insult for a mare/woman) stays a robot word and is never celebrated; gør/gær echo the slang stems gørr/gæren but are harmless nonwords.",
+      "notes": "The three extra Norwegian vowels å ø æ. æ lives almost entirely before r in bokmål (bær, vær, tær, nær), hence r in the coda row. All reals are beyond-dispute bokmål incl. strong pasts nøs (nyse) and nøt (nyte)."
+    },
+    {
+      "id": "no-diftonger-1",
+      "label": "Diftonger · au øy ei",
+      "free": false,
+      "type": "word",
+      "stage": "s3",
+      "scope": ["s","t","h","l","g","n","b","au","øy","ei"],
+      "nonwordTTS": true,
+      "columns": [
+        { "role": "onset", "cards": ["s","t","h","l","g","n","b"] },
+        { "role": "vowel", "cards": ["au","øy","ei"] }
+      ],
+      "real": {
+        "sau": { "noun": "sheep", "themeDir": "farm animals" },
+        "tau": { "noun": "rope", "themeDir": "camping" },
+        "tøy": {}, "høy": {}, "løy": {}, "gøy": {}, "bøy": {},
+        "sei": {}, "hei": {}, "lei": {}, "nei": {}
+      },
+      "chains": [
+        ["sau","tau","tøy","høy","hei","nei"],
+        ["gøy","løy","lei","sei"]
+      ],
+      "comboAudit": "All 21 combinations (7 onsets x 3 diphthongs) enumerated and screened; every real word (sau, tau, tøy, høy, løy, gøy, bøy, sei, hei, lei, nei) is beyond-dispute bokmål. No vulgar/anatomy/alcohol surfaces. Noted: robot combo gei is a homophone of the English loan 'gay' (a neutral word, not a slur) — accepted as a nonsense surface. m, f and r onsets deliberately excluded to avoid the archaic møy and the marginal fei/mei/røy/rau judgment calls.",
+      "notes": "The three common Norwegian diphthongs as single vowel cards (one sound, one card — same treatment as en digraphs). 2-column deck because most Norwegian diphthong words are open syllables (sau, nei, gøy); a coda column would force robot-heavy rows."
+    }
+  ]
+}

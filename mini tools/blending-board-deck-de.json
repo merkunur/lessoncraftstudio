@@ -1,0 +1,115 @@
+{
+  "locale": "de",
+  "version": 1,
+  "decks": [
+    {
+      "id": "de-lauttreu-1",
+      "label": "Erste Wörter (lauttreu)",
+      "free": true,
+      "type": "word",
+      "stage": "s1",
+      "scope": ["m","s","l","r","h","t","w","b","n","a","o","u","i","f"],
+      "nonwordTTS": true,
+      "columns": [
+        { "role": "onset", "cards": ["m","s","l","r","h","t","w","b","n"] },
+        { "role": "vowel", "cards": ["a","o","u","i"] },
+        { "role": "coda",  "cards": ["t","n","l","s","m","f"] }
+      ],
+      "real": {
+        "mit": {}, "man": {}, "mal": {}, "mut": {}, "mus": {},
+        "las": {}, "los": {}, "lot": {},
+        "rat": {}, "ran": {}, "rot": { "noun": "red", "themeDir": "colors" }, "ruf": {},
+        "rum": { "flags": ["sensitive"] },
+        "hat": {}, "hin": {}, "hit": {}, "hol": {}, "hof": {}, "hut": { "noun": "hat", "themeDir": "accessories" }, "huf": {},
+        "tat": {}, "tal": {}, "tot": {}, "ton": {}, "tun": {}, "tut": {},
+        "was": {}, "wal": { "noun": "whale", "themeDir": "ocean life" }, "wut": {},
+        "bat": {}, "bot": {}, "bus": { "noun": "bus", "themeDir": "vehicles" }, "bin": {}, "bis": {},
+        "not": {}, "nun": {}, "nut": {}
+      },
+      "chains": [
+        ["hut","hat","rat","rot","tot","ton","tun","tut"],
+        ["mal","tal","tat","hat","hut","huf"],
+        ["bin","hin","hit","mit","mut","mus"]
+      ],
+      "comboAudit": "Alle 216 Kombinationen einzeln durchgesehen (Vulgär-/Anatomie-/Alkohol-Sweep). Sensibel markiert: rum (Alkohol). Keine b/d/g-Auslautkarten (Auslautverhärtung — nicht verhandelbar), daher keine Fehllautungen am Wortende. Eigennamen (Tim, Tom, Rom, Nil), Abkürzungen und Fach-/Einheitenwörter (Mol, Bit) bewusst als Quatschwörter belassen; hit (der Hit) als gängiges Duden-Wort markiert. tot als normales kindliches Grundwortschatz-Wort belassen (kein Tabuwort). Bon nicht markiert (französische Aussprache, nicht lauttreu dekodierbar).",
+      "notes": "Konvention geprüft und entschieden: Karten kleingeschrieben (v1). Auf einer gemeinsamen Anlautkarte kann die Großschreibung nicht pro Wort wechseln (dasselbe h beginnt Hut und hin); Silbenteppich- und Synthese-Übungen im Anfangsunterricht arbeiten traditionell in Kleinbuchstaben, die ABC-Umschaltung liefert bei Bedarf Großbuchstaben. Die Nomen-Großschreibung wird bewusst NICHT auf Kartenebene modelliert. nonwordTTS bestätigt: deutsche TTS liest Pseudowörter dank transparenter Orthografie zuverlässig vor. Echtwortdichte 37/216 (~17 %) — im Deutschen mit kurzen Vokalen ohne Dopplungsgrapheme (tt, nn, mm, ss, ff) strukturell niedriger als im Englischen; matt, satt, komm, null bleiben korrekt Quatschwörter, weil ihre Schreibung Doppelkonsonanten verlangt."
+    },
+    {
+      "id": "de-silbenteppich",
+      "label": "Silbenteppich",
+      "free": false,
+      "type": "syllable",
+      "stage": "s1",
+      "scope": ["m","l","s","r","n","t","w","f","a","e","i","o","u"],
+      "columns": [
+        { "role": "onset", "cards": ["m","l","s","r","n","t","w","f"] },
+        { "role": "vowel", "cards": ["a","e","i","o","u"] }
+      ],
+      "comboAudit": "Alle 40 offenen Silben (8 Konsonanten × 5 Vokale) einzeln durchgesehen — keine anstößige, anatomische oder alkoholbezogene Silbe im Raum (ma, mo, su, fu, wi … alle unbedenklich). Reiner Syntheseteppich: nur Münder, keine Wortabzeichen, keine Ketten.",
+      "notes": "DIE tägliche Fibel-Übung: Konsonant + Vokal schleifend verbinden (mmmaaa → ma). Konsonantenreihenfolge angelehnt an die verbreitete Fibelprogression des Anfangsunterrichts (m, l, s, r, n, t, w, f — nach dem klassischen M-A-L-O-S-I-R-E-N-Einstieg): Dauerkonsonanten zuerst, weil sie sich dehnen lassen; Plosiv t und die späteren w/f folgen. Vokale in der Standardreihung a e i o u. Vokalspalte einfärben (Einstellung) entspricht der üblichen Silbenteppich-Markierung."
+    },
+    {
+      "id": "de-zwielaute",
+      "label": "Zwielaute · ei au eu",
+      "free": false,
+      "type": "word",
+      "stage": "s2",
+      "scope": ["m","h","b","r","z","n","l","s","ei","au","eu","t","f"],
+      "nonwordTTS": true,
+      "columns": [
+        { "role": "onset", "cards": ["m","h","b","r","z","n","l","s"] },
+        { "role": "vowel", "cards": ["ei","au","eu"] },
+        { "role": "coda",  "cards": ["s","n","l","m","t","f"] }
+      ],
+      "real": {
+        "mein": {}, "maus": { "noun": "mouse", "themeDir": "pets" }, "maul": {}, "maut": {},
+        "heim": {}, "heil": { "flags": ["sensitive"] }, "haus": { "noun": "house", "themeDir": "miscellaneous" }, "haut": {}, "heul": {},
+        "bein": { "noun": "leg", "themeDir": "body parts" }, "beil": {}, "beim": {}, "baum": { "noun": "tree", "themeDir": "christmas" }, "baut": {},
+        "reis": { "noun": "rice", "themeDir": "At the Supermarket" }, "rein": {}, "reim": {}, "reif": {}, "raus": {}, "raum": {}, "rauf": {}, "reut": {},
+        "zeit": {}, "zaun": {}, "zaum": {},
+        "nein": {}, "neun": {},
+        "leim": {}, "lein": {}, "laus": {}, "laut": {}, "lauf": {},
+        "sein": {}, "seil": { "noun": "rope", "themeDir": "camping" }, "seit": {}, "saum": {}, "sauf": { "flags": ["sensitive"] }
+      },
+      "chains": [
+        ["maus","haus","haut","baut","baum","raum","raus"],
+        ["bein","rein","reis","reim","leim","heim"],
+        ["neun","nein","sein","seit","zeit"]
+      ],
+      "comboAudit": "Alle 144 Kombinationen einzeln durchgesehen (Vulgär-/Anatomie-/Alkohol-Sweep). Sensibel markiert: heil (reales Adjektiv, aber wegen des historischen Gruß-Missbrauchs ohne Abzeichen und nie gesprochen), sauf (Alkohol, derbes Imperativ). Das bloße Sau ist in diesem Satz strukturell NICHT baubar (Endlautspalte obligatorisch) — die geforderte Sau-Sperre ist damit konstruktiv erfüllt; kein w-Anlaut im Satz, also auch kein Wein. Eigennamen (Zeus) und nur idiomatisch/veraltet lebende Formen (Seim, Saus, heut) als Quatschwörter belassen; Zaum, Maut, reut als Duden-Standardwörter markiert.",
+      "notes": "Zwielaute ei/au/eu sind EIN Laut und darum bewusst einfache Karten OHNE sounds:2-Naht (die Naht ist für Konsonantencluster mit zwei schleifbaren Lauten reserviert). Beim Schleifen spricht die Klasse den Zwielaut als Ganzes. eu ist erwartbar dünn besetzt (neun, heul, reut) — das ist die reale Verteilung im Deutschen und kein Fehler des Satzes."
+    },
+    {
+      "id": "de-sch-ch",
+      "label": "Sch und ch",
+      "free": false,
+      "type": "word",
+      "stage": "s2",
+      "scope": ["sch","ch","m","f","t","b","d","l","k","w","a","i","o","u","s"],
+      "nonwordTTS": true,
+      "columns": [
+        { "role": "onset", "cards": ["sch","m","f","t","b","d","l","k","w"] },
+        { "role": "vowel", "cards": ["a","i","o","u"] },
+        { "role": "coda",  "cards": ["ch","sch","f","l","s"] }
+      ],
+      "real": {
+        "schaf": { "noun": "sheep", "themeDir": "farm animals" }, "schal": { "noun": "scarf", "themeDir": "accessories" }, "schach": {}, "schuf": {},
+        "schas": { "flags": ["sensitive"] },
+        "mach": {}, "mal": {}, "mich": {}, "misch": {}, "mus": {},
+        "fach": {}, "fisch": { "noun": "fish", "themeDir": "animals" },
+        "tal": {}, "tisch": { "noun": "table", "themeDir": "furniture" }, "tuch": {}, "tusch": {},
+        "bach": {}, "bis": {}, "buch": { "noun": "book", "themeDir": "classroom" }, "busch": {}, "bus": { "noun": "bus", "themeDir": "vehicles" },
+        "dach": {}, "das": {}, "dich": {}, "doch": {}, "dusch": {},
+        "lach": {}, "lasch": {}, "las": {}, "loch": {}, "los": {},
+        "koch": {},
+        "wach": {}, "wasch": {}, "wal": { "noun": "whale", "themeDir": "ocean life" }, "was": {}, "wich": {}, "wisch": {}, "wusch": {}
+      },
+      "chains": [
+        ["fisch","tisch","wisch","wasch","wach","bach","buch","bus"],
+        ["schaf","schal","mal","mach","mich","misch","fisch"]
+      ],
+      "comboAudit": "Alle 180 Kombinationen einzeln durchgesehen (Vulgär-/Anatomie-/Alkohol-Sweep). Sensibel markiert: schas (österreichisch derb für Blähung — real, ohne Abzeichen, nie gesprochen). Geprüfte Beinahe-Treffer, die Quatschwörter bleiben: schis (Schiss verlangt ss; TTS liest lang /ʃiːs/), fus (Fuß verlangt ß), kusch/tach (Zurufe/Umgangsformen), losch/lisch (veraltet-literarisch), Bosch (Eigenname), fis (Tonname). Kein ck und kein k-Auslaut im Satz — fick-artige Flächen sind strukturell nicht baubar; wichs ebenfalls nicht (kein chs, nur eine Endlautkarte).",
+      "notes": "sch und ch sind je EIN Graphem = EIN Laut und darum einfache Karten ohne Naht. ch als Endlaut deckt beide Allophone ab: nach a/o/u den Ach-Laut (Bach, doch, Buch, Tuch), nach i den Ich-Laut (mich, dich, wich) — die Klasse spricht die regelhafte Variante, TTS ebenso. sch erscheint als Anlaut UND Endlaut (Schaf, Fisch, Tisch, wusch); d nur als Anlaut (Dach, doch), nie als Endlaut (Auslautverhärtung)."
+    }
+  ]
+}

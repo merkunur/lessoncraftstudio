@@ -46,7 +46,7 @@ import makerFi from '@/messages/maker-content/fi.json';
 // Tool keys present in every tool-content file. Kept local (not imported from
 // tool-content.ts) so this module has zero runtime deps beyond the JSON — safe
 // for the Edge middleware bundle.
-const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes'] as const;
+const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board'] as const;
 // Maker keys present in every maker-content file (all 33, §maker-content.ts).
 const MAKER_KEYS = [
   'addition', 'subtraction', 'code-addition', 'more-less', 'math-puzzle', 'math-worksheet',

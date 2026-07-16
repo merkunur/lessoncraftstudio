@@ -97,6 +97,32 @@
       "Angolo delle parole della settimana: con le liste personalizzate inserisci le parole del dettato e lascia che i bambini si esercitino a coppie al tablet."
     ]
   },
+  "blending-board": {
+    "slug": "tabellone-delle-sillabe",
+    "name": "Tabellone delle sillabe",
+    "tagline": "Unisci le sillabe e forma le parole",
+    "metaTitle": "Tabellone delle sillabe interattivo | LessonCraftStudio",
+    "metaDescription": "Tabellone delle sillabe online e gratuito per la classe prima: i bambini uniscono le sillabe, formano parole vere e inventate e scoprono le doppie. Senza login.",
+    "about": [
+      "Il tabellone delle sillabe è lo strumento della sintesi: se le caselle dei suoni servono a smontare le parole, qui il bambino le monta. Fa scorrere le colonne, sceglie una sillaba per ciascuna e poi passa il dito sulle carte per unire i suoni e leggere la parola intera: ca più sa fa casa. È il cuore del metodo fono-sillabico di classe prima, reso visibile e manipolabile.",
+      "Non tutte le combinazioni formano una parola vera, ed è un bene: quando esce una parola inventata, il bambino la legge lo stesso, e proprio questo dimostra che sta decodificando davvero invece di andare a memoria. Quando invece la parola esiste, compare la figurina: casa, cane, luna, sole. Il mazzo delle doppie fa un passo in più: la doppia cade esattamente sul confine tra le due carte, gat-to, pal-la, pen-na, così il suono lungo si sente e si vede.",
+      "Il tabellone funziona nel browser su LIM, tablet e computer, senza registrazione e senza installare nulla. Non ci sono punteggi né timer: solo colonne di sillabe da girare, parole da leggere e da ascoltare, in linea con i traguardi di lettura e riflessione sulla lingua delle Indicazioni nazionali per il primo ciclo."
+    ],
+    "howToUse": [
+      "Proietta il tabellone sulla LIM e fai girare le colonne davanti alla classe: ogni bambino legge la sillaba della propria colonna, poi uniteli in coro.",
+      "Passa il dito (o il mouse) sulle carte da sinistra a destra per fondere i suoni: la parola viene pronunciata intera alla fine del gesto.",
+      "Parti dal mazzo gratuito delle sillabe piane, poi passa alle sillabe con i ed e quando la classe le ha imparate tutte.",
+      "Usa il mazzo delle doppie per far sentire il suono lungo sul confine tra le carte: gat-to non è ga-to, e la differenza si sente.",
+      "Nel pannello dei mazzi puoi disattivare le sillabe che la classe non ha ancora incontrato, così il tabellone segue esattamente il tuo percorso."
+    ],
+    "classroomIdeas": [
+      "Vera o inventata? Un bambino gira una colonna a occhi chiusi, la classe legge la parola e vota: esiste o è una parola inventata? Poi si controlla con la figurina.",
+      "Caccia alla parola: annuncia una parola nascosta nel tabellone (ad esempio pane) e chiedi a un bambino di costruirla girando le colonne giuste.",
+      "Catena di parole: cambia una sola carta alla volta e leggi che cosa succede — casa diventa cala, cala diventa mela. Chi trova il prossimo anello?",
+      "Prima monta, poi smonta: costruisci gatto sul tabellone delle sillabe, poi apri le Caselle dei suoni e segmenta la stessa parola nei suoi suoni — sintesi e analisi sulla stessa parola, nella stessa lezione.",
+      "Dettato al contrario: pronuncia tu una parola del mazzo e chiedi ai bambini di scrivere sul quaderno le due sillabe separate da un trattino prima di verificarla sul tabellone."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

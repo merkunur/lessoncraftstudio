@@ -97,6 +97,32 @@
       "Palavras da semana: na aba de palavras próprias, digite as palavras do projeto da turma e use as caixas na rotina de sistematização da escrita."
     ]
   },
+  "blending-board": {
+    "slug": "quadro-de-silabas",
+    "name": "Quadro de sílabas",
+    "tagline": "Monte palavras juntando sílabas e sons",
+    "metaTitle": "Quadro de sílabas interativo grátis | LessonCraftStudio",
+    "metaDescription": "Quadro de sílabas gratuito para a alfabetização: a criança desliza as cartas, junta sílabas e sons e descobre palavras de verdade, de bola a sapato. Sem login.",
+    "about": [
+      "O quadro de sílabas transforma o silabário da parede em algo que a criança manipula: cada coluna traz uma carta de sílaba ou de som, e é só deslizar para trocar. BO com LA faz bola; troque uma carta e vira bolo, galo, gato. É a rota de síntese da alfabetização — juntar unidades sonoras para formar palavras — que a BNCC espera construir no 1º e no 2º ano.",
+      "Nem toda combinação é palavra: quando a criança monta uma sequência que não existe, o quadro celebra a palavra-robô. Esse contraste é ouro pedagógico — ler palavra inventada prova que a criança está decodificando de verdade, e não adivinhando pelo desenho. Quando a palavra existe, uma figurinha confirma o sentido: sapato, banana, cavalo.",
+      "A progressão segue o caminho do português brasileiro: sílabas com a, o e u (bola, gato, pato), depois e e i (dedo, pipa, sino), trissílabos para ganhar fôlego (sa-pa-to) e, por fim, três sons — m-a-r, l-u-z, d-e-z — para a consciência fonêmica. Funciona no navegador, na lousa digital ou no celular, sem conta, sem cronômetro e sem pontuação."
+    ],
+    "howToUse": [
+      "Escolha o baralho: sílabas com a, o, u para quem está começando; e · i em seguida; trissílabos e três sons para quem já junta com segurança.",
+      "Peça que a criança deslize uma coluna de cada vez e fale em voz alta a carta que aparecer.",
+      "Passe o dedo pelas cartas, da esquerda para a direita, alongando os sons até a palavra sair inteira: booo-laaa… bola!",
+      "Pergunte antes de conferir: isso é palavra de verdade ou palavra-robô? Deixe a criança justificar e só então confira a resposta.",
+      "Use as setas de cada coluna para trocar uma carta só e mostrar como bola vira bolo — uma sílaba muda, a palavra muda."
+    ],
+    "classroomIdeas": [
+      "Caça-palavras silábica: desafie a turma a descobrir quantas palavras de verdade estão escondidas no baralho antes de o quadro contar quantas são.",
+      "Corrente de palavras: projete o quadro e monte a corrente bola → bolo → galo → gato, trocando uma carta por vez; a turma lê cada elo em coro.",
+      "Fábrica de robôs: peça de propósito uma palavra-robô e deixe a criança inventar o que esse robô faria — decodificar sem medo de errar vira brincadeira.",
+      "Dupla com as Caixas de sons: primeiro a criança separa gato nas caixas, som por som; depois corre ao quadro de sílabas e monta a mesma palavra juntando GA e TO — segmentar e sintetizar são as duas mãos da alfabetização.",
+      "Ditado ao contrário: diga uma palavra do baralho (pato, mesa, luz) e peça que a criança gire as colunas até montá-la, falando cada sílaba enquanto procura."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

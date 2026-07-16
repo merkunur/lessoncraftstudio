@@ -1,0 +1,449 @@
+{
+  "locale": "pt",
+  "version": 1,
+  "decks": [
+    {
+      "id": "pt-silabas-1",
+      "label": "Sílabas → palavras · a o u",
+      "free": true,
+      "type": "word",
+      "stage": "s1",
+      "scope": [
+        "b",
+        "c",
+        "g",
+        "p",
+        "m",
+        "s",
+        "l",
+        "r",
+        "a",
+        "o",
+        "u",
+        "t",
+        "n"
+      ],
+      "nonwordTTS": true,
+      "columns": [
+        {
+          "role": "syl1",
+          "cards": [
+            "bo",
+            "ca",
+            "ga",
+            "pa",
+            "ma",
+            "sa",
+            "lu",
+            "ra"
+          ]
+        },
+        {
+          "role": "syl2",
+          "cards": [
+            "la",
+            "ta",
+            "to",
+            "po",
+            "sa",
+            "ma",
+            "lo",
+            "no"
+          ]
+        }
+      ],
+      "real": {
+        "bola": {
+          "noun": "ball",
+          "themeDir": "toys"
+        },
+        "bota": {},
+        "boto": {},
+        "bolo": {
+          "noun": "cake",
+          "themeDir": "bakery"
+        },
+        "cala": {},
+        "cata": {},
+        "cato": {},
+        "casa": {
+          "noun": "house",
+          "themeDir": "miscellaneous"
+        },
+        "cama": {
+          "noun": "bed",
+          "themeDir": "around the house"
+        },
+        "calo": {},
+        "cano": {},
+        "gala": {},
+        "gata": {},
+        "gato": {
+          "noun": "cat",
+          "themeDir": "animals"
+        },
+        "gama": {},
+        "galo": {
+          "noun": "rooster",
+          "themeDir": "farm animals"
+        },
+        "pala": {},
+        "pata": {},
+        "pato": {
+          "noun": "duck",
+          "themeDir": "animals"
+        },
+        "papo": {},
+        "pano": {},
+        "mala": {},
+        "mata": {},
+        "mato": {},
+        "mano": {},
+        "mama": {
+          "flags": [
+            "sensitive"
+          ]
+        },
+        "sala": {},
+        "sapo": {
+          "noun": "toad",
+          "themeDir": "forest creatures"
+        },
+        "lula": {},
+        "luta": {},
+        "luto": {},
+        "rala": {},
+        "rata": {},
+        "rato": {
+          "noun": "mouse",
+          "themeDir": "pets"
+        },
+        "rasa": {},
+        "rama": {},
+        "ralo": {}
+      },
+      "chains": [
+        [
+          "bola",
+          "bolo",
+          "galo",
+          "gato",
+          "mato",
+          "mata",
+          "pata",
+          "pato"
+        ],
+        [
+          "casa",
+          "cama",
+          "rama",
+          "rata",
+          "rato"
+        ]
+      ],
+      "comboAudit": "All 64 combinations enumerated and screened for pt-BR vulgar/slur/anatomy/alcohol surfaces. Flagged sensitive: mama (anatomy — kept out of chains). Structural safety: NO cu card; fa excluded from column 1 (falo); ca is column-1-only so caca/cocô-class surfaces are not formable. The suggested va card was dropped from column 1 (earns only vala and surfaces the funk-slang-adjacent robot vapo) in favor of ra (rato + 5 more real words). Robot combos sasa, lulo, capo (capô needs the accent), lusa (rare adjective, left robot) screened — all meaningless and clean.",
+      "notes": "Classic CV×CV cartilha space with a/o/u first syllables — the bola/gato/pato family; 37/64 real, 9 picture badges."
+    },
+    {
+      "id": "pt-silabas-ei",
+      "label": "Sílabas com e · i",
+      "free": false,
+      "type": "word",
+      "stage": "s1",
+      "scope": [
+        "d",
+        "e",
+        "p",
+        "i",
+        "m",
+        "f",
+        "s",
+        "t",
+        "a",
+        "o",
+        "g",
+        "n"
+      ],
+      "nonwordTTS": true,
+      "columns": [
+        {
+          "role": "syl1",
+          "cards": [
+            "de",
+            "pi",
+            "me",
+            "fi",
+            "si",
+            "te",
+            "pe"
+          ]
+        },
+        {
+          "role": "syl2",
+          "cards": [
+            "do",
+            "pa",
+            "ta",
+            "to",
+            "go",
+            "no",
+            "sa",
+            "de"
+          ]
+        }
+      ],
+      "real": {
+        "dedo": {
+          "noun": "finger",
+          "themeDir": "body parts"
+        },
+        "pipa": {
+          "noun": "kite",
+          "themeDir": "toys"
+        },
+        "pito": {},
+        "pino": {},
+        "pisa": {},
+        "medo": {},
+        "meta": {},
+        "mesa": {
+          "noun": "table",
+          "themeDir": "furniture"
+        },
+        "mede": {},
+        "meto": {
+          "flags": [
+            "sensitive"
+          ]
+        },
+        "fita": {
+          "noun": "ribbon",
+          "themeDir": "accessories"
+        },
+        "fito": {},
+        "figo": {
+          "noun": "fig",
+          "themeDir": "fruits"
+        },
+        "fino": {},
+        "sido": {},
+        "sigo": {},
+        "sino": {
+          "noun": "bell",
+          "themeDir": "christmas"
+        },
+        "teto": {},
+        "teta": {
+          "flags": [
+            "sensitive"
+          ]
+        },
+        "pego": {},
+        "pesa": {},
+        "pede": {}
+      },
+      "chains": [
+        [
+          "dedo",
+          "medo",
+          "meta",
+          "mesa"
+        ],
+        [
+          "fita",
+          "fito",
+          "pito",
+          "pino",
+          "sino"
+        ]
+      ],
+      "comboAudit": "All 56 combinations enumerated and screened for pt-BR vulgar/slur/anatomy/alcohol surfaces. Flagged sensitive: teta (anatomy), meto (verb meter — vulgar slang sense); both kept out of chains. Structural safety: pi sits in column 1 and NO la card exists in this deck, so the southern-BR anatomy slang pila is not formable; no da card (si+da would surface the European-Portuguese AIDS term sida). Robot combos pedo (meaningless in pt-BR; internet-English association noted and accepted as robot-only), tesa, dede, side screened — clean.",
+      "notes": "Second-vowel wave (e/i first syllables): dedo, pipa, mesa, fita, figo, sino; 22/56 real, 6 picture badges."
+    },
+    {
+      "id": "pt-trissilabos",
+      "label": "Trissílabos · sa-pa-to",
+      "free": false,
+      "type": "word",
+      "stage": "s2",
+      "scope": [
+        "s",
+        "a",
+        "b",
+        "c",
+        "o",
+        "p",
+        "n",
+        "v",
+        "e",
+        "t",
+        "l"
+      ],
+      "nonwordTTS": true,
+      "columns": [
+        {
+          "role": "syl1",
+          "cards": [
+            "sa",
+            "ba",
+            "ca",
+            "bo"
+          ]
+        },
+        {
+          "role": "syl2",
+          "cards": [
+            "pa",
+            "na",
+            "va",
+            "ne"
+          ]
+        },
+        {
+          "role": "syl3",
+          "cards": [
+            "to",
+            "na",
+            "lo",
+            "ca"
+          ]
+        }
+      ],
+      "real": {
+        "sapato": {
+          "noun": "shoe",
+          "themeDir": "clothing"
+        },
+        "savana": {},
+        "banana": {
+          "noun": "banana",
+          "themeDir": "At the Supermarket"
+        },
+        "boneca": {},
+        "cavalo": {
+          "noun": "horse",
+          "themeDir": "farm animals"
+        },
+        "cavaca": {},
+        "caneca": {
+          "noun": "mug",
+          "themeDir": "kitchen tools"
+        }
+      },
+      "chains": [
+        [
+          "cavalo",
+          "cavaca",
+          "caneca",
+          "boneca"
+        ]
+      ],
+      "comboAudit": "All 64 combinations enumerated and screened for pt-BR vulgar/slur/anatomy/alcohol surfaces — clean. Structural safety: ca appears in columns 1 and 3 but never adjacently (a middle syllable always intervenes), so caca-class surfaces are not formable; sacana is not formable (no ca in column 2); no cu card. cavaca (wood chip / biscuit — dictionary-real but obscure) included as real to keep the cavalo→cavaca→caneca chain honest. Trisyllable space is naturally sparse (7/64 real) — this is the big-word badge-payoff deck: sapato, banana, cavalo, caneca.",
+      "notes": "Three-syllable build deck (4×4×4 kept tight). Third column uses role coda (Som final) — no colSyl3 label exists in the tool yet; see handoff notes."
+    },
+    {
+      "id": "pt-sons-cvc",
+      "label": "Três sons · mar luz dez",
+      "free": false,
+      "type": "word",
+      "stage": "s2",
+      "scope": [
+        "m",
+        "l",
+        "p",
+        "d",
+        "v",
+        "s",
+        "t",
+        "f",
+        "a",
+        "e",
+        "i",
+        "o",
+        "u",
+        "r",
+        "z"
+      ],
+      "nonwordTTS": true,
+      "columns": [
+        {
+          "role": "onset",
+          "cards": [
+            "m",
+            "l",
+            "p",
+            "d",
+            "v",
+            "s",
+            "t",
+            "f"
+          ]
+        },
+        {
+          "role": "vowel",
+          "cards": [
+            "a",
+            "e",
+            "i",
+            "o",
+            "u"
+          ]
+        },
+        {
+          "role": "coda",
+          "cards": [
+            "r",
+            "z"
+          ]
+        }
+      ],
+      "real": {
+        "mar": {},
+        "lar": {},
+        "ler": {},
+        "luz": {},
+        "par": {},
+        "paz": {},
+        "por": {},
+        "dar": {},
+        "dez": {},
+        "diz": {},
+        "dor": {},
+        "ver": {},
+        "vez": {},
+        "vir": {},
+        "voz": {},
+        "ser": {},
+        "ter": {},
+        "tez": {},
+        "faz": {},
+        "fez": {},
+        "fiz": {},
+        "foz": {},
+        "for": {}
+      },
+      "chains": [
+        [
+          "mar",
+          "par",
+          "paz",
+          "faz",
+          "fez",
+          "vez",
+          "ver",
+          "ser",
+          "ter"
+        ],
+        [
+          "dor",
+          "por",
+          "for",
+          "foz",
+          "voz"
+        ]
+      ],
+      "comboAudit": "All 80 combinations enumerated and screened for pt-BR vulgar/slur/anatomy/alcohol surfaces — clean. Codas restricted to r and z, the only letter-true final consonants in Brazilian Portuguese (final l vocalizes to /w/: sol reads sou; final m/n only nasalize the vowel: bom, sim; final-s monosyllables carry accents: gás, três, más). No c onset (c+u would surface cu-initial robot combos cur/cuz); no b onset (bar = alcohol venue). der (rare subjunctive) deliberately left robot and noted; puz/pez are archaic spellings, left robot. tez (complexion) and for (se eu for — everyday subjunctive of ser/ir) kept real.",
+      "notes": "Pure phoneme-blending CVC deck; 23/80 real. No picture badges possible — the verified pt image nouns have no r/z-coda CVC member (sol is excluded by the final-l rule)."
+    }
+  ]
+}

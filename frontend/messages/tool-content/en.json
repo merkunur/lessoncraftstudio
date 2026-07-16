@@ -97,6 +97,32 @@
       "Let a child at a center tap the speaker, push the chips, then check themselves by revealing the letters."
     ]
   },
+  "blending-board": {
+    "slug": "blending-board",
+    "name": "Blending Board",
+    "tagline": "Flick the cards, blend the word",
+    "metaTitle": "Free Online Blending Board for Phonics | LessonCraftStudio",
+    "metaDescription": "Free blending board for phonics lessons. Flick letter cards to build words, sweep to blend, and let real words earn a picture — no login, on any device.",
+    "about": [
+      "A blending board puts word-building in children’s hands: two or three columns of letter cards, and every flick of a column builds a new word to blend. Change just the first card and “sat” becomes “mat” becomes “pat” — the word chains that make successive blending click, without a box of laminated cards to shuffle and drop.",
+      "Blending is the other half of the phonemic-awareness pair: children segment words into sounds, then pull sounds back together into words. This board is built for that second half, the Science of Reading way. Sweep across the cards and each one lights up in order as the class blends aloud; then the word is spoken whole. Real words earn a picture, and made-up ones earn a friendly robot — because reading “zat” correctly is every bit as much a win as reading “sat,” and the robot says so without a single red X.",
+      "Decks follow a phonics progression, from a first handful of letters to digraphs and blends, in eleven languages. And because no class learns letters in the same order, you can build your own deck from just the cards your class has been taught — the board then only ever builds words your children can actually decode. It runs in the browser on whiteboards and tablets, with no login, no timer, and no score."
+    ],
+    "howToUse": [
+      "Pick the deck that matches your phonics scope — the starter deck covers a first set of letters and sounds.",
+      "Flick a column, or tap the die for a surprise word, and give children a moment to read the cards.",
+      "Have the class blend the word aloud — then sweep across the blend bar so each card pulses in order and the word is spoken whole.",
+      "Watch for the badge: a picture means it is a real word, the robot means it is a made-up word that was still read correctly.",
+      "Change one card at a time to build a word chain — sat, mat, map, mop — so children hear how one sound changes the whole word."
+    ],
+    "classroomIdeas": [
+      "Play “real or robot?”: build a word, have everyone blend it and vote before the sweep, then reveal the badge together.",
+      "Run a word chain warm-up: start from a word your class knows and change exactly one card each turn, reading every step aloud.",
+      "In the custom deck, switch off every card you have not taught yet — the board will only build words your group can decode, which makes it a safe reading centre.",
+      "Each Monday, add the week’s new letters or digraphs to your deck and let the class discover which new real words they unlock.",
+      "Pair it with Sound Boxes for the full routine: segment a word into its sounds there, then come back and blend words here."
+    ]
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

@@ -1,0 +1,180 @@
+{
+  "locale": "it",
+  "version": 1,
+  "decks": [
+    {
+      "id": "it-cvcv-1",
+      "label": "Sillabe → parole · ca me lu so",
+      "free": true,
+      "type": "word",
+      "stage": "s1",
+      "scope": ["c","a","m","e","l","u","s","o","n","p","r","t"],
+      "nonwordTTS": true,
+      "columns": [
+        { "role": "syl1", "cards": ["ca","me","lu","so","na","ma","pa","ra"] },
+        { "role": "syl2", "cards": ["sa","la","na","le","no","ne","ta","so"] }
+      ],
+      "real": {
+        "casa": { "noun": "house", "themeDir": "miscellaneous" },
+        "cala": {},
+        "cane": { "noun": "dog", "themeDir": "animals" },
+        "caso": {},
+        "mela": { "noun": "apple", "themeDir": "At the Supermarket" },
+        "mele": {},
+        "mena": {},
+        "mene": {},
+        "meno": {},
+        "meta": {},
+        "luna": { "noun": "moon", "themeDir": "space" },
+        "lune": {},
+        "sola": {},
+        "sole": { "noun": "sun", "themeDir": "weather" },
+        "sono": {},
+        "nana": {},
+        "nano": {},
+        "nane": {},
+        "nata": {},
+        "naso": { "noun": "nose", "themeDir": "body parts" },
+        "mala": {},
+        "male": {},
+        "mano": { "noun": "hand", "themeDir": "body parts" },
+        "mane": {},
+        "maso": {},
+        "pala": {},
+        "pale": {},
+        "pane": { "noun": "bread", "themeDir": "At the Supermarket" },
+        "rasa": {},
+        "rana": { "noun": "frog", "themeDir": "reptiles and Amphibians" },
+        "rane": {},
+        "rata": {},
+        "raso": {}
+      },
+      "chains": [
+        ["casa","cala","mela","mele","sole","sola","pala","pane"],
+        ["luna","lune","rane","rana","nana","nano"]
+      ],
+      "comboAudit": "All 64 combinations enumerated and screened for vulgar/slur/anatomy surfaces — none composable: no ce/ci/ge/gi (soft c/g held back for a later deck), no cu, and the two syllable sets never repeat a column-1 syllable in column 2 in a way that lets cacca/pipì-class words form. Rare-but-attested forms kept real so no dictionary word is ever labelled a robot word: mena (menare), mene and mane (letterari, Treccani), maso (regionale, Treccani), rasa, raso, rata, meta. nana/nano/nane kept plain real — standard K-1 fairy-tale register (i sette nani).",
+      "notes": "Starter deck of the metodo fono-sillabico: sillabe piane a+o dominant, all consonants continuous-or-familiar (c only before a/o = hard /k/). 33/64 real — the densest CVCV space we could close vulgarity-free."
+    },
+    {
+      "id": "it-cvcv-ie",
+      "label": "Sillabe con i · e — pino, vela, nido",
+      "free": false,
+      "type": "word",
+      "stage": "s1",
+      "scope": ["p","i","d","v","e","n","s","r","o","t","l","a"],
+      "nonwordTTS": true,
+      "columns": [
+        { "role": "syl1", "cards": ["pi","di","ve","ni","pe","se","ri"] },
+        { "role": "syl2", "cards": ["no","to","la","lo","ra","so","te","do"] }
+      ],
+      "real": {
+        "pino": {},
+        "pila": {},
+        "pilo": {},
+        "pira": {},
+        "dito": { "noun": "finger", "themeDir": "body parts" },
+        "dite": {},
+        "veto": {},
+        "vela": {},
+        "velo": {},
+        "vera": {},
+        "vedo": {},
+        "nido": { "noun": "nest", "themeDir": "spring" },
+        "peno": {},
+        "peto": { "flags": ["sensitive"] },
+        "pela": {},
+        "pelo": {},
+        "pera": { "noun": "pear", "themeDir": "fruits" },
+        "peso": {},
+        "seno": { "flags": ["sensitive"] },
+        "sera": {},
+        "sete": {},
+        "sedo": {},
+        "rito": {},
+        "riso": { "noun": "rice", "themeDir": "At the Supermarket" },
+        "rido": {}
+      },
+      "chains": [
+        ["pera","vera","vela","velo","pelo","pela","pila","pino"],
+        ["rido","rito","dito","dite","sete","sera"]
+      ],
+      "comboAudit": "All 56 combinations enumerated and screened. Flagged sensitive (real words, kept out of chains): peto (dictionary word, scatological), seno (anatomy, also the math term). Robot combos screened and judged inert in Italian: pedo (prefix only, no standalone slang currency in Italian), seso (distinct from sesso — single s, different syllable weight), dira (dirà needs the accent). pipì is structurally impossible (no pi in column 2). dino kept robot (informal truncation, not a lemma). Rare-but-attested kept real: pilo and pira (Treccani), verb forms vedo, rido, sedo, peno, pela, dite.",
+      "notes": "Extends the vowel space to i/e with the new continuous consonants v, d, r in onset. 25/56 real; four picture badges (dito, nido, pera, riso)."
+    },
+    {
+      "id": "it-trisillabe",
+      "label": "Trisillabe · ba-na-na, ma-ti-ta",
+      "free": false,
+      "type": "word",
+      "stage": "s2",
+      "scope": ["b","a","p","m","n","t","i"],
+      "nonwordTTS": true,
+      "columns": [
+        { "role": "syl1", "cards": ["ba","pa","ma"] },
+        { "role": "syl2", "cards": ["na","ta","ti"] },
+        { "role": "syl3", "cards": ["na","ta"] }
+      ],
+      "real": {
+        "banana": { "noun": "banana", "themeDir": "At the Supermarket" },
+        "batata": {},
+        "panata": {},
+        "patata": { "noun": "potato", "themeDir": "vegetables" },
+        "patina": {},
+        "patita": {},
+        "manata": {},
+        "matita": { "noun": "pencil", "themeDir": "classroom" }
+      },
+      "chains": [
+        ["matita","patita","patata","batata"],
+        ["manata","panata","patata"]
+      ],
+      "comboAudit": "All 18 combinations enumerated and screened — no vulgar/slur/anatomy surface in the space. batata (patata dolce, Treccani) and panata (minestra di pane, Treccani) kept real so they are never labelled robot words; patina, patita, manata real. matina kept robot on purpose: it is the classic single-t misspelling of mattina and makes a useful doppie teaching moment.",
+      "notes": "Tight 3×3×2 trisyllable space over the three classroom words banana, patata, matita — the classic parole piane trisillabe of classe prima primers. Column 3 role syl3 has no colSyl3 UI string yet (falls back to the onset label); flagged upstream."
+    },
+    {
+      "id": "it-doppie",
+      "label": "Le doppie · gat-to, pal-la, pen-na",
+      "free": false,
+      "type": "word",
+      "stage": "s3",
+      "scope": ["g","a","t","p","l","e","n","s","o","c"],
+      "nonwordTTS": true,
+      "columns": [
+        { "role": "syl1", "cards": ["gat","pal","gal","pen","sas","pol","col","gon"] },
+        { "role": "syl2", "cards": ["to","ta","la","le","lo","na","ne","so"] }
+      ],
+      "real": {
+        "gatto": { "noun": "cat", "themeDir": "animals" },
+        "gatta": {},
+        "palla": { "noun": "ball", "themeDir": "toys" },
+        "palle": { "flags": ["sensitive"] },
+        "galla": {},
+        "galle": {},
+        "gallo": { "noun": "rooster", "themeDir": "farm animals" },
+        "pento": {},
+        "penna": { "noun": "pen", "themeDir": "classroom" },
+        "penne": {},
+        "penso": {},
+        "sasso": {},
+        "polla": {},
+        "polle": {},
+        "pollo": { "noun": "chicken", "themeDir": "farm animals" },
+        "polso": {},
+        "colto": {},
+        "colta": {},
+        "colla": {},
+        "colle": {},
+        "collo": {},
+        "gonna": { "noun": "skirt", "themeDir": "clothing" },
+        "gonne": {}
+      },
+      "chains": [
+        ["gatta","gatto","colto","colta"],
+        ["colla","colle","collo","pollo","polso","penso","penna","penne","gonne","gonna"]
+      ],
+      "comboAudit": "All 64 combinations enumerated and screened. Flagged sensitive: palle (the normal plural of palla, but a common vulgar surface — kept real, kept out of chains). The tet- onset was rejected at design time because tetta would be composable. Robot combos screened and judged inert: palto/palta (paltò needs the accent), galto/gonso-class strings. pento (mi pento), polla/polle (vena d'acqua sorgiva, Treccani) kept real. Every geminate word splits the doppia across the card seam exactly as Italian syllabification prescribes: gat-to, gat-ta, pal-la, gal-la/gal-lo, pen-na/pen-ne, sas-so, pol-lo, col-la/col-le/col-lo, gon-na/gon-ne; the closed-syllable combos without geminate (pen-so, col-to, col-ta, pol-so) are also true syllable splits.",
+      "notes": "The moat deck: the doppia lives on the seam between the two cards, so sweeping across it makes the long consonant audible (gat…to). 23/64 real, six picture badges."
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "locale": "sv",
+  "version": 1,
+  "decks": [
+    {
+      "id": "sv-cvc-1",
+      "label": "Ljudenliga ord · a i o u å",
+      "free": true,
+      "type": "word",
+      "stage": "s1",
+      "scope": ["s","m","r","l","v","b","n","h","a","i","o","u","å","t"],
+      "nonwordTTS": false,
+      "columns": [
+        { "role": "onset", "cards": ["s","m","r","l","v","b","n","h"] },
+        { "role": "vowel", "cards": ["a","i","o","u","å"] },
+        { "role": "coda",  "cards": ["l","s","t","n","m"] }
+      ],
+      "real": {
+        "sal": {}, "sas": {}, "sil": {}, "sin": {},
+        "sol": { "noun": "sun", "themeDir": "weather" },
+        "sot": {}, "son": {}, "som": {}, "sus": {}, "sås": {}, "sån": {},
+        "mal": {}, "mas": {}, "mat": {}, "man": {}, "mil": {}, "min": {}, "mim": {}, "mol": {}, "mos": {}, "mot": {},
+        "mus": { "noun": "mouse", "themeDir": "pets" },
+        "mun": { "noun": "mouth", "themeDir": "body parts" },
+        "mål": {}, "mås": {}, "mån": {},
+        "ras": {}, "ram": {},
+        "ris": { "noun": "rice", "themeDir": "At the Supermarket" },
+        "rit": {}, "rim": {},
+        "ros": { "noun": "rose", "themeDir": "flowers" },
+        "rot": {},
+        "rom": { "flags": ["sensitive"] },
+        "rus": { "flags": ["sensitive"] },
+        "rum": {}, "rån": {},
+        "las": {}, "lat": {}, "lam": {}, "lit": {}, "lin": {}, "lim": {}, "lom": {}, "lus": {}, "lut": {},
+        "lås": { "noun": "lock", "themeDir": "around the house" },
+        "låt": {}, "lån": {},
+        "val": { "noun": "whale", "themeDir": "ocean life" },
+        "vas": { "noun": "vase", "themeDir": "around the house" },
+        "van": {}, "vis": {}, "vit": {},
+        "vin": { "flags": ["sensitive"] },
+        "våt": {}, "våm": {}, "vom": {},
+        "bal": {}, "bas": {},
+        "bil": { "noun": "car", "themeDir": "toys" },
+        "bit": {}, "bin": {}, "bot": {}, "bon": {}, "bom": {}, "bus": {}, "bål": {}, "bås": {},
+        "båt": { "noun": "boat", "themeDir": "beach" },
+        "nit": {}, "nos": {}, "not": {}, "nål": {}, "nåt": {}, "nån": {}, "nås": {},
+        "hal": {}, "has": {}, "hat": {}, "han": {}, "hit": {}, "hos": {}, "hot": {}, "hon": {},
+        "hus": { "noun": "house", "themeDir": "miscellaneous" },
+        "hut": {}, "hum": {}, "hål": {}, "hån": {}
+      },
+      "chains": [
+        ["mus","mun","man","mat","mal","mål","nål"],
+        ["sol","sot","rot","ros","mos","mus","hus"]
+      ],
+      "comboAudit": "Alla 200 kombinationer (8 förstaljud × 5 vokaler × 5 slutljud) uppräknade och granskade mot vulgära ord, könsord, kroppsdels-slang, svordomar och alkohol. Bokstaven k är medvetet utesluten ur HELA kortleken (kuk-fällan), f och j saknas (fan/fitta/bajs-klassen omöjlig), dubbeltecknade slutljud saknas, r finns inte som slutljud (hor omöjligt). Känsligt flaggade: rom, rus, vin (alkohol/berusning) — hålls utanför kedjorna. mus behålls med bild: grundbetydelsen (djuret) är den enda ett barn i F–1 möter, och ordet ingår redan med bild i Ljudrutor-bankens svenska lista. Robotrymden svept ord för ord — inga vulgära eller olämpliga ytor hittade (sam, mam, bim, vim, sos, nus, hul, sut m.fl. är alla oskyldiga nonsensord). Gränsfall som medvetet lämnats som robotord: mon (bestämd form av mo), sim (endast i sammansättningar), lan (datorträff, vardaglig anglicism), hin (ålderdomligt), rut/run/mut (inte självständiga ord).",
+      "notes": "Ljudenlig svensk KVK-kärna för F–klass/åk 1: en bokstav = ett ljud, lång vokal före enkelt slutljud (sol, mus, hus). OBS bokstaven o: i son, som, bom, rom, mol, våm/vom låter o som /å/ — orden är riktiga och står i kartan, men läraren modellerar uttalet (samma hållning som en-leken har till wash). Vardagsformer som räknas som riktiga ord: sån, nån, nåt (SAOL, vard.), las/sas (vardaglig preteritum av läsa/säga), nås (passiv av nå). Vuxen-/fackord utan bild men äkta: mas, mim, mol, lom, lit, lut, has, hum, hut, våm/vom, rit, nit. hat är ett riktigt ord och står som vanligt ord utan bild. nonwordTTS är AVSTÄNGT efter hörbedömning: svensk TTS är pålitlig för riktiga ord men gissar vokalkvalitet (o som /u/ eller /å/) och vokallängd för nonsensord — i ett ljudningsverktyg är fel modelluttal värre än tystnad, så robotorden ljudas av barnet/läraren."
+    },
+    {
+      "id": "sv-aao",
+      "label": "Ord med å · ä · ö",
+      "free": false,
+      "type": "word",
+      "stage": "s1",
+      "scope": ["s","m","n","l","b","h","f","v","å","ä","ö","t","r"],
+      "nonwordTTS": false,
+      "columns": [
+        { "role": "onset", "cards": ["s","m","n","l","b","h","f","v"] },
+        { "role": "vowel", "cards": ["å","ä","ö"] },
+        { "role": "coda",  "cards": ["l","t","n","r","v"] }
+      ],
+      "real": {
+        "sån": {}, "sår": {},
+        "mål": {}, "mån": {}, "mår": {},
+        "nål": {}, "nåt": {}, "nån": {}, "når": {},
+        "låt": {}, "lån": {}, "lår": {},
+        "bål": {},
+        "båt": { "noun": "boat", "themeDir": "beach" },
+        "bår": {},
+        "hål": {}, "hån": {},
+        "hår": { "noun": "hair", "themeDir": "body parts" },
+        "håv": {},
+        "fån": { "flags": ["sensitive"] },
+        "får": { "noun": "sheep", "themeDir": "farm animals" },
+        "våt": {}, "vår": {},
+        "säl": { "noun": "seal", "themeDir": "ocean life" },
+        "säv": {}, "mät": {},
+        "nät": { "noun": "net", "themeDir": "beach" },
+        "lät": {}, "vät": {}, "häl": {}, "väl": {}, "män": {}, "län": {}, "vän": {}, "när": {}, "lär": {}, "bär": {}, "här": {}, "häv": {}, "väv": {},
+        "söl": {}, "söt": {}, "möt": {}, "nöt": {}, "lön": {}, "bön": {}, "mör": {}, "bör": {}, "hör": {}, "för": {}, "söv": {}, "föl": {},
+        "löv": { "noun": "leaf", "themeDir": "miscellaneous" }
+      },
+      "chains": [
+        ["får","hår","hål","mål","nål"],
+        ["söt","nöt","nät","lät","låt"]
+      ],
+      "comboAudit": "Alla 120 kombinationer (8 förstaljud × å/ä/ö × 5 slutljud) uppräknade och granskade. Bokstaven k saknas i hela leken (kök/kåk/kön-rymden stängd). r finns INTE som förstaljud — kombinationen r+ö+v (grovt könsord) är därmed strukturellt omöjlig; det kostade räv, som i stället får bild i Ljudrutor. Vokalen a saknas, så f+a+n är omöjligt; fån (skällsord, dumbom) är däremot äkta och flaggat känsligt — utanför kedjorna. s som slutljud togs bort (läs/nås/fås-klassen av diskutabla verbformer försvinner; sås/lås/mås/bås täcks redan av startleken). öl kan inte byggas (varje bygge har ett förstaljud). Robotrymden svept ord för ord — inga vulgära ytor (bös, mös, hön, sör, vöv m.fl. är oskyldiga). Gränsfall som lämnats som robotord: hän och fän (ålderdomliga), mäl (ålderdomligt verb), fön (hårtork — för perifert), nöl/böl/söl-verbens grundformer slutar på -a, rös/röse (osäker sidoform, och r-fritt ändå).",
+      "notes": "Å, ä och ö är egna bokstäver med egna ljud och hör till den ljudenliga kärnan i åk 1 — den här leken tränar dem rent, utan dubbelteckning och utan k. Verbformer av vanliga verb räknas som riktiga ord (svensk klassrumspraxis: hör!, mät!, möt!, lät, mår, når, lär, bör, söv, vät, häv) — de är böjningsformer, inte påhitt, och en robotstämpel på hör vore fel. Plural män (av man) och vardagsformerna sån/nån/nåt står som riktiga ord. nöt behålls som vanligt ord (nöten man knäcker — den milda skällsordsbetydelsen bär inte ensam). nonwordTTS avstängt av samma skäl som i startleken: vokallängd och ö/å-kvalitet i nonsensord gissas av TTS:en."
+    },
+    {
+      "id": "sv-ordfamiljer",
+      "label": "Ordfamiljer · -al -il -us -ål -it",
+      "free": false,
+      "type": "word",
+      "stage": "s2",
+      "scope": ["s","m","b","h","n","v","a","i","u","å","l","t"],
+      "nonwordTTS": false,
+      "columns": [
+        { "role": "onset", "cards": ["s","m","b","h","n","v"] },
+        { "role": "coda",  "cards": ["al","il","us","ål","it"] }
+      ],
+      "real": {
+        "sal": {}, "mal": {}, "bal": {}, "hal": {},
+        "val": { "noun": "whale", "themeDir": "ocean life" },
+        "sil": {}, "mil": {},
+        "bil": { "noun": "car", "themeDir": "toys" },
+        "sus": {},
+        "mus": { "noun": "mouse", "themeDir": "pets" },
+        "bus": {},
+        "hus": { "noun": "house", "themeDir": "miscellaneous" },
+        "mål": {}, "bål": {}, "hål": {}, "nål": {},
+        "bit": {}, "hit": {}, "nit": {}, "vit": {}
+      },
+      "chains": [
+        ["bil","bit","hit","hus","mus"],
+        ["mål","hål","hal","sal","sil"]
+      ],
+      "comboAudit": "Alla 30 kombinationer (6 förstaljud × 5 rimdelar) uppräknade och granskade. Ordförrådet är en delmängd av startlekens redan svepta rymd (inget k, inget f/j, inga dubbeltecknade slutljud). Robotkombinationerna nal, hil, nil, vil, nus, vus, sål, vål, sit, mit är alla oskyldiga nonsensord — inga vulgära, anatomiska eller alkoholrelaterade ytor. Inga känsligt flaggade ord i leken. 20 av 30 kombinationer är riktiga ord — hög täthet, som sig bör i en ordfamiljelek.",
+      "notes": "Analogilek i två kolumner: samma rimdel, nytt förstaljud (så arbetar man med ordfamiljer i åk 1 — hör du att bil och sil rimmar?). Rimdelarna -al, -il, -us, -ål och -it är valda för högsta äkta täthet i svenskan (5/6, 3/6, 4/6, 4/6, 4/6) i stället för de engelska familjerna. Rimdelen visas som ETT kort utan söm — den ska läsas som en enhet, det är själva poängen med ordfamiljer. nonwordTTS avstängt som i övriga lekar."
+    }
+  ]
+}

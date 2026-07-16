@@ -97,6 +97,32 @@
       "Palabras de la semana: escribe tu propia lista con el vocabulario que estén trabajando y usa las cajas como estación de repaso en pequeños grupos."
     ]
   },
+  "blending-board": {
+    "slug": "tablero-de-silabas",
+    "name": "Tablero de sílabas",
+    "tagline": "Une sílabas y sonidos para formar palabras",
+    "metaTitle": "Tablero de sílabas interactivo gratis | LessonCraftStudio",
+    "metaDescription": "Tablero de sílabas en línea y gratis: une sílabas y sonidos para formar palabras reales, con voz, imágenes y sílabas trabadas. Sin registro, listo para el aula.",
+    "about": [
+      "El tablero de sílabas es el silabario de toda la vida convertido en herramienta interactiva: columnas de tarjetas que el niño desliza para formar combinaciones y leerlas en voz alta. En español leemos de sílaba en sílaba, y por eso este tablero trabaja con la sílaba como unidad natural: ma y no se juntan y aparece mano; se cambia una sola tarjeta y mano se convierte en mono. Ese pequeño cambio, visible y sonoro, es la esencia de aprender a leer.",
+      "Cada mazo está clasificado palabra por palabra: si la combinación existe, el tablero la celebra como palabra real (muchas con su imagen); si no existe, es una palabra inventada, y leerla también cuenta, porque demuestra que el niño decodifica de verdad y no adivina. La progresión sigue el camino del aula mexicana: sílabas directas con a y o, sílabas con e · i, las temidas sílabas trabadas (pla, bru, glo) y un mazo de tres sonidos para pasar de la sílaba al fonema (sol → s-o-l).",
+      "Funciona en el navegador, en la pizarra digital, en tabletas y computadoras, sin instalar nada y sin crear cuentas. No hay cronómetro ni puntuación: solo tarjetas, voz y el gusto de descubrir palabras."
+    ],
+    "howToUse": [
+      "Proyecta el tablero en la pizarra digital o ábrelo en las tabletas y elige el mazo que corresponda al momento lector de tu grupo: sílabas con a y o para empezar, e · i después, trabadas y tres sonidos al final.",
+      "Pide a un niño que deslice una columna para cambiar una tarjeta y que todo el grupo lea la nueva combinación, alargando cada parte: mmma... nooo... ¡mano!",
+      "Barre con el dedo de izquierda a derecha sobre las tarjetas para unir las partes y decir la palabra completa; ese momento de síntesis es el corazón de la lectura.",
+      "Pregunta siempre: ¿es una palabra real o una palabra inventada? Si es real, aparece su insignia con la imagen; si es inventada, celebren igual la lectura correcta: leer «tano» sin equivocarse también es leer.",
+      "Usa la palabra sorpresa para que el tablero proponga combinaciones al azar, y las cadenas de palabras para cambiar una sola tarjeta cada vez: mano, mono, mona... los niños descubren que un solo cambio transforma toda la palabra."
+    ],
+    "classroomIdeas": [
+      "Cadenas de palabras en coro: forma mano y cambia una sola tarjeta cada vez (mono, mona, pana, pata, gata, gato); el grupo lee cada eslabón y descubre qué sílaba cambió y qué sílaba se quedó.",
+      "¿Real o inventada?: cada niño forma una combinación y el grupo vota con el pulgar antes de comprobarlo en el tablero; hablar de por qué una palabra no existe afina la conciencia de la lengua.",
+      "Pareja perfecta con las Cajas de sonidos: primero separen la palabra en las cajas (ma-no, una ficha por sílaba) y luego vengan al tablero a construirla y unirla; segmentar y sintetizar son las dos caras de la misma moneda lectora.",
+      "Hospital de trabadas: con el mazo de pla y bru, los niños pronuncian despacio la sílaba difícil (glooo... bo), luego rápido, y ganan una palabra por cada trabada bien leída en el turno de la semana.",
+      "Dictado al revés: di una palabra del mazo (vaca, luna, fresa) y pide a un niño que la construya deslizando las columnas; el resto verifica sílaba por sílaba si el tablero dice lo mismo que la voz."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

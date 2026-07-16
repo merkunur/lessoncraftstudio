@@ -149,6 +149,32 @@
       "Vrije schrijfhoek: laat kinderen hun eigen naam, mama, papa of het weekthema bouwen — alles wat het kind zelf spelt, telt."
     ]
   },
+  "calendar-wall": {
+    "slug": "dagopening",
+    "name": "Dagopening",
+    "tagline": "Kalender, schooldagen en weer op het digibord",
+    "metaTitle": "Dagopening digibord: kalender en weer | LessonCraftStudio",
+    "metaDescription": "Gratis dagopening voor het digibord: de datum in echte woorden, schooldagen tellen met bundels en tienraam en de weergrafiek van de maand. Zonder account.",
+    "about": [
+      "De dagopening is het hart van de ochtendkring in groep 1 tot en met 4: welke dag is het vandaag, hoeveel dagen zitten we al op school, en wat voor weer is het buiten? Deze digitale dagopening vervangt de geplastificeerde kalenderkaartjes en de papieren rietjes door één scherm dat de hele klas kan zien — en alles is aanraakbaar, want bij een goede kalenderroutine is het een kind, het hulpje van de dag, dat mag aanwijzen en omdraaien. De kaart van vandaag ligt op de kop tot het hulpje hem omdraait, en de datum wordt in echte woorden uitgesproken — donderdag zestien juli, nooit een robotstem die cijfers voorleest. Wat op het bord staat, is precies wat er wordt gezegd: dat is voorbereidend lezen in de kring.",
+      "Het rekenen zit in het dagen tellen, en dat is echt rekenen — geen versiering. De schooldagenteller laat hetzelfde getal op drie manieren tegelijk zien: rietjes in bundels, een tienraam en het getal. Eén tik op +1 en alle drie bewegen samen mee. Op dag tien kijkt de klas toe hoe tien losse rietjes één bundel van tien worden — tientallen en eenheden gebeuren live voor hun neus, precies het getalbegrip en de structuur van ons tientallig stelsel waar de kerndoelen rekenen in de onderbouw om vragen. En op dag honderd hangt er vanzelf een slinger: het 100-dagenfeest dat zoveel kleuterklassen en groepen 3 al vieren, nu met honderd rietjes die één bundel van honderd worden.",
+      "De weergrafiek maakt van het dagelijkse weerpraatje het eerste échte werken met gegevens. Elke schooldag één waarneming, één tik, één pictogram op de grafiek — en halverwege de maand ligt er een staafgrafiek van pictogrammen om over te praten: welk weer zien we het vaakst, hoeveel zonnige dagen meer dan regendagen? Zo groeit grafieken lezen vanzelf uit de kring, zoals de kerndoelen dat bedoelen: gegevens verzamelen, ordenen en aflezen in een betekenisvolle context. Alles werkt direct in de browser op het digibord, zonder installatie, zonder account, zonder timer en zonder score."
+    ],
+    "howToUse": [
+      "Open de dagopening op het digibord — de kalender toont de maand, met de kaart van vandaag op de kop.",
+      "Laat het hulpje van de dag de kaart omdraaien: de datum klinkt in echte woorden en de klas zegt hem na.",
+      "Ga naar Schooldagen en laat het hulpje op +1 tikken — de rietjes, het tienraam en het getal bewegen samen mee.",
+      "Vraag de klas wat voor weer het is, kies samen één woord en laat het hulpje erop tikken — de grafiek van de maand groeit met één pictogram.",
+      "Gebruik de praatvraag onder de grafiek voor een minuutje echt grafiekgesprek — en klaar: de hele routine in een minuut of tien."
+    ],
+    "classroomIdeas": [
+      "Gisteren-vandaag-morgen in koor: lees de drie zinnen elke ochtend samen hardop — goud voor NT2-leerlingen en meertalige klassen.",
+      "Voorspellen vóór het omdraaien: laat de klas vandaag al zeggen welke dag en datum het morgen wordt, en controleer het morgen bij het omdraaien.",
+      "Aftellen naar een tientaldag: vraag drie dagen vóór dag 40 hoe de bundels er dan uit zullen zien en laat de kinderen hun voorspelling tekenen.",
+      "Weerdetective: laat elke vrijdag één kind verslag doen van de weergrafiek — hoeveel van elk, welk weer staat voor, hoeveel dagen hebben we al ingevuld?",
+      "Het 100-dagenfeest: tel samen met sprongen van tien naar honderd terwijl de tien bundels één bundel van honderd worden — en tel daarna gewoon door, want dag 101 is ook een getal."
+    ]
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

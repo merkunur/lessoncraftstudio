@@ -149,6 +149,32 @@
       "Stationsarbete: ljuda veckans ord i Ljudrutor först, bygg dem sedan här med magnetbokstäver — och skriv dem till sist i skrivboken."
     ]
   },
+  "calendar-wall": {
+    "slug": "samlingskalender",
+    "name": "Samlingskalender",
+    "tagline": "Datum, skoldagar och väder — hela samlingen på en skärm",
+    "metaTitle": "Gratis samlingskalender för klassrummet | LessonCraftStudio",
+    "metaDescription": "Gratis samlingskalender för klassrummet: dagens datum uppläst med riktiga ord, skoldagsräknare med buntar och tioram och ett väderdiagram — utan inloggning.",
+    "about": [
+      "Samlingskalendern är samlingens hjärta i förskoleklass och lågstadiet: dagens datum, hur många dagar vi har gått i skolan och vad det är för väder ute. Den här digitala väggen ersätter laminerade fickor och pappersremsor med en enda bild på storbilden — och allt går att trycka på, för i en bra kalenderrutin är det ett barn, dagens hjälpare, som gör tryckandet. Dagens kort ligger nedvänt tills hjälparen vänder det, och datumet läses upp med riktiga ord — ”torsdag den sextonde juli”, aldrig en robotröst som rabblar siffror. I går, i dag och i morgon står som tre meningar klassen kan läsa i kör.",
+      "Matematiken är på riktigt, inte pynt. Skoldagsräknaren visar samma tal på tre sätt samtidigt: buntar av sugrör, en tioram och siffrorna — precis den taluppfattning med ental, tiotal och hundratal som står i centrum i matematiken för årskurs 1–3 i Lgr22. När dag tio kommer får klassen se tio lösa sugrör buntas ihop till ett tiotal, och på den hundrade skoldagen blir tio buntar ett hundratal — hundradagarsfesten som allt fler svenska klasser firar, här som en matematisk milstolpe med vimplar i stället för poäng. Ett tryck flyttar alla tre bilderna av talet samtidigt, något en pappersvägg aldrig kan.",
+      "Väderdiagrammet gör den dagliga väderobservationen till klassens första riktiga statistikarbete: ett tryck om dagen, en symbol i diagrammet, och en bit in i månaden finns ett äkta bilddiagram att prata om — vilket väder har flest dagar, hur många fler soldagar än regndagar? Verktyget körs direkt i webbläsaren på klassrumsdatorn eller projektorn — inget konto, ingen installation, ingen timer och inga poäng. Bara en lugn morgonrutin som är redo i samma stund som projektorn tänds."
+    ],
+    "howToUse": [
+      "Öppna kalendern på projektorn eller den interaktiva tavlan — månaden visas med dagens kort nedvänt.",
+      "Låt dagens hjälpare vända dagens kort: datumet läses upp med riktiga ord, och klassen säger det i kör.",
+      "Gå vidare till Skoldagar och låt hjälparen trycka +1 — sugrören, tioramen och talet rör sig tillsammans.",
+      "Fråga klassen vad det är för väder, enas om ett ord och låt hjälparen trycka — månadens diagram växer med en symbol.",
+      "Använd samtalsfrågan under diagrammet för en minuts riktigt diagramprat — sedan är rutinen klar, på ungefär tio minuter."
+    ],
+    "classroomIdeas": [
+      "Läs i går–i dag–i morgon i kör varje morgon: de tre meningarna är guld för barn som håller på att lära sig svenska.",
+      "Förutsäg före vändningen: låt klassen säga morgondagens dag och datum högt i dag — och kontrollera med kortet i morgon.",
+      "Nedräkning till tiotalsdagarna: tre dagar före dag 40, fråga hur buntarna kommer att se ut och låt barnen rita sin gissning.",
+      "Väderdetektiven: varje fredag rapporterar ett barn diagrammet — hur många av varje väder, vilket leder, hur många dagar sammanlagt.",
+      "Hundradagarsfesten: räkna till 100 med tiohopp när tio buntar blir ett hundratal — och räkna sedan vidare förbi (dag 101 är också ett tal)."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

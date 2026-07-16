@@ -1,0 +1,60 @@
+#!/usr/bin/env node
+/* All-11-locale mount smoke for calendar-wall: grid renders, the date
+   line is a composed sentence (no digits), the dock is present, zero
+   non-404 console errors. */
+'use strict';
+const http = require('http');
+const fs = require('fs');
+const path = require('path');
+const puppeteer = require('puppeteer');
+const REPO = path.join(__dirname, '..');
+const MINI = path.join(REPO, 'mini tools');
+const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.html': 'text/html' };
+
+const LOCALES = ['en', 'de', 'fr', 'it', 'es', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
+
+function serve() {
+  return http.createServer((req, res) => {
+    let p = decodeURIComponent(req.url.split('?')[0]);
+    const file = p.startsWith('/mini-tools/') ? path.join(MINI, p.slice('/mini-tools/'.length)) : path.join(MINI, p.replace(/^\//, ''));
+    fs.readFile(file, (err, buf) => {
+      if (err) { res.statusCode = 404; res.end(); return; }
+      res.setHeader('Content-Type', MIME[path.extname(file)] || 'application/octet-stream');
+      res.end(buf);
+    });
+  });
+}
+
+(async () => {
+  const server = serve();
+  await new Promise((r) => server.listen(0, r));
+  const PORT = server.address().port;
+  const browser = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox'] });
+  const page = await browser.newPage();
+  await page.setViewport({ width: 1024, height: 900 });
+  let fails = 0;
+  const errs = [];
+  page.on('console', (m) => { if (m.type() === 'error') errs.push(m.text()); });
+  page.on('pageerror', (e) => errs.push('pageerror: ' + e.message));
+
+  for (const L of LOCALES) {
+    errs.length = 0;
+    await page.goto(`http://127.0.0.1:${PORT}/mini-tools/calendar-wall.html?lang=${L}`, { waitUntil: 'networkidle0' });
+    const got = await page.waitForSelector('.cwl-grid', { timeout: 8000 }).then(() => true).catch(() => false);
+    const m = await page.evaluate(() => ({
+      title: (document.querySelector('.lcs-title') || {}).textContent,
+      line: (document.querySelector('.cwl-datetext') || {}).textContent || '',
+      dock: document.querySelectorAll('.cwl-dockchip').length,
+      cells: document.querySelectorAll('.cwl-cell:not(.empty)').length,
+      wd: [...document.querySelectorAll('.cwl-wd')].map(e => e.textContent).join(' ')
+    }));
+    const real = errs.filter((e) => !/404|Failed to load resource|net::ERR/i.test(e));
+    const ok = got && m.dock === 3 && m.cells >= 28 && m.line && !/\d/.test(m.line) && real.length === 0;
+    if (!ok) fails++;
+    console.log(`${ok ? '✓' : '✗'} ${L}: "${m.title}" — "${m.line}" [${m.wd.slice(0, 34)}…]${real.length ? ' ERRORS: ' + real.slice(0, 2).join(' | ') : ''}`);
+  }
+  await browser.close();
+  server.close();
+  console.log(fails ? `RESULT: FAIL (${fails})` : 'RESULT: PASS (11/11)');
+  process.exit(fails ? 1 : 0);
+})().catch((e) => { console.error(e); process.exit(1); });

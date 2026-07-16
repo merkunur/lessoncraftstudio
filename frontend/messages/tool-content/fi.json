@@ -149,6 +149,32 @@
       "Eriyttäminen: osa rakentaa vapaasti, osa etenee sanakorttien tuella kirjainlaatikko kerrallaan – sama taulu, monta tasoa."
     ]
   },
+  "calendar-wall": {
+    "slug": "kalenteriseina",
+    "name": "Kalenteriseinä",
+    "tagline": "Päivämäärä, koulupäivät ja sää — koko aamupiiri yhdellä seinällä",
+    "metaTitle": "Ilmainen luokan kalenteri aamupiiriin | LessonCraftStudio",
+    "metaDescription": "Ilmainen kalenteriseinä aamupiiriin: puhuttu päivämäärä, koulupäivien laskuri, joka niputtaa kympit, sekä kuukauden sääkaavio – ei kirjautumista.",
+    "about": [
+      "Kalenteriseinä tuo luokan rakkaimman aamurutiinin taululle: mikä päivä tänään on? Päivän apulainen napauttaa tämän päivän korttia, kortti kääntyy ja päivämäärä sanotaan ääneen sana sanalta, täsmälleen niin kuin se on kirjoitettu: torstai, kuudestoista heinäkuuta. Eilinen, tämä päivä ja huominen saavat omat rivinsä, ja koko kuukausi pysyy näkyvissä kuin luokan seinäkalenterissa – mutta suurena, elävänä ja heijastettuna.",
+      "Koulupäivien laskuri on kymmenjärjestelmää joka aamu: jokainen +1 kasvattaa yhtä aikaa nippuja, kymmenruudukkoa ja lukua. Kymmenentenä koulupäivänä kymmenen ykköstä niputetaan yhdeksi kympiksi, ja sadantena päivänä kymmenestä kympistä syntyy sata – juuri se lukukäsitteen ja kymmenjärjestelmän pohja, jonka OPS 2014:n vuosiluokkien 1–2 matematiikka rakentaa, tässä koulupäivä kerrallaan kasvaen.",
+      "Millainen sää tänään on? Lapsi katsoo ikkunasta, valitsee kortin – aurinkoista, pilvistä, sateista – ja päivä piirtyy kuukauden sääkaavioon, yksi ruutu jokaista päivää kohden. Kuun lopussa luokka lukee oikeaa kaaviota: mitä säätä on ollut eniten? Montako sadepäivää enemmän? Ympäristöopin sään havainnointi ja matematiikan kaavion lukeminen kohtaavat samalla seinällä – ilman ajastinta ja pisteitä, suoraan selaimessa."
+    ],
+    "howToUse": [
+      "Heijasta kalenteriseinä taululle, kun luokka saapuu, ja valitse päivän apulainen – kalenteri on hänen.",
+      "Aamupiirissä apulainen kääntää tämän päivän kortin ja napauttaa sitten päivämääräriviä; koko luokka toistaa päivämäärän kuorossa.",
+      "Napauttakaa +1 koulupäivä ja seuratkaa yhdessä: kun ykkösiä on kymmenen, luokka näkee, miten niistä niputetaan kymppi.",
+      "Kysy 'Millainen sää tänään on?', anna lapsen valita kortti ja katsokaa, miten uusi ruutu ilmestyy kuukauden kaavioon.",
+      "Säädä asetuksista, mitä laskuri näyttää – niput, kymmenruudukon vai pelkän luvun – sitä mukaa kuin luokka edistyy."
+    ],
+    "classroomIdeas": [
+      "Viikon apulainen: jokainen lapsi on vuorollaan viikon kalenterinhoitaja – kääntää kortin, sanoo päivämäärän ja merkitsee sään; rutiini, rohkea puhuminen ja vastuu samassa tehtävässä.",
+      "Kympin ennustus: kysy päivinä 9, 19 ja 29 ennen napautusta: 'Syntyykö huomenna uusi kymppi?' Niputtamisen ennakointi on kymmenjärjestelmän ydintä.",
+      "Sadan päivän juhla: juhlikaa sadatta koulupäivää – sata taputusta, sata askelta, sadan esineen kokoelmia – ja näyttäkää seinältä, miten kymmenen kymppiä muuttuu sadaksi.",
+      "Sääsalapoliisit: kuun lopussa luokka lukee kaavion ja vastaa: mikä sää voitti? Montako päivää enemmän? Löytö kirjataan vihkoon.",
+      "Eilen, tänään, huomenna: leikkikää riveillä aikajanaa – 'jos tänään on tiistai, mikä päivä oli eilen?' – ennen kuin kortti käännetään ja tarkistetaan."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

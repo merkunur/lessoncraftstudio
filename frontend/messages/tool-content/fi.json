@@ -201,6 +201,32 @@
       "Oma sarja aapisen tahtiin: kokoa Omat sarjat -välilehdellä viikon sarja, joka harjoittaa juuri sitä rakennetta, jota luokka parhaillaan opettelee — vaikkapa kymmeneen täydentämistä."
     ]
   },
+  "rekenrek": {
+    "slug": "helmitaulu",
+    "name": "Helmitaulu",
+    "tagline": "Heijastettava 20 helmen helmitaulu: liu’uta helmiä ja näytä luku yhdellä työnnöllä",
+    "metaTitle": "Helmitaulu netissä ilmaiseksi | LessonCraftStudio",
+    "metaDescription": "Ilmainen helmitaulu taululle: viisi punaista ja viisi valkoista helmeä rivillä. Näytä luku yhdellä työnnöllä ja välähdytä verhon takaa. Ei kirjautumista.",
+    "about": [
+      "Helmitaulu tuo alkuopetuksen rakastetuimman laskuvälineen suoraan luokan taululle: yksi tai kaksi riviä, joissa kummassakin on kymmenen helmeä — viisi punaista ja viisi valkoista. Väline on hollantilaisen matematiikanopetuksen klassikko, ja sen koko idea kiteytyy yhteen liikkeeseen: näytä seitsemän tarttumalla seitsemänteen helmeen ja työntämällä KERRAN. Lapsi ei laske helmiä yksitellen vaan näkee viiden punaisen ryhmän ja kaksi valkoista — viisi ja kaksi on seitsemän. Juuri tätä lukumäärän hahmottamista yhdellä silmäyksellä, subitisaatiota, helmitaulu harjoittaa jokaisella työnnöllä — ja siksi se ansaitsee paikkansa jokaisen esi- ja alkuopetuksen luokan seinällä.",
+      "Värinvaihto viiden kohdalla tekee luvuista rakenteita: kahdeksan ei ole kahdeksan irrallista helmeä vaan viisi ja kolme, ja kahdella rivillä tuplat ja kymppiparit nousevat esiin kuin itsestään. Kun luokka siirtyy lukualueelle 0–20, alarivi tulee mukaan: 9 + 4 muuttuu kymmenylitykseksi, jonka lapsi näkee omin silmin — yksi helmi ylös, ja siinä on 10 ja 3. Valmiit helmisarjat kulkevat samaa polkua kuin OPS 2014:n vuosiluokkien 1–2 lukukäsite: yhdellä työnnöllä näyttämisestä tupliin, kymppipareihin ja kymmenylitykseen. Isoimmillaan seinälle nousee kymmenen taulua — sata helmeä — ja kymmenjärjestelmä näkyy täysinä riveinä.",
+      "Opettaja heijastaa helmitaulun taululle, ja lapset käyvät liu’uttamassa helmiä — sormella, hiirellä tai nuolinäppäimillä. Välähdystila lisää mukaan verhorituaalin: helmet välähtävät hetken verhon takaa, ja luokka kertoo, mitä näki ja miten — Näytä uudelleen antaa jokaisen tarkistaa oman mielikuvansa. Halutessa taulu myös sanoo luvun ääneen suomeksi, joten lukumäärä, numero ja lukusana kohtaavat samassa hetkessä. Kaikki toimii selaimessa ilman kirjautumista — eikä täällä ole ajastimia, pisteitä tai oikein–väärin-ääniä, vaan rauhallinen väline, joka jättää tilaa yhteiselle matikkapuheelle."
+    ],
+    "howToUse": [
+      "Heijasta helmitaulu luokan taululle ja valitse rivien määrä: yksi rivi lukualueelle 0–10, kaksi riviä lukualueelle 0–20.",
+      "Anna lapsen näyttää luku yhdellä työnnöllä: tartu oikeaan helmeen ja liu’uta koko joukko kerralla — laskematta yksitellen.",
+      "Avaa Helmisarjat ja valitse valmis sarja — vaikkapa Yhdellä työnnöllä, Kymppiparit tai Täydennä ensin kymmeneen — ja etene askel kerrallaan.",
+      "Kokeile välähdystä: helmet näkyvät hetken verhon takaa, luokka kertoo, mitä näki, ja Paljasta avaa taulun yhteistä puhetta varten.",
+      "Napauta Sano luku, niin taulu lausuu luvun suomeksi — ja Palauta helmet siirtää kaikki takaisin reunaan seuraavaa lukua varten."
+    ],
+    "classroomIdeas": [
+      "Yhden työnnön haaste: sano luku ja anna lapsen näyttää se yhdellä ainoalla työnnöllä — jos työntöjä tarvitaan kaksi, miettikää yhdessä, mistä helmestä kannattaa tarttua.",
+      "Välähdytä ja rakenna perässä: välähdytä helmet ja anna lapsen rakentaa näkemänsä — puhukaa sitten, miten kukin sen näki: viitosen ryhmänä vai yksittäisinä helminä?",
+      "Montako on piilossa? Verho peittää alarivin, kun mukana on kymmenen helmeä — näkyvistä helmistä lapsi päättelee piilossa olevat, ja kymppiparit vahvistuvat huomaamatta.",
+      "Tuplapäivä: rakentakaa 2 + 2, 3 + 3 ja 4 + 4 ja ihailkaa symmetriaa — sitten Melkein tuplat: yksi helmi lisää, ja lapsi näkee 3 + 4:n laskematta uudelleen.",
+      "Satahelminen seinä: kootkaa luku 47 rivi kerrallaan kymmenen taulun seinälle ja sanokaa se ääneen — neljä täyttä kymmenriviä ja seitsemän näkyvät suoraan seinältä."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

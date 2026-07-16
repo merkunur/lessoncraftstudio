@@ -201,6 +201,32 @@
       "Le serie della tua classe: componi una serie su misura — le quantità che state esplorando in questi giorni, il tema che i bambini amano — e ritrovala pronta ogni mattina in «Le mie serie»."
     ]
   },
+  "rekenrek": {
+    "slug": "abaco-da-20",
+    "name": "Abaco da 20",
+    "tagline": "Cinque rosse e cinque bianche: mostra i numeri con una spinta sola",
+    "metaTitle": "Abaco da 20 online gratis per la LIM | LessonCraftStudio",
+    "metaDescription": "Abaco da 20 online da proiettare sulla LIM: cinque palline rosse e cinque bianche per fila, i numeri si vedono con una spinta sola. Gratis, senza login.",
+    "about": [
+      "Sulla LIM compare un abaco speciale: una o due aste con dieci palline ciascuna, cinque rosse e cinque bianche. È il rekenrek, nato nei Paesi Bassi per insegnare a vedere i numeri invece di contarli a uno a uno — e non va confuso con l’abaco a colonne delle unità e delle decine. La consegna è una sola, ed è l’anima dello strumento: «Fammi vedere il 7 con una spinta sola». Il bambino prende la settima pallina e spinge una volta: davanti agli occhi restano cinque rosse e due bianche. Il 7 non è più una filastrocca di passi, è un’immagine — cinque e due — che si riconosce a colpo d’occhio.",
+      "Il colore fa il lavoro: al quinto posto l’asta passa dal rosso al bianco, così il cinque si vede senza contare e ogni numero si legge come «cinque e ancora qualcosa». Le serie pronte — dalla scuola dell’infanzia alla classe seconda — mettono in fila piccole mosse pensate: i doppi, i quasi doppi, gli amici del dieci, il passaggio della decina in cui 9 e 4 diventano 10 e 3 spostando una sola pallina. Sono i mattoni del calcolo mentale entro il 20 che i traguardi delle Indicazioni nazionali tracciano per i primi anni della primaria: vedere i numeri dentro i numeri, e poi imparare a fidarsene.",
+      "E poi c’è il gioco del sipario: la modalità lampo mostra le palline per due, tre o cinque secondi e le nasconde di nuovo. «Quante ne hai viste? Come le hai viste?» — ogni modo di vedere ha valore, perché qui non ci sono punteggi, timer sotto gli occhi dei bambini né risposte segnate in rosso. Con «Mostra ancora» la stessa immagine ritorna, con «Scopri» il sipario resta aperto per parlarne, e un tocco fa dire il numero a voce alta. Quando la classe è pronta si aggiungono abachi fino alla parete del 100: dieci file da dieci, le decine in colonna. Tutto nel browser, gratis, senza registrazione."
+    ],
+    "howToUse": [
+      "Proietta l’abaco sulla LIM: si parte con una fila da dieci palline, cinque rosse e cinque bianche; per i numeri fino a 20 aggiungi la seconda fila dalle impostazioni.",
+      "Chiedi un numero con la consegna magica: «Fammi vedere il 7 con una spinta sola». Si afferra la settima pallina e si spinge una volta — restano in vista cinque rosse e due bianche, senza contare a uno a uno.",
+      "Apri la conversazione: «Come lo vedi?». Chi vede cinque e due, chi vede sette in fila, chi vede i tre spazi vuoti: ogni strada vale, e «Di’ il numero» lo fa sentire anche a voce.",
+      "Tocca «Lampo» per il gioco del sipario: le palline appaiono per pochi secondi e spariscono — poi un bambino ricostruisce alla LIM quello che ha visto, e «Mostra ancora» permette di confrontare.",
+      "Con «Metà» il sipario copre la fila di sotto: se ne vedono alcune, quante se ne nascondono? E quando la classe cresce, sali di abaco in abaco fino alla parete del 100."
+    ],
+    "classroomIdeas": [
+      "La spinta del mattino: appena finito il calendario, tre numeri da mostrare «con una spinta sola» — un minuto di matematica che diventa rituale, ogni giorno con numeri nuovi.",
+      "Lampo e ricostruisci: mostra una configurazione per tre secondi dietro il sipario, poi un bambino la ricostruisce alla LIM e racconta come l’ha tenuta in mente — «ho visto il cinque rosso e una bianca».",
+      "Quante si nascondono? Dieci palline in gioco, il sipario copre la fila di sotto: se sopra se ne vedono sette, sotto devono essercene tre — gli amici del dieci si scoprono da soli.",
+      "Il passaggio della decina in diretta: 9 e 4 sull’abaco, poi una sola pallina sale — e la classe VEDE nascere 10 e 3, prima ancora di scriverlo sul quaderno.",
+      "La parete del 100: costruite insieme il 47 riempiendo le file di dieci — quattro file piene e ancora sette — e poi ditelo a voce alta: le decine si vedono e si sentono."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

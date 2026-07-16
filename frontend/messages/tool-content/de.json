@@ -201,6 +201,32 @@
       "Wochen-Reihe speichern: Stellen Sie passend zum aktuellen Thema — Verdoppeln, Zehner voll machen, Zählen in Schritten — eine eigene Reihe zusammen und öffnen Sie sie jeden Morgen mit einem Tipp."
     ]
   },
+  "rekenrek": {
+    "slug": "rechenrahmen",
+    "name": "Rechenrahmen",
+    "tagline": "Kugeln mit einem Schwung schieben — und Zahlen auf einen Blick sehen",
+    "metaTitle": "Rechenrahmen digital – Zwanzigerrahmen online | Kostenlos",
+    "metaDescription": "Digitaler Rechenrahmen für Whiteboard & Beamer: Zahlen mit einem Schwung zeigen, die Kraft der Fünf sehen, Zahlwörter hören. Kostenlos, ohne Anmeldung.",
+    "about": [
+      "Der Rechenrahmen — vielen aus dem Anfangsunterricht als Zwanzigerrahmen vertraut — kommt hier an Beamer und Whiteboard: eine oder zwei Stangen mit je zehn Kugeln, fünf rote und fünf weiße. Die Farbgrenze bei der Fünf ist der ganze Trick. Wer die Sieben zeigen will, greift die siebte Kugel und schiebt alles davor mit einem einzigen Schwung herüber — und alle sehen sofort: fünf rote und zwei weiße, 5 und 2. Nicht einzeln abzählen, sondern das Zahlbild auf einen Blick erfassen, mit der Kraft der Fünf als Anker. Genau dieses strukturierte Sehen im Zahlenraum bis 20 löst das zählende Rechnen ab — das größte Hindernis auf dem Weg zu tragfähigen Rechenstrategien.",
+      "Im Blitzblick wartet der Rahmen hinter einem Vorhang: kurz zeigen, wieder verdecken — mit Absicht zu kurz zum Einzelzählen und genau lang genug zum Sehen. Dann kommt ein Kind nach vorn und baut nach, was es gesehen hat; erst zum Gespräch wird aufgedeckt. Auf Wunsch spricht die Tafel das Zahlwort laut mit: Bei „einundzwanzig“ hören die Kinder die Eins zuerst, sehen aber zwei volle Zehnerreihen und eine einzelne Kugel — genau die Stelle, an der im Deutschen die Zahlendreher entstehen. Wer das gedrehte Zahlwort immer wieder zusammen mit dem geordneten Zahlbild hört und sieht, verknüpft beides sicher. Und wie überall bei uns: kein Timer, keine Punkte, kein Richtig-Falsch-Signal — nur schauen, schieben und sprechen.",
+      "Die Reihen-Bibliothek liefert fertige Mini-Übungen, wie sie die Grundschuldidaktik seit Jahrzehnten prägen: Ein Schwung!, Kraft der Fünf, Verdoppeln, Verliebte Zahlen, erst den Zehner voll machen — jede Reihe eine kleine Folge von Rahmenbildern mit einem kurzen didaktischen Hinweis. Eigene Reihen sind schnell zusammengestellt und gespeichert, passend zum aktuellen Thema. Und wenn der Zahlenraum wächst, wächst der Rahmen mit: bis zur großen 100er-Wand aus zehn Stangen übereinander, auf der volle Zehnerreihen und einzelne Kugeln jede Zahl bis 100 sichtbar machen. Alles läuft direkt im Browser auf Tafel, Beamer und Tablet — ohne Installation und ohne Konto für die Kinder."
+    ],
+    "howToUse": [
+      "Öffnen Sie den Rechenrahmen am Beamer oder Whiteboard und wählen Sie eine oder zwei Stangen — Zahlenraum bis 10 oder bis 20.",
+      "Lassen Sie ein Kind nach vorn kommen: Zahl nennen, die richtige Kugel greifen und mit einem Schwung zeigen — ohne einzeln zu zählen.",
+      "Fragen Sie ins Gespräch: Wie hast du die Sieben gesehen? Fünf rote und zwei weiße? Wer hat es anders gesehen?",
+      "Für den Blitzblick den Vorhang nutzen: kurz zeigen, verdecken, nachbauen lassen — beim Aufdecken vergleicht die Klasse ihre Sehweisen.",
+      "Starten Sie eine Reihe aus der Bibliothek — oder stellen Sie eigene Schritte zusammen und speichern Sie sie für die nächste Stunde."
+    ],
+    "classroomIdeas": [
+      "Rahmenbild des Tages: ein festes Mini-Ritual im Morgenkreis — eine Zahl, ein Schwung, drei Sätze dazu. Nach einer Woche rufen die Kinder die Zerlegung, bevor die letzte Kugel steht.",
+      "Zahlendetektive: Ein Kind stellt heimlich eine Zahl ein und blitzt sie kurz — die Klasse schreibt auf die Mini-Whiteboards, dann wird aufgedeckt und verglichen: Wer hat in Fünfern gesehen?",
+      "Verliebte Zahlen suchen: oben ein paar Kugeln, unten bis zehn ergänzen — welches Paar gehört zusammen? Die Lücken oben verraten es, ganz ohne Nachzählen.",
+      "Zahlendreher-Sprechstunde: An der 100er-Wand die einundzwanzig bauen, gemeinsam sprechen und zeigen — wo ist die Eins, wo sind die zwanzig? So verlieren 12 und 21 ihren Schrecken.",
+      "Förderkreis gegen das Einzelzählen: Für Kinder, die noch alles abzählen, nur eine Stange und kleine Zahlen wählen — der eine Schwung macht das Sehen in Fünfern zur einzigen Chance, und genau das ist der Zweck."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

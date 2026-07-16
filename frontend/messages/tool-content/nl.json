@@ -201,6 +201,32 @@
       "Rekenrek lezen: flits veertien op het rekenrek en vraag hoe de kleurwissel bij vijf hielp — zo wordt tellen kijken."
     ]
   },
+  "rekenrek": {
+    "slug": "rekenrek",
+    "name": "Rekenrek",
+    "tagline": "Kralen schuiven, flitsen en in één keer zien op het digibord",
+    "metaTitle": "Rekenrek online voor het digibord | LessonCraftStudio",
+    "metaDescription": "Gratis digitaal rekenrek voor het digibord: schuif de kralen, flits achter het gordijn en oefen getalbegrip tot 20 — of bouw samen de wand van 100.",
+    "about": [
+      "Het rekenrek is van ons: bedacht in de Nederlandse realistische rekentraditie en niet meer weg te denken uit groep 3. Tien kralen per rij, vijf rood en vijf wit — die kleurwissel is de vijfstructuur waarop al het handig rekenen bouwt. Dit digitale rekenrek zet dat vertrouwde rekje levensgroot op het digibord: de kralen schuiven soepel mee met vinger of muis, en kinderen komen gewoon naar voren om zelf te schuiven. De kern is verkort tellen: zeven laat je zien in één keer — pak de zevende kraal en schuif één keer. Vijf rood en twee wit, in één oogopslag. Geen timers, geen scores, geen goed of fout — het rek laat zien, de klas praat.",
+      "De flitsmodus maakt van het rekenrek een kijkspel. Achter het gordijn zet jij een aantal kralen klaar; één tik en het gordijn gaat een paar tellen open — te kort om één voor één te tellen, lang genoeg om de structuur te zien. Hoeveel waren het er, en hoe zag je dat? Wie wil, laat precies hetzelfde beeld nog eens flitsen, en met Gordijn open blijft het rek staan voor het nagesprek. Het rek spreekt het getal ook hardop uit, in helder Nederlands: dertien, eenentwintig, zevenenveertig. Zo koppelen kinderen kralenbeeld, cijfer en telwoord aan elkaar — precies het getalbegrip tot 20 waar de kerndoelen rekenen voor groep 3 en 4 om vragen.",
+      "Een bibliotheek met uitgewerkte kralenreeksen zet je rekengesprek klaar: In één keer!, Vijf en nog wat, Dubbelen en Bijna-dubbelen, Verliefde getallen, Via de tien — stuk voor stuk kleine lesroutines uit de rekendidactiek, stap voor stap door te klikken, met bij elke reeks één regel toelichting voor jou. Eigen reeksen samenstellen en bewaren kan ook, precies passend bij jouw les. En wie verder wil dan 20, stapelt rekken: tot een wand van tien rekken onder elkaar — honderd kralen — waarop tientallen en eenheden vanzelf zichtbaar worden. Zo groeit hetzelfde vertrouwde rek mee van de eerste getalbeelden in groep 3 tot rekenen tot 100 in groep 4 en 5."
+    ],
+    "howToUse": [
+      "Open het rekenrek op het digibord en kies 1 rij (tot 10) of 2 rijen (tot 20).",
+      "Laat een kind naar voren komen om een getal te schuiven — in één keer, zonder tellen.",
+      "Zet Flitsen aan: verstop het rek achter het gordijn, flits een paar tellen en vraag wat de klas zag.",
+      "Praat na: hoeveel kralen, en hoe zag je het? Laat het getal tonen of hardop uitspreken.",
+      "Kies een kralenreeks uit de bibliotheek — of bouw met meer rekken door naar de wand van 100."
+    ],
+    "classroomIdeas": [
+      "Warming-up van drie minuten: flits een getal en laat het nabouwen in één keer — elke dag één reeks.",
+      "Verliefde getallen: verdeel tien kralen over twee rijen en laat de lege plekken meevertellen.",
+      "Bijna-dubbelen: van 4 en 4 naar 4 en 5 — wie ziet die ene extra kraal zonder opnieuw te tellen?",
+      "Het verstopspel: bedek de onderste rij met het gordijn — hoeveel kralen zitten er verstopt?",
+      "Op de wand van 100: bouw 47 rij voor rij en zeg het getal samen — de tientallen zie je zó."
+    ]
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

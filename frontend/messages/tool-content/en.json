@@ -201,6 +201,32 @@
       "Make-ten talks: flash 9 + 3 on the double frame and ask how many the first frame still needs — the empty cells teach the strategy."
     ]
   },
+  "rekenrek": {
+    "slug": "rekenrek",
+    "name": "Rekenrek",
+    "tagline": "Twenty beads, one push — see the number",
+    "metaTitle": "Free Online Rekenrek — Number Rack | LessonCraftStudio",
+    "metaDescription": "Free projectable rekenrek: slide five-red-five-white beads in one push, flash a quantity behind the curtain, hear the number spoken — up to a 100-bead wall.",
+    "about": [
+      "A rekenrek looks like an abacus but teaches the opposite habit: instead of counting beads one by one, children learn to see numbers in chunks. Every rod carries five red beads and five white ones, so seven pushed to the left is visibly five-and-two — no counting required. This projectable rekenrek keeps that structure honest: beads slide in chains with a wooden clack, and showing a number in one push — grabbing the seventh bead and sweeping once — is the whole game. There are no timers, no scores, and no numeral on screen unless you ask for one, because the real instrument has none either.",
+      "The flash routine turns the rack into a number talk. Set the beads while the class watches, pull down the curtain, and flash the rack for two, three or five seconds — long enough to see five-and-two, too short to count one at a time. Children say what they saw and how they saw it, a volunteer rebuilds it in one push, and Reveal settles it — with the number word spoken aloud the way your class says it, in any of eleven languages. The half-curtain hides just the bottom row for the classic \"how many are hiding?\" missing-part game.",
+      "A library of ready bead sequences walks the year: one push, flash and rebuild, five and some more, doubles and near doubles, friends of ten, make ten to add, and the hundred wall — each step one small variation of the last, each with a one-line teaching note. Save your own sequences for the week, grow the rack from one rod to a ten-rack 100-bead wall, and let the Speak button say forty-seven while the class sees four full rows and seven — the number word and the structure landing together."
+    ],
+    "howToUse": [
+      "Slide beads with a finger or the mouse — grab the seventh bead and sweep once to show 7 in one push; the beads travel as a chain with a clack.",
+      "Tap Say the number any time to hear the total spoken as a real number word — the numeral stays hidden unless you switch it on.",
+      "For a flash routine, set the beads, tap Cover, then Show for a timed flash — or press and hold to keep the rack visible exactly as long as your thumb is down.",
+      "Ask how many they saw and how they saw it, let a child rebuild the number in one push, then Reveal to settle it together.",
+      "Open the bead sequences for ready-made routines with teaching notes, or add racks — up to the 100-bead wall — for tens-and-ones work."
+    ],
+    "classroomIdeas": [
+      "One-push warm-up: call a number to 10; a child shows it in a single sweep while the class checks — five-and-two, not seven ones.",
+      "Flash and rebuild: three seconds behind the curtain, partners agree on what they saw, one rebuilds it — the answer is a gesture, not a word.",
+      "How many are hiding? Show the total, drop the half-curtain over the bottom row, and let children reason from the part they can see.",
+      "Doubles and near doubles: build 4 and 4 on two rows, then push one more bead — children see how 4+5 leans on the double.",
+      "The hundred wall: on ten racks, build 47 as four full rows and seven — then say it aloud and hear how the number word matches the rows."
+    ]
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

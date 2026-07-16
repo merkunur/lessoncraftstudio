@@ -201,6 +201,32 @@
       "Charlas de completar diez: muestra 9 + 3 en el marco doble y pregunta cuántos le faltan al primer marco — las casillas vacías enseñan la estrategia."
     ]
   },
+  "rekenrek": {
+    "slug": "abaco-de-20",
+    "name": "Ábaco de 20",
+    "tagline": "El rekenrek para proyectar: cinco rojas y cinco blancas — números de un solo empujón",
+    "metaTitle": "Ábaco de 20 en línea gratis (rekenrek) | LessonCraftStudio",
+    "metaDescription": "Ábaco de 20 (rekenrek) gratis para proyectar: cinco cuentas rojas y cinco blancas por fila, destello con cortina y números en voz alta. Sin registro.",
+    "about": [
+      "Este no es el ábaco de columnas de siempre: es un ábaco de 20 —el rekenrek holandés—, una o dos filas de diez cuentas donde cada fila lleva cinco rojas y cinco blancas. Ese cambio de color en la quinta cuenta es toda la idea: la fuerza del cinco. Para mostrar 7, el niño no cuenta de uno en uno; agarra la séptima cuenta y desliza todas de un solo empujón — y el 7 se VE como cinco rojas y dos blancas. Así se construye el sentido numérico que pide el programa de la SEP: los números hasta 20 como estructuras que se miran de un vistazo, no como filas que se cuentan una por una.",
+      "Proyéctalo y deja que los niños pasen a deslizar: las cuentas responden al dedo o al mouse, con su clac de madera si lo quieres. El modo destello agrega el ritual de la cortina: se cierra, se abre dos, tres o cinco segundos y se vuelve a cerrar — suficiente para ver la estructura, demasiado poco para contar. Después viene la plática: ¿cuántas viste?, ¿cómo lo viste? Al destapar, la herramienta puede decir el número en voz alta —trece, diecisiete—, para que tu grupo oiga la palabra junto a lo que ve. No hay cronómetros, ni estrellas, ni tache: solo cuentas, cortina y charla.",
+      "La biblioteca de series trae minilecciones listas para preescolar, primero y segundo: de un solo empujón, cinco y algo más, dobles y casi dobles, amigos del diez, completa el diez para sumar. Cada serie es una escalera de pasos con su nota didáctica de una línea; también puedes armar y guardar tus propias series para la semana. Y cuando el grupo esté listo para números más grandes, agrega ábacos hasta llegar a la pared de 100: diez filas de diez cuentas donde el 68 se ve como seis filas llenas y ocho en la séptima —cinco rojas y tres blancas—, las decenas a la vista antes de que nadie mencione el valor posicional."
+    ],
+    "howToUse": [
+      "Proyecta el ábaco y desliza las cuentas con el dedo o el mouse — o pide una cantidad con Mostrar un número y las cuentas se acomodan solas.",
+      "Practica el gesto clave: para mostrar 7, agarra la séptima cuenta y deslízala con todo y las anteriores — un solo empujón, sin contar de uno en uno.",
+      "Activa el Destello: la cortina se abre 2, 3 o 5 segundos y se cierra — pregunta ¿cuántas viste?, ¿cómo lo viste?, y destapa para platicar.",
+      "Sigue una serie de la biblioteca — cada paso acomoda las cuentas por ti y la nota de una línea te dice qué conviene preguntar — o arma y guarda la tuya.",
+      "Cambia entre 1 fila (hasta 10) y 2 filas (hasta 20), y agrega ábacos hasta la pared de 100 cuando el grupo trabaje con decenas."
+    ],
+    "classroomIdeas": [
+      "Calentamiento de tres minutos: destello de un número hasta 10, las parejas platican cómo lo vieron y un niño pasa a reconstruirlo — ¿de un solo empujón?",
+      "Amigos del diez: con diez cuentas en juego, tapa la fila de abajo con la cortina — se ven seis arriba, ¿cuántas se esconden abajo?",
+      "Dobles y casi dobles: el mismo empujón en las dos filas y luego una cuenta más — el 6 + 7 deja de ser misterio cuando se ve como 6 + 6 + 1.",
+      "Paso por el diez: muestra 9 y 4, sube una sola cuenta y míralo convertirse en 10 y 3 — la estrategia de completar el diez, sin lápiz ni papel.",
+      "Conteo de decenas en la pared de 100: llena filas de diez mientras el grupo corea diez, veinte, treinta… y al final la herramienta dice el número en voz alta."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

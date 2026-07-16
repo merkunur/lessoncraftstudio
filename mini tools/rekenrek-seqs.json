@@ -1,0 +1,833 @@
+{
+  "$comment": "Rekenrek — the authored sequence library (Fosnot/Freudenthal minilesson strings, DONE on the rack — none duplicates tool #5's static flash-image strings). A step = a full rack configuration {racks:[{top,bottom},…]}; rackCount is implied by the array length; seq-level rows 1|2; cover:'full' flashes the step (the flash lane applies it silently under the shade), cover:'half' covers the bottom row (the missing-part game). Locale name/note drafts by the builder; corrected by the per-locale native ensembles (sv/da/no/fi [NSR-FLAG]).",
+  "version": 1,
+  "sequences": [
+    {
+      "id": "q_one_push",
+      "band": "k",
+      "rows": 1,
+      "free": true,
+      "name": {
+        "en": "One push!",
+        "de": "Ein Schwung!",
+        "fr": "En un seul geste !",
+        "it": "Una spinta sola!",
+        "es": "¡De un solo empujón!",
+        "pt": "De um empurrão só!",
+        "nl": "In één keer!",
+        "sv": "En knuff!",
+        "da": "Ét skub!",
+        "no": "Ett skyv!",
+        "fi": "Yhdellä työnnöllä!"
+      },
+      "note": {
+        "en": "Show each number in ONE push — grab the right bead and sweep. No counting!",
+        "de": "Zeige jede Zahl mit EINEM Schwung — die richtige Kugel greifen und schieben. Nicht zählen!",
+        "fr": "Montre chaque nombre en UN SEUL geste — attrape la bonne boule et pousse. Sans compter !",
+        "it": "Mostra ogni numero con UNA sola spinta — afferra la pallina giusta e spingi. Senza contare!",
+        "es": "Muestra cada número de UN solo empujón — agarra la cuenta indicada y deslízala. ¡Sin contar!",
+        "pt": "Mostre cada número de UM empurrão só — pegue a conta certa e deslize. Sem contar!",
+        "nl": "Laat elk getal in ÉÉN keer zien — pak de juiste kraal en schuif. Niet tellen!",
+        "sv": "Visa varje tal med EN knuff — ta rätt kula och skjut. Utan att räkna!",
+        "da": "Vis hvert tal med ÉT skub — tag fat i den rigtige kugle og skub. Uden at tælle!",
+        "no": "Vis hvert tall med ETT skyv — ta riktig kule og skyv. Uten å telle!",
+        "fi": "Näytä jokainen luku YHDELLÄ työnnöllä — tartu oikeaan helmeen ja työnnä. Laskematta!"
+      },
+      "steps": [
+        {
+          "racks": [
+            {
+              "top": 3,
+              "bottom": 0
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 5,
+              "bottom": 0
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 6,
+              "bottom": 0
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 7,
+              "bottom": 0
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 8,
+              "bottom": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q_flash_rebuild",
+      "band": "k",
+      "rows": 1,
+      "name": {
+        "en": "Flash and rebuild",
+        "de": "Blitzen und nachbauen",
+        "fr": "Flash et reconstruction",
+        "it": "Lampo e ricostruisci",
+        "es": "Destello y a reconstruir",
+        "pt": "Relâmpago: monte o que viu",
+        "nl": "Flitsen en nabouwen",
+        "sv": "Blixt och bygg efter",
+        "da": "Lyn og byg efter",
+        "no": "Glimt og bygg etter",
+        "fi": "Välähdytä ja rakenna perässä"
+      },
+      "note": {
+        "en": "Flash the beads, then let a child come up and rebuild what they saw — in one push?",
+        "de": "Kurz zeigen, dann baut ein Kind nach, was es gesehen hat — mit einem Schwung?",
+        "fr": "Montre en flash, puis un enfant vient reconstruire ce qu'il a vu — en un seul geste ?",
+        "it": "Mostra in un lampo, poi un bambino ricostruisce ciò che ha visto — con una spinta sola?",
+        "es": "Muestra el destello y pasa a un niño a armar lo que vio — ¿de un solo empujón?",
+        "pt": "Mostre num relâmpago e chame uma criança para montar o que viu — de um empurrão só?",
+        "nl": "Flits de kralen, dan bouwt een kind na wat het zag — in één keer?",
+        "sv": "Visa kulorna som en blixt — sedan får ett barn komma fram och bygga det de såg. Går det med en knuff?",
+        "da": "Vis kuglerne i et glimt, og lad et barn bygge, hvad det så — med ét skub?",
+        "no": "Vis kulene i et glimt, og la et barn bygge det de så — med ett skyv?",
+        "fi": "Välähdytä helmet, sitten lapsi rakentaa näkemänsä — yhdellä työnnöllä?"
+      },
+      "steps": [
+        {
+          "racks": [
+            {
+              "top": 4,
+              "bottom": 0
+            }
+          ],
+          "cover": "full"
+        },
+        {
+          "racks": [
+            {
+              "top": 6,
+              "bottom": 0
+            }
+          ],
+          "cover": "full"
+        },
+        {
+          "racks": [
+            {
+              "top": 7,
+              "bottom": 0
+            }
+          ],
+          "cover": "full"
+        },
+        {
+          "racks": [
+            {
+              "top": 9,
+              "bottom": 0
+            }
+          ],
+          "cover": "full"
+        }
+      ]
+    },
+    {
+      "id": "q_five_more",
+      "band": "k",
+      "rows": 1,
+      "name": {
+        "en": "Five and some more",
+        "de": "Kraft der Fünf",
+        "fr": "Cinq et encore…",
+        "it": "Cinque e ancora un po’",
+        "es": "Cinco y algo más",
+        "pt": "Cinco e mais alguns",
+        "nl": "Vijf en nog wat",
+        "sv": "Fem och lite till",
+        "da": "Fem og lidt til",
+        "no": "Fem og litt til",
+        "fi": "Viisi ja vähän lisää"
+      },
+      "note": {
+        "en": "The red block is five — see it, don't count it. Then the white beads tell the rest.",
+        "de": "Der rote Block ist fünf — sehen, nicht zählen. Die weißen Kugeln erzählen den Rest.",
+        "fr": "Le bloc rouge fait cinq — on le voit, on ne le compte pas. Les boules blanches disent le reste.",
+        "it": "Il blocco rosso è cinque — si vede, non si conta. Le palline bianche dicono il resto.",
+        "es": "El bloque rojo es cinco — se ve, no se cuenta. Las cuentas blancas dicen el resto.",
+        "pt": "O bloco vermelho é cinco — veja, não conte. As contas brancas contam o resto.",
+        "nl": "Het rode groepje is vijf — zien, niet tellen. De witte kralen vertellen de rest.",
+        "sv": "Det röda blocket är fem — se det, räkna inte. De vita kulorna berättar resten.",
+        "da": "Den røde blok er fem — se den, tæl ikke. De hvide kugler fortæller resten.",
+        "no": "Den røde blokken er fem — se den, ikke tell. De hvite kulene forteller resten.",
+        "fi": "Punainen ryhmä on viisi — sen näkee laskematta. Valkoiset helmet kertovat loput."
+      },
+      "steps": [
+        {
+          "racks": [
+            {
+              "top": 5,
+              "bottom": 0
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 6,
+              "bottom": 0
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 7,
+              "bottom": 0
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 8,
+              "bottom": 0
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 9,
+              "bottom": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q_doubles",
+      "band": "g1",
+      "rows": 2,
+      "name": {
+        "en": "Doubles",
+        "de": "Verdoppeln",
+        "fr": "Les doubles",
+        "it": "I doppi",
+        "es": "Dobles",
+        "pt": "Dobros",
+        "nl": "Dubbelen",
+        "sv": "Dubblor",
+        "da": "Dobbelt op",
+        "no": "Dobling",
+        "fi": "Tuplat"
+      },
+      "note": {
+        "en": "The same push on both rows — the double is the symmetry, top and bottom twins.",
+        "de": "Derselbe Schwung auf beiden Stangen — das Doppelte ist die Symmetrie, oben und unten Zwillinge.",
+        "fr": "Le même geste sur les deux rangées — le double, c'est la symétrie : jumelles en haut et en bas.",
+        "it": "La stessa spinta su entrambe le file — il doppio è la simmetria, gemelle sopra e sotto.",
+        "es": "El mismo empujón en las dos filas — el doble es la simetría, gemelas arriba y abajo.",
+        "pt": "O mesmo empurrão nas duas fileiras — o dobro é a simetria, gêmeas em cima e embaixo.",
+        "nl": "Dezelfde beweging op beide rijen — dubbel is symmetrie: boven en onder een tweeling.",
+        "sv": "Samma knuff på båda raderna — dubblan är symmetrin, tvillingar uppe och nere.",
+        "da": "Det samme skub på begge rækker — det dobbelte er symmetrien, tvillinger oppe og nede.",
+        "no": "Det samme skyvet på begge radene — doblingen er symmetrien, tvillinger oppe og nede.",
+        "fi": "Sama työntö molemmilla riveillä — tuplan näkee symmetriasta: ylä- ja alarivi ovat kaksoset."
+      },
+      "steps": [
+        {
+          "racks": [
+            {
+              "top": 2,
+              "bottom": 2
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 3,
+              "bottom": 3
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 4,
+              "bottom": 4
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 5,
+              "bottom": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q_near_doubles",
+      "band": "g1",
+      "rows": 2,
+      "name": {
+        "en": "Near doubles",
+        "de": "Fast das Doppelte",
+        "fr": "Les presque-doubles",
+        "it": "Quasi doppi",
+        "es": "Casi dobles",
+        "pt": "Quase dobros",
+        "nl": "Bijna-dubbelen",
+        "sv": "Nästan dubblor",
+        "da": "Næsten dobbelt",
+        "no": "Nesten dobling",
+        "fi": "Melkein tuplat"
+      },
+      "note": {
+        "en": "From a double to one more — the child SEES the single extra bead, no recount.",
+        "de": "Vom Doppelten zu einem mehr — das Kind SIEHT die eine Extra-Kugel, ohne neu zu zählen.",
+        "fr": "D'un double à un de plus — l'enfant VOIT la boule en plus, sans recompter.",
+        "it": "Da un doppio a uno in più — il bambino VEDE la pallina in più, senza ricontare.",
+        "es": "De un doble a uno más — el niño VE la cuenta extra, sin volver a contar.",
+        "pt": "De um dobro para um a mais — a criança VÊ a conta extra, sem recontar.",
+        "nl": "Van een dubbelsom naar één meer — het kind ZIET die ene extra kraal, zonder opnieuw te tellen.",
+        "sv": "Från en dubbla till en till — barnet SER den extra kulan, utan att räkna om.",
+        "da": "Fra en dobbelt til en mere — barnet SER den ekstra kugle uden at tælle forfra.",
+        "no": "Fra en dobling til en til — barnet SER den ekstra kulen, uten å telle på nytt.",
+        "fi": "Tuplasta yksi lisää — lapsi NÄKEE sen yhden lisähelmen, laskematta uudelleen."
+      },
+      "steps": [
+        {
+          "racks": [
+            {
+              "top": 3,
+              "bottom": 3
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 3,
+              "bottom": 4
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 4,
+              "bottom": 4
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 4,
+              "bottom": 5
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 5,
+              "bottom": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q_friends_ten",
+      "band": "g1",
+      "rows": 2,
+      "name": {
+        "en": "Friends of ten",
+        "de": "Verliebte Zahlen",
+        "fr": "Les compléments à dix",
+        "it": "Gli amici del dieci",
+        "es": "Amigos del diez",
+        "pt": "Amigos do dez",
+        "nl": "Verliefde getallen",
+        "sv": "Tiokompisar",
+        "da": "Tiervenner",
+        "no": "Tiervenner",
+        "fi": "Kymppiparit"
+      },
+      "note": {
+        "en": "Ten beads in play, split across two rows — the empty spaces above mirror the beads below.",
+        "de": "Zehn Kugeln im Spiel, auf zwei Stangen verteilt — die Lücken oben spiegeln die Kugeln unten.",
+        "fr": "Dix boules en jeu, réparties sur deux rangées — les places vides en haut reflètent les boules en bas.",
+        "it": "Dieci palline in gioco, divise su due file — gli spazi vuoti sopra rispecchiano le palline sotto.",
+        "es": "Diez cuentas en juego, repartidas en dos filas — los espacios vacíos de arriba reflejan las cuentas de abajo.",
+        "pt": "Dez contas em jogo, divididas em duas fileiras — os espaços vazios de cima espelham as contas de baixo.",
+        "nl": "Tien kralen in het spel, verdeeld over twee rijen — de lege plekken boven spiegelen de kralen onder.",
+        "sv": "Tio kulor i spel, fördelade på två rader — de tomma platserna uppe speglar kulorna nere.",
+        "da": "Ti kugler i spil, fordelt på to rækker — de tomme pladser foroven spejler kuglerne forneden.",
+        "no": "Ti kuler i spill, fordelt på to rader — de tomme plassene oppe speiler kulene nede.",
+        "fi": "Kymmenen helmeä on mukana, jaettuna kahdelle riville — ylärivin tyhjät paikat peilaavat alarivin helmiä."
+      },
+      "steps": [
+        {
+          "racks": [
+            {
+              "top": 9,
+              "bottom": 1
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 8,
+              "bottom": 2
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 7,
+              "bottom": 3
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 6,
+              "bottom": 4
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 5,
+              "bottom": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q_make_ten",
+      "band": "g1",
+      "rows": 2,
+      "name": {
+        "en": "Make ten to add",
+        "de": "Erst den Zehner voll machen",
+        "fr": "Passer par la dizaine",
+        "it": "Prima fai dieci",
+        "es": "Completa el diez para sumar",
+        "pt": "Completar dez para somar",
+        "nl": "Via de tien",
+        "sv": "Fyll upp till tio",
+        "da": "Lav ti først",
+        "no": "Lag ti først",
+        "fi": "Täydennä ensin kymmeneen"
+      },
+      "note": {
+        "en": "9 and 4: slide ONE bead up — now it is 10 and 3. The bridge through ten, made visible.",
+        "de": "9 und 4: EINE Kugel nach oben schieben — jetzt sind es 10 und 3. Der Zehnerübergang, sichtbar gemacht.",
+        "fr": "9 et 4 : fais monter UNE boule — voilà 10 et 3. Le passage par la dizaine, rendu visible.",
+        "it": "9 e 4: sposta UNA pallina in su — ora è 10 e 3. Il passaggio della decina, reso visibile.",
+        "es": "9 y 4: sube UNA cuenta — ahora son 10 y 3. El paso por el diez, hecho visible.",
+        "pt": "9 e 4: deslize UMA conta para cima — agora é 10 e 3. A passagem pelo dez, na frente dos olhos.",
+        "nl": "9 en 4: schuif ÉÉN kraal omhoog — nu is het 10 en 3. Rekenen via de tien, zichtbaar gemaakt.",
+        "sv": "9 och 4: skjut EN kula upp — nu är det 10 och 3. Tiotalsövergången blir synlig.",
+        "da": "9 og 4: flyt ÉN kugle op — nu er det 10 og 3. Tierovergangen, gjort synlig.",
+        "no": "9 og 4: flytt ÉN kule opp — nå er det 10 og 3. Tierovergangen, gjort synlig.",
+        "fi": "9 ja 4: siirrä YKSI helmi ylös — nyt se on 10 ja 3. Kymmenylitys näkyväksi."
+      },
+      "steps": [
+        {
+          "racks": [
+            {
+              "top": 9,
+              "bottom": 4
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 10,
+              "bottom": 3
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 8,
+              "bottom": 5
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 10,
+              "bottom": 3
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 9,
+              "bottom": 6
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 10,
+              "bottom": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q_two_more_less",
+      "band": "g1",
+      "rows": 2,
+      "name": {
+        "en": "Two more, two less",
+        "de": "Zwei mehr, zwei weniger",
+        "fr": "Deux de plus, deux de moins",
+        "it": "Due in più, due in meno",
+        "es": "Dos más, dos menos",
+        "pt": "Dois a mais, dois a menos",
+        "nl": "Twee erbij, twee eraf",
+        "sv": "Två fler, två färre",
+        "da": "To mere, to mindre",
+        "no": "To flere, to færre",
+        "fi": "Kaksi enemmän, kaksi vähemmän"
+      },
+      "note": {
+        "en": "One small sweep of two — not two counts of one. Watch the pair move together.",
+        "de": "Ein kleiner Schwung mit zwei Kugeln — nicht zweimal einzeln. Das Paar bewegt sich zusammen.",
+        "fr": "Un petit geste de deux boules — pas une, puis encore une. Regarde la paire bouger ensemble.",
+        "it": "Una piccola spinta di due — non due volte una. Guarda la coppia muoversi insieme.",
+        "es": "Un empujoncito de dos cuentas — no dos empujones de una. Mira cómo el par se mueve junto.",
+        "pt": "Um empurrãozinho de duas contas — não duas vezes uma. Veja o par se mover junto.",
+        "nl": "Twee kralen in één schuifje — niet twee keer één. Kijk hoe het paar samen beweegt.",
+        "sv": "En liten knuff med två — inte två gånger en. Se hur paret rör sig tillsammans.",
+        "da": "Ét lille skub med to — ikke to gange én. Se parret bevæge sig sammen.",
+        "no": "Ett lite skyv med to — ikke to ganger én. Se paret bevege seg sammen.",
+        "fi": "Yksi pieni työntö, kaksi helmeä kerralla — ei kahta erillistä siirtoa. Katso, kuinka pari liikkuu yhdessä."
+      },
+      "steps": [
+        {
+          "racks": [
+            {
+              "top": 6,
+              "bottom": 0
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 8,
+              "bottom": 0
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 6,
+              "bottom": 0
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 4,
+              "bottom": 0
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 10,
+              "bottom": 3
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 10,
+              "bottom": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q_hiding",
+      "band": "g1",
+      "rows": 2,
+      "name": {
+        "en": "How many are hiding?",
+        "de": "Wie viele verstecken sich?",
+        "fr": "Combien se cachent ?",
+        "it": "Quante si nascondono?",
+        "es": "¿Cuántas se esconden?",
+        "pt": "Quantas estão escondidas?",
+        "nl": "Hoeveel zitten er verstopt?",
+        "sv": "Hur många gömmer sig?",
+        "da": "Hvor mange gemmer sig?",
+        "no": "Hvor mange gjemmer seg?",
+        "fi": "Montako on piilossa?"
+      },
+      "note": {
+        "en": "Ten beads are in play — the curtain hides the bottom row. You see some; how many hide?",
+        "de": "Zehn Kugeln sind im Spiel — der Vorhang verdeckt die untere Stange. Einige siehst du; wie viele verstecken sich?",
+        "fr": "Dix boules sont en jeu — le rideau cache la rangée du bas. Tu en vois quelques-unes ; combien se cachent ?",
+        "it": "Dieci palline sono in gioco — il sipario nasconde la fila sotto. Ne vedi alcune; quante si nascondono?",
+        "es": "Diez cuentas están en juego — la cortina tapa la fila de abajo. Ves algunas; ¿cuántas se esconden?",
+        "pt": "Dez contas estão em jogo — a cortina esconde a fileira de baixo. Você vê algumas; quantas estão escondidas?",
+        "nl": "Tien kralen doen mee — het gordijn verstopt de onderste rij. Een paar zie je; hoeveel zitten er verstopt?",
+        "sv": "Tio kulor är i spel — ridån döljer den nedre raden. Några ser du; hur många gömmer sig?",
+        "da": "Ti kugler er i spil — tæppet gemmer den nederste række. Nogle kan du se; hvor mange gemmer sig?",
+        "no": "Ti kuler er i spill — teppet gjemmer den nederste raden. Noen ser du; hvor mange gjemmer seg?",
+        "fi": "Kymmenen helmeä on mukana — verho piilottaa alarivin. Osan näet; montako on piilossa?"
+      },
+      "steps": [
+        {
+          "racks": [
+            {
+              "top": 6,
+              "bottom": 4
+            }
+          ],
+          "cover": "half"
+        },
+        {
+          "racks": [
+            {
+              "top": 7,
+              "bottom": 3
+            }
+          ],
+          "cover": "half"
+        },
+        {
+          "racks": [
+            {
+              "top": 5,
+              "bottom": 5
+            }
+          ],
+          "cover": "half"
+        },
+        {
+          "racks": [
+            {
+              "top": 8,
+              "bottom": 2
+            }
+          ],
+          "cover": "half"
+        }
+      ]
+    },
+    {
+      "id": "q_rows_of_ten",
+      "band": "g2",
+      "rows": 1,
+      "name": {
+        "en": "Rows of ten",
+        "de": "Zehnerreihen",
+        "fr": "Des rangées de dix",
+        "it": "File da dieci",
+        "es": "Filas de diez",
+        "pt": "Fileiras de dez",
+        "nl": "Rijen van tien",
+        "sv": "Tiorader",
+        "da": "Tierrækker",
+        "no": "Rader med ti",
+        "fi": "Kymppirivit"
+      },
+      "note": {
+        "en": "Build the number rows-first on the wall, then SAY it — see the tens, hear the word.",
+        "de": "Baue die Zahl an der Wand: erst volle Zehnerreihen, dann der Rest — und dann SPRICH sie. Die Zehner sehen, das Zahlwort hören.",
+        "fr": "Construis le nombre sur le mur en remplissant d'abord des rangées entières, puis DIS-le — voir les dizaines, entendre le mot.",
+        "it": "Costruisci il numero prima a file piene sulla parete, poi DILLO — vedere le decine, sentire la parola.",
+        "es": "Construye el número llenando filas en la pared y luego DILO — ver las decenas, oír la palabra.",
+        "pt": "Monte o número preenchendo fileiras na parede e depois DIGA em voz alta — ver as dezenas, ouvir a palavra.",
+        "nl": "Bouw het getal rij voor rij op de wand en ZEG het dan — de tientallen zien, het woord horen.",
+        "sv": "Bygg talet rad för rad på väggen och SÄG det sedan — se tiotalen, hör ordet.",
+        "da": "Byg tallet række for række på væggen og SIG det så — se tierne, hør ordet.",
+        "no": "Bygg tallet rad for rad på veggen og SI det etterpå — se tierne, hør ordet.",
+        "fi": "Rakenna luku seinälle rivi kerrallaan ja SANO se sitten — kymmenet näkyvät ja sana kuuluu."
+      },
+      "steps": [
+        {
+          "racks": [
+            {
+              "top": 10
+            },
+            {
+              "top": 10
+            },
+            {
+              "top": 10
+            },
+            {
+              "top": 0
+            },
+            {
+              "top": 0
+            },
+            {
+              "top": 0
+            },
+            {
+              "top": 0
+            },
+            {
+              "top": 0
+            },
+            {
+              "top": 0
+            },
+            {
+              "top": 0
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 10
+            },
+            {
+              "top": 10
+            },
+            {
+              "top": 10
+            },
+            {
+              "top": 10
+            },
+            {
+              "top": 7
+            },
+            {
+              "top": 0
+            },
+            {
+              "top": 0
+            },
+            {
+              "top": 0
+            },
+            {
+              "top": 0
+            },
+            {
+              "top": 0
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 10
+            },
+            {
+              "top": 10
+            },
+            {
+              "top": 10
+            },
+            {
+              "top": 10
+            },
+            {
+              "top": 10
+            },
+            {
+              "top": 2
+            },
+            {
+              "top": 0
+            },
+            {
+              "top": 0
+            },
+            {
+              "top": 0
+            },
+            {
+              "top": 0
+            }
+          ]
+        },
+        {
+          "racks": [
+            {
+              "top": 10
+            },
+            {
+              "top": 10
+            },
+            {
+              "top": 10
+            },
+            {
+              "top": 10
+            },
+            {
+              "top": 10
+            },
+            {
+              "top": 10
+            },
+            {
+              "top": 8
+            },
+            {
+              "top": 0
+            },
+            {
+              "top": 0
+            },
+            {
+              "top": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

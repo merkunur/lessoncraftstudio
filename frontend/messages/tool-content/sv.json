@@ -201,6 +201,32 @@
       "Tiokompissamtal: visa 9 + 3 på den dubbla tioramen och fråga hur många som fattas i första ramen — de tomma rutorna gör jobbet."
     ]
   },
+  "rekenrek": {
+    "slug": "kulram",
+    "name": "Kulram",
+    "tagline": "Visa ett tal med en knuff — fem röda och fem vita på varje rad",
+    "metaTitle": "Kulram online – gratis med 20 kulor | LessonCraftStudio",
+    "metaDescription": "Gratis kulram online: 20 kulor i femstruktur, blixtläge bakom ridå och talen upplästa på svenska. Visa ett tal med en knuff — utan att räkna ett i taget.",
+    "about": [
+      "Kulramen på skärmen är samma redskap som hänger i många lågstadieklassrum: en ram med 20 kulor, tio på varje rad, fem röda och fem vita. Femstrukturen är hela hemligheten — färgen skiftar vid fem, så barnen ser sju som fem och två i stället för att räkna en kula i taget. Och ett tal visas med en knuff: ta tag i den sjunde kulan och skjut EN gång, så följer hela kulkedjan med. Projicera ramen på tavlan, låt barnen turas om vid skärmen och väx i takt med klassen — från en rad till två, och ända upp till väggen med tio ramar och hundra kulor.",
+      "Kulramen bygger den taluppfattning som matematiken i Lgr22 vilar på: att se antal som grupper, dela upp tal och känna igen talkamraterna. Dubblor och nästan dubblor bor på de två raderna, tiokompisarna syns i tomrummen, och tiotalsövergången blir en enda kulas resa från den ena raden till den andra. I blixtläget döljer ridån ramen — visa kulorna i ett par sekunder och fråga: hur många såg du, och hur såg du det? Ett tryck läser talet högt med riktiga räkneord — sjutton som ett ord, inte siffra för siffra. Här finns inga timers, inga poäng och inget rätt eller fel — bara kulor, samtal och aha-ögonblick.",
+      "Kulserierna är färdiga samlingsstunder: korta serier där varje steg är en liten variation av det förra — fem och lite till, dubblor, tiokompisar, fyll upp till tio — med en rads lärarnotis till varje serie. Tryck fram nästa steg när samtalet är moget, eller stanna kvar och låt barnen hitta fler sätt att se samma tal. Bygg egna serier för veckans genomgångar, eller släpp allt och låt ett barn utforska i fri lek. Verktyget körs direkt i webbläsaren på klassrumsdatorn eller projektorn — inget konto, ingen inloggning — och finns på elva språk, med räkneorden sagda som din klass säger dem."
+    ],
+    "howToUse": [
+      "Välj en eller två rader — en rad för talen till 10, två rader för talen till 20.",
+      "Skjut kulorna med fingret eller pekaren: visa sju genom att ta tag i den sjunde kulan och skjuta EN gång — fem röda och två vita syns direkt.",
+      "Tryck på Säg talet så läses talet upp med riktiga räkneord, och visa siffran i rutan när klassen är redo att koppla bild till symbol.",
+      "Prova blixtläget: dölj ramen bakom ridån, visa kulorna i några sekunder och låt barnen berätta hur många de såg — och hur de såg det.",
+      "Öppna kulserierna för färdiga samlingsstunder — dubblor, tiokompisar, fyll upp till tio — eller bygg en egen serie för veckans genomgång."
+    ],
+    "classroomIdeas": [
+      "Daglig knuff-rutin: ett barn får visa antalet närvarande, dagens datum eller veckans tal — med så få knuffar som möjligt.",
+      "Hur såg du det? Blixta sju bakom ridån och samla klassens alla sätt att se: fem och två, en mindre än åtta, tre från tio. Alla sätt är välkomna.",
+      "Tiokompisar med halv ridå: täck den nedre raden, berätta att tio kulor är i spel och låt barnen lista ut hur många som gömmer sig.",
+      "Dubbelfabrik: bygg 3+3, 4+4 och 5+5 på de två raderna och låt barnen upptäcka symmetrin — och prata om vad som händer vid 4+5.",
+      "Hundraväggen: låt varje par äga en ram på väggen och bygg klassens tal tillsammans — se hur 47 blir fyra fulla tiorader och sju till."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

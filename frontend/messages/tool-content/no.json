@@ -252,6 +252,32 @@
       "La tidsuret være den voksne: når stemmen sier «Nå samler vi oss», er det ikke læreren som avbryter leken — det er tiden selv, og det tar barna langt mer sporty."
     ]
   },
+  "name-sticks": {
+    "slug": "navnepinner",
+    "name": "Navnepinner",
+    "tagline": "Trekk et navn fra krukken — alle får sin tur, og alle ser det",
+    "metaTitle": "Navnepinner – trekk et navn i klassen | LessonCraftStudio",
+    "metaDescription": "Gratis navnepinner for klasserommet: trekk et tilfeldig navn, se hvem som har fått sin tur, og rist klassen inn i tilfeldige lag — uten innlogging.",
+    "about": [
+      "Navnepinner er klasserommets gamle ispinne-krukke i digital form: hvert barn i klassen får sin egen illustrerte pinne, og alle pinnene ligger i krukken. Trekk en pinne — det rasler lunt i tre, og navnet kommer stort opp på skjermen. Det viktigste skjer etterpå: den trukne pinnen legger seg i en synlig kopp ved siden av krukken og blir stående der til krukken er tom. Slik ser hele klassen med egne øyne at ingen blir ropt opp to ganger før alle har fått sin tur — rettferdigheten er ikke noe læreren lover, den står på skjermen. Ingen poeng og ingen konkurranse — bare turtaking klassen kan stole på.",
+      "Når pinnen trekkes, kan navnet også sies høyt med en vennlig stemme — fint når blikket ditt er et annet sted i rommet. Uttales et navn annerledes enn det skrives, skriver du inn «uttales som» én gang, og verktøyet sier det riktig hver gang — ingen barn skal høre navnet sitt sagt feil dag etter dag. Er noen borte, legger du pinnen i «Borte i dag»-skuffen, så hopper krukken over dem til de er tilbake. Og må et trukket navn vente litt, sender «Tilbake i krukken» pinnen ned igjen. Slå på en stille tenketid før navnet vises, så gjør hele klassen seg klar til spørsmålet — ikke bare den som blir trukket.",
+      "Trenger du grupper, bytter du til lagdelen: velg to til seks kopper — Revelaget, Skilpaddelaget, Bielaget og de andre dyrelagene — og rist. Pinnene drysser tilfeldig ned i koppene, og gruppene er klare på sekunder, uten sukk og uten «hvorfor er ikke jeg på lag med …»: det var krukken som bestemte. Klasselisten limer du inn én gang — ett navn per linje — og med Premium ligger klassene dine klare på enheten dag etter dag. Personvernet er enkelt og ekte: navnene lagres bare på denne enheten og sendes aldri noe sted. Verktøyet kjører rett i nettleseren på klasseromsskjerm og nettbrett, uten innlogging og uten installasjon."
+    ],
+    "howToUse": [
+      "Lim inn klasselisten — ett navn per linje — så får hvert barn sin egen illustrerte pinne i krukken.",
+      "Trykk «Trekk en pinne»: det rasler i krukken, og navnet kommer stort opp på skjermen — og kan sies høyt.",
+      "La den trukne pinnen bli liggende i koppen — slik ser alle at de som har fått sin tur, venter til krukken er tom.",
+      "Er noen borte, legger du pinnen i «Borte i dag» — krukken hopper over dem til de er tilbake, uten at de mister turen sin.",
+      "Trenger du grupper: bytt til lag, velg antall kopper og rist — pinnene deler klassen inn i tilfeldige dyrelag."
+    ],
+    "classroomIdeas": [
+      "Samling uten håndsopprekning: still spørsmålet først, trekk pinnen etterpå — tenketiden gir alle et øyeblikk til å tenke, for det kan bli hvem som helst.",
+      "Ukas hjelpere: trekk dagens vanner, lysslukker og bokhenter fra krukken — koppen viser at jobbene går på rundgang på ordentlig.",
+      "Rettferdig rekkefølge i vis-og-fortell: trekk pinner for hvem som deler først — ingen diskusjon, krukken bestemmer.",
+      "Stasjonsgrupper på sekunder: rist klassen inn i fire dyrelag før stasjonene — nye lag hver gang gjør at alle jobber med alle i løpet av uka.",
+      "Læringspartnere: rist ut lagene med to og to i koppene — dagens par er trukket, og på fredag rister dere på nytt."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

@@ -252,6 +252,32 @@
       "Hjørnevisning under værksteder: sæt uret i hjørnet ved siden af lynbillederne eller kuglerammen, så både opgaven og tiden er synlig på én gang."
     ]
   },
+  "name-sticks": {
+    "slug": "navnepinde",
+    "name": "Navnepinde",
+    "tagline": "Træk en pind, og navnet står stort på tavlen — og alle kan se, at turen går retfærdigt rundt",
+    "metaTitle": "Navnepinde — træk et navn i klassen | LessonCraftStudio",
+    "metaDescription": "Gratis navnepinde til tavlen: træk et tilfældigt navn, hør det sagt højt, og ryst klassen i tilfældige grupper. Turen går retfærdigt rundt. Uden login.",
+    "about": [
+      "Navnepinde er det gamle klasseværelsestrick med ispinde i et syltetøjsglas — nu på tavlen. Hele klassen ligger i krukken som illustrerede pinde, og når du trækker én, rasler krukken, og navnet står stort på skærmen. Det vigtigste er det, alle kan se: Trukne pinde lægger sig i et synligt bæger ved siden af krukken og bliver der, til krukken er tom. Ingen kan komme til to gange, og ingen bliver glemt — og børnene kan selv følge med i, hvis tur det snart bliver. Spørgsmålet »hvorfor er det altid de samme?« forsvinder af sig selv, for retfærdigheden hænger på tavlen. Ingen point og ingen konkurrence — bare turen, der går trygt rundt.",
+      "Når pinden er trukket, præsenteres navnet stort — og det kan siges højt, så også de stille stemmer bagerst hører, hvem der er på. Og det siges rigtigt: For hvert barn kan du skrive en lille »udtales som«-linje, så Vincent, Saoirse og Nguyen bliver udtalt, som de skal, hver eneste gang. Har klassen brug for et øjeblik, slår du stille tænketid til, før navnet vises — så tænker alle med, for ingen ved endnu, hvem det bliver. Hverdagen er også tænkt med: Er et barn sygt, lægger du pinden i »Hjemme i dag« med ét tryk, og passer spørgsmålet ikke, sender »Tilbage i krukken« pinden retur, uden at turen er brugt.",
+      "Skal klassen deles i grupper, skifter du til hold: Ryst krukken, og pindene fordeler sig i to til seks bægre — Ræveholdet, Biholdet, Ugleholdet og de andre dyrehold. Tilfældige grupper på få sekunder, uden forhandling og uden at nogen bliver valgt sidst. Dine klasser kan gemmes, så 2.b ligger klar i morgen — med udtale og det hele. Og navnene? De gemmes kun på din egen enhed og sendes aldrig nogen steder hen. Der er ingen konto, intet login og ingen server, der nogensinde ser din klasseliste — den bliver i klasseværelset, hvor den hører til. Sæt projektoren til, og træk den første pind."
+    ],
+    "howToUse": [
+      "Indsæt din klasseliste — ét navn pr. linje — og se hele klassen lande i krukken som illustrerede pinde.",
+      "Tryk på Træk en pind: krukken rasler, navnet står stort på tavlen og kan siges højt med stille tænketid før, hvis du vil.",
+      "Skriv en »udtales som«-linje ved de navne, der driller — så bliver de sagt rigtigt hver eneste gang.",
+      "Læg syge børn i »Hjemme i dag« med ét tryk, og send en pind »Tilbage i krukken«, hvis turen ikke skal bruges alligevel.",
+      "Når krukken er tom, har alle haft en tur — hæld pindene tilbage og begynd forfra, eller ryst holdene frem i stedet."
+    ],
+    "classroomIdeas": [
+      "Dagens spørgsmål i morgensamlingen: stil spørgsmålet, træk en pind, og lad tænketiden løbe, før navnet vises — alle tænker med, for ingen ved, hvem det bliver.",
+      "Ugens hjælpere: træk to pinde mandag morgen til at dele ud og vande blomster — bægeret sørger for, at alle når at prøve, før turen begynder forfra.",
+      "Læsestafet: træk en pind mellem hvert afsnit i oplæsningen — og har et barn ikke lyst i dag, ryger pinden bare tilbage i krukken uden videre.",
+      "Værkstedshold uden sure miner: ryst holdene frem i fire dyrehold — Ræveholdet dækker bord, Biholdet henter bøger, og ingen er blevet valgt sidst.",
+      "Makkerpar på få sekunder: sæt trækket til to pinde ad gangen, og lad krukken sætte parrene — nye makkere hver gang, helt uden diskussion."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

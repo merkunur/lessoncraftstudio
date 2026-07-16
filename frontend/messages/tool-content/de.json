@@ -253,6 +253,32 @@
       "Eckansicht bei der Arbeit: Den Timer klein in die Ecke neben das Tafelbild oder die Blitzblick-Tafel legen — die Klasse behält die Zeit im Blick, während vorne weitergearbeitet wird."
     ]
   },
+  "name-sticks": {
+    "slug": "namensstaebchen",
+    "name": "Namensstäbchen",
+    "tagline": "Namen fair ziehen — und die ganze Klasse sieht, dass alle drankommen",
+    "metaTitle": "Zufallsgenerator Namen Grundschule – Namensstäbchen digital",
+    "metaDescription": "Digitale Namensstäbchen für Beamer & Whiteboard: Namen fair ziehen, gezogene Stäbchen warten sichtbar im Becher, Teams schütteln. Kostenlos, ohne Anmeldung.",
+    "about": [
+      "Die Namensstäbchen bringen das vertraute Marmeladenglas mit Eisstielen an Beamer und Whiteboard: Jeder Name der Klasse steckt als buntes Stäbchen im Glas — ein Tipp, ein hölzernes Rascheln, und ein Name erscheint groß für alle. Das echte Glas hat dabei einen bekannten Haken: Mit etwas Fingerspitzengefühl lässt sich ertasten und heimlich zurückstecken, und irgendwann meldet sich der Zweifel — war Leon nicht schon dran? Hier ist beides unmöglich, und die Fairness ist sichtbar: Gezogene Stäbchen warten offen im Becher, bis das Glas leer ist. Kein Name kommt zweimal dran, keiner geht unter — und die Kinder sehen es mit eigenen Augen. Wer zweifelt, schaut einfach in den Becher.",
+      "Beim Ziehen wird der Name auf Wunsch laut gesprochen — und zwar richtig. Für Namen, die im Alltag immer wieder falsch betont werden, gibt es das Feld „Klingt wie…“: einmal lautgetreu eintragen, kurz anhören, fertig — von nun an sagt die Tafel Nguyen, Aylin oder Miloš so, wie das Kind wirklich heißt. Gerade in mehrsprachigen Klassen ist das mehr als Kosmetik: Ein Name, der jeden Tag falsch ausgesprochen wird, ist eine kleine tägliche Kränkung — ein richtig gesprochener Name heißt: Du gehörst dazu. Und wenn ein Kind gerade nicht antworten mag, wandert sein Stäbchen mit „Zurück ins Glas“ — die Chance bleibt erhalten, nichts ist vertan. Wer fehlt, ruht sichtbar unter „Heute nicht da“ und ist morgen mit einem Tipp wieder dabei.",
+      "Für die Gruppenarbeit gibt es den zweiten Modus: Ein kräftiges Schütteln verteilt die ganze Klasse in zwei bis sechs Tierteams — Team Fuchs, Team Eule, Team Schildkröte. Niemand wird als Letzter gewählt, niemand hat gewählt: Das Glas war’s. Bewährte Klassen lassen sich speichern und sind morgen mit einem Tipp wieder da — samt aller Aussprache-Hinweise. Und das Wichtigste zum Schluss: Die Namen Ihrer Kinder werden ausschließlich auf diesem Gerät gespeichert und nie irgendwohin gesendet — kein Konto, kein Server, keine Cloud. Alles läuft direkt im Browser, ohne Installation, und wie überall bei uns gilt: keine Punkte, keine Rangliste, kein Wettbewerb — nur faires Drankommen, das die ganze Klasse sehen kann."
+    ],
+    "howToUse": [
+      "Öffnen Sie die Namensstäbchen am Beamer oder Whiteboard und fügen Sie Ihre Klassenliste ein — ein Name pro Zeile. Die Namen bleiben dabei nur auf diesem Gerät.",
+      "Ergänzen Sie bei Namen, die oft falsch ausgesprochen werden, den Hinweis „Klingt wie…“ und hören Sie kurz Probe — so sagt die Tafel jeden Namen von Anfang an richtig.",
+      "Tippen Sie auf „Stäbchen ziehen“: Das Glas rasselt, der Name erscheint groß und wird gesprochen — dieses Kind ist dran.",
+      "Nutzen Sie die zwei warmen Auswege: „Zurück ins Glas“, wenn ein Kind gerade nicht mag — die Chance bleibt erhalten —, und „Heute nicht da“ für fehlende Kinder.",
+      "Ist das Glas leer, heißt es: Alle waren einmal dran. Ein Tipp kippt alle Stäbchen zurück — oder Sie wechseln zu Teams und schütteln die Klasse in Tiergruppen."
+    ],
+    "classroomIdeas": [
+      "Erzählkreis am Montag: Statt des Meldewalds entscheidet das Glas, wer vom Wochenende erzählt — auch die Leisen kommen dran, und der Becher zeigt allen, dass niemand vergessen wird.",
+      "Denkzeit für alle: Stellen Sie die stille Denkzeit vor dem Namen ein — erst die Frage an die ganze Klasse, kurze Stille, dann erst fällt der Name. So denken alle mit, nicht nur die schnellsten Melder.",
+      "Klassenämter ohne Diskussion: Tafeldienst, Blumendienst, Austeildienst — das Glas verteilt die Ämter der Woche, und keiner kann sagen, es sei unfair gewesen.",
+      "Stationen und Sportstunde: Ein Schütteln teilt die Klasse in Tierteams — ohne Wählen, ohne lange Gesichter. „Neue Teams“ mischt die nächste Stunde einfach neu.",
+      "Namens-Ritual zum Schuljahresbeginn: Tragen Sie in der ersten Woche gemeinsam mit jedem Kind den „Klingt wie…“-Hinweis ein — jedes Kind hört seinen Namen einmal richtig von der Tafel, ein kleines Stück Ankommen."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

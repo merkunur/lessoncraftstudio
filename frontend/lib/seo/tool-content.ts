@@ -17,7 +17,7 @@ import { TOPIC_ENABLED_LOCALES } from '@/config/topic-locales';
 import { buildHreflangAlternates } from './hreflang';
 
 /** Canonical tool keys — match the mini-tool file basenames + MANIPULATIVES ids. */
-export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board', 'letter-tiles', 'calendar-wall', 'number-talk-easel', 'rekenrek', 'class-timer'] as const;
+export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board', 'letter-tiles', 'calendar-wall', 'number-talk-easel', 'rekenrek', 'class-timer', 'name-sticks'] as const;
 export type ToolKey = (typeof TOOL_KEYS)[number];
 
 /** Mini-tool HTML path (nginx-direct, §3.3) per tool key. */
@@ -32,6 +32,7 @@ export const TOOL_MINI_URL: Record<ToolKey, string> = {
   'number-talk-easel': '/mini-tools/number-talk-easel.html',
   rekenrek: '/mini-tools/rekenrek.html',
   'class-timer': '/mini-tools/class-timer.html',
+  'name-sticks': '/mini-tools/name-sticks.html',
 };
 
 /**
@@ -52,6 +53,7 @@ export const TOOL_ACTIVITY_PREFIX: Record<ToolKey, string> = {
   'number-talk-easel': 'number-talk-easel',
   rekenrek: 'rekenrek',
   'class-timer': 'class-timer',
+  'name-sticks': 'name-sticks',
 };
 
 export interface ToolEntry {
@@ -87,6 +89,7 @@ interface ToolContentFile {
   'number-talk-easel'?: ToolEntry;
   rekenrek?: ToolEntry;
   'class-timer'?: ToolEntry;
+  'name-sticks'?: ToolEntry;
   labels: ToolContentLabels;
 }
 

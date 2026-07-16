@@ -252,6 +252,32 @@
       "Kulmanäkymä toisen työkalun rinnalle: pieni ajastin näytön nurkkaan ja välähdyskuvat tai helmitaulu viereen — aika näkyy koko työskentelyn ajan viemättä tilaa."
     ]
   },
+  "name-sticks": {
+    "slug": "nimitikut",
+    "name": "Nimitikut",
+    "tagline": "Nosta nimi purkista — reilut vuorot, jotka koko luokka näkee",
+    "metaTitle": "Nimitikut — nosta nimi, arvo ryhmät | LessonCraftStudio",
+    "metaDescription": "Ilmaiset nimitikut luokkaan: nosta tikku, nimi näkyy ja kuuluu, ja jokainen saa vuoronsa näkyvästi. Ravista luokka ryhmiin — nimet pysyvät laitteellasi.",
+    "about": [
+      "Nimitikut ovat monen luokan tuttu ja rakastettu tapa jakaa puheenvuorot reilusti: jokaisen oppilaan nimi on omassa tikussaan, ja tikut odottavat purkissa. Kun on aika valita seuraava, opettaja nostaa tikun — purkki helisee, ja nimi paljastuu koko luokalle. Tämän digitaalisen version tärkein oivallus on näkyvä reiluus: nostetut tikut eivät katoa mihinkään, vaan ne asettuvat mukiin kaikkien nähtäville. Kukaan ei tule valituksi kahdesti, ennen kuin purkki on tyhjä ja jokainen on saanut vuoronsa. Lapset näkevät omin silmin, että vuoro kiertää — ja juuri se hiljentää ”miksi taas hän?” -kuiskeet ennen kuin ne ehtivät alkaa.",
+      "Kun tikku nousee purkista, nimi näkyy isolla ja työkalu sanoo sen halutessasi ääneen — pieni juhlahetki, joka kokoaa koko luokan huomion. Jos jonkun nimi lausutaan helposti väärin, kirjoita nimen viereen, miten se oikeasti lausutaan, niin työkalu sanoo sen aina oikein: jokainen lapsi ansaitsee kuulla oman nimensä oikein sanottuna. Poissaolijat siirrät yhdellä napautuksella Poissa tänään -lokeroon, jolloin heidän tikkunsa eivät ole mukana nostossa, ja palautat takaisin mukaan, kun lapsi palaa kouluun. Ja jos nostettu lapsi ei juuri sillä hetkellä halua vastata, tikun voi pehmeästi palauttaa purkkiin — ilman numeroa kenestäkään.",
+      "Ryhmät-tilassa sama purkki jakaa luokan satunnaisiin ryhmiin: ravista, ja tikut putoilevat 2–6 eläinmukiin — Ketut, Puput, Pöllöt ja kumppanit. Satunnainen jako tuntuu lapsista reilulta, koska sen tekee purkki eikä opettaja, ja leikkisät eläinryhmät pitävät tunnelman yhteistyössä kilpailun sijaan — pisteitä tai ajastimia ei ole. Premium-tilaajana voit tallentaa useita luokkia valmiiksi, jolloin tikut ovat purkissa heti aamun ensimmäisellä tunnilla. Ja mikä tärkeintä: oppilaiden nimet tallentuvat vain sinun laitteellesi, eikä niitä lähetetä koskaan minnekään. Työkalua voi siis käyttää huoletta myös tietosuojan näkökulmasta."
+    ],
+    "howToUse": [
+      "Avaa Omat luokat, liitä luokkalistasi tekstikenttään — yksi nimi riville — ja napauta Lisää nimet.",
+      "Heijasta purkki taululle ja napauta Nosta tikku, kun on aika valita seuraava: nimi näkyy isolla ja sanotaan halutessasi ääneen.",
+      "Nostettu nimi jää mukiin kaikkien nähtäville — purkki tyhjenee, kunnes jokainen on saanut vuoronsa, ja sitten kaadat kaikki takaisin.",
+      "Merkitse poissaolijat aamulla Poissa tänään -painikkeella, niin heidän tikkunsa odottavat sivussa, kunnes lapsi palaa mukaan.",
+      "Vaihda Ryhmät-tilaan, valitse mukien määrä ja ravista — luokka jakautuu satunnaisiin eläinryhmiin silmänräpäyksessä."
+    ],
+    "classroomIdeas": [
+      "Päivän apulainen: nosta aamupiirissä yksi tikku — nimen omistaja saa jakaa vihkot, viedä viestin kansliaan tai johtaa jonoa ruokalaan.",
+      "Vastausvuorot ilman viittauskilpaa: esitä kysymys, anna hiljainen miettimisaika ja nosta tikku vasta sitten — kun kuka tahansa voi tulla valituksi, jokainen miettii vastausta.",
+      "Satunnaiset parit: nosta kaksi tikkua kerralla lukupariksi tai pelipisteelle — kenenkään ei tarvitse jännittää, tuleeko valituksi viimeisenä.",
+      "Ryhmätyöt sekunneissa: ravista luokka eläinryhmiin ennen työpajaa — satunnainen jako sekoittaa kaveriporukat ja tutustuttaa lapset toisiinsa.",
+      "Nimet oikein lukuvuoden alusta: kirjoita lausumisohjeet ja kuunnelkaa nimet yhdessä Kuuntele-painikkeella — koko luokka oppii sanomaan jokaisen nimen oikein."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

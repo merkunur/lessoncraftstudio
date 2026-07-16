@@ -253,6 +253,32 @@
       "Beside the rekenrek: shrink the timer into the corner view and project a math tool next to it during warm-up routines."
     ]
   },
+  "name-sticks": {
+    "slug": "name-sticks",
+    "name": "Name Sticks",
+    "tagline": "The fair jar — every name gets a turn",
+    "metaTitle": "Free Random Name Picker — Name Sticks | LessonCraftStudio",
+    "metaDescription": "A fair name-stick jar for the classroom: pull a stick, hear the name spoken, and pulled sticks rest in a visible cup until everyone has had a turn.",
+    "about": [
+      "Every classroom has a jar of popsicle sticks — and every class has figured out how it gets gamed: the thumb that feels for a favorite stick, the quiet put-back, the cup that empties early so the same kids keep getting called. Name Sticks is the version that cannot cheat, and the class can see it. Every name goes in the jar as an illustrated stick, a pull is truly random, and pulled sticks rest in a visible cup until the jar is empty. When someone needs to go back in, the stick returns on the projector — in front of everyone.",
+      "A pull is one calm second: a wooden rattle, the stick rises, and the name presents big enough to read from the back — spoken aloud in your classroom's language if you like. Every name gets a small \"say it like…\" field, so Nguyễn, Aoife and Xiomara are pronounced right every single time — a child who hears their name mangled daily stops feeling the jar belongs to them. Skip returns a stick without burning the turn, and Absent lays a stick flat in its own tray until tomorrow.",
+      "The team maker shakes the whole jar into two to six animal-team cups — near-equal sizes with the extra spots landing randomly, never a last-kid-left-over moment — and you drag any stick between cups when two friends need distance. Class lists paste in one name per line and stay only on this device: names are never sent anywhere. Saved classes keep the cup's memory overnight, so Tuesday's fairness carries into Wednesday morning."
+    ],
+    "howToUse": [
+      "Paste your class list — one name per line — and the sticks pour into the jar with their own little animal icons.",
+      "Tap the jar or Pull a stick: a short rattle, the stick rises, and the name shows big (and spoken, if you keep the voice on).",
+      "Pulled sticks rest in the cup for everyone to see; Skip puts a stick back without using up the turn, Absent parks it in the tray for today.",
+      "When the jar empties, the class sees \"Everyone has had a turn\" — tip the sticks back in and the cycle starts fresh.",
+      "Switch to Teams to shake the class into 2–6 animal-team cups, then drag any stick between cups to fine-tune."
+    ],
+    "classroomIdeas": [
+      "Morning helper: one pull picks today's line leader — the cup proves to everyone that turns are truly fair across the week.",
+      "Turn and talk: set the pull to 2 and draw partner pairs — both sticks go to the cup, so pairings rotate through the whole class.",
+      "Center rotations: shake into four animal teams on Monday and keep the same teams all week — the grouping stays saved.",
+      "New-name week: use the \"say it like…\" field with the class — children love teaching the jar to say their name exactly right.",
+      "Fairness talk: let the class watch the cup fill and predict how many pulls until the jar is empty — turn-taking becomes math."
+    ]
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

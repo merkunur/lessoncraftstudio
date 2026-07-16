@@ -252,6 +252,32 @@
       "Conversa em dupla na rodinha: dois minutos de fatia para cada pergunta — vendo o tempo passar, a criança aprende a dividir a fala com o colega."
     ]
   },
+  "name-sticks": {
+    "slug": "palitos-de-nomes",
+    "name": "Palitos de nomes",
+    "tagline": "Cada nome tem a sua vez — e a turma vê",
+    "metaTitle": "Sorteador de nomes da turma grátis | LessonCraftStudio",
+    "metaDescription": "Palitos de nomes para projetar: puxe um palito, o nome aparece grande e é falado, e a turma vê no copo quem já passou. Grupos aleatórios. Grátis, sem login.",
+    "about": [
+      "Toda sala dos anos iniciais conhece o pote de palitos de picolé com os nomes da turma — este é o mesmo pote, pronto para a lousa digital. Cada criança vira um palito ilustrado dentro do pote de vidro. Toque em Puxar um palito: o pote chacoalha e um nome sai. O segredo da justiça está no copo ao lado: cada palito puxado descansa ali, à vista de todos, até o pote esvaziar. Ninguém é chamado duas vezes enquanto um colega ainda espera — e as crianças não precisam confiar na sorte nem na memória da professora: elas veem, palito por palito, que está justo. Quando o último sai, todo mundo teve a vez — e o pote recomeça.",
+      "Quando o palito sai, o nome aparece bem grande na tela e é falado em voz alta — a criança ouve o próprio nome chamar. E se a voz do navegador tropeçar no Kauã ou engolir o Wendell? Na lista da turma, cada nome tem um campo como se fala: escreva ka-u-ã, toque em Ouvir e confira — dali em diante, o nome sai certinho. A rotina da sala também cabe aqui: quem não veio fica na bandeja Faltou hoje e não entra no pote; se a criança acabou de responder, De volta ao pote devolve o palito sem gastar a vez. E com o tempinho de silêncio antes do nome, a turma inteira pensa na pergunta — qualquer nome pode sair.",
+      "No modo Equipes, o pote vira formador de grupos: escolha de dois a seis copos — Time Raposa, Time Tartaruga, Time Abelha… — e chacoalhe: os palitos se repartem sozinhos, sem escolher primeiro e sem ninguém sobrar por último. Não há pontos nem placar: os times são para trabalhar junto, não para competir. Com o Premium, as turmas salvas ficam prontas para abrir com um toque — a do 2º ano A, a do reforço de quarta (as listas grátis valem só por hoje). E a promessa mais importante: os nomes das crianças ficam somente neste aparelho — nunca são enviados a lugar nenhum. Tudo direto no navegador, grátis, sem cadastro."
+    ],
+    "howToUse": [
+      "Projete na lousa digital, toque em Minhas turmas e cole a lista da turma — um nome por linha, direto da sua planilha.",
+      "Marque quem não veio: os nomes na bandeja Faltou hoje ficam de fora do pote até a criança voltar.",
+      "Faça a pergunta primeiro, depois toque em Puxar um palito — com o tempinho de pensar ligado, a turma inteira elabora a resposta antes de o nome aparecer.",
+      "Deixe o copo à vista: os nomes que já passaram descansam ali, e as crianças acompanham quem ainda vai ser chamado.",
+      "Quando o pote esvaziar, toque em Virar tudo de volta no pote — ou mude para Equipes e chacoalhe a turma em times de bichos."
+    ],
+    "classroomIdeas": [
+      "Rodinha de novidades: um palito por criança e cada uma conta a sua — o copo mostra, sem discussão, que ninguém ficou sem falar.",
+      "Ajudante do dia sem drama: o palito decide quem rega as plantas e quem apaga o quadro — e as crianças veem no copo que a vez de cada um está guardada.",
+      "Duplas surpresa de leitura: puxe dois palitos por vez e forme os pares na frente da turma — sem 'ninguém quer ficar comigo'.",
+      "Cantinhos com times de bichos: chacoalhe em quatro copos e cada time vira uma estação — o Time Coruja começa na biblioteca, o Time Raposa no jogo de tabuleiro.",
+      "Chamada cantada no começo do ano: puxe os palitos um a um e a turma responde 'presente!' em coro — jeito bonito de aprender o nome dos colegas."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

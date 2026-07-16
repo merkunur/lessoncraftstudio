@@ -252,6 +252,32 @@
       "En fin de journée, lancez « On prépare les cartables » en vue coin d’écran, à côté du Calendrier de la classe : la routine du soir se déroule pendant que vous vérifiez les mots aux familles."
     ]
   },
+  "name-sticks": {
+    "slug": "batonnets-de-prenoms",
+    "name": "Bâtonnets de prénoms",
+    "tagline": "Le pot à prénoms de la classe : chacun son tour — et toute la classe le voit",
+    "metaTitle": "Tirage de prénoms & groupes en classe | LessonCraftStudio",
+    "metaDescription": "Bâtonnets de prénoms à projeter : le prénom tiré s’affiche en grand et se dit à voix haute, chacun passe avant de recommencer — et des équipes en un geste.",
+    "about": [
+      "Qui n’est pas encore passé ? Dans une classe, la question revient dix fois par jour — et les enfants ont un sens aigu de la justice. Les bâtonnets de prénoms rendent l’équité visible : tous les prénoms de la classe attendent dans le pot, illustrés comme de vrais bâtonnets de bois. On en tire un — petit bruit de bois secoué — et le bâtonnet tiré va se reposer dans le gobelet, sous les yeux de tous. Tant que le gobelet se remplit, personne ne repasse ; quand le pot est vide, tout le monde est passé. Pas de favoris, pas de contestation : la classe le voit de ses propres yeux.",
+      "Au moment du tirage, le prénom s’affiche en grand et une voix chaleureuse le prononce — l’enfant appelé se sent vraiment appelé, même du fond de la classe. Pour les prénoms que la synthèse vocale écorche, chaque bâtonnet a sa ligne « Ça se prononce… » : écrivez le prénom comme il se dit, écoutez, ajustez — et il sonnera juste à chaque fois. Un enfant absent ? Un geste le met de côté pour la journée, sans le retirer de la classe. Et si le moment tombe mal, « Retour dans le pot » remet le bâtonnet en jeu, sans faire perdre son tour à personne.",
+      "Quand il faut des groupes, passez côté Équipes : secouez le pot, et les prénoms se répartissent d’eux-mêmes dans deux à six gobelets — équipe Renard, équipe Tortue, équipe Abeille… Des équipes faites sous les yeux de la classe, donc acceptées sans négociation : c’est le pot qui a décidé. Vos listes se collent en quelques secondes, un prénom par ligne, et Premium garde toutes vos classes d’un jour à l’autre. Et une promesse simple : les prénoms restent uniquement sur cet appareil. Ils ne sont jamais envoyés nulle part — ni serveur, ni compte, ni fichier qui circule."
+    ],
+    "howToUse": [
+      "Collez votre liste de classe — un prénom par ligne — puis projetez le pot au TBI : chaque enfant retrouve son bâtonnet illustré.",
+      "Touchez « Tirer un bâtonnet » : petit bruit de bois, le prénom s’affiche en grand et la voix le prononce — activez le temps de réflexion pour poser votre question avant que le prénom n’arrive.",
+      "Le bâtonnet tiré se repose dans le gobelet, visible de tous : personne ne repasse tant que le pot n’est pas vide. Quand « Tout le monde est passé » s’affiche, versez tout dans le pot et c’est reparti.",
+      "Un enfant absent ? « Absent aujourd’hui » le met de côté pour la journée. Un moment mal choisi ? « Retour dans le pot » — le tour n’est pas perdu.",
+      "Pour les groupes, passez en mode Équipes et secouez le pot : les prénoms tombent dans deux à six gobelets d’animaux, prêts pour les ateliers."
+    ],
+    "classroomIdeas": [
+      "En regroupement, posez la question avant de tirer : tout le monde réfléchit, parce que tout le monde peut être appelé — le petit temps de silence avant le prénom fait travailler toute la classe, pas seulement les doigts levés.",
+      "Attribuez les métiers de la semaine au pot : distribuer les cahiers, arroser les plantes, tenir la porte… c’est le pot qui décide, et personne ne conteste le hasard qu’on a vu de ses yeux.",
+      "Formez les ateliers tournants d’un secouement de pot : équipe Renard au coin lecture, équipe Tortue aux maths — les équipes changent chaque semaine, et fini le « toujours avec les mêmes ».",
+      "Pour la lecture à voix haute, laissez le pot appeler le lecteur suivant : le gobelet montre qui est déjà passé, et chacun sait qu’il aura son tour avant la fin du texte.",
+      "En début d’année, remplissez les « Ça se prononce… » avec les enfants : chaque prénom dit juste dès la première semaine — un petit geste qui compte énormément."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

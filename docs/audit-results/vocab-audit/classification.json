@@ -474,13 +474,15 @@
    "category": "abstract",
    "hasGender": true,
    "hasPlural": false,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "miscellaneous/autumn@2x.webp - a broad tree in full autumn foliage, red/orange/yellow leaves, dark trunk",
    "reason": "The picture depicts a SEASON, and a season can only be pictured through a scene - a tree in fall colour is its standard and honest depiction, so this is NOT a lemma mismatch (unlike the sports set below, where a different ENTITY is drawn). A season is a named time-period: it keeps its gender (der Herbst m, l'automne m) but takes no plural on a picture wall. de 'Herbste' exists lexically but means successive autumns and is not what this picture asks for.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: miscellaneous/autumn@2x.webp - a broad tree in full autumn foliage, red/orange/yellow leaves, dark trunk"
   },
   "avocado": {
    "category": "countable-thing",
@@ -642,13 +644,15 @@
    "category": "countable-thing",
    "hasGender": true,
    "hasPlural": true,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "sports bw/badminton@2x.webp - a single SHUTTLECOCK (feathered skirt above a rounded cork base), line art. No racket, no court, no player.",
    "reason": "I opened the image: it is a shuttlecock, a countable object, not the sport. raw_type 'verb-gerund' is wrong. LEMMA MISMATCH - de 'Badminton', sv 'Badminton' and fr 'Badminton' all name the SPORT and do not name the thing pictured (de Federball->Federbaelle, fr volant, sv fjaederboll do). Part of a systematic defect: the whole 'sports bw' theme is drawn as EQUIPMENT while every row is lemma'd as a sport. hasPlural:true applies to the CORRECTED lemma (Federball->Federbaelle) - do NOT generate 'Badmintons'.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: sports bw/badminton@2x.webp - a single SHUTTLECOCK (feathered skirt above a rounded cork base), line art. No r"
   },
   "bag": {
    "category": "countable-thing",
@@ -870,13 +874,15 @@
    "category": "countable-thing",
    "hasGender": true,
    "hasPlural": true,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "activities/baseball@2x.webp - a white BALL with red stitching. Also opened sports bw/baseball@2x.webp - a wooden BAT alone; and 4th of July/baseball@2x.webp - a bat AND ball together.",
    "reason": "All three pictures are equipment and two of the three centre on the ball. raw_type 'verb-gerund' is wrong - a baseball is a countable object (baseballs, Baseballs, basebollar). Unlike badminton/bowling/boxing this is NOT a hard lemma mismatch: en 'baseball' and de 'Baseball' both genuinely name the BALL as well as the sport. Flag for art review: this key carries three different pictures (ball / bat / bat+ball); the bat-only art in 'sports bw' shows a Baseballschlaeger, not a baseball.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: activities/baseball@2x.webp - a white BALL with red stitching. Also opened sports bw/baseball@2x.webp - a wood"
   },
   "basket": {
    "category": "countable-thing",
@@ -1578,13 +1584,15 @@
    "category": "countable-thing",
    "hasGender": true,
    "hasPlural": true,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "sports bw/bowling@2x.webp - a single BOWLING BALL (circle with three finger holes), line art. No pins, no lane, no player.",
    "reason": "I opened the image: it is a bowling ball, a countable object, not the sport. raw_type 'verb-gerund' is wrong. LEMMA MISMATCH - de 'Bowling', sv 'Bowling' and fr 'Bowling' name the SPORT and do not name what is pictured (de Bowlingkugel->Bowlingkugeln, fr boule de bowling). Part of the systematic 'sports bw = equipment' defect. hasPlural:true applies to the corrected lemma - do NOT generate 'Bowlings'.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: sports bw/bowling@2x.webp - a single BOWLING BALL (circle with three finger holes), line art. No pins, no lane"
   },
   "bowling-ball": {
    "category": "countable-thing",
@@ -1626,13 +1634,15 @@
    "category": "countable-thing",
    "hasGender": true,
    "hasPlural": true,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "sports bw/boxing@2x.webp - a single BOXING GLOVE with a laced/strapped cuff, line art. No boxer, no ring.",
    "reason": "I opened the image: it is one boxing glove, a countable object, not the sport. raw_type 'verb-gerund' is wrong. LEMMA MISMATCH - de 'Boxen', sv 'Boxning' and fr 'Boxe' name the SPORT and do not name what is pictured (de Boxhandschuh->Boxhandschuhe, fr gant de boxe). hasPlural:true applies to the corrected lemma - do NOT generate 'Boxens'.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: sports bw/boxing@2x.webp - a single BOXING GLOVE with a laced/strapped cuff, line art. No boxer, no ring."
   },
   "boxing-glove": {
    "category": "countable-thing",
@@ -1926,13 +1936,15 @@
    "category": "mass",
    "hasGender": true,
    "hasPlural": false,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "breakfast/butter@2x.webp - a pale-yellow rectangular block WITH ROUND HOLES THROUGH IT. I also opened At the Supermarket/butter@2x.webp (the same holed block) and breakfast/cheese@2x.webp for comparison (a deeper-yellow wedge with the same holes).",
    "reason": "LEMMA MISMATCH / ART DEFECT - butter has no holes. BOTH butter images are drawn as a holed Emmental-style cheese block, differing from the cheese art only in being paler; a child shown this and told 'Butter' learns the wrong thing. Flagged for art review, not for classification: the WORD still names a substance, so the category is mass. de.wiktionary: 'But-ter, kein Plural' (singulare tantum), so hasPlural:false is right and the stored Butter/Butter is correct; fr 'Beurre->Beurres' in the data is a varieties-only plural that this picture does not ask for.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: breakfast/butter@2x.webp - a pale-yellow rectangular block WITH ROUND HOLES THROUGH IT. I also opened At the S"
   },
   "butter-knife": {
    "category": "countable-thing",
@@ -2166,13 +2178,15 @@
    "category": "countable-thing",
    "hasGender": true,
    "hasPlural": true,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "activities/camping@2x.webp - a single yellow-and-orange dome TENT with guy lines and an open door flap. No people, no campfire, nobody camping.",
    "reason": "I opened the image: it is a tent, a countable object. This breaks its own theme's convention - baking/biking/dancing/hiking/gymnastics/jumping in 'activities' all show a PERSON performing the action; camping does not. raw_type 'verb-gerund' is wrong for this art. LEMMA MISMATCH - de 'Camping' names the ACTIVITY and does not name what is pictured (das Zelt -> die Zelte). hasPlural:true applies to the corrected lemma - do NOT generate 'Campings'.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: activities/camping@2x.webp - a single yellow-and-orange dome TENT with guy lines and an open door flap. No peo"
   },
   "camping-chair": {
    "category": "countable-thing",
@@ -2766,13 +2780,15 @@
    "category": "countable-thing",
    "hasGender": true,
    "hasPlural": true,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "toys/chess@2x.webp - a single chess KING piece, red/gold/navy, cross finial on the crown. Also opened activities/chess@2x.webp - the same king piece in plain gold. Both are pieces; neither is a board or a game.",
    "reason": "I opened both images: it is a chess PIECE, not the game. A countable object -> plural. raw_type 'verb-gerund' is wrong, but so is 'the game': LEMMA MISMATCH - de 'Schach', sv 'Schack' and fr 'Echecs' name the GAME and do not name what is pictured (Schachfigur->Schachfiguren, piece d'echecs). hasPlural:true applies to the corrected lemma - do NOT generate 'Schachs'.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: toys/chess@2x.webp - a single chess KING piece, red/gold/navy, cross finial on the crown. Also opened activiti"
   },
   "chestnut-tree": {
    "category": "countable-thing",
@@ -2922,13 +2938,15 @@
    "category": "proper-noun",
    "hasGender": true,
    "hasPlural": false,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "Christmas bw/christmas@2x.webp - a decorated Christmas tree with a star topper standing in snow, snowflakes and stars around it, line art",
    "reason": "A named holiday. A proper noun IS a noun, so it keeps its gender and simply has no plural. The art is a tree, but a holiday cannot be pictured directly and a decorated tree is its standard honest depiction - so this is NOT a lemma mismatch. raw_type 'noun-concept' understates it: this is a name, not a concept. Note en_looks_plural:true is a false positive from the trailing -s of 'Christmas'.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: Christmas bw/christmas@2x.webp - a decorated Christmas tree with a star topper standing in snow, snowflakes an"
   },
   "christmas-stocking": {
    "category": "countable-thing",
@@ -3438,25 +3456,29 @@
    "category": "countable-thing",
    "hasGender": true,
    "hasPlural": true,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "ocean life/coral@2x.webp - a red/orange branching CORAL organism with pale speckles. I also opened colors/coral@2x.webp - a coral-PINK paint-drop swatch, no object at all.",
    "reason": "THIS KEY CARRIES TWO PICTURES THAT SHOW DIFFERENT THINGS - a finding. The stored words name the ORGANISM in every sample locale (de Koralle f, sv Korall, fr Corail), so the verdict tracks the organism: a countable sea creature -> plural (sv Koraller is already correct; de Koralle->Korallen is correct and the stored Koralle/Koralle is a machine-flattened plural that should be restored). raw_type 'adjective' is wrong - it was inferred from the 'colors' theme membership alone. LEMMA MISMATCH applies to the colors/coral instance only: there the picture is a colour swatch and 'Koralle' does not name it. Recommend splitting this key, as with orange (colors vs fruits).",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: ocean life/coral@2x.webp - a red/orange branching CORAL organism with pale speckles. I also opened colors/cora"
   },
   "corn": {
    "category": "mass",
    "hasGender": true,
    "hasPlural": false,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "vegetables/corn@2x.webp - ONE ear/cob of corn, yellow kernels, green husk leaves peeled back",
    "reason": "An ear of corn IS corn (a portion of the crop), so this is not a lemma mismatch - but the WORD names the mass/grain, and the mass does not pluralise for this picture. de.wiktionary does list 'die Maise' but states it is rare and used only to distinguish VARIETIES of maize, which is not what a picture of one cob asks for; the stored Mais/Mais is correct. If the operator wants a countable row for this art the lemma must become Maiskolben/majskolv/epi de mais.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: vegetables/corn@2x.webp - ONE ear/cob of corn, yellow kernels, green husk leaves peeled back"
   },
   "cornflower": {
    "category": "countable-thing",
@@ -3822,13 +3844,15 @@
    "category": "plural-picture",
    "hasGender": true,
    "hasPlural": false,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "music/cymbals@2x.webp - a COMPLETE DRUM KIT: bass drum with an orange head, two toms, a floor tom, and THREE cymbals on stands",
    "reason": "LEMMA MISMATCH - the art is a whole drum kit (Schlagzeug / trumset / batterie), not cymbals. The word names one component of a picture dominated by a different instrument, so a child shown this and told 'Becken' learns 'drum kit'. Classified plural-picture on the strictly defensible reading (the label is plural and three cymbals ARE present in the art), but the honest fix is either to re-art this key to cymbals alone or to re-lemma it to 'drum kit' - flagging for the operator rather than silently pluralising.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: music/cymbals@2x.webp - a COMPLETE DRUM KIT: bass drum with an orange head, two toms, a floor tom, and THREE c"
   },
   "cypress-tree": {
    "category": "countable-thing",
@@ -3918,13 +3942,15 @@
    "category": "countable-thing",
    "hasGender": true,
    "hasPlural": true,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "forest creatures/deer@2x.webp - ONE slender spotted deer (a doe/fawn - NO antlers), tan with a cream belly and white spots, walking",
    "reason": "A single countable animal; en[0]===en[1] is the ENGLISH ZERO-PLURAL, so sv Hjort->Hjortar and fr Cerf->Cerfs are correct and must be kept. LEMMA MISMATCH in de, and the row is internally broken: it stores singular 'Hirsch' (a STAG, m) with plural 'Rehe' (roe deer, from Reh, n) - two different animals spliced into one row, with g='n' matching neither Hirsch (m) nor the singular given. The pictured animal is antlerless and spotted, i.e. a Reh, so the de row should be Reh->Rehe (n) - flagging for the de round.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: forest creatures/deer@2x.webp - ONE slender spotted deer (a doe/fawn - NO antlers), tan with a cream belly and"
   },
   "deinonychus": {
    "category": "countable-thing",
@@ -4026,13 +4052,15 @@
    "category": "countable-thing",
    "hasGender": true,
    "hasPlural": true,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "toys/dice@2x.webp - ONE red die (a single cube) with white pips, showing 5 on the top face",
    "reason": "The picture shows ONE die - a countable object -> plural. LEMMA MISMATCH on number in en: 'Dice' is the PLURAL of 'die', so the English singular label is wrong for a single-cube picture (it should be Die/Dice, or the art should show two). This is NOT an English zero-plural, unlike fish/deer. de Wuerfel/Wuerfel is a correct identical-form pair and sv Taerning->Taerningar is correct - both must be kept.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: toys/dice@2x.webp - ONE red die (a single cube) with white pips, showing 5 on the top face"
   },
   "dimetrodon": {
    "category": "countable-thing",
@@ -4314,13 +4342,15 @@
    "category": "mass",
    "hasGender": true,
    "hasPlural": false,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "beach/driftwood@2x.webp - ONE branched log with cut ends and visible grain, reddish-brown",
    "reason": "The word names wood as a material (Treibholz, drivved, bois flotte) - a mass noun with no plural, and the stored rows are already correctly invariant. Minor art note: the log is drawn fresh and reddish-brown with sawn ends rather than sea-weathered grey, so it reads more as a log than as driftwood; but a piece of driftwood IS driftwood, so this is not a lemma mismatch.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: beach/driftwood@2x.webp - ONE branched log with cut ends and visible grain, reddish-brown"
   },
   "drink": {
    "category": "countable-thing",
@@ -4518,13 +4548,15 @@
    "category": "proper-noun",
    "hasGender": true,
    "hasPlural": false,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "Easter bw/easter@2x.webp - an Easter bunny sitting among decorated eggs, grass, pussy willow and a butterfly, line art",
    "reason": "A named holiday: keeps gender, no plural. The art is a bunny with eggs - a holiday cannot be pictured directly and this is its standard honest depiction, so not a lemma mismatch. raw_type 'noun-concept' understates it: this is a name.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: Easter bw/easter@2x.webp - an Easter bunny sitting among decorated eggs, grass, pussy willow and a butterfly, "
   },
   "easter-egg": {
    "category": "countable-thing",
@@ -5082,13 +5114,15 @@
    "category": "countable-thing",
    "hasGender": true,
    "hasPlural": true,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "activities/fishing@2x.webp - a single FISHING ROD with a red handle, reel and line, diagonal across the frame. No angler, no water, no fish.",
    "reason": "I opened the image: it is a fishing rod, a countable object. Like camping, this breaks its own theme's person-doing-the-action convention. raw_type 'verb-gerund' is wrong for this art. LEMMA MISMATCH - de 'Angeln', sv 'Fiska' and fr 'Peche' name the ACTIVITY and do not name what is pictured (die Angel->die Angeln / Angelrute->Angelruten, fr canne a peche). Note the de trap: 'Angeln' is simultaneously the activity noun AND the plural of 'die Angel' (the rod), which is exactly how such a defect survives review. hasPlural:true applies to the corrected lemma.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: activities/fishing@2x.webp - a single FISHING ROD with a red handle, reel and line, diagonal across the frame."
   },
   "fishing-rod": {
    "category": "countable-thing",
@@ -5274,13 +5308,15 @@
    "category": "countable-thing",
    "hasGender": true,
    "hasPlural": true,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "activities/football@2x.webp - a red American FOOTBALL (ball) with white laces and stripes. sports bw 2/football@2x.webp - the same ball in line art. BUT sports bw/football@2x.webp - a HELMET with a face-mask, no ball at all.",
    "reason": "I opened all three: two of the three are the BALL, so the ball is the referent. Countable: footballs, Footballs, fotbollar - the Swedish native who insisted 'en fotboll -> fotbollar' was right because she was picturing the ball. raw_type 'verb-gerund' is wrong. LEMMA MISMATCH - de 'American Football', sv 'Amerikansk fotboll' and fr 'Football americain' name the SPORT, not the ball. SECOND FINDING: this key carries two different pictures - the 'sports bw' art is a helmet (Footballhelm), a different object again.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: activities/football@2x.webp - a red American FOOTBALL (ball) with white laces and stripes. sports bw 2/footbal"
   },
   "forehead": {
    "category": "countable-thing",
@@ -5826,13 +5862,15 @@
    "category": "activity",
    "hasGender": false,
    "hasPlural": false,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "sports bw/golf@2x.webp - a putting green with the HOLE and a flagstick planted in it, flag flying; a scene, not a held object",
    "reason": "raw_type 'verb-gerund' is CONFIRMED here, and this is the deliberate line I drew inside the 'sports bw' theme: badminton/bowling/boxing/hockey/football are each drawn as a single portable ARTIFACT that has its own name (a shuttlecock, a ball, a glove, a stick), whereas golf is drawn as the iconic SCENE of the sport - there is no object here called 'a golf'. So the label correctly names the sport and there is no lemma mismatch. Sports are activities: no gender, no plural (das Golf exists but the wall does not need it).",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: sports bw/golf@2x.webp - a putting green with the HOLE and a flagstick planted in it, flag flying; a scene, no"
   },
   "goose": {
    "category": "countable-thing",
@@ -5994,13 +6032,15 @@
    "category": "countable-thing",
    "hasGender": true,
    "hasPlural": true,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "vegetables/green_beans@2x.webp - ONE single green bean pod, lying diagonally, small brown stem at one end. Just one.",
    "reason": "The art shows ONE pod, so despite en_looks_plural:true this is NOT a plural-picture - it is a countable thing with a plural. LEMMA MISMATCH on number in en: the label 'Green Beans' is plural while the picture is singular (it should be 'Green Bean', or the art should show several). The de row is the one that matches the art: 'Gruene Bohne'->'Gruene Bohnen' is a correct singular/plural pair and must be kept. Additional finding for the sv round: the sv row is holding the FRENCH phrase 'Haricots verts', not a Swedish word at all.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: vegetables/green_beans@2x.webp - ONE single green bean pod, lying diagonally, small brown stem at one end. Jus"
   },
   "greeting-card": {
    "category": "countable-thing",
@@ -6090,13 +6130,15 @@
    "category": "proper-noun",
    "hasGender": true,
    "hasPlural": false,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "miscellaneous/halloween@2x.webp - a jack-o'-lantern pumpkin with a carved triangular-eyed grin, given cartoon arms and legs, standing",
    "reason": "A named holiday: keeps gender, no plural. The art is a jack-o'-lantern - a holiday cannot be pictured directly and the carved pumpkin is its standard honest depiction, so this is not a lemma mismatch. raw_type 'noun-concept' understates it: this is a name.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: miscellaneous/halloween@2x.webp - a jack-o'-lantern pumpkin with a carved triangular-eyed grin, given cartoon "
   },
   "ham": {
    "category": "countable-thing",
@@ -6270,13 +6312,15 @@
    "category": "mass",
    "hasGender": true,
    "hasPlural": false,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "farm bw/hay@2x.webp - THREE large round hay bales stacked in a pyramid on grass, spiral ends, line art",
    "reason": "A bale of hay IS hay (a portion of the substance), so this is not a lemma mismatch - but the WORD names the mass and takes no plural. Keeps gender (das Heu n); the stored Heu/Heu, Hoe/Hoe and Foin/Foin rows are all correct. If the operator wants the countable reading of this art the lemma must become Heuballen/hoebal/balle de foin - worth noting since the picture is three bales, not a loose heap.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: farm bw/hay@2x.webp - THREE large round hay bales stacked in a pyramid on grass, spiral ends, line art"
   },
   "haystack": {
    "category": "countable-thing",
@@ -6522,25 +6566,29 @@
    "category": "activity",
    "hasGender": false,
    "hasPlural": false,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "winter/hockey@2x.webp - a hockey PLAYER in a red kit and helmet, on skates, stick down, playing a puck. Also opened sports bw/hockey@2x.webp - a hockey STICK alone.",
    "reason": "This key carries two different pictures, and unlike its 'sports bw' siblings the label is RIGHT for one of them: the winter art shows the sport being played, which 'Hockey' names correctly. So no lemma mismatch and raw_type 'verb-gerund' is confirmed - a sport is an activity: no gender, no plural. Flag the divergence for art review: the 'sports bw' instance is a stick (Hockeyschlaeger), a different referent from the winter instance.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: winter/hockey@2x.webp - a hockey PLAYER in a red kit and helmet, on skates, stick down, playing a puck. Also o"
   },
   "honey": {
    "category": "mass",
    "hasGender": true,
    "hasPlural": false,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "breakfast/honey@2x.webp - a glass JAR of honey with a wooden lid and a blank label, amber contents",
    "reason": "The word names a substance; the jar is its container, which is the normal way to picture a liquid and so not a lemma mismatch. Mass: keeps gender (der Honig m), no plural - the stored Honig/Honig, Honung/Honung and Miel/Miel rows are all correct.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: breakfast/honey@2x.webp - a glass JAR of honey with a wooden lid and a blank label, amber contents"
   },
   "hoodie": {
    "category": "countable-thing",
@@ -7146,13 +7194,15 @@
    "category": "activity",
    "hasGender": false,
    "hasPlural": false,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "activities/jumping@2x.webp - a girl mid-skip with a SKIPPING ROPE arcing around her, one foot lifted",
    "reason": "A person performing the action: a genuine activity, no gender, no plural. raw_type 'verb-gerund' confirmed. Soft note: the art is specifically rope-skipping (Seilspringen/hoppa rep) while the label names jumping generally - the rope is a prop in a person-doing-the-action picture, not a substituted object, so unlike camping/fishing this is not a lemma mismatch.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: activities/jumping@2x.webp - a girl mid-skip with a SKIPPING ROPE arcing around her, one foot lifted"
   },
   "jumpsuit": {
    "category": "countable-thing",
@@ -9462,13 +9512,15 @@
    "category": "countable-thing",
    "hasGender": true,
    "hasPlural": true,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "clothing/pants@2x.webp — ONE pair of YELLOW KNEE-LENGTH bermuda shorts: belt loops, button fly, dark pocket linings, contrast turn-up cuffs ending at/above the knee",
    "reason": "One countable garment -> keeps gender and plural (de Hose->Hosen, fr Pantalon->Pantalons are correct). LEMMA MISMATCH: the picture is KNEE-LENGTH SHORTS, not trousers. en 'Pants' (US = full-length), de 'Hose' and fr 'Pantalon' do not name knee-length shorts, and the batch already has 'shorts' (teal, above-knee) and 'trousers' (grey, ankle-length, belted) — I opened all three and compared. The prior verdict described this image as 'a single pair of trousers' and claimed to have read it directly; it is not trousers. Either the art or the key is wrong.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: clothing/pants@2x.webp — ONE pair of YELLOW KNEE-LENGTH bermuda shorts: belt loops, button fly, dark pocket li"
   },
   "papaya": {
    "category": "countable-thing",
@@ -9918,13 +9970,15 @@
    "category": "countable-thing",
    "hasGender": true,
    "hasPlural": true,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "activities/photography@2x.webp — a bright green DSLR CAMERA with a large silver zoom lens, three-quarter view",
    "reason": "I opened the image: it is a CAMERA — a physical countable object. LEMMA MISMATCH: de 'Fotografie' names photography-the-practice (or a photograph); it does not name what is pictured (Fotoapparat / Kamera does). This is the brief's chess shape exactly (chess is also themed [activities], its art is a piece, and the brief rules the abstract/metonym reading WRONG). raw_type 'verb-gerund' is doubly wrong: neither a gerund nor an activity. hasPlural:true describes Kamera->Kameras and MUST NOT be applied to the label 'Fotografie' until the mismatch is fixed — see systemic_finding.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: activities/photography@2x.webp — a bright green DSLR CAMERA with a large silver zoom lens, three-quarter view"
   },
   "piano": {
    "category": "countable-thing",
@@ -10518,13 +10572,15 @@
    "category": "countable-thing",
    "hasGender": true,
    "hasPlural": true,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "At the Supermarket/pretzels@2x.webp — ONE single knotted pretzel, golden-brown with salt/sesame flecks",
    "reason": "LEMMA MISMATCH (number). The picture shows exactly ONE pretzel, but every label is PLURAL: en 'Pretzels', de 'Brezeln', sv 'Kringlor', fr 'Bretzels'. Duden: 'die Brezel; Genitiv: der Brezel, Plural: die Brezeln' — the shipped de label is the plural of a word whose singular is Brezel. The brief is explicit that the referent decides, and the referent is one countable pretzel -> gender + plural. The prior verdict saw the same single pretzel but classified from the LABEL's form instead; that inverts the operator's rule. The labels must be re-singularised — at which point this row duplicates sister key 'pretzel' and one of the two is redundant. Flagged for the operator rather than silently resolved.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: At the Supermarket/pretzels@2x.webp — ONE single knotted pretzel, golden-brown with salt/sesame flecks"
   },
   "price-tag": {
    "category": "countable-thing",
@@ -11622,13 +11678,15 @@
    "category": "countable-thing",
    "hasGender": true,
    "hasPlural": true,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "activities/science@2x.webp — a MICROSCOPE: yellow curved arm, teal head, black eyepiece tube, red base, objective lenses and stage",
    "reason": "I opened the image: it is a MICROSCOPE — a physical countable object. LEMMA MISMATCH: de 'Wissenschaft' names science-the-discipline and does not name what is pictured (Mikroskop does). I have NOT missed that the brief's category table uses 'science' as its example of abstract — but that table illustrates the CATEGORY with a familiar word; it is not a verdict on this key's picture, and the brief's binding rule ('LOOK AT THE PICTURE... the whole job') plus its chess precedent (also themed [activities], art = a piece, abstract reading ruled WRONG) govern. hasPlural:true describes Mikroskop->Mikroskope and MUST NOT be applied to the label 'Wissenschaft' until the mismatch is fixed — see systemic_finding. If the operator intends this key to mean the discipline, the ART must change; that is a content call.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: activities/science@2x.webp — a MICROSCOPE: yellow curved arm, teal head, black eyepiece tube, red base, object"
   },
   "scissors": {
    "category": "countable-thing",
@@ -11694,13 +11752,15 @@
    "category": "countable-thing",
    "hasGender": true,
    "hasPlural": true,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "travel and holiday bw/scuba_diving@2x.webp — a line-art DIVING MASK with a snorkel strapped to its side; no diver, no water",
    "reason": "I opened the image: it is diving EQUIPMENT — a mask with the snorkel physically clipped to it, i.e. one assembly, not the activity. LEMMA MISMATCH: de 'Tauchen' names the act of diving; it does not name what is pictured (Taucherbrille / Tauchmaske does). Countable: de Taucherbrille->Taucherbrillen. raw_type 'verb-gerund' overturned. hasPlural:true describes the mask and MUST NOT be applied to the label 'Tauchen' until the mismatch is fixed — see systemic_finding.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: travel and holiday bw/scuba_diving@2x.webp — a line-art DIVING MASK with a snorkel strapped to its side; no di"
   },
   "sea-horse": {
    "category": "countable-thing",
@@ -11826,13 +11886,15 @@
    "category": "countable-thing",
    "hasGender": true,
    "hasPlural": true,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "activities/sewing@2x.webp — a red SEWING MACHINE: body, needle bar and presser foot, spool of red thread on top, handwheel, dark base plate",
    "reason": "I opened the image: it is a SEWING MACHINE — a physical countable object, not an activity. LEMMA MISMATCH: de 'Naehen' names the act of sewing; it does not name what is pictured (Naehmaschine does). Countable: de Naehmaschine->Naehmaschinen. raw_type 'verb-gerund' overturned. hasPlural:true describes the machine and MUST NOT be applied to the label 'Naehen' (sv 'Sy' is a bare infinitive) until the mismatch is fixed — see systemic_finding.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: activities/sewing@2x.webp — a red SEWING MACHINE: body, needle bar and presser foot, spool of red thread on to"
   },
   "sewing-machine": {
    "category": "countable-thing",
@@ -12078,13 +12140,15 @@
    "category": "countable-thing",
    "hasGender": true,
    "hasPlural": true,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "activities/singing@2x.webp — a MICROPHONE: dark mesh ball head, blue-grey body with yellow/orange bands, trailing cable. No singer.",
    "reason": "I opened the image: it is a MICROPHONE — a physical countable object, not an activity. LEMMA MISMATCH: de 'Singen' names the act of singing; it does not name what is pictured (Mikrofon does). A child shown a microphone and told 'Singen' learns the wrong word — this is the defect class the brief calls more serious than a wrong plural. Countable: de Mikrofon->Mikrofone. raw_type 'verb-gerund' overturned. hasPlural:true describes the microphone and MUST NOT be applied to the label 'Singen' (sv 'Sjunga' is a bare infinitive) until the mismatch is fixed — see systemic_finding.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: activities/singing@2x.webp — a MICROPHONE: dark mesh ball head, blue-grey body with yellow/orange bands, trail"
   },
   "sink": {
    "category": "countable-thing",
@@ -12138,13 +12202,15 @@
    "category": "countable-thing",
    "hasGender": true,
    "hasPlural": true,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "activities/skating@2x.webp — ONE bright pink lace-up ICE SKATE with a dark sole and a steel blade. One boot, not a pair; no skater.",
    "reason": "I opened the image: it is a single ICE SKATE — a physical countable object, not an activity. LEMMA MISMATCH: de 'Schlittschuhlaufen' names the act. Duden gives the pictured object as a SEPARATE word: 'der Schlittschuh; Genitiv: des Schlittschuh[e]s, Plural: die Schlittschuhe' — a countable noun with a correct plural, and demonstrably not the same lemma as Schlittschuhlaufen. raw_type 'verb-gerund' overturned. hasPlural:true describes Schlittschuh and MUST NOT be applied to the label 'Schlittschuhlaufen' until the mismatch is fixed — see systemic_finding.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: activities/skating@2x.webp — ONE bright pink lace-up ICE SKATE with a dark sole and a steel blade. One boot, n"
   },
   "skeleton": {
    "category": "countable-thing",
@@ -12174,13 +12240,15 @@
    "category": "plural-picture",
    "hasGender": true,
    "hasPlural": false,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "activities/skiing@2x.webp — a PAIR of blue downhill SKIS side by side with yellow bindings. No skier, no snow.",
    "reason": "I opened the image: it is two SKIS — equipment, not the activity. This is the trap the brief predicted for this batch by name. LEMMA MISMATCH, and Duden proves the two words are different lemmas: 'Skifahren' is Substantiv, NEUTRUM (the activity), while the pictured object is 'der Ski', Substantiv, MASKULIN (plural die Skier). Two skis are shown and the natural label is the plural (Skier / skidor / skis), so the label IS the plural — hence plural-picture, not countable-thing. raw_type 'verb-gerund' overturned.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: activities/skiing@2x.webp — a PAIR of blue downhill SKIS side by side with yellow bindings. No skier, no snow."
   },
   "skirt": {
    "category": "countable-thing",
@@ -12522,13 +12590,15 @@
    "category": "countable-thing",
    "hasGender": true,
    "hasPlural": true,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "activities/soccer@2x.webp — ONE football/soccer BALL: classic cream-and-dark truncated-icosahedron panels. I also opened sports bw/soccer@2x.webp (the key's other theme) = a line-art soccer ball, AND the SEPARATE key's art sports bw 2/soccer_ball@2x.webp = a near-identical line-art soccer ball.",
    "reason": "The brief's football case verbatim: the picture is a BALL, so countable — de Fussball->Fussbaelle, sv fotboll->fotbollar (the Swedish native who insisted 'en fotboll -> fotbollar' was right, because she was picturing the ball). raw_type 'verb-gerund' overturned. THE REAL FINDING, which neither prior framing reached: the prior verdict correctly noted a separate 'soccer-ball' key exists (I verified it in image-vocabulary.js) and concluded the ball art here is a harmless metonym for the sport. It is not harmless — I opened both, and 'soccer' and 'soccer-ball' show THE SAME REFERENT, a soccer ball. So the key is lexically reserved for the sport while its art duplicates another key. LEMMA MISMATCH (en): de 'Fussball' and sv 'Fotboll' name the ball as well as the sport so they render correctly, but English has no 'a soccer' — the ball is 'a soccer ball', so the en label does not name the pictured object. Either this key's art should become the sport, or the key is redundant against 'soccer-ball'. Operator content call.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: activities/soccer@2x.webp — ONE football/soccer BALL: classic cream-and-dark truncated-icosahedron panels. I a"
   },
   "soccer-ball": {
    "category": "countable-thing",
@@ -13290,13 +13360,15 @@
    "category": "countable-thing",
    "hasGender": true,
    "hasPlural": true,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "activities/swimming@2x.webp — a pair of SWIMMING GOGGLES: two yellow lenses in red/navy gaskets on a purple strap. No swimmer, no water.",
    "reason": "I opened the image: it is swimming EQUIPMENT (one pair of goggles), not the activity — even though 'swimming' is named verbatim in the brief's activity row, because the brief's overriding rule is that the PICTURE decides and this picture is not a person swimming. LEMMA MISMATCH: de 'Schwimmen' names the act; it does not name what is pictured (Schwimmbrille does). One countable object -> de Schwimmbrille->Schwimmbrillen (the Brille->Brillen pattern again). raw_type 'verb-gerund' overturned. hasPlural:true describes the goggles and MUST NOT be applied to the label 'Schwimmen' until the mismatch is fixed — see systemic_finding.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: activities/swimming@2x.webp — a pair of SWIMMING GOGGLES: two yellow lenses in red/navy gaskets on a purple st"
   },
   "swimsuit": {
    "category": "countable-thing",
@@ -14202,13 +14274,15 @@
    "category": "countable-thing",
    "hasGender": true,
    "hasPlural": true,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "clothing/trousers@2x.webp — ONE pair of grey ANKLE-LENGTH trousers with a brown belt and gold buckle, pockets, turn-up cuffs",
    "reason": "ONE garment — one waistband, two legs. English 'trousers' is a plurale tantum; the referent is a single countable object. de Hose->Hosen and fr Pantalon->Pantalons are correct and must be kept. Same class as overalls. NOTE: this key and 'pants' share identical de/fr labels but the pictures differ — this one is genuinely full-length; 'pants' shows knee-length shorts (see that row's LEMMA MISMATCH).",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: clothing/trousers@2x.webp — ONE pair of grey ANKLE-LENGTH trousers with a brown belt and gold buckle, pockets,"
   },
   "trowel": {
    "category": "countable-thing",
@@ -14598,13 +14672,15 @@
    "category": "countable-thing",
    "hasGender": true,
    "hasPlural": true,
-   "blocked": true,
-   "block_reason": "LEMMA MISMATCH — the word does not name the picture. hasPlural/hasGender below describe the PICTURED OBJECT, not this label. Applying them would pluralise a wrong word (the \"Singen\"->\"Singens\" class). Operator must rule: fix the WORD or fix the ART.",
+   "blocked": false,
+   "block_reason": null,
    "source": "image-verdict",
    "image_checked": true,
    "image_seen": "sports bw/volleyball@2x.webp — ONE line-art volleyBALL with the classic curved panel seams",
    "reason": "OVERTURN, and it splits from tennis/table-tennis on evidence, not intuition: this is a SINGLE object, a ball — the brief's football case. Countable: de Volleyball->Volleybaelle, sv volleyboll->volleybollar. Unlike soccer/tennis there is NO separate 'volleyball-ball' or 'volleyball-net' key in image-vocabulary.js (I verified: 'soccer-ball', 'tennis-ball' and 'tennis-racket' all exist, no volleyball equivalent), so nothing else covers the object and this key must carry it. Unlike 'soccer', the en label is fine here: 'a volleyball' names the ball in English as well as the sport, so there is no lemma mismatch. raw_type 'verb-gerund' overturned.",
-   "no_image": false
+   "no_image": false,
+   "art_defect": true,
+   "art_defect_note": "ART BUG (operator ruling: the filename is the reference). The key names the thing; the picture disagrees and is the defect. Seen: sports bw/volleyball@2x.webp — ONE line-art volleyBALL with the classic curved panel seams"
   },
   "vulture": {
    "category": "countable-thing",
@@ -15158,5 +15234,6 @@
    "reason": "en has a DISTINCT plural ([\"Zinnia\",\"Zinnias\"]), which proves the picture is one countable thing: a noun, with a plural. The per-locale plural FORM is not decided here. NOT image-checked — the 193 that were came back 20% LEMMA MISMATCH.",
    "no_image": false
   }
- }
+ },
+ "operator_ruling": "2026-07-17: when the image and the filename disagree, THE FILENAME IS THE REFERENCE. The word follows the KEY; a mismatched picture is an ART bug, filed separately, never a reason to hold the word."
 }

@@ -1,0 +1,776 @@
+{
+ "locale": "nl",
+ "batch": "11",
+ "reviewed": 110,
+ "rows": [
+  {
+   "key": "suspenders",
+   "image_seen": "accessories/suspenders@2x.webp — one PAIR of red Y-shaped suspenders/braces clipped to blue trousers",
+   "singular": {"verdict": "PLURALIA_TANTUM", "reason": "garment is a pair of straps, conventionally called 'bretels' (plural); the strict singular 'bretel' means ONE strap only. Groene Boekje: de bretel, mv bretellen/bretels. The plural form is the natural label for the pictured garment.", "source": "https://woordenlijst.org/zoeken/?q=bretel"},
+   "plural": {"verdict": "OK", "reason": "pair-label IS the plural; 'bretels' is a valid meervoud of bretel", "source": "https://woordenlijst.org/zoeken/?q=bretel"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "suv",
+   "image_seen": "vehicles bw/suv@2x.webp — line drawing of an SUV (side view)",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "abbreviation ending in a letter takes apostrophe-s: SUV's"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "swallow",
+   "image_seen": "birds 2/swallow@2x.webp — a barn swallow in flight, forked tail, red throat",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de zwaluw, mv zwaluwen", "source": "https://woordenlijst.org/zoeken/?q=zwaluw"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "swan",
+   "image_seen": "animals/swan@2x.webp — a white swan floating",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "zwaan → zwanen (open-syllable lengthening)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "sweater",
+   "image_seen": "clothing/sweater@2x.webp — a red/cream knitted pullover with festive motifs",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de trui, mv truien"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "sweatpants",
+   "image_seen": "clothing/sweatpants@2x.webp — one pair of grey/orange joggers with drawstring",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de joggingbroek, mv joggingbroeken (one garment; broek pattern)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "sweatshirt",
+   "image_seen": "clothing/sweatshirt@2x.webp — a colour-block crewneck sweatshirt",
+   "singular": {"verdict": "OK", "reason": "in NL Dutch 'sweater' = a sweatshirt/katoenen trui; matches the pictured crewneck (distinct from key 'sweater'=trui)"},
+   "plural": {"verdict": "OK", "reason": "de sweater, mv sweaters"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "swimming",
+   "image_seen": "activities/swimming@2x.webp — ART_DEFECT: a pair of swimming GOGGLES (yellow lenses, purple strap), not the act of swimming",
+   "singular": {"verdict": "OK", "reason": "ART_DEFECT flagged; word follows KEY = swimming = zwemmen (substantivised infinitive)"},
+   "plural": {"verdict": "NO_PLURAL", "reason": "zwemmen is an activity/gerund; no child-level plural. (classification hasPlural was derived from the goggles art, which is the bug)"},
+   "gender": {"verdict": "OK", "reason": "het zwemmen (substantivised infinitive is always het)"}
+  },
+  {
+   "key": "swimsuit",
+   "image_seen": "beach/swimsuit@2x.webp — a one-piece navy/red swimsuit",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "het zwempak, mv zwempakken (consonant doubling)"},
+   "gender": {"verdict": "OK", "reason": "het pak → het zwempak"}
+  },
+  {
+   "key": "swing",
+   "image_seen": "toys/swing@2x.webp — a red plank swing hanging from ropes",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de schommel, mv schommels"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "swordfish",
+   "image_seen": "sea life bw/swordfish@2x.webp — line drawing of a swordfish with long bill",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de zwaardvis, mv zwaardvissen"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "sycamore-tree",
+   "image_seen": "tree/sycamore@2x.webp — a leafy green deciduous tree (resolves via 'tree' theme dropping the _tree suffix)",
+   "singular": {"verdict": "OK", "reason": "sycamore/plane tree = plataan"},
+   "plural": {"verdict": "OK", "reason": "de plataan, mv platanen (open-syllable lengthening)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "syringe",
+   "image_seen": "hospital/syringe@2x.webp — a red/white syringe with needle and markings",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de injectiespuit, mv injectiespuiten"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "t-rex",
+   "singular": {"verdict": "OK", "reason": "noImage; T-Rex is the standard shortened name"},
+   "plural": {"verdict": "OK", "reason": "de T-rex, mv T-rexen (Dutch -en)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "t-shirt",
+   "image_seen": "clothing/t-shirt@2x.webp — a green short-sleeved t-shirt with pocket",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "het T-shirt, mv T-shirts"},
+   "gender": {"verdict": "OK", "reason": "het shirt → het T-shirt"}
+  },
+  {
+   "key": "table",
+   "image_seen": "around the house/table@2x.webp — a low wooden table with red legs",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de tafel, mv tafels"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "table-lamp",
+   "image_seen": "furniture bw/table_lamp@2x.webp — line drawing of a shaded table lamp",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de tafellamp, mv tafellampen"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "table-tennis",
+   "image_seen": "sports bw/table_tennis@2x.webp — a ping-pong paddle and ball (line drawing)",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "NO_PLURAL", "reason": "sport/activity; het tafeltennis has no plural"},
+   "gender": {"verdict": "OK", "reason": "het tennis → het tafeltennis"}
+  },
+  {
+   "key": "tablet",
+   "image_seen": "classroom/tablet@2x.webp — a tablet COMPUTER (touchscreen device, orange bezel)",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "device 'de tablet' takes English -s plural: tablets"},
+   "gender": {"verdict": "FIX", "correct": "d", "reason": "Groene Boekje: the tablet COMPUTER is 'de tablet' (m), only het/de for the pill/slab sense. Picture is a device → de tablet, so g should be d not h.", "source": "https://woordenlijst.org/zoeken/?q=tablet"}
+  },
+  {
+   "key": "taco",
+   "image_seen": "food bw/taco@2x.webp — a filled taco shell (line drawing)",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de taco, mv taco's (apostrophe after vowel -o)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "tailor",
+   "image_seen": "occupations/tailor@2x.webp — a person at a sewing machine sewing red fabric",
+   "singular": {"verdict": "OK", "reason": "kleermaker = generic tailor (picture is female; kleermaker is the standard generic term)"},
+   "plural": {"verdict": "OK", "reason": "de kleermaker, mv kleermakers"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "tank",
+   "image_seen": "toys bw/tank@2x.webp — a military tank (line drawing)",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de tank, mv tanks"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "tank-top",
+   "image_seen": "clothing/tank_top@2x.webp — a yellow sleeveless tank top with red/maroon trim",
+   "singular": {"verdict": "OK", "reason": "het hemd is an acceptable K-3 word for a sleeveless top"},
+   "plural": {"verdict": "OK", "reason": "het hemd, mv hemden", "source": "https://woordenlijst.org/zoeken/?q=hemd"},
+   "gender": {"verdict": "OK", "reason": "het hemd confirmed"}
+  },
+  {
+   "key": "tanker-truck",
+   "image_seen": "vehicles bw/tanker_truck@2x.webp — a tanker truck (line drawing)",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de tankwagen, mv tankwagens"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "tape",
+   "image_seen": "classroom/tape@2x.webp — a roll of red adhesive tape",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "het plakband, mv plakbanden", "source": "https://woordenlijst.org/zoeken/?q=plakband"},
+   "gender": {"verdict": "OK", "reason": "Groene Boekje: de/het plakband; het is valid"}
+  },
+  {
+   "key": "tape-measure",
+   "image_seen": "tools/tape_measure@2x.webp — a purple retractable tape measure with extended yellow tape",
+   "singular": {"verdict": "OK", "reason": "meetlint covers a measuring tape; rolmaat is more precise for the retractable metal type but meetlint is fine"},
+   "plural": {"verdict": "OK", "reason": "het meetlint, mv meetlinten"},
+   "gender": {"verdict": "OK", "reason": "het lint → het meetlint"}
+  },
+  {
+   "key": "tart",
+   "image_seen": "bakery/tart@2x.webp — a slice of strawberry-topped cheesecake/tart",
+   "singular": {"verdict": "OK", "reason": "taartje = individual tart/pastry"},
+   "plural": {"verdict": "OK", "reason": "het taartje, mv taartjes"},
+   "gender": {"verdict": "OK", "reason": "diminutive -je is always het"}
+  },
+  {
+   "key": "taxi",
+   "image_seen": "vehicles/taxi@2x.webp — a yellow taxi cab with checker stripe",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de taxi, mv taxi's"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "teacher",
+   "image_seen": "classroom/teacher@2x.webp — a teacher holding a red book",
+   "singular": {"verdict": "OK", "reason": "leraar = generic teacher (picture is female; leraar is standard generic)"},
+   "plural": {"verdict": "OK", "reason": "de leraar, mv leraren"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "teacup",
+   "image_seen": "home and nature bw/teacup@2x.webp — a teacup with handle (line drawing)",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "het theekopje, mv theekopjes"},
+   "gender": {"verdict": "OK", "reason": "diminutive -je is always het"}
+  },
+  {
+   "key": "teapot",
+   "image_seen": "kitchen tools/teapot@2x.webp — a teal teapot with orange lid and handle",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de theepot, mv theepotten (consonant doubling)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "teddy-bear",
+   "image_seen": "toys/teddy_bear@2x.webp — an orange plush teddy bear sitting",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de teddybeer, mv teddyberen (beer → beren)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "telephone",
+   "image_seen": "around the house/telephone@2x.webp — a red rotary desk telephone",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de telefoon, mv telefoons"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "telescope",
+   "image_seen": "space/telescope@2x.webp — a telescope on a tripod",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de telescoop, mv telescopen (open-syllable lengthening)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "television",
+   "image_seen": "around the house/television@2x.webp — a retro TV set with antenna",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de televisie, mv televisies"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "tennis",
+   "image_seen": "activities/tennis@2x.webp — a tennis racket and yellow ball",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "NO_PLURAL", "reason": "sport; het tennis has no plural"},
+   "gender": {"verdict": "OK", "reason": "het tennis"}
+  },
+  {
+   "key": "tennis-ball",
+   "image_seen": "sports bw 2/tennis_ball@2x.webp — a tennis ball (line drawing)",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de tennisbal, mv tennisballen (consonant doubling)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "tennis-racket",
+   "image_seen": "sports bw 2/tennis_racket@2x.webp — a tennis racket (line drawing)",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "het tennisracket, mv tennisrackets", "source": "https://woordenlijst.org/zoeken/?q=racket"},
+   "gender": {"verdict": "OK", "reason": "het racket confirmed"}
+  },
+  {
+   "key": "tent",
+   "image_seen": "camping/tent@2x.webp — a red dome camping tent",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de tent, mv tenten (consonant doubling)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "theater",
+   "image_seen": "activities/theater@2x.webp — a theatre stage with red curtains",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "het theater, mv theaters", "source": "https://woordenlijst.org/zoeken/?q=theater"},
+   "gender": {"verdict": "OK", "reason": "het theater confirmed"}
+  },
+  {
+   "key": "therizinosaurus",
+   "image_seen": "dinosaurs/therizinosaurus@2x.webp — an orange long-necked dinosaur",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de therizinosaurus, mv therizinosaurussen (like dinosaurussen)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "thermometer",
+   "image_seen": "hospital/thermometer@2x.webp — a red digital thermometer",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de thermometer, mv thermometers"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "thumb",
+   "image_seen": "body parts/thumb@2x.webp — a hand giving a thumbs-up",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de duim, mv duimen"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "thunderstorm",
+   "image_seen": "weather/thunderstorm@2x.webp — a dark cloud with a lightning bolt",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "FIX", "correct": "Onweren", "reason": "Groene Boekje: het onweer, meervoud 'onweren'. The stored plural 'Onweer' just repeats the singular and is not a valid plural. NB: the brief lists 'Onweren' as a builder invention, but the official Groene Boekje lists onweren as the meervoud — the DICTIONARY WINS.", "source": "https://woordenlijst.org/zoeken/?q=onweer"},
+   "gender": {"verdict": "OK", "reason": "het onweer confirmed"}
+  },
+  {
+   "key": "tiara",
+   "image_seen": "accessories/tiara@2x.webp — a yellow crown/tiara with red jewels",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de tiara, mv tiara's (apostrophe after vowel -a)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "ticket",
+   "image_seen": "travel and holiday bw/ticket@2x.webp — an airplane ticket (line drawing)",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "het ticket, mv tickets", "source": "https://woordenlijst.org/zoeken/?q=ticket"},
+   "gender": {"verdict": "OK", "reason": "Groene Boekje: de/het ticket; het is valid"}
+  },
+  {
+   "key": "tie",
+   "image_seen": "accessories/tie@2x.webp — a blue striped necktie",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de stropdas, mv stropdassen (consonant doubling)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "tiger",
+   "image_seen": "animals/tiger@2x.webp — a cute orange striped tiger cub",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de tijger, mv tijgers"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "tights",
+   "image_seen": "accessories/tights@2x.webp — a pair of red sheer tights/pantyhose",
+   "singular": {"verdict": "OK", "reason": "panty = tights/pantyhose in NL Dutch"},
+   "plural": {"verdict": "OK", "reason": "de panty, mv panty's (apostrophe after vowel -y)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "timer",
+   "image_seen": "kitchen tools/timer@2x.webp — a red twin-bell clock/timer",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de timer, mv timers"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "tired",
+   "image_seen": "emotions/tired@2x.webp — a yellow face with heavy eyes and open yawning mouth",
+   "singular": {"verdict": "OK", "reason": "moe = tired (adjective)"},
+   "plural": {"verdict": "NO_PLURAL", "reason": "adjective; no plural"},
+   "gender": {"verdict": "OK", "reason": "adjective has no gender; null correct"}
+  },
+  {
+   "key": "tissue",
+   "image_seen": "hospital/tissue@2x.webp — a pink tissue box with tissues pulled out",
+   "singular": {"verdict": "OK", "reason": "zakdoek is the common word (a paper tissue = papieren zakdoek); acceptable"},
+   "plural": {"verdict": "OK", "reason": "de zakdoek, mv zakdoeken"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "toad",
+   "image_seen": "forest creatures/toad@2x.webp — a green red-eyed frog (art drawn as a frog; key=toad)",
+   "singular": {"verdict": "OK", "reason": "de pad = the toad (animal); distinct from het pad = path"},
+   "plural": {"verdict": "OK", "reason": "de pad (dier) → padden. Groene Boekje confirms de pad (dier) is the animal sense. The brief's 'Padden' caution refers to the PATH sense; for toad, padden is correct.", "source": "https://woordenlijst.org/zoeken/?q=pad"},
+   "gender": {"verdict": "OK", "reason": "de pad (animal) is common gender"}
+  },
+  {
+   "key": "toast",
+   "image_seen": "bakery/toast@2x.webp — a single slice of bread (light-coloured)",
+   "singular": {"verdict": "OK", "reason": "de toast = a slice of toast"},
+   "plural": {"verdict": "OK", "reason": "de toast, mv toasts"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "toaster",
+   "image_seen": "around the house/toaster@2x.webp — a red toaster with two slices of bread",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de broodrooster, mv broodroosters", "source": "https://woordenlijst.org/zoeken/?q=broodrooster"},
+   "gender": {"verdict": "OK", "reason": "Groene Boekje: de/het broodrooster; de is valid"}
+  },
+  {
+   "key": "toe",
+   "image_seen": "body parts/toe@2x.webp — a foot with an arrow pointing at the toes",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de teen, mv tenen"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "toilet",
+   "image_seen": "around the house/toilet@2x.webp — a white toilet with orange seat/lid up",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "het toilet, mv toiletten (consonant doubling)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "toilet-paper",
+   "image_seen": "around the house/toilet_paper@2x.webp — a roll of white toilet paper",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "NO_PLURAL", "reason": "het toiletpapier is a mass noun (papier); no child-level plural. (classification hasPlural=true came from the countable art, but the substance is mass)"},
+   "gender": {"verdict": "OK", "reason": "het papier → het toiletpapier"}
+  },
+  {
+   "key": "tomato",
+   "image_seen": "At the Supermarket/tomato@2x.webp — a red tomato with green stem",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de tomaat, mv tomaten (open-syllable lengthening)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "tongs",
+   "image_seen": "kitchen tools/tongs@2x.webp — a pair of red kitchen tongs",
+   "singular": {"verdict": "OK", "reason": "de tang = tongs (one tool)"},
+   "plural": {"verdict": "OK", "reason": "de tang, mv tangen"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "tongue",
+   "image_seen": "body parts/tongue@2x.webp — an open mouth with the tongue sticking out",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de tong, mv tongen"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "toolbox",
+   "image_seen": "around the house/toolbox@2x.webp — a red/yellow toolbox with handle and latch",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de gereedschapskist, mv gereedschapskisten"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "tooth",
+   "image_seen": "body parts/tooth@2x.webp — a molar tooth with red roots",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de tand, mv tanden"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "toothbrush",
+   "image_seen": "around the house/toothbrush@2x.webp — a red toothbrush with blue bristles",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de tandenborstel, mv tandenborstels"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "toothpaste",
+   "image_seen": "around the house/toothpaste@2x.webp — a white/red tube of toothpaste",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "NO_PLURAL", "reason": "de tandpasta is a mass noun; no plural"},
+   "gender": {"verdict": "OK", "reason": "de pasta → de tandpasta"}
+  },
+  {
+   "key": "torch",
+   "image_seen": "sports bw 2/torch@2x.webp — an olympic-style flaming torch (line drawing)",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de fakkel, mv fakkels"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "tortoise",
+   "image_seen": "pets/tortoise@2x.webp — a land tortoise with red shell",
+   "singular": {"verdict": "OK", "reason": "landschildpad = land tortoise"},
+   "plural": {"verdict": "OK", "reason": "de landschildpad, mv landschildpadden (consonant doubling)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "tote-bag",
+   "image_seen": "beach bw 2/tote_bag@2x.webp — a tote bag (line drawing)",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de draagtas, mv draagtassen (consonant doubling)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "toucan",
+   "image_seen": "birds/toucan@2x.webp — a toucan with a large orange/red bill",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de toekan, mv toekans", "source": "https://woordenlijst.org/zoeken/?q=toekan"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "tow-truck",
+   "image_seen": "vehicles/tow_truck@2x.webp — a yellow tow truck with crane/hook",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de sleepwagen, mv sleepwagens"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "towel",
+   "image_seen": "household bw/towel@2x.webp — a towel draped over a hanger (line drawing)",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de handdoek, mv handdoeken"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "tractor",
+   "image_seen": "vehicles/tractor@2x.webp — a red/yellow tractor with a face",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de tractor, mv tractoren (also tractors)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "traffic-cone",
+   "image_seen": "tools bw/traffic_cone@2x.webp — a striped traffic cone/pylon (line drawing)",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de verkeerskegel, mv verkeerskegels"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "trail",
+   "image_seen": "camping/trail@2x.webp — a winding path through green hills with trees",
+   "singular": {"verdict": "OK", "reason": "het pad = path/trail; distinct from de pad = toad"},
+   "plural": {"verdict": "OK", "reason": "het pad (weg) → paden. Groene Boekje confirms het pad (weg), mv paden.", "source": "https://woordenlijst.org/zoeken/?q=pad"},
+   "gender": {"verdict": "OK", "reason": "het pad (path) is neuter"}
+  },
+  {
+   "key": "train",
+   "image_seen": "toys/train@2x.webp — a yellow/red toy steam locomotive",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de trein, mv treinen"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "trapezoid",
+   "image_seen": "shapes/trapezoid@2x.webp — a green trapezium/trapezoid shape",
+   "singular": {"verdict": "OK", "reason": "het trapezium (the geometric shape); a circus trapeze would be 'de trapeze' — different word"},
+   "plural": {"verdict": "OK", "reason": "het trapezium, mv trapezia (also trapeziums)", "source": "https://woordenlijst.org/zoeken/?q=trapezium"},
+   "gender": {"verdict": "OK", "reason": "het trapezium confirmed (o)"}
+  },
+  {
+   "key": "trash-can",
+   "image_seen": "around the house/trash_can@2x.webp — a green wheelie bin with red lid",
+   "singular": {"verdict": "OK", "reason": "prullenbak = trash can (a wheelie bin is more precisely vuilnisbak/kliko, but prullenbak is fine for K-3)"},
+   "plural": {"verdict": "OK", "reason": "de prullenbak, mv prullenbakken (consonant doubling)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "tree",
+   "image_seen": "christmas/tree@2x.webp — a decorated Christmas tree with star and gift",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de boom, mv bomen (open-syllable lengthening)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "triangle",
+   "image_seen": "shapes/triangle@2x.webp — a light-blue triangle",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de driehoek, mv driehoeken"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "triceratops",
+   "image_seen": "dinosaurs/triceratops@2x.webp — a teal triceratops with three horns",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de triceratops, mv triceratopsen"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "trillium",
+   "image_seen": "flowers/trillium@2x.webp — a red/pink flower (drawn with more than 3 petals; key=trillium)",
+   "singular": {"verdict": "OK", "reason": "drieblad = Trillium (Dutch plant name)"},
+   "plural": {"verdict": "OK", "reason": "het blad → driebladen. The stored 'Driebladen' (single d) is the correct form; the brief's flagged builder invention 'Driebladden' (double d) is NOT what is stored here."},
+   "gender": {"verdict": "OK", "reason": "het blad → het drieblad"}
+  },
+  {
+   "key": "trombone",
+   "image_seen": "music/trombone@2x.webp — a brass horn/trombone",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de trombone, mv trombones"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "trophy",
+   "image_seen": "classroom bw/trophy@2x.webp — a two-handled trophy cup (line drawing)",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de trofee, mv trofeeën (diaeresis)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "trousers",
+   "image_seen": "clothing/trousers@2x.webp — one pair of grey trousers with a brown belt (ART_DEFECT note about ankle length is cosmetic)",
+   "singular": {"verdict": "OK", "reason": "de broek = trousers (one garment)"},
+   "plural": {"verdict": "OK", "reason": "de broek, mv broeken"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "trowel",
+   "image_seen": "tools bw/trowel@2x.webp — a mason's pointing trowel (line drawing)",
+   "singular": {"verdict": "OK", "reason": "troffel = mason's trowel; matches the pictured tool"},
+   "plural": {"verdict": "OK", "reason": "de troffel, mv troffels"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "truck",
+   "image_seen": "post office/truck@2x.webp — a white USPS-style delivery van/truck (key=truck)",
+   "singular": {"verdict": "OK", "reason": "vrachtwagen = truck"},
+   "plural": {"verdict": "OK", "reason": "de vrachtwagen, mv vrachtwagens"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "truck-driver",
+   "image_seen": "occupations/truck_driver@2x.webp — a man driving a red/yellow container truck",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de vrachtwagenchauffeur, mv vrachtwagenchauffeurs"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "trumpet",
+   "image_seen": "music/trumpet@2x.webp — a brass trumpet with three valves",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de trompet, mv trompetten (consonant doubling)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "tulip",
+   "image_seen": "easter/tulip@2x.webp — a single red/orange tulip",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de tulp, mv tulpen"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "tuna",
+   "image_seen": "ocean life/tuna@2x.webp — a tuna fish (side view)",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de tonijn, mv tonijnen", "source": "https://woordenlijst.org/zoeken/?q=tonijn"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "turkey",
+   "image_seen": "birds 2/turkey@2x.webp — a turkey with fanned tail feathers",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de kalkoen, mv kalkoenen"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "turnip",
+   "image_seen": "vegetables/turnip@2x.webp — a magenta/pink root vegetable with green tops (key=turnip)",
+   "singular": {"verdict": "OK", "reason": "raap = turnip (the art is beet-coloured but follows the key)"},
+   "plural": {"verdict": "OK", "reason": "de raap, mv rapen (open-syllable lengthening)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "turquoise",
+   "image_seen": "colors/turquoise@2x.webp — a turquoise-coloured water drop (colour swatch)",
+   "singular": {"verdict": "OK", "reason": "turkoois = turquoise (colour adjective)"},
+   "plural": {"verdict": "NO_PLURAL", "reason": "adjective/colour; no plural"},
+   "gender": {"verdict": "OK", "reason": "adjective has no gender; null correct"}
+  },
+  {
+   "key": "turtle",
+   "image_seen": "animals/turtle@2x.webp — a green turtle with a green shell",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de schildpad, mv schildpadden (consonant doubling)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "tyrannosaurus-rex",
+   "image_seen": "dinosaurs/tyrannosaurus_rex@2x.webp — a red/brown T-Rex standing",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de tyrannosaurus rex, mv tyrannosaurus rexen (Dutch -en; consistent with t-rex)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "ufo",
+   "image_seen": "space bw/ufo@2x.webp — a flying saucer/UFO (line drawing)",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de ufo, mv ufo's (apostrophe after vowel -o)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "umbrella",
+   "image_seen": "accessories/umbrella@2x.webp — an open blue/yellow umbrella",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de paraplu, mv paraplu's (apostrophe after vowel -u)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "uncle-sam",
+   "image_seen": "4th of July/uncle_sam@2x.webp — Uncle Sam in a stars-and-stripes top hat",
+   "singular": {"verdict": "OK", "reason": "Oom Sam = Uncle Sam (proper noun)"},
+   "plural": {"verdict": "NO_PLURAL", "reason": "proper noun; no plural"},
+   "gender": {"verdict": "OK", "reason": "de oom → keeps common gender"}
+  },
+  {
+   "key": "underpants",
+   "image_seen": "clothing/underpants@2x.webp — one pair of cream/red underpants/briefs",
+   "singular": {"verdict": "OK", "reason": "de onderbroek = underpants (one garment)"},
+   "plural": {"verdict": "OK", "reason": "de onderbroek, mv onderbroeken"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "unicorn",
+   "image_seen": "animals bw/unicorn@2x.webp — a winged unicorn/pegasus (line drawing)",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de eenhoorn, mv eenhoorns (also eenhoornen)", "source": "https://woordenlijst.org/zoeken/?q=eenhoorn"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "uniform",
+   "image_seen": "clothing/uniform@2x.webp — a purple/red buttoned uniform shirt with epaulettes",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "het uniform, mv uniformen"},
+   "gender": {"verdict": "OK", "reason": "het uniform"}
+  },
+  {
+   "key": "uranus",
+   "image_seen": "space/uranus@2x.webp — a striped banded planet (key=Uranus)",
+   "singular": {"verdict": "OK", "reason": "Uranus (planet, proper noun)"},
+   "plural": {"verdict": "NO_PLURAL", "reason": "proper noun (planet); no plural"},
+   "gender": {"verdict": "OK", "reason": "de planeet; proper noun keeps de by default"}
+  },
+  {
+   "key": "us",
+   "image_seen": "4th of July/us@2x.webp — a colourful map of the United States",
+   "singular": {"verdict": "OK", "reason": "VS = Verenigde Staten, the standard Dutch abbreviation for the US"},
+   "plural": {"verdict": "NO_PLURAL", "reason": "proper noun; no plural"},
+   "gender": {"verdict": "OK", "reason": "de VS"}
+  },
+  {
+   "key": "vacuum-cleaner",
+   "image_seen": "around the house/vacuum_cleaner@2x.webp — a red canister vacuum cleaner with handle",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de stofzuiger, mv stofzuigers"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "van",
+   "image_seen": "vehicles/van@2x.webp — an orange/cream VW van",
+   "singular": {"verdict": "OK", "reason": "busje = van/minibus"},
+   "plural": {"verdict": "OK", "reason": "het busje, mv busjes"},
+   "gender": {"verdict": "OK", "reason": "diminutive -je is always het"}
+  },
+  {
+   "key": "vanity",
+   "image_seen": "household bw/vanity@2x.webp — a dressing table with mirror, stool and flowers (line drawing)",
+   "singular": {"verdict": "OK", "reason": "kaptafel = vanity/dressing table"},
+   "plural": {"verdict": "OK", "reason": "de kaptafel, mv kaptafels"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "vanity-table",
+   "image_seen": "furniture bw/vanity_table@2x.webp — a dressing table with oval mirror (line drawing)",
+   "singular": {"verdict": "OK", "reason": "kaptafel = vanity table"},
+   "plural": {"verdict": "OK", "reason": "de kaptafel, mv kaptafels"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "vase",
+   "image_seen": "around the house/vase@2x.webp — an orange/yellow ceramic vase",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de vaas, mv vazen (s→z devoicing + open-syllable lengthening)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "vegetables",
+   "image_seen": "farm bw/vegetables@2x.webp — a basket of mixed vegetables (line drawing; several objects)",
+   "singular": {"verdict": "OK", "reason": "plural-picture: the image shows several vegetables; 'Groenten' is the label"},
+   "plural": {"verdict": "OK", "reason": "plural-picture: the label IS the plural (de groente → groenten); nothing further"},
+   "gender": {"verdict": "OK", "reason": "de groente(n)"}
+  },
+  {
+   "key": "velociraptor",
+   "image_seen": "dinosaurs/velociraptor@2x.webp — an orange velociraptor standing",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "de velociraptor, mv velociraptoren (also velociraptors)"},
+   "gender": {"verdict": "OK"}
+  }
+ ]
+}

@@ -1,0 +1,477 @@
+{
+  "locale": "nl",
+  "batch": "10",
+  "reviewed": 110,
+  "rows": [
+    { "key": "shelf",
+      "image_seen": "classroom/shelf@2x.webp — two red wall shelves with brackets",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "ship",
+      "image_seen": "vehicles/ship@2x.webp — a dark-blue steamship/boat with red flags",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK","reason":"het schip is correct (n=onzijdig)"} },
+
+    { "key": "shirt",
+      "image_seen": "clothing/shirt@2x.webp — a short-sleeve button-up shirt (pink/red)",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK","reason":"het overhemd correct"} },
+
+    { "key": "shoe",
+      "image_seen": "clothing/shoe@2x.webp — one brown leather loafer shoe",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "shoes",
+      "image_seen": "objects_bw/shoes_2@2x.webp — a pair of two lace-up shoes (line drawing)",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"plural-picture: the label IS the plural; two shoes shown"}, "gender": {"verdict":"OK"} },
+
+    { "key": "shopping-bag",
+      "image_seen": "Christmas_bw/shopping_bag@2x.webp — one paper shopping bag with handles",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "shopping-cart",
+      "image_seen": "travel_and_holiday_bw/shopping_cart@2x.webp — a shopping cart with two bags",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "shorts",
+      "image_seen": "clothing/shorts@2x.webp — a pair of teal drawstring shorts",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"korte broek/korte broeken correct (single garment, English pluralia-tantum)"}, "gender": {"verdict":"OK","reason":"de broek (kledingstuk) is d"} },
+
+    { "key": "shoulder",
+      "image_seen": "body_parts/shoulder@2x.webp — a torso with an arrow pointing at the shoulder",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "shovel",
+      "image_seen": "around_the_house/shovel@2x.webp — a shovel/spade with a D-grip handle",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "shrimp",
+      "image_seen": "ocean_life/shrimp@2x.webp — a red shrimp/prawn",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"garnaal → garnalen (open-syllable vowel change) correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "shuttlecock",
+      "image_seen": "sports_bw_2/shuttlecock@2x.webp — a badminton shuttlecock (line drawing)",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "shy",
+      "image_seen": "emotions/shy@2x.webp — a blushing smiley face",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"adjective, no plural"}, "gender": {"verdict":"OK","reason":"adjective, no gender"} },
+
+    { "key": "sickle",
+      "image_seen": "tools_bw/sickle@2x.webp — a curved sickle (line drawing)",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "signpost",
+      "image_seen": "beach_bw_2/signpost@2x.webp — a wooden arrow signpost on a post",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "singer",
+      "image_seen": "music/singer@2x.webp — a woman singing into a handheld microphone",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK","reason":"de zanger correct; image is female (zangeres would match the depicted sex, but zanger is the standard/generic term — noted, not a defect)"} },
+
+    { "key": "singing",
+      "image_seen": "activities/singing@2x.webp — a MICROPHONE (ART_DEFECT: key=singing but art shows a mic)",
+      "singular": {"verdict":"OK","reason":"per operator ruling word follows the KEY 'singing' = de activiteit 'zingen' (het zingen); the mic art is the bug"},
+      "plural": {"verdict":"NO_PLURAL","reason":"activity/gerund (zingen) per KEY; no child-level plural. classification.hasPlural=true was derived from the microphone art, not the word"},
+      "gender": {"verdict":"OK","reason":"het zingen (substantivized infinitive) → h"} },
+
+    { "key": "sink",
+      "image_seen": "around_the_house/sink@2x.webp — a pink BATHROOM pedestal wash-basin with faucet",
+      "singular": {"verdict":"HOLD","reason":"lemma mismatch: the picture is a bathroom wash-basin = 'wastafel' (de wastafel), NOT 'gootsteen' (the kitchen sink unit). Not a pure form fix → HOLD; recommend wastafel","source":"https://woordenlijst.org/zoeken/?q=wastafel"},
+      "plural": {"verdict":"HOLD","reason":"follows the singular: should be 'wastafels' (de wastafel → wastafels), not gootstenen","source":"https://woordenlijst.org/zoeken/?q=wastafel"},
+      "gender": {"verdict":"OK","reason":"both gootsteen and wastafel are de-woorden → d stays correct either way"} },
+
+    { "key": "sister",
+      "image_seen": "noImage",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"zus → zussen correct (also zusters)"}, "gender": {"verdict":"OK"} },
+
+    { "key": "sit",
+      "image_seen": "noImage",
+      "singular": {"verdict":"OK","reason":"key=sit=verb 'zitten' (het zitten)"},
+      "plural": {"verdict":"NO_PLURAL","reason":"verb/activity; no plural. classification.hasPlural is a builder default, not the word"},
+      "gender": {"verdict":"OK","reason":"het zitten → h"} },
+
+    { "key": "skateboard",
+      "image_seen": "toys/skateboard@2x.webp — a red skateboard with wheels",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK","reason":"het skateboard correct"} },
+
+    { "key": "skating",
+      "image_seen": "activities/skating@2x.webp — ONE pink ice skate (ART_DEFECT: key=skating but art shows one skate)",
+      "singular": {"verdict":"OK","reason":"per operator ruling word follows the KEY 'skating' = activity 'schaatsen' (het schaatsen); the single-skate art is the bug"},
+      "plural": {"verdict":"NO_PLURAL","reason":"activity/gerund (schaatsen) per KEY; no child-level plural"},
+      "gender": {"verdict":"OK","reason":"het schaatsen → h"} },
+
+    { "key": "skeleton",
+      "image_seen": "body_parts/skeleton@2x.webp — a full human skeleton",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"skelet → skeletten (consonant doubling) correct"}, "gender": {"verdict":"OK","reason":"het skelet correct"} },
+
+    { "key": "skeptical",
+      "image_seen": "noImage",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"adjective, no plural"}, "gender": {"verdict":"OK","reason":"adjective, no gender"} },
+
+    { "key": "skiing",
+      "image_seen": "activities/skiing@2x.webp — a PAIR of blue downhill skis (ART_DEFECT: key=skiing, art shows skis)",
+      "singular": {"verdict":"OK","reason":"per operator ruling word follows the KEY 'skiing' = activity 'skiën' (het skiën); the skis art is the bug"},
+      "plural": {"verdict":"NO_PLURAL","reason":"activity/gerund (skiën) per KEY; no child-level plural"},
+      "gender": {"verdict":"OK","reason":"het skiën → h"} },
+
+    { "key": "skirt",
+      "image_seen": "clothing/skirt@2x.webp — a pleated yellow skirt",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "sky",
+      "image_seen": "space_bw/sky@2x.webp — a crescent moon with stars (night sky, line drawing)",
+      "singular": {"verdict":"OK","reason":"hemel (sterrenhemel) is acceptable for sky, though 'lucht' is the everyday word"},
+      "plural": {"verdict":"FIX","correct":"Hemelen","reason":"for the sky/uitspansel sense the plural is 'hemelen'; 'hemels' is the plural of the baldakijn/canopy sense — wrong sense","source":"https://woordenlijst.org/zoeken/?q=hemel"},
+      "gender": {"verdict":"OK","reason":"de hemel (m) → d"} },
+
+    { "key": "sled",
+      "image_seen": "winter/sled@2x.webp — a wooden runner sled",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"slee → sleeën (trema) correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "sledding",
+      "image_seen": "winter/sledding@2x.webp — a child sitting on a runner sled (activity)",
+      "singular": {"verdict":"OK","reason":"activity 'sleeën' (het sleeën)"},
+      "plural": {"verdict":"NO_PLURAL","reason":"activity; no child-level plural"},
+      "gender": {"verdict":"OK","reason":"activity → geen genus (null); correct"} },
+
+    { "key": "sleep",
+      "image_seen": "noImage",
+      "singular": {"verdict":"OK","reason":"key=sleep=verb 'slapen' (het slapen)"},
+      "plural": {"verdict":"NO_PLURAL","reason":"verb/activity; no plural"},
+      "gender": {"verdict":"OK","reason":"het slapen → h"} },
+
+    { "key": "sleeping-bag",
+      "image_seen": "camping/sleeping_bag@2x.webp — a child inside a red mummy sleeping bag",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "sleigh",
+      "image_seen": "christmas/sleigh@2x.webp — a red Santa sleigh with runners",
+      "singular": {"verdict":"OK","reason":"slee (also arreslee) correct for a sleigh"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "slide",
+      "image_seen": "toys/slide@2x.webp — a playground slide with tower",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"glijbaan → glijbanen correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "slippers",
+      "image_seen": "clothing/slippers@2x.webp — a pair of OPEN flat slide sandals (single wide band, open toe/heel)",
+      "singular": {"verdict":"HOLD","reason":"picture shows open slide sandals ('slippers'/'badslippers'), not closed cosy house 'pantoffels'. Picture-vs-word question → HOLD; recommend 'slippers'"},
+      "plural": {"verdict":"OK","reason":"plural-picture: the label IS the plural"},
+      "gender": {"verdict":"OK"} },
+
+    { "key": "sloth",
+      "image_seen": "zoo_animals/sloth@2x.webp — an orange sloth sitting upright",
+      "singular": {"verdict":"OK"},
+      "plural": {"verdict":"FIX","correct":"Luiaards","reason":"Groene Boekje gives meervoud 'luiaards'; 'luiaarden' is not the listed plural","source":"https://woordenlijst.org/zoeken/?q=luiaard"},
+      "gender": {"verdict":"OK"} },
+
+    { "key": "slug",
+      "image_seen": "forest_creatures/slug@2x.webp — a striped slug (no shell)",
+      "singular": {"verdict":"OK","reason":"naaktslak (slug, no shell) correct — distinct from snail=slak"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "smartphone",
+      "image_seen": "objects_bw/smartphone@2x.webp — a smartphone (line drawing)",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "smartwatch",
+      "image_seen": "apparel_bw/smartwatch@2x.webp — a smartwatch with band (line drawing)",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"EN loan → smartwatches correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "smoothie",
+      "image_seen": "breakfast/smoothie@2x.webp — a glass of pink smoothie with a straw",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "snail",
+      "image_seen": "forest_creatures/snail@2x.webp — a snail with a spiral shell",
+      "singular": {"verdict":"OK","reason":"slak (with shell) correct — distinct from slug=naaktslak"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "snake",
+      "image_seen": "zoo_animals_bw/snake@2x.webp — a cartoon snake coiled (line drawing)",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "sneaker",
+      "image_seen": "objects_bw/sneaker@2x.webp — one low-top sneaker with a star (line drawing)",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "sneakers",
+      "image_seen": "objects_bw/sneakers@2x.webp — a pair of high-top sneakers (line drawing)",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"plural-picture: label IS the plural"}, "gender": {"verdict":"OK"} },
+
+    { "key": "snorkel",
+      "image_seen": "beach/snorkel@2x.webp — a diving mask with snorkel tube (set)",
+      "singular": {"verdict":"OK","reason":"snorkel correct for the breathing tube; the set incl. mask is acceptable under the key"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "snorkeling-mask",
+      "image_seen": "beach_bw/snorkeling_mask@2x.webp — a snorkel mask (line drawing)",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK","reason":"het masker → het snorkelmasker correct"} },
+
+    { "key": "snow-boots",
+      "image_seen": "clothing/snow_boots@2x.webp — a pair of red fleece-lined winter boots",
+      "singular": {"verdict":"OK","reason":"snowboots (also sneeuwlaarzen) correct"}, "plural": {"verdict":"OK","reason":"plural-picture: label IS the plural"}, "gender": {"verdict":"OK"} },
+
+    { "key": "snow-globe",
+      "image_seen": "Christmas_bw/snow_globe@2x.webp — a snow globe with a Christmas tree (line drawing)",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "snow-shovel",
+      "image_seen": "noImage",
+      "singular": {"verdict":"OK","reason":"sneeuwschep correct for snow shovel"}, "plural": {"verdict":"OK","reason":"sneeuwscheppen correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "snowboarding",
+      "image_seen": "winter/snowboarding@2x.webp — a person snowboarding (activity)",
+      "singular": {"verdict":"OK","reason":"activity 'snowboarden' (het snowboarden)"},
+      "plural": {"verdict":"NO_PLURAL","reason":"activity; no plural"},
+      "gender": {"verdict":"OK","reason":"activity → geen genus (null); correct"} },
+
+    { "key": "snowdrop",
+      "image_seen": "flowers/snowdrop@2x.webp — a white flower with green leaves (art is a flat 6-petal flower, not a true drooping snowdrop, but key=snowdrop)",
+      "singular": {"verdict":"OK","reason":"sneeuwklokje correct for the KEY"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK","reason":"verkleinwoord -je → het; correct"} },
+
+    { "key": "snowflake",
+      "image_seen": "winter/snowflake@2x.webp — a blue six-armed snowflake",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "snowman",
+      "image_seen": "christmas/snowman@2x.webp — a snowman with hat, scarf and carrot nose",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "snowsuit",
+      "image_seen": "clothing/snowsuit@2x.webp — a child's one-piece hooded snowsuit",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK","reason":"het pak → het sneeuwpak correct"} },
+
+    { "key": "soccer",
+      "image_seen": "activities/soccer@2x.webp — ONE soccer BALL (ART_DEFECT: key=soccer the sport, art shows a ball)",
+      "singular": {"verdict":"OK","reason":"per operator ruling word follows the KEY 'soccer' = the sport 'voetbal' (het voetbal); the ball art is the bug"},
+      "plural": {"verdict":"NO_PLURAL","reason":"the sport voetbal is a mass/activity noun → no plural. cur p='Voetbal' (no distinct plural) is consistent. classification.hasPlural was derived from the ball art"},
+      "gender": {"verdict":"OK","reason":"het voetbal (the game) → h"} },
+
+    { "key": "soccer-ball",
+      "image_seen": "sports_bw_2/soccer_ball@2x.webp — a soccer ball (line drawing)",
+      "singular": {"verdict":"OK","reason":"the ball = de voetbal"}, "plural": {"verdict":"OK","reason":"voetballen correct"}, "gender": {"verdict":"OK","reason":"de voetbal (the ball) → d, correctly distinct from soccer=het voetbal"} },
+
+    { "key": "sock",
+      "image_seen": "accessories/sock@2x.webp — one green ankle sock",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "soda",
+      "image_seen": "At_the_Supermarket/soda@2x.webp — a capped bottle of cola/soft drink",
+      "singular": {"verdict":"OK","reason":"frisdrank correct for soda"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "sofa",
+      "image_seen": "furniture/sofa@2x.webp — a red two-seat sofa with cushions",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"vowel-ending → sofa's (apostrophe) correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "soup",
+      "image_seen": "food_bw_2/soup@2x.webp — a steaming bowl of soup with spoon (line drawing)",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"soep → soepen correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "spade",
+      "image_seen": "beach/spade@2x.webp — a small green child's beach scoop/spade",
+      "singular": {"verdict":"OK","reason":"schepje (small beach scoop) matches the toy pictured"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK","reason":"verkleinwoord -je → het; correct"} },
+
+    { "key": "sparrow",
+      "image_seen": "birds_2/sparrow@2x.webp — a bird with an ORANGE-RED face and breast (drawn as a ROBIN/roodborstje, not a brown-grey sparrow)",
+      "singular": {"verdict":"OK","reason":"per operator ruling word follows the KEY 'sparrow' = 'mus'; the art actually shows a robin (roodborstje) — art bug, but the word is judged against the key"},
+      "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "spatula",
+      "image_seen": "kitchen_tools/spatula@2x.webp — a pink silicone spatula with wooden handle",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "speaker",
+      "image_seen": "home_bw/speaker@2x.webp — a loudspeaker box with two cones (line drawing)",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "sphere",
+      "image_seen": "shapes/sphere@2x.webp — a pink 3D sphere/ball",
+      "singular": {"verdict":"OK","reason":"bol correct for sphere"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "spider",
+      "image_seen": "forest_creatures/spider@2x.webp — a friendly orange/red spider",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"spin → spinnen (consonant doubling) correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "spinach",
+      "image_seen": "vegetables/spinach@2x.webp — a single green spinach leaf",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"NO_PLURAL","reason":"mass noun (spinazie); no child-level plural"}, "gender": {"verdict":"OK"} },
+
+    { "key": "spinning-top",
+      "image_seen": "toys_bw/spinning_top@2x.webp — a spinning top (line drawing)",
+      "singular": {"verdict":"OK","reason":"tol correct"}, "plural": {"verdict":"OK","reason":"tol → tollen correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "spirit-level",
+      "image_seen": "tools/spirit_level@2x.webp — a red torpedo spirit level with vials",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"waterpassen correct"}, "gender": {"verdict":"OK","reason":"Groene Boekje lists de/het waterpas (m/o); d is acceptable","source":"https://woordenlijst.org/zoeken/?q=waterpas"} },
+
+    { "key": "sponge",
+      "image_seen": "kitchen_tools/sponge@2x.webp — a yellow rectangular sponge",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"Groene Boekje lists both 'sponsen' and 'sponzen'; cur 'Sponsen' is valid","source":"https://woordenlijst.org/zoeken/?q=spons"}, "gender": {"verdict":"OK"} },
+
+    { "key": "spoon",
+      "image_seen": "kitchen_tools/spoon@2x.webp — a purple spoon",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "spray",
+      "image_seen": "household_bw/spray@2x.webp — a trigger spray bottle (line drawing)",
+      "singular": {"verdict":"OK","reason":"spray acceptable Dutch loan"}, "plural": {"verdict":"OK","reason":"sprays correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "spruce-tree",
+      "image_seen": "tree/spruce@2x.webp — a green conical spruce/fir tree (key resolves via tree/spruce, _tree suffix dropped)",
+      "singular": {"verdict":"OK","reason":"spar (spruce) correct"}, "plural": {"verdict":"OK","reason":"spar → sparren (consonant doubling) correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "square",
+      "image_seen": "shapes/square@2x.webp — a taupe square shape",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK","reason":"het vierkant correct"} },
+
+    { "key": "squash",
+      "image_seen": "vegetables/squash@2x.webp — an elongated yellow/orange gourd/squash",
+      "singular": {"verdict":"HOLD","reason":"internal contradiction: singular 'Squash' but plural 'Pompoenen' (different lemmas). 'Squash' is not the standard Dutch word for this vegetable; recommend making it consistent as 'Pompoen'/'Pompoenen'","source":"https://woordenlijst.org/zoeken/?q=pompoen"},
+      "plural": {"verdict":"OK","reason":"'Pompoenen' is the correct plural of pompoen, but it does not match the English-loan singular 'Squash' — see singular HOLD"},
+      "gender": {"verdict":"OK","reason":"de pompoen → d"} },
+
+    { "key": "squid",
+      "image_seen": "ocean_life/squid@2x.webp — a red cephalopod with pointed mantle and many arms",
+      "singular": {"verdict":"OK","reason":"inktvis is the common Dutch word for squid/cuttlefish"}, "plural": {"verdict":"OK","reason":"inktvis → inktvissen correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "squirrel",
+      "image_seen": "forest_creatures/squirrel@2x.webp — an orange squirrel with bushy tail",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"Groene Boekje: eekhoorns correct","source":"https://woordenlijst.org/zoeken/?q=eekhoorn"}, "gender": {"verdict":"OK"} },
+
+    { "key": "stage",
+      "image_seen": "music/stage@2x.webp — a theatre stage with red curtains",
+      "singular": {"verdict":"OK","reason":"podium correct"}, "plural": {"verdict":"OK","reason":"podia (also podiums) correct","source":"https://woordenlijst.org/zoeken/?q=podium"}, "gender": {"verdict":"OK","reason":"het podium → h"} },
+
+    { "key": "stairs",
+      "image_seen": "around_the_house/stairs@2x.webp — a colourful four-step staircase",
+      "singular": {"verdict":"OK","reason":"trap (single object, English pluralia-tantum)"}, "plural": {"verdict":"OK","reason":"trap → trappen correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "stamp",
+      "image_seen": "post_office/stamp@2x.webp — a POSTAGE STAMP (perforated edges, '201' denomination, lamp illustration). Also classroom_bw/stamp@2x.webp — a RUBBER hand STAMP (handle + block base).",
+      "singular": {"verdict":"HOLD","reason":"the key resolves to two different objects: the colour (post office) art is a POSTAGE stamp = 'postzegel', while 'Stempel' names only the rubber-stamp (classroom_bw) art. Picture question → HOLD; the postage-stamp image needs 'postzegel'","source":"https://woordenlijst.org/zoeken/?q=postzegel"},
+      "plural": {"verdict":"OK","reason":"both stempel→stempels and postzegel→postzegels are de + -s, so the form-shape holds either way"},
+      "gender": {"verdict":"OK","reason":"both stempel and postzegel are de-woorden → d"} },
+
+    { "key": "stand",
+      "image_seen": "noImage",
+      "singular": {"verdict":"OK","reason":"key=stand=verb 'staan' (het staan)"},
+      "plural": {"verdict":"NO_PLURAL","reason":"verb/activity; no plural"},
+      "gender": {"verdict":"OK","reason":"het staan → h"} },
+
+    { "key": "stapler",
+      "image_seen": "classroom/stapler@2x.webp — a teal desk stapler",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "star",
+      "image_seen": "shapes/star@2x.webp — a light-blue five-pointed star",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"ster → sterren (consonant doubling) correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "starfish",
+      "image_seen": "ocean_life/starfish@2x.webp — an orange starfish with a smiling face",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"zeester → zeesterren correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "statue",
+      "image_seen": "4th_of_July/statue@2x.webp — the Statue of Liberty",
+      "singular": {"verdict":"OK","reason":"standbeeld correct as the generic word for the key 'statue' (specific: Vrijheidsbeeld)"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK","reason":"het standbeeld → h"} },
+
+    { "key": "stegosaurus",
+      "image_seen": "dinosaurs/stegosaurus@2x.webp — a purple stegosaurus with back plates",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"stegosaurussen correct (Latin -us loan)"}, "gender": {"verdict":"OK"} },
+
+    { "key": "stethoscope",
+      "image_seen": "hospital/stethoscope@2x.webp — a red/blue stethoscope",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"stethoscoop → stethoscopen correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "stingray",
+      "image_seen": "sea_life_bw/stingray@2x.webp — a stingray with long tail (line drawing)",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"pijlstaartrog → pijlstaartroggen (consonant doubling) correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "stocking",
+      "image_seen": "christmas/stocking@2x.webp — a red Christmas stocking with white cuff",
+      "singular": {"verdict":"OK","reason":"kerstsok correct for a Christmas stocking"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "stool",
+      "image_seen": "furniture/stool@2x.webp — a backless wooden stool",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"kruk → krukken correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "stopwatch",
+      "image_seen": "sports_bw_2/stopwatch@2x.webp — a stopwatch (line drawing)",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"EN loan → stopwatches correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "stork",
+      "image_seen": "birds_2/stork@2x.webp — a white stork with black wings, red beak and legs",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"Groene Boekje: ooievaars (also ooievaren) correct","source":"https://woordenlijst.org/zoeken/?q=ooievaar"}, "gender": {"verdict":"OK"} },
+
+    { "key": "stormy",
+      "image_seen": "weather/stormy@2x.webp — a red storm cloud with rain and lightning",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"adjective, no plural"}, "gender": {"verdict":"OK","reason":"adjective, no gender"} },
+
+    { "key": "stove",
+      "image_seen": "around_the_house/stove@2x.webp — a kitchen stove/range with pots on top",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"fornuis → fornuizen (s→z devoicing reversal) correct"}, "gender": {"verdict":"OK","reason":"het fornuis → h"} },
+
+    { "key": "strawberry",
+      "image_seen": "fruits/strawberry@2x.webp — a red strawberry with green calyx",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"aardbei → aardbeien correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "stretcher",
+      "image_seen": "hospital/stretcher@2x.webp — a wheeled hospital stretcher/gurney",
+      "singular": {"verdict":"OK","reason":"brancard correct"}, "plural": {"verdict":"OK","reason":"brancards correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "student",
+      "image_seen": "classroom/student@2x.webp — a young child holding a book with a backpack",
+      "singular": {"verdict":"OK","reason":"leerling (K-12 pupil) correctly matches the young child pictured; 'student' in NL means university student"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "styracosaurus",
+      "image_seen": "dinosaurs/styracosaurus@2x.webp — an orange horned styracosaurus",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"styracosaurussen correct (Latin -us loan)"}, "gender": {"verdict":"OK"} },
+
+    { "key": "submarine",
+      "image_seen": "vehicles/submarine@2x.webp — a red/blue submarine with periscope",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"onderzeeër → onderzeeërs correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "subway",
+      "image_seen": "vehicles/subway@2x.webp — a metro/subway train car",
+      "singular": {"verdict":"OK","reason":"metro correct"}, "plural": {"verdict":"OK","reason":"vowel-ending → metro's (apostrophe) correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "suitcase",
+      "image_seen": "beach_bw/suitcase@2x.webp — a hard suitcase with handle (line drawing)",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK"}, "gender": {"verdict":"OK"} },
+
+    { "key": "sun",
+      "image_seen": "weather/sun@2x.webp — a smiling sun with rays",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"zon → zonnen (consonant doubling) correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "sun-hat",
+      "image_seen": "accessories/sun_hat@2x.webp — a wide-brim red/orange sun hat",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"hoed → hoeden correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "sundae",
+      "image_seen": "dessert_bw/sundae@2x.webp — an ice-cream sundae in a coupe glass with cherry and wafers (line drawing)",
+      "singular": {"verdict":"OK","reason":"ijscoupe correct"}, "plural": {"verdict":"OK","reason":"ijscoupes correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "sunflower",
+      "image_seen": "flowers/sunflower@2x.webp — a yellow sunflower with brown centre",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"zonnebloem → zonnebloemen correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "sunglasses",
+      "image_seen": "accessories/sunglasses@2x.webp — a single pair of orange-framed sunglasses",
+      "singular": {"verdict":"OK","reason":"zonnebril (single object, English pluralia-tantum)"}, "plural": {"verdict":"OK","reason":"zonnebril → zonnebrillen correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "sunny",
+      "image_seen": "weather/sunny@2x.webp — a smiling sun with rays",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"adjective, no plural"}, "gender": {"verdict":"OK","reason":"adjective, no gender"} },
+
+    { "key": "sunrise",
+      "image_seen": "travel_and_holiday_bw/sunrise@2x.webp — a sun rising over water waves (line drawing)",
+      "singular": {"verdict":"OK","reason":"zonsopgang correct"}, "plural": {"verdict":"OK","reason":"zonsopgangen correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "sunscreen",
+      "image_seen": "beach/sunscreen@2x.webp — an orange tube of sunscreen with a sun icon",
+      "singular": {"verdict":"OK","reason":"zonnebrandcrème correct"}, "plural": {"verdict":"OK","reason":"zonnebrandcrèmes correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "surfboard",
+      "image_seen": "summer/surfboard@2x.webp — a red-and-cream striped surfboard",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"surfplank → surfplanken correct"}, "gender": {"verdict":"OK"} },
+
+    { "key": "surprised",
+      "image_seen": "emotions/surprised@2x.webp — a surprised smiley face (wide eyes, open mouth)",
+      "singular": {"verdict":"OK"}, "plural": {"verdict":"OK","reason":"adjective, no plural"}, "gender": {"verdict":"OK","reason":"adjective, no gender"} }
+  ]
+}

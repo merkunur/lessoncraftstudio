@@ -1,0 +1,375 @@
+{
+  "locale": "nl",
+  "batch": "12",
+  "reviewed": 53,
+  "rows": [
+    {
+      "key": "venus",
+      "image_seen": "space/venus@2x.webp — a striped orange/cream planet (Venus)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "proper noun (planet): geen kinderlijk meervoud", "source": "classification: proper-noun" },
+      "gender": { "verdict": "OK", "reason": "de Venus (eigennaam behoudt geslacht)" }
+    },
+    {
+      "key": "vest",
+      "image_seen": "accessories/vest@2x.webp — a sleeveless yellow waistcoat/gilet",
+      "singular": { "verdict": "OK", "reason": "Groene Boekje lists 'de/het vest' as kledingstuk; matches EN key 'vest'. Content nuance: NL 'vest' colloquially = cardigan, the art is a mouwloos gilet — but the dictionary word is valid, not a FIX", "source": "https://woordenlijst.org/zoeken/?q=vest" },
+      "plural": { "verdict": "OK", "reason": "Groene Boekje meervoud 'vesten'", "source": "https://woordenlijst.org/zoeken/?q=vest" },
+      "gender": { "verdict": "OK", "reason": "Groene Boekje: de/het vest (m/o) — 'h' is acceptable" }
+    },
+    {
+      "key": "veterinarian",
+      "image_seen": "occupations/veterinarian@2x.webp — a vet in a white coat examining an orange cat",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de dierenarts -> dierenartsen" },
+      "gender": { "verdict": "OK", "reason": "de dierenarts" }
+    },
+    {
+      "key": "video-game",
+      "image_seen": "toys/video_game@2x.webp — a red handheld game console with screen and buttons",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Groene Boekje: meervoud 'videospelen' EN 'videospellen' both official; 'Videospellen' is correct", "source": "https://woordenlijst.org/zoeken/?q=videospel" },
+      "gender": { "verdict": "OK", "reason": "het videospel (o)", "source": "https://woordenlijst.org/zoeken/?q=videospel" }
+    },
+    {
+      "key": "violet",
+      "image_seen": "colors/violet@2x.webp — a purple colour droplet swatch; flowers/violet@2x.webp — a purple flower",
+      "singular": { "verdict": "OK", "reason": "homograph: word matches the COLOUR reading 'het violet' (Groene Boekje). Content note: the flowers-theme picture is a flower, which in NL is 'viooltje', not 'violet' — but the word as chosen is the dictionary-valid colour and correct for the colors-theme swatch", "source": "https://woordenlijst.org/zoeken/?q=violet" },
+      "plural": { "verdict": "OK", "reason": "Groene Boekje: het violet -> violetten (colour-noun shades)", "source": "https://woordenlijst.org/zoeken/?q=violet" },
+      "gender": { "verdict": "OK", "reason": "het violet (o) — colour noun is neuter", "source": "https://woordenlijst.org/zoeken/?q=violet" }
+    },
+    {
+      "key": "violin",
+      "image_seen": "music/violin@2x.webp — an orange/red violin",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Groene Boekje: de viool -> violen", "source": "https://woordenlijst.org/zoeken/?q=viool" },
+      "gender": { "verdict": "OK", "reason": "de viool (muziekinstrument)", "source": "https://woordenlijst.org/zoeken/?q=viool" }
+    },
+    {
+      "key": "volleyball",
+      "image_seen": "sports bw/volleyball@2x.webp — one line-art volleyBALL with curved panel seams (ART_DEFECT: art is the ball; judge word vs KEY 'volleyball')",
+      "singular": { "verdict": "OK", "reason": "de volleybal = the ball (matches the pictured ball)" },
+      "plural": { "verdict": "FIX", "correct": "Volleyballen", "reason": "current plural equals the singular (no plural). The ball is countable: Groene Boekje 'de volleybal' (bal) -> meervoud 'volleyballen' ('het volleybal' = the sport, no plural)", "source": "https://woordenlijst.org/zoeken/?q=volleybal" },
+      "gender": { "verdict": "OK", "reason": "de volleybal (the ball, m) = 'd'", "source": "https://woordenlijst.org/zoeken/?q=volleybal" }
+    },
+    {
+      "key": "vulture",
+      "image_seen": "animals/vulture@2x.webp — a vulture with pale ruffled head and dark body",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de gier -> gieren" },
+      "gender": { "verdict": "OK", "reason": "de gier" }
+    },
+    {
+      "key": "waffle",
+      "image_seen": "bakery/waffle@2x.webp — a round waffle with a pat of butter",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de wafel -> wafels (-el nemt -s)" },
+      "gender": { "verdict": "OK", "reason": "de wafel" }
+    },
+    {
+      "key": "waitress",
+      "image_seen": "occupations/waitress@2x.webp — a waitress in apron holding a cup and saucer",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de serveerster -> serveersters" },
+      "gender": { "verdict": "OK", "reason": "de serveerster" }
+    },
+    {
+      "key": "walk",
+      "singular": { "verdict": "HOLD", "reason": "no image; lemma question — EN 'a walk'/'walks' is a countable noun (de wandeling), but the field holds 'Lopen', the verb/gerund 'to walk'. classification says countable-thing (plural) which conflicts with a gerund. Cannot resolve without the picture." },
+      "plural": { "verdict": "HOLD", "reason": "depends on the unresolved lemma: 'het lopen' (gerund) has no plural; 'de wandeling' -> wandelingen. Do not rewrite blind." },
+      "gender": { "verdict": "OK", "reason": "het lopen (gerund) = 'h' is valid for the form as written" }
+    },
+    {
+      "key": "wallet",
+      "image_seen": "accessories/wallet@2x.webp — a blue bifold wallet with press stud",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de portemonnee -> portemonnees (-ee nemt -s)" },
+      "gender": { "verdict": "OK", "reason": "de portemonnee" }
+    },
+    {
+      "key": "walnut-tree",
+      "image_seen": "tree/walnut@2x.webp — a leafy tree with round orange fruit (tree theme drops the _tree suffix)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de walnootboom -> walnootbomen (boom -> bomen)" },
+      "gender": { "verdict": "OK", "reason": "de boom" }
+    },
+    {
+      "key": "walrus",
+      "image_seen": "winter/walrus@2x.webp — an orange walrus with tusks and whiskers",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de walrus -> walrussen (medeklinker verdubbelt)" },
+      "gender": { "verdict": "OK", "reason": "de walrus" }
+    },
+    {
+      "key": "wand",
+      "image_seen": "accessories/wand@2x.webp — a red star-topped magic wand on a striped stick",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de toverstaf -> toverstaven (f -> v)" },
+      "gender": { "verdict": "OK", "reason": "de toverstaf" }
+    },
+    {
+      "key": "wardrobe",
+      "image_seen": "around the house/wardrobe@2x.webp — an open yellow wardrobe with hanging clothes",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de kledingkast -> kledingkasten" },
+      "gender": { "verdict": "OK", "reason": "de kast" }
+    },
+    {
+      "key": "washing-machine",
+      "image_seen": "around the house/washing_machine@2x.webp — a red front-loading washing machine",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de wasmachine -> wasmachines" },
+      "gender": { "verdict": "OK", "reason": "de machine" }
+    },
+    {
+      "key": "wasp",
+      "image_seen": "insects and bugs/wasp@2x.webp — a yellow-and-black striped wasp in flight",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de wesp -> wespen" },
+      "gender": { "verdict": "OK", "reason": "de wesp" }
+    },
+    {
+      "key": "watch",
+      "image_seen": "accessories/watch@2x.webp — a wristwatch with brown leather strap",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "het horloge -> horloges" },
+      "gender": { "verdict": "OK", "reason": "het horloge" }
+    },
+    {
+      "key": "water",
+      "image_seen": "beach/water@2x.webp — a bottle filled with blue water",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "stofnaam (mass): 'water' heeft geen kinderlijk meervoud", "source": "classification: mass" },
+      "gender": { "verdict": "OK", "reason": "het water" }
+    },
+    {
+      "key": "water-bottle",
+      "image_seen": "sports bw 2/water_bottle@2x.webp — a line-art sports water bottle with sipper cap",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de waterfles -> waterflessen (s -> ss)" },
+      "gender": { "verdict": "OK", "reason": "de fles" }
+    },
+    {
+      "key": "water-lily",
+      "image_seen": "flowers/water_lily@2x.webp — a pink water lily on a green lily pad",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Groene Boekje: de waterlelie -> waterlelies", "source": "https://woordenlijst.org/zoeken/?q=waterlelie" },
+      "gender": { "verdict": "OK", "reason": "de waterlelie", "source": "https://woordenlijst.org/zoeken/?q=waterlelie" }
+    },
+    {
+      "key": "watering-can",
+      "image_seen": "around the house/watering_can@2x.webp — a green metal watering can with orange rose",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de gieter -> gieters" },
+      "gender": { "verdict": "OK", "reason": "de gieter" }
+    },
+    {
+      "key": "watermelon",
+      "image_seen": "fruits/watermelon@2x.webp — a slice of watermelon with seeds",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de watermeloen -> watermeloenen" },
+      "gender": { "verdict": "OK", "reason": "de meloen" }
+    },
+    {
+      "key": "wave",
+      "image_seen": "beach/wave@2x.webp — a blue breaking ocean wave with white foam",
+      "singular": { "verdict": "OK", "reason": "de golf = water wave (homograph: 'het golf' = the sport)" },
+      "plural": { "verdict": "OK", "reason": "de golf -> golven (f -> v)" },
+      "gender": { "verdict": "OK", "reason": "de golf (water) = 'd'; not het golf (sport)" }
+    },
+    {
+      "key": "weasel",
+      "image_seen": "forest creatures/weasel@2x.webp — an orange weasel/stoat with dark tail tip",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de wezel -> wezels" },
+      "gender": { "verdict": "OK", "reason": "de wezel" }
+    },
+    {
+      "key": "whale",
+      "image_seen": "animals/whale@2x.webp — a grey-blue cartoon whale",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de walvis -> walvissen" },
+      "gender": { "verdict": "OK", "reason": "de walvis" }
+    },
+    {
+      "key": "wheelbarrow",
+      "image_seen": "farm bw/wheelbarrow@2x.webp — a line-art wheelbarrow loaded with soil",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de kruiwagen -> kruiwagens" },
+      "gender": { "verdict": "OK", "reason": "de wagen" }
+    },
+    {
+      "key": "wheelchair",
+      "image_seen": "hospital/wheelchair@2x.webp — a red-framed manual wheelchair",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de rolstoel -> rolstoelen" },
+      "gender": { "verdict": "OK", "reason": "de stoel" }
+    },
+    {
+      "key": "whisk",
+      "image_seen": "kitchen tools/whisk@2x.webp — a balloon whisk with a pink handle",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Groene Boekje: de garde -> garden/gardes; 'Gardes' is official", "source": "https://woordenlijst.org/zoeken/?q=garde" },
+      "gender": { "verdict": "OK", "reason": "de garde (gereedschap)", "source": "https://woordenlijst.org/zoeken/?q=garde" }
+    },
+    {
+      "key": "whistle",
+      "image_seen": "accessories/whistle@2x.webp — a pink referee whistle with ring",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "het fluitje -> fluitjes" },
+      "gender": { "verdict": "OK", "reason": "verkleinwoord -je -> altijd het" }
+    },
+    {
+      "key": "white",
+      "image_seen": "colors/white@2x.webp — a white/grey colour droplet swatch",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "bijvoeglijk naamwoord (adjective): geen meervoud", "source": "classification: adjective" },
+      "gender": { "verdict": "OK", "reason": "adjective: geen geslacht (null correct)" }
+    },
+    {
+      "key": "whiteboard",
+      "image_seen": "classroom/whiteboard@2x.webp — a white board in a wooden frame with eraser",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Groene Boekje: whiteboards", "source": "https://woordenlijst.org/zoeken/?q=whiteboard" },
+      "gender": { "verdict": "OK", "reason": "Groene Boekje: de/het whiteboard (m/o) — 'h' acceptable", "source": "https://woordenlijst.org/zoeken/?q=whiteboard" }
+    },
+    {
+      "key": "windmill",
+      "image_seen": "farm bw/windmill@2x.webp — a line-art windmill with four sails",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de windmolen -> windmolens" },
+      "gender": { "verdict": "OK", "reason": "de molen" }
+    },
+    {
+      "key": "window",
+      "image_seen": "around the house/window@2x.webp — an arched window set in a brick wall",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "het raam -> ramen (aa -> a, open lettergreep)" },
+      "gender": { "verdict": "OK", "reason": "het raam" }
+    },
+    {
+      "key": "winter-hat",
+      "singular": { "verdict": "OK", "reason": "no image; 'muts' is the right word for a winter hat" },
+      "plural": { "verdict": "OK", "reason": "de muts -> mutsen" },
+      "gender": { "verdict": "OK", "reason": "de muts" }
+    },
+    {
+      "key": "winter-jacket",
+      "image_seen": "Christmas bw 2/winter_jacket@2x.webp — a line-art hooded puffer jacket",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de winterjas -> winterjassen (s -> ss)" },
+      "gender": { "verdict": "OK", "reason": "de jas" }
+    },
+    {
+      "key": "wisteria",
+      "image_seen": "flowers/wisteria@2x.webp — hanging clusters of purple wisteria flowers on a branch",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Groene Boekje: de blauweregen -> blauweregens", "source": "https://woordenlijst.org/zoeken/?q=blauweregen" },
+      "gender": { "verdict": "OK", "reason": "de blauweregen (m)", "source": "https://woordenlijst.org/zoeken/?q=blauweregen" }
+    },
+    {
+      "key": "wolf",
+      "image_seen": "animals/wolf@2x.webp — a grey cartoon wolf",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de wolf -> wolven (f -> v)" },
+      "gender": { "verdict": "OK", "reason": "de wolf" }
+    },
+    {
+      "key": "woodpecker",
+      "image_seen": "animals/woodpecker@2x.webp — a woodpecker with a red crest and striped wing",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de specht -> spechten" },
+      "gender": { "verdict": "OK", "reason": "de specht" }
+    },
+    {
+      "key": "worm",
+      "image_seen": "insects and bugs/worm@2x.webp — an orange striped worm",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de worm -> wormen" },
+      "gender": { "verdict": "OK", "reason": "de worm" }
+    },
+    {
+      "key": "wreath",
+      "image_seen": "christmas/wreath@2x.webp — a green Christmas wreath with red bow and berries",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de krans -> kransen" },
+      "gender": { "verdict": "OK", "reason": "de krans" }
+    },
+    {
+      "key": "wrench",
+      "image_seen": "tools bw/wrench@2x.webp — a line-art combination spanner (open jaw + ring end)",
+      "singular": { "verdict": "OK", "reason": "moersleutel is the correct generic NL word for the pictured spanner" },
+      "plural": { "verdict": "OK", "reason": "de moersleutel -> moersleutels" },
+      "gender": { "verdict": "OK", "reason": "de sleutel" }
+    },
+    {
+      "key": "wrist",
+      "image_seen": "body parts/wrist@2x.webp — a forearm and fist with an arrow pointing to the wrist",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de pols -> polsen" },
+      "gender": { "verdict": "OK", "reason": "de pols" }
+    },
+    {
+      "key": "writing",
+      "image_seen": "activities/writing@2x.webp — a person writing with a pencil in an open book",
+      "singular": { "verdict": "OK", "reason": "het schrijven (gerund) = the activity" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "activity/gerund: geen meervoud", "source": "classification: activity" },
+      "gender": { "verdict": "OK", "reason": "activity: geen geslacht in gebruik (null correct)" }
+    },
+    {
+      "key": "x-ray",
+      "image_seen": "hospital/x-ray@2x.webp — a chest X-ray plate showing the rib cage (a röntgenfoto)",
+      "singular": { "verdict": "OK", "reason": "art is the developed plate = röntgenfoto (matches)" },
+      "plural": { "verdict": "OK", "reason": "Groene Boekje: de röntgenfoto -> röntgenfoto's (-o nemt 's)", "source": "https://woordenlijst.org/zoeken/?q=r%C3%B6ntgenfoto" },
+      "gender": { "verdict": "OK", "reason": "de röntgenfoto", "source": "https://woordenlijst.org/zoeken/?q=r%C3%B6ntgenfoto" }
+    },
+    {
+      "key": "xylophone",
+      "image_seen": "music/xylophone@2x.webp — a colourful children's xylophone with a mallet",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de xylofoon -> xylofonen (oo -> o, open lettergreep)" },
+      "gender": { "verdict": "OK", "reason": "de xylofoon" }
+    },
+    {
+      "key": "yacht",
+      "image_seen": "vehicles/yacht@2x.webp — a white-and-blue motor yacht",
+      "singular": { "verdict": "OK", "reason": "het jacht = the boat (homograph: 'de jacht' = the hunt)" },
+      "plural": { "verdict": "OK", "reason": "Groene Boekje: het jacht (schip) -> jachten", "source": "https://woordenlijst.org/zoeken/?q=jacht" },
+      "gender": { "verdict": "OK", "reason": "het jacht (schip) = 'h'; not de jacht (jachtpartij)", "source": "https://woordenlijst.org/zoeken/?q=jacht" }
+    },
+    {
+      "key": "yak",
+      "image_seen": "animals bw 2/yak@2x.webp — a line-art yak with curved horns and shaggy coat",
+      "singular": { "verdict": "OK", "reason": "'yak' is an accepted NL spelling (nl.wiktionary has the entry); Groene Boekje's official spelling is 'jak' (de jak = buffel). Keeping the anglicised variant.", "source": "https://nl.wiktionary.org/wiki/yak" },
+      "plural": { "verdict": "FIX", "correct": "Yaks", "reason": "current 'Yakken' is the plural of 'het jak' = the GARMENT. For the ANIMAL Groene Boekje gives 'de jak -> jaks' (Engelse -s), so 'yak -> yaks', NOT 'yakken'.", "source": "https://woordenlijst.org/zoeken/?q=jak" },
+      "gender": { "verdict": "OK", "reason": "de jak/yak (dier, buffel) = 'd'", "source": "https://woordenlijst.org/zoeken/?q=jak" }
+    },
+    {
+      "key": "yellow",
+      "image_seen": "colors/yellow@2x.webp — a yellow colour droplet swatch",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "bijvoeglijk naamwoord (adjective): geen meervoud", "source": "classification: adjective" },
+      "gender": { "verdict": "OK", "reason": "adjective: geen geslacht (null correct)" }
+    },
+    {
+      "key": "yogurt",
+      "singular": { "verdict": "OK", "reason": "no image; NL spelling 'yoghurt' is correct" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "stofnaam (mass): geen kinderlijk meervoud", "source": "classification: mass" },
+      "gender": { "verdict": "OK", "reason": "de yoghurt" }
+    },
+    {
+      "key": "zebra",
+      "image_seen": "animals/zebra@2x.webp — a striped cartoon zebra",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de zebra -> zebra's (-a nemt 's)" },
+      "gender": { "verdict": "OK", "reason": "de zebra" }
+    },
+    {
+      "key": "zinnia",
+      "image_seen": "flowers/zinnia@2x.webp — a red daisy-like zinnia flower with yellow centre",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Groene Boekje: de zinnia -> zinnia's", "source": "https://woordenlijst.org/zoeken/?q=zinnia" },
+      "gender": { "verdict": "OK", "reason": "de zinnia (m/v)", "source": "https://woordenlijst.org/zoeken/?q=zinnia" }
+    }
+  ]
+}

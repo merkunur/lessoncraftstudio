@@ -1,0 +1,777 @@
+{
+ "locale": "nl",
+ "batch": "05",
+ "reviewed": 110,
+ "rows": [
+  {
+   "key": "forehead",
+   "image_seen": "body parts/forehead@2x.webp — girl's face with a coral arrow pointing at the forehead",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK", "reason": "het voorhoofd (het hoofd)", "source": "https://woordenlijst.org/zoeken/?q=voorhoofd" }
+  },
+  {
+   "key": "forest",
+   "image_seen": "camping/forest@2x.webp — a small stand of stylised trees on a grassy mound",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "bos → bossen (consonant doubling keeps short o)", "source": "https://woordenlijst.org/zoeken/?q=bos" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "forget-me-not",
+   "image_seen": "flowers/forget-me-not@2x.webp — a single red/orange five-petal flower (not a true blue forget-me-not, but key governs)",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK", "reason": "verkleinwoord -je → altijd het" }
+  },
+  {
+   "key": "fork",
+   "image_seen": "kitchen tools/fork@2x.webp — a fork with green handle",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK", "reason": "de vork", "source": "https://woordenlijst.org/zoeken/?q=vork" }
+  },
+  {
+   "key": "forklift",
+   "image_seen": "vehicles/forklift@2x.webp — an orange forklift truck",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "EN loan → -s" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "forsythia",
+   "image_seen": "flowers/forsythia@2x.webp — a yellow multi-petal flower",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "-a plant loan → 's" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "fox",
+   "image_seen": "animals/fox@2x.webp — a cute orange fox sitting",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "de vos → vossen", "source": "https://woordenlijst.org/zoeken/?q=vos" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "french-fries",
+   "image_seen": "At the Supermarket/french_fries@2x.webp — a red carton of fries",
+   "singular": { "verdict": "OK", "reason": "'patat' is the NL (Nederland) mass/collective label for fries" },
+   "plural": { "verdict": "OK", "reason": "plural-picture: the label IS the plural; nothing further" },
+   "gender": { "verdict": "OK", "reason": "de patat" }
+  },
+  {
+   "key": "fridge",
+   "image_seen": "around the house/fridge@2x.webp — a blue two-door refrigerator",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "kast → kasten" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "fried-chicken",
+   "image_seen": "food bw/fried_chicken@2x.webp — a bucket of fried chicken pieces (line art)",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "adjective agreement correct: gefrituurde kip → gefrituurde kippen" },
+   "gender": { "verdict": "OK", "reason": "de kip" }
+  },
+  {
+   "key": "fried-egg",
+   "image_seen": "breakfast/fried_egg@2x.webp — one sunny-side-up fried egg",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "ei → eieren (irregular -eren)" },
+   "gender": { "verdict": "OK", "reason": "het ei" }
+  },
+  {
+   "key": "frisbee",
+   "image_seen": "Things That Fly/frisbee@2x.webp — an orange flying disc",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "frog",
+   "image_seen": "camping/frog@2x.webp — a green frog facing front",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK", "reason": "de kikker" }
+  },
+  {
+   "key": "frying-pan",
+   "image_seen": "kitchen tools/frying_pan@2x.webp — a green-handled frying pan",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "pan → pannen" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "galaxy",
+   "image_seen": "space/galaxy@2x.webp — a spiral galaxy in space",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK", "reason": "het stelsel → het sterrenstelsel" }
+  },
+  {
+   "key": "garage",
+   "image_seen": "around the house/garage@2x.webp — a garage building with a red car inside",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "-e loan → -s" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "garbage-truck",
+   "image_seen": "vehicles/garbage_truck@2x.webp — a green/red garbage truck",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "wagen → wagens" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "garden",
+   "image_seen": "spring/garden@2x.webp — a flower bed with red/yellow flowers",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK", "reason": "de tuin" }
+  },
+  {
+   "key": "garden-fork",
+   "image_seen": "tools bw/garden_fork@2x.webp — a small hand garden fork (line art)",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK", "reason": "de vork → de tuinvork" }
+  },
+  {
+   "key": "gardener",
+   "image_seen": "occupations/gardener@2x.webp — a bearded man with a spade beside flowers",
+   "singular": { "verdict": "OK", "reason": "'tuinman' is a natural K-3 term for gardener" },
+   "plural": { "verdict": "OK", "reason": "tuinman → tuinmannen (also tuinlieden)" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "garland",
+   "image_seen": "christmas/garland@2x.webp — a leafy red/green/cream garland",
+   "singular": { "verdict": "OK", "reason": "'slinger' fits a party/decorative garland" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK", "reason": "de slinger" }
+  },
+  {
+   "key": "garlic",
+   "image_seen": "At the Supermarket/garlic@2x.webp — a whole garlic bulb",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "NO_PLURAL", "reason": "mass noun (knoflook); no child-level plural", "source": "https://woordenlijst.org/zoeken/?q=knoflook" },
+   "gender": { "verdict": "OK", "reason": "de knoflook" }
+  },
+  {
+   "key": "gas-pump",
+   "image_seen": "travel and holiday bw/gas_pump@2x.webp — a fuel pump (line art)",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "pomp → pompen" },
+   "gender": { "verdict": "OK", "reason": "de pomp" }
+  },
+  {
+   "key": "gate",
+   "image_seen": "around the house/gate@2x.webp — a wooden double gate between two yellow pillars",
+   "singular": { "verdict": "OK", "reason": "'poort' fits; 'hek' also possible" },
+   "plural": { "verdict": "OK", "reason": "poort → poorten" },
+   "gender": { "verdict": "OK", "reason": "de poort" }
+  },
+  {
+   "key": "gazelle",
+   "image_seen": "zoo animals/gazelle@2x.webp — a spotted gazelle with horns",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "gazelle → gazellen (also gazelles)" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "gecko",
+   "image_seen": "pets/gecko@2x.webp — an orange striped gecko",
+   "singular": { "verdict": "OK", "reason": "NL spelling 'gekko'" },
+   "plural": { "verdict": "OK", "reason": "gekko → gekko's", "source": "https://woordenlijst.org/zoeken/?q=gekko" },
+   "gender": { "verdict": "OK", "reason": "de gekko" }
+  },
+  {
+   "key": "gerbil",
+   "image_seen": "pets/gerbil@2x.webp — an orange striped rodent standing",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "de gerbil → gerbils", "source": "https://woordenlijst.org/zoeken/?q=gerbil" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "ghost",
+   "image_seen": "miscellaneous/ghost@2x.webp — a cute white cartoon ghost",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "spook → spoken (open syllable)" },
+   "gender": { "verdict": "OK", "reason": "het spook" }
+  },
+  {
+   "key": "gift",
+   "image_seen": "Easter bw/gift@2x.webp — a wrapped present with a bow (line art)",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "cadeau → cadeaus" },
+   "gender": { "verdict": "OK", "reason": "het cadeau" }
+  },
+  {
+   "key": "gift-box",
+   "image_seen": "Christmas bw/gift_box@2x.webp — a gift box with a ribbon bow (line art)",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "doos → dozen (s→z, open syllable)" },
+   "gender": { "verdict": "OK", "reason": "de doos" }
+  },
+  {
+   "key": "giganotosaurus",
+   "image_seen": "dinosaurs/giganotosaurus@2x.webp — a grey spiny cartoon dinosaur",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "not in Groene Boekje; plural by analogy dinosaurus → dinosaurussen → giganotosaurussen", "source": "https://woordenlijst.org/zoeken/?q=giganotosaurus" },
+   "gender": { "verdict": "OK", "reason": "de (as de dinosaurus)" }
+  },
+  {
+   "key": "gingerbread",
+   "image_seen": "christmas/gingerbread@2x.webp — a gingerbread-man cookie (key = 'gingerbread' → peperkoek)",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "de peperkoek → peperkoeken (loaves/types)", "source": "https://woordenlijst.org/zoeken/?q=peperkoek" },
+   "gender": { "verdict": "OK", "reason": "de peperkoek" }
+  },
+  {
+   "key": "gingerbread-house",
+   "image_seen": "Christmas bw 2/gingerbread_house@2x.webp — a decorated gingerbread house (line art)",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "huis → huizen (s→z, open syllable)" },
+   "gender": { "verdict": "OK", "reason": "het huis → het peperkoekhuis" }
+  },
+  {
+   "key": "gingerbread-man",
+   "image_seen": "bakery/gingerbread_man@2x.webp — a smiling gingerbread-man cookie with a red bowtie",
+   "singular": { "verdict": "HOLD", "reason": "lemma question: the platform renders 'gingerbread' as peperkoek (peperkoek, peperkoekhuis), so 'gingerbread man' would consistently be 'peperkoekmannetje'; 'speculaaspop' denotes a speculaas figure, a different cookie. Form of speculaaspop is fine, but this is a lemma choice, not a form fix.", "source": "https://woordenlijst.org/zoeken/?q=speculaaspop" },
+   "plural": { "verdict": "OK", "reason": "speculaaspop → speculaaspoppen (if word retained)" },
+   "gender": { "verdict": "OK", "reason": "de pop → de speculaaspop" }
+  },
+  {
+   "key": "giraffe",
+   "image_seen": "animals/giraffe@2x.webp — a cute spotted giraffe",
+   "singular": { "verdict": "OK", "reason": "giraf/giraffe both valid" },
+   "plural": { "verdict": "OK", "reason": "giraffe → giraffen (also giraffes)" },
+   "gender": { "verdict": "OK", "reason": "de giraffe" }
+  },
+  {
+   "key": "girl",
+   "image_seen": "toys/girl@2x.webp — a doll-like girl with a red hat and dress",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "meisje → meisjes (-je → -s)" },
+   "gender": { "verdict": "OK", "reason": "verkleinwoord -je → het meisje" }
+  },
+  {
+   "key": "glass",
+   "image_seen": "around the house/glass@2x.webp — a stemmed wine glass with red wine (key = 'glass' → glas)",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "glas → glazen (s→z, open syllable)" },
+   "gender": { "verdict": "OK", "reason": "het glas" }
+  },
+  {
+   "key": "glasses",
+   "image_seen": "education bw/glasses@2x.webp — a pair of spectacles (line art)",
+   "singular": { "verdict": "OK", "reason": "'bril' is the correct singular for spectacles (not the plural of glas)" },
+   "plural": { "verdict": "OK", "reason": "bril → brillen (multiple pairs)" },
+   "gender": { "verdict": "OK", "reason": "de bril" }
+  },
+  {
+   "key": "globe",
+   "image_seen": "classroom/globe@2x.webp — a desk globe on a red stand",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "bol → bollen" },
+   "gender": { "verdict": "OK", "reason": "de wereldbol" }
+  },
+  {
+   "key": "glove",
+   "image_seen": "accessories/glove@2x.webp — a single orange glove",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "handschoen → handschoenen" },
+   "gender": { "verdict": "OK", "reason": "de handschoen" }
+  },
+  {
+   "key": "gloves",
+   "image_seen": "hospital/gloves@2x.webp — a pair of red gloves on hands",
+   "singular": { "verdict": "OK", "reason": "plural-picture label 'Handschoenen'" },
+   "plural": { "verdict": "OK", "reason": "plural-picture: the label IS the plural; nothing further" },
+   "gender": { "verdict": "OK", "reason": "de handschoen" }
+  },
+  {
+   "key": "glue",
+   "image_seen": "classroom/glue@2x.webp — a red bottle of glue with a nozzle cap",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "NO_PLURAL", "reason": "category says plural, but 'lijm' is a mass noun; no child-level plural ('lijmen' only as kinds). Current data already has p=s. Finding: picture-contradicts-category.", "source": "https://woordenlijst.org/zoeken/?q=lijm" },
+   "gender": { "verdict": "OK", "reason": "de lijm" }
+  },
+  {
+   "key": "goat",
+   "image_seen": "farm animals/goat@2x.webp — a white/brown goat with horns",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "geit → geiten" },
+   "gender": { "verdict": "OK", "reason": "de geit" }
+  },
+  {
+   "key": "goggles",
+   "image_seen": "accessories/goggles@2x.webp — a blue single-lens goggle mask (ski/swim style)",
+   "singular": { "verdict": "OK", "reason": "'veiligheidsbril' = protective goggles (one object)" },
+   "plural": { "verdict": "OK", "reason": "bril → brillen" },
+   "gender": { "verdict": "OK", "reason": "de bril" }
+  },
+  {
+   "key": "goldfish",
+   "image_seen": "pets/goldfish@2x.webp — an orange goldfish",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "goudvis → goudvissen (EN zero-plural, but NL inflects)" },
+   "gender": { "verdict": "OK", "reason": "de goudvis" }
+  },
+  {
+   "key": "golf",
+   "image_seen": "ART_DEFECT (per row): sports bw/golf@2x.webp — a putting green with a hole and flagstick (activity 'golf' judged against key)",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "NO_PLURAL", "reason": "activity/sport name; no plural" },
+   "gender": { "verdict": "OK", "reason": "het golf (het golf(spel)); gender not load-bearing for an activity" }
+  },
+  {
+   "key": "goose",
+   "image_seen": "birds 2/goose@2x.webp — a white goose with orange beak/feet",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "gans → ganzen (s→z, open syllable)" },
+   "gender": { "verdict": "OK", "reason": "de gans" }
+  },
+  {
+   "key": "gopher",
+   "image_seen": "forest creatures/gopher@2x.webp — a chubby orange rodent with striped back, standing (pocket gopher)",
+   "singular": { "verdict": "OK", "reason": "'wangzakrat' = pocket gopher (not in Groene Boekje but standard NL name)" },
+   "plural": { "verdict": "FIX", "correct": "Wangzakratten", "reason": "current plural 'Grondeekhoorns' is a DIFFERENT lemma (ground squirrel); plural of singular 'wangzakrat' is wangzakratten (rat → ratten)", "source": "https://woordenlijst.org/zoeken/?q=wangzakrat" },
+   "gender": { "verdict": "OK", "reason": "de rat → de wangzakrat" }
+  },
+  {
+   "key": "gorilla",
+   "image_seen": "zoo animals/gorilla@2x.webp — a black gorilla sitting",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "gorilla → gorilla's" },
+   "gender": { "verdict": "OK", "reason": "de gorilla" }
+  },
+  {
+   "key": "graduation-cap",
+   "image_seen": "classroom bw/graduation_cap@2x.webp — a mortarboard with tassel (line art)",
+   "singular": { "verdict": "OK", "reason": "'afstudeerhoed' understandable; 'baret'/'academische baret' more formal" },
+   "plural": { "verdict": "OK", "reason": "hoed → hoeden" },
+   "gender": { "verdict": "OK", "reason": "de hoed → de afstudeerhoed" }
+  },
+  {
+   "key": "grandfather",
+   "image_seen": "noImage (row has no art)",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "opa → opa's" },
+   "gender": { "verdict": "OK", "reason": "de opa" }
+  },
+  {
+   "key": "grandmother",
+   "image_seen": "noImage (row has no art)",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "oma → oma's" },
+   "gender": { "verdict": "OK", "reason": "de oma" }
+  },
+  {
+   "key": "grapefruit",
+   "image_seen": "breakfast/grapefruit@2x.webp — a halved pink grapefruit",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "loan → grapefruits" },
+   "gender": { "verdict": "OK", "reason": "de grapefruit" }
+  },
+  {
+   "key": "grapes",
+   "image_seen": "At the Supermarket/grapes@2x.webp — a bunch of purple grapes with a leaf",
+   "singular": { "verdict": "OK", "reason": "plural-picture label 'Druiven'" },
+   "plural": { "verdict": "OK", "reason": "plural-picture: the label IS the plural; nothing further" },
+   "gender": { "verdict": "OK", "reason": "de druif" }
+  },
+  {
+   "key": "grass",
+   "image_seen": "spring/grass@2x.webp — tufts of green grass blades",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "NO_PLURAL", "reason": "mass noun (gras); no child-level plural" },
+   "gender": { "verdict": "OK", "reason": "het gras" }
+  },
+  {
+   "key": "grasshopper",
+   "image_seen": "forest creatures/grasshopper@2x.webp — a green grasshopper in profile",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "sprinkhaan → sprinkhanen (open syllable)" },
+   "gender": { "verdict": "OK", "reason": "de sprinkhaan" }
+  },
+  {
+   "key": "grater",
+   "image_seen": "kitchen tools/grater@2x.webp — a box grater",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "rasp → raspen" },
+   "gender": { "verdict": "OK", "reason": "de rasp" }
+  },
+  {
+   "key": "gray",
+   "image_seen": "colors/gray@2x.webp — a grey paint droplet",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "NO_PLURAL", "reason": "adjective (color); no plural" },
+   "gender": { "verdict": "OK", "reason": "adjective — no gender (g=null correct)" }
+  },
+  {
+   "key": "green",
+   "image_seen": "colors/green@2x.webp — a green paint droplet",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "NO_PLURAL", "reason": "adjective (color); no plural" },
+   "gender": { "verdict": "OK", "reason": "adjective — no gender (g=null correct)" }
+  },
+  {
+   "key": "green-beans",
+   "image_seen": "ART_DEFECT (per row): vegetables/green_beans@2x.webp — a single green bean pod (label is plural 'Sperziebonen', judged against key)",
+   "singular": { "verdict": "OK", "reason": "plural-picture label 'Sperziebonen'" },
+   "plural": { "verdict": "OK", "reason": "plural-picture: the label IS the plural; nothing further" },
+   "gender": { "verdict": "OK", "reason": "de sperzieboon" }
+  },
+  {
+   "key": "greeting-card",
+   "image_seen": "valentine bw/greeting_card@2x.webp — a folded card with hearts (line art)",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "kaart → kaarten" },
+   "gender": { "verdict": "OK", "reason": "de wenskaart" }
+  },
+  {
+   "key": "grill",
+   "image_seen": "4th of July/grill@2x.webp — a red kettle barbecue with steaks",
+   "singular": { "verdict": "OK", "reason": "'grill'/'barbecue' both fine" },
+   "plural": { "verdict": "OK", "reason": "loan → grills" },
+   "gender": { "verdict": "OK", "reason": "de grill" }
+  },
+  {
+   "key": "guinea-pig",
+   "image_seen": "pets/guinea_pig@2x.webp — an orange/white guinea pig",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "cavia → cavia's" },
+   "gender": { "verdict": "OK", "reason": "de cavia" }
+  },
+  {
+   "key": "guitar",
+   "image_seen": "activities/guitar@2x.webp — an acoustic guitar",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "gitaar → gitaren (open syllable)" },
+   "gender": { "verdict": "OK", "reason": "de gitaar" }
+  },
+  {
+   "key": "gymnastics",
+   "image_seen": "activities/gymnastics@2x.webp — a girl in a side-plank/balance pose",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "NO_PLURAL", "reason": "activity; no plural" },
+   "gender": { "verdict": "OK", "reason": "activity — no gender (g=null correct)" }
+  },
+  {
+   "key": "hair",
+   "image_seen": "body parts/hair@2x.webp — a girl's head with a coral arrow pointing at the hair",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "NO_PLURAL", "reason": "mass (het haar = hair on head); no child-level plural" },
+   "gender": { "verdict": "OK", "reason": "het haar (hoofdhaar)" }
+  },
+  {
+   "key": "hair-tie",
+   "image_seen": "accessories/hair_tie@2x.webp — a bright pink decorative hair bow (key = 'hair-tie' → haarelastiek)",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "haarelastiek → haarelastieken", "source": "https://woordenlijst.org/zoeken/?q=haarelastiek" },
+   "gender": { "verdict": "FIX", "correct": "h", "reason": "Groene Boekje: HET haarelastiek (het elastiek). Batch had d.", "source": "https://woordenlijst.org/zoeken/?q=haarelastiek" }
+  },
+  {
+   "key": "halloween",
+   "image_seen": "ART_DEFECT (per row): miscellaneous/halloween@2x.webp — a carved jack-o'-lantern pumpkin (proper noun 'Halloween' judged against key)",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "NO_PLURAL", "reason": "proper noun (festival name); no plural" },
+   "gender": { "verdict": "OK", "reason": "proper noun; usually article-less; low stakes" }
+  },
+  {
+   "key": "ham",
+   "image_seen": "At the Supermarket/ham@2x.webp — a whole ham joint with two cut slices",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "FIX", "correct": "Hammen", "reason": "Groene Boekje: de ham, meervoud hammen (double m, short a). The image shows a countable ham joint and category = countable-thing; batch had no plural (p=s).", "source": "https://woordenlijst.org/zoeken/?q=ham" },
+   "gender": { "verdict": "OK", "reason": "de ham" }
+  },
+  {
+   "key": "hamburger",
+   "image_seen": "4th of July/hamburger@2x.webp — a cheeseburger",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "loan → hamburgers" },
+   "gender": { "verdict": "OK", "reason": "de hamburger" }
+  },
+  {
+   "key": "hammer",
+   "image_seen": "around the house/hammer@2x.webp — a claw hammer with red/wood handle",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "hamer → hamers" },
+   "gender": { "verdict": "OK", "reason": "de hamer" }
+  },
+  {
+   "key": "hammock",
+   "image_seen": "camping/hammock@2x.webp — a blue/yellow hammock slung between two ropes",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "hangmat → hangmatten (double t)" },
+   "gender": { "verdict": "OK", "reason": "de hangmat" }
+  },
+  {
+   "key": "hamster",
+   "image_seen": "pets/hamster@2x.webp — an orange/white hamster standing",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "hamster → hamsters" },
+   "gender": { "verdict": "OK", "reason": "de hamster" }
+  },
+  {
+   "key": "hand",
+   "image_seen": "body parts/hand@2x.webp — an open right hand, palm out",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "hand → handen" },
+   "gender": { "verdict": "OK", "reason": "de hand" }
+  },
+  {
+   "key": "handbag",
+   "image_seen": "accessories/handbag@2x.webp — a purple handbag with hearts",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "tas → tassen" },
+   "gender": { "verdict": "OK", "reason": "de handtas" }
+  },
+  {
+   "key": "handsaw",
+   "image_seen": "tools/handsaw@2x.webp — a hand saw with orange/red handle",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "zaag → zagen (open syllable)" },
+   "gender": { "verdict": "OK", "reason": "de handzaag" }
+  },
+  {
+   "key": "hanger",
+   "image_seen": "home bw 2/hanger@2x.webp — a clothes hanger (line art)",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "hanger → hangers" },
+   "gender": { "verdict": "OK", "reason": "de kleerhanger" }
+  },
+  {
+   "key": "happy",
+   "image_seen": "emotions/happy@2x.webp — a smiling yellow face",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "NO_PLURAL", "reason": "adjective; no plural" },
+   "gender": { "verdict": "OK", "reason": "adjective — no gender (g=null correct)" }
+  },
+  {
+   "key": "harp",
+   "image_seen": "music/harp@2x.webp — a golden/red harp",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "harp → harpen" },
+   "gender": { "verdict": "OK", "reason": "de harp" }
+  },
+  {
+   "key": "harvest",
+   "image_seen": "thanksgivinng/harvest@2x.webp — a bound sheaf of wheat ears (key = 'harvest' → oogst)",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "oogst → oogsten" },
+   "gender": { "verdict": "OK", "reason": "de oogst" }
+  },
+  {
+   "key": "hat",
+   "image_seen": "accessories/hat@2x.webp — a blue fedora hat",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "hoed → hoeden" },
+   "gender": { "verdict": "OK", "reason": "de hoed" }
+  },
+  {
+   "key": "hawk",
+   "image_seen": "birds 2/hawk@2x.webp — a red/white bird of prey standing",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "havik → haviken", "source": "https://woordenlijst.org/zoeken/?q=havik" },
+   "gender": { "verdict": "OK", "reason": "de havik" }
+  },
+  {
+   "key": "hay",
+   "image_seen": "ART_DEFECT (per row): farm bw/hay@2x.webp — three large round hay bales stacked in a pyramid (mass noun 'hooi' judged against key)",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "NO_PLURAL", "reason": "mass noun (hooi); no child-level plural" },
+   "gender": { "verdict": "OK", "reason": "het hooi" }
+  },
+  {
+   "key": "haystack",
+   "image_seen": "thanksgivinng/haystack@2x.webp — a rounded pile/stack of hay",
+   "singular": { "verdict": "OK", "reason": "'hooiberg' fits a haystack in K-3 context" },
+   "plural": { "verdict": "OK", "reason": "berg → bergen" },
+   "gender": { "verdict": "OK", "reason": "de hooiberg" }
+  },
+  {
+   "key": "head",
+   "image_seen": "body parts/head@2x.webp — a child's head/face",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "hoofd → hoofden" },
+   "gender": { "verdict": "OK", "reason": "het hoofd" }
+  },
+  {
+   "key": "headband",
+   "image_seen": "accessories/headband@2x.webp — a red headband/diadem with mouse ears and a bow (key = 'headband' → hoofdband)",
+   "singular": { "verdict": "OK", "reason": "'hoofdband' fits; 'haarband/diadeem' also possible for the pictured item" },
+   "plural": { "verdict": "OK", "reason": "band → banden" },
+   "gender": { "verdict": "OK", "reason": "de band → de hoofdband" }
+  },
+  {
+   "key": "heart",
+   "image_seen": "shapes/heart@2x.webp — a pink heart shape",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "hart → harten" },
+   "gender": { "verdict": "OK", "reason": "het hart" }
+  },
+  {
+   "key": "heart-monitor",
+   "image_seen": "noImage (row has no art)",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "monitor → monitoren (also monitors)" },
+   "gender": { "verdict": "OK", "reason": "de monitor → de hartmonitor" }
+  },
+  {
+   "key": "heater",
+   "image_seen": "around the house/heater@2x.webp — an oil-filled radiator heater on feet with a dial",
+   "singular": { "verdict": "OK", "reason": "'verwarming' understood; 'kachel/radiator' more precise for the pictured heater" },
+   "plural": { "verdict": "OK", "reason": "verwarming → verwarmingen", "source": "https://woordenlijst.org/zoeken/?q=verwarming" },
+   "gender": { "verdict": "OK", "reason": "de verwarming" }
+  },
+  {
+   "key": "hedgehog",
+   "image_seen": "forest creatures/hedgehog@2x.webp — a cute brown hedgehog",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "egel → egels" },
+   "gender": { "verdict": "OK", "reason": "de egel" }
+  },
+  {
+   "key": "heel",
+   "image_seen": "body parts/heel@2x.webp — a foot in profile with the heel highlighted in red",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "hiel → hielen" },
+   "gender": { "verdict": "OK", "reason": "de hiel" }
+  },
+  {
+   "key": "helicopter",
+   "image_seen": "Things That Fly/helicopter@2x.webp — a red helicopter",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "helikopter → helikopters" },
+   "gender": { "verdict": "OK", "reason": "de helikopter" }
+  },
+  {
+   "key": "helmet",
+   "image_seen": "sports bw/helmet@2x.webp — a full-face motocross/ski helmet (line art)",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "helm → helmen" },
+   "gender": { "verdict": "OK", "reason": "de helm" }
+  },
+  {
+   "key": "hemlock-tree",
+   "image_seen": "tree/hemlock@2x.webp — a rounded broadleaf deciduous tree (hemlock is a conifer; key governs)",
+   "singular": { "verdict": "OK", "reason": "'hemlockspar' = hemlock (Tsuga)" },
+   "plural": { "verdict": "OK", "reason": "spar → sparren (double r)" },
+   "gender": { "verdict": "OK", "reason": "de spar → de hemlockspar" }
+  },
+  {
+   "key": "hen",
+   "image_seen": "birds 2/hen@2x.webp — a white/brown hen with red comb and tail",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "hen → hennen (double n)", "source": "https://woordenlijst.org/zoeken/?q=hen" },
+   "gender": { "verdict": "OK", "reason": "de hen" }
+  },
+  {
+   "key": "heptagon",
+   "image_seen": "shapes/heptagon@2x.webp — a lilac 7-sided polygon",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "zevenhoek → zevenhoeken" },
+   "gender": { "verdict": "OK", "reason": "de zevenhoek" }
+  },
+  {
+   "key": "hermit-crab",
+   "image_seen": "sea life bw 2/hermit_crab@2x.webp — a smiling crab wearing a shell 'hat' (line art)",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "kreeft → kreeften" },
+   "gender": { "verdict": "OK", "reason": "de heremietkreeft" }
+  },
+  {
+   "key": "heron",
+   "image_seen": "birds 2/heron@2x.webp — a wading bird with long red legs and orange beak",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "reiger → reigers", "source": "https://woordenlijst.org/zoeken/?q=reiger" },
+   "gender": { "verdict": "OK", "reason": "de reiger" }
+  },
+  {
+   "key": "hexagon",
+   "image_seen": "shapes/hexagon@2x.webp — a beige 6-sided polygon",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "zeshoek → zeshoeken" },
+   "gender": { "verdict": "OK", "reason": "de zeshoek" }
+  },
+  {
+   "key": "hibiscus",
+   "image_seen": "flowers/hibiscus@2x.webp — a red hibiscus flower with leaves",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "hibiscus → hibiscussen" },
+   "gender": { "verdict": "OK", "reason": "de hibiscus" }
+  },
+  {
+   "key": "high-heeled-shoes",
+   "image_seen": "apparel bw/high-heeled_shoes@2x.webp — a pair of high-heeled pumps (line art)",
+   "singular": { "verdict": "OK", "reason": "plural-picture; adjective agreement correct: hoge hakken" },
+   "plural": { "verdict": "OK", "reason": "plural-picture: the label IS the plural; nothing further" },
+   "gender": { "verdict": "OK", "reason": "de hak" }
+  },
+  {
+   "key": "hiking",
+   "image_seen": "activities/hiking@2x.webp — a person with a backpack and stick walking on rocky ground",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "NO_PLURAL", "reason": "activity (gerund 'wandelen'); no plural" },
+   "gender": { "verdict": "OK", "reason": "activity — no gender (g=null correct)" }
+  },
+  {
+   "key": "hippopotamus",
+   "image_seen": "animals/hippopotamus@2x.webp — a purple cartoon hippo",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "paard → paarden → nijlpaarden" },
+   "gender": { "verdict": "OK", "reason": "het paard → het nijlpaard" }
+  },
+  {
+   "key": "hockey",
+   "image_seen": "ART_DEFECT (per row): winter/hockey@2x.webp — a hockey player in red kit and helmet on skates (activity 'hockey' judged against key)",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "NO_PLURAL", "reason": "activity/sport name; no plural" },
+   "gender": { "verdict": "OK", "reason": "het hockey; gender not load-bearing for an activity" }
+  },
+  {
+   "key": "honey",
+   "image_seen": "ART_DEFECT (per row): breakfast/honey@2x.webp — a glass jar of honey with a wooden lid (mass noun 'honing' judged against key)",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "NO_PLURAL", "reason": "mass noun (honing); no child-level plural" },
+   "gender": { "verdict": "OK", "reason": "de honing" }
+  },
+  {
+   "key": "hoodie",
+   "image_seen": "clothing/hoodie@2x.webp — a colour-block hooded sweatshirt",
+   "singular": { "verdict": "OK", "reason": "'hoodie' loan; 'capuchontrui' also possible" },
+   "plural": { "verdict": "OK", "reason": "loan → hoodies" },
+   "gender": { "verdict": "OK", "reason": "de hoodie" }
+  },
+  {
+   "key": "hornbill",
+   "image_seen": "birds/hornbill@2x.webp — a black bird with large orange beak and red crest",
+   "singular": { "verdict": "OK", "reason": "'neushoornvogel' = hornbill" },
+   "plural": { "verdict": "OK", "reason": "vogel → vogels" },
+   "gender": { "verdict": "OK", "reason": "de neushoornvogel" }
+  },
+  {
+   "key": "horse",
+   "image_seen": "animals/horse@2x.webp — a brown/white cartoon horse",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "paard → paarden" },
+   "gender": { "verdict": "OK", "reason": "het paard" }
+  },
+  {
+   "key": "hose",
+   "image_seen": "around the house/hose@2x.webp — a coiled tan garden hose with brass fittings",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "slang → slangen" },
+   "gender": { "verdict": "OK", "reason": "de slang" }
+  },
+  {
+   "key": "hospital-bed",
+   "image_seen": "noImage (row has no art)",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK", "reason": "bed → bedden (double d)" },
+   "gender": { "verdict": "OK", "reason": "het bed → het ziekenhuisbed" }
+  }
+ ]
+}

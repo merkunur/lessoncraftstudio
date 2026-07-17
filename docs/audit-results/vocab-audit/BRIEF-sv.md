@@ -1,228 +1,152 @@
-# Uppdrag: modersmålsgranskning av det svenska bildordförrådet
+# Uppdrag: modersmålskontroll av det svenska bildordförrådet (v2 — bild + ordbok)
 
-> **Detta är den bindande texten.** Varje batch bedöms mot exakt denna formulering, så att alla
-> batchars omdömen blir jämförbara. Omtolka den inte efter eget huvud.
+> This is the BINDING text: every batch is
+> judged against exactly this wording, so all batches stay comparable. **The brief lives on disk and
+> is quoted verbatim — never paraphrased into an agent prompt.** That rule has been violated and
+> punished repeatedly in this project.
 >
-> **Om denna brief och SAOL säger emot varandra gäller SAOL.** Säg då uttryckligen emot briefen och
-> skriv det i `reason`. Det är önskvärt, inte riskabelt: i den tyska omgången fanns ett sakfel i
-> uppdragsgivarens egen brief (`Kugel→Kugeln` kallades ett "defekt" fast det är korrekt enligt
-> Duden). **Fem granskare sa emot honom — de hade rätt, briefen hade fel.** Noll felaktiga
-> korrigeringar nådde datan. Gör likadant.
+> **If this brief and the dictionary contradict each other, THE DICTIONARY WINS.** Contradict the
+> brief explicitly in `reason`. This is wanted, not risky — this brief's author has now been caught
+> wrong **four separate times** by reviewers who did exactly that:
+> `Kugel→Kugeln` (de, five reviewers), the `paraply` stress rule (sv), `chess`'s plural (de/Duden),
+> and `football` (I opened ONE image and said "it's a ball"; a reviewer opened BOTH and found the
+> other is a helmet). **Every time, the reviewer was right.**
 
-Du är modersmålstalare och lingvist i svenska (rikssvenska, Sverige), med tyngdpunkt på ordförrådet
-i förskolan och åk 1–3. Auktoritet för varje beslut: **SAOL** (Svenska Akademiens ordlista) —
-kompletterande: **SO** (Svensk ordbok utgiven av Svenska Akademien). Tänk på svenska, skriv `reason`
-kortfattat på engelska.
+## Why this commission exists
 
-## Varför detta uppdrag finns
+`REFERENCE TRANSLATIONS/image-vocabulary.js` feeds an educational site for children aged 3–7. The
+words are **projected on the board AND read aloud** (text-to-speech) beside a picture.
 
-`REFERENCE TRANSLATIONS/image-vocabulary.js` levererar orden till en pedagogisk webbplats för barn
-3–7 år. Orden **projiceras på tavlan OCH läses upp högt** (text-till-tal), tillsammans med en bild.
+**No human ever wrote these plurals or genders.** A script invented all 13,893 of them from the
+singular. It produced words that do not exist and were read to children: `Gardinerar`, `Musklerar`,
+`Lägerar`, `Jordekorrrar`, `Blackfisk`, `Diskbank`. The operator: *"This is an educational website.
+It is absolutely not acceptable."* He is right.
 
-**Ingen människa har någonsin skrivit dessa pluralformer eller genus.** Ett skript har härlett dem
-maskinellt ur singularformen. Nedan står den **ordagranna** koden som frambringade din data — inte
-min sammanfattning av den, så att du själv ser vad som gått fel:
+## 🔴 RULE 1 — OPEN THE PICTURE. Every key. No exceptions.
 
-```js
-function genderSv(word) {
-  if (!word) return 'n';
-  const lower = word.toLowerCase();
-  if (SV_ETT_WORDS.has(lower)) return 't';
-  // Check if compound word ends with an ett-word suffix
-  if (lower.length > 4) {
-    for (const suf of SV_ETT_SUFFIXES) {
-      if (lower.endsWith(suf) && lower.length > suf.length) return 't';
-    }
-  }
-  if (lower.endsWith('eri') || lower.endsWith('ande') ||
-      lower.endsWith('ende') || lower.endsWith('um') || lower.endsWith('ment')) {
-    return 't';
-  }
-  return 'n';          // ← ALLT ANNAT BLIR 'en-ord'. Detta är buggen.
-}
+**The Read tool renders `.webp` directly.**
+`C:\Users\rkgen\lessoncraftstudio\image-library-webp\themes\<theme>\<file>@2x.webp`
+(`<file>` = the key with `-`→`_`; ⚠ real traps: `high-heeled_shoes`, `flip_flops`, and `shoes`
+resolves only via `shoes_2` — a blanket `key.replace('-','_')` will miss them. Try another theme
+from the row's list before concluding the art is missing.)
+
+**Why: for weeks NOBODY IN THIS PROJECT EVER LOOKED AT A PICTURE.** Twelve native reviewers, three
+locale waves and the author all judged from a folder name and an English gloss. When someone finally
+opened them, **38 of 193 keys (20%) had a word that does not name the picture**:
+`singing` = a MICROPHONE · `butter` = drawn as CHEESE (a block WITH HOLES) · `chess` = a chess PIECE
+· `dice` = ONE die · `cymbals` = a whole DRUM KIT · `honey` = a JAR · `hockey` = a PLAYER.
+
+**That is why this arc kept failing: everyone was arguing about the plural of the WRONG WORD.**
+
+Record what you saw in `image_seen`. A row without it is treated as unjudged and sent back.
+
+## 🔴 RULE 2 — LOOK IT UP. "I cannot verify from memory" is NOT an answer.
+
+The operator: *"even by just googling I can easily get the right plural form of any word but you
+fail again and again."* He is right. The old brief said "uncertain → HOLD", and reviewers wrote
+*"I cannot verify SAOL from memory"* **100+ times on Swedish alone**. Honest, and useless.
+
+**Most authorities cannot be fetched with a plain request** — svenska.se (SAOL) is a JavaScript
+shell; ordnet.dk is bot-walled; **Van Dale's free dictionary is DISCONTINUED**. So use the tool that
+renders them in a real browser:
+
 ```
-
-`SV_ETT_WORDS` är en **handskriven lista på ca 100 ord** (`barn`, `djur`, `träd`, `hus`, `bord` …).
-`SV_ETT_SUFFIXES` är ca 35 efterled. **Står ditt ord inte på någon av de listorna kan skriptet inte
-veta att det är ett ett-ord** — då blir det `n`.
-
-**Följden, uppmätt:** datan innehåller **1093 `n` mot 170 `t` = 86,5 % en-ord**, medan den verkliga
-andelen ligger runt **~75 %**. Det innebär **ungefär 146 felkodade ett-ord**.
-
-## ⚠ Det viktigaste i hela briefen: genus och plural är KOPPLADE
-
-Titta på koden igen. `pluralizeSvSingle` frågar **samma två listor**:
-
-```js
-function pluralizeSvSingle(word) {
-  const lower = word.toLowerCase();
-  // Ett-words are often unchanged in indefinite plural
-  if (SV_ETT_WORDS.has(lower)) return word;              // ← samma lista som genus
-  if (lower.length > 4) {
-    for (const suf of SV_ETT_SUFFIXES) {
-      if (lower.endsWith(suf) && lower.length > suf.length) return word;   // ← samma lista
-    }
-  }
-  ...
-  return word + 'ar';   // ← standard: lägg på -ar
-}
+node scripts/vocab-audit/dict-fetch.js --locale=sv --word=<word>
+node scripts/vocab-audit/dict-fetch.js --locale=sv --word=<word> --crosscheck
 ```
+Authority: **SAOL / SO (svenska.se) — the tool renders it; it is a JS shell to a plain fetch**. Cite the URL you actually consulted. **Never invent a citation** — a
+fabricated `src` is a tell: the de round escalated `hot` for exactly that (a guessed value with an
+empty source), and `deinonychus` cited "SAOL" for a word SAOL does not contain.
 
-**Alltså: ETT saknat listord ger TVÅ fel på samma nyckel.**
+Uncertainty is a reason to **search**, not to hold. Only a genuine *content* question (which of two
+things is pictured?) may be HOLD.
 
-- ordet **saknas** felaktigt i ett-listorna → genus `n` **och** plural `+ar`
-- ordet **träffas** felaktigt av ett-listorna → genus `t` **och** nollplural
+## 🔴 RULE 3 — the classification is already decided. Do not re-litigate it.
 
-Detta är verifierat i din egen data. `läger` finns inte i listorna (kontrollerat: 0 träffar):
+`classification.json` says, per key, what the PICTURE is — decided once and applied to all 11
+locales, because *"all of the languages reflect the same images"* (the operator). Your row carries
+`category` / `hasGender` / `hasPlural`. **You verify the WORD, not the category.**
 
-| nyckel | i datan nu | rätt | varför |
-|---|---|---|---|
-| `camp` | `["Läger","Lägerar","n"]` | `["Läger","Läger","t"]` | **båda fälten fel, EN orsak.** *Ett läger → flera läger.* "Lägerar" är ett påhittat ord. |
-| `camel` | `["Kamel","Kameler","n"]` | `["Kamel","Kameler","n"]` | **KONTROLL: helt rätt.** Saknas också i listorna — men *en kamel* ÄR ett en-ord. |
+| category | gender | plural |
+|---|---|---|
+| countable-thing | yes | yes |
+| plural-picture (the image shows SEVERAL) | yes | **no** — the label IS the plural |
+| mass / abstract / proper-noun | yes | **no** |
+| adjective / activity | **no** | **no** |
 
-**Kontrollen är själva poängen: felet är specifikt, inte "allt är trasigt".** Döm ord för ord.
+Mass, abstract and proper nouns **are nouns**: *die* Venus keeps its gender and simply has no plural.
+Only **qualities and activities** lose it.
 
-Och märk: `camp` är **inte flaggat av något maskinellt nät** (se `nets` nedan). De ~146 felkodade
-ett-orden ligger just i den oflaggade `n`-massan. **Flaggorna rangordnar — de avgränsar inte.
-Din ord-för-ord-läsning är inte avgränsad av någonting. Det är därför detta uppdrag finns.**
+**If the picture contradicts the category, say so** — that is a finding, and it outranks the file.
 
-Uppdragsgivaren säger: "This is an educational website. It is absolutely not acceptable." Han har
-rätt. Ett barn får inte höra ett felaktigt ord.
+## 🔴 RULE 4 — BLOCKED keys: touch nothing.
 
-## Batchfilerna
+Rows marked `blocked: true` are LEMMA MISMATCHES — the word does not name the picture. Their
+`hasPlural` describes the **pictured object** (Mikrofon→Mikrofone), NOT the label. Pluralising
+"Singen" → "Singens" manufactures exactly the garbage this commission deletes. **Skip them.** The
+operator rules first: fix the WORD, or fix the ART.
 
-Mapp: `C:\Users\rkgen\lessoncraftstudio\docs\audit-results\vocab-audit\batches\`
+## Your job — per key, per field
 
-Per rad i `rows[]`:
+1. **`singular`** — is it the right Swedish (rikssvenska) word for what the picture shows? Is it really a
+   SINGULAR? (Known defect: a plural, or a DEFINITE form, sitting in the singular field —
+   sv `santa` held *"Jultomten"*, onto which the script appended `-ar`.)
+2. **`plural`** — correct per SAOL / SO (svenska.se) — the tool renders it; it is a JS shell to a plain fetch? The five declensions: `-or` (flicka→flickor) · `-ar` (stol→stolar) · `-er` (katt→katter) · `-n` (äpple→äpplen) · **`-∅` zero** (hus→hus, barn→barn). **The script defaults to `-ar` and it swallowed the whole 3rd declension** (ambulans→ambulans**er**, antilop→antilop**er**, paj→paj**er**). It cannot do **umlaut** at all: hand→händer, morot→mor**ötter**, get→g**etter**, tång→t**änger**. Its half-written `-el/-er` **syncope** misfires both ways: hummer→h**umrar** (not *Hummrar*), nyckel→nycklar. **Ett-words:** consonant-final → **zero** plural (hus/bord/träd/djur; also `-are`: ett ankare → flera ankare) but **vowel-final take `-n`** (ansikte→ansikten, piano→pianon) — and the boundary is **STRESS, not vowel-finality**: a STRESSED final vowel takes `-er` (paraply→paraply**er**, geni→genier). A reviewer had to correct this brief on exactly that point; the narrower rule is native monosyllable (`-n`) vs polysyllabic final-stressed loan (`-er`). **Latin `-us` loans take `-ar`** (kaktus→kaktusar) — so *Stegosaurusar* is CORRECT; do NOT import the German `-saurus→-saurier` rule. And *smörgåsar*, **not** *\*smörgäss*.
+3. **`gender`** — correct? **`n` = e`n`-ord (utrum/COMMON) · `t` = e`tt`-ord (NEUTER).** ⚠⚠ Read that twice: **`n` does NOT mean neuter** — n as in *en*, t as in *ett*. Reading it the other way inverts your whole batch. Controls from the data, all correct: `["Hus","Hus","t"]` · `["Bord","Bord","t"]` · `["Katt","Katter","n"]` · `["Blomma","Blommor","n"]`. **The population signal is a LIE — do NOT chase it:** the nets predict ~146 miscoded genders; the last native round confirmed **18**. That norm is a general-Swedish figure applied to a child picture-noun corpus, which skews naturally to en-words. **Check each word; never redistribute to hit a percentage.**
+   ⚠ **Gender codes are per-locale and NEVER cross-applied** (§A.13.58): `lås` is common in da/no but
+   **neuter** in sv. sv/da `n` = **EN-ord (COMMON)**, NOT neuter — misreading it inverts your batch.
 
-| Fält | Betydelse |
-|---|---|
-| `key` | intern nyckel (engelsk) |
-| `themes` | **bildens teman. AVGÖRANDE: de talar om VAD BILDEN VISAR.** `orange` med `[colors,fruits]` är tvetydigt; `salt` med `[at_the_supermarket]` är koksalt (ämnesnamn), inte kemins *salter*. |
-| `en` | `[singular, plural]` engelska = glosan, det som är avbildat |
-| `cur` | **den nuvarande svenska datan** `{s: singular, p: plural, g: genus}` ← det är detta du bedömer |
-| `type` / `countable` | metadata ur en råfil. **ENDAST LEDTRÅD, INTE DOM.** Bevisligen felbar: `bread` står som `countable:false`, medan *ett bröd → flera bröd* är fullkomligt korrekt. |
-| `nets` | maskinella misstankeflaggor: N1 plural trots oräknebarhet · N2 ingen plural trots räknebarhet · N3 huvudledsinkonsekvens · N4 avviker från danska+norska · N5 singular och plural är olika lemman · N6 krock med annan nyckel · N7 föräldralös · N8 skriptets standardregel slog till. **En flagga är en misstanke, inte en dom — och ingen flagga är INGEN frisedel** (`camp` har ingen flagga och är fel i två fält). |
-| `noImage: true` | det finns ingen bild till nyckeln (död data). Bedöm ändå, men lägst prioritet. |
+## ⚠ The inverse traps — correct data a naive rule DESTROYS
 
-## Dataformat
+Each of these was nearly wrecked by a plausible rule. Do not repeat it:
 
-`p` är den **nakna pluralformen med versal**, utan artikel och utan bestämdhet: `["Katt","Katter","n"]`.
+- **English zero-plurals are COUNTABLE.** `Angelfish/Angelfish`, `Sheep`, `Deer`, `Fish` — English
+  merely does not inflect them. **de *Kaiserfisch→Kaiserfische* is CORRECT.** A "no plural" ruling
+  here destroys real plurals in ten languages.
+- **English pluralia tantum over ONE object.** `pants`, `scissors`, `stairs`, `sunglasses` are a
+  single object — **de *Hose→Hosen*, *Schere→Scheren*, *Treppe→Treppen* are CORRECT.** The real cut
+  is one-object vs a genuine two-object PAIR (`sandals`, `slippers` ARE pairs).
+- **A "sister key" may be a different thing.** `glasses` (spectacles, *Brille→Brillen*) is NOT the
+  plural of `glass` (a drinking vessel). Reading a sister field mechanically kills a correct plural.
+- **`_countable:false` is fallible** — wrong on `bread`, `asparagus`, `cheese`, `broccoli`, `celery`
+  (all have real plurals); right on `Knoblauch` (kein Plural).
+- **A class rule is a tool, not an automaton.** A de reviewer rightly refused `-saurus→-saurier` for
+  `carnotaurus` (Latin *taurus*); an sv reviewer rightly kept `Stegosaurusar` (Latin `-us` loans take
+  `-ar`) and refused *\*smörgäss*. That discrimination IS the quality bar.
+- **A premise can be false even when the conclusion is right:** three sv rows argued *"an utrum noun
+  cannot have a zero plural"* — false (*en musiker → flera musiker*). Never reuse it.
 
-> ## ⚠⚠ LÄS DETTA TVÅ GÅNGER — koden betyder inte vad den ser ut att betyda
->
-> **`n` = e`n`-ord (utrum/reale) — INTE "neutrum".**
-> **`t` = e`tt`-ord (neutrum).**
->
-> Minnesregel: **n som i *en*, t som i *ett*.** Läser du `n` som "neuter" inverterar du hela ditt
-> arbete. Kontrollexempel ur datan, alla korrekta:
-> `["Hus","Hus","t"]` (ett hus) · `["Bord","Bord","t"]` (ett bord) · `["Katt","Katter","n"]` (en katt)
-> · `["Blomma","Blommor","n"]` (en blomma).
+## Verdicts (per field)
 
-> ⚠ **`n`/`t` är svenska koder och gäller ENDAST svenska.** Andra språk i filen använder andra
-> system (`m/f/n`, `d/h`) som betyder något **annat**. Bevis för att en kod aldrig får kopieras
-> mellan språk: `lås` är **ett** lås på svenska (`t` = neutrum) men *en* lås/*et* lås beter sig olika
-> i danska och norska — och tyskans `n` betyder neutrum, inte utrum. Bedöm uteslutande mot svenskan.
+- **`OK`** — correct. **Say OK when it is right**, flag or no flag.
+- **`FIX`** — wrong; a pure form correction of the SAME word → give `correct`.
+- **`NO_PLURAL`** — no (child-level) plural: mass, abstract, proper names.
+  ⚠ **Not the same as a zero plural.** *ett hus → flera hus* HAS a plural that merely looks
+  identical → that is `OK`, not `NO_PLURAL`.
+- **`PLURALIA_TANTUM`** — plural only. May sit on `singular`: "this word has no singular".
+- **`HOLD`** — the correction does MORE than fix a form (another lemma, a picture question, an
+  internal contradiction). **Never rewrite blind.**
 
-**Konvention: saknar ordet plural sätts `p` lika med `s`.** (Så kodar filen "ingen plural".)
-Observera: **detta är också hur ett korrekt ett-ord med nollplural ser ut** (*ett hus → flera hus*).
-Skilj på dem — se `NO_PLURAL` nedan.
+## Output
 
-## För VARJE nyckel bedöms tre fält
-
-1. **`singular`** — är `cur.s` rätt svenskt ord för det bilden visar (`themes` + `en`)? Och är det
-   verkligen ett **singular**? (Känt defekt: en pluralform står i singularfältet.)
-2. **`plural`** — är `cur.p` korrekt obestämd plural enligt SAOL? Klassiska fallgropar:
-   - **de fem deklinationerna** — `-or` (*flicka→flickor*), `-ar` (*stol→stolar*), `-er`
-     (*katt→katter*), `-n` (*äpple→äpplen*), **`-∅` nollplural** (*hus→hus*, *barn→barn*).
-     Skriptets standard är `-ar`; den är **rätt ofta men långt ifrån alltid**.
-   - **omljud**: *hand→händer*, *bok→böcker*, *fot→fötter*, *tand→tänder*, *mus→möss*, *gås→gäss*.
-     Skriptet kan inte omljud alls.
-   - **`-are` är oförändrat**: *en lärare → flera lärare* (skriptet klarar detta — verifiera ändå).
-   - **`-el/-er/-en` tappar vokal**: *nyckel→nycklar*, *cykel→cyklar*, *finger→fingrar*,
-     *segel→segel*. Skriptet har en halv regel här — kontrollera noga.
-   - **ett-ord på vokal tar `-n` — den mest produktiva defektklassen i denna data.** Skriptet ger
-     ett-ord **blank nollplural**, vilket är rätt för konsonantslut men **fel på vokalslut**:
-
-     | i datan nu | dom | varför |
-     |---|---|---|
-     | `["Ansikte","Ansikte","t"]` | **FIX → Ansikten** | *ett ansikte → flera ansikten* |
-     | `["Piano","Piano","t"]` | **FIX → Pianon** | *ett piano → flera pianon* |
-     | `["Äpple","Äpplen","t"]` | **OK** | redan rätt — rör inte |
-     | `["Öga","Ögon","t"]` | **OK** | oregelbundet, redan rätt |
-     | `["Hjärta","Hjärtan","t"]` | **OK** | redan rätt |
-     | `["Ankare","Ankare","t"]` | **OK** | `-are`-neutrum ÄR nollplural |
-     | `["Hus","Hus","t"]` · `["Bord","Bord","t"]` · `["Träd","Träd","t"]` | **OK** | konsonantslut = nollplural |
-
-   - **påhittade ord** — den grövsta klassen: `"Lägerar"`. Om formen inte finns i SAOL är den påhittad.
-3. **`genus`** — är `cur.g` rätt? Se buggen ovan: sannolikheten att ett `n` är felaktigt är
-   avsevärd, särskilt för ett-ord som inte råkar stå på skriptets handskrivna lista.
-   **Men kontrollera — omfördela inte för att träffa en procentsats.**
-
-**Eftersom fälten är kopplade (se ovan): hittar du ett fel i genus, misstänk plural på samma nyckel
-— och tvärtom.**
-
-### Omdömen (per fält)
-
-- **`OK`** — korrekt. **Säg OK när det stämmer.** Även med flagga.
-- **`FIX`** — fel, och rättelsen är en ren formrättelse av **samma** ord → ange `correct`.
-- **`NO_PLURAL`** — ordet har ingen (barnanpassad) plural: ämnesnamn (*vatten*, *mjölk*, *salt*),
-  abstrakta, egennamn (*Jupiter*), adjektiv/färger (*Röd*), substantiverade verb (*simmandet*).
-  → `p` sätts lika med `s`.
-  ⚠ **Blanda inte ihop detta med nollplural.** *Ett hus → flera hus* har en plural; den råkar bara
-  se likadan ut. Det är `OK`, inte `NO_PLURAL`.
-- **`PLURALIA_TANTUM`** — bara plural (*glasögon*, *byxor*, *sopor*). Får även stå på `singular`:
-  det betyder "detta ord saknar singular, pluralformen i fältet är korrekt".
-- **`HOLD`** — **rättelsen gör MER än att ändra formen**: ett annat lemma, en inre motsägelse, eller
-  en innehållsfråga om bilden. → `HOLD` med tydligt skäl. **Skriv aldrig om i blindo.**
-
-## Kalibrering — båda feltyperna är dyra
-
-- **Falskt negativt:** låta `"Lägerar"` stå. SAOL: *ett läger → flera läger*. Det är FIX.
-- **Falskt positivt:** anmäla `"Kameler"` som fel. *En kamel → flera kameler* är KORREKT → OK.
-
-**Döm ord för ord, inte på mönster.** En tysk granskare vägrade med rätta tillämpa regeln
-`-saurus → -saurier` på `carnotaurus` (latinets *taurus* = tjur). Var lika diskriminerande: en klass
-är ett hjälpmedel, inte en automat.
-
-## Homonymer — här ÄR genus betydelsen
-
-Den tyska omgången hittade `pine-tree` = `["Kiefer","Kiefer","m"]`: *die Kiefer* är tallen, *der
-Kiefer* är **käkbenet** — datan innehöll käkbenet. Svenskan har samma fälla. Kontrollera för varje
-tvetydigt ord vilken betydelse **bilden** visar:
-*en vak* (hål i isen) vs *ett vak* · *en lag* (grupp) vs *ett lag* · *en val* (djuret/valet) vs
-*ett val* · *en fjäder* (på fågeln) vs *en fjäder* (i mekanik) · *ett parti* vs *en parti*.
-Känner du till distinktionen — rapportera den i `reason` även när du svarar `OK`.
-
-## Utdata
-
-Skriv **en** fil till
-`C:\Users\rkgen\lessoncraftstudio\docs\audit-results\vocab-audit\verdicts\sv-<NN>.json`
-(skapa mappen vid behov), med **en rad per nyckel — ALLA nycklar i batchen, ingen får saknas**:
+One file → `docs\audit-results\vocab-audit\verdicts\sv-<NN>.json`, **one row per key, ALL keys**:
 
 ```json
 { "locale":"sv", "batch":"<NN>", "reviewed": <N>,
   "rows": [
-    { "key":"camp",
+    { "key":"curtains",
+      "image_seen":"around_the_house/curtains@2x.webp — two drawn curtains framing a window",
       "singular":{"verdict":"OK"},
-      "plural":{"verdict":"FIX","correct":"Läger","reason":"SAOL: ett läger -> flera läger (zero plural, 4th declension neuter); 'Lägerar' is not a Swedish word","source":"SAOL"},
-      "gender":{"verdict":"FIX","correct":"t","reason":"ett läger — neuter; 'läger' is simply absent from the script's hand-written SV_ETT_WORDS list","source":"SAOL"} },
-    { "key":"camel",
-      "singular":{"verdict":"OK"},
-      "plural":{"verdict":"OK"},
+      "plural":{"verdict":"OK","reason":"plural-picture: the label IS the plural; nothing further","source":"https://svenska.se/tre/?sok=…"},
       "gender":{"verdict":"OK"} }
   ] }
 ```
+`correct` only on `FIX`. `reason` on everything but `OK`. `source` = the URL you fetched.
+`image_seen` on every row that has art.
 
-`correct` **endast** vid `FIX`. `reason` vid allt utom `OK`. `source` där det inte är trivialt.
-För `gender` är `correct` exakt `"n"` eller `"t"`.
+## Rules
 
-## Regler
-
-- **Bedöm alla nycklar i batchen** — inget urval, ingen stickprovskontroll.
-- Vid tvetydighet avgör `themes` + `en` vilken betydelse som avses.
-- **Hitta inte på SAOL-citat.** Osäker → `HOLD` med skäl. Osäkerhet är ett legitimt och värdefullt
-  resultat. **Gissa aldrig.**
-- Ändra **INGEN** annan fil. Endast den enda omdömesfilen.
-- Svara till sist ENDAST med: antal kontrollerade, räkningen per omdöme per fält
-  (t.ex. `plural: 78 OK / 21 FIX / 9 NO_PLURAL / 2 HOLD`), samt de 5 allvarligaste fynden på en rad var.
+- **Every key in the batch** — no sampling.
+- **Never guess.** Search first. Uncertainty is legitimate and valuable; a fabricated citation is not.
+- Change **NO** other file.
+- End with ONLY: count reviewed, per-field per-verdict counts, and the 5 most serious findings.

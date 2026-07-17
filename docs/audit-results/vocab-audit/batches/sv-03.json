@@ -19,12 +19,18 @@
     "Cheeks"
    ],
    "cur": {
-    "s": "Kinder",
-    "p": "Kinderar",
+    "s": "Kind",
+    "p": "Kinder",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "body parts/cheeks@2x.webp - a child's face with BOTH cheeks rendered in red blush, plus a coral arrow pointing at the lower left cheek"
   },
   {
    "key": "cheese",
@@ -46,7 +52,13 @@
    "countable": false,
    "nets": [
     "N1"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "image_seen_by_classifier": "At the Supermarket/cheese@2x.webp - ONE wedge of holed yellow cheese cut from a wheel, rind along the back edge"
   },
   {
    "key": "cheeseburger",
@@ -67,7 +79,12 @@
    "nets": [
     "N2",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cheesecake",
@@ -84,7 +101,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cheetah",
@@ -97,11 +119,16 @@
    ],
    "cur": {
     "s": "Gepard",
-    "p": "Gepardar",
+    "p": "Geparder",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "chef",
@@ -121,7 +148,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "chef's-knife",
@@ -137,7 +169,12 @@
    },
    "type": "noun",
    "countable": true,
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cherry",
@@ -159,7 +196,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cherry-blossom",
@@ -176,7 +218,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cherry-tree",
@@ -197,7 +244,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "chess",
@@ -212,10 +264,18 @@
    "cur": {
     "s": "Schack",
     "p": "Schack",
-    "g": "n"
+    "g": "t"
    },
    "type": "verb-gerund",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "BLOCKED": true,
+   "block_reason": "LEMMA MISMATCH — the word does not name the picture. DO NOT TOUCH. toys/chess@2x.webp - a single chess KING piece, red/gold/navy, cross finial on the crown. ",
+   "image_seen_by_classifier": "toys/chess@2x.webp - a single chess KING piece, red/gold/navy, cross finial on the crown. Also opened activities/chess@2x.webp - the same king piece in plain gold. Both are pieces; neither is a board or a game."
   },
   {
    "key": "chestnut-tree",
@@ -236,7 +296,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "chick",
@@ -259,7 +324,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "chicken",
@@ -284,7 +354,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "chili-pepper",
@@ -300,7 +375,12 @@
    },
    "type": "noun",
    "countable": true,
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "chimney",
@@ -317,7 +397,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "chimpanzee",
@@ -330,11 +415,16 @@
    ],
    "cur": {
     "s": "Schimpans",
-    "p": "Schimpansar",
+    "p": "Schimpanser",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "chin",
@@ -354,7 +444,12 @@
    "countable": true,
    "nets": [
     "N5"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "chinchilla",
@@ -372,7 +467,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "chipmunk",
@@ -385,11 +485,16 @@
    ],
    "cur": {
     "s": "Jordekorre",
-    "p": "Jordekorrrar",
+    "p": "Jordekorrar",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "chips",
@@ -403,14 +508,20 @@
    "cur": {
     "s": "Chips",
     "p": "Chips",
-    "g": "n"
+    "g": "t"
    },
    "type": "noun",
    "countable": true,
    "nets": [
     "N2",
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "food bw 2/chips@2x.webp - a bag labelled CHIPS with FIVE loose potato crisps spilled in front of it, line art"
   },
   {
    "key": "chocolate",
@@ -429,7 +540,13 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "mass",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "dessert bw/chocolate@2x.webp - ONE chocolate bar, scored into a grid of squares, line art"
   },
   {
    "key": "chocolate-bar",
@@ -447,7 +564,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "christmas",
@@ -464,7 +586,15 @@
     "g": "n"
    },
    "type": "noun-concept",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "proper-noun",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "BLOCKED": true,
+   "block_reason": "LEMMA MISMATCH — the word does not name the picture. DO NOT TOUCH. Christmas bw/christmas@2x.webp - a decorated Christmas tree with a star topper standing in",
+   "image_seen_by_classifier": "Christmas bw/christmas@2x.webp - a decorated Christmas tree with a star topper standing in snow, snowflakes and stars around it, line art"
   },
   {
    "key": "christmas-stocking",
@@ -484,7 +614,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "christmas-tree",
@@ -501,7 +636,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "church",
@@ -519,7 +659,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cinnamon-roll",
@@ -537,7 +682,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "circle",
@@ -554,7 +704,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "clementine",
@@ -566,7 +721,7 @@
     "Clementines"
    ],
    "cur": {
-    "s": "Clementin",
+    "s": "Klementin",
     "p": "Klementiner",
     "g": "n"
    },
@@ -574,7 +729,12 @@
    "countable": true,
    "nets": [
     "N5"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "clock",
@@ -597,7 +757,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "closet",
@@ -617,7 +782,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cloud",
@@ -642,7 +812,12 @@
     "N2",
     "N8",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cloudy",
@@ -657,10 +832,16 @@
    "cur": {
     "s": "Molnigt",
     "p": "Molnigt",
-    "g": "n"
+    "g": null
    },
    "type": "adjective",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "weather/cloudy@2x.webp - a single blue-grey and cream cumulus cloud, no sky, no rain"
   },
   {
    "key": "clover",
@@ -673,11 +854,16 @@
    ],
    "cur": {
     "s": "Klöver",
-    "p": "Klöverar",
+    "p": "Klöver",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "clownfish",
@@ -694,7 +880,13 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "image_seen_by_classifier": "ocean life/clownfish@2x.webp - ONE orange clownfish with three white bands and dark-edged fins, in profile"
   },
   {
    "key": "coach",
@@ -715,7 +907,12 @@
    "nets": [
     "N2",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "coat",
@@ -734,7 +931,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cobra",
@@ -751,7 +953,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cockatiel",
@@ -768,7 +975,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cocktail",
@@ -785,7 +997,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "coconut",
@@ -798,11 +1015,16 @@
    ],
    "cur": {
     "s": "Kokosnöt",
-    "p": "Kokosnötar",
+    "p": "Kokosnötter",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "coconut-tree",
@@ -815,11 +1037,16 @@
    ],
    "cur": {
     "s": "Kokospalm",
-    "p": "Kokospalmar",
+    "p": "Kokospalmer",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "coffee-carafe",
@@ -836,7 +1063,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "coffee-mug",
@@ -853,7 +1085,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "coffee-table",
@@ -876,7 +1113,12 @@
     "N2",
     "N8",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "colander",
@@ -899,7 +1141,12 @@
     "N2",
     "N8",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cold",
@@ -913,10 +1160,16 @@
    "cur": {
     "s": "Kallt",
     "p": "Kallt",
-    "g": "n"
+    "g": null
    },
    "type": "adjective",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "weather/cold@2x.webp - a SNOWMAN in a red bobble hat and red scarf, carrot nose, three red buttons"
   },
   {
    "key": "columbine",
@@ -933,7 +1186,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "comb",
@@ -951,7 +1209,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "comet",
@@ -964,11 +1227,16 @@
    ],
    "cur": {
     "s": "Komet",
-    "p": "Kometar",
+    "p": "Kometer",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "compass",
@@ -982,11 +1250,16 @@
    ],
    "cur": {
     "s": "Kompass",
-    "p": "Kompassar",
+    "p": "Kompasser",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "computer",
@@ -1005,7 +1278,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "computer-keyboard",
@@ -1026,7 +1304,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cone",
@@ -1039,11 +1322,16 @@
    ],
    "cur": {
     "s": "Kon",
-    "p": "Konar",
+    "p": "Koner",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "confused",
@@ -1057,10 +1345,16 @@
    "cur": {
     "s": "Förvirrad",
     "p": "Förvirrad",
-    "g": "n"
+    "g": null
    },
    "type": "adjective",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "emotions/confused@2x.webp - yellow face with raised worried brows, wide eyes, small open mouth, and a large red QUESTION MARK beside the head"
   },
   {
    "key": "construction-worker",
@@ -1081,7 +1375,12 @@
    "nets": [
     "N2",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "content",
@@ -1095,10 +1394,16 @@
    "cur": {
     "s": "Nöjd",
     "p": "Nöjd",
-    "g": "n"
+    "g": null
    },
    "type": "adjective",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "emotions/content@2x.webp - a simple yellow smiley, two oval eyes, a calm closed upturned smile, orange cheek dots"
   },
   {
    "key": "controller",
@@ -1111,11 +1416,16 @@
    ],
    "cur": {
     "s": "Handkontroll",
-    "p": "Handkontrollar",
+    "p": "Handkontroller",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "conversation-heart",
@@ -1131,7 +1441,12 @@
    },
    "type": "noun",
    "countable": true,
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cook",
@@ -1151,7 +1466,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cookie",
@@ -1176,7 +1496,12 @@
    "countable": true,
    "nets": [
     "N5"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cookie-cutter",
@@ -1193,7 +1518,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cookie-sheet",
@@ -1210,7 +1540,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cookies",
@@ -1230,7 +1565,13 @@
    "countable": true,
    "nets": [
     "N2"
-   ]
+   ],
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "Easter bw 2/cookies@2x.webp - a round plate holding SEVEN scalloped-edge cookies, line art"
   },
   {
    "key": "cooler",
@@ -1248,7 +1589,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "coral",
@@ -1269,7 +1615,15 @@
    "countable": false,
    "nets": [
     "N1"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "BLOCKED": true,
+   "block_reason": "LEMMA MISMATCH — the word does not name the picture. DO NOT TOUCH. ocean life/coral@2x.webp - a red/orange branching CORAL organism with pale speckles. I als",
+   "image_seen_by_classifier": "ocean life/coral@2x.webp - a red/orange branching CORAL organism with pale speckles. I also opened colors/coral@2x.webp - a coral-PINK paint-drop swatch, no object at all."
   },
   {
    "key": "corn",
@@ -1288,7 +1642,15 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "mass",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "BLOCKED": true,
+   "block_reason": "LEMMA MISMATCH — the word does not name the picture. DO NOT TOUCH. vegetables/corn@2x.webp - ONE ear/cob of corn, yellow kernels, green husk leaves peeled ba",
+   "image_seen_by_classifier": "vegetables/corn@2x.webp - ONE ear/cob of corn, yellow kernels, green husk leaves peeled back"
   },
   {
    "key": "cornflower",
@@ -1305,7 +1667,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "couch",
@@ -1326,7 +1693,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cow",
@@ -1346,7 +1718,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "crab",
@@ -1368,7 +1745,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cranberry",
@@ -1390,7 +1772,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "crane",
@@ -1408,7 +1795,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "crayon",
@@ -1426,7 +1818,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "crayons",
@@ -1446,7 +1843,13 @@
    "countable": true,
    "nets": [
     "N2"
-   ]
+   ],
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "toys/crayons@2x.webp - THREE wax crayons standing side by side (red, green, orange), each with two dark bands"
   },
   {
    "key": "crib",
@@ -1463,7 +1866,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cricket",
@@ -1481,7 +1889,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "crimson",
@@ -1495,10 +1908,16 @@
    "cur": {
     "s": "Karmosinröd",
     "p": "Karmosinröd",
-    "g": "n"
+    "g": null
    },
    "type": "adjective",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "colors/crimson@2x.webp - a single deep magenta/crimson paint-drop swatch with a highlight dot"
   },
   {
    "key": "crocodile",
@@ -1511,11 +1930,16 @@
    ],
    "cur": {
     "s": "Krokodil",
-    "p": "Krokodilar",
+    "p": "Krokodiler",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "crocus",
@@ -1532,7 +1956,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "croissant",
@@ -1551,7 +1980,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cross",
@@ -1572,7 +2006,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "crossing-guard",
@@ -1589,7 +2028,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "crow",
@@ -1609,7 +2053,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "crown",
@@ -1626,7 +2075,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cruise-ship",
@@ -1647,7 +2101,12 @@
     "N8",
     "N4"
    ],
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "crutches",
@@ -1659,7 +2118,7 @@
     "Crutches"
    ],
    "cur": {
-    "s": "Kryckor",
+    "s": "Krycka",
     "p": "Kryckor",
     "g": "n"
    },
@@ -1668,7 +2127,13 @@
    "nets": [
     "N2",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "hospital/crutches@2x.webp - TWO underarm crutches side by side, red pads and tips, wooden shafts"
   },
   {
    "key": "cube",
@@ -1685,7 +2150,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cuckoo-clock",
@@ -1706,7 +2176,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cucumber",
@@ -1724,7 +2199,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cup",
@@ -1744,7 +2224,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cupcake",
@@ -1766,7 +2251,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "curtain",
@@ -1783,7 +2273,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "curtains",
@@ -1797,11 +2292,17 @@
    ],
    "cur": {
     "s": "Gardiner",
-    "p": "Gardinerar",
+    "p": "Gardiner",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "around the house/curtains@2x.webp - TWO blue curtain panels tied back on a rod, framing a window with a pale sky behind"
   },
   {
    "key": "cushion",
@@ -1822,7 +2323,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cutting-board",
@@ -1840,7 +2346,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cylinder",
@@ -1857,7 +2368,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "cymbals",
@@ -1869,12 +2385,20 @@
     "Cymbals"
    ],
    "cur": {
-    "s": "Cymbaler",
-    "p": "Cymbalerar",
+    "s": "Cymbal",
+    "p": "Cymbaler",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "BLOCKED": true,
+   "block_reason": "LEMMA MISMATCH — the word does not name the picture. DO NOT TOUCH. music/cymbals@2x.webp - a COMPLETE DRUM KIT: bass drum with an orange head, two toms, a fl",
+   "image_seen_by_classifier": "music/cymbals@2x.webp - a COMPLETE DRUM KIT: bass drum with an orange head, two toms, a floor tom, and THREE cymbals on stands"
   },
   {
    "key": "cypress-tree",
@@ -1887,11 +2411,16 @@
    ],
    "cur": {
     "s": "Cypress",
-    "p": "Cypressar",
+    "p": "Cypresser",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "daffodil",
@@ -1909,7 +2438,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "dahlia",
@@ -1926,7 +2460,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "dancing",
@@ -1940,10 +2479,16 @@
    "cur": {
     "s": "Dansa",
     "p": "Dansa",
-    "g": "n"
+    "g": null
    },
    "type": "verb-gerund",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "activity",
+    "hasGender": false,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "activities/dancing@2x.webp - a ballerina in a red bodice and pink tutu, on pointe, arms extended in an arabesque"
   },
   {
    "key": "dandelion",
@@ -1956,11 +2501,16 @@
    ],
    "cur": {
     "s": "Maskros",
-    "p": "Maskrosar",
+    "p": "Maskrosor",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "dart",
@@ -1977,7 +2527,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "deck-chair",
@@ -1997,7 +2552,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "deer",
@@ -2016,7 +2576,15 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "BLOCKED": true,
+   "block_reason": "LEMMA MISMATCH — the word does not name the picture. DO NOT TOUCH. forest creatures/deer@2x.webp - ONE slender spotted deer (a doe/fawn - NO antlers), tan wi",
+   "image_seen_by_classifier": "forest creatures/deer@2x.webp - ONE slender spotted deer (a doe/fawn - NO antlers), tan with a cream belly and white spots, walking"
   },
   {
    "key": "deinonychus",
@@ -2030,14 +2598,19 @@
    "cur": {
     "s": "Deinonychus",
     "p": "Deinonychus",
-    "g": "t"
+    "g": "n"
    },
    "type": "noun",
    "countable": true,
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "delivery",
@@ -2050,11 +2623,16 @@
    ],
    "cur": {
     "s": "Leverans",
-    "p": "Leveransar",
+    "p": "Leveranser",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "delivery-driver",
@@ -2071,7 +2649,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   }
  ]
 }

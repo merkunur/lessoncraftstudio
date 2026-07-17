@@ -1,0 +1,3718 @@
+{
+ "part": "02",
+ "count": 96,
+ "rows": [
+  {
+   "key": "lightning",
+   "en": [
+    "Lightning",
+    "Lightning"
+   ],
+   "themes": [
+    "travel and holiday bw"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Blitz",
+     "p": "Blitze",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Blixt",
+     "p": "Blixtar",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Éclair",
+     "p": "Éclairs",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "lights",
+   "en": [
+    "Lights",
+    "Lights"
+   ],
+   "themes": [
+    "christmas"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": "light",
+   "cur_sample": {
+    "de": {
+     "s": "Lichterkette",
+     "p": "Lichterketten",
+     "g": "f",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Ljusslingor",
+     "p": "Ljusslingor",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Lumières",
+     "p": "Lumières",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "mars",
+   "en": [
+    "Mars",
+    "Mars"
+   ],
+   "themes": [
+    "space"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "proper-noun",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Mars",
+     "p": "Mars",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Mars",
+     "p": "Mars",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Mars",
+     "p": "Mars",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "medical-gloves",
+   "en": [
+    "Medical Gloves",
+    "Medical Gloves"
+   ],
+   "themes": [
+    "hospital"
+   ],
+   "no_image": true,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Medizinische Handschuhe",
+     "p": "Medizinische Handschuhe",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Medicinska handskar",
+     "p": "Medicinska handskar",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Gants médicaux",
+     "p": "Gants médicaux",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "mercury",
+   "en": [
+    "Mercury",
+    "Mercury"
+   ],
+   "themes": [
+    "space"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "proper-noun",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Merkur",
+     "p": "Merkur",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Merkurius",
+     "p": "Merkurius",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Mercure",
+     "p": "Mercure",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "merry",
+   "en": [
+    "Merry",
+    "Merry"
+   ],
+   "themes": [
+    "emotions"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "adjective",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Fröhlich",
+     "p": "Fröhlich",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Munter",
+     "p": "Munter",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Joyeux",
+     "p": "Joyeux",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "milk",
+   "en": [
+    "Milk",
+    "Milk"
+   ],
+   "themes": [
+    "At the Supermarket",
+    "breakfast",
+    "food bw 3"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Milch",
+     "p": "Milch",
+     "g": "f",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Mjölk",
+     "p": "Mjölk",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Lait",
+     "p": "Lait",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "mittens",
+   "en": [
+    "Mittens",
+    "Mittens"
+   ],
+   "themes": [
+    "apparel bw",
+    "weather",
+    "winter"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": "mitten",
+   "cur_sample": {
+    "de": {
+     "s": "Fäustlinge",
+     "p": "Fäustlinge",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Vantar",
+     "p": "Vantar",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Moufles",
+     "p": "Moufles",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "moose",
+   "en": [
+    "Moose",
+    "Moose"
+   ],
+   "themes": [
+    "animals",
+    "forest creatures",
+    "zoo animals"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Elch",
+     "p": "Elche",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Älg",
+     "p": "Älgar",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Élan",
+     "p": "Élans",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "muscles",
+   "en": [
+    "Muscles",
+    "Muscles"
+   ],
+   "themes": [
+    "body parts"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Muskeln",
+     "p": "Muskeln",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Muskler",
+     "p": "Muskler",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Muscles",
+     "p": "Muscles",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "neptune",
+   "en": [
+    "Neptune",
+    "Neptune"
+   ],
+   "themes": [
+    "space"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "proper-noun",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Neptun",
+     "p": "Neptun",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Neptunus",
+     "p": "Neptunus",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Neptune",
+     "p": "Neptune",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "oatmeal",
+   "en": [
+    "Oatmeal",
+    "Oatmeal"
+   ],
+   "themes": [
+    "breakfast"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Haferbrei",
+     "p": "Haferbrei",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Havregryn",
+     "p": "Havregryn",
+     "g": "t",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Flocons d'avoine",
+     "p": "Flocons d'avoine",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "oil",
+   "en": [
+    "Oil",
+    "Oil"
+   ],
+   "themes": [
+    "At the Supermarket"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Öl",
+     "p": "Öl",
+     "g": "n",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Olja",
+     "p": "Olja",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Huile",
+     "p": "Huiles",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "overalls",
+   "en": [
+    "Overalls",
+    "Overalls"
+   ],
+   "themes": [
+    "clothing"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Latzhose",
+     "p": "Latzhosen",
+     "g": "f",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Hängselbyxor",
+     "p": "Hängselbyxor",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Salopette",
+     "p": "Salopettes",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "pajamas",
+   "en": [
+    "Pajamas",
+    "Pajamas"
+   ],
+   "themes": [
+    "clothing"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Schlafanzug",
+     "p": "Schlafanzüge",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Pyjamas",
+     "p": "Pyjamasar",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Pyjama",
+     "p": "Pyjamas",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "pants",
+   "en": [
+    "Pants",
+    "Pants"
+   ],
+   "themes": [
+    "clothing"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Hose",
+     "p": "Hosen",
+     "g": "f",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Byxor",
+     "p": "Byxor",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Pantalon",
+     "p": "Pantalons",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "partly-cloudy",
+   "en": [
+    "Partly Cloudy",
+    "Partly Cloudy"
+   ],
+   "themes": [
+    "weather"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "adjective",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Teilweise bewölkt",
+     "p": "Teilweise bewölkt",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Delvis molnigt",
+     "p": "Delvis molnigt",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Partiellement nuageux",
+     "p": "Partiellement nuageux",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "pasta",
+   "en": [
+    "Pasta",
+    "Pasta"
+   ],
+   "themes": [
+    "At the Supermarket"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Nudeln",
+     "p": "Nudeln",
+     "g": "f",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Pasta",
+     "p": "Pasta",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Pâtes",
+     "p": "Pâtes",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "peanut-butter",
+   "en": [
+    "Peanut Butter",
+    "Peanut Butter"
+   ],
+   "themes": [
+    "At the Supermarket"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Erdnussbutter",
+     "p": "Erdnussbutter",
+     "g": "f",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Jordnötssmör",
+     "p": "Jordnötssmör",
+     "g": "t",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Beurre de cacahuète",
+     "p": "Beurre de cacahuète",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "peas",
+   "en": [
+    "Peas",
+    "Peas"
+   ],
+   "themes": [
+    "At the Supermarket"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": "pea",
+   "cur_sample": {
+    "de": {
+     "s": "Erbsen",
+     "p": "Erbsen",
+     "g": "f",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Ärtor",
+     "p": "Ärtor",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Petits pois",
+     "p": "Petits pois",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "photography",
+   "en": [
+    "Photography",
+    "Photography"
+   ],
+   "themes": [
+    "activities"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "verb-gerund",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Fotografie",
+     "p": "Fotografie",
+     "g": "f",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Fotografering",
+     "p": "Fotografering",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Photographie",
+     "p": "Photographie",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "pink",
+   "en": [
+    "Pink",
+    "Pink"
+   ],
+   "themes": [
+    "colors"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "adjective",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Rosa",
+     "p": "Rosa",
+     "g": "n",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Rosa",
+     "p": "Rosa",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Rose",
+     "p": "Rose",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "pliers",
+   "en": [
+    "Pliers",
+    "Pliers"
+   ],
+   "themes": [
+    "tools",
+    "tools bw"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Zange",
+     "p": "Zangen",
+     "g": "f",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Tång",
+     "p": "Tänger",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Pince",
+     "p": "Pinces",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "popcorn",
+   "en": [
+    "Popcorn",
+    "Popcorn"
+   ],
+   "themes": [
+    "At the Supermarket",
+    "food bw",
+    "food bw 2",
+    "food bw 3"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Popcorn",
+     "p": "Popcorn",
+     "g": "n",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Popcorn",
+     "p": "Popcorn",
+     "g": "t",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Popcorn",
+     "p": "Popcorn",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "porridge",
+   "en": [
+    "Porridge",
+    "Porridge"
+   ],
+   "themes": [
+    "breakfast"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Brei",
+     "p": "Brei",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Gröt",
+     "p": "Gröt",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Porridge",
+     "p": "Porridge",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "potato-chips",
+   "en": [
+    "Potato Chips",
+    "Potato Chips"
+   ],
+   "themes": [
+    "At the Supermarket"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Kartoffelchip",
+     "p": "Kartoffelchips",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Chips",
+     "p": "Chips",
+     "g": "t",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Chips",
+     "p": "Chips",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "pretzels",
+   "en": [
+    "Pretzels",
+    "Pretzels"
+   ],
+   "themes": [
+    "At the Supermarket"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": "pretzel",
+   "cur_sample": {
+    "de": {
+     "s": "Brezeln",
+     "p": "Brezeln",
+     "g": "f",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Kringlor",
+     "p": "Kringlor",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Bretzels",
+     "p": "Bretzels",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "pruning-shears",
+   "en": [
+    "Pruning Shears",
+    "Pruning Shears"
+   ],
+   "themes": [
+    "tools bw"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Gartenschere",
+     "p": "Gartenscheren",
+     "g": "f",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Sekatör",
+     "p": "Sekatörer",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Sécateur",
+     "p": "Sécateurs",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "pufferfish",
+   "en": [
+    "Pufferfish",
+    "Pufferfish"
+   ],
+   "themes": [
+    "ocean life",
+    "sea life bw"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Kugelfisch",
+     "p": "Kugelfische",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Blåsfisk",
+     "p": "Blåsfiskar",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Poisson-globe",
+     "p": "Poissons-globes",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "purple",
+   "en": [
+    "Purple",
+    "Purple"
+   ],
+   "themes": [
+    "colors"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "adjective",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Lila",
+     "p": "Lila",
+     "g": "n",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Lila",
+     "p": "Lila",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Violet",
+     "p": "Violet",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "rain-boots",
+   "en": [
+    "Rain Boots",
+    "Rain Boots"
+   ],
+   "themes": [
+    "accessories",
+    "clothing",
+    "spring",
+    "weather"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Gummistiefel",
+     "p": "Gummistiefel",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Gummistövlar",
+     "p": "Gummistövlar",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Bottes de pluie",
+     "p": "Bottes de pluie",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "rainy",
+   "en": [
+    "Rainy",
+    "Rainy"
+   ],
+   "themes": [
+    "weather"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "adjective",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Regnerisch",
+     "p": "Regnerisch",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Regnigt",
+     "p": "Regnigt",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Pluvieux",
+     "p": "Pluvieux",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "reading",
+   "en": [
+    "Reading",
+    "Reading"
+   ],
+   "themes": [
+    "activities"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "verb-gerund",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Lesen",
+     "p": "Lesen",
+     "g": "n",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Läsa",
+     "p": "Läsa",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Lecture",
+     "p": "Lecture",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "red",
+   "en": [
+    "Red",
+    "Red"
+   ],
+   "themes": [
+    "colors"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "adjective",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Rot",
+     "p": "Rot",
+     "g": "n",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Röd",
+     "p": "Röd",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Rouge",
+     "p": "Rouge",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "reindeer",
+   "en": [
+    "Reindeer",
+    "Reindeer"
+   ],
+   "themes": [
+    "Christmas bw",
+    "Christmas bw 2",
+    "animals",
+    "animals bw",
+    "animals bw 5",
+    "christmas",
+    "zoo animals",
+    "zoo animals bw"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Rentier",
+     "p": "Rentiere",
+     "g": "n",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Ren",
+     "p": "Renar",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Renne",
+     "p": "Rennes",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "rice",
+   "en": [
+    "Rice",
+    "Rice"
+   ],
+   "themes": [
+    "At the Supermarket"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Reis",
+     "p": "Reis",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Ris",
+     "p": "Ris",
+     "g": "t",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Riz",
+     "p": "Riz",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "running",
+   "en": [
+    "Running",
+    "Running"
+   ],
+   "themes": [
+    "activities"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "verb-gerund",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Laufen",
+     "p": "Laufen",
+     "g": "n",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Springa",
+     "p": "Springa",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Course",
+     "p": "Course",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "sad",
+   "en": [
+    "Sad",
+    "Sad"
+   ],
+   "themes": [
+    "emotions"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "adjective",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Traurig",
+     "p": "Traurig",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Ledsen",
+     "p": "Ledsen",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Triste",
+     "p": "Triste",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "sand",
+   "en": [
+    "Sand",
+    "Sand"
+   ],
+   "themes": [
+    "summer"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Sand",
+     "p": "Sand",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Sand",
+     "p": "Sand",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Sable",
+     "p": "Sable",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "sandals",
+   "en": [
+    "Sandals",
+    "Sandals"
+   ],
+   "themes": [
+    "beach",
+    "summer"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Sandale",
+     "p": "Sandalen",
+     "g": "f",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Sandaler",
+     "p": "Sandaler",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Sandales",
+     "p": "Sandales",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "saturn",
+   "en": [
+    "Saturn",
+    "Saturn"
+   ],
+   "themes": [
+    "space"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "proper-noun",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Saturn",
+     "p": "Saturn",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Saturnus",
+     "p": "Saturnus",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Saturne",
+     "p": "Saturne",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "scared",
+   "en": [
+    "Scared",
+    "Scared"
+   ],
+   "themes": [
+    "emotions"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "adjective",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Verängstigt",
+     "p": "Verängstigt",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Rädd",
+     "p": "Rädd",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Effrayé",
+     "p": "Effrayé",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "scarlet",
+   "en": [
+    "Scarlet",
+    "Scarlet"
+   ],
+   "themes": [
+    "colors"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "adjective",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Scharlachrot",
+     "p": "Scharlachrot",
+     "g": "n",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Scharlakansröd",
+     "p": "Scharlakansröd",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Écarlate",
+     "p": "Écarlate",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "science",
+   "en": [
+    "Science",
+    "Science"
+   ],
+   "themes": [
+    "activities"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun-concept",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Wissenschaft",
+     "p": "Wissenschaft",
+     "g": "f",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Vetenskap",
+     "p": "Vetenskap",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Science",
+     "p": "Science",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "scissors",
+   "en": [
+    "Scissors",
+    "Scissors"
+   ],
+   "themes": [
+    "around the house",
+    "classroom",
+    "classroom bw 2",
+    "education bw"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Schere",
+     "p": "Scheren",
+     "g": "f",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Sax",
+     "p": "Saxar",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Ciseaux",
+     "p": "Ciseaux",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "scrubs",
+   "en": [
+    "Scrubs",
+    "Scrubs"
+   ],
+   "themes": [
+    "hospital"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "OP-Kleidung",
+     "p": "OP-Kleidung",
+     "g": "f",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Sjukhuskläder",
+     "p": "Sjukhuskläder",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Tenue médicale",
+     "p": "Tenues médicales",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "scuba-diving",
+   "en": [
+    "Scuba Diving",
+    "Scuba Diving"
+   ],
+   "themes": [
+    "travel and holiday bw"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "verb-gerund",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Tauchen",
+     "p": "Tauchen",
+     "g": "n",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Dykning",
+     "p": "Dykning",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Plongée sous-marine",
+     "p": "Plongée sous-marine",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "seaweed",
+   "en": [
+    "Seaweed",
+    "Seaweed"
+   ],
+   "themes": [
+    "ocean life"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Seetang",
+     "p": "Seetang",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Sjögräs",
+     "p": "Sjögräs",
+     "g": "t",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Algue",
+     "p": "Algues",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "sewing",
+   "en": [
+    "Sewing",
+    "Sewing"
+   ],
+   "themes": [
+    "activities"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "verb-gerund",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Nähen",
+     "p": "Nähen",
+     "g": "n",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Sy",
+     "p": "Sy",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Couture",
+     "p": "Couture",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "sheep",
+   "en": [
+    "Sheep",
+    "Sheep"
+   ],
+   "themes": [
+    "Easter bw 2",
+    "animals",
+    "animals bw",
+    "animals bw 2",
+    "animals bw 4",
+    "animals bw 5",
+    "faces bw",
+    "farm animals",
+    "farm animals bw",
+    "farm bw"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Schaf",
+     "p": "Schafe",
+     "g": "n",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Får",
+     "p": "Får",
+     "g": "t",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Mouton",
+     "p": "Moutons",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "shoes",
+   "en": [
+    "Shoes",
+    "Shoes"
+   ],
+   "themes": [
+    "objects bw"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": "shoe",
+   "cur_sample": {
+    "de": {
+     "s": "Schuhe",
+     "p": "Schuhe",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Skor",
+     "p": "Skor",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Chaussures",
+     "p": "Chaussures",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "shorts",
+   "en": [
+    "Shorts",
+    "Shorts"
+   ],
+   "themes": [
+    "apparel bw",
+    "beach bw 2",
+    "clothing",
+    "objects bw",
+    "summer"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Shorts",
+     "p": "Shorts",
+     "g": "f",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Shorts",
+     "p": "Shorts",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Short",
+     "p": "Shorts",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "shrimp",
+   "en": [
+    "Shrimp",
+    "Shrimp"
+   ],
+   "themes": [
+    "ocean life",
+    "sea life bw 2"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Garnele",
+     "p": "Garnelen",
+     "g": "f",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Räka",
+     "p": "Räkor",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Crevette",
+     "p": "Crevettes",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "shy",
+   "en": [
+    "Shy",
+    "Shy"
+   ],
+   "themes": [
+    "emotions"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "adjective",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Schüchtern",
+     "p": "Schüchtern",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Blyg",
+     "p": "Blyg",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Timide",
+     "p": "Timide",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "singing",
+   "en": [
+    "Singing",
+    "Singing"
+   ],
+   "themes": [
+    "activities"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "verb-gerund",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Singen",
+     "p": "Singen",
+     "g": "n",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Sjunga",
+     "p": "Sjunga",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Chant",
+     "p": "Chant",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "skating",
+   "en": [
+    "Skating",
+    "Skating"
+   ],
+   "themes": [
+    "activities",
+    "winter"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "verb-gerund",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Schlittschuhlaufen",
+     "p": "Schlittschuhlaufen",
+     "g": "n",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Skridskoåkning",
+     "p": "Skridskoåkning",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Patinage",
+     "p": "Patinage",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "skeptical",
+   "en": [
+    "Skeptical",
+    "Skeptical"
+   ],
+   "themes": [
+    "emotions"
+   ],
+   "no_image": true,
+   "hypothesis": {
+    "raw_type": "adjective",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Skeptisch",
+     "p": "Skeptisch",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Skeptisk",
+     "p": "Skeptisk",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Sceptique",
+     "p": "Sceptique",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "skiing",
+   "en": [
+    "Skiing",
+    "Skiing"
+   ],
+   "themes": [
+    "activities",
+    "winter"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "verb-gerund",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Skifahren",
+     "p": "Skifahren",
+     "g": "n",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Skidåkning",
+     "p": "Skidåkning",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Ski",
+     "p": "Ski",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "sledding",
+   "en": [
+    "Sledding",
+    "Sledding"
+   ],
+   "themes": [
+    "winter"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "verb-gerund",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Rodeln",
+     "p": "Rodeln",
+     "g": "n",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Åka släde",
+     "p": "Åka släde",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Faire de la luge",
+     "p": "Faire de la luge",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "slippers",
+   "en": [
+    "Slippers",
+    "Slippers"
+   ],
+   "themes": [
+    "clothing"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Hausschuh",
+     "p": "Hausschuhe",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Tofflor",
+     "p": "Tofflor",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Chaussons",
+     "p": "Chaussons",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "sneakers",
+   "en": [
+    "Sneakers",
+    "Sneakers"
+   ],
+   "themes": [
+    "objects bw"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": "sneaker",
+   "cur_sample": {
+    "de": {
+     "s": "Turnschuhe",
+     "p": "Turnschuhe",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Sneakers",
+     "p": "Sneakers",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Baskets",
+     "p": "Baskets",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "snow-boots",
+   "en": [
+    "Snow Boots",
+    "Snow Boots"
+   ],
+   "themes": [
+    "clothing"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Schneestiefel",
+     "p": "Schneestiefel",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Snökängor",
+     "p": "Snökängor",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Bottes de neige",
+     "p": "Bottes de neige",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "snowboarding",
+   "en": [
+    "Snowboarding",
+    "Snowboarding"
+   ],
+   "themes": [
+    "winter"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "verb-gerund",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Snowboarden",
+     "p": "Snowboarden",
+     "g": "n",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Snowboard",
+     "p": "Snowboard",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Snowboard",
+     "p": "Snowboard",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "soccer",
+   "en": [
+    "Soccer",
+    "Soccer"
+   ],
+   "themes": [
+    "activities",
+    "sports bw"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "verb-gerund",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Fußball",
+     "p": "Fußball",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Fotboll",
+     "p": "Fotboll",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Football",
+     "p": "Football",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "spinach",
+   "en": [
+    "Spinach",
+    "Spinach"
+   ],
+   "themes": [
+    "vegetables",
+    "vegetables bw 2"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Spinat",
+     "p": "Spinat",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Spenat",
+     "p": "Spenat",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Épinard",
+     "p": "Épinards",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "squid",
+   "en": [
+    "Squid",
+    "Squid"
+   ],
+   "themes": [
+    "ocean life",
+    "sea life bw",
+    "sea life bw 2"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Tintenfisch",
+     "p": "Tintenfische",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Bläckfisk",
+     "p": "Bläckfiskar",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Calmar",
+     "p": "Calamars",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "stairs",
+   "en": [
+    "Stairs",
+    "Stairs"
+   ],
+   "themes": [
+    "around the house"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Treppe",
+     "p": "Treppen",
+     "g": "f",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Trappa",
+     "p": "Trappor",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Escalier",
+     "p": "Escaliers",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "starfish",
+   "en": [
+    "Starfish",
+    "Starfish"
+   ],
+   "themes": [
+    "beach",
+    "beach bw",
+    "ocean life",
+    "sea life bw",
+    "sea life bw 2",
+    "summer"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Seestern",
+     "p": "Seesterne",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Sjöstjärna",
+     "p": "Sjöstjärnor",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Étoile de mer",
+     "p": "Étoiles de mer",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "stormy",
+   "en": [
+    "Stormy",
+    "Stormy"
+   ],
+   "themes": [
+    "weather"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "adjective",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Stürmisch",
+     "p": "Stürmisch",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Stormigt",
+     "p": "Stormigt",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Orageux",
+     "p": "Orageux",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "sunglasses",
+   "en": [
+    "Sunglasses",
+    "Sunglasses"
+   ],
+   "themes": [
+    "accessories",
+    "apparel bw",
+    "beach",
+    "beach bw",
+    "beach bw 2",
+    "summer",
+    "travel and holiday bw",
+    "valentine bw 2",
+    "weather"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Sonnenbrille",
+     "p": "Sonnenbrillen",
+     "g": "f",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Solglasögon",
+     "p": "Solglasögon",
+     "g": "t",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Lunettes de soleil",
+     "p": "Lunettes de soleil",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "sunny",
+   "en": [
+    "Sunny",
+    "Sunny"
+   ],
+   "themes": [
+    "weather"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "adjective",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Sonnig",
+     "p": "Sonnig",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Soligt",
+     "p": "Soligt",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Ensoleillé",
+     "p": "Ensoleillé",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "surprised",
+   "en": [
+    "Surprised",
+    "Surprised"
+   ],
+   "themes": [
+    "emotions"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "adjective",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Überrascht",
+     "p": "Überrascht",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Förvånad",
+     "p": "Förvånad",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Surpris",
+     "p": "Surpris",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "suspenders",
+   "en": [
+    "Suspenders",
+    "Suspenders"
+   ],
+   "themes": [
+    "accessories"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Hosenträger",
+     "p": "Hosenträger",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Hängslen",
+     "p": "Hängslen",
+     "g": "t",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Bretelles",
+     "p": "Bretelles",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "sweatpants",
+   "en": [
+    "Sweatpants",
+    "Sweatpants"
+   ],
+   "themes": [
+    "clothing"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Jogginghose",
+     "p": "Jogginghosen",
+     "g": "f",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Mjukisbyxor",
+     "p": "Mjukisbyxor",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Pantalon de jogging",
+     "p": "Pantalons de jogging",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "swimming",
+   "en": [
+    "Swimming",
+    "Swimming"
+   ],
+   "themes": [
+    "activities",
+    "summer"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "verb-gerund",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Schwimmen",
+     "p": "Schwimmen",
+     "g": "n",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Simning",
+     "p": "Simning",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Natation",
+     "p": "Natation",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "swordfish",
+   "en": [
+    "Swordfish",
+    "Swordfish"
+   ],
+   "themes": [
+    "sea life bw"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Schwertfisch",
+     "p": "Schwertfische",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Svärdfisk",
+     "p": "Svärdfiskar",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Espadon",
+     "p": "Espadons",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "table-tennis",
+   "en": [
+    "Table Tennis",
+    "Table Tennis"
+   ],
+   "themes": [
+    "sports bw"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "verb-gerund",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Tischtennis",
+     "p": "Tischtennis",
+     "g": "n",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Bordtennis",
+     "p": "Bordtennis",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Tennis de table",
+     "p": "Tennis de table",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "tennis",
+   "en": [
+    "Tennis",
+    "Tennis"
+   ],
+   "themes": [
+    "activities",
+    "sports bw"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "verb-gerund",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Tennis",
+     "p": "Tennis",
+     "g": "n",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Tennis",
+     "p": "Tennis",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Tennis",
+     "p": "Tennis",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "tights",
+   "en": [
+    "Tights",
+    "Tights"
+   ],
+   "themes": [
+    "accessories"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Strumpfhose",
+     "p": "Strumpfhosen",
+     "g": "f",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Strumpbyxor",
+     "p": "Strumpbyxor",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Collants",
+     "p": "Collants",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "tired",
+   "en": [
+    "Tired",
+    "Tired"
+   ],
+   "themes": [
+    "emotions"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "adjective",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Müde",
+     "p": "Müde",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Trött",
+     "p": "Trött",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Fatigué",
+     "p": "Fatigué",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "tongs",
+   "en": [
+    "Tongs",
+    "Tongs"
+   ],
+   "themes": [
+    "kitchen tools"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Zange",
+     "p": "Zangen",
+     "g": "f",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Tång",
+     "p": "Tänger",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Pince",
+     "p": "Pinces",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "toothpaste",
+   "en": [
+    "Toothpaste",
+    "Toothpaste"
+   ],
+   "themes": [
+    "around the house",
+    "objects bw"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Zahnpasta",
+     "p": "Zahnpasta",
+     "g": "f",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Tandkräm",
+     "p": "Tandkräm",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Dentifrice",
+     "p": "Dentifrices",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "triceratops",
+   "en": [
+    "Triceratops",
+    "Triceratops"
+   ],
+   "themes": [
+    "dinosaurs"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Triceratops",
+     "p": "Triceratops",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Triceratops",
+     "p": "Triceratopsar",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Tricératops",
+     "p": "Tricératops",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "trousers",
+   "en": [
+    "Trousers",
+    "Trousers"
+   ],
+   "themes": [
+    "clothing"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Hose",
+     "p": "Hosen",
+     "g": "f",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Byxor",
+     "p": "Byxor",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Pantalon",
+     "p": "Pantalons",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "turquoise",
+   "en": [
+    "Turquoise",
+    "Turquoise"
+   ],
+   "themes": [
+    "colors"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "adjective",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Türkis",
+     "p": "Türkis",
+     "g": "n",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Turkos",
+     "p": "Turkos",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Turquoise",
+     "p": "Turquoise",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "underpants",
+   "en": [
+    "Underpants",
+    "Underpants"
+   ],
+   "themes": [
+    "clothing"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Unterhose",
+     "p": "Unterhosen",
+     "g": "f",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Kalsonger",
+     "p": "Kalsonger",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Sous-vêtements",
+     "p": "Sous-vêtements",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "uranus",
+   "en": [
+    "Uranus",
+    "Uranus"
+   ],
+   "themes": [
+    "space"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "proper-noun",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Uranus",
+     "p": "Uranus",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Uranus",
+     "p": "Uranus",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Uranus",
+     "p": "Uranus",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "us",
+   "en": [
+    "US",
+    "US"
+   ],
+   "themes": [
+    "4th of July"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "proper-noun",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "USA",
+     "p": "USA",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "USA",
+     "p": "USA",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "États-Unis",
+     "p": "États-Unis",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "vegetables",
+   "en": [
+    "Vegetables",
+    "Vegetables"
+   ],
+   "themes": [
+    "farm bw"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": true,
+    "note": null
+   },
+   "en_looks_plural": true,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Gemüse",
+     "p": "Gemüse",
+     "g": "n",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Grönsaker",
+     "p": "Grönsaker",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Légumes",
+     "p": "Légumes",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "venus",
+   "en": [
+    "Venus",
+    "Venus"
+   ],
+   "themes": [
+    "space"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "proper-noun",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Venus",
+     "p": "Venus",
+     "g": "f",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Venus",
+     "p": "Venus",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Vénus",
+     "p": "Vénus",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "volleyball",
+   "en": [
+    "Volleyball",
+    "Volleyball"
+   ],
+   "themes": [
+    "sports bw",
+    "sports bw 2"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "verb-gerund",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Volleyball",
+     "p": "Volleyball",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Volleyboll",
+     "p": "Volleyboll",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Volleyball",
+     "p": "Volleyball",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "water",
+   "en": [
+    "Water",
+    "Water"
+   ],
+   "themes": [
+    "At the Supermarket",
+    "beach",
+    "camping"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Wasser",
+     "p": "Wasser",
+     "g": "n",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Vatten",
+     "p": "Vatten",
+     "g": "t",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Eau",
+     "p": "Eaux",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "white",
+   "en": [
+    "White",
+    "White"
+   ],
+   "themes": [
+    "colors"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "adjective",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Weiß",
+     "p": "Weiß",
+     "g": "n",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Vit",
+     "p": "Vit",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Blanc",
+     "p": "Blanc",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "writing",
+   "en": [
+    "Writing",
+    "Writing"
+   ],
+   "themes": [
+    "activities"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "verb-gerund",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Schreiben",
+     "p": "Schreiben",
+     "g": "n",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Skriva",
+     "p": "Skriva",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Écriture",
+     "p": "Écriture",
+     "g": "f",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "yellow",
+   "en": [
+    "Yellow",
+    "Yellow"
+   ],
+   "themes": [
+    "colors"
+   ],
+   "no_image": false,
+   "hypothesis": {
+    "raw_type": "adjective",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Gelb",
+     "p": "Gelb",
+     "g": "n",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Gul",
+     "p": "Gul",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Jaune",
+     "p": "Jaune",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  },
+  {
+   "key": "yogurt",
+   "en": [
+    "Yogurt",
+    "Yogurt"
+   ],
+   "themes": [
+    "breakfast"
+   ],
+   "no_image": true,
+   "hypothesis": {
+    "raw_type": "noun",
+    "raw_countable": false,
+    "note": null
+   },
+   "en_looks_plural": false,
+   "sister_singular_key": null,
+   "cur_sample": {
+    "de": {
+     "s": "Joghurt",
+     "p": "Joghurt",
+     "g": "m",
+     "arity": 3
+    },
+    "sv": {
+     "s": "Yoghurt",
+     "p": "Yoghurt",
+     "g": "n",
+     "arity": 3
+    },
+    "fr": {
+     "s": "Yaourt",
+     "p": "Yaourts",
+     "g": "m",
+     "arity": 3
+    }
+   }
+  }
+ ]
+}

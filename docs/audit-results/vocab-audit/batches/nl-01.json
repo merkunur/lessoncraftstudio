@@ -24,7 +24,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "acorn",
@@ -42,7 +47,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "actor",
@@ -55,11 +65,16 @@
    ],
    "cur": {
     "s": "Acteur",
-    "p": "Acteuren",
+    "p": "Acteurs",
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "air-conditioning",
@@ -76,7 +91,12 @@
     "g": "d"
    },
    "type": "noun-concept",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "airplane",
@@ -96,7 +116,12 @@
     "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "alarm-clock",
@@ -115,7 +140,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "alligator",
@@ -131,11 +161,16 @@
    ],
    "cur": {
     "s": "Alligator",
-    "p": "Alligatoren",
+    "p": "Alligators",
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "allosaurus",
@@ -152,7 +187,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "alpaca",
@@ -169,7 +209,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "ambulance",
@@ -183,11 +228,16 @@
    ],
    "cur": {
     "s": "Ambulance",
-    "p": "Ambulancen",
+    "p": "Ambulances",
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "analog-clock",
@@ -204,7 +254,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "anchor",
@@ -221,7 +276,12 @@
     "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "angel",
@@ -236,11 +296,16 @@
    ],
    "cur": {
     "s": "Engel",
-    "p": "Engels",
+    "p": "Engelen",
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "angelfish",
@@ -257,7 +322,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "angry",
@@ -271,10 +341,15 @@
    "cur": {
     "s": "Boos",
     "p": "Boos",
-    "g": "d"
+    "g": null
    },
    "type": "adjective",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
   },
   {
    "key": "ankle",
@@ -291,7 +366,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "ankylosaurus",
@@ -308,7 +388,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "ant",
@@ -326,7 +411,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "antelope",
@@ -345,7 +435,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "apatosaurus",
@@ -362,7 +457,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "apple",
@@ -382,7 +482,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "apple-pie",
@@ -399,7 +504,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "apple-tree",
@@ -416,7 +526,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "apricot",
@@ -433,7 +548,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "apron",
@@ -452,7 +572,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "architect",
@@ -469,7 +594,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "argentinosaurus",
@@ -486,7 +616,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "arm",
@@ -503,7 +638,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "armadillo",
@@ -517,10 +657,15 @@
    "cur": {
     "s": "Gordeldier",
     "p": "Gordeldieren",
-    "g": "d"
+    "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "armchair",
@@ -535,11 +680,16 @@
    ],
    "cur": {
     "s": "Fauteuil",
-    "p": "Fauteuilen",
+    "p": "Fauteuils",
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "artist",
@@ -552,11 +702,16 @@
    ],
    "cur": {
     "s": "Kunstenaar",
-    "p": "Kunstenaren",
+    "p": "Kunstenaars",
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "ash-tree",
@@ -573,7 +728,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "asparagus",
@@ -586,14 +746,16 @@
    ],
    "cur": {
     "s": "Asperge",
-    "p": "Aspergen",
+    "p": "Asperges",
     "g": "d"
    },
    "type": "noun",
    "countable": false,
-   "nets": [
-    "N1"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "aspen-tree",
@@ -610,7 +772,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "aster",
@@ -627,7 +794,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "asteroid",
@@ -644,7 +816,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "astronaut",
@@ -662,7 +839,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "athlete",
@@ -679,7 +861,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "author",
@@ -692,11 +879,16 @@
    ],
    "cur": {
     "s": "Auteur",
-    "p": "Auteuren",
+    "p": "Auteurs",
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "autumn",
@@ -714,7 +906,14 @@
     "g": "d"
    },
    "type": "noun-concept",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "abstract",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "ART_DEFECT": true,
+   "art_note": "The PICTURE disagrees with the key. OPERATOR RULING: the FILENAME is the reference — the word follows the KEY; the art is the bug. Seen: miscellaneous/autumn@2x.webp - a broad tree in full autumn foliage, red/orange/yellow leav"
   },
   {
    "key": "avocado",
@@ -731,7 +930,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "axe",
@@ -748,7 +952,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "azalea",
@@ -765,7 +974,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "baby",
@@ -782,7 +996,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "baby's-onesie",
@@ -798,7 +1017,12 @@
    },
    "type": "noun",
    "countable": true,
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "baby-bottle",
@@ -814,7 +1038,12 @@
    },
    "type": "noun",
    "countable": true,
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "baby-carriage",
@@ -831,7 +1060,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "baby-girl",
@@ -848,7 +1082,12 @@
     "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "baby-overall",
@@ -861,11 +1100,16 @@
    ],
    "cur": {
     "s": "Baby-overall",
-    "p": "Baby-overallen",
+    "p": "Baby-overalls",
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "backpack",
@@ -886,7 +1130,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bacon",
@@ -904,7 +1153,12 @@
     "g": "h"
    },
    "type": "noun",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "mass",
+    "hasGender": true,
+    "hasPlural": false
+   }
   },
   {
    "key": "badge",
@@ -917,11 +1171,16 @@
    ],
    "cur": {
     "s": "Badge",
-    "p": "Badgen",
+    "p": "Badges",
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "badger",
@@ -938,7 +1197,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "badminton",
@@ -952,10 +1216,17 @@
    "cur": {
     "s": "Badminton",
     "p": "Badminton",
-    "g": "d"
+    "g": "h"
    },
    "type": "verb-gerund",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "ART_DEFECT": true,
+   "art_note": "The PICTURE disagrees with the key. OPERATOR RULING: the FILENAME is the reference — the word follows the KEY; the art is the bug. Seen: sports bw/badminton@2x.webp - a single SHUTTLECOCK (feathered skirt above a rounded cork b"
   },
   {
    "key": "bag",
@@ -973,7 +1244,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bagel",
@@ -992,7 +1268,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "baguette",
@@ -1009,7 +1290,12 @@
     "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "baker",
@@ -1026,7 +1312,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "baking",
@@ -1040,10 +1331,15 @@
    "cur": {
     "s": "Bakken",
     "p": "Bakken",
-    "g": "d"
+    "g": null
    },
    "type": "verb-gerund",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "activity",
+    "hasGender": false,
+    "hasPlural": false
+   }
   },
   {
    "key": "baking-sheet",
@@ -1060,7 +1356,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "ball",
@@ -1077,7 +1378,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "ballerina",
@@ -1094,7 +1400,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "balloon",
@@ -1115,7 +1426,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "banana",
@@ -1134,7 +1450,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "banana-tree",
@@ -1151,7 +1472,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bandage",
@@ -1168,7 +1494,12 @@
     "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "banyan-tree",
@@ -1185,7 +1516,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "baobab-tree",
@@ -1202,7 +1538,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "barbecue",
@@ -1215,11 +1556,16 @@
    ],
    "cur": {
     "s": "Barbecue",
-    "p": "Barbecuen",
+    "p": "Barbecues",
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "barber",
@@ -1236,7 +1582,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "barn",
@@ -1253,7 +1604,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "barrette",
@@ -1270,7 +1626,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "baseball",
@@ -1286,10 +1647,17 @@
    "cur": {
     "s": "Honkbal",
     "p": "Honkbal",
-    "g": "d"
+    "g": "h"
    },
    "type": "verb-gerund",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "ART_DEFECT": true,
+   "art_note": "The PICTURE disagrees with the key. OPERATOR RULING: the FILENAME is the reference — the word follows the KEY; the art is the bug. Seen: activities/baseball@2x.webp - a white BALL with red stitching. Also opened sports bw/baseb"
   },
   {
    "key": "basket",
@@ -1307,7 +1675,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "basketball",
@@ -1322,10 +1695,15 @@
    "cur": {
     "s": "Basketbal",
     "p": "Basketbal",
-    "g": "d"
+    "g": "h"
    },
    "type": "verb-gerund",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bat",
@@ -1345,7 +1723,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bathing-suit",
@@ -1362,7 +1745,12 @@
     "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bathtub",
@@ -1381,7 +1769,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "beach",
@@ -1398,7 +1791,12 @@
     "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "beach-bag",
@@ -1415,7 +1813,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "beach-ball",
@@ -1434,7 +1837,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "beach-umbrella",
@@ -1452,9 +1860,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N6"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "beanie",
@@ -1473,9 +1883,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N6"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bear",
@@ -1497,9 +1909,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N5"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "beaver",
@@ -1517,7 +1931,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bed",
@@ -1538,7 +1957,12 @@
     "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bee",
@@ -1556,11 +1980,16 @@
    ],
    "cur": {
     "s": "Bij",
-    "p": "Bijjen",
+    "p": "Bijen",
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "beech-tree",
@@ -1577,7 +2006,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "beetle",
@@ -1594,7 +2028,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "beetroot",
@@ -1611,7 +2050,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "begonia",
@@ -1628,7 +2072,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "beige",
@@ -1642,10 +2091,15 @@
    "cur": {
     "s": "Beige",
     "p": "Beige",
-    "g": "d"
+    "g": null
    },
    "type": "adjective",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
   },
   {
    "key": "bell",
@@ -1664,7 +2118,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bell-pepper",
@@ -1682,9 +2141,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N6"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "belt",
@@ -1702,7 +2163,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bench",
@@ -1720,9 +2186,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N6"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bible",
@@ -1739,7 +2207,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bicycle",
@@ -1759,7 +2232,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "biking",
@@ -1773,10 +2251,15 @@
    "cur": {
     "s": "Fietsen",
     "p": "Fietsen",
-    "g": "d"
+    "g": null
    },
    "type": "verb-gerund",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "activity",
+    "hasGender": false,
+    "hasPlural": false
+   }
   },
   {
    "key": "binder",
@@ -1793,7 +2276,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "binoculars",
@@ -1812,7 +2300,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "birch-tree",
@@ -1829,7 +2322,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bird",
@@ -1851,7 +2349,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "birdhouse",
@@ -1868,7 +2371,12 @@
     "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "biscuit",
@@ -1887,9 +2395,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N6"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bison",
@@ -1903,11 +2413,16 @@
    ],
    "cur": {
     "s": "Bizon",
-    "p": "Bizonnen",
+    "p": "Bizons",
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "black",
@@ -1921,10 +2436,15 @@
    "cur": {
     "s": "Zwart",
     "p": "Zwart",
-    "g": "d"
+    "g": null
    },
    "type": "adjective",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
   },
   {
    "key": "blackberry",
@@ -1942,9 +2462,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N5"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "blanket",
@@ -1961,7 +2483,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "blender",
@@ -1982,7 +2509,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   }
  ]
 }

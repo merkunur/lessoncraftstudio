@@ -25,7 +25,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "ship",
@@ -43,9 +48,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N5"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "shirt",
@@ -63,7 +70,12 @@
     "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "shoe",
@@ -81,7 +93,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "shoes",
@@ -99,9 +116,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N2"
-   ]
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   }
   },
   {
    "key": "shopping-bag",
@@ -119,7 +138,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "shopping-cart",
@@ -137,9 +161,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N6"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "shorts",
@@ -160,7 +186,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "shoulder",
@@ -177,7 +208,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "shovel",
@@ -199,7 +235,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "shrimp",
@@ -217,7 +258,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "shuttlecock",
@@ -234,7 +280,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "shy",
@@ -248,10 +299,15 @@
    "cur": {
     "s": "Verlegen",
     "p": "Verlegen",
-    "g": "d"
+    "g": null
    },
    "type": "adjective",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
   },
   {
    "key": "sickle",
@@ -268,7 +324,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "signpost",
@@ -286,7 +347,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "singer",
@@ -304,7 +370,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "singing",
@@ -318,10 +389,17 @@
    "cur": {
     "s": "Zingen",
     "p": "Zingen",
-    "g": "d"
+    "g": "h"
    },
    "type": "verb-gerund",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "ART_DEFECT": true,
+   "art_note": "The PICTURE disagrees with the key. OPERATOR RULING: the FILENAME is the reference — the word follows the KEY; the art is the bug. Seen: activities/singing@2x.webp — a MICROPHONE: dark mesh ball head, blue-grey body with yellow"
   },
   {
    "key": "sink",
@@ -339,7 +417,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sister",
@@ -355,10 +438,12 @@
    },
    "type": null,
    "countable": null,
-   "nets": [
-    "N7"
-   ],
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sit",
@@ -370,14 +455,16 @@
    "cur": {
     "s": "Zitten",
     "p": "Zitten",
-    "g": "d"
+    "g": "h"
    },
    "type": null,
    "countable": null,
-   "nets": [
-    "N7"
-   ],
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "skateboard",
@@ -396,7 +483,12 @@
     "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "skating",
@@ -411,13 +503,17 @@
    "cur": {
     "s": "Schaatsen",
     "p": "Schaatsen",
-    "g": "d"
+    "g": "h"
    },
    "type": "verb-gerund",
    "countable": false,
-   "nets": [
-    "N6"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "ART_DEFECT": true,
+   "art_note": "The PICTURE disagrees with the key. OPERATOR RULING: the FILENAME is the reference — the word follows the KEY; the art is the bug. Seen: activities/skating@2x.webp — ONE bright pink lace-up ICE SKATE with a dark sole and a stee"
   },
   {
    "key": "skeleton",
@@ -434,7 +530,12 @@
     "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "skeptical",
@@ -446,11 +547,16 @@
    "cur": {
     "s": "Sceptisch",
     "p": "Sceptisch",
-    "g": "d"
+    "g": null
    },
    "type": "adjective",
    "countable": false,
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
   },
   {
    "key": "skiing",
@@ -465,10 +571,17 @@
    "cur": {
     "s": "Skiën",
     "p": "Skiën",
-    "g": "d"
+    "g": "h"
    },
    "type": "verb-gerund",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "ART_DEFECT": true,
+   "art_note": "The PICTURE disagrees with the key. OPERATOR RULING: the FILENAME is the reference — the word follows the KEY; the art is the bug. Seen: activities/skiing@2x.webp — a PAIR of blue downhill SKIS side by side with yellow bindings"
   },
   {
    "key": "skirt",
@@ -485,7 +598,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sky",
@@ -502,7 +620,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sled",
@@ -520,9 +643,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N6"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sledding",
@@ -536,10 +661,15 @@
    "cur": {
     "s": "Sleeën",
     "p": "Sleeën",
-    "g": "d"
+    "g": null
    },
    "type": "verb-gerund",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "activity",
+    "hasGender": false,
+    "hasPlural": false
+   }
   },
   {
    "key": "sleep",
@@ -551,14 +681,16 @@
    "cur": {
     "s": "Slapen",
     "p": "Slapen",
-    "g": "d"
+    "g": "h"
    },
    "type": null,
    "countable": null,
-   "nets": [
-    "N7"
-   ],
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sleeping-bag",
@@ -575,7 +707,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sleigh",
@@ -594,9 +731,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N6"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "slide",
@@ -613,7 +752,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "slippers",
@@ -631,9 +775,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N2"
-   ]
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   }
   },
   {
    "key": "sloth",
@@ -651,7 +797,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "slug",
@@ -669,7 +820,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "smartphone",
@@ -686,7 +842,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "smartwatch",
@@ -703,7 +864,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "smoothie",
@@ -716,11 +882,16 @@
    ],
    "cur": {
     "s": "Smoothie",
-    "p": "Smoothien",
+    "p": "Smoothies",
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "snail",
@@ -741,7 +912,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "snake",
@@ -760,9 +936,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N6"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sneaker",
@@ -780,7 +958,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sneakers",
@@ -798,9 +981,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N2"
-   ]
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   }
   },
   {
    "key": "snorkel",
@@ -817,7 +1002,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "snorkeling-mask",
@@ -831,10 +1021,15 @@
    "cur": {
     "s": "Snorkelmasker",
     "p": "Snorkelmaskers",
-    "g": "d"
+    "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "snow-boots",
@@ -852,9 +1047,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N2"
-   ]
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   }
   },
   {
    "key": "snow-globe",
@@ -871,7 +1068,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "snow-shovel",
@@ -887,7 +1089,12 @@
    },
    "type": "noun",
    "countable": true,
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "snowboarding",
@@ -901,10 +1108,15 @@
    "cur": {
     "s": "Snowboarden",
     "p": "Snowboarden",
-    "g": "d"
+    "g": null
    },
    "type": "verb-gerund",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "activity",
+    "hasGender": false,
+    "hasPlural": false
+   }
   },
   {
    "key": "snowdrop",
@@ -921,7 +1133,12 @@
     "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "snowflake",
@@ -940,7 +1157,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "snowman",
@@ -958,7 +1180,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "snowsuit",
@@ -975,7 +1202,12 @@
     "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "soccer",
@@ -990,13 +1222,17 @@
    "cur": {
     "s": "Voetbal",
     "p": "Voetbal",
-    "g": "d"
+    "g": "h"
    },
    "type": "verb-gerund",
    "countable": false,
-   "nets": [
-    "N6"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "ART_DEFECT": true,
+   "art_note": "The PICTURE disagrees with the key. OPERATOR RULING: the FILENAME is the reference — the word follows the KEY; the art is the bug. Seen: activities/soccer@2x.webp — ONE football/soccer BALL: classic cream-and-dark truncated-ico"
   },
   {
    "key": "soccer-ball",
@@ -1014,9 +1250,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N6"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sock",
@@ -1034,7 +1272,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "soda",
@@ -1052,7 +1295,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sofa",
@@ -1072,7 +1320,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "soup",
@@ -1089,7 +1342,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "spade",
@@ -1107,7 +1365,12 @@
     "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sparrow",
@@ -1124,7 +1387,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "spatula",
@@ -1142,7 +1410,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "speaker",
@@ -1160,7 +1433,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sphere",
@@ -1177,7 +1455,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "spider",
@@ -1196,7 +1479,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "spinach",
@@ -1209,14 +1497,16 @@
    ],
    "cur": {
     "s": "Spinazie",
-    "p": "Spinazien",
+    "p": "Spinazie",
     "g": "d"
    },
    "type": "noun",
    "countable": false,
-   "nets": [
-    "N1"
-   ]
+   "classification": {
+    "category": "mass",
+    "hasGender": true,
+    "hasPlural": false
+   }
   },
   {
    "key": "spinning-top",
@@ -1233,7 +1523,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "spirit-level",
@@ -1250,7 +1545,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sponge",
@@ -1267,7 +1567,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "spoon",
@@ -1288,7 +1593,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "spray",
@@ -1301,11 +1611,16 @@
    ],
    "cur": {
     "s": "Spray",
-    "p": "Spray's",
+    "p": "Sprays",
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "spruce-tree",
@@ -1323,9 +1638,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N6"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "square",
@@ -1342,7 +1659,12 @@
     "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "squash",
@@ -1360,9 +1682,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N5"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "squid",
@@ -1380,7 +1704,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "squirrel",
@@ -1399,7 +1728,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stage",
@@ -1417,7 +1751,12 @@
     "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stairs",
@@ -1434,7 +1773,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stamp",
@@ -1452,7 +1796,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stand",
@@ -1464,14 +1813,16 @@
    "cur": {
     "s": "Staan",
     "p": "Staan",
-    "g": "d"
+    "g": "h"
    },
    "type": null,
    "countable": null,
-   "nets": [
-    "N7"
-   ],
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stapler",
@@ -1484,11 +1835,16 @@
    ],
    "cur": {
     "s": "Nietmachine",
-    "p": "Nietmachinen",
+    "p": "Nietmachines",
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "star",
@@ -1507,7 +1863,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "starfish",
@@ -1527,7 +1888,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "statue",
@@ -1544,7 +1910,12 @@
     "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stegosaurus",
@@ -1561,7 +1932,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stethoscope",
@@ -1578,7 +1954,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stingray",
@@ -1595,7 +1976,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stocking",
@@ -1613,9 +1999,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N6"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stool",
@@ -1632,7 +2020,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stopwatch",
@@ -1649,7 +2042,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stork",
@@ -1662,11 +2060,16 @@
    ],
    "cur": {
     "s": "Ooievaar",
-    "p": "Ooievaren",
+    "p": "Ooievaars",
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stormy",
@@ -1680,10 +2083,15 @@
    "cur": {
     "s": "Stormachtig",
     "p": "Stormachtig",
-    "g": "d"
+    "g": null
    },
    "type": "adjective",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
   },
   {
    "key": "stove",
@@ -1700,7 +2108,12 @@
     "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "strawberry",
@@ -1716,11 +2129,16 @@
    ],
    "cur": {
     "s": "Aardbei",
-    "p": "Aardbei's",
+    "p": "Aardbeien",
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stretcher",
@@ -1733,11 +2151,16 @@
    ],
    "cur": {
     "s": "Brancard",
-    "p": "Brancarden",
+    "p": "Brancards",
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "student",
@@ -1754,7 +2177,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "styracosaurus",
@@ -1771,7 +2199,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "submarine",
@@ -1784,11 +2217,16 @@
    ],
    "cur": {
     "s": "Onderzeeër",
-    "p": "Onderzeeëren",
+    "p": "Onderzeeërs",
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "subway",
@@ -1805,7 +2243,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "suitcase",
@@ -1824,7 +2267,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sun",
@@ -1845,7 +2293,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sun-hat",
@@ -1864,7 +2317,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sundae",
@@ -1877,11 +2335,16 @@
    ],
    "cur": {
     "s": "IJscoupe",
-    "p": "IJscoupen",
+    "p": "IJscoupes",
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sunflower",
@@ -1898,7 +2361,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sunglasses",
@@ -1921,7 +2389,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sunny",
@@ -1935,10 +2408,15 @@
    "cur": {
     "s": "Zonnig",
     "p": "Zonnig",
-    "g": "d"
+    "g": null
    },
    "type": "adjective",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
   },
   {
    "key": "sunrise",
@@ -1955,7 +2433,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sunscreen",
@@ -1968,11 +2451,16 @@
    ],
    "cur": {
     "s": "Zonnebrandcrème",
-    "p": "Zonnebrandcrèmen",
+    "p": "Zonnebrandcrèmes",
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "surfboard",
@@ -1990,7 +2478,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "surprised",
@@ -2004,10 +2497,15 @@
    "cur": {
     "s": "Verrast",
     "p": "Verrast",
-    "g": "d"
+    "g": null
    },
    "type": "adjective",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
   }
  ]
 }

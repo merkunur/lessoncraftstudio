@@ -1,171 +1,152 @@
-# Opdracht: moedertaalcontrole van de Nederlandse beeldwoordenschat
+# Opdracht: moedertaalcontrole van de Nederlandse beeldwoordenschat (v2 — beeld + woordenboek)
 
-> **Dit is de bindende tekst.** Elke batch wordt tegen exact deze formulering beoordeeld, zodat de
-> oordelen van alle batches vergelijkbaar zijn. Niet naar eigen inzicht herinterpreteren.
+> This is the BINDING text: every batch is
+> judged against exactly this wording, so all batches stay comparable. **The brief lives on disk and
+> is quoted verbatim — never paraphrased into an agent prompt.** That rule has been violated and
+> punished repeatedly in this project.
 >
-> **Als deze brief en Van Dale elkaar tegenspreken, geldt Van Dale.** Spreek de brief dan
-> uitdrukkelijk tegen en schrijf het in `reason`. Dat is gewenst, niet riskant: in de Duitse ronde
-> stond er een feitelijke fout in de brief van de opdrachtgever (`Kugel→Kugeln` werd een "defect"
-> genoemd terwijl het volgens Duden correct is). **Vijf beoordelaars spraken hem tegen — zij hadden
-> gelijk, de brief had ongelijk.** Nul foutieve correcties bereikten de data. Doe hetzelfde.
+> **If this brief and the dictionary contradict each other, THE DICTIONARY WINS.** Contradict the
+> brief explicitly in `reason`. This is wanted, not risky — this brief's author has now been caught
+> wrong **four separate times** by reviewers who did exactly that:
+> `Kugel→Kugeln` (de, five reviewers), the `paraply` stress rule (sv), `chess`'s plural (de/Duden),
+> and `football` (I opened ONE image and said "it's a ball"; a reviewer opened BOTH and found the
+> other is a helmet). **Every time, the reviewer was right.**
 
-Je bent moedertaalspreker en linguïst Nederlands (Standaardnederlands, Nederland), met nadruk op de
-woordenschat van kleuters en groep 3-5. Autoriteit voor elke beslissing: **Van Dale** (aanvullend:
-de Woordenlijst Nederlandse Taal / het Groene Boekje). Denk in het Nederlands, schrijf `reason`
-beknopt in het Engels.
+## Why this commission exists
 
-## Waarom deze opdracht bestaat
+`REFERENCE TRANSLATIONS/image-vocabulary.js` feeds an educational site for children aged 3–7. The
+words are **projected on the board AND read aloud** (text-to-speech) beside a picture.
 
-`REFERENCE TRANSLATIONS/image-vocabulary.js` levert de woorden voor een educatieve website voor
-kinderen van 3–7 jaar. De woorden worden **op het digibord geprojecteerd ÉN hardop voorgelezen**
-(tekst-naar-spraak), samen met een plaatje.
+**No human ever wrote these plurals or genders.** A script invented all 13,893 of them from the
+singular. It produced words that do not exist and were read to children: `Gardinerar`, `Musklerar`,
+`Lägerar`, `Jordekorrrar`, `Blackfisk`, `Diskbank`. The operator: *"This is an educational website.
+It is absolutely not acceptable."* He is right.
 
-**Geen mens heeft deze meervouden of geslachten ooit geschreven.** Een script heeft ze machinaal uit
-het enkelvoud afgeleid. Hieronder staat de **letterlijke** code die jouw data heeft voortgebracht —
-niet mijn samenvatting ervan, zodat je zelf ziet wat er is misgegaan:
+## 🔴 RULE 1 — OPEN THE PICTURE. Every key. No exceptions.
 
-```js
-function genderNl(word) {
-  if (!word) return 'd';
-  const lower = word.toLowerCase();
-  // Het-words: diminutives, -isme, -ment, -um, -sel, ge- prefix nouns
-  if (lower.endsWith('je') || lower.endsWith('tje') || lower.endsWith('pje') ||
-      lower.endsWith('isme') || lower.endsWith('ment') || lower.endsWith('um') ||
-      lower.endsWith('sel') || lower.endsWith('schap')) {
-    return 'h';
-  }
-  if (lower.startsWith('ge') && lower.length > 4 &&
-      !lower.startsWith('geel') && !lower.startsWith('geen') && !lower.startsWith('geer')) {
-    return 'h';
-  }
-  return 'd';          // ← ALLES ANDERS WORDT 'de'. Dit is de bug.
-}
+**The Read tool renders `.webp` directly.**
+`C:\Users\rkgen\lessoncraftstudio\image-library-webp\themes\<theme>\<file>@2x.webp`
+(`<file>` = the key with `-`→`_`; ⚠ real traps: `high-heeled_shoes`, `flip_flops`, and `shoes`
+resolves only via `shoes_2` — a blanket `key.replace('-','_')` will miss them. Try another theme
+from the row's list before concluding the art is missing.)
+
+**Why: for weeks NOBODY IN THIS PROJECT EVER LOOKED AT A PICTURE.** Twelve native reviewers, three
+locale waves and the author all judged from a folder name and an English gloss. When someone finally
+opened them, **38 of 193 keys (20%) had a word that does not name the picture**:
+`singing` = a MICROPHONE · `butter` = drawn as CHEESE (a block WITH HOLES) · `chess` = a chess PIECE
+· `dice` = ONE die · `cymbals` = a whole DRUM KIT · `honey` = a JAR · `hockey` = a PLAYER.
+
+**That is why this arc kept failing: everyone was arguing about the plural of the WRONG WORD.**
+
+Record what you saw in `image_seen`. A row without it is treated as unjudged and sent back.
+
+## 🔴 RULE 2 — LOOK IT UP. "I cannot verify from memory" is NOT an answer.
+
+The operator: *"even by just googling I can easily get the right plural form of any word but you
+fail again and again."* He is right. The old brief said "uncertain → HOLD", and reviewers wrote
+*"I cannot verify SAOL from memory"* **100+ times on Swedish alone**. Honest, and useless.
+
+**Most authorities cannot be fetched with a plain request** — svenska.se (SAOL) is a JavaScript
+shell; ordnet.dk is bot-walled; **Van Dale's free dictionary is DISCONTINUED**. So use the tool that
+renders them in a real browser:
+
 ```
+node scripts/vocab-audit/dict-fetch.js --locale=nl --word=<word>
+node scripts/vocab-audit/dict-fetch.js --locale=nl --word=<word> --crosscheck
+```
+Authority: **het Groene Boekje (woordenlijst.org) — the tool renders it; Van Dale free is DEAD, do NOT cite it. nl.wiktionary second for the meervoud table**. Cite the URL you actually consulted. **Never invent a citation** — a
+fabricated `src` is a tell: the de round escalated `hot` for exactly that (a guessed value with an
+empty source), and `deinonychus` cited "SAOL" for a word SAOL does not contain.
 
-**Het gevolg, gemeten:** de data telt **1083 `d` tegen 180 `h` = 85,7% de-woorden**, terwijl het
-werkelijke aandeel rond **~67%** ligt. Dat impliceert **ongeveer 237 verkeerd gecodeerde
-het-woorden**. Een eerdere ronde heeft er 66 hersteld, maar via een **op achtervoegsels begrensde**
-zoekactie (`-tuig/-pak/-mes/-bed/-hoofd/-fruit/-eau`). Zo'n zoekactie vindt per definitie alleen wat
-op haar eigen lijst staat. **Jouw woord-voor-woord-lezing is nergens door begrensd. Dát is de reden
-dat deze opdracht bestaat.**
+Uncertainty is a reason to **search**, not to hold. Only a genuine *content* question (which of two
+things is pictured?) may be HOLD.
 
-Het meervoudsdeel van hetzelfde script (`pluralizeNlSingle`) is aantoonbaar de herkomst van o.a.:
-de regel `-lf → -lven` maakte van *kalf* → **"Kalven"** (Nederlands is onregelmatig: *kalveren*);
-de medeklinkerverdubbeling maakte **"Hangslotten"**, **"Driebladden"**, **"Padden"**, **"Zouten"**,
-**"Onweren"**; en omdat alleen het láátste woord van een woordgroep vervoegd wordt, ontstond
-**"Medisch dossieren"** (correct: *medische dossiers*).
+## 🔴 RULE 3 — the classification is already decided. Do not re-litigate it.
 
-**Neem niets als juist aan. Beoordeel elk woord afzonderlijk.**
+`classification.json` says, per key, what the PICTURE is — decided once and applied to all 11
+locales, because *"all of the languages reflect the same images"* (the operator). Your row carries
+`category` / `hasGender` / `hasPlural`. **You verify the WORD, not the category.**
 
-De opdrachtgever zegt: "This is an educational website. It is absolutely not acceptable." Hij heeft
-gelijk. Een kind mag geen fout woord horen.
+| category | gender | plural |
+|---|---|---|
+| countable-thing | yes | yes |
+| plural-picture (the image shows SEVERAL) | yes | **no** — the label IS the plural |
+| mass / abstract / proper-noun | yes | **no** |
+| adjective / activity | **no** | **no** |
 
-## De batchbestanden
+Mass, abstract and proper nouns **are nouns**: *die* Venus keeps its gender and simply has no plural.
+Only **qualities and activities** lose it.
 
-Map: `C:\Users\rkgen\lessoncraftstudio\docs\audit-results\vocab-audit\batches\`
+**If the picture contradicts the category, say so** — that is a finding, and it outranks the file.
 
-Per regel in `rows[]`:
+## 🔴 RULE 4 — BLOCKED keys: touch nothing.
 
-| Veld | Betekenis |
-|---|---|
-| `key` | interne sleutel (Engels) |
-| `themes` | **de beeldthema's. DOORSLAGGEVEND: ze vertellen je WAT HET PLAATJE TOONT.** `orange` met `[colors,fruits]` is dubbelzinnig; `salt` met `[at_the_supermarket]` is keukenzout (stofnaam), niet de scheikundige *zouten*. |
-| `en` | `[enkelvoud, meervoud]` Engels = de glosse, wat er is afgebeeld |
-| `cur` | **de huidige Nederlandse data** `{s: enkelvoud, p: meervoud, g: geslacht}` ← dít beoordeel je |
-| `type` / `countable` | metadata uit een ruwbestand. **ALLEEN AANWIJZING, GEEN OORDEEL.** Aantoonbaar feilbaar: `bread` staat er als `countable:false`, terwijl *het brood → de broden* volkomen correct is. |
-| `nets` | machinale verdenkingsvlaggen: N1 meervoud ondanks ontelbaarheid · N2 geen meervoud ondanks telbaarheid · N3 kop-inconsistentie · N5 enkelvoud en meervoud zijn verschillende lemma's · N6 botsing met een andere sleutel · N7 wees. **Een vlag is een verdenking, geen oordeel — en géén vlag is GEEN vrijbrief.** |
-| `noImage: true` | er bestaat geen plaatje bij deze sleutel (dode data). Toch beoordelen, maar laagste prioriteit. |
+Rows marked `blocked: true` are LEMMA MISMATCHES — the word does not name the picture. Their
+`hasPlural` describes the **pictured object** (Mikrofon→Mikrofone), NOT the label. Pluralising
+"Singen" → "Singens" manufactures exactly the garbage this commission deletes. **Skip them.** The
+operator rules first: fix the WORD, or fix the ART.
 
-## Dataformaat
+## Your job — per key, per field
 
-`p` is het **kale meervoud met hoofdletter**, zonder lidwoord: `["Kat","Katten","d"]`.
-**Geslacht: `d` = de-woord (commuun) · `h` = het-woord (onzijdig).**
+1. **`singular`** — is it the right Dutch (Standaardnederlands, Nederland) word for what the picture shows? Is it really a
+   SINGULAR? (Known defect: a plural, or a DEFINITE form, sitting in the singular field —
+   sv `santa` held *"Jultomten"*, onto which the script appended `-ar`.)
+2. **`plural`** — correct per het Groene Boekje (woordenlijst.org) — the tool renders it; Van Dale free is DEAD, do NOT cite it. nl.wiktionary second for the meervoud table? Dutch **-en vs -s**: *appels* not *appelen*, but *tafels*/*meisjes* take -s. **Vowel-lengthening** (open-syllable): *huis→huizen*, *pot→potten* (consonant doubling keeps it short). **Devoicing reversal**: *brief→brieven*, *huis→huizen* (f→v, s→z). **Irregular -eren**: *kalf→kalveren*, *ei→eieren*, *kind→kinderen*, *blad→bladeren*. **Adjective agreement in a noun phrase**: *medisch dossier → medische dossiers* (the builder inflected only the last token → "Medisch dossieren"). The builder's known live inventions: *Kalven, Hangslotten, Driebladden, Padden, Zouten, Onweren*. ⚠ **EN loans have NO class rule** — six Swedish natives + a German round proved it; **fetch each one**. ⚠ `_countable:false` is fallible: *brood → broden* is correct.
+3. **`gender`** — correct? **`d` = de-woord (commuun) · `h` = het-woord (onzijdig).** ⚠ Dutch codes ONLY — never from another locale: `rectangle` is *das Rechteck* (de `n`=onzijdig) but **de** rechthoek (nl `d`=commuun). Verkleinwoorden (-je/-tje/-pje) are **ALWAYS het**. **THE POPULATION SIGNAL IS A LIE — do NOT chase it:** the nets predicted ~237 miscoded nl genders; the prior arc fixed 66, and the two v2 locales so far confirmed 2 and 3 against ~146 each. Check each word; NEVER redistribute to hit a percentage. A prior nl arc (`c7de1a40`+`5310b329`) already did a Van Dale-confirmed gender pass — do not blindly reverse it; a conflict is a FINDING to flag.
+   ⚠ **Gender codes are per-locale and NEVER cross-applied** (§A.13.58): `lås` is common in da/no but
+   **neuter** in sv. sv/da `n` = **EN-ord (COMMON)**, NOT neuter — misreading it inverts your batch.
 
-> ⚠ **`d`/`h` zijn Nederlandse codes en gelden ALLEEN voor het Nederlands.** Andere talen in dit
-> bestand gebruiken andere stelsels (`m/f/n`, `n/t`) en die betekenen iets ánders. Bewijs dat je een
-> code nooit mag overnemen: `rectangle` is *das Rechteck* (Duits `n` = onzijdig) maar **de rechthoek**
-> (Nederlands `d` = commuun). Zelfde vorm, ander geslachtsstelsel. Beoordeel uitsluitend tegen het
-> Nederlands.
+## ⚠ The inverse traps — correct data a naive rule DESTROYS
 
-**Conventie: heeft een woord geen meervoud, dan is `p` gelijk aan `s`.** (Zo codeert het bestand
-"geen meervoud".)
+Each of these was nearly wrecked by a plausible rule. Do not repeat it:
 
-## Voor ELKE sleutel drie velden beoordelen
+- **English zero-plurals are COUNTABLE.** `Angelfish/Angelfish`, `Sheep`, `Deer`, `Fish` — English
+  merely does not inflect them. **de *Kaiserfisch→Kaiserfische* is CORRECT.** A "no plural" ruling
+  here destroys real plurals in ten languages.
+- **English pluralia tantum over ONE object.** `pants`, `scissors`, `stairs`, `sunglasses` are a
+  single object — **de *Hose→Hosen*, *Schere→Scheren*, *Treppe→Treppen* are CORRECT.** The real cut
+  is one-object vs a genuine two-object PAIR (`sandals`, `slippers` ARE pairs).
+- **A "sister key" may be a different thing.** `glasses` (spectacles, *Brille→Brillen*) is NOT the
+  plural of `glass` (a drinking vessel). Reading a sister field mechanically kills a correct plural.
+- **`_countable:false` is fallible** — wrong on `bread`, `asparagus`, `cheese`, `broccoli`, `celery`
+  (all have real plurals); right on `Knoblauch` (kein Plural).
+- **A class rule is a tool, not an automaton.** A de reviewer rightly refused `-saurus→-saurier` for
+  `carnotaurus` (Latin *taurus*); an sv reviewer rightly kept `Stegosaurusar` (Latin `-us` loans take
+  `-ar`) and refused *\*smörgäss*. That discrimination IS the quality bar.
+- **A premise can be false even when the conclusion is right:** three sv rows argued *"an utrum noun
+  cannot have a zero plural"* — false (*en musiker → flera musiker*). Never reuse it.
 
-1. **`singular`** — is `cur.s` het juiste Nederlandse woord voor wat het plaatje toont (`themes` +
-   `en`)? En is het echt een **enkelvoud**? (Bekend defect: er staat een meervoud in het
-   enkelvoudsveld.)
-2. **`plural`** — is `cur.p` het correcte meervoud volgens Van Dale? Let op de klassieke valkuilen:
-   **-en vs -s** (*appels* niet *appelen*), **klinkerverkorting** (*huis → huizen*),
-   **verstemlozing** (*brief → brieven*), **medeklinkerverdubbeling** (*pot → potten*),
-   **onregelmatig -eren** (*kalf → kalveren*, *ei → eieren*, *kind → kinderen*),
-   en woordgroepen waar het **bijvoeglijk naamwoord mee moet buigen** (*medisch dossier → medische
-   dossiers*).
-3. **`gender`** — is `cur.g` juist? Verkleinwoorden (-je/-tje/-pje) zijn **altijd het**. Voor de rest:
-   zie de bug hierboven — de kans dat een `d` onterecht is, is aanzienlijk. **Maar controleer, ga niet
-   herverdelen om een percentage te halen.**
+## Verdicts (per field)
 
-### Oordelen (per veld)
+- **`OK`** — correct. **Say OK when it is right**, flag or no flag.
+- **`FIX`** — wrong; a pure form correction of the SAME word → give `correct`.
+- **`NO_PLURAL`** — no (child-level) plural: mass, abstract, proper names.
+  ⚠ **Not the same as a zero plural.** *ett hus → flera hus* HAS a plural that merely looks
+  identical → that is `OK`, not `NO_PLURAL`.
+- **`PLURALIA_TANTUM`** — plural only. May sit on `singular`: "this word has no singular".
+- **`HOLD`** — the correction does MORE than fix a form (another lemma, a picture question, an
+  internal contradiction). **Never rewrite blind.**
 
-- **`OK`** — correct. **Zeg OK als het klopt.** Ook mét een vlag.
-- **`FIX`** — fout, en de correctie is een zuivere vormcorrectie van **hetzelfde** woord → geef `correct`.
-- **`NO_PLURAL`** — het woord heeft geen (kindgericht) meervoud: stofnamen (*water*, *melk*, *zout*),
-  abstracta, eigennamen (*Jupiter*), bijvoeglijke naamwoorden/kleuren (*Rood*), zelfstandig gebruikte
-  werkwoorden (*het zwemmen*). → `p` wordt gelijk aan `s`.
-- **`PLURALIA_TANTUM`** — alleen meervoud (*de hersenen*, *de notulen*). Mag ook op `singular` staan:
-  dat betekent "dit woord heeft geen enkelvoud, het meervoud in dat veld is correct".
-- **`HOLD`** — **de correctie doet MEER dan de vorm veranderen**: een ander lemma, een innerlijk
-  tegenstrijdige regel, of een inhoudelijke vraag over het plaatje. → `HOLD` met heldere reden.
-  **Nooit blind herschrijven.**
+## Output
 
-## Kalibratie — beide soorten fouten zijn duur
-
-- **Vals negatief:** *"Kalven"* laten staan. Van Dale: *het kalf → de kalveren*. Dat is FIX.
-- **Vals positief:** *"broden"* melden als stofnaamfout. *Het brood → de broden* is CORRECT → OK.
-
-**Oordeel woord voor woord, niet op patroon.** Een Duitse beoordelaar weigerde terecht de regel
-`-saurus → -saurier` toe te passen op `carnotaurus` (Latijn *taurus* = stier). Werk net zo
-onderscheidend: een klasse is een hulpmiddel, geen automaat.
-
-## Homoniemen — het geslacht ís hier de betekenis
-
-De Duitse ronde vond `pine-tree` = `["Kiefer","Kiefer","m"]`: *die Kiefer* is de den, *der Kiefer* is
-het **kaakbeen** — de data bevatte het kaakbeen. Het Nederlands heeft dezelfde valstrik. Controleer bij
-elk dubbelzinnig woord welke betekenis het **plaatje** toont:
-*het bot* (been) vs *de bot* (vis) · *het vest* (kledingstuk) vs *de vest* (gracht) ·
-*het pad* (weggetje) vs *de pad* (dier) · *het blad* vs *de blad*- samenstellingen.
-Ken je het onderscheid, meld het dan in `reason` ook als je `OK` geeft.
-
-## Uitvoer
-
-Schrijf **één** bestand naar
-`C:\Users\rkgen\lessoncraftstudio\docs\audit-results\vocab-audit\verdicts\nl-<NN>.json`
-(map eventueel aanmaken), met **één regel per sleutel — ALLE sleutels van de batch, geen enkele mag
-ontbreken**:
+One file → `docs\audit-results\vocab-audit\verdicts\nl-<NN>.json`, **one row per key, ALL keys**:
 
 ```json
 { "locale":"nl", "batch":"<NN>", "reviewed": <N>,
   "rows": [
-    { "key":"calf",
+    { "key":"curtains",
+      "image_seen":"around_the_house/curtains@2x.webp — two drawn curtains framing a window",
       "singular":{"verdict":"OK"},
-      "plural":{"verdict":"FIX","correct":"Kalveren","reason":"Van Dale: het kalf -> de kalveren (irregular -eren); 'Kalven' comes from a -lf->-lven rule that does not apply","source":"Van Dale"},
-      "gender":{"verdict":"OK"} },
-    { "key":"medical-chart",
-      "singular":{"verdict":"OK"},
-      "plural":{"verdict":"FIX","correct":"Medische dossiers","reason":"adjective must agree in the plural; the script inflected only the last token","source":"Van Dale"},
+      "plural":{"verdict":"OK","reason":"plural-picture: the label IS the plural; nothing further","source":"https://woordenlijst.org/zoeken/?q=…"},
       "gender":{"verdict":"OK"} }
   ] }
 ```
+`correct` only on `FIX`. `reason` on everything but `OK`. `source` = the URL you fetched.
+`image_seen` on every row that has art.
 
-`correct` **alleen** bij `FIX`. `reason` bij alles behalve `OK`. `source` waar niet triviaal.
+## Rules
 
-## Regels
-
-- **Alle sleutels van de batch beoordelen** — geen selectie, geen steekproef.
-- Bij dubbelzinnigheid beslissen `themes` + `en` welke betekenis bedoeld is.
-- **Verzin geen Van Dale-citaten.** Onzeker → `HOLD` met reden. Onzekerheid is een legitiem,
-  waardevol resultaat. **Gok nooit.**
-- Wijzig **GEEN** ander bestand. Alleen het ene oordeelbestand.
-- Antwoord aan het eind ALLEEN met: aantal gecontroleerd, de telling per oordeel per veld
-  (bv. `plural: 78 OK / 21 FIX / 9 NO_PLURAL / 2 HOLD`), plus de 5 ernstigste bevindingen in
-  elk één regel.
+- **Every key in the batch** — no sampling.
+- **Never guess.** Search first. Uncertainty is legitimate and valuable; a fabricated citation is not.
+- Change **NO** other file.
+- End with ONLY: count reviewed, per-field per-verdict counts, and the 5 most serious findings.

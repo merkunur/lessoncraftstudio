@@ -24,7 +24,12 @@
     "g": "d"
    },
    "type": "proper-noun",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "proper-noun",
+    "hasGender": true,
+    "hasPlural": false
+   }
   },
   {
    "key": "vest",
@@ -44,9 +49,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N6"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "veterinarian",
@@ -63,7 +70,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "video-game",
@@ -80,7 +92,12 @@
     "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "violet",
@@ -95,10 +112,15 @@
    "cur": {
     "s": "Violet",
     "p": "Violetten",
-    "g": "d"
+    "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "violin",
@@ -117,9 +139,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N5"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "volleyball",
@@ -136,7 +160,14 @@
     "g": "d"
    },
    "type": "verb-gerund",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "ART_DEFECT": true,
+   "art_note": "The PICTURE disagrees with the key. OPERATOR RULING: the FILENAME is the reference — the word follows the KEY; the art is the bug. Seen: sports bw/volleyball@2x.webp — ONE line-art volleyBALL with the classic curved panel seams"
   },
   {
    "key": "vulture",
@@ -155,7 +186,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "waffle",
@@ -174,7 +210,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "waitress",
@@ -191,7 +232,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "walk",
@@ -203,14 +249,16 @@
    "cur": {
     "s": "Lopen",
     "p": "Lopen",
-    "g": "d"
+    "g": "h"
    },
    "type": null,
    "countable": null,
-   "nets": [
-    "N7"
-   ],
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "wallet",
@@ -223,14 +271,16 @@
    ],
    "cur": {
     "s": "Portemonnee",
-    "p": "Portemonneen",
+    "p": "Portemonnees",
     "g": "d"
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N6"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "walnut-tree",
@@ -247,7 +297,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "walrus",
@@ -266,7 +321,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "wand",
@@ -279,11 +339,16 @@
    ],
    "cur": {
     "s": "Toverstaf",
-    "p": "Toverstaffen",
+    "p": "Toverstaven",
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "wardrobe",
@@ -302,7 +367,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "washing-machine",
@@ -317,11 +387,16 @@
    ],
    "cur": {
     "s": "Wasmachine",
-    "p": "Wasmachinen",
+    "p": "Wasmachines",
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "wasp",
@@ -339,7 +414,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "watch",
@@ -352,11 +432,16 @@
    ],
    "cur": {
     "s": "Horloge",
-    "p": "Horlogen",
-    "g": "d"
+    "p": "Horloges",
+    "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "water",
@@ -375,7 +460,12 @@
     "g": "h"
    },
    "type": "noun",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "mass",
+    "hasGender": true,
+    "hasPlural": false
+   }
   },
   {
    "key": "water-bottle",
@@ -392,7 +482,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "water-lily",
@@ -405,11 +500,16 @@
    ],
    "cur": {
     "s": "Waterlelie",
-    "p": "Waterlelien",
+    "p": "Waterlelies",
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "watering-can",
@@ -429,7 +529,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "watermelon",
@@ -449,7 +554,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "wave",
@@ -467,10 +577,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N5",
-    "N6"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "weasel",
@@ -487,7 +598,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "whale",
@@ -507,7 +623,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "wheelbarrow",
@@ -525,7 +646,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "wheelchair",
@@ -542,7 +668,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "whisk",
@@ -556,11 +687,16 @@
    ],
    "cur": {
     "s": "Garde",
-    "p": "Garden",
+    "p": "Gardes",
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "whistle",
@@ -579,7 +715,12 @@
     "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "white",
@@ -593,10 +734,15 @@
    "cur": {
     "s": "Wit",
     "p": "Wit",
-    "g": "d"
+    "g": null
    },
    "type": "adjective",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
   },
   {
    "key": "whiteboard",
@@ -613,7 +759,12 @@
     "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "windmill",
@@ -630,7 +781,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "window",
@@ -649,9 +805,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N5"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "winter-hat",
@@ -667,10 +825,12 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N6"
-   ],
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "winter-jacket",
@@ -687,7 +847,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "wisteria",
@@ -704,7 +869,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "wolf",
@@ -725,9 +895,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N5"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "woodpecker",
@@ -747,7 +919,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "worm",
@@ -765,7 +942,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "wreath",
@@ -782,7 +964,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "wrench",
@@ -799,7 +986,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "wrist",
@@ -816,7 +1008,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "writing",
@@ -830,10 +1027,15 @@
    "cur": {
     "s": "Schrijven",
     "p": "Schrijven",
-    "g": "d"
+    "g": null
    },
    "type": "verb-gerund",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "activity",
+    "hasGender": false,
+    "hasPlural": false
+   }
   },
   {
    "key": "x-ray",
@@ -850,7 +1052,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "xylophone",
@@ -868,7 +1075,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "yacht",
@@ -883,10 +1095,15 @@
    "cur": {
     "s": "Jacht",
     "p": "Jachten",
-    "g": "d"
+    "g": "h"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "yak",
@@ -905,7 +1122,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "yellow",
@@ -919,10 +1141,15 @@
    "cur": {
     "s": "Geel",
     "p": "Geel",
-    "g": "d"
+    "g": null
    },
    "type": "adjective",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
   },
   {
    "key": "yogurt",
@@ -938,7 +1165,12 @@
    },
    "type": "noun",
    "countable": false,
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "mass",
+    "hasGender": true,
+    "hasPlural": false
+   }
   },
   {
    "key": "zebra",
@@ -957,7 +1189,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "zinnia",
@@ -974,7 +1211,12 @@
     "g": "d"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   }
  ]
 }

@@ -1,9 +1,50 @@
 /**
  * Build image-vocabulary.js from raw database data
  * =================================================
- * v2: Dramatically improved pluralization heuristics for all 11 languages
  *
- * Improvements over v1:
+ * ███ RETIRED 2026-07-17 — DO NOT RUN. THIS SCRIPT DESTROYS DATA. ███
+ *
+ * `REFERENCE TRANSLATIONS/image-vocabulary.js` started life as this
+ * script's output. It is no longer: since 2026-03-01 it has been
+ * HAND-MAINTAINED by native-speaker correction waves, and CLAUDE.md
+ * (§6, §10.3) calls it canonical. This script is now a loaded gun
+ * pointed at that work. Running it would:
+ *
+ *   1. DELETE 17 keys. raw has 1,246; the built file has 1,263. The
+ *      17 hand-added keys (mother, father, family, sister, brother,
+ *      grandmother, grandfather + 9 others) exist ONLY in the built
+ *      file. This script iterates Object.keys(raw) — they vanish.
+ *   2. REVERT ~378 gender corrections shipped by five hand commits
+ *      (c7de1a40 nl-66, 7aa69cde de-51, 51a0d957 no-121, + sv/da).
+ *      They were never back-ported into vocabulary-corrections.json,
+ *      which was abandoned 2026-03-01. Verified drift: bone/vest/trail
+ *      nl are 'h' in the shipped file; genderNl() returns 'd'.
+ *   3. RE-INTRODUCE a fixed bug: the emit template has no
+ *      `window.ImageVocab` block, so every `if (window.ImageVocab)`
+ *      check silently goes false again.
+ *
+ * ITS PLURAL HEURISTICS ARE THE DEFECT, NOT THE FIX. The 2026-07 native
+ * audit (11 locales, Duden/Van Dale/SAOL/RAE authority) found this
+ * script's own output to be wrong at scale — every locale's gender
+ * distribution is skewed toward this script's DEFAULT value:
+ *      de  Bauer  → "Bauer"          (the -er default hit a weak noun;
+ *                                     Duden: der Bauer → die Bauern)
+ *      de  Käse   → "Käsen"          (Duden: der Käse → die Käse)
+ *      de  Kaktus → "Kakten"         (not a German word at all)
+ *      de  Briefumschlag → "Briefumschlage"  (umlaut dropped)
+ *      nl  gender → unconditional 'd' fallback → 86% de-words vs ~67%
+ *
+ * THE CORRECT PATH for any vocabulary change:
+ *      scripts/vocab-audit/  — dossier → nets → native ensemble →
+ *      apply-corrections.js (surgical, one locale+field, round-trip
+ *      guarded) → verify-vocab-diff.js (proves the blast radius).
+ * See CLAUDE.md §A.13.58 and the plan file for the doctrine.
+ *
+ * If you genuinely mean to regenerate from scratch and accept losing the
+ * hand-authored corpus, you must pass --i-accept-destroying-native-corrections.
+ *
+ * (historical header)
+ * v2: Dramatically improved pluralization heuristics for all 11 languages
  * - Compound word pluralization (Romance: head noun; Germanic: last word)
  * - Non-noun detection (colors, emotions, activities, sports → no plural)
  * - English: 100+ irregulars, uncountable nouns, -fish words
@@ -12,12 +53,42 @@
  * - Dutch: Vowel shortening, s→z/f→v voicing, diphthong handling
  * - Finnish: Better -nen, compound word handling
  * - Romance: Compound noun plurals with preposition detection
- *
- * Run locally: node scripts/build-image-vocabulary.js
  */
 
 const fs = require('fs');
 const path = require('path');
+
+/* ███ THE GUARD — first executable statement, before any file is read ███ */
+if (!process.argv.includes('--i-accept-destroying-native-corrections')) {
+  console.error(`
+███ REFUSING TO RUN — this script is RETIRED and would destroy data. ███
+
+  image-vocabulary.js is no longer generated. It is hand-maintained
+  canonical data (CLAUDE.md §6, §10.3). Running this script would:
+
+    · DELETE 17 keys that exist only in the built file
+      (mother, father, family, sister, brother, grandmother, …)
+    · REVERT ~378 native gender corrections from 5 shipped commits
+      (c7de1a40, 7aa69cde, 51a0d957, + the sv/da waves)
+    · RE-INTRODUCE the fixed window.ImageVocab bug
+
+  Its plural heuristics are the DEFECT the 2026-07 native audit exists
+  to repair — they produced "Käsen", "Kakten", "Bauer"→"Bauer", and
+  "Briefumschlage". Regenerating would re-create every one of them.
+
+  To change vocabulary data, use the audited path instead:
+    node scripts/vocab-audit/build-dossier.js
+    node scripts/vocab-audit/nets.js
+    node scripts/vocab-audit/apply-corrections.js --locale=<l> --field=<f> --apply
+    node scripts/vocab-audit/verify-vocab-diff.js --locale=<l> --field=<f> --expect=<n>
+
+  If you truly intend to regenerate and lose the native corpus, re-run with
+    --i-accept-destroying-native-corrections
+`);
+  process.exit(1);
+}
+console.error('⚠  OVERRIDE ACCEPTED — regenerating from raw. The hand-authored native\n' +
+              '   corrections in image-vocabulary.js are about to be overwritten.\n');
 
 const raw = JSON.parse(fs.readFileSync(
   path.join(__dirname, 'v2-data', 'image-vocabulary-raw.json'), 'utf8'

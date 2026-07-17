@@ -1,0 +1,729 @@
+{
+ "locale": "de",
+ "corrections": {
+  "singular": {
+   "blocks": {
+    "to": "Bauklotz",
+    "from": "Bauklötze",
+    "why": "'Bauklötze' is the plural; the singular field must hold a singular: der Bauklotz -> die Bauklötze",
+    "src": "Duden: Bauklotz, der; -es, ...klötze"
+   },
+   "candy": {
+    "to": "Süßigkeit",
+    "from": "Süßigkeiten",
+    "why": "'Süßigkeiten' is the plural; the singular field must hold a singular: die Süßigkeit -> die Süßigkeiten. (If the picture shows a single wrapped sweet, 'das Bonbon' would be the more precise head — that would be a lemma change and is flagged here, not applied)",
+    "src": "Duden: Süßigkeit, die; -, -en"
+   },
+   "eyelashes": {
+    "to": "Wimper",
+    "from": "Wimpern",
+    "why": "Plural form stored in the singular field. Duden: die Wimper -> die Wimpern. Not pluralia tantum - the singular exists.",
+    "src": "Duden"
+   },
+   "flip-flops": {
+    "to": "Flip-Flop",
+    "from": "Flip-Flops",
+    "why": "Plural form stored in the singular field. Duden: der Flip-Flop -> die Flip-Flops (usually used in the plural, but the singular exists).",
+    "src": "Duden"
+   },
+   "grapes": {
+    "to": "Traube",
+    "from": "Trauben",
+    "why": "plural in the singular field (same defect class as blocks/candy). Pure form correction of the same lemma: die Traube → die Trauben. 'Eine Traube' also correctly names a whole bunch, which is what the image shows.",
+    "src": "Duden"
+   },
+   "green-beans": {
+    "to": "Grüne Bohne",
+    "from": "Grüne Bohnen",
+    "why": "plural in the singular field. Pure form correction of the same lemma: die grüne Bohne → die grünen/grüne Bohnen. Capitalised initial per this file's label convention.",
+    "src": "Duden"
+   },
+   "high-heeled-shoes": {
+    "to": "Stöckelschuh",
+    "from": "Stöckelschuhe",
+    "why": "plural in the singular field. Pure form correction of the same lemma: der Stöckelschuh → die Stöckelschuhe. Unlike 'gloves' there is no competing singular key here.",
+    "src": "Duden"
+   },
+   "jelly-beans": {
+    "to": "Geleebohne",
+    "from": "Geleebohnen",
+    "why": "a plural stands in the singular field (same defect class as 'blocks'/'candy'); the singular is die Geleebohne",
+    "src": ""
+   },
+   "potato-chips": {
+    "to": "Kartoffelchip",
+    "from": "Kartoffelchips",
+    "why": "plural in the singular field: 'Kartoffelchips' is the plural (Duden: Chip, der; -s, -s); the singular of the same lemma is 'der Kartoffelchip'. Same caveat as pasta — the supermarket image shows a mass, for which the plural is the natural spoken label",
+    "src": "Duden"
+   },
+   "sandals": {
+    "to": "Sandale",
+    "from": "Sandalen",
+    "why": "plural in the singular field (same defect class as 'blocks' = Bauklötze); the singular is die Sandale",
+    "src": "Duden"
+   },
+   "slippers": {
+    "to": "Hausschuh",
+    "from": "Hausschuhe",
+    "why": "plural form in the singular field; 'Hausschuhe' is not a pluralia tantum — der Hausschuh exists",
+    "src": "Duden: Hausschuh, der; -[e]s, -e"
+   }
+  },
+  "plural": {
+   "air-conditioning": {
+    "to": "Klimaanlagen",
+    "from": "Klimaanlage",
+    "why": "die Klimaanlage is a countable device, not a mass noun; the source metadata (countable:false) mirrors the English gerund 'air conditioning' and is wrong for German",
+    "src": "Duden: Klimaanlage, die; -, -n"
+   },
+   "allosaurus": {
+    "to": "Allosaurier",
+    "from": "Allosauren",
+    "why": "'Allosauren' is not a German form; German -saurus nouns take the -saurier plural",
+    "src": "Duden pattern: Tyrannosaurus, der; -, ...rier / Brontosaurus, der; -, ...rier"
+   },
+   "ankylosaurus": {
+    "to": "Ankylosaurier",
+    "from": "Ankylosauren",
+    "why": "'Ankylosauren' is not a German form; German -saurus nouns take the -saurier plural",
+    "src": "Duden pattern: Tyrannosaurus, der; -, ...rier"
+   },
+   "apatosaurus": {
+    "to": "Apatosaurier",
+    "from": "Apatosauren",
+    "why": "'Apatosauren' is not a German form; German -saurus nouns take the -saurier plural",
+    "src": "Duden pattern: Brontosaurus, der; -, ...rier"
+   },
+   "argentinosaurus": {
+    "to": "Argentinosaurier",
+    "from": "Argentinosauren",
+    "why": "'Argentinosauren' is not a German form; German -saurus nouns take the -saurier plural",
+    "src": "Duden pattern: Tyrannosaurus, der; -, ...rier"
+   },
+   "brachiosaurus": {
+    "to": "Brachiosaurier",
+    "from": "Brachiosauren",
+    "why": "-saurus forms its plural on -saurier; 'Brachiosauren' is not a form",
+    "src": "Duden: Brachiosaurus, der; -, ...saurier"
+   },
+   "brontosaurus": {
+    "to": "Brontosaurier",
+    "from": "Brontosauren",
+    "why": "-saurus forms its plural on -saurier; 'Brontosauren' is not a form",
+    "src": "Duden: Brontosaurus, der; -, ...saurier"
+   },
+   "cactus": {
+    "to": "Kakteen",
+    "from": "Kakten",
+    "why": "der Kaktus -> die Kakteen; 'Kakten' is not a German form",
+    "src": "Duden: Kaktus, der; - und -ses, Plural Kakteen (umgangssprachlich auch Kaktusse)"
+   },
+   "carpenter": {
+    "to": "Zimmerleute",
+    "from": "Zimmermänner",
+    "why": "Occupational compounds in -mann take the -leute plural: der Zimmermann -> die Zimmerleute (as Kaufmann -> Kaufleute). 'Zimmermänner' occurs colloquially but is not the Duden headword plural",
+    "src": "Duden: Zimmermann, der; -[e]s, Zimmerleute"
+   },
+   "celery": {
+    "to": "Sellerie",
+    "from": "Sellerien",
+    "why": "Mass/kind noun for a vegetables picture; 'Sellerien' is not a form a child needs and the plural is marginal at best. p should equal s ('Sellerie')",
+    "src": "",
+    "cls": "NO_PLURAL"
+   },
+   "cheese": {
+    "to": "Käse",
+    "from": "Käsen",
+    "why": "Duden: der Käse, Plural: die Käse (zero plural). 'Käsen' does not exist.",
+    "src": "Duden"
+   },
+   "chef": {
+    "to": "Küchenchefs",
+    "from": "Küchenchefe",
+    "why": "Duden: der Chef, Plural: die Chefs → Küchenchef, Plural: die Küchenchefs. 'Küchenchefe' is not a German form.",
+    "src": "Duden"
+   },
+   "cranberry": {
+    "to": "Cranberrys",
+    "from": "Cranberries",
+    "why": "Duden: die Cranberry, Plural: die Cranberrys. German forms the plural of English -y loanwords with -ys (Babys, Partys, Hobbys); 'Cranberries' is the English plural, not the German one.",
+    "src": "Duden"
+   },
+   "crocus": {
+    "to": "Krokusse",
+    "from": "Kroken",
+    "why": "Duden: der Krokus, Plural: die Krokusse. 'Kroken' is not a German form.",
+    "src": "Duden"
+   },
+   "diamond": {
+    "to": "Rauten",
+    "from": "Diamanten",
+    "why": "Singular is Raute (geometric rhombus, matches theme 'shapes'), but plural holds a different lemma (Diamanten = gemstones). Duden: die Raute -> die Rauten. Caveat: if the 'valentine' image shows a gemstone rather than a shape, the whole entry must move to Diamant/Diamanten (m).",
+    "src": "Duden"
+   },
+   "driftwood": {
+    "to": "Treibholz",
+    "from": "Treibholze",
+    "why": "Treibholz is a mass noun (das Treibholz, -es; no plural in Duden). 'Treibholze' is a machine-formed non-word.",
+    "src": "Duden",
+    "cls": "NO_PLURAL"
+   },
+   "envelope": {
+    "to": "Briefumschläge",
+    "from": "Briefumschlage",
+    "why": "Duden: der Briefumschlag -> die Briefumschläge. The stored 'Briefumschlage' lacks the umlaut and is a non-word.",
+    "src": "Duden"
+   },
+   "farmer": {
+    "to": "Bauern",
+    "from": "Bauer",
+    "why": "Duden: der Bauer -> die Bauern (weak declension). The naive '-er stays unchanged' default produced a non-word for a high-frequency farm word.",
+    "src": "Duden"
+   },
+   "giganotosaurus": {
+    "to": "Giganotosaurier",
+    "from": "Giganotosauren",
+    "why": "-saurus forms its plural in -saurier (Duden: 'Tyrannosaurus, der; -, ...rier'); 'Giganotosauren' is not a form. Word ends in -saurus (Greek sauros), not -taurus, so the rule applies.",
+    "src": "Duden"
+   },
+   "grasshopper": {
+    "to": "Heuschrecken",
+    "from": "Grashüpfer",
+    "why": "the plural field holds a different lemma ('Grashüpfer', m., null plural) than the singular ('Heuschrecke', f.). No lemma decision needed — Heuschrecke is standard and correct, so the plural simply has to agree: die Heuschrecke → die Heuschrecken.",
+    "src": "Duden"
+   },
+   "hot-dog": {
+    "to": "Hotdogs",
+    "from": "Hot Dogs",
+    "why": "singular is spelled as one word 'Hotdog' but the plural as two words 'Hot Dogs' — same lemma, inconsistent spelling. Duden: der Hotdog, Plural Hotdogs",
+    "src": "Duden"
+   },
+   "human-torso": {
+    "to": "Menschliche Torsos",
+    "from": "Menschlicher Torsos",
+    "why": "adjective is not inflected for the plural: bare nominative plural takes the strong ending -e, so 'Menschliche Torsos', not 'Menschlicher Torsos'",
+    "src": "Duden (Torso, der; -s, -s)"
+   },
+   "ice-cream": {
+    "to": "Eiscremes",
+    "from": "Eiscreme",
+    "why": "p currently equals s, encoding 'no plural', but Duden gives die Eiscreme, Plural Eiscremes (loanwords in -creme take -s, cf. die Creme, die Cremes). Note: the child-natural word for the pictured item is 'Eis', which the key 'ice' already occupies",
+    "src": "Duden"
+   },
+   "ichthyosaurus": {
+    "to": "Ichthyosaurier",
+    "from": "Ichthyosauren",
+    "why": "-saurus (Greek sauros = lizard) forms its plural in -saurier, as with Tyrannosaurus, der; -, ...rier. 'Ichthyosauren' does not follow the Duden pattern",
+    "src": "Duden"
+   },
+   "ironing-board": {
+    "to": "Bügelbretter",
+    "from": "Bügelbrette",
+    "why": "head noun is Brett: das Brett → die Bretter (umlaut + -er). 'Bügelbrette' is not a German form",
+    "src": "Duden"
+   },
+   "mailbox": {
+    "to": "Briefkästen",
+    "from": "Briefkasten",
+    "why": "Duden: Briefkasten, der; -s, ...kästen. 'Briefkasten' as plural is the script's naive -en default; the plural umlauts",
+    "src": "Duden"
+   },
+   "mosasaurus": {
+    "to": "Mosasaurier",
+    "from": "Mosasauren",
+    "why": "-saurus builds its German plural on -saurier (Duden pattern: Tyrannosaurus, der; -, ...rier); the -sauren form is exactly the documented error. Mosa- + -saurus, so the rule applies (no -taurus exception here)",
+    "src": "Duden (Tyrannosaurus); class established in batch 01/02"
+   },
+   "native-american": {
+    "to": "Indigene Amerikaner",
+    "from": "Indigener Amerikaner",
+    "why": "bare (article-less) adjective plural takes strong -e: 'Indigene Amerikaner'. The stored plural is just the singular copied — the script's naive -er default",
+    "src": "Duden Grammatik (starke Deklination)"
+   },
+   "octopus": {
+    "to": "Oktopusse",
+    "from": "Kraken",
+    "why": "'Kraken' is the plural of 'Krake', a different lemma — no form of 'Oktopus'. Duden: Oktopus, der; -, ...pusse (also ...poden). Both words name the same animal, so no meaning decision is needed and the minimal same-lemma fix applies. (A consistent alternative pair would be Krake/Kraken, m.)",
+    "src": "Duden"
+   },
+   "office-worker": {
+    "to": "Büroangestellte",
+    "from": "Büroangestellter",
+    "why": "bare adjectival noun: singular 'Büroangestellter', plural 'Büroangestellte'. The stored plural is just the singular copied — the script's naive -er default",
+    "src": "Duden Grammatik (starke Deklination)"
+   },
+   "orchard": {
+    "to": "Obstgärten",
+    "from": "Obstgarten",
+    "why": "der Garten → die Gärten, so der Obstgarten → die Obstgärten. 'Obstgarten' as plural is the script's naive -en default; the plural umlauts",
+    "src": "Duden"
+   },
+   "oviraptor": {
+    "to": "Oviraptoren",
+    "from": "Oviraptore",
+    "why": "Latin agent nouns in -or take -oren in German (Duden: Motor -> Motoren, Traktor -> Traktoren); 'Oviraptore' is not a German form. Note: the -saurus -> -saurier rule does not apply here (no -saurus head)",
+    "src": "Duden (-or/-oren pattern)"
+   },
+   "pachycephalosaurus": {
+    "to": "Pachycephalosaurier",
+    "from": "Pachycephalosauren",
+    "why": "-saurus forms the plural in -saurier (Duden: Tyrannosaurus, der; -, ...rier); 'Pachycephalosauren' is not the German form",
+    "src": "Duden"
+   },
+   "painting": {
+    "to": "Malen",
+    "from": "Gemälde",
+    "why": "themes=[activities] decides the reading: the picture shows the activity -> 'das Malen', a nominalised infinitive, which has no plural; p must equal s. The current 'Gemaelde' is a different lemma (the artwork), correct only if the image actually shows a painting rather than the act of painting",
+    "src": "",
+    "cls": "NO_PLURAL"
+   },
+   "pegasus": {
+    "to": "Pegasus",
+    "from": "Pegasen",
+    "why": "proper name from Greek myth (the winged horse), like Jupiter — no established German plural; 'Pegasen' is not an attested form. p must equal s",
+    "src": "",
+    "cls": "NO_PLURAL"
+   },
+   "pine-tree": {
+    "to": "Kiefern",
+    "from": "Kiefer",
+    "why": "Duden: Kiefer, die; -, -n (conifer) -> die Kiefern. The current null plural belongs to the homograph 'der Kiefer, -s, -' = the JAWBONE",
+    "src": "Duden"
+   },
+   "plesiosaurus": {
+    "to": "Plesiosaurier",
+    "from": "Plesiosauren",
+    "why": "-saurus forms the plural in -saurier (Duden: Tyrannosaurus, der; -, ...rier); 'Plesiosauren' is not the German form",
+    "src": "Duden"
+   },
+   "pottery": {
+    "to": "Töpfern",
+    "from": "Töpferei",
+    "why": "themes=[activities] decides: 'das Toepfern' is a nominalised infinitive with no plural; p must equal s. The current 'Toepferei' is a different lemma (the craft/workshop)",
+    "src": "",
+    "cls": "NO_PLURAL"
+   },
+   "pretzels": {
+    "to": "Brezeln",
+    "from": "Brezelne",
+    "why": "'Brezelne' is an invented form that does not exist in German (Duden: Brezel, die; -, -n)",
+    "src": "Duden"
+   },
+   "rainbow": {
+    "to": "Regenbögen",
+    "from": "Regenbogen",
+    "why": "Duden gives Regenbogen, der; -s, ...bögen — the plural is umlauted, not identical to the singular; the zero plural here is the script's -en default",
+    "src": "Duden"
+   },
+   "roasted-turkey": {
+    "to": "Gebratene Truthähne",
+    "from": "Gebratener Truthahne",
+    "why": "two errors in one form: the noun plural is umlauted (Truthahn -> Truthähne, Duden) and the attributive adjective must take the plural ending -e, not the masculine singular -er; same lemma, pure form correction",
+    "src": "Duden"
+   },
+   "rudolph": {
+    "to": "Rudolph",
+    "from": "Rudolphe",
+    "why": "proper name of one specific reindeer (cf. Jupiter); 'Rudolphe' is an invented form — p must become identical to s",
+    "src": "",
+    "cls": "NO_PLURAL"
+   },
+   "salt": {
+    "to": "Salz",
+    "from": "Salze",
+    "why": "themes = at_the_supermarket, i.e. table salt, a mass noun; the existing 'Salze' is the chemists' plural (kinds of salt) and is wrong for this picture — p must become identical to s",
+    "src": "Duden",
+    "cls": "NO_PLURAL"
+   },
+   "sandbox": {
+    "to": "Sandkästen",
+    "from": "Sandkasten",
+    "why": "Duden: Sandkasten, der; -s, ...kästen — the plural is umlauted; the zero plural here is the script's -en default",
+    "src": "Duden"
+   },
+   "scrubs": {
+    "to": "OP-Kleidung",
+    "from": "OP-Kleidungen",
+    "why": "head noun 'Kleidung' is a mass/collective noun; 'OP-Kleidungen' is not a usable German form — p must become identical to s",
+    "src": "Duden",
+    "cls": "NO_PLURAL"
+   },
+   "stegosaurus": {
+    "to": "Stegosaurier",
+    "from": "Stegosauren",
+    "why": "-saurus forms its plural in -saurier; 'Stegosauren' is not a Duden form. Genuine -saurus (Greek sauros = lizard), so the carnotaurus exception does not apply",
+    "src": "Duden pattern: Tyrannosaurus, der; -, ...rier"
+   },
+   "styracosaurus": {
+    "to": "Styracosaurier",
+    "from": "Styracosauren",
+    "why": "-saurus forms its plural in -saurier; 'Styracosauren' is not a Duden form. Genuine -saurus, not the -taurus exception",
+    "src": "Duden pattern: Tyrannosaurus, der; -, ...rier"
+   },
+   "sunscreen": {
+    "to": "Sonnencremes",
+    "from": "Sonnencremen",
+    "why": "'Cremen' is the Austrian plural; standard German (Bundesrepublik) is Cremes → Sonnencremes",
+    "src": "Duden: Creme, die; -, -s (österreichisch auch: -n)"
+   },
+   "therizinosaurus": {
+    "to": "Therizinosaurier",
+    "from": "Therizinosauren",
+    "why": "-saurus forms its plural in -saurier (Duden: Tyrannosaurus, der; -, ...rier); 'Therizinosauren' is not a German form",
+    "src": "Duden"
+   },
+   "toolbox": {
+    "to": "Werkzeugkästen",
+    "from": "Werkzeugkasten",
+    "why": "Duden: Kasten, der; -s, Kästen — the head noun takes an umlaut plural; the zero plural comes from the script's naive -en default",
+    "src": "Duden"
+   },
+   "uncle-sam": {
+    "to": "Onkel Sam",
+    "from": "Onkel Same",
+    "why": "personification/proper name — no plural. 'Onkel Same' is a machine-invented form that does not exist (the script pluralized 'Sam' like a common noun); p must equal s",
+    "src": "",
+    "cls": "NO_PLURAL"
+   },
+   "velociraptor": {
+    "to": "Velociraptoren",
+    "from": "Velociraptore",
+    "why": "Latin -or nouns take -oren in German (Raptor → Raptoren, like Traktor → Traktoren, Motor → Motoren); 'Velociraptore' is not a form. Note: no -saurus here, so the -saurier rule does not apply",
+    "src": "Duden (declension pattern of -or loanwords)"
+   }
+  },
+  "gender": {
+   "badminton": {
+    "to": "n",
+    "from": "m",
+    "why": "das Badminton, not der; 'm' is wrong",
+    "src": "Duden: Badminton, das; -s"
+   },
+   "baking": {
+    "to": "n",
+    "from": "m",
+    "why": "substantivized infinitives are always neuter: das Backen; 'm' is wrong",
+    "src": "Duden, Grammatik: substantivierter Infinitiv → Neutrum"
+   },
+   "beige": {
+    "to": "n",
+    "from": "f",
+    "why": "'f' is wrong under any reading; a substantivized colour is neuter (das Beige). Note the colour set is internally inconsistent today (beige=f, black=m)",
+    "src": "Duden: Beige, das; -, - (ugs. -s)"
+   },
+   "biking": {
+    "to": "n",
+    "from": "m",
+    "why": "substantivized infinitives are always neuter: das Radfahren; 'm' is wrong",
+    "src": "Duden, Grammatik: substantivierter Infinitiv → Neutrum"
+   },
+   "black": {
+    "to": "n",
+    "from": "m",
+    "why": "'m' is wrong under any reading; a substantivized colour is neuter (das Schwarz)",
+    "src": "Duden: Schwarz, das; -, - (ugs. -s)"
+   },
+   "blue": {
+    "to": "n",
+    "from": "m",
+    "why": "The substantivised colour is neuter: das Blau, not 'der Blau'",
+    "src": "Duden: Blau, das; -s"
+   },
+   "bowling": {
+    "to": "n",
+    "from": "m",
+    "why": "das Bowling, not 'der Bowling'",
+    "src": "Duden: Bowling, das; -s"
+   },
+   "boxing": {
+    "to": "n",
+    "from": "m",
+    "why": "Substantivised infinitives are without exception neuter: das Boxen. 'm' would render 'der Boxen' — the batch-01 'der Backen' class recurring here",
+    "src": "Duden"
+   },
+   "brown": {
+    "to": "n",
+    "from": "m",
+    "why": "The substantivised colour is neuter: das Braun, not 'der Braun'",
+    "src": "Duden: Braun, das; -s"
+   },
+   "burrito": {
+    "to": "m",
+    "from": "n",
+    "why": "der Burrito, not 'das Burrito'",
+    "src": "Duden: Burrito, der; -[s], -s"
+   },
+   "camping": {
+    "to": "n",
+    "from": "m",
+    "why": "das Camping, not 'der Camping'",
+    "src": "Duden: Camping, das; -s"
+   },
+   "celery": {
+    "to": "m",
+    "from": "f",
+    "why": "Standard German (Bundesrepublik) is 'der Sellerie'; 'die Sellerie' is marked as Austrian by Duden and is wrong for this site's register",
+    "src": "Duden: Sellerie, der; -s, -[s], österreichisch nur die; -, -"
+   },
+   "christmas": {
+    "to": "n",
+    "from": "m",
+    "why": "Duden: Weihnachten, das — Substantiv, Neutrum ('das Weihnachten'). Masculine 'der Weihnachten' does not exist.",
+    "src": "Duden"
+   },
+   "crimson": {
+    "to": "n",
+    "from": "m",
+    "why": "Colour names used as nouns are neuter in German: das Karmesinrot (like das Blau, das Rot). Masculine 'der Karmesinrot' does not exist.",
+    "src": "Duden"
+   },
+   "dancing": {
+    "to": "n",
+    "from": "m",
+    "why": "Substantivized infinitives are always neuter: das Tanzen. Stored 'm' would be read as 'der Tanzen', which does not exist.",
+    "src": "Duden"
+   },
+   "easter": {
+    "to": "n",
+    "from": "m",
+    "why": "Duden: Ostern, das - neuter, not masculine. 'der Ostern' does not exist.",
+    "src": "Duden"
+   },
+   "extension-cord": {
+    "to": "n",
+    "from": "m",
+    "why": "Duden: das Kabel -> das Verlängerungskabel. Compound gender follows the head noun; 'der Verlängerungskabel' is wrong.",
+    "src": "Duden"
+   },
+   "fishing": {
+    "to": "n",
+    "from": "m",
+    "why": "Substantivized infinitives are always neuter: das Angeln. 'der Angeln' does not exist (die Angel -> die Angeln is the fishing rod, a different lemma).",
+    "src": "Duden"
+   },
+   "golf": {
+    "to": "n",
+    "from": "m",
+    "why": "Duden distinguishes 'Golf, das; -s' (the game) from 'Golf, der; -[e]s, -e' (the gulf/bay). Theme is sports, so the game is meant: das Golf. Current 'm' makes the site say 'der Golf' — the wrong word.",
+    "src": "Duden"
+   },
+   "gray": {
+    "to": "n",
+    "from": "m",
+    "why": "colour names used as nouns are neuter: das Grau (cf. das Blau, das Braun). Current 'm' yields 'der Grau', which does not exist.",
+    "src": "Duden"
+   },
+   "green": {
+    "to": "n",
+    "from": "m",
+    "why": "colour names used as nouns are neuter: das Grün. Current 'm' yields 'der Grün', which does not exist.",
+    "src": "Duden"
+   },
+   "gymnastics": {
+    "to": "n",
+    "from": "m",
+    "why": "nominalised infinitives are without exception neuter: das Turnen. Current 'm' yields 'der Turnen'.",
+    "src": "Duden"
+   },
+   "halloween": {
+    "to": "n",
+    "from": "m",
+    "why": "Duden: 'Halloween, das; -[s]' — neuter, like other festival names (das Weihnachten, das Ostern). Current 'm' yields 'der Halloween'.",
+    "src": "Duden"
+   },
+   "hiking": {
+    "to": "n",
+    "from": "m",
+    "why": "nominalised infinitives are without exception neuter: das Wandern. Current 'm' yields 'der Wandern'.",
+    "src": "Duden"
+   },
+   "hockey": {
+    "to": "n",
+    "from": "m",
+    "why": "Duden: 'Hockey, das; -s' — neuter. Current 'm' yields 'der Hockey'.",
+    "src": "Duden"
+   },
+   "ice-skating": {
+    "to": "n",
+    "from": "m",
+    "why": "substantivized infinitives are without exception neuter: das Schlittschuhlaufen, not 'der Schlittschuhlaufen'",
+    "src": ""
+   },
+   "jumping": {
+    "to": "n",
+    "from": "m",
+    "why": "substantivized infinitives are without exception neuter: das Springen, not 'der Springen'",
+    "src": ""
+   },
+   "knitting": {
+    "to": "n",
+    "from": "m",
+    "why": "substantivized infinitives are without exception neuter: das Stricken, not 'der Stricken'",
+    "src": ""
+   },
+   "lego": {
+    "to": "n",
+    "from": "m",
+    "why": "das Lego, not 'der Lego' — the brand name is neuter",
+    "src": "Duden"
+   },
+   "microphone": {
+    "to": "n",
+    "from": "m",
+    "why": "Duden: Mikrofon, das; -s, -e. 'der Mikrofon' does not exist",
+    "src": "Duden"
+   },
+   "mixer": {
+    "to": "n",
+    "from": "m",
+    "why": "das Gerät → das Rührgerät. 'der Rührgerät' does not exist",
+    "src": "Duden"
+   },
+   "package": {
+    "to": "n",
+    "from": "m",
+    "why": "Duden: das Paket, -[e]s, -e — neuter, not masculine; 'der Paket' would be read/spoken to children",
+    "src": "Duden"
+   },
+   "perfume": {
+    "to": "n",
+    "from": "m",
+    "why": "Duden: das Parfuem, -s, -e/-s — neuter, not masculine",
+    "src": "Duden"
+   },
+   "pine-tree": {
+    "to": "f",
+    "from": "m",
+    "why": "the tree is die Kiefer (f); 'der Kiefer' (m) is the jawbone — as encoded, a child sees/hears the wrong word entirely",
+    "src": "Duden"
+   },
+   "pink": {
+    "to": "n",
+    "from": "m",
+    "why": "nominalised colour names are neuter (das Blau, das Braun) — Duden: das Rosa; 'der Rosa' does not exist",
+    "src": "Duden"
+   },
+   "pottery": {
+    "to": "n",
+    "from": "f",
+    "why": "nominalised infinitives are without exception neuter: das Toepfern. The current 'f' belongs to the other lemma sitting in the p field (die Toepferei)",
+    "src": "Duden"
+   },
+   "pretzels": {
+    "to": "f",
+    "from": "m",
+    "why": "die Brezel — feminine, not masculine",
+    "src": "Duden"
+   },
+   "purple": {
+    "to": "n",
+    "from": "m",
+    "why": "substantivised colour names are neuter: das Lila (cf. das Blau, das Braun); 'm' is the script default",
+    "src": "Duden"
+   },
+   "reading": {
+    "to": "n",
+    "from": "m",
+    "why": "substantivised infinitives are without exception neuter: das Lesen; cf. the identical key 'read' in this batch, which correctly carries 'n'",
+    "src": "Duden"
+   },
+   "red": {
+    "to": "n",
+    "from": "m",
+    "why": "substantivised colour names are neuter: das Rot",
+    "src": "Duden"
+   },
+   "running": {
+    "to": "n",
+    "from": "m",
+    "why": "substantivised infinitives are without exception neuter: das Laufen; cf. the identical key 'run' in this batch, which correctly carries 'n'",
+    "src": "Duden"
+   },
+   "scarlet": {
+    "to": "n",
+    "from": "m",
+    "why": "substantivised colour names are neuter: das Scharlachrot",
+    "src": "Duden"
+   },
+   "sewing": {
+    "to": "n",
+    "from": "m",
+    "why": "substantivised infinitives are without exception neuter: das Nähen",
+    "src": "Duden"
+   },
+   "singing": {
+    "to": "n",
+    "from": "m",
+    "why": "nominalised infinitives are always neuter: das Singen, not 'der Singen'",
+    "src": "Duden grammar: substantivierte Infinitive sind Neutra"
+   },
+   "skating": {
+    "to": "n",
+    "from": "m",
+    "why": "das Schlittschuhlaufen — nominalised infinitives are neuter",
+    "src": "Duden grammar"
+   },
+   "skiing": {
+    "to": "n",
+    "from": "m",
+    "why": "das Skifahren — nominalised infinitives are neuter",
+    "src": "Duden grammar"
+   },
+   "sledding": {
+    "to": "n",
+    "from": "m",
+    "why": "das Rodeln — nominalised infinitives are neuter",
+    "src": "Duden grammar"
+   },
+   "snowboarding": {
+    "to": "n",
+    "from": "m",
+    "why": "das Snowboarden — nominalised infinitives are neuter",
+    "src": "Duden grammar"
+   },
+   "swimming": {
+    "to": "n",
+    "from": "m",
+    "why": "substantivized infinitives are always neuter: das Schwimmen; 'm' would yield 'der Schwimmen'",
+    "src": "Duden (Grammatik: substantivierter Infinitiv = Neutrum)"
+   },
+   "turquoise": {
+    "to": "n",
+    "from": "m",
+    "why": "theme is 'colors', so this is the colour: das Türkis (like das Blau, das Braun). 'der Türkis' is a different lemma — the gemstone",
+    "src": "Duden (two entries: der Türkis = Edelstein; das Türkis = Farbe)"
+   },
+   "ufo": {
+    "to": "n",
+    "from": "m",
+    "why": "Duden headword is 'Ufo/UFO, das' — the acronym stands for 'unbekanntes Flugobjekt' and takes the gender of Objekt (neuter). 'der UFO' has no standard support",
+    "src": "Duden"
+   },
+   "venus": {
+    "to": "f",
+    "from": "m",
+    "why": "die Venus, not der. Most planets are masculine (der Mars, der Jupiter), but Venus and Erde are feminine — the naive rule was applied",
+    "src": "Duden"
+   },
+   "white": {
+    "to": "n",
+    "from": "m",
+    "why": "substantivised colour names are neuter: das Weiß (like das Blau, das Braun). 'der Weiß' does not exist",
+    "src": "Duden"
+   },
+   "writing": {
+    "to": "n",
+    "from": "m",
+    "why": "substantivised infinitives are without exception neuter: das Schreiben (like das Essen, das Backen). 'der Schreiben' does not exist",
+    "src": "Duden"
+   },
+   "yellow": {
+    "to": "n",
+    "from": "m",
+    "why": "substantivised colour names are neuter: das Gelb (like das Blau, das Braun). 'der Gelb' does not exist",
+    "src": "Duden"
+   }
+  }
+ },
+ "reverified": true
+}

@@ -1,0 +1,325 @@
+{
+  "locale": "nl",
+  "batch": "12",
+  "reviewed": 53,
+  "rows": [
+    {
+      "key": "venus",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "proper noun (planet/goddess); no child-facing plural. p already equals s, so the convention is already satisfied", "source": "Van Dale" },
+      "gender": { "verdict": "OK", "reason": "de Venus (planet names / the goddess take the common gender); 'd' is right" }
+    },
+    {
+      "key": "vest",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK", "reason": "homonym checked: themes clothing/accessories -> het vest (garment, neuter), NOT de vest (moat/rampart). 'h' matches the picture; plural de vesten is right for both readings", "source": "Van Dale" }
+    },
+    {
+      "key": "veterinarian",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "video-game",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "het spel -> de spellen (games) is the right branch, not 'spelen' (performances); videospellen is correct", "source": "Van Dale" },
+      "gender": { "verdict": "OK", "reason": "het spel -> het videospel; 'h' is right" }
+    },
+    {
+      "key": "violet",
+      "singular": { "verdict": "HOLD", "reason": "themes are both [colors] and [flowers] and the two readings need DIFFERENT lemmas. Flower (en plural 'Violets' points this way) = het viooltje, not 'Violet'; colour = het violet. Replacing the lemma is more than a form fix -> needs the picture. NOT rewritten blindly", "source": "Van Dale" },
+      "plural": { "verdict": "HOLD", "reason": "'Violetten' is wrong under BOTH readings (script artefact: -t doubling). Flower -> viooltjes; colour -> no plural (NO_PLURAL). Cannot decide without knowing which picture; depends on the held singular" },
+      "gender": { "verdict": "FIX", "correct": "h", "reason": "safe regardless of how the singular resolves: substantivised colour names are neuter (het violet, cf. het rood) AND the flower is a diminutive (het viooltje). Both candidate lemmas are het-words, so 'd' is wrong either way", "source": "Van Dale" }
+    },
+    {
+      "key": "violin",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "N5 flag is a false suspicion: de viool -> de violen is the regular Van Dale plural (open-syllable lengthening), not a different lemma", "source": "Van Dale" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "volleyball",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "HOLD", "reason": "homonym: het volleybal (the sport, no plural) vs de volleybal (the ball, -> de volleyballen). theme [sports] does not disambiguate and the metadata (verb-gerund/countable:false = sport) contradicts what a 'sports' picture most likely shows (a ball). p=s is right ONLY under the sport reading. Needs the picture; not guessing", "source": "Van Dale" },
+      "gender": { "verdict": "HOLD", "reason": "same homonym: sport = het volleybal ('h'), ball = de volleybal ('d'). Current 'd' is right only for the ball reading, which contradicts the row's own countable:false. Escalating rather than guessing" }
+    },
+    {
+      "key": "vulture",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK", "reason": "homonym noted: de gier (bird, pictured) and de gier (liquid manure, mass noun) are both common gender, so 'd' is correct for the bird" }
+    },
+    {
+      "key": "waffle",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de wafel -> de wafels (-s, not -en); current data is already right", "source": "Van Dale" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "waitress",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "walk",
+      "singular": { "verdict": "OK", "reason": "substantivised infinitive (het lopen), consistent with the 'writing' -> 'Schrijven' row; it is not a plural noun in the singular field" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "substantivised verb (het lopen) has no plural; p already equals s", "source": "Van Dale" },
+      "gender": { "verdict": "FIX", "correct": "h", "reason": "substantivised infinitives are always neuter: het lopen. 'd' is the genderNl fall-through bug", "source": "Van Dale" }
+    },
+    {
+      "key": "wallet",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "FIX", "correct": "Portemonnees", "reason": "de portemonnee -> de portemonnees. 'Portemonneen' is a script artefact (bare -n added to a French loan ending in -ee); no such Dutch form exists", "source": "Van Dale" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "walnut-tree",
+      "singular": { "verdict": "HOLD", "reason": "the usual/attested Dutch compound is 'walnotenboom' (linking -en-), also simply 'notenboom'; 'Walnootboom' looks like a mechanical noun+noun join. I am not certain enough of the Van Dale headword to assert a FIX, and I will not invent a citation -> HOLD for a lexicographic check" },
+      "plural": { "verdict": "OK", "reason": "whatever the head compound turns out to be, the plural is formed on -boom -> -bomen, which the data does correctly", "source": "Van Dale" },
+      "gender": { "verdict": "OK", "reason": "de boom -> de (wal)notenboom; 'd' holds for either compound form" }
+    },
+    {
+      "key": "walrus",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de walrus -> de walrussen; consonant doubling is correct here (short vowel in the closed syllable), unlike the false doublings elsewhere in this data", "source": "Van Dale" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "wand",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "FIX", "correct": "Toverstaven", "reason": "de staf -> de staven (f/v alternation, like graf -> graven), so de toverstaf -> de toverstaven. 'Toverstaffen' is the script's consonant-doubling rule misfiring on a word that takes voicing instead", "source": "Van Dale" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "wardrobe",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "washing-machine",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "FIX", "correct": "Wasmachines", "reason": "de machine -> de machines, so de wasmachine -> de wasmachines. 'Wasmachinen' is a script artefact (bare -n on a word ending in unstressed -e)", "source": "Van Dale" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "wasp",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "watch",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "FIX", "correct": "Horloges", "reason": "het horloge -> de horloges. 'Horlogen' is a script artefact (bare -n on a word ending in unstressed -e)", "source": "Van Dale" },
+      "gender": { "verdict": "FIX", "correct": "h", "reason": "het horloge is neuter; 'd' is the genderNl fall-through bug", "source": "Van Dale" }
+    },
+    {
+      "key": "water",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "mass noun (het water); the existing plural 'de wateren' means bodies of water and is not the child-facing reading of the [beach/supermarket/camping] picture. p already equals s", "source": "Van Dale" },
+      "gender": { "verdict": "OK", "reason": "het water; 'h' is right" }
+    },
+    {
+      "key": "water-bottle",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de fles -> de flessen; the doubling is genuine here", "source": "Van Dale" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "water-lily",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "FIX", "correct": "Waterlelies", "reason": "de lelie -> de lelies, so de waterlelie -> de waterlelies. 'Waterlelien' is a script artefact (bare -n on -ie)", "source": "Van Dale" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "watering-can",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de gieter -> de gieters (-s after unstressed -er); correct as it stands", "source": "Van Dale" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "watermelon",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "wave",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "N5/N6 are false suspicions: de golf -> de golven is the regular Van Dale plural (f/v alternation), not a separate lemma", "source": "Van Dale" },
+      "gender": { "verdict": "OK", "reason": "homonym checked: theme [beach] -> de golf (wave), which is common gender; het golf is the SPORT. 'd' matches the picture" }
+    },
+    {
+      "key": "weasel",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de wezel -> de wezels (-s after unstressed -el), not 'wezelen'; correct as it stands", "source": "Van Dale" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "whale",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "wheelbarrow",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de wagen -> de wagens; de kruiwagen -> de kruiwagens is correct", "source": "Van Dale" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "wheelchair",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "whisk",
+      "singular": { "verdict": "OK", "reason": "de garde is the standard kitchen term for a whisk; correct for the [kitchen/kitchen_tools] picture" },
+      "plural": { "verdict": "FIX", "correct": "Gardes", "reason": "de garde -> de gardes. 'Garden' is a script artefact (bare -n on unstressed -e) and is additionally a false friend with English 'garden' on a projected board", "source": "Van Dale" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "whistle",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK", "reason": "diminutive -je -> always neuter: het fluitje; 'h' is right" }
+    },
+    {
+      "key": "white",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "colour term; as a noun het wit has no child-facing plural. p already equals s", "source": "Van Dale" },
+      "gender": { "verdict": "FIX", "correct": "h", "reason": "when a colour name is used as a noun it is neuter: het wit (cf. het rood, het blauw). 'd' is the genderNl fall-through bug and would generate the ungrammatical 'de wit'", "source": "Van Dale" }
+    },
+    {
+      "key": "whiteboard",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK", "reason": "het whiteboard (loanword, neuter) -> de whiteboards; 'h' is right. Note this 'h' did NOT come from the buggy script (no matching suffix), it happens to be correct" }
+    },
+    {
+      "key": "windmill",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de molen -> de molens (-s after unstressed -en); correct", "source": "Van Dale" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "window",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "N5 is a false suspicion: het raam -> de ramen is the regular plural (open-syllable spelling), not a different lemma", "source": "Van Dale" },
+      "gender": { "verdict": "OK", "reason": "het raam; 'h' is right" }
+    },
+    {
+      "key": "winter-hat",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de muts -> de mutsen; correct despite the N6 flag (noImage row, lowest priority, but checked)", "source": "Van Dale" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "winter-jacket",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de jas -> de jassen; the doubling is genuine here", "source": "Van Dale" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "wisteria",
+      "singular": { "verdict": "OK", "reason": "de blauweregen is the standard Dutch name for Wisteria and is written as one word" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK", "reason": "head is 'regen' (de) -> de blauweregen; 'd' is right" }
+    },
+    {
+      "key": "wolf",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "N5 is a false suspicion: de wolf -> de wolven is the regular f/v plural, not a different lemma", "source": "Van Dale" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "woodpecker",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "worm",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de worm -> de wormen (no doubling: the -rm cluster already closes the syllable); correct", "source": "Van Dale" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "wreath",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "wrench",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de sleutel -> de sleutels (-s after unstressed -el); correct", "source": "Van Dale" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "wrist",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK", "reason": "de pols (body part) is common gender; 'd' is right" }
+    },
+    {
+      "key": "writing",
+      "singular": { "verdict": "OK", "reason": "substantivised infinitive (het schrijven), matching the [activities] gloss 'Writing'" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "substantivised verb (het schrijven) has no plural; p already equals s", "source": "Van Dale" },
+      "gender": { "verdict": "FIX", "correct": "h", "reason": "substantivised infinitives are always neuter: het schrijven. 'd' is the genderNl fall-through bug", "source": "Van Dale" }
+    },
+    {
+      "key": "x-ray",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de foto -> de foto's (apostrophe before -s after a single vowel letter); correct as it stands", "source": "Van Dale" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "xylophone",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de xylofoon -> de xylofonen (open-syllable spelling); correct", "source": "Van Dale" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "yacht",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de jachten is the correct plural for both readings of the homonym, so the plural field survives the gender error below", "source": "Van Dale" },
+      "gender": { "verdict": "FIX", "correct": "h", "reason": "homonym trap: themes [vehicles/travel] -> het jacht (the boat, neuter), whereas de jacht is HUNTING. The data currently encodes the hunt, not the pictured boat; 'd' would make a child hear 'de jacht'", "source": "Van Dale" }
+    },
+    {
+      "key": "yak",
+      "singular": { "verdict": "OK", "reason": "'Yak' is the widely used child-facing spelling (Woordenlijst also has 'jak'); acceptable for the picture" },
+      "plural": { "verdict": "HOLD", "reason": "genuinely uncertain: the native pattern gives jakken/yakken (short vowel, consonant doubling) but this loan is also commonly pluralised yaks. I cannot confirm the Van Dale headword plural and will not invent a citation -> lexicographic check needed. Note the current 'Yakken' may well be right; it is NOT being asserted as a defect" },
+      "gender": { "verdict": "OK", "reason": "de jak/yak (animal) is common gender; 'd' is right" }
+    },
+    {
+      "key": "yellow",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "colour term; as a noun het geel has no child-facing plural. p already equals s", "source": "Van Dale" },
+      "gender": { "verdict": "FIX", "correct": "h", "reason": "when a colour name is used as a noun it is neuter: het geel (cf. het rood). 'd' is the genderNl fall-through bug and would generate the ungrammatical 'de geel'. NB the script's own code even special-cases 'geel' out of its ge- rule, which is why it fell through to 'd'", "source": "Van Dale" }
+    },
+    {
+      "key": "yogurt",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "mass noun (de yoghurt); no child-facing plural. p already equals s", "source": "Van Dale" },
+      "gender": { "verdict": "OK", "reason": "de yoghurt is common gender; 'd' is correct here (contrast: many mass nouns in this data are het-words, but this one is not)" }
+    },
+    {
+      "key": "zebra",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de zebra -> de zebra's; apostrophe correct after single -a", "source": "Van Dale" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "zinnia",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "de zinnia -> de zinnia's; apostrophe correct after single -a", "source": "Van Dale" },
+      "gender": { "verdict": "OK" }
+    }
+  ]
+}

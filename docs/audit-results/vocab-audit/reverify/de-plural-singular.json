@@ -1,0 +1,439 @@
+{
+  "locale": "de",
+  "part": "plural-singular",
+  "reviewed": 72,
+  "rows": [
+    {
+      "key": "air-conditioning",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Duden: die Klimaanlage; -, -n. Zählbares Gerät, kein Massenname; die Metadaten (countable:false) spiegeln das englische Gerundium „air conditioning“ und sind fürs Deutsche irreführend. p=s hätte per Dateikonvention „kein Plural“ kodiert."
+    },
+    {
+      "key": "allosaurus",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Duden führt das Lemma selbst: „der Allosaurus; Genitiv: des Allosaurus, Plural: die Allosaurier“ (duden.de/rechtschreibung/Allosaurus). „Allosauren“ ist in keinem Nachschlagewerk belegt."
+    },
+    {
+      "key": "ankylosaurus",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Kein Duden-Stichwort; de.wiktionary: „der Ankylosaurus, des Ankylosaurus, die Ankylosaurier“. Die Klasse -saurus→-saurier ist bei Duden achtfach belegt (Tyrannosaurus/Brontosaurus/Brachiosaurus/Dinosaurus/Ichthyosaurus/Plesiosaurus/Allosaurus/Apatosaurus), „-sauren“ nirgends. Echtes -sauros, kein -taurus-Fall."
+    },
+    {
+      "key": "apatosaurus",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Duden: „der Apatosaurus; Genitiv: des Apatosaurus, Plural: die Apatosaurier“. „Apatosauren“ unbelegt."
+    },
+    {
+      "key": "argentinosaurus",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Kein Duden-Stichwort; de.wiktionary: „des Argentinosaurus / die Argentinosaurier“. Urteil über die Duden-belegte Klasse, ohne Gegenbeleg. Echtes -sauros."
+    },
+    {
+      "key": "brachiosaurus",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Duden: „der Brachiosaurus; Genitiv: des Brachiosaurus, Plural: die Brachiosaurier“."
+    },
+    {
+      "key": "brontosaurus",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Duden: „der Brontosaurus; Genitiv: des Brontosaurus, Plural: die Brontosaurier“."
+    },
+    {
+      "key": "cactus",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Duden: der Kaktus; - und -ses, Plural: die Kakteen. „Kakten“ existiert nicht — der im Brief genannte Musterfall einer maschinell erfundenen Form."
+    },
+    {
+      "key": "carpenter",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Hält — aber NICHT aus dem angegebenen Grund. Duden verzeichnet bei Zimmermann ausschließlich „Plural: die Zimmerleute“ (duden.de/rechtschreibung/Zimmermann; die Deklinationsseite zeigt ebenfalls nur die Zimmerleute-Tabelle); „Zimmermänner“ kommt dort nirgends vor. Wichtig für künftige Fälle: die im „why“ unterstellte -mann/-leute-KLASSENregel trägt nicht — Duden führt bei Kaufmann beide Plurale (Kaufleute und Kaufmänner). Die -leute-Bildung ist also lemmabezogen, nicht klassenbezogen; bei Zimmermann ist sie zufällig die einzige."
+    },
+    {
+      "key": "celery",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Der Wert „Sellerie“ ist richtig, die Klassifikation NO_PLURAL aber unpräzise: Duden gibt sehr wohl einen Plural — „der Sellerie; Genitiv: des Selleries, Plural: die Sellerie[s]“. „Sellerie“ ist der unmarkierte (Null-)Plural, nicht „kein Plural“; das Datenfeld wird trotzdem korrekt befüllt. Entscheidend und richtig: „Sellerien“ trägt bei Duden die Marke „(österreichisch:)“ und ist für das Register Bundesrepublik falsch. Passt zur separat vorgeschlagenen Genus-Korrektur f→m; der maskuline Alternativplural „Selleries“ wäre ebenfalls unmarkiert, „Sellerie“ steht bei Duden aber voran."
+    },
+    {
+      "key": "cheese",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Duden: der Käse; -s, - → Nullplural „die Käse“. „Käsen“ existiert nicht. Der im Brief genannte Falsch-negativ-Musterfall."
+    },
+    {
+      "key": "chef",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Duden: der Chef; -s, -s → die Küchenchefs. „Küchenchefe“ ist keine deutsche Form."
+    },
+    {
+      "key": "cranberry",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Duden: „die Cranberry; Genitiv: der Cranberry, Plural: die Cranberrys“ (Beispiel dort: „getrocknete Cranberrys essen“). „Cranberries“ ist der englische Plural; deutsch bilden -y-Lehnwörter den Plural auf -ys (Babys, Partys)."
+    },
+    {
+      "key": "crocus",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Duden: „der Krokus; Genitiv: des Krokus, Plural: die Krokusse und (seltener:) Krokus“. „Krokusse“ ist die erstgenannte Form; „Kroken“ existiert nicht."
+    },
+    {
+      "key": "diamond",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Duden: die Raute; -, -n. Da s=„Raute“ und g=„f“ bereits gesetzt sind, ist „Rauten“ der einzig kohärente Plural; „Diamanten“ ist ein Fremdlemma im p-Feld (N5). Zur offenen Bildfrage (themes enthält neben „shapes“ auch „valentine“ — Edelstein statt Form?): sie betrifft den SINGULAR und besteht bereits heute; die Plural-Korrektur schafft sie nicht und verbessert den Eintrag in jedem Fall. Fällt die Lemma-Entscheidung später auf Diamant (m), wandert der Plural mit. Kein Grund zur Zurückstellung."
+    },
+    {
+      "key": "driftwood",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "das Treibholz ist Stoffname (Duden: Treibholz, das; -es); „Treibholze“ ist maschinell erfunden. p=s richtig."
+    },
+    {
+      "key": "envelope",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Duden: der Briefumschlag → die Briefumschläge. „Briefumschlage“ ohne Umlaut ist ein Nichtwort — im Brief als belegter Folgefehler genannt."
+    },
+    {
+      "key": "farmer",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Duden: der Bauer; -n, Plural: die Bauern (schwache Deklination). Der dokumentierte Default „-er bleibt unverändert“ hat hier bei einem hochfrequenten Bauernhofwort ein Nichtwort erzeugt."
+    },
+    {
+      "key": "giganotosaurus",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "„Giganotosauren“ ist unbelegt. Beleg-Einschränkung, ausdrücklich: Giganotosaurus steht in KEINEM erreichbaren deutschen Nachschlagewerk (Duden/DWDS/de.wiktionary) — das „src“ des Vorschlags („Duden“) ist insofern zu stark, die Sache aber richtig. Das Urteil stützt sich auf die achtfach Duden-belegte Klasse ohne Gegenbeleg. Echtes -sauros (gigas+notos+sauros), kein -taurus-Fall. Nicht mit dem Duden-Stichwort „Gigantosaurus“ verwechseln — andere Gattung."
+    },
+    {
+      "key": "grasshopper",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Duden: die Heuschrecke; -, -n. s=„Heuschrecke“ und g=„f“ stehen bereits; „Grashüpfer“ im p-Feld ist ein Fremdlemma (N5). Reine Angleichung, keine Lemma-Entscheidung nötig — beide Wörter benennen dasselbe Tier, und Heuschrecke ist standardsprachlich."
+    },
+    {
+      "key": "hot-dog",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Richtig, aber die Begründung ist zu scharf: „Hot Dogs“ ist NICHT falsch. Duden führt beide Schreibungen in einem Stichwort — „der oder das Hotdog; Genitiv: des Hotdogs, Plural: die Hotdogs“ UND „der oder das Hot Dog; Genitiv: des Hot Dogs, Plural: die Hot Dogs“. Der echte Defekt ist die INKONSISTENZ innerhalb des Eintrags (s einwortig, p zweiwortig); die Angleichung an die Duden-Hauptschreibung Hotdog/Hotdogs ist die richtige Auflösung. Nebenbefund fürs Genus-Feld: Duden gibt „der oder das“."
+    },
+    {
+      "key": "human-torso",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Artikelloser Nominativ Plural verlangt die starke Endung -e: „Menschliche Torsos“; „Menschlicher“ ist die maskuline Singularendung. Duden: Torso, der; -s, -s (auch: Torsi) — „Torsos“ ist belegt und bleibt zu Recht unangetastet."
+    },
+    {
+      "key": "ice-cream",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Der geprüfte Verdacht „Massenname → Plural fälschlich vergeben“ trägt NICHT: Duden gibt Eiscreme ausdrücklich einen Plural — „die Eiscreme; Genitiv: der Eiscreme, Plural: die Eiscremen, Eiscremes“. Der Altzustand p=s hätte per Dateikonvention „kein Plural“ kodiert und damit Duden widersprochen. Zur Formwahl: Duden nennt an DIESEM Eintrag „Eiscremen“ zuerst, doch „Eiscremes“ ist gleichrangig unmarkiert mitverzeichnet und für die Bundesrepublik die richtige Wahl — am Grundwort führt Duden „die Creme; ..., Plural: die Cremes, (österreichisch, schweizerisch auch:) Cremen“. „Eiscremes“ hält damit das Register konsistent mit der sunscreen-Korrektur desselben Stapels. Der vom Vorschlag selbst markierte Punkt, dass das kindnächste Wort „Eis“ wäre, bleibt eine Lemma-Frage und wurde zu Recht nicht angewandt."
+    },
+    {
+      "key": "ichthyosaurus",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Duden führt das Lemma: „der Ichthyosaurus; Genitiv: des Ichthyosaurus, Plural: die Ichthyosaurier“. Ausdrücklich geprüft wurde die Gegenhypothese, „-sauren“ sei der fachsprachliche Taxon-Plural (zu Ichthyosauria): unbelegt — de.Wikipedia („Die Ichthyosaurier ...“), das Spektrum-Lexikon der Biologie und DWDS führen durchgängig „Ichthyosaurier“."
+    },
+    {
+      "key": "ironing-board",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Kopf des Kompositums ist Brett: das Brett → die Bretter (Umlaut + -er), also Bügelbretter. „Bügelbrette“ existiert nicht."
+    },
+    {
+      "key": "lego",
+      "field": "plural",
+      "verdict": "REJECT",
+      "note": "Duden widerspricht der Begründung direkt: „das Lego; Genitiv: des Legos, Plural: die Legos <meist ohne Artikel>“ (duden.de/rechtschreibung/Lego_Spielzeug; von mir selbst am Eintrag nachgeprüft, nicht nur über eine Suche). Die Behauptungen des Vorschlags — „no plural in German“ und „‚Legos‘ is an anglicism“ — sind damit widerlegt; Duden verzeichnet den Plural trotz der verbreiteten Marken-Vorschrift „es heißt LEGO, nicht LEGOS“. Der aktuelle Wert „Legos“ ist richtig und muss BLEIBEN; die Änderung wäre eine Verschlechterung (Verlust einer belegten Pluralform). Die separat vorgeschlagene Genus-Korrektur m→n ist davon unberührt richtig — Zielzustand: {Lego, Legos, n}."
+    },
+    {
+      "key": "lettuce",
+      "field": "plural",
+      "verdict": "REJECT",
+      "note": "Duden trennt die beiden Lesarten und markiert genau die abgebildete als plurallos: die Bedeutung „Blattsalat, Kopfsalat“ trägt „Grammatik: ohne Plural“, mit den Beispielen „der Salat fängt schon an zu schießen“ und „ein Kopf Salat“ (duden.de/rechtschreibung/Salat_Speise; von mir selbst am Eintrag nachgeprüft). Der Plural „die Salate“ gehört zur Speise-Bedeutung, nicht zum Gemüse. themes=['at_the_supermarket','vegetables'] und en=['Lettuce','Lettuce'] (kein englischer Plural) belegen die Gemüse-Lesart → der aktuelle Wert p=„Salat“ ist RICHTIG. Die Begründung des Vorschlags („heads of lettuce are countable in German exactly like loaves of bread: zwei Salate“) ist durch Duden widerlegt: dort wird die Pflanze mit der Maßangabe „ein Kopf Salat“ gezählt. Die Brot-Analogie trägt gerade nicht — Brot hat den Plural, Kopfsalat nicht. Nebenbefund: „Salate“ hätte den Eintrag zusätzlich Feld für Feld zum bestehenden Schwesterschlüssel „salad“ {Salat, Salate, m} dupliziert — der dort korrekt ist, weil „salad“ die Speise-Bedeutung trägt."
+    },
+    {
+      "key": "mailbox",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Duden: Briefkasten, der; -s, ...kästen. p=s war der naive -en-Default des Skripts; der Plural umlautet."
+    },
+    {
+      "key": "mosasaurus",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Kein Duden-Stichwort; de.wiktionary: „des Mosasaurus / die Mosasaurier“; de.Wikipedia führt den Artikel „Mosasaurier“. „-sauren“ unbelegt. Echtes -sauros, kein -taurus-Fall."
+    },
+    {
+      "key": "native-american",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Artikelloser Plural verlangt die starke Endung -e: „Indigene Amerikaner“; der Altwert war die unveränderte Singularform (naiver -er-Default). Ob „Indigener Amerikaner“ das treffende Lemma ist, ist eine Sachfrage außerhalb dieser Formkorrektur."
+    },
+    {
+      "key": "octopus",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Duden: „der Oktopus; Genitiv: des Oktopus, Plural: die Oktopoden, Oktopusse“ — „Oktopusse“ ist unmarkiert mitverzeichnet und damit eine echte Duden-Form. „Kraken“ ist dagegen der Plural des eigenen Lemmas Krake (Duden: „der Krake; Genitiv: des Kraken, Plural: die Kraken“) und im p-Feld ein Fremdlemma (N5). Da s=„Oktopus“ steht, ist „Oktopusse“ der minimale kohärente Fix. Hinweis ohne Handlungsbedarf: Duden nennt „Oktopoden“ zuerst; für 3–7-Jährige ist „Oktopusse“ die transparentere Form, und der vom Vorschlag genannte Alternativweg (Lemma Krake/Kraken) bliebe eine Lemma-Entscheidung."
+    },
+    {
+      "key": "office-worker",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Artikelloses Adjektivsubstantiv, starke Deklination: Singular „Büroangestellter“, Plural „Büroangestellte“. Der Altwert war die kopierte Singularform."
+    },
+    {
+      "key": "orchard",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "der Garten → die Gärten, also der Obstgarten → die Obstgärten. p=s war der naive -en-Default."
+    },
+    {
+      "key": "oviraptor",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "„Oviraptore“ ist keine deutsche Form. Beleg-Einschränkung, ausdrücklich: Oviraptor selbst ist weder in Duden noch DWDS noch de.wiktionary verzeichnet — das „src“ des Vorschlags („Duden (-or/-oren pattern)“) ist zu stark. Das Urteil stützt sich auf die -or/-oren-Klasse, die fürs Parallelwort belegt ist (DWDS: „Velociraptor, der ... Nominativ Plural: Velociraptoren“) sowie auf Motor→Motoren, Traktor→Traktoren. Richtig und wichtig ist die Beobachtung des Vorschlags, dass die -saurus→-saurier-Regel hier gerade NICHT gilt — genau die im Brief geforderte Differenzierung."
+    },
+    {
+      "key": "pachycephalosaurus",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "„Pachycephalosauren“ unbelegt. Beleg-Einschränkung: das Lemma steht in keinem erreichbaren deutschen Nachschlagewerk; Urteil über die achtfach Duden-belegte Klasse. Echtes -sauros (pachys+kephale+sauros), kein -taurus-Fall."
+    },
+    {
+      "key": "painting",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "themes=['activities'] — und KEIN „art“-Thema — entscheidet: abgebildet ist die Tätigkeit → „das Malen“, substantivierter Infinitiv, ohne Plural, p=s richtig. s=„Malen“ und g=„n“ stehen bereits; „Gemälde“ im p-Feld ist ein Fremdlemma (N5). Ausdrücklich geprüft: zeigte das Bild ein gerahmtes Gemälde, wäre nicht der Plural, sondern der Singular falsch und der Eintrag müsste Gemälde/Gemälde lauten — dafür gibt es in themes aber keinen Beleg, und en=['Painting','Paintings'] ist die maschinelle englische Pluralisierung, kein Gegenbeleg (vgl. den parallelen Eintrag „pottery“ mit demselben Muster)."
+    },
+    {
+      "key": "pegasus",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Eigenname aus der griechischen Mythologie (das geflügelte Pferd), wie Jupiter; „Pegasen“ ist unbelegt. p=s richtig."
+    },
+    {
+      "key": "pine-tree",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Duden: „die Kiefer; Genitiv: der Kiefer, Plural: die Kiefern“ (Nadelbaum). Der Nullplural gehört zum Homografen „der Kiefer; -s, -“ = Kieferknochen — dessen Plural tatsächlich unverändert ist. Wichtig: nur zusammen mit der separat vorgeschlagenen Genus-Korrektur m→f kohärent; beide müssen gemeinsam angewandt werden, sonst steht dort „der Kiefer → die Kiefern“, eine Mischung aus beiden Homografen."
+    },
+    {
+      "key": "plesiosaurus",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Duden führt das Lemma: „der Plesiosaurus; Genitiv: des Plesiosaurus, Plural: die Plesiosaurier“. Gegenhypothese „-sauren“ als Taxon-Plural geprüft und unbelegt (de.Wikipedia „Plesiosauria“: „Die Plesiosaurier ...“; DWDS „Plesiosaurier“)."
+    },
+    {
+      "key": "pottery",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "themes=['activities'] entscheidet: „das Töpfern“ ist substantivierter Infinitiv ohne Plural → p=s. s=„Töpfern“ steht bereits; „Töpferei“ im p-Feld ist ein Fremdlemma (Handwerk/Werkstatt). Passt zur separat vorgeschlagenen Genus-Korrektur f→n (substantivierte Infinitive sind ausnahmslos Neutrum)."
+    },
+    {
+      "key": "pretzels",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "„Brezelne“ existiert nicht (Duden: die Brezel; -, -n) — eine maschinell erfundene Form. „Brezeln“ ist richtig und in jedem Fall eine Verbesserung, unabhängig davon, wie die zugehörige Singular-Frage entschieden wird (die habe ich wegen der Dublette mit „pretzel“ auf ESCALATE gesetzt). Anmerkung: der Brief-Fehler früherer Fassungen betraf Brezel→Brezeln als angeblichen Defekt; feminine -el-Wörter nehmen -n, die Form ist korrekt."
+    },
+    {
+      "key": "rainbow",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Die Korrektur ist richtig, ihre Begründung aber nicht: Duden führt BEIDE Plurale — „der Regenbogen; Genitiv: des Regenbogens, Plural: die Regenbogen, Regenbögen“ (die Deklinationsseite ordnet sie als „die Regenbögen, Regenbogen“). „Regenbogen“ als Plural ist also KEIN Skript-Artefakt und nicht falsch, anders als im „why“ behauptet. Die Änderung bleibt dennoch richtig, aber aus einem anderen Grund: in dieser Datei kodiert p=s per Konvention „kein Plural“ — das wäre für Regenbogen falsch. „Regenbögen“ ist die unzweideutig plurale und für Kinder natürlichere der beiden Duden-Formen."
+    },
+    {
+      "key": "roasted-turkey",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Zwei Fehler in einer Form, beide korrekt behoben: Truthahn → Truthähne (Umlaut, Duden) und artikelloser Plural mit starker Endung -e statt maskulinem Singular -er. „Gebratene Truthähne“ ist richtig."
+    },
+    {
+      "key": "rudolph",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Eigenname eines bestimmten Rentiers (vgl. Jupiter); „Rudolphe“ ist erfunden. p=s richtig. Die Schreibung Rudolph/Rudolf ist eine Lemma-Frage und zu Recht nicht angetastet."
+    },
+    {
+      "key": "salt",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "themes=['at_the_supermarket'] entscheidet: Speisesalz, Stoffname → p=s. „Salze“ ist der fachsprachliche Plural (Salzarten) und benennt dieses Bild falsch. Genau der im Brief als Musterfall genannte Themen-Entscheid; en=['Salt','Salts'] ist die maschinelle englische Pluralisierung und kein Gegenbeleg."
+    },
+    {
+      "key": "sandbox",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Duden: Sandkasten, der; -s, ...kästen. p=s war der naive -en-Default; der Plural umlautet."
+    },
+    {
+      "key": "scrubs",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Das Grundwort Kleidung ist Kollektiv-/Stoffname; „OP-Kleidungen“ ist keine brauchbare deutsche Form. p=s richtig."
+    },
+    {
+      "key": "stegosaurus",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "„Stegosaurier“ ist richtig — mit einer Präzisierung zum „src“: Duden führt für dieses Tier gar KEIN -us-Stichwort, sondern nur „Ste|go|sau|ri|er, der; -s, Plural: die Stegosaurier“. Der Beleg für das Paar Stegosaurus→Stegosaurier ist de.wiktionary. „Stegosauren“ unbelegt. Echtes -sauros, die carnotaurus-Ausnahme greift zu Recht nicht."
+    },
+    {
+      "key": "styracosaurus",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Beleg-Einschränkung: das Lemma steht in keinem erreichbaren deutschen Nachschlagewerk; Urteil über die achtfach Duden-belegte Klasse ohne Gegenbeleg. Echtes -sauros (styrax+sauros), kein -taurus-Fall. „Styracosauren“ unbelegt."
+    },
+    {
+      "key": "sunscreen",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Duden am Grundwort: „die Creme; Genitiv: der Creme, Plural: die Cremes, (österreichisch, schweizerisch auch:) Cremen“. Für die Bundesrepublik also Sonnencremes — der im Brief genannte Varietäts-Musterfall. Kleine Präzisierung des „src“: Duden markiert „Cremen“ als österreichisch UND schweizerisch, nicht nur österreichisch."
+    },
+    {
+      "key": "therizinosaurus",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Beleg-Einschränkung: Lemma unverzeichnet (Duden/DWDS/Wiktionary); Urteil über die Duden-belegte Klasse. Echtes -sauros (therizo+sauros). „Therizinosauren“ unbelegt."
+    },
+    {
+      "key": "toolbox",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Duden: Kasten, der; -s, Kästen → Werkzeugkästen. p=s war der naive -en-Default."
+    },
+    {
+      "key": "uncle-sam",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "Personifikation/Eigenname; „Onkel Same“ ist maschinell erfunden (das Skript hat „Sam“ wie ein Gattungswort pluralisiert) — der im Brief genannte Musterfall. p=s richtig."
+    },
+    {
+      "key": "velociraptor",
+      "field": "plural",
+      "verdict": "CONFIRM",
+      "note": "DWDS belegt das Lemma direkt: „Velociraptor, der — Genitiv Singular: Velociraptors, Nominativ Plural: Velociraptoren“ (dwds.de/wb/Velociraptor). Duden hat kein Raptor-Stichwort, das „src“ ist insofern zu stark, die Form aber belegt. „Velociraptore“ existiert nicht. Richtig ist auch hier die Differenzierung: kein -saurus-Kopf, also gilt die -saurier-Regel nicht — velociraptor ist im Brief ausdrücklich als Nicht-Fall genannt."
+    },
+    {
+      "key": "blocks",
+      "field": "singular",
+      "verdict": "CONFIRM",
+      "note": "Duden: der Bauklotz; -es, ...klötze. „Bauklötze“ ist der Plural; das Singularfeld muss einen Singular tragen. Geprüft: ein Schwesterschlüssel „block“ existiert NICHT → keine Dublette, glatt anwendbar. Genus m passt."
+    },
+    {
+      "key": "candy",
+      "field": "singular",
+      "verdict": "CONFIRM",
+      "note": "Duden: die Süßigkeit; -, -en. Plural im Singularfeld — die im Brief genannte Defektklasse. Der vom Vorschlag selbst genannte Bonbon-Vorbehalt ist eine Lemma-Frage und wurde zu Recht nur markiert, nicht angewandt."
+    },
+    {
+      "key": "eyelashes",
+      "field": "singular",
+      "verdict": "CONFIRM",
+      "note": "Duden: „die Wimper; Genitiv: der Wimper, Plural: die Wimpern“; der Singular ist die Stichwortform und lebendig („nicht mit der Wimper zucken“). Ausdrücklich gegen den hair-Fall geprüft: Wimper trägt bei Duden KEINE „ohne Plural“-Kollektivbedeutung, ist also glatt zählbar — die dortige Sorge greift hier nicht. Kein Schwesterschlüssel „eyelash“."
+    },
+    {
+      "key": "flip-flops",
+      "field": "singular",
+      "verdict": "CONFIRM",
+      "note": "Duden führt tatsächlich einen Singular: „der Flip-Flop; Genitiv: des Flip-Flops, Plural: die Flip-Flops (meist im Plural)“ — die Bindestrich-Schreibung ist neben „Flipflop“ eigenes Stichwort, das Genus m passt, die vorhandene Schreibung bleibt unangetastet. Hinweis: Duden hat daneben ein Pluraletantum-Stichwort „die Flip-Flops — nur im Plural“; der Altzustand war also nicht sinnlos. Da das Datenmodell ein Singularfeld verlangt und g=„m“ gesetzt ist, ist der maskuline Singular der richtige Treffer. Kein Schwesterschlüssel „flip-flop“."
+    },
+    {
+      "key": "grapes",
+      "field": "singular",
+      "verdict": "CONFIRM",
+      "note": "Duden stützt die Begründung ausdrücklich: „die Traube“ bezeichnet die „traubig um den Stiel angeordneten Beeren, besonders des Weinstocks“ — also die ganze Rispe; eine Lesart „eine Traube = eine einzelne Beere“ führt Duden NICHT. „Eine Traube“ benennt damit genau das, was das Bild zeigt (themes: fruits/at_the_supermarket/breakfast). Kein Schwesterschlüssel „grape“ → keine Dublette. Von den vier Wörtern dieser Klasse der sauberste Fall."
+    },
+    {
+      "key": "green-beans",
+      "field": "singular",
+      "verdict": "CONFIRM",
+      "note": "Plural im Singularfeld; „Grüne Bohne“ ist der korrekte Singular (Duden: die Bohne; -, -n), das p-Feld trägt mit „Grüne Bohnen“ bereits den richtigen artikellosen Plural. Großschreibung nach der Label-Konvention dieser Datei. Kein Schwesterschlüssel „green-bean“."
+    },
+    {
+      "key": "hair",
+      "field": "singular",
+      "verdict": "ESCALATE",
+      "note": "Duden zwingt hier zu einer Entscheidung, die über eine Formkorrektur hinausgeht — deshalb zurückstellen, nicht anwenden. Zunächst zur Entlastung des Vorschlags: „Haar“ ist für dieses Bild NICHT falsch; Duden führt eigens die Bedeutung 2.a „die Gesamtheit der Haare auf dem Kopf des Menschen; das Kopfhaar“ mit dem Beispiel „sie hat schönes, blondes, rotes, braunes, schwarzes Haar“. ABER: genau diese Bedeutung ist bei Duden mit „Grammatik: ohne Plural“ markiert. Der Plural „die Haare“ gehört zur Bedeutung 1 (das einzelne, fadenförmige Gebilde). Der Vorschlag ändert nur das Singularfeld und erzeugt damit {Haar, Haare} — einen Eintrag, dessen beide Felder zwei verschiedene Duden-Bedeutungen benennen: Kopfhaar im Singularfeld, Einzelhaare im Pluralfeld. Eine Zählübung machte daraus „3 Haare“ für ein Frisurbild. themes=['body_parts'], en=['Hair','Hair'] (kein englischer Plural) und countable:false deuten übereinstimmend auf die Kollektiv-Lesart. Kohärent wären entweder {Haar, Haar, n} (Duden 2.a, ohne Plural) ODER die Beibehaltung des Plural-Labels „Haare“ — beides betrifft AUCH das p-Feld und damit mehr, als dieser Vorschlag abdeckt. Das Genus n ist in beiden Fällen richtig und kein Gegenargument. Entscheidung des Betreibers."
+    },
+    {
+      "key": "high-heeled-shoes",
+      "field": "singular",
+      "verdict": "CONFIRM",
+      "note": "Plural im Singularfeld; der Stöckelschuh existiert regulär, das p-Feld trägt bereits den richtigen Plural. Geprüft: ein Schwesterschlüssel „high-heeled-shoe“ existiert NICHT → anders als bei shoes/sneakers/ice-skates entsteht hier keine Dublette. Die Bemerkung des Vorschlags („unlike gloves there is no competing singular key here“) trifft zu."
+    },
+    {
+      "key": "ice-skates",
+      "field": "singular",
+      "verdict": "ESCALATE",
+      "note": "Die Formkorrektur ist für sich richtig (der Schlittschuh hat einen regulären Singular), ihr Ergebnis aber eine exakte Dublette: „ice-skate“ trägt bereits {Schlittschuh, Schlittschuhe, m} — nach Anwendung wäre „ice-skates“ Feld für Feld identisch, obwohl beide Schlüssel verschiedene Bilder tragen (themes: sports vs. christmas). Der Vorschlag benennt die Dublette selbst („a duplicate the operator must resolve“) und übergibt sie damit dem Betreiber; nach Brief gehört genau das zurückgestellt statt angewandt. Zu entscheiden ist, ob „ice-skates“ als Paar-/Plural-Label eigenständig bleibt oder der Schlüssel entfällt."
+    },
+    {
+      "key": "jelly-beans",
+      "field": "singular",
+      "verdict": "CONFIRM",
+      "note": "Plural im Singularfeld; „die Geleebohne“ ist der regulär gebildete Singular des durchsichtigen Kompositums (Gelee + Duden: die Bohne; -, -n), das p-Feld trägt bereits den richtigen Plural. Kein Schwesterschlüssel „jelly-bean“. Anmerkung zum „src“: „Geleebohne“ ist kein Duden-Stichwort — die Form ist aber wohlgeformt, und die Korrektur wechselt das Lemma nicht. Bildprüfung: themes=['easter'] zeigt viele diskret zählbare Einzelstücke — die Massen-Sorge des pasta-Falls greift hier nicht."
+    },
+    {
+      "key": "pasta",
+      "field": "singular",
+      "verdict": "ESCALATE",
+      "note": "Hier kippt die formal richtige Korrektur die Benennung des Bildes — zurückstellen. „die Nudel“ (Duden: die Nudel; -, -n) ist zwar der korrekte Singular zu „Nudeln“, benennt aber EINE einzelne Nudel; themes=['at_the_supermarket'], en=['Pasta','Pasta'] (kein englischer Plural) und countable:false deuten übereinstimmend auf die Massen-Lesart (Packung/Schüssel Nudeln). Anders als bei peas/jelly-beans/potato-chips, wo das Bild diskrete zählbare Einzelstücke zeigt, ist Pasta hier ein Mengenprodukt: „3 Nudeln“ benennt kein Supermarktregal. Der Vorschlag räumt das in seiner eigenen Begründung ein („the key may need the mass treatment“) — eine Korrektur, die ihre eigene Anwendbarkeit an eine Bildfrage knüpft, gehört nach Brief zurückgestellt. Zur Erleichterung der Entscheidung: will der Betreiber einen Singular, ist „Nudel“ die richtige Form; die Alternativen sind ein Plural-Label {Nudeln, Nudeln} oder ein Lemma-Wechsel auf „Pasta“ (f.) bzw. „Teigwaren“."
+    },
+    {
+      "key": "peas",
+      "field": "singular",
+      "verdict": "ESCALATE",
+      "note": "Vom Vorschlag NICHT bemerkt: der Schwesterschlüssel „pea“ existiert bereits mit {Erbse, Erbsen, f}. Nach Anwendung wäre „peas“ Feld für Feld identisch, obwohl beide Schlüssel verschiedene Bilder tragen (themes: vegetables vs. at_the_supermarket). Das ist exakt die Dublettenklasse, die der Vorschlag bei „shoes“ und „ice-skates“ selbst markiert hat — hier wurde sie übersehen. Die Form „Erbse“ ist richtig (Duden: die Erbse; -, -n) und das Bild zeigt diskret zählbare Einzelstücke, die Bildfrage ist hier also unproblematisch; allein die Dublette gehört dem Betreiber vorgelegt."
+    },
+    {
+      "key": "potato-chips",
+      "field": "singular",
+      "verdict": "CONFIRM",
+      "note": "Duden: „der Kartoffelchip; Genitiv: des Kartoffelchips, Plural: die Kartoffelchips (meist im Plural)“ — der Singular existiert als Stichwortform. Kein Schwesterschlüssel „potato-chip“. Bildprüfung gegen den pasta-Fall: Chips sind diskrete, zählbare Einzelstücke („3 Chips“), die Massen-Sorge greift nicht; die Marke „meist im Plural“ ist ein Gebrauchshinweis, kein Fehlen des Singulars. Der vom Vorschlag angehängte pasta-Vorbehalt ist hier daher nicht einschlägig."
+    },
+    {
+      "key": "pretzels",
+      "field": "singular",
+      "verdict": "ESCALATE",
+      "note": "Vom Vorschlag NICHT bemerkt: der Schwesterschlüssel „pretzel“ trägt bereits {Brezel, Brezeln, f}. Zusammen mit der ebenfalls vorgeschlagenen Genus-Korrektur m→f wäre „pretzels“ danach Feld für Feld identisch — Dublette (themes: bakery/food vs. at_the_supermarket). Die Form „Brezel“ ist richtig (Duden: die Brezel; -, -n) und der Defekt real (Plural im Singularfeld, im Brief als Musterfall genannt); zu entscheiden ist der Schlüssel, nicht die Form. Unabhängig davon ist die zugehörige PLURAL-Korrektur („Brezelne“→„Brezeln“) sofort anwendbar und dort mit CONFIRM beurteilt — sie beseitigt ein erfundenes Nichtwort und ist von dieser Entscheidung nicht berührt."
+    },
+    {
+      "key": "sandals",
+      "field": "singular",
+      "verdict": "CONFIRM",
+      "note": "Duden: die Sandale; -, -n. Plural im Singularfeld; geprüft: ein Schwesterschlüssel „sandal“ existiert NICHT → keine Dublette, glatt anwendbar."
+    },
+    {
+      "key": "shoes",
+      "field": "singular",
+      "verdict": "ESCALATE",
+      "note": "Der Vorschlag markiert es selbst („this then duplicates key ‚shoe‘ — a data-model question“): „shoe“ trägt bereits {Schuh, Schuhe, m}; nach Anwendung wäre „shoes“ Feld für Feld identisch, obwohl es ein eigenes Bild trägt (themes: clothing+objects vs. objects). Nach Brief ist eine Dublette mit einem anderen Schlüssel zurückzustellen, nicht anzuwenden — und der Vorschlag räumt selbst ein, dass die Frage ans Datenmodell geht. Die Form „Schuh“ ist richtig; zu entscheiden ist, ob „shoes“ als Paar-/Plural-Label eigenständig bleibt oder entfällt."
+    },
+    {
+      "key": "slippers",
+      "field": "singular",
+      "verdict": "CONFIRM",
+      "note": "Duden: der Hausschuh; -[e]s, -e. Plural im Singularfeld; „Hausschuhe“ ist kein Pluraletantum, der Singular existiert. Ausdrücklich geprüft, weil dieser Schlüssel oberflächlich zur shoes/sneakers/ice-skates-Klasse gehört: ein Schwesterschlüssel „slipper“ existiert NICHT → hier entsteht KEINE Dublette; als einziger der Schuh-Gruppe ist diese Korrektur glatt anwendbar."
+    },
+    {
+      "key": "sneakers",
+      "field": "singular",
+      "verdict": "ESCALATE",
+      "note": "Vom Vorschlag NICHT bemerkt: der Schwesterschlüssel „sneaker“ existiert bereits mit {Turnschuh, Turnschuhe, m}. Nach Anwendung wäre „sneakers“ Feld für Feld identisch, obwohl beide Schlüssel verschiedene Bilder tragen (themes: objects+sports vs. objects). Exakt die Dublettenklasse, die der Vorschlag beim Nachbarwort „shoes“ selbst markiert hat — hier übersehen, obwohl die Lage identisch ist. Die Form „Turnschuh“ ist richtig; die Entscheidung über den Schlüssel gehört dem Betreiber."
+    }
+  ]
+}

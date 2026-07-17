@@ -1,0 +1,556 @@
+{
+  "locale": "de",
+  "batch": "07",
+  "reviewed": 110,
+  "rows": [
+    { "key": "lock",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "log",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "log-cabin",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "lollipop",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "lotus",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "HOLD", "reason": "singular 'Lotus' (the plant) and plural 'Lotusblüten' (the blossoms) are two different lemmas; 'Lotusblüten' is the plural of 'Lotusblüte', not of 'Lotus'. Needs a lemma decision (keep Lotus, or move the whole entry to Lotusblüte/Lotusblüten, f), not a form fix", "source": "Duden"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "lounge-chair",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "lounger",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "love-letter",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "love-note",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "lunchbox",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "macaron",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "macaw",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "magnifying-glass",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "magpie",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "maiasaura",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "HOLD", "reason": "not in Duden; the -saurus→-saurier class does not apply (the name ends in -saura, Lat. fem.). German popular usage shows both 'Maiasauras' and 'Maiasauren' — no reliable source, so no guess"},
+      "gender": {"verdict": "HOLD", "reason": "not in Duden; the genus name is deliberately feminine (maia + saura), yet German dinosaur names usually take m by analogy with 'der Saurier'. Cannot confirm 'der' vs 'die Maiasaura' from a source"} },
+
+    { "key": "mail-carrier",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "mail-truck",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "mailbox",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "FIX", "correct": "Briefkästen", "reason": "Duden: Briefkasten, der; -s, ...kästen. 'Briefkasten' as plural is the script's naive -en default; the plural umlauts", "source": "Duden"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "manatee",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "mango",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "map",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "maple-tree",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "marigold",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "marker",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "mars",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "NO_PLURAL", "reason": "proper noun (planet); no plural. Already encoded correctly as p = s — no change needed"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "mask",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "measuring-cup",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "mechanic",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "medal",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "medical-chart",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "medical-gloves",
+      "singular": {"verdict": "HOLD", "reason": "the singular field holds a plural phrase. Unlike the blocks/candy defect the en gloss is plural in BOTH slots, so the German mirrors the source: this is a plural-only entry by design, not a bad rendering. If the field must hold a singular it is 'Medizinischer Handschuh' (Handschuh is not pluralia tantum) — an entry-design decision, not a form fix"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "medicine",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "NO_PLURAL", "reason": "mass noun in the child-relevant reading (Medizin nehmen). Duden does list Medizin, die; -, -en, but 'Medizinen' means kinds of medicine and is not child-appropriate here. Already encoded correctly as p = s — no change needed", "source": "Duden"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "meerkat",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "melon",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "mercury",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "NO_PLURAL", "reason": "proper noun (planet); no plural. Already encoded correctly as p = s — no change needed"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "merry",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "NO_PLURAL", "reason": "adjective — no plural. Already encoded correctly as p = s — no change needed"},
+      "gender": {"verdict": "HOLD", "reason": "'fröhlich' is an adjective, not a noun; it has no inherent gender, so 'm' is certainly wrong but there is no single right value. Unlike the colour class (das Blau) there is no established substantivization 'das Fröhlich' — needs a decision (leave the gender field empty for adjective entries, or switch the lemma to a noun such as 'die Fröhlichkeit')"} },
+
+    { "key": "meteor",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "microphone",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "FIX", "correct": "n", "reason": "Duden: Mikrofon, das; -s, -e. 'der Mikrofon' does not exist", "source": "Duden"} },
+
+    { "key": "microscope",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "microwave",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "milk",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "NO_PLURAL", "reason": "mass noun. Already encoded correctly as p = s — no change needed"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "milkshake",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "millipede",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "minibus",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "mirror",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "mistletoe",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "mitten",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "mittens",
+      "singular": {"verdict": "HOLD", "reason": "the singular field holds a plural. The en gloss is plural in BOTH slots, so this is a pair-only entry by design and the German mirrors it faithfully. The singular would be 'Fäustling' — but that makes this entry byte-identical to the sibling key 'mitten' (Fäustling/Fäustlinge/m). Pair-vs-single is a data decision (and an N6 dedupe), not a form fix"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "mixer",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "FIX", "correct": "n", "reason": "das Gerät → das Rührgerät. 'der Rührgerät' does not exist", "source": "Duden"} },
+
+    { "key": "monkey",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "monster-truck",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "moon",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "moose",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "mop",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "morning-glory",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "mortar-and-pestle",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "mosasaurus",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "FIX", "correct": "Mosasaurier", "reason": "-saurus builds its German plural on -saurier (Duden pattern: Tyrannosaurus, der; -, ...rier); the -sauren form is exactly the documented error. Mosa- + -saurus, so the rule applies (no -taurus exception here)", "source": "Duden (Tyrannosaurus); class established in batch 01/02"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "mosquito",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "mother",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "motorcycle",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "mountain",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "mouse",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "mouth",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "muffin",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "muffin-tin",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "mug",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "muscles",
+      "singular": {"verdict": "HOLD", "reason": "the singular field holds a plural. The en gloss is plural in BOTH slots (Muscles/Muscles), so the German mirrors the source rather than mis-rendering it — this differs from the blocks/candy class, where the en singular slot was a real singular. The singular is trivially 'Muskel' (der Muskel → die Muskeln) if the operator wants the field filled properly; that is an entry-design call"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "museum",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "mushroom",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "musical-note",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "musician",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "nail",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "narwhal",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "native-american",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "FIX", "correct": "Indigene Amerikaner", "reason": "bare (article-less) adjective plural takes strong -e: 'Indigene Amerikaner'. The stored plural is just the singular copied — the script's naive -er default", "source": "Duden Grammatik (starke Deklination)"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "nativity",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "neck",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "necklace",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "necktie",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "nectarine",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "neptune",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "NO_PLURAL", "reason": "proper noun (planet); no plural. Already encoded correctly as p = s — no change needed"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "nest",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "net",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "nightstand",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "nose",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "notebook",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "nurse",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "nut",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "nutcracker",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "oak-tree",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "oar",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "oatmeal",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "NO_PLURAL", "reason": "mass noun (Brei). Already encoded correctly as p = s — no change needed"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "octagon",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "octopus",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "FIX", "correct": "Oktopusse", "reason": "'Kraken' is the plural of 'Krake', a different lemma — no form of 'Oktopus'. Duden: Oktopus, der; -, ...pusse (also ...poden). Both words name the same animal, so no meaning decision is needed and the minimal same-lemma fix applies. (A consistent alternative pair would be Krake/Kraken, m.)", "source": "Duden"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "office-worker",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "FIX", "correct": "Büroangestellte", "reason": "bare adjectival noun: singular 'Büroangestellter', plural 'Büroangestellte'. The stored plural is just the singular copied — the script's naive -er default", "source": "Duden Grammatik (starke Deklination)"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "oil",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "NO_PLURAL", "reason": "mass noun in this reading (cooking oil, at_the_supermarket). Duden does list Öle for kinds of oil, but that is not the pictured/child reading. Already encoded correctly as p = s — no change needed", "source": "Duden"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "onion",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "orange",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "orange-tree",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "orangutan",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "orca",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "orchard",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "FIX", "correct": "Obstgärten", "reason": "der Garten → die Gärten, so der Obstgarten → die Obstgärten. 'Obstgarten' as plural is the script's naive -en default; the plural umlauts", "source": "Duden"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "orchid",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "ornament",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "ostrich",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "otter",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "ottoman",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "outlet",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "oval",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "oven",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} },
+
+    { "key": "oven-mitt",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"} }
+  ]
+}

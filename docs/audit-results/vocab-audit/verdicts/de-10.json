@@ -1,0 +1,556 @@
+{
+ "locale": "de",
+ "batch": "10",
+ "reviewed": 110,
+ "rows": [
+  { "key": "shelf",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "ship",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "shirt",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "shoe",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "shoes",
+    "singular": { "verdict": "FIX", "correct": "Schuh", "reason": "plural form sits in the singular field (same defect class as 'blocks'/'candy'); singular of 'Schuhe' is 'Schuh'. Note: this then duplicates key 'shoe' — a data-model question, but the form correction itself is unambiguous", "source": "Duden: der Schuh, -e" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "shopping-bag",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "shopping-cart",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "null plural is correct here despite N2/N8: der Einkaufswagen → die Einkaufswagen", "source": "Duden: Wagen, der; -s, - (auch: Wägen süddt.)" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "shorts",
+    "singular": { "verdict": "PLURALIA_TANTUM", "reason": "Duden lists Shorts as plural only; there is no singular. Repeating the plural form in the singular field is the file's way of coding this", "source": "Duden: Shorts, die (Plural)" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK", "reason": "plural word takes 'die'; f yields the correct article" } },
+
+  { "key": "shoulder",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "shovel",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "shrimp",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "shuttlecock",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "shy",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "NO_PLURAL", "reason": "adjective (schüchtern) — no plural; p already equals s, which is correct" },
+    "gender": { "verdict": "HOLD", "reason": "an adjective has no gender; 'm' is wrong but no correct value exists without changing the lemma (e.g. substantivising to 'das Schüchternsein'). Needs a data-model decision, not a form fix" } },
+
+  { "key": "sickle",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "die Sichel → die Sicheln is correct", "source": "Duden: Sichel, die; -, -n" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "signpost",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "null plural is correct despite N2/N8: der Wegweiser → die Wegweiser" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "singer",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "null plural correct: der Sänger → die Sänger" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "singing",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "NO_PLURAL", "reason": "nominalised infinitive — no plural" },
+    "gender": { "verdict": "FIX", "correct": "n", "reason": "nominalised infinitives are always neuter: das Singen, not 'der Singen'", "source": "Duden grammar: substantivierte Infinitive sind Neutra" } },
+
+  { "key": "sink",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "sister",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "sit",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "NO_PLURAL", "reason": "nominalised infinitive (das Sitzen) — no plural" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "skateboard",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "skating",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "NO_PLURAL", "reason": "nominalised infinitive — no plural" },
+    "gender": { "verdict": "FIX", "correct": "n", "reason": "das Schlittschuhlaufen — nominalised infinitives are neuter", "source": "Duden grammar" } },
+
+  { "key": "skeleton",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "skeptical",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "NO_PLURAL", "reason": "adjective (skeptisch) — no plural" },
+    "gender": { "verdict": "HOLD", "reason": "adjective has no gender; 'm' is wrong, but no correct value exists without a lemma change. Data-model decision" } },
+
+  { "key": "skiing",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "NO_PLURAL", "reason": "nominalised infinitive — no plural" },
+    "gender": { "verdict": "FIX", "correct": "n", "reason": "das Skifahren — nominalised infinitives are neuter", "source": "Duden grammar" } },
+
+  { "key": "skirt",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "N5 is a false positive: Röcke is the regular umlaut plural of Rock, not a different lemma", "source": "Duden: Rock, der; -[e]s, Röcke" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "sky",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "null plural correct: der Himmel → die Himmel", "source": "Duden: Himmel, der; -s, -" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "sled",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "null plural correct: der Schlitten → die Schlitten" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "sledding",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "NO_PLURAL", "reason": "nominalised infinitive — no plural" },
+    "gender": { "verdict": "FIX", "correct": "n", "reason": "das Rodeln — nominalised infinitives are neuter", "source": "Duden grammar" } },
+
+  { "key": "sleep",
+    "singular": { "verdict": "OK", "reason": "'Schlafen' (nominalised infinitive) is consistent with the sibling activity keys sit/stand; acceptable for the activity sense" },
+    "plural": { "verdict": "NO_PLURAL", "reason": "nominalised infinitive — no plural" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "sleeping-bag",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "sleigh",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "null plural correct: der Schlitten → die Schlitten" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "slide",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "slippers",
+    "singular": { "verdict": "FIX", "correct": "Hausschuh", "reason": "plural form in the singular field; 'Hausschuhe' is not a pluralia tantum — der Hausschuh exists", "source": "Duden: Hausschuh, der; -[e]s, -e" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "sloth",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "slug",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "smartphone",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "smartwatch",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "smoothie",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "snail",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "snake",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "sneaker",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "sneakers",
+    "singular": { "verdict": "FIX", "correct": "Turnschuh", "reason": "plural form in the singular field; singular is der Turnschuh", "source": "Duden: Turnschuh, der; -[e]s, -e" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "snorkel",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "null plural correct: der Schnorchel → die Schnorchel", "source": "Duden: Schnorchel, der; -s, -" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "snorkeling-mask",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "snow-boots",
+    "singular": { "verdict": "OK", "reason": "Schneestiefel is identical in singular and plural, so the repeated form is not a plural-in-singular defect" },
+    "plural": { "verdict": "OK", "reason": "null plural correct: der Stiefel → die Stiefel" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "snow-globe",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "snow-shovel",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "snowboarding",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "NO_PLURAL", "reason": "nominalised infinitive — no plural" },
+    "gender": { "verdict": "FIX", "correct": "n", "reason": "das Snowboarden — nominalised infinitives are neuter", "source": "Duden grammar" } },
+
+  { "key": "snowdrop",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "null plural correct: -chen diminutives are invariant — das Schneeglöckchen → die Schneeglöckchen" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "snowflake",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "snowman",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "snowsuit",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "soccer",
+    "singular": { "verdict": "OK", "reason": "the sport is 'Fußball' in German; the N6 collision with soccer-ball is a genuine German homonym, not a data defect" },
+    "plural": { "verdict": "NO_PLURAL", "reason": "name of the sport — no plural in this sense; p already equals s, which is correct" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "soccer-ball",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "sock",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "soda",
+    "singular": { "verdict": "OK", "reason": "themes at_the_supermarket/food + gloss 'Soda' = soft drink → Limonade (German 'Soda' would be washing soda, which is not what is pictured)" },
+    "plural": { "verdict": "OK", "reason": "die Limonade → die Limonaden is correct (servings/kinds)", "source": "Duden: Limonade, die; -, -n" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "sofa",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "soup",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "die Suppe → die Suppen is correct — countable as servings/kinds", "source": "Duden: Suppe, die; -, -n" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "spade",
+    "singular": { "verdict": "OK", "reason": "beach/summer sand spade = Schaufel; N6 collision with 'shovel' is a genuine German homonym" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "sparrow",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "n-declension: der Spatz → die Spatzen", "source": "Duden: Spatz, der; -en/-es, -en" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "spatula",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "null plural correct: der Pfannenwender → die Pfannenwender" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "speaker",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "null plural correct: der Lautsprecher → die Lautsprecher" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "sphere",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "die Kugel → die Kugeln is the correct Duden plural — feminine nouns in -el take -n. Not a naive-default error despite appearances", "source": "Duden: Kugel, die; -, -n" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "spider",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "spinach",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "NO_PLURAL", "reason": "mass noun — der Spinat has no child-appropriate plural; p already equals s, which is correct" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "spinning-top",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "null plural correct: der Kreisel → die Kreisel", "source": "Duden: Kreisel, der; -s, -" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "spirit-level",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "sponge",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "spoon",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "null plural correct: der Löffel → die Löffel" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "spray",
+    "singular": { "verdict": "OK", "reason": "household theme: the pictured object is a spray bottle → Sprühflasche is the concrete, child-appropriate word" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "spruce-tree",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "square",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "squash",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "der Kürbis → die Kürbisse (double -s before the ending)", "source": "Duden: Kürbis, der; -ses, -se" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "squid",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "squirrel",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "null plural correct: -chen diminutive is invariant" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "stage",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "stairs",
+    "singular": { "verdict": "OK", "reason": "German has a real singular here: die Treppe = a flight of stairs. Not a pluralia tantum despite the English plural gloss" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "stamp",
+    "singular": { "verdict": "OK", "reason": "themes classroom + post_office: a rubber stamp fits both (a Briefmarke would fit post_office only), so Stempel is the coherent reading" },
+    "plural": { "verdict": "OK", "reason": "null plural correct: der Stempel → die Stempel" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "stand",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "NO_PLURAL", "reason": "nominalised infinitive (das Stehen) — no plural" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "stapler",
+    "singular": { "verdict": "OK", "reason": "Duden sense 1 of 'Hefter' is the stapling device; 'Tacker' would be less ambiguous but Hefter is not wrong", "source": "Duden: Hefter, der — 1. Heftgerät" },
+    "plural": { "verdict": "OK", "reason": "null plural correct: der Hefter → die Hefter" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "star",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "starfish",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "statue",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "stegosaurus",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "FIX", "correct": "Stegosaurier", "reason": "-saurus forms its plural in -saurier; 'Stegosauren' is not a Duden form. Genuine -saurus (Greek sauros = lizard), so the carnotaurus exception does not apply", "source": "Duden pattern: Tyrannosaurus, der; -, ...rier" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "stethoscope",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "stingray",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "null plural correct: der Rochen → die Rochen" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "stocking",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "stool",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "null plural correct: der Hocker → die Hocker" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "stopwatch",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "stork",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "N5 false positive: Störche is the regular umlaut plural of Storch", "source": "Duden: Storch, der; -[e]s, Störche" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "stormy",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "NO_PLURAL", "reason": "adjective (stürmisch) — no plural" },
+    "gender": { "verdict": "HOLD", "reason": "adjective has no gender; 'm' is wrong but no correct value exists without a lemma change. Data-model decision" } },
+
+  { "key": "stove",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "der Herd → die Herde is correct (homograph with 'Herde' = flock, but a different lemma)", "source": "Duden: Herd, der; -[e]s, -e" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "strawberry",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "stretcher",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "die Trage → die Tragen is correct", "source": "Duden: Trage, die; -, -n" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "student",
+    "singular": { "verdict": "OK", "reason": "classroom theme → Schüler (not Student, which is university-level in German)" },
+    "plural": { "verdict": "OK", "reason": "null plural correct: der Schüler → die Schüler" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "styracosaurus",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "FIX", "correct": "Styracosaurier", "reason": "-saurus forms its plural in -saurier; 'Styracosauren' is not a Duden form. Genuine -saurus, not the -taurus exception", "source": "Duden pattern: Tyrannosaurus, der; -, ...rier" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "submarine",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "subway",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "suitcase",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "null plural correct: der Koffer → die Koffer" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "sun",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "die Sonne → die Sonnen is a real Duden plural (other suns/stars)", "source": "Duden: Sonne, die; -, -n" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "sun-hat",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "sundae",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "null plural correct: der Eisbecher → die Eisbecher" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "sunflower",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "sunglasses",
+    "singular": { "verdict": "OK", "reason": "German has a real singular: die Sonnenbrille. Not a pluralia tantum despite the English plural gloss" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "sunny",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "NO_PLURAL", "reason": "adjective (sonnig) — no plural" },
+    "gender": { "verdict": "HOLD", "reason": "adjective has no gender; 'm' is wrong but no correct value exists without a lemma change. Data-model decision" } },
+
+  { "key": "sunrise",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "sunscreen",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "FIX", "correct": "Sonnencremes", "reason": "'Cremen' is the Austrian plural; standard German (Bundesrepublik) is Cremes → Sonnencremes", "source": "Duden: Creme, die; -, -s (österreichisch auch: -n)" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "surfboard",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "das Brett → die Bretter", "source": "Duden: Brett, das; -[e]s, -er" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "surprised",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "NO_PLURAL", "reason": "adjective (überrascht) — no plural" },
+    "gender": { "verdict": "HOLD", "reason": "adjective has no gender; 'm' is wrong but no correct value exists without a lemma change. Data-model decision" } }
+ ]
+}

@@ -1,0 +1,2115 @@
+{
+ "locale": "de",
+ "batch": "06",
+ "of": 12,
+ "genderLegend": "m=maskulin (der) · f=feminin (die) · n=neutrum (das)",
+ "count": 110,
+ "range": [
+  "hospital-bracelet",
+  "lobster"
+ ],
+ "rows": [
+  {
+   "key": "hospital-bracelet",
+   "themes": [],
+   "en": [
+    "Hospital Bracelet",
+    "Hospital Bracelets"
+   ],
+   "cur": {
+    "s": "Patientenarmband",
+    "p": "Patientenarmbänder",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "noImage": true
+  },
+  {
+   "key": "hospital-gown",
+   "themes": [],
+   "en": [
+    "Hospital Gown",
+    "Hospital Gowns"
+   ],
+   "cur": {
+    "s": "Krankenhaushemd",
+    "p": "Krankenhaushemden",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "noImage": true
+  },
+  {
+   "key": "hot",
+   "themes": [
+    "weather"
+   ],
+   "en": [
+    "Hot",
+    "Hot"
+   ],
+   "cur": {
+    "s": "Heiß",
+    "p": "Heiß",
+    "g": "m"
+   },
+   "type": "adjective",
+   "countable": false
+  },
+  {
+   "key": "hot-air-balloon",
+   "themes": [
+    "things_that_fly",
+    "vehicles"
+   ],
+   "en": [
+    "Hot Air Balloon",
+    "Hot Air Balloons"
+   ],
+   "cur": {
+    "s": "Heißluftballon",
+    "p": "Heißluftballons",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "hot-cocoa",
+   "themes": [],
+   "en": [
+    "Hot Cocoa",
+    "Hot Cocoas"
+   ],
+   "cur": {
+    "s": "Heiße Schokolade",
+    "p": "Heiße Schokoladen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "noImage": true
+  },
+  {
+   "key": "hot-dog",
+   "themes": [
+    "camping",
+    "food",
+    "summer"
+   ],
+   "en": [
+    "Hot Dog",
+    "Hot Dogs"
+   ],
+   "cur": {
+    "s": "Hotdog",
+    "p": "Hot Dogs",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N5"
+   ]
+  },
+  {
+   "key": "hotel",
+   "themes": [
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Hotel",
+    "Hotels"
+   ],
+   "cur": {
+    "s": "Hotel",
+    "p": "Hotels",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "house",
+   "themes": [
+    "home_and_nature",
+    "miscellaneous"
+   ],
+   "en": [
+    "House",
+    "Houses"
+   ],
+   "cur": {
+    "s": "Haus",
+    "p": "Häuser",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N5"
+   ]
+  },
+  {
+   "key": "human-torso",
+   "themes": [
+    "classroom"
+   ],
+   "en": [
+    "Human Torso",
+    "Human Torsos"
+   ],
+   "cur": {
+    "s": "Menschlicher Torso",
+    "p": "Menschlicher Torsos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "hummingbird",
+   "themes": [
+    "birds",
+    "birds_2",
+    "things_that_fly"
+   ],
+   "en": [
+    "Hummingbird",
+    "Hummingbirds"
+   ],
+   "cur": {
+    "s": "Kolibri",
+    "p": "Kolibris",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "hydrangea",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Hydrangea",
+    "Hydrangeas"
+   ],
+   "cur": {
+    "s": "Hortensie",
+    "p": "Hortensien",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "hyena",
+   "themes": [
+    "zoo_animals"
+   ],
+   "en": [
+    "Hyena",
+    "Hyenas"
+   ],
+   "cur": {
+    "s": "Hyäne",
+    "p": "Hyänen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "ice",
+   "themes": [
+    "winter"
+   ],
+   "en": [
+    "Ice",
+    "Ice"
+   ],
+   "cur": {
+    "s": "Eis",
+    "p": "Eis",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": false
+  },
+  {
+   "key": "ice-cream",
+   "themes": [
+    "4th_of_july",
+    "at_the_supermarket",
+    "beach",
+    "dessert",
+    "desserts_and_sweets",
+    "food",
+    "summer"
+   ],
+   "en": [
+    "Ice Cream",
+    "Ice Creams"
+   ],
+   "cur": {
+    "s": "Eiscreme",
+    "p": "Eiscreme",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2"
+   ]
+  },
+  {
+   "key": "ice-cream-truck",
+   "themes": [
+    "vehicles"
+   ],
+   "en": [
+    "Ice Cream Truck",
+    "Ice Cream Trucks"
+   ],
+   "cur": {
+    "s": "Eiswagen",
+    "p": "Eiswagen",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "ice-pop",
+   "themes": [
+    "dessert"
+   ],
+   "en": [
+    "Ice Pop",
+    "Ice Pops"
+   ],
+   "cur": {
+    "s": "Eis am Stiel",
+    "p": "Eis am Stiel",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8",
+    "N6"
+   ]
+  },
+  {
+   "key": "ice-skate",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Ice Skate",
+    "Ice Skates"
+   ],
+   "cur": {
+    "s": "Schlittschuh",
+    "p": "Schlittschuhe",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "ice-skates",
+   "themes": [
+    "christmas"
+   ],
+   "en": [
+    "Ice Skates",
+    "Ice Skates"
+   ],
+   "cur": {
+    "s": "Schlittschuhe",
+    "p": "Schlittschuhe",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2"
+   ]
+  },
+  {
+   "key": "ice-skating",
+   "themes": [],
+   "en": [
+    "Ice Skating",
+    "Ice Skating"
+   ],
+   "cur": {
+    "s": "Schlittschuhlaufen",
+    "p": "Schlittschuhlaufen",
+    "g": "m"
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "nets": [
+    "N8",
+    "N6"
+   ],
+   "noImage": true
+  },
+  {
+   "key": "ichthyosaurus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Ichthyosaurus",
+    "Ichthyosauruses"
+   ],
+   "cur": {
+    "s": "Ichthyosaurus",
+    "p": "Ichthyosauren",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "icicle",
+   "themes": [
+    "winter"
+   ],
+   "en": [
+    "Icicle",
+    "Icicles"
+   ],
+   "cur": {
+    "s": "Eiszapfen",
+    "p": "Eiszapfen",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "igloo",
+   "themes": [
+    "winter"
+   ],
+   "en": [
+    "Igloo",
+    "Igloos"
+   ],
+   "cur": {
+    "s": "Iglu",
+    "p": "Iglus",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "iguana",
+   "themes": [
+    "animals",
+    "pets",
+    "reptiles_and_amphibians"
+   ],
+   "en": [
+    "Iguana",
+    "Iguanas"
+   ],
+   "cur": {
+    "s": "Leguan",
+    "p": "Leguane",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "iguanodon",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Iguanodon",
+    "Iguanodons"
+   ],
+   "cur": {
+    "s": "Iguanodon",
+    "p": "Iguanodone",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "inflatable-ring",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Inflatable Ring",
+    "Inflatable Rings"
+   ],
+   "cur": {
+    "s": "Schwimmring",
+    "p": "Schwimmringe",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "iron",
+   "themes": [
+    "around_the_house",
+    "home",
+    "household",
+    "objects"
+   ],
+   "en": [
+    "Iron",
+    "Irons"
+   ],
+   "cur": {
+    "s": "Bügeleisen",
+    "p": "Bügeleisen",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "ironing-board",
+   "themes": [
+    "around_the_house",
+    "home"
+   ],
+   "en": [
+    "Ironing Board",
+    "Ironing Boards"
+   ],
+   "cur": {
+    "s": "Bügelbrett",
+    "p": "Bügelbrette",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "island",
+   "themes": [
+    "beach",
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Island",
+    "Islands"
+   ],
+   "cur": {
+    "s": "Insel",
+    "p": "Inseln",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "jacket",
+   "themes": [
+    "apparel",
+    "clothing",
+    "objects"
+   ],
+   "en": [
+    "Jacket",
+    "Jackets"
+   ],
+   "cur": {
+    "s": "Jacke",
+    "p": "Jacken",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "jaguar",
+   "themes": [
+    "animals",
+    "zoo_animals"
+   ],
+   "en": [
+    "Jaguar",
+    "Jaguars"
+   ],
+   "cur": {
+    "s": "Jaguar",
+    "p": "Jaguare",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "jam",
+   "themes": [
+    "at_the_supermarket",
+    "breakfast"
+   ],
+   "en": [
+    "Jam",
+    "Jams"
+   ],
+   "cur": {
+    "s": "Marmelade",
+    "p": "Marmeladen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "janitor",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Janitor",
+    "Janitors"
+   ],
+   "cur": {
+    "s": "Hausmeister",
+    "p": "Hausmeister",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "jar",
+   "themes": [
+    "kitchen",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Jar",
+    "Jars"
+   ],
+   "cur": {
+    "s": "Glas",
+    "p": "Gläser",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N5",
+    "N6"
+   ]
+  },
+  {
+   "key": "jasmine",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Jasmine",
+    "Jasmines"
+   ],
+   "cur": {
+    "s": "Jasmin",
+    "p": "Jasmine",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "jeans",
+   "themes": [
+    "clothing",
+    "objects"
+   ],
+   "en": [
+    "Jeans",
+    "Jeans"
+   ],
+   "cur": {
+    "s": "Jeans",
+    "p": "Jeans",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2"
+   ]
+  },
+  {
+   "key": "jeep",
+   "themes": [
+    "vehicles"
+   ],
+   "en": [
+    "Jeep",
+    "Jeeps"
+   ],
+   "cur": {
+    "s": "Jeep",
+    "p": "Jeeps",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "jelly-beans",
+   "themes": [
+    "easter"
+   ],
+   "en": [
+    "Jelly Beans",
+    "Jelly Beans"
+   ],
+   "cur": {
+    "s": "Geleebohnen",
+    "p": "Geleebohnen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "jellyfish",
+   "themes": [
+    "animals",
+    "beach",
+    "ocean_life",
+    "sea_life",
+    "summer"
+   ],
+   "en": [
+    "Jellyfish",
+    "Jellyfish"
+   ],
+   "cur": {
+    "s": "Qualle",
+    "p": "Quallen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "jet",
+   "themes": [
+    "things_that_fly",
+    "vehicles"
+   ],
+   "en": [
+    "Jet",
+    "Jets"
+   ],
+   "cur": {
+    "s": "Düsenflugzeug",
+    "p": "Düsenflugzeuge",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "judge",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Judge",
+    "Judges"
+   ],
+   "cur": {
+    "s": "Richter",
+    "p": "Richter",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "jug",
+   "themes": [
+    "kitchen_tools"
+   ],
+   "en": [
+    "Jug",
+    "Jugs"
+   ],
+   "cur": {
+    "s": "Krug",
+    "p": "Krüge",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N5"
+   ]
+  },
+  {
+   "key": "juice",
+   "themes": [
+    "at_the_supermarket",
+    "breakfast"
+   ],
+   "en": [
+    "Juice",
+    "Juices"
+   ],
+   "cur": {
+    "s": "Saft",
+    "p": "Säfte",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N5"
+   ]
+  },
+  {
+   "key": "juice-box",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Juice Box",
+    "Juice Boxes"
+   ],
+   "cur": {
+    "s": "Saftpackung",
+    "p": "Saftpackungen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "jump",
+   "themes": [],
+   "en": [
+    "Jump",
+    "Jumps"
+   ],
+   "cur": {
+    "s": "Springen",
+    "p": "Springen",
+    "g": "n"
+   },
+   "type": null,
+   "countable": null,
+   "nets": [
+    "N7",
+    "N8",
+    "N6"
+   ],
+   "noImage": true
+  },
+  {
+   "key": "jump-rope",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Jump Rope",
+    "Jump Ropes"
+   ],
+   "cur": {
+    "s": "Springseil",
+    "p": "Springseile",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "jumping",
+   "themes": [
+    "activities"
+   ],
+   "en": [
+    "Jumping",
+    "Jumping"
+   ],
+   "cur": {
+    "s": "Springen",
+    "p": "Springen",
+    "g": "m"
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "nets": [
+    "N8",
+    "N6"
+   ]
+  },
+  {
+   "key": "jumpsuit",
+   "themes": [
+    "clothing"
+   ],
+   "en": [
+    "Jumpsuit",
+    "Jumpsuits"
+   ],
+   "cur": {
+    "s": "Overall",
+    "p": "Overalls",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "juniper-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Juniper Tree",
+    "Juniper Trees"
+   ],
+   "cur": {
+    "s": "Wacholder",
+    "p": "Wacholder",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8",
+    "N3"
+   ]
+  },
+  {
+   "key": "jupiter",
+   "themes": [
+    "space"
+   ],
+   "en": [
+    "Jupiter",
+    "Jupiter"
+   ],
+   "cur": {
+    "s": "Jupiter",
+    "p": "Jupiter",
+    "g": "m"
+   },
+   "type": "proper-noun",
+   "countable": false,
+   "nets": [
+    "N8"
+   ]
+  },
+  {
+   "key": "kangaroo",
+   "themes": [
+    "animals",
+    "zoo_animals"
+   ],
+   "en": [
+    "Kangaroo",
+    "Kangaroos"
+   ],
+   "cur": {
+    "s": "Känguru",
+    "p": "Kängurus",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "kayak",
+   "themes": [
+    "camping",
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Kayak",
+    "Kayaks"
+   ],
+   "cur": {
+    "s": "Kajak",
+    "p": "Kajaks",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "kettle",
+   "themes": [
+    "around_the_house",
+    "camping",
+    "kitchen_tools",
+    "objects"
+   ],
+   "en": [
+    "Kettle",
+    "Kettles"
+   ],
+   "cur": {
+    "s": "Wasserkocher",
+    "p": "Wasserkocher",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8",
+    "N6"
+   ]
+  },
+  {
+   "key": "kettlebell",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Kettlebell",
+    "Kettlebells"
+   ],
+   "cur": {
+    "s": "Kugelhantel",
+    "p": "Kugelhanteln",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "key",
+   "themes": [
+    "around_the_house",
+    "objects",
+    "valentine"
+   ],
+   "en": [
+    "Key",
+    "Keys"
+   ],
+   "cur": {
+    "s": "Schlüssel",
+    "p": "Schlüssel",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "keyboard",
+   "themes": [
+    "music",
+    "toys"
+   ],
+   "en": [
+    "Keyboard",
+    "Keyboards"
+   ],
+   "cur": {
+    "s": "Keyboard",
+    "p": "Keyboards",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "kingfisher",
+   "themes": [
+    "birds_2"
+   ],
+   "en": [
+    "Kingfisher",
+    "Kingfishers"
+   ],
+   "cur": {
+    "s": "Eisvogel",
+    "p": "Eisvögel",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "kitchen",
+   "themes": [
+    "around_the_house"
+   ],
+   "en": [
+    "Kitchen",
+    "Kitchens"
+   ],
+   "cur": {
+    "s": "Küche",
+    "p": "Küchen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "kitchen-scale",
+   "themes": [
+    "kitchen",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Kitchen Scale",
+    "Kitchen Scales"
+   ],
+   "cur": {
+    "s": "Küchenwaage",
+    "p": "Küchenwaagen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "kite",
+   "themes": [
+    "beach",
+    "spring",
+    "summer",
+    "things_that_fly",
+    "toys"
+   ],
+   "en": [
+    "Kite",
+    "Kites"
+   ],
+   "cur": {
+    "s": "Drachen",
+    "p": "Drachen",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "kiwi",
+   "themes": [
+    "at_the_supermarket",
+    "birds",
+    "fruits"
+   ],
+   "en": [
+    "Kiwi",
+    "Kiwis"
+   ],
+   "cur": {
+    "s": "Kiwi",
+    "p": "Kiwis",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "knee",
+   "themes": [
+    "body_parts"
+   ],
+   "en": [
+    "Knee",
+    "Knees"
+   ],
+   "cur": {
+    "s": "Knie",
+    "p": "Knie",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2"
+   ]
+  },
+  {
+   "key": "knife",
+   "themes": [
+    "around_the_house",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Knife",
+    "Knives"
+   ],
+   "cur": {
+    "s": "Messer",
+    "p": "Messer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "knitting",
+   "themes": [
+    "activities"
+   ],
+   "en": [
+    "Knitting",
+    "Knitting"
+   ],
+   "cur": {
+    "s": "Stricken",
+    "p": "Stricken",
+    "g": "m"
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "nets": [
+    "N8"
+   ]
+  },
+  {
+   "key": "koala",
+   "themes": [
+    "animals",
+    "faces",
+    "zoo_animals"
+   ],
+   "en": [
+    "Koala",
+    "Koalas"
+   ],
+   "cur": {
+    "s": "Koala",
+    "p": "Koalas",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "komodo-dragon",
+   "themes": [
+    "reptiles_and_amphibians"
+   ],
+   "en": [
+    "Komodo Dragon",
+    "Komodo Dragons"
+   ],
+   "cur": {
+    "s": "Komodowaran",
+    "p": "Komodowarane",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "ladder",
+   "themes": [
+    "objects",
+    "tools"
+   ],
+   "en": [
+    "Ladder",
+    "Ladders"
+   ],
+   "cur": {
+    "s": "Leiter",
+    "p": "Leitern",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "ladle",
+   "themes": [
+    "kitchen",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Ladle",
+    "Ladles"
+   ],
+   "cur": {
+    "s": "Schöpfkelle",
+    "p": "Schöpfkellen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "ladybug",
+   "themes": [
+    "animals",
+    "forest_creatures",
+    "insects_and_bugs",
+    "nature",
+    "summer",
+    "things_that_fly"
+   ],
+   "en": [
+    "Ladybug",
+    "Ladybugs"
+   ],
+   "cur": {
+    "s": "Marienkäfer",
+    "p": "Marienkäfer",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "lake",
+   "themes": [
+    "camping"
+   ],
+   "en": [
+    "Lake",
+    "Lakes"
+   ],
+   "cur": {
+    "s": "See",
+    "p": "Seen",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "lamb",
+   "themes": [
+    "easter",
+    "farm_animals",
+    "spring"
+   ],
+   "en": [
+    "Lamb",
+    "Lambs"
+   ],
+   "cur": {
+    "s": "Lamm",
+    "p": "Lämmer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N5"
+   ]
+  },
+  {
+   "key": "lamp",
+   "themes": [
+    "around_the_house",
+    "furniture",
+    "home",
+    "household"
+   ],
+   "en": [
+    "Lamp",
+    "Lamps"
+   ],
+   "cur": {
+    "s": "Lampe",
+    "p": "Lampen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "lantern",
+   "themes": [
+    "camping"
+   ],
+   "en": [
+    "Lantern",
+    "Lanterns"
+   ],
+   "cur": {
+    "s": "Laterne",
+    "p": "Laternen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "laundry-basket",
+   "themes": [
+    "around_the_house"
+   ],
+   "en": [
+    "Laundry Basket",
+    "Laundry Baskets"
+   ],
+   "cur": {
+    "s": "Wäschekorb",
+    "p": "Wäschekörbe",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "lavender",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Lavender",
+    "Lavenders"
+   ],
+   "cur": {
+    "s": "Lavendel",
+    "p": "Lavendel",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "lawn-mower",
+   "themes": [
+    "around_the_house",
+    "tools"
+   ],
+   "en": [
+    "Lawn Mower",
+    "Lawn Mowers"
+   ],
+   "cur": {
+    "s": "Rasenmäher",
+    "p": "Rasenmäher",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "layer-cake",
+   "themes": [],
+   "en": [
+    "Layer Cake",
+    "Layer Cakes"
+   ],
+   "cur": {
+    "s": "Schichtkuchen",
+    "p": "Schichtkuchen",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ],
+   "noImage": true
+  },
+  {
+   "key": "leaf",
+   "themes": [
+    "home_and_nature",
+    "miscellaneous",
+    "nature",
+    "spring"
+   ],
+   "en": [
+    "Leaf",
+    "Leaves"
+   ],
+   "cur": {
+    "s": "Blatt",
+    "p": "Blätter",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N5"
+   ]
+  },
+  {
+   "key": "leek",
+   "themes": [
+    "vegetables"
+   ],
+   "en": [
+    "Leek",
+    "Leeks"
+   ],
+   "cur": {
+    "s": "Lauch",
+    "p": "Lauch",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2"
+   ]
+  },
+  {
+   "key": "leg",
+   "themes": [
+    "body_parts"
+   ],
+   "en": [
+    "Leg",
+    "Legs"
+   ],
+   "cur": {
+    "s": "Bein",
+    "p": "Beine",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "leggings",
+   "themes": [
+    "clothing"
+   ],
+   "en": [
+    "Leggings",
+    "Leggings"
+   ],
+   "cur": {
+    "s": "Leggings",
+    "p": "Leggings",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2"
+   ]
+  },
+  {
+   "key": "lego",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Lego",
+    "Legos"
+   ],
+   "cur": {
+    "s": "Lego",
+    "p": "Legos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "lemon",
+   "themes": [
+    "at_the_supermarket",
+    "fruits"
+   ],
+   "en": [
+    "Lemon",
+    "Lemons"
+   ],
+   "cur": {
+    "s": "Zitrone",
+    "p": "Zitronen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "lemon-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Lemon Tree",
+    "Lemon Trees"
+   ],
+   "cur": {
+    "s": "Zitronenbaum",
+    "p": "Zitronenbäume",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "lemonade",
+   "themes": [
+    "4th_of_july",
+    "beach",
+    "summer"
+   ],
+   "en": [
+    "Lemonade",
+    "Lemonades"
+   ],
+   "cur": {
+    "s": "Limonade",
+    "p": "Limonaden",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "lemur",
+   "themes": [
+    "zoo_animals"
+   ],
+   "en": [
+    "Lemur",
+    "Lemurs"
+   ],
+   "cur": {
+    "s": "Lemur",
+    "p": "Lemuren",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "leopard",
+   "themes": [
+    "animals",
+    "zoo_animals"
+   ],
+   "en": [
+    "Leopard",
+    "Leopards"
+   ],
+   "cur": {
+    "s": "Leopard",
+    "p": "Leoparden",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "letter",
+   "themes": [
+    "education",
+    "post_office",
+    "valentine"
+   ],
+   "en": [
+    "Letter",
+    "Letters"
+   ],
+   "cur": {
+    "s": "Brief",
+    "p": "Briefe",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "lettuce",
+   "themes": [
+    "at_the_supermarket",
+    "vegetables"
+   ],
+   "en": [
+    "Lettuce",
+    "Lettuce"
+   ],
+   "cur": {
+    "s": "Salat",
+    "p": "Salat",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": false,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "liberty",
+   "themes": [
+    "4th_of_july"
+   ],
+   "en": [
+    "Liberty",
+    "Liberties"
+   ],
+   "cur": {
+    "s": "Freiheit",
+    "p": "Freiheiten",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "librarian",
+   "themes": [
+    "classroom",
+    "occupations"
+   ],
+   "en": [
+    "Librarian",
+    "Librarians"
+   ],
+   "cur": {
+    "s": "Bibliothekar",
+    "p": "Bibliothekare",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "lid",
+   "themes": [
+    "kitchen_tools"
+   ],
+   "en": [
+    "Lid",
+    "Lids"
+   ],
+   "cur": {
+    "s": "Deckel",
+    "p": "Deckel",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "life-jacket",
+   "themes": [
+    "summer"
+   ],
+   "en": [
+    "Life Jacket",
+    "Life Jackets"
+   ],
+   "cur": {
+    "s": "Schwimmweste",
+    "p": "Schwimmwesten",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "life-preserver",
+   "themes": [],
+   "en": [
+    "Life Preserver",
+    "Life Preservers"
+   ],
+   "cur": {
+    "s": "Rettungsring",
+    "p": "Rettungsringe",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "noImage": true
+  },
+  {
+   "key": "lifeguard",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Lifeguard",
+    "Lifeguards"
+   ],
+   "cur": {
+    "s": "Rettungsschwimmer",
+    "p": "Rettungsschwimmer",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "lifeguard-tower",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Lifeguard Tower",
+    "Lifeguard Towers"
+   ],
+   "cur": {
+    "s": "Rettungsturm",
+    "p": "Rettungstürme",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "light",
+   "themes": [
+    "household"
+   ],
+   "en": [
+    "Light",
+    "Lights"
+   ],
+   "cur": {
+    "s": "Licht",
+    "p": "Lichter",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "light-bulb",
+   "themes": [],
+   "en": [
+    "Light Bulb",
+    "Light Bulbs"
+   ],
+   "cur": {
+    "s": "Glühbirne",
+    "p": "Glühbirnen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "noImage": true
+  },
+  {
+   "key": "light-switch",
+   "themes": [
+    "around_the_house"
+   ],
+   "en": [
+    "Light Switch",
+    "Light Switches"
+   ],
+   "cur": {
+    "s": "Lichtschalter",
+    "p": "Lichtschalter",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "lighthouse",
+   "themes": [
+    "beach",
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Lighthouse",
+    "Lighthouses"
+   ],
+   "cur": {
+    "s": "Leuchtturm",
+    "p": "Leuchttürme",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "lightning",
+   "themes": [
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Lightning",
+    "Lightning"
+   ],
+   "cur": {
+    "s": "Blitz",
+    "p": "Blitze",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": false,
+   "nets": [
+    "N1"
+   ]
+  },
+  {
+   "key": "lights",
+   "themes": [
+    "christmas"
+   ],
+   "en": [
+    "Lights",
+    "Lights"
+   ],
+   "cur": {
+    "s": "Lichterkette",
+    "p": "Lichterketten",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "lilac",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Lilac",
+    "Lilacs"
+   ],
+   "cur": {
+    "s": "Flieder",
+    "p": "Flieder",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "lily",
+   "themes": [
+    "easter",
+    "flowers"
+   ],
+   "en": [
+    "Lily",
+    "Lilies"
+   ],
+   "cur": {
+    "s": "Lilie",
+    "p": "Lilien",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "lime",
+   "themes": [
+    "colors",
+    "fruits"
+   ],
+   "en": [
+    "Lime",
+    "Limes"
+   ],
+   "cur": {
+    "s": "Limette",
+    "p": "Limetten",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "lion",
+   "themes": [
+    "animals",
+    "faces",
+    "zoo_animals"
+   ],
+   "en": [
+    "Lion",
+    "Lions"
+   ],
+   "cur": {
+    "s": "Löwe",
+    "p": "Löwen",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "lip",
+   "themes": [
+    "body_parts"
+   ],
+   "en": [
+    "Lip",
+    "Lips"
+   ],
+   "cur": {
+    "s": "Lippe",
+    "p": "Lippen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "lizard",
+   "themes": [
+    "animals",
+    "forest_creatures",
+    "pets"
+   ],
+   "en": [
+    "Lizard",
+    "Lizards"
+   ],
+   "cur": {
+    "s": "Eidechse",
+    "p": "Eidechsen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "llama",
+   "themes": [
+    "animals",
+    "farm_animals"
+   ],
+   "en": [
+    "Llama",
+    "Llamas"
+   ],
+   "cur": {
+    "s": "Lama",
+    "p": "Lamas",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "loader",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Loader",
+    "Loaders"
+   ],
+   "cur": {
+    "s": "Radlader",
+    "p": "Radlader",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "lobster",
+   "themes": [
+    "sea_life"
+   ],
+   "en": [
+    "Lobster",
+    "Lobsters"
+   ],
+   "cur": {
+    "s": "Hummer",
+    "p": "Hummer",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  }
+ ]
+}

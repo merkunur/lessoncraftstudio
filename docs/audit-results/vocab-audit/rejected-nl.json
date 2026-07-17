@@ -1,0 +1,86 @@
+{
+ "locale": "nl",
+ "dropped": [
+  {
+   "key": "blocks",
+   "field": "singular",
+   "to": "Blok",
+   "from": "Blokken",
+   "note": "Het bestand markeert set-ingangen met een IDENTIEKE en-glosse (en[0]==en[1]) en houdt dan de set-vorm in ZOWEL s als p. Ronde 1 heeft die hele klasse (peas/Erwten, grapes/Druiven, cookies/Koekjes, crayons/Kleurpotloden, cards/Kaarten, ice-skates/Schaatsen, crutches/Krukken, curtains/Gordijnen, gloves/Handschoenen, flip-flops/Slippers, green-beans/Sperziebonen, rain-boots/Regenlaarzen; ~40 sleutels) ONGEMOEID gelaten, vijf leden expliciet beschermd onder pluraliaTantum (chips, potato-chips, suspenders, cereal, brain) en jelly-beans vastgehouden als contentvraag voor de opdrachtgever. Toch herschrijft ronde 1 vier willekeurige leden van diezelfde klasse. 'Blocks/Blocks' is een set-ingang: het plaatje toont een set blokken - ronde 1 geeft dat zelf toe ('Image shows a set of toy blocks') en zet er toch een enkelvoud op. Er is geen zustersleutel 'block'. 'Blok' onder een plaatje met meerdere blokken is precies de fout die de eigen bretels-redenering van ronde 1 verbiedt. De huidige waarde 'Blokken' is juist en identiek van vorm aan cards/Kaarten en crayons/Kleurpotloden (zelfde thema toys, beide onaangeroerd). De regel 'the data field must hold a singular' is door ronde 1 zelf verzonnen en wordt door ~40 sleutels in dit bestand weerlegd."
+  },
+  {
+   "key": "boots",
+   "field": "singular",
+   "to": "Laars",
+   "from": "Laarzen",
+   "note": "Het bestand markeert set-ingangen met een IDENTIEKE en-glosse (en[0]==en[1]) en houdt dan de set-vorm in ZOWEL s als p. Ronde 1 heeft die hele klasse (peas/Erwten, grapes/Druiven, cookies/Koekjes, crayons/Kleurpotloden, cards/Kaarten, ice-skates/Schaatsen, crutches/Krukken, curtains/Gordijnen, gloves/Handschoenen, flip-flops/Slippers, green-beans/Sperziebonen, rain-boots/Regenlaarzen; ~40 sleutels) ONGEMOEID gelaten, vijf leden expliciet beschermd onder pluraliaTantum (chips, potato-chips, suspenders, cereal, brain) en jelly-beans vastgehouden als contentvraag voor de opdrachtgever. 'de laars' is EEN laars, niet het afgebeelde PAAR - exact de constructie waarvoor ronde 1 bij `suspenders` schreef: \"Van Dale does list a singular 'de bretel' (one single strap), but the object shown is only ever named in the plural; a TTS reading 'de bretel' over a picture of a pair would be wrong.\" Diezelfde redenering verbiedt 'Laars' hier. Bewijs uit hetzelfde bestand: zustersleutel `rain-boots` houdt s=p='Regenlaarzen' en is niet gecorrigeerd. Let op het onderscheid dat het bestand wel maakt: glasses/Bril, jeans/Spijkerbroek en binoculars/Verrekijker staan wel in het enkelvoud, want daar benoemt het Nederlandse enkelvoud het HELE voorwerp; bij laars/bretel benoemt het een helft van het paar. De huidige waarde 'Laarzen' is juist."
+  },
+  {
+   "key": "vegetables",
+   "field": "singular",
+   "to": "Groente",
+   "from": "Groenten",
+   "note": "Het bestand markeert set-ingangen met een IDENTIEKE en-glosse (en[0]==en[1]) en houdt dan de set-vorm in ZOWEL s als p. Ronde 1 heeft die hele klasse (peas/Erwten, grapes/Druiven, cookies/Koekjes, crayons/Kleurpotloden, cards/Kaarten, ice-skates/Schaatsen, crutches/Krukken, curtains/Gordijnen, gloves/Handschoenen, flip-flops/Slippers, green-beans/Sperziebonen, rain-boots/Regenlaarzen; ~40 sleutels) ONGEMOEID gelaten, vijf leden expliciet beschermd onder pluraliaTantum (chips, potato-chips, suspenders, cereal, brain) en jelly-beans vastgehouden als contentvraag voor de opdrachtgever. 'Vegetables/Vegetables' is een set-ingang (thema farm). De directe familie is niet aangeroerd: grapes s=p='Druiven', peas s=p='Erwten', green-beans s=p='Sperziebonen'. Het voorstel 'Groente/Groenten' volgt bovendien geen enkele conventie in het bestand: massa-ingangen staan met s==p in de MASSA-vorm (corn s=p='Mais', grass s=p='Gras', ice s=p='IJs', food s=p='Eten') - als groente hier als stofnaam gelezen moest worden, was s=p='Groente' de vorm geweest, niet de hybride Groente/Groenten. Dat 'de groente' als stofnaam bestaat is waar, maar het weerlegt de huidige waarde niet: 'Groenten' is een correct Van Dale-meervoud (de groente -> de groenten) en past bij het plaatje. De huidige waarde is juist of beter."
+  },
+  {
+   "key": "gingerbread",
+   "field": "plural",
+   "to": "Peperkoek",
+   "from": "Peperkoeken",
+   "note": "Hier wordt een correct meervoud 'gerepareerd' - precies de klasse die de brief noemt naast 'de broden'. Van Dale: de peperkoek -> de peperkoeken; een peperkoek is een telbare koek (twee peperkoeken), geen stofnaam. De vergelijking is niet mijn constructie maar staat in het bestand zelf: `bread` heeft EXACT dezelfde signatuur - countable:false, en-glosse ['Bread','Bread'], p='Broden' - en is door deze ronde ONAANGEROERD gelaten, terwijl de brief 'de broden' uitdrukkelijk als juist aanmerkt. Twee identieke gevallen, tegengestelde behandeling. Het argument van ronde 1 ('would only read as sorts/loaves') geldt woord voor woord ook voor broden, en dat is nu juist de vorm die moet blijven. De metadata countable:false bewijst niets: `bread` draagt hem ook. De huidige waarde 'Peperkoeken' is juist. (Of 'peperkoek' het beste lemma is bij een kerstplaatje - eerder 'peperkoekmannetje' - is een aparte lemmavraag en geen reden om het meervoud te schrappen.)"
+  }
+ ],
+ "amended": [],
+ "escalated": [
+  {
+   "key": "dice",
+   "field": "singular",
+   "to": "Dobbelsteen",
+   "from": "Dobbelstenen",
+   "note": "Echte plaatjesvraag, geen vormfout - beide takken zijn verdedigbaar en alleen het plaatje beslist. Van Dale 'de dobbelsteen -> de dobbelstenen' klopt op zichzelf, maar de identieke en-glosse ['Dice','Dice'] draagt hier GEEN informatie: Engels 'dice' is zowel het meervoud van 'die' als een gangbaar enkelvoud. Vergelijk de twee patronen in het bestand: fish/Vis-Vissen en deer/Hert-Herten houden het enkelvoud in s (daar mist het Engels alleen een meervoudsvorm), maar cards/Kaarten en crayons/Kleurpotloden (zelfde thema toys) houden de set-vorm. Toont het plaatje een dobbelsteen -> 'Dobbelsteen' (voorstel juist); toont het er meerdere -> huidige 'Dobbelstenen' juist en zet het voorstel een enkelvoud onder een set. Er is geen zustersleutel 'die'. Vraag om het plaatje; niet blind toepassen. NB ronde 1 hield `jelly-beans` vast om precies deze reden ('whether this key is meant as a set entry ... is a content question -> operator decision') maar herschreef `dice` wel."
+  },
+  {
+   "key": "beach-umbrella",
+   "field": "plural",
+   "to": "Parasols",
+   "from": "Parasollen",
+   "note": "Ronde 1 spreekt zichzelf hier aantoonbaar tegen en de bronvermelding houdt geen stand. Ditzelfde lemma staat als aparte sleutel `parasol` (zelfde woord, zelfde thema beach, s='Parasol', p='Parasollen') in held-nl.json VASTGEHOUDEN met de motivering: \"genuinely uncertain ... I cannot cite Van Dale here -> flag for a native check rather than guess\". Toch draagt dit voorstel voor exact dezelfde vorm src='Van Dale'. Een van beide is niet eerlijk; de brief verbiedt verzonnen Van Dale-gronden. Inhoudelijk beslist de regel het niet: eindklemtoon + korte klinker + enkele medeklinker geeft even goed ballon -> ballonnen, kanon -> kanonnen, ananas -> ananassen als salon -> salons, balkon -> balkons. Alleen het woordenboek beslist en ik kan het hier niet citeren, dus ik gok niet. Belangrijker: welke uitspraak de opdrachtgever ook doet, `beach-umbrella` EN `parasol` moeten samen bewegen. Dit voorstel alleen toepassen laat twee sleutels met hetzelfde woord achter met twee verschillende meervouden (Parasols vs Parasollen) - dan spreekt de catalogus zichzelf tegen. Een uitspraak, twee sleutels."
+  },
+  {
+   "key": "dragon-fruit",
+   "field": "plural",
+   "to": "Drakenfruit",
+   "from": "Drakenfruiten",
+   "note": "Het NO_PLURAL-oordeel is een artefact van een lemma dat ronde 1 in dezelfde ronde zelf als fout heeft vastgehouden. held-nl.json bij `dragon-fruit` (singular): \"Standard Dutch for this fruit is 'de drakenvrucht'; 'drakenfruit' is a supermarket anglicism whose head 'fruit' is a mass noun, which is exactly why no honest plural can be built from it.\" Precies - de vrucht IS telbaar (twee drakenvruchten); alleen het anglicisme 'drakenfruit' is dat niet. NO_PLURAL nu toepassen bevriest de verkeerde analyse in de data en maakt de latere lemmawissel moeilijker terug te draaien (die wisselt bovendien het geslacht h->d mee). Enkelvoud en meervoud horen in een uitspraak beslist te worden: wordt het 'de drakenvrucht', dan is p='Drakenvruchten' en is NO_PLURAL fout. Terughouden bij de singular-HOLD. ('Drakenfruiten' is hoe dan ook geen Nederlands - daar zit geen twijfel.)"
+  },
+  {
+   "key": "gopher",
+   "field": "plural",
+   "to": "Wangzakratten",
+   "from": "Grondeekhoorns",
+   "note": "Plaatjesvraag; ronde 1 signaleert hem zelf ('Flag for the image owner') maar past de wijziging toch toe. De rij is nu intern inconsistent (s='Wangzakrat' / p='Grondeekhoorns') en moet zeker veranderen, maar de twee reparaties sluiten elkaar uit en alleen het plaatje beslist: (a) toont het een wangzakrat (Geomyidae) -> p='Wangzakratten' (voorstel juist; eindklemtoon -RAT, dus verdubbeling terecht); (b) toont het een grondeekhoorn (Spermophilus) - in Amerikaans-Engels heet dat losjes ook 'gopher' - dan is juist het ENKELVOUD het verkeerde lemma en wijst de huidige p='Grondeekhoorns' het goede spoor. 'Grondeekhoorns' is geen morfologisch scriptartefact zoals de rest van dit bestand (het is een compleet ander woord), wat erop wijst dat het uit een aparte bron komt en dus niet zomaar weg te gooien is. Zustersleutels zijn bezet: chipmunk='Wangzakeekhoorn', squirrel='Eekhoorn'; 'Grondeekhoorn' is vrij. Vraag het plaatje op voordat een van beide velden wordt aangeraakt."
+  },
+  {
+   "key": "lego",
+   "field": "plural",
+   "to": "Lego",
+   "from": "Lego's",
+   "note": "Precies de sleutel waarvoor de brief waarschuwt: in de Duitse ronde sneuvelde deze 'correctie' omdat het woordenboek de meervoudsvorm wel kende en de wijziging een bestaande vorm zou hebben gewist. Hier ontbreekt bovendien elke bron: het src-veld van dit voorstel is LEEG. En ronde 1 is intern inconsistent: bij dezelfde sleutel `lego` schrijft zij in held-nl.json (gender) \"I cannot verify against Van Dale, so I will not overwrite\" - maar schrapt in het plural-veld zonder enige bron wel een bestaande vorm. Mijn eigen taalgevoel neigt naar massa/merknaam ('met lego spelen'; kindgericht telt men 'legoblokjes'), maar dat is precies het gokken dat de brief verbiedt, en het is te zwak tegenover een gedocumenteerd geval waarin dit oordeel al eens fout bleek. Onzeker -> niet toepassen; laat de opdrachtgever Van Dale raadplegen, samen met de vastgehouden geslachtsvraag (de/het lego)."
+  },
+  {
+   "key": "map",
+   "field": "plural",
+   "to": "Kaarten",
+   "from": "Mappen",
+   "note": "Dubbel met een bestaande zustersleutel - regel 7. `to`='Kaarten' maakt de rij van `map` BYTE-IDENTIEK aan de bestaande sleutel `card` (s='Kaart', p='Kaarten', thema valentine), en `cards` (s=p='Kaarten', thema toys) bestaat ook al. Dat wist het onderscheid tussen een landkaart (thema's camping/classroom/travel_and_holiday) en een wenskaart/speelkaart: op een digibord met TTS hoort het kind bij een kaart van een gebied hetzelfde woord als bij een verjaardagskaart. Dat 'Mappen' fout is klopt volledig (dat is 'de map' = ordner, via de Engelse sleutel binnengehaald), maar de echte fout zit al in het ENKELVOUD s='Kaart'; het voorstel maakt de rij alleen consistent fout. De juiste reparatie is een lemmawissel - 'de landkaart -> de landkaarten' (of 'de plattegrond -> de plattegronden') - en dat is meer dan een vormcorrectie. Terughouden en beide velden samen beslissen."
+  },
+  {
+   "key": "easter",
+   "field": "gender",
+   "to": "h",
+   "from": "d",
+   "note": "Twijfel, en het voorstel doet meer dan een vormcorrectie. Pasen wordt in het Nederlands normaal ZONDER lidwoord gebruikt ('met Pasen', 'Pasen valt vroeg dit jaar'), zodat dit veld praktisch inert is - de vraag is dus niet alleen d-of-h maar of het veld hier uberhaupt van toepassing is. Inhoudelijk: 'de Pasen' acht ik geen Standaardnederlands, dus 'd' is vermoedelijk fout en 'h' vermoedelijk beter. Maar de onzijdigheidstoets waarop het voorstel steunt ('een vrolijk Pasen') is hier niet sluitend: dat is een vaste groetformule die sowieso niet buigt, en de vergelijking wijst twee kanten op (naast 'het kerstfeest' staat 'de kerst', met wel-buigend 'een witte kerst'). Ook het historische meervoudskarakter van Pasen (< paschen) pleit niet zonder meer voor onzijdig. Ik kan de Van Dale-ingang niet aanhalen zonder te gokken; conform de brief (geen citaat verzinnen, onzeker -> escaleren) houd ik dit terug i.p.v. het te bevestigen. Opdrachtgever beslist; als er gekozen moet worden is 'h' de minst slechte waarde."
+  }
+ ],
+ "unreviewed": []
+}

@@ -1,0 +1,207 @@
+{
+  "locale": "nl",
+  "part": "gender",
+  "reviewed": 67,
+  "rows": [
+    { "key": "armadillo", "field": "gender", "verdict": "CONFIRM",
+      "note": "Van Dale: het dier. Samenstellingen erven het geslacht van het hoofdwoord -> het gordeldier (de gordeldieren). Intern bevestigd: de zusterrij reindeer='Rendier' staat al op h; alleen de samenstelling viel door naar de 'd'-default." },
+
+    { "key": "badminton", "field": "gender", "verdict": "CONFIRM",
+      "note": "Van Dale: het badminton (de balsport). Zusterrij shuttlecock='Pluimbal' (het voorwerp) blijft terecht d; metadata (verb-gerund, countable=false, geen meervoud, thema sports) legt de sportlezing vast." },
+
+    { "key": "baking", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief -> altijd onzijdig: het bakken. 'd' zou bovendien de homograaf 'de bakken' (mv. van de bak) coderen, dus precies de verkeerde lezing." },
+
+    { "key": "baseball", "field": "gender", "verdict": "CONFIRM",
+      "note": "Van Dale onderscheidt het honkbal (de sport) van de honkbal (de bal); het geslacht IS hier de betekenis. De sportlezing is intern vastgelegd: dit bestand codeert balrijen consequent als type=noun MET meervoud (tennis-ball, bowling-ball, beach-ball, eight-ball), terwijl deze rij type=verb-gerund, countable=false, p==s en thema 'activities' heeft. De beeldcontrole uit het voorstel blijft terecht een caveat voor de opdrachtgever." },
+
+    { "key": "basketball", "field": "gender", "verdict": "CONFIRM",
+      "note": "Van Dale: het basketbal (de sport) vs de basketbal (de bal). Zelfde interne grond als honkbal: verb-gerund + countable=false + p==s + thema activities = de sportrij-vorm, niet de balrij-vorm." },
+
+    { "key": "biking", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief -> onzijdig: het fietsen." },
+
+    { "key": "blue", "field": "gender", "verdict": "CONFIRM",
+      "note": "Zelfstandig gebruikte kleurnamen zijn onzijdig: het blauw (vgl. het rood, het groen). 'de blauw' bestaat niet; 'd' is de default-fallthrough." },
+
+    { "key": "bowling", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het bowlen. Zusterrij bowling-ball='Bowlingbal' (de bal) blijft terecht d - de lemma's verschillen, dus geen botsing." },
+
+    { "key": "boxing", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het boksen." },
+
+    { "key": "brown", "field": "gender", "verdict": "CONFIRM",
+      "note": "Zelfstandig gebruikte kleurnaam: het bruin. 'de bruin' bestaat niet." },
+
+    { "key": "camp", "field": "gender", "verdict": "CONFIRM",
+      "note": "Van Dale onderscheidt het kamp (kampement, vakantiekamp; mv. de kampen) van de kamp (strijd; omheind stuk land). Thema travel_and_holiday legt de eerste lezing vast, en de huidige p='Kampen' past daar zonder wijziging bij." },
+
+    { "key": "camping", "field": "gender", "verdict": "CONFIRM",
+      "note": "Het lemma is de infinitief 'Kamperen' -> het kamperen. Het voorstel merkt terecht op dat 'de camping' (het terrein) een ander lemma is dat hier niet staat." },
+
+    { "key": "chess", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het schaken. Robuust: ook onder de voorwerplezing die thema 'toys' zou kunnen suggereren blijft het onzijdig (het schaakspel), dus 'h' klopt hoe dan ook." },
+
+    { "key": "chick", "field": "gender", "verdict": "CONFIRM",
+      "note": "Van Dale: het kuiken - de kuikens. Geen verkleinvorm, dus de -je-regel greep niet en de rij viel door naar 'd'; 'de kuiken' is geen Nederlands." },
+
+    { "key": "computer-keyboard", "field": "gender", "verdict": "CONFIRM",
+      "note": "Van Dale: het bord -> het toetsenbord -> het computertoetsenbord (de computertoetsenborden). Intern bevestigd: de zusterrij plate='Bord' staat al op h - het kale hoofdwoord is dus goed gecodeerd en alleen de samenstelling viel door." },
+
+    { "key": "cruise-ship", "field": "gender", "verdict": "CONFIRM",
+      "note": "Van Dale: het schip -> het cruiseschip. Intern bevestigd: zusterrij ship='Schip' staat al op h. (Het meervoud 'Cruiseschippen' is fout, maar dat is het plural-deel, niet dit veld.)" },
+
+    { "key": "dancing", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het dansen. 'd' codeert de homograaf 'de dansen' (mv. van de dans) - de onbedoelde lezing." },
+
+    { "key": "dogwood-tree", "field": "gender", "verdict": "CONFIRM",
+      "note": "Van Dale: de kornoelje. De -je is lexicaal (uit Lat. cornolium), geen verkleinvorm, dus de verkleinwoordregel vuurde hier ten onrechte en 'het kornoelje' is geen Nederlands. Ik heb de tegenrichting over het hele nl-bestand gecontroleerd: van de 36 lemma's op -je(s) is Kornoelje de ENIGE niet-verkleinvorm; alle overige (Koekje, Meisje, Zeepaardje, Lieveheersbeestje, Vergeet-mij-nietje, Ziekenhuisbandje ...) zijn echte verkleinvormen en staan terecht op h. De regel is dus precies eenmaal overvuurd en dit voorstel vangt hem volledig - er zijn geen verdere h->d-gevallen." },
+
+    { "key": "drink", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het drinken. 'de drinken' is onder geen enkele lezing mogelijk." },
+
+    { "key": "ear", "field": "gender", "verdict": "CONFIRM",
+      "note": "Van Dale: het oor - de oren. 'de oor' is geen Nederlands; zuivere default-fallthrough." },
+
+    { "key": "easter", "field": "gender", "verdict": "ESCALATE",
+      "note": "Twijfel, en het voorstel doet meer dan een vormcorrectie. Pasen wordt in het Nederlands normaal ZONDER lidwoord gebruikt ('met Pasen', 'Pasen valt vroeg dit jaar'), zodat dit veld praktisch inert is - de vraag is dus niet alleen d-of-h maar of het veld hier uberhaupt van toepassing is. Inhoudelijk: 'de Pasen' acht ik geen Standaardnederlands, dus 'd' is vermoedelijk fout en 'h' vermoedelijk beter. Maar de onzijdigheidstoets waarop het voorstel steunt ('een vrolijk Pasen') is hier niet sluitend: dat is een vaste groetformule die sowieso niet buigt, en de vergelijking wijst twee kanten op (naast 'het kerstfeest' staat 'de kerst', met wel-buigend 'een witte kerst'). Ook het historische meervoudskarakter van Pasen (< paschen) pleit niet zonder meer voor onzijdig. Ik kan de Van Dale-ingang niet aanhalen zonder te gokken; conform de brief (geen citaat verzinnen, onzeker -> escaleren) houd ik dit terug i.p.v. het te bevestigen. Opdrachtgever beslist; als er gekozen moet worden is 'h' de minst slechte waarde." },
+
+    { "key": "eat", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het eten. De consistentieclaim van het voorstel is door mij geverifieerd: de N6-zusterrij food='Eten' staat inderdaad al op h voor exact hetzelfde woord." },
+
+    { "key": "fishing", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het vissen. 'd' codeert 'de vissen' (mv. van de vis) - precies de verkeerde lezing voor een activiteitensleutel." },
+
+    { "key": "foal", "field": "gender", "verdict": "CONFIRM",
+      "note": "Van Dale: het veulen - de veulens. 'de veulen' is geen Nederlands." },
+
+    { "key": "football", "field": "gender", "verdict": "CONFIRM",
+      "note": "reLitigated. De door ronde 1 gestelde regel 'Nederlandse sportnamen zijn onzijdig' is als ALGEMENE wet onjuist en die redenering verwerp ik: de atletiek, de gymnastiek, de dressuur zijn de-woorden, want een de-vormend achtervoegsel (-iek, -uur) of een de-hoofdwoord (-sport) wint. Van Dale kent per sport een eigen ingang; er is geen overkoepelende regel. Maar de deelklasse waar dit woord in valt - Engelse sportleenwoorden zonder zo'n achtervoegsel - is wel uitzonderingsloos onzijdig: het rugby, het cricket, het hockey, het tennis. 'De American football' is voor de sportlezing geen Nederlands. Metadata (verb-gerund, countable=false, p==s, thema's activities+sports) legt die lezing vast. Het eerdere 'twijfel'-besluit was een conservatieve aanhouding, geen tegenargument: 'd' is hier niet verdedigd, alleen niet aangeraakt." },
+
+    { "key": "gingerbread-house", "field": "gender", "verdict": "CONFIRM",
+      "note": "Van Dale: het huis -> het peperkoekhuis. Intern bevestigd: zusterrij house='Huis' staat al op h. (Dat NL eerder 'peperkoekhuisje' zou zeggen is een lemmakwestie, niet dit veld - en zou ook onzijdig zijn.)" },
+
+    { "key": "golf", "field": "gender", "verdict": "CONFIRM",
+      "note": "reLitigated, en hier is het interne bewijs doorslaggevend. Van Dale onderscheidt de golf (watergolf/baai) van het golf (de balsport); het geslacht IS de betekenis. De N6-botsing van deze sleutel blijkt bij controle precies de sleutel wave='Golf' te zijn (thema beach, mv. Golven, g=d): twee identieke enkelvouden waarvan het geslacht het enige onderscheid is. Thema sports legt de spellezing vast -> h, terwijl wave terecht op d blijft. De algemene sportregel heb ik verworpen (zie football), maar dit woord staat niet op die regel: het staat op de homoniemingang." },
+
+    { "key": "gray", "field": "gender", "verdict": "CONFIRM",
+      "note": "Zelfstandig gebruikte kleurnaam: het grijs (vgl. het groen, het rood). 'de grijs' bestaat niet." },
+
+    { "key": "green", "field": "gender", "verdict": "CONFIRM",
+      "note": "Zelfstandig gebruikte kleurnaam: het groen. 'de groen' bestaat niet." },
+
+    { "key": "hiking", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het wandelen." },
+
+    { "key": "hockey", "field": "gender", "verdict": "CONFIRM",
+      "note": "reLitigated. Van Dale: het hockey ('het Nederlandse hockey'); 'de hockey' is geen Nederlands. Ik bevestig het woord, niet de gestelde algemene sportregel (zie football)." },
+
+    { "key": "ice-skating", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het schaatsen. Belangrijk: de wijziging VERMINDERT de dubbeling i.p.v. haar te scheppen - de zusterrij ice-skates='Schaatsen' (type=noun, het voorwerp, mv. van de schaats) blijft d, zodat het geslacht voortaan het onderscheid 'het schaatsen' / 'de schaatsen' draagt. De rij is nu al identiek aan skating (N6); dat is een bestaande dubbeling die los staat van dit veld en die door 'd' te laten staan niet zou verdwijnen." },
+
+    { "key": "jumping", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het springen." },
+
+    { "key": "knitting", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het breien." },
+
+    { "key": "magnifying-glass", "field": "gender", "verdict": "CONFIRM",
+      "note": "Van Dale: het glas -> het vergrootglas. Intern bevestigd: zusterrij glass='Glas' staat al op h." },
+
+    { "key": "post-office", "field": "gender", "verdict": "CONFIRM",
+      "note": "Van Dale: het kantoor -> het postkantoor (de postkantoren). 'de postkantoor' is geen Nederlands." },
+
+    { "key": "pottery", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het pottenbakken. Robuust: ook onder de voorwerplezing die 'Potteries'/countable=true suggereert blijft het onzijdig (het aardewerk). De consistentieclaim is door mij geverifieerd: painting='Schilderen' staat inderdaad al op h. NB het voorstel voert GEEN bron aan (src is leeg); mijn oordeel steunt daarom op de infinitiefregel zelf, niet op de aangehaalde grond." },
+
+    { "key": "read", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het lezen." },
+
+    { "key": "reading", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het lezen." },
+
+    { "key": "rocking-horse", "field": "gender", "verdict": "CONFIRM",
+      "note": "Van Dale: het paard -> het hobbelpaard (de hobbelpaarden). Intern bevestigd: zusterrij horse='Paard' staat al op h." },
+
+    { "key": "run", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het rennen." },
+
+    { "key": "running", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het rennen." },
+
+    { "key": "scuba-diving", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het duiken." },
+
+    { "key": "sewing", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het naaien." },
+
+    { "key": "singing", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het zingen." },
+
+    { "key": "sit", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het zitten. Als kaal werkwoord is er geen lidwoord, maar 'd' kan onder geen lezing goed zijn." },
+
+    { "key": "skating", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het schaatsen. 'd' codeert de andere lezing (de schaatsen = het voorwerp), die in dit bestand al een eigen sleutel heeft (ice-skates, terecht d). Zie ice-skating: de wijziging schept geen dubbeling maar draagt juist het onderscheid." },
+
+    { "key": "skiing", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het skien. Contrast met het voorwerp de ski -> de ski's, dat een ander lemma is." },
+
+    { "key": "sledding", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het sleeen. Intern bevestigd en juist nuttig: de zusterrij sled='Slee'/'Sleeen' blijft d, zodat het geslacht het onderscheid 'het sleeen' (activiteit) / 'de sleeen' (mv. van de slee) gaat dragen." },
+
+    { "key": "sleep", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het slapen." },
+
+    { "key": "snorkeling-mask", "field": "gender", "verdict": "CONFIRM",
+      "note": "Van Dale: het masker -> het snorkelmasker. Intern bevestigd: zusterrij mask='Masker' staat al op h." },
+
+    { "key": "snowboarding", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het snowboarden." },
+
+    { "key": "soccer", "field": "gender", "verdict": "CONFIRM",
+      "note": "Van Dale: het voetbal (de balsport) vs de voetbal (de bal) - het bekendste de/het-minimaalpaar van het Nederlands. Intern doorslaggevend: de N6-botsing is met soccer-ball='Voetbal' (type=noun, mv. Voetballen, thema sports), dat terecht d blijft; het geslacht is het enige onderscheid tussen sport en bal, en deze rij heeft de sportvorm (verb-gerund, p==s). Zonder deze correctie zegt de rij 'de bal' terwijl gloss en thema's de sport aanwijzen." },
+
+    { "key": "stand", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het staan." },
+
+    { "key": "swimming", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het zwemmen - het schoolvoorbeeld van de klasse." },
+
+    { "key": "table-tennis", "field": "gender", "verdict": "CONFIRM",
+      "note": "reLitigated. Het tafeltennis: samenstelling met het tennis als hoofdwoord, dus onzijdig langs de hoofdwoordregel - onafhankelijk van de door mij verworpen algemene sportregel (zie football). 'de tafeltennis' is geen Nederlands." },
+
+    { "key": "tape", "field": "gender", "verdict": "CONFIRM",
+      "note": "reLitigated. Standaardnederlands (NL): het plakband. De vraag uit de brief of 'de tape' (het bandje) even geldig is, raakt dit veld niet: het lemma DAT ER STAAT is 'Plakband', niet 'tape', en het geslacht moet bij dat lemma horen. Ik heb de sterkste tegenaanwijzing zelf getoetst - de -band-familie in dit bestand staat op d (armband, hoofdband, zwemband) - maar dat is geen tegenbewijs: die bevatten 'de band' (riem/ring/strook om iets te binden), terwijl plakband het onzijdige 'band' (lint, strook weefsel) bevat; vgl. bandage='Verband', dat in dit bestand al op h staat. 'De plakband' is Belgisch/niet-standaard voor NL." },
+
+    { "key": "tape-measure", "field": "gender", "verdict": "CONFIRM",
+      "note": "Van Dale: het lint (de linten) -> het meetlint. Intern bevestigd: zusterrij ribbon='Lint' staat al op h." },
+
+    { "key": "tennis", "field": "gender", "verdict": "CONFIRM",
+      "note": "reLitigated. Van Dale: het tennis ('het Nederlandse tennis'); 'de tennis' bestaat niet voor de sport. De zusterrijen tennis-ball en tennis-racket zijn voorwerpen en blijven daar los van. Ik bevestig het woord, niet de gestelde algemene sportregel (zie football)." },
+
+    { "key": "tennis-racket", "field": "gender", "verdict": "CONFIRM",
+      "note": "Van Dale: het racket -> het tennisracket. Er staat geen kale zusterrij 'racket' in het bestand om tegen te ijken, maar 'de racket' is geen Standaardnederlands." },
+
+    { "key": "violet", "field": "gender", "verdict": "CONFIRM",
+      "note": "h is robuust onder BEIDE lezingen die de thema's (colors + flowers) openlaten: de zelfstandig gebruikte kleurnaam is het violet, en de bloem is het viooltje. 'de violet' bestaat onder geen lezing, dus 'd' is hoe dan ook fout. NB het lemma/meervoud ('Violet' met mv. 'Violetten') is intern inconsistent - 'Violetten' is geen Nederlandse bloemnaam-meervoud - maar dat valt buiten dit veld en hoort in het plural/singular-deel." },
+
+    { "key": "walk", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het lopen." },
+
+    { "key": "watch", "field": "gender", "verdict": "CONFIRM",
+      "note": "Van Dale: het horloge (de horloges). 'de horloge' is geen Nederlands." },
+
+    { "key": "white", "field": "gender", "verdict": "CONFIRM",
+      "note": "Zelfstandig gebruikte kleurnaam: het wit. 'de wit' is ongrammaticaal." },
+
+    { "key": "writing", "field": "gender", "verdict": "CONFIRM",
+      "note": "Gesubstantiveerde infinitief: het schrijven." },
+
+    { "key": "yacht", "field": "gender", "verdict": "CONFIRM",
+      "note": "Van Dale onderscheidt het jacht (het vaartuig) van de jacht (het jagen); het geslacht is hier de betekenis. Thema's travel_and_holiday + vehicles leggen de bootlezing vast, dus h. Met 'd' hoort een kind 'de jacht' bij een plaatje van een boot." },
+
+    { "key": "yellow", "field": "gender", "verdict": "CONFIRM",
+      "note": "Zelfstandig gebruikte kleurnaam: het geel (vgl. het rood). 'de geel' is ongrammaticaal." }
+  ]
+}

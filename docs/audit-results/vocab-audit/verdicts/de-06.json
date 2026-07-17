@@ -1,0 +1,556 @@
+{
+  "locale": "de",
+  "batch": "06",
+  "reviewed": 110,
+  "rows": [
+    { "key": "hospital-bracelet",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hospital-gown",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hot",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "adjective describing weather; adjectives have no plural. p already equals s, which is the correct encoding" },
+      "gender": { "verdict": "FIX", "correct": "n", "reason": "an adjective has no inherent gender; 'der Heiss' is not German. If treated as a headword noun it is neuter, like colour names (das Blau, das Braun); 'm' is wrong in every reading" } },
+
+    { "key": "hot-air-balloon",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hot-cocoa",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hot-dog",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "FIX", "correct": "Hotdogs", "reason": "singular is spelled as one word 'Hotdog' but the plural as two words 'Hot Dogs' — same lemma, inconsistent spelling. Duden: der Hotdog, Plural Hotdogs", "source": "Duden" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hotel",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "house",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "human-torso",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "FIX", "correct": "Menschliche Torsos", "reason": "adjective is not inflected for the plural: bare nominative plural takes the strong ending -e, so 'Menschliche Torsos', not 'Menschlicher Torsos'", "source": "Duden (Torso, der; -s, -s)" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hummingbird",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hydrangea",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hyena",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "ice",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "mass noun (das Eis, frozen water); no plural. p already equals s, which is correct", "source": "Duden (Eis, das; -es)" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "ice-cream",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "FIX", "correct": "Eiscremes", "reason": "p currently equals s, encoding 'no plural', but Duden gives die Eiscreme, Plural Eiscremes (loanwords in -creme take -s, cf. die Creme, die Cremes). Note: the child-natural word for the pictured item is 'Eis', which the key 'ice' already occupies", "source": "Duden" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "ice-cream-truck",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "ice-pop",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "the head 'Eis' has no plural form; the phrase is uninflected ('zwei Eis am Stiel'). Countable but formally invariant — p equals s is correct" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "ice-skate",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "ice-skates",
+      "singular": { "verdict": "FIX", "correct": "Schlittschuh", "reason": "a plural stands in the singular field (same defect class as 'blocks'/'candy'); der Schlittschuh has a regular singular. NOTE: after this fix the entry is identical to the key 'ice-skate' — a duplicate the operator must resolve" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "ice-skating",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "substantivized infinitive (das Schlittschuhlaufen); no plural. p already equals s, which is correct" },
+      "gender": { "verdict": "FIX", "correct": "n", "reason": "substantivized infinitives are without exception neuter: das Schlittschuhlaufen, not 'der Schlittschuhlaufen'" } },
+
+    { "key": "ichthyosaurus",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "FIX", "correct": "Ichthyosaurier", "reason": "-saurus (Greek sauros = lizard) forms its plural in -saurier, as with Tyrannosaurus, der; -, ...rier. 'Ichthyosauren' does not follow the Duden pattern", "source": "Duden" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "icicle",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "igloo",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "iguana",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "iguanodon",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "HOLD", "reason": "'Iguanodone' looks like a naive default suffix. The stem is Greek -odon/-odontos (tooth), not -saurus, so the -saurier rule does not apply; candidates are the scientific 'Iguanodonten' or the loan plural 'Iguanodons'. I find no Duden entry to arbitrate and will not guess — needs a decision" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "inflatable-ring",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "iron",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "ironing-board",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "FIX", "correct": "Bügelbretter", "reason": "head noun is Brett: das Brett → die Bretter (umlaut + -er). 'Bügelbrette' is not a German form", "source": "Duden" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "island",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "jacket",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "jaguar",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "jam",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "janitor",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "jar",
+      "singular": { "verdict": "HOLD", "reason": "'Glas' is correct German for a jar, but its primary reading is the drinking glass, and N6 flags a collision with another key — two different pictures would carry the identical word and identical spoken form. Disambiguating needs a lemma decision (Einmachglas / Marmeladenglas), which is a content question about what the image shows, not a form fix" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "jasmine",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "jeans",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "jeep",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "jelly-beans",
+      "singular": { "verdict": "FIX", "correct": "Geleebohne", "reason": "a plural stands in the singular field (same defect class as 'blocks'/'candy'); the singular is die Geleebohne" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "jellyfish",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "jet",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "judge",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "jug",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "juice",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "juice-box",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "jump",
+      "singular": { "verdict": "HOLD", "reason": "the entry is internally inconsistent: the English gloss is the countable event 'Jump/Jumps' (= der Sprung), but the German field holds the substantivized infinitive 'Springen' (= the activity), which duplicates the key 'jumping' (N6). Choosing between Sprung and Springen is a lemma decision, not a form fix. Orphan with no image — lowest priority" },
+      "plural": { "verdict": "HOLD", "reason": "see singular: 'Springen' has no plural, 'Sprung' has 'Sprünge'; depends on the lemma chosen" },
+      "gender": { "verdict": "HOLD", "reason": "depends on the lemma: das Springen (n) vs. der Sprung (m)" } },
+
+    { "key": "jump-rope",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "jumping",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "substantivized infinitive (das Springen); no plural. p already equals s, which is correct" },
+      "gender": { "verdict": "FIX", "correct": "n", "reason": "substantivized infinitives are without exception neuter: das Springen, not 'der Springen'" } },
+
+    { "key": "jumpsuit",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "juniper-tree",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "jupiter",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "proper noun (the planet); no plural. p already equals s, which is correct" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "kangaroo",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "kayak",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "kettle",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "kettlebell",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "key",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "keyboard",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "kingfisher",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "kitchen",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "kitchen-scale",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "kite",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "kiwi",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "knee",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "knife",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "knitting",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "substantivized infinitive (das Stricken); no plural. p already equals s, which is correct" },
+      "gender": { "verdict": "FIX", "correct": "n", "reason": "substantivized infinitives are without exception neuter: das Stricken, not 'der Stricken'" } },
+
+    { "key": "koala",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "komodo-dragon",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "ladder",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "ladle",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "ladybug",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "lake",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "lamb",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "lamp",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "lantern",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "laundry-basket",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "lavender",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "lawn-mower",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "layer-cake",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "leaf",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "leek",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "as the vegetable, Lauch is used as a mass noun; Duden's plural 'Lauche' denotes kinds of allium (Knoblauch, Schnittlauch), not several leek stalks — those are 'Lauchstangen'. p equals s is the right encoding for the picture" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "leg",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "leggings",
+      "singular": { "verdict": "PLURALIA_TANTUM", "reason": "the garment is used as a plural in standard German (die Leggings); no data change needed — where a singular is accepted it is identical in form, so s = p is correct either way" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "lego",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "Lego is a brand name (das Lego; -s) with no plural in German; 'Legos' is an anglicism. The countable pictured item is der Legostein → die Legosteine, which would be a lemma change", "source": "Duden" },
+      "gender": { "verdict": "FIX", "correct": "n", "reason": "das Lego, not 'der Lego' — the brand name is neuter", "source": "Duden" } },
+
+    { "key": "lemon",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "lemon-tree",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "lemonade",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "lemur",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "leopard",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "letter",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "lettuce",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "FIX", "correct": "Salate", "reason": "p equals s encodes 'no plural', but heads of lettuce are countable in German exactly like loaves of bread: der Salat → die Salate ('zwei Salate'). The metadata countable:false is the known-fallible hint (cf. bread). If the N6 collision with a 'salad' key matters, 'Kopfsalat' would disambiguate — that would be a separate lemma decision", "source": "Duden" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "liberty",
+      "singular": { "verdict": "HOLD", "reason": "content question about the image: with theme 4th_of_july the picture is most likely the Statue of Liberty (die Freiheitsstatue), not the abstract concept. 'Freiheit' is a correct gloss of 'Liberty' but an abstract noun is not a picture-card word — needs a look at the image, not a form fix" },
+      "plural": { "verdict": "HOLD", "reason": "depends on the lemma: for the abstract noun there is no child-appropriate plural (Duden's 'Freiheiten' means privileges, not instances of the concept); for Freiheitsstatue it would be Freiheitsstatuen" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "librarian",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "lid",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "life-jacket",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "life-preserver",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "lifeguard",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "lifeguard-tower",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "light",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "light-bulb",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "light-switch",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "lighthouse",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "lightning",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "lights",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "lilac",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "lily",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "lime",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "lion",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "lip",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "lizard",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "llama",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "loader",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "lobster",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } }
+  ]
+}

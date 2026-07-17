@@ -1,0 +1,105 @@
+{
+  "locale": "de",
+  "batch": "12",
+  "reviewed": 53,
+  "rows": [
+    {
+      "key": "venus",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "proper noun (planet); no plural. p already equals s — encoding is correct as it stands", "source": "Duden: Venus, die; -" },
+      "gender": { "verdict": "FIX", "correct": "f", "reason": "die Venus, not der. Most planets are masculine (der Mars, der Jupiter), but Venus and Erde are feminine — the naive rule was applied", "source": "Duden" }
+    },
+    { "key": "vest", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "veterinarian", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "video-game", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    {
+      "key": "violet",
+      "singular": { "verdict": "HOLD", "reason": "entry conflates two different lemmata: 'Violett' is the COLOUR, 'Veilchen' is the FLOWER. themes are [colors, flowers] — ambiguous, so the image must decide. Colour reading: Violett / no plural. Flower reading: Veilchen / Veilchen. Not a form fix — needs a lemma decision" },
+      "plural": { "verdict": "HOLD", "reason": "see singular: current p 'Veilchen' is not the plural of 'Violett' — it is a different word" },
+      "gender": { "verdict": "OK", "reason": "n is correct for either lemma (das Violett / das Veilchen), so gender survives the pending lemma decision" }
+    },
+    { "key": "violin", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    {
+      "key": "volleyball",
+      "singular": { "verdict": "OK", "reason": "'Volleyball' is correct for both readings (the sport and the ball)" },
+      "plural": { "verdict": "HOLD", "reason": "depends on what the picture shows: the SPORT has no plural (current p=s would be correct), the BALL is der Volleyball → die Volleybälle. en gloss [Volleyball, Volleyball] and countable:false point to the sport, but theme 'sports' in a picture library usually means the ball. Content question about the image — not guessing", "source": "Duden: Volleyball, der; -[e]s, ...bälle (Ball) / -[e]s (Spiel)" },
+      "gender": { "verdict": "OK", "reason": "m is correct for both readings — -ball sport names are masculine in German (der Fußball, der Volleyball)" }
+    },
+    { "key": "vulture", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "waffle", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "waitress", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    {
+      "key": "walk",
+      "singular": { "verdict": "HOLD", "reason": "lemma unclear and entry is internally inconsistent: en [Walk, Walks] is countable ('a walk' = der Spaziergang), but de has the verbal noun 'Gehen' (the activity, no plural). No themes and noImage:true — nothing decides it. Needs a lemma decision, not a form fix. Lowest priority (dead data)" },
+      "plural": { "verdict": "HOLD", "reason": "see singular: 'Gehen' → no plural; 'Spaziergang' → Spaziergänge" },
+      "gender": { "verdict": "HOLD", "reason": "depends on the lemma: das Gehen (n, current value would be right) vs der Spaziergang (m)" }
+    },
+    { "key": "wallet", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "walnut-tree", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "walrus", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "wand", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "wardrobe", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "washing-machine", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "wasp", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "watch", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    {
+      "key": "water",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "mass noun (drinking water / sea water per themes). 'Wässer' exists only for mineral-water types and in chemistry — not child-appropriate. p already equals s — encoding is correct as it stands", "source": "Duden" },
+      "gender": { "verdict": "OK" }
+    },
+    { "key": "water-bottle", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "water-lily", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "watering-can", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "watermelon", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "wave", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "weasel", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "whale", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "wheelbarrow", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "wheelchair", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "whisk", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "whistle", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    {
+      "key": "white",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "colour name used as a noun — no child-appropriate plural. p already equals s — encoding is correct as it stands" },
+      "gender": { "verdict": "FIX", "correct": "n", "reason": "substantivised colour names are neuter: das Weiß (like das Blau, das Braun). 'der Weiß' does not exist", "source": "Duden" }
+    },
+    { "key": "whiteboard", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "windmill", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "window", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "winter-hat", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "winter-jacket", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "wisteria", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "wolf", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "woodpecker", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "worm", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "wreath", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "wrench", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "wrist", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    {
+      "key": "writing",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "substantivised infinitive naming the activity (theme 'activities') — no plural. The homograph 'das Schreiben' = letter/missive does have 'die Schreiben', but that is a different sense and not what the picture shows. p already equals s — encoding is correct as it stands" },
+      "gender": { "verdict": "FIX", "correct": "n", "reason": "substantivised infinitives are without exception neuter: das Schreiben (like das Essen, das Backen). 'der Schreiben' does not exist", "source": "Duden" }
+    },
+    { "key": "x-ray", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "xylophone", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "yacht", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "yak", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    {
+      "key": "yellow",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "colour name used as a noun — no child-appropriate plural. p already equals s — encoding is correct as it stands" },
+      "gender": { "verdict": "FIX", "correct": "n", "reason": "substantivised colour names are neuter: das Gelb (like das Blau, das Braun). 'der Gelb' does not exist", "source": "Duden" }
+    },
+    {
+      "key": "yogurt",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "mass noun like Milch. 'Joghurts' exists for cups/varieties, but the entry is uncountable (en [Yogurt, Yogurt], countable:false) and there is no image. p already equals s — encoding is correct as it stands" },
+      "gender": { "verdict": "OK", "reason": "der Joghurt is the standard German (BRD) form; Duden also allows das (and die in Austria), so m is correct" }
+    },
+    { "key": "zebra", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } },
+    { "key": "zinnia", "singular": { "verdict": "OK" }, "plural": { "verdict": "OK" }, "gender": { "verdict": "OK" } }
+  ]
+}

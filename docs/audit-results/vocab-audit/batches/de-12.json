@@ -1,0 +1,1000 @@
+{
+ "locale": "de",
+ "batch": "12",
+ "of": 12,
+ "genderLegend": "m=maskulin (der) · f=feminin (die) · n=neutrum (das)",
+ "count": 53,
+ "range": [
+  "venus",
+  "zinnia"
+ ],
+ "rows": [
+  {
+   "key": "venus",
+   "themes": [
+    "space"
+   ],
+   "en": [
+    "Venus",
+    "Venus"
+   ],
+   "cur": {
+    "s": "Venus",
+    "p": "Venus",
+    "g": "m"
+   },
+   "type": "proper-noun",
+   "countable": false
+  },
+  {
+   "key": "vest",
+   "themes": [
+    "accessories",
+    "camping",
+    "clothing"
+   ],
+   "en": [
+    "Vest",
+    "Vests"
+   ],
+   "cur": {
+    "s": "Weste",
+    "p": "Westen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "veterinarian",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Veterinarian",
+    "Veterinarians"
+   ],
+   "cur": {
+    "s": "Tierarzt",
+    "p": "Tierärzte",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "video-game",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Video Game",
+    "Video Games"
+   ],
+   "cur": {
+    "s": "Videospiel",
+    "p": "Videospiele",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "violet",
+   "themes": [
+    "colors",
+    "flowers"
+   ],
+   "en": [
+    "Violet",
+    "Violets"
+   ],
+   "cur": {
+    "s": "Violett",
+    "p": "Veilchen",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N5"
+   ]
+  },
+  {
+   "key": "violin",
+   "themes": [
+    "activities",
+    "music"
+   ],
+   "en": [
+    "Violin",
+    "Violins"
+   ],
+   "cur": {
+    "s": "Geige",
+    "p": "Geigen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "volleyball",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Volleyball",
+    "Volleyball"
+   ],
+   "cur": {
+    "s": "Volleyball",
+    "p": "Volleyball",
+    "g": "m"
+   },
+   "type": "verb-gerund",
+   "countable": false
+  },
+  {
+   "key": "vulture",
+   "themes": [
+    "animals",
+    "birds",
+    "birds_2"
+   ],
+   "en": [
+    "Vulture",
+    "Vultures"
+   ],
+   "cur": {
+    "s": "Geier",
+    "p": "Geier",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "waffle",
+   "themes": [
+    "bakery",
+    "dessert",
+    "desserts_and_sweets"
+   ],
+   "en": [
+    "Waffle",
+    "Waffles"
+   ],
+   "cur": {
+    "s": "Waffel",
+    "p": "Waffeln",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "waitress",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Waitress",
+    "Waitresses"
+   ],
+   "cur": {
+    "s": "Kellnerin",
+    "p": "Kellnerinnen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "walk",
+   "themes": [],
+   "en": [
+    "Walk",
+    "Walks"
+   ],
+   "cur": {
+    "s": "Gehen",
+    "p": "Gehen",
+    "g": "n"
+   },
+   "type": null,
+   "countable": null,
+   "nets": [
+    "N7",
+    "N8"
+   ],
+   "noImage": true
+  },
+  {
+   "key": "wallet",
+   "themes": [
+    "accessories"
+   ],
+   "en": [
+    "Wallet",
+    "Wallets"
+   ],
+   "cur": {
+    "s": "Brieftasche",
+    "p": "Brieftaschen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "walnut-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Walnut Tree",
+    "Walnut Trees"
+   ],
+   "cur": {
+    "s": "Walnussbaum",
+    "p": "Walnussbäume",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "walrus",
+   "themes": [
+    "faces",
+    "sea_life",
+    "winter"
+   ],
+   "en": [
+    "Walrus",
+    "Walruses"
+   ],
+   "cur": {
+    "s": "Walross",
+    "p": "Walrosse",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "wand",
+   "themes": [
+    "accessories"
+   ],
+   "en": [
+    "Wand",
+    "Wands"
+   ],
+   "cur": {
+    "s": "Zauberstab",
+    "p": "Zauberstäbe",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "wardrobe",
+   "themes": [
+    "around_the_house",
+    "furniture",
+    "home"
+   ],
+   "en": [
+    "Wardrobe",
+    "Wardrobes"
+   ],
+   "cur": {
+    "s": "Kleiderschrank",
+    "p": "Kleiderschränke",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "washing-machine",
+   "themes": [
+    "around_the_house",
+    "home",
+    "household"
+   ],
+   "en": [
+    "Washing Machine",
+    "Washing Machines"
+   ],
+   "cur": {
+    "s": "Waschmaschine",
+    "p": "Waschmaschinen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "wasp",
+   "themes": [
+    "insects_and_bugs",
+    "things_that_fly"
+   ],
+   "en": [
+    "Wasp",
+    "Wasps"
+   ],
+   "cur": {
+    "s": "Wespe",
+    "p": "Wespen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "watch",
+   "themes": [
+    "accessories"
+   ],
+   "en": [
+    "Watch",
+    "Watches"
+   ],
+   "cur": {
+    "s": "Uhr",
+    "p": "Uhren",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "water",
+   "themes": [
+    "at_the_supermarket",
+    "beach",
+    "camping"
+   ],
+   "en": [
+    "Water",
+    "Water"
+   ],
+   "cur": {
+    "s": "Wasser",
+    "p": "Wasser",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": false,
+   "nets": [
+    "N8"
+   ]
+  },
+  {
+   "key": "water-bottle",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Water Bottle",
+    "Water Bottles"
+   ],
+   "cur": {
+    "s": "Wasserflasche",
+    "p": "Wasserflaschen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "water-lily",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Water Lily",
+    "Water Lilies"
+   ],
+   "cur": {
+    "s": "Seerose",
+    "p": "Seerosen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "watering-can",
+   "themes": [
+    "around_the_house",
+    "farm",
+    "home",
+    "spring"
+   ],
+   "en": [
+    "Watering Can",
+    "Watering Cans"
+   ],
+   "cur": {
+    "s": "Gießkanne",
+    "p": "Gießkannen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "watermelon",
+   "themes": [
+    "4th_of_july",
+    "beach",
+    "fruits",
+    "summer"
+   ],
+   "en": [
+    "Watermelon",
+    "Watermelons"
+   ],
+   "cur": {
+    "s": "Wassermelone",
+    "p": "Wassermelonen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "wave",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Wave",
+    "Waves"
+   ],
+   "cur": {
+    "s": "Welle",
+    "p": "Wellen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "weasel",
+   "themes": [
+    "forest_creatures"
+   ],
+   "en": [
+    "Weasel",
+    "Weasels"
+   ],
+   "cur": {
+    "s": "Wiesel",
+    "p": "Wiesel",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "whale",
+   "themes": [
+    "animals",
+    "beach",
+    "ocean_life",
+    "sea_life"
+   ],
+   "en": [
+    "Whale",
+    "Whales"
+   ],
+   "cur": {
+    "s": "Wal",
+    "p": "Wale",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "wheelbarrow",
+   "themes": [
+    "farm",
+    "tools"
+   ],
+   "en": [
+    "Wheelbarrow",
+    "Wheelbarrows"
+   ],
+   "cur": {
+    "s": "Schubkarre",
+    "p": "Schubkarren",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "wheelchair",
+   "themes": [
+    "hospital"
+   ],
+   "en": [
+    "Wheelchair",
+    "Wheelchairs"
+   ],
+   "cur": {
+    "s": "Rollstuhl",
+    "p": "Rollstühle",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "whisk",
+   "themes": [
+    "kitchen",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Whisk",
+    "Whisks"
+   ],
+   "cur": {
+    "s": "Schneebesen",
+    "p": "Schneebesen",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "whistle",
+   "themes": [
+    "accessories",
+    "objects",
+    "sports"
+   ],
+   "en": [
+    "Whistle",
+    "Whistles"
+   ],
+   "cur": {
+    "s": "Pfeife",
+    "p": "Pfeifen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "white",
+   "themes": [
+    "colors"
+   ],
+   "en": [
+    "White",
+    "White"
+   ],
+   "cur": {
+    "s": "Weiß",
+    "p": "Weiß",
+    "g": "m"
+   },
+   "type": "adjective",
+   "countable": false
+  },
+  {
+   "key": "whiteboard",
+   "themes": [
+    "classroom"
+   ],
+   "en": [
+    "Whiteboard",
+    "Whiteboards"
+   ],
+   "cur": {
+    "s": "Whiteboard",
+    "p": "Whiteboards",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "windmill",
+   "themes": [
+    "farm"
+   ],
+   "en": [
+    "Windmill",
+    "Windmills"
+   ],
+   "cur": {
+    "s": "Windmühle",
+    "p": "Windmühlen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "window",
+   "themes": [
+    "around_the_house",
+    "household"
+   ],
+   "en": [
+    "Window",
+    "Windows"
+   ],
+   "cur": {
+    "s": "Fenster",
+    "p": "Fenster",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "winter-hat",
+   "themes": [],
+   "en": [
+    "Winter Hat",
+    "Winter Hats"
+   ],
+   "cur": {
+    "s": "Wintermütze",
+    "p": "Wintermützen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "noImage": true
+  },
+  {
+   "key": "winter-jacket",
+   "themes": [
+    "christmas"
+   ],
+   "en": [
+    "Winter Jacket",
+    "Winter Jackets"
+   ],
+   "cur": {
+    "s": "Winterjacke",
+    "p": "Winterjacken",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "wisteria",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Wisteria",
+    "Wisterias"
+   ],
+   "cur": {
+    "s": "Glyzinie",
+    "p": "Glyzinien",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "wolf",
+   "themes": [
+    "animals",
+    "faces",
+    "forest_creatures",
+    "zoo_animals"
+   ],
+   "en": [
+    "Wolf",
+    "Wolves"
+   ],
+   "cur": {
+    "s": "Wolf",
+    "p": "Wölfe",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N5"
+   ]
+  },
+  {
+   "key": "woodpecker",
+   "themes": [
+    "animals",
+    "birds",
+    "birds_2",
+    "forest_creatures"
+   ],
+   "en": [
+    "Woodpecker",
+    "Woodpeckers"
+   ],
+   "cur": {
+    "s": "Specht",
+    "p": "Spechte",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "worm",
+   "themes": [
+    "insects_and_bugs",
+    "spring"
+   ],
+   "en": [
+    "Worm",
+    "Worms"
+   ],
+   "cur": {
+    "s": "Wurm",
+    "p": "Würmer",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N5"
+   ]
+  },
+  {
+   "key": "wreath",
+   "themes": [
+    "christmas"
+   ],
+   "en": [
+    "Wreath",
+    "Wreaths"
+   ],
+   "cur": {
+    "s": "Kranz",
+    "p": "Kränze",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N5"
+   ]
+  },
+  {
+   "key": "wrench",
+   "themes": [
+    "tools"
+   ],
+   "en": [
+    "Wrench",
+    "Wrenches"
+   ],
+   "cur": {
+    "s": "Schraubenschlüssel",
+    "p": "Schraubenschlüssel",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "wrist",
+   "themes": [
+    "body_parts"
+   ],
+   "en": [
+    "Wrist",
+    "Wrists"
+   ],
+   "cur": {
+    "s": "Handgelenk",
+    "p": "Handgelenke",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "writing",
+   "themes": [
+    "activities"
+   ],
+   "en": [
+    "Writing",
+    "Writing"
+   ],
+   "cur": {
+    "s": "Schreiben",
+    "p": "Schreiben",
+    "g": "m"
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "nets": [
+    "N8"
+   ]
+  },
+  {
+   "key": "x-ray",
+   "themes": [
+    "hospital"
+   ],
+   "en": [
+    "X-Ray",
+    "X-Rays"
+   ],
+   "cur": {
+    "s": "Röntgenbild",
+    "p": "Röntgenbilder",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "xylophone",
+   "themes": [
+    "music",
+    "toys"
+   ],
+   "en": [
+    "Xylophone",
+    "Xylophones"
+   ],
+   "cur": {
+    "s": "Xylophon",
+    "p": "Xylophone",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "yacht",
+   "themes": [
+    "travel_and_holiday",
+    "vehicles"
+   ],
+   "en": [
+    "Yacht",
+    "Yachts"
+   ],
+   "cur": {
+    "s": "Jacht",
+    "p": "Jachten",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "yak",
+   "themes": [
+    "animals",
+    "farm_animals",
+    "zoo_animals"
+   ],
+   "en": [
+    "Yak",
+    "Yaks"
+   ],
+   "cur": {
+    "s": "Yak",
+    "p": "Yaks",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "yellow",
+   "themes": [
+    "colors"
+   ],
+   "en": [
+    "Yellow",
+    "Yellow"
+   ],
+   "cur": {
+    "s": "Gelb",
+    "p": "Gelb",
+    "g": "m"
+   },
+   "type": "adjective",
+   "countable": false
+  },
+  {
+   "key": "yogurt",
+   "themes": [],
+   "en": [
+    "Yogurt",
+    "Yogurt"
+   ],
+   "cur": {
+    "s": "Joghurt",
+    "p": "Joghurt",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": false,
+   "noImage": true
+  },
+  {
+   "key": "zebra",
+   "themes": [
+    "animals",
+    "faces",
+    "zoo_animals"
+   ],
+   "en": [
+    "Zebra",
+    "Zebras"
+   ],
+   "cur": {
+    "s": "Zebra",
+    "p": "Zebras",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "zinnia",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Zinnia",
+    "Zinnias"
+   ],
+   "cur": {
+    "s": "Zinnie",
+    "p": "Zinnien",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  }
+ ]
+}

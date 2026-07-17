@@ -1,0 +1,1401 @@
+{
+  "locale": "de",
+  "batch": "08",
+  "reviewed": 110,
+  "rows": [
+    {
+      "key": "overalls",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "oviraptor",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "FIX",
+        "correct": "Oviraptoren",
+        "reason": "Latin agent nouns in -or take -oren in German (Duden: Motor -> Motoren, Traktor -> Traktoren); 'Oviraptore' is not a German form. Note: the -saurus -> -saurier rule does not apply here (no -saurus head)",
+        "source": "Duden (-or/-oren pattern)"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "owl",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "ox",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "oyster",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pachycephalosaurus",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "FIX",
+        "correct": "Pachycephalosaurier",
+        "reason": "-saurus forms the plural in -saurier (Duden: Tyrannosaurus, der; -, ...rier); 'Pachycephalosauren' is not the German form",
+        "source": "Duden"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "package",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "FIX",
+        "correct": "n",
+        "reason": "Duden: das Paket, -[e]s, -e — neuter, not masculine; 'der Paket' would be read/spoken to children",
+        "source": "Duden"
+      }
+    },
+    {
+      "key": "padlock",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "paint-brush",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "paint-roller",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "paintbrush",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "painting",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "NO_PLURAL",
+        "reason": "themes=[activities] decides the reading: the picture shows the activity -> 'das Malen', a nominalised infinitive, which has no plural; p must equal s. The current 'Gemälde' is a different lemma (the artwork), correct only if the image actually shows a painting rather than the act of painting"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pajamas",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "palette",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "palm-tree",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pan",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pancake",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "panda",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pants",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "papaya",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "paper",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "NO_PLURAL",
+        "reason": "for the classroom image 'Papier' is a mass noun; the existing plural 'Papiere' means documents/ID papers, not sheets of paper, so it must not be spoken for this picture. p = s is already correctly encoded",
+        "source": "Duden"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "paper-airplane",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "parallelogram",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "paramedic",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "parasaurolophus",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "HOLD",
+        "reason": "the -saurus -> -saurier rule does NOT apply: the head is Greek lophos ('crest'), not saurus (same differentiation as carnotaurus). Duden has no entry; German usage is unsettled between an invariant plural and 'Parasaurolophen'. Not guessing"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "parasol",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "park-ranger",
+      "singular": {
+        "verdict": "HOLD",
+        "reason": "'Parkwächter' is a park attendant/guard; a (US-style) park ranger is 'Ranger'/'Parkranger' or 'Wildhüter' in German. Choosing the right word requires a lemma decision plus a look at the image — not a form fix"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "parrot",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "parsnip",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "partly-cloudy",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "NO_PLURAL",
+        "reason": "adjectival phrase ('teilweise bewölkt'), no plural; p = s is already correctly encoded"
+      },
+      "gender": {
+        "verdict": "HOLD",
+        "reason": "an adjectival phrase has no gender at all — 'm' is certainly wrong, but there is no correct value to substitute (unlike colour nouns, this cannot be nominalised naturally). Needs a data-model decision (null/none), not a form fix"
+      }
+    },
+    {
+      "key": "party-hat",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "passport",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pasta",
+      "singular": {
+        "verdict": "FIX",
+        "correct": "Nudel",
+        "reason": "plural in the singular field (same defect class as pretzels/blocks/candy): 'Nudeln' is the plural; the singular of the same lemma is 'die Nudel'. Caveat for the operator: the supermarket image very likely shows a mass of pasta, for which the natural spoken label is the plural 'Nudeln' — if the singular is never displayed alone this is harmless, otherwise the key may need the mass treatment",
+        "source": "Duden"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pea",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "peach",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "peach-tree",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "peacock",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "peanut-butter",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "NO_PLURAL",
+        "reason": "mass noun (die Erdnussbutter); no child-appropriate plural. p = s is already correctly encoded"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pear",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pear-tree",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "peas",
+      "singular": {
+        "verdict": "FIX",
+        "correct": "Erbse",
+        "reason": "plural in the singular field: 'Erbsen' is the plural; the singular of the same lemma is 'die Erbse'. (Same shape as pretzels, the defect class named in the brief)",
+        "source": "Duden"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "peeler",
+      "singular": {
+        "verdict": "HOLD",
+        "reason": "'Schäler' on its own is not what anyone calls a kitchen peeler in German; the everyday terms are 'Sparschäler', 'Kartoffelschäler' or 'Gemüseschäler'. Picking one requires a lemma decision plus a look at the image — not a form fix"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pegasus",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "NO_PLURAL",
+        "reason": "proper name from Greek myth (the winged horse), like Jupiter — no established German plural; 'Pegasen' is not an attested form. p must equal s"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pelican",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pen",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pencil",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "penguin",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pentagon",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "peony",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pepper",
+      "singular": {
+        "verdict": "HOLD",
+        "reason": "entry conflates the bell pepper (Paprika) with the spice (Pfeffer) — two different lemmas, not a form fix. themes=[vegetables] and the countable English plural 'Peppers' point to Paprika, but the p field says Pfeffer, and the second theme (at_the_supermarket) could host either image. Needs a human decision on which image the key serves (possibly a key split)"
+      },
+      "plural": {
+        "verdict": "HOLD",
+        "reason": "see singular; if Paprika is chosen, Duden gives 'Paprikas' (also invariant '-'), and 'Pfeffer' as a spice has no plural — the value depends entirely on the lemma decision"
+      },
+      "gender": {
+        "verdict": "HOLD",
+        "reason": "depends on the lemma chosen (Duden: der Paprika; der Pfeffer — both m, so 'm' happens to survive either way, but must not be confirmed before the lemma is settled)"
+      }
+    },
+    {
+      "key": "perfume",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK",
+        "source": "Duden"
+      },
+      "gender": {
+        "verdict": "FIX",
+        "correct": "n",
+        "reason": "Duden: das Parfüm, -s, -e/-s — neuter, not masculine",
+        "source": "Duden"
+      }
+    },
+    {
+      "key": "persimmon",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK",
+        "source": "Duden"
+      }
+    },
+    {
+      "key": "petunia",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pharmacist",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "phlox",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "photographer",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "photography",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "NO_PLURAL",
+        "reason": "themes=[activities] + en=[Photography, Photography]: the art/activity 'die Fotografie' has no plural; 'Fotografien' would mean the photographs themselves. p = s is already correctly encoded"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "piano",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pickaxe",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pickup-truck",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "picnic",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK",
+        "source": "Duden"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "picnic-table",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "picture-frame",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pie",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pig",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pigeon",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "piglet",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pillow",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pilot",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pine-tree",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "FIX",
+        "correct": "Kiefern",
+        "reason": "Duden: Kiefer, die; -, -n (conifer) -> die Kiefern. The current null plural belongs to the homograph 'der Kiefer, -s, -' = the JAWBONE",
+        "source": "Duden"
+      },
+      "gender": {
+        "verdict": "FIX",
+        "correct": "f",
+        "reason": "the tree is die Kiefer (f); 'der Kiefer' (m) is the jawbone — as encoded, a child sees/hears the wrong word entirely",
+        "source": "Duden"
+      }
+    },
+    {
+      "key": "pineapple",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK",
+        "source": "Duden"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pinecone",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pink",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "NO_PLURAL",
+        "reason": "colour noun; no plural in this use. p = s is already correctly encoded"
+      },
+      "gender": {
+        "verdict": "FIX",
+        "correct": "n",
+        "reason": "nominalised colour names are neuter (das Blau, das Braun) — Duden: das Rosa; 'der Rosa' does not exist",
+        "source": "Duden"
+      }
+    },
+    {
+      "key": "pinwheel",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pipe-wrench",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pitcher",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pizza",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK",
+        "source": "Duden"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "planet",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "plant",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "plate",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "play",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "NO_PLURAL",
+        "reason": "nominalised infinitive 'das Spielen' has no plural; p = s is already correctly encoded. (noImage/orphan — lowest priority; note en=[Play, Plays] could alternatively mean Theaterstück, but with no themes and no image the infinitive reading is the coherent one)"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "playground",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "plesiosaurus",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "FIX",
+        "correct": "Plesiosaurier",
+        "reason": "-saurus forms the plural in -saurier (Duden: Tyrannosaurus, der; -, ...rier); 'Plesiosauren' is not the German form",
+        "source": "Duden"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pliers",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "plum",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "plum-tree",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "plunger",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "polar-bear",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "police-car",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "police-officer",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pomegranate",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pony",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK",
+        "source": "Duden"
+      }
+    },
+    {
+      "key": "pool",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "popcorn",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "NO_PLURAL",
+        "reason": "mass noun (das Popcorn, -s); no plural. p = s is already correctly encoded",
+        "source": "Duden"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "poplar-tree",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "popsicle",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "NO_PLURAL",
+        "reason": "'Eis am Stiel' is invariant — the head 'Eis' is a mass noun (zwei Eis am Stiel). p = s is already correctly encoded"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "porcupine",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "porridge",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "NO_PLURAL",
+        "reason": "for the breakfast image 'Brei' is a mass noun; the existing plural 'Breie' only denotes kinds/types and must not be spoken for this picture. p = s is already correctly encoded"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "post-office",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "postal-scale",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pot",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK",
+        "source": "Duden"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "potato",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "potato-chips",
+      "singular": {
+        "verdict": "FIX",
+        "correct": "Kartoffelchip",
+        "reason": "plural in the singular field: 'Kartoffelchips' is the plural (Duden: Chip, der; -s, -s); the singular of the same lemma is 'der Kartoffelchip'. Same caveat as pasta — the supermarket image shows a mass, for which the plural is the natural spoken label",
+        "source": "Duden"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pottery",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "NO_PLURAL",
+        "reason": "themes=[activities] decides: 'das Töpfern' is a nominalised infinitive with no plural; p must equal s. The current 'Töpferei' is a different lemma (the craft/workshop)"
+      },
+      "gender": {
+        "verdict": "FIX",
+        "correct": "n",
+        "reason": "nominalised infinitives are without exception neuter: das Töpfern. The current 'f' belongs to the other lemma sitting in the p field (die Töpferei)",
+        "source": "Duden"
+      }
+    },
+    {
+      "key": "present",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pretzel",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK",
+        "source": "Duden"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pretzels",
+      "singular": {
+        "verdict": "FIX",
+        "correct": "Brezel",
+        "reason": "plural in the singular field (the defect class named in the brief): 'Brezeln' is the plural; the singular is 'die Brezel'",
+        "source": "Duden"
+      },
+      "plural": {
+        "verdict": "FIX",
+        "correct": "Brezeln",
+        "reason": "'Brezelne' is an invented form that does not exist in German (Duden: Brezel, die; -, -n)",
+        "source": "Duden"
+      },
+      "gender": {
+        "verdict": "FIX",
+        "correct": "f",
+        "reason": "die Brezel — feminine, not masculine",
+        "source": "Duden"
+      }
+    },
+    {
+      "key": "price-tag",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "projector",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    },
+    {
+      "key": "pruning-shears",
+      "singular": {
+        "verdict": "OK"
+      },
+      "plural": {
+        "verdict": "OK"
+      },
+      "gender": {
+        "verdict": "OK"
+      }
+    }
+  ]
+}

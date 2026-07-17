@@ -1,0 +1,2003 @@
+{
+ "locale": "nl",
+ "batch": "03",
+ "of": 12,
+ "genderLegend": "d=de-woord (common) · h=het-woord (neuter)  ← NOT m/f/n",
+ "count": 110,
+ "range": [
+  "cheeks",
+  "delivery-driver"
+ ],
+ "rows": [
+  {
+   "key": "cheeks",
+   "themes": [
+    "body_parts"
+   ],
+   "en": [
+    "Cheeks",
+    "Cheeks"
+   ],
+   "cur": {
+    "s": "Wangen",
+    "p": "Wangen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2"
+   ]
+  },
+  {
+   "key": "cheese",
+   "themes": [
+    "at_the_supermarket",
+    "breakfast",
+    "food"
+   ],
+   "en": [
+    "Cheese",
+    "Cheese"
+   ],
+   "cur": {
+    "s": "Kaas",
+    "p": "Kazen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": false,
+   "nets": [
+    "N1",
+    "N5"
+   ]
+  },
+  {
+   "key": "cheeseburger",
+   "themes": [
+    "food"
+   ],
+   "en": [
+    "Cheeseburger",
+    "Cheeseburgers"
+   ],
+   "cur": {
+    "s": "Cheeseburger",
+    "p": "Cheeseburgers",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "cheesecake",
+   "themes": [
+    "bakery"
+   ],
+   "en": [
+    "Cheesecake",
+    "Cheesecakes"
+   ],
+   "cur": {
+    "s": "Kaastaart",
+    "p": "Kaastaarten",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "cheetah",
+   "themes": [
+    "zoo_animals"
+   ],
+   "en": [
+    "Cheetah",
+    "Cheetahs"
+   ],
+   "cur": {
+    "s": "Jachtluipaard",
+    "p": "Jachtluipaarden",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "chef",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Chef",
+    "Chefs"
+   ],
+   "cur": {
+    "s": "Chef-kok",
+    "p": "Chef-koks",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "chef's-knife",
+   "themes": [],
+   "en": [
+    "Chef's Knife",
+    "Chef's Knives"
+   ],
+   "cur": {
+    "s": "Koksmes",
+    "p": "Koksmessen",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true,
+   "noImage": true
+  },
+  {
+   "key": "cherry",
+   "themes": [
+    "at_the_supermarket",
+    "fruits"
+   ],
+   "en": [
+    "Cherry",
+    "Cherries"
+   ],
+   "cur": {
+    "s": "Kers",
+    "p": "Kersen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "cherry-blossom",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Cherry Blossom",
+    "Cherry Blossoms"
+   ],
+   "cur": {
+    "s": "Kersenbloesem",
+    "p": "Kersenbloesems",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "cherry-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Cherry Tree",
+    "Cherry Trees"
+   ],
+   "cur": {
+    "s": "Kersenboom",
+    "p": "Kersenbomen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "chess",
+   "themes": [
+    "activities",
+    "toys"
+   ],
+   "en": [
+    "Chess",
+    "Chess"
+   ],
+   "cur": {
+    "s": "Schaken",
+    "p": "Schaken",
+    "g": "d"
+   },
+   "type": "verb-gerund",
+   "countable": false
+  },
+  {
+   "key": "chestnut-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Chestnut Tree",
+    "Chestnut Trees"
+   ],
+   "cur": {
+    "s": "Kastanjeboom",
+    "p": "Kastanjebomen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "chick",
+   "themes": [
+    "animals",
+    "easter",
+    "farm_animals",
+    "spring"
+   ],
+   "en": [
+    "Chick",
+    "Chicks"
+   ],
+   "cur": {
+    "s": "Kuiken",
+    "p": "Kuikens",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "chicken",
+   "themes": [
+    "animals",
+    "birds",
+    "birds_2",
+    "easter",
+    "faces",
+    "farm_animals"
+   ],
+   "en": [
+    "Chicken",
+    "Chickens"
+   ],
+   "cur": {
+    "s": "Kip",
+    "p": "Kippen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "chili-pepper",
+   "themes": [],
+   "en": [
+    "Chili Pepper",
+    "Chili Peppers"
+   ],
+   "cur": {
+    "s": "Chilipeper",
+    "p": "Chilipepers",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "noImage": true
+  },
+  {
+   "key": "chimney",
+   "themes": [
+    "christmas"
+   ],
+   "en": [
+    "Chimney",
+    "Chimneys"
+   ],
+   "cur": {
+    "s": "Schoorsteen",
+    "p": "Schoorstenen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "chimpanzee",
+   "themes": [
+    "zoo_animals"
+   ],
+   "en": [
+    "Chimpanzee",
+    "Chimpanzees"
+   ],
+   "cur": {
+    "s": "Chimpansee",
+    "p": "Chimpanseen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "chin",
+   "themes": [
+    "body_parts"
+   ],
+   "en": [
+    "Chin",
+    "Chins"
+   ],
+   "cur": {
+    "s": "Kin",
+    "p": "Kinnen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "chinchilla",
+   "themes": [
+    "animals",
+    "pets"
+   ],
+   "en": [
+    "Chinchilla",
+    "Chinchillas"
+   ],
+   "cur": {
+    "s": "Chinchilla",
+    "p": "Chinchilla's",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "chipmunk",
+   "themes": [
+    "forest_creatures"
+   ],
+   "en": [
+    "Chipmunk",
+    "Chipmunks"
+   ],
+   "cur": {
+    "s": "Wangzakeekhoorn",
+    "p": "Wangzakeekhoorns",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "chips",
+   "themes": [
+    "food"
+   ],
+   "en": [
+    "Chips",
+    "Chips"
+   ],
+   "cur": {
+    "s": "Chips",
+    "p": "Chipsen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "chocolate",
+   "themes": [
+    "dessert",
+    "easter",
+    "food"
+   ],
+   "en": [
+    "Chocolate",
+    "Chocolate"
+   ],
+   "cur": {
+    "s": "Chocolade",
+    "p": "Chocolade",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": false
+  },
+  {
+   "key": "chocolate-bar",
+   "themes": [
+    "at_the_supermarket",
+    "desserts_and_sweets"
+   ],
+   "en": [
+    "Chocolate Bar",
+    "Chocolate Bars"
+   ],
+   "cur": {
+    "s": "Chocoladereep",
+    "p": "Chocoladerepen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "christmas",
+   "themes": [
+    "christmas"
+   ],
+   "en": [
+    "Christmas",
+    "Christmas"
+   ],
+   "cur": {
+    "s": "Kerstmis",
+    "p": "Kerstmis",
+    "g": "d"
+   },
+   "type": "noun-concept",
+   "countable": false
+  },
+  {
+   "key": "christmas-stocking",
+   "themes": [
+    "christmas"
+   ],
+   "en": [
+    "Christmas Stocking",
+    "Christmas Stockings"
+   ],
+   "cur": {
+    "s": "Kerstsok",
+    "p": "Kerstsokken",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "christmas-tree",
+   "themes": [
+    "christmas"
+   ],
+   "en": [
+    "Christmas Tree",
+    "Christmas Trees"
+   ],
+   "cur": {
+    "s": "Kerstboom",
+    "p": "Kerstbomen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "church",
+   "themes": [
+    "christmas",
+    "easter"
+   ],
+   "en": [
+    "Church",
+    "Churches"
+   ],
+   "cur": {
+    "s": "Kerk",
+    "p": "Kerken",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "cinnamon-roll",
+   "themes": [
+    "bakery",
+    "desserts_and_sweets"
+   ],
+   "en": [
+    "Cinnamon Roll",
+    "Cinnamon Rolls"
+   ],
+   "cur": {
+    "s": "Kaneelbroodje",
+    "p": "Kaneelbroodjes",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "circle",
+   "themes": [
+    "shapes"
+   ],
+   "en": [
+    "Circle",
+    "Circles"
+   ],
+   "cur": {
+    "s": "Cirkel",
+    "p": "Cirkels",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "clementine",
+   "themes": [
+    "fruits"
+   ],
+   "en": [
+    "Clementine",
+    "Clementines"
+   ],
+   "cur": {
+    "s": "Clementine",
+    "p": "Clementinen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "clock",
+   "themes": [
+    "around_the_house",
+    "classroom",
+    "education",
+    "home"
+   ],
+   "en": [
+    "Clock",
+    "Clocks"
+   ],
+   "cur": {
+    "s": "Klok",
+    "p": "Klokken",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "closet",
+   "themes": [
+    "around_the_house"
+   ],
+   "en": [
+    "Closet",
+    "Closets"
+   ],
+   "cur": {
+    "s": "Kast",
+    "p": "Kasten",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "cloud",
+   "themes": [
+    "beach",
+    "home_and_nature",
+    "spring",
+    "weather"
+   ],
+   "en": [
+    "Cloud",
+    "Clouds"
+   ],
+   "cur": {
+    "s": "Wolk",
+    "p": "Wolken",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "cloudy",
+   "themes": [
+    "nature",
+    "weather"
+   ],
+   "en": [
+    "Cloudy",
+    "Cloudy"
+   ],
+   "cur": {
+    "s": "Bewolkt",
+    "p": "Bewolkt",
+    "g": "d"
+   },
+   "type": "adjective",
+   "countable": false
+  },
+  {
+   "key": "clover",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Clover",
+    "Clovers"
+   ],
+   "cur": {
+    "s": "Klaver",
+    "p": "Klavers",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "clownfish",
+   "themes": [
+    "ocean_life"
+   ],
+   "en": [
+    "Clownfish",
+    "Clownfish"
+   ],
+   "cur": {
+    "s": "Clownvis",
+    "p": "Clownvissen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "coach",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Coach",
+    "Coaches"
+   ],
+   "cur": {
+    "s": "Coach",
+    "p": "Coachen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "coat",
+   "themes": [
+    "apparel",
+    "clothing",
+    "winter"
+   ],
+   "en": [
+    "Coat",
+    "Coats"
+   ],
+   "cur": {
+    "s": "Jas",
+    "p": "Jassen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "cobra",
+   "themes": [
+    "reptiles_and_amphibians"
+   ],
+   "en": [
+    "Cobra",
+    "Cobras"
+   ],
+   "cur": {
+    "s": "Cobra",
+    "p": "Cobra's",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "cockatiel",
+   "themes": [
+    "pets"
+   ],
+   "en": [
+    "Cockatiel",
+    "Cockatiels"
+   ],
+   "cur": {
+    "s": "Valkparkiet",
+    "p": "Valkparkieten",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "cocktail",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Cocktail",
+    "Cocktails"
+   ],
+   "cur": {
+    "s": "Cocktail",
+    "p": "Cocktailen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "coconut",
+   "themes": [
+    "fruits"
+   ],
+   "en": [
+    "Coconut",
+    "Coconuts"
+   ],
+   "cur": {
+    "s": "Kokosnoot",
+    "p": "Kokosnoten",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "coconut-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Coconut Tree",
+    "Coconut Trees"
+   ],
+   "cur": {
+    "s": "Kokospalm",
+    "p": "Kokospalmen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "coffee-carafe",
+   "themes": [
+    "kitchen"
+   ],
+   "en": [
+    "Coffee Carafe",
+    "Coffee Carafes"
+   ],
+   "cur": {
+    "s": "Koffiekan",
+    "p": "Koffiekannen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "coffee-mug",
+   "themes": [
+    "valentine"
+   ],
+   "en": [
+    "Coffee Mug",
+    "Coffee Mugs"
+   ],
+   "cur": {
+    "s": "Koffiemok",
+    "p": "Koffiemokken",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "coffee-table",
+   "themes": [
+    "around_the_house",
+    "furniture"
+   ],
+   "en": [
+    "Coffee Table",
+    "Coffee Tables"
+   ],
+   "cur": {
+    "s": "Salontafel",
+    "p": "Salontafels",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "colander",
+   "themes": [
+    "home",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Colander",
+    "Colanders"
+   ],
+   "cur": {
+    "s": "Vergiet",
+    "p": "Vergieten",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "cold",
+   "themes": [
+    "weather"
+   ],
+   "en": [
+    "Cold",
+    "Cold"
+   ],
+   "cur": {
+    "s": "Koud",
+    "p": "Koud",
+    "g": "d"
+   },
+   "type": "adjective",
+   "countable": false
+  },
+  {
+   "key": "columbine",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Columbine",
+    "Columbines"
+   ],
+   "cur": {
+    "s": "Akelei",
+    "p": "Akelei's",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "comb",
+   "themes": [
+    "around_the_house",
+    "objects"
+   ],
+   "en": [
+    "Comb",
+    "Combs"
+   ],
+   "cur": {
+    "s": "Kam",
+    "p": "Kammen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "comet",
+   "themes": [
+    "space"
+   ],
+   "en": [
+    "Comet",
+    "Comets"
+   ],
+   "cur": {
+    "s": "Komeet",
+    "p": "Kometen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "compass",
+   "themes": [
+    "beach",
+    "camping"
+   ],
+   "en": [
+    "Compass",
+    "Compasses"
+   ],
+   "cur": {
+    "s": "Kompas",
+    "p": "Kompassen",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "computer",
+   "themes": [
+    "around_the_house",
+    "classroom",
+    "household"
+   ],
+   "en": [
+    "Computer",
+    "Computers"
+   ],
+   "cur": {
+    "s": "Computer",
+    "p": "Computers",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "computer-keyboard",
+   "themes": [
+    "miscellaneous"
+   ],
+   "en": [
+    "Computer Keyboard",
+    "Computer Keyboards"
+   ],
+   "cur": {
+    "s": "Computertoetsenbord",
+    "p": "Computertoetsenborden",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "cone",
+   "themes": [
+    "shapes"
+   ],
+   "en": [
+    "Cone",
+    "Cones"
+   ],
+   "cur": {
+    "s": "Kegel",
+    "p": "Kegels",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "confused",
+   "themes": [
+    "emotions"
+   ],
+   "en": [
+    "Confused",
+    "Confused"
+   ],
+   "cur": {
+    "s": "Verward",
+    "p": "Verward",
+    "g": "d"
+   },
+   "type": "adjective",
+   "countable": false
+  },
+  {
+   "key": "construction-worker",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Construction Worker",
+    "Construction Workers"
+   ],
+   "cur": {
+    "s": "Bouwvakker",
+    "p": "Bouwvakkers",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "content",
+   "themes": [
+    "emotions"
+   ],
+   "en": [
+    "Content",
+    "Content"
+   ],
+   "cur": {
+    "s": "Tevreden",
+    "p": "Tevreden",
+    "g": "d"
+   },
+   "type": "adjective",
+   "countable": false
+  },
+  {
+   "key": "controller",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Controller",
+    "Controllers"
+   ],
+   "cur": {
+    "s": "Controller",
+    "p": "Controllers",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "conversation-heart",
+   "themes": [],
+   "en": [
+    "Conversation Heart",
+    "Conversation Hearts"
+   ],
+   "cur": {
+    "s": "Snoephartje",
+    "p": "Snoephartjes",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true,
+   "noImage": true
+  },
+  {
+   "key": "cook",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Cook",
+    "Cooks"
+   ],
+   "cur": {
+    "s": "Kok",
+    "p": "Kokken",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "cookie",
+   "themes": [
+    "at_the_supermarket",
+    "bakery",
+    "christmas",
+    "desserts_and_sweets",
+    "easter",
+    "food"
+   ],
+   "en": [
+    "Cookie",
+    "Cookies"
+   ],
+   "cur": {
+    "s": "Koekje",
+    "p": "Koekjes",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "cookie-cutter",
+   "themes": [
+    "kitchen_tools"
+   ],
+   "en": [
+    "Cookie Cutter",
+    "Cookie Cutters"
+   ],
+   "cur": {
+    "s": "Koekjesvorm",
+    "p": "Koekjesvormen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "cookie-sheet",
+   "themes": [
+    "kitchen_tools"
+   ],
+   "en": [
+    "Cookie Sheet",
+    "Cookie Sheets"
+   ],
+   "cur": {
+    "s": "Koekjesplaat",
+    "p": "Koekjesplaten",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "cookies",
+   "themes": [
+    "easter"
+   ],
+   "en": [
+    "Cookies",
+    "Cookies"
+   ],
+   "cur": {
+    "s": "Koekjes",
+    "p": "Koekjes",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2"
+   ]
+  },
+  {
+   "key": "cooler",
+   "themes": [
+    "beach",
+    "camping"
+   ],
+   "en": [
+    "Cooler",
+    "Coolers"
+   ],
+   "cur": {
+    "s": "Koelbox",
+    "p": "Koelboxxen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "coral",
+   "themes": [
+    "colors",
+    "ocean_life"
+   ],
+   "en": [
+    "Coral",
+    "Coral"
+   ],
+   "cur": {
+    "s": "Koraal",
+    "p": "koralen",
+    "g": "h"
+   },
+   "type": "adjective",
+   "countable": false,
+   "nets": [
+    "N1"
+   ]
+  },
+  {
+   "key": "corn",
+   "themes": [
+    "at_the_supermarket",
+    "thanksgivinng",
+    "vegetables"
+   ],
+   "en": [
+    "Corn",
+    "Corn"
+   ],
+   "cur": {
+    "s": "Maïs",
+    "p": "Maïs",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": false
+  },
+  {
+   "key": "cornflower",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Cornflower",
+    "Cornflowers"
+   ],
+   "cur": {
+    "s": "Korenbloem",
+    "p": "Korenbloemen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "couch",
+   "themes": [
+    "around_the_house",
+    "furniture"
+   ],
+   "en": [
+    "Couch",
+    "Couches"
+   ],
+   "cur": {
+    "s": "Bank",
+    "p": "Banken",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "cow",
+   "themes": [
+    "animals",
+    "faces",
+    "farm",
+    "farm_animals"
+   ],
+   "en": [
+    "Cow",
+    "Cows"
+   ],
+   "cur": {
+    "s": "Koe",
+    "p": "Koeien",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "crab",
+   "themes": [
+    "animals",
+    "beach",
+    "farm_animals",
+    "ocean_life",
+    "sea_life",
+    "summer"
+   ],
+   "en": [
+    "Crab",
+    "Crabs"
+   ],
+   "cur": {
+    "s": "Krab",
+    "p": "Krabben",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "cranberry",
+   "themes": [
+    "fruits",
+    "thanksgivinng"
+   ],
+   "en": [
+    "Cranberry",
+    "Cranberries"
+   ],
+   "cur": {
+    "s": "Cranberry",
+    "p": "Cranberry's",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "crane",
+   "themes": [
+    "birds_2",
+    "vehicles"
+   ],
+   "en": [
+    "Crane",
+    "Cranes"
+   ],
+   "cur": {
+    "s": "Kraanvogel",
+    "p": "Kraanvogels",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "crayon",
+   "themes": [
+    "classroom",
+    "education"
+   ],
+   "en": [
+    "Crayon",
+    "Crayons"
+   ],
+   "cur": {
+    "s": "Waskrijtje",
+    "p": "Waskrijtjes",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "crayons",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Crayons",
+    "Crayons"
+   ],
+   "cur": {
+    "s": "Kleurpotloden",
+    "p": "Kleurpotloden",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2"
+   ]
+  },
+  {
+   "key": "crib",
+   "themes": [
+    "furniture"
+   ],
+   "en": [
+    "Crib",
+    "Cribs"
+   ],
+   "cur": {
+    "s": "Wieg",
+    "p": "Wiegen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "cricket",
+   "themes": [
+    "insects_and_bugs",
+    "sports"
+   ],
+   "en": [
+    "Cricket",
+    "Crickets"
+   ],
+   "cur": {
+    "s": "Krekel",
+    "p": "Krekels",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "crimson",
+   "themes": [
+    "colors"
+   ],
+   "en": [
+    "Crimson",
+    "Crimson"
+   ],
+   "cur": {
+    "s": "Karmozijn",
+    "p": "Karmozijn",
+    "g": "d"
+   },
+   "type": "adjective",
+   "countable": false
+  },
+  {
+   "key": "crocodile",
+   "themes": [
+    "animals"
+   ],
+   "en": [
+    "Crocodile",
+    "Crocodiles"
+   ],
+   "cur": {
+    "s": "Krokodil",
+    "p": "Krokodillen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "crocus",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Crocus",
+    "Crocuses"
+   ],
+   "cur": {
+    "s": "Krokus",
+    "p": "Krokussen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "croissant",
+   "themes": [
+    "bakery",
+    "breakfast",
+    "food"
+   ],
+   "en": [
+    "Croissant",
+    "Croissants"
+   ],
+   "cur": {
+    "s": "Croissant",
+    "p": "Croissanten",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "cross",
+   "themes": [
+    "easter"
+   ],
+   "en": [
+    "Cross",
+    "Crosses"
+   ],
+   "cur": {
+    "s": "Kruis",
+    "p": "Kruisen",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "crossing-guard",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Crossing Guard",
+    "Crossing Guards"
+   ],
+   "cur": {
+    "s": "Verkeersregelaar",
+    "p": "Verkeersregelaren",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "crow",
+   "themes": [
+    "animals",
+    "birds",
+    "birds_2",
+    "miscellaneous"
+   ],
+   "en": [
+    "Crow",
+    "Crows"
+   ],
+   "cur": {
+    "s": "Kraai",
+    "p": "Kraai's",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "crown",
+   "themes": [
+    "accessories"
+   ],
+   "en": [
+    "Crown",
+    "Crowns"
+   ],
+   "cur": {
+    "s": "Kroon",
+    "p": "Kronen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N5"
+   ]
+  },
+  {
+   "key": "cruise-ship",
+   "themes": [],
+   "en": [
+    "Cruise Ship",
+    "Cruise Ships"
+   ],
+   "cur": {
+    "s": "Cruiseschip",
+    "p": "Cruiseschippen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "noImage": true
+  },
+  {
+   "key": "crutches",
+   "themes": [
+    "hospital"
+   ],
+   "en": [
+    "Crutches",
+    "Crutches"
+   ],
+   "cur": {
+    "s": "Krukken",
+    "p": "Krukken",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2"
+   ]
+  },
+  {
+   "key": "cube",
+   "themes": [
+    "shapes"
+   ],
+   "en": [
+    "Cube",
+    "Cubes"
+   ],
+   "cur": {
+    "s": "Kubus",
+    "p": "Kubussen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "cuckoo-clock",
+   "themes": [
+    "home"
+   ],
+   "en": [
+    "Cuckoo Clock",
+    "Cuckoo Clocks"
+   ],
+   "cur": {
+    "s": "Koekoeksklok",
+    "p": "Koekoeksklokken",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "cucumber",
+   "themes": [
+    "at_the_supermarket",
+    "vegetables"
+   ],
+   "en": [
+    "Cucumber",
+    "Cucumbers"
+   ],
+   "cur": {
+    "s": "Komkommer",
+    "p": "Komkommers",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "cup",
+   "themes": [
+    "around_the_house",
+    "home",
+    "household",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Cup",
+    "Cups"
+   ],
+   "cur": {
+    "s": "Kopje",
+    "p": "Kopjes",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "cupcake",
+   "themes": [
+    "bakery",
+    "christmas",
+    "dessert",
+    "desserts_and_sweets",
+    "food",
+    "valentine"
+   ],
+   "en": [
+    "Cupcake",
+    "Cupcakes"
+   ],
+   "cur": {
+    "s": "Cupcake",
+    "p": "Cupcaken",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "curtain",
+   "themes": [
+    "household"
+   ],
+   "en": [
+    "Curtain",
+    "Curtains"
+   ],
+   "cur": {
+    "s": "Gordijn",
+    "p": "Gordijnen",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "curtains",
+   "themes": [
+    "around_the_house",
+    "furniture"
+   ],
+   "en": [
+    "Curtains",
+    "Curtains"
+   ],
+   "cur": {
+    "s": "Gordijnen",
+    "p": "Gordijnen",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2"
+   ]
+  },
+  {
+   "key": "cushion",
+   "themes": [
+    "around_the_house",
+    "furniture"
+   ],
+   "en": [
+    "Cushion",
+    "Cushions"
+   ],
+   "cur": {
+    "s": "Kussen",
+    "p": "Kussens",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "cutting-board",
+   "themes": [
+    "kitchen",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Cutting Board",
+    "Cutting Boards"
+   ],
+   "cur": {
+    "s": "Snijplank",
+    "p": "Snijplanken",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "cylinder",
+   "themes": [
+    "shapes"
+   ],
+   "en": [
+    "Cylinder",
+    "Cylinders"
+   ],
+   "cur": {
+    "s": "Cilinder",
+    "p": "Cilinders",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "cymbals",
+   "themes": [
+    "music"
+   ],
+   "en": [
+    "Cymbals",
+    "Cymbals"
+   ],
+   "cur": {
+    "s": "Bekkens",
+    "p": "Bekkens",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2"
+   ]
+  },
+  {
+   "key": "cypress-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Cypress Tree",
+    "Cypress Trees"
+   ],
+   "cur": {
+    "s": "Cipres",
+    "p": "Cipressen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "daffodil",
+   "themes": [
+    "easter",
+    "flowers"
+   ],
+   "en": [
+    "Daffodil",
+    "Daffodils"
+   ],
+   "cur": {
+    "s": "Narcis",
+    "p": "Narcissen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "dahlia",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Dahlia",
+    "Dahlias"
+   ],
+   "cur": {
+    "s": "Dahlia",
+    "p": "Dahlia's",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "dancing",
+   "themes": [
+    "activities"
+   ],
+   "en": [
+    "Dancing",
+    "Dancing"
+   ],
+   "cur": {
+    "s": "Dansen",
+    "p": "Dansen",
+    "g": "d"
+   },
+   "type": "verb-gerund",
+   "countable": false
+  },
+  {
+   "key": "dandelion",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Dandelion",
+    "Dandelions"
+   ],
+   "cur": {
+    "s": "Paardenbloem",
+    "p": "Paardenbloemen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "dart",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Dart",
+    "Darts"
+   ],
+   "cur": {
+    "s": "Dartpijl",
+    "p": "Dartpijlen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "deck-chair",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Deck Chair",
+    "Deck Chairs"
+   ],
+   "cur": {
+    "s": "Ligstoel",
+    "p": "Ligstoelen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "deer",
+   "themes": [
+    "animals",
+    "camping",
+    "forest_creatures"
+   ],
+   "en": [
+    "Deer",
+    "Deer"
+   ],
+   "cur": {
+    "s": "Hert",
+    "p": "Herten",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "deinonychus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Deinonychus",
+    "Deinonychuses"
+   ],
+   "cur": {
+    "s": "Deinonychus",
+    "p": "Deinonychussen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "delivery",
+   "themes": [
+    "post_office"
+   ],
+   "en": [
+    "Delivery",
+    "Deliveries"
+   ],
+   "cur": {
+    "s": "Bezorging",
+    "p": "Bezorgingen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "delivery-driver",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Delivery Driver",
+    "Delivery Drivers"
+   ],
+   "cur": {
+    "s": "Bezorger",
+    "p": "Bezorgers",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  }
+ ]
+}

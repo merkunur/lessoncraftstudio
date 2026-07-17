@@ -1,0 +1,556 @@
+{
+ "locale": "nl",
+ "batch": "01",
+ "reviewed": 110,
+ "rows": [
+  { "key": "accordion",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK", "reason": "de accordeon; Van Dale also lists het accordeon as a variant, so 'd' is not wrong"} },
+
+  { "key": "acorn",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "actor",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "FIX", "correct": "Acteurs", "reason": "French loan in -eur takes -s: de acteur -> de acteurs; 'Acteuren' is the script's default -en rule", "source": "Van Dale"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "air-conditioning",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "NO_PLURAL", "reason": "mass/system noun; no child-facing plural. p already equals s, which is the file's correct encoding", "source": "Van Dale"},
+    "gender": {"verdict": "OK", "reason": "de airconditioning"} },
+
+  { "key": "airplane",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK", "reason": "het vliegtuig (-tuig is neuter); correctly coded h"} },
+
+  { "key": "alarm-clock",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "alligator",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "FIX", "correct": "Alligators", "reason": "de alligator -> de alligators. The -or -> -oren plural is restricted to Latin agent nouns (motor, professor, tractor); alligator is an animal name with initial stress and takes -s", "source": "Van Dale / Woordenlijst"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "allosaurus",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK", "reason": "follows dinosaurus -> dinosaurussen; consonant doubling is correct here"},
+    "gender": {"verdict": "OK", "reason": "de dinosaurus / de allosaurus"} },
+
+  { "key": "alpaca",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK", "reason": "apostrophe required after single -a: alpaca's"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "ambulance",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "FIX", "correct": "Ambulances", "reason": "French loan ending in schwa: de ambulance -> de ambulances; 'Ambulancen' is not Dutch", "source": "Van Dale"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "analog-clock",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK", "reason": "adjective correctly inflected in both fields (analoge klok -> analoge klokken)"},
+    "gender": {"verdict": "OK", "reason": "de klok"} },
+
+  { "key": "anchor",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK", "reason": "het anker; correctly coded h"} },
+
+  { "key": "angel",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "FIX", "correct": "Engelen", "reason": "de engel -> de engelen (irregular -en on a stem in -el). 'Engels' is not a plural at all; it reads as the language/adjective 'Engels' (English) and would be spoken that way by TTS", "source": "Van Dale"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "angelfish",
+    "singular": {"verdict": "OK", "reason": "angelfish (Pterophyllum) = de maanvis in Dutch; matches theme ocean_life"},
+    "plural": {"verdict": "OK", "reason": "maanvis -> maanvissen: consonant doubling correct after short vowel"},
+    "gender": {"verdict": "OK", "reason": "de vis -> de maanvis"} },
+
+  { "key": "angry",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "NO_PLURAL", "reason": "adjective (emotion label), no plural; p already equals s"},
+    "gender": {"verdict": "OK", "reason": "adjective: gender does not apply; 'd' is the file's neutral default and asserts nothing"} },
+
+  { "key": "ankle",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK", "reason": "de enkel (body part); the homonym 'enkel' as adverb/adjective has no gender, so no conflict"} },
+
+  { "key": "ankylosaurus",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "ant",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "antelope",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "apatosaurus",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "apple",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK", "reason": "appels is the standard modern plural (appelen is archaic/biblical)"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "apple-pie",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK", "reason": "de taart -> de appeltaart"} },
+
+  { "key": "apple-tree",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK", "reason": "boom -> bomen: vowel shortening in the open syllable is correct"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "apricot",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK", "reason": "abrikoos -> abrikozen: s/z alternation correct"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "apron",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK", "reason": "Van Dale lists schort as de/het; 'd' is a permitted coding, so no correction is warranted"} },
+
+  { "key": "architect",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK", "reason": "architect -> architecten is the correct -en plural for this Latin loan"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "argentinosaurus",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "arm",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "armadillo",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "FIX", "correct": "h", "reason": "het dier -> het gordeldier. Compounds with -dier as head are neuter; the script's default 'd' is wrong", "source": "Van Dale"} },
+
+  { "key": "armchair",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "FIX", "correct": "Fauteuils", "reason": "French loan: de fauteuil -> de fauteuils; 'Fauteuilen' is the script's default -en rule", "source": "Van Dale"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "artist",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "FIX", "correct": "Kunstenaars", "reason": "de kunstenaar -> de kunstenaars is the standard dictionary plural for this -aar agent noun; 'Kunstenaren' is at best marginal and unsuitable for K-3 TTS", "source": "Van Dale / Woordenlijst"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "ash-tree",
+    "singular": {"verdict": "OK", "reason": "ash tree = de es; theme 'tree' disambiguates from the musical note 'es'"},
+    "plural": {"verdict": "OK", "reason": "es -> essen: consonant doubling correct"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "asparagus",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "FIX", "correct": "Asperges", "reason": "de asperge -> de asperges (stem ends in schwa -> -s). 'Aspergen' is not Dutch. N1 is a false suspicion: asperge is countable in Dutch (twee asperges)", "source": "Van Dale"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "aspen-tree",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK", "reason": "de esp -> de espen"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "aster",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK", "reason": "stem in unstressed -er takes -s: asters"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "asteroid",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "astronaut",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "athlete",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK", "reason": "atleet -> atleten: correct vowel shortening"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "author",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "FIX", "correct": "Auteurs", "reason": "French loan in -eur takes -s: de auteur -> de auteurs", "source": "Van Dale"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "autumn",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "NO_PLURAL", "reason": "season name; no child-facing plural. p already equals s"},
+    "gender": {"verdict": "OK", "reason": "de herfst"} },
+
+  { "key": "avocado",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK", "reason": "apostrophe correct after -o: avocado's"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "axe",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "azalea",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "baby",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK", "reason": "baby -> baby's (apostrophe after y)"},
+    "gender": {"verdict": "OK", "reason": "de baby (het baby'tje is the diminutive, not relevant here)"} },
+
+  { "key": "baby's-onesie",
+    "singular": {"verdict": "OK", "reason": "noImage; de babyromper is the usual Dutch term"},
+    "plural": {"verdict": "OK", "reason": "stem in unstressed -er takes -s: babyrompers"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "baby-bottle",
+    "singular": {"verdict": "OK", "reason": "noImage"},
+    "plural": {"verdict": "OK", "reason": "fles -> flessen: consonant doubling correct"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "baby-carriage",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK", "reason": "wagen -> wagens (unstressed -en stem takes -s)"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "baby-girl",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK", "reason": "het meisje: diminutive -> neuter; correctly coded h"} },
+
+  { "key": "baby-overall",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "FIX", "correct": "Baby-overalls", "reason": "English loan: de overall -> de overalls; 'Baby-overallen' is the script's default -en rule", "source": "Van Dale"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "backpack",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK", "reason": "zak -> zakken: consonant doubling correct"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "bacon",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "NO_PLURAL", "reason": "mass noun (het spek); p already equals s", "source": "Van Dale"},
+    "gender": {"verdict": "OK", "reason": "het spek; correctly coded h"} },
+
+  { "key": "badge",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "FIX", "correct": "Badges", "reason": "English loan: de badge -> de badges; 'Badgen' is not Dutch and would be read as a verb", "source": "Van Dale"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "badger",
+    "singular": {"verdict": "OK", "reason": "badger = de das; theme forest_creatures confirms the animal, not the necktie 'das' (also de, so no gender conflict either way)"},
+    "plural": {"verdict": "OK", "reason": "das -> dassen: consonant doubling correct"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "badminton",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "NO_PLURAL", "reason": "name of a sport; no plural. p already equals s"},
+    "gender": {"verdict": "FIX", "correct": "h", "reason": "het badminton. Dutch sport/game names are neuter (het tennis, het voetbal, het hockey); themes=sports + type verb-gerund + no English plural show the sport is depicted, not an object", "source": "Van Dale"} },
+
+  { "key": "bag",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "bagel",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK", "reason": "stem in unstressed -el takes -s: bagels"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "baguette",
+    "singular": {"verdict": "OK", "reason": "stokbrood is the ordinary K-3 word for a baguette"},
+    "plural": {"verdict": "OK", "reason": "het brood -> de broden is correct; countable, not a mass-noun defect"},
+    "gender": {"verdict": "OK", "reason": "het brood -> het stokbrood; correctly coded h"} },
+
+  { "key": "baker",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "baking",
+    "singular": {"verdict": "OK", "reason": "substantivized infinitive 'het bakken'"},
+    "plural": {"verdict": "NO_PLURAL", "reason": "substantivized infinitive; no plural. p already equals s"},
+    "gender": {"verdict": "FIX", "correct": "h", "reason": "substantivized infinitives are always neuter: het bakken", "source": "Van Dale"} },
+
+  { "key": "baking-sheet",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK", "reason": "plaat -> platen: vowel shortening correct"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "ball",
+    "singular": {"verdict": "OK", "reason": "theme toys: de bal (play ball), not het bal (dance party) - the homonym differs exactly in gender"},
+    "plural": {"verdict": "OK", "reason": "bal -> ballen: consonant doubling correct"},
+    "gender": {"verdict": "OK", "reason": "de bal is correct for the toy; het bal would be the dance"} },
+
+  { "key": "ballerina",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "balloon",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK", "reason": "de ballon -> de ballonnen is the standard plural (final-stressed -on with doubling); correct here"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "banana",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "banana-tree",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "bandage",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK", "reason": "het verband; correctly coded h"} },
+
+  { "key": "banyan-tree",
+    "singular": {"verdict": "OK", "reason": "banyan = de waringin, the established Dutch (Malay-loan) name"},
+    "plural": {"verdict": "HOLD", "reason": "cannot verify. 'Waringinnen' presupposes final stress plus consonant doubling; my expectation is that Van Dale gives 'waringins', but I will not assert a dictionary form I cannot check. Needs a Van Dale lookup before any rewrite"},
+    "gender": {"verdict": "OK", "reason": "de waringin"} },
+
+  { "key": "baobab-tree",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "HOLD", "reason": "cannot verify. Exotic loans of this shape usually take -s (baobabs), but the native pattern for a final-stressed short-vowel stem would give 'baobabben' (cf. krab -> krabben), so the script's output is not self-evidently wrong. Needs a Van Dale lookup"},
+    "gender": {"verdict": "OK", "reason": "de baobab"} },
+
+  { "key": "barbecue",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "FIX", "correct": "Barbecues", "reason": "English loan: de barbecue -> de barbecues; 'Barbecuen' would be read as a verb", "source": "Van Dale"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "barber",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "barn",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK", "reason": "schuur -> schuren: vowel shortening correct"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "barrette",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "baseball",
+    "singular": {"verdict": "OK", "reason": "honkbal = the sport; en gloss has no plural and type=verb-gerund, so the sport is glossed, not the ball"},
+    "plural": {"verdict": "NO_PLURAL", "reason": "name of a sport; no plural. p already equals s"},
+    "gender": {"verdict": "FIX", "correct": "h", "reason": "het honkbal (the sport), like het voetbal/het basketbal. Caveat for the operator: if the picture in fact shows the BALL, the correct form is 'de honkbal' - the gender is the meaning distinction here; the metadata (no English plural, verb-gerund, themes sports/activities) points to the sport", "source": "Van Dale"} },
+
+  { "key": "basket",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "basketball",
+    "singular": {"verdict": "OK", "reason": "sport glossed (no English plural, type verb-gerund)"},
+    "plural": {"verdict": "NO_PLURAL", "reason": "name of a sport; no plural. p already equals s"},
+    "gender": {"verdict": "FIX", "correct": "h", "reason": "het basketbal (the sport). Same caveat as honkbal: 'de basketbal' would be the ball itself; the metadata points to the sport", "source": "Van Dale"} },
+
+  { "key": "bat",
+    "singular": {"verdict": "OK", "reason": "themes animals/things_that_fly confirm the animal (vleermuis), not the baseball bat (het knuppel/de slaghout reading)"},
+    "plural": {"verdict": "OK", "reason": "vleermuis -> vleermuizen: s/z alternation correct"},
+    "gender": {"verdict": "OK", "reason": "de muis -> de vleermuis"} },
+
+  { "key": "bathing-suit",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK", "reason": "het pak -> het badpak; correctly coded h"} },
+
+  { "key": "bathtub",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK", "reason": "de kuip -> de badkuip"} },
+
+  { "key": "beach",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK", "reason": "het strand; correctly coded h"} },
+
+  { "key": "beach-bag",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "beach-ball",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK", "reason": "de strandbal (object, not het bal = dance)"} },
+
+  { "key": "beach-umbrella",
+    "singular": {"verdict": "OK", "reason": "de parasol is correct for a beach umbrella; N6 collision is with another sun/umbrella key, not a form defect"},
+    "plural": {"verdict": "FIX", "correct": "Parasols", "reason": "de parasol -> de parasols is the standard, natural plural; 'Parasollen' comes from the script's consonant-doubling rule and is not the dictionary form", "source": "Van Dale"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "beanie",
+    "singular": {"verdict": "OK", "reason": "de muts; N6 collision is with another hat key, not a form defect"},
+    "plural": {"verdict": "OK", "reason": "muts -> mutsen: consonant doubling correct"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "bear",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK", "reason": "beer -> beren: vowel shortening correct. N5 is a false suspicion; same lemma"},
+    "gender": {"verdict": "OK", "reason": "de beer for the animal; the homonyms (de beer = boar, de beer = dam) are all de, so no conflict"} },
+
+  { "key": "beaver",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK", "reason": "stem in unstressed -er takes -s: bevers"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "bed",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK", "reason": "bed -> bedden: consonant doubling correct here"},
+    "gender": {"verdict": "OK", "reason": "het bed; correctly coded h"} },
+
+  { "key": "bee",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "FIX", "correct": "Bijen", "reason": "de bij -> de bijen. 'Bijjen' is an impossible Dutch spelling: <ij> is a digraph and is never doubled by the consonant-doubling rule the script applied", "source": "Van Dale"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "beech-tree",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK", "reason": "de beuk (tree); the wood 'het beukenhout' is a different lemma"} },
+
+  { "key": "beetle",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "beetroot",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK", "reason": "adjective correctly inflected in both fields (rode biet -> rode bieten); not the 'medisch dossier' defect class"},
+    "gender": {"verdict": "OK", "reason": "de biet"} },
+
+  { "key": "begonia",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "beige",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "NO_PLURAL", "reason": "colour adjective; no plural. p already equals s"},
+    "gender": {"verdict": "OK", "reason": "adjective: gender does not apply; 'd' asserts nothing"} },
+
+  { "key": "bell",
+    "singular": {"verdict": "OK", "reason": "de bel is right for a hand/door bell; a church bell would be de klok, but bel fits the christmas/classroom themes"},
+    "plural": {"verdict": "OK", "reason": "bel -> bellen: consonant doubling correct"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "bell-pepper",
+    "singular": {"verdict": "OK", "reason": "de paprika; N6 collision is with the spice key, not a form defect"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "belt",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK", "reason": "de riem; note het riempje (diminutive) is neuter, not relevant here"} },
+
+  { "key": "bench",
+    "singular": {"verdict": "OK", "reason": "de bank; N6 collision is with the furniture/financial key"},
+    "plural": {"verdict": "OK", "reason": "bank -> banken"},
+    "gender": {"verdict": "OK", "reason": "de bank in both senses (seat and financial institution), so no gender ambiguity"} },
+
+  { "key": "bible",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK", "reason": "stem in unstressed -el takes -s: bijbels"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "bicycle",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "biking",
+    "singular": {"verdict": "OK", "reason": "substantivized infinitive 'het fietsen'"},
+    "plural": {"verdict": "NO_PLURAL", "reason": "substantivized infinitive; no plural. p already equals s"},
+    "gender": {"verdict": "FIX", "correct": "h", "reason": "substantivized infinitives are always neuter: het fietsen", "source": "Van Dale"} },
+
+  { "key": "binder",
+    "singular": {"verdict": "OK", "reason": "de ordner is the usual Dutch term for a ring binder"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "binoculars",
+    "singular": {"verdict": "OK", "reason": "Dutch is a normal count singular (de verrekijker) even though English is pluralia tantum; correctly NOT treated as PLURALIA_TANTUM here"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "birch-tree",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "bird",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK", "reason": "stem in unstressed -el takes -s: vogels"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "birdhouse",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK", "reason": "diminutive -je -> neuter: het vogelhuisje; correctly coded h"} },
+
+  { "key": "biscuit",
+    "singular": {"verdict": "OK", "reason": "N6 collision is with the cookie key; koekje is correct"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK", "reason": "diminutive -> het koekje; correctly coded h"} },
+
+  { "key": "bison",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "FIX", "correct": "Bizons", "reason": "de bizon -> de bizons. Stress is on the first syllable, so the script's consonant doubling ('Bizonnen') does not apply", "source": "Van Dale"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "black",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "NO_PLURAL", "reason": "colour adjective; no plural. p already equals s"},
+    "gender": {"verdict": "OK", "reason": "adjective: gender does not apply; 'd' asserts nothing"} },
+
+  { "key": "blackberry",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK", "reason": "braam -> bramen: vowel shortening correct. N5 is a false suspicion; same lemma"},
+    "gender": {"verdict": "OK"} },
+
+  { "key": "blanket",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK", "reason": "stem in unstressed -en takes -s: dekens"},
+    "gender": {"verdict": "OK", "reason": "de deken (blanket); the homonym de deken (dean) is also de, so no conflict. Not het dek (ship's deck)"} },
+
+  { "key": "blender",
+    "singular": {"verdict": "OK"},
+    "plural": {"verdict": "OK"},
+    "gender": {"verdict": "OK"} }
+ ]
+}

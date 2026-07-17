@@ -1,0 +1,787 @@
+{
+ "locale": "de",
+ "batch": "04",
+ "reviewed": 110,
+ "rows": [
+  {
+   "key": "delivery-truck",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "desk",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "desk-lamp",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "detective",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "diamond",
+   "singular": { "verdict": "OK" },
+   "plural": {
+    "verdict": "FIX",
+    "correct": "Rauten",
+    "reason": "Singular is Raute (geometric rhombus, matches theme 'shapes'), but plural holds a different lemma (Diamanten = gemstones). Duden: die Raute -> die Rauten. Caveat: if the 'valentine' image shows a gemstone rather than a shape, the whole entry must move to Diamant/Diamanten (m).",
+    "source": "Duden"
+   },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "dice",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "dimetrodon",
+   "singular": { "verdict": "OK" },
+   "plural": {
+    "verdict": "HOLD",
+    "reason": "'Dimetrodone' is a machine-formed -e plural and is not attested. No Duden entry for Dimetrodon; German usage tends to 'Dimetrodons'. Cannot confirm a normed form -> hold rather than guess."
+   },
+   "gender": {
+    "verdict": "HOLD",
+    "reason": "No Duden entry. Genus names in -odon are commonly neuter in German (das Iguanodon), so 'm' is doubtful; needs an authoritative source."
+   }
+  },
+  {
+   "key": "dinosaur",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "diplodocus",
+   "singular": { "verdict": "OK" },
+   "plural": {
+    "verdict": "HOLD",
+    "reason": "Mixed form: the entry uses Latin spelling 'Diplodocus' but a germanized plural 'Diplodocen'. The germanized headword 'Diplodokus' takes a different plural pattern than the Latin one; cannot confirm which normed pair applies -> hold rather than guess."
+   },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "disgusted",
+   "singular": { "verdict": "OK" },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Adjective (angeekelt) used as an emotion label; adjectives have no plural noun form."
+   },
+   "gender": {
+    "verdict": "HOLD",
+    "reason": "Adjective: gender is not applicable. The stored 'm' is meaningless rather than wrong-but-fixable; needs an operator decision on how the data model represents non-nouns."
+   }
+  },
+  {
+   "key": "dishwasher",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "doctor",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "dog",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "dogwood-tree",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "doll",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "dolphin",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "domino",
+   "singular": {
+    "verdict": "HOLD",
+    "reason": "Theme 'toys' + English 'Domino/Dominoes' points to the single tile, which in German is 'der Dominostein'. Bare 'Domino' is either the game (das Domino) or a masked costume (der Domino) per Duden - a different lemma, not a form fix.",
+    "source": "Duden"
+   },
+   "plural": {
+    "verdict": "HOLD",
+    "reason": "Depends on the lemma decision: die Dominosteine (tiles) vs. die Dominos (games/costumes)."
+   },
+   "gender": {
+    "verdict": "HOLD",
+    "reason": "Duden distinguishes das Domino (game) from der Domino (costume); der Dominostein (tile) is m. Gender cannot be settled before the lemma is."
+   }
+  },
+  {
+   "key": "donkey",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "donut",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "door",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "double-decker-bus",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "double-ended-wrench",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "doughnut",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "dove",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "dragon",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "dragon-fruit",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "dragonfly",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "dress",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "dresser",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "driftwood",
+   "singular": { "verdict": "OK" },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Treibholz is a mass noun (das Treibholz, -es; no plural in Duden). 'Treibholze' is a machine-formed non-word.",
+    "source": "Duden"
+   },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "drink",
+   "singular": {
+    "verdict": "HOLD",
+    "reason": "'Trinken' is the substantivized infinitive = the act of drinking, not a beverage. The English gloss 'Drink/Drinks' is a countable beverage = 'Getränk'. That is a lemma change, not a form fix. (noImage: dead data, but still wrong.)"
+   },
+   "plural": {
+    "verdict": "HOLD",
+    "reason": "Depends on the lemma: das Trinken has no plural; das Getränk -> die Getränke."
+   },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "droplet",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "drum",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "drumstick",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "dryer",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "duck",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "duckling",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "dumbbell",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "dump-truck",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "durian",
+   "singular": { "verdict": "OK" },
+   "plural": {
+    "verdict": "HOLD",
+    "reason": "'Duriane' is a machine-formed -e plural. Attested German usage is 'Durians'; I cannot confirm the normed Duden form -> hold rather than guess."
+   },
+   "gender": {
+    "verdict": "HOLD",
+    "reason": "Gender of Durian is not settled in my sources (die Durian for the fruit vs. der Durian is both in circulation). Needs a Duden lookup."
+   }
+  },
+  {
+   "key": "dustpan",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "eagle",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "ear",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "earmuffs",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "earth",
+   "singular": { "verdict": "OK" },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Proper noun: die Erde as the planet (themes 'space', 'classroom') has no child-appropriate plural."
+   },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "earthworm",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "easter",
+   "singular": { "verdict": "OK" },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Name of a feast; no plural is used with children.",
+    "source": "Duden"
+   },
+   "gender": {
+    "verdict": "FIX",
+    "correct": "n",
+    "reason": "Duden: Ostern, das - neuter, not masculine. 'der Ostern' does not exist.",
+    "source": "Duden"
+   }
+  },
+  {
+   "key": "easter-egg",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "eat",
+   "singular": { "verdict": "OK" },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Substantivized infinitive (das Essen = the act of eating / the meal, here glossing the verb 'eat'); no plural in this reading."
+   },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "eclair",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "egg",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "eggplant",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "eight-ball",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "elbow",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "electric-drill",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "electric-kettle",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "elephant",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "elf",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "elm-tree",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "envelope",
+   "singular": { "verdict": "OK" },
+   "plural": {
+    "verdict": "FIX",
+    "correct": "Briefumschläge",
+    "reason": "Duden: der Briefumschlag -> die Briefumschläge. The stored 'Briefumschlage' lacks the umlaut and is a non-word.",
+    "source": "Duden"
+   },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "eraser",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "erlenmeyer-flask",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "espresso-machine",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "evergreen",
+   "singular": {
+    "verdict": "HOLD",
+    "reason": "Two defects at once. 'Immergrün' in German is the plant Vinca (periwinkle), das Immergrün - it does not mean an evergreen tree. Theme 'winter' + English 'Evergreen' almost certainly shows a conifer, i.e. Nadelbaum / Tanne. Lemma decision required from the image, not a form fix.",
+    "source": "Duden"
+   },
+   "plural": {
+    "verdict": "HOLD",
+    "reason": "Depends on the lemma decision (die Nadelbäume / die Tannen vs. die Immergrüne)."
+   },
+   "gender": {
+    "verdict": "HOLD",
+    "reason": "'m' is wrong for das Immergrün (Duden: neuter), but would be right for der Nadelbaum. Cannot be settled before the lemma is.",
+    "source": "Duden"
+   }
+  },
+  {
+   "key": "excavator",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "excited",
+   "singular": { "verdict": "OK" },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Adjective (aufgeregt) used as an emotion label; adjectives have no plural noun form."
+   },
+   "gender": {
+    "verdict": "HOLD",
+    "reason": "Adjective: gender is not applicable. The stored 'm' is meaningless; needs an operator decision on how the data model represents non-nouns."
+   }
+  },
+  {
+   "key": "extension-cord",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": {
+    "verdict": "FIX",
+    "correct": "n",
+    "reason": "Duden: das Kabel -> das Verlängerungskabel. Compound gender follows the head noun; 'der Verlängerungskabel' is wrong.",
+    "source": "Duden"
+   }
+  },
+  {
+   "key": "eye",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "eyebrow",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "eyelashes",
+   "singular": {
+    "verdict": "FIX",
+    "correct": "Wimper",
+    "reason": "Plural form stored in the singular field. Duden: die Wimper -> die Wimpern. Not pluralia tantum - the singular exists.",
+    "source": "Duden"
+   },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "face",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "face-mask",
+   "singular": { "verdict": "OK" },
+   "plural": {
+    "verdict": "HOLD",
+    "reason": "'Mundschutze' is the naive -e default and sounds unidiomatic; the head noun 'Schutz' has no plural, and real usage says 'Masken'. I cannot confirm whether Duden norms a plural for Mundschutz -> hold rather than guess. (noImage: dead data.)"
+   },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "falcon",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "family",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "fan",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "farmer",
+   "singular": { "verdict": "OK" },
+   "plural": {
+    "verdict": "FIX",
+    "correct": "Bauern",
+    "reason": "Duden: der Bauer -> die Bauern (weak declension). The naive '-er stays unchanged' default produced a non-word for a high-frequency farm word.",
+    "source": "Duden"
+   },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "father",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "faucet",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "feather",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "fence",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "ferret",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "ferry",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "fig",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "filing-cabinet",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "finch",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "finger",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "fir-tree",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "fire-truck",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "firefighter",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "firefly",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "fireplace",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "fish",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "fishbowl",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "fishing",
+   "singular": { "verdict": "OK" },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Substantivized infinitive (das Angeln = the activity); no plural."
+   },
+   "gender": {
+    "verdict": "FIX",
+    "correct": "n",
+    "reason": "Substantivized infinitives are always neuter: das Angeln. 'der Angeln' does not exist (die Angel -> die Angeln is the fishing rod, a different lemma).",
+    "source": "Duden"
+   }
+  },
+  {
+   "key": "fishing-rod",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "flag",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "flamingo",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "flashlight",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "flight-attendant",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "flip-flops",
+   "singular": {
+    "verdict": "FIX",
+    "correct": "Flip-Flop",
+    "reason": "Plural form stored in the singular field. Duden: der Flip-Flop -> die Flip-Flops (usually used in the plural, but the singular exists).",
+    "source": "Duden"
+   },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "flipper",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "floor-lamp",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "florist",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "flower",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "flute",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "foal",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "folder",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "food",
+   "singular": { "verdict": "OK" },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Mass noun in this reading (das Essen = food). The countable plural 'die Essen' (= meals) is not the sense the theme 'travel_and_holiday' shows and is not child-appropriate here."
+   },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "foot",
+   "singular": { "verdict": "OK" },
+   "plural": { "verdict": "OK" },
+   "gender": { "verdict": "OK" }
+  },
+  {
+   "key": "football",
+   "singular": { "verdict": "OK" },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Name of a sport (type verb-gerund, themes 'activities'/'sports'); sports names have no plural."
+   },
+   "gender": { "verdict": "OK" }
+  }
+ ]
+}

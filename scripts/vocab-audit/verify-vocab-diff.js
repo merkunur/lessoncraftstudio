@@ -53,7 +53,42 @@ const LEGAL_GENDERS = {
   de: ['m', 'f', 'n'], fr: ['m', 'f'], it: ['m', 'f'], es: ['m', 'f'], pt: ['m', 'f'],
   nl: ['d', 'h'], sv: ['n', 't'], da: ['n', 't'], no: ['m', 'f', 'n'],
 };
-const ARITY = { en: 2, fi: 2, de: 3, fr: 3, it: 3, es: 3, pt: 3, nl: 3, sv: 3, da: 3, no: 3 };
+/* Arity is NO LONGER a per-locale constant. The operator's ruling — "if they
+   are not nouns, don't make up anything, they don't need plural or gender" —
+   means a QUALITY or an ACTIVITY carries NO gender element, so it is arity-2
+   even in a gendered locale (red -> ["Rot","Rot"]). A flat ARITY[l]=3 would
+   reject exactly the fix.
+
+   The expected arity therefore comes from the image-derived classification
+   SoT, which is decided ONCE per key and applied to all 11 locales (the
+   operator: "all of the languages reflect the same images"). A key that is
+   genderless in `de` but gendered in `fr` is a defect, and this now catches
+   it rather than mandating it.
+
+   No SoT on disk => fall back to the old constants, so the gate keeps working
+   for anyone who has not built one. It fails loud, never silently permissive. */
+const ARITY_NOUN = { en: 2, fi: 2, de: 3, fr: 3, it: 3, es: 3, pt: 3, nl: 3, sv: 3, da: 3, no: 3 };
+
+function loadClassification() {
+  const p = path.join(REPO, 'docs', 'audit-results', 'vocab-audit', 'classification.json');
+  try { return JSON.parse(fs.readFileSync(p, 'utf8')).rows; } catch (e) { return null; }
+}
+const CLASSIFICATION = loadClassification();
+
+function expectedArity(key, loc) {
+  if (loc === 'en' || loc === 'fi') return 2;              /* never gendered */
+  const c = CLASSIFICATION && CLASSIFICATION[key];
+  if (!c) return ARITY_NOUN[loc];                          /* no SoT — old behaviour */
+  /* BLOCKED = the word does not name the picture, so the classification
+     describes the PICTURED OBJECT, not this label. It is deliberately NOT
+     driving the strip — so it must not drive validation either, or the gate
+     demands a change we have frozen. `golf` is classified `activity` because
+     the art is a putting green, while the LABEL "Golf" is a noun that rightly
+     keeps its gender until the operator rules (fix the WORD or the ART).
+     Frozen means frozen: assert nothing, in either direction. */
+  if (c.blocked) return null;
+  return c.hasGender ? 3 : 2;
+}
 
 function evalVocab(src, label) {
   const sb = { window: {} };
@@ -87,7 +122,9 @@ function diff(base, cur) {
       const b = base[k][l], c = cur[k][l];
       if (!b || !c) { errors.push('SHAPE ' + k + '.' + l + ': locale missing'); continue; }
       /* 6. arity */
-      if (c.length !== ARITY[l]) errors.push('SHAPE ' + k + '.' + l + ': arity ' + c.length + ' ≠ ' + ARITY[l]);
+      const want = expectedArity(k, l);
+      if (want !== null && c.length !== want) errors.push('SHAPE ' + k + '.' + l + ': arity ' + c.length + ' ≠ ' + want +
+        (CLASSIFICATION && CLASSIFICATION[k] ? ' (' + CLASSIFICATION[k].category + (CLASSIFICATION[k].hasGender ? ' keeps a gender' : ' is not a noun — no gender element') + ')' : ''));
       const n = Math.max(b.length, c.length);
       for (let i = 0; i < n; i++) {
         if (b[i] !== c[i]) changes.push({ key: k, loc: l, field: i, from: b[i], to: c[i] });
@@ -186,7 +223,27 @@ function selfTest() {
   t('illegal nl gender (m/f/n cross-applied — nl is d/h)', (v) => { v.cat.nl[2] = 'n'; }, 'GENDER');
   t('illegal sv gender (sv is n/t)', (v) => { v.cat.sv[2] = 'm'; }, 'GENDER');
   t('broken arity (a 3rd element on en)', (v) => { v.cat.en.push('m'); }, 'arity');
-  t('arity stripped from de', (v) => { v.cat.de = [v.cat.de[0], v.cat.de[1]]; }, 'arity');
+  /* `cat` is a countable-thing, so it MUST keep its de gender — stripping it is
+     still a defect and must still bite. What changed is that arity is now read
+     from the classification instead of a flat ARITY[l]=3, so that a QUALITY
+     (red -> ["Rot","Rot"]) is CORRECT at arity 2 rather than rejected. Both
+     directions are proven below. */
+  t('arity stripped from de on a NOUN (cat must keep its gender)', (v) => { v.cat.de = [v.cat.de[0], v.cat.de[1]]; }, 'arity');
+  if (CLASSIFICATION) {
+    const adj = Object.keys(CLASSIFICATION).find((k) => CLASSIFICATION[k] && !CLASSIFICATION[k].hasGender && base[k] && base[k].de);
+    if (adj) {
+      t('a fabricated gender put BACK on a non-noun (' + adj + ' — the "der Rot" class)',
+        (v) => { v[adj].de = [v[adj].de[0], v[adj].de[1], 'm']; }, 'arity');
+      /* the negative direction: the shipped arity-2 non-noun must NOT be flagged */
+      const clean = diff(base, JSON.parse(JSON.stringify(base)));
+      const spurious = clean.errors.filter((e) => e.indexOf('arity') >= 0);
+      console.log('   ' + (spurious.length === 0 ? '✓ quiet' : '✗ FALSE POSITIVE') +
+        '  NEG the shipped arity-2 non-nouns are CORRECT, not defects (' +
+        Object.keys(CLASSIFICATION).filter((k) => !CLASSIFICATION[k].hasGender).length + ' keys)');
+      spurious.length === 0 ? pass++ : fail++;
+      if (spurious.length) spurious.slice(0, 3).forEach((s) => console.log('        spurious: ' + s));
+    }
+  }
 
   /* the NEGATIVE control — an in-scope de plural fix must NOT trip
      collateral/field/gender/shape. A gate that fires on everything is

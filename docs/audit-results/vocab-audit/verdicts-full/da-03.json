@@ -1,0 +1,52 @@
+{
+ "locale": "da",
+ "batch": "03",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {
+   "flipper": {"from": "Svømmefødder", "to": "Svømmefod", "why": "cur singular was the plural form; DDO svømmefod (sg) -> svømmefødder (pl); pl field already correct", "src": "DDO svømmefod: -en, ..fødder, ..fødderne"},
+   "gingerbread-man": {"from": "Peberkagesmand", "to": "Peberkagemand", "why": "stray linking-s; standard compound peberkage+mand has no -s", "src": "DDO peberkage / mand"}
+  },
+  "plural": {
+   "fireplace": {"from": "Pejser", "to": "Pejse", "why": "naive -er; DDO pejs plural -e", "src": "DDO pejs: -en, -e, -ene"},
+   "fish": {"from": "Fisker", "to": "Fisk", "why": "'Fisker' means fishermen; DDO fisk plural = fisk (no ending)", "src": "DDO fisk: -en, -, -ene"},
+   "fishbowl": {"from": "Akvariumer", "to": "Akvarier", "why": "latin -ium noun; DDO akvarium plural akvarier", "src": "DDO akvarium: akvariet, akvarier, akvarierne"},
+   "flip-flops": {"from": "Klipklappere", "to": "Klipklapper", "why": "double plural; klipklapper is already the plural form (plural-picture, s===p)", "src": "DDO klipklapper: -ne"},
+   "forest": {"from": "Skover", "to": "Skove", "why": "naive -er; DDO skov plural -e", "src": "DDO skov: -en, -e, -ene"},
+   "forklift": {"from": "Gaffeltrucker", "to": "Gaffeltrucks", "why": "'-er' is marked uofficiel; official plural is -s", "src": "DDO gaffeltruck/truck: -en, -s (uoff: -er eller -)"},
+   "fox": {"from": "Ræver", "to": "Ræve", "why": "naive -er; DDO ræv plural -e", "src": "DDO ræv: -en, -e, -ene"},
+   "gate": {"from": "Porter", "to": "Porte", "why": "'Porter' is a beer; DDO port plural -e", "src": "DDO port: -en, -e, -ene"},
+   "giraffe": {"from": "Girafer", "to": "Giraffer", "why": "missing double-f; DDO giraf -> giraffer", "src": "DDO giraf: -fen, -fer, -ferne"},
+   "globe": {"from": "Globuser", "to": "Globusser", "why": "DDO globus plural globusser (double-s)", "src": "DDO globus: -sen, -ser, -serne"},
+   "goggles": {"from": "Beskyttelsesbrillere", "to": "Beskyttelsesbriller", "why": "double plural; briller is already plural", "src": "DDO briller: -ne"},
+   "goldfish": {"from": "Guldfisker", "to": "Guldfisk", "why": "'-fisker' = fishermen; fisk plural = fisk", "src": "DDO fisk: -en, -, -ene"},
+   "green-beans": {"from": "Grønne bønnere", "to": "Grønne bønner", "why": "double plural; bønner already plural", "src": "DDO bønne: bønner"},
+   "hair-tie": {"from": "Hårelastiker", "to": "Hårelastikker", "why": "DDO elastik plural elastikker (double-k)", "src": "DDO elastik: -ken, -ker, -kerne"},
+   "handsaw": {"from": "Håndsaver", "to": "Håndsave", "why": "DDO sav plural -e", "src": "DDO sav: -en, -e, -ene"},
+   "hawk": {"from": "Høger", "to": "Høge", "why": "DDO høg plural -e", "src": "DDO høg: -en, -e, -ene"},
+   "haystack": {"from": "Høstaker", "to": "Høstakke", "why": "DDO høstak plural høstakke (double-k)", "src": "DDO høstak: -ken, -ke, -kene"},
+   "heel": {"from": "Hæler", "to": "Hæle", "why": "DDO hæl plural -e", "src": "DDO hæl: -en, -e, -ene"},
+   "helmet": {"from": "Hjelmer", "to": "Hjelme", "why": "DDO hjelm plural -e", "src": "DDO hjelm: -en, -e, -ene"},
+   "hermit-crab": {"from": "Eremitkrebser", "to": "Eremitkrebs", "why": "DDO krebs plural = krebs (no ending)", "src": "DDO krebs: -en, -, -ene"},
+   "hippopotamus": {"from": "Flodhester", "to": "Flodheste", "why": "DDO hest plural -e", "src": "DDO hest: -en, -e, -ene"},
+   "hornbill": {"from": "Næsehornsfugler", "to": "Næsehornsfugle", "why": "DDO fugl plural -e", "src": "DDO fugl: -en, -e, -ene"},
+   "hospital-bed": {"from": "Hospitalssenger", "to": "Hospitalssenge", "why": "DDO seng plural -e", "src": "DDO seng: -en, -e, -ene"},
+   "hot-dog": {"from": "Hotdoger", "to": "Hotdogs", "why": "DDO hotdog primary plural -s", "src": "DDO hotdog: -gen, -s, -sene eller -gene"},
+   "ice-cream": {"from": "Iser", "to": "Is", "why": "DDO is plural = is (no ending); 'iser' not standard", "src": "DDO is: -en, -, -ene"},
+   "icicle": {"from": "Istaper", "to": "Istapper", "why": "DDO istap plural istapper (double-p)", "src": "DDO istap: -pen, -per eller -pe, -perne"},
+   "jelly-beans": {"from": "Gelébønnere", "to": "Gelébønner", "why": "double plural; bønner already plural", "src": "DDO bønne: bønner"},
+   "juice": {"from": "Juice", "to": "Juicer", "why": "cur left s===p; DDO juice plural juicer", "src": "DDO juice: -n, -r, -rne"},
+   "juice-box": {"from": "Juicebokser", "to": "Juicebokse", "why": "DDO boks plural -e", "src": "DDO boks: -en, -e, -ene"},
+   "kayak": {"from": "Kajaker", "to": "Kajakker", "why": "DDO kajak plural kajakker (double-k)", "src": "DDO kajak: -ken, -ker, -kerne"},
+   "keyboard": {"from": "Keyboarder", "to": "Keyboards", "why": "DDO keyboard plural -s", "src": "DDO keyboard: -et, -s, -ene"},
+   "kingfisher": {"from": "Isfugler", "to": "Isfugle", "why": "DDO fugl plural -e", "src": "DDO isfugl/fugl: -en, -e, -ene"},
+   "knife": {"from": "Kniver", "to": "Knive", "why": "DDO kniv plural -e", "src": "DDO kniv: -en, -e, -ene"},
+   "jumpsuit": {"from": "Jumpsuiter", "to": "Jumpsuits", "why": "DDO jumpsuit plural -s", "src": "DDO jumpsuit: -en eller -et, -s, -ene"},
+   "kettlebell": {"from": "Kettlebeller", "to": "Kettlebells", "why": "DDO kettlebell plural -s", "src": "DDO kettlebell: -en, pluralis -s"},
+   "gingerbread-man": {"from": "Peberkagsmænd", "to": "Peberkagemænd", "why": "malformed stem (missing -e); mand->mænd on standard compound peberkagemand", "src": "DDO mand: mænd"}
+  },
+  "gender": {
+   "keyboard": {"from": "n", "to": "t", "why": "DDO keyboard is intetkøn (et keyboard), bøjning -et", "src": "DDO keyboard: -et, -s, -ene"}
+  }
+ }
+}

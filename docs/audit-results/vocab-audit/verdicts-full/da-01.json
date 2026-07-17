@@ -1,0 +1,55 @@
+{
+ "locale": "da",
+ "batch": "01",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {
+   "brush": { "from": "Borste", "to": "Børste", "why": "spelling: Danish for a brush is 'børste' (with ø); 'Borste' is a non-word", "src": "DDO børste: substantiv fælleskøn, -n, -r" }
+  },
+  "plural": {
+   "analog-clock": { "from": "Analogt ur", "to": "Analoge ure", "why": "countable p===s; base 'ur' (et ur) has real plural 'ure' with adjective agreement 'analoge'", "src": "DDO ur: intetkøn, -et, -e → ure" },
+   "arm": { "from": "Armer", "to": "Arme", "why": "-e plural, not -er", "src": "DDO arm: -en, -e, -ene" },
+   "armchair": { "from": "Lænestoler", "to": "Lænestole", "why": "stol pluralises -e → stole", "src": "DDO stol: -en, -e, -ene" },
+   "ash-tree": { "from": "Asker", "to": "Aske", "why": "ask (tree) plural -e → aske", "src": "DDO ask: fælleskøn, -en, -e, -ene" },
+   "aster": { "from": "Asterser", "to": "Asters", "why": "asters is invariant in plural", "src": "DDO asters: -en, -, -erne/-ene" },
+   "baby-carriage": { "from": "Barnevogner", "to": "Barnevogne", "why": "vogn pluralises -e → vogne", "src": "DDO vogn: -en, -e, -ene" },
+   "ball": { "from": "Bolder", "to": "Bolde", "why": "bold plural -e → bolde", "src": "DDO bold: -en, -e, -ene" },
+   "beach-ball": { "from": "Badebolder", "to": "Badebolde", "why": "compound of bold → -e plural", "src": "DDO bold: -en, -e, -ene" },
+   "beach-umbrella": { "from": "Strandparasoler", "to": "Strandparasoller", "why": "parasol doubles l: -ler → parasoller", "src": "DDO parasol: -len, -ler, -lerne" },
+   "beech-tree": { "from": "Bøger", "to": "Bøge", "why": "bøg (beech) plural is bøge; 'bøger' is the plural of bog (book)", "src": "DDO bøg: fælleskøn, -en, -e, -ene" },
+   "bench": { "from": "Bænker", "to": "Bænke", "why": "bænk plural -e → bænke", "src": "DDO bænk: -en, -e, -ene" },
+   "birch-tree": { "from": "Birker", "to": "Birke", "why": "birk plural -e → birke", "src": "DDO birk: fælleskøn, -en, -e, -ene" },
+   "biscuit": { "from": "Kikser", "to": "Kiks", "why": "kiks is invariant in plural", "src": "DDO kiks: fælleskøn, -en, -, -ene" },
+   "boat": { "from": "Båder", "to": "Både", "why": "båd plural -e → både", "src": "DDO båd: -en, -e, -ene" },
+   "bowl": { "from": "Skåler", "to": "Skåle", "why": "skål plural -e → skåle", "src": "DDO skål: -en, -e, -ene" },
+   "boy": { "from": "Drenger", "to": "Drenge", "why": "dreng plural -e → drenge", "src": "DDO dreng: -en, -e, -ene" },
+   "broom": { "from": "Koster", "to": "Koste", "why": "kost (broom) plural -e → koste", "src": "DDO kost: -en, -e, -ene" },
+   "brush": { "from": "Borster", "to": "Børster", "why": "singular corrected to børste → plural børster", "src": "DDO børste: -n, -r, -rne" },
+   "bud": { "from": "Knoper", "to": "Knopper", "why": "knop doubles p: -per → knopper", "src": "DDO knop: -pen, -per, -perne" },
+   "bull": { "from": "Tyrer", "to": "Tyre", "why": "tyr plural -e → tyre", "src": "DDO tyr: -en, -e, -ene" },
+   "butter-knife": { "from": "Smørkniver", "to": "Smørknive", "why": "kniv plural -e → knive", "src": "DDO kniv: -en, -e, -ene" },
+   "butterfly": { "from": "Sommerfugler", "to": "Sommerfugle", "why": "fugl plural -e → sommerfugle", "src": "DDO fugl: -en, -e, -ene" },
+   "cabbage": { "from": "Kåler", "to": "Kål", "why": "kål is invariant in plural", "src": "DDO kål: fælleskøn, -en, -, -ene" },
+   "cactus": { "from": "Kaktuser", "to": "Kaktusser", "why": "kaktus doubles s: official plural -ser → kaktusser", "src": "DDO kaktus: -sen, -ser, -serne" },
+   "calf": { "from": "Kalver", "to": "Kalve", "why": "kalv plural -e → kalve", "src": "DDO kalv: -en, -e, -ene" },
+   "camel": { "from": "Kamler", "to": "Kameler", "why": "wrong stem elision; kamel plural -er keeps stem → kameler", "src": "DDO kamel: -en, -er, -erne" },
+   "camp": { "from": "Lejrer", "to": "Lejre", "why": "lejr plural -e → lejre", "src": "DDO lejr: -en, -e, -ene" },
+   "camping-chair": { "from": "Campingstoler", "to": "Campingstole", "why": "stol → -e plural", "src": "DDO stol: -en, -e, -ene" },
+   "canary": { "from": "Kanariefugler", "to": "Kanariefugle", "why": "fugl → -e plural", "src": "DDO fugl: -en, -e, -ene" },
+   "candy-cane": { "from": "Sukkerstanger", "to": "Sukkerstænger", "why": "stang has vowel-shift plural stænger", "src": "DDO stang: -en, stænger, stængerne" },
+   "cap": { "from": "Kasketer", "to": "Kasketter", "why": "kasket doubles t: -ter → kasketter", "src": "DDO kasket: -ten, -ter, -terne" },
+   "carriage": { "from": "Hestevogner", "to": "Hestevogne", "why": "vogn → -e plural", "src": "DDO vogn: -en, -e, -ene" },
+   "carrot": { "from": "Guleroder", "to": "Gulerødder", "why": "gulerod has vowel-shift + doubled d plural gulerødder", "src": "DDO gulerod: -en, gulerødder, gulerødderne" },
+   "cart": { "from": "Indkøbsvogner", "to": "Indkøbsvogne", "why": "vogn → -e plural", "src": "DDO vogn: -en, -e, -ene" },
+   "cauliflower": { "from": "Blomkåler", "to": "Blomkål", "why": "blomkål invariant in plural like kål", "src": "DDO kål: -en, -, -ene" }
+  },
+  "gender": {
+   "apple": { "from": "n", "to": "t", "why": "æble is intetkøn (et æble); prior da arc miscoded as common. Plural Æbler unchanged.", "src": "DDO æble: substantiv intetkøn, -t, -r, -rne" },
+   "apron": { "from": "n", "to": "t", "why": "forklæde is intetkøn (et forklæde); plural Forklæder unchanged.", "src": "DDO forklæde: substantiv intetkøn, -t, -r, -rne" },
+   "autumn": { "from": "n", "to": "t", "why": "efterår is intetkøn (et efterår).", "src": "DDO efterår: substantiv intetkøn, -et, -, -ene" },
+   "barrette": { "from": "n", "to": "t", "why": "spænde/hårspænde is intetkøn (et spænde); plural Hårspænder unchanged.", "src": "DDO spænde: substantiv intetkøn, -t, -r, -rne" },
+   "camera": { "from": "n", "to": "t", "why": "kamera is intetkøn (et kamera); plural Kameraer unchanged.", "src": "DDO kamera: substantiv intetkøn, -et, -er, -erne" },
+   "cash-register": { "from": "n", "to": "t", "why": "apparat/kasseapparat is intetkøn (et apparat); plural Kasseapparater unchanged.", "src": "DDO apparat: substantiv intetkøn, -et, -er, -erne" }
+  }
+ }
+}

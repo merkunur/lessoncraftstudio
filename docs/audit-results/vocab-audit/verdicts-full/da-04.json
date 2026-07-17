@@ -1,0 +1,53 @@
+{
+ "locale": "da",
+ "batch": "04",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {
+   "painting": { "from": "Male", "to": "Maleri", "why": "'Male' is the verb (to paint); the noun 'a painting' is 'et maleri'. Machine emitted the infinitive.", "src": "DDO maleri: substantiv, intetkøn, -et, -er, -erne" }
+  },
+  "plural": {
+   "mail-carrier": { "from": "Postbuder", "to": "Postbude", "why": "postbud → postbude", "src": "DDO postbud -det, -e, -ene" },
+   "life-jacket": { "from": "Redningsvester", "to": "Redningsveste", "why": "vest (garment) → veste, so redningsvest → redningsveste", "src": "DDO vest sb. -en, -e, -ene" },
+   "life-preserver": { "from": "Redningskranser", "to": "Redningskranse", "why": "krans → kranse", "src": "DDO krans -en, -e, -ene" },
+   "lilac": { "from": "Syrene", "to": "Syrener", "why": "syren → syrener; 'Syrene' was not a valid indefinite plural", "src": "DDO syren -en, -er, -erne" },
+   "lotus": { "from": "Lotuser", "to": "Lotus", "why": "zero indefinite plural (flere lotus); 'Lotuser' not a valid form", "src": "DDO lotus -sen, -, -serne" },
+   "lounge-chair": { "from": "Liggestoler", "to": "Liggestole", "why": "stol → stole", "src": "DDO stol -en, -e, -ene" },
+   "lounger": { "from": "Solsenger", "to": "Solsenge", "why": "seng → senge", "src": "DDO seng -en, -e, -ene" },
+   "love-letter": { "from": "Kærlighedsbrev", "to": "Kærlighedsbreve", "why": "brev → breve; had zero plural in error", "src": "DDO brev -et, -e, -ene" },
+   "love-note": { "from": "Kærlighedsbrev", "to": "Kærlighedsbreve", "why": "brev → breve; had zero plural in error", "src": "DDO brev -et, -e, -ene" },
+   "manatee": { "from": "Søkoer", "to": "Søkøer", "why": "ko → køer (umlaut), so søko → søkøer", "src": "DDO ko -en, køer, køerne" },
+   "measuring-cup": { "from": "Målebægere", "to": "Målebægre", "why": "bæger → bægre (syncope)", "src": "DDO bæger -et, bægre, bægrene" },
+   "minibus": { "from": "Minibuser", "to": "Minibusser", "why": "bus → busser (double s)", "src": "DDO minibus -sen, -ser, -serne" },
+   "moose": { "from": "Elger", "to": "Elge", "why": "elg → elge", "src": "DDO elg -en, -e, -ene" },
+   "mosquito": { "from": "Myger", "to": "Myg", "why": "zero plural (flere myg)", "src": "DDO myg -gen, -, -gene" },
+   "mug": { "from": "Kruser", "to": "Krus", "why": "krus (neuter) has zero plural", "src": "DDO krus1 substantiv intetkøn, -et, -, -ene" },
+   "muffin-tin": { "from": "Muffinformer", "to": "Muffinforme", "why": "baking-mould sense of 'form' → forme (bageform -en, -e)", "src": "DDO bageform -en, -e, -ene" },
+   "mushroom": { "from": "Svamper", "to": "Svampe", "why": "svamp → svampe", "src": "DDO svamp -en, -e, -ene" },
+   "nail": { "from": "Negler", "to": "Negle", "why": "negl (fingernail) → negle", "src": "DDO negl -en, -e, -ene" },
+   "neck": { "from": "Halser", "to": "Halse", "why": "hals → halse", "src": "DDO hals -en, -e, -ene" },
+   "necktie": { "from": "Slipser", "to": "Slips", "why": "slips (neuter) has zero plural", "src": "DDO slips substantiv intetkøn, -et, -, -ene" },
+   "nut": { "from": "Møtriker", "to": "Møtrikker", "why": "møtrik → møtrikker (double k)", "src": "DDO møtrik -ken, -ker, -kerne" },
+   "oak-tree": { "from": "Eger", "to": "Ege", "why": "eg (oak) → ege", "src": "DDO eg -en, -e, -ene" },
+   "ostrich": { "from": "Strudser", "to": "Strudse", "why": "struds → strudse", "src": "DDO struds -en, -e, -ene" },
+   "ottoman": { "from": "Pufer", "to": "Puffer", "why": "puf (footstool) → puffer (double f)", "src": "DDO puf sb. -fen, -fer, -ferne" },
+   "oven": { "from": "Ovner", "to": "Ovne", "why": "ovn → ovne", "src": "DDO ovn -en, -e, -ene" },
+   "oyster": { "from": "Østerser", "to": "Østers", "why": "zero indefinite plural (flere østers)", "src": "DDO østers -en, -, -erne/-ene" },
+   "padlock": { "from": "Hængelåser", "to": "Hængelåse", "why": "lås → låse", "src": "DDO lås -en, -e, -ene" },
+   "palette": { "from": "Paleter", "to": "Paletter", "why": "palet → paletter (double t)", "src": "DDO palet -ten, -ter, -terne" },
+   "parasol": { "from": "Parasoler", "to": "Parasoller", "why": "parasol → parasoller (double l)", "src": "DDO parasol -len, -ler, -lerne" },
+   "parsnip": { "from": "Pastinaker", "to": "Pastinakker", "why": "pastinak → pastinakker (double k)", "src": "DDO pastinak -ken, -ker, -kerne" },
+   "peacock": { "from": "Påfugler", "to": "Påfugle", "why": "fugl → fugle, so påfugl → påfugle", "src": "DDO fugl -en, -e, -ene" },
+   "pen": { "from": "Pener", "to": "Penne", "why": "pen → penne", "src": "DDO pen -nen, -ne, -nene" },
+   "piano": { "from": "Klavere", "to": "Klaverer", "why": "klaver → klaverer", "src": "DDO klaver -et, -er, -erne" },
+   "pajamas": { "from": "Pyjamaser", "to": "Pyjamasser", "why": "pyjamas → pyjamasser (official form; single-s 'pyjamaser' not valid)", "src": "DDO pyjamas -sen, -ser/-, -serne" }
+  },
+  "gender": {
+   "mail-carrier": { "from": "n", "to": "t", "why": "postbud is intetkøn (et postbud); machine defaulted to common", "src": "DDO postbud substantiv intetkøn, -det, -e, -ene" },
+   "mug": { "from": "n", "to": "t", "why": "krus is intetkøn (et krus)", "src": "DDO krus1 substantiv intetkøn" },
+   "necklace": { "from": "t", "to": "n", "why": "kæde is fælleskøn (en kæde) → halskæde is common", "src": "DDO kæde substantiv fælleskøn, -n, -r, -rne" },
+   "necktie": { "from": "n", "to": "t", "why": "slips is intetkøn (et slips)", "src": "DDO slips substantiv intetkøn" },
+   "painting": { "from": "n", "to": "t", "why": "maleri is intetkøn (et maleri)", "src": "DDO maleri substantiv intetkøn" }
+  }
+ }
+}

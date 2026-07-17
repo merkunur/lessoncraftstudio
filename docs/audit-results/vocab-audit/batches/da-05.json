@@ -1,0 +1,4780 @@
+{
+ "locale": "da",
+ "batch": "05",
+ "of": 7,
+ "genderLegend": "n=en-ord (COMMON/fælleskøn) · t=et-ord (neutrum)  ← n is COMMON, not neuter",
+ "count": 210,
+ "range": [
+  "pineapple",
+  "spade"
+ ],
+ "rows": [
+  {
+   "key": "pineapple",
+   "themes": [
+    "at_the_supermarket",
+    "fruits",
+    "summer"
+   ],
+   "en": [
+    "Pineapple",
+    "Pineapples"
+   ],
+   "cur": {
+    "s": "Ananas",
+    "p": "Ananaser",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "pinecone",
+   "themes": [
+    "camping",
+    "miscellaneous",
+    "winter"
+   ],
+   "en": [
+    "Pinecone",
+    "Pinecones"
+   ],
+   "cur": {
+    "s": "Grankogle",
+    "p": "Grankogler",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "pink",
+   "themes": [
+    "colors"
+   ],
+   "en": [
+    "Pink",
+    "Pink"
+   ],
+   "cur": {
+    "s": "Lyserød",
+    "p": "Lyserød",
+    "g": null
+   },
+   "type": "adjective",
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "pinwheel",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Pinwheel",
+    "Pinwheels"
+   ],
+   "cur": {
+    "s": "Vindmølle",
+    "p": "Vindmøller",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "pipe-wrench",
+   "themes": [
+    "tools"
+   ],
+   "en": [
+    "Pipe Wrench",
+    "Pipe Wrenches"
+   ],
+   "cur": {
+    "s": "Rørtang",
+    "p": "Rørtanger",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "pitcher",
+   "themes": [
+    "kitchen_tools"
+   ],
+   "en": [
+    "Pitcher",
+    "Pitchers"
+   ],
+   "cur": {
+    "s": "Kande",
+    "p": "Kander",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "pizza",
+   "themes": [
+    "at_the_supermarket",
+    "food"
+   ],
+   "en": [
+    "Pizza",
+    "Pizzas"
+   ],
+   "cur": {
+    "s": "Pizza",
+    "p": "Pizzaer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "planet",
+   "themes": [
+    "space"
+   ],
+   "en": [
+    "Planet",
+    "Planets"
+   ],
+   "cur": {
+    "s": "Planet",
+    "p": "Planeter",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "plant",
+   "themes": [
+    "home_and_nature",
+    "household",
+    "nature"
+   ],
+   "en": [
+    "Plant",
+    "Plants"
+   ],
+   "cur": {
+    "s": "Plante",
+    "p": "Planter",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "plate",
+   "themes": [
+    "around_the_house",
+    "home_and_nature",
+    "kitchen",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Plate",
+    "Plates"
+   ],
+   "cur": {
+    "s": "Tallerken",
+    "p": "Tallerkner",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "play",
+   "themes": [],
+   "en": [
+    "Play",
+    "Plays"
+   ],
+   "cur": {
+    "s": "Lege",
+    "p": "Lege",
+    "g": "n"
+   },
+   "type": null,
+   "countable": null,
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "playground",
+   "themes": [
+    "activities"
+   ],
+   "en": [
+    "Playground",
+    "Playgrounds"
+   ],
+   "cur": {
+    "s": "Legeplads",
+    "p": "Legepladser",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "plesiosaurus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Plesiosaurus",
+    "Plesiosauruses"
+   ],
+   "cur": {
+    "s": "Plesiosaurus",
+    "p": "Plesiosauruser",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "pliers",
+   "themes": [
+    "tools"
+   ],
+   "en": [
+    "Pliers",
+    "Pliers"
+   ],
+   "cur": {
+    "s": "Tang",
+    "p": "Tanger",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "plum",
+   "themes": [
+    "at_the_supermarket",
+    "fruits"
+   ],
+   "en": [
+    "Plum",
+    "Plums"
+   ],
+   "cur": {
+    "s": "Blomme",
+    "p": "Blommer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "plum-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Plum Tree",
+    "Plum Trees"
+   ],
+   "cur": {
+    "s": "Blommetræ",
+    "p": "Blommetræer",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "plunger",
+   "themes": [
+    "tools"
+   ],
+   "en": [
+    "Plunger",
+    "Plungers"
+   ],
+   "cur": {
+    "s": "Svupper",
+    "p": "Svuppere",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "polar-bear",
+   "themes": [
+    "winter",
+    "zoo_animals"
+   ],
+   "en": [
+    "Polar Bear",
+    "Polar Bears"
+   ],
+   "cur": {
+    "s": "Isbjørn",
+    "p": "Isbjørner",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "police-car",
+   "themes": [
+    "vehicles"
+   ],
+   "en": [
+    "Police Car",
+    "Police Cars"
+   ],
+   "cur": {
+    "s": "Politibil",
+    "p": "Politibiler",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "police-officer",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Police Officer",
+    "Police Officers"
+   ],
+   "cur": {
+    "s": "Politibetjent",
+    "p": "Politibetjenter",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "pomegranate",
+   "themes": [
+    "fruits"
+   ],
+   "en": [
+    "Pomegranate",
+    "Pomegranates"
+   ],
+   "cur": {
+    "s": "Granatæble",
+    "p": "Granatæbler",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "pony",
+   "themes": [
+    "animals",
+    "farm_animals"
+   ],
+   "en": [
+    "Pony",
+    "Ponies"
+   ],
+   "cur": {
+    "s": "Pony",
+    "p": "Ponyer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "pool",
+   "themes": [
+    "summer"
+   ],
+   "en": [
+    "Pool",
+    "Pools"
+   ],
+   "cur": {
+    "s": "Swimmingpool",
+    "p": "Swimmingpooler",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "popcorn",
+   "themes": [
+    "at_the_supermarket",
+    "food"
+   ],
+   "en": [
+    "Popcorn",
+    "Popcorn"
+   ],
+   "cur": {
+    "s": "Popcorn",
+    "p": "Popcorn",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": false,
+   "classification": {
+    "category": "mass",
+    "hasGender": true,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "poplar-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Poplar Tree",
+    "Poplar Trees"
+   ],
+   "cur": {
+    "s": "Poppel",
+    "p": "Popler",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "popsicle",
+   "themes": [
+    "desserts_and_sweets",
+    "summer"
+   ],
+   "en": [
+    "Popsicle",
+    "Popsicles"
+   ],
+   "cur": {
+    "s": "Ispind",
+    "p": "Ispinde",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "porcupine",
+   "themes": [
+    "animals",
+    "forest_creatures",
+    "zoo_animals"
+   ],
+   "en": [
+    "Porcupine",
+    "Porcupines"
+   ],
+   "cur": {
+    "s": "Hulepindsvin",
+    "p": "Hulepindsvin",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "porridge",
+   "themes": [
+    "breakfast"
+   ],
+   "en": [
+    "Porridge",
+    "Porridge"
+   ],
+   "cur": {
+    "s": "Grød",
+    "p": "Grød",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": false,
+   "classification": {
+    "category": "mass",
+    "hasGender": true,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "post-office",
+   "themes": [
+    "post_office"
+   ],
+   "en": [
+    "Post Office",
+    "Post Offices"
+   ],
+   "cur": {
+    "s": "Postkontor",
+    "p": "Postkontorer",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "postal-scale",
+   "themes": [],
+   "en": [
+    "Postal Scale",
+    "Postal Scales"
+   ],
+   "cur": {
+    "s": "Postvægt",
+    "p": "Postvægter",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "pot",
+   "themes": [
+    "around_the_house",
+    "home",
+    "kitchen",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Pot",
+    "Pots"
+   ],
+   "cur": {
+    "s": "Gryde",
+    "p": "Gryder",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "potato",
+   "themes": [
+    "at_the_supermarket",
+    "vegetables"
+   ],
+   "en": [
+    "Potato",
+    "Potatoes"
+   ],
+   "cur": {
+    "s": "Kartoffel",
+    "p": "Kartofler",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "potato-chips",
+   "themes": [
+    "at_the_supermarket"
+   ],
+   "en": [
+    "Potato Chips",
+    "Potato Chips"
+   ],
+   "cur": {
+    "s": "Chips",
+    "p": "Chipser",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "pottery",
+   "themes": [
+    "activities"
+   ],
+   "en": [
+    "Pottery",
+    "Potteries"
+   ],
+   "cur": {
+    "s": "Keramik",
+    "p": "Keramiker",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "present",
+   "themes": [
+    "christmas"
+   ],
+   "en": [
+    "Present",
+    "Presents"
+   ],
+   "cur": {
+    "s": "Gave",
+    "p": "Gaver",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "pretzel",
+   "themes": [
+    "bakery",
+    "food"
+   ],
+   "en": [
+    "Pretzel",
+    "Pretzels"
+   ],
+   "cur": {
+    "s": "Kringle",
+    "p": "Kringler",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "pretzels",
+   "themes": [
+    "at_the_supermarket"
+   ],
+   "en": [
+    "Pretzels",
+    "Pretzels"
+   ],
+   "cur": {
+    "s": "Kringler",
+    "p": "Kringlere",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "ART_DEFECT": true
+  },
+  {
+   "key": "price-tag",
+   "themes": [
+    "at_the_supermarket"
+   ],
+   "en": [
+    "Price Tag",
+    "Price Tags"
+   ],
+   "cur": {
+    "s": "Prismærke",
+    "p": "Prismærker",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "projector",
+   "themes": [
+    "classroom"
+   ],
+   "en": [
+    "Projector",
+    "Projectors"
+   ],
+   "cur": {
+    "s": "Projektor",
+    "p": "Projektorer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "pruning-shears",
+   "themes": [
+    "tools"
+   ],
+   "en": [
+    "Pruning Shears",
+    "Pruning Shears"
+   ],
+   "cur": {
+    "s": "Beskæresaks",
+    "p": "Beskæresakser",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "pudding",
+   "themes": [
+    "dessert",
+    "desserts_and_sweets"
+   ],
+   "en": [
+    "Pudding",
+    "Puddings"
+   ],
+   "cur": {
+    "s": "Budding",
+    "p": "Buddinger",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "puddle",
+   "themes": [
+    "spring",
+    "weather"
+   ],
+   "en": [
+    "Puddle",
+    "Puddles"
+   ],
+   "cur": {
+    "s": "Vandpyt",
+    "p": "Vandpyter",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "pufferfish",
+   "themes": [
+    "ocean_life",
+    "sea_life"
+   ],
+   "en": [
+    "Pufferfish",
+    "Pufferfish"
+   ],
+   "cur": {
+    "s": "Kuglefisk",
+    "p": "Kuglefisker",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "puffin",
+   "themes": [
+    "birds_2"
+   ],
+   "en": [
+    "Puffin",
+    "Puffins"
+   ],
+   "cur": {
+    "s": "Lunde",
+    "p": "Lunder",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "pumpkin",
+   "themes": [
+    "at_the_supermarket",
+    "thanksgivinng",
+    "vegetables"
+   ],
+   "en": [
+    "Pumpkin",
+    "Pumpkins"
+   ],
+   "cur": {
+    "s": "Græskar",
+    "p": "Græskar",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "purple",
+   "themes": [
+    "colors"
+   ],
+   "en": [
+    "Purple",
+    "Purple"
+   ],
+   "cur": {
+    "s": "Lilla",
+    "p": "Lilla",
+    "g": null
+   },
+   "type": "adjective",
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "purse",
+   "themes": [
+    "accessories"
+   ],
+   "en": [
+    "Purse",
+    "Purses"
+   ],
+   "cur": {
+    "s": "Pung",
+    "p": "Punger",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "push-pin",
+   "themes": [
+    "education"
+   ],
+   "en": [
+    "Push Pin",
+    "Push Pins"
+   ],
+   "cur": {
+    "s": "Tegnestift",
+    "p": "Tegnestifter",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "puzzle",
+   "themes": [
+    "activities",
+    "classroom",
+    "toys"
+   ],
+   "en": [
+    "Puzzle",
+    "Puzzles"
+   ],
+   "cur": {
+    "s": "Puslespil",
+    "p": "Puslespil",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "pyramid",
+   "themes": [
+    "nature",
+    "shapes"
+   ],
+   "en": [
+    "Pyramid",
+    "Pyramids"
+   ],
+   "cur": {
+    "s": "Pyramide",
+    "p": "Pyramider",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "quail",
+   "themes": [
+    "birds_2"
+   ],
+   "en": [
+    "Quail",
+    "Quails"
+   ],
+   "cur": {
+    "s": "Vagtel",
+    "p": "Vagtler",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "rabbit",
+   "themes": [
+    "animals",
+    "camping",
+    "easter",
+    "faces",
+    "farm",
+    "farm_animals",
+    "forest_creatures",
+    "pets"
+   ],
+   "en": [
+    "Rabbit",
+    "Rabbits"
+   ],
+   "cur": {
+    "s": "Kanin",
+    "p": "Kaniner",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "raccoon",
+   "themes": [
+    "animals",
+    "camping",
+    "forest_creatures"
+   ],
+   "en": [
+    "Raccoon",
+    "Raccoons"
+   ],
+   "cur": {
+    "s": "Vaskebjørn",
+    "p": "Vaskebjørner",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "race-car",
+   "themes": [
+    "sports",
+    "toys",
+    "vehicles"
+   ],
+   "en": [
+    "Race Car",
+    "Race Cars"
+   ],
+   "cur": {
+    "s": "Racerbil",
+    "p": "Racerbiler",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "radish",
+   "themes": [
+    "vegetables"
+   ],
+   "en": [
+    "Radish",
+    "Radishes"
+   ],
+   "cur": {
+    "s": "Radise",
+    "p": "Radiser",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "rain",
+   "themes": [
+    "nature",
+    "spring"
+   ],
+   "en": [
+    "Rain",
+    "Rains"
+   ],
+   "cur": {
+    "s": "Regn",
+    "p": "Regner",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "rain-boots",
+   "themes": [
+    "accessories",
+    "clothing",
+    "spring",
+    "weather"
+   ],
+   "en": [
+    "Rain Boots",
+    "Rain Boots"
+   ],
+   "cur": {
+    "s": "Gummistøvler",
+    "p": "Gummistøvler",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "rainbow",
+   "themes": [
+    "easter",
+    "spring",
+    "summer",
+    "weather"
+   ],
+   "en": [
+    "Rainbow",
+    "Rainbows"
+   ],
+   "cur": {
+    "s": "Regnbue",
+    "p": "Regnbuer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "raincoat",
+   "themes": [
+    "clothing",
+    "spring",
+    "weather"
+   ],
+   "en": [
+    "Raincoat",
+    "Raincoats"
+   ],
+   "cur": {
+    "s": "Regnfrakke",
+    "p": "Regnfrakker",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "raindrop",
+   "themes": [
+    "weather"
+   ],
+   "en": [
+    "Raindrop",
+    "Raindrops"
+   ],
+   "cur": {
+    "s": "Regndråbe",
+    "p": "Regndråber",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "rainy",
+   "themes": [
+    "weather"
+   ],
+   "en": [
+    "Rainy",
+    "Rainy"
+   ],
+   "cur": {
+    "s": "Regnfuldt",
+    "p": "Regnfuldt",
+    "g": null
+   },
+   "type": "adjective",
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "rake",
+   "themes": [
+    "around_the_house"
+   ],
+   "en": [
+    "Rake",
+    "Rakes"
+   ],
+   "cur": {
+    "s": "Rive",
+    "p": "River",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "raspberry",
+   "themes": [
+    "at_the_supermarket",
+    "breakfast",
+    "fruits"
+   ],
+   "en": [
+    "Raspberry",
+    "Raspberries"
+   ],
+   "cur": {
+    "s": "Hindbær",
+    "p": "Hindbær",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "ray",
+   "themes": [
+    "ocean_life"
+   ],
+   "en": [
+    "Ray",
+    "Rays"
+   ],
+   "cur": {
+    "s": "Rokke",
+    "p": "Rokker",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "read",
+   "themes": [],
+   "en": [
+    "Read",
+    "Reads"
+   ],
+   "cur": {
+    "s": "Læse",
+    "p": "Læse",
+    "g": "n"
+   },
+   "type": null,
+   "countable": null,
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "reading",
+   "themes": [
+    "activities"
+   ],
+   "en": [
+    "Reading",
+    "Reading"
+   ],
+   "cur": {
+    "s": "Læse",
+    "p": "Læse",
+    "g": null
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "classification": {
+    "category": "activity",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "rectangle",
+   "themes": [
+    "shapes"
+   ],
+   "en": [
+    "Rectangle",
+    "Rectangles"
+   ],
+   "cur": {
+    "s": "Rektangel",
+    "p": "Rektangler",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "rectangular-box",
+   "themes": [
+    "shapes"
+   ],
+   "en": [
+    "Rectangular Box",
+    "Rectangular Boxes"
+   ],
+   "cur": {
+    "s": "Kasse",
+    "p": "Kasser",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "red",
+   "themes": [
+    "colors"
+   ],
+   "en": [
+    "Red",
+    "Red"
+   ],
+   "cur": {
+    "s": "Rød",
+    "p": "Rød",
+    "g": null
+   },
+   "type": "adjective",
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "redbud-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Redbud Tree",
+    "Redbud Trees"
+   ],
+   "cur": {
+    "s": "Judastræ",
+    "p": "Judastræer",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "redwood-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Redwood Tree",
+    "Redwood Trees"
+   ],
+   "cur": {
+    "s": "Kystmammuttræ",
+    "p": "Kystmammuttræer",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "refrigerator",
+   "themes": [
+    "around_the_house",
+    "home",
+    "household",
+    "kitchen",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Refrigerator",
+    "Refrigerators"
+   ],
+   "cur": {
+    "s": "Køleskab",
+    "p": "Køleskabe",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "reindeer",
+   "themes": [
+    "animals",
+    "christmas",
+    "zoo_animals"
+   ],
+   "en": [
+    "Reindeer",
+    "Reindeer"
+   ],
+   "cur": {
+    "s": "Rensdyr",
+    "p": "Rensdyr",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "remote-control",
+   "themes": [
+    "around_the_house"
+   ],
+   "en": [
+    "Remote Control",
+    "Remote Controls"
+   ],
+   "cur": {
+    "s": "Fjernbetjening",
+    "p": "Fjernbetjeninger",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "rhino",
+   "themes": [
+    "faces"
+   ],
+   "en": [
+    "Rhino",
+    "Rhinos"
+   ],
+   "cur": {
+    "s": "Næsehorn",
+    "p": "Næsehorn",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "rhinoceros",
+   "themes": [
+    "animals",
+    "zoo_animals"
+   ],
+   "en": [
+    "Rhinoceros",
+    "Rhinoceroses"
+   ],
+   "cur": {
+    "s": "Næsehorn",
+    "p": "Næsehorn",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "ribbon",
+   "themes": [
+    "accessories",
+    "christmas",
+    "easter"
+   ],
+   "en": [
+    "Ribbon",
+    "Ribbons"
+   ],
+   "cur": {
+    "s": "Bånd",
+    "p": "Bånd",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "rice",
+   "themes": [
+    "at_the_supermarket"
+   ],
+   "en": [
+    "Rice",
+    "Rice"
+   ],
+   "cur": {
+    "s": "Ris",
+    "p": "Ris",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": false,
+   "classification": {
+    "category": "mass",
+    "hasGender": true,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "ring",
+   "themes": [
+    "accessories",
+    "valentine"
+   ],
+   "en": [
+    "Ring",
+    "Rings"
+   ],
+   "cur": {
+    "s": "Ring",
+    "p": "Ringer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "river",
+   "themes": [
+    "camping"
+   ],
+   "en": [
+    "River",
+    "Rivers"
+   ],
+   "cur": {
+    "s": "Flod",
+    "p": "Floder",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "roasted-turkey",
+   "themes": [
+    "thanksgivinng"
+   ],
+   "en": [
+    "Roasted Turkey",
+    "Roasted Turkeys"
+   ],
+   "cur": {
+    "s": "Stegt kalkun",
+    "p": "Stegt kalkuner",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "robin",
+   "themes": [
+    "birds_2",
+    "spring",
+    "things_that_fly"
+   ],
+   "en": [
+    "Robin",
+    "Robins"
+   ],
+   "cur": {
+    "s": "Rødhals",
+    "p": "Rødhalser",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "robot",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Robot",
+    "Robots"
+   ],
+   "cur": {
+    "s": "Robot",
+    "p": "Roboter",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "rock",
+   "themes": [
+    "beach",
+    "camping"
+   ],
+   "en": [
+    "Rock",
+    "Rocks"
+   ],
+   "cur": {
+    "s": "Klippe",
+    "p": "Klipper",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "rocket",
+   "themes": [
+    "space",
+    "things_that_fly",
+    "toys",
+    "vehicles"
+   ],
+   "en": [
+    "Rocket",
+    "Rockets"
+   ],
+   "cur": {
+    "s": "Raket",
+    "p": "Raketer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "rocking-chair",
+   "themes": [
+    "home"
+   ],
+   "en": [
+    "Rocking Chair",
+    "Rocking Chairs"
+   ],
+   "cur": {
+    "s": "Gyngestol",
+    "p": "Gyngestoler",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "rocking-horse",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Rocking Horse",
+    "Rocking Horses"
+   ],
+   "cur": {
+    "s": "Gyngehest",
+    "p": "Gyngehester",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "rollerblade",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Rollerblade",
+    "Rollerblades"
+   ],
+   "cur": {
+    "s": "Rulleskøjte",
+    "p": "Rulleskøjter",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "rolling-pin",
+   "themes": [
+    "kitchen",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Rolling Pin",
+    "Rolling Pins"
+   ],
+   "cur": {
+    "s": "Kagerulle",
+    "p": "Kageruller",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "rooster",
+   "themes": [
+    "animals",
+    "birds",
+    "birds_2",
+    "farm",
+    "farm_animals"
+   ],
+   "en": [
+    "Rooster",
+    "Roosters"
+   ],
+   "cur": {
+    "s": "Hane",
+    "p": "Haner",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "rope",
+   "themes": [
+    "camping"
+   ],
+   "en": [
+    "Rope",
+    "Ropes"
+   ],
+   "cur": {
+    "s": "Reb",
+    "p": "Reb",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "rose",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Rose",
+    "Roses"
+   ],
+   "cur": {
+    "s": "Rose",
+    "p": "Roser",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "rosette",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Rosette",
+    "Rosettes"
+   ],
+   "cur": {
+    "s": "Roset",
+    "p": "Roseter",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "rubber-boot",
+   "themes": [
+    "tools"
+   ],
+   "en": [
+    "Rubber Boot",
+    "Rubber Boots"
+   ],
+   "cur": {
+    "s": "Gummistøvle",
+    "p": "Gummistøvler",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "rudolph",
+   "themes": [
+    "christmas"
+   ],
+   "en": [
+    "Rudolph",
+    "Rudolphs"
+   ],
+   "cur": {
+    "s": "Rudolf",
+    "p": "Rudolfer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "rug",
+   "themes": [
+    "around_the_house",
+    "furniture"
+   ],
+   "en": [
+    "Rug",
+    "Rugs"
+   ],
+   "cur": {
+    "s": "Tæppe",
+    "p": "Tæpper",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "ruler",
+   "themes": [
+    "classroom",
+    "education"
+   ],
+   "en": [
+    "Ruler",
+    "Rulers"
+   ],
+   "cur": {
+    "s": "Lineal",
+    "p": "Linealer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "run",
+   "themes": [],
+   "en": [
+    "Run",
+    "Runs"
+   ],
+   "cur": {
+    "s": "Løbe",
+    "p": "Løbe",
+    "g": "n"
+   },
+   "type": null,
+   "countable": null,
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "running",
+   "themes": [
+    "activities"
+   ],
+   "en": [
+    "Running",
+    "Running"
+   ],
+   "cur": {
+    "s": "Løbe",
+    "p": "Løbe",
+    "g": null
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "classification": {
+    "category": "activity",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "sack",
+   "themes": [
+    "christmas"
+   ],
+   "en": [
+    "Sack",
+    "Sacks"
+   ],
+   "cur": {
+    "s": "Sæk",
+    "p": "Sæker",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "sad",
+   "themes": [
+    "emotions"
+   ],
+   "en": [
+    "Sad",
+    "Sad"
+   ],
+   "cur": {
+    "s": "Trist",
+    "p": "Trist",
+    "g": null
+   },
+   "type": "adjective",
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "sailboat",
+   "themes": [
+    "beach",
+    "vehicles"
+   ],
+   "en": [
+    "Sailboat",
+    "Sailboats"
+   ],
+   "cur": {
+    "s": "Sejlbåd",
+    "p": "Sejlbåder",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "salad",
+   "themes": [],
+   "en": [
+    "Salad",
+    "Salads"
+   ],
+   "cur": {
+    "s": "Salat",
+    "p": "Salater",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "salamander",
+   "themes": [
+    "reptiles_and_amphibians"
+   ],
+   "en": [
+    "Salamander",
+    "Salamanders"
+   ],
+   "cur": {
+    "s": "Salamander",
+    "p": "Salamandere",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "salt",
+   "themes": [
+    "at_the_supermarket"
+   ],
+   "en": [
+    "Salt",
+    "Salts"
+   ],
+   "cur": {
+    "s": "Salt",
+    "p": "Salt",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "salt-shaker",
+   "themes": [
+    "kitchen_tools"
+   ],
+   "en": [
+    "Salt Shaker",
+    "Salt Shakers"
+   ],
+   "cur": {
+    "s": "Saltbøsse",
+    "p": "Saltbøsser",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "sand",
+   "themes": [
+    "summer"
+   ],
+   "en": [
+    "Sand",
+    "Sand"
+   ],
+   "cur": {
+    "s": "Sand",
+    "p": "Sand",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": false,
+   "classification": {
+    "category": "mass",
+    "hasGender": true,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "sandals",
+   "themes": [
+    "beach",
+    "summer"
+   ],
+   "en": [
+    "Sandals",
+    "Sandals"
+   ],
+   "cur": {
+    "s": "Sandaler",
+    "p": "Sandalere",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "sandbox",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Sandbox",
+    "Sandboxes"
+   ],
+   "cur": {
+    "s": "Sandkasse",
+    "p": "Sandkasser",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "sandcastle",
+   "themes": [
+    "beach",
+    "summer"
+   ],
+   "en": [
+    "Sandcastle",
+    "Sandcastles"
+   ],
+   "cur": {
+    "s": "Sandslot",
+    "p": "Sandslotte",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "sandwich",
+   "themes": [
+    "food"
+   ],
+   "en": [
+    "Sandwich",
+    "Sandwiches"
+   ],
+   "cur": {
+    "s": "Sandwich",
+    "p": "Sandwicher",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "sanitation-worker",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Sanitation Worker",
+    "Sanitation Workers"
+   ],
+   "cur": {
+    "s": "Renovationsarbejder",
+    "p": "Renovationsarbejdere",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "santa",
+   "themes": [
+    "christmas"
+   ],
+   "en": [
+    "Santa",
+    "Santas"
+   ],
+   "cur": {
+    "s": "Julemanden",
+    "p": "Julemandene",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "santa-claus",
+   "themes": [
+    "christmas"
+   ],
+   "en": [
+    "Santa Claus",
+    "Santa Clauses"
+   ],
+   "cur": {
+    "s": "Julemanden",
+    "p": "Julemandene",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "santa-hat",
+   "themes": [
+    "christmas"
+   ],
+   "en": [
+    "Santa Hat",
+    "Santa Hats"
+   ],
+   "cur": {
+    "s": "Nissehue",
+    "p": "Nissehuer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "satellite",
+   "themes": [
+    "space"
+   ],
+   "en": [
+    "Satellite",
+    "Satellites"
+   ],
+   "cur": {
+    "s": "Satellit",
+    "p": "Satelliter",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "saturn",
+   "themes": [
+    "space"
+   ],
+   "en": [
+    "Saturn",
+    "Saturn"
+   ],
+   "cur": {
+    "s": "Saturn",
+    "p": "Saturn",
+    "g": "n"
+   },
+   "type": "proper-noun",
+   "countable": false,
+   "classification": {
+    "category": "proper-noun",
+    "hasGender": true,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "sauce",
+   "themes": [
+    "at_the_supermarket"
+   ],
+   "en": [
+    "Sauce",
+    "Sauces"
+   ],
+   "cur": {
+    "s": "Sovs",
+    "p": "Sovser",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "saucepan",
+   "themes": [
+    "home_and_nature",
+    "kitchen",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Saucepan",
+    "Saucepans"
+   ],
+   "cur": {
+    "s": "Kasserolle",
+    "p": "Kasseroller",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "sausage",
+   "themes": [
+    "at_the_supermarket",
+    "breakfast",
+    "food"
+   ],
+   "en": [
+    "Sausage",
+    "Sausages"
+   ],
+   "cur": {
+    "s": "Pølse",
+    "p": "Pølser",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "saxophone",
+   "themes": [
+    "music"
+   ],
+   "en": [
+    "Saxophone",
+    "Saxophones"
+   ],
+   "cur": {
+    "s": "Saxofon",
+    "p": "Saxofoner",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "scale",
+   "themes": [
+    "post_office",
+    "sports"
+   ],
+   "en": [
+    "Scale",
+    "Scales"
+   ],
+   "cur": {
+    "s": "Vægt",
+    "p": "Vægter",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "scallop",
+   "themes": [
+    "ocean_life"
+   ],
+   "en": [
+    "Scallop",
+    "Scallops"
+   ],
+   "cur": {
+    "s": "Kammusling",
+    "p": "Kammuslinger",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "scarecrow",
+   "themes": [
+    "farm",
+    "miscellaneous",
+    "thanksgivinng"
+   ],
+   "en": [
+    "Scarecrow",
+    "Scarecrows"
+   ],
+   "cur": {
+    "s": "Fugleskræmsel",
+    "p": "Fugleskræmsler",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "scared",
+   "themes": [
+    "emotions"
+   ],
+   "en": [
+    "Scared",
+    "Scared"
+   ],
+   "cur": {
+    "s": "Bange",
+    "p": "Bange",
+    "g": null
+   },
+   "type": "adjective",
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "scarf",
+   "themes": [
+    "accessories",
+    "apparel",
+    "clothing",
+    "objects",
+    "weather"
+   ],
+   "en": [
+    "Scarf",
+    "Scarves"
+   ],
+   "cur": {
+    "s": "Halstørklæde",
+    "p": "Halstørklæder",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "scarlet",
+   "themes": [
+    "colors"
+   ],
+   "en": [
+    "Scarlet",
+    "Scarlet"
+   ],
+   "cur": {
+    "s": "Skarlagen",
+    "p": "Skarlagen",
+    "g": null
+   },
+   "type": "adjective",
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "school-bus",
+   "themes": [
+    "vehicles"
+   ],
+   "en": [
+    "School Bus",
+    "School Buses"
+   ],
+   "cur": {
+    "s": "Skolebus",
+    "p": "Skolebuser",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "science",
+   "themes": [
+    "activities"
+   ],
+   "en": [
+    "Science",
+    "Science"
+   ],
+   "cur": {
+    "s": "Videnskab",
+    "p": "Videnskaber",
+    "g": "n"
+   },
+   "type": "noun-concept",
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "ART_DEFECT": true
+  },
+  {
+   "key": "scissors",
+   "themes": [
+    "around_the_house",
+    "classroom",
+    "education"
+   ],
+   "en": [
+    "Scissors",
+    "Scissors"
+   ],
+   "cur": {
+    "s": "Saks",
+    "p": "Sakser",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "scooter",
+   "themes": [
+    "sports",
+    "toys",
+    "vehicles"
+   ],
+   "en": [
+    "Scooter",
+    "Scooters"
+   ],
+   "cur": {
+    "s": "Løbehjul",
+    "p": "Løbehjul",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "screw",
+   "themes": [
+    "tools"
+   ],
+   "en": [
+    "Screw",
+    "Screws"
+   ],
+   "cur": {
+    "s": "Skrue",
+    "p": "Skruer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "screwdriver",
+   "themes": [
+    "tools"
+   ],
+   "en": [
+    "Screwdriver",
+    "Screwdrivers"
+   ],
+   "cur": {
+    "s": "Skruetrækker",
+    "p": "Skruetrækkere",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "scrubs",
+   "themes": [
+    "hospital"
+   ],
+   "en": [
+    "Scrubs",
+    "Scrubs"
+   ],
+   "cur": {
+    "s": "Hospitalstøj",
+    "p": "Hospitalstøj",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "mass",
+    "hasGender": true,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "scuba-diving",
+   "themes": [
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Scuba Diving",
+    "Scuba Diving"
+   ],
+   "cur": {
+    "s": "Dykning",
+    "p": "Dykning",
+    "g": "n"
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "ART_DEFECT": true
+  },
+  {
+   "key": "sea-horse",
+   "themes": [
+    "ocean_life"
+   ],
+   "en": [
+    "Sea Horse",
+    "Sea Horses"
+   ],
+   "cur": {
+    "s": "Søhest",
+    "p": "Søhester",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "sea-lion",
+   "themes": [
+    "ocean_life",
+    "zoo_animals"
+   ],
+   "en": [
+    "Sea Lion",
+    "Sea Lions"
+   ],
+   "cur": {
+    "s": "Søløve",
+    "p": "Søløver",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "sea-snail",
+   "themes": [],
+   "en": [
+    "Sea Snail",
+    "Sea Snails"
+   ],
+   "cur": {
+    "s": "Havsnegl",
+    "p": "Havsnegler",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "sea-turtle",
+   "themes": [
+    "ocean_life"
+   ],
+   "en": [
+    "Sea Turtle",
+    "Sea Turtles"
+   ],
+   "cur": {
+    "s": "Havskildpadde",
+    "p": "Havskildpadder",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "seagull",
+   "themes": [
+    "animals",
+    "beach",
+    "birds_2",
+    "things_that_fly"
+   ],
+   "en": [
+    "Seagull",
+    "Seagulls"
+   ],
+   "cur": {
+    "s": "Måge",
+    "p": "Måger",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "seahorse",
+   "themes": [
+    "animals",
+    "sea_life"
+   ],
+   "en": [
+    "Seahorse",
+    "Seahorses"
+   ],
+   "cur": {
+    "s": "Søhest",
+    "p": "Søhester",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "seal",
+   "themes": [
+    "animals",
+    "ocean_life",
+    "sea_life",
+    "winter",
+    "zoo_animals"
+   ],
+   "en": [
+    "Seal",
+    "Seals"
+   ],
+   "cur": {
+    "s": "Sæl",
+    "p": "Sæler",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "seashell",
+   "themes": [
+    "beach",
+    "summer"
+   ],
+   "en": [
+    "Seashell",
+    "Seashells"
+   ],
+   "cur": {
+    "s": "Musling",
+    "p": "Muslinger",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "seaweed",
+   "themes": [
+    "ocean_life"
+   ],
+   "en": [
+    "Seaweed",
+    "Seaweed"
+   ],
+   "cur": {
+    "s": "Tang",
+    "p": "Tang",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": false,
+   "classification": {
+    "category": "mass",
+    "hasGender": true,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "sequoia-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Sequoia Tree",
+    "Sequoia Trees"
+   ],
+   "cur": {
+    "s": "Kæmpemammuttræ",
+    "p": "Kæmpemammuttræer",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "sewing",
+   "themes": [
+    "activities"
+   ],
+   "en": [
+    "Sewing",
+    "Sewing"
+   ],
+   "cur": {
+    "s": "Sy",
+    "p": "Sy",
+    "g": "n"
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "ART_DEFECT": true
+  },
+  {
+   "key": "sewing-machine",
+   "themes": [
+    "home"
+   ],
+   "en": [
+    "Sewing Machine",
+    "Sewing Machines"
+   ],
+   "cur": {
+    "s": "Symaskine",
+    "p": "Symaskiner",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "shampoo",
+   "themes": [
+    "around_the_house",
+    "at_the_supermarket"
+   ],
+   "en": [
+    "Shampoo",
+    "Shampoos"
+   ],
+   "cur": {
+    "s": "Shampoo",
+    "p": "Shampooer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "shark",
+   "themes": [
+    "animals",
+    "ocean_life",
+    "sea_life"
+   ],
+   "en": [
+    "Shark",
+    "Sharks"
+   ],
+   "cur": {
+    "s": "Haj",
+    "p": "Hajer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "sheep",
+   "themes": [
+    "animals",
+    "easter",
+    "faces",
+    "farm",
+    "farm_animals"
+   ],
+   "en": [
+    "Sheep",
+    "Sheep"
+   ],
+   "cur": {
+    "s": "Får",
+    "p": "Får",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "shelf",
+   "themes": [
+    "classroom",
+    "furniture"
+   ],
+   "en": [
+    "Shelf",
+    "Shelves"
+   ],
+   "cur": {
+    "s": "Hylde",
+    "p": "Hylder",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "ship",
+   "themes": [
+    "vehicles"
+   ],
+   "en": [
+    "Ship",
+    "Ships"
+   ],
+   "cur": {
+    "s": "Skib",
+    "p": "Skibe",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "shirt",
+   "themes": [
+    "apparel",
+    "clothing"
+   ],
+   "en": [
+    "Shirt",
+    "Shirts"
+   ],
+   "cur": {
+    "s": "Skjorte",
+    "p": "Skjorter",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "shoe",
+   "themes": [
+    "clothing",
+    "objects"
+   ],
+   "en": [
+    "Shoe",
+    "Shoes"
+   ],
+   "cur": {
+    "s": "Sko",
+    "p": "Skoer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "shoes",
+   "themes": [
+    "objects"
+   ],
+   "en": [
+    "Shoes",
+    "Shoes"
+   ],
+   "cur": {
+    "s": "Sko",
+    "p": "Skoer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "shopping-bag",
+   "themes": [
+    "christmas",
+    "valentine"
+   ],
+   "en": [
+    "Shopping Bag",
+    "Shopping Bags"
+   ],
+   "cur": {
+    "s": "Indkøbspose",
+    "p": "Indkøbsposer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "shopping-cart",
+   "themes": [
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Shopping Cart",
+    "Shopping Carts"
+   ],
+   "cur": {
+    "s": "Indkøbsvogn",
+    "p": "Indkøbsvogner",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "shorts",
+   "themes": [
+    "apparel",
+    "beach",
+    "clothing",
+    "objects",
+    "summer"
+   ],
+   "en": [
+    "Shorts",
+    "Shorts"
+   ],
+   "cur": {
+    "s": "Shorts",
+    "p": "Shorts",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "shoulder",
+   "themes": [
+    "body_parts"
+   ],
+   "en": [
+    "Shoulder",
+    "Shoulders"
+   ],
+   "cur": {
+    "s": "Skulder",
+    "p": "Skuldere",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "shovel",
+   "themes": [
+    "around_the_house",
+    "beach",
+    "spring",
+    "tools",
+    "toys",
+    "winter"
+   ],
+   "en": [
+    "Shovel",
+    "Shovels"
+   ],
+   "cur": {
+    "s": "Skovl",
+    "p": "Skovler",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "shrimp",
+   "themes": [
+    "ocean_life",
+    "sea_life"
+   ],
+   "en": [
+    "Shrimp",
+    "Shrimp"
+   ],
+   "cur": {
+    "s": "Reje",
+    "p": "Rejer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "shuttlecock",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Shuttlecock",
+    "Shuttlecocks"
+   ],
+   "cur": {
+    "s": "Fjerbold",
+    "p": "Fjerbolder",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "shy",
+   "themes": [
+    "emotions"
+   ],
+   "en": [
+    "Shy",
+    "Shy"
+   ],
+   "cur": {
+    "s": "Genert",
+    "p": "Genert",
+    "g": null
+   },
+   "type": "adjective",
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "sickle",
+   "themes": [
+    "tools"
+   ],
+   "en": [
+    "Sickle",
+    "Sickles"
+   ],
+   "cur": {
+    "s": "Segl",
+    "p": "Segler",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "signpost",
+   "themes": [
+    "beach",
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Signpost",
+    "Signposts"
+   ],
+   "cur": {
+    "s": "Vejviser",
+    "p": "Vejvisere",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "singer",
+   "themes": [
+    "music",
+    "occupations"
+   ],
+   "en": [
+    "Singer",
+    "Singers"
+   ],
+   "cur": {
+    "s": "Sanger",
+    "p": "Sangere",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "singing",
+   "themes": [
+    "activities"
+   ],
+   "en": [
+    "Singing",
+    "Singing"
+   ],
+   "cur": {
+    "s": "Synge",
+    "p": "Synge",
+    "g": "n"
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "ART_DEFECT": true
+  },
+  {
+   "key": "sink",
+   "themes": [
+    "around_the_house",
+    "household"
+   ],
+   "en": [
+    "Sink",
+    "Sinks"
+   ],
+   "cur": {
+    "s": "Vask",
+    "p": "Vasker",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "sister",
+   "themes": [],
+   "en": [
+    "Sister",
+    "Sisters"
+   ],
+   "cur": {
+    "s": "Søster",
+    "p": "Søstre",
+    "g": "n"
+   },
+   "type": null,
+   "countable": null,
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "sit",
+   "themes": [],
+   "en": [
+    "Sit",
+    "Sits"
+   ],
+   "cur": {
+    "s": "Sidde",
+    "p": "Sidde",
+    "g": "n"
+   },
+   "type": null,
+   "countable": null,
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "skateboard",
+   "themes": [
+    "sports",
+    "toys",
+    "vehicles"
+   ],
+   "en": [
+    "Skateboard",
+    "Skateboards"
+   ],
+   "cur": {
+    "s": "Skateboard",
+    "p": "Skateboarder",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "skating",
+   "themes": [
+    "activities",
+    "winter"
+   ],
+   "en": [
+    "Skating",
+    "Skating"
+   ],
+   "cur": {
+    "s": "Skøjteløbning",
+    "p": "Skøjteløbning",
+    "g": "n"
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "ART_DEFECT": true
+  },
+  {
+   "key": "skeleton",
+   "themes": [
+    "body_parts"
+   ],
+   "en": [
+    "Skeleton",
+    "Skeletons"
+   ],
+   "cur": {
+    "s": "Skelet",
+    "p": "Skeletter",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "skeptical",
+   "themes": [],
+   "en": [
+    "Skeptical",
+    "Skeptical"
+   ],
+   "cur": {
+    "s": "Skeptisk",
+    "p": "Skeptisk",
+    "g": null
+   },
+   "type": "adjective",
+   "countable": false,
+   "noImage": true,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "skiing",
+   "themes": [
+    "activities",
+    "winter"
+   ],
+   "en": [
+    "Skiing",
+    "Skiing"
+   ],
+   "cur": {
+    "s": "Skisport",
+    "p": "Skisport",
+    "g": "n"
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "ART_DEFECT": true
+  },
+  {
+   "key": "skirt",
+   "themes": [
+    "clothing"
+   ],
+   "en": [
+    "Skirt",
+    "Skirts"
+   ],
+   "cur": {
+    "s": "Nederdel",
+    "p": "Nederdler",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "sky",
+   "themes": [
+    "space"
+   ],
+   "en": [
+    "Sky",
+    "Skies"
+   ],
+   "cur": {
+    "s": "Himmel",
+    "p": "Himler",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "sled",
+   "themes": [
+    "winter"
+   ],
+   "en": [
+    "Sled",
+    "Sleds"
+   ],
+   "cur": {
+    "s": "Slæde",
+    "p": "Slæder",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "sledding",
+   "themes": [
+    "winter"
+   ],
+   "en": [
+    "Sledding",
+    "Sledding"
+   ],
+   "cur": {
+    "s": "Kælkning",
+    "p": "Kælkning",
+    "g": null
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "classification": {
+    "category": "activity",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "sleep",
+   "themes": [],
+   "en": [
+    "Sleep",
+    "Sleeps"
+   ],
+   "cur": {
+    "s": "Sove",
+    "p": "Sove",
+    "g": "n"
+   },
+   "type": null,
+   "countable": null,
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "sleeping-bag",
+   "themes": [
+    "camping"
+   ],
+   "en": [
+    "Sleeping Bag",
+    "Sleeping Bags"
+   ],
+   "cur": {
+    "s": "Sovepose",
+    "p": "Soveposer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "sleigh",
+   "themes": [
+    "christmas",
+    "winter"
+   ],
+   "en": [
+    "Sleigh",
+    "Sleighs"
+   ],
+   "cur": {
+    "s": "Slæde",
+    "p": "Slæder",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "slide",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Slide",
+    "Slides"
+   ],
+   "cur": {
+    "s": "Rutsjebane",
+    "p": "Rutsjebaner",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "slippers",
+   "themes": [
+    "clothing"
+   ],
+   "en": [
+    "Slippers",
+    "Slippers"
+   ],
+   "cur": {
+    "s": "Hjemmesko",
+    "p": "Hjemmeskoer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "sloth",
+   "themes": [
+    "animals",
+    "zoo_animals"
+   ],
+   "en": [
+    "Sloth",
+    "Sloths"
+   ],
+   "cur": {
+    "s": "Dovendyr",
+    "p": "Dovendyr",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "slug",
+   "themes": [
+    "forest_creatures",
+    "insects_and_bugs"
+   ],
+   "en": [
+    "Slug",
+    "Slugs"
+   ],
+   "cur": {
+    "s": "Skovsnegl",
+    "p": "Skovsnegler",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "smartphone",
+   "themes": [
+    "objects"
+   ],
+   "en": [
+    "Smartphone",
+    "Smartphones"
+   ],
+   "cur": {
+    "s": "Smartphone",
+    "p": "Smartphoner",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "smartwatch",
+   "themes": [
+    "apparel"
+   ],
+   "en": [
+    "Smartwatch",
+    "Smartwatches"
+   ],
+   "cur": {
+    "s": "Smartwatch",
+    "p": "Smartwatcher",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "smoothie",
+   "themes": [
+    "breakfast"
+   ],
+   "en": [
+    "Smoothie",
+    "Smoothies"
+   ],
+   "cur": {
+    "s": "Smoothie",
+    "p": "Smoothier",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "snail",
+   "themes": [
+    "animals",
+    "forest_creatures",
+    "insects_and_bugs",
+    "sea_life",
+    "spring"
+   ],
+   "en": [
+    "Snail",
+    "Snails"
+   ],
+   "cur": {
+    "s": "Snegl",
+    "p": "Snegler",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "snake",
+   "themes": [
+    "animals",
+    "zoo_animals"
+   ],
+   "en": [
+    "Snake",
+    "Snakes"
+   ],
+   "cur": {
+    "s": "Slange",
+    "p": "Slanger",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "sneaker",
+   "themes": [
+    "objects",
+    "sports"
+   ],
+   "en": [
+    "Sneaker",
+    "Sneakers"
+   ],
+   "cur": {
+    "s": "Sneaker",
+    "p": "Sneakere",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "sneakers",
+   "themes": [
+    "objects"
+   ],
+   "en": [
+    "Sneakers",
+    "Sneakers"
+   ],
+   "cur": {
+    "s": "Sneakers",
+    "p": "Sneakers",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "snorkel",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Snorkel",
+    "Snorkels"
+   ],
+   "cur": {
+    "s": "Snorkel",
+    "p": "Snorkler",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "snorkeling-mask",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Snorkeling Mask",
+    "Snorkeling Masks"
+   ],
+   "cur": {
+    "s": "Snorkelmaske",
+    "p": "Snorkelmasker",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "snow-boots",
+   "themes": [
+    "clothing"
+   ],
+   "en": [
+    "Snow Boots",
+    "Snow Boots"
+   ],
+   "cur": {
+    "s": "Snestøvler",
+    "p": "Snestøvlere",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "snow-globe",
+   "themes": [
+    "christmas"
+   ],
+   "en": [
+    "Snow Globe",
+    "Snow Globes"
+   ],
+   "cur": {
+    "s": "Snekugle",
+    "p": "Snekugler",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "snow-shovel",
+   "themes": [],
+   "en": [
+    "Snow Shovel",
+    "Snow Shovels"
+   ],
+   "cur": {
+    "s": "Sneskovl",
+    "p": "Sneskovler",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "snowboarding",
+   "themes": [
+    "winter"
+   ],
+   "en": [
+    "Snowboarding",
+    "Snowboarding"
+   ],
+   "cur": {
+    "s": "Snowboarding",
+    "p": "Snowboarding",
+    "g": null
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "classification": {
+    "category": "activity",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "snowdrop",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Snowdrop",
+    "Snowdrops"
+   ],
+   "cur": {
+    "s": "Vintergæk",
+    "p": "Vintergæker",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "snowflake",
+   "themes": [
+    "nature",
+    "weather",
+    "winter"
+   ],
+   "en": [
+    "Snowflake",
+    "Snowflakes"
+   ],
+   "cur": {
+    "s": "Snefnug",
+    "p": "Snefnug",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "snowman",
+   "themes": [
+    "christmas",
+    "winter"
+   ],
+   "en": [
+    "Snowman",
+    "Snowmen"
+   ],
+   "cur": {
+    "s": "Snemand",
+    "p": "Snemænd",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "snowsuit",
+   "themes": [
+    "clothing"
+   ],
+   "en": [
+    "Snowsuit",
+    "Snowsuits"
+   ],
+   "cur": {
+    "s": "Flyverdragt",
+    "p": "Flyverdragter",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "soccer",
+   "themes": [
+    "activities",
+    "sports"
+   ],
+   "en": [
+    "Soccer",
+    "Soccer"
+   ],
+   "cur": {
+    "s": "Fodbold",
+    "p": "Fodbold",
+    "g": "n"
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "ART_DEFECT": true
+  },
+  {
+   "key": "soccer-ball",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Soccer Ball",
+    "Soccer Balls"
+   ],
+   "cur": {
+    "s": "Fodbold",
+    "p": "Fodbolder",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "sock",
+   "themes": [
+    "accessories",
+    "apparel"
+   ],
+   "en": [
+    "Sock",
+    "Socks"
+   ],
+   "cur": {
+    "s": "Sok",
+    "p": "Soker",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "soda",
+   "themes": [
+    "at_the_supermarket",
+    "food"
+   ],
+   "en": [
+    "Soda",
+    "Sodas"
+   ],
+   "cur": {
+    "s": "Sodavand",
+    "p": "Sodavand",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "sofa",
+   "themes": [
+    "around_the_house",
+    "furniture",
+    "home_and_nature",
+    "household"
+   ],
+   "en": [
+    "Sofa",
+    "Sofas"
+   ],
+   "cur": {
+    "s": "Sofa",
+    "p": "Sofaer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "soup",
+   "themes": [
+    "food"
+   ],
+   "en": [
+    "Soup",
+    "Soups"
+   ],
+   "cur": {
+    "s": "Suppe",
+    "p": "Supper",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "spade",
+   "themes": [
+    "beach",
+    "summer"
+   ],
+   "en": [
+    "Spade",
+    "Spades"
+   ],
+   "cur": {
+    "s": "Skovl",
+    "p": "Skovler",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  }
+ ]
+}

@@ -190,9 +190,18 @@ function selfTest() {
 
   /* the NEGATIVE control — an in-scope de plural fix must NOT trip
      collateral/field/gender/shape. A gate that fires on everything is
-     as useless as one that fires on nothing. */
+     as useless as one that fires on nothing.
+
+     The mutated value MUST be derived from the current one, never a
+     literal. This control used to hard-code 'Käse', which silently
+     decayed into a no-op the moment the de plural wave (92dc275d)
+     shipped exactly that fix (cheese.de Käsen -> Käse). The mutation
+     then changed nothing, d.changes.length was 0 instead of 1, and the
+     control reported a false FALSE POSITIVE against a perfectly healthy
+     gate — a self-test fixture killed by the arc it shipped alongside.
+     Deriving the value keeps the control honest against any future data. */
   const cur = clone();
-  cur.cheese.de[1] = 'Käse';
+  cur.cheese.de[1] = base.cheese.de[1] + 'n';   /* any in-scope de[1] delta */
   const d = diff(base, cur), g = genderLegality(cur);
   const spurious = [...d.errors, ...g,
     ...d.changes.filter((c) => c.loc !== 'de' || c.field !== 1).map((c) => 'OUT-OF-SCOPE ' + c.key + '.' + c.loc)];

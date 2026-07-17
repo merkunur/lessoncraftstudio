@@ -1,0 +1,667 @@
+{
+  "locale": "sv",
+  "batch": "05",
+  "reviewed": 110,
+  "rows": [
+    {
+      "key": "forehead",
+      "singular": { "verdict": "OK", "reason": "Homonym noted: 'en panna' = forehead (theme body_parts) and 'en panna' = pan (cf. key 'frying-pan'). Both are common gender with plural 'pannor', so no data conflict.", "source": "SAOL" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "forest",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "forget-me-not",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "HOLD", "reason": "'Förgätmigejar' is doubtful — the script's default +ar. The -ej pattern in loan-shaped nouns takes -er (lakej -> lakejer, konvoj -> konvojer), which suggests 'förgätmigejer'; but 'förgätmigej' is a native univerbation and I cannot verify the SAOL plural from memory. Flagging rather than guessing: the current form may well be invented, but I will not substitute an unverified one." },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "fork",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "-el vowel-drop handled correctly: gaffel -> gafflar (not *gaffelar).", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "forklift",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "forsythia",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "-a nouns take -or: forsythia -> forsythior (cf. petunia -> petunior, gorilla -> gorillor). Already correct.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "fox",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "french-fries",
+      "singular": { "verdict": "PLURALIA_TANTUM", "reason": "'pommes frites' is plural-only in Swedish; there is no singular. Note a separate formatting defect: the singular field reads 'Pommes Frites' with a medial capital F, while the plural field correctly reads 'Pommes frites'. Only the first word is capitalised.", "source": "SAOL" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "HOLD", "reason": "The word has no singular, so it has no gender to verify; 'n' is an unverifiable placeholder. If the gender code drives an 'en/ett' article anywhere in the product, this key must be excluded from that path rather than assigned a gender." }
+    },
+    {
+      "key": "fridge",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "N2/N8 are false alarms: ett kylskåp -> flera kylskåp is a genuine zero plural (consonant-final neuter), not a missing plural.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "fried-chicken",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "As a dish 'stekt kyckling' is a mass noun and has no child-relevant plural (English gloss is likewise mass); p = s is therefore correct and N2 is a false alarm. Note: a countable whole-bird reading exists ('en stekt kyckling -> två stekta kycklingar'), but that is not what a food picture shows." },
+      "gender": { "verdict": "OK", "reason": "en kyckling — common gender.", "source": "SAOL" }
+    },
+    {
+      "key": "fried-egg",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Correct on two counts: zero plural of neuter 'ägg' AND correct plural adjective agreement 'stekt ägg -> stekta ägg'. Left untouched.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "frisbee",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "HOLD", "reason": "'Frisbees' is the English plural retained. It is widely written in Swedish, but I cannot verify from memory whether SAOL prescribes a Swedish inflection (-ar/-er) instead. Not confident enough to change; flagging for verification." },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "frog",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "frying-pan",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "N6 (clash with 'forehead' = Panna) is a false alarm: the compound 'stekpanna' is unambiguous and correct.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "galaxy",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "en galax -> galaxer (final-stressed loan takes -er). Already correct.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "garage",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Discrimination case: the brief's 'vowel-final neuter takes -n' rule does NOT apply here. 'Garage' is a French loan with final stress (/garaːʃ/); the -e is not a syllabic ending. Ett garage -> flera garage is a correct zero plural. N2/N8/N4 are false alarms — do not 'fix' this to *garagen (that is the definite plural).", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "garbage-truck",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "garden",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "garden-fork",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "HOLD", "reason": "The current zero plural is certainly WRONG — 'grep' is a common-gender noun and common-gender nouns never take a zero plural. Cause: the same false suffix match that produced the wrong gender (see gender field), which is exactly the brief's 'ordet träffas felaktigt av ett-listorna -> genus t OCH nollplural' class. The correct form is 'Trädgårdsgrepar' (-ar, the native default) or possibly 'Trädgårdsgreper'; I cannot verify which from memory, so I flag rather than guess. The defect is certain; only the replacement form is uncertain." },
+      "gender": { "verdict": "FIX", "correct": "n", "reason": "en grep (the garden/hay fork) — common gender, not neuter. The neuter 'ett grepp' (a grip/hold) is a DIFFERENT word with -pp. 't' here comes from a false suffix match on the ett-list (most likely '-rep', ett rep), since 'trädgårdsgrep' ends in the letters r-e-p — and that same match is what suppressed the plural.", "source": "SAOL" }
+    },
+    {
+      "key": "gardener",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "N2/N4 false alarms: agent nouns in -are are unchanged in the indefinite plural (en trädgårdsmästare -> flera trädgårdsmästare).", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "garland",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "FIX", "correct": "Girlanger", "reason": "en girlang -> girlanger. Polysyllabic final-stressed -ang loans take -er (bumerang -> bumeranger, orangutang -> orangutanger); the -ar default belongs to native monosyllables like 'slang -> slangar'. 'Girlangar' is the script's default and is not the established form.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "garlic",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "As a foodstuff/ingredient 'vitlök' is a mass noun (English gloss is likewise mass, Garlic/Garlic), so p = s is correct as it stands. Flagging the ambiguity honestly rather than changing data: IF the image shows individual bulbs rather than garlic-as-ingredient, a countable reading exists ('en vitlök -> två vitlökar', cf. lök -> lökar) and the plural would then be 'Vitlökar'. That is a question about the picture, not about the language." },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "gas-pump",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "gate",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "gazelle",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "FIX", "correct": "Gaseller", "reason": "en gasell -> gaseller. Final-stressed loan nouns take -er — exactly the class of the brief's own control word 'kamel -> kameler'. 'Gasellar' is the script's +ar default and is not a Swedish form.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "gecko",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "HOLD", "reason": "'Geckos' is an English plural. Common-gender -o nouns in Swedish generally take -r (video -> videor, stereo -> stereor), which suggests 'Geckor'; but I cannot verify the SAOL entry for 'gecko' from memory, and the English form is in real use. Flagging rather than guessing." },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "gerbil",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "ghost",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Vowel-final neuter correctly takes -n: ett spöke -> flera spöken. Already right — this is the class the brief warns about, and this key is not affected.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "gift",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "gift-box",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "giganotosaurus",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Not a SAOL headword (a genus name). Swedish usage inflects -saurus dinosaur names with -ar (tyrannosaurusar), so 'Giganotosaurusar' is the established colloquial form. Accepted as-is; I am not applying a Latin -sauri rule, which Swedish does not use for these.", "source": "native usage (not in SAOL)" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "gingerbread",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "N1 is a false alarm and the 'countable: false' metadata is wrong — exactly the brief's 'bread' case. En pepparkaka -> pepparkakor is fully correct: a gingerbread biscuit is countable.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "gingerbread-house",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "N2/N8 false alarms: ett hus -> flera hus, genuine zero plural.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "gingerbread-man",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "giraffe",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "girl",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "glass",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "N2/N8 false alarms: ett glas -> flera glas, genuine zero plural. (The material sense 'glas' is a mass noun, but the themes point to a drinking glass.)", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "glasses",
+      "singular": { "verdict": "PLURALIA_TANTUM", "reason": "'glasögon' is plural-only; there is no current singular. The form in the field is the correct plural.", "source": "SAOL" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK", "reason": "'t' is correct and motivated: the word patterns on neuter 'ett glasöga' (öga -> ögon), definite plural 'glasögonen'.", "source": "SAOL" }
+    },
+    {
+      "key": "globe",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "en glob -> glober. Already correct.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "glove",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "gloves",
+      "singular": { "verdict": "HOLD", "reason": "The singular field contains a PLURAL form ('Handskar'). This is NOT pluralia tantum — 'en handske' exists and is already the separate key 'glove'. So the fix is not a form correction: either this key is a duplicate of 'glove' and should be retired, or the image deliberately shows a pair and the singular field cannot be filled honestly. That is a content decision about the picture, not a language one. Do not blind-rewrite." },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "glue",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "'lim' is a mass noun (ett lim, limmet); it has no child-relevant plural. p = s is correct as it stands; N2 fires only because the 'countable: true' metadata is wrong.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "goat",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "FIX", "correct": "Getter", "reason": "SAOL: en get -> flera getter (geten, getter, getterna). 'Getar' is the script's +ar default and is not a Swedish word — a child would be shown and read an invented form for a farm animal that every 3-7-year-old knows.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "goggles",
+      "singular": { "verdict": "PLURALIA_TANTUM", "reason": "'skyddsglasögon' is plural-only (head 'glasögon'); no singular exists. The form in the field is the correct plural.", "source": "SAOL" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK", "reason": "'t' motivated via the neuter head 'ett glasöga'; N4 (differs from Danish/Norwegian) is not evidence about Swedish.", "source": "SAOL" }
+    },
+    {
+      "key": "goldfish",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "golf",
+      "singular": { "verdict": "OK", "reason": "Homonym noted: 'golf' the sport (theme sports) vs 'en golf' = a gulf/bay. Both are common gender, so the gender code holds for either reading; the sport is what is depicted.", "source": "SAOL" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "The name of a sport is a mass noun — no plural. p = s is correct.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "goose",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "N5 is a false alarm: gås -> gäss is a correct umlaut plural, already in the data despite the script being unable to produce umlaut. Do not touch.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "gopher",
+      "singular": { "verdict": "HOLD", "reason": "'Gopher' is not a Swedish word — the English lemma has been left untranslated. The Swedish name for the North American gopher (Geomyidae) is 'kindpåsråtta' (also 'pocketgopher'). Replacing 'Gopher' with 'Kindpåsråtta' is a change of LEMMA, not a form fix, and it is also a content question (which rodent does the forest_creatures picture actually show?). Do not rewrite blind." },
+      "plural": { "verdict": "HOLD", "reason": "'Gopherar' is an invented form built on an untranslated English lemma. The plural cannot be settled before the lemma is (see singular). If the lemma becomes 'kindpåsråtta', the plural is 'kindpåsråttor'." },
+      "gender": { "verdict": "OK", "reason": "'n' holds under either candidate lemma (en gopher / en kindpåsråtta), so the gender code is not the defect here." }
+    },
+    {
+      "key": "gorilla",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "graduation-cap",
+      "singular": { "verdict": "OK", "reason": "'Studentmössa' is the correct cultural equivalent (the white Swedish student cap), not a literal calque.", "source": "SAOL" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "grandfather",
+      "singular": { "verdict": "OK", "reason": "Content note (noImage, low priority): Swedish has no generic word for 'grandfather' — 'morfar' is the MATERNAL grandfather only; the paternal one is 'farfar'. 'Morfar' is a defensible choice for a generic English gloss, but the asymmetry is worth recording.", "source": "SAOL" },
+      "plural": { "verdict": "OK", "reason": "morfar -> morfäder is correct (far -> fäder), not the script's default; already right.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "grandmother",
+      "singular": { "verdict": "OK", "reason": "Same asymmetry as 'grandfather': 'mormor' is the MATERNAL grandmother only ('farmor' is the paternal one); Swedish has no generic term. noImage, low priority.", "source": "SAOL" },
+      "plural": { "verdict": "OK", "reason": "mormor -> mormödrar is correct (mor -> mödrar); already right.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "grapefruit",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "FIX", "correct": "Grapefrukter", "reason": "The head noun is 'frukt': en frukt -> frukter, so en grapefrukt -> grapefrukter. 'Grapefruktar' is the script's +ar default and is not a Swedish word. Head-noun inconsistency that no net flagged.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "grapes",
+      "singular": { "verdict": "HOLD", "reason": "The singular field contains a PLURAL form ('Druvor'). Not pluralia tantum — 'en druva' exists. Same class as key 'gloves': either the singular field must be filled with 'Druva' (but then the entry no longer matches a picture of a bunch of grapes) or the key is deliberately a collective. A content decision about the image, not a form fix." },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "grass",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "As a substance 'gräs' is a mass noun with no child-relevant plural (a single unit is 'ett grässtrå', a different word). p = s is correct as it stands. Distinct from key 'hair', where a countable single unit does exist. (A botanical species plural 'flera gräs' exists but is irrelevant to a 3-7 audience.)", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "grasshopper",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "grater",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "N2/N8 false alarms: ett rivjärn -> flera rivjärn, genuine consonant-final neuter zero plural.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "gray",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "Adjective / colour word — no plural in this use.", "source": "SAOL" },
+      "gender": { "verdict": "HOLD", "reason": "'grå' is an adjective and has no lexical gender at all, so 'n' cannot be verified — it is the script's default asserting something that does not exist. It is also actively misleading: if the colour is ever nominalised, Swedish colour nouns are NEUTER ('grått', 'det gråa'), i.e. the opposite of 'n'. Colour/adjective keys should be excluded from any 'en/ett' article path rather than given a gender." }
+    },
+    {
+      "key": "green",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "Adjective / colour word — no plural in this use.", "source": "SAOL" },
+      "gender": { "verdict": "HOLD", "reason": "Same as 'gray': 'grön' is an adjective with no lexical gender; 'n' is the script's default. Nominalised Swedish colours are neuter ('grönt'), so 'n' is not merely unverifiable but points the wrong way." }
+    },
+    {
+      "key": "green-beans",
+      "singular": { "verdict": "PLURALIA_TANTUM", "reason": "'haricots verts' is a plural-only French borrowing in Swedish; no singular exists. Content note for a 3-7 audience: 'gröna bönor' would be far more child-appropriate and readable by TTS, but that is a lemma choice for the operator, not a form fix — flagged, not changed.", "source": "SAOL" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "HOLD", "reason": "Plural-only borrowing: no singular, therefore no gender to verify. 'n' is an unverifiable placeholder. (N4 — differs from Danish/Norwegian — is not evidence about Swedish.)" }
+    },
+    {
+      "key": "greeting-card",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "N2/N8 false alarms: ett kort -> flera kort, genuine zero plural.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "grill",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "guinea-pig",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "N2/N8 false alarms: ett marsvin -> flera marsvin (head 'svin', neuter), genuine zero plural.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "guitar",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "FIX", "correct": "Gitarrer", "reason": "en gitarr -> gitarrer. Final-stressed loan noun, same class as kamel -> kameler and gasell -> gaseller. 'Gitarrar' is the script's +ar default and is not a Swedish word — this is a high-frequency word for the age group (theme music/toys).", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "gymnastics",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "The name of an activity/discipline — mass noun, no plural. p = s is correct.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "hair",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Deliberate discrimination against NO_PLURAL: unlike 'grass', Swedish 'hår' HAS a real countable unit and a real zero plural — 'ett hår -> flera hår' (three hairs in the soup). p = s is therefore a correct zero plural, exactly the brief's 'ett hus -> flera hus' case, and must be recorded as OK rather than NO_PLURAL. The 'countable: false' metadata reflects the English mass gloss, not Swedish.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "hair-tie",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "halloween",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "Name of a holiday — no plural. p = s is correct. (Orthographic note: Swedish writes festival names lower-case, 'halloween', but the file's convention capitalises every entry, so this is not a defect here.)", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "ham",
+      "singular": { "verdict": "OK", "reason": "Homonym noted: 'en skinka' = ham (theme at_the_supermarket) and also = buttock (body part). Both are common gender with plural 'skinkor', so no data conflict; the supermarket theme settles the sense.", "source": "SAOL" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "hamburger",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "N2/N4 false alarms: -are nouns are unchanged in the indefinite plural (en hamburgare -> flera hamburgare).", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "hammer",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "-are unchanged: en hammare -> flera hammare. N2/N4 false alarms.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "hammock",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "hamster",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "-er vowel-drop handled correctly: hamster -> hamstrar (not *hamsterar).", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "hand",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "N5 false alarm: hand -> händer is a correct umlaut plural already present in the data. Do not touch.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "handbag",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "handsaw",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "hanger",
+      "singular": { "verdict": "OK", "reason": "Homonym noted: 'en galge' = clothes hanger (themes home/household/objects) and also = gallows. Same gender and same plural 'galgar', so no data conflict; the themes settle the sense.", "source": "SAOL" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "happy",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "Adjective (emotion word) — no plural in this use.", "source": "SAOL" },
+      "gender": { "verdict": "HOLD", "reason": "'glad' is an adjective and has no lexical gender; 'n' is the script's default asserting a property the word does not have. Adjective keys should be excluded from any 'en/ett' path rather than carry a gender code." }
+    },
+    {
+      "key": "harp",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "harvest",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "hat",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "hawk",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "hay",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "'hö' is a mass noun (ett hö, höet) — no plural. p = s is correct as it stands; N8 fires only because the script's default rule was involved.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "haystack",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "head",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Correct despite being irregular: ett huvud -> flera huvuden (a consonant-final neuter that nevertheless takes -en). Already right — do not 'correct' it to a zero plural.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "headband",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "N2/N8 false alarms: ett band -> flera band, genuine zero plural.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "heart",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Vowel-final neuter correctly takes -n: ett hjärta -> flera hjärtan. Already right.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "heart-monitor",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "en monitor -> monitorer; already correct.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "heater",
+      "singular": { "verdict": "HOLD", "reason": "'Värmare' is a dubious lemma for a household heater. Swedish uses 'element' / 'värmeelement' (a radiator) or 'värmefläkt' (a fan heater); 'värmare' standing alone is not the ordinary word for the appliance (it survives mainly as a compound head, e.g. 'kaffevärmare'). Replacing it is a change of LEMMA plus a content question about what the around_the_house picture shows — not a form fix. Knock-on warning: if the lemma becomes 'element', the gender flips to 't' (ett element) and the plural becomes 'element'; the current 'n' + zero plural are only correct for 'värmare'." },
+      "plural": { "verdict": "OK", "reason": "Formally correct FOR THE CURRENT LEMMA: -are nouns are unchanged in the indefinite plural. Depends on the singular being settled." },
+      "gender": { "verdict": "OK", "reason": "Correct for the current lemma (en värmare). Depends on the singular being settled — see the knock-on warning there." }
+    },
+    {
+      "key": "hedgehog",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "heel",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "helicopter",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "-er vowel-drop handled correctly: helikopter -> helikoptrar.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "helmet",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "hemlock-tree",
+      "singular": { "verdict": "OK", "reason": "Homonym trap noted and cleared by the data: English 'hemlock' is BOTH the conifer (Tsuga) and the deadly poison plant (Swedish 'odört'). The theme 'tree' and the gloss 'Hemlock Tree' settle it as the conifer, which is what the Swedish 'hemlock' (also 'hemlockgran') denotes. No poison-plant sense has leaked in.", "source": "SO" },
+      "plural": { "verdict": "HOLD", "reason": "The current zero plural is wrong — it follows from the same false suffix match as the gender (see gender field), and a common-gender tree name does not take a zero plural. But I cannot verify from memory whether SAOL gives 'hemlockar' or 'hemlocker', so I flag rather than substitute an unverified form. The defect is certain; the replacement is not." },
+      "gender": { "verdict": "FIX", "correct": "n", "reason": "en hemlock — Swedish tree names are common gender essentially without exception (en gran, en tall, en ek, en björk; only the generic 'ett träd' is neuter), and the compound 'hemlockgran' confirms it (en gran). The 't' comes from a false suffix match on the ett-list (the word ends in the letters l-o-c-k; 'ett lock' = a lid), and that same match is what suppressed the plural — the brief's paired-defect class again.", "source": "SAOL" }
+    },
+    {
+      "key": "hen",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "N5 false alarm: höna -> hönor is regular -a/-or, one and the same lemma.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "heptagon",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Correct, and it is the control case that proves the 'hexagon' key is broken: sjuhörning -> sjuhörningar keeps one lemma across both fields.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "hermit-crab",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "heron",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "N5 false alarm: häger -> hägrar is the regular -er vowel-drop, one lemma. Already correct.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "hexagon",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "FIX", "correct": "Sexhörningar", "reason": "The two fields hold DIFFERENT LEMMAS: singular 'Sexhörning' (the native, child-appropriate word) but plural 'Hexagoner' (the learned loan). N5 is right for once. Resolved in favour of the singular field, which is the primary one and which matches the sibling key 'heptagon' (Sjuhörning -> Sjuhörningar): en sexhörning -> sexhörningar. A child shown 'Sexhörning' must not hear 'Hexagoner'.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "hibiscus",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "-us nouns of this class take -ar in Swedish: hibiskus -> hibiskusar (cf. kaktus -> kaktusar). The script's default happens to land on the right form here — verified, not assumed.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "high-heeled-shoes",
+      "singular": { "verdict": "HOLD", "reason": "The singular field contains a PLURAL phrase ('Högklackade skor'). Not pluralia tantum — 'en högklackad sko' exists. Same class as 'gloves' and 'grapes': filling the singular honestly ('Högklackad sko') would no longer match a picture of a pair. A content decision about the image, not a form fix." },
+      "plural": { "verdict": "OK", "reason": "The plural phrase itself is correct, including adjective agreement (högklackade + skor)." },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "hiking",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "As the name of an activity (the gerund reading, theme activities) 'vandring' is a mass noun and p = s is correct. Noted honestly: a countable event reading does exist ('en vandring -> två vandringar'), but that is 'hikes', not 'hiking'.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "hippopotamus",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "hockey",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "The name of a sport — mass noun, no plural. p = s is correct.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "honey",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "'honung' is a mass noun (en honung, honungen) — no child-relevant plural. p = s is correct.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "hoodie",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "hornbill",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "-el vowel-drop handled correctly: fågel -> fåglar.", "source": "SAOL" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "horse",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "hose",
+      "singular": { "verdict": "OK", "reason": "Homonym noted: 'en slang' = hose (theme around_the_house) and also = slang (language variety). Both common gender, both plural 'slangar', so no data conflict.", "source": "SAOL" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "hospital-bed",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    }
+  ]
+}

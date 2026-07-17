@@ -32,28 +32,10 @@
     "why": "Spelling: SAOL has 'klementin' with k. The stored singular 'Clementin' is an unassimilated spelling that contradicts its own plural 'Klementiner' in the same row — this is what N5 detected",
     "src": "SAOL"
    },
-   "cookies": {
-    "to": "Kaka",
-    "from": "Kakor",
-    "why": "'Kakor' is a PLURAL standing in the singular field. 'kaka' has a perfectly normal singular, so this is not PLURALIA_TANTUM — it is a pure form fix. Flagging for the catalog owner: the corrected row then duplicates key 'cookie' exactly, which is a de-duplication question downstream, not part of this correction",
-    "src": "SAOL"
-   },
-   "crayons": {
-    "to": "Krita",
-    "from": "Kritor",
-    "why": "'Kritor' is a PLURAL standing in the singular field. 'krita' has a normal singular, so this is not PLURALIA_TANTUM. Same downstream note as 'cookies': the corrected row then duplicates key 'crayon'",
-    "src": "SAOL"
-   },
    "crutches": {
     "to": "Krycka",
     "from": "Kryckor",
     "why": "'Kryckor' is a PLURAL standing in the singular field. This is NOT pluralia tantum: unlike glasögon/byxor, 'en krycka' is entirely normal Swedish, so a singular exists and belongs here",
-    "src": "SAOL"
-   },
-   "curtains": {
-    "to": "Gardin",
-    "from": "Gardiner",
-    "why": "'Gardiner' is a PLURAL standing in the singular field. 'en gardin' is normal Swedish, so this is not pluralia tantum. Same downstream note as 'cookies'/'crayons': the corrected row then duplicates key 'curtain'",
     "src": "SAOL"
    },
    "cymbals": {
@@ -91,12 +73,6 @@
     "from": "Syrén",
     "why": "SAOL spells the shrub 'syren', without the acute accent. 'Syrén' is not the SAOL form.",
     "src": "SAOL"
-   },
-   "muffin": {
-    "to": "Muffins",
-    "from": "Muffin",
-    "why": "The Swedish singular is 'en muffins' — the English plural was borrowed as the Swedish singular (same pattern as en keps < caps, ett kex < cakes). 'En muffin' is a back-formation. This batch corroborates it internally: key 'muffin-tin' already stores 'Muffinsform', built on the muffins- stem, not *muffinform",
-    "src": "SAOL lemma 'muffins'; Språkrådet recommends en muffins / flera muffins"
    },
    "native-american": {
     "to": "Indian",
@@ -547,12 +523,6 @@
     "why": "The two fields hold DIFFERENT LEMMAS: singular 'Sexhörning' (the native, child-appropriate word) but plural 'Hexagoner' (the learned loan). N5 is right for once. Resolved in favour of the singular field, which is the primary one and which matches the sibling key 'heptagon' (Sjuhörning -> Sjuhörningar): en sexhörning -> sexhörningar. A child shown 'Sexhörning' must not hear 'Hexagoner'.",
     "src": "SAOL"
    },
-   "hospital-gown": {
-    "to": "Sjukhuskläder",
-    "from": "Sjukhuskläderar",
-    "why": "'Sjukhuskläderar' is not a Swedish word — invented by the script's default +ar. 'kläder' is plurale tantum and never takes -ar. Removing the invented form is right regardless of how the singular is finally resolved.",
-    "src": "SAOL"
-   },
    "hot-air-balloon": {
     "to": "Luftballonger",
     "from": "Luftballongar",
@@ -767,12 +737,6 @@
     "why": "SAOL: en pelikan -> pelikaner (3rd declension -er, like all stressed -an loans: banan->bananer, orkan->orkaner, roman->romaner). 'Pelikanar' is the script's default -ar misfiring",
     "src": "SAOL"
    },
-   "persimmon": {
-    "to": "Persimoner",
-    "from": "Persimonar",
-    "why": "'Persimonar' is a script-invented -ar form of the same class as 'Lägerar'. Latinate -on fruit loans are 3rd declension utrum in Swedish (citron->citroner, melon->meloner), giving persimon->persimoner. Honest caveat: I am inferring by analogy — I have not verified a SAOL entry for persimon and am NOT citing one; the -ar form is wrong under any reading",
-    "src": "analogy (SAOL: citron->citroner, melon->meloner)"
-   },
    "piano": {
     "to": "Pianon",
     "from": "Piano",
@@ -841,15 +805,15 @@
     "cls": "NO_PLURAL"
    },
    "purse": {
-    "to": "Portmonnaer",
+    "to": "Portmonnäer",
     "from": "Portmonnäar",
-    "why": "SAOL: portmonna, -n, -er. Loans in stressed -a/-e take -er (ide -> ideer, arme -> armeer). 'Portmonnaar' is the script's default +ar and is not a Swedish word",
+    "why": "SAOL: portmonna, -n, -er. Loans in stressed -a/-e take -er (ide -> ideer, arme -> armeer). 'Portmonnaar' is the script's default +ar and is not a Swedish word [amended: ⚠ THE -er ENDING IS RIGHT; THE PROPOSED SPELLING IS A NON-WORD. SAOL: portmonnä ~n ~er -> portmonnäer. The proposed 'Portmonnaer' has lost the ä. The reviewer's own prose is diacritic-stripped throughout this entry ('portmonna, -n, -er', 'ide -> ideer', 'arme -> armeer' = idé->idéer, armé->arméer), and the stored singular is 'Portmonnä' WITH ä - so the stripping is an artifact of their environment, not a spelling claim. This is precisely the class the SAME round flagged as 'SEVERE - WRONG WORD, NOT A WRONG FORM' under 'beanie' (Mossa/Mössa). Shipping 'Portmonnaer' would project and read aloud a non-word to a 3-7-year-old. Apply as 'Portmonnäer'.]",
     "src": "SAOL"
    },
    "push-pin": {
-    "to": "Haftstift",
+    "to": "Häftstift",
     "from": "Häftstiftar",
-    "why": "SAOL: ett stift -> flera stift (neuter, zero plural). 'Haftstiftar' is an invented word. Same single cause as the gender error: 'haftstift'/'stift' is simply absent from the script's hand-written SV_ETT lists",
+    "why": "SAOL: ett stift -> flera stift (neuter, zero plural). 'Haftstiftar' is an invented word. Same single cause as the gender error: 'haftstift'/'stift' is simply absent from the script's hand-written SV_ETT lists [amended: ⚠ THE ZERO PLURAL IS RIGHT; THE PROPOSED SPELLING IS A NON-WORD. SAOL: ett stift -> flera stift, so ett häftstift -> flera häftstift (consonant-final neuter). The proposed 'Haftstift' has lost the ä. The stored singular is 'Häftstift' WITH ä, and the reviewer's own gender entry for this same key also writes the stripped 'ett haftstift' - an environment artifact, not a claim. 'Haft-' is not a Swedish morpheme here (häfta = to staple/pin). Apply as 'Häftstift'; the coupled gender fix (n->t) is correct and should land with it.]",
     "src": "SAOL"
    },
    "roasted-turkey": {
@@ -925,9 +889,9 @@
     "src": "SAOL"
    },
    "sauce": {
-    "to": "Saser",
+    "to": "Såser",
     "from": "Såsar",
-    "why": "SAOL: sas, sasen, saser. Third declension -er, not -ar. 'Sasar' is the script's +ar default and is not a Swedish word",
+    "why": "SAOL: sas, sasen, saser. Third declension -er, not -ar. 'Sasar' is the script's +ar default and is not a Swedish word [amended: ⚠ THE -er ENDING IS RIGHT; THE PROPOSED SPELLING IS A NON-WORD. SAOL: sås ~en ~er -> såser. The proposed 'Saser' has lost the å. The reviewer's own prose is stripped ('SAOL: sas, sasen, saser', \"'Sasar' is ... not a Swedish word\") while the stored singular is 'Sås' WITH å - an environment artifact, not a claim. 'Saser' is not a Swedish word and would be read aloud to a child. Note the added danger: 'sas' is a real Swedish string (past tense of säga in 'det sas att...'), so the stripped form is not even obviously broken on sight. Apply as 'Såser'.]",
     "src": "SAOL"
    },
    "saucepan": {
@@ -944,9 +908,9 @@
     "cls": "NO_PLURAL"
    },
    "scrubs": {
-    "to": "Sjukhusklader",
+    "to": "Sjukhuskläder",
     "from": "Sjukhuskläderar",
-    "why": "'Sjukhuskladerar' is an invented word — the script appended its +ar default to a form that is already plural-only",
+    "why": "'Sjukhuskladerar' is an invented word — the script appended its +ar default to a form that is already plural-only [amended: ⚠ THE FIX IS RIGHT; THE PROPOSED SPELLING IS A NON-WORD - and this key is the PROOF that the whole stripped class is an artifact. 'scrubs' and 'hospital-gown' store the IDENTICAL row (s='Sjukhuskläder', p='Sjukhuskläderar'), i.e. they are one lemma. The same reviewer proposed 'Sjukhuskläder' (with ä) for hospital-gown and 'Sjukhusklader' (without) for scrubs. One word, two spellings, one round - so the missing ä is an environment artifact, not a spelling decision, and that conclusion carries to purse/push-pin/sauce. Applying as-is would also make two keys for one word DIVERGE in spelling. 'kläder' is plurale tantum and never takes -ar, so removing 'Sjukhuskläderar' is right regardless of how the singular is resolved. Apply as 'Sjukhuskläder'.]",
     "src": "SAOL"
    },
    "sewing-machine": {
@@ -1259,5 +1223,6 @@
     "src": "SAOL"
    }
   }
- }
+ },
+ "reverified": true
 }

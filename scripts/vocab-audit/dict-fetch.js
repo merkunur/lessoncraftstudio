@@ -48,8 +48,8 @@
    `wait` is extra settle time for SPAs that paint after networkidle.
    `note` records what a reviewer must know about the source's trust. */
 const SOURCES = {
-  de: [{ name: 'Duden', mode: 'fetch', url: (w) => 'https://www.duden.de/rechtschreibung/' + encodeURIComponent(w),
-         note: 'THE authority for German. Read "Genus" + "Pluralform".' }],
+  de: [{ name: 'Duden', mode: 'render', wait: 800, url: (w) => 'https://www.duden.de/rechtschreibung/' + encodeURIComponent(w),
+         note: 'THE authority. Read "Genus" + "Pluralform". ⚠ RENDER mode: a plain fetch intermittently 403s under load (seen mid-wave 2026-07-17), and a 403 must never silently degrade a batch. ⚠ SLUG TRAPS: umlauts transliterate (ü→ue, ö→oe, ä→ae, ß→sz) AND homographs need a disambiguating suffix or the bare lemma 404s (Mars→Mars_Planet, Elster→Elster_Vogel, Otter→Otter_Tier) — use Duden search if the direct slug misses.' }],
   no: [{ name: 'NAOB', mode: 'fetch', url: (w) => 'https://naob.no/ordbok/' + encodeURIComponent(w),
          note: 'Authority for bokmål.' }],
   sv: [{ name: 'SAOL/SO (svenska.se)', mode: 'render', wait: 1500, url: (w) => 'https://svenska.se/tre/?sok=' + encodeURIComponent(w),

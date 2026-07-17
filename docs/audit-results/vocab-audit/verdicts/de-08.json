@@ -5,1397 +5,773 @@
   "rows": [
     {
       "key": "overalls",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "clothing/overalls@2x.webp — ONE pair of orange bib overalls/dungarees: shoulder straps, bib with chest pocket, white button fasteners, knee-length rolled cuffs",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Latzhose" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "oviraptor",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "FIX",
-        "correct": "Oviraptoren",
-        "reason": "Latin agent nouns in -or take -oren in German (Duden: Motor -> Motoren, Traktor -> Traktoren); 'Oviraptore' is not a German form. Note: the -saurus -> -saurier rule does not apply here (no -saurus head)",
-        "source": "Duden (-or/-oren pattern)"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "dinosaurs/oviraptor@2x.webp — ONE tan/brown bipedal cartoon dinosaur, spiky head crest, long neck, striped back and tail (no beak — the art is a generic theropod, not a true Oviraptor)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "The stored value is ALREADY 'Oviraptoren' and is correct — verified against cur.p rather than assumed. Duden has NO entry (404 direct and via /suchen/). -raptor is the Latin agent-noun stem, so it follows Traktor→Traktoren, which is the pattern the brief itself prescribes for velociraptor (→ -oren). NOT -saurier: the stem is raptor, not sauros.", "source": "https://www.duden.de/rechtschreibung/Traktor" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "owl",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "animals/owl@2x.webp — ONE blue cartoon owl, ear tufts, two large pale eye discs, dark wings, scalloped breast",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Eule" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "ox",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "farm animals/ox@2x.webp — ONE orange cartoon bovine with curved horns, cream muzzle, tufted tail",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "weak noun — Duden: Genitiv des Ochsen, Plural die Ochsen. The builder's documented weak-noun gap (farmer Bauer→*Bauer) did NOT bite here.", "source": "https://www.duden.de/rechtschreibung/Ochse" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "oyster",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "ocean life/oyster@2x.webp — ONE open oyster: brown speckled outer shell, white lip, deep red interior, large pink pearl-like body",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "-er noun that DOES take -n: Duden die Austern. The builder leaves -er unchanged by default, so this one is right despite that gap.", "source": "https://www.duden.de/rechtschreibung/Auster" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pachycephalosaurus",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "FIX",
-        "correct": "Pachycephalosaurier",
-        "reason": "-saurus forms the plural in -saurier (Duden: Tyrannosaurus, der; -, ...rier); 'Pachycephalosauren' is not the German form",
-        "source": "Duden"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "dinosaurs/pachycephalosaurus@2x.webp — ONE pink cartoon dinosaur with PURPLE LEAF-SHAPED PLATES down the back and tail, small nose horn. ART CONCERN: this is a stegosaur silhouette; a Pachycephalosaurus is defined by its thick DOMED skull, which the art does not show.",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "The stored value is ALREADY 'Pachycephalosaurier' and is correct — verified against cur.p. Duden has NO entry (404). The stem IS -saurus (Greek sauros = lizard), so the Duden -saurus→-saurier rule applies legitimately here, unlike the brief's carnotaurus/triceratops/velociraptor exceptions.", "source": "https://www.duden.de/rechtschreibung/Saurier" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "package",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "FIX",
-        "correct": "n",
-        "reason": "Duden: das Paket, -[e]s, -e — neuter, not masculine; 'der Paket' would be read/spoken to children",
-        "source": "Duden"
-      }
+      "image_seen": "post office/package@2x.webp — ONE sealed cardboard box, red packing tape, red arrow logo and a black 'this way up' arrow symbol",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Paket" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "padlock",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "home bw 2/padlock@2x.webp — B&W line art, ONE round padlock with shackle and keyhole (also in objects bw and valentine bw; no colour version exists)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "umlaut plural Schloss→Schlösser — a class the builder documentedly cannot produce, yet it is correct here.", "source": "https://www.duden.de/rechtschreibung/Vorhaengeschloss" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "paint-brush",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "tools/paint_brush@2x.webp — ONE flat decorator's brush, wooden handle with hanging hole, metal ferrule, orange paint on the bristles",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Bare /rechtschreibung/Pinsel 404s — Duden splits the homograph: Pinsel_Werkzeug (the tool) vs Pinsel_Dummkopf (an insult). The tool entry: der Pinsel, Plural die Pinsel (zero plural, -el unchanged — the builder's -el gap is harmless here because -el IS the correct form).", "source": "https://www.duden.de/rechtschreibung/Pinsel_Werkzeug" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "paint-roller",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "tools bw/paint_roller@2x.webp — B&W line art, ONE paint roller: striped sleeve, wire frame, bulbous handle (no colour version exists)",
+      "singular": { "verdict": "OK", "reason": "NOT a Duden headword (404 direct; /suchen/ returns only Maler, Wanne). Duden does not list every transparent compound and its absence is not evidence of error: Farbroller is the standard German trade term for exactly this tool. Recorded rather than papered over — I will not cite a source that does not contain the word." },
+      "plural": { "verdict": "OK", "reason": "Head noun Roller: der Roller, Plural die Roller (zero plural). Farbroller inherits it.", "source": "https://www.duden.de/rechtschreibung/Roller" },
+      "gender": { "verdict": "OK", "reason": "Inherits der Roller (m).", "source": "https://www.duden.de/rechtschreibung/Roller" }
     },
     {
       "key": "paintbrush",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "education bw/paintbrush@2x.webp — B&W line art, ONE round artist's brush: long tapered handle, ferrule, pointed bristle tip (also home bw 2/paintbrush and paintbrush_2)",
+      "singular": { "verdict": "OK", "reason": "Correct. Note for the operator: this key duplicates `paint-brush` (tools) — both resolve to Pinsel. The two arts differ (decorator's flat brush vs artist's round brush) but German uses Pinsel for both, so no differentiation is possible or needed at word level." },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Pinsel_Werkzeug" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "painting",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "NO_PLURAL",
-        "reason": "themes=[activities] decides the reading: the picture shows the activity -> 'das Malen', a nominalised infinitive, which has no plural; p must equal s. The current 'Gemälde' is a different lemma (the artwork), correct only if the image actually shows a painting rather than the act of painting"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "activities/painting@2x.webp — a wooden artist's PALETTE with red/orange/blue paint blobs and a brush resting on it. ART DEFECT (unflagged in the batch): this duplicates the `palette` key's subject; it does not depict the ACTIVITY of painting.",
+      "singular": { "verdict": "OK", "reason": "The KEY is `painting` in the `activities` theme (siblings: pottery→Töpfern, photography→Fotografie), i.e. the activity. das Malen is the substantivized infinitive of malen and is correct German for that activity. Judged against the KEY per the operator ruling; the art is the bug. NB the de row is internally consistent (Malen/Malen/n) — it is the OTHER locales that are broken here: nl Schilderen(verb)/Schilderijen(nouns), it Dipingere/Dipinti, sv Måla/Målningar, da+no Male/Malerier all put a VERB in the singular and a NOUN in the plural.", "source": "https://www.duden.de/rechtschreibung/malen" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "Substantivized infinitive — das Malen has no plural. Not a zero plural: the form does not exist. The stored value happens to be the identical string, which is the safest rendering, but the field must never be pluralized. ⚠ classification says category=countable-thing/hasPlural=true — that was derived from the PALETTE in the art, so it conflicts with the key; per the standing ruling the key + Duden win, and I am recording the conflict.", "source": "https://www.duden.de/rechtschreibung/malen" },
+      "gender": { "verdict": "OK", "reason": "Substantivized infinitives are always neuter." }
     },
     {
       "key": "pajamas",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "clothing/pajamas@2x.webp — ONE red pyjama set with white spots: long-sleeved button top with white collar and pocket, plus matching trousers",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "umlaut plural Anzug→Anzüge, correct despite the builder's documented umlaut gap. Also the brief's 'English pluralia tantum over ONE object' inverse trap: EN pajamas is plural, de Schlafanzug→Schlafanzüge is singular+plural and CORRECT.", "source": "https://www.duden.de/rechtschreibung/Schlafanzug" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "palette",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "education bw/palette@2x.webp — B&W line art, ONE artist's palette with thumb hole and eight paint wells (also classroom bw 2/palette; no colour version exists)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Palette" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "palm-tree",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "beach/palm_tree@2x.webp — ONE palm tree, curved red-brown ringed trunk, crown of green fronds (also summer/palm_tree, beach bw/palm_tree)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Palme" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pan",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "kitchen tools/pan@2x.webp — ONE dark-red round casserole/Dutch oven WITH a grey domed lid and two side handles (also around the house/pan). ART CONCERN: this is a lidded pot (Topf/Bräter), not a frying pan; note that `pot` in this same batch is drawn as a handle-less red pot, so the two arts do not clearly separate.",
+      "singular": { "verdict": "OK", "reason": "Judged against the KEY per the operator ruling: pan → Pfanne is correct German. Flagging that the art shows a lidded casserole." },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Pfanne" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pancake",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "breakfast/pancake@2x.webp — ONE thick round pancake with a pat of yellow butter on top and red berry sauce running out beneath (also desserts and sweets/pancake)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "zero plural — der Pfannkuchen → die Pfannkuchen. Correct, not a missing plural.", "source": "https://www.duden.de/rechtschreibung/Pfannkuchen" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "panda",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "animals/panda@2x.webp — ONE sitting giant panda, black eye patches/ears/limbs, red cheeks and red paw pads (also zoo animals/panda, faces bw/panda_2)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Panda" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pants",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "clothing/pants@2x.webp — ONE pair of YELLOW KNEE-LENGTH BERMUDA SHORTS: belt loops, button, fly, front and slanted pockets with dark navy lining, orange turn-ups. Confirms the batch's ART_DEFECT note.",
+      "singular": { "verdict": "OK", "reason": "ART_DEFECT: the picture shows shorts (kurze Hose), not full-length trousers. Per the operator ruling the FILENAME is the reference — pants → Hose is correct German, and Hose is in fact broad enough to cover the drawn garment. The art is the bug." },
+      "plural": { "verdict": "OK", "reason": "The brief's 'English pluralia tantum over ONE object' inverse trap: EN pants is plural but names one garment; de Hose→Hosen is CORRECT and must not be ruled NO_PLURAL.", "source": "https://www.duden.de/rechtschreibung/Hose" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "papaya",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "fruits/papaya@2x.webp — ONE papaya cut lengthwise: green-yellow skin, orange flesh, central cluster of black seeds",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Papaya" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "paper",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "NO_PLURAL",
-        "reason": "for the classroom image 'Papier' is a mass noun; the existing plural 'Papiere' means documents/ID papers, not sheets of paper, so it must not be spoken for this picture. p = s is already correctly encoded",
-        "source": "Duden"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "classroom/paper@2x.webp — ONE lined cream sheet of paper on a red backing board, held by a red clip, corner curling",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "Duden DOES list 'die Papiere' — but that plural belongs to the other senses (documents/identity papers; sorts of paper), NOT to the depicted sense of paper as a material / a sheet, which is a mass. This is exactly the case on which the last de round rejected `lettuce`: Duden may give a plural the DEPICTED sense lacks. The stored value 'Papier' is therefore already right; I am confirming it, not changing it. ⚠ Recording that classification says hasPlural=true, which conflicts with the picture.", "source": "https://www.duden.de/rechtschreibung/Papier" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "paper-airplane",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "Things That Fly/paper_airplane@2x.webp — ONE folded red paper dart, sharp nose, visible centre fold (also classroom bw 2/paper_airplane)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "zero plural — der Papierflieger → die Papierflieger.", "source": "https://www.duden.de/rechtschreibung/Papierflieger" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "parallelogram",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "shapes/parallelogram@2x.webp — ONE pale-pink parallelogram with a thin black outline, slanted right",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Parallelogramm" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "paramedic",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "occupations/paramedic@2x.webp — ONE smiling FEMALE medic, dark-teal uniform, red stethoscope, red helmet with a white cross, hands on hips, red shoes",
+      "singular": { "verdict": "OK", "reason": "Correct. Note the art is female while the label is the masculine form; Duden flags this generally ('Verwendung der Personenbezeichnung'). Out of scope for a form audit, but recorded — it recurs across the occupations theme (see park-ranger, pharmacist)." },
+      "plural": { "verdict": "OK", "reason": "zero plural — der Rettungssanitäter → die Rettungssanitäter.", "source": "https://www.duden.de/rechtschreibung/Rettungssanitaeter" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "parasaurolophus",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "HOLD",
-        "reason": "the -saurus -> -saurier rule does NOT apply: the head is Greek lophos ('crest'), not saurus (same differentiation as carnotaurus). Duden has no entry; German usage is unsettled between an invariant plural and 'Parasaurolophen'. Not guessing"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "dinosaurs/parasaurolophus@2x.webp — ONE blue-violet cartoon dinosaur with pale-blue LEAF-SHAPED PLATES along neck, back and tail. ART CONCERN: a Parasaurolophus is defined by its long backward-curving cranial tube crest, which is absent; the art is again a stegosaur silhouette.",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Duden has no entry. The brief itself excludes parasaurolophus from -saurus→-saurier (the stem is Greek lóphos = crest, not sauros) — and the stored 'Parasaurolophen' honours that exclusion, following the Latin/Greek -us → -en pattern the prompt cites as already correct (Globus→Globen, Hibiskus→Hibisken). Consistent; no change.", "source": "https://www.duden.de/rechtschreibung/Globus" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "parasol",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "beach bw/parasol@2x.webp — B&W line art, ONE open beach umbrella with scalloped canopy and straight pole (no colour version exists)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Sonnenschirm" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "park-ranger",
-      "singular": {
-        "verdict": "HOLD",
-        "reason": "'Parkwächter' is a park attendant/guard; a (US-style) park ranger is 'Ranger'/'Parkranger' or 'Wildhüter' in German. Choosing the right word requires a lemma decision plus a look at the image — not a form fix"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "occupations/park_ranger@2x.webp — head-and-shoulders of ONE FEMALE ranger: khaki campaign hat with brown band, green uniform shirt, shoulder boards, gold sunburst badge",
+      "singular": { "verdict": "OK", "reason": "Duden lists Parkwächter with two senses, one of which is literally 'Wächter in einem Park' — so the word does name the depicted role. (Ranger/Parkranger would be closer to the US national-park figure drawn here, but that is a lemma preference, not a form error, and Parkwächter is transparent for K-3.)", "source": "https://www.duden.de/rechtschreibung/Parkwaechter" },
+      "plural": { "verdict": "OK", "reason": "zero plural — der Parkwächter → die Parkwächter.", "source": "https://www.duden.de/rechtschreibung/Parkwaechter" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "parrot",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "birds/parrot@2x.webp — ONE yellow parrot with red hooked beak, red and black wing feathers, red feet (also pets/parrot, birds 2/parrot, Things That Fly/parrot)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Duden: Papageien (seltener: Papageie). The stored form is the primary one.", "source": "https://www.duden.de/rechtschreibung/Papagei" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "parsnip",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "vegetables/parsnip@2x.webp — ONE cream-coloured tapering root with faint rings and a green leafy top",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Pastinake" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "partly-cloudy",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "NO_PLURAL",
-        "reason": "adjectival phrase ('teilweise bewölkt'), no plural; p = s is already correctly encoded"
-      },
-      "gender": {
-        "verdict": "HOLD",
-        "reason": "an adjectival phrase has no gender at all — 'm' is certainly wrong, but there is no correct value to substitute (unlike colour nouns, this cannot be nominalised naturally). Needs a data-model decision (null/none), not a form fix"
-      }
+      "image_seen": "weather/partly_cloudy@2x.webp — a yellow sun with rays partly hidden behind two grey-blue clouds",
+      "singular": { "verdict": "OK", "reason": "Adjective phrase; correct and idiomatic for the picture." },
+      "plural": { "verdict": "OK", "reason": "category=adjective → no plural; the field correctly mirrors the singular rather than inventing one." },
+      "gender": { "verdict": "OK", "reason": "category=adjective → gender null is correct. Qualities and activities lose gender; only nouns keep it." }
     },
     {
       "key": "party-hat",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "accessories/party_hat@2x.webp — ONE conical party hat in red/blue/yellow bands with polka dots and a gold star on the point (also toys bw/party_hat)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Not a Duden headword (transparent compound). Head noun Hut: der Hut → die Hüte, so Partyhüte. The umlaut is correct — note the homograph die Hut (= protection, no plural), which is irrelevant here.", "source": "https://www.duden.de/rechtschreibung/Hut_Kopfbedeckung" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "passport",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "travel and holiday bw/passport@2x.webp — B&W line art, ONE passport booklet lettered 'PASS' with a winged emblem and a ribbon marker (no colour version exists)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "umlaut plural Pass→Pässe, correct.", "source": "https://www.duden.de/rechtschreibung/Reisepass" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pasta",
-      "singular": {
-        "verdict": "FIX",
-        "correct": "Nudel",
-        "reason": "plural in the singular field (same defect class as pretzels/blocks/candy): 'Nudeln' is the plural; the singular of the same lemma is 'die Nudel'. Caveat for the operator: the supermarket image very likely shows a mass of pasta, for which the natural spoken label is the plural 'Nudeln' — if the singular is never displayed alone this is harmless, otherwise the key may need the mass treatment",
-        "source": "Duden"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "At the Supermarket/pasta@2x.webp — ONE sealed packet with red ends and a clear window showing dried tube pasta (rigatoni/penne)",
+      "singular": { "verdict": "OK", "reason": "🔴 I am OVERTURNING the prior de-08 verdict file, which ruled FIX 'Nudeln'→'Nudel'. That would caption a whole PACKET of pasta with the word for ONE noodle. The field holds a PLURAL FORM by design and that is correct: category=mass, and Duden marks Nudel 'Grammatik: MEIST IM PLURAL'. Nudeln is the natural German label for the depicted packet and what a K-3 teacher says. I also deliberately do NOT rule PLURALIA_TANTUM: die Nudel genuinely exists (one noodle), so 'this word has no singular' would rest on a false premise — the brief warns a premise can be false even when the conclusion is right (the sv utrum-zero-plural case). Consistent with peas/pretzels in this same batch, where the plural label also sits in the singular field.", "source": "https://www.duden.de/rechtschreibung/Nudel" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "category=mass → hasPlural=false; the label IS already the plural. Nothing further to derive.", "source": "https://www.duden.de/rechtschreibung/Nudel" },
+      "gender": { "verdict": "OK", "reason": "f from die Nudel. (A plural takes 'die' regardless, so the code is inert here, but it is the correct code for the lemma.)" }
     },
     {
       "key": "pea",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "vegetables bw 2/pea@2x.webp — B&W line art, ONE open pea POD with six round peas inside and a curling tendril (no colour version exists)",
+      "singular": { "verdict": "OK", "reason": "Correct. Note the art draws a pod (Erbsenschote) containing peas rather than a single pea — but Erbse is the word the key asks for and children read it as 'peas in a pod'." },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Erbse" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "peach",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "fruits/peach@2x.webp — ONE peach, red blushing to orange, brown stem and one green leaf (also At the Supermarket/peach, colors/peach)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Pfirsich" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "peach-tree",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "tree/peach@2x.webp — ONE tree with a brown forked trunk and a yellow-to-red crown bearing ten red-orange peaches. ⚠ filename trap confirmed: the `tree` theme DROPS the _tree suffix, so peach-tree resolves to tree/peach@2x.webp, not tree/peach_tree@2x.webp.",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "umlaut plural Baum→Bäume, correct.", "source": "https://www.duden.de/rechtschreibung/Pfirsichbaum" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "peacock",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "birds/peacock@2x.webp — ONE peacock, deep blue body, orange wing, fanned teal tail with cream/red eye-spots, crest of feathers on the head",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Duden: die Pfauen (österreichisch/regional auch: die Pfaue). The stored form is the Standarddeutsch primary.", "source": "https://www.duden.de/rechtschreibung/Pfau" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "peanut-butter",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "NO_PLURAL",
-        "reason": "mass noun (die Erdnussbutter); no child-appropriate plural. p = s is already correctly encoded"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "At the Supermarket/peanut_butter@2x.webp — ONE glass jar of peanut butter, red screw lid, blank orange/red wrap-around label",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "Duden lists Genitiv only and NO plural for Erdnussbutter — the dictionary itself confirms the mass classification.", "source": "https://www.duden.de/rechtschreibung/Erdnussbutter" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pear",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "fruits/pear@2x.webp — ONE yellow pear with a red-orange blush and speckles, brown stem (also At the Supermarket/pear, fruits bw/pear)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Birne" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pear-tree",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "tree/pear@2x.webp — ONE tree with a brown trunk and green crown bearing eight yellow pears (filename trap: `tree` theme drops the _tree suffix)",
+      "singular": { "verdict": "OK", "reason": "Birnbaum, not *Birnenbaum — Duden confirms the linking-element-free compound." },
+      "plural": { "verdict": "OK", "reason": "umlaut plural Baum→Bäume, correct.", "source": "https://www.duden.de/rechtschreibung/Birnbaum" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "peas",
-      "singular": {
-        "verdict": "FIX",
-        "correct": "Erbse",
-        "reason": "plural in the singular field: 'Erbsen' is the plural; the singular of the same lemma is 'die Erbse'. (Same shape as pretzels, the defect class named in the brief)",
-        "source": "Duden"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "At the Supermarket/peas@2x.webp — TWO green pea pods, the upper one open showing five peas inside — genuinely a plural picture",
+      "singular": { "verdict": "OK", "reason": "🔴 I am OVERTURNING the prior de-08 verdict file, which ruled FIX 'Erbsen'→'Erbse'. The picture is TWO pods and classification says category=plural-picture, i.e. THE LABEL IS THE PLURAL — de-pluralizing the field would caption a plural picture with a singular word and destroy the convention. The stored 'Erbsen' is correct. This is the convention potato-chips in this same batch fails to follow.", "source": "https://www.duden.de/rechtschreibung/Erbse" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "plural-picture: the label is already the plural; nothing further to derive.", "source": "https://www.duden.de/rechtschreibung/Erbse" },
+      "gender": { "verdict": "OK", "reason": "f from die Erbse." }
     },
     {
       "key": "peeler",
-      "singular": {
-        "verdict": "HOLD",
-        "reason": "'Schäler' on its own is not what anyone calls a kitchen peeler in German; the everyday terms are 'Sparschäler', 'Kartoffelschäler' or 'Gemüseschäler'. Picking one requires a lemma decision plus a look at the image — not a form fix"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "kitchen tools/peeler@2x.webp — ONE Y-shaped vegetable peeler: red handle with hanging hole, yellow yoke, dark blade",
+      "singular": { "verdict": "OK", "reason": "Verified rather than assumed: Duden's definition of Schäler is literally 'Küchengerät zum [manuellen] Schälen von Kartoffeln sowie bestimmtem Obst und Gemüse' — i.e. exactly the pictured object. Sparschäler is the commoner everyday term, but Schäler is dictionary-correct and shorter for K-3, so no change.", "source": "https://www.duden.de/rechtschreibung/Schaeler" },
+      "plural": { "verdict": "OK", "reason": "zero plural — der Schäler → die Schäler.", "source": "https://www.duden.de/rechtschreibung/Schaeler" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pegasus",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "NO_PLURAL",
-        "reason": "proper name from Greek myth (the winged horse), like Jupiter — no established German plural; 'Pegasen' is not an attested form. p must equal s"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "Things That Fly/pegasus@2x.webp — ONE white winged horse with red mane and tail, pink wings, red hooves — AND A GOLDEN SPIRAL HORN ON ITS FOREHEAD. ART DEFECT (unflagged in the batch): a horn makes this a winged UNICORN (Alicorn/Flügeleinhorn); the Pegasus of myth has wings but no horn.",
+      "singular": { "verdict": "OK", "reason": "Judged against the KEY per the operator ruling. Duden lists Pegasus as 'geflügeltes Pferd ... Dichterross'.", "source": "https://www.duden.de/rechtschreibung/Pegasus" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "Duden gives 'der Pegasus; Genitiv: des Pegasus' and lists NO plural — it is the name of a single mythological horse, i.e. a proper noun. Per the classification table, proper nouns keep gender and lose the plural. The stored value is the identical string, which is harmless, but the field must never be pluralized. ⚠ classification says hasPlural=true; the dictionary contradicts it, and the dictionary wins.", "source": "https://www.duden.de/rechtschreibung/Pegasus" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pelican",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "birds/pelican@2x.webp — ONE pelican, cream body, dark wing, long orange bill and pouch, orange legs (also beach/pelican, birds 2/pelican, Things That Fly/pelican)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Pelikan" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pen",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "classroom/pen@2x.webp — ONE ballpoint pen: blue barrel, red clip and grip section, dark push button, dark writing tip (also around the house/pen, education bw/pen)",
+      "singular": { "verdict": "OK", "reason": "Correct German for the picture. Kugelschreiber would be precise for a ballpoint, but Stift is the natural K-3 superordinate and Duden defines it as the writing implement. Note the sister key `pencil` = Bleistift, so the pair is not ambiguous in practice." },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Stift_Schreibgeraet" },
+      "gender": { "verdict": "OK", "reason": "GENDER-IS-THE-MEANING check passed: Duden splits Stift into der Stift (Schreibgerät — this one, m) and das Stift (geistliche Körperschaft, n). m is correct for the pictured pen; n would have been the Kiefer-class error.", "source": "https://www.duden.de/rechtschreibung/Stift_Schreibgeraet" }
     },
     {
       "key": "pencil",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "classroom/pencil@2x.webp — ONE yellow hexagonal pencil, sharpened dark tip, silver ferrule, red eraser (also around the house/pencil, education bw/pencil)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Bleistift" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "penguin",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "animals/penguin@2x.webp — ONE standing penguin, black back and head, white front and face, orange beak and feet, pink cheeks (also birds/penguin, winter/penguin, sea life bw/penguin)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Pinguin" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pentagon",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "shapes/pentagon@2x.webp — ONE regular mint-green pentagon, point upward, thin black outline",
+      "singular": { "verdict": "OK", "reason": "Fünfeck (not the loan Pentagon) is right for K-3 and avoids the US-building proper noun." },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Fuenfeck" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "peony",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "flowers/peony@2x.webp — ONE red/pink flower with broad rounded petals, a yellow stamen ring and a red centre, on a green stem with leaves. ART CONCERN: a peony is densely many-petalled; this reads closer to an anemone/cosmos.",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Pfingstrose" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pepper",
-      "singular": {
-        "verdict": "HOLD",
-        "reason": "entry conflates the bell pepper (Paprika) with the spice (Pfeffer) — two different lemmas, not a form fix. themes=[vegetables] and the countable English plural 'Peppers' point to Paprika, but the p field says Pfeffer, and the second theme (at_the_supermarket) could host either image. Needs a human decision on which image the key serves (possibly a key split)"
-      },
-      "plural": {
-        "verdict": "HOLD",
-        "reason": "see singular; if Paprika is chosen, Duden gives 'Paprikas' (also invariant '-'), and 'Pfeffer' as a spice has no plural — the value depends entirely on the lemma decision"
-      },
-      "gender": {
-        "verdict": "HOLD",
-        "reason": "depends on the lemma chosen (Duden: der Paprika; der Pfeffer — both m, so 'm' happens to survive either way, but must not be confirmed before the lemma is settled)"
-      }
+      "image_seen": "At the Supermarket/pepper@2x.webp — ONE RED BELL PEPPER, glossy, four lobes, curved green stalk (also vegetables bw 2/pepper). Unambiguously the vegetable, not the spice.",
+      "singular": { "verdict": "OK", "reason": "Paprika correctly names the pictured bell pepper. Duden's Paprika_Gemuese is the fruit; Paprika_Pflanze is the plant.", "source": "https://www.duden.de/rechtschreibung/Paprika_Gemuese" },
+      "plural": { "verdict": "FIX", "correct": "Paprikas", "reason": "🔴 THE PLURAL FIELD HOLDS A DIFFERENT WORD ENTIRELY. Stored plural is 'Pfeffer' — Duden: 'scharfes Gewürz ... in Form von [un]gemahlenen Pfefferkörnern', i.e. BLACK PEPPER, the spice. A child is shown a red bell pepper and taught 'Paprika → Pfeffer'. This is an EN-homonym collapse (English 'pepper' = both Paprika and Pfeffer) that a machine flattened. 🔴 I am OVERTURNING the prior de-08 verdict file, which ruled HOLD on all three fields on the grounds that it could not tell which image the key serves ('the second theme could host either image'). OPENING THE PICTURE ANSWERS THAT IN ONE SECOND — it is a bell pepper. That HOLD is precisely the failure this brief exists to end. Duden Paprika_Gemuese gives 'die Paprika; Plural: die Paprika, Paprikas und der Paprika; Plural: die Paprikas, Paprika' — I choose Paprikas because it is attested under BOTH gender readings, is unambiguously plural (unlike the zero-plural variant 'Paprika'), and matches the stored m gender.", "source": "https://www.duden.de/rechtschreibung/Paprika_Gemuese" },
+      "gender": { "verdict": "OK", "reason": "Duden attests BOTH genders for the fruit ('die Paprika ... und der Paprika'), and only der Paprika for the plant — so m is attested and needs no change. Do NOT 'correct' this to f: that would delete an attested form (the `lego` precedent).", "source": "https://www.duden.de/rechtschreibung/Paprika_Gemuese" }
     },
     {
       "key": "perfume",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK",
-        "source": "Duden"
-      },
-      "gender": {
-        "verdict": "FIX",
-        "correct": "n",
-        "reason": "Duden: das Parfüm, -s, -e/-s — neuter, not masculine",
-        "source": "Duden"
-      }
+      "image_seen": "valentine bw 2/perfume@2x.webp — B&W line art, ONE heart-shaped perfume bottle with an atomiser bulb spraying, inner heart outline (no colour version exists)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Duden: die Parfüms, Parfüme — both attested; the stored 'Parfüme' is listed.", "source": "https://www.duden.de/rechtschreibung/Parfuem" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "persimmon",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK",
-        "source": "Duden"
-      }
+      "image_seen": "fruits/persimmon@2x.webp — ONE orange-red persimmon, glossy, with a green four-lobed calyx and short brown stem",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Kaki_Frucht" },
+      "gender": { "verdict": "OK", "reason": "GENDER-IS-THE-MEANING check passed — Kaki is a THREE-way homograph in Duden: die Kaki (the FRUIT — this one, f), das Kaki (the colour khaki, n), der Kaki (the tropical-uniform fabric, m). f is correct for the pictured fruit.", "source": "https://www.duden.de/rechtschreibung/Kaki_Frucht" }
     },
     {
       "key": "petunia",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "flowers/petunia@2x.webp — ONE pink/red five-petalled flower with a small orange centre, dark radiating veins, green stem and two leaves",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Petunie" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pharmacist",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "occupations/pharmacist@2x.webp — ONE smiling person in a white lab coat with a red cross on the pocket, blue scrubs, holding a red pill bottle and a red clipboard",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "zero plural — der Apotheker → die Apotheker.", "source": "https://www.duden.de/rechtschreibung/Apotheker" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "phlox",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "flowers/phlox@2x.webp — ONE pink/red many-petalled flower with a yellow centre, green stem and two leaves. ART CONCERN: phlox grows as clustered five-petalled flowers; this is drawn as a single cosmos-like bloom.",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Duden: 'der Phlox; Genitiv: des Phloxes, Plural: die Phloxe, auch: die Phlox; Genitiv: der Phlox, Plural: die Phloxe' — Phloxe under BOTH gender readings. Stored form correct. (The Duden page needed a raw-HTML read: the Grammatik line sits in a nested tag the text extractor drops.)", "source": "https://www.duden.de/rechtschreibung/Phlox" },
+      "gender": { "verdict": "OK", "reason": "Duden: 'Substantiv, maskulin, oder Substantiv, feminin' — m is attested and listed first. Do not 'correct' to f.", "source": "https://www.duden.de/rechtschreibung/Phlox" }
     },
     {
       "key": "photographer",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "occupations/photographer@2x.webp — ONE boy sitting cross-legged in a yellow t-shirt, holding a black DSLR with a long lens up to his eye",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "weak noun — Duden: Genitiv des Fotografen, Plural die Fotografen. Correct (contrast the builder's Bauer→*Bauer failure class).", "source": "https://www.duden.de/rechtschreibung/Fotograf" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "photography",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "NO_PLURAL",
-        "reason": "themes=[activities] + en=[Photography, Photography]: the art/activity 'die Fotografie' has no plural; 'Fotografien' would mean the photographs themselves. p = s is already correctly encoded"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "activities/photography@2x.webp — ONE bright green DSLR CAMERA with a large silver zoom lens. Confirms the batch's ART_DEFECT note: this depicts a camera (Fotoapparat/Kamera), not the activity of photography.",
+      "singular": { "verdict": "OK", "reason": "Judged against the KEY per the operator ruling: photography → die Fotografie (the practice) is correct, and matches the `activities` theme siblings painting→Malen, pottery→Töpfern. The art is the bug.", "source": "https://www.duden.de/rechtschreibung/Fotografie" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "DUDEN SAYS SO EXPLICITLY. The Fotografie entry carries two senses: '[Verfahren zur] Herstellung ... Bilder' — marked 'Grammatik: OHNE PLURAL' — and the concrete sense (a photograph) with 'Plural: die Fotografien'. The key is the ACTIVITY = the ohne-Plural sense. 'Fotografien' would mean photographs, a different sense — the `lettuce` precedent. Stored value already mirrors the singular, so this confirms rather than changes. ⚠ classification says hasPlural=true (derived from the CAMERA in the art) — Duden contradicts it and Duden wins.", "source": "https://www.duden.de/rechtschreibung/Fotografie" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "piano",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "music/piano@2x.webp — ONE brown upright piano with open sheet music on the stand, black-and-white keys, three brass pedals (also activities/piano)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Klavier" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pickaxe",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "tools bw/pickaxe@2x.webp — B&W line art, ONE pickaxe: curved spike one side, flat blade the other, long handle (no colour version exists)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Spitzhacke" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pickup-truck",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "(no art — batch marks noImage:true, themes:[]; confirmed no pickup_truck@2x.webp under any theme directory)",
+      "singular": { "verdict": "FIX", "correct": "Pick-up", "reason": "Duden's headword is hyphenated: 'der Pick-up' — 'kleinerer Lieferwagen mit Pritsche', which is exactly a pickup truck. The stored unhyphenated 'Pickup' is common in running German but is not Duden's Rechtschreibung, and Duden is THE authority for German orthography. This is a pure orthographic correction of the SAME word, so FIX (not HOLD) is the right class. The prior de-08 file passed this OK/OK/OK without fetching. Flagging that this row has no art, so the lemma choice cannot be checked against a picture — only the spelling is being ruled on.", "source": "https://www.duden.de/rechtschreibung/Pick_up" },
+      "plural": { "verdict": "FIX", "correct": "Pick-ups", "reason": "Duden: 'Plural: die Pick-ups'. The -s pattern in the stored value was already right; only the hyphen is missing.", "source": "https://www.duden.de/rechtschreibung/Pick_up" },
+      "gender": { "verdict": "OK", "reason": "Duden: der Pick-up (m).", "source": "https://www.duden.de/rechtschreibung/Pick_up" }
     },
     {
       "key": "picnic",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK",
-        "source": "Duden"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "activities/picnic@2x.webp — a red-and-white checked blanket laid with a burger, a bottle, a filled WINE GLASS, a punnet of strawberries, a tomato, two slices of bread on a plate and a fork. ⚠ Non-linguistic flag for the operator: a glass and bottle of red wine on a picture for 3–7-year-olds.",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Duden: die Picknicke und Picknicks — both attested; the stored form is listed. This is the brief's 'EN loans have NO class rule' case, so it was fetched rather than assumed.", "source": "https://www.duden.de/rechtschreibung/Picknick" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "picnic-table",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "camping/picnic_table@2x.webp — ONE wooden picnic table with attached bench seats and red A-frame legs",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Not a Duden headword (transparent compound). Head noun Tisch: der Tisch → die Tische, so Picknicktische.", "source": "https://www.duden.de/rechtschreibung/Tisch" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "picture-frame",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "around the house/picture_frame@2x.webp — ONE empty upright rectangular picture frame, gold/brown moulding, grey-white mount (also home bw 2/picture_frame)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "zero plural — der Bilderrahmen → die Bilderrahmen. The builder's -en gap is harmless here because -en IS the correct form.", "source": "https://www.duden.de/rechtschreibung/Bilderrahmen" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pie",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "bakery/pie@2x.webp — ONE SLICE of pie: pastry base and lattice-marked top, red berry filling with visible fruit (also At the Supermarket/pie, thanksgivinng/pie, desserts and sweets/pie)",
+      "singular": { "verdict": "OK", "reason": "Correct. German has no exact everyday equivalent of 'pie'; Kuchen is the natural K-3 word for the depicted fruit-filled bake. Note the art shows a single slice rather than a whole cake." },
+      "plural": { "verdict": "OK", "reason": "zero plural — der Kuchen → die Kuchen.", "source": "https://www.duden.de/rechtschreibung/Kuchen" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pig",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "farm animals/pig@2x.webp — ONE pink pig sitting, large ears, red snout, curly tail, dark trotters (also animals/pig, farm bw/pig)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Schwein" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pigeon",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "birds 2/pigeon@2x.webp — ONE grey pigeon with an iridescent green/purple neck, dark wing bars, orange beak and red feet (also Things That Fly/pigeon, farm animals bw/pigeon)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Taube_Vogel" },
+      "gender": { "verdict": "OK", "reason": "f. Duden also carries a homograph 'die Taube' as a substantiviertes Adjektiv (the deaf woman) — also feminine, so the code is safe either way." }
     },
     {
       "key": "piglet",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "animals bw/piglet@2x.webp — B&W line art, ONE small piglet sitting, floppy ear, snout, curly tail (no colour version exists)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "zero plural — das Ferkel → die Ferkel. The builder leaves -el unchanged by default; here that default is CORRECT (contrast its Brezel→*Brezelne / Kaktus→*Kakten failures).", "source": "https://www.duden.de/rechtschreibung/Ferkel" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pillow",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "around the house/pillow@2x.webp — ONE plump pillow, white centre panel with red ends and a navy underside (also home bw 2/pillow)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "zero plural — das Kissen → die Kissen.", "source": "https://www.duden.de/rechtschreibung/Kissen" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pilot",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "occupations/pilot@2x.webp — ONE pilot in a peaked cap and brown uniform with a tie, waving from the open cockpit of a red aeroplane",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "weak noun — Duden: Genitiv des Piloten, Plural die Piloten.", "source": "https://www.duden.de/rechtschreibung/Pilot_Person" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pine-tree",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "FIX",
-        "correct": "Kiefern",
-        "reason": "Duden: Kiefer, die; -, -n (conifer) -> die Kiefern. The current null plural belongs to the homograph 'der Kiefer, -s, -' = the JAWBONE",
-        "source": "Duden"
-      },
-      "gender": {
-        "verdict": "FIX",
-        "correct": "f",
-        "reason": "the tree is die Kiefer (f); 'der Kiefer' (m) is the jawbone — as encoded, a child sees/hears the wrong word entirely",
-        "source": "Duden"
-      }
+      "image_seen": "TWO images, both opened per the every-theme rule. camping/pine_tree@2x.webp — ONE conifer with five triangular tiers and a brown trunk. tree/pine@2x.webp — ONE conifer with three tiers and a brown trunk (filename trap: `tree` theme drops the _tree suffix). Both are generic stylised conifers.",
+      "singular": { "verdict": "OK", "reason": "✅ THE JAWBONE FIX HAS LANDED — verified, not assumed. Duden splits the homograph: Kiefer_Baum = 'Substantiv, FEMININ ... die Kiefer; Plural: die Kiefern' (the pine) vs Kiefer_Knochen = 'Substantiv, maskulin, oder Substantiv, Neutrum' (the jaw). The stored row is Kiefer/Kiefern/f = the TREE. The famous ['Kiefer','Kiefern','m'] jawbone defect is GONE. (Bare /rechtschreibung/Kiefer 404s — the homograph is why, and it is why earlier reviewers gave up here.) Separate art note: both drawings read more like a fir (Tanne) than a pine (Kiefer, which has a bare trunk and a tufted top) — but the word follows the key.", "source": "https://www.duden.de/rechtschreibung/Kiefer_Baum" },
+      "plural": { "verdict": "OK", "reason": "Duden: die Kiefern. Note the prior de-08 file marked this a FIX to 'Kiefern' — the value it ALREADY holds; a no-op 'correction' that shows cur.p was never read.", "source": "https://www.duden.de/rechtschreibung/Kiefer_Baum" },
+      "gender": { "verdict": "OK", "reason": "f is what makes this the pine and not the jaw. Gender IS the meaning here — the highest-value check in the batch, and it passes.", "source": "https://www.duden.de/rechtschreibung/Kiefer_Baum" }
     },
     {
       "key": "pineapple",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK",
-        "source": "Duden"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "fruits/pineapple@2x.webp — ONE pineapple, yellow/orange diamond-latticed body, dark green spiky crown (also At the Supermarket/pineapple, summer/pineapple, fruits bw/pineapple)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Duden: 'Plural: die Ananasse, Ananas' — the ZERO PLURAL is attested. Per the brief this is OK, not NO_PLURAL: a plural exists, it merely looks identical.", "source": "https://www.duden.de/rechtschreibung/Ananas" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pinecone",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "camping/pinecone@2x.webp — ONE conifer cone, brown/orange overlapping scales, short stalk (also winter/pinecone, miscellaneous/pinecone). Botanically unidentifiable — a generic cone.",
+      "singular": { "verdict": "OK", "reason": "Correct enough to ship, but SURFACING a real tension rather than silently passing it. Duden defines Tannenzapfen strictly as 'zapfenförmige, verholzte Frucht DER TANNE' — the FIR's cone. The key is `pinecone`, whose strict equivalent is Kiefernzapfen, and `pine-tree` in this same batch is Kiefer — so the catalog says Kiefer for the tree and Tannenzapfen for its cone. I do NOT rule FIX: Tannenzapfen is the everyday German word any child uses for any conifer cone, the art is a generic cone, and Kiefernzapfen would be a DIFFERENT LEMMA (which the taxonomy puts under HOLD, not FIX). Recommend the operator decide whether the Kiefer/Tanne pair should be harmonised catalog-wide; that is a lemma decision above a form audit.", "source": "https://www.duden.de/rechtschreibung/Tannenzapfen" },
+      "plural": { "verdict": "OK", "reason": "zero plural — der Tannenzapfen → die Tannenzapfen.", "source": "https://www.duden.de/rechtschreibung/Tannenzapfen" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pink",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "NO_PLURAL",
-        "reason": "colour noun; no plural in this use. p = s is already correctly encoded"
-      },
-      "gender": {
-        "verdict": "FIX",
-        "correct": "n",
-        "reason": "nominalised colour names are neuter (das Blau, das Braun) — Duden: das Rosa; 'der Rosa' does not exist",
-        "source": "Duden"
-      }
+      "image_seen": "colors/pink@2x.webp — ONE pink teardrop/paint-drop shape with a magenta edge and a white highlight",
+      "singular": { "verdict": "OK", "reason": "Duden: rosa is an 'indeklinables Adjektiv' — correct for the colour. The capitalisation follows the colors theme's display convention (Duden also has das Rosa, the colour noun), so the capital is a rendering convention, not a grammar error." },
+      "plural": { "verdict": "OK", "reason": "category=adjective → no plural; the field correctly mirrors the singular rather than inventing one." },
+      "gender": { "verdict": "OK", "reason": "category=adjective → gender null is correct.", "source": "https://www.duden.de/rechtschreibung/rosa" }
     },
     {
       "key": "pinwheel",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "toys bw 2/pinwheel@2x.webp — B&W line art, ONE CHILD'S PINWHEEL TOY: four curved vanes around a central boss, mounted on a thin stick with a rounded grip (no colour version exists). Unambiguously the toy, and it sits in the `toys` theme.",
+      "singular": { "verdict": "HOLD", "reason": "🔴 DUDEN CONTRADICTS THE STORED WORD. I expected to pass this and fetched anyway; the prior de-08 file passed it OK/OK/OK. Duden's Windrad entry has exactly ONE Bedeutung: 'KRAFTMASCHINE zum Antreiben anderer Maschinen, Generatoren o. Ä. ... durch den Wind angetrieben wird' — a wind TURBINE. The toy sense is not there. It is a separate headword: WINDRÄDCHEN = 'SPIELZEUG FÜR KLEINE KINDER, bei dem sich ein drehbar an einem STÖCKCHEN befestigtes kleines Rad mit Flügeln aus leichtem, buntem Material im Wind dreht' — a verbatim description of this picture, stick and all. So a 3–7-year-old is shown a paper toy and taught the dictionary word for a power-generating machine. HOLD not FIX because Windrad→Windrädchen changes the LEMMA (and its plural: die Windrädchen, NOT die Windräder), which the taxonomy puts outside a pure form correction. RECOMMEND: singular → Windrädchen, plural → Windrädchen, gender stays n. Caveat recorded honestly: colloquial German does use Windrad for the toy, so this is a Duden-strictness call for the operator, not an outright garbage word like pepper→Pfeffer.", "source": "https://www.duden.de/rechtschreibung/Windraedchen" },
+      "plural": { "verdict": "HOLD", "reason": "Contingent on the singular ruling. As stored, Windräder is the CORRECT plural of Windrad (Duden: das Windrad, Plural die Windräder — and the umlaut is right, which the builder cannot normally produce). But if the lemma moves to Windrädchen the plural must become Windrädchen (diminutive -chen, zero plural). Holding rather than pluralising into a lemma that may change.", "source": "https://www.duden.de/rechtschreibung/Windrad" },
+      "gender": { "verdict": "OK", "reason": "n either way — das Windrad and das Windrädchen (all -chen diminutives are neuter), so the gender is safe regardless of how the lemma is resolved." }
     },
     {
       "key": "pipe-wrench",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "tools bw/pipe_wrench@2x.webp — B&W line art, ONE adjustable pipe wrench: angled jaws, knurled adjusting wheel, long handle (no colour version exists)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Rohrzange" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pitcher",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "kitchen tools/pitcher@2x.webp — ONE red-and-cream jug with a pouring spout and a large handle",
+      "singular": { "verdict": "OK", "reason": "Kanne correctly names the pictured jug (Krug would be an equally valid alternative; no change warranted)." },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Kanne" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pizza",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK",
-        "source": "Duden"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "At the Supermarket/pizza@2x.webp — ONE whole round pizza seen from above: golden crust, red sauce, cheese, tomato slices, basil leaves, peppercorns (also food bw/pizza)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Duden: 'Plural: die Pizzas, Pizzen' — the stored 'Pizzas' is attested and listed FIRST. Fetched rather than assumed, per the brief's no-class-rule-for-loans warning.", "source": "https://www.duden.de/rechtschreibung/Pizza" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "planet",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "space/planet@2x.webp — ONE ringed planet, orange/cream horizontal bands, dark red spots, dark grey ring system (Saturn-like) (also space bw/planet)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "weak noun — Duden: Genitiv des Planeten, Plural die Planeten.", "source": "https://www.duden.de/rechtschreibung/Planet" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "plant",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "nature bw/plant@2x.webp — B&W line art, ONE two-leaved seedling sprouting from a mound of soil (also household bw/plant, home and nature bw/plant; no colour version exists)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Pflanze" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "plate",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "kitchen tools/plate@2x.webp — ONE round coral/pink plate seen from directly above, with a wide rim (also around the house/plate, kitchen bw/plate)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "zero plural — der Teller → die Teller.", "source": "https://www.duden.de/rechtschreibung/Teller" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "play",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "NO_PLURAL",
-        "reason": "nominalised infinitive 'das Spielen' has no plural; p = s is already correctly encoded. (noImage/orphan — lowest priority; note en=[Play, Plays] could alternatively mean Theaterstück, but with no themes and no image the infinitive reading is the coherent one)"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "(no art — batch marks noImage:true, themes:[], type:null; confirmed no play@2x.webp under any theme directory)",
+      "singular": { "verdict": "OK", "reason": "das Spielen, the substantivized infinitive of spielen — correct for an activity key. No art exists, so nothing can be checked against a picture.", "source": "https://www.duden.de/rechtschreibung/spielen" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "Substantivized infinitive — das Spielen has no plural. The stored value mirrors the singular, which is the safe rendering, but the field must never be pluralized. ⚠ classification says countable-thing/hasPlural=true — with no art and type:null that classification is unsupported; flagging rather than following it.", "source": "https://www.duden.de/rechtschreibung/spielen" },
+      "gender": { "verdict": "OK", "reason": "Substantivized infinitives are always neuter." }
     },
     {
       "key": "playground",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "activities/playground@2x.webp — ONE playground climbing frame: two roofed towers (red and green), yellow panel with a porthole, a blue slide and a long red slide",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "umlaut plural Platz→Plätze, correct.", "source": "https://www.duden.de/rechtschreibung/Spielplatz" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "plesiosaurus",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "FIX",
-        "correct": "Plesiosaurier",
-        "reason": "-saurus forms the plural in -saurier (Duden: Tyrannosaurus, der; -, ...rier); 'Plesiosauren' is not the German form",
-        "source": "Duden"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "dinosaurs/plesiosaurus@2x.webp — ONE green cartoon dinosaur STANDING ON FOUR LEGS ON LAND with a long neck and small back plates. ART CONCERN: a Plesiosaurus is a MARINE reptile with four FLIPPERS; this art gives it legs and puts it on land.",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "The stored value is ALREADY 'Plesiosaurier' and is correct — verified against cur.p. Duden has no entry. The stem IS -saurus (Greek sauros), so -saurier applies legitimately, unlike the brief's carnotaurus (Latin taurus) exception.", "source": "https://www.duden.de/rechtschreibung/Saurier" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pliers",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "tools/pliers@2x.webp — ONE pair of pliers/side-cutters with yellow handles and red insulation collars, open jaws (also tools bw/pliers)",
+      "singular": { "verdict": "OK", "reason": "The brief's 'English pluralia tantum over ONE object' inverse trap: EN pliers is plural but names one tool. de Zange is a true singular for that one tool — correct." },
+      "plural": { "verdict": "OK", "reason": "die Zangen is CORRECT and must not be ruled NO_PLURAL/PLURALIA_TANTUM just because English cannot say 'a pliers'. Ruling otherwise here would destroy a real plural.", "source": "https://www.duden.de/rechtschreibung/Zange" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "plum",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "fruits/plum@2x.webp — ONE deep red/crimson plum, glossy, with a green leaf and short stem (also At the Supermarket/plum)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Pflaume" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "plum-tree",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "tree/plum@2x.webp — ONE tree with a brown trunk and a green crown bearing seven red plums (filename trap: `tree` theme drops the _tree suffix)",
+      "singular": { "verdict": "OK", "reason": "Pflaumenbaum (with the -n- linking element) — Duden confirms; contrast Birnbaum, which takes none. The pair is irregular and both are stored correctly." },
+      "plural": { "verdict": "OK", "reason": "umlaut plural Baum→Bäume, correct.", "source": "https://www.duden.de/rechtschreibung/Pflaumenbaum" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "plunger",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "tools/plunger@2x.webp — ONE toilet plunger: teal rubber cup, pale wooden shaft, red knob handle",
+      "singular": { "verdict": "OK", "reason": "Saugglocke is the standard term (colloquial Pümpel); Duden confirms the headword." },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Saugglocke" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "polar-bear",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "zoo animals/polar_bear@2x.webp — ONE white polar bear standing in profile, black nose and claws, pink cheek (also winter/polar_bear)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "weak noun — Duden: Genitiv des Eisbären, Plural die Eisbären.", "source": "https://www.duden.de/rechtschreibung/Eisbaer" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "police-car",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "vehicles/police_car@2x.webp — ONE navy-and-white police car with a blue/red light bar and 'Police' lettering on the door (also vehicles bw 2/police_car)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Polizeiauto" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "police-officer",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "occupations/police_officer@2x.webp — head-and-shoulders of ONE male police officer in a blue uniform with a peaked cap, tie, gold shield badge and shoulder patches",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "weak noun — Duden: Genitiv des Polizisten, Plural die Polizisten.", "source": "https://www.duden.de/rechtschreibung/Polizist" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pomegranate",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "fruits/pomegranate@2x.webp — ONE red pomegranate, glossy, with a brown pointed crown/calyx (also fruits bw/pomegranate)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "umlaut plural Apfel→Äpfel, correct despite the builder's documented umlaut gap.", "source": "https://www.duden.de/rechtschreibung/Granatapfel" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pony",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK",
-        "source": "Duden"
-      }
+      "image_seen": "farm animals bw/pony@2x.webp — B&W line art, ONE small pony standing in profile: forelock, mane, flowing tail, hooves (also animals bw 2/pony, animals bw 5/pony; no colour version exists)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Pony_Pferd" },
+      "gender": { "verdict": "OK", "reason": "GENDER-IS-THE-MEANING check passed — a second Kiefer-class homograph, caught and verified: Duden splits DAS Pony (Pferd einer kleinen Rasse — this one, n) from DER Pony (in die Stirn gekämmtes Haar = a fringe/bangs, m). n is correct for the pictured horse; m would have labelled the picture a HAIRCUT.", "source": "https://www.duden.de/rechtschreibung/Pony_Pferd" }
     },
     {
       "key": "pool",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "summer/pool@2x.webp — ONE rectangular in-ground swimming pool: blue water, pale tiled surround, two chrome ladder rails",
+      "singular": { "verdict": "OK", "reason": "Passable but flagged. Duden defines Schwimmbad as an 'ANLAGE mit [einem] Schwimmbecken [Umkleidekabinen, Liegewiese(n) o. Ä.]' — a whole facility. The picture is a bare basin, i.e. a Schwimmbecken or Pool. Not ruled FIX because both alternatives are DIFFERENT LEMMAS (HOLD territory) and Schwimmbad is what a German child says about going swimming; recording the mismatch for the operator rather than passing it silently.", "source": "https://www.duden.de/rechtschreibung/Schwimmbad" },
+      "plural": { "verdict": "OK", "reason": "umlaut plural Bad→Bäder, correct.", "source": "https://www.duden.de/rechtschreibung/Schwimmbad" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "popcorn",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "NO_PLURAL",
-        "reason": "mass noun (das Popcorn, -s); no plural. p = s is already correctly encoded",
-        "source": "Duden"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "At the Supermarket/popcorn@2x.webp — ONE red-and-white striped carton heaped with popped popcorn (also food bw/popcorn)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "Duden lists Genitiv only ('das Popcorn; Genitiv: des Popcorns') and NO plural — the dictionary confirms the mass classification. Note this is an EN loan and was fetched, not rule-guessed, per the brief.", "source": "https://www.duden.de/rechtschreibung/Popcorn" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "poplar-tree",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "tree/poplar@2x.webp — ONE tree with a brown forked trunk and a broad ROUND yellow-green crown (filename trap: `tree` theme drops the _tree suffix). ART CONCERN: poplars — especially the Lombardy poplar — are tall and columnar; this is drawn as a generic round-crowned tree.",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "-el noun that DOES take -n: Duden die Pappeln. The builder leaves -el unchanged by default, so this one is right despite that gap.", "source": "https://www.duden.de/rechtschreibung/Pappel" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "popsicle",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "NO_PLURAL",
-        "reason": "'Eis am Stiel' is invariant — the head 'Eis' is a mass noun (zwei Eis am Stiel). p = s is already correctly encoded"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "summer/popsicle@2x.webp — ONE tri-coloured ice lolly (red/teal/orange) on a wooden stick (also desserts and sweets/popsicle)",
+      "singular": { "verdict": "OK", "reason": "Eis am Stiel is the standard German for the depicted lolly. It is a multi-word phrase, which is why the plural field cannot simply take a suffix." },
+      "plural": { "verdict": "NO_PLURAL", "reason": "Duden marks the head noun explicitly: 'das Eis; Genitiv: des Eises (OHNE PLURAL)'. German counts these with the bare phrase (zwei Eis am Stiel), never *Eise am Stiel or *Eis am Stiele. The stored value mirrors the singular, which is the only safe rendering. ⚠ classification says hasPlural=true; Duden contradicts it and Duden wins.", "source": "https://www.duden.de/rechtschreibung/Eis_Gefrorenes" },
+      "gender": { "verdict": "OK", "reason": "n from das Eis." }
     },
     {
       "key": "porcupine",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "forest creatures/porcupine@2x.webp — ONE porcupine with a brown face, red cheeks and a dense mantle of black quills flecked red/cream (also animals bw 2/porcupine, zoo animals bw/porcupine)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Stachelschwein" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "porridge",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "NO_PLURAL",
-        "reason": "for the breakfast image 'Brei' is a mass noun; the existing plural 'Breie' only denotes kinds/types and must not be spoken for this picture. p = s is already correctly encoded"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "breakfast/porridge@2x.webp — ONE red bowl filled with cream-coloured porridge speckled with oat flakes",
+      "singular": { "verdict": "OK", "reason": "Correct for the picture, with a note: Haferbrei (or the loan Porridge) would be more precise for oat porridge specifically — Brei alone is the generic mush/puree and is also the word for baby food. Not ruled FIX because that is a different lemma (HOLD territory) and Brei is transparent for K-3.", "source": "https://www.duden.de/rechtschreibung/Brei" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "Duden DOES list 'die Breie' — but as with `paper` and `lettuce`, that plural is the sorts-of/varieties reading, not the depicted bowl of porridge, which is a mass (category=mass). The stored value already mirrors the singular; I am confirming it rather than importing a plural the depicted sense lacks.", "source": "https://www.duden.de/rechtschreibung/Brei" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "post-office",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "post office/post_office@2x.webp — ONE small white building with a red roof and chimney, green double doors, two windows, and a sign reading 'post office'",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "umlaut plural Amt→Ämter, correct despite the builder's documented umlaut gap.", "source": "https://www.duden.de/rechtschreibung/Postamt" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "postal-scale",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "(no art — batch marks noImage:true, themes:[]; confirmed no postal_scale@2x.webp under any theme directory)",
+      "singular": { "verdict": "OK", "reason": "Duden has Briefwaage as a headword (Substantiv, feminin). No art exists, so the lemma cannot be checked against a picture.", "source": "https://www.duden.de/rechtschreibung/Briefwaage" },
+      "plural": { "verdict": "OK", "reason": "Head noun Waage: die Waage → die Waagen, so Briefwaagen.", "source": "https://www.duden.de/rechtschreibung/Waage" },
+      "gender": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Briefwaage" }
     },
     {
       "key": "pot",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK",
-        "source": "Duden"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "kitchen tools/pot@2x.webp — ONE red round-bellied cooking pot with two small side handles and no lid (also around the house/pot, kitchen bw/pot, home bw/pot)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "umlaut plural Topf→Töpfe, correct.", "source": "https://www.duden.de/rechtschreibung/Topf" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "potato",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "vegetables/potato@2x.webp — ONE yellow-brown potato with darker speckles and eyes (also At the Supermarket/potato, vegetables bw/potato)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "-el noun that DOES take -n: Duden die Kartoffeln. Right despite the builder's -el gap.", "source": "https://www.duden.de/rechtschreibung/Kartoffel" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "potato-chips",
-      "singular": {
-        "verdict": "FIX",
-        "correct": "Kartoffelchip",
-        "reason": "plural in the singular field: 'Kartoffelchips' is the plural (Duden: Chip, der; -s, -s); the singular of the same lemma is 'der Kartoffelchip'. Same caveat as pasta — the supermarket image shows a mass, for which the plural is the natural spoken label",
-        "source": "Duden"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "At the Supermarket/potato_chips@2x.webp — ONE red bag of crisps with a window showing THREE overlapping yellow potato chips. A plural picture, as classification says.",
+      "singular": { "verdict": "FIX", "correct": "Kartoffelchips", "reason": "The plural-picture convention is broken here, and this batch contains its own controls. category=plural-picture means 'the label IS the plural' — and the two sibling plural-labels in this very batch obey it (peas → Erbsen/Erbsen; pretzels → Brezeln/Brezeln). potato-chips instead stores the SINGULAR 'Kartoffelchip', so the board would show a bag of crisps captioned with the word for ONE crisp. Duden backs the plural label independently: 'der Kartoffelchip; Plural: die Kartoffelchips (MEIST IM PLURAL)'. Same lemma, plural form → FIX, not HOLD. (The prior de-08 file 'fixed' this to 'Kartoffelchip' — the value it already held, a no-op.)", "source": "https://www.duden.de/rechtschreibung/Kartoffelchip" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "plural-picture → hasPlural=false; once the singular field carries the plural label, the plural field has nothing further to derive. The stored 'Kartoffelchips' is the correct form and would simply mirror the corrected singular.", "source": "https://www.duden.de/rechtschreibung/Kartoffelchip" },
+      "gender": { "verdict": "OK", "reason": "m from der Kartoffelchip.", "source": "https://www.duden.de/rechtschreibung/Kartoffelchip" }
     },
     {
       "key": "pottery",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "NO_PLURAL",
-        "reason": "themes=[activities] decides: 'das Töpfern' is a nominalised infinitive with no plural; p must equal s. The current 'Töpferei' is a different lemma (the craft/workshop)"
-      },
-      "gender": {
-        "verdict": "FIX",
-        "correct": "n",
-        "reason": "nominalised infinitives are without exception neuter: das Töpfern. The current 'f' belongs to the other lemma sitting in the p field (die Töpferei)",
-        "source": "Duden"
-      }
+      "image_seen": "activities/pottery@2x.webp — ONE decorated ceramic VASE/urn in red, yellow and navy bands. ART DEFECT (unflagged in the batch): this depicts the PRODUCT (a pot/vase), not the activity — the same art/key mismatch class as painting (a palette) and photography (a camera) in this theme.",
+      "singular": { "verdict": "OK", "reason": "Judged against the KEY per the operator ruling: pottery → das Töpfern, the substantivized infinitive, is correct for the activity. Duden's own entry for the verb uses the substantivized form in its examples ('durch Töpfern (a) herstellen').", "source": "https://www.duden.de/rechtschreibung/toepfern_herstellen_anfertigen" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "Substantivized infinitive — das Töpfern has no plural. ⚠ classification says countable-thing/hasPlural=true, derived from the VASE in the art; the key + Duden win.", "source": "https://www.duden.de/rechtschreibung/toepfern_herstellen_anfertigen" },
+      "gender": { "verdict": "OK", "reason": "Substantivized infinitives are always neuter." }
     },
     {
       "key": "present",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "christmas/present@2x.webp — ONE red gift box with pale spots, a green ribbon cross and a large red bow",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "source": "https://www.duden.de/rechtschreibung/Geschenk" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pretzel",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK",
-        "source": "Duden"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "bakery/pretzel@2x.webp — ONE golden knotted pretzel with salt grains and darker specks (also food bw/pretzel)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "✅ The builder's documented *Brezelne defect is GONE — Duden: 'die Brezel; Plural: die Brezeln'. Verified rather than assumed. (Duden also records österreichisch 'das Brezel; Plural: die Brezel'; the stored f/Brezeln is the Standarddeutsch primary, which is what this brief asks for.)", "source": "https://www.duden.de/rechtschreibung/Brezel" },
+      "gender": { "verdict": "OK", "reason": "f is the Standarddeutsch gender (Duden: 'Substantiv, feminin, oder Substantiv, Neutrum' — the neuter is marked österreichisch).", "source": "https://www.duden.de/rechtschreibung/Brezel" }
     },
     {
       "key": "pretzels",
-      "singular": {
-        "verdict": "FIX",
-        "correct": "Brezel",
-        "reason": "plural in the singular field (the defect class named in the brief): 'Brezeln' is the plural; the singular is 'die Brezel'",
-        "source": "Duden"
-      },
-      "plural": {
-        "verdict": "FIX",
-        "correct": "Brezeln",
-        "reason": "'Brezelne' is an invented form that does not exist in German (Duden: Brezel, die; -, -n)",
-        "source": "Duden"
-      },
-      "gender": {
-        "verdict": "FIX",
-        "correct": "f",
-        "reason": "die Brezel — feminine, not masculine",
-        "source": "Duden"
-      }
+      "image_seen": "At the Supermarket/pretzels@2x.webp — ONE single knotted pretzel, golden-brown with salt grains. Confirms the batch's ART_DEFECT note: the key is plural but the picture shows one. It is also near-identical to bakery/pretzel@2x.webp, so the two keys' arts do not differ in number at all.",
+      "singular": { "verdict": "OK", "reason": "🔴 I am OVERTURNING the prior de-08 verdict file, which ruled FIX 'Brezeln'→'Brezel'. The key IS `pretzels` and en is ['Pretzels','Pretzels'] — plural — so the label IS the plural and Brezeln correctly sits in the singular field, the same shape as peas→Erbsen. De-pluralizing it would follow the (defective) art instead of the key, which inverts the operator's standing ruling. ⚠ Note classification says category=countable-thing/hasPlural=true here, whereas peas gets plural-picture; the two plural keys are classified inconsistently." },
+      "plural": { "verdict": "NO_PLURAL", "reason": "The label is already the plural; there is nothing further to derive, and pluralising it again would manufacture garbage.", "source": "https://www.duden.de/rechtschreibung/Brezel" },
+      "gender": { "verdict": "OK", "reason": "f from die Brezel." }
     },
     {
       "key": "price-tag",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "At the Supermarket/price_tag@2x.webp — ONE yellow price tag with a red-rimmed eyelet and a black string, over a red tag behind",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Duden: die Preisschilder — the -er plural WITHOUT umlaut (Schild→Schilder). Correct.", "source": "https://www.duden.de/rechtschreibung/Preisschild" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "projector",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "classroom bw/projector@2x.webp — B&W line art, ONE box projector with a large round lens, vents, a dial and four feet (no colour version exists)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "-or → -oren with stress shift (like Traktor→Traktoren). Correct.", "source": "https://www.duden.de/rechtschreibung/Projektor" },
+      "gender": { "verdict": "OK" }
     },
     {
       "key": "pruning-shears",
-      "singular": {
-        "verdict": "OK"
-      },
-      "plural": {
-        "verdict": "OK"
-      },
-      "gender": {
-        "verdict": "OK"
-      }
+      "image_seen": "tools bw/pruning_shears@2x.webp — B&W line art, ONE pair of pruning shears/secateurs with curved blades and long handles (no colour version exists)",
+      "singular": { "verdict": "OK", "reason": "Another 'English pluralia tantum over ONE object' case: EN pruning shears is plural but names one tool; de Gartenschere is a true singular. Correct." },
+      "plural": { "verdict": "OK", "reason": "die Gartenscheren is a real plural and must not be ruled away on the strength of the English shape.", "source": "https://www.duden.de/rechtschreibung/Gartenschere" },
+      "gender": { "verdict": "OK" }
     }
   ]
 }

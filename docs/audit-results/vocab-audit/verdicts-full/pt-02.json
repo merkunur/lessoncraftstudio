@@ -1,0 +1,102 @@
+{
+ "locale": "pt",
+ "batch": "02",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "cinnamon-roll": {
+    "from": "Pões de canela",
+    "to": "Pães de canela",
+    "why": "Plural de 'pão' é irregular: pão→pães, não *pões",
+    "src": "Priberam: pão nome masculino, plural pães"
+   },
+   "dandelion": {
+    "from": "Dente-de-leões",
+    "to": "Dentes-de-leão",
+    "why": "Composto nome+prep+nome: só o primeiro elemento pluraliza (dentes-de-leão)",
+    "src": "regra de plural de compostos"
+   },
+   "deer": {
+    "from": "Cervos",
+    "to": "Veados",
+    "why": "Plural tem de derivar do singular dado 'Veado'; 'Cervos' é lema diferente (ART_DEFECT s/p)",
+    "src": "coerência singular/plural"
+   },
+   "closet": {
+    "from": "Armários",
+    "to": "Closets",
+    "why": "'Armários' é lema diferente do singular 'Closet' (estrangeirismo); plural = closets",
+    "src": "coerência singular/plural"
+   },
+   "dog": {
+    "from": "Cães",
+    "to": "Cachorros",
+    "why": "Plural tem de derivar do singular dado 'Cachorro' (registro BR); 'Cães' é plural de 'cão', lema diferente",
+    "src": "coerência singular/plural, registro BR"
+   },
+   "eight-ball": {
+    "from": "Bolas oitos",
+    "to": "Bolas oito",
+    "why": "'oito' é numeral em aposição, invariável; só 'bola' pluraliza",
+    "src": "regra de aposição numeral invariável"
+   },
+   "erlenmeyer-flask": {
+    "from": "Frascos Erlenmeyeres",
+    "to": "Frascos Erlenmeyer",
+    "why": "'Erlenmeyer' é epônimo/nome próprio, invariável; só 'frasco' pluraliza",
+    "src": "regra de nome próprio invariável"
+   }
+  },
+  "gender": {
+   "cheeks": {
+    "from": "m",
+    "to": "f",
+    "why": "'bochecha' é feminino (a bochecha)",
+    "src": "conhecimento nativo BR"
+   },
+   "chips": {
+    "from": "m",
+    "to": "f",
+    "why": "Núcleo 'batata' é feminino (a batata chips)",
+    "src": "conhecimento nativo BR"
+   },
+   "comet": {
+    "from": "f",
+    "to": "m",
+    "why": "'cometa' é masculino (o cometa), apesar da terminação -a",
+    "src": "Priberam: cometa nome masculino"
+   },
+   "chimney": {
+    "from": "m",
+    "to": "f",
+    "why": "'chaminé' é feminino (a chaminé)",
+    "src": "Priberam: chaminé nome feminino"
+   },
+   "cross": {
+    "from": "m",
+    "to": "f",
+    "why": "'cruz' é feminino (a cruz)",
+    "src": "Priberam: cruz nome feminino"
+   },
+   "crutches": {
+    "from": "m",
+    "to": "f",
+    "why": "'muleta' é feminino (a muleta)",
+    "src": "conhecimento nativo BR"
+   },
+   "curtains": {
+    "from": "m",
+    "to": "f",
+    "why": "'cortina' é feminino (a cortina)",
+    "src": "conhecimento nativo BR"
+   },
+   "dustpan": {
+    "from": "m",
+    "to": "f",
+    "why": "Núcleo 'pá' é feminino (a pá de lixo)",
+    "src": "conhecimento nativo BR"
+   }
+  }
+ }
+}

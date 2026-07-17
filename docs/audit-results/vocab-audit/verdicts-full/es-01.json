@@ -1,0 +1,17 @@
+{
+ "locale": "es",
+ "batch": "01",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "apple-pie": {
+    "from": "Payes de manzana",
+    "to": "Pays de manzana",
+    "why": "Head noun 'pay' (Mexican) pluralizes as 'pays', not 'payes'; the modifier 'de manzana' is invariable.",
+    "src": "WordReference: Inflexiones de 'pay' (nm): mpl: pays"
+   }
+  },
+  "gender": {}
+ }
+}

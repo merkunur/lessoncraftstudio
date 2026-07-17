@@ -1,0 +1,24 @@
+{
+ "locale": "fi",
+ "batch": "04",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "liberty": {"from": "Vapaukset", "to": "Vapaudet", "why": "vapaus is type-40 abstract -Us noun (kalleus type); nom.pl. = vapaudet, not the vastaus-type -kset", "src": "KS vapaus40 (gen vapauden)"},
+   "life-preserver": {"from": "Pelastusrengaat", "to": "Pelastusrenkaat", "why": "rengas nom.pl. = renkaat (ng->nk reverse gradation); builder skipped gradation", "src": "KS rengas41*G (Ketjun renkaat)"},
+   "lip": {"from": "Huulit", "to": "Huulet", "why": "huuli is consonant-stem -i (tuuli type 24); nom.pl. = huulet not huulit", "src": "KS huuli24 (Hapyhuulet)"},
+   "macaron": {"from": "Macaromet", "to": "Macaronit", "why": "loanword macaron (=makroni), risti type 5; nom.pl. = macaronit; builder produced garbage n->m form", "src": "KS macaron5"},
+   "medicine": {"from": "Laakeet", "to": "Laakkeet", "why": "laake type 48; k->kk strengthening; nom.pl. = laakkeet", "src": "KS laake48*A (talouspoliittiset laakkeet)"},
+   "mitten": {"from": "Kinnaat", "to": "Kintaat", "why": "kinnas nom.pl. = kintaat (nn->nt gradation); builder skipped gradation", "src": "KS kinnas41*J"},
+   "mountain": {"from": "Vuorit", "to": "Vuoret", "why": "vuori (mountain) type 26; nom.pl. = vuoret (vuorit = 'linings', wrong sense)", "src": "KS vuori26 (taivutus: ...vuoret)"},
+   "muffin-tin": {"from": "Muffinivuokat", "to": "Muffinivuoat", "why": "vuoka nom.pl. = vuoat (k->0 gradation); builder kept k", "src": "KS vuoka10*D (taivutus: vuoan, vuoat)"},
+   "mushroom": {"from": "Sienit", "to": "Sienet", "why": "sieni type 26; nom.pl. = sienet not sienit", "src": "KS sieni26 (marinoidut sienet)"},
+   "nativity": {"from": "Jouluseimit", "to": "Jouluseimet", "why": "seimi type 7; nom.pl. = seimet not seimit", "src": "KS seimi7 (seimeen)"},
+   "oak-tree": {"from": "Tammit", "to": "Tammet", "why": "tammi (oak) type 7; nom.pl. = tammet not tammit", "src": "KS tammi7"},
+   "oven-mitt": {"from": "Patakinnaat", "to": "Patakintaat", "why": "kinnas nom.pl. = kintaat (nn->nt gradation); same as mitten", "src": "KS kinnas41*J"},
+   "parallelogram": {"from": "Suunnikaat", "to": "Suunnikkaat", "why": "-kas noun; k->kk strengthening; nom.pl. = suunnikkaat", "src": "KS suunnikas41*A"}
+  },
+  "gender": {}
+ }
+}

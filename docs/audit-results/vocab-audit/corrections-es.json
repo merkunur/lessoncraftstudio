@@ -1,39 +1,192 @@
 {
-  "corrections": {
-    "singular": {},
-    "plural": {
-      "picnic": {
-        "from": "Picnices",
-        "to": "Picnics",
-        "why": "Loan 'picnic' pluralizes -s, not -es; WordReference attests mpl: picnics",
-        "src": "https://www.wordreference.com/definicion/picnic"
-      }
-    },
-    "gender": {
-      "pliers": {
-        "from": "m",
-        "to": "f",
-        "why": "'pinza' is nf (las pinzas); builder defaulted plural-form label to m",
-        "src": "https://www.wordreference.com/definicion/pinzas"
-      },
-      "tongs": {
-        "from": "m",
-        "to": "f",
-        "why": "'pinza' is nf (las pinzas); builder defaulted plural-form label to m",
-        "src": "https://www.wordreference.com/definicion/pinzas"
-      },
-      "stairs": {
-        "from": "m",
-        "to": "f",
-        "why": "'escalera' is nf (las escaleras)",
-        "src": "https://www.wordreference.com/definicion/escaleras"
-      },
-      "tights": {
-        "from": "m",
-        "to": "f",
-        "why": "'media' (stocking) is nf (las medias)",
-        "src": "https://www.wordreference.com/definicion/media"
-      }
-    }
+ "locale": "es",
+ "reverified": true,
+ "corrections": {
+  "singular": {
+   "folder": {
+    "from": "Folder",
+    "to": "Carpeta",
+    "why": "Masculine anglicism singular 'Folder' clashes with the feminine plural 'Carpetas' and g='f'; singular aligned to the same dictionary lemma (la carpeta / las carpetas). Mexican-register valid classroom term.",
+    "src": "internal-consistency (p=Carpetas, g=f)"
+   }
+  },
+  "plural": {
+   "apple-pie": {
+    "from": "Payes de manzana",
+    "to": "Pays de manzana",
+    "why": "Head noun 'pay' (Mexican) pluralizes as 'pays', not 'payes'; the modifier 'de manzana' is invariable.",
+    "src": "WordReference: Inflexiones de 'pay' (nm): mpl: pays"
+   },
+   "erlenmeyer-flask": {
+    "from": "Matraces Erlenmeyeres",
+    "to": "Matraces Erlenmeyer",
+    "why": "matraz->matraces correct (-z->-ces), but 'Erlenmeyer' is an invariable proper-name modifier; machine pluralized it to the non-word 'Erlenmeyeres'. Should stay invariable.",
+    "src": "WordReference: Inflexiones de 'matraz' (nm): mpl: matraces"
+   },
+   "guinea-pig": {
+    "from": "Conejillos de Indias",
+    "to": "Cuyos",
+    "why": "Plural was a different lemma than the singular 'Cuyo'; plural must match the singular lemma (el cuyo / los cuyos, +s).",
+    "src": "WordReference: cuyo (noun sense = conejillo de Indias); regular +s"
+   },
+   "kite": {
+    "from": "Cometas",
+    "to": "Papalotes",
+    "why": "Singular is Mexican 'Papalote' but plural was the Peninsular lemma 'Cometas'; plural must match the singular. Dict gives mpl papalotes.",
+    "src": "WordReference: papalote (nm) mpl: papalotes"
+   },
+   "pie": {
+    "from": "Payes",
+    "to": "Pays",
+    "why": "MX 'pay' (pie) pluralizes as loan +s, not native -yes; 'Payes' is incorrect",
+    "src": "WordReference: Inflexiones de 'pay' (nm): mpl: pays"
+   },
+   "manatee": {
+    "from": "Manatís",
+    "to": "Manatíes",
+    "why": "noun ending in stressed -í takes -es plural; 'Manatís' is the colloquial variant, dict prefers manatíes",
+    "src": "WordReference: Inflexiones de 'manatí' (nm): mpl: manatíes"
+   },
+   "scooter": {
+    "from": "Scooteres",
+    "to": "Scooters",
+    "why": "unadapted English loan; Mexican plural adds -s, not -es (*scooteres is malformed)",
+    "src": "RAE loanword-plural rule / native"
+   },
+   "snorkel": {
+    "from": "Snorkeles",
+    "to": "Snorkels",
+    "why": "unadapted loan keeping English spelling takes -s; *snorkeles is not standard (RAE adapts as esnórquel/esnórqueles)",
+    "src": "RAE / native"
+   },
+   "pretzel": {
+    "from": "Pretzeles",
+    "to": "Pretzels",
+    "why": "unadapted German/English loan; natural plural is pretzels, not *pretzeles (not in RAE)",
+    "src": "WordReference 404 / native"
+   },
+   "swordfish": {
+    "from": "Peces espadas",
+    "to": "Peces espada",
+    "why": "N+N apposition compound: only the head noun pluralizes; second element stays singular. RAE/DPD: 'pez espada' → 'peces espada'.",
+    "src": "wordreference/DPD"
+   },
+   "teddy-bear": {
+    "from": "Osos de peluche",
+    "to": "Ositos de peluche",
+    "why": "Singular is diminutive 'osito' but plural dropped the diminutive; s/p must agree → 'ositos de peluche'.",
+    "src": "morphology"
+   },
+   "tuna": {
+    "from": "Atúnes",
+    "to": "Atunes",
+    "why": "Singular 'atún' is aguda ending in -n (accent required); plural 'atunes' is llana ending in -s (no accent).",
+    "src": "wordreference"
+   },
+   "turkey": {
+    "from": "Pavos",
+    "to": "Guajolotes",
+    "why": "Singular is Mexican-register 'guajolote'; plural must match the same lemma → 'guajolotes' (not the peninsular 'pavos').",
+    "src": "morphology/register"
+   },
+   "vase": {
+    "from": "Jarrones",
+    "to": "Floreros",
+    "why": "Singular 'florero' but plural switched lemma to 'jarrones'; s/p must agree → 'floreros'.",
+    "src": "morphology"
+   }
+  },
+  "gender": {
+   "cross": {
+    "from": "m",
+    "to": "f",
+    "why": "cruz is feminine (la cruz); current 'm' is wrong. Singular/plural (Cruz/Cruces) already correct.",
+    "src": "WordReference: Inflexiones de 'cruz' (nf): fpl: cruces"
+   },
+   "kite": {
+    "from": "f",
+    "to": "m",
+    "why": "'Papalote' is masculine (el papalote); the f gender came from the mismatched Peninsular 'cometa' (f).",
+    "src": "WordReference: papalote (nm)"
+   },
+   "pyramid": {
+    "from": "m",
+    "to": "f",
+    "why": "la pirámide is feminine",
+    "src": "native/RAE"
+   },
+   "quail": {
+    "from": "m",
+    "to": "f",
+    "why": "la codorniz is feminine",
+    "src": "WordReference codorniz / native"
+   },
+   "salt": {
+    "from": "m",
+    "to": "f",
+    "why": "la sal is feminine",
+    "src": "WordReference sal / native"
+   },
+   "sickle": {
+    "from": "m",
+    "to": "f",
+    "why": "la hoz is feminine",
+    "src": "WordReference hoz / native"
+   },
+   "sandals": {
+    "from": "m",
+    "to": "f",
+    "why": "la sandalia is feminine",
+    "src": "native/RAE"
+   },
+   "slippers": {
+    "from": "m",
+    "to": "f",
+    "why": "la pantufla is feminine",
+    "src": "native/RAE"
+   },
+   "porridge": {
+    "from": "m",
+    "to": "f",
+    "why": "las gachas is feminine",
+    "src": "native/RAE"
+   },
+   "potato-chips": {
+    "from": "m",
+    "to": "f",
+    "why": "papas fritas / la papa is feminine",
+    "src": "native/RAE"
+   },
+   "snow-boots": {
+    "from": "m",
+    "to": "f",
+    "why": "botas / la bota is feminine",
+    "src": "native/RAE"
+   },
+   "pruning-shears": {
+    "from": "m",
+    "to": "f",
+    "why": "tijeras / la tijera is feminine (cf. scissors already f)",
+    "src": "native/RAE"
+   },
+   "santa": {
+    "from": "f",
+    "to": "m",
+    "why": "Santa Claus is a male referent; el Santa Claus",
+    "src": "native"
+   },
+   "santa-claus": {
+    "from": "f",
+    "to": "m",
+    "why": "Santa Claus is a male referent; el Santa Claus",
+    "src": "native"
+   },
+   "vegetables": {
+    "from": "m",
+    "to": "f",
+    "why": "'verdura' is feminine (la verdura / las verduras); WordReference marks (nf).",
+    "src": "wordreference"
+   }
   }
+ }
 }

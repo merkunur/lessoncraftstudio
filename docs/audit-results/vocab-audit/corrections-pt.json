@@ -1,81 +1,474 @@
 {
-  "corrections": {
-    "singular": {},
-    "plural": {
-      "cauliflower": {
-        "from": "Couve-flores",
-        "to": "Couves-flores",
-        "why": "compound noun+noun; head element pluralizes. Priberam: 'couves-flor ou couves-flores'",
-        "src": "https://dicionario.priberam.org/couve-flor"
-      },
-      "leek": {
-        "from": "Alho-porós",
-        "to": "Alhos-porós",
-        "why": "compound; head noun pluralizes. Priberam Plural: alhos-porós",
-        "src": "https://dicionario.priberam.org/alho-poró"
-      },
-      "pretzel": {
-        "from": "Pretzéis",
-        "to": "Pretzels",
-        "why": "English loan; builder misapplied -l->-éis. Priberam Plural: pretzels",
-        "src": "https://dicionario.priberam.org/pretzel"
-      },
-      "snorkel": {
-        "from": "Snorkéis",
-        "to": "Snorkels",
-        "why": "English loan; builder misapplied -l->-éis. Priberam Plural: snorkels",
-        "src": "https://dicionario.priberam.org/snorkel"
-      },
-      "closet": {
-        "from": "Armários",
-        "to": "Closets",
-        "why": "plural did not even match singular 'Closet'. Priberam Plural: closets",
-        "src": "https://dicionario.priberam.org/closet"
-      },
-      "rainbow": {
-        "from": "Arco-íris",
-        "to": "Arcos-íris",
-        "why": "was invariant (p===s); compound head pluralizes. Priberam Plural: arcos-íris",
-        "src": "https://dicionario.priberam.org/arco-íris"
-      },
-      "phlox": {
-        "from": "Floxs",
-        "to": "Flox",
-        "why": "'Floxs' is impossible in pt; nouns ending in -x are invariable (tórax/ônix). Priberam headword 'flox' shows no distinct plural",
-        "src": "https://dicionario.priberam.org/flox"
-      },
-      "kettlebell": {
-        "from": "Kettlebelis",
-        "to": "Kettlebells",
-        "why": "'Kettlebelis' is a builder artifact; English loan takes +s like all Priberam-attested sibling loans (bagel->bagels, snorkel->snorkels, pretzel->pretzels)",
-        "src": "https://dicionario.priberam.org/snorkel"
-      }
-    },
-    "gender": {
-      "map": {
-        "from": "f",
-        "to": "m",
-        "why": "'mapa' is masculine (o mapa). Priberam: nome masculino",
-        "src": "https://dicionario.priberam.org/mapa"
-      },
-      "stairs": {
-        "from": "m",
-        "to": "f",
-        "why": "'escada' is feminine (a escada). Priberam: nome feminino",
-        "src": "https://dicionario.priberam.org/escada"
-      },
-      "pickup-truck": {
-        "from": "m",
-        "to": "f",
-        "why": "'picape' is feminine in BR (a picape). Priberam: nome feminino",
-        "src": "https://dicionario.priberam.org/picape"
-      },
-      "van": {
-        "from": "m",
-        "to": "f",
-        "why": "'van' is feminine (a van). Priberam: nome feminino, Plural: vans",
-        "src": "https://dicionario.priberam.org/van"
-      }
-    }
+ "locale": "pt",
+ "reverified": true,
+ "corrections": {
+  "singular": {
+   "pear": {
+    "from": "Pêra",
+    "to": "Pera",
+    "why": "Circumflex dropped by the 1990 Orthographic Agreement; canonical spelling is 'pera'",
+    "src": "Priberam: entry lemma 'pera' — nome feminino (no accent)"
+   }
+  },
+  "plural": {
+   "beetle": {
+    "from": "Escaravelhos",
+    "to": "Besouros",
+    "why": "Plural must be of the singular lemma 'Besouro' (besouros). 'Escaravelhos' is a plural of a different synonym (escaravelho), a lemma mismatch.",
+    "src": "Priberam besouro/escaravelho"
+   },
+   "bun": {
+    "from": "Pãozinhos",
+    "to": "Pãezinhos",
+    "why": "Diminutive of pão pluralizes the root: pão→pães, so pãozinho→pãezinhos.",
+    "src": "Priberam pãozinho: 'Plural: pãezinhos.'"
+   },
+   "camper": {
+    "from": "Traileres",
+    "to": "Trailers",
+    "why": "Loan word 'trailer' takes the English-style plural 'trailers', not a Portuguese -es plural.",
+    "src": "Priberam trailer: 'Plural: trailers.'"
+   },
+   "cinnamon-roll": {
+    "from": "Pões de canela",
+    "to": "Pães de canela",
+    "why": "Plural de 'pão' é irregular: pão→pães, não *pões",
+    "src": "Priberam: pão nome masculino, plural pães"
+   },
+   "dandelion": {
+    "from": "Dente-de-leões",
+    "to": "Dentes-de-leão",
+    "why": "Composto nome+prep+nome: só o primeiro elemento pluraliza (dentes-de-leão)",
+    "src": "regra de plural de compostos"
+   },
+   "deer": {
+    "from": "Cervos",
+    "to": "Veados",
+    "why": "Plural tem de derivar do singular dado 'Veado'; 'Cervos' é lema diferente (ART_DEFECT s/p)",
+    "src": "coerência singular/plural"
+   },
+   "dog": {
+    "from": "Cães",
+    "to": "Cachorros",
+    "why": "Plural tem de derivar do singular dado 'Cachorro' (registro BR); 'Cães' é plural de 'cão', lema diferente",
+    "src": "coerência singular/plural, registro BR"
+   },
+   "eight-ball": {
+    "from": "Bolas oitos",
+    "to": "Bolas oito",
+    "why": "'oito' é numeral em aposição, invariável; só 'bola' pluraliza",
+    "src": "regra de aposição numeral invariável"
+   },
+   "erlenmeyer-flask": {
+    "from": "Frascos Erlenmeyeres",
+    "to": "Frascos Erlenmeyer",
+    "why": "'Erlenmeyer' é epônimo/nome próprio, invariável; só 'frasco' pluraliza",
+    "src": "regra de nome próprio invariável"
+   },
+   "frog": {
+    "from": "Sapos",
+    "to": "Rãs",
+    "why": "Singular is 'Rã' but plural stored 'Sapos' (= toads, wrong lemma & gender). Plural of rã is rãs.",
+    "src": "native/lemma-consistency"
+   },
+   "gingerbread": {
+    "from": "Pões de gengibre",
+    "to": "Pães de gengibre",
+    "why": "'Pões' is not a valid plural of pão; pão→pães (irregular -ão→-ães).",
+    "src": "native/priberam"
+   },
+   "judge": {
+    "from": "Juizes",
+    "to": "Juízes",
+    "why": "Plural of juiz carries the accent: juízes.",
+    "src": "native/priberam(200)"
+   },
+   "gopher": {
+    "from": "Esquilo-terrestres",
+    "to": "Esquilos-terrestres",
+    "why": "Noun+adjective compound: both elements pluralize (esquilos-terrestres).",
+    "src": "native/compound-plural"
+   },
+   "hermit-crab": {
+    "from": "Caranguejo-eremitas",
+    "to": "Caranguejos-eremitas",
+    "why": "Appositive N+N compound: both elements pluralize (caranguejos-eremitas).",
+    "src": "native/compound-plural"
+   },
+   "kingfisher": {
+    "from": "Martim-pescadores",
+    "to": "Martins-pescadores",
+    "why": "Attested plural pluralizes both elements: martins-pescadores.",
+    "src": "native/priberam"
+   },
+   "manatee": {
+    "from": "Peixe-bois",
+    "to": "Peixes-bois",
+    "why": "Noun+noun compound: both elements pluralize",
+    "src": "Priberam peixe-boi — Plural: peixes-bois ou peixes-boi"
+   },
+   "millipede": {
+    "from": "Piolho-de-cobras",
+    "to": "Piolhos-de-cobra",
+    "why": "Noun+prep phrase: only the first element pluralizes",
+    "src": "Priberam piolho-de-cobra — Plural: piolhos-de-cobra"
+   },
+   "morning-glory": {
+    "from": "Glória-da-manhãs",
+    "to": "Glórias-da-manhã",
+    "why": "Noun+prep phrase (glória + da manhã): only first element pluralizes",
+    "src": "Priberam glória — nome feminino (pl. glórias); noun+de compound rule"
+   },
+   "nightstand": {
+    "from": "Criado-mudos",
+    "to": "Criados-mudos",
+    "why": "Noun+adjective compound: both elements pluralize",
+    "src": "Priberam criado-mudo — Plural: criados-mudos"
+   },
+   "lilac": {
+    "from": "Liláses",
+    "to": "Lilases",
+    "why": "Plural of oxytone -ás adds -es; stress shifts to paroxytone so acute drops",
+    "src": "Priberam lilás — Plural: lilases"
+   },
+   "pear": {
+    "from": "Pêras",
+    "to": "Peras",
+    "why": "Follows corrected unaccented singular 'pera'",
+    "src": "Priberam: lemma 'pera' — no circumflex"
+   },
+   "puffin": {
+    "from": "Papagaio-do-mares",
+    "to": "Papagaios-do-mar",
+    "why": "Compound noun + prepositional phrase (papagaio-do-mar): only the first noun element pluralizes; the de-phrase stays invariant.",
+    "src": "grammar-rule"
+   },
+   "seahorse": {
+    "from": "Cavalo-marinhos",
+    "to": "Cavalos-marinhos",
+    "why": "Noun+adjective compound: both elements pluralize. Matches the sibling key 'sea-horse' which already has 'Cavalos-marinhos'.",
+    "src": "grammar-rule/sibling-key"
+   },
+   "snowdrop": {
+    "from": "Flor-de-neves",
+    "to": "Flores-de-neve",
+    "why": "Compound flor-de-neve: pluralize the head noun (flor->flores); the de-neve phrase stays invariant.",
+    "src": "grammar-rule"
+   },
+   "robin": {
+    "from": "Pintarroxos",
+    "to": "Piscos-de-peito-ruivo",
+    "why": "Lemma mismatch: plural was a different bird (pintarroxo) than the singular 'Pisco-de-peito-ruivo'. Plural must be that of the singular lemma; compound head pisco->piscos.",
+    "src": "grammar-rule"
+   },
+   "rock": {
+    "from": "Rochas",
+    "to": "Pedras",
+    "why": "Lemma mismatch: singular 'Pedra' but plural given as 'Rochas' (a different word, rocha). Plural of pedra is pedras.",
+    "src": "grammar-rule"
+   },
+   "snake": {
+    "from": "Serpentes",
+    "to": "Cobras",
+    "why": "Lemma mismatch: singular 'Cobra' but plural given as 'Serpentes' (different word). Plural of cobra is cobras.",
+    "src": "grammar-rule"
+   },
+   "spirit-level": {
+    "from": "Nívéis de bolha",
+    "to": "Níveis de bolha",
+    "why": "accent typo; nível → níveis (no acute on i)",
+    "src": "Priberam: nível, Plural: níveis"
+   },
+   "swordfish": {
+    "from": "Peixe-espadas",
+    "to": "Peixes-espada",
+    "why": "compound noun+noun: head element pluralizes",
+    "src": "Priberam: peixe-espada, Plural: peixes-espadas ou peixes-espada"
+   },
+   "tanker-truck": {
+    "from": "Caminhão-tanques",
+    "to": "Caminhões-tanque",
+    "why": "head element (caminhão) pluralizes, not the qualifier",
+    "src": "Priberam: camião-tanque, Plural: camiões-tanque (BR caminhões-tanque)"
+   },
+   "teddy-bear": {
+    "from": "Ursos de pelúcia",
+    "to": "Ursinhos de pelúcia",
+    "why": "plural must keep singular lemma diminutive ursinho",
+    "src": "regular: ursinho → ursinhos"
+   },
+   "tights": {
+    "from": "Meia-calças",
+    "to": "Meias-calças",
+    "why": "compound: both elements pluralize (noun+noun)",
+    "src": "Priberam: meia-calça, Plural: meias-calças"
+   },
+   "tyrannosaurus-rex": {
+    "from": "Tiranossauros Rexs",
+    "to": "Tiranossauros Rex",
+    "why": "Rex is invariable Latin; only tiranossauro pluralizes",
+    "src": "morphology"
+   },
+   "uncle-sam": {
+    "from": "Tios Sans",
+    "to": "Tios Sam",
+    "why": "proper-name Sam invariable; only tio pluralizes",
+    "src": "morphology"
+   },
+   "x-ray": {
+    "from": "Raio-Xs",
+    "to": "Raios-X",
+    "why": "head element raio pluralizes; X invariable",
+    "src": "morphology"
+   }
+  },
+  "gender": {
+   "cheeks": {
+    "from": "m",
+    "to": "f",
+    "why": "'bochecha' é feminino (a bochecha)",
+    "src": "conhecimento nativo BR"
+   },
+   "chips": {
+    "from": "m",
+    "to": "f",
+    "why": "Núcleo 'batata' é feminino (a batata chips)",
+    "src": "conhecimento nativo BR"
+   },
+   "comet": {
+    "from": "f",
+    "to": "m",
+    "why": "'cometa' é masculino (o cometa), apesar da terminação -a",
+    "src": "Priberam: cometa nome masculino"
+   },
+   "chimney": {
+    "from": "m",
+    "to": "f",
+    "why": "'chaminé' é feminino (a chaminé)",
+    "src": "Priberam: chaminé nome feminino"
+   },
+   "cross": {
+    "from": "m",
+    "to": "f",
+    "why": "'cruz' é feminino (a cruz)",
+    "src": "Priberam: cruz nome feminino"
+   },
+   "crutches": {
+    "from": "m",
+    "to": "f",
+    "why": "'muleta' é feminino (a muleta)",
+    "src": "conhecimento nativo BR"
+   },
+   "curtains": {
+    "from": "m",
+    "to": "f",
+    "why": "'cortina' é feminino (a cortina)",
+    "src": "conhecimento nativo BR"
+   },
+   "dustpan": {
+    "from": "m",
+    "to": "f",
+    "why": "Núcleo 'pá' é feminino (a pá de lixo)",
+    "src": "conhecimento nativo BR"
+   },
+   "ghost": {
+    "from": "f",
+    "to": "m",
+    "why": "Fantasma is masculine (o fantasma).",
+    "src": "native/priberam(200)"
+   },
+   "hammock": {
+    "from": "m",
+    "to": "f",
+    "why": "Rede is feminine (a rede).",
+    "src": "native/priberam(200)"
+   },
+   "french-fries": {
+    "from": "m",
+    "to": "f",
+    "why": "Batata(s) frita(s) is feminine.",
+    "src": "native"
+   },
+   "grapes": {
+    "from": "m",
+    "to": "f",
+    "why": "Uva is feminine (a uva).",
+    "src": "native"
+   },
+   "jelly-beans": {
+    "from": "m",
+    "to": "f",
+    "why": "Jujuba is feminine (a jujuba).",
+    "src": "native"
+   },
+   "hermit-crab": {
+    "from": "f",
+    "to": "m",
+    "why": "Caranguejo is masculine (o caranguejo).",
+    "src": "native/priberam(200)"
+   },
+   "frog": {
+    "from": "m",
+    "to": "f",
+    "why": "Rã is feminine (a rã); paired with plural fix Sapos→Rãs.",
+    "src": "native/lemma-consistency"
+   },
+   "lifeguard-tower": {
+    "from": "m",
+    "to": "f",
+    "why": "Head noun 'torre' is feminine",
+    "src": "Priberam torre — nome feminino"
+   },
+   "light": {
+    "from": "m",
+    "to": "f",
+    "why": "'luz' is feminine",
+    "src": "Priberam luz — nome feminino"
+   },
+   "lights": {
+    "from": "m",
+    "to": "f",
+    "why": "'luzes' (luz) is feminine",
+    "src": "Priberam luz — nome feminino / nome feminino plural"
+   },
+   "medical-gloves": {
+    "from": "m",
+    "to": "f",
+    "why": "'luva' is feminine",
+    "src": "Priberam luva — nome feminino"
+   },
+   "millipede": {
+    "from": "f",
+    "to": "m",
+    "why": "'piolho-de-cobra' is masculine",
+    "src": "Priberam piolho-de-cobra — nome masculino"
+   },
+   "mittens": {
+    "from": "m",
+    "to": "f",
+    "why": "'luva' is feminine",
+    "src": "Priberam luva — nome feminino"
+   },
+   "morning-glory": {
+    "from": "m",
+    "to": "f",
+    "why": "Head noun 'glória' is feminine",
+    "src": "Priberam glória — nome feminino"
+   },
+   "net": {
+    "from": "m",
+    "to": "f",
+    "why": "'rede' is feminine (a rede)",
+    "src": "Priberam rede — nome feminino"
+   },
+   "pajamas": {
+    "from": "f",
+    "to": "m",
+    "why": "'pijama' is masculine (o pijama)",
+    "src": "Priberam pijama — nome masculino"
+   },
+   "mitten": {
+    "from": "m",
+    "to": "f",
+    "why": "'mitene' is feminine",
+    "src": "Priberam mitene — nome feminino"
+   },
+   "planet": {
+    "from": "f",
+    "to": "m",
+    "why": "planeta (the celestial body) is masculine: o planeta.",
+    "src": "Priberam: planeta1 nome masculino (globo)"
+   },
+   "pyramid": {
+    "from": "m",
+    "to": "f",
+    "why": "piramide is feminine: a piramide.",
+    "src": "Priberam: piramide nome feminino"
+   },
+   "pipe-wrench": {
+    "from": "m",
+    "to": "f",
+    "why": "Head noun 'chave' (chave de grifo) is feminine: a chave.",
+    "src": "Priberam: chave nome feminino"
+   },
+   "screwdriver": {
+    "from": "m",
+    "to": "f",
+    "why": "Head noun 'chave' (chave de fenda) is feminine: a chave.",
+    "src": "Priberam: chave nome feminino"
+   },
+   "shovel": {
+    "from": "m",
+    "to": "f",
+    "why": "pa (shovel) is feminine: a pa.",
+    "src": "Priberam: pa1 nome feminino"
+   },
+   "snow-shovel": {
+    "from": "m",
+    "to": "f",
+    "why": "Head noun 'pa' (pa de neve) is feminine: a pa.",
+    "src": "Priberam: pa1 nome feminino"
+   },
+   "potato-chips": {
+    "from": "m",
+    "to": "f",
+    "why": "Head noun 'batata' (batatas chips) is feminine: a batata.",
+    "src": "Priberam: batata nome feminino"
+   },
+   "rain-boots": {
+    "from": "m",
+    "to": "f",
+    "why": "Head noun 'bota' (botas de chuva) is feminine: a bota.",
+    "src": "Priberam: bota nome feminino"
+   },
+   "sandals": {
+    "from": "m",
+    "to": "f",
+    "why": "sandalia is feminine: a sandalia.",
+    "src": "Priberam: sandalia nome feminino"
+   },
+   "slippers": {
+    "from": "m",
+    "to": "f",
+    "why": "pantufa is feminine: a pantufa.",
+    "src": "Priberam: pantufa nome feminino"
+   },
+   "snow-boots": {
+    "from": "m",
+    "to": "f",
+    "why": "Head noun 'bota' (botas de neve) is feminine: a bota.",
+    "src": "Priberam: bota nome feminino"
+   },
+   "swordfish": {
+    "from": "f",
+    "to": "m",
+    "why": "peixe-espada is masculine",
+    "src": "Priberam: peixe-espada, nome masculino"
+   },
+   "tennis-racket": {
+    "from": "m",
+    "to": "f",
+    "why": "raquete is feminine (a raquete)",
+    "src": "Priberam: raquete, nome feminino"
+   },
+   "waitress": {
+    "from": "m",
+    "to": "f",
+    "why": "garçonete is feminine",
+    "src": "Priberam: garçonete, nome feminino"
+   },
+   "wardrobe": {
+    "from": "f",
+    "to": "m",
+    "why": "guarda-roupa is masculine (o guarda-roupa)",
+    "src": "Priberam: guarda-roupa, nome masculino"
+   },
+   "us": {
+    "from": "f",
+    "to": "m",
+    "why": "EUA = os Estados Unidos, masculine",
+    "src": "usage: os EUA (masc.)"
+   }
   }
+ }
 }

@@ -1,0 +1,28 @@
+{
+ "locale": "es",
+ "batch": "05",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "scooter": {"from": "Scooteres", "to": "Scooters", "why": "unadapted English loan; Mexican plural adds -s, not -es (*scooteres is malformed)", "src": "RAE loanword-plural rule / native"},
+   "snorkel": {"from": "Snorkeles", "to": "Snorkels", "why": "unadapted loan keeping English spelling takes -s; *snorkeles is not standard (RAE adapts as esnórquel/esnórqueles)", "src": "RAE / native"},
+   "pretzel": {"from": "Pretzeles", "to": "Pretzels", "why": "unadapted German/English loan; natural plural is pretzels, not *pretzeles (not in RAE)", "src": "WordReference 404 / native"}
+  },
+  "gender": {
+   "pyramid": {"from": "m", "to": "f", "why": "la pirámide is feminine", "src": "native/RAE"},
+   "quail": {"from": "m", "to": "f", "why": "la codorniz is feminine", "src": "WordReference codorniz / native"},
+   "salt": {"from": "m", "to": "f", "why": "la sal is feminine", "src": "WordReference sal / native"},
+   "sickle": {"from": "m", "to": "f", "why": "la hoz is feminine", "src": "WordReference hoz / native"},
+   "pliers": {"from": "m", "to": "f", "why": "pinzas / la pinza is feminine", "src": "WordReference pinza / native"},
+   "sandals": {"from": "m", "to": "f", "why": "la sandalia is feminine", "src": "native/RAE"},
+   "slippers": {"from": "m", "to": "f", "why": "la pantufla is feminine", "src": "native/RAE"},
+   "porridge": {"from": "m", "to": "f", "why": "las gachas is feminine", "src": "native/RAE"},
+   "potato-chips": {"from": "m", "to": "f", "why": "papas fritas / la papa is feminine", "src": "native/RAE"},
+   "snow-boots": {"from": "m", "to": "f", "why": "botas / la bota is feminine", "src": "native/RAE"},
+   "pruning-shears": {"from": "m", "to": "f", "why": "tijeras / la tijera is feminine (cf. scissors already f)", "src": "native/RAE"},
+   "santa": {"from": "f", "to": "m", "why": "Santa Claus is a male referent; el Santa Claus", "src": "native"},
+   "santa-claus": {"from": "f", "to": "m", "why": "Santa Claus is a male referent; el Santa Claus", "src": "native"}
+  }
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "locale": "it",
+ "batch": "06",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "suitcase": {
+    "from": "Valige",
+    "to": "Valigie",
+    "why": "Treccani gives pl. -gie o ge; 'valigie' is the modern standard plural, 'valige' is marked ant. o merid. (archaic/southern)",
+    "src": "Treccani: valìgia s. f. (pl. -gie o ge)"
+   },
+   "taco": {
+    "from": "Taco",
+    "to": "Tacos",
+    "why": "Loanword whose plural Treccani lists explicitly as tacos, not invariable",
+    "src": "Treccani: taco s. m., ispanoamer. (pl. tacos)"
+   }
+  },
+  "gender": {
+   "venus": {
+    "from": "m",
+    "to": "f",
+    "why": "Venere is feminine, including the astronomy/planet sense",
+    "src": "Treccani: vènere s. f. ... b. In astronomia, Venere ... il pianeta"
+   },
+   "walnut-tree": {
+    "from": "f",
+    "to": "m",
+    "why": "noce is masculine as the tree (il noce) and feminine only as the nut (la noce); key is the walnut TREE",
+    "src": "Treccani: noce s. m. (albero) / s. f. (frutto)"
+   }
+  }
+ }
+}

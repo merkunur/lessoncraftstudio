@@ -1,0 +1,24 @@
+{
+ "locale": "it",
+ "batch": "04",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "papaya": {
+    "from": "Papaye",
+    "to": "Papaie",
+    "why": "'Papaye' is a Spanish/non-Italian plural. Treccani lemma papaia (o papaya) s.f. is fully assimilated; regular Italian plural is 'papaie' (-aia/-aya → -aie).",
+    "src": "Treccani"
+   }
+  },
+  "gender": {
+   "lollipop": {
+    "from": "f",
+    "to": "m",
+    "why": "lecca-lecca is masculine: Treccani 'lécca-lécca locuz. usata come s. m. ... invar.'",
+    "src": "Treccani"
+   }
+  }
+ }
+}

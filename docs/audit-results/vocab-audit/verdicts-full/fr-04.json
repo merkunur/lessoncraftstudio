@@ -1,0 +1,36 @@
+{
+ "locale": "fr",
+ "batch": "04",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "penguin": {
+    "from": "Pingouins",
+    "to": "Manchots",
+    "why": "Singular is 'Manchot' (correct FR for penguin); plural of manchot is manchots, not the unrelated species pingouins (auks).",
+    "src": "Larousse: manchot n.m., pl. manchots"
+   }
+  },
+  "gender": {
+   "muffin-tin": {
+    "from": "f",
+    "to": "m",
+    "why": "'moule' (récipient/mold) is masculine (le moule); la moule = mussel. Head noun of 'Moule à muffins' is masculine.",
+    "src": "Larousse: moule n.m."
+   },
+   "oar": {
+    "from": "m",
+    "to": "f",
+    "why": "'rame' (aviron/oar) is feminine — la rame.",
+    "src": "Larousse: rame n.f."
+   },
+   "mercury": {
+    "from": "f",
+    "to": "m",
+    "why": "The planet/element Mercure is masculine (cf. Mars, Neptune both m in-batch); 'f' is the clear outlier.",
+    "src": "Larousse: mercure n.m."
+   }
+  }
+ }
+}

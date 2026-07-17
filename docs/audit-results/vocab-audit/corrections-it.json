@@ -1,62 +1,197 @@
 {
+ "locale": "it",
+ "reverified": true,
  "corrections": {
-  "singular": {},
+  "singular": {
+   "pomegranate": {
+    "from": "Melograno",
+    "to": "Melagrana",
+    "why": "Key/theme = the FRUIT (fruits). Treccani: melagrana = il frutto (f); melograno = la pianta/albero (m). Current row was incoherent — singular was the tree form while plural was already the fruit form (Melagrane). Aligning singular to the fruit lemma.",
+    "src": "treccani:melagrana / treccani:melograno"
+   }
+  },
   "plural": {
-   "baguette": {
-    "from": "Baguetti",
-    "to": "Baguette",
-    "why": "French loan, invariant in Italian; '-i' pluralization is wrong",
-    "src": "https://www.treccani.it/vocabolario/baguette/"
+   "coconut": {
+    "from": "Noci di cocco",
+    "to": "Cocchi",
+    "why": "singular is Cocco (m); plural of cocco is cocchi, not the different lemma noci di cocco",
+    "src": "Treccani cocco (pl. m. -chi)"
    },
-   "barbecue": {
-    "from": "Barbecui",
-    "to": "Barbecue",
-    "why": "English loan, 'usato in ital. al masch., invar.'",
-    "src": "https://www.treccani.it/vocabolario/barbecue/"
+   "columbine": {
+    "from": "Aquilege",
+    "to": "Aquilegie",
+    "why": "-gia preceded by vowel keeps i: pl. -gie",
+    "src": "Treccani aquilegia (pl. -gie)"
    },
-   "detective": {
-    "from": "Detectivi",
-    "to": "Detective",
-    "why": "English loan, invariant in Italian",
-    "src": "https://www.treccani.it/vocabolario/detective/"
+   "diamond": {
+    "from": "Diamanti",
+    "to": "Rombi",
+    "why": "singular is Rombo (shape); plural of rombo is rombi, not the diamante lemma",
+    "src": "native/Treccani rombo"
    },
-   "frisbee": {
-    "from": "Frisbei",
-    "to": "Frisbee",
-    "why": "English loan, invariant in Italian",
-    "src": "https://www.treccani.it/vocabolario/frisbee/"
+   "earmuffs": {
+    "from": "Paraorecchii",
+    "to": "Paraorecchie",
+    "why": "para- compound is invariable; p must equal singular Paraorecchie, Paraorecchii is a non-word",
+    "src": "native (para- compounds invar.)"
    },
-   "boombox": {
-    "from": "Sterei portatili",
-    "to": "Stereo portatili",
-    "why": "'stereo' is invariant (abbrev. di stereofonico); 'Sterei' is an invented plural",
-    "src": "https://www.treccani.it/vocabolario/stereo/"
+   "earthworm": {
+    "from": "Lombrici",
+    "to": "Lombrichi",
+    "why": "lombrico is piana -co -> pl. -chi",
+    "src": "Treccani lombrico (pl. -chi)"
    },
-   "lettuce": {
-    "from": "Lattuga",
-    "to": "Lattughe",
-    "why": "lattuga s. f. is countable with real plural lattughe (-ga -> -ghe); p===s was wrong",
-    "src": "https://www.treccani.it/vocabolario/lattuga/"
+   "fence": {
+    "from": "Recinzioni",
+    "to": "Recinti",
+    "why": "singular is Recinto (m); plural is recinti, not the recinzione lemma",
+    "src": "native/Treccani recinto"
+   },
+   "colander": {
+    "from": "Scolapaste",
+    "to": "Scolapasta",
+    "why": "scolapasta is s. m. invariable; no -e plural",
+    "src": "Treccani scolapasta (s. m. invar.)"
+   },
+   "deck-chair": {
+    "from": "Sdrai",
+    "to": "Sdraio",
+    "why": "sdraio is invariable (una sdraio, due sdraio); Sdrai not used",
+    "src": "Treccani sdraio (invar.)"
+   },
+   "fried-egg": {
+    "from": "Uovi fritti",
+    "to": "Uova fritte",
+    "why": "Plural of 'uovo' is irregular 'uova' (feminine pl); adjective agrees: 'uova fritte'. 'Uovi fritti' is a fabricated regular plural.",
+    "src": "Treccani: uovo s. m. (pl. le uova)"
+   },
+   "french-fries": {
+    "from": "Patatine Fritte",
+    "to": "Patatine fritte",
+    "why": "plural-picture (s===p) with fabricated wrong plural; correct form is 'patatine fritte' (patatina f). 'Patatini Fritti' is a wrong masculine-ized form.",
+    "src": "patatina→patatine (f)"
+   },
+   "guinea-pig": {
+    "from": "Porcellini d'India",
+    "to": "Cavie",
+    "why": "Plural must match singular lemma 'Cavia'; plural = 'cavie'. Current plural uses a different lemma (porcellino d'India).",
+    "src": "Treccani: cavia s. f. [pl. -e]"
+   },
+   "papaya": {
+    "from": "Papaye",
+    "to": "Papaie",
+    "why": "'Papaye' is a Spanish/non-Italian plural. Treccani lemma papaia (o papaya) s.f. is fully assimilated; regular Italian plural is 'papaie' (-aia/-aya → -aie).",
+    "src": "Treccani"
+   },
+   "porcupine": {
+    "from": "Istrici",
+    "to": "Porcospini",
+    "why": "Plural did not match singular Porcospino (istrice/istrici is a separate lemma). Regular -o→-i.",
+    "src": "regular-morphology (porcospino s.m., pl. porcospini)"
+   },
+   "scallop": {
+    "from": "Capasante",
+    "to": "Capesante",
+    "why": "Treccani gives plural of capasanta as 'capesante' (both parts inflect); 'Capasante' is not the standard plural.",
+    "src": "treccani:capasanta (pl. capesante)"
+   },
+   "suitcase": {
+    "from": "Valige",
+    "to": "Valigie",
+    "why": "Treccani gives pl. -gie o ge; 'valigie' is the modern standard plural, 'valige' is marked ant. o merid. (archaic/southern)",
+    "src": "Treccani: valìgia s. f. (pl. -gie o ge)"
+   },
+   "taco": {
+    "from": "Taco",
+    "to": "Tacos",
+    "why": "Loanword whose plural Treccani lists explicitly as tacos, not invariable",
+    "src": "Treccani: taco s. m., ispanoamer. (pl. tacos)"
    }
   },
   "gender": {
-   "baguette": {
+   "basketball": {
     "from": "m",
     "to": "f",
-    "why": "Treccani 'baguette s. f., fr.' (la baguette)",
-    "src": "https://www.treccani.it/vocabolario/baguette/"
+    "why": "pallacanestro is feminine (la pallacanestro)",
+    "src": "Treccani: pallacanestro s. f., solo al sing."
    },
-   "lollipop": {
+   "cards": {
+    "from": "m",
+    "to": "f",
+    "why": "carta/carte is feminine (le carte)",
+    "src": "Treccani: carta s. f."
+   },
+   "cheeks": {
+    "from": "m",
+    "to": "f",
+    "why": "guancia is feminine (la guancia)",
+    "src": "Treccani guancia"
+   },
+   "chips": {
+    "from": "m",
+    "to": "f",
+    "why": "patatina is feminine (la patatina)",
+    "src": "native/Treccani patatina"
+   },
+   "coconut": {
     "from": "f",
     "to": "m",
-    "why": "'lecca-lecca locuz. usata come s. m., invar.' (il lecca-lecca)",
-    "src": "https://www.treccani.it/vocabolario/lecca-lecca/"
+    "why": "cocco is masculine (il cocco), matching singular field",
+    "src": "Treccani cocco (s. m.)"
    },
-   "lawn-mower": {
+   "curtains": {
+    "from": "m",
+    "to": "f",
+    "why": "tenda is feminine (la tenda)",
+    "src": "native/Treccani tenda"
+   },
+   "colander": {
     "from": "f",
     "to": "m",
-    "why": "'tosaerba s. m., invar.' (il tosaerba)",
-    "src": "https://www.treccani.it/vocabolario/tosaerba/"
+    "why": "scolapasta is masculine (lo scolapasta)",
+    "src": "Treccani scolapasta (s. m.)"
+   },
+   "fence": {
+    "from": "f",
+    "to": "m",
+    "why": "recinto is masculine (il recinto), matching singular field",
+    "src": "native/Treccani recinto"
+   },
+   "forehead": {
+    "from": "m",
+    "to": "f",
+    "why": "'fronte' meaning forehead is feminine in modern usage (masculine only in some figurative senses).",
+    "src": "Treccani: fronte s. f. o m. — 'nell’uso moderno sempre femm.'"
+   },
+   "knee": {
+    "from": "f",
+    "to": "m",
+    "why": "'ginocchio' is masculine singular (pl. le ginocchia collective f). Gender field describes the singular lemma.",
+    "src": "Treccani: ginocchio s. m."
+   },
+   "jeep": {
+    "from": "m",
+    "to": "f",
+    "why": "'jeep' is used as feminine in Italian.",
+    "src": "Treccani: jeep — 'usato in ital. al femm.'"
+   },
+   "pomegranate": {
+    "from": "m",
+    "to": "f",
+    "why": "As the fruit (melagrana) it is feminine; ties to the singular correction Melograno→Melagrana and the existing plural Melagrane.",
+    "src": "treccani:melagrana (s. f.)"
+   },
+   "venus": {
+    "from": "m",
+    "to": "f",
+    "why": "Venere is feminine, including the astronomy/planet sense",
+    "src": "Treccani: vènere s. f. ... b. In astronomia, Venere ... il pianeta"
+   },
+   "walnut-tree": {
+    "from": "f",
+    "to": "m",
+    "why": "noce is masculine as the tree (il noce) and feminine only as the nut (la noce); key is the walnut TREE",
+    "src": "Treccani: noce s. m. (albero) / s. f. (frutto)"
    }
   }
  }

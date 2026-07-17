@@ -1,0 +1,71 @@
+{
+ "locale": "fi",
+ "batch": "01",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "antelope": {
+    "from": "Antilooppeja",
+    "to": "Antiloopit",
+    "why": "Builder stored the partitive plural (antilooppeja). Nominative plural of antilooppi (infl. class 5*B, gradation pp->p) is antiloopit.",
+    "src": "Kielitoimiston sanakirja: antilooppi 5*B"
+   },
+   "architect": {
+    "from": "Arkkitehtit",
+    "to": "Arkkitehdit",
+    "why": "Missing t->d consonant gradation. arkkitehti -> gen. arkkitehdin -> nom.pl. arkkitehdit.",
+    "src": "Kielitoimiston sanakirja: arkkitehti 5*F (t:d)"
+   },
+   "aspen-tree": {
+    "from": "Haapat",
+    "to": "Haavat",
+    "why": "Missing p->v gradation. haapa -> gen. haavan -> nom.pl. haavat (dict cites 'haavalta').",
+    "src": "Kielitoimiston sanakirja: haapa 9*E (p:v)"
+   },
+   "barrette": {
+    "from": "Hiussolkit",
+    "to": "Hiussoljet",
+    "why": "Missing lk->lj gradation. solki -> gen. soljen -> nom.pl. soljet, so hiussolki -> hiussoljet.",
+    "src": "Kielitoimiston sanakirja: solki 7*L (lk:lj)"
+   },
+   "bathing-suit": {
+    "from": "Uimapukut",
+    "to": "Uimapuvut",
+    "why": "Missing k->v gradation. puku -> gen. puvun -> nom.pl. puvut, so uimapuku -> uimapuvut.",
+    "src": "Kielitoimiston sanakirja: puku 4*A (k:v)"
+   },
+   "beetroot": {
+    "from": "Punajuurit",
+    "to": "Punajuuret",
+    "why": "Wrong plural stem vowel. juuri (infl. class 26) -> nom.pl. juuret, so punajuuri -> punajuuret.",
+    "src": "Kielitoimiston sanakirja: punajuuri 26 (juuri-type -> juuret)"
+   },
+   "blender": {
+    "from": "Tehosekoitimet",
+    "to": "Tehosekoittimet",
+    "why": "Missing t->tt gradation in the oblique stem. sekoitin -> gen. sekoittimen -> nom.pl. sekoittimet.",
+    "src": "Kielitoimiston sanakirja: sekoitin 33*C (t:tt)"
+   },
+   "bread": {
+    "from": "Leipät",
+    "to": "Leivät",
+    "why": "Missing p->v gradation. leipä -> gen. leivän -> nom.pl. leivät (countable as loaves).",
+    "src": "Kielitoimiston sanakirja: leipä 10*E (p:v)"
+   },
+   "bracelet": {
+    "from": "Rannerengaat",
+    "to": "Rannerenkaat",
+    "why": "Missing ng->nk gradation. rengas -> gen. renkaan -> nom.pl. renkaat, so rannerengas -> rannerenkaat.",
+    "src": "Kielitoimiston sanakirja: rengas 41*G (nk:ng); dict cites 'Ketjun renkaat'"
+   },
+   "bison": {
+    "from": "Bisonit",
+    "to": "Biisonit",
+    "why": "Plural does not match the singular/lemma Biisoni (double-i). nom.pl. of biisoni is biisonit.",
+    "src": "Kielitoimiston sanakirja: biisoni 6"
+   }
+  },
+  "gender": {}
+ }
+}

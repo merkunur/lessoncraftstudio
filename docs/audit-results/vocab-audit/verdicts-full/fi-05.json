@@ -1,0 +1,33 @@
+{
+ "locale": "fi",
+ "batch": "05",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "pineapple": { "from": "Ananaat", "to": "Ananakset", "why": "ananas (type 39, vieras) → ananakset; builder emitted naive vowel-stem +at", "src": "KS ananas 39" },
+   "pinecone": { "from": "Käpyt", "to": "Kävyt", "why": "käpy (type 1) consonant gradation p→v → kävyt", "src": "KS käpy 1*E" },
+   "pool": { "from": "Uima-allaat", "to": "Uima-altaat", "why": "allas (type 41) → altaat (ll→lt); builder missed gradation", "src": "KS allas 41*I" },
+   "porcupine": { "from": "Piikkisikat", "to": "Piikkisiat", "why": "sika (type 9) gradation k→∅ → siat; piikkisika → piikkisiat", "src": "KS sika 9*D" },
+   "pudding": { "from": "Vanukaat", "to": "Vanukkaat", "why": "vanukas (type 41) gemination k→kk → vanukkaat", "src": "KS vanukas 41*A" },
+   "rain": { "from": "Sadeet", "to": "Sateet", "why": "sade (type 48) → sateet (d→t)", "src": "KS sade 48*F" },
+   "rainbow": { "from": "Sateenkaarit", "to": "Sateenkaaret", "why": "kaari (type 26) → kaaret; sateenkaari → sateenkaaret", "src": "KS kaari 26" },
+   "river": { "from": "Jokit", "to": "Joet", "why": "joki (type 7) gradation k→∅ → joet", "src": "KS joki 7*D" },
+   "rubber-boot": { "from": "Kumisaapaat", "to": "Kumisaappaat", "why": "saapas (type 41) gemination p→pp → saappaat; kumisaapas → kumisaappaat", "src": "KS saapas 41*B" },
+   "sandwich": { "from": "Voileipät", "to": "Voileivät", "why": "leipä (type 10) gradation p→v → leivät; voileipä → voileivät", "src": "KS leipä 10*E" },
+   "sauce": { "from": "Kastikeet", "to": "Kastikkeet", "why": "kastike (type 48) gemination k→kk → kastikkeet", "src": "KS kastike 48*A" },
+   "rosette": { "from": "Ruusukeet", "to": "Ruusukkeet", "why": "ruusuke (type 48) gemination k→kk → ruusukkeet (dict example: koristeruusukkeet)", "src": "KS ruusuke 48*A" },
+   "seal": { "from": "Hyljeet", "to": "Hylkeet", "why": "hylje (type 48) gradation lj→lk → hylkeet", "src": "KS hylje 48*L" },
+   "shrimp": { "from": "Katkaraput", "to": "Katkaravut", "why": "rapu (type 1) gradation p→v → ravut; katkarapu → katkaravut", "src": "KS rapu 1*E" },
+   "sink": { "from": "Pesuallaat", "to": "Pesualtaat", "why": "allas (type 41) → altaat; pesuallas → pesualtaat", "src": "KS allas 41*I" },
+   "sleigh": { "from": "Rekit", "to": "Reet", "why": "reki (type 7) gradation k→∅ → reet", "src": "KS reki 7*D" },
+   "slide": { "from": "Liukumäkit", "to": "Liukumäet", "why": "mäki (type 7) gradation k→∅ → mäet; liukumäki → liukumäet", "src": "KS mäki 7*D" },
+   "salt-shaker": { "from": "Suolasirotimet", "to": "Suolasirottimet", "why": "sirotin (type 33) gemination t→tt → sirottimet; suolasirotin → suolasirottimet", "src": "KS sirotin 33*C" },
+   "scarecrow": { "from": "Linnunpelätimet", "to": "Linnunpelättimet", "why": "pelätin (type 33) gemination t→tt → pelättimet; linnunpelätin → linnunpelättimet", "src": "KS pelätin 33*C" },
+   "scale": { "from": "Vaakat", "to": "Vaa'at", "why": "vaaka (type 9) gradation k→∅ between identical vowels → vaa'at", "src": "KS vaaka 9*D" },
+   "postal-scale": { "from": "Postivaakat", "to": "Postivaa'at", "why": "vaaka (type 9) → vaa'at; postivaaka → postivaa'at (dict example: kirjevaaka)", "src": "KS vaaka 9*D" },
+   "smoothie": { "from": "Smoothieet", "to": "Smoothiet", "why": "smoothie (type 8, nalle) → smoothiet; builder double-vowel +et is wrong", "src": "KS smoothie 8/(21)" }
+  },
+  "gender": {}
+ }
+}

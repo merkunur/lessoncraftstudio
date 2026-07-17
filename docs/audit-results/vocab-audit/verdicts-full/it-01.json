@@ -1,0 +1,54 @@
+{
+ "locale": "it",
+ "batch": "01",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "baguette": {
+    "from": "Baguetti",
+    "to": "Baguette",
+    "why": "French loan, invariable in Italian (s.f. invar.); 'Baguetti' is a fabricated plural",
+    "src": "Treccani: baguette s. f., fr."
+   },
+   "barbecue": {
+    "from": "Barbecui",
+    "to": "Barbecue",
+    "why": "English loan, invariable in Italian; 'Barbecui' is a fabricated plural",
+    "src": "Treccani: barbecue (loan, invariable)"
+   },
+   "boombox": {
+    "from": "Sterei portatili",
+    "to": "Stereo portatili",
+    "why": "'stereo' is an invariable loan (stereo -> stereo); 'Sterei' is a non-word",
+    "src": "Treccani: stereo (invariable loan)"
+   },
+   "cards": {
+    "from": "Carti",
+    "to": "Carte",
+    "why": "plural of carta is carte; 'Carti' is a fabricated non-word (plural-picture form should be carte)",
+    "src": "Treccani: carta s. f."
+   }
+  },
+  "gender": {
+   "basketball": {
+    "from": "m",
+    "to": "f",
+    "why": "pallacanestro is feminine (la pallacanestro)",
+    "src": "Treccani: pallacanestro s. f., solo al sing."
+   },
+   "baguette": {
+    "from": "m",
+    "to": "f",
+    "why": "baguette is feminine (la baguette)",
+    "src": "Treccani: baguette s. f., fr."
+   },
+   "cards": {
+    "from": "m",
+    "to": "f",
+    "why": "carta/carte is feminine (le carte)",
+    "src": "Treccani: carta s. f."
+   }
+  }
+ }
+}

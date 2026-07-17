@@ -1,0 +1,66 @@
+{
+ "locale": "fr",
+ "batch": "06",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "squid": {
+    "from": "Calamars",
+    "to": "Calmars",
+    "why": "singular head is 'Calmar'; plural of calmar is 'calmars' (spelling-variant mismatch: Calmar vs Calamars)",
+    "src": "Larousse: calmar (ou calamar) n.m."
+   },
+   "tanker-truck": {
+    "from": "Camion-citernes",
+    "to": "Camions-citernes",
+    "why": "both elements pluralize in this noun+noun compound",
+    "src": "Larousse: camion-citerne, camions-citernes n.m."
+   },
+   "teacher": {
+    "from": "Enseignants",
+    "to": "Professeurs",
+    "why": "plural must match the singular head 'Professeur', not a different lexeme (enseignant)",
+    "src": "morphology (head consistency)"
+   },
+   "woodpecker": {
+    "from": "Piverts",
+    "to": "Pics",
+    "why": "plural must match the singular head 'Pic' (le pic); 'piverts' is a different lexeme",
+    "src": "morphology (head consistency)"
+   },
+   "yak": {
+    "from": "Yacks",
+    "to": "Yaks",
+    "why": "singular head is 'Yak'; its plural is 'Yaks' ('Yacks' belongs to the variant spelling 'yack')",
+    "src": "Larousse: yack (ou yak) n.m."
+   }
+  },
+  "gender": {
+   "sphere": {
+    "from": "m",
+    "to": "f",
+    "why": "sphère is feminine (une sphère)",
+    "src": "Larousse: sphère n.f."
+   },
+   "squash": {
+    "from": "m",
+    "to": "f",
+    "why": "courge is feminine (une courge)",
+    "src": "Larousse: courge n.f."
+   },
+   "wallet": {
+    "from": "f",
+    "to": "m",
+    "why": "portefeuille is masculine (un portefeuille)",
+    "src": "Larousse: portefeuille n.m."
+   },
+   "wrench": {
+    "from": "m",
+    "to": "f",
+    "why": "head noun 'clé à molette' is feminine (une clé)",
+    "src": "Larousse: clé n.f."
+   }
+  }
+ }
+}

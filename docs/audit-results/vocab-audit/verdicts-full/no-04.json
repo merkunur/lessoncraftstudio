@@ -1,0 +1,103 @@
+{
+ "locale": "no",
+ "batch": "04",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {
+   "painting": {
+    "from": "Male",
+    "to": "Maleri",
+    "why": "s was the verb 'male' (to paint), not the noun. A painting = et maleri (neuter; malerier). Plural 'Malerier' was already correct.",
+    "src": "NAOB maleri (et; maleriet, malerier)"
+   }
+  },
+  "plural": {
+   "lemon-tree": {
+    "from": "Sitrontre",
+    "to": "Sitrontrær",
+    "why": "Countable, p===s but 'tre' pluralises to 'trær'; compound → sitrontrær.",
+    "src": "NAOB tre (plural trær), sitrontre (et)"
+   },
+   "orange-tree": {
+    "from": "Appelsintre",
+    "to": "Appelsintrær",
+    "why": "Same tree-compound plural rule: -tre → -trær.",
+    "src": "NAOB tre (plural trær)"
+   },
+   "peach-tree": {
+    "from": "Ferskentre",
+    "to": "Ferskentrær",
+    "why": "Same tree-compound plural rule: -tre → -trær.",
+    "src": "NAOB tre (plural trær)"
+   },
+   "pear-tree": {
+    "from": "Pæretre",
+    "to": "Pæretrær",
+    "why": "Same tree-compound plural rule: -tre → -trær.",
+    "src": "NAOB tre (plural trær)"
+   },
+   "mail-carrier": {
+    "from": "Postbuder",
+    "to": "Postbud",
+    "why": "postbud is neuter (et postbud); base 'bud' has zero-plural (et; budet, bud), so postbud → postbud unchanged.",
+    "src": "NAOB postbud (et), bud (et; budet, bud)"
+   },
+   "measuring-cup": {
+    "from": "Målebegere",
+    "to": "Målebegre",
+    "why": "Base 'beger' is neuter with plural 'begre'; compound målebeger → målebegre.",
+    "src": "NAOB beger (et; begeret, begre)"
+   },
+   "necktie": {
+    "from": "Slipser",
+    "to": "Slips",
+    "why": "slips is neuter monosyllable with zero plural (et; slipset, slips).",
+    "src": "NAOB slips (et; slipset, slips)"
+   },
+   "otter": {
+    "from": "Oterer",
+    "to": "Otere",
+    "why": "oter plural is 'otere' (builder over-applied -er).",
+    "src": "NAOB oter (en; oteren, otere)"
+   },
+   "overalls": {
+    "from": "Overaller",
+    "to": "Selebukser",
+    "why": "Plural did not match its own singular 'Selebukse'; correct plural is selebukser.",
+    "src": "NAOB selebukse (en; selebukser)"
+   },
+   "picnic-table": {
+    "from": "Picknickbord",
+    "to": "Piknikbord",
+    "why": "Misspelled (Swedish-style ck) and 'bord' is neuter zero-plural; matches singular Piknikbord.",
+    "src": "bokmål bord (et; bordet, bord); consistent with s"
+   }
+  },
+  "gender": {
+   "mail-carrier": {
+    "from": "m",
+    "to": "n",
+    "why": "et postbud — neuter (base 'bud' neuter).",
+    "src": "NAOB postbud (et)"
+   },
+   "measuring-cup": {
+    "from": "m",
+    "to": "n",
+    "why": "et (måle)beger — neuter (base 'beger' neuter).",
+    "src": "NAOB beger (et)"
+   },
+   "necktie": {
+    "from": "m",
+    "to": "n",
+    "why": "et slips — neuter.",
+    "src": "NAOB slips (et)"
+   },
+   "piano": {
+    "from": "m",
+    "to": "n",
+    "why": "et piano — neuter in bokmål (plural pianoer already fine).",
+    "src": "NAOB/Bokmålsordboka piano (et)"
+   }
+  }
+ }
+}

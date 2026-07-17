@@ -1,0 +1,35 @@
+{
+ "locale": "pt",
+ "batch": "01",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "beetle": {
+    "from": "Escaravelhos",
+    "to": "Besouros",
+    "why": "Plural must be of the singular lemma 'Besouro' (besouros). 'Escaravelhos' is a plural of a different synonym (escaravelho), a lemma mismatch.",
+    "src": "Priberam besouro/escaravelho"
+   },
+   "bun": {
+    "from": "Pãozinhos",
+    "to": "Pãezinhos",
+    "why": "Diminutive of pão pluralizes the root: pão→pães, so pãozinho→pãezinhos.",
+    "src": "Priberam pãozinho: 'Plural: pãezinhos.'"
+   },
+   "camper": {
+    "from": "Traileres",
+    "to": "Trailers",
+    "why": "Loan word 'trailer' takes the English-style plural 'trailers', not a Portuguese -es plural.",
+    "src": "Priberam trailer: 'Plural: trailers.'"
+   },
+   "cauliflower": {
+    "from": "Couve-flores",
+    "to": "Couves-flores",
+    "why": "Compound noun+noun; the first element must pluralize: couve→couves. Dictionary gives 'couves-flor ou couves-flores'; the current form pluralizes only the second element.",
+    "src": "Priberam couve-flor: 'Plural: couves-flor ou couves-flores.'"
+   }
+  },
+  "gender": {}
+ }
+}

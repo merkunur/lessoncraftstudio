@@ -1,0 +1,67 @@
+{
+ "locale": "no",
+ "batch": "03",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {
+   "hot-dog": {
+    "from": "Pølse i Brød",
+    "to": "Pølse i brød",
+    "why": "Mid-phrase common noun wrongly capitalized; file convention is sentence-case for multiword entries (cf. 'Stekt kylling', 'Grønne bønner'). 'brød' is not a proper noun.",
+    "src": "orthography/convention"
+   },
+   "french-fries": {
+    "from": "Pommes Frites",
+    "to": "Pommes frites",
+    "why": "Mid-phrase 'Frites' wrongly capitalized; plural field already correctly 'Pommes frites'. Sentence-case convention.",
+    "src": "orthography/convention"
+   }
+  },
+  "plural": {
+   "goggles": {
+    "from": "Vernebrillere",
+    "to": "Vernebriller",
+    "why": "Builder double-plural: singular 'vernebrille' pluralizes to 'vernebriller'; '-ere' is an over-applied second plural. s-field already holds 'Vernebriller' so p must match.",
+    "src": "NAOB vernebrille (en; vernebrillen, vernebriller)"
+   },
+   "green-beans": {
+    "from": "Grønne bønnere",
+    "to": "Grønne bønner",
+    "why": "'bønne' pluralizes to 'bønner'; '-ere' is a spurious double plural (ART_DEFECT). Plural-picture, s='Grønne bønner'.",
+    "src": "NAOB bønne (plural bønner)"
+   },
+   "jelly-beans": {
+    "from": "Gelébønnere",
+    "to": "Gelébønner",
+    "why": "Same double-plural error as green-beans; 'bønne' -> 'bønner', not 'bønnere'. Plural-picture.",
+    "src": "NAOB bønne (plural bønner)"
+   },
+   "keyboard": {
+    "from": "Keyboarder",
+    "to": "Keyboard",
+    "why": "Neuter English loan takes zero plural in bokmål (et keyboard, flere keyboard); builder over-applied '-er'.",
+    "src": "NAOB keyboard (et; keyboardet, keyboard)"
+   }
+  },
+  "gender": {
+   "helicopter": {
+    "from": "m",
+    "to": "n",
+    "why": "'helikopter' is neuter (et helikopter); builder default m is wrong. Plural 'Helikoptere' is valid ('helikoptre eller helikoptere').",
+    "src": "NAOB helikopter (et; helikopteret, helikoptre eller helikoptere; nøytrum)"
+   },
+   "glasses": {
+    "from": "n",
+    "to": "m",
+    "why": "s/p field 'Briller' from 'brille', which is maskulinum(femininum); DATA uses m/n so feminine->m. Neuter is wrong.",
+    "src": "NAOB brille (en; brillen, briller; maskulinum (femininum))"
+   },
+   "keyboard": {
+    "from": "m",
+    "to": "n",
+    "why": "'keyboard' is neuter in bokmål (et keyboard); builder default m is wrong.",
+    "src": "NAOB keyboard (et; keyboardet, keyboard; nøytrum)"
+   }
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "locale": "it",
+ "batch": "02",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "cheeks": {"from": "Guanci", "to": "Guance", "why": "plural-picture p field held a non-word; correct plural of guancia is guance (=singular field)", "src": "Treccani guancia"},
+   "chips": {"from": "Patatini", "to": "Patatine", "why": "plural-picture p field malformed; patatina->patatine (f), matches singular field", "src": "native/Treccani patatina"},
+   "coconut": {"from": "Noci di cocco", "to": "Cocchi", "why": "singular is Cocco (m); plural of cocco is cocchi, not the different lemma noci di cocco", "src": "Treccani cocco (pl. m. -chi)"},
+   "columbine": {"from": "Aquilege", "to": "Aquilegie", "why": "-gia preceded by vowel keeps i: pl. -gie", "src": "Treccani aquilegia (pl. -gie)"},
+   "curtains": {"from": "Tendi", "to": "Tende", "why": "plural-picture p field malformed; tenda->tende (f), matches singular field", "src": "native/Treccani tenda"},
+   "detective": {"from": "Detectivi", "to": "Detective", "why": "English loanword, invariable in Italian usage; Detectivi is not used", "src": "Treccani detective (usato in ital. invar.)"},
+   "diamond": {"from": "Diamanti", "to": "Rombi", "why": "singular is Rombo (shape); plural of rombo is rombi, not the diamante lemma", "src": "native/Treccani rombo"},
+   "earmuffs": {"from": "Paraorecchii", "to": "Paraorecchie", "why": "para- compound is invariable; p must equal singular Paraorecchie, Paraorecchii is a non-word", "src": "native (para- compounds invar.)"},
+   "earthworm": {"from": "Lombrici", "to": "Lombrichi", "why": "lombrico is piana -co -> pl. -chi", "src": "Treccani lombrico (pl. -chi)"},
+   "eyelashes": {"from": "Ciglie", "to": "Ciglia", "why": "plural of ciglio (eyelash) is le ciglia; Ciglie is a wrong form; matches singular field", "src": "native/Treccani ciglio"},
+   "fence": {"from": "Recinzioni", "to": "Recinti", "why": "singular is Recinto (m); plural is recinti, not the recinzione lemma", "src": "native/Treccani recinto"},
+   "colander": {"from": "Scolapaste", "to": "Scolapasta", "why": "scolapasta is s. m. invariable; no -e plural", "src": "Treccani scolapasta (s. m. invar.)"},
+   "deck-chair": {"from": "Sdrai", "to": "Sdraio", "why": "sdraio is invariable (una sdraio, due sdraio); Sdrai not used", "src": "Treccani sdraio (invar.)"}
+  },
+  "gender": {
+   "cheeks": {"from": "m", "to": "f", "why": "guancia is feminine (la guancia)", "src": "Treccani guancia"},
+   "chips": {"from": "m", "to": "f", "why": "patatina is feminine (la patatina)", "src": "native/Treccani patatina"},
+   "coconut": {"from": "f", "to": "m", "why": "cocco is masculine (il cocco), matching singular field", "src": "Treccani cocco (s. m.)"},
+   "curtains": {"from": "m", "to": "f", "why": "tenda is feminine (la tenda)", "src": "native/Treccani tenda"},
+   "colander": {"from": "f", "to": "m", "why": "scolapasta is masculine (lo scolapasta)", "src": "Treccani scolapasta (s. m.)"},
+   "fence": {"from": "f", "to": "m", "why": "recinto is masculine (il recinto), matching singular field", "src": "native/Treccani recinto"}
+  }
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "locale": "it",
+ "batch": "05",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {
+   "pomegranate": {
+    "from": "Melograno",
+    "to": "Melagrana",
+    "why": "Key/theme = the FRUIT (fruits). Treccani: melagrana = il frutto (f); melograno = la pianta/albero (m). Current row was incoherent — singular was the tree form while plural was already the fruit form (Melagrane). Aligning singular to the fruit lemma.",
+    "src": "treccani:melagrana / treccani:melograno"
+   }
+  },
+  "plural": {
+   "porcupine": {
+    "from": "Istrici",
+    "to": "Porcospini",
+    "why": "Plural did not match singular Porcospino (istrice/istrici is a separate lemma). Regular -o→-i.",
+    "src": "regular-morphology (porcospino s.m., pl. porcospini)"
+   },
+   "scallop": {
+    "from": "Capasante",
+    "to": "Capesante",
+    "why": "Treccani gives plural of capasanta as 'capesante' (both parts inflect); 'Capasante' is not the standard plural.",
+    "src": "treccani:capasanta (pl. capesante)"
+   }
+  },
+  "gender": {
+   "pomegranate": {
+    "from": "m",
+    "to": "f",
+    "why": "As the fruit (melagrana) it is feminine; ties to the singular correction Melograno→Melagrana and the existing plural Melagrane.",
+    "src": "treccani:melagrana (s. f.)"
+   }
+  }
+ }
+}

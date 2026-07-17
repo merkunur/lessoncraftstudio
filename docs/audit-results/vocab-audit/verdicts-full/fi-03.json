@@ -1,0 +1,95 @@
+{
+ "locale": "fi",
+ "batch": "03",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "gopher": {
+    "from": "Pussirottasukut",
+    "to": "Pussirottasuvut",
+    "why": "suku type 1*M (k~v gradation): suku : suvun : suvut. Builder kept the strong grade -k-.",
+    "src": "Kielitoimiston sanakirja: suku 1*M"
+   },
+   "hermit-crab": {
+    "from": "Erakkoraput",
+    "to": "Erakkoravut",
+    "why": "rapu type 1*E (p~v gradation): rapu : ravun : ravut. Builder kept the strong grade -p-.",
+    "src": "Kielitoimiston sanakirja: rapu 1*E"
+   },
+   "inflatable-ring": {
+    "from": "Uimarengaat",
+    "to": "Uimarenkaat",
+    "why": "rengas type 41*G: rengas : renkaan : renkaat (nom. weak -ng-, oblique/plural strong -nk-). Builder kept -ng-.",
+    "src": "Kielitoimiston sanakirja: rengas 41*G"
+   },
+   "island": {
+    "from": "Saarit",
+    "to": "Saaret",
+    "why": "saari type 26 (soft -i, e-stem): saari : saaren : saaret, not the loanword -it plural.",
+    "src": "Kielitoimiston sanakirja: saari 26"
+   },
+   "janitor": {
+    "from": "Talonmieet",
+    "to": "Talonmiehet",
+    "why": "mies type 42: mies : miehen : miehet. Builder dropped the stem -h-.",
+    "src": "Kielitoimiston sanakirja: mies 42"
+   },
+   "kettle": {
+    "from": "Vedenkeitimet",
+    "to": "Vedenkeittimet",
+    "why": "keitin type 33*C (t~tt): keitin : keittimen : keittimet (from keittää). Builder used weak grade single -t-.",
+    "src": "Kielitoimiston sanakirja: keitin 33*C"
+   },
+   "heater": {
+    "from": "Lämmitimet",
+    "to": "Lämmittimet",
+    "why": "lämmitin type 33*C (t~tt): lämmitin : lämmittimen : lämmittimet (from lämmittää). Builder used weak grade single -t-.",
+    "src": "Kielitoimiston sanakirja: lämmitin 33*C"
+   },
+   "kitchen-scale": {
+    "from": "Keittiövaakat",
+    "to": "Keittiövaa'at",
+    "why": "vaaka type 9*D (k~zero elision): vaaka : vaa'an : vaa'at. Builder kept -k-.",
+    "src": "Kielitoimiston sanakirja: vaaka 9*D"
+   },
+   "knee": {
+    "from": "Polvit",
+    "to": "Polvet",
+    "why": "polvi type 7 (e-stem -i): polvi : polven : polvet, not loanword -it.",
+    "src": "Kielitoimiston sanakirja: polvi 7"
+   },
+   "lake": {
+    "from": "Järvit",
+    "to": "Järvet",
+    "why": "järvi type 7 (e-stem -i): järvi : järven : järvet, not loanword -it.",
+    "src": "Kielitoimiston sanakirja: järvi 7"
+   },
+   "lantern": {
+    "from": "Lyhtyt",
+    "to": "Lyhdyt",
+    "why": "lyhty type 1*F (t~d gradation): lyhty : lyhdyn : lyhdyt. Builder kept the strong grade -t-.",
+    "src": "Kielitoimiston sanakirja: lyhty 1*F"
+   },
+   "leg": {
+    "from": "Säärit",
+    "to": "Sääret",
+    "why": "sääri type 26 (soft -i, e-stem): sääri : säären : sääret, not loanword -it.",
+    "src": "Kielitoimiston sanakirja: sääri 26"
+   },
+   "glove": {
+    "from": "Hansikaat",
+    "to": "Hansikkaat",
+    "why": "hansikas type 41*A (k~kk): hansikas : hansikkaan : hansikkaat (nom. weak -k-, plural strong -kk-). Builder kept weak -k-.",
+    "src": "Kielitoimiston sanakirja: hansikas 41*A"
+   },
+   "iguanodon": {
+    "from": "Iguanodomet",
+    "to": "Iguanodonit",
+    "why": "Builder emitted a corrupt false-analogy form (as if sydän->sydämet). Foreign scientific -on noun takes -it directly: iguanodonit. No dict entry (paleontology term); correction on morphological grounds.",
+    "src": "morphology (no KS entry)"
+   }
+  },
+  "gender": {}
+ }
+}

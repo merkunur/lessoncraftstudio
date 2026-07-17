@@ -1,0 +1,84 @@
+{
+  "locale": "no",
+  "batch": "05",
+  "reviewed": 210,
+  "corrections": {
+    "singular": {},
+    "plural": {
+      "pliers": {
+        "from": "Tanger",
+        "to": "Tenger",
+        "why": "NAOB tang (redskap): en; tangen, tenger — irregular umlaut plural, not builder's regular -er.",
+        "src": "NAOB tang"
+      },
+      "pipe-wrench": {
+        "from": "Rørtanger",
+        "to": "Rørtenger",
+        "why": "Compound with -tang; plural of tang is tenger (NAOB), so rørtang -> rørtenger.",
+        "src": "NAOB tang"
+      },
+      "plum-tree": {
+        "from": "Plommetre",
+        "to": "Plommetrær",
+        "why": "Head -tre (tree): et tre -> trær. Builder left plural unchanged; correct plural is -trær.",
+        "src": "NAOB tre (standard bokmål: tre/trær)"
+      },
+      "redbud-tree": {
+        "from": "Judastre",
+        "to": "Judastrær",
+        "why": "Head -tre (tree): et tre -> trær. Plural was left unchanged; correct is -trær.",
+        "src": "NAOB tre (standard bokmål: tre/trær)"
+      },
+      "rain": {
+        "from": "Regner",
+        "to": "Regn",
+        "why": "regn is a neuter mass noun (NAOB: et; regnet, no flertall). Builder's -er plural is wrong; unchanged neuter form Regn.",
+        "src": "NAOB regn"
+      },
+      "shoulder": {
+        "from": "Skuldere",
+        "to": "Skuldre",
+        "why": "NAOB skulder: en; skulderen, skuldre. Builder over-applied -ere; correct plural is skuldre.",
+        "src": "NAOB skulder"
+      },
+      "sandals": {
+        "from": "Sandalere",
+        "to": "Sandaler",
+        "why": "plural-picture word is Sandaler; p must equal s. NAOB sandal: sandaler. Builder added extra -e (double plural).",
+        "src": "NAOB sandal"
+      },
+      "slippers": {
+        "from": "Tøflere",
+        "to": "Tøfler",
+        "why": "plural-picture word is Tøfler; p must equal s. NAOB tøffel: tøfler. Builder added extra -e (double plural).",
+        "src": "NAOB tøffel"
+      },
+      "snow-boots": {
+        "from": "Snøstøvlere",
+        "to": "Snøstøvler",
+        "why": "plural-picture word is Snøstøvler; p must equal s. Head -støvel: støvler (NAOB tøffel/støvel pattern). Builder added extra -e.",
+        "src": "NAOB støvel"
+      },
+      "sneaker": {
+        "from": "Joggeskoer",
+        "to": "Joggesko",
+        "why": "Head -sko: en sko -> sko (zero plural). Builder over-applied -er; joggesko is unchanged in plural.",
+        "src": "NAOB sko (standard bokmål: sko/sko)"
+      }
+    },
+    "gender": {
+      "rain": {
+        "from": "m",
+        "to": "n",
+        "why": "NAOB regn: genus nøytrum (et; regnet). Builder default-skewed to m.",
+        "src": "NAOB regn"
+      },
+      "scarecrow": {
+        "from": "m",
+        "to": "n",
+        "why": "NAOB fugleskremsel: genus nøytrum (et). Head -skremsel is neuter. Builder mis-set to m.",
+        "src": "NAOB fugleskremsel"
+      }
+    }
+  }
+}

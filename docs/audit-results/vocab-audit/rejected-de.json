@@ -1,0 +1,79 @@
+{
+ "locale": "de",
+ "dropped": [
+  {
+   "key": "lego",
+   "field": "plural",
+   "to": "Lego",
+   "from": "Legos",
+   "note": "Duden widerspricht der Begründung direkt: „das Lego; Genitiv: des Legos, Plural: die Legos <meist ohne Artikel>“ (duden.de/rechtschreibung/Lego_Spielzeug; von mir selbst am Eintrag nachgeprüft, nicht nur über eine Suche). Die Behauptungen des Vorschlags — „no plural in German“ und „‚Legos‘ is an anglicism“ — sind damit widerlegt; Duden verzeichnet den Plural trotz der verbreiteten Marken-Vorschrift „es heißt LEGO, nicht LEGOS“. Der aktuelle Wert „Legos“ ist richtig und muss BLEIBEN; die Änderung wäre eine Verschlechterung (Verlust einer belegten Pluralform). Die separat vorgeschlagene Genus-Korrektur m→n ist davon unberührt richtig — Zielzustand: {Lego, Legos, n}."
+  },
+  {
+   "key": "lettuce",
+   "field": "plural",
+   "to": "Salate",
+   "from": "Salat",
+   "note": "Duden trennt die beiden Lesarten und markiert genau die abgebildete als plurallos: die Bedeutung „Blattsalat, Kopfsalat“ trägt „Grammatik: ohne Plural“, mit den Beispielen „der Salat fängt schon an zu schießen“ und „ein Kopf Salat“ (duden.de/rechtschreibung/Salat_Speise; von mir selbst am Eintrag nachgeprüft). Der Plural „die Salate“ gehört zur Speise-Bedeutung, nicht zum Gemüse. themes=['at_the_supermarket','vegetables'] und en=['Lettuce','Lettuce'] (kein englischer Plural) belegen die Gemüse-Lesart → der aktuelle Wert p=„Salat“ ist RICHTIG. Die Begründung des Vorschlags („heads of lettuce are countable in German exactly like loaves of bread: zwei Salate“) ist durch Duden widerlegt: dort wird die Pflanze mit der Maßangabe „ein Kopf Salat“ gezählt. Die Brot-Analogie trägt gerade nicht — Brot hat den Plural, Kopfsalat nicht. Nebenbefund: „Salate“ hätte den Eintrag zusätzlich Feld für Feld zum bestehenden Schwesterschlüssel „salad“ {Salat, Salate, m} dupliziert — der dort korrekt ist, weil „salad“ die Speise-Bedeutung trägt."
+  }
+ ],
+ "amended": [],
+ "escalated": [
+  {
+   "key": "hair",
+   "field": "singular",
+   "to": "Haar",
+   "from": "Haare",
+   "note": "Duden zwingt hier zu einer Entscheidung, die über eine Formkorrektur hinausgeht — deshalb zurückstellen, nicht anwenden. Zunächst zur Entlastung des Vorschlags: „Haar“ ist für dieses Bild NICHT falsch; Duden führt eigens die Bedeutung 2.a „die Gesamtheit der Haare auf dem Kopf des Menschen; das Kopfhaar“ mit dem Beispiel „sie hat schönes, blondes, rotes, braunes, schwarzes Haar“. ABER: genau diese Bedeutung ist bei Duden mit „Grammatik: ohne Plural“ markiert. Der Plural „die Haare“ gehört zur Bedeutung 1 (das einzelne, fadenförmige Gebilde). Der Vorschlag ändert nur das Singularfeld und erzeugt damit {Haar, Haare} — einen Eintrag, dessen beide Felder zwei verschiedene Duden-Bedeutungen benennen: Kopfhaar im Singularfeld, Einzelhaare im Pluralfeld. Eine Zählübung machte daraus „3 Haare“ für ein Frisurbild. themes=['body_parts'], en=['Hair','Hair'] (kein englischer Plural) und countable:false deuten übereinstimmend auf die Kollektiv-Lesart. Kohärent wären entweder {Haar, Haar, n} (Duden 2.a, ohne Plural) ODER die Beibehaltung des Plural-Labels „Haare“ — beides betrifft AUCH das p-Feld und damit mehr, als dieser Vorschlag abdeckt. Das Genus n ist in beiden Fällen richtig und kein Gegenargument. Entscheidung des Betreibers."
+  },
+  {
+   "key": "ice-skates",
+   "field": "singular",
+   "to": "Schlittschuh",
+   "from": "Schlittschuhe",
+   "note": "Die Formkorrektur ist für sich richtig (der Schlittschuh hat einen regulären Singular), ihr Ergebnis aber eine exakte Dublette: „ice-skate“ trägt bereits {Schlittschuh, Schlittschuhe, m} — nach Anwendung wäre „ice-skates“ Feld für Feld identisch, obwohl beide Schlüssel verschiedene Bilder tragen (themes: sports vs. christmas). Der Vorschlag benennt die Dublette selbst („a duplicate the operator must resolve“) und übergibt sie damit dem Betreiber; nach Brief gehört genau das zurückgestellt statt angewandt. Zu entscheiden ist, ob „ice-skates“ als Paar-/Plural-Label eigenständig bleibt oder der Schlüssel entfällt."
+  },
+  {
+   "key": "pasta",
+   "field": "singular",
+   "to": "Nudel",
+   "from": "Nudeln",
+   "note": "Hier kippt die formal richtige Korrektur die Benennung des Bildes — zurückstellen. „die Nudel“ (Duden: die Nudel; -, -n) ist zwar der korrekte Singular zu „Nudeln“, benennt aber EINE einzelne Nudel; themes=['at_the_supermarket'], en=['Pasta','Pasta'] (kein englischer Plural) und countable:false deuten übereinstimmend auf die Massen-Lesart (Packung/Schüssel Nudeln). Anders als bei peas/jelly-beans/potato-chips, wo das Bild diskrete zählbare Einzelstücke zeigt, ist Pasta hier ein Mengenprodukt: „3 Nudeln“ benennt kein Supermarktregal. Der Vorschlag räumt das in seiner eigenen Begründung ein („the key may need the mass treatment“) — eine Korrektur, die ihre eigene Anwendbarkeit an eine Bildfrage knüpft, gehört nach Brief zurückgestellt. Zur Erleichterung der Entscheidung: will der Betreiber einen Singular, ist „Nudel“ die richtige Form; die Alternativen sind ein Plural-Label {Nudeln, Nudeln} oder ein Lemma-Wechsel auf „Pasta“ (f.) bzw. „Teigwaren“."
+  },
+  {
+   "key": "peas",
+   "field": "singular",
+   "to": "Erbse",
+   "from": "Erbsen",
+   "note": "Vom Vorschlag NICHT bemerkt: der Schwesterschlüssel „pea“ existiert bereits mit {Erbse, Erbsen, f}. Nach Anwendung wäre „peas“ Feld für Feld identisch, obwohl beide Schlüssel verschiedene Bilder tragen (themes: vegetables vs. at_the_supermarket). Das ist exakt die Dublettenklasse, die der Vorschlag bei „shoes“ und „ice-skates“ selbst markiert hat — hier wurde sie übersehen. Die Form „Erbse“ ist richtig (Duden: die Erbse; -, -n) und das Bild zeigt diskret zählbare Einzelstücke, die Bildfrage ist hier also unproblematisch; allein die Dublette gehört dem Betreiber vorgelegt."
+  },
+  {
+   "key": "pretzels",
+   "field": "singular",
+   "to": "Brezel",
+   "from": "Brezeln",
+   "note": "Vom Vorschlag NICHT bemerkt: der Schwesterschlüssel „pretzel“ trägt bereits {Brezel, Brezeln, f}. Zusammen mit der ebenfalls vorgeschlagenen Genus-Korrektur m→f wäre „pretzels“ danach Feld für Feld identisch — Dublette (themes: bakery/food vs. at_the_supermarket). Die Form „Brezel“ ist richtig (Duden: die Brezel; -, -n) und der Defekt real (Plural im Singularfeld, im Brief als Musterfall genannt); zu entscheiden ist der Schlüssel, nicht die Form. Unabhängig davon ist die zugehörige PLURAL-Korrektur („Brezelne“→„Brezeln“) sofort anwendbar und dort mit CONFIRM beurteilt — sie beseitigt ein erfundenes Nichtwort und ist von dieser Entscheidung nicht berührt."
+  },
+  {
+   "key": "shoes",
+   "field": "singular",
+   "to": "Schuh",
+   "from": "Schuhe",
+   "note": "Der Vorschlag markiert es selbst („this then duplicates key ‚shoe‘ — a data-model question“): „shoe“ trägt bereits {Schuh, Schuhe, m}; nach Anwendung wäre „shoes“ Feld für Feld identisch, obwohl es ein eigenes Bild trägt (themes: clothing+objects vs. objects). Nach Brief ist eine Dublette mit einem anderen Schlüssel zurückzustellen, nicht anzuwenden — und der Vorschlag räumt selbst ein, dass die Frage ans Datenmodell geht. Die Form „Schuh“ ist richtig; zu entscheiden ist, ob „shoes“ als Paar-/Plural-Label eigenständig bleibt oder entfällt."
+  },
+  {
+   "key": "sneakers",
+   "field": "singular",
+   "to": "Turnschuh",
+   "from": "Turnschuhe",
+   "note": "Vom Vorschlag NICHT bemerkt: der Schwesterschlüssel „sneaker“ existiert bereits mit {Turnschuh, Turnschuhe, m}. Nach Anwendung wäre „sneakers“ Feld für Feld identisch, obwohl beide Schlüssel verschiedene Bilder tragen (themes: objects+sports vs. objects). Exakt die Dublettenklasse, die der Vorschlag beim Nachbarwort „shoes“ selbst markiert hat — hier übersehen, obwohl die Lage identisch ist. Die Form „Turnschuh“ ist richtig; die Entscheidung über den Schlüssel gehört dem Betreiber."
+  },
+  {
+   "key": "hot",
+   "field": "gender",
+   "to": "n",
+   "from": "m",
+   "note": "Widerspruch zur ersten Runde. „m“ ist zwar falsch, aber „n“ ist nicht richtig, sondern geraten – die Korrektur gehört zurückgestellt statt angewandt. (1) „Heiß“ ist ein reines Adjektiv und hat kein inhärentes Genus; „das Heiß“ ist genauso wenig ein deutsches Substantiv wie „der Heiß“. Die Substantivierung wäre flektiert („das Heiße“) oder ein anderes Lemma („die Hitze“, f). Ein Duden-Stichwort „Heiß, das“ gibt es nicht. (2) Damit ist dies die in Punkt 4 des Auftrags gemeinte blind überdehnte Klasse: der Farbschluss trägt bei Blau/Rot/Gelb, weil deren Substantivierung lexikalisiert und Duden-Stichwort ist – bei „Heiß“ ist sie es nicht. Die Begründung räumt das selbst ein („an adjective has no inherent gender“) und ist die EINZIGE der 56 Korrekturen mit leerem src-Feld, also ohne jeden Beleg. (3) Empirischer Beleg für die Überdehnung: der Datensatz enthält 21 strukturell identische reine Adjektive (cold, sunny, rainy, stormy, cloudy, partly-cloudy, angry, happy, sad, tired, shy, bored, confused, excited, merry, scared, surprised, content, disgusted, capricious, skeptical), die alle ebenfalls das Skript-Default „m“ tragen und von der ersten Runde nicht angefasst wurden. „hot“ allein auf „n“ zu setzen macht die Daten inkonsistenter als sie jetzt sind: gleiche Klasse, zwei Werte. (4) Richtig wäre eine Klassenentscheidung für alle 22 Adjektive (Genusfeld leer bzw. nicht anwendbar, oder Lemmawechsel auf ein Substantiv), keine Einzelfall-Formkorrektur. Deshalb ESCALATE und nicht AMEND: es gibt keinen einzelnen besseren Genuswert, den ich eintragen könnte."
+  }
+ ],
+ "unreviewed": []
+}

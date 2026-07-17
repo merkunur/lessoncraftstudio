@@ -301,7 +301,15 @@ var PictureWordWall = {
   _loadIndex: function () {
     var self = this;
     var loc = this.api.lang;
-    fetch('/mini-tools/pww-index-' + loc + '.json', { cache: 'force-cache' })
+    /* 'no-cache' = REVALIDATE every load, never serve a stale copy. The
+       index is regenerated on every vocab correction, so a child must never
+       be shown a word a fix already removed. `force-cache` used to pin the
+       old index in the browser INDEFINITELY — it overrides the origin's
+       correct `no-cache, must-revalidate` header, so a sv/de correction was
+       live at the origin + CDN yet the wall still spoke the old word. This
+       mode sends a conditional request: a tiny 304 when unchanged, fresh
+       data the instant the index changes. (Operator-reported 2026-07-17.) */
+    fetch('/mini-tools/pww-index-' + loc + '.json', { cache: 'no-cache' })
       .then(function (r) { return r.ok ? r.json() : null; })
       .then(function (j) {
         if (!j) throw new Error('no index');

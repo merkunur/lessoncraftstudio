@@ -1,0 +1,773 @@
+{
+  "locale": "de",
+  "batch": "09",
+  "reviewed": 110,
+  "rows": [
+    {
+      "key": "pudding",
+      "image_seen": "desserts and sweets/pudding@2x.webp — a pale panna-cotta/custard pudding on a plate with red sauce and a strawberry on top",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Duden: der Pudding, Plural die Puddinge und Puddings — 'Puddings' is attested", "source": "https://www.duden.de/rechtschreibung/Pudding" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "puddle",
+      "image_seen": "spring/puddle@2x.webp — a blue puddle of water",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "pufferfish",
+      "image_seen": "ocean life/pufferfish@2x.webp — a round yellow puffer fish with orange fins",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "puffin",
+      "image_seen": "birds 2/puffin@2x.webp — a black-and-white puffin with orange/yellow bill",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Duden: der Papageientaucher, Plural die Papageientaucher (zero plural)", "source": "https://www.duden.de/rechtschreibung/Papageientaucher" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "pumpkin",
+      "image_seen": "At the Supermarket/pumpkin@2x.webp — an orange ribbed pumpkin with green stem",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "purple",
+      "image_seen": "colors/purple@2x.webp — a purple droplet colour swatch",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "adjective (Lila) — no plural" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "purse",
+      "image_seen": "accessories/purse@2x.webp — a red-and-pink HANDBAG with a top handle and flap clasp (a handbag, NOT a coin purse/wallet)",
+      "singular": { "verdict": "HOLD", "reason": "Lemma mismatch: the picture is a Handtasche (handbag), but 'Geldbörse' means a coin purse/wallet. Swedish flagged the same shared art. Recommend Handtasche (f, Plural Handtaschen). Operator must decide word-vs-art (§HOLD: another lemma)." },
+      "plural": { "verdict": "OK", "reason": "'Geldbörsen' is the correct plural of the current lemma Geldbörse; but see singular — the picture is a Handtasche" },
+      "gender": { "verdict": "OK", "reason": "feminine either way (die Geldbörse / die Handtasche)" }
+    },
+    {
+      "key": "push-pin",
+      "image_seen": "education bw/push_pin@2x.webp — a line-art push pin / drawing pin",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "die Reißzwecke → die Reißzwecken" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "puzzle",
+      "image_seen": "activities/puzzle@2x.webp — a four-piece coloured jigsaw puzzle",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "pyramid",
+      "image_seen": "shapes/pyramid@2x.webp — a purple 3D pyramid solid",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "quail",
+      "image_seen": "birds 2/quail@2x.webp — a small crested ground bird (labelled quail)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "rabbit",
+      "image_seen": "animals/rabbit@2x.webp — a sitting tan bunny with long ears",
+      "singular": { "verdict": "OK", "reason": "Kaninchen (rabbit), correct — not Hase (hare)" },
+      "plural": { "verdict": "OK", "reason": "das Kaninchen → die Kaninchen (zero plural)" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "raccoon",
+      "image_seen": "animals/raccoon@2x.webp — a grey raccoon with masked face and ringed tail",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "weak masculine: der Waschbär → die Waschbären" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "race-car",
+      "image_seen": "toys/race_car@2x.webp — a blue open-wheel formula race car",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "der Rennwagen → die Rennwagen (zero plural)" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "radish",
+      "image_seen": "vegetables/radish@2x.webp — a small red radish with green leaves",
+      "singular": { "verdict": "OK", "reason": "Radieschen (small red radish), correct — not Rettich" },
+      "plural": { "verdict": "OK", "reason": "das Radieschen → die Radieschen (zero plural)" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "rain",
+      "image_seen": "spring/rain@2x.webp — a rain cloud with falling raindrops",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "der Regen → die Regen (rare but attested zero-form plural); everyday sense is mass" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "rain-boots",
+      "image_seen": "accessories/rain_boots@2x.webp — a PAIR of yellow-and-teal rubber boots",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "plural-picture (a pair): der Gummistiefel → die Gummistiefel (zero plural); label doubles as the plural" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "rainbow",
+      "image_seen": "easter/rainbow@2x.webp — a rainbow arch between two clouds",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "umlaut plural correct: der Regenbogen → die Regenbögen" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "raincoat",
+      "image_seen": "clothing/raincoat@2x.webp — a yellow hooded raincoat",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "umlaut plural correct: der Regenmantel → die Regenmäntel" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "raindrop",
+      "image_seen": "weather/raindrop@2x.webp — a single blue water drop",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "der Regentropfen → die Regentropfen (zero plural)" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "rainy",
+      "image_seen": "weather/rainy@2x.webp — a grey rain cloud with heavy raindrops (weather state)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "adjective (regnerisch) — no plural" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "rake",
+      "image_seen": "around the house/rake@2x.webp — a red-headed garden/leaf rake with wooden handle",
+      "singular": { "verdict": "OK", "reason": "Rechen (Harke is a synonym); matches the picture" },
+      "plural": { "verdict": "OK", "reason": "Duden: der Rechen → die Rechen (zero plural)", "source": "https://www.duden.de/rechtschreibung/Rechen" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "raspberry",
+      "image_seen": "At the Supermarket/raspberry@2x.webp — a single red raspberry with stem",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "ray",
+      "image_seen": "ocean life/ray@2x.webp — a cute orange stingray/manta ray",
+      "singular": { "verdict": "OK", "reason": "Rochen (the fish), matches the picture" },
+      "plural": { "verdict": "OK", "reason": "der Rochen → die Rochen (zero plural)" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "read",
+      "singular": { "verdict": "OK", "reason": "no image; substantivized infinitive das Lesen for the verb 'read'" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "substantivized infinitive (das Lesen) has no plural; classification hasPlural is wrong here" },
+      "gender": { "verdict": "OK", "reason": "das Lesen — neuter" }
+    },
+    {
+      "key": "reading",
+      "image_seen": "activities/reading@2x.webp — a girl sitting cross-legged reading an open book",
+      "singular": { "verdict": "OK", "reason": "das Lesen — the activity 'reading'" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "activity/substantivized infinitive — no plural" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "rectangle",
+      "image_seen": "shapes/rectangle@2x.webp — a light-purple rectangle outline",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "rectangular-box",
+      "image_seen": "shapes/rectangular_box@2x.webp — a blue 3D cuboid solid",
+      "singular": { "verdict": "OK", "reason": "Quader (cuboid) is the right German solid name" },
+      "plural": { "verdict": "OK", "reason": "der Quader → die Quader (zero plural)" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "red",
+      "image_seen": "colors/red@2x.webp — a red droplet colour swatch",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "adjective (rot) — no plural" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "redbud-tree",
+      "image_seen": "tree/redbud@2x.webp — a tree with a dense red-blossom crown",
+      "singular": { "verdict": "OK", "reason": "Judasbaum (Cercis / redbud), matches the key" },
+      "plural": { "verdict": "OK", "reason": "umlaut plural: der Judasbaum → die Judasbäume" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "redwood-tree",
+      "image_seen": "tree/redwood@2x.webp — a tall green-crowned tree with a reddish-brown trunk",
+      "singular": { "verdict": "OK", "reason": "Mammutbaum (redwood/sequoia), matches the key" },
+      "plural": { "verdict": "OK", "reason": "umlaut plural: der Mammutbaum → die Mammutbäume" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "refrigerator",
+      "image_seen": "around the house/refrigerator@2x.webp — an orange top-freezer fridge",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "umlaut plural: der Kühlschrank → die Kühlschränke" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "reindeer",
+      "image_seen": "animals/reindeer@2x.webp — a brown reindeer/fawn with antlers",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "das Rentier → die Rentiere" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "remote-control",
+      "image_seen": "around the house/remote_control@2x.webp — a dark TV remote with buttons",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "rhino",
+      "image_seen": "faces bw/rhino@2x.webp — a line-art rhinoceros face with horn",
+      "singular": { "verdict": "OK", "reason": "Nashorn (rhino)" },
+      "plural": { "verdict": "OK", "reason": "Duden: das Nashorn → die Nashörner (umlaut)", "source": "https://www.duden.de/rechtschreibung/Nashorn" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "rhinoceros",
+      "image_seen": "zoo animals/rhinoceros@2x.webp — a full-body red-brown rhinoceros",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "das Nashorn → die Nashörner (umlaut)", "source": "https://www.duden.de/rechtschreibung/Nashorn" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "ribbon",
+      "image_seen": "accessories/ribbon@2x.webp — a tied red decorative BOW with two dangling tails (a bow/Schleife, not a plain ribbon strip)",
+      "singular": { "verdict": "HOLD", "reason": "Picture is a tied bow (Schleife, f, Plural Schleifen); the current word 'Band' (n) is a ribbon strip. English 'ribbon' does map to Band, but the art clearly shows a bow. Operator decides word-vs-art (§HOLD: another lemma / picture question)." },
+      "plural": { "verdict": "OK", "reason": "'Bänder' (das Band → die Bänder) is the correct plural for the ribbon sense of the current lemma; but see singular (the picture is a Schleife)" },
+      "gender": { "verdict": "OK", "reason": "n is correct for the current lemma das Band; would be f (die Schleife) if changed to match the picture" }
+    },
+    {
+      "key": "rice",
+      "image_seen": "At the Supermarket/rice@2x.webp — an open bag full of white rice grains",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "mass noun (der Reis); no child-level plural for the depicted grain" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "ring",
+      "image_seen": "accessories/ring@2x.webp — a gold ring with a blue gemstone",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "der Ring → die Ringe" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "river",
+      "image_seen": "camping/river@2x.webp — a river running through a mountain landscape",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "umlaut plural: der Fluss → die Flüsse" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "roasted-turkey",
+      "image_seen": "thanksgivinng/roasted_turkey@2x.webp — a whole roasted turkey on a platter with garnish",
+      "singular": { "verdict": "OK", "reason": "adjective+noun phrase 'Gebratener Truthahn' (strong declension); acceptable as a dish label" },
+      "plural": { "verdict": "OK", "reason": "umlaut plural: die gebratenen Truthähne" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "robin",
+      "image_seen": "birds 2/robin@2x.webp — a robin with orange breast and brown back",
+      "singular": { "verdict": "OK", "reason": "Rotkehlchen (European robin)" },
+      "plural": { "verdict": "OK", "reason": "das Rotkehlchen → die Rotkehlchen (zero plural)" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "robot",
+      "image_seen": "toys/robot@2x.webp — a retro orange-and-red toy robot",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "der Roboter → die Roboter (zero plural)" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "rock",
+      "image_seen": "beach/rock@2x.webp — a single detached boulder/rock",
+      "singular": { "verdict": "OK", "reason": "Felsen is acceptable for a boulder (Swedish flagged this shared art, but the German word fits)" },
+      "plural": { "verdict": "OK", "reason": "der Felsen → die Felsen (zero plural)" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "rocket",
+      "image_seen": "space/rocket@2x.webp — a red-and-white rocket with flame",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "die Rakete → die Raketen" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "rocking-chair",
+      "image_seen": "home bw/rocking_chair@2x.webp — a line-art wooden rocking chair with runners",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "umlaut plural: der Schaukelstuhl → die Schaukelstühle" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "rocking-horse",
+      "image_seen": "toys bw/rocking_horse@2x.webp — a line-art rocking horse on runners",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "das Schaukelpferd → die Schaukelpferde" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "rollerblade",
+      "image_seen": "sports bw/rollerblade@2x.webp — a line-art inline skate with four wheels",
+      "singular": { "verdict": "OK", "reason": "Inlineskate (matches the pictured inline skate)" },
+      "plural": { "verdict": "OK", "reason": "Duden: der Inlineskate, Plural die Inlineskates", "source": "https://www.duden.de/rechtschreibung/Inlineskate" },
+      "gender": { "verdict": "OK", "reason": "Duden: der Inlineskate (maskulin)", "source": "https://www.duden.de/rechtschreibung/Inlineskate" }
+    },
+    {
+      "key": "rolling-pin",
+      "image_seen": "kitchen tools/rolling_pin@2x.webp — a wooden rolling pin with red handles",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "umlaut plural: das Nudelholz → die Nudelhölzer" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "rooster",
+      "image_seen": "birds 2/rooster@2x.webp — a rooster with red comb and dark tail",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "umlaut plural: der Hahn → die Hähne" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "rope",
+      "image_seen": "camping/rope@2x.webp — a twisted brown rope looped with a frayed end",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "das Seil → die Seile" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "rose",
+      "image_seen": "flowers/rose@2x.webp — a single red rose flower with leaves",
+      "singular": { "verdict": "OK", "reason": "Rose (the flower), matches the picture" },
+      "plural": { "verdict": "OK", "reason": "die Rose → die Rosen" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "rosette",
+      "image_seen": "sports bw/rosette@2x.webp — a line-art award rosette with a star and ribbon tails",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "die Rosette → die Rosetten" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "rubber-boot",
+      "image_seen": "tools bw/rubber_boot@2x.webp — a single line-art rubber/wellington boot",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "der Gummistiefel → die Gummistiefel (zero plural)" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "rudolph",
+      "image_seen": "christmas/rudolph@2x.webp — a reindeer with a glowing red nose (Rudolph)",
+      "singular": { "verdict": "OK", "reason": "proper name of the reindeer (spelling Rudolph as in the English original)" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "proper noun (a name) — no plural; classification hasPlural is wrong here" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "rug",
+      "image_seen": "around the house/rug@2x.webp — a cream rug with polka dots and red fringed border",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "der Teppich → die Teppiche" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "ruler",
+      "image_seen": "classroom/ruler@2x.webp — a yellow measuring ruler with scale markings",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "das Lineal → die Lineale" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "run",
+      "singular": { "verdict": "OK", "reason": "no image; substantivized infinitive das Laufen for the verb 'run'" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "substantivized infinitive (das Laufen) has no plural; classification hasPlural is wrong here" },
+      "gender": { "verdict": "OK", "reason": "das Laufen — neuter" }
+    },
+    {
+      "key": "running",
+      "image_seen": "activities/running@2x.webp — a girl in sportswear running",
+      "singular": { "verdict": "OK", "reason": "das Laufen — the activity 'running'" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "activity/substantivized infinitive — no plural" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "sack",
+      "image_seen": "christmas/sack@2x.webp — a red drawstring sack (Santa's sack)",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "umlaut plural: der Sack → die Säcke" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "sad",
+      "image_seen": "emotions/sad@2x.webp — a sad yellow face with downturned mouth and blushing cheeks",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "adjective (traurig) — no plural" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "sailboat",
+      "image_seen": "beach/sailboat@2x.webp — a red-hulled sailboat with white sails and flag",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "das Segelboot → die Segelboote" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "salad",
+      "singular": { "verdict": "OK", "reason": "no image; Salat is correct" },
+      "plural": { "verdict": "OK", "reason": "der Salat → die Salate" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "salamander",
+      "image_seen": "reptiles and Amphibians/salamander@2x.webp — an orange-red salamander/newt",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "der Salamander → die Salamander (zero plural)" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "salt",
+      "image_seen": "At the Supermarket/salt@2x.webp — a glass jar labelled SALT with fine white salt",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "depicted table salt is a mass noun. Duden lists 'die Salze', but that is the chemistry sense (types of salt), not the depicted condiment (cf. brief's lettuce/lego trap)" },
+      "gender": { "verdict": "OK", "reason": "Duden: das Salz (Neutrum)", "source": "https://www.duden.de/rechtschreibung/Salz" }
+    },
+    {
+      "key": "salt-shaker",
+      "image_seen": "kitchen tools/salt_shaker@2x.webp — a glass salt shaker with a dark perforated lid",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "der Salzstreuer → die Salzstreuer (zero plural)" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "sand",
+      "image_seen": "summer/sand@2x.webp — a heap/pile of sand",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "mass noun (der Sand); no child-level plural" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "sandals",
+      "image_seen": "beach/sandals@2x.webp — a PAIR of purple strappy sandals",
+      "singular": { "verdict": "OK", "reason": "Sandale correctly names one sandal" },
+      "plural": { "verdict": "OK", "reason": "plural-picture (a genuine pair): die Sandale → die Sandalen" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "sandbox",
+      "image_seen": "toys/sandbox@2x.webp — a green wooden sandbox with sand and a shovel",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "umlaut plural: der Sandkasten → die Sandkästen" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "sandcastle",
+      "image_seen": "beach/sandcastle@2x.webp — a sandcastle with towers and a red flag",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "die Sandburg → die Sandburgen" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "sandwich",
+      "image_seen": "food bw/sandwich@2x.webp — a line-art layered sandwich",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Duden: das/der Sandwich, Plural Sandwiches (also Sandwiche)", "source": "https://www.duden.de/rechtschreibung/Sandwich" },
+      "gender": { "verdict": "OK", "reason": "Duden: das oder der Sandwich; 'das' (n) is valid", "source": "https://www.duden.de/rechtschreibung/Sandwich" }
+    },
+    {
+      "key": "sanitation-worker",
+      "image_seen": "occupations/sanitation_worker@2x.webp — a male worker in overalls and hard hat with a wheelie bin and pitchfork",
+      "singular": { "verdict": "OK", "reason": "Müllmann fits the depicted male sanitation worker" },
+      "plural": { "verdict": "OK", "reason": "Duden: der Müllmann → die Müllmänner (selten Müllleute)", "source": "https://www.duden.de/rechtschreibung/Muellmann" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "santa",
+      "image_seen": "christmas/santa@2x.webp — a waving Santa Claus in red suit and hat",
+      "singular": { "verdict": "OK", "reason": "Weihnachtsmann — correctly a singular, not a definite form" },
+      "plural": { "verdict": "OK", "reason": "umlaut plural: der Weihnachtsmann → die Weihnachtsmänner" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "santa-claus",
+      "image_seen": "Christmas bw 2/santa_claus@2x.webp — a line-art Santa Claus with arms raised",
+      "singular": { "verdict": "OK", "reason": "Weihnachtsmann" },
+      "plural": { "verdict": "OK", "reason": "umlaut plural: der Weihnachtsmann → die Weihnachtsmänner" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "santa-hat",
+      "image_seen": "Christmas bw/santa_hat@2x.webp — a line-art Santa hat with pom-pom",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "die Weihnachtsmütze → die Weihnachtsmützen" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "satellite",
+      "image_seen": "space/satellite@2x.webp — a satellite with solar panels and a dish",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "weak masculine: der Satellit → die Satelliten" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "saturn",
+      "image_seen": "space/saturn@2x.webp — the planet Saturn with its ring system",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "proper noun (planet name) — no plural" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "sauce",
+      "image_seen": "At the Supermarket/sauce@2x.webp — a bottle of red sauce (ketchup/hot sauce) with cork",
+      "singular": { "verdict": "OK", "reason": "Soße (Sauce), generic for the depicted red sauce" },
+      "plural": { "verdict": "OK", "reason": "die Soße → die Soßen" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "saucepan",
+      "image_seen": "kitchen tools/saucepan@2x.webp — a copper saucepan with one long handle and a small helper handle",
+      "singular": { "verdict": "OK", "reason": "Kochtopf is acceptable/generic for the pot (a more precise term would be Stielkasserolle)" },
+      "plural": { "verdict": "OK", "reason": "umlaut plural: der Kochtopf → die Kochtöpfe" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "sausage",
+      "image_seen": "At the Supermarket/sausage@2x.webp — a single red sausage with tied ends",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "umlaut plural: die Wurst → die Würste" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "saxophone",
+      "image_seen": "music/saxophone@2x.webp — a golden saxophone",
+      "singular": { "verdict": "OK", "reason": "Saxophon (also Saxofon)" },
+      "plural": { "verdict": "OK", "reason": "das Saxophon → die Saxophone" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "scale",
+      "image_seen": "post office/scale@2x.webp — a digital platform weighing scale showing 05.0",
+      "singular": { "verdict": "OK", "reason": "Waage (weighing scale), matches the picture" },
+      "plural": { "verdict": "OK", "reason": "die Waage → die Waagen" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "scallop",
+      "image_seen": "ocean life/scallop@2x.webp — a fan-shaped scallop shell",
+      "singular": { "verdict": "OK", "reason": "Jakobsmuschel (scallop)" },
+      "plural": { "verdict": "OK", "reason": "die Jakobsmuschel → die Jakobsmuscheln" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "scarecrow",
+      "image_seen": "miscellaneous/scarecrow@2x.webp — a scarecrow with straw hair, hat and red coat on a pole",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "die Vogelscheuche → die Vogelscheuchen" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "scared",
+      "image_seen": "emotions/scared@2x.webp — a frightened yellow face with wide eyes and open mouth",
+      "singular": { "verdict": "OK", "reason": "verängstigt (also ängstlich/erschrocken)" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "adjective — no plural" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "scarf",
+      "image_seen": "accessories/scarf@2x.webp — a knitted winter scarf with fringed ends",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "der Schal → die Schals (also Schale)" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "scarlet",
+      "image_seen": "colors/scarlet@2x.webp — a red droplet colour swatch",
+      "singular": { "verdict": "OK", "reason": "scharlachrot (scarlet)" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "adjective — no plural" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "school-bus",
+      "image_seen": "vehicles/school_bus@2x.webp — a yellow school bus reading 'SCHOOL BUS'",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "der Schulbus → die Schulbusse" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "science",
+      "image_seen": "activities/science@2x.webp — a MICROSCOPE (ART_DEFECT flagged); judged against the KEY 'science' = Wissenschaft",
+      "singular": { "verdict": "OK", "reason": "Wissenschaft = science, correct for the key" },
+      "plural": { "verdict": "FIX", "correct": "Wissenschaften", "reason": "the builder left '-schaft' unchanged (its documented gap). Duden attests die Wissenschaft → die Wissenschaften ('die Akademie der Wissenschaften'); the current zero-form 'Wissenschaft' is not a plural", "source": "https://www.duden.de/rechtschreibung/Wissenschaft" },
+      "gender": { "verdict": "OK", "reason": "Duden: die Wissenschaft (feminin)", "source": "https://www.duden.de/rechtschreibung/Wissenschaft" }
+    },
+    {
+      "key": "scissors",
+      "image_seen": "around the house/scissors@2x.webp — a pair of scissors with red handles",
+      "singular": { "verdict": "OK", "reason": "die Schere is one object (German is not pluralia tantum here)" },
+      "plural": { "verdict": "OK", "reason": "die Schere → die Scheren" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "scooter",
+      "image_seen": "toys/scooter@2x.webp — a blue MOTOR scooter (Vespa-type) with mirrors, seat and wheels",
+      "singular": { "verdict": "OK", "reason": "the picture is a Motorroller; 'Roller' validly denotes a motor scooter per Duden (Roller sense 2 = kurz für Motorroller). Swedish flagged this shared art, but the German word fits." },
+      "plural": { "verdict": "OK", "reason": "der Roller → die Roller (zero plural)" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "screw",
+      "image_seen": "tools bw/screw@2x.webp — a line-art screw with rounded head and thread",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "die Schraube → die Schrauben" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "screwdriver",
+      "image_seen": "tools/screwdriver@2x.webp — a screwdriver with red/yellow handle",
+      "singular": { "verdict": "OK", "reason": "Schraubenzieher (also Schraubendreher)" },
+      "plural": { "verdict": "OK", "reason": "der Schraubenzieher → die Schraubenzieher (zero plural)" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "scrubs",
+      "image_seen": "hospital/scrubs@2x.webp — a teal medical scrubs top with a stethoscope",
+      "singular": { "verdict": "OK", "reason": "OP-Kleidung is acceptable for scrubs (a single top would more precisely be a Kasack)" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "mass/collective (die OP-Kleidung); no child-level plural" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "scuba-diving",
+      "image_seen": "travel and holiday bw/scuba_diving@2x.webp — a line-art DIVING MASK with snorkel (ART_DEFECT flagged); judged against the KEY 'scuba-diving' = Tauchen",
+      "singular": { "verdict": "OK", "reason": "das Tauchen = (scuba) diving, correct for the key" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "substantivized infinitive (das Tauchen) — no plural; classification hasPlural comes from the art (a mask), not the word" },
+      "gender": { "verdict": "OK", "reason": "das Tauchen — neuter" }
+    },
+    {
+      "key": "sea-horse",
+      "image_seen": "ocean life/sea_horse@2x.webp — a yellow-and-red seahorse",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "das Seepferdchen → die Seepferdchen (zero plural)" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "sea-lion",
+      "image_seen": "ocean life/sea_lion@2x.webp — a grey sea lion sitting up",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "weak masculine: der Seelöwe → die Seelöwen" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "sea-snail",
+      "singular": { "verdict": "OK", "reason": "no image; Meeresschnecke is correct" },
+      "plural": { "verdict": "OK", "reason": "die Meeresschnecke → die Meeresschnecken" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "sea-turtle",
+      "image_seen": "ocean life/sea_turtle@2x.webp — a green sea turtle with brown shell",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "die Meeresschildkröte → die Meeresschildkröten" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "seagull",
+      "image_seen": "animals/seagull@2x.webp — a white-and-grey seagull with orange bill",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "die Möwe → die Möwen" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "seahorse",
+      "image_seen": "animals bw/seahorse@2x.webp — a line-art seahorse with curled tail",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "das Seepferdchen → die Seepferdchen (zero plural)" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "seal",
+      "image_seen": "ocean life/seal@2x.webp — a brown eared seal / sea lion",
+      "singular": { "verdict": "OK", "reason": "Robbe is the correct general German word for a seal" },
+      "plural": { "verdict": "OK", "reason": "die Robbe → die Robben" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "seashell",
+      "image_seen": "beach/seashell@2x.webp — a fan-shaped scallop seashell",
+      "singular": { "verdict": "OK", "reason": "Muschel (seashell)" },
+      "plural": { "verdict": "OK", "reason": "die Muschel → die Muscheln" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "seaweed",
+      "image_seen": "ocean life/seaweed@2x.webp — green seaweed fronds",
+      "singular": { "verdict": "OK", "reason": "Seetang" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "mass noun (der Seetang); no child-level plural" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "sequoia-tree",
+      "image_seen": "tree/sequoia@2x.webp — a large green-crowned tree with a thick brown trunk",
+      "singular": { "verdict": "OK", "reason": "Riesenmammutbaum (giant sequoia)" },
+      "plural": { "verdict": "OK", "reason": "umlaut plural: der Riesenmammutbaum → die Riesenmammutbäume" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "sewing",
+      "image_seen": "activities/sewing@2x.webp — a red SEWING MACHINE (ART_DEFECT flagged); judged against the KEY 'sewing' = Nähen",
+      "singular": { "verdict": "OK", "reason": "das Nähen = sewing, correct for the key" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "substantivized infinitive (das Nähen) — no plural; classification hasPlural comes from the art (a machine), not the word" },
+      "gender": { "verdict": "OK", "reason": "das Nähen — neuter" }
+    },
+    {
+      "key": "sewing-machine",
+      "image_seen": "home bw 2/sewing_machine@2x.webp — a line-art sewing machine",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "die Nähmaschine → die Nähmaschinen" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "shampoo",
+      "image_seen": "around the house/shampoo@2x.webp — a blue pump bottle of shampoo",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "das Shampoo → die Shampoos" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "shark",
+      "image_seen": "ocean life/shark@2x.webp — a blue shark with white belly and teeth",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "der Hai → die Haie" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "sheep",
+      "image_seen": "animals/sheep@2x.webp — a fluffy white sheep/lamb",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "English zero-plural is countable in German: das Schaf → die Schafe" },
+      "gender": { "verdict": "OK" }
+    }
+  ]
+}

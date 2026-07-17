@@ -1,0 +1,1790 @@
+{
+ "locale": "de",
+ "batch": "10",
+ "reviewed": 110,
+ "rows": [
+  {
+   "key": "shelf",
+   "image_seen": "classroom/shelf@2x.webp — two red wall-mounted shelf boards on brackets (also furniture/shelf)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: das Regal, Plural: die Regale. Duden 404s on the bare slug /Regal — the noun sits at the disambiguated slug Regal_Gestell; that 404 is why earlier reviewers gave up.",
+    "source": "https://www.duden.de/rechtschreibung/Regal_Gestell"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "ship",
+   "image_seen": "vehicles/ship@2x.webp — a large navy/red steamship with bridge, funnels and flags",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: das Schiff; Plural: die Schiffe",
+    "source": "https://www.duden.de/rechtschreibung/Schiff"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "shirt",
+   "image_seen": "clothing/shirt@2x.webp — a pink short-sleeve button-up shirt with red collar and chest pocket",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: das Hemd; Plural: die Hemden",
+    "source": "https://www.duden.de/rechtschreibung/Hemd"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "shoe",
+   "image_seen": "clothing/shoe@2x.webp — ONE brown leather loafer",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Schuh; Plural: die Schuhe und Schuh (the bare form is the measure word only)",
+    "source": "https://www.duden.de/rechtschreibung/Schuh"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "shoes",
+   "image_seen": "objects bw/shoes_2@2x.webp — a PAIR of laced low shoes (resolves only via shoes_2, and only in the BW theme)",
+   "singular": {
+    "verdict": "OK",
+    "reason": "plural-picture: the art is a pair and the label IS the plural — Schuhe is the correct plural of der Schuh",
+    "source": "https://www.duden.de/rechtschreibung/Schuh"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "plural-picture: the label IS the plural; nothing further",
+    "source": "https://www.duden.de/rechtschreibung/Schuh"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "shopping-bag",
+   "image_seen": "Christmas bw/shopping_bag@2x.webp — a stiff paper carrier bag with rope handles and a star motif (also valentine bw)",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Einkaufstasche names the pictured object at child level. NOTE for the art log: the drawn bag is strictly an Einkaufstuete (Duden: 'Tuete aus festem Papier ... mit Tragegriffen'); Tasche vs Tuete is a material refinement, not a misnaming. Not raised to HOLD.",
+    "source": "https://www.duden.de/rechtschreibung/Einkaufstasche"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Einkaufstasche; Plural: die Einkaufstaschen",
+    "source": "https://www.duden.de/rechtschreibung/Einkaufstasche"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "shopping-cart",
+   "image_seen": "travel and holiday bw/shopping_cart@2x.webp — a shopping trolley on four wheels holding two paper bags",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Einkaufswagen; Plural: die Einkaufswagen, Einkaufswaegen — the stored zero plural is the primary form",
+    "source": "https://www.duden.de/rechtschreibung/Einkaufswagen"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "shorts",
+   "image_seen": "clothing/shorts@2x.webp — ONE pair of teal drawstring shorts (also summer/shorts)",
+   "singular": {
+    "verdict": "PLURALIA_TANTUM",
+    "reason": "CONTRADICTS THE BRIEF, DUDEN WINS. The brief lists shorts under the inverse trap 'English pluralia tantum over ONE object ... de Hose->Hosen is CORRECT' and the row is classified countable-thing/hasPlural:true. But German Shorts is NOT Hose: Duden gives Wortart = Pluralwort, Grammatik = 'nur im Plural' (example 'ein Paar Shorts'). There is no singular *die Short. The picture showing ONE garment does not create a German singular — the trap applies to Hose/Schere/Treppe, which Duden inflects, not to Shorts, which it does not. The stored value 'Shorts' is the only existing form, so nothing is rewritten; the field is flagged as plural-only.",
+    "source": "https://www.duden.de/rechtschreibung/Shorts"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "plural-only word: the label IS the plural; Duden 'nur im Plural'",
+    "source": "https://www.duden.de/rechtschreibung/Shorts"
+   },
+   "gender": {
+    "verdict": "HOLD",
+    "reason": "Duden assigns NO Genus to Shorts — it is a Pluralwort, and German plural-only nouns carry no gender ('die Shorts' is the plural article, not a feminine one). The stored 'f' is not attestable from the authority. This is an internal model contradiction (hasGender:true vs word class), not a form error — flagged rather than rewritten, per 'never rewrite blind'. If a code must be carried, 'f' (die+plural) is harmless convention, but record it as a model artefact, not Duden-backed.",
+    "source": "https://www.duden.de/rechtschreibung/Shorts"
+   }
+  },
+  {
+   "key": "shoulder",
+   "image_seen": "body parts/shoulder@2x.webp — a bare torso with a pink arrow pointing at the shoulder joint",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Schulter; Plural: die Schultern",
+    "source": "https://www.duden.de/rechtschreibung/Schulter"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "shovel",
+   "image_seen": "around the house/shovel@2x.webp — a pointed-blade digging shovel with a red shaft and D-grip; beach/toys/spring/winter show toy sand and snow shovels",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Schaufel is the right cross-theme word: this key carries six themes and the beach + toy art is unambiguously a Schaufel. NOTE for the art log: the around-the-house and winter blades are pointed and would be a Spaten in isolation (Duden Spaten: 'viereckiges, unten mit einer Schneide versehenes Blatt und langem Stiel'). Judging to the one word that fits all six themes, Schaufel stands.",
+    "source": "https://www.duden.de/rechtschreibung/Schaufel"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Schaufel; Plural: die Schaufeln",
+    "source": "https://www.duden.de/rechtschreibung/Schaufel"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "shrimp",
+   "image_seen": "ocean life/shrimp@2x.webp — a red shrimp with long antennae, curled tail and black eye",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Garnele; Plural: die Garnelen",
+    "source": "https://www.duden.de/rechtschreibung/Garnele"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "shuttlecock",
+   "image_seen": "sports bw 2/shuttlecock@2x.webp — a badminton shuttlecock: feather skirt above a rounded cork",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Federball; Plural: die Federbaelle (umlaut plural — the builder cannot form these, but this one is already correct)",
+    "source": "https://www.duden.de/rechtschreibung/Federball"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "shy",
+   "image_seen": "emotions/shy@2x.webp — a yellow-orange face with big blushing cheeks, raised brows and a small closed smile",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "adjective: no plural",
+    "source": "https://www.duden.de/rechtschreibung/schuechtern"
+   },
+   "gender": {
+    "verdict": "OK",
+    "reason": "adjective: no gender",
+    "source": "https://www.duden.de/rechtschreibung/schuechtern"
+   }
+  },
+  {
+   "key": "sickle",
+   "image_seen": "tools bw/sickle@2x.webp — a curved hook blade on a long straight handle",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Sichel names the key. NOTE for the art log: Duden Sichel = 'halbkreisfoermig gebogene Metallklinge und ein meist hoelzerner Griff' — a SHORT grip. The drawn handle is long, reading closer to a Sense (scythe). The word follows the key; the proportion is an art issue.",
+    "source": "https://www.duden.de/rechtschreibung/Sichel"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Sichel; Plural: die Sicheln",
+    "source": "https://www.duden.de/rechtschreibung/Sichel"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "signpost",
+   "image_seen": "beach bw 2/signpost@2x.webp — a wooden arrow-shaped sign board nailed to a post (also travel and holiday bw)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Wegweiser; Plural: die Wegweiser",
+    "source": "https://www.duden.de/rechtschreibung/Wegweiser"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "singer",
+   "image_seen": "occupations/singer@2x.webp — a dark-haired boy singing into a mic stand while holding a guitar (also music/singer)",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Saenger = male singer; the pictured singer is a boy, so the masculine is right",
+    "source": "https://www.duden.de/rechtschreibung/Saenger"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Saenger; Plural: die Saenger",
+    "source": "https://www.duden.de/rechtschreibung/Saenger"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "singing",
+   "image_seen": "activities/singing@2x.webp — a MICROPHONE (dark mesh ball head, blue-grey body, yellow rings, cable). ART_DEFECT: no singing, no singer.",
+   "singular": {
+    "verdict": "OK",
+    "reason": "ART_DEFECT row — per the operator ruling the FILENAME is the reference, so the word follows the key 'singing': das Singen, the substantivized infinitive of singen. Correct for the key; the art is the bug.",
+    "source": "https://www.duden.de/rechtschreibung/singen"
+   },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Substantivized infinitive: no plural. The stored value repeats the singular = the safe zero. Do NOT let the art-derived classification (countable-thing/hasPlural:true, from Mikrofon->Mikrofone) drive an inflection: *Singens / *die Singen is exactly the manufactured garbage this commission deletes. The category was derived from the ART and is contradicted by the KEY — a finding that outranks the file.",
+    "source": "https://www.duden.de/rechtschreibung/singen"
+   },
+   "gender": {
+    "verdict": "OK",
+    "reason": "Substantivized infinitives are always neuter: das Singen",
+    "source": "https://www.duden.de/rechtschreibung/singen"
+   }
+  },
+  {
+   "key": "sink",
+   "image_seen": "around the house/sink@2x.webp — a pink PEDESTAL WASHBASIN: single oval bowl, one tap plus two cross handles, on a floor pedestal. A bathroom fixture — no counter, no cupboard, no draining board.",
+   "singular": {
+    "verdict": "HOLD",
+    "reason": "LEMMA MISMATCH, confirmed against the picture and the authority — independently reproduces the Swedish finding on the same shared art. Duden Spuele = 'schrankartiges Kuechenmoebel mit Spuelbecken' — a KITCHEN CABINET UNIT with a sink in it. The picture is a bathroom pedestal basin, which Duden names Waschbecken: '[an der Wand befestigtes] Becken zum Waschen der Haende, des Koerpers'. NOT an ART_DEFECT row: English 'sink' covers both the kitchen and the bathroom fixture; German does not, and the wrong one was chosen. HOLD rather than FIX because the correction is a different lemma AND changes gender AND plural. RECOMMENDED: s=Waschbecken, p=Waschbecken, g=n.",
+    "source": "https://www.duden.de/rechtschreibung/Waschbecken"
+   },
+   "plural": {
+    "verdict": "HOLD",
+    "reason": "Spuelen is the correct plural OF SPUELE (Duden: die Spuele; Plural: die Spuelen), so the form is not itself defective — but it is the plural of the wrong lemma. If the singular is corrected to Waschbecken the plural becomes the zero plural Waschbecken. Held with the singular.",
+    "source": "https://www.duden.de/rechtschreibung/Spuele"
+   },
+   "gender": {
+    "verdict": "HOLD",
+    "reason": "f is correct for die Spuele, but Waschbecken is NEUTER (das Waschbecken). The gender is only right while the wrong lemma stands. Held with the singular.",
+    "source": "https://www.duden.de/rechtschreibung/Waschbecken"
+   }
+  },
+  {
+   "key": "sister",
+   "image_seen": "(noImage — no art in the library for this key)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Schwester; Plural: die Schwestern",
+    "source": "https://www.duden.de/rechtschreibung/Schwester"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "sit",
+   "image_seen": "(noImage — no art in the library for this key)",
+   "singular": {
+    "verdict": "OK",
+    "reason": "das Sitzen — substantivized infinitive of sitzen; correct for the key",
+    "source": "https://www.duden.de/rechtschreibung/sitzen"
+   },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Substantivized infinitive: no plural. Stored value repeats the singular = the safe zero. The classification (countable-thing/hasPlural:true) cannot apply to an infinitive — *die Sitzen does not exist.",
+    "source": "https://www.duden.de/rechtschreibung/sitzen"
+   },
+   "gender": {
+    "verdict": "OK",
+    "reason": "Substantivized infinitives are always neuter: das Sitzen",
+    "source": "https://www.duden.de/rechtschreibung/sitzen"
+   }
+  },
+  {
+   "key": "skateboard",
+   "image_seen": "toys/skateboard@2x.webp — a red skateboard deck on four red wheels (also vehicles/skateboard)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: das Skateboard; Plural: die Skateboards. EN loan — fetched, not assumed (the brief warns EN loans have no class rule).",
+    "source": "https://www.duden.de/rechtschreibung/Skateboard"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "skating",
+   "image_seen": "activities/skating@2x.webp — ONE bright pink lace-up ICE SKATE with a steel blade. ART_DEFECT: an object, not the activity.",
+   "singular": {
+    "verdict": "OK",
+    "reason": "ART_DEFECT row — the word follows the key 'skating': das Schlittschuhlaufen (Duden headword, Substantiv, Neutrum). Correct for the key; the art is the bug.",
+    "source": "https://www.duden.de/rechtschreibung/Schlittschuhlaufen"
+   },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Duden gives Schlittschuhlaufen a Genitiv but NO Plural: 'das Schlittschuhlaufen; Genitiv: des Schlittschuhlaufens'. Stored value repeats the singular = the safe zero. The art-derived hasPlural:true (from Schlittschuh->Schlittschuhe) is contradicted by the key.",
+    "source": "https://www.duden.de/rechtschreibung/Schlittschuhlaufen"
+   },
+   "gender": {
+    "verdict": "OK",
+    "reason": "Duden: Substantiv, Neutrum — das Schlittschuhlaufen",
+    "source": "https://www.duden.de/rechtschreibung/Schlittschuhlaufen"
+   }
+  },
+  {
+   "key": "skeleton",
+   "image_seen": "body parts/skeleton@2x.webp — a full standing human skeleton, cartoon style with big eye sockets",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Duden disambiguates: Skelett_Knochengeruest (Neutrum) is the bone frame pictured; the feminine Skelett_Schrift is a typography term and irrelevant here",
+    "source": "https://www.duden.de/rechtschreibung/Skelett_Knochengeruest"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: das Skelett; Plural: die Skelette",
+    "source": "https://www.duden.de/rechtschreibung/Skelett_Knochengeruest"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "skeptical",
+   "image_seen": "(noImage — no art in the library for this key)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "adjective: no plural",
+    "source": "https://www.duden.de/rechtschreibung/skeptisch"
+   },
+   "gender": {
+    "verdict": "OK",
+    "reason": "adjective: no gender",
+    "source": "https://www.duden.de/rechtschreibung/skeptisch"
+   }
+  },
+  {
+   "key": "skiing",
+   "image_seen": "activities/skiing@2x.webp — a PAIR of blue downhill SKIS with yellow bindings. ART_DEFECT: objects, not the activity.",
+   "singular": {
+    "verdict": "OK",
+    "reason": "ART_DEFECT row — the word follows the key 'skiing': das Skifahren (Duden headword, Substantiv, Neutrum). Correct for the key; the art is the bug.",
+    "source": "https://www.duden.de/rechtschreibung/Skifahren"
+   },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Duden gives Skifahren a Genitiv but NO Plural: 'das Skifahren; Genitiv: des Skifahrens'. Matches the row classification (hasPlural:false). Stored value repeats the singular = the safe zero.",
+    "source": "https://www.duden.de/rechtschreibung/Skifahren"
+   },
+   "gender": {
+    "verdict": "OK",
+    "reason": "Duden: Substantiv, Neutrum — das Skifahren",
+    "source": "https://www.duden.de/rechtschreibung/Skifahren"
+   }
+  },
+  {
+   "key": "skirt",
+   "image_seen": "clothing/skirt@2x.webp — a yellow pleated A-line skirt with a red waistband and teal hem",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Duden disambiguates: Rock_Kleidungsstueck is the garment pictured (Rock_Musikrichtung = the music genre, ohne Plural)",
+    "source": "https://www.duden.de/rechtschreibung/Rock_Kleidungsstueck"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Rock; Plural: die Roecke (umlaut plural — correct as stored)",
+    "source": "https://www.duden.de/rechtschreibung/Rock_Kleidungsstueck"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "sky",
+   "image_seen": "space bw/sky@2x.webp — a crescent MOON with a face and two stars",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Himmel names the key, and a crescent moon with stars is the conventional night-sky icon. NOTE for the art log: the dominant drawn object is a moon — a child asked to name this picture is likely to say 'Mond'. Flagged for the art log, but the word is right for the key and the motif is a sky motif, so not raised to HOLD.",
+    "source": "https://www.duden.de/rechtschreibung/Himmel"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Himmel; Plural: die Himmel — a real zero-look plural, not a missing one",
+    "source": "https://www.duden.de/rechtschreibung/Himmel"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "sled",
+   "image_seen": "winter/sled@2x.webp — a wooden runner sled (Rodelschlitten) with curved runners",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Schlitten; Plural: die Schlitten",
+    "source": "https://www.duden.de/rechtschreibung/Schlitten"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "sledding",
+   "image_seen": "winter/sledding@2x.webp — a girl in a red jacket sitting on a wooden runner sled",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Rodeln — substantivized infinitive of rodeln (Duden: 'mit dem Schlitten einen Hang hinunterfahren'), exactly the pictured activity",
+    "source": "https://www.duden.de/rechtschreibung/rodeln"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "activity: no plural — correct as stored",
+    "source": "https://www.duden.de/rechtschreibung/rodeln"
+   },
+   "gender": {
+    "verdict": "OK",
+    "reason": "activity per the row classification (hasGender:false) — the null is consistent with the file. Recorded for the model: as a substantivized infinitive it would be neuter (das Rodeln) if a gender were carried; sibling activity rows in this batch are inconsistent (singing/skating/skiing carry 'n', sledding/snowboarding carry null). Not re-litigated per Rule 3.",
+    "source": "https://www.duden.de/rechtschreibung/rodeln"
+   }
+  },
+  {
+   "key": "sleep",
+   "image_seen": "(noImage — no art in the library for this key)",
+   "singular": {
+    "verdict": "OK",
+    "reason": "das Schlafen — substantivized infinitive of schlafen; correct for the key",
+    "source": "https://www.duden.de/rechtschreibung/schlafen"
+   },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Substantivized infinitive: no plural. Stored value repeats the singular = the safe zero.",
+    "source": "https://www.duden.de/rechtschreibung/schlafen"
+   },
+   "gender": {
+    "verdict": "OK",
+    "reason": "Substantivized infinitives are always neuter: das Schlafen",
+    "source": "https://www.duden.de/rechtschreibung/schlafen"
+   }
+  },
+  {
+   "key": "sleeping-bag",
+   "image_seen": "camping/sleeping_bag@2x.webp — a girl zipped into a red mummy sleeping bag, only her face showing",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Schlafsack; Plural: die Schlafsaecke (umlaut plural — correct as stored)",
+    "source": "https://www.duden.de/rechtschreibung/Schlafsack"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "sleigh",
+   "image_seen": "christmas/sleigh@2x.webp — an ornate red Santa sleigh with gold runners and scrolled back (also winter/sleigh)",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Schlitten covers both the runner sled and the Santa sleigh at child level; Duden Schlitten covers the 'Sitz verschiedener Laenge zum gleitenden Fahren im Schnee'. Sharing the lemma with the sled key is correct German, not a defect.",
+    "source": "https://www.duden.de/rechtschreibung/Schlitten"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Schlitten; Plural: die Schlitten",
+    "source": "https://www.duden.de/rechtschreibung/Schlitten"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "slide",
+   "image_seen": "toys/slide@2x.webp — a playground slide: orange chute, ladder and a yellow-roofed tower",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Rutsche; Plural: die Rutschen",
+    "source": "https://www.duden.de/rechtschreibung/Rutsche"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "slippers",
+   "image_seen": "clothing/slippers@2x.webp — a PAIR of open slide sandals (yellow footbed, red/navy straps)",
+   "singular": {
+    "verdict": "FIX",
+    "correct": "Hausschuhe",
+    "reason": "The singular field holds a SINGULAR (Hausschuh) on a plural-picture row. The art is a PAIR and the row is classified plural-picture/hasPlural:false, which per the brief means 'the label IS the plural' — so the singular field must carry the plural form, as every sibling plural-picture key in this batch already does: shoes='Schuhe', sneakers='Turnschuhe', snow-boots='Schneestiefel'. slippers is the one odd row out. Pure form correction of the SAME word (Hausschuh->Hausschuhe, Duden-attested), not a lemma change, so FIX. The brief also names sandals/slippers as genuine two-object PAIRS, which the picture confirms.",
+    "source": "https://www.duden.de/rechtschreibung/Hausschuh"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Hausschuh; Plural: die Hausschuhe — the plural field is already correct and matches the recommended singular",
+    "source": "https://www.duden.de/rechtschreibung/Hausschuh"
+   },
+   "gender": {
+    "verdict": "OK",
+    "reason": "Duden: der Hausschuh — masculine; unaffected by the singular fix",
+    "source": "https://www.duden.de/rechtschreibung/Hausschuh"
+   }
+  },
+  {
+   "key": "sloth",
+   "image_seen": "zoo animals/sloth@2x.webp — an orange sloth sitting upright with dark eye patches and long forelimbs (also animals/sloth)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: das Faultier; Plural: die Faultiere",
+    "source": "https://www.duden.de/rechtschreibung/Faultier"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "slug",
+   "image_seen": "forest creatures/slug@2x.webp — a shell-less red-orange slug with eyestalks and a striped mantle (also insects and bugs/slug)",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Nacktschnecke is exactly right and the art does NOT collide with snail as the Swedish reviewer feared: this key is drawn with NO shell, the snail key IS drawn with a shell. German keeps the pair distinct (Nacktschnecke vs Schnecke) exactly as the two pictures do.",
+    "source": "https://www.duden.de/rechtschreibung/Nacktschnecke"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Nacktschnecke; Plural: die Nacktschnecken",
+    "source": "https://www.duden.de/rechtschreibung/Nacktschnecke"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "smartphone",
+   "image_seen": "objects bw/smartphone@2x.webp — a smartphone handset (BW line art)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: das Smartphone; Plural: die Smartphones. EN loan — fetched, not assumed.",
+    "source": "https://www.duden.de/rechtschreibung/Smartphone"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "smartwatch",
+   "image_seen": "apparel bw/smartwatch@2x.webp — a smartwatch with a strap (BW line art)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Smartwatch; Genitiv: der Smartwatch, Plural: die Smartwatches — the stored form is Duden-exact. EN loan — fetched, not assumed (kettlebell->~s but keyboard->~ar; no class rule).",
+    "source": "https://www.duden.de/rechtschreibung/Smartwatch"
+   },
+   "gender": {
+    "verdict": "OK",
+    "reason": "Duden: Substantiv, feminin — die Smartwatch",
+    "source": "https://www.duden.de/rechtschreibung/Smartwatch"
+   }
+  },
+  {
+   "key": "smoothie",
+   "image_seen": "breakfast/smoothie@2x.webp — a tall glass of pink smoothie with a red bent straw",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Smoothie; Plural: die Smoothies",
+    "source": "https://www.duden.de/rechtschreibung/Smoothie"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "snail",
+   "image_seen": "forest creatures/snail@2x.webp — a yellow snail WITH a striped spiral shell and red-tipped eyestalks (also insects and bugs, sea life, spring)",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Schnecke is right and correctly kept distinct from the slug key — this one carries a shell, that one does not",
+    "source": "https://www.duden.de/rechtschreibung/Schnecke"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Schnecke; Plural: die Schnecken",
+    "source": "https://www.duden.de/rechtschreibung/Schnecke"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "snake",
+   "image_seen": "zoo animals bw/snake@2x.webp — a coiled cartoon snake with a smiling face (also animals bw 5)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Schlange; Plural: die Schlangen",
+    "source": "https://www.duden.de/rechtschreibung/Schlange"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "sneaker",
+   "image_seen": "objects bw/sneaker@2x.webp — ONE low-top lace-up sneaker with a star patch (also sports bw 2)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Turnschuh; Plural: die Turnschuhe",
+    "source": "https://www.duden.de/rechtschreibung/Turnschuh"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "sneakers",
+   "image_seen": "objects bw/sneakers@2x.webp — a PAIR of high-top lace-up sneakers",
+   "singular": {
+    "verdict": "OK",
+    "reason": "plural-picture: the art is a pair and the label correctly IS the plural — contrast the sneaker key, which shows one shoe and carries the singular. The pair is handled correctly here and incorrectly at slippers.",
+    "source": "https://www.duden.de/rechtschreibung/Turnschuh"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "plural-picture: the label IS the plural; nothing further",
+    "source": "https://www.duden.de/rechtschreibung/Turnschuh"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "snorkel",
+   "image_seen": "beach/snorkel@2x.webp — a diving MASK with an orange-tipped snorkel tube clipped to its strap",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Schnorchel names the key and the snorkel tube is present in the art. NOTE for the art log: this key and the snorkeling-mask key are drawn as the same mask+snorkel SET, so the two pictures do not distinguish the two keys. The word follows the key.",
+    "source": "https://www.duden.de/rechtschreibung/Schnorchel"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Schnorchel; Plural: die Schnorchel — a real zero-look plural",
+    "source": "https://www.duden.de/rechtschreibung/Schnorchel"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "snorkeling-mask",
+   "image_seen": "beach bw/snorkeling_mask@2x.webp — a diving mask with an attached snorkel tube (BW line art)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Compound not in Duden; the head noun rules: Duden die Maske; Plural: die Masken -> Schnorchelmasken",
+    "source": "https://www.duden.de/rechtschreibung/Maske"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "snow-boots",
+   "image_seen": "clothing/snow_boots@2x.webp — a PAIR of red winter boots with white fleece cuffs and dark toe caps",
+   "singular": {
+    "verdict": "OK",
+    "reason": "plural-picture: Schneestiefel is both singular and plural (der Stiefel -> die Stiefel), so the label is correct as the plural of the pictured pair",
+    "source": "https://www.duden.de/rechtschreibung/Stiefel"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Compound not in Duden; the head noun rules: Duden der Stiefel; Plural: die Stiefel -> zero plural Schneestiefel. Correct as stored.",
+    "source": "https://www.duden.de/rechtschreibung/Stiefel"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "snow-globe",
+   "image_seen": "Christmas bw/snow_globe@2x.webp — a snow globe on a base with a fir tree and falling flakes inside (also Christmas bw 2)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden lists Schneekugel (Substantiv, feminin) without a Grammatik block; the head noun rules: Duden die Kugel; Plural: die Kugeln -> Schneekugeln",
+    "source": "https://www.duden.de/rechtschreibung/Schneekugel"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "snow-shovel",
+   "image_seen": "(noImage — no art in the library for this key; searched the whole tree, colour and BW)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Schneeschaufel; Plural: die Schneeschaufeln",
+    "source": "https://www.duden.de/rechtschreibung/Schneeschaufel"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "snowboarding",
+   "image_seen": "winter/snowboarding@2x.webp — a rider in a yellow jacket and red trousers crouched on a snowboard",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Snowboarden — substantivized infinitive of the Duden verb snowboarden; correct for the pictured activity",
+    "source": "https://www.duden.de/rechtschreibung/snowboarden"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "activity: no plural — correct as stored",
+    "source": "https://www.duden.de/rechtschreibung/snowboarden"
+   },
+   "gender": {
+    "verdict": "OK",
+    "reason": "activity per the row classification (hasGender:false); the null is consistent with the file. As a substantivized infinitive it would be neuter (das Snowboarden) if a gender were carried. Not re-litigated per Rule 3.",
+    "source": "https://www.duden.de/rechtschreibung/snowboarden"
+   }
+  },
+  {
+   "key": "snowdrop",
+   "image_seen": "flowers/snowdrop@2x.webp — an UPRIGHT six-petal white flower with an orange/yellow corona on a stem with two leaves",
+   "singular": {
+    "verdict": "OK",
+    "reason": "ART CONFIRMED WRONG, WORD KEPT. Independently reproduces the Swedish finding: a real Schneegloeckchen HANGS as a closed bell (three long outer + three short green-tipped inner tepals). The drawn flower is upright, flat-faced and coronate — reads as a narcissus/anemone, not a Galanthus. Per the operator ruling the filename is the reference, so the word follows the key: Schneegloeckchen is correct German for 'snowdrop'. Flagged for the art log.",
+    "source": "https://www.duden.de/rechtschreibung/Schneegloeckchen"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: das Schneegloeckchen; Plural: die Schneegloeckchen — -chen diminutives always take the zero plural",
+    "source": "https://www.duden.de/rechtschreibung/Schneegloeckchen"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "snowflake",
+   "image_seen": "winter/snowflake@2x.webp — a six-armed blue snowflake crystal (also weather/snowflake, nature)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Schneeflocke; Plural: die Schneeflocken",
+    "source": "https://www.duden.de/rechtschreibung/Schneeflocke"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "snowman",
+   "image_seen": "winter/snowman@2x.webp — a snowman with top hat, carrot nose, red scarf, mittens and stick arms (also christmas/snowman)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Schneemann; Plural: die Schneemaenner (umlaut plural — the builder cannot form these; correct as stored)",
+    "source": "https://www.duden.de/rechtschreibung/Schneemann"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "snowsuit",
+   "image_seen": "clothing/snowsuit@2x.webp — a one-piece hooded snowsuit, red top and navy legs, with mittens and boots",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Compound not in Duden; the head noun rules: Duden der Anzug; Plural: die Anzuege -> Schneeanzuege (umlaut plural, correct as stored)",
+    "source": "https://www.duden.de/rechtschreibung/Anzug"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "soccer",
+   "image_seen": "activities/soccer@2x.webp — ONE football/soccer BALL (cream-and-dark truncated icosahedron). ART_DEFECT: the object, not the sport.",
+   "singular": {
+    "verdict": "OK",
+    "reason": "ART_DEFECT row — the word follows the key 'soccer', i.e. the SPORT: der Fussball. Correct for the key; the art is the bug.",
+    "source": "https://www.duden.de/rechtschreibung/Fuszball"
+   },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Duden gives Fussball two Bedeutungen: (1) the BALL, Plural die Fussbaelle; (2) the SPORT ('zwischen zwei Mannschaften ausgetragenes Ballspiel'), which is ohne Plural. The key is the sport, so the zero stored here is correct. IMPORTANT: the art-derived classification (hasPlural:true, from the pictured ball) must NOT be used to 'fix' this to Fussbaelle; that would silently convert the sport key into a duplicate of the soccer-ball key. The two keys are currently differentiated correctly.",
+    "source": "https://www.duden.de/rechtschreibung/Fuszball"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "soccer-ball",
+   "image_seen": "sports bw 2/soccer_ball@2x.webp — one football/soccer ball, pentagon-hexagon panels (BW line art)",
+   "singular": {
+    "verdict": "OK",
+    "reason": "der Fussball in Duden Bedeutung (1), the BALL — correctly distinct from the soccer key, which is the sport",
+    "source": "https://www.duden.de/rechtschreibung/Fuszball"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Fussball; Plural: die Fussbaelle (ball sense; umlaut plural, correct as stored)",
+    "source": "https://www.duden.de/rechtschreibung/Fuszball"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "sock",
+   "image_seen": "accessories/sock@2x.webp — ONE green ankle sock with white stripes and a navy toe and heel",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Socke; Plural: die Socken",
+    "source": "https://www.duden.de/rechtschreibung/Socke"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "soda",
+   "image_seen": "At the Supermarket/soda@2x.webp — a glass bottle of dark cola with a red cap and a red label band",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Limonade is the correct generic for 'soda' and covers cola in German usage and food classification. NOTE for the art log: the art is specifically a COLA bottle, which a child would name 'Cola'; the key is the generic, so the generic word stands.",
+    "source": "https://www.duden.de/rechtschreibung/Limonade"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Limonade; Plural: die Limonaden",
+    "source": "https://www.duden.de/rechtschreibung/Limonade"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "sofa",
+   "image_seen": "furniture/sofa@2x.webp — a red two-seat sofa with wooden frame and two cushions (also around the house, household)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: das Sofa; Plural: die Sofas",
+    "source": "https://www.duden.de/rechtschreibung/Sofa"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "soup",
+   "image_seen": "food bw 2/soup@2x.webp — a steaming bowl of soup with a spoon in it (BW line art)",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Duden disambiguates: Suppe_Speise_Gericht_Bruehe is the dish pictured (Suppe_Komponist is the proper name Suppe)",
+    "source": "https://www.duden.de/rechtschreibung/Suppe_Speise_Gericht_Bruehe"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Suppe; Plural: die Suppen",
+    "source": "https://www.duden.de/rechtschreibung/Suppe_Speise_Gericht_Bruehe"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "spade",
+   "image_seen": "beach/spade@2x.webp — a green plastic toy beach spade with a scoop blade and D-grip (also summer/spade)",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Schaufel is right for the pictured toy beach spade; sharing the lemma with the shovel key is correct German",
+    "source": "https://www.duden.de/rechtschreibung/Schaufel"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Schaufel; Plural: die Schaufeln",
+    "source": "https://www.duden.de/rechtschreibung/Schaufel"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "sparrow",
+   "image_seen": "birds 2/sparrow@2x.webp — a small bird with an ORANGE-RED face and breast, blue-grey crown and back, dark wings — a ROBIN, not a sparrow",
+   "singular": {
+    "verdict": "OK",
+    "reason": "ART CONFIRMED WRONG, WORD KEPT. Independently reproduces the Swedish finding: the drawn bird has a robin's orange-red face/breast bib and a fine bill; a Spatz/Haussperling is brown-grey, streaked, with a stout conical seed bill. Per the operator ruling the filename is the reference, so the word follows the key: Spatz is correct German for 'sparrow'. Flagged for the art log.",
+    "source": "https://www.duden.de/rechtschreibung/Spatz"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Spatz; Genitiv: des Spatzen, auch: Spatzes; Plural: die Spatzen — the weak-noun plural the brief warns about (cf. Bauer->Bauern). Correct as stored.",
+    "source": "https://www.duden.de/rechtschreibung/Spatz"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "spatula",
+   "image_seen": "kitchen tools/spatula@2x.webp — a pink SILICONE SCRAPER: a broad flat flexible blade with a straight edge and one angled tip on a long tan handle with a hanging hole. No slots, no offset, no lifting step.",
+   "singular": {
+    "verdict": "HOLD",
+    "reason": "LEMMA MISMATCH, confirmed against the picture and the authority — independently reproduces the Swedish finding on the same shared art. A Pfannenwender is a stiff, usually slotted TURNER, offset from the handle, for flipping food in a pan. The pictured tool is a flexible silicone scraper, which Duden names Teigschaber: 'Kuechengeraet, bestehend aus einem flachen Teil aus Metall oder Kunststoff zum Glattstreichen von dickfluessigen Teigmassen ... oder zum Ausschaben' — an exact description of the art. HOLD rather than FIX because the correction is a different lemma. RECOMMENDED: s=Teigschaber (m). Convenient consequence: Teigschaber is also masculine with a zero plural, so the plural and gender fields survive the lemma change unchanged.",
+    "source": "https://www.duden.de/rechtschreibung/Teigschaber"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Zero plural, correct EITHER WAY: Duden der Pfannenwender -> die Pfannenwender, and Duden der Teigschaber; Plural: die Teigschaber. The form is not defective even if the singular lemma is corrected — so this field is OK, not held.",
+    "source": "https://www.duden.de/rechtschreibung/Teigschaber"
+   },
+   "gender": {
+    "verdict": "OK",
+    "reason": "Masculine, correct EITHER WAY: der Pfannenwender and der Teigschaber are both masculine. Not held.",
+    "source": "https://www.duden.de/rechtschreibung/Teigschaber"
+   }
+  },
+  {
+   "key": "speaker",
+   "image_seen": "household bw/speaker@2x.webp — a rectangular loudspeaker box on a plinth with two visible drivers (also home bw)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Lautsprecher; Plural: die Lautsprecher",
+    "source": "https://www.duden.de/rechtschreibung/Lautsprecher"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "sphere",
+   "image_seen": "shapes/sphere@2x.webp — a plain pink shaded ball (3-D sphere)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Kugel; Plural: die Kugeln. This is the brief's own anchor case ('Kugel->Kugeln (de, five reviewers)') — confirmed correct as stored, nothing to change.",
+    "source": "https://www.duden.de/rechtschreibung/Kugel"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "spider",
+   "image_seen": "insects and bugs/spider@2x.webp — a red-and-orange striped cartoon spider with eight banded legs (also forest creatures, miscellaneous)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Spinne; Plural: die Spinnen",
+    "source": "https://www.duden.de/rechtschreibung/Spinne"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "spinach",
+   "image_seen": "vegetables/spinach@2x.webp — a single dark-green spinach leaf with visible veins and a stem",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Duden: der Spinat; Genitiv: des Spinat[e]s, (Sorten:) Spinate — the only plural is the sortal one ('kinds of spinach'), not a child-level plural of the pictured vegetable. Matches the row classification (mass/hasPlural:false); the stored value repeats the singular = the safe zero.",
+    "source": "https://www.duden.de/rechtschreibung/Spinat"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "spinning-top",
+   "image_seen": "toys bw/spinning_top@2x.webp — a spinning top with a knob handle and a point (BW line art)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Kreisel; Plural: die Kreisel — one of the -el zero plurals the builder leaves unchanged, and it is right here",
+    "source": "https://www.duden.de/rechtschreibung/Kreisel"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "spirit-level",
+   "image_seen": "tools/spirit_level@2x.webp — a red spirit level with two green bubble vials and a handle cut-out",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Wasserwaage; Plural: die Wasserwaagen",
+    "source": "https://www.duden.de/rechtschreibung/Wasserwaage"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "sponge",
+   "image_seen": "kitchen tools/sponge@2x.webp — a yellow rectangular cleaning sponge with pores and a red scouring layer",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Schwamm; Plural: die Schwaemme (umlaut plural, correct as stored)",
+    "source": "https://www.duden.de/rechtschreibung/Schwamm"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "spoon",
+   "image_seen": "kitchen tools/spoon@2x.webp — one purple spoon, oval bowl and long handle (also around the house, home and nature, kitchen, objects)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Loeffel; Plural: die Loeffel — an -el zero plural, correct as stored",
+    "source": "https://www.duden.de/rechtschreibung/Loeffel"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "spray",
+   "image_seen": "household bw/spray@2x.webp — a trigger spray bottle with a pump head (BW line art)",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Spruehflasche names the pictured trigger bottle precisely (the container, not the liquid) — a good choice for the EN key 'spray', which is ambiguous between the two",
+    "source": "https://www.duden.de/rechtschreibung/Spruehflasche"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Spruehflasche; Plural: die Spruehflaschen",
+    "source": "https://www.duden.de/rechtschreibung/Spruehflasche"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "spruce-tree",
+   "image_seen": "tree/spruce@2x.webp — a conical layered green conifer with a brown trunk. NOTE the path trap: the tree theme DROPS the _tree suffix, so this resolves at tree/spruce, not tree/spruce_tree.",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden disambiguates: Fichte_Nadelbaum is the conifer (Fichte_Philosoph is the proper name). Duden: die Fichte; Plural: die Fichten",
+    "source": "https://www.duden.de/rechtschreibung/Fichte_Nadelbaum"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "square",
+   "image_seen": "shapes/square@2x.webp — a plain dusty-pink filled square with a thin dark outline",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: das Quadrat; Plural: die Quadrate und Quadraten — the stored Quadrate is the primary form",
+    "source": "https://www.duden.de/rechtschreibung/Quadrat"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "squash",
+   "image_seen": "vegetables/squash@2x.webp — a yellow-orange pear-shaped gourd with a green stalk",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Kuerbis is the German for squash/gourd and covers the pictured pear-shaped variety (e.g. Butternusskuerbis)",
+    "source": "https://www.duden.de/rechtschreibung/Kuerbis"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Kuerbis; Genitiv: des Kuerbisses, Plural: die Kuerbisse",
+    "source": "https://www.duden.de/rechtschreibung/Kuerbis"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "squid",
+   "image_seen": "ocean life/squid@2x.webp — a red cephalopod with a pointed mantle, big eyes and suckered arms",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Tintenfisch is the standard child-level German covering squid; the pointed mantle in the art fits it well (the precise Kalmar is above K-3 register)",
+    "source": "https://www.duden.de/rechtschreibung/Tintenfisch"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Tintenfisch; Plural: die Tintenfische. NOTE: EN 'squid/squid' is a zero plural, but that is an English fact — per the brief's inverse trap, German does inflect, and Tintenfische is CORRECT.",
+    "source": "https://www.duden.de/rechtschreibung/Tintenfisch"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "squirrel",
+   "image_seen": "forest creatures/squirrel@2x.webp — an orange-red squirrel sitting upright with a big bushy tail and tufted ears (also animals, camping)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: das Eichhoernchen; Plural: die Eichhoernchen — -chen diminutive zero plural, correct as stored",
+    "source": "https://www.duden.de/rechtschreibung/Eichhoernchen"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "stage",
+   "image_seen": "music/stage@2x.webp — a theatre stage with red drawn curtains, valance and a wooden proscenium",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Buehne; Plural: die Buehnen",
+    "source": "https://www.duden.de/rechtschreibung/Buehne"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "stairs",
+   "image_seen": "around the house/stairs@2x.webp — a flight of four solid steps in red, teal, yellow and red",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Treppe is correct and this is the brief's inverse trap confirmed: EN 'stairs' is a plurale tantum over ONE object, and German has a singular for it",
+    "source": "https://www.duden.de/rechtschreibung/Treppe"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Treppe; Plural: die Treppen — correct; do NOT read the English plural key as forbidding a German singular/plural pair",
+    "source": "https://www.duden.de/rechtschreibung/Treppe"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "stamp",
+   "image_seen": "BOTH themes opened. post office/stamp@2x.webp — a POSTAGE STAMP: perforated pink border, '201' denomination, a lamp-post scene. classroom bw/stamp@2x.webp — a RUBBER STAMP: turned knob handle on a square mount block.",
+   "singular": {
+    "verdict": "HOLD",
+    "reason": "TWO THEMES, TWO DIFFERENT OBJECTS, ONE WORD — the collision the prompt flagged, confirmed by opening both. Stempel (Duden: der Stempel) names the classroom rubber stamp and ONLY that. The post-office picture is a Briefmarke (Duden: 'aufklebbares Wertzeichen zum Freimachen von Postsendungen') — and a German child shown a perforated postage stamp and told 'Stempel' is being taught the wrong word, because Stempel is the thing the post office presses ONTO the Briefmarke. No single German word covers both pictures: a genuine content question (which of two things is the key?), which the brief reserves for HOLD. NOTE the colour asymmetry: post office/stamp is the only COLOUR art (classroom is BW-only), so the postage-stamp sense may be the dominant live one. RECOMMENDED: split the key (stamp = Briefmarke f / rubber-stamp = Stempel m), or pick one theme and drop the other. Do NOT rewrite blind.",
+    "source": "https://www.duden.de/rechtschreibung/Briefmarke"
+   },
+   "plural": {
+    "verdict": "HOLD",
+    "reason": "Stempel->Stempel is the correct zero plural OF STEMPEL (Duden: der Stempel; Plural: die Stempel), so the form is not itself defective — but it is the plural of only one of the two pictured objects. Briefmarke takes die Briefmarken. Held with the singular.",
+    "source": "https://www.duden.de/rechtschreibung/Stempel"
+   },
+   "gender": {
+    "verdict": "HOLD",
+    "reason": "m is correct for der Stempel, but die Briefmarke is FEMININE. The gender is only right for whichever of the two pictures the key is finally assigned to. Held with the singular.",
+    "source": "https://www.duden.de/rechtschreibung/Briefmarke"
+   }
+  },
+  {
+   "key": "stand",
+   "image_seen": "(noImage — no art in the library for this key)",
+   "singular": {
+    "verdict": "OK",
+    "reason": "das Stehen — substantivized infinitive of stehen; correct for the key",
+    "source": "https://www.duden.de/rechtschreibung/stehen"
+   },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Substantivized infinitive: no plural. Stored value repeats the singular = the safe zero.",
+    "source": "https://www.duden.de/rechtschreibung/stehen"
+   },
+   "gender": {
+    "verdict": "OK",
+    "reason": "Substantivized infinitives are always neuter: das Stehen",
+    "source": "https://www.duden.de/rechtschreibung/stehen"
+   }
+  },
+  {
+   "key": "stapler",
+   "image_seen": "classroom/stapler@2x.webp — a teal desk stapler seen from the side, jaw slightly open",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Hefter; Plural: die Hefter",
+    "source": "https://www.duden.de/rechtschreibung/Hefter"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "star",
+   "image_seen": "shapes/star@2x.webp — a plain pale-blue five-pointed star (also christmas/star, nature)",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Duden disambiguates: Stern_Gestirn is the ordinary star (Stern_Seemannssprache is the nautical term); both take Sterne",
+    "source": "https://www.duden.de/rechtschreibung/Stern_Gestirn"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Stern; Plural: die Sterne",
+    "source": "https://www.duden.de/rechtschreibung/Stern_Gestirn"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "starfish",
+   "image_seen": "ocean life/starfish@2x.webp — a yellow-orange five-armed starfish with a smiling face and pale spots (also beach, sea life, summer)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Seestern; Plural: die Seesterne. NOTE: EN 'starfish/starfish' is a zero plural — an English fact only; per the brief's inverse trap the German Seesterne is CORRECT.",
+    "source": "https://www.duden.de/rechtschreibung/Seestern"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "statue",
+   "image_seen": "4th of July/statue@2x.webp — the Statue of Liberty on its pedestal, torch raised, tablet in hand",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Statue names the key generically and the pictured object is a statue; the specific Freiheitsstatue is not required by the key",
+    "source": "https://www.duden.de/rechtschreibung/Statue"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Statue; Plural: die Statuen",
+    "source": "https://www.duden.de/rechtschreibung/Statue"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "stegosaurus",
+   "image_seen": "dinosaurs/stegosaurus@2x.webp — a purple stegosaur with a double row of back plates and a spiked tail",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden HAS the German lemma: der Stegosaurier; Plural: die Stegosaurier. The stored pair (Latin singular Stegosaurus + German plural Stegosaurier) is exactly the -saurus->-saurier pattern the brief sanctions, and it is authority-backed here rather than rule-derived.",
+    "source": "https://www.duden.de/rechtschreibung/Stegosaurier"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "stethoscope",
+   "image_seen": "hospital/stethoscope@2x.webp — a stethoscope: red tubing, teal chest piece, red-tipped ear pieces",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: das Stethoskop; Plural: die Stethoskope",
+    "source": "https://www.duden.de/rechtschreibung/Stethoskop"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "stingray",
+   "image_seen": "sea life bw/stingray@2x.webp — a ray with a diamond disc, two dot eyes and a long whip tail (also sea life bw 2)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Compound; Duden lists Stachelrochen (Substantiv, maskulin) without a Grammatik block. The head noun rules: Duden der Rochen; Plural: die Rochen -> zero plural Stachelrochen. Correct as stored.",
+    "source": "https://www.duden.de/rechtschreibung/Rochen"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "stocking",
+   "image_seen": "christmas/stocking@2x.webp — a red Christmas stocking with a white fleece cuff, green heel and toe, and a hanging loop",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Weihnachtsstrumpf is the precise German for the pictured Christmas stocking (a plain Strumpf would lose the Christmas sense the art and theme carry)",
+    "source": "https://www.duden.de/rechtschreibung/Strumpf"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Compound not in Duden; the head noun rules: Duden der Strumpf; Plural: die Struempfe -> Weihnachtsstruempfe (umlaut plural, correct as stored)",
+    "source": "https://www.duden.de/rechtschreibung/Strumpf"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "stool",
+   "image_seen": "furniture/stool@2x.webp — a small square wooden stool with four legs and stretchers, no backrest",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Hocker is exactly right — the pictured seat has no backrest and no arms, which distinguishes a Hocker from a Stuhl",
+    "source": "https://www.duden.de/rechtschreibung/Hocker"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Hocker; Plural: die Hocker",
+    "source": "https://www.duden.de/rechtschreibung/Hocker"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "stopwatch",
+   "image_seen": "sports bw 2/stopwatch@2x.webp — a stopwatch with a crown button, two side lugs and a 0000 counter (BW line art)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Stoppuhr; Plural: die Stoppuhren",
+    "source": "https://www.duden.de/rechtschreibung/Stoppuhr"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "stork",
+   "image_seen": "birds 2/stork@2x.webp — a white stork with a long red bill, red legs and black wing feathers",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Storch; Plural: die Stoerche (umlaut plural — the builder cannot form these; correct as stored)",
+    "source": "https://www.duden.de/rechtschreibung/Storch"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "stormy",
+   "image_seen": "weather/stormy@2x.webp — a red storm cloud with heavy rain drops and a yellow lightning bolt",
+   "singular": {
+    "verdict": "OK",
+    "reason": "stuermisch names the key. NOTE for the art log: the art depicts a Gewitter (thunderstorm with lightning) rather than wind; stuermisch remains the right adjective for the key 'stormy'.",
+    "source": "https://www.duden.de/rechtschreibung/stuermisch"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "adjective: no plural",
+    "source": "https://www.duden.de/rechtschreibung/stuermisch"
+   },
+   "gender": {
+    "verdict": "OK",
+    "reason": "adjective: no gender",
+    "source": "https://www.duden.de/rechtschreibung/stuermisch"
+   }
+  },
+  {
+   "key": "stove",
+   "image_seen": "around the house/stove@2x.webp — a cream free-standing cooker with an oven door, five knobs, and a kettle and pot on top",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Herd; Plural: die Herde. Correct as stored, and NOT to be second-guessed because it is a homograph of die Herde (herd) — that is a different lemma with a different gender.",
+    "source": "https://www.duden.de/rechtschreibung/Herd"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "strawberry",
+   "image_seen": "fruits/strawberry@2x.webp — a red strawberry with pale seeds and a green calyx (also At the Supermarket, breakfast, summer)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Erdbeere; Plural: die Erdbeeren",
+    "source": "https://www.duden.de/rechtschreibung/Erdbeere"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "stretcher",
+   "image_seen": "hospital/stretcher@2x.webp — a WHEELED hospital gurney: teal mattress with a raised backrest, red frame, side rails, four wheels",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Trage is the everyday German for the pictured patient stretcher and is what rescue staff say. NOTE for the art log: the drawn item rolls rather than being carried, so the technically precise term is Fahrtrage/Krankenliege; Duden Trage ('Vorrichtung zum Tragen von Kranken') still covers it at child level. Not raised to HOLD.",
+    "source": "https://www.duden.de/rechtschreibung/Trage"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Trage; Plural: die Tragen",
+    "source": "https://www.duden.de/rechtschreibung/Trage"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "student",
+   "image_seen": "classroom/student@2x.webp — a boy with a backpack holding an open red book",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Schueler = school pupil, which the classroom art shows (a Student would be a university student — a real German trap the data avoids here). The pictured child is a boy, so the masculine fits.",
+    "source": "https://www.duden.de/rechtschreibung/Schueler"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Schueler; Plural: die Schueler",
+    "source": "https://www.duden.de/rechtschreibung/Schueler"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "styracosaurus",
+   "image_seen": "dinosaurs/styracosaurus@2x.webp — an orange-yellow dinosaur with a row of red back plates and two long horns",
+   "singular": {
+    "verdict": "OK",
+    "reason": "ART IS ZOOLOGICALLY WRONG, WORD KEPT. A real Styracosaurus is a horned ceratopsian with a spiked neck FRILL and a nose horn and no back plates; the drawn animal has a stegosaur-style plate row. Per the operator ruling the word follows the key. Flagged for the art log.",
+    "source": "https://www.duden.de/rechtschreibung/Stegosaurier"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "NOT in Duden (checked; the search returns nothing for the lemma). The -saurus->-saurier rule DOES apply here, and applying it is a judgement, not an automatism: Styraco- is Greek styrax 'spike' + -sauros 'lizard', so -saurus IS the head element — unlike the brief's exceptions carnotaurus (Latin taurus = bull), triceratops, velociraptor (->-oren) and parasaurolophus (Greek lophos), where it is not. The pattern is authority-anchored by the sibling entries Duden der Stegosaurier and der Saurier (Plural: die Saurier). Styracosaurier is correct as stored.",
+    "source": "https://www.duden.de/rechtschreibung/Saurier"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "submarine",
+   "image_seen": "vehicles/submarine@2x.webp — a navy-and-red submarine with a conning tower, periscope, flag and portholes",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden HAS the entry at the underscore slug U_Boot (Substantiv, Neutrum) — the hyphen becomes an underscore in Duden slugs, another reason a bare fetch 404s. The head noun rules the plural: Duden das Boot; Plural: die Boote -> U-Boote.",
+    "source": "https://www.duden.de/rechtschreibung/U_Boot"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "subway",
+   "image_seen": "vehicles/subway@2x.webp — a yellow-white-red metro train car seen from the front-side",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die U-Bahn; Plural: die U-Bahnen (entry at the underscore slug U_Bahn)",
+    "source": "https://www.duden.de/rechtschreibung/U_Bahn"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "suitcase",
+   "image_seen": "beach bw/suitcase@2x.webp — a hard-shell suitcase with a top handle, corner protectors and feet (also beach bw 2, objects bw, travel and holiday bw)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Koffer; Plural: die Koffer — an -er zero plural, correct as stored",
+    "source": "https://www.duden.de/rechtschreibung/Koffer"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "sun",
+   "image_seen": "weather/sun@2x.webp — a smiling yellow sun with a face and radiating orange rays (also beach, space, spring)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Sonne; Plural: die Sonnen — a real plural (other suns/stars), not a missing one",
+    "source": "https://www.duden.de/rechtschreibung/Sonne"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "sun-hat",
+   "image_seen": "accessories/sun_hat@2x.webp — a wide-brimmed red-orange sun hat with a dark red band (also beach, summer)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Sonnenhut; Plural: die Sonnenhuete (umlaut plural, correct as stored)",
+    "source": "https://www.duden.de/rechtschreibung/Sonnenhut"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "sundae",
+   "image_seen": "dessert bw/sundae@2x.webp — an ice-cream sundae in a footed dish: three scoops, two wafer rolls, a cherry on top (BW line art)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Eisbecher; Plural: die Eisbecher — an -er zero plural, correct as stored",
+    "source": "https://www.duden.de/rechtschreibung/Eisbecher"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "sunflower",
+   "image_seen": "flowers/sunflower@2x.webp — a sunflower with yellow-orange petals, a large brown seed disc, stem and two leaves",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Sonnenblume; Plural: die Sonnenblumen",
+    "source": "https://www.duden.de/rechtschreibung/Sonnenblume"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "sunglasses",
+   "image_seen": "accessories/sunglasses@2x.webp — ONE pair of sunglasses, orange frames and dark lenses (also apparel, beach, summer, travel and holiday, valentine, weather)",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Sonnenbrille is correct and this is the brief's inverse trap confirmed: EN 'sunglasses' is a plurale tantum over ONE object, and German has a singular for it. Also note the sister-key trap: this is NOT the plural of a 'glass' key.",
+    "source": "https://www.duden.de/rechtschreibung/Sonnenbrille"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Sonnenbrille; Plural: die Sonnenbrillen",
+    "source": "https://www.duden.de/rechtschreibung/Sonnenbrille"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "sunny",
+   "image_seen": "weather/sunny@2x.webp — a smiling yellow sun with square orange rays",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "adjective: no plural",
+    "source": "https://www.duden.de/rechtschreibung/sonnig"
+   },
+   "gender": {
+    "verdict": "OK",
+    "reason": "adjective: no gender",
+    "source": "https://www.duden.de/rechtschreibung/sonnig"
+   }
+  },
+  {
+   "key": "sunrise",
+   "image_seen": "travel and holiday bw/sunrise@2x.webp — a half sun with triangular rays rising over three wavy water lines (BW line art)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: der Sonnenaufgang; Plural: die Sonnenaufgaenge (umlaut plural, correct as stored)",
+    "source": "https://www.duden.de/rechtschreibung/Sonnenaufgang"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "sunscreen",
+   "image_seen": "beach/sunscreen@2x.webp — an orange tube of sun cream with a yellow sun symbol and a red flip cap",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: die Sonnencreme; Plural: die Sonnencremen, Sonnencremes — BOTH are listed, so the stored Sonnencremes is Duden-attested and must not be 'corrected' to Sonnencremen",
+    "source": "https://www.duden.de/rechtschreibung/Sonnencreme"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "surfboard",
+   "image_seen": "summer/surfboard@2x.webp — a red-and-cream vertically striped surfboard with a centre stringer (also beach)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Duden: das Surfbrett; Plural: die Surfbretter (-er plural — note the builder's known defect *Buegelbrette; this row is already correct)",
+    "source": "https://www.duden.de/rechtschreibung/Surfbrett"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "surprised",
+   "image_seen": "emotions/surprised@2x.webp — a yellow face with wide eyes, raised brows and a big open oval mouth",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "adjective: no plural",
+    "source": "https://www.duden.de/rechtschreibung/ueberrascht"
+   },
+   "gender": {
+    "verdict": "OK",
+    "reason": "adjective: no gender",
+    "source": "https://www.duden.de/rechtschreibung/ueberrascht"
+   }
+  }
+ ]
+}

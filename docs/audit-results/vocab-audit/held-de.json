@@ -2,64 +2,24 @@
  "locale": "de",
  "held": [
   {
-   "key": "angry",
-   "field": "gender",
-   "cur": {
-    "s": "Wütend",
-    "p": "Wütend",
-    "g": "m"
-   },
-   "why": "an adjective has no gender; 'm' is a filler value. Unlike the colour words, 'wütend' has no established substantivized noun form, so no gender can be assigned — needs a data-model decision on what g means for type:adjective"
-  },
-  {
-   "key": "baby-girl",
+   "key": "baby-overall",
    "field": "singular",
    "cur": {
-    "s": "Baby Mädchen",
-    "p": "Baby Mädchen",
-    "g": "n"
+    "s": "Baby-Overall",
+    "p": "Baby-Overalls",
+    "g": "m"
    },
-   "why": "'Baby Mädchen' is a spaced pseudo-compound (Deppenleerzeichen) and no idiomatic German word — 'Babymädchen' is not used either. Needs a lemma decision against the picture (likely 'Baby' or 'Mädchen'), not a form fix"
+   "why": "FALSE FRIEND — needs an operator ruling, not a blind rewrite. English 'overalls' = German LATZHOSE, and the picture is exactly a Latzhose. But German 'der Overall' means a ONE-PIECE coverall/jumpsuit (Duden), which is NOT what is drawn. So 'Baby-Overall' fails against both the art and the English key, and the correction (Baby-Latzhose) is a DIFFERENT LEMMA — the brief says HOLD, never rewrite blind. Note this row carries NO ART_DEFECT flag, i.e. the art is supposed to agree with the key; here the defect is in the German word, not the art."
   },
   {
-   "key": "baby-girl",
+   "key": "baseball",
    "field": "plural",
    "cur": {
-    "s": "Baby Mädchen",
-    "p": "Baby Mädchen",
-    "g": "n"
-   },
-   "why": "see singular; depends on the chosen lemma (both candidates happen to take a null plural: die Babys is -s, die Mädchen is -)"
-  },
-  {
-   "key": "bolt",
-   "field": "singular",
-   "cur": {
-    "s": "Schraube",
-    "p": "Schrauben",
-    "g": "f"
-   },
-   "why": "Lexical/image question, not a form error: 'Schraube' = screw. A bolt is 'der Bolzen' / 'die Schraube' depending on what the tools image shows. N6 collision suggests 'screw' carries the same lemma, in which case one of the two is mislabelled. Needs an image decision, not a rewrite"
-  },
-  {
-   "key": "bored",
-   "field": "gender",
-   "cur": {
-    "s": "Gelangweilt",
-    "p": "Gelangweilt",
+    "s": "Baseball",
+    "p": "Baseball",
     "g": "m"
    },
-   "why": "An adjective has no inherent gender; 'm' would render as 'der Gelangweilt', which is nonsense. Same defect class as the batch-01 'der Backen' finding, but here no noun reading exists to correct to. Needs a data-model decision (null/absent gender for adjectives)"
-  },
-  {
-   "key": "cabbage",
-   "field": "singular",
-   "cur": {
-    "s": "Kohl",
-    "p": "Kohlköpfe",
-    "g": "m"
-   },
-   "why": "Entry is internally inconsistent (N5): 'Kohl' is a mass/kind noun, 'Kohlköpfe' is the plural of 'Kohlkopf' — two different lemmata. Note 'die Kohle' (the regular plural of der Kohl) collides with coal, which is presumably why the head was switched. Decision needed: s='Kohlkopf'/p='Kohlköpfe' (countable, child-friendly, collision-free) OR s='Kohl' with NO_PLURAL"
+   "why": "INTERNAL CONTRADICTION IN THE ROW — not safe to rewrite either way, so I surface it rather than guess. Duden gives TWO Bedeutungen for Baseball: (1) 'amerikanisches Schlagballspiel' (the sport), (2) 'beim Baseballspiel verwendeter Ball'. Its Grammatik line gives ONLY 'der Baseball; Genitiv: des Baseballs' — no plural — while en.wiktionary gives 'plural Baseballs'. Which is right depends on which sense the key is, and the row says both things at once: the ART_DEFECT flag + the en gloss 'Baseball/Baseball' + type 'verb-gerund' all say the key is the SPORT (so: no plural), but the classification block says countable-thing / hasPlural TRUE (so: Baseballs), which describes the ball the batch has already declared a defect. Contrast `basketball` in this same batch, which carries NO defect flag and IS genuinely the ball. Either way the stored zero 'Baseball' is not an invented word, so nothing wrong is currently being read to a child. Operator must rule: is this key the sport or the ball?"
   },
   {
    "key": "cabbage",
@@ -69,137 +29,7 @@
     "p": "Kohlköpfe",
     "g": "m"
    },
-   "why": "Correct as the plural of 'Kohlkopf', but not of the singular in this row; resolves with the lemma decision above"
-  },
-  {
-   "key": "capricious",
-   "field": "gender",
-   "cur": {
-    "s": "Launisch",
-    "p": "Launisch",
-    "g": "m"
-   },
-   "why": "An adjective has no inherent gender; 'm' would render as 'der Launisch'. Needs the same data-model decision as 'bored'"
-  },
-  {
-   "key": "cards",
-   "field": "singular",
-   "cur": {
-    "s": "Karten",
-    "p": "Karten",
-    "g": "f"
-   },
-   "why": "'Karten' is a plural in the singular field, so the row is wrong as it stands — but the repair is not a pure form change: the bare form fix ('Karte') duplicates the existing key 'card'. For themes:[toys] the honest head is 'Spielkarte' (f, Pl. Spielkarten). Needs a lemma decision"
-  },
-  {
-   "key": "carnotaurus",
-   "field": "plural",
-   "cur": {
-    "s": "Carnotaurus",
-    "p": "Carnotauren",
-    "g": "m"
-   },
-   "why": "The -saurus -> -saurier rule does NOT apply here: the name ends in -taurus (Latin taurus = bull), not -saurus, so 'Carnotaurier' would be wrong. Not a Duden headword; 'Carnotauren' is plausible but I cannot verify it. Deliberately left unfixed rather than guessed"
-  },
-  {
-   "key": "cauliflower",
-   "field": "plural",
-   "cur": {
-    "s": "Blumenkohl",
-    "p": "Blumenkohl",
-    "g": "m"
-   },
-   "why": "Current p=s encodes 'no plural', but Duden does list one (Blumenkohl, der; -[e]s, -e), so neither state is clearly right. 'Blumenkohle' is used mainly for varieties and reads/speaks badly for children (parses as Blumen-Kohle); counted heads are naturally 'Blumenkohlköpfe'. Register decision needed — also note the inconsistency with 'broccoli', which does carry a plural"
-  },
-  {
-   "key": "cheeks",
-   "field": "singular",
-   "cur": {
-    "s": "Wangen",
-    "p": "Wangen",
-    "g": "f"
-   },
-   "why": "Plural form 'Wangen' sits in the singular slot. Singular is 'die Wange'. Cannot fix blindly: the key/en gloss is plural [Cheeks, Cheeks] and the image likely shows both cheeks; a singular sibling key 'cheek' may exist in an earlier batch. Needs an operator decision on plural-keyed group entries."
-  },
-  {
-   "key": "chips",
-   "field": "singular",
-   "cur": {
-    "s": "Chips",
-    "p": "Chips",
-    "g": "m"
-   },
-   "why": "Plural form 'Chips' in the singular slot; singular is 'der Chip'. The en gloss is [Chips, Chips] and the image presumably shows a pile/bag. Needs the same operator decision as the other plural-keyed group entries."
-  },
-  {
-   "key": "cloudy",
-   "field": "gender",
-   "cur": {
-    "s": "Bewölkt",
-    "p": "Bewölkt",
-    "g": "m"
-   },
-   "why": "Adjective label, not a noun: gender is not applicable. The stored 'm' is a default artifact, not a claim a reviewer can correct — needs a data-shape decision (null/omit for adjectives)."
-  },
-  {
-   "key": "cold",
-   "field": "gender",
-   "cur": {
-    "s": "Kalt",
-    "p": "Kalt",
-    "g": "m"
-   },
-   "why": "Adjective label, not a noun: gender is not applicable. Stored 'm' is a default artifact — needs the same data-shape decision as 'cloudy'/'confused'/'content'."
-  },
-  {
-   "key": "confused",
-   "field": "gender",
-   "cur": {
-    "s": "Verwirrt",
-    "p": "Verwirrt",
-    "g": "m"
-   },
-   "why": "Adjective label, not a noun: gender is not applicable; stored 'm' is a default artifact."
-  },
-  {
-   "key": "content",
-   "field": "gender",
-   "cur": {
-    "s": "Zufrieden",
-    "p": "Zufrieden",
-    "g": "m"
-   },
-   "why": "Adjective label, not a noun: gender is not applicable; stored 'm' is a default artifact."
-  },
-  {
-   "key": "cookie-sheet",
-   "field": "singular",
-   "cur": {
-    "s": "Keksblech",
-    "p": "Keksbleche",
-    "g": "n"
-   },
-   "why": "'Keksblech' is not an established German word — the standard term for a cookie sheet is 'das Backblech'. Fixing means replacing the lemma, not the form, so it needs an operator/image decision (note: sibling key 'cookie'='Keks' exists, so the coinage was likely machine-composed)."
-  },
-  {
-   "key": "cookies",
-   "field": "singular",
-   "cur": {
-    "s": "Kekse",
-    "p": "Kekse",
-    "g": "m"
-   },
-   "why": "Plural form 'Kekse' in the singular slot. Singular is 'der Keks' — but the sibling key 'cookie' already holds 'Keks', so singularizing would duplicate it. The plural key is presumably a deliberate group-image entry: needs an operator decision, not a blind rewrite."
-  },
-  {
-   "key": "coral",
-   "field": "plural",
-   "cur": {
-    "s": "Koralle",
-    "p": "Koralle",
-    "g": "f"
-   },
-   "why": "The entry is contradictory: themes list both 'colors' (colour name → no plural, p=s as stored) and 'ocean_life' (the animal → 'die Korallen', countable). type='adjective' contradicts countable-animal use. Which is correct depends on the image — do not rewrite blindly."
+   "why": "INTERNAL CONTRADICTION — the two fields come from TWO DIFFERENT LEMMAS, so no pure form fix exists. Duden's cabbage entry states 'Substantiv, maskulin … ohne Plural': der Kohl has NO plural. The stored plural 'Kohlköpfe' is the plural of the SEPARATE lemma Kohlkopf ('der Kohlkopf; Plural: die Kohlköpfe'). The row therefore reads singular-of-Kohl + plural-of-Kohlkopf. Two coherent repairs exist and choosing between them is a lemma decision I will not make blind: (a) keep Kohl and set the plural NO_PLURAL — faithful to Duden, but then a countable picture of one head has no plural; or (b) re-lemma the row to Kohlkopf → Kohlköpfe — which fits the art (ONE head) and the classification (countable-thing, hasPlural=true), contradicts nothing in Duden, and is what I would recommend. Either way the stored plural cannot stand as the plural of Kohl."
   },
   {
    "key": "crane",
@@ -209,7 +39,7 @@
     "p": "Kraniche",
     "g": "m"
    },
-   "why": "The entry is contradictory: themes list both 'birds_2' (the bird = der Kranich, as stored) and 'vehicles' (the machine = der Kran). One entry cannot label both images; if a vehicle image is served, a child hears 'Kranich' for a crane truck. Needs an image decision — two separate keys are likely required."
+   "why": "GENUINE CONTENT QUESTION — which of two things is pictured? The key resolves to two themes holding two UNRELATED referents, and neither is the stored lemma: birds 2 shows a Weissstorch (Storch), vehicles shows a Kran (construction crane). English \"crane\" is ambiguous (bird / machine); German is not — Kranich, Storch and Kran are three different words, and ONE label cannot serve all three. Kranich is the correct rendering of the BIRD sense of the key, so this is not a form error; but the row as it stands will read \"Kranich\" aloud beside a stork and beside a crane truck. This needs an operator ruling (split the key, or re-key/replace the art), not a blind rewrite. The plural and gender below are correct FOR Kranich and I have verified them as such"
   },
   {
    "key": "crayons",
@@ -219,37 +49,7 @@
     "p": "Buntstifte",
     "g": "m"
    },
-   "why": "Two problems at once: (1) plural 'Buntstifte' in the singular slot (singular = 'der Buntstift'); (2) lemma mismatch with the sibling key 'crayon' = 'Wachsmalstift' — Buntstift (coloured pencil) and Wachsmalstift (wax crayon) are different objects. Requires an image decision, not a form fix."
-  },
-  {
-   "key": "cricket",
-   "field": "singular",
-   "cur": {
-    "s": "Grille",
-    "p": "Grillen",
-    "g": "f"
-   },
-   "why": "The entry is contradictory: themes list both 'insects_and_bugs' (the insect = die Grille, as stored) and 'sports' (the game = das Kricket). One entry cannot label both images. Needs an image decision — likely two separate keys."
-  },
-  {
-   "key": "crutches",
-   "field": "singular",
-   "cur": {
-    "s": "Krücken",
-    "p": "Krücken",
-    "g": "f"
-   },
-   "why": "Plural form 'Krücken' in the singular slot; singular is 'die Krücke'. The en gloss is [Crutches, Crutches] and the image presumably shows a pair. Same plural-keyed group-entry decision as cheeks/chips/cookies."
-  },
-  {
-   "key": "curtains",
-   "field": "singular",
-   "cur": {
-    "s": "Vorhänge",
-    "p": "Vorhänge",
-    "g": "m"
-   },
-   "why": "Plural form 'Vorhänge' in the singular slot; singular is 'der Vorhang' — but the sibling key 'curtain' already holds 'Vorhang', so singularizing would duplicate it. Deliberate group-image entry: needs an operator decision."
+   "why": "SISTER-KEY LEMMA INCONSISTENCY — not a form error, so not a blind FIX. The sibling key `crayon` is stored as Wachsmalstift (wax crayon), but this plural key is stored as Buntstifte (der Buntstift = coloured PENCIL — a different object). The art settles which is meant: the three items carry wrapper bands, the signature of wax crayons, and the `crayon` art is the same object. So Wachsmalstifte would make the pair consistent and match the picture. Because that is a lemma change (Buntstift -> Wachsmalstift), per the brief I am holding rather than rewriting. Flagged for the operator"
   },
   {
    "key": "deer",
@@ -259,7 +59,7 @@
     "p": "Rehe",
     "g": "n"
    },
-   "why": "The entry is internally inconsistent across all three fields: s='Hirsch' (stag, masculine) but p='Rehe' (roe deer) and g='n' — the gender and the plural belong to 'das Reh', the singular to 'der Hirsch'. Two different animals. Resolution requires seeing the image: either s=Hirsch/p=Hirsche/g=m or s=Reh/p=Rehe/g=n. Do not rewrite blindly."
+   "why": "THE ROW IS A TWO-LEMMA CHIMERA — it hits all three HOLD triggers at once (another lemma, a picture question, an internal contradiction), so I am not rewriting it blind. The three fields do not describe one word: singular \"Hirsch\" (Duden: \"Hirsch, der\", Substantiv MASKULIN, Plural die Hirsche) vs plural \"Rehe\" (that is the plural of das REH — Duden: \"das Reh; Genitiv: des Reh[e]s, Plural: die Rehe\") vs gender \"n\" (which is REH's gender, not Hirsch's). So two of the three stored fields already describe Reh and only the singular says Hirsch. The art agrees with Reh: the two colour images show an ANTLERLESS spotted fawn, and a Hirsch is by definition the antlered stag. Two coherent repairs exist — (a) Hirsch / Hirsche / m, or (b) Reh / Rehe / n — and (b) is better supported by both the existing fields and the pictures, but choosing between them is a lemma decision for the operator. Whatever is chosen, the row CANNOT stay as it is: read aloud today it says \"Hirsch\" (a stag) beside an antlerless fawn, with a neuter gender that belongs to a different word and a plural that belongs to a different word again"
   },
   {
    "key": "deer",
@@ -269,7 +69,7 @@
     "p": "Rehe",
     "g": "n"
    },
-   "why": "'Rehe' is the plural of 'Reh', not of the stored singular 'Hirsch' (→ die Hirsche). Depends on the same image decision."
+   "why": "\"Rehe\" is not a form of the stored singular at all — Duden gives Hirsch -> die Hirsche (Plural 1; Plural 2 die Hirschen), while Rehe is the plural of das Reh. Fixing it to \"Hirsche\" would silently lock in lemma (a) and overrule the artwork; fixing the singular to \"Reh\" would lock in lemma (b). Held pending the operator ruling described on the singular"
   },
   {
    "key": "deer",
@@ -279,7 +79,7 @@
     "p": "Rehe",
     "g": "n"
    },
-   "why": "'n' matches 'das Reh', not the stored singular 'der Hirsch'. Depends on the same image decision."
+   "why": "\"n\" is wrong for the stored singular — Duden is explicit that Hirsch is \"Substantiv, maskulin\" (der Hirsch). It is correct for Reh (\"das Reh\", Neutrum). The gender therefore cannot be settled before the lemma is: it is m under repair (a) and n under repair (b). Held with the other two fields rather than flipping it to m in isolation, which would half-migrate the row and destroy the evidence that it was ever a Reh"
   },
   {
    "key": "deinonychus",
@@ -289,47 +89,17 @@
     "p": "Deinonychen",
     "g": "m"
    },
-   "why": "No Duden entry for this genus name, so I cannot state a correct form. 'Deinonychen' looks like a machine artifact (-us → -en, as in Rhythmus → Rhythmen); paleontological German usually leaves genus names unchanged ('die Deinonychus'). The -saurus → -saurier rule does not apply here (the word is Greek deinos + onyx, not -saurus). Needs a specialist ruling — I will not guess."
+   "why": "NO AUTHORITY ATTESTS ANY GERMAN PLURAL and I will not invent one. Duden has no /Deinonychus page; de.wiktionary and en.wiktionary both 404 on the headword — I fetched all three. The stored \"Deinonychen\" is not attested anywhere I could reach and has the shape of a builder guess (it inflects the Greek/Latin -us as if it were a weak German noun). I am deliberately citing NO source here: all three pages 404, and per the brief a fabricated src is worse than an absent one. The brief itself records this key being escalated in the de round for a FABRICATED citation, and cites the reviewer who rightly refused to over-apply the -saurus -> -saurier rule to names that merely end in -us (carnotaurus, triceratops, velociraptor, parasaurolophus) — Deinonychus is Greek deinos + onyx (\"terrible claw\") and is not a -saurus name either, so no class rule reaches it. Needs an operator/editorial ruling (plausible options: invariant \"Deinonychus\", or avoid the plural), not a guess from me"
   },
   {
-   "key": "dimetrodon",
-   "field": "plural",
+   "key": "diamond",
+   "field": "singular",
    "cur": {
-    "s": "Dimetrodon",
-    "p": "Dimetrodone",
-    "g": "m"
+    "s": "Raute",
+    "p": "Rauten",
+    "g": "f"
    },
-   "why": "'Dimetrodone' is a machine-formed -e plural and is not attested. No Duden entry for Dimetrodon; German usage tends to 'Dimetrodons'. Cannot confirm a normed form -> hold rather than guess."
-  },
-  {
-   "key": "dimetrodon",
-   "field": "gender",
-   "cur": {
-    "s": "Dimetrodon",
-    "p": "Dimetrodone",
-    "g": "m"
-   },
-   "why": "No Duden entry. Genus names in -odon are commonly neuter in German (das Iguanodon), so 'm' is doubtful; needs an authoritative source."
-  },
-  {
-   "key": "diplodocus",
-   "field": "plural",
-   "cur": {
-    "s": "Diplodocus",
-    "p": "Diplodocen",
-    "g": "m"
-   },
-   "why": "Mixed form: the entry uses Latin spelling 'Diplodocus' but a germanized plural 'Diplodocen'. The germanized headword 'Diplodokus' takes a different plural pattern than the Latin one; cannot confirm which normed pair applies -> hold rather than guess."
-  },
-  {
-   "key": "disgusted",
-   "field": "gender",
-   "cur": {
-    "s": "Angeekelt",
-    "p": "Angeekelt",
-    "g": "m"
-   },
-   "why": "Adjective: gender is not applicable. The stored 'm' is meaningless rather than wrong-but-fixable; needs an operator decision on how the data model represents non-nouns."
+   "why": "Picture question, and it is the brief's `football` case exactly: I opened BOTH themes and they show DIFFERENT things. `Raute` names the shapes/ rhombus correctly and is dead wrong for the valentine ring, which is a Diamant(ring). English `diamond` carries the polysemy; German splits it and has no word covering both. One label cannot serve both images — on the valentine card a child would hear 'Raute' while looking at a gemstone ring. This is the previous round's own unanswered caveat, now answered by opening the file. Needs an operator ruling (split the key, or drop/retheme the valentine art). NOT a form fix."
   },
   {
    "key": "domino",
@@ -339,7 +109,7 @@
     "p": "Dominos",
     "g": "m"
    },
-   "why": "Theme 'toys' + English 'Domino/Dominoes' points to the single tile, which in German is 'der Dominostein'. Bare 'Domino' is either the game (das Domino) or a masked costume (der Domino) per Duden - a different lemma, not a form fix."
+   "why": "Lemma mismatch, and Duden makes it sharp: `Domino` is das Domino = the GAME ('Spiel, bei dem rechteckige, mit Punkten versehene Steine ... aneinandergelegt werden'). The picture is the PIECES = Dominosteine. Two faults chain, which is why this is not a form fix: (a) if the label stays `Domino`, the gender MUST become n; (b) if it is re-lemmatised to the pictured object, `Dominostein` is MASKULIN (der Stein) with plural Dominosteine — so the gender answer flips with the lemma. The art also shows two tiles, which sits oddly with countable-thing. Operator rules word-or-art first."
   },
   {
    "key": "domino",
@@ -349,7 +119,7 @@
     "p": "Dominos",
     "g": "m"
    },
-   "why": "Depends on the lemma decision: die Dominosteine (tiles) vs. die Dominos (games/costumes)."
+   "why": "Blocked on the same lemma ruling. `Dominos` is correct for das Domino (Duden: Plural: die Dominos); `Dominosteine` would be correct for the pictured tiles."
   },
   {
    "key": "domino",
@@ -359,7 +129,7 @@
     "p": "Dominos",
     "g": "m"
    },
-   "why": "Duden distinguishes das Domino (game) from der Domino (costume); der Dominostein (tile) is m. Gender cannot be settled before the lemma is."
+   "why": "The stored `m` is unsupported as written — Duden gives das Domino (Neutrum) for the game; it would only become correct under the lemma der Dominostein. Recording a HOLD rather than a blind FIX to `n`, because fixing the gender alone would freeze the wrong lemma: a game label on a picture of tiles."
   },
   {
    "key": "drink",
@@ -369,7 +139,7 @@
     "p": "Trinken",
     "g": "n"
    },
-   "why": "'Trinken' is the substantivized infinitive = the act of drinking, not a beverage. The English gloss 'Drink/Drinks' is a countable beverage = 'Getränk'. That is a lemma change, not a form fix. (noImage: dead data, but still wrong.)"
+   "why": "Lemma question I cannot settle without art or an operator call. Duden DOES attest das Trinken with the sense 'Getränk, Getränke' ('für Essen und Trinken sorgen'), so the word is not invented — but that is a fixed-collocation, adult register. For a 3-7-year-old the noun `drink` is das Getränk (Plural: die Getränke). Two further signals say something is off: the row's `type` is null, and its classification says countable-thing/hasPlural:true, which das Trinken (substantivized infinitive) cannot satisfy — see the plural field. It also collides in register with `eat`→Essen. Needs a ruling: Getränk (countable, has plural) or Trinken (activity, no plural)."
   },
   {
    "key": "drink",
@@ -379,27 +149,17 @@
     "p": "Trinken",
     "g": "n"
    },
-   "why": "Depends on the lemma: das Trinken has no plural; das Getränk -> die Getränke."
+   "why": "Blocked on the same ruling, and the classification is self-contradictory here. Duden gives das Trinken; Genitiv: des Trinkens — and NO plural, because substantivized infinitives do not take one. So hasPlural:true cannot be honoured by the current lemma; the stored `Trinken` is the singular echoed. If the lemma becomes Getränk the plural is Getränke; if it stays Trinken the answer is NO_PLURAL. Pluralising it would be RULE 4's *Singens* trap."
   },
   {
-   "key": "durian",
-   "field": "plural",
-   "cur": {
-    "s": "Durian",
-    "p": "Duriane",
-    "g": "m"
-   },
-   "why": "'Duriane' is a machine-formed -e plural. Attested German usage is 'Durians'; I cannot confirm the normed Duden form -> hold rather than guess."
-  },
-  {
-   "key": "durian",
+   "key": "earmuffs",
    "field": "gender",
    "cur": {
-    "s": "Durian",
-    "p": "Duriane",
+    "s": "Ohrenschützer",
+    "p": "Ohrenschützer",
     "g": "m"
    },
-   "why": "Gender of Durian is not settled in my sources (die Durian for the fruit vs. der Durian is both in circulation). Needs a Duden lookup."
+   "why": "Duden assigns Ohrenschützer NO gender — a Pluralwort has none, and the plural article `die` is gender-blind so usage cannot reveal one either. The stored `m` is therefore unsupported, but I will not blind-FIX it to null: the classification says hasGender:true, the schema does carry null genders (the adjective rows prove it), and choosing between 'null' and 'inherit m from the Kurzform der Schützer' is a schema/operator decision, not a form correction."
   },
   {
    "key": "evergreen",
@@ -409,7 +169,7 @@
     "p": "Immergrüne",
     "g": "m"
    },
-   "why": "Two defects at once. 'Immergrün' in German is the plant Vinca (periwinkle), das Immergrün - it does not mean an evergreen tree. Theme 'winter' + English 'Evergreen' almost certainly shows a conifer, i.e. Nadelbaum / Tanne. Lemma decision required from the image, not a form fix."
+   "why": "LEMMA MISMATCH — the label names a different plant from the one drawn, and this is the most serious word error in the batch. Duden: das Immergrün is a specific low GROUNDCOVER FLOWER (Vinca / periwinkle) — not a conifer, not a tree, not a category of 'evergreen plants'. The picture is a needle tree. So a German child sees a fir and hears the name of a small creeping flower. English `evergreen` is an adjective-turned-noun German does not mirror: the tree drawn here is ein Nadelbaum (Duden: der Nadelbaum, Plural: die Nadelbäume) or, given the silhouette, eine Tanne. HOLD not FIX, because Immergrün→Nadelbaum is a NEW LEMMA, not a form correction, and it drags the gender with it. Related: this art is near-identical to `fir-tree` (tree/fir@2x.webp) — the two keys may be duplicates."
   },
   {
    "key": "evergreen",
@@ -419,7 +179,7 @@
     "p": "Immergrüne",
     "g": "m"
    },
-   "why": "Depends on the lemma decision (die Nadelbäume / die Tannen vs. die Immergrüne)."
+   "why": "Blocked on the lemma. Worth recording precisely, because the naive read is wrong: `Immergrüne` is NOT an invented form — Duden gives das Immergrün; Genitiv: des Immergrüns, Plural: die Immergrüne. So the stored plural is correct FOR THE WRONG WORD, and a reviewer checking only the plural column would have passed this row. If the lemma becomes Nadelbaum the plural is Nadelbäume; if Tanne, Tannen."
   },
   {
    "key": "evergreen",
@@ -429,67 +189,37 @@
     "p": "Immergrüne",
     "g": "m"
    },
-   "why": "'m' is wrong for das Immergrün (Duden: neuter), but would be right for der Nadelbaum. Cannot be settled before the lemma is."
+   "why": "The stored `m` is wrong under every reading, but the right answer depends on the lemma ruling, so no blind FIX. Duden: das Immergrün = NEUTRUM (so `m` is unsupported today); der Nadelbaum = maskulin; die Tanne = feminin. Three candidate lemmas, three different genders — precisely the case the brief says to HOLD. (For completeness: der/das Evergreen exists in Duden but means an evergreen SONG, a perennial hit — not a plant.)"
   },
   {
-   "key": "excited",
-   "field": "gender",
-   "cur": {
-    "s": "Aufgeregt",
-    "p": "Aufgeregt",
-    "g": "m"
-   },
-   "why": "Adjective: gender is not applicable. The stored 'm' is meaningless; needs an operator decision on how the data model represents non-nouns."
-  },
-  {
-   "key": "face-mask",
-   "field": "plural",
-   "cur": {
-    "s": "Mundschutz",
-    "p": "Mundschutze",
-    "g": "m"
-   },
-   "why": "'Mundschutze' is the naive -e default and sounds unidiomatic; the head noun 'Schutz' has no plural, and real usage says 'Masken'. I cannot confirm whether Duden norms a plural for Mundschutz -> hold rather than guess. (noImage: dead data.)"
-  },
-  {
-   "key": "gloves",
+   "key": "football",
    "field": "singular",
    "cur": {
-    "s": "Handschuhe",
-    "p": "Handschuhe",
+    "s": "American Football",
+    "p": "American Football",
     "g": "m"
    },
-   "why": "'Handschuhe' is a plural sitting in the singular field. But reconstructing 'Handschuh' would make this entry byte-identical to the existing key 'glove' (Handschuh/Handschuhe/m), and the image is a PAIR of gloves, so a singular label would misname it. This is an entry-level decision (keep as pair-label, merge with 'glove', or relabel e.g. 'ein Paar Handschuhe'), not a form fix."
+   "why": "Internal contradiction the operator must resolve — the brief's own `football` case, one layer deeper. The stored `American Football` names the SPORT (der American Football, no plural), but the picture is the BALL, and the row's metadata cannot decide either: `type` says verb-gerund + countable:false (sport), while `classification` says countable-thing + hasPlural:true (ball). Both cannot hold. If the key means the ball, the label is der Football / der American Football with plural Footballs; if it means the sport, hasPlural must go false. Not a form fix — refusing to rewrite blind."
   },
   {
-   "key": "happy",
-   "field": "gender",
-   "cur": {
-    "s": "Glücklich",
-    "p": "Glücklich",
-    "g": "m"
-   },
-   "why": "'glücklich' is an adjective, not a noun — no gender applies. Unlike colour names it has no established neuter nominalisation ('das Glücklich' does not exist; the noun would be a different lemma, das Glück / die Freude). Whether to carry a gender code at all for emotion adjectives is an entry-level decision, not a form fix."
-  },
-  {
-   "key": "iguanodon",
+   "key": "football",
    "field": "plural",
    "cur": {
-    "s": "Iguanodon",
-    "p": "Iguanodone",
+    "s": "American Football",
+    "p": "American Football",
     "g": "m"
    },
-   "why": "'Iguanodone' looks like a naive default suffix. The stem is Greek -odon/-odontos (tooth), not -saurus, so the -saurier rule does not apply; candidates are the scientific 'Iguanodonten' or the loan plural 'Iguanodons'. I find no Duden entry to arbitrate and will not guess — needs a decision"
+   "why": "Blocked on the same ruling. As stored the plural field merely echoes the singular ('American Football'), which is right for the sport (no plural) and wrong for the ball (Footballs)."
   },
   {
-   "key": "jar",
+   "key": "hair",
    "field": "singular",
    "cur": {
-    "s": "Glas",
-    "p": "Gläser",
+    "s": "Haare",
+    "p": "Haare",
     "g": "n"
    },
-   "why": "'Glas' is correct German for a jar, but its primary reading is the drinking glass, and N6 flags a collision with another key — two different pictures would carry the identical word and identical spoken form. Disambiguating needs a lemma decision (Einmachglas / Marmeladenglas), which is a content question about what the image shows, not a form fix"
+   "why": "INTERNAL CONTRADICTION — not a form I can safely rewrite. The singular field holds 'Haare', which is a PLURAL: Duden/Wiktionary give das Haar (Neutrum), Nominativ Plural die Haare. So this is the brief's known defect class (a plural sitting in the singular field, cf. sv 'Jultomten'). But the two obvious repairs pull opposite ways and BOTH have a cost, so an operator ruling is needed rather than a blind rewrite: (a) change the label to 'Haar' — then it agrees with the stored gender n ('das Haar') and is a true singular, but 'das Haar' for a whole head of hair is the literary/collective register, not what a 3-7-year-old hears; (b) keep the label 'Haare' — natural German for the picture ('sie hat rote Haare'), but then the stored gender n is the genus of the SINGULAR lemma and any article rendered from it would read '*das Haare'. Since the site reads these aloud beside the picture, the mismatch is live. Flagging the contradiction, not guessing which way it resolves."
   },
   {
    "key": "jump",
@@ -499,7 +229,7 @@
     "p": "Springen",
     "g": "n"
    },
-   "why": "the entry is internally inconsistent: the English gloss is the countable event 'Jump/Jumps' (= der Sprung), but the German field holds the substantivized infinitive 'Springen' (= the activity), which duplicates the key 'jumping' (N6). Choosing between Sprung and Springen is a lemma decision, not a form fix. Orphan with no image — lowest priority"
+   "why": "Internal contradiction — not rewriting blind. The row is classified countable-thing with hasPlural true (i.e. a countable 'a jump' → German der Sprung, Plural die Sprünge), but the stored word is 'Springen', a substantivized infinitive naming the ACTIVITY, which has no plural. Either the word should become Sprung (a LEMMA change, outside FIX) or the classification should be activity. Note the sibling key 'jumping' holds the same word 'Springen' correctly as an activity — so as it stands 'jump' and 'jumping' are duplicates. Needs an operator ruling."
   },
   {
    "key": "jump",
@@ -509,17 +239,7 @@
     "p": "Springen",
     "g": "n"
    },
-   "why": "see singular: 'Springen' has no plural, 'Sprung' has 'Sprünge'; depends on the lemma chosen"
-  },
-  {
-   "key": "jump",
-   "field": "gender",
-   "cur": {
-    "s": "Springen",
-    "p": "Springen",
-    "g": "n"
-   },
-   "why": "depends on the lemma: das Springen (n) vs. der Sprung (m)"
+   "why": "Depends on the singular ruling above: if the word stays Springen → no plural (das Springen, substantivized infinitive); if it becomes Sprung → die Sprünge. Cannot be resolved as a pure form fix."
   },
   {
    "key": "liberty",
@@ -529,7 +249,7 @@
     "p": "Freiheiten",
     "g": "f"
    },
-   "why": "content question about the image: with theme 4th_of_july the picture is most likely the Statue of Liberty (die Freiheitsstatue), not the abstract concept. 'Freiheit' is a correct gloss of 'Liberty' but an abstract noun is not a picture-card word — needs a look at the image, not a form fix"
+   "why": "LEMMA MISMATCH on a row that is NOT marked blocked — surfacing rather than rewriting blind. The word 'Freiheit' names the ABSTRACT concept (freedom); the picture is a MONUMENT, i.e. die Freiheitsstatue. This is the singing=Mikrofon / honey=Jar class the brief describes, and it is load-bearing here because the classification itself agrees with the picture and not with the word: it says countable-thing, which fits a statue but cannot fit abstract Freiheit. Freiheit → Freiheitsstatue is another lemma, so it is outside FIX. Operator rules first: fix the WORD or fix the ART."
   },
   {
    "key": "liberty",
@@ -539,17 +259,7 @@
     "p": "Freiheiten",
     "g": "f"
    },
-   "why": "depends on the lemma: for the abstract noun there is no child-appropriate plural (Duden's 'Freiheiten' means privileges, not instances of the concept); for Freiheitsstatue it would be Freiheitsstatuen"
-  },
-  {
-   "key": "lotus",
-   "field": "plural",
-   "cur": {
-    "s": "Lotus",
-    "p": "Lotusblüten",
-    "g": "m"
-   },
-   "why": "singular 'Lotus' (the plant) and plural 'Lotusblüten' (the blossoms) are two different lemmas; 'Lotusblüten' is the plural of 'Lotusblüte', not of 'Lotus'. Needs a lemma decision (keep Lotus, or move the whole entry to Lotusblüte/Lotusblüten, f), not a form fix"
+   "why": "Depends on the lemma ruling above. As stored, note Duden gives Freiheit BOTH 'Plural: die Freiheiten' AND an 'ohne Plural' sense (the abstract one — the very sense stored here). If the lemma becomes Freiheitsstatue, the plural would be Freiheitsstatuen. Cannot be resolved as a pure form fix."
   },
   {
    "key": "maiasaura",
@@ -559,7 +269,7 @@
     "p": "Maiasauras",
     "g": "m"
    },
-   "why": "not in Duden; the -saurus→-saurier class does not apply (the name ends in -saura, Lat. fem.). German popular usage shows both 'Maiasauras' and 'Maiasauren' — no reliable source, so no guess"
+   "why": "NO AUTHORITY COVERS THIS, AND THE STORED FORM LOOKS LIKE THE BUILDER DEFAULT. Duden: no entry (confirmed via Duden SEARCH returning nothing, not merely a 404). de.wiktionary: 404. I then checked real German usage: the de.wikipedia article uses uninflected \"Maiasaura\" 23x and \"Maiasauras\" exactly ONCE — and that one instance is a GENITIVE SINGULAR (\"nach dem Aussterben Maiasauras\"), not a plural. So there is ZERO attestation of \"Maiasauras\" as a German plural, and it is consistent with the script's naive +s default. Contrast the sibling Mosasaurus, whose plural IS attested (Mosasaurier). Needs an operator ruling, not a blind rewrite."
   },
   {
    "key": "maiasaura",
@@ -569,247 +279,137 @@
     "p": "Maiasauras",
     "g": "m"
    },
-   "why": "not in Duden; the genus name is deliberately feminine (maia + saura), yet German dinosaur names usually take m by analogy with 'der Saurier'. Cannot confirm 'der' vs 'die Maiasaura' from a source"
+   "why": "Undocumented. Duden and de.wiktionary have no entry, and the de.wikipedia article never uses an article with the name, so German usage yields no gender evidence. The Latin stem -saura is the FEMININE of -saurus, which makes the stored m doubtful — but I will not flip a gender on etymology alone with no attestation (the brief: never chase a signal, never invent a citation)."
   },
   {
-   "key": "medical-gloves",
+   "key": "mixer",
    "field": "singular",
    "cur": {
-    "s": "Medizinische Handschuhe",
-    "p": "Medizinische Handschuhe",
-    "g": "m"
+    "s": "Rührgerät",
+    "p": "Rührgeräte",
+    "g": "n"
    },
-   "why": "the singular field holds a plural phrase. Unlike the blocks/candy defect the en gloss is plural in BOTH slots, so the German mirrors the source: this is a plural-only entry by design, not a bad rendering. If the field must hold a singular it is 'Medizinischer Handschuh' (Handschuh is not pluralia tantum) — an entry-design decision, not a form fix"
+   "why": "The picture is a STAND MIXER, which German calls \"die Küchenmaschine\". \"Rührgerät\" normally denotes a HAND mixer (Handrührgerät). The word is not flatly wrong (a stand mixer does rühren), but the precise label for this picture is another lemma AND another gender (f), so I will not rewrite blind — this is exactly the HOLD case. Operator ruling needed: fix the word to Küchenmaschine, or accept the broad term. METHOD NOTE: \"Rührgerät\" is not a Duden headword — confirmed via Duden SEARCH returning nothing, NOT merely a 404/403, because a failed fetch does not prove absence."
   },
   {
-   "key": "merry",
-   "field": "gender",
-   "cur": {
-    "s": "Fröhlich",
-    "p": "Fröhlich",
-    "g": "m"
-   },
-   "why": "'fröhlich' is an adjective, not a noun; it has no inherent gender, so 'm' is certainly wrong but there is no single right value. Unlike the colour class (das Blau) there is no established substantivization 'das Fröhlich' — needs a decision (leave the gender field empty for adjective entries, or switch the lemma to a noun such as 'die Fröhlichkeit')"
-  },
-  {
-   "key": "mittens",
+   "key": "pinwheel",
    "field": "singular",
    "cur": {
-    "s": "Fäustlinge",
-    "p": "Fäustlinge",
-    "g": "m"
+    "s": "Windrad",
+    "p": "Windräder",
+    "g": "n"
    },
-   "why": "the singular field holds a plural. The en gloss is plural in BOTH slots, so this is a pair-only entry by design and the German mirrors it faithfully. The singular would be 'Fäustling' — but that makes this entry byte-identical to the sibling key 'mitten' (Fäustling/Fäustlinge/m). Pair-vs-single is a data decision (and an N6 dedupe), not a form fix"
+   "why": "🔴 DUDEN CONTRADICTS THE STORED WORD. I expected to pass this and fetched anyway; the prior de-08 file passed it OK/OK/OK. Duden's Windrad entry has exactly ONE Bedeutung: 'KRAFTMASCHINE zum Antreiben anderer Maschinen, Generatoren o. Ä. ... durch den Wind angetrieben wird' — a wind TURBINE. The toy sense is not there. It is a separate headword: WINDRÄDCHEN = 'SPIELZEUG FÜR KLEINE KINDER, bei dem sich ein drehbar an einem STÖCKCHEN befestigtes kleines Rad mit Flügeln aus leichtem, buntem Material im Wind dreht' — a verbatim description of this picture, stick and all. So a 3–7-year-old is shown a paper toy and taught the dictionary word for a power-generating machine. HOLD not FIX because Windrad→Windrädchen changes the LEMMA (and its plural: die Windrädchen, NOT die Windräder), which the taxonomy puts outside a pure form correction. RECOMMEND: singular → Windrädchen, plural → Windrädchen, gender stays n. Caveat recorded honestly: colloquial German does use Windrad for the toy, so this is a Duden-strictness call for the operator, not an outright garbage word like pepper→Pfeffer."
   },
   {
-   "key": "muscles",
-   "field": "singular",
-   "cur": {
-    "s": "Muskeln",
-    "p": "Muskeln",
-    "g": "m"
-   },
-   "why": "the singular field holds a plural. The en gloss is plural in BOTH slots (Muscles/Muscles), so the German mirrors the source rather than mis-rendering it — this differs from the blocks/candy class, where the en singular slot was a real singular. The singular is trivially 'Muskel' (der Muskel → die Muskeln) if the operator wants the field filled properly; that is an entry-design call"
-  },
-  {
-   "key": "parasaurolophus",
+   "key": "pinwheel",
    "field": "plural",
    "cur": {
-    "s": "Parasaurolophus",
-    "p": "Parasaurolophen",
-    "g": "m"
+    "s": "Windrad",
+    "p": "Windräder",
+    "g": "n"
    },
-   "why": "the -saurus -> -saurier rule does NOT apply: the head is Greek lophos ('crest'), not saurus (same differentiation as carnotaurus). Duden has no entry; German usage is unsettled between an invariant plural and 'Parasaurolophen'. Not guessing"
+   "why": "Contingent on the singular ruling. As stored, Windräder is the CORRECT plural of Windrad (Duden: das Windrad, Plural die Windräder — and the umlaut is right, which the builder cannot normally produce). But if the lemma moves to Windrädchen the plural must become Windrädchen (diminutive -chen, zero plural). Holding rather than pluralising into a lemma that may change."
   },
   {
-   "key": "park-ranger",
+   "key": "purse",
    "field": "singular",
    "cur": {
-    "s": "Parkwächter",
-    "p": "Parkwächter",
-    "g": "m"
+    "s": "Geldbörse",
+    "p": "Geldbörsen",
+    "g": "f"
    },
-   "why": "'Parkwaechter' is a park attendant/guard; a (US-style) park ranger is 'Ranger'/'Parkranger' or 'Wildhueter' in German. Choosing the right word requires a lemma decision plus a look at the image — not a form fix"
+   "why": "Lemma mismatch: the picture is a Handtasche (handbag), but 'Geldbörse' means a coin purse/wallet. Swedish flagged the same shared art. Recommend Handtasche (f, Plural Handtaschen). Operator must decide word-vs-art (§HOLD: another lemma)."
   },
   {
-   "key": "partly-cloudy",
+   "key": "ribbon",
+   "field": "singular",
+   "cur": {
+    "s": "Band",
+    "p": "Bänder",
+    "g": "n"
+   },
+   "why": "Picture is a tied bow (Schleife, f, Plural Schleifen); the current word 'Band' (n) is a ribbon strip. English 'ribbon' does map to Band, but the art clearly shows a bow. Operator decides word-vs-art (§HOLD: another lemma / picture question)."
+  },
+  {
+   "key": "shorts",
    "field": "gender",
    "cur": {
-    "s": "Teilweise bewölkt",
-    "p": "Teilweise bewölkt",
-    "g": "m"
+    "s": "Shorts",
+    "p": "Shorts",
+    "g": "f"
    },
-   "why": "an adjectival phrase has no gender at all — 'm' is certainly wrong, but there is no correct value to substitute (unlike colour nouns, this cannot be nominalised naturally). Needs a data-model decision (null/none), not a form fix"
+   "why": "Duden assigns NO Genus to Shorts — it is a Pluralwort, and German plural-only nouns carry no gender ('die Shorts' is the plural article, not a feminine one). The stored 'f' is not attestable from the authority. This is an internal model contradiction (hasGender:true vs word class), not a form error — flagged rather than rewritten, per 'never rewrite blind'. If a code must be carried, 'f' (die+plural) is harmless convention, but record it as a model artefact, not Duden-backed."
   },
   {
-   "key": "peeler",
+   "key": "sink",
    "field": "singular",
    "cur": {
-    "s": "Schäler",
-    "p": "Schäler",
-    "g": "m"
+    "s": "Spüle",
+    "p": "Spülen",
+    "g": "f"
    },
-   "why": "'Schaeler' on its own is not what anyone calls a kitchen peeler in German; the everyday terms are 'Sparschaeler', 'Kartoffelschaeler' or 'Gemueseschaeler'. Picking one requires a lemma decision plus a look at the image — not a form fix"
+   "why": "LEMMA MISMATCH, confirmed against the picture and the authority — independently reproduces the Swedish finding on the same shared art. Duden Spuele = 'schrankartiges Kuechenmoebel mit Spuelbecken' — a KITCHEN CABINET UNIT with a sink in it. The picture is a bathroom pedestal basin, which Duden names Waschbecken: '[an der Wand befestigtes] Becken zum Waschen der Haende, des Koerpers'. NOT an ART_DEFECT row: English 'sink' covers both the kitchen and the bathroom fixture; German does not, and the wrong one was chosen. HOLD rather than FIX because the correction is a different lemma AND changes gender AND plural. RECOMMENDED: s=Waschbecken, p=Waschbecken, g=n."
   },
   {
-   "key": "pepper",
-   "field": "singular",
-   "cur": {
-    "s": "Paprika",
-    "p": "Pfeffer",
-    "g": "m"
-   },
-   "why": "entry conflates the bell pepper (Paprika) with the spice (Pfeffer) — two different lemmas, not a form fix. themes=[vegetables] and the countable English plural 'Peppers' point to Paprika, but the p field says Pfeffer, and the second theme (at_the_supermarket) could host either image. Needs a human decision on which image the key serves (possibly a key split)"
-  },
-  {
-   "key": "pepper",
+   "key": "sink",
    "field": "plural",
    "cur": {
-    "s": "Paprika",
-    "p": "Pfeffer",
-    "g": "m"
+    "s": "Spüle",
+    "p": "Spülen",
+    "g": "f"
    },
-   "why": "see singular; if Paprika is chosen, Duden gives 'Paprikas' (also invariant '-'), and 'Pfeffer' as a spice has no plural — the value depends entirely on the lemma decision"
+   "why": "Spuelen is the correct plural OF SPUELE (Duden: die Spuele; Plural: die Spuelen), so the form is not itself defective — but it is the plural of the wrong lemma. If the singular is corrected to Waschbecken the plural becomes the zero plural Waschbecken. Held with the singular."
   },
   {
-   "key": "pepper",
+   "key": "sink",
    "field": "gender",
    "cur": {
-    "s": "Paprika",
-    "p": "Pfeffer",
-    "g": "m"
+    "s": "Spüle",
+    "p": "Spülen",
+    "g": "f"
    },
-   "why": "depends on the lemma chosen (Duden: der Paprika; der Pfeffer — both m, so 'm' happens to survive either way, but must not be confirmed before the lemma is settled)"
+   "why": "f is correct for die Spuele, but Waschbecken is NEUTER (das Waschbecken). The gender is only right while the wrong lemma stands. Held with the singular."
   },
   {
-   "key": "rainy",
-   "field": "gender",
+   "key": "spatula",
+   "field": "singular",
    "cur": {
-    "s": "Regnerisch",
-    "p": "Regnerisch",
+    "s": "Pfannenwender",
+    "p": "Pfannenwender",
     "g": "m"
    },
-   "why": "'regnerisch' is a plain adjective, not a noun — grammatical gender does not apply; 'm' is wrong under every reading, but the correct value is not a form fix (it depends on whether this field should be empty or encode a substantivised 'das Regnerische')"
+   "why": "LEMMA MISMATCH, confirmed against the picture and the authority — independently reproduces the Swedish finding on the same shared art. A Pfannenwender is a stiff, usually slotted TURNER, offset from the handle, for flipping food in a pan. The pictured tool is a flexible silicone scraper, which Duden names Teigschaber: 'Kuechengeraet, bestehend aus einem flachen Teil aus Metall oder Kunststoff zum Glattstreichen von dickfluessigen Teigmassen ... oder zum Ausschaben' — an exact description of the art. HOLD rather than FIX because the correction is a different lemma. RECOMMENDED: s=Teigschaber (m). Convenient consequence: Teigschaber is also masculine with a zero plural, so the plural and gender fields survive the lemma change unchanged."
   },
   {
-   "key": "sad",
-   "field": "gender",
+   "key": "stamp",
+   "field": "singular",
    "cur": {
-    "s": "Traurig",
-    "p": "Traurig",
+    "s": "Stempel",
+    "p": "Stempel",
     "g": "m"
    },
-   "why": "'traurig' is a plain adjective, not a noun — grammatical gender does not apply; 'm' is wrong under every reading, but the correct value is not a form fix (it depends on whether this field should be empty or encode a substantivised 'das Traurige')"
+   "why": "TWO THEMES, TWO DIFFERENT OBJECTS, ONE WORD — the collision the prompt flagged, confirmed by opening both. Stempel (Duden: der Stempel) names the classroom rubber stamp and ONLY that. The post-office picture is a Briefmarke (Duden: 'aufklebbares Wertzeichen zum Freimachen von Postsendungen') — and a German child shown a perforated postage stamp and told 'Stempel' is being taught the wrong word, because Stempel is the thing the post office presses ONTO the Briefmarke. No single German word covers both pictures: a genuine content question (which of two things is the key?), which the brief reserves for HOLD. NOTE the colour asymmetry: post office/stamp is the only COLOUR art (classroom is BW-only), so the postage-stamp sense may be the dominant live one. RECOMMENDED: split the key (stamp = Briefmarke f / rubber-stamp = Stempel m), or pick one theme and drop the other. Do NOT rewrite blind."
   },
   {
-   "key": "scared",
-   "field": "gender",
-   "cur": {
-    "s": "Verängstigt",
-    "p": "Verängstigt",
-    "g": "m"
-   },
-   "why": "'verängstigt' is a participle used as an adjective, not a noun — grammatical gender does not apply; 'm' is wrong under every reading, but the correct value is not a form fix"
-  },
-  {
-   "key": "shy",
-   "field": "gender",
-   "cur": {
-    "s": "Schüchtern",
-    "p": "Schüchtern",
-    "g": "m"
-   },
-   "why": "an adjective has no gender; 'm' is wrong but no correct value exists without changing the lemma (e.g. substantivising to 'das Schüchternsein'). Needs a data-model decision, not a form fix"
-  },
-  {
-   "key": "skeptical",
-   "field": "gender",
-   "cur": {
-    "s": "Skeptisch",
-    "p": "Skeptisch",
-    "g": "m"
-   },
-   "why": "adjective has no gender; 'm' is wrong, but no correct value exists without a lemma change. Data-model decision"
-  },
-  {
-   "key": "stormy",
-   "field": "gender",
-   "cur": {
-    "s": "Stürmisch",
-    "p": "Stürmisch",
-    "g": "m"
-   },
-   "why": "adjective has no gender; 'm' is wrong but no correct value exists without a lemma change. Data-model decision"
-  },
-  {
-   "key": "sunny",
-   "field": "gender",
-   "cur": {
-    "s": "Sonnig",
-    "p": "Sonnig",
-    "g": "m"
-   },
-   "why": "adjective has no gender; 'm' is wrong but no correct value exists without a lemma change. Data-model decision"
-  },
-  {
-   "key": "surprised",
-   "field": "gender",
-   "cur": {
-    "s": "Überrascht",
-    "p": "Überrascht",
-    "g": "m"
-   },
-   "why": "adjective has no gender; 'm' is wrong but no correct value exists without a lemma change. Data-model decision"
-  },
-  {
-   "key": "t-rex",
+   "key": "stamp",
    "field": "plural",
    "cur": {
-    "s": "T-Rex",
-    "p": "T-Rex",
+    "s": "Stempel",
+    "p": "Stempel",
     "g": "m"
    },
-   "why": "no Duden-attested plural for the clipped form 'T-Rex' known to me; usage has both uninflected 'zwei T-Rex' and colloquial 'T-Rexe' — a decision, not a form fix. Note also that this key duplicates 'tyrannosaurus-rex' (same animal) and carries noImage:true"
+   "why": "Stempel->Stempel is the correct zero plural OF STEMPEL (Duden: der Stempel; Plural: die Stempel), so the form is not itself defective — but it is the plural of only one of the two pictured objects. Briefmarke takes die Briefmarken. Held with the singular."
   },
   {
-   "key": "tart",
-   "field": "singular",
-   "cur": {
-    "s": "Torte",
-    "p": "Torten",
-    "g": "f"
-   },
-   "why": "'Torte' is a tall layered gateau, not a tart; English 'tart' is Tarte/Törtchen. Which lemma is right depends on the picture, and 'Torte' likely collides with a 'cake' key — a lemma decision, not a form fix"
-  },
-  {
-   "key": "tired",
+   "key": "stamp",
    "field": "gender",
    "cur": {
-    "s": "Müde",
-    "p": "Müde",
+    "s": "Stempel",
+    "p": "Stempel",
     "g": "m"
    },
-   "why": "'müde' is an adjective and has no gender. 'm' is actively harmful here: 'der Müde' is a substantivized adjective meaning 'the tired man', not the emotion. Unlike colour names (das Blau) there is no established neuter noun 'das Müde'; either the gender slot must stay empty or the lemma changes (die Müdigkeit) — a schema/lemma decision, not a form fix"
-  },
-  {
-   "key": "tongs",
-   "field": "singular",
-   "cur": {
-    "s": "Zange",
-    "p": "Zangen",
-    "g": "f"
-   },
-   "why": "picture is kitchen/BBQ tongs (theme kitchen_tools), but bare 'Zange' defaults to pliers and collides with the pliers key (N6). The precise lemma is Grillzange/Küchenzange — a lemma decision against the image, not a form fix"
-  },
-  {
-   "key": "tortoise",
-   "field": "singular",
-   "cur": {
-    "s": "Schildkröte",
-    "p": "Schildkröten",
-    "g": "f"
-   },
-   "why": "'Schildkröte' is correct German but is byte-identical to the turtle key (N6): two different pictures would be read out with the same word. Disambiguating to 'Landschildkröte' is a lemma decision against the image, not a form fix"
+   "why": "m is correct for der Stempel, but die Briefmarke is FEMININE. The gender is only right for whichever of the two pictures the key is finally assigned to. Held with the singular."
   },
   {
    "key": "us",
@@ -819,17 +419,7 @@
     "p": "USA",
     "g": "m"
    },
-   "why": "a plurale tantum has no gender; 'm' is wrong ('der USA' does not exist). The article is the plural 'die', not feminine 'die' — the m/f/n schema has no slot for this, so it needs a data decision rather than a form fix"
-  },
-  {
-   "key": "vanity",
-   "field": "singular",
-   "cur": {
-    "s": "Schminktisch",
-    "p": "Schminktische",
-    "g": "m"
-   },
-   "why": "theme is 'household': an English bathroom 'vanity' is a Waschtisch/Waschbeckenunterschrank, not a Schminktisch. The lemma is byte-identical to vanity-table (N6), which suggests one of the two is mis-rendered — an image question, not a form fix"
+   "why": "Duden: USA is a Pluralwort (die USA, plural-only) — it has no singular m/f/n gender, so the stored 'm' is not correct, but none of the m/f/n codes fits a plurale-tantum proper noun. Parallels the sv finding that 'us/USA' behaves differently from the person-name uncle-sam. Needs an operator decision (leave article-less, or a 'plural' convention)"
   },
   {
    "key": "violet",
@@ -839,7 +429,7 @@
     "p": "Veilchen",
     "g": "n"
    },
-   "why": "entry conflates two different lemmata: 'Violett' is the COLOUR, 'Veilchen' is the FLOWER. themes are [colors, flowers] — ambiguous, so the image must decide. Colour reading: Violett / no plural. Flower reading: Veilchen / Veilchen. Not a form fix — needs a lemma decision"
+   "why": "The row smuggles TWO lemmas into one entry. 'Violett' = das Violett, the COLOUR (Duden: das Violett; Plural die Violett[s]) — right for the colors/ droplet, wrong for the flowers/ flower, which is das Veilchen. Not resolvable by a form fix: the operator must split the key or pick a sense. Two signals that the FLOWER is intended: (a) the sister key 'purple' ALREADY holds the de colour slot (\"purple\": de = [\"Lila\",\"Lila\"], no gender); (b) the EN column is [\"Violet\",\"Violets\"] — COUNTABLE, whereas every EN colour key is uninflected (Purple/Purple, White/White, Yellow/Yellow). Same trap the sv reviewer found on this exact key (sv: [\"Violett\",\"Violer\"])."
   },
   {
    "key": "violet",
@@ -849,17 +439,7 @@
     "p": "Veilchen",
     "g": "n"
    },
-   "why": "see singular: current p 'Veilchen' is not the plural of 'Violett' — it is a different word"
-  },
-  {
-   "key": "volleyball",
-   "field": "plural",
-   "cur": {
-    "s": "Volleyball",
-    "p": "Volleyball",
-    "g": "m"
-   },
-   "why": "depends on what the picture shows: the SPORT has no plural (current p=s would be correct), the BALL is der Volleyball → die Volleybälle. en gloss [Volleyball, Volleyball] and countable:false point to the sport, but theme 'sports' in a picture library usually means the ball. Content question about the image — not guessing"
+   "why": "'Veilchen' is NOT the plural of 'Violett' — it is a DIFFERENT LEMMA. Duden: das Veilchen, Plural die Veilchen (the flower, zero plural); das Violett, Plural die Violett[s] (the colour). Neither reading yields the stored pair: as the colour it is Violett/Violetts, as the flower Veilchen/Veilchen. Never rewrite blind — the correction depends on the key split above."
   },
   {
    "key": "walk",
@@ -869,93 +449,31 @@
     "p": "Gehen",
     "g": "n"
    },
-   "why": "lemma unclear and entry is internally inconsistent: en [Walk, Walks] is countable ('a walk' = der Spaziergang), but de has the verbal noun 'Gehen' (the activity, no plural). No themes and noImage:true — nothing decides it. Needs a lemma decision, not a form fix. Lowest priority (dead data)"
+   "why": "Internal contradiction with NO art to arbitrate (noImage: true; themes: []). The EN column [\"Walk\",\"Walks\"] is COUNTABLE — 'a walk' = ein Spaziergang (Plural Spaziergänge) — but the de field holds 'Gehen' = the ACTIVITY of walking (das Gehen), which is not countable and is not what 'Walks' pluralises. Two readings, two different lemmas, so this is not a form fix; per the brief a genuine content question is the one legitimate HOLD. Also recorded: classification says countable-thing/hasPlural:true, which cannot be right for 'Gehen' — it looks like the no-art fallback, and it WOULD be right for Spaziergang."
   },
   {
-   "key": "walk",
-   "field": "plural",
+   "key": "watch",
+   "field": "singular",
    "cur": {
-    "s": "Gehen",
-    "p": "Gehen",
-    "g": "n"
+    "s": "Uhr",
+    "p": "Uhren",
+    "g": "f"
    },
-   "why": "see singular: 'Gehen' → no plural; 'Spaziergang' → Spaziergänge"
-  },
-  {
-   "key": "walk",
-   "field": "gender",
-   "cur": {
-    "s": "Gehen",
-    "p": "Gehen",
-    "g": "n"
-   },
-   "why": "depends on the lemma: das Gehen (n, current value would be right) vs der Spaziergang (m)"
-  },
-  {
-   "key": "hair",
-   "field": "singular",
-   "cur": null,
-   "why": "ESCALATED by re-verify: Duden zwingt hier zu einer Entscheidung, die über eine Formkorrektur hinausgeht — deshalb zurückstellen, nicht anwenden. Zunächst zur Entlastung des Vorschlags: „Haar“ ist für dieses Bild NICHT falsch; Duden führt eigens die Bedeutung 2.a „die Gesamtheit der Haare auf dem Kopf des Menschen; das Kopfhaar“ mit dem Beispiel „sie hat schönes, blondes, rotes, braunes, schwarzes Haar“. ABER: genau diese Bedeutung ist bei Duden mit „Grammatik: ohne Plural“ markiert. Der Plural „die Haare“ gehört zur Bedeutung 1 (das einzelne, fadenförmige Gebilde). Der Vorschlag ändert nur das Singularfeld und erzeugt damit {Haar, Haare} — einen Eintrag, dessen beide Felder zwei verschiedene Duden-Bedeutungen benennen: Kopfhaar im Singularfeld, Einzelhaare im Pluralfeld. Eine Zählübung machte daraus „3 Haare“ für ein Frisurbild. themes=['body_parts'], en=['Hair','Hair'] (kein englischer Plural) und countable:false deuten übereinstimmend auf die Kollektiv-Lesart. Kohärent wären entweder {Haar, Haar, n} (Duden 2.a, ohne Plural) ODER die Beibehaltung des Plural-Labels „Haare“ — beides betrifft AUCH das p-Feld und damit mehr, als dieser Vorschlag abdeckt. Das Genus n ist in beiden Fällen richtig und kein Gegenargument. Entscheidung des Betreibers."
-  },
-  {
-   "key": "ice-skates",
-   "field": "singular",
-   "cur": null,
-   "why": "ESCALATED by re-verify: Die Formkorrektur ist für sich richtig (der Schlittschuh hat einen regulären Singular), ihr Ergebnis aber eine exakte Dublette: „ice-skate“ trägt bereits {Schlittschuh, Schlittschuhe, m} — nach Anwendung wäre „ice-skates“ Feld für Feld identisch, obwohl beide Schlüssel verschiedene Bilder tragen (themes: sports vs. christmas). Der Vorschlag benennt die Dublette selbst („a duplicate the operator must resolve“) und übergibt sie damit dem Betreiber; nach Brief gehört genau das zurückgestellt statt angewandt. Zu entscheiden ist, ob „ice-skates“ als Paar-/Plural-Label eigenständig bleibt oder der Schlüssel entfällt."
-  },
-  {
-   "key": "pasta",
-   "field": "singular",
-   "cur": null,
-   "why": "ESCALATED by re-verify: Hier kippt die formal richtige Korrektur die Benennung des Bildes — zurückstellen. „die Nudel“ (Duden: die Nudel; -, -n) ist zwar der korrekte Singular zu „Nudeln“, benennt aber EINE einzelne Nudel; themes=['at_the_supermarket'], en=['Pasta','Pasta'] (kein englischer Plural) und countable:false deuten übereinstimmend auf die Massen-Lesart (Packung/Schüssel Nudeln). Anders als bei peas/jelly-beans/potato-chips, wo das Bild diskrete zählbare Einzelstücke zeigt, ist Pasta hier ein Mengenprodukt: „3 Nudeln“ benennt kein Supermarktregal. Der Vorschlag räumt das in seiner eigenen Begründung ein („the key may need the mass treatment“) — eine Korrektur, die ihre eigene Anwendbarkeit an eine Bildfrage knüpft, gehört nach Brief zurückgestellt. Zur Erleichterung der Entscheidung: will der Betreiber einen Singular, ist „Nudel“ die richtige Form; die Alternativen sind ein Plural-Label {Nudeln, Nudeln} oder ein Lemma-Wechsel auf „Pasta“ (f.) bzw. „Teigwaren“."
-  },
-  {
-   "key": "peas",
-   "field": "singular",
-   "cur": null,
-   "why": "ESCALATED by re-verify: Vom Vorschlag NICHT bemerkt: der Schwesterschlüssel „pea“ existiert bereits mit {Erbse, Erbsen, f}. Nach Anwendung wäre „peas“ Feld für Feld identisch, obwohl beide Schlüssel verschiedene Bilder tragen (themes: vegetables vs. at_the_supermarket). Das ist exakt die Dublettenklasse, die der Vorschlag bei „shoes“ und „ice-skates“ selbst markiert hat — hier wurde sie übersehen. Die Form „Erbse“ ist richtig (Duden: die Erbse; -, -n) und das Bild zeigt diskret zählbare Einzelstücke, die Bildfrage ist hier also unproblematisch; allein die Dublette gehört dem Betreiber vorgelegt."
-  },
-  {
-   "key": "pretzels",
-   "field": "singular",
-   "cur": null,
-   "why": "ESCALATED by re-verify: Vom Vorschlag NICHT bemerkt: der Schwesterschlüssel „pretzel“ trägt bereits {Brezel, Brezeln, f}. Zusammen mit der ebenfalls vorgeschlagenen Genus-Korrektur m→f wäre „pretzels“ danach Feld für Feld identisch — Dublette (themes: bakery/food vs. at_the_supermarket). Die Form „Brezel“ ist richtig (Duden: die Brezel; -, -n) und der Defekt real (Plural im Singularfeld, im Brief als Musterfall genannt); zu entscheiden ist der Schlüssel, nicht die Form. Unabhängig davon ist die zugehörige PLURAL-Korrektur („Brezelne“→„Brezeln“) sofort anwendbar und dort mit CONFIRM beurteilt — sie beseitigt ein erfundenes Nichtwort und ist von dieser Entscheidung nicht berührt."
-  },
-  {
-   "key": "shoes",
-   "field": "singular",
-   "cur": null,
-   "why": "ESCALATED by re-verify: Der Vorschlag markiert es selbst („this then duplicates key ‚shoe‘ — a data-model question“): „shoe“ trägt bereits {Schuh, Schuhe, m}; nach Anwendung wäre „shoes“ Feld für Feld identisch, obwohl es ein eigenes Bild trägt (themes: clothing+objects vs. objects). Nach Brief ist eine Dublette mit einem anderen Schlüssel zurückzustellen, nicht anzuwenden — und der Vorschlag räumt selbst ein, dass die Frage ans Datenmodell geht. Die Form „Schuh“ ist richtig; zu entscheiden ist, ob „shoes“ als Paar-/Plural-Label eigenständig bleibt oder entfällt."
-  },
-  {
-   "key": "sneakers",
-   "field": "singular",
-   "cur": null,
-   "why": "ESCALATED by re-verify: Vom Vorschlag NICHT bemerkt: der Schwesterschlüssel „sneaker“ existiert bereits mit {Turnschuh, Turnschuhe, m}. Nach Anwendung wäre „sneakers“ Feld für Feld identisch, obwohl beide Schlüssel verschiedene Bilder tragen (themes: objects+sports vs. objects). Exakt die Dublettenklasse, die der Vorschlag beim Nachbarwort „shoes“ selbst markiert hat — hier übersehen, obwohl die Lage identisch ist. Die Form „Turnschuh“ ist richtig; die Entscheidung über den Schlüssel gehört dem Betreiber."
-  },
-  {
-   "key": "hot",
-   "field": "gender",
-   "cur": null,
-   "why": "ESCALATED by re-verify: Widerspruch zur ersten Runde. „m“ ist zwar falsch, aber „n“ ist nicht richtig, sondern geraten – die Korrektur gehört zurückgestellt statt angewandt. (1) „Heiß“ ist ein reines Adjektiv und hat kein inhärentes Genus; „das Heiß“ ist genauso wenig ein deutsches Substantiv wie „der Heiß“. Die Substantivierung wäre flektiert („das Heiße“) oder ein anderes Lemma („die Hitze“, f). Ein Duden-Stichwort „Heiß, das“ gibt es nicht. (2) Damit ist dies die in Punkt 4 des Auftrags gemeinte blind überdehnte Klasse: der Farbschluss trägt bei Blau/Rot/Gelb, weil deren Substantivierung lexikalisiert und Duden-Stichwort ist – bei „Heiß“ ist sie es nicht. Die Begründung räumt das selbst ein („an adjective has no inherent gender“) und ist die EINZIGE der 56 Korrekturen mit leerem src-Feld, also ohne jeden Beleg. (3) Empirischer Beleg für die Überdehnung: der Datensatz enthält 21 strukturell identische reine Adjektive (cold, sunny, rainy, stormy, cloudy, partly-cloudy, angry, happy, sad, tired, shy, bored, confused, excited, merry, scared, surprised, content, disgusted, capricious, skeptical), die alle ebenfalls das Skript-Default „m“ tragen und von der ersten Runde nicht angefasst wurden. „hot“ allein auf „n“ zu setzen macht die Daten inkonsistenter als sie jetzt sind: gleiche Klasse, zwei Werte. (4) Richtig wäre eine Klassenentscheidung für alle 22 Adjektive (Genusfeld leer bzw. nicht anwendbar, oder Lemmawechsel auf ein Substantiv), keine Einzelfall-Formkorrektur. Deshalb ESCALATE und nicht AMEND: es gibt keinen einzelnen besseren Genuswert, den ich eintragen könnte."
+   "why": "SISTER-KEY COLLISION, not a form defect — and invisible without reading the neighbouring row. The de value is byte-identical to the 'clock' key's: \"clock\": de = [\"Uhr\",\"Uhren\",\"f\"] and \"watch\": de = [\"Uhr\",\"Uhren\",\"f\"]. Two different pictures (a clock vs this wristwatch) carry ONE German label, so the two keys are indistinguishable read aloud beside their art. The same rows DO distinguish in other locales: fr Horloge/Montre, nl Klok/Horloge, fi Kello/Rannekello. The picture is unambiguously a wristwatch = Armbanduhr (fi's Rannekello is the exact parallel). 'Uhr' is not WRONG — Duden's Uhr covers any timepiece and Germans call a wristwatch 'Uhr' daily — but Uhr->Armbanduhr is a different lemma AND it resolves a two-key collision, so it is an operator call, not a blind rewrite."
   }
  ],
  "pluraliaTantum": [
   {
-   "key": "french-fries",
-   "why": "Duden lists only 'Pommes frites, die (Plural)'; there is no singular. Two defects in one field: it holds a plural, and the capitalisation 'Pommes Frites' is wrong — Duden spells 'frites' lowercase. Per the file convention s should become identical to p: 'Pommes frites'."
+   "key": "earmuffs",
+   "why": "This word has no singular in German. Duden marks Ohrenschützer 'Pluralwort', Grammatik: 'nur im Plural', Bedeutung: 'ZWEI ovale Klappen ... die als Kälteschutz die Ohrmuscheln bedecken'. So the stored `Ohrenschützer` in the singular field is the plural sitting in the wrong slot. IMPORTANT — this is NOT the brief's pants/scissors inverse-trap: there the point is that German HAS a singular (Hose, Schere) where English does not. Here German itself refuses one, on Duden's own ruling. The 'two flaps' definition is also why countable-thing fits poorly: the label already denotes a pair."
   },
   {
    "key": "leggings",
-   "why": "the garment is used as a plural in standard German (die Leggings); no data change needed — where a singular is accepted it is identical in form, so s = p is correct either way"
+   "why": "This word has no singular. Duden's Wortart line for Leggings is literally 'Pluralwort'. IMPORTANT — this is NOT the brief's inverse trap: that trap warns that EN pluralia tantum over one object (pants, scissors) map to normal German singulars (Hose, Schere), and it does not bite here because Duden itself classes the GERMAN word Leggings as plural-only. Compare the sibling row 'jeans' in this same batch, where Duden DOES give a singular ('die Jeans', Substantiv, feminin) — so the two must be treated differently, and reading one off the other would be wrong."
   },
   {
    "key": "shorts",
-   "why": "Duden lists Shorts as plural only; there is no singular. Repeating the plural form in the singular field is the file's way of coding this"
-  },
-  {
-   "key": "us",
-   "why": "die USA is plural-only in German ('die USA sind ...'); there is no singular, so the singular slot cannot hold a true singular form. 'USA' is the right word for the gloss"
+   "why": "CONTRADICTS THE BRIEF, DUDEN WINS. The brief lists shorts under the inverse trap 'English pluralia tantum over ONE object ... de Hose->Hosen is CORRECT' and the row is classified countable-thing/hasPlural:true. But German Shorts is NOT Hose: Duden gives Wortart = Pluralwort, Grammatik = 'nur im Plural' (example 'ein Paar Shorts'). There is no singular *die Short. The picture showing ONE garment does not create a German singular — the trap applies to Hose/Schere/Treppe, which Duden inflects, not to Shorts, which it does not. The stored value 'Shorts' is the only existing form, so nothing is rewritten; the field is flagged as plural-only."
   }
  ]
 }

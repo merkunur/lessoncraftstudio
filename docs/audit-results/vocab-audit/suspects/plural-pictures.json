@@ -1,0 +1,356 @@
+{
+ "count": 50,
+ "note": "each shows a PLURAL PICTURE (image of several). The label must be the correct PLURAL. One slot is the real plural, the other is invented or the singular. Pick the correct plural.",
+ "rows": [
+  {
+   "key": "blocks",
+   "locale": "sv",
+   "en": "Blocks",
+   "slotA": "Kloss",
+   "slotB": "Klossar"
+  },
+  {
+   "key": "boots",
+   "locale": "sv",
+   "en": "Boots",
+   "slotA": "Stövel",
+   "slotB": "Stövlar"
+  },
+  {
+   "key": "cards",
+   "locale": "it",
+   "en": "Cards",
+   "slotA": "Carte",
+   "slotB": "Carti"
+  },
+  {
+   "key": "cheeks",
+   "locale": "it",
+   "en": "Cheeks",
+   "slotA": "Guance",
+   "slotB": "Guanci"
+  },
+  {
+   "key": "cheeks",
+   "locale": "sv",
+   "en": "Cheeks",
+   "slotA": "Kind",
+   "slotB": "Kinder"
+  },
+  {
+   "key": "cheeks",
+   "locale": "da",
+   "en": "Cheeks",
+   "slotA": "Kinder",
+   "slotB": "Kindere"
+  },
+  {
+   "key": "chips",
+   "locale": "it",
+   "en": "Chips",
+   "slotA": "Patatine",
+   "slotB": "Patatini"
+  },
+  {
+   "key": "crayons",
+   "locale": "pt",
+   "en": "Crayons",
+   "slotA": "Giz de cera",
+   "slotB": "Gizes de cera"
+  },
+  {
+   "key": "crutches",
+   "locale": "sv",
+   "en": "Crutches",
+   "slotA": "Krycka",
+   "slotB": "Kryckor"
+  },
+  {
+   "key": "crutches",
+   "locale": "da",
+   "en": "Crutches",
+   "slotA": "Krykker",
+   "slotB": "Krykkere"
+  },
+  {
+   "key": "crutches",
+   "locale": "no",
+   "en": "Crutches",
+   "slotA": "Krykker",
+   "slotB": "Krykkere"
+  },
+  {
+   "key": "curtains",
+   "locale": "it",
+   "en": "Curtains",
+   "slotA": "Tende",
+   "slotB": "Tendi"
+  },
+  {
+   "key": "curtains",
+   "locale": "da",
+   "en": "Curtains",
+   "slotA": "Gardiner",
+   "slotB": "Gardinere"
+  },
+  {
+   "key": "curtains",
+   "locale": "no",
+   "en": "Curtains",
+   "slotA": "Gardiner",
+   "slotB": "Gardinere"
+  },
+  {
+   "key": "cymbals",
+   "locale": "sv",
+   "en": "Cymbals",
+   "slotA": "Cymbal",
+   "slotB": "Cymbaler"
+  },
+  {
+   "key": "cymbals",
+   "locale": "da",
+   "en": "Cymbals",
+   "slotA": "Bækkener",
+   "slotB": "Bækkenere"
+  },
+  {
+   "key": "cymbals",
+   "locale": "no",
+   "en": "Cymbals",
+   "slotA": "Cymbal",
+   "slotB": "Cymbaler"
+  },
+  {
+   "key": "eyelashes",
+   "locale": "de",
+   "en": "Eyelashes",
+   "slotA": "Wimper",
+   "slotB": "Wimpern"
+  },
+  {
+   "key": "eyelashes",
+   "locale": "it",
+   "en": "Eyelashes",
+   "slotA": "Ciglia",
+   "slotB": "Ciglie"
+  },
+  {
+   "key": "eyelashes",
+   "locale": "sv",
+   "en": "Eyelashes",
+   "slotA": "Ögonfrans",
+   "slotB": "Ögonfransar"
+  },
+  {
+   "key": "eyelashes",
+   "locale": "da",
+   "en": "Eyelashes",
+   "slotA": "Øjenvipper",
+   "slotB": "Øjenvippere"
+  },
+  {
+   "key": "eyelashes",
+   "locale": "no",
+   "en": "Eyelashes",
+   "slotA": "Øyevipper",
+   "slotB": "Øyevippere"
+  },
+  {
+   "key": "flip-flops",
+   "locale": "de",
+   "en": "Flip Flops",
+   "slotA": "Flip-Flop",
+   "slotB": "Flip-Flops"
+  },
+  {
+   "key": "flip-flops",
+   "locale": "it",
+   "en": "Flip Flops",
+   "slotA": "Infradito",
+   "slotB": "Infraditi"
+  },
+  {
+   "key": "flip-flops",
+   "locale": "da",
+   "en": "Flip Flops",
+   "slotA": "Klipklapper",
+   "slotB": "Klipklappere"
+  },
+  {
+   "key": "flip-flops",
+   "locale": "no",
+   "en": "Flip Flops",
+   "slotA": "Flip-flops",
+   "slotB": "Flip-flopser"
+  },
+  {
+   "key": "french-fries",
+   "locale": "es",
+   "en": "French Fries",
+   "slotA": "Papas Fritas",
+   "slotB": "Papas fritas"
+  },
+  {
+   "key": "french-fries",
+   "locale": "it",
+   "en": "French Fries",
+   "slotA": "Patatine Fritte",
+   "slotB": "Patatini Fritti"
+  },
+  {
+   "key": "french-fries",
+   "locale": "sv",
+   "en": "French Fries",
+   "slotA": "Pommes Frites",
+   "slotB": "Pommes frites"
+  },
+  {
+   "key": "french-fries",
+   "locale": "no",
+   "en": "French Fries",
+   "slotA": "Pommes Frites",
+   "slotB": "Pommes frites"
+  },
+  {
+   "key": "grapes",
+   "locale": "de",
+   "en": "Grapes",
+   "slotA": "Traube",
+   "slotB": "Trauben"
+  },
+  {
+   "key": "high-heeled-shoes",
+   "locale": "de",
+   "en": "High-Heeled Shoes",
+   "slotA": "Stöckelschuh",
+   "slotB": "Stöckelschuhe"
+  },
+  {
+   "key": "jelly-beans",
+   "locale": "da",
+   "en": "Jelly Beans",
+   "slotA": "Gelébønner",
+   "slotB": "Gelébønnere"
+  },
+  {
+   "key": "jelly-beans",
+   "locale": "no",
+   "en": "Jelly Beans",
+   "slotA": "Gelébønner",
+   "slotB": "Gelébønnere"
+  },
+  {
+   "key": "lights",
+   "locale": "de",
+   "en": "Lights",
+   "slotA": "Lichterkette",
+   "slotB": "Lichterketten"
+  },
+  {
+   "key": "lights",
+   "locale": "da",
+   "en": "Lights",
+   "slotA": "Lyskæde",
+   "slotB": "Lyskæder"
+  },
+  {
+   "key": "lights",
+   "locale": "no",
+   "en": "Lights",
+   "slotA": "Lyslenke",
+   "slotB": "Lyslenker"
+  },
+  {
+   "key": "muscles",
+   "locale": "da",
+   "en": "Muscles",
+   "slotA": "Muskler",
+   "slotB": "Musklere"
+  },
+  {
+   "key": "muscles",
+   "locale": "no",
+   "en": "Muscles",
+   "slotA": "Muskler",
+   "slotB": "Musklere"
+  },
+  {
+   "key": "potato-chips",
+   "locale": "da",
+   "en": "Potato Chips",
+   "slotA": "Chips",
+   "slotB": "Chipser"
+  },
+  {
+   "key": "sandals",
+   "locale": "de",
+   "en": "Sandals",
+   "slotA": "Sandale",
+   "slotB": "Sandalen"
+  },
+  {
+   "key": "sandals",
+   "locale": "da",
+   "en": "Sandals",
+   "slotA": "Sandaler",
+   "slotB": "Sandalere"
+  },
+  {
+   "key": "sandals",
+   "locale": "no",
+   "en": "Sandals",
+   "slotA": "Sandaler",
+   "slotB": "Sandalere"
+  },
+  {
+   "key": "shoes",
+   "locale": "da",
+   "en": "Shoes",
+   "slotA": "Sko",
+   "slotB": "Skoer"
+  },
+  {
+   "key": "slippers",
+   "locale": "da",
+   "en": "Slippers",
+   "slotA": "Hjemmesko",
+   "slotB": "Hjemmeskoer"
+  },
+  {
+   "key": "slippers",
+   "locale": "no",
+   "en": "Slippers",
+   "slotA": "Tøfler",
+   "slotB": "Tøflere"
+  },
+  {
+   "key": "snow-boots",
+   "locale": "da",
+   "en": "Snow Boots",
+   "slotA": "Snestøvler",
+   "slotB": "Snestøvlere"
+  },
+  {
+   "key": "snow-boots",
+   "locale": "no",
+   "en": "Snow Boots",
+   "slotA": "Snøstøvler",
+   "slotB": "Snøstøvlere"
+  },
+  {
+   "key": "vegetables",
+   "locale": "da",
+   "en": "Vegetables",
+   "slotA": "Grøntsager",
+   "slotB": "Grøntsagere"
+  },
+  {
+   "key": "vegetables",
+   "locale": "no",
+   "en": "Vegetables",
+   "slotA": "Grønnsaker",
+   "slotB": "Grønnsakere"
+  }
+ ]
+}

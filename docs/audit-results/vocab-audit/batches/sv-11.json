@@ -1,0 +1,2088 @@
+{
+ "locale": "sv",
+ "batch": "11",
+ "of": 12,
+ "genderLegend": "n=en-ord (COMMON/utrum) · t=ett-ord (neutrum)  ← n is COMMON, not neuter",
+ "count": 110,
+ "range": [
+  "suspenders",
+  "velociraptor"
+ ],
+ "rows": [
+  {
+   "key": "suspenders",
+   "themes": [
+    "accessories"
+   ],
+   "en": [
+    "Suspenders",
+    "Suspenders"
+   ],
+   "cur": {
+    "s": "Hängslen",
+    "p": "Hängslen",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8",
+    "N4"
+   ]
+  },
+  {
+   "key": "suv",
+   "themes": [
+    "vehicles"
+   ],
+   "en": [
+    "SUV",
+    "SUVs"
+   ],
+   "cur": {
+    "s": "SUV",
+    "p": "SUV:ar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "swallow",
+   "themes": [
+    "birds_2"
+   ],
+   "en": [
+    "Swallow",
+    "Swallows"
+   ],
+   "cur": {
+    "s": "Svala",
+    "p": "Svalor",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "swan",
+   "themes": [
+    "animals",
+    "birds",
+    "birds_2",
+    "farm_animals",
+    "things_that_fly"
+   ],
+   "en": [
+    "Swan",
+    "Swans"
+   ],
+   "cur": {
+    "s": "Svan",
+    "p": "Svanar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "sweater",
+   "themes": [
+    "christmas",
+    "clothing",
+    "objects",
+    "winter"
+   ],
+   "en": [
+    "Sweater",
+    "Sweaters"
+   ],
+   "cur": {
+    "s": "Tröja",
+    "p": "Tröjor",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "sweatpants",
+   "themes": [
+    "clothing"
+   ],
+   "en": [
+    "Sweatpants",
+    "Sweatpants"
+   ],
+   "cur": {
+    "s": "Mjukisbyxor",
+    "p": "Mjukisbyxor",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N4"
+   ]
+  },
+  {
+   "key": "sweatshirt",
+   "themes": [
+    "apparel",
+    "clothing"
+   ],
+   "en": [
+    "Sweatshirt",
+    "Sweatshirts"
+   ],
+   "cur": {
+    "s": "Sweatshirt",
+    "p": "Sweatshirtar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "swimming",
+   "themes": [
+    "activities",
+    "summer"
+   ],
+   "en": [
+    "Swimming",
+    "Swimming"
+   ],
+   "cur": {
+    "s": "Simning",
+    "p": "Simning",
+    "g": "n"
+   },
+   "type": "verb-gerund",
+   "countable": false
+  },
+  {
+   "key": "swimsuit",
+   "themes": [
+    "beach",
+    "clothing",
+    "summer"
+   ],
+   "en": [
+    "Swimsuit",
+    "Swimsuits"
+   ],
+   "cur": {
+    "s": "Baddräkt",
+    "p": "Baddräktar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "swing",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Swing",
+    "Swings"
+   ],
+   "cur": {
+    "s": "Gunga",
+    "p": "Gungor",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "swordfish",
+   "themes": [
+    "sea_life"
+   ],
+   "en": [
+    "Swordfish",
+    "Swordfish"
+   ],
+   "cur": {
+    "s": "Svärdfisk",
+    "p": "Svärdfiskar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "sycamore-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Sycamore Tree",
+    "Sycamore Trees"
+   ],
+   "cur": {
+    "s": "Platan",
+    "p": "Platanar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "syringe",
+   "themes": [
+    "hospital"
+   ],
+   "en": [
+    "Syringe",
+    "Syringes"
+   ],
+   "cur": {
+    "s": "Spruta",
+    "p": "Sprutor",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "t-rex",
+   "themes": [],
+   "en": [
+    "T-Rex",
+    "T-Rexes"
+   ],
+   "cur": {
+    "s": "T-Rex",
+    "p": "T-Rexar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "noImage": true
+  },
+  {
+   "key": "t-shirt",
+   "themes": [
+    "apparel",
+    "clothing",
+    "summer"
+   ],
+   "en": [
+    "T-Shirt",
+    "T-Shirts"
+   ],
+   "cur": {
+    "s": "T-shirt",
+    "p": "T-shirtar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "table",
+   "themes": [
+    "around_the_house",
+    "classroom",
+    "furniture",
+    "home",
+    "home_and_nature"
+   ],
+   "en": [
+    "Table",
+    "Tables"
+   ],
+   "cur": {
+    "s": "Bord",
+    "p": "Bord",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "table-lamp",
+   "themes": [
+    "furniture",
+    "home",
+    "home_and_nature"
+   ],
+   "en": [
+    "Table Lamp",
+    "Table Lamps"
+   ],
+   "cur": {
+    "s": "Bordslampa",
+    "p": "Bordslampor",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "table-tennis",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Table Tennis",
+    "Table Tennis"
+   ],
+   "cur": {
+    "s": "Bordtennis",
+    "p": "Bordtennis",
+    "g": "n"
+   },
+   "type": "verb-gerund",
+   "countable": false
+  },
+  {
+   "key": "tablet",
+   "themes": [
+    "classroom",
+    "household"
+   ],
+   "en": [
+    "Tablet",
+    "Tablets"
+   ],
+   "cur": {
+    "s": "Surfplatta",
+    "p": "Surfplattor",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "taco",
+   "themes": [
+    "food"
+   ],
+   "en": [
+    "Taco",
+    "Tacos"
+   ],
+   "cur": {
+    "s": "Taco",
+    "p": "Tacos",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "tailor",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Tailor",
+    "Tailors"
+   ],
+   "cur": {
+    "s": "Skräddare",
+    "p": "Skräddare",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N4"
+   ]
+  },
+  {
+   "key": "tank",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Tank",
+    "Tanks"
+   ],
+   "cur": {
+    "s": "Stridsvagn",
+    "p": "Stridsvagnar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "tank-top",
+   "themes": [
+    "clothing"
+   ],
+   "en": [
+    "Tank Top",
+    "Tank Tops"
+   ],
+   "cur": {
+    "s": "Linne",
+    "p": "Linnar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "tanker-truck",
+   "themes": [
+    "vehicles"
+   ],
+   "en": [
+    "Tanker Truck",
+    "Tanker Trucks"
+   ],
+   "cur": {
+    "s": "Tankbil",
+    "p": "Tankbilar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "tape",
+   "themes": [
+    "classroom"
+   ],
+   "en": [
+    "Tape",
+    "Tapes"
+   ],
+   "cur": {
+    "s": "Tejp",
+    "p": "Tejpar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "tape-measure",
+   "themes": [
+    "sports",
+    "tools"
+   ],
+   "en": [
+    "Tape Measure",
+    "Tape Measures"
+   ],
+   "cur": {
+    "s": "Måttband",
+    "p": "Måttband",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "tart",
+   "themes": [
+    "bakery",
+    "desserts_and_sweets"
+   ],
+   "en": [
+    "Tart",
+    "Tarts"
+   ],
+   "cur": {
+    "s": "Tårta",
+    "p": "Tårtor",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "taxi",
+   "themes": [
+    "travel_and_holiday",
+    "vehicles"
+   ],
+   "en": [
+    "Taxi",
+    "Taxis"
+   ],
+   "cur": {
+    "s": "Taxi",
+    "p": "Taxier",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "teacher",
+   "themes": [
+    "classroom",
+    "occupations"
+   ],
+   "en": [
+    "Teacher",
+    "Teachers"
+   ],
+   "cur": {
+    "s": "Lärare",
+    "p": "Lärare",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N4"
+   ]
+  },
+  {
+   "key": "teacup",
+   "themes": [
+    "home_and_nature",
+    "kitchen"
+   ],
+   "en": [
+    "Teacup",
+    "Teacups"
+   ],
+   "cur": {
+    "s": "Tekopp",
+    "p": "Tekoppar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "teapot",
+   "themes": [
+    "home",
+    "kitchen",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Teapot",
+    "Teapots"
+   ],
+   "cur": {
+    "s": "Tekanna",
+    "p": "Tekannor",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "teddy-bear",
+   "themes": [
+    "animals",
+    "toys",
+    "valentine"
+   ],
+   "en": [
+    "Teddy Bear",
+    "Teddy Bears"
+   ],
+   "cur": {
+    "s": "Nallebjörn",
+    "p": "Nallebjörnar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "telephone",
+   "themes": [
+    "around_the_house",
+    "household",
+    "toys"
+   ],
+   "en": [
+    "Telephone",
+    "Telephones"
+   ],
+   "cur": {
+    "s": "Telefon",
+    "p": "Telefoner",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "telescope",
+   "themes": [
+    "classroom",
+    "objects",
+    "space"
+   ],
+   "en": [
+    "Telescope",
+    "Telescopes"
+   ],
+   "cur": {
+    "s": "Teleskop",
+    "p": "Teleskop",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "television",
+   "themes": [
+    "around_the_house",
+    "home",
+    "household"
+   ],
+   "en": [
+    "Television",
+    "Televisions"
+   ],
+   "cur": {
+    "s": "TV",
+    "p": "TV-apparater",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "tennis",
+   "themes": [
+    "activities",
+    "sports"
+   ],
+   "en": [
+    "Tennis",
+    "Tennis"
+   ],
+   "cur": {
+    "s": "Tennis",
+    "p": "Tennis",
+    "g": "n"
+   },
+   "type": "verb-gerund",
+   "countable": false
+  },
+  {
+   "key": "tennis-ball",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Tennis Ball",
+    "Tennis Balls"
+   ],
+   "cur": {
+    "s": "Tennisboll",
+    "p": "Tennisbollar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "tennis-racket",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Tennis Racket",
+    "Tennis Rackets"
+   ],
+   "cur": {
+    "s": "Tennisracket",
+    "p": "Tennisracketar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "tent",
+   "themes": [
+    "camping",
+    "summer",
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Tent",
+    "Tents"
+   ],
+   "cur": {
+    "s": "Tält",
+    "p": "Tält",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "theater",
+   "themes": [
+    "activities"
+   ],
+   "en": [
+    "Theater",
+    "Theaters"
+   ],
+   "cur": {
+    "s": "Teater",
+    "p": "Teatrar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "therizinosaurus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Therizinosaurus",
+    "Therizinosauruses"
+   ],
+   "cur": {
+    "s": "Therizinosaurus",
+    "p": "Therizinosaurusar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "thermometer",
+   "themes": [
+    "hospital",
+    "weather"
+   ],
+   "en": [
+    "Thermometer",
+    "Thermometers"
+   ],
+   "cur": {
+    "s": "Termometer",
+    "p": "Termometrar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "thumb",
+   "themes": [
+    "body_parts"
+   ],
+   "en": [
+    "Thumb",
+    "Thumbs"
+   ],
+   "cur": {
+    "s": "Tumme",
+    "p": "Tummar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "thunderstorm",
+   "themes": [
+    "weather"
+   ],
+   "en": [
+    "Thunderstorm",
+    "Thunderstorms"
+   ],
+   "cur": {
+    "s": "Åskväder",
+    "p": "Åskväder",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "tiara",
+   "themes": [
+    "accessories"
+   ],
+   "en": [
+    "Tiara",
+    "Tiaras"
+   ],
+   "cur": {
+    "s": "Tiara",
+    "p": "Tiaror",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "ticket",
+   "themes": [
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Ticket",
+    "Tickets"
+   ],
+   "cur": {
+    "s": "Biljett",
+    "p": "Biljettar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "tie",
+   "themes": [
+    "accessories",
+    "clothing"
+   ],
+   "en": [
+    "Tie",
+    "Ties"
+   ],
+   "cur": {
+    "s": "Slips",
+    "p": "Slipsar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "tiger",
+   "themes": [
+    "animals",
+    "faces",
+    "zoo_animals"
+   ],
+   "en": [
+    "Tiger",
+    "Tigers"
+   ],
+   "cur": {
+    "s": "Tiger",
+    "p": "Tigrar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N5"
+   ]
+  },
+  {
+   "key": "tights",
+   "themes": [
+    "accessories"
+   ],
+   "en": [
+    "Tights",
+    "Tights"
+   ],
+   "cur": {
+    "s": "Strumpbyxor",
+    "p": "Strumpbyxor",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2"
+   ]
+  },
+  {
+   "key": "timer",
+   "themes": [
+    "kitchen_tools"
+   ],
+   "en": [
+    "Timer",
+    "Timers"
+   ],
+   "cur": {
+    "s": "Timer",
+    "p": "Timerar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "tired",
+   "themes": [
+    "emotions"
+   ],
+   "en": [
+    "Tired",
+    "Tired"
+   ],
+   "cur": {
+    "s": "Trött",
+    "p": "Trött",
+    "g": "n"
+   },
+   "type": "adjective",
+   "countable": false
+  },
+  {
+   "key": "tissue",
+   "themes": [
+    "hospital"
+   ],
+   "en": [
+    "Tissue",
+    "Tissues"
+   ],
+   "cur": {
+    "s": "Näsduk",
+    "p": "Näsdukar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "toad",
+   "themes": [
+    "forest_creatures"
+   ],
+   "en": [
+    "Toad",
+    "Toads"
+   ],
+   "cur": {
+    "s": "Padda",
+    "p": "Paddor",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "toast",
+   "themes": [
+    "bakery",
+    "breakfast"
+   ],
+   "en": [
+    "Toast",
+    "Toasts"
+   ],
+   "cur": {
+    "s": "Rostat bröd",
+    "p": "Rostat bröd",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "toaster",
+   "themes": [
+    "around_the_house",
+    "home",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Toaster",
+    "Toasters"
+   ],
+   "cur": {
+    "s": "Brödrost",
+    "p": "Brödrostar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "toe",
+   "themes": [
+    "body_parts"
+   ],
+   "en": [
+    "Toe",
+    "Toes"
+   ],
+   "cur": {
+    "s": "Tå",
+    "p": "Tåar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "toilet",
+   "themes": [
+    "around_the_house",
+    "household"
+   ],
+   "en": [
+    "Toilet",
+    "Toilets"
+   ],
+   "cur": {
+    "s": "Toalett",
+    "p": "Toalettar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "toilet-paper",
+   "themes": [
+    "around_the_house",
+    "household"
+   ],
+   "en": [
+    "Toilet Paper",
+    "Toilet Papers"
+   ],
+   "cur": {
+    "s": "Toalettpapper",
+    "p": "Toalettpapper",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "tomato",
+   "themes": [
+    "at_the_supermarket",
+    "vegetables"
+   ],
+   "en": [
+    "Tomato",
+    "Tomatoes"
+   ],
+   "cur": {
+    "s": "Tomat",
+    "p": "Tomater",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "tongs",
+   "themes": [
+    "kitchen_tools"
+   ],
+   "en": [
+    "Tongs",
+    "Tongs"
+   ],
+   "cur": {
+    "s": "Tång",
+    "p": "Tångar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "tongue",
+   "themes": [
+    "body_parts"
+   ],
+   "en": [
+    "Tongue",
+    "Tongues"
+   ],
+   "cur": {
+    "s": "Tunga",
+    "p": "Tungor",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "toolbox",
+   "themes": [
+    "around_the_house"
+   ],
+   "en": [
+    "Toolbox",
+    "Toolboxes"
+   ],
+   "cur": {
+    "s": "Verktygslåda",
+    "p": "Verktygslådor",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "tooth",
+   "themes": [
+    "body_parts"
+   ],
+   "en": [
+    "Tooth",
+    "Teeth"
+   ],
+   "cur": {
+    "s": "Tand",
+    "p": "Tänder",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N5"
+   ]
+  },
+  {
+   "key": "toothbrush",
+   "themes": [
+    "around_the_house",
+    "at_the_supermarket",
+    "objects"
+   ],
+   "en": [
+    "Toothbrush",
+    "Toothbrushes"
+   ],
+   "cur": {
+    "s": "Tandborste",
+    "p": "Tandborstar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "toothpaste",
+   "themes": [
+    "around_the_house",
+    "objects"
+   ],
+   "en": [
+    "Toothpaste",
+    "Toothpaste"
+   ],
+   "cur": {
+    "s": "Tandkräm",
+    "p": "Tandkräm",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": false,
+   "nets": [
+    "N4"
+   ]
+  },
+  {
+   "key": "torch",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Torch",
+    "Torches"
+   ],
+   "cur": {
+    "s": "Fackla",
+    "p": "Facklor",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "tortoise",
+   "themes": [
+    "pets",
+    "reptiles_and_amphibians"
+   ],
+   "en": [
+    "Tortoise",
+    "Tortoises"
+   ],
+   "cur": {
+    "s": "Landsköldpadda",
+    "p": "Landsköldpaddor",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "tote-bag",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Tote Bag",
+    "Tote Bags"
+   ],
+   "cur": {
+    "s": "Tygkasse",
+    "p": "Tygkassar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "toucan",
+   "themes": [
+    "birds",
+    "birds_2",
+    "things_that_fly"
+   ],
+   "en": [
+    "Toucan",
+    "Toucans"
+   ],
+   "cur": {
+    "s": "Tukan",
+    "p": "Tukanar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "tow-truck",
+   "themes": [
+    "vehicles"
+   ],
+   "en": [
+    "Tow Truck",
+    "Tow Trucks"
+   ],
+   "cur": {
+    "s": "Bärgningsbil",
+    "p": "Bärgningsbilar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "towel",
+   "themes": [
+    "household"
+   ],
+   "en": [
+    "Towel",
+    "Towels"
+   ],
+   "cur": {
+    "s": "Handduk",
+    "p": "Handdukar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "tractor",
+   "themes": [
+    "farm",
+    "toys",
+    "vehicles"
+   ],
+   "en": [
+    "Tractor",
+    "Tractors"
+   ],
+   "cur": {
+    "s": "Traktor",
+    "p": "Traktorer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "traffic-cone",
+   "themes": [
+    "tools"
+   ],
+   "en": [
+    "Traffic Cone",
+    "Traffic Cones"
+   ],
+   "cur": {
+    "s": "Trafikkon",
+    "p": "Trafikkonar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "trail",
+   "themes": [
+    "camping"
+   ],
+   "en": [
+    "Trail",
+    "Trails"
+   ],
+   "cur": {
+    "s": "Stig",
+    "p": "Stigar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "train",
+   "themes": [
+    "toys",
+    "travel_and_holiday",
+    "vehicles"
+   ],
+   "en": [
+    "Train",
+    "Trains"
+   ],
+   "cur": {
+    "s": "Tåg",
+    "p": "Tåg",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "trapezoid",
+   "themes": [
+    "shapes"
+   ],
+   "en": [
+    "Trapezoid",
+    "Trapezoids"
+   ],
+   "cur": {
+    "s": "Trapets",
+    "p": "Trapetsar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "trash-can",
+   "themes": [
+    "around_the_house",
+    "home_and_nature"
+   ],
+   "en": [
+    "Trash Can",
+    "Trash Cans"
+   ],
+   "cur": {
+    "s": "Soptunna",
+    "p": "Soptunnor",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "tree",
+   "themes": [
+    "christmas",
+    "home_and_nature",
+    "nature"
+   ],
+   "en": [
+    "Tree",
+    "Trees"
+   ],
+   "cur": {
+    "s": "Träd",
+    "p": "Träd",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "triangle",
+   "themes": [
+    "shapes"
+   ],
+   "en": [
+    "Triangle",
+    "Triangles"
+   ],
+   "cur": {
+    "s": "Triangel",
+    "p": "Trianglar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "triceratops",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Triceratops",
+    "Triceratops"
+   ],
+   "cur": {
+    "s": "Triceratops",
+    "p": "Triceratopsar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "trillium",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Trillium",
+    "Trilliums"
+   ],
+   "cur": {
+    "s": "Treblad",
+    "p": "Treblad",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8",
+    "N4"
+   ]
+  },
+  {
+   "key": "trombone",
+   "themes": [
+    "music"
+   ],
+   "en": [
+    "Trombone",
+    "Trombones"
+   ],
+   "cur": {
+    "s": "Trombon",
+    "p": "Tromboner",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "trophy",
+   "themes": [
+    "classroom",
+    "sports"
+   ],
+   "en": [
+    "Trophy",
+    "Trophies"
+   ],
+   "cur": {
+    "s": "Trofé",
+    "p": "Troféar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "trousers",
+   "themes": [
+    "clothing"
+   ],
+   "en": [
+    "Trousers",
+    "Trousers"
+   ],
+   "cur": {
+    "s": "Byxor",
+    "p": "Byxor",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N6"
+   ]
+  },
+  {
+   "key": "trowel",
+   "themes": [
+    "tools"
+   ],
+   "en": [
+    "Trowel",
+    "Trowels"
+   ],
+   "cur": {
+    "s": "Murslev",
+    "p": "Murslevar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "truck",
+   "themes": [
+    "post_office",
+    "toys",
+    "vehicles"
+   ],
+   "en": [
+    "Truck",
+    "Trucks"
+   ],
+   "cur": {
+    "s": "Lastbil",
+    "p": "Lastbilar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "truck-driver",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Truck Driver",
+    "Truck Drivers"
+   ],
+   "cur": {
+    "s": "Lastbilschaufför",
+    "p": "Lastbilschaufförer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "trumpet",
+   "themes": [
+    "music",
+    "toys"
+   ],
+   "en": [
+    "Trumpet",
+    "Trumpets"
+   ],
+   "cur": {
+    "s": "Trumpet",
+    "p": "Trumpeter",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "tulip",
+   "themes": [
+    "easter",
+    "flowers",
+    "spring",
+    "valentine"
+   ],
+   "en": [
+    "Tulip",
+    "Tulips"
+   ],
+   "cur": {
+    "s": "Tulpan",
+    "p": "Tulpaner",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "tuna",
+   "themes": [
+    "ocean_life"
+   ],
+   "en": [
+    "Tuna",
+    "Tunas"
+   ],
+   "cur": {
+    "s": "Tonfisk",
+    "p": "Tonfiskar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "turkey",
+   "themes": [
+    "birds",
+    "birds_2",
+    "farm",
+    "farm_animals",
+    "food",
+    "forest_creatures",
+    "thanksgivinng"
+   ],
+   "en": [
+    "Turkey",
+    "Turkeys"
+   ],
+   "cur": {
+    "s": "Kalkon",
+    "p": "Kalkoner",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "turnip",
+   "themes": [
+    "vegetables"
+   ],
+   "en": [
+    "Turnip",
+    "Turnips"
+   ],
+   "cur": {
+    "s": "Rova",
+    "p": "Rovor",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N5"
+   ]
+  },
+  {
+   "key": "turquoise",
+   "themes": [
+    "colors"
+   ],
+   "en": [
+    "Turquoise",
+    "Turquoise"
+   ],
+   "cur": {
+    "s": "Turkos",
+    "p": "Turkos",
+    "g": "n"
+   },
+   "type": "adjective",
+   "countable": false
+  },
+  {
+   "key": "turtle",
+   "themes": [
+    "animals",
+    "beach",
+    "forest_creatures",
+    "pets",
+    "reptiles_and_amphibians",
+    "sea_life",
+    "zoo_animals"
+   ],
+   "en": [
+    "Turtle",
+    "Turtles"
+   ],
+   "cur": {
+    "s": "Sköldpadda",
+    "p": "Sköldpaddor",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "tyrannosaurus-rex",
+   "themes": [
+    "animals",
+    "dinosaurs"
+   ],
+   "en": [
+    "Tyrannosaurus Rex",
+    "Tyrannosaurus Rexes"
+   ],
+   "cur": {
+    "s": "Tyrannosaurus Rex",
+    "p": "Tyrannosaurus Rexar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "ufo",
+   "themes": [
+    "space",
+    "toys",
+    "vehicles"
+   ],
+   "en": [
+    "UFO",
+    "UFOs"
+   ],
+   "cur": {
+    "s": "UFO",
+    "p": "UFO:n",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "umbrella",
+   "themes": [
+    "accessories",
+    "beach",
+    "education",
+    "household",
+    "nature",
+    "spring",
+    "summer",
+    "weather"
+   ],
+   "en": [
+    "Umbrella",
+    "Umbrellas"
+   ],
+   "cur": {
+    "s": "Paraply",
+    "p": "Paraply",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8",
+    "N4"
+   ]
+  },
+  {
+   "key": "uncle-sam",
+   "themes": [
+    "4th_of_july"
+   ],
+   "en": [
+    "Uncle Sam",
+    "Uncle Sams"
+   ],
+   "cur": {
+    "s": "Farbror Sam",
+    "p": "Farbror Sam",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N4"
+   ]
+  },
+  {
+   "key": "underpants",
+   "themes": [
+    "clothing"
+   ],
+   "en": [
+    "Underpants",
+    "Underpants"
+   ],
+   "cur": {
+    "s": "Kalsonger",
+    "p": "Kalsongerar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "unicorn",
+   "themes": [
+    "animals",
+    "farm_animals"
+   ],
+   "en": [
+    "Unicorn",
+    "Unicorns"
+   ],
+   "cur": {
+    "s": "Enhörning",
+    "p": "Enhörningar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "uniform",
+   "themes": [
+    "clothing"
+   ],
+   "en": [
+    "Uniform",
+    "Uniforms"
+   ],
+   "cur": {
+    "s": "Uniform",
+    "p": "Uniformer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "uranus",
+   "themes": [
+    "space"
+   ],
+   "en": [
+    "Uranus",
+    "Uranus"
+   ],
+   "cur": {
+    "s": "Uranus",
+    "p": "Uranus",
+    "g": "n"
+   },
+   "type": "proper-noun",
+   "countable": false
+  },
+  {
+   "key": "us",
+   "themes": [
+    "4th_of_july"
+   ],
+   "en": [
+    "US",
+    "US"
+   ],
+   "cur": {
+    "s": "USA",
+    "p": "USA",
+    "g": "n"
+   },
+   "type": "proper-noun",
+   "countable": false
+  },
+  {
+   "key": "vacuum-cleaner",
+   "themes": [
+    "around_the_house",
+    "home",
+    "household"
+   ],
+   "en": [
+    "Vacuum Cleaner",
+    "Vacuum Cleaners"
+   ],
+   "cur": {
+    "s": "Dammsugare",
+    "p": "Dammsugare",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N4"
+   ]
+  },
+  {
+   "key": "van",
+   "themes": [
+    "vehicles"
+   ],
+   "en": [
+    "Van",
+    "Vans"
+   ],
+   "cur": {
+    "s": "Skåpbil",
+    "p": "Skåpbilar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "vanity",
+   "themes": [
+    "household"
+   ],
+   "en": [
+    "Vanity",
+    "Vanities"
+   ],
+   "cur": {
+    "s": "Sminkbord",
+    "p": "Sminkbord",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8",
+    "N6"
+   ]
+  },
+  {
+   "key": "vanity-table",
+   "themes": [
+    "furniture"
+   ],
+   "en": [
+    "Vanity Table",
+    "Vanity Tables"
+   ],
+   "cur": {
+    "s": "Sminkbord",
+    "p": "Sminkbord",
+    "g": "t"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8",
+    "N6"
+   ]
+  },
+  {
+   "key": "vase",
+   "themes": [
+    "around_the_house",
+    "objects"
+   ],
+   "en": [
+    "Vase",
+    "Vases"
+   ],
+   "cur": {
+    "s": "Vas",
+    "p": "Vaser",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "vegetables",
+   "themes": [
+    "farm"
+   ],
+   "en": [
+    "Vegetables",
+    "Vegetables"
+   ],
+   "cur": {
+    "s": "Grönsaker",
+    "p": "Grönsakerar",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "velociraptor",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Velociraptor",
+    "Velociraptors"
+   ],
+   "cur": {
+    "s": "Velociraptor",
+    "p": "Velociraptorer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  }
+ ]
+}

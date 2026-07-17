@@ -9,7 +9,7 @@
     "p": "Ängelfiskar",
     "g": "n"
    },
-   "why": "'angelfisk' is a calque, not the established Swedish name. Theme is ocean_life -> the marine Pomacanthidae is 'kejsarfisk'; the freshwater Pterophyllum is 'segelfisk'/'skalare'. Which lemma is right depends on the image. Not a form fix — needs a content decision"
+   "why": "\"Angelfisk\" is an English calque and is NOT Swedish: SAOL AND SO both return \"Inga traffar pa angelfisk\" (suggesting adelfisk/angel). The Swedish name for the pictured marine angelfish (Pomacanthidae) is KEJSARFISK. Recommend singular \"Kejsarfisk\" / plural \"Kejsarfiskar\" (gender n already right). HOLD not FIX because this replaces the LEMMA, which per the brief is an operator ruling, not a form correction."
   },
   {
    "key": "angelfish",
@@ -19,177 +19,127 @@
     "p": "Ängelfiskar",
     "g": "n"
    },
-   "why": "morphology is fine either way (X-fisk -> X-fiskar), but the string depends on the singular lemma decision above"
+   "why": "Depends on the lemma ruling above. NB the -ar declension is right; only the stem is wrong (Angelfiskar -> Kejsarfiskar). Do not \"fix\" the ending — fix the word."
   },
   {
-   "key": "angry",
-   "field": "gender",
-   "cur": {
-    "s": "Arg",
-    "p": "Arg",
-    "g": "n"
-   },
-   "why": "CONTRADICTS THE BRIEF'S IMPLICIT MODEL: gender is not applicable to an adjective. The 'n' here is the script's fallback (return 'n'), not a linguistic claim. Swedish adjectives inflect for gender (arg/argt) rather than carrying one. Flagging rather than blessing — if anything downstream builds an article from this field it will produce '*en arg'"
-  },
-  {
-   "key": "ankle",
-   "field": "plural",
-   "cur": {
-    "s": "Vrist",
-    "p": "Vristar",
-    "g": "n"
-   },
-   "why": "I lean strongly to 'vrister' (cf. list -> lister, brist -> brister; the definite 'vristerna' is what I recall in use), but 'vristar' cannot be excluded on native monosyllables (kvist -> kvistar). Rather than guess I flag it: RECOMMEND verifying the SAOL entry; if it reads ~en ~er the current 'Vristar' is a FIX -> Vrister"
-  },
-  {
-   "key": "baby's-onesie",
-   "field": "plural",
-   "cur": {
-    "s": "Babybody",
-    "p": "Babybodyar",
-    "g": "n"
-   },
-   "why": "the plural of 'body' (the garment) is genuinely unsettled between 'bodys' and 'bodyar' in Swedish usage and I will not guess which SAOL lists. 'Babybodyar' is plausible but unverified. noImage:true -> lowest priority"
-  },
-  {
-   "key": "baking",
-   "field": "gender",
-   "cur": {
-    "s": "Baka",
-    "p": "Baka",
-    "g": "n"
-   },
-   "why": "gender is not applicable to an infinitive. 'n' is the script's fallback, not a claim. Same class as the adjectives — flagging rather than blessing"
-  },
-  {
-   "key": "banyan-tree",
+   "key": "architect",
    "field": "singular",
    "cur": {
-    "s": "Banjanträd",
-    "p": "Banjanträd",
+    "s": "Arkitekt",
+    "p": "Arkitekter",
+    "g": "n"
+   },
+   "why": "Arkitekt is the correct Swedish word for \"architect\", but it does not name what is pictured: the art is a hard-hatted worker, near-identical to the separate occupations/construction_worker image (byggnadsarbetare). Picture question per RULE 1 -> operator rules: fix the WORD or fix the ART. Cross-locale art defect, not sv-specific."
+  },
+  {
+   "key": "athlete",
+   "field": "singular",
+   "cur": {
+    "s": "Atlet",
+    "p": "Atleter",
+    "g": "n"
+   },
+   "why": "Contested, so I flag rather than force it. SAOL DOES sanction the sense: \"atlet ~en ~er = stark person; tyngdlyftare; friidrottare\" — so Atlet is not flatly wrong. But SO gives ONLY \"(mans)person med stor kroppsstyrka\" — a MALE person of great bodily strength — which does not describe a woman running. The neutral, child-level, picture-accurate word is IDROTTARE (\"person som utovar idrott\", SO). Recommend Idrottare (plural Idrottare zero; gender n). Lemma change -> operator ruling."
+  },
+  {
+   "key": "baby-girl",
+   "field": "singular",
+   "cur": {
+    "s": "Flickbebis",
+    "p": "Flickbebisar",
+    "g": "n"
+   },
+   "why": "Two problems. (1) \"Flickbebis\" is not Swedish: SAOL and SO both return \"Inga traffar pa flickbebis\" (suggesting flickebarn). It is a non-idiomatic calque; Swedish says en flicka, or for an infant flickebarn / en liten flicka. (2) The art does not show a bebis at all — it is a standing toddler in a t-shirt and shorts. FLICKA (\"barn eller ung person av kvinnokon\", SO) names the picture exactly. Recommend Flicka / Flickor / n. Lemma change -> operator ruling."
+  },
+  {
+   "key": "baby-overall",
+   "field": "singular",
+   "cur": {
+    "s": "Babyoverall",
+    "p": "Babyoveraller",
+    "g": "n"
+   },
+   "why": "False friend. SO defines overall as \"mer eller mindre heltackande overdragsplagg med (LANGA) ARMAR OCH BEN\" — a coverall with long sleeves and legs. The picture has neither: it is short bib dungarees, i.e. hangselbyxor / hangselshorts. English (US) \"overalls\" = dungarees, Swedish \"overall\" = coverall — the calque is what produced this. Lemma question -> operator ruling."
+  },
+  {
+   "key": "bandage",
+   "field": "singular",
+   "cur": {
+    "s": "Bandage",
+    "p": "Bandage",
     "g": "t"
    },
-   "why": "spelling question, not a form fix: Swedish usage overwhelmingly writes 'banyanträd' (NE/Wikipedia), while the data has the j-nativised 'banjanträd'. Not a SAOL headword, so I will not assert a citation. RECOMMEND 'Banyanträd' — but this needs a source decision, and the word is arguably too exotic for the 3-7 audience at all"
+   "why": "Lemma/art mismatch of the butter=cheese class. SO defines bandage as \"forband for skydd eller stod av skadad kroppsdel ... vanligen for LANGRE TIDS anvandning\" — a dressing/bandage. The picture is a sticking plaster, which in Swedish is PLASTER (ett plaster, plural plaster, neuter). Recommend Plaster / Plaster / t. Lemma change -> operator ruling."
   },
   {
-   "key": "beige",
-   "field": "gender",
-   "cur": {
-    "s": "Beige",
-    "p": "Beige",
-    "g": "n"
-   },
-   "why": "gender is not applicable to an adjective; 'n' is the script's fallback, not a claim. Same class as 'angry'/'black'"
-  },
-  {
-   "key": "biking",
-   "field": "gender",
-   "cur": {
-    "s": "Cykla",
-    "p": "Cykla",
-    "g": "n"
-   },
-   "why": "gender is not applicable to an infinitive; 'n' is the script's fallback, not a claim"
-  },
-  {
-   "key": "bison",
-   "field": "plural",
-   "cur": {
-    "s": "Bison",
-    "p": "Bisonar",
-    "g": "n"
-   },
-   "why": "I am not certain of the SAOL plural for 'bison' and will not guess: 'bisonar' (kaktus-type) and 'bisoner' are both conceivable, and 'bisonoxar' sidesteps it. The script's default -ar produced 'Bisonar' — plausible but unverified. RECOMMEND a SAOL lookup, or switching the lemma to 'bisonoxe -> bisonoxar' which is certain"
-  },
-  {
-   "key": "black",
-   "field": "gender",
-   "cur": {
-    "s": "Svart",
-    "p": "Svart",
-    "g": "n"
-   },
-   "why": "gender is not applicable to an adjective; 'n' is the script's fallback, not a claim"
-  },
-  {
-   "key": "blue",
-   "field": "gender",
-   "cur": {
-    "s": "Blå",
-    "p": "Blå",
-    "g": "n"
-   },
-   "why": "Not applicable: 'blå' is an adjective and Swedish adjectives carry no inherent gender — they agree with the noun (en blå boll / ett blått hus). The 'n' code is neither right nor wrong here; it is an internal contradiction in the data model, not a form error. Applies as one class to blue/brown/bored/capricious in this batch. Do not rewrite blind."
-  },
-  {
-   "key": "bonfire",
+   "key": "barrette",
    "field": "singular",
    "cur": {
-    "s": "Lägereld",
-    "p": "Lägereldar",
-    "g": "n"
+    "s": "Hårspänne",
+    "p": "Hårspännen",
+    "g": "t"
    },
-   "why": "Lemma question, not a form error. 'Lägereld' is specifically a CAMPFIRE, and this key duplicates the `campfire` key verbatim (N6). Swedish for an open-air bonfire is normally 'brasa' (or 'bål'; 'majbrasa' at Walpurgis). Correcting this means choosing a different lemma and depends on what the image actually shows — a decision, not a rewrite."
+   "why": "Lemma/art mismatch of the chess=chess-piece class. SO: harspanne = \"spanne som anvands som harprydnad och for att halla samman haret\" — a clasp that holds hair; the picture has no clasp and is a recoloured duplicate of the separate bow_tie image (Swedish FLUGA). Harspanne is the correct word for \"barrette\", so the ART is the likely defect. Operator rules: fix the WORD or fix the ART. Cross-locale."
   },
   {
-   "key": "boombox",
-   "field": "plural",
-   "cur": {
-    "s": "Bärbar stereo",
-    "p": "Bärbar stereoar",
-    "g": "n"
-   },
-   "why": "'Bärbar stereoar' is not Swedish and must not stay — TWO faults: (1) the attribute is uninflected; an indefinite plural requires 'bärbara'; (2) '-oar' is not a Swedish plural ending for -o nouns. The likely correct form is 'Bärbara stereor', but I cannot confirm the SAOL plural of 'stereo' (stereor vs. the periphrastic stereoapparater), and a two-word entry inflects BOTH parts — so the fix is more than a form substitution. HOLD rather than invent a citation."
-  },
-  {
-   "key": "bored",
-   "field": "gender",
-   "cur": {
-    "s": "Uttråkad",
-    "p": "Uttråkad",
-    "g": "n"
-   },
-   "why": "Not applicable — adjective, no inherent gender (see `blue`, same class)."
-  },
-  {
-   "key": "brown",
-   "field": "gender",
-   "cur": {
-    "s": "Brun",
-    "p": "Brun",
-    "g": "n"
-   },
-   "why": "Not applicable — adjective, no inherent gender (see `blue`, same class)."
-  },
-  {
-   "key": "cape",
+   "key": "basketball",
    "field": "singular",
    "cur": {
-    "s": "Kapa",
-    "p": "Kapor",
+    "s": "Basket",
+    "p": "Basket",
     "g": "n"
    },
-   "why": "SERIOUS — 'Kapa' is not a noun for a garment at all: SAOL gives 'kapa' as a VERB (to cut off / to hijack). A verb is standing in a noun's singular field, and a child would be shown a cape and hear 'kapa'. The Swedish for the accessory is 'cape' (en cape); alternatives are 'slängkappa' or 'kappa'. This is a lemma error, not a form error, and picking between cape/slängkappa/kappa depends on what the image shows — so HOLD, do not rewrite blind. Note it is NOT 'kåpa' either (a cowl/monk's habit/machine cover)."
+   "why": "ESCAPED MEMBER OF THE BLOCKED CLASS. The word Basket names the SPORT; the picture is the BALL (Swedish basketboll). This is structurally identical to badminton (=shuttlecock) and baseball (=ball/bat), both of which ARE marked BLOCKED in this same batch — this row was not. Its own fields are self-contradictory too: classification says countable-thing/hasGender:true/hasPlural:true, while the data says type verb-gerund / countable:false / zero plural. Recommend the operator BLOCK it alongside badminton and baseball (or relabel Basketboll / Basketbollar / n)."
   },
   {
-   "key": "cape",
+   "key": "basketball",
    "field": "plural",
    "cur": {
-    "s": "Kapa",
-    "p": "Kapor",
+    "s": "Basket",
+    "p": "Basket",
     "g": "n"
    },
-   "why": "'Kapor' is the mechanical -a -> -or plural of a verb that has no such noun form. Cannot be fixed until the singular lemma is decided (cape -> caper/capes; kappa -> kappor; slängkappa -> slängkappor)."
+   "why": "Depends on the lemma ruling. Basket (the sport) has no child-level plural, so hasPlural:true cannot be satisfied by the stored word; pluralising the sport would manufacture exactly the garbage this commission deletes (the RULE 4 Singen->Singens hazard)."
   },
   {
-   "key": "capricious",
-   "field": "gender",
+   "key": "cabana",
+   "field": "singular",
    "cur": {
-    "s": "Nyckfull",
-    "p": "Nyckfull",
+    "s": "Strandhytt",
+    "p": "Strandhytter",
     "g": "n"
    },
-   "why": "Not applicable — adjective, no inherent gender (see `blue`, same class)."
+   "why": "Lemma-vs-art question of the sv-01 baby-overall class. SO defines the head as 'hytt: litet, avskilt rum för speciellt ändamål mest på fartyg' = a small SEPARATED ROOM — an enclosed space. The picture has no walls at all; it is an open canopy over two loungers (a strandpaviljong / parasoll med solsängar). Strandhytt is not in SAOL (transparent compound), so I cannot cite a definition of the compound itself — but by its head's definition it does not name this picture. Operator rules: fix the WORD or fix the ART. Cross-locale, since the art is shared."
+  },
+  {
+   "key": "candy",
+   "field": "plural",
+   "cur": {
+    "s": "Godis",
+    "p": "Godis",
+    "g": "t"
+   },
+   "why": "Internal contradiction between the stored row and the picture; SAOL has TWO entries. (1) '1god·is substantiv ~et' = sötsaker, a MASS noun, ett-ord, NO plural. (2) '2god·is substantiv ~en ~ar' = 'godisbit', ONE PIECE, en-ord, plural godisar (confirmed by the separate entry 'god·is|bit substantiv ~en ~ar'). The stored row (g:t, zero plural) is internally coherent — but it is sense 1, the mass noun. The PICTURE is one wrapped sweet, i.e. sense 2, which would require g:n AND p:Godisar. So the row is coherent while the row-vs-picture pairing is not. This is a sense choice, not a form fix — the brief says never rewrite blind. Operator rules: keep sense 1 (mass label 'Godis' beside a picture of one sweet — defensible, since a Swede reads the label loosely) or move to sense 2, in which case gender AND plural must BOTH change together."
+  },
+  {
+   "key": "cedar-tree",
+   "field": "singular",
+   "cur": {
+    "s": "Ceder",
+    "p": "Cedrar",
+    "g": "n"
+   },
+   "why": "Word-vs-art mismatch of the sv-01 barrette class. Ceder is the correct Swedish for 'cedar' (SAOL 'ceder substantiv ~n cedrar / ett träd'), so the ART is the likely defect: the picture is a generic broadleaf tree, and the same theme renders cypress as a real conifer and birch with real birch bark. Operator rules: fix the WORD or fix the ART. Cross-locale, since the art is shared."
+  },
+  {
+   "key": "cheeks",
+   "field": "singular",
+   "cur": {
+    "s": "Kind",
+    "p": "Kinder",
+    "g": "n"
+   },
+   "why": "Internal contradiction — do NOT rewrite blind. The v2 classification says plural-picture (the label IS the plural), which wants 'Kinder'. The field holds the singular 'Kind' because the v1 round (commit 6dffa315) fixed it that way, before the plural-picture rule existed. This batch is now SPLIT: cookies/crayons/curtains/chips keep the plural label; cheeks + crutches hold singulars. Both are correct Swedish (SAOL: kind ~en ~er → en kind, kinden, kinder), so this is an encoding decision, not a form error. The arrow singling out ONE cheek is a real argument for the singular, so I will not flip it unilaterally. Operator must pick ONE convention for all five keys."
   },
   {
    "key": "cherry-blossom",
@@ -199,7 +149,7 @@
     "p": "Körsbärsblommor",
     "g": "n"
    },
-   "why": "Internal contradiction: 'körsbärsblom' (from 'blom', a collective/mass noun — 'trädet står i blom') cannot take the plural 'körsbärsblommor', which belongs to the DIFFERENT lemma 'körsbärsblomma'. Given themes=[flowers], the individual flower 'körsbärsblomma' is very likely intended, but blom -> blomma is a lemma change, not a form fix. Needs an image check + a lemma decision"
+   "why": "Another lemma, so not a form fix. 'Blom' is the COLLECTIVE/mass word: SAOL 'blom substantiv ~men — blomning; blommor: stå i blom' (the blooming state / blossom en masse). The picture is ONE flower, which is 'en körsbärsblomma' (SAOL: 1blomma ~n blommor 'en vacker växtdel'). The row is also self-contradictory: the stored plural 'Körsbärsblommor' is the plural of körsbärsblomm-A, not of körsbärsblom. Opening the picture settles the direction — recommend Körsbärsblomma — but the lemma swap is the operator's call."
   },
   {
    "key": "cherry-blossom",
@@ -209,7 +159,7 @@
     "p": "Körsbärsblommor",
     "g": "n"
    },
-   "why": "Same contradiction: 'Körsbärsblommor' is the correct plural of körsbärsblomma but NOT of the körsbärsblom now in the singular field. Resolve the lemma first; if körsbärsblomma is chosen, 'Körsbärsblommor' is already correct"
+   "why": "Coupled to the singular. 'Körsbärsblommor' is the correct plural of körsbärsblomma (SAOL: blomma ~n blommor) but NOT of the 'körsbärsblom' now in the singular field. If the singular becomes Körsbärsblomma, this field needs no change."
   },
   {
    "key": "chicken",
@@ -219,77 +169,17 @@
     "p": "Kycklingar",
     "g": "n"
    },
-   "why": "Content question about the picture. 'Kyckling' is a CHICK (young bird); an adult chicken/hen is 'höna' (en höna -> hönor). Themes here are birds/farm_animals/faces (adult bird) while the separate key 'chick' carries easter/spring — so this key probably depicts an adult hen and should be 'Höna'. N6 is a REAL defect, not noise: 'chick' and 'chicken' currently both speak the word 'kyckling', so two different pictures are read aloud identically. Needs an image check"
+   "why": "Wrong word for the picture, but the fix is another lemma so it is not a form correction. SAOL: 'kyckling = unge av hönsfågel' — a CHICK. The picture is a grown hen with comb and wattles: 'en höna' (SAOL: höna ~n hönor 'hona av tamfågel'). As shipped, the site shows a fluffy chick under key 'chick' and a grown hen under key 'chicken' and reads the SAME word 'Kyckling' over both. Recommend Höna / Hönor / n. (Guard: kyckling is also the MEAT — but this is a live bird, so that sense does not rescue it.)"
   },
   {
-   "key": "chili-pepper",
+   "key": "cooler",
    "field": "singular",
    "cur": {
-    "s": "Chilipeppar",
-    "p": "Chilipepprar",
+    "s": "Kylväska",
+    "p": "Kylväskor",
     "g": "n"
    },
-   "why": "Lemma question. The ordinary Swedish word for the pictured fruit is 'chili' (en chili); 'chilipeppar' exists but leans on 'peppar', which in SAOL is the ground SPICE (peppar, pepparn) — a mass noun. chilipeppar -> chili is a lemma change, not a form fix. noImage:true, so lowest priority"
-  },
-  {
-   "key": "chili-pepper",
-   "field": "plural",
-   "cur": {
-    "s": "Chilipeppar",
-    "p": "Chilipepprar",
-    "g": "n"
-   },
-   "why": "Depends on the lemma above, and I cannot confirm a SAOL plural for 'chilipeppar': SAOL's 'peppar' is a mass noun with no plural, which makes 'Chilipepprar' doubtful (though attested in cookery texts). Not guessing — resolve the lemma first"
-  },
-  {
-   "key": "cloudy",
-   "field": "gender",
-   "cur": {
-    "s": "Molnigt",
-    "p": "Molnigt",
-    "g": "n"
-   },
-   "why": "Category error, not a form error: gender (en-ord/ett-ord) is a property of NOUNS and does not apply to an adjective. Neither n nor t is correct, so I will not 'fix' it to t. Any code that renders an article from this field would produce *en molnigt / *ett molnigt alike. Needs a data-model decision (e.g. a null/na gender for adjective rows)"
-  },
-  {
-   "key": "cold",
-   "field": "gender",
-   "cur": {
-    "s": "Kallt",
-    "p": "Kallt",
-    "g": "n"
-   },
-   "why": "Category error: gender does not apply to an adjective. Neither n nor t is correct. Same class as 'cloudy' — needs a data-model decision, not a form fix"
-  },
-  {
-   "key": "confused",
-   "field": "gender",
-   "cur": {
-    "s": "Förvirrad",
-    "p": "Förvirrad",
-    "g": "n"
-   },
-   "why": "Category error: gender does not apply to an adjective. Neither n nor t is correct. Same class as 'cloudy'/'cold'"
-  },
-  {
-   "key": "content",
-   "field": "gender",
-   "cur": {
-    "s": "Nöjd",
-    "p": "Nöjd",
-    "g": "n"
-   },
-   "why": "Category error: gender does not apply to an adjective. Neither n nor t is correct. Same class as 'cloudy'/'cold'/'confused'"
-  },
-  {
-   "key": "coral",
-   "field": "plural",
-   "cur": {
-    "s": "Korall",
-    "p": "Koraller",
-    "g": "n"
-   },
-   "why": "Content question about the picture — themes=[colors, ocean_life] point at two different words. If the image is the sea animal, 'Koraller' is correct (en korall -> koraller). If it is the colour swatch (type=adjective, countable=false, and en=['Coral','Coral'] with no English plural all point that way), the entry is a colour name and must be NO_PLURAL with p = s, exactly like 'crimson' in this batch. The metadata contradicts the stored plural; N1 is detecting a real conflict. Needs an image check"
+   "why": "Picture-grounded lemma question — the v1 round ruled OK without opening the image. 'Kylväska' is a soft cool BAG; the object drawn is a hard-sided cool BOX, which is 'en kylbox' (SAOL: kyl|box ~en ~ar). Recommend Kylbox / Kylboxar / n. Another lemma, so not a form fix."
   },
   {
    "key": "crane",
@@ -299,7 +189,7 @@
     "p": "Tranor",
     "g": "n"
    },
-   "why": "Homonym trap, exactly the brief's 'Kiefer' case. English 'crane' is two unrelated things and the themes carry BOTH: birds_2 -> 'trana' (the bird, which is what the data has) but vehicles -> 'lyftkran'/'byggkran' (the machine). Swedish has no word covering both. If the picture is a construction crane, 'Trana' is flatly wrong and a child is told a bird is a machine. Needs an image check; the key may need splitting"
+   "why": "Worse than the v1 round found — NEITHER picture is a trana. (1) The themes carry an English homonym: birds_2 = a bird, vehicles = a machine (en lyftkran). (2) Opening the bird settles that it is not a crane either: SO defines trana as a 'stor, högbent, askgrå våtmarksfågel' — ash-GREY. The bird drawn is white-bodied with a black wing, orange bill and orange legs, i.e. a STORK (SAOL: stork ~en ~ar → storkar). So 'Trana' names neither theme's art. Needs an operator split: stork for birds_2, lyftkran for vehicles."
   },
   {
    "key": "cricket",
@@ -309,17 +199,7 @@
     "p": "Syrsor",
     "g": "n"
    },
-   "why": "Homonym trap. English 'cricket' is two unrelated things and the themes carry BOTH: insects_and_bugs -> 'syrsa' (the insect, which the data has) but sports -> 'cricket' (the game, which in Swedish keeps the English word). Swedish has no word covering both. If the picture is the sport, 'Syrsa' is flatly wrong. Needs an image check; the key may need splitting"
-  },
-  {
-   "key": "crimson",
-   "field": "gender",
-   "cur": {
-    "s": "Karmosinröd",
-    "p": "Karmosinröd",
-    "g": "n"
-   },
-   "why": "Category error: gender does not apply to an adjective/colour. Neither n nor t is correct. Same class as 'cloudy'/'cold'/'confused'/'content'"
+   "why": "English homonym carried by the themes, as the v1 round found — now confirmed by opening both. 'Syrsa' correctly names the insect (insects_and_bugs) but names nothing in sports_bw, which is a cricket BAT (the game is 'cricket' in Swedish; the bat is 'ett slagträ'). Needs an operator split, not a form fix. (The insect's very long antennae do read as a cricket rather than a gräshoppa, so syrsa is right for that theme.)"
   },
   {
    "key": "crossing-guard",
@@ -329,17 +209,47 @@
     "p": "Skolvärdar",
     "g": "n"
    },
-   "why": "Content/lemma question. A 'skolvärd' in Swedish schools is an adult host/monitor who supervises corridors and breaks — not the person who stops traffic at a crossing. That role is 'skolpolis' (a pupil on crossing duty, the culturally standard image) or 'trafikvakt'/'vakt' (an adult). If the picture shows a person with a stop sign at a crossing, 'Skolvärd' is misleading, but the correction is a lemma change and depends on which figure is drawn. Needs an image check"
+   "why": "Wrong word, but the fix is another lemma. SAOL/SO define skolvärd as a 'person med uppgift att stödja eleverna i en skola utanför lektionstid ... förhindra mobbning' — a school host/anti-bullying supervisor, indoors, nothing to do with traffic. The pictured role is exactly SO's skolpolis: 'elev som bevakar övergångsställen på väg mot skolan och släpper över andra elever när inga bilar kommer' — and BOTH images show a CHILD, which clinches it. Recommend Skolpolis / Skolpoliser / n (SAOL: skol|pol·is ~en ~er). Note SO marks skolpolis 'delvis historiskt'. 'Trafikvakt' is NOT the alternative — SO glosses it 'parkeringsvakt'."
   },
   {
-   "key": "dancing",
-   "field": "gender",
+   "key": "crutches",
+   "field": "singular",
    "cur": {
-    "s": "Dansa",
-    "p": "Dansa",
+    "s": "Krycka",
+    "p": "Kryckor",
     "g": "n"
    },
-   "why": "Category error: 'Dansa' is a verb, and gender does not apply to a verb. Neither n nor t is correct. Same data-model question as the adjective rows in this batch"
+   "why": "Same internal contradiction as 'cheeks' — do NOT rewrite blind. The v2 classification says plural-picture (the label IS the plural → 'Kryckor'), and the art is unambiguously TWO crutches, but the field holds the singular 'Krycka' because the v1 round fixed it that way before the plural-picture rule existed. This batch is now SPLIT: cookies/crayons/curtains/chips keep the plural label; cheeks + crutches hold singulars. Both are correct Swedish (SAOL: krycka ~n kryckor). Operator must pick ONE convention for all five. Genuine pair, not pluralia tantum: 'en krycka' is normal Swedish."
+  },
+  {
+   "key": "deinonychus",
+   "field": "singular",
+   "cur": {
+    "s": "Deinonychus",
+    "p": "Deinonychus",
+    "g": "n"
+   },
+   "why": "Genuine picture question, which the v1 round could not see. The art is a four-legged, long-necked, plate-backed animal — a stegosaur-shaped creature, not Deinonychus (a bipedal dromaeosaur). Either the label or the art is wrong; per the brief the operator rules first — fix the WORD or fix the ART. Not a form fix."
+  },
+  {
+   "key": "delivery",
+   "field": "singular",
+   "cur": {
+    "s": "Leverans",
+    "p": "Leveranser",
+    "g": "n"
+   },
+   "why": "Picture question. 'Leverans' is an abstract/event noun (SAOL: 'avlämning, tillhandahållande; avlämnade varor'), but the art is a PERSON — a delivery man carrying a parcel. The scene does depict a delivery, so this is milder than the brief's 'singing = a microphone' class, but it collides with the sibling key 'delivery-driver' in this same batch, which is also a person delivering parcels. Operator should decide whether this key shows goods/a parcel (leverans) or is re-lemmatised (ett bud). Not a form fix."
+  },
+  {
+   "key": "dimetrodon",
+   "field": "singular",
+   "cur": {
+    "s": "Dimetrodon",
+    "p": "Dimetrodonar",
+    "g": "n"
+   },
+   "why": "PICTURE QUESTION: the art does not show a Dimetrodon. Discrete dorsal plates = Stegosaurus; Dimetrodon has a continuous sail. Fix the WORD or fix the ART — operator's call. NB the brief itself cites 'Stegosaurusar' as correct data elsewhere in the corpus, so this art may duplicate an existing stegosaurus key."
   },
   {
    "key": "dimetrodon",
@@ -349,27 +259,7 @@
     "p": "Dimetrodonar",
     "g": "n"
    },
-   "why": "'Dimetrodonar' is the script's default -ar and looks wrong, but I cannot verify the correct form: 'dimetrodon' is not in SAOL. Comparable final-stressed -on loans take -er (elektron -> elektroner), which suggests 'Dimetrodoner', but I will not assert an unattested form. Needs a decision on the house convention for dinosaur genus names."
-  },
-  {
-   "key": "diplodocus",
-   "field": "plural",
-   "cur": {
-    "s": "Diplodocus",
-    "p": "Diplodocusar",
-    "g": "n"
-   },
-   "why": "Not in SAOL, so unverifiable. '-usar' is not automatically wrong in Swedish (kaktus -> kaktusar is the real pattern, and colloquial 'tyrannosaurusar' follows it), so this may well be correct — but it is also exactly what the script's default would produce, and the Swedish spelling may be 'diplodokus'. Coincidence vs correctness cannot be separated here without a source."
-  },
-  {
-   "key": "dogwood-tree",
-   "field": "plural",
-   "cur": {
-    "s": "Kornell",
-    "p": "Kornellar",
-    "g": "n"
-   },
-   "why": "'Kornellar' is the script's default -ar. A final-stressed loan of this shape would normally take -er ('korneller'), and I believe that is the SAOL form, but I am not certain enough to assert it. Uncertain -> HOLD rather than guess."
+   "why": "Not resolvable while the lemma is in doubt, and 'Dimetrodonar' is unsupported either way: dimetrodon is in NEITHER SAOL nor SO nor SAOB (searched — 'Inga träffar'). The brief's Latin -us ⇒ -ar rule (kaktusar, Stegosaurusar) does not reach a Greek -on stem; comparable consonant-final learned loans take -er (demon → demoner, elefant → elefanter). I will not invent a citation for a word the authority does not contain."
   },
   {
    "key": "domino",
@@ -379,7 +269,7 @@
     "p": "Dominobrickor",
     "g": "n"
    },
-   "why": "Internal contradiction: s and p are DIFFERENT lemmas. s='Domino' (the game) but p='Dominobrickor' (the tiles). The toys image almost certainly shows tiles, so the pair should probably be Dominobricka/Dominobrickor — but that replaces the lemma, so it is not mine to rewrite."
+   "why": "INTERNAL CONTRADICTION between the two fields, on top of a real SAOL homograph split. SAOL has 1domino ~n ~r = a masquerade costume, and 2domino ~t = 'ett spel med brickor' (the GAME, an ett-ord). Neither is a tile. The stored plural 'Dominobrickor' belongs to a THIRD lemma — dominobricka, a tile — which is what the art actually shows. Resolving game vs tile is a lemma decision, not a form fix. If the label is meant to name the pictured objects: Dominobricka / Dominobrickor / n."
   },
   {
    "key": "domino",
@@ -389,7 +279,7 @@
     "p": "Dominobrickor",
     "g": "n"
    },
-   "why": "Same contradiction: 'Dominobrickor' is a correct plural of 'dominobricka', not of 'domino'. The game 'domino' is played uncountably (spela domino). Resolve the lemma first."
+   "why": "'Dominobrickor' is a correct plural — but of dominobricka, NOT of the stored singular 'Domino'. Cannot be rewritten blind while the lemma is unresolved."
   },
   {
    "key": "domino",
@@ -399,7 +289,7 @@
     "p": "Dominobrickor",
     "g": "n"
    },
-   "why": "Depends on the lemma resolution. 'en dominobricka' is utrum (n), but I cannot confirm the gender of the game name 'domino' (game names are sometimes neuter in Swedish) and will not guess."
+   "why": "Lemma-dependent, and SAOL contradicts the stored value under one reading: 2domino (the game) is ~t = ETT-ord, not n. If the lemma resolves to dominobricka, n is correct (en bricka)."
   },
   {
    "key": "double-ended-wrench",
@@ -409,7 +299,7 @@
     "p": "Dubbelnycklar",
     "g": "n"
    },
-   "why": "Content/lemma question, not a form defect. 'Dubbelnyckel' is not an established Swedish tool name (not in SAOL); the usual terms are 'u-nyckel' / 'fast nyckel' / 'skruvnyckel'. Bare 'dubbelnyckel' next to a wrench image reads to a child as 'double KEY' (nyckel = key). Recommend the operator pick the tool term; not mine to rewrite."
+   "why": "LEMMA, not form. 'Dubbelnyckel' is in NEITHER SAOL nor SO. The dictionary word for the pictured tool is skruvnyckel (SAOL: skruv|nyckel ~n -nycklar, 'ett verktyg för att skruva runt muttrar o.d.'); the everyday term for this specific open-jaw type is u-nyckel / fast nyckel. Not rewritten blind — choosing the lemma is the operator's call."
   },
   {
    "key": "drink",
@@ -419,7 +309,7 @@
     "p": "Dricka",
     "g": "n"
    },
-   "why": "'Dricka' is the VERB infinitive, but the English gloss is a countable noun (Drink/Drinks). The noun is 'dryck' (en dryck -> flera drycker). Correcting this replaces the lemma, so HOLD. noImage/N7 orphan — low priority."
+   "why": "LEMMA, not form; noImage, so no picture can arbitrate. SAOL has THREE entries and none is a countable 'a drink': 1dricka ~n drickor = 'flaska läskedryck el. öl' (a BOTTLE of soft drink/beer); 2dricka ~t = 'dryckesvaror' (beverages, MASS, an ett-ord); 3dricka = the VERB. For the countable sense this row declares (en: Drink/Drinks, category countable-thing) the Swedish is en dryck → drycker. Dricka → Dryck is a different word, so this is not a pure form correction."
   },
   {
    "key": "drink",
@@ -429,27 +319,47 @@
     "p": "Dricka",
     "g": "n"
    },
-   "why": "Cannot be judged until the lemma is resolved: as the verb 'dricka' there is no plural; as the noun 'dryck' the plural is 'Drycker'."
+   "why": "Unresolvable while the lemma is: 1dricka → drickor, 2dricka → no plural (mass), dryck → drycker. The stored 'Dricka' (the singular simply repeated) is none of these."
   },
   {
-   "key": "durian",
-   "field": "plural",
+   "key": "drink",
+   "field": "gender",
    "cur": {
-    "s": "Durian",
-    "p": "Durianar",
+    "s": "Dricka",
+    "p": "Dricka",
     "g": "n"
    },
-   "why": "'Durianar' is the script's default -ar. 'durian' is not in SAOL as far as I can confirm; by analogy with final-stressed -an loans (banan -> bananer) the form is probably 'Durianer', but I will not assert an unattested plural."
+   "why": "Lemma-dependent, and SAOL contradicts the stored n under one reading: 2dricka is ~t (ETT-ord). 1dricka and dryck are ~n/~en ⇒ n."
   },
   {
-   "key": "earth",
+   "key": "eat",
+   "field": "gender",
+   "cur": {
+    "s": "Äta",
+    "p": "Äta",
+    "g": "n"
+   },
+   "why": "CATEGORY CONTRADICTION, surfaced per RULE 3's 'say so' clause. The row is a VERB infinitive, but classification says category 'countable-thing' with hasGender true and hasPlural true, and g='n'. A verb has no gender, so 'n' is spurious. The classification cannot have been read off a picture here — the row is noImage. Recommend category 'activity' with gender null, matching the adjective rows in this batch."
+  },
+  {
+   "key": "eclair",
    "field": "singular",
    "cur": {
-    "s": "Jorden",
-    "p": "Jorden",
+    "s": "Eclair",
+    "p": "Eclairer",
     "g": "n"
    },
-   "why": "Convention conflict, not a plain error. 'Jorden' is the DEFINITE form, while the file's format is bare/indefinite. But the bare form 'Jord' means soil, not the planet — in Swedish the planet simply IS 'jorden'. Correct for a child to hear, wrong against the stated format. Needs an operator ruling on proper nouns; not mine to rewrite."
+   "why": "TWO problems, neither a form fix. (1) LEXICAL: 'Eclair' is in NEITHER SAOL nor SO nor SAOB — I searched both 'eclair' and 'éclair' with the acute accent; zero hits for each. No authority supports the stored headword or any inflection of it. (2) PICTURE: the art does not show an éclair anyway (a glazed choux finger); it shows a seeded bun with red and cream filling. Fix the WORD or fix the ART."
+  },
+  {
+   "key": "eclair",
+   "field": "plural",
+   "cur": {
+    "s": "Eclair",
+    "p": "Eclairer",
+    "g": "n"
+   },
+   "why": "Cannot be settled while the headword has no dictionary entry and the picture is unresolved. I will not cite an authority for a word SAOL does not contain — that is the fabricated-citation failure the brief names."
   },
   {
    "key": "evergreen",
@@ -459,7 +369,7 @@
     "p": "Vintergrönor",
     "g": "n"
    },
-   "why": "Wrong lemma, most likely. 'Vintergröna' is the plant genus Vinca (periwinkle), a low groundcover — not a generic evergreen. A winter-themed 'evergreen' image is almost certainly a conifer: 'barrträd' or 'gran'. Replacing this is a lemma change and needs the image checked; not mine to rewrite."
+   "why": "LEMMA MISMATCH the classifier missed. The substantive 'vintergröna' is a specific PLANT SPECIES — Vinca minor, lesser periwinkle, a low creeping groundcover herb (sv.wiktionary: 'en art (Vinca minor) inom växtfamiljen oleanderväxter'; SAOL lists 'vintergröna subst.' as a separate entry from the adjective form of vintergrön). It cannot name a conifer tree. English 'evergreen' is an ADJECTIVE that Swedish does not nominalise this way. The word for the pictured tree is Barrträd (SAOL: barr|träd ~et; pl. ~, 'typ av träd som bär barr i stället för löv') or specifically Gran. Fix the WORD or fix the ART — a lemma swap, not a form fix."
   },
   {
    "key": "evergreen",
@@ -469,97 +379,67 @@
     "p": "Vintergrönor",
     "g": "n"
    },
-   "why": "Cannot be judged until the lemma is resolved. 'vintergröna -> vintergrönor' is internally consistent, but is the plural of the wrong plant."
+   "why": "Entirely lemma-dependent, and the candidates differ in EVERY field: vintergröna → vintergrönor (utrum), but barrträd → barrträd (ZERO plural, neuter). Rewriting the form without settling the lemma would lock in the wrong declension."
   },
   {
-   "key": "firefly",
-   "field": "singular",
+   "key": "evergreen",
+   "field": "gender",
    "cur": {
-    "s": "Eldfluga",
-    "p": "Eldflugor",
+    "s": "Vintergröna",
+    "p": "Vintergrönor",
     "g": "n"
    },
-   "why": "Calque, most likely wrong lemma. The Swedish name for the light-emitting beetle (Lampyris) is 'lysmask'; 'eldfluga' is a direct calque of English 'firefly' and is not established in SAOL. A Swedish child would not recognise 'eldfluga'. Replacing it is a lemma change — not mine to rewrite."
-  },
-  {
-   "key": "firefly",
-   "field": "plural",
-   "cur": {
-    "s": "Eldfluga",
-    "p": "Eldflugor",
-    "g": "n"
-   },
-   "why": "Depends on the lemma. 'eldfluga -> eldflugor' is internally consistent; 'lysmask -> lysmaskar' if the lemma is corrected."
-  },
-  {
-   "key": "fireplace",
-   "field": "singular",
-   "cur": {
-    "s": "Spis",
-    "p": "Spisar",
-    "g": "n"
-   },
-   "why": "Child-facing meaning error, but a lemma change so not mine to make. In modern Swedish bare 'spis' means the KITCHEN STOVE. A fireplace is 'öppen spis', or 'eldstad'/'kamin'. Projected and spoken alone next to a fireplace image, 'Spis' teaches the wrong object. The N6 collision is the tell — it almost certainly clashes with a 'stove' key holding the same word."
+   "why": "Lemma-dependent: vintergröna = n (en vintergröna), but barrträd = t (ett barrträd, SAOL ~et). Cannot be judged until the word is settled."
   },
   {
    "key": "forget-me-not",
-   "field": "plural",
+   "field": "singular",
    "cur": {
     "s": "Förgätmigej",
     "p": "Förgätmigejar",
     "g": "n"
    },
-   "why": "'Förgätmigejar' is doubtful — the script's default +ar. The -ej pattern in loan-shaped nouns takes -er (lakej -> lakejer, konvoj -> konvojer), which suggests 'förgätmigejer'; but 'förgätmigej' is a native univerbation and I cannot verify the SAOL plural from memory. Flagging rather than guessing: the current form may well be invented, but I will not substitute an unverified one."
+   "why": "PICTURE CONTRADICTS THE WORD. 'Förgätmigej' is the correct Swedish for the English key 'forget-me-not', but a förgätmigej is a TINY BLUE flower borne in clusters (SO: 'en ört med ögonliknande, små blå blommor i knippen'). The art is a single large red flower — it is not a förgätmigej in any language. The Swedish word is not the defect; the ART is. Operator ruling needed: fix the art, or re-key the row to whatever the red flower actually is. Do not rewrite the Swedish blind."
   },
   {
-   "key": "french-fries",
-   "field": "gender",
+   "key": "fried-chicken",
+   "field": "singular",
    "cur": {
-    "s": "Pommes Frites",
-    "p": "Pommes frites",
+    "s": "Stekt kyckling",
+    "p": "Stekt kyckling",
     "g": "n"
    },
-   "why": "The word has no singular, so it has no gender to verify; 'n' is an unverifiable placeholder. If the gender code drives an 'en/ett' article anywhere in the product, this key must be excluded from that path rather than assigned a gender."
+   "why": "Two problems at once. (1) LEMMA: the art is a bucket of breaded, deep-fried chicken pieces. 'Stekt kyckling' means pan-fried chicken and, as a count noun, a whole fried BIRD. Swedish for what is drawn is 'friterad kyckling', or 'kycklingklubbor' for the pieces. (2) PICTURE-vs-CATEGORY: the row is classified countable-thing, but the image shows SEVERAL pieces in a container — it behaves like the plural-picture class (cf. french-fries, also a carton of many). Both need an operator/art ruling; do not rewrite blind."
   },
   {
-   "key": "frisbee",
+   "key": "fried-chicken",
    "field": "plural",
    "cur": {
-    "s": "Frisbee",
-    "p": "Frisbees",
+    "s": "Stekt kyckling",
+    "p": "Stekt kyckling",
     "g": "n"
    },
-   "why": "'Frisbees' is the English plural retained. It is widely written in Swedish, but I cannot verify from memory whether SAOL prescribes a Swedish inflection (-ar/-er) instead. Not confident enough to change; flagging for verification."
+   "why": "'Stekt kyckling' in the plural field is not a plural at all. The mechanical fix would be 'Stekta kycklingar' (correct adjective agreement — cf. fried-egg, which the data gets right), but that means 'fried whole chickens', which is not what is pictured. Cannot be settled until the singular HOLD is resolved."
   },
   {
-   "key": "garden-fork",
+   "key": "garlic",
    "field": "plural",
    "cur": {
-    "s": "Trädgårdsgrep",
-    "p": "Trädgårdsgrep",
+    "s": "Vitlök",
+    "p": "Vitlök",
+    "g": "n"
+   },
+   "why": "THE PICTURE CONTRADICTS THE CATEGORY, and the dictionary sides with the picture. The row is classified 'mass' → hasPlural:false, which would make this NO_PLURAL. But (a) the image shows ONE whole countable bulb, not a heap or a mass, and (b) SAOL gives a real plural: 'vit|lök substantiv ~en ~ar' (SO: 'vitlök vitlöken vitlökar'). In Swedish 'en vitlök → flera vitlökar' is entirely ordinary, and a child shown one bulb will say 'en vitlök'. So the honest plural is 'Vitlökar' — but that reverses the classification, which Rule 3 reserves to the operator. Holding rather than rewriting: the internal contradiction (category=mass vs picture=one countable bulb vs SAOL=~ar) needs the ruling, not me. Compare the brief's own warning that _countable:false is fallible (bread, asparagus, cheese)."
+  },
+  {
+   "key": "goggles",
+   "field": "singular",
+   "cur": {
+    "s": "Skyddsglasögon",
+    "p": "Skyddsglasögon",
     "g": "t"
    },
-   "why": "The current zero plural is certainly WRONG — 'grep' is a common-gender noun and common-gender nouns never take a zero plural. Cause: the same false suffix match that produced the wrong gender (see gender field), which is exactly the brief's 'ordet träffas felaktigt av ett-listorna -> genus t OCH nollplural' class. The correct form is 'Trädgårdsgrepar' (-ar, the native default) or possibly 'Trädgårdsgreper'; I cannot verify which from memory, so I flag rather than guess. The defect is certain; only the replacement form is uncertain."
-  },
-  {
-   "key": "gecko",
-   "field": "plural",
-   "cur": {
-    "s": "Gecko",
-    "p": "Geckos",
-    "g": "n"
-   },
-   "why": "'Geckos' is an English plural. Common-gender -o nouns in Swedish generally take -r (video -> videor, stereo -> stereor), which suggests 'Geckor'; but I cannot verify the SAOL entry for 'gecko' from memory, and the English form is in real use. Flagging rather than guessing."
-  },
-  {
-   "key": "gloves",
-   "field": "singular",
-   "cur": {
-    "s": "Handskar",
-    "p": "Handskar",
-    "g": "n"
-   },
-   "why": "The singular field contains a PLURAL form ('Handskar'). This is NOT pluralia tantum — 'en handske' exists and is already the separate key 'glove'. So the fix is not a form correction: either this key is a duplicate of 'glove' and should be retired, or the image deliberately shows a pair and the singular field cannot be filled honestly. That is a content decision about the picture, not a language one. Do not blind-rewrite."
+   "why": "LEMMA MISMATCH the classifier did not catch. 'Skyddsglasögon' means specifically PROTECTIVE/SAFETY eyewear — the clear specs worn in a workshop or laboratory. Both images show tinted, strapped SKI/SNOW goggles. The Swedish for what is drawn is 'skidglasögon' (or simply 'goggles'). Recommend Skidglasögon — but that is a different lemma, so it is the operator's ruling, not a form fix. Note that whatever lemma is chosen inherits glasögon's plurale-tantum status (SAOL: 'glasögon substantiv; pl.'), so the singular field will still not hold a true singular."
   },
   {
    "key": "gopher",
@@ -569,7 +449,7 @@
     "p": "Gopherar",
     "g": "n"
    },
-   "why": "'Gopher' is not a Swedish word — the English lemma has been left untranslated. The Swedish name for the North American gopher (Geomyidae) is 'kindpåsråtta' (also 'pocketgopher'). Replacing 'Gopher' with 'Kindpåsråtta' is a change of LEMMA, not a form fix, and it is also a content question (which rodent does the forest_creatures picture actually show?). Do not rewrite blind."
+   "why": "'Gopher' IS NOT A SWEDISH WORD. Searched all three: 'Inga träffar på gopher' in SAOL, SO and SAOB alike (SAOB's nearest suggestion is 'goffer'). This is an untranslated English label sitting in the Swedish field and being read aloud to Swedish children. The Swedish name for the Geomyidae is 'kindpåsråtta' (pl. kindpåsråttor, en-word) — but substituting it is a different lemma, so it is the operator's call, not a form fix. Complication worth flagging: the ART shows a STRIPED, ground-squirrel-like animal rather than a true pocket gopher, so the right answer may be a different animal (jordekorre/sisel) rather than kindpåsråtta. Fix the word, or fix the art — but please do not let 'Gopher' ship as Swedish."
   },
   {
    "key": "gopher",
@@ -579,57 +459,27 @@
     "p": "Gopherar",
     "g": "n"
    },
-   "why": "'Gopherar' is an invented form built on an untranslated English lemma. The plural cannot be settled before the lemma is (see singular). If the lemma becomes 'kindpåsråtta', the plural is 'kindpåsråttor'."
+   "why": "'Gopherar' is doubly bad: the -ar default applied to a word that does not exist in Swedish at all. There is no correct plural to give until the lemma question is settled (if it becomes kindpåsråtta, the plural is kindpåsråttor)."
   },
   {
-   "key": "grapes",
+   "key": "hair-tie",
    "field": "singular",
    "cur": {
-    "s": "Druvor",
-    "p": "Druvor",
+    "s": "Hårsnodd",
+    "p": "Hårsnoddar",
     "g": "n"
    },
-   "why": "The singular field contains a PLURAL form ('Druvor'). Not pluralia tantum — 'en druva' exists. Same class as key 'gloves': either the singular field must be filled with 'Druva' (but then the entry no longer matches a picture of a bunch of grapes) or the key is deliberately a collective. A content decision about the image, not a form fix."
+   "why": "LEMMA MISMATCH the classifier did not catch. 'Hårsnodd' is an elastic loop you tie hair back with; the picture is a decorative BOW. SO defines rosett as 'knut med två motstående öglor och två lösa ändar' — a knot with two opposing loops and two loose ends, which is EXACTLY the drawn object. Recommend 'Rosett' (en rosett, flera rosetter — SAOL 'ros·ett ~en ~er'), or 'Hårrosett' if the hair sense must be kept. Different lemma → operator's ruling, not a form fix."
   },
   {
-   "key": "gray",
-   "field": "gender",
+   "key": "headband",
+   "field": "singular",
    "cur": {
-    "s": "Grå",
-    "p": "Grå",
-    "g": "n"
+    "s": "Pannband",
+    "p": "Pannband",
+    "g": "t"
    },
-   "why": "'grå' is an adjective and has no lexical gender at all, so 'n' cannot be verified — it is the script's default asserting something that does not exist. It is also actively misleading: if the colour is ever nominalised, Swedish colour nouns are NEUTER ('grått', 'det gråa'), i.e. the opposite of 'n'. Colour/adjective keys should be excluded from any 'en/ett' article path rather than given a gender."
-  },
-  {
-   "key": "green",
-   "field": "gender",
-   "cur": {
-    "s": "Grön",
-    "p": "Grön",
-    "g": "n"
-   },
-   "why": "Same as 'gray': 'grön' is an adjective with no lexical gender; 'n' is the script's default. Nominalised Swedish colours are neuter ('grönt'), so 'n' is not merely unverifiable but points the wrong way."
-  },
-  {
-   "key": "green-beans",
-   "field": "gender",
-   "cur": {
-    "s": "Haricots verts",
-    "p": "Haricots verts",
-    "g": "n"
-   },
-   "why": "Plural-only borrowing: no singular, therefore no gender to verify. 'n' is an unverifiable placeholder. (N4 — differs from Danish/Norwegian — is not evidence about Swedish.)"
-  },
-  {
-   "key": "happy",
-   "field": "gender",
-   "cur": {
-    "s": "Glad",
-    "p": "Glad",
-    "g": "n"
-   },
-   "why": "'glad' is an adjective and has no lexical gender; 'n' is the script's default asserting a property the word does not have. Adjective keys should be excluded from any 'en/ett' path rather than carry a gender code."
+   "why": "LEMMA MISMATCH the classifier did not catch. SO defines pannband as 'band som bärs runt PANNAN särsk. under IDROTTSUTÖVNING för att hålla hår och svett borta från ögonen' — a sports sweatband round the forehead. The picture is a decorative Alice band with ears and a bow, worn over the crown. The Swedish for that is 'diadem': SO, 'halvcirkelformat pann- eller hårsmycke som påminner om en krona'; SAOL, 'dia·dem ~et; pl. ~'. Recommend Diadem (ett diadem, flera diadem, gender 't'). Different lemma → operator's ruling. NOTE: the stored form Pannband/Pannband/t is internally CORRECT (SAOL: 'pann|band substantiv ~et; pl. ~'), so nets N2/N8 are wrong about the plural — the defect is the choice of word, not its inflection."
   },
   {
    "key": "heater",
@@ -639,47 +489,7 @@
     "p": "Värmare",
     "g": "n"
    },
-   "why": "'Värmare' is a dubious lemma for a household heater. Swedish uses 'element' / 'värmeelement' (a radiator) or 'värmefläkt' (a fan heater); 'värmare' standing alone is not the ordinary word for the appliance (it survives mainly as a compound head, e.g. 'kaffevärmare'). Replacing it is a change of LEMMA plus a content question about what the around_the_house picture shows — not a form fix. Knock-on warning: if the lemma becomes 'element', the gender flips to 't' (ett element) and the plural becomes 'element'; the current 'n' + zero plural are only correct for 'värmare'."
-  },
-  {
-   "key": "hemlock-tree",
-   "field": "plural",
-   "cur": {
-    "s": "Hemlock",
-    "p": "Hemlock",
-    "g": "t"
-   },
-   "why": "The current zero plural is wrong — it follows from the same false suffix match as the gender (see gender field), and a common-gender tree name does not take a zero plural. But I cannot verify from memory whether SAOL gives 'hemlockar' or 'hemlocker', so I flag rather than substitute an unverified form. The defect is certain; the replacement is not."
-  },
-  {
-   "key": "high-heeled-shoes",
-   "field": "singular",
-   "cur": {
-    "s": "Högklackade skor",
-    "p": "Högklackade skor",
-    "g": "n"
-   },
-   "why": "The singular field contains a PLURAL phrase ('Högklackade skor'). Not pluralia tantum — 'en högklackad sko' exists. Same class as 'gloves' and 'grapes': filling the singular honestly ('Högklackad sko') would no longer match a picture of a pair. A content decision about the image, not a form fix."
-  },
-  {
-   "key": "hospital-bracelet",
-   "field": "singular",
-   "cur": {
-    "s": "Sjukhusarmband",
-    "p": "Sjukhusarmband",
-    "g": "t"
-   },
-   "why": "Grammatically fine, but 'Sjukhusarmband' is a literal calque and not the Swedish term; a patient ID band is 'patientarmband' / 'ID-armband'. That is a different lemma, not a form fix -> HOLD for an operator decision. noImage."
-  },
-  {
-   "key": "hospital-gown",
-   "field": "singular",
-   "cur": {
-    "s": "Sjukhuskläder",
-    "p": "Sjukhuskläderar",
-    "g": "n"
-   },
-   "why": "Two defects at once: 'Sjukhuskläder' is (a) a PLURAL ('kläder' is plurale tantum) sitting in the singular field, and (b) the wrong concept — a hospital gown is one garment ('patientrock' / 'sjukhusskjorta'), not 'hospital clothes'. Correction changes the lemma -> HOLD."
+   "why": "LEMMA MISMATCH. The FORM is fine — SAOL has 'värm·are substantiv ~n; pl. ~' — but SAOL adds 'vanl. om apparat' and SO adds '(vanligen i sammansättn.)': värmare is essentially a COMPOUND-FINAL element (vattenvärmare, handvärmare, kupévärmare). Standing alone as the name of a room radiator it is not idiomatic Swedish; no Swede points at this object and says 'en värmare'. The word for what is drawn is 'element' — SAOL sense 3, 'anordning för utstrålning av värme i rum' — which is also exactly what a Swedish child calls it. Recommend Element (ett element, flera element, gender 't' — note the gender FLIPS with the lemma). Different lemma → operator's ruling."
   },
   {
    "key": "hospital-gown",
@@ -689,27 +499,17 @@
     "p": "Sjukhuskläderar",
     "g": "n"
    },
-   "why": "'kläder' has no singular, so no gender is assignable; 'n' is the script's default. Gender can only be set once the lemma question in the singular field is resolved."
+   "why": "SAOL gives kläder no gender — a plural-only noun takes neither en nor ett, so 'n' is not assignable and would emit the ungrammatical *'en sjukhuskläder'. Resolves once the lemma is settled (a singular patientrock WOULD be n)."
   },
   {
-   "key": "hot",
-   "field": "gender",
-   "cur": {
-    "s": "Varmt",
-    "p": "Varmt",
-    "g": "n"
-   },
-   "why": "Adjective — the gender field does not apply. Note the internal contradiction: the stored form 'Varmt' is the NEUTER agreement form of 'varm', while g='n' claims en-ord. If the field is used to emit an article, it will produce nonsense here."
-  },
-  {
-   "key": "ice-skates",
+   "key": "ice-cream-truck",
    "field": "singular",
    "cur": {
-    "s": "Skridskor",
-    "p": "Skridskor",
+    "s": "Glassbil",
+    "p": "Glassbilar",
     "g": "n"
    },
-   "why": "Content question, not a form question: the English gloss here IS plural ('Ice Skates' = a pair), so the plural 'Skridskor' in the singular field may be intentional — but it collides with key 'ice-skate' (N6), which holds identical data for the SINGULAR gloss. Either this key is meant to label a pair (keep) or it should read 'Skridsko' (dedupe). Operator decision."
+   "why": "PICTURE QUESTION, not a form error. 'Glassbil' is the correct and idiomatic Swedish for an ice-cream truck, but the only art shows a truck serving cupcakes in fluted cases, so the word may not name this picture. Fix the WORD (a bakery/food-truck lemma) or fix the ART — operator's call; not rewritten blind. Affects all 11 locales equally, so worth deciding once."
   },
   {
    "key": "ichthyosaurus",
@@ -719,27 +519,7 @@
     "p": "Ichthyosaurusar",
     "g": "n"
    },
-   "why": "The established Swedish form of this animal is 'iktyosaurie' (like dinosaurie, not dinosaurus); the Latin genus name is kept here instead. Not in SAOL, so I will not assert a form — this is a lemma question, not a form fix. Flagging, not guessing."
-  },
-  {
-   "key": "ichthyosaurus",
-   "field": "plural",
-   "cur": {
-    "s": "Ichthyosaurus",
-    "p": "Ichthyosaurusar",
-    "g": "n"
-   },
-   "why": "Depends on the lemma above. Note for calibration: 'Ichthyosaurusar' is NOT automatically invented — Swedish -us loanwords do take -ar (SAOL: kaktus -> kaktusar, cirkus -> cirkusar). If instead the Swedish lemma 'iktyosaurie' is adopted, the plural is 'iktyosaurier'. I will not guess between them."
-  },
-  {
-   "key": "iguanodon",
-   "field": "plural",
-   "cur": {
-    "s": "Iguanodon",
-    "p": "Iguanodonar",
-    "g": "n"
-   },
-   "why": "'Iguanodonar' is very likely wrong — Swedish loanwords with stress on final -on take -er (melon -> meloner, demon -> demoner), which would give 'iguanodoner'. But this dinosaur name is not in SAOL and I will not invent a citation for it. HOLD rather than guess."
+   "why": "PICTURE QUESTION. An ichthyosaur is a MARINE reptile — dolphin-shaped, flippers, no legs, and it never stands on land. This art is a four-legged, spike-backed land dinosaur, so the word does not name the picture. Separately, the established Swedish form is arguably 'iktyosaurie' (cf. dinosaurie) rather than the bare Latin genus. Both are lemma/art questions, not form fixes — operator's call. Affects all 11 locales."
   },
   {
    "key": "jeans",
@@ -749,17 +529,7 @@
     "p": "Jeans",
     "g": "n"
    },
-   "why": "Plurale tantum -> no singular, so no en/ett gender is assignable; 'n' here is the script's default. If this field is used to emit an article, it will produce the ungrammatical *'en jeans'. Same class as 'leggings' in this batch."
-  },
-  {
-   "key": "jelly-beans",
-   "field": "singular",
-   "cur": {
-    "s": "Gelébönor",
-    "p": "Gelébönor",
-    "g": "n"
-   },
-   "why": "Two open questions, neither a pure form fix. (1) The field holds a plural ('Gelébönor'); the singular is 'en geléböna' — but the English gloss is plural too, so this may be intentional. (2) Word choice: Swedish commonly uses the loan 'jellybeans'; 'geléböna' is a transparent calque and is not in SAOL. Operator decision."
+   "why": "SAOL assigns jeans no gender — a pluralia tantum takes neither ~en nor ~et, so 'n' is not assignable and would emit the ungrammatical *'en jeans'. Needs an operator convention for how plural-only nouns fill this field (same question as leggings in this batch)."
   },
   {
    "key": "jump",
@@ -769,7 +539,7 @@
     "p": "Hoppa",
     "g": "n"
    },
-   "why": "The field holds the VERB infinitive 'Hoppa', but the English gloss is a countable noun ('Jump/Jumps'). The Swedish noun is 'ett hopp'. Verb -> noun is a lemma change, not a form fix. Also orphaned (N7) and noImage — lowest priority, but it should not be silently rewritten."
+   "why": "INTERNAL CONTRADICTION, not a form fix. 'Hoppa' is the VERB infinitive sitting in a row classified countable-thing with hasGender/hasPlural:true. The countable noun 'a jump' is SAOL '1hopp ~et; pl. ~' → ett hopp, pl. hopp, NEUTER. Resolving means choosing a lemma (noun Hopp vs verb Hoppa), which is more than a form correction — recommended Hopp / Hopp / t. Note the sibling key 'jumping' (BLOCKED) also holds 'Hoppa'."
   },
   {
    "key": "jump",
@@ -779,7 +549,7 @@
     "p": "Hoppa",
     "g": "n"
    },
-   "why": "Undecidable until the singular is resolved: if the noun 'hopp' is adopted, the plural is 'hopp' (neuter zero plural); if the entry stays a verb label, there is no plural at all."
+   "why": "Contingent on the lemma. If it becomes the noun Hopp the plural is 'Hopp' (SAOL ~et; pl. ~, zero) — which equals the current string only by coincidence. If it stays the verb, there is no plural at all."
   },
   {
    "key": "jump",
@@ -789,17 +559,17 @@
     "p": "Hoppa",
     "g": "n"
    },
-   "why": "A verb has no gender, so 'n' is meaningless here. If resolved to the noun 'ett hopp', the correct code would be 't' — i.e. the current 'n' is wrong under either reading."
+   "why": "'n' is wrong under BOTH readings — the noun hopp is '~et' = t, and a verb has no gender; as it stands an article-emitting surface would say *'en hoppa'. Not rewritten blind because the correct value depends on the lemma decision; recommended 't' if the lemma becomes Hopp."
   },
   {
-   "key": "jumping",
-   "field": "gender",
+   "key": "jumpsuit",
+   "field": "singular",
    "cur": {
-    "s": "Hoppa",
-    "p": "Hoppa",
+    "s": "Jumpsuit",
+    "p": "Jumpsuiter",
     "g": "n"
    },
-   "why": "Verb infinitive — gender does not apply; 'n' is the script's default and would emit *'en hoppa' if the field drives an article."
+   "why": "PICTURE QUESTION. A jumpsuit is a one-piece garment with sleeves; the art shows sleeveless bib overalls over a t-shirt, i.e. Swedish 'hängselbyxor' / 'snickarbyxor'. So the word does not name the picture. Fix the WORD or fix the ART — operator's call, not a blind rewrite. Affects all 11 locales."
   },
   {
    "key": "jumpsuit",
@@ -809,47 +579,17 @@
     "p": "Jumpsuiter",
     "g": "n"
    },
-   "why": "Recent English loan; I cannot confirm SAOL's plural for it (candidates in actual use: 'jumpsuits' with the English -s, and 'jumpsuitar'). 'Jumpsuiter' is the script's output and I can neither confirm nor refute it from SAOL. HOLD rather than guess."
+   "why": "Two independent reasons. (1) Contingent on the lemma above — hängselbyxor is itself plural-only. (2) NO AUTHORITY EXISTS for jumpsuit: verified absent from SAOL, SO, SAOB and sv.wiktionary (404). I will not fabricate a citation. SAOL's comparable English clothing loans are genuinely inconsistent — sweatshirt/T-shirt '~ar el. ~s', overall '~en ~er', body 'pl. bodies', kettlebell 'pl. ~s' — so no class rule settles it. If the lemma stays Jumpsuit, the idiomatic plural is 'Jumpsuits' (recent un-nativised loan, cf. kettlebell→kettlebells); 'Jumpsuiter' is not idiomatic. Recommend Jumpsuits, flagged as a native-judgment call with no dictionary backing."
   },
   {
-   "key": "kettlebell",
-   "field": "plural",
-   "cur": {
-    "s": "Kettlebell",
-    "p": "Kettlebellar",
-    "g": "n"
-   },
-   "why": "Recent English loan; I cannot confirm a SAOL plural. 'Kettlebellar' is the script's default +ar and may well be right (jfr en jeep -> jeepar), but 'kettlebells' is also in use. Not guessing."
-  },
-  {
-   "key": "keyboard",
-   "field": "plural",
-   "cur": {
-    "s": "Keyboard",
-    "p": "Keyboards",
-    "g": "t"
-   },
-   "why": "English -s plural ('Keyboards'). SAOL does sanction -s plurals for some English loans, but I cannot confirm the entry for this one, and note that neither this plural nor g='t' can come from the script (its default would be 'Keyboardar'), so this row was set by some other source. HOLD rather than assert."
-  },
-  {
-   "key": "knitting",
+   "key": "jumpsuit",
    "field": "gender",
    "cur": {
-    "s": "Sticka",
-    "p": "Sticka",
+    "s": "Jumpsuit",
+    "p": "Jumpsuiter",
     "g": "n"
    },
-   "why": "Verb infinitive — gender does not apply. Worse than harmless here: g='n' is exactly the code of the homonymous noun 'en sticka' (a splinter), so any surface that emits an article would say 'en sticka' and turn the activity 'knitting' into the object 'a splinter'."
-  },
-  {
-   "key": "layer-cake",
-   "field": "singular",
-   "cur": {
-    "s": "Lagertårta",
-    "p": "Lagertårtor",
-    "g": "n"
-   },
-   "why": "'Lagertårta' is a transparent calque of the English and is not an established Swedish word (not in SAOL); Swedish would simply say 'Tårta', or a specific kind (gräddtårta). Word choice, not form -> HOLD. noImage, so lowest priority."
+   "why": "Contingent on the lemma. If Jumpsuit stands, n is right (every comparable SAOL loan is an en-ord: overall ~en, body ~n, kettlebell ~en). If it becomes hängselbyxor the field is moot (plural-only, no gender)."
   },
   {
    "key": "leggings",
@@ -859,7 +599,17 @@
     "p": "Leggings",
     "g": "n"
    },
-   "why": "Plurale tantum -> no singular, so no en/ett gender is assignable; 'n' is the script's default and would emit the ungrammatical *'en leggings'. Same class as 'jeans' in this batch."
+   "why": "SAOL assigns leggings no gender — a pluralia tantum takes neither ~en nor ~et, so 'n' is not assignable and would emit the ungrammatical *'en leggings'. Same operator convention question as jeans in this batch."
+  },
+  {
+   "key": "lego",
+   "field": "singular",
+   "cur": {
+    "s": "Lego",
+    "p": "Legobitar",
+    "g": "n"
+   },
+   "why": "INTERNAL CONTRADICTION plus a picture question — not a blind rewrite. SAOL: 'lego [le´go] substantiv ~t / uppsättning plastbitar för barn' — Lego is the MASS/trademark noun for the set. But the art shows ONE BRICK, which in Swedish is 'en legobit' / 'en legokloss'. So the singular field holds a mass noun while the picture shows a single count object. Recommended resolution: Legobit / Legobitar / n (matches the picture), or Lego / — / t (matches SAOL's mass noun, but then the art should show a pile)."
   },
   {
    "key": "lego",
@@ -869,7 +619,7 @@
     "p": "Legobitar",
     "g": "n"
    },
-   "why": "INTERNAL CONTRADICTION: singular 'Lego' and plural 'Legobitar' are two different lemmas (lego vs legobit) — the plural silently switches the word. Either the singular becomes 'Legobit' (en legobit -> legobitar) or the plural is NO_PLURAL (mass/trademark noun). Not a form fix -> operator decision."
+   "why": "The current 'Legobitar' is a DIFFERENT LEMMA — the plural of legobit, not of lego — so the row silently switches word between its own singular and plural fields. SAOL gives 'lego ~t' with no plural at all (mass noun). Resolves with the lemma decision above."
   },
   {
    "key": "lego",
@@ -879,17 +629,37 @@
     "p": "Legobitar",
     "g": "n"
    },
-   "why": "Depends on the same decision: 'en legobit' is 'n', but the mass/trademark noun 'lego' does not take an indefinite article at all. The current 'n' is only right under the 'legobit' resolution."
+   "why": "'n' CONTRADICTS SAOL: 'lego ~t' = ett-ord (NEUTER). Under the Lego reading the gender must be t; under the Legobit reading it is n (bit is an en-ord). So the row is wrong as it stands, but which field to change depends on the lemma — held rather than rewritten. This is a genuine miscoded gender, not a false suspicion."
   },
   {
-   "key": "lights",
+   "key": "liberty",
    "field": "singular",
    "cur": {
-    "s": "Ljusslingor",
-    "p": "Ljusslingor",
+    "s": "Frihet",
+    "p": "Frihet",
     "g": "n"
    },
-   "why": "The field holds a plural, 'Ljusslingor' (= string lights); the singular is 'en ljusslinga'. But the English gloss is plural in both slots, so this may be an intentional plural label for the christmas image. Same class as 'ice-skates' and 'jelly-beans' in this batch — operator should rule on all three together."
+   "why": "THE PICTURE CONTRADICTS BOTH THE WORD AND THE CATEGORY — surfacing, not rewriting. The art is a specific MONUMENT (Swedish 'Frihetsgudinnan'), not the abstract concept 'frihet'. Two consequences: (a) the word does not name the picture; (b) classification says countable-thing/hasPlural:true, but a named statue is a PROPER NOUN, which per RULE 3 keeps its gender and has NO plural. Recommended: Frihetsgudinnan (proper noun, no plural) if the art stands, or new art if the abstract word stands. Operator's call."
+  },
+  {
+   "key": "liberty",
+   "field": "plural",
+   "cur": {
+    "s": "Frihet",
+    "p": "Frihet",
+    "g": "n"
+   },
+   "why": "Contingent, and the two resolutions point OPPOSITE ways, so I will not rewrite blind. SAOL does give 'frihet ~en ~er' → friheter for the abstract noun, so if 'Frihet' stands the identical singular/plural is arguably wrong (though friheter is adult legal/political register, not child-level). But if the lemma becomes Frihetsgudinnan to match the art, it is a proper noun with NO plural and the current value is right."
+  },
+  {
+   "key": "light",
+   "field": "singular",
+   "cur": {
+    "s": "Ljus",
+    "p": "Ljus",
+    "g": "t"
+   },
+   "why": "PICTURE QUESTION. Swedish 'ljus' is the phenomenon (SAOL 1ljus sense 1 'det grundläggande optiska fenomenet') or a candle — it is NOT a light FIXTURE, and the art is unambiguously a pendant lamp. English 'light' covers both senses; Swedish does not, so the label does not cleanly name this picture (the same shape as the brief's singing=MICROPHONE class). Complication the operator must weigh: the natural word, Lampa/Taklampa, already belongs to the separate 'lamp' key in this same batch, so this may be an art problem rather than a word problem. Not rewritten blind."
   },
   {
    "key": "macaron",
@@ -899,27 +669,7 @@
     "p": "Macaronar",
     "g": "n"
    },
-   "why": "'Macaronar' is almost certainly wrong: French loans in stressed -on take -er in Swedish (ballong->ballonger, champinjon->champinjoner, salong->salonger), which would give 'Macaroner'. But I cannot confirm whether SAOL lemmatises 'macaron' at all, and Swedish bakery usage also shows the retained form 'macarons'. Two plausible corrections, no confirmable source -> not guessing"
-  },
-  {
-   "key": "mango",
-   "field": "plural",
-   "cur": {
-    "s": "Mango",
-    "p": "Mangos",
-    "g": "n"
-   },
-   "why": "Swedish fruit loans ending in unstressed -o normally take -r (en avokado -> avokador), which would give 'Mangor'. 'Mangos' is however widespread in Swedish commercial usage. I cannot confirm which form SAOL lemmatises, and the two differ in more than spelling -> not guessing"
-  },
-  {
-   "key": "medical-gloves",
-   "field": "singular",
-   "cur": {
-    "s": "Medicinska handskar",
-    "p": "Medicinska handskar",
-    "g": "n"
-   },
-   "why": "The singular field holds a PLURAL phrase ('medicinska handskar' = medical gloves). The true singular is 'en medicinsk handske'. This is NOT pluralia tantum — handske has a perfectly good singular — so it is the known 'plural sitting in the singular field' defect. Whether the entry should be singularised or kept as a pair is a content decision. noImage = dead data"
+   "why": "'Macaronar' is the script's blind -ar default with ZERO support: no SAOL entry, no SO entry, no Swedish sv.wiktionary section. I will not invent a plural for a loan no authority carries. Swedish bakery usage is 'macarons'. Needs an operator lexical decision (macarons / macaroner / macaronar) — not a form fix."
   },
   {
    "key": "microwave",
@@ -929,17 +679,47 @@
     "p": "Mikrovågor",
     "g": "n"
    },
-   "why": "CONTENT: themes (kitchen, kitchen_tools, household, home, around_the_house) show the APPLIANCE, which is 'mikrovågsugn' in Swedish. 'Mikrovåg' is the electromagnetic wave. The colloquial appliance sense of 'mikrovåg' exists in speech but is not the word to project and speak aloud to 3-7-year-olds. Swapping it is a lemma change, not a form fix"
+   "why": "WRONG WORD — the label names a different thing from the picture. SAOL: 'mikro|våg substantiv ~en ~or' = 'ytterst kortvågig ELEKTROMAGNETISK STRÅLNING' — the RADIATION. The appliance is a SEPARATE SAOL headword: 'mikro·vågs|ugn substantiv ~en ~ar' = 'anordning för uppvärmning av mat med hjälp av mikrovågor'. All five images show the appliance, so 'Mikrovåg' read aloud to a child beside a microwave oven names the radiation, not the oven. HOLD rather than FIX because this is a LEMMA change, not a form correction. Recommend: singular 'Mikrovågsugn', plural 'Mikrovågsugnar', gender unchanged (n). Same class as the brief's ängelfisk/kejsarfisk case: a real Swedish word, correctly inflected, attached to the wrong referent."
   },
   {
-   "key": "mittens",
-   "field": "singular",
+   "key": "microwave",
+   "field": "plural",
    "cur": {
-    "s": "Vantar",
-    "p": "Vantar",
+    "s": "Mikrovåg",
+    "p": "Mikrovågor",
     "g": "n"
    },
-   "why": "The singular field holds a PLURAL ('Vantar'). True singular is 'en vante' — which is exactly what key 'mitten' already stores. Not pluralia tantum (vante has a singular), so this is the 'plural in the singular field' defect. Whether this key should be singularised or kept as the pair-sense duplicate of 'mitten' is a content decision"
+   "why": "'Mikrovågor' is the CORRECT plural of the WRONG lemma (SAOL mikrovåg '~en ~or'). It resolves only with the singular above; under the recommended lemma it becomes 'Mikrovågsugnar' (SAOL mikrovågsugn '~en ~ar'). Not fixable independently."
+  },
+  {
+   "key": "milkshake",
+   "field": "plural",
+   "cur": {
+    "s": "Milkshake",
+    "p": "Milkshakes",
+    "g": "n"
+   },
+   "why": "The stored 'Milkshakes' is very likely the GENITIVE SINGULAR, not a plural. NEITHER authority gives a plural: SAOL stops at 'milkshake substantiv ~n [-en]' and SO at 'milkshake milkshaken' — both list only the definite singular. The one source that inflects it, sv.wiktionary, gives plural 'milkshaker' and lists 'milkshakes' explicitly as the GENITIV SINGULAR. So no Swedish authority supports 'Milkshakes' as a plural — but I will not FIX to a form (milkshaker) resting on a single cross-check source that SAOL and SO both decline to confirm. Recommend 'Milkshaker'; needs an operator call."
+  },
+  {
+   "key": "mixer",
+   "field": "singular",
+   "cur": {
+    "s": "Elvisp",
+    "p": "Elvispar",
+    "g": "n"
+   },
+   "why": "Picture question. Both images show a STAND MIXER (köksmaskin / köksassistent — a motorised machine with a bowl on a stand), but an 'elvisp' is a HAND-HELD electric whisk. A Swedish cook does not call the pictured appliance an elvisp. Recommend 'Köksmaskin' (pl. köksmaskiner) or 'Köksassistent'. HOLD not FIX — a lemma change, and the operator may prefer either candidate."
+  },
+  {
+   "key": "morning-glory",
+   "field": "singular",
+   "cur": {
+    "s": "Blomman för dagen",
+    "p": "Blomman för dagenar",
+    "g": "n"
+   },
+   "why": "THREE faults at once. (1) DEFINITE FORM IN THE SINGULAR FIELD: 'Blomman för dagen' is a fixed DEFINITE phrase ('the flower for the day') — the same defect class as the brief's sv 'Jultomten', and exactly what let the script append -ar. (2) The art shows a hibiscus-type bloom, not a trumpet-shaped Ipomoea. (3) Not a SAOL headword ('Inga träffar på blomman för dagen'). Needs an operator ruling on BOTH the lemma and the art; never rewrite blind."
   },
   {
    "key": "morning-glory",
@@ -949,17 +729,7 @@
     "p": "Blomman för dagenar",
     "g": "n"
    },
-   "why": "'Blomman för dagenar' is a fabricated word — the script appended -ar to a whole phrase, including the definite article. But there is no clean fix: the name is a fixed definite phrase and does not pluralise idiomatically ('flera blommor för dagen' is a folk plural I cannot confirm in SAOL). Correcting this requires a decision about the lemma, not a form edit -> not rewriting blind"
-  },
-  {
-   "key": "muscles",
-   "field": "singular",
-   "cur": {
-    "s": "Muskler",
-    "p": "Musklerar",
-    "g": "n"
-   },
-   "why": "The singular field holds a PLURAL ('Muskler' is the plural of en muskel). True singular is 'Muskel'. The English gloss is plural too, so singularising the whole entry is a content decision about what the body_parts image shows (one muscle vs. musculature) rather than a form fix"
+   "why": "'Blomman för dagenar' IS A FABRICATED NON-WORD and must not ship under any resolution — the script appended -ar to a definite noun phrase (the Gardinerar/Musklerar class named in the brief). I do NOT rule NO_PLURAL because that would presuppose the phrase-lemma the singular row is holding: if the art wins and the lemma becomes e.g. 'Hibiskus', a real plural (hibiskusar) exists. Resolves only together with the singular."
   },
   {
    "key": "nail",
@@ -969,27 +739,27 @@
     "p": "Naglar",
     "g": "n"
    },
-   "why": "HOMONYM/CONTENT: themes list BOTH body_parts AND tools. 'Nagel' is the fingernail; the carpentry nail is 'spik' (en spik -> spikar). The stored forms are internally correct for 'nagel', but if the tools image shows a carpentry nail the lemma is wrong. Needs the image checked; a lemma swap, not a form fix"
+   "why": "ONE KEY, TWO REFERENTS. 'Nagel' (SAOL: 'hård del på finger el. tå') names the body_parts art correctly, but the tools art is a hardware nail = SPIK (SAOL '1spik ~en ~ar', 'hammare och spik'). No single Swedish word covers both at child level: Swedish splits precisely where English does not. (SAOL nagel sense 2 does gloss 'spik, bult, nit, plugg', but that is archaic/technical and is not what a Swedish child calls a nail.) Needs an operator ruling: split the key, or drop one theme. Fix the WORD or fix the ART — do not average them."
   },
   {
-   "key": "oven-mitt",
+   "key": "net",
    "field": "singular",
    "cur": {
-    "s": "Grytlapp",
-    "p": "Grytlappar",
-    "g": "n"
+    "s": "Nät",
+    "p": "Nät",
+    "g": "t"
    },
-   "why": "CONTENT: 'grytlapp' is a flat pot holder; an oven mitt you put your hand into is 'grytvante'. The English gloss says 'mitt'. If the kitchen_tools image shows a mitt the lemma is wrong — a lemma swap, not a form fix; needs the image checked"
+   "why": "WRONG LEMMA FOR THE PICTURE. SAOL defines HÅV as 'ett fångstredskap med nät- el. tygpåse' — precisely the hooped, handled implement pictured. SAOL's 'nät' is instead 'konkret: fisknät; slå bollen i nät' — the MESH itself or a fishing/goal net, not a hand net. A Swedish child at the beach carries a håv, not a nät. HOLD (not FIX) because this is a lemma change. Recommend: singular 'Håv', plural 'Håvar' (SAOL 'håv ~en ~ar'), gender n (see the gender row — it must flip)."
   },
   {
-   "key": "pachycephalosaurus",
-   "field": "plural",
+   "key": "orchard",
+   "field": "singular",
    "cur": {
-    "s": "Pachycephalosaurus",
-    "p": "Pachycephalosaurusar",
+    "s": "Fruktträdgård",
+    "p": "Fruktträdgårdar",
     "g": "n"
    },
-   "why": "Latin genus name, not in SAOL. Swedish popular usage overwhelmingly pluralises these via the naturalised lemma -saurie (en pachycephalosaurie -> pachycephalosaurier), which is a DIFFERENT lemma, not a form fix. '-usar' is at least a real Swedish pattern (cirkus->cirkusar, bonus->bonusar), so I will not call it invented. Needs an operator decision on lemma policy for all dinosaur genus names"
+   "why": "PICTURE CONTRADICTS THE WORD. 'Fruktträdgård' is an ORCHARD — a whole garden/plantation OF fruit trees. The art shows ONE apple tree. A Swedish child shown this picture and told 'fruktträdgård' learns the wrong scope. Recommend either 'Äppelträd'/'Fruktträd' (pl. -träd; NB gender would flip n -> t) or new art showing several trees. HOLD — needs an operator ruling on word-vs-art; do not rewrite blind."
   },
   {
    "key": "painting",
@@ -999,7 +769,7 @@
     "p": "Målningar",
     "g": "n"
    },
-   "why": "'Måla' is a verb infinitive (to paint), not a noun. Theme 'activities' + en [Painting, Paintings] leaves it undecided whether the picture shows the ACTIVITY (Målning/Att måla) or the ARTWORK (en målning). Content question about the image — do not rewrite blind"
+   "why": "Two independent defects, neither a form fix. (1) UNFLAGGED LEMMA MISMATCH — the picture is a palett (+ pensel), not a painting; same class as the brief's 'singing = a MICROPHONE', and it duplicates the 'palette' key's art. (2) INTERNAL CONTRADICTION — the singular field holds the VERB infinitive 'Måla' (SAOL: 'måla verb ~de ~t') while the plural holds the NOUN 'Målningar' (SAOL: 'mål·ning substantiv ~en ~ar'). A verb cannot be the singular of a noun. Operator must rule: fix the WORD (→ Målning if the art is replaced; → Palett if the art stays) or fix the ART."
   },
   {
    "key": "painting",
@@ -1009,7 +779,7 @@
     "p": "Målningar",
     "g": "n"
    },
-   "why": "Internal contradiction: the singular field holds the verb 'Måla' while the plural field holds 'Målningar' — two different lemmas in one row. Resolution depends on the singular decision above"
+   "why": "Contingent on the singular ruling. IF the lemma resolves to the noun Målning, SAOL 'mål·ning ~en ~ar' → Målningar (i.e. the stored plural is already the correct plural of a word that is not in the singular field). IF re-cut to the pictured object: Palett → Paletter."
   },
   {
    "key": "painting",
@@ -1019,77 +789,7 @@
     "p": "Målningar",
     "g": "n"
    },
-   "why": "A verb infinitive has no grammatical gender. If the lemma resolves to 'målning' then n is correct (en målning); undecidable until the singular is resolved"
-  },
-  {
-   "key": "parallelogram",
-   "field": "plural",
-   "cur": {
-    "s": "Parallellogram",
-    "p": "Parallellogram",
-    "g": "t"
-   },
-   "why": "Hangs entirely on the gender question below. Swedish geometry usage is 'en parallellogram' (utrum), which would make the plural 'parallellogrammer' and the current zero plural wrong. Under a neuter reading the current zero plural would be well formed (cf. ett program -> flera program). I cannot verify the SAOL entry, and I will not guess a two-field rewrite"
-  },
-  {
-   "key": "parallelogram",
-   "field": "gender",
-   "cur": {
-    "s": "Parallellogram",
-    "p": "Parallellogram",
-    "g": "t"
-   },
-   "why": "Suspect. Unlike diagram/program/telegram (Greek gramma 'letter', neuter in Swedish), parallellogram derives from grammé 'line' and is used as UTRUM in Swedish school geometry ('Rita en parallellogram'). If that is right, both the gender t and the zero plural are wrong from one cause. SAOL entry unverified -> flagging rather than guessing"
-  },
-  {
-   "key": "parasaurolophus",
-   "field": "plural",
-   "cur": {
-    "s": "Parasaurolophus",
-    "p": "Parasaurolophus",
-    "g": "t"
-   },
-   "why": "Same lemma-policy question as pachycephalosaurus/plesiosaurus. Note the zero plural here is inconsistent with the -usar the script gave the other two genus names in this same batch — the data is self-contradictory across the dinosaur set"
-  },
-  {
-   "key": "partly-cloudy",
-   "field": "gender",
-   "cur": {
-    "s": "Delvis molnigt",
-    "p": "Delvis molnigt",
-    "g": "n"
-   },
-   "why": "An adjective phrase has no lexical gender; the 'n' code is vacuous rather than wrong. Flagging so it is not counted as a verified utrum"
-  },
-  {
-   "key": "peas",
-   "field": "singular",
-   "cur": {
-    "s": "Ärtor",
-    "p": "Ärtor",
-    "g": "n"
-   },
-   "why": "The singular field holds a plural ('Ärtor'). This is NOT pluralia tantum — en ärta is a perfectly normal Swedish singular and is already carried by the key 'pea'. The key is deliberately the plural gloss (a supermarket bag of peas), so fixing this means deciding key policy (drop the key / accept a plural-gloss key), not correcting a form"
-  },
-  {
-   "key": "pickup-truck",
-   "field": "plural",
-   "cur": {
-    "s": "Pickup",
-    "p": "Pickupar",
-    "g": "n"
-   },
-   "why": "en pickup is correct, but I cannot confirm whether SAOL gives pickupar or pickuper for this English -up loan; both patterns exist in Swedish. Not guessing. Lowest priority: noImage (dead data)"
-  },
-  {
-   "key": "pink",
-   "field": "gender",
-   "cur": {
-    "s": "Rosa",
-    "p": "Rosa",
-    "g": "n"
-   },
-   "why": "An adjective has no lexical gender; the 'n' code is vacuous rather than wrong. Flagging so it is not counted as a verified utrum"
+   "why": "Both candidate lemmas (målning, palett) are utrum, so n would hold either way — but the field cannot be ratified while the singular is a verb."
   },
   {
    "key": "play",
@@ -1099,7 +799,7 @@
     "p": "Leka",
     "g": "n"
    },
-   "why": "'Leka' is a verb infinitive, not a noun. The English gloss [Play, Plays] is itself ambiguous (theatre play vs playing), the key is an orphan (N7) with no image, and type/countable are null. Nothing here can be resolved as a form fix — this looks like dead data that should be dropped"
+   "why": "No art (noImage: true) and the row is internally incoherent: type is null, countable is null, and the singular field holds a VERB infinitive 'Leka' (att leka = to play) while the classification asserts countable-thing / hasGender / hasPlural. A verb cannot carry a noun's gender or plural. With no picture there is no way to decide whether the intended sense is the activity (lek), a theatre play (en pjäs), or the verb — and the EN gloss 'Play/Plays' is itself ambiguous across all three. Per the brief a genuine content question is legitimate HOLD; rewriting blind would manufacture exactly the garbage this commission deletes."
   },
   {
    "key": "play",
@@ -1109,7 +809,7 @@
     "p": "Leka",
     "g": "n"
    },
-   "why": "Undecidable until the lemma is resolved: 'pjäser' (plays) and 'lek/lekande' (playing) are different words, neither derivable from the field as it stands"
+   "why": "Contingent on the singular ruling. The stored plural 'Leka' is the same verb infinitive repeated — not a plural of anything. The candidate resolutions differ completely: lek→lekar (game/play activity) vs pjäs→pjäser (theatre play)."
   },
   {
    "key": "play",
@@ -1119,57 +819,67 @@
     "p": "Leka",
     "g": "n"
    },
-   "why": "A verb infinitive has no grammatical gender; the 'n' code is vacuous"
+   "why": "The field asserts n on a verb infinitive. Cannot be ratified until the lemma is decided; both candidate nouns (lek, pjäs) happen to be utrum, but that is not a reason to bless the current row."
   },
   {
-   "key": "plesiosaurus",
+   "key": "pottery",
+   "field": "singular",
+   "cur": {
+    "s": "Keramik",
+    "p": "Keramik",
+    "g": "n"
+   },
+   "why": "Lemma question, not a form fix. 'Keramik' names the MATERIAL/craft (SAOL: 'keram·ik [-i´k] substantiv ~en — framställning av produkter av plastisk lera (porslin m.m.); äv. om motsvarande konstart'). You cannot point at this vase and say 'en keramik'; the Swedish for the pictured object is 'Vas' or 'Kruka'. This also contradicts the classification (countable-thing): a mass/craft noun has been assigned to a picture of one countable vessel. Operator must rule — fix the WORD (→ Vas) or fix the ART."
+  },
+  {
+   "key": "pottery",
    "field": "plural",
    "cur": {
-    "s": "Plesiosaurus",
-    "p": "Plesiosaurusar",
+    "s": "Keramik",
+    "p": "Keramik",
     "g": "n"
    },
-   "why": "Same lemma-policy question as pachycephalosaurus. Swedish has the naturalised lemma 'plesiosaurie' (en plesiosaurie -> plesiosaurier); moving to it is a lemma change, not a form fix, so it must not be done unilaterally. Needs one operator ruling covering the whole dinosaur set"
+   "why": "Contingent, and the row is internally contradictory as it stands: SAOL gives 'keramik ~en' with NO plural, yet the classification asserts hasPlural: true. If the lemma resolves to Vas, SAOL 'vas ~en ~er' → Vaser. Rewriting before the lemma is settled would invent a form."
   },
   {
-   "key": "pretzels",
+   "key": "purse",
    "field": "singular",
    "cur": {
-    "s": "Kringlor",
-    "p": "Kringlor",
+    "s": "Portmonnä",
+    "p": "Portmonnäer",
     "g": "n"
    },
-   "why": "The singular field holds a plural ('Kringlor'). Not pluralia tantum — en kringla is a normal Swedish singular and is already carried by the key 'pretzel'. Same class as the 'peas' key: the key is deliberately a plural gloss, so this is a key-policy decision, not a form fix"
+   "why": "LEMMA MISMATCH. SO defines portmonnä as 'litet fodral i mjukt material för förvaring av pengar särsk. mynt' — a small soft COIN purse/wallet. The picture is a structured HANDBAG with a carrying handle = 'handväska'. A Swedish child shown this and told 'portmonnä' learns the wrong word. Correcting it changes the lemma (portmonnä→handväska), so per the brief I do not rewrite blind. NB the classifier gave no image_seen for this key; I opened it, and a second independent reviewer opened it separately and reported the same handbag."
   },
   {
-   "key": "purple",
-   "field": "gender",
+   "key": "purse",
+   "field": "plural",
    "cur": {
-    "s": "Lila",
-    "p": "Lila",
+    "s": "Portmonnä",
+    "p": "Portmonnäer",
     "g": "n"
    },
-   "why": "adjective — the gender field presupposes a noun and has no defined value here. This is a data-model question for the whole adjective class (purple, rainy, red, sad, scared, scarlet in this batch), not a per-word form fix"
+   "why": "'Portmonnäer' is the correct plural OF portmonnä (SAOL 'port·monnä ~n ~er'), so the form is not itself defective — it is the plural of the wrong lemma. If the singular becomes handväska the plural becomes handväskor. Blocked behind the singular ruling."
   },
   {
-   "key": "rain-boots",
+   "key": "read",
    "field": "singular",
    "cur": {
-    "s": "Gummistövlar",
-    "p": "Gummistövlar",
+    "s": "Läsa",
+    "p": "Läsa",
     "g": "n"
    },
-   "why": "the singular field holds a PLURAL form ('Gummistovlar'), matching the plural English gloss 'Rain Boots'/'Rain Boots' — i.e. the entry is a pair-gloss. This is NOT a pluralia tantum: 'en gummistovel' exists and is stored separately under key 'rubber-boot'. Whether pair-glosses may live in the singular field is a data-model decision, not a form fix"
+   "why": "INTERNAL CONTRADICTION, with no art to adjudicate it (noImage). 'Läsa' is a VERB INFINITIVE (SAOL: 'läsa verb läste läst'), but the row's classification says countable-thing / hasGender true / hasPlural true — a noun default misapplied to a verb, and the en side ('Read'/'Reads') has been pluralised as if it were a noun. Any edit needs an operator ruling on what this key IS, not a form fix. Note its twin `reading` carries g=null while this row carries g='n' — the two cannot both be right."
   },
   {
-   "key": "rainy",
-   "field": "gender",
+   "key": "read",
+   "field": "plural",
    "cur": {
-    "s": "Regnigt",
-    "p": "Regnigt",
+    "s": "Läsa",
+    "p": "Läsa",
     "g": "n"
    },
-   "why": "adjective — no lexical gender; see key 'purple' for the class-level question"
+   "why": "Blocked behind the singular: a verb infinitive has no plural, but the classification demands one. Pluralising 'Läsa' would manufacture exactly the garbage this commission exists to delete (cf. the brief's 'Singen'→'Singens')."
   },
   {
    "key": "read",
@@ -1179,57 +889,67 @@
     "p": "Läsa",
     "g": "n"
    },
-   "why": "verb form — the gender field presupposes a noun. Class-level question shared with reading/run/running/sewing"
+   "why": "g='n' assigns en-ord gender to a verb infinitive, and no image exists to confirm any noun sense. Contradicts sibling `reading` (g=null)."
   },
   {
-   "key": "reading",
+   "key": "redwood-tree",
    "field": "singular",
    "cur": {
-    "s": "Läsa",
-    "p": "Läsa",
+    "s": "Kustsekvoja",
+    "p": "Kustsekvojor",
     "g": "n"
    },
-   "why": "type is verb-gerund and the English gloss is the noun 'Reading', but the field holds the INFINITIVE 'Lasa'. The verbal noun would be 'Lasning'. Note the batch is internally inconsistent: scuba-diving stores the verbal noun 'Dykning' while reading/running/sewing store infinitives. Also N6: byte-identical to key 'read'. Infinitive vs verbal noun is a class-level content decision, not a form fix"
+   "why": "Two independent problems, so no blind rewrite. (1) NAME: 'Kustsekvoja' is not the standard Swedish name — sv.wikipedia's headword for Sequoia sempervirens is 'Amerikansk sekvoja (Sequoia sempervirens) eller redwood', and kustsekvoja appears nowhere in that article, not even as a synonym. It is a plausible transparent horticultural compound, not script garbage — but it is not the attested name. (2) PICTURE: the redwood is a conifer, and the art gives it a broad ROUND DECIDUOUS crown, so the drawing does not depict the species at all. Operator ruling needed on name vs art, jointly with `sequoia-tree`, which has the same two problems."
   },
   {
-   "key": "reading",
-   "field": "gender",
+   "key": "rock",
+   "field": "singular",
    "cur": {
-    "s": "Läsa",
-    "p": "Läsa",
+    "s": "Klippa",
+    "p": "Klippor",
     "g": "n"
    },
-   "why": "verb form — no noun gender; see key 'read'"
+   "why": "LEMMA MISMATCH, confirmed against the dictionary and in BOTH themes. SAOL '1klippa — stycke kalt berg'; SO 'hög, brant, bar berghäll' — a klippa is a CLIFF / bare rock face: something fixed and massive that you climb or fall off. The art is a single loose boulder a child could pick up, which is 'en sten' (SAOL: 'sten substantiv ~en ~ar'). A Swedish child shown this boulder and told 'klippa' learns the wrong word. Recommended lemma: Sten / Stenar / n — a lemma change, so flagged, not rewritten."
   },
   {
-   "key": "red",
-   "field": "gender",
+   "key": "rock",
+   "field": "plural",
    "cur": {
-    "s": "Röd",
-    "p": "Röd",
+    "s": "Klippa",
+    "p": "Klippor",
     "g": "n"
    },
-   "why": "adjective — no lexical gender; see key 'purple'"
+   "why": "'Klippor' is the correct plural OF klippa (SAOL '1klippa ~n klippor'), so the form is not itself defective — it is the plural of the wrong lemma. Under the recommended lemma it becomes 'Stenar' (SAOL 'sten ~en ~ar'). Blocked behind the singular ruling."
   },
   {
    "key": "rollerblade",
    "field": "gender",
    "cur": {
     "s": "Inlines",
-    "p": "Inlinesar",
+    "p": "Inlines",
     "g": "n"
    },
-   "why": "plural-only loan — I can cite no gender for it and will not guess. If the operator wants a countable singular the lemma must change to 'inlineskridsko' (en, pl. inlineskridskor), which is a lemma change, not a form fix"
+   "why": "SAOL and SO assign NO gender to inlines — it is entered as plural-only, so there is no en/ett to verify against. The row's classification claims hasGender true; the authority can neither support 'n' nor refute it. A genuine contradiction, not a form error — recording it rather than inventing a gender to fill the field."
   },
   {
-   "key": "rudolph",
-   "field": "gender",
+   "key": "run",
+   "field": "singular",
    "cur": {
-    "s": "Rudolf",
-    "p": "Rudolf",
+    "s": "Springa",
+    "p": "Springa",
     "g": "n"
    },
-   "why": "proper noun — no lexical gender to verify. Data-model question shared with key 'saturn'"
+   "why": "INTERNAL CONTRADICTION, with no art to adjudicate it (noImage) — same class as `read`, and worse. SAOL has TWO entries: '1springa substantiv ~n springor' = a long narrow SLIT/crack, and '2springa verb sprang, sprungit' = to run. The intended sense is plainly the verb, yet the row's classification says countable-thing / hasGender true / hasPlural true, i.e. it has been typed as a noun — and the only noun reading of 'springa' is 'slit', which has nothing to do with running. Needs an operator ruling on what this key is, not a form fix."
+  },
+  {
+   "key": "run",
+   "field": "plural",
+   "cur": {
+    "s": "Springa",
+    "p": "Springa",
+    "g": "n"
+   },
+   "why": "Blocked behind the singular. A verb infinitive has no plural; the noun homograph's plural would be 'springor' (= slits), which would be actively wrong for a key meaning 'run'. This is precisely how the brief's 'Singen'→'Singens' garbage gets made."
   },
   {
    "key": "run",
@@ -1239,127 +959,87 @@
     "p": "Springa",
     "g": "n"
    },
-   "why": "verb form — no noun gender. Worse: the stored 'n' actively asserts the homonym 'EN springa' = a slit/crack. The gender code turns a verb entry into the wrong noun. See key 'running'"
+   "why": "g='n' assigns en-ord gender to what is meant as a verb infinitive; it would only be valid for the unrelated 'slit' noun. Contradicts sibling `running` (g=null)."
   },
   {
-   "key": "running",
+   "key": "scooter",
    "field": "singular",
    "cur": {
-    "s": "Springa",
-    "p": "Springa",
+    "s": "Sparkcykel",
+    "p": "Sparkcyklar",
     "g": "n"
    },
-   "why": "three problems, none of them a form fix. (1) type is verb-gerund and the English gloss is the noun 'Running', but the field holds the INFINITIVE 'Springa'; the noun would be 'Lopning'. (2) HOMONYM: 'en springa' = a slit/crack — with the stored gender 'n' this entry reads as that noun, and it is spoken aloud to a 3-7-year-old beside a picture. (3) N6: byte-identical to key 'run'. Needs an operator decision on the whole verb-gerund class"
+   "why": "LEMMA MISMATCH, confirmed in BOTH themes. SO defines sparkcykel as 'ett mindre, tvåhjuligt fordon som drivs genom att man skjuter ifrån med ena foten i marken särsk. anv. av barn' — a child's KICK scooter, DEFINED by being pushed along with the foot. Both drawings are motorised Vespa mopeds with an engine, saddle, mirrors and exhaust — a Swedish 'skoter' / 'moped' / 'vespa'. The stored word names a different vehicle from the one drawn, and the SO definition rules it out explicitly. Recommended lemma: Skoter / Skotrar / n — a lemma change, so flagged, not rewritten. I opened both themes because of the brief's balloon rule; here they agree, which makes the mismatch certain rather than partial."
   },
   {
-   "key": "running",
-   "field": "gender",
+   "key": "scooter",
+   "field": "plural",
    "cur": {
-    "s": "Springa",
-    "p": "Springa",
+    "s": "Sparkcykel",
+    "p": "Sparkcyklar",
     "g": "n"
    },
-   "why": "verb form — no noun gender, and 'n' asserts the wrong homonym (en springa = a slit). See the singular field"
-  },
-  {
-   "key": "sad",
-   "field": "gender",
-   "cur": {
-    "s": "Ledsen",
-    "p": "Ledsen",
-    "g": "n"
-   },
-   "why": "adjective — no lexical gender; see key 'purple'"
-  },
-  {
-   "key": "sandals",
-   "field": "singular",
-   "cur": {
-    "s": "Sandaler",
-    "p": "Sandalerar",
-    "g": "n"
-   },
-   "why": "the singular field holds a PLURAL form ('Sandaler'), matching the plural English gloss 'Sandals'/'Sandals' — a pair-gloss. NOT a pluralia tantum: 'en sandal' exists. Same data-model question as key 'rain-boots'"
-  },
-  {
-   "key": "saturn",
-   "field": "gender",
-   "cur": {
-    "s": "Saturnus",
-    "p": "Saturnus",
-    "g": "n"
-   },
-   "why": "proper noun — no lexical gender to verify; see key 'rudolph'"
-  },
-  {
-   "key": "scared",
-   "field": "gender",
-   "cur": {
-    "s": "Rädd",
-    "p": "Rädd",
-    "g": "n"
-   },
-   "why": "adjective — no lexical gender; see key 'purple'"
-  },
-  {
-   "key": "scarlet",
-   "field": "gender",
-   "cur": {
-    "s": "Scharlakansröd",
-    "p": "Scharlakansröd",
-    "g": "n"
-   },
-   "why": "adjective — no lexical gender; see key 'purple'"
+   "why": "'Sparkcyklar' is the correct plural OF sparkcykel (SAOL 'spark|cykel ~n -cyklar', syncope right), so the form is not itself defective — it is the plural of the wrong lemma. Blocked behind the singular ruling."
   },
   {
    "key": "scrubs",
    "field": "gender",
    "cur": {
     "s": "Sjukhuskläder",
-    "p": "Sjukhuskläderar",
+    "p": "Sjukhuskläder",
     "g": "n"
    },
-   "why": "SAOL lists 'klader' as a plural-only noun; it carries no singular gender. I will not guess one. Data-model question"
+   "why": "SAOL and SO assign NO gender to kläder — it is plural-only, so there is no en/ett to verify 'n' against. The row's classification claims hasGender true; the authority can neither support nor refute the stored value. Recording the contradiction rather than inventing a gender."
   },
   {
-   "key": "sewing",
+   "key": "sequoia-tree",
    "field": "singular",
    "cur": {
-    "s": "Sy",
-    "p": "Sy",
+    "s": "Jättesekvoja",
+    "p": "Jättesekvojor",
     "g": "n"
    },
-   "why": "type is verb-gerund and the English gloss is the noun 'Sewing', but the field holds the bare infinitive 'Sy' — a two-letter verb standing alone as a label. The verbal noun would be 'Somnad' (or 'Syende'). Same class question as reading/running; and note scuba-diving stores a verbal noun instead. Needs one operator decision for the whole class"
+   "why": "Same two problems as `redwood-tree`, and they should be ruled on together. (1) NAME: sv.wikipedia's headword for Sequoiadendron giganteum is 'Mammutträd', not 'Jättesekvoja'; jättesekvoja is a transparent, understandable compound (and arguably the better K-3 word) but it is not the standard name. (2) PICTURE: the giant sequoia is a conifer, and the art gives it a broad round deciduous crown — it does not depict the species, and is barely distinguishable from the `redwood-tree` drawing. Operator ruling needed on name vs art."
   },
   {
-   "key": "sewing",
+   "key": "shorts",
    "field": "gender",
    "cur": {
-    "s": "Sy",
-    "p": "Sy",
+    "s": "Shorts",
+    "p": "Shorts",
     "g": "n"
    },
-   "why": "verb form — no noun gender; see key 'read'"
+   "why": "SAOL gives NO gender for shorts — a plurale tantum, so utrum/neutrum is not defined. The stored 'n' is unsupported: an en-ord would give def.pl. *shortsarna, but SAOL gives shortsEN. Unlike solglasögon there is no Swedish base noun to inherit gender from. Needs an operator convention for gender on plural-only loans, not a blind flip. (Supersedes v1, which called 'n' inert-but-not-wrong without consulting the entry.)"
   },
   {
-   "key": "shoes",
+   "key": "sickle",
    "field": "singular",
    "cur": {
-    "s": "Skor",
-    "p": "Skor",
+    "s": "Skära",
+    "p": "Skäror",
     "g": "n"
    },
-   "why": "The singular field holds a plural form ('Skor'). NOT pluralia tantum — 'sko' has a perfectly good singular (see key 'shoe'). Whether this key should carry 'Sko' or keep the pair reading depends on the image; en gloss is plural. Content question, not a form fix."
+   "why": "Skära is the correct Swedish for 'sickle' as a word, but the art does not clearly show one: the handle is long and straight, which is a lie (scythe). Picture question, not a form question — and cross-locale (the same art serves all 11 languages). Operator rules: fix the ART (a short-handled hook) and Skära stands, or relabel to Lie/Liar/n. Do not rewrite blind."
   },
   {
-   "key": "skateboard",
-   "field": "plural",
+   "key": "sink",
+   "field": "singular",
    "cur": {
-    "s": "Skateboard",
-    "p": "Skateboards",
+    "s": "Diskbänk",
+    "p": "Diskbänkar",
     "g": "n"
    },
-   "why": "UNCERTAIN, NOT GUESSING. 'Skateboards' (English -s plural) is in wide real use, but this loan has been in Swedish since the 1970s and I believe SAOL nativises it as ~ar (skateboardar), following container->containrar. I cannot confirm the SAOL entry from memory and will not invent the citation. Both forms are intelligible to a child; low severity. Needs a SAOL lookup."
+   "why": "The v1 spelling fix (Diskbank→Diskbänk) landed, but the correctly-spelled word names the WRONG OBJECT. SO defines diskbänk as 'arbetsbänk i anslutning till diskho' — a KITCHEN worktop beside the sink basin. The art (both themes) is a bathroom pedestal basin, which SO defines under handfat: 'behållare för vatten (på toalett eller badrum) för tvättning av (främst) händer och ansikte'. Recommended: Handfat — a COHERENT three-field change, since SAOL gives 'hand|fat substantiv ~et; pl. ~': singular Handfat, plural Handfat (zero), gender t. Alternative: tvättställ (SO's own JFR). Another lemma → HOLD."
+  },
+  {
+   "key": "sit",
+   "field": "gender",
+   "cur": {
+    "s": "Sitta",
+    "p": "Sitta",
+    "g": "n"
+   },
+   "why": "A verb infinitive has no lexical gender; the stored 'n' is a script artifact. But the row ASSERTS hasGender:true, so this is an internal contradiction rather than a pure form error — the sibling adjective/activity rows correctly carry null. Needs the operator to re-class the imageless verb rows (sit, sleep, stand) rather than a blind null-flip."
   },
   {
    "key": "sled",
@@ -1369,7 +1049,7 @@
     "p": "Slädar",
     "g": "n"
    },
-   "why": "CONTENT QUESTION. 'Släde' is correct Swedish but normally denotes a large, usually horse-drawn SLEIGH — which is exactly what key 'sleigh' also renders as 'Släde' (hence N6: two different images, one word). A child's sled is 'kälke' or 'pulka'. If the image shows a child's sled this is a wrong lemma, not a form defect. Needs the image."
+   "why": "CONFIRMS the v1 content HOLD from the image + dictionary. Släde does not name this picture and it collides with the `sleigh` key, which stores the identical word. SO defines kälke as 'ett mindre snöfordon med två parallella medar' (JFR släde) — exactly this art; släde is the larger horse-drawn sleigh, which is what `sleigh` correctly shows. Recommended: Kälke — SAOL 'kälke substantiv ~n kälkar', giving the coherent triple Kälke/Kälkar/n (gender unchanged). Another lemma → HOLD."
   },
   {
    "key": "sledding",
@@ -1377,19 +1057,19 @@
    "cur": {
     "s": "Åka släde",
     "p": "Åka släde",
-    "g": "n"
+    "g": null
    },
-   "why": "CONTENT QUESTION, same root as key 'sled'. 'Åka släde' = sleigh-riding. Children's sledding in Swedish is 'åka pulka' or 'åka kälke'. Correct Swedish, probably the wrong activity for the image. Needs the image; resolve together with 'sled'."
+   "why": "CONFIRMS the v1 content HOLD from the image. 'Åka släde' means riding in a horse-drawn sleigh; the picture shows a child on a kälke, for which the fixed Swedish expression is 'åka kälke' (or 'åka pulka' for the plastic kind). Recommended: Åka kälke. Same operator ruling as `sled` → HOLD so the two stay coherent."
   },
   {
-   "key": "slippers",
-   "field": "singular",
+   "key": "sleep",
+   "field": "gender",
    "cur": {
-    "s": "Tofflor",
-    "p": "Tofflor",
+    "s": "Sova",
+    "p": "Sova",
     "g": "n"
    },
-   "why": "The singular field holds a plural form ('Tofflor'). NOT pluralia tantum — 'en toffel' exists. Whether the key should read 'Toffel' or keep the pair reading is a content question about the image (en gloss is plural). Same class as 'shoes' / 'snow-boots' / 'sneakers'."
+   "why": "Verbs have no lexical gender; 'n' is a script artifact, but the row asserts hasGender:true — an internal contradiction. Bundle with sit/stand for one operator re-class."
   },
   {
    "key": "snail",
@@ -1399,47 +1079,67 @@
     "p": "Sniglar",
     "g": "n"
    },
-   "why": "CONTENT QUESTION. Strictly, 'snigel' = the SHELL-LESS slug; a shelled snail is 'snäcka'. Key 'slug' already renders 'Snigel' (hence N6: two images, one word). Colloquial Swedish does call garden snails 'snigel', so this is not simply wrong — but with sea_life among the themes a sea snail would be 'snäcka'. Needs the image; the fix is a different lemma, not a form change."
+   "why": "CONFIRMS the v1 content HOLD, now settled by SO against both images. Snigel does not name this picture and it collides with the `slug` key. SO is explicit: snigel = 'typ av snäckdjur som SAKNAR YTTRE SKAL'; snäcka = 'typ av blötdjur med ... krypfot och inälvssäck som är skyddad inom ett KALKSKAL' — protected within a shell, exactly this art. Recommended: Snäcka — SAOL 'snäcka substantiv ~n snäckor', giving the coherent triple Snäcka/Snäckor/n (gender unchanged). Two keys with two distinct pictures must not share one word. Another lemma → HOLD."
+  },
+  {
+   "key": "sneaker",
+   "field": "singular",
+   "cur": {
+    "s": "Sneaker",
+    "p": "Sneakers",
+    "g": "n"
+   },
+   "why": "SAOL, SO and SAOB ALL return 'Inga träffar på sneaker' — there is no singular *sneaker in Swedish; only the plural-only 'sneakers' is a headword (SAOL 'sneakers; pl. ~en'). So this field stores a word the dictionaries do not contain. (v1 called it 'attested though marginal' from memory; the lookup does not support that.) Because the art is ONE shoe, the fix needs a real Swedish singular — en gymnastiksko / en träningssko — not a form tweak. Another lemma → HOLD."
   },
   {
    "key": "sneakers",
-   "field": "singular",
+   "field": "gender",
    "cur": {
     "s": "Sneakers",
     "p": "Sneakers",
     "g": "n"
    },
-   "why": "The singular field holds a plural form. Borderline pluralia tantum — Swedish uses 'sneakers' almost exclusively in the plural — but this file itself carries a singular key 'sneaker', so within this data model the word does have a singular. Whether this key keeps the pair reading depends on the image. Same class as 'shoes' / 'slippers' / 'snow-boots'."
+   "why": "SAOL gives NO gender — plurale tantum. Same class as `shorts`: def.pl. 'sneakersEN' does not support an en-ord reading (*sneakersarna), and there is no Swedish base noun to inherit from (unlike solglasögon ← glasöga). Needs the operator's convention for plural-only loans."
   },
   {
-   "key": "snow-boots",
+   "key": "snowboarding",
    "field": "singular",
    "cur": {
-    "s": "Snökängor",
-    "p": "Snökängor",
-    "g": "n"
+    "s": "Snowboard",
+    "p": "Snowboard",
+    "g": null
    },
-   "why": "The singular field holds a plural form ('Snökängor'); 'en snökänga' exists, so this is not pluralia tantum. Content question about the image (en gloss is plural). Same class as 'shoes' / 'slippers' / 'sneakers'."
+   "why": "'Snowboard' names the BOARD (an object). v1 defended it by analogy to soccer→Fotboll, but that analogy does not hold here: unlike fotboll, this row's own activity siblings all name the ACTIVITY — skating→Skridskoåkning, skiing→Skidåkning, sledding→'Åka släde' — so 'Snowboard' is the odd one out and breaks the set's shape. Recommended: 'Åka snowboard' (matching the 'Åka …' shape) or 'Snowboardåkning' (matching the '-åkning' shape); the operator should pick ONE shape and apply it across the activity set. Another lemma → HOLD."
   },
   {
-   "key": "sphere",
+   "key": "snowdrop",
    "field": "singular",
    "cur": {
-    "s": "Sfär",
-    "p": "Sfärar",
+    "s": "Snödroppe",
+    "p": "Snödroppar",
     "g": "n"
    },
-   "why": "CONTENT/TERMINOLOGY QUESTION. themes=[shapes]: Swedish K-3 geometry calls the SOLID ball 'ett klot' (pl. klot); 'sfär' is properly the SURFACE and is not the word a Swedish 6-year-old meets in a shapes lesson. Switching to 'klot' is a different lemma AND flips the gender to 't' — more than a form fix, so I am not rewriting it blind. If 'Sfär' is kept, the plural fix below stands."
+   "why": "Snödroppe is the correct Swedish for 'snowdrop' as a word — v1 confirmed the lemma from memory and stopped there — but opening the art shows the word does not name the picture, and the dictionary's own definition convicts it: SO defines snödroppe as 'en tidig, låg vårört med smala, fårade, grågröna blad och ensam, HÄNGANDE, vit blomma som i knopp liknar en DROPPE' — a single HANGING drop-shaped bell. The picture is an upright flat six-petal flower with an orange eye (it reads as a narcissus/anemone type). Picture question, cross-locale (same art for all 11 languages). Operator rules: fix the ART, or reassign the key."
   },
   {
-   "key": "squash",
-   "field": "plural",
+   "key": "sparrow",
+   "field": "singular",
    "cur": {
-    "s": "Squash",
-    "p": "Squashar",
+    "s": "Sparv",
+    "p": "Sparvar",
     "g": "n"
    },
-   "why": "UNCERTAIN, NOT GUESSING. I cannot confirm from memory whether SAOL gives the vegetable 'squash' a plural in ~ar, in ~er, or treats it as unchanged/mass ('två squash'). 'Squashar' may well be the script's default -ar having fired by luck rather than by rule. Needs a SAOL lookup rather than an invented citation."
+   "why": "Sparv is the correct Swedish for 'sparrow' as a word (v1 passed it OK without the art), but the picture does not look like a sparv: an orange-red face-and-breast on a blue-grey back reads as a rödhake (robin). The word does not name the picture. Picture question and cross-locale (same art for all 11 languages) → the operator rules: fix the ART, or relabel to Rödhake/Rödhakar/n. Do not rewrite blind."
+  },
+  {
+   "key": "spatula",
+   "field": "singular",
+   "cur": {
+    "s": "Stekspade",
+    "p": "Stekspadar",
+    "g": "n"
+   },
+   "why": "v1 passed this OK ('Stekspade = turner/spatula') without the art — but the art is not a turner. SO defines stekspade as 'ett redskap för VÄNDNING av matvara under stekning' — for FLIPPING food. What is drawn is a soft silicone scraper, which SAOL/SO cover under slickepott ('slicke|pott substantiv ~en ~ar', sense 2: '⟨vard.⟩ ett köksredskap'). Recommended: Slickepott — the coherent triple is Slickepott/Slickepottar/n (gender unchanged). Another lemma → HOLD."
   },
   {
    "key": "stamp",
@@ -1449,17 +1149,47 @@
     "p": "Stämplar",
     "g": "n"
    },
-   "why": "IMAGE-DEPENDENT HOMONYM, and both other fields ride on it. themes list BOTH 'classroom' and 'post_office'. A rubber stamp = 'en stämpel' (pl. stämplar, common gender). A postage stamp = 'ETT FRIMÄRKE' (pl. frimärken, NEUTER) — a different lemma with a different gender and a different plural. The themes do not disambiguate; the image must. Not a form fix."
+   "why": "This is the 4th-of-July/toys balloon case exactly, and it is why the open-EVERY-theme rule exists: judging from classroom/ alone gives 'OK'; judging from post office/ alone gives 'FIX → Frimärke'. Both are wrong as a single ruling. Stämpel is CORRECT for the classroom art — SO: 'ett handredskap med upphöjt eller fördjupat mönster, som används för märkning av dokument ... genom avtryck med bläck'. It is WRONG for the post office art, which SO defines under frimärke: 'liten (rektangulär) tryckt pappersbit som klistras på postförsändelse och gäller som porto'. One Swedish word cannot name both and no form edit can fix that. Needs an operator ruling to SPLIT the key (or re-theme the art): stämpel = Stämpel/Stämplar/n; frimärke = Frimärke/Frimärken/t (SAOL 'fri|märke substantiv ~t ~n' — note it flips BOTH the gender to t AND the plural to -n). v1 reached the same shortlist from the theme names alone but could not tell which was pictured; the images settle it — BOTH are."
   },
   {
-   "key": "t-rex",
-   "field": "plural",
+   "key": "stand",
+   "field": "gender",
    "cur": {
-    "s": "T-Rex",
-    "p": "T-Rexar",
+    "s": "Stå",
+    "p": "Stå",
     "g": "n"
    },
-   "why": "Not in SAOL. 'T-Rexar' is a plausible colloquial plural but I can attest no dictionary form, and I will not guess. Dead data (noImage) — lowest priority."
+   "why": "Verbs have no lexical gender; 'n' is a script artifact, but the row asserts hasGender:true — an internal contradiction. Bundle with sit/sleep for one operator re-class."
+  },
+  {
+   "key": "stingray",
+   "field": "singular",
+   "cur": {
+    "s": "Spjutrocka",
+    "p": "Spjutrockor",
+    "g": "n"
+   },
+   "why": "v1 passed this OK from memory; the lookup does not support it. Spjutrocka has NO entry in SAOL or SO ('Inga träffar på spjutrocka' in both; only SAOB's unrelated 'spjut'). It is a species term (Dasyatis pastinaca), not general vocabulary — and the art carries no species detail, being a generic cartoon ray. The child-level, dictionary-backed word is the generic Rocka: SAOL '2rocka [råk`a] substantiv ~n rockor', glossed 'en fisk'. Recommended: Rocka/Rockor/n. Another lemma → HOLD."
+  },
+  {
+   "key": "taco",
+   "field": "singular",
+   "cur": {
+    "s": "Taco",
+    "p": "Tacos",
+    "g": "n"
+   },
+   "why": "SAOL has NO headword 'taco': it answers 'Inga träffar på taco. Menade du tacos, tack eller tacka?' and carries only 'tacos [tak´os] substantiv; pl. ~en', glossed with a PLURAL gloss 'tunna majsbröd med olika fyllningar' plus the note '– I sammansättn. taco-' (i.e. 'taco-' only as a compound element). So SAOL sanctions 'tacos' as the lemma and does not recognise a standalone 'taco'. Spoken Swedish does say 'en taco' for one shell, so the stored form is not absurd — but choosing between the SAOL lemma and the spoken form is a lemma decision, not a form fix."
+  },
+  {
+   "key": "taco",
+   "field": "plural",
+   "cur": {
+    "s": "Taco",
+    "p": "Tacos",
+    "g": "n"
+   },
+   "why": "Depends on the singular ruling above, and SAOL's notation for this entry is not decidable at face value: 'tacos substantiv; pl. ~en' gives no definite singular and an unexpected '~en' after 'pl.' (contrast 'timer ... ~n; pl. ~', where ~n is the definite singular and pl. ~ the plural). I will not guess between 'tacos' and 'tacosen'. Flagging rather than forcing."
   },
   {
    "key": "tart",
@@ -1469,67 +1199,57 @@
     "p": "Tårtor",
     "g": "n"
    },
-   "why": "Content question, not a form question: 'tårta' is a (layer) cake and collides with the cake key (hence N6). An English 'tart' — themes bakery/desserts — is rather 'paj', 'mördegstårta' or 'tartelett'. Choosing among these is a lemma decision about what the picture shows, so I will not rewrite it blind."
-  },
-  {
-   "key": "taxi",
-   "field": "plural",
-   "cur": {
-    "s": "Taxi",
-    "p": "Taxier",
-    "g": "n"
-   },
-   "why": "'Taxier' is not a Swedish form and is certainly wrong, but the repair is more than a form fix: Swedish normally supplies the plural from another lemma ('flera taxibilar'). I will not assert a SAOL declension for 'taxi' from memory. Operator decision: 'Taxibilar' (different lemma) vs leaving p = s."
+   "why": "Two problems, neither a form fix. (1) The picture is ONE SLICE, whereas 'tårta' names a whole cake — a Swede would say 'en tårtbit' / 'en bit'. (2) 'Tårta' specifically denotes a layered cream gateau, whereas the pictured pastry-crust-plus-set-filling wedge reads as paj / cheesecake / mördegstårta. Choosing the right lemma (and/or fixing the art) is an operator call. The word 'tårta' itself is well formed — see the plural/gender rows."
   },
   {
    "key": "therizinosaurus",
-   "field": "plural",
+   "field": "singular",
    "cur": {
     "s": "Therizinosaurus",
     "p": "Therizinosaurusar",
     "g": "n"
    },
-   "why": "Not in SAOL. Swedish has no established plural for this genus name; '-usar' is a guess and I will not assert one. (Note: the Latin/Greek -saurus is not automatically pluralisable by rule — judge such names one by one, not by class.)"
+   "why": "The art does not depict a therizinosaurus, and it duplicates the sibling 'stegosaurus' key's art inside the SAME dinosaurs theme — a child meets two near-identical plated quadrupeds under different names. The WORD 'Therizinosaurus' is the correct Swedish form for the animal; either the art or the key must change. Operator call (fix the word or fix the art). Found by opening BOTH images."
   },
   {
-   "key": "triceratops",
-   "field": "plural",
-   "cur": {
-    "s": "Triceratops",
-    "p": "Triceratopsar",
-    "g": "n"
-   },
-   "why": "Not in SAOL. No established Swedish plural for this genus name; '-ar' on a Greek stem ending in -ops is a guess. I will not invent one."
-  },
-  {
-   "key": "tyrannosaurus-rex",
-   "field": "plural",
-   "cur": {
-    "s": "Tyrannosaurus Rex",
-    "p": "Tyrannosaurus Rexar",
-    "g": "n"
-   },
-   "why": "Not in SAOL. 'Tyrannosaurus Rexar' is a guess on a Latin phrase; no attested Swedish plural. Not invented."
-  },
-  {
-   "key": "us",
-   "field": "gender",
-   "cur": {
-    "s": "USA",
-    "p": "USA",
-    "g": "n"
-   },
-   "why": "Country names take NEUTER agreement in Swedish ('USA är stort', like 'Sverige är vackert'), so 'n' is misleading — but a country name takes no article at all, so 't' is not straightforwardly right either. How to code an article-less proper noun is a schema question for the operator, not a form fix."
-  },
-  {
-   "key": "vegetables",
+   "key": "tiara",
    "field": "singular",
    "cur": {
-    "s": "Grönsaker",
-    "p": "Grönsakerar",
+    "s": "Tiara",
+    "p": "Tiaror",
     "g": "n"
    },
-   "why": "The field holds a plural: the singular is 'en grönsak'. But the English gloss is likewise plural in both fields ('Vegetables'/'Vegetables') and the picture is a collection, so the plural label may be intentional. Whether to keep the collective label 'Grönsaker' or switch to the true singular 'Grönsak' is a content decision about the image, not a form fix."
+   "why": "The art is a krona, not a tiara: a tiara is an OPEN, semi-circular ornament worn at the front of the head, not a closed circlet. And it duplicates the object of the sibling 'crown' key inside the same accessories theme, so a child meets two crowns labelled 'Tiara' and 'Krona'. The word 'tiara' is fine Swedish (see plural/gender); either the art or the key must change — operator call. Found only by opening BOTH images, exactly the football precedent in the brief."
+  },
+  {
+   "key": "timer",
+   "field": "singular",
+   "cur": {
+    "s": "Timer",
+    "p": "Timrar",
+    "g": "n"
+   },
+   "why": "Genuine picture question. What is drawn is a väckarklocka (twin-bell alarm clock): it has an hour hand AND a minute hand and tells the time of day. A kitchen timer has a single pointer on a 0-60 minute dial and does not tell the time. The kitchen-tools theme makes 'timer' the evident intent, but a Swedish child shown this says 'klocka' / 'väckarklocka'. Either the art or the word needs an operator decision — more than a form fix."
+  },
+  {
+   "key": "toad",
+   "field": "singular",
+   "cur": {
+    "s": "Padda",
+    "p": "Paddor",
+    "g": "n"
+   },
+   "why": "The art shows a groda, not a padda: a toad has dry warty skin, a squat body and short legs, none of which is present. It also duplicates the sibling 'frog' key's creature inside the SAME forest-creatures theme, so a child meets two frogs labelled 'Padda' and 'Groda'. The word 'padda' is correct Swedish for a toad; either the art or the key must change — operator call."
+  },
+  {
+   "key": "uranus",
+   "field": "gender",
+   "cur": {
+    "s": "Uranus",
+    "p": "Uranus",
+    "g": "n"
+   },
+   "why": "GENUINE SOURCE CONFLICT — flagging rather than forcing, per the brief's own bison precedent. SAOL and SO have NO entry for Uranus ('Inga träffar på uranus. Menade du uran...?' — stated, not fabricated), as expected for proper nouns. The two Wiktionary editions then DISAGREE: sv.wiktionary gives 'Böjningar av Uranus NEUTRUM' (→ t), while en.wiktionary's Swedish section gives 'Uranus c' (common → n, i.e. the stored value). By the brief's own standard two editions agreeing is evidence and one alone is not — here they contradict, so there is no evidence either way. I also checked sv.wikipedia's Uranus article for decisive predicative agreement and found none ('Uranus är den enda planeten...' agrees with 'planeten', not with Uranus). The general rule that Swedish place-names take neuter ('Sverige är stort') points to t, but Uranus is also a Roman deity (a masculine person), which plausibly explains en.wiktionary's 'c'. Needs a native/operator ruling; I will not guess. IMPORTANT: this does NOT carry over to the sibling 'us'/USA row, where both editions AGREE on neuter — see that row."
   },
   {
    "key": "violet",
@@ -1539,17 +1259,7 @@
     "p": "Violer",
     "g": "n"
    },
-   "why": "internal contradiction across two lemmas: cur.s 'Violett' is the COLOUR (adjective), while cur.p 'Violer' is the plural of the FLOWER 'viol'. themes [colors, flowers] do not resolve it; en plural 'Violets' points to the flower. Needs an image check: if the flower -> s should be 'Viol'; if the colour -> p must not be 'Violer'. Not a form fix."
-  },
-  {
-   "key": "violet",
-   "field": "plural",
-   "cur": {
-    "s": "Violett",
-    "p": "Violer",
-    "g": "n"
-   },
-   "why": "'Violer' is the correct plural of 'viol' (the flower) but is not a plural of 'violett'. Which lemma is depicted must be decided first — see singular."
+   "why": "The row mixes two lemmas and SAOL settles which is which: 'viol·ett' is an ADJEKTIV (n. ~, ~a) — the colour word — while the plural field holds 'Violer', the plural of the NOUN viol (~en ~er, 'en växt'). So the singular field holds an adjective and the plural field belongs to a different, nominal lemma. The classification (countable-thing / hasGender / hasPlural) can only describe the FLOWER, pointing to singular 'Viol'. But the key ALSO resolves to colors/violet@2x.webp, a paint-drop, where 'Viol' is wrong and 'Violett' right. Another lemma + a picture question + an internal contradiction — all three HOLD triggers at once. Operator rules: fix the WORD (→ Viol) or fix/split the ART. Recommend 'Viol' if the flower reading stands."
   },
   {
    "key": "walk",
@@ -1559,7 +1269,7 @@
     "p": "Gå",
     "g": "n"
    },
-   "why": "the field holds the bare infinitive 'Gå' (a verb), while en = the NOUN 'Walk'/'Walks' (countable). If the noun is meant the lemma is 'Promenad' (-> Promenader) — a lemma change, not a form fix. Orphan (N7) + noImage, so the intended sense cannot be checked against a picture. Lowest priority."
+   "why": "'Gå' is the INFINITIVE of the verb gå, not a noun. Worse, this row's classification (countable-thing / hasGender:true / hasPlural:true) CANNOT have been read off a picture, because there is no picture — and the row's own `type` and `countable` are both null. Two readings diverge completely: (a) the English noun 'a walk' → 'en promenad' (countable, n, promenader); (b) the activity 'walking' → an infinitive with NO gender and NO plural, which is exactly how every sibling activity key is stored (writing → Skriva, g:null). Another lemma + an internal contradiction + no art to arbitrate. Operator must rule which sense the key is for, and whether art is coming."
   },
   {
    "key": "walk",
@@ -1569,7 +1279,7 @@
     "p": "Gå",
     "g": "n"
    },
-   "why": "depends on the singular ruling: 'Gå' as an infinitive has no plural; 'Promenad' would give 'Promenader'. Not decidable without the lemma decision."
+   "why": "Cannot be 'Gå' under either reading: an activity infinitive has no plural at all, and the noun reading pluralises a different lemma (promenad → promenader). Blocked on the singular ruling; I will not guess."
   },
   {
    "key": "walk",
@@ -1579,27 +1289,17 @@
     "p": "Gå",
     "g": "n"
    },
-   "why": "gender is not applicable to an infinitive; 'n' is a data-model artefact here, not a form error. If the lemma becomes 'Promenad' then 'n' would be correct (en promenad)."
+   "why": "Lemma-dependent, and the stored value is internally inconsistent: if the key stays the activity, gender must be null (as with writing/white/yellow in this same batch); if it becomes 'promenad', n is right. The stored 'n' presumes a noun reading that the singular field does not actually contain."
   },
   {
-   "key": "whiteboard",
-   "field": "plural",
+   "key": "wrench",
+   "field": "singular",
    "cur": {
-    "s": "Whiteboard",
-    "p": "Whiteboards",
+    "s": "Skiftnyckel",
+    "p": "Skiftnycklar",
     "g": "n"
    },
-   "why": "I cannot confirm the SAOL plural of this loanword from memory — it is between the English-style 'whiteboards' and a nativised 'whiteboarder'. The current form is NOT an obviously invented word (unlike 'Lägerar'), so I will neither confirm nor correct it rather than invent a SAOL citation. Needs a direct SAOL lookup."
-  },
-  {
-   "key": "writing",
-   "field": "gender",
-   "cur": {
-    "s": "Skriva",
-    "p": "Skriva",
-    "g": "n"
-   },
-   "why": "gender is not applicable to a bare infinitive: 'skriva' is a verb, not a noun, so neither 'n' nor 't' is meaningful. (A true substantivised form would be neuter — ett skrivande — but that is a different lemma from what is stored.) This is a data-model question, not a form error; flagging so it is not silently rewritten."
+   "why": "The word does not name the picture, and SAOL says why in as many words: skift|nyckel = 'JUSTERBAR skruvnyckel' (SO: 'STÄLLBAR skruvnyckel') — a skiftnyckel is BY DEFINITION the adjustable wrench, the one with a screw that widens the jaw. The pictured tool is a fixed-size combination spanner with no adjusting mechanism at all. Same class as the batch-01 finds (singing = a microphone, chess = a chess piece): the plural of the wrong word. The v1 round passed this row as a clean 'control' because it never opened the image. Recommend 'Blocknyckel' — SAOL carries block|nyckel ('ett verktyg'), the exact term for an open-end + ring-end combination spanner — or the generic 'Skruvnyckel' (SAOL: 'verktyg för att skruva runt muttrar o.d.') if a simpler K-3 word is wanted. Operator rules: fix the WORD or fix the ART."
   },
   {
    "key": "x-ray",
@@ -1609,7 +1309,7 @@
     "p": "Röntgenar",
     "g": "n"
    },
-   "why": "lemma question. 'Röntgen' is the method/examination; what a hospital picture actually shows is an X-ray IMAGE = 'röntgenbild' (-> röntgenbilder), which matches the countable en plural 'X-Rays'. Choosing between 'Röntgen' and 'Röntgenbild' is a lemma change, not a form fix — needs an image check."
+   "why": "CONFIRMS THE v1 HYPOTHESIS EMPIRICALLY — v1 reasoned toward röntgenbild but said 'needs an image check'; I did it, and the art IS a plate. The word names the wrong thing: SAOL röntg·en = 'undersökning med röntgenstrålning' and SO sense 1 = 'teknik för undersökning av föremåls inre struktur' — röntgen is the EXAMINATION/technique. The picture is the resulting RÖNTGENBILD. Corroborating evidence that the label, not the classification, is at fault: SO marks röntgen '(knappast plur.)', flatly contradicting this row's countable-thing/hasPlural:true classification — whereas a röntgenbild is countable and pluralises freely, fitting the classification exactly. So the picture and the category agree with each other and disagree with the word. Recommend 'Röntgenbild' (→ Röntgenbilder). Operator rules: fix the WORD or fix the ART."
   },
   {
    "key": "x-ray",
@@ -1619,121 +1319,73 @@
     "p": "Röntgenar",
     "g": "n"
    },
-   "why": "'Röntgenar' is certainly not a Swedish word — that much is beyond doubt. But the correction is not a pure form fix: if the lemma stays 'Röntgen' the answer is NO_PLURAL (p = s); if the lemma is 'Röntgenbild' the answer is 'Röntgenbilder'. Blocked on the singular ruling; I will not guess."
-  },
-  {
-   "key": "cookies",
-   "field": "singular",
-   "cur": null,
-   "why": "ESCALATED by re-verify: RULE 7 FIRES — and the reviewer saw it and filed the correction anyway. The corrected row would be {Kaka, Kakor, n}, which is BYTE-IDENTICAL to the existing sister key 'cookie' = {Kaka, Kakor, n} (verified against all 1263 keys). The reviewer's own why-text concedes 'the corrected row then duplicates key cookie exactly' but classes it as 'a de-duplication question downstream, not part of this correction'. The brief says the opposite: 'skulle to göra raden identisk med en befintlig systernyckel? Då ESCALATE' — hold it back rather than apply it. AGGRAVATING, and this is the part the reviewer did not check: 'cookies' has themes=[easter], and 'cookie' already carries easter among its themes ([at_the_supermarket,bakery,christmas,desserts_and_sweets,easter,food]) — so cookies' only theme is a SUBSET of cookie's. These are not two words that merely coincide; they are two keys covering the same picture space. DISTINCTION I APPLIED CONSISTENTLY: this is unlike santa/santa-claus and beach-umbrella/parasol, whose rows are already identical BEFORE the fix (pre-existing duplicates the correction does not create). Here the rows are currently DIFFERENT and the correction is what makes them identical. That is the trigger. Language note: 'Kaka' is correct Swedish and not pluralia tantum — the escalation is about the duplicate, not the form."
-  },
-  {
-   "key": "crayons",
-   "field": "singular",
-   "cur": null,
-   "why": "ESCALATED by re-verify: RULE 7 FIRES, same shape as 'cookies' and again conceded-then-filed by the reviewer. The corrected row {Krita, Kritor, n} would be BYTE-IDENTICAL to the existing sister key 'crayon' = {Krita, Kritor, n}. Currently the rows DIFFER, so the correction is what creates the duplicate -> hold, do not apply. Mitigating detail for the operator's ruling: unlike cookies/cookie, the themes are disjoint (crayons=[toys] vs crayon=[classroom,education]), so a case can be made that these are two distinct pictures legitimately sharing one word — but that is a catalog decision for the operator, which is exactly why it escalates rather than ships. Language note: 'Krita' is correct Swedish and not pluralia tantum; the escalation is about the duplicate, not the form."
-  },
-  {
-   "key": "curtains",
-   "field": "singular",
-   "cur": null,
-   "why": "ESCALATED by re-verify: RULE 7 FIRES — the third of the conceded-then-filed set. The corrected row would be {Gardin, Gardiner, n} (singular fix plus this key's own plural fix Gardinerar->Gardiner), which is BYTE-IDENTICAL to the existing sister key 'curtain' = {Gardin, Gardiner, n}. Currently the rows differ, so the correction creates the duplicate -> hold. Themes are adjacent rather than disjoint (curtains=[around_the_house,furniture] vs curtain=[household]). IMPORTANT SO THAT THIS ESCALATION DOES NOT DO HARM: my hold applies ONLY to the singular field. The separate plural correction on this key (Gardinerar->Gardiner) removes a fabricated double plural that is wrong under every possible resolution of the duplicate question, and it should proceed regardless of how the operator rules on the dedup — the same logic the first round itself applied to 'hospital-gown'."
-  },
-  {
-   "key": "muffin",
-   "field": "singular",
-   "cur": null,
-   "why": "ESCALATED by re-verify: THIS IS A LEMMA SELECTION, NOT A FORM FIX — the brief's definition of ESCALATE ('lemmabyte'), and it carries the German 'lego' risk the operator named: a 'correction' that deletes an attested form. The current row {s:Muffin, p:Muffins, g:n} IS broken — 'Muffins' as the plural of a Swedish lemma 'muffin' is an English -s plural, not a Swedish form — so something must change. But there are TWO coherent resolutions: (a) the proposal's s=Muffins / p=Muffins (the English plural borrowed as the Swedish singular, the keps<caps and kex<cakes pattern), or (b) s=Muffin / p=Muffiner. Choosing between them decides which lemma the file uses, and the usage is genuinely split. I CANNOT VERIFY from memory whether SAOL also lists 'muffin' as an accepted variant, and if it does, the proposal deletes an attested form — exactly what happened to 'lego' in the German round. The proposal does not establish that 'muffin' is unattested; it argues only that 'muffins' is attested, which does not settle it. The src is itself hedged ('SAOL lemma muffins; Språkrådet recommends...') rather than the verbatim citation shape this reviewer uses everywhere else ('SAOL: kloss subst. ~en ~ar') — a tell that they knew it was weaker. Per the brief: osäker -> ESCALATE, gissa aldrig. The 'muffin-tin stores Muffinsform' corroboration is suggestive but not decisive (compound stems routinely differ from the free lemma). Operator decides; I will not guess."
-  },
-  {
-   "key": "hospital-gown",
-   "field": "plural",
-   "cur": null,
-   "why": "ESCALATED by re-verify: The form fix itself is right -- 'Sjukhuskläderar' is a fabricated +ar on a plurale-tantum form and must go -- but I escalate rather than confirm, on three grounds that together make this a lemma decision the operator should take, not a form fix to apply. (1) LEMMA: 'sjukhuskläder' means hospital CLOTHES (plurale tantum) and is not a hospital GOWN, a single countable garment ('patientskjorta'/'patientrock'); the English gloss is 'Hospital Gown/Hospital Gowns' and countable=true, so after the fix the row STILL cannot express 'two hospital gowns' -- p=s would encode plurale tantum for a countable concept. (2) SISTER KEY: hospital-gown and 'scrubs' are already byte-identical rows {Sjukhuskläder, Sjukhuskläderar, n} (both N6-flagged), and the two proposals DIVERGE only through a bug -- scrubs is proposed as 'Sjukhusklader' WITHOUT the ä, a non-word. Applying both would leave one sister correct and one corrupted. The pair must be resolved together. (3) COST OF WAITING IS ZERO: noImage = dead data, no child ever sees this key, so holding it back costs nothing while the lemma + the scrubs duplicate are settled. This is the brief's 'bör hållas tillbaka i stället för att tillämpas' case."
-  },
-  {
-   "key": "persimmon",
-   "field": "plural",
-   "cur": null,
-   "why": "ESCALATED by re-verify: ⚠ I cannot verify this and neither could the first round - the reviewer explicitly disclaims: 'I have not verified a SAOL entry for persimon and am NOT citing one'. Per the brief (osäker -> ESCALATE, gissa aldrig) I hold it. The reason is not pedantry: Swedish -on nouns are a GENUINELY SPLIT class, and BOTH halves are live in this very dataset. (a) Native/old -on words are NEUTER with ZERO plural - and 'fig'->Fikon and 'oyster'->Ostron are being corrected TO that pattern in this same file. (b) Modern final-stressed -on loans are UTRUM with -er (citron->citroner, melon->meloner; 'watermelon'->Vattenmeloner in this same slice). My own lean is (b) 'Persimoner' - persimon is a modern loan with final stress, and the absence of a coupled gender proposal is consistent with the stored utrum 'n' being right. But if (a) is correct, the proposal ships a new wrong form AND leaves the gender wrong, i.e. the camp/'Lägerar' coupled defect uncorrected. One SAOL lookup settles it. WHAT MUST NOT HAPPEN: 'Persimonar' is wrong under BOTH readings and must not stay shipped - escalating this key must not be read as leaving it alone."
+   "why": "'Röntgenar' is invented — the script's -ar default — and is wrong under BOTH readings, so it must not survive; but which correction applies depends on the lemma ruling above, so I will not rewrite blind. If the label stays röntgen: SO gives 'bestämd form och plural röntgen' → the plural is 'Röntgen' (zero), never *Röntgenar. If the label is corrected to röntgenbild: the plural is 'Röntgenbilder'. Either way the stored value is deleted; the operator's lemma call picks the replacement."
   }
  ],
  "pluraliaTantum": [
   {
    "key": "cereal",
-   "why": "Deliberately NOT treated like `blocks`/`boots`. In the breakfast-cereal sense (themes=breakfast/at_the_supermarket) Swedish uses only the plural 'flingor'; the singular 'en flinga' means a single FLAKE (or a snowflake), which is not the depicted product. So the plural form standing in the singular field is correct here, and singularising it to 'Flinga' would be an error. The plural form in the field is right."
-  },
-  {
-   "key": "flip-flops",
-   "why": "In Swedish 'flip-flops' is used only in the plural (ett par flip-flops); there is no natural singular *'en flip-flop' in child speech. The plural form in the singular field is therefore correct as-is. ('Badtofflor' is the more native alternative if the operator prefers it.)"
+   "why": "The singular field holds a PLURAL — the defect class the brief names — but here that is arguably RIGHT, so I am not calling it a FIX. SAOL: 'flinga substantiv ~n flingor / MEST I PL. lätt, tunt stycke av ngt: snöflinga; FLINGOR MED MJÖLK'. A singular flinga exists but means ONE FLAKE, not the breakfast product; SAOL's own example for the food sense is the plural (flingor med mjölk). As the name of the cereal the word has no usable singular, so 'Flingor' in the singular field is the honest label — flagging it as pluralia tantum rather than manufacturing *'En flinga' as a cereal label. Note this also sits oddly with the classification (countable-thing, hasPlural:true) — the picture is a bowlful, not one countable flake."
   },
   {
    "key": "french-fries",
-   "why": "'pommes frites' is plural-only in Swedish; there is no singular. Note a separate formatting defect: the singular field reads 'Pommes Frites' with a medial capital F, while the plural field correctly reads 'Pommes frites'. Only the first word is capitalised."
+   "why": "SAOL: 'pommes frites [påmfrit´] substantiv; pl. ~en' — marked PLURAL, no singular exists. SO agrees: 'pommes frites plural, bestämd form plural pommes fritesen'. The singular field cannot hold a singular; the label is the plural, consistent with the plural-picture classification. SEPARATE DEFECT in the same field: the stored form mis-capitalises the second word. Swedish writes 'pommes frites', not 'Pommes Frites' — cf. the plural field, which already has it right. Whatever is done about the plurale-tantum status, the stored string should read 'Pommes frites'."
   },
   {
    "key": "glasses",
-   "why": "'glasögon' is plural-only; there is no current singular. The form in the field is the correct plural."
+   "why": "SAOL: 'glas|ög·on substantiv; pl.' — marked plural, full stop; no singular form exists. SO: 'glasögon plural'. So the singular field cannot hold a singular. Note also that the classification (countable-thing, hasPlural:true) is contradicted: the object is ONE pair, and the Swedish word has no singular at all. This is the brief's pluralia-tantum-over-one-object case (pants/scissors) — the object is single, the word is plural-only."
   },
   {
-   "key": "goggles",
-   "why": "'skyddsglasögon' is plural-only (head 'glasögon'); no singular exists. The form in the field is the correct plural."
-  },
-  {
-   "key": "green-beans",
-   "why": "'haricots verts' is a plural-only French borrowing in Swedish; no singular exists. Content note for a 3-7 audience: 'gröna bönor' would be far more child-appropriate and readable by TTS, but that is a lemma choice for the operator, not a form fix — flagged, not changed."
+   "key": "hospital-gown",
+   "why": "'Sjukhuskläder' is a PLURAL sitting in the singular field. SAOL lists 'kläder' as its own headword and SAOB marks it explicitly 'KLÄDER, pl.' — kläder has no singular. Separately surfaced (not rewritten blind): a hospital GOWN is one garment, whereas sjukhuskläder = 'hospital clothes'; the single-garment word is patientrock / sjukhusskjorta. Operator decision on the lemma."
   },
   {
    "key": "jeans",
-   "why": "SAOL lists 'jeans' as a plural noun; Swedish counts it with 'ett par jeans'. There is no singular *en jeans. The plural form in the field is correct."
+   "why": "SAOL 'jeans substantiv; pl. ~en' and SO 'jeans plural, bestämd form plural jeansen' — SAOL gives ONLY plural forms; there is no singular *en jeans (Swedish counts it 'ett par jeans'). Separately flagged: the clothing-theme art is knee-length shorts, so the label only names the objects-bw art — a multi-theme divergence of the same kind as the batch-01 balloon."
   },
   {
    "key": "leggings",
-   "why": "Plural-only garment noun ('ett par leggings'), like jeans/byxor. There is no singular *en legging in Swedish. The plural form in the field is correct."
+   "why": "SAOL 'leggings substantiv; pl. ~en' and SO 'leggings plural, bestämd form plural leggingsen' — SAOL gives ONLY plural forms; there is no singular *en legging (Swedish counts it 'ett par leggings'). Note this is NOT the brief's one-object-pluralia-tantum inverse trap: unlike German Hose→Hosen, Swedish leggings genuinely has no singular, so PLURALIA_TANTUM is right rather than a hidden real singular."
   },
   {
    "key": "overalls",
-   "why": "'Hängselbyxor' is a plural (byxor); Swedish has no usable singular for a pair of dungarees — the plural form in the field is the correct citation form"
-  },
-  {
-   "key": "pants",
-   "why": "The depicted item is a pair of trousers = 'byxor', which is plural. SAOL does list a singular 'byxa', but it denotes one leg/garment-half and is not the word for the pictured object — the plural in the field is the correct citation form"
+   "why": "The singular field holds a PLURAL form. SAOL: 'byxa substantiv ~n byxor — mest i pl.' Swedish names this garment only in the plural (ett par hängselbyxor); *en hängselbyxa is not used. The label correctly names the picture — the defect is structural (a plural in the singular slot), not lexical. Contrast the German case the brief cites (Hose→Hosen): Swedish has no usable singular here."
   },
   {
    "key": "rollerblade",
-   "why": "'inlines' is used only in the plural in Swedish ('ett par inlines', 'aka inlines'); no singular *en inline is in use. The plural form standing in the singular field is therefore correct"
+   "why": "'Inlines' has no singular: SAOL 'in·lines substantiv; pl. ~en', SO 'inlines plural, bestämd form plural inlinesen' — the word is entered as plural only. So a plural-only form is sitting in the singular field. The art makes it worse: the picture shows exactly ONE skate, which is 'en inlineskridsko' (or rullskridsko). This key needs a singular the stored lemma cannot supply — a lemma change, flagged not rewritten."
   },
   {
    "key": "scrubs",
-   "why": "'klader' is a genuine Swedish pluralia tantum — there is no *en klad. The plural form standing in the singular field is correct. (Contrast keys rain-boots/sandals, which are pair-glosses of nouns that DO have singulars.)"
+   "why": "The head noun has no singular: SAOL 'kläd·er substantiv; pl.', SO 'kläder plural' — kläder is entered as plural only (its singular counterpart is the separate lemma 'klädesplagg', SAOL '~et; pl. ~'). So 'Sjukhuskläder' is a plural-only form sitting in the singular field. Compounded by the art: the picture is ONE garment, which a collective 'sjukhuskläder' (hospital clothing in general) does not name — a single top would be 'ett klädesplagg' / 'en sjukhusskjorta'."
   },
   {
    "key": "shorts",
-   "why": "Swedish 'shorts' has no singular — 'ett par shorts'. The plural form standing in the field is correct."
+   "why": "SAOL: 'shorts [ʃå´rts] substantiv; pl. ~en' — PLURAL ONLY, no singular. SO agrees: 'shorts plural, bestämd form plural shortsen'. Swedish sanctions no singular *en shorts (one says ett par shorts). This CONTRADICTS the batch classification (countable-thing / hasPlural true) and per the brief the dictionary wins. Note this is NOT the German Hose→Hosen trap: German has a singular, Swedish genuinely does not."
+  },
+  {
+   "key": "sneakers",
+   "why": "SAOL: 'sneakers [sni´kers] substantiv; pl. ~en' — plural only; SO: 'sneakers plural'. There is no sanctioned singular (SAOL/SO/SAOB all return no hits for 'sneaker'), so this is genuine pluralia tantum rather than the v1 'borderline' reading. The label IS the plural, matching the plural-picture classification."
   },
   {
    "key": "sunglasses",
-   "why": "'Glasögon' has no singular in use (the brief itself names it) — 'ett par solglasögon'. The plural form standing in the field is correct."
+   "why": "SAOL: 'sol|glas·ög·on substantiv; pl.' — plural only; SO: 'solglasögon plural'. Same for the base: SAOL 'glas|ög·on substantiv; pl.'. Swedish has no singular for spectacles (one says ett par solglasögon). NOTE this is the mirror image of the brief's trap: German Hose→Hosen and Brille→Brillen are correct BECAUSE German has a singular — Swedish genuinely does not, so this ruling is not an import of the English pattern."
   },
   {
    "key": "suspenders",
-   "why": "The garment is 'ett par hängslen' — always plural in use. A singular 'ett hängsle' exists (one strap) but never denotes the depicted object; the plural form in the field is the correct label."
+   "why": "The pictured garment is a PAIR of braces, which Swedish names only in the plural: 'ett par hängslen'. SAOL's lemma is the singular 'hängsle' (~t ~n) = ONE strap, which is not what the picture shows. So 'Hängslen' in the singular field is not a script defect — it is the only word for the object — but it has no singular in this sense."
   },
   {
    "key": "sweatpants",
-   "why": "byxor is a plurale tantum; 'mjukisbyxor' has no singular denoting the garment. The plural form standing in the singular field is the correct label."
+   "why": "The picture is one PAIR of joggers = 'ett par mjukisbyxor'. SAOL's lemma is the singular 'mjukisbyxa', which does not name the pictured object. The plural form in the singular field is the correct label; the object has no singular."
   },
   {
    "key": "tights",
-   "why": "strumpbyxor is a plurale tantum (byxor); no singular denotes the garment. The plural form in the field is the correct label."
-  },
-  {
-   "key": "trousers",
-   "why": "byxor is a plurale tantum; the plural form in the singular field is the correct label. N6 (clash with other byxor keys) is expected."
+   "why": "The pictured garment is a pair = 'ett par strumpbyxor'. SAOL's lemma is the singular 'strumpbyxa', which does not name the object shown. The plural form in the singular field is the only correct label; the object has no singular."
   },
   {
    "key": "underpants",
-   "why": "The garment is 'kalsonger' — used in the plural. (Sense note for the operator: kalsonger are men's/boys' underpants; if the picture shows girls'/generic underwear the lemma should be 'underbyxor' or 'trosor'. That is a content question, flagged, not silently changed.)"
+   "why": "The pictured garment is a pair = 'ett par kalsonger'; SAOL's lemma is the singular 'kalsong', which does not name the object shown. Separately flagging for the operator: the cut drawn (high leg openings, no fly) reads as women's/girls' briefs, which Swedish calls 'trosor' — 'kalsonger' specifically means men's/boys' underpants. Not held, because a child's brief is plausibly kalsonger, but it is worth an art/label check."
   }
  ]
 }

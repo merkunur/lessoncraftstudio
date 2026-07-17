@@ -1,556 +1,750 @@
 {
   "locale": "sv",
   "batch": "02",
-  "reviewed": 110,
+  "reviewed": 106,
+  "note": "110 batch rows minus 4 BLOCKED (bowling, boxing, camping, butter) = 106 judged. BLOCKED rows omitted entirely per the sv-01 convention. Every non-BLOCKED row: picture opened, word looked up on svenska.se (SAOL/SO).",
   "rows": [
-    { "key": "blocks",
-      "singular": {"verdict":"FIX","correct":"Kloss","reason":"'Klossar' is a plural form standing in the singular field (the defect class named in the brief). SAOL: kloss subst. ~en ~ar. The lemma singular is 'kloss'; the image may show several blocks, but the singular field must hold the singular (a counting exercise needs '1 kloss / 2 klossar').","source":"SAOL"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "blouse",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "blue",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"NO_PLURAL","reason":"Colour adjective; 'Blå' has no noun plural. p already equals s — conformant, confirming it.","source":"SAOL"},
-      "gender": {"verdict":"HOLD","reason":"Not applicable: 'blå' is an adjective and Swedish adjectives carry no inherent gender — they agree with the noun (en blå boll / ett blått hus). The 'n' code is neither right nor wrong here; it is an internal contradiction in the data model, not a form error. Applies as one class to blue/brown/bored/capricious in this batch. Do not rewrite blind."} },
-
-    { "key": "blue-jay",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "bluebell",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "blueberry",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK","reason":"CHECK CASE — correct despite N2+N8. SAOL: ett blåbär -> flera blåbär. Neuter, consonant-final = genuine zero plural (NOT NO_PLURAL: the plural exists, it just looks like the singular).","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "boat",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "boiled-egg",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK","reason":"Notable: the adjective is correctly inflected for the indefinite plural — ett kokt ägg -> flera kokta ägg. Correct as it stands.","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "bolt",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "bone",
-      "singular": {"verdict":"OK","reason":"HOMONYM, reported per the brief: 'ben' is both 'bone' and 'leg'. Both senses are neuter with zero plural (ett ben -> flera ben), so singular, plural and gender are identical either way — no risk. themes=objects + en=Bone gives the bone sense.","source":"SAOL"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "bonfire",
-      "singular": {"verdict":"HOLD","reason":"Lemma question, not a form error. 'Lägereld' is specifically a CAMPFIRE, and this key duplicates the `campfire` key verbatim (N6). Swedish for an open-air bonfire is normally 'brasa' (or 'bål'; 'majbrasa' at Walpurgis). Correcting this means choosing a different lemma and depends on what the image actually shows — a decision, not a rewrite."},
-      "plural": {"verdict":"OK","reason":"Correct FOR THE CURRENT LEMMA: en lägereld -> lägereldar (eld ~en ~ar). If the singular is re-lemmatised (brasa -> brasor), the plural must follow.","source":"SAOL"},
-      "gender": {"verdict":"OK","reason":"Utrum is correct for the current lemma (en eld) and also for 'brasa'/'bål' — 'n' stands under every plausible fix."} },
-
-    { "key": "book",
-      "singular": {"verdict":"OK","reason":"HOMONYM, reported per the brief: 'bok' is both 'book' and 'beech tree' — both utrum, but they split in the plural (bok -> böcker = books; bok -> bokar = beech trees). The stored plural 'Böcker' confirms the book sense, which matches themes=classroom/education. Correct.","source":"SAOL"},
-      "plural": {"verdict":"OK","reason":"Correct umlaut plural (bok -> böcker), which the script cannot derive — verified, not assumed.","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "bookcase",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "bookshelf",
-      "singular": {"verdict":"OK","reason":"N6 collision with `bookcase` is real but harmless: Swedish 'bokhylla' covers both the free-standing bookcase and the wall shelf. No Swedish error."},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "boombox",
-      "singular": {"verdict":"OK","reason":"'Bärbar stereo' is an acceptable, understandable rendering of a boombox (colloquially also 'ghettoblaster')."},
-      "plural": {"verdict":"HOLD","reason":"'Bärbar stereoar' is not Swedish and must not stay — TWO faults: (1) the attribute is uninflected; an indefinite plural requires 'bärbara'; (2) '-oar' is not a Swedish plural ending for -o nouns. The likely correct form is 'Bärbara stereor', but I cannot confirm the SAOL plural of 'stereo' (stereor vs. the periphrastic stereoapparater), and a two-word entry inflects BOTH parts — so the fix is more than a form substitution. HOLD rather than invent a citation."},
-      "gender": {"verdict":"OK","reason":"en stereo — utrum. Correct."} },
-
-    { "key": "boots",
-      "singular": {"verdict":"FIX","correct":"Stövel","reason":"A plural form in the singular field. SAOL: stövel subst. ~n, pl. stövlar (syncope). NOT pluralia tantum — unlike 'byxor'/'glasögon', 'stövel' has a living singular (en stövel). The image probably shows a pair; the singular field must still hold the singular.","source":"SAOL"},
-      "plural": {"verdict":"OK","reason":"'Stövlar' is correct WITH the vowel syncope — verified, the script's half-rule happened to land right here."},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "bored",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"NO_PLURAL","reason":"Adjective (emotion card); no noun plural. p already equals s — conformant."},
-      "gender": {"verdict":"HOLD","reason":"Not applicable — adjective, no inherent gender (see `blue`, same class)."} },
-
-    { "key": "bottle",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "bow",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"FIX","correct":"Rosetter","reason":"SAOL: rosett subst. ~en ~er. En rosett -> två rosetter. 'Rosettar' is the script's default -ar applied to a final-stressed loanword that takes -er; it is not a Swedish word.","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "bow-tie",
-      "singular": {"verdict":"OK","reason":"HOMONYM, reported per the brief: 'fluga' is both the insect (fly) and the bow tie. Both are the same lemma pattern — en fluga -> flugor, utrum — so no field is at risk. themes=accessories/clothing gives the bow-tie sense.","source":"SAOL"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "bowl",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "bowling",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"NO_PLURAL","reason":"Name of a sport/activity; no child-level plural. p already equals s — conformant."},
-      "gender": {"verdict":"OK","reason":"Despite type=verb-gerund, 'bowling' is a real Swedish noun — bowlingen, utrum. 'n' is correct."} },
-
-    { "key": "bowling-ball",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"FIX","correct":"Bowlingklot","reason":"SAOL: klot subst. ~et, plural unchanged. Ett klot -> flera klot. 'Bowlingkloter' is an invented word.","source":"SAOL"},
-      "gender": {"verdict":"FIX","correct":"t","reason":"ett bowlingklot / klotet — neuter. THE COUPLED DEFECT the brief describes: 'klot' is simply missing from the script's hand-written SV_ETT_WORDS list, so ONE cause produced BOTH the wrong 'n' and the invented plural.","source":"SAOL"} },
-
-    { "key": "bowling-pin",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "box",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "boxing",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"NO_PLURAL","reason":"Name of a sport; no child-level plural. p already equals s — conformant."},
-      "gender": {"verdict":"OK","reason":"'boxning' is a -ning noun: boxningen, utrum. 'n' is correct."} },
-
-    { "key": "boxing-glove",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "boy",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "bracelet",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK","reason":"CHECK CASE — correct despite N2+N8. SAOL: ett armband -> flera armband ('band' is neuter with zero plural). Genuine zero plural, not NO_PLURAL.","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "brachiosaurus",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK","reason":"Not in SAOL (genus name), so no citation is possible — but the form follows the productive Swedish rule for -us loans, which SAOL does document: kaktus -> kaktusar, cirkus -> cirkusar, bonus -> bonusar. NOTE, per the brief's German anecdote: Swedish has no '-saurier' rule to misapply — 'dinosaurier' is the plural of the Swedish lemma 'dinosaurie', not of a Latin '-saurus'. Leave as is."},
-      "gender": {"verdict":"OK","reason":"en brachiosaurus — utrum, like en kaktus / en dinosaurie."} },
-
-    { "key": "brain",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "branch",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "bread",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK","reason":"CHECK CASE — the metadata is wrong, the data is right. countable:false is false: SAOL gives ett bröd -> flera bröd (neuter zero plural), exactly as the brief warns. Genuine zero plural, so OK and NOT NO_PLURAL — bread is a loaf here, not the mass substance.","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "briefcase",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"FIX","correct":"Portföljer","reason":"SAOL: portfölj subst. ~en ~er. En portfölj -> två portföljer (final-stressed French loan; -er, not the script's default -ar). 'Portföljar' is not a Swedish word.","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "broccoli",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"NO_PLURAL","reason":"Mass noun (ämnesnamn) — 'broccoli' has no child-level plural; a single piece is 'en broccolibukett'. Note the structural check: an UTRUM noun cannot have a zero plural (only neuters and -are nouns can), so p=s here can only mean NO_PLURAL. p already equals s — conformant."},
-      "gender": {"verdict":"OK","reason":"broccolin — utrum, like chilin/zucchinin."} },
-
-    { "key": "brontosaurus",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK","reason":"As `brachiosaurus`: follows the SAOL-documented -us loan pattern (kaktus -> kaktusar). Leave as is."},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "broom",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "brother",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK","reason":"Correct irregular plural: en bror -> bröder. N5 fires because singular and plural look like different lemmas — they are the same lemma (bror/broder), so this is a false positive.","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "brown",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"NO_PLURAL","reason":"Colour adjective; no noun plural. p already equals s — conformant."},
-      "gender": {"verdict":"HOLD","reason":"Not applicable — adjective, no inherent gender (see `blue`, same class)."} },
-
-    { "key": "brownie",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK","reason":"English loan; the -s plural is the established Swedish form for this class of baked-goods loan (cf. SAOL muffin -> muffins). Not the script's default -ar, so it came from the source data and is right. Leave as is."},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "brush",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "bucket",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "bud",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "bull",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "bulldozer",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"FIX","correct":"Bulldozrar","reason":"-er nouns syncopate and take -ar — exactly the class the brief names (nyckel->nycklar, cykel->cyklar, finger->fingrar); for -er machine loans SAOL documents container->containrar, revolver->revolvrar, trailer->trailrar. 'Bulldozerar' has neither the syncope nor a valid ending and is not a Swedish word.","source":"SAOL (pattern: container->containrar, revolver->revolvrar)"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "bun",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "bunny",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "burrito",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK","reason":"'Burritos' is the idiomatic and widely established Swedish plural for this Spanish loan (cf. SAOL taco -> tacos). I cannot confirm whether SAOL also admits 'burritor', but the stored form is not wrong — reporting OK rather than manufacturing a correction."},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "bus",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "bus-driver",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "butter",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"NO_PLURAL","reason":"Substance noun (ämnesnamn), exactly the brief's vatten/mjölk/salt class — 'smör' has no plural. p already equals s — conformant. Distinguish from `bread` in this same batch, which IS countable (ett bröd -> flera bröd).","source":"SAOL"},
-      "gender": {"verdict":"OK","reason":"smöret — neuter. Correct."} },
-
-    { "key": "butter-knife",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "buttercup",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "butterfly",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "cabana",
-      "singular": {"verdict":"OK","reason":"'Strandhytt' is a transparent ad-hoc compound, understandable and not wrong. NOTE for the operator: the established Swedish word for a beach changing hut is 'badhytt'. Not raised as a defect — a lexical preference, not an error."},
-      "plural": {"verdict":"FIX","correct":"Strandhytter","reason":"SAOL: hytt subst. ~en ~er. En hytt -> två hytter. 'Strandhyttar' is the script's default -ar and is not a Swedish form. (If the singular is ever changed to 'badhytt', the plural is 'badhytter' — same declension.)","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "cabbage",
-      "singular": {"verdict":"OK","reason":"'Kål' is the word a Swedish child uses for the depicted vegetable. Strictly, a single head is 'ett kålhuvud' — see the plural note."},
-      "plural": {"verdict":"NO_PLURAL","reason":"'Kål' is a mass/collective noun (SAOL: kål ~en, no plural listed); one says 'olika kålsorter', not 'kålar'. 'Kålar' is the script's default -ar and would only be read as 'kinds of cabbage' — not child-level. Structural check: kål is UTRUM, and an utrum noun cannot have a zero plural, so p=s can only be NO_PLURAL here. If a countable plural is ever needed, the lemma must change to 'kålhuvud' (t, zero plural) — that is a lemma decision for the operator, not a form fix.","source":"SAOL"},
-      "gender": {"verdict":"OK","reason":"kålen — utrum. Correct."} },
-
-    { "key": "cabin",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "cabinet",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK","reason":"CHECK CASE — correct despite N2+N8. SAOL: ett skåp -> flera skåp. Neuter, consonant-final = genuine zero plural.","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "cable-car",
-      "singular": {"verdict":"OK","reason":"'Linbana' names the whole installation rather than the single car (that would be 'linbanevagn'/'gondol'), but 'linbana' is what a Swedish child says and what one 'åker'. Not a defect."},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "cactus",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK","reason":"CHECK CASE — correct. SAOL: kaktus ~en, pl. kaktusar. The -us loan genuinely takes -ar; the script's default happened to be right here. Do not 'correct' to kakteer/kaktier.","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "cake",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "cake-pan",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK","reason":"HOMONYM-LIKE SPLIT, reported per the brief: 'form' has TWO declensions in SAOL with different meanings — form ~en ~ar = the physical mould/tin (bakformar, gjutformar), form ~en ~er = shape/gestalt (olika former). This is a cake TIN, so 'Kakformar' is the correct one. The -ar here is right for the right reason, not by luck.","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "calculator",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK","reason":"CHECK CASE — correct despite N2+N4. -are nouns are unchanged in the indefinite plural: en miniräknare -> flera miniräknare (cf. en lärare -> flera lärare). N4 (differs from Danish+Norwegian) is a false positive: Swedish simply behaves differently here.","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "calendar",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK","reason":"Correct WITH syncope: en kalender -> kalendrar. Verified, not assumed — the script's -el/-er half-rule landed right here.","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "calf",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "camel",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK","reason":"THE BRIEF'S CONTROL CASE — verified correct, not reported as a defect. En kamel -> flera kameler. Absent from the script's ett-lists, but 'kamel' genuinely IS an en-word.","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "camera",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "camp",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"FIX","correct":"Läger","reason":"SAOL: ett läger -> flera läger (zero plural, neuter). 'Lägerar' is not a Swedish word. Confirmed independently, not merely copied from the brief.","source":"SAOL"},
-      "gender": {"verdict":"FIX","correct":"t","reason":"ett läger / lägret — neuter. 'läger' is simply absent from the script's hand-written SV_ETT_WORDS list, which is the single cause of BOTH errors on this key.","source":"SAOL"} },
-
-    { "key": "camper",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "campfire",
-      "singular": {"verdict":"OK","reason":"Correct for THIS key — 'lägereld' is precisely a campfire. See `bonfire`, which wrongly carries the same word (N6); the collision should be resolved on the bonfire side, not here."},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "camping",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"NO_PLURAL","reason":"The activity has no plural. (Note: 'en camping' in the sense 'campsite' does pluralise as 'campingar' — but themes=activities and en=Camping give the activity sense.) p already equals s — conformant."},
-      "gender": {"verdict":"OK","reason":"campingen — utrum. 'n' is correct despite type=verb-gerund."} },
-
-    { "key": "camping-chair",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "can",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "canary",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK","reason":"Correct WITH syncope: en fågel -> fåglar. Verified.","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "candle",
-      "singular": {"verdict":"OK","reason":"HOMONYM, reported per the brief: 'ljus' is both 'light' (the phenomenon) and 'candle' (the object). Both are neuter with zero plural, so no field is at risk. themes=christmas/easter/valentine + en=Candle give the object sense, which is the countable one.","source":"SAOL"},
-      "plural": {"verdict":"OK","reason":"Genuine zero plural: ett ljus -> flera ljus. Correct despite N2+N8.","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "candy",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"NO_PLURAL","reason":"'Godis' is a mass noun (SAOL: godis ~et) — 'mycket godis', not 'två godisar'; a single piece is 'en godisbit'/'en karamell'. p already equals s — conformant. Distinguish carefully from a neuter zero plural: godis IS neuter, so p=s looks identical, but here the plural genuinely does not exist.","source":"SAOL"},
-      "gender": {"verdict":"OK","reason":"godiset — neuter. 'n' would have been wrong; the stored 't' is right."} },
-
-    { "key": "candy-cane",
-      "singular": {"verdict":"OK","reason":"Culturally apt: 'polkagris' is the Swedish counterpart. En polkagris -> polkagrisar, utrum."},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "canoe",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK","reason":"SAOL: kanot ~en ~er. Correct — not the script's default -ar. Verified.","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "cap",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "cape",
-      "singular": {"verdict":"HOLD","reason":"SERIOUS — 'Kapa' is not a noun for a garment at all: SAOL gives 'kapa' as a VERB (to cut off / to hijack). A verb is standing in a noun's singular field, and a child would be shown a cape and hear 'kapa'. The Swedish for the accessory is 'cape' (en cape); alternatives are 'slängkappa' or 'kappa'. This is a lemma error, not a form error, and picking between cape/slängkappa/kappa depends on what the image shows — so HOLD, do not rewrite blind. Note it is NOT 'kåpa' either (a cowl/monk's habit/machine cover)."},
-      "plural": {"verdict":"HOLD","reason":"'Kapor' is the mechanical -a -> -or plural of a verb that has no such noun form. Cannot be fixed until the singular lemma is decided (cape -> caper/capes; kappa -> kappor; slängkappa -> slängkappor)."},
-      "gender": {"verdict":"OK","reason":"Survives the lemma question: every plausible correction — cape, kappa, slängkappa — is utrum, so 'n' stands either way. Reported OK rather than dragged into the HOLD."} },
-
-    { "key": "capricious",
-      "singular": {"verdict":"OK","reason":"'Nyckfull' is a correct rendering of 'capricious'. (Aside, outside this audit's scope: 'capricious' is a strikingly abstract emotion card for ages 3-7 — a content question for the operator, not a Swedish error.)"},
-      "plural": {"verdict":"NO_PLURAL","reason":"Adjective; no noun plural. p already equals s — conformant."},
-      "gender": {"verdict":"HOLD","reason":"Not applicable — adjective, no inherent gender (see `blue`, same class)."} },
-
-    { "key": "capybara",
-      "singular": {"verdict":"OK","reason":"'Kapybara' is the used Swedish name; 'vattensvin' is the alternative native name. Not a defect."},
-      "plural": {"verdict":"OK","reason":"Correct: -a animal loans take -or (SAOL: gorilla -> gorillor, panda -> pandor, zebra -> zebror). 'Kapybaror' follows the rule. Leave as is."},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "car",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "card",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK","reason":"Genuine zero plural: ett kort -> flera kort. Correct despite N2+N8.","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "cardigan",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "cardinal",
-      "singular": {"verdict":"OK","reason":"HOMONYM, reported per the brief: 'kardinal' is both the bird (Cardinalis cardinalis, also 'rödkardinal') and the churchman. Both are utrum and both pluralise identically, so no field is at risk. themes=birds_2/forest_creatures give the bird.","source":"SAOL"},
-      "plural": {"verdict":"FIX","correct":"Kardinaler","reason":"SAOL: kardinal ~en ~er. En kardinal -> två kardinaler (final-stressed -al loan, like general -> generaler, amiral -> amiraler). 'Kardinalar' is the script's default -ar and is not a Swedish word.","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "cards",
-      "singular": {"verdict":"OK","reason":"CONTRAST WITH `blocks`/`boots` in this batch: those store a plural in the singular field and need a fix, but 'kort' is a neuter zero-plural word, so the single form 'Kort' is simultaneously the correct singular AND the correct plural. The plural-only English gloss causes no defect here. Nothing to change.","source":"SAOL"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "carnation",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "carnotaurus",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK","reason":"Correct — and the brief's German precedent does not transfer: Swedish has no '-saurier' plural to misapply, because 'dinosaurier' is the plural of the Swedish lemma 'dinosaurie', not of a Latin '-saurus'. The Latin genus name follows the SAOL-documented -us loan pattern (kaktus -> kaktusar). Leave as is."},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "carpenter",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK","reason":"CHECK CASE — correct despite N2+N4. -are nouns are unchanged: en snickare -> flera snickare. N4 is a false positive (Swedish differs from Danish/Norwegian here by rule).","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "carpet",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "carriage",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "carrot",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"FIX","correct":"Morötter","reason":"SAOL: morot subst. ~en, pl. morötter. En morot -> flera morötter — UMLAUT (like rot -> rötter, fot -> fötter), which the brief notes the script cannot do at all. 'Moroter' is not a Swedish word, and this is one of the most common words a Swedish preschooler knows.","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "cart",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "cash-register",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK","reason":"Correct: en apparat -> apparater (-er, not the default -ar). Verified.","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "cashier",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "cast",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"FIX","correct":"Gips","reason":"'Gipsar' is not a Swedish word under any reading. As the material, 'gips' is a mass noun; as the object on an arm (themes=hospital, en=Cast/Casts) it is a neuter consonant-final noun with a zero plural: ett gips -> flera gips. Both readings give the same form, so the fix is unambiguous even though the two analyses differ.","source":"SAOL"},
-      "gender": {"verdict":"FIX","correct":"t","reason":"ett gips / gipset — neuter. The definite form in everyday medical use is unmistakably 'gipset' ('när ska gipset av?'), never 'gipsen'; corroborated by the technical term 'gipsförband' (ett förband). 'gips' is absent from the script's SV_ETT_WORDS list, which is the single cause of BOTH the wrong 'n' and the invented 'Gipsar'. Stated on native judgement and SO usage — I am deliberately NOT quoting a SAOL entry I cannot verify verbatim.","source":"SO + native usage (not a verbatim SAOL citation)"} },
-
-    { "key": "cat",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "caterpillar",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"FIX","correct":"Larver","reason":"SAOL: larv subst. ~en ~er. En larv -> flera larver (the biological term: fjärilslarver, mygglarver). 'Larvar' is the script's default -ar and is not the plural of the insect sense. (Aside: 'larv' also means 'nonsense', but that sense has no plural at all — it cannot rescue 'larvar' either.)","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "cauliflower",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"NO_PLURAL","reason":"As `cabbage`: 'blomkål' is a mass/collective noun (SAOL: blomkål ~en, no plural listed); a countable head is 'ett blomkålshuvud'. 'Blomkålar' is the script's default -ar. Structural check: blomkål is utrum, so p=s can only be NO_PLURAL, never a zero plural.","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "caulking-gun",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"FIX","correct":"Fogpistoler","reason":"SAOL: pistol subst. ~en ~er. En pistol -> två pistoler (final-stressed loan; cf. limpistol -> limpistoler). 'Fogpistolar' is the script's default -ar and is not a Swedish word.","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "cedar-tree",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"FIX","correct":"Cedrar","reason":"-er nouns syncopate and take -ar — the class the brief names (nyckel->nycklar, fjäder->fjädrar, syster->systrar). En ceder -> flera cedrar. 'Cederar' has no syncope and is not a Swedish form.","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "celery",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"NO_PLURAL","reason":"Mass noun — 'selleri' has no child-level plural; one says 'en selleristjälk' for a stick. p already equals s — conformant.","source":"SAOL"},
-      "gender": {"verdict":"OK","reason":"sellerin — utrum, consistent with the comparable -i food loans (broccolin, chilin, zucchinin). 'n' is correct."} },
-
-    { "key": "cement-mixer",
-      "singular": {"verdict":"OK","reason":"'Cementblandare' is correct Swedish for the mixing machine. NOTE for the operator: themes=vehicles suggests the image may be the TRUCK, which Swedish calls 'betongbil' (or 'cementbil'). Reported as a note, not a defect — the stored word is not wrong, and the choice depends on the image."},
-      "plural": {"verdict":"OK","reason":"-are noun, unchanged in the plural: en cementblandare -> flera cementblandare. Correct despite N2+N4.","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "centipede",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK","reason":"Correct: -ing nouns take -ar (en tusenfoting -> tusenfotingar). The default -ar is right here for the right reason.","source":"SAOL"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "cereal",
-      "singular": {"verdict":"PLURALIA_TANTUM","reason":"Deliberately NOT treated like `blocks`/`boots`. In the breakfast-cereal sense (themes=breakfast/at_the_supermarket) Swedish uses only the plural 'flingor'; the singular 'en flinga' means a single FLAKE (or a snowflake), which is not the depicted product. So the plural form standing in the singular field is correct here, and singularising it to 'Flinga' would be an error. The plural form in the field is right."},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK","reason":"en flinga -> flingor — utrum. 'n' is correct."} },
-
-    { "key": "chainsaw",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "chair",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} },
-
-    { "key": "chameleon",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"FIX","correct":"Kameleonter","reason":"SAOL: kameleont subst. ~en ~er. En kameleont -> flera kameleonter. The stored p equals s, i.e. the entry claims a zero plural — but zero plural is a NEUTER property, and 'kameleont' is utrum (the entry's own 'n'), so the data is internally impossible as well as wrong.","source":"SAOL"},
-      "gender": {"verdict":"OK","reason":"en kameleont — utrum. 'n' is correct; only the plural is wrong."} },
-
-    { "key": "chandelier",
-      "singular": {"verdict":"OK"},
-      "plural": {"verdict":"OK"},
-      "gender": {"verdict":"OK"} }
+    {
+      "key": "blocks",
+      "image_seen": "toys/blocks@2x.webp — FIVE coloured wooden cubes (red, blue, orange, yellow) stacked in a pile. Only one theme carries this key, so plural-picture is confirmed (no sister theme to overturn it, cf. the balloon case).",
+      "singular": { "verdict": "OK", "reason": "'Kloss' is the correct singular lemma. NB the current data already reads 'Kloss'; the v1 sv-02 verdict claimed the singular field held 'Klossar' — that correction has evidently landed.", "source": "https://svenska.se/tre/?sok=kloss" },
+      "plural": { "verdict": "OK", "reason": "plural-picture: the label IS the plural. SAOL '1kloss substantiv ~en ~ar' → Klossar is the correct plural; nothing further.", "source": "https://svenska.se/tre/?sok=kloss" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "blouse",
+      "image_seen": "clothing/blouse@2x.webp — ONE purple short-sleeved blouse with a white Peter-Pan collar and six dark buttons",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'blus substantiv ~en ~ar' → Blusar correct", "source": "https://svenska.se/tre/?sok=blus" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "blue",
+      "image_seen": "colors/blue@2x.webp — a single blue paint-drop/teardrop swatch with a pale highlight dot",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "adjective per classification — a colour label is not pluralised (the attributive plural blå/blåa is not a lexical plural of the label)" },
+      "gender": { "verdict": "OK", "reason": "g:null correct — adjectives carry no gender (classification hasGender:false)" }
+    },
+    {
+      "key": "blue-jay",
+      "image_seen": "birds 2/blue_jay@2x.webp — ONE blue jay: blue crested head, pale breast, dark wing bars, long blue tail. forest_creatures and things_that_fly carry the same filename.",
+      "singular": { "verdict": "OK", "reason": "Blåskrika is the established Swedish name for Cyanocitta cristata. SAOL has no entry (it does not list bird species names; it offers 'blåkråka' — a DIFFERENT bird, Coracias garrulus — as a spelling suggestion, which must not be followed).", "source": "https://svenska.se/tre/?sok=bl%C3%A5skrika" },
+      "plural": { "verdict": "OK", "reason": "Compound follows its head: SAOL '1skrika substantiv ~n skrikor / en fågel' → Blåskrikor correct", "source": "https://svenska.se/tre/?sok=skrika" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "bluebell",
+      "image_seen": "flowers/bluebell@2x.webp — ONE blue flower with SIX flat pointed petals radiating from a yellow/orange centre disc, on a stem with two leaves. ART NOTE: a blåklocka (Campanula) is a nodding BELL; this is a flat star-shaped flower — the same generic geometry as flowers/buttercup@2x.webp, merely recoloured blue. Not flagged as a defect: the colour term at least matches, and no competing key claims this art (unlike the sv-01 barrette case).",
+      "singular": { "verdict": "OK", "reason": "Blåklocka is the correct Swedish for EN 'bluebell'/harebell; the art, not the word, is the loose end", "source": "https://svenska.se/tre/?sok=bl%C3%A5klocka" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'blå|klocka substantiv ~n -klockor' → Blåklockor correct", "source": "https://svenska.se/tre/?sok=bl%C3%A5klocka" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "blueberry",
+      "image_seen": "fruits/blueberry@2x.webp — ONE blueberry, dark purple, pale crown, speckled skin; ALSO opened breakfast/blueberry@2x.webp — ONE blueberry, brighter blue, same crown. Both singular, so countable-thing holds (balloon check).",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'blå|bär substantiv ~et; pl. ~' → zero plural correct (ett blåbär → flera blåbär). This is a real zero plural, NOT a NO_PLURAL.", "source": "https://svenska.se/tre/?sok=bl%C3%A5b%C3%A4r" },
+      "gender": { "verdict": "OK", "reason": "~et = ett-ord → t correct" }
+    },
+    {
+      "key": "boat",
+      "image_seen": "vehicles/boat@2x.webp — ONE fishing boat / tug: dark planked hull, magenta trim, white wheelhouse, flag",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'båt substantiv ~en ~ar' → Båtar correct", "source": "https://svenska.se/tre/?sok=b%C3%A5t" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "boiled-egg",
+      "image_seen": "breakfast/boiled_egg@2x.webp — ONE halved hard-boiled egg, white with a round orange/yellow yolk",
+      "singular": { "verdict": "OK", "reason": "'Kokt ägg' — correct indefinite singular neuter adjective form (kokt, not kokta/kokte)" },
+      "plural": { "verdict": "OK", "reason": "'Kokta ägg' correct on both counts: SAOL 'ägg substantiv ~et; pl. ~' (zero plural) + indefinite plural adjective takes -a (kokt → kokta). This row is the in-batch proof that adjective+noun agreement CAN be got right — cf. boombox, where it was not.", "source": "https://svenska.se/tre/?sok=%C3%A4gg" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "bolt",
+      "image_seen": "tools/bolt@2x.webp — ONE yellow/brass bolt: hexagonal head with a washer, threaded shaft",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'bult substantiv ~en ~ar' → Bultar correct", "source": "https://svenska.se/tre/?sok=bult" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "bone",
+      "image_seen": "objects bw/bone@2x.webp — ONE cartoon dog-bone outline (two knobbed ends, narrow shaft), line art",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'ben substantiv ~et; pl. ~' → zero plural correct (ett ben → flera ben); a real zero plural, not NO_PLURAL", "source": "https://svenska.se/tre/?sok=ben" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "bonfire",
+      "image_seen": "miscellaneous/bonfire@2x.webp — a fire of six crossed logs with red/orange/yellow flames. NB near-identical in concept to camping/campfire@2x.webp; both keys carry the same Swedish word Lägereld.",
+      "singular": { "verdict": "OK", "reason": "MEMORY records 'Lägerar' as script-generated garbage; this row is NOT affected — the compound head is eld, not läger" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'läger|eld substantiv ~en ~ar' → Lägereldar correct", "source": "https://svenska.se/tre/?sok=l%C3%A4gereld" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "book",
+      "image_seen": "classroom/book@2x.webp — ONE closed red hardback book, dark spine, cream page block, red ribbon bookmark",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "CORRECT AND MUST NOT BE 'FIXED'. SAOL '1bok substantiv ~en böcker / tryckt, längre skrift' — the BOOK sense takes böcker. The homograph 2bok (the beech TREE) takes bokar. The stored Böcker is the right sense; a naive rule that regularises it to *bokar would destroy real data (the MEMORY trap).", "source": "https://svenska.se/tre/?sok=bok" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "bookcase",
+      "image_seen": "furniture/bookcase@2x.webp — ONE freestanding wooden bookcase, three shelves, full of coloured books",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'bok|hylla substantiv ~n -hyllor' → Bokhyllor correct", "source": "https://svenska.se/tre/?sok=bokhylla" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "bookshelf",
+      "image_seen": "around the house/bookshelf@2x.webp — ONE freestanding wooden bookcase, three shelves, full of coloured books. Same object class as the separate 'bookcase' key; Swedish does not lexicalise the bookcase/bookshelf split, so both keys correctly resolve to bokhylla (SAOL: 'anordning med vanl. flera hyllor i höjdled för uppställning av böcker').",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'bok|hylla substantiv ~n -hyllor' → Bokhyllor correct", "source": "https://svenska.se/tre/?sok=bokhylla" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "boombox",
+      "image_seen": "home and nature bw/boombox@2x.webp — ONE boombox, line art: two large speakers, cassette deck, carry handle, telescopic aerial",
+      "singular": { "verdict": "OK", "reason": "'Bärbar stereo' is a reasonable child-level label; correct indefinite singular utrum adjective (bärbar)" },
+      "plural": { "verdict": "FIX", "correct": "Bärbara stereor", "reason": "'Bärbar stereoar' is wrong TWICE. (1) Noun: SAOL '1stereo substantiv ~n ~r / stereoanläggning' → the plural is stereor, not *stereoar — the script's default -ar. (2) Adjective: an indefinite plural attributive takes -a → bärbara, not the uninflected bärbar. The same construction is done correctly one row away at boiled-egg (Kokt ägg → Kokta ägg), which is what proves this is a defect and not a convention.", "source": "https://svenska.se/tre/?sok=stereo" },
+      "gender": { "verdict": "OK", "reason": "SAOL stereo ~n → utrum → n correct" }
+    },
+    {
+      "key": "boots",
+      "image_seen": "clothing/boots@2x.webp — a PAIR of tan boots with cream fleece cuffs, standing side by side. A genuine two-object pair (the brief's sandals/slippers class), not a one-object pluralia tantum.",
+      "singular": { "verdict": "OK", "reason": "SAOL 'stövel [stöv´el] substantiv ~n stövlar' — stövel is a correct singular lemma for one boot", "source": "https://svenska.se/tre/?sok=st%C3%B6vel" },
+      "plural": { "verdict": "OK", "reason": "plural-picture: the label IS the plural. Stövlar is correct — SAOL gives the syncopated stövlar (not *stövelar); the script's -el syncope happened to land right here.", "source": "https://svenska.se/tre/?sok=st%C3%B6vel" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "bored",
+      "image_seen": "emotions/bored@2x.webp — a yellow face: drooping/slanted brows, half-lidded eyes looking up, flat downturned mouth, orange blush strokes",
+      "singular": { "verdict": "OK", "reason": "Uttråkad is the correct Swedish adjective for 'bored'" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "adjective per classification — no plural" },
+      "gender": { "verdict": "OK", "reason": "g:null correct — adjectives carry no gender" }
+    },
+    {
+      "key": "bottle",
+      "image_seen": "kitchen tools/bottle@2x.webp — ONE glass bottle of red liquid, red ribbed cap, blank yellow label",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'flaska substantiv ~n flaskor' → Flaskor correct", "source": "https://svenska.se/tre/?sok=flaska" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "bow",
+      "image_seen": "Christmas bw/bow@2x.webp — ONE ribbon bow, line art: two loops, a round centre knot, two notched tails",
+      "singular": { "verdict": "OK", "reason": "SAOL rosett: 'knut med två motstående öglor' = a knot with two opposed loops — exactly the picture", "source": "https://svenska.se/tre/?sok=rosett" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'ros·ett substantiv ~en ~er' → Rosetter correct (3rd declension -er, NOT the script's default -ar)", "source": "https://svenska.se/tre/?sok=rosett" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "bow-tie",
+      "image_seen": "accessories/bow_tie@2x.webp — ONE blue bow tie: two triangular wings and a square centre knot",
+      "singular": { "verdict": "OK", "reason": "Fluga is the correct Swedish for a bow tie (homograph with fluga 'fly', but the right word)" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'fluga substantiv ~n flugor' → Flugor correct", "source": "https://svenska.se/tre/?sok=fluga" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "bowl",
+      "image_seen": "kitchen tools/bowl@2x.webp — ONE red ceramic bowl on a foot ring, dotted band round the rim",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL '1skål substantiv ~en ~ar' → Skålar correct", "source": "https://svenska.se/tre/?sok=sk%C3%A5l" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "bowling-ball",
+      "image_seen": "sports bw 2/bowling_ball@2x.webp — ONE bowling ball outline with three finger holes, line art",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL '1klot substantiv ~et; pl. ~ / föremål av sfärisk form' → zero plural correct (ett bowlingklot → flera bowlingklot); a real zero plural, not NO_PLURAL", "source": "https://svenska.se/tre/?sok=klot" },
+      "gender": { "verdict": "OK", "reason": "klot ~et → ett-ord → t correct" }
+    },
+    {
+      "key": "bowling-pin",
+      "image_seen": "sports bw 2/bowling_pin@2x.webp — ONE bowling pin outline with two neck stripes, line art",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'kägla substantiv ~n käglor / koniskt föremål' → Bowlingkäglor correct", "source": "https://svenska.se/tre/?sok=k%C3%A4gla" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "box",
+      "image_seen": "education bw/box@2x.webp — ONE open cardboard box with four splayed flaps, line art",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'låda substantiv ~n lådor / fyrkantig behållare' → Lådor correct", "source": "https://svenska.se/tre/?sok=l%C3%A5da" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "boxing-glove",
+      "image_seen": "sports bw 2/boxing_glove@2x.webp — ONE boxing glove with a laced/strapped cuff, line art",
+      "singular": { "verdict": "OK", "reason": "NOTE, not a defect: SAOL's headword is 'boxhandske'; it returns no entry for boxningshandske and suggests boxhandske. But SAOL does not list every transparent compound (cf. blåskrika, strandhytt in this same batch), and boxningshandske is normal current Swedish. Flagging the SAOL headword rather than forcing a lemma change.", "source": "https://svenska.se/tre/?sok=boxningshandske" },
+      "plural": { "verdict": "OK", "reason": "Compound follows its head: SAOL 'handske substantiv ~n handskar' → Boxningshandskar correct", "source": "https://svenska.se/tre/?sok=handske" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "boy",
+      "image_seen": "faces bw/boy@2x.webp — ONE boy's head and shoulders, spiky hair, big eyes, freckles, smiling; line art",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'pojke substantiv ~n pojkar' → Pojkar correct", "source": "https://svenska.se/tre/?sok=pojke" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "bracelet",
+      "image_seen": "accessories/bracelet@2x.webp — ONE yellow/gold bangle with red radial stripes; ALSO hospital/bracelet@2x.webp carries the same key",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'arm|band substantiv ~et; pl. ~' → zero plural correct (ett armband → flera armband); a real zero plural, not NO_PLURAL", "source": "https://svenska.se/tre/?sok=armband" },
+      "gender": { "verdict": "OK", "reason": "~et → ett-ord → t correct" }
+    },
+    {
+      "key": "brachiosaurus",
+      "image_seen": "dinosaurs/brachiosaurus@2x.webp — ONE teal long-necked sauropod with dark dorsal spikes, small head, four legs",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Latin -us loans take -ar in Swedish, per the brief and confirmed by the SAOL pattern word: 'kakt·us substantiv ~en ~ar'. Brachiosaurusar correct. Do NOT import the German -saurus→-saurier rule.", "source": "https://svenska.se/tre/?sok=kaktus" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "brain",
+      "image_seen": "body parts/brain@2x.webp — ONE brain in profile: pink/red convoluted cortex, dark cerebellum, tan brainstem",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'hjärna substantiv ~n hjärnor' → Hjärnor correct", "source": "https://svenska.se/tre/?sok=hj%C3%A4rna" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "branch",
+      "image_seen": "Easter bw/branch@2x.webp — ONE leafy twig with five veined leaves on a stem, line art",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'gren substantiv ~en ~ar / på träd' → Grenar correct", "source": "https://svenska.se/tre/?sok=gren" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "bread",
+      "image_seen": "At the Supermarket/bread@2x.webp — ONE cut loaf: domed seeded brown crust, pale cut face showing the crumb",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'bröd substantiv ~et; pl. ~ / stycke av ett livsmedel som framställs av mjöl' → zero plural correct (ett bröd → flera bröd). The row's countable:false is wrong here — SAOL's own gloss ('a PIECE of a foodstuff') is countable, and the brief flags bread as a known _countable:false false-negative. A real zero plural, not NO_PLURAL.", "source": "https://svenska.se/tre/?sok=br%C3%B6d" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "briefcase",
+      "image_seen": "classroom bw/briefcase@2x.webp — ONE briefcase with a top handle, front flap and a clasp lock, line art",
+      "singular": { "verdict": "OK", "reason": "SAOL portfölj: 'en sorts plattare väska' — matches the picture", "source": "https://svenska.se/tre/?sok=portf%C3%B6lj" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'port·följ substantiv ~en ~er' → Portföljer correct (3rd declension -er, not the script default -ar)", "source": "https://svenska.se/tre/?sok=portf%C3%B6lj" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "broccoli",
+      "image_seen": "vegetables/broccoli@2x.webp — ONE broccoli head/crown: dark green florets on a pale thick stalk; ALSO At the Supermarket/broccoli@2x.webp, same object",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "CONTRADICTS THE BRIEF, which lists broccoli among words that 'all have real plurals'. SAOL gives 'brocc·oli substantiv ~n / en kålsort med mild smak' — definite form only, NO plural. In Swedish broccoli is a mass noun. Per the brief's own instruction, the dictionary wins. (The brief's list reads as a general cross-language remark; it does not hold for sv.) The stored zero form is harmless in practice — nothing garbled is read to a child — but the classification's hasPlural:true is not true of the Swedish word. Same finding as cabbage/cauliflower/celery in this batch.", "source": "https://svenska.se/tre/?sok=broccoli" },
+      "gender": { "verdict": "OK", "reason": "SAOL broccoli ~n → utrum → n correct" }
+    },
+    {
+      "key": "brontosaurus",
+      "image_seen": "dinosaurs/brontosaurus@2x.webp — ONE pink long-necked sauropod. ART NOTE: it carries a row of large dorsal PLATES down the back — a stegosaur trait; a brontosaurus/apatosaurus has none. Generic-hybrid dinosaur art, not a word defect.",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Latin -us loan → -ar (SAOL pattern word: 'kakt·us substantiv ~en ~ar'). Brontosaurusar correct.", "source": "https://svenska.se/tre/?sok=kaktus" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "broom",
+      "image_seen": "around the house/broom@2x.webp — ONE broom: straw/bristle head, red block, long dark-blue handle",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'kvast substantiv ~en ~ar' → Kvastar correct", "source": "https://svenska.se/tre/?sok=kvast" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "brother",
+      "image_seen": "no art — the batch row carries noImage:true and an empty themes list; judged on the word alone",
+      "singular": { "verdict": "OK", "reason": "SAOL 'bror el. broder substantiv brodern bröder' — bror is a listed headword and a true singular", "source": "https://svenska.se/tre/?sok=bror" },
+      "plural": { "verdict": "OK", "reason": "SAOL gives bröder — the umlaut plural the script cannot produce, yet the stored value is correct", "source": "https://svenska.se/tre/?sok=bror" },
+      "gender": { "verdict": "OK", "reason": "SAOL definite 'brodern' → en-ord → n correct" }
+    },
+    {
+      "key": "brown",
+      "image_seen": "colors/brown@2x.webp — a single brown paint-drop/teardrop swatch with a pale highlight dot",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "adjective per classification — a colour label is not pluralised" },
+      "gender": { "verdict": "OK", "reason": "g:null correct — adjectives carry no gender" }
+    },
+    {
+      "key": "brownie",
+      "image_seen": "bakery/brownie@2x.webp — ONE square layered chocolate brownie with darker chocolate chunks on top; ALSO desserts_and_sweets carries the same key",
+      "singular": { "verdict": "OK", "reason": "SAOL brownie: 'en mjuk chokladkaka' — matches the picture", "source": "https://svenska.se/tre/?sok=brownie" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'brownie substantiv ~n; pl. ~s' → Brownies correct. This is the sv-01 lesson holding: English loans take -s, NOT the script's default -ar (*brownier/*browniear would both be wrong).", "source": "https://svenska.se/tre/?sok=brownie" },
+      "gender": { "verdict": "OK", "reason": "SAOL brownie ~n → utrum → n correct" }
+    },
+    {
+      "key": "brush",
+      "image_seen": "around the house/brush@2x.webp — ONE brush: pale splayed bristles, green ferrule, green handle with a hanging hole",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'borste substantiv ~n borstar' → Borstar correct", "source": "https://svenska.se/tre/?sok=borste" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "bucket",
+      "image_seen": "beach/bucket@2x.webp — ONE tapered bucket, yellow/red body, blue rim band, red carry handle",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'hink substantiv ~en ~ar' → Hinkar correct", "source": "https://svenska.se/tre/?sok=hink" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "bud",
+      "image_seen": "spring/bud@2x.webp — ONE closed red flower bud with a green calyx on a curving stem",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'knopp substantiv ~en ~ar' → Knoppar correct", "source": "https://svenska.se/tre/?sok=knopp" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "bull",
+      "image_seen": "farm animals/bull@2x.webp — ONE brown bull with two large pale horns, cream muzzle, tufted tail",
+      "singular": { "verdict": "OK", "reason": "SAOL tjur: 'hanne av nötkreatur' — the male, matching the key", "source": "https://svenska.se/tre/?sok=tjur" },
+      "plural": { "verdict": "OK", "reason": "SAOL '1tjur substantiv ~en ~ar' → Tjurar correct", "source": "https://svenska.se/tre/?sok=tjur" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "bulldozer",
+      "image_seen": "vehicles/bulldozer@2x.webp — ONE yellow bulldozer with a red/orange blade, cab, exhaust stack, four tyres",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'bull|dozer substantiv ~n -dozrar' → Bulldozrar correct. The script's half-written -er syncope happened to land right here (contrast the brief's *Hummrar warning).", "source": "https://svenska.se/tre/?sok=bulldozer" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "bun",
+      "image_seen": "bakery/bun@2x.webp — ONE round bread roll, seeded orange-brown crust with a slash, pale base",
+      "singular": { "verdict": "OK", "reason": "I doubted this (bulle reads as a sweet bun to me, and the art is a savoury seeded roll), but SAOL settles it: 'bulle substantiv ~n bullar / mindre, runt stycke bröd' = a smaller, round piece of bread — exactly the picture. Dictionary over instinct.", "source": "https://svenska.se/tre/?sok=bulle" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'bulle ~n bullar' → Bullar correct", "source": "https://svenska.se/tre/?sok=bulle" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "bunny",
+      "image_seen": "easter/bunny@2x.webp — ONE white rabbit sitting upright, long pink-lined ears, whiskers, pink paw pads; spring carries the same key",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'kan·in substantiv ~en ~er' → Kaniner correct (3rd declension -er, not the script default -ar)", "source": "https://svenska.se/tre/?sok=kanin" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "burrito",
+      "image_seen": "food bw/burrito@2x.webp — ONE burrito, line art: rolled speckled tortilla, open end showing beans/filling",
+      "singular": { "verdict": "OK", "reason": "SAOL burrito: 'en mexikansk maträtt'", "source": "https://svenska.se/tre/?sok=burrito" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'burr·ito substantiv ~n; pl. ~s' → Burritos correct — the loan -s rule, not -ar", "source": "https://svenska.se/tre/?sok=burrito" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "bus",
+      "image_seen": "vehicles/bus@2x.webp — ONE blue-and-grey bus, three-quarter front view, driver and two passengers visible through the windows",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL '1buss substantiv ~en ~ar' → Bussar correct", "source": "https://svenska.se/tre/?sok=buss" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "bus-driver",
+      "image_seen": "occupations/bus_driver_2@2x.webp — a yellow school bus ('TRV BUS') with a MAN in a green cap and green waistcoat at the wheel. NB the key resolves only via the _2 filename; there is no bus_driver@2x.webp (the shoes_2 trap class).",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Compound follows its head: SAOL 'chauff·ör substantiv ~en ~er' → Busschaufförer correct (3rd declension -er)", "source": "https://svenska.se/tre/?sok=chauff%C3%B6r" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "butter-knife",
+      "image_seen": "kitchen tools/butter_knife@2x.webp — ONE knife with a red riveted handle and a broad CURVED, POINTED blade. ART NOTE: a butter knife has a blunt rounded blade; this is drawn as a chef's/paring knife. Word issue, not: smörkniv is the correct Swedish for 'butter knife'.",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Compound follows its head: SAOL 'kniv substantiv ~en ~ar' → Smörknivar correct", "source": "https://svenska.se/tre/?sok=kniv" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "buttercup",
+      "image_seen": "flowers/buttercup@2x.webp — ONE yellow/orange flower with six rounded petals round a dark centre disc, stem with two leaves",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Compound follows its head: SAOL 'smör|blomma substantiv ~n -blommor' → Smörblommor correct", "source": "https://svenska.se/tre/?sok=sm%C3%B6rblomma" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "butterfly",
+      "image_seen": "insects and bugs/butterfly@2x.webp — ONE monarch-style butterfly, wings spread: orange panels, dark borders with cream spots, two antennae. Seven themes carry this key; the file is the same across them.",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'fjäril substantiv ~en ~ar' → Fjärilar correct", "source": "https://svenska.se/tre/?sok=fj%C3%A4ril" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "cabana",
+      "image_seen": "beach/cabana@2x.webp — an OPEN red-and-cream striped canopy on four wooden posts, with TWO red sun loungers underneath. No walls, no door, no enclosed space of any kind.",
+      "singular": { "verdict": "HOLD", "reason": "Lemma-vs-art question of the sv-01 baby-overall class. SO defines the head as 'hytt: litet, avskilt rum för speciellt ändamål mest på fartyg' = a small SEPARATED ROOM — an enclosed space. The picture has no walls at all; it is an open canopy over two loungers (a strandpaviljong / parasoll med solsängar). Strandhytt is not in SAOL (transparent compound), so I cannot cite a definition of the compound itself — but by its head's definition it does not name this picture. Operator rules: fix the WORD or fix the ART. Cross-locale, since the art is shared.", "source": "https://svenska.se/tre/?sok=hytt" },
+      "plural": { "verdict": "OK", "reason": "SO 'hytt hytten hytter' → Strandhytter correct for the lemma as stored", "source": "https://svenska.se/tre/?sok=hytt" },
+      "gender": { "verdict": "OK", "reason": "SO hytten → en-ord → n correct" }
+    },
+    {
+      "key": "cabbage",
+      "image_seen": "vegetables/cabbage@2x.webp — ONE head of cabbage: pale veined heart wrapped in dark green outer leaves",
+      "singular": { "verdict": "OK", "reason": "Kål is the correct Swedish word; NB it is the generic/mass term — the pictured head would be vitkål or ett kålhuvud if a countable lemma were wanted. Not proposing that change (it would be a lemma swap, not a form fix).", "source": "https://svenska.se/tre/?sok=k%C3%A5l" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "SAOL 'kål substantiv ~en / en växt och grönsak' — definite form only, NO plural listed. Kål is a mass noun in Swedish. The classification's hasPlural:true is not true of this word (the picture is countable; the WORD is not). The stored zero form is harmless in practice.", "source": "https://svenska.se/tre/?sok=k%C3%A5l" },
+      "gender": { "verdict": "OK", "reason": "SAOL kål ~en → utrum → n correct" }
+    },
+    {
+      "key": "cabin",
+      "image_seen": "camping/cabin@2x.webp — ONE small house on a patch of grass: dark pitched roof, red chimney, one window, one door; winter carries the same key",
+      "singular": { "verdict": "OK", "reason": "SAOL stuga: 'litet hus' — exactly the picture", "source": "https://svenska.se/tre/?sok=stuga" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'stuga substantiv ~n stugor' → Stugor correct", "source": "https://svenska.se/tre/?sok=stuga" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "cabinet",
+      "image_seen": "furniture/cabinet@2x.webp — ONE two-door cupboard on short legs, yellow frame with orange panels and two dark knobs",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'skåp substantiv ~et; pl. ~' → zero plural correct (ett skåp → flera skåp); a real zero plural, not NO_PLURAL", "source": "https://svenska.se/tre/?sok=sk%C3%A5p" },
+      "gender": { "verdict": "OK", "reason": "~et → ett-ord → t correct" }
+    },
+    {
+      "key": "cable-car",
+      "image_seen": "travel and holiday bw/cable_car@2x.webp — ONE gondola cabin hanging by an arm from a cable, line art. NOTE: linbana names the cableway/installation, not the single car (that is a gondol/linbanevagn); but 'linbana' is what a Swede says of this picture in ordinary speech, so I am not calling it a defect.",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'lin|bana substantiv ~n -banor' → Linbanor correct", "source": "https://svenska.se/tre/?sok=linbana" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "cactus",
+      "image_seen": "nature bw/cactus@2x.webp — ONE spiny cactus with three arms in a plant pot, line art",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'kakt·us substantiv ~en ~ar / en växt' → Kaktusar correct. This is the SAOL entry that confirms the brief's Latin -us → -ar rule for the whole -saurus family in this batch.", "source": "https://svenska.se/tre/?sok=kaktus" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "cake",
+      "image_seen": "Opened THREE themes per the balloon lesson. 4th of July/cake@2x.webp — a WHOLE round layer cake, pink glaze, strawberries and mint on top. bakery/cake@2x.webp — a SLICE of layer cake with cream and a strawberry. At the Supermarket/cake@2x.webp — a SLICE. Because at least one theme shows a whole cake, the singular lemma Tårta holds; had I opened only the bakery art I would have seen only a tårtbit.",
+      "singular": { "verdict": "OK", "reason": "SAOL 1tårta: 'större, finare bakverk' — the 4th of July art exactly", "source": "https://svenska.se/tre/?sok=t%C3%A5rta" },
+      "plural": { "verdict": "OK", "reason": "SAOL '1tårta substantiv ~n tårtor' → Tårtor correct", "source": "https://svenska.se/tre/?sok=t%C3%A5rta" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "cake-pan",
+      "image_seen": "kitchen tools/cake_pan@2x.webp — ONE round dark-blue baking tin with two side handles, filled with speckled batter",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Compound follows its head: SAOL '1form substantiv ~en ~ar' → Kakformar correct", "source": "https://svenska.se/tre/?sok=form" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "calculator",
+      "image_seen": "classroom/calculator@2x.webp — ONE pocket calculator: grey display, red number keys, yellow = and + keys",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'mini|räkn·are substantiv ~n; pl. ~, best. pl. -räknarna' → zero plural correct. NB an utrum noun CAN have a zero plural — the brief warns against the false premise that it cannot.", "source": "https://svenska.se/tre/?sok=milir%C3%A4knare" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "calendar",
+      "image_seen": "classroom bw 2/calendar@2x.webp — ONE spiral-bound calendar with an empty date grid, line art",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'kal·ender substantiv ~n kalendrar' → Kalendrar correct — the -er syncope the brief flags (nyckel→nycklar class), landed right here", "source": "https://svenska.se/tre/?sok=kalender" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "calf",
+      "image_seen": "farm animals/calf@2x.webp — ONE young cow, white with brown patches, two small dark horns, pink muzzle",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'kalv substantiv ~en ~ar' → Kalvar correct", "source": "https://svenska.se/tre/?sok=kalv" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "camel",
+      "image_seen": "animals/camel@2x.webp — ONE camel with a SINGLE hump (a dromedary), tan, standing; zoo_animals carries the same key. Not a defect: Swedish kamel is the generic covering both dromedary and bactrian.",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'kamel substantiv ~en ~er' → Kameler correct (3rd declension -er, not the script default -ar)", "source": "https://svenska.se/tre/?sok=kamel" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "camera",
+      "image_seen": "household bw/camera@2x.webp — ONE SLR-style camera: large lens, two top dials, viewfinder; line art",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'kamera substantiv ~n kameror' → Kameror correct", "source": "https://svenska.se/tre/?sok=kamera" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "camp",
+      "image_seen": "travel and holiday bw/camp@2x.webp — ONE ridge tent with an open flap on a patch of ground between two trees, line art",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'läger substantiv lägret; pl. ~, best. pl. lägren' → zero plural correct. MEMORY records '*Lägerar' as script-generated garbage — it is NOT present in this row; the stored data is right and must not be regularised.", "source": "https://svenska.se/tre/?sok=l%C3%A4ger" },
+      "gender": { "verdict": "OK", "reason": "SAOL definite 'lägret' → ett-ord → t correct" }
+    },
+    {
+      "key": "camper",
+      "image_seen": "camping/camper@2x.webp — ONE camper van / motorhome in side view: white upper body, red/yellow lower bands, yellow door, roof vent",
+      "singular": { "verdict": "OK", "reason": "SAOL husbil: 'för camping'", "source": "https://svenska.se/tre/?sok=husbil" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'hus|bil substantiv ~en ~ar' → Husbilar correct", "source": "https://svenska.se/tre/?sok=husbil" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "campfire",
+      "image_seen": "camping/campfire@2x.webp — a fire of six crossed logs with red/orange/yellow flames; summer carries the same key. Near-identical to miscellaneous/bonfire@2x.webp — the two keys share one Swedish word.",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'läger|eld substantiv ~en ~ar' → Lägereldar correct", "source": "https://svenska.se/tre/?sok=l%C3%A4gereld" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "camping-chair",
+      "image_seen": "camping/camping_chair@2x.webp — ONE folding camp chair: red/yellow fabric seat and back, wooden X-frame and armrests",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Compound follows its head: SAOL 'stol substantiv ~en ~ar' → Campingstolar correct", "source": "https://svenska.se/tre/?sok=stol" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "can",
+      "image_seen": "At the Supermarket/can@2x.webp — ONE cylindrical tin can with a red/white label and a gold dot, ring-pull lid",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'burk substantiv ~en ~ar' → Burkar correct", "source": "https://svenska.se/tre/?sok=burk" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "canary",
+      "image_seen": "birds 2/canary@2x.webp — ONE plump yellow bird with an orange beak, brown wing, orange feet",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Compound follows its head: SAOL 'fågel substantiv ~n fåglar' → Kanariefåglar correct (syncope right)", "source": "https://svenska.se/tre/?sok=f%C3%A5gel" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "candle",
+      "image_seen": "christmas/candle@2x.webp — ONE lit red pillar candle with cream dripping wax and a yellow flame",
+      "singular": { "verdict": "OK", "reason": "Ljus is the correct word for a candle (homograph with ljus 'light')" },
+      "plural": { "verdict": "OK", "reason": "SAOL '1ljus substantiv ~et; pl. ~' → zero plural correct (ett ljus → flera ljus); a real zero plural, not NO_PLURAL", "source": "https://svenska.se/tre/?sok=ljus" },
+      "gender": { "verdict": "OK", "reason": "~et → ett-ord → t correct" }
+    },
+    {
+      "key": "candy",
+      "image_seen": "Opened BOTH colour themes. At the Supermarket/candy@2x.webp — ONE wrapped red sweet, twisted ends. easter/candy@2x.webp — ONE wrapped purple/yellow spotted sweet, twisted ends. Both show a SINGLE piece, so the countable-thing classification is sound — and that is exactly what creates the problem below.",
+      "singular": { "verdict": "OK", "reason": "Godis is a correct headword — but see the plural: SAOL carries TWO godis entries and the row has to pick one" },
+      "plural": { "verdict": "HOLD", "reason": "Internal contradiction between the stored row and the picture; SAOL has TWO entries. (1) '1god·is substantiv ~et' = sötsaker, a MASS noun, ett-ord, NO plural. (2) '2god·is substantiv ~en ~ar' = 'godisbit', ONE PIECE, en-ord, plural godisar (confirmed by the separate entry 'god·is|bit substantiv ~en ~ar'). The stored row (g:t, zero plural) is internally coherent — but it is sense 1, the mass noun. The PICTURE is one wrapped sweet, i.e. sense 2, which would require g:n AND p:Godisar. So the row is coherent while the row-vs-picture pairing is not. This is a sense choice, not a form fix — the brief says never rewrite blind. Operator rules: keep sense 1 (mass label 'Godis' beside a picture of one sweet — defensible, since a Swede reads the label loosely) or move to sense 2, in which case gender AND plural must BOTH change together.", "source": "https://svenska.se/tre/?sok=godis" },
+      "gender": { "verdict": "OK", "reason": "t is correct FOR THE LEMMA AS STORED (SAOL 1godis ~et). Flagging the dependency: if the operator resolves the plural HOLD toward SAOL's sense 2 (the one-piece reading the picture supports), this must flip to n. Do not change the gender alone.", "source": "https://svenska.se/tre/?sok=godis" }
+    },
+    {
+      "key": "candy-cane",
+      "image_seen": "christmas/candy_cane@2x.webp — ONE hooked red-and-white striped candy cane; desserts_and_sweets carries the same key",
+      "singular": { "verdict": "OK", "reason": "SAOL polkagris: 'en röd- och vitrandig sötsak ofta i form av stänger' = a red-and-white striped sweet, often stick-shaped — the picture exactly", "source": "https://svenska.se/tre/?sok=polkagris" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'polka|gris substantiv ~en ~ar' → Polkagrisar correct", "source": "https://svenska.se/tre/?sok=polkagris" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "canoe",
+      "image_seen": "camping/canoe@2x.webp — ONE red canoe with three wooden thwarts, high pointed bow and stern; vehicles carries the same key",
+      "singular": { "verdict": "OK", "reason": "SAOL kanot: 'en långsmal lätt båt för paddling' — matches", "source": "https://svenska.se/tre/?sok=kanot" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'kan·ot substantiv ~en ~er' → Kanoter correct (3rd declension -er)", "source": "https://svenska.se/tre/?sok=kanot" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "cap",
+      "image_seen": "clothing/cap@2x.webp — ONE grey baseball cap with a blue peak and button, eyelets, stitched panels",
+      "singular": { "verdict": "OK", "reason": "SAOL keps: 'en platt mössa med skärm' = a flat cap with a peak — the picture exactly", "source": "https://svenska.se/tre/?sok=keps" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'keps substantiv ~en ~ar' → Kepsar correct", "source": "https://svenska.se/tre/?sok=keps" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "cape",
+      "image_seen": "accessories/cape@2x.webp — ONE purple SLEEVELESS cape: a wide pointed shoulder collar, a row of dark buttons down the front, flaring to a hem. No sleeves of any kind.",
+      "singular": { "verdict": "FIX", "correct": "Cape", "reason": "THE STORED SINGULAR IS A VERB. SAOL: 'kapa verb ~de ~t' = to saw/chop off; to hijack. There is NO noun kapa — the singular field holds a verb, and the script then pluralised it into the equally non-existent *Kapor. The correct noun is SAOL's 'cape [kä´p] substantiv ~n [-en]; pl. ~r [-er]', defined as 'ett ärmlöst plagg som läggs över axlarna' = a SLEEVELESS garment laid over the shoulders — which is the picture, word for word. I considered the alternative that Kapa is a typo for kappa (a coat; SAOL 'kappa ~n kappor'), but the picture rules that out: a kappa has sleeves and this garment has none. The picture is what settles it.", "source": "https://svenska.se/tre/?sok=kapa" },
+      "plural": { "verdict": "FIX", "correct": "Caper", "reason": "SAOL 'cape substantiv ~n; pl. ~r' and SO 'cape capen caper' → Caper. The stored *Kapor is the script's -a→-or plural of a verb; it is not a Swedish word.", "source": "https://svenska.se/tre/?sok=cape" },
+      "gender": { "verdict": "OK", "reason": "n survives the fix by luck, not by design: SO 'cape capen caper' → en-ord → n is correct for the corrected lemma too" }
+    },
+    {
+      "key": "capricious",
+      "image_seen": "emotions/capricious@2x.webp — a yellow face with arched CLOSED eyes and a wide open wailing/whining grimace, orange blush. Reads as crying/whingeing rather than capricious, but that is the EN key's stretch; nyckfull is the right Swedish for 'capricious'.",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "adjective per classification — no plural" },
+      "gender": { "verdict": "OK", "reason": "g:null correct — adjectives carry no gender" }
+    },
+    {
+      "key": "capybara",
+      "image_seen": "animals bw/capybara@2x.webp — ONE capybara sitting upright, blunt muzzle, small rounded ears, line art",
+      "singular": { "verdict": "OK", "reason": "SAOL 'kapybara substantiv ~n kapybaror / vattensvin' — SAOL HAS the word (SO does not; do not read SO's 'Inga träffar' as absence)", "source": "https://svenska.se/tre/?sok=kapybara" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'kapybara ~n kapybaror' → Kapybaror correct — dictionary-confirmed, not merely rule-derived", "source": "https://svenska.se/tre/?sok=kapybara" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "car",
+      "image_seen": "vehicles/car@2x.webp — ONE green two-door car, three-quarter front view, round headlights, chrome bumper",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Bil ~en ~ar → Bilar correct; confirmed via the SAOL compound 'hus|bil substantiv ~en ~ar'", "source": "https://svenska.se/tre/?sok=husbil" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "card",
+      "image_seen": "valentine bw/card@2x.webp — an OPEN ENVELOPE with a card sliding out, two interlocking hearts on the card; line art",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Kort ~et; pl. ~ → zero plural correct (ett kort → flera kort); a real zero plural, not NO_PLURAL" },
+      "gender": { "verdict": "OK", "reason": "ett kort → t correct" }
+    },
+    {
+      "key": "cardigan",
+      "image_seen": "clothing/cardigan@2x.webp — ONE red knitted cardigan with a yellow ribbed V-placket, cuffs and hem, four dark buttons, chest pocket",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'kofta substantiv ~n koftor' → Koftor correct", "source": "https://svenska.se/tre/?sok=kofta" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "cardinal",
+      "image_seen": "birds 2/cardinal@2x.webp — ONE red BIRD (northern cardinal): pointed crest, black face mask, orange beak; forest_creatures carries the same key. Not a churchman — and the dictionary covers it.",
+      "singular": { "verdict": "OK", "reason": "Dictionary-confirmed for the pictured sense: SAOL '1kard·in·al substantiv ~en ~er' lists sense 1 'prelat i rang närmast påven' AND sense 2 'en fågel'. I expected this to be a churchman/bird mismatch; SAOL explicitly carries the bird.", "source": "https://svenska.se/tre/?sok=kardinal" },
+      "plural": { "verdict": "OK", "reason": "SAOL '1kard·in·al ~en ~er' → Kardinaler correct (3rd declension -er)", "source": "https://svenska.se/tre/?sok=kardinal" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "cards",
+      "image_seen": "toys/cards@2x.webp — TWO overlapping playing cards: an ace of diamonds/hearts in front, an ace of clubs behind",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "plural-picture: the label IS the plural. Kort has a zero plural (ett kort → flera kort), so the form is identical to the singular and nothing further is needed." },
+      "gender": { "verdict": "OK", "reason": "ett kort → t correct" }
+    },
+    {
+      "key": "carnation",
+      "image_seen": "flowers/carnation@2x.webp — ONE red flower with many frilled/serrated petals round a golden stamen centre, stem with leaves",
+      "singular": { "verdict": "OK", "reason": "Nejlika is correct for the flower. NB SAOL's gloss on the headword is 'krydda av en växt' (the CLOVE spice, i.e. kryddnejlika); nejlika covers both the Dianthus flower and the spice. The flower sense is right for this picture.", "source": "https://svenska.se/tre/?sok=nejlika" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'nejl·ika substantiv ~n nejlikor' → Nejlikor correct", "source": "https://svenska.se/tre/?sok=nejlika" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "carnotaurus",
+      "image_seen": "dinosaurs/carnotaurus@2x.webp — ONE red bipedal theropod with dorsal spikes, small arms, long tail. ART NOTE: no brow horns, which are Carnotaurus's one diagnostic feature; generic theropod art.",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Carnotaurusar correct. The brief cites this exact key: a de reviewer rightly refused -saurus→-saurier for carnotaurus (Latin taurus), and sv takes -ar on Latin -us loans — SAOL pattern word 'kakt·us substantiv ~en ~ar'. Do NOT import the German rule.", "source": "https://svenska.se/tre/?sok=kaktus" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "carpenter",
+      "image_seen": "occupations/carpenter@2x.webp — ONE bearded man in a yellow hard hat, dungarees and a tool belt, carrying a wooden plank",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'snick·are substantiv ~n; pl. ~, best. pl. snickarna' → zero plural correct. The -are agent-noun class takes a zero plural; an utrum noun CAN have one (the brief's warning against the false 'utrum cannot have a zero plural' premise).", "source": "https://svenska.se/tre/?sok=snickare" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "carpet",
+      "image_seen": "around the house/carpet@2x.webp — ONE blue rectangular rug with a dark border, scattered dots and white fringes at both ends",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Mattor correct. SAOL's bare 'matta' page is a disambiguation (1matta subst. / 2matta verb / matta adj.) and does not render an inflection line, so I confirmed the noun via the compound: SAOL 'dörr|matta substantiv ~n -mattor / se även: ... 1matta 1'.", "source": "https://svenska.se/tre/?sok=d%C3%B6rrmatta" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "carriage",
+      "image_seen": "vehicles bw 3/carriage@2x.webp — ONE ornate horse-drawn coach (fairy-tale style): curtained windows, crown-like roof cresting, two spoked wheels, driver's seat. No horse.",
+      "singular": { "verdict": "OK", "reason": "SAOL vagn: 'anordning på hjul ofta utan motor för marktransport' — covers the picture (hästvagn/karet would be more specific, but vagn is not wrong)", "source": "https://svenska.se/tre/?sok=vagn" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'vagn substantiv ~en ~ar' → Vagnar correct", "source": "https://svenska.se/tre/?sok=vagn" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "carrot",
+      "image_seen": "vegetables/carrot@2x.webp — ONE orange carrot with a green leafy top; At the Supermarket and easter carry the same key",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "CORRECT AND MUST NOT BE 'FIXED'. SAOL 'mo|rot substantiv ~en -rötter' → Morötter. This is the brief's own umlaut example (morot→morötter) — a form the script provably cannot generate, yet the stored data is right. A regularising pass would destroy it.", "source": "https://svenska.se/tre/?sok=morot" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "cart",
+      "image_seen": "At the Supermarket/cart@2x.webp — ONE red supermarket trolley in side view: basket grid, long handle, two dark castors",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'kund|vagn substantiv ~en ~ar' → Kundvagnar correct", "source": "https://svenska.se/tre/?sok=kundvagn" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "cash-register",
+      "image_seen": "At the Supermarket/cash_register@2x.webp — ONE cash register: dark keypad, small display, red cash drawer with a gold knob",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "Compound follows its head: SAOL 'ap·par·at substantiv ~en ~er' → Kassaapparater correct (3rd declension -er)", "source": "https://svenska.se/tre/?sok=apparat" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "cashier",
+      "image_seen": "occupations/cashier@2x.webp — a WOMAN with red hair in a bun, yellow shirt and teal apron, working at a till/terminal on a counter",
+      "singular": { "verdict": "OK", "reason": "SAOL kassör: 'person som sköter kassa och ofta ansvarar för t.ex. en idrottsklubbs ekonomi' — the primary sense ('handles the till') covers a shop cashier, so this is not the treasurer-only false friend I half-expected. Kassör is used gender-neutrally in current Swedish; the pictured woman does not require kassörska.", "source": "https://svenska.se/tre/?sok=kass%C3%B6r" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'kass·ör substantiv ~en ~er' → Kassörer correct (3rd declension -er)", "source": "https://svenska.se/tre/?sok=kass%C3%B6r" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "cast",
+      "image_seen": "hospital/cast@2x.webp — a BOY in blue medical scrubs with a stethoscope, his left forearm in a white plaster cast. The cast is one element of a whole-figure scene, not the sole subject.",
+      "singular": { "verdict": "OK", "reason": "Gips is the everyday Swedish for a plaster cast ('han har gips på armen'). The precise term is gipsförband (SAOL 'gips|för·band substantiv ~et; pl. ~').", "source": "https://svenska.se/tre/?sok=gipsf%C3%B6rband" },
+      "plural": { "verdict": "OK", "reason": "Zero plural is the everyday form and matches the precise synonym SAOL does inflect: 'gips|för·band ~et; pl. ~'. Honest limitation: SAOL's bare 'gips' page is a two-entry disambiguation that did not render an inflection line in the tool, so I could not read a modern SAOL plural for gips itself; SAOB (1928) records 'pl. ... -er' only for 'olika slag av gips' (KINDS of plaster), which is not this sense. Not proposing a change on that basis.", "source": "https://svenska.se/tre/?sok=gips" },
+      "gender": { "verdict": "OK", "reason": "t correct for the cast sense — modern standard is gipset. SAOB records 'GIPS ... r. l. m. ((†) n. ...); best. -en (ss. n. -et)', i.e. the neuter definite -et is recorded; and the precise synonym gipsförband is unambiguously ~et.", "source": "https://svenska.se/tre/?sok=gips" }
+    },
+    {
+      "key": "cat",
+      "image_seen": "pets/cat@2x.webp — ONE orange tabby cat sitting, dark stripes, white chest, whiskers, dark tail tip. Five themes carry this key.",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'katt substantiv ~en ~er' → Katter correct (3rd declension). This is one of the brief's stated control rows ['Katt','Katter','n'] and it verifies.", "source": "https://svenska.se/tre/?sok=katt" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "caterpillar",
+      "image_seen": "insects and bugs/caterpillar@2x.webp — ONE green-and-yellow banded caterpillar with a yellow head, two red club antennae, stubby legs; forest_creatures and spring carry the same key",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL '1larv substantiv ~en ~er' → Larver correct (3rd declension -er, not the script default -ar)", "source": "https://svenska.se/tre/?sok=larv" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "cauliflower",
+      "image_seen": "vegetables/cauliflower@2x.webp — ONE cauliflower: cream curd florets above dark green leaves and a pale stalk",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "SAOL 'blom|kål substantiv ~en / en grönsak' — definite form only, NO plural. Mass noun, like its head kål. The classification's hasPlural:true is not true of the Swedish word; the stored zero form is harmless in practice.", "source": "https://svenska.se/tre/?sok=blomk%C3%A5l" },
+      "gender": { "verdict": "OK", "reason": "SAOL blomkål ~en → utrum → n correct" }
+    },
+    {
+      "key": "caulking-gun",
+      "image_seen": "tools/caulking_gun@2x.webp — ONE caulking gun: red/dark barrel with a flanged end, trigger grip, plunger rod, nozzle",
+      "singular": { "verdict": "OK", "reason": "SAOL pistol sense 2: 'mest i sammansättn. ett pistolliknande redskap: spikpistol' — licenses exactly this -pistol tool compound", "source": "https://svenska.se/tre/?sok=pistol" },
+      "plural": { "verdict": "OK", "reason": "Compound follows its head: SAOL 'pist·ol substantiv ~en ~er' → Fogpistoler correct (3rd declension -er)", "source": "https://svenska.se/tre/?sok=pistol" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "cedar-tree",
+      "image_seen": "tree/cedar@2x.webp (⚠ the key resolves only by DROPPING the _tree suffix — there is no cedar_tree@2x.webp; the shoes_2 trap class) — ONE BROADLEAF DECIDUOUS tree: rounded green blob crown, brown forked trunk. A cedar (Cedrus) is a CONIFER. I then opened two neighbours to test whether the theme is simply generic: tree/cypress@2x.webp is a proper conical needle CONIFER, and tree/birch@2x.webp has white lenticelled bark with star-shaped leaves. The theme IS species-differentiated and can draw conifers — so this is a per-key art defect, not a house style.",
+      "singular": { "verdict": "HOLD", "reason": "Word-vs-art mismatch of the sv-01 barrette class. Ceder is the correct Swedish for 'cedar' (SAOL 'ceder substantiv ~n cedrar / ett träd'), so the ART is the likely defect: the picture is a generic broadleaf tree, and the same theme renders cypress as a real conifer and birch with real birch bark. Operator rules: fix the WORD or fix the ART. Cross-locale, since the art is shared.", "source": "https://svenska.se/tre/?sok=ceder" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'ceder substantiv ~n cedrar' → Cedrar correct for the lemma as stored (-er syncope right)", "source": "https://svenska.se/tre/?sok=ceder" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "celery",
+      "image_seen": "vegetables/celery@2x.webp — ONE head/bunch of celery: ribbed pale-green stalks rising to dark serrated leaves, bulbous pale base",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "CONTRADICTS THE BRIEF, which lists celery among words that 'all have real plurals'. SAOL gives 'sell·eri substantiv ~n / rotknöl el. stjälkknippe av en köksväxt' — definite form only, NO plural. Selleri is a mass noun in Swedish; the dictionary wins per the brief's own instruction. Same finding as broccoli/cabbage/cauliflower.", "source": "https://svenska.se/tre/?sok=selleri" },
+      "gender": { "verdict": "OK", "reason": "SAOL selleri ~n → utrum → n correct" }
+    },
+    {
+      "key": "cement-mixer",
+      "image_seen": "vehicles/cement_mixer@2x.webp — ONE cement-mixer TRUCK: yellow cab and chassis, red/yellow striped rotating drum, four wheels, chute",
+      "singular": { "verdict": "OK", "reason": "NOTE, not a defect: the picture is a mixer TRUCK (betongbil/cementbil); cementblandare properly names the standalone mixing machine, and betongblandare is the commoner term for the machine (concrete, not cement, is what is mixed). Cementblandare is nonetheless transparent and understood; flagging rather than forcing a lemma change." },
+      "plural": { "verdict": "OK", "reason": "Compound follows its head: SAOL 'bland·are substantiv ~n; pl. ~, best. pl. blandarna' → zero plural correct (-are agent-noun class)", "source": "https://svenska.se/tre/?sok=blandare" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "centipede",
+      "image_seen": "insects and bugs/centipede@2x.webp — ONE red-and-dark banded centipede curving in an arc, many legs, two club antennae",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'tusen|fot·ing substantiv ~en ~ar' → Tusenfotingar correct", "source": "https://svenska.se/tre/?sok=tusenfoting" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "cereal",
+      "image_seen": "breakfast/cereal@2x.webp — a red BOWL heaped with many yellow cereal rings/flakes; At the Supermarket carries the same key. The subject is a bowlful of flakes, i.e. inherently many.",
+      "singular": { "verdict": "PLURALIA_TANTUM", "reason": "The singular field holds a PLURAL — the defect class the brief names — but here that is arguably RIGHT, so I am not calling it a FIX. SAOL: 'flinga substantiv ~n flingor / MEST I PL. lätt, tunt stycke av ngt: snöflinga; FLINGOR MED MJÖLK'. A singular flinga exists but means ONE FLAKE, not the breakfast product; SAOL's own example for the food sense is the plural (flingor med mjölk). As the name of the cereal the word has no usable singular, so 'Flingor' in the singular field is the honest label — flagging it as pluralia tantum rather than manufacturing *'En flinga' as a cereal label. Note this also sits oddly with the classification (countable-thing, hasPlural:true) — the picture is a bowlful, not one countable flake.", "source": "https://svenska.se/tre/?sok=flinga" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'flinga ~n flingor' → Flingor is the correct plural form and the correct product label", "source": "https://svenska.se/tre/?sok=flinga" },
+      "gender": { "verdict": "OK", "reason": "SAOL flinga ~n → en flinga → utrum → n correct" }
+    },
+    {
+      "key": "chainsaw",
+      "image_seen": "tools bw/chainsaw@2x.webp — ONE electric chainsaw: toothed guide bar, motor housing, top handle, trailing cable and plug; line art",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'mot·or|såg substantiv ~en ~ar' → Motorsågar correct", "source": "https://svenska.se/tre/?sok=motors%C3%A5g" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "chair",
+      "image_seen": "furniture/chair@2x.webp — ONE red/orange wooden chair: plank seat, curved backrest, four square legs. Six themes carry this key.",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'stol substantiv ~en ~ar' → Stolar correct (the brief's own -ar declension example)", "source": "https://svenska.se/tre/?sok=stol" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "chameleon",
+      "image_seen": "reptiles and Amphibians/chameleon@2x.webp — ONE orange striped lizard with a casque/crest behind the head, big turreted eye, curled tail, splayed toes",
+      "singular": { "verdict": "OK", "reason": "SAOL kameleont: 'en ödla som kan växla färg efter omgivningen'", "source": "https://svenska.se/tre/?sok=kameleont" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'kameleont substantiv ~en ~er' → Kameleonter correct (3rd declension -er)", "source": "https://svenska.se/tre/?sok=kameleont" },
+      "gender": { "verdict": "OK" }
+    },
+    {
+      "key": "chandelier",
+      "image_seen": "home bw/chandelier@2x.webp — ONE five-arm chandelier on a chain: scrolled arms, five FABRIC/BELL SHADES, a drop finial. No crystals or prisms of any kind.",
+      "singular": { "verdict": "OK", "reason": "Kept, though I first read it as a defect. SAOL 'krist·all|krona substantiv ~n -kronor' glosses it merely as 'finare taklampa' = a finer ceiling lamp — the definition does NOT require crystal, so the picture does not contradict the entry and I will not overrule the dictionary. Flagging only that the generic ljuskrona ('stor, elegant taklampa') is the closer fit for a shaded, crystal-free chandelier and would be the safer label.", "source": "https://svenska.se/tre/?sok=kristallkrona" },
+      "plural": { "verdict": "OK", "reason": "SAOL 'krist·all|krona ~n -kronor' → Kristallkronor correct (cf. 'krona substantiv ~n kronor')", "source": "https://svenska.se/tre/?sok=kristallkrona" },
+      "gender": { "verdict": "OK" }
+    }
   ]
 }

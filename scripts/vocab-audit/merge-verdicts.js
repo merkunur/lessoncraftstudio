@@ -40,12 +40,23 @@ function main() {
   const loc = get('locale', 'de');
 
   /* ---- ground truth: what we ASKED to be reviewed ---- */
-  const asked = {};      /* key -> cur {s,p,g} */
+  const asked = {};      /* key -> cur {s,p,g}  — what a reviewer MAY answer */
+  const BLOCKED = {};    /* key -> why           — what a reviewer MUST NOT answer */
   const batchDir = path.join(OUT, 'batches');
   const bFiles = fs.readdirSync(batchDir).filter((f) => f.startsWith(loc + '-') && f.endsWith('.json')).sort();
   for (const f of bFiles) {
     const b = JSON.parse(fs.readFileSync(path.join(batchDir, f), 'utf8'));
-    for (const r of b.rows) asked[r.key] = r.cur;
+    for (const r of b.rows) {
+      /* The coverage assert exists because the operator asked for EVERY word.
+         But a BLOCKED key is not "unanswered" — it is deliberately unanswerable
+         until he rules on whether to fix the WORD or the ART. Demanding a
+         verdict for it would push a reviewer to pluralise a label that does not
+         name its picture ("Singen" -> "Singens"), which is the exact defect
+         this arc exists to delete. So blocked keys leave the asked set and are
+         proven ABSENT instead. */
+      if (r.BLOCKED) { BLOCKED[r.key] = r.block_reason || 'lemma mismatch'; continue; }
+      asked[r.key] = r.cur;
+    }
   }
 
   /* ---- what came back ---- */
@@ -61,6 +72,19 @@ function main() {
     catch (e) { errors.push(f + ': parse — ' + e.message); continue; }
     for (const row of (v.rows || [])) {
       if (!row || !row.key) { errors.push(f + ': a row with no key'); continue; }
+      /* BLOCKED first — before the asked-set check, because these keys are
+         deliberately NOT in the asked set. The word does not name the picture
+         (singing = a MICROPHONE), so its classification describes the PICTURED
+         OBJECT and any verdict against the LABEL is meaningless. RULE 4 tells
+         the reviewer to skip them; some listed the key anyway to record the
+         skip, which is fine. What is NOT fine is a blocked key carrying an
+         actual verdict — that is the "Singen" -> "Singens" defect arriving. */
+      if (BLOCKED[row.key]) {
+        if (FIELDS.some((fl) => row[fl] && row[fl].verdict)) {
+          errors.push(f + ' ' + row.key + ': BLOCKED key carries verdicts — RULE 4 says skip it (its hasPlural describes the PICTURED object, not this label)');
+        }
+        continue;
+      }
       if (!(row.key in asked)) { errors.push(f + ': key not in any batch: ' + row.key); continue; }
       if (seen[row.key]) errors.push('DUPLICATE verdict for ' + row.key + ' (in ' + f + ')');
       const fields = {};

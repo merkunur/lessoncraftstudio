@@ -1,0 +1,1471 @@
+{
+ "locale": "nl",
+ "batch": "08",
+ "reviewed": 110,
+ "rows": [
+  {
+   "key": "overalls",
+   "image_seen": "clothing/overalls@2x.webp — one orange sleeveless bib-front tuinbroek (dungarees) with straps/buttons",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "oviraptor",
+   "image_seen": "dinosaurs/oviraptor@2x.webp — one cartoon brown long-necked dinosaur, striped back/tail",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Genusnaam, niet in Groene Boekje; zowel -oren als -s circuleren; niet gezaghebbend te weerleggen, huidige vorm behouden"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "owl",
+   "image_seen": "animals/owl@2x.webp — one blue cartoon owl with big eyes and ear tufts",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "ox",
+   "image_seen": "farm animals/ox@2x.webp — one cartoon orange ox/bull with two curved horns",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "oyster",
+   "image_seen": "ocean life/oyster@2x.webp — one open oyster shell with red interior and a pearl",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pachycephalosaurus",
+   "image_seen": "dinosaurs/pachycephalosaurus@2x.webp — one cartoon dino (drawn stegosaurus-like)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "package",
+   "image_seen": "post office/package@2x.webp — one sealed cardboard shipping box with red tape",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "padlock",
+   "image_seen": "home bw 2/padlock@2x.webp — B&W line drawing of one round padlock with keyhole",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "paint-brush",
+   "image_seen": "tools/paint_brush@2x.webp — one wide flat paint brush, wooden handle, orange-tipped bristles",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "paint-roller",
+   "image_seen": "tools bw/paint_roller@2x.webp — B&W line drawing of one paint roller",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "paintbrush",
+   "image_seen": "education bw/paintbrush@2x.webp — B&W line drawing of one pointed artist paintbrush",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "painting",
+   "image_seen": "activities/painting@2x.webp — a wooden artist PALETTE with paint blobs and a brush (the painting activity)",
+   "singular": {
+    "verdict": "HOLD",
+    "reason": "Lemma-mismatch: enkelvoud Schilderen is de ACTIVITEIT (infinitief), meervoud Schilderijen is een OBJECT (schilderij); afbeelding toont een palet. Aanbeveling enkelvoud Schilderij; operator kiest woord of art"
+   },
+   "plural": {
+    "verdict": "HOLD",
+    "reason": "Interne tegenstrijdigheid: meervoud hoort bij lemma schilderij, niet bij schilderen (zie singular)"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pajamas",
+   "image_seen": "clothing/pajamas@2x.webp — one red two-piece button-up pyjama set",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "palette",
+   "image_seen": "classroom bw 2/palette@2x.webp — B&W line drawing of one oval palette with paint wells",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "palm-tree",
+   "image_seen": "beach/palm_tree@2x.webp — one green palm tree with curved trunk",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pan",
+   "image_seen": "around the house/pan@2x.webp — one copper saute pan with long handle",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pancake",
+   "image_seen": "breakfast/pancake@2x.webp — one thick pancake with butter and jam",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "panda",
+   "image_seen": "animals/panda@2x.webp — one cute sitting cartoon panda",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pants",
+   "image_seen": "clothing/pants@2x.webp — ART_DEFECT: one pair of yellow knee-length SHORTS (word follows KEY = pants/broek)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "papaya",
+   "image_seen": "fruits/papaya@2x.webp — one halved papaya showing orange flesh and dark seeds",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "paper",
+   "image_seen": "classroom/paper@2x.webp — one sheet of lined paper with a red clip",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "FIX",
+    "correct": "Papieren",
+    "reason": "Groene Boekje: het papier, meervoud papieren (category=countable-thing); huidige waarde herhaalt het enkelvoud",
+    "source": "https://woordenlijst.org/zoeken/?q=papier"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "paper-airplane",
+   "image_seen": "things that fly/paper_airplane@2x.webp — one red folded paper airplane",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "parallelogram",
+   "image_seen": "shapes/parallelogram@2x.webp — one pink slanted parallelogram shape",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "paramedic",
+   "image_seen": "occupations/paramedic@2x.webp — one cartoon medic in teal uniform with stethoscope",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "parasaurolophus",
+   "image_seen": "dinosaurs/parasaurolophus@2x.webp — one cartoon dino (drawn stegosaurus-like)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "parasol",
+   "image_seen": "beach bw/parasol@2x.webp — B&W line drawing of one open parasol/beach umbrella",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "park-ranger",
+   "image_seen": "occupations/park_ranger@2x.webp — one cartoon ranger in green uniform with campaign hat",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "parrot",
+   "image_seen": "birds/parrot@2x.webp — one yellow parrot with red hooked beak",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "parsnip",
+   "image_seen": "vegetables/parsnip@2x.webp — one cream parsnip root with green leafy top",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "partly-cloudy",
+   "image_seen": "weather/partly_cloudy@2x.webp — a sun partly hidden behind two clouds",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "adjective — geen meervoud"
+   },
+   "gender": {
+    "verdict": "OK",
+    "reason": "adjective — geen genus"
+   }
+  },
+  {
+   "key": "party-hat",
+   "image_seen": "accessories/party_hat@2x.webp — one conical striped party hat with a star",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "passport",
+   "image_seen": "travel and holiday bw/passport@2x.webp — B&W line-art passport booklet with winged emblem",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pasta",
+   "image_seen": "at the supermarket/pasta@2x.webp — one sealed package of dry tube pasta",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "stofnaam (mass) — geen kindertaal-meervoud",
+    "source": "https://woordenlijst.org/zoeken/?q=pasta"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pea",
+   "image_seen": "vegetables bw 2/pea@2x.webp — B&W line-art of one open pea pod with round peas",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "peach",
+   "image_seen": "at the supermarket/peach@2x.webp — one orange-red peach with a green leaf",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "peach-tree",
+   "image_seen": "tree/peach@2x.webp — one tree bearing many red-orange peaches",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "peacock",
+   "image_seen": "birds/peacock@2x.webp — one peacock with fanned eye-spotted tail",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "peanut-butter",
+   "image_seen": "at the supermarket/peanut_butter@2x.webp — one jar of peanut butter with red lid",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "stofnaam (mass) — geen kindertaal-meervoud",
+    "source": "https://woordenlijst.org/zoeken/?q=pindakaas"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pear",
+   "image_seen": "at the supermarket/pear@2x.webp — one yellow pear with a green leaf",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pear-tree",
+   "image_seen": "tree/pear@2x.webp — one green tree bearing many yellow pears",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "peas",
+   "image_seen": "at the supermarket/peas@2x.webp — two green pea pods, one open showing several peas (plural-picture)",
+   "singular": {
+    "verdict": "OK",
+    "reason": "plural-picture: label staat in meervoudsvorm (afbeelding toont meerdere)"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "plural-picture: het label IS het meervoud; niets verder"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "peeler",
+   "image_seen": "kitchen tools/peeler@2x.webp — one Y-shaped vegetable peeler",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pegasus",
+   "image_seen": "things that fly/pegasus@2x.webp — one white winged horse (has a unicorn horn too; word follows KEY = pegasus)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pelican",
+   "image_seen": "beach/pelican@2x.webp — one white bird with long orange beak (drawn stork-like; word follows KEY = pelican)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pen",
+   "image_seen": "around the house/pen@2x.webp — one ballpoint pen (orange body; tip drawn pencil-like; word follows KEY = pen)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pencil",
+   "image_seen": "around the house/pencil@2x.webp — one sharpened yellow pencil with pink eraser",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "penguin",
+   "image_seen": "animals/penguin@2x.webp — one cute black-and-white penguin",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "FIX",
+    "correct": "Pinguïns",
+    "reason": "Groene Boekje geeft meervoud pinguïns; Pinguïnen is niet de standaardvorm",
+    "source": "https://woordenlijst.org/zoeken/?q=pingu%C3%AFn"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pentagon",
+   "image_seen": "shapes/pentagon@2x.webp — one teal five-sided pentagon shape",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "peony",
+   "image_seen": "flowers/peony@2x.webp — one open red/pink flower (generic bloom)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pepper",
+   "image_seen": "at the supermarket/pepper@2x.webp — one red bell pepper (paprika) with green stem",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "perfume",
+   "image_seen": "valentine bw 2/perfume@2x.webp — B&W line-art heart-shaped perfume bottle with atomizer",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "persimmon",
+   "image_seen": "fruits/persimmon@2x.webp — one round orange persimmon (kaki) with leaf calyx",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "petunia",
+   "image_seen": "flowers/petunia@2x.webp — one red/pink five-petal flower",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pharmacist",
+   "image_seen": "occupations/pharmacist@2x.webp — one person in white lab coat holding a pill bottle",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "phlox",
+   "image_seen": "flowers/phlox@2x.webp — one flat-style flower with rounded petals, yellow center",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "photographer",
+   "image_seen": "occupations/photographer@2x.webp — one cartoon person holding a DSLR camera to the eye",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "photography",
+   "image_seen": "activities/photography@2x.webp — ART_DEFECT: one green DSLR camera (word follows KEY = photography/fotografie)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "ART_DEFECT (afbeelding is een camera) — woord volgt KEY = photography = fotografie (abstract/vakgebied); Groene Boekje kent alleen fotografieen voor kunstwerken, geen kindertaal-meervoud",
+    "source": "https://woordenlijst.org/zoeken/?q=fotografie"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "piano",
+   "image_seen": "activities/piano@2x.webp — one reddish-brown upright piano",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pickaxe",
+   "image_seen": "tools bw/pickaxe@2x.webp — B&W line drawing of one pickaxe",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pickup-truck",
+   "image_seen": null,
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "picnic",
+   "image_seen": "activities/picnic@2x.webp — a picnic spread on a red checkered cloth",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "picnic-table",
+   "image_seen": "camping/picnic_table@2x.webp — one wooden picnic table with attached benches",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "picture-frame",
+   "image_seen": "around the house/picture_frame@2x.webp — one empty rectangular picture frame",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pie",
+   "image_seen": "at the supermarket/pie@2x.webp — one slice of pie with berry filling",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pig",
+   "image_seen": "animals/pig@2x.webp — one cute cartoon pink pig",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pigeon",
+   "image_seen": "birds 2/pigeon@2x.webp — one grey pigeon with iridescent neck",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "piglet",
+   "image_seen": "animals bw/piglet@2x.webp — B&W line drawing of one baby pig",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pillow",
+   "image_seen": "around the house/pillow@2x.webp — one pillow, white with red ends",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pilot",
+   "image_seen": "occupations/pilot@2x.webp — one cartoon pilot in a red airplane cockpit",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pine-tree",
+   "image_seen": "camping/pine_tree@2x.webp — one stylized green conifer/pine tree",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pineapple",
+   "image_seen": "at the supermarket/pineapple@2x.webp — one whole pineapple with leafy crown",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pinecone",
+   "image_seen": "camping/pinecone@2x.webp — one brown pinecone with layered scales",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pink",
+   "image_seen": "colors/pink@2x.webp — a solid pink drop/swatch (the colour pink)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "adjective — geen meervoud"
+   },
+   "gender": {
+    "verdict": "OK",
+    "reason": "adjective — geen genus"
+   }
+  },
+  {
+   "key": "pinwheel",
+   "image_seen": "toys bw 2/pinwheel@2x.webp — B&W line drawing of one four-petal pinwheel on a stick",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pipe-wrench",
+   "image_seen": "tools bw/pipe_wrench@2x.webp — B&W line drawing of one pipe/adjustable wrench",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pitcher",
+   "image_seen": "kitchen tools/pitcher@2x.webp — one red-and-cream jug/pitcher with handle and spout",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pizza",
+   "image_seen": "at the supermarket/pizza@2x.webp — one whole round pizza, top-down",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "planet",
+   "image_seen": "space/planet@2x.webp — one ringed planet (Saturn-like)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "plant",
+   "image_seen": "home and nature bw/plant@2x.webp — B&W line drawing of one leafy potted houseplant",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "plate",
+   "image_seen": "around the house/plate@2x.webp — one empty round plate, red rim",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "play",
+   "image_seen": null,
+   "singular": {
+    "verdict": "HOLD",
+    "reason": "Geen afbeelding + lemma-ambigu: Spelen is infinitief/meervoud; onduidelijk of bedoeld is het spel (game) of de activiteit spelen"
+   },
+   "plural": {
+    "verdict": "HOLD",
+    "reason": "Ambigu lemma (zie singular); meervoud herhaalt enkelvoud"
+   },
+   "gender": {
+    "verdict": "HOLD",
+    "reason": "Genus onbepaald zolang lemma onduidelijk is; huidige d waarschijnlijk fout maar niet blind wijzigen"
+   }
+  },
+  {
+   "key": "playground",
+   "image_seen": "activities/playground@2x.webp — one colorful playground play-structure with slide",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "plesiosaurus",
+   "image_seen": "dinosaurs/plesiosaurus@2x.webp — one cartoon long-necked dinosaur (drawn sauropod-like)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pliers",
+   "image_seen": "tools/pliers@2x.webp — one pair of side-cutting pliers with yellow handles",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "plum",
+   "image_seen": "at the supermarket/plum@2x.webp — one round red fruit (drawn apple-like; word follows KEY = plum/pruim)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "plum-tree",
+   "image_seen": "tree/plum@2x.webp — one round green tree with red apple-like fruit (word follows KEY = plum tree)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "plunger",
+   "image_seen": "tools/plunger@2x.webp — one toilet plunger with teal cup and wood handle",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "polar-bear",
+   "image_seen": "winter/polar_bear@2x.webp — one cartoon white polar bear standing",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "police-car",
+   "image_seen": "vehicles/police_car@2x.webp — one black-and-white police car with light bar",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "police-officer",
+   "image_seen": "occupations/police_officer@2x.webp — one male police officer in blue uniform",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pomegranate",
+   "image_seen": "fruits/pomegranate@2x.webp — one red pomegranate with brown crown",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pony",
+   "image_seen": "animals bw 2/pony@2x.webp — B&W line drawing of one cute cartoon pony",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pool",
+   "image_seen": "summer/pool@2x.webp — one rectangular in-ground swimming pool with ladders",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "popcorn",
+   "image_seen": "at the supermarket/popcorn@2x.webp — one red-and-white box overflowing with popcorn",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "stofnaam (mass) — geen kindertaal-meervoud",
+    "source": "https://woordenlijst.org/zoeken/?q=popcorn"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "poplar-tree",
+   "image_seen": "tree/poplar@2x.webp — one generic round-canopy tree (word follows KEY = poplar/populier)",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "popsicle",
+   "image_seen": "desserts and sweets/popsicle@2x.webp — one ice pop on a wooden stick",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "porcupine",
+   "image_seen": "forest creatures/porcupine@2x.webp — one cartoon porcupine with dark quills",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "porridge",
+   "image_seen": "breakfast/porridge@2x.webp — one red bowl of creamy porridge",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "stofnaam (mass) — geen kindertaal-meervoud",
+    "source": "https://woordenlijst.org/zoeken/?q=pap"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "post-office",
+   "image_seen": "post office/post_office@2x.webp — one small building with a post office sign",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "postal-scale",
+   "image_seen": null,
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pot",
+   "image_seen": "around the house/pot@2x.webp — one round red-orange cooking pot with lid",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "potato",
+   "image_seen": "at the supermarket/potato@2x.webp — one yellow-brown potato",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "potato-chips",
+   "image_seen": "at the supermarket/potato_chips@2x.webp — a bag showing several potato chips (plural-picture)",
+   "singular": {
+    "verdict": "OK",
+    "reason": "plural-picture: label staat in meervoudsvorm (afbeelding toont meerdere)"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "plural-picture: het label IS het meervoud; niets verder"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pottery",
+   "image_seen": "activities/pottery@2x.webp — one decorated ceramic vase/urn (an object; word is the activity pottenbakken)",
+   "singular": {
+    "verdict": "HOLD",
+    "reason": "Lemma-mismatch: Pottenbakken is de ACTIVITEIT (infinitief), maar category=countable-thing en afbeelding toont een object (vaas/aardewerk); meervoud herhaalt enkelvoud. Operator kiest woord of art"
+   },
+   "plural": {
+    "verdict": "HOLD",
+    "reason": "Pottenbakken (activiteit) heeft geen meervoud; veld herhaalt het enkelvoud (zie singular)"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "present",
+   "image_seen": "christmas/present@2x.webp — one red gift box with green ribbon and bow",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pretzel",
+   "image_seen": "bakery/pretzel@2x.webp — one classic knotted pretzel",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pretzels",
+   "image_seen": "at the supermarket/pretzels@2x.webp — ART_DEFECT: one knotted pretzel (KEY is plural sibling of pretzel)",
+   "singular": {
+    "verdict": "OK",
+    "reason": "KEY is de meervoud-zusterentry van pretzel; label staat in meervoudsvorm (ART toont er een, maar woord volgt KEY)"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "meervoudsvorm; zusterentry van pretzel"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "price-tag",
+   "image_seen": "at the supermarket/price_tag@2x.webp — one yellow blank price tag with string",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "projector",
+   "image_seen": "classroom bw/projector@2x.webp — B&W line drawing of one video projector",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "pruning-shears",
+   "image_seen": "tools bw/pruning_shears@2x.webp — B&W line drawing of one pair of pruning shears",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  }
+ ]
+}

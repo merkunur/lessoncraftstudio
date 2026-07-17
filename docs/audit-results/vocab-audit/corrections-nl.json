@@ -1,1316 +1,216 @@
 {
  "locale": "nl",
  "corrections": {
-  "singular": {},
-  "plural": {
-   "actor": {
-    "to": "Acteurs",
-    "from": "Acteuren",
-    "why": "French loan in -eur takes -s: de acteur -> de acteurs; 'Acteuren' is the script's default -en rule",
-    "src": "Van Dale"
-   },
-   "alligator": {
-    "to": "Alligators",
-    "from": "Alligatoren",
-    "why": "de alligator -> de alligators. The -or -> -oren plural is restricted to Latin agent nouns (motor, professor, tractor); alligator is an animal name with initial stress and takes -s",
-    "src": "Van Dale / Woordenlijst"
-   },
-   "ambulance": {
-    "to": "Ambulances",
-    "from": "Ambulancen",
-    "why": "French loan ending in schwa: de ambulance -> de ambulances; 'Ambulancen' is not Dutch",
-    "src": "Van Dale"
-   },
-   "angel": {
-    "to": "Engelen",
-    "from": "Engels",
-    "why": "de engel -> de engelen (irregular -en on a stem in -el). 'Engels' is not a plural at all; it reads as the language/adjective 'Engels' (English) and would be spoken that way by TTS",
-    "src": "Van Dale"
-   },
-   "armchair": {
-    "to": "Fauteuils",
-    "from": "Fauteuilen",
-    "why": "French loan: de fauteuil -> de fauteuils; 'Fauteuilen' is the script's default -en rule",
-    "src": "Van Dale"
-   },
-   "artist": {
-    "to": "Kunstenaars",
-    "from": "Kunstenaren",
-    "why": "de kunstenaar -> de kunstenaars is the standard dictionary plural for this -aar agent noun; 'Kunstenaren' is at best marginal and unsuitable for K-3 TTS",
-    "src": "Van Dale / Woordenlijst"
-   },
-   "asparagus": {
-    "to": "Asperges",
-    "from": "Aspergen",
-    "why": "de asperge -> de asperges (stem ends in schwa -> -s). 'Aspergen' is not Dutch. N1 is a false suspicion: asperge is countable in Dutch (twee asperges)",
-    "src": "Van Dale"
-   },
-   "author": {
-    "to": "Auteurs",
-    "from": "Auteuren",
-    "why": "French loan in -eur takes -s: de auteur -> de auteurs",
-    "src": "Van Dale"
-   },
-   "baby-overall": {
-    "to": "Baby-overalls",
-    "from": "Baby-overallen",
-    "why": "English loan: de overall -> de overalls; 'Baby-overallen' is the script's default -en rule",
-    "src": "Van Dale"
-   },
-   "badge": {
-    "to": "Badges",
-    "from": "Badgen",
-    "why": "English loan: de badge -> de badges; 'Badgen' is not Dutch and would be read as a verb",
-    "src": "Van Dale"
-   },
-   "barbecue": {
-    "to": "Barbecues",
-    "from": "Barbecuen",
-    "why": "English loan: de barbecue -> de barbecues; 'Barbecuen' would be read as a verb",
-    "src": "Van Dale"
-   },
-   "bee": {
-    "to": "Bijen",
-    "from": "Bijjen",
-    "why": "de bij -> de bijen. 'Bijjen' is an impossible Dutch spelling: <ij> is a digraph and is never doubled by the consonant-doubling rule the script applied",
-    "src": "Van Dale"
-   },
-   "bison": {
-    "to": "Bizons",
-    "from": "Bizonnen",
-    "why": "de bizon -> de bizons. Stress is on the first syllable, so the script's consonant doubling ('Bizonnen') does not apply",
-    "src": "Van Dale"
-   },
-   "blouse": {
-    "to": "Blouses",
-    "from": "Blousen",
-    "why": "de blouse -> de blouses; French loan in -e takes -s, not the script's -en",
-    "src": "Van Dale"
-   },
-   "blue-jay": {
-    "to": "Blauwe gaaien",
-    "from": "Blauwe gaai's",
-    "why": "de gaai -> de gaaien; the apostrophe-s is wrong (only after a/i/o/u/y-final words) and the adjective already ends in -e so it does not change",
-    "src": "Van Dale"
-   },
-   "broccoli": {
-    "to": "Broccoli",
-    "from": "Broccoli's",
-    "why": "mass/vegetable noun: de broccoli has no child-level plural; 'Broccoli's' is script output. p must equal s ('Broccoli')",
-    "src": "Van Dale",
-    "cls": "NO_PLURAL"
-   },
-   "brownie": {
-    "to": "Brownies",
-    "from": "Brownien",
-    "why": "de brownie -> de brownies; English loan takes -s. 'Brownien' is not Dutch",
-    "src": "Van Dale"
-   },
-   "butter": {
-    "to": "Boter",
-    "from": "Boters",
-    "why": "mass noun: de boter has no child-level plural; 'Boters' is script output. p must equal s ('Boter')",
-    "src": "Van Dale",
-    "cls": "NO_PLURAL"
-   },
-   "cabana": {
-    "to": "Strandcabines",
-    "from": "Strandcabinen",
-    "why": "de cabine -> de cabines; loan in unstressed -e takes -s, not -n",
-    "src": "Van Dale"
-   },
-   "calculator": {
-    "to": "Rekenmachines",
-    "from": "Rekenmachinen",
-    "why": "de rekenmachine -> de rekenmachines; noun in unstressed -e takes -s. 'Rekenmachinen' is script output",
-    "src": "Van Dale"
-   },
-   "calf": {
-    "to": "Kalveren",
-    "from": "Kalven",
-    "why": "het kalf -> de kalveren (irregular -eren plural); 'Kalven' comes from a -lf->-lven rule that does not apply here",
-    "src": "Van Dale"
-   },
-   "canary": {
-    "to": "Kanaries",
-    "from": "Kanarien",
-    "why": "de kanarie -> de kanaries; nouns in unstressed -ie take -s. 'Kanarien' is script output",
-    "src": "Van Dale"
-   },
-   "cape": {
-    "to": "Capes",
-    "from": "Capen",
-    "why": "de cape -> de capes; loan in -e takes -s. 'Capen' is not Dutch",
-    "src": "Van Dale"
-   },
-   "cashier": {
-    "to": "Kassiers",
-    "from": "Kassieren",
-    "why": "'Kassieren' is script output and is wrong under any reading: nouns in -ier take -s (bankier -> bankiers, kassier -> kassiers). If the singular HOLD swaps the lemma, the plural follows that lemma instead",
-    "src": "Van Dale"
-   },
-   "cast": {
-    "to": "Gips",
-    "from": "Gipsen",
-    "why": "het gips is a mass noun (the material/the cast on an arm); no child-level plural. p must equal s ('Gips'). 'het gipsverband' would be the countable alternative, but that is a different lemma",
-    "src": "Van Dale",
-    "cls": "NO_PLURAL"
-   },
-   "celery": {
-    "to": "Selderij",
-    "from": "Selderijjen",
-    "why": "de selderij is a mass/vegetable noun with no child-level plural; 'Selderijjen' is a script consonant-doubling artefact and is not Dutch. p must equal s ('Selderij')",
-    "src": "Van Dale",
-    "cls": "NO_PLURAL"
-   },
-   "chimpanzee": {
-    "to": "Chimpansees",
-    "from": "Chimpanseen",
-    "why": "'Chimpanseen' is not a Dutch form. Van Dale: de chimpansee -> de chimpansees. The word entered Dutch via French chimpanze and patterns with the French -ee group (tournee->tournees, matinee->matinees), not with the native/Greek group that takes -een (zee->zeeen, idee->ideeen).",
-    "src": "Van Dale"
-   },
-   "chips": {
-    "to": "Chips",
-    "from": "Chipsen",
-    "why": "'Chipsen' is not a Dutch word - the script appended -en to a form that is already plural. The plural is 'chips'; per the file convention p equals s.",
-    "src": "Van Dale"
-   },
-   "clementine": {
-    "to": "Clementines",
-    "from": "Clementinen",
-    "why": "Van Dale: de clementine -> de clementines. A French-origin fruit name in -ine takes -s (cf. aubergine -> aubergines, nectarine -> nectarines); 'Clementinen' comes from the script's default -en rule.",
-    "src": "Van Dale"
-   },
-   "coach": {
-    "to": "Coaches",
-    "from": "Coachen",
-    "why": "Van Dale: de coach -> de coaches. English loanword in -ch takes -es; 'Coachen' comes from the script's default -en rule (and collides with the Dutch verb 'coachen').",
-    "src": "Van Dale"
-   },
-   "cocktail": {
-    "to": "Cocktails",
-    "from": "Cocktailen",
-    "why": "Van Dale: de cocktail -> de cocktails. 'Cocktailen' is the script's default -en rule and reads as a verb.",
-    "src": "Van Dale"
-   },
-   "columbine": {
-    "to": "Akeleien",
-    "from": "Akelei's",
-    "why": "Van Dale: de akelei -> de akeleien. The apostrophe-s plural applies only after an unstressed a/i/o/u/y; 'akelei' ends in the diphthong -ei and takes -en (cf. vallei -> valleien, kraai -> kraaien).",
-    "src": "Van Dale / Woordenlijst"
-   },
-   "cook": {
-    "to": "Koks",
-    "from": "Kokken",
-    "why": "Van Dale: de kok -> de koks. 'Kokken' is the script's consonant-doubling rule misfiring (and reads as the verb 'kokkelen'/dialect). Note key 'chef' already has the correct 'Chef-koks' - the file contradicts itself.",
-    "src": "Van Dale"
-   },
-   "cooler": {
-    "to": "Koelboxen",
-    "from": "Koelboxxen",
-    "why": "Van Dale: de box -> de boxen, so de koelbox -> de koelboxen. 'Koelboxxen' is the script's consonant-doubling rule applied to x, which Dutch never doubles.",
-    "src": "Van Dale / Woordenlijst"
-   },
-   "croissant": {
-    "to": "Croissants",
-    "from": "Croissanten",
-    "why": "Van Dale: de croissant -> de croissants. French loanword in -ant takes -s (cf. restaurant -> restaurants); 'Croissanten' is the script's default -en rule.",
-    "src": "Van Dale"
-   },
-   "crossing-guard": {
-    "to": "Verkeersregelaars",
-    "from": "Verkeersregelaren",
-    "why": "Van Dale: de regelaar -> de regelaars, so de verkeersregelaar -> de verkeersregelaars. Deverbal agent nouns in -aar take -s (winnaar -> winnaars, luisteraar -> luisteraars); the -aren plural exists only for a few lexicalised exceptions (leraren, ambtenaren), which this is not.",
-    "src": "Van Dale"
-   },
-   "crow": {
-    "to": "Kraaien",
-    "from": "Kraai's",
-    "why": "Van Dale: de kraai -> de kraaien. The apostrophe-s plural applies only after an unstressed a/i/o/u/y; 'kraai' ends in the diphthong -aai and takes -en (cf. haai -> haaien).",
-    "src": "Van Dale / Woordenlijst"
-   },
-   "cruise-ship": {
-    "to": "Cruiseschepen",
-    "from": "Cruiseschippen",
-    "why": "Van Dale: het schip -> de schepen (irregular vowel change), so het cruiseschip -> de cruiseschepen. 'Cruiseschippen' is the script's consonant-doubling rule and is not a Dutch word.",
-    "src": "Van Dale"
-   },
-   "cupcake": {
-    "to": "Cupcakes",
-    "from": "Cupcaken",
-    "why": "Van Dale: de cupcake -> de cupcakes. English loanword takes -s; 'Cupcaken' is the script's default -en rule and reads as a verb.",
-    "src": "Van Dale"
-   },
-   "desk": {
-    "to": "Bureaus",
-    "from": "Bureau's",
-    "why": "the apostrophe-s plural is only for words ending in a single vowel letter a/i/o/u/y (auto's, foto's); -eau is a digraph spelling, so the plural is written without an apostrophe",
-    "src": "Woordenlijst Nederlandse Taal: bureau - bureaus"
-   },
-   "detective": {
-    "to": "Detectives",
-    "from": "Detectiven",
-    "why": "English loanword; takes -s. 'Detectiven' is a script-generated -en plural and is not Dutch",
-    "src": "Van Dale: de detective - detectives"
-   },
-   "dragonfly": {
-    "to": "Libellen",
-    "from": "Libels",
-    "why": "final-syllable stress (li-BEL) triggers consonant doubling; 'Libels' is the script's default -s and is not Dutch",
-    "src": "Van Dale: de libel - libellen"
-   },
-   "eclair": {
-    "to": "Eclairs",
-    "from": "Eclairen",
-    "why": "French loanword; takes -s. 'Eclairen' is the script's -en default and is not Dutch",
-    "src": "Van Dale: de eclair - eclairs"
-   },
-   "eggplant": {
-    "to": "Aubergines",
-    "from": "Auberginen",
-    "why": "nouns ending in an unstressed schwa -e take -s, not -n. 'Auberginen' is not Dutch",
-    "src": "Van Dale: de aubergine - aubergines"
-   },
-   "electric-drill": {
-    "to": "Boormachines",
-    "from": "Boormachinen",
-    "why": "'machine' ends in an unstressed schwa -e and takes -s. 'Boormachinen' is not Dutch",
-    "src": "Van Dale: de machine - machines"
-   },
-   "elf": {
-    "to": "Elfen",
-    "from": "Elven",
-    "why": "this is the very -lf -> -lven script rule the brief names for 'Kalven': it fired here too. Standard Dutch is 'elfen'; 'elven' is fantasy-genre usage, not the dictionary plural",
-    "src": "Van Dale: de elf - elfen"
-   },
-   "espresso-machine": {
-    "to": "Espressomachines",
-    "from": "Espressomachinen",
-    "why": "unstressed schwa -e takes -s; 'Espressomachinen' is not Dutch",
-    "src": "Van Dale: de machine - machines"
-   },
-   "excavator": {
-    "to": "Graafmachines",
-    "from": "Graafmachinen",
-    "why": "unstressed schwa -e takes -s; 'Graafmachinen' is not Dutch",
-    "src": "Van Dale: de machine - machines"
-   },
-   "forklift": {
-    "to": "Vorkheftrucks",
-    "from": "Vorkheftrucken",
-    "why": "English loanword 'truck' takes -s: de (vork)heftruck -> vorkheftrucks. 'Vorkheftrucken' is a blind -en rule applied to an English loan",
-    "src": "Van Dale"
-   },
-   "french-fries": {
-    "to": "Patat",
-    "from": "Patatten",
-    "why": "In Standard Dutch (NL) 'patat' (the dish) is a mass noun: 'een bakje patat', no plural. 'Patatten' exists only in southern/Flemish dialect where it means potatoes (aardappelen) - a different referent from the pictured fries",
-    "src": "Van Dale",
-    "cls": "NO_PLURAL"
-   },
-   "frisbee": {
-    "to": "Frisbees",
-    "from": "Frisbeen",
-    "why": "de frisbee -> frisbees (English loan takes -s); 'Frisbeen' is not Dutch",
-    "src": "Van Dale"
-   },
-   "garlic": {
-    "to": "Knoflook",
-    "from": "Knofloken",
-    "why": "Knoflook is a mass noun (stofnaam); no child-facing plural. 'Knofloken' is additionally a malformed vowel-shortening artefact of the script",
-    "src": "Van Dale",
-    "cls": "NO_PLURAL"
-   },
-   "gerbil": {
-    "to": "Gerbils",
-    "from": "Gerbillen",
-    "why": "de gerbil -> gerbils (English loan takes -s). 'Gerbillen' is a blind -en rule with consonant doubling",
-    "src": "Van Dale"
-   },
-   "gift": {
-    "to": "Cadeaus",
-    "from": "Cadeau's",
-    "why": "Words in -eau take plain -s: het cadeau -> de cadeaus (cf. bureaus, niveaus). The apostrophe rule applies only to a single final vowel letter a/i/o/u/y, which -eau is not",
-    "src": "Woordenlijst Nederlandse Taal (Groene Boekje) / Van Dale"
-   },
-   "glue": {
-    "to": "Lijm",
-    "from": "Lijmen",
-    "why": "Lijm is a mass noun (stofnaam), like water/melk. 'Lijmen' is formally attested but only in the sorts-of-glue sense; for a classroom image of a glue bottle it is not a child-facing plural",
-    "src": "Van Dale",
-    "cls": "NO_PLURAL"
-   },
-   "grapefruit": {
-    "to": "Grapefruits",
-    "from": "Grapefruiten",
-    "why": "de grapefruit -> grapefruits (English loan takes -s); 'Grapefruiten' is a blind -en rule",
-    "src": "Van Dale"
-   },
-   "grill": {
-    "to": "Grills",
-    "from": "Grillen",
-    "why": "de grill (appliance) -> grills (English loan takes -s). 'Grillen' is wrong twice over: it is the plural of the unrelated 'de gril' (whim) and identical to the verb 'grillen' - a real hazard for a text-to-speech site",
-    "src": "Van Dale"
-   },
-   "hawk": {
-    "to": "Haviken",
-    "from": "Havikken",
-    "why": "de havik -> de haviken, with a SINGLE k: nouns in unstressed -ik do not double the consonant (monnik -> monniken, perzik -> perziken, leeuwerik -> leeuweriken). 'Havikken' is the script's blind consonant-doubling rule",
-    "src": "Van Dale / Woordenlijst Nederlandse Taal"
-   },
-   "hoodie": {
-    "to": "Hoodies",
-    "from": "Hoodien",
-    "why": "de hoodie -> hoodies (English loan takes -s); 'Hoodien' is not Dutch",
-    "src": "Van Dale"
-   },
-   "hot-cocoa": {
-    "to": "Warme chocolademelk",
-    "from": "Warme chocolademelken",
-    "why": "chocolademelk is a mass noun exactly like melk (the brief's own example); 'chocolademelken' does not exist. p becomes s",
-    "src": "Van Dale",
-    "cls": "NO_PLURAL"
-   },
-   "hummingbird": {
-    "to": "Kolibries",
-    "from": "Kolibrien",
-    "why": "stress is ko-LI-brie, so the final -ie is unstressed and takes -s: kolibries. The -en/-ien form only applies to stressed -ie (knie -> knieen, industrie -> industrieen)",
-    "src": "Van Dale"
-   },
-   "jaguar": {
-    "to": "Jaguars",
-    "from": "Jaguaren",
-    "why": "de jaguar -> jaguars. 'Jaguaren' is the script's -en rule; the loanword takes -s",
-    "src": "Van Dale"
-   },
-   "jam": {
-    "to": "Jam",
-    "from": "Jammen",
-    "why": "jam is a mass noun (stofnaam) exactly like the brief's water/melk/zout; 'Jammen' is the script's consonant-doubling artifact. A count plural only exists for varieties ('jams' = soorten jam), which is not child-directed and does not match a supermarket/breakfast picture. p becomes s. NB this is the opposite of bread -> broden, which does have a countable unit (a loaf); jam has none",
-    "src": "",
-    "cls": "NO_PLURAL"
-   },
-   "janitor": {
-    "to": "Conciërges",
-    "from": "Conciërgen",
-    "why": "de conciërge ends in a schwa -e and therefore takes -s: conciërges. 'Conciërgen' is the script's -en rule",
-    "src": "Van Dale"
-   },
-   "jeep": {
-    "to": "Jeeps",
-    "from": "Jepen",
-    "why": "de jeep -> jeeps. 'Jepen' applies Dutch vowel shortening to an English loanword and produces a non-word",
-    "src": "Van Dale"
-   },
-   "jelly-beans": {
-    "to": "Jellybeans",
-    "from": "Jellybeansen",
-    "why": "'Jellybeansen' is impossible: it inflects an already-plural English loan a second time. The plural is jellybeans. NB this leaves s = p until the singular HOLD above is resolved",
-    "src": ""
-   },
-   "jumpsuit": {
-    "to": "Jumpsuits",
-    "from": "Jumpsuiten",
-    "why": "de jumpsuit -> jumpsuits; English loanword takes -s. 'Jumpsuiten' is the script's -en rule",
-    "src": "Van Dale"
-   },
-   "kayak": {
-    "to": "Kajaks",
-    "from": "Kajakken",
-    "why": "stress is KA-jak (first syllable), so no consonant doubling: de kajak -> kajaks. 'Kajakken' is not only the script's doubling artifact, it is also the infinitive of the verb kajakken, which a TTS voice would read as an action, not a plural",
-    "src": "Van Dale / Woordenlijst"
-   },
-   "kettlebell": {
-    "to": "Kettlebells",
-    "from": "Kettlebellen",
-    "why": "English loanword with first-syllable stress -> -s: kettlebells. 'Kettlebellen' is the script's -en rule (and reads as the verb 'bellen')",
-    "src": ""
-   },
-   "lawn-mower": {
-    "to": "Grasmaaiers",
-    "from": "Grasmaaieren",
-    "why": "instrument/agent nouns in unstressed -er take -s: de grasmaaier -> grasmaaiers. 'Grasmaaieren' is the script's -en rule",
-    "src": "Van Dale"
-   },
-   "leek": {
-    "to": "Preien",
-    "from": "Prei's",
-    "why": "de prei -> preien. 'Prei's' is orthographically impossible: the apostrophe before -s is only used after a single vowel letter (a/i/o/u/y), never after the digraph -ei",
-    "src": "Van Dale / Woordenlijst"
-   },
-   "leggings": {
-    "to": "Leggings",
-    "from": "Leggingen",
-    "why": "de legging -> leggings; this garment loan keeps the English -s plural. NB not every -ing loan does (training -> trainingen), which is exactly why this needs the word-by-word call rather than a rule",
-    "src": "Van Dale"
-   },
-   "lemonade": {
-    "to": "Limonades",
-    "from": "Limonaden",
-    "why": "limonade ends in an unstressed schwa -e (li-mo-NA-de) and therefore takes -s, like salade -> salades. 'Limonaden' is the script's -en rule. Unlike jam in this batch, limonade does have a natural child-audible count use (portions: 'twee limonades'), so NO_PLURAL would be wrong here",
-    "src": "Van Dale"
+  "singular": {
+   "boombox": {
+    "to": "Gettoblaster",
+    "from": "Ghettoblaster",
+    "why": "Official Groene Boekje lemma is 'gettoblaster'; 'ghettoblaster' is not in the official list (spelling normalisation for an educational site).",
+    "src": "https://woordenlijst.org/zoeken/?q=gettoblaster"
+   },
+   "dice": {
+    "to": "Dobbelsteen",
+    "from": "Dobbelstenen",
+    "why": "A PLURAL ('Dobbelstenen') is sitting in the singular field — the known defect. classification=countable-thing and the picture is one die, so the singular must be the count-noun singular 'dobbelsteen'.",
+    "src": "https://woordenlijst.org/zoeken/?q=dobbelsteen"
    },
    "lemur": {
-    "to": "Lemuren",
-    "from": "Lemurren",
-    "why": "'Lemurren' is impossible: doubling requires a stressed final syllable, and the stress is LE-mur. The established Dutch zoological plural is 'lemuren' (from Latin lemures)",
-    "src": "Van Dale"
+    "to": "Lemuur",
+    "from": "Lemur",
+    "why": "Dutch spelling is 'lemuur' (double u), not 'lemur'; Groene Boekje: de lemuur",
+    "src": "https://woordenlijst.org/zoeken/?q=lemuur"
+   }
+  },
+  "plural": {
+   "air-conditioning": {
+    "to": "Airconditionings",
+    "from": "Airconditioning",
+    "why": "classification=countable-thing (device). Current plural equalled the singular (no plural); GB gives meervoud airconditionings",
+    "src": "https://woordenlijst.org/zoeken/?q=airconditioning"
    },
-   "life-preserver": {
-    "to": "Reddingsboeien",
-    "from": "Reddingsboei's",
-    "why": "de boei -> boeien. 'Reddingsboei's' is orthographically impossible: the apostrophe before -s is only used after a single vowel letter, never after -oei",
-    "src": "Van Dale / Woordenlijst"
+   "banyan-tree": {
+    "to": "Waringins",
+    "from": "Waringinnen",
+    "why": "builder invention 'Waringinnen'; GB: de waringin, meervoud waringins",
+    "src": "https://woordenlijst.org/zoeken/?q=waringin"
    },
-   "light-switch": {
-    "to": "Lichtschakelaars",
-    "from": "Lichtschakelaren",
-    "why": "non-person nouns in -aar take -s: de schakelaar -> schakelaars. 'Lichtschakelaren' is the script's -en rule (the -aren plural belongs to person nouns like leraar -> leraren, not to instruments)",
-    "src": "Van Dale"
+   "baobab-tree": {
+    "to": "Baobabs",
+    "from": "Baobabben",
+    "why": "builder invention 'Baobabben'; GB: de baobab, meervoud baobabs",
+    "src": "https://woordenlijst.org/zoeken/?q=baobab"
+   },
+   "basketball": {
+    "to": "Basketballen",
+    "from": "Basketbal",
+    "why": "picture=the ball; classification=countable-thing. GB: 'de basketbal' (bal, m) meervoud basketballen; current had no plural (sport treatment)",
+    "src": "https://woordenlijst.org/zoeken/?q=basketbal"
+   },
+   "boombox": {
+    "to": "Gettoblasters",
+    "from": "Ghettoblasters",
+    "why": "GB de gettoblaster → gettoblasters",
+    "src": "https://woordenlijst.org/zoeken/?q=gettoblaster"
+   },
+   "broccoli": {
+    "to": "Broccoli's",
+    "from": "Broccoli",
+    "why": "cur p 'Broccoli' has no distinct plural; GB gives de broccoli → broccoli's, and classification hasPlural=true",
+    "src": "https://woordenlijst.org/zoeken/?q=broccoli"
+   },
+   "cast": {
+    "to": "Gipsen",
+    "from": "Gips",
+    "why": "cur p 'Gips' has no distinct plural; GB gives het gips → gipsen, and classification hasPlural=true (twee gipsen)",
+    "src": "https://woordenlijst.org/zoeken/?q=gips"
+   },
+   "chameleon": {
+    "to": "Kameleons",
+    "from": "Kameleonen",
+    "why": "GB meervoud is 'kameleons', not the cur 'Kameleonen'",
+    "src": "https://woordenlijst.org/zoeken/?q=kameleon"
+   },
+   "dimetrodon": {
+    "to": "Dimetrodons",
+    "from": "Dimetrodonten",
+    "why": "'Dimetrodonten' is an over-Latinised invention and is attested in neither het Groene Boekje nor nl.wiktionary (both 'niet bekend'/404). This loanword ends in a consonant (-on, not -us like dinosaurus), so the natural Dutch plural is -s: native usage is 'twee dimetrodons'.",
+    "src": "https://woordenlijst.org/zoeken/?q=dimetrodon (not found)"
+   },
+   "dragon-fruit": {
+    "to": "Drakenfruits",
+    "from": "Drakenfruiten",
+    "why": "'Drakenfruiten' is not standard — 'fruit' is a mass noun with no -en plural; exotic-fruit count plurals take -s in NL (kiwi's, mango's, drakenfruits). No image to cross-check.",
+    "src": "native; fruit as mass per woordenlijst.org"
+   },
+   "durian": {
+    "to": "Doerians",
+    "from": "Doerianen",
+    "why": "het Groene Boekje gives the plural as 'doerians', not 'doerianen'.",
+    "src": "https://woordenlijst.org/zoeken/?q=doerian"
+   },
+   "gopher": {
+    "to": "Wangzakratten",
+    "from": "Grondeekhoorns",
+    "why": "current plural 'Grondeekhoorns' is a DIFFERENT lemma (ground squirrel); plural of singular 'wangzakrat' is wangzakratten (rat → ratten)",
+    "src": "https://woordenlijst.org/zoeken/?q=wangzakrat"
+   },
+   "ham": {
+    "to": "Hammen",
+    "from": "Ham",
+    "why": "Groene Boekje: de ham, meervoud hammen (double m, short a). The image shows a countable ham joint and category = countable-thing; batch had no plural (p=s).",
+    "src": "https://woordenlijst.org/zoeken/?q=ham"
+   },
+   "ice-cream": {
+    "to": "IJsjes",
+    "from": "IJs",
+    "why": "a countable ice cream pluralises as 'ijsjes' (twee ijsjes), never 'ijs'; het ijsje → ijsjes",
+    "src": "https://woordenlijst.org/zoeken/?q=ijsje"
+   },
+   "iguanodon": {
+    "to": "Iguanodonten",
+    "from": "Iguanodonnen",
+    "why": "Groene Boekje: de iguanodon → meervoud iguanodonten (not 'iguanodonnen')",
+    "src": "https://woordenlijst.org/zoeken/?q=iguanodon"
+   },
+   "jam": {
+    "to": "Jams",
+    "from": "Jam",
+    "why": "Groene Boekje: de jam (broodbeleg) → meervoud jams; current copied the singular",
+    "src": "https://woordenlijst.org/zoeken/?q=jam"
+   },
+   "lantern": {
+    "to": "Lantaarns",
+    "from": "Lantaarnen",
+    "why": "Groene Boekje: de lantaarn → meervoud lantaarns (not 'lantaarnen')",
+    "src": "https://woordenlijst.org/zoeken/?q=lantaarn"
+   },
+   "lavender": {
+    "to": "Lavendel",
+    "from": "Lavendels",
+    "why": "Groene Boekje lists only enkelvoud for 'de lavendel' (the plant/scent, mass); 'lavendels' occurs colloquially for varieties but is not standard",
+    "src": "https://woordenlijst.org/zoeken/?q=lavendel",
+    "cls": "NO_PLURAL"
    },
    "lightning": {
-    "to": "Bliksem",
-    "from": "Bliksems",
-    "why": "de bliksem is a mass/phenomenon noun; no child-directed plural (N1 confirmed). 'Bliksems' additionally reads as the interjection/intensifier 'bliksems', which a TTS voice would render as an exclamation. p becomes s",
-    "src": "",
-    "cls": "NO_PLURAL"
+    "to": "Bliksems",
+    "from": "Bliksem",
+    "why": "Groene Boekje lists de bliksem → meervoud bliksems (lightning flashes); the art shows several bolts. Dictionary wins over the mass-noun assumption",
+    "src": "https://woordenlijst.org/zoeken/?q=bliksem"
    },
-   "lily": {
-    "to": "Lelies",
-    "from": "Lelien",
-    "why": "stress is LE-lie, so the final -ie is unstressed and takes -s: lelies. 'Lelien' is a non-word either way - even the stressed pattern would give -ieen, never -ien",
-    "src": "Van Dale"
-   },
-   "macaron": {
-    "to": "Macarons",
-    "from": "Macaronnen",
-    "why": "French loanword: de macaron -> de macarons; 'Macaronnen' comes from the script's consonant-doubling rule, which does not apply to this loan",
-    "src": "Van Dale"
-   },
-   "magnifying-glass": {
-    "to": "Vergrootglazen",
-    "from": "Vergrootglassen",
-    "why": "het glas -> de glazen (vowel lengthening + s/z devoicing alternation); compound inherits it: vergrootglas -> vergrootglazen. 'Vergrootglassen' is a doubling artefact",
-    "src": "Van Dale"
-   },
-   "manatee": {
-    "to": "Zeekoeien",
-    "from": "Zeekoen",
-    "why": "de koe -> de koeien (irregular); the compound follows: zeekoe -> zeekoeien. 'Zeekoen' is a generated form that does not exist",
-    "src": "Van Dale"
-   },
-   "mechanic": {
-    "to": "Monteurs",
-    "from": "Monteuren",
-    "why": "de monteur -> de monteurs. The -euren plural is limited to a small closed set of Latinate agent nouns (directeuren, redacteuren) and does not extend to monteur; cf. chauffeurs, masseurs, acteurs",
-    "src": "Van Dale"
-   },
-   "medal": {
-    "to": "Medailles",
-    "from": "Medaillen",
-    "why": "de medaille -> de medailles (French loanword ending in a schwa syllable takes -s); 'Medaillen' does not exist",
-    "src": "Van Dale"
-   },
-   "medical-chart": {
-    "to": "Medische dossiers",
-    "from": "Medisch dossieren",
-    "why": "two errors: het dossier -> de dossiers (not -en), and the attributive adjective must inflect in the plural. The script inflected only the last token",
-    "src": "Van Dale"
-   },
-   "microphone": {
-    "to": "Microfoons",
-    "from": "Microfonen",
-    "why": "de microfoon -> de microfoons, like telefoon -> telefoons, grammofoon -> grammofoons. 'Microfonen' is not a Dutch form",
-    "src": "Van Dale"
-   },
-   "microwave": {
-    "to": "Magnetrons",
-    "from": "Magnetronnen",
-    "why": "de/het magnetron -> de magnetrons; 'Magnetronnen' is a consonant-doubling artefact and is not used for the appliance",
-    "src": "Van Dale"
-   },
-   "milkshake": {
-    "to": "Milkshakes",
-    "from": "Milkshaken",
-    "why": "English loanword: de milkshake -> de milkshakes; 'Milkshaken' is a generated form and would read as a verb",
-    "src": "Van Dale"
-   },
-   "monster-truck": {
-    "to": "Monstertrucks",
-    "from": "Monstertrucken",
-    "why": "English loanword: de monstertruck -> de monstertrucks; 'Monstertrucken' would read as a verb",
-    "src": "Van Dale"
-   },
-   "morning-glory": {
-    "to": "Winden",
-    "from": "Dagbloemen",
-    "why": "'Dagbloemen' is a different plant altogether (dagbloem = Commelina), not a plural of 'winde'. de winde -> de winden",
-    "src": "Van Dale"
-   },
-   "nectarine": {
-    "to": "Nectarines",
-    "from": "Nectarinen",
-    "why": "de nectarine -> de nectarines (loanword in schwa takes -s, cf. aubergines, machines); 'Nectarinen' does not exist",
-    "src": "Van Dale"
-   },
-   "oatmeal": {
-    "to": "Havermout",
-    "from": "Havermouten",
-    "why": "mass noun: de havermout has no child-relevant plural. 'Havermouten' is a generated form; p must become 'Havermout'. The N1 flag is correct here",
-    "src": "Van Dale",
-    "cls": "NO_PLURAL"
-   },
-   "oil": {
-    "to": "Olie",
-    "from": "Olien",
-    "why": "themes=[at_the_supermarket] -> cooking oil, a mass noun; p must become 'Olie'. 'Olien' is doubly wrong: it is a generated form, and even the real plural (types of oil) would be 'olien' with a trema -> 'oliën'",
-    "src": "Van Dale",
-    "cls": "NO_PLURAL"
-   },
-   "onion": {
-    "to": "Uien",
-    "from": "Ui's",
-    "why": "de ui -> de uien. 'Ui's' misapplies the apostrophe-s rule, which is only for words ending in a single stressed vowel letter (a/i/o/u/y: ara's, taxi's); 'ui' ends in the digraph <ui>",
-    "src": "Van Dale"
-   },
-   "orangutan": {
-    "to": "Orang-oetans",
-    "from": "Orang-oetannen",
-    "why": "de orang-oetan -> de orang-oetans (Malay loanword takes -s); 'Orang-oetannen' is a consonant-doubling artefact",
-    "src": "Van Dale"
-   },
-   "orchid": {
-    "to": "Orchideeën",
-    "from": "Orchideen",
-    "why": "de orchidee -> de orchideeen requires the trema: 'orchideeen' is not a legal Dutch spelling. Stem in -ee + -en takes a diaeresis on the e (cf. zee -> zeeen -> zeeën)",
-    "src": "Van Dale / Woordenlijst"
+   "map": {
+    "to": "Kaarten",
+    "from": "Mappen",
+    "why": "'Mappen' is the plural of 'map' (folder/binder) — a false-friend error. The picture is a geographic map = de kaart, plural KAARTEN.",
+    "src": "https://woordenlijst.org/zoeken/?q=kaart"
    },
    "ottoman": {
-    "to": "Poefs",
-    "from": "Poeven",
-    "why": "de poef (French loan 'pouf') -> de poefs. 'Poeven' applies the native f/v alternation (brief -> brieven), which does not extend to this loanword",
-    "src": "Van Dale"
+    "to": "Poefen",
+    "from": "Poefs",
+    "why": "Groene Boekje gives de poef → meervoud 'poefen'; 'Poefs' is not the listed form.",
+    "src": "https://woordenlijst.org/zoeken/?q=poef"
    },
-   "padlock": {
-    "to": "Hangsloten",
-    "from": "Hangslotten",
-    "why": "Van Dale: het slot -> de sloten (open-syllable lengthening), so hangslot -> hangsloten. 'Hangslotten' is the script's blind consonant-doubling rule; slot does NOT double (contrast pot -> potten)",
-    "src": "Van Dale"
+   "paper": {
+    "to": "Papieren",
+    "from": "Papier",
+    "why": "Groene Boekje: het papier, meervoud papieren (category=countable-thing); huidige waarde herhaalt het enkelvoud",
+    "src": "https://woordenlijst.org/zoeken/?q=papier"
    },
-   "parrot": {
-    "to": "Papegaaien",
-    "from": "Papegaai's",
-    "why": "Van Dale: de papegaai -> de papegaaien. The apostrophe-s is only for words ending in a single long vowel (a/i/o/u/y): panda's, pony's. 'Papegaai' ends in the diphthong -aai and takes -en. 'Papegaai's' is not Dutch at all",
-    "src": "Van Dale"
+   "penguin": {
+    "to": "Pinguïns",
+    "from": "Pinguïnen",
+    "why": "Groene Boekje geeft meervoud pinguïns; Pinguïnen is niet de standaardvorm",
+    "src": "https://woordenlijst.org/zoeken/?q=pingu%C3%AFn"
    },
-   "pasta": {
-    "to": "Pasta",
-    "from": "Pasta's",
-    "why": "mass noun (de pasta), theme=at_the_supermarket. 'Pasta's' only exists as 'types of pasta' — not the child-facing reading. p must become 'Pasta'. N1 flag correct here",
-    "src": "",
-    "cls": "NO_PLURAL"
+   "sky": {
+    "to": "Hemelen",
+    "from": "Hemels",
+    "why": "for the sky/uitspansel sense the plural is 'hemelen'; 'hemels' is the plural of the baldakijn/canopy sense — wrong sense",
+    "src": "https://woordenlijst.org/zoeken/?q=hemel"
    },
-   "peach": {
-    "to": "Perziken",
-    "from": "Perzikken",
-    "why": "Van Dale: de perzik -> de perziken. Stress is PER-zik: the final syllable is UNSTRESSED, so no consonant doubling (cf. monnik->monniken, havik->haviken). 'Perzikken' is the script's blind doubling rule",
-    "src": "Van Dale"
-   },
-   "pickup-truck": {
-    "to": "Pick-ups",
-    "from": "Pick-uppen",
-    "why": "Van Dale: de pick-up -> de pick-ups. English loans take -s; 'Pick-uppen' is the script's doubling rule and is not Dutch",
-    "src": "Van Dale"
-   },
-   "picnic": {
-    "to": "Picknicks",
-    "from": "Picknicken",
-    "why": "Van Dale: de picknick -> de picknicks (English loan takes -s). 'Picknicken' is not a plural at all — it is the INFINITIVE 'to picnic'. Read aloud to a child this is a verb where a noun is expected",
-    "src": "Van Dale"
-   },
-   "porridge": {
-    "to": "Pap",
-    "from": "Pappen",
-    "why": "mass noun (de pap), theme=breakfast. p must become 'Pap'. 'Pappen' is not a plural at all — it is the verb 'to poultice/paste' (script doubling rule). N1 flag correct here",
-    "src": "",
-    "cls": "NO_PLURAL"
-   },
-   "potato-chips": {
-    "to": "Chips",
-    "from": "Chipsen",
-    "why": "'Chipsen' is not Dutch — it is the script adding -en to an already-plural loan. The plural is 'chips', unchanged (p == s)",
-    "src": "Van Dale"
-   },
-   "present": {
-    "to": "Cadeaus",
-    "from": "Cadeau's",
-    "why": "Van Dale: het cadeau -> de cadeaus. The apostrophe is only for a single final vowel; -eau takes a bare -s (cf. bureaus, niveaus). 'Cadeau's' is a spelling error",
-    "src": "Van Dale / Woordenlijst"
-   },
-   "purse": {
-    "to": "Portemonnees",
-    "from": "Portemonneen",
-    "why": "Van Dale: de portemonnee -> portemonnees. Nouns ending in unstressed/-ee take -s; 'Portemonneen' is output of the script rule that blindly appends -n to -e words (same defect as Saladen, Naaimachinen, Punaisen)",
-    "src": "Van Dale / Woordenlijst"
-   },
-   "push-pin": {
-    "to": "Punaises",
-    "from": "Punaisen",
-    "why": "Van Dale: de punaise -> punaises. Noun ending in schwa takes -s; 'Punaisen' is the -e+n script rule again",
-    "src": "Van Dale / Woordenlijst"
-   },
-   "rain": {
-    "to": "Regen",
-    "from": "Regens",
-    "why": "mass noun exactly like the brief's water/melk/zout. Van Dale does list 'regens' but only for meteorological/literary countings of rainfalls; with themes=nature,spring and a picture of rain shown to a 3-7 year old, no plural exists. metadata countable:true is the known-fallible hint (cf. bread)",
-    "src": "Van Dale",
-    "cls": "NO_PLURAL"
-   },
-   "rhino": {
-    "to": "Neushoorns",
-    "from": "Neushoornen",
-    "why": "Van Dale: de neushoorn -> neushoorns. 'hoorn' does not pluralise in -en (Van Dale: hoorn -> hoorns/horens); 'hoornen' is the ADJECTIVE (een hoornen bril), not a plural. 'Neushoornen' is a script artefact and is not a Dutch word",
-    "src": "Van Dale (neushoorn; hoorn)"
-   },
-   "rhinoceros": {
-    "to": "Neushoorns",
-    "from": "Neushoornen",
-    "why": "identical defect to key 'rhino': de neushoorn -> neushoorns, not 'Neushoornen'",
-    "src": "Van Dale"
-   },
-   "rubber-boot": {
-    "to": "Rubberen laarzen",
-    "from": "Rubberen laarsen",
-    "why": "SEVERE: de laars -> de LAARZEN (s->z voicing), never 'laarsen'. Proven internally inconsistent by this very batch, which has the correct 'Regenlaarzen' at key rain-boots. 'rubberen' stays uninflected (participle/material adjective in -en)",
-    "src": "Van Dale (laars -> laarzen)"
-   },
-   "salad": {
-    "to": "Salades",
-    "from": "Saladen",
-    "why": "Van Dale: de salade -> salades. 'Saladen' is the -e+n script rule (same defect as Portemonneen, Punaisen, Naaimachinen)",
-    "src": "Van Dale / Woordenlijst"
-   },
-   "salt": {
-    "to": "Zout",
-    "from": "Zouten",
-    "why": "the brief's own worked example, and it holds: themes=at_the_supermarket -> this is kitchen salt, a mass noun. 'Zouten' is the chemical/technical plural (classes of salts) and is flatly wrong for a supermarket picture shown to a 3-7 year old. metadata countable:true is the known-fallible hint",
-    "src": "Van Dale",
-    "cls": "NO_PLURAL"
-   },
-   "science": {
-    "to": "Wetenschap",
-    "from": "Wetenschappen",
-    "why": "abstract/mass noun as used here. 'de wetenschappen' is a real Dutch plural (the academic disciplines, cf. natuurwetenschappen) - but with themes=activities and en Science/Science the referent is the school activity, for which no plural exists. N1 correctly flagged",
-    "src": "Van Dale",
-    "cls": "NO_PLURAL"
-   },
-   "screwdriver": {
-    "to": "Schroevendraaiers",
-    "from": "Schroevendraaieren",
-    "why": "SEVERE: de schroevendraaier -> schroevendraaiers. Agent nouns in -er take -s, never -en; 'Schroevendraaieren' is not a Dutch word at all. The same batch gets this right at vogelverschrikkers, deegrollers, papegaaiduikers and salamanders, which proves it is an isolated script artefact",
-    "src": "Van Dale"
-   },
-   "scrubs": {
-    "to": "Operatiekleding",
-    "from": "Operatiekledingen",
-    "why": "'kleding' is a mass noun and has no plural in Dutch; 'Operatiekledingen' is not a word. p must become s (Operatiekleding). Note the en gloss being plural ('Scrubs') does not make the Dutch countable - Dutch expresses the pair/set with the mass noun",
-    "src": "Van Dale (kleding)",
-    "cls": "NO_PLURAL"
-   },
-   "sewing-machine": {
-    "to": "Naaimachines",
-    "from": "Naaimachinen",
-    "why": "Van Dale: de machine -> machines, so de naaimachine -> naaimachines. 'Naaimachinen' is the -e+n script rule again",
-    "src": "Van Dale / Woordenlijst"
-   },
-   "shark": {
-    "to": "Haaien",
-    "from": "Haai's",
-    "why": "SEVERE and unambiguous: Van Dale de haai -> de HAAIEN. 'Haai's' is not Dutch under any rule - the apostrophe rule never applies to -aai (a digraph/trigraph, not a single-letter long vowel), and a Dutch TTS would read 'Haai's' as /haːis/. This is the worst form in the batch: a very common K-3 animal word",
-    "src": "Van Dale"
-   },
-   "smoothie": {
-    "to": "Smoothies",
-    "from": "Smoothien",
-    "why": "de smoothie -> de smoothies. 'Smoothien' is not a Dutch word; it comes from the script appending -(e)n. English loans in -ie take -s",
-    "src": "Van Dale"
-   },
-   "spinach": {
-    "to": "Spinazie",
-    "from": "Spinazien",
-    "why": "spinazie is a mass noun; 'Spinazien' is not a Dutch word (script artefact). p must become s = 'Spinazie'. The N1 flag is correct here",
-    "src": "Van Dale",
-    "cls": "NO_PLURAL"
-   },
-   "spray": {
-    "to": "Sprays",
-    "from": "Spray's",
-    "why": "de spray -> de sprays. The apostrophe rule applies only to a stressed single vowel LETTER at the end (auto's, taxi's, ski's); -ay is not that case. Compare essays, displays, jockeys",
-    "src": "Van Dale / Woordenlijst"
-   },
-   "stapler": {
-    "to": "Nietmachines",
-    "from": "Nietmachinen",
-    "why": "de machine -> de machines, so nietmachine -> nietmachines. 'Nietmachinen' is not a Dutch word; the script appended -n to a word already ending in -e",
-    "src": "Van Dale"
-   },
-   "stork": {
-    "to": "Ooievaars",
-    "from": "Ooievaren",
-    "why": "de ooievaar -> de ooievaars. The -aren plural is restricted to a small set of agent nouns (leraar -> leraren); non-agentive bird names in -aar take -s, exactly like adelaar -> adelaars. 'Ooievaren' carries the script's mechanical -en fingerprint and is additionally read as a verb-like form",
-    "src": "Van Dale"
-   },
-   "strawberry": {
-    "to": "Aardbeien",
-    "from": "Aardbei's",
-    "why": "de aardbei -> de aardbeien. The apostrophe rule was misapplied: it only applies after a stressed single vowel letter (taxi's, auto's); -ei is a digraph and takes plain -en",
-    "src": "Van Dale / Woordenlijst"
-   },
-   "stretcher": {
-    "to": "Brancards",
-    "from": "Brancarden",
-    "why": "de brancard -> de brancards. Unnaturalized French loans in -ard take -s (boulevard -> boulevards); 'Brancarden' is the script's mechanical -en",
-    "src": "Van Dale"
-   },
-   "submarine": {
-    "to": "Onderzeeërs",
-    "from": "Onderzeeëren",
-    "why": "de onderzeeër -> de onderzeeërs. Nouns in -er/-eër take -s, never -en. 'Onderzeeëren' is not a Dutch word; the script appended -en",
-    "src": "Van Dale"
-   },
-   "sundae": {
-    "to": "IJscoupes",
-    "from": "IJscoupen",
-    "why": "de coupe -> de coupes, so ijscoupe -> ijscoupes. 'IJscoupen' comes from the script appending -n to a word already ending in -e",
-    "src": "Van Dale"
-   },
-   "sunscreen": {
-    "to": "Zonnebrandcrèmes",
-    "from": "Zonnebrandcrèmen",
-    "why": "de crème -> de crèmes, so zonnebrandcrème -> zonnebrandcrèmes (kinds/tubes; same calibration as brood -> broden, so NOT a mass-noun case). 'Zonnebrandcrèmen' is the script's -n on a word already ending in -e",
-    "src": "Van Dale"
-   },
-   "swallow": {
-    "to": "Zwaluwen",
-    "from": "Zwaluwwen",
-    "why": "Van Dale: de zwaluw -> zwaluwen. 'Zwaluwwen' is the script's consonant-doubling rule misfiring: w is never doubled after the digraph 'uw'.",
-    "src": "Van Dale"
-   },
-   "sweater": {
-    "to": "Truien",
-    "from": "Trui's",
-    "why": "Van Dale: de trui -> truien. 'Trui's' applies the apostrophe rule for words ending in a single vowel; 'ui' is a digraph, so the plural is -en.",
-    "src": "Van Dale"
-   },
-   "t-rex": {
-    "to": "T-Rexen",
-    "from": "T-Rexxen",
-    "why": "Dutch never doubles x (fax -> faxen, box -> boxen), so 'T-Rexxen' is impossible spelling. Plural is T-rexen.",
-    "src": "Woordenlijst Nederlandse Taal (spelling rule: x is not doubled)"
-   },
-   "tank": {
-    "to": "Tanks",
-    "from": "Tanken",
-    "why": "Van Dale: de tank -> tanks. 'Tanken' is not a plural at all, it is the verb 'to refuel' - a child would hear the wrong word entirely.",
-    "src": "Van Dale"
-   },
-   "telephone": {
-    "to": "Telefoons",
-    "from": "Telefonen",
-    "why": "Van Dale: de telefoon -> telefoons (like microfoon -> microfoons, xylofoon -> xylofoons). 'Telefonen' is not current Dutch.",
-    "src": "Van Dale"
-   },
-   "television": {
-    "to": "Televisies",
-    "from": "Televisien",
-    "why": "Van Dale: de televisie -> televisies. 'Televisien' is a machine-generated -en form that does not exist.",
-    "src": "Van Dale"
-   },
-   "tennis-racket": {
-    "to": "Tennisrackets",
-    "from": "Tennisracketten",
-    "why": "Van Dale: het racket -> rackets. Stress is on the first syllable, so the consonant-doubling rule that produced 'racketten' does not apply.",
-    "src": "Van Dale"
+   "sloth": {
+    "to": "Luiaards",
+    "from": "Luiaarden",
+    "why": "Groene Boekje gives meervoud 'luiaards'; 'luiaarden' is not the listed plural",
+    "src": "https://woordenlijst.org/zoeken/?q=luiaard"
    },
    "thunderstorm": {
-    "to": "Onweer",
-    "from": "Onweren",
-    "why": "Weather phenomenon, not counted in child-facing Dutch ('het onweer'). Van Dale does record a rare plural 'onweren', so I do not call the current form a hard spelling error - but it is not a word to speak to a 3-7 year old; several thunderstorms are 'onweersbuien'. p = s per the file convention.",
-    "src": "Van Dale",
-    "cls": "NO_PLURAL"
+    "to": "Onweren",
+    "from": "Onweer",
+    "why": "Groene Boekje: het onweer, meervoud 'onweren'. The stored plural 'Onweer' just repeats the singular and is not a valid plural. NB: the brief lists 'Onweren' as a builder invention, but the official Groene Boekje lists onweren as the meervoud — the DICTIONARY WINS.",
+    "src": "https://woordenlijst.org/zoeken/?q=onweer"
    },
-   "toothpaste": {
-    "to": "Tandpasta",
-    "from": "Tandpasta's",
-    "why": "Mass noun (de tandpasta); 'Tandpasta's' would mean brands/kinds, not what the picture shows. p becomes s.",
-    "src": "Van Dale",
-    "cls": "NO_PLURAL"
+   "volleyball": {
+    "to": "Volleyballen",
+    "from": "Volleybal",
+    "why": "current plural equals the singular (no plural). The ball is countable: Groene Boekje 'de volleybal' (bal) -> meervoud 'volleyballen' ('het volleybal' = the sport, no plural)",
+    "src": "https://woordenlijst.org/zoeken/?q=volleybal"
    },
-   "toucan": {
-    "to": "Toekans",
-    "from": "Toekannen",
-    "why": "Van Dale: de toekan -> toekans. The loanword does not carry final-syllable stress, so the script's consonant-doubling rule ('Toekannen') does not apply.",
-    "src": "Van Dale"
-   },
-   "trail": {
-    "to": "Paden",
-    "from": "Padden",
-    "why": "Van Dale: het pad -> de paden. 'Padden' is the plural of the ANIMAL 'de pad'; the script applied the toad's doubling rule to the footpath, so a child sees a trail and hears 'toads'.",
-    "src": "Van Dale"
-   },
-   "trillium": {
-    "to": "Driebladen",
-    "from": "Driebladden",
-    "why": "'blad' has a long a, so consonant doubling is impossible - 'Driebladden' cannot be a Dutch word. Compounds in -blad take -bladen (tafelblad -> tafelbladen, dekblad -> dekbladen); 'bladeren' is reserved for leaves on a tree.",
-    "src": "Van Dale"
-   },
-   "tyrannosaurus-rex": {
-    "to": "Tyrannosaurus Rexen",
-    "from": "Tyrannosaurus Rexxen",
-    "why": "Dutch never doubles x (fax -> faxen, box -> boxen), so 'Rexxen' is impossible spelling. Pure form correction of the same lemma; the alternative 'tyrannosaurussen' would change the lemma, so I did not use it.",
-    "src": "Woordenlijst Nederlandse Taal (spelling rule: x is not doubled)"
-   },
-   "unicorn": {
-    "to": "Eenhoorns",
-    "from": "Eenhoornen",
-    "why": "Van Dale: de eenhoorn -> eenhoorns. 'Eenhoornen' is not a valid plural of hoorn (which is hoorns/horens); 'hoornen' only exists as an adjective ('een hoornen bril').",
-    "src": "Van Dale"
-   },
-   "wallet": {
-    "to": "Portemonnees",
-    "from": "Portemonneen",
-    "why": "de portemonnee -> de portemonnees. 'Portemonneen' is a script artefact (bare -n added to a French loan ending in -ee); no such Dutch form exists",
-    "src": "Van Dale"
-   },
-   "wand": {
-    "to": "Toverstaven",
-    "from": "Toverstaffen",
-    "why": "de staf -> de staven (f/v alternation, like graf -> graven), so de toverstaf -> de toverstaven. 'Toverstaffen' is the script's consonant-doubling rule misfiring on a word that takes voicing instead",
-    "src": "Van Dale"
-   },
-   "washing-machine": {
-    "to": "Wasmachines",
-    "from": "Wasmachinen",
-    "why": "de machine -> de machines, so de wasmachine -> de wasmachines. 'Wasmachinen' is a script artefact (bare -n on a word ending in unstressed -e)",
-    "src": "Van Dale"
-   },
-   "watch": {
-    "to": "Horloges",
-    "from": "Horlogen",
-    "why": "het horloge -> de horloges. 'Horlogen' is a script artefact (bare -n on a word ending in unstressed -e)",
-    "src": "Van Dale"
-   },
-   "water-lily": {
-    "to": "Waterlelies",
-    "from": "Waterlelien",
-    "why": "de lelie -> de lelies, so de waterlelie -> de waterlelies. 'Waterlelien' is a script artefact (bare -n on -ie)",
-    "src": "Van Dale"
-   },
-   "whisk": {
-    "to": "Gardes",
-    "from": "Garden",
-    "why": "de garde -> de gardes. 'Garden' is a script artefact (bare -n on unstressed -e) and is additionally a false friend with English 'garden' on a projected board",
-    "src": "Van Dale"
+   "yak": {
+    "to": "Yaks",
+    "from": "Yakken",
+    "why": "current 'Yakken' is the plural of 'het jak' = the GARMENT. For the ANIMAL Groene Boekje gives 'de jak -> jaks' (Engelse -s), so 'yak -> yaks', NOT 'yakken'.",
+    "src": "https://woordenlijst.org/zoeken/?q=jak"
    }
   },
   "gender": {
-   "armadillo": {
-    "to": "h",
-    "from": "d",
-    "why": "het dier -> het gordeldier. Compounds with -dier as head are neuter; the script's default 'd' is wrong",
-    "src": "Van Dale"
-   },
-   "badminton": {
-    "to": "h",
-    "from": "d",
-    "why": "het badminton. Dutch sport/game names are neuter (het tennis, het voetbal, het hockey); themes=sports + type verb-gerund + no English plural show the sport is depicted, not an object",
-    "src": "Van Dale"
-   },
-   "baking": {
-    "to": "h",
-    "from": "d",
-    "why": "substantivized infinitives are always neuter: het bakken",
-    "src": "Van Dale"
-   },
-   "baseball": {
-    "to": "h",
-    "from": "d",
-    "why": "het honkbal (the sport), like het voetbal/het basketbal. Caveat for the operator: if the picture in fact shows the BALL, the correct form is 'de honkbal' - the gender is the meaning distinction here; the metadata (no English plural, verb-gerund, themes sports/activities) points to the sport",
-    "src": "Van Dale"
-   },
    "basketball": {
-    "to": "h",
-    "from": "d",
-    "why": "het basketbal (the sport). Same caveat as honkbal: 'de basketbal' would be the ball itself; the metadata points to the sport",
-    "src": "Van Dale"
-   },
-   "biking": {
-    "to": "h",
-    "from": "d",
-    "why": "substantivized infinitives are always neuter: het fietsen",
-    "src": "Van Dale"
-   },
-   "blue": {
-    "to": "h",
-    "from": "d",
-    "why": "as a noun the colour is neuter: het blauw. 'd' is the script default (bug)",
-    "src": "Van Dale"
-   },
-   "bowling": {
-    "to": "h",
-    "from": "d",
-    "why": "substantivised infinitives are always neuter: het bowlen. 'd' is the script default (bug)",
-    "src": "Van Dale / ANS"
-   },
-   "boxing": {
-    "to": "h",
-    "from": "d",
-    "why": "substantivised infinitives are always neuter: het boksen. 'd' is the script default (bug)",
-    "src": "Van Dale / ANS"
-   },
-   "brown": {
-    "to": "h",
-    "from": "d",
-    "why": "as a noun the colour is neuter: het bruin. 'd' is the script default (bug)",
-    "src": "Van Dale"
-   },
-   "camp": {
-    "to": "h",
-    "from": "d",
-    "why": "het kamp (encampment, holiday camp) -> de kampen; theme travel_and_holiday fixes this reading. 'de kamp' is a different word (contest/enclosed field). 'd' is the script default (bug)",
-    "src": "Van Dale"
-   },
-   "camping": {
-    "to": "h",
-    "from": "d",
-    "why": "the activity is the substantivised infinitive het kamperen (always neuter). Note: 'de camping' (campsite) is a different noun and is not what type=verb-gerund/en=Camping encodes here",
-    "src": "Van Dale / ANS"
-   },
-   "chess": {
-    "to": "h",
-    "from": "d",
-    "why": "Substantivized infinitives are always neuter: het schaken (cf. het zwemmen). The script's fallthrough assigned 'd'.",
-    "src": "Van Dale / Woordenlijst"
-   },
-   "chick": {
-    "to": "h",
-    "from": "d",
-    "why": "Van Dale: het kuiken -> de kuikens. Not a diminutive, so the script's -je rule missed it and it fell through to 'd'.",
-    "src": "Van Dale"
-   },
-   "computer-keyboard": {
-    "to": "h",
-    "from": "d",
-    "why": "Van Dale: het bord -> het toetsenbord -> het computertoetsenbord (de computertoetsenborden). Compound gender comes from the head noun 'bord', which is neuter; -bord was not on the earlier suffix-bounded search list, so this survived as 'd'.",
-    "src": "Van Dale"
-   },
-   "cruise-ship": {
-    "to": "h",
-    "from": "d",
-    "why": "Compound gender comes from the head noun: het schip -> het cruiseschip. The script's fallthrough gave 'd'.",
-    "src": "Van Dale"
-   },
-   "dancing": {
-    "to": "h",
-    "from": "d",
-    "why": "Substantivized infinitives are always neuter: het dansen (cf. het zwemmen). 'd' would only be right for the unintended reading 'de dans -> de dansen'.",
-    "src": "Van Dale / Woordenlijst"
-   },
-   "dogwood-tree": {
     "to": "d",
     "from": "h",
-    "why": "de kornoelje is a common-gender noun. The script's diminutive rule (endsWith('je')) misfired on the lexical ending -je of kornoelje; it is not a diminutive. 'Het kornoelje' is not Dutch",
-    "src": "Van Dale: de kornoelje"
+    "why": "the pictured ball is 'de basketbal' (m); 'het basketbal' is only the SPORT. Football-trap analog: picture disambiguates to the ball -> de",
+    "src": "https://woordenlijst.org/zoeken/?q=basketbal"
    },
-   "drink": {
+   "hair-tie": {
     "to": "h",
     "from": "d",
-    "why": "a substantivized infinitive is always neuter in Dutch: het drinken. 'De drinken' is impossible under any reading",
-    "src": "Van Dale / general rule: substantivized infinitives are het-words"
+    "why": "Groene Boekje: HET haarelastiek (het elastiek). Batch had d.",
+    "src": "https://woordenlijst.org/zoeken/?q=haarelastiek"
    },
-   "ear": {
-    "to": "h",
-    "from": "d",
-    "why": "het oor. Straight instance of the script's default-to-'d' bug; 'de oor' is not Dutch",
-    "src": "Van Dale: het oor - de oren"
-   },
-   "eat": {
-    "to": "h",
-    "from": "d",
-    "why": "substantivized infinitive is always neuter: het eten. Consistent with key 'food' (N6 collision), which already carries 'h' for the same word",
-    "src": "Van Dale: het eten"
-   },
-   "fishing": {
-    "to": "h",
-    "from": "d",
-    "why": "substantivized infinitive is always neuter: het vissen. 'De vissen' would be the plural of the fish, i.e. exactly the wrong reading for this key",
-    "src": "Van Dale / general rule: substantivized infinitives are het-words"
-   },
-   "foal": {
-    "to": "h",
-    "from": "d",
-    "why": "het veulen. Another instance of the default-to-'d' bug; 'de veulen' is not Dutch (compare het kalf, het veulen, het lam - young-animal nouns are largely neuter)",
-    "src": "Van Dale: het veulen - de veulens"
-   },
-   "football": {
-    "to": "h",
-    "from": "d",
-    "why": "Dutch sport names are neuter: het voetbal, het hockey, het rugby -> het American football. 'De American football' is not Dutch. (If the picture were to show the ball rather than the sport, the whole lemma would be wrong - but every metadata field says sport)",
-    "src": "Van Dale: het American football"
-   },
-   "gingerbread-house": {
-    "to": "h",
-    "from": "d",
-    "why": "Head noun is 'het huis', so het peperkoekhuis. The script's default-to-'de' bug; a child would hear 'de peperkoekhuis'",
-    "src": "Van Dale"
-   },
-   "golf": {
-    "to": "h",
-    "from": "d",
-    "why": "HOMONYM, gender IS the meaning: de golf = wave/gulf; het golf = the ball game. The 'sports' theme fixes the game reading, so it must be 'h'. Dutch sport names are neuter (het voetbal, het tennis, het hockey)",
-    "src": "Van Dale"
-   },
-   "gray": {
-    "to": "h",
-    "from": "d",
-    "why": "Nominalised colour names are neuter: het grijs (cf. het groen, het rood). 'De grijs' is not Dutch; 'd' here is the script's default-to-de bug",
-    "src": "Van Dale"
-   },
-   "green": {
-    "to": "h",
-    "from": "d",
-    "why": "Nominalised colour names are neuter: het groen. 'De groen' is not Dutch; 'd' is the script default",
-    "src": "Van Dale"
-   },
-   "hiking": {
-    "to": "h",
-    "from": "d",
-    "why": "Nominalised infinitives are always neuter: het wandelen (cf. the brief's own 'het zwemmen'). 'De wandelen' is not Dutch; 'd' is the script default",
-    "src": "Van Dale"
-   },
-   "hockey": {
-    "to": "h",
-    "from": "d",
-    "why": "Dutch sport names are neuter: het hockey (cf. het voetbal, het tennis, het golf). 'De hockey' is not Dutch; 'd' is the script default",
-    "src": "Van Dale"
-   },
-   "ice-skating": {
-    "to": "h",
-    "from": "d",
-    "why": "substantivized infinitives are ALWAYS neuter in Dutch: het schaatsen, not de schaatsen. The 'd' is the script default described in the brief",
-    "src": "Van Dale"
-   },
-   "jumping": {
-    "to": "h",
-    "from": "d",
-    "why": "substantivized infinitives are always neuter: het springen, not de springen",
-    "src": "Van Dale"
-   },
-   "knitting": {
-    "to": "h",
-    "from": "d",
-    "why": "substantivized infinitives are always neuter: het breien, not de breien",
-    "src": "Van Dale"
-   },
-   "magnifying-glass": {
-    "to": "h",
-    "from": "d",
-    "why": "het vergrootglas, like het glas. The generator's default 'd' is wrong; this compound was invisible to the earlier suffix-bounded sweep",
-    "src": "Van Dale"
-   },
-   "post-office": {
-    "to": "h",
-    "from": "d",
-    "why": "het kantoor -> het postkantoor. This is exactly the genderNl bug: no suffix on the rule's list, so it fell through to the 'd' default. A child would hear 'de postkantoor'",
-    "src": "Van Dale"
-   },
-   "pottery": {
-    "to": "h",
-    "from": "d",
-    "why": "substantivized verbs are always het: het pottenbakken. The file's own convention confirms it — the sibling activity key painting->'Schilderen' is already coded h. 'd' here is the genderNl default-fallthrough bug",
-    "src": ""
-   },
-   "read": {
-    "to": "h",
-    "from": "d",
-    "why": "substantivised infinitives are ALWAYS neuter in Dutch: HET lezen. The brief's own example 'het zwemmen' confirms the class. 'd' is the genderNl fall-through bug",
-    "src": "Van Dale"
-   },
-   "reading": {
-    "to": "h",
-    "from": "d",
-    "why": "het lezen - substantivised infinitives are neuter without exception",
-    "src": "Van Dale"
-   },
-   "rocking-horse": {
-    "to": "h",
-    "from": "d",
-    "why": "HET paard -> HET hobbelpaard. Van Dale: hobbelpaard (het; o; meervoud hobbelpaarden). This is the genderNl fall-through bug exactly as described: nothing in the word matches the het-suffix list, so it was defaulted to 'd'. A child would hear 'de hobbelpaard'",
-    "src": "Van Dale"
-   },
-   "run": {
-    "to": "h",
-    "from": "d",
-    "why": "het rennen - substantivised infinitives are neuter (brief: het zwemmen)",
-    "src": "Van Dale"
-   },
-   "running": {
-    "to": "h",
-    "from": "d",
-    "why": "het rennen - substantivised infinitives are neuter",
-    "src": "Van Dale"
-   },
-   "scuba-diving": {
-    "to": "h",
-    "from": "d",
-    "why": "het duiken - substantivised infinitives are neuter (brief: het zwemmen)",
-    "src": "Van Dale"
-   },
-   "sewing": {
-    "to": "h",
-    "from": "d",
-    "why": "het naaien - substantivised infinitives are neuter",
-    "src": "Van Dale"
-   },
-   "singing": {
-    "to": "h",
-    "from": "d",
-    "why": "substantivized infinitives are always neuter in Dutch: HET zingen. The brief itself writes 'het zwemmen'. 'd' would produce *de zingen",
-    "src": "Van Dale / ANS"
-   },
-   "sit": {
-    "to": "h",
-    "from": "d",
-    "why": "as a bare verb no article applies, but the only defensible value if it is ever rendered with one is neuter: HET zitten (substantivized infinitive). 'd' can only ever be wrong",
-    "src": "Van Dale / ANS"
-   },
-   "skating": {
-    "to": "h",
-    "from": "d",
-    "why": "HET schaatsen (the activity). 'd' encodes the OTHER lemma (de schaatsen = the skates) and would make the entry say the wrong thing",
-    "src": "Van Dale / ANS"
-   },
-   "skiing": {
-    "to": "h",
-    "from": "d",
-    "why": "het skiën (the activity). Contrast de ski -> de ski's (the object)",
-    "src": "Van Dale / ANS"
-   },
-   "sledding": {
-    "to": "h",
-    "from": "d",
-    "why": "het sleeën (the activity). Homographic with 'de sleeën' = the sleds (plural of slee), which is exactly why 'd' is wrong here",
-    "src": "Van Dale / ANS"
-   },
-   "sleep": {
-    "to": "h",
-    "from": "d",
-    "why": "only defensible value is neuter: HET slapen (substantivized infinitive)",
-    "src": "Van Dale / ANS"
-   },
-   "snorkeling-mask": {
-    "to": "h",
-    "from": "d",
-    "why": "the head noun is 'masker', which is neuter: HET masker -> HET snorkelmasker. Current 'd' is a genderNl default (the word matches none of the script's suffixes), and would produce *de snorkelmasker",
-    "src": "Van Dale"
-   },
-   "snowboarding": {
-    "to": "h",
-    "from": "d",
-    "why": "HET snowboarden (the activity)",
-    "src": "Van Dale / ANS"
-   },
-   "soccer": {
-    "to": "h",
-    "from": "d",
-    "why": "HOMONYM, and gender IS the meaning here, exactly the Kiefer trap: HET voetbal = the sport (this key: themes [activities, sports], en 'Soccer'), DE voetbal = the ball (key 'soccer-ball'). Current 'd' makes this entry say 'the ball' while the image/gloss is the sport. The N6 collision with soccer-ball is the tell",
-    "src": "Van Dale"
-   },
-   "stand": {
-    "to": "h",
-    "from": "d",
-    "why": "only defensible value is neuter: HET staan (substantivized infinitive)",
-    "src": "Van Dale / ANS"
-   },
-   "swimming": {
-    "to": "h",
-    "from": "d",
-    "why": "Nominalised infinitives are always neuter: het zwemmen. The generator's fallback returned 'd'.",
-    "src": "Van Dale"
-   },
-   "table-tennis": {
-    "to": "h",
-    "from": "d",
-    "why": "Sport names are neuter in Dutch: het tafeltennis (cf. het tennis, het voetbal).",
-    "src": "Van Dale"
-   },
-   "tape": {
-    "to": "h",
-    "from": "d",
-    "why": "Van Dale / Woordenlijst: het plakband (Standard Dutch, Netherlands). The generator's catch-all returned 'd'.",
-    "src": "Van Dale / Woordenlijst Nederlandse Taal"
-   },
-   "tape-measure": {
-    "to": "h",
-    "from": "d",
-    "why": "Head noun 'lint' is neuter (het lint, de linten), so het meetlint. The generator's catch-all returned 'd'.",
-    "src": "Van Dale"
-   },
-   "tennis": {
-    "to": "h",
-    "from": "d",
-    "why": "Sport names are neuter: het tennis.",
-    "src": "Van Dale"
-   },
-   "tennis-racket": {
-    "to": "h",
-    "from": "d",
-    "why": "Head noun 'racket' is neuter: het (tennis)racket.",
-    "src": "Van Dale"
-   },
-   "violet": {
-    "to": "h",
-    "from": "d",
-    "why": "safe regardless of how the singular resolves: substantivised colour names are neuter (het violet, cf. het rood) AND the flower is a diminutive (het viooltje). Both candidate lemmas are het-words, so 'd' is wrong either way",
-    "src": "Van Dale"
-   },
-   "walk": {
-    "to": "h",
-    "from": "d",
-    "why": "substantivised infinitives are always neuter: het lopen. 'd' is the genderNl fall-through bug",
-    "src": "Van Dale"
-   },
-   "watch": {
-    "to": "h",
-    "from": "d",
-    "why": "het horloge is neuter; 'd' is the genderNl fall-through bug",
-    "src": "Van Dale"
-   },
-   "white": {
-    "to": "h",
-    "from": "d",
-    "why": "when a colour name is used as a noun it is neuter: het wit (cf. het rood, het blauw). 'd' is the genderNl fall-through bug and would generate the ungrammatical 'de wit'",
-    "src": "Van Dale"
-   },
-   "writing": {
-    "to": "h",
-    "from": "d",
-    "why": "substantivised infinitives are always neuter: het schrijven. 'd' is the genderNl fall-through bug",
-    "src": "Van Dale"
-   },
-   "yacht": {
-    "to": "h",
-    "from": "d",
-    "why": "homonym trap: themes [vehicles/travel] -> het jacht (the boat, neuter), whereas de jacht is HUNTING. The data currently encodes the hunt, not the pictured boat; 'd' would make a child hear 'de jacht'",
-    "src": "Van Dale"
-   },
-   "yellow": {
-    "to": "h",
-    "from": "d",
-    "why": "when a colour name is used as a noun it is neuter: het geel (cf. het rood). 'd' is the genderNl fall-through bug and would generate the ungrammatical 'de geel'. NB the script's own code even special-cases 'geel' out of its ge- rule, which is why it fell through to 'd'",
-    "src": "Van Dale"
+   "tablet": {
+    "to": "d",
+    "from": "h",
+    "why": "Groene Boekje: the tablet COMPUTER is 'de tablet' (m), only het/de for the pill/slab sense. Picture is a device → de tablet, so g should be d not h.",
+    "src": "https://woordenlijst.org/zoeken/?q=tablet"
    }
   }
- },
- "reverified": true
+ }
 }

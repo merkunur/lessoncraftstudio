@@ -1,0 +1,254 @@
+{
+ "locale": "sv",
+ "part": "v2",
+ "reviewed": 41,
+ "method": "Adversarial second pass over all 41 proposals (3 singular / 36 plural / 2 gender) — no sampling. Every 'to' was fetched fresh from svenska.se via dict-fetch (SAOL+SO+SAOB) rather than read from the first round's quotation; the first round's citations were treated as claims to be tested, not evidence. Beyond per-word lookup I ran six structural tests the first round could not run on itself: (1) FROM-VALUE TEST — reconstructed all 39 stored rows from REFERENCE TRANSLATIONS/image-vocabulary.js and confirmed every 'from' matches the live data (39/39 match; no proposal is arguing about a value that is not there). (2) RULE-7 DUP SCAN — patched all 39 rows and diffed each against all 1263 keys, distinguishing pre-existing duplicates from ones the fix CREATES; exactly one new collision surfaced (hospital-gown/scrubs), and it is escalated. (3) CROSS-LOCALE SHAPE TEST — read all 11 locales of each touched key; where Swedish alone diverges in shape (a mass noun where 10 locales have a countable pair) that is recorded, because it usually marks a lemma defect the form fix would entrench. (4) DIACRITIC/NFC TEST — programmatic check for the ASCII-folding defect that hit the earlier sv round ('Mikrovagsugn', 'Hav'): 0 defects; all five diacritic-bearing forms (Bärbara stereor, Byråar, Förgätmigejer, Trädgårdsgrepar, Sjukhuskläder) carry å/ä/ö correctly, and no proposal makes a naive repair of the ara→åra / hav→håv class. (5) PICTURE TEST — independently opened the images the verdicts actually turn on (cape, trapezoid, dresser, pegasus, garden_fork) rather than trusting image_seen. (6) BOTH-AUTHORITIES TEST — read the SO entry as well as the SAOL entry for every word, specifically hunting the brief's rule-5 SAOL/SO disagreement class; this is what produced the single REJECT. conflicts-sv.json is empty: nothing here reverses a shipped native decision.",
+ "rows": [
+  {
+   "key": "cape",
+   "field": "singular",
+   "verdict": "CONFIRM",
+   "note": "Verified independently. SAOL: 'kapa verb ~de ~t' — the stored singular is a VERB, and *Kapor is its script-invented plural. SAOL 'cape [kä´p] substantiv ~n [-en]; pl. ~r [-er] / ett ärmlöst plagg som läggs över axlarna'; SO 'cape capen caper / ett ärmlöst, jackliknande ytterplagg som hängs över axlarna'. I OPENED accessories/cape@2x.webp myself: a purple garment with a wide pointed shoulder collar and a button row, flaring to a hem, with NO sleeves of any kind — SAOL's definition word for word. The kappa-typo hypothesis is correctly rejected: a kappa has sleeves. I ALSO tested a trap the first round did not mention — da 'Kappe' and no 'Kappe' both sit in this same row, and Danish/Norwegian kappe DOES mean cloak/cape, which makes 'Kapa' look like a Scandinavian sibling form; but per §A.13.58 that must not be cross-applied — Swedish kappa is a COAT (sleeved), so the sibling evidence does not rescue the stored value, it is a false friend. MINOR PREMISE CORRECTION (does not touch the verdict): 'There is NO noun kapa' is overstated — SAOB lists a 'kapa sbst.' — but SAOL, the norm, carries only the verb, and no noun kapa means a cape."
+  },
+  {
+   "key": "muffin",
+   "field": "singular",
+   "verdict": "CONFIRM",
+   "note": "Verified verbatim. SAOL returns 'Inga träffar på muffin. Menade du muffins, mufflon eller muff?' — quoted accurately, not fabricated. SAOL 'muffins [muf´ins] substantiv ~en hellre än ~et; pl. ~ hellre än ~ar'; SO 'muffins muffinsen, plural muffins el. muffinsar'. The Swedish borrowing took the English plural as its singular: en muffins. ROW COHERENCE (rule 7) CHECKED AND CLEAN: the resulting row is Muffins/Muffins/n — the plural field needs no change because SAOL PREFERS the zero plural ('pl. ~ hellre än ~ar'), and the gender needs no change because SAOL prefers ~en (= n). So the absence of a paired plural proposal is correct, not an oversight. Dup scan: no sister key collides. Cross-locale: no is already Muffins/Muffinser, so sv is not made an outlier."
+  },
+  {
+   "key": "pegasus",
+   "field": "singular",
+   "verdict": "CONFIRM",
+   "note": "SAOL 'pegas [pega´s] substantiv ~en ~er / bevingad häst som symbol för diktkonsten'; SO 'pegas pegasen pegaser'. SAOL carries no 'pegasus' headword. For a common-noun picture label, pegas is the naturalised Swedish word. PREMISE NUANCE the first round missed, recorded because the brief says a false premise must not be reused even when the conclusion is right: 'Pegasus' is not simply un-Swedish — SAOB explicitly states 'Ss. namn i obest. form användas numera bl. formerna pegasus o. pegasos', i.e. AS A PROPER NAME the form pegasus is the current one. That does not save the stored value here, because this row is a countable common-noun label in a picture vocabulary (and the corpus gives it hasPlural), not the name of the mythological horse. ART FINDING INDEPENDENTLY CONFIRMED: I opened Things That Fly/pegasus@2x.webp — the winged horse carries a GOLDEN SPIRAL HORN, so it is an alicorn/winged unicorn and is not a pegas in any language. That is a cross-locale art question for the operator; the form fix stands either way."
+  },
+  {
+   "key": "air-conditioning",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "SAOL 'luft|kond·it·ion·er·ing substantiv ~en ~ar'; SO 'luftkonditionering luftkonditioneringen luftkonditioneringar'. Both authorities agree; the stored zero plural is unsupported. Agrees with classification hasPlural:true; the row's own _countable:false is the fallible field the brief warns about."
+  },
+  {
+   "key": "ankle",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "SAOL 'vrist substantiv ~en ~er'; SO 'vrist vristen vrister'. Both agree on -er. Textbook case of the documented -ar default swallowing the 3rd declension (ambulans/antilop/paj)."
+  },
+  {
+   "key": "asparagus",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "SAOL 'sparr·is [spar´-] substantiv ~en ~ar'; SO 'sparris sparrisen sparrisar'. Both agree. The brief itself names asparagus as a word whose _countable:false is wrong, and SAOL confirms the real plural."
+  },
+  {
+   "key": "baby",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "SO 'baby babyn, plural babies el. babys' — babies first-listed. SAOL gives only '~n' and lists no plural at all. Checked specifically for the rule-5 SAOL/SO conflict class: this is NOT one — SAOL is SILENT, it does not offer a competing form, so SO governs unopposed. 'Babyar' appears in neither authority."
+  },
+  {
+   "key": "baby's-onesie",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "SAOL 'body [båd´y] substantiv ~n; pl. bodies'; SO 'body bodyn bodies'. Both agree, and the compound follows its head: babybody -> babybodies. noImage, so judged on the word alone, which is legitimate here because the fix is a pure declension of an attested head noun."
+  },
+  {
+   "key": "bagel",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "SAOL 'bagel [bej´gel] substantiv ~n; pl. ~s'; SO 'bagel bageln bagels'. Both agree on -s. 'Baglar' applies -el syncope (nyckel->nycklar) to an English loan SAOL does not syncopate."
+  },
+  {
+   "key": "boombox",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Both halves verified. NOUN: SAOL '1stereo [ste´reo] substantiv ~n ~r / stereoanläggning' -> stereor, not *stereoar (note SAOL's 2stereo 'oböjl.' is stereofoni, the wrong homograph — the fix takes the right one). ADJECTIVE: an indefinite plural attributive takes -a -> bärbara. I VERIFIED THE CITED PRECEDENT IN THE LIVE DATA rather than taking it on trust: boiled-egg is ['Kokt ägg','Kokta ägg','t'] and fried-egg is ['Stekt ägg','Stekta ägg','t'] — the corpus already inflects the adjective in the plural in both sibling rows, which proves 'Bärbar stereoar' is a defect and not a house convention."
+  },
+  {
+   "key": "cape",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "SAOL 'cape substantiv ~n [-en]; pl. ~r [-er]'; SO 'cape capen caper'. Both agree -> Caper. Moves coherently with the singular fix (rule 7): the row becomes Cape/Caper/n, a single consistent lemma, and the dup scan shows no sister-key collision."
+  },
+  {
+   "key": "chili-pepper",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "SAOL 'chili|peppar substantiv ~n' — no plural listed; SO 'chilipeppar chilipepparn' — no plural listed. Also checked the short form: SAOL 'chili [çi´li] substantiv ~n', likewise none. I FOUND A STRONGER CONTROL THAN THE PROPOSAL'S: SAOL gives 'paprika [pa´prika] substantiv ~n paprikor' glossed 'krydda el. grönsak av en växt' — i.e. SAOL DOES grant a plural to a word that is simultaneously a spice AND a vegetable, in this very domain. Withholding one from chilipeppar is therefore a deliberate lexicographic choice, not an omission. The proposal's nyckel control only showed SAOL lists plurals in general; paprika shows it lists them for spice/vegetable homographs specifically. FLAG for the operator (not an objection): this key has NO image, so the classifier had nothing to see, and all 10 other locales use a countable POD word (de Chilischote/Chilischoten, fr Piment/Piments, es Chile/Chiles, it Peperoncino/Peperoncini, nl Chilipeper/Chilipepers) — the fix makes sv the only locale without a plural. The form fix is right against SAOL; the residual is a lemma question (chilifrukt/chilis), which is the operator's call."
+  },
+  {
+   "key": "dogwood-tree",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "SAOL 'korn·ell [-el´] substantiv ~en ~er'; SO 'kornell kornellen korneller'. Both agree. 'Kornellar' is the -ar default and does not exist."
+  },
+  {
+   "key": "dresser",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "STRONGEST CATCH IN THE SET AND IT SURVIVES ADVERSARIAL TESTING — this is the bok/böcker-vs-bokar homograph class the brief says is the worst thing to get wrong, and the first round got it right. I fetched the entry myself: SAOL '1byrå [by´rå] substantiv ~n ~ar / en möbel' and '2byrå [by´rå] substantiv ~n ~er / avdelning av ämbetsverk e.d.; kontor, mottagning; företag'; SO confirms '1 byrå byrån byråar / en (finare) förvaringsmöbel med utdragbara lådor' vs '2 byrå byrån byråer'. I OPENED furniture/dresser@2x.webp myself: a red-brown chest of four tan drawers with round knobs on splayed legs — unambiguously the FURNITURE, i.e. 1byrå -> byråar. The stored 'Byråer' is a real Swedish word (the office plural) bolted to the wrong sense, which is exactly why only the picture could settle it."
+  },
+  {
+   "key": "durian",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "SAOL 'durian [du´-] substantiv ~en ~er / en stor, sydostasiatisk frukt'. SO has no entry ('Inga träffar på durian'), so SAOL governs unopposed — not a rule-5 conflict. 'Durianar' is the -ar default."
+  },
+  {
+   "key": "forget-me-not",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "SAOL 'för·gät·mig|ej [-ej´] substantiv ~en; pl. ~ el. ~er'; SO 'plural förgätmigej el. förgätmigejer'. Confirmed: -ar is sanctioned by NEITHER authority, so the stored value must go, and BOTH zero and -er are sanctioned, so the chosen -er is not wrong. NOTED INCONSISTENCY, surfaced for the operator rather than treated as an error: this proposal takes SAOL's SECOND-listed form (-er) while the keyboard proposal in the same batch explicitly takes SAOL's FIRST-listed form ('Taking SAOL's first-listed form: Keyboardar'). Two different first-listed policies inside one batch. Both förgätmigej and förgätmigejer are correct, so I do not AMEND — but the operator should pick ONE policy, and the proposal's pedagogical rationale (a zero plural teaches nothing when read aloud beside a picture) is a reasonable basis for it. Independent of the singular, which is correctly HELD (the art is a large RED flower, not a small blue clustered förgätmigej)."
+  },
+  {
+   "key": "garden-fork",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "CONFIRMED, AND I UPGRADE THE EVIDENCE — the proposal honestly flagged that it rested on sv.wiktionary plus a declension rule because 'SAOL's grep entry sits behind a six-way disambiguation page the fetch tool cannot resolve past'. That is true of the lemma search, but the authority CAN be reached from the other side: searching the INFLECTED form 'grepar' on svenska.se returns '2 träffar i SAOL, 2 träffar i SO' listing 'grepar (grep) subst.' and 'grepar (grepe) subst.' in BOTH dictionaries — SAOL's and SO's own inflection index confirming grepar as the plural of grep. So this fix rests on the authority after all, not on a cross-check source. sv.wiktionary independently agrees (grep/grepen/grepar/greparna, 'grep u', glossed '(jordbruk) ett gaffelformigt redskap för jordbruk och trädgårdsskötsel'). The stored zero plural is the ett-word pattern applied to an en-word. I opened tools bw/garden_fork@2x.webp: a three-tine fork with a slim tapered handle and a hang hole — the first round's hedge about the tines being slenderer than a real grep's is a fair lemma note, but it does not touch this form fix."
+  },
+  {
+   "key": "gecko",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "SAOL 'gecko [gek´o] substantiv ~n ~r'; SO 'gecko geckon geckor'. Both agree; the stored 'Geckos' is an imported English plural in neither authority. The proposal's own reasoning is the right one and I tested it: the -s ending is not uniformly wrong for loans (SAOL gives kettlebell '~s' and bagel '~s' in this same batch), so it genuinely has to be looked up word by word — which is exactly the discipline that makes the keyboard REJECT below possible."
+  },
+  {
+   "key": "hemlock-tree",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "SAOL 'hemlock [hem´låk] substantiv ~en ~ar / ett barrträd'; SO 'hemlock hemlocken hemlockar'. Both agree. The stored zero plural would require an ett-word; hemlock is ~en, and the row's own gender 'n' is the field that is right. ART NOTE (held elsewhere, does not affect the form): SAOL defines hemlock as a CONIFER ('ett barrträd') while the art is a broadleaf deciduous tree — a cross-locale art question, not a Swedish form defect."
+  },
+  {
+   "key": "hospital-gown",
+   "field": "plural",
+   "verdict": "ESCALATE",
+   "note": "THE FIX IS DIRECTIONALLY RIGHT BUT MUST NOT SHIP AS WRITTEN — my rule-7 dup scan caught the one thing the first round did not. 'Sjukhuskläderar' is indefensible (the -ar default bolted onto an already-plural noun; SAOB: 'KLÄDER, pl., se KLÄDE'), so it cannot stay. But patching the plural to 'Sjukhuskläder' makes this row ['Sjukhuskläder','Sjukhuskläder','n'] BYTE-IDENTICAL to the sister key 'scrubs' — the ONLY new collision my scan found across all 39 patched keys, and one CREATED by the fix rather than pre-existing. The two keys are different garments: scrubs is what STAFF wear (de OP-Kleidung, es Uniforme médico, nl Operatiekleding) and a hospital gown is what the PATIENT wears. The cross-locale test makes this decisive: ALL 10 other locales give hospital-gown a COUNTABLE singular patient garment with a real plural (de Krankenhaushemd/Krankenhaushemden, fr Blouse d'hôpital/Blouses d'hôpital, es Bata de hospital/Batas, it Camice ospedaliero/Camici, nl Ziekenhuisjas/Ziekenhuisjassen, da Hospitalskittel/Hospitalskitler, no Sykehuskjole/Sykehuskjoler, fi Sairaalatakki/Sairaalatakit) — Swedish ALONE has collapsed a patient gown into plural-only 'hospital clothes', which is precisely why the script had nothing to pluralise. AND the proposal's stated ground is false: 'Removing the invented form is right whichever way the lemma question is settled' does NOT hold — if the lemma resolves to Patientrock the plural is Patientrockar, not Sjukhuskläder, so this fix is not lemma-independent and would entrench the defect behind a duplicate. Operator must rule the lemma (recommend Patientrock/Patientrockar/n, which also resolves the separately-held gender row, since a plural-only noun can carry neither en nor ett). Delete the non-word — but do not ship a byte-identical twin of scrubs."
+  },
+  {
+   "key": "iguanodon",
+   "field": "plural",
+   "verdict": "ESCALATE",
+   "note": "NO PLURAL IS ATTESTED ANYWHERE, AND THE PROPOSAL'S ANALOGUE IS THE WRONG CLASS. Verified verbatim: 'Inga träffar på iguanodon' in SAOL, SO and SAOB alike — quoted honestly by the proposal. I then went one step further and checked the source the proposal did not cite: sv.wiktionary DOES have an iguanodon entry, but it carries only 'iguanodon u' with NO Böjningar table at all — so the gender (utrum, = the stored n) is corroborated while the plural is attested by nothing, in any source. That leaves the proposed 'Iguanodoner' resting entirely on the cited elektron pattern — and that analogue does not hold: elektron/proton/neutron are -tron/-on words, whereas iguanodon is a Greek -ODON word (sv.wiktionary etymology: 'grekiska ὀδών (odṓn)'). SAOL's actual -odon control is 'mast·odont [-odån´t] substantiv ~en ~er' — Swedish nativises Greek -odon by taking the oblique stem odont- and adding a -T, giving mastodont -> mastodonter. That points at a LEMMA question (Iguanodont -> iguanodonter?), which per the brief is reserved to the operator and is more than a form correction. Both the stored -ar (the script's unmotivated default; the Latin -us rule cannot reach a Greek stem) and the proposed -er are unattested guesses, so this is not 'keep the stored value' — it is 'neither form is sourced; rule it explicitly'. The proposal itself invites exactly this ('Operator may prefer to leave it pending a native/palaeontology-usage check'), and I agree: do not ship an invented plural to children on a pattern argument built from the wrong word class."
+  },
+  {
+   "key": "jam",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "SAOL 'sylt substantiv ~en ~er'; SO 'sylt sylten sylter'. Both give a real plural outright, and classification independently says countable-thing/hasPlural:true, so the identical singular/plural wrongly encodes 'no plural'. This is the brief's named inverse trap (bread/asparagus/cheese) and the dictionary wins. Noted: sylter is 'kinds of jam' and is adult register beside a picture of one jar — but SAOL is explicit and the brief is explicit that the dictionary governs."
+  },
+  {
+   "key": "juice",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "SAOL 'juice [jo´s] substantiv ~n [jo´sen]; pl. ~r [jo`ser]'; SO 'juice juicen juicer'. Both give the plural outright. Treating juice as uncountable is an English intuition SAOL does not share."
+  },
+  {
+   "key": "kettlebell",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "SAOL 'kettle|bell [ket´elbel] substantiv ~en; pl. ~s' — SAOL gives ONLY -s. SO has no entry ('Inga träffar på kettlebell'), so there is no competing authority and this is NOT a rule-5 conflict. 'Kettlebellar' is the -ar default. I specifically re-read SO here because the neighbouring keyboard proposal turns on SO — SO's silence on kettlebell is what makes these two words diverge legitimately."
+  },
+  {
+   "key": "keyboard",
+   "field": "plural",
+   "verdict": "REJECT",
+   "note": "REJECT — THE PROPOSAL WOULD REPLACE A CORRECT, AUTHORITY-SANCTIONED FORM, AND ITS CENTRAL FACTUAL CLAIM IS FALSE. The proposal asserts SAOL 'does NOT list *keyboards' and concludes the stored 'Keyboards' is a script artifact to be replaced by 'Keyboardar'. It consulted SAOL only. I fetched BOTH authorities and re-verified twice: SO reads 'keyboard keyboarden el. keyboardet, plural KEYBOARDS äv. keyboardar' — SO lists KEYBOARDS FIRST, as its primary plural. So the stored value is not invented and is not wrong; it is SO's first-listed form, and the proposal's own first-listed policy (which it invokes by name: 'Taking SAOL's first-listed form') would endorse it under SO. What is actually here is the brief's rule-5 class exactly: SAOL ('pl. ~ar el. ~' — keyboardar or zero, no -s) and SO ('keyboards äv. keyboardar') GENUINELY DISAGREE, like bison/mango/frisbee. Per the brief that is 'a finding to FLAG, not something to resolve by picking' — and the proposal picked, silently, without disclosing that the other authority contradicts it. Destroying a correct form is the worst outcome available here. LEAVE 'Keyboards' STANDING and surface the SAOL/SO conflict to the operator. (Note the row's gender 't' is also sanctioned — SAOL '~en el. ~et' — so no consequential change follows.)"
+  },
+  {
+   "key": "lavender",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "SAOL 'lav·endel [-en´del] substantiv ~n' — no plural listed; SO 'lavendel lavendeln' — no plural listed. Both silent, and SAOL demonstrably does list plurals when they exist (kornell ~en ~er, hemlock ~en ~ar in this same batch), so the omission is meaningful. Contradicts classification hasPlural:true and the dictionary wins. Cross-locale corroboration: de already ships Lavendel/Lavendel (zero), so sv is not made an outlier. The proposal is also fair that 'Lavendlar' is at least well-formed syncope — but no authority sanctions it."
+  },
+  {
+   "key": "lime",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "SAOL 'lime [laj´m] substantiv ~n [-en]; pl. ~r [-er]'; SO 'lime limen limer'. Both agree. lime ends in unstressed -e -> 2nd declension -r. Note the row has two diverging themes (fruits = the fruit, colors = a colour swatch); classification fixed countable-thing, which the fruit art supports, so the form fix is safe."
+  },
+  {
+   "key": "parasaurolophus",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "CONFIRMED AND STRENGTHENED. Class rule verified at the attested member: SAOL 'kakt·us [kak´t-] substantiv ~en ~ar'. Parasaurolophus DOES end in Latin -us (Greek λόφος -> Latinised -lophus), so the -us -> -ar rule genuinely reaches it — this is not the overreach the brief warns about with carnotaurus. I also enumerated the whole corpus rather than trusting the proposal's two cited siblings: of the 19 Latin -us dinosaur keys, EIGHTEEN already take -ar (Allosaurusar, Ankylosaurusar, Apatosaurusar, Argentinosaurusar, Brachiosaurusar, Brontosaurusar, Giganotosaurusar, Ichthyosaurusar, Mosasaurusar, Pachycephalosaurusar, Plesiosaurusar, Stegosaurusar — which the brief itself blesses as correct — Styracosaurusar, Therizinosaurusar, and others); parasaurolophus is the LONE zero-plural outlier. Pure form correction."
+  },
+  {
+   "key": "pegasus",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "SAOL 'pegas [pega´s] substantiv ~en ~er'; SO 'pegas pegasen pegaser'. Both agree. The stored zero plural is wrong under either lemma. Moves coherently with the singular fix (rule 7): the row becomes Pegas/Pegaser/n, one consistent lemma; dup scan clean."
+  },
+  {
+   "key": "persimmon",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "SAOL 'persimon [-må´n] substantiv ~en ~er'; SO 'persimon persimonen persimoner'. Both agree. The -ar default swallowing the 3rd declension again."
+  },
+  {
+   "key": "phlox",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "SAOL 'flox [flåk´s] substantiv ~en' — gender only, no plural; SO 'flox floxen' — singular and definite singular only. Both silent, so 'Floxar' is unattested. The proposal's refusal to invent a replacement plural is exactly right and is the discipline this commission exists to enforce. Cross-locale corroboration the proposal did not cite: fr, es and it ALREADY ship a zero plural for this key (Phlox/Phlox, Flox/Flox), so sv is not made an outlier. NAIVE-REPAIR TRAP CHECKED: 'Flox' must NOT be 'repaired' toward any å/ä/ö form — it carries no diacritic and none is expected."
+  },
+  {
+   "key": "pickup-truck",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "SAOL 'pick|up [-ap´] substantiv ~en ~er' with sense 2 'liten lastbil' — exactly this key; SO 'pickup pickupen pickuper'. BOTH authorities agree on -er, so this is not a rule-5 conflict. The proposal is right that this cuts against the batch-01 'EN loans take -s' heuristic and that the dictionary wins — and the wider set proves the point: SAOL gives -s for kettlebell and bagel, -er for pickup, -r for gecko and lime, and -ar for suv. There is no loan class rule; each was looked up."
+  },
+  {
+   "key": "squash",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Homograph handled correctly, verified verbatim: SAOL '1squash substantiv ~en / ett racketspel' (the GAME, no plural) and '2squash substantiv ~en ~er / en pumpa'; SO likewise '1 squash squashen' vs '2 squash squashen squasher / typ av gurkliknande pumpa'. The art is a pear-shaped winter squash, i.e. sense 2 -> squasher. Both authorities agree on the vegetable sense. Resolves the v1 HOLD correctly."
+  },
+  {
+   "key": "suv",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "SAOL 'suv [su´v el. suv´] substantiv ~en ~ar' — plain tildes, NO colon; SO 'suv suven suvar'. Both agree. The proposal's reasoning is sound and I verified the contrast it rests on: SAOL DOES write colons when it means them (tv '~:n ~:ar') but writes suv and ufo as ordinary lexicalised words, so the per-word entry overrides a blanket initialism rule, and the colon is additionally a TTS hazard on a site that reads words aloud. ROW-COHERENCE NOTE for the operator (rule 7, not an objection — the 'to' value itself is correct): the fix leaves the singular untouched, so the row becomes 'SUV'/'Suvar' — before the fix it was consistently all-caps (SUV/SUV:ar), so the fix CREATES a casing mismatch inside the row. SAOL lemmatises lowercase 'suv'. Recommend the operator also take the singular to 'Suv'. Identical situation at ufo."
+  },
+  {
+   "key": "tape",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "SAOL 'tejp substantiv ~en ~er' sense 1 'självhäftande klisterremsa'; SO 'tejp tejpen tejper'. Both agree, and sense 1 matches the art (a roll of adhesive tape). Stored zero plural unsupported; classification hasPlural:true agrees."
+  },
+  {
+   "key": "taxi",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Verified: SAOL 'taxi [tak´si] substantiv ~n, i pl. används vanl. taxibilar'; SO 'taxi taxin; som plural kan användas taxibilar'. BOTH authorities decline an inflected plural of taxi and BOTH name taxibilar, so 'Taxier' is unsupported. ROW-COHERENCE TENSION, surfaced because it is a real one: the plural field will hold a DIFFERENT LEMMA (taxibil) from the singular (taxi) — structurally the same shape the first round HELD lego and domino for ('the row silently switches word between its own singular and plural fields'). I judge it defensible HERE, and the distinction is principled: SAOL prescribes taxibilar AS the plural of taxi INSIDE the taxi entry itself (authority-sanctioned suppletion), whereas Legobitar is a script artifact SAOL never sanctions for lego. The operator should know that marking taxi NO_PLURAL is the equally defensible alternative, since neither dictionary inflects taxi itself."
+  },
+  {
+   "key": "timer",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "SAOL 'timer [taj´mer] substantiv ~n; pl. ~' — zero plural; SO 'timer timern, plural timer'. Both agree. 'Timrar' misapplies -el/-er syncope (nyckel->nycklar, hummer->humrar) to an English loan neither authority syncopates — a manufactured non-word of the Gardinerar/Musklerar class. Cross-locale corroboration: de and it already ship Timer/Timer (zero). CAVEAT on the proposal's framing: 'Independent of the singular HOLD: whatever the lemma, Timrar is not a Swedish form' is true in its second half but loose in its first — the art is a twin-bell wind-up ALARM CLOCK showing a time of day (väckarklocka), and if the lemma moves there the plural becomes väckarklockor, not Timer. The fix is correct ON THE CURRENT LEMMA, which is the right scope for a form correction; it simply is not lemma-independent."
+  },
+  {
+   "key": "triceratops",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "CONFIRMED WITH THE CONFIDENCE CAVEAT PRESERVED. Citation verified verbatim, including the negative: SAOL/SO/SAOB all return 'Inga träffar på triceratops. Menade du triceps eller triumfator?' — stated honestly, not fabricated. sv.wiktionary carries an explicit utrum paradigm: triceratops / triceratopsen / TRICERATOPSER / triceratopserna. The stored 'Triceratopsar' presupposes the Latin -us -> -ar rule, and I confirm that rule cannot reach this word: triceratops ends in Greek -ops (ὤψ), not Latin -us, so the -ar has no licence — whereas -er is both the attested paradigm and the regular outcome for utrum consonant-final learned loans. WHY I CONFIRM THIS BUT ESCALATE IGUANODON (the principled line): triceratops HAS an attested paradigm in a lexicographic source; iguanodon's sv.wiktionary entry has NO Böjningar table at all, so its proposed plural is sourced by nothing. One edition is thin evidence and the proposal says so itself and asks for a second native opinion — I am it, and I judge that an attested paradigm plus a correct class analysis beats an unsourced default whose only rule is demonstrably inapplicable."
+  },
+  {
+   "key": "ufo",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "SAOL 'ufo [u´fo] substantiv ~t ~n' — plain tildes, NO colon; SO 'ufo ufot ufon'. Both agree, and ~t confirms the stored gender t, so the row stays coherent. The tv contrast ('tv ~:n ~:ar' WITH colons) is real and I verified it is SAOL's own per-word choice. SAOB records historical variety (pl. -n, äv. -s l. = l. -r) but SAOL and SO both settle on -n, and SAOL is the norm. ROW-COHERENCE NOTE (same as suv, not an objection): the fix leaves the singular as 'UFO', so the row becomes 'UFO'/'Ufon' — a casing mismatch the fix creates. SAOL lemmatises lowercase 'ufo'. Recommend the operator also take the singular to 'Ufo'."
+  },
+  {
+   "key": "trapezoid",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "THE HOMOGRAPH SPLIT IS REAL AND I VERIFIED IT VERBATIM RATHER THAN TRUSTING THE QUOTE — this is the 1trapets/2trapets inverse trap the brief names, and the proposal reads it the right way round. SAOL: '1trapets [trapet´s] substantiv ~en ~er / ett gymnastikredskap' and '2trapets [trapet´s] substantiv ~et ~er / parallelltrapets'. SO is even more explicit: '2 trapets trapetset trapetser / ⟨geometri, matematik⟩ fyrhörning med två parallella men olika långa sidor'. I OPENED shapes/trapezoid@2x.webp myself: a bare pale-green quadrilateral with exactly one pair of parallel sides, black outline, no other content — SO's definition word for word, i.e. sense 2 -> ~et -> ETT-ord -> t. Gender-code direction double-checked per the brief's warning: t = ETT-ord = neuter, so 'ett trapets' is what this fix produces, which is correct; the stored 'n' would read the maths shape aloud as a circus apparatus. ROW COHERENCE (rule 7) CHECKED: the plural is unaffected because BOTH homographs take ~er, so the stored 'Trapetser' remains correct and the row stays consistent at Trapets/Trapetser/t — the absence of a paired plural proposal is correct, not an oversight."
+  },
+  {
+   "key": "us",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "CONCLUSION CONFIRMED, PREMISE CORRECTED — recorded because the brief explicitly says a false premise must not be reused even when the conclusion is right (the 'an utrum noun cannot have a zero plural' case). THE PREMISE IS FALSE: the proposal states 'SAOL/SO carry no proper nouns — stated, not fabricated'. SAOL DOES carry this one — 'USA [uesa´] namn / Förenta staterna; jfr amerikan'. (SO and SAOB return no hits, so half the claim holds.) The conclusion survives intact only because SAOL classes it 'namn' and assigns it NO gender, so it does not contradict the fix. THE CONCLUSION IS RIGHT ON THE EVIDENCE THAT REMAINS: sv.wiktionary gives 'Böjningar av USA / neutrum' and en.wiktionary's Swedish section gives 'USA n' — two independent editions agreeing — and it matches the ordinary Swedish rule that country names take neuter agreement ('USA är stort', 'Sverige är stort'), which is native-obvious and not a memory claim. Gender-code direction double-checked: t = ETT-ord = neuter. The proposal's guard against aligning this to the sibling 'uncle-sam' row (a PERSON name, which correctly keeps common gender) is right and should be respected. Row stays coherent: USA/USA/n->t, proper noun, no plural, matching the EN pair 'US'/'US'."
+  }
+ ]
+}

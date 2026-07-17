@@ -1,138 +1,152 @@
-# Auftrag: muttersprachliche Prüfung des deutschen Bildwortschatzes
+# Auftrag: muttersprachliche Prüfung des deutschen Bildwortschatzes (v2 — Bild + Wörterbuch)
 
-> **Dies ist der verbindliche Text.** Jeder Batch wird gegen genau diesen Wortlaut geprüft,
-> damit die Urteile aller Batches vergleichbar sind. Nicht sinngemäß umdeuten — was hier
-> steht, gilt; was hier nicht steht, ist nicht Teil des Auftrags.
+> This is the BINDING text: every batch is
+> judged against exactly this wording, so all batches stay comparable. **The brief lives on disk and
+> is quoted verbatim — never paraphrased into an agent prompt.** That rule has been violated and
+> punished repeatedly in this project.
+>
+> **If this brief and the dictionary contradict each other, THE DICTIONARY WINS.** Contradict the
+> brief explicitly in `reason`. This is wanted, not risky — this brief's author has now been caught
+> wrong **four separate times** by reviewers who did exactly that:
+> `Kugel→Kugeln` (de, five reviewers), the `paraply` stress rule (sv), `chess`'s plural (de/Duden),
+> and `football` (I opened ONE image and said "it's a ball"; a reviewer opened BOTH and found the
+> other is a helmet). **Every time, the reviewer was right.**
 
-Du bist Muttersprachler:in und Linguist:in für Deutsch (Standarddeutsch, Bundesrepublik)
-mit Schwerpunkt Grundschul-/Kita-Wortschatz. Autorität für jede Entscheidung: **Duden**
-(Rechtschreibung + Grammatik). Denke auf Deutsch, schreibe `reason` knapp auf Englisch.
+## Why this commission exists
 
-## Warum es diesen Auftrag gibt
+`REFERENCE TRANSLATIONS/image-vocabulary.js` feeds an educational site for children aged 3–7. The
+words are **projected on the board AND read aloud** (text-to-speech) beside a picture.
 
-`REFERENCE TRANSLATIONS/image-vocabulary.js` liefert Wörter für eine Bildungs-Website für
-Kinder von 3–7 Jahren. Die Wörter werden **an die Wand projiziert UND laut vorgelesen**
-(Text-to-Speech), zusammen mit einem Bild.
+**No human ever wrote these plurals or genders.** A script invented all 13,893 of them from the
+singular. It produced words that do not exist and were read to children: `Gardinerar`, `Musklerar`,
+`Lägerar`, `Jordekorrrar`, `Blackfisk`, `Diskbank`. The operator: *"This is an educational website.
+It is absolutely not acceptable."* He is right.
 
-**Kein Mensch hat diese Pluralformen je geschrieben.** Ein Skript hat sie maschinell aus
-dem Singular erzeugt, nach groben Regeln: „feste Liste → Suffix-Treffer → naiver Default".
-Der dokumentierte deutsche Default lautet wörtlich: *Wörter auf `-el`, `-er`, `-en` bleiben
-unverändert* — das Skript lässt sie also **ohne Plural**. Belegte Folgefehler:
-`Bauer→Bauer` (Duden: *der Bauer → die Bauern*, schwaches Substantiv) und
-`Käse→Käsen`, `Kaktus→Kakten`, `Briefumschlag→Briefumschlage`.
-**Nimm nichts als richtig an. Prüfe jedes Wort einzeln.**
+## 🔴 RULE 1 — OPEN THE PICTURE. Every key. No exceptions.
 
-> ### ⚠ Korrektur eines Fehlers in einer früheren Fassung dieses Briefs
-> Eine frühere Fassung nannte `Kugel→Kugeln` und `Brezel→Brezeln` als *Fehler*-Beispiele.
-> **Das war falsch, und der Fehler lag beim Auftraggeber, nicht bei Duden.** Nach Duden sind
-> *die Kugel → die Kugeln* und *die Brezel → die Brezeln* **korrekt** (feminine `-el`-Wörter
-> nehmen `-n`). Der Defekt des Skripts ist das **Gegenteil**: es lässt `Kugel→Kugel` stehen.
-> Zwei Prüfer:innen (Batch 01 und 12) haben diesen Briefe-Fehler unabhängig erkannt und ihm
-> **zu Recht widersprochen** (`aster→Astern`, `bible→Bibeln`, `Waffel→Waffeln` sind korrekt
-> und bleiben `OK`). Genau so ist es richtig: **Wenn dieser Brief und Duden sich
-> widersprechen, gilt Duden.** Widersprich dem Brief und schreib es in `reason`.
+**The Read tool renders `.webp` directly.**
+`C:\Users\rkgen\lessoncraftstudio\image-library-webp\themes\<theme>\<file>@2x.webp`
+(`<file>` = the key with `-`→`_`; ⚠ real traps: `high-heeled_shoes`, `flip_flops`, and `shoes`
+resolves only via `shoes_2` — a blanket `key.replace('-','_')` will miss them. Try another theme
+from the row's list before concluding the art is missing.)
 
-Der Betreiber sagt: „This is an educational website. It is absolutely not acceptable."
-Er hat recht. Ein Kind darf kein falsches Wort hören.
+**Why: for weeks NOBODY IN THIS PROJECT EVER LOOKED AT A PICTURE.** Twelve native reviewers, three
+locale waves and the author all judged from a folder name and an English gloss. When someone finally
+opened them, **38 of 193 keys (20%) had a word that does not name the picture**:
+`singing` = a MICROPHONE · `butter` = drawn as CHEESE (a block WITH HOLES) · `chess` = a chess PIECE
+· `dice` = ONE die · `cymbals` = a whole DRUM KIT · `honey` = a JAR · `hockey` = a PLAYER.
 
-## Die Batch-Datei
+**That is why this arc kept failing: everyone was arguing about the plural of the WRONG WORD.**
 
-Verzeichnis: `C:\Users\rkgen\lessoncraftstudio\docs\audit-results\vocab-audit\batches\`
+Record what you saw in `image_seen`. A row without it is treated as unjudged and sent back.
 
-Pro Zeile in `rows[]`:
+## 🔴 RULE 2 — LOOK IT UP. "I cannot verify from memory" is NOT an answer.
 
-| Feld | Bedeutung |
-|---|---|
-| `key` | interner Schlüssel (englisch) |
-| `themes` | **die Bild-Themen. ENTSCHEIDEND: sie sagen dir, WAS DAS BILD ZEIGT.** `orange` mit `[colors,fruits]` ist mehrdeutig; `salt` mit `[at_the_supermarket]` ist Küchensalz (Massenname), NICHT die chemischen `Salze`. |
-| `en` | `[Singular, Plural]` englisch = die Glosse, was abgebildet ist |
-| `cur` | **die aktuellen deutschen Daten** `{s: Singular, p: Plural, g: Genus}` ← das prüfst du |
-| `type` / `countable` | Metadaten aus einer Rohdatei. **NUR HINWEIS, KEIN URTEIL.** Nachweislich fehlbar: `bread` steht dort `countable:false`, aber *das Brot → die Brote* ist völlig korrekt. |
-| `nets` | maschinelle Verdachtsflaggen: N1 Plural trotz Unzählbarkeit · N2 kein Plural trotz Zählbarkeit · N3 Kopf-Inkonsistenz · N5 Singular und Plural sind verschiedene Lemmata · N6 Kollision mit anderem Schlüssel · N7 Waise · N8 traf den naiven Default des Skripts. **Eine Flagge ist ein Verdacht, kein Urteil — und das Fehlen einer Flagge ist KEIN Freibrief.** |
-| `noImage: true` | zu diesem Schlüssel existiert kein Bild (tote Daten). Trotzdem beurteilen, aber niedrigste Priorität. |
+The operator: *"even by just googling I can easily get the right plural form of any word but you
+fail again and again."* He is right. The old brief said "uncertain → HOLD", and reviewers wrote
+*"I cannot verify SAOL from memory"* **100+ times on Swedish alone**. Honest, and useless.
 
-## Datenformat
+**Most authorities cannot be fetched with a plain request** — svenska.se (SAOL) is a JavaScript
+shell; ordnet.dk is bot-walled; **Van Dale's free dictionary is DISCONTINUED**. So use the tool that
+renders them in a real browser:
 
-`p` ist der **bloße Nominativ Plural, großgeschrieben**, ohne Artikel: `["Katze","Katzen","f"]`.
-Genus: `m` = der · `f` = die · `n` = das.
-**Konvention: hat ein Wort keinen Plural, dann ist `p` identisch mit `s`.** (So kodiert die Datei „kein Plural".)
+```
+node scripts/vocab-audit/dict-fetch.js --locale=de --word=<word>
+node scripts/vocab-audit/dict-fetch.js --locale=de --word=<word> --crosscheck
+```
+Authority: **DUDEN (duden.de) — a plain fetch works; read "Genus" + "Pluralform"**. Cite the URL you actually consulted. **Never invent a citation** — a
+fabricated `src` is a tell: the de round escalated `hot` for exactly that (a guessed value with an
+empty source), and `deinonychus` cited "SAOL" for a word SAOL does not contain.
 
-## Für JEDEN Schlüssel drei Felder prüfen
+Uncertainty is a reason to **search**, not to hold. Only a genuine *content* question (which of two
+things is pictured?) may be HOLD.
 
-1. **`singular`** — ist `cur.s` das richtige deutsche Wort für das, was das Bild zeigt
-   (`themes` + `en`)? Und ist es wirklich ein **Singular**? (Bekannter Defekt: bei
-   `pretzels` steht ein Plural im Singular-Feld.)
-2. **`plural`** — ist `cur.p` der korrekte Plural nach Duden?
-3. **`gender`** — ist `cur.g` das richtige Genus?
+## 🔴 RULE 3 — the classification is already decided. Do not re-litigate it.
 
-### Verdikte (pro Feld)
+`classification.json` says, per key, what the PICTURE is — decided once and applied to all 11
+locales, because *"all of the languages reflect the same images"* (the operator). Your row carries
+`category` / `hasGender` / `hasPlural`. **You verify the WORD, not the category.**
 
-- **`OK`** — korrekt. **Sag OK, wenn es stimmt.** Deutsch hat sehr viele Null-Plurale
-  (*der Lehrer → die Lehrer*, *das Mädchen → die Mädchen*, *der Löffel → die Löffel*).
-  Die sind RICHTIG, auch wenn eine Flagge dranhängt.
-- **`FIX`** — falsch, und die Korrektur ist eine reine Formkorrektur **desselben** Wortes → gib `correct`.
-- **`NO_PLURAL`** — das Wort hat im Deutschen keinen (kindgerechten) Plural: Massennamen
-  (*Wasser*, *Milch*, *Reis*), Abstrakta, Eigennamen (*Jupiter*), Adjektive/Farben (*Rot*),
-  substantivierte Infinitive (*das Essen*). → `p` soll gleich `s` werden.
-- **`PLURALIA_TANTUM`** — nur Plural (*die Eltern*, *die Ferien*).
-- **`HOLD`** — **die Korrektur tut MEHR als die Form zu ändern**: sie erfordert ein anderes
-  Lemma (ein anderes Wort), oder der Eintrag ist in sich widersprüchlich, oder es ist eine
-  inhaltliche Frage ans Bild. Beispiel: `pepper` = `["Paprika","Pfeffer","m"]` — Singular und
-  „Plural" sind **zwei verschiedene Wörter** (Gemüsepaprika vs. Gewürz). Das ist kein
-  Plural-Fix, das ist eine Entscheidung. → `HOLD` mit klarer Begründung.
-  **Niemals blind umschreiben.**
+| category | gender | plural |
+|---|---|---|
+| countable-thing | yes | yes |
+| plural-picture (the image shows SEVERAL) | yes | **no** — the label IS the plural |
+| mass / abstract / proper-noun | yes | **no** |
+| adjective / activity | **no** | **no** |
 
-## Kalibrierung — beide Fehlerarten sind teuer
+Mass, abstract and proper nouns **are nouns**: *die* Venus keeps its gender and simply has no plural.
+Only **qualities and activities** lose it.
 
-- **Falsch-negativ:** `Käse→Käsen` durchwinken. Duden: *der Käse → die Käse*. Das ist FIX.
-- **Falsch-positiv:** `Brot→Brote` als „Massennamen-Fehler" melden. *Das Brot → die Brote*
-  (Laibe) ist KORREKT → OK.
+**If the picture contradicts the category, say so** — that is a finding, and it outranks the file.
 
-Urteile **Wort für Wort, nicht nach Muster.**
+## 🔴 RULE 4 — BLOCKED keys: touch nothing.
 
-## Bereits belegte Klassen (aus Batch 01/02) — prüfen, aber **nie blind anwenden**
+Rows marked `blocked: true` are LEMMA MISMATCHES — the word does not name the picture. Their
+`hasPlural` describes the **pictured object** (Mikrofon→Mikrofone), NOT the label. Pluralising
+"Singen" → "Singens" manufactures exactly the garbage this commission deletes. **Skip them.** The
+operator rules first: fix the WORD, or fix the ART.
 
-- **Substantivierte Infinitive/Verbalnomen sind ausnahmslos Neutrum** (*das Backen*, *das
-  Boxen*, *das Radfahren*) — die Daten hatten `m` → „der Backen". Ebenso Farbnamen als
-  Substantiv: *das Blau*, *das Braun*.
-- **`-saurus` bildet den Plural auf `-saurier`** (Duden: *Tyrannosaurus, der; -, ...rier*),
-  nicht `-sauren`. **ABER:** `carnotaurus` endet auf `-taurus` (lat. *taurus* = Stier) — dort
-  gilt die Regel NICHT. Genau so differenziert arbeiten.
-- **Plural im Singular-Feld** (`blocks` = „Bauklötze", `candy` = „Süßigkeiten") ist eine
-  eigene Defektklasse: der Singular ist zu rekonstruieren (*Bauklotz*, *Süßigkeit*).
-- **Erfundene Formen:** `Kakten` existiert nicht (Duden: *der Kaktus → die Kakteen*).
-- **Varietät zählt:** *die* Sellerie ist österreichisch; Standarddeutsch ist *der* Sellerie.
+## Your job — per key, per field
 
-## Ausgabe
+1. **`singular`** — is it the right German (Standarddeutsch) word for what the picture shows? Is it really a
+   SINGULAR? (Known defect: a plural, or a DEFINITE form, sitting in the singular field —
+   sv `santa` held *"Jultomten"*, onto which the script appended `-ar`.)
+2. **`plural`** — correct per DUDEN (duden.de) — a plain fetch works; read "Genus" + "Pluralform"? The builder left **-el/-er/-en unchanged** (its documented gap) and defaulted the rest. Known live defects it produced: *Kakten* · *Brezelne* · *Küchenchefe* · *Onkel Same* · *Bügelbrette* — invented words. **Umlaut plurals** it cannot do: *Hand→Hände*, *Vorhang→Vorhänge*, *Nacht→Nächte*. **Weak nouns**: `farmer` Bauer→**Bauern** (not *Bauer*). **-saurus → -saurier** per Duden — **BUT NOT** `carnotaurus` (Latin *taurus* = bull), `triceratops`, `velociraptor` (→ *-oren*, like Traktor), `parasaurolophus` (Greek *lóphos*): a German reviewer refused to over-apply his own rule and that discrimination IS the quality bar. **Substantivized infinitives are ALWAYS neuter** (das Backen, das Blau). ⚠ **EN loans have NO class rule** — six Swedish natives proved it (kettlebell→~s but keyboard→~ar): **fetch each one**. ⚠ Do NOT trust `_countable:false` — it is wrong on `bread` (*das Brot → die Brote* is perfectly correct) and on Spargel/Käse/Brokkoli; it is right on *Knoblauch* (kein Plural). ⚠ Duden may give a plural the DEPICTED sense lacks: the last de round REJECTED `lettuce` for exactly that, and REJECTED `lego` because Duden HAS *die Legos* — the "fix" would have DELETED an attested form.
+3. **`gender`** — correct? **`m` / `f` / `n`** (maskulin / feminin / neutrum) — German codes only, never from another locale. **Gender IS the meaning in a homograph** — the last round's best find: `pine-tree` = `["Kiefer","Kiefer","m"]` held the **JAWBONE** (*die* Kiefer = the pine, *der* Kiefer = the jaw). Check every ambiguous word against its picture. Also fixed there: `venus` der→**die**. **The population signal is a LIE — do NOT chase it:** the nets predicted ~146 miscoded genders for Swedish; twelve natives confirmed **2**. Check each word; never redistribute to hit a percentage.
+   ⚠ **Gender codes are per-locale and NEVER cross-applied** (§A.13.58): `lås` is common in da/no but
+   **neuter** in sv. sv/da `n` = **EN-ord (COMMON)**, NOT neuter — misreading it inverts your batch.
 
-Schreibe **eine** Datei nach
-`C:\Users\rkgen\lessoncraftstudio\docs\audit-results\vocab-audit\verdicts\de-<NN>.json`
-(Verzeichnis ggf. anlegen), mit **einer Zeile pro Schlüssel — ALLE Schlüssel des Batches,
-keiner darf fehlen**:
+## ⚠ The inverse traps — correct data a naive rule DESTROYS
+
+Each of these was nearly wrecked by a plausible rule. Do not repeat it:
+
+- **English zero-plurals are COUNTABLE.** `Angelfish/Angelfish`, `Sheep`, `Deer`, `Fish` — English
+  merely does not inflect them. **de *Kaiserfisch→Kaiserfische* is CORRECT.** A "no plural" ruling
+  here destroys real plurals in ten languages.
+- **English pluralia tantum over ONE object.** `pants`, `scissors`, `stairs`, `sunglasses` are a
+  single object — **de *Hose→Hosen*, *Schere→Scheren*, *Treppe→Treppen* are CORRECT.** The real cut
+  is one-object vs a genuine two-object PAIR (`sandals`, `slippers` ARE pairs).
+- **A "sister key" may be a different thing.** `glasses` (spectacles, *Brille→Brillen*) is NOT the
+  plural of `glass` (a drinking vessel). Reading a sister field mechanically kills a correct plural.
+- **`_countable:false` is fallible** — wrong on `bread`, `asparagus`, `cheese`, `broccoli`, `celery`
+  (all have real plurals); right on `Knoblauch` (kein Plural).
+- **A class rule is a tool, not an automaton.** A de reviewer rightly refused `-saurus→-saurier` for
+  `carnotaurus` (Latin *taurus*); an sv reviewer rightly kept `Stegosaurusar` (Latin `-us` loans take
+  `-ar`) and refused *\*smörgäss*. That discrimination IS the quality bar.
+- **A premise can be false even when the conclusion is right:** three sv rows argued *"an utrum noun
+  cannot have a zero plural"* — false (*en musiker → flera musiker*). Never reuse it.
+
+## Verdicts (per field)
+
+- **`OK`** — correct. **Say OK when it is right**, flag or no flag.
+- **`FIX`** — wrong; a pure form correction of the SAME word → give `correct`.
+- **`NO_PLURAL`** — no (child-level) plural: mass, abstract, proper names.
+  ⚠ **Not the same as a zero plural.** *ett hus → flera hus* HAS a plural that merely looks
+  identical → that is `OK`, not `NO_PLURAL`.
+- **`PLURALIA_TANTUM`** — plural only. May sit on `singular`: "this word has no singular".
+- **`HOLD`** — the correction does MORE than fix a form (another lemma, a picture question, an
+  internal contradiction). **Never rewrite blind.**
+
+## Output
+
+One file → `docs\audit-results\vocab-audit\verdicts\de-<NN>.json`, **one row per key, ALL keys**:
 
 ```json
 { "locale":"de", "batch":"<NN>", "reviewed": <N>,
   "rows": [
-    { "key":"cheese",
+    { "key":"curtains",
+      "image_seen":"around_the_house/curtains@2x.webp — two drawn curtains framing a window",
       "singular":{"verdict":"OK"},
-      "plural":{"verdict":"FIX","correct":"Käse","reason":"Duden: der Käse → die Käse; 'Käsen' is not a form","source":"Duden"},
-      "gender":{"verdict":"OK"} },
-    { "key":"pepper",
-      "singular":{"verdict":"HOLD","reason":"entry conflates bell pepper (Paprika) with the spice (Pfeffer) — needs a lemma decision, not a form fix"},
-      "plural":{"verdict":"HOLD","reason":"see singular"},
-      "gender":{"verdict":"HOLD","reason":"gender depends on which lemma is chosen"} }
+      "plural":{"verdict":"OK","reason":"plural-picture: the label IS the plural; nothing further","source":"https://www.duden.de/rechtschreibung/…"},
+      "gender":{"verdict":"OK"} }
   ] }
 ```
+`correct` only on `FIX`. `reason` on everything but `OK`. `source` = the URL you fetched.
+`image_seen` on every row that has art.
 
-`correct` **nur** bei `FIX`. `reason` bei allem außer `OK` (bei `OK` weglassen). `source` wo nicht trivial.
+## Rules
 
-## Regeln
-
-- **Alle Schlüssel des Batches beurteilen** — keine Auswahl, keine Stichprobe, keine Abkürzung.
-- Bei Mehrdeutigkeit entscheiden `themes` + `en`, welche Bedeutung gemeint ist.
-- **Erfinde keine Duden-Zitate.** Unsicher → `HOLD` mit Begründung. Unsicherheit ist ein
-  legitimes, wertvolles Ergebnis. **Rate niemals.**
-- Ändere **KEINE** andere Datei. Nur die eine Verdikt-Datei schreiben.
-- Antworte am Ende NUR mit: Anzahl geprüft, Zählung je Verdikt pro Feld
-  (z. B. `plural: 78 OK / 21 FIX / 9 NO_PLURAL / 2 HOLD`), plus die 5 gravierendsten Funde
-  in je einer Zeile.
+- **Every key in the batch** — no sampling.
+- **Never guess.** Search first. Uncertainty is legitimate and valuable; a fabricated citation is not.
+- Change **NO** other file.
+- End with ONLY: count reviewed, per-field per-verdict counts, and the 5 most serious findings.

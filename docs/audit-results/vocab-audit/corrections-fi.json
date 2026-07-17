@@ -1,0 +1,50 @@
+{
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "lantern": {
+    "from": "Lyhtyt",
+    "to": "Lyhdyt",
+    "why": "consonant gradation t→d (KT type 1*F); dict shows inflected 'lyhdyin'",
+    "src": "https://www.kielitoimistonsanakirja.fi/#/lyhty"
+   },
+   "medicine": {
+    "from": "Lääkeet",
+    "to": "Lääkkeet",
+    "why": "KT type 48*A gemination; dict example 'talouspoliittiset lääkkeet'",
+    "src": "https://www.kielitoimistonsanakirja.fi/#/lääke"
+   },
+   "trapezoid": {
+    "from": "Puolisuunnikaat",
+    "to": "Puolisuunnikkaat",
+    "why": "-kas nouns geminate (asukas→asukkaat); wiktionary declension gives puolisuunnikkaat",
+    "src": "https://fi.wiktionary.org/wiki/puolisuunnikas"
+   },
+   "earmuffs": {
+    "from": "Korvalapput",
+    "to": "Korvalaput",
+    "why": "malformed double-p; KT korvaläppä: 'mon. tavallisemmin: korvalaput' (pp→p)",
+    "src": "https://www.kielitoimistonsanakirja.fi/#/korvaläppä"
+   },
+   "smoothie": {
+    "from": "Smoothieet",
+    "to": "Smoothiet",
+    "why": "KT type 8 (nalle→nallet); nom. plural smoothie+t, not double-e",
+    "src": "https://www.kielitoimistonsanakirja.fi/#/smoothie"
+   },
+   "macaron": {
+    "from": "Macaromet",
+    "to": "Macaronit",
+    "why": "builder -on→-omet nasal bug; KT macaron type 5 → nom. plural macaronit",
+    "src": "https://www.kielitoimistonsanakirja.fi/#/macaron"
+   },
+   "basketball": {
+    "from": "Koripallo",
+    "to": "Koripallot",
+    "why": "KT def includes the countable ball ('siinä käytettävä pallo'); pallo→pallot",
+    "src": "https://www.kielitoimistonsanakirja.fi/#/koripallo"
+   }
+  },
+  "gender": {}
+ }
+}

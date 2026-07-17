@@ -1,0 +1,46 @@
+{
+  "corrections": {
+    "singular": {
+      "violet": {
+        "from": "Violet",
+        "to": "Violette",
+        "why": "Entry is the countable flower (EN 'Violet/Violets'); FR left the masculine colour word 'Violet'. Larousse: the flower is 'violette' n.f.; 'violet' is only the colour/adjectif.",
+        "src": "https://www.larousse.fr/dictionnaires/francais/violette"
+      }
+    },
+    "plural": {
+      "penguin": {
+        "from": "Pingouins",
+        "to": "Manchots",
+        "why": "Singular is 'Manchot' (penguin); plural wrongly held 'Pingouins' (a different animal, the auk). Larousse: manchot n.m. -> manchots.",
+        "src": "https://www.larousse.fr/dictionnaires/francais/manchot"
+      },
+      "yak": {
+        "from": "Yacks",
+        "to": "Yaks",
+        "why": "Singular is 'Yak'; plural must agree -> 'Yaks'. 'Yacks' is the plural of the variant spelling 'yack'. Larousse gives 'yack ou yak', plural regular +s.",
+        "src": "https://www.larousse.fr/dictionnaires/francais/yak"
+      },
+      "violet": {
+        "from": "Violets",
+        "to": "Violettes",
+        "why": "Flower plural agrees with corrected singular 'violette' (n.f.) -> 'violettes'.",
+        "src": "https://www.larousse.fr/dictionnaires/francais/violette"
+      }
+    },
+    "gender": {
+      "squash": {
+        "from": "m",
+        "to": "f",
+        "why": "Larousse: 'courge' is nom feminin (la courge). cur coded masculine.",
+        "src": "https://www.larousse.fr/dictionnaires/francais/courge"
+      },
+      "violet": {
+        "from": "m",
+        "to": "f",
+        "why": "Flower 'violette' is nom feminin; cur held the masculine colour word.",
+        "src": "https://www.larousse.fr/dictionnaires/francais/violette"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "broccoli":   {"from":"Brokkoli",        "to":"Brokkolier",         "why":"builder left p=s; Bokmålsordboka attests plural brokkolier (m)",            "src":"https://en.wiktionary.org/wiki/brokkoli"},
+   "celery":     {"from":"Selleri",          "to":"Sellerier",          "why":"builder left p=s; Bokmålsordboka attests plural sellerier (m)",             "src":"https://en.wiktionary.org/wiki/selleri"},
+   "cereal":     {"from":"Frokostblanding",  "to":"Frokostblandinger",  "why":"builder left p=s; attested plural frokostblandinger",                       "src":"https://en.wiktionary.org/wiki/frokostblanding"},
+   "ear":        {"from":"Øre",              "to":"Ører",               "why":"body-part øre is neuter with plural ører; builder left p=s (zero is the coin sense)", "src":"https://en.wiktionary.org/wiki/%C3%B8re"},
+   "eye":        {"from":"Øye",              "to":"Øyne",               "why":"builder left p=s; correct irregular plural is øyne",                        "src":"https://en.wiktionary.org/wiki/%C3%B8ye"},
+   "finger":     {"from":"Fingere",          "to":"Fingrer",            "why":"Fingere not attested; standard plural fingrer (also fingre)",               "src":"https://en.wiktionary.org/wiki/finger"},
+   "juice":      {"from":"Juice",            "to":"Juicer",             "why":"builder left p=s; attested plural juicer (m)",                              "src":"https://en.wiktionary.org/wiki/juice"},
+   "lettuce":    {"from":"Salat",            "to":"Salater",            "why":"builder left p=s; salat (m) plural salater",                                "src":"https://en.wiktionary.org/wiki/salat"},
+   "toast":      {"from":"Toast",            "to":"Toaster",            "why":"builder left p=s; attested plural toaster (m)",                             "src":"https://en.wiktionary.org/wiki/toast"}
+  },
+  "gender": {
+   "air-conditioning": {"from":"m","to":"n","why":"klimaanlegg is neuter (et klimaanlegg; -anlegg always neuter); m implausible","src":"https://en.wiktionary.org/wiki/klimaanlegg"},
+   "piano":            {"from":"m","to":"n","why":"et piano is neuter; m implausible (plural pianoer stays, unchanged)","src":"https://en.wiktionary.org/wiki/piano"}
+  }
+ }
+}

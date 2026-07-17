@@ -1,0 +1,81 @@
+{
+  "corrections": {
+    "singular": {},
+    "plural": {
+      "cauliflower": {
+        "from": "Couve-flores",
+        "to": "Couves-flores",
+        "why": "compound noun+noun; head element pluralizes. Priberam: 'couves-flor ou couves-flores'",
+        "src": "https://dicionario.priberam.org/couve-flor"
+      },
+      "leek": {
+        "from": "Alho-porós",
+        "to": "Alhos-porós",
+        "why": "compound; head noun pluralizes. Priberam Plural: alhos-porós",
+        "src": "https://dicionario.priberam.org/alho-poró"
+      },
+      "pretzel": {
+        "from": "Pretzéis",
+        "to": "Pretzels",
+        "why": "English loan; builder misapplied -l->-éis. Priberam Plural: pretzels",
+        "src": "https://dicionario.priberam.org/pretzel"
+      },
+      "snorkel": {
+        "from": "Snorkéis",
+        "to": "Snorkels",
+        "why": "English loan; builder misapplied -l->-éis. Priberam Plural: snorkels",
+        "src": "https://dicionario.priberam.org/snorkel"
+      },
+      "closet": {
+        "from": "Armários",
+        "to": "Closets",
+        "why": "plural did not even match singular 'Closet'. Priberam Plural: closets",
+        "src": "https://dicionario.priberam.org/closet"
+      },
+      "rainbow": {
+        "from": "Arco-íris",
+        "to": "Arcos-íris",
+        "why": "was invariant (p===s); compound head pluralizes. Priberam Plural: arcos-íris",
+        "src": "https://dicionario.priberam.org/arco-íris"
+      },
+      "phlox": {
+        "from": "Floxs",
+        "to": "Flox",
+        "why": "'Floxs' is impossible in pt; nouns ending in -x are invariable (tórax/ônix). Priberam headword 'flox' shows no distinct plural",
+        "src": "https://dicionario.priberam.org/flox"
+      },
+      "kettlebell": {
+        "from": "Kettlebelis",
+        "to": "Kettlebells",
+        "why": "'Kettlebelis' is a builder artifact; English loan takes +s like all Priberam-attested sibling loans (bagel->bagels, snorkel->snorkels, pretzel->pretzels)",
+        "src": "https://dicionario.priberam.org/snorkel"
+      }
+    },
+    "gender": {
+      "map": {
+        "from": "f",
+        "to": "m",
+        "why": "'mapa' is masculine (o mapa). Priberam: nome masculino",
+        "src": "https://dicionario.priberam.org/mapa"
+      },
+      "stairs": {
+        "from": "m",
+        "to": "f",
+        "why": "'escada' is feminine (a escada). Priberam: nome feminino",
+        "src": "https://dicionario.priberam.org/escada"
+      },
+      "pickup-truck": {
+        "from": "m",
+        "to": "f",
+        "why": "'picape' is feminine in BR (a picape). Priberam: nome feminino",
+        "src": "https://dicionario.priberam.org/picape"
+      },
+      "van": {
+        "from": "m",
+        "to": "f",
+        "why": "'van' is feminine (a van). Priberam: nome feminino, Plural: vans",
+        "src": "https://dicionario.priberam.org/van"
+      }
+    }
+  }
+}

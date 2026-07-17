@@ -1,0 +1,5245 @@
+{
+ "count": 655,
+ "rows": [
+  {
+   "key": "actor",
+   "locale": "es",
+   "en": "Actor",
+   "s": "Actor",
+   "p": "Actores",
+   "g": "m"
+  },
+  {
+   "key": "alligator",
+   "locale": "da",
+   "en": "Alligator",
+   "s": "Alligator",
+   "p": "Alligatorer",
+   "g": "n"
+  },
+  {
+   "key": "alligator",
+   "locale": "no",
+   "en": "Alligator",
+   "s": "Alligator",
+   "p": "Alligatorer",
+   "g": "m"
+  },
+  {
+   "key": "alligator",
+   "locale": "fr",
+   "en": "Alligator",
+   "s": "Alligator",
+   "p": "Alligators",
+   "g": "m"
+  },
+  {
+   "key": "allosaurus",
+   "locale": "da",
+   "en": "Allosaurus",
+   "s": "Allosaurus",
+   "p": "Allosauruser",
+   "g": "n"
+  },
+  {
+   "key": "allosaurus",
+   "locale": "no",
+   "en": "Allosaurus",
+   "s": "Allosaurus",
+   "p": "Allosauruser",
+   "g": "m"
+  },
+  {
+   "key": "allosaurus",
+   "locale": "fi",
+   "en": "Allosaurus",
+   "s": "Allosaurus",
+   "p": "Allosaurukset",
+   "g": null
+  },
+  {
+   "key": "alpaca",
+   "locale": "es",
+   "en": "Alpaca",
+   "s": "Alpaca",
+   "p": "Alpacas",
+   "g": "f"
+  },
+  {
+   "key": "alpaca",
+   "locale": "pt",
+   "en": "Alpaca",
+   "s": "Alpaca",
+   "p": "Alpacas",
+   "g": "f"
+  },
+  {
+   "key": "alpaca",
+   "locale": "it",
+   "en": "Alpaca",
+   "s": "Alpaca",
+   "p": "Alpaca",
+   "g": "m"
+  },
+  {
+   "key": "ambulance",
+   "locale": "da",
+   "en": "Ambulance",
+   "s": "Ambulance",
+   "p": "Ambulancer",
+   "g": "n"
+  },
+  {
+   "key": "ambulance",
+   "locale": "fr",
+   "en": "Ambulance",
+   "s": "Ambulance",
+   "p": "Ambulances",
+   "g": "f"
+  },
+  {
+   "key": "ankylosaurus",
+   "locale": "da",
+   "en": "Ankylosaurus",
+   "s": "Ankylosaurus",
+   "p": "Ankylosauruser",
+   "g": "n"
+  },
+  {
+   "key": "ankylosaurus",
+   "locale": "no",
+   "en": "Ankylosaurus",
+   "s": "Ankylosaurus",
+   "p": "Ankylosauruser",
+   "g": "m"
+  },
+  {
+   "key": "ankylosaurus",
+   "locale": "fi",
+   "en": "Ankylosaurus",
+   "s": "Ankylosaurus",
+   "p": "Ankylosaurukset",
+   "g": null
+  },
+  {
+   "key": "apatosaurus",
+   "locale": "da",
+   "en": "Apatosaurus",
+   "s": "Apatosaurus",
+   "p": "Apatosauruser",
+   "g": "n"
+  },
+  {
+   "key": "apatosaurus",
+   "locale": "no",
+   "en": "Apatosaurus",
+   "s": "Apatosaurus",
+   "p": "Apatosauruser",
+   "g": "m"
+  },
+  {
+   "key": "apatosaurus",
+   "locale": "fi",
+   "en": "Apatosaurus",
+   "s": "Apatosaurus",
+   "p": "Apatosaurukset",
+   "g": null
+  },
+  {
+   "key": "argentinosaurus",
+   "locale": "da",
+   "en": "Argentinosaurus",
+   "s": "Argentinosaurus",
+   "p": "Argentinosauruser",
+   "g": "n"
+  },
+  {
+   "key": "argentinosaurus",
+   "locale": "no",
+   "en": "Argentinosaurus",
+   "s": "Argentinosaurus",
+   "p": "Argentinosauruser",
+   "g": "m"
+  },
+  {
+   "key": "argentinosaurus",
+   "locale": "fi",
+   "en": "Argentinosaurus",
+   "s": "Argentinosaurus",
+   "p": "Argentinosaurukset",
+   "g": null
+  },
+  {
+   "key": "argentinosaurus",
+   "locale": "fr",
+   "en": "Argentinosaurus",
+   "s": "Argentinosaurus",
+   "p": "Argentinosaurus",
+   "g": "m"
+  },
+  {
+   "key": "arm",
+   "locale": "da",
+   "en": "Arm",
+   "s": "Arm",
+   "p": "Arme",
+   "g": "n"
+  },
+  {
+   "key": "arm",
+   "locale": "no",
+   "en": "Arm",
+   "s": "Arm",
+   "p": "Armer",
+   "g": "m"
+  },
+  {
+   "key": "armadillo",
+   "locale": "es",
+   "en": "Armadillo",
+   "s": "Armadillo",
+   "p": "Armadillos",
+   "g": "m"
+  },
+  {
+   "key": "armadillo",
+   "locale": "it",
+   "en": "Armadillo",
+   "s": "Armadillo",
+   "p": "Armadilli",
+   "g": "m"
+  },
+  {
+   "key": "aster",
+   "locale": "fr",
+   "en": "Aster",
+   "s": "Aster",
+   "p": "Asters",
+   "g": "m"
+  },
+  {
+   "key": "astronaut",
+   "locale": "da",
+   "en": "Astronaut",
+   "s": "Astronaut",
+   "p": "Astronauter",
+   "g": "n"
+  },
+  {
+   "key": "astronaut",
+   "locale": "no",
+   "en": "Astronaut",
+   "s": "Astronaut",
+   "p": "Astronauter",
+   "g": "m"
+  },
+  {
+   "key": "avocado",
+   "locale": "da",
+   "en": "Avocado",
+   "s": "Avocado",
+   "p": "Avocadoer",
+   "g": "n"
+  },
+  {
+   "key": "avocado",
+   "locale": "it",
+   "en": "Avocado",
+   "s": "Avocado",
+   "p": "Avocado",
+   "g": "m"
+  },
+  {
+   "key": "azalea",
+   "locale": "da",
+   "en": "Azalea",
+   "s": "Azalea",
+   "p": "Azaleaer",
+   "g": "n"
+  },
+  {
+   "key": "azalea",
+   "locale": "es",
+   "en": "Azalea",
+   "s": "Azalea",
+   "p": "Azaleas",
+   "g": "f"
+  },
+  {
+   "key": "azalea",
+   "locale": "it",
+   "en": "Azalea",
+   "s": "Azalea",
+   "p": "Azalee",
+   "g": "f"
+  },
+  {
+   "key": "baby",
+   "locale": "da",
+   "en": "Baby",
+   "s": "Baby",
+   "p": "Babyer",
+   "g": "n"
+  },
+  {
+   "key": "baby",
+   "locale": "no",
+   "en": "Baby",
+   "s": "Baby",
+   "p": "Babyer",
+   "g": "m"
+  },
+  {
+   "key": "badge",
+   "locale": "da",
+   "en": "Badge",
+   "s": "Badge",
+   "p": "Badges",
+   "g": "t"
+  },
+  {
+   "key": "badge",
+   "locale": "fr",
+   "en": "Badge",
+   "s": "Badge",
+   "p": "Badges",
+   "g": "m"
+  },
+  {
+   "key": "bagel",
+   "locale": "da",
+   "en": "Bagel",
+   "s": "Bagel",
+   "p": "Bagels",
+   "g": "n"
+  },
+  {
+   "key": "bagel",
+   "locale": "no",
+   "en": "Bagel",
+   "s": "Bagel",
+   "p": "Bagler",
+   "g": "m"
+  },
+  {
+   "key": "bagel",
+   "locale": "fr",
+   "en": "Bagel",
+   "s": "Bagel",
+   "p": "Bagels",
+   "g": "m"
+  },
+  {
+   "key": "bagel",
+   "locale": "es",
+   "en": "Bagel",
+   "s": "Bagel",
+   "p": "Bagels",
+   "g": "m"
+  },
+  {
+   "key": "bagel",
+   "locale": "pt",
+   "en": "Bagel",
+   "s": "Bagel",
+   "p": "Bagels",
+   "g": "m"
+  },
+  {
+   "key": "bagel",
+   "locale": "it",
+   "en": "Bagel",
+   "s": "Bagel",
+   "p": "Bagel",
+   "g": "m"
+  },
+  {
+   "key": "baguette",
+   "locale": "da",
+   "en": "Baguette",
+   "s": "Baguette",
+   "p": "Baguetter",
+   "g": "n"
+  },
+  {
+   "key": "baguette",
+   "locale": "fr",
+   "en": "Baguette",
+   "s": "Baguette",
+   "p": "Baguettes",
+   "g": "f"
+  },
+  {
+   "key": "baguette",
+   "locale": "es",
+   "en": "Baguette",
+   "s": "Baguette",
+   "p": "Baguettes",
+   "g": "m"
+  },
+  {
+   "key": "baguette",
+   "locale": "it",
+   "en": "Baguette",
+   "s": "Baguette",
+   "p": "Baguette",
+   "g": "f"
+  },
+  {
+   "key": "baker",
+   "locale": "no",
+   "en": "Baker",
+   "s": "Baker",
+   "p": "Bakere",
+   "g": "m"
+  },
+  {
+   "key": "ball",
+   "locale": "no",
+   "en": "Ball",
+   "s": "Ball",
+   "p": "Baller",
+   "g": "m"
+  },
+  {
+   "key": "ballerina",
+   "locale": "da",
+   "en": "Ballerina",
+   "s": "Ballerina",
+   "p": "Ballerinaer",
+   "g": "n"
+  },
+  {
+   "key": "ballerina",
+   "locale": "no",
+   "en": "Ballerina",
+   "s": "Ballerina",
+   "p": "Ballerinaer",
+   "g": "m"
+  },
+  {
+   "key": "ballerina",
+   "locale": "fi",
+   "en": "Ballerina",
+   "s": "Ballerina",
+   "p": "Ballerinat",
+   "g": null
+  },
+  {
+   "key": "ballerina",
+   "locale": "it",
+   "en": "Ballerina",
+   "s": "Ballerina",
+   "p": "Ballerine",
+   "g": "f"
+  },
+  {
+   "key": "banana",
+   "locale": "pt",
+   "en": "Banana",
+   "s": "Banana",
+   "p": "Bananas",
+   "g": "f"
+  },
+  {
+   "key": "banana",
+   "locale": "it",
+   "en": "Banana",
+   "s": "Banana",
+   "p": "Banane",
+   "g": "f"
+  },
+  {
+   "key": "bandage",
+   "locale": "da",
+   "en": "Bandage",
+   "s": "Bandage",
+   "p": "Bandager",
+   "g": "n"
+  },
+  {
+   "key": "bandage",
+   "locale": "fr",
+   "en": "Bandage",
+   "s": "Bandage",
+   "p": "Bandages",
+   "g": "m"
+  },
+  {
+   "key": "barbecue",
+   "locale": "fr",
+   "en": "Barbecue",
+   "s": "Barbecue",
+   "p": "Barbecues",
+   "g": "m"
+  },
+  {
+   "key": "barbecue",
+   "locale": "it",
+   "en": "Barbecue",
+   "s": "Barbecue",
+   "p": "Barbecue",
+   "g": "m"
+  },
+  {
+   "key": "barber",
+   "locale": "da",
+   "en": "Barber",
+   "s": "Barber",
+   "p": "Barberer",
+   "g": "n"
+  },
+  {
+   "key": "barrette",
+   "locale": "fr",
+   "en": "Barrette",
+   "s": "Barrette",
+   "p": "Barrettes",
+   "g": "f"
+  },
+  {
+   "key": "basketball",
+   "locale": "da",
+   "en": "Basketball",
+   "s": "Basketball",
+   "p": "Basketball",
+   "g": "n"
+  },
+  {
+   "key": "basketball",
+   "locale": "no",
+   "en": "Basketball",
+   "s": "Basketball",
+   "p": "Basketball",
+   "g": "m"
+  },
+  {
+   "key": "basketball",
+   "locale": "fr",
+   "en": "Basketball",
+   "s": "Basketball",
+   "p": "Basketball",
+   "g": "m"
+  },
+  {
+   "key": "begonia",
+   "locale": "no",
+   "en": "Begonia",
+   "s": "Begonia",
+   "p": "Begoniaer",
+   "g": "m"
+  },
+  {
+   "key": "begonia",
+   "locale": "fi",
+   "en": "Begonia",
+   "s": "Begonia",
+   "p": "Begoniat",
+   "g": null
+  },
+  {
+   "key": "begonia",
+   "locale": "es",
+   "en": "Begonia",
+   "s": "Begonia",
+   "p": "Begonias",
+   "g": "f"
+  },
+  {
+   "key": "begonia",
+   "locale": "it",
+   "en": "Begonia",
+   "s": "Begonia",
+   "p": "Begonie",
+   "g": "f"
+  },
+  {
+   "key": "bible",
+   "locale": "fr",
+   "en": "Bible",
+   "s": "Bible",
+   "p": "Bibles",
+   "g": "f"
+  },
+  {
+   "key": "biscuit",
+   "locale": "fr",
+   "en": "Biscuit",
+   "s": "Biscuit",
+   "p": "Biscuits",
+   "g": "m"
+  },
+  {
+   "key": "bison",
+   "locale": "da",
+   "en": "Bison",
+   "s": "Bison",
+   "p": "Bisoner",
+   "g": "n"
+  },
+  {
+   "key": "bison",
+   "locale": "no",
+   "en": "Bison",
+   "s": "Bison",
+   "p": "Bisoner",
+   "g": "m"
+  },
+  {
+   "key": "bison",
+   "locale": "fr",
+   "en": "Bison",
+   "s": "Bison",
+   "p": "Bisons",
+   "g": "m"
+  },
+  {
+   "key": "blender",
+   "locale": "da",
+   "en": "Blender",
+   "s": "Blender",
+   "p": "Blendere",
+   "g": "n"
+  },
+  {
+   "key": "blender",
+   "locale": "no",
+   "en": "Blender",
+   "s": "Blender",
+   "p": "Blendere",
+   "g": "m"
+  },
+  {
+   "key": "bolt",
+   "locale": "da",
+   "en": "Bolt",
+   "s": "Bolt",
+   "p": "Bolte",
+   "g": "n"
+  },
+  {
+   "key": "bolt",
+   "locale": "no",
+   "en": "Bolt",
+   "s": "Bolt",
+   "p": "Bolter",
+   "g": "m"
+  },
+  {
+   "key": "bracelet",
+   "locale": "fr",
+   "en": "Bracelet",
+   "s": "Bracelet",
+   "p": "Bracelets",
+   "g": "m"
+  },
+  {
+   "key": "brachiosaurus",
+   "locale": "da",
+   "en": "Brachiosaurus",
+   "s": "Brachiosaurus",
+   "p": "Brachiosauruser",
+   "g": "n"
+  },
+  {
+   "key": "brachiosaurus",
+   "locale": "no",
+   "en": "Brachiosaurus",
+   "s": "Brachiosaurus",
+   "p": "Brachiosauruser",
+   "g": "m"
+  },
+  {
+   "key": "brachiosaurus",
+   "locale": "fi",
+   "en": "Brachiosaurus",
+   "s": "Brachiosaurus",
+   "p": "Brachiosaurukset",
+   "g": null
+  },
+  {
+   "key": "broccoli",
+   "locale": "da",
+   "en": "Broccoli",
+   "s": "Broccoli",
+   "p": "Broccoli",
+   "g": "n"
+  },
+  {
+   "key": "broccoli",
+   "locale": "it",
+   "en": "Broccoli",
+   "s": "Broccoli",
+   "p": "Broccoli",
+   "g": "m"
+  },
+  {
+   "key": "brontosaurus",
+   "locale": "da",
+   "en": "Brontosaurus",
+   "s": "Brontosaurus",
+   "p": "Brontosaurusser",
+   "g": "n"
+  },
+  {
+   "key": "brontosaurus",
+   "locale": "no",
+   "en": "Brontosaurus",
+   "s": "Brontosaurus",
+   "p": "Brontosauruser",
+   "g": "m"
+  },
+  {
+   "key": "brontosaurus",
+   "locale": "fi",
+   "en": "Brontosaurus",
+   "s": "Brontosaurus",
+   "p": "Brontosaurukset",
+   "g": null
+  },
+  {
+   "key": "brownie",
+   "locale": "da",
+   "en": "Brownie",
+   "s": "Brownie",
+   "p": "Brownier",
+   "g": "n"
+  },
+  {
+   "key": "brownie",
+   "locale": "no",
+   "en": "Brownie",
+   "s": "Brownie",
+   "p": "Brownier",
+   "g": "m"
+  },
+  {
+   "key": "brownie",
+   "locale": "fi",
+   "en": "Brownie",
+   "s": "Brownie",
+   "p": "Browniet",
+   "g": null
+  },
+  {
+   "key": "brownie",
+   "locale": "fr",
+   "en": "Brownie",
+   "s": "Brownie",
+   "p": "Brownies",
+   "g": "m"
+  },
+  {
+   "key": "brownie",
+   "locale": "es",
+   "en": "Brownie",
+   "s": "Brownie",
+   "p": "Brownies",
+   "g": "m"
+  },
+  {
+   "key": "brownie",
+   "locale": "pt",
+   "en": "Brownie",
+   "s": "Brownie",
+   "p": "Brownies",
+   "g": "m"
+  },
+  {
+   "key": "brownie",
+   "locale": "it",
+   "en": "Brownie",
+   "s": "Brownie",
+   "p": "Brownie",
+   "g": "m"
+  },
+  {
+   "key": "bulldozer",
+   "locale": "da",
+   "en": "Bulldozer",
+   "s": "Bulldozer",
+   "p": "Bulldozere",
+   "g": "n"
+  },
+  {
+   "key": "bulldozer",
+   "locale": "fr",
+   "en": "Bulldozer",
+   "s": "Bulldozer",
+   "p": "Bulldozers",
+   "g": "m"
+  },
+  {
+   "key": "bulldozer",
+   "locale": "es",
+   "en": "Bulldozer",
+   "s": "Bulldozer",
+   "p": "Bulldozers",
+   "g": "m"
+  },
+  {
+   "key": "bulldozer",
+   "locale": "it",
+   "en": "Bulldozer",
+   "s": "Bulldozer",
+   "p": "Bulldozer",
+   "g": "m"
+  },
+  {
+   "key": "burrito",
+   "locale": "da",
+   "en": "Burrito",
+   "s": "Burrito",
+   "p": "Burritoer",
+   "g": "n"
+  },
+  {
+   "key": "burrito",
+   "locale": "no",
+   "en": "Burrito",
+   "s": "Burrito",
+   "p": "Burritoer",
+   "g": "m"
+  },
+  {
+   "key": "burrito",
+   "locale": "fi",
+   "en": "Burrito",
+   "s": "Burrito",
+   "p": "Burritot",
+   "g": null
+  },
+  {
+   "key": "burrito",
+   "locale": "fr",
+   "en": "Burrito",
+   "s": "Burrito",
+   "p": "Burritos",
+   "g": "m"
+  },
+  {
+   "key": "burrito",
+   "locale": "es",
+   "en": "Burrito",
+   "s": "Burrito",
+   "p": "Burritos",
+   "g": "m"
+  },
+  {
+   "key": "burrito",
+   "locale": "pt",
+   "en": "Burrito",
+   "s": "Burrito",
+   "p": "Burritos",
+   "g": "m"
+  },
+  {
+   "key": "burrito",
+   "locale": "it",
+   "en": "Burrito",
+   "s": "Burrito",
+   "p": "Burrito",
+   "g": "m"
+  },
+  {
+   "key": "bus",
+   "locale": "da",
+   "en": "Bus",
+   "s": "Bus",
+   "p": "Busser",
+   "g": "n"
+  },
+  {
+   "key": "bus",
+   "locale": "fr",
+   "en": "Bus",
+   "s": "Bus",
+   "p": "Bus",
+   "g": "m"
+  },
+  {
+   "key": "cabana",
+   "locale": "pt",
+   "en": "Cabana",
+   "s": "Cabana",
+   "p": "Cabanas",
+   "g": "f"
+  },
+  {
+   "key": "cactus",
+   "locale": "fr",
+   "en": "Cactus",
+   "s": "Cactus",
+   "p": "Cactus",
+   "g": "m"
+  },
+  {
+   "key": "cactus",
+   "locale": "es",
+   "en": "Cactus",
+   "s": "Cactus",
+   "p": "Cactus",
+   "g": "m"
+  },
+  {
+   "key": "cactus",
+   "locale": "it",
+   "en": "Cactus",
+   "s": "Cactus",
+   "p": "Cactus",
+   "g": "m"
+  },
+  {
+   "key": "camp",
+   "locale": "fr",
+   "en": "Camp",
+   "s": "Camp",
+   "p": "Camps",
+   "g": "m"
+  },
+  {
+   "key": "camper",
+   "locale": "it",
+   "en": "Camper",
+   "s": "Camper",
+   "p": "Camper",
+   "g": "m"
+  },
+  {
+   "key": "cape",
+   "locale": "fr",
+   "en": "Cape",
+   "s": "Cape",
+   "p": "Capes",
+   "g": "f"
+  },
+  {
+   "key": "capybara",
+   "locale": "fr",
+   "en": "Capybara",
+   "s": "Capybara",
+   "p": "Capybaras",
+   "g": "m"
+  },
+  {
+   "key": "cardigan",
+   "locale": "da",
+   "en": "Cardigan",
+   "s": "Cardigan",
+   "p": "Cardiganer",
+   "g": "n"
+  },
+  {
+   "key": "cardigan",
+   "locale": "no",
+   "en": "Cardigan",
+   "s": "Cardigan",
+   "p": "Cardiganer",
+   "g": "m"
+  },
+  {
+   "key": "cardigan",
+   "locale": "fr",
+   "en": "Cardigan",
+   "s": "Cardigan",
+   "p": "Cardigans",
+   "g": "m"
+  },
+  {
+   "key": "cardigan",
+   "locale": "it",
+   "en": "Cardigan",
+   "s": "Cardigan",
+   "p": "Cardigan",
+   "g": "m"
+  },
+  {
+   "key": "cardinal",
+   "locale": "fr",
+   "en": "Cardinal",
+   "s": "Cardinal",
+   "p": "Cardinaux",
+   "g": "m"
+  },
+  {
+   "key": "carnotaurus",
+   "locale": "da",
+   "en": "Carnotaurus",
+   "s": "Carnotaurus",
+   "p": "Carnotauruser",
+   "g": "n"
+  },
+  {
+   "key": "carnotaurus",
+   "locale": "no",
+   "en": "Carnotaurus",
+   "s": "Carnotaurus",
+   "p": "Carnotauruser",
+   "g": "m"
+  },
+  {
+   "key": "carnotaurus",
+   "locale": "fi",
+   "en": "Carnotaurus",
+   "s": "Carnotaurus",
+   "p": "Carnotaurukset",
+   "g": null
+  },
+  {
+   "key": "cereal",
+   "locale": "es",
+   "en": "Cereal",
+   "s": "Cereal",
+   "p": "Cereales",
+   "g": "m"
+  },
+  {
+   "key": "cereal",
+   "locale": "pt",
+   "en": "Cereal",
+   "s": "Cereal",
+   "p": "Cereais",
+   "g": "m"
+  },
+  {
+   "key": "cheeseburger",
+   "locale": "da",
+   "en": "Cheeseburger",
+   "s": "Cheeseburger",
+   "p": "Cheeseburgere",
+   "g": "n"
+  },
+  {
+   "key": "cheeseburger",
+   "locale": "no",
+   "en": "Cheeseburger",
+   "s": "Cheeseburger",
+   "p": "Cheeseburgere",
+   "g": "m"
+  },
+  {
+   "key": "cheeseburger",
+   "locale": "fr",
+   "en": "Cheeseburger",
+   "s": "Cheeseburger",
+   "p": "Cheeseburgers",
+   "g": "m"
+  },
+  {
+   "key": "cheeseburger",
+   "locale": "it",
+   "en": "Cheeseburger",
+   "s": "Cheeseburger",
+   "p": "Cheeseburger",
+   "g": "m"
+  },
+  {
+   "key": "cheesecake",
+   "locale": "da",
+   "en": "Cheesecake",
+   "s": "Cheesecake",
+   "p": "Cheesecakes",
+   "g": "n"
+  },
+  {
+   "key": "cheesecake",
+   "locale": "fr",
+   "en": "Cheesecake",
+   "s": "Cheesecake",
+   "p": "Cheesecakes",
+   "g": "m"
+  },
+  {
+   "key": "cheesecake",
+   "locale": "pt",
+   "en": "Cheesecake",
+   "s": "Cheesecake",
+   "p": "Cheesecakes",
+   "g": "m"
+  },
+  {
+   "key": "cheesecake",
+   "locale": "it",
+   "en": "Cheesecake",
+   "s": "Cheesecake",
+   "p": "Cheesecake",
+   "g": "m"
+  },
+  {
+   "key": "chef",
+   "locale": "es",
+   "en": "Chef",
+   "s": "Chef",
+   "p": "Chefs",
+   "g": "m"
+  },
+  {
+   "key": "chef",
+   "locale": "pt",
+   "en": "Chef",
+   "s": "Chef",
+   "p": "Chefs",
+   "g": "m"
+  },
+  {
+   "key": "chef",
+   "locale": "it",
+   "en": "Chef",
+   "s": "Chef",
+   "p": "Chef",
+   "g": "m"
+  },
+  {
+   "key": "chinchilla",
+   "locale": "da",
+   "en": "Chinchilla",
+   "s": "Chinchilla",
+   "p": "Chinchillaer",
+   "g": "n"
+  },
+  {
+   "key": "chinchilla",
+   "locale": "no",
+   "en": "Chinchilla",
+   "s": "Chinchilla",
+   "p": "Chinchillaer",
+   "g": "m"
+  },
+  {
+   "key": "chinchilla",
+   "locale": "fi",
+   "en": "Chinchilla",
+   "s": "Chinchilla",
+   "p": "Chinchillat",
+   "g": null
+  },
+  {
+   "key": "chinchilla",
+   "locale": "fr",
+   "en": "Chinchilla",
+   "s": "Chinchilla",
+   "p": "Chinchillas",
+   "g": "m"
+  },
+  {
+   "key": "chinchilla",
+   "locale": "es",
+   "en": "Chinchilla",
+   "s": "Chinchilla",
+   "p": "Chinchillas",
+   "g": "f"
+  },
+  {
+   "key": "closet",
+   "locale": "pt",
+   "en": "Closet",
+   "s": "Closet",
+   "p": "Closets",
+   "g": "m"
+  },
+  {
+   "key": "cobra",
+   "locale": "fr",
+   "en": "Cobra",
+   "s": "Cobra",
+   "p": "Cobras",
+   "g": "m"
+  },
+  {
+   "key": "cobra",
+   "locale": "es",
+   "en": "Cobra",
+   "s": "Cobra",
+   "p": "Cobras",
+   "g": "f"
+  },
+  {
+   "key": "cobra",
+   "locale": "pt",
+   "en": "Cobra",
+   "s": "Cobra",
+   "p": "Cobras",
+   "g": "f"
+  },
+  {
+   "key": "cobra",
+   "locale": "it",
+   "en": "Cobra",
+   "s": "Cobra",
+   "p": "Cobra",
+   "g": "m"
+  },
+  {
+   "key": "cocktail",
+   "locale": "da",
+   "en": "Cocktail",
+   "s": "Cocktail",
+   "p": "Cocktails",
+   "g": "n"
+  },
+  {
+   "key": "cocktail",
+   "locale": "no",
+   "en": "Cocktail",
+   "s": "Cocktail",
+   "p": "Cocktailer",
+   "g": "m"
+  },
+  {
+   "key": "cocktail",
+   "locale": "fi",
+   "en": "Cocktail",
+   "s": "Cocktail",
+   "p": "Cocktailit",
+   "g": null
+  },
+  {
+   "key": "cocktail",
+   "locale": "fr",
+   "en": "Cocktail",
+   "s": "Cocktail",
+   "p": "Cocktails",
+   "g": "m"
+  },
+  {
+   "key": "cocktail",
+   "locale": "it",
+   "en": "Cocktail",
+   "s": "Cocktail",
+   "p": "Cocktail",
+   "g": "m"
+  },
+  {
+   "key": "computer",
+   "locale": "da",
+   "en": "Computer",
+   "s": "Computer",
+   "p": "Computere",
+   "g": "n"
+  },
+  {
+   "key": "computer",
+   "locale": "it",
+   "en": "Computer",
+   "s": "Computer",
+   "p": "Computer",
+   "g": "m"
+  },
+  {
+   "key": "cone",
+   "locale": "pt",
+   "en": "Cone",
+   "s": "Cone",
+   "p": "Cones",
+   "g": "m"
+  },
+  {
+   "key": "controller",
+   "locale": "da",
+   "en": "Controller",
+   "s": "Controller",
+   "p": "Controllere",
+   "g": "n"
+  },
+  {
+   "key": "controller",
+   "locale": "it",
+   "en": "Controller",
+   "s": "Controller",
+   "p": "Controller",
+   "g": "m"
+  },
+  {
+   "key": "crocodile",
+   "locale": "fr",
+   "en": "Crocodile",
+   "s": "Crocodile",
+   "p": "Crocodiles",
+   "g": "m"
+  },
+  {
+   "key": "crocus",
+   "locale": "fr",
+   "en": "Crocus",
+   "s": "Crocus",
+   "p": "Crocus",
+   "g": "m"
+  },
+  {
+   "key": "croissant",
+   "locale": "da",
+   "en": "Croissant",
+   "s": "Croissant",
+   "p": "Croissanter",
+   "g": "n"
+  },
+  {
+   "key": "croissant",
+   "locale": "no",
+   "en": "Croissant",
+   "s": "Croissant",
+   "p": "Croissanter",
+   "g": "m"
+  },
+  {
+   "key": "croissant",
+   "locale": "fi",
+   "en": "Croissant",
+   "s": "Croissant",
+   "p": "Croissantit",
+   "g": null
+  },
+  {
+   "key": "croissant",
+   "locale": "fr",
+   "en": "Croissant",
+   "s": "Croissant",
+   "p": "Croissants",
+   "g": "m"
+  },
+  {
+   "key": "croissant",
+   "locale": "pt",
+   "en": "Croissant",
+   "s": "Croissant",
+   "p": "Croissants",
+   "g": "m"
+  },
+  {
+   "key": "cube",
+   "locale": "fr",
+   "en": "Cube",
+   "s": "Cube",
+   "p": "Cubes",
+   "g": "m"
+  },
+  {
+   "key": "cupcake",
+   "locale": "da",
+   "en": "Cupcake",
+   "s": "Cupcake",
+   "p": "Cupcakes",
+   "g": "n"
+  },
+  {
+   "key": "cupcake",
+   "locale": "no",
+   "en": "Cupcake",
+   "s": "Cupcake",
+   "p": "Cupcaker",
+   "g": "m"
+  },
+  {
+   "key": "cupcake",
+   "locale": "fr",
+   "en": "Cupcake",
+   "s": "Cupcake",
+   "p": "Cupcakes",
+   "g": "m"
+  },
+  {
+   "key": "cupcake",
+   "locale": "pt",
+   "en": "Cupcake",
+   "s": "Cupcake",
+   "p": "Cupcakes",
+   "g": "m"
+  },
+  {
+   "key": "cupcake",
+   "locale": "it",
+   "en": "Cupcake",
+   "s": "Cupcake",
+   "p": "Cupcake",
+   "g": "m"
+  },
+  {
+   "key": "cylinder",
+   "locale": "da",
+   "en": "Cylinder",
+   "s": "Cylinder",
+   "p": "Cylindre",
+   "g": "n"
+  },
+  {
+   "key": "dahlia",
+   "locale": "da",
+   "en": "Dahlia",
+   "s": "Dahlia",
+   "p": "Dahliaer",
+   "g": "n"
+  },
+  {
+   "key": "dahlia",
+   "locale": "no",
+   "en": "Dahlia",
+   "s": "Dahlia",
+   "p": "Dahliaer",
+   "g": "m"
+  },
+  {
+   "key": "dahlia",
+   "locale": "fr",
+   "en": "Dahlia",
+   "s": "Dahlia",
+   "p": "Dahlias",
+   "g": "m"
+  },
+  {
+   "key": "deinonychus",
+   "locale": "da",
+   "en": "Deinonychus",
+   "s": "Deinonychus",
+   "p": "Deinonychuse",
+   "g": "t"
+  },
+  {
+   "key": "deinonychus",
+   "locale": "no",
+   "en": "Deinonychus",
+   "s": "Deinonychus",
+   "p": "Deinonychus",
+   "g": "n"
+  },
+  {
+   "key": "deinonychus",
+   "locale": "fi",
+   "en": "Deinonychus",
+   "s": "Deinonychus",
+   "p": "Deinonychukset",
+   "g": null
+  },
+  {
+   "key": "deinonychus",
+   "locale": "it",
+   "en": "Deinonychus",
+   "s": "Deinonychus",
+   "p": "Deinonychus",
+   "g": "m"
+  },
+  {
+   "key": "detective",
+   "locale": "es",
+   "en": "Detective",
+   "s": "Detective",
+   "p": "Detectives",
+   "g": "m"
+  },
+  {
+   "key": "detective",
+   "locale": "it",
+   "en": "Detective",
+   "s": "Detective",
+   "p": "Detective",
+   "g": "m"
+  },
+  {
+   "key": "dimetrodon",
+   "locale": "da",
+   "en": "Dimetrodon",
+   "s": "Dimetrodon",
+   "p": "Dimetrodoner",
+   "g": "n"
+  },
+  {
+   "key": "dimetrodon",
+   "locale": "no",
+   "en": "Dimetrodon",
+   "s": "Dimetrodon",
+   "p": "Dimetrodoner",
+   "g": "m"
+  },
+  {
+   "key": "dimetrodon",
+   "locale": "fi",
+   "en": "Dimetrodon",
+   "s": "Dimetrodon",
+   "p": "Dimetrodomet",
+   "g": null
+  },
+  {
+   "key": "dinosaur",
+   "locale": "da",
+   "en": "Dinosaur",
+   "s": "Dinosaur",
+   "p": "Dinosaurer",
+   "g": "n"
+  },
+  {
+   "key": "dinosaur",
+   "locale": "no",
+   "en": "Dinosaur",
+   "s": "Dinosaur",
+   "p": "Dinosaurer",
+   "g": "m"
+  },
+  {
+   "key": "diplodocus",
+   "locale": "da",
+   "en": "Diplodocus",
+   "s": "Diplodocus",
+   "p": "Diplodocuser",
+   "g": "n"
+  },
+  {
+   "key": "diplodocus",
+   "locale": "no",
+   "en": "Diplodocus",
+   "s": "Diplodocus",
+   "p": "Diplodocuser",
+   "g": "m"
+  },
+  {
+   "key": "diplodocus",
+   "locale": "fi",
+   "en": "Diplodocus",
+   "s": "Diplodocus",
+   "p": "Diplodocukset",
+   "g": null
+  },
+  {
+   "key": "diplodocus",
+   "locale": "fr",
+   "en": "Diplodocus",
+   "s": "Diplodocus",
+   "p": "Diplodocus",
+   "g": "m"
+  },
+  {
+   "key": "doctor",
+   "locale": "es",
+   "en": "Doctor",
+   "s": "Doctor",
+   "p": "Doctores",
+   "g": "m"
+  },
+  {
+   "key": "domino",
+   "locale": "da",
+   "en": "Domino",
+   "s": "Domino",
+   "p": "Dominoer",
+   "g": "n"
+  },
+  {
+   "key": "domino",
+   "locale": "no",
+   "en": "Domino",
+   "s": "Domino",
+   "p": "Dominoer",
+   "g": "m"
+  },
+  {
+   "key": "domino",
+   "locale": "fi",
+   "en": "Domino",
+   "s": "Domino",
+   "p": "Dominot",
+   "g": null
+  },
+  {
+   "key": "domino",
+   "locale": "fr",
+   "en": "Domino",
+   "s": "Domino",
+   "p": "Dominos",
+   "g": "m"
+  },
+  {
+   "key": "domino",
+   "locale": "it",
+   "en": "Domino",
+   "s": "Domino",
+   "p": "Domino",
+   "g": "m"
+  },
+  {
+   "key": "doughnut",
+   "locale": "da",
+   "en": "Doughnut",
+   "s": "Doughnut",
+   "p": "Doughnuts",
+   "g": "n"
+  },
+  {
+   "key": "dragon",
+   "locale": "fr",
+   "en": "Dragon",
+   "s": "Dragon",
+   "p": "Dragons",
+   "g": "m"
+  },
+  {
+   "key": "durian",
+   "locale": "da",
+   "en": "Durian",
+   "s": "Durian",
+   "p": "Durianer",
+   "g": "n"
+  },
+  {
+   "key": "durian",
+   "locale": "no",
+   "en": "Durian",
+   "s": "Durian",
+   "p": "Durianer",
+   "g": "m"
+  },
+  {
+   "key": "durian",
+   "locale": "fr",
+   "en": "Durian",
+   "s": "Durian",
+   "p": "Durians",
+   "g": "m"
+  },
+  {
+   "key": "durian",
+   "locale": "pt",
+   "en": "Durian",
+   "s": "Durian",
+   "p": "Durians",
+   "g": "m"
+  },
+  {
+   "key": "durian",
+   "locale": "it",
+   "en": "Durian",
+   "s": "Durian",
+   "p": "Durian",
+   "g": "m"
+  },
+  {
+   "key": "eclair",
+   "locale": "da",
+   "en": "Eclair",
+   "s": "Eclair",
+   "p": "Eclair",
+   "g": "n"
+  },
+  {
+   "key": "eclair",
+   "locale": "no",
+   "en": "Eclair",
+   "s": "Eclair",
+   "p": "Eclairer",
+   "g": "m"
+  },
+  {
+   "key": "eclair",
+   "locale": "es",
+   "en": "Eclair",
+   "s": "Eclair",
+   "p": "Eclairs",
+   "g": "m"
+  },
+  {
+   "key": "egg",
+   "locale": "no",
+   "en": "Egg",
+   "s": "Egg",
+   "p": "Egg",
+   "g": "n"
+  },
+  {
+   "key": "envelope",
+   "locale": "pt",
+   "en": "Envelope",
+   "s": "Envelope",
+   "p": "Envelopes",
+   "g": "m"
+  },
+  {
+   "key": "ferry",
+   "locale": "fr",
+   "en": "Ferry",
+   "s": "Ferry",
+   "p": "Ferrys",
+   "g": "m"
+  },
+  {
+   "key": "finger",
+   "locale": "da",
+   "en": "Finger",
+   "s": "Finger",
+   "p": "Fingre",
+   "g": "n"
+  },
+  {
+   "key": "finger",
+   "locale": "no",
+   "en": "Finger",
+   "s": "Finger",
+   "p": "Fingrer",
+   "g": "m"
+  },
+  {
+   "key": "flag",
+   "locale": "da",
+   "en": "Flag",
+   "s": "Flag",
+   "p": "Flag",
+   "g": "t"
+  },
+  {
+   "key": "flamingo",
+   "locale": "da",
+   "en": "Flamingo",
+   "s": "Flamingo",
+   "p": "Flamingoer",
+   "g": "n"
+  },
+  {
+   "key": "flamingo",
+   "locale": "no",
+   "en": "Flamingo",
+   "s": "Flamingo",
+   "p": "Flamingoer",
+   "g": "m"
+  },
+  {
+   "key": "flamingo",
+   "locale": "fi",
+   "en": "Flamingo",
+   "s": "Flamingo",
+   "p": "Flamingot",
+   "g": null
+  },
+  {
+   "key": "flamingo",
+   "locale": "pt",
+   "en": "Flamingo",
+   "s": "Flamingo",
+   "p": "Flamingos",
+   "g": "m"
+  },
+  {
+   "key": "folder",
+   "locale": "es",
+   "en": "Folder",
+   "s": "Folder",
+   "p": "Carpetas",
+   "g": "f"
+  },
+  {
+   "key": "forsythia",
+   "locale": "da",
+   "en": "Forsythia",
+   "s": "Forsythia",
+   "p": "Forsythiaer",
+   "g": "n"
+  },
+  {
+   "key": "forsythia",
+   "locale": "fr",
+   "en": "Forsythia",
+   "s": "Forsythia",
+   "p": "Forsythias",
+   "g": "m"
+  },
+  {
+   "key": "frisbee",
+   "locale": "da",
+   "en": "Frisbee",
+   "s": "Frisbee",
+   "p": "Frisbeer",
+   "g": "n"
+  },
+  {
+   "key": "frisbee",
+   "locale": "no",
+   "en": "Frisbee",
+   "s": "Frisbee",
+   "p": "Frisbeer",
+   "g": "m"
+  },
+  {
+   "key": "frisbee",
+   "locale": "fi",
+   "en": "Frisbee",
+   "s": "Frisbee",
+   "p": "Frisbeet",
+   "g": null
+  },
+  {
+   "key": "frisbee",
+   "locale": "fr",
+   "en": "Frisbee",
+   "s": "Frisbee",
+   "p": "Frisbees",
+   "g": "m"
+  },
+  {
+   "key": "frisbee",
+   "locale": "es",
+   "en": "Frisbee",
+   "s": "Frisbee",
+   "p": "Frisbees",
+   "g": "m"
+  },
+  {
+   "key": "frisbee",
+   "locale": "pt",
+   "en": "Frisbee",
+   "s": "Frisbee",
+   "p": "Frisbees",
+   "g": "m"
+  },
+  {
+   "key": "frisbee",
+   "locale": "it",
+   "en": "Frisbee",
+   "s": "Frisbee",
+   "p": "Frisbee",
+   "g": "m"
+  },
+  {
+   "key": "garage",
+   "locale": "da",
+   "en": "Garage",
+   "s": "Garage",
+   "p": "Garager",
+   "g": "n"
+  },
+  {
+   "key": "garage",
+   "locale": "fr",
+   "en": "Garage",
+   "s": "Garage",
+   "p": "Garages",
+   "g": "m"
+  },
+  {
+   "key": "garage",
+   "locale": "it",
+   "en": "Garage",
+   "s": "Garage",
+   "p": "Garage",
+   "g": "m"
+  },
+  {
+   "key": "gazelle",
+   "locale": "da",
+   "en": "Gazelle",
+   "s": "Gazelle",
+   "p": "Gazeller",
+   "g": "n"
+  },
+  {
+   "key": "gazelle",
+   "locale": "fr",
+   "en": "Gazelle",
+   "s": "Gazelle",
+   "p": "Gazelles",
+   "g": "f"
+  },
+  {
+   "key": "gecko",
+   "locale": "fr",
+   "en": "Gecko",
+   "s": "Gecko",
+   "p": "Geckos",
+   "g": "m"
+  },
+  {
+   "key": "gecko",
+   "locale": "es",
+   "en": "Gecko",
+   "s": "Gecko",
+   "p": "Geckos",
+   "g": "m"
+  },
+  {
+   "key": "giganotosaurus",
+   "locale": "da",
+   "en": "Giganotosaurus",
+   "s": "Giganotosaurus",
+   "p": "Giganotosauruser",
+   "g": "n"
+  },
+  {
+   "key": "giganotosaurus",
+   "locale": "no",
+   "en": "Giganotosaurus",
+   "s": "Giganotosaurus",
+   "p": "Giganotosauruser",
+   "g": "m"
+  },
+  {
+   "key": "giganotosaurus",
+   "locale": "fi",
+   "en": "Giganotosaurus",
+   "s": "Giganotosaurus",
+   "p": "Giganotosaurukset",
+   "g": null
+  },
+  {
+   "key": "glass",
+   "locale": "no",
+   "en": "Glass",
+   "s": "Glass",
+   "p": "Glass",
+   "g": "n"
+  },
+  {
+   "key": "globe",
+   "locale": "fr",
+   "en": "Globe",
+   "s": "Globe",
+   "p": "Globes",
+   "g": "m"
+  },
+  {
+   "key": "gorilla",
+   "locale": "da",
+   "en": "Gorilla",
+   "s": "Gorilla",
+   "p": "Gorillaer",
+   "g": "n"
+  },
+  {
+   "key": "gorilla",
+   "locale": "no",
+   "en": "Gorilla",
+   "s": "Gorilla",
+   "p": "Gorillaer",
+   "g": "m"
+  },
+  {
+   "key": "gorilla",
+   "locale": "fi",
+   "en": "Gorilla",
+   "s": "Gorilla",
+   "p": "Gorillat",
+   "g": null
+  },
+  {
+   "key": "gorilla",
+   "locale": "it",
+   "en": "Gorilla",
+   "s": "Gorilla",
+   "p": "Gorilla",
+   "g": "m"
+  },
+  {
+   "key": "grill",
+   "locale": "da",
+   "en": "Grill",
+   "s": "Grill",
+   "p": "Griller",
+   "g": "n"
+  },
+  {
+   "key": "grill",
+   "locale": "no",
+   "en": "Grill",
+   "s": "Grill",
+   "p": "Griller",
+   "g": "m"
+  },
+  {
+   "key": "guitar",
+   "locale": "da",
+   "en": "Guitar",
+   "s": "Guitar",
+   "p": "Guitarer",
+   "g": "n"
+  },
+  {
+   "key": "hamburger",
+   "locale": "da",
+   "en": "Hamburger",
+   "s": "Hamburger",
+   "p": "Hamburgere",
+   "g": "n"
+  },
+  {
+   "key": "hamburger",
+   "locale": "no",
+   "en": "Hamburger",
+   "s": "Hamburger",
+   "p": "Hamburgere",
+   "g": "m"
+  },
+  {
+   "key": "hamburger",
+   "locale": "fr",
+   "en": "Hamburger",
+   "s": "Hamburger",
+   "p": "Hamburgers",
+   "g": "m"
+  },
+  {
+   "key": "hamburger",
+   "locale": "it",
+   "en": "Hamburger",
+   "s": "Hamburger",
+   "p": "Hamburger",
+   "g": "m"
+  },
+  {
+   "key": "hammer",
+   "locale": "da",
+   "en": "Hammer",
+   "s": "Hammer",
+   "p": "Hammere",
+   "g": "n"
+  },
+  {
+   "key": "hammer",
+   "locale": "no",
+   "en": "Hammer",
+   "s": "Hammer",
+   "p": "Hammere",
+   "g": "m"
+  },
+  {
+   "key": "hamster",
+   "locale": "da",
+   "en": "Hamster",
+   "s": "Hamster",
+   "p": "Hamstere",
+   "g": "n"
+  },
+  {
+   "key": "hamster",
+   "locale": "no",
+   "en": "Hamster",
+   "s": "Hamster",
+   "p": "Hamstere",
+   "g": "m"
+  },
+  {
+   "key": "hamster",
+   "locale": "fr",
+   "en": "Hamster",
+   "s": "Hamster",
+   "p": "Hamsters",
+   "g": "m"
+  },
+  {
+   "key": "hamster",
+   "locale": "pt",
+   "en": "Hamster",
+   "s": "Hamster",
+   "p": "Hamsters",
+   "g": "m"
+  },
+  {
+   "key": "hat",
+   "locale": "da",
+   "en": "Hat",
+   "s": "Hat",
+   "p": "Hatte",
+   "g": "n"
+  },
+  {
+   "key": "hibiscus",
+   "locale": "da",
+   "en": "Hibiscus",
+   "s": "Hibiscus",
+   "p": "Hibiscus",
+   "g": "n"
+  },
+  {
+   "key": "hibiscus",
+   "locale": "fr",
+   "en": "Hibiscus",
+   "s": "Hibiscus",
+   "p": "Hibiscus",
+   "g": "m"
+  },
+  {
+   "key": "hot-dog",
+   "locale": "es",
+   "en": "Hot Dog",
+   "s": "Hot Dog",
+   "p": "Hot dogs",
+   "g": "m"
+  },
+  {
+   "key": "hot-dog",
+   "locale": "it",
+   "en": "Hot Dog",
+   "s": "Hot Dog",
+   "p": "Hot dog",
+   "g": "m"
+  },
+  {
+   "key": "hotel",
+   "locale": "da",
+   "en": "Hotel",
+   "s": "Hotel",
+   "p": "Hoteller",
+   "g": "t"
+  },
+  {
+   "key": "hotel",
+   "locale": "es",
+   "en": "Hotel",
+   "s": "Hotel",
+   "p": "Hoteles",
+   "g": "m"
+  },
+  {
+   "key": "hotel",
+   "locale": "pt",
+   "en": "Hotel",
+   "s": "Hotel",
+   "p": "Hotéis",
+   "g": "m"
+  },
+  {
+   "key": "hotel",
+   "locale": "it",
+   "en": "Hotel",
+   "s": "Hotel",
+   "p": "Hotel",
+   "g": "m"
+  },
+  {
+   "key": "ichthyosaurus",
+   "locale": "da",
+   "en": "Ichthyosaurus",
+   "s": "Ichthyosaurus",
+   "p": "Ichthyosauruser",
+   "g": "n"
+  },
+  {
+   "key": "ichthyosaurus",
+   "locale": "no",
+   "en": "Ichthyosaurus",
+   "s": "Ichthyosaurus",
+   "p": "Ichthyosauruser",
+   "g": "m"
+  },
+  {
+   "key": "ichthyosaurus",
+   "locale": "fi",
+   "en": "Ichthyosaurus",
+   "s": "Ichthyosaurus",
+   "p": "Ichthyosaurukset",
+   "g": null
+  },
+  {
+   "key": "igloo",
+   "locale": "fr",
+   "en": "Igloo",
+   "s": "Igloo",
+   "p": "Igloos",
+   "g": "m"
+  },
+  {
+   "key": "igloo",
+   "locale": "it",
+   "en": "Igloo",
+   "s": "Igloo",
+   "p": "Igloo",
+   "g": "m"
+  },
+  {
+   "key": "iguana",
+   "locale": "es",
+   "en": "Iguana",
+   "s": "Iguana",
+   "p": "Iguanas",
+   "g": "f"
+  },
+  {
+   "key": "iguana",
+   "locale": "pt",
+   "en": "Iguana",
+   "s": "Iguana",
+   "p": "Iguanas",
+   "g": "f"
+  },
+  {
+   "key": "iguana",
+   "locale": "it",
+   "en": "Iguana",
+   "s": "Iguana",
+   "p": "Iguana",
+   "g": "f"
+  },
+  {
+   "key": "iguanodon",
+   "locale": "da",
+   "en": "Iguanodon",
+   "s": "Iguanodon",
+   "p": "Iguanodoner",
+   "g": "n"
+  },
+  {
+   "key": "iguanodon",
+   "locale": "no",
+   "en": "Iguanodon",
+   "s": "Iguanodon",
+   "p": "Iguanodoner",
+   "g": "m"
+  },
+  {
+   "key": "iguanodon",
+   "locale": "fi",
+   "en": "Iguanodon",
+   "s": "Iguanodon",
+   "p": "Iguanodomet",
+   "g": null
+  },
+  {
+   "key": "iguanodon",
+   "locale": "fr",
+   "en": "Iguanodon",
+   "s": "Iguanodon",
+   "p": "Iguanodons",
+   "g": "m"
+  },
+  {
+   "key": "jaguar",
+   "locale": "da",
+   "en": "Jaguar",
+   "s": "Jaguar",
+   "p": "Jaguarer",
+   "g": "n"
+  },
+  {
+   "key": "jaguar",
+   "locale": "no",
+   "en": "Jaguar",
+   "s": "Jaguar",
+   "p": "Jaguarer",
+   "g": "m"
+  },
+  {
+   "key": "jaguar",
+   "locale": "fr",
+   "en": "Jaguar",
+   "s": "Jaguar",
+   "p": "Jaguars",
+   "g": "m"
+  },
+  {
+   "key": "jaguar",
+   "locale": "es",
+   "en": "Jaguar",
+   "s": "Jaguar",
+   "p": "Jaguares",
+   "g": "m"
+  },
+  {
+   "key": "jeans",
+   "locale": "da",
+   "en": "Jeans",
+   "s": "Jeans",
+   "p": "Jeans",
+   "g": "n"
+  },
+  {
+   "key": "jeans",
+   "locale": "no",
+   "en": "Jeans",
+   "s": "Jeans",
+   "p": "Jeans",
+   "g": "m"
+  },
+  {
+   "key": "jeans",
+   "locale": "es",
+   "en": "Jeans",
+   "s": "Jeans",
+   "p": "Jeans",
+   "g": "m"
+  },
+  {
+   "key": "jeans",
+   "locale": "pt",
+   "en": "Jeans",
+   "s": "Jeans",
+   "p": "Jeans",
+   "g": "m"
+  },
+  {
+   "key": "jeans",
+   "locale": "it",
+   "en": "Jeans",
+   "s": "Jeans",
+   "p": "Jeans",
+   "g": "m"
+  },
+  {
+   "key": "jeep",
+   "locale": "da",
+   "en": "Jeep",
+   "s": "Jeep",
+   "p": "Jeeper",
+   "g": "n"
+  },
+  {
+   "key": "jeep",
+   "locale": "no",
+   "en": "Jeep",
+   "s": "Jeep",
+   "p": "Jeeper",
+   "g": "m"
+  },
+  {
+   "key": "jeep",
+   "locale": "fr",
+   "en": "Jeep",
+   "s": "Jeep",
+   "p": "Jeeps",
+   "g": "m"
+  },
+  {
+   "key": "jeep",
+   "locale": "es",
+   "en": "Jeep",
+   "s": "Jeep",
+   "p": "Jeeps",
+   "g": "m"
+  },
+  {
+   "key": "jeep",
+   "locale": "it",
+   "en": "Jeep",
+   "s": "Jeep",
+   "p": "Jeep",
+   "g": "m"
+  },
+  {
+   "key": "jet",
+   "locale": "fr",
+   "en": "Jet",
+   "s": "Jet",
+   "p": "Jets",
+   "g": "m"
+  },
+  {
+   "key": "jet",
+   "locale": "es",
+   "en": "Jet",
+   "s": "Jet",
+   "p": "Jets",
+   "g": "m"
+  },
+  {
+   "key": "jet",
+   "locale": "it",
+   "en": "Jet",
+   "s": "Jet",
+   "p": "Jet",
+   "g": "m"
+  },
+  {
+   "key": "juice",
+   "locale": "da",
+   "en": "Juice",
+   "s": "Juice",
+   "p": "Juice",
+   "g": "n"
+  },
+  {
+   "key": "juice",
+   "locale": "no",
+   "en": "Juice",
+   "s": "Juice",
+   "p": "Juicer",
+   "g": "m"
+  },
+  {
+   "key": "jumpsuit",
+   "locale": "da",
+   "en": "Jumpsuit",
+   "s": "Jumpsuit",
+   "p": "Jumpsuits",
+   "g": "n"
+  },
+  {
+   "key": "jumpsuit",
+   "locale": "no",
+   "en": "Jumpsuit",
+   "s": "Jumpsuit",
+   "p": "Jumpsuiter",
+   "g": "m"
+  },
+  {
+   "key": "kayak",
+   "locale": "fr",
+   "en": "Kayak",
+   "s": "Kayak",
+   "p": "Kayaks",
+   "g": "m"
+  },
+  {
+   "key": "kayak",
+   "locale": "es",
+   "en": "Kayak",
+   "s": "Kayak",
+   "p": "Kayaks",
+   "g": "m"
+  },
+  {
+   "key": "kayak",
+   "locale": "it",
+   "en": "Kayak",
+   "s": "Kayak",
+   "p": "Kayak",
+   "g": "m"
+  },
+  {
+   "key": "kettlebell",
+   "locale": "da",
+   "en": "Kettlebell",
+   "s": "Kettlebell",
+   "p": "Kettlebells",
+   "g": "n"
+  },
+  {
+   "key": "kettlebell",
+   "locale": "no",
+   "en": "Kettlebell",
+   "s": "Kettlebell",
+   "p": "Kettlebeller",
+   "g": "m"
+  },
+  {
+   "key": "kettlebell",
+   "locale": "fr",
+   "en": "Kettlebell",
+   "s": "Kettlebell",
+   "p": "Kettlebells",
+   "g": "m"
+  },
+  {
+   "key": "kettlebell",
+   "locale": "pt",
+   "en": "Kettlebell",
+   "s": "Kettlebell",
+   "p": "Kettlebells",
+   "g": "m"
+  },
+  {
+   "key": "kettlebell",
+   "locale": "it",
+   "en": "Kettlebell",
+   "s": "Kettlebell",
+   "p": "Kettlebell",
+   "g": "m"
+  },
+  {
+   "key": "keyboard",
+   "locale": "da",
+   "en": "Keyboard",
+   "s": "Keyboard",
+   "p": "Keyboards",
+   "g": "t"
+  },
+  {
+   "key": "keyboard",
+   "locale": "no",
+   "en": "Keyboard",
+   "s": "Keyboard",
+   "p": "Keyboarder",
+   "g": "m"
+  },
+  {
+   "key": "kiwi",
+   "locale": "da",
+   "en": "Kiwi",
+   "s": "Kiwi",
+   "p": "Kiwier",
+   "g": "n"
+  },
+  {
+   "key": "kiwi",
+   "locale": "no",
+   "en": "Kiwi",
+   "s": "Kiwi",
+   "p": "Kiwier",
+   "g": "m"
+  },
+  {
+   "key": "kiwi",
+   "locale": "fr",
+   "en": "Kiwi",
+   "s": "Kiwi",
+   "p": "Kiwis",
+   "g": "m"
+  },
+  {
+   "key": "kiwi",
+   "locale": "es",
+   "en": "Kiwi",
+   "s": "Kiwi",
+   "p": "Kiwis",
+   "g": "m"
+  },
+  {
+   "key": "kiwi",
+   "locale": "pt",
+   "en": "Kiwi",
+   "s": "Kiwi",
+   "p": "Kiwis",
+   "g": "m"
+  },
+  {
+   "key": "kiwi",
+   "locale": "it",
+   "en": "Kiwi",
+   "s": "Kiwi",
+   "p": "Kiwi",
+   "g": "m"
+  },
+  {
+   "key": "koala",
+   "locale": "da",
+   "en": "Koala",
+   "s": "Koala",
+   "p": "Koalaer",
+   "g": "n"
+  },
+  {
+   "key": "koala",
+   "locale": "no",
+   "en": "Koala",
+   "s": "Koala",
+   "p": "Koalaer",
+   "g": "m"
+  },
+  {
+   "key": "koala",
+   "locale": "fi",
+   "en": "Koala",
+   "s": "Koala",
+   "p": "Koalat",
+   "g": null
+  },
+  {
+   "key": "koala",
+   "locale": "fr",
+   "en": "Koala",
+   "s": "Koala",
+   "p": "Koalas",
+   "g": "m"
+  },
+  {
+   "key": "koala",
+   "locale": "es",
+   "en": "Koala",
+   "s": "Koala",
+   "p": "Koalas",
+   "g": "m"
+  },
+  {
+   "key": "koala",
+   "locale": "it",
+   "en": "Koala",
+   "s": "Koala",
+   "p": "Koala",
+   "g": "m"
+  },
+  {
+   "key": "leggings",
+   "locale": "da",
+   "en": "Leggings",
+   "s": "Leggings",
+   "p": "Leggings",
+   "g": "n"
+  },
+  {
+   "key": "leggings",
+   "locale": "es",
+   "en": "Leggings",
+   "s": "Leggings",
+   "p": "Leggings",
+   "g": "m"
+  },
+  {
+   "key": "leggings",
+   "locale": "it",
+   "en": "Leggings",
+   "s": "Leggings",
+   "p": "Leggings",
+   "g": "m"
+  },
+  {
+   "key": "lego",
+   "locale": "da",
+   "en": "Lego",
+   "s": "Lego",
+   "p": "Legoer",
+   "g": "n"
+  },
+  {
+   "key": "lego",
+   "locale": "no",
+   "en": "Lego",
+   "s": "Lego",
+   "p": "Legoer",
+   "g": "m"
+  },
+  {
+   "key": "lego",
+   "locale": "fi",
+   "en": "Lego",
+   "s": "Lego",
+   "p": "Legot",
+   "g": null
+  },
+  {
+   "key": "lego",
+   "locale": "fr",
+   "en": "Lego",
+   "s": "Lego",
+   "p": "Legos",
+   "g": "m"
+  },
+  {
+   "key": "lego",
+   "locale": "es",
+   "en": "Lego",
+   "s": "Lego",
+   "p": "Legos",
+   "g": "m"
+  },
+  {
+   "key": "lego",
+   "locale": "pt",
+   "en": "Lego",
+   "s": "Lego",
+   "p": "Legos",
+   "g": "m"
+  },
+  {
+   "key": "lego",
+   "locale": "it",
+   "en": "Lego",
+   "s": "Lego",
+   "p": "Lego",
+   "g": "m"
+  },
+  {
+   "key": "lemur",
+   "locale": "da",
+   "en": "Lemur",
+   "s": "Lemur",
+   "p": "Lemurer",
+   "g": "n"
+  },
+  {
+   "key": "lemur",
+   "locale": "no",
+   "en": "Lemur",
+   "s": "Lemur",
+   "p": "Lemurer",
+   "g": "m"
+  },
+  {
+   "key": "leopard",
+   "locale": "da",
+   "en": "Leopard",
+   "s": "Leopard",
+   "p": "Leoparder",
+   "g": "n"
+  },
+  {
+   "key": "leopard",
+   "locale": "no",
+   "en": "Leopard",
+   "s": "Leopard",
+   "p": "Leoparder",
+   "g": "m"
+  },
+  {
+   "key": "lime",
+   "locale": "da",
+   "en": "Lime",
+   "s": "Lime",
+   "p": "Lime",
+   "g": "n"
+  },
+  {
+   "key": "lime",
+   "locale": "no",
+   "en": "Lime",
+   "s": "Lime",
+   "p": "Limer",
+   "g": "m"
+  },
+  {
+   "key": "lime",
+   "locale": "it",
+   "en": "Lime",
+   "s": "Lime",
+   "p": "Lime",
+   "g": "m"
+  },
+  {
+   "key": "lion",
+   "locale": "fr",
+   "en": "Lion",
+   "s": "Lion",
+   "p": "Lions",
+   "g": "m"
+  },
+  {
+   "key": "llama",
+   "locale": "es",
+   "en": "Llama",
+   "s": "Llama",
+   "p": "Llamas",
+   "g": "f"
+  },
+  {
+   "key": "lotus",
+   "locale": "da",
+   "en": "Lotus",
+   "s": "Lotus",
+   "p": "Lotus",
+   "g": "n"
+  },
+  {
+   "key": "lotus",
+   "locale": "no",
+   "en": "Lotus",
+   "s": "Lotus",
+   "p": "Lotuser",
+   "g": "m"
+  },
+  {
+   "key": "lotus",
+   "locale": "fr",
+   "en": "Lotus",
+   "s": "Lotus",
+   "p": "Lotus",
+   "g": "m"
+  },
+  {
+   "key": "macaron",
+   "locale": "da",
+   "en": "Macaron",
+   "s": "Macaron",
+   "p": "Macarons",
+   "g": "n"
+  },
+  {
+   "key": "macaron",
+   "locale": "fi",
+   "en": "Macaron",
+   "s": "Macaron",
+   "p": "Macaronit",
+   "g": null
+  },
+  {
+   "key": "macaron",
+   "locale": "fr",
+   "en": "Macaron",
+   "s": "Macaron",
+   "p": "Macarons",
+   "g": "m"
+  },
+  {
+   "key": "macaron",
+   "locale": "pt",
+   "en": "Macaron",
+   "s": "Macaron",
+   "p": "Macarons",
+   "g": "m"
+  },
+  {
+   "key": "macaron",
+   "locale": "it",
+   "en": "Macaron",
+   "s": "Macaron",
+   "p": "Macaron",
+   "g": "m"
+  },
+  {
+   "key": "maiasaura",
+   "locale": "da",
+   "en": "Maiasaura",
+   "s": "Maiasaura",
+   "p": "Maiasauraer",
+   "g": "n"
+  },
+  {
+   "key": "maiasaura",
+   "locale": "no",
+   "en": "Maiasaura",
+   "s": "Maiasaura",
+   "p": "Maiasauraer",
+   "g": "m"
+  },
+  {
+   "key": "maiasaura",
+   "locale": "fi",
+   "en": "Maiasaura",
+   "s": "Maiasaura",
+   "p": "Maiasaurat",
+   "g": null
+  },
+  {
+   "key": "maiasaura",
+   "locale": "fr",
+   "en": "Maiasaura",
+   "s": "Maiasaura",
+   "p": "Maiasauras",
+   "g": "m"
+  },
+  {
+   "key": "maiasaura",
+   "locale": "es",
+   "en": "Maiasaura",
+   "s": "Maiasaura",
+   "p": "Maiasauras",
+   "g": "f"
+  },
+  {
+   "key": "maiasaura",
+   "locale": "it",
+   "en": "Maiasaura",
+   "s": "Maiasaura",
+   "p": "Maiasaure",
+   "g": "f"
+  },
+  {
+   "key": "mango",
+   "locale": "da",
+   "en": "Mango",
+   "s": "Mango",
+   "p": "Mangoer",
+   "g": "n"
+  },
+  {
+   "key": "mango",
+   "locale": "no",
+   "en": "Mango",
+   "s": "Mango",
+   "p": "Mangoer",
+   "g": "m"
+  },
+  {
+   "key": "mango",
+   "locale": "fi",
+   "en": "Mango",
+   "s": "Mango",
+   "p": "Mangot",
+   "g": null
+  },
+  {
+   "key": "mango",
+   "locale": "es",
+   "en": "Mango",
+   "s": "Mango",
+   "p": "Mangos",
+   "g": "m"
+  },
+  {
+   "key": "mango",
+   "locale": "it",
+   "en": "Mango",
+   "s": "Mango",
+   "p": "Manghi",
+   "g": "m"
+  },
+  {
+   "key": "melon",
+   "locale": "da",
+   "en": "Melon",
+   "s": "Melon",
+   "p": "Meloner",
+   "g": "n"
+  },
+  {
+   "key": "melon",
+   "locale": "no",
+   "en": "Melon",
+   "s": "Melon",
+   "p": "Meloner",
+   "g": "m"
+  },
+  {
+   "key": "melon",
+   "locale": "fr",
+   "en": "Melon",
+   "s": "Melon",
+   "p": "Melons",
+   "g": "m"
+  },
+  {
+   "key": "meteor",
+   "locale": "da",
+   "en": "Meteor",
+   "s": "Meteor",
+   "p": "Meteorer",
+   "g": "n"
+  },
+  {
+   "key": "meteor",
+   "locale": "no",
+   "en": "Meteor",
+   "s": "Meteor",
+   "p": "Meteorer",
+   "g": "m"
+  },
+  {
+   "key": "microphone",
+   "locale": "fr",
+   "en": "Microphone",
+   "s": "Microphone",
+   "p": "Microphones",
+   "g": "m"
+  },
+  {
+   "key": "microscope",
+   "locale": "fr",
+   "en": "Microscope",
+   "s": "Microscope",
+   "p": "Microscopes",
+   "g": "m"
+  },
+  {
+   "key": "milkshake",
+   "locale": "da",
+   "en": "Milkshake",
+   "s": "Milkshake",
+   "p": "Milkshakes",
+   "g": "n"
+  },
+  {
+   "key": "milkshake",
+   "locale": "no",
+   "en": "Milkshake",
+   "s": "Milkshake",
+   "p": "Milkshaker",
+   "g": "m"
+  },
+  {
+   "key": "milkshake",
+   "locale": "fr",
+   "en": "Milkshake",
+   "s": "Milkshake",
+   "p": "Milkshakes",
+   "g": "m"
+  },
+  {
+   "key": "milkshake",
+   "locale": "pt",
+   "en": "Milkshake",
+   "s": "Milkshake",
+   "p": "Milkshakes",
+   "g": "m"
+  },
+  {
+   "key": "minibus",
+   "locale": "da",
+   "en": "Minibus",
+   "s": "Minibus",
+   "p": "Minibusser",
+   "g": "n"
+  },
+  {
+   "key": "minibus",
+   "locale": "fr",
+   "en": "Minibus",
+   "s": "Minibus",
+   "p": "Minibus",
+   "g": "m"
+  },
+  {
+   "key": "minibus",
+   "locale": "it",
+   "en": "Minibus",
+   "s": "Minibus",
+   "p": "Minibus",
+   "g": "m"
+  },
+  {
+   "key": "monster-truck",
+   "locale": "fr",
+   "en": "Monster Truck",
+   "s": "Monster truck",
+   "p": "Monster trucks",
+   "g": "m"
+  },
+  {
+   "key": "monster-truck",
+   "locale": "it",
+   "en": "Monster Truck",
+   "s": "Monster truck",
+   "p": "Monster truck",
+   "g": "m"
+  },
+  {
+   "key": "mosasaurus",
+   "locale": "da",
+   "en": "Mosasaurus",
+   "s": "Mosasaurus",
+   "p": "Mosasauruser",
+   "g": "n"
+  },
+  {
+   "key": "mosasaurus",
+   "locale": "no",
+   "en": "Mosasaurus",
+   "s": "Mosasaurus",
+   "p": "Mosasauruser",
+   "g": "m"
+  },
+  {
+   "key": "mosasaurus",
+   "locale": "fi",
+   "en": "Mosasaurus",
+   "s": "Mosasaurus",
+   "p": "Mosasaurukset",
+   "g": null
+  },
+  {
+   "key": "mosquito",
+   "locale": "es",
+   "en": "Mosquito",
+   "s": "Mosquito",
+   "p": "Mosquitos",
+   "g": "m"
+  },
+  {
+   "key": "mosquito",
+   "locale": "pt",
+   "en": "Mosquito",
+   "s": "Mosquito",
+   "p": "Mosquitos",
+   "g": "m"
+  },
+  {
+   "key": "muffin",
+   "locale": "da",
+   "en": "Muffin",
+   "s": "Muffin",
+   "p": "Muffins",
+   "g": "n"
+  },
+  {
+   "key": "muffin",
+   "locale": "fr",
+   "en": "Muffin",
+   "s": "Muffin",
+   "p": "Muffins",
+   "g": "m"
+  },
+  {
+   "key": "muffin",
+   "locale": "es",
+   "en": "Muffin",
+   "s": "Muffin",
+   "p": "Muffins",
+   "g": "m"
+  },
+  {
+   "key": "muffin",
+   "locale": "pt",
+   "en": "Muffin",
+   "s": "Muffin",
+   "p": "Muffins",
+   "g": "m"
+  },
+  {
+   "key": "muffin",
+   "locale": "it",
+   "en": "Muffin",
+   "s": "Muffin",
+   "p": "Muffin",
+   "g": "m"
+  },
+  {
+   "key": "museum",
+   "locale": "da",
+   "en": "Museum",
+   "s": "Museum",
+   "p": "Museer",
+   "g": "t"
+  },
+  {
+   "key": "museum",
+   "locale": "no",
+   "en": "Museum",
+   "s": "Museum",
+   "p": "Museer",
+   "g": "n"
+  },
+  {
+   "key": "nectarine",
+   "locale": "fr",
+   "en": "Nectarine",
+   "s": "Nectarine",
+   "p": "Nectarines",
+   "g": "f"
+  },
+  {
+   "key": "net",
+   "locale": "da",
+   "en": "Net",
+   "s": "Net",
+   "p": "Net",
+   "g": "t"
+  },
+  {
+   "key": "orange",
+   "locale": "fr",
+   "en": "Orange",
+   "s": "Orange",
+   "p": "Oranges",
+   "g": "f"
+  },
+  {
+   "key": "orca",
+   "locale": "es",
+   "en": "Orca",
+   "s": "Orca",
+   "p": "Orcas",
+   "g": "f"
+  },
+  {
+   "key": "orca",
+   "locale": "pt",
+   "en": "Orca",
+   "s": "Orca",
+   "p": "Orcas",
+   "g": "f"
+  },
+  {
+   "key": "orca",
+   "locale": "it",
+   "en": "Orca",
+   "s": "Orca",
+   "p": "Orche",
+   "g": "f"
+  },
+  {
+   "key": "oval",
+   "locale": "da",
+   "en": "Oval",
+   "s": "Oval",
+   "p": "Ovaler",
+   "g": "n"
+  },
+  {
+   "key": "oval",
+   "locale": "no",
+   "en": "Oval",
+   "s": "Oval",
+   "p": "Ovaler",
+   "g": "m"
+  },
+  {
+   "key": "oval",
+   "locale": "pt",
+   "en": "Oval",
+   "s": "Oval",
+   "p": "Ovais",
+   "g": "m"
+  },
+  {
+   "key": "overalls",
+   "locale": "da",
+   "en": "Overalls",
+   "s": "Overalls",
+   "p": "Overaller",
+   "g": "n"
+  },
+  {
+   "key": "oviraptor",
+   "locale": "da",
+   "en": "Oviraptor",
+   "s": "Oviraptor",
+   "p": "Oviraptorer",
+   "g": "n"
+  },
+  {
+   "key": "oviraptor",
+   "locale": "no",
+   "en": "Oviraptor",
+   "s": "Oviraptor",
+   "p": "Oviraptorer",
+   "g": "m"
+  },
+  {
+   "key": "oviraptor",
+   "locale": "fi",
+   "en": "Oviraptor",
+   "s": "Oviraptor",
+   "p": "Oviraptorit",
+   "g": null
+  },
+  {
+   "key": "oviraptor",
+   "locale": "fr",
+   "en": "Oviraptor",
+   "s": "Oviraptor",
+   "p": "Oviraptors",
+   "g": "m"
+  },
+  {
+   "key": "oviraptor",
+   "locale": "es",
+   "en": "Oviraptor",
+   "s": "Oviraptor",
+   "p": "Oviraptores",
+   "g": "m"
+  },
+  {
+   "key": "oviraptor",
+   "locale": "pt",
+   "en": "Oviraptor",
+   "s": "Oviraptor",
+   "p": "Oviraptores",
+   "g": "m"
+  },
+  {
+   "key": "oviraptor",
+   "locale": "it",
+   "en": "Oviraptor",
+   "s": "Oviraptor",
+   "p": "Oviraptor",
+   "g": "m"
+  },
+  {
+   "key": "pachycephalosaurus",
+   "locale": "da",
+   "en": "Pachycephalosaurus",
+   "s": "Pachycephalosaurus",
+   "p": "Pachycephalosauruser",
+   "g": "n"
+  },
+  {
+   "key": "pachycephalosaurus",
+   "locale": "no",
+   "en": "Pachycephalosaurus",
+   "s": "Pachycephalosaurus",
+   "p": "Pachycephalosauruser",
+   "g": "m"
+  },
+  {
+   "key": "pachycephalosaurus",
+   "locale": "fi",
+   "en": "Pachycephalosaurus",
+   "s": "Pachycephalosaurus",
+   "p": "Pachycephalosaurukset",
+   "g": null
+  },
+  {
+   "key": "palette",
+   "locale": "fr",
+   "en": "Palette",
+   "s": "Palette",
+   "p": "Palettes",
+   "g": "f"
+  },
+  {
+   "key": "pancake",
+   "locale": "it",
+   "en": "Pancake",
+   "s": "Pancake",
+   "p": "Pancake",
+   "g": "m"
+  },
+  {
+   "key": "panda",
+   "locale": "da",
+   "en": "Panda",
+   "s": "Panda",
+   "p": "Pandaer",
+   "g": "n"
+  },
+  {
+   "key": "panda",
+   "locale": "no",
+   "en": "Panda",
+   "s": "Panda",
+   "p": "Pandaer",
+   "g": "m"
+  },
+  {
+   "key": "panda",
+   "locale": "fi",
+   "en": "Panda",
+   "s": "Panda",
+   "p": "Pandat",
+   "g": null
+  },
+  {
+   "key": "panda",
+   "locale": "fr",
+   "en": "Panda",
+   "s": "Panda",
+   "p": "Pandas",
+   "g": "m"
+  },
+  {
+   "key": "panda",
+   "locale": "es",
+   "en": "Panda",
+   "s": "Panda",
+   "p": "Pandas",
+   "g": "m"
+  },
+  {
+   "key": "panda",
+   "locale": "pt",
+   "en": "Panda",
+   "s": "Panda",
+   "p": "Pandas",
+   "g": "m"
+  },
+  {
+   "key": "panda",
+   "locale": "it",
+   "en": "Panda",
+   "s": "Panda",
+   "p": "Panda",
+   "g": "m"
+  },
+  {
+   "key": "papaya",
+   "locale": "da",
+   "en": "Papaya",
+   "s": "Papaya",
+   "p": "Papayaer",
+   "g": "n"
+  },
+  {
+   "key": "papaya",
+   "locale": "no",
+   "en": "Papaya",
+   "s": "Papaya",
+   "p": "Papayaer",
+   "g": "m"
+  },
+  {
+   "key": "papaya",
+   "locale": "es",
+   "en": "Papaya",
+   "s": "Papaya",
+   "p": "Papayas",
+   "g": "f"
+  },
+  {
+   "key": "papaya",
+   "locale": "it",
+   "en": "Papaya",
+   "s": "Papaya",
+   "p": "Papaye",
+   "g": "f"
+  },
+  {
+   "key": "parallelogram",
+   "locale": "da",
+   "en": "Parallelogram",
+   "s": "Parallelogram",
+   "p": "Parallelogrammer",
+   "g": "t"
+  },
+  {
+   "key": "parasaurolophus",
+   "locale": "da",
+   "en": "Parasaurolophus",
+   "s": "Parasaurolophus",
+   "p": "Parasaurolophuse",
+   "g": "t"
+  },
+  {
+   "key": "parasaurolophus",
+   "locale": "no",
+   "en": "Parasaurolophus",
+   "s": "Parasaurolophus",
+   "p": "Parasaurolophus",
+   "g": "n"
+  },
+  {
+   "key": "parasaurolophus",
+   "locale": "fi",
+   "en": "Parasaurolophus",
+   "s": "Parasaurolophus",
+   "p": "Parasaurolophukset",
+   "g": null
+  },
+  {
+   "key": "parasaurolophus",
+   "locale": "fr",
+   "en": "Parasaurolophus",
+   "s": "Parasaurolophus",
+   "p": "Parasaurolophus",
+   "g": "m"
+  },
+  {
+   "key": "parasol",
+   "locale": "da",
+   "en": "Parasol",
+   "s": "Parasol",
+   "p": "Parasoller",
+   "g": "n"
+  },
+  {
+   "key": "parasol",
+   "locale": "fr",
+   "en": "Parasol",
+   "s": "Parasol",
+   "p": "Parasols",
+   "g": "m"
+  },
+  {
+   "key": "pegasus",
+   "locale": "da",
+   "en": "Pegasus",
+   "s": "Pegasus",
+   "p": "Pegasusser",
+   "g": "n"
+  },
+  {
+   "key": "pegasus",
+   "locale": "no",
+   "en": "Pegasus",
+   "s": "Pegasus",
+   "p": "Pegasuser",
+   "g": "m"
+  },
+  {
+   "key": "pen",
+   "locale": "da",
+   "en": "Pen",
+   "s": "Pen",
+   "p": "Penne",
+   "g": "n"
+  },
+  {
+   "key": "perfume",
+   "locale": "es",
+   "en": "Perfume",
+   "s": "Perfume",
+   "p": "Perfumes",
+   "g": "m"
+  },
+  {
+   "key": "perfume",
+   "locale": "pt",
+   "en": "Perfume",
+   "s": "Perfume",
+   "p": "Perfumes",
+   "g": "m"
+  },
+  {
+   "key": "petunia",
+   "locale": "da",
+   "en": "Petunia",
+   "s": "Petunia",
+   "p": "Petuniaer",
+   "g": "n"
+  },
+  {
+   "key": "petunia",
+   "locale": "no",
+   "en": "Petunia",
+   "s": "Petunia",
+   "p": "Petuniaer",
+   "g": "m"
+  },
+  {
+   "key": "petunia",
+   "locale": "fi",
+   "en": "Petunia",
+   "s": "Petunia",
+   "p": "Petuniat",
+   "g": null
+  },
+  {
+   "key": "petunia",
+   "locale": "es",
+   "en": "Petunia",
+   "s": "Petunia",
+   "p": "Petunias",
+   "g": "f"
+  },
+  {
+   "key": "petunia",
+   "locale": "it",
+   "en": "Petunia",
+   "s": "Petunia",
+   "p": "Petunie",
+   "g": "f"
+  },
+  {
+   "key": "phlox",
+   "locale": "fr",
+   "en": "Phlox",
+   "s": "Phlox",
+   "p": "Phlox",
+   "g": "m"
+  },
+  {
+   "key": "piano",
+   "locale": "no",
+   "en": "Piano",
+   "s": "Piano",
+   "p": "Pianoer",
+   "g": "n"
+  },
+  {
+   "key": "piano",
+   "locale": "fi",
+   "en": "Piano",
+   "s": "Piano",
+   "p": "Pianot",
+   "g": null
+  },
+  {
+   "key": "piano",
+   "locale": "fr",
+   "en": "Piano",
+   "s": "Piano",
+   "p": "Pianos",
+   "g": "m"
+  },
+  {
+   "key": "piano",
+   "locale": "es",
+   "en": "Piano",
+   "s": "Piano",
+   "p": "Pianos",
+   "g": "m"
+  },
+  {
+   "key": "piano",
+   "locale": "pt",
+   "en": "Piano",
+   "s": "Piano",
+   "p": "Pianos",
+   "g": "m"
+  },
+  {
+   "key": "picnic",
+   "locale": "da",
+   "en": "Picnic",
+   "s": "Picnic",
+   "p": "Picnicer",
+   "g": "n"
+  },
+  {
+   "key": "picnic",
+   "locale": "es",
+   "en": "Picnic",
+   "s": "Picnic",
+   "p": "Picnics",
+   "g": "m"
+  },
+  {
+   "key": "picnic",
+   "locale": "it",
+   "en": "Picnic",
+   "s": "Picnic",
+   "p": "Picnic",
+   "g": "m"
+  },
+  {
+   "key": "pigeon",
+   "locale": "fr",
+   "en": "Pigeon",
+   "s": "Pigeon",
+   "p": "Pigeons",
+   "g": "m"
+  },
+  {
+   "key": "pilot",
+   "locale": "da",
+   "en": "Pilot",
+   "s": "Pilot",
+   "p": "Piloter",
+   "g": "n"
+  },
+  {
+   "key": "pilot",
+   "locale": "no",
+   "en": "Pilot",
+   "s": "Pilot",
+   "p": "Piloter",
+   "g": "m"
+  },
+  {
+   "key": "pizza",
+   "locale": "da",
+   "en": "Pizza",
+   "s": "Pizza",
+   "p": "Pizzaer",
+   "g": "n"
+  },
+  {
+   "key": "pizza",
+   "locale": "no",
+   "en": "Pizza",
+   "s": "Pizza",
+   "p": "Pizzaer",
+   "g": "m"
+  },
+  {
+   "key": "pizza",
+   "locale": "fi",
+   "en": "Pizza",
+   "s": "Pizza",
+   "p": "Pizzat",
+   "g": null
+  },
+  {
+   "key": "pizza",
+   "locale": "fr",
+   "en": "Pizza",
+   "s": "Pizza",
+   "p": "Pizzas",
+   "g": "f"
+  },
+  {
+   "key": "pizza",
+   "locale": "es",
+   "en": "Pizza",
+   "s": "Pizza",
+   "p": "Pizzas",
+   "g": "f"
+  },
+  {
+   "key": "pizza",
+   "locale": "pt",
+   "en": "Pizza",
+   "s": "Pizza",
+   "p": "Pizzas",
+   "g": "f"
+  },
+  {
+   "key": "pizza",
+   "locale": "it",
+   "en": "Pizza",
+   "s": "Pizza",
+   "p": "Pizze",
+   "g": "f"
+  },
+  {
+   "key": "planet",
+   "locale": "da",
+   "en": "Planet",
+   "s": "Planet",
+   "p": "Planeter",
+   "g": "n"
+  },
+  {
+   "key": "planet",
+   "locale": "no",
+   "en": "Planet",
+   "s": "Planet",
+   "p": "Planeter",
+   "g": "m"
+  },
+  {
+   "key": "plesiosaurus",
+   "locale": "da",
+   "en": "Plesiosaurus",
+   "s": "Plesiosaurus",
+   "p": "Plesiosauruser",
+   "g": "n"
+  },
+  {
+   "key": "plesiosaurus",
+   "locale": "no",
+   "en": "Plesiosaurus",
+   "s": "Plesiosaurus",
+   "p": "Plesiosauruser",
+   "g": "m"
+  },
+  {
+   "key": "plesiosaurus",
+   "locale": "fi",
+   "en": "Plesiosaurus",
+   "s": "Plesiosaurus",
+   "p": "Plesiosaurukset",
+   "g": null
+  },
+  {
+   "key": "pony",
+   "locale": "da",
+   "en": "Pony",
+   "s": "Pony",
+   "p": "Ponyer",
+   "g": "n"
+  },
+  {
+   "key": "pony",
+   "locale": "it",
+   "en": "Pony",
+   "s": "Pony",
+   "p": "Pony",
+   "g": "m"
+  },
+  {
+   "key": "pretzel",
+   "locale": "es",
+   "en": "Pretzel",
+   "s": "Pretzel",
+   "p": "Pretzeles",
+   "g": "m"
+  },
+  {
+   "key": "pretzel",
+   "locale": "pt",
+   "en": "Pretzel",
+   "s": "Pretzel",
+   "p": "Pretzels",
+   "g": "m"
+  },
+  {
+   "key": "pretzel",
+   "locale": "it",
+   "en": "Pretzel",
+   "s": "Pretzel",
+   "p": "Pretzel",
+   "g": "m"
+  },
+  {
+   "key": "pudding",
+   "locale": "no",
+   "en": "Pudding",
+   "s": "Pudding",
+   "p": "Puddinger",
+   "g": "m"
+  },
+  {
+   "key": "pudding",
+   "locale": "fr",
+   "en": "Pudding",
+   "s": "Pudding",
+   "p": "Puddings",
+   "g": "m"
+  },
+  {
+   "key": "puzzle",
+   "locale": "fr",
+   "en": "Puzzle",
+   "s": "Puzzle",
+   "p": "Puzzles",
+   "g": "m"
+  },
+  {
+   "key": "puzzle",
+   "locale": "it",
+   "en": "Puzzle",
+   "s": "Puzzle",
+   "p": "Puzzle",
+   "g": "m"
+  },
+  {
+   "key": "rake",
+   "locale": "no",
+   "en": "Rake",
+   "s": "Rake",
+   "p": "Raker",
+   "g": "m"
+  },
+  {
+   "key": "rectangle",
+   "locale": "fr",
+   "en": "Rectangle",
+   "s": "Rectangle",
+   "p": "Rectangles",
+   "g": "m"
+  },
+  {
+   "key": "ring",
+   "locale": "da",
+   "en": "Ring",
+   "s": "Ring",
+   "p": "Ringer",
+   "g": "n"
+  },
+  {
+   "key": "ring",
+   "locale": "no",
+   "en": "Ring",
+   "s": "Ring",
+   "p": "Ringer",
+   "g": "m"
+  },
+  {
+   "key": "robot",
+   "locale": "da",
+   "en": "Robot",
+   "s": "Robot",
+   "p": "Robotter",
+   "g": "n"
+  },
+  {
+   "key": "robot",
+   "locale": "no",
+   "en": "Robot",
+   "s": "Robot",
+   "p": "Roboter",
+   "g": "m"
+  },
+  {
+   "key": "robot",
+   "locale": "fr",
+   "en": "Robot",
+   "s": "Robot",
+   "p": "Robots",
+   "g": "m"
+  },
+  {
+   "key": "robot",
+   "locale": "es",
+   "en": "Robot",
+   "s": "Robot",
+   "p": "Robots",
+   "g": "m"
+  },
+  {
+   "key": "robot",
+   "locale": "it",
+   "en": "Robot",
+   "s": "Robot",
+   "p": "Robot",
+   "g": "m"
+  },
+  {
+   "key": "rose",
+   "locale": "da",
+   "en": "Rose",
+   "s": "Rose",
+   "p": "Roser",
+   "g": "n"
+  },
+  {
+   "key": "rose",
+   "locale": "no",
+   "en": "Rose",
+   "s": "Rose",
+   "p": "Roser",
+   "g": "m"
+  },
+  {
+   "key": "rose",
+   "locale": "fr",
+   "en": "Rose",
+   "s": "Rose",
+   "p": "Roses",
+   "g": "f"
+  },
+  {
+   "key": "rosette",
+   "locale": "fr",
+   "en": "Rosette",
+   "s": "Rosette",
+   "p": "Rosettes",
+   "g": "f"
+  },
+  {
+   "key": "rudolph",
+   "locale": "fr",
+   "en": "Rudolph",
+   "s": "Rudolph",
+   "p": "Rudolphs",
+   "g": "m"
+  },
+  {
+   "key": "rudolph",
+   "locale": "pt",
+   "en": "Rudolph",
+   "s": "Rudolph",
+   "p": "Rudolphs",
+   "g": "m"
+  },
+  {
+   "key": "rudolph",
+   "locale": "it",
+   "en": "Rudolph",
+   "s": "Rudolph",
+   "p": "Rudolph",
+   "g": "m"
+  },
+  {
+   "key": "salamander",
+   "locale": "da",
+   "en": "Salamander",
+   "s": "Salamander",
+   "p": "Salamandere",
+   "g": "n"
+  },
+  {
+   "key": "salamander",
+   "locale": "no",
+   "en": "Salamander",
+   "s": "Salamander",
+   "p": "Salamandere",
+   "g": "m"
+  },
+  {
+   "key": "salt",
+   "locale": "da",
+   "en": "Salt",
+   "s": "Salt",
+   "p": "Salt",
+   "g": "t"
+  },
+  {
+   "key": "salt",
+   "locale": "no",
+   "en": "Salt",
+   "s": "Salt",
+   "p": "Salt",
+   "g": "n"
+  },
+  {
+   "key": "sandwich",
+   "locale": "da",
+   "en": "Sandwich",
+   "s": "Sandwich",
+   "p": "Sandwicher",
+   "g": "n"
+  },
+  {
+   "key": "sandwich",
+   "locale": "no",
+   "en": "Sandwich",
+   "s": "Sandwich",
+   "p": "Sandwicher",
+   "g": "m"
+  },
+  {
+   "key": "sandwich",
+   "locale": "fr",
+   "en": "Sandwich",
+   "s": "Sandwich",
+   "p": "Sandwichs",
+   "g": "m"
+  },
+  {
+   "key": "santa-claus",
+   "locale": "es",
+   "en": "Santa Claus",
+   "s": "Santa Claus",
+   "p": "Santas Claus",
+   "g": "f"
+  },
+  {
+   "key": "satellite",
+   "locale": "fr",
+   "en": "Satellite",
+   "s": "Satellite",
+   "p": "Satellites",
+   "g": "m"
+  },
+  {
+   "key": "satellite",
+   "locale": "it",
+   "en": "Satellite",
+   "s": "Satellite",
+   "p": "Satelliti",
+   "g": "m"
+  },
+  {
+   "key": "sauce",
+   "locale": "fr",
+   "en": "Sauce",
+   "s": "Sauce",
+   "p": "Sauces",
+   "g": "f"
+  },
+  {
+   "key": "saxophone",
+   "locale": "fr",
+   "en": "Saxophone",
+   "s": "Saxophone",
+   "p": "Saxophones",
+   "g": "m"
+  },
+  {
+   "key": "scooter",
+   "locale": "es",
+   "en": "Scooter",
+   "s": "Scooter",
+   "p": "Scooteres",
+   "g": "m"
+  },
+  {
+   "key": "shampoo",
+   "locale": "da",
+   "en": "Shampoo",
+   "s": "Shampoo",
+   "p": "Shampooer",
+   "g": "n"
+  },
+  {
+   "key": "shampoo",
+   "locale": "fi",
+   "en": "Shampoo",
+   "s": "Shampoo",
+   "p": "Shampoot",
+   "g": null
+  },
+  {
+   "key": "shampoo",
+   "locale": "it",
+   "en": "Shampoo",
+   "s": "Shampoo",
+   "p": "Shampoo",
+   "g": "m"
+  },
+  {
+   "key": "shorts",
+   "locale": "da",
+   "en": "Shorts",
+   "s": "Shorts",
+   "p": "Shorts",
+   "g": "n"
+  },
+  {
+   "key": "shorts",
+   "locale": "no",
+   "en": "Shorts",
+   "s": "Shorts",
+   "p": "Shorts",
+   "g": "m"
+  },
+  {
+   "key": "shorts",
+   "locale": "es",
+   "en": "Shorts",
+   "s": "Shorts",
+   "p": "Shorts",
+   "g": "m"
+  },
+  {
+   "key": "shorts",
+   "locale": "pt",
+   "en": "Shorts",
+   "s": "Shorts",
+   "p": "Shorts",
+   "g": "m"
+  },
+  {
+   "key": "skateboard",
+   "locale": "da",
+   "en": "Skateboard",
+   "s": "Skateboard",
+   "p": "Skateboards",
+   "g": "t"
+  },
+  {
+   "key": "skateboard",
+   "locale": "no",
+   "en": "Skateboard",
+   "s": "Skateboard",
+   "p": "Skateboarder",
+   "g": "m"
+  },
+  {
+   "key": "skateboard",
+   "locale": "fr",
+   "en": "Skateboard",
+   "s": "Skateboard",
+   "p": "Skateboards",
+   "g": "m"
+  },
+  {
+   "key": "skateboard",
+   "locale": "it",
+   "en": "Skateboard",
+   "s": "Skateboard",
+   "p": "Skateboard",
+   "g": "m"
+  },
+  {
+   "key": "smartphone",
+   "locale": "da",
+   "en": "Smartphone",
+   "s": "Smartphone",
+   "p": "Smartphones",
+   "g": "n"
+  },
+  {
+   "key": "smartphone",
+   "locale": "fr",
+   "en": "Smartphone",
+   "s": "Smartphone",
+   "p": "Smartphones",
+   "g": "m"
+  },
+  {
+   "key": "smartphone",
+   "locale": "it",
+   "en": "Smartphone",
+   "s": "Smartphone",
+   "p": "Smartphone",
+   "g": "m"
+  },
+  {
+   "key": "smartwatch",
+   "locale": "da",
+   "en": "Smartwatch",
+   "s": "Smartwatch",
+   "p": "Smartwatcher",
+   "g": "n"
+  },
+  {
+   "key": "smartwatch",
+   "locale": "it",
+   "en": "Smartwatch",
+   "s": "Smartwatch",
+   "p": "Smartwatch",
+   "g": "m"
+  },
+  {
+   "key": "smoothie",
+   "locale": "da",
+   "en": "Smoothie",
+   "s": "Smoothie",
+   "p": "Smoothier",
+   "g": "n"
+  },
+  {
+   "key": "smoothie",
+   "locale": "no",
+   "en": "Smoothie",
+   "s": "Smoothie",
+   "p": "Smoothier",
+   "g": "m"
+  },
+  {
+   "key": "smoothie",
+   "locale": "fi",
+   "en": "Smoothie",
+   "s": "Smoothie",
+   "p": "Smoothiet",
+   "g": null
+  },
+  {
+   "key": "smoothie",
+   "locale": "fr",
+   "en": "Smoothie",
+   "s": "Smoothie",
+   "p": "Smoothies",
+   "g": "m"
+  },
+  {
+   "key": "sneaker",
+   "locale": "da",
+   "en": "Sneaker",
+   "s": "Sneaker",
+   "p": "Sneakers",
+   "g": "n"
+  },
+  {
+   "key": "sneaker",
+   "locale": "it",
+   "en": "Sneaker",
+   "s": "Sneaker",
+   "p": "Sneaker",
+   "g": "m"
+  },
+  {
+   "key": "snorkel",
+   "locale": "da",
+   "en": "Snorkel",
+   "s": "Snorkel",
+   "p": "Snorkler",
+   "g": "n"
+  },
+  {
+   "key": "snorkel",
+   "locale": "no",
+   "en": "Snorkel",
+   "s": "Snorkel",
+   "p": "Snorkler",
+   "g": "m"
+  },
+  {
+   "key": "snorkel",
+   "locale": "es",
+   "en": "Snorkel",
+   "s": "Snorkel",
+   "p": "Snorkeles",
+   "g": "m"
+  },
+  {
+   "key": "snorkel",
+   "locale": "pt",
+   "en": "Snorkel",
+   "s": "Snorkel",
+   "p": "Snorkels",
+   "g": "m"
+  },
+  {
+   "key": "soda",
+   "locale": "fr",
+   "en": "Soda",
+   "s": "Soda",
+   "p": "Sodas",
+   "g": "m"
+  },
+  {
+   "key": "sofa",
+   "locale": "da",
+   "en": "Sofa",
+   "s": "Sofa",
+   "p": "Sofaer",
+   "g": "n"
+  },
+  {
+   "key": "sofa",
+   "locale": "no",
+   "en": "Sofa",
+   "s": "Sofa",
+   "p": "Sofaer",
+   "g": "m"
+  },
+  {
+   "key": "sofa",
+   "locale": "fr",
+   "en": "Sofa",
+   "s": "Sofa",
+   "p": "Sofas",
+   "g": "m"
+  },
+  {
+   "key": "spade",
+   "locale": "no",
+   "en": "Spade",
+   "s": "Spade",
+   "p": "Spader",
+   "g": "m"
+  },
+  {
+   "key": "spray",
+   "locale": "da",
+   "en": "Spray",
+   "s": "Spray",
+   "p": "Sprayer",
+   "g": "n"
+  },
+  {
+   "key": "spray",
+   "locale": "no",
+   "en": "Spray",
+   "s": "Spray",
+   "p": "Sprayer",
+   "g": "m"
+  },
+  {
+   "key": "spray",
+   "locale": "fr",
+   "en": "Spray",
+   "s": "Spray",
+   "p": "Sprays",
+   "g": "m"
+  },
+  {
+   "key": "spray",
+   "locale": "pt",
+   "en": "Spray",
+   "s": "Spray",
+   "p": "Sprays",
+   "g": "m"
+  },
+  {
+   "key": "spray",
+   "locale": "it",
+   "en": "Spray",
+   "s": "Spray",
+   "p": "Spray",
+   "g": "m"
+  },
+  {
+   "key": "squash",
+   "locale": "da",
+   "en": "Squash",
+   "s": "Squash",
+   "p": "Squasher",
+   "g": "n"
+  },
+  {
+   "key": "squash",
+   "locale": "no",
+   "en": "Squash",
+   "s": "Squash",
+   "p": "Squasher",
+   "g": "m"
+  },
+  {
+   "key": "statue",
+   "locale": "da",
+   "en": "Statue",
+   "s": "Statue",
+   "p": "Statuer",
+   "g": "n"
+  },
+  {
+   "key": "statue",
+   "locale": "no",
+   "en": "Statue",
+   "s": "Statue",
+   "p": "Statuer",
+   "g": "m"
+  },
+  {
+   "key": "statue",
+   "locale": "fr",
+   "en": "Statue",
+   "s": "Statue",
+   "p": "Statues",
+   "g": "f"
+  },
+  {
+   "key": "stegosaurus",
+   "locale": "da",
+   "en": "Stegosaurus",
+   "s": "Stegosaurus",
+   "p": "Stegosauruser",
+   "g": "n"
+  },
+  {
+   "key": "stegosaurus",
+   "locale": "no",
+   "en": "Stegosaurus",
+   "s": "Stegosaurus",
+   "p": "Stegosauruser",
+   "g": "m"
+  },
+  {
+   "key": "stegosaurus",
+   "locale": "fi",
+   "en": "Stegosaurus",
+   "s": "Stegosaurus",
+   "p": "Stegosaurukset",
+   "g": null
+  },
+  {
+   "key": "stork",
+   "locale": "da",
+   "en": "Stork",
+   "s": "Stork",
+   "p": "Storke",
+   "g": "n"
+  },
+  {
+   "key": "stork",
+   "locale": "no",
+   "en": "Stork",
+   "s": "Stork",
+   "p": "Storker",
+   "g": "m"
+  },
+  {
+   "key": "styracosaurus",
+   "locale": "da",
+   "en": "Styracosaurus",
+   "s": "Styracosaurus",
+   "p": "Styracosauruser",
+   "g": "n"
+  },
+  {
+   "key": "styracosaurus",
+   "locale": "no",
+   "en": "Styracosaurus",
+   "s": "Styracosaurus",
+   "p": "Styracosauruser",
+   "g": "m"
+  },
+  {
+   "key": "styracosaurus",
+   "locale": "fi",
+   "en": "Styracosaurus",
+   "s": "Styracosaurus",
+   "p": "Styracosaurukset",
+   "g": null
+  },
+  {
+   "key": "sundae",
+   "locale": "es",
+   "en": "Sundae",
+   "s": "Sundae",
+   "p": "Sundaes",
+   "g": "m"
+  },
+  {
+   "key": "sundae",
+   "locale": "pt",
+   "en": "Sundae",
+   "s": "Sundae",
+   "p": "Sundaes",
+   "g": "m"
+  },
+  {
+   "key": "suv",
+   "locale": "da",
+   "en": "SUV",
+   "s": "SUV",
+   "p": "SUVer",
+   "g": "n"
+  },
+  {
+   "key": "suv",
+   "locale": "no",
+   "en": "SUV",
+   "s": "SUV",
+   "p": "SUVer",
+   "g": "m"
+  },
+  {
+   "key": "suv",
+   "locale": "fr",
+   "en": "SUV",
+   "s": "SUV",
+   "p": "SUVs",
+   "g": "m"
+  },
+  {
+   "key": "suv",
+   "locale": "es",
+   "en": "SUV",
+   "s": "SUV",
+   "p": "SUVes",
+   "g": "m"
+  },
+  {
+   "key": "suv",
+   "locale": "pt",
+   "en": "SUV",
+   "s": "SUV",
+   "p": "SUVs",
+   "g": "m"
+  },
+  {
+   "key": "suv",
+   "locale": "it",
+   "en": "SUV",
+   "s": "SUV",
+   "p": "SUV",
+   "g": "m"
+  },
+  {
+   "key": "sweater",
+   "locale": "da",
+   "en": "Sweater",
+   "s": "Sweater",
+   "p": "Sweatere",
+   "g": "n"
+  },
+  {
+   "key": "sweatshirt",
+   "locale": "da",
+   "en": "Sweatshirt",
+   "s": "Sweatshirt",
+   "p": "Sweatshirts",
+   "g": "n"
+  },
+  {
+   "key": "t-rex",
+   "locale": "da",
+   "en": "T-Rex",
+   "s": "T-Rex",
+   "p": "T-Rexer",
+   "g": "n"
+  },
+  {
+   "key": "t-rex",
+   "locale": "no",
+   "en": "T-Rex",
+   "s": "T-Rex",
+   "p": "T-Rexer",
+   "g": "m"
+  },
+  {
+   "key": "t-rex",
+   "locale": "fi",
+   "en": "T-Rex",
+   "s": "T-Rex",
+   "p": "T-Rexit",
+   "g": null
+  },
+  {
+   "key": "t-rex",
+   "locale": "fr",
+   "en": "T-Rex",
+   "s": "T-Rex",
+   "p": "T-Rex",
+   "g": "m"
+  },
+  {
+   "key": "t-rex",
+   "locale": "it",
+   "en": "T-Rex",
+   "s": "T-Rex",
+   "p": "T-Rex",
+   "g": "m"
+  },
+  {
+   "key": "t-shirt",
+   "locale": "da",
+   "en": "T-Shirt",
+   "s": "T-shirt",
+   "p": "T-shirts",
+   "g": "n"
+  },
+  {
+   "key": "t-shirt",
+   "locale": "fr",
+   "en": "T-Shirt",
+   "s": "T-shirt",
+   "p": "T-shirts",
+   "g": "m"
+  },
+  {
+   "key": "table",
+   "locale": "fr",
+   "en": "Table",
+   "s": "Table",
+   "p": "Tables",
+   "g": "f"
+  },
+  {
+   "key": "tablet",
+   "locale": "da",
+   "en": "Tablet",
+   "s": "Tablet",
+   "p": "Tabletter",
+   "g": "n"
+  },
+  {
+   "key": "tablet",
+   "locale": "pt",
+   "en": "Tablet",
+   "s": "Tablet",
+   "p": "Tablets",
+   "g": "m"
+  },
+  {
+   "key": "tablet",
+   "locale": "it",
+   "en": "Tablet",
+   "s": "Tablet",
+   "p": "Tablet",
+   "g": "m"
+  },
+  {
+   "key": "taco",
+   "locale": "da",
+   "en": "Taco",
+   "s": "Taco",
+   "p": "Tacoer",
+   "g": "n"
+  },
+  {
+   "key": "taco",
+   "locale": "no",
+   "en": "Taco",
+   "s": "Taco",
+   "p": "Tacoer",
+   "g": "m"
+  },
+  {
+   "key": "taco",
+   "locale": "fi",
+   "en": "Taco",
+   "s": "Taco",
+   "p": "Tacot",
+   "g": null
+  },
+  {
+   "key": "taco",
+   "locale": "fr",
+   "en": "Taco",
+   "s": "Taco",
+   "p": "Tacos",
+   "g": "m"
+  },
+  {
+   "key": "taco",
+   "locale": "es",
+   "en": "Taco",
+   "s": "Taco",
+   "p": "Tacos",
+   "g": "m"
+  },
+  {
+   "key": "taco",
+   "locale": "pt",
+   "en": "Taco",
+   "s": "Taco",
+   "p": "Tacos",
+   "g": "m"
+  },
+  {
+   "key": "taco",
+   "locale": "it",
+   "en": "Taco",
+   "s": "Taco",
+   "p": "Taco",
+   "g": "m"
+  },
+  {
+   "key": "tank",
+   "locale": "da",
+   "en": "Tank",
+   "s": "Tank",
+   "p": "Tanke",
+   "g": "n"
+  },
+  {
+   "key": "tape",
+   "locale": "da",
+   "en": "Tape",
+   "s": "Tape",
+   "p": "Taper",
+   "g": "n"
+  },
+  {
+   "key": "taxi",
+   "locale": "fr",
+   "en": "Taxi",
+   "s": "Taxi",
+   "p": "Taxis",
+   "g": "m"
+  },
+  {
+   "key": "taxi",
+   "locale": "es",
+   "en": "Taxi",
+   "s": "Taxi",
+   "p": "Taxis",
+   "g": "m"
+  },
+  {
+   "key": "taxi",
+   "locale": "it",
+   "en": "Taxi",
+   "s": "Taxi",
+   "p": "Taxi",
+   "g": "m"
+  },
+  {
+   "key": "therizinosaurus",
+   "locale": "da",
+   "en": "Therizinosaurus",
+   "s": "Therizinosaurus",
+   "p": "Therizinosauruser",
+   "g": "n"
+  },
+  {
+   "key": "therizinosaurus",
+   "locale": "no",
+   "en": "Therizinosaurus",
+   "s": "Therizinosaurus",
+   "p": "Therizinosauruser",
+   "g": "m"
+  },
+  {
+   "key": "therizinosaurus",
+   "locale": "fi",
+   "en": "Therizinosaurus",
+   "s": "Therizinosaurus",
+   "p": "Therizinosaurukset",
+   "g": null
+  },
+  {
+   "key": "tiara",
+   "locale": "da",
+   "en": "Tiara",
+   "s": "Tiara",
+   "p": "Tiaraer",
+   "g": "n"
+  },
+  {
+   "key": "tiara",
+   "locale": "no",
+   "en": "Tiara",
+   "s": "Tiara",
+   "p": "Tiaraer",
+   "g": "m"
+  },
+  {
+   "key": "tiara",
+   "locale": "fi",
+   "en": "Tiara",
+   "s": "Tiara",
+   "p": "Tiarat",
+   "g": null
+  },
+  {
+   "key": "tiara",
+   "locale": "es",
+   "en": "Tiara",
+   "s": "Tiara",
+   "p": "Tiaras",
+   "g": "f"
+  },
+  {
+   "key": "tiara",
+   "locale": "pt",
+   "en": "Tiara",
+   "s": "Tiara",
+   "p": "Tiaras",
+   "g": "f"
+  },
+  {
+   "key": "tiara",
+   "locale": "it",
+   "en": "Tiara",
+   "s": "Tiara",
+   "p": "Tiare",
+   "g": "f"
+  },
+  {
+   "key": "tiger",
+   "locale": "da",
+   "en": "Tiger",
+   "s": "Tiger",
+   "p": "Tigere",
+   "g": "n"
+  },
+  {
+   "key": "tiger",
+   "locale": "no",
+   "en": "Tiger",
+   "s": "Tiger",
+   "p": "Tigere",
+   "g": "m"
+  },
+  {
+   "key": "timer",
+   "locale": "da",
+   "en": "Timer",
+   "s": "Timer",
+   "p": "Timere",
+   "g": "n"
+  },
+  {
+   "key": "timer",
+   "locale": "no",
+   "en": "Timer",
+   "s": "Timer",
+   "p": "Timere",
+   "g": "m"
+  },
+  {
+   "key": "timer",
+   "locale": "it",
+   "en": "Timer",
+   "s": "Timer",
+   "p": "Timer",
+   "g": "m"
+  },
+  {
+   "key": "toast",
+   "locale": "no",
+   "en": "Toast",
+   "s": "Toast",
+   "p": "Toaster",
+   "g": "m"
+  },
+  {
+   "key": "toast",
+   "locale": "fr",
+   "en": "Toast",
+   "s": "Toast",
+   "p": "Toasts",
+   "g": "m"
+  },
+  {
+   "key": "toast",
+   "locale": "it",
+   "en": "Toast",
+   "s": "Toast",
+   "p": "Toast",
+   "g": "m"
+  },
+  {
+   "key": "toilet",
+   "locale": "da",
+   "en": "Toilet",
+   "s": "Toilet",
+   "p": "Toiletter",
+   "g": "t"
+  },
+  {
+   "key": "toucan",
+   "locale": "fr",
+   "en": "Toucan",
+   "s": "Toucan",
+   "p": "Toucans",
+   "g": "m"
+  },
+  {
+   "key": "tractor",
+   "locale": "es",
+   "en": "Tractor",
+   "s": "Tractor",
+   "p": "Tractores",
+   "g": "m"
+  },
+  {
+   "key": "train",
+   "locale": "fr",
+   "en": "Train",
+   "s": "Train",
+   "p": "Trains",
+   "g": "m"
+  },
+  {
+   "key": "triangle",
+   "locale": "fr",
+   "en": "Triangle",
+   "s": "Triangle",
+   "p": "Triangles",
+   "g": "m"
+  },
+  {
+   "key": "triceratops",
+   "locale": "da",
+   "en": "Triceratops",
+   "s": "Triceratops",
+   "p": "Triceratopser",
+   "g": "n"
+  },
+  {
+   "key": "triceratops",
+   "locale": "no",
+   "en": "Triceratops",
+   "s": "Triceratops",
+   "p": "Triceratopser",
+   "g": "m"
+  },
+  {
+   "key": "triceratops",
+   "locale": "fi",
+   "en": "Triceratops",
+   "s": "Triceratops",
+   "p": "Triceratopsit",
+   "g": null
+  },
+  {
+   "key": "triceratops",
+   "locale": "es",
+   "en": "Triceratops",
+   "s": "Triceratops",
+   "p": "Triceratops",
+   "g": "m"
+  },
+  {
+   "key": "trillium",
+   "locale": "pt",
+   "en": "Trillium",
+   "s": "Trillium",
+   "p": "Trilliuns",
+   "g": "m"
+  },
+  {
+   "key": "trillium",
+   "locale": "it",
+   "en": "Trillium",
+   "s": "Trillium",
+   "p": "Trillium",
+   "g": "m"
+  },
+  {
+   "key": "trombone",
+   "locale": "no",
+   "en": "Trombone",
+   "s": "Trombone",
+   "p": "Tromboner",
+   "g": "m"
+  },
+  {
+   "key": "trombone",
+   "locale": "fr",
+   "en": "Trombone",
+   "s": "Trombone",
+   "p": "Trombones",
+   "g": "m"
+  },
+  {
+   "key": "trombone",
+   "locale": "pt",
+   "en": "Trombone",
+   "s": "Trombone",
+   "p": "Trombones",
+   "g": "m"
+  },
+  {
+   "key": "trombone",
+   "locale": "it",
+   "en": "Trombone",
+   "s": "Trombone",
+   "p": "Tromboni",
+   "g": "m"
+  },
+  {
+   "key": "tyrannosaurus-rex",
+   "locale": "da",
+   "en": "Tyrannosaurus Rex",
+   "s": "Tyrannosaurus Rex",
+   "p": "Tyrannosaurus Rexer",
+   "g": "n"
+  },
+  {
+   "key": "tyrannosaurus-rex",
+   "locale": "no",
+   "en": "Tyrannosaurus Rex",
+   "s": "Tyrannosaurus Rex",
+   "p": "Tyrannosaurus Rexer",
+   "g": "m"
+  },
+  {
+   "key": "tyrannosaurus-rex",
+   "locale": "fi",
+   "en": "Tyrannosaurus Rex",
+   "s": "Tyrannosaurus Rex",
+   "p": "Tyrannosaurus Rexit",
+   "g": null
+  },
+  {
+   "key": "ufo",
+   "locale": "da",
+   "en": "UFO",
+   "s": "UFO",
+   "p": "UFOer",
+   "g": "n"
+  },
+  {
+   "key": "ufo",
+   "locale": "no",
+   "en": "UFO",
+   "s": "UFO",
+   "p": "UFOer",
+   "g": "m"
+  },
+  {
+   "key": "ufo",
+   "locale": "fi",
+   "en": "UFO",
+   "s": "UFO",
+   "p": "UFOt",
+   "g": null
+  },
+  {
+   "key": "ufo",
+   "locale": "it",
+   "en": "UFO",
+   "s": "UFO",
+   "p": "UFO",
+   "g": "m"
+  },
+  {
+   "key": "uniform",
+   "locale": "da",
+   "en": "Uniform",
+   "s": "Uniform",
+   "p": "Uniformer",
+   "g": "n"
+  },
+  {
+   "key": "uniform",
+   "locale": "no",
+   "en": "Uniform",
+   "s": "Uniform",
+   "p": "Uniformer",
+   "g": "m"
+  },
+  {
+   "key": "van",
+   "locale": "pt",
+   "en": "Van",
+   "s": "Van",
+   "p": "Vans",
+   "g": "f"
+  },
+  {
+   "key": "vase",
+   "locale": "da",
+   "en": "Vase",
+   "s": "Vase",
+   "p": "Vaser",
+   "g": "n"
+  },
+  {
+   "key": "vase",
+   "locale": "no",
+   "en": "Vase",
+   "s": "Vase",
+   "p": "Vaser",
+   "g": "m"
+  },
+  {
+   "key": "vase",
+   "locale": "fr",
+   "en": "Vase",
+   "s": "Vase",
+   "p": "Vases",
+   "g": "m"
+  },
+  {
+   "key": "velociraptor",
+   "locale": "da",
+   "en": "Velociraptor",
+   "s": "Velociraptor",
+   "p": "Velociraptorer",
+   "g": "n"
+  },
+  {
+   "key": "velociraptor",
+   "locale": "no",
+   "en": "Velociraptor",
+   "s": "Velociraptor",
+   "p": "Velociraptorer",
+   "g": "m"
+  },
+  {
+   "key": "velociraptor",
+   "locale": "fi",
+   "en": "Velociraptor",
+   "s": "Velociraptor",
+   "p": "Velociraptorit",
+   "g": null
+  },
+  {
+   "key": "velociraptor",
+   "locale": "es",
+   "en": "Velociraptor",
+   "s": "Velociraptor",
+   "p": "Velociraptores",
+   "g": "m"
+  },
+  {
+   "key": "velociraptor",
+   "locale": "pt",
+   "en": "Velociraptor",
+   "s": "Velociraptor",
+   "p": "Velociraptores",
+   "g": "m"
+  },
+  {
+   "key": "velociraptor",
+   "locale": "it",
+   "en": "Velociraptor",
+   "s": "Velociraptor",
+   "p": "Velociraptor",
+   "g": "m"
+  },
+  {
+   "key": "vest",
+   "locale": "da",
+   "en": "Vest",
+   "s": "Vest",
+   "p": "Vester",
+   "g": "n"
+  },
+  {
+   "key": "vest",
+   "locale": "no",
+   "en": "Vest",
+   "s": "Vest",
+   "p": "Vester",
+   "g": "m"
+  },
+  {
+   "key": "violet",
+   "locale": "da",
+   "en": "Violet",
+   "s": "Violet",
+   "p": "Violeter",
+   "g": "n"
+  },
+  {
+   "key": "violin",
+   "locale": "da",
+   "en": "Violin",
+   "s": "Violin",
+   "p": "Violiner",
+   "g": "n"
+  },
+  {
+   "key": "waffle",
+   "locale": "es",
+   "en": "Waffle",
+   "s": "Waffle",
+   "p": "Waffles",
+   "g": "m"
+  },
+  {
+   "key": "waffle",
+   "locale": "pt",
+   "en": "Waffle",
+   "s": "Waffle",
+   "p": "Waffles",
+   "g": "m"
+  },
+  {
+   "key": "waffle",
+   "locale": "it",
+   "en": "Waffle",
+   "s": "Waffle",
+   "p": "Waffle",
+   "g": "m"
+  },
+  {
+   "key": "whiteboard",
+   "locale": "da",
+   "en": "Whiteboard",
+   "s": "Whiteboard",
+   "p": "Whiteboards",
+   "g": "t"
+  },
+  {
+   "key": "whiteboard",
+   "locale": "no",
+   "en": "Whiteboard",
+   "s": "Whiteboard",
+   "p": "Whiteboarder",
+   "g": "m"
+  },
+  {
+   "key": "xylophone",
+   "locale": "fr",
+   "en": "Xylophone",
+   "s": "Xylophone",
+   "p": "Xylophones",
+   "g": "m"
+  },
+  {
+   "key": "yacht",
+   "locale": "da",
+   "en": "Yacht",
+   "s": "Yacht",
+   "p": "Yachter",
+   "g": "n"
+  },
+  {
+   "key": "yacht",
+   "locale": "no",
+   "en": "Yacht",
+   "s": "Yacht",
+   "p": "Yachter",
+   "g": "m"
+  },
+  {
+   "key": "yacht",
+   "locale": "fr",
+   "en": "Yacht",
+   "s": "Yacht",
+   "p": "Yachts",
+   "g": "m"
+  },
+  {
+   "key": "yacht",
+   "locale": "it",
+   "en": "Yacht",
+   "s": "Yacht",
+   "p": "Yacht",
+   "g": "m"
+  },
+  {
+   "key": "yak",
+   "locale": "da",
+   "en": "Yak",
+   "s": "Yak",
+   "p": "Yakker",
+   "g": "n"
+  },
+  {
+   "key": "yak",
+   "locale": "fr",
+   "en": "Yak",
+   "s": "Yak",
+   "p": "Yaks",
+   "g": "m"
+  },
+  {
+   "key": "yak",
+   "locale": "es",
+   "en": "Yak",
+   "s": "Yak",
+   "p": "Yaks",
+   "g": "m"
+  },
+  {
+   "key": "yak",
+   "locale": "it",
+   "en": "Yak",
+   "s": "Yak",
+   "p": "Yak",
+   "g": "m"
+  },
+  {
+   "key": "zebra",
+   "locale": "da",
+   "en": "Zebra",
+   "s": "Zebra",
+   "p": "Zebraer",
+   "g": "n"
+  },
+  {
+   "key": "zebra",
+   "locale": "pt",
+   "en": "Zebra",
+   "s": "Zebra",
+   "p": "Zebras",
+   "g": "f"
+  },
+  {
+   "key": "zebra",
+   "locale": "it",
+   "en": "Zebra",
+   "s": "Zebra",
+   "p": "Zebre",
+   "g": "f"
+  },
+  {
+   "key": "zinnia",
+   "locale": "da",
+   "en": "Zinnia",
+   "s": "Zinnia",
+   "p": "Zinniaer",
+   "g": "n"
+  },
+  {
+   "key": "zinnia",
+   "locale": "no",
+   "en": "Zinnia",
+   "s": "Zinnia",
+   "p": "Zinniaer",
+   "g": "m"
+  },
+  {
+   "key": "zinnia",
+   "locale": "fi",
+   "en": "Zinnia",
+   "s": "Zinnia",
+   "p": "Zinniat",
+   "g": null
+  },
+  {
+   "key": "zinnia",
+   "locale": "fr",
+   "en": "Zinnia",
+   "s": "Zinnia",
+   "p": "Zinnias",
+   "g": "m"
+  },
+  {
+   "key": "zinnia",
+   "locale": "es",
+   "en": "Zinnia",
+   "s": "Zinnia",
+   "p": "Zinnias",
+   "g": "f"
+  },
+  {
+   "key": "zinnia",
+   "locale": "it",
+   "en": "Zinnia",
+   "s": "Zinnia",
+   "p": "Zinnie",
+   "g": "f"
+  }
+ ]
+}

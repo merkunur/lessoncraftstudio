@@ -67,13 +67,33 @@ const SOURCES = {
   en: [{ name: 'Merriam-Webster', mode: 'render', wait: 1200, url: (w) => 'https://www.merriam-webster.com/dictionary/' + encodeURIComponent(w),
          note: 'English has no gender. Watch the ZERO-PLURALS (fish/sheep/deer/angelfish) — they are countable and OTHER languages do inflect them.' }],
 
-  /* ⚠ UNRESOLVED — surfaced, not papered over. Both need a source decision
-     before the nl/es waves run; do not let a reviewer silently fall back to
-     a blog or a bare search snippet. */
-  nl: [{ name: 'woordenlijst.org (Groene Boekje — OFFICIAL)', mode: 'render', wait: 2500, url: (w) => 'https://woordenlijst.org/zoeken/?q=' + encodeURIComponent(w),
-         note: '⚠ SELECTOR UNVERIFIED. Van Dale free is DISCONTINUED, so every earlier nl brief cited a dead authority. The Groene Boekje is the official list for spelling+gender+plural and is the right replacement — but this probe is not yet proven. VERIFY BEFORE THE nl WAVE.' }],
-  es: [{ name: 'RAE (dle.rae.es)', mode: 'render', wait: 3000, url: (w) => 'https://dle.rae.es/' + encodeURIComponent(w),
-         note: '⚠ RENDERS BUT THE ENTRY DID NOT PARSE in the probe — 2957 chars, no "f."/"m." marker found. Needs a selector/wait fix. VERIFY BEFORE THE es WAVE.' }],
+  /* RESOLVED 2026-07-17. Both were blockers; both are proven now.
+
+     nl — VAN DALE'S FREE DICTIONARY IS DISCONTINUED ("Het gratis
+     onlinewoordenboek is gestopt"), which means EVERY nl brief this project
+     ever wrote cited a DEAD authority, and the natives had nothing to check
+     against. The Groene Boekje (woordenlijst.org) is the official list for
+     spelling + gender + plural and renders cleanly: "de/het gordijn".
+     nl.wiktionary is listed second for the full enkelvoud/meervoud table —
+     the Groene Boekje entry is terse.
+
+     es — RAE renders but its entry never parses (2957 chars, no f./m.
+     marker), so it is NOT the primary. WordReference prints exactly what
+     this arc needs, in one line: "Inflexiones de 'cortina' (nf): fpl:
+     cortinas" — gender AND plural together. RAE stays as the second
+     opinion for a disputed sense. */
+  nl: [
+    { name: 'woordenlijst.org (Groene Boekje — OFFICIAL)', mode: 'render', wait: 2500, url: (w) => 'https://woordenlijst.org/zoeken/?q=' + encodeURIComponent(w),
+      note: 'THE official list for spelling+gender+plural. Prints the article directly ("de/het gordijn"). d = de-woord (commuun), h = het-woord (onzijdig) — nl codes ONLY. ⚠ Van Dale free is DISCONTINUED; do not cite it.' },
+    { name: 'nl.wiktionary (declension table)', mode: 'fetch', url: (w) => 'https://nl.wiktionary.org/wiki/' + encodeURIComponent(w),
+      note: 'For the full enkelvoud/meervoud table — the Groene Boekje entry is terse.' },
+  ],
+  es: [
+    { name: 'WordReference (gender + plural in one line)', mode: 'render', wait: 2000, url: (w) => 'https://www.wordreference.com/definicion/' + encodeURIComponent(w),
+      note: 'Prints "Inflexiones de \'X\' (nf): fpl: Xs" — gender AND plural together. Register note: pt is Brazilian and es leans Mexican here (the jacket/chamarra call), so check the regional sense.' },
+    { name: 'RAE (dle.rae.es) — second opinion', mode: 'render', wait: 3000, url: (w) => 'https://dle.rae.es/' + encodeURIComponent(w),
+      note: '⚠ Renders but the entry does NOT reliably parse — use for a disputed SENSE, not as the primary gender/plural source.' },
+  ],
 };
 
 /* Always-available cross-check. NOT the authority — a second opinion.

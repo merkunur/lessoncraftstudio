@@ -356,6 +356,32 @@
       "Au CE1, posez 32 − 15 avec les blocs : pas assez d'unités ! On casse une dizaine, on enlève, puis on écrit la soustraction posée sur l'ardoise — le geste d'abord, la technique ensuite."
     ]
   },
+  "picture-word-wall": {
+    "slug": "imagier",
+    "name": "Imagier de la classe",
+    "tagline": "L’imagier à projeter : on touche une carte, elle dit le mot — avec son article",
+    "metaTitle": "Imagier interactif gratuit – 1 495 mots | LessonCraftStudio",
+    "metaDescription": "Un imagier interactif et gratuit à projeter : l’enfant touche une carte, elle grandit et dit le mot avec son article — un ou une. 1 495 mots, 50 thèmes.",
+    "about": [
+      "L’imagier est le premier dictionnaire de la classe : une image, un mot, et l’article qui va avec. Celui-ci en contient 1 495, rangés en 50 thèmes — les animaux, la ferme, l’école, le corps, les métiers, l’espace, la météo… L’enfant touche une carte : elle grandit au milieu du tableau et dit son mot à voix haute, article compris — « un hérisson », « une écharpe ». Jamais le nom tout seul : en français, un nom appris sans son genre est un nom appris à moitié, et c’est l’oreille qui retient le genre bien avant la règle.",
+      "C’est pourquoi cet imagier dit « un » et « une », et jamais « le » et « la ». Devant une voyelle ou un h muet, le et la s’effacent : l’arbre, l’écharpe, l’horloge — l’article ne dit alors plus rien du genre, précisément là où l’enfant en aurait le plus besoin. Sur ce mur, une carte sur six commence ainsi. Avec un et une, rien ne s’efface : un arbre, une écharpe, une horloge. Le h se règle du même coup — un hérisson mais une horloge, sans avoir à savoir lequel est aspiré. Et la couleur du liseré redit l’information en silence, si bien que la question rituelle de la classe — « c’est un ou une ? » — trouve sa réponse en un coup d’œil.",
+      "Un second geste fait passer la carte du singulier au pluriel : l’illustration se multiplie, l’article devient « des », et un liseré doré signale que l’on a changé de nombre — au pluriel, le genre s’efface, et c’est une leçon en soi. Les mots qui ne bougent pas — une souris, des souris ; un nez, des nez — sont justement ceux sur lesquels s’arrêter : seul l’article dit combien. Sans minuteur, sans score, rien à installer : un imagier calme pour le TBI, la tablette et l’ordinateur."
+    ],
+    "howToUse": [
+      "Projetez l’imagier au TBI et ouvrez un thème — les animaux, la ferme, le corps, les métiers : les cartes s’affichent, prêtes à être touchées.",
+      "Un enfant touche une carte : elle grandit et dit son mot avec l’article. Faites répéter la classe en entier — « un hérisson », jamais « hérisson » tout seul.",
+      "Posez la question rituelle avant de toucher : « c’est un ou une ? » La classe répond, la carte tranche, et la couleur du liseré confirme.",
+      "Basculez sur « plusieurs » : l’image se multiplie et l’article devient « des ». Arrêtez-vous sur les mots qui ne changent pas — une souris, des souris — et demandez ce qui a changé : l’article, et lui seul.",
+      "Épinglez les mots de la semaine dans « Nos mots » : le mur de la classe se construit carte après carte, se nomme (« Semaine 12 — À la ferme ») et se relit ensemble d’un seul geste."
+    ],
+    "classroomIdeas": [
+      "Pour un élève allophone nouvellement arrivé, l’imagier est un outil d’accueil immédiat : ni lecture, ni écrit, juste l’image et le mot dit. En UPE2A comme en inclusion dans la classe ordinaire, commencez par les thèmes du quotidien — l’école, le corps, les vêtements, les repas — et laissez l’élève toucher les cartes à son rythme, avec un camarade tuteur qui répète après lui. L’article vient avec le mot dès le premier jour, au lieu de s’ajouter des mois plus tard.",
+      "En rituel de langage, un thème par semaine : chaque matin, trois cartes, trois mots dits ensemble avec leur article. Le vendredi, la classe relit « Nos mots » en entier — le vocabulaire de la semaine tient sur un seul écran.",
+      "Jouez au « un ou une ? » : affichez un thème, les enfants annoncent le genre carte après carte, puis on vérifie ensemble. Cherchez ensuite ce que les cartes féminines ont en commun — souvent rien, et c’est la vraie leçon : le genre se retient avec l’article, pas avec une règle.",
+      "Reliez l’imagier aux Boîtes à sons : on choisit un mot sur le mur, on l’écoute, puis on le segmente en sons dans les boîtes — l’image donne le mot, les boîtes donnent les sons. Avec les Lettres magnétiques, on l’écrit ensuite : l’article d’abord, le nom ensuite.",
+      "En mode chuchoté, la voix demande « Trouve : une tortue » et l’enfant vient la chercher parmi les cartes — six cartes pour les plus jeunes, seize pour toute la classe. En atelier, chacun son tour : celui qui a trouvé lance le mot suivant."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

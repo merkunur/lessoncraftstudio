@@ -356,6 +356,32 @@
       "Do concreto ao digital: montem o mesmo número no material dourado da mesa e no laboratório, lado a lado — o mesmo agrupamento, agora com o nome escrito se montando junto."
     ]
   },
+  "picture-word-wall": {
+    "slug": "mural-de-palavras",
+    "name": "Mural de palavras ilustradas",
+    "tagline": "1.495 palavras ilustradas que falam — sempre com o artigo",
+    "metaTitle": "Mural de palavras ilustradas grátis | LessonCraftStudio",
+    "metaDescription": "Mural de palavras ilustradas para projetar: toque no cartão e ouça a palavra com o artigo — o gato, as bolas. 1.495 palavras em 50 temas. Grátis, sem login.",
+    "about": [
+      "Em português, ninguém aprende uma palavra sozinha: aprende o gato, a bola, o carro. O artigo vem junto — e é ele que carrega o gênero. Neste mural, cada cartão traz uma faixa colorida com a cor do seu artigo: uma cor para as palavras com o, outra para as palavras com a. A criança toca no cartão, ele cresce na tela e fala a palavra em voz alta sempre com o artigo — o gato, e nunca gato solto. Ver a cor e ouvir o artigo ao mesmo tempo faz o gênero deixar de ser regra decorada e virar coisa que se reconhece de olho e de ouvido.",
+      "Um botão muda a figura de um para vários, e a palavra muda junto: o gato vira os gatos, a bola vira as bolas. No plural, a faixa do cartão fica dourada — é o sinal de que agora são muitos. E repare: o artigo continua contando o gênero, porque em português o plural não apaga o masculino nem o feminino — o vira os, a vira as. Quando a palavra não muda (o lápis, os lápis), só o artigo avisa, e o mural mostra três figuras para a criança ver a diferença. São 1.495 palavras ilustradas em 50 temas: animais, comida, roupas, a casa, o corpo, as profissões, o espaço.",
+      "No modo sussurro, o mural fica com poucos cartões e o vaga-lume sussurra uma palavra: encontre o cachorro. A criança procura, toca e confere — escuta, vocabulário e atenção na mesma brincadeira, do jeito que a rodinha pede. E o mural pode ser da turma: segure um cartão para fixá-lo em Nossas palavras e monte o mural da semana — Semana 12, Na fazenda — para ler junto todo dia. Funciona direto no navegador, na lousa digital, no tablet ou no celular, sem instalar nada e sem criar conta. Não há cronômetro e não há pontuação — apenas palavras, figuras e voz."
+    ],
+    "howToUse": [
+      "Projete o mural na lousa digital e escolha na lista de temas o tema do projeto da turma — animais, comida, a casa, o corpo.",
+      "Peça que a criança toque em um cartão: ele cresce e fala a palavra com o artigo. A turma repete em coro — o gato.",
+      "Toque em vários para multiplicar a figura e ouvir o plural: os gatos. Pergunte o que mudou na palavra e na faixa colorida do cartão.",
+      "Ligue o modo sussurro na rodinha: o vaga-lume pede uma palavra e a criança procura no mural — comece com 6 cartões para os menores.",
+      "Segure um cartão para fixá-lo em Nossas palavras, dê um nome ao mural da semana e leiam juntos no começo de cada aula."
+    ],
+    "classroomIdeas": [
+      "Caça ao artigo: projete um tema e peça que a turma separe os cartões pela cor da faixa — o de um lado, a do outro. O gênero vira jogo de olhar, e é a análise do sistema de escrita que a BNCC espera dos anos iniciais.",
+      "Palavra do dia: uma criança escolhe um cartão, fala a palavra com o artigo e conta onde já viu aquilo — vocabulário e oralidade na mesma rodinha.",
+      "Um ou vários?: mostre um cartão no plural e peça que a turma diga como fica no singular — os gatos, o gato; as bolas, a bola. Depois invertam o jogo.",
+      "Dupla com o Alfabeto móvel: a criança ouve a palavra no mural e corre montá-la com as letras — ouvir e escrever são as duas mãos da alfabetização.",
+      "Mural da semana: fixe as palavras do projeto em Nossas palavras e leiam juntos todo dia; na sexta, cada criança escolhe a sua preferida e desenha no caderno."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

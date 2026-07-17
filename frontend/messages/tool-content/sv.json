@@ -356,6 +356,32 @@
       "Spara klassens egna tal — skoldagar, antal barn i dag, morgondagens datum — och börja mattestunden med att läsa dem tillsammans."
     ]
   },
+  "picture-word-wall": {
+    "slug": "bildordvagg",
+    "name": "Bildordvägg",
+    "tagline": "Tryck på ett kort — ordet sägs högt, med en eller ett",
+    "metaTitle": "Öva en eller ett – gratis bildordvägg | LessonCraftStudio",
+    "metaDescription": "Gratis bildordvägg för klassrummet: tryck på ett kort och hör ordet med en eller ett. 1 495 bildord i 50 teman, en-ord och ett-ord i färg. Utan inloggning.",
+    "about": [
+      "På svenska lär man sig aldrig ett substantiv ensamt — man lär sig det tillsammans med sitt en eller ett. Bildordväggen gör just det självklart: varje kort som ett barn trycker på blir stort och säger sitt ord med artikeln — \"en katt\", aldrig bara \"katt\". Överst på kortet sitter dessutom en smal färgremsa som visar vad det är för ord: en-ord får en färg, ett-ord en annan. Barnet hör artikeln och ser den i samma ögonblick, två kanaler för samma sak. Och det behövs, för en-ord och ett-ord hör till det som måste läras in ord för ord — det finns inga säkra regler att gissa sig till dem med, vilket är precis därför de sitter kvar som den envisaste svårigheten i svenska långt upp i åldrarna. Ordförrådet står i centrum i svenska och svenska som andraspråk i årskurs 1–3 enligt Lgr22, och artikeln är inte något man lägger till efteråt: den hör till ordet.",
+      "Ett tryck på flera mångfaldigar bilden — en katt blir tre — och ordet följer med: en katt → katter. Då kommer väggens bästa ögonblick: färgremsan slår om till guld. I obestämd plural har svenskan nämligen ingen artikel alls, och guldremsan säger precis det — här syns varken en eller ett. Ibland händer det ännu tydligare ingenting: ett hus blir hus, ett får blir får, en lärare blir lärare. Då säger kortet \"Samma ord! Titta på bilden.\" och låter bilden bära hela skillnaden — 369 av väggens kort är sådana, så det är ingen udda kuriositet utan en fjärdedel av svenskan. Totalt står 1 495 bildord i 50 teman redo, från djuren och köket till kläderna och rymden, med samma bilder som barnen känner igen från plattformens arbetsblad.",
+      "I viskläget säger väggen ett ord och barnen letar efter rätt kort — den som hittar det får se en eldfluga landa på kortet. Ingen tid räknas, ingenting poängsätts, och ingen runda slutar i misslyckande: man letar tills kortet är hittat. Det klassen behöver just nu sätter du upp under Våra ord på en egen vägg — veckans ord, ordförrådet till NO-temat, de första orden för ett nyanlänt barn. Varje vägg får ett namn och står kvar till i morgon. Allt körs direkt i webbläsaren på projektorn, den interaktiva tavlan och surfplattor — inget konto, ingen installation, ingen timer och inga poäng."
+    ],
+    "howToUse": [
+      "Öppna Bildordväggen på projektorn eller den interaktiva tavlan och välj ett tema — djuren, köket eller kläderna är trygga starter.",
+      "Låt ett barn trycka på ett kort: det blir stort och säger sitt ord med artikeln. Fråga efter: vilken färg har remsan, heter det en eller ett?",
+      "Tryck på flera: bilden mångfaldigas och ordet följer med. Titta på guldremsan tillsammans — i plural syns varken en eller ett, och nu är det ändelsen som hörs.",
+      "Starta viskläget: väggen säger ett ord, barnen letar upp kortet och eldflugan bekräftar fyndet — helt utan tidspress. Ställ in sex kort för de yngsta, sexton för hela klassen.",
+      "Sätt upp klassens ord under Våra ord, ge väggen ett namn — \"Vecka 12 — På bondgården\" — och läs dem tillsammans till sist."
+    ],
+    "classroomIdeas": [
+      "Nyanlända och SVA: öppna ett tema — mat, kläder, kroppen — och tryck igenom det tillsammans. Barnet hör varje ord med sitt en eller ett och ser bilden till; det behöver inte kunna ett enda svenskt ord för att vara med, och bilden gör att den som ännu inte läser deltar på samma villkor som alla andra. Efter några dagar sätter ni upp de ord som sitter på barnets egen vägg — synliga framsteg som det kan läsa upp själv.",
+      "En eller ett-gissningen: öppna ett tema och låt klassen gissa innan kortet får tala — en eller ett? Tryck sedan. Rösten och färgremsan svarar tillsammans, och barnen upptäcker snabbt att gissandet inte bär: en bil men ett hus, en sked men ett glas. Artikeln vill höras och kommas ihåg, inte räknas ut — och just den insikten är hela poängen.",
+      "Ordförrådet till NO- eller SO-temat: sätt upp temats ord på en egen vägg — vädret, skogen, bondgården — och läs igenom den varje morgon. I slutet av arbetsområdet står hela ordförrådet samlat, och klassen har mött varje ord med rätt artikel varje dag.",
+      "Pluralrundan: använd bara växlaren — ett barn säger singularen med artikel, nästa säger pluralen. Lyssna efter ändelsen: flickor, bilar, parker, äpplen — och de kort där ingenting alls händer, som hus och får. Guldremsan visar regeln innan någon hunnit formulera den: här finns ingen artikel att hålla i.",
+      "Viskpar vid stationen: två barn vid en surfplatta, viskläge med sex kort — ett lyssnar, ett letar, sedan byter de. Eftersom ingenting räknas och varje runda slutar med ett fynd vågar också de barn som aldrig räcker upp handen i samlingen."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

@@ -356,6 +356,32 @@
       "Lad de ældste forklare de yngste, hvorfor halvfjerds betyder 7 tiere — med klodserne som bevis."
     ]
   },
+  "picture-word-wall": {
+    "slug": "billedordvaeg",
+    "name": "Billedordvæg",
+    "tagline": "Tryk på et kort — og hør, om det er et en-ord eller et et-ord",
+    "metaTitle": "Gratis billedordvæg — en eller et | LessonCraftStudio",
+    "metaDescription": "Gratis billedordvæg til tavlen: tryk på et kort, og hør ordet sagt højt med en eller et foran. 1.495 billedord i 50 temaer, ental og flertal. Uden login.",
+    "about": [
+      "En billedordvæg er klassens ordforråd hængt op, hvor alle kan se det: 1.495 billedkort fordelt på 50 temaer — dyr, mad, tøj, køkkenet, stranden, rummet. Trykker barnet på et kort, vokser det stort på tavlen og siger sit ord højt. Ikke bare ordet, men ordet med en eller et foran: en kat, et hus. Barnet behøver ikke at kunne læse for at komme i gang — billedet er indgangen, og ordet følger med.",
+      "På dansk er det svære nemlig ikke ordet. Det er en eller et. Der findes ingen regel, der afslører, at det hedder en kat, men et hus — kønnet skal læres ord for ord, og derfor bliver en-ord og et-ord ved med at drille langt op i skoleforløbet. For elever i dansk som andetsprog er det den fejl, der holder allerlængst. Derfor siger væggen aldrig ordet alene: kortet siger en kat og har samme farve som alle de andre en-ord, mens et hus siger et hus og bærer et-ordenes farve. Barnet hører kønnet og ser det på én gang, hver eneste gang — så ordet og dets køn bliver gemt som én ting i stedet for to.",
+      "Knappen én/flere multiplicerer billedet: ét æble bliver til fem æbler, og ordet skifter med. Her sker der noget, der er værd at standse op ved — i flertal forsvinder en og et helt. En kat bliver til katte, et hus bliver til huse, og begge kort skifter til den gyldne farve. Flertal visker kønnet ud, og på dansk gælder det hele vejen igennem: også katten og huset bliver til kattene og husene med samme endelse. Væggen kører direkte i browseren på tavle, tablet og computer — uden installation og uden login. Der er ingen tidtagning og ingen point, bare ord, billeder og tid til at se på dem."
+    ],
+    "howToUse": [
+      "Vis billedordvæggen på den interaktive tavle, og vælg et tema, der passer til det, I arbejder med — dyr, mad, tøj eller et af de 50 andre.",
+      "Lad børnene trykke på et kort: det vokser stort og siger sit ord højt med en eller et foran — og farven på kortet fortæller, hvilken slags ord det er.",
+      "Tryk på én/flere, og se billedet blive til mange: hør, hvordan ordet skifter, og læg mærke til, at en og et forsvinder helt i flertal.",
+      "Sæt ugens ord op under Vores ord, og giv væggen et navn — »Uge 12 — På gården« — så klassens egen ordvæg står klar, næste gang projektoren tændes.",
+      "Slå hviskelegen til, når ordene sidder løst: ildfluen hvisker et ord, og klassen leder efter kortet på væggen."
+    ],
+    "classroomIdeas": [
+      "En-ord eller et-ord? Vis et kort med lyden slået fra, og lad børnene gætte farven først — tryk så på kortet, og hør, om de ramte rigtigt.",
+      "Dansk som andetsprog: lad nyankomne elever arbejde med ét tema ad gangen på en tablet. Billedet giver betydningen, stemmen giver udtalen, og en eller et følger altid med ordet — netop den kobling skal ellers læres forfra for hvert eneste ord, og den er den sidste, der falder på plads.",
+      "Ental og flertal på tavlen: byg en lille samling under Vores ord, og kør den igennem to gange — først i ental med en og et, så i flertal, hvor kendeordene er væk og alle kort er guld.",
+      "Sortér efter farve: vælg et tema, og lad to børn dele kortene i en-ord og et-ord — tjek bagefter ved at trykke på dem ét ad gangen.",
+      "Ordjagt før skrivning: find fem kort til dagens tekst, læs dem sammen med Læs dem sammen, og lad væggen blive stående som stavehjælp, mens børnene skriver."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

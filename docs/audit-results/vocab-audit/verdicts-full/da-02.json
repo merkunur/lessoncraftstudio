@@ -1,0 +1,59 @@
+{
+ "locale": "da",
+ "batch": "02",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {
+   "chameleon": { "from": "Kamæleont", "to": "Kamæleon", "why": "spurious final -t; DDO lemma is kamæleon", "src": "DDO kamæleon" },
+   "cookie-cutter": { "from": "Kageforme", "to": "Kageform", "why": "singular field held the plural form; lemma is form → kageform", "src": "DDO form" }
+  },
+  "plural": {
+   "chainsaw": { "from": "Motorsaver", "to": "Motorsave", "why": "sav pl = save (-e), not -er", "src": "DDO sav: -en, -e, -ene" },
+   "chair": { "from": "Stoler", "to": "Stole", "why": "stol pl = stole (-e)", "src": "DDO stol: -en, -e, -ene" },
+   "chameleon": { "from": "Kamæleonter", "to": "Kamæleoner", "why": "kamæleon pl = kamæleoner", "src": "DDO kamæleon: -en, -er, -erne" },
+   "cheeks": { "from": "Kindere", "to": "Kinder", "why": "plural-picture; malformed double-suffix, p must equal s (kinder)", "src": "DDO kind" },
+   "cheese": { "from": "Oster", "to": "Oste", "why": "ost pl = oste (-e)", "src": "DDO ost: -en, -e, -ene" },
+   "chef's-knife": { "from": "Kokkekniver", "to": "Kokkeknive", "why": "kniv pl = knive (-e)", "src": "DDO kniv: -en, -e, -ene" },
+   "cinnamon-roll": { "from": "Kanelsnegler", "to": "Kanelsnegle", "why": "snegl pl = snegle (-e)", "src": "DDO snegl: -en, -e, -ene" },
+   "clownfish": { "from": "Klovnfisker", "to": "Klovnfisk", "why": "fisk pl = fisk (unchanged)", "src": "DDO fisk: -en, -, -ene" },
+   "cockatiel": { "from": "Nymfeparakiter", "to": "Nymfeparakitter", "why": "parakit pl = parakitter (double t)", "src": "DDO parakit: -ten, -ter, -terne" },
+   "coconut": { "from": "Kokosnøder", "to": "Kokosnødder", "why": "kokosnød pl = kokosnødder (double d)", "src": "DDO kokosnød: -den, -der, -derne" },
+   "coffee-mug": { "from": "Kaffekruser", "to": "Kaffekrus", "why": "krus is neuter, pl unchanged = krus", "src": "DDO krus: intetkøn -et, -, -ene" },
+   "colander": { "from": "Dørslager", "to": "Dørslag", "why": "dørslag is neuter, pl unchanged = dørslag", "src": "DDO dørslag: intetkøn -et, -, -ene" },
+   "comb": { "from": "Kamer", "to": "Kamme", "why": "kam pl = kamme (double m)", "src": "DDO kam: -men, -me, -mene" },
+   "cookie-cutter": { "from": "Kageformer", "to": "Kageforme", "why": "form pl = forme (-e)", "src": "DDO form: forme" },
+   "crib": { "from": "Tremmesenger", "to": "Tremmesenge", "why": "seng pl = senge (-e)", "src": "DDO seng: -en, -e, -ene" },
+   "crocus": { "from": "Krokuser", "to": "Krokus", "why": "krokus pl = krokus (unchanged) or krokusser; single-s -er form invalid", "src": "DDO krokus: -sen, - eller -ser" },
+   "cruise-ship": { "from": "Krydstogtskiber", "to": "Krydstogtskibe", "why": "skib is neuter, pl = skibe (-e)", "src": "DDO skib: intetkøn -et, -e, -ene" },
+   "crutches": { "from": "Krykkere", "to": "Krykker", "why": "plural-picture; malformed double-suffix, p must equal s (krykker)", "src": "DDO krykke" },
+   "cube": { "from": "Kuber", "to": "Terninger", "why": "plural must match singular lexeme terning; terning pl = terninger", "src": "DDO terning: -en, -er, -erne" },
+   "curtains": { "from": "Gardinere", "to": "Gardiner", "why": "plural-picture; malformed double-suffix, p must equal s (gardiner)", "src": "DDO gardin: -er" },
+   "cymbals": { "from": "Bækkenere", "to": "Bækkener", "why": "plural-picture; malformed double-suffix, p must equal s (bækkener)", "src": "DDO bækken: intetkøn -er" },
+   "cypress-tree": { "from": "Cypreser", "to": "Cypresser", "why": "cypres pl = cypresser (double s)", "src": "DDO cypres: -sen, -ser, -serne" },
+   "dart": { "from": "Dartpiler", "to": "Dartpile", "why": "pil pl = pile (-e)", "src": "DDO pil: -en, -e, -ene" },
+   "deck-chair": { "from": "Liggestoler", "to": "Liggestole", "why": "stol pl = stole (-e)", "src": "DDO stol: -en, -e, -ene" },
+   "deer": { "from": "Hjorter", "to": "Hjorte", "why": "hjort pl = hjorte (-e)", "src": "DDO hjort: -en, -e, -ene" },
+   "dogwood-tree": { "from": "Kornler", "to": "Korneller", "why": "kornel pl = korneller", "src": "DDO kornel: -len, -ler, -lerne" },
+   "double-decker-bus": { "from": "Dobbeltdækkerbuser", "to": "Dobbeltdækkerbusser", "why": "bus pl = busser (double s)", "src": "DDO bus: -sen, -ser, -serne" },
+   "dragonfly": { "from": "Guldsmeder", "to": "Guldsmede", "why": "guldsmed pl = guldsmede (-e)", "src": "DDO guldsmed: -en, -e, -ene" },
+   "dumbbell": { "from": "Håndvægter", "to": "Håndvægte", "why": "vægt pl = vægte (-e)", "src": "DDO vægt: -en, -e, -ene" },
+   "dump-truck": { "from": "Lastbil med tiplader", "to": "Lastbiler med tiplad", "why": "phrase must pluralize head noun lastbil (lastbiler), not tiplad", "src": "DDO lastbil" },
+   "ear": { "from": "Øreer", "to": "Ører", "why": "øre (ear) pl = ører (-r)", "src": "DDO øre: intetkøn -t, -r" },
+   "earthworm": { "from": "Regnormer", "to": "Regnorme", "why": "orm pl = orme (-e)", "src": "DDO orm: -en, -e eller -, -ene" },
+   "eight-ball": { "from": "Ottebolder", "to": "Ottebolde", "why": "bold pl = bolde (-e)", "src": "DDO bold: -en, -e, -ene" },
+   "elm-tree": { "from": "Elmer", "to": "Elme", "why": "elm pl = elme (-e)", "src": "DDO elm: -en, -e, -ene" },
+   "eyelashes": { "from": "Øjenvippere", "to": "Øjenvipper", "why": "plural-picture; malformed double-suffix, p must equal s (øjenvipper)", "src": "DDO øjenvippe" },
+   "falcon": { "from": "Falker", "to": "Falke", "why": "falk pl = falke (-e)", "src": "DDO falk: -en, -e, -ene" },
+   "feather": { "from": "Fjerer", "to": "Fjer", "why": "fjer pl = fjer (unchanged)", "src": "DDO fjer: -en, -, -ene" },
+   "fig": { "from": "Figene", "to": "Figner", "why": "figen pl = figner", "src": "DDO figen: figner" }
+  },
+  "gender": {
+   "coffee-mug": { "from": "n", "to": "t", "why": "krus is neuter (et krus)", "src": "DDO krus: intetkøn" },
+   "colander": { "from": "n", "to": "t", "why": "dørslag is neuter (et dørslag)", "src": "DDO dørslag: intetkøn" },
+   "cruise-ship": { "from": "n", "to": "t", "why": "skib is neuter (et skib)", "src": "DDO skib: intetkøn" },
+   "curtain": { "from": "n", "to": "t", "why": "gardin is neuter (et gardin)", "src": "DDO gardin: intetkøn" },
+   "curtains": { "from": "n", "to": "t", "why": "gardin is neuter (et gardin)", "src": "DDO gardin: intetkøn" },
+   "cymbals": { "from": "n", "to": "t", "why": "bækken is neuter (et bækken)", "src": "DDO bækken: intetkøn" }
+  }
+ }
+}

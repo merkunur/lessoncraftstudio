@@ -1,0 +1,80 @@
+{
+ "locale": "da",
+ "batch": "07",
+ "of": 7,
+ "genderLegend": "n=en-ord (COMMON/fælleskøn) · t=et-ord (neutrum)  ← n is COMMON, not neuter",
+ "count": 3,
+ "range": [
+  "yogurt",
+  "zinnia"
+ ],
+ "rows": [
+  {
+   "key": "yogurt",
+   "themes": [],
+   "en": [
+    "Yogurt",
+    "Yogurt"
+   ],
+   "cur": {
+    "s": "Yoghurt",
+    "p": "Yoghurt",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": false,
+   "noImage": true,
+   "classification": {
+    "category": "mass",
+    "hasGender": true,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "zebra",
+   "themes": [
+    "animals",
+    "faces",
+    "zoo_animals"
+   ],
+   "en": [
+    "Zebra",
+    "Zebras"
+   ],
+   "cur": {
+    "s": "Zebra",
+    "p": "Zebraer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "zinnia",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Zinnia",
+    "Zinnias"
+   ],
+   "cur": {
+    "s": "Zinnia",
+    "p": "Zinniaer",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  }
+ ]
+}

@@ -1,0 +1,968 @@
+{
+ "part": "02",
+ "reviewed": 96,
+ "note_on_prior_verdict": "A prior verdict-02.json existed and is overwritten here. It ruled the equipment-art keys (photography/science/sewing/singing/swimming/skating/skiing/scuba-diving/soccer) as METONYMS - 'the row's word is Singen, not Mikrofon' - and classified them from the LABEL. That is the exact reasoning the brief rejects: its chess example has themes [activities, toys] and the same shape, and the brief rules it countable-thing + LEMMA MISMATCH, calling the metonym/abstract reading wrong. I opened every image and rule from the picture. BUT the prior pass earned two changes to my draft on checkable evidence: (1) tennis/table-tennis are two-object emblems of a sport, and Duden gives 'das Tennis; Genitiv: des Tennis' with NO plural - a real neuter gender that 'activity' would strip, so they are abstract, not activity; (2) it caught an fr gender bug on 'mercury' that I had missed. Its sibling-key claims (soccer-ball, tennis-ball, tennis-racket exist; no volleyball-ball) I verified in image-vocabulary.js and they are all true.",
+ "systemic_finding": "THE 'activities' THEME PAIRS ACTIVITY-LABELS WITH EQUIPMENT-ART. Eight keys share one root cause: photography=a camera, science=a microscope, sewing=a sewing machine, singing=a microphone, swimming=goggles, skating=one ice skate, skiing=a pair of skis, scuba-diving=a mask+snorkel. Not one of these pictures shows the action; reading/running/writing/sledding/snowboarding in the same domain DO. SEQUENCING HAZARD the operator must see: for these keys my hasPlural:true describes the pictured OBJECT (Mikrofon->Mikrofone). It must NOT be applied to the CURRENT label - pluralising 'Singen' or 'Schwimmen' would manufacture exactly the garbage this commission exists to delete. Fix the LEMMA MISMATCH first (correct the label to the object word, or replace the art with an action drawing), then apply the flag. Which of those two fixes is right is an operator content call, not mine.",
+ "rows": [
+  {
+   "key": "lightning",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "travel and holiday bw/lightning@2x.webp — a line-art cloud with THREE lightning bolts striking down from it plus raindrops; a thunderstorm emblem",
+   "reason": "A lightning bolt is a discrete countable thing and the picture shows three of them. English 'lightning' is a mass noun and that is an ENGLISH-ONLY fact: de Blitz->Blitze, sv blixt->blixtar, fr eclair->eclairs are all correct and must be kept. hypothesis.raw_countable:false is wrong and is the en[0]===en[1] mass-noun trap; raw_type 'noun' is right, so this is not a formal overturn, but the countability hint is.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "lights",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "christmas/lights@2x.webp — two draped strands of Christmas fairy lights, eight coloured bulbs on black cord",
+   "reason": "The English label is the plural of sister key 'light' and the picture shows many bulbs on a string. The label IS the plural. NOTE for the operator: de 'Lichterkette' and fr 'Lumieres' are NOT plurals of their word for 'light' — de Lichterkette is a SINGULAR countable noun (light-chain) whose real plural Lichterketten is legitimate but is dropped by this ruling. Gender is kept, so the wall still says 'die Lichterkette' correctly. Flagging the divergence rather than silently choosing.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "mars",
+   "category": "proper-noun",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "space/mars@2x.webp — a rust-red sphere with dark blotchy surface markings, terminator shadow at left; the red planet",
+   "reason": "A named planet. A proper noun is still a noun (der Mars), so it keeps gender and simply has no plural. en_looks_plural:true is a FALSE FLAG — the machine saw a trailing -s; 'Mars' is not an English plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "medical-gloves",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "NO IMAGE RESOLVES TO THIS KEY (no_image:true confirmed — no medical_gloves@2x.webp exists anywhere). I opened the adjacent art the key was clearly meant to reach, hospital/gloves@2x.webp: a PAIR of red medical gloves worn on two raised hands.",
+   "reason": "The English label is plural and the intended art shows a pair. The label IS the plural. DEAD-KEY FINDING: hospital/gloves@2x.webp exists but the key is 'medical-gloves', so nothing resolves — unreachable dead data. Renaming the key to 'gloves' would collide with accessories/glove, clothing/glove and tools bw/gloves, so the cheaper fix is renaming the file. Classified from en + themes + adjacent art as the brief directs for no_image keys.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "mercury",
+   "category": "proper-noun",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "space/mercury@2x.webp — a sphere with horizontal cream/rust BANDS, terminator shadow at left",
+   "reason": "A named planet -> proper noun, keeps gender, no plural. GENDER BUG FOUND (fr) — credit to the prior verdict, which flagged it and which I verified rather than trusted: the shipped fr row is g='f', but Larousse gives Mercure as 'nom masculin' (le Mercure). Because proper nouns KEEP their gender this is live and must be fixed to m. ART-ACCURACY NOTE (does not change the category): the render is a banded gas-giant-style sphere, but the real Mercury is a grey, heavily cratered rock with no bands — it appears to come from the same generic banded-planet template as 'uranus'.",
+   "overturns_hypothesis": false,
+   "source": "https://www.larousse.fr/dictionnaires/francais/mercure"
+  },
+  {
+   "key": "merry",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "image_seen": "emotions/merry@2x.webp — a yellow smiley with closed arched eyes, blushing cheeks and a wide open laughing mouth",
+   "reason": "The picture shows a QUALITY (an emotional state), not a countable thing. No gender, no plural. The current de/fr g='m' is the 'red -> [Rot,Rot,m]' bug this commission exists to remove: 'der Froehlich' is not German.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "milk",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "At the Supermarket/milk@2x.webp — a glass bottle with a red cap, filled with white milk",
+   "reason": "A substance. The bottle is packaging (this is the supermarket theme, where goods are shown as retail products); the label names the milk, not the bottle. Mass -> keeps gender (die Milch), no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "mittens",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "winter/mittens@2x.webp — a PAIR of green knitted mittens joined by a green cord",
+   "reason": "Two mittens are shown and the English label is the plural of sister key 'mitten'. The label IS the plural. Sister key 'mitten' keeps the singular/plural pair; per the curtain/curtains rule these are two legitimate rows and must not be merged.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "moose",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "animals/moose@2x.webp — ONE cartoon moose, brown, broad palmate antlers, standing in profile",
+   "reason": "A single countable animal. English merely ZERO-PLURALISES moose — the brief's headline trap. Duden: 'der Elch; Genitiv: des Elch[e]s, Plural: die Elche' — a correct plural, as are sv alg->algar and fr elan->elans. Classifying this as 'no plural' would destroy correct plurals in ten languages.",
+   "overturns_hypothesis": false,
+   "source": "https://www.duden.de/rechtschreibung/Elch"
+  },
+  {
+   "key": "muscles",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "body parts/muscles@2x.webp — a bare-chested man flexing BOTH arms, with the arm/shoulder/chest musculature drawn in bright red over the skin",
+   "reason": "The English label is plural and the picture highlights MANY muscles at once (both biceps, deltoids, pectorals, abdominals). The label IS the plural (de Muskeln = plural of Muskel); nothing further to pluralise. This key is the origin of the invented sv 'Musklerar' cited in the brief; hasPlural:false is what stops that word class being manufactured again.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "neptune",
+   "category": "proper-noun",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "space/neptune@2x.webp — a sphere with horizontal deep-blue, pale-blue and rust bands, terminator shadow at left",
+   "reason": "A named planet -> proper noun, keeps gender, no plural. Of the five banded planet renders in this batch this is the most astronomically plausible (Neptune really is deep blue).",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "oatmeal",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "breakfast/oatmeal@2x.webp — a red bowl of creamy porridge studded with tan and brown oat flakes, dark spoon resting in it",
+   "reason": "A substance served in a bowl. Mass -> keeps gender (der Haferbrei), no plural. NEAR-DUPLICATE FINDING: this and breakfast/porridge@2x.webp are the same dish in the same red bowl — see 'porridge'.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "oil",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "At the Supermarket/oil@2x.webp — a glass cruet with a handle, cork stopper and a blank oval label, filled with golden oil",
+   "reason": "themes=[At the Supermarket] is decisive: cooking oil, a substance, not the chemist's or painter's oils. The cruet is packaging. Mass -> keeps gender (das Oel), no plural. The fr row's 'Huiles' is the kinds-of-oil sortal plural, not the pictured substance, so it is correctly dropped.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "overalls",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "clothing/overalls@2x.webp — ONE orange bib-and-brace dungaree garment, two shoulder straps, chest pocket, four buttons, rolled cuffs",
+   "reason": "THE INVERSE OF THE ZERO-PLURAL TRAP: the label LOOKS plural but the picture is ONE object. English 'overalls' is a plurale tantum and that is an English-only fact. Duden: 'die Latzhose; Genitiv: der Latzhose, Plural: die Latzhosen' — a real correct plural that must be kept, as must fr Salopette->Salopettes. en_looks_plural:true must not drive the decision.",
+   "overturns_hypothesis": false,
+   "source": "https://www.duden.de/rechtschreibung/Latzhose"
+  },
+  {
+   "key": "pajamas",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "clothing/pajamas@2x.webp — ONE red pyjama SET laid flat: long-sleeved button shirt with white collar above matching trousers, red spot pattern",
+   "reason": "Two garments composing ONE outfit is not 'several of a thing'. English 'pajamas' is a plurale tantum; de Schlafanzug->Schlafanzuege, fr Pyjama->Pyjamas and sv Pyjamas->Pyjamasar are correct plurals that must be kept. Same class as 'overalls'.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "pants",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "clothing/pants@2x.webp — ONE pair of YELLOW KNEE-LENGTH bermuda shorts: belt loops, button fly, dark pocket linings, contrast turn-up cuffs ending at/above the knee",
+   "reason": "One countable garment -> keeps gender and plural (de Hose->Hosen, fr Pantalon->Pantalons are correct). LEMMA MISMATCH: the picture is KNEE-LENGTH SHORTS, not trousers. en 'Pants' (US = full-length), de 'Hose' and fr 'Pantalon' do not name knee-length shorts, and the batch already has 'shorts' (teal, above-knee) and 'trousers' (grey, ankle-length, belted) — I opened all three and compared. The prior verdict described this image as 'a single pair of trousers' and claimed to have read it directly; it is not trousers. Either the art or the key is wrong.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "partly-cloudy",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "image_seen": "weather/partly_cloudy@2x.webp — a yellow sun with rays partly hidden behind two grey-blue clouds",
+   "reason": "A weather STATE — a quality, not a thing; one of a state series with rainy/sunny/stormy in the same theme, all of which I opened. No gender, no plural. Current de g='m' ('der Teilweise bewoelkt') is not German.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "pasta",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "At the Supermarket/pasta@2x.webp — a red-ended cellophane packet with a clear window showing many yellow rigatoni tubes",
+   "reason": "A bulk quantity of a foodstuff in a retail packet; en 'Pasta' is a mass noun, like rice. Mass -> keeps gender, no plural. de 'Nudeln' and fr 'Pates' are plural-form collectives for the same referent and equally need nothing further — the flags are identical either way, so the mass/plural-picture label is descriptive only here.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "peanut-butter",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "At the Supermarket/peanut_butter@2x.webp — a squat glass jar with a red screw lid and a blank label, filled with golden-brown peanut butter",
+   "reason": "A substance; the jar is packaging. Mass -> keeps gender (die Erdnussbutter), no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "peas",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "At the Supermarket/peas@2x.webp — two green pea PODS, the upper one split open showing five round peas inside",
+   "reason": "Several peas are visible and the English label is the plural of sister key 'pea'. The label IS the plural. Minor note: the most salient objects are actually the PODS (de Erbsenschoten), with the peas visible inside — acceptable for 'peas', but the art leads with the pod.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "photography",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "activities/photography@2x.webp — a bright green DSLR CAMERA with a large silver zoom lens, three-quarter view",
+   "reason": "I opened the image: it is a CAMERA — a physical countable object. LEMMA MISMATCH: de 'Fotografie' names photography-the-practice (or a photograph); it does not name what is pictured (Fotoapparat / Kamera does). This is the brief's chess shape exactly (chess is also themed [activities], its art is a piece, and the brief rules the abstract/metonym reading WRONG). raw_type 'verb-gerund' is doubly wrong: neither a gerund nor an activity. hasPlural:true describes Kamera->Kameras and MUST NOT be applied to the label 'Fotografie' until the mismatch is fixed — see systemic_finding.",
+   "overturns_hypothesis": true,
+   "source": ""
+  },
+  {
+   "key": "pink",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "image_seen": "colors/pink@2x.webp — a single pink teardrop/paint-drop shape with a magenta edge and a white highlight",
+   "reason": "The picture shows a COLOUR — a quality. No gender, no plural. The canonical 'never speak der Rot' case.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "pliers",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "tools/pliers@2x.webp — ONE pair of combination/side-cutting pliers, grey jaws, single pivot rivet, red collars, yellow grips",
+   "reason": "ONE tool — two arms joined at a single pivot is still one object. English 'pliers' is a plurale tantum; the referent is a single countable object. de Zange->Zangen and fr Pince->Pinces are correct and must be kept. COLLISION FINDING: 'pliers' and 'tongs' carry IDENTICAL labels in de (Zange), sv (Tang) and fr (Pince) but are different pictures — see 'tongs'.",
+   "overturns_hypothesis": false,
+   "source": "https://www.duden.de/rechtschreibung/Zange"
+  },
+  {
+   "key": "popcorn",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "At the Supermarket/popcorn@2x.webp — a red-and-white striped cinema carton heaped with popped popcorn",
+   "reason": "A mass foodstuff; the carton is the container. Mass -> keeps gender (das Popcorn), no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "porridge",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "breakfast/porridge@2x.webp — a red bowl of thick cream-coloured porridge with tan and brown flecks",
+   "reason": "A substance in a bowl. Mass -> keeps gender (der Brei), no plural. NEAR-DUPLICATE FINDING: essentially the same dish in the same red bowl as breakfast/oatmeal@2x.webp (that one adds a spoon and clearer oat flakes). de Haferbrei vs Brei, sv Havregryn vs Groet. Two keys, one referent for a 3-7 year old — flagged.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "potato-chips",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "At the Supermarket/potato_chips@2x.webp — a red foil snack bag with three yellow potato crisps shown on/through it",
+   "reason": "Several crisps and the English label is the plural; de/sv/fr 'Chips' are plurale-tantum collectives. The label IS the plural. DATA DEFECT: the de row reads singular 'Kartoffelchip' -> 'Kartoffelchips', but the picture is not one crisp — for this plural-picture the de label should simply be 'Kartoffelchips'.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "pretzels",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "At the Supermarket/pretzels@2x.webp — ONE single knotted pretzel, golden-brown with salt/sesame flecks",
+   "reason": "LEMMA MISMATCH (number). The picture shows exactly ONE pretzel, but every label is PLURAL: en 'Pretzels', de 'Brezeln', sv 'Kringlor', fr 'Bretzels'. Duden: 'die Brezel; Genitiv: der Brezel, Plural: die Brezeln' — the shipped de label is the plural of a word whose singular is Brezel. The brief is explicit that the referent decides, and the referent is one countable pretzel -> gender + plural. The prior verdict saw the same single pretzel but classified from the LABEL's form instead; that inverts the operator's rule. The labels must be re-singularised — at which point this row duplicates sister key 'pretzel' and one of the two is redundant. Flagged for the operator rather than silently resolved.",
+   "overturns_hypothesis": false,
+   "source": "https://www.duden.de/rechtschreibung/Brezel"
+  },
+  {
+   "key": "pruning-shears",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "tools bw/pruning_shears@2x.webp — ONE pair of line-art secateurs, curved blade and hook, single pivot, two handles",
+   "reason": "ONE tool. English 'shears' is a plurale tantum; the referent is a single countable object. Duden confirms 'Plural: die Gartenscheren' — a correct German plural that must be kept, as must fr Secateur->Secateurs.",
+   "overturns_hypothesis": false,
+   "source": "https://www.duden.de/rechtschreibung/Gartenschere"
+  },
+  {
+   "key": "pufferfish",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "ocean life/pufferfish@2x.webp — ONE cartoon pufferfish, round yellow body with pale spots, orange-red fins and spiky dorsal crest, cream belly",
+   "reason": "A single countable fish. English merely zero-pluralises fish — the angelfish case. de Kugelfisch->Kugelfische, sv blasfisk->blasfiskar, fr poisson-globe->poissons-globes are correct and must be kept.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "purple",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "image_seen": "colors/purple@2x.webp — a single purple teardrop/paint-drop shape with a violet edge and a white highlight",
+   "reason": "The picture shows a COLOUR — a quality. No gender, no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "rain-boots",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "clothing/rain_boots@2x.webp — a PAIR of orange/red wellington boots with navy trim and soles, standing side by side",
+   "reason": "TWO separate boots, left and right = several objects, and the English label is plural. The label IS the plural (de Gummistiefel is invariant; sv Gummistoevlar and fr Bottes de pluie are plural). Contrast trousers/sunglasses, which are SINGLE objects with plural-only labels — the difference is what the picture shows.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "rainy",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "image_seen": "weather/rainy@2x.webp — a blue-grey layered cloud with many navy raindrops falling beneath it",
+   "reason": "A weather STATE — a quality, not a thing. No gender, no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "reading",
+   "category": "activity",
+   "hasGender": false,
+   "hasPlural": false,
+   "image_seen": "activities/reading@2x.webp — a girl sitting cross-legged on a white cushion, holding an open teal book and reading it",
+   "reason": "The picture genuinely shows the ACTIVITY: a person performing the act. No gender, no plural. Corroboration: sv renders it 'Laesa', a bare INFINITIVE, which cannot carry a gender at all. One of the honest keys in the otherwise inconsistent 'activities' theme — see systemic_finding.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "red",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "image_seen": "colors/red@2x.webp — a single bright red teardrop/paint-drop shape with a darker red edge and a pale highlight",
+   "reason": "The picture shows a COLOUR — a quality. The brief's flagship example of the bug: red -> [Rot,Rot,m] stamped a gender onto something that cannot have one. No gender, no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "reindeer",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "animals/reindeer@2x.webp — ONE cute cartoon deer with dark branching antlers, orange-brown coat with cream spots and belly, standing",
+   "reason": "A single countable animal. English merely ZERO-PLURALISES reindeer — de Rentier->Rentiere, sv ren->renar, fr renne->rennes are correct and must be kept. Art note: drawn with white spots and thin branching antlers, reading more like a fallow-deer fawn than a true reindeer (broad palmate antlers, no spots) — stylised children's art, not a lemma defect.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "rice",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "At the Supermarket/rice@2x.webp — an open pink/red paper grocery bag with a serrated top, heaped with pale rice grains",
+   "reason": "A bulk substance made of many grains but lexically a mass noun in every locale here. Mass -> keeps gender (der Reis), no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "running",
+   "category": "activity",
+   "hasGender": false,
+   "hasPlural": false,
+   "image_seen": "activities/running@2x.webp — a girl in a red top, yellow sleeves, navy shorts and trainers, mid-stride running in profile, both feet off the ground",
+   "reason": "The picture genuinely shows the ACTIVITY: a person performing the act. No gender, no plural. Corroboration: sv renders it 'Springa', a bare INFINITIVE, which cannot carry a gender.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "sad",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "image_seen": "emotions/sad@2x.webp — a yellow smiley with drooping brows, downturned mouth and blushing cheeks",
+   "reason": "The picture shows a QUALITY (an emotional state), not a countable thing. No gender, no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "sand",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "summer/sand@2x.webp — a mound/dune of pale yellow and brown sand with small red pebbles",
+   "reason": "A substance — the brief's own mass example. Mass -> keeps gender (der Sand), no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "sandals",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "beach/sandals@2x.webp — a PAIR of purple two-strap slide sandals with a buckle, tan footbeds, shown at an angle",
+   "reason": "TWO separate sandals = a genuine pair, and the English label is plural. The label IS the plural. DATA DEFECT: the de row reads SINGULAR 'Sandale' for a picture of two — it should be 'Sandalen'; same for any locale whose label is singular.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "saturn",
+   "category": "proper-noun",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "space/saturn@2x.webp — a banded cream/orange/brown sphere encircled by a wide tilted ring system",
+   "reason": "A named planet -> proper noun, keeps gender, no plural. The most recognisable and accurate of the planet renders in this batch.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "scared",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "image_seen": "emotions/scared@2x.webp — a yellow smiley with raised brows, huge wide eyes and an open mouth showing teeth",
+   "reason": "The picture shows a QUALITY (an emotional state), not a countable thing. No gender, no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "scarlet",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "image_seen": "colors/scarlet@2x.webp — a single bright red teardrop/paint-drop shape, very slightly more orange-red than colors/red@2x.webp",
+   "reason": "themes=[colors] is decisive: the colour, not the pimpernel or any object. A QUALITY: no gender, no plural. FINDING: I opened 'red' and 'scarlet' side by side and they are near-indistinguishable — the same droplet at almost the same hue. For a 3-7 year old these two keys are not perceptually separable; flagged as a possible art/curation problem (it does not change the classification).",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "science",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "activities/science@2x.webp — a MICROSCOPE: yellow curved arm, teal head, black eyepiece tube, red base, objective lenses and stage",
+   "reason": "I opened the image: it is a MICROSCOPE — a physical countable object. LEMMA MISMATCH: de 'Wissenschaft' names science-the-discipline and does not name what is pictured (Mikroskop does). I have NOT missed that the brief's category table uses 'science' as its example of abstract — but that table illustrates the CATEGORY with a familiar word; it is not a verdict on this key's picture, and the brief's binding rule ('LOOK AT THE PICTURE... the whole job') plus its chess precedent (also themed [activities], art = a piece, abstract reading ruled WRONG) govern. hasPlural:true describes Mikroskop->Mikroskope and MUST NOT be applied to the label 'Wissenschaft' until the mismatch is fixed — see systemic_finding. If the operator intends this key to mean the discipline, the ART must change; that is a content call.",
+   "overturns_hypothesis": true,
+   "source": ""
+  },
+  {
+   "key": "scissors",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "classroom/scissors@2x.webp — ONE pair of blue-handled school scissors, open, two blades crossed on a single pivot",
+   "reason": "ONE tool — two blades hinged on a single rivet is one object, not two. English 'scissors' is a plurale tantum; the referent is a single countable object. de Schere->Scheren and sv sax->saxar are correct and must be kept. Duden confirms Schere is a singular feminine noun ('Sche-re, die; Substantiv, feminin'). en_looks_plural:true is a trap.",
+   "overturns_hypothesis": false,
+   "source": "https://www.duden.de/rechtschreibung/Schere"
+  },
+  {
+   "key": "scrubs",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "hospital/scrubs@2x.webp — ONE turquoise short-sleeved V-neck scrub TOP with pink trim and pockets, a navy stethoscope draped around the neckline. No scrub trousers.",
+   "reason": "GENUINELY BORDERLINE; flagging rather than pretending certainty. The labels are collective clothing terms (de 'OP-Kleidung', sv 'Sjukhusklaeder') and a collective takes no plural — mass keeps gender (die OP-Kleidung, correct) and avoids inventing 'OP-Kleidungen'. The prior verdict ruled countable-thing to preserve fr Tenue medicale->Tenues medicales, which IS a correct French plural; I judge that ruling manufactures a bad German plural for ten locales to save one, so I rule mass and surface the fr cost explicitly. PARTIAL-LEMMA NOTE: en 'Scrubs' names the two-piece outfit but the picture shows only the top plus a stethoscope. The clean fix (also the prior pass's good suggestion) is a countable per-locale label such as der OP-Kittel, after which countable-thing would be right.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "scuba-diving",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "travel and holiday bw/scuba_diving@2x.webp — a line-art DIVING MASK with a snorkel strapped to its side; no diver, no water",
+   "reason": "I opened the image: it is diving EQUIPMENT — a mask with the snorkel physically clipped to it, i.e. one assembly, not the activity. LEMMA MISMATCH: de 'Tauchen' names the act of diving; it does not name what is pictured (Taucherbrille / Tauchmaske does). Countable: de Taucherbrille->Taucherbrillen. raw_type 'verb-gerund' overturned. hasPlural:true describes the mask and MUST NOT be applied to the label 'Tauchen' until the mismatch is fixed — see systemic_finding.",
+   "overturns_hypothesis": true,
+   "source": ""
+  },
+  {
+   "key": "seaweed",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "ocean life/seaweed@2x.webp — a clump of green kelp/seaweed, six fronds rising from a common base, pale spots",
+   "reason": "GENUINELY BORDERLINE; the prior verdict ruled countable-thing on the reasonable ground that the plant is bounded and that fr Algue->Algues is correct. I rule mass because en 'Seaweed', de 'Seetang' and sv 'Sjoegraes' — the shipped labels — are mass nouns with no natural plural (de 'Seetange' is marginal at best), and ruling countable would manufacture a bad plural across the Germanic locales to preserve one French plural. Mass -> keeps gender (der Seetang), no plural. FLAGGED: the fr row 'Algue' is a different lexeme ('an alga') and IS countable — the fr row deserves review, and if the operator prefers countable labels (de die Alge->Algen) the ruling should flip.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "sewing",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "activities/sewing@2x.webp — a red SEWING MACHINE: body, needle bar and presser foot, spool of red thread on top, handwheel, dark base plate",
+   "reason": "I opened the image: it is a SEWING MACHINE — a physical countable object, not an activity. LEMMA MISMATCH: de 'Naehen' names the act of sewing; it does not name what is pictured (Naehmaschine does). Countable: de Naehmaschine->Naehmaschinen. raw_type 'verb-gerund' overturned. hasPlural:true describes the machine and MUST NOT be applied to the label 'Naehen' (sv 'Sy' is a bare infinitive) until the mismatch is fixed — see systemic_finding.",
+   "overturns_hypothesis": true,
+   "source": ""
+  },
+  {
+   "key": "sheep",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "animals/sheep@2x.webp — ONE cute cartoon sheep, white fleece, tan face and legs, pink inner ears, facing front",
+   "reason": "THE FLAGSHIP ZERO-PLURAL. A single countable animal; English merely zero-pluralises sheep. de Schaf->Schafe and fr mouton->moutons are CORRECT plurals and must be kept — marking this 'no plural' off en[0]===en[1] is precisely the single most dangerous error the brief names. Swedish independently zero-pluralises (ett faar -> tva faar), which is a Swedish fact, not a fact about the picture, and not a reason to strip the German or French plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "shoes",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "objects bw/shoes_2@2x.webp — a PAIR of line-art lace-up shoes/plimsolls, side by side at an angle",
+   "reason": "Two shoes and the English label is the plural of sister key 'shoe'. The label IS the plural. FILE-RESOLUTION FINDING: the row says no_image:false but there is NO shoes@2x.webp anywhere; the art is objects bw/shoes_2@2x.webp and resolves only under the 'ignore trailing numbers' rule (shoes 2 -> shoes). Worth confirming the loader actually applies that rule for this key, or the picture is unreachable in practice.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "shorts",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "clothing/shorts@2x.webp — ONE pair of teal drawstring shorts with a ribbed waistband, cream tie, pockets and turn-up cuffs, above the knee",
+   "reason": "ONE garment — one waistband, two legs. English 'shorts' is a plurale tantum; the referent is a single countable object. fr Short->Shorts is a correct French plural and must be kept; de 'Shorts' is invariant, so keeping the plural field costs nothing. Same class as overalls/trousers.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "shrimp",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "ocean life/shrimp@2x.webp — ONE red-and-cream striped shrimp/prawn curled in profile, long antennae, legs and tail fan",
+   "reason": "A single countable crustacean. English merely ZERO-PLURALISES shrimp — named explicitly in the brief's zero-plural list. Duden: 'Plural: die Garnelen'; sv raeka->raekor and fr crevette->crevettes likewise correct. Must be kept.",
+   "overturns_hypothesis": false,
+   "source": "https://www.duden.de/rechtschreibung/Garnele"
+  },
+  {
+   "key": "shy",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "image_seen": "emotions/shy@2x.webp — a yellow/orange smiley with lashed eyes glancing sideways, big blushing cheeks and a small bashful smile",
+   "reason": "The picture shows a QUALITY (an emotional state), not a countable thing. No gender, no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "singing",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "activities/singing@2x.webp — a MICROPHONE: dark mesh ball head, blue-grey body with yellow/orange bands, trailing cable. No singer.",
+   "reason": "I opened the image: it is a MICROPHONE — a physical countable object, not an activity. LEMMA MISMATCH: de 'Singen' names the act of singing; it does not name what is pictured (Mikrofon does). A child shown a microphone and told 'Singen' learns the wrong word — this is the defect class the brief calls more serious than a wrong plural. Countable: de Mikrofon->Mikrofone. raw_type 'verb-gerund' overturned. hasPlural:true describes the microphone and MUST NOT be applied to the label 'Singen' (sv 'Sjunga' is a bare infinitive) until the mismatch is fixed — see systemic_finding.",
+   "overturns_hypothesis": true,
+   "source": ""
+  },
+  {
+   "key": "skating",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "activities/skating@2x.webp — ONE bright pink lace-up ICE SKATE with a dark sole and a steel blade. One boot, not a pair; no skater.",
+   "reason": "I opened the image: it is a single ICE SKATE — a physical countable object, not an activity. LEMMA MISMATCH: de 'Schlittschuhlaufen' names the act. Duden gives the pictured object as a SEPARATE word: 'der Schlittschuh; Genitiv: des Schlittschuh[e]s, Plural: die Schlittschuhe' — a countable noun with a correct plural, and demonstrably not the same lemma as Schlittschuhlaufen. raw_type 'verb-gerund' overturned. hasPlural:true describes Schlittschuh and MUST NOT be applied to the label 'Schlittschuhlaufen' until the mismatch is fixed — see systemic_finding.",
+   "overturns_hypothesis": true,
+   "source": "https://www.duden.de/rechtschreibung/Schlittschuh"
+  },
+  {
+   "key": "skeptical",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "image_seen": "NO IMAGE AVAILABLE (no_image:true confirmed — no skeptical@2x.webp exists in emotions/ or anywhere in the theme tree). Classified from en + themes as the brief directs.",
+   "reason": "themes=[emotions]; every other key in that theme that I opened (merry, sad, scared, shy, surprised, tired) is a smiley expressing an emotional state, and 'skeptical' is unambiguously a quality word. A QUALITY -> no gender, no plural. Dead-data key: nothing resolves to it.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "skiing",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "activities/skiing@2x.webp — a PAIR of blue downhill SKIS side by side with yellow bindings. No skier, no snow.",
+   "reason": "I opened the image: it is two SKIS — equipment, not the activity. This is the trap the brief predicted for this batch by name. LEMMA MISMATCH, and Duden proves the two words are different lemmas: 'Skifahren' is Substantiv, NEUTRUM (the activity), while the pictured object is 'der Ski', Substantiv, MASKULIN (plural die Skier). Two skis are shown and the natural label is the plural (Skier / skidor / skis), so the label IS the plural — hence plural-picture, not countable-thing. raw_type 'verb-gerund' overturned.",
+   "overturns_hypothesis": true,
+   "source": "https://www.duden.de/rechtschreibung/Skifahren"
+  },
+  {
+   "key": "sledding",
+   "category": "activity",
+   "hasGender": false,
+   "hasPlural": false,
+   "image_seen": "winter/sledding@2x.webp — a girl in a red jumper sitting on a wooden sled with dark runners, sliding along",
+   "reason": "The picture genuinely shows the ACTIVITY: a child performing the act (and a separate 'sled' key carries the OBJECT). No gender, no plural. Decisive corroboration: fr renders this 'Faire de la luge' — a bare VERB PHRASE, which cannot carry a gender or a plural at all. Contrast 'skiing' and 'skating' in the same domain, which picture bare equipment.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "slippers",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "clothing/slippers@2x.webp — a PAIR of open-toe slide slippers, yellow footbeds with red/navy banded straps",
+   "reason": "TWO separate slippers = a genuine pair, and the English label is plural. The label IS the plural. DATA DEFECT: the de row carries the SINGULAR 'Hausschuh' for a two-slipper picture; it should be 'Hausschuhe'. Art note: the drawing is a slide/mule, visually close to beach/sandals@2x.webp.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "sneakers",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "objects bw/sneakers@2x.webp — a PAIR of line-art high-top lace-up sneakers, side by side",
+   "reason": "Two sneakers and the English label is the plural of sister key 'sneaker'. The label IS the plural; de 'Turnschuhe' and fr 'Baskets' are already plural. Sister key 'sneaker' keeps the singular/plural pair — two legitimate rows, not duplicates.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "snow-boots",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "clothing/snow_boots@2x.webp — a PAIR of red winter boots with cream fleece cuffs, dark toe caps and lugged soles",
+   "reason": "TWO separate boots = a genuine pair, and the English label is plural. The label IS the plural (de Schneestiefel is invariant; sv Snoekaengor and fr Bottes de neige are plural).",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "snowboarding",
+   "category": "activity",
+   "hasGender": false,
+   "hasPlural": false,
+   "image_seen": "winter/snowboarding@2x.webp — a snowboarder in a yellow jacket, red trousers, helmet, goggles and gloves, crouched riding a navy board",
+   "reason": "The picture genuinely shows the ACTIVITY: a person performing the act. No gender, no plural. de renders it as the nominalised infinitive 'Snowboarden'.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "soccer",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "activities/soccer@2x.webp — ONE football/soccer BALL: classic cream-and-dark truncated-icosahedron panels. I also opened sports bw/soccer@2x.webp (the key's other theme) = a line-art soccer ball, AND the SEPARATE key's art sports bw 2/soccer_ball@2x.webp = a near-identical line-art soccer ball.",
+   "reason": "The brief's football case verbatim: the picture is a BALL, so countable — de Fussball->Fussbaelle, sv fotboll->fotbollar (the Swedish native who insisted 'en fotboll -> fotbollar' was right, because she was picturing the ball). raw_type 'verb-gerund' overturned. THE REAL FINDING, which neither prior framing reached: the prior verdict correctly noted a separate 'soccer-ball' key exists (I verified it in image-vocabulary.js) and concluded the ball art here is a harmless metonym for the sport. It is not harmless — I opened both, and 'soccer' and 'soccer-ball' show THE SAME REFERENT, a soccer ball. So the key is lexically reserved for the sport while its art duplicates another key. LEMMA MISMATCH (en): de 'Fussball' and sv 'Fotboll' name the ball as well as the sport so they render correctly, but English has no 'a soccer' — the ball is 'a soccer ball', so the en label does not name the pictured object. Either this key's art should become the sport, or the key is redundant against 'soccer-ball'. Operator content call.",
+   "overturns_hypothesis": true,
+   "source": ""
+  },
+  {
+   "key": "spinach",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "vegetables/spinach@2x.webp — ONE single green spinach leaf with a pale stem and dark branching veins",
+   "reason": "en 'Spinach' and de 'Spinat' are mass nouns for the vegetable and take no plural — ruling countable-thing would invent 'Spinate'. Mass -> keeps gender (der Spinat), no plural. PARTIAL-LEMMA NOTE: the art shows a single LEAF (de Spinatblatt) rather than a quantity of spinach. fr normally uses the plural 'les epinards' for the vegetable, so the fr row's plural is a plural-preferring collective label, not evidence of a countable referent.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "squid",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "ocean life/squid@2x.webp — ONE red squid: pointed conical mantle, big eyes, eight suckered arms trailing below",
+   "reason": "A single countable cephalopod. English merely ZERO-PLURALISES squid — named explicitly in the brief's zero-plural list. de Tintenfisch->Tintenfische, sv blaeckfisk->blaeckfiskar, fr calmar->calamars are correct and must be kept. Precision note: de 'Tintenfisch' and sv 'Blaeckfisk' are broad cover terms (squid/cuttlefish/octopus); the pointed mantle identifies this specifically as a squid (de Kalmar), so the labels are loose but not wrong.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "stairs",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "around the house/stairs@2x.webp — ONE flight of four solid steps in red, teal, yellow and red, rising left to right",
+   "reason": "ONE staircase whose treads are joined — not several separable objects. English 'stairs' is a plurale tantum (the countable English unit is 'a stair'/'a step'), but every other locale names the whole staircase with an ordinary countable noun: de Treppe->Treppen (Duden cites the plural in use: 'bis zur Plattform des Turms sind es mehrere Treppen'), sv trappa->trappor, fr escalier->escaliers — all correct plurals that 'plural-picture' would destroy. Same class as overalls.",
+   "overturns_hypothesis": false,
+   "source": "https://www.duden.de/rechtschreibung/Treppe"
+  },
+  {
+   "key": "starfish",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "ocean life/starfish@2x.webp — ONE orange-yellow five-armed starfish with a smiling face and cream dots along the arms",
+   "reason": "A single countable animal. English merely zero-pluralises -fish compounds — de Seestern->Seesterne, sv sjoestjaerna->sjoestjaernor, fr etoile de mer->etoiles de mer are correct and must be kept.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "stormy",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "image_seen": "weather/stormy@2x.webp — a red storm cloud with dark raindrops falling and a yellow lightning bolt through them",
+   "reason": "A weather STATE — a quality, not a thing. No gender, no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "sunglasses",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "accessories/sunglasses@2x.webp — ONE pair of orange-framed sunglasses with dark tinted lenses, front view; one frame, two lenses, two arms",
+   "reason": "ONE object. English 'sunglasses' is a plurale tantum; the referent is a single countable item. This is the Brille->Brillen case the brief warns about BY NAME: Duden gives 'die Sonnenbrille; Genitiv: der Sonnenbrille, Plural: die Sonnenbrillen' — a correct plural that MUST NOT be destroyed. fr 'Lunettes de soleil' is plural-only in French, which is a French fact and not a reason to strip the German plural.",
+   "overturns_hypothesis": false,
+   "source": "https://www.duden.de/rechtschreibung/Sonnenbrille"
+  },
+  {
+   "key": "sunny",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "image_seen": "weather/sunny@2x.webp — a yellow sun with orange rays and a smiling face with blushing cheeks",
+   "reason": "A weather STATE — a quality. It sits in the weather theme as one of a state series with rainy/stormy/partly-cloudy, all of which I opened. No gender, no plural. NOTE: this is the one weather-state key whose art could be read as a THING (the sun); if the operator wants 'the sun' as an object that is a different key, not this one.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "surprised",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "image_seen": "emotions/surprised@2x.webp — a yellow smiley with raised brows, wide lashed eyes and a small round open mouth",
+   "reason": "The picture shows a QUALITY (an emotional state), not a countable thing. No gender, no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "suspenders",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "accessories/suspenders@2x.webp — ONE pair of red Y-shaped braces with a leather joining patch and clips, buttoned onto blue jeans (the jeans are scene context)",
+   "reason": "ONE item — a single Y-back brace, two front straps joined at one leather Y-piece. English 'suspenders' is a plurale tantum; the referent is a single countable object. de 'Hosentraeger' is masculine and invariant in the plural, so keeping the plural field is harmless and correct. Same class as overalls. Note fr 'Bretelles' is plural-shaped (une bretelle = one strap).",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "sweatpants",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "clothing/sweatpants@2x.webp — ONE pair of joggers, grey left leg and orange right leg, drawstring waist, ribbed ankle cuffs",
+   "reason": "ONE garment — one drawstring waist, two legs. English 'sweatpants' is a plurale tantum; the referent is a single countable object. de Jogginghose->Jogginghosen and fr Pantalon de jogging->Pantalons de jogging are correct and must be kept.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "swimming",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "activities/swimming@2x.webp — a pair of SWIMMING GOGGLES: two yellow lenses in red/navy gaskets on a purple strap. No swimmer, no water.",
+   "reason": "I opened the image: it is swimming EQUIPMENT (one pair of goggles), not the activity — even though 'swimming' is named verbatim in the brief's activity row, because the brief's overriding rule is that the PICTURE decides and this picture is not a person swimming. LEMMA MISMATCH: de 'Schwimmen' names the act; it does not name what is pictured (Schwimmbrille does). One countable object -> de Schwimmbrille->Schwimmbrillen (the Brille->Brillen pattern again). raw_type 'verb-gerund' overturned. hasPlural:true describes the goggles and MUST NOT be applied to the label 'Schwimmen' until the mismatch is fixed — see systemic_finding.",
+   "overturns_hypothesis": true,
+   "source": ""
+  },
+  {
+   "key": "swordfish",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "sea life bw/swordfish@2x.webp — ONE line-art swordfish in profile, long sword bill, tall dorsal fin, crescent tail",
+   "reason": "A single countable fish. English merely zero-pluralises -fish compounds — de Schwertfisch->Schwertfische, sv svaerdfisk->svaerdfiskar, fr espadon->espadons are correct and must be kept.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "table-tennis",
+   "category": "abstract",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "sports bw/table_tennis@2x.webp — a line-art table-tennis PADDLE with a small ball beside it. Two separate objects; no player.",
+   "reason": "OVERTURN. Unlike the single-ball keys (soccer, volleyball) this is a TWO-OBJECT composite — paddle PLUS ball — so it is not 'one countable thing', and neither object is called 'table tennis'. The composite is the conventional emblem for the SPORT, which is what every label names (de Tischtennis, fr Tennis de table). raw_type 'verb-gerund' is wrong (not a gerund), but 'activity' would be wrong too: das Tischtennis is a real noun with a real neuter gender, and the operator's rule strips gender only from qualities and activities. So: abstract — gender YES (never invent an article-less rendering for a real noun), plural NO (there is no *Tischtennisse). Credit to the prior verdict for this argument, which I adopt on the Duden evidence at 'tennis'. Note the salient object is a paddle (de Tischtennisschlaeger), which the label does not name.",
+   "overturns_hypothesis": true,
+   "source": ""
+  },
+  {
+   "key": "tennis",
+   "category": "abstract",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "activities/tennis@2x.webp — a tennis RACKET (navy/red frame, strung head, striped grip) with a yellow tennis ball beside it. Two separate objects; no player. I also opened sports bw 2/tennis_racket@2x.webp (the separate racket key) = a line-art racket.",
+   "reason": "OVERTURN. A TWO-OBJECT composite — racket PLUS ball — so not 'one countable thing' (contrast soccer/volleyball, which ARE single balls). This is the key the Dutch round could not settle as 'sports twijfel'; the picture settles it. Both objects have their OWN separate keys ('tennis-ball', 'tennis-racket' — I verified both exist in image-vocabulary.js with their own assets), so this key is the SPORT. raw_type 'verb-gerund' is wrong (not a gerund), and 'activity' would also be wrong: Duden gives 'das Tennis; Genitiv: des Tennis', Substantiv Neutrum, with NO plural form — a real gender that must be kept and no plural to invent (*Tennisse). Hence abstract: gender YES, plural NO. This ruling is the prior verdict's, adopted on evidence I fetched myself.",
+   "overturns_hypothesis": true,
+   "source": "https://www.duden.de/rechtschreibung/Tennis"
+  },
+  {
+   "key": "tights",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "accessories/tights@2x.webp — ONE pair of red tights shown on a pair of legs, opaque at the hip and sheer down the legs to bare toes",
+   "reason": "ONE garment. English 'tights' is a plurale tantum; the referent is a single countable object. de Strumpfhose->Strumpfhosen is correct and must be kept. Same class as overalls. Minor art note: the garment is drawn worn on legs rather than flat, but the garment is plainly the subject.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "tired",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "image_seen": "emotions/tired@2x.webp — a yellow smiley with drooping brows, closed heavy-lidded eyes and an open yawning mouth",
+   "reason": "The picture shows a QUALITY (a state), not a countable thing. No gender, no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "tongs",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "kitchen tools/tongs@2x.webp — ONE pair of red/navy kitchen tongs, two serrated scoop arms joined at a riveted hinge",
+   "reason": "ONE tool. English 'tongs' is a plurale tantum; the referent is a single countable object. de Zange->Zangen and fr Pince->Pinces are correct and must be kept. COLLISION FINDING: 'tongs' and 'pliers' ship IDENTICAL labels in de (Zange), sv (Tang) and fr (Pince) but are DIFFERENT pictures — I opened both (wire-cutting pliers vs kitchen tongs). Duden's Zange entry covers the whole gripping-tool class, so the label is not wrong, merely under-specified; de would want Kuechenzange/Grillzange here to separate the two keys.",
+   "overturns_hypothesis": false,
+   "source": "https://www.duden.de/rechtschreibung/Zange"
+  },
+  {
+   "key": "toothpaste",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "around the house/toothpaste@2x.webp — a white and red crimped TUBE of toothpaste with a red cap, at an angle",
+   "reason": "A substance; the tube is packaging and the label names the paste. Mass -> keeps gender (die Zahnpasta), no plural. The fr row's 'Dentifrices' is the brands/kinds sortal plural, not the pictured substance, so it is correctly dropped.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "triceratops",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "dinosaurs/triceratops@2x.webp — ONE teal cartoon dinosaur with THREE horns (two brow, one nose) and a spiky teal frill/ridge running back over the shoulders",
+   "reason": "A single countable animal. en_looks_plural:true is a FALSE FLAG — the trailing -s is Greek (-ops, 'face'), not an English plural marker; the machine could not know that. English zero-pluralises it (triceratops/triceratopses); sv Triceratops->Triceratopsar is a correct plural and must be kept. Art note: the frill is drawn as exaggerated stegosaur-like dorsal spikes rather than the true bony neck frill — the three horns still identify it; stylisation, not a lemma defect.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "trousers",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "clothing/trousers@2x.webp — ONE pair of grey ANKLE-LENGTH trousers with a brown belt and gold buckle, pockets, turn-up cuffs",
+   "reason": "ONE garment — one waistband, two legs. English 'trousers' is a plurale tantum; the referent is a single countable object. de Hose->Hosen and fr Pantalon->Pantalons are correct and must be kept. Same class as overalls. NOTE: this key and 'pants' share identical de/fr labels but the pictures differ — this one is genuinely full-length; 'pants' shows knee-length shorts (see that row's LEMMA MISMATCH).",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "turquoise",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "image_seen": "colors/turquoise@2x.webp — a single pale turquoise teardrop/paint-drop shape with a teal edge and a white highlight",
+   "reason": "themes=[colors] is decisive: the COLOUR, not the gemstone (a gemstone would be a countable-thing) — exactly the disambiguation the brief describes for 'orange'. A QUALITY: no gender, no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "underpants",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "clothing/underpants@2x.webp — ONE pair of briefs, cream with a red waistband and red leg trim, front view",
+   "reason": "ONE garment. English 'underpants' is a plurale tantum; the referent is a single countable object. de Unterhose->Unterhosen is correct and must be kept. LABEL NOTE (fr): 'Sous-vetements' means underwear/undergarments in general, not this specific briefs garment — fr would want 'Slip' or 'Culotte'. Flagged for fr review.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "uranus",
+   "category": "proper-noun",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "space/uranus@2x.webp — a sphere with horizontal red/cream/dark bands, terminator shadow at right",
+   "reason": "A named planet -> proper noun, keeps gender, no plural. ART-ACCURACY NOTE (does not change the category): the real Uranus is a near-featureless PALE CYAN ball; this render is red/cream banded and appears to come from the same generic banded-planet template as 'mercury'.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "us",
+   "category": "proper-noun",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "4th of July/us@2x.webp — a MAP of the contiguous United States with each state filled in a different colour",
+   "reason": "themes=[4th of July] is decisive: the country, not the pronoun 'us'. A named thing -> proper noun, keeps gender (die USA), no plural. Note fr 'Etats-Unis' is plural in FORM but is a fixed proper name (les Etats-Unis, m.pl.), not a pluralisable count noun, so gender m is right and no further plural is needed. Label note: the en label is the abbreviation 'US' while de/fr use 'USA'/'Etats-Unis'.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "vegetables",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "farm bw/vegetables@2x.webp — a line-art woven basket heaped with assorted vegetables: leafy greens, a carrot, beetroot/turnips with tops, a round root",
+   "reason": "Several distinct vegetables and the English label is the plural of 'vegetable'. The label IS the plural. de 'Gemuese' is a neuter COLLECTIVE mass noun rather than a plural — it reaches the same answer (das Gemuese, no plural) by a different route, so hasPlural:false is right for every locale here. The basket is a container, not the subject.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "venus",
+   "category": "proper-noun",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "space/venus@2x.webp — an orange/cream horizontally banded sphere, terminator shadow at lower left",
+   "reason": "A named planet -> proper noun: it IS a noun, so it keeps its gender and simply has no plural — the brief cites this key as the precedent that gender and plural are two independent axes. GENDER BUG FOUND (fr): the shipped fr row is g='m', but Larousse gives Venus as 'nom feminin ... (de Venus, nom propre)' — French Venus is FEMININE (la planete Venus). Same class as the German venus der->die correction the brief calls real and load-bearing; because proper nouns KEEP their gender, this one is live and must be fixed to f.",
+   "overturns_hypothesis": false,
+   "source": "https://www.larousse.fr/dictionnaires/francais/v%C3%A9nus"
+  },
+  {
+   "key": "volleyball",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "image_seen": "sports bw/volleyball@2x.webp — ONE line-art volleyBALL with the classic curved panel seams",
+   "reason": "OVERTURN, and it splits from tennis/table-tennis on evidence, not intuition: this is a SINGLE object, a ball — the brief's football case. Countable: de Volleyball->Volleybaelle, sv volleyboll->volleybollar. Unlike soccer/tennis there is NO separate 'volleyball-ball' or 'volleyball-net' key in image-vocabulary.js (I verified: 'soccer-ball', 'tennis-ball' and 'tennis-racket' all exist, no volleyball equivalent), so nothing else covers the object and this key must carry it. Unlike 'soccer', the en label is fine here: 'a volleyball' names the ball in English as well as the sport, so there is no lemma mismatch. raw_type 'verb-gerund' overturned.",
+   "overturns_hypothesis": true,
+   "source": ""
+  },
+  {
+   "key": "water",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "At the Supermarket/water@2x.webp — a clear plastic bottle with a red cap, filled with blue water",
+   "reason": "A substance; the bottle is packaging — the brief's own mass example. Mass -> keeps gender (das Wasser), no plural. The fr row's 'Eaux' is the bodies/kinds-of-water sortal plural, not the pictured substance, so it is correctly dropped.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "white",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "image_seen": "colors/white@2x.webp — a single teardrop/paint-drop shape in a very pale grey-lavender (drawn slightly off-white so it reads against the white background)",
+   "reason": "The picture shows a COLOUR — a quality. No gender, no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "writing",
+   "category": "activity",
+   "hasGender": false,
+   "hasPlural": false,
+   "image_seen": "activities/writing@2x.webp — a young man at a desk, leaning over an open book/notebook and writing in it with a pencil, eraser beside him",
+   "reason": "The picture genuinely shows the ACTIVITY: a person performing the act. No gender, no plural. Corroboration: sv renders it 'Skriva', a bare INFINITIVE, which cannot carry a gender. One of the honest keys in the otherwise inconsistent 'activities' theme.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "yellow",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "image_seen": "colors/yellow@2x.webp — a single yellow teardrop/paint-drop shape with a darker gold edge and a white highlight",
+   "reason": "The picture shows a COLOUR — a quality. No gender, no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "yogurt",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "image_seen": "NO IMAGE RESOLVES TO THIS KEY (no_image:true confirmed — no yogurt@2x.webp exists). I opened the adjacent art the key was clearly meant to reach, breakfast/yoghurt@2x.webp: a red plastic pot with a white/cream swirl of yogurt on top.",
+   "reason": "A substance in a pot. Mass -> keeps gender (der Joghurt), no plural. DEAD-KEY FINDING: the art exists under the BRITISH spelling 'yoghurt' while the key is the American 'yogurt', so nothing resolves — a one-character spelling gap makes this key dead data, trivially fixable by renaming one file or the key. The fr row's 'Yaourts' is the pots/kinds sortal plural, correctly dropped here.",
+   "overturns_hypothesis": false,
+   "source": ""
+  }
+ ]
+}

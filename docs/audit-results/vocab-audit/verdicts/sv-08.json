@@ -1,0 +1,667 @@
+{
+ "locale": "sv",
+ "batch": "08",
+ "reviewed": 110,
+ "rows": [
+  {
+   "key": "overalls",
+   "singular": {"verdict": "PLURALIA_TANTUM", "reason": "'Hängselbyxor' is a plural (byxor); Swedish has no usable singular for a pair of dungarees — the plural form in the field is the correct citation form", "source": "SAOL (byxor)"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "oviraptor",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "owl",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "ox",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "oyster",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "FIX", "correct": "Ostron", "reason": "SAOL: ett ostron -> flera ostron (neuter, zero plural, like päron/plommon in this same batch). 'Ostronar' is not a Swedish word", "source": "SAOL"},
+   "gender": {"verdict": "FIX", "correct": "t", "reason": "ett ostron — neuter. The word is simply absent from the script's hand-written SV_ETT_WORDS list, which produced BOTH the wrong gender and the invented -ar plural from one cause", "source": "SAOL"}
+  },
+  {
+   "key": "pachycephalosaurus",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "HOLD", "reason": "Latin genus name, not in SAOL. Swedish popular usage overwhelmingly pluralises these via the naturalised lemma -saurie (en pachycephalosaurie -> pachycephalosaurier), which is a DIFFERENT lemma, not a form fix. '-usar' is at least a real Swedish pattern (cirkus->cirkusar, bonus->bonusar), so I will not call it invented. Needs an operator decision on lemma policy for all dinosaur genus names", "source": "SAOL (no entry)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "package",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "padlock",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "paint-brush",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "paint-roller",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "paintbrush",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "painting",
+   "singular": {"verdict": "HOLD", "reason": "'Måla' is a verb infinitive (to paint), not a noun. Theme 'activities' + en [Painting, Paintings] leaves it undecided whether the picture shows the ACTIVITY (Målning/Att måla) or the ARTWORK (en målning). Content question about the image — do not rewrite blind"},
+   "plural": {"verdict": "HOLD", "reason": "Internal contradiction: the singular field holds the verb 'Måla' while the plural field holds 'Målningar' — two different lemmas in one row. Resolution depends on the singular decision above"},
+   "gender": {"verdict": "HOLD", "reason": "A verb infinitive has no grammatical gender. If the lemma resolves to 'målning' then n is correct (en målning); undecidable until the singular is resolved"}
+  },
+  {
+   "key": "pajamas",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "palette",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "FIX", "correct": "Paletter", "reason": "SAOL: en palett -> paletter (3rd declension -er, as with all stressed -ett loans: servett->servetter, cigarett->cigaretter). The script's default -ar is wrong here", "source": "SAOL"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "palm-tree",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "FIX", "correct": "Palmer", "reason": "SAOL: en palm -> palmer (3rd declension -er). 'Palmar' is the script's default -ar rule misfiring", "source": "SAOL"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pan",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pancake",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "panda",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pants",
+   "singular": {"verdict": "PLURALIA_TANTUM", "reason": "The depicted item is a pair of trousers = 'byxor', which is plural. SAOL does list a singular 'byxa', but it denotes one leg/garment-half and is not the word for the pictured object — the plural in the field is the correct citation form", "source": "SAOL"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "papaya",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "paper",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "paper-airplane",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "parallelogram",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "HOLD", "reason": "Hangs entirely on the gender question below. Swedish geometry usage is 'en parallellogram' (utrum), which would make the plural 'parallellogrammer' and the current zero plural wrong. Under a neuter reading the current zero plural would be well formed (cf. ett program -> flera program). I cannot verify the SAOL entry, and I will not guess a two-field rewrite"},
+   "gender": {"verdict": "HOLD", "reason": "Suspect. Unlike diagram/program/telegram (Greek gramma 'letter', neuter in Swedish), parallellogram derives from grammé 'line' and is used as UTRUM in Swedish school geometry ('Rita en parallellogram'). If that is right, both the gender t and the zero plural are wrong from one cause. SAOL entry unverified -> flagging rather than guessing"}
+  },
+  {
+   "key": "paramedic",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "parasaurolophus",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "HOLD", "reason": "Same lemma-policy question as pachycephalosaurus/plesiosaurus. Note the zero plural here is inconsistent with the -usar the script gave the other two genus names in this same batch — the data is self-contradictory across the dinosaur set", "source": "SAOL (no entry)"},
+   "gender": {"verdict": "FIX", "correct": "n", "reason": "en parasaurolophus — animate creatures are utrum in Swedish (en dinosaurie, en tyrannosaurus). The 't' is also inconsistent with the 'n' the same script gave pachycephalosaurus, plesiosaurus and oviraptor in this batch"}
+  },
+  {
+   "key": "parasol",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "FIX", "correct": "Parasoll", "reason": "SAOL: ett parasoll -> flera parasoll (neuter, consonant-final, zero plural). 'Parasollar' is not a Swedish word", "source": "SAOL"},
+   "gender": {"verdict": "FIX", "correct": "t", "reason": "ett parasoll, parasollet — neuter. Missing from the script's SV_ETT_WORDS list, which caused BOTH the wrong gender and the invented -ar plural from one cause", "source": "SAOL"}
+  },
+  {
+   "key": "park-ranger",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "parrot",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "parsnip",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "partly-cloudy",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "NO_PLURAL", "reason": "Adjective phrase describing weather — no plural. p is already set equal to s, which is the correct encoding"},
+   "gender": {"verdict": "HOLD", "reason": "An adjective phrase has no lexical gender; the 'n' code is vacuous rather than wrong. Flagging so it is not counted as a verified utrum"}
+  },
+  {
+   "key": "party-hat",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "passport",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pasta",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "NO_PLURAL", "reason": "Mass noun (ämnesnamn) in the at_the_supermarket sense — en pasta has no child-facing plural. p already equals s, correctly encoded"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pea",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "peach",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "peach-tree",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "peacock",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "peanut-butter",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "NO_PLURAL", "reason": "Mass noun (ämnesnamn): ett jordnötssmör has no child-facing plural. p already equals s, correctly encoded. NB this is NOT the neuter zero plural class — smör simply is not counted"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pear",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pear-tree",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "peas",
+   "singular": {"verdict": "HOLD", "reason": "The singular field holds a plural ('Ärtor'). This is NOT pluralia tantum — en ärta is a perfectly normal Swedish singular and is already carried by the key 'pea'. The key is deliberately the plural gloss (a supermarket bag of peas), so fixing this means deciding key policy (drop the key / accept a plural-gloss key), not correcting a form"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "peeler",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pegasus",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "NO_PLURAL", "reason": "Egennamn: Pegasus is the proper name of the one winged horse of Greek myth; Swedish has no everyday plural (the English gloss 'Pegasuses' notwithstanding). 'Pegasusar' should be dropped and p set equal to s"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pelican",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "FIX", "correct": "Pelikaner", "reason": "SAOL: en pelikan -> pelikaner (3rd declension -er, like all stressed -an loans: banan->bananer, orkan->orkaner, roman->romaner). 'Pelikanar' is the script's default -ar misfiring", "source": "SAOL"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pen",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pencil",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "penguin",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pentagon",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "peony",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pepper",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "perfume",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "persimmon",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "FIX", "correct": "Persimoner", "reason": "'Persimonar' is a script-invented -ar form of the same class as 'Lägerar'. Latinate -on fruit loans are 3rd declension utrum in Swedish (citron->citroner, melon->meloner), giving persimon->persimoner. Honest caveat: I am inferring by analogy — I have not verified a SAOL entry for persimon and am NOT citing one; the -ar form is wrong under any reading", "source": "analogy (SAOL: citron->citroner, melon->meloner)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "petunia",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pharmacist",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "phlox",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "photographer",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "photography",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "NO_PLURAL", "reason": "Substantiverat verb / activity name (theme 'activities'): fotografering as the activity has no plural. A plural 'fotograferingar' exists only in the countable 'photo shoots' sense, which is not what the picture shows. p already equals s, correctly encoded"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "piano",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "FIX", "correct": "Pianon", "reason": "SAOL: ett piano -> flera pianon. Vowel-final neuters take -n (4th declension); the script's blanket neuter zero plural is right only for consonant-final neuters", "source": "SAOL"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pickaxe",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pickup-truck",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "HOLD", "reason": "en pickup is correct, but I cannot confirm whether SAOL gives pickupar or pickuper for this English -up loan; both patterns exist in Swedish. Not guessing. Lowest priority: noImage (dead data)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "picnic",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "picnic-table",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "picture-frame",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pie",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "FIX", "correct": "Pajer", "reason": "SAOL: en paj -> pajer (3rd declension -er). 'Pajar' is the script's default -ar misfiring; cf. äppelpajer, not *äppelpajar", "source": "SAOL"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pig",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pigeon",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "piglet",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pillow",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pilot",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pine-tree",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pineapple",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "FIX", "correct": "Ananaser", "reason": "SAOL: en ananas -> ananaser (3rd declension -er). 'Ananasar' is the script's default -ar misfiring. NB the -as ending does NOT license -ar generally: pyjamas->pyjamasar in this same batch is a genuine -ar word — judged word by word, not by pattern", "source": "SAOL"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pinecone",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pink",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "NO_PLURAL", "reason": "Colour adjective (rosa, indeclinable) — no plural. p already equals s, correctly encoded"},
+   "gender": {"verdict": "HOLD", "reason": "An adjective has no lexical gender; the 'n' code is vacuous rather than wrong. Flagging so it is not counted as a verified utrum"}
+  },
+  {
+   "key": "pinwheel",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pipe-wrench",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "FIX", "correct": "Rörtänger", "reason": "Umlaut plural, which the script cannot do at all: SAOL en tång (verktyg) -> tänger, hence rörtång -> rörtänger. 'Rörtångar' is not a Swedish word", "source": "SAOL"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pitcher",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pizza",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "planet",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "plant",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "FIX", "correct": "Växter", "reason": "SAOL: en växt -> växter (3rd declension -er). 'Växtar' is the script's default -ar misfiring and is not a Swedish word", "source": "SAOL"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "plate",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "FIX", "correct": "Tallrikar", "reason": "SAOL: en tallrik -> tallrikar (2nd declension -ar). 'Tallriker' is not a Swedish word — note this one is NOT the -ar default misfiring but an over-correction away from it", "source": "SAOL"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "play",
+   "singular": {"verdict": "HOLD", "reason": "'Leka' is a verb infinitive, not a noun. The English gloss [Play, Plays] is itself ambiguous (theatre play vs playing), the key is an orphan (N7) with no image, and type/countable are null. Nothing here can be resolved as a form fix — this looks like dead data that should be dropped"},
+   "plural": {"verdict": "HOLD", "reason": "Undecidable until the lemma is resolved: 'pjäser' (plays) and 'lek/lekande' (playing) are different words, neither derivable from the field as it stands"},
+   "gender": {"verdict": "HOLD", "reason": "A verb infinitive has no grammatical gender; the 'n' code is vacuous"}
+  },
+  {
+   "key": "playground",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "FIX", "correct": "Lekplatser", "reason": "SAOL: en plats -> platser (3rd declension -er), hence lekplats -> lekplatser. 'Lekplatsar' is the script's default -ar misfiring and is not a Swedish word", "source": "SAOL"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "plesiosaurus",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "HOLD", "reason": "Same lemma-policy question as pachycephalosaurus. Swedish has the naturalised lemma 'plesiosaurie' (en plesiosaurie -> plesiosaurier); moving to it is a lemma change, not a form fix, so it must not be done unilaterally. Needs one operator ruling covering the whole dinosaur set", "source": "SAOL (no entry for the genus name)"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pliers",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "FIX", "correct": "Tänger", "reason": "HOMONYM + umlaut. SAOL has two 'tång': the tool (tången -> TÄNGER, umlaut) and the seaweed (tången, no count plural). Theme 'tools' fixes the tool reading -> tänger. 'Tångar' is not a Swedish plural for either sense; the script cannot do umlaut at all. NB the Swedish tool is singular (en tång), unlike English 'pliers' — the singular field is correct, this is not pluralia tantum", "source": "SAOL"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "plum",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "plum-tree",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "plunger",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "polar-bear",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "police-car",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "police-officer",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "FIX", "correct": "Poliser", "reason": "SAOL: en polis -> poliser (3rd declension -er). 'Polisar' is the script's default -ar misfiring and is not a Swedish word", "source": "SAOL"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pomegranate",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pony",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "FIX", "correct": "Ponnyer", "reason": "en ponny -> ponnyer (3rd declension -er); this is the settled form in Swedish equestrian usage ('ponnyer och hästar', ponnyallsvenskan). 'Ponnyar' is the script's default -ar misfiring", "source": "SAOL / established usage"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pool",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "popcorn",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "poplar-tree",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "popsicle",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "porcupine",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "porridge",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "NO_PLURAL", "reason": "Mass noun (ämnesnamn): en gröt has no child-facing plural. p already equals s, correctly encoded"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "post-office",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "postal-scale",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "HOMONYM checked, and the data is right: SAOL has two 'våg' — the weighing device (vågen -> VÅGAR) and the wave on water (vågen -> vågor). A postal scale is the device, so postvåg -> postvågar is correct. Deliberately NOT 'flagged' — this is the Kamel control case", "source": "SAOL"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pot",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "potato",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK", "reason": "Control case: the -ar here is NOT the script default misfiring — SAOL genuinely gives en potatis -> potatisar. Leave alone", "source": "SAOL"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "potato-chips",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pottery",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "NO_PLURAL", "reason": "SERIOUS: 'Keramiker' is not the plural of keramik — it is a DIFFERENT LEMMA meaning 'potter (the person)' (en keramiker). A child would hear/see the craftspeople where the picture shows the craft. 'Keramik' is a mass noun (the material/the craft, theme 'activities') and has no plural -> set p equal to s", "source": "SAOL"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "present",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pretzel",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pretzels",
+   "singular": {"verdict": "HOLD", "reason": "The singular field holds a plural ('Kringlor'). Not pluralia tantum — en kringla is a normal Swedish singular and is already carried by the key 'pretzel'. Same class as the 'peas' key: the key is deliberately a plural gloss, so this is a key-policy decision, not a form fix"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "price-tag",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "projector",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  },
+  {
+   "key": "pruning-shears",
+   "singular": {"verdict": "OK"},
+   "plural": {"verdict": "OK"},
+   "gender": {"verdict": "OK"}
+  }
+ ]
+}

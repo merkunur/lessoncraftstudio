@@ -1,0 +1,1263 @@
+{
+ "locale": "sv",
+ "corrections": {
+  "singular": {
+   "beanie": {
+    "to": "Mössa",
+    "from": "Mossa",
+    "why": "SEVERE — WRONG WORD, NOT A WRONG FORM. 'Mossa' is MOSS (the plant, Bryophyta). The hat is 'mössa'. This is diacritic loss (ö -> o) producing a real but entirely different Swedish word, so no spellcheck or net catches it: a child sees a hat and hears/reads 'moss'. Both spellings are real words, which is exactly why it survived",
+    "src": "SAOL"
+   },
+   "blocks": {
+    "to": "Kloss",
+    "from": "Klossar",
+    "why": "'Klossar' is a plural form standing in the singular field (the defect class named in the brief). SAOL: kloss subst. ~en ~ar. The lemma singular is 'kloss'; the image may show several blocks, but the singular field must hold the singular (a counting exercise needs '1 kloss / 2 klossar').",
+    "src": "SAOL"
+   },
+   "boots": {
+    "to": "Stövel",
+    "from": "Stövlar",
+    "why": "A plural form in the singular field. SAOL: stövel subst. ~n, pl. stövlar (syncope). NOT pluralia tantum — unlike 'byxor'/'glasögon', 'stövel' has a living singular (en stövel). The image probably shows a pair; the singular field must still hold the singular.",
+    "src": "SAOL"
+   },
+   "cheeks": {
+    "to": "Kind",
+    "from": "Kinder",
+    "why": "'Kinder' is the PLURAL of 'kind' standing in the singular field. SAOL: en kind, kinden, kinder. (Not German 'Kinder' = children — the Swedish form is a genuine plural of kind.)",
+    "src": "SAOL"
+   },
+   "clementine": {
+    "to": "Klementin",
+    "from": "Clementin",
+    "why": "Spelling: SAOL has 'klementin' with k. The stored singular 'Clementin' is an unassimilated spelling that contradicts its own plural 'Klementiner' in the same row — this is what N5 detected",
+    "src": "SAOL"
+   },
+   "cookies": {
+    "to": "Kaka",
+    "from": "Kakor",
+    "why": "'Kakor' is a PLURAL standing in the singular field. 'kaka' has a perfectly normal singular, so this is not PLURALIA_TANTUM — it is a pure form fix. Flagging for the catalog owner: the corrected row then duplicates key 'cookie' exactly, which is a de-duplication question downstream, not part of this correction",
+    "src": "SAOL"
+   },
+   "crayons": {
+    "to": "Krita",
+    "from": "Kritor",
+    "why": "'Kritor' is a PLURAL standing in the singular field. 'krita' has a normal singular, so this is not PLURALIA_TANTUM. Same downstream note as 'cookies': the corrected row then duplicates key 'crayon'",
+    "src": "SAOL"
+   },
+   "crutches": {
+    "to": "Krycka",
+    "from": "Kryckor",
+    "why": "'Kryckor' is a PLURAL standing in the singular field. This is NOT pluralia tantum: unlike glasögon/byxor, 'en krycka' is entirely normal Swedish, so a singular exists and belongs here",
+    "src": "SAOL"
+   },
+   "curtains": {
+    "to": "Gardin",
+    "from": "Gardiner",
+    "why": "'Gardiner' is a PLURAL standing in the singular field. 'en gardin' is normal Swedish, so this is not pluralia tantum. Same downstream note as 'cookies'/'crayons': the corrected row then duplicates key 'curtain'",
+    "src": "SAOL"
+   },
+   "cymbals": {
+    "to": "Cymbal",
+    "from": "Cymbaler",
+    "why": "'Cymbaler' is a PLURAL standing in the singular field. 'en cymbal' exists, so this is not pluralia tantum",
+    "src": "SAOL"
+   },
+   "dice": {
+    "to": "Tärning",
+    "from": "Tärningar",
+    "why": "The singular field holds a PLURAL form. English 'Dice' is the plural of 'die'; Swedish has a live singular: en tärning -> flera tärningar. Not pluralia tantum.",
+    "src": "SAOL"
+   },
+   "eyelashes": {
+    "to": "Ögonfrans",
+    "from": "Ögonfransar",
+    "why": "The singular field holds a PLURAL form. Unlike 'glasögon'/'byxor', 'ögonfrans' is NOT pluralia tantum — en ögonfrans -> flera ögonfransar is live Swedish. The English gloss being plural-only does not make the Swedish word plural-only.",
+    "src": "SAOL"
+   },
+   "ice-skate": {
+    "to": "Skridsko",
+    "from": "Skridskor",
+    "why": "A PLURAL is sitting in the singular field — the known defect class. The English gloss is singular ('Ice Skate'); Swedish singular is 'en skridsko'. 'Skridskor' is its plural.",
+    "src": "SAOL"
+   },
+   "kangaroo": {
+    "to": "Känguru",
+    "from": "Kanguru",
+    "why": "MISSPELLING: the Swedish word is 'känguru' with ä. 'Kanguru' is not Swedish (it is the German/Dutch shape) and is not in SAOL. This is the only outright misspelled headword in the batch.",
+    "src": "SAOL"
+   },
+   "lilac": {
+    "to": "Syren",
+    "from": "Syrén",
+    "why": "SAOL spells the shrub 'syren', without the acute accent. 'Syrén' is not the SAOL form.",
+    "src": "SAOL"
+   },
+   "muffin": {
+    "to": "Muffins",
+    "from": "Muffin",
+    "why": "The Swedish singular is 'en muffins' — the English plural was borrowed as the Swedish singular (same pattern as en keps < caps, ett kex < cakes). 'En muffin' is a back-formation. This batch corroborates it internally: key 'muffin-tin' already stores 'Muffinsform', built on the muffins- stem, not *muffinform",
+    "src": "SAOL lemma 'muffins'; Språkrådet recommends en muffins / flera muffins"
+   },
+   "native-american": {
+    "to": "Indian",
+    "from": "Indianer",
+    "why": "The singular field holds the PLURAL: en indian -> flera indianer. Singular is 'Indian'. SEPARATE CONTENT FLAG (not a form matter, raised for the operator): Språkrådet regards 'indian' as dated and contested; a children's site may want 'urfolk i Amerika' / 'nordamerikansk urbefolkning'. That is a lemma/appropriateness decision beyond this audit",
+    "src": "SAOL (indian, indianen, indianer)"
+   },
+   "octopus": {
+    "to": "Bläckfisk",
+    "from": "Blackfisk",
+    "why": "MISSPELLING: 'Blackfisk' is not a Swedish word. The word is 'bläckfisk' (bläck = ink). The missing umlaut makes this a non-word that a child would both see projected and hear read aloud",
+    "src": "SAOL (bläckfisk)"
+   },
+   "santa": {
+    "to": "Jultomte",
+    "from": "Jultomten",
+    "why": "'Jultomten' is the DEFINITE form ('the Santa'). The file's convention is the bare indefinite form without definiteness (cf. 'Katt', not 'Katten'). The indefinite singular is 'en jultomte'",
+    "src": "SAOL"
+   },
+   "santa-claus": {
+    "to": "Jultomte",
+    "from": "Jultomten",
+    "why": "same defect as key 'santa': 'Jultomten' is the definite form; the bare indefinite is 'en jultomte'",
+    "src": "SAOL"
+   },
+   "sink": {
+    "to": "Diskbänk",
+    "from": "Diskbank",
+    "why": "'Diskbank' IS NOT A SWEDISH WORD — it is a misspelling of 'diskbänk' (disk + bänk = 'washing-up bench'). A child would be shown and read a non-word. Pure spelling fix of the same lemma.",
+    "src": "SAOL"
+   }
+  },
+  "plural": {
+   "ambulance": {
+    "to": "Ambulanser",
+    "from": "Ambulansar",
+    "why": "en ambulans -> flera ambulanser; French-type loans in stressed -ans take -er (chans -> chanser, allians -> allianser). 'Ambulansar' is the script's default -ar and is not a Swedish form",
+    "src": "SAOL"
+   },
+   "antelope": {
+    "to": "Antiloper",
+    "from": "Antilopar",
+    "why": "en antilop -> flera antiloper; loans with final-syllable stress take -er (ballong -> ballonger, balkong -> balkonger). 'Antilopar' is the script's default -ar",
+    "src": "SAOL"
+   },
+   "apple-pie": {
+    "to": "Äppelpajer",
+    "from": "Äppelpajar",
+    "why": "en paj -> flera pajer; 'pajar' is not a Swedish form (script default -ar)",
+    "src": "SAOL"
+   },
+   "armchair": {
+    "to": "Fåtöljer",
+    "from": "Fåtöljar",
+    "why": "en fatolj -> flera fatoljer; French loan (fauteuil) with final stress takes -er. 'Fatoljar' is the script default",
+    "src": "SAOL"
+   },
+   "aster": {
+    "to": "Astrar",
+    "from": "Asterar",
+    "why": "en aster -> flera astrar; -er nouns syncopate the stem vowel (syster -> systrar, åker -> åkrar). 'Asterar' is the script's default -ar bolted onto an unsyncopated stem and is not a Swedish word",
+    "src": "SAOL"
+   },
+   "asteroid": {
+    "to": "Asteroider",
+    "from": "Asteroidar",
+    "why": "en asteroid -> flera asteroider; -oid loans take -er. 'Asteroidar' is the script default",
+    "src": "SAOL"
+   },
+   "avocado": {
+    "to": "Avokador",
+    "from": "Avokados",
+    "why": "en avokado -> flera avokador; common-gender -o loans take -r (flamingo -> flamingor, dynamo -> dynamor). 'Avokados' is an English -s plural, not a Swedish form (it circulates colloquially but is not the dictionary form)",
+    "src": "SAOL"
+   },
+   "baby-overall": {
+    "to": "Babyoveraller",
+    "from": "Babyoverallar",
+    "why": "en overall -> flera overaller; the -er declension. 'Overallar' is the script's default -ar",
+    "src": "SAOL"
+   },
+   "bagel": {
+    "to": "Baglar",
+    "from": "Bagels",
+    "why": "en bagel -> flera baglar; -el nouns syncopate (cykel -> cyklar, nyckel -> nycklar, sockel -> socklar). 'Bagels' in the data is the English -s plural and is not a Swedish plural form at all",
+    "src": "SAOL"
+   },
+   "baguette": {
+    "to": "Baguetter",
+    "from": "Baguettar",
+    "why": "en baguette -> flera baguetter; -e loans take -r. 'Baguettar' is the script default and is not a word",
+    "src": "SAOL"
+   },
+   "balloon": {
+    "to": "Ballonger",
+    "from": "Ballongar",
+    "why": "en ballong -> flera ballonger; -ong loans with final stress take -er. 'Ballongar' is the script default and is not a word",
+    "src": "SAOL"
+   },
+   "bathing-suit": {
+    "to": "Baddräkter",
+    "from": "Baddräktar",
+    "why": "en drakt -> flera drakter; 'baddraktar' is the script's default -ar and is not a word",
+    "src": "SAOL"
+   },
+   "beach-umbrella": {
+    "to": "Parasoll",
+    "from": "Parasollar",
+    "why": "ett parasoll -> flera parasoll; consonant-final neuter takes zero plural. 'Parasollar' is the script's default -ar, applied because the word was missing from SV_ETT_WORDS — the exact camp/Lagerar failure, with BOTH fields wrong from ONE cause",
+    "src": "SAOL"
+   },
+   "beanie": {
+    "to": "Mössor",
+    "from": "Mossor",
+    "why": "en mössa -> flera mössor. The declension was applied correctly — to the wrong lemma ('mossa' -> 'mossor' is also valid, for moss), so the plural silently inherits the same corruption",
+    "src": "SAOL"
+   },
+   "blender": {
+    "to": "Mixrar",
+    "from": "Mixerar",
+    "why": "en mixer -> flera mixrar; -er nouns syncopate (container -> containrar, aster -> astrar). 'Mixerar' is the script's default -ar on an unsyncopated stem and is not a Swedish word",
+    "src": "SAOL"
+   },
+   "bow": {
+    "to": "Rosetter",
+    "from": "Rosettar",
+    "why": "SAOL: rosett subst. ~en ~er. En rosett -> två rosetter. 'Rosettar' is the script's default -ar applied to a final-stressed loanword that takes -er; it is not a Swedish word.",
+    "src": "SAOL"
+   },
+   "bowling-ball": {
+    "to": "Bowlingklot",
+    "from": "Bowlingkloter",
+    "why": "SAOL: klot subst. ~et, plural unchanged. Ett klot -> flera klot. 'Bowlingkloter' is an invented word.",
+    "src": "SAOL"
+   },
+   "briefcase": {
+    "to": "Portföljer",
+    "from": "Portföljar",
+    "why": "SAOL: portfölj subst. ~en ~er. En portfölj -> två portföljer (final-stressed French loan; -er, not the script's default -ar). 'Portföljar' is not a Swedish word.",
+    "src": "SAOL"
+   },
+   "bulldozer": {
+    "to": "Bulldozrar",
+    "from": "Bulldozerar",
+    "why": "-er nouns syncopate and take -ar — exactly the class the brief names (nyckel->nycklar, cykel->cyklar, finger->fingrar); for -er machine loans SAOL documents container->containrar, revolver->revolvrar, trailer->trailrar. 'Bulldozerar' has neither the syncope nor a valid ending and is not a Swedish word.",
+    "src": "SAOL (pattern: container->containrar, revolver->revolvrar)"
+   },
+   "cabana": {
+    "to": "Strandhytter",
+    "from": "Strandhyttar",
+    "why": "SAOL: hytt subst. ~en ~er. En hytt -> två hytter. 'Strandhyttar' is the script's default -ar and is not a Swedish form. (If the singular is ever changed to 'badhytt', the plural is 'badhytter' — same declension.)",
+    "src": "SAOL"
+   },
+   "cabbage": {
+    "to": "Kål",
+    "from": "Kålar",
+    "why": "'Kål' is a mass/collective noun (SAOL: kål ~en, no plural listed); one says 'olika kålsorter', not 'kålar'. 'Kålar' is the script's default -ar and would only be read as 'kinds of cabbage' — not child-level. Structural check: kål is UTRUM, and an utrum noun cannot have a zero plural, so p=s can only be NO_PLURAL here. If a countable plural is ever needed, the lemma must change to 'kålhuvud' (t, zero plural) — that is a lemma decision for the operator, not a form fix.",
+    "src": "SAOL",
+    "cls": "NO_PLURAL"
+   },
+   "camp": {
+    "to": "Läger",
+    "from": "Lägerar",
+    "why": "SAOL: ett läger -> flera läger (zero plural, neuter). 'Lägerar' is not a Swedish word. Confirmed independently, not merely copied from the brief.",
+    "src": "SAOL"
+   },
+   "cardinal": {
+    "to": "Kardinaler",
+    "from": "Kardinalar",
+    "why": "SAOL: kardinal ~en ~er. En kardinal -> två kardinaler (final-stressed -al loan, like general -> generaler, amiral -> amiraler). 'Kardinalar' is the script's default -ar and is not a Swedish word.",
+    "src": "SAOL"
+   },
+   "carrot": {
+    "to": "Morötter",
+    "from": "Moroter",
+    "why": "SAOL: morot subst. ~en, pl. morötter. En morot -> flera morötter — UMLAUT (like rot -> rötter, fot -> fötter), which the brief notes the script cannot do at all. 'Moroter' is not a Swedish word, and this is one of the most common words a Swedish preschooler knows.",
+    "src": "SAOL"
+   },
+   "cast": {
+    "to": "Gips",
+    "from": "Gipsar",
+    "why": "'Gipsar' is not a Swedish word under any reading. As the material, 'gips' is a mass noun; as the object on an arm (themes=hospital, en=Cast/Casts) it is a neuter consonant-final noun with a zero plural: ett gips -> flera gips. Both readings give the same form, so the fix is unambiguous even though the two analyses differ.",
+    "src": "SAOL"
+   },
+   "caterpillar": {
+    "to": "Larver",
+    "from": "Larvar",
+    "why": "SAOL: larv subst. ~en ~er. En larv -> flera larver (the biological term: fjärilslarver, mygglarver). 'Larvar' is the script's default -ar and is not the plural of the insect sense. (Aside: 'larv' also means 'nonsense', but that sense has no plural at all — it cannot rescue 'larvar' either.)",
+    "src": "SAOL"
+   },
+   "cauliflower": {
+    "to": "Blomkål",
+    "from": "Blomkålar",
+    "why": "As `cabbage`: 'blomkål' is a mass/collective noun (SAOL: blomkål ~en, no plural listed); a countable head is 'ett blomkålshuvud'. 'Blomkålar' is the script's default -ar. Structural check: blomkål is utrum, so p=s can only be NO_PLURAL, never a zero plural.",
+    "src": "SAOL",
+    "cls": "NO_PLURAL"
+   },
+   "caulking-gun": {
+    "to": "Fogpistoler",
+    "from": "Fogpistolar",
+    "why": "SAOL: pistol subst. ~en ~er. En pistol -> två pistoler (final-stressed loan; cf. limpistol -> limpistoler). 'Fogpistolar' is the script's default -ar and is not a Swedish word.",
+    "src": "SAOL"
+   },
+   "cedar-tree": {
+    "to": "Cedrar",
+    "from": "Cederar",
+    "why": "-er nouns syncopate and take -ar — the class the brief names (nyckel->nycklar, fjäder->fjädrar, syster->systrar). En ceder -> flera cedrar. 'Cederar' has no syncope and is not a Swedish form.",
+    "src": "SAOL"
+   },
+   "chameleon": {
+    "to": "Kameleonter",
+    "from": "Kameleont",
+    "why": "SAOL: kameleont subst. ~en ~er. En kameleont -> flera kameleonter. The stored p equals s, i.e. the entry claims a zero plural — but zero plural is a NEUTER property, and 'kameleont' is utrum (the entry's own 'n'), so the data is internally impossible as well as wrong.",
+    "src": "SAOL"
+   },
+   "cheeks": {
+    "to": "Kinder",
+    "from": "Kinderar",
+    "why": "SAOL: en kind -> flera kinder (2nd declension -er). 'Kinderar' is not a Swedish word — the script appended its default -ar to an already-plural form",
+    "src": "SAOL"
+   },
+   "cheetah": {
+    "to": "Geparder",
+    "from": "Gepardar",
+    "why": "SAOL: en gepard -> flera geparder (-er, not the script's default -ar). Stressed final -ard loans take -er: cf. leopard -> leoparder, standard -> standarder, boulevard -> boulevarder. 'Gepardar' is not Swedish",
+    "src": "SAOL"
+   },
+   "chimpanzee": {
+    "to": "Schimpanser",
+    "from": "Schimpansar",
+    "why": "SAOL: en schimpans -> flera schimpanser (-er). Loans with stress on a final -ans take -er (cf. elefant -> elefanter, leverans -> leveranser). The script's default -ar produced the non-word 'Schimpansar'",
+    "src": "SAOL"
+   },
+   "chipmunk": {
+    "to": "Jordekorrar",
+    "from": "Jordekorrrar",
+    "why": "SAOL: en ekorre -> flera ekorrar, so jordekorre -> jordekorrar. The stored 'Jordekorrrar' has THREE r's — a typo on top of the rule; it is not a word in any spelling",
+    "src": "SAOL"
+   },
+   "clover": {
+    "to": "Klöver",
+    "from": "Klöverar",
+    "why": "'Klöver' as a plant is a collective/mass noun — 'det växer klöver på ängen'; one does not count *tre klövrar (a child counts 'klöverblad'). p = s is the correct encoding. Note in any case that 'Klöverar' is impossible: -er nouns syncopate (åker -> åkrar, syster -> systrar), so even a hypothetical plural could never be *klöverar",
+    "src": "SAOL",
+    "cls": "NO_PLURAL"
+   },
+   "coconut": {
+    "to": "Kokosnötter",
+    "from": "Kokosnötar",
+    "why": "SAOL: en nöt -> flera nötter, so kokosnöt -> kokosnötter. The script's default produced the non-word 'Kokosnötar'",
+    "src": "SAOL"
+   },
+   "coconut-tree": {
+    "to": "Kokospalmer",
+    "from": "Kokospalmar",
+    "why": "SAOL: en palm -> flera palmer (-er), so kokospalm -> kokospalmer. 'Kokospalmar' is the script's default -ar and is not Swedish",
+    "src": "SAOL"
+   },
+   "comet": {
+    "to": "Kometer",
+    "from": "Kometar",
+    "why": "SAOL: en komet -> flera kometer (-er; final-stressed loan). 'Kometar' is the script's default and is not Swedish",
+    "src": "SAOL"
+   },
+   "compass": {
+    "to": "Kompasser",
+    "from": "Kompassar",
+    "why": "SAOL: en kompass -> flera kompasser (-er; final-stressed loan). 'Kompassar' is the script's default and is not Swedish",
+    "src": "SAOL"
+   },
+   "cone": {
+    "to": "Koner",
+    "from": "Konar",
+    "why": "SAOL: en kon -> flera koner (-er). 'Konar' is the script's default and is not Swedish",
+    "src": "SAOL"
+   },
+   "controller": {
+    "to": "Handkontroller",
+    "from": "Handkontrollar",
+    "why": "SAOL: en kontroll -> flera kontroller (-er; final-stressed loan), so handkontroll -> handkontroller. 'Handkontrollar' is the script's default and is not Swedish",
+    "src": "SAOL"
+   },
+   "crocodile": {
+    "to": "Krokodiler",
+    "from": "Krokodilar",
+    "why": "SAOL: en krokodil -> flera krokodiler (-er; final-stressed loan). 'Krokodilar' is the script's default and is not Swedish",
+    "src": "SAOL"
+   },
+   "curtains": {
+    "to": "Gardiner",
+    "from": "Gardinerar",
+    "why": "SAOL: en gardin -> flera gardiner. 'Gardinerar' is not a Swedish word — the script appended its default -ar to an already-plural form, exactly the 'cheeks'/'cymbals' failure",
+    "src": "SAOL"
+   },
+   "cymbals": {
+    "to": "Cymbaler",
+    "from": "Cymbalerar",
+    "why": "SAOL: en cymbal -> flera cymbaler. 'Cymbalerar' is not a Swedish word — the script appended its default -ar to an already-plural form",
+    "src": "SAOL"
+   },
+   "cypress-tree": {
+    "to": "Cypresser",
+    "from": "Cypressar",
+    "why": "SAOL: en cypress -> flera cypresser (-er; final-stressed loan, cf. adress -> adresser, kongress -> kongresser). 'Cypressar' is the script's default and is not Swedish",
+    "src": "SAOL"
+   },
+   "dandelion": {
+    "to": "Maskrosor",
+    "from": "Maskrosar",
+    "why": "SAOL: en ros -> flera rosor (1st declension -or), so maskros -> maskrosor. 'Maskrosar' is the script's default and is not Swedish — no Swede says anything but 'maskrosor'",
+    "src": "SAOL"
+   },
+   "delivery": {
+    "to": "Leveranser",
+    "from": "Leveransar",
+    "why": "SAOL: en leverans -> flera leveranser (-er). Same final-stressed -ans class as 'schimpans' in this batch. 'Leveransar' is the script's default and is not Swedish",
+    "src": "SAOL"
+   },
+   "dishwasher": {
+    "to": "Diskmaskiner",
+    "from": "Diskmaskinar",
+    "why": "SAOL: maskin -> maskiner (declension 3). 'Diskmaskinar' is the script's default -ar and is not a Swedish word.",
+    "src": "SAOL"
+   },
+   "dolphin": {
+    "to": "Delfiner",
+    "from": "Delfinar",
+    "why": "SAOL: delfin -> delfiner (final-stressed loanword, declension 3). 'Delfinar' is the script's default -ar and is not a Swedish word.",
+    "src": "SAOL"
+   },
+   "dragon-fruit": {
+    "to": "Drakfrukter",
+    "from": "Drakfruktar",
+    "why": "SAOL: frukt -> frukter (declension 3). 'Drakfruktar' is the script's default -ar and is not a Swedish word.",
+    "src": "SAOL"
+   },
+   "dresser": {
+    "to": "Byråer",
+    "from": "Byråar",
+    "why": "SAOL: byrå -> byråer (en byrå, byrån, byråer, byråerna). 'Byråar' is the script's default -ar and is not a Swedish word.",
+    "src": "SAOL"
+   },
+   "dryer": {
+    "to": "Torktumlare",
+    "from": "Torktumlar",
+    "why": "-are nouns are unchanged in the indefinite plural: en torktumlare -> flera torktumlare. 'Torktumlar' is an invented form — the script's -el/-er vowel-drop half-rule misfired on an -are noun and amputated the final -e.",
+    "src": "SAOL"
+   },
+   "eclair": {
+    "to": "Eclairer",
+    "from": "Eclairar",
+    "why": "'Eclairar' is the script's default -ar and is not a Swedish form. Final-stressed French loans of this shape take -er (affär -> affärer, militär -> militärer). Residual uncertainty is only the spelling of the stem, not the -er ending.",
+    "src": "SAOL declension pattern for final-stressed French loans (I am not citing a SAOL entry for this word)"
+   },
+   "eggplant": {
+    "to": "Auberginer",
+    "from": "Auberginar",
+    "why": "SAOL: aubergine -> auberginer (en aubergine, auberginen, auberginer). 'Auberginar' is the script's default -ar and is not a Swedish word.",
+    "src": "SAOL"
+   },
+   "electric-drill": {
+    "to": "Borrmaskiner",
+    "from": "Borrmaskinar",
+    "why": "SAOL: maskin -> maskiner. 'Borrmaskinar' is the script's default -ar and is not a Swedish word.",
+    "src": "SAOL"
+   },
+   "espresso-machine": {
+    "to": "Espressomaskiner",
+    "from": "Espressomaskinar",
+    "why": "SAOL: maskin -> maskiner. 'Espressomaskinar' is the script's default -ar and is not a Swedish word.",
+    "src": "SAOL"
+   },
+   "excavator": {
+    "to": "Grävmaskiner",
+    "from": "Grävmaskinar",
+    "why": "SAOL: maskin -> maskiner. 'Grävmaskinar' is the script's default -ar and is not a Swedish word.",
+    "src": "SAOL"
+   },
+   "face": {
+    "to": "Ansikten",
+    "from": "Ansikte",
+    "why": "ett ansikte -> flera ansikten. The script gave a vowel-final neuter a blank zero plural, which is right only for consonant-final neuters (hus, bord). 'Ansikte' as a plural is not Swedish.",
+    "src": "SAOL"
+   },
+   "ferret": {
+    "to": "Illrar",
+    "from": "Illerar",
+    "why": "SAOL: iller -> illrar (unstressed -er stem drops the vowel: åker -> åkrar, syster -> systrar). 'Illerar' is the script's default -ar bolted onto an undropped stem and is not a Swedish word.",
+    "src": "SAOL"
+   },
+   "fig": {
+    "to": "Fikon",
+    "from": "Fikonar",
+    "why": "SAOL: ett fikon -> flera fikon. Fourth-declension neuter with zero plural. 'Fikonar' is an invented word.",
+    "src": "SAOL"
+   },
+   "fishbowl": {
+    "to": "Fiskakvarier",
+    "from": "Fiskakvariumar",
+    "why": "SAOL: ett akvarium -> flera akvarier (Latin -ium loans: museum -> museer, laboratorium -> laboratorier). 'Fiskakvariumar' is an invented word. Note the two rules disagreed inside the script: genderSv's 'um' suffix rule fired (giving the correct 't'), but the pluraliser fell through to the default +ar.",
+    "src": "SAOL"
+   },
+   "flamingo": {
+    "to": "Flamingor",
+    "from": "Flamingoar",
+    "why": "Unstressed -o utrum loans take -r, not -ar (kimono -> kimonor, sombrero -> sombreror). 'Flamingoar' is the script's default -ar. I am confident about the -r ending; flagging that I am asserting the declension pattern rather than quoting a SAOL entry verbatim.",
+    "src": "SAOL declension pattern for unstressed -o utrum loans"
+   },
+   "flute": {
+    "to": "Flöjter",
+    "from": "Flöjtar",
+    "why": "SAOL: flöjt -> flöjter (declension 3, like the other instruments: gitarr -> gitarrer, trumpet -> trumpeter, fiol -> fioler). 'Flöjtar' is the script's default -ar.",
+    "src": "SAOL"
+   },
+   "garland": {
+    "to": "Girlanger",
+    "from": "Girlangar",
+    "why": "en girlang -> girlanger. Polysyllabic final-stressed -ang loans take -er (bumerang -> bumeranger, orangutang -> orangutanger); the -ar default belongs to native monosyllables like 'slang -> slangar'. 'Girlangar' is the script's default and is not the established form.",
+    "src": "SAOL"
+   },
+   "gazelle": {
+    "to": "Gaseller",
+    "from": "Gasellar",
+    "why": "en gasell -> gaseller. Final-stressed loan nouns take -er — exactly the class of the brief's own control word 'kamel -> kameler'. 'Gasellar' is the script's +ar default and is not a Swedish form.",
+    "src": "SAOL"
+   },
+   "goat": {
+    "to": "Getter",
+    "from": "Getar",
+    "why": "SAOL: en get -> flera getter (geten, getter, getterna). 'Getar' is the script's +ar default and is not a Swedish word — a child would be shown and read an invented form for a farm animal that every 3-7-year-old knows.",
+    "src": "SAOL"
+   },
+   "grapefruit": {
+    "to": "Grapefrukter",
+    "from": "Grapefruktar",
+    "why": "The head noun is 'frukt': en frukt -> frukter, so en grapefrukt -> grapefrukter. 'Grapefruktar' is the script's +ar default and is not a Swedish word. Head-noun inconsistency that no net flagged.",
+    "src": "SAOL"
+   },
+   "guitar": {
+    "to": "Gitarrer",
+    "from": "Gitarrar",
+    "why": "en gitarr -> gitarrer. Final-stressed loan noun, same class as kamel -> kameler and gasell -> gaseller. 'Gitarrar' is the script's +ar default and is not a Swedish word — this is a high-frequency word for the age group (theme music/toys).",
+    "src": "SAOL"
+   },
+   "hexagon": {
+    "to": "Sexhörningar",
+    "from": "Hexagoner",
+    "why": "The two fields hold DIFFERENT LEMMAS: singular 'Sexhörning' (the native, child-appropriate word) but plural 'Hexagoner' (the learned loan). N5 is right for once. Resolved in favour of the singular field, which is the primary one and which matches the sibling key 'heptagon' (Sjuhörning -> Sjuhörningar): en sexhörning -> sexhörningar. A child shown 'Sexhörning' must not hear 'Hexagoner'.",
+    "src": "SAOL"
+   },
+   "hospital-gown": {
+    "to": "Sjukhuskläder",
+    "from": "Sjukhuskläderar",
+    "why": "'Sjukhuskläderar' is not a Swedish word — invented by the script's default +ar. 'kläder' is plurale tantum and never takes -ar. Removing the invented form is right regardless of how the singular is finally resolved.",
+    "src": "SAOL"
+   },
+   "hot-air-balloon": {
+    "to": "Luftballonger",
+    "from": "Luftballongar",
+    "why": "SAOL: ballong, ballongen, ballonger (3rd declension, -er). 'Luftballongar' is the script's default +ar and is not a Swedish form.",
+    "src": "SAOL"
+   },
+   "hot-dog": {
+    "to": "Korvar med bröd",
+    "from": "Korvar",
+    "why": "'Korvar' is the plural of 'korv' alone (= sausages), not of the phrase 'korv med bröd'. The plural of the whole term inflects the head: en korv med bröd -> flera korvar med bröd. As it stands, the plural silently drops the bun and no longer matches the picture.",
+    "src": "SAOL"
+   },
+   "iguana": {
+    "to": "Leguaner",
+    "from": "Leguanar",
+    "why": "SAOL: leguan, leguanen, leguaner. Loanwords with stress on a final -an take -er (jfr pelikan -> pelikaner, tulpan -> tulpaner). 'Leguanar' is the script's default +ar.",
+    "src": "SAOL"
+   },
+   "jam": {
+    "to": "Sylt",
+    "from": "Syltar",
+    "why": "Mass noun in this image context (jam in a jar). 'Syltar' is in any case not a Swedish form — the script's default +ar. p should equal s.",
+    "src": "SAOL",
+    "cls": "NO_PLURAL"
+   },
+   "jellyfish": {
+    "to": "Maneter",
+    "from": "Manetar",
+    "why": "SAOL: manet, maneten, maneter (3rd declension, -er). 'Manetar' is the script's default +ar and is not a Swedish form.",
+    "src": "SAOL"
+   },
+   "kangaroo": {
+    "to": "Känguruer",
+    "from": "Kanguruar",
+    "why": "Wrong on both counts: the ä-spelling per SAOL, and the ending — unstressed-final-u loanwords take -er (jfr gnu -> gnuer, emu -> emuer), not the script's default +ar. 'Kanguruar' is not a Swedish word.",
+    "src": "SAOL (spelling); -u loanword declension for the ending"
+   },
+   "kayak": {
+    "to": "Kajaker",
+    "from": "Kajakar",
+    "why": "SAOL: kajak, kajaken, kajaker (3rd declension, -er — stress on the final syllable; jfr barack -> baracker, attack -> attacker). 'Kajakar' is the script's default +ar.",
+    "src": "SAOL"
+   },
+   "knee": {
+    "to": "Knän",
+    "from": "Knä",
+    "why": "The brief's most productive defect class, and it is a body part a child will meet constantly: ett knä -> flera knän. Vowel-final neuters take -n, not zero plural. The script gave the blank zero plural, which is right only for consonant-final neuters (hus, bord).",
+    "src": "SAOL"
+   },
+   "komodo-dragon": {
+    "to": "Komodovaraner",
+    "from": "Komodovaranar",
+    "why": "SAOL: varan, varanen, varaner (-er; stress on the final -an, same class as leguan -> leguaner in this batch). 'Komodovaranar' is the script's default +ar.",
+    "src": "SAOL"
+   },
+   "lemur": {
+    "to": "Lemurer",
+    "from": "Lemurar",
+    "why": "SAOL: lemur, lemuren, lemurer (-er; stress on the final -ur, jfr figur -> figurer, frisyr -> frisyrer). 'Lemurar' is the script's default +ar.",
+    "src": "SAOL"
+   },
+   "liberty": {
+    "to": "Frihet",
+    "from": "Friheter",
+    "why": "Abstract noun. A plural 'friheter' exists in adult legal/political register ('rättigheter och friheter'), but it is not child-appropriate and does not correspond to anything picturable here. p should equal s.",
+    "src": "SAOL",
+    "cls": "NO_PLURAL"
+   },
+   "librarian": {
+    "to": "Bibliotekarier",
+    "from": "Bibliotekariar",
+    "why": "SAOL: bibliotekarie, bibliotekarien, bibliotekarier. Nouns in -ie take -ier. 'Bibliotekariar' is the script's default +ar and is not a Swedish word.",
+    "src": "SAOL"
+   },
+   "lilac": {
+    "to": "Syrener",
+    "from": "Syrénar",
+    "why": "Wrong on both counts: the accent (see singular) and the ending — SAOL: syren, syrenen, syrener (-er). 'Syrénar' is the script's default +ar.",
+    "src": "SAOL"
+   },
+   "lobster": {
+    "to": "Humrar",
+    "from": "Hummrar",
+    "why": "SAOL: hummer, hummern, humrar — the -er syncope also SHORTENS the double consonant (exactly as sommar -> somrar, hammare -> hamrar). 'Hummrar' with -mmr- is not a possible Swedish spelling. Note this is a rare case where the script produced a wrong form even though it reached for the right declension.",
+    "src": "SAOL"
+   },
+   "manatee": {
+    "to": "Sjökor",
+    "from": "Sjökoar",
+    "why": "en ko -> flera kor, so en sjöko -> flera sjökor. 'Sjökoar' is not a Swedish word; the script's default +ar rule fired on an irregular head noun",
+    "src": "SAOL (ko, kon, kor, korna)"
+   },
+   "mask": {
+    "to": "Masker",
+    "from": "Maskar",
+    "why": "The two senses have DIFFERENT plurals: en mask (ansiktsmask) -> masker, but en mask (djuret) -> maskar. The data carries 'Maskar' = worms, while themes accessories/hospital show a face mask. Exactly the pine-tree/Kiefer trap the brief warns about",
+    "src": "SAOL (mask 1: -er; mask 2: -ar)"
+   },
+   "medal": {
+    "to": "Medaljer",
+    "from": "Medaljar",
+    "why": "en medalj -> flera medaljer (3rd declension -er). 'Medaljar' is not a Swedish word; the script's default +ar rule fired",
+    "src": "SAOL (medalj, medaljen, medaljer)"
+   },
+   "medical-chart": {
+    "to": "Patientjournaler",
+    "from": "Patientjournalar",
+    "why": "en journal -> flera journaler, so en patientjournal -> flera patientjournaler. 'Patientjournalar' is not a Swedish word",
+    "src": "SAOL (journal, -en, -er)"
+   },
+   "medicine": {
+    "to": "Mediciner",
+    "from": "Medicinar",
+    "why": "en medicin -> flera mediciner (stressed -in loans take -er: maskin->maskiner, vitamin->vitaminer). 'Medicinar' is not a Swedish word",
+    "src": "SAOL (medicin, -en, -er)"
+   },
+   "muscles": {
+    "to": "Muskler",
+    "from": "Musklerar",
+    "why": "'Musklerar' is a fabricated DOUBLE plural — the script appended -ar to the already-plural 'muskler'. en muskel -> flera muskler is correct on any reading of the singular field",
+    "src": "SAOL (muskel, muskeln, muskler)"
+   },
+   "musician": {
+    "to": "Musiker",
+    "from": "Musikerar",
+    "why": "en musiker -> flera musiker; -er agent nouns have zero plural. 'Musikerar' is not a Swedish word. Note the internal inconsistency: key 'mechanic' in this same batch stores the identical pattern CORRECTLY as Mekaniker/Mekaniker",
+    "src": "SAOL (musiker, musikern, musiker)"
+   },
+   "native-american": {
+    "to": "Indianer",
+    "from": "Indianerar",
+    "why": "'Indianerar' is a fabricated DOUBLE plural — the script appended -ar to the already-plural 'indianer'",
+    "src": "SAOL"
+   },
+   "nectarine": {
+    "to": "Nektariner",
+    "from": "Nektarinar",
+    "why": "en nektarin -> flera nektariner; stressed -in loans take -er (mandarin->mandariner, medicin->mediciner). 'Nektarinar' is not a Swedish word",
+    "src": "SAOL (nektarin, -en, -er)"
+   },
+   "oak-tree": {
+    "to": "Ekar",
+    "from": "Eker",
+    "why": "en ek -> flera ekar (2nd declension -ar). 'Eker' is not the plural of 'ek' at all — it is a DIFFERENT lemma: en eker = a spoke of a wheel (plural ekrar). A child on a 'tree' page would be shown an oak and told the word for a bicycle spoke",
+    "src": "SAOL (ek, eken, ekar, ekarna)"
+   },
+   "octopus": {
+    "to": "Bläckfiskar",
+    "from": "Blackfiskar",
+    "why": "Same misspelling carried into the plural. en bläckfisk -> flera bläckfiskar (fisk -> fiskar) is otherwise the right declension",
+    "src": "SAOL"
+   },
+   "oil": {
+    "to": "Olja",
+    "from": "Oljor",
+    "why": "Mass noun (ämnesnamn) in the depicted sense: themes = at_the_supermarket, the English gloss has no plural, and countable is false. 'Oljor' is a real Swedish form but only in the sortal reading 'kinds of oil', which a bottle of cooking oil does not show. p should equal s. N1 flag agrees; this matches how 'milk' is already encoded",
+    "src": "",
+    "cls": "NO_PLURAL"
+   },
+   "orangutan": {
+    "to": "Orangutanger",
+    "from": "Orangutangar",
+    "why": "Loans with a stressed final -ang take -er in Swedish: en bumerang -> bumeranger, en mustang -> mustanger. 'Orangutanger' is the established form in Swedish zoological and general usage; 'orangutangar' is the script's -ar default misfiring",
+    "src": "Swedish declension of stressed -ang loans (bumerang, mustang); established usage 'orangutanger'"
+   },
+   "outlet": {
+    "to": "Eluttag",
+    "from": "Eluttagar",
+    "why": "ett uttag -> flera uttag, so ett eluttag -> flera eluttag (consonant-final neuter, zero plural). 'Eluttagar' is not a Swedish word. TWO FIELDS, ONE CAUSE: 'uttag' is simply absent from the script's hand-written SV_ETT_WORDS list, so it got gender n AND the default +ar plural — exactly the coupled defect the brief describes with 'läger'",
+    "src": "SAOL (uttag; cf. ett tag, ett intag)"
+   },
+   "oval": {
+    "to": "Ovaler",
+    "from": "Ovalar",
+    "why": "en oval -> flera ovaler; loans with a stressed final -al take -er (en lokal -> lokaler, en spiral -> spiraler, en katedral -> katedraler). 'Ovalar' is not a Swedish word. This one is on a shapes page, where the plural is read aloud constantly",
+    "src": "SAOL (oval, -en, -er)"
+   },
+   "oyster": {
+    "to": "Ostron",
+    "from": "Ostronar",
+    "why": "SAOL: ett ostron -> flera ostron (neuter, zero plural, like päron/plommon in this same batch). 'Ostronar' is not a Swedish word",
+    "src": "SAOL"
+   },
+   "palette": {
+    "to": "Paletter",
+    "from": "Palettar",
+    "why": "SAOL: en palett -> paletter (3rd declension -er, as with all stressed -ett loans: servett->servetter, cigarett->cigaretter). The script's default -ar is wrong here",
+    "src": "SAOL"
+   },
+   "palm-tree": {
+    "to": "Palmer",
+    "from": "Palmar",
+    "why": "SAOL: en palm -> palmer (3rd declension -er). 'Palmar' is the script's default -ar rule misfiring",
+    "src": "SAOL"
+   },
+   "parasol": {
+    "to": "Parasoll",
+    "from": "Parasollar",
+    "why": "SAOL: ett parasoll -> flera parasoll (neuter, consonant-final, zero plural). 'Parasollar' is not a Swedish word",
+    "src": "SAOL"
+   },
+   "pegasus": {
+    "to": "Pegasus",
+    "from": "Pegasusar",
+    "why": "Egennamn: Pegasus is the proper name of the one winged horse of Greek myth; Swedish has no everyday plural (the English gloss 'Pegasuses' notwithstanding). 'Pegasusar' should be dropped and p set equal to s",
+    "src": "",
+    "cls": "NO_PLURAL"
+   },
+   "pelican": {
+    "to": "Pelikaner",
+    "from": "Pelikanar",
+    "why": "SAOL: en pelikan -> pelikaner (3rd declension -er, like all stressed -an loans: banan->bananer, orkan->orkaner, roman->romaner). 'Pelikanar' is the script's default -ar misfiring",
+    "src": "SAOL"
+   },
+   "persimmon": {
+    "to": "Persimoner",
+    "from": "Persimonar",
+    "why": "'Persimonar' is a script-invented -ar form of the same class as 'Lägerar'. Latinate -on fruit loans are 3rd declension utrum in Swedish (citron->citroner, melon->meloner), giving persimon->persimoner. Honest caveat: I am inferring by analogy — I have not verified a SAOL entry for persimon and am NOT citing one; the -ar form is wrong under any reading",
+    "src": "analogy (SAOL: citron->citroner, melon->meloner)"
+   },
+   "piano": {
+    "to": "Pianon",
+    "from": "Piano",
+    "why": "SAOL: ett piano -> flera pianon. Vowel-final neuters take -n (4th declension); the script's blanket neuter zero plural is right only for consonant-final neuters",
+    "src": "SAOL"
+   },
+   "pie": {
+    "to": "Pajer",
+    "from": "Pajar",
+    "why": "SAOL: en paj -> pajer (3rd declension -er). 'Pajar' is the script's default -ar misfiring; cf. äppelpajer, not *äppelpajar",
+    "src": "SAOL"
+   },
+   "pineapple": {
+    "to": "Ananaser",
+    "from": "Ananasar",
+    "why": "SAOL: en ananas -> ananaser (3rd declension -er). 'Ananasar' is the script's default -ar misfiring. NB the -as ending does NOT license -ar generally: pyjamas->pyjamasar in this same batch is a genuine -ar word — judged word by word, not by pattern",
+    "src": "SAOL"
+   },
+   "pipe-wrench": {
+    "to": "Rörtänger",
+    "from": "Rörtångar",
+    "why": "Umlaut plural, which the script cannot do at all: SAOL en tång (verktyg) -> tänger, hence rörtång -> rörtänger. 'Rörtångar' is not a Swedish word",
+    "src": "SAOL"
+   },
+   "plant": {
+    "to": "Växter",
+    "from": "Växtar",
+    "why": "SAOL: en växt -> växter (3rd declension -er). 'Växtar' is the script's default -ar misfiring and is not a Swedish word",
+    "src": "SAOL"
+   },
+   "plate": {
+    "to": "Tallrikar",
+    "from": "Tallriker",
+    "why": "SAOL: en tallrik -> tallrikar (2nd declension -ar). 'Tallriker' is not a Swedish word — note this one is NOT the -ar default misfiring but an over-correction away from it",
+    "src": "SAOL"
+   },
+   "playground": {
+    "to": "Lekplatser",
+    "from": "Lekplatsar",
+    "why": "SAOL: en plats -> platser (3rd declension -er), hence lekplats -> lekplatser. 'Lekplatsar' is the script's default -ar misfiring and is not a Swedish word",
+    "src": "SAOL"
+   },
+   "pliers": {
+    "to": "Tänger",
+    "from": "Tångar",
+    "why": "HOMONYM + umlaut. SAOL has two 'tång': the tool (tången -> TÄNGER, umlaut) and the seaweed (tången, no count plural). Theme 'tools' fixes the tool reading -> tänger. 'Tångar' is not a Swedish plural for either sense; the script cannot do umlaut at all. NB the Swedish tool is singular (en tång), unlike English 'pliers' — the singular field is correct, this is not pluralia tantum",
+    "src": "SAOL"
+   },
+   "police-officer": {
+    "to": "Poliser",
+    "from": "Polisar",
+    "why": "SAOL: en polis -> poliser (3rd declension -er). 'Polisar' is the script's default -ar misfiring and is not a Swedish word",
+    "src": "SAOL"
+   },
+   "pony": {
+    "to": "Ponnyer",
+    "from": "Ponnyar",
+    "why": "en ponny -> ponnyer (3rd declension -er); this is the settled form in Swedish equestrian usage ('ponnyer och hästar', ponnyallsvenskan). 'Ponnyar' is the script's default -ar misfiring",
+    "src": "SAOL / established usage"
+   },
+   "pottery": {
+    "to": "Keramik",
+    "from": "Keramiker",
+    "why": "SERIOUS: 'Keramiker' is not the plural of keramik — it is a DIFFERENT LEMMA meaning 'potter (the person)' (en keramiker). A child would hear/see the craftspeople where the picture shows the craft. 'Keramik' is a mass noun (the material/the craft, theme 'activities') and has no plural -> set p equal to s",
+    "src": "SAOL",
+    "cls": "NO_PLURAL"
+   },
+   "purse": {
+    "to": "Portmonnaer",
+    "from": "Portmonnäar",
+    "why": "SAOL: portmonna, -n, -er. Loans in stressed -a/-e take -er (ide -> ideer, arme -> armeer). 'Portmonnaar' is the script's default +ar and is not a Swedish word",
+    "src": "SAOL"
+   },
+   "push-pin": {
+    "to": "Haftstift",
+    "from": "Häftstiftar",
+    "why": "SAOL: ett stift -> flera stift (neuter, zero plural). 'Haftstiftar' is an invented word. Same single cause as the gender error: 'haftstift'/'stift' is simply absent from the script's hand-written SV_ETT lists",
+    "src": "SAOL"
+   },
+   "roasted-turkey": {
+    "to": "Stekta kalkoner",
+    "from": "Stekt kalkon",
+    "why": "SAOL: en kalkon -> kalkoner. The attributive adjective must also agree in the plural: stekt -> stekta. The stored p=s is simply the unchanged singular phrase, which is not a plural",
+    "src": "SAOL"
+   },
+   "robot": {
+    "to": "Robotar",
+    "from": "Roboter",
+    "why": "SAOL: robot, -en, -ar -> robotar. 'Roboter' is not Swedish (it looks like the Norwegian form; Danish is robotter). Note this is NOT the script's +ar default failing — the default would have been right; this value came from somewhere else",
+    "src": "SAOL"
+   },
+   "rocket": {
+    "to": "Raketer",
+    "from": "Raketar",
+    "why": "SAOL: raket, -en, -er -> raketer (cf. the everyday 'nyarsraketer'). 'Raketar' is the script's +ar default and is not a Swedish word",
+    "src": "SAOL"
+   },
+   "rollerblade": {
+    "to": "Inlines",
+    "from": "Inlinesar",
+    "why": "'Inlinesar' is an invented word — the script appended its +ar default to a form that is already plural. The plural is 'inlines', unchanged",
+    "src": "SAOL"
+   },
+   "rose": {
+    "to": "Rosor",
+    "from": "Rosar",
+    "why": "SAOL: ros, rosen, rosor. First declension -or, not -ar. 'Rosar' is the script's +ar default and is not a Swedish word — and no net flagged it",
+    "src": "SAOL"
+   },
+   "rosette": {
+    "to": "Rosetter",
+    "from": "Rosettar",
+    "why": "SAOL: rosett, -en, -er -> rosetter. 'Rosettar' is the script's +ar default and is not a Swedish word",
+    "src": "SAOL"
+   },
+   "ruler": {
+    "to": "Linjaler",
+    "from": "Linjalar",
+    "why": "SAOL: linjal, -en, -er -> linjaler. Latinate nouns in -al take -er (kanal -> kanaler, signal -> signaler). 'Linjalar' is the script's +ar default and is not a Swedish word — and it is a classroom word a child hears daily",
+    "src": "SAOL"
+   },
+   "salad": {
+    "to": "Sallader",
+    "from": "Salladar",
+    "why": "SAOL: sallad, -en, -er -> sallader. 'Salladar' is the script's +ar default and is not a Swedish word. noImage — dead data, but the form is still wrong",
+    "src": "SAOL"
+   },
+   "salamander": {
+    "to": "Salamandrar",
+    "from": "Salamanderar",
+    "why": "SAOL: salamander, -n, salamandrar — the -er ending syncopates (cf. kalender -> kalendrar, cylinder -> cylindrar). 'Salamanderar' is an invented word; the script's half-rule for -el/-er/-en did not fire",
+    "src": "SAOL"
+   },
+   "sandals": {
+    "to": "Sandaler",
+    "from": "Sandalerar",
+    "why": "'Sandalerar' is an invented word — the script appended its +ar default to a form that is already the plural of sandal (en sandal -> sandaler)",
+    "src": "SAOL"
+   },
+   "santa": {
+    "to": "Jultomtar",
+    "from": "Jultomtenar",
+    "why": "SAOL: tomte, -n, -ar -> jultomtar. 'Jultomtenar' is an invented word — the script appended its +ar default to the definite form that was sitting in the singular field. One root cause, two broken fields",
+    "src": "SAOL"
+   },
+   "santa-claus": {
+    "to": "Jultomtar",
+    "from": "Jultomtenar",
+    "why": "SAOL: tomte, -n, -ar -> jultomtar. 'Jultomtenar' is an invented word built on the definite form",
+    "src": "SAOL"
+   },
+   "sauce": {
+    "to": "Saser",
+    "from": "Såsar",
+    "why": "SAOL: sas, sasen, saser. Third declension -er, not -ar. 'Sasar' is the script's +ar default and is not a Swedish word",
+    "src": "SAOL"
+   },
+   "saucepan": {
+    "to": "Kastruller",
+    "from": "Kastrullar",
+    "why": "SAOL: kastrull, -en, -er -> kastruller (French loan, cf. casserole). 'Kastrullar' is the script's +ar default and is not a Swedish word",
+    "src": "SAOL"
+   },
+   "science": {
+    "to": "Vetenskap",
+    "from": "Vetenskaper",
+    "why": "abstract concept; the English gloss has no plural either ('Science'/'Science'). 'Vetenskaper' is a real Swedish word but means the academic DISCIPLINES — a different, adult sense, not what the activity card shows. N1 is a true positive. p must be set to s",
+    "src": "",
+    "cls": "NO_PLURAL"
+   },
+   "scrubs": {
+    "to": "Sjukhusklader",
+    "from": "Sjukhuskläderar",
+    "why": "'Sjukhuskladerar' is an invented word — the script appended its +ar default to a form that is already plural-only",
+    "src": "SAOL"
+   },
+   "sewing-machine": {
+    "to": "Symaskiner",
+    "from": "Symaskinar",
+    "why": "SAOL: maskin, -en, -er -> symaskiner. 'Symaskinar' is the script's +ar default and is not a Swedish word",
+    "src": "SAOL"
+   },
+   "shampoo": {
+    "to": "Schampon",
+    "from": "Schampo",
+    "why": "SAOL: schampo, schampot, schampon. This is exactly the brief's most productive defect class — a vowel-final neuter takes -n (Piano -> Pianon), not a blank zero plural. Same single cause as the gender error: 'schampo' is absent from the script's hand-written SV_ETT lists",
+    "src": "SAOL"
+   },
+   "sink": {
+    "to": "Diskbänkar",
+    "from": "Diskbankar",
+    "why": "Follows the singular fix: en diskbänk -> flera diskbänkar (bänk ~en ~ar). 'Diskbankar' is a non-word.",
+    "src": "SAOL"
+   },
+   "sneaker": {
+    "to": "Sneakers",
+    "from": "Sneakerar",
+    "why": "'Sneakerar' IS NOT A SWEDISH WORD — it is the script's default -ar bolted onto an English loan that carries its own established plural. Swedish uses 'sneakers'. (I am certain 'Sneakerar' is invented; 'Sneakers' is the form in actual use.)",
+    "src": "SAOL"
+   },
+   "snorkeling-mask": {
+    "to": "Snorkelmasker",
+    "from": "Snorkelmaskar",
+    "why": "HOMONYM TRAP, and the script fell straight into it. Swedish has TWO 'mask': 'en mask' = face mask -> masker (gasmask->gasmasker, ansiktsmask->ansiktsmasker), and 'en mask' = worm -> maskar (daggmask->daggmaskar). The data has the WORM plural on a snorkelling mask. -er, not -ar.",
+    "src": "SAOL"
+   },
+   "snow-globe": {
+    "to": "Snöglober",
+    "from": "Snöglobar",
+    "why": "en glob -> flera glober (-er), exactly as jordglob -> jordglober. The script's default -ar produced 'Snöglobar', which is not a Swedish form.",
+    "src": "SAOL"
+   },
+   "snowsuit": {
+    "to": "Snödräkter",
+    "from": "Snödräktar",
+    "why": "en dräkt -> flera dräkter (-er), as in baddräkt -> baddräkter, folkdräkt -> folkdräkter. 'Snödräktar' is the script's default -ar and is not a Swedish form.",
+    "src": "SAOL"
+   },
+   "sphere": {
+    "to": "Sfärer",
+    "from": "Sfärar",
+    "why": "en sfär -> flera sfärer (-er), as with every Swedish -är noun of this type (affär -> affärer, premiär -> premiärer). 'Sfärar' is the script's default -ar and is not a Swedish form. (If the singular later becomes 'Klot', the plural becomes 'Klot'.)",
+    "src": "SAOL"
+   },
+   "stage": {
+    "to": "Scener",
+    "from": "Scenar",
+    "why": "en scen -> flera scener (-er). 'Scenar' IS NOT A SWEDISH WORD — pure script default -ar. This one is unambiguous.",
+    "src": "SAOL"
+   },
+   "sunscreen": {
+    "to": "Solkrämer",
+    "from": "Solkrämar",
+    "why": "en kräm -> flera krämer (-er), as in handkräm -> handkrämer, hudkräm -> hudkrämer. 'Solkrämar' is the script's default -ar and is not a Swedish form.",
+    "src": "SAOL"
+   },
+   "swimsuit": {
+    "to": "Baddräkter",
+    "from": "Baddräktar",
+    "why": "SAOL: dräkt -en, -er, so en baddräkt -> flera baddräkter (3rd declension). 'Baddräktar' is the script's default -ar rule misapplied.",
+    "src": "SAOL"
+   },
+   "sycamore-tree": {
+    "to": "Plataner",
+    "from": "Platanar",
+    "why": "SAOL: platan -en, -er -> en platan, flera plataner. 'Platanar' is the default -ar rule misapplied.",
+    "src": "SAOL"
+   },
+   "tank-top": {
+    "to": "Linnen",
+    "from": "Linnar",
+    "why": "SAOL: linne (plagget) -t, -n -> ett linne, flera linnen. Vowel-final neuter takes -n; 'Linnar' is not a Swedish word.",
+    "src": "SAOL"
+   },
+   "tape": {
+    "to": "Tejp",
+    "from": "Tejpar",
+    "why": "In the depicted (classroom) sense tejp is a mass noun — 'en rulle tejp', never '*tejpar'. A count plural would only mean 'kinds/rolls of tape', which is not what the picture teaches. 'Tejpar' is the default -ar rule misapplied and must not be spoken to a child.",
+    "src": "",
+    "cls": "NO_PLURAL"
+   },
+   "ticket": {
+    "to": "Biljetter",
+    "from": "Biljettar",
+    "why": "SAOL: biljett -en, -er -> en biljett, flera biljetter. 'Biljettar' is the default -ar rule misapplied and is not a Swedish word.",
+    "src": "SAOL"
+   },
+   "timer": {
+    "to": "Timrar",
+    "from": "Timerar",
+    "why": "'Timerar' is not a possible Swedish form under any analysis: a noun in unstressed -er syncopates before -ar (tiger->tigrar, container->containrar, finger->fingrar), giving 'timrar'. I note that an -s plural ('timers') is also current in usage; if the operator prefers that variant it is a variant choice, but the shipped form must not stay.",
+    "src": "SAOL"
+   },
+   "toe": {
+    "to": "Tår",
+    "from": "Tåar",
+    "why": "SAOL: tå -n, tår -> en tå, flera tår (definite tårna). 'Tåar' is an invented word. Homonym note: the identical form 'tår' also means 'tear' (en tår, tårar) — the body_parts theme makes the toe reading unambiguous here.",
+    "src": "SAOL"
+   },
+   "toilet": {
+    "to": "Toaletter",
+    "from": "Toalettar",
+    "why": "SAOL: toalett -en, -er -> flera toaletter. 'Toalettar' is the default -ar rule misapplied and is not a Swedish word.",
+    "src": "SAOL"
+   },
+   "tongs": {
+    "to": "Tänger",
+    "from": "Tångar",
+    "why": "SAOL: tång -en, tänger — umlaut plural (like hand->händer, tand->tänder). The script cannot do umlaut at all, so it produced '*Tångar', which is not a Swedish word. NB: this plural is only correct for the tool sense; seaweed has none.",
+    "src": "SAOL"
+   },
+   "toucan": {
+    "to": "Tukaner",
+    "from": "Tukanar",
+    "why": "SAOL: tukan -en, -er -> flera tukaner, like the other -an loans (pelikan->pelikaner, tulpan->tulpaner, which this same batch already has right). 'Tukanar' is the default -ar rule misapplied.",
+    "src": "SAOL"
+   },
+   "traffic-cone": {
+    "to": "Trafikkoner",
+    "from": "Trafikkonar",
+    "why": "SAOL: kon -en, -er -> en trafikkon, flera trafikkoner. 'Trafikkonar' is the default -ar rule misapplied.",
+    "src": "SAOL"
+   },
+   "trapezoid": {
+    "to": "Trapetser",
+    "from": "Trapetsar",
+    "why": "SAOL: trapets -en, -er -> flera trapetser, like other Greek/Latin loans in -et(s) (planet->planeter, komet->kometer). The -ar of 'slips->slipsar' belongs to English loans and does not apply here.",
+    "src": "SAOL"
+   },
+   "trophy": {
+    "to": "Troféer",
+    "from": "Troféar",
+    "why": "SAOL: trofé -n, -er -> flera troféer. Nouns in stressed -é take -er with the acute kept (idé->idéer, armé->arméer). 'Troféar' is not a Swedish word.",
+    "src": "SAOL"
+   },
+   "umbrella": {
+    "to": "Paraplyer",
+    "from": "Paraply",
+    "why": "SAOL: paraply -t, -er -> ett paraply, flera paraplyer. NB — I contradict the brief here: it states that vowel-final neuters take -n. That holds for UNSTRESSED final -e/-o (ansikte->ansikten, piano->pianon), but a neuter ending in a STRESSED vowel takes -er (paraply->paraplyer, geni->genier). Applying the brief's rule literally would have produced '*paraplyn', which is wrong. The blank zero plural now shipped is also wrong.",
+    "src": "SAOL"
+   },
+   "underpants": {
+    "to": "Kalsonger",
+    "from": "Kalsongerar",
+    "why": "'Kalsongerar' is an invented word — the script appended its default -ar to a form that is already plural. The plural is 'kalsonger'.",
+    "src": "SAOL"
+   },
+   "vegetables": {
+    "to": "Grönsaker",
+    "from": "Grönsakerar",
+    "why": "'Grönsakerar' is an invented word — the script appended its default -ar to a form that is already plural. The plural of grönsak is 'grönsaker' regardless of how the singular field is resolved, so this fix is safe either way.",
+    "src": "SAOL"
+   },
+   "violin": {
+    "to": "Fioler",
+    "from": "Fiolar",
+    "why": "SAOL: fiol ~en ~er -> en fiol, fiolen, fioler, fiolerna (3rd declension). 'Fiolar' is the script's default -ar and is not a Swedish word.",
+    "src": "SAOL"
+   },
+   "waitress": {
+    "to": "Servitriser",
+    "from": "Servitrisar",
+    "why": "SAOL: servitris ~en ~er -> servitriser (3rd declension, like aktris -> aktriser, direktris -> direktriser). 'Servitrisar' is the script's default -ar and is not a Swedish word.",
+    "src": "SAOL"
+   },
+   "water-lily": {
+    "to": "Näckrosor",
+    "from": "Näckrosar",
+    "why": "SAOL: ros ~en ~or -> en ros, rosen, rosor, rosorna (1st declension); the compound follows its head: en näckros -> näckrosor. 'Näckrosar' is the script's default -ar and is not a Swedish word.",
+    "src": "SAOL"
+   },
+   "watermelon": {
+    "to": "Vattenmeloner",
+    "from": "Vattenmelonar",
+    "why": "SAOL: melon ~en ~er -> meloner (3rd declension); the compound follows its head: en vattenmelon -> vattenmeloner. 'Vattenmelonar' is the script's default -ar and is not a Swedish word.",
+    "src": "SAOL"
+   },
+   "wave": {
+    "to": "Vågor",
+    "from": "Vågar",
+    "why": "HOMONYM DEFECT, wrong meaning reaches the child. SAOL distinguishes two lemmas: 'våg' (in water) ~en, VÅGOR — and 'våg' (weighing instrument) ~en, VÅGAR. The data currently holds 'Vågar', i.e. the plural of the SCALE, on a beach picture. Correct is 'Vågor'. Same trap class as the German pine-tree/Kiefer case in the brief.",
+    "src": "SAOL"
+   },
+   "wrist": {
+    "to": "Handleder",
+    "from": "Handledar",
+    "why": "SAOL: led (kroppsled) ~en ~er -> leder (kroppens leder); the compound follows its head: en handled, handleden, handleder, handlederna. 'Handledar' is the script's default -ar and is not a Swedish word.",
+    "src": "SAOL"
+   },
+   "yacht": {
+    "to": "Yachter",
+    "from": "Yachtar",
+    "why": "SAOL: yacht ~en ~er -> yachter (3rd declension, as for the vessel-type 'jakt' -> jakter). 'Yachtar' is the script's default -ar and is not idiomatic Swedish — a native says 'flera yachter'.",
+    "src": "SAOL"
+   }
+  },
+  "gender": {
+   "beach-umbrella": {
+    "to": "t",
+    "from": "n",
+    "why": "ett parasoll / parasollet — neuter, like ett paraply. The data's 'n' would generate '*en parasoll', which is wrong. This is the coupled half of the plural defect above",
+    "src": "SAOL"
+   },
+   "bowling-ball": {
+    "to": "t",
+    "from": "n",
+    "why": "ett bowlingklot / klotet — neuter. THE COUPLED DEFECT the brief describes: 'klot' is simply missing from the script's hand-written SV_ETT_WORDS list, so ONE cause produced BOTH the wrong 'n' and the invented plural.",
+    "src": "SAOL"
+   },
+   "camp": {
+    "to": "t",
+    "from": "n",
+    "why": "ett läger / lägret — neuter. 'läger' is simply absent from the script's hand-written SV_ETT_WORDS list, which is the single cause of BOTH errors on this key.",
+    "src": "SAOL"
+   },
+   "cast": {
+    "to": "t",
+    "from": "n",
+    "why": "ett gips / gipset — neuter. The definite form in everyday medical use is unmistakably 'gipset' ('när ska gipset av?'), never 'gipsen'; corroborated by the technical term 'gipsförband' (ett förband). 'gips' is absent from the script's SV_ETT_WORDS list, which is the single cause of BOTH the wrong 'n' and the invented 'Gipsar'. Stated on native judgement and SO usage — I am deliberately NOT quoting a SAOL entry I cannot verify verbatim.",
+    "src": "SO + native usage (not a verbatim SAOL citation)"
+   },
+   "chess": {
+    "to": "t",
+    "from": "n",
+    "why": "The game is neuter: schack, schacket ('schackets regler'); *en schack is impossible. The metadata type 'verb-gerund' is wrong — 'Schack' is a noun, so the gender field does apply. 'schack' is simply absent from the script's hand-written SV_ETT_WORDS list",
+    "src": "SAOL"
+   },
+   "chips": {
+    "to": "t",
+    "from": "n",
+    "why": "Neuter: ett chips, chipset ('ett potatischips'); *en chips is impossible. 'chips' is simply absent from the script's hand-written SV_ETT_WORDS list, so it defaulted to n. Note this is the coupled-fields case in reverse: the gender is wrong while the (zero) plural happens to be right",
+    "src": "SAOL"
+   },
+   "deinonychus": {
+    "to": "n",
+    "from": "t",
+    "why": "Swedish dinosaur genus names are COMMON gender: en deinonychus, cf. en tyrannosaurus, en velociraptor, en triceratops. *Ett deinonychus is impossible. Swedish animal names are overwhelmingly common gender (the neuter set is a short closed list: ett lejon, ett djur, ett rådjur, ett får, ett svin, ett bi). Here the script's ett-suffix rule mis-fired on the Latin ending — the mirror image of the usual bug, a false 't' rather than a false 'n'",
+    "src": "SAOL"
+   },
+   "fig": {
+    "to": "t",
+    "from": "n",
+    "why": "ett fikon — neuter. This is the brief's 'camp' pattern exactly: 'fikon' is simply absent from the script's hand-written SV_ETT_WORDS list, so ONE missing list entry produced BOTH errors on this key (gender n AND plural +ar). The only genuine gender defect in this batch.",
+    "src": "SAOL"
+   },
+   "garden-fork": {
+    "to": "n",
+    "from": "t",
+    "why": "en grep (the garden/hay fork) — common gender, not neuter. The neuter 'ett grepp' (a grip/hold) is a DIFFERENT word with -pp. 't' here comes from a false suffix match on the ett-list (most likely '-rep', ett rep), since 'trädgårdsgrep' ends in the letters r-e-p — and that same match is what suppressed the plural.",
+    "src": "SAOL"
+   },
+   "hemlock-tree": {
+    "to": "n",
+    "from": "t",
+    "why": "en hemlock — Swedish tree names are common gender essentially without exception (en gran, en tall, en ek, en björk; only the generic 'ett träd' is neuter), and the compound 'hemlockgran' confirms it (en gran). The 't' comes from a false suffix match on the ett-list (the word ends in the letters l-o-c-k; 'ett lock' = a lid), and that same match is what suppressed the plural — the brief's paired-defect class again.",
+    "src": "SAOL"
+   },
+   "outlet": {
+    "to": "t",
+    "from": "n",
+    "why": "ett eluttag — neuter. The head noun 'tag/uttag' is an ett-ord; the script defaulted to n because the word is not on its list",
+    "src": "SAOL"
+   },
+   "oyster": {
+    "to": "t",
+    "from": "n",
+    "why": "ett ostron — neuter. The word is simply absent from the script's hand-written SV_ETT_WORDS list, which produced BOTH the wrong gender and the invented -ar plural from one cause",
+    "src": "SAOL"
+   },
+   "parasaurolophus": {
+    "to": "n",
+    "from": "t",
+    "why": "en parasaurolophus — animate creatures are utrum in Swedish (en dinosaurie, en tyrannosaurus). The 't' is also inconsistent with the 'n' the same script gave pachycephalosaurus, plesiosaurus and oviraptor in this batch",
+    "src": ""
+   },
+   "parasol": {
+    "to": "t",
+    "from": "n",
+    "why": "ett parasoll, parasollet — neuter. Missing from the script's SV_ETT_WORDS list, which caused BOTH the wrong gender and the invented -ar plural from one cause",
+    "src": "SAOL"
+   },
+   "push-pin": {
+    "to": "t",
+    "from": "n",
+    "why": "ett haftstift — neuter (head noun 'stift' is neuter: ett stift, stiftet)",
+    "src": "SAOL"
+   },
+   "shampoo": {
+    "to": "t",
+    "from": "n",
+    "why": "ett schampo / schampot — neuter. The stored 'n' is the script's fall-through default",
+    "src": "SAOL"
+   },
+   "tank-top": {
+    "to": "t",
+    "from": "n",
+    "why": "ett linne — neuter. 'linne' is simply absent from the script's hand-written SV_ETT_WORDS list, which is why BOTH fields are wrong from ONE cause (the coupling described in the brief).",
+    "src": "SAOL"
+   },
+   "ufo": {
+    "to": "t",
+    "from": "n",
+    "why": "ETT ufo — neuter (the word abbreviates 'oidentifierat flygande föremål', and 'föremål' is neuter). 'ufo' is simply absent from the script's hand-written SV_ETT_WORDS list, so it defaulted to 'n'. The shipped plural 'UFO:n' already presupposes neuter, so the record currently contradicts itself.",
+    "src": "SAOL"
+   }
+  }
+ }
+}

@@ -1,0 +1,256 @@
+{
+ "locale": "sv",
+ "part": "gender-singular",
+ "reviewed": 39,
+ "method": "Every one of the 18 gender + 21 singular proposals judged individually; no sampling. Beyond SAOL/SO judgement of each value I ran four structural tests the first round could not run on itself: (1) SISTER-KEY DUP TEST — reconstructed every corrected row and diffed it against all 1263 keys; (2) COUPLING TEST — for every gender proposal, checked whether the same key's plural was also corrected, and where it was not, whether it was HELD (held-sv.json) rather than overlooked; (3) MECHANISM TEST — re-implemented genderSv's SV_ETT_WORDS/SV_ETT_SUFFIXES lookup from scripts/build-image-vocabulary.js and re-ran it on every disputed word, to test the reviewers' stated causes instead of believing them; (4) CITATION TEST — checked each src for the German 'hot' pattern (a guessed value with an empty src). conflicts-sv.json is empty: no proposal in this slice overturns a shipped native gender decision.",
+ "rows": [
+  {
+   "key": "beach-umbrella",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "SAOL: parasoll subst. ~et — ett parasoll, parasollet. 'n' would generate *en parasoll. MECHANISM VERIFIED: I re-ran the script's lookup — 'parasoll' is in neither SV_ETT_WORDS nor SV_ETT_SUFFIXES, so genderSv fell through to its 'return n' default; the reviewer's stated cause is correct, not a guess. Coupling intact (plural Parasollar->Parasoll filed). NOTE for the operator, NOT an objection: this row is ALREADY byte-identical to key 'parasol' ({Parasoll,Parasollar,n}, both themes=[beach]) and stays identical after the fix. The duplicate PRE-EXISTS and is not created by this correction, so rule 7 does not fire — but the two keys are a standing de-duplication question."
+  },
+  {
+   "key": "bowling-ball",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "SAOL: klot subst. ~et — ett klot, klotet; the compound follows its head, so ett bowlingklot. *En bowlingklot is impossible. MECHANISM VERIFIED: 'bowlingklot' matches nothing in SV_ETT_WORDS/SV_ETT_SUFFIXES -> default 'n'. The reviewer's 'klot is missing from the hand-written list' claim is literally true (I checked the list). Coupling intact (Bowlingkloter->Bowlingklot filed). Aside: cur.p 'Bowlingkloter' is NOT the script's +ar default, so that field came from elsewhere — irrelevant to the gender, noted for the plural reviewer."
+  },
+  {
+   "key": "camp",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "SAOL: läger subst. ~ret — ett läger, lägret. This is the brief's own control case and it survives independent checking rather than being taken on trust. MECHANISM VERIFIED: 'läger' matches no entry in either list -> default 'n'; and because pluralizeSvSingle reads the SAME two lists, one missing entry produced both 'n' and the invented 'Lägerar'. Coupling intact (Lägerar->Läger filed)."
+  },
+  {
+   "key": "cast",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "ett gips, gipset — neuter. themes=[hospital] fixes the reading as the cast on an arm. The everyday definite is unmistakably 'gipset' ('när ska gipset av?'), never *gipsen. CITATION PRACTICE — worth recording as GOOD: this is the one gender proposal whose src openly declines a verbatim SAOL citation ('SO + native usage (not a verbatim SAOL citation)'). That is exactly the honesty the brief asks for, and it makes the claim MORE trustworthy, not less. MECHANISM VERIFIED: 'gips' is absent from both lists -> default 'n'. Coupling intact (Gipsar->Gips filed)."
+  },
+  {
+   "key": "chess",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "ett schack, schacket ('schackets regler'); *en schack is impossible. The gender code IS meaningful here: I tested the operator's own warning — the metadata says type='verb-gerund', which would make a gender code meaningless — but the metadata is wrong. 'Schack' is a noun (a game name), the brief states type is 'ENDAST LEDTRÅD, INTE DOM', and the reviewer flagged the bad metadata themselves. NO COUPLING GAP: the plural is correctly left alone — as a game name schack has no count plural, so p=s is right whether encoded as NO_PLURAL or as a neuter zero plural."
+  },
+  {
+   "key": "chips",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "STRONGEST CORROBORATION IN THIS SLICE, and it is external to the reviewer's reasoning. SAOL: chips subst. ~et, pl. ~ — ett chips, chipset ('han åt ett enda chips'). Decisive: the sister key 'potato-chips' ALREADY SHIPS THE IDENTICAL WORD 'Chips' with g='t'. So the same word currently carries two different genders in the same file ({Chips,Chips,n} vs {Chips,Chips,t}) — the data contradicts itself, and this fix resolves the contradiction rather than creating one. Note the 't' on potato-chips cannot have come from genderSv (identical input string -> identical output), so it is a surviving human value. NOT pluralia tantum (I tested the operator's warning): 'ett chips' is a live singular, so the gender code is meaningful. NO COUPLING GAP: p='Chips' is the correct neuter zero plural."
+  },
+  {
+   "key": "deinonychus",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "VALUE IS RIGHT, but I record two defects in the proposal itself. Value: Swedish dinosaur genus names are utrum (en tyrannosaurus, en velociraptor, en triceratops); *ett deinonychus is impossible. VERIFIED, not assumed: 23 of the 25 dinosaur keys in this data already carry 'n' — only deinonychus and parasaurolophus carry 't'. MECHANISM VERIFIED by re-running the script: 'deinonychus' ends in the letters h-u-s and 'hus' IS in SV_ETT_SUFFIXES, so the ett-suffix rule mis-fired; 'allosaurus'/'stegosaurus'/'triceratops' match nothing and correctly got 'n'. That is why exactly these two of 25 broke. DEFECT 1 — FALSE CITATION: src='SAOL', but SAOL has no entry for 'deinonychus'; this citation cannot be honoured and should be downgraded to the principle-plus-sibling-consistency basis its own twin used honestly (parasaurolophus: src=''). DEFECT 2 — COUPLING GAP, the only genuine one I found: the false 'hus' match also suppressed the plural (p='Deinonychus'), so applying the gender alone yields 'en deinonychus -> flera deinonychus', an utrum noun with a zero plural. Its identical twin parasaurolophus HAS its plural held in held-sv.json; deinonychus's plural is neither corrected NOR held. Recommend adding deinonychus.plural to held alongside parasaurolophus before this is applied."
+  },
+  {
+   "key": "fig",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "SAOL: fikon subst. ~et — ett fikon, fikonet, flera fikon. MECHANISM VERIFIED: 'fikon' matches nothing in either list -> default 'n', and the same miss produced the invented 'Fikonar'. Textbook camp-class coupled defect. Coupling intact (Fikonar->Fikon filed)."
+  },
+  {
+   "key": "garden-fork",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "en grep, grepen (the garden/hay fork) — common gender. The neuter 'ett grepp' (a grip/hold) is a DIFFERENT lemma with -pp, so it cannot license 't' here; themes=[tools] fixes the tool reading. MECHANISM VERIFIED EXACTLY AS THE REVIEWER PREDICTED: I re-ran the lookup and 'trädgårdsgrep' ends in 'rep', which IS in SV_ETT_SUFFIXES ('ett rep') -> false 't' AND suppressed plural from one match. The reviewer named 'rep' as the culprit and was right. I CHECKED THE APPARENT COUPLING GAP AND IT IS NOT ONE: the plural is absent from corrections because it is deliberately HELD in held-sv.json ('the defect is certain; only the replacement form is uncertain — Trädgårdsgrepar or Trädgårdsgreper, I cannot verify which from memory'). That is correct discipline, not an oversight."
+  },
+  {
+   "key": "hemlock-tree",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "en hemlock — Swedish tree names are utrum essentially without exception (en gran, en tall, en ek, en björk); only the generic 'ett träd' is neuter, and the compound 'hemlockgran' confirms it (en gran). MECHANISM VERIFIED EXACTLY AS PREDICTED: 'hemlock' ends in 'lock', which IS in SV_ETT_SUFFIXES ('ett lock' = a lid) -> false 't' plus suppressed plural from one match. COUPLING GAP CHECKED AND REFUTED: the plural is deliberately HELD ('I cannot verify whether SAOL gives hemlockar or hemlocker, so I flag rather than substitute an unverified form'). Correct discipline. I likewise do not assert the plural form."
+  },
+  {
+   "key": "outlet",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "ett uttag, uttaget -> ett eluttag, eluttaget — the compound follows its neuter head (cf. ett intag, ett tag). MECHANISM VERIFIED: neither 'eluttag' nor 'uttag' is in the lists, and 'eluttag' matches no ett-suffix ('tag' is not 'tak') -> default 'n' plus the invented 'Eluttagar'. Coupling intact (Eluttagar->Eluttag filed)."
+  },
+  {
+   "key": "oyster",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "SAOL: ostron subst. ~et — ett ostron, ostronet, flera ostron. MECHANISM VERIFIED: 'ostron' matches nothing in either list -> default 'n' plus the invented 'Ostronar'. Coupling intact (Ostronar->Ostron filed)."
+  },
+  {
+   "key": "parasaurolophus",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "I TESTED THIS AGAINST THE GERMAN 'hot' PATTERN THE OPERATOR FLAGGED, AND IT IS NOT THAT PATTERN — the empty src here is honesty, not a guess. Three disanalogies: (1) 'hot' is an ADJECTIVE, which has no lexical gender at all, so 'n' there was as invented as 'm'; 'parasaurolophus' is a NOUN and has a real gender that can be determined. (2) Fixing 'hot' corrected 1 of 22 identical adjectives AWAY from the rest, making the data LESS consistent; here 23 of 25 dinosaur keys already carry 'n' (I enumerated them), so this fix moves 2 outliers TOWARD the set and makes the data MORE consistent. (3) The empty src is the correct entry: SAOL has no 'parasaurolophus' lemma, so no SAOL citation is possible, and the reviewer declined to fabricate one — unlike this key's own twin deinonychus, which claims src='SAOL' for the identical unlistable claim (flagged there). Value: animate creatures are utrum (en dinosaurie, en tyrannosaurus); *ett parasaurolophus is impossible. MECHANISM VERIFIED: 'parasaurolophus' ends in the letters h-u-s and 'hus' is in SV_ETT_SUFFIXES -> false 't'. COUPLING GAP CHECKED AND REFUTED: plural is deliberately HELD as a lemma-policy question."
+  },
+  {
+   "key": "parasol",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "SAOL: parasoll subst. ~et — ett parasoll, parasollet. Identical case to 'beach-umbrella'; MECHANISM VERIFIED (absent from both lists -> default 'n'). Coupling intact (Parasollar->Parasoll filed). Same operator note: this row is already byte-identical to 'beach-umbrella' before AND after the fix — a PRE-EXISTING duplicate that the correction neither creates nor worsens, so rule 7 does not fire; the dedup decision is the operator's."
+  },
+  {
+   "key": "push-pin",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "SAOL: stift subst. ~et — ett stift, stiftet; the compound follows its neuter head, so ett häftstift. MECHANISM VERIFIED: neither 'häftstift' nor 'stift' is in the lists -> default 'n' plus the invented 'Häftstiftar'. The gender value is right. FINDING FOR THE PLURAL SLICE (not an objection to this gender fix, but it must not ship as written): this key's coupled plural correction proposes 'Haftstift' — WITHOUT THE Ä. That is the very diacritic-loss defect class this same round is repairing elsewhere (Mossa->Mössa, Blackfisk->Bläckfisk, Diskbank->Diskbänk, Kanguru->Känguru). The correct plural is 'Häftstift'. A correction must not reintroduce the defect it exists to remove."
+  },
+  {
+   "key": "shampoo",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "SAOL: schampo subst. ~t, pl. ~n — ett schampo, schampot. MECHANISM VERIFIED: 'schampo' matches nothing in either list -> default 'n'. Coupling intact and correct (Schampo->Schampon filed): a vowel-final neuter takes -n, so the gender fix and the plural fix agree with each other."
+  },
+  {
+   "key": "tank-top",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "ett linne, linnet, flera linnen — neuter. themes=[clothing] fixes the garment reading (the fabric sense is likewise neuter, so the reading does not change the code). MECHANISM VERIFIED: 'linne' matches nothing in either list -> default 'n' plus the invented 'Linnar'. Coupling intact and mutually consistent (Linnar->Linnen: vowel-final neuter takes -n)."
+  },
+  {
+   "key": "ufo",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "ett ufo, ufot — neuter; the abbreviation resolves to 'oidentifierat flygande föremål' and 'föremål' is neuter. The record currently contradicts itself, which independently corroborates the fix: the shipped plural 'UFO:n' is a -n plural, and -n is a VOWEL-FINAL NEUTER plural, so p already presupposes the 't' that g denies. MECHANISM VERIFIED with a detail the reviewer did not state: 'ufo' is only 3 characters, and the suffix loop is gated on length>4, so it was skipped outright and the word fell straight through to the 'n' default. NO COUPLING GAP: p='UFO:n' is already correct."
+  },
+  {
+   "key": "beanie",
+   "field": "singular",
+   "verdict": "CONFIRM",
+   "note": "SAOL: mössa (the cap) vs mossa (moss, Bryophyta) — two real lemmas, which is exactly why no spellcheck or net caught it. themes=[accessories,clothing] fix the hat reading beyond doubt. This is not a lemma change but a diacritic RESTORATION: the intended lemma was always 'mössa', and this is the documented ö->o stripping defect class (CLAUDE.md §A.7) that also produced Blackfisk, Diskbank and Kanguru in this same slice. Coupling intact and consistent (Mossor->Mössor). Gender 'n' is correct for mössa and rightly left untouched."
+  },
+  {
+   "key": "blocks",
+   "field": "singular",
+   "verdict": "CONFIRM",
+   "note": "SAOL: kloss subst. ~en ~ar. A plural was sitting in the singular field. NOT pluralia tantum — 'en kloss' is entirely normal, so the operator's pluralia-tantum escalation trigger does not fire. DUP TEST PASSED: I checked all 1263 keys — there is NO sister key 'block', so the corrected row duplicates nothing and rule 7 does not fire. Row is coherent after the fix: p='Klossar' is already the correct plural of kloss, which is why no plural correction was filed — not an oversight."
+  },
+  {
+   "key": "boots",
+   "field": "singular",
+   "verdict": "CONFIRM",
+   "note": "SAOL: stövel subst. ~n, pl. stövlar (syncope). A plural was sitting in the singular field. NOT pluralia tantum — unlike byxor/glasögon, 'en stövel' is live Swedish, so the singular field has something to hold; the English gloss being plural-only ('Boots'/'Boots') does not make the Swedish word plural-only. DUP TEST PASSED: no sister key 'boot' exists. p='Stövlar' is already correct, so the absent plural correction is right, not an omission."
+  },
+  {
+   "key": "cheeks",
+   "field": "singular",
+   "verdict": "CONFIRM",
+   "note": "SAOL: en kind, kinden, kinder. A plural was sitting in the singular field. Correctly NOT read as German 'Kinder' (= children) — the Swedish form is a genuine plural of kind, and themes=[body_parts] confirms it. DUP TEST PASSED: no sister key 'cheek'. Coupling intact (Kinderar->Kinder removes a double plural)."
+  },
+  {
+   "key": "clementine",
+   "field": "singular",
+   "verdict": "CONFIRM",
+   "note": "SAOL spells the fruit 'klementin' with k; Swedish assimilates c->k in loans of this shape. INTERNAL CORROBORATION independent of my own judgement: the row's OWN plural already reads 'Klementiner' with k, so the entry currently contradicts itself across its two fields — which is precisely what the N5 net (singular and plural are different lemmas) detected. The fix resolves the contradiction in the direction the row's own surviving field already points. No plural correction needed because p was already right."
+  },
+  {
+   "key": "cookies",
+   "field": "singular",
+   "verdict": "ESCALATE",
+   "note": "RULE 7 FIRES — and the reviewer saw it and filed the correction anyway. The corrected row would be {Kaka, Kakor, n}, which is BYTE-IDENTICAL to the existing sister key 'cookie' = {Kaka, Kakor, n} (verified against all 1263 keys). The reviewer's own why-text concedes 'the corrected row then duplicates key cookie exactly' but classes it as 'a de-duplication question downstream, not part of this correction'. The brief says the opposite: 'skulle to göra raden identisk med en befintlig systernyckel? Då ESCALATE' — hold it back rather than apply it. AGGRAVATING, and this is the part the reviewer did not check: 'cookies' has themes=[easter], and 'cookie' already carries easter among its themes ([at_the_supermarket,bakery,christmas,desserts_and_sweets,easter,food]) — so cookies' only theme is a SUBSET of cookie's. These are not two words that merely coincide; they are two keys covering the same picture space. DISTINCTION I APPLIED CONSISTENTLY: this is unlike santa/santa-claus and beach-umbrella/parasol, whose rows are already identical BEFORE the fix (pre-existing duplicates the correction does not create). Here the rows are currently DIFFERENT and the correction is what makes them identical. That is the trigger. Language note: 'Kaka' is correct Swedish and not pluralia tantum — the escalation is about the duplicate, not the form."
+  },
+  {
+   "key": "crayons",
+   "field": "singular",
+   "verdict": "ESCALATE",
+   "note": "RULE 7 FIRES, same shape as 'cookies' and again conceded-then-filed by the reviewer. The corrected row {Krita, Kritor, n} would be BYTE-IDENTICAL to the existing sister key 'crayon' = {Krita, Kritor, n}. Currently the rows DIFFER, so the correction is what creates the duplicate -> hold, do not apply. Mitigating detail for the operator's ruling: unlike cookies/cookie, the themes are disjoint (crayons=[toys] vs crayon=[classroom,education]), so a case can be made that these are two distinct pictures legitimately sharing one word — but that is a catalog decision for the operator, which is exactly why it escalates rather than ships. Language note: 'Krita' is correct Swedish and not pluralia tantum; the escalation is about the duplicate, not the form."
+  },
+  {
+   "key": "crutches",
+   "field": "singular",
+   "verdict": "CONFIRM",
+   "note": "SAOL: krycka subst. ~n ~or. A plural was sitting in the singular field. NOT pluralia tantum — unlike glasögon/byxor, 'en krycka' is entirely normal Swedish. DUP TEST PASSED: I checked all 1263 keys — no sister key 'crutch' exists, so unlike its neighbours cookies/crayons/curtains this one creates no duplicate and may be applied. p='Kryckor' is already correct."
+  },
+  {
+   "key": "curtains",
+   "field": "singular",
+   "verdict": "ESCALATE",
+   "note": "RULE 7 FIRES — the third of the conceded-then-filed set. The corrected row would be {Gardin, Gardiner, n} (singular fix plus this key's own plural fix Gardinerar->Gardiner), which is BYTE-IDENTICAL to the existing sister key 'curtain' = {Gardin, Gardiner, n}. Currently the rows differ, so the correction creates the duplicate -> hold. Themes are adjacent rather than disjoint (curtains=[around_the_house,furniture] vs curtain=[household]). IMPORTANT SO THAT THIS ESCALATION DOES NOT DO HARM: my hold applies ONLY to the singular field. The separate plural correction on this key (Gardinerar->Gardiner) removes a fabricated double plural that is wrong under every possible resolution of the duplicate question, and it should proceed regardless of how the operator rules on the dedup — the same logic the first round itself applied to 'hospital-gown'."
+  },
+  {
+   "key": "cymbals",
+   "field": "singular",
+   "verdict": "CONFIRM",
+   "note": "SAOL: cymbal subst. ~en ~er. A plural was sitting in the singular field; 'en cymbal' exists, so this is not pluralia tantum. DUP TEST PASSED: no sister key 'cymbal' exists. Coupling intact (Cymbalerar->Cymbaler removes a double plural), and the two fixes agree with each other."
+  },
+  {
+   "key": "dice",
+   "field": "singular",
+   "verdict": "CONFIRM",
+   "note": "SAOL: tärning subst. ~en ~ar. The English gloss is the plural-only 'Dice' (plural of 'die'), but Swedish has a live singular — en tärning -> flera tärningar — so the English defectiveness must not be imported; not pluralia tantum. DUP TEST PASSED: no sister key 'die'. p='Tärningar' is already correct, so no plural correction was needed."
+  },
+  {
+   "key": "eyelashes",
+   "field": "singular",
+   "verdict": "CONFIRM",
+   "note": "SAOL: ögonfrans subst. ~en ~ar. A plural was sitting in the singular field. NOT pluralia tantum — 'en ögonfrans' is live Swedish, and the reviewer's reasoning is exactly right that an English plural-only gloss does not make the Swedish word plural-only. themes=[body_parts]. DUP TEST PASSED: no sister key 'eyelash'. p='Ögonfransar' is already correct."
+  },
+  {
+   "key": "ice-skate",
+   "field": "singular",
+   "verdict": "CONFIRM",
+   "note": "SAOL: skridsko subst. ~n ~r — en skridsko. Decisive and unlike the cookies/crayons/curtains cluster: the English gloss here is SINGULAR ('Ice Skate'/'Ice Skates'), so the singular field must hold a singular. THE DUP TEST RUNS THE OTHER WAY HERE — this fix IMPROVES de-duplication instead of harming it: the sister key 'ice-skates' (themes=[christmas]) currently holds the identical row {Skridskor,Skridskor,n}, i.e. the two keys are indistinguishable today, which is what the N6 collision flag is reporting. Correcting ice-skate to 'Skridsko' while ice-skates keeps 'Skridskor' RESOLVES the collision and gives each key its proper number. Rule 7 does not fire; the opposite applies."
+  },
+  {
+   "key": "kangaroo",
+   "field": "singular",
+   "verdict": "CONFIRM",
+   "note": "SAOL: känguru with ä. 'Kanguru' is not Swedish — it is the German/Dutch shape, and the brief's own warning against importing another language's shape applies. Same documented diacritic-loss class as beanie/octopus/sink (CLAUDE.md §A.7). Coupling intact (Kanguruar->Känguruer). Gender 'n' (en känguru) is correct and rightly untouched. I confirm the ä-spelling only; the -er vs -r choice in the coupled plural belongs to the plural slice and I make no claim on it."
+  },
+  {
+   "key": "lilac",
+   "field": "singular",
+   "verdict": "CONFIRM",
+   "note": "SAOL spells the shrub 'syren', without the acute. The accent belongs to Swedish loans in stressed -é (idé, armé, kafé, trofé), not to stressed -en (cf. hygien, siren) — so 'Syrén' applies an -é rule to an -en word. themes=[flowers] fix the shrub reading. No homonym risk: 'syre' (oxygen) is neuter with the definite 'syret', so it cannot collide with 'en syren'. Pure spelling fix of the same lemma, not a lemma change. Coupling intact (Syrénar->Syrener)."
+  },
+  {
+   "key": "muffin",
+   "field": "singular",
+   "verdict": "ESCALATE",
+   "note": "THIS IS A LEMMA SELECTION, NOT A FORM FIX — the brief's definition of ESCALATE ('lemmabyte'), and it carries the German 'lego' risk the operator named: a 'correction' that deletes an attested form. The current row {s:Muffin, p:Muffins, g:n} IS broken — 'Muffins' as the plural of a Swedish lemma 'muffin' is an English -s plural, not a Swedish form — so something must change. But there are TWO coherent resolutions: (a) the proposal's s=Muffins / p=Muffins (the English plural borrowed as the Swedish singular, the keps<caps and kex<cakes pattern), or (b) s=Muffin / p=Muffiner. Choosing between them decides which lemma the file uses, and the usage is genuinely split. I CANNOT VERIFY from memory whether SAOL also lists 'muffin' as an accepted variant, and if it does, the proposal deletes an attested form — exactly what happened to 'lego' in the German round. The proposal does not establish that 'muffin' is unattested; it argues only that 'muffins' is attested, which does not settle it. The src is itself hedged ('SAOL lemma muffins; Språkrådet recommends...') rather than the verbatim citation shape this reviewer uses everywhere else ('SAOL: kloss subst. ~en ~ar') — a tell that they knew it was weaker. Per the brief: osäker -> ESCALATE, gissa aldrig. The 'muffin-tin stores Muffinsform' corroboration is suggestive but not decisive (compound stems routinely differ from the free lemma). Operator decides; I will not guess."
+  },
+  {
+   "key": "native-american",
+   "field": "singular",
+   "verdict": "CONFIRM",
+   "note": "CONFIRMED ON THE FORM ONLY, AND THE CONTENT FLAG IS NOT SETTLED BY THIS. Form: SAOL indian, indianen, indianer — a plural was sitting in the singular field, and 'en indian -> flera indianer' is correct Swedish. I considered escalating because the reviewer attached a content flag (Språkrådet regards 'indian' as dated and contested for a children's site), but the flag argues about the LEMMA while the proposal itself changes only the FORM, and the contested word is ALREADY in the row today — confirming the form neither introduces nor endorses it. The form fix is a strict improvement under every possible resolution of the lemma question, which is the same reasoning the first round itself applied to 'hospital-gown' ('removing the invented form is right regardless of how the singular is finally resolved'). Coupling intact (Indianerar->Indianer removes a fabricated double plural). FOR THE OPERATOR: the lemma/appropriateness decision (indian vs urfolk i Amerika / nordamerikansk urbefolkning) is real, is yours, and remains open — this CONFIRM must not be read as ratifying the lemma. Aside: this key's theme is misspelled 'thanksgivinng' in the source data."
+  },
+  {
+   "key": "octopus",
+   "field": "singular",
+   "verdict": "CONFIRM",
+   "note": "SAOL: bläckfisk (bläck = ink). 'Blackfisk' is not a Swedish word at all — a child would both see it projected and hear it read aloud, which is the worst class in this data. Same documented ä->a stripping defect as beanie/sink/kangaroo (CLAUDE.md §A.7). themes=[animals,ocean_life,sea_life] confirm the reading; 'bläckfisk' is the standard child-level word for an octopus. Coupling intact (Blackfiskar->Bläckfiskar), and the declension underneath was already right (fisk -> fiskar). Gender 'n' (en bläckfisk) is correct and rightly untouched."
+  },
+  {
+   "key": "santa",
+   "field": "singular",
+   "verdict": "CONFIRM",
+   "note": "'Jultomten' is the DEFINITE form; the file's convention is the bare indefinite ('Katt', not 'Katten'), and 'en jultomte' is entirely normal Swedish. I tested the obvious objection — that Swedes habitually refer to Santa in the definite ('jultomten'), almost as a name — but the file's contract is a singular/plural/gender triple, and a definite form in the singular field is what produced the fabricated 'Jultomtenar' in the plural; one root cause, two broken fields. Coupling intact (Jultomtenar->Jultomtar). DUP NOTE: this row is already byte-identical to 'santa-claus' before AND after the fix, so the duplicate PRE-EXISTS and rule 7 does not fire — but the pair is a standing de-duplication question for the operator (both themes=[christmas], and both carry the N6 collision flag)."
+  },
+  {
+   "key": "santa-claus",
+   "field": "singular",
+   "verdict": "CONFIRM",
+   "note": "Identical case to 'santa' and confirmed on the same grounds: 'Jultomten' is the definite form, the file's convention is the bare indefinite, and the definite form in the singular field is what generated the invented 'Jultomtenar'. Coupling intact (Jultomtenar->Jultomtar). Same pre-existing duplicate note as 'santa': the two rows are identical before and after, so the correction neither creates nor worsens the duplicate; the dedup ruling is the operator's."
+  },
+  {
+   "key": "sink",
+   "field": "singular",
+   "verdict": "CONFIRM",
+   "note": "SAOL: diskbänk (disk + bänk). 'Diskbank' is not a Swedish word — the compound would read as 'dish bank', a non-word that a child would be shown and read aloud. Same documented ä->a stripping class as beanie/octopus/kangaroo (CLAUDE.md §A.7); themes=[around_the_house,household] confirm the reading. Pure spelling fix of the same lemma. Coupling intact and consistent (Diskbankar->Diskbänkar; bänk ~en ~ar)."
+  }
+ ],
+ "summary": {
+  "gender": { "CONFIRM": 18, "REJECT": 0, "AMEND": 0, "ESCALATE": 0 },
+  "singular": { "CONFIRM": 17, "REJECT": 0, "AMEND": 0, "ESCALATE": 4 },
+  "zeroRejectsIsAnHonestResult": "I did not manufacture a REJECT to justify the pass. I re-tested every value I thought most likely to fall — chess (is schack really neuter?), chips (pluralia tantum?), lilac (does SAOL keep the acute?), clementine (c- or k-?), boots (a pair in the picture), the two dinosaurs (empty/false src) — and each survived. This slice is structurally the safe one: gender and singular are mostly binary or spelling-restoration calls with hard corroboration available in the data itself. The overreach risk in this round lives in the PLURAL slice, where the reviewer repeatedly asserts an -er/-ar declension by ANALOGY while explicitly declining to cite a SAOL entry (eclair, persimmon, flamingo, orangutan, ponny, timer are self-flagged as inferred). That is where a refutation pass should expect to find its rejects; it is not my part.",
+  "findings": [
+   "DEINONYCHUS FALSE CITATION + THE ONLY REAL COUPLING GAP: src='SAOL' but SAOL has no 'deinonychus' entry — the citation is unhonourable, and its identical twin parasaurolophus honestly used src='' for the same unlistable claim. Separately, its coupled plural is neither corrected NOR held, while the twin's IS held — so applying the gender alone yields 'en deinonychus -> flera deinonychus' (utrum + zero plural). Add deinonychus.plural to held before applying.",
+   "PUSH-PIN'S COUPLED PLURAL REINTRODUCES THE DEFECT THIS ROUND EXISTS TO REMOVE: the proposed plural is 'Haftstift' without the ä (should be 'Häftstift') — the same diacritic loss the round repairs at Mossa->Mössa, Blackfisk->Bläckfisk, Diskbank->Diskbänk, Kanguru->Känguru. For the plural slice, but it must not ship.",
+   "CHIPS IS CORROBORATED BY THE FILE ITSELF: sister key 'potato-chips' already ships the identical word 'Chips' with g='t'. The same word carries two genders today; the fix resolves the contradiction. genderSv cannot have produced the 't' (identical input -> identical output), so it is a surviving human value.",
+   "COUPLING-GAP HYPOTHESIS RAISED AND THEN REFUTED BY EVIDENCE: all 4 reverse-direction (t->n) gender fixes lack a paired plural correction, which looked like a systematic first-round oversight. It is not — 3 of the 4 (garden-fork, hemlock-tree, parasaurolophus) have their plural deliberately HELD in held-sv.json with honest 'the defect is certain; the replacement form is not' reasoning. Only deinonychus is a genuine gap. Reporting the refutation because a refutation pass that only reports its confirmed suspicions is not doing its job.",
+   "EVERY MECHANISM CLAIM IN THIS SLICE IS TRUE, TESTED NOT TRUSTED: I re-implemented genderSv's lookup against the real SV_ETT_WORDS/SV_ETT_SUFFIXES. 'trädgårdsgrep' endsWith 'rep' and 'hemlock' endsWith 'lock' — both false-'t' causes the reviewers NAMED and got exactly right. Better, it explains the dinosaurs they could not: 'deinonychus' and 'parasaurolophus' both end in 'hus', which is why exactly those 2 of 25 dinosaur keys broke while allosaurus/stegosaurus/triceratops match nothing and correctly got 'n'. And 'ufo' is 3 characters, below the suffix loop's length>4 gate, so it fell straight through. Every 'absent from the hand-written list' claim (klot, läger, gips, schack, chips, fikon, ostron, parasoll, uttag, stift, schampo, linne) is literally true.",
+   "THE DUP RULE NEEDS A DISTINCTION THE FIRST ROUND DID NOT DRAW, and it decides 8 of my rows: rule 7 fires only where the correction CREATES the duplicate (cookies/crayons/curtains — currently different, identical after -> ESCALATE), not where the rows are ALREADY identical (santa/santa-claus, beach-umbrella/parasol -> pre-existing, CONFIRM + flag), and least of all where the fix RESOLVES an existing collision (ice-skate vs ice-skates -> CONFIRM, it un-duplicates). cookies is the worst of the three: its only theme (easter) is a subset of cookie's themes.",
+   "AN INTERNAL CONTRADICTION IN THE FIRST ROUND'S OWN STRUCTURAL ARGUMENT (bears on the plural slice, flagged from mine): the cabbage and cauliflower rationales assert 'an utrum noun cannot have a zero plural'. That rule is false and their own musician correction refutes it — 'en musiker -> flera musiker' is an utrum zero plural, as is 'en mekaniker'. Any verdict resting on that premise should be re-derived."
+  ]
+ }
+}

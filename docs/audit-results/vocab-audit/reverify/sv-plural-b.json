@@ -1,0 +1,266 @@
+{
+  "locale": "sv",
+  "part": "plural-b",
+  "reviewed": 84,
+  "scope": "plural corrections, keys manatee..yacht inclusive",
+  "summary": {
+    "CONFIRM": 79,
+    "REJECT": 0,
+    "AMEND": 4,
+    "ESCALATE": 1,
+    "headline": "No REJECT: I could not overturn a single proposed plural — every 'from' value in this slice is a genuine non-word or a wrong-lemma form, and I re-derived each 'to' independently. The finding of this pass is instead a class the first round did not see in itself: FOUR of its own 'to' values are diacritic-stripped non-words (Portmonnaer / Haftstift / Saser / Sjukhusklader). This is exactly the 'beanie' Mossa->Mössa class the SAME round correctly called 'SEVERE - WRONG WORD, NOT A WRONG FORM'. Proof it is an artifact and not a spelling choice: 'scrubs' and 'hospital-gown' are ONE lemma (both stored 'Sjukhuskläder'), and the same reviewer wrote 'Sjukhuskläder' for one and 'Sjukhusklader' for the other. Shipped as-is, four children's words would be projected and read aloud as non-words. Direction is right in all four -> AMEND, not REJECT."
+  },
+  "rows": [
+    { "key": "manatee", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: ko, kon, kor, korna - irregular head noun, so en sjöko -> flera sjökor. 'Sjökoar' is the script's default -ar fired on an irregular stem and is not a Swedish word." },
+
+    { "key": "mask", "field": "plural", "verdict": "CONFIRM",
+      "note": "Genuine homonym find, independently re-derived. SAOL has two 'mask': mask (ansiktsmask) ~en ~er, and mask (djuret) ~en ~ar. themes=[accessories,hospital] fix the face-mask reading -> masker. The data held the WORM plural. Correct." },
+
+    { "key": "medal", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: medalj ~en ~er -> medaljer. 'Medaljar' is the script default and is not a Swedish word." },
+
+    { "key": "medical-chart", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: journal ~en ~er, so patientjournal -> patientjournaler. noImage (dead data), but the form is wrong and the fix is right." },
+
+    { "key": "medicine", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: medicin ~en ~er -> mediciner. Stressed final -in loans take -er (maskin->maskiner, vitamin->vitaminer). Correct." },
+
+    { "key": "muscles", "field": "plural", "verdict": "CONFIRM",
+      "note": "The plural VALUE is right: SAOL muskel, muskeln, muskler, musklerna; 'Musklerar' is a fabricated double plural. ⚠ COUPLED-FIELD GAP (the re-verify brief tells me to check this): the singular field holds 'Muskler' and got NO singular correction, so applying this fix alone leaves s=p='Muskler', i.e. the file's NO_PLURAL encoding - false, since 'en muskel' is entirely normal. The first round fixed exactly this shape on cheeks/cymbals/curtains/dice/eyelashes but missed muscles. Apply, and add singular -> 'Muskel'. NOT plurale tantum." },
+
+    { "key": "musician", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: musiker ~n, pl. musiker - agent nouns in -er have zero plural. s=p='Musiker' is CORRECT here (a real zero plural, not a gap), and the reviewer's own cross-check against key 'mechanic' (Mekaniker/Mekaniker) is sound. NB this key also disproves the structural claim the same round made under cabbage/cauliflower ('an utrum noun cannot have a zero plural'): en musiker/tekniker/politiker/meter/liter -> flera musiker/... are utrum with zero plural. That claim should not be reused as a rule elsewhere." },
+
+    { "key": "native-american", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: indian, indianen, indianer. 'Indianerar' is a fabricated double plural. Coherent with the proposed singular fix (Indianer->Indian): the row resolves to Indian/Indianer/n. The reviewer's separate lemma/appropriateness flag is correctly kept out of the form fix." },
+
+    { "key": "nectarine", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: nektarin ~en ~er -> nektariner. Stressed -in loan. Correct." },
+
+    { "key": "oak-tree", "field": "plural", "verdict": "CONFIRM",
+      "note": "Strong find, verified. SAOL: ek, eken, ekar, ekarna (2nd declension). The stored 'Eker' is a DIFFERENT LEMMA - en eker = a wheel spoke (ekern, ekrar). A child on a tree page would have been given the word for a bicycle spoke. 'Ekar' correct." },
+
+    { "key": "octopus", "field": "plural", "verdict": "CONFIRM",
+      "note": "Diacritic restoration + correct declension: bläckfisk -> bläckfiskar (fisk ~en ~ar). 'Blackfiskar' is a non-word. NB this reviewer restored the ä here but stripped it in four other 'to' values in this slice - see purse/push-pin/sauce/scrubs." },
+
+    { "key": "oil", "field": "plural", "verdict": "CONFIRM",
+      "note": "NO_PLURAL is right for the depicted sense. themes=[at_the_supermarket], en gloss has no plural, countable:false. 'Olja' as cooking oil is an ämnesnamn exactly like the brief's vatten/mjölk/salt; 'oljor' is real but only sortal ('kinds of oil'), which a bottle does not show. Consistent with how milk is already encoded. Empty src is acceptable here - this is a countability judgement, not an asserted form." },
+
+    { "key": "orangutan", "field": "plural", "verdict": "CONFIRM",
+      "note": "CONFIRMED ON INDEPENDENT GROUNDS, not by accepting the reviewer's analogy. 'orangutanger' is the established form in Swedish zoological and general usage; stressed final -ang loans take -er (bumerang->bumeranger, mustang->mustanger). I note the src is an analogy + usage claim rather than a verbatim SAOL entry, but unlike persimmon below I have direct native confidence in the form itself, so the missing citation is not disqualifying." },
+
+    { "key": "outlet", "field": "plural", "verdict": "CONFIRM",
+      "note": "ett uttag -> flera uttag, so ett eluttag -> flera eluttag. Consonant-final neuter = zero plural (the brief's hus/bord class). s=p here is a CORRECT zero plural, not a gap, and the coupled gender fix (n->t) is proposed alongside - the camp/'Lägerar' shape handled properly in both fields." },
+
+    { "key": "oval", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: oval ~en ~er -> ovaler. Stressed final -al loans take -er (lokal->lokaler, spiral->spiraler). Correct - and a shapes-page word read aloud constantly." },
+
+    { "key": "oyster", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: ett ostron -> flera ostron. Neuter zero plural, the native -on class (päron, plommon, hallon, lingon, smultron). Coupled gender fix (n->t) proposed alongside. Correct in both fields." },
+
+    { "key": "palette", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: palett ~en ~er -> paletter. Stressed -ett loans take -er (servett->servetter, cigarett->cigaretter). Correct." },
+
+    { "key": "palm-tree", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: palm ~en ~er -> palmer. Correct, and internally consistent with coconut-tree -> kokospalmer." },
+
+    { "key": "parasol", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: ett parasoll -> flera parasoll. Consonant-final neuter, zero plural; coupled gender fix (n->t) proposed. ⚠ Operator note, NOT a reason to hold: key 'beach-umbrella' stores the identical row (Parasoll/Parasollar/n) and receives the identical fix. The duplicate is PRE-EXISTING - the correction does not create it, so the brief's duplicate-ESCALATE trigger is not met. File for de-duplication downstream." },
+
+    { "key": "pegasus", "field": "plural", "verdict": "CONFIRM",
+      "note": "'Pegasusar' is not Swedish under any reading, so a fix is mandatory. NO_PLURAL is defensible: Pegasus is the proper name of the one winged horse of myth, and the brief lists egennamn (Jupiter) in this class. Empty src is acceptable - this asserts no form. Alternative route if the operator ever wants a countable card: the common noun is 'en pegas -> flera pegaser' (SAOL), but that is a lemma change and correctly out of scope here." },
+
+    { "key": "pelican", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: pelikan ~en ~er -> pelikaner. Stressed final -an loan (banan->bananer, orkan->orkaner). Correct." },
+
+    { "key": "persimmon", "field": "plural", "verdict": "ESCALATE",
+      "note": "⚠ I cannot verify this and neither could the first round - the reviewer explicitly disclaims: 'I have not verified a SAOL entry for persimon and am NOT citing one'. Per the brief (osäker -> ESCALATE, gissa aldrig) I hold it. The reason is not pedantry: Swedish -on nouns are a GENUINELY SPLIT class, and BOTH halves are live in this very dataset. (a) Native/old -on words are NEUTER with ZERO plural - and 'fig'->Fikon and 'oyster'->Ostron are being corrected TO that pattern in this same file. (b) Modern final-stressed -on loans are UTRUM with -er (citron->citroner, melon->meloner; 'watermelon'->Vattenmeloner in this same slice). My own lean is (b) 'Persimoner' - persimon is a modern loan with final stress, and the absence of a coupled gender proposal is consistent with the stored utrum 'n' being right. But if (a) is correct, the proposal ships a new wrong form AND leaves the gender wrong, i.e. the camp/'Lägerar' coupled defect uncorrected. One SAOL lookup settles it. WHAT MUST NOT HAPPEN: 'Persimonar' is wrong under BOTH readings and must not stay shipped - escalating this key must not be read as leaving it alone." },
+
+    { "key": "piano", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: ett piano -> flera pianon. Unstressed vowel-final neuter takes -n; the script's blanket neuter zero plural is right only for consonant-final neuters. This is the brief's own named live defect. Gender already 't' - no coupled fix needed. Correct." },
+
+    { "key": "pie", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: paj ~en ~er -> pajer. Correct and internally consistent with apple-pie -> Äppelpajer." },
+
+    { "key": "pineapple", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: ananas ~en ~er -> ananaser. I specifically endorse the reviewer's discipline here: they note that -as does NOT license -er generally (pyjamas->pyjamasar is a genuine -ar word in the same batch). Judged word by word, exactly as the brief demands." },
+
+    { "key": "pipe-wrench", "field": "plural", "verdict": "CONFIRM",
+      "note": "Umlaut plural, which the script cannot do at all. SAOL: tång (verktyget) ~en, pl. tänger -> rörtång -> rörtänger. 'Rörtångar' is not a Swedish word. Correct." },
+
+    { "key": "plant", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: växt ~en ~er -> växter. Correct." },
+
+    { "key": "plate", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: tallrik ~en ~ar -> tallrikar. Verified with care because this one runs AGAINST the usual direction - the stored 'Tallriker' is not the script's -ar default but an over-correction away from it. 'Tallrikar' is right; a false symmetry ('everything -ar is wrong') would have missed this." },
+
+    { "key": "playground", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: plats ~en ~er -> platser, so lekplats -> lekplatser. Correct." },
+
+    { "key": "pliers", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: tång (verktyget) ~en, pl. tänger - umlaut. themes=[tools] fixes the tool reading (the seaweed 'tång' has no count plural). The reviewer is also right that the Swedish word is singular (en tång) unlike English 'pliers', so this is NOT pluralia tantum. ⚠ Operator note: key 'tongs' holds the identical row and gets the identical fix - but this is a genuine Swedish homograph (kitchen tongs and pliers ARE both 'en tång'), and the rows were already identical before the fix. Pre-existing, not created here." },
+
+    { "key": "police-officer", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: polis ~en ~er -> poliser. Correct." },
+
+    { "key": "pony", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: ponny ~n ~er -> ponnyer. Settled in Swedish equestrian usage (ponnyer och hästar, ponnyallsvenskan). Correct." },
+
+    { "key": "pottery", "field": "plural", "verdict": "CONFIRM",
+      "note": "Strong find, verified. 'Keramiker' is NOT the plural of keramik - it is a different lemma, en keramiker = the craftsperson. The stored row would show a child the potters where the picture (themes=[activities]) shows the craft. 'Keramik' is a mass noun (~en, no plural) -> p=s correct. Same wrong-lemma-in-the-plural-field class as oak-tree/'Eker'." },
+
+    { "key": "purse", "field": "plural", "verdict": "AMEND", "better": "Portmonnäer",
+      "note": "⚠ THE -er ENDING IS RIGHT; THE PROPOSED SPELLING IS A NON-WORD. SAOL: portmonnä ~n ~er -> portmonnäer. The proposed 'Portmonnaer' has lost the ä. The reviewer's own prose is diacritic-stripped throughout this entry ('portmonna, -n, -er', 'ide -> ideer', 'arme -> armeer' = idé->idéer, armé->arméer), and the stored singular is 'Portmonnä' WITH ä - so the stripping is an artifact of their environment, not a spelling claim. This is precisely the class the SAME round flagged as 'SEVERE - WRONG WORD, NOT A WRONG FORM' under 'beanie' (Mossa/Mössa). Shipping 'Portmonnaer' would project and read aloud a non-word to a 3-7-year-old. Apply as 'Portmonnäer'." },
+
+    { "key": "push-pin", "field": "plural", "verdict": "AMEND", "better": "Häftstift",
+      "note": "⚠ THE ZERO PLURAL IS RIGHT; THE PROPOSED SPELLING IS A NON-WORD. SAOL: ett stift -> flera stift, so ett häftstift -> flera häftstift (consonant-final neuter). The proposed 'Haftstift' has lost the ä. The stored singular is 'Häftstift' WITH ä, and the reviewer's own gender entry for this same key also writes the stripped 'ett haftstift' - an environment artifact, not a claim. 'Haft-' is not a Swedish morpheme here (häfta = to staple/pin). Apply as 'Häftstift'; the coupled gender fix (n->t) is correct and should land with it." },
+
+    { "key": "roasted-turkey", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: kalkon ~en ~er -> kalkoner, and the attributive adjective must agree in the plural: stekt -> stekta. 'Stekta kalkoner' is correct Swedish. The stored p was simply the unchanged singular phrase, which is not a plural. Phrase-capitalisation matches the sibling convention at hot-dog ('Korvar med bröd')." },
+
+    { "key": "robot", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: robot ~en ~ar -> robotar. Verified with extra care because this is the rare case where the script's -ar default would have been RIGHT and the stored value came from elsewhere: 'Roboter' is not Swedish (it is the Norwegian shape; Danish is robotter). The reviewer flagged this correctly rather than pattern-matching '-ar is always the bug'." },
+
+    { "key": "rocket", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: raket ~en ~er -> raketer (everyday: nyårsraketer). Correct." },
+
+    { "key": "rollerblade", "field": "plural", "verdict": "CONFIRM",
+      "note": "'Inlinesar' is an invented word - the default -ar bolted onto an already-plural loan. Swedish 'inlines' is unchanged in the plural. s=p is defensible here: inlines is effectively plurale tantum in Swedish ('ett par inlines'), which is the file's documented PLURALIA_TANTUM shape (plural standing in the singular field). Unlike muscles/sandals/vegetables below, this is NOT a coupled gap." },
+
+    { "key": "rose", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: ros, rosen, rosor, rosorna - 1st declension -or, not -ar. 'Rosar' is the script default (and reads as the verb rosa='praise'). Correct - and the reviewer is right that no net flagged this one." },
+
+    { "key": "rosette", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: rosett ~en ~er -> rosetter. ⚠ Operator note only: key 'bow' holds the identical row (Rosett/Rosettar/n) and gets the identical fix. Both are genuinely 'rosett' in Swedish (prize rosette / ribbon bow), and the rows were already identical before the fix - pre-existing duplicate, not created here, so no ESCALATE." },
+
+    { "key": "ruler", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: linjal ~en ~er -> linjaler. Latinate -al nouns take -er (kanal->kanaler, signal->signaler). Correct - a classroom word heard daily." },
+
+    { "key": "salad", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: sallad ~en ~er -> sallader. noImage (dead data), but the form is wrong and the fix is right. The countable dish reading supports a plural; the leafy-vegetable mass reading is not forced here." },
+
+    { "key": "salamander", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: salamander ~n, pl. salamandrar - unstressed -er stem syncopates (kalender->kalendrar, cylinder->cylindrar). 'Salamanderar' is the default -ar on an unsyncopated stem. Correct." },
+
+    { "key": "sandals", "field": "plural", "verdict": "CONFIRM",
+      "note": "The plural VALUE is right: en sandal -> flera sandaler; 'Sandalerar' is a fabricated double plural. ⚠ COUPLED-FIELD GAP: the singular field holds 'Sandaler' and got NO singular correction, so this fix alone leaves s=p='Sandaler' = the file's NO_PLURAL/plurale-tantum encoding. That is false: 'en sandal' is entirely normal Swedish (unlike byxor/glasögon). Apply, and add singular -> 'Sandal'. Same shape the first round DID fix at boots (Stövlar->Stövel) and crutches (Kryckor->Krycka) - inconsistently missed here." },
+
+    { "key": "santa", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: tomte ~n ~ar -> jultomtar. 'Jultomtenar' is the default -ar bolted onto the DEFINITE form that sat in the singular field - one root cause, two broken fields, and the coupled singular fix (Jultomten->Jultomte) is proposed alongside. Row resolves coherently to Jultomte/Jultomtar/n." },
+
+    { "key": "santa-claus", "field": "plural", "verdict": "CONFIRM",
+      "note": "Identical to key 'santa' and correct for the same reason. ⚠ Operator note only: santa and santa-claus were ALREADY identical rows before the fix and remain identical after it - pre-existing duplicate, not created by this correction; no ESCALATE. File for de-duplication downstream." },
+
+    { "key": "sauce", "field": "plural", "verdict": "AMEND", "better": "Såser",
+      "note": "⚠ THE -er ENDING IS RIGHT; THE PROPOSED SPELLING IS A NON-WORD. SAOL: sås ~en ~er -> såser. The proposed 'Saser' has lost the å. The reviewer's own prose is stripped ('SAOL: sas, sasen, saser', \"'Sasar' is ... not a Swedish word\") while the stored singular is 'Sås' WITH å - an environment artifact, not a claim. 'Saser' is not a Swedish word and would be read aloud to a child. Note the added danger: 'sas' is a real Swedish string (past tense of säga in 'det sas att...'), so the stripped form is not even obviously broken on sight. Apply as 'Såser'." },
+
+    { "key": "saucepan", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: kastrull ~en ~er -> kastruller. Correct." },
+
+    { "key": "science", "field": "plural", "verdict": "CONFIRM",
+      "note": "NO_PLURAL correct. type=noun-concept, countable:false, en gloss has no plural (Science/Science), N1 is a true positive. 'Vetenskaper' is real but means the academic DISCIPLINES - an adult sense that an activity card does not show. Empty src acceptable: no form is asserted." },
+
+    { "key": "scrubs", "field": "plural", "verdict": "AMEND", "better": "Sjukhuskläder",
+      "note": "⚠ THE FIX IS RIGHT; THE PROPOSED SPELLING IS A NON-WORD - and this key is the PROOF that the whole stripped class is an artifact. 'scrubs' and 'hospital-gown' store the IDENTICAL row (s='Sjukhuskläder', p='Sjukhuskläderar'), i.e. they are one lemma. The same reviewer proposed 'Sjukhuskläder' (with ä) for hospital-gown and 'Sjukhusklader' (without) for scrubs. One word, two spellings, one round - so the missing ä is an environment artifact, not a spelling decision, and that conclusion carries to purse/push-pin/sauce. Applying as-is would also make two keys for one word DIVERGE in spelling. 'kläder' is plurale tantum and never takes -ar, so removing 'Sjukhuskläderar' is right regardless of how the singular is resolved. Apply as 'Sjukhuskläder'." },
+
+    { "key": "sewing-machine", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: maskin ~en ~er -> symaskiner. Correct." },
+
+    { "key": "shampoo", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: schampo ~t, pl. schampon. Unstressed vowel-final neuter takes -n (the piano class). Coupled gender fix (n->t) proposed alongside - both fields from one missing list entry, handled correctly. NB this is consistent with the umbrella reviewer's stress refinement: schampo is initial-stressed, hence -n, not -er." },
+
+    { "key": "sink", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: bänk ~en ~ar -> diskbänkar, following the coupled singular fix (Diskbank->Diskbänk). Correct - and note this reviewer DID restore the ä here, which is further evidence that the four stripped values elsewhere are artifacts rather than considered spellings." },
+
+    { "key": "sneaker", "field": "plural", "verdict": "CONFIRM",
+      "note": "'Sneakerar' is certainly invented; 'sneakers' is the form in Swedish use ('ett par sneakers'). I checked this against the apparent counter-example in the same round - bagel -> Baglar REJECTS an English -s plural while this one ADOPTS one - and the two are consistent, not contradictory: 'bagel' is morphologically assimilated (en bagel, baglar) whereas 'sneakers' was borrowed AS a plural, like jeans/shorts/chips/inlines. Word by word, per the brief. If anything is weak on this key it is the singular field ('Sneaker'), not the plural." },
+
+    { "key": "snorkeling-mask", "field": "plural", "verdict": "CONFIRM",
+      "note": "Same homonym class as key 'mask', and correct: mask (ansiktsmask) ~en ~er -> snorkelmasker; mask (djuret) ~en ~ar. The data carried the WORM plural on a snorkelling mask. themes=[beach] confirms. Correct." },
+
+    { "key": "snow-globe", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: glob ~en ~er -> snöglober, exactly as jordglob -> jordglober. Correct." },
+
+    { "key": "snowsuit", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: dräkt ~en ~er -> snödräkter (baddräkt->baddräkter, folkdräkt->folkdräkter). Correct." },
+
+    { "key": "sphere", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: sfär ~en ~er -> sfärer (affär->affärer, premiär->premiärer). Correct." },
+
+    { "key": "stage", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: scen ~en ~er -> scener. 'Scenar' is a pure script default and not a Swedish word. Unambiguous." },
+
+    { "key": "sunscreen", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: kräm ~en ~er -> solkrämer (handkräm->handkrämer, hudkräm->hudkrämer). Correct." },
+
+    { "key": "swimsuit", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: dräkt ~en ~er -> baddräkter. ⚠ Operator note only: key 'bathing-suit' holds the identical row and gets the identical fix; the rows were already identical before the fix - pre-existing duplicate, not created here, so no ESCALATE." },
+
+    { "key": "sycamore-tree", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: platan ~en ~er -> plataner (stressed final -an loan). The plural is right for the stored lemma. Out-of-scope note for the operator, NOT a reason to hold the form fix: 'platan' is Platanus - correct for American sycamore, whereas British 'sycamore' is Acer pseudoplatanus (tysklönn). That is an image/lemma question, not this field's." },
+
+    { "key": "tank-top", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: linne (plagget) ~t, pl. ~n -> ett linne, flera linnen. Unstressed vowel-final neuter takes -n; 'Linnar' is not a Swedish word. Coupled gender fix (n->t) proposed alongside - both fields, one cause, handled correctly." },
+
+    { "key": "tape", "field": "plural", "verdict": "CONFIRM",
+      "note": "A fix is mandatory: 'Tejpar' is not a noun plural at all - it is the verb form (han tejpar). NO_PLURAL is defensible for the depicted classroom material: one says 'en rulle tejp', and a count plural 'tejper' would only mean kinds/rolls of tape. Consistent with the jam/oil encoding in the same round. Operator option if a countable card is ever wanted: the sortal form is 'Tejper'." },
+
+    { "key": "ticket", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: biljett ~en ~er -> biljetter. Correct." },
+
+    { "key": "timer", "field": "plural", "verdict": "CONFIRM",
+      "note": "'Timerar' is impossible under any analysis. Unstressed -er syncopates before -ar, which is the same productive class the round applied consistently elsewhere in this file (blender->mixrar, bulldozer->bulldozrar, salamander->salamandrar, ferret->illrar, aster->astrar, cedar-tree->cedrar; SAOL documents container->containrar, revolver->revolvrar, trailer->trailrar) -> timrar. The reviewer honestly flags that an -s plural ('timers') is also current; that is a variant choice for the operator, not a defect in this fix." },
+
+    { "key": "toe", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: tå ~n, pl. tår (definite tårna). 'Tåar' is invented. The reviewer's homonym note is correct and worth keeping: the identical form 'tår' is also 'tear' (en tår, tårar), but themes=[body_parts] makes the toe reading unambiguous." },
+
+    { "key": "toilet", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: toalett ~en ~er -> toaletter. Correct." },
+
+    { "key": "tongs", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: tång ~en, pl. tänger - umlaut, which the script cannot do. Kitchen tongs are genuinely 'en tång' in Swedish (grilltång, sockertång, salladstång). The reviewer's caveat is right: this plural holds only for the tool sense; the seaweed 'tång' has no count plural. See key 'pliers' for the pre-existing duplicate note." },
+
+    { "key": "toucan", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: tukan ~en ~er -> tukaner, like the other stressed -an loans (pelikan->pelikaner, tulpan->tulpaner). Correct." },
+
+    { "key": "traffic-cone", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: kon ~en ~er -> trafikkoner. Correct and internally consistent with key 'cone' -> Koner." },
+
+    { "key": "trapezoid", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: trapets ~en ~er -> trapetser. The reviewer is right to refuse the slips->slipsar pattern (that -ar belongs to English loans). themes=[shapes] fixes the geometric reading; the circus-trapeze homonym takes the same plural, so no risk either way." },
+
+    { "key": "trophy", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: trofé ~n ~er -> troféer. Stressed -é keeps the acute and takes -er (idé->idéer, armé->arméer). Correct - and note the é is properly retained here, unlike the four stripped values elsewhere in this slice." },
+
+    { "key": "umbrella", "field": "plural", "verdict": "CONFIRM",
+      "note": "VERDICT CORRECT - I TESTED THE CLAIM RATHER THAN ASSUMING IT, AS INSTRUCTED. SAOL: paraply ~t ~er -> ett paraply, flera paraplyer. The reviewer is RIGHT to contradict the brief: the brief's flat 'vowel-final neuters take -n' would yield *paraplyn, which is wrong. ⚠ BUT THEIR REPLACEMENT RULE IS OVER-BROAD AND MUST NOT BE GENERALISED: 'a neuter in a STRESSED vowel takes -er' wrongly predicts *knäer and *bier - ett knä -> flera knän and ett bi -> flera bin are stressed vowel-final neuters that take -n. The real conditioning is native monosyllable (-n: knä->knän, bi->bin, frö->frön, strå->strån) vs polysyllabic final-stressed loan (-er: paraply->paraplyer, geni->genier, parti->partier, batteri->batterier). Both the brief's rule and the reviewer's rule are over-broad in opposite directions; both nevertheless land correctly on their own keys (knee->Knän and umbrella->Paraplyer are BOTH right and do not conflict). Gender 't' already correct - no coupled fix needed. Apply." },
+
+    { "key": "underpants", "field": "plural", "verdict": "CONFIRM",
+      "note": "'Kalsongerar' is the default -ar on an already-plural form; the plural is 'kalsonger'. s=p is defensible here: kalsonger functions as plurale tantum in practice (like byxor/glasögon), which is the file's documented shape of a plural standing in the singular field. Unlike muscles/sandals/vegetables, I do NOT call this a coupled gap." },
+
+    { "key": "vegetables", "field": "plural", "verdict": "CONFIRM",
+      "note": "The plural VALUE is right: en grönsak -> flera grönsaker (sak ~en ~er); 'Grönsakerar' is a fabricated double plural, wrong regardless of how the singular resolves. ⚠ COUPLED-FIELD GAP: the singular field holds 'Grönsaker' and got NO singular correction, so this fix alone leaves s=p='Grönsaker' = the NO_PLURAL/plurale-tantum encoding. That is false - 'en grönsak' is entirely normal Swedish. Apply, and add singular -> 'Grönsak'." },
+
+    { "key": "violin", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: fiol ~en ~er -> fioler. Correct and consistent with the sibling instruments (gitarr->gitarrer, flöjt->flöjter)." },
+
+    { "key": "waitress", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: servitris ~en ~er -> servitriser (aktris->aktriser, direktris->direktriser). Correct." },
+
+    { "key": "water-lily", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: ros, rosen, rosor - the compound follows its head: en näckros -> flera näckrosor. Correct and consistent with key 'rose' -> Rosor and 'dandelion' -> Maskrosor." },
+
+    { "key": "watermelon", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: melon ~en ~er -> vattenmeloner. Correct. (This key is also the strongest single argument for 'Persimoner' on the escalated persimmon key - same final-stressed -on loan class.)" },
+
+    { "key": "wave", "field": "plural", "verdict": "CONFIRM",
+      "note": "Strong homonym find, verified. SAOL distinguishes two lemmas: våg (i vattnet) ~en, pl. VÅGOR - and våg (vågskål/instrument) ~en, pl. VÅGAR. The data held 'Vågar', i.e. the plural of the SCALE, on a beach picture (themes=[beach]). 'Vågor' correct. Same trap class as the German pine-tree/Kiefer case." },
+
+    { "key": "wrist", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: led (kroppsled) ~en ~er -> en handled, handleden, handleder, handlederna. Checked the homonyms deliberately: 'ett led' (a rank/link) has a zero plural and 'en led' (a trail) takes -er, but handled is the joint sense -> handleder. Correct." },
+
+    { "key": "yacht", "field": "plural", "verdict": "CONFIRM",
+      "note": "SAOL: yacht ~en ~er -> yachter (cf. the vessel-type jakt -> jakter). 'Yachtar' is the script default; a native says 'flera yachter'. Correct." }
+  ]
+}

@@ -1620,6 +1620,42 @@
     "g": "n"
    },
    "why": "'Röntgenar' is certainly not a Swedish word — that much is beyond doubt. But the correction is not a pure form fix: if the lemma stays 'Röntgen' the answer is NO_PLURAL (p = s); if the lemma is 'Röntgenbild' the answer is 'Röntgenbilder'. Blocked on the singular ruling; I will not guess."
+  },
+  {
+   "key": "cookies",
+   "field": "singular",
+   "cur": null,
+   "why": "ESCALATED by re-verify: RULE 7 FIRES — and the reviewer saw it and filed the correction anyway. The corrected row would be {Kaka, Kakor, n}, which is BYTE-IDENTICAL to the existing sister key 'cookie' = {Kaka, Kakor, n} (verified against all 1263 keys). The reviewer's own why-text concedes 'the corrected row then duplicates key cookie exactly' but classes it as 'a de-duplication question downstream, not part of this correction'. The brief says the opposite: 'skulle to göra raden identisk med en befintlig systernyckel? Då ESCALATE' — hold it back rather than apply it. AGGRAVATING, and this is the part the reviewer did not check: 'cookies' has themes=[easter], and 'cookie' already carries easter among its themes ([at_the_supermarket,bakery,christmas,desserts_and_sweets,easter,food]) — so cookies' only theme is a SUBSET of cookie's. These are not two words that merely coincide; they are two keys covering the same picture space. DISTINCTION I APPLIED CONSISTENTLY: this is unlike santa/santa-claus and beach-umbrella/parasol, whose rows are already identical BEFORE the fix (pre-existing duplicates the correction does not create). Here the rows are currently DIFFERENT and the correction is what makes them identical. That is the trigger. Language note: 'Kaka' is correct Swedish and not pluralia tantum — the escalation is about the duplicate, not the form."
+  },
+  {
+   "key": "crayons",
+   "field": "singular",
+   "cur": null,
+   "why": "ESCALATED by re-verify: RULE 7 FIRES, same shape as 'cookies' and again conceded-then-filed by the reviewer. The corrected row {Krita, Kritor, n} would be BYTE-IDENTICAL to the existing sister key 'crayon' = {Krita, Kritor, n}. Currently the rows DIFFER, so the correction is what creates the duplicate -> hold, do not apply. Mitigating detail for the operator's ruling: unlike cookies/cookie, the themes are disjoint (crayons=[toys] vs crayon=[classroom,education]), so a case can be made that these are two distinct pictures legitimately sharing one word — but that is a catalog decision for the operator, which is exactly why it escalates rather than ships. Language note: 'Krita' is correct Swedish and not pluralia tantum; the escalation is about the duplicate, not the form."
+  },
+  {
+   "key": "curtains",
+   "field": "singular",
+   "cur": null,
+   "why": "ESCALATED by re-verify: RULE 7 FIRES — the third of the conceded-then-filed set. The corrected row would be {Gardin, Gardiner, n} (singular fix plus this key's own plural fix Gardinerar->Gardiner), which is BYTE-IDENTICAL to the existing sister key 'curtain' = {Gardin, Gardiner, n}. Currently the rows differ, so the correction creates the duplicate -> hold. Themes are adjacent rather than disjoint (curtains=[around_the_house,furniture] vs curtain=[household]). IMPORTANT SO THAT THIS ESCALATION DOES NOT DO HARM: my hold applies ONLY to the singular field. The separate plural correction on this key (Gardinerar->Gardiner) removes a fabricated double plural that is wrong under every possible resolution of the duplicate question, and it should proceed regardless of how the operator rules on the dedup — the same logic the first round itself applied to 'hospital-gown'."
+  },
+  {
+   "key": "muffin",
+   "field": "singular",
+   "cur": null,
+   "why": "ESCALATED by re-verify: THIS IS A LEMMA SELECTION, NOT A FORM FIX — the brief's definition of ESCALATE ('lemmabyte'), and it carries the German 'lego' risk the operator named: a 'correction' that deletes an attested form. The current row {s:Muffin, p:Muffins, g:n} IS broken — 'Muffins' as the plural of a Swedish lemma 'muffin' is an English -s plural, not a Swedish form — so something must change. But there are TWO coherent resolutions: (a) the proposal's s=Muffins / p=Muffins (the English plural borrowed as the Swedish singular, the keps<caps and kex<cakes pattern), or (b) s=Muffin / p=Muffiner. Choosing between them decides which lemma the file uses, and the usage is genuinely split. I CANNOT VERIFY from memory whether SAOL also lists 'muffin' as an accepted variant, and if it does, the proposal deletes an attested form — exactly what happened to 'lego' in the German round. The proposal does not establish that 'muffin' is unattested; it argues only that 'muffins' is attested, which does not settle it. The src is itself hedged ('SAOL lemma muffins; Språkrådet recommends...') rather than the verbatim citation shape this reviewer uses everywhere else ('SAOL: kloss subst. ~en ~ar') — a tell that they knew it was weaker. Per the brief: osäker -> ESCALATE, gissa aldrig. The 'muffin-tin stores Muffinsform' corroboration is suggestive but not decisive (compound stems routinely differ from the free lemma). Operator decides; I will not guess."
+  },
+  {
+   "key": "hospital-gown",
+   "field": "plural",
+   "cur": null,
+   "why": "ESCALATED by re-verify: The form fix itself is right -- 'Sjukhuskläderar' is a fabricated +ar on a plurale-tantum form and must go -- but I escalate rather than confirm, on three grounds that together make this a lemma decision the operator should take, not a form fix to apply. (1) LEMMA: 'sjukhuskläder' means hospital CLOTHES (plurale tantum) and is not a hospital GOWN, a single countable garment ('patientskjorta'/'patientrock'); the English gloss is 'Hospital Gown/Hospital Gowns' and countable=true, so after the fix the row STILL cannot express 'two hospital gowns' -- p=s would encode plurale tantum for a countable concept. (2) SISTER KEY: hospital-gown and 'scrubs' are already byte-identical rows {Sjukhuskläder, Sjukhuskläderar, n} (both N6-flagged), and the two proposals DIVERGE only through a bug -- scrubs is proposed as 'Sjukhusklader' WITHOUT the ä, a non-word. Applying both would leave one sister correct and one corrupted. The pair must be resolved together. (3) COST OF WAITING IS ZERO: noImage = dead data, no child ever sees this key, so holding it back costs nothing while the lemma + the scrubs duplicate are settled. This is the brief's 'bör hållas tillbaka i stället för att tillämpas' case."
+  },
+  {
+   "key": "persimmon",
+   "field": "plural",
+   "cur": null,
+   "why": "ESCALATED by re-verify: ⚠ I cannot verify this and neither could the first round - the reviewer explicitly disclaims: 'I have not verified a SAOL entry for persimon and am NOT citing one'. Per the brief (osäker -> ESCALATE, gissa aldrig) I hold it. The reason is not pedantry: Swedish -on nouns are a GENUINELY SPLIT class, and BOTH halves are live in this very dataset. (a) Native/old -on words are NEUTER with ZERO plural - and 'fig'->Fikon and 'oyster'->Ostron are being corrected TO that pattern in this same file. (b) Modern final-stressed -on loans are UTRUM with -er (citron->citroner, melon->meloner; 'watermelon'->Vattenmeloner in this same slice). My own lean is (b) 'Persimoner' - persimon is a modern loan with final stress, and the absence of a coupled gender proposal is consistent with the stored utrum 'n' being right. But if (a) is correct, the proposal ships a new wrong form AND leaves the gender wrong, i.e. the camp/'Lägerar' coupled defect uncorrected. One SAOL lookup settles it. WHAT MUST NOT HAPPEN: 'Persimonar' is wrong under BOTH readings and must not stay shipped - escalating this key must not be read as leaving it alone."
   }
  ],
  "pluraliaTantum": [

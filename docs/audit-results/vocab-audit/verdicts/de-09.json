@@ -1,0 +1,556 @@
+{
+  "locale": "de",
+  "batch": "09",
+  "reviewed": 110,
+  "rows": [
+    { "key": "pudding",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "puddle",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "pufferfish",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "puffin",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "pumpkin",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "purple",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "colour name used as a noun; no child-relevant plural — already encoded correctly (p = s)" },
+      "gender": { "verdict": "FIX", "correct": "n", "reason": "substantivised colour names are neuter: das Lila (cf. das Blau, das Braun); 'm' is the script default", "source": "Duden" } },
+
+    { "key": "purse",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "push-pin",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "puzzle",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "pyramid",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "quail",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "rabbit",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "raccoon",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "race-car",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "radish",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "rain",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "mass noun; no child-relevant plural — already encoded correctly (p = s)" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "rain-boots",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "rainbow",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "FIX", "correct": "Regenbögen", "reason": "Duden gives Regenbogen, der; -s, ...bögen — the plural is umlauted, not identical to the singular; the zero plural here is the script's -en default", "source": "Duden" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "raincoat",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "raindrop",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "rainy",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "adjective; no plural — already encoded correctly (p = s)" },
+      "gender": { "verdict": "HOLD", "reason": "'regnerisch' is a plain adjective, not a noun — grammatical gender does not apply; 'm' is wrong under every reading, but the correct value is not a form fix (it depends on whether this field should be empty or encode a substantivised 'das Regnerische')" } },
+
+    { "key": "rake",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "raspberry",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "ray",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "read",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "substantivised infinitive (das Lesen); no plural — already encoded correctly (p = s)" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "reading",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "substantivised infinitive (das Lesen); no plural — already encoded correctly (p = s)" },
+      "gender": { "verdict": "FIX", "correct": "n", "reason": "substantivised infinitives are without exception neuter: das Lesen; cf. the identical key 'read' in this batch, which correctly carries 'n'", "source": "Duden" } },
+
+    { "key": "rectangle",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "rectangular-box",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "red",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "colour name used as a noun; no child-relevant plural — already encoded correctly (p = s)" },
+      "gender": { "verdict": "FIX", "correct": "n", "reason": "substantivised colour names are neuter: das Rot", "source": "Duden" } },
+
+    { "key": "redbud-tree",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "redwood-tree",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "refrigerator",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "reindeer",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "remote-control",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "rhino",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "rhinoceros",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "ribbon",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "rice",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "mass noun; no child-relevant plural — already encoded correctly (p = s)" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "ring",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "river",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "roasted-turkey",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "FIX", "correct": "Gebratene Truthähne", "reason": "two errors in one form: the noun plural is umlauted (Truthahn -> Truthähne, Duden) and the attributive adjective must take the plural ending -e, not the masculine singular -er; same lemma, pure form correction", "source": "Duden" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "robin",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "robot",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "rock",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "rocket",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "rocking-chair",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "rocking-horse",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "rollerblade",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "rolling-pin",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "rooster",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "rope",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "rose",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "rosette",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "rubber-boot",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "rudolph",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "proper name of one specific reindeer (cf. Jupiter); 'Rudolphe' is an invented form — p must become identical to s" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "rug",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "ruler",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "run",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "substantivised infinitive (das Laufen); no plural — already encoded correctly (p = s)" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "running",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "substantivised infinitive (das Laufen); no plural — already encoded correctly (p = s)" },
+      "gender": { "verdict": "FIX", "correct": "n", "reason": "substantivised infinitives are without exception neuter: das Laufen; cf. the identical key 'run' in this batch, which correctly carries 'n'", "source": "Duden" } },
+
+    { "key": "sack",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "sad",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "adjective; no plural — already encoded correctly (p = s)" },
+      "gender": { "verdict": "HOLD", "reason": "'traurig' is a plain adjective, not a noun — grammatical gender does not apply; 'm' is wrong under every reading, but the correct value is not a form fix (it depends on whether this field should be empty or encode a substantivised 'das Traurige')" } },
+
+    { "key": "sailboat",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "salad",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "salamander",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "salt",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "themes = at_the_supermarket, i.e. table salt, a mass noun; the existing 'Salze' is the chemists' plural (kinds of salt) and is wrong for this picture — p must become identical to s", "source": "Duden" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "salt-shaker",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "sand",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "mass noun; no child-relevant plural — already encoded correctly (p = s)" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "sandals",
+      "singular": { "verdict": "FIX", "correct": "Sandale", "reason": "plural in the singular field (same defect class as 'blocks' = Bauklötze); the singular is die Sandale", "source": "Duden" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "sandbox",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "FIX", "correct": "Sandkästen", "reason": "Duden: Sandkasten, der; -s, ...kästen — the plural is umlauted; the zero plural here is the script's -en default", "source": "Duden" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "sandcastle",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "sandwich",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "sanitation-worker",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "santa",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "santa-claus",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "santa-hat",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "satellite",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "saturn",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "proper name of one planet (cf. Jupiter); no plural — already encoded correctly (p = s)" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "sauce",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "saucepan",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "sausage",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "saxophone",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "scale",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "scallop",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "scarecrow",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "scared",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "adjective; no plural — already encoded correctly (p = s)" },
+      "gender": { "verdict": "HOLD", "reason": "'verängstigt' is a participle used as an adjective, not a noun — grammatical gender does not apply; 'm' is wrong under every reading, but the correct value is not a form fix" } },
+
+    { "key": "scarf",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "scarlet",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "colour name used as a noun; no child-relevant plural — already encoded correctly (p = s)" },
+      "gender": { "verdict": "FIX", "correct": "n", "reason": "substantivised colour names are neuter: das Scharlachrot", "source": "Duden" } },
+
+    { "key": "school-bus",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "science",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "abstract noun for the field/school subject; the plural 'Wissenschaften' means 'academic disciplines' and does not fit the picture — already encoded correctly (p = s)" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "scissors",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "scooter",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "screw",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "screwdriver",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "scrubs",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "head noun 'Kleidung' is a mass/collective noun; 'OP-Kleidungen' is not a usable German form — p must become identical to s", "source": "Duden" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "scuba-diving",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "substantivised infinitive (das Tauchen); no plural — already encoded correctly (p = s)" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "sea-horse",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "sea-lion",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "sea-snail",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "sea-turtle",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "seagull",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "seahorse",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "seal",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "seashell",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "seaweed",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "mass noun; no child-relevant plural — already encoded correctly (p = s)" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "sequoia-tree",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "sewing",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "substantivised infinitive (das Nähen); no plural — already encoded correctly (p = s)" },
+      "gender": { "verdict": "FIX", "correct": "n", "reason": "substantivised infinitives are without exception neuter: das Nähen", "source": "Duden" } },
+
+    { "key": "sewing-machine",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "shampoo",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "shark",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "sheep",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } }
+  ]
+}

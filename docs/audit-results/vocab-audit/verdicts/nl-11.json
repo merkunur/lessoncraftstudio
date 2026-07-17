@@ -1,0 +1,1429 @@
+{
+ "locale": "nl",
+ "batch": "11",
+ "reviewed": 110,
+ "rows": [
+  {
+   "key": "suspenders",
+   "singular": {
+    "verdict": "PLURALIA_TANTUM",
+    "reason": "The depicted garment is a pair. Van Dale does list a singular 'de bretel' (one single strap), but the object shown is only ever named in the plural 'de bretels'; a TTS reading 'de bretel' over a picture of a pair would be wrong. Field content is correct as a plural.",
+    "source": "Van Dale"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "suv",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "swallow",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "FIX",
+    "correct": "Zwaluwen",
+    "reason": "Van Dale: de zwaluw -> zwaluwen. 'Zwaluwwen' is the script's consonant-doubling rule misfiring: w is never doubled after the digraph 'uw'.",
+    "source": "Van Dale"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "swan",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "sweater",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "FIX",
+    "correct": "Truien",
+    "reason": "Van Dale: de trui -> truien. 'Trui's' applies the apostrophe rule for words ending in a single vowel; 'ui' is a digraph, so the plural is -en.",
+    "source": "Van Dale"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "sweatpants",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "sweatshirt",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "swimming",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Nominalised infinitive (het zwemmen); no plural. p = s is already correct.",
+    "source": "Van Dale"
+   },
+   "gender": {
+    "verdict": "FIX",
+    "correct": "h",
+    "reason": "Nominalised infinitives are always neuter: het zwemmen. The generator's fallback returned 'd'.",
+    "source": "Van Dale"
+   }
+  },
+  {
+   "key": "swimsuit",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "swing",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "swordfish",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "sycamore-tree",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "syringe",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "t-rex",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "FIX",
+    "correct": "T-Rexen",
+    "reason": "Dutch never doubles x (fax -> faxen, box -> boxen), so 'T-Rexxen' is impossible spelling. Plural is T-rexen.",
+    "source": "Woordenlijst Nederlandse Taal (spelling rule: x is not doubled)"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "t-shirt",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "table",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "table-lamp",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "table-tennis",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Name of a sport; no plural. p = s is already correct.",
+    "source": "Van Dale"
+   },
+   "gender": {
+    "verdict": "FIX",
+    "correct": "h",
+    "reason": "Sport names are neuter in Dutch: het tafeltennis (cf. het tennis, het voetbal).",
+    "source": "Van Dale"
+   }
+  },
+  {
+   "key": "tablet",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Homonym checked: 'de tablet' = a pill / flat bar; 'het tablet' = the portable computer. themes [classroom, household] + en 'Tablet/Tablets' = the device, so the neuter reading in the data is the right one."
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "taco",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "tailor",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "tank",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "FIX",
+    "correct": "Tanks",
+    "reason": "Van Dale: de tank -> tanks. 'Tanken' is not a plural at all, it is the verb 'to refuel' - a child would hear the wrong word entirely.",
+    "source": "Van Dale"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "tank-top",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "tanker-truck",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "tape",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Deliberately not flagged as a mass-noun error: 'plakbanden' (rolls/kinds of tape) is formable, and calling it uncountable would be the 'broden' false positive the brief warns about."
+   },
+   "gender": {
+    "verdict": "FIX",
+    "correct": "h",
+    "reason": "Van Dale / Woordenlijst: het plakband (Standard Dutch, Netherlands). The generator's catch-all returned 'd'.",
+    "source": "Van Dale / Woordenlijst Nederlandse Taal"
+   }
+  },
+  {
+   "key": "tape-measure",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "FIX",
+    "correct": "h",
+    "reason": "Head noun 'lint' is neuter (het lint, de linten), so het meetlint. The generator's catch-all returned 'd'.",
+    "source": "Van Dale"
+   }
+  },
+  {
+   "key": "tart",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "taxi",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "teacher",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Van Dale allows both 'leraren' and 'leraars'; 'Leraren' is the usual form and is correct."
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "teacup",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "teapot",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "teddy-bear",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "telephone",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "FIX",
+    "correct": "Telefoons",
+    "reason": "Van Dale: de telefoon -> telefoons (like microfoon -> microfoons, xylofoon -> xylofoons). 'Telefonen' is not current Dutch.",
+    "source": "Van Dale"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "telescope",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Contrast with 'telefoon' in this same batch: -scoop does take -open (telescopen), -foon takes -s. Checked word by word, not by pattern."
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "television",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "FIX",
+    "correct": "Televisies",
+    "reason": "Van Dale: de televisie -> televisies. 'Televisien' is a machine-generated -en form that does not exist.",
+    "source": "Van Dale"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "tennis",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Name of a sport; no plural. p = s is already correct.",
+    "source": "Van Dale"
+   },
+   "gender": {
+    "verdict": "FIX",
+    "correct": "h",
+    "reason": "Sport names are neuter: het tennis.",
+    "source": "Van Dale"
+   }
+  },
+  {
+   "key": "tennis-ball",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "tennis-racket",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "FIX",
+    "correct": "Tennisrackets",
+    "reason": "Van Dale: het racket -> rackets. Stress is on the first syllable, so the consonant-doubling rule that produced 'racketten' does not apply.",
+    "source": "Van Dale"
+   },
+   "gender": {
+    "verdict": "FIX",
+    "correct": "h",
+    "reason": "Head noun 'racket' is neuter: het (tennis)racket.",
+    "source": "Van Dale"
+   }
+  },
+  {
+   "key": "tent",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "theater",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "therizinosaurus",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "-us -> -ussen with doubling is genuinely correct here (cactus -> cactussen); unlike the -xx forms elsewhere in this batch, this doubling is real."
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "thermometer",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "thumb",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "thunderstorm",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Weather phenomenon, not counted in child-facing Dutch ('het onweer'). Van Dale does record a rare plural 'onweren', so I do not call the current form a hard spelling error - but it is not a word to speak to a 3-7 year old; several thunderstorms are 'onweersbuien'. p = s per the file convention.",
+    "source": "Van Dale"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "tiara",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "ticket",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "tie",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "tiger",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "tights",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "timer",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "tired",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Adjective; no plural. p = s is already correct.",
+    "source": "Van Dale"
+   },
+   "gender": {
+    "verdict": "OK",
+    "reason": "Not a defect to correct: an adjective has no gender, so the field is inert here. Left as-is rather than rewritten, since neither 'd' nor 'h' is meaningful for 'moe'."
+   }
+  },
+  {
+   "key": "tissue",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "toad",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Homonym checked: 'de pad' = the animal, 'het pad' = the footpath. themes [forest_creatures] = the animal, so 'd' is the correct gender here - and it is the opposite of the 'trail' key in this same batch."
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "'Padden' is genuinely correct for the animal (de pad -> padden, real consonant doubling on a short a) even though the brief lists it as a suspected script artefact. This is the false-positive trap; not a defect."
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "toast",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "toaster",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK",
+    "reason": "Van Dale allows both de and het for (brood)rooster; 'de broodrooster' is the usual form in the Netherlands, so the current 'd' is correct and needs no change."
+   }
+  },
+  {
+   "key": "toe",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Homonym checked: 'de teen' = toe (body_parts, as pictured) and also 'de teen' = willow twig; both common gender, so 'd' is right either way."
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "toilet",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "toilet-paper",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Mass noun (het toiletpapier); counted as 'rollen toiletpapier'. p = s is already correct; the N2 flag is a false suspicion.",
+    "source": "Van Dale"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "tomato",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "tongs",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "tongue",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Homonym checked: 'de tong' = tongue (body_parts, as pictured) and 'de tong' = sole (the fish); both common gender, so 'd' holds."
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "toolbox",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "tooth",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "toothbrush",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "toothpaste",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Mass noun (de tandpasta); 'Tandpasta's' would mean brands/kinds, not what the picture shows. p becomes s.",
+    "source": "Van Dale"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "torch",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "tortoise",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "tote-bag",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "toucan",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "FIX",
+    "correct": "Toekans",
+    "reason": "Van Dale: de toekan -> toekans. The loanword does not carry final-syllable stress, so the script's consonant-doubling rule ('Toekannen') does not apply.",
+    "source": "Van Dale"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "tow-truck",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "towel",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "tractor",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Van Dale gives both 'tractors' and 'tractoren'; the -oren form in the data is a listed variant, so this is not a defect."
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "traffic-cone",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "trail",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Homonym: themes [camping] + en 'Trail' = het pad (the footpath), not de pad (the toad). The singular is the right lemma; the plural is not."
+   },
+   "plural": {
+    "verdict": "FIX",
+    "correct": "Paden",
+    "reason": "Van Dale: het pad -> de paden. 'Padden' is the plural of the ANIMAL 'de pad'; the script applied the toad's doubling rule to the footpath, so a child sees a trail and hears 'toads'.",
+    "source": "Van Dale"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "train",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "trapezoid",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Van Dale gives 'trapezia' and 'trapeziums'; the Latin plural in the data is listed and correct."
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "trash-can",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "tree",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "triangle",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "triceratops",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "trillium",
+   "singular": {
+    "verdict": "OK",
+    "reason": "'Drieblad' is the Dutch name of the genus Trillium; correct for a flowers picture."
+   },
+   "plural": {
+    "verdict": "FIX",
+    "correct": "Driebladen",
+    "reason": "'blad' has a long a, so consonant doubling is impossible - 'Driebladden' cannot be a Dutch word. Compounds in -blad take -bladen (tafelblad -> tafelbladen, dekblad -> dekbladen); 'bladeren' is reserved for leaves on a tree.",
+    "source": "Van Dale"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "trombone",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "trophy",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "trousers",
+   "singular": {
+    "verdict": "OK",
+    "reason": "Not an English-style pluralium tantum in Dutch: 'de broek' is a normal singular. Correct as-is."
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "trowel",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "truck",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "truck-driver",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "trumpet",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "Doubling is genuine here: 'trompet' has final-syllable stress and a short e -> trompetten."
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "tulip",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "tuna",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "turkey",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "turnip",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "turquoise",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Colour term; no plural. p = s is already correct.",
+    "source": "Van Dale"
+   },
+   "gender": {
+    "verdict": "OK",
+    "reason": "Left as-is: used as a colour adjective (type: adjective), where the gender field is inert. Note for the record: if it were ever nominalised as the colour or the gemstone it would be 'het turkoois' - but no change is warranted for a colour label."
+   }
+  },
+  {
+   "key": "turtle",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "'Schildpadden' is correct (de schildpad -> schildpadden); the head is the animal 'pad', so the doubling is real."
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "tyrannosaurus-rex",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "FIX",
+    "correct": "Tyrannosaurus Rexen",
+    "reason": "Dutch never doubles x (fax -> faxen, box -> boxen), so 'Rexxen' is impossible spelling. Pure form correction of the same lemma; the alternative 'tyrannosaurussen' would change the lemma, so I did not use it.",
+    "source": "Woordenlijst Nederlandse Taal (spelling rule: x is not doubled)"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "ufo",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "umbrella",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "uncle-sam",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Proper name; no plural. p = s is already correct; the N2 flag is a false suspicion."
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "underpants",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "unicorn",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "FIX",
+    "correct": "Eenhoorns",
+    "reason": "Van Dale: de eenhoorn -> eenhoorns. 'Eenhoornen' is not a valid plural of hoorn (which is hoorns/horens); 'hoornen' only exists as an adjective ('een hoornen bril').",
+    "source": "Van Dale"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "uniform",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "uranus",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Proper name of a planet; no plural. p = s is already correct."
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "us",
+   "singular": {
+    "verdict": "OK",
+    "reason": "'VS' is the standard Dutch abbreviation (de Verenigde Staten). Note that it takes plural agreement, but as a country name the field content is correct and needs no change."
+   },
+   "plural": {
+    "verdict": "NO_PLURAL",
+    "reason": "Proper name / abbreviation; no plural. p = s is already correct."
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "vacuum-cleaner",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "van",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK",
+    "reason": "Diminutive -je, so neuter: het busje. The data is already correct."
+   }
+  },
+  {
+   "key": "vanity",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "vanity-table",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "vase",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "OK",
+    "reason": "'Vazen' correctly shows the s -> z voicing (de vaas -> vazen); not a defect."
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "vegetables",
+   "singular": {
+    "verdict": "FIX",
+    "correct": "Groente",
+    "reason": "The singular field holds a plural - the known defect. Dutch singular/mass form is 'de groente' (idiomatic for a picture of assorted vegetables: 'eet je groente'); the plural 'groenten' in p is correct and stays. Pure number correction of the same lemma.",
+    "source": "Van Dale"
+   },
+   "plural": {
+    "verdict": "OK"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  },
+  {
+   "key": "velociraptor",
+   "singular": {
+    "verdict": "OK"
+   },
+   "plural": {
+    "verdict": "HOLD",
+    "reason": "'Velociraptoren' is script output and reads unnatural; usage (Dutch dinosaur books, Wikipedia) is consistently 'velociraptors', and the -oren stress-shift plural belongs to Latin agent nouns (professor -> professoren, motor -> motoren), not to this taxonomic loanword. But velociraptor is not a Van Dale lemma, so I cannot confirm the plural against the authority and will not assert a FIX on usage alone. Recommend 'Velociraptors' after a native check.",
+    "source": "not in Van Dale; usage only"
+   },
+   "gender": {
+    "verdict": "OK"
+   }
+  }
+ ]
+}

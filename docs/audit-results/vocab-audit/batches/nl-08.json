@@ -1,0 +1,2016 @@
+{
+ "locale": "nl",
+ "batch": "08",
+ "of": 12,
+ "genderLegend": "d=de-woord (common) · h=het-woord (neuter)  ← NOT m/f/n",
+ "count": 110,
+ "range": [
+  "overalls",
+  "pruning-shears"
+ ],
+ "rows": [
+  {
+   "key": "overalls",
+   "themes": [
+    "clothing"
+   ],
+   "en": [
+    "Overalls",
+    "Overalls"
+   ],
+   "cur": {
+    "s": "Tuinbroek",
+    "p": "Tuinbroeken",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "oviraptor",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Oviraptor",
+    "Oviraptors"
+   ],
+   "cur": {
+    "s": "Oviraptor",
+    "p": "Oviraptoren",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "owl",
+   "themes": [
+    "animals",
+    "birds",
+    "birds_2",
+    "camping",
+    "farm_animals",
+    "forest_creatures",
+    "things_that_fly",
+    "winter"
+   ],
+   "en": [
+    "Owl",
+    "Owls"
+   ],
+   "cur": {
+    "s": "Uil",
+    "p": "Uilen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "ox",
+   "themes": [
+    "farm_animals"
+   ],
+   "en": [
+    "Ox",
+    "Oxen"
+   ],
+   "cur": {
+    "s": "Os",
+    "p": "Ossen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "oyster",
+   "themes": [
+    "ocean_life"
+   ],
+   "en": [
+    "Oyster",
+    "Oysters"
+   ],
+   "cur": {
+    "s": "Oester",
+    "p": "Oesters",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pachycephalosaurus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Pachycephalosaurus",
+    "Pachycephalosauruses"
+   ],
+   "cur": {
+    "s": "Pachycephalosaurus",
+    "p": "Pachycephalosaurussen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "package",
+   "themes": [
+    "post_office"
+   ],
+   "en": [
+    "Package",
+    "Packages"
+   ],
+   "cur": {
+    "s": "Pakket",
+    "p": "Pakketten",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "padlock",
+   "themes": [
+    "home",
+    "objects",
+    "valentine"
+   ],
+   "en": [
+    "Padlock",
+    "Padlocks"
+   ],
+   "cur": {
+    "s": "Hangslot",
+    "p": "Hangslotten",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "paint-brush",
+   "themes": [
+    "tools"
+   ],
+   "en": [
+    "Paint Brush",
+    "Paint Brushes"
+   ],
+   "cur": {
+    "s": "Verfkwast",
+    "p": "Verfkwasten",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "paint-roller",
+   "themes": [
+    "tools"
+   ],
+   "en": [
+    "Paint Roller",
+    "Paint Rollers"
+   ],
+   "cur": {
+    "s": "Verfroller",
+    "p": "Verfrollers",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "paintbrush",
+   "themes": [
+    "education",
+    "home"
+   ],
+   "en": [
+    "Paintbrush",
+    "Paintbrushes"
+   ],
+   "cur": {
+    "s": "Penseel",
+    "p": "Penselen",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "painting",
+   "themes": [
+    "activities"
+   ],
+   "en": [
+    "Painting",
+    "Paintings"
+   ],
+   "cur": {
+    "s": "Schilderen",
+    "p": "Schilderijen",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pajamas",
+   "themes": [
+    "clothing"
+   ],
+   "en": [
+    "Pajamas",
+    "Pajamas"
+   ],
+   "cur": {
+    "s": "Pyjama",
+    "p": "Pyjama's",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "palette",
+   "themes": [
+    "classroom",
+    "education"
+   ],
+   "en": [
+    "Palette",
+    "Palettes"
+   ],
+   "cur": {
+    "s": "Palet",
+    "p": "Paletten",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "palm-tree",
+   "themes": [
+    "beach",
+    "summer",
+    "tree"
+   ],
+   "en": [
+    "Palm Tree",
+    "Palm Trees"
+   ],
+   "cur": {
+    "s": "Palmboom",
+    "p": "Palmbomen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pan",
+   "themes": [
+    "around_the_house",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Pan",
+    "Pans"
+   ],
+   "cur": {
+    "s": "Pan",
+    "p": "Pannen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pancake",
+   "themes": [
+    "breakfast",
+    "desserts_and_sweets"
+   ],
+   "en": [
+    "Pancake",
+    "Pancakes"
+   ],
+   "cur": {
+    "s": "Pannenkoek",
+    "p": "Pannenkoeken",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "panda",
+   "themes": [
+    "animals",
+    "faces",
+    "zoo_animals"
+   ],
+   "en": [
+    "Panda",
+    "Pandas"
+   ],
+   "cur": {
+    "s": "Panda",
+    "p": "Panda's",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pants",
+   "themes": [
+    "clothing"
+   ],
+   "en": [
+    "Pants",
+    "Pants"
+   ],
+   "cur": {
+    "s": "Broek",
+    "p": "Broeken",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "papaya",
+   "themes": [
+    "fruits"
+   ],
+   "en": [
+    "Papaya",
+    "Papayas"
+   ],
+   "cur": {
+    "s": "Papaja",
+    "p": "Papaja's",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "paper",
+   "themes": [
+    "classroom"
+   ],
+   "en": [
+    "Paper",
+    "Papers"
+   ],
+   "cur": {
+    "s": "Papier",
+    "p": "Papier",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2"
+   ]
+  },
+  {
+   "key": "paper-airplane",
+   "themes": [
+    "classroom",
+    "things_that_fly"
+   ],
+   "en": [
+    "Paper Airplane",
+    "Paper Airplanes"
+   ],
+   "cur": {
+    "s": "Papieren vliegtuig",
+    "p": "Papieren vliegtuigen",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "parallelogram",
+   "themes": [
+    "shapes"
+   ],
+   "en": [
+    "Parallelogram",
+    "Parallelograms"
+   ],
+   "cur": {
+    "s": "Parallellogram",
+    "p": "Parallellogrammen",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "paramedic",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Paramedic",
+    "Paramedics"
+   ],
+   "cur": {
+    "s": "Ambulanceverpleegkundige",
+    "p": "Ambulanceverpleegkundigen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "parasaurolophus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Parasaurolophus",
+    "Parasaurolophuses"
+   ],
+   "cur": {
+    "s": "Parasaurolophus",
+    "p": "Parasaurolophussen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "parasol",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Parasol",
+    "Parasols"
+   ],
+   "cur": {
+    "s": "Parasol",
+    "p": "Parasollen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "park-ranger",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Park Ranger",
+    "Park Rangers"
+   ],
+   "cur": {
+    "s": "Boswachter",
+    "p": "Boswachters",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "parrot",
+   "themes": [
+    "animals",
+    "birds",
+    "birds_2",
+    "pets",
+    "things_that_fly"
+   ],
+   "en": [
+    "Parrot",
+    "Parrots"
+   ],
+   "cur": {
+    "s": "Papegaai",
+    "p": "Papegaai's",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "parsnip",
+   "themes": [
+    "vegetables"
+   ],
+   "en": [
+    "Parsnip",
+    "Parsnips"
+   ],
+   "cur": {
+    "s": "Pastinaak",
+    "p": "Pastinaken",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "partly-cloudy",
+   "themes": [
+    "weather"
+   ],
+   "en": [
+    "Partly Cloudy",
+    "Partly Cloudy"
+   ],
+   "cur": {
+    "s": "Gedeeltelijk bewolkt",
+    "p": "Gedeeltelijk bewolkt",
+    "g": "d"
+   },
+   "type": "adjective",
+   "countable": false
+  },
+  {
+   "key": "party-hat",
+   "themes": [
+    "accessories",
+    "toys"
+   ],
+   "en": [
+    "Party Hat",
+    "Party Hats"
+   ],
+   "cur": {
+    "s": "Feesthoed",
+    "p": "Feesthoeden",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "passport",
+   "themes": [
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Passport",
+    "Passports"
+   ],
+   "cur": {
+    "s": "Paspoort",
+    "p": "Paspoorten",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pasta",
+   "themes": [
+    "at_the_supermarket"
+   ],
+   "en": [
+    "Pasta",
+    "Pasta"
+   ],
+   "cur": {
+    "s": "Pasta",
+    "p": "Pasta's",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": false,
+   "nets": [
+    "N1"
+   ]
+  },
+  {
+   "key": "pea",
+   "themes": [
+    "vegetables"
+   ],
+   "en": [
+    "Pea",
+    "Peas"
+   ],
+   "cur": {
+    "s": "Erwt",
+    "p": "Erwten",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "peach",
+   "themes": [
+    "at_the_supermarket",
+    "colors",
+    "fruits"
+   ],
+   "en": [
+    "Peach",
+    "Peaches"
+   ],
+   "cur": {
+    "s": "Perzik",
+    "p": "Perzikken",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "peach-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Peach Tree",
+    "Peach Trees"
+   ],
+   "cur": {
+    "s": "Perzikboom",
+    "p": "Perzikbomen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "peacock",
+   "themes": [
+    "animals",
+    "birds",
+    "birds_2"
+   ],
+   "en": [
+    "Peacock",
+    "Peacocks"
+   ],
+   "cur": {
+    "s": "Pauw",
+    "p": "Pauwen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "peanut-butter",
+   "themes": [
+    "at_the_supermarket"
+   ],
+   "en": [
+    "Peanut Butter",
+    "Peanut Butter"
+   ],
+   "cur": {
+    "s": "Pindakaas",
+    "p": "Pindakaas",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": false
+  },
+  {
+   "key": "pear",
+   "themes": [
+    "at_the_supermarket",
+    "fruits"
+   ],
+   "en": [
+    "Pear",
+    "Pears"
+   ],
+   "cur": {
+    "s": "Peer",
+    "p": "Peren",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N5"
+   ]
+  },
+  {
+   "key": "pear-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Pear Tree",
+    "Pear Trees"
+   ],
+   "cur": {
+    "s": "Perenboom",
+    "p": "Perenbomen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "peas",
+   "themes": [
+    "at_the_supermarket"
+   ],
+   "en": [
+    "Peas",
+    "Peas"
+   ],
+   "cur": {
+    "s": "Erwten",
+    "p": "Erwten",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2"
+   ]
+  },
+  {
+   "key": "peeler",
+   "themes": [
+    "kitchen_tools"
+   ],
+   "en": [
+    "Peeler",
+    "Peelers"
+   ],
+   "cur": {
+    "s": "Dunschiller",
+    "p": "Dunschillers",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pegasus",
+   "themes": [
+    "things_that_fly"
+   ],
+   "en": [
+    "Pegasus",
+    "Pegasuses"
+   ],
+   "cur": {
+    "s": "Pegasus",
+    "p": "Pegasussen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pelican",
+   "themes": [
+    "beach",
+    "birds",
+    "birds_2",
+    "things_that_fly"
+   ],
+   "en": [
+    "Pelican",
+    "Pelicans"
+   ],
+   "cur": {
+    "s": "Pelikaan",
+    "p": "Pelikanen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pen",
+   "themes": [
+    "around_the_house",
+    "classroom",
+    "education"
+   ],
+   "en": [
+    "Pen",
+    "Pens"
+   ],
+   "cur": {
+    "s": "Pen",
+    "p": "Pennen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pencil",
+   "themes": [
+    "around_the_house",
+    "classroom",
+    "education"
+   ],
+   "en": [
+    "Pencil",
+    "Pencils"
+   ],
+   "cur": {
+    "s": "Potlood",
+    "p": "Potloden",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "penguin",
+   "themes": [
+    "animals",
+    "birds",
+    "birds_2",
+    "sea_life",
+    "winter"
+   ],
+   "en": [
+    "Penguin",
+    "Penguins"
+   ],
+   "cur": {
+    "s": "Pinguïn",
+    "p": "Pinguïnen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pentagon",
+   "themes": [
+    "shapes"
+   ],
+   "en": [
+    "Pentagon",
+    "Pentagons"
+   ],
+   "cur": {
+    "s": "Vijfhoek",
+    "p": "Vijfhoeken",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "peony",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Peony",
+    "Peonies"
+   ],
+   "cur": {
+    "s": "Pioenroos",
+    "p": "Pioenrozen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pepper",
+   "themes": [
+    "at_the_supermarket",
+    "vegetables"
+   ],
+   "en": [
+    "Pepper",
+    "Peppers"
+   ],
+   "cur": {
+    "s": "Paprika",
+    "p": "Paprika's",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "perfume",
+   "themes": [
+    "valentine"
+   ],
+   "en": [
+    "Perfume",
+    "Perfumes"
+   ],
+   "cur": {
+    "s": "Parfum",
+    "p": "Parfums",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "persimmon",
+   "themes": [
+    "fruits"
+   ],
+   "en": [
+    "Persimmon",
+    "Persimmons"
+   ],
+   "cur": {
+    "s": "Kaki",
+    "p": "Kaki's",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "petunia",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Petunia",
+    "Petunias"
+   ],
+   "cur": {
+    "s": "Petunia",
+    "p": "Petunia's",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pharmacist",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Pharmacist",
+    "Pharmacists"
+   ],
+   "cur": {
+    "s": "Apotheker",
+    "p": "Apothekers",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "phlox",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Phlox",
+    "Phloxes"
+   ],
+   "cur": {
+    "s": "Vlambloem",
+    "p": "Vlambloemen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "photographer",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Photographer",
+    "Photographers"
+   ],
+   "cur": {
+    "s": "Fotograaf",
+    "p": "Fotografen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "photography",
+   "themes": [
+    "activities"
+   ],
+   "en": [
+    "Photography",
+    "Photography"
+   ],
+   "cur": {
+    "s": "Fotografie",
+    "p": "Fotografie",
+    "g": "d"
+   },
+   "type": "verb-gerund",
+   "countable": false
+  },
+  {
+   "key": "piano",
+   "themes": [
+    "activities",
+    "music"
+   ],
+   "en": [
+    "Piano",
+    "Pianos"
+   ],
+   "cur": {
+    "s": "Piano",
+    "p": "Piano's",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pickaxe",
+   "themes": [
+    "tools"
+   ],
+   "en": [
+    "Pickaxe",
+    "Pickaxes"
+   ],
+   "cur": {
+    "s": "Houweel",
+    "p": "Houwelen",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pickup-truck",
+   "themes": [],
+   "en": [
+    "Pickup Truck",
+    "Pickup Trucks"
+   ],
+   "cur": {
+    "s": "Pick-up",
+    "p": "Pick-uppen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "noImage": true
+  },
+  {
+   "key": "picnic",
+   "themes": [
+    "activities"
+   ],
+   "en": [
+    "Picnic",
+    "Picnics"
+   ],
+   "cur": {
+    "s": "Picknick",
+    "p": "Picknicken",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "picnic-table",
+   "themes": [
+    "camping"
+   ],
+   "en": [
+    "Picnic Table",
+    "Picnic Tables"
+   ],
+   "cur": {
+    "s": "Picknicktafel",
+    "p": "Picknicktafels",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "picture-frame",
+   "themes": [
+    "around_the_house",
+    "home"
+   ],
+   "en": [
+    "Picture Frame",
+    "Picture Frames"
+   ],
+   "cur": {
+    "s": "Fotolijst",
+    "p": "Fotolijsten",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pie",
+   "themes": [
+    "at_the_supermarket",
+    "bakery",
+    "dessert",
+    "desserts_and_sweets",
+    "thanksgivinng"
+   ],
+   "en": [
+    "Pie",
+    "Pies"
+   ],
+   "cur": {
+    "s": "Taart",
+    "p": "Taarten",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "pig",
+   "themes": [
+    "animals",
+    "farm",
+    "farm_animals"
+   ],
+   "en": [
+    "Pig",
+    "Pigs"
+   ],
+   "cur": {
+    "s": "Varken",
+    "p": "Varkens",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pigeon",
+   "themes": [
+    "birds",
+    "birds_2",
+    "farm_animals",
+    "things_that_fly"
+   ],
+   "en": [
+    "Pigeon",
+    "Pigeons"
+   ],
+   "cur": {
+    "s": "Duif",
+    "p": "Duiven",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N5",
+    "N6"
+   ]
+  },
+  {
+   "key": "piglet",
+   "themes": [
+    "animals"
+   ],
+   "en": [
+    "Piglet",
+    "Piglets"
+   ],
+   "cur": {
+    "s": "Biggetje",
+    "p": "Biggetjes",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pillow",
+   "themes": [
+    "around_the_house",
+    "home"
+   ],
+   "en": [
+    "Pillow",
+    "Pillows"
+   ],
+   "cur": {
+    "s": "Kussen",
+    "p": "Kussens",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "pilot",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Pilot",
+    "Pilots"
+   ],
+   "cur": {
+    "s": "Piloot",
+    "p": "Piloten",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pine-tree",
+   "themes": [
+    "camping",
+    "tree"
+   ],
+   "en": [
+    "Pine Tree",
+    "Pine Trees"
+   ],
+   "cur": {
+    "s": "Dennenboom",
+    "p": "Dennenbomen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pineapple",
+   "themes": [
+    "at_the_supermarket",
+    "fruits",
+    "summer"
+   ],
+   "en": [
+    "Pineapple",
+    "Pineapples"
+   ],
+   "cur": {
+    "s": "Ananas",
+    "p": "Ananassen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pinecone",
+   "themes": [
+    "camping",
+    "miscellaneous",
+    "winter"
+   ],
+   "en": [
+    "Pinecone",
+    "Pinecones"
+   ],
+   "cur": {
+    "s": "Dennenappel",
+    "p": "Dennenappels",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pink",
+   "themes": [
+    "colors"
+   ],
+   "en": [
+    "Pink",
+    "Pink"
+   ],
+   "cur": {
+    "s": "Roze",
+    "p": "Roze",
+    "g": "d"
+   },
+   "type": "adjective",
+   "countable": false
+  },
+  {
+   "key": "pinwheel",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Pinwheel",
+    "Pinwheels"
+   ],
+   "cur": {
+    "s": "Windmolentje",
+    "p": "Windmolentjes",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pipe-wrench",
+   "themes": [
+    "tools"
+   ],
+   "en": [
+    "Pipe Wrench",
+    "Pipe Wrenches"
+   ],
+   "cur": {
+    "s": "Pijptang",
+    "p": "Pijptangen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pitcher",
+   "themes": [
+    "kitchen_tools"
+   ],
+   "en": [
+    "Pitcher",
+    "Pitchers"
+   ],
+   "cur": {
+    "s": "Kan",
+    "p": "Kannen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "pizza",
+   "themes": [
+    "at_the_supermarket",
+    "food"
+   ],
+   "en": [
+    "Pizza",
+    "Pizzas"
+   ],
+   "cur": {
+    "s": "Pizza",
+    "p": "Pizza's",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "planet",
+   "themes": [
+    "space"
+   ],
+   "en": [
+    "Planet",
+    "Planets"
+   ],
+   "cur": {
+    "s": "Planeet",
+    "p": "Planeten",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "plant",
+   "themes": [
+    "home_and_nature",
+    "household",
+    "nature"
+   ],
+   "en": [
+    "Plant",
+    "Plants"
+   ],
+   "cur": {
+    "s": "Plant",
+    "p": "Planten",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "plate",
+   "themes": [
+    "around_the_house",
+    "home_and_nature",
+    "kitchen",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Plate",
+    "Plates"
+   ],
+   "cur": {
+    "s": "Bord",
+    "p": "Borden",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "play",
+   "themes": [],
+   "en": [
+    "Play",
+    "Plays"
+   ],
+   "cur": {
+    "s": "Spelen",
+    "p": "Spelen",
+    "g": "d"
+   },
+   "type": null,
+   "countable": null,
+   "nets": [
+    "N7"
+   ],
+   "noImage": true
+  },
+  {
+   "key": "playground",
+   "themes": [
+    "activities"
+   ],
+   "en": [
+    "Playground",
+    "Playgrounds"
+   ],
+   "cur": {
+    "s": "Speeltuin",
+    "p": "Speeltuinen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "plesiosaurus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Plesiosaurus",
+    "Plesiosauruses"
+   ],
+   "cur": {
+    "s": "Plesiosaurus",
+    "p": "Plesiosaurussen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pliers",
+   "themes": [
+    "tools"
+   ],
+   "en": [
+    "Pliers",
+    "Pliers"
+   ],
+   "cur": {
+    "s": "Tang",
+    "p": "Tangen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "plum",
+   "themes": [
+    "at_the_supermarket",
+    "fruits"
+   ],
+   "en": [
+    "Plum",
+    "Plums"
+   ],
+   "cur": {
+    "s": "Pruim",
+    "p": "Pruimen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "plum-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Plum Tree",
+    "Plum Trees"
+   ],
+   "cur": {
+    "s": "Pruimenboom",
+    "p": "Pruimenbomen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "plunger",
+   "themes": [
+    "tools"
+   ],
+   "en": [
+    "Plunger",
+    "Plungers"
+   ],
+   "cur": {
+    "s": "Ontstopper",
+    "p": "Ontstoppers",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "polar-bear",
+   "themes": [
+    "winter",
+    "zoo_animals"
+   ],
+   "en": [
+    "Polar Bear",
+    "Polar Bears"
+   ],
+   "cur": {
+    "s": "IJsbeer",
+    "p": "IJsberen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "police-car",
+   "themes": [
+    "vehicles"
+   ],
+   "en": [
+    "Police Car",
+    "Police Cars"
+   ],
+   "cur": {
+    "s": "Politieauto",
+    "p": "Politieauto's",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "police-officer",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Police Officer",
+    "Police Officers"
+   ],
+   "cur": {
+    "s": "Politieagent",
+    "p": "Politieagenten",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pomegranate",
+   "themes": [
+    "fruits"
+   ],
+   "en": [
+    "Pomegranate",
+    "Pomegranates"
+   ],
+   "cur": {
+    "s": "Granaatappel",
+    "p": "Granaatappels",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pony",
+   "themes": [
+    "animals",
+    "farm_animals"
+   ],
+   "en": [
+    "Pony",
+    "Ponies"
+   ],
+   "cur": {
+    "s": "Pony",
+    "p": "Pony's",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pool",
+   "themes": [
+    "summer"
+   ],
+   "en": [
+    "Pool",
+    "Pools"
+   ],
+   "cur": {
+    "s": "Zwembad",
+    "p": "Zwembaden",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "popcorn",
+   "themes": [
+    "at_the_supermarket",
+    "food"
+   ],
+   "en": [
+    "Popcorn",
+    "Popcorn"
+   ],
+   "cur": {
+    "s": "Popcorn",
+    "p": "Popcorn",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": false
+  },
+  {
+   "key": "poplar-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Poplar Tree",
+    "Poplar Trees"
+   ],
+   "cur": {
+    "s": "Populier",
+    "p": "Populieren",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "popsicle",
+   "themes": [
+    "desserts_and_sweets",
+    "summer"
+   ],
+   "en": [
+    "Popsicle",
+    "Popsicles"
+   ],
+   "cur": {
+    "s": "IJslolly",
+    "p": "IJslolly's",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "porcupine",
+   "themes": [
+    "animals",
+    "forest_creatures",
+    "zoo_animals"
+   ],
+   "en": [
+    "Porcupine",
+    "Porcupines"
+   ],
+   "cur": {
+    "s": "Stekelvarken",
+    "p": "Stekelvarkens",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "porridge",
+   "themes": [
+    "breakfast"
+   ],
+   "en": [
+    "Porridge",
+    "Porridge"
+   ],
+   "cur": {
+    "s": "Pap",
+    "p": "Pappen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": false,
+   "nets": [
+    "N1"
+   ]
+  },
+  {
+   "key": "post-office",
+   "themes": [
+    "post_office"
+   ],
+   "en": [
+    "Post Office",
+    "Post Offices"
+   ],
+   "cur": {
+    "s": "Postkantoor",
+    "p": "Postkantoren",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "postal-scale",
+   "themes": [],
+   "en": [
+    "Postal Scale",
+    "Postal Scales"
+   ],
+   "cur": {
+    "s": "Postweegschaal",
+    "p": "Postweegschalen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "noImage": true
+  },
+  {
+   "key": "pot",
+   "themes": [
+    "around_the_house",
+    "home",
+    "kitchen",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Pot",
+    "Pots"
+   ],
+   "cur": {
+    "s": "Pot",
+    "p": "Potten",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "potato",
+   "themes": [
+    "at_the_supermarket",
+    "vegetables"
+   ],
+   "en": [
+    "Potato",
+    "Potatoes"
+   ],
+   "cur": {
+    "s": "Aardappel",
+    "p": "Aardappels",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "potato-chips",
+   "themes": [
+    "at_the_supermarket"
+   ],
+   "en": [
+    "Potato Chips",
+    "Potato Chips"
+   ],
+   "cur": {
+    "s": "Chips",
+    "p": "Chipsen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "pottery",
+   "themes": [
+    "activities"
+   ],
+   "en": [
+    "Pottery",
+    "Potteries"
+   ],
+   "cur": {
+    "s": "Pottenbakken",
+    "p": "Pottenbakken",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2"
+   ]
+  },
+  {
+   "key": "present",
+   "themes": [
+    "christmas"
+   ],
+   "en": [
+    "Present",
+    "Presents"
+   ],
+   "cur": {
+    "s": "Cadeau",
+    "p": "Cadeau's",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "pretzel",
+   "themes": [
+    "bakery",
+    "food"
+   ],
+   "en": [
+    "Pretzel",
+    "Pretzels"
+   ],
+   "cur": {
+    "s": "Pretzel",
+    "p": "Pretzels",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pretzels",
+   "themes": [
+    "at_the_supermarket"
+   ],
+   "en": [
+    "Pretzels",
+    "Pretzels"
+   ],
+   "cur": {
+    "s": "Pretzels",
+    "p": "Pretzels",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2"
+   ]
+  },
+  {
+   "key": "price-tag",
+   "themes": [
+    "at_the_supermarket"
+   ],
+   "en": [
+    "Price Tag",
+    "Price Tags"
+   ],
+   "cur": {
+    "s": "Prijskaartje",
+    "p": "Prijskaartjes",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "projector",
+   "themes": [
+    "classroom"
+   ],
+   "en": [
+    "Projector",
+    "Projectors"
+   ],
+   "cur": {
+    "s": "Projector",
+    "p": "Projectoren",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "pruning-shears",
+   "themes": [
+    "tools"
+   ],
+   "en": [
+    "Pruning Shears",
+    "Pruning Shears"
+   ],
+   "cur": {
+    "s": "Snoeischaar",
+    "p": "Snoeischaren",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  }
+ ]
+}

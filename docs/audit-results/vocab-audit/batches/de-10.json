@@ -1,0 +1,2108 @@
+{
+ "locale": "de",
+ "batch": "10",
+ "of": 12,
+ "genderLegend": "m=maskulin (der) · f=feminin (die) · n=neutrum (das)",
+ "count": 110,
+ "range": [
+  "shelf",
+  "surprised"
+ ],
+ "rows": [
+  {
+   "key": "shelf",
+   "themes": [
+    "classroom",
+    "furniture"
+   ],
+   "en": [
+    "Shelf",
+    "Shelves"
+   ],
+   "cur": {
+    "s": "Regal",
+    "p": "Regale",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "ship",
+   "themes": [
+    "vehicles"
+   ],
+   "en": [
+    "Ship",
+    "Ships"
+   ],
+   "cur": {
+    "s": "Schiff",
+    "p": "Schiffe",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "shirt",
+   "themes": [
+    "apparel",
+    "clothing"
+   ],
+   "en": [
+    "Shirt",
+    "Shirts"
+   ],
+   "cur": {
+    "s": "Hemd",
+    "p": "Hemden",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "shoe",
+   "themes": [
+    "clothing",
+    "objects"
+   ],
+   "en": [
+    "Shoe",
+    "Shoes"
+   ],
+   "cur": {
+    "s": "Schuh",
+    "p": "Schuhe",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "shoes",
+   "themes": [
+    "objects"
+   ],
+   "en": [
+    "Shoes",
+    "Shoes"
+   ],
+   "cur": {
+    "s": "Schuhe",
+    "p": "Schuhe",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2"
+   ]
+  },
+  {
+   "key": "shopping-bag",
+   "themes": [
+    "christmas",
+    "valentine"
+   ],
+   "en": [
+    "Shopping Bag",
+    "Shopping Bags"
+   ],
+   "cur": {
+    "s": "Einkaufstasche",
+    "p": "Einkaufstaschen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "shopping-cart",
+   "themes": [
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Shopping Cart",
+    "Shopping Carts"
+   ],
+   "cur": {
+    "s": "Einkaufswagen",
+    "p": "Einkaufswagen",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8",
+    "N6"
+   ]
+  },
+  {
+   "key": "shorts",
+   "themes": [
+    "apparel",
+    "beach",
+    "clothing",
+    "objects",
+    "summer"
+   ],
+   "en": [
+    "Shorts",
+    "Shorts"
+   ],
+   "cur": {
+    "s": "Shorts",
+    "p": "Shorts",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2"
+   ]
+  },
+  {
+   "key": "shoulder",
+   "themes": [
+    "body_parts"
+   ],
+   "en": [
+    "Shoulder",
+    "Shoulders"
+   ],
+   "cur": {
+    "s": "Schulter",
+    "p": "Schultern",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "shovel",
+   "themes": [
+    "around_the_house",
+    "beach",
+    "spring",
+    "tools",
+    "toys",
+    "winter"
+   ],
+   "en": [
+    "Shovel",
+    "Shovels"
+   ],
+   "cur": {
+    "s": "Schaufel",
+    "p": "Schaufeln",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "shrimp",
+   "themes": [
+    "ocean_life",
+    "sea_life"
+   ],
+   "en": [
+    "Shrimp",
+    "Shrimp"
+   ],
+   "cur": {
+    "s": "Garnele",
+    "p": "Garnelen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "shuttlecock",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Shuttlecock",
+    "Shuttlecocks"
+   ],
+   "cur": {
+    "s": "Federball",
+    "p": "Federbälle",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "shy",
+   "themes": [
+    "emotions"
+   ],
+   "en": [
+    "Shy",
+    "Shy"
+   ],
+   "cur": {
+    "s": "Schüchtern",
+    "p": "Schüchtern",
+    "g": "m"
+   },
+   "type": "adjective",
+   "countable": false
+  },
+  {
+   "key": "sickle",
+   "themes": [
+    "tools"
+   ],
+   "en": [
+    "Sickle",
+    "Sickles"
+   ],
+   "cur": {
+    "s": "Sichel",
+    "p": "Sicheln",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "signpost",
+   "themes": [
+    "beach",
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Signpost",
+    "Signposts"
+   ],
+   "cur": {
+    "s": "Wegweiser",
+    "p": "Wegweiser",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "singer",
+   "themes": [
+    "music",
+    "occupations"
+   ],
+   "en": [
+    "Singer",
+    "Singers"
+   ],
+   "cur": {
+    "s": "Sänger",
+    "p": "Sänger",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "singing",
+   "themes": [
+    "activities"
+   ],
+   "en": [
+    "Singing",
+    "Singing"
+   ],
+   "cur": {
+    "s": "Singen",
+    "p": "Singen",
+    "g": "m"
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "nets": [
+    "N8"
+   ]
+  },
+  {
+   "key": "sink",
+   "themes": [
+    "around_the_house",
+    "household"
+   ],
+   "en": [
+    "Sink",
+    "Sinks"
+   ],
+   "cur": {
+    "s": "Spüle",
+    "p": "Spülen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "sister",
+   "themes": [],
+   "en": [
+    "Sister",
+    "Sisters"
+   ],
+   "cur": {
+    "s": "Schwester",
+    "p": "Schwestern",
+    "g": "f"
+   },
+   "type": null,
+   "countable": null,
+   "nets": [
+    "N7"
+   ],
+   "noImage": true
+  },
+  {
+   "key": "sit",
+   "themes": [],
+   "en": [
+    "Sit",
+    "Sits"
+   ],
+   "cur": {
+    "s": "Sitzen",
+    "p": "Sitzen",
+    "g": "n"
+   },
+   "type": null,
+   "countable": null,
+   "nets": [
+    "N7",
+    "N8"
+   ],
+   "noImage": true
+  },
+  {
+   "key": "skateboard",
+   "themes": [
+    "sports",
+    "toys",
+    "vehicles"
+   ],
+   "en": [
+    "Skateboard",
+    "Skateboards"
+   ],
+   "cur": {
+    "s": "Skateboard",
+    "p": "Skateboards",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "skating",
+   "themes": [
+    "activities",
+    "winter"
+   ],
+   "en": [
+    "Skating",
+    "Skating"
+   ],
+   "cur": {
+    "s": "Schlittschuhlaufen",
+    "p": "Schlittschuhlaufen",
+    "g": "m"
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "nets": [
+    "N8",
+    "N6"
+   ]
+  },
+  {
+   "key": "skeleton",
+   "themes": [
+    "body_parts"
+   ],
+   "en": [
+    "Skeleton",
+    "Skeletons"
+   ],
+   "cur": {
+    "s": "Skelett",
+    "p": "Skelette",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "skeptical",
+   "themes": [],
+   "en": [
+    "Skeptical",
+    "Skeptical"
+   ],
+   "cur": {
+    "s": "Skeptisch",
+    "p": "Skeptisch",
+    "g": "m"
+   },
+   "type": "adjective",
+   "countable": false,
+   "noImage": true
+  },
+  {
+   "key": "skiing",
+   "themes": [
+    "activities",
+    "winter"
+   ],
+   "en": [
+    "Skiing",
+    "Skiing"
+   ],
+   "cur": {
+    "s": "Skifahren",
+    "p": "Skifahren",
+    "g": "m"
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "nets": [
+    "N8"
+   ]
+  },
+  {
+   "key": "skirt",
+   "themes": [
+    "clothing"
+   ],
+   "en": [
+    "Skirt",
+    "Skirts"
+   ],
+   "cur": {
+    "s": "Rock",
+    "p": "Röcke",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N5"
+   ]
+  },
+  {
+   "key": "sky",
+   "themes": [
+    "space"
+   ],
+   "en": [
+    "Sky",
+    "Skies"
+   ],
+   "cur": {
+    "s": "Himmel",
+    "p": "Himmel",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "sled",
+   "themes": [
+    "winter"
+   ],
+   "en": [
+    "Sled",
+    "Sleds"
+   ],
+   "cur": {
+    "s": "Schlitten",
+    "p": "Schlitten",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8",
+    "N6"
+   ]
+  },
+  {
+   "key": "sledding",
+   "themes": [
+    "winter"
+   ],
+   "en": [
+    "Sledding",
+    "Sledding"
+   ],
+   "cur": {
+    "s": "Rodeln",
+    "p": "Rodeln",
+    "g": "m"
+   },
+   "type": "verb-gerund",
+   "countable": false
+  },
+  {
+   "key": "sleep",
+   "themes": [],
+   "en": [
+    "Sleep",
+    "Sleeps"
+   ],
+   "cur": {
+    "s": "Schlafen",
+    "p": "Schlafen",
+    "g": "n"
+   },
+   "type": null,
+   "countable": null,
+   "nets": [
+    "N7",
+    "N8"
+   ],
+   "noImage": true
+  },
+  {
+   "key": "sleeping-bag",
+   "themes": [
+    "camping"
+   ],
+   "en": [
+    "Sleeping Bag",
+    "Sleeping Bags"
+   ],
+   "cur": {
+    "s": "Schlafsack",
+    "p": "Schlafsäcke",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "sleigh",
+   "themes": [
+    "christmas",
+    "winter"
+   ],
+   "en": [
+    "Sleigh",
+    "Sleighs"
+   ],
+   "cur": {
+    "s": "Schlitten",
+    "p": "Schlitten",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8",
+    "N6"
+   ]
+  },
+  {
+   "key": "slide",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Slide",
+    "Slides"
+   ],
+   "cur": {
+    "s": "Rutsche",
+    "p": "Rutschen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "slippers",
+   "themes": [
+    "clothing"
+   ],
+   "en": [
+    "Slippers",
+    "Slippers"
+   ],
+   "cur": {
+    "s": "Hausschuhe",
+    "p": "Hausschuhe",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2"
+   ]
+  },
+  {
+   "key": "sloth",
+   "themes": [
+    "animals",
+    "zoo_animals"
+   ],
+   "en": [
+    "Sloth",
+    "Sloths"
+   ],
+   "cur": {
+    "s": "Faultier",
+    "p": "Faultiere",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "slug",
+   "themes": [
+    "forest_creatures",
+    "insects_and_bugs"
+   ],
+   "en": [
+    "Slug",
+    "Slugs"
+   ],
+   "cur": {
+    "s": "Nacktschnecke",
+    "p": "Nacktschnecken",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "smartphone",
+   "themes": [
+    "objects"
+   ],
+   "en": [
+    "Smartphone",
+    "Smartphones"
+   ],
+   "cur": {
+    "s": "Smartphone",
+    "p": "Smartphones",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "smartwatch",
+   "themes": [
+    "apparel"
+   ],
+   "en": [
+    "Smartwatch",
+    "Smartwatches"
+   ],
+   "cur": {
+    "s": "Smartwatch",
+    "p": "Smartwatches",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "smoothie",
+   "themes": [
+    "breakfast"
+   ],
+   "en": [
+    "Smoothie",
+    "Smoothies"
+   ],
+   "cur": {
+    "s": "Smoothie",
+    "p": "Smoothies",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "snail",
+   "themes": [
+    "animals",
+    "forest_creatures",
+    "insects_and_bugs",
+    "sea_life",
+    "spring"
+   ],
+   "en": [
+    "Snail",
+    "Snails"
+   ],
+   "cur": {
+    "s": "Schnecke",
+    "p": "Schnecken",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "snake",
+   "themes": [
+    "animals",
+    "zoo_animals"
+   ],
+   "en": [
+    "Snake",
+    "Snakes"
+   ],
+   "cur": {
+    "s": "Schlange",
+    "p": "Schlangen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "sneaker",
+   "themes": [
+    "objects",
+    "sports"
+   ],
+   "en": [
+    "Sneaker",
+    "Sneakers"
+   ],
+   "cur": {
+    "s": "Turnschuh",
+    "p": "Turnschuhe",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "sneakers",
+   "themes": [
+    "objects"
+   ],
+   "en": [
+    "Sneakers",
+    "Sneakers"
+   ],
+   "cur": {
+    "s": "Turnschuhe",
+    "p": "Turnschuhe",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2"
+   ]
+  },
+  {
+   "key": "snorkel",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Snorkel",
+    "Snorkels"
+   ],
+   "cur": {
+    "s": "Schnorchel",
+    "p": "Schnorchel",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "snorkeling-mask",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Snorkeling Mask",
+    "Snorkeling Masks"
+   ],
+   "cur": {
+    "s": "Schnorchelmaske",
+    "p": "Schnorchelmasken",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "snow-boots",
+   "themes": [
+    "clothing"
+   ],
+   "en": [
+    "Snow Boots",
+    "Snow Boots"
+   ],
+   "cur": {
+    "s": "Schneestiefel",
+    "p": "Schneestiefel",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "snow-globe",
+   "themes": [
+    "christmas"
+   ],
+   "en": [
+    "Snow Globe",
+    "Snow Globes"
+   ],
+   "cur": {
+    "s": "Schneekugel",
+    "p": "Schneekugeln",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "snow-shovel",
+   "themes": [],
+   "en": [
+    "Snow Shovel",
+    "Snow Shovels"
+   ],
+   "cur": {
+    "s": "Schneeschaufel",
+    "p": "Schneeschaufeln",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "noImage": true
+  },
+  {
+   "key": "snowboarding",
+   "themes": [
+    "winter"
+   ],
+   "en": [
+    "Snowboarding",
+    "Snowboarding"
+   ],
+   "cur": {
+    "s": "Snowboarden",
+    "p": "Snowboarden",
+    "g": "m"
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "nets": [
+    "N8"
+   ]
+  },
+  {
+   "key": "snowdrop",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Snowdrop",
+    "Snowdrops"
+   ],
+   "cur": {
+    "s": "Schneeglöckchen",
+    "p": "Schneeglöckchen",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "snowflake",
+   "themes": [
+    "nature",
+    "weather",
+    "winter"
+   ],
+   "en": [
+    "Snowflake",
+    "Snowflakes"
+   ],
+   "cur": {
+    "s": "Schneeflocke",
+    "p": "Schneeflocken",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "snowman",
+   "themes": [
+    "christmas",
+    "winter"
+   ],
+   "en": [
+    "Snowman",
+    "Snowmen"
+   ],
+   "cur": {
+    "s": "Schneemann",
+    "p": "Schneemänner",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "snowsuit",
+   "themes": [
+    "clothing"
+   ],
+   "en": [
+    "Snowsuit",
+    "Snowsuits"
+   ],
+   "cur": {
+    "s": "Schneeanzug",
+    "p": "Schneeanzüge",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "soccer",
+   "themes": [
+    "activities",
+    "sports"
+   ],
+   "en": [
+    "Soccer",
+    "Soccer"
+   ],
+   "cur": {
+    "s": "Fußball",
+    "p": "Fußball",
+    "g": "m"
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "soccer-ball",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Soccer Ball",
+    "Soccer Balls"
+   ],
+   "cur": {
+    "s": "Fußball",
+    "p": "Fußbälle",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "sock",
+   "themes": [
+    "accessories",
+    "apparel"
+   ],
+   "en": [
+    "Sock",
+    "Socks"
+   ],
+   "cur": {
+    "s": "Socke",
+    "p": "Socken",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "soda",
+   "themes": [
+    "at_the_supermarket",
+    "food"
+   ],
+   "en": [
+    "Soda",
+    "Sodas"
+   ],
+   "cur": {
+    "s": "Limonade",
+    "p": "Limonaden",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "sofa",
+   "themes": [
+    "around_the_house",
+    "furniture",
+    "home_and_nature",
+    "household"
+   ],
+   "en": [
+    "Sofa",
+    "Sofas"
+   ],
+   "cur": {
+    "s": "Sofa",
+    "p": "Sofas",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "soup",
+   "themes": [
+    "food"
+   ],
+   "en": [
+    "Soup",
+    "Soups"
+   ],
+   "cur": {
+    "s": "Suppe",
+    "p": "Suppen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "spade",
+   "themes": [
+    "beach",
+    "summer"
+   ],
+   "en": [
+    "Spade",
+    "Spades"
+   ],
+   "cur": {
+    "s": "Schaufel",
+    "p": "Schaufeln",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "sparrow",
+   "themes": [
+    "birds_2"
+   ],
+   "en": [
+    "Sparrow",
+    "Sparrows"
+   ],
+   "cur": {
+    "s": "Spatz",
+    "p": "Spatzen",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "spatula",
+   "themes": [
+    "kitchen",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Spatula",
+    "Spatulas"
+   ],
+   "cur": {
+    "s": "Pfannenwender",
+    "p": "Pfannenwender",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "speaker",
+   "themes": [
+    "home",
+    "household"
+   ],
+   "en": [
+    "Speaker",
+    "Speakers"
+   ],
+   "cur": {
+    "s": "Lautsprecher",
+    "p": "Lautsprecher",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "sphere",
+   "themes": [
+    "shapes"
+   ],
+   "en": [
+    "Sphere",
+    "Spheres"
+   ],
+   "cur": {
+    "s": "Kugel",
+    "p": "Kugeln",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "spider",
+   "themes": [
+    "forest_creatures",
+    "insects_and_bugs",
+    "miscellaneous"
+   ],
+   "en": [
+    "Spider",
+    "Spiders"
+   ],
+   "cur": {
+    "s": "Spinne",
+    "p": "Spinnen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "spinach",
+   "themes": [
+    "vegetables"
+   ],
+   "en": [
+    "Spinach",
+    "Spinach"
+   ],
+   "cur": {
+    "s": "Spinat",
+    "p": "Spinat",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": false
+  },
+  {
+   "key": "spinning-top",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Spinning Top",
+    "Spinning Tops"
+   ],
+   "cur": {
+    "s": "Kreisel",
+    "p": "Kreisel",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "spirit-level",
+   "themes": [
+    "tools"
+   ],
+   "en": [
+    "Spirit Level",
+    "Spirit Levels"
+   ],
+   "cur": {
+    "s": "Wasserwaage",
+    "p": "Wasserwaagen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "sponge",
+   "themes": [
+    "kitchen_tools"
+   ],
+   "en": [
+    "Sponge",
+    "Sponges"
+   ],
+   "cur": {
+    "s": "Schwamm",
+    "p": "Schwämme",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "spoon",
+   "themes": [
+    "around_the_house",
+    "home_and_nature",
+    "kitchen",
+    "kitchen_tools",
+    "objects"
+   ],
+   "en": [
+    "Spoon",
+    "Spoons"
+   ],
+   "cur": {
+    "s": "Löffel",
+    "p": "Löffel",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "spray",
+   "themes": [
+    "household"
+   ],
+   "en": [
+    "Spray",
+    "Sprays"
+   ],
+   "cur": {
+    "s": "Sprühflasche",
+    "p": "Sprühflaschen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "spruce-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Spruce Tree",
+    "Spruce Trees"
+   ],
+   "cur": {
+    "s": "Fichte",
+    "p": "Fichten",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "square",
+   "themes": [
+    "shapes"
+   ],
+   "en": [
+    "Square",
+    "Squares"
+   ],
+   "cur": {
+    "s": "Quadrat",
+    "p": "Quadrate",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "squash",
+   "themes": [
+    "vegetables"
+   ],
+   "en": [
+    "Squash",
+    "Squashes"
+   ],
+   "cur": {
+    "s": "Kürbis",
+    "p": "Kürbisse",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "squid",
+   "themes": [
+    "ocean_life",
+    "sea_life"
+   ],
+   "en": [
+    "Squid",
+    "Squid"
+   ],
+   "cur": {
+    "s": "Tintenfisch",
+    "p": "Tintenfische",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "squirrel",
+   "themes": [
+    "animals",
+    "camping",
+    "forest_creatures"
+   ],
+   "en": [
+    "Squirrel",
+    "Squirrels"
+   ],
+   "cur": {
+    "s": "Eichhörnchen",
+    "p": "Eichhörnchen",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "stage",
+   "themes": [
+    "music",
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Stage",
+    "Stages"
+   ],
+   "cur": {
+    "s": "Bühne",
+    "p": "Bühnen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "stairs",
+   "themes": [
+    "around_the_house"
+   ],
+   "en": [
+    "Stairs",
+    "Stairs"
+   ],
+   "cur": {
+    "s": "Treppe",
+    "p": "Treppen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "stamp",
+   "themes": [
+    "classroom",
+    "post_office"
+   ],
+   "en": [
+    "Stamp",
+    "Stamps"
+   ],
+   "cur": {
+    "s": "Stempel",
+    "p": "Stempel",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "stand",
+   "themes": [],
+   "en": [
+    "Stand",
+    "Stands"
+   ],
+   "cur": {
+    "s": "Stehen",
+    "p": "Stehen",
+    "g": "n"
+   },
+   "type": null,
+   "countable": null,
+   "nets": [
+    "N7",
+    "N8"
+   ],
+   "noImage": true
+  },
+  {
+   "key": "stapler",
+   "themes": [
+    "classroom"
+   ],
+   "en": [
+    "Stapler",
+    "Staplers"
+   ],
+   "cur": {
+    "s": "Hefter",
+    "p": "Hefter",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "star",
+   "themes": [
+    "christmas",
+    "nature",
+    "shapes"
+   ],
+   "en": [
+    "Star",
+    "Stars"
+   ],
+   "cur": {
+    "s": "Stern",
+    "p": "Sterne",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "starfish",
+   "themes": [
+    "beach",
+    "ocean_life",
+    "sea_life",
+    "summer"
+   ],
+   "en": [
+    "Starfish",
+    "Starfish"
+   ],
+   "cur": {
+    "s": "Seestern",
+    "p": "Seesterne",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "statue",
+   "themes": [
+    "4th_of_july"
+   ],
+   "en": [
+    "Statue",
+    "Statues"
+   ],
+   "cur": {
+    "s": "Statue",
+    "p": "Statuen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "stegosaurus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Stegosaurus",
+    "Stegosauruses"
+   ],
+   "cur": {
+    "s": "Stegosaurus",
+    "p": "Stegosauren",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "stethoscope",
+   "themes": [
+    "hospital"
+   ],
+   "en": [
+    "Stethoscope",
+    "Stethoscopes"
+   ],
+   "cur": {
+    "s": "Stethoskop",
+    "p": "Stethoskope",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "stingray",
+   "themes": [
+    "sea_life"
+   ],
+   "en": [
+    "Stingray",
+    "Stingrays"
+   ],
+   "cur": {
+    "s": "Stachelrochen",
+    "p": "Stachelrochen",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "stocking",
+   "themes": [
+    "christmas"
+   ],
+   "en": [
+    "Stocking",
+    "Stockings"
+   ],
+   "cur": {
+    "s": "Weihnachtsstrumpf",
+    "p": "Weihnachtsstrümpfe",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "stool",
+   "themes": [
+    "furniture"
+   ],
+   "en": [
+    "Stool",
+    "Stools"
+   ],
+   "cur": {
+    "s": "Hocker",
+    "p": "Hocker",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8",
+    "N6"
+   ]
+  },
+  {
+   "key": "stopwatch",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Stopwatch",
+    "Stopwatches"
+   ],
+   "cur": {
+    "s": "Stoppuhr",
+    "p": "Stoppuhren",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "stork",
+   "themes": [
+    "birds_2"
+   ],
+   "en": [
+    "Stork",
+    "Storks"
+   ],
+   "cur": {
+    "s": "Storch",
+    "p": "Störche",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N5"
+   ]
+  },
+  {
+   "key": "stormy",
+   "themes": [
+    "weather"
+   ],
+   "en": [
+    "Stormy",
+    "Stormy"
+   ],
+   "cur": {
+    "s": "Stürmisch",
+    "p": "Stürmisch",
+    "g": "m"
+   },
+   "type": "adjective",
+   "countable": false
+  },
+  {
+   "key": "stove",
+   "themes": [
+    "around_the_house"
+   ],
+   "en": [
+    "Stove",
+    "Stoves"
+   ],
+   "cur": {
+    "s": "Herd",
+    "p": "Herde",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "strawberry",
+   "themes": [
+    "at_the_supermarket",
+    "breakfast",
+    "fruits",
+    "summer"
+   ],
+   "en": [
+    "Strawberry",
+    "Strawberries"
+   ],
+   "cur": {
+    "s": "Erdbeere",
+    "p": "Erdbeeren",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "stretcher",
+   "themes": [
+    "hospital"
+   ],
+   "en": [
+    "Stretcher",
+    "Stretchers"
+   ],
+   "cur": {
+    "s": "Trage",
+    "p": "Tragen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "student",
+   "themes": [
+    "classroom"
+   ],
+   "en": [
+    "Student",
+    "Students"
+   ],
+   "cur": {
+    "s": "Schüler",
+    "p": "Schüler",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "styracosaurus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Styracosaurus",
+    "Styracosauruses"
+   ],
+   "cur": {
+    "s": "Styracosaurus",
+    "p": "Styracosauren",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "submarine",
+   "themes": [
+    "vehicles"
+   ],
+   "en": [
+    "Submarine",
+    "Submarines"
+   ],
+   "cur": {
+    "s": "U-Boot",
+    "p": "U-Boote",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "subway",
+   "themes": [
+    "vehicles"
+   ],
+   "en": [
+    "Subway",
+    "Subways"
+   ],
+   "cur": {
+    "s": "U-Bahn",
+    "p": "U-Bahnen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "suitcase",
+   "themes": [
+    "beach",
+    "objects",
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Suitcase",
+    "Suitcases"
+   ],
+   "cur": {
+    "s": "Koffer",
+    "p": "Koffer",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "sun",
+   "themes": [
+    "beach",
+    "nature",
+    "space",
+    "spring",
+    "weather"
+   ],
+   "en": [
+    "Sun",
+    "Suns"
+   ],
+   "cur": {
+    "s": "Sonne",
+    "p": "Sonnen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "sun-hat",
+   "themes": [
+    "accessories",
+    "beach",
+    "summer"
+   ],
+   "en": [
+    "Sun Hat",
+    "Sun Hats"
+   ],
+   "cur": {
+    "s": "Sonnenhut",
+    "p": "Sonnenhüte",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "sundae",
+   "themes": [
+    "dessert"
+   ],
+   "en": [
+    "Sundae",
+    "Sundaes"
+   ],
+   "cur": {
+    "s": "Eisbecher",
+    "p": "Eisbecher",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N2",
+    "N8"
+   ]
+  },
+  {
+   "key": "sunflower",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Sunflower",
+    "Sunflowers"
+   ],
+   "cur": {
+    "s": "Sonnenblume",
+    "p": "Sonnenblumen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "sunglasses",
+   "themes": [
+    "accessories",
+    "apparel",
+    "beach",
+    "summer",
+    "travel_and_holiday",
+    "valentine",
+    "weather"
+   ],
+   "en": [
+    "Sunglasses",
+    "Sunglasses"
+   ],
+   "cur": {
+    "s": "Sonnenbrille",
+    "p": "Sonnenbrillen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "sunny",
+   "themes": [
+    "weather"
+   ],
+   "en": [
+    "Sunny",
+    "Sunny"
+   ],
+   "cur": {
+    "s": "Sonnig",
+    "p": "Sonnig",
+    "g": "m"
+   },
+   "type": "adjective",
+   "countable": false
+  },
+  {
+   "key": "sunrise",
+   "themes": [
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Sunrise",
+    "Sunrises"
+   ],
+   "cur": {
+    "s": "Sonnenaufgang",
+    "p": "Sonnenaufgänge",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "sunscreen",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Sunscreen",
+    "Sunscreens"
+   ],
+   "cur": {
+    "s": "Sonnencreme",
+    "p": "Sonnencremen",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "surfboard",
+   "themes": [
+    "beach",
+    "summer"
+   ],
+   "en": [
+    "Surfboard",
+    "Surfboards"
+   ],
+   "cur": {
+    "s": "Surfbrett",
+    "p": "Surfbretter",
+    "g": "n"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "surprised",
+   "themes": [
+    "emotions"
+   ],
+   "en": [
+    "Surprised",
+    "Surprised"
+   ],
+   "cur": {
+    "s": "Überrascht",
+    "p": "Überrascht",
+    "g": "m"
+   },
+   "type": "adjective",
+   "countable": false
+  }
+ ]
+}

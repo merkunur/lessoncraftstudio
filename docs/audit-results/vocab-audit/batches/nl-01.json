@@ -1,0 +1,1988 @@
+{
+ "locale": "nl",
+ "batch": "01",
+ "of": 12,
+ "genderLegend": "d=de-woord (common) · h=het-woord (neuter)  ← NOT m/f/n",
+ "count": 110,
+ "range": [
+  "accordion",
+  "blender"
+ ],
+ "rows": [
+  {
+   "key": "accordion",
+   "themes": [
+    "music"
+   ],
+   "en": [
+    "Accordion",
+    "Accordions"
+   ],
+   "cur": {
+    "s": "Accordeon",
+    "p": "Accordeons",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "acorn",
+   "themes": [
+    "miscellaneous",
+    "thanksgivinng"
+   ],
+   "en": [
+    "Acorn",
+    "Acorns"
+   ],
+   "cur": {
+    "s": "Eikel",
+    "p": "Eikels",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "actor",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Actor",
+    "Actors"
+   ],
+   "cur": {
+    "s": "Acteur",
+    "p": "Acteuren",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "air-conditioning",
+   "themes": [
+    "home"
+   ],
+   "en": [
+    "Air Conditioning",
+    "Air Conditioning"
+   ],
+   "cur": {
+    "s": "Airconditioning",
+    "p": "Airconditioning",
+    "g": "d"
+   },
+   "type": "noun-concept",
+   "countable": false
+  },
+  {
+   "key": "airplane",
+   "themes": [
+    "things_that_fly",
+    "toys",
+    "travel_and_holiday",
+    "vehicles"
+   ],
+   "en": [
+    "Airplane",
+    "Airplanes"
+   ],
+   "cur": {
+    "s": "Vliegtuig",
+    "p": "Vliegtuigen",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "alarm-clock",
+   "themes": [
+    "around_the_house",
+    "home",
+    "household"
+   ],
+   "en": [
+    "Alarm Clock",
+    "Alarm Clocks"
+   ],
+   "cur": {
+    "s": "Wekker",
+    "p": "Wekkers",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "alligator",
+   "themes": [
+    "animals",
+    "faces",
+    "reptiles_and_amphibians",
+    "zoo_animals"
+   ],
+   "en": [
+    "Alligator",
+    "Alligators"
+   ],
+   "cur": {
+    "s": "Alligator",
+    "p": "Alligatoren",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "allosaurus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Allosaurus",
+    "Allosauruses"
+   ],
+   "cur": {
+    "s": "Allosaurus",
+    "p": "Allosaurussen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "alpaca",
+   "themes": [
+    "farm_animals"
+   ],
+   "en": [
+    "Alpaca",
+    "Alpacas"
+   ],
+   "cur": {
+    "s": "Alpaca",
+    "p": "Alpaca's",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "ambulance",
+   "themes": [
+    "hospital",
+    "vehicles"
+   ],
+   "en": [
+    "Ambulance",
+    "Ambulances"
+   ],
+   "cur": {
+    "s": "Ambulance",
+    "p": "Ambulancen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "analog-clock",
+   "themes": [
+    "classroom"
+   ],
+   "en": [
+    "Analog Clock",
+    "Analog Clocks"
+   ],
+   "cur": {
+    "s": "Analoge klok",
+    "p": "Analoge klokken",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "anchor",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Anchor",
+    "Anchors"
+   ],
+   "cur": {
+    "s": "Anker",
+    "p": "Ankers",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "angel",
+   "themes": [
+    "christmas",
+    "easter",
+    "valentine"
+   ],
+   "en": [
+    "Angel",
+    "Angels"
+   ],
+   "cur": {
+    "s": "Engel",
+    "p": "Engels",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "angelfish",
+   "themes": [
+    "ocean_life"
+   ],
+   "en": [
+    "Angelfish",
+    "Angelfish"
+   ],
+   "cur": {
+    "s": "Maanvis",
+    "p": "Maanvissen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "angry",
+   "themes": [
+    "emotions"
+   ],
+   "en": [
+    "Angry",
+    "Angry"
+   ],
+   "cur": {
+    "s": "Boos",
+    "p": "Boos",
+    "g": "d"
+   },
+   "type": "adjective",
+   "countable": false
+  },
+  {
+   "key": "ankle",
+   "themes": [
+    "body_parts"
+   ],
+   "en": [
+    "Ankle",
+    "Ankles"
+   ],
+   "cur": {
+    "s": "Enkel",
+    "p": "Enkels",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "ankylosaurus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Ankylosaurus",
+    "Ankylosauruses"
+   ],
+   "cur": {
+    "s": "Ankylosaurus",
+    "p": "Ankylosaurussen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "ant",
+   "themes": [
+    "forest_creatures",
+    "insects_and_bugs"
+   ],
+   "en": [
+    "Ant",
+    "Ants"
+   ],
+   "cur": {
+    "s": "Mier",
+    "p": "Mieren",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "antelope",
+   "themes": [
+    "animals",
+    "farm_animals",
+    "zoo_animals"
+   ],
+   "en": [
+    "Antelope",
+    "Antelopes"
+   ],
+   "cur": {
+    "s": "Antilope",
+    "p": "Antilopen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "apatosaurus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Apatosaurus",
+    "Apatosauruses"
+   ],
+   "cur": {
+    "s": "Apatosaurus",
+    "p": "Apatosaurussen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "apple",
+   "themes": [
+    "at_the_supermarket",
+    "breakfast",
+    "fruits",
+    "thanksgivinng"
+   ],
+   "en": [
+    "Apple",
+    "Apples"
+   ],
+   "cur": {
+    "s": "Appel",
+    "p": "Appels",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "apple-pie",
+   "themes": [
+    "desserts_and_sweets"
+   ],
+   "en": [
+    "Apple Pie",
+    "Apple Pies"
+   ],
+   "cur": {
+    "s": "Appeltaart",
+    "p": "Appeltaarten",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "apple-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Apple Tree",
+    "Apple Trees"
+   ],
+   "cur": {
+    "s": "Appelboom",
+    "p": "Appelbomen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "apricot",
+   "themes": [
+    "fruits"
+   ],
+   "en": [
+    "Apricot",
+    "Apricots"
+   ],
+   "cur": {
+    "s": "Abrikoos",
+    "p": "Abrikozen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "apron",
+   "themes": [
+    "accessories",
+    "clothing",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Apron",
+    "Aprons"
+   ],
+   "cur": {
+    "s": "Schort",
+    "p": "Schorten",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "architect",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Architect",
+    "Architects"
+   ],
+   "cur": {
+    "s": "Architect",
+    "p": "Architecten",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "argentinosaurus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Argentinosaurus",
+    "Argentinosauruses"
+   ],
+   "cur": {
+    "s": "Argentinosaurus",
+    "p": "Argentinosaurussen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "arm",
+   "themes": [
+    "body_parts"
+   ],
+   "en": [
+    "Arm",
+    "Arms"
+   ],
+   "cur": {
+    "s": "Arm",
+    "p": "Armen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "armadillo",
+   "themes": [
+    "zoo_animals"
+   ],
+   "en": [
+    "Armadillo",
+    "Armadillos"
+   ],
+   "cur": {
+    "s": "Gordeldier",
+    "p": "Gordeldieren",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "armchair",
+   "themes": [
+    "around_the_house",
+    "furniture",
+    "home"
+   ],
+   "en": [
+    "Armchair",
+    "Armchairs"
+   ],
+   "cur": {
+    "s": "Fauteuil",
+    "p": "Fauteuilen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "artist",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Artist",
+    "Artists"
+   ],
+   "cur": {
+    "s": "Kunstenaar",
+    "p": "Kunstenaren",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "ash-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Ash Tree",
+    "Ash Trees"
+   ],
+   "cur": {
+    "s": "Es",
+    "p": "Essen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "asparagus",
+   "themes": [
+    "vegetables"
+   ],
+   "en": [
+    "Asparagus",
+    "Asparagus"
+   ],
+   "cur": {
+    "s": "Asperge",
+    "p": "Aspergen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": false,
+   "nets": [
+    "N1"
+   ]
+  },
+  {
+   "key": "aspen-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Aspen Tree",
+    "Aspen Trees"
+   ],
+   "cur": {
+    "s": "Esp",
+    "p": "Espen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "aster",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Aster",
+    "Asters"
+   ],
+   "cur": {
+    "s": "Aster",
+    "p": "Asters",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "asteroid",
+   "themes": [
+    "space"
+   ],
+   "en": [
+    "Asteroid",
+    "Asteroids"
+   ],
+   "cur": {
+    "s": "Asteroïde",
+    "p": "Asteroïden",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "astronaut",
+   "themes": [
+    "occupations",
+    "space"
+   ],
+   "en": [
+    "Astronaut",
+    "Astronauts"
+   ],
+   "cur": {
+    "s": "Astronaut",
+    "p": "Astronauten",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "athlete",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Athlete",
+    "Athletes"
+   ],
+   "cur": {
+    "s": "Atleet",
+    "p": "Atleten",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "author",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Author",
+    "Authors"
+   ],
+   "cur": {
+    "s": "Auteur",
+    "p": "Auteuren",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "autumn",
+   "themes": [
+    "miscellaneous",
+    "thanksgivinng"
+   ],
+   "en": [
+    "Autumn",
+    "Autumn"
+   ],
+   "cur": {
+    "s": "Herfst",
+    "p": "Herfst",
+    "g": "d"
+   },
+   "type": "noun-concept",
+   "countable": false
+  },
+  {
+   "key": "avocado",
+   "themes": [
+    "fruits"
+   ],
+   "en": [
+    "Avocado",
+    "Avocados"
+   ],
+   "cur": {
+    "s": "Avocado",
+    "p": "Avocado's",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "axe",
+   "themes": [
+    "tools"
+   ],
+   "en": [
+    "Axe",
+    "Axes"
+   ],
+   "cur": {
+    "s": "Bijl",
+    "p": "Bijlen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "azalea",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Azalea",
+    "Azaleas"
+   ],
+   "cur": {
+    "s": "Azalea",
+    "p": "Azalea's",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "baby",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Baby",
+    "Babies"
+   ],
+   "cur": {
+    "s": "Baby",
+    "p": "Baby's",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "baby's-onesie",
+   "themes": [],
+   "en": [
+    "Baby's Onesie",
+    "Baby's Onesies"
+   ],
+   "cur": {
+    "s": "Babyromper",
+    "p": "Babyrompers",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "noImage": true
+  },
+  {
+   "key": "baby-bottle",
+   "themes": [],
+   "en": [
+    "Baby Bottle",
+    "Baby Bottles"
+   ],
+   "cur": {
+    "s": "Babyfles",
+    "p": "Babyflessen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "noImage": true
+  },
+  {
+   "key": "baby-carriage",
+   "themes": [
+    "vehicles"
+   ],
+   "en": [
+    "Baby Carriage",
+    "Baby Carriages"
+   ],
+   "cur": {
+    "s": "Kinderwagen",
+    "p": "Kinderwagens",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "baby-girl",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Baby Girl",
+    "Baby Girls"
+   ],
+   "cur": {
+    "s": "Babymeisje",
+    "p": "Babymeisjes",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "baby-overall",
+   "themes": [
+    "apparel"
+   ],
+   "en": [
+    "Baby Overall",
+    "Baby Overalls"
+   ],
+   "cur": {
+    "s": "Baby-overall",
+    "p": "Baby-overallen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "backpack",
+   "themes": [
+    "accessories",
+    "camping",
+    "classroom",
+    "education",
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Backpack",
+    "Backpacks"
+   ],
+   "cur": {
+    "s": "Rugzak",
+    "p": "Rugzakken",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "bacon",
+   "themes": [
+    "at_the_supermarket",
+    "breakfast"
+   ],
+   "en": [
+    "Bacon",
+    "Bacon"
+   ],
+   "cur": {
+    "s": "Spek",
+    "p": "Spek",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": false
+  },
+  {
+   "key": "badge",
+   "themes": [
+    "accessories"
+   ],
+   "en": [
+    "Badge",
+    "Badges"
+   ],
+   "cur": {
+    "s": "Badge",
+    "p": "Badgen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "badger",
+   "themes": [
+    "forest_creatures"
+   ],
+   "en": [
+    "Badger",
+    "Badgers"
+   ],
+   "cur": {
+    "s": "Das",
+    "p": "Dassen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "badminton",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Badminton",
+    "Badminton"
+   ],
+   "cur": {
+    "s": "Badminton",
+    "p": "Badminton",
+    "g": "d"
+   },
+   "type": "verb-gerund",
+   "countable": false
+  },
+  {
+   "key": "bag",
+   "themes": [
+    "at_the_supermarket",
+    "beach"
+   ],
+   "en": [
+    "Bag",
+    "Bags"
+   ],
+   "cur": {
+    "s": "Tas",
+    "p": "Tassen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "bagel",
+   "themes": [
+    "at_the_supermarket",
+    "bakery",
+    "breakfast"
+   ],
+   "en": [
+    "Bagel",
+    "Bagels"
+   ],
+   "cur": {
+    "s": "Bagel",
+    "p": "Bagels",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "baguette",
+   "themes": [
+    "bakery"
+   ],
+   "en": [
+    "Baguette",
+    "Baguettes"
+   ],
+   "cur": {
+    "s": "Stokbrood",
+    "p": "Stokbroden",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "baker",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Baker",
+    "Bakers"
+   ],
+   "cur": {
+    "s": "Bakker",
+    "p": "Bakkers",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "baking",
+   "themes": [
+    "activities"
+   ],
+   "en": [
+    "Baking",
+    "Baking"
+   ],
+   "cur": {
+    "s": "Bakken",
+    "p": "Bakken",
+    "g": "d"
+   },
+   "type": "verb-gerund",
+   "countable": false
+  },
+  {
+   "key": "baking-sheet",
+   "themes": [
+    "kitchen_tools"
+   ],
+   "en": [
+    "Baking Sheet",
+    "Baking Sheets"
+   ],
+   "cur": {
+    "s": "Bakplaat",
+    "p": "Bakplaten",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "ball",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Ball",
+    "Balls"
+   ],
+   "cur": {
+    "s": "Bal",
+    "p": "Ballen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "ballerina",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Ballerina",
+    "Ballerinas"
+   ],
+   "cur": {
+    "s": "Ballerina",
+    "p": "Ballerina's",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "balloon",
+   "themes": [
+    "4th_of_july",
+    "easter",
+    "things_that_fly",
+    "toys",
+    "valentine"
+   ],
+   "en": [
+    "Balloon",
+    "Balloons"
+   ],
+   "cur": {
+    "s": "Ballon",
+    "p": "Ballonnen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "banana",
+   "themes": [
+    "at_the_supermarket",
+    "breakfast",
+    "fruits"
+   ],
+   "en": [
+    "Banana",
+    "Bananas"
+   ],
+   "cur": {
+    "s": "Banaan",
+    "p": "Bananen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "banana-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Banana Tree",
+    "Banana Trees"
+   ],
+   "cur": {
+    "s": "Bananenboom",
+    "p": "Bananenbomen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "bandage",
+   "themes": [
+    "hospital"
+   ],
+   "en": [
+    "Bandage",
+    "Bandages"
+   ],
+   "cur": {
+    "s": "Verband",
+    "p": "Verbanden",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "banyan-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Banyan Tree",
+    "Banyan Trees"
+   ],
+   "cur": {
+    "s": "Waringin",
+    "p": "Waringinnen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "baobab-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Baobab Tree",
+    "Baobab Trees"
+   ],
+   "cur": {
+    "s": "Baobab",
+    "p": "Baobabben",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "barbecue",
+   "themes": [
+    "summer"
+   ],
+   "en": [
+    "Barbecue",
+    "Barbecues"
+   ],
+   "cur": {
+    "s": "Barbecue",
+    "p": "Barbecuen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "barber",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Barber",
+    "Barbers"
+   ],
+   "cur": {
+    "s": "Kapper",
+    "p": "Kappers",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "barn",
+   "themes": [
+    "farm"
+   ],
+   "en": [
+    "Barn",
+    "Barns"
+   ],
+   "cur": {
+    "s": "Schuur",
+    "p": "Schuren",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "barrette",
+   "themes": [
+    "accessories"
+   ],
+   "en": [
+    "Barrette",
+    "Barrettes"
+   ],
+   "cur": {
+    "s": "Haarspeld",
+    "p": "Haarspelden",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "baseball",
+   "themes": [
+    "4th_of_july",
+    "activities",
+    "sports"
+   ],
+   "en": [
+    "Baseball",
+    "Baseball"
+   ],
+   "cur": {
+    "s": "Honkbal",
+    "p": "Honkbal",
+    "g": "d"
+   },
+   "type": "verb-gerund",
+   "countable": false
+  },
+  {
+   "key": "basket",
+   "themes": [
+    "at_the_supermarket",
+    "easter"
+   ],
+   "en": [
+    "Basket",
+    "Baskets"
+   ],
+   "cur": {
+    "s": "Mand",
+    "p": "Manden",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "basketball",
+   "themes": [
+    "activities",
+    "sports"
+   ],
+   "en": [
+    "Basketball",
+    "Basketball"
+   ],
+   "cur": {
+    "s": "Basketbal",
+    "p": "Basketbal",
+    "g": "d"
+   },
+   "type": "verb-gerund",
+   "countable": false
+  },
+  {
+   "key": "bat",
+   "themes": [
+    "animals",
+    "forest_creatures",
+    "things_that_fly",
+    "zoo_animals"
+   ],
+   "en": [
+    "Bat",
+    "Bats"
+   ],
+   "cur": {
+    "s": "Vleermuis",
+    "p": "Vleermuizen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "bathing-suit",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Bathing Suit",
+    "Bathing Suits"
+   ],
+   "cur": {
+    "s": "Badpak",
+    "p": "Badpakken",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "bathtub",
+   "themes": [
+    "around_the_house",
+    "home",
+    "household"
+   ],
+   "en": [
+    "Bathtub",
+    "Bathtubs"
+   ],
+   "cur": {
+    "s": "Badkuip",
+    "p": "Badkuipen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "beach",
+   "themes": [
+    "summer"
+   ],
+   "en": [
+    "Beach",
+    "Beaches"
+   ],
+   "cur": {
+    "s": "Strand",
+    "p": "Stranden",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "beach-bag",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Beach Bag",
+    "Beach Bags"
+   ],
+   "cur": {
+    "s": "Strandtas",
+    "p": "Strandtassen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "beach-ball",
+   "themes": [
+    "beach",
+    "sports",
+    "summer"
+   ],
+   "en": [
+    "Beach Ball",
+    "Beach Balls"
+   ],
+   "cur": {
+    "s": "Strandbal",
+    "p": "Strandballen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "beach-umbrella",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Beach Umbrella",
+    "Beach Umbrellas"
+   ],
+   "cur": {
+    "s": "Parasol",
+    "p": "Parasollen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "beanie",
+   "themes": [
+    "accessories",
+    "clothing"
+   ],
+   "en": [
+    "Beanie",
+    "Beanies"
+   ],
+   "cur": {
+    "s": "Muts",
+    "p": "Mutsen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "bear",
+   "themes": [
+    "animals",
+    "camping",
+    "faces",
+    "forest_creatures",
+    "zoo_animals"
+   ],
+   "en": [
+    "Bear",
+    "Bears"
+   ],
+   "cur": {
+    "s": "Beer",
+    "p": "Beren",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N5"
+   ]
+  },
+  {
+   "key": "beaver",
+   "themes": [
+    "animals",
+    "forest_creatures"
+   ],
+   "en": [
+    "Beaver",
+    "Beavers"
+   ],
+   "cur": {
+    "s": "Bever",
+    "p": "Bevers",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "bed",
+   "themes": [
+    "around_the_house",
+    "furniture",
+    "home",
+    "hospital",
+    "household"
+   ],
+   "en": [
+    "Bed",
+    "Beds"
+   ],
+   "cur": {
+    "s": "Bed",
+    "p": "Bedden",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "bee",
+   "themes": [
+    "animals",
+    "farm_animals",
+    "forest_creatures",
+    "insects_and_bugs",
+    "spring",
+    "things_that_fly"
+   ],
+   "en": [
+    "Bee",
+    "Bees"
+   ],
+   "cur": {
+    "s": "Bij",
+    "p": "Bijjen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "beech-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Beech Tree",
+    "Beech Trees"
+   ],
+   "cur": {
+    "s": "Beuk",
+    "p": "Beuken",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "beetle",
+   "themes": [
+    "things_that_fly"
+   ],
+   "en": [
+    "Beetle",
+    "Beetles"
+   ],
+   "cur": {
+    "s": "Kever",
+    "p": "Kevers",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "beetroot",
+   "themes": [
+    "vegetables"
+   ],
+   "en": [
+    "Beetroot",
+    "Beetroots"
+   ],
+   "cur": {
+    "s": "Rode biet",
+    "p": "Rode bieten",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "begonia",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Begonia",
+    "Begonias"
+   ],
+   "cur": {
+    "s": "Begonia",
+    "p": "Begonia's",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "beige",
+   "themes": [
+    "colors"
+   ],
+   "en": [
+    "Beige",
+    "Beige"
+   ],
+   "cur": {
+    "s": "Beige",
+    "p": "Beige",
+    "g": "d"
+   },
+   "type": "adjective",
+   "countable": false
+  },
+  {
+   "key": "bell",
+   "themes": [
+    "christmas",
+    "classroom",
+    "easter"
+   ],
+   "en": [
+    "Bell",
+    "Bells"
+   ],
+   "cur": {
+    "s": "Bel",
+    "p": "Bellen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "bell-pepper",
+   "themes": [
+    "vegetables"
+   ],
+   "en": [
+    "Bell Pepper",
+    "Bell Peppers"
+   ],
+   "cur": {
+    "s": "Paprika",
+    "p": "Paprika's",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "belt",
+   "themes": [
+    "accessories",
+    "clothing"
+   ],
+   "en": [
+    "Belt",
+    "Belts"
+   ],
+   "cur": {
+    "s": "Riem",
+    "p": "Riemen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "bench",
+   "themes": [
+    "furniture"
+   ],
+   "en": [
+    "Bench",
+    "Benches"
+   ],
+   "cur": {
+    "s": "Bank",
+    "p": "Banken",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "bible",
+   "themes": [
+    "easter"
+   ],
+   "en": [
+    "Bible",
+    "Bibles"
+   ],
+   "cur": {
+    "s": "Bijbel",
+    "p": "Bijbels",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "bicycle",
+   "themes": [
+    "sports",
+    "spring",
+    "toys",
+    "vehicles"
+   ],
+   "en": [
+    "Bicycle",
+    "Bicycles"
+   ],
+   "cur": {
+    "s": "Fiets",
+    "p": "Fietsen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "biking",
+   "themes": [
+    "activities"
+   ],
+   "en": [
+    "Biking",
+    "Biking"
+   ],
+   "cur": {
+    "s": "Fietsen",
+    "p": "Fietsen",
+    "g": "d"
+   },
+   "type": "verb-gerund",
+   "countable": false
+  },
+  {
+   "key": "binder",
+   "themes": [
+    "classroom"
+   ],
+   "en": [
+    "Binder",
+    "Binders"
+   ],
+   "cur": {
+    "s": "Ordner",
+    "p": "Ordners",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "binoculars",
+   "themes": [
+    "camping",
+    "objects",
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Binoculars",
+    "Binoculars"
+   ],
+   "cur": {
+    "s": "Verrekijker",
+    "p": "Verrekijkers",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "birch-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Birch Tree",
+    "Birch Trees"
+   ],
+   "cur": {
+    "s": "Berk",
+    "p": "Berken",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "bird",
+   "themes": [
+    "animals",
+    "birds",
+    "easter",
+    "nature",
+    "spring",
+    "things_that_fly"
+   ],
+   "en": [
+    "Bird",
+    "Birds"
+   ],
+   "cur": {
+    "s": "Vogel",
+    "p": "Vogels",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "birdhouse",
+   "themes": [
+    "spring"
+   ],
+   "en": [
+    "Birdhouse",
+    "Birdhouses"
+   ],
+   "cur": {
+    "s": "Vogelhuisje",
+    "p": "Vogelhuisjes",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "biscuit",
+   "themes": [
+    "breakfast",
+    "dessert"
+   ],
+   "en": [
+    "Biscuit",
+    "Biscuits"
+   ],
+   "cur": {
+    "s": "Koekje",
+    "p": "Koekjes",
+    "g": "h"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N6"
+   ]
+  },
+  {
+   "key": "bison",
+   "themes": [
+    "animals",
+    "zoo_animals"
+   ],
+   "en": [
+    "Bison",
+    "Bison"
+   ],
+   "cur": {
+    "s": "Bizon",
+    "p": "Bizonnen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "black",
+   "themes": [
+    "colors"
+   ],
+   "en": [
+    "Black",
+    "Black"
+   ],
+   "cur": {
+    "s": "Zwart",
+    "p": "Zwart",
+    "g": "d"
+   },
+   "type": "adjective",
+   "countable": false
+  },
+  {
+   "key": "blackberry",
+   "themes": [
+    "fruits"
+   ],
+   "en": [
+    "Blackberry",
+    "Blackberries"
+   ],
+   "cur": {
+    "s": "Braam",
+    "p": "Bramen",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true,
+   "nets": [
+    "N5"
+   ]
+  },
+  {
+   "key": "blanket",
+   "themes": [
+    "objects"
+   ],
+   "en": [
+    "Blanket",
+    "Blankets"
+   ],
+   "cur": {
+    "s": "Deken",
+    "p": "Dekens",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  },
+  {
+   "key": "blender",
+   "themes": [
+    "around_the_house",
+    "home",
+    "household",
+    "kitchen",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Blender",
+    "Blenders"
+   ],
+   "cur": {
+    "s": "Blender",
+    "p": "Blenders",
+    "g": "d"
+   },
+   "type": "noun",
+   "countable": true
+  }
+ ]
+}

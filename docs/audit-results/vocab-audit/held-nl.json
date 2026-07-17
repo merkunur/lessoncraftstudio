@@ -1,0 +1,1069 @@
+{
+ "locale": "nl",
+ "held": [
+  {
+   "key": "banyan-tree",
+   "field": "plural",
+   "cur": {
+    "s": "Waringin",
+    "p": "Waringinnen",
+    "g": "d"
+   },
+   "why": "cannot verify. 'Waringinnen' presupposes final stress plus consonant doubling; my expectation is that Van Dale gives 'waringins', but I will not assert a dictionary form I cannot check. Needs a Van Dale lookup before any rewrite"
+  },
+  {
+   "key": "baobab-tree",
+   "field": "plural",
+   "cur": {
+    "s": "Baobab",
+    "p": "Baobabben",
+    "g": "d"
+   },
+   "why": "cannot verify. Exotic loans of this shape usually take -s (baobabs), but the native pattern for a final-stressed short-vowel stem would give 'baobabben' (cf. krab -> krabben), so the script's output is not self-evidently wrong. Needs a Van Dale lookup"
+  },
+  {
+   "key": "bonfire",
+   "field": "singular",
+   "cur": {
+    "s": "Kampvuur",
+    "p": "Kampvuren",
+    "g": "h"
+   },
+   "why": "bonfire and campfire are different things, but this row and key 'campfire' both hold 'Kampvuur' (N6). Van Dale glosses bonfire as vreugdevuur; kampvuur belongs to 'campfire'. Choosing between kampvuur / vreugdevuur / houtvuur needs the image (theme is only 'miscellaneous') and is a lemma change, not a form fix"
+  },
+  {
+   "key": "bookshelf",
+   "field": "singular",
+   "cur": {
+    "s": "Boekenkast",
+    "p": "Boekenkasten",
+    "g": "d"
+   },
+   "why": "'Boekenkast' = bookcase and is byte-identical to key 'bookcase' (N6). A bookshelf is de boekenplank (-> de boekenplanken). Correcting it swaps the lemma and needs the image: shelf or cabinet?"
+  },
+  {
+   "key": "bored",
+   "field": "gender",
+   "cur": {
+    "s": "Verveeld",
+    "p": "Verveeld",
+    "g": "d"
+   },
+   "why": "adjective, not a noun: no gender applies. 'd' is the script default. Whether this field should be null/empty for adjectives is a data-model decision, not a language fix"
+  },
+  {
+   "key": "bowling-pin",
+   "field": "singular",
+   "cur": {
+    "s": "Bowlingpin",
+    "p": "Bowlingpinnen",
+    "g": "d"
+   },
+   "why": "cannot confirm 'bowlingpin' as a Van Dale lemma; the usual Dutch word for the pictured object is de kegel / de bowlingkegel. That is a lemma change, so not a form fix -- needs a ruling (I will not invent a citation)"
+  },
+  {
+   "key": "capricious",
+   "field": "gender",
+   "cur": {
+    "s": "Grillig",
+    "p": "Grillig",
+    "g": "d"
+   },
+   "why": "adjective, not a noun: no gender applies. 'd' is the script default"
+  },
+  {
+   "key": "cards",
+   "field": "singular",
+   "cur": {
+    "s": "Kaarten",
+    "p": "Kaarten",
+    "g": "d"
+   },
+   "why": "a plural sits in the singular field, but the pure form fix ('Kaart') would make this row byte-identical to key 'card' (N6 collision). Theme=toys suggests playing cards -> 'Speelkaart', which is a lemma change. Needs a ruling; not a blind rewrite"
+  },
+  {
+   "key": "cashier",
+   "field": "singular",
+   "cur": {
+    "s": "Kassier",
+    "p": "Kassieren",
+    "g": "d"
+   },
+   "why": "in Standard Dutch (Netherlands) 'kassier' is chiefly the person who manages the cash/a bank teller (and is the usual Belgian word); the supermarket cashier pictured under occupations is de caissiere / de kassamedewerker. That is a lemma change plus an image question -> ruling needed"
+  },
+  {
+   "key": "chameleon",
+   "field": "plural",
+   "cur": {
+    "s": "Kameleon",
+    "p": "Kameleonen",
+    "g": "d"
+   },
+   "why": "'Kameleonen' looks like the script's blanket -en rule and I believe the standard plural is 'Kameleons' (final -on is stressed and short, so an -en plural would have to double the n: *kameleonnen; -eon loans like these take -s). I am not certain enough of the Van Dale entry to state it as fact and will not invent a citation -> please verify 'kameleons' in Van Dale before applying"
+  },
+  {
+   "key": "cheeks",
+   "field": "singular",
+   "cur": {
+    "s": "Wangen",
+    "p": "Wangen",
+    "g": "d"
+   },
+   "why": "'Wangen' is a plural sitting in the singular field. The en gloss is likewise plural (Cheeks/Cheeks), so the entry looks plural-keyed by design and matches the picture. Setting s='Wang' would change which number/referent the entry represents - an editorial decision, not a form fix."
+  },
+  {
+   "key": "cloudy",
+   "field": "gender",
+   "cur": {
+    "s": "Bewolkt",
+    "p": "Bewolkt",
+    "g": "d"
+   },
+   "why": "An adjective has no grammatical gender, so 'd' is not a defensible claim about Dutch - it is the script's fallthrough. No change is needed if the field is inert for adjectives; flagged rather than FIXed because there is no correct value to supply."
+  },
+  {
+   "key": "cold",
+   "field": "gender",
+   "cur": {
+    "s": "Koud",
+    "p": "Koud",
+    "g": "d"
+   },
+   "why": "An adjective has no grammatical gender, so 'd' is the script's fallthrough rather than a claim about Dutch. No change is needed if the field is inert for adjectives; flagged rather than FIXed because there is no correct value to supply."
+  },
+  {
+   "key": "confused",
+   "field": "gender",
+   "cur": {
+    "s": "Verward",
+    "p": "Verward",
+    "g": "d"
+   },
+   "why": "An adjective has no grammatical gender, so 'd' is the script's fallthrough rather than a claim about Dutch. No change is needed if the field is inert for adjectives; flagged rather than FIXed because there is no correct value to supply."
+  },
+  {
+   "key": "content",
+   "field": "gender",
+   "cur": {
+    "s": "Tevreden",
+    "p": "Tevreden",
+    "g": "d"
+   },
+   "why": "An adjective has no grammatical gender, so 'd' is the script's fallthrough rather than a claim about Dutch. No change is needed if the field is inert for adjectives; flagged rather than FIXed because there is no correct value to supply."
+  },
+  {
+   "key": "cookie-sheet",
+   "field": "singular",
+   "cur": {
+    "s": "Koekjesplaat",
+    "p": "Koekjesplaten",
+    "g": "d"
+   },
+   "why": "'Koekjesplaat' is not in Van Dale; it is a transparent calque of the English. The natural Dutch word for the object is 'de bakplaat'. Replacing it is a lemma change, not a form correction, so it needs a decision rather than a blind rewrite. The compound is well formed and would be understood, so this is a naturalness question, not an error."
+  },
+  {
+   "key": "cookies",
+   "field": "singular",
+   "cur": {
+    "s": "Koekjes",
+    "p": "Koekjes",
+    "g": "h"
+   },
+   "why": "'Koekjes' is a plural in the singular field. The en gloss is likewise plural (Cookies/Cookies), so the entry looks plural-keyed by design and matches the picture; there is also a separate singular key 'cookie' = Koekje. Setting s='Koekje' would duplicate that key. Needs a decision, not a form fix."
+  },
+  {
+   "key": "coral",
+   "field": "plural",
+   "cur": {
+    "s": "Koraal",
+    "p": "koralen",
+    "g": "h"
+   },
+   "why": "Two problems and the second needs the picture. (1) Certain defect: 'koralen' is lowercase, violating the capitalised-plural convention. (2) The themes contain BOTH 'colors' and 'ocean_life' and type is 'adjective', so the intended sense is ambiguous: as a colour it takes no plural (p should be 'Koraal'); as the marine organism it is 'Koralen' (het koraal -> de koralen). I will not guess which image this is."
+  },
+  {
+   "key": "crane",
+   "field": "singular",
+   "cur": {
+    "s": "Kraanvogel",
+    "p": "Kraanvogels",
+    "g": "d"
+   },
+   "why": "Homonym trap of exactly the pine-tree/Kiefer kind, and here the themes give it away: they list BOTH 'birds_2' (the bird = de kraanvogel) and 'vehicles' (the machine = de hijskraan / de kraan). 'Kraanvogel' is correct only for the bird; if the vehicles image shows a construction crane, the word read aloud is wrong. Needs the image, and probably a key split."
+  },
+  {
+   "key": "crayons",
+   "field": "singular",
+   "cur": {
+    "s": "Kleurpotloden",
+    "p": "Kleurpotloden",
+    "g": "h"
+   },
+   "why": "Two things at once. (1) 'Kleurpotloden' is a plural in the singular field. (2) Worse: it is a different object from the sibling key 'crayon' = 'Waskrijtje'. Kleurpotloden are coloured PENCILS; crayons are waskrijtjes. One of the two keys names the wrong object; which one depends on the picture. Not a form fix."
+  },
+  {
+   "key": "cricket",
+   "field": "singular",
+   "cur": {
+    "s": "Krekel",
+    "p": "Krekels",
+    "g": "d"
+   },
+   "why": "Same trap as 'crane': the themes list BOTH 'insects_and_bugs' (the insect = de krekel) and 'sports' (the game = het cricket). 'Krekel' is correct only for the insect. Needs the image, and probably a key split. Note the two senses even differ in gender (de krekel vs het cricket)."
+  },
+  {
+   "key": "crimson",
+   "field": "gender",
+   "cur": {
+    "s": "Karmozijn",
+    "p": "Karmozijn",
+    "g": "d"
+   },
+   "why": "'d' is not defensible under either reading: as an adjective there is no grammatical gender at all, and if the file treats colour names as nouns then Dutch colour nouns are neuter (het rood, het blauw, het karmozijn), i.e. 'h'. Which of the two the schema intends is a decision, not a form fix - and it applies to every colour row, not just this one."
+  },
+  {
+   "key": "crutches",
+   "field": "singular",
+   "cur": {
+    "s": "Krukken",
+    "p": "Krukken",
+    "g": "d"
+   },
+   "why": "'Krukken' is a plural in the singular field. The en gloss is likewise plural (Crutches/Crutches) and crutches are pictured and used as a pair, so the entry looks plural-keyed by design. Setting s='Kruk' would change the referent; also note the homonym de kruk = stool/handle."
+  },
+  {
+   "key": "curtains",
+   "field": "singular",
+   "cur": {
+    "s": "Gordijnen",
+    "p": "Gordijnen",
+    "g": "h"
+   },
+   "why": "'Gordijnen' is a plural in the singular field. The en gloss is likewise plural (Curtains/Curtains) and there is a separate singular key 'curtain' = Gordijn, so the entry looks plural-keyed by design. Setting s='Gordijn' would duplicate that key. Not a form fix."
+  },
+  {
+   "key": "cymbals",
+   "field": "singular",
+   "cur": {
+    "s": "Bekkens",
+    "p": "Bekkens",
+    "g": "h"
+   },
+   "why": "'Bekkens' is a plural in the singular field. The en gloss is likewise plural (Cymbals/Cymbals) and cymbals are pictured and played as a pair, so the entry looks plural-keyed by design. Homonym note: het bekken = cymbal, but also pelvis and basin - all neuter, so the gender is unaffected."
+  },
+  {
+   "key": "dimetrodon",
+   "field": "plural",
+   "cur": {
+    "s": "Dimetrodon",
+    "p": "Dimetrodonten",
+    "g": "d"
+   },
+   "why": "'Dimetrodonten' presupposes a stem *dimetrodont, calqued from 'de mastodont - mastodonten'; that -t does not exist in dimetrodon, so the current form is certainly wrong. But Van Dale has no entry and I will not invent one: 'Dimetrodons' is the probable form (compare de python - pythons) while 'Dimetrodonnen' cannot be excluded without stress data. Human decision needed"
+  },
+  {
+   "key": "domino",
+   "field": "gender",
+   "cur": {
+    "s": "Domino",
+    "p": "Domino's",
+    "g": "d"
+   },
+   "why": "the gender depends on the reading of the picture, which I cannot see. The game is 'het domino' (no plural); a single tile is properly 'de dominosteen', and 'de domino' for a tile is colloquial. themes=[toys] + en plural 'Dominoes' suggests tiles, which would justify 'd', but this is a content question, not a form fix"
+  },
+  {
+   "key": "dragon-fruit",
+   "field": "singular",
+   "cur": {
+    "s": "Drakenfruit",
+    "p": "Drakenfruiten",
+    "g": "h"
+   },
+   "why": "lemma question (noImage, lowest priority). Standard Dutch for this fruit is 'de drakenvrucht'; 'drakenfruit' is a supermarket anglicism whose head 'fruit' is a mass noun, which is exactly why no honest plural can be built from it. Switching the lemma also flips the gender to 'd' - more than a form change, so not to be rewritten blindly"
+  },
+  {
+   "key": "durian",
+   "field": "plural",
+   "cur": {
+    "s": "Doerian",
+    "p": "Doerianen",
+    "g": "d"
+   },
+   "why": "'Doerianen' is internally inconsistent: it presupposes a stressed, long final syllable (compare banaan -> bananen), but the loan has a short unstressed -an, which would demand either 'doeriannen' (doubling) or, far more likely, the loan plural 'Doerians'. I cannot verify the Van Dale form and will not guess"
+  },
+  {
+   "key": "eagle",
+   "field": "plural",
+   "cur": {
+    "s": "Adelaar",
+    "p": "Adelaren",
+    "g": "d"
+   },
+   "why": "genuinely undecidable without the dictionary: -aar nouns do form -aren productively (leraar -> leraren, ambtenaar -> ambtenaren), so 'adelaren' may well be listed, while 'adelaars' is the form actually used in speech and the one I would want on a spoken K-3 surface. Not a defect I can prove -> recommend 'Adelaars', needs a Van Dale check"
+  },
+  {
+   "key": "earmuffs",
+   "field": "singular",
+   "cur": {
+    "s": "Oorwarmers",
+    "p": "Oorwarmers",
+    "g": "d"
+   },
+   "why": "the singular field holds a plural, but so does the English gloss (en=[Earmuffs, Earmuffs]): the defect is upstream, not Dutch. A Dutch singular does exist ('de oorwarmer'), yet the picture almost certainly shows the pair, for which 'oorwarmers' is what a Dutch speaker says. Whether to force a singular is a content decision about the image"
+  },
+  {
+   "key": "eight-ball",
+   "field": "singular",
+   "cur": {
+    "s": "Achtbal",
+    "p": "Achtballen",
+    "g": "d"
+   },
+   "why": "'achtbal' is not a Dutch word; Dutch pool calls this 'de zwarte bal' or 'bal 8'. Replacing it is a lemma change plus a question about what the picture shows (the black 8 ball vs a numbered ball), so not a blind rewrite. The form as such would be well built if the compound were kept"
+  },
+  {
+   "key": "evergreen",
+   "field": "singular",
+   "cur": {
+    "s": "Groenblijvend",
+    "p": "Groenblijvenden",
+    "g": "d"
+   },
+   "why": "word-class error: 'groenblijvend' is an adjective, not a noun, so it cannot name what the picture (themes=[winter]) shows. Dutch would use 'de conifeer' / 'de groenblijvende boom'. That is a lemma change, and it also decides the other two fields - not to be rewritten blindly"
+  },
+  {
+   "key": "evergreen",
+   "field": "plural",
+   "cur": {
+    "s": "Groenblijvend",
+    "p": "Groenblijvenden",
+    "g": "d"
+   },
+   "why": "'Groenblijvenden' is not a word, but the correct plural cannot be given before the lemma is settled (see singular HOLD)"
+  },
+  {
+   "key": "evergreen",
+   "field": "gender",
+   "cur": {
+    "s": "Groenblijvend",
+    "p": "Groenblijvenden",
+    "g": "d"
+   },
+   "why": "depends on the lemma chosen (de conifeer -> 'd'); cannot be judged while the singular is an adjective"
+  },
+  {
+   "key": "excited",
+   "field": "singular",
+   "cur": {
+    "s": "Opgewonden",
+    "p": "Opgewonden",
+    "g": "d"
+   },
+   "why": "register/content question, not a form defect: 'opgewonden' does mean 'excited', but in present-day Dutch its dominant reading is 'sexually aroused'. On a K-3 board that is read aloud, 'enthousiast' or 'opgewekt' would be the safe word for an excited face. Changing it is a lemma decision for a human, so I am not rewriting it"
+  },
+  {
+   "key": "eyelashes",
+   "field": "singular",
+   "cur": {
+    "s": "Wimpers",
+    "p": "Wimpers",
+    "g": "d"
+   },
+   "why": "the singular field holds a plural, but the English gloss is plural in both slots too (en=[Eyelashes, Eyelashes]) - the defect is upstream. Dutch does have 'de wimper', and 'wimpers' is an ordinary plural, not a pluralia tantum; whether the picture (body_parts) warrants a singular label is a content decision"
+  },
+  {
+   "key": "flip-flops",
+   "field": "singular",
+   "cur": {
+    "s": "Slippers",
+    "p": "Slippers",
+    "g": "d"
+   },
+   "why": "the singular field holds a plural, but the English gloss is plural in both slots too (en=[Flip Flops, Flip Flops]) - the defect is upstream. Dutch has 'de slipper', yet the picture almost certainly shows the pair; forcing a singular is a content decision about the image"
+  },
+  {
+   "key": "gloves",
+   "field": "singular",
+   "cur": {
+    "s": "Handschoenen",
+    "p": "Handschoenen",
+    "g": "d"
+   },
+   "why": "The singular field holds a plural ('Handschoenen'). This is NOT pluralia tantum - 'de handschoen' exists and is already the separate key 'glove'. Changing it to 'Handschoen' would change what the picture shows (a pair) and duplicate 'glove'; the entry design must be decided against the image, not by me"
+  },
+  {
+   "key": "grapes",
+   "field": "singular",
+   "cur": {
+    "s": "Druiven",
+    "p": "Druiven",
+    "g": "d"
+   },
+   "why": "The singular field holds a plural ('Druiven'). Not pluralia tantum - 'de druif' exists. But the image (a bunch) and the en gloss are plural, so replacing it with 'Druif' would change the referent, not just the form. Entry design must be decided against the image"
+  },
+  {
+   "key": "green-beans",
+   "field": "singular",
+   "cur": {
+    "s": "Sperziebonen",
+    "p": "Sperziebonen",
+    "g": "d"
+   },
+   "why": "The singular field holds a plural ('Sperziebonen'). Not pluralia tantum - 'de sperzieboon' exists. The image and en gloss are plural, so a change to the singular alters the referent. Entry design must be decided against the image"
+  },
+  {
+   "key": "halloween",
+   "field": "gender",
+   "cur": {
+    "s": "Halloween",
+    "p": "Halloween",
+    "g": "d"
+   },
+   "why": "Festival names are normally used articleless in Dutch ('met Halloween'), so no gender is really exercised. If an article is ever rendered, 'het' is the likelier form by analogy (het carnaval, het kerstfeest) and 'de Halloween' would be wrong - but I will not assert a Van Dale gender I cannot verify. Flag for a data-model decision"
+  },
+  {
+   "key": "happy",
+   "field": "gender",
+   "cur": {
+    "s": "Blij",
+    "p": "Blij",
+    "g": "d"
+   },
+   "why": "'Blij' is a pure adjective and, unlike the colour entries, is not nominalised in child language ('het blij' does not exist; the noun is 'de blijdschap'). No grammatical gender applies, so 'd' is a meaningless script default rather than a fixable word error. Flag for a data-model decision, not a word fix"
+  },
+  {
+   "key": "high-heeled-shoes",
+   "field": "singular",
+   "cur": {
+    "s": "Hoge hakken",
+    "p": "Hoge hakken",
+    "g": "d"
+   },
+   "why": "The singular field holds a plural ('Hoge hakken'). The image and en gloss show a pair, so a change to 'Hoge hak' would alter the referent rather than the form. Entry design must be decided against the image"
+  },
+  {
+   "key": "hospital-gown",
+   "field": "singular",
+   "cur": {
+    "s": "Ziekenhuisjas",
+    "p": "Ziekenhuisjassen",
+    "g": "d"
+   },
+   "why": "a hospital gown is not a 'jas' (coat) in Dutch; the patient garment is 'ziekenhuishemd' / 'operatiehemd' / 'patientenhemd'. 'Ziekenhuisjas' suggests a doctor's coat. Different lemma -> operator decision. noImage (dead data), low priority"
+  },
+  {
+   "key": "ice-cream",
+   "field": "singular",
+   "cur": {
+    "s": "IJs",
+    "p": "IJs",
+    "g": "h"
+   },
+   "why": "'het ijs' IS correct Dutch for ice cream, but only as a mass noun. This key is countable ('Ice Creams', dessert/beach/food) and collides with key `ice` (N6). For a countable ice-cream picture the correct entry is het ijsje -> de ijsjes, which also resolves the collision. That is a lemma change, not a form fix -> operator decision"
+  },
+  {
+   "key": "ice-cream",
+   "field": "plural",
+   "cur": {
+    "s": "IJs",
+    "p": "IJs",
+    "g": "h"
+   },
+   "why": "same issue: as coded (p=s) it is the correct no-plural mass noun, but the key is glossed countable. Cannot set p='IJsjes' while s='IJs' (different lemma). Decide the singular first"
+  },
+  {
+   "key": "ice-skates",
+   "field": "singular",
+   "cur": {
+    "s": "Schaatsen",
+    "p": "Schaatsen",
+    "g": "d"
+   },
+   "why": "the singular field holds a plural ('Schaatsen'). Dutch schaats is NOT pluralia tantum (de schaats exists), so this is not a PLURALIA_TANTUM case. But changing s to 'Schaats' would duplicate key `ice-skate` (N6 collision, christmas image = a pair). Whether this entry is meant as a deliberate pair/set entry is a content question -> operator decision"
+  },
+  {
+   "key": "iguanodon",
+   "field": "plural",
+   "cur": {
+    "s": "Iguanodon",
+    "p": "Iguanodonnen",
+    "g": "d"
+   },
+   "why": "'Iguanodonnen' looks exactly like the script's consonant-doubling artifact, and doubling requires a stressed final syllable. The usual Dutch form is 'Iguanodons' (-s, as with other modern-Latin dinosaur names), but iguanodon is very probably not a Van Dale lemma and I will not invent a citation. Recommend 'Iguanodons', needs confirmation"
+  },
+  {
+   "key": "jelly-beans",
+   "field": "singular",
+   "cur": {
+    "s": "Jellybeans",
+    "p": "Jellybeansen",
+    "g": "d"
+   },
+   "why": "the singular field holds a plural ('Jellybeans'); the Dutch singular of this loanword would be 'Jellybean'. Whether this key is meant as a set entry (easter picture shows a pile) is a content question -> operator decision. NB: 'Jellybean' is very probably not a Van Dale lemma; 'suikerboontjes' would be the native alternative"
+  },
+  {
+   "key": "jump",
+   "field": "singular",
+   "cur": {
+    "s": "Springen",
+    "p": "Springen",
+    "g": "d"
+   },
+   "why": "the English gloss is the noun 'Jump/Jumps' = de sprong / de sprongen, but the field holds the infinitive 'Springen'. Also N7 orphan + N6 collision with key `jumping` (identical data) + noImage = dead data. Recommend either deleting this key or moving it to Sprong/Sprongen/d. Lemma change -> operator decision"
+  },
+  {
+   "key": "jump",
+   "field": "plural",
+   "cur": {
+    "s": "Springen",
+    "p": "Springen",
+    "g": "d"
+   },
+   "why": "undecidable until the singular is resolved: 'de sprongen' if it becomes a noun, no plural if it stays the gerund"
+  },
+  {
+   "key": "jump",
+   "field": "gender",
+   "cur": {
+    "s": "Springen",
+    "p": "Springen",
+    "g": "d"
+   },
+   "why": "undecidable until the singular is resolved: het springen (gerund, h) vs de sprong (noun, d). The current 'd' is wrong for the form actually in the field"
+  },
+  {
+   "key": "lantern",
+   "field": "plural",
+   "cur": {
+    "s": "Lantaarn",
+    "p": "Lantaarnen",
+    "g": "d"
+   },
+   "why": "the modern, dominant plural is 'Lantaarns'; 'lantaarnen' is an older variant that I believe is still listed as an accepted secondary form. Since I cannot verify from Van Dale which of the two it treats as current, I will not overwrite. Recommend 'Lantaarns' for child-directed TTS, but this is a preference call, not a proven defect"
+  },
+  {
+   "key": "lego",
+   "field": "gender",
+   "cur": {
+    "s": "Lego",
+    "p": "Lego's",
+    "g": "d"
+   },
+   "why": "I believe the correct form is 'het lego' (neuter, like het speelgoed and other material/brand nouns), which would make this the miscoded-de case the brief predicts. But brand-noun article usage genuinely varies in speech and I cannot verify against Van Dale, so I will not overwrite. Recommend 'h', needs confirmation"
+  },
+  {
+   "key": "lifeguard-tower",
+   "field": "singular",
+   "cur": {
+    "s": "Reddingstoren",
+    "p": "Reddingstorens",
+    "g": "d"
+   },
+   "why": "'Reddingstoren' is not established Dutch; the beach structure is a 'strandwachttoren' / 'uitkijktoren' / 'uitkijkpost'. This is a lemma question, not a form fix -> operator decision. Related to the `lifeguard` row above; both should be settled with the same term"
+  },
+  {
+   "key": "lights",
+   "field": "singular",
+   "cur": {
+    "s": "Lichtjes",
+    "p": "Lichtjes",
+    "g": "h"
+   },
+   "why": "the singular field holds a plural ('Lichtjes'); the Dutch singular is 'lichtje'. For christmas string lights the plural set-noun is what a Dutch speaker actually says, so this may be deliberate - but it is a content question -> operator decision. NB collides in sense with key `light` (de lichten)"
+  },
+  {
+   "key": "maple-tree",
+   "field": "plural",
+   "cur": {
+    "s": "Esdoorn",
+    "p": "Esdoornen",
+    "g": "d"
+   },
+   "why": "uncertain. Van Dale/Woordenlijst give 'esdoorns' as far as I can establish, while 'doorn' itself has both 'doorns' and 'doornen'. I cannot verify offline whether 'esdoornen' is a listed variant, and I will not guess. Needs a dictionary check"
+  },
+  {
+   "key": "medical-gloves",
+   "field": "singular",
+   "cur": {
+    "s": "Medische handschoenen",
+    "p": "Medische handschoenen",
+    "g": "d"
+   },
+   "why": "the singular field holds a plural ('Medische handschoenen'). This is not pluralia tantum — 'de handschoen' has a real singular — so it is a content question: the EN gloss is plural on both fields, so is this entry deliberately a pair-item? If the picture shows one glove, s should be 'Medische handschoen'. Do not rewrite blind"
+  },
+  {
+   "key": "mittens",
+   "field": "singular",
+   "cur": {
+    "s": "Wanten",
+    "p": "Wanten",
+    "g": "d"
+   },
+   "why": "the singular field holds the plural 'Wanten'. Not pluralia tantum — 'de want' exists (see key 'mitten', which already has it) — so this is a content question about the picture: is this entry deliberately the pair? Note it also duplicates 'mitten'. Do not rewrite blind"
+  },
+  {
+   "key": "muscles",
+   "field": "singular",
+   "cur": {
+    "s": "Spieren",
+    "p": "Spieren",
+    "g": "d"
+   },
+   "why": "the singular field holds the plural 'Spieren'. Not pluralia tantum — 'de spier' exists — so this is a content question: the EN gloss is plural on both fields and the picture presumably shows several muscles. If a singular is wanted it is 'Spier'. Do not rewrite blind"
+  },
+  {
+   "key": "nail",
+   "field": "singular",
+   "cur": {
+    "s": "Nagel",
+    "p": "Nagels",
+    "g": "d"
+   },
+   "why": "the themes contradict each other: body_parts -> 'de nagel' (fingernail, what the data says), tools -> 'de spijker' (what you hammer). English 'nail' is one word for both, Dutch is not. Which does the picture show? If it is a tool image, both s and p are the wrong lemma (spijker/spijkers). Needs a look at the image"
+  },
+  {
+   "key": "oviraptor",
+   "field": "plural",
+   "cur": {
+    "s": "Oviraptor",
+    "p": "Oviraptoren",
+    "g": "d"
+   },
+   "why": "not lemmatized in Van Dale. Both 'oviraptors' (dominant in Dutch child/dino usage, cf. velociraptors) and 'oviraptoren' (Latin -or -> -oren with stress shift, cf. professor -> professoren) are defensible. 'Oviraptoren' may equally be the script's -or -> -oren rule. No citable authority -> flag, do not rewrite blind"
+  },
+  {
+   "key": "painting",
+   "field": "plural",
+   "cur": {
+    "s": "Schilderen",
+    "p": "Schilderijen",
+    "g": "h"
+   },
+   "why": "internally contradictory: s='Schilderen' (activity/gerund) but p='Schilderijen' (paintings = objects) — two different lemmas. If the image shows the activity: NO_PLURAL, p='Schilderen'. If it shows a painted picture: s must become 'Schilderij', p 'Schilderijen'. Needs the image; do not rewrite blind"
+  },
+  {
+   "key": "parasol",
+   "field": "plural",
+   "cur": {
+    "s": "Parasol",
+    "p": "Parasollen",
+    "g": "d"
+   },
+   "why": "genuinely uncertain. Modern Dutch usage strongly favours 'parasols' (French loan, cf. salon->salons, balkon->balkons), and 'Parasollen' matches exactly the script's doubling rule. BUT the same final-stress structure legitimately gives ananas->ananassen / ballon->ballonnen, so 'parasollen' is not demonstrably a defect. I cannot cite Van Dale here -> flag for a native check rather than guess"
+  },
+  {
+   "key": "peas",
+   "field": "singular",
+   "cur": {
+    "s": "Erwten",
+    "p": "Erwten",
+    "g": "d"
+   },
+   "why": "'Erwten' is a plural sitting in the singular field. But this is NOT pluralia tantum ('een erwt' exists) and it is not a form defect either: the key deliberately duplicates `pea` (Erwt/Erwten) as a supermarket quantity. Correcting to 'Erwt' would collide with `pea`. Needs a content decision (keep as a plural-quantity key, drop it, or make it e.g. 'Zak erwten') — do not rewrite blind"
+  },
+  {
+   "key": "penguin",
+   "field": "plural",
+   "cur": {
+    "s": "Pinguïn",
+    "p": "Pinguïnen",
+    "g": "d"
+   },
+   "why": "usage (and Dutch Wikipedia's lemma) strongly favours 'Pinguins' with -s; '-inen' looks like the script's default -en rule. However pinguin has final stress, where -en is not per se impossible, and I cannot cite Van Dale to rule 'Pinguinen' out as a variant. Flagging rather than guessing; a native check should most likely land on 'Pinguins'"
+  },
+  {
+   "key": "pink",
+   "field": "gender",
+   "cur": {
+    "s": "Roze",
+    "p": "Roze",
+    "g": "d"
+   },
+   "why": "as an adjective (type: adjective) the gender field is inapplicable, so 'd' is not wrong so much as meaningless. BUT if the file ever substantivizes colours, Dutch takes het: 'het roze' (like het rood, het blauw) — i.e. 'h'. This is a convention decision across ALL colour keys, not a per-word form fix; deciding it here would silently desynchronize this key from the other colours"
+  },
+  {
+   "key": "play",
+   "field": "singular",
+   "cur": {
+    "s": "Spelen",
+    "p": "Spelen",
+    "g": "d"
+   },
+   "why": "undecidable: no image (noImage), no themes, type null, N7 orphan. 'Spelen' is either the infinitive/gerund (het spelen = playing, the activity) or the plural of 'het spel' (games) — and en ['Play','Plays'] could even mean a stage play (het toneelstuk). Dead data; needs a content decision, not a form fix"
+  },
+  {
+   "key": "play",
+   "field": "plural",
+   "cur": {
+    "s": "Spelen",
+    "p": "Spelen",
+    "g": "d"
+   },
+   "why": "same undecidable lemma as the singular. If activity -> NO_PLURAL; if 'game' -> s='Spel', p='Spellen'; if stage play -> s='Toneelstuk', p='Toneelstukken'"
+  },
+  {
+   "key": "play",
+   "field": "gender",
+   "cur": {
+    "s": "Spelen",
+    "p": "Spelen",
+    "g": "d"
+   },
+   "why": "depends on the lemma, but 'd' is wrong on every reading: het spelen / het spel / het toneelstuk are all het-words. Resolve the lemma first"
+  },
+  {
+   "key": "pretzels",
+   "field": "singular",
+   "cur": {
+    "s": "Pretzels",
+    "p": "Pretzels",
+    "g": "d"
+   },
+   "why": "'Pretzels' is a plural in the singular field. Not pluralia tantum — 'de pretzel' exists and is already the separate key `pretzel`. So correcting the form would duplicate that key. Same class as `peas`: a deliberate supermarket-quantity key needing a content decision, not a form fix"
+  },
+  {
+   "key": "purple",
+   "field": "gender",
+   "cur": {
+    "s": "Paars",
+    "p": "Paars",
+    "g": "d"
+   },
+   "why": "type=adjective: an attributive adjective has no gender, so the field is inert. If the entry is ever nominalised (the colour as a noun) Dutch requires HET paars, not de paars -> the code would have to be 'h', never 'd'. Same question for red/scarlet. Needs a product decision on whether the UI ever prints an article for colours; not a pure form fix"
+  },
+  {
+   "key": "rain-boots",
+   "field": "singular",
+   "cur": {
+    "s": "Regenlaarzen",
+    "p": "Regenlaarzen",
+    "g": "d"
+   },
+   "why": "the s-field holds a PLURAL ('Regenlaarzen'), but this is NOT the known 'plural in singular field' defect that a form fix can repair: NL has a perfectly normal singular 'de regenlaars', while the en gloss is plural in both slots and the picture is presumably a PAIR. So the correction is a content decision, not a form change: either (a) make it s=Regenlaars / p=Regenlaarzen (label then mismatches a pair picture), or (b) keep it as a deliberate pair-label. Not pluralia tantum - regenlaars is a real singular. Needs an operator ruling; same question for 'sandals'"
+  },
+  {
+   "key": "rainy",
+   "field": "gender",
+   "cur": {
+    "s": "Regenachtig",
+    "p": "Regenachtig",
+    "g": "d"
+   },
+   "why": "type=adjective -> gender is inapplicable; 'd' is the script default (genderNl returns 'd' for everything unmatched), not a considered value. No article is ever printed with 'regenachtig', so no child-facing defect, but the field is meaningless"
+  },
+  {
+   "key": "red",
+   "field": "gender",
+   "cur": {
+    "s": "Rood",
+    "p": "Rood",
+    "g": "d"
+   },
+   "why": "same as purple/scarlet: as an adjective the field is inert; if nominalised it is HET rood, never de rood. Needs one product decision covering all colour entries"
+  },
+  {
+   "key": "rudolph",
+   "field": "singular",
+   "cur": {
+    "s": "Rudolph",
+    "p": "Rudolph",
+    "g": "d"
+   },
+   "why": "editorial, not a form defect: the Christmas reindeer is normally rendered 'Rudolf' in Dutch (Rudolf het rendier met de rode neus), while the international spelling 'Rudolph' also circulates in NL. Both are defensible and Dutch TTS reads 'ph' as /f/ either way, so there is no child-facing error - but it is a localisation choice, not something to rewrite blindly"
+  },
+  {
+   "key": "sad",
+   "field": "gender",
+   "cur": {
+    "s": "Verdrietig",
+    "p": "Verdrietig",
+    "g": "d"
+   },
+   "why": "type=adjective -> gender inapplicable; 'd' is the genderNl fall-through default, not a considered value. No article is printed with 'verdrietig', so no child-facing defect"
+  },
+  {
+   "key": "sandals",
+   "field": "singular",
+   "cur": {
+    "s": "Sandalen",
+    "p": "Sandalen",
+    "g": "d"
+   },
+   "why": "same class as rain-boots: the s-field holds a plural, but NL has a normal singular 'de sandaal', while the en gloss is plural in both slots and the picture is presumably a PAIR. Not pluralia tantum, so a form fix is not available - it needs an operator ruling (singular lemma vs. deliberate pair-label). N2 is a consequence of that, not a separate defect"
+  },
+  {
+   "key": "scared",
+   "field": "gender",
+   "cur": {
+    "s": "Bang",
+    "p": "Bang",
+    "g": "d"
+   },
+   "why": "type=adjective -> gender inapplicable; 'd' is the genderNl fall-through default. No article is printed with 'bang', so no child-facing defect"
+  },
+  {
+   "key": "scarlet",
+   "field": "gender",
+   "cur": {
+    "s": "Scharlaken",
+    "p": "Scharlaken",
+    "g": "d"
+   },
+   "why": "same as purple/red: inert as an adjective; if nominalised it is HET scharlaken, never de. One product decision should cover all colour entries"
+  },
+  {
+   "key": "shampoo",
+   "field": "plural",
+   "cur": {
+    "s": "Shampoo",
+    "p": "Shampoo's",
+    "g": "d"
+   },
+   "why": "I believe 'Shampoos' (no apostrophe) is correct and 'Shampoo's' is wrong, but I am not certain enough to order a rewrite, and the brief says do not guess. Reasoning FOR Shampoos: the Leidraad apostrophe rule targets words ending in a long vowel written with ONE letter (auto's, foto's, taxi's, menu's) because a bare -s would shorten it; 'shampoo' ends in the DIGRAPH -oo, and 'shampoos' is already unambiguously /-poːs/ (cf. roos, boos, poos), so no apostrophe is needed - exactly as with the vowel-digraph loans bureaus, niveaus, cadeaus. Reasoning AGAINST: a literal reading of the rule ('ends in the letter o') would license Shampoo's. Please confirm against Van Dale/Woordenlijst; my recommendation is 'Shampoos'"
+  },
+  {
+   "key": "shoes",
+   "field": "singular",
+   "cur": {
+    "s": "Schoenen",
+    "p": "Schoenen",
+    "g": "d"
+   },
+   "why": "cur.s 'Schoenen' is a plural in the singular field. NOT pluralia tantum: 'de schoen' is a normal singular (it is key 'shoe'). So the honest options are (a) keep the plural-only reading because the image shows a pair, or (b) this key duplicates 'shoe'. That is a data-design/image question, not a form correction -> not rewriting blind"
+  },
+  {
+   "key": "sky",
+   "field": "plural",
+   "cur": {
+    "s": "Hemel",
+    "p": "Hemels",
+    "g": "d"
+   },
+   "why": "'Hemels' is not safe: (1) for a picture of THE sky no plural is child-meaningful, so p=s (NO_PLURAL) is likely what this entry should have; (2) 'hemels' is homographic with the adjective hemels ('heavenly') and text-to-speech would read it identically; (3) for the firmament sense the plural I am sure of is 'hemelen'. I cannot confirm whether Van Dale also lists 'hemels' as a plural, so I will not guess between NO_PLURAL and 'Hemelen'"
+  },
+  {
+   "key": "slippers",
+   "field": "singular",
+   "cur": {
+    "s": "Pantoffels",
+    "p": "Pantoffels",
+    "g": "d"
+   },
+   "why": "cur.s 'Pantoffels' is a plural in the singular field. NOT pluralia tantum: 'de pantoffel' is a normal singular, so PLURALIA_TANTUM would be a false claim. Whether this key should be singular 'Pantoffel' or stay plural-only depends on the image (one slipper vs a pair) - an image question, not a form fix"
+  },
+  {
+   "key": "sneakers",
+   "field": "singular",
+   "cur": {
+    "s": "Sneakers",
+    "p": "Sneakers",
+    "g": "d"
+   },
+   "why": "cur.s 'Sneakers' is a plural in the singular field. NOT pluralia tantum: 'de sneaker' is a normal singular and is already key 'sneaker'. Keep-as-pair vs duplicate-of-'sneaker' is a data-design/image question"
+  },
+  {
+   "key": "snow-boots",
+   "field": "singular",
+   "cur": {
+    "s": "Snowboots",
+    "p": "Snowboots",
+    "g": "d"
+   },
+   "why": "cur.s 'Snowboots' is a plural in the singular field. Van Dale does list a singular 'snowboot' (de), so PLURALIA_TANTUM would be a false claim, even though the word is almost always used in the plural. Whether this key keeps the pair reading is an image question"
+  },
+  {
+   "key": "spirit-level",
+   "field": "gender",
+   "cur": {
+    "s": "Waterpas",
+    "p": "Waterpassen",
+    "g": "d"
+   },
+   "why": "genuinely uncertain, so I will not guess. 'Het waterpas' and 'de waterpas' are both in live use for the instrument (compare het kompas), and I cannot confirm which Van Dale gives as primary. Needs a lookup rather than a pattern call"
+  },
+  {
+   "key": "sponge",
+   "field": "plural",
+   "cur": {
+    "s": "Spons",
+    "p": "Sponsen",
+    "g": "d"
+   },
+   "why": "the -ns class is lexically split on voicing and cannot be decided by pattern: kans -> kansen and wens -> wensen (no voicing) but gans -> ganzen, lens -> lenzen, grens -> grenzen (voicing). My native intuition says 'sponzen' rather than the current 'Sponsen', but I cannot confirm which form(s) Van Dale lists, so I will not guess"
+  },
+  {
+   "key": "squash",
+   "field": "singular",
+   "cur": {
+    "s": "Squash",
+    "p": "Pompoenen",
+    "g": "d"
+   },
+   "why": "entry is internally contradictory (N5 is right): cur.s 'Squash' is untranslated English while cur.p 'Pompoenen' is a different lemma. Worse, read aloud in Dutch 'squash' is the RACKET SPORT (het squash) - a child would hear the wrong word for a vegetable picture. Fixing it means picking a lemma (pompoen? courgette? flespompoen?), which depends on what the image actually shows, and English 'squash' does not map 1:1 onto 'pompoen'. Not rewriting blind"
+  },
+  {
+   "key": "squash",
+   "field": "plural",
+   "cur": {
+    "s": "Squash",
+    "p": "Pompoenen",
+    "g": "d"
+   },
+   "why": "'Pompoenen' is well-formed Dutch but does not match its own singular field; its correctness depends on the same lemma decision as cur.s"
+  },
+  {
+   "key": "stamp",
+   "field": "singular",
+   "cur": {
+    "s": "Stempel",
+    "p": "Stempels",
+    "g": "d"
+   },
+   "why": "the two themes point at two different lemmas and only the image can decide: post_office 'stamp' = DE POSTZEGEL (postage stamp), classroom 'stamp' = de/het stempel (rubber stamp). If the image is a postage stamp, 'Stempel' is simply the wrong word and a child would hear it. Lemma question, not a form fix"
+  },
+  {
+   "key": "stamp",
+   "field": "gender",
+   "cur": {
+    "s": "Stempel",
+    "p": "Stempels",
+    "g": "d"
+   },
+   "why": "'stempel' carries a de/het sense split (de stempel = the instrument, het stempel = the imprint/mark), so the gender depends on the same image decision - and on the postzegel reading it would be 'd' anyway. I am not confident enough to pick without a lookup"
+  },
+  {
+   "key": "velociraptor",
+   "field": "plural",
+   "cur": {
+    "s": "Velociraptor",
+    "p": "Velociraptoren",
+    "g": "d"
+   },
+   "why": "'Velociraptoren' is script output and reads unnatural; usage (Dutch dinosaur books, Wikipedia) is consistently 'velociraptors', and the -oren stress-shift plural belongs to Latin agent nouns (professor -> professoren, motor -> motoren), not to this taxonomic loanword. But velociraptor is not a Van Dale lemma, so I cannot confirm the plural against the authority and will not assert a FIX on usage alone. Recommend 'Velociraptors' after a native check."
+  },
+  {
+   "key": "violet",
+   "field": "singular",
+   "cur": {
+    "s": "Violet",
+    "p": "Violetten",
+    "g": "d"
+   },
+   "why": "themes are both [colors] and [flowers] and the two readings need DIFFERENT lemmas. Flower (en plural 'Violets' points this way) = het viooltje, not 'Violet'; colour = het violet. Replacing the lemma is more than a form fix -> needs the picture. NOT rewritten blindly"
+  },
+  {
+   "key": "violet",
+   "field": "plural",
+   "cur": {
+    "s": "Violet",
+    "p": "Violetten",
+    "g": "d"
+   },
+   "why": "'Violetten' is wrong under BOTH readings (script artefact: -t doubling). Flower -> viooltjes; colour -> no plural (NO_PLURAL). Cannot decide without knowing which picture; depends on the held singular"
+  },
+  {
+   "key": "volleyball",
+   "field": "plural",
+   "cur": {
+    "s": "Volleybal",
+    "p": "Volleybal",
+    "g": "d"
+   },
+   "why": "homonym: het volleybal (the sport, no plural) vs de volleybal (the ball, -> de volleyballen). theme [sports] does not disambiguate and the metadata (verb-gerund/countable:false = sport) contradicts what a 'sports' picture most likely shows (a ball). p=s is right ONLY under the sport reading. Needs the picture; not guessing"
+  },
+  {
+   "key": "volleyball",
+   "field": "gender",
+   "cur": {
+    "s": "Volleybal",
+    "p": "Volleybal",
+    "g": "d"
+   },
+   "why": "same homonym: sport = het volleybal ('h'), ball = de volleybal ('d'). Current 'd' is right only for the ball reading, which contradicts the row's own countable:false. Escalating rather than guessing"
+  },
+  {
+   "key": "walnut-tree",
+   "field": "singular",
+   "cur": {
+    "s": "Walnootboom",
+    "p": "Walnootbomen",
+    "g": "d"
+   },
+   "why": "the usual/attested Dutch compound is 'walnotenboom' (linking -en-), also simply 'notenboom'; 'Walnootboom' looks like a mechanical noun+noun join. I am not certain enough of the Van Dale headword to assert a FIX, and I will not invent a citation -> HOLD for a lexicographic check"
+  },
+  {
+   "key": "yak",
+   "field": "plural",
+   "cur": {
+    "s": "Yak",
+    "p": "Yakken",
+    "g": "d"
+   },
+   "why": "genuinely uncertain: the native pattern gives jakken/yakken (short vowel, consonant doubling) but this loan is also commonly pluralised yaks. I cannot confirm the Van Dale headword plural and will not invent a citation -> lexicographic check needed. Note the current 'Yakken' may well be right; it is NOT being asserted as a defect"
+  },
+  {
+   "key": "dice",
+   "field": "singular",
+   "cur": null,
+   "why": "ESCALATED by re-verify: Echte plaatjesvraag, geen vormfout - beide takken zijn verdedigbaar en alleen het plaatje beslist. Van Dale 'de dobbelsteen -> de dobbelstenen' klopt op zichzelf, maar de identieke en-glosse ['Dice','Dice'] draagt hier GEEN informatie: Engels 'dice' is zowel het meervoud van 'die' als een gangbaar enkelvoud. Vergelijk de twee patronen in het bestand: fish/Vis-Vissen en deer/Hert-Herten houden het enkelvoud in s (daar mist het Engels alleen een meervoudsvorm), maar cards/Kaarten en crayons/Kleurpotloden (zelfde thema toys) houden de set-vorm. Toont het plaatje een dobbelsteen -> 'Dobbelsteen' (voorstel juist); toont het er meerdere -> huidige 'Dobbelstenen' juist en zet het voorstel een enkelvoud onder een set. Er is geen zustersleutel 'die'. Vraag om het plaatje; niet blind toepassen. NB ronde 1 hield `jelly-beans` vast om precies deze reden ('whether this key is meant as a set entry ... is a content question -> operator decision') maar herschreef `dice` wel."
+  },
+  {
+   "key": "beach-umbrella",
+   "field": "plural",
+   "cur": null,
+   "why": "ESCALATED by re-verify: Ronde 1 spreekt zichzelf hier aantoonbaar tegen en de bronvermelding houdt geen stand. Ditzelfde lemma staat als aparte sleutel `parasol` (zelfde woord, zelfde thema beach, s='Parasol', p='Parasollen') in held-nl.json VASTGEHOUDEN met de motivering: \"genuinely uncertain ... I cannot cite Van Dale here -> flag for a native check rather than guess\". Toch draagt dit voorstel voor exact dezelfde vorm src='Van Dale'. Een van beide is niet eerlijk; de brief verbiedt verzonnen Van Dale-gronden. Inhoudelijk beslist de regel het niet: eindklemtoon + korte klinker + enkele medeklinker geeft even goed ballon -> ballonnen, kanon -> kanonnen, ananas -> ananassen als salon -> salons, balkon -> balkons. Alleen het woordenboek beslist en ik kan het hier niet citeren, dus ik gok niet. Belangrijker: welke uitspraak de opdrachtgever ook doet, `beach-umbrella` EN `parasol` moeten samen bewegen. Dit voorstel alleen toepassen laat twee sleutels met hetzelfde woord achter met twee verschillende meervouden (Parasols vs Parasollen) - dan spreekt de catalogus zichzelf tegen. Een uitspraak, twee sleutels."
+  },
+  {
+   "key": "dragon-fruit",
+   "field": "plural",
+   "cur": null,
+   "why": "ESCALATED by re-verify: Het NO_PLURAL-oordeel is een artefact van een lemma dat ronde 1 in dezelfde ronde zelf als fout heeft vastgehouden. held-nl.json bij `dragon-fruit` (singular): \"Standard Dutch for this fruit is 'de drakenvrucht'; 'drakenfruit' is a supermarket anglicism whose head 'fruit' is a mass noun, which is exactly why no honest plural can be built from it.\" Precies - de vrucht IS telbaar (twee drakenvruchten); alleen het anglicisme 'drakenfruit' is dat niet. NO_PLURAL nu toepassen bevriest de verkeerde analyse in de data en maakt de latere lemmawissel moeilijker terug te draaien (die wisselt bovendien het geslacht h->d mee). Enkelvoud en meervoud horen in een uitspraak beslist te worden: wordt het 'de drakenvrucht', dan is p='Drakenvruchten' en is NO_PLURAL fout. Terughouden bij de singular-HOLD. ('Drakenfruiten' is hoe dan ook geen Nederlands - daar zit geen twijfel.)"
+  },
+  {
+   "key": "gopher",
+   "field": "plural",
+   "cur": null,
+   "why": "ESCALATED by re-verify: Plaatjesvraag; ronde 1 signaleert hem zelf ('Flag for the image owner') maar past de wijziging toch toe. De rij is nu intern inconsistent (s='Wangzakrat' / p='Grondeekhoorns') en moet zeker veranderen, maar de twee reparaties sluiten elkaar uit en alleen het plaatje beslist: (a) toont het een wangzakrat (Geomyidae) -> p='Wangzakratten' (voorstel juist; eindklemtoon -RAT, dus verdubbeling terecht); (b) toont het een grondeekhoorn (Spermophilus) - in Amerikaans-Engels heet dat losjes ook 'gopher' - dan is juist het ENKELVOUD het verkeerde lemma en wijst de huidige p='Grondeekhoorns' het goede spoor. 'Grondeekhoorns' is geen morfologisch scriptartefact zoals de rest van dit bestand (het is een compleet ander woord), wat erop wijst dat het uit een aparte bron komt en dus niet zomaar weg te gooien is. Zustersleutels zijn bezet: chipmunk='Wangzakeekhoorn', squirrel='Eekhoorn'; 'Grondeekhoorn' is vrij. Vraag het plaatje op voordat een van beide velden wordt aangeraakt."
+  },
+  {
+   "key": "lego",
+   "field": "plural",
+   "cur": null,
+   "why": "ESCALATED by re-verify: Precies de sleutel waarvoor de brief waarschuwt: in de Duitse ronde sneuvelde deze 'correctie' omdat het woordenboek de meervoudsvorm wel kende en de wijziging een bestaande vorm zou hebben gewist. Hier ontbreekt bovendien elke bron: het src-veld van dit voorstel is LEEG. En ronde 1 is intern inconsistent: bij dezelfde sleutel `lego` schrijft zij in held-nl.json (gender) \"I cannot verify against Van Dale, so I will not overwrite\" - maar schrapt in het plural-veld zonder enige bron wel een bestaande vorm. Mijn eigen taalgevoel neigt naar massa/merknaam ('met lego spelen'; kindgericht telt men 'legoblokjes'), maar dat is precies het gokken dat de brief verbiedt, en het is te zwak tegenover een gedocumenteerd geval waarin dit oordeel al eens fout bleek. Onzeker -> niet toepassen; laat de opdrachtgever Van Dale raadplegen, samen met de vastgehouden geslachtsvraag (de/het lego)."
+  },
+  {
+   "key": "map",
+   "field": "plural",
+   "cur": null,
+   "why": "ESCALATED by re-verify: Dubbel met een bestaande zustersleutel - regel 7. `to`='Kaarten' maakt de rij van `map` BYTE-IDENTIEK aan de bestaande sleutel `card` (s='Kaart', p='Kaarten', thema valentine), en `cards` (s=p='Kaarten', thema toys) bestaat ook al. Dat wist het onderscheid tussen een landkaart (thema's camping/classroom/travel_and_holiday) en een wenskaart/speelkaart: op een digibord met TTS hoort het kind bij een kaart van een gebied hetzelfde woord als bij een verjaardagskaart. Dat 'Mappen' fout is klopt volledig (dat is 'de map' = ordner, via de Engelse sleutel binnengehaald), maar de echte fout zit al in het ENKELVOUD s='Kaart'; het voorstel maakt de rij alleen consistent fout. De juiste reparatie is een lemmawissel - 'de landkaart -> de landkaarten' (of 'de plattegrond -> de plattegronden') - en dat is meer dan een vormcorrectie. Terughouden en beide velden samen beslissen."
+  },
+  {
+   "key": "easter",
+   "field": "gender",
+   "cur": null,
+   "why": "ESCALATED by re-verify: Twijfel, en het voorstel doet meer dan een vormcorrectie. Pasen wordt in het Nederlands normaal ZONDER lidwoord gebruikt ('met Pasen', 'Pasen valt vroeg dit jaar'), zodat dit veld praktisch inert is - de vraag is dus niet alleen d-of-h maar of het veld hier uberhaupt van toepassing is. Inhoudelijk: 'de Pasen' acht ik geen Standaardnederlands, dus 'd' is vermoedelijk fout en 'h' vermoedelijk beter. Maar de onzijdigheidstoets waarop het voorstel steunt ('een vrolijk Pasen') is hier niet sluitend: dat is een vaste groetformule die sowieso niet buigt, en de vergelijking wijst twee kanten op (naast 'het kerstfeest' staat 'de kerst', met wel-buigend 'een witte kerst'). Ook het historische meervoudskarakter van Pasen (< paschen) pleit niet zonder meer voor onzijdig. Ik kan de Van Dale-ingang niet aanhalen zonder te gokken; conform de brief (geen citaat verzinnen, onzeker -> escaleren) houd ik dit terug i.p.v. het te bevestigen. Opdrachtgever beslist; als er gekozen moet worden is 'h' de minst slechte waarde."
+  }
+ ],
+ "pluraliaTantum": [
+  {
+   "key": "brain",
+   "why": "de hersenen is a plurale tantum in Dutch (the brief names it as one); there is no child-level singular *hersen. The field correctly holds the plural form. A singular alternative would be 'het brein', a different lemma"
+  },
+  {
+   "key": "cereal",
+   "why": "the pictured breakfast product is only ever 'ontbijtgranen' in Dutch; the field correctly holds that plural. A singular 'het ontbijtgraan' exists for the grain itself but is never used for the product, so no singular should be forced here"
+  },
+  {
+   "key": "chips",
+   "why": "Dutch 'de chips' (crisps) is used as a plural/mass word; there is no child-facing singular (a single crisp is 'een chipje'). The form in s is the correct plural and matches the picture, so leave it."
+  },
+  {
+   "key": "potato-chips",
+   "why": "in the crisps sense Dutch 'chips' has no child-facing singular ('een chip' is a computer chip / a single crisp only in contrived usage); the form in the singular field is the correct one. No change to s"
+  },
+  {
+   "key": "suspenders",
+   "why": "The depicted garment is a pair. Van Dale does list a singular 'de bretel' (one single strap), but the object shown is only ever named in the plural 'de bretels'; a TTS reading 'de bretel' over a picture of a pair would be wrong. Field content is correct as a plural."
+  }
+ ]
+}

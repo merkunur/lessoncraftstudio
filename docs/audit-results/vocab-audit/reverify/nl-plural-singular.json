@@ -1,0 +1,955 @@
+{
+ "locale": "nl",
+ "part": "plural-singular",
+ "reviewed": 158,
+ "rows": [
+  {
+   "key": "blocks",
+   "field": "singular",
+   "verdict": "REJECT",
+   "note": "Het bestand markeert set-ingangen met een IDENTIEKE en-glosse (en[0]==en[1]) en houdt dan de set-vorm in ZOWEL s als p. Ronde 1 heeft die hele klasse (peas/Erwten, grapes/Druiven, cookies/Koekjes, crayons/Kleurpotloden, cards/Kaarten, ice-skates/Schaatsen, crutches/Krukken, curtains/Gordijnen, gloves/Handschoenen, flip-flops/Slippers, green-beans/Sperziebonen, rain-boots/Regenlaarzen; ~40 sleutels) ONGEMOEID gelaten, vijf leden expliciet beschermd onder pluraliaTantum (chips, potato-chips, suspenders, cereal, brain) en jelly-beans vastgehouden als contentvraag voor de opdrachtgever. Toch herschrijft ronde 1 vier willekeurige leden van diezelfde klasse. 'Blocks/Blocks' is een set-ingang: het plaatje toont een set blokken - ronde 1 geeft dat zelf toe ('Image shows a set of toy blocks') en zet er toch een enkelvoud op. Er is geen zustersleutel 'block'. 'Blok' onder een plaatje met meerdere blokken is precies de fout die de eigen bretels-redenering van ronde 1 verbiedt. De huidige waarde 'Blokken' is juist en identiek van vorm aan cards/Kaarten en crayons/Kleurpotloden (zelfde thema toys, beide onaangeroerd). De regel 'the data field must hold a singular' is door ronde 1 zelf verzonnen en wordt door ~40 sleutels in dit bestand weerlegd."
+  },
+  {
+   "key": "boots",
+   "field": "singular",
+   "verdict": "REJECT",
+   "note": "Het bestand markeert set-ingangen met een IDENTIEKE en-glosse (en[0]==en[1]) en houdt dan de set-vorm in ZOWEL s als p. Ronde 1 heeft die hele klasse (peas/Erwten, grapes/Druiven, cookies/Koekjes, crayons/Kleurpotloden, cards/Kaarten, ice-skates/Schaatsen, crutches/Krukken, curtains/Gordijnen, gloves/Handschoenen, flip-flops/Slippers, green-beans/Sperziebonen, rain-boots/Regenlaarzen; ~40 sleutels) ONGEMOEID gelaten, vijf leden expliciet beschermd onder pluraliaTantum (chips, potato-chips, suspenders, cereal, brain) en jelly-beans vastgehouden als contentvraag voor de opdrachtgever. 'de laars' is EEN laars, niet het afgebeelde PAAR - exact de constructie waarvoor ronde 1 bij `suspenders` schreef: \"Van Dale does list a singular 'de bretel' (one single strap), but the object shown is only ever named in the plural; a TTS reading 'de bretel' over a picture of a pair would be wrong.\" Diezelfde redenering verbiedt 'Laars' hier. Bewijs uit hetzelfde bestand: zustersleutel `rain-boots` houdt s=p='Regenlaarzen' en is niet gecorrigeerd. Let op het onderscheid dat het bestand wel maakt: glasses/Bril, jeans/Spijkerbroek en binoculars/Verrekijker staan wel in het enkelvoud, want daar benoemt het Nederlandse enkelvoud het HELE voorwerp; bij laars/bretel benoemt het een helft van het paar. De huidige waarde 'Laarzen' is juist."
+  },
+  {
+   "key": "dice",
+   "field": "singular",
+   "verdict": "ESCALATE",
+   "note": "Echte plaatjesvraag, geen vormfout - beide takken zijn verdedigbaar en alleen het plaatje beslist. Van Dale 'de dobbelsteen -> de dobbelstenen' klopt op zichzelf, maar de identieke en-glosse ['Dice','Dice'] draagt hier GEEN informatie: Engels 'dice' is zowel het meervoud van 'die' als een gangbaar enkelvoud. Vergelijk de twee patronen in het bestand: fish/Vis-Vissen en deer/Hert-Herten houden het enkelvoud in s (daar mist het Engels alleen een meervoudsvorm), maar cards/Kaarten en crayons/Kleurpotloden (zelfde thema toys) houden de set-vorm. Toont het plaatje een dobbelsteen -> 'Dobbelsteen' (voorstel juist); toont het er meerdere -> huidige 'Dobbelstenen' juist en zet het voorstel een enkelvoud onder een set. Er is geen zustersleutel 'die'. Vraag om het plaatje; niet blind toepassen. NB ronde 1 hield `jelly-beans` vast om precies deze reden ('whether this key is meant as a set entry ... is a content question -> operator decision') maar herschreef `dice` wel."
+  },
+  {
+   "key": "vegetables",
+   "field": "singular",
+   "verdict": "REJECT",
+   "note": "Het bestand markeert set-ingangen met een IDENTIEKE en-glosse (en[0]==en[1]) en houdt dan de set-vorm in ZOWEL s als p. Ronde 1 heeft die hele klasse (peas/Erwten, grapes/Druiven, cookies/Koekjes, crayons/Kleurpotloden, cards/Kaarten, ice-skates/Schaatsen, crutches/Krukken, curtains/Gordijnen, gloves/Handschoenen, flip-flops/Slippers, green-beans/Sperziebonen, rain-boots/Regenlaarzen; ~40 sleutels) ONGEMOEID gelaten, vijf leden expliciet beschermd onder pluraliaTantum (chips, potato-chips, suspenders, cereal, brain) en jelly-beans vastgehouden als contentvraag voor de opdrachtgever. 'Vegetables/Vegetables' is een set-ingang (thema farm). De directe familie is niet aangeroerd: grapes s=p='Druiven', peas s=p='Erwten', green-beans s=p='Sperziebonen'. Het voorstel 'Groente/Groenten' volgt bovendien geen enkele conventie in het bestand: massa-ingangen staan met s==p in de MASSA-vorm (corn s=p='Mais', grass s=p='Gras', ice s=p='IJs', food s=p='Eten') - als groente hier als stofnaam gelezen moest worden, was s=p='Groente' de vorm geweest, niet de hybride Groente/Groenten. Dat 'de groente' als stofnaam bestaat is waar, maar het weerlegt de huidige waarde niet: 'Groenten' is een correct Van Dale-meervoud (de groente -> de groenten) en past bij het plaatje. De huidige waarde is juist of beter."
+  },
+  {
+   "key": "actor",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de acteur -> de acteurs; Frans leenwoord op -eur neemt -s. 'Acteuren' is de blinde -en-regel van het script."
+  },
+  {
+   "key": "alligator",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de alligator -> de alligators. Het -or/-oren-meervoud hoort bij Latijnse agens-woorden (motor, professor, tractor); een diernaam met beginklemtoon neemt -s."
+  },
+  {
+   "key": "ambulance",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de ambulance -> de ambulances; Frans leenwoord op toonloze -e neemt -s. 'Ambulancen' is geen Nederlands."
+  },
+  {
+   "key": "angel",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de engel -> de engelen (onregelmatige -en op een stam op -el). 'Engels' is helemaal geen meervoud: het leest als de taal/het bijvoeglijk naamwoord 'Engels' en zou door een TTS-stem zo worden voorgelezen - op een 11-talige site een echte verwarring."
+  },
+  {
+   "key": "armchair",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de fauteuil -> de fauteuils; Frans leenwoord neemt -s."
+  },
+  {
+   "key": "artist",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de kunstenaar -> de kunstenaars is het standaard woordenboekmeervoud van dit -aar-woord; 'Kunstenaren' is hooguit marginaal en ongeschikt voor K-3-TTS."
+  },
+  {
+   "key": "asparagus",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de asperge -> de asperges; stam op toonloze -e neemt -s. Ronde 1 weerlegt de countable:false-vlag terecht: asperge is telbaar (twee asperges)."
+  },
+  {
+   "key": "author",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de auteur -> de auteurs; Frans leenwoord op -eur neemt -s."
+  },
+  {
+   "key": "baby-overall",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de overall -> de overalls; Engels leenwoord neemt -s."
+  },
+  {
+   "key": "badge",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de badge -> de badges; Engels leenwoord neemt -s. 'Badgen' zou als werkwoord gelezen worden."
+  },
+  {
+   "key": "barbecue",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de barbecue -> de barbecues; Engels leenwoord neemt -s. 'Barbecuen' leest als werkwoord."
+  },
+  {
+   "key": "beach-umbrella",
+   "field": "plural",
+   "verdict": "ESCALATE",
+   "note": "Ronde 1 spreekt zichzelf hier aantoonbaar tegen en de bronvermelding houdt geen stand. Ditzelfde lemma staat als aparte sleutel `parasol` (zelfde woord, zelfde thema beach, s='Parasol', p='Parasollen') in held-nl.json VASTGEHOUDEN met de motivering: \"genuinely uncertain ... I cannot cite Van Dale here -> flag for a native check rather than guess\". Toch draagt dit voorstel voor exact dezelfde vorm src='Van Dale'. Een van beide is niet eerlijk; de brief verbiedt verzonnen Van Dale-gronden. Inhoudelijk beslist de regel het niet: eindklemtoon + korte klinker + enkele medeklinker geeft even goed ballon -> ballonnen, kanon -> kanonnen, ananas -> ananassen als salon -> salons, balkon -> balkons. Alleen het woordenboek beslist en ik kan het hier niet citeren, dus ik gok niet. Belangrijker: welke uitspraak de opdrachtgever ook doet, `beach-umbrella` EN `parasol` moeten samen bewegen. Dit voorstel alleen toepassen laat twee sleutels met hetzelfde woord achter met twee verschillende meervouden (Parasols vs Parasollen) - dan spreekt de catalogus zichzelf tegen. Een uitspraak, twee sleutels."
+  },
+  {
+   "key": "bee",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de bij -> de bijen. 'Bijjen' is een onmogelijke Nederlandse spelling: <ij> is een digraaf en wordt nooit verdubbeld. De brief noemt deze vorm zelf als door de machine verzonnen."
+  },
+  {
+   "key": "bison",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de bizon -> de bizons; beginklemtoon (BI-zon), dus de verdubbeling in 'Bizonnen' is onterecht."
+  },
+  {
+   "key": "blouse",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de blouse -> de blouses; Frans leenwoord op -e neemt -s."
+  },
+  {
+   "key": "blue-jay",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale / Woordenlijst: de gaai -> de gaaien. De apostrof-s geldt alleen na een enkele klinkerletter (a/i/o/u/y); -aai is dat niet. Het bijvoeglijk naamwoord 'blauwe' eindigt al op -e en verandert niet."
+  },
+  {
+   "key": "broccoli",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: broccoli is een massa-/groentewoord zonder kindgericht meervoud; \"Broccoli's\" is scriptuitvoer. p wordt gelijk aan s. De metadata (countable:false) wijst dezelfde kant op."
+  },
+  {
+   "key": "brownie",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de brownie -> de brownies; Engels leenwoord neemt -s."
+  },
+  {
+   "key": "butter",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de boter is een stofnaam als water/melk uit de brief; geen kindgericht meervoud. 'Boters' is scriptuitvoer. Metadata countable:false bevestigt."
+  },
+  {
+   "key": "cabana",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de cabine -> de cabines, dus de strandcabine -> de strandcabines; toonloze -e neemt -s, niet -n."
+  },
+  {
+   "key": "calculator",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de rekenmachine -> de rekenmachines; woord op toonloze -e neemt -s."
+  },
+  {
+   "key": "calf",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: het kalf -> de kalveren (onregelmatig -eren); 'Kalven' komt van een -lf/-lven-regel die hier niet geldt. Dit is het voorbeeld uit de brief zelf en het houdt stand."
+  },
+  {
+   "key": "canary",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de kanarie -> de kanaries; woord op onbeklemtoonde -ie neemt -s."
+  },
+  {
+   "key": "cape",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de cape -> de capes; leenwoord op -e neemt -s."
+  },
+  {
+   "key": "cashier",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: 'Kassieren' is onder elke lezing fout: woorden op -ier nemen -s (bankier -> bankiers, kassier -> kassiers). WEL AFHANKELIJK: ronde 1 houdt het ENKELVOUD van deze sleutel vast in held-nl.json ('de caissière / de kassamedewerker' voor de afgebeelde supermarktkassa; 'kassier' is vooral bankbediende en het gangbare Belgische woord). Wordt dat lemma gewisseld, dan moet het meervoud meebewegen (caissières / kassamedewerkers). Als tussenstap is 'Kassiers' strikt beter dan 'Kassieren'; samen beslissen met de HOLD."
+  },
+  {
+   "key": "cast",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: het gips is een stofnaam (het materiaal / het gips om een arm); je zegt niet 'twee gipsen' maar 'twee gipsverbanden' of 'twee armen in het gips'. Het telbare alternatief 'het gipsverband' is een ander lemma. De metadata countable:true is hier de bekend-feilbare hint, net als bij bread."
+  },
+  {
+   "key": "celery",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de selderij is een massa-/groentewoord zonder kindgericht meervoud; 'Selderijjen' is bovendien een onmogelijke spelling (<ij> wordt nooit verdubbeld). Metadata countable:false bevestigt."
+  },
+  {
+   "key": "chimpanzee",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de chimpansee -> de chimpansees. 'Chimpanseen' bestaat niet; het woord volgt de Franse -ee-groep (tournee -> tournees), niet de groep die -een krijgt (zee -> zeeen)."
+  },
+  {
+   "key": "chips",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: 'Chipsen' bestaat niet - het script plakte -en achter een vorm die al meervoud is. Het meervoud is 'chips'; per bestandsconventie wordt p gelijk aan s. Sluit aan bij het eigen pluraliaTantum-oordeel van ronde 1 voor deze sleutel ('de chips ... there is no child-facing singular'; een enkele chip is een chipje). NB `chips` en `potato-chips` worden hierdoor byte-identiek, maar dat is geen door dit voorstel veroorzaakt dubbel: beide sleutels stonden al op hetzelfde enkelvoud 'Chips' en het Nederlands maakt tussen 'chips' en 'potato chips' nu eenmaal geen onderscheid (zoals ook rhino/rhinoceros en gift/present samenvallen)."
+  },
+  {
+   "key": "clementine",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de clementine -> de clementines; Franse vruchtnaam op -ine neemt -s (vgl. aubergine, nectarine)."
+  },
+  {
+   "key": "coach",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de coach -> de coaches; Engels leenwoord op -ch neemt -es. 'Coachen' botst bovendien met het werkwoord coachen."
+  },
+  {
+   "key": "cocktail",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de cocktail -> de cocktails; Engels leenwoord neemt -s. 'Cocktailen' leest als werkwoord."
+  },
+  {
+   "key": "columbine",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale / Woordenlijst: de akelei -> de akeleien; -ei is een digraaf en neemt -en (vgl. vallei -> valleien)."
+  },
+  {
+   "key": "cook",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de kok -> de koks. 'Kokken' is de verdubbelingsregel die misvuurt. Ronde 1 merkt terecht op dat het bestand zichzelf tegensprak: sleutel `chef` draagt al het correcte 'Chef-koks'."
+  },
+  {
+   "key": "cooler",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de box -> de boxen, dus de koelbox -> de koelboxen. Nederlands verdubbelt de x nooit; 'Koelboxxen' is onmogelijke spelling."
+  },
+  {
+   "key": "croissant",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de croissant -> de croissants; Frans leenwoord op -ant neemt -s (vgl. restaurant -> restaurants)."
+  },
+  {
+   "key": "crossing-guard",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de regelaar -> de regelaars, dus de verkeersregelaar -> de verkeersregelaars. Deverbale agens-woorden op -aar nemen -s (winnaar -> winnaars, luisteraar -> luisteraars); het -aren-meervoud geldt alleen voor een paar gelexicaliseerde uitzonderingen (leraren, ambtenaren)."
+  },
+  {
+   "key": "crow",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale / Woordenlijst: de kraai -> de kraaien; -aai neemt -en (vgl. haai -> haaien)."
+  },
+  {
+   "key": "cruise-ship",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: het schip -> de schepen (onregelmatige klinkerwisseling), dus het cruiseschip -> de cruiseschepen. 'Cruiseschippen' is geen Nederlands woord."
+  },
+  {
+   "key": "cupcake",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de cupcake -> de cupcakes; Engels leenwoord neemt -s."
+  },
+  {
+   "key": "desk",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale / Woordenlijst: het bureau -> de bureaus; -eau is een digraafspelling, geen enkele klinkerletter, dus geen apostrof (Woordenlijst: bureaus)."
+  },
+  {
+   "key": "detective",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de detective -> de detectives; Engels leenwoord neemt -s."
+  },
+  {
+   "key": "dragon-fruit",
+   "field": "plural",
+   "verdict": "ESCALATE",
+   "note": "Het NO_PLURAL-oordeel is een artefact van een lemma dat ronde 1 in dezelfde ronde zelf als fout heeft vastgehouden. held-nl.json bij `dragon-fruit` (singular): \"Standard Dutch for this fruit is 'de drakenvrucht'; 'drakenfruit' is a supermarket anglicism whose head 'fruit' is a mass noun, which is exactly why no honest plural can be built from it.\" Precies - de vrucht IS telbaar (twee drakenvruchten); alleen het anglicisme 'drakenfruit' is dat niet. NO_PLURAL nu toepassen bevriest de verkeerde analyse in de data en maakt de latere lemmawissel moeilijker terug te draaien (die wisselt bovendien het geslacht h->d mee). Enkelvoud en meervoud horen in een uitspraak beslist te worden: wordt het 'de drakenvrucht', dan is p='Drakenvruchten' en is NO_PLURAL fout. Terughouden bij de singular-HOLD. ('Drakenfruiten' is hoe dan ook geen Nederlands - daar zit geen twijfel.)"
+  },
+  {
+   "key": "dragonfly",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de libel -> de libellen; de klemtoon ligt op de slotlettergreep (li-BEL), dus verdubbeling is hier juist. 'Libels' is de -s-default van het script."
+  },
+  {
+   "key": "eclair",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de eclair -> de eclairs; Frans leenwoord neemt -s."
+  },
+  {
+   "key": "eggplant",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de aubergine -> de aubergines; toonloze -e neemt -s."
+  },
+  {
+   "key": "electric-drill",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de machine -> de machines, dus de boormachine -> de boormachines."
+  },
+  {
+   "key": "elf",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de elf -> de elfen is de woordenboekvorm; 'elven' is fantasy-/Tolkien-register en niet het standaardmeervoud, en voor een kerstplaatje is 'elfen' (kerstelfen) de kindgerichte vorm. WEL EEN KANTTEKENING BIJ DE MOTIVERING: de redenering van ronde 1 ('this is the very -lf -> -lven script rule the brief names for Kalven: it fired here too') is fout. De f/v-wisseling bij -lf is een ECHTE Nederlandse regel (wolf -> wolven, golf -> golven), geen script-artefact; 'elven' is dus een bestaande variant en geen verzonnen vorm. De uitkomst 'Elfen' klopt, het argument niet - bij een volgende ronde niet als bewijs hergebruiken."
+  },
+  {
+   "key": "espresso-machine",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de machine -> de machines, dus de espressomachine -> de espressomachines."
+  },
+  {
+   "key": "excavator",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de machine -> de machines, dus de graafmachine -> de graafmachines."
+  },
+  {
+   "key": "forklift",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de (vork)heftruck -> de vorkheftrucks; het Engelse 'truck' neemt -s."
+  },
+  {
+   "key": "french-fries",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: in Standaardnederlands (Nederland) is 'patat' (het gerecht) een stofnaam: 'een bakje patat', geen meervoud; je telt hooguit 'patatjes' of 'zakjes patat'. 'Patatten' bestaat alleen in zuidelijk/Vlaams gebruik en betekent daar aardappelen - een ANDER referent dan de afgebeelde friet. Dubbel juist dus: geen meervoud en geen verkeerd referent."
+  },
+  {
+   "key": "frisbee",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de frisbee -> de frisbees; Engels leenwoord neemt -s."
+  },
+  {
+   "key": "garlic",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: knoflook is een stofnaam; geen kindgericht meervoud. 'Knofloken' is daarnaast een misvormd klinkerverkortingsartefact van het script. Metadata countable:false bevestigt."
+  },
+  {
+   "key": "gerbil",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de gerbil -> de gerbils; Engels leenwoord met beginklemtoon (GER-bil) neemt -s en verdubbelt niet."
+  },
+  {
+   "key": "gift",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale / Woordenlijst: het cadeau -> de cadeaus; -eau neemt een kale -s (vgl. bureaus, niveaus). NB `gift` en `present` staan al op hetzelfde lemma (beide s='Cadeau') en worden identiek gecorrigeerd - geen nieuwe tegenspraak."
+  },
+  {
+   "key": "gingerbread",
+   "field": "plural",
+   "verdict": "REJECT",
+   "note": "Hier wordt een correct meervoud 'gerepareerd' - precies de klasse die de brief noemt naast 'de broden'. Van Dale: de peperkoek -> de peperkoeken; een peperkoek is een telbare koek (twee peperkoeken), geen stofnaam. De vergelijking is niet mijn constructie maar staat in het bestand zelf: `bread` heeft EXACT dezelfde signatuur - countable:false, en-glosse ['Bread','Bread'], p='Broden' - en is door deze ronde ONAANGEROERD gelaten, terwijl de brief 'de broden' uitdrukkelijk als juist aanmerkt. Twee identieke gevallen, tegengestelde behandeling. Het argument van ronde 1 ('would only read as sorts/loaves') geldt woord voor woord ook voor broden, en dat is nu juist de vorm die moet blijven. De metadata countable:false bewijst niets: `bread` draagt hem ook. De huidige waarde 'Peperkoeken' is juist. (Of 'peperkoek' het beste lemma is bij een kerstplaatje - eerder 'peperkoekmannetje' - is een aparte lemmavraag en geen reden om het meervoud te schrappen.)"
+  },
+  {
+   "key": "glue",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: lijm is een stofnaam als water/melk. Ronde 1 is hier zuiver: 'lijmen' is wel degelijk attesteerbaar, maar alleen in de soorten-lezing; voor een klasplaatje van een lijmflesje bestaat geen kindgericht meervoud (je telt 'lijmstiften' of 'flesjes lijm'). Anders dan brood -> broden is er geen natuurlijke teleenheid."
+  },
+  {
+   "key": "gopher",
+   "field": "plural",
+   "verdict": "ESCALATE",
+   "note": "Plaatjesvraag; ronde 1 signaleert hem zelf ('Flag for the image owner') maar past de wijziging toch toe. De rij is nu intern inconsistent (s='Wangzakrat' / p='Grondeekhoorns') en moet zeker veranderen, maar de twee reparaties sluiten elkaar uit en alleen het plaatje beslist: (a) toont het een wangzakrat (Geomyidae) -> p='Wangzakratten' (voorstel juist; eindklemtoon -RAT, dus verdubbeling terecht); (b) toont het een grondeekhoorn (Spermophilus) - in Amerikaans-Engels heet dat losjes ook 'gopher' - dan is juist het ENKELVOUD het verkeerde lemma en wijst de huidige p='Grondeekhoorns' het goede spoor. 'Grondeekhoorns' is geen morfologisch scriptartefact zoals de rest van dit bestand (het is een compleet ander woord), wat erop wijst dat het uit een aparte bron komt en dus niet zomaar weg te gooien is. Zustersleutels zijn bezet: chipmunk='Wangzakeekhoorn', squirrel='Eekhoorn'; 'Grondeekhoorn' is vrij. Vraag het plaatje op voordat een van beide velden wordt aangeraakt."
+  },
+  {
+   "key": "grapefruit",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de grapefruit -> de grapefruits; Engels leenwoord neemt -s. RE-LITIGATED, dus expliciet: ik geef ronde 1 gelijk. Er is bovendien geen bewijs dat een eerdere moedertaalspreker DEZE vorm ooit heeft beoordeeld - de aantekening bij dit reLitigated-item luidt 'held twijfel - stayed de', wat een GESLACHTSbesluit beschrijft (en het geslacht van grapefruit is en blijft 'de'), terwijl de rij field='plural' draagt; de andere zes reLitigated-items zijn stuk voor stuk geslachtskwesties, dus de aantekening lijkt verkeerd gekoppeld. Inhoudelijk draagt 'Grapefruiten' exact dezelfde mechanische -en-vingerafdruk als Jaguaren, Cocktailen en Jumpsuiten in deze batch."
+  },
+  {
+   "key": "grill",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de grill (het apparaat) -> de grills; Engels leenwoord neemt -s. 'Grillen' is dubbel fout: het is het meervoud van het onverwante 'de gril' (nuk) en gelijk aan het werkwoord grillen - op een voorleessite een echt risico."
+  },
+  {
+   "key": "hawk",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de havik -> de haviken, met een enkele k: woorden op onbeklemtoonde -ik verdubbelen niet (monnik -> monniken, perzik -> perziken, leeuwerik -> leeuweriken). De brief noemt 'Havikken' zelf als verzonnen vorm."
+  },
+  {
+   "key": "hoodie",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de hoodie -> de hoodies; Engels leenwoord op -ie neemt -s."
+  },
+  {
+   "key": "hot-cocoa",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: chocolademelk is een stofnaam precies als melk (het voorbeeld uit de brief); 'chocolademelken' bestaat niet. p wordt s."
+  },
+  {
+   "key": "hummingbird",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de kolibrie -> de kolibries; de klemtoon is ko-LI-brie, dus de slot-ie is onbeklemtoond en neemt -s. Het -ieen-meervoud hoort bij beklemtoonde -ie (knie -> knieen, industrie -> industrieen)."
+  },
+  {
+   "key": "jaguar",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de jaguar -> de jaguars; leenwoord neemt -s."
+  },
+  {
+   "key": "jam",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: jam is een stofnaam als water/melk/zout uit de brief; 'Jammen' is een verdubbelingsartefact. Een telmeervoud bestaat alleen voor soorten ('jams'), wat niet kindgericht is en niet past bij een supermarkt-/ontbijtplaatje. Ronde 1 maakt zelf het juiste onderscheid met bread -> broden: brood heeft een telbare eenheid (een brood), jam niet."
+  },
+  {
+   "key": "janitor",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de conciërge -> de conciërges; woord op toonloze -e neemt -s."
+  },
+  {
+   "key": "jeep",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de jeep -> de jeeps. 'Jepen' past Nederlandse klinkerverkorting toe op een Engels leenwoord en levert een niet-woord op."
+  },
+  {
+   "key": "jelly-beans",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: 'Jellybeansen' is onmogelijk: het verbuigt een al meervoudig Engels leenwoord een tweede keer. Het meervoud is jellybeans. WEL AFHANKELIJK: ronde 1 houdt het ENKELVOUD van deze sleutel vast als contentvraag (set-ingang; het paasplaatje toont een hoop), dus s blijft voorlopig gelijk aan p. Als tussenstap correct en strikt beter dan de huidige vorm."
+  },
+  {
+   "key": "jumpsuit",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de jumpsuit -> de jumpsuits; Engels leenwoord neemt -s."
+  },
+  {
+   "key": "kayak",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de kajak -> de kajaks; beginklemtoon (KA-jak), dus geen verdubbeling. 'Kajakken' is bovendien de infinitief van het werkwoord kajakken - een voorleesstem maakt er een handeling van."
+  },
+  {
+   "key": "kettlebell",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de kettlebell -> de kettlebells; Engels leenwoord met beginklemtoon neemt -s. 'Kettlebellen' leest bovendien als het werkwoord 'bellen'."
+  },
+  {
+   "key": "lawn-mower",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de grasmaaier -> de grasmaaiers; instrument-/agens-woorden op onbeklemtoonde -er nemen -s."
+  },
+  {
+   "key": "leek",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale / Woordenlijst: de prei -> de preien. \"Prei's\" is orthografisch onmogelijk: de apostrof komt nooit na de digraaf -ei."
+  },
+  {
+   "key": "leggings",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de legging -> de leggings; dit kledingleenwoord houdt het Engelse -s-meervoud. Terechte woord-voor-woord-afweging van ronde 1: niet elk -ing-leenwoord doet dat (training -> trainingen), dus een blinde regel zou hier fout zijn geweest."
+  },
+  {
+   "key": "lego",
+   "field": "plural",
+   "verdict": "ESCALATE",
+   "note": "Precies de sleutel waarvoor de brief waarschuwt: in de Duitse ronde sneuvelde deze 'correctie' omdat het woordenboek de meervoudsvorm wel kende en de wijziging een bestaande vorm zou hebben gewist. Hier ontbreekt bovendien elke bron: het src-veld van dit voorstel is LEEG. En ronde 1 is intern inconsistent: bij dezelfde sleutel `lego` schrijft zij in held-nl.json (gender) \"I cannot verify against Van Dale, so I will not overwrite\" - maar schrapt in het plural-veld zonder enige bron wel een bestaande vorm. Mijn eigen taalgevoel neigt naar massa/merknaam ('met lego spelen'; kindgericht telt men 'legoblokjes'), maar dat is precies het gokken dat de brief verbiedt, en het is te zwak tegenover een gedocumenteerd geval waarin dit oordeel al eens fout bleek. Onzeker -> niet toepassen; laat de opdrachtgever Van Dale raadplegen, samen met de vastgehouden geslachtsvraag (de/het lego)."
+  },
+  {
+   "key": "lemonade",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de limonade -> de limonades; toonloze -e neemt -s (vgl. salade -> salades). Ronde 1 kalibreert hier terecht: anders dan jam heeft limonade een natuurlijk telbaar kindgebruik ('twee limonades'), dus NO_PLURAL zou hier fout zijn geweest."
+  },
+  {
+   "key": "lemur",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de lemur -> de lemuren; verdubbeling vereist eindklemtoon en die ligt op LE-mur. 'Lemuren' is het ingeburgerde zoologische meervoud (Latijn lemures)."
+  },
+  {
+   "key": "life-preserver",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale / Woordenlijst: de boei -> de boeien, dus de reddingsboei -> de reddingsboeien; de apostrof komt nooit na -oei."
+  },
+  {
+   "key": "light-switch",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de schakelaar -> de schakelaars, dus de lichtschakelaar -> de lichtschakelaars. Niet-persoonswoorden op -aar nemen -s; het -aren-meervoud hoort bij persoonswoorden (leraar -> leraren), niet bij instrumenten."
+  },
+  {
+   "key": "lightning",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de bliksem is een massa-/verschijnselwoord zonder kindgericht meervoud. 'Bliksems' leest daarnaast als het tussenwerpsel/versterkend 'bliksems', wat een TTS-stem als uitroep zou brengen. Metadata countable:false bevestigt."
+  },
+  {
+   "key": "lily",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de lelie -> de lelies; de klemtoon is LE-lie, dus de onbeklemtoonde -ie neemt -s. 'Lelien' bestaat sowieso niet - ook het beklemtoonde patroon zou -ieen geven, nooit -ien."
+  },
+  {
+   "key": "macaron",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de macaron -> de macarons; Frans leenwoord. De verdubbelingsregel geldt hier niet."
+  },
+  {
+   "key": "magnifying-glass",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: het glas -> de glazen (klinkerverlenging + s/z-wisseling), dus het vergrootglas -> de vergrootglazen. 'Vergrootglassen' is een verdubbelingsartefact."
+  },
+  {
+   "key": "manatee",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de koe -> de koeien (onregelmatig), dus de zeekoe -> de zeekoeien. 'Zeekoen' is een gegenereerde vorm die niet bestaat; de brief noemt hem zelf als verzonnen."
+  },
+  {
+   "key": "map",
+   "field": "plural",
+   "verdict": "ESCALATE",
+   "note": "Dubbel met een bestaande zustersleutel - regel 7. `to`='Kaarten' maakt de rij van `map` BYTE-IDENTIEK aan de bestaande sleutel `card` (s='Kaart', p='Kaarten', thema valentine), en `cards` (s=p='Kaarten', thema toys) bestaat ook al. Dat wist het onderscheid tussen een landkaart (thema's camping/classroom/travel_and_holiday) en een wenskaart/speelkaart: op een digibord met TTS hoort het kind bij een kaart van een gebied hetzelfde woord als bij een verjaardagskaart. Dat 'Mappen' fout is klopt volledig (dat is 'de map' = ordner, via de Engelse sleutel binnengehaald), maar de echte fout zit al in het ENKELVOUD s='Kaart'; het voorstel maakt de rij alleen consistent fout. De juiste reparatie is een lemmawissel - 'de landkaart -> de landkaarten' (of 'de plattegrond -> de plattegronden') - en dat is meer dan een vormcorrectie. Terughouden en beide velden samen beslissen."
+  },
+  {
+   "key": "mechanic",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de monteur -> de monteurs. Het -euren-meervoud is beperkt tot een kleine gesloten groep (directeuren, redacteuren) en strekt zich niet uit tot monteur; vgl. chauffeurs, masseurs, acteurs."
+  },
+  {
+   "key": "medal",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de medaille -> de medailles; Frans leenwoord op een toonloze slotlettergreep neemt -s."
+  },
+  {
+   "key": "medical-chart",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: twee fouten in een: het dossier -> de dossiers (niet -en), en het attributieve bijvoeglijk naamwoord moet in het meervoud verbuigen. Het script verboog alleen het laatste woord; 'Medische dossiers' herstelt beide."
+  },
+  {
+   "key": "microphone",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de microfoon -> de microfoons, net als telefoon -> telefoons, saxofoon -> saxofoons, xylofoon -> xylofoons. 'Microfonen' is geen Nederlandse vorm."
+  },
+  {
+   "key": "microwave",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de/het magnetron -> de magnetrons; 'Magnetronnen' is een verdubbelingsartefact en wordt voor het apparaat niet gebruikt."
+  },
+  {
+   "key": "milkshake",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de milkshake -> de milkshakes; Engels leenwoord neemt -s. 'Milkshaken' leest als werkwoord."
+  },
+  {
+   "key": "monster-truck",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de monstertruck -> de monstertrucks; Engels leenwoord neemt -s."
+  },
+  {
+   "key": "morning-glory",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de winde -> de winden; 'Dagbloemen' is een heel andere plant (dagbloem = Commelina) en geen meervoud van winde. De vorm is dus juist. SIGNAAL voor de plaatjeseigenaar, geen reden tot afkeuren: 'Winden' is homoniem met het meervoud van 'de wind' en met het werkwoord 'winden', en klinkt kinderen bovendien als 'winden laten' in de oren - op een digibord met TTS niet ideaal. Wie dat wil vermijden heeft een lemmawissel nodig (bv. trechterwinde/prachtwinde voor Ipomoea); dat is een aparte beslissing."
+  },
+  {
+   "key": "nectarine",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de nectarine -> de nectarines; leenwoord op toonloze -e neemt -s."
+  },
+  {
+   "key": "oatmeal",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: havermout is een stofnaam zonder kindrelevant meervoud; 'Havermouten' is een gegenereerde vorm. Metadata countable:false bevestigt."
+  },
+  {
+   "key": "oil",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: thema at_the_supermarket -> dit is slaolie/bakolie, een stofnaam. 'Olien' is dubbel fout: gegenereerde vorm, en zelfs het echte soorten-meervoud zou 'olien' met trema zijn. Metadata countable:false bevestigt."
+  },
+  {
+   "key": "onion",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale / Woordenlijst: de ui -> de uien; 'ui' is een digraaf, geen enkele klinkerletter."
+  },
+  {
+   "key": "orangutan",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de orang-oetan -> de orang-oetans; Maleis leenwoord neemt -s. 'Orang-oetannen' is een verdubbelingsartefact."
+  },
+  {
+   "key": "orchid",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de orchidee -> de orchideeën; de stam op -ee + -en vereist een trema (vgl. zee -> zeeën). 'Orchideen' is geen legale Nederlandse spelling."
+  },
+  {
+   "key": "ottoman",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de poef (Frans 'pouf') -> de poefs. 'Poeven' trekt de inheemse f/v-wisseling (brief -> brieven) blind over een leenwoord heen."
+  },
+  {
+   "key": "padlock",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: het slot -> de sloten (verlenging in open lettergreep), dus het hangslot -> de hangsloten. 'Hangslotten' is de blinde verdubbelingsregel; slot verdubbelt niet (anders dan pot -> potten)."
+  },
+  {
+   "key": "parrot",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale / Woordenlijst: de papegaai -> de papegaaien; -aai neemt -en. \"Papegaai's\" is onder geen enkele regel Nederlands."
+  },
+  {
+   "key": "pasta",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de pasta is een stofnaam (thema at_the_supermarket); \"Pasta's\" bestaat alleen als 'soorten pasta' en is niet de kindgerichte lezing. Metadata countable:false bevestigt."
+  },
+  {
+   "key": "peach",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de perzik -> de perziken. De klemtoon is PER-zik: de slotlettergreep is ONBEKLEMTOOND, dus geen verdubbeling (vgl. monnik -> monniken, havik -> haviken)."
+  },
+  {
+   "key": "pickup-truck",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de pick-up -> de pick-ups; Engels leenwoord neemt -s."
+  },
+  {
+   "key": "picnic",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de picknick -> de picknicks; Engels leenwoord neemt -s. 'Picknicken' is geen meervoud maar de INFINITIEF - voorgelezen hoort het kind een werkwoord waar een zelfstandig naamwoord staat."
+  },
+  {
+   "key": "porridge",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de pap is een stofnaam (thema breakfast). 'Pappen' is helemaal geen meervoud maar het werkwoord 'pappen' (verdubbelingsregel) - een kind hoort een handeling. Metadata countable:false bevestigt."
+  },
+  {
+   "key": "potato-chips",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: 'Chipsen' is het script dat -en achter een al meervoudig leenwoord plakt. Het meervoud is 'chips', ongewijzigd (p == s), conform het eigen pluraliaTantum-oordeel van ronde 1 voor deze sleutel."
+  },
+  {
+   "key": "present",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale / Woordenlijst: het cadeau -> de cadeaus; -eau neemt een kale -s (vgl. bureaus, niveaus)."
+  },
+  {
+   "key": "purse",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de portemonnee -> de portemonnees; woord op -ee neemt -s. 'Portemonneen' is hetzelfde script-artefact als Saladen/Naaimachinen/Punaisen. NB `purse` en `wallet` staan al voor deze correctie op hetzelfde lemma (beide s='Portemonnee'); dat is een bestaande lemmavraag (purse = eerder handtas), niet iets wat dit voorstel veroorzaakt - beide sleutels worden identiek gecorrigeerd, dus er ontstaat geen nieuwe tegenspraak."
+  },
+  {
+   "key": "push-pin",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de punaise -> de punaises; woord op toonloze -e neemt -s."
+  },
+  {
+   "key": "rain",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: stofnaam/verschijnsel precies als water/melk/zout uit de brief. Ronde 1 is hier zuiver en eerlijk: Van Dale kent 'regens' wel, maar alleen voor meteorologische/literaire tellingen van regenbuien; bij thema's nature/spring en een regenplaatje voor een 3-7-jarige bestaat geen kindgericht meervoud (dat zou 'regenbuien' zijn). De metadata countable:true is de bekend-feilbare hint."
+  },
+  {
+   "key": "rhino",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de neushoorn -> de neushoorns. 'hoorn' vormt geen -en-meervoud (Van Dale: hoorns/horens); 'hoornen' is juist het BIJVOEGLIJK naamwoord (een hoornen bril), geen meervoud. `rhino` en `rhinoceros` zijn synoniemen op een Nederlands lemma en worden identiek gecorrigeerd - geen nieuwe tegenspraak."
+  },
+  {
+   "key": "rhinoceros",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: identiek defect aan sleutel `rhino`: de neushoorn -> de neushoorns, niet 'Neushoornen'. Beide sleutels bewegen samen."
+  },
+  {
+   "key": "rubber-boot",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de laars -> de LAARZEN (s->z-stemhebbendheid), nooit 'laarsen'. Ernstig, en door deze batch zelf weerlegd: sleutel `rain-boots` draagt het correcte 'Regenlaarzen'. 'rubberen' blijft onverbogen (stofadjectief op -en)."
+  },
+  {
+   "key": "salad",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de salade -> de salades; toonloze -e neemt -s."
+  },
+  {
+   "key": "salt",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: het werkvoorbeeld uit de brief zelf, en het houdt stand: thema at_the_supermarket -> keukenzout, een stofnaam. 'Zouten' is het scheikundige/technische meervoud (klassen van zouten) en is voor een supermarktplaatje voor een 3-7-jarige ronduit fout. Metadata countable:true is de bekend-feilbare hint."
+  },
+  {
+   "key": "science",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: abstract/massagebruik. Ronde 1 is eerlijk: 'de wetenschappen' is een echt Nederlands meervoud (de academische disciplines, vgl. natuurwetenschappen), maar met thema activities en glosse Science/Science is het referent de schoolactiviteit, waarvoor geen meervoud bestaat. Metadata countable:false en type noun-concept bevestigen."
+  },
+  {
+   "key": "screwdriver",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de schroevendraaier -> de schroevendraaiers. Ernstig: agens-woorden op -er nemen -s, nooit -en; 'Schroevendraaieren' is helemaal geen Nederlands woord. Dezelfde batch doet het goed bij vogelverschrikkers, deegrollers, papegaaiduikers en salamanders, wat bewijst dat het een geisoleerd script-artefact is. De brief noemt deze vorm zelf als verzonnen."
+  },
+  {
+   "key": "scrubs",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: 'kleding' is een stofnaam en heeft in het Nederlands geen meervoud; 'Operatiekledingen' is geen woord. p wordt s. Terecht opgemerkt: dat de Engelse glosse meervoud is ('Scrubs') maakt het Nederlands niet telbaar - het Nederlands drukt het stel juist met de stofnaam uit."
+  },
+  {
+   "key": "sewing-machine",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de machine -> de machines, dus de naaimachine -> de naaimachines."
+  },
+  {
+   "key": "shark",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale / Woordenlijst: de haai -> de HAAIEN. \"Haai's\" is onder geen enkele regel Nederlands en zou door een Nederlandse TTS als /haais/ worden voorgelezen - de ergste vorm in de batch, want haai is een veelgebruikt K-3-dierwoord."
+  },
+  {
+   "key": "smoothie",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de smoothie -> de smoothies; Engels leenwoord op -ie neemt -s."
+  },
+  {
+   "key": "spinach",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: spinazie is een stofnaam; 'Spinazien' is geen Nederlands woord (script-artefact). p wordt s. Metadata countable:false bevestigt."
+  },
+  {
+   "key": "spray",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale / Woordenlijst: de spray -> de sprays; de apostrofregel geldt alleen na een enkele klinkerletter (auto's, taxi's, ski's), niet na -ay (vgl. essays, displays, jockeys)."
+  },
+  {
+   "key": "stapler",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de machine -> de machines, dus de nietmachine -> de nietmachines."
+  },
+  {
+   "key": "stork",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de ooievaar -> de ooievaars. Het -aren-meervoud is beperkt tot een kleine groep agens-woorden; niet-agentieve vogelnamen op -aar nemen -s, precies als adelaar -> adelaars."
+  },
+  {
+   "key": "strawberry",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale / Woordenlijst: de aardbei -> de aardbeien; -ei is een digraaf en neemt -en."
+  },
+  {
+   "key": "stretcher",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de brancard -> de brancards; niet-ingeburgerd Frans leenwoord op -ard neemt -s (vgl. boulevard -> boulevards)."
+  },
+  {
+   "key": "submarine",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de onderzeeër -> de onderzeeërs; woorden op -er/-eër nemen -s, nooit -en."
+  },
+  {
+   "key": "sundae",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de coupe -> de coupes, dus de ijscoupe -> de ijscoupes."
+  },
+  {
+   "key": "sunscreen",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de crème -> de crèmes, dus de zonnebrandcrème -> de zonnebrandcrèmes. Terecht GEEN massa-geval: een crème is een telbaar product (twee crèmes), vergelijkbaar met brood -> broden."
+  },
+  {
+   "key": "swallow",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de zwaluw -> de zwaluwen. 'Zwaluwwen' is de verdubbelingsregel die misvuurt: de w wordt na de digraaf 'uw' nooit verdubbeld."
+  },
+  {
+   "key": "sweater",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale / Woordenlijst: de trui -> de truien; 'ui' is een digraaf en neemt -en."
+  },
+  {
+   "key": "t-rex",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: Nederlands verdubbelt de x nooit (fax -> faxen, box -> boxen), dus 'T-Rexxen' is een onmogelijke spelling; het meervoud is T-rexen. De brief noemt 'T-Rexxen' zelf als verzonnen vorm."
+  },
+  {
+   "key": "tank",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de tank -> de tanks. 'Tanken' is geen meervoud maar het werkwoord 'brandstof innemen' - het kind hoort een heel ander woord."
+  },
+  {
+   "key": "telephone",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de telefoon -> de telefoons (vgl. microfoon -> microfoons). 'Telefonen' is geen hedendaags Nederlands."
+  },
+  {
+   "key": "television",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de televisie -> de televisies; woord op onbeklemtoonde -ie neemt -s."
+  },
+  {
+   "key": "tennis-racket",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: het racket -> de rackets; beginklemtoon, dus de verdubbeling die 'racketten' opleverde geldt niet."
+  },
+  {
+   "key": "thunderstorm",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: p wordt s per bestandsconventie. LET OP - dit is een register-/kindgerichtheidsbesluit, GEEN spellingcorrectie, en ronde 1 zegt dat zelf ook met zoveel woorden. 'Onweren' is namelijk WEL een bestaand (zeldzaam) Van Dale-meervoud; de brief wijst er terecht op dat de eerdere kwalificatie 'scriptartefact' fout was, en ronde 1 heeft die fout hier niet herhaald. Het oordeel zelf houdt stand: 'het onweer' wordt in kindgericht Nederlands niet geteld; meerdere onweersbuien heten 'onweersbuien'."
+  },
+  {
+   "key": "toothpaste",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de tandpasta is een stofnaam; \"Tandpasta's\" zou merken/soorten betekenen, niet wat het plaatje toont. Metadata countable:false bevestigt."
+  },
+  {
+   "key": "toucan",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de toekan -> de toekans; geen eindklemtoon, dus geen medeklinkerverdubbeling."
+  },
+  {
+   "key": "trail",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: het pad -> de paden. 'Padden' is het meervoud van het DIER 'de pad'; het script paste de verdubbelingsregel van de pad toe op het wandelpad, zodat een kind een bospad ziet en 'padden' hoort. De brief bevestigt deze richting uitdrukkelijk: 'de pad -> padden' is correct en het defect zit bij `trail`, niet bij `toad`. Zustersleutel `toad` (s='Pad', p='Padden', thema forest_creatures) blijft dus terecht ongemoeid; na deze correctie verschillen de twee rijen weer zoals het hoort (het pad/de paden vs de pad/de padden) - het geslachtsverschil h vs d in de data bevestigt dat het om twee lemma's gaat."
+  },
+  {
+   "key": "trillium",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: het blad -> de bladen, dus compounds op -blad nemen -bladen (tafelblad -> tafelbladen, dekblad -> dekbladen); 'bladeren' is voorbehouden aan bladeren aan een boom. KANTTEKENING BIJ DE MOTIVERING: ronde 1 schrijft \"'blad' has a long a, so consonant doubling is impossible\" - dat klopt fonetisch niet; 'blad' heeft juist een KORTE a. De lange a in 'bladen' ontstaat pas door verlenging in de open lettergreep, en dat is nu juist de reden dat 'Driebladden' (wat een korte a zou spellen) onmogelijk is. Uitkomst juist, redenering onzuiver."
+  },
+  {
+   "key": "tyrannosaurus-rex",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: Nederlands verdubbelt de x nooit (fax -> faxen, box -> boxen), dus 'Rexxen' is onmogelijke spelling. Zuivere vormcorrectie van hetzelfde lemma. Terecht niet uitgeweken naar 'tyrannosaurussen' (dat zou het lemma wisselen) en terecht de Duitse -saurus/-saurier-regel NIET overgetrokken: Nederlands vormt -ussen, zoals het bestand zelf laat zien bij stegosaurus -> Stegosaurussen en allosaurus -> Allosaurussen."
+  },
+  {
+   "key": "unicorn",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de eenhoorn -> de eenhoorns. 'Eenhoornen' is geen geldig meervoud van hoorn (dat is hoorns/horens); 'hoornen' bestaat alleen als bijvoeglijk naamwoord."
+  },
+  {
+   "key": "wallet",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de portemonnee -> de portemonnees; woord op -ee neemt -s. 'Portemonneen' is een script-artefact."
+  },
+  {
+   "key": "wand",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de staf -> de staven (f/v-wisseling, zoals graf -> graven), dus de toverstaf -> de toverstaven. 'Toverstaffen' is de verdubbelingsregel die misvuurt op een woord dat juist stemhebbend wordt."
+  },
+  {
+   "key": "washing-machine",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de machine -> de machines, dus de wasmachine -> de wasmachines."
+  },
+  {
+   "key": "watch",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: het horloge -> de horloges; woord op toonloze -e neemt -s."
+  },
+  {
+   "key": "water-lily",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de lelie -> de lelies, dus de waterlelie -> de waterlelies."
+  },
+  {
+   "key": "whisk",
+   "field": "plural",
+   "verdict": "CONFIRM",
+   "note": "Van Dale: de garde -> de gardes; woord op toonloze -e neemt -s. 'Garden' is bovendien een valse vriend met het Engelse 'garden' op een digibord."
+  }
+ ]
+}

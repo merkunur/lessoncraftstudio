@@ -1,0 +1,556 @@
+{
+  "locale": "de",
+  "batch": "05",
+  "reviewed": 110,
+  "rows": [
+    { "key": "forehead",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "forest",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "forget-me-not",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "fork",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "forklift",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "forsythia",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "fox",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "french-fries",
+      "singular": { "verdict": "PLURALIA_TANTUM", "reason": "Duden lists only 'Pommes frites, die (Plural)'; there is no singular. Two defects in one field: it holds a plural, and the capitalisation 'Pommes Frites' is wrong — Duden spells 'frites' lowercase. Per the file convention s should become identical to p: 'Pommes frites'.", "source": "Duden" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "fridge",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "fried-chicken",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "fried-egg",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "frisbee",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "frog",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "frying-pan",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "galaxy",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "garage",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "garbage-truck",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "garden",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "garden-fork",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "gardener",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "garland",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "garlic",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "mass noun; Duden gives 'Knoblauch, der; -[e]s' with no plural. Data already encodes p=s correctly — no change needed.", "source": "Duden" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "gas-pump",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "gate",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "gazelle",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "gecko",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "gerbil",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "ghost",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "gift",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "gift-box",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "giganotosaurus",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "FIX", "correct": "Giganotosaurier", "reason": "-saurus forms its plural in -saurier (Duden: 'Tyrannosaurus, der; -, ...rier'); 'Giganotosauren' is not a form. Word ends in -saurus (Greek sauros), not -taurus, so the rule applies.", "source": "Duden" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "gingerbread",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "gingerbread-house",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "gingerbread-man",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "giraffe",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "girl",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "glass",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "glasses",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "globe",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "glove",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "gloves",
+      "singular": { "verdict": "HOLD", "reason": "'Handschuhe' is a plural sitting in the singular field. But reconstructing 'Handschuh' would make this entry byte-identical to the existing key 'glove' (Handschuh/Handschuhe/m), and the image is a PAIR of gloves, so a singular label would misname it. This is an entry-level decision (keep as pair-label, merge with 'glove', or relabel e.g. 'ein Paar Handschuhe'), not a form fix." },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "glue",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "goat",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "goggles",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "goldfish",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "golf",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "name of a sport; Duden gives 'Golf, das; -s' with no plural. Data already encodes p=s.", "source": "Duden" },
+      "gender": { "verdict": "FIX", "correct": "n", "reason": "Duden distinguishes 'Golf, das; -s' (the game) from 'Golf, der; -[e]s, -e' (the gulf/bay). Theme is sports, so the game is meant: das Golf. Current 'm' makes the site say 'der Golf' — the wrong word.", "source": "Duden" } },
+
+    { "key": "goose",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "gopher",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "gorilla",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "graduation-cap",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "grandfather",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "grandmother",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "grapefruit",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "grapes",
+      "singular": { "verdict": "FIX", "correct": "Traube", "reason": "plural in the singular field (same defect class as blocks/candy). Pure form correction of the same lemma: die Traube → die Trauben. 'Eine Traube' also correctly names a whole bunch, which is what the image shows.", "source": "Duden" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "grass",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "mass noun as depicted (lawn/spring theme). Duden's plural 'Gräser' means grass species or single blades, not the pictured mass — no child-appropriate plural. Data already encodes p=s.", "source": "Duden" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "grasshopper",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "FIX", "correct": "Heuschrecken", "reason": "the plural field holds a different lemma ('Grashüpfer', m., null plural) than the singular ('Heuschrecke', f.). No lemma decision needed — Heuschrecke is standard and correct, so the plural simply has to agree: die Heuschrecke → die Heuschrecken.", "source": "Duden" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "grater",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "gray",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "colour name; no child-appropriate plural. Data already encodes p=s." },
+      "gender": { "verdict": "FIX", "correct": "n", "reason": "colour names used as nouns are neuter: das Grau (cf. das Blau, das Braun). Current 'm' yields 'der Grau', which does not exist.", "source": "Duden" } },
+
+    { "key": "green",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "colour name; no child-appropriate plural. Data already encodes p=s." },
+      "gender": { "verdict": "FIX", "correct": "n", "reason": "colour names used as nouns are neuter: das Grün. Current 'm' yields 'der Grün', which does not exist.", "source": "Duden" } },
+
+    { "key": "green-beans",
+      "singular": { "verdict": "FIX", "correct": "Grüne Bohne", "reason": "plural in the singular field. Pure form correction of the same lemma: die grüne Bohne → die grünen/grüne Bohnen. Capitalised initial per this file's label convention.", "source": "Duden" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "greeting-card",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "grill",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "guinea-pig",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "guitar",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "gymnastics",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "nominalised infinitive; no plural. Data already encodes p=s." },
+      "gender": { "verdict": "FIX", "correct": "n", "reason": "nominalised infinitives are without exception neuter: das Turnen. Current 'm' yields 'der Turnen'.", "source": "Duden" } },
+
+    { "key": "hair",
+      "singular": { "verdict": "FIX", "correct": "Haar", "reason": "plural in the singular field. Pure form correction of the same lemma: das Haar → die Haare. 'Das Haar' is also correct collectively for a head of hair, which is what the image shows.", "source": "Duden" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hair-tie",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "halloween",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "name of a festival; no plural. Data already encodes p=s." },
+      "gender": { "verdict": "FIX", "correct": "n", "reason": "Duden: 'Halloween, das; -[s]' — neuter, like other festival names (das Weihnachten, das Ostern). Current 'm' yields 'der Halloween'.", "source": "Duden" } },
+
+    { "key": "ham",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hamburger",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hammer",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hammock",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hamster",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hand",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "handbag",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "handsaw",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hanger",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "happy",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "adjective; no plural. Data already encodes p=s." },
+      "gender": { "verdict": "HOLD", "reason": "'glücklich' is an adjective, not a noun — no gender applies. Unlike colour names it has no established neuter nominalisation ('das Glücklich' does not exist; the noun would be a different lemma, das Glück / die Freude). Whether to carry a gender code at all for emotion adjectives is an entry-level decision, not a form fix." } },
+
+    { "key": "harp",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "harvest",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hat",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hawk",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hay",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "mass noun; Duden gives 'Heu, das; -[e]s' with no plural. Data already encodes p=s.", "source": "Duden" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "haystack",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "head",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "headband",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "heart",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "heart-monitor",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "heater",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hedgehog",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "heel",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "helicopter",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "helmet",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hemlock-tree",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hen",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "heptagon",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hermit-crab",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "heron",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hexagon",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hibiscus",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "high-heeled-shoes",
+      "singular": { "verdict": "FIX", "correct": "Stöckelschuh", "reason": "plural in the singular field. Pure form correction of the same lemma: der Stöckelschuh → die Stöckelschuhe. Unlike 'gloves' there is no competing singular key here.", "source": "Duden" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hiking",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "nominalised infinitive; no plural. Data already encodes p=s." },
+      "gender": { "verdict": "FIX", "correct": "n", "reason": "nominalised infinitives are without exception neuter: das Wandern. Current 'm' yields 'der Wandern'.", "source": "Duden" } },
+
+    { "key": "hippopotamus",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hockey",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "name of a sport; no plural. Data already encodes p=s." },
+      "gender": { "verdict": "FIX", "correct": "n", "reason": "Duden: 'Hockey, das; -s' — neuter. Current 'm' yields 'der Hockey'.", "source": "Duden" } },
+
+    { "key": "honey",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "NO_PLURAL", "reason": "mass noun as depicted (breakfast theme). Duden's plural 'Honige' is a trade term for honey varieties, not child-appropriate. Data already encodes p=s.", "source": "Duden" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hoodie",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hornbill",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "horse",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hose",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } },
+
+    { "key": "hospital-bed",
+      "singular": { "verdict": "OK" },
+      "plural": { "verdict": "OK" },
+      "gender": { "verdict": "OK" } }
+  ]
+}

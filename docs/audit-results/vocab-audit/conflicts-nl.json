@@ -1,0 +1,128 @@
+{
+ "locale": "nl",
+ "conflicts": [],
+ "reLitigated": [
+  {
+   "note": "held twijfel — stayed de",
+   "key": "grapefruit",
+   "field": "plural",
+   "from": "Grapefruiten",
+   "to": "Grapefruits",
+   "why": "de grapefruit -> grapefruits (English loan takes -s); 'Grapefruiten' is a blind -en rule"
+  },
+  {
+   "note": "sports twijfel — stayed de by decision",
+   "key": "football",
+   "field": "gender",
+   "from": "d",
+   "to": "h",
+   "why": "Dutch sport names are neuter: het voetbal, het hockey, het rugby -> het American football. 'De American football' is not Dutch. (If the picture were to show the ball rather than the sport, the whole lemma would be wrong - but every metadata field says sport)"
+  },
+  {
+   "note": "sports twijfel — stayed de",
+   "key": "golf",
+   "field": "gender",
+   "from": "d",
+   "to": "h",
+   "why": "HOMONYM, gender IS the meaning: de golf = wave/gulf; het golf = the ball game. The 'sports' theme fixes the game reading, so it must be 'h'. Dutch sport names are neuter (het voetbal, het tennis, het hockey)"
+  },
+  {
+   "note": "sports twijfel — stayed de",
+   "key": "hockey",
+   "field": "gender",
+   "from": "d",
+   "to": "h",
+   "why": "Dutch sport names are neuter: het hockey (cf. het voetbal, het tennis, het golf). 'De hockey' is not Dutch; 'd' is the script default"
+  },
+  {
+   "note": "sports twijfel — stayed de",
+   "key": "table-tennis",
+   "field": "gender",
+   "from": "d",
+   "to": "h",
+   "why": "Sport names are neuter in Dutch: het tafeltennis (cf. het tennis, het voetbal)."
+  },
+  {
+   "note": "stayed de by decision",
+   "key": "tape",
+   "field": "gender",
+   "from": "d",
+   "to": "h",
+   "why": "Van Dale / Woordenlijst: het plakband (Standard Dutch, Netherlands). The generator's catch-all returned 'd'."
+  },
+  {
+   "note": "sports twijfel — stayed de",
+   "key": "tennis",
+   "field": "gender",
+   "from": "d",
+   "to": "h",
+   "why": "Sport names are neuter: het tennis."
+  }
+ ],
+ "expected": [
+  {
+   "note": "Kalven→kalveren (irregular -eren)",
+   "key": "calf",
+   "field": "plural",
+   "from": "Kalven",
+   "to": "Kalveren",
+   "why": "het kalf -> de kalveren (irregular -eren plural); 'Kalven' comes from a -lf->-lven rule that does not apply here"
+  },
+  {
+   "note": "→uncountable",
+   "key": "dragon-fruit",
+   "field": "plural",
+   "from": "Drakenfruiten",
+   "to": "Drakenfruit",
+   "why": "for the lemma as it now stands: 'het fruit' is a mass noun and has no plural; 'Drakenfruiten' is not Dutch. If countability is required, the lemma must change (see singular HOLD)"
+  },
+  {
+   "note": "→medische dossiers (adjective agreement)",
+   "key": "medical-chart",
+   "field": "plural",
+   "from": "Medisch dossieren",
+   "to": "Medische dossiers",
+   "why": "two errors: het dossier -> de dossiers (not -en), and the attributive adjective must inflect in the plural. The script inflected only the last token"
+  },
+  {
+   "note": "Hangslotten→hangsloten (tt→t)",
+   "key": "padlock",
+   "field": "plural",
+   "from": "Hangslotten",
+   "to": "Hangsloten",
+   "why": "Van Dale: het slot -> de sloten (open-syllable lengthening), so hangslot -> hangsloten. 'Hangslotten' is the script's blind consonant-doubling rule; slot does NOT double (contrast pot -> potten)"
+  },
+  {
+   "note": "Zouten→mass",
+   "key": "salt",
+   "field": "plural",
+   "from": "Zouten",
+   "to": "Zout",
+   "why": "the brief's own worked example, and it holds: themes=at_the_supermarket -> this is kitchen salt, a mass noun. 'Zouten' is the chemical/technical plural (classes of salts) and is flatly wrong for a supermarket picture shown to a 3-7 year old. metadata countable:true is the known-fallible hint"
+  },
+  {
+   "note": "Onweren→mass",
+   "key": "thunderstorm",
+   "field": "plural",
+   "from": "Onweren",
+   "to": "Onweer",
+   "why": "Weather phenomenon, not counted in child-facing Dutch ('het onweer'). Van Dale does record a rare plural 'onweren', so I do not call the current form a hard spelling error - but it is not a word to speak to a 3-7 year old; several thunderstorms are 'onweersbuien'. p = s per the file convention."
+  },
+  {
+   "note": "Padden→paden (homonym plural)",
+   "key": "trail",
+   "field": "plural",
+   "from": "Padden",
+   "to": "Paden",
+   "why": "Van Dale: het pad -> de paden. 'Padden' is the plural of the ANIMAL 'de pad'; the script applied the toad's doubling rule to the footpath, so a child sees a trail and hears 'toads'."
+  },
+  {
+   "note": "Driebladden→driebladen (dd→d)",
+   "key": "trillium",
+   "field": "plural",
+   "from": "Driebladden",
+   "to": "Driebladen",
+   "why": "'blad' has a long a, so consonant doubling is impossible - 'Driebladden' cannot be a Dutch word. Compounds in -blad take -bladen (tafelblad -> tafelbladen, dekblad -> dekbladen); 'bladeren' is reserved for leaves on a tree."
+  }
+ ]
+}

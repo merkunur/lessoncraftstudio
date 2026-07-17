@@ -1,0 +1,343 @@
+{
+ "locale": "de",
+ "part": "gender",
+ "reviewed": 56,
+ "rows": [
+  {
+   "key": "baking",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Geprüft gegen das gespeicherte s='Backen': das Backen. Duden-Grammatik: substantivierter Infinitiv ist ausnahmslos Neutrum; „m“ hätte „der Backen“ erzeugt, das es nicht gibt."
+  },
+  {
+   "key": "biking",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Geprüft gegen das gespeicherte s='Radfahren': das Radfahren. Duden-Grammatik: substantivierter Infinitiv ist ausnahmslos Neutrum; „m“ hätte „der Radfahren“ erzeugt, das es nicht gibt."
+  },
+  {
+   "key": "boxing",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Geprüft gegen das gespeicherte s='Boxen': das Boxen. Duden-Grammatik: substantivierter Infinitiv ist ausnahmslos Neutrum; „m“ hätte „der Boxen“ erzeugt, das es nicht gibt. „die Boxen“ wäre der Plural von Box (Lautsprecher/Abteil) – ein anderes Lemma, hier nicht gespeichert."
+  },
+  {
+   "key": "dancing",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Geprüft gegen das gespeicherte s='Tanzen': das Tanzen. Duden-Grammatik: substantivierter Infinitiv ist ausnahmslos Neutrum; „m“ hätte „der Tanzen“ erzeugt, das es nicht gibt."
+  },
+  {
+   "key": "fishing",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Geprüft gegen das gespeicherte s='Angeln': das Angeln. Duden-Grammatik: substantivierter Infinitiv ist ausnahmslos Neutrum; „m“ hätte „der Angeln“ erzeugt, das es nicht gibt. Die Verwechslungsgefahr mit „die Angeln“ (Plural von Angel, das Gerät) besteht nicht: gespeichert ist der Infinitiv, themes=['activities']."
+  },
+  {
+   "key": "gymnastics",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Geprüft gegen das gespeicherte s='Turnen': das Turnen. Duden-Grammatik: substantivierter Infinitiv ist ausnahmslos Neutrum; „m“ hätte „der Turnen“ erzeugt, das es nicht gibt."
+  },
+  {
+   "key": "hiking",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Geprüft gegen das gespeicherte s='Wandern': das Wandern. Duden-Grammatik: substantivierter Infinitiv ist ausnahmslos Neutrum; „m“ hätte „der Wandern“ erzeugt, das es nicht gibt."
+  },
+  {
+   "key": "ice-skating",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Geprüft gegen das gespeicherte s='Schlittschuhlaufen': das Schlittschuhlaufen. Duden-Grammatik: substantivierter Infinitiv ist ausnahmslos Neutrum; „m“ hätte „der Schlittschuhlaufen“ erzeugt, das es nicht gibt. Hinweis (blockiert das Urteil nicht): „ice-skating“ und „skating“ tragen beide s='Schlittschuhlaufen' – eine Dublette auf Lemma-Ebene, die unabhängig vom Genus zu klären ist; „n“ ist für beide richtig."
+  },
+  {
+   "key": "jumping",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Geprüft gegen das gespeicherte s='Springen': das Springen. Duden-Grammatik: substantivierter Infinitiv ist ausnahmslos Neutrum; „m“ hätte „der Springen“ erzeugt, das es nicht gibt."
+  },
+  {
+   "key": "knitting",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Geprüft gegen das gespeicherte s='Stricken': das Stricken. Duden-Grammatik: substantivierter Infinitiv ist ausnahmslos Neutrum; „m“ hätte „der Stricken“ erzeugt, das es nicht gibt."
+  },
+  {
+   "key": "reading",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Geprüft gegen das gespeicherte s='Lesen': das Lesen. Duden-Grammatik: substantivierter Infinitiv ist ausnahmslos Neutrum; „m“ hätte „der Lesen“ erzeugt, das es nicht gibt."
+  },
+  {
+   "key": "running",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Geprüft gegen das gespeicherte s='Laufen': das Laufen. Duden-Grammatik: substantivierter Infinitiv ist ausnahmslos Neutrum; „m“ hätte „der Laufen“ erzeugt, das es nicht gibt."
+  },
+  {
+   "key": "sewing",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Geprüft gegen das gespeicherte s='Nähen': das Nähen. Duden-Grammatik: substantivierter Infinitiv ist ausnahmslos Neutrum; „m“ hätte „der Nähen“ erzeugt, das es nicht gibt."
+  },
+  {
+   "key": "singing",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Geprüft gegen das gespeicherte s='Singen': das Singen. Duden-Grammatik: substantivierter Infinitiv ist ausnahmslos Neutrum; „m“ hätte „der Singen“ erzeugt, das es nicht gibt."
+  },
+  {
+   "key": "skating",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Geprüft gegen das gespeicherte s='Schlittschuhlaufen': das Schlittschuhlaufen. Duden-Grammatik: substantivierter Infinitiv ist ausnahmslos Neutrum; „m“ hätte „der Schlittschuhlaufen“ erzeugt, das es nicht gibt. Hinweis (blockiert das Urteil nicht): „skating“ und „ice-skating“ tragen beide s='Schlittschuhlaufen' – eine Dublette auf Lemma-Ebene, die unabhängig vom Genus zu klären ist; „n“ ist für beide richtig."
+  },
+  {
+   "key": "skiing",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Geprüft gegen das gespeicherte s='Skifahren': das Skifahren. Duden-Grammatik: substantivierter Infinitiv ist ausnahmslos Neutrum; „m“ hätte „der Skifahren“ erzeugt, das es nicht gibt."
+  },
+  {
+   "key": "sledding",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Geprüft gegen das gespeicherte s='Rodeln': das Rodeln. Duden-Grammatik: substantivierter Infinitiv ist ausnahmslos Neutrum; „m“ hätte „der Rodeln“ erzeugt, das es nicht gibt."
+  },
+  {
+   "key": "snowboarding",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Geprüft gegen das gespeicherte s='Snowboarden': das Snowboarden. Duden-Grammatik: substantivierter Infinitiv ist ausnahmslos Neutrum; „m“ hätte „der Snowboarden“ erzeugt, das es nicht gibt."
+  },
+  {
+   "key": "swimming",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Geprüft gegen das gespeicherte s='Schwimmen': das Schwimmen. Duden-Grammatik: substantivierter Infinitiv ist ausnahmslos Neutrum; „m“ hätte „der Schwimmen“ erzeugt, das es nicht gibt."
+  },
+  {
+   "key": "writing",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Geprüft gegen das gespeicherte s='Schreiben': das Schreiben. Duden-Grammatik: substantivierter Infinitiv ist ausnahmslos Neutrum; „m“ hätte „der Schreiben“ erzeugt, das es nicht gibt."
+  },
+  {
+   "key": "badminton",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Duden: Badminton, das; -s – Neutrum, „n“ ist richtig. Wichtig für die Prüfung der Klasse: die Begründung „substantivierter Infinitiv“ trägt hier NICHT (kein Infinitiv, sondern Lehnwort; das Feld type=verb-gerund ist irreführend). Das Ergebnis ist trotzdem korrekt, weil es direkt aus dem Duden-Stichwort folgt und nicht aus dem Klassenschluss."
+  },
+  {
+   "key": "bowling",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Duden: Bowling, das; -s – Neutrum, „n“ ist richtig. Wichtig für die Prüfung der Klasse: die Begründung „substantivierter Infinitiv“ trägt hier NICHT (kein Infinitiv, sondern Lehnwort; das Feld type=verb-gerund ist irreführend). Das Ergebnis ist trotzdem korrekt, weil es direkt aus dem Duden-Stichwort folgt und nicht aus dem Klassenschluss."
+  },
+  {
+   "key": "camping",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Duden: Camping, das; -s – Neutrum, „n“ ist richtig. Wichtig für die Prüfung der Klasse: die Begründung „substantivierter Infinitiv“ trägt hier NICHT (kein Infinitiv, sondern Lehnwort; das Feld type=verb-gerund ist irreführend). Das Ergebnis ist trotzdem korrekt, weil es direkt aus dem Duden-Stichwort folgt und nicht aus dem Klassenschluss."
+  },
+  {
+   "key": "hockey",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Duden: Hockey, das; -s – Neutrum, „n“ ist richtig. Wichtig für die Prüfung der Klasse: die Begründung „substantivierter Infinitiv“ trägt hier NICHT (kein Infinitiv, sondern Lehnwort; das Feld type=verb-gerund ist irreführend). Das Ergebnis ist trotzdem korrekt, weil es direkt aus dem Duden-Stichwort folgt und nicht aus dem Klassenschluss."
+  },
+  {
+   "key": "beige",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Duden führt die substantivierte Farbe als Neutrum-Stichwort: das Beige; „m“/„f“ hätte „der/die Beige“ erzeugt. Der Klassenschluss trägt hier, weil die Substantivierung der Farbe lexikalisiert und als eigenes Duden-Stichwort geführt ist – anders als bei „hot“ (siehe dort). Das bisherige „f“ ist unter keiner Lesart haltbar: „die Beige“ ist schweizerisch für „Stapel“, nicht die Farbe."
+  },
+  {
+   "key": "black",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Duden führt die substantivierte Farbe als Neutrum-Stichwort: das Schwarz; „m“/„f“ hätte „der/die Schwarz“ erzeugt. Der Klassenschluss trägt hier, weil die Substantivierung der Farbe lexikalisiert und als eigenes Duden-Stichwort geführt ist – anders als bei „hot“ (siehe dort)."
+  },
+  {
+   "key": "blue",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Duden führt die substantivierte Farbe als Neutrum-Stichwort: das Blau; „m“/„f“ hätte „der/die Blau“ erzeugt. Der Klassenschluss trägt hier, weil die Substantivierung der Farbe lexikalisiert und als eigenes Duden-Stichwort geführt ist – anders als bei „hot“ (siehe dort)."
+  },
+  {
+   "key": "brown",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Duden führt die substantivierte Farbe als Neutrum-Stichwort: das Braun; „m“/„f“ hätte „der/die Braun“ erzeugt. Der Klassenschluss trägt hier, weil die Substantivierung der Farbe lexikalisiert und als eigenes Duden-Stichwort geführt ist – anders als bei „hot“ (siehe dort)."
+  },
+  {
+   "key": "crimson",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Duden führt die substantivierte Farbe als Neutrum-Stichwort: das Karmesinrot; „m“/„f“ hätte „der/die Karmesinrot“ erzeugt. Der Klassenschluss trägt hier, weil die Substantivierung der Farbe lexikalisiert und als eigenes Duden-Stichwort geführt ist – anders als bei „hot“ (siehe dort). Zusätzlich Kompositum mit dem Kopfnomen „Rot“ → Genus des Kopfes: das Karmesinrot."
+  },
+  {
+   "key": "gray",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Duden führt die substantivierte Farbe als Neutrum-Stichwort: das Grau; „m“/„f“ hätte „der/die Grau“ erzeugt. Der Klassenschluss trägt hier, weil die Substantivierung der Farbe lexikalisiert und als eigenes Duden-Stichwort geführt ist – anders als bei „hot“ (siehe dort)."
+  },
+  {
+   "key": "green",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Duden führt die substantivierte Farbe als Neutrum-Stichwort: das Grün; „m“/„f“ hätte „der/die Grün“ erzeugt. Der Klassenschluss trägt hier, weil die Substantivierung der Farbe lexikalisiert und als eigenes Duden-Stichwort geführt ist – anders als bei „hot“ (siehe dort)."
+  },
+  {
+   "key": "pink",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Duden führt die substantivierte Farbe als Neutrum-Stichwort: das Rosa; „m“/„f“ hätte „der/die Rosa“ erzeugt. Der Klassenschluss trägt hier, weil die Substantivierung der Farbe lexikalisiert und als eigenes Duden-Stichwort geführt ist – anders als bei „hot“ (siehe dort). „n“ ist unabhängig davon richtig, ob das Lemma „Rosa“ oder „Pink“ lautet – beide sind Neutra. Die Lemmafrage bleibt offen, berührt das Feld gender aber nicht."
+  },
+  {
+   "key": "purple",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Duden führt die substantivierte Farbe als Neutrum-Stichwort: das Lila; „m“/„f“ hätte „der/die Lila“ erzeugt. Der Klassenschluss trägt hier, weil die Substantivierung der Farbe lexikalisiert und als eigenes Duden-Stichwort geführt ist – anders als bei „hot“ (siehe dort). „n“ ist unabhängig davon richtig, ob das Lemma „Lila“ oder „Violett“ lautet – beide sind Neutra."
+  },
+  {
+   "key": "red",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Duden führt die substantivierte Farbe als Neutrum-Stichwort: das Rot; „m“/„f“ hätte „der/die Rot“ erzeugt. Der Klassenschluss trägt hier, weil die Substantivierung der Farbe lexikalisiert und als eigenes Duden-Stichwort geführt ist – anders als bei „hot“ (siehe dort)."
+  },
+  {
+   "key": "scarlet",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Duden führt die substantivierte Farbe als Neutrum-Stichwort: das Scharlachrot; „m“/„f“ hätte „der/die Scharlachrot“ erzeugt. Der Klassenschluss trägt hier, weil die Substantivierung der Farbe lexikalisiert und als eigenes Duden-Stichwort geführt ist – anders als bei „hot“ (siehe dort). Zusätzlich Kompositum mit dem Kopfnomen „Rot“ → das Scharlachrot."
+  },
+  {
+   "key": "white",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Duden führt die substantivierte Farbe als Neutrum-Stichwort: das Weiß; „m“/„f“ hätte „der/die Weiß“ erzeugt. Der Klassenschluss trägt hier, weil die Substantivierung der Farbe lexikalisiert und als eigenes Duden-Stichwort geführt ist – anders als bei „hot“ (siehe dort)."
+  },
+  {
+   "key": "yellow",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Duden führt die substantivierte Farbe als Neutrum-Stichwort: das Gelb; „m“/„f“ hätte „der/die Gelb“ erzeugt. Der Klassenschluss trägt hier, weil die Substantivierung der Farbe lexikalisiert und als eigenes Duden-Stichwort geführt ist – anders als bei „hot“ (siehe dort)."
+  },
+  {
+   "key": "golf",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "An themes geprüft: themes=['sports'], en='Golf' → gemeint ist das Spiel. Duden trennt „Golf, das; -s“ (Spiel) von „Golf, der; -[e]s, -e“ (Meerbusen). Also „n“. Das bisherige „m“ hätte zu einem Golfsport-Bild „der Golf“ – die Meeresbucht – vorgelesen: ein Wortfehler, nicht bloß ein Genusfehler."
+  },
+  {
+   "key": "turquoise",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "An themes geprüft: themes=['colors'] → die Farbe, nicht der Edelstein. Duden führt beide Lemmata: „der Türkis“ = Edelstein, „das Türkis“ = Farbe. Bei Thema „colors“ ist „n“ richtig. Zeigte das Bild einen Schmuckstein, wäre „m“ richtig – das Bild entscheidet, und es sagt Farbe."
+  },
+  {
+   "key": "venus",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "An themes geprüft: themes=['space'], type=proper-noun → der Planet: die Venus (f). „m“ war die naive Übertragung von „der Mars/der Jupiter“. Das Urteil bleibt auch unter anderen Bildlesarten stabil: die Göttin Venus und die Venusfliegenfalle sind ebenfalls feminin."
+  },
+  {
+   "key": "ufo",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "An themes geprüft: themes=['space','toys','vehicles'] → das Flugobjekt. Duden: Ufo (auch UFO), das; -[s], -s. Die Begründung über „unbekanntes Flugobjekt“ → Genus von „Objekt“ ist zusätzlich sachlich richtig. „der UFO“ ist nicht belegt."
+  },
+  {
+   "key": "celery",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Das Urteil „m“ ist richtig: „der Sellerie“ ist im bundesdeutschen Standard die primäre Form und passt zum Register der Seite; das Bild entscheidet nichts, da Knollen- wie Stangensellerie dasselbe Genus haben. ABER die Begründung ist überzogen und sollte nicht übernommen werden: „die Sellerie“ ist nicht schlicht falsch und nicht rein österreichisch – die Wörterbücher führen für Deutschland beide Genera (der dominant, die seltener) und markieren nur den ausschließlichen Gebrauch in Österreich. Den genauen Duden-Wortlaut zitiere ich hier bewusst nicht, da ich ihn nicht verifizieren kann. Die Änderung ist damit eine Verbesserung (Wahl der primären Standardform), nicht die Behebung eines Fehlers – das ist beim Anwenden relevant, falls jemand aus „from war falsch“ weitere Schlüsse zieht."
+  },
+  {
+   "key": "burrito",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Duden: Burrito, der; -[s], -s. „m“ ist richtig, „das Burrito“ ist nicht belegt. Bemerkenswert: dies ist die einzige Korrektur der Menge, die zu „m“ hin geht – sie belegt, dass die erste Runde hier nicht pauschal „alles wird n“ angewandt hat."
+  },
+  {
+   "key": "christmas",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Duden-Stichwort: Weihnachten, das. „der Weihnachten“ existiert nicht, „n“ ist richtig. Der verbreitete pluralische Gebrauch („frohe Weihnachten“) ändert das Genus des Stichworts nicht."
+  },
+  {
+   "key": "easter",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Duden-Stichwort: Ostern, das. „der Ostern“ existiert nicht, „n“ ist richtig."
+  },
+  {
+   "key": "halloween",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Duden: Halloween, das; -[s]. „der Halloween“ ist nicht belegt, „n“ ist richtig."
+  },
+  {
+   "key": "extension-cord",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Geprüft gegen s='Verlängerungskabel': das Kompositumgenus richtet sich nach dem Kopfnomen „das Kabel“ → das Verlängerungskabel. „m“ ist ausgeschlossen."
+  },
+  {
+   "key": "lego",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Duden führt den Markennamen als Neutrum: das Lego. „der Lego“ ist nicht belegt."
+  },
+  {
+   "key": "microphone",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Duden: Mikrofon, das; -s, -e. „der Mikrofon“ existiert nicht."
+  },
+  {
+   "key": "package",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Duden: Paket, das; -[e]s, -e. „der Paket“ existiert nicht."
+  },
+  {
+   "key": "perfume",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Duden: Parfüm, das; -s, -e/-s. „der Parfüm“ existiert nicht."
+  },
+  {
+   "key": "mixer",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Geprüft gegen das tatsächlich gespeicherte s='Rührgerät' (nicht „Mixer“): Kopfnomen „das Gerät“ → das Rührgerät, also „n“. Wichtige Kopplung fürs Anwenden: „n“ gilt nur, solange das Lemma „Rührgerät“ bleibt. Würde das Lemma später auf „Mixer“ geändert (themes=['home','kitchen_tools'], en='Mixer'), wäre „m“ richtig (der Mixer). Derzeit liegt keine singular-Korrektur für diesen Schlüssel vor, daher ist „n“ korrekt."
+  },
+  {
+   "key": "pine-tree",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "An themes geprüft: themes=['camping','tree'], en='Pine Tree' → der Baum: die Kiefer (f). „der Kiefer“ (m) ist der Kieferknochen. Das bisherige „m“ ließ die Seite zu einem Baumbild das völlig falsche Wort sprechen. Stimmig mit der gekoppelten Plural-Korrektur Kiefer→Kiefern (die Kiefer, Pl. die Kiefern)."
+  },
+  {
+   "key": "pretzels",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "die Brezel (f) ist richtig; „m“ ist unter keiner Lesart haltbar. Das Urteil ist an die gekoppelte singular-Korrektur „Brezeln“→„Brezel“ gebunden und mit ihr stimmig (die Brezel, Pl. die Brezeln). Regionales „das Brezel“ (österr./süddt.) ist für das bundesdeutsche Standardregister nicht einschlägig."
+  },
+  {
+   "key": "pottery",
+   "field": "gender",
+   "verdict": "CONFIRM",
+   "note": "Geprüft gegen s='Töpfern' (Infinitiv) → das Töpfern, also „n“; das bisherige „f“ gehörte zum Fremdlemma „die Töpferei“, das im p-Feld stand – die Diagnose der ersten Runde trifft zu. BEDINGUNG: „n“ ist nur zusammen mit der gekoppelten Plural-Korrektur „Töpferei“→„Töpfern“ richtig. Würde der Eintrag stattdessen auf das Lemma „die Töpferei“ aufgelöst, wäre „f“ richtig. themes=['activities'] stützt die gewählte Tätigkeitslesart, deshalb CONFIRM; en=['Pottery','Potteries'] (zählbarer Plural) ist das einzige Gegenindiz und dürfte eine Auto-Pluralisierung des Skripts sein."
+  },
+  {
+   "key": "hot",
+   "field": "gender",
+   "verdict": "ESCALATE",
+   "note": "Widerspruch zur ersten Runde. „m“ ist zwar falsch, aber „n“ ist nicht richtig, sondern geraten – die Korrektur gehört zurückgestellt statt angewandt. (1) „Heiß“ ist ein reines Adjektiv und hat kein inhärentes Genus; „das Heiß“ ist genauso wenig ein deutsches Substantiv wie „der Heiß“. Die Substantivierung wäre flektiert („das Heiße“) oder ein anderes Lemma („die Hitze“, f). Ein Duden-Stichwort „Heiß, das“ gibt es nicht. (2) Damit ist dies die in Punkt 4 des Auftrags gemeinte blind überdehnte Klasse: der Farbschluss trägt bei Blau/Rot/Gelb, weil deren Substantivierung lexikalisiert und Duden-Stichwort ist – bei „Heiß“ ist sie es nicht. Die Begründung räumt das selbst ein („an adjective has no inherent gender“) und ist die EINZIGE der 56 Korrekturen mit leerem src-Feld, also ohne jeden Beleg. (3) Empirischer Beleg für die Überdehnung: der Datensatz enthält 21 strukturell identische reine Adjektive (cold, sunny, rainy, stormy, cloudy, partly-cloudy, angry, happy, sad, tired, shy, bored, confused, excited, merry, scared, surprised, content, disgusted, capricious, skeptical), die alle ebenfalls das Skript-Default „m“ tragen und von der ersten Runde nicht angefasst wurden. „hot“ allein auf „n“ zu setzen macht die Daten inkonsistenter als sie jetzt sind: gleiche Klasse, zwei Werte. (4) Richtig wäre eine Klassenentscheidung für alle 22 Adjektive (Genusfeld leer bzw. nicht anwendbar, oder Lemmawechsel auf ein Substantiv), keine Einzelfall-Formkorrektur. Deshalb ESCALATE und nicht AMEND: es gibt keinen einzelnen besseren Genuswert, den ich eintragen könnte."
+  }
+ ]
+}

@@ -1,0 +1,667 @@
+{
+  "locale": "de",
+  "batch": "03",
+  "reviewed": 110,
+  "rows": [
+    {
+      "key": "cheeks",
+      "singular": {"verdict": "HOLD", "reason": "Plural form 'Wangen' sits in the singular slot. Singular is 'die Wange'. Cannot fix blindly: the key/en gloss is plural [Cheeks, Cheeks] and the image likely shows both cheeks; a singular sibling key 'cheek' may exist in an earlier batch. Needs an operator decision on plural-keyed group entries."},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cheese",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "FIX", "correct": "Käse", "reason": "Duden: der Käse, Plural: die Käse (zero plural). 'Käsen' does not exist.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cheeseburger",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cheesecake",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cheetah",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "Duden lists 'die Geparde, auch: die Geparden' — the stored form is one of the two accepted plurals.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "chef",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "FIX", "correct": "Küchenchefs", "reason": "Duden: der Chef, Plural: die Chefs → Küchenchef, Plural: die Küchenchefs. 'Küchenchefe' is not a German form.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "chef's-knife",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "das Messer → die Messer; zero plural is correct despite the N8/N2 flags.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cherry",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cherry-blossom",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cherry-tree",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "chess",
+      "singular": {"verdict": "OK", "reason": "'Schach' is the correct noun for the board game; the type tag 'verb-gerund' is wrong but the word is right."},
+      "plural": {"verdict": "NO_PLURAL", "reason": "das Schach (the game) has no child-appropriate plural.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "chestnut-tree",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "chick",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "das Küken → die Küken; zero plural is correct despite the N8 flag.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "chicken",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "das Huhn → die Hühner; the N5 flag (different stem) is expected umlaut+er plural, not a defect.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "chili-pepper",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "chimney",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "chimpanzee",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "Weak masculine: der Schimpanse → die Schimpansen.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "chin",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "Duden: das Kinn, Plural: die Kinne — correct, not a machine artifact.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "chinchilla",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK", "reason": "Duden lists 'das Chinchilla' (also 'die') for the animal; neuter is accepted.", "source": "Duden"}
+    },
+    {
+      "key": "chipmunk",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "Diminutive -chen: das Streifenhörnchen → die Streifenhörnchen; zero plural correct despite N8.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "chips",
+      "singular": {"verdict": "HOLD", "reason": "Plural form 'Chips' in the singular slot; singular is 'der Chip'. The en gloss is [Chips, Chips] and the image presumably shows a pile/bag. Needs the same operator decision as the other plural-keyed group entries."},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "chocolate",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "NO_PLURAL", "reason": "Mass noun for children. 'die Schokoladen' exists only as a specialist/trade plural for varieties — not child-appropriate. p stays equal to s.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "chocolate-bar",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "der Riegel → die Riegel; zero plural correct despite N8.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "christmas",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "NO_PLURAL", "reason": "Name of a holiday; no child-appropriate plural.", "source": "Duden"},
+      "gender": {"verdict": "FIX", "correct": "n", "reason": "Duden: Weihnachten, das — Substantiv, Neutrum ('das Weihnachten'). Masculine 'der Weihnachten' does not exist.", "source": "Duden"}
+    },
+    {
+      "key": "christmas-stocking",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "christmas-tree",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "church",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cinnamon-roll",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "circle",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "clementine",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "clock",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "closet",
+      "singular": {"verdict": "OK", "reason": "'Schrank' is correct and child-appropriate for the around_the_house image; 'Kleiderschrank' would be narrower but is not required."},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cloud",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cloudy",
+      "singular": {"verdict": "OK", "reason": "'Bewölkt' is the standard German weather label."},
+      "plural": {"verdict": "NO_PLURAL", "reason": "Adjective — no plural."},
+      "gender": {"verdict": "HOLD", "reason": "Adjective label, not a noun: gender is not applicable. The stored 'm' is a default artifact, not a claim a reviewer can correct — needs a data-shape decision (null/omit for adjectives)."}
+    },
+    {
+      "key": "clover",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "NO_PLURAL", "reason": "Duden: der Klee, -s — collective/mass noun without plural; the countable:true tag is misleading (a single leaf is 'das Kleeblatt').", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "clownfish",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "coach",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "der Trainer → die Trainer; zero plural correct despite N8.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "coat",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "der Mantel → die Mäntel; the N5 flag is the regular umlaut plural, not a defect.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cobra",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cockatiel",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cocktail",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "coconut",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "coconut-tree",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "coffee-carafe",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "coffee-mug",
+      "singular": {"verdict": "OK", "reason": "'Kaffeetasse' is correct and child-appropriate; 'Kaffeebecher' would be the narrower match for a mug but is not required."},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "coffee-table",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "colander",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cold",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "NO_PLURAL", "reason": "Adjective — no plural."},
+      "gender": {"verdict": "HOLD", "reason": "Adjective label, not a noun: gender is not applicable. Stored 'm' is a default artifact — needs the same data-shape decision as 'cloudy'/'confused'/'content'."}
+    },
+    {
+      "key": "columbine",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "Duden: die Akelei, Plural: die Akeleien.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "comb",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "der Kamm → die Kämme; the N5 flag is the regular umlaut plural.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "comet",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "Weak masculine: der Komet → die Kometen.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "compass",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "Duden: der Kompass, Plural: die Kompasse.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "computer",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "der Computer → die Computer; zero plural correct despite N8.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "computer-keyboard",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cone",
+      "singular": {"verdict": "OK", "reason": "'Kegel' is the correct geometric solid for the shapes theme."},
+      "plural": {"verdict": "OK", "reason": "der Kegel → die Kegel; zero plural correct despite N8.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "confused",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "NO_PLURAL", "reason": "Adjective — no plural."},
+      "gender": {"verdict": "HOLD", "reason": "Adjective label, not a noun: gender is not applicable; stored 'm' is a default artifact."}
+    },
+    {
+      "key": "construction-worker",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "der Bauarbeiter → die Bauarbeiter; zero plural correct despite N8.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "content",
+      "singular": {"verdict": "OK", "reason": "'Zufrieden' correctly renders the emotion, not the English noun 'content'."},
+      "plural": {"verdict": "NO_PLURAL", "reason": "Adjective — no plural."},
+      "gender": {"verdict": "HOLD", "reason": "Adjective label, not a noun: gender is not applicable; stored 'm' is a default artifact."}
+    },
+    {
+      "key": "controller",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "der Controller → die Controller; zero plural correct despite N8.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "conversation-heart",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "das Herz → die Herzen; the -en plural is correct here.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cook",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "der Koch → die Köche; the N5 flag is the regular umlaut plural.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cookie",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cookie-cutter",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "der Ausstecher → die Ausstecher; zero plural correct despite N8.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cookie-sheet",
+      "singular": {"verdict": "HOLD", "reason": "'Keksblech' is not an established German word — the standard term for a cookie sheet is 'das Backblech'. Fixing means replacing the lemma, not the form, so it needs an operator/image decision (note: sibling key 'cookie'='Keks' exists, so the coinage was likely machine-composed)."},
+      "plural": {"verdict": "OK", "reason": "If the current lemma stands, 'Keksbleche' is the regular plural (das Blech → die Bleche)."},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cookies",
+      "singular": {"verdict": "HOLD", "reason": "Plural form 'Kekse' in the singular slot. Singular is 'der Keks' — but the sibling key 'cookie' already holds 'Keks', so singularizing would duplicate it. The plural key is presumably a deliberate group-image entry: needs an operator decision, not a blind rewrite."},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cooler",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "coral",
+      "singular": {"verdict": "OK", "reason": "'Koralle' works for both readings the themes allow."},
+      "plural": {"verdict": "HOLD", "reason": "The entry is contradictory: themes list both 'colors' (colour name → no plural, p=s as stored) and 'ocean_life' (the animal → 'die Korallen', countable). type='adjective' contradicts countable-animal use. Which is correct depends on the image — do not rewrite blindly."},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "corn",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "NO_PLURAL", "reason": "Mass noun (der Mais, -es); no child-appropriate plural. p correctly equals s.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cornflower",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "couch",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "Duden: die Couch, Plural: die Couches, auch: die Couchs — the stored form is the first-listed variant.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cow",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "die Kuh → die Kühe; the N5 flag is the regular umlaut plural.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "crab",
+      "singular": {"verdict": "OK", "reason": "'Krabbe' is correct for true crabs (Brachyura) and is the term children use for the beach/ocean image."},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cranberry",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "FIX", "correct": "Cranberrys", "reason": "Duden: die Cranberry, Plural: die Cranberrys. German forms the plural of English -y loanwords with -ys (Babys, Partys, Hobbys); 'Cranberries' is the English plural, not the German one.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "crane",
+      "singular": {"verdict": "HOLD", "reason": "The entry is contradictory: themes list both 'birds_2' (the bird = der Kranich, as stored) and 'vehicles' (the machine = der Kran). One entry cannot label both images; if a vehicle image is served, a child hears 'Kranich' for a crane truck. Needs an image decision — two separate keys are likely required."},
+      "plural": {"verdict": "OK", "reason": "Correct for the current lemma: der Kranich → die Kraniche."},
+      "gender": {"verdict": "OK", "reason": "Masculine holds for both readings (der Kranich / der Kran)."}
+    },
+    {
+      "key": "crayon",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "crayons",
+      "singular": {"verdict": "HOLD", "reason": "Two problems at once: (1) plural 'Buntstifte' in the singular slot (singular = 'der Buntstift'); (2) lemma mismatch with the sibling key 'crayon' = 'Wachsmalstift' — Buntstift (coloured pencil) and Wachsmalstift (wax crayon) are different objects. Requires an image decision, not a form fix."},
+      "plural": {"verdict": "OK", "reason": "Regular plural of the currently stored lemma Buntstift."},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "crib",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cricket",
+      "singular": {"verdict": "HOLD", "reason": "The entry is contradictory: themes list both 'insects_and_bugs' (the insect = die Grille, as stored) and 'sports' (the game = das Kricket). One entry cannot label both images. Needs an image decision — likely two separate keys."},
+      "plural": {"verdict": "OK", "reason": "Correct for the current lemma: die Grille → die Grillen."},
+      "gender": {"verdict": "OK", "reason": "Correct for the current lemma (die Grille)."}
+    },
+    {
+      "key": "crimson",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "NO_PLURAL", "reason": "Colour name — no plural."},
+      "gender": {"verdict": "FIX", "correct": "n", "reason": "Colour names used as nouns are neuter in German: das Karmesinrot (like das Blau, das Rot). Masculine 'der Karmesinrot' does not exist.", "source": "Duden"}
+    },
+    {
+      "key": "crocodile",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "crocus",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "FIX", "correct": "Krokusse", "reason": "Duden: der Krokus, Plural: die Krokusse. 'Kroken' is not a German form.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "croissant",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "das Croissant → die Croissants.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cross",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "crossing-guard",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "Weak masculine: der Schülerlotse → die Schülerlotsen.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "crow",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "crown",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cruise-ship",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "crutches",
+      "singular": {"verdict": "HOLD", "reason": "Plural form 'Krücken' in the singular slot; singular is 'die Krücke'. The en gloss is [Crutches, Crutches] and the image presumably shows a pair. Same plural-keyed group-entry decision as cheeks/chips/cookies."},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cube",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "der Würfel → die Würfel; zero plural correct despite N8.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cuckoo-clock",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cucumber",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cup",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cupcake",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK", "reason": "Duden: der Cupcake.", "source": "Duden"}
+    },
+    {
+      "key": "curtain",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "curtains",
+      "singular": {"verdict": "HOLD", "reason": "Plural form 'Vorhänge' in the singular slot; singular is 'der Vorhang' — but the sibling key 'curtain' already holds 'Vorhang', so singularizing would duplicate it. Deliberate group-image entry: needs an operator decision."},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cushion",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "das Kissen → die Kissen; zero plural correct despite N8.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cutting-board",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "das Schneidebrett → die Schneidebretter.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cylinder",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "der Zylinder → die Zylinder; zero plural correct despite N8.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cymbals",
+      "singular": {"verdict": "OK", "reason": "No defect despite the plural key: 'das Becken' is a valid singular for the music-theme instrument, and its plural is identical (die Becken). Unlike cheeks/chips/cookies, no plural form sits wrongly in the singular slot."},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "cypress-tree",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "daffodil",
+      "singular": {"verdict": "OK", "reason": "'Narzisse' is correct; 'Osterglocke' would be the narrower Easter variant but is not required."},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "dahlia",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "dancing",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "NO_PLURAL", "reason": "Substantivized infinitive — no plural."},
+      "gender": {"verdict": "FIX", "correct": "n", "reason": "Substantivized infinitives are always neuter: das Tanzen. Stored 'm' would be read as 'der Tanzen', which does not exist.", "source": "Duden"}
+    },
+    {
+      "key": "dandelion",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "Duden gives der Löwenzahn, Plural: die Löwenzähne — correct, though rarely used.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "dart",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "deck-chair",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "deer",
+      "singular": {"verdict": "HOLD", "reason": "The entry is internally inconsistent across all three fields: s='Hirsch' (stag, masculine) but p='Rehe' (roe deer) and g='n' — the gender and the plural belong to 'das Reh', the singular to 'der Hirsch'. Two different animals. Resolution requires seeing the image: either s=Hirsch/p=Hirsche/g=m or s=Reh/p=Rehe/g=n. Do not rewrite blindly."},
+      "plural": {"verdict": "HOLD", "reason": "'Rehe' is the plural of 'Reh', not of the stored singular 'Hirsch' (→ die Hirsche). Depends on the same image decision."},
+      "gender": {"verdict": "HOLD", "reason": "'n' matches 'das Reh', not the stored singular 'der Hirsch'. Depends on the same image decision."}
+    },
+    {
+      "key": "deinonychus",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "HOLD", "reason": "No Duden entry for this genus name, so I cannot state a correct form. 'Deinonychen' looks like a machine artifact (-us → -en, as in Rhythmus → Rhythmen); paleontological German usually leaves genus names unchanged ('die Deinonychus'). The -saurus → -saurier rule does not apply here (the word is Greek deinos + onyx, not -saurus). Needs a specialist ruling — I will not guess.", "source": "no Duden entry"},
+      "gender": {"verdict": "OK", "reason": "Masculine matches the usual German treatment of dinosaur genus names (der Deinonychus)."}
+    },
+    {
+      "key": "delivery",
+      "singular": {"verdict": "OK", "reason": "'Zustellung' fits the post_office theme (a delivery of mail); 'Lieferung' would be the general term."},
+      "plural": {"verdict": "OK"},
+      "gender": {"verdict": "OK"}
+    },
+    {
+      "key": "delivery-driver",
+      "singular": {"verdict": "OK"},
+      "plural": {"verdict": "OK", "reason": "der Lieferfahrer → die Lieferfahrer; zero plural correct despite N8.", "source": "Duden"},
+      "gender": {"verdict": "OK"}
+    }
+  ]
+}

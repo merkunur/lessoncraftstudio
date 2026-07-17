@@ -1,0 +1,556 @@
+{
+ "locale": "de",
+ "batch": "01",
+ "reviewed": 110,
+ "rows": [
+  { "key": "accordion",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "acorn",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "actor",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "air-conditioning",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "FIX", "correct": "Klimaanlagen", "reason": "die Klimaanlage is a countable device, not a mass noun; the source metadata (countable:false) mirrors the English gerund 'air conditioning' and is wrong for German", "source": "Duden: Klimaanlage, die; -, -n" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "airplane",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "alarm-clock",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "alligator",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "allosaurus",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "FIX", "correct": "Allosaurier", "reason": "'Allosauren' is not a German form; German -saurus nouns take the -saurier plural", "source": "Duden pattern: Tyrannosaurus, der; -, ...rier / Brontosaurus, der; -, ...rier" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "alpaca",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "ambulance",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "analog-clock",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "anchor",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "angel",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "angelfish",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "angry",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "NO_PLURAL", "reason": "pure adjective (wütend) — no plural; p=s is the correct encoding" },
+    "gender": { "verdict": "HOLD", "reason": "an adjective has no gender; 'm' is a filler value. Unlike the colour words, 'wütend' has no established substantivized noun form, so no gender can be assigned — needs a data-model decision on what g means for type:adjective" } },
+
+  { "key": "ankle",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "ankylosaurus",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "FIX", "correct": "Ankylosaurier", "reason": "'Ankylosauren' is not a German form; German -saurus nouns take the -saurier plural", "source": "Duden pattern: Tyrannosaurus, der; -, ...rier" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "ant",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "antelope",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "apatosaurus",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "FIX", "correct": "Apatosaurier", "reason": "'Apatosauren' is not a German form; German -saurus nouns take the -saurier plural", "source": "Duden pattern: Brontosaurus, der; -, ...rier" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "apple",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "apple-pie",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "apple-tree",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "apricot",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "apron",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "architect",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "argentinosaurus",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "FIX", "correct": "Argentinosaurier", "reason": "'Argentinosauren' is not a German form; German -saurus nouns take the -saurier plural", "source": "Duden pattern: Tyrannosaurus, der; -, ...rier" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "arm",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "armadillo",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "armchair",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "artist",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "ash-tree",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "asparagus",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "null plural is genuinely correct here — not a naive-default accident", "source": "Duden: Spargel, der; -s, -" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "aspen-tree",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "aster",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "genuine -er → -n plural (Aster is not an agent noun); correct despite resembling the Leiter→Leitern defect class", "source": "Duden: Aster, die; -, -n" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "asteroid",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "astronaut",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "athlete",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "author",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "autumn",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "NO_PLURAL", "reason": "season concept; Duden does list 'Herbste' but it is not a usable plural for a season picture card at ages 3-7 — p=s is the right encoding", "source": "Duden: Herbst, der; -[e]s, -e" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "avocado",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "axe",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "azalea",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "baby",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "baby's-onesie",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "der Strampler → die Strampler; null plural correct", "source": "Duden: Strampler, der; -s, -" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "baby-bottle",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "baby-carriage",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "baby-girl",
+    "singular": { "verdict": "HOLD", "reason": "'Baby Mädchen' is a spaced pseudo-compound (Deppenleerzeichen) and no idiomatic German word — 'Babymädchen' is not used either. Needs a lemma decision against the picture (likely 'Baby' or 'Mädchen'), not a form fix" },
+    "plural": { "verdict": "HOLD", "reason": "see singular; depends on the chosen lemma (both candidates happen to take a null plural: die Babys is -s, die Mädchen is -)" },
+    "gender": { "verdict": "OK", "reason": "n holds for either candidate lemma (das Baby, das Mädchen)" } },
+
+  { "key": "baby-overall",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "backpack",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "bacon",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "NO_PLURAL", "reason": "mass noun in kitchen use; Duden's '-e' is a Sortenplural (types of bacon), not usable for a food picture card", "source": "Duden: Speck, der; -[e]s, (Arten:) -e" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "badge",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "badger",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "badminton",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "NO_PLURAL", "reason": "name of a sport — no plural" },
+    "gender": { "verdict": "FIX", "correct": "n", "reason": "das Badminton, not der; 'm' is wrong", "source": "Duden: Badminton, das; -s" } },
+
+  { "key": "bag",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "bagel",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "baguette",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK", "reason": "das Baguette is the main Duden form (die Baguette is a listed variant); n is fine", "source": "Duden: Baguette, das, auch die; -s" } },
+
+  { "key": "baker",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "baking",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "NO_PLURAL", "reason": "substantivized infinitive — no plural" },
+    "gender": { "verdict": "FIX", "correct": "n", "reason": "substantivized infinitives are always neuter: das Backen; 'm' is wrong", "source": "Duden, Grammatik: substantivierter Infinitiv → Neutrum" } },
+
+  { "key": "baking-sheet",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "ball",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "ballerina",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "Duden gives Ballerinen and Ballerinas; 'Ballerinas' is the more child-accessible of the two", "source": "Duden: Ballerina, die; -, ...nen, auch -s" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "balloon",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "Duden allows Ballons and Ballone; Ballons is the standard form", "source": "Duden: Ballon, der; -s, -s, auch -e" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "banana",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "banana-tree",
+    "singular": { "verdict": "OK", "reason": "botanically a Bananenstaude, but 'Bananenbaum' is the established everyday word and matches the tree theme" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "bandage",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "banyan-tree",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "baobab-tree",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "barbecue",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "barber",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "barn",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "barrette",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "baseball",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "NO_PLURAL", "reason": "en gloss and themes point to the sport, not the ball — no plural", "source": "Duden: Baseball, der; -s (Sportart)" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "basket",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "basketball",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "NO_PLURAL", "reason": "en gloss and themes point to the sport (der Basketball, -s, no plural), not the ball (which would be die Basketbälle)", "source": "Duden: Basketball, der; -s (Sportart)" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "bat",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "bathing-suit",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "bathtub",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "beach",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "beach-bag",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "beach-ball",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "beach-umbrella",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "beanie",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "bear",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "beaver",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "bed",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "bee",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "beech-tree",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "beetle",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "beetroot",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "NO_PLURAL", "reason": "a plural would require adjective inflection ('die Roten Beten'), which the bare-plural data format cannot carry and which is not usable at ages 3-7; p=s is the right encoding here", "source": "Duden: Rote Bete, die; - -, -n -n" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "begonia",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "beige",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "NO_PLURAL", "reason": "colour word — no plural" },
+    "gender": { "verdict": "FIX", "correct": "n", "reason": "'f' is wrong under any reading; a substantivized colour is neuter (das Beige). Note the colour set is internally inconsistent today (beige=f, black=m)", "source": "Duden: Beige, das; -, - (ugs. -s)" } },
+
+  { "key": "bell",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "bell-pepper",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK", "reason": "correct for the vegetable: die Paprika (der Paprika is the spice) — themes:[vegetables] disambiguates", "source": "Duden: Paprika, die; -, -[s] (Frucht)" } },
+
+  { "key": "belt",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "bench",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "die Bank (seat) → die Bänke is correct; die Banken would be the financial sense", "source": "Duden: Bank, die; -, Bänke" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "bible",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK", "reason": "genuine -el → -eln plural; correct despite resembling the Kugel→Kugeln defect class", "source": "Duden: Bibel, die; -, -n" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "bicycle",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "biking",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "NO_PLURAL", "reason": "substantivized infinitive — no plural" },
+    "gender": { "verdict": "FIX", "correct": "n", "reason": "substantivized infinitives are always neuter: das Radfahren; 'm' is wrong", "source": "Duden, Grammatik: substantivierter Infinitiv → Neutrum" } },
+
+  { "key": "binder",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "binoculars",
+    "singular": { "verdict": "OK", "reason": "English 'binoculars' is pluralia tantum, German 'das Fernglas' is a normal countable singular — the entry is correctly de-pluralized" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "birch-tree",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "bird",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "birdhouse",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "biscuit",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "bison",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "black",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "NO_PLURAL", "reason": "colour word — no plural" },
+    "gender": { "verdict": "FIX", "correct": "n", "reason": "'m' is wrong under any reading; a substantivized colour is neuter (das Schwarz)", "source": "Duden: Schwarz, das; -, - (ugs. -s)" } },
+
+  { "key": "blackberry",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "blanket",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } },
+
+  { "key": "blender",
+    "singular": { "verdict": "OK" },
+    "plural": { "verdict": "OK" },
+    "gender": { "verdict": "OK" } }
+ ]
+}

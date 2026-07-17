@@ -76,12 +76,6 @@
     "why": "Duden states it outright: 'das Bowling; Genitiv: des Bowlings, Plural: die Bowlings'. The stored zero plural 'Bowling' is not a form Duden gives. Both of Duden's Bedeutungen are the SPORT sense (amerikanische Art des Kegelspiels mit 10 Kegeln / englisches Kugelspiel auf glattem Rasen), so the attested plural sits on exactly the sense the key names — this is NOT the 'lettuce' case, where Duden's plural belonged to a sense the picture did not ask for. I re-fetched the entry to confirm before recording. CAVEAT for the operator: 'die Bowlings' is rare and unnatural in child speech; if you would rather this key never be pluralised, that is a content decision, not a form one — but the form Duden attests is Bowlings. Contrast the sibling 'camping', where Duden prints NO plural at all: this asymmetry is Duden's own, checked per word, not a rule I applied.",
     "src": "https://www.duden.de/rechtschreibung/Bowling"
    },
-   "capybara": {
-    "to": "Capybara",
-    "from": "Capybaras",
-    "why": "WEAKEST-EVIDENCE ROW IN THIS BATCH — flagged deliberately. Duden has NO Capybara entry (404) and DWDS answers 'nicht in unseren gegenwartssprachlichen lexikalischen Quellen vorhanden'. The only lexical authority I could reach is de.wiktionary, and it is explicit and positive rather than merely silent: its full declension table gives Nominativ Plural 'die Capybara' (Genitiv 'der Capybara', Dativ 'den Capybara'), and the Worttrennung line prints 'Plural: Ca·py·ba·ra'. No -s variant appears anywhere in the entry. So the stored 'Capybaras' is attested by no source I could fetch, while the zero plural is. I am NOT confident this is the whole truth: 'Capybaras' follows the productive -s pattern for vowel-final loans (Burritos, Kameras, Autos) and is common in real usage, so this may be a wiktionary gap rather than a genuine defect. If the operator can attest 'Capybaras', keep it and reject this fix. I record the fix because the evidence I actually have points one way, and I record the doubt because inventing confidence here would be the failure the brief punishes.",
-    "src": "https://de.wiktionary.org/wiki/Capybara"
-   },
    "cauliflower": {
     "to": "Blumenkohle",
     "from": "Blumenkohl",
@@ -148,13 +142,6 @@
     "why": "Duden: 'Plural: die Pick-ups'. The -s pattern in the stored value was already right; only the hyphen is missing.",
     "src": "https://www.duden.de/rechtschreibung/Pick_up"
    },
-   "potato-chips": {
-    "to": "Kartoffelchip",
-    "from": "Kartoffelchips",
-    "why": "plural-picture → hasPlural=false; once the singular field carries the plural label, the plural field has nothing further to derive. The stored 'Kartoffelchips' is the correct form and would simply mirror the corrected singular.",
-    "src": "https://www.duden.de/rechtschreibung/Kartoffelchip",
-    "cls": "NO_PLURAL"
-   },
    "science": {
     "to": "Wissenschaften",
     "from": "Wissenschaft",
@@ -182,5 +169,6 @@
     "src": "https://www.duden.de/rechtschreibung/Iguanodon"
    }
   }
- }
+ },
+ "reverified": true
 }

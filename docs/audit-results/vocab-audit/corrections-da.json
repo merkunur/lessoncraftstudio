@@ -1,0 +1,322 @@
+{
+ "corrections": {
+  "singular": {
+   "chameleon": {
+    "from": "Kamæleont",
+    "to": "Kamæleon",
+    "why": "DDO headword is kamæleon (no trailing -t)",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Kam%C3%A6leont"
+   }
+  },
+  "plural": {
+   "analog-clock": {
+    "from": "Analogt ur",
+    "to": "Analoge ure",
+    "why": "phrase plural (ur -> ure, adj analog->analoge); was missing (p===s)",
+    "src": "https://ordnet.dk/ddo/ordbog?query=ur"
+   },
+   "arm": {
+    "from": "Armer",
+    "to": "Arme",
+    "why": "DDO bøjning -en, -e, -ene -> arme",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Arm"
+   },
+   "bagel": {
+    "from": "Bagler",
+    "to": "Bagels",
+    "why": "DDO plural -s -> bagels",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Bagel"
+   },
+   "baobab-tree": {
+    "from": "Baobaber",
+    "to": "Baobabber",
+    "why": "DDO -ber -> baobabber (gemination)",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Baobab"
+   },
+   "barber": {
+    "from": "Barbere",
+    "to": "Barberer",
+    "why": "DDO -er -> barberer (Barbere was the infinitive verb)",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Barber"
+   },
+   "bolt": {
+    "from": "Bolter",
+    "to": "Bolte",
+    "why": "DDO -e -> bolte",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Bolt"
+   },
+   "brontosaurus": {
+    "from": "Brontosauruser",
+    "to": "Brontosaurusser",
+    "why": "DDO -ser -> brontosaurusser",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Brontosaurus"
+   },
+   "cauliflower": {
+    "from": "Blomkåler",
+    "to": "Blomkål",
+    "why": "DDO zero plural (-en, -, -ene); blomkål invariant",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Blomk%C3%A5l"
+   },
+   "chameleon": {
+    "from": "Kamæleonter",
+    "to": "Kamæleoner",
+    "why": "DDO kamæleon -er -> kamæleoner (also singular fix)",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Kam%C3%A6leont"
+   },
+   "cheesecake": {
+    "from": "Cheesecaker",
+    "to": "Cheesecakes",
+    "why": "DDO -s -> cheesecakes",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Cheesecake"
+   },
+   "cocktail": {
+    "from": "Cocktailer",
+    "to": "Cocktails",
+    "why": "DDO -s -> cocktails (cocktailer not attested)",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Cocktail"
+   },
+   "cupcake": {
+    "from": "Cupcaker",
+    "to": "Cupcakes",
+    "why": "DDO -s -> cupcakes",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Cupcake"
+   },
+   "dogwood-tree": {
+    "from": "Kornler",
+    "to": "Korneller",
+    "why": "DDO kornel -ler -> korneller",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Kornel"
+   },
+   "doughnut": {
+    "from": "Doughnuter",
+    "to": "Doughnuts",
+    "why": "DDO -s -> doughnuts",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Doughnut"
+   },
+   "eclair": {
+    "from": "Eclairer",
+    "to": "Eclair",
+    "why": "DDO zero plural (-en, -, -ene)",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Eclair"
+   },
+   "eraser": {
+    "from": "Viskelæder",
+    "to": "Viskelædere",
+    "why": "DDO -e -> viskelædere; was missing (p===s)",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Viskel%C3%A6der"
+   },
+   "hair-tie": {
+    "from": "Hårelastiker",
+    "to": "Hårelastikker",
+    "why": "DDO -ker -> hårelastikker (gemination)",
+    "src": "https://ordnet.dk/ddo/ordbog?query=H%C3%A5relastik"
+   },
+   "hibiscus": {
+    "from": "Hibiscuser",
+    "to": "Hibiscus",
+    "why": "DDO zero plural (-sen, -, -sene)",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Hibiscus"
+   },
+   "ice-cream": {
+    "from": "Iser",
+    "to": "Is",
+    "why": "DDO zero plural (en is, flere is)",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Is"
+   },
+   "jumpsuit": {
+    "from": "Jumpsuiter",
+    "to": "Jumpsuits",
+    "why": "DDO -s -> jumpsuits",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Jumpsuit"
+   },
+   "kettlebell": {
+    "from": "Kettlebeller",
+    "to": "Kettlebells",
+    "why": "DDO plural -s -> kettlebells",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Kettlebell"
+   },
+   "keyboard": {
+    "from": "Keyboarder",
+    "to": "Keyboards",
+    "why": "DDO -s -> keyboards",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Keyboard"
+   },
+   "lime": {
+    "from": "Limer",
+    "to": "Lime",
+    "why": "DDO zero plural primary (-n, -, -ne)",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Lime"
+   },
+   "lotus": {
+    "from": "Lotuser",
+    "to": "Lotus",
+    "why": "DDO zero plural (-sen, -, -sene)",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Lotus"
+   },
+   "love-letter": {
+    "from": "Kærlighedsbrev",
+    "to": "Kærlighedsbreve",
+    "why": "DDO brev -e -> kærlighedsbreve; was missing (p===s)",
+    "src": "https://ordnet.dk/ddo/ordbog?query=K%C3%A6rlighedsbrev"
+   },
+   "love-note": {
+    "from": "Kærlighedsbrev",
+    "to": "Kærlighedsbreve",
+    "why": "DDO brev -e -> kærlighedsbreve; was missing (p===s)",
+    "src": "https://ordnet.dk/ddo/ordbog?query=K%C3%A6rlighedsbrev"
+   },
+   "macaron": {
+    "from": "Macaroner",
+    "to": "Macarons",
+    "why": "DDO -s -> macarons",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Macaron"
+   },
+   "milkshake": {
+    "from": "Milkshaker",
+    "to": "Milkshakes",
+    "why": "DDO -s -> milkshakes",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Milkshake"
+   },
+   "minibus": {
+    "from": "Minibuser",
+    "to": "Minibusser",
+    "why": "DDO -ser -> minibusser",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Minibus"
+   },
+   "muffin": {
+    "from": "Muffiner",
+    "to": "Muffins",
+    "why": "DDO -s -> muffins",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Muffin"
+   },
+   "parasol": {
+    "from": "Parasoler",
+    "to": "Parasoller",
+    "why": "DDO -ler -> parasoller (gemination)",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Parasol"
+   },
+   "pegasus": {
+    "from": "Pegasuser",
+    "to": "Pegasusser",
+    "why": "DDO -ser -> pegasusser",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Pegasus"
+   },
+   "pen": {
+    "from": "Pener",
+    "to": "Penne",
+    "why": "DDO -ne -> penne",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Pen"
+   },
+   "phlox": {
+    "from": "Flokser",
+    "to": "Floks",
+    "why": "DDO zero plural (floks -en, -, -ene)",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Floks"
+   },
+   "pickup-truck": {
+    "from": "Pickuper",
+    "to": "Pickupper",
+    "why": "DDO -per -> pickupper (gemination)",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Pickup"
+   },
+   "robot": {
+    "from": "Roboter",
+    "to": "Robotter",
+    "why": "DDO -ter -> robotter (gemination)",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Robot"
+   },
+   "skateboard": {
+    "from": "Skateboarder",
+    "to": "Skateboards",
+    "why": "DDO -s -> skateboards",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Skateboard"
+   },
+   "sky": {
+    "from": "Himler",
+    "to": "Himle",
+    "why": "DDO himmel -> himle (irregular)",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Himmel"
+   },
+   "smartphone": {
+    "from": "Smartphoner",
+    "to": "Smartphones",
+    "why": "DDO -s -> smartphones",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Smartphone"
+   },
+   "sneaker": {
+    "from": "Sneakere",
+    "to": "Sneakers",
+    "why": "DDO -s -> sneakers",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Sneaker"
+   },
+   "stork": {
+    "from": "Storker",
+    "to": "Storke",
+    "why": "DDO -e -> storke",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Stork"
+   },
+   "sweatshirt": {
+    "from": "Sweatshirter",
+    "to": "Sweatshirts",
+    "why": "DDO -s -> sweatshirts",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Sweatshirt"
+   },
+   "t-shirt": {
+    "from": "T-shirter",
+    "to": "T-shirts",
+    "why": "DDO -s -> t-shirts",
+    "src": "https://ordnet.dk/ddo/ordbog?query=T-shirt"
+   },
+   "tablet": {
+    "from": "Tableter",
+    "to": "Tabletter",
+    "why": "DDO -ter -> tabletter (gemination)",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Tablet"
+   },
+   "tank": {
+    "from": "Tanker",
+    "to": "Tanke",
+    "why": "DDO -e -> tanke",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Tank"
+   },
+   "tent": {
+    "from": "Telt",
+    "to": "Telte",
+    "why": "DDO -e -> telte; was missing (p===s)",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Telt"
+   },
+   "whiteboard": {
+    "from": "Whiteboarder",
+    "to": "Whiteboards",
+    "why": "DDO -s -> whiteboards",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Whiteboard"
+   },
+   "yak": {
+    "from": "Yaker",
+    "to": "Yakker",
+    "why": "DDO -ker -> yakker (gemination)",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Yak"
+   }
+  },
+  "gender": {
+   "keyboard": {
+    "from": "n",
+    "to": "t",
+    "why": "DDO intetkøn (et keyboard); -board loan is neuter",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Keyboard"
+   },
+   "skateboard": {
+    "from": "n",
+    "to": "t",
+    "why": "DDO intetkøn (et skateboard); -board loan is neuter",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Skateboard"
+   },
+   "whiteboard": {
+    "from": "n",
+    "to": "t",
+    "why": "DDO intetkøn (et whiteboard); -board loan is neuter",
+    "src": "https://ordnet.dk/ddo/ordbog?query=Whiteboard"
+   }
+  }
+ }
+}

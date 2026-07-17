@@ -1,0 +1,63 @@
+{
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "baguette": {
+    "from": "Baguetti",
+    "to": "Baguette",
+    "why": "French loan, invariant in Italian; '-i' pluralization is wrong",
+    "src": "https://www.treccani.it/vocabolario/baguette/"
+   },
+   "barbecue": {
+    "from": "Barbecui",
+    "to": "Barbecue",
+    "why": "English loan, 'usato in ital. al masch., invar.'",
+    "src": "https://www.treccani.it/vocabolario/barbecue/"
+   },
+   "detective": {
+    "from": "Detectivi",
+    "to": "Detective",
+    "why": "English loan, invariant in Italian",
+    "src": "https://www.treccani.it/vocabolario/detective/"
+   },
+   "frisbee": {
+    "from": "Frisbei",
+    "to": "Frisbee",
+    "why": "English loan, invariant in Italian",
+    "src": "https://www.treccani.it/vocabolario/frisbee/"
+   },
+   "boombox": {
+    "from": "Sterei portatili",
+    "to": "Stereo portatili",
+    "why": "'stereo' is invariant (abbrev. di stereofonico); 'Sterei' is an invented plural",
+    "src": "https://www.treccani.it/vocabolario/stereo/"
+   },
+   "lettuce": {
+    "from": "Lattuga",
+    "to": "Lattughe",
+    "why": "lattuga s. f. is countable with real plural lattughe (-ga -> -ghe); p===s was wrong",
+    "src": "https://www.treccani.it/vocabolario/lattuga/"
+   }
+  },
+  "gender": {
+   "baguette": {
+    "from": "m",
+    "to": "f",
+    "why": "Treccani 'baguette s. f., fr.' (la baguette)",
+    "src": "https://www.treccani.it/vocabolario/baguette/"
+   },
+   "lollipop": {
+    "from": "f",
+    "to": "m",
+    "why": "'lecca-lecca locuz. usata come s. m., invar.' (il lecca-lecca)",
+    "src": "https://www.treccani.it/vocabolario/lecca-lecca/"
+   },
+   "lawn-mower": {
+    "from": "f",
+    "to": "m",
+    "why": "'tosaerba s. m., invar.' (il tosaerba)",
+    "src": "https://www.treccani.it/vocabolario/tosaerba/"
+   }
+  }
+ }
+}

@@ -1,0 +1,39 @@
+{
+  "corrections": {
+    "singular": {},
+    "plural": {
+      "picnic": {
+        "from": "Picnices",
+        "to": "Picnics",
+        "why": "Loan 'picnic' pluralizes -s, not -es; WordReference attests mpl: picnics",
+        "src": "https://www.wordreference.com/definicion/picnic"
+      }
+    },
+    "gender": {
+      "pliers": {
+        "from": "m",
+        "to": "f",
+        "why": "'pinza' is nf (las pinzas); builder defaulted plural-form label to m",
+        "src": "https://www.wordreference.com/definicion/pinzas"
+      },
+      "tongs": {
+        "from": "m",
+        "to": "f",
+        "why": "'pinza' is nf (las pinzas); builder defaulted plural-form label to m",
+        "src": "https://www.wordreference.com/definicion/pinzas"
+      },
+      "stairs": {
+        "from": "m",
+        "to": "f",
+        "why": "'escalera' is nf (las escaleras)",
+        "src": "https://www.wordreference.com/definicion/escaleras"
+      },
+      "tights": {
+        "from": "m",
+        "to": "f",
+        "why": "'media' (stocking) is nf (las medias)",
+        "src": "https://www.wordreference.com/definicion/media"
+      }
+    }
+  }
+}

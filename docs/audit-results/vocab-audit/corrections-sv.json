@@ -119,18 +119,6 @@
     "why": "The stored zero plural is wrong. SAOL gives '~en ~ar' explicitly and SO confirms 'hemlock hemlocken hemlockar'. Nets N2/N8/N4 are right to flag this one. A zero plural would require an ett-word; hemlock is an en-word (~en), as the data itself codes it (g='n') — the two fields contradict each other, and the gender field is the one that is right. This fix stands independently of the art question above. (The superseded verdicts file HELD this as unverifiable and separately claimed the gender read 't' and needed fixing; the dictionary settles the plural outright, and the gender is already 'n'.)",
     "src": "https://svenska.se/tre/?sok=hemlock"
    },
-   "hospital-gown": {
-    "to": "Sjukhuskläder",
-    "from": "Sjukhuskläderar",
-    "why": "'Sjukhuskläderar' does not exist — it is the script's -ar default bolted onto an already-plural noun, exactly the brief's Gardinerar/Musklerar class. kläder is plural already; the indefinite plural is 'sjukhuskläder' (def. pl. sjukhuskläderna). Removing the invented form is right whichever way the lemma question is settled.",
-    "src": "https://svenska.se/tre/?sok=kl%C3%A4der"
-   },
-   "iguanodon": {
-    "to": "Iguanodoner",
-    "from": "Iguanodonar",
-    "why": "LOWER-CONFIDENCE, PATTERN-BASED — saying so plainly rather than faking a citation: iguanodon is in NEITHER SAOL, SO nor SAOB (verified), so the -ar here is the script's unmotivated default. Crucially this is NOT the -us class: the Latin rule that justifies Ichthyosaurusar (kaktus→kaktusar) does not reach a word ending in -on. The attested Swedish pattern for utrum nouns in stressed -on is -er: SAOL 'elektron ~en ~er' → elektroner (likewise proton/neutron/melon). Applying each ending its own attested rule gives Iguanodoner. Operator may prefer to leave it pending a native/palaeontology-usage check.",
-    "src": "https://svenska.se/tre/?sok=elektron"
-   },
    "jam": {
     "to": "Sylter",
     "from": "Sylt",
@@ -148,12 +136,6 @@
     "from": "Kettlebellar",
     "why": "IT IS IN SAOL — no need to hold: 'kettlebell [ket´elbel] substantiv ~en; pl. ~s'. SAOL gives ONLY -s. 'Kettlebellar' is the script's -ar default and is not a Swedish form. This is the batch-01 lesson ('EN loans take -s not -ar') and SAOL confirms it outright for this word.",
     "src": "https://svenska.se/tre/?sok=kettlebell"
-   },
-   "keyboard": {
-    "to": "Keyboardar",
-    "from": "Keyboards",
-    "why": "IT IS IN SAOL — no need to hold, and the result is COUNTER-INTUITIVE: 'keyboard ~en el. ~et; pl. ~ar el. ~' gives keyboardar OR zero, and does NOT list *keyboards. So the batch-01 'EN loans take -s' heuristic does NOT hold for this word — keyboard is a nativised loan, unlike kettlebell in this same batch where SAOL gives ~s only. That contrast is exactly why each loan must be looked up rather than ruled by class. Taking SAOL's first-listed form: Keyboardar (zero plural 'Keyboard' would also be sanctioned).",
-    "src": "https://svenska.se/tre/?sok=keyboard"
    },
    "lavender": {
     "to": "Lavendel",
@@ -256,5 +238,6 @@
     "src": "https://sv.wiktionary.org/wiki/USA + https://en.wiktionary.org/wiki/USA"
    }
   }
- }
+ },
+ "reverified": true
 }

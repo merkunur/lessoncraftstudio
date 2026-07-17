@@ -24,7 +24,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "log",
@@ -41,7 +46,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "log-cabin",
@@ -58,7 +68,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lollipop",
@@ -80,10 +95,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N2",
-    "N8"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lotus",
@@ -100,7 +116,12 @@
     "g": "m"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lounge-chair",
@@ -116,10 +137,12 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N6"
-   ],
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lounger",
@@ -136,7 +159,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "love-letter",
@@ -152,10 +180,12 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N6"
-   ],
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "love-note",
@@ -171,10 +201,12 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N6"
-   ],
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lunchbox",
@@ -191,7 +223,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "macaron",
@@ -208,7 +245,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "macaw",
@@ -226,7 +268,12 @@
     "g": "m"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "magnifying-glass",
@@ -244,7 +291,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "magpie",
@@ -261,7 +313,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "maiasaura",
@@ -278,7 +335,12 @@
     "g": "m"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "mail-carrier",
@@ -296,10 +358,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N2",
-    "N8"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "mail-truck",
@@ -316,7 +379,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "mailbox",
@@ -330,15 +398,16 @@
    ],
    "cur": {
     "s": "Briefkasten",
-    "p": "Briefkasten",
+    "p": "Briefkästen",
     "g": "m"
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N2",
-    "N8"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "manatee",
@@ -355,7 +424,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "mango",
@@ -372,7 +446,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "map",
@@ -392,9 +471,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N6"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "maple-tree",
@@ -411,7 +492,12 @@
     "g": "m"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "marigold",
@@ -428,7 +514,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "marker",
@@ -446,10 +537,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N2",
-    "N8"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "mars",
@@ -466,7 +558,12 @@
     "g": "m"
    },
    "type": "proper-noun",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "proper-noun",
+    "hasGender": true,
+    "hasPlural": false
+   }
   },
   {
    "key": "mask",
@@ -484,7 +581,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "measuring-cup",
@@ -502,10 +604,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N2",
-    "N8"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "mechanic",
@@ -523,10 +626,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N2",
-    "N8"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "medal",
@@ -544,7 +648,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "medical-chart",
@@ -560,7 +669,12 @@
    },
    "type": "noun",
    "countable": true,
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "medical-gloves",
@@ -576,10 +690,12 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N2"
-   ],
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   }
   },
   {
    "key": "medicine",
@@ -597,9 +713,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N2"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "meerkat",
@@ -618,10 +736,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N2",
-    "N8"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "melon",
@@ -639,7 +758,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "mercury",
@@ -656,7 +780,12 @@
     "g": "m"
    },
    "type": "proper-noun",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "proper-noun",
+    "hasGender": true,
+    "hasPlural": false
+   }
   },
   {
    "key": "merry",
@@ -670,10 +799,15 @@
    "cur": {
     "s": "Fröhlich",
     "p": "Fröhlich",
-    "g": "m"
+    "g": null
    },
    "type": "adjective",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
   },
   {
    "key": "meteor",
@@ -690,7 +824,12 @@
     "g": "m"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "microphone",
@@ -704,10 +843,15 @@
    "cur": {
     "s": "Mikrofon",
     "p": "Mikrofone",
-    "g": "m"
+    "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "microscope",
@@ -724,7 +868,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "microwave",
@@ -745,7 +894,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "milk",
@@ -764,7 +918,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "mass",
+    "hasGender": true,
+    "hasPlural": false
+   }
   },
   {
    "key": "milkshake",
@@ -781,7 +940,12 @@
     "g": "m"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "millipede",
@@ -799,10 +963,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N2",
-    "N8"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "minibus",
@@ -819,7 +984,12 @@
     "g": "m"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "mirror",
@@ -838,10 +1008,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N2",
-    "N8"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "mistletoe",
@@ -858,7 +1029,12 @@
     "g": "m"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "mitten",
@@ -876,7 +1052,12 @@
     "g": "m"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "mittens",
@@ -896,9 +1077,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N2"
-   ]
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   }
   },
   {
    "key": "mixer",
@@ -913,10 +1096,15 @@
    "cur": {
     "s": "Rührgerät",
     "p": "Rührgeräte",
-    "g": "m"
+    "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "monkey",
@@ -935,7 +1123,12 @@
     "g": "m"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "monster-truck",
@@ -953,7 +1146,12 @@
     "g": "m"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "moon",
@@ -974,7 +1172,12 @@
     "g": "m"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "moose",
@@ -993,7 +1196,12 @@
     "g": "m"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "mop",
@@ -1010,7 +1218,12 @@
     "g": "m"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "morning-glory",
@@ -1027,7 +1240,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "mortar-and-pestle",
@@ -1043,11 +1261,12 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N2",
-    "N8"
-   ],
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "mosasaurus",
@@ -1060,11 +1279,16 @@
    ],
    "cur": {
     "s": "Mosasaurus",
-    "p": "Mosasauren",
+    "p": "Mosasaurier",
     "g": "m"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "mosquito",
@@ -1082,7 +1306,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "mother",
@@ -1098,12 +1327,12 @@
    },
    "type": null,
    "countable": null,
-   "nets": [
-    "N5",
-    "N7",
-    "N6"
-   ],
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "motorcycle",
@@ -1121,7 +1350,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "mountain",
@@ -1139,7 +1373,12 @@
     "g": "m"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "mouse",
@@ -1160,9 +1399,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N5"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "mouth",
@@ -1180,9 +1421,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N5"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "muffin",
@@ -1204,7 +1447,12 @@
     "g": "m"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "muffin-tin",
@@ -1221,7 +1469,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "mug",
@@ -1240,9 +1493,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N6"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "muscles",
@@ -1260,9 +1515,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N2"
-   ]
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   }
   },
   {
    "key": "museum",
@@ -1279,7 +1536,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "mushroom",
@@ -1299,7 +1561,12 @@
     "g": "m"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "musical-note",
@@ -1315,7 +1582,12 @@
    },
    "type": "noun",
    "countable": true,
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "musician",
@@ -1333,10 +1605,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N2",
-    "N8"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "nail",
@@ -1355,9 +1628,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N5"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "narwhal",
@@ -1375,7 +1650,12 @@
     "g": "m"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "native-american",
@@ -1388,15 +1668,16 @@
    ],
    "cur": {
     "s": "Indigener Amerikaner",
-    "p": "Indigener Amerikaner",
+    "p": "Indigene Amerikaner",
     "g": "m"
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N2",
-    "N8"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "nativity",
@@ -1413,7 +1694,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "neck",
@@ -1431,9 +1717,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N5"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "necklace",
@@ -1450,7 +1738,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "necktie",
@@ -1468,9 +1761,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N6"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "nectarine",
@@ -1487,7 +1782,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "neptune",
@@ -1504,7 +1804,12 @@
     "g": "m"
    },
    "type": "proper-noun",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "proper-noun",
+    "hasGender": true,
+    "hasPlural": false
+   }
   },
   {
    "key": "nest",
@@ -1523,7 +1828,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "net",
@@ -1540,7 +1850,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "nightstand",
@@ -1558,7 +1873,12 @@
     "g": "m"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "nose",
@@ -1575,7 +1895,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "notebook",
@@ -1593,7 +1918,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "nurse",
@@ -1611,7 +1941,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "nut",
@@ -1629,9 +1964,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N6"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "nutcracker",
@@ -1649,10 +1986,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N2",
-    "N8"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "oak-tree",
@@ -1669,7 +2007,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "oar",
@@ -1687,10 +2030,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N2",
-    "N8"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "oatmeal",
@@ -1707,7 +2051,12 @@
     "g": "m"
    },
    "type": "noun",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "mass",
+    "hasGender": true,
+    "hasPlural": false
+   }
   },
   {
    "key": "octagon",
@@ -1723,7 +2072,12 @@
    },
    "type": "noun",
    "countable": true,
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "octopus",
@@ -1738,14 +2092,16 @@
    ],
    "cur": {
     "s": "Oktopus",
-    "p": "Kraken",
+    "p": "Oktopusse",
     "g": "m"
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N5"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "office-worker",
@@ -1758,15 +2114,16 @@
    ],
    "cur": {
     "s": "Büroangestellter",
-    "p": "Büroangestellter",
+    "p": "Büroangestellte",
     "g": "m"
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N2",
-    "N8"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "oil",
@@ -1783,7 +2140,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "mass",
+    "hasGender": true,
+    "hasPlural": false
+   }
   },
   {
    "key": "onion",
@@ -1801,7 +2163,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "orange",
@@ -1821,7 +2188,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "orange-tree",
@@ -1838,7 +2210,12 @@
     "g": "m"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "orangutan",
@@ -1856,7 +2233,12 @@
     "g": "m"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "orca",
@@ -1874,7 +2256,12 @@
     "g": "m"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "orchard",
@@ -1887,15 +2274,16 @@
    ],
    "cur": {
     "s": "Obstgarten",
-    "p": "Obstgarten",
+    "p": "Obstgärten",
     "g": "m"
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N2",
-    "N8"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "orchid",
@@ -1912,7 +2300,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "ornament",
@@ -1929,7 +2322,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "ostrich",
@@ -1948,7 +2346,12 @@
     "g": "m"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "otter",
@@ -1967,10 +2370,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N2",
-    "N8"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "ottoman",
@@ -1988,11 +2392,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N2",
-    "N8",
-    "N6"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "outlet",
@@ -2009,7 +2413,12 @@
     "g": "f"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "oval",
@@ -2026,7 +2435,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "oven",
@@ -2046,9 +2460,11 @@
    },
    "type": "noun",
    "countable": true,
-   "nets": [
-    "N5"
-   ]
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "oven-mitt",
@@ -2065,7 +2481,12 @@
     "g": "m"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   }
  ]
 }

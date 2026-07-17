@@ -1,20 +1,540 @@
 {
+ "locale": "no",
+ "reverified": true,
  "corrections": {
-  "singular": {},
+  "singular": {
+   "brush": {
+    "from": "Borste",
+    "to": "Børste",
+    "why": "Diacritic-stripped: the Bokmål word for brush is 'børste' (with ø), not 'borste'. NAOB lemma confirms 'børste'.",
+    "src": "NAOB"
+   },
+   "crow": {
+    "from": "Krake",
+    "to": "Kråke",
+    "why": "crow = kråke (en; NAOB: kråke, kråker); 'krake' means a feeble creature/nag — wrong word",
+    "src": "NAOB kråke"
+   },
+   "dryer": {
+    "from": "Torketrommel",
+    "to": "Tørketrommel",
+    "why": "missing ø; correct spelling is tørketrommel (NAOB: tørketrommel, en, m)",
+    "src": "NAOB tørketrommel"
+   },
+   "hot-dog": {
+    "from": "Pølse i Brød",
+    "to": "Pølse i brød",
+    "why": "Mid-phrase common noun wrongly capitalized; file convention is sentence-case for multiword entries (cf. 'Stekt kylling', 'Grønne bønner'). 'brød' is not a proper noun.",
+    "src": "orthography/convention"
+   },
+   "painting": {
+    "from": "Male",
+    "to": "Maleri",
+    "why": "s was the verb 'male' (to paint), not the noun. A painting = et maleri (neuter; malerier). Plural 'Malerier' was already correct.",
+    "src": "NAOB maleri (et; maleriet, malerier)"
+   }
+  },
   "plural": {
-   "broccoli":   {"from":"Brokkoli",        "to":"Brokkolier",         "why":"builder left p=s; Bokmålsordboka attests plural brokkolier (m)",            "src":"https://en.wiktionary.org/wiki/brokkoli"},
-   "celery":     {"from":"Selleri",          "to":"Sellerier",          "why":"builder left p=s; Bokmålsordboka attests plural sellerier (m)",             "src":"https://en.wiktionary.org/wiki/selleri"},
-   "cereal":     {"from":"Frokostblanding",  "to":"Frokostblandinger",  "why":"builder left p=s; attested plural frokostblandinger",                       "src":"https://en.wiktionary.org/wiki/frokostblanding"},
-   "ear":        {"from":"Øre",              "to":"Ører",               "why":"body-part øre is neuter with plural ører; builder left p=s (zero is the coin sense)", "src":"https://en.wiktionary.org/wiki/%C3%B8re"},
-   "eye":        {"from":"Øye",              "to":"Øyne",               "why":"builder left p=s; correct irregular plural is øyne",                        "src":"https://en.wiktionary.org/wiki/%C3%B8ye"},
-   "finger":     {"from":"Fingere",          "to":"Fingrer",            "why":"Fingere not attested; standard plural fingrer (also fingre)",               "src":"https://en.wiktionary.org/wiki/finger"},
-   "juice":      {"from":"Juice",            "to":"Juicer",             "why":"builder left p=s; attested plural juicer (m)",                              "src":"https://en.wiktionary.org/wiki/juice"},
-   "lettuce":    {"from":"Salat",            "to":"Salater",            "why":"builder left p=s; salat (m) plural salater",                                "src":"https://en.wiktionary.org/wiki/salat"},
-   "toast":      {"from":"Toast",            "to":"Toaster",            "why":"builder left p=s; attested plural toaster (m)",                             "src":"https://en.wiktionary.org/wiki/toast"}
+   "ant": {
+    "from": "Maurer",
+    "to": "Maur",
+    "why": "'maur' takes a zero plural: en maur / flere maur. NAOB: 'en; mauren, maur'. Builder over-applied -er.",
+    "src": "NAOB"
+   },
+   "apple-tree": {
+    "from": "Epletre",
+    "to": "Epletrær",
+    "why": "'tre' (tree) pluralises with umlaut to 'trær'; compound epletre → epletrær. English is plural (Trees), so a real plural is required.",
+    "src": "native/Wiktionary(tre→trær)"
+   },
+   "banana-tree": {
+    "from": "Banantre",
+    "to": "Banantrær",
+    "why": "tree compound: banantre → banantrær (tre → trær).",
+    "src": "native/Wiktionary(tre→trær)"
+   },
+   "banyan-tree": {
+    "from": "Banyantre",
+    "to": "Banyantrær",
+    "why": "tree compound: banyantre → banyantrær (tre → trær).",
+    "src": "native/Wiktionary(tre→trær)"
+   },
+   "baobab-tree": {
+    "from": "Baobabtre",
+    "to": "Baobabtrær",
+    "why": "tree compound: baobabtre → baobabtrær (tre → trær).",
+    "src": "native/Wiktionary(tre→trær)"
+   },
+   "barrette": {
+    "from": "Hårspennere",
+    "to": "Hårspenner",
+    "why": "'spenne' (buckle/clip) pluralises as 'spenner', not the agent-noun ending -ere. hårspenne → hårspenner.",
+    "src": "native"
+   },
+   "beach": {
+    "from": "Strander",
+    "to": "Strender",
+    "why": "'strand' has umlaut plural 'strender' (ei strand / flere strender), not 'strander'.",
+    "src": "native/Bokmålsordboka"
+   },
+   "bow-tie": {
+    "from": "Sløyfeslipser",
+    "to": "Sløyfeslips",
+    "why": "Head noun 'slips' is neuter with zero plural (et slips / flere slips). NAOB: 'et; slipset, slips'. So sløyfeslips is invariant in plural.",
+    "src": "NAOB"
+   },
+   "biscuit": {
+    "from": "Kjekser",
+    "to": "Kjeks",
+    "why": "'kjeks' takes a zero plural: en kjeks / flere kjeks. Wiktionary Bokmål: indefinite plural 'kjeks'.",
+    "src": "Wiktionary"
+   },
+   "branch": {
+    "from": "Greiner",
+    "to": "Grener",
+    "why": "Paradigm mismatch: singular is 'Gren', whose plural is 'grener' ('greiner' belongs to the variant stem 'grein'). Aligned plural to the given singular.",
+    "src": "native/Bokmålsordboka"
+   },
+   "camel": {
+    "from": "Kamler",
+    "to": "Kameler",
+    "why": "'kamel' keeps the -e- in plural: kameler, not the syncopated 'kamler'. NAOB: 'en; kamelen, kameler'.",
+    "src": "NAOB"
+   },
+   "candy-cane": {
+    "from": "Sukkerstanger",
+    "to": "Sukkerstenger",
+    "why": "'stang' has umlaut plural 'stenger'; sukkerstang → sukkerstenger. Wiktionary Bokmål: indefinite plural 'stenger'.",
+    "src": "Wiktionary"
+   },
+   "carrot": {
+    "from": "Gulroter",
+    "to": "Gulrøtter",
+    "why": "'rot' has umlaut plural 'røtter'; gulrot → gulrøtter. Wiktionary Bokmål confirms 'gulrøtter'.",
+    "src": "Wiktionary"
+   },
+   "brush": {
+    "from": "Borster",
+    "to": "Børster",
+    "why": "Diacritic-stripped stem; correct plural of 'børste' is 'børster'.",
+    "src": "NAOB"
+   },
+   "cherry-tree": {
+    "from": "Kirsebærtre",
+    "to": "Kirsebærtrær",
+    "why": "tre (neuter) has irregular plural trær, not unchanged",
+    "src": "native"
+   },
+   "chestnut-tree": {
+    "from": "Kastanjetre",
+    "to": "Kastanjetrær",
+    "why": "tre → trær (irregular)",
+    "src": "native"
+   },
+   "christmas-tree": {
+    "from": "Juletre",
+    "to": "Juletrær",
+    "why": "tre → trær (irregular)",
+    "src": "native"
+   },
+   "coffee-table": {
+    "from": "Sofabord",
+    "to": "Salongbord",
+    "why": "plural mismatched singular stem (salongbord vs sofabord); salongbord is neuter → unchanged plural",
+    "src": "native"
+   },
+   "colander": {
+    "from": "Dørslager",
+    "to": "Dørslag",
+    "why": "dørslag is neuter (et), plural unchanged (NAOB: et dørslag, dørslag)",
+    "src": "NAOB dørslag"
+   },
+   "comb": {
+    "from": "Kamer",
+    "to": "Kammer",
+    "why": "kam pluralises with double m: kammer (NAOB: kam, kammen, kammer)",
+    "src": "NAOB kam"
+   },
+   "crow": {
+    "from": "Kraker",
+    "to": "Kråker",
+    "why": "plural of kråke is kråker",
+    "src": "NAOB kråke"
+   },
+   "cruise-ship": {
+    "from": "Cruiseskiper",
+    "to": "Cruiseskip",
+    "why": "skip is neuter, plural unchanged (et skip → skip)",
+    "src": "native"
+   },
+   "duck": {
+    "from": "Ander",
+    "to": "Ender",
+    "why": "and (duck) plural is ender (umlaut), not ander",
+    "src": "native"
+   },
+   "dryer": {
+    "from": "Torketromler",
+    "to": "Tørketromler",
+    "why": "missing ø; correct is tørketromler",
+    "src": "NAOB tørketrommel"
+   },
+   "goggles": {
+    "from": "Vernebrillere",
+    "to": "Vernebriller",
+    "why": "Builder double-plural: singular 'vernebrille' pluralizes to 'vernebriller'; '-ere' is an over-applied second plural. s-field already holds 'Vernebriller' so p must match.",
+    "src": "NAOB vernebrille (en; vernebrillen, vernebriller)"
+   },
+   "green-beans": {
+    "from": "Grønne bønnere",
+    "to": "Grønne bønner",
+    "why": "'bønne' pluralizes to 'bønner'; '-ere' is a spurious double plural (ART_DEFECT). Plural-picture, s='Grønne bønner'.",
+    "src": "NAOB bønne (plural bønner)"
+   },
+   "keyboard": {
+    "from": "Keyboarder",
+    "to": "Keyboard",
+    "why": "Neuter English loan takes zero plural in bokmål (et keyboard, flere keyboard); builder over-applied '-er'.",
+    "src": "NAOB keyboard (et; keyboardet, keyboard)"
+   },
+   "lemon-tree": {
+    "from": "Sitrontre",
+    "to": "Sitrontrær",
+    "why": "Countable, p===s but 'tre' pluralises to 'trær'; compound → sitrontrær.",
+    "src": "NAOB tre (plural trær), sitrontre (et)"
+   },
+   "orange-tree": {
+    "from": "Appelsintre",
+    "to": "Appelsintrær",
+    "why": "Same tree-compound plural rule: -tre → -trær.",
+    "src": "NAOB tre (plural trær)"
+   },
+   "peach-tree": {
+    "from": "Ferskentre",
+    "to": "Ferskentrær",
+    "why": "Same tree-compound plural rule: -tre → -trær.",
+    "src": "NAOB tre (plural trær)"
+   },
+   "pear-tree": {
+    "from": "Pæretre",
+    "to": "Pæretrær",
+    "why": "Same tree-compound plural rule: -tre → -trær.",
+    "src": "NAOB tre (plural trær)"
+   },
+   "mail-carrier": {
+    "from": "Postbuder",
+    "to": "Postbud",
+    "why": "postbud is neuter (et postbud); base 'bud' has zero-plural (et; budet, bud), so postbud → postbud unchanged.",
+    "src": "NAOB postbud (et), bud (et; budet, bud)"
+   },
+   "measuring-cup": {
+    "from": "Målebegere",
+    "to": "Målebegre",
+    "why": "Base 'beger' is neuter with plural 'begre'; compound målebeger → målebegre.",
+    "src": "NAOB beger (et; begeret, begre)"
+   },
+   "necktie": {
+    "from": "Slipser",
+    "to": "Slips",
+    "why": "slips is neuter monosyllable with zero plural (et; slipset, slips).",
+    "src": "NAOB slips (et; slipset, slips)"
+   },
+   "otter": {
+    "from": "Oterer",
+    "to": "Otere",
+    "why": "oter plural is 'otere' (builder over-applied -er).",
+    "src": "NAOB oter (en; oteren, otere)"
+   },
+   "overalls": {
+    "from": "Overaller",
+    "to": "Selebukser",
+    "why": "Plural did not match its own singular 'Selebukse'; correct plural is selebukser.",
+    "src": "NAOB selebukse (en; selebukser)"
+   },
+   "picnic-table": {
+    "from": "Picknickbord",
+    "to": "Piknikbord",
+    "why": "Misspelled (Swedish-style ck) and 'bord' is neuter zero-plural; matches singular Piknikbord.",
+    "src": "bokmål bord (et; bordet, bord); consistent with s"
+   },
+   "pliers": {
+    "from": "Tanger",
+    "to": "Tenger",
+    "why": "NAOB tang (redskap): en; tangen, tenger — irregular umlaut plural, not builder's regular -er.",
+    "src": "NAOB tang"
+   },
+   "pipe-wrench": {
+    "from": "Rørtanger",
+    "to": "Rørtenger",
+    "why": "Compound with -tang; plural of tang is tenger (NAOB), so rørtang -> rørtenger.",
+    "src": "NAOB tang"
+   },
+   "plum-tree": {
+    "from": "Plommetre",
+    "to": "Plommetrær",
+    "why": "Head -tre (tree): et tre -> trær. Builder left plural unchanged; correct plural is -trær.",
+    "src": "NAOB tre (standard bokmål: tre/trær)"
+   },
+   "redbud-tree": {
+    "from": "Judastre",
+    "to": "Judastrær",
+    "why": "Head -tre (tree): et tre -> trær. Plural was left unchanged; correct is -trær.",
+    "src": "NAOB tre (standard bokmål: tre/trær)"
+   },
+   "rain": {
+    "from": "Regner",
+    "to": "Regn",
+    "why": "regn is a neuter mass noun (NAOB: et; regnet, no flertall). Builder's -er plural is wrong; unchanged neuter form Regn.",
+    "src": "NAOB regn"
+   },
+   "shoulder": {
+    "from": "Skuldere",
+    "to": "Skuldre",
+    "why": "NAOB skulder: en; skulderen, skuldre. Builder over-applied -ere; correct plural is skuldre.",
+    "src": "NAOB skulder"
+   },
+   "sneaker": {
+    "from": "Joggeskoer",
+    "to": "Joggesko",
+    "why": "Head -sko: en sko -> sko (zero plural). Builder over-applied -er; joggesko is unchanged in plural.",
+    "src": "NAOB sko (standard bokmål: sko/sko)"
+   },
+   "spoon": {
+    "from": "Skjer",
+    "to": "Skjeer",
+    "why": "skje (utensil) plural is skjeer (en skje, skjeen, skjeer); builder dropped an -e",
+    "src": "NAOB skje / bokmål paradigm"
+   },
+   "trowel": {
+    "from": "Murskjer",
+    "to": "Murskjeer",
+    "why": "murskje = mur+skje; base skje plural skjeer -> murskjeer",
+    "src": "NAOB murskje/skje"
+   },
+   "sundae": {
+    "from": "Iskrembegere",
+    "to": "Iskrembegre",
+    "why": "beger is neuter, plural begre (et beger, begeret, begre); builder wrongly added -ere",
+    "src": "NAOB beger"
+   },
+   "theater": {
+    "from": "Teatere",
+    "to": "Teatre",
+    "why": "et teater, plural teatre (syncopated); -ere is not standard",
+    "src": "NAOB teater"
+   },
+   "thermometer": {
+    "from": "Termometere",
+    "to": "Termometre",
+    "why": "et termometer, plural termometre; -ere not standard",
+    "src": "NAOB termometer"
+   },
+   "tie": {
+    "from": "Slipser",
+    "to": "Slips",
+    "why": "et slips, plural slips (zero); builder over-applied -er",
+    "src": "NAOB slips (et; slipset, slips)"
+   },
+   "tights": {
+    "from": "Tights",
+    "to": "Strømpebukser",
+    "why": "plural field held the untranslated English word; strømpebukse -> strømpebukser",
+    "src": "NAOB strømpebukse"
+   },
+   "toe": {
+    "from": "Tåer",
+    "to": "Tær",
+    "why": "tå has umlaut plural tær (en tå, tåa/tåen, tær, tærne)",
+    "src": "Wiktionary/NAOB tå"
+   },
+   "tongs": {
+    "from": "Tanger",
+    "to": "Tenger",
+    "why": "tang (tool) has umlaut plural tenger",
+    "src": "Wiktionary/NAOB tang"
+   },
+   "towel": {
+    "from": "Håndkler",
+    "to": "Håndklær",
+    "why": "et håndkle, plural håndklær (not håndkler)",
+    "src": "NAOB håndkle (et; håndkleet, håndklær)"
+   },
+   "tree": {
+    "from": "Tre",
+    "to": "Trær",
+    "why": "et tre (plant) plural trær (et tre, treet, trær); builder left s===p",
+    "src": "bokmål paradigm tre->trær"
+   },
+   "turnip": {
+    "from": "Kålroter",
+    "to": "Kålrøtter",
+    "why": "kålrot = kål+rot; rot has umlaut plural røtter -> kålrøtter",
+    "src": "NAOB kålrot/rot->røtter"
+   },
+   "walnut-tree": {
+    "from": "Valnøttre",
+    "to": "Valnøttrær",
+    "why": "valnøttre = valnøtt+tre; tre plural trær -> valnøttrær; builder left s===p",
+    "src": "bokmål paradigm X-tre->X-trær"
+   },
+   "weasel": {
+    "from": "Snømuser",
+    "to": "Snømus",
+    "why": "snømus = snø+mus; mus has zero plural (mus) -> snømus; builder over-applied -er",
+    "src": "NAOB mus (en; musen/musa, mus)"
+   },
+   "suspenders": {
+    "from": "Bukseselere",
+    "to": "Bukseseler",
+    "why": "buksesele (m, mest i flertall) plural bukseseler; -ere is not a valid form (singular field already holds the plural picture label)",
+    "src": "NAOB buksesele"
+   }
   },
   "gender": {
-   "air-conditioning": {"from":"m","to":"n","why":"klimaanlegg is neuter (et klimaanlegg; -anlegg always neuter); m implausible","src":"https://en.wiktionary.org/wiki/klimaanlegg"},
-   "piano":            {"from":"m","to":"n","why":"et piano is neuter; m implausible (plural pianoer stays, unchanged)","src":"https://en.wiktionary.org/wiki/piano"}
+   "apron": {
+    "from": "m",
+    "to": "n",
+    "why": "'forkle' is neuter: et forkle. Wiktionary Bokmål: 'forkle n'.",
+    "src": "Wiktionary"
+   },
+   "bow-tie": {
+    "from": "m",
+    "to": "n",
+    "why": "Head noun 'slips' is neuter (et slips). NAOB: 'et; slipset, slips'.",
+    "src": "NAOB"
+   },
+   "bun": {
+    "from": "m",
+    "to": "n",
+    "why": "'rundstykke' is neuter: et rundstykke. NAOB: 'et'.",
+    "src": "NAOB"
+   },
+   "camera": {
+    "from": "m",
+    "to": "n",
+    "why": "'kamera' is neuter: et kamera. NAOB: 'et; kameraet, kameraer'.",
+    "src": "NAOB"
+   },
+   "cash-register": {
+    "from": "m",
+    "to": "n",
+    "why": "Head noun 'apparat' is neuter (et apparat); kassaapparat → et kassaapparat. NAOB: 'et; apparatet, apparater'.",
+    "src": "NAOB"
+   },
+   "colander": {
+    "from": "m",
+    "to": "n",
+    "why": "dørslag is et-ord/neuter (NAOB: et dørslag)",
+    "src": "NAOB dørslag"
+   },
+   "cruise-ship": {
+    "from": "m",
+    "to": "n",
+    "why": "skip is et-ord/neuter (et cruiseskip)",
+    "src": "native"
+   },
+   "helicopter": {
+    "from": "m",
+    "to": "n",
+    "why": "'helikopter' is neuter (et helikopter); builder default m is wrong. Plural 'Helikoptere' is valid ('helikoptre eller helikoptere').",
+    "src": "NAOB helikopter (et; helikopteret, helikoptre eller helikoptere; nøytrum)"
+   },
+   "glasses": {
+    "from": "n",
+    "to": "m",
+    "why": "s/p field 'Briller' from 'brille', which is maskulinum(femininum); DATA uses m/n so feminine->m. Neuter is wrong.",
+    "src": "NAOB brille (en; brillen, briller; maskulinum (femininum))"
+   },
+   "keyboard": {
+    "from": "m",
+    "to": "n",
+    "why": "'keyboard' is neuter in bokmål (et keyboard); builder default m is wrong.",
+    "src": "NAOB keyboard (et; keyboardet, keyboard; nøytrum)"
+   },
+   "mail-carrier": {
+    "from": "m",
+    "to": "n",
+    "why": "et postbud — neuter (base 'bud' neuter).",
+    "src": "NAOB postbud (et)"
+   },
+   "measuring-cup": {
+    "from": "m",
+    "to": "n",
+    "why": "et (måle)beger — neuter (base 'beger' neuter).",
+    "src": "NAOB beger (et)"
+   },
+   "necktie": {
+    "from": "m",
+    "to": "n",
+    "why": "et slips — neuter.",
+    "src": "NAOB slips (et)"
+   },
+   "rain": {
+    "from": "m",
+    "to": "n",
+    "why": "NAOB regn: genus nøytrum (et; regnet). Builder default-skewed to m.",
+    "src": "NAOB regn"
+   },
+   "scarecrow": {
+    "from": "m",
+    "to": "n",
+    "why": "NAOB fugleskremsel: genus nøytrum (et). Head -skremsel is neuter. Builder mis-set to m.",
+    "src": "NAOB fugleskremsel"
+   },
+   "square": {
+    "from": "m",
+    "to": "n",
+    "why": "et kvadrat, genus nøytrum",
+    "src": "NAOB kvadrat"
+   },
+   "sundae": {
+    "from": "m",
+    "to": "n",
+    "why": "beger (iskrembeger) is neuter, et beger",
+    "src": "NAOB beger"
+   },
+   "sunglasses": {
+    "from": "n",
+    "to": "m",
+    "why": "brille is maskulinum (en brille); solbriller is not neuter",
+    "src": "NAOB brille"
+   },
+   "theater": {
+    "from": "m",
+    "to": "n",
+    "why": "et teater, genus nøytrum",
+    "src": "NAOB teater"
+   },
+   "thermometer": {
+    "from": "m",
+    "to": "n",
+    "why": "et termometer, genus nøytrum",
+    "src": "NAOB termometer"
+   },
+   "tie": {
+    "from": "m",
+    "to": "n",
+    "why": "et slips, genus nøytrum",
+    "src": "NAOB slips"
+   },
+   "towel": {
+    "from": "m",
+    "to": "n",
+    "why": "et håndkle, genus nøytrum",
+    "src": "NAOB håndkle"
+   },
+   "trapezoid": {
+    "from": "m",
+    "to": "n",
+    "why": "trapes as geometric shape is intetkjønn (et trapes); the masculine entry is the gymnastics apparatus/trapeze",
+    "src": "ordbokene.no trapes (2 senses)"
+   },
+   "trophy": {
+    "from": "m",
+    "to": "n",
+    "why": "et trofé, genus nøytrum",
+    "src": "NAOB trofé (et; trofeet, trofeer)"
+   }
   }
  }
 }

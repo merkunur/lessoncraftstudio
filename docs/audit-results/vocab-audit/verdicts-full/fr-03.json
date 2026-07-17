@@ -1,0 +1,42 @@
+{
+ "locale": "fr",
+ "batch": "03",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "guinea-pig": {
+    "from": "Cobayes",
+    "to": "Cochons d'Inde",
+    "why": "Plural must match the given singular 'Cochon d'Inde'; stored plural was a different synonym (cobaye). Plural of cochon d'Inde = cochons d'Inde.",
+    "src": "Larousse cochon d'Inde / cobaye n.m."
+   },
+   "kingfisher": {
+    "from": "Martin-pêcheurs",
+    "to": "Martins-pêcheurs",
+    "why": "Compound noun-noun: both elements pluralize.",
+    "src": "Larousse: martin-pêcheur, martins-pêcheurs"
+   }
+  },
+  "gender": {
+   "forest": {
+    "from": "m",
+    "to": "f",
+    "why": "forêt is feminine (une forêt); masculine 'foret' means drill bit, not forest.",
+    "src": "Larousse forêt n.f."
+   },
+   "gingerbread-house": {
+    "from": "m",
+    "to": "f",
+    "why": "Head noun of 'Maison en pain d'épices' is maison (feminine).",
+    "src": "Larousse maison n.f."
+   },
+   "jeep": {
+    "from": "m",
+    "to": "f",
+    "why": "jeep is feminine (une jeep).",
+    "src": "Larousse Jeep n.f."
+   }
+  }
+ }
+}

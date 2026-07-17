@@ -1,0 +1,60 @@
+{
+ "locale": "fr",
+ "batch": "05",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "sea-lion": {
+    "from": "Otaries",
+    "to": "Lions de mer",
+    "why": "plural must match the singular lemma 'Lion de mer' (lion→lions); 'Otaries' is a different lemma (otarie), leaving the entry internally inconsistent",
+    "src": "Larousse lion de mer / otarie"
+   }
+  },
+  "gender": {
+   "pinecone": {
+    "from": "m",
+    "to": "f",
+    "why": "head noun 'pomme' (pomme de pin) is feminine",
+    "src": "Larousse pomme n.f."
+   },
+   "pipe-wrench": {
+    "from": "m",
+    "to": "f",
+    "why": "head noun 'clé' (clé à molette) is feminine",
+    "src": "Larousse clé n.f."
+   },
+   "potato-chips": {
+    "from": "m",
+    "to": "f",
+    "why": "chips is feminine in French",
+    "src": "Larousse chips n.f."
+   },
+   "purse": {
+    "from": "f",
+    "to": "m",
+    "why": "porte-monnaie is masculine (un porte-monnaie)",
+    "src": "Larousse porte-monnaie n.m.inv."
+   },
+   "pyramid": {
+    "from": "m",
+    "to": "f",
+    "why": "pyramide is feminine (une pyramide)",
+    "src": "Larousse pyramide n.f."
+   },
+   "seahorse": {
+    "from": "f",
+    "to": "m",
+    "why": "hippocampe is masculine (un hippocampe); note sibling key sea-horse already correctly m",
+    "src": "Larousse hippocampe n.m."
+   },
+   "sea-lion": {
+    "from": "f",
+    "to": "m",
+    "why": "the displayed singular 'Lion de mer' is masculine (un lion de mer); gender f belonged to the mismatched 'otarie'",
+    "src": "Larousse lion de mer"
+   }
+  }
+ }
+}

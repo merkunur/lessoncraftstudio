@@ -1,0 +1,127 @@
+{
+ "locale": "pt",
+ "batch": "04",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {
+   "pear": {
+    "from": "Pêra",
+    "to": "Pera",
+    "why": "Circumflex dropped by the 1990 Orthographic Agreement; canonical spelling is 'pera'",
+    "src": "Priberam: entry lemma 'pera' — nome feminino (no accent)"
+   }
+  },
+  "plural": {
+   "manatee": {
+    "from": "Peixe-bois",
+    "to": "Peixes-bois",
+    "why": "Noun+noun compound: both elements pluralize",
+    "src": "Priberam peixe-boi — Plural: peixes-bois ou peixes-boi"
+   },
+   "millipede": {
+    "from": "Piolho-de-cobras",
+    "to": "Piolhos-de-cobra",
+    "why": "Noun+prep phrase: only the first element pluralizes",
+    "src": "Priberam piolho-de-cobra — Plural: piolhos-de-cobra"
+   },
+   "morning-glory": {
+    "from": "Glória-da-manhãs",
+    "to": "Glórias-da-manhã",
+    "why": "Noun+prep phrase (glória + da manhã): only first element pluralizes",
+    "src": "Priberam glória — nome feminino (pl. glórias); noun+de compound rule"
+   },
+   "nightstand": {
+    "from": "Criado-mudos",
+    "to": "Criados-mudos",
+    "why": "Noun+adjective compound: both elements pluralize",
+    "src": "Priberam criado-mudo — Plural: criados-mudos"
+   },
+   "lilac": {
+    "from": "Liláses",
+    "to": "Lilases",
+    "why": "Plural of oxytone -ás adds -es; stress shifts to paroxytone so acute drops",
+    "src": "Priberam lilás — Plural: lilases"
+   },
+   "pear": {
+    "from": "Pêras",
+    "to": "Peras",
+    "why": "Follows corrected unaccented singular 'pera'",
+    "src": "Priberam: lemma 'pera' — no circumflex"
+   }
+  },
+  "gender": {
+   "lifeguard-tower": {
+    "from": "m",
+    "to": "f",
+    "why": "Head noun 'torre' is feminine",
+    "src": "Priberam torre — nome feminino"
+   },
+   "light": {
+    "from": "m",
+    "to": "f",
+    "why": "'luz' is feminine",
+    "src": "Priberam luz — nome feminino"
+   },
+   "lights": {
+    "from": "m",
+    "to": "f",
+    "why": "'luzes' (luz) is feminine",
+    "src": "Priberam luz — nome feminino / nome feminino plural"
+   },
+   "map": {
+    "from": "f",
+    "to": "m",
+    "why": "'mapa' is masculine (o mapa)",
+    "src": "Priberam mapa — nome masculino"
+   },
+   "medical-gloves": {
+    "from": "m",
+    "to": "f",
+    "why": "'luva' is feminine",
+    "src": "Priberam luva — nome feminino"
+   },
+   "millipede": {
+    "from": "f",
+    "to": "m",
+    "why": "'piolho-de-cobra' is masculine",
+    "src": "Priberam piolho-de-cobra — nome masculino"
+   },
+   "mittens": {
+    "from": "m",
+    "to": "f",
+    "why": "'luva' is feminine",
+    "src": "Priberam luva — nome feminino"
+   },
+   "morning-glory": {
+    "from": "m",
+    "to": "f",
+    "why": "Head noun 'glória' is feminine",
+    "src": "Priberam glória — nome feminino"
+   },
+   "net": {
+    "from": "m",
+    "to": "f",
+    "why": "'rede' is feminine (a rede)",
+    "src": "Priberam rede — nome feminino"
+   },
+   "pajamas": {
+    "from": "f",
+    "to": "m",
+    "why": "'pijama' is masculine (o pijama)",
+    "src": "Priberam pijama — nome masculino"
+   },
+   "mitten": {
+    "from": "m",
+    "to": "f",
+    "why": "'mitene' is feminine",
+    "src": "Priberam mitene — nome feminino"
+   },
+   "pickup-truck": {
+    "from": "m",
+    "to": "f",
+    "why": "'picape' (the vehicle) is feminine in BR",
+    "src": "Priberam picape — nome feminino [Brasil][Automóvel]"
+   }
+  }
+ }
+}

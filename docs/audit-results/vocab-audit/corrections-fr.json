@@ -1,46 +1,209 @@
 {
-  "corrections": {
-    "singular": {
-      "violet": {
-        "from": "Violet",
-        "to": "Violette",
-        "why": "Entry is the countable flower (EN 'Violet/Violets'); FR left the masculine colour word 'Violet'. Larousse: the flower is 'violette' n.f.; 'violet' is only the colour/adjectif.",
-        "src": "https://www.larousse.fr/dictionnaires/francais/violette"
-      }
-    },
-    "plural": {
-      "penguin": {
-        "from": "Pingouins",
-        "to": "Manchots",
-        "why": "Singular is 'Manchot' (penguin); plural wrongly held 'Pingouins' (a different animal, the auk). Larousse: manchot n.m. -> manchots.",
-        "src": "https://www.larousse.fr/dictionnaires/francais/manchot"
-      },
-      "yak": {
-        "from": "Yacks",
-        "to": "Yaks",
-        "why": "Singular is 'Yak'; plural must agree -> 'Yaks'. 'Yacks' is the plural of the variant spelling 'yack'. Larousse gives 'yack ou yak', plural regular +s.",
-        "src": "https://www.larousse.fr/dictionnaires/francais/yak"
-      },
-      "violet": {
-        "from": "Violets",
-        "to": "Violettes",
-        "why": "Flower plural agrees with corrected singular 'violette' (n.f.) -> 'violettes'.",
-        "src": "https://www.larousse.fr/dictionnaires/francais/violette"
-      }
-    },
-    "gender": {
-      "squash": {
-        "from": "m",
-        "to": "f",
-        "why": "Larousse: 'courge' is nom feminin (la courge). cur coded masculine.",
-        "src": "https://www.larousse.fr/dictionnaires/francais/courge"
-      },
-      "violet": {
-        "from": "m",
-        "to": "f",
-        "why": "Flower 'violette' is nom feminin; cur held the masculine colour word.",
-        "src": "https://www.larousse.fr/dictionnaires/francais/violette"
-      }
-    }
+ "locale": "fr",
+ "reverified": true,
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "centipede": {
+    "from": "Mille-pattes",
+    "to": "Scolopendres",
+    "why": "Plural mismatched the singular 'Scolopendre'; regular plural is scolopendres",
+    "src": "Larousse scolopendre n.f."
+   },
+   "dump-truck": {
+    "from": "Camion-bennes",
+    "to": "Camions-bennes",
+    "why": "Both noun elements pluralize in the apposition compound: des camions-bennes",
+    "src": "Larousse camion n.m."
+   },
+   "guinea-pig": {
+    "from": "Cobayes",
+    "to": "Cochons d'Inde",
+    "why": "Plural must match the given singular 'Cochon d'Inde'; stored plural was a different synonym (cobaye). Plural of cochon d'Inde = cochons d'Inde.",
+    "src": "Larousse cochon d'Inde / cobaye n.m."
+   },
+   "kingfisher": {
+    "from": "Martin-pêcheurs",
+    "to": "Martins-pêcheurs",
+    "why": "Compound noun-noun: both elements pluralize.",
+    "src": "Larousse: martin-pêcheur, martins-pêcheurs"
+   },
+   "sea-lion": {
+    "from": "Otaries",
+    "to": "Lions de mer",
+    "why": "plural must match the singular lemma 'Lion de mer' (lion→lions); 'Otaries' is a different lemma (otarie), leaving the entry internally inconsistent",
+    "src": "Larousse lion de mer / otarie"
+   },
+   "squid": {
+    "from": "Calamars",
+    "to": "Calmars",
+    "why": "singular head is 'Calmar'; plural of calmar is 'calmars' (spelling-variant mismatch: Calmar vs Calamars)",
+    "src": "Larousse: calmar (ou calamar) n.m."
+   },
+   "tanker-truck": {
+    "from": "Camion-citernes",
+    "to": "Camions-citernes",
+    "why": "both elements pluralize in this noun+noun compound",
+    "src": "Larousse: camion-citerne, camions-citernes n.m."
+   },
+   "teacher": {
+    "from": "Enseignants",
+    "to": "Professeurs",
+    "why": "plural must match the singular head 'Professeur', not a different lexeme (enseignant)",
+    "src": "morphology (head consistency)"
+   },
+   "woodpecker": {
+    "from": "Piverts",
+    "to": "Pics",
+    "why": "plural must match the singular head 'Pic' (le pic); 'piverts' is a different lexeme",
+    "src": "morphology (head consistency)"
+   }
+  },
+  "gender": {
+   "angel": {
+    "from": "f",
+    "to": "m",
+    "why": "'ange' is always masculine (un ange), even for a female angel",
+    "src": "Larousse: ange n.m."
+   },
+   "cabin": {
+    "from": "m",
+    "to": "f",
+    "why": "'cabane' is feminine (une cabane); cf. 'cabana' row correctly f",
+    "src": "Larousse: cabane n.f."
+   },
+   "cake-pan": {
+    "from": "f",
+    "to": "m",
+    "why": "baking mould = le moule (masculine); la moule only = mussel",
+    "src": "Larousse: moule n.m."
+   },
+   "centipede": {
+    "from": "m",
+    "to": "f",
+    "why": "scolopendre is nom féminin",
+    "src": "Larousse scolopendre n.f."
+   },
+   "chocolate-bar": {
+    "from": "m",
+    "to": "f",
+    "why": "Head noun of 'Barre de chocolat' is barre (nom féminin): une barre de chocolat",
+    "src": "Larousse barre n.f."
+   },
+   "cymbals": {
+    "from": "m",
+    "to": "f",
+    "why": "cymbale is nom féminin: une cymbale, des cymbales",
+    "src": "Larousse cymbale n.f."
+   },
+   "double-ended-wrench": {
+    "from": "m",
+    "to": "f",
+    "why": "Head noun of 'Clé à deux bouts' is clé (nom féminin): une clé",
+    "src": "Larousse clé n.f."
+   },
+   "erlenmeyer-flask": {
+    "from": "m",
+    "to": "f",
+    "why": "Head noun of 'Fiole Erlenmeyer' is fiole (nom féminin): une fiole",
+    "src": "Larousse fiole n.f."
+   },
+   "forest": {
+    "from": "m",
+    "to": "f",
+    "why": "forêt is feminine (une forêt); masculine 'foret' means drill bit, not forest.",
+    "src": "Larousse forêt n.f."
+   },
+   "gingerbread-house": {
+    "from": "m",
+    "to": "f",
+    "why": "Head noun of 'Maison en pain d'épices' is maison (feminine).",
+    "src": "Larousse maison n.f."
+   },
+   "jeep": {
+    "from": "m",
+    "to": "f",
+    "why": "jeep is feminine (une jeep).",
+    "src": "Larousse Jeep n.f."
+   },
+   "muffin-tin": {
+    "from": "f",
+    "to": "m",
+    "why": "'moule' (récipient/mold) is masculine (le moule); la moule = mussel. Head noun of 'Moule à muffins' is masculine.",
+    "src": "Larousse: moule n.m."
+   },
+   "oar": {
+    "from": "m",
+    "to": "f",
+    "why": "'rame' (aviron/oar) is feminine — la rame.",
+    "src": "Larousse: rame n.f."
+   },
+   "mercury": {
+    "from": "f",
+    "to": "m",
+    "why": "The planet/element Mercure is masculine (cf. Mars, Neptune both m in-batch); 'f' is the clear outlier.",
+    "src": "Larousse: mercure n.m."
+   },
+   "pinecone": {
+    "from": "m",
+    "to": "f",
+    "why": "head noun 'pomme' (pomme de pin) is feminine",
+    "src": "Larousse pomme n.f."
+   },
+   "pipe-wrench": {
+    "from": "m",
+    "to": "f",
+    "why": "head noun 'clé' (clé à molette) is feminine",
+    "src": "Larousse clé n.f."
+   },
+   "potato-chips": {
+    "from": "m",
+    "to": "f",
+    "why": "chips is feminine in French",
+    "src": "Larousse chips n.f."
+   },
+   "purse": {
+    "from": "f",
+    "to": "m",
+    "why": "porte-monnaie is masculine (un porte-monnaie)",
+    "src": "Larousse porte-monnaie n.m.inv."
+   },
+   "pyramid": {
+    "from": "m",
+    "to": "f",
+    "why": "pyramide is feminine (une pyramide)",
+    "src": "Larousse pyramide n.f."
+   },
+   "seahorse": {
+    "from": "f",
+    "to": "m",
+    "why": "hippocampe is masculine (un hippocampe); note sibling key sea-horse already correctly m",
+    "src": "Larousse hippocampe n.m."
+   },
+   "sea-lion": {
+    "from": "f",
+    "to": "m",
+    "why": "the displayed singular 'Lion de mer' is masculine (un lion de mer); gender f belonged to the mismatched 'otarie'",
+    "src": "Larousse lion de mer"
+   },
+   "sphere": {
+    "from": "m",
+    "to": "f",
+    "why": "sphère is feminine (une sphère)",
+    "src": "Larousse: sphère n.f."
+   },
+   "wallet": {
+    "from": "f",
+    "to": "m",
+    "why": "portefeuille is masculine (un portefeuille)",
+    "src": "Larousse: portefeuille n.m."
+   },
+   "wrench": {
+    "from": "m",
+    "to": "f",
+    "why": "head noun 'clé à molette' is feminine (une clé)",
+    "src": "Larousse: clé n.f."
+   }
   }
+ }
 }

@@ -1,0 +1,96 @@
+{
+ "locale": "pt",
+ "batch": "03",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "frog": {
+    "from": "Sapos",
+    "to": "Rãs",
+    "why": "Singular is 'Rã' but plural stored 'Sapos' (= toads, wrong lemma & gender). Plural of rã is rãs.",
+    "src": "native/lemma-consistency"
+   },
+   "gingerbread": {
+    "from": "Pões de gengibre",
+    "to": "Pães de gengibre",
+    "why": "'Pões' is not a valid plural of pão; pão→pães (irregular -ão→-ães).",
+    "src": "native/priberam"
+   },
+   "judge": {
+    "from": "Juizes",
+    "to": "Juízes",
+    "why": "Plural of juiz carries the accent: juízes.",
+    "src": "native/priberam(200)"
+   },
+   "kettlebell": {
+    "from": "Kettlebelis",
+    "to": "Kettlebells",
+    "why": "'Kettlebelis' is a garbled non-word; loanword plural = kettlebells.",
+    "src": "native/loanword"
+   },
+   "gopher": {
+    "from": "Esquilo-terrestres",
+    "to": "Esquilos-terrestres",
+    "why": "Noun+adjective compound: both elements pluralize (esquilos-terrestres).",
+    "src": "native/compound-plural"
+   },
+   "hermit-crab": {
+    "from": "Caranguejo-eremitas",
+    "to": "Caranguejos-eremitas",
+    "why": "Appositive N+N compound: both elements pluralize (caranguejos-eremitas).",
+    "src": "native/compound-plural"
+   },
+   "kingfisher": {
+    "from": "Martim-pescador",
+    "to": "Martins-pescadores",
+    "why": "Attested plural pluralizes both elements: martins-pescadores.",
+    "src": "native/priberam"
+   }
+  },
+  "gender": {
+   "ghost": {
+    "from": "f",
+    "to": "m",
+    "why": "Fantasma is masculine (o fantasma).",
+    "src": "native/priberam(200)"
+   },
+   "hammock": {
+    "from": "m",
+    "to": "f",
+    "why": "Rede is feminine (a rede).",
+    "src": "native/priberam(200)"
+   },
+   "french-fries": {
+    "from": "m",
+    "to": "f",
+    "why": "Batata(s) frita(s) is feminine.",
+    "src": "native"
+   },
+   "grapes": {
+    "from": "m",
+    "to": "f",
+    "why": "Uva is feminine (a uva).",
+    "src": "native"
+   },
+   "jelly-beans": {
+    "from": "m",
+    "to": "f",
+    "why": "Jujuba is feminine (a jujuba).",
+    "src": "native"
+   },
+   "hermit-crab": {
+    "from": "f",
+    "to": "m",
+    "why": "Caranguejo is masculine (o caranguejo).",
+    "src": "native/priberam(200)"
+   },
+   "frog": {
+    "from": "m",
+    "to": "f",
+    "why": "Rã is feminine (a rã); paired with plural fix Sapos→Rãs.",
+    "src": "native/lemma-consistency"
+   }
+  }
+ }
+}

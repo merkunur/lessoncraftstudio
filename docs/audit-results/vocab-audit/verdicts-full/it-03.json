@@ -1,0 +1,66 @@
+{
+ "locale": "it",
+ "batch": "03",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "fried-egg": {
+    "from": "Uovi fritti",
+    "to": "Uova fritte",
+    "why": "Plural of 'uovo' is irregular 'uova' (feminine pl); adjective agrees: 'uova fritte'. 'Uovi fritti' is a fabricated regular plural.",
+    "src": "Treccani: uovo s. m. (pl. le uova)"
+   },
+   "frisbee": {
+    "from": "Frisbei",
+    "to": "Frisbee",
+    "why": "English loanword, invariable in Italian; plural = singular. 'Frisbei' is an incorrect Italianized plural.",
+    "src": "loanword invariability"
+   },
+   "flip-flops": {
+    "from": "Infraditi",
+    "to": "Infradito",
+    "why": "'Infradito' is invariable (gli infradito); plural-picture s===p expected. 'Infraditi' is a fabricated plural.",
+    "src": "invariable compound"
+   },
+   "french-fries": {
+    "from": "Patatini Fritti",
+    "to": "Patatine fritte",
+    "why": "plural-picture (s===p) with fabricated wrong plural; correct form is 'patatine fritte' (patatina f). 'Patatini Fritti' is a wrong masculine-ized form.",
+    "src": "patatina→patatine (f)"
+   },
+   "guinea-pig": {
+    "from": "Porcellini d'India",
+    "to": "Cavie",
+    "why": "Plural must match singular lemma 'Cavia'; plural = 'cavie'. Current plural uses a different lemma (porcellino d'India).",
+    "src": "Treccani: cavia s. f. [pl. -e]"
+   }
+  },
+  "gender": {
+   "forehead": {
+    "from": "m",
+    "to": "f",
+    "why": "'fronte' meaning forehead is feminine in modern usage (masculine only in some figurative senses).",
+    "src": "Treccani: fronte s. f. o m. — 'nell’uso moderno sempre femm.'"
+   },
+   "knee": {
+    "from": "f",
+    "to": "m",
+    "why": "'ginocchio' is masculine singular (pl. le ginocchia collective f). Gender field describes the singular lemma.",
+    "src": "Treccani: ginocchio s. m."
+   },
+   "lawn-mower": {
+    "from": "f",
+    "to": "m",
+    "why": "'tosaerba' is masculine and invariable.",
+    "src": "Treccani: tosaerba s. m., invar."
+   },
+   "jeep": {
+    "from": "m",
+    "to": "f",
+    "why": "'jeep' is used as feminine in Italian.",
+    "src": "Treccani: jeep — 'usato in ital. al femm.'"
+   }
+  }
+ }
+}

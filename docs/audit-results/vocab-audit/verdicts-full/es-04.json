@@ -1,0 +1,29 @@
+{
+ "locale": "es",
+ "batch": "04",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "pie": {
+    "from": "Payes",
+    "to": "Pays",
+    "why": "MX 'pay' (pie) pluralizes as loan +s, not native -yes; 'Payes' is incorrect",
+    "src": "WordReference: Inflexiones de 'pay' (nm): mpl: pays"
+   },
+   "picnic": {
+    "from": "Picnices",
+    "to": "Picnics",
+    "why": "loan ending in -c takes +s, not -ces; 'Picnices' is incorrect",
+    "src": "WordReference: Inflexiones de 'picnic' (nm): mpl: picnics"
+   },
+   "manatee": {
+    "from": "Manatís",
+    "to": "Manatíes",
+    "why": "noun ending in stressed -í takes -es plural; 'Manatís' is the colloquial variant, dict prefers manatíes",
+    "src": "WordReference: Inflexiones de 'manatí' (nm): mpl: manatíes"
+   }
+  },
+  "gender": {}
+ }
+}

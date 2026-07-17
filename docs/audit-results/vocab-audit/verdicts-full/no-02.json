@@ -1,0 +1,35 @@
+{
+ "locale": "no",
+ "batch": "02",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {
+   "crow": {"from": "Krake", "to": "Kråke", "why": "crow = kråke (en; NAOB: kråke, kråker); 'krake' means a feeble creature/nag — wrong word", "src": "NAOB kråke"},
+   "dryer": {"from": "Torketrommel", "to": "Tørketrommel", "why": "missing ø; correct spelling is tørketrommel (NAOB: tørketrommel, en, m)", "src": "NAOB tørketrommel"},
+   "cymbals": {"from": "Cymbal", "to": "Cymbaler", "why": "plural-picture: image shows cymbals; both s and p should carry the plural form for s===p consistency", "src": "native"}
+  },
+  "plural": {
+   "cereal": {"from": "Frokostblanding", "to": "Frokostblandinger", "why": "countable; p===s but real plural is frokostblandinger", "src": "native"},
+   "cherry-tree": {"from": "Kirsebærtre", "to": "Kirsebærtrær", "why": "tre (neuter) has irregular plural trær, not unchanged", "src": "native"},
+   "chestnut-tree": {"from": "Kastanjetre", "to": "Kastanjetrær", "why": "tre → trær (irregular)", "src": "native"},
+   "christmas-tree": {"from": "Juletre", "to": "Juletrær", "why": "tre → trær (irregular)", "src": "native"},
+   "coffee-table": {"from": "Sofabord", "to": "Salongbord", "why": "plural mismatched singular stem (salongbord vs sofabord); salongbord is neuter → unchanged plural", "src": "native"},
+   "colander": {"from": "Dørslager", "to": "Dørslag", "why": "dørslag is neuter (et), plural unchanged (NAOB: et dørslag, dørslag)", "src": "NAOB dørslag"},
+   "comb": {"from": "Kamer", "to": "Kammer", "why": "kam pluralises with double m: kammer (NAOB: kam, kammen, kammer)", "src": "NAOB kam"},
+   "crow": {"from": "Kraker", "to": "Kråker", "why": "plural of kråke is kråker", "src": "NAOB kråke"},
+   "cruise-ship": {"from": "Cruiseskiper", "to": "Cruiseskip", "why": "skip is neuter, plural unchanged (et skip → skip)", "src": "native"},
+   "crutches": {"from": "Krykkere", "to": "Krykker", "why": "plural-picture s===p; singular field already holds correct plural krykker; -ere over-applied", "src": "native"},
+   "curtains": {"from": "Gardinere", "to": "Gardiner", "why": "plural-picture s===p; correct plural is gardiner; -ere over-applied", "src": "native"},
+   "duck": {"from": "Ander", "to": "Ender", "why": "and (duck) plural is ender (umlaut), not ander", "src": "native"},
+   "dryer": {"from": "Torketromler", "to": "Tørketromler", "why": "missing ø; correct is tørketromler", "src": "NAOB tørketrommel"},
+   "ear": {"from": "Øre", "to": "Ører", "why": "øre (ear) plural is ører; unchanged plural belongs to money-øre only", "src": "native"},
+   "eye": {"from": "Øye", "to": "Øyne", "why": "øye (eye) has irregular plural øyne", "src": "native"},
+   "eyelashes": {"from": "Øyevippere", "to": "Øyevipper", "why": "plural-picture s===p; correct plural is øyevipper; -ere over-applied", "src": "native"},
+   "finger": {"from": "Fingere", "to": "Fingrer", "why": "finger plural is fingre/fingrer (NAOB), not fingere", "src": "NAOB finger"}
+  },
+  "gender": {
+   "colander": {"from": "m", "to": "n", "why": "dørslag is et-ord/neuter (NAOB: et dørslag)", "src": "NAOB dørslag"},
+   "cruise-ship": {"from": "m", "to": "n", "why": "skip is et-ord/neuter (et cruiseskip)", "src": "native"}
+  }
+ }
+}

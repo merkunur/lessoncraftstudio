@@ -1,0 +1,54 @@
+{
+ "locale": "fr",
+ "batch": "02",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "centipede": {
+    "from": "Mille-pattes",
+    "to": "Scolopendres",
+    "why": "Plural mismatched the singular 'Scolopendre'; regular plural is scolopendres",
+    "src": "Larousse scolopendre n.f."
+   },
+   "dump-truck": {
+    "from": "Camion-bennes",
+    "to": "Camions-bennes",
+    "why": "Both noun elements pluralize in the apposition compound: des camions-bennes",
+    "src": "Larousse camion n.m."
+   }
+  },
+  "gender": {
+   "centipede": {
+    "from": "m",
+    "to": "f",
+    "why": "scolopendre is nom féminin",
+    "src": "Larousse scolopendre n.f."
+   },
+   "chocolate-bar": {
+    "from": "m",
+    "to": "f",
+    "why": "Head noun of 'Barre de chocolat' is barre (nom féminin): une barre de chocolat",
+    "src": "Larousse barre n.f."
+   },
+   "cymbals": {
+    "from": "m",
+    "to": "f",
+    "why": "cymbale is nom féminin: une cymbale, des cymbales",
+    "src": "Larousse cymbale n.f."
+   },
+   "double-ended-wrench": {
+    "from": "m",
+    "to": "f",
+    "why": "Head noun of 'Clé à deux bouts' is clé (nom féminin): une clé",
+    "src": "Larousse clé n.f."
+   },
+   "erlenmeyer-flask": {
+    "from": "m",
+    "to": "f",
+    "why": "Head noun of 'Fiole Erlenmeyer' is fiole (nom féminin): une fiole",
+    "src": "Larousse fiole n.f."
+   }
+  }
+ }
+}

@@ -1,48 +1,548 @@
 {
+ "locale": "fi",
+ "reverified": true,
  "corrections": {
   "singular": {},
   "plural": {
-   "lantern": {
-    "from": "Lyhtyt",
-    "to": "Lyhdyt",
-    "why": "consonant gradation t→d (KT type 1*F); dict shows inflected 'lyhdyin'",
-    "src": "https://www.kielitoimistonsanakirja.fi/#/lyhty"
+   "antelope": {
+    "from": "Antilooppeja",
+    "to": "Antiloopit",
+    "why": "Builder stored the partitive plural (antilooppeja). Nominative plural of antilooppi (infl. class 5*B, gradation pp->p) is antiloopit.",
+    "src": "Kielitoimiston sanakirja: antilooppi 5*B"
+   },
+   "architect": {
+    "from": "Arkkitehtit",
+    "to": "Arkkitehdit",
+    "why": "Missing t->d consonant gradation. arkkitehti -> gen. arkkitehdin -> nom.pl. arkkitehdit.",
+    "src": "Kielitoimiston sanakirja: arkkitehti 5*F (t:d)"
+   },
+   "aspen-tree": {
+    "from": "Haapat",
+    "to": "Haavat",
+    "why": "Missing p->v gradation. haapa -> gen. haavan -> nom.pl. haavat (dict cites 'haavalta').",
+    "src": "Kielitoimiston sanakirja: haapa 9*E (p:v)"
+   },
+   "barrette": {
+    "from": "Hiussolkit",
+    "to": "Hiussoljet",
+    "why": "Missing lk->lj gradation. solki -> gen. soljen -> nom.pl. soljet, so hiussolki -> hiussoljet.",
+    "src": "Kielitoimiston sanakirja: solki 7*L (lk:lj)"
+   },
+   "bathing-suit": {
+    "from": "Uimapukut",
+    "to": "Uimapuvut",
+    "why": "Missing k->v gradation. puku -> gen. puvun -> nom.pl. puvut, so uimapuku -> uimapuvut.",
+    "src": "Kielitoimiston sanakirja: puku 4*A (k:v)"
+   },
+   "beetroot": {
+    "from": "Punajuurit",
+    "to": "Punajuuret",
+    "why": "Wrong plural stem vowel. juuri (infl. class 26) -> nom.pl. juuret, so punajuuri -> punajuuret.",
+    "src": "Kielitoimiston sanakirja: punajuuri 26 (juuri-type -> juuret)"
+   },
+   "blender": {
+    "from": "Tehosekoitimet",
+    "to": "Tehosekoittimet",
+    "why": "Missing t->tt gradation in the oblique stem. sekoitin -> gen. sekoittimen -> nom.pl. sekoittimet.",
+    "src": "Kielitoimiston sanakirja: sekoitin 33*C (t:tt)"
+   },
+   "bread": {
+    "from": "Leipät",
+    "to": "Leivät",
+    "why": "Missing p->v gradation. leipä -> gen. leivän -> nom.pl. leivät (countable as loaves).",
+    "src": "Kielitoimiston sanakirja: leipä 10*E (p:v)"
+   },
+   "bracelet": {
+    "from": "Rannerengaat",
+    "to": "Rannerenkaat",
+    "why": "Missing ng->nk gradation. rengas -> gen. renkaan -> nom.pl. renkaat, so rannerengas -> rannerenkaat.",
+    "src": "Kielitoimiston sanakirja: rengas 41*G (nk:ng); dict cites 'Ketjun renkaat'"
+   },
+   "bison": {
+    "from": "Bisonit",
+    "to": "Biisonit",
+    "why": "Plural does not match the singular/lemma Biisoni (double-i). nom.pl. of biisoni is biisonit.",
+    "src": "Kielitoimiston sanakirja: biisoni 6"
+   },
+   "cloud": {
+    "from": "Pilvit",
+    "to": "Pilvet",
+    "why": "pilvi is a type-7 i~e stem noun (dict: pilvi7); nominative plural is pilvet, not the loanword-style *pilvit",
+    "src": "Kielitoimiston sanakirja: pilvi7"
+   },
+   "door": {
+    "from": "Ovit",
+    "to": "Ovet",
+    "why": "ovi is type-7 i~e stem (dict: ovi7); plural ovet",
+    "src": "Kielitoimiston sanakirja: ovi7"
+   },
+   "finger": {
+    "from": "Sormit",
+    "to": "Sormet",
+    "why": "sormi is type-7 i~e stem (dict: sormi7, entry text 'Sormet ihmisen käden...'); plural sormet",
+    "src": "Kielitoimiston sanakirja: sormi7"
+   },
+   "crane": {
+    "from": "Kurkit",
+    "to": "Kurjet",
+    "why": "kurki (the bird) is type 7*L: i~e stem + k>j gradation; plural kurjet, not *kurkit",
+    "src": "Kielitoimiston sanakirja: kurki7*L"
+   },
+   "chin": {
+    "from": "Leukat",
+    "to": "Leuat",
+    "why": "leuka is type 9*D: k disappears between vowels (leuka:leuan); plural leuat, not *leukat",
+    "src": "Kielitoimiston sanakirja: leuka9*D"
+   },
+   "crab": {
+    "from": "Raput",
+    "to": "Ravut",
+    "why": "rapu is type 1*E: p>v gradation (rapu:ravun); plural ravut, not *raput",
+    "src": "Kielitoimiston sanakirja: rapu1*E"
+   },
+   "feather": {
+    "from": "Höyhenit",
+    "to": "Höyhenet",
+    "why": "höyhen is type 32 (dict entry text 'Kanan, tiaisen höyhenet'); plural höyhenet, not the default +it *höyhenit",
+    "src": "Kielitoimiston sanakirja: höyhen32"
+   },
+   "envelope": {
+    "from": "Kirjekuorit",
+    "to": "Kirjekuoret",
+    "why": "kuori is type 26 i~e stem (dict taivutus 'kuor/en'); plural kuoret, so kirjekuori > kirjekuoret",
+    "src": "Kielitoimiston sanakirja: kuori26"
+   },
+   "fir-tree": {
+    "from": "Pihtat",
+    "to": "Pihdat",
+    "why": "pihta is type 9*F: ht>hd gradation (pihta:pihdan); plural pihdat, not *pihtat",
+    "src": "Kielitoimiston sanakirja: pihta9*F"
+   },
+   "firefighter": {
+    "from": "Palomieet",
+    "to": "Palomiehet",
+    "why": "mies is type 42 (stem mieh-, dict text 'Miehet'); plural miehet, so palomies > palomiehet. The stored *palomieet dropped the h",
+    "src": "Kielitoimiston sanakirja: mies42"
+   },
+   "electric-kettle": {
+    "from": "Vedenkeitimet",
+    "to": "Vedenkeittimet",
+    "why": "keitin is type 33*C agent noun: weak nom. -tin, strong oblique -ttime- (t>tt); plural keittimet, so vedenkeitin > vedenkeittimet. Builder missed the tt strengthening",
+    "src": "Kielitoimiston sanakirja: keitin33*C"
+   },
+   "fan": {
+    "from": "Tuuletimet",
+    "to": "Tuulettimet",
+    "why": "tuuletin is type 33*C (same class as keitin): -tin > -ttime-; plural tuulettimet, not *tuuletimet",
+    "src": "Kielitoimiston sanakirja: tuuletin33*C"
+   },
+   "dimetrodon": {
+    "from": "Dimetrodomet",
+    "to": "Dimetrodonit",
+    "why": "stored value is a corrupted builder output (spurious 'm', dropped 'n'); a consonant-final loan/genus name takes -i- + -t: dimetrodon > dimetrodonit",
+    "src": "consonant-final loanword plural rule; corrupted source form"
+   },
+   "gopher": {
+    "from": "Pussirottasukut",
+    "to": "Pussirottasuvut",
+    "why": "suku type 1*M (k~v gradation): suku : suvun : suvut. Builder kept the strong grade -k-.",
+    "src": "Kielitoimiston sanakirja: suku 1*M"
+   },
+   "hermit-crab": {
+    "from": "Erakkoraput",
+    "to": "Erakkoravut",
+    "why": "rapu type 1*E (p~v gradation): rapu : ravun : ravut. Builder kept the strong grade -p-.",
+    "src": "Kielitoimiston sanakirja: rapu 1*E"
+   },
+   "inflatable-ring": {
+    "from": "Uimarengaat",
+    "to": "Uimarenkaat",
+    "why": "rengas type 41*G: rengas : renkaan : renkaat (nom. weak -ng-, oblique/plural strong -nk-). Builder kept -ng-.",
+    "src": "Kielitoimiston sanakirja: rengas 41*G"
+   },
+   "island": {
+    "from": "Saarit",
+    "to": "Saaret",
+    "why": "saari type 26 (soft -i, e-stem): saari : saaren : saaret, not the loanword -it plural.",
+    "src": "Kielitoimiston sanakirja: saari 26"
+   },
+   "janitor": {
+    "from": "Talonmieet",
+    "to": "Talonmiehet",
+    "why": "mies type 42: mies : miehen : miehet. Builder dropped the stem -h-.",
+    "src": "Kielitoimiston sanakirja: mies 42"
+   },
+   "kettle": {
+    "from": "Vedenkeitimet",
+    "to": "Vedenkeittimet",
+    "why": "keitin type 33*C (t~tt): keitin : keittimen : keittimet (from keittää). Builder used weak grade single -t-.",
+    "src": "Kielitoimiston sanakirja: keitin 33*C"
+   },
+   "heater": {
+    "from": "Lämmitimet",
+    "to": "Lämmittimet",
+    "why": "lämmitin type 33*C (t~tt): lämmitin : lämmittimen : lämmittimet (from lämmittää). Builder used weak grade single -t-.",
+    "src": "Kielitoimiston sanakirja: lämmitin 33*C"
+   },
+   "kitchen-scale": {
+    "from": "Keittiövaakat",
+    "to": "Keittiövaa'at",
+    "why": "vaaka type 9*D (k~zero elision): vaaka : vaa'an : vaa'at. Builder kept -k-.",
+    "src": "Kielitoimiston sanakirja: vaaka 9*D"
+   },
+   "knee": {
+    "from": "Polvit",
+    "to": "Polvet",
+    "why": "polvi type 7 (e-stem -i): polvi : polven : polvet, not loanword -it.",
+    "src": "Kielitoimiston sanakirja: polvi 7"
+   },
+   "lake": {
+    "from": "Järvit",
+    "to": "Järvet",
+    "why": "järvi type 7 (e-stem -i): järvi : järven : järvet, not loanword -it.",
+    "src": "Kielitoimiston sanakirja: järvi 7"
+   },
+   "leg": {
+    "from": "Säärit",
+    "to": "Sääret",
+    "why": "sääri type 26 (soft -i, e-stem): sääri : säären : sääret, not loanword -it.",
+    "src": "Kielitoimiston sanakirja: sääri 26"
+   },
+   "glove": {
+    "from": "Hansikaat",
+    "to": "Hansikkaat",
+    "why": "hansikas type 41*A (k~kk): hansikas : hansikkaan : hansikkaat (nom. weak -k-, plural strong -kk-). Builder kept weak -k-.",
+    "src": "Kielitoimiston sanakirja: hansikas 41*A"
+   },
+   "iguanodon": {
+    "from": "Iguanodomet",
+    "to": "Iguanodonit",
+    "why": "Builder emitted a corrupt false-analogy form (as if sydän->sydämet). Foreign scientific -on noun takes -it directly: iguanodonit. No dict entry (paleontology term); correction on morphological grounds.",
+    "src": "morphology (no KS entry)"
+   },
+   "liberty": {
+    "from": "Vapaukset",
+    "to": "Vapaudet",
+    "why": "vapaus is type-40 abstract -Us noun (kalleus type); nom.pl. = vapaudet, not the vastaus-type -kset",
+    "src": "KS vapaus40 (gen vapauden)"
+   },
+   "life-preserver": {
+    "from": "Pelastusrengaat",
+    "to": "Pelastusrenkaat",
+    "why": "rengas nom.pl. = renkaat (ng->nk reverse gradation); builder skipped gradation",
+    "src": "KS rengas41*G (Ketjun renkaat)"
+   },
+   "lip": {
+    "from": "Huulit",
+    "to": "Huulet",
+    "why": "huuli is consonant-stem -i (tuuli type 24); nom.pl. = huulet not huulit",
+    "src": "KS huuli24 (Hapyhuulet)"
    },
    "medicine": {
-    "from": "Lääkeet",
+    "from": "Lääkkeet",
     "to": "Lääkkeet",
-    "why": "KT type 48*A gemination; dict example 'talouspoliittiset lääkkeet'",
-    "src": "https://www.kielitoimistonsanakirja.fi/#/lääke"
+    "why": "laake type 48; k->kk strengthening; nom.pl. = laakkeet",
+    "src": "KS laake48*A (talouspoliittiset laakkeet)"
    },
-   "trapezoid": {
-    "from": "Puolisuunnikaat",
-    "to": "Puolisuunnikkaat",
-    "why": "-kas nouns geminate (asukas→asukkaat); wiktionary declension gives puolisuunnikkaat",
-    "src": "https://fi.wiktionary.org/wiki/puolisuunnikas"
+   "mitten": {
+    "from": "Kinnaat",
+    "to": "Kintaat",
+    "why": "kinnas nom.pl. = kintaat (nn->nt gradation); builder skipped gradation",
+    "src": "KS kinnas41*J"
    },
-   "earmuffs": {
-    "from": "Korvalapput",
-    "to": "Korvalaput",
-    "why": "malformed double-p; KT korvaläppä: 'mon. tavallisemmin: korvalaput' (pp→p)",
-    "src": "https://www.kielitoimistonsanakirja.fi/#/korvaläppä"
+   "mountain": {
+    "from": "Vuorit",
+    "to": "Vuoret",
+    "why": "vuori (mountain) type 26; nom.pl. = vuoret (vuorit = 'linings', wrong sense)",
+    "src": "KS vuori26 (taivutus: ...vuoret)"
    },
-   "smoothie": {
-    "from": "Smoothieet",
-    "to": "Smoothiet",
-    "why": "KT type 8 (nalle→nallet); nom. plural smoothie+t, not double-e",
-    "src": "https://www.kielitoimistonsanakirja.fi/#/smoothie"
+   "muffin-tin": {
+    "from": "Muffinivuokat",
+    "to": "Muffinivuoat",
+    "why": "vuoka nom.pl. = vuoat (k->0 gradation); builder kept k",
+    "src": "KS vuoka10*D (taivutus: vuoan, vuoat)"
    },
-   "macaron": {
-    "from": "Macaromet",
-    "to": "Macaronit",
-    "why": "builder -on→-omet nasal bug; KT macaron type 5 → nom. plural macaronit",
-    "src": "https://www.kielitoimistonsanakirja.fi/#/macaron"
+   "mushroom": {
+    "from": "Sienit",
+    "to": "Sienet",
+    "why": "sieni type 26; nom.pl. = sienet not sienit",
+    "src": "KS sieni26 (marinoidut sienet)"
    },
-   "basketball": {
-    "from": "Koripallo",
-    "to": "Koripallot",
-    "why": "KT def includes the countable ball ('siinä käytettävä pallo'); pallo→pallot",
-    "src": "https://www.kielitoimistonsanakirja.fi/#/koripallo"
+   "nativity": {
+    "from": "Jouluseimit",
+    "to": "Jouluseimet",
+    "why": "seimi type 7; nom.pl. = seimet not seimit",
+    "src": "KS seimi7 (seimeen)"
+   },
+   "oak-tree": {
+    "from": "Tammit",
+    "to": "Tammet",
+    "why": "tammi (oak) type 7; nom.pl. = tammet not tammit",
+    "src": "KS tammi7"
+   },
+   "oven-mitt": {
+    "from": "Patakinnaat",
+    "to": "Patakintaat",
+    "why": "kinnas nom.pl. = kintaat (nn->nt gradation); same as mitten",
+    "src": "KS kinnas41*J"
+   },
+   "parallelogram": {
+    "from": "Suunnikaat",
+    "to": "Suunnikkaat",
+    "why": "-kas noun; k->kk strengthening; nom.pl. = suunnikkaat",
+    "src": "KS suunnikas41*A"
+   },
+   "pineapple": {
+    "from": "Ananaat",
+    "to": "Ananakset",
+    "why": "ananas (type 39, vieras) → ananakset; builder emitted naive vowel-stem +at",
+    "src": "KS ananas 39"
+   },
+   "pinecone": {
+    "from": "Käpyt",
+    "to": "Kävyt",
+    "why": "käpy (type 1) consonant gradation p→v → kävyt",
+    "src": "KS käpy 1*E"
+   },
+   "pool": {
+    "from": "Uima-allaat",
+    "to": "Uima-altaat",
+    "why": "allas (type 41) → altaat (ll→lt); builder missed gradation",
+    "src": "KS allas 41*I"
+   },
+   "porcupine": {
+    "from": "Piikkisikat",
+    "to": "Piikkisiat",
+    "why": "sika (type 9) gradation k→∅ → siat; piikkisika → piikkisiat",
+    "src": "KS sika 9*D"
+   },
+   "pudding": {
+    "from": "Vanukaat",
+    "to": "Vanukkaat",
+    "why": "vanukas (type 41) gemination k→kk → vanukkaat",
+    "src": "KS vanukas 41*A"
+   },
+   "rain": {
+    "from": "Sadeet",
+    "to": "Sateet",
+    "why": "sade (type 48) → sateet (d→t)",
+    "src": "KS sade 48*F"
+   },
+   "rainbow": {
+    "from": "Sateenkaarit",
+    "to": "Sateenkaaret",
+    "why": "kaari (type 26) → kaaret; sateenkaari → sateenkaaret",
+    "src": "KS kaari 26"
+   },
+   "river": {
+    "from": "Jokit",
+    "to": "Joet",
+    "why": "joki (type 7) gradation k→∅ → joet",
+    "src": "KS joki 7*D"
+   },
+   "rubber-boot": {
+    "from": "Kumisaapaat",
+    "to": "Kumisaappaat",
+    "why": "saapas (type 41) gemination p→pp → saappaat; kumisaapas → kumisaappaat",
+    "src": "KS saapas 41*B"
+   },
+   "sandwich": {
+    "from": "Voileipät",
+    "to": "Voileivät",
+    "why": "leipä (type 10) gradation p→v → leivät; voileipä → voileivät",
+    "src": "KS leipä 10*E"
+   },
+   "sauce": {
+    "from": "Kastikeet",
+    "to": "Kastikkeet",
+    "why": "kastike (type 48) gemination k→kk → kastikkeet",
+    "src": "KS kastike 48*A"
+   },
+   "rosette": {
+    "from": "Ruusukeet",
+    "to": "Ruusukkeet",
+    "why": "ruusuke (type 48) gemination k→kk → ruusukkeet (dict example: koristeruusukkeet)",
+    "src": "KS ruusuke 48*A"
+   },
+   "seal": {
+    "from": "Hyljeet",
+    "to": "Hylkeet",
+    "why": "hylje (type 48) gradation lj→lk → hylkeet",
+    "src": "KS hylje 48*L"
+   },
+   "shrimp": {
+    "from": "Katkaraput",
+    "to": "Katkaravut",
+    "why": "rapu (type 1) gradation p→v → ravut; katkarapu → katkaravut",
+    "src": "KS rapu 1*E"
+   },
+   "sink": {
+    "from": "Pesuallaat",
+    "to": "Pesualtaat",
+    "why": "allas (type 41) → altaat; pesuallas → pesualtaat",
+    "src": "KS allas 41*I"
+   },
+   "sleigh": {
+    "from": "Rekit",
+    "to": "Reet",
+    "why": "reki (type 7) gradation k→∅ → reet",
+    "src": "KS reki 7*D"
+   },
+   "slide": {
+    "from": "Liukumäkit",
+    "to": "Liukumäet",
+    "why": "mäki (type 7) gradation k→∅ → mäet; liukumäki → liukumäet",
+    "src": "KS mäki 7*D"
+   },
+   "salt-shaker": {
+    "from": "Suolasirotimet",
+    "to": "Suolasirottimet",
+    "why": "sirotin (type 33) gemination t→tt → sirottimet; suolasirotin → suolasirottimet",
+    "src": "KS sirotin 33*C"
+   },
+   "scarecrow": {
+    "from": "Linnunpelätimet",
+    "to": "Linnunpelättimet",
+    "why": "pelätin (type 33) gemination t→tt → pelättimet; linnunpelätin → linnunpelättimet",
+    "src": "KS pelätin 33*C"
+   },
+   "scale": {
+    "from": "Vaakat",
+    "to": "Vaa'at",
+    "why": "vaaka (type 9) gradation k→∅ between identical vowels → vaa'at",
+    "src": "KS vaaka 9*D"
+   },
+   "postal-scale": {
+    "from": "Postivaakat",
+    "to": "Postivaa'at",
+    "why": "vaaka (type 9) → vaa'at; postivaaka → postivaa'at (dict example: kirjevaaka)",
+    "src": "KS vaaka 9*D"
+   },
+   "spirit-level": {
+    "from": "Vesivaakat",
+    "to": "Vesivaa'at",
+    "why": "vaaka is type 9*D (k~∅ gradation): vaaka : vaa'an : vaa'at. Nominative plural drops the k with hiatus apostrophe, not *vaakat.",
+    "src": "Kielitoimiston sanakirja: vaaka 9*D"
+   },
+   "sponge": {
+    "from": "Sienit",
+    "to": "Sienet",
+    "why": "sieni is an old i-stem (type 26): sieni : sienen : sienet. Plural is -et, not the loanword default +it.",
+    "src": "Kielitoimiston sanakirja: sieni 26"
+   },
+   "starfish": {
+    "from": "Meritähtit",
+    "to": "Meritähdet",
+    "why": "tähti is type 7*F (t~d): tähti : tähden : tähdet. Compound meritähti follows: meritähdet, not *meritähtit.",
+    "src": "Kielitoimiston sanakirja: tähti 7*F"
+   },
+   "sunscreen": {
+    "from": "Aurinkovoideet",
+    "to": "Aurinkovoiteet",
+    "why": "voide is type 48*F (t~d): voide : voiteen : voiteet. Strong grade in inflected stem gives voiteet, not *voideet.",
+    "src": "Kielitoimiston sanakirja: voide 48*F"
+   },
+   "swan": {
+    "from": "Joutsenit",
+    "to": "Joutsenet",
+    "why": "joutsen is type 32 (sisar-type): joutsen : joutsenen : joutsenet. Plural is -et, not the default +it.",
+    "src": "Kielitoimiston sanakirja: joutsen 32"
+   },
+   "swimsuit": {
+    "from": "Uimapukut",
+    "to": "Uimapuvut",
+    "why": "puku is type 1*M (k~v): puku : puvun : puvut. Weak grade in plural gives puvut, not *pukut.",
+    "src": "Kielitoimiston sanakirja: puku 1*M"
+   },
+   "telescope": {
+    "from": "Kaukoputkit",
+    "to": "Kaukoputket",
+    "why": "putki is an old i-stem (type 7): putki : putken : putket. Plural is -et, not the loanword default +it.",
+    "src": "Kielitoimiston sanakirja: putki 7"
+   },
+   "toast": {
+    "from": "Paahtoleipät",
+    "to": "Paahtoleivät",
+    "why": "leipä is type 10*E (p~v): leipä : leivän : leivät. Weak grade in plural gives leivät, not *leipät.",
+    "src": "Kielitoimiston sanakirja: leipä 10*E"
+   },
+   "toe": {
+    "from": "Varvaat",
+    "to": "Varpaat",
+    "why": "varvas is type 41*E (p~v): varvas : varpaan : varpaat. Inflected/plural stem takes strong p (varpaat), not *varvaat.",
+    "src": "Kielitoimiston sanakirja: varvas 41*E (example: varpaat)"
+   },
+   "tongue": {
+    "from": "Kielit",
+    "to": "Kielet",
+    "why": "kieli is an old i-stem (type 26): kieli : kielen : kielet. Plural is -et, not the loanword default +it.",
+    "src": "Kielitoimiston sanakirja: kieli 26"
+   },
+   "torch": {
+    "from": "Soihtut",
+    "to": "Soihdut",
+    "why": "soihtu is type 1*F (ht~hd): soihtu : soihdun : soihdut. Weak grade in plural gives soihdut, not *soihtut.",
+    "src": "Kielitoimiston sanakirja: soihtu 1*F"
+   },
+   "towel": {
+    "from": "Pyyheet",
+    "to": "Pyyhkeet",
+    "why": "pyyhe is type 48*D (k~∅): pyyhe : pyyhkeen : pyyhkeet. Inflected stem restores the k (pyyhkeet), not *pyyheet.",
+    "src": "Kielitoimiston sanakirja: pyyhe 48*D"
+   },
+   "trail": {
+    "from": "Polkut",
+    "to": "Polut",
+    "why": "polku is type 1*D (k~∅): polku : polun : polut. Weak grade in plural drops the k (polut), not *polkut.",
+    "src": "Kielitoimiston sanakirja: polku 1*D"
+   },
+   "trillium": {
+    "from": "Kolmilehtit",
+    "to": "Kolmilehdet",
+    "why": "lehti is type 7*F (t~d): lehti : lehden : lehdet. Compound kolmilehti follows: kolmilehdet, not *kolmilehtit.",
+    "src": "Kielitoimiston sanakirja: lehti 7*F"
+   },
+   "turnip": {
+    "from": "Naurikset",
+    "to": "Nauriit",
+    "why": "nauris is type 41 (vieras-type): nauris : nauriin : nauriit. Plural is -iit, not the -is/-kset colloquial pattern (*naurikset).",
+    "src": "Kielitoimiston sanakirja: nauris 41"
+   },
+   "water-lily": {
+    "from": "Lummeet",
+    "to": "Lumpeet",
+    "why": "lumme is type 48*H (mp~mm): lumme : lumpeen : lumpeet. Inflected stem takes strong mp (lumpeet), not *lummeet.",
+    "src": "Kielitoimiston sanakirja: lumme 48*H"
+   },
+   "wisteria": {
+    "from": "Sinisadeet",
+    "to": "Sinisateet",
+    "why": "sade is type 48*F (t~d): sade : sateen : sateet. Compound sinisade follows: sinisateet, not *sinisadeet.",
+    "src": "Kielitoimiston sanakirja: sade 48*F"
+   },
+   "wrist": {
+    "from": "Ranneet",
+    "to": "Ranteet",
+    "why": "ranne is type 48*J (nt~nn): ranne : ranteen : ranteet. Inflected stem takes strong nt (ranteet), not *ranneet.",
+    "src": "Kielitoimiston sanakirja: ranne 48*J"
+   },
+   "yacht": {
+    "from": "Jahtit",
+    "to": "Jahdit",
+    "why": "jahti is type 5*F (t~d): jahti : jahdin : jahdit. Weak grade in plural gives jahdit, not *jahtit.",
+    "src": "Kielitoimiston sanakirja: jahti 5*F"
+   },
+   "speaker": {
+    "from": "Kaiutimet",
+    "to": "Kaiuttimet",
+    "why": "kaiutin is type 33*C (t~tt): kaiutin : kaiuttimen : kaiuttimet. Inflected stem takes strong tt (kaiuttimet), not *kaiutimet.",
+    "src": "Kielitoimiston sanakirja: kaiutin 33*C (example: kaiuttimet)"
+   },
+   "toaster": {
+    "from": "Leivänpaahdimet",
+    "to": "Leivänpaahtimet",
+    "why": "paahdin is type 33*F (ht~hd): paahdin : paahtimen : paahtimet. Inflected stem takes strong ht (paahtimet), not *paahdimet.",
+    "src": "Kielitoimiston sanakirja: paahdin 33*F"
    }
   },
   "gender": {}

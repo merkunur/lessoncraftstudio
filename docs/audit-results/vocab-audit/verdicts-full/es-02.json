@@ -1,0 +1,24 @@
+{
+ "locale": "es",
+ "batch": "02",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "erlenmeyer-flask": {
+    "from": "Matraces Erlenmeyeres",
+    "to": "Matraces Erlenmeyer",
+    "why": "matraz->matraces correct (-z->-ces), but 'Erlenmeyer' is an invariable proper-name modifier; machine pluralized it to the non-word 'Erlenmeyeres'. Should stay invariable.",
+    "src": "WordReference: Inflexiones de 'matraz' (nm): mpl: matraces"
+   }
+  },
+  "gender": {
+   "cross": {
+    "from": "m",
+    "to": "f",
+    "why": "cruz is feminine (la cruz); current 'm' is wrong. Singular/plural (Cruz/Cruces) already correct.",
+    "src": "WordReference: Inflexiones de 'cruz' (nf): fpl: cruces"
+   }
+  }
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "locale": "es",
+ "batch": "06",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "swordfish": {
+    "from": "Peces espadas",
+    "to": "Peces espada",
+    "why": "N+N apposition compound: only the head noun pluralizes; second element stays singular. RAE/DPD: 'pez espada' → 'peces espada'.",
+    "src": "wordreference/DPD"
+   },
+   "teddy-bear": {
+    "from": "Osos de peluche",
+    "to": "Ositos de peluche",
+    "why": "Singular is diminutive 'osito' but plural dropped the diminutive; s/p must agree → 'ositos de peluche'.",
+    "src": "morphology"
+   },
+   "tuna": {
+    "from": "Atúnes",
+    "to": "Atunes",
+    "why": "Singular 'atún' is aguda ending in -n (accent required); plural 'atunes' is llana ending in -s (no accent).",
+    "src": "wordreference"
+   },
+   "turkey": {
+    "from": "Pavos",
+    "to": "Guajolotes",
+    "why": "Singular is Mexican-register 'guajolote'; plural must match the same lemma → 'guajolotes' (not the peninsular 'pavos').",
+    "src": "morphology/register"
+   },
+   "vase": {
+    "from": "Jarrones",
+    "to": "Floreros",
+    "why": "Singular 'florero' but plural switched lemma to 'jarrones'; s/p must agree → 'floreros'.",
+    "src": "morphology"
+   }
+  },
+  "gender": {
+   "stairs": {
+    "from": "m",
+    "to": "f",
+    "why": "'escalera' is feminine (la escalera / las escaleras); WordReference marks (nf).",
+    "src": "wordreference"
+   },
+   "tights": {
+    "from": "m",
+    "to": "f",
+    "why": "'media' is feminine (la media / las medias); WordReference marks (nf).",
+    "src": "wordreference"
+   },
+   "tongs": {
+    "from": "m",
+    "to": "f",
+    "why": "'pinza' is feminine (la pinza / las pinzas); WordReference marks (nf).",
+    "src": "wordreference"
+   },
+   "vegetables": {
+    "from": "m",
+    "to": "f",
+    "why": "'verdura' is feminine (la verdura / las verduras); WordReference marks (nf).",
+    "src": "wordreference"
+   }
+  }
+ }
+}

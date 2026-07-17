@@ -1,0 +1,89 @@
+{
+ "locale": "fi",
+ "batch": "02",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "cloud": {
+    "from": "Pilvit",
+    "to": "Pilvet",
+    "why": "pilvi is a type-7 i~e stem noun (dict: pilvi7); nominative plural is pilvet, not the loanword-style *pilvit",
+    "src": "Kielitoimiston sanakirja: pilvi7"
+   },
+   "door": {
+    "from": "Ovit",
+    "to": "Ovet",
+    "why": "ovi is type-7 i~e stem (dict: ovi7); plural ovet",
+    "src": "Kielitoimiston sanakirja: ovi7"
+   },
+   "finger": {
+    "from": "Sormit",
+    "to": "Sormet",
+    "why": "sormi is type-7 i~e stem (dict: sormi7, entry text 'Sormet ihmisen käden...'); plural sormet",
+    "src": "Kielitoimiston sanakirja: sormi7"
+   },
+   "crane": {
+    "from": "Kurkit",
+    "to": "Kurjet",
+    "why": "kurki (the bird) is type 7*L: i~e stem + k>j gradation; plural kurjet, not *kurkit",
+    "src": "Kielitoimiston sanakirja: kurki7*L"
+   },
+   "chin": {
+    "from": "Leukat",
+    "to": "Leuat",
+    "why": "leuka is type 9*D: k disappears between vowels (leuka:leuan); plural leuat, not *leukat",
+    "src": "Kielitoimiston sanakirja: leuka9*D"
+   },
+   "crab": {
+    "from": "Raput",
+    "to": "Ravut",
+    "why": "rapu is type 1*E: p>v gradation (rapu:ravun); plural ravut, not *raput",
+    "src": "Kielitoimiston sanakirja: rapu1*E"
+   },
+   "feather": {
+    "from": "Höyhenit",
+    "to": "Höyhenet",
+    "why": "höyhen is type 32 (dict entry text 'Kanan, tiaisen höyhenet'); plural höyhenet, not the default +it *höyhenit",
+    "src": "Kielitoimiston sanakirja: höyhen32"
+   },
+   "envelope": {
+    "from": "Kirjekuorit",
+    "to": "Kirjekuoret",
+    "why": "kuori is type 26 i~e stem (dict taivutus 'kuor/en'); plural kuoret, so kirjekuori > kirjekuoret",
+    "src": "Kielitoimiston sanakirja: kuori26"
+   },
+   "fir-tree": {
+    "from": "Pihtat",
+    "to": "Pihdat",
+    "why": "pihta is type 9*F: ht>hd gradation (pihta:pihdan); plural pihdat, not *pihtat",
+    "src": "Kielitoimiston sanakirja: pihta9*F"
+   },
+   "firefighter": {
+    "from": "Palomieet",
+    "to": "Palomiehet",
+    "why": "mies is type 42 (stem mieh-, dict text 'Miehet'); plural miehet, so palomies > palomiehet. The stored *palomieet dropped the h",
+    "src": "Kielitoimiston sanakirja: mies42"
+   },
+   "electric-kettle": {
+    "from": "Vedenkeitimet",
+    "to": "Vedenkeittimet",
+    "why": "keitin is type 33*C agent noun: weak nom. -tin, strong oblique -ttime- (t>tt); plural keittimet, so vedenkeitin > vedenkeittimet. Builder missed the tt strengthening",
+    "src": "Kielitoimiston sanakirja: keitin33*C"
+   },
+   "fan": {
+    "from": "Tuuletimet",
+    "to": "Tuulettimet",
+    "why": "tuuletin is type 33*C (same class as keitin): -tin > -ttime-; plural tuulettimet, not *tuuletimet",
+    "src": "Kielitoimiston sanakirja: tuuletin33*C"
+   },
+   "dimetrodon": {
+    "from": "Dimetrodomet",
+    "to": "Dimetrodonit",
+    "why": "stored value is a corrupted builder output (spurious 'm', dropped 'n'); a consonant-final loan/genus name takes -i- + -t: dimetrodon > dimetrodonit",
+    "src": "consonant-final loanword plural rule; corrupted source form"
+   }
+  },
+  "gender": {}
+ }
+}

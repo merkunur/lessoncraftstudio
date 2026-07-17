@@ -1,0 +1,29 @@
+{
+ "locale": "fr",
+ "batch": "01",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {},
+  "plural": {},
+  "gender": {
+   "angel": {
+    "from": "f",
+    "to": "m",
+    "why": "'ange' is always masculine (un ange), even for a female angel",
+    "src": "Larousse: ange n.m."
+   },
+   "cabin": {
+    "from": "m",
+    "to": "f",
+    "why": "'cabane' is feminine (une cabane); cf. 'cabana' row correctly f",
+    "src": "Larousse: cabane n.f."
+   },
+   "cake-pan": {
+    "from": "f",
+    "to": "m",
+    "why": "baking mould = le moule (masculine); la moule only = mussel",
+    "src": "Larousse: moule n.m."
+   }
+  }
+ }
+}

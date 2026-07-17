@@ -1,0 +1,27 @@
+{
+ "locale": "pt",
+ "batch": "06",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "spirit-level": { "from": "Nívéis de bolha", "to": "Níveis de bolha", "why": "accent typo; nível → níveis (no acute on i)", "src": "Priberam: nível, Plural: níveis" },
+   "swordfish": { "from": "Peixe-espadas", "to": "Peixes-espada", "why": "compound noun+noun: head element pluralizes", "src": "Priberam: peixe-espada, Plural: peixes-espadas ou peixes-espada" },
+   "tanker-truck": { "from": "Caminhão-tanques", "to": "Caminhões-tanque", "why": "head element (caminhão) pluralizes, not the qualifier", "src": "Priberam: camião-tanque, Plural: camiões-tanque (BR caminhões-tanque)" },
+   "teddy-bear": { "from": "Ursos de pelúcia", "to": "Ursinhos de pelúcia", "why": "plural must keep singular lemma diminutive ursinho", "src": "regular: ursinho → ursinhos" },
+   "tights": { "from": "Meia-calças", "to": "Meias-calças", "why": "compound: both elements pluralize (noun+noun)", "src": "Priberam: meia-calça, Plural: meias-calças" },
+   "tyrannosaurus-rex": { "from": "Tiranossauros Rexs", "to": "Tiranossauros Rex", "why": "Rex is invariable Latin; only tiranossauro pluralizes", "src": "morphology" },
+   "uncle-sam": { "from": "Tios Sans", "to": "Tios Sam", "why": "proper-name Sam invariable; only tio pluralizes", "src": "morphology" },
+   "x-ray": { "from": "Raio-Xs", "to": "Raios-X", "why": "head element raio pluralizes; X invariable", "src": "morphology" }
+  },
+  "gender": {
+   "stairs": { "from": "m", "to": "f", "why": "escada is feminine (a escada)", "src": "Priberam: escada, nome feminino" },
+   "swordfish": { "from": "f", "to": "m", "why": "peixe-espada is masculine", "src": "Priberam: peixe-espada, nome masculino" },
+   "tennis-racket": { "from": "m", "to": "f", "why": "raquete is feminine (a raquete)", "src": "Priberam: raquete, nome feminino" },
+   "van": { "from": "m", "to": "f", "why": "van (vehicle) is feminine in BR (a van)", "src": "Priberam: van, nome feminino, Plural: vans" },
+   "waitress": { "from": "m", "to": "f", "why": "garçonete is feminine", "src": "Priberam: garçonete, nome feminino" },
+   "wardrobe": { "from": "f", "to": "m", "why": "guarda-roupa is masculine (o guarda-roupa)", "src": "Priberam: guarda-roupa, nome masculino" },
+   "us": { "from": "f", "to": "m", "why": "EUA = os Estados Unidos, masculine", "src": "usage: os EUA (masc.)" }
+  }
+ }
+}

@@ -1,0 +1,114 @@
+{
+ "locale": "pt",
+ "batch": "05",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {},
+  "plural": {
+   "puffin": {
+    "from": "Papagaio-do-mares",
+    "to": "Papagaios-do-mar",
+    "why": "Compound noun + prepositional phrase (papagaio-do-mar): only the first noun element pluralizes; the de-phrase stays invariant.",
+    "src": "grammar-rule"
+   },
+   "seahorse": {
+    "from": "Cavalo-marinhos",
+    "to": "Cavalos-marinhos",
+    "why": "Noun+adjective compound: both elements pluralize. Matches the sibling key 'sea-horse' which already has 'Cavalos-marinhos'.",
+    "src": "grammar-rule/sibling-key"
+   },
+   "snowdrop": {
+    "from": "Flor-de-neves",
+    "to": "Flores-de-neve",
+    "why": "Compound flor-de-neve: pluralize the head noun (flor->flores); the de-neve phrase stays invariant.",
+    "src": "grammar-rule"
+   },
+   "robin": {
+    "from": "Pintarroxos",
+    "to": "Piscos-de-peito-ruivo",
+    "why": "Lemma mismatch: plural was a different bird (pintarroxo) than the singular 'Pisco-de-peito-ruivo'. Plural must be that of the singular lemma; compound head pisco->piscos.",
+    "src": "grammar-rule"
+   },
+   "rock": {
+    "from": "Rochas",
+    "to": "Pedras",
+    "why": "Lemma mismatch: singular 'Pedra' but plural given as 'Rochas' (a different word, rocha). Plural of pedra is pedras.",
+    "src": "grammar-rule"
+   },
+   "snake": {
+    "from": "Serpentes",
+    "to": "Cobras",
+    "why": "Lemma mismatch: singular 'Cobra' but plural given as 'Serpentes' (different word). Plural of cobra is cobras.",
+    "src": "grammar-rule"
+   }
+  },
+  "gender": {
+   "planet": {
+    "from": "f",
+    "to": "m",
+    "why": "planeta (the celestial body) is masculine: o planeta.",
+    "src": "Priberam: planeta1 nome masculino (globo)"
+   },
+   "pyramid": {
+    "from": "m",
+    "to": "f",
+    "why": "piramide is feminine: a piramide.",
+    "src": "Priberam: piramide nome feminino"
+   },
+   "pipe-wrench": {
+    "from": "m",
+    "to": "f",
+    "why": "Head noun 'chave' (chave de grifo) is feminine: a chave.",
+    "src": "Priberam: chave nome feminino"
+   },
+   "screwdriver": {
+    "from": "m",
+    "to": "f",
+    "why": "Head noun 'chave' (chave de fenda) is feminine: a chave.",
+    "src": "Priberam: chave nome feminino"
+   },
+   "shovel": {
+    "from": "m",
+    "to": "f",
+    "why": "pa (shovel) is feminine: a pa.",
+    "src": "Priberam: pa1 nome feminino"
+   },
+   "snow-shovel": {
+    "from": "m",
+    "to": "f",
+    "why": "Head noun 'pa' (pa de neve) is feminine: a pa.",
+    "src": "Priberam: pa1 nome feminino"
+   },
+   "potato-chips": {
+    "from": "m",
+    "to": "f",
+    "why": "Head noun 'batata' (batatas chips) is feminine: a batata.",
+    "src": "Priberam: batata nome feminino"
+   },
+   "rain-boots": {
+    "from": "m",
+    "to": "f",
+    "why": "Head noun 'bota' (botas de chuva) is feminine: a bota.",
+    "src": "Priberam: bota nome feminino"
+   },
+   "sandals": {
+    "from": "m",
+    "to": "f",
+    "why": "sandalia is feminine: a sandalia.",
+    "src": "Priberam: sandalia nome feminino"
+   },
+   "slippers": {
+    "from": "m",
+    "to": "f",
+    "why": "pantufa is feminine: a pantufa.",
+    "src": "Priberam: pantufa nome feminino"
+   },
+   "snow-boots": {
+    "from": "m",
+    "to": "f",
+    "why": "Head noun 'bota' (botas de neve) is feminine: a bota.",
+    "src": "Priberam: bota nome feminino"
+   }
+  }
+ }
+}

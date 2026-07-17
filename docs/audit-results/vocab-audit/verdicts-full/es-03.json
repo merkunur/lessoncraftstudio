@@ -1,0 +1,37 @@
+{
+ "locale": "es",
+ "batch": "03",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {
+   "folder": {
+    "from": "Folder",
+    "to": "Carpeta",
+    "why": "Masculine anglicism singular 'Folder' clashes with the feminine plural 'Carpetas' and g='f'; singular aligned to the same dictionary lemma (la carpeta / las carpetas). Mexican-register valid classroom term.",
+    "src": "internal-consistency (p=Carpetas, g=f)"
+   }
+  },
+  "plural": {
+   "guinea-pig": {
+    "from": "Conejillos de Indias",
+    "to": "Cuyos",
+    "why": "Plural was a different lemma than the singular 'Cuyo'; plural must match the singular lemma (el cuyo / los cuyos, +s).",
+    "src": "WordReference: cuyo (noun sense = conejillo de Indias); regular +s"
+   },
+   "kite": {
+    "from": "Cometas",
+    "to": "Papalotes",
+    "why": "Singular is Mexican 'Papalote' but plural was the Peninsular lemma 'Cometas'; plural must match the singular. Dict gives mpl papalotes.",
+    "src": "WordReference: papalote (nm) mpl: papalotes"
+   }
+  },
+  "gender": {
+   "kite": {
+    "from": "f",
+    "to": "m",
+    "why": "'Papalote' is masculine (el papalote); the f gender came from the mismatched Peninsular 'cometa' (f).",
+    "src": "WordReference: papalote (nm)"
+   }
+  }
+ }
+}

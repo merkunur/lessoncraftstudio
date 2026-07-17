@@ -1,0 +1,139 @@
+{
+ "locale": "no",
+ "batch": "01",
+ "reviewed": 210,
+ "corrections": {
+  "singular": {
+   "brush": {
+    "from": "Borste",
+    "to": "Børste",
+    "why": "Diacritic-stripped: the Bokmål word for brush is 'børste' (with ø), not 'borste'. NAOB lemma confirms 'børste'.",
+    "src": "NAOB"
+   }
+  },
+  "plural": {
+   "ant": {
+    "from": "Maurer",
+    "to": "Maur",
+    "why": "'maur' takes a zero plural: en maur / flere maur. NAOB: 'en; mauren, maur'. Builder over-applied -er.",
+    "src": "NAOB"
+   },
+   "apple-tree": {
+    "from": "Epletre",
+    "to": "Epletrær",
+    "why": "'tre' (tree) pluralises with umlaut to 'trær'; compound epletre → epletrær. English is plural (Trees), so a real plural is required.",
+    "src": "native/Wiktionary(tre→trær)"
+   },
+   "banana-tree": {
+    "from": "Banantre",
+    "to": "Banantrær",
+    "why": "tree compound: banantre → banantrær (tre → trær).",
+    "src": "native/Wiktionary(tre→trær)"
+   },
+   "banyan-tree": {
+    "from": "Banyantre",
+    "to": "Banyantrær",
+    "why": "tree compound: banyantre → banyantrær (tre → trær).",
+    "src": "native/Wiktionary(tre→trær)"
+   },
+   "baobab-tree": {
+    "from": "Baobabtre",
+    "to": "Baobabtrær",
+    "why": "tree compound: baobabtre → baobabtrær (tre → trær).",
+    "src": "native/Wiktionary(tre→trær)"
+   },
+   "barrette": {
+    "from": "Hårspennere",
+    "to": "Hårspenner",
+    "why": "'spenne' (buckle/clip) pluralises as 'spenner', not the agent-noun ending -ere. hårspenne → hårspenner.",
+    "src": "native"
+   },
+   "beach": {
+    "from": "Strander",
+    "to": "Strender",
+    "why": "'strand' has umlaut plural 'strender' (ei strand / flere strender), not 'strander'.",
+    "src": "native/Bokmålsordboka"
+   },
+   "bow-tie": {
+    "from": "Sløyfeslipser",
+    "to": "Sløyfeslips",
+    "why": "Head noun 'slips' is neuter with zero plural (et slips / flere slips). NAOB: 'et; slipset, slips'. So sløyfeslips is invariant in plural.",
+    "src": "NAOB"
+   },
+   "biscuit": {
+    "from": "Kjekser",
+    "to": "Kjeks",
+    "why": "'kjeks' takes a zero plural: en kjeks / flere kjeks. Wiktionary Bokmål: indefinite plural 'kjeks'.",
+    "src": "Wiktionary"
+   },
+   "branch": {
+    "from": "Greiner",
+    "to": "Grener",
+    "why": "Paradigm mismatch: singular is 'Gren', whose plural is 'grener' ('greiner' belongs to the variant stem 'grein'). Aligned plural to the given singular.",
+    "src": "native/Bokmålsordboka"
+   },
+   "camel": {
+    "from": "Kamler",
+    "to": "Kameler",
+    "why": "'kamel' keeps the -e- in plural: kameler, not the syncopated 'kamler'. NAOB: 'en; kamelen, kameler'.",
+    "src": "NAOB"
+   },
+   "candy-cane": {
+    "from": "Sukkerstanger",
+    "to": "Sukkerstenger",
+    "why": "'stang' has umlaut plural 'stenger'; sukkerstang → sukkerstenger. Wiktionary Bokmål: indefinite plural 'stenger'.",
+    "src": "Wiktionary"
+   },
+   "carrot": {
+    "from": "Gulroter",
+    "to": "Gulrøtter",
+    "why": "'rot' has umlaut plural 'røtter'; gulrot → gulrøtter. Wiktionary Bokmål confirms 'gulrøtter'.",
+    "src": "Wiktionary"
+   },
+   "brush": {
+    "from": "Borster",
+    "to": "Børster",
+    "why": "Diacritic-stripped stem; correct plural of 'børste' is 'børster'.",
+    "src": "NAOB"
+   }
+  },
+  "gender": {
+   "air-conditioning": {
+    "from": "m",
+    "to": "n",
+    "why": "Head noun 'anlegg' is neuter (et anlegg); klimaanlegg → et klimaanlegg. NAOB: 'et'.",
+    "src": "NAOB"
+   },
+   "apron": {
+    "from": "m",
+    "to": "n",
+    "why": "'forkle' is neuter: et forkle. Wiktionary Bokmål: 'forkle n'.",
+    "src": "Wiktionary"
+   },
+   "bow-tie": {
+    "from": "m",
+    "to": "n",
+    "why": "Head noun 'slips' is neuter (et slips). NAOB: 'et; slipset, slips'.",
+    "src": "NAOB"
+   },
+   "bun": {
+    "from": "m",
+    "to": "n",
+    "why": "'rundstykke' is neuter: et rundstykke. NAOB: 'et'.",
+    "src": "NAOB"
+   },
+   "camera": {
+    "from": "m",
+    "to": "n",
+    "why": "'kamera' is neuter: et kamera. NAOB: 'et; kameraet, kameraer'.",
+    "src": "NAOB"
+   },
+   "cash-register": {
+    "from": "m",
+    "to": "n",
+    "why": "Head noun 'apparat' is neuter (et apparat); kassaapparat → et kassaapparat. NAOB: 'et; apparatet, apparater'.",
+    "src": "NAOB"
+   }
+  }
+ }
+}

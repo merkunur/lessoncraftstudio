@@ -1,0 +1,143 @@
+{
+  "locale": "fi",
+  "batch": "06",
+  "reviewed": 210,
+  "corrections": {
+    "singular": {},
+    "plural": {
+      "spirit-level": {
+        "from": "Vesivaakat",
+        "to": "Vesivaa'at",
+        "why": "vaaka is type 9*D (k~∅ gradation): vaaka : vaa'an : vaa'at. Nominative plural drops the k with hiatus apostrophe, not *vaakat.",
+        "src": "Kielitoimiston sanakirja: vaaka 9*D"
+      },
+      "sponge": {
+        "from": "Sienit",
+        "to": "Sienet",
+        "why": "sieni is an old i-stem (type 26): sieni : sienen : sienet. Plural is -et, not the loanword default +it.",
+        "src": "Kielitoimiston sanakirja: sieni 26"
+      },
+      "starfish": {
+        "from": "Meritähtit",
+        "to": "Meritähdet",
+        "why": "tähti is type 7*F (t~d): tähti : tähden : tähdet. Compound meritähti follows: meritähdet, not *meritähtit.",
+        "src": "Kielitoimiston sanakirja: tähti 7*F"
+      },
+      "sunscreen": {
+        "from": "Aurinkovoideet",
+        "to": "Aurinkovoiteet",
+        "why": "voide is type 48*F (t~d): voide : voiteen : voiteet. Strong grade in inflected stem gives voiteet, not *voideet.",
+        "src": "Kielitoimiston sanakirja: voide 48*F"
+      },
+      "swan": {
+        "from": "Joutsenit",
+        "to": "Joutsenet",
+        "why": "joutsen is type 32 (sisar-type): joutsen : joutsenen : joutsenet. Plural is -et, not the default +it.",
+        "src": "Kielitoimiston sanakirja: joutsen 32"
+      },
+      "swimsuit": {
+        "from": "Uimapukut",
+        "to": "Uimapuvut",
+        "why": "puku is type 1*M (k~v): puku : puvun : puvut. Weak grade in plural gives puvut, not *pukut.",
+        "src": "Kielitoimiston sanakirja: puku 1*M"
+      },
+      "telescope": {
+        "from": "Kaukoputkit",
+        "to": "Kaukoputket",
+        "why": "putki is an old i-stem (type 7): putki : putken : putket. Plural is -et, not the loanword default +it.",
+        "src": "Kielitoimiston sanakirja: putki 7"
+      },
+      "toast": {
+        "from": "Paahtoleipät",
+        "to": "Paahtoleivät",
+        "why": "leipä is type 10*E (p~v): leipä : leivän : leivät. Weak grade in plural gives leivät, not *leipät.",
+        "src": "Kielitoimiston sanakirja: leipä 10*E"
+      },
+      "toe": {
+        "from": "Varvaat",
+        "to": "Varpaat",
+        "why": "varvas is type 41*E (p~v): varvas : varpaan : varpaat. Inflected/plural stem takes strong p (varpaat), not *varvaat.",
+        "src": "Kielitoimiston sanakirja: varvas 41*E (example: varpaat)"
+      },
+      "tongue": {
+        "from": "Kielit",
+        "to": "Kielet",
+        "why": "kieli is an old i-stem (type 26): kieli : kielen : kielet. Plural is -et, not the loanword default +it.",
+        "src": "Kielitoimiston sanakirja: kieli 26"
+      },
+      "torch": {
+        "from": "Soihtut",
+        "to": "Soihdut",
+        "why": "soihtu is type 1*F (ht~hd): soihtu : soihdun : soihdut. Weak grade in plural gives soihdut, not *soihtut.",
+        "src": "Kielitoimiston sanakirja: soihtu 1*F"
+      },
+      "towel": {
+        "from": "Pyyheet",
+        "to": "Pyyhkeet",
+        "why": "pyyhe is type 48*D (k~∅): pyyhe : pyyhkeen : pyyhkeet. Inflected stem restores the k (pyyhkeet), not *pyyheet.",
+        "src": "Kielitoimiston sanakirja: pyyhe 48*D"
+      },
+      "trail": {
+        "from": "Polkut",
+        "to": "Polut",
+        "why": "polku is type 1*D (k~∅): polku : polun : polut. Weak grade in plural drops the k (polut), not *polkut.",
+        "src": "Kielitoimiston sanakirja: polku 1*D"
+      },
+      "trapezoid": {
+        "from": "Puolisuunnikaat",
+        "to": "Puolisuunnikkaat",
+        "why": "-kas nouns (type 41*A, k~kk) take strong kk in the inflected/plural stem: puolisuunnikas : puolisuunnikkaan : puolisuunnikkaat, not *puolisuunnikaat.",
+        "src": "Kielitoimiston sanakirja: puolisuunnikas (-kas → -kkaat, cf. rikas:rikkaat)"
+      },
+      "trillium": {
+        "from": "Kolmilehtit",
+        "to": "Kolmilehdet",
+        "why": "lehti is type 7*F (t~d): lehti : lehden : lehdet. Compound kolmilehti follows: kolmilehdet, not *kolmilehtit.",
+        "src": "Kielitoimiston sanakirja: lehti 7*F"
+      },
+      "turnip": {
+        "from": "Naurikset",
+        "to": "Nauriit",
+        "why": "nauris is type 41 (vieras-type): nauris : nauriin : nauriit. Plural is -iit, not the -is/-kset colloquial pattern (*naurikset).",
+        "src": "Kielitoimiston sanakirja: nauris 41"
+      },
+      "water-lily": {
+        "from": "Lummeet",
+        "to": "Lumpeet",
+        "why": "lumme is type 48*H (mp~mm): lumme : lumpeen : lumpeet. Inflected stem takes strong mp (lumpeet), not *lummeet.",
+        "src": "Kielitoimiston sanakirja: lumme 48*H"
+      },
+      "wisteria": {
+        "from": "Sinisadeet",
+        "to": "Sinisateet",
+        "why": "sade is type 48*F (t~d): sade : sateen : sateet. Compound sinisade follows: sinisateet, not *sinisadeet.",
+        "src": "Kielitoimiston sanakirja: sade 48*F"
+      },
+      "wrist": {
+        "from": "Ranneet",
+        "to": "Ranteet",
+        "why": "ranne is type 48*J (nt~nn): ranne : ranteen : ranteet. Inflected stem takes strong nt (ranteet), not *ranneet.",
+        "src": "Kielitoimiston sanakirja: ranne 48*J"
+      },
+      "yacht": {
+        "from": "Jahtit",
+        "to": "Jahdit",
+        "why": "jahti is type 5*F (t~d): jahti : jahdin : jahdit. Weak grade in plural gives jahdit, not *jahtit.",
+        "src": "Kielitoimiston sanakirja: jahti 5*F"
+      },
+      "speaker": {
+        "from": "Kaiutimet",
+        "to": "Kaiuttimet",
+        "why": "kaiutin is type 33*C (t~tt): kaiutin : kaiuttimen : kaiuttimet. Inflected stem takes strong tt (kaiuttimet), not *kaiutimet.",
+        "src": "Kielitoimiston sanakirja: kaiutin 33*C (example: kaiuttimet)"
+      },
+      "toaster": {
+        "from": "Leivänpaahdimet",
+        "to": "Leivänpaahtimet",
+        "why": "paahdin is type 33*F (ht~hd): paahdin : paahtimen : paahtimet. Inflected stem takes strong ht (paahtimet), not *paahdimet.",
+        "src": "Kielitoimiston sanakirja: paahdin 33*F"
+      }
+    },
+    "gender": {}
+  }
+}

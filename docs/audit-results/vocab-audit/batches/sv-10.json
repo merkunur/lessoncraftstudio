@@ -25,7 +25,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "ship",
@@ -46,7 +51,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "shirt",
@@ -64,7 +74,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "shoe",
@@ -82,7 +97,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "shoes",
@@ -102,7 +122,13 @@
    "countable": true,
    "nets": [
     "N2"
-   ]
+   ],
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "objects bw/shoes_2@2x.webp — a PAIR of line-art lace-up shoes/plimsolls, side by side at an angle"
   },
   {
    "key": "shopping-bag",
@@ -120,7 +146,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "shopping-cart",
@@ -140,7 +171,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "shorts",
@@ -164,7 +200,13 @@
    "countable": true,
    "nets": [
     "N2"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "image_seen_by_classifier": "clothing/shorts@2x.webp — ONE pair of teal drawstring shorts with a ribbed waistband, cream tie, pockets and turn-up cuffs, above the knee"
   },
   {
    "key": "shoulder",
@@ -184,7 +226,12 @@
    "countable": true,
    "nets": [
     "N5"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "shovel",
@@ -209,7 +256,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "shrimp",
@@ -230,7 +282,13 @@
    "countable": true,
    "nets": [
     "N5"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "image_seen_by_classifier": "ocean life/shrimp@2x.webp — ONE red-and-cream striped shrimp/prawn curled in profile, long antennae, legs and tail fan"
   },
   {
    "key": "shuttlecock",
@@ -247,7 +305,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "shy",
@@ -261,10 +324,16 @@
    "cur": {
     "s": "Blyg",
     "p": "Blyg",
-    "g": "n"
+    "g": null
    },
    "type": "adjective",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "emotions/shy@2x.webp — a yellow/orange smiley with lashed eyes glancing sideways, big blushing cheeks and a small bashful smile"
   },
   {
    "key": "sickle",
@@ -281,7 +350,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "signpost",
@@ -302,7 +376,12 @@
    "countable": true,
    "nets": [
     "N2"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "singer",
@@ -324,7 +403,12 @@
    "nets": [
     "N2",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "singing",
@@ -341,7 +425,15 @@
     "g": "n"
    },
    "type": "verb-gerund",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "BLOCKED": true,
+   "block_reason": "LEMMA MISMATCH — the word does not name the picture. DO NOT TOUCH. activities/singing@2x.webp — a MICROPHONE: dark mesh ball head, blue-grey body with yellow",
+   "image_seen_by_classifier": "activities/singing@2x.webp — a MICROPHONE: dark mesh ball head, blue-grey body with yellow/orange bands, trailing cable. No singer."
   },
   {
    "key": "sink",
@@ -354,12 +446,17 @@
     "Sinks"
    ],
    "cur": {
-    "s": "Diskbank",
-    "p": "Diskbankar",
+    "s": "Diskbänk",
+    "p": "Diskbänkar",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sister",
@@ -378,7 +475,12 @@
    "nets": [
     "N7"
    ],
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sit",
@@ -397,7 +499,12 @@
    "nets": [
     "N7"
    ],
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "skateboard",
@@ -416,7 +523,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "skating",
@@ -437,7 +549,15 @@
    "countable": false,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "BLOCKED": true,
+   "block_reason": "LEMMA MISMATCH — the word does not name the picture. DO NOT TOUCH. activities/skating@2x.webp — ONE bright pink lace-up ICE SKATE with a dark sole and a stee",
+   "image_seen_by_classifier": "activities/skating@2x.webp — ONE bright pink lace-up ICE SKATE with a dark sole and a steel blade. One boot, not a pair; no skater."
   },
   {
    "key": "skeleton",
@@ -459,7 +579,12 @@
     "N2",
     "N8",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "skeptical",
@@ -471,11 +596,17 @@
    "cur": {
     "s": "Skeptisk",
     "p": "Skeptisk",
-    "g": "n"
+    "g": null
    },
    "type": "adjective",
    "countable": false,
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "NO IMAGE AVAILABLE (no_image:true confirmed — no skeptical@2x.webp exists in emotions/ or anywhere in the theme tree). Classified from en + themes as the brief directs."
   },
   {
    "key": "skiing",
@@ -493,7 +624,15 @@
     "g": "n"
    },
    "type": "verb-gerund",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "BLOCKED": true,
+   "block_reason": "LEMMA MISMATCH — the word does not name the picture. DO NOT TOUCH. activities/skiing@2x.webp — a PAIR of blue downhill SKIS side by side with yellow bindings",
+   "image_seen_by_classifier": "activities/skiing@2x.webp — a PAIR of blue downhill SKIS side by side with yellow bindings. No skier, no snow."
   },
   {
    "key": "skirt",
@@ -510,7 +649,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sky",
@@ -530,7 +674,12 @@
    "countable": true,
    "nets": [
     "N5"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sled",
@@ -550,7 +699,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sledding",
@@ -564,10 +718,16 @@
    "cur": {
     "s": "Åka släde",
     "p": "Åka släde",
-    "g": "n"
+    "g": null
    },
    "type": "verb-gerund",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "activity",
+    "hasGender": false,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "winter/sledding@2x.webp — a girl in a red jumper sitting on a wooden sled with dark runners, sliding along"
   },
   {
    "key": "sleep",
@@ -586,7 +746,12 @@
    "nets": [
     "N7"
    ],
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sleeping-bag",
@@ -603,7 +768,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sleigh",
@@ -624,7 +794,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "slide",
@@ -641,7 +816,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "slippers",
@@ -662,7 +842,13 @@
    "nets": [
     "N2",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "clothing/slippers@2x.webp — a PAIR of open-toe slide slippers, yellow footbeds with red/navy banded straps"
   },
   {
    "key": "sloth",
@@ -683,7 +869,12 @@
    "countable": true,
    "nets": [
     "N2"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "slug",
@@ -704,7 +895,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "smartphone",
@@ -721,7 +917,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "smartwatch",
@@ -738,7 +939,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "smoothie",
@@ -755,7 +961,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "snail",
@@ -779,7 +990,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "snake",
@@ -797,7 +1013,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sneaker",
@@ -811,11 +1032,16 @@
    ],
    "cur": {
     "s": "Sneaker",
-    "p": "Sneakerar",
+    "p": "Sneakers",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sneakers",
@@ -835,7 +1061,13 @@
    "countable": true,
    "nets": [
     "N2"
-   ]
+   ],
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "objects bw/sneakers@2x.webp — a PAIR of line-art high-top lace-up sneakers, side by side"
   },
   {
    "key": "snorkel",
@@ -852,7 +1084,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "snorkeling-mask",
@@ -865,11 +1102,16 @@
    ],
    "cur": {
     "s": "Snorkelmask",
-    "p": "Snorkelmaskar",
+    "p": "Snorkelmasker",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "snow-boots",
@@ -890,7 +1132,13 @@
    "nets": [
     "N2",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "clothing/snow_boots@2x.webp — a PAIR of red winter boots with cream fleece cuffs, dark toe caps and lugged soles"
   },
   {
    "key": "snow-globe",
@@ -903,11 +1151,16 @@
    ],
    "cur": {
     "s": "Snöglob",
-    "p": "Snöglobar",
+    "p": "Snöglober",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "snow-shovel",
@@ -923,7 +1176,12 @@
    },
    "type": "noun",
    "countable": true,
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "snowboarding",
@@ -937,10 +1195,16 @@
    "cur": {
     "s": "Snowboard",
     "p": "Snowboard",
-    "g": "n"
+    "g": null
    },
    "type": "verb-gerund",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "activity",
+    "hasGender": false,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "winter/snowboarding@2x.webp — a snowboarder in a yellow jacket, red trousers, helmet, goggles and gloves, crouched riding a navy board"
   },
   {
    "key": "snowdrop",
@@ -957,7 +1221,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "snowflake",
@@ -976,7 +1245,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "snowman",
@@ -994,7 +1268,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "snowsuit",
@@ -1007,11 +1286,16 @@
    ],
    "cur": {
     "s": "Snödräkt",
-    "p": "Snödräktar",
+    "p": "Snödräkter",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "soccer",
@@ -1032,7 +1316,15 @@
    "countable": false,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "BLOCKED": true,
+   "block_reason": "LEMMA MISMATCH — the word does not name the picture. DO NOT TOUCH. activities/soccer@2x.webp — ONE football/soccer BALL: classic cream-and-dark truncated-ico",
+   "image_seen_by_classifier": "activities/soccer@2x.webp — ONE football/soccer BALL: classic cream-and-dark truncated-icosahedron panels. I also opened sports bw/soccer@2x.webp (the key's other theme) = a line-art soccer ball, AND the SEPARATE key's art sports bw 2/soccer_ball@2x.webp = a near-identical line-art soccer ball."
   },
   {
    "key": "soccer-ball",
@@ -1052,7 +1344,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sock",
@@ -1070,7 +1367,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "soda",
@@ -1091,7 +1393,12 @@
    "countable": true,
    "nets": [
     "N2"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sofa",
@@ -1114,7 +1421,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "soup",
@@ -1131,7 +1443,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "spade",
@@ -1152,7 +1469,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sparrow",
@@ -1169,7 +1491,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "spatula",
@@ -1187,7 +1514,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "speaker",
@@ -1209,7 +1541,12 @@
    "nets": [
     "N2",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sphere",
@@ -1222,11 +1559,16 @@
    ],
    "cur": {
     "s": "Sfär",
-    "p": "Sfärar",
+    "p": "Sfärer",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "spider",
@@ -1245,7 +1587,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "spinach",
@@ -1262,7 +1609,13 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "mass",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "vegetables/spinach@2x.webp — ONE single green spinach leaf with a pale stem and dark branching veins"
   },
   {
    "key": "spinning-top",
@@ -1279,7 +1632,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "spirit-level",
@@ -1300,7 +1658,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sponge",
@@ -1320,7 +1683,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "spoon",
@@ -1341,7 +1709,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "spray",
@@ -1358,7 +1731,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "spruce-tree",
@@ -1378,7 +1756,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "square",
@@ -1395,7 +1778,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "squash",
@@ -1412,7 +1800,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "squid",
@@ -1430,7 +1823,13 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "image_seen_by_classifier": "ocean life/squid@2x.webp — ONE red squid: pointed conical mantle, big eyes, eight suckered arms trailing below"
   },
   {
    "key": "squirrel",
@@ -1449,7 +1848,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stage",
@@ -1463,11 +1867,16 @@
    ],
    "cur": {
     "s": "Scen",
-    "p": "Scenar",
+    "p": "Scener",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stairs",
@@ -1484,7 +1893,13 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "image_seen_by_classifier": "around the house/stairs@2x.webp — ONE flight of four solid steps in red, teal, yellow and red, rising left to right"
   },
   {
    "key": "stamp",
@@ -1502,7 +1917,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stand",
@@ -1521,7 +1941,12 @@
    "nets": [
     "N7"
    ],
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stapler",
@@ -1538,7 +1963,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "star",
@@ -1557,7 +1987,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "starfish",
@@ -1577,7 +2012,13 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "image_seen_by_classifier": "ocean life/starfish@2x.webp — ONE orange-yellow five-armed starfish with a smiling face and cream dots along the arms"
   },
   {
    "key": "statue",
@@ -1594,7 +2035,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stegosaurus",
@@ -1611,7 +2057,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stethoscope",
@@ -1632,7 +2083,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stingray",
@@ -1649,7 +2105,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stocking",
@@ -1669,7 +2130,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stool",
@@ -1686,7 +2152,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stopwatch",
@@ -1708,7 +2179,12 @@
     "N2",
     "N8",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stork",
@@ -1725,7 +2201,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stormy",
@@ -1739,10 +2220,16 @@
    "cur": {
     "s": "Stormigt",
     "p": "Stormigt",
-    "g": "n"
+    "g": null
    },
    "type": "adjective",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "weather/stormy@2x.webp — a red storm cloud with dark raindrops falling and a yellow lightning bolt through them"
   },
   {
    "key": "stove",
@@ -1762,7 +2249,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "strawberry",
@@ -1782,7 +2274,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "stretcher",
@@ -1799,7 +2296,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "student",
@@ -1816,7 +2318,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "styracosaurus",
@@ -1833,7 +2340,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "submarine",
@@ -1850,7 +2362,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "subway",
@@ -1867,7 +2384,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "suitcase",
@@ -1886,7 +2408,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sun",
@@ -1907,7 +2434,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sun-hat",
@@ -1926,7 +2458,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sundae",
@@ -1947,7 +2484,12 @@
    "nets": [
     "N2",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sunflower",
@@ -1964,7 +2506,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sunglasses",
@@ -1991,7 +2538,13 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "image_seen_by_classifier": "accessories/sunglasses@2x.webp — ONE pair of orange-framed sunglasses with dark tinted lenses, front view; one frame, two lenses, two arms"
   },
   {
    "key": "sunny",
@@ -2005,10 +2558,16 @@
    "cur": {
     "s": "Soligt",
     "p": "Soligt",
-    "g": "n"
+    "g": null
    },
    "type": "adjective",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "weather/sunny@2x.webp — a yellow sun with orange rays and a smiling face with blushing cheeks"
   },
   {
    "key": "sunrise",
@@ -2025,7 +2584,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "sunscreen",
@@ -2038,11 +2602,16 @@
    ],
    "cur": {
     "s": "Solkräm",
-    "p": "Solkrämar",
+    "p": "Solkrämer",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "surfboard",
@@ -2060,7 +2629,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "surprised",
@@ -2074,10 +2648,16 @@
    "cur": {
     "s": "Förvånad",
     "p": "Förvånad",
-    "g": "n"
+    "g": null
    },
    "type": "adjective",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "emotions/surprised@2x.webp — a yellow smiley with raised brows, wide lashed eyes and a small round open mouth"
   }
  ]
 }

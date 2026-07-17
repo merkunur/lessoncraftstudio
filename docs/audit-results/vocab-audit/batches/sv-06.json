@@ -27,7 +27,12 @@
     "N2",
     "N8"
    ],
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "hospital-gown",
@@ -46,7 +51,12 @@
    "nets": [
     "N6"
    ],
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "hot",
@@ -60,10 +70,16 @@
    "cur": {
     "s": "Varmt",
     "p": "Varmt",
-    "g": "n"
+    "g": null
    },
    "type": "adjective",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "weather/hot@2x.webp - a smiling yellow SUN with orange triangular rays and small red heat-marks around it"
   },
   {
    "key": "hot-air-balloon",
@@ -77,11 +93,16 @@
    ],
    "cur": {
     "s": "Luftballong",
-    "p": "Luftballongar",
+    "p": "Luftballonger",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "hot-cocoa",
@@ -100,7 +121,12 @@
    "nets": [
     "N2"
    ],
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "hot-dog",
@@ -115,11 +141,16 @@
    ],
    "cur": {
     "s": "Korv med bröd",
-    "p": "Korvar",
+    "p": "Korvar med bröd",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "hotel",
@@ -141,7 +172,12 @@
     "N2",
     "N8",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "house",
@@ -163,7 +199,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "human-torso",
@@ -180,7 +221,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "hummingbird",
@@ -199,7 +245,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "hydrangea",
@@ -216,7 +267,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "hyena",
@@ -233,7 +289,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "ice",
@@ -250,7 +311,13 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "mass",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "winter/ice@2x.webp - a patch of open blue water ringed and dotted with pale ice floes/slabs, viewed from above"
   },
   {
    "key": "ice-cream",
@@ -273,7 +340,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "ice-cream-truck",
@@ -290,7 +362,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "ice-pop",
@@ -310,7 +387,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "ice-skate",
@@ -322,7 +404,7 @@
     "Ice Skates"
    ],
    "cur": {
-    "s": "Skridskor",
+    "s": "Skridsko",
     "p": "Skridskor",
     "g": "n"
    },
@@ -332,7 +414,12 @@
     "N2",
     "N4",
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "ice-skates",
@@ -353,7 +440,13 @@
    "nets": [
     "N2",
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "Christmas bw 2/ice_skates@2x.webp - a PAIR of laced ice skates side by side with curved blades, line art"
   },
   {
    "key": "ice-skating",
@@ -365,14 +458,19 @@
    "cur": {
     "s": "Skridskoåkning",
     "p": "Skridskoåkning",
-    "g": "n"
+    "g": null
    },
    "type": "verb-gerund",
    "countable": false,
    "nets": [
     "N6"
    ],
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "activity",
+    "hasGender": false,
+    "hasPlural": false
+   }
   },
   {
    "key": "ichthyosaurus",
@@ -389,7 +487,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "icicle",
@@ -406,7 +509,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "igloo",
@@ -423,7 +531,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "iguana",
@@ -438,11 +551,16 @@
    ],
    "cur": {
     "s": "Leguan",
-    "p": "Leguanar",
+    "p": "Leguaner",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "iguanodon",
@@ -459,7 +577,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "inflatable-ring",
@@ -476,7 +599,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "iron",
@@ -500,7 +628,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "ironing-board",
@@ -518,7 +651,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "island",
@@ -536,7 +674,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "jacket",
@@ -555,7 +698,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "jaguar",
@@ -573,7 +721,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "jam",
@@ -587,11 +740,16 @@
    ],
    "cur": {
     "s": "Sylt",
-    "p": "Syltar",
+    "p": "Sylt",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "janitor",
@@ -612,7 +770,12 @@
    "nets": [
     "N2",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "jar",
@@ -633,7 +796,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "jasmine",
@@ -650,7 +818,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "jeans",
@@ -671,7 +844,13 @@
    "countable": true,
    "nets": [
     "N2"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "image_seen_by_classifier": "clothing/jeans@2x.webp - ONE garment: blue denim with orange stitching, belt loops and pockets - but cut as knee-length, turn-up SHORTS, not full-length trousers"
   },
   {
    "key": "jeep",
@@ -688,7 +867,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "jelly-beans",
@@ -709,7 +893,13 @@
    "nets": [
     "N2",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "easter/jelly_beans@2x.webp - a PILE of about a dozen multicoloured jelly beans (red, orange, yellow, green, teal, purple)"
   },
   {
    "key": "jellyfish",
@@ -726,11 +916,17 @@
    ],
    "cur": {
     "s": "Manet",
-    "p": "Manetar",
+    "p": "Maneter",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "image_seen_by_classifier": "ocean life/jellyfish@2x.webp - ONE pink jellyfish with a spotted dome bell, cartoon face, and many trailing tentacles"
   },
   {
    "key": "jet",
@@ -752,7 +948,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "judge",
@@ -773,7 +974,12 @@
    "nets": [
     "N2",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "jug",
@@ -793,7 +999,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "juice",
@@ -814,7 +1025,12 @@
    "countable": true,
    "nets": [
     "N2"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "juice-box",
@@ -831,7 +1047,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "jump",
@@ -851,7 +1072,12 @@
     "N7",
     "N6"
    ],
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "jump-rope",
@@ -872,7 +1098,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "jumping",
@@ -892,7 +1123,15 @@
    "countable": false,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "activity",
+    "hasGender": false,
+    "hasPlural": false
+   },
+   "BLOCKED": true,
+   "block_reason": "LEMMA MISMATCH — the word does not name the picture. DO NOT TOUCH. activities/jumping@2x.webp - a girl mid-skip with a SKIPPING ROPE arcing around her, one f",
+   "image_seen_by_classifier": "activities/jumping@2x.webp - a girl mid-skip with a SKIPPING ROPE arcing around her, one foot lifted"
   },
   {
    "key": "jumpsuit",
@@ -909,7 +1148,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "juniper-tree",
@@ -926,7 +1170,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "jupiter",
@@ -943,7 +1192,13 @@
     "g": "n"
    },
    "type": "proper-noun",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "proper-noun",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "space/jupiter@2x.webp - the planet Jupiter as a banded sphere, cream and orange belts, storm ovals, terminator shadow on the left"
   },
   {
    "key": "kangaroo",
@@ -956,12 +1211,17 @@
     "Kangaroos"
    ],
    "cur": {
-    "s": "Kanguru",
-    "p": "Kanguruar",
+    "s": "Känguru",
+    "p": "Känguruer",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "kayak",
@@ -975,11 +1235,16 @@
    ],
    "cur": {
     "s": "Kajak",
-    "p": "Kajakar",
+    "p": "Kajaker",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "kettle",
@@ -1004,7 +1269,12 @@
     "N2",
     "N4",
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "kettlebell",
@@ -1021,7 +1291,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "key",
@@ -1040,7 +1315,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "keyboard",
@@ -1058,7 +1338,12 @@
     "g": "t"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "kingfisher",
@@ -1079,7 +1364,12 @@
    "nets": [
     "N2",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "kitchen",
@@ -1100,7 +1390,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "kitchen-scale",
@@ -1118,7 +1413,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "kite",
@@ -1142,7 +1442,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "kiwi",
@@ -1161,7 +1466,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "knee",
@@ -1174,7 +1484,7 @@
    ],
    "cur": {
     "s": "Knä",
-    "p": "Knä",
+    "p": "Knän",
     "g": "t"
    },
    "type": "noun",
@@ -1183,7 +1493,12 @@
     "N2",
     "N8",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "knife",
@@ -1201,7 +1516,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "knitting",
@@ -1215,10 +1535,16 @@
    "cur": {
     "s": "Sticka",
     "p": "Sticka",
-    "g": "n"
+    "g": null
    },
    "type": "verb-gerund",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "activity",
+    "hasGender": false,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "activities/knitting@2x.webp - a blue ball of yarn with TWO knitting needles crossed through it and a loose trailing thread"
   },
   {
    "key": "koala",
@@ -1237,7 +1563,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "komodo-dragon",
@@ -1250,11 +1581,16 @@
    ],
    "cur": {
     "s": "Komodovaran",
-    "p": "Komodovaranar",
+    "p": "Komodovaraner",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "ladder",
@@ -1272,7 +1608,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "ladle",
@@ -1290,7 +1631,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "ladybug",
@@ -1312,7 +1658,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lake",
@@ -1329,7 +1680,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lamb",
@@ -1352,7 +1708,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lamp",
@@ -1372,7 +1733,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lantern",
@@ -1389,7 +1755,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "laundry-basket",
@@ -1406,7 +1777,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lavender",
@@ -1423,7 +1799,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lawn-mower",
@@ -1445,7 +1826,12 @@
    "nets": [
     "N2",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "layer-cake",
@@ -1461,7 +1847,12 @@
    },
    "type": "noun",
    "countable": true,
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "leaf",
@@ -1486,7 +1877,12 @@
     "N2",
     "N8",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "leek",
@@ -1503,7 +1899,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "leg",
@@ -1525,7 +1926,12 @@
     "N2",
     "N8",
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "leggings",
@@ -1545,7 +1951,13 @@
    "countable": true,
    "nets": [
     "N2"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "image_seen_by_classifier": "clothing/leggings@2x.webp - ONE pair of leggings worn on a pair of legs, navy upper with red lower calves, bare feet"
   },
   {
    "key": "lego",
@@ -1562,7 +1974,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lemon",
@@ -1580,7 +1997,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lemon-tree",
@@ -1601,7 +2023,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lemonade",
@@ -1620,7 +2047,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lemur",
@@ -1633,11 +2065,16 @@
    ],
    "cur": {
     "s": "Lemur",
-    "p": "Lemurar",
+    "p": "Lemurer",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "leopard",
@@ -1655,7 +2092,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "letter",
@@ -1678,7 +2120,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lettuce",
@@ -1699,7 +2146,13 @@
    "countable": false,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "image_seen_by_classifier": "vegetables/lettuce@2x.webp - ONE head of leaf/romaine lettuce, ruffled dark-green leaves over pale ribs"
   },
   {
    "key": "liberty",
@@ -1712,11 +2165,16 @@
    ],
    "cur": {
     "s": "Frihet",
-    "p": "Friheter",
+    "p": "Frihet",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "librarian",
@@ -1730,11 +2188,16 @@
    ],
    "cur": {
     "s": "Bibliotekarie",
-    "p": "Bibliotekariar",
+    "p": "Bibliotekarier",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lid",
@@ -1755,7 +2218,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "life-jacket",
@@ -1772,7 +2240,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "life-preserver",
@@ -1788,7 +2261,12 @@
    },
    "type": "noun",
    "countable": true,
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lifeguard",
@@ -1809,7 +2287,12 @@
    "nets": [
     "N2",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lifeguard-tower",
@@ -1830,7 +2313,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "light",
@@ -1852,7 +2340,12 @@
     "N2",
     "N8",
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "light-bulb",
@@ -1868,7 +2361,12 @@
    },
    "type": "noun",
    "countable": true,
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "light-switch",
@@ -1889,7 +2387,12 @@
    "nets": [
     "N2",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lighthouse",
@@ -1907,7 +2410,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lightning",
@@ -1927,7 +2435,13 @@
    "countable": false,
    "nets": [
     "N1"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "image_seen_by_classifier": "travel and holiday bw/lightning@2x.webp — a line-art cloud with THREE lightning bolts striking down from it plus raindrops; a thunderstorm emblem"
   },
   {
    "key": "lights",
@@ -1948,7 +2462,13 @@
    "nets": [
     "N2",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "christmas/lights@2x.webp — two draped strands of Christmas fairy lights, eight coloured bulbs on black cord"
   },
   {
    "key": "lilac",
@@ -1960,12 +2480,17 @@
     "Lilacs"
    ],
    "cur": {
-    "s": "Syrén",
-    "p": "Syrénar",
+    "s": "Syren",
+    "p": "Syrener",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lily",
@@ -1983,7 +2508,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lime",
@@ -2004,7 +2534,12 @@
    "countable": true,
    "nets": [
     "N5"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lion",
@@ -2028,7 +2563,12 @@
     "N2",
     "N8",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lip",
@@ -2045,7 +2585,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lizard",
@@ -2067,7 +2612,12 @@
    "countable": true,
    "nets": [
     "N5"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "llama",
@@ -2088,7 +2638,12 @@
    "countable": true,
    "nets": [
     "N5"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "loader",
@@ -2109,7 +2664,12 @@
    "nets": [
     "N2",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "lobster",
@@ -2122,11 +2682,16 @@
    ],
    "cur": {
     "s": "Hummer",
-    "p": "Hummrar",
+    "p": "Humrar",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   }
  ]
 }

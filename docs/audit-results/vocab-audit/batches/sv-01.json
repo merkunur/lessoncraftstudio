@@ -28,7 +28,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "acorn",
@@ -50,7 +55,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "actor",
@@ -71,7 +81,12 @@
    "nets": [
     "N2",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "air-conditioning",
@@ -88,7 +103,13 @@
     "g": "n"
    },
    "type": "noun-concept",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "image_seen_by_classifier": "home bw 2/air_conditioning@2x.webp - line art of a single wall-mounted split air-conditioner unit (indoor head, long vent, two indicator dots)"
   },
   {
    "key": "airplane",
@@ -112,7 +133,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "alarm-clock",
@@ -131,7 +157,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "alligator",
@@ -151,7 +182,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "allosaurus",
@@ -168,7 +204,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "alpaca",
@@ -185,7 +226,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "ambulance",
@@ -199,11 +245,16 @@
    ],
    "cur": {
     "s": "Ambulans",
-    "p": "Ambulansar",
+    "p": "Ambulanser",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "analog-clock",
@@ -220,7 +271,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "anchor",
@@ -242,7 +298,12 @@
     "N2",
     "N8",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "angel",
@@ -264,7 +325,12 @@
    "countable": true,
    "nets": [
     "N5"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "angelfish",
@@ -281,7 +347,13 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "image_seen_by_classifier": "ocean life/angelfish@2x.webp - ONE yellow-and-red angelfish in profile, single eye, fanned dorsal and tail fins"
   },
   {
    "key": "angry",
@@ -295,10 +367,16 @@
    "cur": {
     "s": "Arg",
     "p": "Arg",
-    "g": "n"
+    "g": null
    },
    "type": "adjective",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "emotions/angry@2x.webp - yellow emoji face, black slanted brows, gritted teeth, red flushed cheeks"
   },
   {
    "key": "ankle",
@@ -315,7 +393,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "ankylosaurus",
@@ -332,7 +415,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "ant",
@@ -353,7 +441,12 @@
    "countable": true,
    "nets": [
     "N5"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "antelope",
@@ -368,11 +461,16 @@
    ],
    "cur": {
     "s": "Antilop",
-    "p": "Antilopar",
+    "p": "Antiloper",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "apatosaurus",
@@ -389,7 +487,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "apple",
@@ -409,7 +512,12 @@
     "g": "t"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "apple-pie",
@@ -422,11 +530,16 @@
    ],
    "cur": {
     "s": "Äppelpaj",
-    "p": "Äppelpajar",
+    "p": "Äppelpajer",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "apple-tree",
@@ -447,7 +560,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "apricot",
@@ -464,7 +582,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "apron",
@@ -483,7 +606,12 @@
     "g": "t"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "architect",
@@ -500,7 +628,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "argentinosaurus",
@@ -517,7 +650,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "arm",
@@ -534,7 +672,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "armadillo",
@@ -555,7 +698,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "armchair",
@@ -570,11 +718,16 @@
    ],
    "cur": {
     "s": "Fåtölj",
-    "p": "Fåtöljar",
+    "p": "Fåtöljer",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "artist",
@@ -591,7 +744,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "ash-tree",
@@ -608,7 +766,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "asparagus",
@@ -625,7 +788,13 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "image_seen_by_classifier": "vegetables/asparagus@2x.webp - ONE asparagus spear, green stalk with scale-leaves and a red/purple bud tip, cut base"
   },
   {
    "key": "aspen-tree",
@@ -642,7 +811,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "aster",
@@ -655,11 +829,16 @@
    ],
    "cur": {
     "s": "Aster",
-    "p": "Asterar",
+    "p": "Astrar",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "asteroid",
@@ -672,11 +851,16 @@
    ],
    "cur": {
     "s": "Asteroid",
-    "p": "Asteroidar",
+    "p": "Asteroider",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "astronaut",
@@ -694,7 +878,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "athlete",
@@ -711,7 +900,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "author",
@@ -732,7 +926,12 @@
    "nets": [
     "N2",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "autumn",
@@ -750,7 +949,15 @@
     "g": "n"
    },
    "type": "noun-concept",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "abstract",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "BLOCKED": true,
+   "block_reason": "LEMMA MISMATCH — the word does not name the picture. DO NOT TOUCH. miscellaneous/autumn@2x.webp - a broad tree in full autumn foliage, red/orange/yellow leav",
+   "image_seen_by_classifier": "miscellaneous/autumn@2x.webp - a broad tree in full autumn foliage, red/orange/yellow leaves, dark trunk"
   },
   {
    "key": "avocado",
@@ -763,11 +970,16 @@
    ],
    "cur": {
     "s": "Avokado",
-    "p": "Avokados",
+    "p": "Avokador",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "axe",
@@ -787,7 +999,12 @@
    "countable": true,
    "nets": [
     "N5"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "azalea",
@@ -804,7 +1021,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "baby",
@@ -821,7 +1043,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "baby's-onesie",
@@ -837,7 +1064,12 @@
    },
    "type": "noun",
    "countable": true,
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "baby-bottle",
@@ -853,7 +1085,12 @@
    },
    "type": "noun",
    "countable": true,
-   "noImage": true
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "baby-carriage",
@@ -870,7 +1107,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "baby-girl",
@@ -887,7 +1129,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "baby-overall",
@@ -900,11 +1147,16 @@
    ],
    "cur": {
     "s": "Babyoverall",
-    "p": "Babyoverallar",
+    "p": "Babyoveraller",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "backpack",
@@ -925,7 +1177,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bacon",
@@ -946,7 +1203,13 @@
    "countable": false,
    "nets": [
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "mass",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "breakfast/bacon@2x.webp - ONE wavy rasher/strip of streaky bacon, red meat with pale fat bands"
   },
   {
    "key": "badge",
@@ -963,7 +1226,12 @@
     "g": "t"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "badger",
@@ -980,7 +1248,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "badminton",
@@ -997,7 +1270,15 @@
     "g": "n"
    },
    "type": "verb-gerund",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "BLOCKED": true,
+   "block_reason": "LEMMA MISMATCH — the word does not name the picture. DO NOT TOUCH. sports bw/badminton@2x.webp - a single SHUTTLECOCK (feathered skirt above a rounded cork b",
+   "image_seen_by_classifier": "sports bw/badminton@2x.webp - a single SHUTTLECOCK (feathered skirt above a rounded cork base), line art. No racket, no court, no player."
   },
   {
    "key": "bag",
@@ -1018,7 +1299,12 @@
    "countable": true,
    "nets": [
     "N5"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bagel",
@@ -1033,11 +1319,16 @@
    ],
    "cur": {
     "s": "Bagel",
-    "p": "Bagels",
+    "p": "Baglar",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "baguette",
@@ -1050,11 +1341,16 @@
    ],
    "cur": {
     "s": "Baguette",
-    "p": "Baguettar",
+    "p": "Baguetter",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "baker",
@@ -1075,7 +1371,12 @@
    "nets": [
     "N2",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "baking",
@@ -1089,10 +1390,16 @@
    "cur": {
     "s": "Baka",
     "p": "Baka",
-    "g": "n"
+    "g": null
    },
    "type": "verb-gerund",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "activity",
+    "hasGender": false,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "activities/baking@2x.webp - a girl in a chef's hat and apron PRESSING DOUGH at a board, three cake/bread rounds in front of her"
   },
   {
    "key": "baking-sheet",
@@ -1109,7 +1416,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "ball",
@@ -1126,7 +1438,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "ballerina",
@@ -1143,7 +1460,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "balloon",
@@ -1160,11 +1482,16 @@
    ],
    "cur": {
     "s": "Ballong",
-    "p": "Ballongar",
+    "p": "Ballonger",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "banana",
@@ -1183,7 +1510,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "banana-tree",
@@ -1204,7 +1536,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bandage",
@@ -1226,7 +1563,12 @@
     "N2",
     "N8",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "banyan-tree",
@@ -1247,7 +1589,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "baobab-tree",
@@ -1268,7 +1615,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "barbecue",
@@ -1288,7 +1640,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "barber",
@@ -1305,7 +1662,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "barn",
@@ -1325,7 +1687,12 @@
    "countable": true,
    "nets": [
     "N5"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "barrette",
@@ -1342,7 +1709,12 @@
     "g": "t"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "baseball",
@@ -1361,7 +1733,15 @@
     "g": "n"
    },
    "type": "verb-gerund",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "BLOCKED": true,
+   "block_reason": "LEMMA MISMATCH — the word does not name the picture. DO NOT TOUCH. activities/baseball@2x.webp - a white BALL with red stitching. Also opened sports bw/baseb",
+   "image_seen_by_classifier": "activities/baseball@2x.webp - a white BALL with red stitching. Also opened sports bw/baseball@2x.webp - a wooden BAT alone; and 4th of July/baseball@2x.webp - a bat AND ball together."
   },
   {
    "key": "basket",
@@ -1379,7 +1759,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "basketball",
@@ -1397,7 +1782,13 @@
     "g": "n"
    },
    "type": "verb-gerund",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "image_seen_by_classifier": "activities/basketball@2x.webp - an orange BASKETBALL with black seam lines. Also opened sports bw/basketball@2x.webp - the same ball in line art."
   },
   {
    "key": "bat",
@@ -1417,7 +1808,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bathing-suit",
@@ -1430,14 +1826,19 @@
    ],
    "cur": {
     "s": "Baddräkt",
-    "p": "Baddräktar",
+    "p": "Baddräkter",
     "g": "n"
    },
    "type": "noun",
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bathtub",
@@ -1460,7 +1861,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "beach",
@@ -1480,7 +1886,12 @@
    "countable": true,
    "nets": [
     "N5"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "beach-bag",
@@ -1497,7 +1908,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "beach-ball",
@@ -1516,7 +1932,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "beach-umbrella",
@@ -1529,14 +1950,19 @@
    ],
    "cur": {
     "s": "Parasoll",
-    "p": "Parasollar",
-    "g": "n"
+    "p": "Parasoll",
+    "g": "t"
    },
    "type": "noun",
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "beanie",
@@ -1549,12 +1975,17 @@
     "Beanies"
    ],
    "cur": {
-    "s": "Mossa",
-    "p": "Mossor",
+    "s": "Mössa",
+    "p": "Mössor",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bear",
@@ -1575,7 +2006,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "beaver",
@@ -1596,7 +2032,12 @@
    "countable": true,
    "nets": [
     "N5"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bed",
@@ -1617,7 +2058,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bee",
@@ -1639,7 +2085,12 @@
     "g": "t"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "beech-tree",
@@ -1659,7 +2110,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "beetle",
@@ -1676,7 +2132,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "beetroot",
@@ -1693,7 +2154,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "begonia",
@@ -1710,7 +2176,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "beige",
@@ -1724,10 +2195,16 @@
    "cur": {
     "s": "Beige",
     "p": "Beige",
-    "g": "n"
+    "g": null
    },
    "type": "adjective",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "colors/beige@2x.webp - a single beige/tan paint-drop (teardrop) swatch with a highlight dot, on white"
   },
   {
    "key": "bell",
@@ -1749,7 +2226,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bell-pepper",
@@ -1769,7 +2251,12 @@
    "countable": true,
    "nets": [
     "N6"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "belt",
@@ -1787,7 +2274,12 @@
     "g": "t"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bench",
@@ -1804,7 +2296,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bible",
@@ -1824,7 +2321,12 @@
    "countable": true,
    "nets": [
     "N5"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bicycle",
@@ -1847,7 +2349,12 @@
    "countable": true,
    "nets": [
     "N5"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "biking",
@@ -1861,10 +2368,16 @@
    "cur": {
     "s": "Cykla",
     "p": "Cykla",
-    "g": "n"
+    "g": null
    },
    "type": "verb-gerund",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "activity",
+    "hasGender": false,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "activities/biking@2x.webp - a boy in a red shirt RIDING a red bicycle, in motion, side view"
   },
   {
    "key": "binder",
@@ -1881,7 +2394,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "binoculars",
@@ -1904,7 +2422,13 @@
    "nets": [
     "N2",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "image_seen_by_classifier": "camping/binoculars@2x.webp - ONE pair of blue binoculars, front three-quarter view, two barrels joined by a central focus wheel"
   },
   {
    "key": "birch-tree",
@@ -1921,7 +2445,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bird",
@@ -1946,7 +2475,12 @@
    "countable": true,
    "nets": [
     "N5"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "birdhouse",
@@ -1963,7 +2497,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "biscuit",
@@ -1986,7 +2525,12 @@
     "N2",
     "N8",
     "N4"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "bison",
@@ -2004,7 +2548,13 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "image_seen_by_classifier": "zoo animals/bison@2x.webp - ONE brown bison, shaggy mane, pale curved horns, standing in three-quarter view"
   },
   {
    "key": "black",
@@ -2018,10 +2568,16 @@
    "cur": {
     "s": "Svart",
     "p": "Svart",
-    "g": "n"
+    "g": null
    },
    "type": "adjective",
-   "countable": false
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   },
+   "image_seen_by_classifier": "colors/black@2x.webp - a single near-black paint-drop swatch with a faint highlight dot"
   },
   {
    "key": "blackberry",
@@ -2042,7 +2598,12 @@
    "nets": [
     "N2",
     "N8"
-   ]
+   ],
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "blanket",
@@ -2059,7 +2620,12 @@
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   },
   {
    "key": "blender",
@@ -2076,11 +2642,16 @@
    ],
    "cur": {
     "s": "Mixer",
-    "p": "Mixerar",
+    "p": "Mixrar",
     "g": "n"
    },
    "type": "noun",
-   "countable": true
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
   }
  ]
 }

@@ -1,0 +1,879 @@
+{
+ "part": "01",
+ "reviewed": 97,
+ "rows": [
+  {
+   "key": "air-conditioning",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "reason": "raw_type says noun-concept; that is WRONG. themes=[home bw 2] is a household-object set, so the picture is an air-conditioning UNIT (a wall device), not the concept of climate control. A device is a discrete countable object: de Klimaanlage->Klimaanlagen is a CORRECT plural and must be kept; killing it would be pure loss. NOTE for a later round: sv 'Luftkonditionering' names the process, not the appliance, and looks like the wrong word for this picture.",
+   "overturns_hypothesis": true,
+   "source": ""
+  },
+  {
+   "key": "angelfish",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "reason": "a single countable fish; English merely zero-pluralises fish. de Kaiserfisch->Kaiserfische and fr Poisson-ange->Poissons-anges are CORRECT plurals and must be kept. en[0]===en[1] here is an English zero-plural, NOT an absence of plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "angry",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[emotions]; the picture shows a face bearing the QUALITY angry. Not a noun in any of the 11 languages (wuetend / arg / en colere are adjectives). Current de gender 'm' on 'Wuetend' is invented and is exactly the 'der Rot' defect the operator named.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "asparagus",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "reason": "raw_countable:false is the same error the brief already documents for 'bread'. Duden gives Spargel a countable sense with a real plural: 'der Spargel; ... Plural: die Spargel' and the sense 'einzelne Stange' ('fuenf dicke Spargel', 'ein Bund Spargel'). fr Asperge->Asperges is likewise correct and normal. Marking this mass would destroy fr Asperges for no gain. The plural is form-identical in de, which is why it LOOKS absent.",
+   "overturns_hypothesis": false,
+   "source": "https://www.duden.de/rechtschreibung/Spargel"
+  },
+  {
+   "key": "autumn",
+   "category": "abstract",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[miscellaneous,thanksgivinng]; the picture is the season. A season is not a thing, a substance, a quality or an activity - it is a time-concept, so 'abstract' is the residual fit. The gender is real and load-bearing (der Herbst, l'automne m); only the plural is meaningless here. Not a proper noun: de/fr/sv all treat it as a common noun.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "bacon",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[At the Supermarket,breakfast]; the picture shows rashers of bacon as a foodstuff. Speck/bacon is a substance noun; no locale in the sample carries a plural, so nothing correct is destroyed by pinning hasPlural:false.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "badminton",
+   "category": "abstract",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "TWO corrections. (1) raw_type 'verb-gerund' is WRONG, as the brief says: badminton is a lexical noun with a real gender (das Badminton). (2) But the brief's own conclusion for this family (countable-thing / hasPlural:true) is ALSO wrong, and here the dictionary wins over the brief: de.wiktionary gives 'kein Plural' and an empty plural column. A named sport is an abstract discipline, not an object - so gender yes, plural no.",
+   "overturns_hypothesis": true,
+   "source": "https://de.wiktionary.org/wiki/Badminton"
+  },
+  {
+   "key": "baking",
+   "category": "activity",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[activities]; the picture shows the action of baking. This is the brief's own worked example of an activity. raw_type verb-gerund is correct here: a plain -ing action (de Backen, sv Baka are nominalised infinitives), not a named sport or a thing.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "baseball",
+   "category": "abstract",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[4th of July,activities,sports bw] - the 'sports bw' set is a coherent set of SPORTS (it also contains boxing, golf, gymnastics, which are not objects), so the picture is the sport, not the ball. Same ruling as badminton/golf: raw_type verb-gerund is wrong (der Baseball has a real gender), but the plural is not real for the sport sense. If a later round proves the picture is the BALL, this flips to countable-thing (der Baseball -> die Baseballs).",
+   "overturns_hypothesis": true,
+   "source": ""
+  },
+  {
+   "key": "basketball",
+   "category": "abstract",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[activities,sports bw,sports bw 2]; the sport, per the same 'sports bw'-is-a-sports-set argument as baseball. raw_type verb-gerund is wrong (der Basketball has a real gender) but the sport sense has no plural - which is exactly what all three sampled locales already encode. If a later round proves the picture is the BALL, this flips to countable-thing (der Basketball -> die Basketbaelle).",
+   "overturns_hypothesis": true,
+   "source": ""
+  },
+  {
+   "key": "beige",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[colors]; the picture is a colour swatch, i.e. a QUALITY. The operator's named defect class ('red -> [Rot,Rot,m]'). No gender, no plural in any of the 11 languages.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "biking",
+   "category": "activity",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[activities]; the picture shows the action of riding a bike. A plain -ing action (de Radfahren, sv Cykla are nominalised infinitives), directly parallel to the brief's 'swimming/skiing'. Not the bicycle: fr 'Velo' names the object but the en label and the theme both name the action.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "binoculars",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "reason": "THE ANGELFISH TRAP IN DISGUISE. The picture is ONE pair of binoculars - a single countable device. English is merely pluralia tantum here; de.wiktionary gives Fernglas as an ordinary neuter countable noun, plural Fernglaeser, defined as the optical device. Classifying this plural-picture would destroy the correct de Ferngläser. sv kikare->kikare is a correct zero-plural; fr jumelles is naturally plural-only, which costs nothing.",
+   "overturns_hypothesis": false,
+   "source": "https://de.wiktionary.org/wiki/Fernglas"
+  },
+  {
+   "key": "bison",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "reason": "a single countable animal; English zero-pluralises bison. de Bison->Bisons and fr Bison->Bisons are CORRECT plurals and must be kept. en[0]===en[1] is an English zero-plural, not an absence of plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "black",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[colors]; a colour swatch = a QUALITY. No gender, no plural. Current de 'Schwarz' carrying gender 'n' is the invented-gender defect.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "blocks",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[toys]; the picture shows SEVERAL building blocks and the English label is itself the plural of 'block'. The label IS the plural; there is nothing further to pluralise. NOTE: de currently holds the SINGULAR 'Bauklotz' in the label slot - for a plural picture the label should be 'Bauklötze' (same for sv 'Kloss').",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "blue",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[colors]; a colour swatch = a QUALITY. No gender, no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "boots",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[apparel bw,camping,clothing,winter]; the picture shows a PAIR of boots and the English label is the plural of 'boot' (a perfectly good English singular - so this is NOT the binoculars/pluralia-tantum case). The label IS the plural. de Stiefel is form-identical in the plural, so the label happens to already read correctly.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "bored",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[emotions]; the picture shows a face bearing the QUALITY bored. Adjective in all 11 languages (gelangweilt / uttraakad / ennuye). No gender, no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "bowling",
+   "category": "abstract",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[sports bw]; a named sport, in the same set as golf/badminton. It is a lexical noun with a real gender in the target languages (das Bowling, le bowling m) rather than a plain action, so it keeps its gender; but a named sport has no plural. Borderline case, and only hasGender is at stake between 'activity' and 'abstract': I keep the gender because dictionaries attest it as a noun, per the brief's own reasoning for chess.",
+   "overturns_hypothesis": true,
+   "source": ""
+  },
+  {
+   "key": "boxing",
+   "category": "abstract",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[sports bw]; a named sport, not a plain action - the referent is the discipline of boxing. Real gender in the target languages (fr la boxe f, sv boxningen). No plural for the sport. Borderline: de renders it 'Boxen', a nominalised infinitive that patterns with the gerund class, but the operator's rule is that the REFERENT decides once for all languages, and the referent is a sport like golf.",
+   "overturns_hypothesis": true,
+   "source": ""
+  },
+  {
+   "key": "bread",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "reason": "the brief's own documented case that raw_countable is fallible: 'ett bröd -> flera bröd' is perfectly correct. The picture is a LOAF - a discrete, bounded specimen. de Brot->Brote and fr Pain->Pains are CORRECT plurals and must be kept; sv Bröd->Bröd is a correct zero-plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "broccoli",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[At the Supermarket,vegetables,vegetables bw]; broccoli is a mass vegetable in every target language (de Brokkoli, sv broccoli carry no ordinary plural). No locale in the sample carries a defensible plural - de 'Brokkolis' is a machine artefact of the kind this commission exists to remove. Distinguished from asparagus, where Duden explicitly attests a countable spear sense.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "brown",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[colors]; a colour swatch = a QUALITY. No gender, no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "butter",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[At the Supermarket,breakfast]; the picture shows butter as a substance. Gender is real and load-bearing (die Butter f, le beurre m); the plural is not. NOTE: fr 'Beurres' in the sample is an invented plural - 'des beurres' would mean varieties of butter, not this picture.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "camping",
+   "category": "activity",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[activities]; the picture shows the action of camping, alongside baking/hiking/fishing in the same set. A plain -ing action, not a named sport. raw_type verb-gerund is correct.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "capricious",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[emotions]; a face bearing the QUALITY capricious. Adjective in all 11 languages (launisch / nyckfull / capricieux). No gender, no plural. NOTE separately: 'capricious' is well above the reading level of a 3-7 audience - a vocabulary question, not a classification one.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "cards",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[toys]; the picture shows several playing cards and the English label is the plural of the sister key 'card'. sister_singular_key='card' confirms the pair: two different pictures, two legitimate rows, NOT duplicates. The label IS the plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "celery",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[vegetables]; the picture shows celery as a bunch/substance. de Sellerie and sv selleri carry no ordinary plural. Gender is real (der/die Sellerie, le celeri m); the plural is not.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "cheeks",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[body parts]; the picture shows the (two) cheeks of a face and the English label is the plural of 'cheek' (a good English singular). The label IS the plural. NOTE: sv currently holds the singular 'Kind' in the label slot - for a plural picture it should read 'Kinder'. (sv kind->kinder is genuinely correct Swedish despite looking like German - do not 'fix' it.)",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "cheese",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "reason": "the picture is a wedge/block of cheese - a discrete, bounded specimen, the bread case. All three sampled locales already carry correct plurals: sv Ost->Ostar, fr Fromage->Fromages, de Käse->Käse (correct zero-plural). Marking this mass would destroy two of the three for no gain.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "chess",
+   "category": "abstract",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "THE BRIEF'S OWN WORKED EXAMPLE IS WRONG ON THE PLURAL, AND THE DICTIONARY WINS. The brief is RIGHT that raw_type 'verb-gerund' is false and that chess is a noun with a real gender (das Schach). The brief is WRONG that it is a countable-thing with hasPlural:true: de.wiktionary marks the game sense 'kein Plural, meist ohne Artikel', and Duden's 'Plural: die Schachs' belongs to the SURNAME entry, not the game. Chess is a named game = an abstract discipline, not an object (the object would be Schachbrett/Schachspiel). So: gender yes, plural NO.",
+   "overturns_hypothesis": true,
+   "source": "https://de.wiktionary.org/wiki/Schach"
+  },
+  {
+   "key": "chips",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[food bw 2]; the picture shows a pile of crisps/chips and the English label is the plural of 'chip'. de 'die Chips' is plural-only in this sense. The label IS the plural; nothing further to pluralise.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "chocolate",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[dessert bw,easter,food bw]; the picture is chocolate as a substance (a bar). Gender is real (die Schokolade f, le chocolat m); the plural is not this referent - fr 'Chocolats' means individual filled sweets, a DIFFERENT picture, so keeping it would mislabel this one.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "christmas",
+   "category": "proper-noun",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "raw_type 'noun-concept' understates it: Christmas is a NAMED festival, not a generic concept. A proper noun is still a noun, so the gender stays real and load-bearing (fr le Noel m); it simply has no plural. NOTE: en_looks_plural:true is a machine artefact of the trailing -s - 'Christmas' is not a plural and must not be treated as a plural-picture.",
+   "overturns_hypothesis": true,
+   "source": ""
+  },
+  {
+   "key": "cloudy",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[nature bw,weather]; the picture shows the sky bearing the QUALITY cloudy. Adjective in all 11 languages (bewoelkt / molnigt / nuageux). No gender, no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "clownfish",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "reason": "a single countable fish; English zero-pluralises fish. de Clownfisch->Clownfische, sv Clownfisk->Clownfiskar and fr Poisson-clown->Poissons-clowns are CORRECT plurals and must be kept.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "cold",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[weather]; the picture shows weather bearing the QUALITY cold. Adjective (kalt / kallt / froid), not the noun 'die Kaelte'. No gender, no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "confused",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[emotions]; a face bearing the QUALITY confused. Adjective in all 11 languages. No gender, no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "content",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[emotions]; a face bearing the QUALITY content/satisfied - NOT the homograph 'content' meaning what is inside something. fr 'Content' and de 'Zufrieden' confirm the emotion reading. No gender, no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "cookies",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[Easter bw 2]; the picture shows several cookies and the English label is the plural of the sister key 'cookie'. sister_singular_key='cookie' confirms the pair - two pictures, two legitimate rows. The label IS the plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "coral",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "reason": "raw_type 'adjective' is WRONG. themes=[colors,ocean life] is genuinely conflicted, but the shipped data resolves it unanimously: de Koralle, sv Korall, fr Corail are all the ANIMAL, not the colour (the colour would be korallenrot / korallroed). A coral is a countable organism: sv Korall->Koraller is CORRECT and would be destroyed by an adjective ruling, and die Koralle f is a real gender. NOTE: de and fr are MISSING their plurals (Korallen / Coraux). SEPARATE DEFECT to escalate: if a coral-COLOUR swatch also resolves to this key, the key needs splitting - that is a data bug, not a reason to strip the animal's gender and plural.",
+   "overturns_hypothesis": true,
+   "source": ""
+  },
+  {
+   "key": "corn",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[At the Supermarket,thanksgivinng,vegetables,vegetables bw,vegetables bw 2]; the shipped word is de Mais / sv Majs / fr Mais - the grain as a substance. (The countable cob would be de 'Maiskolben', which is not the word here.) Gender real, plural not.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "crayons",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[toys]; the picture shows several crayons and the English label is the plural of the sister key 'crayon'. sister_singular_key='crayon' confirms the pair. The label IS the plural - de 'Buntstifte' and sv 'Kritor' already read correctly as plurals.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "crimson",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[colors]; a colour swatch = a QUALITY. No gender, no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "crutches",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[hospital]; the picture shows a PAIR of crutches and the English label is the plural of 'crutch' (a good English singular - so this is NOT the binoculars/pluralia-tantum case, where English has no singular at all). The label IS the plural. NOTE: sv currently holds the singular 'Krycka' in the label slot - for a plural picture it should read 'Kryckor'.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "curtains",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[around the house,furniture]; the picture shows several curtains and the English label is itself the plural of the sister key 'curtain'. The label IS the plural; there is nothing further to pluralise. sister_singular_key='curtain' - two different pictures, two legitimate rows, NOT duplicates.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "cymbals",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[music]; the picture shows a PAIR of cymbals and the English label is the plural of 'cymbal' (a good English singular). The label IS the plural. NOTE: sv currently holds the singular 'Cymbal' in the label slot - for a plural picture it should read 'Cymbaler'. de 'Becken' is form-identical in the plural and already reads correctly.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "dancing",
+   "category": "activity",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[activities]; the picture shows the action of dancing. A plain -ing action (de Tanzen, sv Dansa are nominalised infinitives), directly parallel to the brief's 'swimming/baking/skiing'. raw_type verb-gerund is correct.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "deer",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "reason": "a single countable animal; English zero-pluralises deer. sv Hjort->Hjortar and fr Cerf->Cerfs are CORRECT plurals and must be kept. SEPARATE DEFECT to escalate: de holds 'Hirsch' (stag/red deer) as the singular but 'Rehe' as the plural - two DIFFERENT species. Hirsch pluralises to Hirsche; Rehe is the plural of Reh. The de row is internally incoherent regardless of this classification.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "dice",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "reason": "ENGLISH ZERO-PLURAL, not an absent plural. The New Oxford Dictionary of English, quoted by en.wiktionary: 'In modern standard English, the singular die (rather than dice) is uncommon. Dice is used for both the singular and the plural.' The picture is a countable object: sv Taerning->Taerningar and fr De->Des are CORRECT and would be destroyed by a plural-picture ruling; de Wuerfel->Wuerfel is a correct zero-plural. Note en_looks_plural is already false here and raw_countable:true agrees.",
+   "overturns_hypothesis": false,
+   "source": "https://en.wiktionary.org/wiki/dice"
+  },
+  {
+   "key": "disgusted",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[emotions]; a face bearing the QUALITY disgusted. Adjective in all 11 languages. No gender, no plural. (The sample's fr gender 'f' vs de 'm' on the same picture is itself proof the gender is invented noise.)",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "driftwood",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[beach]; the picture shows driftwood as a material. Treibholz / drivved / bois flotte are substance nouns with no ordinary plural. Gender real, plural not.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "earmuffs",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[accessories,winter]; the English label is the plural of 'earmuff' and Duden lists de Ohrenschuetzer as a 'Pluralwort', with other references noting it is 'meist im Plural verwendet'. So the label IS the plural. Distinguished from binoculars/glasses, where the target languages have a clean SINGULAR for the whole object (Fernglas, Brille) and English alone is pluralia tantum; here the plural is the normal form in the target language too.",
+   "overturns_hypothesis": false,
+   "source": "https://de.wiktionary.org/wiki/Ohrensch%C3%BCtzer"
+  },
+  {
+   "key": "earth",
+   "category": "proper-noun",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[classroom bw 2,space,space bw]; the picture is the PLANET Earth (a globe), a named thing. A proper noun is still a noun, so the gender is real and load-bearing (die Erde f, la Terre f - the same principle under which the German round corrected venus der->die); it simply has no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "easter",
+   "category": "proper-noun",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "raw_type 'noun-concept' understates it: Easter is a NAMED festival. Proper noun = still a noun, so the gender stays (fr Paques, de Ostern n); no plural.",
+   "overturns_hypothesis": true,
+   "source": ""
+  },
+  {
+   "key": "excited",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[emotions]; a face bearing the QUALITY excited. Adjective in all 11 languages. No gender, no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "eyelashes",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[body parts]; the picture shows the lashes of an eye - several - and the English label is the plural of 'eyelash' (a good English singular). The label IS the plural. NOTE: de and sv currently hold the singulars 'Wimper'/'Oegonfrans' in the label slot; for a plural picture they should read 'Wimpern'/'Oegonfransar'.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "fish",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "reason": "a single countable fish; English zero-pluralises fish. de Fisch->Fische, sv Fisk->Fiskar and fr Poisson->Poissons are CORRECT plurals and must be kept. This is the brief's canonical trap and the highest-traffic key in the batch (14 themes).",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "fishing",
+   "category": "activity",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[activities]; the picture shows the action of fishing (contrast the key 'fish', which is the animal). A plain -ing action (de Angeln, sv Fiska are nominalised infinitives). raw_type verb-gerund is correct.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "flip-flops",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[apparel bw,beach,beach bw,beach bw 2,clothing,summer]; the picture shows a PAIR and the English label is the plural of 'flip-flop' (a good English singular). The label IS the plural. NOTE: de currently holds the singular 'Flip-Flop' in the label slot; for a plural picture it should read 'Flip-Flops'.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "food",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[travel and holiday bw]; the picture shows food generically, as a substance/category. Gender real (das Essen n, la nourriture f); plural not. NOTE: fr 'Nourritures' in the sample is an invented plural - it does not mean this picture.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "football",
+   "category": "abstract",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[activities,sports bw,sports bw 2]. The shipped words settle the ball-vs-sport question DECISIVELY: de 'American Football', sv 'Amerikansk fotboll', fr 'Football americain' all name the SPORT (a ball would be plain 'Football'/'ballon'). raw_type verb-gerund is wrong - it is a noun with a real gender - but the brief's countable-thing/hasPlural:true is also wrong for the sport sense. The brief's own supporting example 'en fotboll -> fotbollar' is about the BALL, a different referent from this picture.",
+   "overturns_hypothesis": true,
+   "source": ""
+  },
+  {
+   "key": "french-fries",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[4th of July,At the Supermarket,food bw,food bw 2]; the picture shows a portion of fries - several - and the English label is plural. de 'Pommes frites' and fr 'Frites' are plural-only in this sense. The label IS the plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "garlic",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[At the Supermarket,vegetables,vegetables bw]; the shipped word de Knoblauch is a mass noun with no plural, as is sv vitloek in this sense. Gender real, plural not. NOTE: fr 'Aulx' in the sample is actively harmful for a 3-7 audience - fr.wiktionary cites the Academie francaise: the plural 'aulx' 'becomes rare and tends to be replaced by ails in all uses'. Reading 'aulx' aloud to a child is wrong-register; pinning hasPlural:false removes it.",
+   "overturns_hypothesis": false,
+   "source": "https://fr.wiktionary.org/wiki/ail"
+  },
+  {
+   "key": "gingerbread",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "reason": "themes=[christmas]; in a Christmas set the picture is a gingerbread MAN/biscuit - a discrete, bounded specimen, not the dough. All three sampled locales already carry correct plurals for exactly that referent: sv Pepparkaka->Pepparkakor, fr Pain d'epices->Pains d'epices, de Lebkuchen->Lebkuchen (correct zero-plural). Marking this mass would destroy two of the three. raw_countable:false is the bread-class error again.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "glasses",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "reason": "TRAP - DO NOT READ THE SISTER KEY AS A SINGULAR. sister_singular_key='glass', but themes=[education bw] and the shipped words (de Brille, fr Lunettes) make this SPECTACLES, whereas 'glass' is the drinking vessel: a DIFFERENT referent, not this key's singular. So this is not a plural-picture. The picture is ONE pair of spectacles = one countable object, the binoculars case: de Brille->Brillen is a CORRECT plural and must be kept. English alone is pluralia tantum.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "gloves",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[hospital,objects bw,tools bw]; the picture shows a PAIR of gloves and the English label is the plural of the sister key 'glove'. sister_singular_key='glove' confirms the pair - two pictures, two legitimate rows. The label IS the plural; de 'Handschuhe' and fr 'Gants' already read correctly as plurals.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "goggles",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "reason": "themes=[accessories,sports bw]; the picture is ONE pair of goggles = one countable object, the binoculars/glasses case: de Schutzbrille->Schutzbrillen is a CORRECT plural and must be kept. English alone is pluralia tantum; 'goggle' is not a usable English singular, which is precisely the tell that this is the pluralia-tantum trap and NOT a plural-picture.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "goldfish",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "reason": "themes=[pets]; a single countable fish; English zero-pluralises fish. de Goldfisch->Goldfische, sv Guldfisk->Guldfiskar and fr Poisson rouge->Poissons rouges are CORRECT plurals and must be kept.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "golf",
+   "category": "abstract",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "raw_type 'verb-gerund' is WRONG (the brief is right about that): golf is a noun with a real gender. But the dictionary overturns the brief's countable-thing/hasPlural:true conclusion: Duden gives 'das Golf; Genitiv: des Golfs' with NO plural listed, and de.wiktionary marks it 'kein Plural'. A named sport is an abstract discipline, not an object. Gender yes, plural NO.",
+   "overturns_hypothesis": true,
+   "source": "https://www.duden.de/rechtschreibung/Golf_Spiel"
+  },
+  {
+   "key": "grapes",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[At the Supermarket,breakfast,fruits bw]; the picture shows a BUNCH of grapes - several - and the English label is the plural of 'grape' (a good English singular). The label IS the plural. NOTE: de currently holds the singular 'Traube' in the label slot; for a plural picture it should read 'Trauben'. sv 'Druvor' and fr 'Raisins' already read correctly.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "grass",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[spring]; the picture shows grass as ground cover - a mass. Gender real (das Gras n, l'herbe f); plural not. NOTE: fr 'Herbes' means herbs/weeds as separate plants - a different referent from this picture.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "gray",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[colors]; a colour swatch = a QUALITY. No gender, no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "green",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[colors]; a colour swatch = a QUALITY. No gender, no plural. (Contrast the sibling key 'green-beans', which is a plural-picture of a vegetable - the shared word 'green' is not a shared referent.)",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "green-beans",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[vegetables]; the picture shows a handful of green beans - several - and the English label is plural. The label IS the plural. NOTE: de currently holds the singular 'Gruene Bohne' in the label slot; for a plural picture it should read 'Gruene Bohnen'. NOTE also: sv holds the FRENCH phrase 'Haricots verts' - a separate defect to escalate (sv should be 'haricots verts' only as a loan, otherwise 'gröna bönor').",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "gymnastics",
+   "category": "abstract",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[activities]; a named sport/discipline, not a plain action. Real gender in the target languages (fr la gymnastique f, sv gymnastiken); no plural for the discipline. raw_type verb-gerund is wrong - 'gymnastics' is not a gerund at all; en_looks_plural:true is also a machine artefact of the trailing -s (gymnastics is not a plural and must not be treated as a plural-picture). Borderline against 'activity' since de renders it 'Turnen'; only hasGender is at stake, and dictionaries attest the noun.",
+   "overturns_hypothesis": true,
+   "source": ""
+  },
+  {
+   "key": "hair",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[body parts]; the picture shows the hair on a head - a collective mass, not one countable strand (that would be de 'ein Haar'). English 'Hair' is NOT a plural form, so this is mass rather than plural-picture. de 'Haare' and fr 'Cheveux' are plural-only labels for exactly this referent and are correct as labels; there is nothing further to pluralise. Gender real (das Haar n, les cheveux m).",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "halloween",
+   "category": "proper-noun",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "raw_type 'noun-concept' understates it: Halloween is a NAMED festival. Proper noun = still a noun, so the gender stays (fr Halloween m); no plural.",
+   "overturns_hypothesis": true,
+   "source": ""
+  },
+  {
+   "key": "happy",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[emotions]; a face bearing the QUALITY happy. Adjective in all 11 languages (gluecklich / glad / heureux). No gender, no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "hay",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[farm bw]; the picture shows hay as a material. Heu / hoe / foin are substance nouns with no ordinary plural. Gender real, plural not.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "high-heeled-shoes",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[apparel bw]; the picture shows a PAIR and the English label is plural ('high-heeled shoe' is a good English singular). The label IS the plural. NOTE: de currently holds the singular 'Stoeckelschuh' in the label slot; for a plural picture it should read 'Stoeckelschuhe'.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "hiking",
+   "category": "activity",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[activities]; the picture shows the action of hiking. A plain -ing action (de Wandern is a nominalised infinitive), directly parallel to the brief's 'swimming/skiing'. raw_type verb-gerund is correct.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "hockey",
+   "category": "abstract",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[sports bw,winter]; a named sport, in the same set as golf/badminton and subject to the same ruling. It is a lexical noun with a real gender (das Hockey, le hockey m), so raw_type verb-gerund is wrong; but a named sport has no plural - which all three sampled locales already encode.",
+   "overturns_hypothesis": true,
+   "source": ""
+  },
+  {
+   "key": "honey",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[breakfast]; the picture shows honey as a substance. Honig / honung / miel are mass nouns. Gender real, plural not.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "hot",
+   "category": "adjective",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[weather]; the picture shows weather bearing the QUALITY hot. Adjective (heiss / varmt / chaud), not the noun 'die Hitze'. No gender, no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "ice",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[winter]; the picture is frozen water as a substance - NOT ice cream (the fr 'Glace' is a homograph for both; the winter theme settles it). Gender real (das Eis n, la glace f); plural not. NOTE: fr 'Glaces' would mean ice creams - a different picture.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "ice-skates",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[Christmas bw 2]; the picture shows a PAIR and the English label is the plural of the sister key 'ice-skate'. sister_singular_key='ice-skate' confirms the pair - two pictures, two legitimate rows. The label IS the plural; de 'Schlittschuhe' and sv 'Skridskor' already read correctly as plurals.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "ice-skating",
+   "category": "activity",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[winter]; the action of skating (contrast the sibling key 'ice-skates', the objects). A plain -ing action (de Schlittschuhlaufen is a nominalised infinitive); the named SPORT would be figure/speed skating, which this label is not. raw_type verb-gerund is correct. NOTE: no_image:true - no picture resolves to this key, so it is dead data; classified anyway, lowest priority.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "jeans",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "reason": "themes=[clothing,objects bw]; the picture is ONE garment - the binoculars case. English is pluralia tantum, but fr has a real singular/plural pair Jean->Jeans (already correct in the sample and would be DESTROYED by a plural-picture ruling), and de 'eine Jeans -> zwei Jeans' is a correct zero-plural. 'Jean' is not a usable English singular for the garment, which is the tell that this is pluralia tantum and not a plural-picture.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "jelly-beans",
+   "category": "plural-picture",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[easter]; the picture shows a handful of jelly beans - several - and the English label is the plural of 'jelly bean' (a good English singular). The label IS the plural. NOTE: de currently holds the singular 'Geleebohne' in the label slot; for a plural picture it should read 'Geleebohnen'.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "jellyfish",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "reason": "a single countable animal; English zero-pluralises fish. de Qualle->Quallen, sv Manet->Maneter and fr Meduse->Meduses are CORRECT plurals and must be kept. The '-fish' ending is an English accident, not a signal of an absent plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "jumping",
+   "category": "activity",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[activities]; the picture shows the action of jumping. A plain -ing action (de Springen, sv Hoppa are nominalised infinitives), directly parallel to the brief's 'swimming/baking/skiing'. raw_type verb-gerund is correct.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "jupiter",
+   "category": "proper-noun",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[space]; the picture is the NAMED planet Jupiter. A proper noun is still a noun, so the gender is real and load-bearing (der Jupiter m, le Jupiter m - the same principle under which the German round corrected venus der->die); it simply has no plural.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "knitting",
+   "category": "activity",
+   "hasGender": false,
+   "hasPlural": false,
+   "reason": "themes=[activities]; the picture shows the action of knitting. A plain -ing action (de Stricken, sv Sticka are nominalised infinitives), directly parallel to the brief's 'baking'. raw_type verb-gerund is correct.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "leggings",
+   "category": "countable-thing",
+   "hasGender": true,
+   "hasPlural": true,
+   "reason": "themes=[clothing]; the picture is ONE garment - the jeans/binoculars case. English is pluralia tantum, but fr has a real singular/plural pair Legging->Leggings (already correct in the sample and would be DESTROYED by a plural-picture ruling); de 'eine Leggings' is a correct zero-plural. 'Legging' is not the usual English singular, which is the tell that this is pluralia tantum, not a plural-picture.",
+   "overturns_hypothesis": false,
+   "source": ""
+  },
+  {
+   "key": "lettuce",
+   "category": "mass",
+   "hasGender": true,
+   "hasPlural": false,
+   "reason": "themes=[At the Supermarket,vegetables,vegetables bw,vegetables bw 2]; the shipped words de Salat / sv Sallad name the leaf vegetable as a mass, and neither carries a plural in the sample. Gender real (der Salat m, la laitue f); plural not. Only fr 'Laitues' has one, i.e. 1 of 3 - below the corroboration bar I applied to bread/cheese/gingerbread (where 2 or 3 of 3 locales carried correct plurals for a bounded specimen).",
+   "overturns_hypothesis": false,
+   "source": ""
+  }
+ ]
+}

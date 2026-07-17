@@ -98,14 +98,49 @@ reviewers wrote *"I cannot verify from memory"* and held — honest and useless.
   source you tried and that it failed.
 - Only a genuine *content* question (which of two things is in the picture?) may be `HOLD`.
 
-## The `themes` field is decisive
+## 🔴 LOOK AT THE PICTURE. This is not optional, and it is the whole job.
 
-`themes` tells you **what the picture actually is** — the vocabulary is keyed flat, so the subject
-lives only there. `orange` with `[colors, fruits]` is undecidable without it; `salt` with
-`[at_the_supermarket]` is table salt (a mass), not the chemist's *salts*.
+**You MUST open the image file with the Read tool before you classify a key.** The Read tool
+renders `.webp` directly. The image is at:
 
-Some keys carry `no_image: true` — no picture resolves to them (dead data). Classify them anyway,
-lowest priority, and note it.
+```
+C:\Users\rkgen\lessoncraftstudio\image-library-webp\themes\<theme>\<file>@2x.webp
+```
+
+where `<theme>` is an entry from the row's `themes` and `<file>` is the key with `-`→`_`
+(`french-fries` → `french_fries@2x.webp`). If one theme path fails, try another from the list.
+
+**Why this rule exists, in blood.** A first classification pass reasoned from the English word, the
+theme NAME and the dictionary — and never opened a single image. It was checked against two
+pictures and was wrong on both:
+
+- `chess` — themes `[activities, toys]`, de `Schach`. Ruled `abstract` (the game, no plural).
+  **The picture is a chess KING — a physical piece.** A countable object. And *Schach* names the
+  game, so the label does not even name the thing in the picture (*Schachfigur* does).
+- `football` — themes `[activities, sports bw]`, de `American Football`. Ruled `abstract` (the
+  sport, no plural). **The picture is a BALL.** Countable: *footballs*, *Footballs*, *fotbollar*.
+
+Two for two, wrong, from good reasoning over the wrong evidence. A Swedish native separately
+insisted *"en fotboll → fotbollar"* — she was right, because she was picturing the ball. A Dutch
+round held `football`/`golf`/`hockey`/`tennis` as *"sports twijfel"* for exactly this reason and
+had no way to settle it. **You do: open the file.**
+
+The operator's rule — *"all of the languages reflect the same images"* — only works if someone
+actually looks at the image. That someone is you.
+
+**A theme name is a hint, not the picture.** `toys/chess` contains a chess piece, not a toy set.
+
+## The `themes` field tells you WHERE to look
+
+`themes` locates the art. The vocabulary is keyed flat, so the subject lives only there — `orange`
+with `[colors, fruits]` is undecidable without it; `salt` with `[at_the_supermarket]` is table salt
+(a mass), not the chemist's *salts*. Use it to find the file, then **look**.
+
+If a key resolves to art in two themes that show **different things** (`colors/orange` the swatch vs
+`fruits/orange` the fruit), say so — that is a key that carries two pictures, and it is a finding.
+
+Some keys carry `no_image: true` — no picture resolves to them (dead data, ~84 keys). You cannot
+look at those; classify from `en` + `themes`, mark them, and say the image was unavailable.
 
 ## Output
 
@@ -123,14 +158,22 @@ with **one row per key — EVERY key in your batch, none missing**:
       "reason":"a single countable fish; English merely zero-pluralises fish. de Kaiserfisch->Kaiserfische is a CORRECT plural and must be kept.",
       "overturns_hypothesis": false, "source":"https://…" },
     { "key":"chess", "category":"countable-thing", "hasGender":true, "hasPlural":true,
-      "reason":"raw_type says verb-gerund; that is WRONG. Chess is a noun in English and everywhere (ett schack, das Schach).",
+      "image_seen":"toys/chess@2x.webp — a single chess KING piece, red/gold, on white",
+      "reason":"I opened the image: it is a chess PIECE, not the game. A countable object -> plural. raw_type 'verb-gerund' is wrong, but so is 'the game': de 'Schach' names the GAME and does not name what is pictured (Schachfigur does). LEMMA MISMATCH — flagged.",
       "overturns_hypothesis": true, "source":"https://…" }
   ] }
 ```
 
-`reason` is required on **every** row. `source` wherever you looked something up. Set
-`overturns_hypothesis: true` whenever your `category` contradicts `raw_type` — those are the
-findings that matter most.
+`reason` is required on **every** row. **`image_seen` is required on every row that has an image** —
+one line describing what you actually saw. A row with no `image_seen` will be treated as
+unclassified and sent back.
+
+`source` wherever you looked something up. Set `overturns_hypothesis: true` whenever your
+`category` contradicts `raw_type`.
+
+**If the word does not name what is in the picture, say so** (`"LEMMA MISMATCH"` in `reason`). That
+is a more serious defect than a wrong plural and no previous pass could see it — they were not
+looking.
 
 ## Rules
 

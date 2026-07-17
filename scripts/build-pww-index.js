@@ -86,6 +86,25 @@ const THEME_KEY_ALIAS = {
   tree: (k) => k + '-tree',
 };
 
+/* PLURAL-PICTURE keys carry NO article — the picture shows SEVERAL, so the
+   label IS the plural (curtains → "Gardiner"), yet the row keeps the
+   singular's gender (gardin = en-ord). Composing an article from it spoke
+   "en gardiner" — a singular article on a plural noun, read aloud to
+   children (operator-reported, twice). Suppress the article exactly as the
+   adjectives above are: no `g` emitted → the wall renders the bare plural.
+   Read from the classification SoT (§10.4) so new plural-pictures are
+   covered automatically; NOT extended to mass/proper nouns, which keep
+   their article legitimately (ett äpple, ett vatten). */
+const PLURAL_PICTURE_KEYS = (function () {
+  try {
+    const cls = JSON.parse(fs.readFileSync(
+      path.join(REPO, 'docs', 'audit-results', 'vocab-audit', 'classification.json'), 'utf8')).rows;
+    const s = new Set();
+    for (const k of Object.keys(cls)) if (cls[k] && cls[k].category === 'plural-picture') s.add(k);
+    return s;
+  } catch (e) { console.log('  ⚠ classification.json unreadable — plural-pictures keep their article: ' + e.message); return new Set(); }
+})();
+
 const DRY = process.argv.includes('--dry-run');
 
 /* ---- load the vocabulary (script-global const, no module.exports) ---- */
@@ -147,7 +166,7 @@ function main() {
       if (alias) vkey = alias(vkey);
       const entry = vocab[vkey];
       if (!entry) { unresolved.push(`${key}/${fileBase} → ${vkey}`); continue; }
-      const noArticle = themeNoArticle || keyNoArticle.indexOf(vkey) >= 0;
+      const noArticle = themeNoArticle || keyNoArticle.indexOf(vkey) >= 0 || PLURAL_PICTURE_KEYS.has(vkey);
       cards.push({ key: vkey, file: fileBase, noArticle: noArticle });
       cardCount++;
     }

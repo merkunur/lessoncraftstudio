@@ -48,6 +48,17 @@ const PRIOR_ARCS = {
     { sha: '69ee10ea', what: 'singular wave (11 keys, 2026-07 native audit)' },
   ],
   no: [{ sha: '51a0d957', what: 'gender/i18n wave (121 entries)' }],
+  sv: [
+    { sha: 'c8c16d11', what: 'gender-code audit (22 keys, neuter/common + d-leak)' },
+    { sha: '3314cb5c', what: 'gender-code sweep top-up (11 keys, n→t)' },
+    { sha: 'cedb564e', what: 'gender parallelogram n→t (-gram neuter class) — Nordic arc final' },
+  ],
+  /* NOT registered, deliberately — surfaced, not absorbed:
+     8ec725ae "Fix 361 stripped diacritics + 19 gender errors across 11-language
+     vocabulary" touches 197 keys but only ~19 carry a gender decision. keysTouchedBy()
+     reads the key diff and cannot tell the two apart, so registering it would mark all
+     197 gender-protected at ~90% false and drown the real signal. Those ~19 therefore
+     rely on the adversarial pass + the operator hold, not on this scan. */
 };
 
 /* Items an earlier arc examined and DELIBERATELY LEFT ALONE. These are
@@ -64,6 +75,10 @@ const HELD_BY_DECISION = {
   },
   de: {},
   no: {},
+  /* sv: the three prior sv arcs are gender-code sweeps whose commit bodies record no
+     deliberate leave-alone rulings — every key they examined they moved. Empty is the
+     accurate state, not a stub: nothing is known to have been held. */
+  sv: {},
 };
 
 /* Keys a prior arc flagged as KNOWN-DEFECT but deliberately did not fix
@@ -77,6 +92,10 @@ const KNOWN_CARRY_FORWARD = {
     thunderstorm: 'Onweren→mass', 'dragon-fruit': '→uncountable',
   },
   de: {}, no: {},
+  /* sv: no prior arc flagged-but-deferred a known sv defect. The `camp`
+     ["Läger","Lägerar","n"] class (both fields wrong from one missing SV_ETT_WORDS
+     entry) is NEW ground found this arc — not a carry-forward. */
+  sv: {},
 };
 
 /* ---- which keys did a prior commit actually touch? read the diff ---- */

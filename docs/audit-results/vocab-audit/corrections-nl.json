@@ -70,12 +70,6 @@
     "why": "GB meervoud is 'kameleons', not the cur 'Kameleonen'",
     "src": "https://woordenlijst.org/zoeken/?q=kameleon"
    },
-   "dimetrodon": {
-    "to": "Dimetrodons",
-    "from": "Dimetrodonten",
-    "why": "'Dimetrodonten' is an over-Latinised invention and is attested in neither het Groene Boekje nor nl.wiktionary (both 'niet bekend'/404). This loanword ends in a consonant (-on, not -us like dinosaurus), so the natural Dutch plural is -s: native usage is 'twee dimetrodons'.",
-    "src": "https://woordenlijst.org/zoeken/?q=dimetrodon (not found)"
-   },
    "dragon-fruit": {
     "to": "Drakenfruits",
     "from": "Drakenfruiten",
@@ -143,12 +137,6 @@
     "why": "'Mappen' is the plural of 'map' (folder/binder) — a false-friend error. The picture is a geographic map = de kaart, plural KAARTEN.",
     "src": "https://woordenlijst.org/zoeken/?q=kaart"
    },
-   "ottoman": {
-    "to": "Poefen",
-    "from": "Poefs",
-    "why": "Groene Boekje gives de poef → meervoud 'poefen'; 'Poefs' is not the listed form.",
-    "src": "https://woordenlijst.org/zoeken/?q=poef"
-   },
    "paper": {
     "to": "Papieren",
     "from": "Papier",
@@ -212,5 +200,6 @@
     "src": "https://woordenlijst.org/zoeken/?q=tablet"
    }
   }
- }
+ },
+ "reverified": true
 }

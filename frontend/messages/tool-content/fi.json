@@ -356,6 +356,32 @@
       "S2-oppijoille väritetyt sanan osat ovat suora silta suomen lukusanoihin: kuuntele, osoita ja toista — sama luku moneen kertaan eri aistein."
     ]
   },
+  "picture-word-wall": {
+    "slug": "kuvasanaseina",
+    "name": "Kuvasanaseinä",
+    "tagline": "Tuhat kuvasanaa taululle — napauta korttia, ja se sanoo sanansa ääneen",
+    "metaTitle": "Kuvasanaseinä — puhuva sanaseinä luokkaan | Ilmainen",
+    "metaDescription": "Ilmainen kuvasanaseinä luokan taululle: 50 teemaa ja tuhat kuvasanaa. Napauta korttia — sana suurenee ja kuuluu ääneen. Yksi tai monta. Ei kirjautumista.",
+    "about": [
+      "Kuvasanaseinä tuo luokan sanaseinän taululle — mutta suurena, puhuvana ja aina käsillä. Viisikymmentä teemaa ja lähes puolitoista tuhatta kuvasanaa odottavat kortteina: eläimet, ruoat, kulkuvälineet, koulutarvikkeet, sää, kehon osat, ammatit. Lapsi napauttaa korttia, kortti kääntyy isoksi ja sanoo sanansa ääneen — kuva, kirjoitettu sana ja puhuttu sana kohtaavat samassa hetkessä. Juuri tämä kolmen kohtaaminen on sanavaraston kasvun ydin: sana jää mieleen, kun sen näkee, kuulee ja lukee yhtä aikaa. Seinä ei mittaa ketään eikä pidä kirjaa kenestäkään — ei ajastinta, ei pisteitä, ei oikein–väärin-ääniä. Seinä vain näyttää ja sanoo, ja luokka puhuu.",
+      "Suomen kielessä ei ole artikkeleita eikä sanojen jakoa suvun mukaan, joten tällä seinällä ei ole värikehyksiä eikä pikkusanoja korttien edessä — ja se on tarkoituksellinen valinta. Emme piirrä lapsen eteen sääntöä, jota suomessa ei ole. Sen sijaan kuva on isompi, sana on isompi ja seinälle mahtuu kerralla enemmän kortteja. Juuri sanan koko on suomessa arvokasta: sanamme ovat pitkiä ja läpinäkyviä yhdyssanoja — hammasharja, jääkaappi, polkupyörä, liikennevalot — ja iso kirjasin antaa lapsen katsoa sanan sisään: nähdä yhdyssanan sauman, taputtaa tavut ja lukea sana läpi kirjain kerrallaan. Vahva äänne–kirjain-vastaavuus tekee siitä palkitsevaa: se, mikä seinällä lukee, on juuri se, mikä sanotaan.",
+      "Jokaisesta kortista löytyy myös monta: napautus vaihtaa yhden kuvan monen kuvan joukoksi, ja sana vaihtuu monikkoon — kissasta tulee kissat, talosta talot. Monikon -t on lapsen ensimmäisiä kielioppihavaintoja, ja tässä hän näkee ja kuulee sen samassa napautuksessa: kuva kertoo määrän, sana kertoo saman asian kirjaimin. Kuiskaustilassa seinä kuiskaa sanan ja luokka etsii oikean kortin — tarkka kuunteleminen ja sanavarasto samassa leikissä. Omalle seinälle voi kiinnittää viikon sanat, nimetä sen luokan oman teeman mukaan ja lukea ne yhdessä läpi. Kaikki toimii suoraan selaimessa taululla, tabletilla ja tietokoneella ilman kirjautumista ja asennusta."
+    ],
+    "howToUse": [
+      "Heijasta kuvasanaseinä luokan taululle ja valitse päivän teema — Teemat-painike avaa kaikki viisikymmentä, ja hakukenttään voi kirjoittaa teeman nimen suoraan.",
+      "Mallinna ensin itse: napauta korttia, anna sen suurentua ja sanoa sanansa, ja toistakaa sana yhdessä ääneen katsoen samalla kirjoitettua sanaa.",
+      "Vaihda yksi ja monta -painikkeella: sama kortti näyttää yhden kissan tai monta kissaa, ja sana vaihtuu mukana — kuunnelkaa, mikä sanan lopussa muuttuu.",
+      "Anna kortti lapselle: pieni lukija etsii sanan, iso lukija lukee sen ensin itse ja tarkistaa vasta sitten napauttamalla — seinä ei paljasta vastausta ennen kuin sitä pyydetään.",
+      "Kiinnitä viikon sanat Meidän sanat -seinälle, nimeä seinä luokan teeman mukaan (esim. Viikko 12 — Maatilalla) ja lukekaa ne yhdessä läpi joka aamu."
+    ],
+    "classroomIdeas": [
+      "Aamupiirin sanaseinä: yksi teema viikossa. Maanantaina teema avataan yhdessä, ja joka aamu yksi lapsi valitsee kortin, sanoo sanan ja keksii sille lauseen — perjantaina koko seinä luetaan läpi kuorossa.",
+      "Kuiskausjahti: seinä kuiskaa sanan ja luokka etsii kortin. Vähennä ensin korttien määrä kuuteen, niin pienimmätkin ehtivät katsoa jokaista kuvaa — ja kasvata kuuteentoista, kun jahti alkaa sujua.",
+      "Yksi vai monta: näytä kortti ja kysy, kuuluuko sanan lopussa se pieni -t. Lapset näyttävät yhtä sormea tai kaikkia — sitten kortti käännetään ja katsotaan, kuka kuuli oikein. Monikko opitaan korvalla ennen kuin se kirjoitetaan.",
+      "S2 ja valmistava opetus: seinä on koko kielitaidon kirjolle sama työkalu. Vasta-alkaja napauttaa kuvaa ja kuulee sanan niin monta kertaa kuin tarvitsee — ei käännöstä, vaan kuva ja suomen sana suoraan yhdessä. Pidemmällä oleva kertoo kortista lauseen. Aloittakaa lähisanoista: koulutarvikkeet, ruoat, vaatteet, kehon osat.",
+      "Sanaseinä ja Äännelaatikot pariksi: valitkaa seinältä päivän sana, katsokaa iso kuva ja kirjoitusasu, ja purkakaa sama sana sitten Äännelaatikoissa äänne kerrallaan — pitkä sana kannattaa katsoa isona ennen kuin sen pilkkoo osiin."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

@@ -356,6 +356,32 @@
       "Dettato di numeri a coppie: un bambino dice un numero a voce alta, il compagno lo costruisce con i blocchi sul tablet, e la parola colorata fa da arbitro."
     ]
   },
+  "picture-word-wall": {
+    "slug": "muro-delle-parole",
+    "name": "Muro delle parole illustrate",
+    "tagline": "Tocca una carta: la parola si dice da sola, con il suo articolo",
+    "metaTitle": "Muro delle parole illustrate per la LIM | LessonCraftStudio",
+    "metaDescription": "Muro delle parole per la LIM: 1.495 carte illustrate in 50 temi, e ogni parola si dice da sola con il suo articolo — un cane, uno zaino, un’ape. Senza login.",
+    "about": [
+      "Sul muro ci sono le carte, e ogni carta è una parola con la sua figura. Un bambino ne tocca una: la carta si gira, diventa grande e dice la parola ad alta voce — «un cane», «una mela», «uno zaino». Non la parola nuda: la parola con il suo articolo, perché in italiano un nome senza articolo è un nome a metà, e il genere non si impara a regole ma a orecchio, una parola alla volta. È il cartellone delle parole della classe portato sulla LIM: cinquanta temi e millequattrocentonovantacinque carte illustrate — la fattoria, il corpo, la cucina, il mare, l’inverno — pronte da proiettare.",
+      "Ogni carta porta la sua striscia colorata, e il colore dice il genere: maschile e femminile si vedono prima ancora di leggerli. Poi tocchi «tanti», la figura si moltiplica, la parola diventa plurale e la striscia passa all’oro — un cane, dei cani; una mela, delle mele. È qui che il muro mostra l’italiano vero, quello che nessuna scheda fotocopiata riesce a far sentire: uno zaino e uno studente, ma un cane — perché davanti alla s seguita da un’altra consonante, e davanti alla z, l’articolo si allunga. E un albero senza apostrofo, ma un’ape con l’apostrofo — perché quell’apostrofo è il femminile, e si vede anche quando non si sente. Sono i traguardi di riflessione sulla lingua delle Indicazioni nazionali per il primo ciclo, incontrati una carta alla volta.",
+      "C’è anche la modalità sussurro, dove vive la lucciola: il muro sussurra una parola e i bambini la cercano tra le carte — «Trova: una mela» — e chi la trova la fa dire a voce alta a tutti. Con «Le nostre parole» la classe costruisce il muro suo: si tiene premuta una carta, si appunta, e il muro della settimana — «Settimana 12 — In fattoria» — resta lì ad aspettare domattina. Tutto funziona nel browser su LIM, tablet e computer, senza registrazione e senza installare nulla: niente punteggi, niente timer, solo parole, figure e voci."
+    ],
+    "howToUse": [
+      "Proietta il muro sulla LIM, scegli il tema del momento — la fattoria, il corpo, la frutta — e lascia che sia un bambino a toccare la prima carta: diventa grande e dice la sua parola con l’articolo.",
+      "Ripetete in coro, sempre con l’articolo: non «cane», ma «un cane». È l’articolo a portare il genere, e in coro si impara a orecchio senza bisogno di spiegare nessuna regola.",
+      "Tocca «tanti» e guarda la figura moltiplicarsi: un cane diventa dei cani, una mela delle mele. Fermati sulle parole che non cambiano — l’hamburger, il koala, il kiwi — e falle notare: esistono anche quelle.",
+      "Passa al sussurro quando i bambini sono caldi: il muro sussurra «Trova: una mela» e la classe cerca tra le carte. Con i più piccoli tieni sei carte alla volta, con la classe intera arriva a sedici.",
+      "Alla fine appunta le parole della settimana in «Le nostre parole», dai un nome al muro — «Settimana 12 — In fattoria» — e tocca «Leggiamole insieme»: domattina il vostro muro è ancora lì."
+    ],
+    "classroomIdeas": [
+      "Il muro della settimana: ogni lunedì appuntate insieme le otto parole del tema, poi lascia il muro proiettato in un angolo della LIM per tutta la settimana — i bambini ci tornano da soli quando gli serve una parola, senza chiederla a te.",
+      "Maschile o femminile? Scegli un tema e chiedi ai bambini di dividere le carte in due squadre ascoltando soltanto l’articolo — un o una. Poi accendi le strisce colorate e verificate insieme: chi aveva ragione?",
+      "La caccia all’apostrofo: nel tema degli animali o delle piante cercate le parole che cominciano per vocale — un albero, un’ape, un orso, un’aquila. All’orecchio suonano uguali, ma due hanno l’apostrofo e due no. Perché? Perché lì dentro si nasconde il femminile: è l’unico posto in tutto l’italiano dove un segno di punteggiatura dice il genere.",
+      "Per i bambini che arrivano da un’altra lingua: il muro è tutto qui, senza bisogno di leggere niente. Il bambino tocca da solo al tablet, la carta gli ripete la parola quante volte vuole e la figura gli dice che cosa significa — nessuno deve tradurgli nulla alla lavagna. Con «Disponibile in altre lingue» apri lo stesso tema nella sua lingua e poi in italiano: stessa figura, due parole. È il modo più rapido per dare a un nuovo arrivato cento parole italiane in una settimana.",
+      "Uno o tanti? Un bambino sceglie una carta di nascosto e dice soltanto la parola, senza articolo — «cani», «mela», «api». I compagni rispondono: uno o tanti? È la finale della parola a dare la risposta. Poi prova con «hamburger» o «koala», dove la finale non dice niente: lì serve la figura, e la scoperta è che qualche parola in italiano non cambia mai."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

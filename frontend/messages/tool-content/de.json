@@ -357,6 +357,32 @@
       "Der große Tausch: Rechnen Sie 32 − 5 vor der Klasse — die losen Einer reichen nicht, ein Kind darf den Zehner tauschen, und der Zehnerübergang wird zum Ereignis statt zur Hürde."
     ]
   },
+  "picture-word-wall": {
+    "slug": "bilder-wortwand",
+    "name": "Bilder-Wortwand",
+    "tagline": "Karte antippen, Wort hören — der, die, das in Farbe",
+    "metaTitle": "Der, die, das üben – Bilder-Wortwand online | Kostenlos",
+    "metaDescription": "Bilder-Wortwand für die Tafel: Karte antippen, das Wort kommt mit seinem Artikel — der, die, das in Farbe. 1.495 Wörter in 50 Themen. Ohne Anmeldung.",
+    "about": [
+      "Im Deutschen lernt man ein Nomen nie allein — man lernt es mit seinem Begleiter. Genau das macht die Bilder-Wortwand selbstverständlich: Jede Karte, die ein Kind antippt, wird groß und sagt ihr Wort immer mit dem Artikel — „der Hund“, nie nur „Hund“. Dazu trägt jede Karte oben einen schmalen Farbstreifen, der ihren Artikel zeigt: der, die und das bekommen jeweils ihre eigene Farbe. So hört das Kind den Begleiter und sieht ihn im selben Moment — zwei Kanäle für dieselbe Information, wie beim vertrauten Farbsortieren der Artikel im Klassenzimmer. Denn der Artikel ist nichts, was man später ergänzt: Er gehört zum Wort, und wer ihn von Anfang an mithört, muss ihn nicht mühsam nachlernen.",
+      "Ein Tipp auf „viele“ vervielfacht das Bild — aus einem Hund werden drei —, und das Wort wandert mit: der Hund → die Hunde. In diesem Augenblick passiert das Beste an der Wand: Der Farbstreifen wechselt auf Gold. Denn im Plural heißt es immer „die“, ganz gleich, ob das Wort im Singular der, die oder das hatte. Der Plural löscht das Geschlecht — eine Regel, die im Heft abstrakt bleibt und hier einfach zu sehen ist. Bereit stehen 1.495 Bildwörter in 50 Themen, von den Tieren über die Küche und die Kleidung bis zum Weltall — mit denselben Bildern, die die Kinder von den Arbeitsblättern der Plattform kennen.",
+      "Im Flüster-Modus spricht die Wand ein Wort, und die Kinder suchen die passende Karte — wer sie findet, auf dessen Karte setzt sich ein Glühwürmchen. Es läuft keine Zeit, nichts wird gezählt, keine Runde endet im Misserfolg: Gesucht wird, bis die Karte gefunden ist. Und was Ihre Klasse gerade braucht, heften Sie unter „Unsere Wörter“ an eine eigene Wand — die Wörter der Woche, den Wortschatz zum Sachunterrichtsthema, die ersten Wörter für ein neu zugewandertes Kind. Jede Wand bekommt einen Namen und ist morgen mit einem Tipp wieder da. Alles läuft direkt im Browser auf Tafel, Beamer und Tablet — ohne Installation, ohne Konto, ohne Timer und ohne Punktzahl."
+    ],
+    "howToUse": [
+      "Öffnen Sie die Bilder-Wortwand am Beamer oder Whiteboard und wählen Sie ein Thema — für den Einstieg eignen sich die Tiere, die Küche oder die Kleidung.",
+      "Lassen Sie ein Kind eine Karte antippen: Sie wird groß und sagt ihr Wort mit dem Artikel. Fragen Sie nach — welche Farbe hat der Streifen, heißt es der, die oder das?",
+      "Tippen Sie auf „viele“: Aus einem Bild werden mehrere, und das Wort wechselt mit. Achten Sie gemeinsam auf den goldenen Streifen — im Plural heißt es immer „die“.",
+      "Starten Sie den Flüster-Modus: Die Wand nennt ein Wort, die Kinder suchen die Karte, und das Glühwürmchen bestätigt den Fund — ganz ohne Zeitdruck. Für die Kleinsten stellen Sie sechs Karten ein, für die ganze Klasse sechzehn.",
+      "Heften Sie unter „Unsere Wörter“ die Wörter Ihrer Klasse an eine eigene Wand, geben Sie ihr einen Namen — „Woche 12 — Auf dem Bauernhof“ — und lesen Sie sie zum Abschluss gemeinsam vor."
+    ],
+    "classroomIdeas": [
+      "Ankommen ohne Vorkenntnisse: Für ein neu zugewandertes Kind ein Thema öffnen — Essen, Kleidung, Körper — und gemeinsam durchtippen. Das Kind hört jedes Wort mit seinem Artikel und sieht das Bild dazu; es braucht kein einziges deutsches Wort, um mitzumachen. Nach ein paar Tagen heften Sie die schon sicheren Wörter an seine eigene Wand — sichtbarer Fortschritt, den es selbst vorlesen kann.",
+      "Artikel-Raterunde: Ein Thema öffnen und die Klasse tippen lassen, bevor die Karte spricht — der, die oder das? Erst dann antippen. Farbstreifen und Stimme bestätigen gemeinsam, und die Kinder merken schnell, dass Raten bei Nomen wie Mädchen oder Messer nicht weiterhilft — der Artikel will gehört und behalten werden.",
+      "Wortspeicher zum Sachunterricht: Zum aktuellen Thema — Wetter, Wald, Bauernhof — die passenden Wörter an eine eigene Wand heften. So entsteht der Wortspeicher der Einheit, den die Klasse jeden Morgen einmal vorliest; am Ende der Wochen steht der ganze Wortschatz beisammen.",
+      "Plural-Runde: Nur den Umschalter benutzen — ein Kind sagt den Singular mit Artikel, das nächste den Plural. Der goldene Streifen macht die Regel sichtbar, noch bevor jemand sie ausspricht: Im Plural sind alle „die“.",
+      "Flüster-Duo an der Station: Zwei Kinder am Tablet, Flüster-Modus mit sechs Karten — eines hört, eines sucht, dann wird getauscht. Weil nichts gezählt wird und jede Runde im Fund endet, trauen sich auch die Kinder, die sich im Kreis nie melden."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

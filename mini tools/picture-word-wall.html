@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Picture Word Wall — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=18">
+</head>
+<body>
+  <!-- The shell mounts the whole tool into this element. -->
+  <div id="lcs-root"></div>
+
+  <!-- Shell first, then this tool. The article engine (PWW_ARTICLES)
+       lives inline — the moat in one file; the card index is fetched
+       per locale from /mini-tools/pww-index-<locale>.json (generated). -->
+  <script src="/mini-tools/lcs-shell.js?v=3"></script>
+  <script src="/mini-tools/picture-word-wall.js?v=1"></script>
+  <script>
+    // URL params the shell understands:
+    //   ?lang=de  ?lang=fi  (any of: en de fr it es pt nl sv da no fi)
+    //   ?embed=1 / ?embed=compact
+    LCS.mount(PictureWordWall, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

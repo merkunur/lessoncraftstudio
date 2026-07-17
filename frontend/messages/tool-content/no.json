@@ -356,6 +356,32 @@
       "Klassens egne tall: lagre tall som betyr noe — antall barn i klassen, dager til sommerferien — og les dem som tiere og enere ved neste samling."
     ]
   },
+  "picture-word-wall": {
+    "slug": "bildeordvegg",
+    "name": "Bildeordvegg",
+    "tagline": "Trykk på et kort — hør ordet med en eller et",
+    "metaTitle": "Gratis ordvegg med bilder – en eller et | LessonCraftStudio",
+    "metaDescription": "Gratis ordvegg med bilder: 1 495 bildeord i 50 temaer. Trykk på et kort og hør ordet med en eller et — og bytt mellom én og flere. Uten innlogging.",
+    "about": [
+      "Ordveggen er en fast del av begynneropplæringen: ordene klassen jobber med henger synlig i rommet, og barna møter dem igjen og igjen til de sitter. Bildeordveggen er den samme veggen på klasseromsskjermen — 1 495 bildeord fordelt på 50 temaer, fra dyr og mat til yrker, vær og verdensrommet. Trykk på et kort, og det blir stort og sier ordet sitt høyt. Bildet bærer betydningen, stemmen bærer uttalen, og barnet trenger verken å kunne lese eller å spørre en voksen for å komme i gang.",
+      "Kortet sier ikke bare ordet — det sier «en katt», «et hus». Nettopp en eller et er den biten av norsk som er vanskeligst å gjette seg til, og den henger sammen med alt annet: det er en som gir katten og et som gir huset, og det er et som gir «et stort hus». Derfor har hvert kort en fargestripe etter kjønn, slik at barna ser mønsteret før de kan sette ord på det. Slår du på «flere», blir bildet mangedoblet og ordet følger etter — og stripen skifter til gull, for i flertall forsvinner artikkelen helt: en katt blir katter, et hus blir hus. Det er ikke pynt; det er en sann setning om norsk.",
+      "Veggen kjører rett i nettleseren på klasseromsskjerm, projektor og nettbrett, uten innlogging og uten installasjon. Det er ingen tidtaker, ingen poengsum og ingen røde kryss — bare bilder, ord og en stemme som sier dem, i det rolige tempoet ordforråd faktisk vokser i."
+    ],
+    "howToUse": [
+      "Vis bildeordveggen på storskjerm eller projektor, og velg temaet klassen jobber med — eller søk det fram i temalisten.",
+      "La barna trykke på et kort: det blir stort og sier ordet høyt med en eller et. Si det gjerne i kor etterpå.",
+      "Snakk om fargestripene: hvilke ord får en, og hvilke får et? La barna gjette før kortet snus.",
+      "Trykk på «flere» og se bildet bli mangedoblet — hør hvordan ordet endrer seg, og legg merke til at en og et blir borte i flertall.",
+      "Bruk hviskemodus når klassen trenger en lek: veggen hvisker et ord, og barna leter etter kortet som hører til."
+    ],
+    "classroomIdeas": [
+      "Ukas ord: fest ukas ord på klassens egen vegg mandag morgen, og les dem sammen hver dag — gjentakelsen er ikke juks, det er slik ord fester seg.",
+      "Nyankomne elever og grunnleggende norsk: bildet forklarer ordet uten et eneste norsk ord i mellom, og stemmen gir uttalen så mange ganger eleven trenger. La eleven jobbe seg gjennom et tema i sitt eget tempo på nettbrett — helt uten å måtte spørre.",
+      "En eller et-jakt: velg et tema og la barna sortere kortene i to hauger etter fargestripe. Dette er den øvelsen som gir mest igjen på 1.–2. trinn, og veggen retter ikke — den viser.",
+      "Én og flere: la et barn velge et kort og gjette flertallsformen før dere trykker på «flere». Overraskelsene er de beste samtalene — et tre blir trær, et hus blir hus.",
+      "Fra vegg til skrivebok: etter samlingen velger hvert barn tre kort fra klassens vegg og skriver ordene med en eller et foran — bilde, stemme og blyant på samme ord i samme økt."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

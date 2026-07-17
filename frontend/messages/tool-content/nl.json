@@ -356,6 +356,32 @@
       "Van mat naar materiaal: laat hetzelfde getal eerst met echt MAB-materiaal op tafel leggen en dan op het lab bouwen — zo verbindt de klas het tastbare blokje met het cijfer én het woord."
     ]
   },
+  "picture-word-wall": {
+    "slug": "woordmuur",
+    "name": "Woordmuur",
+    "tagline": "1.495 woorden met plaatjes die zichzelf zeggen",
+    "metaTitle": "Gratis woordmuur – de of het oefenen met plaatjes",
+    "metaDescription": "Een gratis woordmuur voor het digibord: 1.495 woorden met plaatjes in 50 thema's. Tik op een kaart en hoor het woord mét lidwoord — de of het. Zonder account.",
+    "about": [
+      "In bijna elke onderbouwklas hangt een woordmuur: woordkaarten met plaatjes, op thema of op alfabet. Deze digitale woordmuur zet er 1.495 op het digibord, verdeeld over 50 thema's — dieren, de keuken, het strand, beroepen, het weer. Tik op een kaart en hij komt van de muur, wordt groot en zegt zijn woord hardop, zo vaak als een kind wil horen. En hij zegt het woord nooit kaal: het lidwoord zit eraan vast, want zo leeft een woord ook in een zin. Elke kaart kleurt bovendien mee met zijn lidwoord — de-woorden in de ene kleur, het-woorden in de andere — zodat 'de of het' iets wordt dat een kind zíét in plaats van uit zijn hoofd leert.",
+      "Dan de knop waar het Nederlands echt van opknapt: één en veel. Elke kaart kent zijn eigen meervoud, met de hand nagekeken en niet geraden, dus één eend wordt drie eenden en het woord verandert mee met de plaatjes. En precies daar gebeurt het mooiste wat een woordmuur kan laten zien: in het meervoud is het lidwoord altijd 'de'. Het huis wordt de huizen, het paard wordt de paarden, het boek wordt de boeken — het meervoud wist het verschil gewoon uit, en de kaart laat dat zien met een eigen gouden kleur. Wie met 'de of het' worstelt, ziet in één tik dat de helft van het probleem in het meervoud vanzelf verdwijnt.",
+      "De fluistermodus is de stille favoriet: de muur fluistert een woord en de kinderen zoeken de kaart die erbij hoort — tikken ze de goede aan, dan landt het vuurvliegje erop. Geen score, geen klok, geen wedstrijdje; wie het nog niet weet, luistert gewoon nog een keer. En je maakt er je eigen muur bij: houd een kaart ingedrukt en prik hem op de muur van je klas, geef die een naam ('Week 12 — Op de boerderij') en lees hem elke ochtend samen voor. Alles werkt direct in de browser op het digibord, de tablet en de computer, zonder installatie en zonder account."
+    ],
+    "howToUse": [
+      "Open een thema en projecteer de muur — de kaarten zijn groot genoeg om vanaf de achterste tafel te lezen.",
+      "Tik op een kaart: hij wordt groot en zegt zijn woord hardop, mét lidwoord — de of het, altijd samen met het woord.",
+      "Zet de knop op 'veel': de plaatjes vermenigvuldigen zich, het woord verandert mee en het lidwoord wordt altijd 'de'.",
+      "Zet de fluistermodus aan en laat de kinderen om de beurt het woord zoeken dat ze horen — bij de goede kaart landt het vuurvliegje.",
+      "Houd kaarten uit verschillende thema's ingedrukt om je eigen muur te prikken, geef die de naam van de week en lees hem elke ochtend samen voor."
+    ],
+    "classroomIdeas": [
+      "Ochtendrondje: prik de acht woorden van deze week, geef de muur een naam en lees hem elke dag in één minuut samen voor.",
+      "Nieuwkomershoek: een kind dat nog geen Nederlands spreekt, tikt zelf op de plaatjes en hoort het woord in zijn geheel — mét lidwoord, zo vaak als het wil. Niets schrijven, niets zeggen, niet wachten tot de juf tijd heeft. Juist voor NT2-leerlingen is dat winst: het lidwoord zit meteen aan het woord vast, precies zoals ze het moeten onthouden, in plaats van er later als losse regel bij te moeten.",
+      "De of het? Laat de kinderen op de muur alle kaarten van één kleur zoeken vóór je het woord uitspreekt — het geslacht wordt een kleur in plaats van een regel.",
+      "Eén en veel: bouw een hele meervoudsles uit die ene knop. De plaatjes bewijzen de regel voordat je de regel benoemt, en dat 'het' in het meervoud 'de' wordt, ontdekken de kinderen zelf.",
+      "Themavoorproefje: open het thema van je volgende project en laat de klas eerst benoemen wat ze al kennen, voordat je één woord aanleert."
+    ]
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

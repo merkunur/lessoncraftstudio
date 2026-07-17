@@ -356,6 +356,32 @@
       "Números nuestros: guarden los números del salón — cuántos alumnos son, cuántos libros hay en el rincón de lectura — y revísenlos cada semana para ver si cambiaron."
     ]
   },
+  "picture-word-wall": {
+    "slug": "muro-de-palabras",
+    "name": "Muro de palabras ilustradas",
+    "tagline": "1495 palabras ilustradas que se dicen solas",
+    "metaTitle": "Muro de palabras ilustradas gratis | LessonCraftStudio",
+    "metaDescription": "Muro de palabras gratis: 1495 sustantivos ilustrados en 50 temas. Toca una tarjeta y dice su palabra en voz alta, con su artículo. Sin registro, para proyectar.",
+    "about": [
+      "El muro de palabras de toda la vida —el tendedero, el friso, las tarjetas pegadas junto al pizarrón— convertido en un muro que habla: 1495 sustantivos ilustrados repartidos en 50 temas, desde los animales de granja hasta el supermercado, las ocupaciones, el clima y la vida marina. El niño toca una tarjeta, la tarjeta se levanta del muro, se hace grande y dice su palabra en voz alta, las veces que él quiera. Los dibujos son los mismos que se usan en todo LessonCraftStudio, así que la palabra que aquí se aprende se reconoce después en cualquier hoja de trabajo del salón.",
+      "Cada tarjeta trae su artículo, porque en español la palabra no vive sola: se dice «el gato», no «gato». El color de la orilla de cada tarjeta marca el género —una para las masculinas, otra para las femeninas— y aquí está el detalle que ningún muro de papel puede enseñar: cuando sale «el agua», la orilla sigue siendo la del femenino. El artículo dice «el», el color dice la verdad, y de pronto hay una conversación de verdad sobre por qué decimos el agua pero las aguas frías. Lo mismo con el águila, el arpa y el haya. Y el botón de uno/muchos multiplica el dibujo mientras la palabra cambia con él —un pato, tres patos—; cuando la palabra no cambia, como en «las tijeras», el muro lo dice en voz alta en vez de fingir que cambió. Los singulares y los plurales están revisados uno por uno, no adivinados.",
+      "El modo susurro es el consentido: la voz dice una palabra, el niño la busca en el muro y una luciérnaga cruza la pared y se posa en la tarjeta correcta. No hay cronómetro, no hay puntos y no hay tache — si el niño se equivoca, la luciérnaga se acerca un poquito más y la palabra se repite más despacio, hasta que la encuentra. Todas las rondas terminan bien. Y con Nuestras palabras, la maestra fija las tarjetas que quiera de cualquier tema, le pone nombre al muro de la semana y lo lee con el grupo cada mañana en un minuto. Funciona en el navegador —pizarra digital, tabletas y computadoras— sin instalar nada y sin crear cuentas."
+    ],
+    "howToUse": [
+      "Abre un tema y proyecta el muro: las tarjetas se leen desde la última fila del salón.",
+      "Deja que un niño toque una tarjeta: se hace grande y dice su palabra en voz alta, con su artículo — «el gato», como se dice de verdad.",
+      "Usa el botón de uno/muchos para multiplicar el dibujo y escuchar cómo cambia la palabra: un pato, tres patos.",
+      "Fíjate en el color de la orilla: es el género de la palabra. Pide al grupo que encuentre todas las tarjetas de un color antes de decir ninguna palabra.",
+      "Prende el modo susurro y que pasen por turnos a buscar la palabra que oyeron; la luciérnaga se posa cuando la encuentran. Mantén presionada cualquier tarjeta para fijarla en Nuestras palabras y armar el muro de la semana."
+    ],
+    "classroomIdeas": [
+      "Lectura del muro cada mañana: fija las ocho palabras de la semana, ponle nombre al muro (Semana 12 — En la granja) y léanlo en coro en sesenta segundos. Un minuto diario, cero preparación.",
+      "El niño que llega a media escuela: el que llegó de Estados Unidos, el que habla otra lengua en su casa, el que todavía no se suelta. Toca los dibujos y escucha la palabra completa, con su artículo, las veces que quiera — sin escribir, sin hablar frente al grupo y sin esperar su turno. La imagen no le pide permiso a ningún idioma.",
+      "Cacería de géneros: «encuentren todas las tarjetas coral», y hasta después se dicen las palabras. El niño clasifica por color antes de saber que está clasificando por género — y cuando alguien descubra que «el agua» tiene el color de las femeninas, tienes la mejor clase de gramática del año regalada.",
+      "Uno y muchos: arma toda la lección de plural con el botón, sin escribir una sola regla. El dibujo demuestra la regla antes de que la regla tenga nombre; después llegan «las tijeras» y el muro avisa que esa palabra no cambia.",
+      "Antes de empezar el proyecto: abre el tema de la próxima unidad y deja que el grupo nombre lo que ya sabe. Vas a descubrir que la mitad del vocabulario ya lo traen — y ellos también."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

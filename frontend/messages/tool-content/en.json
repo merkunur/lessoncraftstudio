@@ -357,6 +357,32 @@
       "Borrowing theater: run one subtraction on the projector before workbook time — the pop of the breaking ten is the anchor image for the whole lesson."
     ]
   },
+  "picture-word-wall": {
+    "slug": "picture-word-wall",
+    "name": "Picture Word Wall",
+    "tagline": "1,495 illustrated words that say themselves",
+    "metaTitle": "Free Picture Word Wall — 1,495 Illustrated Words K-3",
+    "metaDescription": "A projector word wall of 1,495 illustrated nouns across 50 themes. Tap a card: it grows big and says its word out loud. Free, no signup, 11 languages.",
+    "about": [
+      "The Picture Word Wall turns a shelf of vocabulary flashcards into something a wall of butcher paper never could be: a browsable, speaking wall of 1,495 illustrated nouns across 50 themes — animals, the kitchen, the beach, occupations, weather. Tap any card and it lifts out of the wall, grows large, and says its word out loud in a clear voice a child can replay as many times as she likes. The pictures are the same warm illustrations used across the whole platform, so a word learned here is recognised everywhere else.",
+      "The part no other word wall can do is the toggle. Every card holds both its singular and its plural, hand-checked rather than guessed, so one duck becomes three ducks and the word changes with the picture — and where the word does NOT change, the card says so out loud instead of pretending. In the languages that have grammatical gender, every card is colour-coded by its article and the article is always spoken with the noun, never apart from it, because that is how the word actually lives in a sentence.",
+      "Whisper mode is the quiet favourite: a word is spoken, the child finds its card, and a firefly drifts across the wall and lands on it. There is no timer, no score, and no wrong-answer sound — a miss just brings the firefly closer and says the word again, a little slower, so every round ends in success. Teachers can pin cards from any theme into their own named wall for the week and run a sixty-second read-through with the class each morning."
+    ],
+    "howToUse": [
+      "Open a theme and project the wall — the cards are big enough to read from the back row.",
+      "Tap any card: it grows large and says its word out loud, with its article.",
+      "Use the one/many toggle to multiply the picture and hear the plural change with it.",
+      "Turn on Whisper mode and let children take turns finding the word they hear — the firefly lands when they do.",
+      "Long-press cards from any themes to pin your own wall, name it for the week, and read it together every morning."
+    ],
+    "classroomIdeas": [
+      "Morning read-through: pin this week's eight words, name the wall, and chorally read it in sixty seconds each day.",
+      "Newcomer corner: a child with no shared language taps pictures and hears the word whole, article attached, as often as she likes — no writing, no speaking, no waiting.",
+      "Article sort: in a gender language, ask children to find every card of one colour on the wall before you say the word.",
+      "One and many: build a plural lesson entirely from the toggle — the picture proves the rule before the rule is named.",
+      "Theme preview: open the theme of your next unit and let the class name what they already know before you teach a single word."
+    ]
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

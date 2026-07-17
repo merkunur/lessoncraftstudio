@@ -1,0 +1,2272 @@
+{
+ "locale": "fi",
+ "count": 151,
+ "note": "CHECK EACH against the dictionary; gender in passing. Non-nouns/plural-pictures/art-defects excluded — already handled.",
+ "rows": [
+  {
+   "key": "air-conditioning",
+   "cur": {
+    "s": "Ilmastointi",
+    "p": "Ilmastointi",
+    "g": null
+   },
+   "en": [
+    "Air Conditioning",
+    "Air Conditioning"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl) + countable but NO plural (p===s)"
+  },
+  {
+   "key": "allosaurus",
+   "cur": {
+    "s": "Allosaurus",
+    "p": "Allosaurukset",
+    "g": null
+   },
+   "en": [
+    "Allosaurus",
+    "Allosauruses"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "ankle",
+   "cur": {
+    "s": "Nilkka",
+    "p": "Nilkat",
+    "g": null
+   },
+   "en": [
+    "Ankle",
+    "Ankles"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "ankylosaurus",
+   "cur": {
+    "s": "Ankylosaurus",
+    "p": "Ankylosaurukset",
+    "g": null
+   },
+   "en": [
+    "Ankylosaurus",
+    "Ankylosauruses"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "apatosaurus",
+   "cur": {
+    "s": "Apatosaurus",
+    "p": "Apatosaurukset",
+    "g": null
+   },
+   "en": [
+    "Apatosaurus",
+    "Apatosauruses"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "argentinosaurus",
+   "cur": {
+    "s": "Argentinosaurus",
+    "p": "Argentinosaurukset",
+    "g": null
+   },
+   "en": [
+    "Argentinosaurus",
+    "Argentinosauruses"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "asparagus",
+   "cur": {
+    "s": "Parsa",
+    "p": "Parsat",
+    "g": null
+   },
+   "en": [
+    "Asparagus",
+    "Asparagus"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "baby",
+   "cur": {
+    "s": "Vauva",
+    "p": "Vauvat",
+    "g": null
+   },
+   "en": [
+    "Baby",
+    "Babies"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "baby's-onesie",
+   "cur": {
+    "s": "Vauvan body",
+    "p": "Vauvan bodyt",
+    "g": null
+   },
+   "en": [
+    "Baby's Onesie",
+    "Baby's Onesies"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "baby-carriage",
+   "cur": {
+    "s": "Lastenvaunut",
+    "p": "Lastenvaunut",
+    "g": null
+   },
+   "en": [
+    "Baby Carriage",
+    "Baby Carriages"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "baby-girl",
+   "cur": {
+    "s": "Tyttövauva",
+    "p": "Tyttövauvat",
+    "g": null
+   },
+   "en": [
+    "Baby Girl",
+    "Baby Girls"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "bagel",
+   "cur": {
+    "s": "Bageli",
+    "p": "Bagelit",
+    "g": null
+   },
+   "en": [
+    "Bagel",
+    "Bagels"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "ballerina",
+   "cur": {
+    "s": "Ballerina",
+    "p": "Ballerinat",
+    "g": null
+   },
+   "en": [
+    "Ballerina",
+    "Ballerinas"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "banyan-tree",
+   "cur": {
+    "s": "Baniaanipuu",
+    "p": "Baniaanipuut",
+    "g": null
+   },
+   "en": [
+    "Banyan Tree",
+    "Banyan Trees"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "baobab-tree",
+   "cur": {
+    "s": "Apinanleipäpuu",
+    "p": "Apinanleipäpuut",
+    "g": null
+   },
+   "en": [
+    "Baobab Tree",
+    "Baobab Trees"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "basketball",
+   "cur": {
+    "s": "Koripallo",
+    "p": "Koripallo",
+    "g": null
+   },
+   "en": [
+    "Basketball",
+    "Basketball"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl) + countable but NO plural (p===s)"
+  },
+  {
+   "key": "beetroot",
+   "cur": {
+    "s": "Punajuuri",
+    "p": "Punajuurit",
+    "g": null
+   },
+   "en": [
+    "Beetroot",
+    "Beetroots"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "begonia",
+   "cur": {
+    "s": "Begonia",
+    "p": "Begoniat",
+    "g": null
+   },
+   "en": [
+    "Begonia",
+    "Begonias"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "boombox",
+   "cur": {
+    "s": "Mankka",
+    "p": "Mankat",
+    "g": null
+   },
+   "en": [
+    "Boombox",
+    "Boomboxes"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "brachiosaurus",
+   "cur": {
+    "s": "Brachiosaurus",
+    "p": "Brachiosaurukset",
+    "g": null
+   },
+   "en": [
+    "Brachiosaurus",
+    "Brachiosauruses"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "brain",
+   "cur": {
+    "s": "Aivot",
+    "p": "Aivot",
+    "g": null
+   },
+   "en": [
+    "Brain",
+    "Brains"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "broccoli",
+   "cur": {
+    "s": "Parsakaali",
+    "p": "Parsakaalit",
+    "g": null
+   },
+   "en": [
+    "Broccoli",
+    "Broccoli"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "brontosaurus",
+   "cur": {
+    "s": "Brontosaurus",
+    "p": "Brontosaurukset",
+    "g": null
+   },
+   "en": [
+    "Brontosaurus",
+    "Brontosauruses"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "brownie",
+   "cur": {
+    "s": "Brownie",
+    "p": "Browniet",
+    "g": null
+   },
+   "en": [
+    "Brownie",
+    "Brownies"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "burrito",
+   "cur": {
+    "s": "Burrito",
+    "p": "Burritot",
+    "g": null
+   },
+   "en": [
+    "Burrito",
+    "Burritos"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "cape",
+   "cur": {
+    "s": "Viitta",
+    "p": "Viitat",
+    "g": null
+   },
+   "en": [
+    "Cape",
+    "Capes"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "carnotaurus",
+   "cur": {
+    "s": "Carnotaurus",
+    "p": "Carnotaurukset",
+    "g": null
+   },
+   "en": [
+    "Carnotaurus",
+    "Carnotauruses"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "carriage",
+   "cur": {
+    "s": "Vaunut",
+    "p": "Vaunut",
+    "g": null
+   },
+   "en": [
+    "Carriage",
+    "Carriages"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "cast",
+   "cur": {
+    "s": "Kipsi",
+    "p": "Kipsit",
+    "g": null
+   },
+   "en": [
+    "Cast",
+    "Casts"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "cauliflower",
+   "cur": {
+    "s": "Kukkakaali",
+    "p": "Kukkakaalit",
+    "g": null
+   },
+   "en": [
+    "Cauliflower",
+    "Cauliflowers"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "cereal",
+   "cur": {
+    "s": "Murot",
+    "p": "Murot",
+    "g": null
+   },
+   "en": [
+    "Cereal",
+    "Cereals"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "chameleon",
+   "cur": {
+    "s": "Kameleontti",
+    "p": "Kameleontit",
+    "g": null
+   },
+   "en": [
+    "Chameleon",
+    "Chameleons"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "chili-pepper",
+   "cur": {
+    "s": "Chilipippuri",
+    "p": "Chilipippurit",
+    "g": null
+   },
+   "en": [
+    "Chili Pepper",
+    "Chili Peppers"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "chinchilla",
+   "cur": {
+    "s": "Chinchilla",
+    "p": "Chinchillat",
+    "g": null
+   },
+   "en": [
+    "Chinchilla",
+    "Chinchillas"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "cocktail",
+   "cur": {
+    "s": "Cocktail",
+    "p": "Cocktailit",
+    "g": null
+   },
+   "en": [
+    "Cocktail",
+    "Cocktails"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "croissant",
+   "cur": {
+    "s": "Croissant",
+    "p": "Croissantit",
+    "g": null
+   },
+   "en": [
+    "Croissant",
+    "Croissants"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "deinonychus",
+   "cur": {
+    "s": "Deinonychus",
+    "p": "Deinonychukset",
+    "g": null
+   },
+   "en": [
+    "Deinonychus",
+    "Deinonychuses"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "dimetrodon",
+   "cur": {
+    "s": "Dimetrodon",
+    "p": "Dimetrodomet",
+    "g": null
+   },
+   "en": [
+    "Dimetrodon",
+    "Dimetrodons"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl) + English/foreign loan (locale==en)"
+  },
+  {
+   "key": "diplodocus",
+   "cur": {
+    "s": "Diplodocus",
+    "p": "Diplodocukset",
+    "g": null
+   },
+   "en": [
+    "Diplodocus",
+    "Diplodocuses"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl) + English/foreign loan (locale==en)"
+  },
+  {
+   "key": "dogwood-tree",
+   "cur": {
+    "s": "Kanukka",
+    "p": "Kanukat",
+    "g": null
+   },
+   "en": [
+    "Dogwood Tree",
+    "Dogwood Trees"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "domino",
+   "cur": {
+    "s": "Domino",
+    "p": "Dominot",
+    "g": null
+   },
+   "en": [
+    "Domino",
+    "Dominoes"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "dragon-fruit",
+   "cur": {
+    "s": "Lohikäärmehedelmä",
+    "p": "Lohikäärmehedelmät",
+    "g": null
+   },
+   "en": [
+    "Dragon Fruit",
+    "Dragon Fruits"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "dresser",
+   "cur": {
+    "s": "Lipasto",
+    "p": "Lipastot",
+    "g": null
+   },
+   "en": [
+    "Dresser",
+    "Dressers"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "drink",
+   "cur": {
+    "s": "Juoda",
+    "p": "Juoda",
+    "g": null
+   },
+   "en": [
+    "Drink",
+    "Drinks"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "durian",
+   "cur": {
+    "s": "Durio",
+    "p": "Duriot",
+    "g": null
+   },
+   "en": [
+    "Durian",
+    "Durians"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "earmuffs",
+   "cur": {
+    "s": "Korvalapput",
+    "p": "Korvalapput",
+    "g": null
+   },
+   "en": [
+    "Earmuffs",
+    "Earmuffs"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "eat",
+   "cur": {
+    "s": "Syödä",
+    "p": "Syödä",
+    "g": null
+   },
+   "en": [
+    "Eat",
+    "Eats"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "face",
+   "cur": {
+    "s": "Kasvot",
+    "p": "Kasvot",
+    "g": null
+   },
+   "en": [
+    "Face",
+    "Faces"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "flamingo",
+   "cur": {
+    "s": "Flamingo",
+    "p": "Flamingot",
+    "g": null
+   },
+   "en": [
+    "Flamingo",
+    "Flamingos"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "forget-me-not",
+   "cur": {
+    "s": "Lemmikki",
+    "p": "Lemmikit",
+    "g": null
+   },
+   "en": [
+    "Forget-Me-Not",
+    "Forget-Me-Nots"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "frisbee",
+   "cur": {
+    "s": "Frisbee",
+    "p": "Frisbeet",
+    "g": null
+   },
+   "en": [
+    "Frisbee",
+    "Frisbees"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "garden-fork",
+   "cur": {
+    "s": "Puutarhahanko",
+    "p": "Puutarhahangot",
+    "g": null
+   },
+   "en": [
+    "Garden Fork",
+    "Garden Forks"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "gecko",
+   "cur": {
+    "s": "Gekko",
+    "p": "Gekot",
+    "g": null
+   },
+   "en": [
+    "Gecko",
+    "Geckos"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "giganotosaurus",
+   "cur": {
+    "s": "Giganotosaurus",
+    "p": "Giganotosaurukset",
+    "g": null
+   },
+   "en": [
+    "Giganotosaurus",
+    "Giganotosauruses"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "glasses",
+   "cur": {
+    "s": "Silmälasit",
+    "p": "Silmälasit",
+    "g": null
+   },
+   "en": [
+    "Glasses",
+    "Glasses"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "goggles",
+   "cur": {
+    "s": "Suojalasit",
+    "p": "Suojalasit",
+    "g": null
+   },
+   "en": [
+    "Goggles",
+    "Goggles"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "gopher",
+   "cur": {
+    "s": "Pussirottasuku",
+    "p": "Pussirottasukut",
+    "g": null
+   },
+   "en": [
+    "Gopher",
+    "Gophers"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "gorilla",
+   "cur": {
+    "s": "Gorilla",
+    "p": "Gorillat",
+    "g": null
+   },
+   "en": [
+    "Gorilla",
+    "Gorillas"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "hair-tie",
+   "cur": {
+    "s": "Hiuslenkki",
+    "p": "Hiuslenkit",
+    "g": null
+   },
+   "en": [
+    "Hair Tie",
+    "Hair Ties"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "ham",
+   "cur": {
+    "s": "Kinkku",
+    "p": "Kinkut",
+    "g": null
+   },
+   "en": [
+    "Ham",
+    "Hams"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "hemlock-tree",
+   "cur": {
+    "s": "Hemlokki",
+    "p": "Hemlokit",
+    "g": null
+   },
+   "en": [
+    "Hemlock Tree",
+    "Hemlock Trees"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "ice-cream",
+   "cur": {
+    "s": "Jäätelö",
+    "p": "Jäätelöt",
+    "g": null
+   },
+   "en": [
+    "Ice Cream",
+    "Ice Creams"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "ichthyosaurus",
+   "cur": {
+    "s": "Ichthyosaurus",
+    "p": "Ichthyosaurukset",
+    "g": null
+   },
+   "en": [
+    "Ichthyosaurus",
+    "Ichthyosauruses"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "iguanodon",
+   "cur": {
+    "s": "Iguanodon",
+    "p": "Iguanodomet",
+    "g": null
+   },
+   "en": [
+    "Iguanodon",
+    "Iguanodons"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl) + English/foreign loan (locale==en)"
+  },
+  {
+   "key": "jam",
+   "cur": {
+    "s": "Hillo",
+    "p": "Hillot",
+    "g": null
+   },
+   "en": [
+    "Jam",
+    "Jams"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "jeans",
+   "cur": {
+    "s": "Farkut",
+    "p": "Farkut",
+    "g": null
+   },
+   "en": [
+    "Jeans",
+    "Jeans"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "juice",
+   "cur": {
+    "s": "Mehu",
+    "p": "Mehut",
+    "g": null
+   },
+   "en": [
+    "Juice",
+    "Juices"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "jump",
+   "cur": {
+    "s": "Hypätä",
+    "p": "Hypätä",
+    "g": null
+   },
+   "en": [
+    "Jump",
+    "Jumps"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "kettlebell",
+   "cur": {
+    "s": "Kahvakuula",
+    "p": "Kahvakuulat",
+    "g": null
+   },
+   "en": [
+    "Kettlebell",
+    "Kettlebells"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "keyboard",
+   "cur": {
+    "s": "Koskettimet",
+    "p": "Koskettimet",
+    "g": null
+   },
+   "en": [
+    "Keyboard",
+    "Keyboards"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "koala",
+   "cur": {
+    "s": "Koala",
+    "p": "Koalat",
+    "g": null
+   },
+   "en": [
+    "Koala",
+    "Koalas"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "ladder",
+   "cur": {
+    "s": "Tikkaat",
+    "p": "Tikkaat",
+    "g": null
+   },
+   "en": [
+    "Ladder",
+    "Ladders"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "lantern",
+   "cur": {
+    "s": "Lyhty",
+    "p": "Lyhtyt",
+    "g": null
+   },
+   "en": [
+    "Lantern",
+    "Lanterns"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "lavender",
+   "cur": {
+    "s": "Laventeli",
+    "p": "Laventelit",
+    "g": null
+   },
+   "en": [
+    "Lavender",
+    "Lavenders"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "leek",
+   "cur": {
+    "s": "Purjo",
+    "p": "Purjot",
+    "g": null
+   },
+   "en": [
+    "Leek",
+    "Leeks"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "leggings",
+   "cur": {
+    "s": "Legginsit",
+    "p": "Legginsit",
+    "g": null
+   },
+   "en": [
+    "Leggings",
+    "Leggings"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "lego",
+   "cur": {
+    "s": "Lego",
+    "p": "Legot",
+    "g": null
+   },
+   "en": [
+    "Lego",
+    "Legos"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "lemur",
+   "cur": {
+    "s": "Maki",
+    "p": "Makit",
+    "g": null
+   },
+   "en": [
+    "Lemur",
+    "Lemurs"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "lightning",
+   "cur": {
+    "s": "Salama",
+    "p": "Salamat",
+    "g": null
+   },
+   "en": [
+    "Lightning",
+    "Lightning"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "lime",
+   "cur": {
+    "s": "Limetti",
+    "p": "Limetit",
+    "g": null
+   },
+   "en": [
+    "Lime",
+    "Limes"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "lotus",
+   "cur": {
+    "s": "Lootus",
+    "p": "Lootukset",
+    "g": null
+   },
+   "en": [
+    "Lotus",
+    "Lotuses"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "macaron",
+   "cur": {
+    "s": "Macaron",
+    "p": "Macaromet",
+    "g": null
+   },
+   "en": [
+    "Macaron",
+    "Macarons"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "maiasaura",
+   "cur": {
+    "s": "Maiasaura",
+    "p": "Maiasaurat",
+    "g": null
+   },
+   "en": [
+    "Maiasaura",
+    "Maiasauras"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "mango",
+   "cur": {
+    "s": "Mango",
+    "p": "Mangot",
+    "g": null
+   },
+   "en": [
+    "Mango",
+    "Mangoes"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "map",
+   "cur": {
+    "s": "Kartta",
+    "p": "Kartat",
+    "g": null
+   },
+   "en": [
+    "Map",
+    "Maps"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "medicine",
+   "cur": {
+    "s": "Lääke",
+    "p": "Lääkeet",
+    "g": null
+   },
+   "en": [
+    "Medicine",
+    "Medicines"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "mosasaurus",
+   "cur": {
+    "s": "Mosasaurus",
+    "p": "Mosasaurukset",
+    "g": null
+   },
+   "en": [
+    "Mosasaurus",
+    "Mosasauruses"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "muffin",
+   "cur": {
+    "s": "Muffini",
+    "p": "Muffinit",
+    "g": null
+   },
+   "en": [
+    "Muffin",
+    "Muffins"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "overalls",
+   "cur": {
+    "s": "Haalarit",
+    "p": "Haalarit",
+    "g": null
+   },
+   "en": [
+    "Overalls",
+    "Overalls"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "oviraptor",
+   "cur": {
+    "s": "Oviraptor",
+    "p": "Oviraptorit",
+    "g": null
+   },
+   "en": [
+    "Oviraptor",
+    "Oviraptors"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "pachycephalosaurus",
+   "cur": {
+    "s": "Pachycephalosaurus",
+    "p": "Pachycephalosaurukset",
+    "g": null
+   },
+   "en": [
+    "Pachycephalosaurus",
+    "Pachycephalosauruses"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "panda",
+   "cur": {
+    "s": "Panda",
+    "p": "Pandat",
+    "g": null
+   },
+   "en": [
+    "Panda",
+    "Pandas"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "paper",
+   "cur": {
+    "s": "Paperi",
+    "p": "Paperit",
+    "g": null
+   },
+   "en": [
+    "Paper",
+    "Papers"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "parasaurolophus",
+   "cur": {
+    "s": "Parasaurolophus",
+    "p": "Parasaurolophukset",
+    "g": null
+   },
+   "en": [
+    "Parasaurolophus",
+    "Parasaurolophuses"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl) + English/foreign loan (locale==en)"
+  },
+  {
+   "key": "pegasus",
+   "cur": {
+    "s": "Pegasos",
+    "p": "Pegasokset",
+    "g": null
+   },
+   "en": [
+    "Pegasus",
+    "Pegasuses"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "penguin",
+   "cur": {
+    "s": "Pingviini",
+    "p": "Pingviinit",
+    "g": null
+   },
+   "en": [
+    "Penguin",
+    "Penguins"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "pepper",
+   "cur": {
+    "s": "Paprika",
+    "p": "Paprikat",
+    "g": null
+   },
+   "en": [
+    "Pepper",
+    "Peppers"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "persimmon",
+   "cur": {
+    "s": "Persimoni",
+    "p": "Persimonit",
+    "g": null
+   },
+   "en": [
+    "Persimmon",
+    "Persimmons"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "petunia",
+   "cur": {
+    "s": "Petunia",
+    "p": "Petuniat",
+    "g": null
+   },
+   "en": [
+    "Petunia",
+    "Petunias"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "phlox",
+   "cur": {
+    "s": "Leimukukka",
+    "p": "Leimukukat",
+    "g": null
+   },
+   "en": [
+    "Phlox",
+    "Phloxes"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "piano",
+   "cur": {
+    "s": "Piano",
+    "p": "Pianot",
+    "g": null
+   },
+   "en": [
+    "Piano",
+    "Pianos"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "pickup-truck",
+   "cur": {
+    "s": "Avolava-auto",
+    "p": "Avolava-autot",
+    "g": null
+   },
+   "en": [
+    "Pickup Truck",
+    "Pickup Trucks"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "pipe-wrench",
+   "cur": {
+    "s": "Putkipihdit",
+    "p": "Putkipihdit",
+    "g": null
+   },
+   "en": [
+    "Pipe Wrench",
+    "Pipe Wrenches"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "pizza",
+   "cur": {
+    "s": "Pizza",
+    "p": "Pizzat",
+    "g": null
+   },
+   "en": [
+    "Pizza",
+    "Pizzas"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "play",
+   "cur": {
+    "s": "Leikkiä",
+    "p": "Leikkiä",
+    "g": null
+   },
+   "en": [
+    "Play",
+    "Plays"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "plesiosaurus",
+   "cur": {
+    "s": "Plesiosaurus",
+    "p": "Plesiosaurukset",
+    "g": null
+   },
+   "en": [
+    "Plesiosaurus",
+    "Plesiosauruses"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "pliers",
+   "cur": {
+    "s": "Pihdit",
+    "p": "Pihdit",
+    "g": null
+   },
+   "en": [
+    "Pliers",
+    "Pliers"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "pruning-shears",
+   "cur": {
+    "s": "Oksasakset",
+    "p": "Oksasakset",
+    "g": null
+   },
+   "en": [
+    "Pruning Shears",
+    "Pruning Shears"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "read",
+   "cur": {
+    "s": "Lukea",
+    "p": "Lukea",
+    "g": null
+   },
+   "en": [
+    "Read",
+    "Reads"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "run",
+   "cur": {
+    "s": "Juosta",
+    "p": "Juosta",
+    "g": null
+   },
+   "en": [
+    "Run",
+    "Runs"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "scissors",
+   "cur": {
+    "s": "Sakset",
+    "p": "Sakset",
+    "g": null
+   },
+   "en": [
+    "Scissors",
+    "Scissors"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "shampoo",
+   "cur": {
+    "s": "Shampoo",
+    "p": "Shampoot",
+    "g": null
+   },
+   "en": [
+    "Shampoo",
+    "Shampoos"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "shorts",
+   "cur": {
+    "s": "Shortsit",
+    "p": "Shortsit",
+    "g": null
+   },
+   "en": [
+    "Shorts",
+    "Shorts"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "sit",
+   "cur": {
+    "s": "Istua",
+    "p": "Istua",
+    "g": null
+   },
+   "en": [
+    "Sit",
+    "Sits"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "sky",
+   "cur": {
+    "s": "Taivas",
+    "p": "Taivaat",
+    "g": null
+   },
+   "en": [
+    "Sky",
+    "Skies"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "sleep",
+   "cur": {
+    "s": "Nukkua",
+    "p": "Nukkua",
+    "g": null
+   },
+   "en": [
+    "Sleep",
+    "Sleeps"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "sloth",
+   "cur": {
+    "s": "Laiskiainen",
+    "p": "Laiskiaiset",
+    "g": null
+   },
+   "en": [
+    "Sloth",
+    "Sloths"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "smoothie",
+   "cur": {
+    "s": "Smoothie",
+    "p": "Smoothieet",
+    "g": null
+   },
+   "en": [
+    "Smoothie",
+    "Smoothies"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "sneaker",
+   "cur": {
+    "s": "Lenkkarit",
+    "p": "Lenkkarit",
+    "g": null
+   },
+   "en": [
+    "Sneaker",
+    "Sneakers"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "squash",
+   "cur": {
+    "s": "Kesäkurpitsa",
+    "p": "Kesäkurpitsat",
+    "g": null
+   },
+   "en": [
+    "Squash",
+    "Squashes"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "stairs",
+   "cur": {
+    "s": "Portaat",
+    "p": "Portaat",
+    "g": null
+   },
+   "en": [
+    "Stairs",
+    "Stairs"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "stand",
+   "cur": {
+    "s": "Seistä",
+    "p": "Seistä",
+    "g": null
+   },
+   "en": [
+    "Stand",
+    "Stands"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "stegosaurus",
+   "cur": {
+    "s": "Stegosaurus",
+    "p": "Stegosaurukset",
+    "g": null
+   },
+   "en": [
+    "Stegosaurus",
+    "Stegosauruses"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "stretcher",
+   "cur": {
+    "s": "Paarit",
+    "p": "Paarit",
+    "g": null
+   },
+   "en": [
+    "Stretcher",
+    "Stretchers"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "styracosaurus",
+   "cur": {
+    "s": "Styracosaurus",
+    "p": "Styracosaurukset",
+    "g": null
+   },
+   "en": [
+    "Styracosaurus",
+    "Styracosauruses"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "sunglasses",
+   "cur": {
+    "s": "Aurinkolasit",
+    "p": "Aurinkolasit",
+    "g": null
+   },
+   "en": [
+    "Sunglasses",
+    "Sunglasses"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "suspenders",
+   "cur": {
+    "s": "Henkselit",
+    "p": "Henkselit",
+    "g": null
+   },
+   "en": [
+    "Suspenders",
+    "Suspenders"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "suv",
+   "cur": {
+    "s": "Maastoauto",
+    "p": "Maastoautot",
+    "g": null
+   },
+   "en": [
+    "SUV",
+    "SUVs"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "sweatpants",
+   "cur": {
+    "s": "Verkkarit",
+    "p": "Verkkarit",
+    "g": null
+   },
+   "en": [
+    "Sweatpants",
+    "Sweatpants"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "t-rex",
+   "cur": {
+    "s": "T-Rex",
+    "p": "T-Rexit",
+    "g": null
+   },
+   "en": [
+    "T-Rex",
+    "T-Rexes"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "tablet",
+   "cur": {
+    "s": "Tabletti",
+    "p": "Tabletit",
+    "g": null
+   },
+   "en": [
+    "Tablet",
+    "Tablets"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "taco",
+   "cur": {
+    "s": "Taco",
+    "p": "Tacot",
+    "g": null
+   },
+   "en": [
+    "Taco",
+    "Tacos"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "tape",
+   "cur": {
+    "s": "Teippi",
+    "p": "Teipit",
+    "g": null
+   },
+   "en": [
+    "Tape",
+    "Tapes"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "taxi",
+   "cur": {
+    "s": "Taksi",
+    "p": "Taksit",
+    "g": null
+   },
+   "en": [
+    "Taxi",
+    "Taxis"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "therizinosaurus",
+   "cur": {
+    "s": "Therizinosaurus",
+    "p": "Therizinosaurukset",
+    "g": null
+   },
+   "en": [
+    "Therizinosaurus",
+    "Therizinosauruses"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "thunderstorm",
+   "cur": {
+    "s": "Ukkonen",
+    "p": "Ukkoset",
+    "g": null
+   },
+   "en": [
+    "Thunderstorm",
+    "Thunderstorms"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "tiara",
+   "cur": {
+    "s": "Tiara",
+    "p": "Tiarat",
+    "g": null
+   },
+   "en": [
+    "Tiara",
+    "Tiaras"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "tights",
+   "cur": {
+    "s": "Sukkahousut",
+    "p": "Sukkahousut",
+    "g": null
+   },
+   "en": [
+    "Tights",
+    "Tights"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "timer",
+   "cur": {
+    "s": "Ajastin",
+    "p": "Ajastimet",
+    "g": null
+   },
+   "en": [
+    "Timer",
+    "Timers"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "tongs",
+   "cur": {
+    "s": "Pihdit",
+    "p": "Pihdit",
+    "g": null
+   },
+   "en": [
+    "Tongs",
+    "Tongs"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "trapezoid",
+   "cur": {
+    "s": "Puolisuunnikas",
+    "p": "Puolisuunnikaat",
+    "g": null
+   },
+   "en": [
+    "Trapezoid",
+    "Trapezoids"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "triceratops",
+   "cur": {
+    "s": "Triceratops",
+    "p": "Triceratopsit",
+    "g": null
+   },
+   "en": [
+    "Triceratops",
+    "Triceratops"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl) + English/foreign loan (locale==en)"
+  },
+  {
+   "key": "tyrannosaurus-rex",
+   "cur": {
+    "s": "Tyrannosaurus Rex",
+    "p": "Tyrannosaurus Rexit",
+    "g": null
+   },
+   "en": [
+    "Tyrannosaurus Rex",
+    "Tyrannosaurus Rexes"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "ufo",
+   "cur": {
+    "s": "UFO",
+    "p": "UFOt",
+    "g": null
+   },
+   "en": [
+    "UFO",
+    "UFOs"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl) + English/foreign loan (locale==en)"
+  },
+  {
+   "key": "underpants",
+   "cur": {
+    "s": "Alushousut",
+    "p": "Alushousut",
+    "g": null
+   },
+   "en": [
+    "Underpants",
+    "Underpants"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "us",
+   "cur": {
+    "s": "USA",
+    "p": "USA",
+    "g": null
+   },
+   "en": [
+    "US",
+    "US"
+   ],
+   "category": "proper-noun",
+   "hasPlural": false,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "velociraptor",
+   "cur": {
+    "s": "Velociraptor",
+    "p": "Velociraptorit",
+    "g": null
+   },
+   "en": [
+    "Velociraptor",
+    "Velociraptors"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  },
+  {
+   "key": "walk",
+   "cur": {
+    "s": "Kävellä",
+    "p": "Kävellä",
+    "g": null
+   },
+   "en": [
+    "Walk",
+    "Walks"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "wheelbarrow",
+   "cur": {
+    "s": "Kottikärryt",
+    "p": "Kottikärryt",
+    "g": null
+   },
+   "en": [
+    "Wheelbarrow",
+    "Wheelbarrows"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "countable but NO plural (p===s)"
+  },
+  {
+   "key": "yak",
+   "cur": {
+    "s": "Jakki",
+    "p": "Jakit",
+    "g": null
+   },
+   "en": [
+    "Yak",
+    "Yaks"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "error-prone (fixed in sv/de/nl)"
+  },
+  {
+   "key": "zinnia",
+   "cur": {
+    "s": "Zinnia",
+    "p": "Zinniat",
+    "g": null
+   },
+   "en": [
+    "Zinnia",
+    "Zinnias"
+   ],
+   "category": "countable-thing",
+   "hasPlural": true,
+   "why": "English/foreign loan (locale==en)"
+  }
+ ]
+}

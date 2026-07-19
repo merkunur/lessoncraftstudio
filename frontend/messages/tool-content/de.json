@@ -409,6 +409,32 @@
       "Stationenarbeit mit Eckansicht: Die Eule läuft klein neben eurem Stationsplan oder einer Tafel-App mit — so bleibt der Geräuschpegel auch bei Gruppenstimme freundlich im Blick."
     ]
   },
+  "wodb": {
+    "slug": "was-passt-nicht-dazu",
+    "name": "Was passt nicht dazu?",
+    "tagline": "Die Gesprächsroutine für den Morgenkreis: vier Dinge — und jede Antwort kann eine gute sein.",
+    "metaTitle": "Was passt nicht dazu? – Denkroutine für Kita und Klasse 1–3",
+    "metaDescription": "Vier Dinge – und jede Antwort kann eine gute sein! Die Gesprächsroutine für Kita und Grundschule: Kinder begründen ihre Wahl, Satzanfänge helfen beim Erzählen.",
+    "about": [
+      "„Was passt nicht dazu?“ ist die beliebte Gesprächsroutine für den Morgenkreis und den Mathe-Einstieg: Vier Dinge stehen in einem Feld — Zahlen, Formen, Punktebilder, Uhren oder Bilder — und jede Ecke kann die Ausnahme sein. Wer eine antippt, hat einen Grund. Genau darum geht es: vergleichen, genau hinschauen und die eigene Wahl begründen.",
+      "Ein Tipp hebt die gewählte Karte sanft an — ausgewählt fürs Gespräch, ganz ohne Bewertung. Satzanfänge wie „Das passt nicht dazu, weil …“ werden auf Wunsch vorgelesen und geben zurückhaltenden Kindern einen sicheren Einstieg ins Formulieren. Zum Schluss decken Sie vier Begründungskarten auf, eine für jede Ecke: So erlebt die ganze Klasse, dass jede Antwort zählt.",
+      "In der Sammlung warten 21 sorgfältig gebaute Rätsel in drei Altersstufen — von Formen und Würfelbildern bis zu Uhrzeiten und Zahlenmustern. Das Rätsel der Woche ist immer kostenlos. Mit Premium öffnen Sie die ganze Sammlung und bauen eigene Rätsel aus 1.495 Bildern, passend zu Ihrem aktuellen Unterrichtsthema."
+    ],
+    "howToUse": [
+      "Öffnen Sie das Rätsel der Woche oder wählen Sie eines aus der Sammlung — am besten groß am Beamer oder Whiteboard.",
+      "Lassen Sie die Kinder erst still schauen: Welches der vier würdest du wählen? Jedes Kind tippt auf sein Feld oder zeigt darauf.",
+      "Sammeln Sie Begründungen. Die Satzanfänge — per Ohr-Symbol vorgelesen — helfen beim Formulieren.",
+      "Decken Sie danach die vier Begründungskarten auf: Für jede Ecke gibt es einen guten Grund.",
+      "Schließen Sie mit dem Satz „Jede Antwort war eine gute Antwort!“ — und starten Sie morgen mit einem neuen Rätsel."
+    ],
+    "classroomIdeas": [
+      "Morgenkreis-Ritual: Jeden Tag ein Rätsel als fünfminütiger Denk-Einstieg — die Klasse sammelt so viele Gründe wie möglich.",
+      "Murmelrunde: Erst zu zweit begründen („Das passt nicht dazu, weil …“), dann teilen die Paare ihre Gründe mit der Klasse.",
+      "Sprachförderung und DaZ: Die vorgelesenen Satzanfänge geben Kindern mit wenig Deutsch ein sicheres Sprachgerüst fürs Erklären.",
+      "Klasse 2/3: Nach dem Gespräch schreibt jedes Kind seinen Grund als Satz auf — eine kleine Argumentation zum Sammeln.",
+      "Mit Premium: Die Klasse baut ein eigenes Rätsel zum aktuellen Thema — ein gutes Rätsel zu bauen ist selbst die beste Denkaufgabe."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

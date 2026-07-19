@@ -408,6 +408,32 @@
       "Hörnvy (Premium): lägg ugglan i ett hörn av skärmen bredvid dagens instruktion, så finns den lugna påminnelsen kvar under hela arbetspasset."
     ]
   },
+  "wodb": {
+    "slug": "vilken-passar-inte-in",
+    "name": "Vilken passar inte in?",
+    "tagline": "Fyra saker på tavlan — och varje svar kan vara rätt, bara du kan berätta varför",
+    "metaTitle": "Vilken passar inte in? – mattesamtal för F–3 | LessonCraftStudio",
+    "metaDescription": "Ett mattesamtal utan poäng och timer: fyra saker där varje svar kan vara rätt. 21 färdiga rutnät med skäl, samtalsstöd och uppläsning – och bygg egna av 1 495 bilder.",
+    "about": [
+      "Fyra saker i ett rutnät — fyra tal, fyra figurer, fyra klockor — och frågan som får hela klassen att tänka: vilken passar inte in? Det finurliga är att det inte finns något facit. Varje ruta går att försvara, och det är själva poängen: samtalet handlar aldrig om att hitta ett gömt svar utan om att sätta ord på sitt eget tänkande. Rutinen är välkänd i svenska mattesamtal, och här finns den färdig för projektorn: ett barn trycker på sin ruta — den lyfter, vald för samtal — klassen argumenterar, och till sist vänds fyra skälkort upp som visar att varje hörn hade sitt eget skäl.",
+      "Samlingen rymmer 21 genomtänkta rutnät i tre åldersband (4–6, 6–7 och 7–9 år): tal med raka streck och bågar, femskutt som nästan stämmer, figurer, prickbilder, klockor och bilder ur barnens värld. För den som ännu inte hittar orden finns talade samtalsstöd — ”Den här passar inte in, för att…” — som läses upp med ett tryck på örat, ett stöd som gör att även nyanlända och blyga röster kan vara med i samtalet. Här finns inga poäng, ingen timer och inga bockar: när alla fyra skälkort är vända säger verktyget det viktigaste av allt — varje svar var ett bra svar.",
+      "Veckans rutnät är alltid gratis, komplett med lyft, samtalsstöd och uppläsning. Med Premium öppnas hela samlingen — ett nytt resonemangssamtal för varje dag — och byggaren, där du sätter ihop egna rutnät av tal, ord, former, prickar, klockor och 1 495 bilder ur bildbiblioteket, sparar dem och använder dem igen. Allt körs direkt i webbläsaren på projektorn eller den interaktiva tavlan, utan konto och utan installation — och tränar precis det Lgr22 kallar att föra och följa matematiska resonemang."
+    ],
+    "howToUse": [
+      "Öppna verktyget på projektorn och titta tyst på de fyra rutorna en stund — låt alla hinna tänka innan någon säger något.",
+      "Låt ett barn trycka på den ruta det skulle välja — den lyfter, vald för samtal. Fler barn kan lyfta fler rutor, gärna alla fyra.",
+      "Tryck på örat när orden inte riktigt vill komma — samtalsstöden läses upp högt: ”Den här passar inte in, för att…”",
+      "Visa skälen när samtalet klingat av: vänd ett kort i taget och jämför med det klassen själv hittade — ofta har barnen fler skäl än korten.",
+      "Avsluta med slutraden — varje svar var ett bra svar — och byt till ett nytt rutnät ur samlingen, eller bygg ett eget."
+    ],
+    "classroomIdeas": [
+      "Morgonsamlingens tänkarstund: börja dagen med veckans rutnät. Fem minuters gemensamt resonerande i lugn takt — ingen räcker upp handen förgäves, för varje val går att försvara.",
+      "EPA — enskilt, par, alla: låt barnen först välja tyst, sedan öva sin mening i par med samtalsstödet, och till sist dela i helklass. Stödet ”Den är den enda som…” bär även den som annars inte vågar.",
+      "Språkstöd för SVA och nyanlända: bilderna bär innehållet och de upplästa meningsstarterna bär språket. Ett barn kan peka, härma stommen och lyckas i samtalet långt innan hela ordförrådet finns på plats.",
+      "Skrivkoppling i åk 2–3: dela ut rutnätet och låt barnen skriva en egen mening per hörn — ”Den är den enda som…”. Fyra hörn blir fyra meningar, och matematiken och skrivandet tränas i samma stund.",
+      "Låt barnen bygga egna (Premium): ett par sätter ihop ett rutnät av bilder eller tal och provar det på klassen. Kontrollfrågan är byggarens egen: kan varje hörn vara det som passar inte in — har alla fyra ett eget skäl?"
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

@@ -408,6 +408,32 @@
       "Computador da escola sem microfone? Ative Os ouvidos da professora: você mesma conta para a coruja como a sala está soando — e o combinado continua vivo."
     ]
   },
+  "wodb": {
+    "slug": "qual-nao-pertence",
+    "name": "Qual não pertence?",
+    "tagline": "A conversa em que toda resposta pode estar certa",
+    "metaTitle": "Qual não pertence? Jogo de raciocínio grátis | LessonCraftStudio",
+    "metaDescription": "Quatro coisas — e toda resposta pode estar certa! Projete a cartela, deixe a criança escolher e defender o porquê. Conversa de raciocínio para a rodinha. Grátis, sem login.",
+    "about": [
+      "Quatro coisas na tela: quatro números, quatro figuras, quatro relógios ou quatro bichos. A pergunta é uma só — qual não pertence? — e o segredo é que toda resposta pode estar certa. Cada canto da cartela tem seu próprio motivo para ser o diferente: um é o único com curvas, outro é o único pequenininho, outro é o único roxo. A criança toca no que escolheu, a carta se levanta — escolhida para a conversa, nunca julgada — e aí começa o melhor: explicar o porquê. Não existe vencedor, não existe resposta única. Existe argumento.",
+      "É a rodinha de conversa que faz a turma pensar como matemático: observar, comparar, classificar e — principalmente — justificar em voz alta. Para quem ainda está achando as palavras, o botão da orelhinha fala frases de apoio: Esse aqui não pertence porque…, É o único que…, Eu percebi que…. A criança completa com a ideia dela. No final, o professor revela os quatro cartões de motivos, um por canto — e a turma descobre que todo mundo tinha um bom motivo. A cartela fecha com a frase que resume tudo: todas foram boas respostas!",
+      "A coleção traz cartelas organizadas por idade — 4 a 6, 6 a 7 e 7 a 9 anos — com números, figuras geométricas, pontos para contar, relógios e imagens do dia a dia. A cartela da semana é sempre gratuita e completa. Com o Premium, você abre a coleção inteira e ainda monta as suas próprias cartelas com 1.495 imagens ilustradas, escrevendo um motivo para cada canto. Funciona direto no navegador, na lousa digital, no tablet ou no celular, sem instalar nada. Sem cronômetro, sem pontos, sem estrelinhas — só quatro coisas e muitos porquês, do jeito que a BNCC pede: observar, comparar e argumentar."
+    ],
+    "howToUse": [
+      "Projete a cartela da semana na lousa digital, na rodinha ou no começo da aula de matemática. Leia a pergunta junto com a turma: qual não pertence?",
+      "Dê um tempinho de silêncio para olhar. Depois, peça que uma criança toque na coisa que escolheu — a carta se levanta — e conte para a turma o porquê.",
+      "Se a criança travar na hora de explicar, toque na orelhinha: ela fala uma frase de apoio, como É o único que…, para a criança completar com a ideia dela.",
+      "Pergunte: alguém escolheu outra? Deixe outras crianças levantarem outros cantos e defenderem outros motivos — dá para levantar os quatro ao mesmo tempo.",
+      "No final, toque em Mostrar os motivos e revele os cartões um a um. Feche com a frase da cartela: todas foram boas respostas!"
+    ],
+    "classroomIdeas": [
+      "Rotina de abertura: uma cartela por dia, cinco minutos, antes da aula de matemática. Em poucas semanas a turma inteira já começa a frase sozinha: é o único que…",
+      "Debate em duplas: sorteie um canto para cada dupla e peça que defendam aquele canto — mesmo que não fosse a escolha delas. Argumentar pelo outro é raciocínio de gente grande.",
+      "Do oral para o escrito: nos anos iniciais, peça que cada criança escreva o seu motivo em uma tirinha de papel começando com porque. É produção de texto argumentativo do tamanho certo para a idade — a oralidade e a argumentação que a BNCC espera.",
+      "Monte a sua com o vocabulário da semana: no Premium, crie uma cartela com quatro imagens do tema que a turma está estudando — animais da fazenda, frutas, meios de transporte — e deixe a turma inventar os motivos antes de você mostrar os seus.",
+      "Desafio invertido: mostre uma cartela já conhecida e pergunte: quem consegue achar um motivo novo, que ninguém falou ainda? É o mesmo jogo, cada vez mais fundo."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

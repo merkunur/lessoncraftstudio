@@ -408,6 +408,32 @@
       "Unikaverin valinta (Premium): anna luokan äänestää, nukkuuko tällä viikolla oksalla pöllö, kissa vai pieni lohikäärme — yhteinen kaveri tekee tavoitteesta yhteisen."
     ]
   },
+  "wodb": {
+    "slug": "mika-ei-kuulu-joukkoon",
+    "name": "Mikä ei kuulu joukkoon?",
+    "tagline": "Neljän ruudun päättelyhetki taululle — jokainen vastaus voi olla hyvä, kun sille on perustelu.",
+    "metaTitle": "Mikä ei kuulu joukkoon? – päättelyhetki taululle | Ilmainen",
+    "metaDescription": "Ilmainen Mikä ei kuulu joukkoon -työkalu taululle: neljä kuvaa, lukua tai muotoa — ja jokainen vastaus voi olla hyvä. Lapsi valitsee, luokka perustelee. Ei kirjautumista.",
+    "about": [
+      "Mikä ei kuulu joukkoon? on jokaiselle suomalaiselle tuttu leikki — mutta tässä versiossa on juju: jokainen neljästä ruudusta voi olla se, joka ei kuulu joukkoon. Taululle nousee neljän ruudun ruudukko — lukuja, muotoja, pisteitä, kelloja tai kuvia — ja jokaiselle ruudulle löytyy oma hyvä perustelu. Lapsi napauttaa valintaansa, ruutu kohoaa esiin keskustelua varten, ja luokka miettii yhdessä, miksi juuri se on erilainen. Työkalu ei laske pisteitä, ei mittaa aikaa eikä julista voittajaa: tärkeintä ei ole valinta vaan perustelu.",
+      "Juuri perusteleminen tekee tästä hetkestä arvokkaan. Matematiikan puhuminen ääneen — kielentäminen — on esi- ja alkuopetuksen ydintaitoja: lapsi oppii sanat parillinen, suurempi, kulma, sivu ja rivi käyttämällä niitä oikeassa keskustelussa. Korvakuvake lukee lausealoitukset ääneen — Tämä ei kuulu joukkoon, koska… — joten myös S2-oppija ja arka puhuja pääsevät mukaan valmiin lauseen turvin. Kun lopuksi käännetään esiin neljä perustelukorttia, luokka näkee saman asian yhä uudelleen: eri vastaukset eivät olleet kilpailijoita vaan eri tapoja katsoa.",
+      "Ilmaiseksi saat joka viikko uuden viikon ruudukon — täydellisenä: nostot, lausealoitukset, ääneen luvun ja perustelukortit. Premium avaa koko kokoelman — 21 huolella rakennettua ruudukkoa esiopetuksesta kolmannelle luokalle — sekä rakentajan, jolla kokoat oman ruudukon lähes 1 500 kuvan kirjastosta ja tallennat sen omaan käyttöösi. Kaikki toimii suoraan selaimessa taululla, tabletilla ja tietokoneella — ilman kirjautumista ja asennusta."
+    ],
+    "howToUse": [
+      "Heijasta viikon ruudukko luokan taululle ja lukekaa otsikko yhdessä: neljä asiaa — ja jokainen niistä voi olla se erilainen.",
+      "Anna lasten katsoa hetki ihan rauhassa. Napauta sitten yhden lapsen valitsemaa ruutua — se kohoaa esiin keskustelua varten, ei minkään merkiksi.",
+      "Kuuntele perustelu. Korvakuvake lukee lausealoitukset ääneen — Tämä ei kuulu joukkoon, koska… — valmis lause kantaa myös S2-oppijaa ja ujompaa puhujaa.",
+      "Kysy: kuka valitsi eri ruudun? Nostakaa vuorotellen jokainen kulma ja etsikää sille oma perustelu — usein sama ruutu on erilainen montaa eri reittiä.",
+      "Näytä lopuksi perustelukortit: jokaisella ruudulla on oma syynsä olla erilainen — jokainen vastaus oli hyvä vastaus."
+    ],
+    "classroomIdeas": [
+      "Aamupiirin vakiohetki: sama ruudukko koko viikon. Maanantaina jokainen vain katsoo ja valitsee, ja viikon mittaan etsitään joka aamu yksi uusi perustelu — perjantaina kortit käännetään ja verrataan luokan omiin keksintöihin.",
+      "Ajattele–pohdi–jaa: jokainen valitsee ensin hiljaa mielessään, kertoo sitten parille perustelunsa lausealoituksella, ja vasta lopuksi pari esittelee ajatuksensa koko luokalle. Näin jokainen puhuu, ei vain nopeimmat.",
+      "Matematiikan sanaseinä: kirjatkaa keskusteluista talteen sanat, joilla luokka perustelee — parillinen, kulma, sivu, rivi, suurempi, pienempi — ja palatkaa niihin seuraavan ruudukon äärellä.",
+      "S2 ja valmistava opetus: kuvaruudukot toimivat ilman lukutaitoa, ja lausealoitus antaa lauseen rungon valmiina. Sama rakenne toistuu joka kerta, joten kieli kasvaa turvallisen kaavan sisällä.",
+      "Oma ruudukko (Premium): kootkaa luokan kanssa oma nelikko kuvakirjastosta. Rakentajan ohje muistuttaa samalla suunnittelun ytimestä: parhaissa ruudukoissa jokainen kulma voi olla se erilainen."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

@@ -409,6 +409,32 @@
       "Corner view (Premium): keep a small owl beside your math tool during centers so the calm picture never leaves the wall."
     ]
   },
+  "wodb": {
+    "slug": "which-one-doesnt-belong",
+    "name": "Which One Doesn’t Belong?",
+    "tagline": "Four things — and every answer can be right",
+    "metaTitle": "Which One Doesn’t Belong? — K-3 Math Talk Grids",
+    "metaDescription": "The beloved no-wrong-answer reasoning routine on your projector: 21 curated 2×2 grids of numbers, shapes, clocks and pictures where every answer is defensible. Free weekly grid.",
+    "about": [
+      "Which One Doesn’t Belong? turns the beloved math-talk routine into a living projector tool. Four things appear in a 2×2 grid — numbers, shapes, dot patterns, clock faces, or illustrated pictures — and the class puzzles over which one doesn’t belong. The trick that makes children love it: every one of the four is a defensible answer, because each is the only one with some property. There is no wrong choice, only noticing.",
+      "A child taps their pick and it gently lifts — chosen for discussion, never marked correct — and up to all four can be lifted at once while four children defend four different corners. The speaker button offers sentence stems for emerging speakers, spoken aloud in your language. When the talk winds down, you reveal the four reasons cards one by one, each honoring somebody’s argument, and the grid glows warmly: every one was a good answer. No scores, no timers, no shame — ever.",
+      "A new featured grid arrives every week, free and complete. Premium opens the full curated library — 21 grids across ages 4 to 9, from counting dots to clock faces — plus the builder: assemble your own grid from 1,495 illustrated pictures, numbers, shapes, dots and clocks in about thirty seconds, add optional reasons, and save it for your class."
+    ],
+    "howToUse": [
+      "Open the tool on the projector — this week’s featured grid is ready to play.",
+      "Ask the question: which one doesn’t belong? Give everyone quiet thinking time first.",
+      "Tap the choices children defend — each lifts gently, and several can be lifted at once.",
+      "Tap the speaker on a lifted card for a sentence stem when a child needs a starting frame.",
+      "When the talk is rich, tap Show the reasons and reveal each card — every child was right."
+    ],
+    "classroomIdeas": [
+      "Morning meeting warm-up: one grid, five minutes, every hand up — because every answer works.",
+      "Turn-and-talk first: partners agree on a pick and a because-sentence before anyone taps.",
+      "Language practice: require the sentence stem frame aloud — it is the same frame the reasons cards use.",
+      "Build a grid about your current topic (Premium): four pictures from the theme you are teaching this week.",
+      "Let a child be the revealer: they tap each reasons card and read it to the class."
+    ]
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

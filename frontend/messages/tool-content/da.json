@@ -408,6 +408,32 @@
       "Gruppearbejde med besøg af dragen: skift sovedyret ud med den lille drage, og lad grupperne selv holde øje med, at den kan blive ved med at sove."
     ]
   },
+  "wodb": {
+    "slug": "hvad-passer-ikke-ind",
+    "name": "Hvad passer ikke ind?",
+    "tagline": "Fire ting på tavlen — og alle svar kan være gode, når man kan forklare hvorfor.",
+    "metaTitle": "Hvad passer ikke ind? — gratis tænketavle | LessonCraftStudio",
+    "metaDescription": "Fire ting på tavlen — og alle svar kan være gode! En samtalerutine til børnehaveklassen og indskolingen: barnet vælger, klassen forklarer hvorfor. Uden point og uden login.",
+    "about": [
+      "Hvad passer ikke ind? er klassens samtaletavle til morgensamlingen: fire ting i et sæt — tal, former, prikker, ure eller billeder — og her er tricket: alle fire kan forsvares. Der findes ikke ét facit. Barnet trykker på den, det vælger, kortet løfter sig blidt — valgt til samtale, aldrig dømt — og så skal klassen høre hvorfor. Rutinen kendes verden over som Which One Doesn't Belong?, og den gør noget sjældent i en klasse: den flytter opmærksomheden fra svaret til begrundelsen.",
+      "Tavlen er bygget til at tale sammen, ikke til at konkurrere. Der er ingen point, ingen tidtagning og ingen farver, der dømmer — kun et løft og den samme varme afsløring til alle fire hjørner. Øret på hvert kort læser en sætningsstarter højt — »Den er den eneste, der…« — så også de børn, der er nye i sproget eller nye i at række hånden op, kan komme med i samtalen. Til sidst åbner du de fire grund-kort: hvert hjørne har sin egen grund, og hvert barn, der valgte, har tænkt sig godt om.",
+      "Ugens sæt er altid gratis og skifter automatisk hver uge — komplet med løft, sætningsstartere, oplæsning og grund-kort. Med Premium åbner hele samlingen: gennemarbejdede sæt til børnehaveklassen, 1. klasse og 2.–3. klasse — og byggeren, hvor du sammensætter dine egne sæt af 1.495 billeder fra billedbiblioteket og skriver dine egne grunde. Alt kører direkte i browseren på tavle, tablet og computer — uden installation og uden login for børnene."
+    ],
+    "howToUse": [
+      "Vis ugens sæt på den interaktive tavle ved morgensamlingen, og læs op: fire ting — og alle svar kan være gode.",
+      "Lad et barn trykke på den, det vælger: kortet løfter sig blidt — valgt til samtale — og flere børn kan sagtens vælge hver deres.",
+      "Tryk på øret, når ordene driller: kortet siger en sætningsstarter højt — »Den her passer ikke ind, fordi…« — og barnet fortsætter selv.",
+      "Åbn grund-kortene til sidst med Vis grundene: tryk på ét hjørne ad gangen, og se, at hver af de fire har sin egen grund.",
+      "Slut med den fælles linje — alle svar var gode svar — og vend tilbage i morgen: med Premium venter et nyt sæt til hver dag."
+    ],
+    "classroomIdeas": [
+      "Fast morgenrutine: ét sæt, fem minutter. Første runde vælger børnene i stilhed — anden runde skal de overbevise en makker, før nogen siger noget højt.",
+      "Dansk som andetsprog: lad barnet begynde med sætningsstarteren fra øret og bare pege. Sproget vokser fra rammen — »Den er den eneste, der…« — og resten kommer med tiden.",
+      "Tænk-par-del: alle vælger et hjørne inde i hovedet, hånd på hjertet — så finder de en, der valgte et andet hjørne, og bytter grunde.",
+      "Talsnak i indskolingen: brug tal- og prik-sættene som optakt til matematik — hvem kan finde en grund, som ingen andre har set? Skriv klassens grunde op ved siden af tavlen.",
+      "Lad børnene bygge (Premium): to og to sammensætter de deres eget sæt af fire billeder og prøver det af på klassen — det sværeste og sjoveste er at sørge for, at hvert hjørne har sin egen grund."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

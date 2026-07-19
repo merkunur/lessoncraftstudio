@@ -95,18 +95,36 @@ var MeasurementBench = {
      locale wants one; Nordic definite forms are the natives' job at
      fan-out — drafts below are bare). NEVER composed at runtime. */
   NOUNS: {
-    worm: {en:'the worm',de:'der Wurm',fr:'le ver',it:'il verme',es:'el gusano',pt:'a minhoca',nl:'de worm',sv:'masken',da:'ormen',no:'marken',fi:'mato'},
-    carrot: {en:'the carrot',de:'die Karotte',fr:'la carotte',it:'la carota',es:'la zanahoria',pt:'a cenoura',nl:'de wortel',sv:'moroten',da:'guleroden',no:'gulroten',fi:'porkkana'},
+    key: {en:'the key',de:'der Schlüssel',fr:'la clé',it:'la chiave',es:'la llave',pt:'a chave',nl:'de sleutel',sv:'nyckeln',da:'nøglen',no:'nøkkelen',fi:'avain'},
+    crayon: {en:'the crayon',de:'der Wachsmalstift',fr:'le crayon de cire',it:'il pastello a cera',es:'el crayón',pt:'o giz de cera',nl:'het waskrijtje',sv:'kritan',da:'farvekridtet',no:'fargestiften',fi:'vahaliitu'},
     fork: {en:'the fork',de:'die Gabel',fr:'la fourchette',it:'la forchetta',es:'el tenedor',pt:'o garfo',nl:'de vork',sv:'gaffeln',da:'gaflen',no:'gaffelen',fi:'haarukka'},
-    banana: {en:'the banana',de:'die Banane',fr:'la banane',it:'la banana',es:'el plátano',pt:'a banana',nl:'de banaan',sv:'bananen',da:'bananen',no:'bananen',fi:'banaani'},
     toothbrush: {en:'the toothbrush',de:'die Zahnbürste',fr:'la brosse à dents',it:'lo spazzolino',es:'el cepillo de dientes',pt:'a escova de dentes',nl:'de tandenborstel',sv:'tandborsten',da:'tandbørsten',no:'tannbørsten',fi:'hammasharja'},
+    candle: {en:'the candle',de:'die Kerze',fr:'la bougie',it:'la candela',es:'la vela',pt:'a vela',nl:'de kaars',sv:'ljuset',da:'stearinlyset',no:'stearinlyset',fi:'kynttilä'},
+    wand: {en:'the wand',de:'der Zauberstab',fr:'la baguette magique',it:'la bacchetta magica',es:'la varita mágica',pt:'a varinha mágica',nl:'de toverstaf',sv:'trollstaven',da:'tryllestaven',no:'tryllestaven',fi:'taikasauva'},
+    corn: {en:'the corn',de:'der Maiskolben',fr:'l’épi de maïs',it:'la pannocchia',es:'la mazorca de maíz',pt:'a espiga de milho',nl:'de maïskolf',sv:'majskolven',da:'majskolben',no:'maiskolben',fi:'maissintähkä'},
     baguette: {en:'the baguette',de:'das Baguette',fr:'la baguette',it:'la baguette',es:'la baguette',pt:'a baguete',nl:'het stokbrood',sv:'baguetten',da:'baguetten',no:'bagetten',fi:'patonki'},
-    scarf: {en:'the scarf',de:'der Schal',fr:'l’écharpe',it:'la sciarpa',es:'la bufanda',pt:'o cachecol',nl:'de sjaal',sv:'halsduken',da:'halstørklædet',no:'skjerfet',fi:'kaulahuivi'},
-    umbrella: {en:'the umbrella',de:'der Regenschirm',fr:'le parapluie',it:'l’ombrello',es:'el paraguas',pt:'o guarda-chuva',nl:'de paraplu',sv:'paraplyet',da:'paraplyen',no:'paraplyen',fi:'sateenvarjo'},
-    broom: {en:'the broom',de:'der Besen',fr:'le balai',it:'la scopa',es:'la escoba',pt:'a vassoura',nl:'de bezem',sv:'kvasten',da:'kosten',no:'kosten',fi:'luuta'},
+    skateboard: {en:'the skateboard',de:'das Skateboard',fr:'le skateboard',it:'lo skateboard',es:'la patineta',pt:'o skate',nl:'het skateboard',sv:'skateboarden',da:'skateboardet',no:'skateboardet',fi:'rullalauta'},
+    belt: {en:'the belt',de:'der Gürtel',fr:'la ceinture',it:'la cintura',es:'el cinturón',pt:'o cinto',nl:'de riem',sv:'bältet',da:'bæltet',no:'beltet',fi:'vyö'},
+    tie: {en:'the tie',de:'die Krawatte',fr:'la cravate',it:'la cravatta',es:'la corbata',pt:'a gravata',nl:'de stropdas',sv:'slipsen',da:'slipset',no:'slipset',fi:'solmio'},
+    celery: {en:'the celery',de:'die Selleriestange',fr:'le céleri',it:'il sedano',es:'el apio',pt:'o aipo',nl:'de selderij',sv:'sellerin',da:'sellerien',no:'sellerien',fi:'selleri'},
+    leek: {en:'the leek',de:'die Lauchstange',fr:'le poireau',it:'il porro',es:'el puerro',pt:'o alho-poró',nl:'de prei',sv:'purjolöken',da:'porren',no:'purreløken',fi:'purjo'},
+    'rolling-pin': {en:'the rolling pin',de:'das Nudelholz',fr:'le rouleau à pâtisserie',it:'il mattarello',es:'el rodillo',pt:'o rolo de massa',nl:'de deegroller',sv:'kaveln',da:'kagerullen',no:'kjevlet',fi:'kaulin'},
+    hammer: {en:'the hammer',de:'der Hammer',fr:'le marteau',it:'il martello',es:'el martillo',pt:'o martelo',nl:'de hamer',sv:'hammaren',da:'hammeren',no:'hammeren',fi:'vasara'},
+    sled: {en:'the sled',de:'der Schlitten',fr:'la luge',it:'lo slittino',es:'el trineo',pt:'o trenó',nl:'de slee',sv:'kälken',da:'kælken',no:'kjelken',fi:'kelkka'},
     ladder: {en:'the ladder',de:'die Leiter',fr:'l’échelle',it:'la scala',es:'la escalera',pt:'a escada',nl:'de ladder',sv:'stegen',da:'stigen',no:'stigen',fi:'tikkaat'},
-    train: {en:'the train',de:'der Zug',fr:'le train',it:'il treno',es:'el tren',pt:'o trem',nl:'de trein',sv:'tåget',da:'toget',no:'toget',fi:'juna'},
-    bus: {en:'the bus',de:'der Bus',fr:'le bus',it:'l’autobus',es:'el autobús',pt:'o ônibus',nl:'de bus',sv:'bussen',da:'bussen',no:'bussen',fi:'bussi'},
+    surfboard: {en:'the surfboard',de:'das Surfbrett',fr:'la planche de surf',it:'la tavola da surf',es:'la tabla de surf',pt:'a prancha de surfe',nl:'de surfplank',sv:'surfbrädan',da:'surfbrættet',no:'surfebrettet',fi:'surffilauta'},
+    shovel: {en:'the shovel',de:'die Schaufel',fr:'la pelle',it:'la pala',es:'la pala',pt:'a pá',nl:'de schop',sv:'spaden',da:'skovlen',no:'spaden',fi:'lapio'},
+    rake: {en:'the rake',de:'der Rechen',fr:'le râteau',it:'il rastrello',es:'el rastrillo',pt:'o ancinho',nl:'de hark',sv:'krattan',da:'riven',no:'riva',fi:'harava'},
+    kayak: {en:'the kayak',de:'der Kajak',fr:'le kayak',it:'il kayak',es:'el kayak',pt:'o caiaque',nl:'de kajak',sv:'kajaken',da:'kajakken',no:'kajakken',fi:'kajakki'},
+    canoe: {en:'the canoe',de:'das Kanu',fr:'le canoë',it:'la canoa',es:'la canoa',pt:'a canoa',nl:'de kano',sv:'kanoten',da:'kanoen',no:'kanoen',fi:'kanootti'},
+    airplane: {en:'the airplane',de:'das Flugzeug',fr:'l’avion',it:'l’aeroplano',es:'el avión',pt:'o avião',nl:'het vliegtuig',sv:'flygplanet',da:'flyvemaskinen',no:'flyet',fi:'lentokone'},
+    submarine: {en:'the submarine',de:'das U-Boot',fr:'le sous-marin',it:'il sottomarino',es:'el submarino',pt:'o submarino',nl:'de onderzeeër',sv:'ubåten',da:'ubåden',no:'ubåten',fi:'sukellusvene'},
+    shark: {en:'the shark',de:'der Hai',fr:'le requin',it:'lo squalo',es:'el tiburón',pt:'o tubarão',nl:'de haai',sv:'hajen',da:'hajen',no:'haien',fi:'hai'},
+    alligator: {en:'the alligator',de:'der Alligator',fr:'l’alligator',it:'l’alligatore',es:'el caimán',pt:'o jacaré',nl:'de alligator',sv:'alligatorn',da:'alligatoren',no:'alligatoren',fi:'alligaattori'},
+    helicopter: {en:'the helicopter',de:'der Hubschrauber',fr:'l’hélicoptère',it:'l’elicottero',es:'el helicóptero',pt:'o helicóptero',nl:'de helikopter',sv:'helikoptern',da:'helikopteren',no:'helikopteret',fi:'helikopteri'},
+    ferry: {en:'the ferry',de:'die Fähre',fr:'le ferry',it:'il traghetto',es:'el transbordador',pt:'a balsa',nl:'de veerboot',sv:'färjan',da:'færgen',no:'ferga',fi:'lautta'},
+    truck: {en:'the truck',de:'das Postauto',fr:'le camion',it:'il camion',es:'el camión',pt:'o caminhão',nl:'de vrachtwagen',sv:'lastbilen',da:'lastbilen',no:'lastebilen',fi:'kuorma-auto'},
+    boat: {en:'the boat',de:'das Boot',fr:'le bateau',it:'la barca',es:'el bote',pt:'o barco',nl:'de boot',sv:'båten',da:'båden',no:'båten',fi:'vene'},
     mouse: {en:'the mouse',de:'die Maus',fr:'la souris',it:'il topo',es:'el ratón',pt:'o rato',nl:'de muis',sv:'musen',da:'musen',no:'musen',fi:'hiiri'},
     strawberry: {en:'the strawberry',de:'die Erdbeere',fr:'la fraise',it:'la fragola',es:'la fresa',pt:'o morango',nl:'de aardbei',sv:'jordgubben',da:'jordbærret',no:'jordbæret',fi:'mansikka'},
     hamster: {en:'the hamster',de:'der Hamster',fr:'le hamster',it:'il criceto',es:'el hámster',pt:'o hamster',nl:'de hamster',sv:'hamstern',da:'hamsteren',no:'hamsteren',fi:'hamsteri'},
@@ -136,25 +154,62 @@ var MeasurementBench = {
 
   /* image dirs/files (validated vs pww-index-en + disk by the gate) */
   META: {
-    worm:['insects and bugs','worm'], carrot:['At the Supermarket','carrot'], fork:['around the house','fork'],
-    banana:['At the Supermarket','banana'], toothbrush:['around the house','toothbrush'], baguette:['bakery','baguette'],
-    scarf:['accessories','scarf'], umbrella:['accessories','umbrella'], broom:['around the house','broom'],
-    ladder:['tools','ladder'], train:['toys','train'], bus:['vehicles','bus'],
     mouse:['forest creatures','mouse'], strawberry:['At the Supermarket','strawberry'], hamster:['pets','hamster'],
-    apple:['At the Supermarket','apple'], ball:['toys','ball'], duck:['animals','duck'], book:['classroom','book'],
-    shoe:['clothing','shoe'], owl:['animals','owl'], rabbit:['animals','rabbit'], cat:['animals','cat'],
-    penguin:['animals','penguin'], pumpkin:['At the Supermarket','pumpkin'], fox:['animals','fox'], dog:['animals','dog'],
-    koala:['animals','koala'], watermelon:['4th of July','watermelon'], sheep:['animals','sheep'], pig:['animals','pig'],
-    deer:['camping','deer'], lion:['zoo animals','lion'], panda:['animals','panda'], bear:['camping','bear'],
-    cow:['farm animals','cow'], horse:['animals','horse']
+    apple:['At the Supermarket','apple'], ball:['toys','ball'], duck:['animals','duck'],
+    book:['classroom','book'], shoe:['clothing','shoe'], owl:['animals','owl'],
+    rabbit:['animals','rabbit'], cat:['animals','cat'], penguin:['animals','penguin'],
+    pumpkin:['At the Supermarket','pumpkin'], fox:['animals','fox'], dog:['animals','dog'],
+    koala:['animals','koala'], watermelon:['4th of July','watermelon'], sheep:['animals','sheep'],
+    pig:['animals','pig'], deer:['camping','deer'], lion:['zoo animals','lion'],
+    panda:['animals','panda'], bear:['camping','bear'], cow:['farm animals','cow'],
+    horse:['animals','horse'], fork:['around the house','fork'], toothbrush:['around the house','toothbrush'],
+    baguette:['bakery','baguette'], ladder:['tools','ladder'], key:['around the house','key'],
+    crayon:['classroom','crayon'], candle:['christmas','candle'], wand:['accessories','wand'],
+    corn:['At the Supermarket','corn'], skateboard:['toys','skateboard'],
+    belt:['accessories','belt'], tie:['accessories','tie'], celery:['vegetables','celery'],
+    leek:['vegetables','leek'], 'rolling-pin':['kitchen tools','rolling_pin'], hammer:['around the house','hammer'],
+    sled:['winter','sled'], surfboard:['summer','surfboard'], shovel:['around the house','shovel'],
+    rake:['around the house','rake'], kayak:['camping','kayak'], canoe:['camping','canoe'],
+    airplane:['Things That Fly','airplane'], submarine:['vehicles','submarine'], shark:['ocean life','shark'],
+    alligator:['reptiles and Amphibians','alligator'], helicopter:['Things That Fly','helicopter'], ferry:['vehicles','ferry'],
+    truck:['post office','truck'], boat:['beach','boat']
   },
 
-  /* length objects: rendered width MUST be an integer multiple of every
-     unit width (clip 45 · cube 30 → multiples of 90) — gate-proven */
+  /* length objects: rot=90 illustrations LIE DOWN on the bench; trim =
+     the measured alpha bounding box of the DEPICTED object (gate re-
+     measures with sharp — drift fails the build). The units chain spans
+     the trimmed visible extent EXACTLY via _lenPlacement. */
   LENGTH_OBJECTS: [
-    { k: 'worm', w: 180 }, { k: 'carrot', w: 180 }, { k: 'fork', w: 180 }, { k: 'banana', w: 180 },
-    { k: 'toothbrush', w: 270 }, { k: 'baguette', w: 270 }, { k: 'scarf', w: 270 }, { k: 'umbrella', w: 270 },
-    { k: 'broom', w: 360 }, { k: 'ladder', w: 360 }, { k: 'train', w: 360 }, { k: 'bus', w: 450 }
+    { k: 'key', w: 180, rot: 90, trim: { x: 258, y: 16, w: 488, h: 996 }, iw: 1024, ih: 1024 }, /* ratio 2.04 */
+    { k: 'crayon', w: 180, rot: 90, trim: { x: 384, y: 23, w: 232, h: 985 }, iw: 1024, ih: 1024 }, /* ratio 4.25 */
+    { k: 'fork', w: 180, rot: 90, trim: { x: 426, y: 25, w: 164, h: 986 }, iw: 1024, ih: 1024 }, /* ratio 6.01 */
+    { k: 'toothbrush', w: 180, rot: 90, trim: { x: 432, y: 21, w: 133, h: 991 }, iw: 1024, ih: 1024 }, /* ratio 7.45 */
+    { k: 'candle', w: 180, rot: 90, trim: { x: 349, y: 29, w: 329, h: 977 }, iw: 1024, ih: 1024 }, /* ratio 2.97 */
+    { k: 'wand', w: 180, rot: 90, trim: { x: 339, y: 29, w: 344, h: 966 }, iw: 1024, ih: 1024 }, /* ratio 2.81 */
+    { k: 'corn', w: 180, rot: 90, trim: { x: 210, y: 25, w: 535, h: 982 }, iw: 1024, ih: 1024 }, /* ratio 1.84 */
+    { k: 'baguette', w: 270, rot: 0, trim: { x: 24, y: 321, w: 977, h: 402 }, iw: 1024, ih: 1024 }, /* ratio 2.43 */
+    { k: 'skateboard', w: 270, rot: 0, trim: { x: 29, y: 374, w: 966, h: 299 }, iw: 1024, ih: 1024 }, /* ratio 3.23 */
+    { k: 'belt', w: 270, rot: 0, trim: { x: 54, y: 253, w: 919, h: 510 }, iw: 1024, ih: 1024 }, /* ratio 1.80 */
+    { k: 'tie', w: 270, rot: 90, trim: { x: 373, y: 38, w: 269, h: 971 }, iw: 1024, ih: 1024 }, /* ratio 3.61 */
+    { k: 'celery', w: 270, rot: 90, trim: { x: 344, y: 30, w: 340, h: 974 }, iw: 1024, ih: 1024 }, /* ratio 2.86 */
+    { k: 'leek', w: 270, rot: 90, trim: { x: 266, y: 28, w: 458, h: 980 }, iw: 1024, ih: 1024 }, /* ratio 2.14 */
+    { k: 'rolling-pin', w: 270, rot: 0, trim: { x: 26, y: 203, w: 976, h: 640 }, iw: 1024, ih: 1024 }, /* ratio 1.52 */
+    { k: 'hammer', w: 270, rot: 90, trim: { x: 198, y: 24, w: 594, h: 987 }, iw: 1024, ih: 1024 }, /* ratio 1.66 */
+    { k: 'sled', w: 360, rot: 0, trim: { x: 25, y: 241, w: 972, h: 576 }, iw: 1024, ih: 1024 }, /* ratio 1.69 */
+    { k: 'ladder', w: 360, rot: 90, trim: { x: 320, y: 24, w: 375, h: 989 }, iw: 1024, ih: 1024 }, /* ratio 2.64 */
+    { k: 'surfboard', w: 360, rot: 90, trim: { x: 352, y: 20, w: 323, h: 992 }, iw: 1024, ih: 1024 }, /* ratio 3.07 */
+    { k: 'shovel', w: 360, rot: 90, trim: { x: 387, y: 25, w: 270, h: 984 }, iw: 1024, ih: 1024 }, /* ratio 3.64 */
+    { k: 'rake', w: 360, rot: 90, trim: { x: 327, y: 25, w: 350, h: 972 }, iw: 1024, ih: 1024 }, /* ratio 2.78 */
+    { k: 'kayak', w: 450, rot: 0, trim: { x: 22, y: 240, w: 980, h: 557 }, iw: 1024, ih: 1024 }, /* ratio 1.76 */
+    { k: 'canoe', w: 450, rot: 0, trim: { x: 22, y: 255, w: 982, h: 508 }, iw: 1024, ih: 1024 }, /* ratio 1.93 */
+    { k: 'airplane', w: 450, rot: 0, trim: { x: 28, y: 273, w: 969, h: 492 }, iw: 1024, ih: 1024 }, /* ratio 1.97 */
+    { k: 'submarine', w: 450, rot: 0, trim: { x: 29, y: 251, w: 967, h: 525 }, iw: 1024, ih: 1024 }, /* ratio 1.84 */
+    { k: 'shark', w: 450, rot: 0, trim: { x: 25, y: 245, w: 975, h: 544 }, iw: 1024, ih: 1024 }, /* ratio 1.79 */
+    { k: 'alligator', w: 450, rot: 0, trim: { x: 30, y: 270, w: 969, h: 541 }, iw: 1024, ih: 1024 }, /* ratio 1.79 */
+    { k: 'helicopter', w: 450, rot: 0, trim: { x: 25, y: 265, w: 968, h: 509 }, iw: 1024, ih: 1024 }, /* ratio 1.90 */
+    { k: 'ferry', w: 450, rot: 0, trim: { x: 27, y: 249, w: 965, h: 531 }, iw: 1024, ih: 1024 }, /* ratio 1.82 */
+    { k: 'truck', w: 450, rot: 0, trim: { x: 31, y: 269, w: 961, h: 531 }, iw: 1024, ih: 1024 }, /* ratio 1.81 */
+    { k: 'boat', w: 450, rot: 0, trim: { x: 21, y: 211, w: 984, h: 628 }, iw: 1024, ih: 1024 }, /* ratio 1.57 */
   ],
   UNITS: { clip: { w: 45, h: 20, sKey: 'unitClipS', pKey: 'unitClipP' }, cube: { w: 30, h: 26, sKey: 'unitCubeS', pKey: 'unitCubeP' } },
   LATTICE: 15,
@@ -536,9 +591,12 @@ var MeasurementBench = {
     img.src = this._imgUrl(obj.k);
     img.alt = this._noun(obj.k);
     img.draggable = false;
-    img.style.width = obj.w + 'px';
-    img.style.left = X0 + 'px';
-    img.style.bottom = (430 - TRACK_Y) + 'px';
+    var pl = this._lenPlacement(obj, X0, TRACK_Y);
+    img.style.width = pl.width + 'px';
+    img.style.left = pl.left + 'px';
+    img.style.top = pl.top + 'px';
+    img.style.transformOrigin = pl.origin;
+    if (pl.transform) img.style.transform = pl.transform;
     stage.appendChild(img);
 
     /* the track (baseline + end whiskers) */
@@ -574,6 +632,32 @@ var MeasurementBench = {
       stage.appendChild(done);
     }
   },
+  /* PURE trim-exact placement — maps the DEPICTED object's trimmed box
+     onto [X0, X0+w] with its bottom ON the track; rot=90 lies the
+     illustration down (CSS y-down rotate(90deg) about top-left maps
+     (x,y) -> (-y,x)). Gate-proven by applying the affine to the trim
+     corners. Returns {width, left, top, transform, origin}. */
+  _lenPlacement: function (obj, X0, TRACK_Y) {
+    var t = obj.trim;
+    if (obj.rot === 90) {
+      var k = obj.w / t.h;
+      return {
+        width: obj.iw * k,
+        left: 0, top: 0,
+        origin: 'top left',
+        transform: 'translate(' + (X0 + (t.y + t.h) * k) + 'px, ' + (TRACK_Y - (t.x + t.w) * k) + 'px) rotate(90deg)'
+      };
+    }
+    var k0 = obj.w / t.w;
+    return {
+      width: obj.iw * k0,
+      left: X0 - t.x * k0,
+      top: TRACK_Y - (t.y + t.h) * k0,
+      origin: 'top left',
+      transform: ''
+    };
+  },
+
   _unitSVG: function (unitKey, scale) {
     var s = scale || 1;
     if (unitKey === 'clip') {

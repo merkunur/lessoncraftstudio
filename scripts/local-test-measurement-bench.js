@@ -158,6 +158,21 @@ function serve() {
     await sleep(250);
     st = await page.evaluate(() => ({ placed: MeasurementBench.placed.length, laid: document.querySelectorAll('.mb-unit.laid').length }));
     ok('supply drag lays a unit on the lattice', st.placed === 1 && st.laid === 1);
+    /* the rendered img must carry EXACTLY the placement the pure fn returns
+       (the operator-defect class: units must span the DEPICTED object) */
+    const plOk = await page.evaluate(() => {
+      const T = MeasurementBench;
+      const obj = T.LENGTH_OBJECTS[T.lenIdx];
+      const pl = T._lenPlacement(obj, T._lenX0, T._lenTrackY);
+      const img = document.querySelector('.mb-lenobj');
+      const close = (a, b) => Math.abs(parseFloat(a) - b) < 0.6;
+      const nums = (str) => (str.match(/-?[\d.]+/g) || []).map(Number);
+      const sameNums = (a, b) => { const x = nums(a), y = nums(b); return x.length === y.length && x.every((v, i) => Math.abs(v - y[i]) < 0.6); };
+      return close(img.style.width, pl.width) &&
+        (obj.rot === 90 ? sameNums(img.style.transform, pl.transform)
+          : close(img.style.left, pl.left) && close(img.style.top, pl.top));
+    });
+    ok('rendered object placement equals _lenPlacement (trim-exact)', plOk);
     /* construct a GAP arrangement for the worm (180px, 4 clips at X0=240):
        [240, 300, 345, 390] — 15px gap after the first clip */
     await page.evaluate(() => {
@@ -179,7 +194,7 @@ function serve() {
       counted: MeasurementBench.counted,
       placed: MeasurementBench.placed.length,
       chain: MeasurementBench.placed.every((x, i) => x === MeasurementBench._lenX0 + i * 45),
-      spoke: window.__spoken.some((s) => /worm is 4 paperclips long/i.test(s)),
+      spoke: window.__spoken.some((s) => /key is 4 paperclips long/i.test(s)),
       compare: window.__spoken.some((s) => /You guessed 5 · It measured 4/.test(s)),
       compareUI: !!document.querySelector('.mb-est.compared')
     }));

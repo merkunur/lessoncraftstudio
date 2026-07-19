@@ -435,6 +435,32 @@
       "Mit Premium: Die Klasse baut ein eigenes Rätsel zum aktuellen Thema — ein gutes Rätsel zu bauen ist selbst die beste Denkaufgabe."
     ]
   },
+  "story-line": {
+    "slug": "bildergeschichte-erzaehlen",
+    "name": "Die Geschichtenleine",
+    "tagline": "Bildkarten aufhängen und der Reihe nach erzählen",
+    "metaTitle": "Die Geschichtenleine – Bildergeschichten ordnen und nacherzählen",
+    "metaDescription": "Digitale Geschichtenleine: Kinder hängen Bildkarten der Reihe nach auf und jede Klammer erzählt mit Zuerst, Dann, Zum Schluss. Ideal für Erzählkreis, Kita und Grundschule.",
+    "about": [
+      "Die Geschichtenleine bringt das Nacherzählen an die Tafel: Über den Beamer spannt sich eine Wäscheleine, und die Kinder hängen illustrierte Bildkarten mit Klammern daran auf. Jede aufgehängte Karte wird sofort mit einem Reihenfolgewort erzählt — Zuerst, Dann, Danach, Anschließend, Zum Schluss — und mit \"Meine Geschichte abspielen\" wandert ein warmer Lichtkegel die Leine entlang und liest die ganze Geschichte vor.",
+      "Die Erzählstimme urteilt nie: Auch eine durcheinandergeratene Leine wird genau so vorgelesen, wie sie hängt. Wenn \"Zum Schluss\" plötzlich von der großen grauen Wolke erzählt, hören die Kinder selbst, dass die Geschichte noch nicht rund ist — sie lachen, hängen um und lauschen noch einmal. So wächst die Erzählreihenfolge aus dem Zuhören, ganz ohne rotes Kreuzchen, Punkte oder Zeitdruck.",
+      "Im Nacherzähl-Modus wird die Erzählstimme still und das Erzählkind übernimmt — und mit voller Absicht nimmt das Werkzeug dabei nichts auf: keine Aufnahme, kein Protokoll, keine Notizen. Dass nichts festgehalten wird, ist kein fehlendes Extra, sondern der Kern des Rituals: Die Geschichte gehört in diesem Moment dem Kind, und die Lehrkraft hört einfach zu."
+    ],
+    "howToUse": [
+      "Öffnen Sie ein Set aus der Geschichtensammlung und zeigen Sie die Leine über Beamer oder Whiteboard — die Karten liegen gemischt im Kartenfach bereit.",
+      "Ein Kind zieht eine Karte auf die Leine und hängt sie an eine Klammer — die Erzählstimme erzählt diesen Teil sofort mit dem Reihenfolgewort der Position.",
+      "Zum Umbauen ziehen die Kinder Karten einfach an einen anderen Platz oder zurück ins Fach; ein Tipp auf eine hängende Karte erzählt ihren Teil noch einmal.",
+      "Sobald mindestens zwei Karten hängen, spielt \"Meine Geschichte abspielen\" die ganze Leine mit Lichtkegel und Erzählstimme ab — genau in der Reihenfolge der Kinder.",
+      "Nach einem vollständigen Durchlauf zeigt \"So erzählt es das Buch\" die Buchfassung als Licht-Spur über der Leine der Kinder — ohne ihre Karten zu verschieben."
+    ],
+    "classroomIdeas": [
+      "Im Morgenkreis: Hängen Sie \"Mein Morgen\" oder \"Der Jahreskreis\" gemeinsam auf und lassen Sie jedes Kind nach seiner Karte aus dem eigenen Alltag weitererzählen.",
+      "Im Erzählkreis: Schalten Sie die Erzählstimme still und lassen Sie das Erzählkind des Tages die aufgehängte Leine mit eigenen Worten vortragen — die Klasse lauscht.",
+      "Reihenfolgewörter als Wortschatz: Lassen Sie die Klasse Zuerst, Dann, Danach, Anschließend und Zum Schluss im Chor mitsprechen, bevor die Erzählstimme sie sagt.",
+      "Hörauftrag: Hängen Sie die Karten absichtlich bunt gemischt auf, spielen Sie die Leine ab und lassen Sie die Kinder beschreiben, was sie beim Zuhören stutzen ließ.",
+      "Brücke zur Bildergeschichte (Klasse 2): Erst hängen und anhören, dann schreiben die Kinder die Sätze mit den Reihenfolgewörtern ins Heft — die Leine ist der Schreibplan."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

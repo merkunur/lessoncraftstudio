@@ -1,0 +1,1499 @@
+{
+  "v": 1,
+  "freeSets": [
+    "k-rainbow",
+    "g1-baking"
+  ],
+  "sets": [
+    {
+      "id": "k-morning",
+      "band": "K",
+      "title": {
+        "en": "My Morning",
+        "de": "Mein Morgen",
+        "nl": "Mijn ochtend",
+        "fr": "Mon matin",
+        "es": "Mi mañana",
+        "it": "La mia mattina",
+        "pt": "Minha manhã",
+        "sv": "Min morgon",
+        "da": "Min morgen",
+        "no": "Morgenen min",
+        "fi": "Minun aamuni"
+      },
+      "cards": [
+        {
+          "art": {
+            "t": "img",
+            "theme": "spring",
+            "d": "spring",
+            "f": "sun"
+          },
+          "cap": {
+            "en": "The sun climbs up and wakes me.",
+            "de": "Die Sonne klettert hoch und weckt mich.",
+            "nl": "De zon klimt omhoog en maakt me wakker.",
+            "fr": "Le soleil se lève et me réveille.",
+            "es": "El sol sube y me despierta.",
+            "it": "Il sole si alza e mi sveglia.",
+            "pt": "O sol aparece e me acorda.",
+            "sv": "Solen klättrar upp och väcker mig.",
+            "da": "Solen står op og vækker mig.",
+            "no": "Sola klatrer opp og vekker meg.",
+            "fi": "aurinko nousee ja herättää minut."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "around_the_house",
+            "d": "around the house",
+            "f": "toothbrush"
+          },
+          "cap": {
+            "en": "I brush my teeth, scrub scrub.",
+            "de": "Ich putze meine Zähne, schrubb, schrubb.",
+            "nl": "Ik poets mijn tanden, poets poets.",
+            "fr": "Je me brosse les dents, frotte frotte.",
+            "es": "Me cepillo los dientes, chucu chucu.",
+            "it": "Mi lavo i denti, sfrega sfrega.",
+            "pt": "Escovo os dentes, esfrega, esfrega.",
+            "sv": "Jag borstar tänderna, gnugga gnugga.",
+            "da": "Jeg børster tænder, skrub skrub.",
+            "no": "Jeg pusser tennene, skrubb, skrubb.",
+            "fi": "harjaan hampaani, suih suih."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "classroom",
+            "d": "classroom",
+            "f": "backpack"
+          },
+          "cap": {
+            "en": "I grab my backpack and off I go!",
+            "de": "Ich schnappe mir den Ranzen und los!",
+            "nl": "Ik pak mijn rugzak en ga op pad!",
+            "fr": "Je prends mon cartable et en route !",
+            "es": "Agarro mi mochila y ¡ya me voy!",
+            "it": "Prendo lo zaino e via, si parte!",
+            "pt": "Pego minha mochila e lá vou eu!",
+            "sv": "Jag tar ryggsäcken och springer iväg!",
+            "da": "Jeg tager min skoletaske og løber af sted!",
+            "no": "Jeg tar skolesekken og løper av sted!",
+            "fi": "nappaan repun ja lähden matkaan!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "k-rainbow",
+      "band": "K",
+      "title": {
+        "en": "Rain and Rainbow",
+        "de": "Regen und Regenbogen",
+        "nl": "Regen en regenboog",
+        "fr": "Pluie et arc-en-ciel",
+        "es": "Lluvia y arcoíris",
+        "it": "Pioggia e arcobaleno",
+        "pt": "Chuva e arco-íris",
+        "sv": "Regn och regnbåge",
+        "da": "Regn og regnbue",
+        "no": "Regn og regnbue",
+        "fi": "Sade ja sateenkaari"
+      },
+      "cards": [
+        {
+          "art": {
+            "t": "img",
+            "theme": "weather",
+            "d": "weather",
+            "f": "cloud"
+          },
+          "cap": {
+            "en": "A big rain cloud fills the sky.",
+            "de": "Eine große Regenwolke füllt den Himmel.",
+            "nl": "Een grote regenwolk vult de lucht.",
+            "fr": "Un gros nuage de pluie remplit le ciel.",
+            "es": "Una gran nube de lluvia cubre el cielo.",
+            "it": "Una grande nuvola di pioggia copre il cielo.",
+            "pt": "Uma nuvem de chuva enche o céu.",
+            "sv": "Ett stort regnmoln fyller himlen.",
+            "da": "En stor regnsky dækker himlen.",
+            "no": "En stor regnsky fyller himmelen.",
+            "fi": "iso sadepilvi peittää taivaan."
+          }
+        },
+        {
+          "art": {
+            "t": "glyph",
+            "key": "rain"
+          },
+          "cap": {
+            "en": "The rain patters down, drip drop.",
+            "de": "Der Regen prasselt herunter, tropf, tropf.",
+            "nl": "De regen tikt omlaag, drup drup drup.",
+            "fr": "La pluie tombe, plic ploc.",
+            "es": "La lluvia cae, plic plic.",
+            "it": "La pioggia scende giù, plic ploc.",
+            "pt": "A chuva cai, plic, ploc.",
+            "sv": "Regnet smattrar ner, dripp dropp.",
+            "da": "Regnen siler ned, dryp dryp.",
+            "no": "Regnet trommer ned, drypp, drypp.",
+            "fi": "sade ropisee, tip tip."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "spring",
+            "d": "spring",
+            "f": "rainbow"
+          },
+          "cap": {
+            "en": "A rainbow stretches across the sky!",
+            "de": "Ein Regenbogen spannt sich über den Himmel!",
+            "nl": "Een regenboog verschijnt aan de hemel!",
+            "fr": "Un arc-en-ciel s’étire dans le ciel !",
+            "es": "¡Un arcoíris cruza el cielo!",
+            "it": "Un arcobaleno attraversa tutto il cielo!",
+            "pt": "Um arco-íris se estica no céu!",
+            "sv": "En regnbåge spänner sig över himlen!",
+            "da": "En regnbue spænder sig hen over himlen!",
+            "no": "En regnbue strekker seg over himmelen!",
+            "fi": "sateenkaari kaartuu taivaan yli!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "k-puddles",
+      "band": "K",
+      "title": {
+        "en": "Puddle Day",
+        "de": "Der Pfützentag",
+        "nl": "Stampen in de plassen",
+        "fr": "Le jour des flaques",
+        "es": "Día de charcos",
+        "it": "Il giorno delle pozzanghere",
+        "pt": "Dia de poças",
+        "sv": "Pöldagen",
+        "da": "Vandpytdag",
+        "no": "Sølepyttdagen",
+        "fi": "Lätäkköpäivä"
+      },
+      "cards": [
+        {
+          "art": {
+            "t": "glyph",
+            "key": "rain"
+          },
+          "cap": {
+            "en": "Rain taps on the window.",
+            "de": "Der Regen klopft ans Fenster.",
+            "nl": "De regen tikt op het raam.",
+            "fr": "La pluie tape à la fenêtre.",
+            "es": "La lluvia toca la ventana, plic plic.",
+            "it": "La pioggia bussa alla finestra.",
+            "pt": "A chuva bate na janela.",
+            "sv": "Regnet knackar på fönstret.",
+            "da": "Regnen banker på ruden.",
+            "no": "Regnet trommer på vinduet.",
+            "fi": "sade naputtaa ikkunaan."
+          }
+        },
+        {
+          "art": {
+            "t": "glyph",
+            "key": "umbrella"
+          },
+          "cap": {
+            "en": "Up goes my umbrella!",
+            "de": "Schwupp, mein Schirm geht auf!",
+            "nl": "Mijn paraplu gaat open, hup!",
+            "fr": "J’ouvre mon parapluie !",
+            "es": "¡Arriba mi paraguas!",
+            "it": "Apro l’ombrello, oplà!",
+            "pt": "Abro meu guarda-chuva!",
+            "sv": "Upp med paraplyet!",
+            "da": "Op med paraplyen!",
+            "no": "Opp med paraplyen!",
+            "fi": "sateenvarjo aukeaa!"
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "weather",
+            "d": "weather",
+            "f": "puddle"
+          },
+          "cap": {
+            "en": "I splash in every puddle.",
+            "de": "Ich hüpfe in jede Pfütze, platsch!",
+            "nl": "Ik stamp in alle regenplassen.",
+            "fr": "Je saute dans toutes les flaques, plouf !",
+            "es": "¡Chapoteo en todos los charcos!",
+            "it": "Faccio splash in ogni pozzanghera.",
+            "pt": "Pulo em todas as poças, tchibum!",
+            "sv": "Jag plaskar i varenda pöl.",
+            "da": "Jeg hopper i alle vandpytterne.",
+            "no": "Jeg hopper i alle sølepyttene.",
+            "fi": "hyppään joka lätäkköön, loiskis!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "k-bedtime",
+      "band": "K",
+      "title": {
+        "en": "Time for Bed",
+        "de": "Zeit fürs Bett",
+        "nl": "Tijd voor bed",
+        "fr": "L’heure du dodo",
+        "es": "Hora de dormir",
+        "it": "È ora della nanna",
+        "pt": "Hora de dormir",
+        "sv": "Dags att sova",
+        "da": "Sengetid",
+        "no": "Leggetid",
+        "fi": "Nyt nukkumaan"
+      },
+      "cards": [
+        {
+          "art": {
+            "t": "img",
+            "theme": "clothing",
+            "d": "clothing",
+            "f": "pajamas"
+          },
+          "cap": {
+            "en": "I put on my cozy pajamas.",
+            "de": "Ich ziehe meinen kuscheligen Schlafanzug an.",
+            "nl": "Ik trek mijn zachte pyjama aan.",
+            "fr": "J’enfile mon pyjama tout doux.",
+            "es": "Me pongo mi pijama calientita.",
+            "it": "Mi metto il pigiama morbido.",
+            "pt": "Visto meu pijama quentinho.",
+            "sv": "Jag tar på mig min mysiga pyjamas.",
+            "da": "Jeg tager min bløde pyjamas på.",
+            "no": "Jeg tar på meg den myke pysjen.",
+            "fi": "puen pehmoisen pyjaman ylleni."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "classroom",
+            "d": "classroom",
+            "f": "book"
+          },
+          "cap": {
+            "en": "We read one more story.",
+            "de": "Wir lesen noch eine Gutenachtgeschichte.",
+            "nl": "We lezen nog één verhaaltje.",
+            "fr": "On lit encore une histoire.",
+            "es": "Leemos un cuento más.",
+            "it": "Leggiamo ancora una storia.",
+            "pt": "Lemos mais uma história.",
+            "sv": "Vi läser en saga till.",
+            "da": "Vi læser én historie til.",
+            "no": "Vi leser en godnatthistorie til.",
+            "fi": "luemme vielä yhden sadun."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "space",
+            "d": "space",
+            "f": "moon"
+          },
+          "cap": {
+            "en": "The moon says goodnight.",
+            "de": "Der Mond sagt leise Gute Nacht.",
+            "nl": "De maan zegt welterusten.",
+            "fr": "La lune me dit bonne nuit.",
+            "es": "La luna dice buenas noches.",
+            "it": "La luna mi dice buonanotte.",
+            "pt": "A lua diz boa noite.",
+            "sv": "Månen säger god natt.",
+            "da": "Månen siger godnat.",
+            "no": "Månen sier god natt.",
+            "fi": "kuu toivottaa hyvää yötä."
+          }
+        }
+      ]
+    },
+    {
+      "id": "g1-winter-dress",
+      "band": "G1",
+      "title": {
+        "en": "Ready for the Snow",
+        "de": "Fertig für den Schnee",
+        "nl": "Klaar voor de sneeuw",
+        "fr": "Prêts pour la neige",
+        "es": "Listos para la nieve",
+        "it": "Pronti per la neve",
+        "pt": "Prontos para a neve",
+        "sv": "Redo för snön",
+        "da": "Klar til sneen",
+        "no": "Klar for snøen",
+        "fi": "Talvivaatteet päälle"
+      },
+      "cards": [
+        {
+          "art": {
+            "t": "img",
+            "theme": "winter",
+            "d": "winter",
+            "f": "coat"
+          },
+          "cap": {
+            "en": "On goes my big warm coat.",
+            "de": "Ich schlüpfe in meine dicke Winterjacke.",
+            "nl": "Mijn dikke, warme jas gaat aan.",
+            "fr": "J’enfile mon grand manteau bien chaud.",
+            "es": "Me pongo mi abrigo grande y calientito.",
+            "it": "Mi infilo il cappottone caldo.",
+            "pt": "Visto meu casaco grande e quentinho.",
+            "sv": "På med den stora varma jackan.",
+            "da": "På med den store varme vinterjakke.",
+            "no": "På med den store, varme jakka.",
+            "fi": "puen lämpimän takin päälle."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "clothing",
+            "d": "clothing",
+            "f": "scarf"
+          },
+          "cap": {
+            "en": "The scarf wraps round and round.",
+            "de": "Der Schal wickelt sich rundherum.",
+            "nl": "De sjaal gaat rond en rond mijn nek.",
+            "fr": "L’écharpe s’enroule autour de mon cou.",
+            "es": "La bufanda da vueltas y vueltas.",
+            "it": "La sciarpa fa tanti giri intorno al collo.",
+            "pt": "O cachecol dá voltas e voltas.",
+            "sv": "Halsduken snurrar varv på varv.",
+            "da": "Halstørklædet snor sig rundt og rundt.",
+            "no": "Jeg surrer skjerfet rundt og rundt.",
+            "fi": "huivi kiertää kaulan ympäri monta kierrosta."
+          }
+        },
+        {
+          "art": {
+            "t": "glyph",
+            "key": "mitten"
+          },
+          "cap": {
+            "en": "Mittens keep my fingers toasty.",
+            "de": "Die Fäustlinge halten meine Finger mollig warm.",
+            "nl": "Wanten houden mijn vingers lekker warm.",
+            "fr": "Les moufles gardent mes doigts au chaud.",
+            "es": "Los guantes abrigan mis deditos.",
+            "it": "Le muffole scaldano le mie dita.",
+            "pt": "As luvas esquentam meus dedos.",
+            "sv": "Vantarna håller fingrarna varma.",
+            "da": "Vanterne holder mine fingre varme.",
+            "no": "Vottene holder fingrene mine varme.",
+            "fi": "lapaset pitävät sormet lämpiminä."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "winter",
+            "d": "winter",
+            "f": "boots"
+          },
+          "cap": {
+            "en": "Boots on — out into the snow!",
+            "de": "Stiefel an — raus in den Schnee!",
+            "nl": "Mijn laarzen gaan aan — hop, de sneeuw in!",
+            "fr": "Bottes aux pieds, je file dans la neige !",
+            "es": "¡Botas puestas y a la nieve!",
+            "it": "Stivali ai piedi e via, nella neve!",
+            "pt": "Botas nos pés — e vamos para a neve!",
+            "sv": "Stövlarna på — ut i snön!",
+            "da": "Støvlerne på — ud i sneen!",
+            "no": "Støvlene på — og ut i snøen!",
+            "fi": "saappaat jalkaan ja ulos lumeen!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "g1-baking",
+      "band": "G1",
+      "title": {
+        "en": "Baking Day",
+        "de": "Der Backtag",
+        "nl": "De bakdag",
+        "fr": "Le jour du gâteau",
+        "es": "Día de hornear",
+        "it": "Il giorno della torta",
+        "pt": "Dia de fazer bolo",
+        "sv": "Bakdagen",
+        "da": "Bagedag",
+        "no": "Bakedagen",
+        "fi": "Leivontapäivä"
+      },
+      "cards": [
+        {
+          "art": {
+            "t": "img",
+            "theme": "kitchen_tools",
+            "d": "kitchen tools",
+            "f": "bowl"
+          },
+          "cap": {
+            "en": "Everything goes into the big bowl.",
+            "de": "Alles kommt in die große Schüssel.",
+            "nl": "Alles gaat in de grote kom.",
+            "fr": "Tout va dans le grand saladier.",
+            "es": "Todo va al tazón grande.",
+            "it": "Tutto dentro la ciotola grande.",
+            "pt": "Tudo vai para a tigela grande.",
+            "sv": "Allt åker ner i den stora bunken.",
+            "da": "Alt kommer ned i den store skål.",
+            "no": "Alt skal opp i den store bollen.",
+            "fi": "kaikki ainekset menevät isoon kulhoon."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "kitchen_tools",
+            "d": "kitchen tools",
+            "f": "spoon"
+          },
+          "cap": {
+            "en": "We stir and stir and stir.",
+            "de": "Wir rühren und rühren und rühren.",
+            "nl": "We roeren en roeren en roeren.",
+            "fr": "On mélange, on mélange, on mélange.",
+            "es": "Batimos y batimos y batimos.",
+            "it": "Mescoliamo, gira e rigira.",
+            "pt": "A gente mexe, mexe e mexe.",
+            "sv": "Vi rör och rör och rör.",
+            "da": "Vi rører og rører og rører.",
+            "no": "Vi rører og rører og rører.",
+            "fi": "sekoitamme ja sekoitamme ja sekoitamme."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "kitchen_tools",
+            "d": "kitchen tools",
+            "f": "oven"
+          },
+          "cap": {
+            "en": "The oven bakes it nice and warm.",
+            "de": "Der Ofen backt den Kuchen schön goldbraun.",
+            "nl": "De oven bakt alles goudbruin.",
+            "fr": "Le four cuit le gâteau bien au chaud.",
+            "es": "El horno lo pone calientito y doradito.",
+            "it": "Il forno cuoce tutto, che profumino!",
+            "pt": "O forno assa tudo bem quentinho.",
+            "sv": "Ugnen gräddar kakan varm och fin.",
+            "da": "Ovnen bager kagen, så det dufter.",
+            "no": "Ovnen steker kaka god og varm.",
+            "fi": "taikina paistuu lämpimässä uunissa."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "bakery",
+            "d": "bakery",
+            "f": "cake"
+          },
+          "cap": {
+            "en": "The cake is ready to share!",
+            "de": "Der Kuchen ist fertig — jetzt wird geteilt!",
+            "nl": "De taart is klaar om te delen!",
+            "fr": "Le gâteau est prêt à partager !",
+            "es": "¡El pastel está listo para compartir!",
+            "it": "La torta è pronta, una fetta per tutti!",
+            "pt": "O bolo está pronto para repartir!",
+            "sv": "Nu är kakan klar att dela!",
+            "da": "Kagen er klar til at dele!",
+            "no": "Kaka er klar til å deles!",
+            "fi": "kakku on valmis, ja kaikki saavat maistaa!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "g1-snowman",
+      "band": "G1",
+      "title": {
+        "en": "The Snowman",
+        "de": "Der Schneemann",
+        "nl": "De sneeuwpop",
+        "fr": "Le bonhomme de neige",
+        "es": "El muñeco de nieve",
+        "it": "Il pupazzo di neve",
+        "pt": "O boneco de neve",
+        "sv": "Snögubben",
+        "da": "Snemanden",
+        "no": "Snømannen",
+        "fi": "Lumiukko"
+      },
+      "cards": [
+        {
+          "art": {
+            "t": "img",
+            "theme": "winter",
+            "d": "winter",
+            "f": "snowflake"
+          },
+          "cap": {
+            "en": "Snowflakes fall all night long.",
+            "de": "Schneeflocken fallen die ganze Nacht.",
+            "nl": "Sneeuwvlokken vallen de hele nacht.",
+            "fr": "Les flocons tombent toute la nuit.",
+            "es": "Los copos caen toda la noche.",
+            "it": "I fiocchi di neve cadono tutta la notte.",
+            "pt": "Flocos de neve caem a noite toda.",
+            "sv": "Snöflingor faller hela natten.",
+            "da": "Snefnug daler hele natten.",
+            "no": "Snøfnugg daler hele natta.",
+            "fi": "lumihiutaleita sataa koko yön."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "winter",
+            "d": "winter",
+            "f": "snowman"
+          },
+          "cap": {
+            "en": "We build a round, happy snowman.",
+            "de": "Wir bauen einen runden, fröhlichen Schneemann.",
+            "nl": "We bouwen een ronde, vrolijke sneeuwpop.",
+            "fr": "On fait un bonhomme de neige tout rond.",
+            "es": "Hacemos un muñeco de nieve redondo y feliz.",
+            "it": "Costruiamo un pupazzo tondo e felice.",
+            "pt": "Fazemos um boneco de neve redondo e feliz.",
+            "sv": "Vi bygger en rund och glad snögubbe.",
+            "da": "Vi bygger en rund og glad snemand.",
+            "no": "Vi bygger en rund og blid snømann.",
+            "fi": "rakennamme pyöreän, iloisen lumiukon."
+          }
+        },
+        {
+          "art": {
+            "t": "glyph",
+            "key": "sun"
+          },
+          "cap": {
+            "en": "The warm sun comes out.",
+            "de": "Die warme Sonne kommt heraus.",
+            "nl": "De warme zon komt tevoorschijn.",
+            "fr": "Le soleil se montre et réchauffe tout.",
+            "es": "Sale el sol calientito.",
+            "it": "Il sole caldo torna a splendere.",
+            "pt": "O sol quentinho aparece.",
+            "sv": "Den varma solen kommer fram.",
+            "da": "Den varme sol titter frem.",
+            "no": "Den varme sola titter fram.",
+            "fi": "lämmin aurinko tulee esiin."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "weather",
+            "d": "weather",
+            "f": "puddle"
+          },
+          "cap": {
+            "en": "Our snowman turns into a puddle.",
+            "de": "Unser Schneemann wird zu einer Pfütze.",
+            "nl": "Onze sneeuwpop wordt een plasje water.",
+            "fr": "Notre bonhomme devient une flaque d’eau.",
+            "es": "Nuestro muñeco se vuelve un charco.",
+            "it": "Il pupazzo diventa una pozzanghera.",
+            "pt": "Nosso boneco vira uma poça de água.",
+            "sv": "Vår snögubbe blir en vattenpöl.",
+            "da": "Vores snemand bliver til en vandpyt.",
+            "no": "Snømannen vår blir til en sølepytt.",
+            "fi": "lumiukko sulaa lätäköksi."
+          }
+        }
+      ]
+    },
+    {
+      "id": "g1-planting",
+      "band": "G1",
+      "title": {
+        "en": "The Little Seed",
+        "de": "Das kleine Samenkorn",
+        "nl": "Het kleine zaadje",
+        "fr": "La petite graine",
+        "es": "La semillita",
+        "it": "Il semino",
+        "pt": "A sementinha",
+        "sv": "Det lilla fröet",
+        "da": "Det lille frø",
+        "no": "Det lille frøet",
+        "fi": "Pieni siemen"
+      },
+      "cards": [
+        {
+          "art": {
+            "t": "glyph",
+            "key": "seed"
+          },
+          "cap": {
+            "en": "We tuck a seed into the soil.",
+            "de": "Wir stecken ein Samenkorn in die Erde.",
+            "nl": "We stoppen een zaadje in de aarde.",
+            "fr": "On cache une graine dans la terre.",
+            "es": "Arropamos una semillita en la tierra.",
+            "it": "Mettiamo un semino nella terra.",
+            "pt": "Colocamos uma sementinha na terra.",
+            "sv": "Vi stoppar ett frö i jorden.",
+            "da": "Vi putter et frø ned i jorden.",
+            "no": "Vi legger et lite frø i jorda.",
+            "fi": "painamme siemenen multaan."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "spring",
+            "d": "spring",
+            "f": "watering_can"
+          },
+          "cap": {
+            "en": "We give it a little drink.",
+            "de": "Wir geben ihm einen kleinen Schluck Wasser.",
+            "nl": "We geven het een slokje water.",
+            "fr": "On lui donne un peu d’eau à boire.",
+            "es": "Le damos un traguito de agua.",
+            "it": "Un goccio d’acqua con l’annaffiatoio.",
+            "pt": "Damos um golinho de água para ela.",
+            "sv": "Vi ger det lite att dricka.",
+            "da": "Vi giver det en lille tår vand.",
+            "no": "Vi gir det litt vann å drikke.",
+            "fi": "annamme sille vähän vettä."
+          }
+        },
+        {
+          "art": {
+            "t": "glyph",
+            "key": "sprout"
+          },
+          "cap": {
+            "en": "A green sprout peeks out.",
+            "de": "Ein grünes Pflänzchen lugt aus der Erde.",
+            "nl": "Een groen sprietje piept uit de grond.",
+            "fr": "Une petite pousse verte pointe son nez.",
+            "es": "Un brotecito verde se asoma.",
+            "it": "Un germoglio verde fa capolino.",
+            "pt": "Um brotinho verde espia para fora.",
+            "sv": "En grön grodd tittar fram.",
+            "da": "En grøn spire titter op.",
+            "no": "En grønn spire titter opp.",
+            "fi": "vihreä verso kurkistaa mullasta."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "spring",
+            "d": "spring",
+            "f": "flower"
+          },
+          "cap": {
+            "en": "A flower opens to the sun!",
+            "de": "Eine Blume öffnet sich zur Sonne!",
+            "nl": "Een bloem gaat open in de zon!",
+            "fr": "Une fleur s’ouvre au soleil !",
+            "es": "¡Una flor se abre al sol!",
+            "it": "Un fiore si apre verso il sole!",
+            "pt": "Uma flor se abre para o sol!",
+            "sv": "En blomma öppnar sig mot solen!",
+            "da": "En blomst folder sig ud i solen!",
+            "no": "En blomst åpner seg mot sola!",
+            "fi": "kukka avautuu aurinkoa kohti!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "g1-birthday",
+      "band": "G1",
+      "title": {
+        "en": "The Birthday",
+        "de": "Der Geburtstag",
+        "nl": "De verjaardag",
+        "fr": "L’anniversaire",
+        "es": "El cumpleaños",
+        "it": "La festa di compleanno",
+        "pt": "O aniversário",
+        "sv": "Kalaset",
+        "da": "Fødselsdagen",
+        "no": "Bursdagen",
+        "fi": "Syntymäpäivät"
+      },
+      "cards": [
+        {
+          "art": {
+            "t": "img",
+            "theme": "toys",
+            "d": "toys",
+            "f": "balloon"
+          },
+          "cap": {
+            "en": "Balloons float up to the ceiling.",
+            "de": "Luftballons schweben bis zur Decke.",
+            "nl": "Ballonnen zweven naar het plafond.",
+            "fr": "Les ballons volent jusqu’au plafond.",
+            "es": "Los globos suben hasta el techo.",
+            "it": "I palloncini volano fino al soffitto.",
+            "pt": "As bexigas sobem até o teto.",
+            "sv": "Ballongerna svävar upp mot taket.",
+            "da": "Balloner svæver op under loftet.",
+            "no": "Ballongene svever opp mot taket.",
+            "fi": "ilmapallot leijuvat kattoon."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "christmas",
+            "d": "christmas",
+            "f": "candle"
+          },
+          "cap": {
+            "en": "The candles glow on the cake.",
+            "de": "Die Kerzen leuchten auf dem Kuchen.",
+            "nl": "De kaarsjes branden op de taart.",
+            "fr": "Les bougies brillent sur le gâteau.",
+            "es": "Las velitas brillan en el pastel.",
+            "it": "Le candeline brillano sulla torta.",
+            "pt": "As velinhas brilham no bolo.",
+            "sv": "Ljusen lyser på tårtan.",
+            "da": "Lysene brænder på lagkagen.",
+            "no": "Lysene gløder på kaka.",
+            "fi": "kynttilät palavat kakun päällä."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "bakery",
+            "d": "bakery",
+            "f": "cake"
+          },
+          "cap": {
+            "en": "We make a wish and blow!",
+            "de": "Wir wünschen uns etwas und pusten!",
+            "nl": "We doen een wens en blazen de kaarsjes uit!",
+            "fr": "On fait un vœu et on souffle !",
+            "es": "¡Pedimos un deseo y soplamos!",
+            "it": "Esprimo un desiderio e soffio forte!",
+            "pt": "Fazemos um pedido e assopramos!",
+            "sv": "Vi önskar något och blåser!",
+            "da": "Vi ønsker og puster alle lysene ud!",
+            "no": "Vi ønsker oss noe og blåser!",
+            "fi": "toivomme salaisen toiveen ja puhallamme!"
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "christmas",
+            "d": "christmas",
+            "f": "present"
+          },
+          "cap": {
+            "en": "Time to open the presents.",
+            "de": "Wir packen die Geschenke aus!",
+            "nl": "De cadeautjes mogen open!",
+            "fr": "C’est le moment d’ouvrir les cadeaux.",
+            "es": "Es hora de abrir los regalos.",
+            "it": "È il momento di aprire i regali.",
+            "pt": "Hora de abrir os presentes!",
+            "sv": "Dags att öppna paketen!",
+            "da": "Nu åbner vi gaverne!",
+            "no": "Nå åpner vi gavene!",
+            "fi": "nyt avataan lahjat!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "g1-school-day",
+      "band": "G1",
+      "title": {
+        "en": "Our School Day",
+        "de": "Unser Schultag",
+        "nl": "Onze schooldag",
+        "fr": "Notre journée d’école",
+        "es": "Nuestro día en la escuela",
+        "it": "La nostra giornata a scuola",
+        "pt": "Nosso dia na escola",
+        "sv": "Vår skoldag",
+        "da": "Vores skoledag",
+        "no": "Skoledagen vår",
+        "fi": "Meidän koulupäivämme"
+      },
+      "cards": [
+        {
+          "art": {
+            "t": "img",
+            "theme": "vehicles",
+            "d": "vehicles",
+            "f": "bus"
+          },
+          "cap": {
+            "en": "The bus brings us to school.",
+            "de": "Der Bus bringt uns zur Schule.",
+            "nl": "De bus brengt ons naar school.",
+            "fr": "Le bus nous emmène à l’école.",
+            "es": "El camión nos lleva a la escuela.",
+            "it": "Lo scuolabus ci porta a scuola.",
+            "pt": "O ônibus leva a gente para a escola.",
+            "sv": "Bussen tar oss till skolan.",
+            "da": "Bussen kører os i skole.",
+            "no": "Bussen kjører oss til skolen.",
+            "fi": "bussi vie meidät kouluun."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "classroom",
+            "d": "classroom",
+            "f": "book"
+          },
+          "cap": {
+            "en": "We read a story together.",
+            "de": "Wir lesen zusammen eine Geschichte.",
+            "nl": "We lezen samen een verhaal.",
+            "fr": "On lit une histoire tous ensemble.",
+            "es": "Leemos un cuento juntos.",
+            "it": "Leggiamo una storia tutti insieme.",
+            "pt": "Lemos uma história juntinhos.",
+            "sv": "Vi läser en saga tillsammans.",
+            "da": "Vi læser en historie sammen.",
+            "no": "Vi leser en fortelling sammen.",
+            "fi": "luemme tarinan yhdessä."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "classroom",
+            "d": "classroom",
+            "f": "lunchbox"
+          },
+          "cap": {
+            "en": "We open our lunchboxes, yum.",
+            "de": "Wir öffnen unsere Brotdosen, mmh!",
+            "nl": "We doen onze broodtrommels open, mmm.",
+            "fr": "On ouvre nos boîtes à goûter, miam !",
+            "es": "Abrimos las loncheras, ¡qué rico!",
+            "it": "Apriamo il cestino della merenda, gnam!",
+            "pt": "Abrimos as lancheiras, que delícia!",
+            "sv": "Vi öppnar våra matlådor, mums.",
+            "da": "Vi åbner vores madkasser, mums.",
+            "no": "Vi åpner matpakkene våre, nam nam.",
+            "fi": "avaamme eväsrasiat, nam nam."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "toys",
+            "d": "toys",
+            "f": "swing"
+          },
+          "cap": {
+            "en": "We play outside on the swings!",
+            "de": "Wir schaukeln draußen auf dem Schulhof!",
+            "nl": "We spelen buiten op de schommels!",
+            "fr": "On joue dehors sur les balançoires !",
+            "es": "¡Jugamos afuera en los columpios!",
+            "it": "Giochiamo fuori sulle altalene!",
+            "pt": "Brincamos no balanço lá fora!",
+            "sv": "Vi leker ute vid gungorna!",
+            "da": "Vi leger ude på gyngerne!",
+            "no": "Vi leker ute på huskene!",
+            "fi": "leikimme ulkona keinuissa!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "g2-butterfly",
+      "band": "G23",
+      "title": {
+        "en": "The Butterfly",
+        "de": "Der Schmetterling",
+        "nl": "De vlinder",
+        "fr": "Le papillon",
+        "es": "La mariposa",
+        "it": "La farfalla",
+        "pt": "A borboleta",
+        "sv": "Fjärilen",
+        "da": "Sommerfuglen",
+        "no": "Sommerfuglen",
+        "fi": "Perhonen"
+      },
+      "cards": [
+        {
+          "art": {
+            "t": "glyph",
+            "key": "butterflyEgg"
+          },
+          "cap": {
+            "en": "A tiny egg rests on a leaf.",
+            "de": "Ein winziges Ei liegt auf einem Blatt.",
+            "nl": "Een piepklein eitje ligt op een blaadje.",
+            "fr": "Un tout petit œuf dort sur une feuille.",
+            "es": "Un huevecillo descansa en una hoja.",
+            "it": "Un ovetto piccolino riposa su una foglia.",
+            "pt": "Um ovinho descansa na folha.",
+            "sv": "Ett litet ägg ligger på ett blad.",
+            "da": "Et lillebitte æg ligger på et blad.",
+            "no": "Et bitte lite egg ligger på et blad.",
+            "fi": "pikkuruinen muna lepää lehdellä."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "insects_and_bugs",
+            "d": "insects and bugs",
+            "f": "caterpillar"
+          },
+          "cap": {
+            "en": "A hungry caterpillar munches and munches.",
+            "de": "Eine hungrige Raupe mampft und mampft.",
+            "nl": "Een hongerige rups smikkelt en smikkelt.",
+            "fr": "Une chenille affamée grignote, grignote.",
+            "es": "Una oruga con hambre come y come, ñam ñam.",
+            "it": "Un bruco affamato mangia, mangia e mangia.",
+            "pt": "Uma lagarta comilona come, come e come.",
+            "sv": "En hungrig larv mumsar och mumsar.",
+            "da": "En sulten larve gnasker og gnasker.",
+            "no": "En sulten larve spiser og spiser.",
+            "fi": "nälkäinen toukka mutustaa ja mutustaa."
+          }
+        },
+        {
+          "art": {
+            "t": "glyph",
+            "key": "cocoon"
+          },
+          "cap": {
+            "en": "It rests inside a snug cocoon.",
+            "de": "Sie ruht in einem kuscheligen Kokon.",
+            "nl": "De rups rust stil in zijn knusse cocon.",
+            "fr": "Elle se repose dans son cocon douillet.",
+            "es": "Duerme dentro de su crisálida.",
+            "it": "Se ne sta al calduccio nel suo bozzolo.",
+            "pt": "Ela dorme dentro do casulo quentinho.",
+            "sv": "Den vilar i sin trygga puppa.",
+            "da": "Den hviler sig i en lun puppe.",
+            "no": "Larven hviler inni en lun puppe.",
+            "fi": "toukka lepää turvallisessa kotelossaan."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "insects_and_bugs",
+            "d": "insects and bugs",
+            "f": "butterfly"
+          },
+          "cap": {
+            "en": "A butterfly stretches its new wings!",
+            "de": "Ein Schmetterling entfaltet seine neuen Flügel!",
+            "nl": "Een vlinder strekt zijn nieuwe vleugels!",
+            "fr": "Un papillon déplie ses ailes toutes neuves !",
+            "es": "¡Una mariposa estira sus alas nuevas!",
+            "it": "Una farfalla apre le sue ali nuove!",
+            "pt": "Uma borboleta abre as asas novas!",
+            "sv": "En fjäril sträcker ut sina nya vingar!",
+            "da": "En sommerfugl folder sine nye vinger ud!",
+            "no": "En sommerfugl strekker ut de nye vingene sine!",
+            "fi": "perhonen levittää uudet siipensä!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "g2-seasons",
+      "band": "G23",
+      "title": {
+        "en": "The Turning Year",
+        "de": "Der Jahreskreis",
+        "nl": "Het jaar draait rond",
+        "fr": "La ronde des saisons",
+        "es": "Las estaciones del año",
+        "it": "Il girotondo delle stagioni",
+        "pt": "A roda das estações",
+        "sv": "Årstidshjulet",
+        "da": "Året rundt",
+        "no": "Året rundt",
+        "fi": "Vuoden kierto"
+      },
+      "cards": [
+        {
+          "art": {
+            "t": "img",
+            "theme": "spring",
+            "d": "spring",
+            "f": "flower"
+          },
+          "cap": {
+            "en": "In spring, flowers wake up everywhere.",
+            "de": "Im Frühling wachen überall die Blumen auf.",
+            "nl": "In de lente worden de bloemen wakker.",
+            "fr": "Au printemps, les fleurs se réveillent partout.",
+            "es": "En primavera, las flores despiertan por todos lados.",
+            "it": "In primavera i fiori si svegliano dappertutto.",
+            "pt": "Na primavera, as flores acordam por todo lado.",
+            "sv": "På våren vaknar blommorna överallt.",
+            "da": "Om foråret vågner blomsterne overalt.",
+            "no": "Om våren våkner blomstene overalt.",
+            "fi": "keväällä kukat heräävät kaikkialla."
+          }
+        },
+        {
+          "art": {
+            "t": "glyph",
+            "key": "sun"
+          },
+          "cap": {
+            "en": "In summer, the sun stays out late.",
+            "de": "Im Sommer bleibt die Sonne lange wach.",
+            "nl": "In de zomer blijft de zon lang op.",
+            "fr": "En été, le soleil se couche très tard.",
+            "es": "En verano, el sol se queda hasta tarde.",
+            "it": "In estate il sole resta fuori fino a tardi.",
+            "pt": "No verão, o sol demora para ir dormir.",
+            "sv": "På sommaren är solen uppe länge.",
+            "da": "Om sommeren er solen længe oppe.",
+            "no": "Om sommeren er sola oppe lenge.",
+            "fi": "kesällä aurinko valvoo myöhään."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "spring",
+            "d": "spring",
+            "f": "leaf"
+          },
+          "cap": {
+            "en": "In fall, the leaves float down.",
+            "de": "Im Herbst segeln die Blätter zu Boden.",
+            "nl": "In de herfst dwarrelen de blaadjes omlaag.",
+            "fr": "En automne, les feuilles tombent doucement.",
+            "es": "En otoño, las hojas bajan flotando.",
+            "it": "In autunno le foglie scendono piano piano.",
+            "pt": "No outono, as folhas caem dançando.",
+            "sv": "På hösten singlar löven ner.",
+            "da": "Om efteråret daler bladene ned.",
+            "no": "Om høsten daler bladene ned.",
+            "fi": "syksyllä lehdet leijailevat maahan."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "winter",
+            "d": "winter",
+            "f": "snowflake"
+          },
+          "cap": {
+            "en": "In winter, the snow tucks it all in.",
+            "de": "Im Winter deckt der Schnee alles warm zu.",
+            "nl": "In de winter stopt de sneeuw alles warm in.",
+            "fr": "En hiver, la neige recouvre tout d’un manteau blanc.",
+            "es": "En invierno, la nieve lo arropa todo.",
+            "it": "In inverno la neve copre tutto come una coperta.",
+            "pt": "No inverno, a neve cobre tudo como um cobertor.",
+            "sv": "På vintern bäddar snön in alltihop.",
+            "da": "Om vinteren lægger sneen sig som en dyne.",
+            "no": "Om vinteren brer snøen et teppe over alt.",
+            "fi": "talvella lumi peittelee kaiken nukkumaan."
+          }
+        }
+      ]
+    },
+    {
+      "id": "g2-turnip",
+      "band": "G23",
+      "title": {
+        "en": "The Enormous Turnip",
+        "de": "Die Riesenrübe",
+        "nl": "De reuzenraap",
+        "fr": "Le gros navet",
+        "es": "El rábano gigante",
+        "it": "La rapa gigante",
+        "pt": "O nabo gigante",
+        "sv": "Den jättestora rovan",
+        "da": "Den kæmpestore roe",
+        "no": "Den kjempestore nepa",
+        "fi": "Iso nauris"
+      },
+      "cards": [
+        {
+          "art": {
+            "t": "img",
+            "theme": "vegetables",
+            "d": "vegetables",
+            "f": "turnip"
+          },
+          "cap": {
+            "en": "The farmer plants one little turnip.",
+            "de": "Der Bauer pflanzt eine kleine Rübe.",
+            "nl": "De boer plant één klein raapje.",
+            "fr": "Le fermier plante un petit navet.",
+            "es": "El granjero siembra un rabanito.",
+            "it": "Il contadino pianta una piccola rapa.",
+            "pt": "O fazendeiro planta um nabinho.",
+            "sv": "Bonden sätter en liten rova.",
+            "da": "Bonden planter en lille roe.",
+            "no": "Bonden setter en bitte liten nepe.",
+            "fi": "maanviljelijä istuttaa pienen nauriin."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "occupations",
+            "d": "occupations",
+            "f": "farmer"
+          },
+          "cap": {
+            "en": "It grows HUGE — the farmer pulls and pulls.",
+            "de": "Sie wird riesengroß — der Bauer zieht und zieht.",
+            "nl": "De raap wordt reuzegroot — de boer trekt en trekt.",
+            "fr": "Le navet devient énorme, le fermier tire, tire !",
+            "es": "¡Crece enorme! El granjero jala y jala.",
+            "it": "La rapa diventa enorme: il contadino tira e tira.",
+            "pt": "O nabo fica enorme — o fazendeiro puxa, puxa.",
+            "sv": "Den växer sig JÄTTESTOR — bonden drar och drar.",
+            "da": "Den vokser sig KÆMPESTOR — bonden hiver og hiver.",
+            "no": "Den vokser seg KJEMPESTOR — bonden drar og drar.",
+            "fi": "nauris kasvaa jättisuureksi — viljelijä vetää ja vetää."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "pets",
+            "d": "pets",
+            "f": "dog"
+          },
+          "cap": {
+            "en": "The dog grabs on and pulls too.",
+            "de": "Der Hund packt mit an und zieht auch.",
+            "nl": "De hond pakt vast en trekt mee.",
+            "fr": "Le chien s’accroche et tire aussi.",
+            "es": "El perro se agarra y jala también.",
+            "it": "Il cane si aggrappa e tira anche lui.",
+            "pt": "O cachorro segura e puxa também.",
+            "sv": "Hunden hugger tag och drar med.",
+            "da": "Hunden tager fat og hiver med.",
+            "no": "Hunden tar tak og drar, den også.",
+            "fi": "koira tarttuu kiinni ja vetää myös."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "animals",
+            "d": "animals",
+            "f": "cat"
+          },
+          "cap": {
+            "en": "The cat joins in — still stuck!",
+            "de": "Die Katze hilft mit — die Rübe steckt noch fest!",
+            "nl": "De kat doet ook mee — de raap zit nog steeds vast!",
+            "fr": "Le chat tire aussi, et le navet ne bouge pas !",
+            "es": "El gato ayuda a jalar y… ¡no sale!",
+            "it": "Arriva il gatto e tira: la rapa resta lì!",
+            "pt": "O gato ajuda — e nada de sair!",
+            "sv": "Katten hjälper till — den sitter fast!",
+            "da": "Katten hjælper til — den sidder stadig fast!",
+            "no": "Katten blir med — nepa sitter fast!",
+            "fi": "kissa tulee avuksi — nauris ei hievahdakaan!"
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "pets",
+            "d": "pets",
+            "f": "mouse"
+          },
+          "cap": {
+            "en": "One tiny mouse pulls — POP! It is out!",
+            "de": "Eine winzige Maus zieht mit — plopp! Die Rübe ist raus!",
+            "nl": "Eén klein muisje trekt mee — floep, de raap is los!",
+            "fr": "Une petite souris tire et hop, le navet sort !",
+            "es": "Un ratoncito jala y ¡pum! ¡Ya salió!",
+            "it": "Un topolino piccino tira con tutti: POP! La rapa è fuori!",
+            "pt": "Um ratinho puxa e... plóc! O nabo saiu!",
+            "sv": "En pytteliten mus drar — plopp! Upp åker rovan!",
+            "da": "En lille mus hiver — POP! Så er roen oppe!",
+            "no": "Ei bitte lita mus drar til — plopp! Nepa er oppe!",
+            "fi": "pikkuinen hiiri vetää — poks! Nauris irtoaa!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "g2-mitten",
+      "band": "G23",
+      "title": {
+        "en": "The Mitten in the Snow",
+        "de": "Der Fäustling im Schnee",
+        "nl": "De want in de sneeuw",
+        "fr": "La moufle",
+        "es": "El guante en la nieve",
+        "it": "La muffola nella neve",
+        "pt": "A luva na neve",
+        "sv": "Vanten i snön",
+        "da": "Vanten i sneen",
+        "no": "Votten i snøen",
+        "fi": "Lapanen lumessa"
+      },
+      "cards": [
+        {
+          "art": {
+            "t": "glyph",
+            "key": "mitten"
+          },
+          "cap": {
+            "en": "A mitten drops in the deep snow.",
+            "de": "Ein Fäustling fällt in den tiefen Schnee.",
+            "nl": "Een want valt in de diepe sneeuw.",
+            "fr": "Une moufle tombe dans la neige épaisse.",
+            "es": "Un guante se cae en la nieve.",
+            "it": "Una muffola cade nella neve alta.",
+            "pt": "Uma luva cai na neve fofa.",
+            "sv": "En vante trillar ner i den djupa snön.",
+            "da": "En vante falder i den dybe sne.",
+            "no": "En vott faller ned i den dype snøen.",
+            "fi": "lapanen putoaa syvään lumeen."
+          }
+        },
+        {
+          "art": {
+            "t": "glyph",
+            "key": "mouse"
+          },
+          "cap": {
+            "en": "A cold little mouse creeps inside.",
+            "de": "Eine kalte kleine Maus krabbelt hinein.",
+            "nl": "Een koud muisje kruipt erin.",
+            "fr": "Une petite souris frigorifiée se glisse dedans.",
+            "es": "Un ratoncito con frío entra despacito.",
+            "it": "Un topolino infreddolito si infila dentro.",
+            "pt": "Um ratinho com frio entra devagarinho.",
+            "sv": "En liten frusen mus smyger in.",
+            "da": "En lille kold mus kryber ind i den.",
+            "no": "Ei kald, lita mus kryper inn.",
+            "fi": "paleleva pikkuhiiri pujahtaa sisään."
+          }
+        },
+        {
+          "art": {
+            "t": "glyph",
+            "key": "bunny"
+          },
+          "cap": {
+            "en": "A bunny squeezes in too.",
+            "de": "Ein Hase quetscht sich auch noch dazu.",
+            "nl": "Een konijntje wurmt zich er ook in.",
+            "fr": "Un petit lapin se faufile dedans aussi.",
+            "es": "Un conejito se hace un lugarcito.",
+            "it": "Anche un coniglietto trova un posticino.",
+            "pt": "Um coelhinho se espreme lá dentro.",
+            "sv": "En kanin klämmer sig in också.",
+            "da": "En kanin maser sig også ind.",
+            "no": "En kanin presser seg inn, den også.",
+            "fi": "pupukin ahtautuu sisään."
+          }
+        },
+        {
+          "art": {
+            "t": "glyph",
+            "key": "bird"
+          },
+          "cap": {
+            "en": "A bird snuggles in on top.",
+            "de": "Ein Vogel kuschelt sich obendrauf.",
+            "nl": "Een vogeltje kruipt er knus bovenin.",
+            "fr": "Un oiseau se blottit tout en haut.",
+            "es": "Un pajarito se acurruca encima.",
+            "it": "Un uccellino si rannicchia in cima.",
+            "pt": "Um passarinho se aconchega em cima.",
+            "sv": "En fågel kurar ihop sig högst upp.",
+            "da": "En fugl putter sig øverst oppe.",
+            "no": "En liten fugl lister seg inn på toppen.",
+            "fi": "lintu käpertyy päällimmäiseksi."
+          }
+        },
+        {
+          "art": {
+            "t": "glyph",
+            "key": "friend"
+          },
+          "cap": {
+            "en": "The child finds it — full of friends!",
+            "de": "Das Kind findet ihn — voller Freunde!",
+            "nl": "Het kind vindt de want — helemaal vol vriendjes!",
+            "fr": "L’enfant retrouve sa moufle, pleine d’amis !",
+            "es": "¡Un niño lo encuentra, lleno de amigos!",
+            "it": "Il bambino ritrova la muffola: è piena di amici!",
+            "pt": "A criança acha a luva — cheia de amigos!",
+            "sv": "Barnet hittar vanten — full av vänner!",
+            "da": "Barnet finder vanten — fuld af venner!",
+            "no": "Barnet finner votten — full av venner!",
+            "fi": "lapsi löytää lapasen — täynnä ystäviä!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "g2-pumpkin",
+      "band": "G23",
+      "title": {
+        "en": "The Pumpkin Patch",
+        "de": "Das Kürbisbeet",
+        "nl": "De pompoentuin",
+        "fr": "La citrouille du jardin",
+        "es": "El huerto de calabazas",
+        "it": "L’orto delle zucche",
+        "pt": "A horta de abóboras",
+        "sv": "Pumpalandet",
+        "da": "Græskarhaven",
+        "no": "Gresskaråkeren",
+        "fi": "Kurpitsamaa"
+      },
+      "cards": [
+        {
+          "art": {
+            "t": "glyph",
+            "key": "seed"
+          },
+          "cap": {
+            "en": "We plant a pumpkin seed in the garden.",
+            "de": "Ein Kürbiskern kommt ins Gartenbeet.",
+            "nl": "We planten een pompoenpit in de tuin.",
+            "fr": "On plante une graine de citrouille au jardin.",
+            "es": "Sembramos una semilla en el huerto.",
+            "it": "Piantiamo un seme di zucca nell’orto.",
+            "pt": "Plantamos uma semente de abóbora na horta.",
+            "sv": "Vi sätter ett pumpafrö i trädgården.",
+            "da": "Vi planter et græskarfrø i haven.",
+            "no": "Vi legger et gresskarfrø i hagen.",
+            "fi": "kylvämme kurpitsansiemenen maahan."
+          }
+        },
+        {
+          "art": {
+            "t": "glyph",
+            "key": "sprout"
+          },
+          "cap": {
+            "en": "A curly sprout climbs out.",
+            "de": "Ein grüner Trieb ringelt sich aus der Erde.",
+            "nl": "Een krullend sprietje klimt omhoog.",
+            "fr": "Une pousse toute frisée sort de terre.",
+            "es": "Un brotecito rizado trepa y trepa.",
+            "it": "Un germoglio riccioluto esce dalla terra.",
+            "pt": "Um brotinho enrolado sobe da terra.",
+            "sv": "En slingrig grodd klättrar upp.",
+            "da": "En snoet spire kravler op.",
+            "no": "En krøllete spire kryper opp av jorda.",
+            "fi": "kiemurainen verso kipuaa mullasta."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "spring",
+            "d": "spring",
+            "f": "flower"
+          },
+          "cap": {
+            "en": "A yellow flower opens on the vine.",
+            "de": "Eine gelbe Blüte öffnet sich an der Ranke.",
+            "nl": "Een gele bloem gaat open aan de rank.",
+            "fr": "Une fleur jaune s’ouvre sur la tige.",
+            "es": "Una flor amarilla se abre en la guía.",
+            "it": "Un fiore giallo sboccia sulla pianta.",
+            "pt": "Uma flor amarela se abre no pé.",
+            "sv": "En gul blomma slår ut på rankan.",
+            "da": "En gul blomst åbner sig på ranken.",
+            "no": "En gul blomst åpner seg på ranken.",
+            "fi": "köynnökseen puhkeaa keltainen kukka."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "vegetables",
+            "d": "vegetables",
+            "f": "pumpkin"
+          },
+          "cap": {
+            "en": "The pumpkin grows big and orange.",
+            "de": "Der Kürbis wird groß, rund und orange.",
+            "nl": "De pompoen groeit groot en oranje.",
+            "fr": "La citrouille devient grosse et bien orange.",
+            "es": "La calabaza crece grande y anaranjada.",
+            "it": "La zucca diventa grande e arancione.",
+            "pt": "A abóbora cresce grande e laranja.",
+            "sv": "Pumpan växer sig stor och orange.",
+            "da": "Græskarret vokser sig stort og orange.",
+            "no": "Gresskaret vokser seg stort og oransje.",
+            "fi": "kurpitsa kasvaa isoksi ja oranssiksi."
+          }
+        },
+        {
+          "art": {
+            "t": "img",
+            "theme": "bakery",
+            "d": "bakery",
+            "f": "pie"
+          },
+          "cap": {
+            "en": "We bake a warm pumpkin pie to share!",
+            "de": "Wir backen einen warmen Kürbiskuchen für alle!",
+            "nl": "We bakken een warme pompoentaart om te delen!",
+            "fr": "On cuisine une tarte à la citrouille à partager !",
+            "es": "¡Horneamos un pay de calabaza para compartir!",
+            "it": "Prepariamo una torta di zucca tutti insieme!",
+            "pt": "Assamos uma torta de abóbora para repartir!",
+            "sv": "Vi bakar en varm pumpapaj att dela!",
+            "da": "Vi bager en varm græskartærte og deler den!",
+            "no": "Vi baker en varm gresskarpai og deler den!",
+            "fi": "leivomme lämpimän kurpitsapiirakan yhdessä!"
+          }
+        }
+      ]
+    }
+  ]
+}

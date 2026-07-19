@@ -434,6 +434,32 @@
       "Avec Premium, faites construire une grille par les enfants eux-mêmes : trouver quatre images dont chacune peut être l’intrus est un vrai casse-tête de logique — pour eux comme pour vous."
     ]
   },
+  "story-line": {
+    "slug": "images-sequentielles",
+    "name": "La corde à histoires",
+    "tagline": "Des images séquentielles à accrocher sur une corde : chaque pince raconte la suite de l’histoire",
+    "metaTitle": "Images séquentielles interactives – La corde à histoires",
+    "metaDescription": "Une corde au vidéoprojecteur : l’enfant accroche les images séquentielles dans l’ordre et chaque pince raconte la suite à voix haute. De la maternelle au CE1.",
+    "about": [
+      "Les images séquentielles sont un rituel de la maternelle : des cartes à remettre dans l’ordre pour raconter une histoire du début à la fin. Ici, elles quittent la table pour une corde à linge projetée au tableau. L’enfant prend une carte dans le panier, l’accroche avec sa pince — et la pince parle : « D’abord, la pluie tombe, plic ploc. » Les vrais connecteurs de la classe — d’abord, puis, ensuite, après, à la fin — s’attachent aux places sur la corde, et « Écouter mon histoire » promène une lumière chaude de carte en carte pour raconter toute l’histoire. Quinze histoires de trois à cinq cartes, du quotidien de la maternelle aux cycles de vie et aux contes en randonnée du CE1 — dont « Le gros navet » et « La moufle ».",
+      "La voix qui raconte ne juge jamais. Les connecteurs appartiennent aux places, pas aux cartes : si l’histoire est accrochée dans le désordre, elle se raconte quand même — et les oreilles entendent tout de suite que quelque chose cloche. On rit, on déplace une carte, on réécoute : c’est l’enfant qui se corrige, jamais la machine. Pas de croix rouge, pas de score, pas de minuteur, pas de confettis. Même « La version du livre » ne touche pas à la corde de l’enfant : elle repasse simplement l’histoire comme le livre la raconte, sans rien déplacer.",
+      "Le mode « à toi de raconter » (Premium) va au bout du geste : la voix se tait, chaque pince ne fait plus qu’une petite note douce, et c’est l’enfant qui raconte — avec ses mots à lui. Et c’est voulu : ce mode n’enregistre rien. Pas d’audio, pas de transcription, pas de notes — l’outil se tait pour que la parole reste à l’enfant et l’écoute à l’enseignant. Deux histoires complètes — « Pluie et arc-en-ciel » et « Le jour du gâteau » — restent gratuites pour toujours, avec tout le rituel ; Premium ouvre les quinze histoires et le mode « à toi de raconter »."
+    ],
+    "howToUse": [
+      "Projetez la corde au TBI et ouvrez la collection : choisissez une histoire — les cartes attendent dans le panier, mélangées.",
+      "Un enfant touche une carte du panier pour l’écouter, puis l’accroche sur la corde : la pince raconte aussitôt — « D’abord, … », « Puis, … ».",
+      "Quand la corde est pleine, appuyez sur « Écouter mon histoire » : la lumière passe de pince en pince et raconte l’histoire en entier.",
+      "Si l’histoire sonne bizarre, on rit, on déplace les cartes et on réécoute — la corde raconte toujours ce qu’on lui donne, dans l’ordre où on le donne.",
+      "En Premium, faites taire la voix qui raconte : chaque pince ne fait plus qu’une petite note, et l’enfant raconte l’histoire lui-même pendant que la classe écoute."
+    ],
+    "classroomIdeas": [
+      "En rituel de langage oral en maternelle, petit groupe devant le tableau : chacun vient accrocher une carte et redit la phrase de la pince avec le connecteur. Au fil des semaines, d’abord, puis et à la fin passent dans les récits spontanés des enfants — c’est exactement l’attendu de fin de GS : raconter en enchaînant les étapes.",
+      "Au CP-CE1, la corde devient un lanceur de production d’écrit : on accroche l’histoire ensemble, on l’écoute, puis chacun l’écrit sur son cahier en gardant les connecteurs comme débuts de phrases. Les cartes restent affichées : l’enfant qui bloque relève les yeux et retrouve la suite.",
+      "Pour un élève allophone, la corde raconte sans faire lire : l’image porte le sens, la voix donne la phrase entière. L’élève accroche, écoute, répète — et en réécoutant l’histoire complète, il entend plusieurs fois les mêmes structures. Commencez par « Mon matin » ou « Notre journée d’école », au plus près de son quotidien.",
+      "Le mode « à toi de raconter » fait une observation de langage sans aucun stress : l’enfant raconte sur sa corde, vous écoutez avec votre grille — et comme rien n’est enregistré, la parole reste libre. Idéal pour suivre les progrès en rappel de récit sur l’année.",
+      "Après l’écran, la vraie corde : tendez une ficelle dans la classe, les enfants dessinent leurs propres cartes — une histoire vécue, une sortie, une expérience de sciences — et les accrochent avec de vraies pinces à linge. La corde à histoires devient l’affichage de la classe."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

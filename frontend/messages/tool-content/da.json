@@ -434,6 +434,32 @@
       "Lad børnene bygge (Premium): to og to sammensætter de deres eget sæt af fire billeder og prøver det af på klassen — det sværeste og sjoveste er at sørge for, at hvert hjørne har sin egen grund."
     ]
   },
+  "story-line": {
+    "slug": "historiesnor",
+    "name": "Historiesnoren",
+    "tagline": "Hæng historiekort op i rækkefølge og fortæl historien",
+    "metaTitle": "Gratis historiesnor – billedrækkefølge | LessonCraftStudio",
+    "metaDescription": "En gratis historiesnor til klassen. Børnene hænger billedkort op i rækkefølge, og hver klemme fortæller den næste del af historien — uden login, på alle enheder.",
+    "about": [
+      "Historiesnoren er en tørresnor fuld af fortælling: børnene trækker billedkort op af bakken og hænger dem på snoren med klemmer, og hver gang et kort bliver hængt op, fortæller fortællerstemmen den del af historien — med de ægte danske rækkefølgeord: Først, Så, Derefter, Bagefter og Til sidst. Med \"Afspil min historie\" vandrer et varmt lys hen ad snoren og læser hele fortællingen højt.",
+      "Snoren afspiller altid børnenes egen rækkefølge — der er ingen røde krydser og ingen dom. Hænger kortene i en pudsig rækkefølge, kan børnene selv høre, at historien lyder skæv, grine ad den og flytte kortene, til den lyder, som de vil have den. \"Bogens version\" lader dem bagefter høre, hvordan bogen fortæller den, hen over deres egen snor — uden at flytte et eneste kort.",
+      "I fortæl selv-tilstanden tier fortællerstemmen, og barnet genfortæller selv historien med snoren som støtte. Værktøjet optager ingenting — ingen lyd, ingen udskrift, ingen noter; læreren lytter, og det er det hele. Historiesnoren kører direkte i browseren på tablets, telefoner og klassens computere, uden installation og uden konto. Der er intet stopur og ingen point — bare et roligt rum til at fortælle."
+    ],
+    "howToUse": [
+      "Vis Historiesnoren på den interaktive tavle og vælg en historie fra historiesamlingen — hvert sæt har tre til fem billedkort.",
+      "Lad et barn trække et kort op af bakken og hænge det på snoren — klemmen fortæller straks den del af historien med sit rækkefølgeord.",
+      "Tryk på \"Afspil min historie\", og lyt sammen, mens lyset vandrer fra kort til kort og læser hele fortællingen højt.",
+      "Tal om det, I hører: lyder historien, som børnene vil have den? De kan flytte kortene og lytte igen, så tit de vil.",
+      "Slå fortællerstemmen fra i fortæl selv-tilstanden, og lad barnet fortælle hele historien med sine egne ord — snoren viser vejen, og læreren lytter."
+    ],
+    "classroomIdeas": [
+      "Morgensamling: hæng dagens program op som en lille historie — Først har vi samling, Så skal vi ud, Til sidst læser vi — og lad børnene fortælle dagen igennem i kor.",
+      "Genfortælling efter højtlæsning: børnene hænger historien op, som de husker den, og hører bagefter bogens version hen over deres egen snor.",
+      "Makkerpar: det ene barn hænger kortene op, det andet genfortæller historien med fortællerstemmen slået fra — så bytter de.",
+      "Sprogleg: sig rækkefølgeordene i kor, hver gang en klemme taler — Først, Så, Derefter, Bagefter, Til sidst — til de sidder helt fast.",
+      "Digtehjørne: lad børnene med vilje hænge kortene helt anderledes op og fortælle den nye, skøre historie, der kommer ud af det."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

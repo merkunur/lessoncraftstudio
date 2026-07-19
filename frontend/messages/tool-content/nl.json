@@ -434,6 +434,32 @@
       "Thema-afsluiting: bouw met Premium een eigen denkkaart met vier plaatjes uit jullie thema en laat de klas ontdekken welke vier redenen erin verstopt zitten."
     ]
   },
+  "story-line": {
+    "slug": "verhaalvolgorde",
+    "name": "De verhalenwaslijn",
+    "tagline": "Hang verhaalkaarten aan de waslijn en hoor het verhaal groeien — eerst, dan, daarna, tot slot.",
+    "metaTitle": "De verhalenwaslijn — verhaalvolgorde oefenen op het digibord",
+    "metaDescription": "Gratis verhalenwaslijn voor het digibord: kinderen hangen verhaalkaarten op volgorde en de vertelstem vertelt mee — eerst, dan, daarna, tot slot. Zonder account, geen scores.",
+    "about": [
+      "Een waslijn op het digibord, een bakje met verhaalkaarten en een rij houten knijpers: dat is de verhalenwaslijn. Een kind sleept een kaart naar de lijn, de knijper klikt vast en de vertelstem vertelt meteen dat stukje van het verhaal — met de echte volgordewoorden uit de kring: eerst, dan, daarna, vervolgens, tot slot. Hangt de hele lijn vol, dan tik je op 'Speel mijn verhaal af' en glijdt er een warm licht langs de kaarten terwijl het hele verhaal wordt voorgelezen. Zo wordt verhaalvolgorde iets wat je hoort en doet, niet iets wat je invult.",
+      "Het geheim zit in wat de verhalenwaslijn níét doet. Er is geen rood kruisje en de vertelstem spreekt geen oordeel uit: elke volgorde die een kind ophangt, wordt gewoon verteld. Hangt de taart vóór het roeren? Dan hoort de hele klas dat het verhaal gek gaat lopen — en precies dat botsen is het leermoment: kinderen horen zélf waar ze willen schuiven, verhangen een kaart en luisteren opnieuw. Wie wil vergelijken, tikt daarna op 'Zoals het boek het vertelt': de vertelstem loopt dan in de boekvolgorde langs de lijn, zonder ook maar één kaart van het kind te verplaatsen. Regen en regenboog en De bakdag zijn altijd gratis, compleet met het hele ritueel.",
+      "Met Premium open je de hele verhalenverzameling: vijftien verhalen en kringlopen in drie leeftijdsbanden (4–6, 6–7 en 7–9 jaar), van Tijd voor bed tot De reuzenraap en de vlindercyclus. En je krijgt de navertelstand: de vertelstem wordt stil, bij elke knijper klinkt alleen een zacht belletje en het kind vertelt het verhaal helemaal zelf — dé vertelbeurt uit de kring, maar dan aan de waslijn. Daarbij wordt bewust helemaal niets opgenomen: geen geluid, geen tekst, geen notities. De juf of meester luistert, en dat is precies de bedoeling. Alles werkt direct in de browser op digibord, tablet en computer, zonder installatie en zonder account."
+    ],
+    "howToUse": [
+      "Open de verhalenwaslijn op het digibord en kies een verhaal uit de verzameling — voor de kring van groep 1-2 begin je met een verhaal van drie kaarten.",
+      "Laat een kind een kaart uit het bakje naar de waslijn slepen. De knijper klikt vast en de vertelstem vertelt meteen: 'Eerst, …'.",
+      "Hang samen alle kaarten op. Tik op een hangende kaart om dat stukje van het verhaal nog een keer te horen.",
+      "Tik op 'Speel mijn verhaal af' en luister met de hele klas hoe het verhaal van begin tot eind wordt verteld — wil de klas iets verhangen, dan luisteren jullie daarna gewoon opnieuw.",
+      "Tik op 'Zoals het boek het vertelt' om de boekversie te horen: de vertelstem volgt dan de volgorde van het boek, terwijl alle kaarten precies blijven hangen waar het kind ze hing."
+    ],
+    "classroomIdeas": [
+      "Kringgesprek in groep 1-2: lees eerst het prentenboek of vertel het verhaal, en laat de klas daarna samen de kaarten aan de waslijn hangen — één kind hangt, de rest zegt de volgordewoorden hardop mee.",
+      "Vertelbeurt met de navertelstand: zet de vertelstem stil en laat één kind het hele verhaal aan de klas vertellen terwijl het langs de lijn wijst — er wordt niets opgenomen, dus ook het voorzichtige kind durft.",
+      "Door-elkaar-dag: hang de kaarten expres door elkaar en speel het verhaal af — de klas hoort meteen dat het verhaal raar gaat lopen, en het gesprek over wat er moet schuiven begint vanzelf.",
+      "Taalronde volgordewoorden: spreek af dat de klas bij elke knijper het volgordewoord meezegt — eerst, dan, daarna, vervolgens, tot slot — en gebruik precies dezelfde woorden later bij het stellen in groep 3 en 4.",
+      "NT2 en woordenschat: zet 'Woorden op de kaarten tonen' aan en laat het kind eerst op de kaarten in het bakje tikken om elke zin te horen — zo bouwt het de verteltaal op voordat het zelf navertelt."
+    ]
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

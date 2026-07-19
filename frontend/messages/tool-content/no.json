@@ -434,6 +434,32 @@
       "Lag klassens eget rutenett (Premium): velg fire bilder sammen og la barna finne én grunn til hvert hjørne — å lage et godt rutenett er den fineste tenkeøvelsen av alle."
     ]
   },
+  "story-line": {
+    "slug": "fortellingssnora",
+    "name": "Fortellingssnora",
+    "tagline": "Heng fortellingen på klessnora — hver klype forteller neste del med ekte tidsord.",
+    "metaTitle": "Fortellingssnora – sekvensbilder og gjenfortelling på storskjerm",
+    "metaDescription": "Digitale sekvensbilder på ei klessnor: barnet henger opp fortellingskortene, og hver klype forteller neste del med tidsordene Først, Så og Til slutt. Uten innlogging.",
+    "about": [
+      "Fortellingssnora er sekvensbildene fra samlingsstunden, spent opp som ei klessnor på klasseromsskjermen. Barnet drar illustrerte fortellingskort fra brettet og henger dem opp med klyper, og hver klype forteller sin del høyt: «Først, sola klatrer opp og vekker meg. Så, jeg pusser tennene …» Tidsordene — Først, Så, Deretter, Etterpå, Til slutt — er de samme ordene klassen bruker når de forteller selv, og til slutt trykker barnet på «Spill av fortellingen min» og hører hele fortellingen sin fra ende til annen, med et varmt lys som vandrer langs snora.",
+      "Tidsordene henger fast på plassene på snora, ikke på kortene. Henger barnet kortene i en annen rekkefølge enn boka, blir også den fortellingen spilt av — med full respekt og samme varme stemme. Når «Til slutt» plutselig forteller om den lille spiren, hører barnet det selv, ler og flytter kortet. Det er hele tilbakemeldingen: ingen røde kryss, ingen stjerner, ingen stemme som dømmer. Etter en hel avspilling kan klassen høre «Bokas versjon» — den legger seg som et lysspor over barnets egen snor og flytter aldri et eneste kort. Slik øver barna akkurat det læreplanen i norsk løfter fram på 1.–2. trinn: å fortelle med sammenheng, muntlig, med begynnelse, midte og slutt.",
+      "I gjenfortellingsmodus (Premium) blir fortellerstemmen stille: barnet henger opp kortene og forteller hele fortellingen med sin egen stemme, mens læreren lytter. Ingenting blir tatt opp, lagret eller sendt — ikke lyd, ikke notater, ingenting. Snora er øyeblikkets rituale, helt og holdent. Regn og regnbue og Bakedagen er alltid gratis med hele ritualet; Premium åpner alle femten fortellingene og kretsløpene, fra Leggetid til Den kjempestore nepa."
+    ],
+    "howToUse": [
+      "Vis Fortellingssnora på storskjerm eller projektor, og velg en fortelling i Fortellingssamlingen — kortene ligger klare i brettet nederst.",
+      "La et barn dra et kort opp på snora. Klypa fester det, og fortellerstemmen forteller den delen med tidsordet som hører til plassen.",
+      "Trykk på et opphengt kort for å høre delen en gang til, eller dra det til en annen plass — snora forteller alltid det barnet har hengt opp.",
+      "Trykk på «Spill av fortellingen min» og hør hele fortellingen fra ende til annen. Slå på «Trykk for å føre fortellingen videre» hvis klassen vil styre tempoet selv.",
+      "Etter en hel avspilling kan dere høre «Bokas versjon» — og i gjenfortellingsmodus (Premium) blir fortellerstemmen stille, slik at barnet forteller selv."
+    ],
+    "classroomIdeas": [
+      "Samlingsstund: les en billedbok om det samme — snømannen, det lille frøet, sommerfuglen — og la barna henge opp fortellingen etterpå. Å fortelle igjen med egne ord er kjernen i begynneropplæringen.",
+      "Tidsord på tavla: skriv Først, Så, Deretter, Etterpå og Til slutt på tavla mens snora forteller, og la barna bruke de samme ordene når de forteller om helgen sin.",
+      "Særskilt norskopplæring og nyankomne elever: bildene bærer fortellingen, og stemmen gir de norske setningene så mange ganger barnet vil. La eleven jobbe med ett sett på nettbrett i sitt eget tempo.",
+      "Fra snor til skrivebok på 2. trinn: heng opp, spill av, og la barna skrive fortellingen etterpå med tidsordene som setningsstartere — snora har allerede gitt dem hele strukturen.",
+      "Tullefortelling med vilje: la barna henge kortene i en snurrig rekkefølge og høre hvordan det låter. Latteren er gull — og samtalen om hvorfor det blir rart, er ren fortellerlære."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

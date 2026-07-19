@@ -434,6 +434,32 @@
       "Aprovecha las tarjetas de imágenes con tus aprendices de español: los nombres bajo las imágenes y las frases leídas en voz alta convierten la rutina en una charla de vocabulario."
     ]
   },
+  "story-line": {
+    "slug": "secuencias-temporales",
+    "name": "El tendedero de cuentos",
+    "tagline": "Un tendedero para ordenar cuentos: cada pinza narra la parte que sigue",
+    "metaTitle": "Secuencias temporales con cuentos narrados | LessonCraftStudio",
+    "metaDescription": "El tendedero de cuentos: el niño cuelga tarjetas ilustradas en orden y cada pinza narra la parte que sigue, con las palabras de secuencia de preescolar. Sin registro.",
+    "about": [
+      "Un tendedero cruza el pizarrón; abajo, una bandeja de tarjetas ilustradas espera. El niño toma una tarjeta, la cuelga con su pinza y el tendedero narra en voz alta la parte que sigue: «Primero, la lluvia cae, plic plic». Cuando la línea está llena, «Escuchar mi cuento» pasea una luz calientita por las tarjetas y lee el cuento completo, de la primera pinza a la última — y colorín colorado. Quince cuentos y ciclos para elegir: la mañana, la siembra, la mariposa, el rábano gigante y más.",
+      "Las palabras de secuencia —primero, luego, después, entonces, al final— viven en las pinzas, no en las tarjetas. Por eso un cuento revuelto también se narra: si el pastel se hornea antes de batir, el oído lo nota, el grupo se ríe y las manos acomodan las tarjetas de nuevo. Nadie marca nada y no aparece ninguna tacha: el cuento mismo es quien avisa. Y «Como lo cuenta el libro» repasa la versión del libro como una luz que visita las tarjetas justo donde el niño las dejó — sin mover ni una sola.",
+      "Con Premium se abre toda la colección y el modo «ahora lo cuentas tú»: la voz que narra se calla, cada pinza suena con una notita suave y es el niño quien cuenta el cuento con sus propias palabras — la narración oral de preescolar y primaria en su forma más pura. Este modo no graba nada: ni audio, ni texto, ni notas; la maestra escucha y eso es todo. Funciona en el navegador —pizarra digital, tableta o computadora— sin instalar nada y sin crear cuentas; «Lluvia y arcoíris» y «Día de hornear» son gratis para siempre."
+    ],
+    "howToUse": [
+      "Proyecta el tendedero y elige un cuento en la colección: tres tarjetas para los más pequeños, cuatro o cinco para primero y segundo.",
+      "Deja que un niño arrastre una tarjeta de la bandeja y la cuelgue en una pinza: el tendedero narra esa parte con su palabra de secuencia.",
+      "Toca una tarjeta colgada para escucharla otra vez, o arrástrala a otra pinza — la narración cambia con el lugar donde vive.",
+      "Cuando haya al menos dos tarjetas colgadas, toca «Escuchar mi cuento» para oír la línea completa, de corrido o avanzando con un toque.",
+      "Después de escucharlo completo, aparece «Como lo cuenta el libro»: una luz repasa la versión del libro sobre la línea del niño, sin mover sus tarjetas."
+    ],
+    "classroomIdeas": [
+      "Cuento del día en la alfombra: proyecta un cuento de tres tarjetas, reparte las tarjetas entre tres voluntarios y que cada quien cuelgue la suya donde crea que va. Escuchen la línea completa y platiquen: ¿así empieza?, ¿así termina?",
+      "El cuento al revés: cuelga tú las tarjetas volteando el orden a propósito y escúchenlo así. Las risas llegan solas — y con ellas la pregunta de oro: ¿qué tarjeta movemos para que el cuento se entienda?",
+      "El sillón del narrador (Premium): apaga la voz que narra y que un niño cuente el cuento pinza por pinza, con sus propias palabras. No se graba nada — es narración oral de a de veras, y el público es el grupo.",
+      "Cosecha de palabras: después de escuchar un cuento, escriban juntos en el pizarrón las palabras que dijo el tendedero —primero, luego, después, entonces, al final— y úsenlas para contar algo del salón: cómo sembraron el frijol, cómo se lavan las manos.",
+      "De la ciencia al cuento: «La mariposa», «La semillita» y «Las estaciones del año» acompañan la unidad de seres vivos — primero se observa en clase, luego se cuelga en el tendedero y al final se narra de memoria."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

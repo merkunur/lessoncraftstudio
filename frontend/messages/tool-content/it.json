@@ -434,6 +434,32 @@
       "Costruttori di quartetti: con il costruttore, ogni gruppo prepara il suo quartetto dalle 1.495 immagini, controllando che ogni angolo abbia il suo motivo. Poi lo prova sul resto della classe: se tutti e quattro gli angoli vengono difesi, il quartetto è da salvare."
     ]
   },
+  "story-line": {
+    "slug": "riordina-la-storia",
+    "name": "Il filo delle storie",
+    "tagline": "Ogni molletta racconta un pezzetto di storia: prima, poi, alla fine.",
+    "metaTitle": "Il filo delle storie — riordina le sequenze narrative sulla LIM",
+    "metaDescription": "Un filo da bucato sulla LIM: i bambini appendono le carte e ogni molletta racconta la storia con le paroline del tempo — prima, poi, alla fine. Niente punteggi, niente timer.",
+    "about": [
+      "Il filo delle storie è un filo da bucato da proiettare sulla LIM: le carte illustrate di una storia aspettano nel cestino, tutte in disordine, e i bambini le appendono con le mollette, una alla volta. Ogni molletta parla: la voce narrante racconta quella carta con le paroline del tempo che usiamo in classe — «Prima», «Poi», «Dopo», «Alla fine» — e con «Ascolta la mia storia» una luce calda scorre lungo il filo e legge tutta la storia, dalla prima molletta all’ultima.",
+      "Le paroline del tempo sono attaccate ai posti sul filo, non alle carte: se la storia è appesa in un ordine tutto suo, la voce la racconta lo stesso, con la stessa calma di sempre. È lì che i bambini scoppiano a ridere — «Alla fine, il contadino pianta una piccola rapa?!» — ed è proprio quella risata a far venire voglia di spostare le carte. Il riordino delle sequenze narrative si impara così, con le orecchie: niente croci rosse, niente punteggi, niente timer.",
+      "Con Premium si apre tutta la raccolta — quindici storie e cicli naturali, dalla rapa gigante alla farfalla — e la modalità racconto: la voce narrante tace e tocca al bambino raccontare la storia appesa, con le sue parole. In questa modalità non viene registrato, salvato o trascritto proprio niente: l’insegnante ascolta, e basta. «Pioggia e arcobaleno» e «Il giorno della torta» restano gratuiti per sempre, con tutto il rituale completo."
+    ],
+    "howToUse": [
+      "Proietta il filo sulla LIM, apri la raccolta di storie e scegli quella di oggi: le carte arrivano nel cestino già mescolate, pronte da appendere.",
+      "Chiama un bambino alla lavagna: trascina una carta sul filo e la molletta la racconta subito — «Prima, il contadino pianta una piccola rapa». A parlare è il posto sul filo, non la carta.",
+      "Lasciate sistemare il filo con calma: le carte si spostano, tornano nel cestino, si riappendono. Un tocco su una carta appesa la fa raccontare di nuovo.",
+      "Quando il filo è pieno, toccate «Ascolta la mia storia»: la luce scorre lungo il filo e legge tutta la storia. Se l’ordine è strampalato, si sente subito — e sono i bambini stessi a voler spostare le carte.",
+      "Dopo il primo ascolto completo compare «La versione del libro»: la luce rilegge le carte nell’ordine del racconto, senza spostare quelle appese dai bambini. Con Premium puoi silenziare la voce narrante: il bambino racconta da solo, e non viene registrato niente."
+    ],
+    "classroomIdeas": [
+      "Il rito del mattino: nella scuola dell’infanzia apri «La mia mattina» o «È ora della nanna» al tappeto e ricostruite insieme la giornata. Le tre carte bastano ai più piccoli, e le paroline del tempo — prima, poi, alla fine — entrano nell’orecchio molto prima che sul quaderno.",
+      "Dalla lettura al filo: leggi ad alta voce «La rapa gigante», poi la classe ricostruisce la storia sul filo. Alla fine confrontate il vostro filo con «La versione del libro»: la luce rilegge le carte nell’ordine del racconto senza toccare quelle dei bambini, e la conversazione nasce da sola.",
+      "Ponte con scienze in classe seconda: la farfalla, il semino e l’orto delle zucche sono cicli naturali da riordinare. Gli stessi indicatori temporali servono per il testo narrativo e per descrivere una trasformazione — un filo solo, due discipline.",
+      "Racconto a coppie (con Premium): un bambino appende, il compagno racconta la storia con la voce narrante silenziata — prove generali di narrazione orale prima di scrivere. Non c’è nessuna registrazione: chi ascolta è il compagno, o l’insegnante che passa tra i banchi.",
+      "Per chi impara l’italiano: le carte parlano da sole, con calma e quante volte serve. Il bambino tocca una carta, ascolta la frase, la ripete — le paroline del tempo e il lessico della storia arrivano insieme, senza che nessuno debba tradurre alla lavagna."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

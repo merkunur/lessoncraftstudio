@@ -461,6 +461,32 @@
       "Language support: the sequence-word chips stay visible, so emerging speakers always have their next connective in view."
     ]
   },
+  "fraction-kitchen": {
+    "slug": "fraction-kitchen",
+    "name": "Fraction Kitchen",
+    "tagline": "Cut real food into equal parts — and share it fairly",
+    "metaTitle": "Fraction Kitchen — Cut & Share Fractions Tool for Grades 2-3",
+    "metaDescription": "Children drag a knife to really cut a pizza, chocolate bar, or cake into halves, thirds, and fourths, share the slices fairly, and prove that two fourths fill one half. Free to start.",
+    "about": [
+      "Fraction Kitchen brings the classic paper-folding fractions lesson to life as a warm, cheerful kitchen. A pizza, a chocolate bar, or a sheet cake sits on the cutting board, and faint guide lines show where a knife could travel. A child drags the friendly rounded knife along a line and the food really cuts, with a satisfying slice sound and the fraction spoken aloud in words: halves, thirds, fourths, sixths, eighths. There is no symbolic notation anywhere — this tool builds the meaning that ½ and ¾ will later attach to.",
+      "Not every guide line makes equal parts — and that is the whole lesson. Cut along an off-center line and the pieces simply come apart, sit visibly unequal for a moment, seesaw gently, and heal back together. It is physics, never a verdict: no red flash, no buzzer, no 'wrong'. A kind voice observes — once — that the pieces are not the same size, and the child looks for the cut that makes equal pieces. Slices then share out onto friends' plates for fair-share reasoning, and leftovers become discussion moments rather than errors.",
+      "The pizza with halves and fourths — cutting and sharing included — is free forever. Premium adds the chocolate bar with its molded squares, the sheet cake, thirds, sixths and eighths, six equivalence tray tasks where children prove that two fourths fill one half exactly, and eight sharing stories, all in eleven languages with grammatically correct spoken fraction names."
+    ],
+    "howToUse": [
+      "Project the kitchen and pick a food — the pizza is free; the chocolate bar and cake are Premium.",
+      "Pick the pieces with the partition chips: halves, thirds, fourths, sixths, or eighths.",
+      "Have a child drag the knife along a guide line — a correct line cuts with a slice sound and the spoken fraction name; an off-center line shows its unequal pieces and heals.",
+      "Tap 'Share it', choose the number of friends, and drag one slice onto each plate — talk about leftovers and empty plates when they happen.",
+      "In Premium, open 'Fill the tray' to prove equivalence: two fourths fill one half exactly, and the tray glows honey-gold when the fit is perfect."
+    ],
+    "classroomIdeas": [
+      "Predict-then-cut: before a child drags the knife, the class votes on which guide line will make equal pieces — then the cut settles it.",
+      "Fair-share circle time: cut fourths for four friends, then ask 'what if a fifth friend arrives?' and let the leftover discussion run.",
+      "Equal-or-not gallery: cut along the off-center line on purpose, let the unequal pieces sit, and have children describe WHY they are not fair shares.",
+      "Fraction-word echo: mute your own voice and have the class say the spoken fraction name together each time a cut lands.",
+      "Story problems: use the built-in sharing stories as warm-ups, then re-enact them with real snack-time sharing."
+    ]
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

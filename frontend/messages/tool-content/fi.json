@@ -460,6 +460,32 @@
       "Päivän rauhoittava lopetus: yksi hidas kuuntelukerta valot himmennettyinä ennen kotiinlähtöä — naru kertoo, luokka hengittää."
     ]
   },
+  "fraction-kitchen": {
+    "slug": "murtolukukeittio",
+    "name": "Murtolukukeittiö",
+    "tagline": "Leikkaa oikeaa ruokaa yhtä suuriin osiin — ja jaa palat reilusti.",
+    "metaTitle": "Murtolukukeittiö – murtoluvut tutuiksi leikkaamalla | Ilmainen",
+    "metaDescription": "Ilmainen murtolukutyökalu: lapsi leikkaa pizzan puolikkaiksi ja neljäsosiksi, jakaa palat reilusti ja kuulee murtolukujen nimet sanoina — ilman merkintöjä. Ei kirjautumista.",
+    "about": [
+      "Murtolukukeittiö tuo murtolukujen ensiaskeleet taululle iloisena keittiönä. Leikkuulaudalla odottaa pizza, suklaalevy tai peltikakku, ja himmeät apuviivat näyttävät, mistä veitsi voisi kulkea. Lapsi vetää pyöreäkärkistä veistä viivaa pitkin, ja ruoka leikkautuu ihan oikeasti — samalla kuuluu pehmeä leikkausääni, ja murtoluvun nimi lausutaan ääneen sanoina: puolikkaat, kolmasosat, neljäsosat, kuudesosat, kahdeksasosat. Missään ei näy murtolukumerkintöjä — työkalu rakentaa ensin merkityksen, johon merkinnät myöhemmin kiinnittyvät.",
+      "Kaikki viivat eivät tee yhtä suuria paloja — ja juuri se on koko oppitunti. Kun lapsi leikkaa vinoa viivaa pitkin, palat irtoavat, näyttävät hetken erisuuruutensa, keinahtavat kevyesti ja paranevat takaisin ehjiksi. Se on fysiikkaa, ei tuomio: ei punaista väläystä eikä summeria. Ystävällinen ääni toteaa — vain kerran — etteivät palat ole yhtä suuria, ja lapsi etsii viivan, joka tekee yhtä suuret palat. Sitten palat jaetaan ystävien lautasille, ja tähteet ja tyhjät lautaset ovat keskustelun paikkoja, eivät virheitä.",
+      "Pizza puolikkaina ja neljäsosina — leikkaaminen ja jakaminen mukaan lukien — on aina ilmainen. Premium avaa suklaalevyn paloineen ja peltikakun, kolmasosat, kuudesosat ja kahdeksasosat, kuusi tarjotintehtävää, joissa lapsi todistaa, että kaksi neljäsosaa täyttää tarkalleen yhden puolikkaan, sekä kahdeksan jakamistarinaa — kaikki yhdellätoista kielellä, murtolukujen nimet luontevasti ja kieliopin mukaan lausuttuina."
+    ],
+    "howToUse": [
+      "Heijasta keittiö taululle ja valitse ruoka — pizza on ilmainen, suklaalevy ja kakku kuuluvat Premiumiin.",
+      "Valitse, moneenko osaan leikataan: puolikkaat, kolmasosat, neljäsosat, kuudesosat tai kahdeksasosat.",
+      "Anna lapsen vetää veistä apuviivaa pitkin. Tasajaon viiva leikkaa ruoan, ja murtoluvun nimi lausutaan ääneen — vino viiva näyttää hetken erisuuret palansa ja paranee ehjäksi.",
+      "Napauta Jaa, valitse ystävien määrä ja vedä yksi pala kullekin lautaselle — jutelkaa tähteistä ja tyhjistä lautasista, kun niitä sattuu.",
+      "Avaa Premiumissa Täytä tarjotin ja todistakaa yhdessä: kaksi neljäsosaa täyttää tarkalleen yhden puolikkaan, ja tarjotin hehkuu hunajankultaisena, kun palat sopivat täsmälleen."
+    ],
+    "classroomIdeas": [
+      "Ennusta ja leikkaa: ennen kuin veitsi liikkuu, luokka äänestää, mikä viiva tekee yhtä suuret palat — sitten leikkaus ratkaisee.",
+      "Reilun jaon aamupiiri: leikatkaa neljäsosat neljälle ystävälle ja kysy sitten: entä jos viides ystävä saapuukin? Antakaa keskustelun tähteistä virrata.",
+      "Yhtä suuret vai eivät: leikatkaa tahallaan vinoa viivaa pitkin, antakaa erisuurten palojen näkyä hetki ja pyytäkää lapsia kertomaan omin sanoin, miksi jako ei ole reilu.",
+      "Kaikukuoro: mykistä oma äänesi ja antakaa luokan lausua murtoluvun nimi yhteen ääneen aina, kun leikkaus osuu.",
+      "Tarinatehtävät: käyttäkää sisäänrakennettuja jakamistarinoita lämmittelynä ja näytelkää ne sitten uudestaan oikealla välipalahetkellä."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

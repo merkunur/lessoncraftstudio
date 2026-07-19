@@ -460,6 +460,32 @@
       "De la ciencia al cuento: «La mariposa», «La semillita» y «Las estaciones del año» acompañan la unidad de seres vivos — primero se observa en clase, luego se cuelga en el tendedero y al final se narra de memoria."
     ]
   },
+  "fraction-kitchen": {
+    "slug": "cocina-de-fracciones",
+    "name": "La cocina de fracciones",
+    "tagline": "Corta pizza, chocolate y pastel en partes iguales, comparte con amigos y aprende las fracciones con palabras — sin símbolos.",
+    "metaTitle": "La cocina de fracciones — corta y comparte | LessonCraftStudio",
+    "metaDescription": "Los niños cortan pizza, chocolate y pastel en partes iguales, comparten con amigos y aprenden las fracciones con palabras. Empieza gratis con la pizza.",
+    "about": [
+      "La cocina de fracciones es una cocina alegre donde los niños de primero a tercero de primaria arrastran un cuchillo por una línea guía y cortan de verdad una pizza, un chocolate o un pastel en partes iguales. Cada fracción se dice en voz alta con palabras — «una mitad», «dos cuartos» — y en ningún lugar aparece un símbolo: primero el significado, después la notación.",
+      "Aquí nadie se equivoca en voz alta. Si un corte no cae en el lugar justo, las partes desiguales se muestran un momento, se balancean con suavidad y el alimento se recompone solito: es física, no un veredicto. No hay marcas rojas, ni cronómetros, ni puntos. Y cuando sobra una parte o un plato queda vacío, la cocina hace una observación tranquila y espera — ese es justo el momento para conversar.",
+      "La pizza en mitades y cuartos — cortarla y compartirla entre amigos — es gratis para siempre. Con Premium se abren el chocolate y el pastel, los tercios, sextos y octavos, la bandeja de equivalencias donde se comprueba que dos cuartos llenan exactamente una mitad, y ocho cuentos de reparto justo para leer en clase."
+    ],
+    "howToUse": [
+      "Elige una comida en el menú y el número de partes que quieres.",
+      "Arrastra el cuchillo a lo largo de una línea guía para cortar — o toca la línea directamente.",
+      "Toca una parte para escuchar su nombre: «un cuarto», «un tercio», «una mitad».",
+      "Toca «Compartir» y reparte las partes en los platos de los amigos hasta que cada uno tenga la suya.",
+      "En la bandeja (Premium), comprueba cuántas partes chicas llenan una parte grande — y dilo en voz alta antes de intentarlo."
+    ],
+    "classroomIdeas": [
+      "Proyecta la cocina y pide a la clase predecir por dónde caerá el corte justo antes de mover el cuchillo.",
+      "Plantea un reparto con sobrante — cuatro partes, tres amigos — y conversa qué se puede hacer con la parte que queda.",
+      "Después de cortar en pantalla, dobla círculos de papel en mitades y cuartos para pasar de lo digital a lo concreto.",
+      "Abre la clase con uno de los cuentos y deja que un alumno resuelva el reparto frente al grupo.",
+      "Antes de usar la bandeja, pide que digan en voz alta la predicción completa: «dos cuartos llenan una mitad» — y luego compruébenlo juntos."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

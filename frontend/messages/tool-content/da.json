@@ -460,6 +460,32 @@
       "Digtehjørne: lad børnene med vilje hænge kortene helt anderledes op og fortælle den nye, skøre historie, der kommer ud af det."
     ]
   },
+  "fraction-kitchen": {
+    "slug": "brokkokkenet",
+    "name": "Brøkkøkkenet",
+    "tagline": "Skær maden i lige store dele, og del den fair med vennerne",
+    "metaTitle": "Gratis brøkkøkken – skær og del brøker | LessonCraftStudio",
+    "metaDescription": "Et gratis brøkkøkken til indskolingen. Børnene skærer pizza i lige store dele, deler stykkerne med vennerne og hører hver brøk sagt med ord — uden login, på alle enheder.",
+    "about": [
+      "Brøkkøkkenet er et venligt lille køkken, hvor brøker bliver til noget, man kan skære i. Børnene trækker kniven langs en svag hjælpelinje og skærer rigtigt i maden — en pizza, en plade chokolade eller en bradepandekage — i lige store dele. Hver brøk bliver sagt højt med rigtige danske ord: halvdele, tredjedele, fjerdedele, sjettedele og ottendedele. Der er ingen brøkstreger og ingen tal over tal — betydningen kommer før notationen, præcis som i indskolingens arbejde med Fælles Mål.",
+      "Køkkenet dømmer aldrig. Rammer kniven et snit, der ikke giver lige store stykker, sker der bare det, der ville ske i virkeligheden: De to skæve stykker bliver vist et øjeblik, vipper stille som en vippe — og vokser sammen igen. Den venlige stemme siger højst én gang: Lad os finde det snit, der giver lige store stykker. Ingen røde krydser, ingen point, intet stopur. Og når der er et stykke tilovers, eller en tallerken står tom, siger værktøjet det bare roligt højt og venter — det er klassens samtale, der skal løse det.",
+      "Pizzaen i halvdele og fjerdedele — med både skæring og deling med vennerne — er altid gratis. Med Premium åbner resten af køkkenet: chokoladen og kagen, tredjedele, sjettedele og ottendedele, de små historier om at dele fair — og bakken, hvor børnene selv beviser, at to fjerdedele fylder præcis en halvdel."
+    ],
+    "howToUse": [
+      "Vis Brøkkøkkenet på den interaktive tavle, og vælg mad og antal dele med knapperne nederst — start med pizzaen i halvdele.",
+      "Lad et barn trække kniven hen til maden og skære langs en af de svage linjer — man kan også bare trykke på linjen. Hvert snit siges højt med brøkkens navn.",
+      "Rammer barnet et snit, der giver skæve stykker, så se godt efter sammen: Stykkerne vipper, fordi de ikke er lige store — og maden vokser sammen, så man kan prøve igen.",
+      "Tryk på Del den, og lad børnene lægge et stykke på hver vens tallerken. Er der et stykke tilovers — eller en tom tallerken — så stop op og snak om, hvad man kan gøre.",
+      "Med Premium kan I fylde bakken: Læg små stykker i, til de fylder det store præcist, og sig sætningen sammen — to fjerdedele giver en halvdel."
+    ],
+    "classroomIdeas": [
+      "Matematikstart: Skær pizzaen i halvdele på tavlen, og lad klassen sige ordene i kor — en halvdel, to halvdele, lige store dele — til de sidder helt fast.",
+      "Snakkehistorierne (Premium): Tag historien, hvor tre venner finder en pizza i fjerdedele, og lad klassen selv finde på løsninger til det stykke, der er tilovers — der er ikke ét rigtigt svar.",
+      "Madpakkematematik: Brug de samme ord ved spisetid — hvem har skåret sin madpakke i halvdele? Kan man dele et æble i fjerdedele, så alle får lige meget?",
+      "Makkerpar ved bakken (Premium): Det ene barn vælger små stykker, det andet siger sætningen højt, når bakken er fuld — to fjerdedele giver en halvdel. Så bytter de.",
+      "Fair eller ikke fair: Skær med vilje et skævt snit, og lad børnene forklare med deres egne ord, hvorfor delingen ikke er fair — og hvor snittet skal ligge i stedet."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

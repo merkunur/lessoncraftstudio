@@ -460,6 +460,32 @@
       "Per chi impara l’italiano: le carte parlano da sole, con calma e quante volte serve. Il bambino tocca una carta, ascolta la frase, la ripete — le paroline del tempo e il lessico della storia arrivano insieme, senza che nessuno debba tradurre alla lavagna."
     ]
   },
+  "fraction-kitchen": {
+    "slug": "cucina-delle-frazioni",
+    "name": "La cucina delle frazioni",
+    "tagline": "Taglia, dividi e assaggia le frazioni — a parole, prima dei simboli.",
+    "metaTitle": "La cucina delle frazioni — taglia e dividi | LessonCraftStudio",
+    "metaDescription": "Una cucina dove i bambini tagliano pizza, cioccolato e torta in parti uguali, le dividono tra amici e scoprono le equivalenze — frazioni dette a parole, senza simboli.",
+    "about": [
+      "La cucina delle frazioni è una cucina digitale allegra dove le frazioni si toccano davvero: i bambini trascinano un coltello lungo una linea guida e tagliano una pizza, una tavoletta di cioccolato o una torta in parti uguali, poi distribuiscono le parti sui piatti degli amici. Ogni frazione viene detta a parole — «una metà», «due quarti», «un ottavo» — perché qui il significato viene prima della notazione: sullo schermo non compare mai un simbolo di frazione.",
+      "Se un taglio non passa nel punto che fa parti uguali, non compare nessun segno rosso e nessun verdetto: i pezzi restano in vista per un istante così come sono — uno più grande, uno più piccolo — dondolano piano come un’altalena e poi si ricompongono. È fisica, non un giudizio, ed è proprio il momento in cui si impara a guardare. Una voce gentile fa un’osservazione al massimo una volta per cibo, e una parte che avanza o un piatto rimasto vuoto diventano occasioni di conversazione: lo strumento si ferma e aspetta.",
+      "La pizza con le metà e i quarti — tagliare e dividere tra amici — è gratuita per sempre. Con Premium si aprono la tavoletta di cioccolato e la torta, i terzi, i sesti e gli ottavi, il vassoio delle equivalenze («due quarti riempiono una metà esattamente») e otto piccole storie di condivisione da leggere insieme."
+    ],
+    "howToUse": [
+      "Scegli un cibo con le linguette in basso — pizza, cioccolato o torta — e il numero di parti che vuoi ottenere.",
+      "Trascina il coltello lungo una linea guida per tagliare davvero, oppure tocca direttamente la linea.",
+      "Se il taglio non fa parti uguali, osserva i pezzi che dondolano e si ricompongono: è l’occasione per parlarne e riprovare con calma.",
+      "Tocca «Dividi», scegli quanti amici ci sono e trascina una parte sul piatto di ognuno, finché la divisione è uguale per tutti.",
+      "Con Premium, apri «Riempi il vassoio» per scoprire le equivalenze — quanti quarti fanno una metà? — e le «Storie» da leggere insieme prima di dividere."
+    ],
+    "classroomIdeas": [
+      "Alla LIM, prima di ogni taglio chiedete: «Dove deve passare il coltello perché le parti vengano uguali?» — poi un bambino prova e la classe osserva che cosa succede.",
+      "Usate le storie di discussione: quando avanza una parte o un piatto resta vuoto, fermatevi e chiedete «E adesso? Che cosa possiamo fare?» prima di toccare lo schermo.",
+      "Coro delle frazioni: ogni volta che una parte finisce su un piatto, tutta la classe la nomina ad alta voce — «un quarto!», «una metà!» — così le parole arrivano molto prima dei simboli.",
+      "Al vassoio delle equivalenze, fate stimare prima: «Quanti sesti serviranno per riempire un terzo?» — poi verificate insieme e raccontate che cosa si è scoperto.",
+      "Dopo la pizza digitale, tagliate una focaccia o una torta vera per la merenda: gli stessi gesti, le stesse parole, parti uguali per tutti."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

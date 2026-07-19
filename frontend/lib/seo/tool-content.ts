@@ -17,7 +17,7 @@ import { TOPIC_ENABLED_LOCALES } from '@/config/topic-locales';
 import { buildHreflangAlternates } from './hreflang';
 
 /** Canonical tool keys — match the mini-tool file basenames + MANIPULATIVES ids. */
-export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board', 'letter-tiles', 'calendar-wall', 'number-talk-easel', 'rekenrek', 'class-timer', 'name-sticks', 'center-board', 'learning-clock', 'place-value-lab', 'picture-word-wall', 'hush-owl', 'wodb', 'story-line'] as const;
+export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board', 'letter-tiles', 'calendar-wall', 'number-talk-easel', 'rekenrek', 'class-timer', 'name-sticks', 'center-board', 'learning-clock', 'place-value-lab', 'picture-word-wall', 'hush-owl', 'wodb', 'story-line', 'fraction-kitchen'] as const;
 export type ToolKey = (typeof TOOL_KEYS)[number];
 
 /** Mini-tool HTML path (nginx-direct, §3.3) per tool key. */
@@ -40,6 +40,7 @@ export const TOOL_MINI_URL: Record<ToolKey, string> = {
   'hush-owl': '/mini-tools/hush-owl.html',
   wodb: '/mini-tools/wodb.html',
   'story-line': '/mini-tools/story-line.html',
+  'fraction-kitchen': '/mini-tools/fraction-kitchen.html',
 };
 
 /**
@@ -68,6 +69,7 @@ export const TOOL_ACTIVITY_PREFIX: Record<ToolKey, string> = {
   'hush-owl': 'hush-owl',
   wodb: 'wodb',
   'story-line': 'story-line',
+  'fraction-kitchen': 'fraction-kitchen',
 };
 
 export interface ToolEntry {
@@ -111,6 +113,7 @@ interface ToolContentFile {
   'hush-owl'?: ToolEntry;
   wodb?: ToolEntry;
   'story-line'?: ToolEntry;
+  'fraction-kitchen'?: ToolEntry;
   labels: ToolContentLabels;
 }
 

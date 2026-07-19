@@ -460,6 +460,32 @@
       "Tullefortelling med vilje: la barna henge kortene i en snurrig rekkefølge og høre hvordan det låter. Latteren er gull — og samtalen om hvorfor det blir rart, er ren fortellerlære."
     ]
   },
+  "fraction-kitchen": {
+    "slug": "brokkjokkenet",
+    "name": "Brøkkjøkkenet",
+    "tagline": "Skjær pizza, sjokolade og kake i like store deler — brøk barna kan smake på, med ord før symboler.",
+    "metaTitle": "Brøkkjøkkenet – skjær, del og lær brøk på storskjerm",
+    "metaDescription": "Barna skjærer pizza, sjokolade og kake i like store deler, deler ut biter til venner og beviser at to firedeler fyller en halvdel. Brøk med ord — helt uten symboler.",
+    "about": [
+      "Brøkkjøkkenet er et lunt lite kjøkken på klasseromsskjermen. Barnet drar en kniv bort til maten og skjærer — på ordentlig — langs svake hjelpelinjer, til pizzaen, sjokoladen eller kaken ligger i like store deler. Hver brøk sies høyt med ord: en halvdel, en tredel, en firedel. Ingen brøkstreker og ingen symboler noe sted — akkurat slik begynneropplæringen bygger forståelsen: mening først, notasjon senere.",
+      "Treffer kniven en linje som gir ulike biter, skjer det ingen verre ting enn fysikk: bitene glir litt fra hverandre, vipper forsiktig som en vippehuske — se, den ene er større! — og gror sammen igjen. En vennlig stemme undrer seg høyst én gang per matrett, og linjen står klar til et nytt forsøk. Ingen røde kryss, ingen poeng, ingen dømming. Blir en bit til overs når vennene har fått hver sin, eller står en tallerken tom, sier verktøyet bare det klassen ser — og venter. Det er samtalen som skal gjøre jobben.",
+      "Pizzaen med halvdeler og firedeler — både skjæring og utdeling til venner — er alltid gratis. Med Premium åpner du hele kjøkkenet: sjokoladen og langpannekaken, tredeler, sjettedeler og åttedeler, brettet der barna beviser at to firedeler fyller nøyaktig en halvdel, og åtte små fortellinger om rettferdig deling — to av dem med en floke klassen må diskutere seg ut av."
+    ],
+    "howToUse": [
+      "Vis Brøkkjøkkenet på storskjerm eller projektor, og velg mat og antall biter i menyen nederst.",
+      "La et barn dra kniven bort til maten — hjelpelinjene kommer til syne — og skjære langs en linje. Når alle snittene er lagt, spretter bitene fra hverandre, og brøknavnet sies høyt.",
+      "Gir et snitt ulike biter, vipper de litt og gror sammen igjen. Snakk om det klassen så, og la barnet finne linjen som gir like store deler.",
+      "Trykk på «Del ut», velg antall venner, og la barnet legge en bit på hver tallerken. Blir det en bit til overs — eller en tom tallerken — har dere en gyllen matteprat.",
+      "Med Premium: trykk på «Fyll brettet» og bevis at to firedeler fyller en halvdel — eller åpne «Fortellinger» og del maten slik fortellingen ber om."
+    ],
+    "classroomIdeas": [
+      "Samlingsstund om rettferdighet: spør «hva vil det si å dele rettferdig?» før dere skjærer — og la klassen se at like store deler er svaret på et helt hverdagslig problem.",
+      "Brøkspråk i kor: la klassen si brøknavnet sammen hver gang bitene spretter fra hverandre — en halvdel, en tredel, en firedel. Ordene skal sitte i munnen lenge før symbolene dukker opp.",
+      "Diskusjonsfortellingene (Premium): fortellingen om biten som blir til overs har ikke fasit. La barna foreslå løsninger — dele resten i mindre biter, gi den til den som er mest sulten, spare den — og begrunne dem.",
+      "Fra skjerm til matpakke: la barna brette et papirark som pizza og skjære det i halvdeler og firedeler med saks — eller finne halvdeler i egen matpakke. Brøk finnes overalt der noe skal deles.",
+      "Stasjonsarbeid på nettbrett: den gratis pizzaen er en komplett stasjon. To og to skjærer, deler ut og sier brøknavnene høyt til hverandre."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

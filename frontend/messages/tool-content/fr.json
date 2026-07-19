@@ -486,6 +486,32 @@
       "Au CE2, après la manipulation, écrivez ensemble en toutes lettres ce que la cuisine a dit — « deux quarts font une moitié » — l’écriture chiffrée des fractions viendra s’y accrocher plus tard."
     ]
   },
+  "measurement-bench": {
+    "slug": "atelier-des-mesures",
+    "name": "L’atelier des mesures",
+    "tagline": "Trois ateliers illustrés pour estimer, puis mesurer : longueurs, contenances et poids.",
+    "metaTitle": "L’atelier des mesures en ligne — longueur, contenance et poids",
+    "metaDescription": "Estimez puis mesurez avec vos élèves : trombones et cubes bout à bout, récipients gradués à verser et vraie balance à plateaux. Trois ateliers illustrés, du CP au CE2.",
+    "about": [
+      "L’atelier des mesures réunit trois établis illustrés sur un même écran. À l’atelier longueur, l’enfant pose des trombones ou des cubes bout à bout le long d’objets imagés — le ver, la carotte, le bus — puis les compte. À l’atelier contenance, il verse l’eau d’une carafe dans des récipients gradués en maintenant le doigt appuyé, glouglous compris. À l’atelier poids, une vraie balance à plateaux penche et se rééquilibre : « Le cheval pèse 12 cubes ! »",
+      "La routine est toujours la même : estimer d’abord, mesurer ensuite. L’enfant note son estimation, puis l’outil affiche côte à côte « Estimé : 6 · Mesuré : 8 » — une simple comparaison, jamais un verdict. Les erreurs classiques du cycle 2 sont accueillies avec douceur : si des trombones se chevauchent ou laissent un trou, l’atelier les resserre gentiment, sans point rouge, sans chronomètre, sans score.",
+      "L’atelier longueur, avec son estimation, est gratuit pour tout le monde. L’abonnement Premium ouvre les ateliers contenance et poids, le carnet d’estimations qui garde la trace des essais et l’enregistrement des montages pour retrouver sa station de mesure d’une séance à l’autre."
+    ],
+    "howToUse": [
+      "Choisissez un atelier avec les onglets : longueur, contenance ou poids.",
+      "Lisez la question à voix haute (« Combien de trombones mesure l’écharpe ? ») et notez l’estimation de l’enfant avec les boutons − et +, puis « Noter mon estimation ».",
+      "Atelier longueur : faites glisser trombones ou cubes bout à bout le long de l’objet, puis appuyez sur « Compter ». Activez au besoin la vérification à la règle dans les réglages.",
+      "Atelier contenance : touchez un récipient pour le choisir, puis maintenez la carafe appuyée pour verser. Atelier poids : posez des cubes sur le plateau jusqu’à l’équilibre.",
+      "Comparez l’estimation et la mesure ensemble, puis passez à un autre objet — ou enregistrez le montage pour la prochaine séance."
+    ],
+    "classroomIdeas": [
+      "Rituel d’estimation collectif : projetez l’atelier, faites voter la classe (« Combien de cubes pèse l’ours ? »), notez quelques estimations au tableau, puis mesurez ensemble.",
+      "Centre de mesure en autonomie : en ateliers tournants, chaque binôme mesure trois objets et recopie ses lignes « Estimé · Mesuré » sur sa fiche.",
+      "Comparer les unités : mesurez le même objet en trombones puis en cubes et demandez pourquoi les deux nombres sont différents — la grande idée des unités non conventionnelles au CP-CE1.",
+      "Du virtuel au réel : après l’atelier, mesurez de vrais objets de la classe avec de vrais trombones, puis vérifiez à la règle en centimètres.",
+      "Métacognition avec le carnet d’estimations : relisez les dernières lignes avec l’enfant — « Tes estimations se rapprochent-elles des mesures ? » — pour rendre visibles ses progrès."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

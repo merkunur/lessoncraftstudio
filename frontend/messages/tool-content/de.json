@@ -487,6 +487,32 @@
       "Partnerarbeit an der Station: Ein Kind schneidet, das andere verteilt die Stücke auf die Teller — dann wird getauscht."
     ]
   },
+  "measurement-bench": {
+    "slug": "messwerkstatt",
+    "name": "Die Messwerkstatt",
+    "tagline": "Erst schätzen, dann messen — Länge, Füllmenge und Gewicht an drei Werkbänken.",
+    "metaTitle": "Die Messwerkstatt – Länge, Füllmenge, Gewicht | LessonCraftStudio",
+    "metaDescription": "Erst schätzen, dann messen: Büroklammern anlegen, Wasser umgießen, mit der Balkenwaage wiegen. Drei Werkbänke für Länge, Füllmenge und Gewicht — für Klasse 1 bis 3.",
+    "about": [
+      "Die Messwerkstatt ist eine Werkstatt mit drei Werkbänken für das Messen im Anfangsunterricht. An der Längen-Werkbank legen Kinder Büroklammern oder Würfel Stück für Stück an einen Wurm, ein Baguette oder einen ganzen Bus an und zählen, wie viele es sind. An der Füllmengen-Werkbank gießen sie Wasser glucksend aus dem Krug in ein hohes Glas und eine breite Schale. Und an der Gewichts-Werkbank wiegt eine echte, wippende Balkenwaage Tiere und Dinge in Würfeln: „Der Fuchs wiegt 8 Würfel!“",
+      "Auf jeder Werkbank gilt dieselbe Routine: erst schätzen, dann messen. Die Schätzung wird festgehalten und nach dem Messen einfach neben das Ergebnis gelegt — „Geschätzt: 6 · Gemessen: 8“ — als Vergleich, nie als Urteil, denn eine Schätzung ist Denkarbeit und wird gefeiert. Auch der Klassiker unter den Mess-Stolpersteinen, Lücken und Überlappungen beim Anlegen, bekommt keinen roten Stift: Die Werkstatt rückt die Büroklammern sanft zusammen, damit nichts fehlt — Physik statt Wertung.",
+      "Die Längen-Werkbank mit dem Schätzzettel ist dauerhaft kostenlos — auf Wunsch mit Lineal-Check, der die gezählte Länge anschließend in Zentimetern oder Zoll zeigt. Mit Premium kommen die Füllmengen- und die Gewichts-Werkbank dazu, außerdem die Schätzliste, die Schätzung und Messung sammelt, und gespeicherte Aufbauten für die nächste Stunde."
+    ],
+    "howToUse": [
+      "Wähle eine Werkbank — zum Einstieg die Länge — und einen Gegenstand; mit „Noch ein Gegenstand“ geht es vom Wurm bis zum Bus.",
+      "Lass das Kind zuerst schätzen: Mit Plus und Minus stellt es seine Zahl ein und tippt auf „Meine Schätzung merken“.",
+      "Dann wird gemessen: Büroklammern oder Würfel aus dem Vorrat an den Gegenstand legen und auf „Zählen“ tippen — Lücken und Überlappungen rückt die Werkstatt freundlich zusammen.",
+      "Sprecht über Schätzung und Messung: Beide stehen nebeneinander, ganz ohne Wertung — genau dieser Vergleich ist das Gespräch wert.",
+      "Mit Premium: An der Füllmengen-Werkbank den Krug gedrückt halten und umgießen, an der Gewichts-Werkbank Würfel auflegen, bis die Waage im Gleichgewicht ist — die Schätzliste sammelt alle Ergebnisse."
+    ],
+    "classroomIdeas": [
+      "Schätz-Konferenz: Vor dem Messen schreibt jedes Kind seine Schätzung auf ein Mini-Whiteboard — nach dem Messen erzählt die Klasse, welche Überlegungen geholfen haben.",
+      "Erst digital, dann echt: Nach der Längen-Werkbank messen die Kinder Dinge im Klassenzimmer mit echten Büroklammern — lückenlos, ohne Überlappung, am Anfang beginnen.",
+      "Warum kommen zwei Kinder auf verschiedene Zahlen? Lücken und Überlappungen mit echten Büroklammern nachstellen und die Mess-Regel gemeinsam formulieren.",
+      "Wiege-Rätsel an der Gewichts-Werkbank: Die Klasse ordnet Maus, Fuchs und Kuh erst nach Gefühl — dann prüft die Balkenwaage die Reihenfolge in Würfeln.",
+      "Umschütt-Experiment: Erst schätzen, ob das hohe Glas oder die breite Schale mehr Becher fasst — die Antwort überrascht viele Kinder, denn hoch sieht oft nach mehr aus."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

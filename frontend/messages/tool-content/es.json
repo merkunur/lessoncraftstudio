@@ -486,6 +486,32 @@
       "Antes de usar la bandeja, pide que digan en voz alta la predicción completa: «dos cuartos llenan una mitad» — y luego compruébenlo juntos."
     ]
   },
+  "measurement-bench": {
+    "slug": "taller-de-medir",
+    "name": "El taller de medir",
+    "tagline": "Estima primero y mide después: longitud con clips, capacidad con tazas y peso en una balanza de verdad.",
+    "metaTitle": "El taller de medir — longitud, capacidad y peso | Primaria",
+    "metaDescription": "Tres talleres para proyectar: estima primero y mide después — longitud con clips y cubos, capacidad con tazas y peso en una balanza de platillos. La longitud es gratis.",
+    "about": [
+      "El taller de medir convierte el proyector en tres talleres de medición con objetos ilustrados de verdad. En el taller de longitud, los niños acomodan clips y cubos uno tras otro a lo largo de un gusano, una zanahoria o un autobús. En el taller de capacidad, vierten agua entre recipientes graduados manteniendo presionada la jarra — con glu-glu incluido. Y en el taller de peso, una balanza de platillos se inclina de verdad hasta quedar en equilibrio: «El zorro pesa 8 cubos».",
+      "La rutina es siempre la misma: primero estima, luego mide. El niño anota su estimación, mide, y las dos cifras aparecen juntas — «Tu estimación: 6 · La medida: 8» — sin palomitas ni tachas, porque una buena estimación es pensamiento, no un examen. La física también es amable: si los clips quedan con huecos o encimados, el taller los junta con suavidad para que la cadena quede completa; si los cubos se pasan de peso, la balanza solo lo muestra y pregunta, con calma, si quitamos uno.",
+      "El taller de longitud — con su tarjeta de estimación incluida — es gratis para siempre. Con Premium se abren el taller de capacidad y el de peso, el diario de estimaciones para volver a ver cada «estimé y medí», y las estaciones guardadas para dejar lista la actividad de mañana."
+    ],
+    "howToUse": [
+      "Abre el taller de longitud y mira el objeto del día: ¿cuántos clips medirá? Anota la estimación.",
+      "Arrastra clips o cubos y acomódalos uno tras otro a lo largo del objeto; si quedan huecos, el taller los junta con cariño.",
+      "Toca «Contar» para contar la cadena y ver la medida junto a la estimación.",
+      "En el taller de capacidad (Premium), toca un recipiente y mantén presionada la jarra para verter; suelta cuando quieras y cuenta las tazas.",
+      "En el taller de peso (Premium), pon cubos en el platillo hasta que la balanza quede en equilibrio — y compara con lo que estimaste."
+    ],
+    "classroomIdeas": [
+      "Ronda de estimaciones por la mañana: proyecta el objeto, cada niño dice su número y luego miden juntos. Se celebra la estimación más pensada, no la más cercana.",
+      "Midan el mismo objeto primero con clips y luego con cubos, y conversen: ¿por qué salieron números distintos si el objeto no cambió?",
+      "En el taller de peso, predigan el orden antes de pesar: ¿quién pesa más, el ratón, el zorro o el oso? La balanza da la respuesta sin decir quién se equivocó.",
+      "Los recipientes altos engañan a los ojos: pide predecir cuál guarda más tazas — el vaso alto o el tazón ancho — antes de verter una sola gota.",
+      "Después de medir en pantalla, midan el salón con pasos, lápices o manos: la unidad se elige, la rutina de estimar y medir es la misma."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

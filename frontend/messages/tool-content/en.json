@@ -487,6 +487,32 @@
       "Story problems: use the built-in sharing stories as warm-ups, then re-enact them with real snack-time sharing."
     ]
   },
+  "measurement-bench": {
+    "slug": "measurement-bench",
+    "name": "Measurement Bench",
+    "tagline": "Guess first, then measure — length, capacity, and weight",
+    "metaTitle": "Measurement Bench — Estimate & Measure Tool for K-3 Math",
+    "metaDescription": "Three warm workshop benches: lay paperclips along real objects, pour between graduated beakers, and weigh animals on a tilting balance scale. Estimate first, every time. Free to start.",
+    "about": [
+      "Measurement Bench replaces the junk-drawer measuring station with three warm, illustrated benches. On the length bench, children lay paperclips or cubes end-to-end along a real object from the picture library — a worm, a baguette, a bus — and count how many units long it is. On the capacity bench they press and hold to pour between graduated beakers, with satisfying glugs at every cup line. On the weight bench a real tilting balance scale weighs picture-library animals in cubes: tap cubes onto the pan until the beam settles level, and the tool announces that the fox weighs eight cubes.",
+      "Estimate-then-measure is the routine on every bench. Children pin a guess before measuring, and afterwards the tool simply shows both numbers side by side — you guessed six, it measured eight — and celebrates the thinking, never grading the guess. The classic gaps-and-overlaps misconception gets the same warmth: units laid with a gap simply scooch together with a kind word before counting. There are no buzzers, no red marks, no scores, and silence is the answer to everything not yet finished.",
+      "The length bench — with both unit types, the estimate chip, and a teacher-toggled centimeter ruler check (with an inch option) — is free forever. Premium adds the capacity and weight benches, the guess log across rounds, and saved setups, all in eleven languages with grammatically correct measurement sentences in each."
+    ],
+    "howToUse": [
+      "Project the bench and start with length — pick a unit (paperclips or cubes) and let a child guess how many will fit before laying any.",
+      "Drag units from the pile and lay them end-to-end along the object; press Count and watch gaps and overlaps scooch closed before the count.",
+      "Turn on the ruler check in settings to slide a centimeter strip under the object after counting — the bridge from counted units to standard units.",
+      "In Premium, open the capacity bench: choose a beaker, guess how many cups fit, then press and hold the jug to pour until it is full to the brim.",
+      "On the weight bench, set an animal on the left pan, guess its weight in cubes, and tap cubes onto the right pan until the beam settles level."
+    ],
+    "classroomIdeas": [
+      "Estimation circle: every child pins a guess for the same object, then one child measures — the spread of guesses becomes the discussion, never the winner.",
+      "Unit-size talk: measure the same worm in paperclips and then in cubes and ask why the two counts differ — the foundation of unit thinking.",
+      "Gap hunt: lay units badly on purpose, ask the class what will happen to the count, then press Count and watch the scooch prove it.",
+      "Heavier-or-lighter line-up: before weighing, have the class order three animals by guess, then weigh all three on the balance to check the order.",
+      "Fair-pour café: one child is the customer ordering four cups, the barista pours from the jug and the class watches the graduations fill."
+    ]
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

@@ -486,6 +486,32 @@
       "Brickan som mattesnack (Premium): gissa först — kan tre sjättedelar fylla en halva? Prova sedan och sätt ord på det ni ser."
     ]
   },
+  "measurement-bench": {
+    "slug": "matbanken",
+    "name": "Mätbänken",
+    "tagline": "Gissa först, mät sedan — längd, volym och vikt.",
+    "metaTitle": "Mätbänken – mät längd, volym och vikt | LessonCraftStudio",
+    "metaDescription": "Tre varma mätbänkar för förskoleklass och lågstadiet: lägg gem längs riktiga föremål, häll mellan graderade kärl och väg djur på en balansvåg. Gissa först — gratis att börja.",
+    "about": [
+      "Mätbänken byter ut lådan med löst mätpyssel mot tre varma, illustrerade bänkar. På längdbänken lägger barnet gem eller kuber kant i kant längs ett riktigt föremål ur bildbiblioteket — en mask, en baguette, en buss — och räknar hur många enheter det mäter. På volymbänken håller man intryckt och häller mellan graderade kärl, med ett mysigt kluckande vid varje muggstreck. Och på viktbänken står en riktig balansvåg som väger bildbibliotekets djur i kuber: lägg på kuber tills vågen står i jämvikt, och bänken berättar stolt att räven väger åtta kuber.",
+      "Gissa först, mät sedan är rutinen på varje bänk. Barnet sparar en gissning innan mätningen, och efteråt visar bänken helt enkelt båda talen bredvid varandra — du gissade sex, det blev åtta — och firar tänkandet. En gissning bedöms aldrig. Det klassiska felet med glapp och överlapp möts med samma värme: ligger enheterna glest knuffas de vänligt ihop innan räkningen, med ett litet ord på vägen. Inga summerljud, inga röda kryss, ingen som rättar — det som inte är klart än får helt enkelt vara tyst.",
+      "Längdbänken — med båda enhetstyperna, gissningsrutan och en linjalkoll i centimeter (eller tum) som läraren slår på — är gratis för alltid. Premium öppnar volym- och viktbänkarna, gissningsloggen över flera omgångar och sparade uppställningar, på elva språk med grammatiskt riktiga mätmeningar i varje."
+    ],
+    "howToUse": [
+      "Visa bänken på projektorn och börja med längd — välj enhet (gem eller kuber) och låt ett barn gissa hur många som behövs innan något läggs dit.",
+      "Dra enheter från högen och lägg dem kant i kant längs föremålet; tryck på Räkna och se hur glapp och överlapp knuffas ihop innan räkningen.",
+      "Slå på linjalkollen i inställningarna så glider en centimeterremsa in under föremålet efter räkningen — bron från räknade enheter till standardenheter.",
+      "Öppna volymbänken i Premium: välj ett kärl, gissa hur många muggar som ryms och håll sedan kannan intryckt tills det är fyllt ända till brädden.",
+      "På viktbänken sätter du ett djur på ena vågskålen, gissar vikten i kuber och lägger kuber på den andra tills vågen står i jämvikt."
+    ],
+    "classroomIdeas": [
+      "Gissningsringen: alla barn sparar en gissning för samma föremål och ett barn mäter — spridningen i gissningarna blir samtalet, aldrig vinnaren.",
+      "Enhetssnacket: mät samma mask först i gem och sedan i kuber och fråga varför talen blir olika — grunden till att förstå vad en enhet är.",
+      "Glappjakten: lägg enheterna slarvigt med flit, låt klassen förutspå vad som händer med räkningen och tryck sedan på Räkna — knuffen bevisar det.",
+      "Tyngre eller lättare: låt klassen ordna tre djur efter gissad vikt innan ni väger alla tre på balansvågen och kollar ordningen.",
+      "Kaféleken: ett barn beställer fyra muggar, baristan häller ur kannan och klassen följer strecken på kärlet medan det fylls."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

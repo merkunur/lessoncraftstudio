@@ -486,6 +486,32 @@
       "Estação da prova: no tabuleiro de equivalência, desafie duplas a prever antes de arrastar — será que dois quartos enchem uma metade? E três sextos? A criança testa, vê encher certinho e conta para a turma o que descobriu."
     ]
   },
+  "measurement-bench": {
+    "slug": "bancada-de-medidas",
+    "name": "A bancada de medidas",
+    "tagline": "Primeiro o palpite, depois a medida — comprimento, capacidade e peso",
+    "metaTitle": "A bancada de medidas: estimar e medir | LessonCraftStudio",
+    "metaDescription": "Três bancadas ilustradas para estimar e medir: comprimento com clipes e cubinhos, capacidade com recipientes graduados e peso numa balança de pratos. Grátis para começar.",
+    "about": [
+      "A bancada de medidas troca o cantinho de medição improvisado por três bancadas ilustradas e acolhedoras. Na bancada de comprimento, a criança coloca clipes ou cubinhos um após o outro ao longo de um objeto de verdade da biblioteca de imagens — a minhoca, a baguete, o ônibus — e conta quantas unidades ele mede. Na bancada de capacidade, ela segura a jarra para despejar entre recipientes graduados, com um glu-glu gostoso a cada linha de copinho. E na bancada de peso, uma balança de pratos que inclina de verdade pesa os bichos em cubinhos: é só colocar cubinhos no prato até os dois lados ficarem equilibrados, e a bancada anuncia que a raposa pesa 8 cubinhos.",
+      "Primeiro o palpite, depois a medida — essa é a rotina em todas as bancadas. Antes de medir, a criança anota um palpite; depois, a ferramenta simplesmente mostra os dois números lado a lado — seu palpite: 6, a medida: 8 — e celebra o pensamento, sem nunca dar nota no palpite. O clássico engano dos buraquinhos e sobreposições recebe o mesmo carinho: unidades colocadas com espaço entre elas se juntam sozinhas, bem juntinhas, com uma palavra gentil antes da contagem. Não há campainha, não há vermelho, não há pontuação — e o silêncio é a resposta para tudo o que ainda não terminou.",
+      "A bancada de comprimento — com os dois tipos de unidade, o cartãozinho de palpite e a conferência na régua em centímetros que a professora pode ativar (com opção de polegadas) — é gratuita para sempre. O Premium adiciona as bancadas de capacidade e peso, o diário de palpites e as bancadas salvas, tudo em onze idiomas, com frases de medida gramaticalmente corretas em cada um."
+    ],
+    "howToUse": [
+      "Projete a bancada e comece pelo comprimento — escolha uma unidade (clipes ou cubinhos) e deixe uma criança dar o palpite de quantos vão caber antes de colocar qualquer um.",
+      "Arraste as unidades da pilha e coloque uma após a outra ao longo do objeto; toque em Contar e veja buraquinhos e sobreposições se ajeitarem sozinhos antes da contagem.",
+      "Ative a conferência na régua nas configurações para deslizar uma fita de centímetros embaixo do objeto depois de contar — a ponte entre unidades contadas e unidades padronizadas.",
+      "No Premium, abra a bancada de capacidade: escolha um recipiente, dê um palpite de quantos copinhos o enchem e segure a jarra para despejar até encher até a boca.",
+      "Na bancada de peso, o bicho fica no prato da esquerda: dê um palpite do peso em cubinhos e toque nos cubinhos para colocá-los no prato da direita até a balança se acalmar equilibrada."
+    ],
+    "classroomIdeas": [
+      "Roda de palpites: cada criança anota um palpite para o mesmo objeto e uma criança mede — a conversa nasce da variedade dos palpites, nunca de quem ganhou.",
+      "Conversa sobre o tamanho da unidade: meça a mesma minhoca em clipes e depois em cubinhos e pergunte por que as duas contagens são diferentes — o alicerce do pensamento sobre unidades.",
+      "Caça aos buraquinhos: coloque as unidades espalhadas de propósito, pergunte à turma o que vai acontecer com a contagem e toque em Contar para ver as unidades se juntarem e provarem.",
+      "Fila do mais pesado: antes de pesar, a turma coloca três bichos em ordem por palpite; depois pesa os três na balança para conferir a ordem.",
+      "Cafezinho da medida certa: uma criança é o cliente que pede quatro copinhos, outra despeja da jarra e a turma acompanha as marcações enchendo."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

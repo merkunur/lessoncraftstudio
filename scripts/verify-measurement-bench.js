@@ -187,6 +187,19 @@ for (const [k, w] of Object.entries(T.WEIGHTS)) {
     if (P.RIM_HALF < 48) E('panGroup: rim narrower than the 4-column cube stack');
     if (!g.includes('mb-pan-load')) E('panGroup: no load slot inside the pan group');
   }
+  /* weight seating: every weight object has a trim + a placement that
+     puts the DEPICTED art's bottom-center exactly on the pan seat */
+  for (const k of Object.keys(T.WEIGHTS)) {
+    const t = T.WTRIMS[k];
+    if (!t) { E(`weight ${k}: no WTRIMS entry`); continue; }
+    const wp = T._wtPlacement(k);
+    const kk = wp.width / t.iw;
+    const visBottom = wp.y + (t.y + t.h) * kk;
+    const visCenter = wp.x + (t.x + t.w / 2) * kk;
+    if (Math.abs(visBottom - T.PAN.SEAT_Y) > 1e-6) E(`weight ${k}: visible bottom ${visBottom.toFixed(2)} ≠ SEAT_Y ${T.PAN.SEAT_Y}`);
+    if (Math.abs(visCenter) > 1e-6) E(`weight ${k}: visible center ${visCenter.toFixed(2)} not on the pan axis`);
+    if (t.h * kk > 74 + 1e-6 || t.w * kk > 84 + 1e-6) E(`weight ${k}: visible art exceeds the dish fit caps`);
+  }
   /* relative-sanity pairs — a mouse never outweighs a bear */
   const pairs = [['mouse', 'cat'], ['cat', 'fox'], ['fox', 'sheep'], ['sheep', 'bear'], ['strawberry', 'pumpkin'], ['apple', 'watermelon'], ['duck', 'pig'], ['rabbit', 'lion'], ['hamster', 'cow']];
   for (const [a, b] of pairs) {
@@ -271,9 +284,9 @@ async function visibleExtentProofs() {
   let sharp;
   try { sharp = require(path.join(REPO, 'frontend', 'node_modules', 'sharp')); }
   catch (e) { E('sharp unavailable for trim re-measure: ' + e.message); return; }
-  for (const o of T.LENGTH_OBJECTS) {
-    const m = T.META[o.k];
-    if (!m) continue;
+  const remeasure = async (label, key, baked) => {
+    const m = T.META[key];
+    if (!m || !baked) return;
     const file = path.join(REPO, 'frontend', 'public', 'image-library-webp', 'themes', m[0], m[1] + '@2x.webp');
     try {
       const { data, info } = await sharp(file).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
@@ -282,12 +295,14 @@ async function visibleExtentProofs() {
         if (data[(y * info.width + x) * 4 + 3] > 16) { if (x < minX) minX = x; if (x > maxX) maxX = x; if (y < minY) minY = y; if (y > maxY) maxY = y; }
       }
       const tw = maxX - minX + 1, th = maxY - minY + 1;
-      if (info.width !== o.iw || info.height !== o.ih) E(`length ${o.k}: image ${info.width}x${info.height} ≠ baked ${o.iw}x${o.ih}`);
-      for (const [name, baked, meas] of [['x', o.trim.x, minX], ['y', o.trim.y, minY], ['w', o.trim.w, tw], ['h', o.trim.h, th]]) {
-        if (Math.abs(baked - meas) > 3) E(`length ${o.k}: trim.${name} baked ${baked} vs measured ${meas} (drift > 3px)`);
+      if (info.width !== baked.iw || info.height !== baked.ih) E(`${label} ${key}: image ${info.width}x${info.height} ≠ baked ${baked.iw}x${baked.ih}`);
+      for (const [name, b, meas] of [['x', baked.x, minX], ['y', baked.y, minY], ['w', baked.w, tw], ['h', baked.h, th]]) {
+        if (Math.abs(b - meas) > 3) E(`${label} ${key}: trim.${name} baked ${b} vs measured ${meas} (drift > 3px)`);
       }
-    } catch (e) { E(`length ${o.k}: trim re-measure failed: ${e.message}`); }
-  }
+    } catch (e) { E(`${label} ${key}: trim re-measure failed: ${e.message}`); }
+  };
+  for (const o of T.LENGTH_OBJECTS) await remeasure('length', o.k, o.trim && { ...o.trim, iw: o.iw, ih: o.ih });
+  for (const k of Object.keys(T.WEIGHTS)) await remeasure('weight', k, T.WTRIMS[k]);
 }
 
 /* ================= report ======================================== */

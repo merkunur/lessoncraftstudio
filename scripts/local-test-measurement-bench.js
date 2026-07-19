@@ -323,25 +323,20 @@ function serve() {
       await sleep(900);
       const m = await page.evaluate(() => {
         const T = MeasurementBench;
-        const s = T._scale, P = T.PAN;
-        const stageR = document.querySelector('.mb-stage').getBoundingClientRect();
         const inL = !!document.querySelector('.mb-pan-l .mb-pan-load image');
-        const L = T._panAnchor('left', T.balAngle);
         const img = document.querySelector('.mb-pan-l .mb-pan-load image');
-        const r = img.getBoundingClientRect();
-        const bottomStage = (r.bottom - stageR.top) / s;
-        const centerStage = (r.left + r.width / 2 - stageR.left) / s;
+        const wp = T._wtPlacement(T._wtKey);
+        const near = (attr, want) => Math.abs(parseFloat(img.getAttribute(attr)) - want) < 0.5;
         const cubesInR = document.querySelectorAll('.mb-pan-r .mb-pan-load .mb-cube-g').length;
+        /* the gate proves _wtPlacement seats the TRIMMED art at SEAT_Y;
+           here we prove the DOM carries exactly that placement */
         return {
           inL, cubes: T.cubes, cubesInR,
-          dxFromAnchor: centerStage - L.x,
-          bottomVsRim: bottomStage - (L.y + P.RIM_Y),
-          bandMax: P.DEPTH * 2 + 12
+          attrsMatch: near('x', wp.x) && near('y', wp.y) && near('width', wp.width) && near('height', wp.height)
         };
       });
       ok(`${label}: object rides INSIDE the left pan group`, m.inL);
-      ok(`${label}: object bottom lands in the dish band`, m.bottomVsRim > -2 && m.bottomVsRim < m.bandMax, JSON.stringify(m));
-      ok(`${label}: object centred on the pan`, Math.abs(m.dxFromAnchor) < 6, JSON.stringify(m));
+      ok(`${label}: object carries the trim-exact seat placement`, m.attrsMatch, JSON.stringify(m));
       ok(`${label}: cube count matches the SVG stack`, m.cubes === m.cubesInR, JSON.stringify(m));
     };
     await seating('at rest (0 cubes, tilted left)');

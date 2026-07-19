@@ -1004,6 +1004,48 @@ var MeasurementBench = {
      HTML overlays, which always sit above the SVG). Strings run from
      the hang point (0,0 = ON the beam) to the dish RIM ENDS. */
   PAN: { RIM_HALF: 54, RIM_Y: 78, DEPTH: 16, SEAT_Y: 84 },
+  /* alpha-trims of the weight illustrations (the length-bench lesson
+     applied here too: seat the DEPICTED object, never the image box —
+     book/shoe/watermelon carry up to 23% transparent padding below the
+     art). Gate re-measures with sharp; drift fails the build. */
+  WTRIMS: {
+    mouse: { x: 23, y: 78, w: 969, h: 890, iw: 1024, ih: 1024 },
+    strawberry: { x: 134, y: 29, w: 739, h: 976, iw: 1024, ih: 1024 },
+    hamster: { x: 26, y: 23, w: 977, h: 990, iw: 1024, ih: 1024 },
+    apple: { x: 125, y: 24, w: 759, h: 982, iw: 1024, ih: 1024 },
+    ball: { x: 26, y: 24, w: 963, h: 987, iw: 1024, ih: 1024 },
+    duck: { x: 116, y: 19, w: 782, h: 989, iw: 1024, ih: 1024 },
+    book: { x: 19, y: 273, w: 978, h: 517, iw: 1024, ih: 1024 },
+    shoe: { x: 27, y: 274, w: 970, h: 550, iw: 1024, ih: 1024 },
+    owl: { x: 53, y: 34, w: 899, h: 966, iw: 1024, ih: 1024 },
+    rabbit: { x: 97, y: 18, w: 823, h: 993, iw: 1024, ih: 1024 },
+    cat: { x: 93, y: 26, w: 828, h: 998, iw: 1024, ih: 1024 },
+    penguin: { x: 176, y: 22, w: 647, h: 992, iw: 1024, ih: 1024 },
+    pumpkin: { x: 40, y: 31, w: 946, h: 980, iw: 1024, ih: 1024 },
+    fox: { x: 151, y: 33, w: 739, h: 972, iw: 1024, ih: 1024 },
+    dog: { x: 109, y: 26, w: 804, h: 984, iw: 1024, ih: 1024 },
+    koala: { x: 60, y: 20, w: 896, h: 986, iw: 1024, ih: 1024 },
+    watermelon: { x: 43, y: 148, w: 935, h: 739, iw: 1024, ih: 1024 },
+    sheep: { x: 29, y: 26, w: 972, h: 976, iw: 1024, ih: 1024 },
+    pig: { x: 52, y: 27, w: 922, h: 975, iw: 1024, ih: 1024 },
+    deer: { x: 130, y: 25, w: 746, h: 987, iw: 1024, ih: 1024 },
+    lion: { x: 75, y: 26, w: 877, h: 986, iw: 1024, ih: 1024 },
+    panda: { x: 57, y: 25, w: 890, h: 982, iw: 1024, ih: 1024 },
+    bear: { x: 205, y: 21, w: 598, h: 993, iw: 1024, ih: 1024 },
+    cow: { x: 24, y: 94, w: 976, h: 865, iw: 1024, ih: 1024 },
+    horse: { x: 61, y: 16, w: 902, h: 999, iw: 1024, ih: 1024 }
+  },
+  /* PURE placement: maps the trimmed art bottom-center onto (0, SEAT_Y)
+     inside the pan group, capped to fit the dish — gate-proven. */
+  _wtPlacement: function (key) {
+    var t = this.WTRIMS[key];
+    var k = Math.min(74 / t.h, 84 / t.w);
+    return {
+      width: t.iw * k, height: t.ih * k,
+      x: -(t.x + t.w / 2) * k,
+      y: this.PAN.SEAT_Y - (t.y + t.h) * k
+    };
+  },
   _cubeShape: function (x, y) {
     return '<g transform="translate(' + x + ' ' + y + ')" class="mb-cube-g" data-cube="1">' +
       '<path d="M4 8 L15 3 L26 8 L26 20 L15 25 L4 20 Z" fill="#E8A53A"/>' +
@@ -1058,8 +1100,9 @@ var MeasurementBench = {
     /* THE LOADS LIVE INSIDE THE PAN GROUPS (z-ordered under the front
        rim; they ride the pan transform — nothing to align, ever) */
     var loadL = bal.querySelector('.mb-pan-l .mb-pan-load');
-    loadL.innerHTML = '<image href="' + this._imgUrl(key) + '" x="-45" y="' + (P.SEAT_Y - 90) +
-      '" width="90" height="90" preserveAspectRatio="xMidYMax meet"/>';
+    var wp = this._wtPlacement(key);
+    loadL.innerHTML = '<image href="' + this._imgUrl(key) + '" x="' + wp.x + '" y="' + wp.y +
+      '" width="' + wp.width + '" height="' + wp.height + '"/>';
     this._paintCubes();
 
     /* cube supply */

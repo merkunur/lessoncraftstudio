@@ -512,6 +512,32 @@
       "Cafezinho da medida certa: uma criança é o cliente que pede quatro copinhos, outra despeja da jarra e a turma acompanha as marcações enchendo."
     ]
   },
+  "money-mat": {
+    "slug": "tapete-do-dinheiro",
+    "name": "O tapete do dinheiro",
+    "tagline": "Moedas e cédulas de real numa feirinha — pagar certinho e contar o troco",
+    "metaTitle": "O tapete do dinheiro: reais e centavos | LessonCraftStudio",
+    "metaDescription": "Feirinha interativa com as moedas e cédulas do real: a criança paga o preço certinho, forma a quantia de outro jeito e ouve o troco contado em voz alta. Grátis para começar.",
+    "about": [
+      "O tapete do dinheiro traz para a tela o dinheiro que a criança brasileira vê de verdade: as moedas de 5, 10, 25 e 50 centavos e de 1 real, mais as cédulas de 2, 5 e 10 reais — nada de dólares nem de moedinhas genéricas. Numa feirinha acolhedora, um item com etiqueta de preço espera na banca: a maçã, o pão, o ursinho de pelúcia. A criança toca nas moedas para colocá-las no tapete, o total vai subindo com um clim-clim gostoso, e um botão fala a quantia em voz alta do jeito que se fala na sala de aula — dois reais e trinta centavos.",
+      "Quando o pagamento fecha certinho, a banca celebra — e convida, sem pressão: você consegue formar a mesma quantia de outro jeito? É a equivalência de valores nascendo no gesto, com as duas combinações lado a lado no final. Colocou uma moeda a mais? É só tocar nela no tapete para devolvê-la à carteira — sem cronômetro, sem pontuação, sem carinha de reprovação: o feirante sorri o tempo todo.",
+      "A banca de preços pequenos, com todas as moedas e o convite do de outro jeito, é gratuita para sempre. O Premium adiciona os preços maiores, as cédulas, as bancas salvas e o modo de troco: a criança escolhe com o que pagar e o feirante conta o troco em voz alta, moedinha por moedinha — …e 10 centavos dá 75 centavos… — exatamente como no caixa da padaria."
+    ],
+    "howToUse": [
+      "Projete a feirinha e leia a etiqueta de preço juntos — depois deixe uma criança tocar nas moedas para pagar a quantia exata no tapete.",
+      "Toque no botão do alto-falante a qualquer momento para ouvir o total do tapete falado por extenso — dois reais e trinta centavos — e compare com a etiqueta.",
+      "Colocou uma moeda a mais? É só tocar nela no tapete para devolvê-la à carteira — o total se ajusta na hora.",
+      "Depois de pagar certinho, aceite o convite do de outro jeito e monte a mesma quantia com outras moedas — as duas formas aparecem lado a lado com um sinal de igual.",
+      "No Premium, ative o modo Receber troco: a criança escolhe a cédula ou moeda com que paga e acompanha o feirante contando o troco em voz alta, moeda por moeda."
+    ],
+    "classroomIdeas": [
+      "Feirinha da sala: monte uma banca de verdade com etiquetas de preço iguais às do tapete e deixe as crianças revezarem os papéis de feirante e cliente.",
+      "Desafio do outro jeito: uma dupla paga a mesma quantia de dois jeitos diferentes e a turma confere no painel se as duas combinações valem o mesmo.",
+      "Quem paga com menos moedas? Cada criança monta a mesma quantia no tapete e a turma compara as combinações — a conversa sobre trocar 5 moedinhas por uma nasce sozinha.",
+      "Caixa da padaria: no modo de troco, a turma conta junto com o feirante — e 10 centavos dá 75 centavos — antes de conferir se o troco fechou.",
+      "Ditado de quantias: a professora fala uma quantia — um real e quarenta e cinco centavos — e as crianças montam no tapete antes de conferir no alto-falante."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

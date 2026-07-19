@@ -512,6 +512,32 @@
       "Kaféleken: ett barn beställer fyra muggar, baristan häller ur kannan och klassen följer strecken på kärlet medan det fylls."
     ]
   },
+  "money-mat": {
+    "slug": "pengamattan",
+    "name": "Pengamattan",
+    "tagline": "Räkna riktiga svenska kronor på mattan — betala jämnt vid torgståndet.",
+    "metaTitle": "Pengamattan – räkna svenska kronor och växel | LessonCraftStudio",
+    "metaDescription": "Ett torgstånd med riktiga svenska kronor: tryck mynt på mattan och betala jämnt, lägg samma summa på två sätt och hör växeln räknas upp krona för krona. Gratis att börja.",
+    "about": [
+      "Pengamattan räknar med pengarna svenska barn faktiskt ser: enkronor, tvåkronor, femkronor och tiokronor — och i Premium även tjugolappar, femtiolappar och hundralappar. De flesta digitala pengaverktyg räknar dollar och cent; här står i stället ett varmt torgstånd med en illustrerad vara och en prislapp i hela kronor, precis som i en svensk affär. Barnet trycker mynt ur portmonnän på mattan, summan klättrar uppåt med små klirr, och en högtalarknapp läser upp den — ”sju kronor” — när klassen vill höra.",
+      "Den som betalar jämnt får ett varmt tack — och en vänlig inbjudan som går att tacka nej till: kan du lägga samma summa på ett annat sätt? En andra, genuint annorlunda kombination firas genom att båda sätten visas sida vid sida med ett likhetstecken emellan — likvärdighet blir synlig, aldrig bedömd. Varje mynt på mattan kan tryckas tillbaka i portmonnän, en summa som inte stämmer än är helt enkelt tyst, och torgförsäljarens leende ändras aldrig. Inga poäng, ingen klocka som tickar.",
+      "Torgståndet med låga priser och alla mynt — och ”på ett annat sätt” — är gratis för alltid. Premium öppnar sedlarna, de högre prisbanden, sparade torgstånd till stationsarbetet och växelläget: barnet väljer vad det vill betala med — varje erbjudet val är giltigt — och försäljaren räknar upp växeln krona för krona, högt: ”…och 1 krona blir 8 kronor.” Att räkna vidare uppåt från priset är precis den strategi lågstadiet övar — här blir den hörbar."
+    ],
+    "howToUse": [
+      "Visa torgståndet på projektorn och läs prislappen tillsammans — de låga priserna håller sig under tio kronor.",
+      "Låt ett barn trycka mynt ur portmonnän på mattan; följ hur summan klättrar, och tryck på ett mynt på mattan för att lägga tillbaka det.",
+      "Tryck på högtalarknappen så läses summan upp med riktiga penningord — ”sju kronor” — när klassen vill kolla.",
+      "Efter en jämn betalning: anta inbjudan, töm mattan och lägg samma summa på ett annat sätt — sedan visas båda sätten sida vid sida.",
+      "I Premium byter du till växelläget: välj vad du betalar med och ta emot varje mynt försäljaren räcker fram medan uppräkningen hörs högt."
+    ],
+    "classroomIdeas": [
+      "Myntjakten: visa ett pris och låt paren hitta ETT sätt att betala det — sedan samlar klassen alla olika sätt på tavlan.",
+      "Myntsnacket: när två sätt står sida vid sida, fråga vilket som använder minst antal mynt och varför — samtalet om likvärdighet sköter sig självt.",
+      "Klassens eget torgstånd: bygg ett riktigt litet stånd med varor och prislappar i hela kronor, spela upp köpet — och betala sedan samma pris på Pengamattan.",
+      "Växelekot: i växelläget upprepar klassen varje uppräkningssteg högt efter försäljaren — att räkna vidare blir en ramsa.",
+      "Stationstorget: spara ett torgstånd per grupp med priser i lagom band och låt grupperna rotera genom samma marknad."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

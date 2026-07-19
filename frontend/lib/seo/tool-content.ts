@@ -17,7 +17,7 @@ import { TOPIC_ENABLED_LOCALES } from '@/config/topic-locales';
 import { buildHreflangAlternates } from './hreflang';
 
 /** Canonical tool keys — match the mini-tool file basenames + MANIPULATIVES ids. */
-export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board', 'letter-tiles', 'calendar-wall', 'number-talk-easel', 'rekenrek', 'class-timer', 'name-sticks', 'center-board', 'learning-clock', 'place-value-lab', 'picture-word-wall', 'hush-owl', 'wodb', 'story-line', 'fraction-kitchen', 'measurement-bench'] as const;
+export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board', 'letter-tiles', 'calendar-wall', 'number-talk-easel', 'rekenrek', 'class-timer', 'name-sticks', 'center-board', 'learning-clock', 'place-value-lab', 'picture-word-wall', 'hush-owl', 'wodb', 'story-line', 'fraction-kitchen', 'measurement-bench', 'money-mat'] as const;
 export type ToolKey = (typeof TOOL_KEYS)[number];
 
 /** Mini-tool HTML path (nginx-direct, §3.3) per tool key. */
@@ -42,6 +42,7 @@ export const TOOL_MINI_URL: Record<ToolKey, string> = {
   'story-line': '/mini-tools/story-line.html',
   'fraction-kitchen': '/mini-tools/fraction-kitchen.html',
   'measurement-bench': '/mini-tools/measurement-bench.html',
+  'money-mat': '/mini-tools/money-mat.html',
 };
 
 /**
@@ -72,6 +73,7 @@ export const TOOL_ACTIVITY_PREFIX: Record<ToolKey, string> = {
   'story-line': 'story-line',
   'fraction-kitchen': 'fraction-kitchen',
   'measurement-bench': 'measurement-bench',
+  'money-mat': 'money-mat',
 };
 
 export interface ToolEntry {
@@ -117,6 +119,7 @@ interface ToolContentFile {
   'story-line'?: ToolEntry;
   'fraction-kitchen'?: ToolEntry;
   'measurement-bench'?: ToolEntry;
+  'money-mat'?: ToolEntry;
   labels: ToolContentLabels;
 }
 

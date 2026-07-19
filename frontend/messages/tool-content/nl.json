@@ -512,6 +512,32 @@
       "Koppel aan echt meten: leg na het scherm echte paperclips langs een echte pen en vergelijk. Digitaal en concreet meten versterken elkaar."
     ]
   },
+  "money-mat": {
+    "slug": "geldmat",
+    "name": "De geldmat",
+    "tagline": "Gepast betalen op het marktkraampje — en wisselgeld dat hardop wordt aangevuld.",
+    "metaTitle": "De geldmat — gepast betalen en wisselgeld oefenen",
+    "metaDescription": "Een marktkraampje met euromunten: kinderen betalen gepast, horen het bedrag hardop — twee euro dertig — en leren wisselgeld aanvullen, munt voor munt. Zonder druk.",
+    "about": [
+      "De geldmat is een digitaal marktkraampje voor geldrekenen in groep 3 tot en met 5. Op de kraam ligt iets te koop — een appel, een brood, een teddybeer — met een echt prijskaartje eraan. Kinderen tikken euromunten uit de portemonnee op de mat en betalen gepast. Het bedrag telt zichtbaar mee en wordt op verzoek hardop gezegd, precies zoals we het in de rekenles zeggen: ‘twee euro dertig’. Een munt te veel? Eén tikje en hij gaat gewoon terug — niets staat vast, niets is fout.",
+      "Na een gepaste betaling nodigt het kraampje vriendelijk uit: kun je hetzelfde bedrag ook op een andere manier leggen? Zo ontdekken kinderen spelenderwijs dat 50 cent hetzelfde is als twee munten van 20 en één van 10 — wisselen en samenstellen, de kern van geldrekenen. Er is geen timer, geen score en geen rood kruis: de uitnodiging blijft rustig staan tot het lukt, en ‘straks’ is ook een prima antwoord.",
+      "Gratis staat het kraampje met kleine prijzen en alle munten altijd klaar — inclusief ‘op een andere manier’. Met Premium gaan de grotere prijzen en het briefgeld open, en vooral de wisselgeldmodus: de marktkoopman vult hardop aan van de prijs naar het betaalde bedrag — ‘…en 10 cent erbij is 2 euro 50’ — munt voor munt, net als aanvullend optellen op de getallenlijn. Je mooiste kraampjes sla je op voor de volgende les."
+    ],
+    "howToUse": [
+      "Open het kraampje en bekijk samen het prijskaartje — hoeveel kost de appel vandaag?",
+      "Tik munten op de mat tot het bedrag precies klopt; tik op de luidspreker om het tussenbedrag hardop te horen.",
+      "Een munt te veel op de mat? Tik erop en hij gaat terug in de portemonnee.",
+      "Gelukt? Ga in op de uitnodiging ‘op een andere manier’ en leg hetzelfde bedrag met andere munten.",
+      "Met Premium: zet ‘Wisselgeld krijgen’ aan, kies waarmee je betaalt en tel hardop mee terwijl de koopman aanvult — ‘…en 20 cent erbij is 1 euro.’"
+    ],
+    "classroomIdeas": [
+      "Digibord-voorspellen: laat een prijs zien en laat de klas eerst op wisbordjes tekenen welke munten ze zouden pakken — leg daarna samen op de mat.",
+      "Gepast-betalen-estafette: elk kind legt één munt en geeft de beurt door; samen precies uitkomen is de kunst.",
+      "Koppel aan de klaswinkel: speel dezelfde prijzen na met speelgeld en controleer daarna op de geldmat of het klopt.",
+      "Wisselgeld-ritueel (Premium): laat de hele klas hardop meetellen met het aanvullen — ‘…en 5 cent erbij is 2 euro’ — net als op de markt.",
+      "Verzamelopdracht: hoeveel verschillende manieren vindt de klas om 50 cent te leggen? Verzamel ze allemaal op het bord."
+    ]
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

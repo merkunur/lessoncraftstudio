@@ -512,6 +512,32 @@
       "Painojärjestys: punnitkaa hiiri, kissa ja karhu ja järjestäkää kuvat kevyimmästä painavimpaan luokan mittausseinälle."
     ]
   },
+  "money-mat": {
+    "slug": "rahamatto",
+    "name": "Rahamatto",
+    "tagline": "Maksa kojun hinnat eurokolikoilla — ja kuule summa sanoina.",
+    "metaTitle": "Rahamatto – eurot ja sentit tutuiksi kauppaleikissä | Ilmainen",
+    "metaDescription": "Ilmainen rahatyökalu: lapsi maksaa kauppakojun hinnat eurokolikoilla, kuulee summan sanoina ja kokoaa saman summan toisella tavalla. Kauppaleikki taululle — ei kirjautumista.",
+    "about": [
+      "Rahamatto tuo kauppaleikin taululle: kojulla odottaa tuote hintalappuineen, vieressä on kukkaro täynnä eurokolikoita ja keskellä matto, jolle maksu kootaan. Lapsi napauttaa kolikon matolle, ja se kilahtaa paikalleen — isot kolikot matalammin, pienet heleämmin. Kolikot ovat selkeitä ja tyyliteltyjä, mutta niiden kokosuhteet ovat todelliset: kahden euron kolikko on aidosti suurin, kymmenen sentin kolikko pieni. Milloin tahansa voi kuunnella, paljonko matolla jo on — summa sanotaan ääneen kokonaisina rahasanoina, esimerkiksi ”kaksi euroa kolmekymmentä senttiä”.",
+      "Matolla ei ole kiirettä eikä tuomareita: kolikon voi aina napauttaa takaisin kukkaroon, ja kokeilla saa niin monta kertaa kuin haluaa. Kun hinta täyttyy tasan, koju kiittää — ja kutsuu sitten lempeästi kokoamaan saman summan vielä toisella tavalla. Juuri tässä syntyy oivallus, jota rahalaskenta eniten tarvitsee: viisikymmentä senttiä voi olla yksi kolikko, kaksi kahtakymmentä ja kympin, tai vaikka viisi kymppiä. Molemmat tavat jäävät näkyviin rinnakkain, jotta yhtäsuuruudesta voi puhua.",
+      "Pienten hintojen koju kolikoineen ja ”toisella tavalla” -kutsuineen on aina ilmainen. Premium avaa isommat hintaluokat, setelit, tallennetut kojut sekä vaihtorahatilan, jossa myyjä laskee vaihtorahat ääneen kolikko kolikolta — ”…ja viisikymmentä senttiä — yhteensä kaksi euroa” — juuri niin kuin torimyyjä laskee. Sama työkalu toimii yhdellätoista kielellä, kunkin kielialueen omalla rahalla."
+    ],
+    "howToUse": [
+      "Heijasta koju taululle ja valitse tuote — Toinen tuote -painike vaihtaa kojulle uuden tavaran ja uuden hinnan.",
+      "Anna lapsen napauttaa kolikoita matolle. Jokainen kolikko kilahtaa, ja matolta voi aina ottaa kolikon takaisin kukkaroon.",
+      "Kuunnelkaa välisumma Lue summa ääneen -painikkeesta — summa sanotaan kokonaisina rahasanoina, ei numeroina.",
+      "Kun hinta on maksettu tasan, koju kiittää ja ehdottaa: kokoa sama summa vielä toisella tavalla. Molemmat tavat jäävät näkyviin rinnakkain.",
+      "Premiumissa voit vaihtaa Saat vaihtorahaa -tilaan: lapsi valitsee, millä maksaa, ja myyjä laskee vaihtorahat ääneen kolikko kolikolta. Tallenna hyvä koju talteen huomista varten."
+    ],
+    "classroomIdeas": [
+      "Kauppaleikin aamupiiri: yksi lapsi on myyjä ja toinen ostaja. Myyjä lukee hinnan ääneen, ostaja kokoaa maksun matolle, ja luokka seuraa summan kasvamista.",
+      "Ennusta kolikot: ennen kuin kukaan koskee mattoon, luokka ehdottaa, mitkä kolikot riittäisivät hintaan — sitten kokeillaan ja kuunnellaan summa.",
+      "Sama summa monella tavalla: kootkaa taululle kaikki keksimänne tavat maksaa 50 senttiä ja verratkaa, missä tavassa on vähiten kolikoita.",
+      "Vaihtorahakuoro: vaihtorahatilassa koko luokka laskee myyjän mukana ääneen — ”…ja kymmenen senttiä — yhteensä yksi euro”.",
+      "Arjen hinnat: tutkikaa kaupan mainoslehteä, valitkaa sieltä tuttu tuote ja maksakaa sen hinta matolle — puhukaa samalla, miksi kaupassa hinnat pyöristyvät viiteen senttiin."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Measurement Bench — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=18">
+</head>
+<body>
+  <!-- The shell mounts the whole tool into this element. -->
+  <div id="lcs-root"></div>
+
+  <!-- Shell first, then this tool. -->
+  <script src="/mini-tools/lcs-shell.js?v=3"></script>
+  <script src="/mini-tools/measurement-bench.js?v=1"></script>
+  <script>
+    // URL params the shell understands:
+    //   ?lang=sv  ?lang=fi  (any of: en de fr it es pt nl sv da no fi)
+    //   ?embed=1 / ?embed=compact
+    // Tool-specific deep links: ?bench=length|capacity|weight
+    // (Free resolves ONLY the length bench — a ?bench= deep link to a
+    //  premium bench renders the gate panel, zero premium DOM.)
+    LCS.mount(MeasurementBench, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

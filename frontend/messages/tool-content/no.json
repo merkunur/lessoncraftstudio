@@ -486,6 +486,32 @@
       "Stasjonsarbeid på nettbrett: den gratis pizzaen er en komplett stasjon. To og to skjærer, deler ut og sier brøknavnene høyt til hverandre."
     ]
   },
+  "measurement-bench": {
+    "slug": "malebenken",
+    "name": "Målebenken",
+    "tagline": "Legg binderser kant i kant, hell mellom begre og vei dyr i kuber — gjett først, mål etterpå.",
+    "metaTitle": "Målebenken – mål lengde, volum og vekt på storskjerm",
+    "metaDescription": "Barna gjetter først og måler etterpå: legger binderser kant i kant, heller mellom inndelte begre og veier dyr i kuber på en ekte skålvekt. Lengdebenken er alltid gratis.",
+    "about": [
+      "Målebenken er tre små verksteder i ett: en lengdebenk, en volumbenk og en vektbenk. På lengdebenken legger barna binderser eller kuber kant i kant langs en gulrot, et tog eller en buss. På volumbenken heller de mellom kanna og to inndelte begre — med ekte klukkelyder. Og på vektbenken står en ordentlig skålvekt som vipper og svinger til den finner balansen: «Reven veier 8 kuber!»",
+      "Rutinen er alltid den samme: gjett først, mål etterpå. Barnet fester gjetningen sin på en liten lapp, måler, og ser de to tallene side om side — «Gjettet: 6 · Målt: 8». Ingen poeng, ingen nedtelling, ingen rød farge: en gjetning feires som tenking. Og blir det mellomrom eller overlapp i rekka, dytter benken dem vennlig sammen — «Vi legger binderser kant i kant — da blir ingenting glemt». Fysikk og varme, aldri en dom.",
+      "Lengdebenken — med gjettelappen — er gratis for alltid. Premium åpner volum- og vektbenkene, gjettelista som samler barnas gjetninger og målinger, og lagrede oppsett, så morgenstasjonen står klar akkurat slik du forlot den. Alt finnes på elleve språk."
+    ],
+    "howToUse": [
+      "Vis Målebenken på storskjerm eller nettbrett, og velg benk: lengde, volum eller vekt.",
+      "La barnet gjette først — juster tallet med pluss og minus, og fest gjetningen på lappen.",
+      "På lengdebenken: dra binderser eller kuber fra haugen og legg dem kant i kant langs gjenstanden — trykk «Tell» når rekka er hel.",
+      "På volumbenken: trykk på et beger og hold kanna inne for å helle. På vektbenken: legg på kuber til vekten er i balanse.",
+      "Se på de to tallene sammen — gjetningen og målingen — og snakk om hva barnet la merke til. Så: en ny gjenstand!"
+    ],
+    "classroomIdeas": [
+      "Gjettesirkel: la hele klassen gjette før dere måler — skriv tre av gjetningene på tavla, og mål sammen.",
+      "Måljakt i klasserommet: mål gulroten på benken først, og finn så noe i rommet som er omtrent like langt.",
+      "Fra lettest til tyngst: vei tre dyr på vektbenken og still dem opp i rekkefølge — stemmer det med det barna trodde?",
+      "Hell og sammenlign: rommer det høye begeret mer enn den brede skålen? La barna diskutere før noen heller.",
+      "Målestasjon: lagre et oppsett som morgenstasjon, og la barna jobbe to og to — én gjetter, én måler, så bytter de."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

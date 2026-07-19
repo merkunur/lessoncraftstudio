@@ -486,6 +486,32 @@
       "Bakplaat-uitdaging (Premium): vraag hoeveel zesden er in een helft van de reep passen, laat kinderen eerst schatten en dan de bakplaat vullen."
     ]
   },
+  "measurement-bench": {
+    "slug": "meetwerkbank",
+    "name": "Meetwerkbank",
+    "tagline": "Schat en meet lengte, inhoud en gewicht",
+    "metaTitle": "Gratis interactieve meetwerkbank | LessonCraftStudio",
+    "metaDescription": "Een gratis online meetwerkbank voor de klas. Eerst schatten, dan meten: lengte met paperclips, inhoud met bekers en gewicht met een balans. Geen account, geen installatie.",
+    "about": [
+      "De meetwerkbank brengt drie meethoeken van de rekentafel naar het scherm: een lengtewerkbank waar kinderen paperclips of blokjes achter elkaar langs een getekend voorwerp leggen, een inhoudwerkbank waar ze water schenken tussen maatbekers, en een gewichtswerkbank met een echte balans die pas tot rust komt als het klopt: de vos weegt 8 blokjes!",
+      "Op elke werkbank is de vaste gewoonte: eerst schatten, dan meten. Een schatting is nooit goed of fout — de werkbank zet gok en meting gewoon naast elkaar, want schatten ís denken. Ook de klassieke valkuilen worden vriendelijk opgevangen: liggen de blokjes met gaatjes of over elkaar, dan schuift de werkbank ze zachtjes tegen elkaar aan, zodat het meten vanzelf eerlijk wordt.",
+      "De lengtewerkbank, mét het schatten, is altijd gratis. Premium voegt de inhoud- en gewichtswerkbank toe, plus de schattingenlijst en opgeslagen opstellingen zodat je een meethoek voor je groep kunt klaarzetten. Alles werkt direct in de browser op digibord, tablet en computer — zonder account, zonder timer en zonder score."
+    ],
+    "howToUse": [
+      "Kies op de lengtewerkbank een voorwerp en laat de kinderen eerst schatten: hoeveel paperclips of blokjes lang zou het zijn? Bewaar de schatting.",
+      "Sleep de eenheden achter elkaar langs het voorwerp. Liggen er gaatjes of overlapt er iets, dan schuift de werkbank ze vriendelijk tegen elkaar aan.",
+      "Tik op Tellen en bekijk samen de twee getallen naast elkaar: geschat en gemeten. Praat over wat de meting je leert voor de volgende schatting.",
+      "Ga naar de inhoudwerkbank: schat hoeveel bekers er in de hoge maatbeker passen, en schenk dan door de kan ingedrukt te houden tot hij vol is.",
+      "Weeg op de gewichtswerkbank een dier of voorwerp: leg blokjes op het schaaltje tot de balans in evenwicht is, en sla een mooie opstelling op voor je meethoek."
+    ],
+    "classroomIdeas": [
+      "Schattingenronde op het digibord: laat elk kind een schatting noemen voordat er gemeten wordt, schrijf ze op het bord en bespreek na de meting hoe je steeds slimmer kunt schatten.",
+      "Meet hetzelfde voorwerp eerst in paperclips en daarna in blokjes en vraag waarom de twee getallen verschillen — zo ontdekken kinderen waarom de eenheid ertoe doet.",
+      "Schenk het water van de hoge maatbeker in de brede schaal en vraag: is het nu meer, minder of nog evenveel? Een klein gesprek over inhoud dat lang blijft hangen.",
+      "Laat kinderen voorspellen wie zwaarder is — de muis of de vos? — en controleer het daarna op de balans. Bouw samen een rij van licht naar zwaar.",
+      "Koppel aan echt meten: leg na het scherm echte paperclips langs een echte pen en vergelijk. Digitaal en concreet meten versterken elkaar."
+    ]
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

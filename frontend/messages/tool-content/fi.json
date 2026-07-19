@@ -486,6 +486,32 @@
       "Tarinatehtävät: käyttäkää sisäänrakennettuja jakamistarinoita lämmittelynä ja näytelkää ne sitten uudestaan oikealla välipalahetkellä."
     ]
   },
+  "measurement-bench": {
+    "slug": "mittauspaja",
+    "name": "Mittauspaja",
+    "tagline": "Arvioi ensin, mittaa sitten — pituutta klemmareilla, tilavuutta kaatamalla ja painoa aidolla tasapainovaa’alla.",
+    "metaTitle": "Mittauspaja – pituus, tilavuus ja paino leikiten | Ilmainen",
+    "metaDescription": "Ilmainen mittaustyökalu alkuopetukseen: arvioi ensin, mittaa sitten — pituutta klemmareilla, tilavuutta kaatamalla ja painoa aidolla tasapainovaa’alla. Ei kirjautumista.",
+    "about": [
+      "Mittauspaja kokoaa kolme mittaustapaa yhteen näkymään: pituuden, tilavuuden ja painon. Pituutta mitataan asettamalla klemmareita tai kuutioita peräkkäin tuttujen kuvien — porkkanan, junan tai kaulahuivin — viereen. Tilavuutta tutkitaan kaatamalla vettä kannusta astioihin ihan itse, pohjassa pitämällä, glugsutuksen säestyksellä. Painoa punnitaan aidolla tasapainovaa’alla, joka keinuu ja asettuu aivan kuin luokan vaaka: Kettu painaa 8 kuutiota!",
+      "Jokainen mittaus alkaa arviosta. Montako kuutiota kettu painaa? Lapsi säätää lukua ja kiinnittää arvionsa lapulle — ja mittauksen jälkeen rinnalla lukee vain: Arvio: 6 · Mittaus: 8. Se on pelkkä vertailu, ei tuomio, sillä arvaus on ajattelua ja siitä iloitaan. Jos klemmarien väliin jää rakoja tai ne menevät päällekkäin, ystävällinen ääni työntää ne kauniisti vierekkäin, ettei mitään jää väliin — fysiikka hoitaa opetuksen lempeästi, ilman punaisia värejä ja summereita.",
+      "Pituuden mittaaminen arviolappuineen on aina ilmaista. Premium avaa tilavuus- ja painomittaukset — kaatamisen kannusta astiasta toiseen, aidon tasapainovaa’an, arviolokin, johon lapsen arviot ja mittaukset tallentuvat, sekä tallennetut asetelmat seuraavaa tuntia varten — kaikki yhdellätoista kielellä."
+    ],
+    "howToUse": [
+      "Heijasta Mittauspaja taululle ja valitse, mitä mitataan: pituus, tilavuus vai paino.",
+      "Kysy ensin arvio: montako klemmaria tarvitaan? Lapsi säätää lukua ja kiinnittää arvionsa lapulle.",
+      "Pituus: asettele klemmareita tai kuutioita peräkkäin kuvan viereen ja napauta Laske — jos väliin jää rakoja, yksiköt työntyvät kauniisti vierekkäin.",
+      "Tilavuus: valitse astia napauttamalla ja kaada kannusta pohjassa pitämällä, kunnes astia on täynnä piripintaan.",
+      "Paino: lisää kuutioita vaakakuppiin, kunnes vaaka asettuu tasapainoon — ja verratkaa lopuksi arviota ja mittausta yhdessä ihmetellen."
+    ],
+    "classroomIdeas": [
+      "Arviokierros aamupiirissä: koko luokka arvioi ensin ääneen, montako kuutiota lehmä painaa — sitten vaaka kertoo, ja arvioita verrataan jutellen, ilman kilpailua.",
+      "Rakoja vai ei? Pyydä lasta asettamaan klemmarit tahallaan harvakseltaan ja katsokaa yhdessä, miksi lukema muuttuu, kun ne työnnetään vierekkäin.",
+      "Sama esine, kaksi yksikköä: mitatkaa patonki ensin klemmareilla ja sitten kuutioilla — miksi lukema on eri, vaikka patonki ei muutu?",
+      "Kaatokoe: arvioikaa, montako kupillista mahtuu leveään astiaan ja montako korkeaan — silmä pettää usein, ja juuri siitä syntyy paras keskustelu.",
+      "Painojärjestys: punnitkaa hiiri, kissa ja karhu ja järjestäkää kuvat kevyimmästä painavimpaan luokan mittausseinälle."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

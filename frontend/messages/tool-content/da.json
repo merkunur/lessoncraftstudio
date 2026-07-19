@@ -486,6 +486,32 @@
       "Fair eller ikke fair: Skær med vilje et skævt snit, og lad børnene forklare med deres egne ord, hvorfor delingen ikke er fair — og hvor snittet skal ligge i stedet."
     ]
   },
+  "measurement-bench": {
+    "slug": "maalebaenken",
+    "name": "Målebænken",
+    "tagline": "Gæt først, mål bagefter — læg clips, hæld kopper og vej med terninger",
+    "metaTitle": "Gratis målebænk – mål længde, rumfang og vægt | LessonCraftStudio",
+    "metaDescription": "En gratis målebænk til indskolingen. Børnene gætter først og måler bagefter — lægger clips langs billeder, hælder mellem inddelte bægre og vejer dyr med terninger. Uden login.",
+    "about": [
+      "Målebænken er tre små måleværksteder i ét: en længdebænk, en rumfangsbænk og en vægtbænk. Børnene lægger clips og terninger kant mod kant langs rigtige billeder — en gulerod, et tog, en bus — hælder vand mellem inddelte bægre og vejer dyr på en rigtig skålvægt, der vipper og langsomt finder ro. Alt måles i enheder, børnene kan holde i hånden: clips, terninger og kopper — præcis som i indskolingens første arbejde med måling i Fælles Mål.",
+      "Rutinen er altid den samme: Gæt først, mål bagefter. Børnene gemmer deres gæt, måler efter og ser de to tal side om side — Dit gæt: 6 · Målt: 8 — uden røde krydser og uden stopur, for et gæt er tænkning, ikke et facit. Og fysikken er venlig: Ligger der huller eller overlap i kæden af clips, rykker bænken dem stille og roligt helt sammen, så intet bliver sprunget over. Bliver terningesiden på vægten for tung, undrer den venlige stemme sig bare: Skal vi tage én af?",
+      "Længdebænken — med gættet, de to enheder og linealtjekket — er altid gratis. Med Premium åbner rumfangs- og vægtbænkene: at hælde mellem kande, bæger og skål, at veje hele billedbiblioteket fra musen til hesten, gættelisten med de seneste målinger og de gemte opstillinger, så stationen står klar til næste time."
+    ],
+    "howToUse": [
+      "Vis Målebænken på den interaktive tavle, og start på længdebænken — vælg clips eller terninger med knapperne nederst.",
+      "Spørg klassen: Hvor mange clips måler guleroden? Lad et barn trykke gættet ind og gemme det, før der bliver målt.",
+      "Træk clips fra bunken, og læg dem kant mod kant langs billedet — tryk så på Tæl, og hør sætningen sagt højt. Er der huller eller overlap, rykker bænken selv kæden venligt sammen.",
+      "På rumfangsbænken (Premium) trykker børnene på et bæger og holder kanden nede for at hælde — stregerne viser, hvor mange kopper der er plads til, og gættet står klar til sammenligning.",
+      "På vægtbænken (Premium) lægger børnene terninger på vægtskålen, til vægten finder ro — så siges det højt: Ræven vejer 8 terninger!"
+    ],
+    "classroomIdeas": [
+      "Morgenmåling: Ét billede på tavlen hver morgen. Alle skriver deres gæt på en seddel, før der måles fælles — og bagefter taler I om, hvad der hjalp med at gætte tættere.",
+      "Enheds-snak: Mål den samme ting først med clips og bagefter med terninger. Hvorfor bliver tallet større, når enheden er mindre? Lad børnene forklare det med deres egne ord.",
+      "Hæld og forudsig (Premium): Hvilken beholder kan rumme mest — det høje bæger eller den brede skål? Lad klassen stemme, før der hældes, og lad målingen afgøre samtalen.",
+      "Dyrevægt-rækkefølge (Premium): Vej musen, katten og hesten, og stil dem op fra lettest til tungest. Passer rækkefølgen med det, klassen ventede?",
+      "Mål-jagt i klassen: Find bagefter ting på bordene, der måler cirka 5 clips — og tjek efter med rigtige clips. Så flytter skærmens måling ud i hænderne."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

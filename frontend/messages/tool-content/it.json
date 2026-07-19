@@ -486,6 +486,32 @@
       "Dopo la pizza digitale, tagliate una focaccia o una torta vera per la merenda: gli stessi gesti, le stesse parole, parti uguali per tutti."
     ]
   },
+  "measurement-bench": {
+    "slug": "banco-delle-misure",
+    "name": "Il banco delle misure",
+    "tagline": "Tre banchi illustrati per stimare e misurare: graffette in fila, travasi tra recipienti e una vera bilancia a piatti.",
+    "metaTitle": "Il banco delle misure – lunghezza, capacità e peso online",
+    "metaDescription": "Tre banchi per misurare: lunghezza con graffette e cubetti, capacità versando tra recipienti graduati, peso con una vera bilancia. Prima si stima, poi si misura.",
+    "about": [
+      "Il banco delle misure porta in classe tre postazioni illustrate per le prime misurazioni. Al banco della lunghezza i bambini posano graffette o cubetti uno dopo l’altro lungo oggetti veri e riconoscibili — la carota, lo spazzolino, il treno — e poi contano. Al banco della capacità versano da una brocca in recipienti graduati, tenendo premuto per far scendere il liquido con tanto di glu-glu. Al banco del peso c’è una vera bilancia a piatti: si aggiungono cubetti finché i piatti non si fermano in equilibrio, e si scopre che la volpe pesa 8 cubetti!",
+      "La routine è sempre la stessa: prima si stima, poi si misura. Ogni stima viene accolta come un pensiero prezioso, mai come una risposta da giudicare: alla fine compare solo l’accostamento sereno «Stimato: 6 · Misurato: 8», senza verdetti, punteggi o timer. Anche la fisica è gentile: se tra le graffette restano buchi o sovrapposizioni — l’errore più classico di questa età — una voce affettuosa propone di avvicinarle, e la fila si stringe da sola. Sbagliare fa parte del misurare.",
+      "Il banco della lunghezza, completo del cartellino della stima, è gratuito per sempre. Con Premium si aprono anche il banco della capacità e quello del peso, il diario delle stime che raccoglie i confronti dei bambini e le postazioni salvate, pronte da riaprire per la lezione successiva."
+    ],
+    "howToUse": [
+      "Scegli un banco con le linguette in alto: Lunghezza (sempre gratuito), Capacità o Peso.",
+      "Leggi la domanda di stima, regola il numero con − e + e tocca «Segna la mia stima»: il palpite resta appuntato mentre si misura.",
+      "Al banco della lunghezza trascina graffette o cubetti dalla pila e posali uno dopo l’altro lungo l’oggetto, poi tocca «Conta».",
+      "Al banco della capacità tocca un recipiente per sceglierlo e tieni premuta la brocca per versare; al banco del peso aggiungi cubetti sul piatto finché la bilancia non è in equilibrio.",
+      "Confronta stima e misura insieme ai bambini, poi passa a un altro oggetto — con Premium puoi salvare la postazione e rivedere «Le mie stime»."
+    ],
+    "classroomIdeas": [
+      "Cerchio delle stime: prima di misurare, ogni bambino dice la sua stima e la scrivete alla lavagna; poi misurate insieme e osservate quanto eravate vicini — ogni stima è un pensiero, non un voto.",
+      "Stesso oggetto, unità diverse: misurate il treno prima in graffette e poi in cubetti. Perché i numeri sono diversi se il treno è sempre lo stesso? Un’unità più piccola ne richiede di più!",
+      "Mettiamo in fila gli animali: al banco del peso pesate il topo, la volpe e l’orso, poi ordinateli dal più leggero al più pesante. Chi pesa più del cane?",
+      "Alto o largo? Al banco della capacità chiedete: contiene di più il bicchiere alto o la ciotola larga? La forma inganna — solo versando si scopre la verità.",
+      "Dal digitale al reale: dopo il banco, misurate oggetti veri della classe con graffette vere. La regola della fila senza buchi e senza sovrapposizioni vale anche sul banco di legno!"
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

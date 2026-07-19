@@ -315,6 +315,26 @@ function serve() {
     const key = await page.evaluate(() => MeasurementBench._wtKey);
     const weight = await page.evaluate(() => MeasurementBench.WEIGHTS[MeasurementBench._wtKey]);
     ok('an object sits on the left pan', !!key);
+    /* seating asserts: the loads' DOM rects must sit on the pan floors
+       AT THE SHARED ANCHORS, at rest AND at both tilt extremes */
+    const seating = async (label) => {
+      await sleep(900);
+      const m = await page.evaluate(() => {
+        const T = MeasurementBench;
+        const s = T._scale;
+        const stageR = document.querySelector('.mb-stage').getBoundingClientRect();
+        const L = T._panAnchor('left', T.balAngle), R = T._panAnchor('right', T.balAngle);
+        const obj = document.querySelector('.mb-wtobj').getBoundingClientRect();
+        const stack = document.querySelector('.mb-cubestack').getBoundingClientRect();
+        const toStage = (px, py) => ({ x: (px - stageR.left) / s, y: (py - stageR.top) / s });
+        const objBC = toStage(obj.left + obj.width / 2, obj.bottom);
+        const stackB = toStage(stack.left + stack.width / 2, stack.bottom);
+        return { objDx: objBC.x - L.x, objFloor: objBC.y - (L.y + 66), stackDx: stackB.x - R.x, stackFloor: stackB.y - (R.y + 62) };
+      });
+      ok(`${label}: object bottom-center seated on the left pan`, Math.abs(m.objDx) < 6 && Math.abs(m.objFloor) < 6, JSON.stringify(m));
+      ok(`${label}: cube stack seated on the right pan`, Math.abs(m.stackDx) < 6 && Math.abs(m.stackFloor) < 6, JSON.stringify(m));
+    };
+    await seating('at rest (0 cubes, tilted left)');
     /* under-load: beam must tilt negative (object side down) */
     await page.evaluate((n) => { MeasurementBench.cubes = n; }, Math.max(0, weight - 2));
     await sleep(900);
@@ -327,6 +347,7 @@ function serve() {
     angle = await page.evaluate(() => MeasurementBench.balAngle);
     const over1 = await page.evaluate(() => window.__spoken.some((s) => /Take one off/i.test(s)));
     ok('over-loaded beam tilts the other way + kind line', angle > 1 && over1);
+    await seating('over-loaded (tilted right)');
     await page.evaluate(() => { window.__spoken = []; MeasurementBench._checkOver(); });
     const over2 = await page.evaluate(() => window.__spoken.some((s) => /Take one off/i.test(s)));
     ok('overshoot line ≤1 per object', !over2);
@@ -340,7 +361,19 @@ function serve() {
     }));
     ok('exact cubes settle the beam', done.settled);
     ok('weight sentence speaks with the noun', new RegExp('weighs ' + weight + ' cubes', 'i').test(done.spoke), done.spoke);
+    await seating('settled (level)');
     await page.screenshot({ path: path.join(QA, 'E-weight-settled.png') });
+    /* heavy-object capture: 12 cubes in the 4-column stack for the eyeball */
+    await page.evaluate(() => {
+      const T = MeasurementBench;
+      T.wtIdx = T.WEIGHT_KEYS.indexOf('horse');
+      T.cubes = 0; T.balAngle = 0; T.balVel = 0; T.settled = false; T.overSpoken = false;
+      T.est = null; T.measured = null;
+      T.render();
+      T.cubes = 12; T._paintCubes();
+    });
+    await sleep(2500);
+    await page.screenshot({ path: path.join(QA, 'E-weight-heavy.png') });
     ok('E no js errors', page._errs.length === 0, page._errs[0]);
     await page.close();
   }

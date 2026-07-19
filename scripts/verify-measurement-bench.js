@@ -155,6 +155,19 @@ for (const [k, w] of Object.entries(T.WEIGHTS)) {
     if (Math.abs(a) > T.BAL.maxAngle) E(`balanceAngle exceeds maxAngle at ${c}`);
     prev = a;
   }
+  /* pan geometry: ropes provably ON the beam; the shared anchor is
+     pure + symmetric (the SVG pans and the HTML loads both consume it) */
+  if (T.BAL.arm - T.BAL_HANG_INSET + T.BAL_ROPE_HALF > T.BAL.arm) E('pan ropes extend beyond the beam end');
+  if (T.BAL_HANG_INSET < T.BAL_ROPE_HALF) E('hang inset smaller than the rope half-width — the outer rope leaves the beam');
+  {
+    const L0 = T._panAnchor('left', 0), R0 = T._panAnchor('right', 0);
+    if (Math.abs(L0.y - R0.y) > 1e-9) E('panAnchor: pans not level at angle 0');
+    if (Math.abs((T.BAL_CX - L0.x) - (R0.x - T.BAL_CX)) > 1e-9) E('panAnchor: pans not symmetric about the pivot');
+    const L8 = T._panAnchor('left', 8), R8 = T._panAnchor('right', 8);
+    if (!(L8.y < L0.y && R8.y > R0.y)) E('panAnchor: positive tilt must raise the left pan and lower the right');
+    const r = Math.hypot(L8.x - T.BAL_CX, L8.y - T.BAL_CY);
+    if (Math.abs(r - (T.BAL.arm - T.BAL_HANG_INSET)) > 1e-6) E('panAnchor: hang radius drifted off arm − inset');
+  }
   /* relative-sanity pairs — a mouse never outweighs a bear */
   const pairs = [['mouse', 'cat'], ['cat', 'fox'], ['fox', 'sheep'], ['sheep', 'bear'], ['strawberry', 'pumpkin'], ['apple', 'watermelon'], ['duck', 'pig'], ['rabbit', 'lion'], ['hamster', 'cow']];
   for (const [a, b] of pairs) {

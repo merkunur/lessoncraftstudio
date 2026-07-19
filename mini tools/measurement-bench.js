@@ -986,6 +986,18 @@ var MeasurementBench = {
 
   /* ======================== WEIGHT bench =========================== */
 
+  /* PURE shared hang-point — the ONE source both the SVG pan transforms
+     and the HTML load overlays consume (they can never diverge). Pans
+     hang at HANG_R = arm − 30, INSET from the tip, so both ropes
+     (local ±20) always land ON the beam — gate-proven. */
+  BAL_CX: 330, BAL_CY: 160, BAL_HANG_INSET: 30, BAL_ROPE_HALF: 20,
+  _panAnchor: function (side, angleDeg) {
+    var a = angleDeg * Math.PI / 180;
+    var r = this.BAL.arm - this.BAL_HANG_INSET;
+    var sgn = side === 'left' ? -1 : 1;
+    return { x: this.BAL_CX + sgn * r * Math.cos(a), y: this.BAL_CY + sgn * r * Math.sin(a) };
+  },
+
   _renderWeight: function (stage) {
     var api = this.api, self = this;
     stage.innerHTML = '';
@@ -995,24 +1007,27 @@ var MeasurementBench = {
     hint.textContent = api.t('weightHint');
     stage.appendChild(hint);
 
-    /* the balance (SVG): post + beam group rotating around the pivot;
-       pans hang from the beam tips and stay level */
+    /* the balance (SVG in STAGE coordinates — viewBox 660x430 = the
+       stage, so the HTML load overlays share ONE coordinate system);
+       pans hang from _panAnchor points INSET on the beam */
     var bal = api.el('div', 'mb-balance');
     var arm = this.BAL.arm;
+    var cx = this.BAL_CX, cy = this.BAL_CY, rh = this.BAL_ROPE_HALF;
+    var panG = function (cls) {
+      return '<g class="' + cls + '">' +
+        '<line x1="' + (-rh) + '" y1="0" x2="' + (-rh) + '" y2="60" stroke="#8B6F47" stroke-width="2.5"/>' +
+        '<line x1="' + rh + '" y1="0" x2="' + rh + '" y2="60" stroke="#8B6F47" stroke-width="2.5"/>' +
+        '<path d="M-52 60 q52 34 104 0 l-8 10 q-44 26 -88 0 Z" fill="#B9855C" stroke="#8B6F47" stroke-width="2"/></g>';
+    };
     bal.innerHTML =
-      '<svg viewBox="0 0 660 360" width="660" height="360" aria-hidden="true">' +
-      '<rect x="310" y="120" width="14" height="180" rx="6" fill="#8B6F47"/>' +
-      '<rect x="250" y="296" width="134" height="16" rx="8" fill="#6F5738"/>' +
-      '<circle cx="317" cy="120" r="10" fill="#5A4630"/>' +
+      '<svg viewBox="0 0 660 430" width="660" height="430" aria-hidden="true">' +
+      '<rect x="' + (cx - 7) + '" y="' + cy + '" width="14" height="196" rx="6" fill="#8B6F47"/>' +
+      '<rect x="' + (cx - 67) + '" y="' + (cy + 192) + '" width="134" height="16" rx="8" fill="#6F5738"/>' +
       '<g class="mb-beam-g">' +
-      '<rect x="' + (317 - arm) + '" y="114" width="' + (arm * 2) + '" height="12" rx="6" fill="#C99B62" stroke="#8B6F47" stroke-width="2"/>' +
+      '<rect x="' + (cx - arm) + '" y="' + (cy - 6) + '" width="' + (arm * 2) + '" height="12" rx="6" fill="#C99B62" stroke="#8B6F47" stroke-width="2"/>' +
       '</g>' +
-      '<g class="mb-pan-l"><line x1="0" y1="0" x2="0" y2="64" stroke="#8B6F47" stroke-width="2.5" transform="translate(-26 0)"/>' +
-      '<line x1="26" y1="0" x2="26" y2="64" stroke="#8B6F47" stroke-width="2.5"/>' +
-      '<path d="M-52 64 q52 34 104 0 l-8 10 q-44 26 -88 0 Z" fill="#B9855C" stroke="#8B6F47" stroke-width="2"/></g>' +
-      '<g class="mb-pan-r"><line x1="0" y1="0" x2="0" y2="64" stroke="#8B6F47" stroke-width="2.5" transform="translate(-26 0)"/>' +
-      '<line x1="26" y1="0" x2="26" y2="64" stroke="#8B6F47" stroke-width="2.5"/>' +
-      '<path d="M-52 64 q52 34 104 0 l-8 10 q-44 26 -88 0 Z" fill="#B9855C" stroke="#8B6F47" stroke-width="2"/></g>' +
+      '<circle cx="' + cx + '" cy="' + cy + '" r="10" fill="#5A4630"/>' +
+      panG('mb-pan-l') + panG('mb-pan-r') +
       '</svg>';
     stage.appendChild(bal);
     this._balEl = bal;
@@ -1064,8 +1079,8 @@ var MeasurementBench = {
       var c = this.api.el('button', 'mb-cube');
       c.type = 'button';
       c.innerHTML = this._unitSVG('cube', 0.9);
-      c.style.left = ((i % 3) * 26) + 'px';
-      c.style.bottom = (Math.floor(i / 3) * 22) + 'px';
+      c.style.left = ((i % 4) * 24) + 'px';
+      c.style.bottom = (Math.floor(i / 4) * 22) + 'px';
       (function (btn) {
         btn.addEventListener('click', function () {
           if (self.settled) return;
@@ -1115,20 +1130,24 @@ var MeasurementBench = {
     this._raf = requestAnimationFrame(step);
   },
   _paintBalance: function () {
-    var a = this.balAngle * Math.PI / 180;
-    var arm = this.BAL.arm;
-    var cx = 317, cy = 120;
     var beam = this._balEl.querySelector('.mb-beam-g');
-    if (beam) beam.setAttribute('transform', 'rotate(' + this.balAngle.toFixed(2) + ' ' + cx + ' ' + cy + ')');
-    var lx = cx - arm * Math.cos(a), ly = cy - arm * Math.sin(a);
-    var rx = cx + arm * Math.cos(a), ry = cy + arm * Math.sin(a);
+    if (beam) beam.setAttribute('transform', 'rotate(' + this.balAngle.toFixed(2) + ' ' + this.BAL_CX + ' ' + this.BAL_CY + ')');
+    var L = this._panAnchor('left', this.balAngle);
+    var Rr = this._panAnchor('right', this.balAngle);
     var pl = this._balEl.querySelector('.mb-pan-l');
     var pr = this._balEl.querySelector('.mb-pan-r');
-    if (pl) pl.setAttribute('transform', 'translate(' + lx + ' ' + ly + ')');
-    if (pr) pr.setAttribute('transform', 'translate(' + rx + ' ' + ry + ')');
-    /* HTML overlays track the pans (stage px == svg px here) */
-    if (this._wtObjEl) { this._wtObjEl.style.left = (lx - 45) + 'px'; this._wtObjEl.style.top = (ly + 70 - 20 + 8) + 'px'; }
-    if (this._stackEl) { this._stackEl.style.left = (rx - 40) + 'px'; this._stackEl.style.top = (ry + 70 - 66 + 65) + 'px'; }
+    if (pl) pl.setAttribute('transform', 'translate(' + L.x + ' ' + L.y + ')');
+    if (pr) pr.setAttribute('transform', 'translate(' + Rr.x + ' ' + Rr.y + ')');
+    /* HTML loads share the SAME anchors + coordinate system: bottom-
+       center seated on the pan floor (dish top edge at local y=60) */
+    if (this._wtObjEl) {
+      this._wtObjEl.style.left = L.x + 'px';
+      this._wtObjEl.style.top = (L.y + 66 - 84) + 'px';
+    }
+    if (this._stackEl) {
+      this._stackEl.style.left = (Rr.x - 48) + 'px';
+      this._stackEl.style.top = (Rr.y + 62 - 100) + 'px';
+    }
   },
 
   /* ============================ dock =============================== */
@@ -1314,9 +1333,9 @@ var MeasurementBench = {
   + '.mb-vessel.brimful .mb-vsvg{filter:drop-shadow(0 0 10px rgba(127,184,216,.8));}'
 
   /* weight */
-  + '.mb-balance{position:absolute;left:0;top:36px;pointer-events:none;}'
-  + '.mb-wtobj{position:absolute;width:90px;height:auto;pointer-events:none;user-select:none;-webkit-user-drag:none;z-index:3;}'
-  + '.mb-cubestack{position:absolute;width:80px;height:70px;z-index:3;}'
+  + '.mb-balance{position:absolute;left:0;top:0;pointer-events:none;}'
+  + '.mb-wtobj{position:absolute;height:84px;width:auto;transform:translateX(-50%);pointer-events:none;user-select:none;-webkit-user-drag:none;z-index:3;}'
+  + '.mb-cubestack{position:absolute;width:96px;height:100px;z-index:3;}'
   + '.mb-cube{position:absolute;width:28px;height:26px;padding:0;border:none;background:none;cursor:pointer;}'
   + '.mb-cubesupply{position:absolute;display:flex;gap:2px;min-width:100px;min-height:44px;padding:6px 10px;'
   +   'background:var(--lcs-surface);border:1.5px dashed rgba(20,107,94,.35);border-radius:14px;cursor:pointer;align-items:center;}'

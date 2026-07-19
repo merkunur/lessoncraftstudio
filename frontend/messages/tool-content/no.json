@@ -382,6 +382,32 @@
       "Fra vegg til skrivebok: etter samlingen velger hvert barn tre kort fra klassens vegg og skriver ordene med en eller et foran — bilde, stemme og blyant på samme ord i samme økt."
     ]
   },
+  "hush-owl": {
+    "slug": "ro-i-klassen",
+    "name": "Ugla sover",
+    "tagline": "Ro i klassen med ett felles mål: la ugla sove. Varmt, stille og helt uten alarmer, tall og røde soner.",
+    "metaTitle": "Ugla sover – et rolig verktøy for arbeidsro i klasserommet",
+    "metaDescription": "En søvnig ugle på storskjermen hjelper klassen med arbeidsro: så lenge dere holder dagens stemmenivå, sover ugla. Uten alarmer og røde soner — lyden måles bare på enheten.",
+    "about": [
+      "Ugla sover er klassens rolige lyttevenn på projektoren. En søvnig, illustrert ugle sitter på en gren, og lyden i rommet får grenen til å svaie forsiktig. Blir det for mye lyd over tid, våkner ugla sakte — nysgjerrig, aldri sint — og når roen kommer tilbake, sovner den stille igjen. Klassen har ett felles mål: la ugla sove.",
+      "Du velger dagens stemmenivå på et treskilt: Stille, Hviskestemme, Makkerstemme eller Gruppestemme — ekte klasseromsspråk, aldri tall. Her finnes ingen sirener, røde soner, målere eller poeng, og en blyant som faller på gulvet kan ikke vekke ugla — det er bare vedvarende lyd som teller. Veien tilbake til søvn går alltid raskere enn oppvåkningen, så klassen opplever mestring, ikke skam. Uten mikrofon fungerer «Lærerens ører»: du forteller selv ugla hvordan rommet høres ut.",
+      "Personvernet er enkelt og ekte: Ugla lytter bare her i klasserommet — lydnivået måles på denne enheten, og ingenting blir noen gang tatt opp, lagret eller sendt. Ugla og Makkerstemmen er alltid gratis. Med Premium låser du opp alle fire stemmenivåene, de søvnige vennene katt og liten drage, og hjørnevisningen som lar ugla følge med ved siden av et annet projisert verktøy."
+    ],
+    "howToUse": [
+      "Åpne verktøyet på storskjermen og velg dagens stemmenivå på treskiltet.",
+      "Trykk på «Begynn å lytte» og gi nettleseren tilgang til mikrofonen — eller slå på «Lærerens ører» og fortell ugla selv hvordan rommet høres ut.",
+      "Bli enige om det felles målet: i dag lar vi ugla sove.",
+      "Juster «Hvor godt ugla hører» hvis rommet er stort, lite eller ekstra livlig.",
+      "Trykk på Stopp når økten er ferdig — da slås mikrofonen helt av."
+    ],
+    "classroomIdeas": [
+      "Stillelesing: velg Stille og se om ugla får sove gjennom hele lesestunden.",
+      "Stasjonsarbeid: bytt til Gruppestemme og la gruppene passe på ugla sammen.",
+      "Overganger: bruk ugla når klassen kommer inn fra friminutt, og finn roen sammen før neste økt.",
+      "Samtale om arbeidsro: når ugla har sovet en hel økt, snakk sammen om hva klassen gjorde som fungerte.",
+      "Hjørnevisning (Premium): la ugla sitte i hjørnet av skjermen ved siden av dagsplanen eller en oppgave på tavla."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

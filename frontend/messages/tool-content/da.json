@@ -382,6 +382,32 @@
       "Ordjagt før skrivning: find fem kort til dagens tekst, læs dem sammen med Læs dem sammen, og lad væggen blive stående som stavehjælp, mens børnene skriver."
     ]
   },
+  "hush-owl": {
+    "slug": "ro-i-klassen",
+    "name": "Uglen sover",
+    "tagline": "Klassens rolige lyd-ven: så længe der er ro og hygge, sover uglen på sin gren.",
+    "metaTitle": "Uglen sover — ro i klassen uden skæld ud | LessonCraftStudio",
+    "metaDescription": "En søvnig ugle på smartboardet skaber ro i klassen: så længe I holder dagens stemmeniveau, sover den — uden sirener, røde zoner og skæld ud. Lyden måles kun på jeres enhed.",
+    "about": [
+      "Uglen sover er klassens rolige lyd-ven på projektoren eller smartboardet. En søvnig, tegnet ugle sidder på sin gren; lyden i klassen får grenen til at gynge blidt, og bliver der larm i længere tid, vågner uglen langsomt — nysgerrig, aldrig sur. Falder der ro over klassen igen, blinker den døsigt og sover videre. Det fælles mål er lige så enkelt, som det lyder: lad uglen sove. Ingen sirener, ingen røde zoner, ingen tal og ingen målere — kun et lille væsen, som hele klassen passer på sammen.",
+      "På det lille træskilt vælger du dagens stemmer, så uglen passer til det, I laver: helt stille, hviskestemme, makkerstemme eller gruppearbejde. Du kan justere uglens hørelse, så den passer til jeres lokale, og skifte sovedyret ud med en sovende kat eller en lille drage. Er der ikke nogen mikrofon — eller må den ikke bruges på skolens enheder — slår du bare Lærerens ører til og fortæller selv uglen, hvordan det lyder i klassen. Alt det, børnene ser, er det samme.",
+      "Og så det vigtigste for dig og din skole: Uglen lytter kun her i klasseværelset — lydniveauet måles på denne enhed, og intet bliver nogensinde optaget, gemt eller sendt. Mikrofonen starter først, når du trykker på Start, og slukker helt igen, når du stopper eller lukker siden — computerens mikrofonlampe følger med. Der er intet login for børnene, ingen historik og ingen point: bare et roligt, fælles billede af, hvordan der lyder i klassen lige nu."
+    ],
+    "howToUse": [
+      "Åbn Uglen sover på projektoren eller smartboardet, så hele klassen kan se uglen på sin gren.",
+      "Vælg dagens stemmer på træskiltet: helt stille, hviskestemme, makkerstemme eller gruppearbejde.",
+      "Tryk på Begynd at lytte, og giv browseren lov til at bruge mikrofonen — lyden måles kun på jeres enhed.",
+      "Aftal det fælles mål med klassen: Lad uglen sove. Bliver der larm, vågner uglen langsomt — bliver der ro, falder den stille i søvn igen.",
+      "Ingen mikrofon? Slå Lærerens ører til, og fortæl selv uglen, hvordan det lyder i klassen — alt andet virker helt som før."
+    ],
+    "classroomIdeas": [
+      "Læsebånd: vælg helt stille, og lad uglen sove på tavlen, mens alle læser — bagefter kan I hviske godmorgen til den.",
+      "Værkstedsarbejde og stationer: vælg makkerstemme, og mind børnene om, at makkeren skal kunne høre dig — ikke uglen.",
+      "Morgensamling: syng Bjørnen sover med nye ord — \"uglen sover\" — og vælg dagens stemmer sammen, inden I går i gang.",
+      "Klassemøde: snak om, hvordan uglen havde det i dag — hvornår sov den bedst, og hvad gjorde I, da den var ved at vågne? Ingen skæld ud, kun fælles nysgerrighed.",
+      "Gruppearbejde med besøg af dragen: skift sovedyret ud med den lille drage, og lad grupperne selv holde øje med, at den kan blive ved med at sove."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

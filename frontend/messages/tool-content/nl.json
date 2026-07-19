@@ -382,6 +382,32 @@
       "Themavoorproefje: open het thema van je volgende project en laat de klas eerst benoemen wat ze al kennen, voordat je één woord aanleert."
     ]
   },
+  "hush-owl": {
+    "slug": "geluidsmeter-klas",
+    "name": "De slaapuil",
+    "tagline": "Een slapend uiltje op het digibord dat je klas vanzelf zachter laat praten — samen laten we hem slapen.",
+    "metaTitle": "De slaapuil — vriendelijke geluidsmeter voor in de klas",
+    "metaDescription": "Een slapende uil op het digibord helpt je klas rustig te werken. Wordt het te druk, dan wordt hij langzaam wakker; bij rust slaapt hij weer in. Warm en zonder rode zones.",
+    "about": [
+      "De slaapuil is een vriendelijke geluidshulp voor op het digibord. Een uiltje slaapt op zijn tak; wordt het te druk in de klas, dan begint de tak te zwaaien en wordt hij heel langzaam wakker — nieuwsgierig, nooit boos. Keert de rust terug, dan zakt hij vanzelf weer in slaap. Zo krijgt de klas één warm, gezamenlijk doel: laat de uil slapen.",
+      "Op het houten bordje kies je welke stem vandaag past: stilte, fluisterstem, overlegstem of groepsstem. Er zijn geen rode zones, geen cijfers en geen sirenes — de uil laat alleen zachtjes zien hoe de klas als geheel klinkt, dus geen enkel kind voelt zich aangesproken. Met het gehoor van de uil stem je hem af op jouw lokaal, en in de hoekweergave (Premium) past hij netjes naast een andere digibordtool. Wie liever een ander slaapvriendje wil, kiest de slapende poes of het draakje.",
+      "Ook aan de privacy is gedacht, helemaal volgens de AVG: de uil luistert alleen hier in de klas — het geluidsniveau wordt op dit apparaat gemeten en er wordt nooit iets opgenomen, bewaard of verstuurd. Geen microfoon, of geeft school geen toestemming? Dan zet je de oren van de juf of meester aan: jij tikt zelf aan hoe de klas klinkt en de uil reageert precies hetzelfde."
+    ],
+    "howToUse": [
+      "Open de slaapuil op het digibord, zodat de hele klas het uiltje op zijn tak kan zien.",
+      "Kies op het houten bordje de stem van vandaag: stilte, fluisterstem, overlegstem of groepsstem.",
+      "Tik op Start met luisteren en geef de browser toestemming voor de microfoon — of zet de oren van de juf of meester aan als je zonder microfoon werkt.",
+      "Bespreek het gezamenlijke doel met de klas: wij laten de uil vandaag lekker slapen.",
+      "Wordt de uil toch wakker? Wijs er rustig naar — zodra het weer stil wordt, valt hij vanzelf in slaap. Stel zo nodig het gehoor van de uil bij voor jouw lokaal."
+    ],
+    "classroomIdeas": [
+      "Stillezen in groep 3 en 4: kies stilte en laat de uil meekijken — het lezen wordt vanzelf een gezamenlijke missie om hem niet wakker te maken.",
+      "Hoekenwerk: zet de uil in de hoekweergave naast je andere digibordtool en kies de overlegstem — zo houden de hoeken zichzelf rustig.",
+      "Na de pauze of de gymles: laat de klas de uil samen weer in slaap brengen — een rustig overgangsritueel zonder dat de juf of meester één woord hoeft te zeggen.",
+      "In de kring met groep 1-2: oefen samen fluisteren en kijk wat de uil doet — zo wordt stemvolume zichtbaar voor kleuters.",
+      "Knutselmiddag of themadag: kies de groepsstem, zodat er gezellig overlegd mag worden terwijl de uil toch blijft doorslapen."
+    ]
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

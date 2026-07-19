@@ -382,6 +382,32 @@
       "En mode chuchoté, la voix demande « Trouve : une tortue » et l’enfant vient la chercher parmi les cartes — six cartes pour les plus jeunes, seize pour toute la classe. En atelier, chacun son tour : celui qui a trouvé lance le mot suivant."
     ]
   },
+  "hush-owl": {
+    "slug": "chouette-dodo-bruit-en-classe",
+    "name": "Chouette Dodo",
+    "tagline": "Une chouette endormie au vidéoprojecteur : quand la classe parle doucement, elle dort paisiblement.",
+    "metaTitle": "Chouette Dodo — gérer le bruit en classe tout en douceur",
+    "metaDescription": "Une chouette endormie au vidéoprojecteur : quand la classe parle doucement, elle dort. Un outil tout doux pour gérer le bruit, de la maternelle au CE1.",
+    "about": [
+      "Chouette Dodo est le compagnon sonore tout doux de votre classe. Projetée au tableau, une chouette endormie se balance sur sa branche au rythme des voix. Quand la classe reste au niveau choisi, elle dort paisiblement ; si le bruit monte et s’installe, elle s’éveille lentement, curieuse — jamais fâchée. L’objectif que toute la classe partage : laissons dormir la chouette.",
+      "Sur le petit panneau de bois, vous choisissez les voix du jour : silence, voix chuchotée, voix à deux ou voix de groupe. Pas de sirène, pas de zone rouge, pas de chiffres ni de score — seulement une histoire que même les plus petits comprennent immédiatement. Vous pouvez aussi régler l’ouïe de la chouette, ou inviter à sa place un chat endormi ou un petit dragon.",
+      "Et la confidentialité ? La chouette écoute uniquement ici, dans votre classe — le niveau sonore est mesuré sur cet appareil et rien n’est jamais enregistré, conservé ou transmis. Et sans micro, le mode « Mes oreilles » vous laisse la main : vous indiquez vous-même, d’un simple geste, si la classe est calme ou bruyante."
+    ],
+    "howToUse": [
+      "Projetez Chouette Dodo au tableau, bien visible de toute la classe.",
+      "Choisissez les voix du jour sur le panneau de bois : silence, voix chuchotée, voix à deux ou voix de groupe.",
+      "Appuyez sur « Commencer l’écoute » et autorisez le micro — ou activez le mode « Mes oreilles ».",
+      "Présentez l’objectif aux enfants : aujourd’hui, on laisse dormir la chouette.",
+      "Ajustez l’ouïe de la chouette si elle se réveille trop vite ou pas assez."
+    ],
+    "classroomIdeas": [
+      "Temps calme en maternelle : après la récréation ou avant la sieste, la classe veille sur la chouette comme sur un doudou qui dort — un rituel de retour au calme qui se passe de rappels à l’ordre.",
+      "Ateliers autonomes : pendant que vous menez votre atelier dirigé, la chouette rappelle en silence le volume convenu — voix à deux ou voix de groupe — aux autres groupes.",
+      "Dictée et production d’écrit au CP-CE1 : choisissez « Silence », puis félicitez la classe quand la chouette a dormi tout du long.",
+      "Nommez chaque jour un « gardien de la chouette » qui rappelle gentiment l’objectif à ses camarades quand elle commence à ouvrir un œil.",
+      "En bibliothèque ou en salle informatique, emportez la chouette sur un simple ordinateur portable : les enfants retrouvent leur repère habituel, même hors de la classe."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

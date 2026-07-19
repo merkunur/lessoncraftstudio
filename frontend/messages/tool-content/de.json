@@ -383,6 +383,32 @@
       "Flüster-Duo an der Station: Zwei Kinder am Tablet, Flüster-Modus mit sechs Karten — eines hört, eines sucht, dann wird getauscht. Weil nichts gezählt wird und jede Runde im Fund endet, trauen sich auch die Kinder, die sich im Kreis nie melden."
     ]
   },
+  "hush-owl": {
+    "slug": "laermpegel-klassenzimmer",
+    "name": "Schlummereule",
+    "tagline": "Solange eure Klasse leise ist, schläft die Eule — ganz ohne Ampel, Zahlen und erhobenen Zeigefinger.",
+    "metaTitle": "Schlummereule – Lärmpegel im Klassenzimmer, ganz ohne Ampel",
+    "metaDescription": "Die Schlummereule schläft, solange eure Klasse leise ist – ein sanfter Lärmpegel-Begleiter ohne Ampel und ohne Zahlen. Alles wird nur auf dem Gerät gemessen, nie aufgenommen.",
+    "about": [
+      "Die Schlummereule ist ein liebevoller Lautstärke-Begleiter für den Beamer: Eine verschlafene Eule sitzt auf ihrem Ast, und der Klang eures Klassenzimmers lässt den Ast sanft schwingen. Wird es längere Zeit zu laut, blinzelt die Eule und wacht langsam auf — neugierig, nie böse. Bleibt es etwa fünfzehn Sekunden ruhig, schläft sie wieder ein. Keine Ampel, keine roten Zonen, keine Zahlen — nur ein gemeinsames Ziel: Lasst die Eule schlafen.",
+      "Du wählst am kleinen Holzschild, welche Stimmen heute gelten: Stille, Flüsterstimme, Partnerstimme oder Gruppenstimme. So weiß die Klasse in jeder Phase, wie laut sie sein darf — von der stillen Lesezeit bis zur lebhaften Gruppenarbeit. Statt zu ermahnen, genügt ein Blick zum Ast: Die Kinder regulieren sich selbst, weil sie ihre schlafende Freundin nicht wecken wollen.",
+      "Datenschutz ist dabei fest eingebaut: Die Eule hört nur hier im Klassenzimmer zu — die Lautstärke wird direkt auf diesem Gerät gemessen, und nichts wird jemals aufgenommen, gespeichert oder übertragen. Gibt es kein Mikrofon, hilft der Modus „Deine Ohren“: Du tippst einfach selbst an, wie es im Raum gerade klingt. Mit Premium kommen weitere Stimm-Stufen, die Eckansicht und neue Schlummerfreunde wie Katze und kleiner Drache dazu."
+    ],
+    "howToUse": [
+      "Öffne die Schlummereule am Beamer oder Whiteboard, sodass die ganze Klasse sie sehen kann.",
+      "Wähle auf dem Holzschild, welche Stimmen heute gelten: Stille, Flüsterstimme, Partnerstimme oder Gruppenstimme.",
+      "Tippe auf „Zuhören starten“ und erlaube einmalig das Mikrofon — oder wähle den Modus „Deine Ohren“ ganz ohne Mikrofon.",
+      "Besprecht gemeinsam euer Ziel: Wir lassen die Eule schlafen — und schaut zwischendurch nur kurz zum Ast.",
+      "Stelle bei Bedarf ein, wie fein die Eule hört — in lebhaften Räumen etwas weniger, in stillen Phasen etwas mehr."
+    ],
+    "classroomIdeas": [
+      "Freiarbeit und Wochenplan: Die Eule wacht über die Arbeitsphase — die Kinder prüfen mit einem Blick selbst, ob ihre Partnerstimme noch passt, ganz ohne Ermahnung.",
+      "Ankommens-Ritual nach der Hofpause: Alle setzen sich, die Eule ist wach — schafft ihr es gemeinsam, sie in fünfzehn ruhigen Sekunden wieder einschlafen zu lassen?",
+      "Flüsterwoche: Eine Woche lang hängt „Flüsterstimme“ am Holzschild — die Klasse sammelt am Ende des Tages Erlebnisse, wann die Eule durchgeschlafen hat.",
+      "Stille Lesezeit: Stufe „Stille“ wählen und die Eule zur Vorlese- oder Lesestunde schlafen legen — wer möchte, liest ihr im Kopf sogar etwas vor.",
+      "Stationenarbeit mit Eckansicht: Die Eule läuft klein neben eurem Stationsplan oder einer Tafel-App mit — so bleibt der Geräuschpegel auch bei Gruppenstimme freundlich im Blick."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

@@ -315,34 +315,56 @@ function serve() {
     const key = await page.evaluate(() => MeasurementBench._wtKey);
     const weight = await page.evaluate(() => MeasurementBench.WEIGHTS[MeasurementBench._wtKey]);
     ok('an object sits on the left pan', !!key);
-    /* seating asserts: the loads' DOM rects must sit on the pan floors
-       AT THE SHARED ANCHORS, at rest AND at both tilt extremes */
+    /* single-assembly asserts: the loads are DOM DESCENDANTS of their
+       pan groups (they ride the pan transform — connected by
+       construction) and the object's screen bbox bottom lies inside the
+       dish band (rim..rim+depth+front) at the CURRENT tilt */
     const seating = async (label) => {
       await sleep(900);
       const m = await page.evaluate(() => {
         const T = MeasurementBench;
-        const s = T._scale;
+        const s = T._scale, P = T.PAN;
         const stageR = document.querySelector('.mb-stage').getBoundingClientRect();
-        const L = T._panAnchor('left', T.balAngle), R = T._panAnchor('right', T.balAngle);
-        const obj = document.querySelector('.mb-wtobj').getBoundingClientRect();
-        const stack = document.querySelector('.mb-cubestack').getBoundingClientRect();
-        const toStage = (px, py) => ({ x: (px - stageR.left) / s, y: (py - stageR.top) / s });
-        const objBC = toStage(obj.left + obj.width / 2, obj.bottom);
-        const stackB = toStage(stack.left + stack.width / 2, stack.bottom);
-        return { objDx: objBC.x - L.x, objFloor: objBC.y - (L.y + 66), stackDx: stackB.x - R.x, stackFloor: stackB.y - (R.y + 62) };
+        const inL = !!document.querySelector('.mb-pan-l .mb-pan-load image');
+        const L = T._panAnchor('left', T.balAngle);
+        const img = document.querySelector('.mb-pan-l .mb-pan-load image');
+        const r = img.getBoundingClientRect();
+        const bottomStage = (r.bottom - stageR.top) / s;
+        const centerStage = (r.left + r.width / 2 - stageR.left) / s;
+        const cubesInR = document.querySelectorAll('.mb-pan-r .mb-pan-load .mb-cube-g').length;
+        return {
+          inL, cubes: T.cubes, cubesInR,
+          dxFromAnchor: centerStage - L.x,
+          bottomVsRim: bottomStage - (L.y + P.RIM_Y),
+          bandMax: P.DEPTH * 2 + 12
+        };
       });
-      ok(`${label}: object bottom-center seated on the left pan`, Math.abs(m.objDx) < 6 && Math.abs(m.objFloor) < 6, JSON.stringify(m));
-      ok(`${label}: cube stack seated on the right pan`, Math.abs(m.stackDx) < 6 && Math.abs(m.stackFloor) < 6, JSON.stringify(m));
+      ok(`${label}: object rides INSIDE the left pan group`, m.inL);
+      ok(`${label}: object bottom lands in the dish band`, m.bottomVsRim > -2 && m.bottomVsRim < m.bandMax, JSON.stringify(m));
+      ok(`${label}: object centred on the pan`, Math.abs(m.dxFromAnchor) < 6, JSON.stringify(m));
+      ok(`${label}: cube count matches the SVG stack`, m.cubes === m.cubesInR, JSON.stringify(m));
     };
     await seating('at rest (0 cubes, tilted left)');
+    /* cube add + REMOVE through the SVG (tap a cube in the pan) */
+    await page.click('.mb-cubesupply');
+    await sleep(200);
+    let cubeState = await page.evaluate(() => ({ n: MeasurementBench.cubes, dom: document.querySelectorAll('.mb-pan-r .mb-cube-g').length }));
+    ok('supply click adds an SVG cube', cubeState.n === 1 && cubeState.dom === 1);
+    await page.evaluate(() => {
+      const g = document.querySelector('.mb-pan-r .mb-cube-g');
+      g.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+    });
+    await sleep(200);
+    cubeState = await page.evaluate(() => ({ n: MeasurementBench.cubes, dom: document.querySelectorAll('.mb-pan-r .mb-cube-g').length }));
+    ok('tapping a pan cube removes it', cubeState.n === 0 && cubeState.dom === 0);
     /* under-load: beam must tilt negative (object side down) */
-    await page.evaluate((n) => { MeasurementBench.cubes = n; }, Math.max(0, weight - 2));
+    await page.evaluate((n) => { MeasurementBench.cubes = n; MeasurementBench._paintCubes(); }, Math.max(0, weight - 2));
     await sleep(900);
     let angle = await page.evaluate(() => MeasurementBench.balAngle);
     ok('under-loaded beam tilts toward the object', angle < -1, String(angle));
     /* overshoot: positive tilt + ≤1 kind line */
     await page.evaluate(() => { window.__spoken = []; });
-    await page.evaluate((n) => { MeasurementBench.cubes = n; MeasurementBench._checkOver(); }, weight + 2);
+    await page.evaluate((n) => { MeasurementBench.cubes = n; MeasurementBench._paintCubes(); MeasurementBench._checkOver(); }, weight + 2);
     await sleep(900);
     angle = await page.evaluate(() => MeasurementBench.balAngle);
     const over1 = await page.evaluate(() => window.__spoken.some((s) => /Take one off/i.test(s)));
@@ -353,7 +375,7 @@ function serve() {
     ok('overshoot line ≤1 per object', !over2);
     /* exact: settle → sentence with the localized noun */
     await page.evaluate(() => { window.__spoken = []; });
-    await page.evaluate((n) => { MeasurementBench.cubes = n; }, weight);
+    await page.evaluate((n) => { MeasurementBench.cubes = n; MeasurementBench._paintCubes(); }, weight);
     await sleep(3500);
     const done = await page.evaluate(() => ({
       settled: MeasurementBench.settled,

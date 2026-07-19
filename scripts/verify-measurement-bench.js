@@ -168,6 +168,25 @@ for (const [k, w] of Object.entries(T.WEIGHTS)) {
     const r = Math.hypot(L8.x - T.BAL_CX, L8.y - T.BAL_CY);
     if (Math.abs(r - (T.BAL.arm - T.BAL_HANG_INSET)) > 1e-6) E('panAnchor: hang radius drifted off arm − inset');
   }
+  /* structural connection: parse the emitted pan markup and assert the
+     strings run from the HANG POINT (0,0) to EXACTLY the dish rim ends,
+     the load seat sits inside the dish, and the 4-col stack fits */
+  {
+    const P = T.PAN;
+    const g = T._panGroup('x');
+    const lines = [...g.matchAll(/<line x1="([-\d.]+)" y1="([-\d.]+)" x2="([-\d.]+)" y2="([-\d.]+)"/g)]
+      .map((m) => m.slice(1, 5).map(Number));
+    if (lines.length !== 2) E(`panGroup: ${lines.length} strings (need 2)`);
+    for (const [x1, y1] of lines) if (x1 !== 0 || y1 !== 0) E('panGroup: a string does not start at the hang point (0,0)');
+    const ends = lines.map(([, , x2, y2]) => `${x2},${y2}`).sort();
+    const rimEnds = [`${-P.RIM_HALF},${P.RIM_Y}`, `${P.RIM_HALF},${P.RIM_Y}`].sort();
+    if (ends.join('|') !== rimEnds.join('|')) E(`panGroup: string ends ${ends.join(' ')} ≠ dish rim ends ${rimEnds.join(' ')}`);
+    const dishes = [...g.matchAll(/<path d="M([-\d.]+) ([-\d.]+) q [-\d. ]+"/g)];
+    for (const d of dishes) if (Math.abs(Number(d[1])) !== P.RIM_HALF || Number(d[2]) !== P.RIM_Y) E('panGroup: a dish path does not start at a rim end');
+    if (!(P.SEAT_Y > P.RIM_Y)) E('panGroup: SEAT_Y must sit below the rim (inside the dish)');
+    if (P.RIM_HALF < 48) E('panGroup: rim narrower than the 4-column cube stack');
+    if (!g.includes('mb-pan-load')) E('panGroup: no load slot inside the pan group');
+  }
   /* relative-sanity pairs — a mouse never outweighs a bear */
   const pairs = [['mouse', 'cat'], ['cat', 'fox'], ['fox', 'sheep'], ['sheep', 'bear'], ['strawberry', 'pumpkin'], ['apple', 'watermelon'], ['duck', 'pig'], ['rabbit', 'lion'], ['hamster', 'cow']];
   for (const [a, b] of pairs) {

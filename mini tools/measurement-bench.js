@@ -998,6 +998,33 @@ var MeasurementBench = {
     return { x: this.BAL_CX + sgn * r * Math.cos(a), y: this.BAL_CY + sgn * r * Math.sin(a) };
   },
 
+  /* the pan is ONE SVG assembly — strings, dish, and THE LOAD share a
+     single local system inside one <g>, so connection cannot drift and
+     the dish's FRONT RIM paints over the load's base (impossible with
+     HTML overlays, which always sit above the SVG). Strings run from
+     the hang point (0,0 = ON the beam) to the dish RIM ENDS. */
+  PAN: { RIM_HALF: 54, RIM_Y: 78, DEPTH: 16, SEAT_Y: 84 },
+  _cubeShape: function (x, y) {
+    return '<g transform="translate(' + x + ' ' + y + ')" class="mb-cube-g" data-cube="1">' +
+      '<path d="M4 8 L15 3 L26 8 L26 20 L15 25 L4 20 Z" fill="#E8A53A"/>' +
+      '<path d="M4 8 L15 13 L26 8 L15 3 Z" fill="#F2C879"/>' +
+      '<path d="M15 13 L15 25 L4 20 L4 8 Z" fill="#D08A2E"/></g>';
+  },
+  _panGroup: function (cls) {
+    var P = this.PAN;
+    var back = 'M' + (-P.RIM_HALF) + ' ' + P.RIM_Y + ' q ' + P.RIM_HALF + ' ' + (P.DEPTH * 2) + ' ' + (P.RIM_HALF * 2) + ' 0 Z';
+    var front = 'M' + (-P.RIM_HALF) + ' ' + P.RIM_Y + ' q ' + P.RIM_HALF + ' ' + (P.DEPTH * 2) + ' ' + (P.RIM_HALF * 2) + ' 0 ' +
+      'l -6 9 q -' + (P.RIM_HALF - 8) + ' ' + (P.DEPTH * 1.7) + ' -' + (P.RIM_HALF * 2 - 16) + ' 0 Z';
+    return '<g class="' + cls + '">' +
+      '<line x1="0" y1="0" x2="' + (-P.RIM_HALF) + '" y2="' + P.RIM_Y + '" stroke="#8B6F47" stroke-width="2.5" stroke-linecap="round"/>' +
+      '<line x1="0" y1="0" x2="' + P.RIM_HALF + '" y2="' + P.RIM_Y + '" stroke="#8B6F47" stroke-width="2.5" stroke-linecap="round"/>' +
+      '<circle cx="0" cy="0" r="3.5" fill="#5A4630"/>' +
+      '<path d="' + back + '" fill="#9A7248"/>' +
+      '<g class="mb-pan-load"></g>' +
+      '<path d="' + front + '" fill="#C99B62" stroke="#8B6F47" stroke-width="2" stroke-linejoin="round"/>' +
+      '</g>';
+  },
+
   _renderWeight: function (stage) {
     var api = this.api, self = this;
     stage.innerHTML = '';
@@ -1012,38 +1039,27 @@ var MeasurementBench = {
        pans hang from _panAnchor points INSET on the beam */
     var bal = api.el('div', 'mb-balance');
     var arm = this.BAL.arm;
-    var cx = this.BAL_CX, cy = this.BAL_CY, rh = this.BAL_ROPE_HALF;
-    var panG = function (cls) {
-      return '<g class="' + cls + '">' +
-        '<line x1="' + (-rh) + '" y1="0" x2="' + (-rh) + '" y2="60" stroke="#8B6F47" stroke-width="2.5"/>' +
-        '<line x1="' + rh + '" y1="0" x2="' + rh + '" y2="60" stroke="#8B6F47" stroke-width="2.5"/>' +
-        '<path d="M-52 60 q52 34 104 0 l-8 10 q-44 26 -88 0 Z" fill="#B9855C" stroke="#8B6F47" stroke-width="2"/></g>';
-    };
+    var cx = this.BAL_CX, cy = this.BAL_CY;
+    var P = this.PAN;
     bal.innerHTML =
-      '<svg viewBox="0 0 660 430" width="660" height="430" aria-hidden="true">' +
+      '<svg viewBox="0 0 660 430" width="660" height="430" role="img" aria-label="' +
+      this._noun(key).replace(/"/g, '&quot;') + '">' +
       '<rect x="' + (cx - 7) + '" y="' + cy + '" width="14" height="196" rx="6" fill="#8B6F47"/>' +
       '<rect x="' + (cx - 67) + '" y="' + (cy + 192) + '" width="134" height="16" rx="8" fill="#6F5738"/>' +
       '<g class="mb-beam-g">' +
       '<rect x="' + (cx - arm) + '" y="' + (cy - 6) + '" width="' + (arm * 2) + '" height="12" rx="6" fill="#C99B62" stroke="#8B6F47" stroke-width="2"/>' +
       '</g>' +
       '<circle cx="' + cx + '" cy="' + cy + '" r="10" fill="#5A4630"/>' +
-      panG('mb-pan-l') + panG('mb-pan-r') +
+      this._panGroup('mb-pan-l') + this._panGroup('mb-pan-r') +
       '</svg>';
     stage.appendChild(bal);
     this._balEl = bal;
 
-    /* object on the left pan (HTML img positioned over the pan) */
-    var img = api.el('img', 'mb-wtobj');
-    img.src = this._imgUrl(key);
-    img.alt = this._noun(key);
-    img.draggable = false;
-    stage.appendChild(img);
-    this._wtObjEl = img;
-
-    /* cube stack on the right pan */
-    var stack = api.el('div', 'mb-cubestack');
-    stage.appendChild(stack);
-    this._stackEl = stack;
+    /* THE LOADS LIVE INSIDE THE PAN GROUPS (z-ordered under the front
+       rim; they ride the pan transform — nothing to align, ever) */
+    var loadL = bal.querySelector('.mb-pan-l .mb-pan-load');
+    loadL.innerHTML = '<image href="' + this._imgUrl(key) + '" x="-45" y="' + (P.SEAT_Y - 90) +
+      '" width="90" height="90" preserveAspectRatio="xMidYMax meet"/>';
     this._paintCubes();
 
     /* cube supply */
@@ -1073,24 +1089,24 @@ var MeasurementBench = {
   },
   _paintCubes: function () {
     var self = this;
-    if (!this._stackEl) return;
-    this._stackEl.innerHTML = '';
+    var slot = this._balEl && this._balEl.querySelector('.mb-pan-r .mb-pan-load');
+    if (!slot) return;
+    var P = this.PAN;
+    var out = '';
     for (var i = 0; i < this.cubes; i++) {
-      var c = this.api.el('button', 'mb-cube');
-      c.type = 'button';
-      c.innerHTML = this._unitSVG('cube', 0.9);
-      c.style.left = ((i % 4) * 24) + 'px';
-      c.style.bottom = (Math.floor(i / 4) * 22) + 'px';
-      (function (btn) {
-        btn.addEventListener('click', function () {
-          if (self.settled) return;
-          self.cubes = Math.max(0, self.cubes - 1);
-          self._sfxCube();
-          self._paintCubes();
-        });
-      })(c);
-      this._stackEl.appendChild(c);
+      var col = i % 4, row = Math.floor(i / 4);
+      /* 4 columns x 24px centred on the pan; rows stack UP from SEAT_Y */
+      out += this._cubeShape(-48 + col * 24 + (24 - 30) / 2, P.SEAT_Y - 26 - row * 21);
     }
+    slot.innerHTML = out;
+    (slot.querySelectorAll('.mb-cube-g') || []).forEach(function (g) {
+      g.addEventListener('click', function () {
+        if (self.settled) return;
+        self.cubes = Math.max(0, self.cubes - 1);
+        self._sfxCube();
+        self._paintCubes();
+      });
+    });
   },
   _checkOver: function () {
     var w = this.WEIGHTS[this._wtKey];
@@ -1138,16 +1154,6 @@ var MeasurementBench = {
     var pr = this._balEl.querySelector('.mb-pan-r');
     if (pl) pl.setAttribute('transform', 'translate(' + L.x + ' ' + L.y + ')');
     if (pr) pr.setAttribute('transform', 'translate(' + Rr.x + ' ' + Rr.y + ')');
-    /* HTML loads share the SAME anchors + coordinate system: bottom-
-       center seated on the pan floor (dish top edge at local y=60) */
-    if (this._wtObjEl) {
-      this._wtObjEl.style.left = L.x + 'px';
-      this._wtObjEl.style.top = (L.y + 66 - 84) + 'px';
-    }
-    if (this._stackEl) {
-      this._stackEl.style.left = (Rr.x - 48) + 'px';
-      this._stackEl.style.top = (Rr.y + 62 - 100) + 'px';
-    }
   },
 
   /* ============================ dock =============================== */
@@ -1334,9 +1340,7 @@ var MeasurementBench = {
 
   /* weight */
   + '.mb-balance{position:absolute;left:0;top:0;pointer-events:none;}'
-  + '.mb-wtobj{position:absolute;height:84px;width:auto;transform:translateX(-50%);pointer-events:none;user-select:none;-webkit-user-drag:none;z-index:3;}'
-  + '.mb-cubestack{position:absolute;width:96px;height:100px;z-index:3;}'
-  + '.mb-cube{position:absolute;width:28px;height:26px;padding:0;border:none;background:none;cursor:pointer;}'
+  + '.mb-balance .mb-cube-g{pointer-events:auto;cursor:pointer;}'
   + '.mb-cubesupply{position:absolute;display:flex;gap:2px;min-width:100px;min-height:44px;padding:6px 10px;'
   +   'background:var(--lcs-surface);border:1.5px dashed rgba(20,107,94,.35);border-radius:14px;cursor:pointer;align-items:center;}'
 

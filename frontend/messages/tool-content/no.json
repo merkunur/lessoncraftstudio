@@ -408,6 +408,32 @@
       "Hjørnevisning (Premium): la ugla sitte i hjørnet av skjermen ved siden av dagsplanen eller en oppgave på tavla."
     ]
   },
+  "wodb": {
+    "slug": "hvilken-passer-ikke-inn",
+    "name": "Hvilken passer ikke inn?",
+    "tagline": "Fire ting, mange gode svar: tenkesamtalen der alle svar kan være gode — det som teller, er grunnen.",
+    "metaTitle": "Hvilken passer ikke inn? – tenkesamtale for klasserommet",
+    "metaDescription": "Vis fire ting på storskjermen og la klassen undre seg: hvilken passer ikke inn? Alle svar kan være gode — det som teller, er grunnen. Med setningsstartere og grunnkort.",
+    "about": [
+      "Hvilken passer ikke inn? er samlingsstundens tenkesamtale — helt uten fasit. På storskjermen ser klassen et rutenett med fire ting: tall, former, prikker, klokker eller bilder. Oppgaven er å velge den som ikke passer inn — men rutenettene er laget slik at hvert hjørne kan forsvares. Det finnes alltid mer enn ett godt svar, for det som teller, er grunnen.",
+      "Et barn trykker på ruten sin — den løfter seg litt, valgt til samtale. Øret leser opp setningsstartere som «Den er den eneste som …», en trygg start for barn som er i ferd med å finne språket sitt. Når klassen har argumentert ferdig, viser du de fire grunnkortene: ett kort for hvert hjørne, og alle barna får se at tanken deres holdt. Her finnes ingen poeng, ingen nedtelling og ingen røde kryss — bare grunner.",
+      "Ukens rutenett er alltid gratis, med alt: løft, setningsstartere, opplesing og grunnkort. Med Premium åpner du hele samlingen — 21 kuraterte rutenett i tre aldersbånd (4–6, 6–7 og 7–9 år) — og byggeren, der du setter sammen egne rutenett av 1 495 bilder, tall, ord, former, prikker og klokker og lagrer dem til klassen din."
+    ],
+    "howToUse": [
+      "Åpne verktøyet på storskjermen og se stille på de fire tingene sammen.",
+      "La et barn trykke på ruten sin — den løfter seg, klar til samtale.",
+      "Trykk på øret hvis noen trenger en start: «Denne passer ikke inn fordi …».",
+      "Trykk på «Vis grunnene» og snu ett kort om gangen — hvert hjørne har sin egen grunn.",
+      "Avslutt med den felles setningen om at alle svarene var gode, og begynn gjerne på nytt med et nytt rutenett."
+    ],
+    "classroomIdeas": [
+      "Morgensamling: gjør ukens rutenett til et fast morgenrituale — fem minutter med tenking før dagen begynner.",
+      "Snakkepar: la barna først hviske grunnen sin til en læringspartner før noen deler med hele klassen — da har alle et svar klart.",
+      "Matematisk språk: samle ordene som dukker opp — partall, sifre, sider, hjørner, halv fem — på tavla etter samtalen.",
+      "Språkstøtte: la barn som lærer norsk trykke på øret og gjenta setningsstarteren — rammen «Den er den eneste som …» bærer setningen for dem.",
+      "Lag klassens eget rutenett (Premium): velg fire bilder sammen og la barna finne én grunn til hvert hjørne — å lage et godt rutenett er den fineste tenkeøvelsen av alle."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

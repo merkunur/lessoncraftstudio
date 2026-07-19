@@ -408,6 +408,32 @@
       "Amigo de la semana (Premium): deja que el grupo vote si esta semana cuida el sueño del búho, del gato dormilón o del dragoncito — la novedad renueva el interés sin cambiar la rutina."
     ]
   },
+  "wodb": {
+    "slug": "cual-no-encaja",
+    "name": "¿Cuál no encaja?",
+    "tagline": "Cuatro cosas, cuatro razones: toda respuesta puede estar bien",
+    "metaTitle": "¿Cuál no encaja? Juego de razonamiento gratis | LessonCraftStudio",
+    "metaDescription": "Rutina de razonamiento para el aula: cuatro cosas y toda respuesta puede estar bien. Los niños eligen, explican por qué y descubren cuatro razones. Gratis y sin registro.",
+    "about": [
+      "¿Cuál no encaja? es una rutina de conversación para el aula: una tarjeta con cuatro cosas — números, figuras, puntos, relojes o imágenes — donde toda respuesta puede estar bien. Cada esquina tiene su propia razón para ser la diferente, así que la pregunta importante nunca es cuál elegiste, sino por qué la elegiste.",
+      "Cuando un niño toca su elección, la tarjeta se levanta para conversar, y las frases de apoyo — \"Este no encaja porque…\", \"Es el único que…\", \"Me di cuenta de que…\" — le dan a cada quien, incluidos los niños que apenas están soltando el idioma, una manera de decir lo que vio. Al final, las cuatro tarjetas de razones muestran que cada esquina tenía la suya: todos los que hablaron vieron algo de verdad.",
+      "Funciona directamente en el navegador, en la pizarra digital, tabletas o computadoras del salón, sin instalar nada y sin crear cuentas. No hay cronómetro, ni puntos, ni estrellas: solo cuatro cosas, muchas voces y el gusto de razonar juntos."
+    ],
+    "howToUse": [
+      "Proyecta la tarjeta de la semana en la pizarra y da un momento de silencio para que todos miren las cuatro cosas con calma.",
+      "Pide a un niño que toque la que elegiría: la tarjeta se levanta para platicar sobre ella, y el grupo escucha su porqué.",
+      "Usa las frases de apoyo — el ícono del oído las lee en voz alta — para que los niños que apenas empiezan a hablar también expliquen lo que vieron.",
+      "Pregunta \"¿alguien eligió otra esquina?\" y junta razones distintas antes de mostrar nada.",
+      "Al final, revela las cuatro tarjetas de razones y cierra con la idea completa: cada esquina tenía su propia razón, así que todas fueron buenas respuestas."
+    ],
+    "classroomIdeas": [
+      "Úsala como rutina de la mañana: una tarjeta, cinco minutos de conversación y el día empieza con todos pensando y hablando.",
+      "Organiza un debate amable por parejas: cada pareja defiende una esquina distinta y luego comparan sus razones con el grupo.",
+      "Lleva la frase al cuaderno: los niños escriben \"Es el único que…\" con su elección del día, y así el razonamiento oral se vuelve escritura.",
+      "Deja que un niño o un equipo arme su propia tarjeta con el creador y la presente al grupo: pensar las cuatro razones es el reto más rico de todos.",
+      "Aprovecha las tarjetas de imágenes con tus aprendices de español: los nombres bajo las imágenes y las frases leídas en voz alta convierten la rutina en una charla de vocabulario."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

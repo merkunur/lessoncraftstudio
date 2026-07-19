@@ -408,6 +408,32 @@
       "Modalità angolo (Premium): tieni il gufo in un angolino dello schermo accanto alle consegne proiettate durante le attività a gruppi."
     ]
   },
+  "wodb": {
+    "slug": "chi-e-l-intruso",
+    "name": "Chi è l’intruso?",
+    "tagline": "Il gioco dell’intruso capovolto: qui ogni risposta può andare bene",
+    "metaTitle": "Chi è l’intruso? Gioco di logica per la LIM | LessonCraftStudio",
+    "metaDescription": "Il gioco dell’intruso capovolto per la LIM: 21 quartetti di numeri, forme, orologi e immagini dove ogni risposta può andare bene. Quattro motivi da svelare, senza login.",
+    "about": [
+      "Trova l’intruso: lo conoscono tutti, dalla sezione dei piccoli alla seconda. Ma qui il gioco si capovolge — sulla LIM compare un quartetto, quattro cose in una griglia due per due, e l’intruso non è uno solo: ogni angolo può esserlo, ognuno per un motivo suo. Un bambino tocca la sua scelta, la carta si solleva — scelta per parlarne, non per chiudere il gioco — e la classe comincia ad argomentare: perché proprio quella?",
+      "È una routine di ragionamento, non una gara. Non ci sono punteggi, non ci sono timer, e alla fine nessuno ha perso: quando tutti hanno detto la loro, la maestra svela le quattro carte dei motivi, una per angolo, e la classe scopre che ogni scelta aveva il suo perché. In mezzo succede la cosa che conta davvero: i bambini formulano ipotesi, ascoltano quelle degli altri, difendono la propria con le parole della matematica — pari e dispari, lati e angoli, decine, lancette. È esattamente l’argomentare che le Indicazioni nazionali chiedono di coltivare fin dai primi anni: costruire ragionamenti e sostenere le proprie idee davanti ai compagni. Per chi ha bisogno di una mano a partire — i più piccoli, o chi sta imparando l’italiano — l’orecchio legge ad alta voce gli avvii di frase: «Per me l’intruso è questo, perché…».",
+      "Funziona nel browser su LIM, tablet e computer della classe, senza installare nulla e senza account. Il quartetto della settimana è sempre gratuito e completo — carte che si sollevano, avvii di frase, motivi da svelare. Con Premium si apre tutta la raccolta — 21 quartetti tra numeri, forme, punti, orologi e immagini, dai 4 ai 9 anni — e il costruttore per creare i propri quartetti con 1.495 immagini illustrate, da salvare e riusare quando si vuole."
+    ],
+    "howToUse": [
+      "Proietta il quartetto della settimana sulla LIM e leggi insieme la domanda: chi è l’intruso? Poi lascia un minuto di silenzio — prima si guarda, poi si parla.",
+      "Un bambino tocca la sua scelta e la carta si solleva: è il segnale che quella scelta ora è al centro della discussione. Chiedigli il perché, e poi chiedi alla classe: qualcuno avrebbe sollevato un’altra carta?",
+      "Tocca l’orecchio per far leggere ad alta voce gli avvii di frase — «Per me l’intruso è questo, perché…», «È l’unico che…» — un appoggio prezioso per i più timidi e per chi sta imparando l’italiano.",
+      "Quando tutti hanno parlato, tocca «Mostra i motivi» e svela le quattro carte una alla volta: ogni angolo aveva il suo perché, e chi lo aveva trovato da solo si riconosce nella carta.",
+      "Chiudi con la frase finale — ogni risposta era una buona risposta — e ricomincia: stessa griglia con una scelta nuova, oppure un altro quartetto dalla raccolta."
+    ],
+    "classroomIdeas": [
+      "Il rito del lunedì: apri la settimana con il quartetto nuovo nel cerchio del mattino. Dieci minuti di discussione a tappeto, prima ancora di aprire i quaderni — la testa si accende parlando, non copiando.",
+      "La difesa d’ufficio: assegna a ogni coppia un angolo — anche quello che non avrebbero mai scelto — e dai due minuti per trovargli il suo motivo. Argomentare una scelta non tua è il gradino più alto del gioco, e le carte dei motivi alla fine fanno da riscontro.",
+      "Per chi arriva da un’altra lingua: attiva le parole sotto le immagini e usa gli avvii di frase letti a voce alta. Il quartetto delle immagini diventa una lezione di lessico travestita da gioco: piume, proboscide, buccia, lancette.",
+      "Il quinto motivo: quando le quattro carte sono svelate, lancia la sfida — c’è un motivo che le carte non hanno detto? Ogni motivo nuovo trovato dalla classe vale una scoperta, e spesso i bambini ne vedono di più belli dei nostri.",
+      "Costruttori di quartetti: con il costruttore, ogni gruppo prepara il suo quartetto dalle 1.495 immagini, controllando che ogni angolo abbia il suo motivo. Poi lo prova sul resto della classe: se tutti e quattro gli angoli vengono difesi, il quartetto è da salvare."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

@@ -408,6 +408,32 @@
       "En bibliothèque ou en salle informatique, emportez la chouette sur un simple ordinateur portable : les enfants retrouvent leur repère habituel, même hors de la classe."
     ]
   },
+  "wodb": {
+    "slug": "jeu-de-l-intrus",
+    "name": "Quel est l’intrus ?",
+    "tagline": "Le jeu de l’intrus à projeter : quatre cases — et chaque réponse peut être la bonne !",
+    "metaTitle": "Jeu de l’intrus à projeter en classe | LessonCraftStudio",
+    "metaDescription": "Le jeu de l’intrus à projeter : quatre cases où chaque réponse peut être la bonne. On choisit, on explique, la classe débat — puis les quatre raisons se dévoilent.",
+    "about": [
+      "« Cherchez l’intrus ! » — toutes les classes connaissent ce jeu. Celui-ci cache une surprise : il n’y a pas un intrus, il y en a quatre. Une grille de quatre cases — nombres, formes, points, horloges ou images — et chaque case peut être l’intrus, pour une raison bien à elle. L’enfant touche sa case, elle se soulève, et le débat commence : « Pourquoi celle-là ? »",
+      "C’est un rituel de langage autant que de maths : on observe, on compare, on argumente. Les lanceurs de phrases — « C’est le seul qui… », « J’ai remarqué que… » — se disent à voix haute d’un geste sur l’oreille, pour aider les petits parleurs à se lancer. Pas de score, pas de chrono, pas de couperet : quand on révèle les quatre cartes-raisons, chaque enfant découvre que son choix se défendait.",
+      "La grille de la semaine est complète et gratuite, pour installer le rituel dès demain matin. Premium ouvre toute la collection — 21 grilles pensées de la maternelle au CE2, des nombres aux horloges — et le créateur de grilles : composez la vôtre à partir de 1 495 images, ajoutez vos raisons, enregistrez-la pour votre classe. Tout se joue dans le navigateur, sans compte pour les enfants."
+    ],
+    "howToUse": [
+      "Projetez la grille au TBI en regroupement : quatre cases, une question — « Quel est l’intrus ? ». Laissez un petit temps d’observation silencieuse avant les doigts levés.",
+      "Un enfant touche la case qu’il choisit : elle se soulève, choisie pour la discussion. Plusieurs cases peuvent se soulever en même temps — quatre avis, quatre débats.",
+      "Touchez l’oreille pour entendre un lanceur de phrase — « C’est le seul qui… » — et laissez l’enfant compléter avec ses propres mots.",
+      "Quand la classe a bien débattu, « Voir les raisons » : touchez chaque carte pour dévoiler sa raison — une par case, donc une pour chaque enfant.",
+      "Terminez par la phrase rituelle — « Chaque réponse était une bonne réponse ! » — puis « Recommencer », ou choisissez une autre grille dans la collection."
+    ],
+    "classroomIdeas": [
+      "En rituel du matin : la grille de la semaine reste affichée à l’accueil, et chaque jour un autre enfant vient défendre une autre case — au bout de la semaine, la classe a trouvé les quatre raisons toute seule.",
+      "En séance de maths, exigez le mot précis : « côtés », « chiffres », « pair », « la petite aiguille »… L’intrus fait sortir le vocabulaire mathématique bien plus sûrement qu’une leçon.",
+      "Avec les petits parleurs et les élèves allophones, faites de l’oreille une alliée : le lanceur de phrases donne le début, l’enfant n’a plus qu’à poser son idée dessus — la marche à franchir devient toute petite.",
+      "Au CE1-CE2, prolongez à l’écrit : chacun choisit sa case et rédige sa justification avec « C’est le seul qui… » — quatre choix différents, tous défendables, à afficher côte à côte.",
+      "Avec Premium, faites construire une grille par les enfants eux-mêmes : trouver quatre images dont chacune peut être l’intrus est un vrai casse-tête de logique — pour eux comme pour vous."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

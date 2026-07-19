@@ -513,6 +513,32 @@
       "Fair-pour café: one child is the customer ordering four cups, the barista pours from the jug and the class watches the graduations fill."
     ]
   },
+  "money-mat": {
+    "slug": "money-mat",
+    "name": "Money Mat",
+    "tagline": "Count real coins onto the mat — in your classroom's own currency",
+    "metaTitle": "Money Mat — Coin Counting & Change Tool for K-2 Math",
+    "metaDescription": "A market stall with real classroom currencies: tap coins onto the mat to pay exact prices, make amounts two ways, and hear change counted back coin by coin. Euros, kronor, dollars and more. Free to start.",
+    "about": [
+      "Money Mat is coin counting with the coins your children actually see. A warm market stall shows an illustrated item with a price tag; children tap coins from the purse onto the mat, and the running total counts up with soft clinks — a speaker chip says the total out loud whenever you want it. The coins are the real thing pedagogically: true relative sizes, real metal color families, and your locale's real denominations — euros and cents, Swedish kronor, Danish and Norwegian kroner, Brazilian reais, or dollars with a pounds toggle — with prices formatted the way your country writes them.",
+      "Paying exactly earns a warm thank-you and a gentle, dismissible invitation: can you make the same amount another way? A second, genuinely different combination is celebrated by showing both ways side by side with an equals sign — equivalence made visible, never graded. Every coin on the mat can be tapped back into the purse, and a not-yet-right total is simply silent: there are no buzzers, no red marks, and the stall keeper's smile never changes.",
+      "The small-price stall with every coin and the make-it-another-way invitation is free forever. Premium adds banknotes, bigger price bands, saved stalls for your center rotations, and the change-making mode: pick something to pay with — every choice offered is valid — and the stall keeper counts your change back coin by coin, out loud, the classic counting-on strategy made audible."
+    ],
+    "howToUse": [
+      "Project the stall and read the price tag together — small prices stay under one euro, dollar, pound, or ten kronor.",
+      "Let a child tap coins from the purse onto the mat; watch the running total climb, and tap any mat coin to put it back.",
+      "Tap the speaker chip to hear the total spoken in real money words whenever the class wants a check.",
+      "After an exact payment, take the invitation: clear the mat and build the same amount a different way, then compare both ways side by side.",
+      "In Premium, switch to Get change: choose what to pay with and tap each coin the keeper offers while the counting-on is spoken aloud."
+    ],
+    "classroomIdeas": [
+      "Coin hunt warm-up: show a price, and pairs race gently to find ONE way to pay it — then the class collects all the different ways on the board.",
+      "Fewest-coins talk: after two ways are on screen, ask which way uses fewer coins and why — the equivalence discussion runs itself.",
+      "Currency corner: with the pounds toggle (or a neighbour country's stall on another tablet), compare what the same small price looks like in two currencies.",
+      "Change-back echo: in change mode, the class repeats each counting-on step aloud after the keeper — counting on becomes a chant.",
+      "Saved-stall centers: save a stall per group with prices tuned to each group's band, and rotate groups through the same market."
+    ]
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

@@ -513,6 +513,32 @@
       "Umschütt-Experiment: Erst schätzen, ob das hohe Glas oder die breite Schale mehr Becher fasst — die Antwort überrascht viele Kinder, denn hoch sieht oft nach mehr aus."
     ]
   },
+  "money-mat": {
+    "slug": "geldmatte",
+    "name": "Die Geldmatte",
+    "tagline": "Am Marktstand mit Euro-Münzen passend bezahlen — der Betrag zählt hörbar mit.",
+    "metaTitle": "Die Geldmatte – Rechnen mit Geld | LessonCraftStudio",
+    "metaDescription": "Kinder bezahlen am Marktstand passend mit Euro-Münzen; der Betrag wird vorgelesen. Mit „Geht es auch anders?“, Rückgeld-Modus und Scheinen — ohne Druck, für Klasse 1 und 2.",
+    "about": [
+      "Die Geldmatte ist ein kleiner Marktstand zum Bezahlen-Lernen: Oben wartet eine Ware mit Preisschild — der Apfel, das Brot oder der Teddybär —, unten liegt der Geldbeutel mit allen Euro-Münzen von 1 Cent bis 2 Euro, so wie Kinder sie aus dem echten Portemonnaie kennen. Mit jedem Tippen wandert eine Münze klimpernd auf die Matte, und der Betrag zählt sichtbar mit. Ein Tippen auf eine Münze auf der Matte legt sie zurück in den Geldbeutel — nichts ist festgeklebt.",
+      "Auf Wunsch liest die Geldmatte den Betrag genau so vor, wie man ihn auf dem Markt wirklich sagt: „2 Euro 30“. Es gibt keine Uhr, keine Punkte und keine roten Stempel — bezahlt ist bezahlt. Danach kommt eine freundliche Einladung, nie eine Aufgabe: Kannst du den Preis auch anders legen? So entdecken Kinder ganz nebenbei, dass dieselben 50 Cent aus einer Münze, aus zwei oder aus fünf bestehen können — Gleichwertigkeit zum Anfassen.",
+      "Der Stand mit kleinen Preisen bis 1 Euro und allen Münzen — samt der Einladung zum Anders-Legen — ist dauerhaft kostenlos. Mit Premium kommen die Geldscheine und die größeren Preise dazu, außerdem der Rückgeld-Modus, in dem der Händler das Rückgeld Münze für Münze laut weiterzählt — „…und 5 macht 50, und 50 macht 1 Euro“ —, und gespeicherte Stände für die nächste Stunde."
+    ],
+    "howToUse": [
+      "Schau dir mit dem Kind die Ware und das Preisschild an — mit „Etwas anderes kaufen“ wechselt der Stand vom Apfel bis zum Zug, jede Ware in ihrer eigenen Preisklasse.",
+      "Das Kind tippt Münzen aus dem Geldbeutel auf die Matte; der Betrag zählt klimpernd mit. Ein Tippen auf eine Münze auf der Matte legt sie einfach zurück.",
+      "Tippe auf den Lautsprecher: Der Betrag wird so vorgelesen, wie man Preise wirklich sagt — „2 Euro 30“ — und die Kinder sprechen ihn nach.",
+      "Ist passend bezahlt, nimm die Einladung an: dieselbe Summe noch einmal mit anderen Münzen legen — beide Wege stehen danach nebeneinander auf dem Bildschirm.",
+      "Mit Premium: Im Rückgeld-Modus wählt das Kind, womit es bezahlt, und der Händler zählt das Rückgeld Münze für Münze laut weiter — die Klasse zählt einfach mit."
+    ],
+    "classroomIdeas": [
+      "Brücke zum Kaufladen: Erst am Bildschirm passend bezahlen, dann dieselben Preise im echten Klassen-Kaufladen mit Spielgeld nachlegen.",
+      "Beamer-Runde: „Wie können wir 80 Cent legen?“ Die Klasse sammelt Wege an der Tafel — dann werden sie nacheinander auf der Geldmatte gelegt und vorgelesen.",
+      "Partnerarbeit: Ein Kind ist die Verkäuferin oder der Verkäufer und nennt den Preis, das andere bezahlt passend — dann wird getauscht.",
+      "Rückgeld-Chor (Premium): Die Klasse zählt mit dem Händler laut weiter — „…und 10 macht 50, und 50 macht 1 Euro“ — bis das Weiterzählen im Ohr sitzt.",
+      "Vom Legen zum Rechnen: Beide Wege zu einem Preis als Plusaufgaben ins Heft schreiben — zum Beispiel 50 = 20 + 20 + 10 und 50 = 10 + 10 + 10 + 10 + 10."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

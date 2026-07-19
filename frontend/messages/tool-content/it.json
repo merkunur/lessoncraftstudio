@@ -512,6 +512,32 @@
       "Dal digitale al reale: dopo il banco, misurate oggetti veri della classe con graffette vere. La regola della fila senza buchi e senza sovrapposizioni vale anche sul banco di legno!"
     ]
   },
+  "money-mat": {
+    "slug": "tappeto-dei-soldi",
+    "name": "Il tappeto dei soldi",
+    "tagline": "Un banco del mercato con le monete in euro: paga l’importo esatto, ascolta il totale e scopri il resto contato ad alta voce.",
+    "metaTitle": "Il tappeto dei soldi — contare gli euro | LessonCraftStudio",
+    "metaDescription": "Un banco del mercato con monete in euro: paga l’importo esatto, ascolta il totale a voce alta e componi la stessa cifra in un altro modo. Premium: banconote e resto contato.",
+    "about": [
+      "Il tappeto dei soldi è un piccolo mercato digitale dove i soldi si imparano toccandoli: sul banco c’è un articolo illustrato con il suo cartellino — «Il pane costa 2,30 €» — e sotto ci sono un borsellino pieno di monete in euro e un tappeto morbido. Il bambino tocca le monete per posarle sul tappeto, il totale sale a ogni tintinnio e, quando vuole, un tocco sull’altoparlante lo fa dire a voce alta: «due euro e trenta». Le monete hanno i colori dei metalli veri e le proporzioni vere — il 2 euro è davvero più grande del centesimo — così la mano impara insieme agli occhi.",
+      "Qui nessuno giudica: non ci sono verdetti, né fretta, né facce deluse — il fruttivendolo sorride sempre. Ogni moneta posata si può riprendere con un tocco, quindi ogni tentativo è reversibile. E quando il pagamento è esatto arriva l’invito più bello: «Riesci a fare 2 euro e 30 in un altro modo?». È l’equivalenza — capire che la stessa cifra si compone in tanti modi — proposta come un gioco che si può anche rimandare, mai come un compito.",
+      "Il banco dei prezzi piccoli con tutte le monete — e l’invito «in un altro modo» — è gratuito per sempre. Con Premium si aprono i prezzi più grandi, le banconote, i banchi salvati e la modalità del resto: il bambino sceglie con che cosa pagare e il fruttivendolo conta il resto ad alta voce, moneta dopo moneta — «…e 20 centesimi fa 1 euro. Ecco fatto!» — proprio come al mercato vero."
+    ],
+    "howToUse": [
+      "Guarda l’articolo sul banco e leggi insieme il cartellino del prezzo — per esempio «La mela costa 45 c».",
+      "Tocca le monete nel borsellino per posarle sul tappeto: il totale sale a ogni moneta, e se una è di troppo basta toccarla sul tappeto per riprenderla.",
+      "Tocca l’altoparlante per ascoltare il totale detto a voce alta: «quarantacinque centesimi», «due euro e trenta».",
+      "Quando il pagamento è esatto, accetta l’invito e prova a comporre la stessa cifra con monete diverse: alla fine i due modi compaiono fianco a fianco, uguali in valore.",
+      "Con Premium scegli i prezzi più grandi con le banconote, salva i tuoi banchi preferiti e passa a «Ricevere il resto»: scegli con che cosa pagare e conta il resto insieme al fruttivendolo, moneta dopo moneta."
+    ],
+    "classroomIdeas": [
+      "Alla LIM, prima di toccare lo schermo chiedete: «Quali monete useresti per pagare 65 centesimi?» — ogni bambino propone la sua combinazione, poi una viene provata davvero e il totale parlante fa da verifica per tutti.",
+      "Coro del totale: a ogni moneta posata la classe dice il nuovo totale ad alta voce, e solo alla fine si tocca l’altoparlante per sentire se la voce del banco dice la stessa cosa.",
+      "Gara di modi diversi: a coppie, quanti modi trovate per fare 50 centesimi? Ogni coppia registra le sue combinazioni sul quaderno, poi si confrontano — chi ha usato meno monete? Chi di più?",
+      "Il rito del resto: nella modalità Premium, i bambini contano ad alta voce insieme al fruttivendolo — «…e 10 fa 80, e 20 fa 1 euro» — poi rifanno lo stesso rito al banco del mercato allestito in classe con le monete di carta.",
+      "Dal digitale al reale: allestite un angolo-negozio con cartellini dei prezzi scritti dai bambini e usate le stesse frasi del tappeto — «Riesci a pagare l’importo esatto?», «Ecco il tuo resto» — così i gesti e le parole migrano nel gioco vero."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

@@ -512,6 +512,32 @@
       "Mål-jagt i klassen: Find bagefter ting på bordene, der måler cirka 5 clips — og tjek efter med rigtige clips. Så flytter skærmens måling ud i hænderne."
     ]
   },
+  "money-mat": {
+    "slug": "pengemaatten",
+    "name": "Pengemåtten",
+    "tagline": "Betal ved boden med danske kroner — læg mønter på måtten, og hør beløbet sagt højt",
+    "metaTitle": "Pengemåtten – regn med penge i indskolingen | LessonCraftStudio",
+    "metaDescription": "En bod med danske kroner: Læg mønter på måtten, betal lige præcis det, varen koster, og hør beløbet sagt højt. Byttepenge tælles op krone for krone — gratis, uden login.",
+    "about": [
+      "Pengemåtten er regning med de penge, børnene faktisk kender: danske kroner. En lille bod viser en vare med et prisskilt — æblet koster 7 kr — og børnene trykker mønter fra pungen over på måtten: 1-, 2-, 5-, 10- og 20-kroner med ægte størrelsesforhold og metalfarver. Beløbet tæller op med små klink, og en højttalerknap siger det højt — “7 kroner” — når klassen vil have det. Alle priser er i hele kroner, så hovedregningen bliver der, hvor indskolingen er: at tælle videre med 1, 2, 5, 10 og 20.",
+      "Når der er betalt med lige penge, siger bodens ejer tak — og stiller så et venligt, frivilligt spørgsmål: Kan du lægge det samme beløb på en anden måde? Lykkes det med en helt anden kombination, vises de to måder side om side med et lighedstegn imellem — samme beløb, forskellige mønter. Hver mønt på måtten kan trykkes tilbage i pungen, og et beløb, der ikke passer endnu, mødes med ro: ingen røde krydser, ingen sure lyde — bodens ejer smiler bare videre.",
+      "Boden med små priser og alle mønter — og legen “på en anden måde” — er gratis for altid. Premium åbner 50- og 100-kronesedlerne, de større prisbånd, gemte boder til stationsarbejde og byttepenge-tilstanden: Barnet vælger, hvad der betales med — alle muligheder er gyldige — og bodens ejer tæller byttepengene op mønt for mønt, højt: …og 1 krone giver 8 kroner, og 2 kroner giver 10 kroner. At tælle videre, sagt i penge."
+    ],
+    "howToUse": [
+      "Vis boden på den interaktive tavle, og læs prisskiltet sammen — de små priser holder sig under 10 kroner.",
+      "Lad et barn trykke mønter fra pungen over på måtten, og følg med, mens beløbet tæller op — en mønt på måtten kan altid trykkes tilbage.",
+      "Tryk på højttalerknappen, når klassen vil høre beløbet sagt højt — “7 kroner”.",
+      "Efter en betaling med lige penge: Tag imod invitationen, ryd måtten, og læg det samme beløb på en ny måde — så vises de to måder side om side.",
+      "I Premium skifter du til Få byttepenge: Vælg, hvad der betales med, og tryk på hver mønt, bodens ejer rækker frem, mens der tælles videre højt."
+    ],
+    "classroomIdeas": [
+      "Mønt-jagt som opvarmning: Vis en pris, og lad makkerpar finde ÉN måde at betale den på — bagefter samler klassen alle de forskellige måder på tavlen.",
+      "Færrest-mønter-snak: Når to måder står på skærmen, så spørg, hvilken der bruger færrest mønter — og hvorfor. Samtalen om lige store beløb kører næsten af sig selv.",
+      "Byttepenge-ekko: I byttepenge-tilstanden gentager klassen hvert trin højt efter bodens ejer — så bliver det at tælle videre en fælles remse.",
+      "Klassens egen bod: Stil varer fra klassen op med prisskilte i hele kroner, og lad børnene skifte mellem skærmens bod og den fysiske — samme priser, samme mønter.",
+      "Gemte boder til stationer (Premium): Gem en bod pr. gruppe med priser, der passer til gruppens niveau, og lad grupperne rotere gennem det samme marked."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

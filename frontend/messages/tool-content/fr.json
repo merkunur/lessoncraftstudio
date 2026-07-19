@@ -512,6 +512,32 @@
       "Métacognition avec le carnet d’estimations : relisez les dernières lignes avec l’enfant — « Tes estimations se rapprochent-elles des mesures ? » — pour rendre visibles ses progrès."
     ]
   },
+  "money-mat": {
+    "slug": "tapis-de-la-monnaie",
+    "name": "Le tapis de la monnaie",
+    "tagline": "Payer le prix exact en pièces d’euro, entendre le total à voix haute — et jouer à la marchande.",
+    "metaTitle": "Le tapis de la monnaie : jouer à la marchande | LessonCraftStudio",
+    "metaDescription": "Un étal à l’écran : l’enfant paie le prix exact en pièces d’euro, écoute le total à voix haute, cherche une autre façon de payer — et apprend à rendre la monnaie.",
+    "about": [
+      "Le tapis de la monnaie est un petit étal de marché à projeter au TBI ou à mettre entre les mains d’un enfant : un article s’installe sur le comptoir avec son étiquette — la pomme à 45 c, le train à 2,30 € — et l’enfant touche les pièces de son porte-monnaie pour les poser sur le tapis et payer le prix exact. Chaque pièce tinte en se posant, du grave à l’aigu selon sa taille, et le total peut se dire à voix haute, sur demande : « 2 euros et 30 centimes ». Les pièces gardent les vraies tailles relatives des pièces d’euro — sans les faces nationales — pour que l’œil apprenne à les reconnaître.",
+      "Ici, personne n’est jugé : pas de chronomètre, pas de score, pas de rouge. Une pièce posée en trop ? On la touche, elle retourne dans le porte-monnaie. Quand le compte est juste, la marchande remercie — puis propose, sans jamais insister : « Peux-tu faire 45 c d’une autre façon ? » C’est l’équivalence qui s’installe en douceur : deux pièces de 20 c et une de 5 c, ou quatre de 10 c et une de 5 c — les deux façons s’affichent côte à côte. Et si l’enfant préfère passer à autre chose, l’invitation se range d’un geste, sans reproche.",
+      "L’étal des petits prix, avec toutes les pièces et l’invitation « d’une autre façon », est gratuit pour toujours, sans compte. Avec Premium, le marché s’agrandit : les billets, les prix plus grands, les étals enregistrés — et le rendu de monnaie, où l’enfant choisit avec quoi payer et où la marchande rend la monnaie en comptant à voix haute, pièce après pièce : « …et 5 centimes, ça fait 50 centimes — et 50 centimes, ça fait 1 euro. » Le rituel du marché, prêt à être rejoué en classe."
+    ],
+    "howToUse": [
+      "Projetez l’étal au TBI en regroupement, ou ouvrez-le sur une tablette en atelier : un article s’installe sur le comptoir avec son étiquette de prix.",
+      "L’enfant touche les pièces du porte-monnaie pour les poser sur le tapis — chaque pièce tinte. Une pièce en trop ? On la touche sur le tapis, elle revient dans le porte-monnaie : tout se corrige sans rien effacer.",
+      "Faites d’abord dire le total par l’enfant, puis touchez le haut-parleur pour l’entendre : « 2 euros et 30 centimes ». Demandez ensuite : « Qu’est-ce qu’il manque pour arriver au prix ? »",
+      "Quand le compte est juste, l’invitation apparaît : « d’une autre façon ? » Laissez chercher — pour 45 c, deux pièces de 20 c et une de 5 c, ou quatre de 10 c et une de 5 c — les deux façons s’affichent côte à côte.",
+      "Avec Premium, passez en « Recevoir la monnaie » : l’enfant choisit avec quoi payer, et la marchande rend la monnaie en comptant à voix haute — « …et 5, ça fait 50 — et 50, ça fait 1 euro ». Reprenez le rituel en chœur avant de le rejouer avec de vraies pièces."
+    ],
+    "classroomIdeas": [
+      "Installez un vrai coin marchande à côté de l’écran : on joue d’abord sur le tapis, puis on rejoue la même scène avec des pièces factices — le vocabulaire (« ça fait », « le prix exact », « la monnaie ») passe tout seul de l’un à l’autre.",
+      "En rituel du matin au CP, un article par jour : la classe propose ensemble une façon de payer, puis une deuxième — et on cherche la façon qui utilise le moins de pièces.",
+      "En binôme, un enfant joue le marchand et lit le prix à voix haute, l’autre paie sur le tapis ; on échange les rôles à chaque article.",
+      "Au CE1, avant de manipuler de vraies pièces, faites dire le comptage du rendu de monnaie en chœur : « …et 5, ça fait 50 — et 50, ça fait 1 euro. »",
+      "Lancez un défi équivalences : payer 50 c sans la pièce de 50 c, payer 1 € sans la pièce de 1 € — combien de façons la classe peut-elle trouver ?"
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

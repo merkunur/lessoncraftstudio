@@ -512,6 +512,32 @@
       "Después de medir en pantalla, midan el salón con pasos, lápices o manos: la unidad se elige, la rutina de estimar y medir es la misma."
     ]
   },
+  "money-mat": {
+    "slug": "contar-dinero",
+    "name": "El tapete del dinero",
+    "tagline": "Un puesto de mercado con monedas de euro: paga justo, escucha el total en voz alta y forma el mismo precio de otra manera.",
+    "metaTitle": "El tapete del dinero — contar monedas de euro | Primaria",
+    "metaDescription": "Un puesto de mercado con monedas de euro: los niños pagan justo, escuchan el total en voz alta —«2 euros con 30»— y forman el mismo precio de otra manera. Gratis.",
+    "about": [
+      "El tapete del dinero convierte el proyector en un puesto de mercado con las monedas de euro que los niños ven cada día: los ocho valores, del céntimo cobrizo a los 2 euros bicolores, con sus tamaños reales en proporción. Sobre el mostrador hay un artículo con su etiqueta —«45 c», «2,30 €»— y los niños tocan monedas para ponerlas en el tapete: cada una cae con su clin, y el total va subiendo a la vista de todos.",
+      "Cuando quieren oírlo, el puesto dice el total como se dice de verdad: «2 euros con 30». No hay relojes ni puntos, y ninguna moneda se queda pegada: tocarla otra vez la devuelve al monedero. Al pagar justo llega un «gracias» — y una invitación tranquila: ¿puedes formar el mismo precio de otra manera? Así aparece la gran idea de la equivalencia: dos montones distintos de monedas, el mismo dinero.",
+      "El puesto de precios pequeños, con todas las monedas y el «de otra manera», es gratis para siempre. Con Premium se abren los precios más grandes, los billetes, los puestos guardados y la vuelta: eliges con qué pagar y el tendero cuenta tu vuelta en voz alta, moneda a moneda —«…y 50 céntimos son 3 euros. …y 2 euros son 5 euros»—, tal como se cuenta en el mercado."
+    ],
+    "howToUse": [
+      "Abre el puesto y mira el artículo del día con su etiqueta: ¿cuánto cuesta?",
+      "Toca monedas del monedero para ponerlas en el tapete; el total sube con cada clin. ¿Pusiste una de más? Tócala y vuelve sola al monedero.",
+      "Toca el altavoz para escuchar el total en voz alta: «1 euro con 85».",
+      "Cuando pagues justo, prueba la invitación: forma el mismo precio de otra manera y compara los dos tapetes lado a lado.",
+      "Con Premium, activa «Recibir la vuelta»: elige con qué pagar y escucha al tendero contar tu vuelta en voz alta, moneda a moneda."
+    ],
+    "classroomIdeas": [
+      "Proyecta el puesto al empezar la clase: un niño pasa a pagar, todos cuentan en voz alta con cada clin y el altavoz confirma el total al final.",
+      "Juego de «de otra manera»: formen 1 euro entre todos y vean cuántas combinaciones distintas salen. Cada una vale — no hay ninguna mejor que otra.",
+      "Pon monedas de juguete en las mesas: lo que un niño paga en el tapete, los demás lo copian con sus monedas. La pantalla y las manos cuentan lo mismo.",
+      "Con la vuelta (Premium), jueguen al mercado: un niño hace de tendero y cuenta la vuelta en voz alta igual que el puesto, moneda a moneda.",
+      "Cambia de artículo cada día y estimen antes de pagar: ¿bastará una moneda de 2 euros para el osito de peluche? Luego lo comprueban en el tapete."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

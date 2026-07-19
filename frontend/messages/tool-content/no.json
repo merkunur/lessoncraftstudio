@@ -512,6 +512,32 @@
       "Målestasjon: lagre et oppsett som morgenstasjon, og la barna jobbe to og to — én gjetter, én måler, så bytter de."
     ]
   },
+  "money-mat": {
+    "slug": "pengematta",
+    "name": "Pengematta",
+    "tagline": "Betal med ekte norske kroner i en vennlig markedsbod — nøyaktig, på nye måter, og med veksling telt høyt.",
+    "metaTitle": "Pengematta – tell og betal med norske kroner på storskjerm",
+    "metaDescription": "Barna betaler med ekte kronemynter i en vennlig markedsbod: betal nøyaktig, lag summen på en ny måte, og hør pengene du får igjen bli telt høyt — uten poeng og tidspress.",
+    "about": [
+      "Pengematta er en liten markedsbod på klasseromsskjermen — med ekte norske penger. Myntene er de barna faktisk kjenner fra lommeboka: 1 krone, 5 kroner, 10 kroner og 20 kroner, og med Premium også sedler på 50 og 100 kroner. Et barn ser en vare med prislapp — eplet koster 3 kroner, bamsen koster 9 — og trykker mynter bort på matta til summen stemmer helt nøyaktig. Hver mynt klirrer på plass, og summen kan når som helst leses høyt: «7 kroner».",
+      "Alt kan angres: trykk på en mynt på matta, så går den tilbake i pungen. Ingen poeng, ingen nedtelling, ingen røde kryss — selgeren i boden smiler like blidt hele tiden. Og når betalingen stemmer, kommer en vennlig invitasjon: «Kan du lage 7 kroner på en annen måte?» Slik oppdager barna at en femmer og to enkroner er akkurat like mye som sju enkroner — likeverdige beløp, uten press og uten fasitrød penn.",
+      "Boden med små priser og alle myntene — og «på en annen måte» — er alltid gratis. Med Premium åpner du større priser, sedler på 50 og 100 kroner, lagrede boder og vekslingsmodusen: barnet velger hva det vil betale med, og selgeren teller vekslepengene høyt, mynt for mynt — «…og 1 krone — det blir 8 kroner … og da har vi 10 kroner. Vær så god!» Det er akkurat slik telle-videre-ritualet låter i butikken, og akkurat slik det øves på 1. og 2. trinn."
+    ],
+    "howToUse": [
+      "Vis Pengematta på storskjerm eller projektor — boden åpner med en vare og en prislapp i hele kroner.",
+      "La et barn trykke på mynter i pungen for å legge dem på matta. Hver mynt klirrer, og summen oppdateres.",
+      "Trykk på høyttaler-knappen for å få summen lest høyt — «7 kroner» — og trykk på en mynt på matta for å ta den tilbake.",
+      "Når betalingen stemmer helt nøyaktig, feirer boden — og spør gjerne om barnet kan lage det samme beløpet på en annen måte.",
+      "Med Premium: bytt til «Få igjen penger», la barnet velge en større mynt eller seddel å betale med, og tell høyt sammen med selgeren mens vekslepengene kommer, mynt for mynt."
+    ],
+    "classroomIdeas": [
+      "Klassebutikk i samlingsstund: la ett barn være kunde ved tavla mens resten legger det samme beløpet med lekepenger på pulten — og sammenlign etterpå: laget dere summen likt?",
+      "Telle-videre-koret: i vekslingsmodus teller hele klassen høyt sammen med selgeren — «åtte … ni … ti kroner!» Å telle videre fra et tall er en av de viktigste regnestrategiene på 1. trinn.",
+      "På-en-annen-måte-jakten: hvor mange forskjellige måter kan klassen lage 10 kroner på? Skriv alle forslagene på tavla, og se hvem som finner en måte ingen andre har tenkt på.",
+      "Snakk om myntene først: hvorfor finnes det ingen 3-kronemynt? Hvilke mynter trenger man for å betale 7 kroner? Klassesamtalen før trykkingen er halve matematikken.",
+      "Differensiering: nybegynnere betaler små priser med enkroner alene; de som er klare for mer, utfordres til å bruke færrest mulig mynter — eller til å regne ut vekslepengene i hodet før selgeren teller dem opp."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

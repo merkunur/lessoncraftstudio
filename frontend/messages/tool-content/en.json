@@ -383,6 +383,32 @@
       "Theme preview: open the theme of your next unit and let the class name what they already know before you teach a single word."
     ]
   },
+  "hush-owl": {
+    "slug": "hush-owl",
+    "name": "Hush Owl",
+    "tagline": "Let the owl sleep — a calm picture of the room’s voices",
+    "metaTitle": "Hush Owl — A Calm Classroom Noise Meter for K-3",
+    "metaDescription": "A sleepy owl dozes while your class keeps today’s voice level, and sustained loudness gently wakes him. No sirens, no red zones, no numbers — sound never leaves the device.",
+    "about": [
+      "Hush Owl gives your classroom a shared, gentle picture of its own volume. A sleepy owl dozes on a branch on the projector; the room’s sound sways the branch, and only sustained loudness slowly wakes him — first his ear tufts twitch, then one sleepy half-blink, then he looks curiously around the room. A dropped pencil, a laugh, a chair scrape can never wake him. The class’s shared goal is simple and kind: let the owl sleep.",
+      "There are no sirens here, no red zones, no loudness numbers, no meters and no names — the feedback is about the room, never about a child. The owl is never angry; when it gets loud he simply wakes up curious, and about fifteen seconds of settled voices earn his contented sigh and return to sleep. A small wooden sign on the branch shows today’s target — Silent, Whisper voices, Partner voices, or Group-work voices — so children can always see the goal they are working toward together.",
+      "Hush Owl is built for privacy-conscious classrooms: the owl only listens right here in your room. Sound levels are measured on this device and nothing is ever recorded, saved, or sent anywhere. On school devices where the microphone is blocked, Teacher’s ears mode keeps everything working — you tap how the room sounds, and the owl responds just the same. Premium adds the voice-level choices, a sleepy cat and a little dragon, and a corner view that sits beside another projected tool."
+    ],
+    "howToUse": [
+      "Open Hush Owl on the projector so the whole class can see the sleeping owl.",
+      "Pick today’s voices — the wooden sign on the branch shows the class the target.",
+      "Tap Start listening and allow the microphone when your browser asks.",
+      "Teach the goal once: our job is to let the owl sleep. The swaying branch shows the room’s sound right now.",
+      "If the room wakes him, just settle back down together — about fifteen seconds of calm voices and he falls asleep again."
+    ],
+    "classroomIdeas": [
+      "Silent reading: set the sign to Silent and let the owl be the only reminder anyone needs.",
+      "Partner work: set Partner voices and let pairs self-check against the swaying branch instead of waiting for a shush.",
+      "Class meeting on day one: let the class discover what wakes the owl and agree together on how to help him sleep.",
+      "No microphone allowed at your school? Run Teacher’s ears mode and tap how the room sounds — the ritual works the same.",
+      "Corner view (Premium): keep a small owl beside your math tool during centers so the calm picture never leaves the wall."
+    ]
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

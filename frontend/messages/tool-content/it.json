@@ -382,6 +382,32 @@
       "Uno o tanti? Un bambino sceglie una carta di nascosto e dice soltanto la parola, senza articolo — «cani», «mela», «api». I compagni rispondono: uno o tanti? È la finale della parola a dare la risposta. Poi prova con «hamburger» o «koala», dove la finale non dice niente: lì serve la figura, e la scoperta è che qualche parola in italiano non cambia mai."
     ]
   },
+  "hush-owl": {
+    "slug": "misuratore-di-rumore-in-classe",
+    "name": "Il gufo della nanna",
+    "tagline": "Se la classe parla piano, il gufo dorme: un aiuto gentile e silenzioso per il volume della voce.",
+    "metaTitle": "Il gufo della nanna — misuratore di rumore gentile per la classe",
+    "metaDescription": "Un gufo addormentato sulla LIM invita la classe a parlare piano: se il volume resta basso, il gufo dorme. Senza sirene né zone rosse — e niente viene mai registrato o inviato.",
+    "about": [
+      "Il gufo della nanna è un compagno di classe silenzioso da proiettare sulla LIM: un gufo addormentato sonnecchia su un ramo che ondeggia dolcemente con il volume della classe. Se il rumore continua a lungo, il gufo si sveglia piano piano — curioso, mai arrabbiato — e appena torna la calma si riaddormenta. Niente sirene, niente zone rosse, niente numeri né punteggi: solo un obiettivo comune che i bambini fanno subito loro: «Lasciamo dormire il gufo».",
+      "Sul cartello di legno scegli le voci di oggi: silenzio, voce sussurrata, voce a coppie o lavoro di gruppo. Così i bambini sanno sempre qual è il volume giusto per quel momento e imparano ad autoregolarsi senza richiami continui: non è l’insegnante che sgrida, è la classe che protegge il sonno del suo amico. Con Premium puoi anche cambiare compagno di nanna — il gatto dormiglione o il draghetto — e usare la modalità angolo accanto a un altro strumento proiettato.",
+      "Funziona con il microfono del computer o del tablet, oppure del tutto senza: con «Le orecchie dell’insegnante» sei tu a dire al gufo quanto rumore c’è in classe. E la privacy è garantita per davvero: il gufo ascolta solo lì, nella vostra classe — il volume viene misurato direttamente sul dispositivo e niente viene mai registrato, salvato o inviato da nessuna parte."
+    ],
+    "howToUse": [
+      "Proietta il gufo sulla LIM o sullo schermo e scegli insieme alla classe le voci di oggi sul cartello di legno.",
+      "Tocca «Inizia ad ascoltare» e consenti l’uso del microfono — oppure attiva «Le orecchie dell’insegnante» per usarlo senza microfono.",
+      "Presenta l’obiettivo comune: «Lasciamo dormire il gufo». Il ramo ondeggia dolcemente con il volume della classe.",
+      "Se il rumore dura troppo, il gufo apre gli occhi piano piano, curioso ma mai arrabbiato: è il segnale gentile per abbassare la voce tutti insieme.",
+      "Quando torna la calma, il gufo si riaddormenta. Se serve, regola l’udito del gufo per adattarlo a un’aula molto silenziosa o molto vivace."
+    ],
+    "classroomIdeas": [
+      "Momento lettura: imposta «Silenzio» durante la lettura autonoma e lascia che il gufo faccia da custode della biblioteca di classe.",
+      "Rientro dall’intervallo: proietta il gufo mentre i bambini tornano ai loro posti — il rituale del «facciamo addormentare il gufo» rende la transizione dolce e veloce.",
+      "Lavoro a coppie: con «Voce a coppie» i bambini imparano a confrontarsi con il compagno di banco tenendo un volume che non sveglia il gufo.",
+      "Educazione alla voce: usa il cartello delle voci per parlare di come usiamo la voce nei diversi momenti della giornata scolastica, dal cerchio del mattino al lavoro di gruppo.",
+      "Modalità angolo (Premium): tieni il gufo in un angolino dello schermo accanto alle consegne proiettate durante le attività a gruppi."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

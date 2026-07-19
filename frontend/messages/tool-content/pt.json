@@ -382,6 +382,32 @@
       "Mural da semana: fixe as palavras do projeto em Nossas palavras e leiam juntos todo dia; na sexta, cada criança escolhe a sua preferida e desenha no caderno."
     ]
   },
+  "hush-owl": {
+    "slug": "medidor-de-barulho",
+    "name": "A coruja dorminhoca",
+    "tagline": "Um medidor de barulho gentil: enquanto a turma fala baixinho, a coruja dorme.",
+    "metaTitle": "Medidor de barulho para sala de aula — A coruja dorminhoca",
+    "metaDescription": "Medidor de barulho gentil para a sala de aula: a coruja dorme enquanto a turma fala baixinho. Sem sirenes nem pontos — nada é gravado, salvo ou enviado.",
+    "about": [
+      "A coruja dorminhoca transforma o combinado de voz da turma em algo que as crianças podem ver: uma coruja sonolenta em um galho, projetada na lousa digital. Enquanto a sala fica no nível de voz combinado, ela dorme tranquila; se o barulho cresce e continua, ela vai acordando devagarzinho — e quando a calma volta, ela volta a dormir. Sem sirenes, sem zonas vermelhas, sem números na tela: só um objetivo carinhoso que a turma inteira divide — vamos deixar a coruja dormir.",
+      "Antes de começar, você escolhe na plaquinha de madeira as vozes de hoje: silêncio, voz de sussurro, voz de dupla ou trabalho em grupo — o mesmo vocabulário que já vive nos combinados da sala. No plano gratuito, a coruja acompanha a voz de dupla e você ajusta o quanto ela ouve; com o Premium, você escolhe qualquer nível de voz, chama o gato dorminhoco ou o dragãozinho para o galho e usa o cantinho da tela ao lado de outra ferramenta projetada.",
+      "E a privacidade vem em primeiro lugar, no espírito da LGPD: a coruja só escuta aqui, na sua sala de aula — o nível de som é medido neste aparelho e nada jamais é gravado, salvo ou enviado a lugar nenhum. O microfone só liga quando você toca em Começar e desliga quando você toca em Parar. Se o computador da escola não tiver microfone (ou ele estiver bloqueado), o modo “Os ouvidos da professora” funciona sem microfone nenhum: você mesma conta para a coruja como a sala está."
+    ],
+    "howToUse": [
+      "Projete a coruja na lousa digital ou na TV da sala e apresente o combinado para a turma: hoje, vamos deixar a coruja dormir.",
+      "Escolha na plaquinha de madeira a voz de hoje — silêncio, voz de sussurro, voz de dupla ou trabalho em grupo.",
+      "Toque em Começar a escutar e permita o uso do microfone — o som é medido só neste aparelho, sem gravar nada.",
+      "Se a sala for muito viva ou muito quietinha, ajuste o ouvido da coruja nas configurações — de bem menos até bem mais.",
+      "No fim da atividade, toque em Parar e converse com a turma: a coruja dormiu bem hoje? O que ajudou a sala a ficar calma?"
+    ],
+    "classroomIdeas": [
+      "Hora da leitura silenciosa: escolha Silêncio e deixe a coruja tomar conta da sala enquanto cada criança lê o seu livro.",
+      "Trabalho em duplas de matemática: com a voz de dupla, as crianças conversam baixinho e conferem, de olho na coruja, se o combinado está valendo.",
+      "Volta do recreio: projete a coruja acordada e proponha o desafio gentil de ajudá-la a dormir de novo antes da próxima atividade.",
+      "Cantinhos de atividades: selecione trabalho em grupo e use o cantinho da tela para deixar a coruja ao lado das instruções projetadas.",
+      "Computador da escola sem microfone? Ative Os ouvidos da professora: você mesma conta para a coruja como a sala está soando — e o combinado continua vivo."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

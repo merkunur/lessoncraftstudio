@@ -382,6 +382,32 @@
       "Viskpar vid stationen: två barn vid en surfplatta, viskläge med sex kort — ett lyssnar, ett letar, sedan byter de. Eftersom ingenting räknas och varje runda slutar med ett fynd vågar också de barn som aldrig räcker upp handen i samlingen."
     ]
   },
+  "hush-owl": {
+    "slug": "ljudniva-klassrummet",
+    "name": "Sovugglan",
+    "tagline": "En sömnig uggla som hjälper klassen att hålla arbetsro — utan mätare, poäng eller pekpinnar.",
+    "metaTitle": "Sovugglan – lugn ljudnivå i klassrummet | LessonCraftStudio",
+    "metaDescription": "En ljudnivåkompis för klassrummet: ugglan sover så länge klassen håller dagens röstnivå. Inga mätare, inga poäng — bara arbetsro. Ljudet mäts på enheten och sparas aldrig.",
+    "about": [
+      "Sovugglan är klassens lugna ljudnivåkompis på projektorn. En sömnig liten uggla sitter på sin gren, och grenen gungar mjukt i takt med ljudet i rummet. Blir det för högljutt för länge vaknar ugglan långsamt — nyfiken, aldrig arg — och när lugnet återvänder somnar den om. Klassens gemensamma mål är enkelt och varmt: låt ugglan sova.",
+      "Du väljer dagens röstnivå på träskylten: tyst arbete, viskröst, samtalsröst eller grupparbetsröst. Sovugglan är byggd för arbetsro utan skam — här finns inga sirener, inga röda zoner, inga siffror och inga poäng. Ingen enskild elev pekas ut; det är rummet ugglan lyssnar på, och hela klassen hjälps åt. Att lyckas belönas med det finaste som finns: en uggla som sover gott.",
+      "Integriteten är lika lugn som ugglan: ugglan lyssnar bara här i klassrummet — ljudnivån mäts på den här enheten och ingenting spelas någonsin in, sparas eller skickas. Mikrofonen startar först när du trycker på Börja lyssna och stängs av direkt när du stoppar. Saknar datorn mikrofon fungerar Lärarens öron, där du själv berättar för ugglan hur rummet låter. Med Premium låser du dessutom upp alla röstnivåer, sovkompisarna katten och draken samt hörnvyn."
+    ],
+    "howToUse": [
+      "Öppna Sovugglan på projektorn eller den stora skärmen så att hela klassen ser ugglan på sin gren.",
+      "Välj dagens röstnivå på träskylten — tyst arbete, viskröst, samtalsröst eller grupparbetsröst.",
+      "Tryck på Börja lyssna och tillåt mikrofonen i webbläsaren — eller slå på Lärarens öron om du vill klara dig helt utan mikrofon.",
+      "Prata med klassen om målet: så länge ni håller dagens röster sover ugglan, och blir det för högljutt vaknar den sakta — då hjälps ni åt att låta den somna om.",
+      "Ställ in Ugglans hörsel så att den passar just ert rum, och tryck på Stoppa när passet är slut — mikrofonen stängs av på en gång."
+    ],
+    "classroomIdeas": [
+      "Tyst läsning: sätt skylten på tyst arbete och låt ugglan sova genom hela lässtunden — ett mjukt gemensamt mål i stället för hyssjande.",
+      "Grupparbete med arbetsro: välj grupparbetsröst och visa att man kan samarbeta livligt utan att väcka ugglan.",
+      "Lugn efter rasten: starta ugglan när klassen kommer in och låt rummet landa tillsammans innan lektionen börjar.",
+      "Prata om arbetsro: låt eleverna sätta ord på hur det känns i kroppen när ugglan får sova — och vad som händer i rummet när den vaknar.",
+      "Hörnvy (Premium): lägg ugglan i ett hörn av skärmen bredvid dagens instruktion, så finns den lugna påminnelsen kvar under hela arbetspasset."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

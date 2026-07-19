@@ -382,6 +382,32 @@
       "Antes de empezar el proyecto: abre el tema de la próxima unidad y deja que el grupo nombre lo que ya sabe. Vas a descubrir que la mitad del vocabulario ya lo traen — y ellos también."
     ]
   },
+  "hush-owl": {
+    "slug": "control-de-ruido-en-el-salon",
+    "name": "El búho dormilón",
+    "tagline": "Un compañero de calma para el ruido del salón — la meta es de todo el grupo: dejar dormir al búho.",
+    "metaTitle": "El búho dormilón — control de ruido en el salón de clases",
+    "metaDescription": "Un búho dormilón acompaña el ruido de tu salón: si el volumen sube, despierta poco a poco; con la calma, vuelve a dormirse. Sin sirenas, sin números y sin regaños.",
+    "about": [
+      "El búho dormilón es un compañero de calma para proyectar en tu salón. Un búho ilustrado duerme sobre su rama; el sonido del salón mece la rama suavemente y, si el ruido se mantiene alto un buen rato, el búho va despertando poco a poco — con curiosidad, nunca enojado. Cuando el grupo recupera la calma, se acomoda y vuelve a dormirse. La meta es compartida y positiva: «Dejemos dormir al búho». No hay sirenas, ni zonas rojas, ni números, ni marcadores — nadie queda exhibido; el búho habla del salón completo, no de ningún niño.",
+      "Funciona con la privacidad por delante: el búho solo escucha aquí, en tu salón — el nivel de sonido se mide en este dispositivo y nada se graba, se guarda ni se envía jamás. El micrófono se enciende únicamente cuando tocas «Empezar a escuchar» y se apaga por completo al detenerlo, así que puedes usarlo con confianza también en equipos de la escuela.",
+      "Antes de empezar, eliges en el letrero de madera las voces de hoy: silencio, voz de secreto, voz baja o voz de equipo — los mismos niveles de voz que ya usas en tu salón, con nombres e íconos, sin números. La voz baja, el búho y los «Oídos de profe» (el modo sin micrófono, donde tú le dices al búho cómo suena el salón) son siempre gratis; con Premium se abren los cuatro niveles de voz, los amigos dormilones extra — el gato y el dragoncito — y la vista de esquina para acomodarlo junto a otra herramienta proyectada."
+    ],
+    "howToUse": [
+      "Proyecta el búho frente al grupo y elige en el letrero de madera las voces de hoy: silencio, voz de secreto, voz baja o voz de equipo.",
+      "Toca «Empezar a escuchar» y permite el micrófono. Si tu equipo no tiene micrófono o está bloqueado, activa «Oídos de profe» y tú le dices al búho cómo suena el salón.",
+      "Presenta la meta al grupo con una sola frase: «Dejemos dormir al búho». Explica que el búho escucha a todo el salón junto — no a un niño en particular.",
+      "Trabajen con normalidad. Si el ruido se mantiene alto, el búho despierta poco a poco, curioso; no hace falta regañar: basta con señalarlo y bajar la voz juntos. Ajusta «El oído del búho» si tu salón es muy vivo o muy callado.",
+      "Cuando regrese la calma, el búho se vuelve a dormir — siempre igual, sin premios ni castigos. Cierra la sesión con «Detener» para apagar el micrófono por completo."
+    ],
+    "classroomIdeas": [
+      "Lectura independiente o trabajo individual: pon el letrero en «Voz de secreto» y deja que el búho acompañe el momento de silencio sin que tengas que pedirlo tú.",
+      "Transiciones sin ruido: reta al grupo a guardar materiales, formarse o cambiar de estación sin despertar al búho — la transición se vuelve un juego cooperativo.",
+      "Trabajo en equipos: elige «Voz de equipo» y conversa antes con el grupo sobre cómo suena un equipo que platica sin despertar a un búho — una mini-lección de autorregulación.",
+      "Sin micrófono también funciona: en la biblioteca o en un equipo escolar con el micrófono administrado, usa «Oídos de profe» y toca cómo suena el salón — el búho responde igual.",
+      "Amigo de la semana (Premium): deja que el grupo vote si esta semana cuida el sueño del búho, del gato dormilón o del dragoncito — la novedad renueva el interés sin cambiar la rutina."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

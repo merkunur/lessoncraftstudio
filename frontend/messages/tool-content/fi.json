@@ -382,6 +382,32 @@
       "Sanaseinä ja Äännelaatikot pariksi: valitkaa seinältä päivän sana, katsokaa iso kuva ja kirjoitusasu, ja purkakaa sama sana sitten Äännelaatikoissa äänne kerrallaan — pitkä sana kannattaa katsoa isona ennen kuin sen pilkkoo osiin."
     ]
   },
+  "hush-owl": {
+    "slug": "tyorauha-pollo",
+    "name": "Unipöllö",
+    "tagline": "Lempeä työrauhan kaveri valkotaululle — kun luokassa on rauhallista, pöllö nukkuu.",
+    "metaTitle": "Unipöllö – lempeä työrauhatyökalu luokkaan | LessonCraftStudio",
+    "metaDescription": "Unipöllö on lempeä työrauhan tuki esi- ja alkuopetukseen: kun luokassa on rauhallista, pöllö nukkuu. Ääni mitataan omalla laitteella, eikä mitään tallenneta tai lähetetä.",
+    "about": [
+      "Unipöllö on rauhallinen työrauhan kaveri luokkasi valkotaululle. Oksallaan torkkuva pöllö kuuntelee luokan ääntä: kun työskentely pysyy sovitulla äänitasolla, pöllö nukkuu tyytyväisenä, ja jos ääni jatkuu pitkään liian kovana, se herää hitaasti — uteliaana, ei koskaan vihaisena. Luokalla on yhteinen, lempeä tavoite: annetaan pöllön nukkua. Ei sireenejä, ei punaisia varoituksia, ei numeroita — työrauhaa ilman häpeää.",
+      "Valitset itse puisesta kyltistä, millä äänellä tänään työskennellään: hiljaisuus, kuiskausääni, parityön ääni tai ryhmätyön ääni. Pöllön kuulon voi säätää omaan luokkatilaan sopivaksi, ja jos mikrofonia ei ole tai sitä ei saa käyttää, Opettajan korvat -tila toimii kokonaan ilman sitä: sinä kerrot pöllölle, miltä luokassa kuulostaa. Premium-versiossa unikaveriksi voi valita myös nukkuvan kissan tai pienen lohikäärmeen, ja pöllön voi siirtää kulmanäkymään toisen työkalun viereen.",
+      "Yksityisyys on suunniteltu kouluun sopivaksi alusta asti. Pöllö kuuntelee vain omassa luokassasi — äänitaso mitataan tällä laitteella, eikä mitään koskaan äänitetä, tallenneta tai lähetetä. Mikrofoni käynnistyy vasta, kun napautat Aloita, ja sammuu heti, kun pysäytät kuuntelun — voit siis pitää pöllöä esillä koko koulupäivän huoletta."
+    ],
+    "howToUse": [
+      "Avaa Unipöllö luokan valkotaululle tai heijasta se projektorilla niin, että kaikki näkevät pöllön.",
+      "Valitse puisesta kyltistä päivän äänitaso: hiljaisuus, kuiskausääni, parityön ääni tai ryhmätyön ääni.",
+      "Napauta Aloita kuuntelu ja anna mikrofonille lupa — tai valitse Opettajan korvat, jolloin sinä kerrot pöllölle, miltä luokassa kuulostaa.",
+      "Sopikaa yhdessä luokan tavoite: annetaan pöllön nukkua. Kun ääni pysyy sovitulla tasolla, pöllö torkkuu; jos ääni jatkuu pitkään kovana, se herää hitaasti — uteliaana, ei vihaisena.",
+      "Kun luokka rauhoittuu, pöllö nukahtaa taas itsestään. Kiitä luokkaa yhteisestä onnistumisesta ja jatka tuntia — ilman pisteitä, mittareita tai moitteita."
+    ],
+    "classroomIdeas": [
+      "Aamun rauhoittuminen: aloittakaa päivä hiljaisella hetkellä ja katsokaa yhdessä, kuinka pöllö painaa päänsä siiven alle.",
+      "Lukuhetki kuiskausäänellä: valitse kuiskausääni itsenäisen lukemisen ajaksi — luokka huomaa itse, milloin ääni alkaa nousta, ilman että sinun tarvitsee sanoa mitään.",
+      "Työpistetyöskentely parityön äänellä: pöllö muistuttaa lempeästi, että keskustelu kuuluu asiaan mutta huutaminen herättäisi nukkujan.",
+      "Siirtymien harjoittelu: vaihtakaa ryhmätyön äänestä hiljaisuuteen ja näyttäkää pöllölle, kuinka nopeasti luokka osaa rauhoittua.",
+      "Unikaverin valinta (Premium): anna luokan äänestää, nukkuuko tällä viikolla oksalla pöllö, kissa vai pieni lohikäärme — yhteinen kaveri tekee tavoitteesta yhteisen."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

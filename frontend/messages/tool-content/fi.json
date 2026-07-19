@@ -434,6 +434,32 @@
       "Oma ruudukko (Premium): kootkaa luokan kanssa oma nelikko kuvakirjastosta. Rakentajan ohje muistuttaa samalla suunnittelun ytimestä: parhaissa ruudukoissa jokainen kulma voi olla se erilainen."
     ]
   },
+  "story-line": {
+    "slug": "kuvasarjat",
+    "name": "Tarinanaru",
+    "tagline": "Kuvasarjat pyykkinarulle — jokainen pyykkipoika kertoo tarinan seuraavan osan",
+    "metaTitle": "Tarinanaru – kuvasarjat ja tarinan järjestäminen | Ilmainen",
+    "metaDescription": "Ilmainen kuvasarjatyökalu: lapsi ripustaa tarinakortit narulle, ja jokainen pyykkipoika kertoo osansa ääneen — ensin, sitten, lopuksi. Toimii taululla, ei kirjautumista.",
+    "about": [
+      "Tarinanaru tuo esi- ja alkuopetuksen tutuimman kerrontaharjoituksen — kuvasarjan järjestämisen — taululle pyykkinaruna. Naru pingottuu ruudun poikki, ja alhaalla odottaa tarjotin sekaisin olevia tarinakortteja. Lapsi vetää kortin narulle, pyykkipoika napsahtaa kiinni, ja naru kertoo heti sen kohdan ääneen: \"Ensin, aurinko nousee ja herättää minut.\" Järjestyssanat ovat ne aidot, joita luokassa muutenkin käytetään — ensin, sitten, seuraavaksi, sen jälkeen ja lopuksi — ja ne kuuluvat joka ripustuksella juuri siltä paikalta, jolle kortti tulee. Kun koko naru on täynnä, Kuuntele tarinani -painike kuljettaa lämpimän valokeilan kortilta kortille ja lukee koko tarinan alusta loppuun.",
+      "Narussa on yksi tarkkaan harkittu ominaisuus: se ei arvostele koskaan. Järjestyssanat kuuluvat paikkojen mukaan, joten myös yllättävä järjestys soi kokonaisena tarinana — ja juuri silloin lapsi kuulee itse, että \"Ensin, kakku on valmis\" kuulostaa hassulta. Nauru on palautetta, ja kortin saa siirtää ja kuunnella uudestaan niin monta kertaa kuin haluaa. Missään ei ole ajastinta, pisteitä eikä tuomitsevia ääniä, eikä naru koskaan järjestä lapsen kortteja uudelleen: Näin kirja sen kertoo -toiminto näyttää kirjan version omana, erillisenä lukukertana lapsen naruun koskematta. Viisitoista kuvasarjaa kasvavat kolmen kortin arkitarinoista viiden kortin kertomuksiin ja kiertokulkuihin — mukana muun muassa perhosen elämänkaari, Iso nauris ja Lapanen lumessa.",
+      "Premiumin kerrontatilassa kertojan ääni hiljenee ja narusta tulee lapsen oma: pyykkipoika antaa vain pehmeän äänimerkin, ja lapsi kertoo tarinan itse — juuri niin kuin eskarin ja alkuopetuksen kerrontahetkissä kuuluukin. Tämä tila ei tallenna mitään: ei äänitystä, ei tekstiä, ei muistiinpanoja — opettaja kuuntelee, ja siinä kaikki. Sade ja sateenkaari sekä Leivontapäivä ovat aina ilmaisia koko rituaaleineen; Premium avaa koko kokoelman, kerrontatilan ja korttien esivalinnan. Kaikki toimii suoraan selaimessa taululla, tabletilla ja tietokoneella ilman kirjautumista ja asennusta."
+    ],
+    "howToUse": [
+      "Heijasta Tarinanaru taululle ja valitse kuvasarja Tarinakokoelmasta — ikäryhmät 4–6, 6–7 ja 7–9 vuotta auttavat valinnassa.",
+      "Anna lapsen vetää ensimmäinen kortti tarjottimelta narulle: pyykkipoika napsahtaa, ja naru kertoo sen kohdan ääneen järjestyssanan kanssa.",
+      "Ripustakaa kortit yksi kerrallaan ja kuunnelkaa jokainen kohta rauhassa — kortin voi siirtää toiseen paikkaan milloin vain, ja naru kertoo sen uudelta paikalta.",
+      "Kun naru on täynnä, paina Kuuntele tarinani: valokeila kulkee kortilta kortille ja lukee koko tarinan — lopuksi kuuluu \"Sen pituinen se.\"",
+      "Premiumissa voit hiljentää kertojan ääneen: silloin lapsi kertoo tarinan itse ja naru antaa vain pehmeän merkkiäänen joka ripustuksella. Asetuksista voit myös piilottaa korttien sanat tai järjestyssanat."
+    ],
+    "classroomIdeas": [
+      "Aamupiirin rauhallinen aloitus: ripustakaa päivän kuvasarja yhdessä niin, että jokainen lapsi saa käydä kiinnittämässä yhden kortin, ja kuunnelkaa valmis tarina hiljaa paikoillanne.",
+      "Kerrontahetki pienryhmässä: hiljennä kertoja ja anna lapsen kertoa tarina omin sanoin korttien tuella — muut kuuntelevat, ja opettaja kuuntelee tarkimmin. Mitään ei tallenneta, joten arinkin kertoja uskaltaa.",
+      "S2-oppijoiden tukena: järjestyssanat ja korttien tekstit toistuvat joka kuuntelulla samanlaisina, joten suomea opetteleva lapsi saa kuulla saman rakenteen niin monta kertaa kuin tarvitsee.",
+      "Kirjoittamisen ponnahduslauta: 7–9-vuotiaat ripustavat ensin kuvasarjan — vaikka Ison nauriin — ja kirjoittavat sitten tarinan vihkoon käyttäen narulta tuttuja sanoja ensin, sitten ja lopuksi.",
+      "Päivän rauhoittava lopetus: yksi hidas kuuntelukerta valot himmennettyinä ennen kotiinlähtöä — naru kertoo, luokka hengittää."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

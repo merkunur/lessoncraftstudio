@@ -434,6 +434,32 @@
       "Desafio invertido: mostre uma cartela já conhecida e pergunte: quem consegue achar um motivo novo, que ninguém falou ainda? É o mesmo jogo, cada vez mais fundo."
     ]
   },
+  "story-line": {
+    "slug": "ordenar-historias",
+    "name": "Varal de histórias",
+    "tagline": "Pendure os cartões, escute a história — e deixe a criança recontar",
+    "metaTitle": "Varal de histórias: sequência e reconto | LessonCraftStudio",
+    "metaDescription": "Varal de histórias para projetar: a criança pendura os cartões e cada prendedor narra — Primeiro, Depois, Por fim. Sequência temporal e reconto. Grátis, sem login.",
+    "about": [
+      "Um varal atravessa a tela, como o varal de roupas do quintal. Na bandeja, os cartões ilustrados de uma história esperam a sua vez. A criança arrasta um cartão, prende no varal — e o prendedor fala: Primeiro, uma nuvem cinza enche o céu. A cada cartão pendurado, a voz conta a próxima parte com as palavras de sequência que a turma já usa na rodinha — Primeiro, Depois, Em seguida, Então, Por fim. No fim, é só apertar Ouvir minha história e um foco de luz quentinho passeia pelo varal lendo a história inteira. É a sequência temporal virando coisa que se pega com a mão.",
+      "E se a criança pendurar tudo fora da ordem do livro? A história toca do mesmo jeito — Primeiro, o bolo está pronto… e a turma cai na risada, porque dá para ouvir que a história ficou de cabeça para baixo. As palavras de sequência moram nas posições do varal, não nos cartões: é o próprio ouvido da criança que sente onde cada parte quer ficar, e ela mesma arruma o varal de novo. A voz nunca briga, nada pisca em vermelho, não há estrelinhas nem cronômetro. Quem quiser comparar toca em Do jeito do livro: a luz revisita os cartões na ordem da história, sem mexer em nenhum cartão da criança.",
+      "No modo de reconto, a voz que conta fica em silêncio — e quem conta a história é a criança, cartão por cartão, com um sininho suave marcando cada parte. É o reconto que a BNCC pede no campo de escuta, fala, pensamento e imaginação, do jeito mais simples que existe: nada é gravado, nada é transcrito, nada sai da sala — o professor escuta, e pronto. São quinze histórias e ciclos da natureza, de 3 a 5 cartões, do varal de 3 partes da educação infantil até O nabo gigante do 2º ano. Chuva e arco-íris e Dia de fazer bolo são gratuitos para sempre; funciona no navegador, na lousa digital ou no tablet, sem instalar nada e sem criar conta."
+    ],
+    "howToUse": [
+      "Projete o varal na lousa digital e abra a Coleção de histórias para escolher uma história da faixa da sua turma — 3 cartões para os menores, 4 e 5 para os maiores.",
+      "Chame uma criança para arrastar o primeiro cartão da bandeja até o varal. O prendedor narra na hora: Primeiro, e a parte da história.",
+      "Deixe a turma pendurar os outros cartões, um por vez, ouvindo como cada palavra de sequência apresenta a próxima parte.",
+      "Aperte Ouvir minha história e escutem juntos, na ordem que a turma escolheu. Se a história sair de cabeça para baixo, riam juntos — e deixem as crianças reorganizarem o varal do jeito que o ouvido pedir.",
+      "Depois de ouvir a história inteira, toque em Do jeito do livro para comparar — ou ligue o modo de reconto e deixe uma criança contar a história com a voz dela."
+    ],
+    "classroomIdeas": [
+      "Rodinha de reconto: depois da leitura de um livro, monte o varal com a turma sentada em roda e reconte a história coletivamente — cada criança pendura um cartão e repete a frase com a palavra de sequência. É a prática de reconto e escuta que a BNCC coloca no coração da oralidade na educação infantil.",
+      "Bagunça de propósito: a professora pendura os cartões numa ordem maluca e aperta o play. A turma escuta, ri e discute o que o ouvido percebeu — e então reorganiza o varal do jeito que a história pede. A conversa sobre o porquê é onde mora a aprendizagem.",
+      "Do varal para o papel: nos anos iniciais, use o varal como planejamento de escrita. A turma dita a história para a professora escrever, frase por frase, começando cada parte com Primeiro, Depois, Em seguida, Então e Por fim — as mesmas palavras que acabaram de ouvir.",
+      "Hora do reconto: com o modo de reconto ligado, a voz fica em silêncio e cada dia uma criança conta a história para a turma, cartão por cartão. Nada é gravado — a professora só escuta, observa e celebra. Um ritual curtinho e poderoso de fala em público para quem tem 5 anos.",
+      "Ciências no varal: A borboleta, A sementinha e A roda das estações são ciclos da natureza. Pendure, escute e depois pergunte: o que vem antes do casulo? O ciclo pode começar de novo? O varal vira linha do tempo de ciências."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

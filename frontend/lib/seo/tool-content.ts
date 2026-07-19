@@ -17,7 +17,7 @@ import { TOPIC_ENABLED_LOCALES } from '@/config/topic-locales';
 import { buildHreflangAlternates } from './hreflang';
 
 /** Canonical tool keys — match the mini-tool file basenames + MANIPULATIVES ids. */
-export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board', 'letter-tiles', 'calendar-wall', 'number-talk-easel', 'rekenrek', 'class-timer', 'name-sticks', 'center-board', 'learning-clock', 'place-value-lab', 'picture-word-wall', 'hush-owl', 'wodb'] as const;
+export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board', 'letter-tiles', 'calendar-wall', 'number-talk-easel', 'rekenrek', 'class-timer', 'name-sticks', 'center-board', 'learning-clock', 'place-value-lab', 'picture-word-wall', 'hush-owl', 'wodb', 'story-line'] as const;
 export type ToolKey = (typeof TOOL_KEYS)[number];
 
 /** Mini-tool HTML path (nginx-direct, §3.3) per tool key. */
@@ -39,6 +39,7 @@ export const TOOL_MINI_URL: Record<ToolKey, string> = {
   'picture-word-wall': '/mini-tools/picture-word-wall.html',
   'hush-owl': '/mini-tools/hush-owl.html',
   wodb: '/mini-tools/wodb.html',
+  'story-line': '/mini-tools/story-line.html',
 };
 
 /**
@@ -66,6 +67,7 @@ export const TOOL_ACTIVITY_PREFIX: Record<ToolKey, string> = {
   'picture-word-wall': 'picture-word-wall',
   'hush-owl': 'hush-owl',
   wodb: 'wodb',
+  'story-line': 'story-line',
 };
 
 export interface ToolEntry {
@@ -108,6 +110,7 @@ interface ToolContentFile {
   'picture-word-wall'?: ToolEntry;
   'hush-owl'?: ToolEntry;
   wodb?: ToolEntry;
+  'story-line'?: ToolEntry;
   labels: ToolContentLabels;
 }
 

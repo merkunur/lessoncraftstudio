@@ -434,6 +434,32 @@
       "Låt barnen bygga egna (Premium): ett par sätter ihop ett rutnät av bilder eller tal och provar det på klassen. Kontrollfrågan är byggarens egen: kan varje hörn vara det som passar inte in — har alla fyra ett eget skäl?"
     ]
   },
+  "story-line": {
+    "slug": "sekvensbilder",
+    "name": "Sagolinan",
+    "tagline": "Sekvensbilder på en lina — barnet hänger upp berättelsen kort för kort och hör den växa fram.",
+    "metaTitle": "Sagolinan – sekvensbilder & berättande online | LessonCraftStudio",
+    "metaDescription": "Digitala sekvensbilder för förskoleklass och lågstadiet. Barnet hänger berättelsekort på linan och hör varje del med tidsorden – först, sedan, till sist.",
+    "about": [
+      "Sagolinan är en klädstreckslina för berättande: barnet drar illustrerade berättelsekort från brickan och hänger upp dem med klädnypor, ett i taget. Varje kort som nyps fast berättas högt med de riktiga tidsorden — Först, Sedan, Därefter, Efter det, Till sist — precis de ord barnen möter i samlingen och i sagoskrivandet.",
+      "Linan spelas alltid upp precis som barnet har hängt den. Blir ordningen huller om buller hörs det direkt när tidsorden krockar med bilderna — barnet skrattar, hör det själv och vill genast prova igen. Berättarrösten dömer aldrig och rättar aldrig; vill man jämföra finns Bokens version som en egen uppspelning, aldrig som en rättning av barnets lina.",
+      "I återberättarläget (Premium) tystnar berättarrösten helt och barnet berättar själv, kort för kort. Ingenting spelas in — inga inspelningar, inga utskrifter, inga anteckningar. Läraren lyssnar, och det är hela poängen."
+    ],
+    "howToUse": [
+      "Välj en berättelse i samlingen — tre kort för de yngsta, fyra till fem för åk 1–2.",
+      "Visa Sagolinan på projektorn eller plattan; korten ligger blandade i brickan där nere.",
+      "Låt barnet dra ett kort i taget upp till en klädnypa — varje kort berättas högt med sitt tidsord.",
+      "Tryck på Spela upp min berättelse och följ med när ljuset vandrar längs linan och hela sagan läses.",
+      "Med Premium kan ni tysta berättarrösten och låta barnet återberätta själv — eller lyssna på Bokens version som jämförelse."
+    ],
+    "classroomIdeas": [
+      "Samlingen: häng upp Årstidshjulet eller Fjärilen tillsammans och låt barnen turas om att välja nästa kort.",
+      "Sagoskrivning: spela upp en lina, skriv sedan berättelsen i skrivboken med samma tidsord — först, sedan, till sist.",
+      "Språkgrupp och SVA: låt barnet först lyssna på berättarrösten och sedan återberätta med egna ord, kort för kort.",
+      "Para ihop två barn: den ena hänger linan, den andra återberättar den — byt sedan roller.",
+      "Blanda medvetet: häng korten huller om buller, lyssna och skratta — och prata om vad tidsorden gör med berättelsen."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

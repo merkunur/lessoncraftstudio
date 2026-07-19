@@ -201,16 +201,77 @@ for (const [k, map] of Object.entries(T.NOUNS)) {
   }
 }
 
-/* ================= report ======================================== */
-if (errors.length) {
-  console.log(`FAIL — ${errors.length} error(s):`);
-  errors.slice(0, 40).forEach((e) => console.log('  ✗ ' + e));
-  if (errors.length > 40) console.log(`  … +${errors.length - 40} more`);
-  process.exit(1);
+/* ========== 6b. VISIBLE-EXTENT proofs (the operator-defect class) ==
+   The units chain must span the DEPICTED object, not the CSS box:
+   (a) ≥30 objects (operator floor); (b) dominant-axis ratio ≥1.5
+   post-orientation — squarish/curled art can never enter; (c) the
+   _lenPlacement affine, applied to the trim corners, maps the visible
+   box EXACTLY onto [X0, X0+w] with its bottom on the track; (d) sharp
+   re-measures every alpha-trim — baked literals cannot rot. */
+async function visibleExtentProofs() {
+  if (T.LENGTH_OBJECTS.length < 30) E(`length set: ${T.LENGTH_OBJECTS.length} objects (< the 30-object floor)`);
+  const X0 = 100, TRACK_Y = 268;
+  for (const o of T.LENGTH_OBJECTS) {
+    const t = o.trim;
+    if (!t || !o.iw || (o.rot !== 0 && o.rot !== 90)) { E(`length ${o.k}: missing trim/iw/rot`); continue; }
+    const lenAxis = o.rot === 90 ? t.h : t.w, cross = o.rot === 90 ? t.w : t.h;
+    if (lenAxis / cross < 1.5) E(`length ${o.k}: dominant-axis ratio ${(lenAxis / cross).toFixed(2)} < 1.5 (squarish art)`);
+    /* affine proof — uses ONLY the placement's returned output */
+    const pl = T._lenPlacement(o, X0, TRACK_Y);
+    const k = pl.width / o.iw;
+    let minX, maxX, maxY;
+    if (o.rot === 90) {
+      const m = pl.transform.match(/translate\(([-\d.]+)px, ([-\d.]+)px\) rotate\(90deg\)/);
+      if (!m) { E(`length ${o.k}: unexpected transform "${pl.transform}"`); continue; }
+      const tx = parseFloat(m[1]), ty = parseFloat(m[2]);
+      /* CSS y-down rotate(90deg) about top-left: (x,y) → (−y, x) */
+      minX = tx - (t.y + t.h) * k; maxX = tx - t.y * k;
+      maxY = ty + (t.x + t.w) * k;
+    } else {
+      minX = pl.left + t.x * k; maxX = pl.left + (t.x + t.w) * k;
+      maxY = pl.top + (t.y + t.h) * k;
+    }
+    if (Math.abs(minX - X0) > 0.5) E(`length ${o.k}: visible left edge ${minX.toFixed(1)} ≠ track start ${X0}`);
+    if (Math.abs(maxX - (X0 + o.w)) > 0.5) E(`length ${o.k}: visible right edge ${maxX.toFixed(1)} ≠ track end ${X0 + o.w}`);
+    if (Math.abs(maxY - TRACK_Y) > 0.5) E(`length ${o.k}: visible bottom ${maxY.toFixed(1)} not on the track ${TRACK_Y}`);
+  }
+  /* sharp re-measure: the baked trim literals must match the art */
+  let sharp;
+  try { sharp = require(path.join(REPO, 'frontend', 'node_modules', 'sharp')); }
+  catch (e) { E('sharp unavailable for trim re-measure: ' + e.message); return; }
+  for (const o of T.LENGTH_OBJECTS) {
+    const m = T.META[o.k];
+    if (!m) continue;
+    const file = path.join(REPO, 'frontend', 'public', 'image-library-webp', 'themes', m[0], m[1] + '@2x.webp');
+    try {
+      const { data, info } = await sharp(file).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+      let minX = info.width, maxX = -1, minY = info.height, maxY = -1;
+      for (let y = 0; y < info.height; y++) for (let x = 0; x < info.width; x++) {
+        if (data[(y * info.width + x) * 4 + 3] > 16) { if (x < minX) minX = x; if (x > maxX) maxX = x; if (y < minY) minY = y; if (y > maxY) maxY = y; }
+      }
+      const tw = maxX - minX + 1, th = maxY - minY + 1;
+      if (info.width !== o.iw || info.height !== o.ih) E(`length ${o.k}: image ${info.width}x${info.height} ≠ baked ${o.iw}x${o.ih}`);
+      for (const [name, baked, meas] of [['x', o.trim.x, minX], ['y', o.trim.y, minY], ['w', o.trim.w, tw], ['h', o.trim.h, th]]) {
+        if (Math.abs(baked - meas) > 3) E(`length ${o.k}: trim.${name} baked ${baked} vs measured ${meas} (drift > 3px)`);
+      }
+    } catch (e) { E(`length ${o.k}: trim re-measure failed: ${e.message}`); }
+  }
 }
-console.log(`PASS — measurement-bench verified (locales: ${LOCALES.join(',')})`);
-console.log(`  ✓ lattice: ${T.LENGTH_OBJECTS.length} objects × ${Object.keys(T.UNITS).length} units exact; evalChain statuses + scooch proven`);
-console.log('  ✓ pour: 40×300 random steps conserve volume within bounds; formatLength matches ruler conventions');
-console.log(`  ✓ balance: derived tilt odd/monotonic/bounded; ${Object.keys(T.WEIGHTS).length} weights integer 3-12; relative sanity holds`);
-console.log(`  ✓ art: ${Object.keys(T.META).length} images resolve vs pww-index-en + exist on disk`);
-console.log(`  ✓ ${Object.keys(S).length} strings + ${Object.keys(T.NOUNS).length} noun phrases complete (${LOCALES.length} locales); verdict/score bans hold`);
+
+/* ================= report ======================================== */
+(async () => {
+  await visibleExtentProofs();
+  if (errors.length) {
+    console.log(`FAIL — ${errors.length} error(s):`);
+    errors.slice(0, 40).forEach((e) => console.log('  ✗ ' + e));
+    if (errors.length > 40) console.log(`  … +${errors.length - 40} more`);
+    process.exit(1);
+  }
+  console.log(`PASS — measurement-bench verified (locales: ${LOCALES.join(',')})`);
+  console.log(`  ✓ lattice: ${T.LENGTH_OBJECTS.length} objects × ${Object.keys(T.UNITS).length} units exact; evalChain statuses + scooch proven`);
+  console.log('  ✓ visible extent: ≥30 objects, dominant-axis ≥1.5, placement affine maps trim → track exactly, sharp trim re-measure clean');
+  console.log('  ✓ pour: 40×300 random steps conserve volume within bounds; formatLength matches ruler conventions');
+  console.log(`  ✓ balance: derived tilt odd/monotonic/bounded; ${Object.keys(T.WEIGHTS).length} weights integer 3-12; relative sanity holds`);
+  console.log(`  ✓ art: ${Object.keys(T.META).length} images resolve vs pww-index-en + exist on disk`);
+  console.log(`  ✓ ${Object.keys(S).length} strings + ${Object.keys(T.NOUNS).length} noun phrases complete (${LOCALES.length} locales); verdict/score bans hold`);
+})();

@@ -460,6 +460,32 @@
       "NT2 en woordenschat: zet 'Woorden op de kaarten tonen' aan en laat het kind eerst op de kaarten in het bakje tikken om elke zin te horen — zo bouwt het de verteltaal op voordat het zelf navertelt."
     ]
   },
+  "fraction-kitchen": {
+    "slug": "breukenkeuken",
+    "name": "De breukenkeuken",
+    "tagline": "Snijd pizza, chocola en taart in gelijke stukken en ontdek breuken in gewone woorden.",
+    "metaTitle": "De breukenkeuken — breuken snijden en eerlijk delen",
+    "metaDescription": "Kinderen snijden pizza, chocola en taart in gelijke stukken, delen eerlijk uit en horen elke breuk in woorden — helften, kwarten, derden. Zonder symbolen, zonder druk.",
+    "about": [
+      "De breukenkeuken is een vrolijke digitale keuken waarin kinderen breuken ontdekken door écht te snijden. Ze slepen een mes langs een dunne hulplijn en de pizza, de reep chocola of de taart valt in stukken uiteen. Elke breuk klinkt in gewone woorden — „een helft”, „een kwart”, „een derde” — en nergens staat een breukstreep of een getal onder een streep. Eerst begrijpen wat een breuk ís, daarna pas de notatie: zo bouwt de breukenkeuken aan echt breukbegrip voor groep 3 tot en met 5.",
+      "Een snee op de verkeerde plek krijgt in deze keuken geen oordeel — het is gewoon natuurkunde. De ongelijke stukken zijn heel even te zien — precies het leermoment — wiebelen zachtjes als een wipwap en groeien weer aan elkaar. Een vriendelijke stem merkt hooguit één keer op dat de stukken niet even groot zijn, en dat is alles: geen rood, geen kruisjes, geen scores en geen timer. Ook een bord dat leeg blijft of een stuk dat overblijft wordt geen probleem, maar een gespreksmoment: de keuken zegt wat ze ziet en wacht rustig af.",
+      "Gratis staat de pizza altijd klaar: snijden in helften en kwarten én eerlijk delen met vrienden. Met Premium gaat de hele keuken open: de reep chocola en de taart, snijden in derden, zesden en achtsten, acht voorleesverhaaltjes over eerlijk delen, en de bakplaat — waar kinderen al puzzelend bewijzen dat twee kwarten samen precies een helft zijn."
+    ],
+    "howToUse": [
+      "Kies een gerecht — pizza, chocola of taart — en tik op het aantal stukken dat je wilt maken.",
+      "Sleep het mes langs een hulplijn (of tik op de lijn) om te snijden; bij de laatste snee valt het eten in gelijke stukken uiteen.",
+      "Snijd je per ongeluk scheef? Kijk samen wat er gebeurt: de ongelijke stukken wiebelen even en helen weer — praat na over wat er te zien was.",
+      "Tik op „Delen”, kies het aantal vrienden en sleep de stukken naar de borden tot iedereen een eerlijk stuk heeft.",
+      "Met Premium: vul de bakplaat om te bewijzen dat kleine stukken samen een groot stuk zijn, of open een verhaaltje bij „Verhalen”."
+    ],
+    "classroomIdeas": [
+      "Kringgesprek: open het verhaal van de pizza in helften met dríe vrienden en laat de klas zelf oplossingen bedenken vóórdat iemand snijdt.",
+      "Digibord-voorspellen: laat een kind een lijn kiezen en vraag de klas eerst „worden de stukken even groot of niet?” — snijd daarna pas.",
+      "Breukentaal-dictee: zeg zelf „een kwart” of „een zesde” en laat een kind het passende aantal stukken snijden — alleen met woorden, zonder cijfers.",
+      "Koppel aan de echte wereld: vouw papieren pizza's of snijd een boterham in de klas en gebruik dezelfde woorden als de keuken — helften, kwarten, derden.",
+      "Bakplaat-uitdaging (Premium): vraag hoeveel zesden er in een helft van de reep passen, laat kinderen eerst schatten en dan de bakplaat vullen."
+    ]
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

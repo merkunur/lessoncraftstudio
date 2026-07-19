@@ -460,6 +460,32 @@
       "Après l’écran, la vraie corde : tendez une ficelle dans la classe, les enfants dessinent leurs propres cartes — une histoire vécue, une sortie, une expérience de sciences — et les accrochent avec de vraies pinces à linge. La corde à histoires devient l’affichage de la classe."
     ]
   },
+  "fraction-kitchen": {
+    "slug": "cuisine-des-fractions",
+    "name": "La cuisine des fractions",
+    "tagline": "Coupe la pizza, partage le gâteau : les fractions se disent avec des mots, avant les symboles.",
+    "metaTitle": "La cuisine des fractions : couper et partager | LessonCraftStudio",
+    "metaDescription": "Les enfants coupent pizza, chocolat et gâteau en parts égales, partagent entre amis et découvrent les fractions en mots — le sens avant les symboles.",
+    "about": [
+      "La cuisine des fractions est un atelier de partage à projeter au TBI ou à mettre entre les mains d’un enfant : on choisit une pizza, une tablette de chocolat ou un gâteau, on attrape le couteau et on coupe vraiment, le long de fines lignes-guides, pour obtenir des parts égales. On distribue ensuite les parts dans les assiettes des amis, et chaque fraction se dit à voix haute — « une moitié », « un quart », « un tiers » — jamais en symboles. Le sens d’abord ; l’écriture des fractions viendra après.",
+      "Ici, personne n’est jugé : si l’enfant coupe le long d’une ligne qui ne fait pas des parts égales, les deux morceaux s’affichent un instant, se balancent doucement comme une balançoire… puis le plat se répare tout seul. C’est de la physique, pas un verdict : l’enfant voit de ses yeux que les parts n’ont pas la même taille — c’est l’instant d’apprentissage — et la ligne reste disponible pour réessayer. Pas de rouge, pas de croix, pas de chronomètre : on cherche, on observe, on recommence.",
+      "La pizza en moitiés et en quarts — couper, puis partager entre amis — est gratuite pour toujours, sans compte. Avec Premium, la cuisine s’agrandit : la tablette de chocolat et le gâteau, les tiers, les sixièmes et les huitièmes, le plateau des équivalences — où l’on prouve, en posant les parts, que deux quarts remplissent exactement une moitié — et huit petites histoires de partage, dont deux qui se terminent par une vraie question à débattre en classe."
+    ],
+    "howToUse": [
+      "Projetez la cuisine au TBI en regroupement, ou ouvrez-la sur une tablette en atelier. Choisissez un aliment, puis le nombre de parts : les lignes-guides apparaissent dès qu’on saisit le couteau.",
+      "Laissez l’enfant faire glisser le couteau le long d’une ligne pour couper. Si les parts ne sont pas égales, le plat se balance puis se répare — demandez simplement : « Qu’est-ce qu’on a vu ? »",
+      "Touchez « Partager » et choisissez le nombre d’amis. L’enfant dépose une part dans chaque assiette en nommant la fraction à voix haute : « un quart », « un tiers »…",
+      "Quand il reste une part, ou quand une assiette reste vide, l’outil observe et attend : c’est votre moment de discussion. Que faire de la part en trop ? Comment couper autrement ?",
+      "Avec Premium, ouvrez « Remplir le plateau » pour prouver les équivalences en posant les parts, ou « Histoires » pour lancer un partage raconté — les deux histoires-questions font de très bons débats de fin de séance."
+    ],
+    "classroomIdeas": [
+      "Avant un vrai goûter d’anniversaire, coupez la pizza de l’écran ensemble : combien de parts pour combien d’enfants ? Puis passez au vrai gâteau — le vocabulaire est déjà là.",
+      "En rituel de la semaine des fractions, une histoire par jour : d’abord les six partages qui tombent juste, puis les deux histoires-questions quand la classe est prête à débattre.",
+      "En atelier autonome au CE1, l’enfant coupe la pizza en moitiés puis en quarts, et raconte ensuite à un camarade ce qu’il a fait — avec les mots « moitié » et « quart ».",
+      "Au plateau des équivalences, faites voter la classe avant de poser les parts : « Est-ce que trois sixièmes remplissent une moitié ? » On vote, on essaie, on regarde.",
+      "Au CE2, après la manipulation, écrivez ensemble en toutes lettres ce que la cuisine a dit — « deux quarts font une moitié » — l’écriture chiffrée des fractions viendra s’y accrocher plus tard."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

@@ -460,6 +460,32 @@
       "Ciências no varal: A borboleta, A sementinha e A roda das estações são ciclos da natureza. Pendure, escute e depois pergunte: o que vem antes do casulo? O ciclo pode começar de novo? O varal vira linha do tempo de ciências."
     ]
   },
+  "fraction-kitchen": {
+    "slug": "cozinha-das-fracoes",
+    "name": "A cozinha das frações",
+    "tagline": "Corte a pizza em partes iguais e fale de frações com palavras — antes de qualquer símbolo",
+    "metaTitle": "A cozinha das frações: cortar e repartir | LessonCraftStudio",
+    "metaDescription": "Cozinha de frações para projetar: a criança corta pizza, chocolate e bolo em partes iguais, reparte com os amigos e ouve cada fração em palavras. Grátis, sem login.",
+    "about": [
+      "A cozinha das frações é uma cozinha alegre onde a criança pega a faca e corta de verdade: arrasta a lâmina ao longo de uma linha-guia e a pizza, a barra de chocolate ou o bolo se abrem em partes iguais na frente da turma. Cada fração aparece do jeito que a BNCC propõe para os anos iniciais — como parte de um todo, nascida de uma situação de repartir. E tudo é falado por extenso: a voz diz uma metade, dois quartos, três sextos. Nenhum símbolo de fração aparece na tela, porque aqui o significado vem antes da notação.",
+      "O erro não assusta ninguém nesta cozinha. Se a criança corta em uma linha que não divide por igual, os pedaços aparecem de tamanhos diferentes por um instante — balançam como uma gangorra, e a comida se junta de novo, inteirinha, pronta para outro corte. É física, não é sentença: não existe vermelho, não existe placar, não existe cronômetro, e os amiguinhos dos pratos nunca fazem cara feia. Esse instante do pedaço torto é justamente o momento de ouro para conversar: por que esses dois pedaços não são justos?",
+      "De graça, para sempre: a pizza em metades e quartos, com o cortar e o dividir nos pratos dos amigos. Com o Premium, a cozinha inteira se abre — a barra de chocolate e o bolo, os terços, os sextos e os oitavos, o tabuleiro de equivalência que prova que dois quartos enchem uma metade certinho, e as histórias de repartir para ouvir e discutir com a turma."
+    ],
+    "howToUse": [
+      "Projete a cozinha na lousa digital, escolha a pizza e as metades, e chame uma criança para arrastar a faca ao longo da linha — o corte acontece de verdade, com direito a som de fatia.",
+      "Ouça a voz falar a fração por extenso e peça para a turma repetir junto: uma metade, duas metades. As palavras vêm antes de qualquer número escrito.",
+      "Deixe as crianças testarem qualquer linha, sem medo: se os pedaços saírem de tamanhos diferentes, eles balançam e a comida se junta de novo. Aproveite esse instante para perguntar à turma o que faria as partes ficarem iguais.",
+      "Toque em Dividir, escolha quantos amigos vão comer, e deixe cada criança arrastar um pedaço para um prato — todo mundo ganha uma parte justa, e a turma vê a repartição acontecer.",
+      "Com o Premium, abra Encher o tabuleiro para provar que dois quartos enchem uma metade certinho, ou sorteie uma história de repartir — inclusive as que terminam com um pedaço sobrando, feitas para a turma discutir."
+    ],
+    "classroomIdeas": [
+      "Rodinha da parte justa: antes de cortar, pergunte à turma como dividir uma pizza para 2, depois para 4 amigos. Corte na lousa e confira a resposta juntos — é a noção de metade e quarta parte por repartição igualitária que a BNCC coloca nos anos iniciais.",
+      "O problema do pedaço que sobra: sorteie a história dos três amigos com a pizza em quartos e deixe a conversa correr. Repartir de novo? Dividir o pedaço extra? Dar para quem chegou primeiro? Não existe resposta pronta — a discussão é a aula.",
+      "Da tela para o lanche: depois de praticar na cozinha, reparta de verdade uma fruta ou um bolo do lanche coletivo em partes iguais, usando as mesmas palavras — uma metade, um quarto. A fração vira coisa que se come.",
+      "Mural das palavras de fração: escreva com a turma uma metade, um terço, um quarto por extenso, do jeito que a voz da cozinha fala. Só depois de muitas semanas de palavras apresente a escrita com números — a notação chega quando o significado já mora na cabeça.",
+      "Estação da prova: no tabuleiro de equivalência, desafie duplas a prever antes de arrastar — será que dois quartos enchem uma metade? E três sextos? A criança testa, vê encher certinho e conta para a turma o que descobriu."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

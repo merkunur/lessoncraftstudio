@@ -460,6 +460,32 @@
       "Blanda medvetet: häng korten huller om buller, lyssna och skratta — och prata om vad tidsorden gör med berättelsen."
     ]
   },
+  "fraction-kitchen": {
+    "slug": "brakkoket",
+    "name": "Bråkköket",
+    "tagline": "Skär pizzan i lika stora delar, dela rättvist med vännerna — och hör varje bråk med ord.",
+    "metaTitle": "Bråkköket – dela pizza i halvor & fjärdedelar | LessonCraftStudio",
+    "metaDescription": "Digitala bråk för förskoleklass och lågstadiet: barnet skär pizza och kaka i lika stora delar, delar rättvist och hör varje bråk i ord – helt utan symboler.",
+    "about": [
+      "Bråkköket är ett varmt litet kök där bråken får smaka något. Barnet drar en kniv längs tunna hjälplinjer och skär på riktigt — pizzan i halvor och fjärdedelar, chokladkakan längs rutorna, kakan i långpannan i prydliga bitar. Varje bråk sägs högt med ord: en halva, en fjärdedel, en sjättedel. Inga siffror, inga symboler — här kommer förståelsen av lika stora delar först, långt före skrivsättet.",
+      "Blir snittet snett händer något klokt i stället för något strängt: de olika stora bitarna visas en liten stund, gungar försiktigt som en gungbräda — den stora sidan väger ner — och läker sedan ihop igen. Ingen röd färg, inget kryss, ingen röst som rättar; bara en vänlig iakttagelse och en ny chans. Även resterna är tänkta: när tre vänner ska dela en pizza i fjärdedelar blir biten som blir över ett samtal, inte ett misstag. Verktyget väntar — pratandet gör klassen.",
+      "Pizzan med halvor och fjärdedelar — att skära och att dela ut på vännernas tallrikar — är alltid gratis. Premium öppnar hela köket: chokladkakan och kakan, tredjedelar, sjättedelar och åttondelar, brickan där barnet bevisar att två fjärdedelar fyller exakt en halva, och åtta små berättelser om att dela rättvist — två av dem slutar med en öppen fråga att fundera på tillsammans."
+    ],
+    "howToUse": [
+      "Öppna Bråkköket på projektorn eller plattan — pizzan ligger redo på skärbrädan.",
+      "Välj hur många delar ni vill ha — halvor eller fjärdedelar — och låt barnet dra kniven längs en linje.",
+      "Blir bitarna olika stora? Titta tillsammans när de gungar och läker — och leta upp snittet som ger lika stora delar.",
+      "Tryck på Dela och låt barnet lägga en bit på varje väns tallrik, tills alla har fått en rättvis del.",
+      "Med Premium: fyll brickan och visa att två fjärdedelar fyller exakt en halva — eller välj en berättelse och dela efter den."
+    ],
+    "classroomIdeas": [
+      "Samlingen: skär en pizza i halvor tillsammans och låt barnen säga bråkets namn högt innan biten läggs på tallriken.",
+      "Diskussionsberättelserna: tre vänner, en pizza i fjärdedelar — vad gör vi med biten som blir över? Låt klassen föreslå lösningar innan någon rör skärmen.",
+      "Fruktstunden som fortsättning: dela ett äpple eller en smörgås på riktigt med samma ord — en halva, en fjärdedel.",
+      "Para ihop två barn: den ena skär, den andra delar ut på tallrikarna — byt sedan roller.",
+      "Brickan som mattesnack (Premium): gissa först — kan tre sjättedelar fylla en halva? Prova sedan och sätt ord på det ni ser."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

@@ -57,6 +57,9 @@ function norm(s) {
 }
 const toks = (s) => norm(s).split(' ').filter(Boolean);
 
+const C = require(path.join(ROOT, 'scripts', 'seo-landing', 'compose-title-meta.js'));
+const chromeTokens = (loc) => { try { return C.chromeTokens(loc); } catch { return new Set(); } };
+
 const TAXONOMY = JSON.parse(fs.readFileSync(
   path.join(ROOT, 'frontend', 'config', 'topics-taxonomy.json'), 'utf8'));
 
@@ -155,6 +158,41 @@ function run(locale, only) {
     byClass.get(k).push(l);
   }
 
+  /* THE DECISIVE CHECK: do two sibling pages chase the same query?
+   *
+   * Skeleton sharing is a signal, not a verdict. Part 002 read 32% on titles, and
+   * every one of those pages carried a different theme and three different
+   * vocabulary words — "Finnish Furniture Word Search: SÄNKY, PEILI, YÖPÖYTÄ" and
+   * "Finnish Hospital Word Search: LÄÄKÄRI, RUISKU, KIPSI" share a frame but
+   * compete for nothing. Keyword-forward is the RIGHT shape for this content, and
+   * forcing stylistic variation would trade query match for a prettier number.
+   *
+   * What actually harms is two pages targeting one query. That is measurable:
+   * strip the chrome words that every title carries and compare what is left.
+   * An identical remainder means one of the two pages cannot win.
+   */
+  const titleChrome = new Set([...chromeTokens(locale), 'word', 'words', 'search',
+    'free', 'printable', 'pdf', 'worksheet', 'worksheets', 'kids', 'children']);
+  const contentSets = [];
+  for (const [k, list] of byClass) {
+    for (const l of list) {
+      const set = new Set(toks(l.title || '').filter((w) => !titleChrome.has(w)));
+      contentSets.push({ slug: l.slug, cls: k, set });
+    }
+  }
+  const sameQuery = [];
+  for (let i = 0; i < contentSets.length; i++) {
+    for (let j = i + 1; j < contentSets.length; j++) {
+      const a = contentSets[i]; const b = contentSets[j];
+      if (a.cls !== b.cls) continue;
+      if (!a.set.size || !b.set.size) continue;
+      if (a.set.size !== b.set.size) continue;
+      let same = true;
+      for (const w of a.set) if (!b.set.has(w)) { same = false; break; }
+      if (same) sameQuery.push(`${a.slug} ~ ${b.slug}`);
+    }
+  }
+
   // per field: how many pages share their skeleton with at least one sibling
   const perField = {};
   for (const field of [...CRITICAL_FIELDS, 'metaDescription', 'p1']) {
@@ -180,7 +218,7 @@ function run(locale, only) {
     }
     perField[field] = { total, distinct, shared, biggest, worst };
   }
-  return { locale, pages: pages.length, classes: byClass.size, perField };
+  return { locale, pages: pages.length, classes: byClass.size, perField, sameQuery };
 }
 
 if (require.main === module) {
@@ -201,14 +239,17 @@ if (require.main === module) {
   let bad = 0;
   for (const j of jobs) {
     const r = run(j.locale, j.only);
-    const crit = CRITICAL_FIELDS.reduce((n, f) => n + r.perField[f].shared, 0);
+    const h1Bad = r.perField.h1.shared;
+    const crit = r.sameQuery.length + h1Bad;
     bad += crit;
     console.log(`[${j.label}] ${r.pages} pages in ${r.classes} classes -> ${crit ? 'FAIL' : 'PASS'}`);
+    console.log(`   ${r.sameQuery.length ? 'FAIL' : 'ok  '} same-query titles  ${r.sameQuery.length} pair(s) share a content-word set  <- decisive`);
+    r.sameQuery.slice(0, 5).forEach((x) => console.log('        ' + x));
     for (const f of [...CRITICAL_FIELDS, 'metaDescription', 'p1']) {
       const d = r.perField[f];
       if (!d.total) continue;
       const pct = d.total ? Math.round((d.shared / d.total) * 100) : 0;
-      const mark = CRITICAL_FIELDS.includes(f) ? (d.shared ? 'FAIL' : 'ok  ') : 'info';
+      const mark = f === 'h1' ? (d.shared ? 'FAIL' : 'ok  ') : (f === 'title' ? 'sig ' : 'info');
       console.log(`   ${mark} ${f.padEnd(16)} ${String(d.distinct).padStart(5)} distinct / ${String(d.total).padStart(5)} | ${String(d.shared).padStart(5)} share a skeleton (${pct}%) | worst repeat ${d.biggest}`);
       if (verbose) d.worst.forEach((w) => console.log('        ' + w));
     }

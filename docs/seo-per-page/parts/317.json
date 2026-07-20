@@ -1,0 +1,636 @@
+{
+ "part": 317,
+ "locale": "no",
+ "classes": [
+  "math-puzzle::addition",
+  "math-puzzle::mixed"
+ ],
+ "splitOf": null,
+ "count": 78,
+ "pages": [
+  {
+   "slug": "mattepuslespill-addisjon-bakeri-6be0",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "bakery",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-bakeri-6be0"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-blomster-65af",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "flowers",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-blomster-65af"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-camping-7e01",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "camping",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-camping-7e01"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-desserter-og-godteri-846c",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "desserts_and_sweets",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-desserter-og-godteri-846c"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-dinosaurer-bc2c",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "dinosaurs",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-dinosaurer-bc2c"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-dyr-355e",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "animals",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-dyr-355e"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-dyrehagedyr-459c",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "zoo_animals",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-dyrehagedyr-459c"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-former-ba5a",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "shapes",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-former-ba5a"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-frokost-2ed5",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "breakfast",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-frokost-2ed5"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-frukter-6448",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "fruits",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-frukter-6448"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-fugler-2-d4ac",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "birds_2",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-fugler-2-d4ac"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-fugler-9a2d",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "birds",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-fugler-9a2d"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-gardsdyr-51c0",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "farm_animals",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-gardsdyr-51c0"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-gronnsaker-a7a7",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "vegetables",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-gronnsaker-a7a7"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-havliv-4b97",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "ocean_life",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-havliv-4b97"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-i-supermarkedet-2f58",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "at_the_supermarket",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-i-supermarkedet-2f58"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-insekter-og-kryp-6ef1",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "insects_and_bugs",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-insekter-og-kryp-6ef1"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-jul-e0ae",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "christmas",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-jul-e0ae"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-kjaeledyr-cd06",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "pets",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-kjaeledyr-cd06"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-kjokkenredskaper-7f92",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "kitchen_tools",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-kjokkenredskaper-7f92"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-kjoretoy-9a44",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "vehicles",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-kjoretoy-9a44"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-klasserom-f2fa",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "classroom",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-klasserom-f2fa"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-leker-54f7",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "toys",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-leker-54f7"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-mobler-2412",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "furniture",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-mobler-2412"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-musikk-0c52",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "music",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-musikk-0c52"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-paske-3ca5",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "easter",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-paske-3ca5"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-postkontor-cbea",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "post_office",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-postkontor-cbea"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-reptiler-og-amfibier-a104",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-reptiler-og-amfibier-a104"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-rundt-i-huset-b482",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "around_the_house",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-rundt-i-huset-b482"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-skogsdyr-ec31",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "forest_creatures",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-skogsdyr-ec31"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-strand-803d",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "beach",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-strand-803d"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-sykehus-2a8c",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "hospital",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-sykehus-2a8c"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-thanksgiving-8eb5",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "thanksgivinng",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-thanksgiving-8eb5"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-tilbehor-9617",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "accessories",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-tilbehor-9617"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-ting-som-flyr-3619",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "things_that_fly",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-ting-som-flyr-3619"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-traer-05e1",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "tree",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-traer-05e1"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-verdensrommet-b95e",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "space",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-verdensrommet-b95e"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-verktoy-6c39",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "tools",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-verktoy-6c39"
+  },
+  {
+   "slug": "mattepuslespill-addisjon-yrker-2f77",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "occupations",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-addisjon-yrker-2f77"
+  },
+  {
+   "slug": "mattepuslespill-blandet-bakeri-0c7b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-blandet-bakeri-0c7b"
+  },
+  {
+   "slug": "mattepuslespill-blandet-blomster-1f65",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-blomster-1f65"
+  },
+  {
+   "slug": "mattepuslespill-blandet-camping-a8d0",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-camping-a8d0"
+  },
+  {
+   "slug": "mattepuslespill-blandet-desserter-og-godteri-624e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-desserter-og-godteri-624e"
+  },
+  {
+   "slug": "mattepuslespill-blandet-dinosaurer-7df0",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-dinosaurer-7df0"
+  },
+  {
+   "slug": "mattepuslespill-blandet-dyr-7ef2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-blandet-dyr-7ef2"
+  },
+  {
+   "slug": "mattepuslespill-blandet-dyrehagedyr-7a69",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-dyrehagedyr-7a69"
+  },
+  {
+   "slug": "mattepuslespill-blandet-former-d806",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-former-d806"
+  },
+  {
+   "slug": "mattepuslespill-blandet-frokost-2ca0",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-frokost-2ca0"
+  },
+  {
+   "slug": "mattepuslespill-blandet-frukter-c102",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-blandet-frukter-c102"
+  },
+  {
+   "slug": "mattepuslespill-blandet-fugler-1945",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-blandet-fugler-1945"
+  },
+  {
+   "slug": "mattepuslespill-blandet-fugler-2-88c2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-fugler-2-88c2"
+  },
+  {
+   "slug": "mattepuslespill-blandet-gardsdyr-6c88",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-gardsdyr-6c88"
+  },
+  {
+   "slug": "mattepuslespill-blandet-gronnsaker-27a4",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-gronnsaker-27a4"
+  },
+  {
+   "slug": "mattepuslespill-blandet-havliv-33b5",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-havliv-33b5"
+  },
+  {
+   "slug": "mattepuslespill-blandet-i-supermarkedet-9c40",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-i-supermarkedet-9c40"
+  },
+  {
+   "slug": "mattepuslespill-blandet-insekter-og-kryp-6269",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-blandet-insekter-og-kryp-6269"
+  },
+  {
+   "slug": "mattepuslespill-blandet-jul-d4d7",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-jul-d4d7"
+  },
+  {
+   "slug": "mattepuslespill-blandet-kjaeledyr-b2c4",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-blandet-kjaeledyr-b2c4"
+  },
+  {
+   "slug": "mattepuslespill-blandet-kjokkenredskaper-c60a",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-kjokkenredskaper-c60a"
+  },
+  {
+   "slug": "mattepuslespill-blandet-kjoretoy-0d78",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-kjoretoy-0d78"
+  },
+  {
+   "slug": "mattepuslespill-blandet-klasserom-9b8c",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-klasserom-9b8c"
+  },
+  {
+   "slug": "mattepuslespill-blandet-leker-ad8f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-leker-ad8f"
+  },
+  {
+   "slug": "mattepuslespill-blandet-mobler-f49c",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-mobler-f49c"
+  },
+  {
+   "slug": "mattepuslespill-blandet-musikk-18aa",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-musikk-18aa"
+  },
+  {
+   "slug": "mattepuslespill-blandet-paske-1df8",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-paske-1df8"
+  },
+  {
+   "slug": "mattepuslespill-blandet-postkontor-bd8f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-postkontor-bd8f"
+  },
+  {
+   "slug": "mattepuslespill-blandet-reptiler-og-amfibier-d770",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-reptiler-og-amfibier-d770"
+  },
+  {
+   "slug": "mattepuslespill-blandet-rundt-i-huset-7dc6",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-rundt-i-huset-7dc6"
+  },
+  {
+   "slug": "mattepuslespill-blandet-skogsdyr-aa9d",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-blandet-skogsdyr-aa9d"
+  },
+  {
+   "slug": "mattepuslespill-blandet-strand-c992",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-strand-c992"
+  },
+  {
+   "slug": "mattepuslespill-blandet-sykehus-84a9",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-blandet-sykehus-84a9"
+  },
+  {
+   "slug": "mattepuslespill-blandet-thanksgiving-9dc8",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-blandet-thanksgiving-9dc8"
+  },
+  {
+   "slug": "mattepuslespill-blandet-tilbehor-fb83",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-tilbehor-fb83"
+  },
+  {
+   "slug": "mattepuslespill-blandet-ting-som-flyr-bc0b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-ting-som-flyr-bc0b"
+  },
+  {
+   "slug": "mattepuslespill-blandet-traer-a229",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-traer-a229"
+  },
+  {
+   "slug": "mattepuslespill-blandet-verdensrommet-fb26",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-verdensrommet-fb26"
+  },
+  {
+   "slug": "mattepuslespill-blandet-verktoy-2054",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-verktoy-2054"
+  },
+  {
+   "slug": "mattepuslespill-blandet-yrker-1139",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-yrker-1139"
+  }
+ ]
+}

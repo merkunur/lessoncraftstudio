@@ -1,0 +1,636 @@
+{
+ "part": 69,
+ "locale": "de",
+ "classes": [
+  "picture-sort::null",
+  "subtraction::cross-out"
+ ],
+ "splitOf": null,
+ "count": 78,
+ "pages": [
+  {
+   "slug": "bildersortierung-bakery-vs-animals-0dd6",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-animals",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-animals-0dd6"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-around-the-house-3d36",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-around_the_house",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-around-the-house-3d36"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-beach-bf21",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-beach",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-beach-bf21"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-birds-f0d8",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-birds",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-birds-f0d8"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-body-parts-98fa",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-body_parts",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-body-parts-98fa"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-camping-8794",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-camping",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-camping-8794"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-christmas-888e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-christmas",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-christmas-888e"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-classroom-9b17",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-classroom",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-classroom-9b17"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-clothing-5fbb",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-clothing",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-clothing-5fbb"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-dinosaurs-6236",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-dinosaurs",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-dinosaurs-6236"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-easter-5eeb",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-easter",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-easter-5eeb"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-farm-animals-3398",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-farm_animals",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-farm-animals-3398"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-flowers-7ad5",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-flowers",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-flowers-7ad5"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-fruits-1d61",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-fruits",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-fruits-1d61"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-furniture-05c8",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-furniture",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-furniture-05c8"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-hospital-0ee4",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-hospital",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-hospital-0ee4"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-kitchen-tools-d55c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-kitchen_tools",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-kitchen-tools-d55c"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-music-bb11",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-music",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-music-bb11"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-occupations-36f1",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-occupations",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-occupations-36f1"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-ocean-life-dab7",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-ocean_life",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-ocean-life-dab7"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-pets-fe47",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-pets",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-pets-fe47"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-post-office-62d5",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-post_office",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-post-office-62d5"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-spring-ec80",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-spring",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-spring-ec80"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-summer-826b",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-summer",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-summer-826b"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-toys-99bf",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-toys",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-toys-99bf"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-tree-73d0",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-tree",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-tree-73d0"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-vegetables-384f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-vegetables",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-vegetables-384f"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-vehicles-cb70",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-vehicles",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-vehicles-cb70"
+  },
+  {
+   "slug": "bildersortierung-bakery-vs-weather-757f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-weather",
+   "level": "vorschule",
+   "deck": "bildersortierung-bakery-vs-weather-757f"
+  },
+  {
+   "slug": "bildersortierung-farm-animals-vs-clothing-49e5",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "farm_animals-vs-clothing",
+   "level": "vorschule",
+   "deck": "bildersortierung-farm-animals-vs-clothing-49e5"
+  },
+  {
+   "slug": "bildersortierung-farm-animals-vs-desserts-and-sweets-cca3",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "farm_animals-vs-desserts_and_sweets",
+   "level": "vorschule",
+   "deck": "bildersortierung-farm-animals-vs-desserts-and-sweets-cca3"
+  },
+  {
+   "slug": "bildersortierung-farm-animals-vs-dinosaurs-8f09",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "farm_animals-vs-dinosaurs",
+   "level": "vorschule",
+   "deck": "bildersortierung-farm-animals-vs-dinosaurs-8f09"
+  },
+  {
+   "slug": "bildersortierung-farm-animals-vs-flowers-ca84",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "farm_animals-vs-flowers",
+   "level": "vorschule",
+   "deck": "bildersortierung-farm-animals-vs-flowers-ca84"
+  },
+  {
+   "slug": "bildersortierung-farm-animals-vs-fruits-2146",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "farm_animals-vs-fruits",
+   "level": "vorschule",
+   "deck": "bildersortierung-farm-animals-vs-fruits-2146"
+  },
+  {
+   "slug": "bildersortierung-farm-animals-vs-furniture-b615",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "farm_animals-vs-furniture",
+   "level": "vorschule",
+   "deck": "bildersortierung-farm-animals-vs-furniture-b615"
+  },
+  {
+   "slug": "bildersortierung-farm-animals-vs-occupations-4464",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "farm_animals-vs-occupations",
+   "level": "vorschule",
+   "deck": "bildersortierung-farm-animals-vs-occupations-4464"
+  },
+  {
+   "slug": "bildersortierung-farm-animals-vs-tree-f1f4",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "farm_animals-vs-tree",
+   "level": "vorschule",
+   "deck": "bildersortierung-farm-animals-vs-tree-f1f4"
+  },
+  {
+   "slug": "bildersortierung-farm-animals-vs-vegetables-219d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "farm_animals-vs-vegetables",
+   "level": "vorschule",
+   "deck": "bildersortierung-farm-animals-vs-vegetables-219d"
+  },
+  {
+   "slug": "bildersortierung-farm-animals-vs-vehicles-d3b2",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "farm_animals-vs-vehicles",
+   "level": "vorschule",
+   "deck": "bildersortierung-farm-animals-vs-vehicles-d3b2"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-accessoires-a950",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-accessoires-a950"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-backerei-eaf8",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-backerei-eaf8"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-bauernhoftiere-2de5",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-bauernhoftiere-2de5"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-baume-6043",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-baume-6043"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-berufe-a31b",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-berufe-a31b"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-blumen-b93c",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-blumen-b93c"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-camping-9abc",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-camping-9abc"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-desserts-und-sussigkeiten-a641",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "desserts_and_sweets",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-desserts-und-sussigkeiten-a641"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-dinge-die-fliegen-943c",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-dinge-die-fliegen-943c"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-dinosaurier-15f8",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "dinosaurs",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-dinosaurier-15f8"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-erntedankfest-07d8",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-erntedankfest-07d8"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-fahrzeuge-11bc",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-fahrzeuge-11bc"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-formen-7cac",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-formen-7cac"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-fruchte-26d6",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-fruchte-26d6"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-fruhstuck-93f1",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-fruhstuck-93f1"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-gemuse-1dc4",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-gemuse-1dc4"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-haustiere-c152",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-haustiere-c152"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-im-supermarkt-4271",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-im-supermarkt-4271"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-insekten-und-kafer-8017",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-insekten-und-kafer-8017"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-klassenzimmer-aa1f",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-klassenzimmer-aa1f"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-kleidung-eeee",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-kleidung-eeee"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-krankenhaus-c93b",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-krankenhaus-c93b"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-kuchenwerkzeuge-3c8e",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-kuchenwerkzeuge-3c8e"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-meeresleben-55ad",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-meeresleben-55ad"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-mobel-c269",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-mobel-c269"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-musik-3b33",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-musik-3b33"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-ostern-5ce4",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-ostern-5ce4"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-postamt-33fb",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-postamt-33fb"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-reptilien-und-amphibien-2a7d",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-reptilien-und-amphibien-2a7d"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-rund-ums-haus-c485",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-rund-ums-haus-c485"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-spielzeug-9b8b",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-spielzeug-9b8b"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-strand-5b60",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-strand-5b60"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-tiere",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-tiere"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-vogel-2-585c",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-vogel-2-585c"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-vogel-3cb8",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-vogel-3cb8"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-waldtiere-3049",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-waldtiere-3049"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-weihnachten-9717",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-weihnachten-9717"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-weltraum-207e",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-weltraum-207e"
+  },
+  {
+   "slug": "subtraktion-durchstreichen-zootiere-fa91",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-zootiere-fa91"
+  }
+ ]
+}

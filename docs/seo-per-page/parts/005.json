@@ -1,0 +1,616 @@
+{
+ "part": 5,
+ "locale": "en",
+ "classes": [
+  "wordsearch::null"
+ ],
+ "splitOf": {
+  "class": "wordsearch::null",
+  "total": 525,
+  "chunk": 5,
+  "chunks": 7
+ },
+ "count": 75,
+ "pages": [
+  {
+   "slug": "norwegian-wordsearch-camping-0896",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-camping-0896"
+  },
+  {
+   "slug": "norwegian-wordsearch-christmas-9447",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "christmas",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-christmas-9447"
+  },
+  {
+   "slug": "norwegian-wordsearch-classroom-a527",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "classroom",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-classroom-a527"
+  },
+  {
+   "slug": "norwegian-wordsearch-clothing-08ee",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "clothing",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-clothing-08ee"
+  },
+  {
+   "slug": "norwegian-wordsearch-colors-efdb",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-colors-efdb"
+  },
+  {
+   "slug": "norwegian-wordsearch-desserts-and-sweets-d900",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-desserts-and-sweets-d900"
+  },
+  {
+   "slug": "norwegian-wordsearch-easter-3403",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "easter",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-easter-3403"
+  },
+  {
+   "slug": "norwegian-wordsearch-emotions-2707",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-emotions-2707"
+  },
+  {
+   "slug": "norwegian-wordsearch-farm-animals-0bc0",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-farm-animals-0bc0"
+  },
+  {
+   "slug": "norwegian-wordsearch-flowers-cfee",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-flowers-cfee"
+  },
+  {
+   "slug": "norwegian-wordsearch-forest-creatures-8814",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-forest-creatures-8814"
+  },
+  {
+   "slug": "norwegian-wordsearch-fruits-9af7",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-fruits-9af7"
+  },
+  {
+   "slug": "norwegian-wordsearch-furniture-2eab",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "furniture",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-furniture-2eab"
+  },
+  {
+   "slug": "norwegian-wordsearch-hospital-17b9",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "hospital",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-hospital-17b9"
+  },
+  {
+   "slug": "norwegian-wordsearch-insects-and-bugs-1e86",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-insects-and-bugs-1e86"
+  },
+  {
+   "slug": "norwegian-wordsearch-kitchen-tools-7a1a",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-kitchen-tools-7a1a"
+  },
+  {
+   "slug": "norwegian-wordsearch-music-7baa",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "music",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-music-7baa"
+  },
+  {
+   "slug": "norwegian-wordsearch-occupations-c87e",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "occupations",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-occupations-c87e"
+  },
+  {
+   "slug": "norwegian-wordsearch-ocean-life-6b0b",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-ocean-life-6b0b"
+  },
+  {
+   "slug": "norwegian-wordsearch-pets-9cfc",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "pets",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-pets-9cfc"
+  },
+  {
+   "slug": "norwegian-wordsearch-post-office-7d8f",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "post_office",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-post-office-7d8f"
+  },
+  {
+   "slug": "norwegian-wordsearch-reptiles-and-amphibians-c083",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-reptiles-and-amphibians-c083"
+  },
+  {
+   "slug": "norwegian-wordsearch-shapes-d100",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-shapes-d100"
+  },
+  {
+   "slug": "norwegian-wordsearch-space-bae9",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-space-bae9"
+  },
+  {
+   "slug": "norwegian-wordsearch-spring-c290",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-spring-c290"
+  },
+  {
+   "slug": "norwegian-wordsearch-summer-1c34",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-summer-1c34"
+  },
+  {
+   "slug": "norwegian-wordsearch-thanksgiving-958d",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-thanksgiving-958d"
+  },
+  {
+   "slug": "norwegian-wordsearch-things-that-fly-7963",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-things-that-fly-7963"
+  },
+  {
+   "slug": "norwegian-wordsearch-tools-3bef",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-tools-3bef"
+  },
+  {
+   "slug": "norwegian-wordsearch-toys-cab2",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "toys",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-toys-cab2"
+  },
+  {
+   "slug": "norwegian-wordsearch-trees-eea6",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "tree",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-trees-eea6"
+  },
+  {
+   "slug": "norwegian-wordsearch-vegetables-db42",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-vegetables-db42"
+  },
+  {
+   "slug": "norwegian-wordsearch-vehicles-a5b5",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-vehicles-a5b5"
+  },
+  {
+   "slug": "norwegian-wordsearch-weather-7d2b",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-weather-7d2b"
+  },
+  {
+   "slug": "norwegian-wordsearch-winter-a94b",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "winter",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-winter-a94b"
+  },
+  {
+   "slug": "norwegian-wordsearch-zoo-animals-11d9",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "language-beginner",
+   "deck": "norwegian-wordsearch-zoo-animals-11d9"
+  },
+  {
+   "slug": "portuguese-wordsearch-4th-of-july-332d",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-4th-of-july-332d"
+  },
+  {
+   "slug": "portuguese-wordsearch-accessories-173f",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "accessories",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-accessories-173f"
+  },
+  {
+   "slug": "portuguese-wordsearch-activities-f05f",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-activities-f05f"
+  },
+  {
+   "slug": "portuguese-wordsearch-animals-9cce",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-animals-9cce"
+  },
+  {
+   "slug": "portuguese-wordsearch-around-the-house-703b",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-around-the-house-703b"
+  },
+  {
+   "slug": "portuguese-wordsearch-at-the-supermarket-235c",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-at-the-supermarket-235c"
+  },
+  {
+   "slug": "portuguese-wordsearch-bakery-a857",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "bakery",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-bakery-a857"
+  },
+  {
+   "slug": "portuguese-wordsearch-beach-2b40",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "beach",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-beach-2b40"
+  },
+  {
+   "slug": "portuguese-wordsearch-birds-0558",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-birds-0558"
+  },
+  {
+   "slug": "portuguese-wordsearch-birds-2-de55",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-birds-2-de55"
+  },
+  {
+   "slug": "portuguese-wordsearch-body-parts-9d24",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-body-parts-9d24"
+  },
+  {
+   "slug": "portuguese-wordsearch-breakfast-94b6",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-breakfast-94b6"
+  },
+  {
+   "slug": "portuguese-wordsearch-camping-bb32",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-camping-bb32"
+  },
+  {
+   "slug": "portuguese-wordsearch-christmas-8acd",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "christmas",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-christmas-8acd"
+  },
+  {
+   "slug": "portuguese-wordsearch-classroom-d638",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "classroom",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-classroom-d638"
+  },
+  {
+   "slug": "portuguese-wordsearch-clothing-ce52",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "clothing",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-clothing-ce52"
+  },
+  {
+   "slug": "portuguese-wordsearch-colors-7248",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-colors-7248"
+  },
+  {
+   "slug": "portuguese-wordsearch-desserts-and-sweets-2582",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-desserts-and-sweets-2582"
+  },
+  {
+   "slug": "portuguese-wordsearch-easter-3dfa",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "easter",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-easter-3dfa"
+  },
+  {
+   "slug": "portuguese-wordsearch-emotions-d7f1",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-emotions-d7f1"
+  },
+  {
+   "slug": "portuguese-wordsearch-farm-animals-b4e6",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-farm-animals-b4e6"
+  },
+  {
+   "slug": "portuguese-wordsearch-flowers-3748",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-flowers-3748"
+  },
+  {
+   "slug": "portuguese-wordsearch-forest-creatures-aa5e",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-forest-creatures-aa5e"
+  },
+  {
+   "slug": "portuguese-wordsearch-fruits-e959",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-fruits-e959"
+  },
+  {
+   "slug": "portuguese-wordsearch-furniture-aba8",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "furniture",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-furniture-aba8"
+  },
+  {
+   "slug": "portuguese-wordsearch-hospital-a6f6",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "hospital",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-hospital-a6f6"
+  },
+  {
+   "slug": "portuguese-wordsearch-insects-and-bugs-f8f3",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-insects-and-bugs-f8f3"
+  },
+  {
+   "slug": "portuguese-wordsearch-kitchen-tools-a034",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-kitchen-tools-a034"
+  },
+  {
+   "slug": "portuguese-wordsearch-music-d730",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "music",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-music-d730"
+  },
+  {
+   "slug": "portuguese-wordsearch-occupations-55ba",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "occupations",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-occupations-55ba"
+  },
+  {
+   "slug": "portuguese-wordsearch-ocean-life-eb60",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-ocean-life-eb60"
+  },
+  {
+   "slug": "portuguese-wordsearch-pets-cfd9",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "pets",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-pets-cfd9"
+  },
+  {
+   "slug": "portuguese-wordsearch-post-office-6dd9",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "post_office",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-post-office-6dd9"
+  },
+  {
+   "slug": "portuguese-wordsearch-reptiles-and-amphibians-7334",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-reptiles-and-amphibians-7334"
+  },
+  {
+   "slug": "portuguese-wordsearch-shapes-615e",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-shapes-615e"
+  },
+  {
+   "slug": "portuguese-wordsearch-space-6dfd",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-space-6dfd"
+  },
+  {
+   "slug": "portuguese-wordsearch-spring-54af",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-spring-54af"
+  },
+  {
+   "slug": "portuguese-wordsearch-summer-bcb8",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-summer-bcb8"
+  },
+  {
+   "slug": "portuguese-wordsearch-thanksgiving-3b41",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "portuguese-wordsearch-thanksgiving-3b41"
+  }
+ ]
+}

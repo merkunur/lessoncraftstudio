@@ -1,0 +1,740 @@
+{
+ "part": 275,
+ "locale": "da",
+ "classes": [
+  "odd-one-out::same-theme",
+  "find-and-count::hidden-object"
+ ],
+ "splitOf": null,
+ "count": 91,
+ "pages": [
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-aktiviteter-22a3",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "activities",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-aktiviteter-22a3"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-bageri-0c2e",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "bakery",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-bageri-0c2e"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-blomster-c3a7",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "flowers",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-blomster-c3a7"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-bondegardsdyr-28ef",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "farm_animals",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-bondegardsdyr-28ef"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-camping-f72c",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "camping",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-camping-f72c"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-desserter-og-slik-3f53",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "desserts_and_sweets",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-desserter-og-slik-3f53"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-dinosaurer-c3c1",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-dinosaurer-c3c1"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-dyr",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "animals",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-dyr"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-erhverv-99c4",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "occupations",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-erhverv-99c4"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-farver-b426",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "colors",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-farver-b426"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-folelser-0477",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "emotions",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-folelser-0477"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-forar-887f",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "spring",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-forar-887f"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-former-0670",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "shapes",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-former-0670"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-frugter-62cd",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "fruits",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-frugter-62cd"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-fugle-2-a897",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "birds_2",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-fugle-2-a897"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-fugle-7d21",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "birds",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-fugle-7d21"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-grontsager-8625",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "vegetables",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-grontsager-8625"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-havliv-7179",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "ocean_life",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-havliv-7179"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-hospital-01a2",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "hospital",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-hospital-01a2"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-i-supermarkedet-a320",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "at_the_supermarket",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-i-supermarkedet-a320"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-insekter-og-kryb-b3b5",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "insects_and_bugs",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-insekter-og-kryb-b3b5"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-jul-c0a7",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "christmas",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-jul-c0a7"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-kaeledyr-0615",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "pets",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-kaeledyr-0615"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-klassevaerelse-b820",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "classroom",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-klassevaerelse-b820"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-kokkenredskaber-31fa",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "kitchen_tools",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-kokkenredskaber-31fa"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-koretojer-f53d",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "vehicles",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-koretojer-f53d"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-kropsdele-5f68",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "body_parts",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-kropsdele-5f68"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-krybdyr-og-padder-46c9",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "reptiles_and_amphibians",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-krybdyr-og-padder-46c9"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-legetoj-5668",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "toys",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-legetoj-5668"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-mobler-9fbb",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "furniture",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-mobler-9fbb"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-morgenmad-ee7e",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "breakfast",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-morgenmad-ee7e"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-musik-8542",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "music",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-musik-8542"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-paske-75f6",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "easter",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-paske-75f6"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-postkontor-a431",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "post_office",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-postkontor-a431"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-rummet-8bf1",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "space",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-rummet-8bf1"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-rundt-i-huset-89ab",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "around_the_house",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-rundt-i-huset-89ab"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-skovdyr-802e",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "forest_creatures",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-skovdyr-802e"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-sommer-4858",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "summer",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-sommer-4858"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-strand-05fe",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "beach",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-strand-05fe"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-thanksgiving-e958",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "thanksgivinng",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-thanksgiving-e958"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-tilbehor-42a3",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "accessories",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-tilbehor-42a3"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-toj-9240",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "clothing",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-toj-9240"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-vaerktoj-9193",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "tools",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-vaerktoj-9193"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-vejr-ea77",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "weather",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-vejr-ea77"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-vinter-a00d",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "winter",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-vinter-a00d"
+  },
+  {
+   "slug": "hvilken-passer-ikke-samme-tema-zoodyr-8c70",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "zoo_animals",
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-samme-tema-zoodyr-8c70"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-aktiviteter-15d7",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "activities",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-aktiviteter-15d7"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-bageri-73a6",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "bakery",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-bageri-73a6"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-blomster-b36a",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "flowers",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-blomster-b36a"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-bondegardsdyr-f726",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "farm_animals",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-bondegardsdyr-f726"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-camping-aefa",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "camping",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-camping-aefa"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-dyr-dc04",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "animals",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-dyr-dc04"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-erhverv-25c7",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "occupations",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-erhverv-25c7"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-farver-7d67",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "colors",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-farver-7d67"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-folelser-9a8c",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "emotions",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-folelser-9a8c"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-forar-5f29",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "spring",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-forar-5f29"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-former-5d81",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "shapes",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-former-5d81"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-frugter-3ab3",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "fruits",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-frugter-3ab3"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-fugle-2-e508",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "birds_2",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-fugle-2-e508"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-grontsager-0147",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "vegetables",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-grontsager-0147"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-havliv-8682",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "ocean_life",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-havliv-8682"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-hospital-706d",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "hospital",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-hospital-706d"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-i-supermarkedet-7f97",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "at_the_supermarket",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-i-supermarkedet-7f97"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-insekter-og-kryb-2225",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "insects_and_bugs",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-insekter-og-kryb-2225"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-jul-6903",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "christmas",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-jul-6903"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-kaeledyr-66a6",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "pets",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-kaeledyr-66a6"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-klassevaerelse-20c7",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "classroom",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-klassevaerelse-20c7"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-kokkenredskaber-e8a8",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "kitchen_tools",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-kokkenredskaber-e8a8"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-koretojer-945b",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "vehicles",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-koretojer-945b"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-kropsdele-d822",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "body_parts",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-kropsdele-d822"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-krybdyr-og-padder-d182",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "reptiles_and_amphibians",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-krybdyr-og-padder-d182"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-legetoj-0e3a",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "toys",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-legetoj-0e3a"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-mobler-a025",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "furniture",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-mobler-a025"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-morgenmad-5dfc",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "breakfast",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-morgenmad-5dfc"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-musik-8dbe",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "music",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-musik-8dbe"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-paske-fc9f",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "easter",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-paske-fc9f"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-postkontor-6031",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "post_office",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-postkontor-6031"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-rummet-d281",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "space",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-rummet-d281"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-rundt-i-huset-45c0",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "around_the_house",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-rundt-i-huset-45c0"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-skovdyr-a95d",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "forest_creatures",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-skovdyr-a95d"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-sommer-e2df",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "summer",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-sommer-e2df"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-strand-90ac",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "beach",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-strand-90ac"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-thanksgiving-93e8",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "thanksgivinng",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-thanksgiving-93e8"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-tilbehor-71b8",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "accessories",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-tilbehor-71b8"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-ting-der-flyver-12b1",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "things_that_fly",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-ting-der-flyver-12b1"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-toj-c8e4",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "clothing",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-toj-c8e4"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-traeer-8b34",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "tree",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-traeer-8b34"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-vaerktoj-991f",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "tools",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-vaerktoj-991f"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-vejr-faed",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "weather",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-vejr-faed"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-vinter-d710",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "winter",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-vinter-d710"
+  },
+  {
+   "slug": "find-og-tael-skjulte-genstande-zoodyr-1b1f",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "zoo_animals",
+   "level": "boernehaveklasse",
+   "deck": "find-og-tael-skjulte-genstande-zoodyr-1b1f"
+  }
+ ]
+}

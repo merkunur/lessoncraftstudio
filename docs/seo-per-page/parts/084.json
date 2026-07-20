@@ -1,0 +1,812 @@
+{
+ "part": 84,
+ "locale": "es",
+ "classes": [
+  "math-worksheet::three-symbols-add-sub",
+  "more-less::image-image"
+ ],
+ "splitOf": null,
+ "count": 100,
+ "pages": [
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-4-de-julio-237f",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "4th_of_july",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-4-de-julio-237f"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-accesorios-61f9",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "accessories",
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-accesorios-61f9"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-actividades-393b",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "activities",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-actividades-393b"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-alrededor-de-la-casa-0106",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "around_the_house",
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-alrededor-de-la-casa-0106"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-animales-3dba",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "animals",
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-animales-3dba"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-animales-de-granja-9510",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "farm_animals",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-animales-de-granja-9510"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-animales-del-zoologico-0f9a",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "zoo_animals",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-animales-del-zoologico-0f9a"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-arboles-87e3",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "tree",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-arboles-87e3"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-aves-1499",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "birds",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-aves-1499"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-aves-2-2dc6",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "birds_2",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-aves-2-2dc6"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-campamento-41f5",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "camping",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-campamento-41f5"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-clima-706d",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "weather",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-clima-706d"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-colores-04c2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "colors",
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-colores-04c2"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-cosas-que-vuelan-2fcc",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "things_that_fly",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-cosas-que-vuelan-2fcc"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-criaturas-del-bosque-4b7b",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "forest_creatures",
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-criaturas-del-bosque-4b7b"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-desayuno-1979",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "breakfast",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-desayuno-1979"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-dia-de-accion-de-gracias-6ea8",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "thanksgivinng",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-dia-de-accion-de-gracias-6ea8"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-dinosaurios-16df",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "dinosaurs",
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-dinosaurios-16df"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-emociones-2f7e",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "emotions",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-emociones-2f7e"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-en-el-supermercado-17bb",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "at_the_supermarket",
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-en-el-supermercado-17bb"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-espacio-3dca",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "space",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-espacio-3dca"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-flores-16db",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "flowers",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-flores-16db"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-formas-28b7",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "shapes",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-formas-28b7"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-frutas-33b8",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "fruits",
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-frutas-33b8"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-herramientas-3d1a",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "tools",
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-herramientas-3d1a"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-hospital-81ac",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "hospital",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-hospital-81ac"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-insectos-y-bichos-13d2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "insects_and_bugs",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-insectos-y-bichos-13d2"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-invierno-0ea2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "winter",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-invierno-0ea2"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-juguetes-32b2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "toys",
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-juguetes-32b2"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-mascotas-4ff3",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "pets",
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-mascotas-4ff3"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-miscelaneo-0ad4",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "miscellaneous",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-miscelaneo-0ad4"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-muebles-07aa",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "furniture",
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-muebles-07aa"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-musica-2cee",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "music",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-musica-2cee"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-navidad-66db",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "christmas",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-navidad-66db"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-ocupaciones-20c5",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "occupations",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-ocupaciones-20c5"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-oficina-de-correos-0036",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "post_office",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-oficina-de-correos-0036"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-panaderia-32f2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "bakery",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-panaderia-32f2"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-partes-del-cuerpo-0164",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "body_parts",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-partes-del-cuerpo-0164"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-pascua-061a",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "easter",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-pascua-061a"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-playa-5449",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "beach",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-playa-5449"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-postres-y-dulces-0125",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "desserts_and_sweets",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-postres-y-dulces-0125"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-primavera-31d4",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "spring",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-primavera-31d4"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-reptiles-y-anfibios-1ca8",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "reptiles_and_amphibians",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-reptiles-y-anfibios-1ca8"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-ropa-13db",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "clothing",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-ropa-13db"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-salon-de-clases-78c4",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "classroom",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-salon-de-clases-78c4"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-utensilios-de-cocina-21fb",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "kitchen_tools",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-utensilios-de-cocina-21fb"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-vehiculos-2039",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "vehicles",
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-vehiculos-2039"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-verano-1264",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "summer",
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-verano-1264"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-verduras-1b17",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "vegetables",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-verduras-1b17"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-vida-marina-22ec",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "ocean_life",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-vida-marina-22ec"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-4-de-julio-74a5",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "4th_of_july",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-4-de-julio-74a5"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-accesorios-54bc",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "accessories",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-accesorios-54bc"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-actividades-4904",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "activities",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-actividades-4904"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-alrededor-de-la-casa-4038",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "around_the_house",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-alrededor-de-la-casa-4038"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-animales-836f",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "animals",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-animales-836f"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-animales-de-granja-38ef",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "farm_animals",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-animales-de-granja-38ef"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-animales-del-zoologico-0d48",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "zoo_animals",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-animales-del-zoologico-0d48"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-arboles-51dc",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "tree",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-arboles-51dc"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-aves-2-1c70",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "birds_2",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-aves-2-1c70"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-aves-4586",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "birds",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-aves-4586"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-campamento-273b",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "camping",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-campamento-273b"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-clima-544f",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "weather",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-clima-544f"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-colores-7661",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "colors",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-colores-7661"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-cosas-que-vuelan-861a",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "things_that_fly",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-cosas-que-vuelan-861a"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-criaturas-del-bosque-573f",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "forest_creatures",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-criaturas-del-bosque-573f"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-desayuno-6d4e",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "breakfast",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-desayuno-6d4e"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-dia-de-accion-de-gracias-cc49",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "thanksgivinng",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-dia-de-accion-de-gracias-cc49"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-dinosaurios-86f1",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "dinosaurs",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-dinosaurios-86f1"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-emociones-0fde",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "emotions",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-emociones-0fde"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-en-el-supermercado-8743",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "at_the_supermarket",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-en-el-supermercado-8743"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-espacio-3fc6",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "space",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-espacio-3fc6"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-flores-9925",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "flowers",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-flores-9925"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-formas-9956",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "shapes",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-formas-9956"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-frutas-c8b8",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "fruits",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-frutas-c8b8"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-herramientas-2e7c",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "tools",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-herramientas-2e7c"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-hospital-5188",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "hospital",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-hospital-5188"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-insectos-y-bichos-845d",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "insects_and_bugs",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-insectos-y-bichos-845d"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-invierno-dc71",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "winter",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-invierno-dc71"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-juguetes-27c2",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "toys",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-juguetes-27c2"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-mascotas-68d6",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "pets",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-mascotas-68d6"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-miscelaneo-2945",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "miscellaneous",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-miscelaneo-2945"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-muebles-3144",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "furniture",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-muebles-3144"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-musica-6f6c",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "music",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-musica-6f6c"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-navidad-582d",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "christmas",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-navidad-582d"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-ocupaciones-529b",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "occupations",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-ocupaciones-529b"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-oficina-de-correos-71be",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "post_office",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-oficina-de-correos-71be"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-panaderia-29b0",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "bakery",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-panaderia-29b0"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-partes-del-cuerpo-446e",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "body_parts",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-partes-del-cuerpo-446e"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-pascua-11df",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "easter",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-pascua-11df"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-playa-8809",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "beach",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-playa-8809"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-postres-y-dulces-7a33",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "desserts_and_sweets",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-postres-y-dulces-7a33"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-primavera-1a26",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "spring",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-primavera-1a26"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-reptiles-y-anfibios-9e8b",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "reptiles_and_amphibians",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-reptiles-y-anfibios-9e8b"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-ropa-46b2",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "clothing",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-ropa-46b2"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-salon-de-clases-a6c8",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "classroom",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-salon-de-clases-a6c8"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-utensilios-de-cocina-63e7",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "kitchen_tools",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-utensilios-de-cocina-63e7"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-vehiculos-6ed3",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "vehicles",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-vehiculos-6ed3"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-verano-270f",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "summer",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-verano-270f"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-verduras-29c4",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "vegetables",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-verduras-29c4"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-vida-marina-0338",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "ocean_life",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-vida-marina-0338"
+  }
+ ]
+}

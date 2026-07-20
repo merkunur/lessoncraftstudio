@@ -1,0 +1,668 @@
+{
+ "part": 216,
+ "locale": "nl",
+ "classes": [
+  "math-puzzle::mixed",
+  "math-puzzle::subtraction"
+ ],
+ "splitOf": null,
+ "count": 82,
+ "pages": [
+  {
+   "slug": "rekenpuzzel-gemengd-accessoires-a5d1",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-accessoires-a5d1"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-bakkerij-fe5d",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-bakkerij-fe5d"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-beroepen-d303",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-beroepen-d303"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-bloemen-1877",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-bloemen-1877"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-boerderijdieren-7af3",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-boerderijdieren-7af3"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-bomen-073e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-bomen-073e"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-boswezens-2d2e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-boswezens-2d2e"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-desserts-en-snoep-fda4",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-desserts-en-snoep-fda4"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-dieren",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-dieren"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-dierentuindieren-2845",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-dierentuindieren-2845"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-dingen-die-vliegen-8242",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-dingen-die-vliegen-8242"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-dinosaurussen-d29f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-dinosaurussen-d29f"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-diversen-0532",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "miscellaneous",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-diversen-0532"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-fruit-4754",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-fruit-4754"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-gereedschap-0b66",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-gereedschap-0b66"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-groenten-e5e9",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-groenten-e5e9"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-huisdieren-c32a",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-huisdieren-c32a"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-in-de-supermarkt-9565",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-in-de-supermarkt-9565"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-insecten-en-beestjes-048b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-insecten-en-beestjes-048b"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-kamperen-7bff",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-kamperen-7bff"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-kerstmis-03a1",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-kerstmis-03a1"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-keukengerei-437b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-keukengerei-437b"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-klaslokaal-519b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-klaslokaal-519b"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-kleding-4653",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-kleding-4653"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-meubels-f984",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-meubels-f984"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-muziek-78d6",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-muziek-78d6"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-oceaanleven-d43a",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-oceaanleven-d43a"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-ontbijt-162c",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-ontbijt-162c"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-pasen-0157",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-pasen-0157"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-postkantoor-b893",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-postkantoor-b893"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-reptielen-en-amfibieen-e8bc",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-reptielen-en-amfibieen-e8bc"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-rond-het-huis-7a63",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-rond-het-huis-7a63"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-ruimte-33e4",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-ruimte-33e4"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-speelgoed-fed6",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-speelgoed-fed6"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-strand-4e7e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-strand-4e7e"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-thanksgiving-05ee",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-thanksgiving-05ee"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-voertuigen-5755",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-voertuigen-5755"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-vogels-2-dc77",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-vogels-2-dc77"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-vogels-eb2b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-vogels-eb2b"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-vormen-448d",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-vormen-448d"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-ziekenhuis-e8e8",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-ziekenhuis-e8e8"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-accessoires-607e",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "accessories",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-accessoires-607e"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-bakkerij-fa85",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "bakery",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-bakkerij-fa85"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-beroepen-6bca",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "occupations",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-beroepen-6bca"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-bloemen-0b6f",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "flowers",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-bloemen-0b6f"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-boerderijdieren-0748",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "farm_animals",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-aftrekken-boerderijdieren-0748"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-bomen-50ea",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "tree",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-bomen-50ea"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-boswezens-1d13",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "forest_creatures",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-aftrekken-boswezens-1d13"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-desserts-en-snoep-702d",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "desserts_and_sweets",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-desserts-en-snoep-702d"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-dieren-a03a",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "animals",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-aftrekken-dieren-a03a"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-dierentuindieren-5d18",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "zoo_animals",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-aftrekken-dierentuindieren-5d18"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-dingen-die-vliegen-6f21",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "things_that_fly",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-aftrekken-dingen-die-vliegen-6f21"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-dinosaurussen-5155",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "dinosaurs",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-aftrekken-dinosaurussen-5155"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-diversen-d6af",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "miscellaneous",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-diversen-d6af"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-fruit-aa55",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "fruits",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-fruit-aa55"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-gereedschap-3add",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "tools",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-aftrekken-gereedschap-3add"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-groenten-b73b",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "vegetables",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-groenten-b73b"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-huisdieren-b9a9",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "pets",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-huisdieren-b9a9"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-in-de-supermarkt-1983",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "at_the_supermarket",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-in-de-supermarkt-1983"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-insecten-en-beestjes-1446",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "insects_and_bugs",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-aftrekken-insecten-en-beestjes-1446"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-kamperen-26a2",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "camping",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-kamperen-26a2"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-kerstmis-9600",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "christmas",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-aftrekken-kerstmis-9600"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-keukengerei-7c68",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "kitchen_tools",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-aftrekken-keukengerei-7c68"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-klaslokaal-8464",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "classroom",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-klaslokaal-8464"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-kleding-1b5c",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "clothing",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-aftrekken-kleding-1b5c"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-meubels-f769",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "furniture",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-meubels-f769"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-muziek-a2c1",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "music",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-aftrekken-muziek-a2c1"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-oceaanleven-bddc",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "ocean_life",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-oceaanleven-bddc"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-ontbijt-a90d",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "breakfast",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-aftrekken-ontbijt-a90d"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-pasen-9a12",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "easter",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-pasen-9a12"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-postkantoor-24ef",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "post_office",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-postkantoor-24ef"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-reptielen-en-amfibieen-378f",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "reptiles_and_amphibians",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-reptielen-en-amfibieen-378f"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-rond-het-huis-07a5",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "around_the_house",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-rond-het-huis-07a5"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-ruimte-b5b2",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "space",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-aftrekken-ruimte-b5b2"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-speelgoed-cae6",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "toys",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-speelgoed-cae6"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-strand-53c0",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "beach",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-strand-53c0"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-thanksgiving-8d9e",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "thanksgivinng",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-thanksgiving-8d9e"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-voertuigen-2136",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "vehicles",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-voertuigen-2136"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-vogels-2-2db5",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "birds_2",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-aftrekken-vogels-2-2db5"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-vogels-ae13",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "birds",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-aftrekken-vogels-ae13"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-vormen-c9f8",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "shapes",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-aftrekken-vormen-c9f8"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-ziekenhuis-c8ea",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "hospital",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-ziekenhuis-c8ea"
+  }
+ ]
+}

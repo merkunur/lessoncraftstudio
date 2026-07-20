@@ -1,0 +1,612 @@
+{
+ "part": 286,
+ "locale": "da",
+ "classes": [
+  "bingo::null",
+  "math-puzzle::addition"
+ ],
+ "splitOf": null,
+ "count": 75,
+ "pages": [
+  {
+   "slug": "bingo-aktiviteter-b89f",
+   "type": "bingo",
+   "mode": null,
+   "theme": "activities",
+   "level": "boernehaveklasse",
+   "deck": "bingo-aktiviteter-b89f"
+  },
+  {
+   "slug": "bingo-bageri-6a01",
+   "type": "bingo",
+   "mode": null,
+   "theme": "bakery",
+   "level": "boernehaveklasse",
+   "deck": "bingo-bageri-6a01"
+  },
+  {
+   "slug": "bingo-blomster-08e5",
+   "type": "bingo",
+   "mode": null,
+   "theme": "flowers",
+   "level": "boernehaveklasse",
+   "deck": "bingo-blomster-08e5"
+  },
+  {
+   "slug": "bingo-bondegardsdyr-3a78",
+   "type": "bingo",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "boernehaveklasse",
+   "deck": "bingo-bondegardsdyr-3a78"
+  },
+  {
+   "slug": "bingo-camping-54d9",
+   "type": "bingo",
+   "mode": null,
+   "theme": "camping",
+   "level": "boernehaveklasse",
+   "deck": "bingo-camping-54d9"
+  },
+  {
+   "slug": "bingo-desserter-og-slik-424b",
+   "type": "bingo",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "boernehaveklasse",
+   "deck": "bingo-desserter-og-slik-424b"
+  },
+  {
+   "slug": "bingo-dyr",
+   "type": "bingo",
+   "mode": null,
+   "theme": "animals",
+   "level": "boernehaveklasse",
+   "deck": "bingo-dyr"
+  },
+  {
+   "slug": "bingo-erhverv-0258",
+   "type": "bingo",
+   "mode": null,
+   "theme": "occupations",
+   "level": "boernehaveklasse",
+   "deck": "bingo-erhverv-0258"
+  },
+  {
+   "slug": "bingo-farver-5ba4",
+   "type": "bingo",
+   "mode": null,
+   "theme": "colors",
+   "level": "boernehaveklasse",
+   "deck": "bingo-farver-5ba4"
+  },
+  {
+   "slug": "bingo-forar-906d",
+   "type": "bingo",
+   "mode": null,
+   "theme": "spring",
+   "level": "boernehaveklasse",
+   "deck": "bingo-forar-906d"
+  },
+  {
+   "slug": "bingo-former-6af0",
+   "type": "bingo",
+   "mode": null,
+   "theme": "shapes",
+   "level": "boernehaveklasse",
+   "deck": "bingo-former-6af0"
+  },
+  {
+   "slug": "bingo-frugter-2602",
+   "type": "bingo",
+   "mode": null,
+   "theme": "fruits",
+   "level": "boernehaveklasse",
+   "deck": "bingo-frugter-2602"
+  },
+  {
+   "slug": "bingo-fugle-2-6cbe",
+   "type": "bingo",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "boernehaveklasse",
+   "deck": "bingo-fugle-2-6cbe"
+  },
+  {
+   "slug": "bingo-grontsager-e9bd",
+   "type": "bingo",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "boernehaveklasse",
+   "deck": "bingo-grontsager-e9bd"
+  },
+  {
+   "slug": "bingo-havliv-c863",
+   "type": "bingo",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "boernehaveklasse",
+   "deck": "bingo-havliv-c863"
+  },
+  {
+   "slug": "bingo-hospital-469e",
+   "type": "bingo",
+   "mode": null,
+   "theme": "hospital",
+   "level": "boernehaveklasse",
+   "deck": "bingo-hospital-469e"
+  },
+  {
+   "slug": "bingo-i-supermarkedet-9676",
+   "type": "bingo",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "boernehaveklasse",
+   "deck": "bingo-i-supermarkedet-9676"
+  },
+  {
+   "slug": "bingo-jul-aedd",
+   "type": "bingo",
+   "mode": null,
+   "theme": "christmas",
+   "level": "boernehaveklasse",
+   "deck": "bingo-jul-aedd"
+  },
+  {
+   "slug": "bingo-kaeledyr-dc0f",
+   "type": "bingo",
+   "mode": null,
+   "theme": "pets",
+   "level": "boernehaveklasse",
+   "deck": "bingo-kaeledyr-dc0f"
+  },
+  {
+   "slug": "bingo-klassevaerelse-ea25",
+   "type": "bingo",
+   "mode": null,
+   "theme": "classroom",
+   "level": "boernehaveklasse",
+   "deck": "bingo-klassevaerelse-ea25"
+  },
+  {
+   "slug": "bingo-kokkenredskaber-50f8",
+   "type": "bingo",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "boernehaveklasse",
+   "deck": "bingo-kokkenredskaber-50f8"
+  },
+  {
+   "slug": "bingo-koretojer-9b2d",
+   "type": "bingo",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "boernehaveklasse",
+   "deck": "bingo-koretojer-9b2d"
+  },
+  {
+   "slug": "bingo-kropsdele-97d0",
+   "type": "bingo",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "boernehaveklasse",
+   "deck": "bingo-kropsdele-97d0"
+  },
+  {
+   "slug": "bingo-legetoj-6702",
+   "type": "bingo",
+   "mode": null,
+   "theme": "toys",
+   "level": "boernehaveklasse",
+   "deck": "bingo-legetoj-6702"
+  },
+  {
+   "slug": "bingo-mobler-cbc8",
+   "type": "bingo",
+   "mode": null,
+   "theme": "furniture",
+   "level": "boernehaveklasse",
+   "deck": "bingo-mobler-cbc8"
+  },
+  {
+   "slug": "bingo-morgenmad-92aa",
+   "type": "bingo",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "boernehaveklasse",
+   "deck": "bingo-morgenmad-92aa"
+  },
+  {
+   "slug": "bingo-paske-73ff",
+   "type": "bingo",
+   "mode": null,
+   "theme": "easter",
+   "level": "boernehaveklasse",
+   "deck": "bingo-paske-73ff"
+  },
+  {
+   "slug": "bingo-rummet-a5cf",
+   "type": "bingo",
+   "mode": null,
+   "theme": "space",
+   "level": "boernehaveklasse",
+   "deck": "bingo-rummet-a5cf"
+  },
+  {
+   "slug": "bingo-rundt-i-huset-e521",
+   "type": "bingo",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "boernehaveklasse",
+   "deck": "bingo-rundt-i-huset-e521"
+  },
+  {
+   "slug": "bingo-skovdyr-3a5a",
+   "type": "bingo",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "boernehaveklasse",
+   "deck": "bingo-skovdyr-3a5a"
+  },
+  {
+   "slug": "bingo-sommer-7d58",
+   "type": "bingo",
+   "mode": null,
+   "theme": "summer",
+   "level": "boernehaveklasse",
+   "deck": "bingo-sommer-7d58"
+  },
+  {
+   "slug": "bingo-strand-4b86",
+   "type": "bingo",
+   "mode": null,
+   "theme": "beach",
+   "level": "boernehaveklasse",
+   "deck": "bingo-strand-4b86"
+  },
+  {
+   "slug": "bingo-tilbehor-5c6b",
+   "type": "bingo",
+   "mode": null,
+   "theme": "accessories",
+   "level": "boernehaveklasse",
+   "deck": "bingo-tilbehor-5c6b"
+  },
+  {
+   "slug": "bingo-ting-der-flyver-9ae3",
+   "type": "bingo",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "boernehaveklasse",
+   "deck": "bingo-ting-der-flyver-9ae3"
+  },
+  {
+   "slug": "bingo-toj-8d02",
+   "type": "bingo",
+   "mode": null,
+   "theme": "clothing",
+   "level": "boernehaveklasse",
+   "deck": "bingo-toj-8d02"
+  },
+  {
+   "slug": "bingo-vejr-9e83",
+   "type": "bingo",
+   "mode": null,
+   "theme": "weather",
+   "level": "boernehaveklasse",
+   "deck": "bingo-vejr-9e83"
+  },
+  {
+   "slug": "bingo-vinter-3423",
+   "type": "bingo",
+   "mode": null,
+   "theme": "winter",
+   "level": "boernehaveklasse",
+   "deck": "bingo-vinter-3423"
+  },
+  {
+   "slug": "bingo-zoodyr-9e07",
+   "type": "bingo",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "boernehaveklasse",
+   "deck": "bingo-zoodyr-9e07"
+  },
+  {
+   "slug": "matematikpuslespil-addition-bageri-8470",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-bageri-8470"
+  },
+  {
+   "slug": "matematikpuslespil-addition-blomster-8631",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-blomster-8631"
+  },
+  {
+   "slug": "matematikpuslespil-addition-bondegardsdyr-bf70",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-bondegardsdyr-bf70"
+  },
+  {
+   "slug": "matematikpuslespil-addition-camping-0f12",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-camping-0f12"
+  },
+  {
+   "slug": "matematikpuslespil-addition-dinosaurer-bde7",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "dinosaurs",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-dinosaurer-bde7"
+  },
+  {
+   "slug": "matematikpuslespil-addition-dyr-0f9a",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-dyr-0f9a"
+  },
+  {
+   "slug": "matematikpuslespil-addition-erhverv-dd4c",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-erhverv-dd4c"
+  },
+  {
+   "slug": "matematikpuslespil-addition-fugle-2-a176",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-fugle-2-a176"
+  },
+  {
+   "slug": "matematikpuslespil-addition-fugle-438f",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-fugle-438f"
+  },
+  {
+   "slug": "matematikpuslespil-addition-grontsager-04a8",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-grontsager-04a8"
+  },
+  {
+   "slug": "matematikpuslespil-addition-havliv-b12d",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-havliv-b12d"
+  },
+  {
+   "slug": "matematikpuslespil-addition-hospital-acca",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-hospital-acca"
+  },
+  {
+   "slug": "matematikpuslespil-addition-i-supermarkedet-8934",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-i-supermarkedet-8934"
+  },
+  {
+   "slug": "matematikpuslespil-addition-insekter-og-kryb-d73f",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-insekter-og-kryb-d73f"
+  },
+  {
+   "slug": "matematikpuslespil-addition-jul-570e",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-jul-570e"
+  },
+  {
+   "slug": "matematikpuslespil-addition-kaeledyr-6b0b",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-kaeledyr-6b0b"
+  },
+  {
+   "slug": "matematikpuslespil-addition-klassevaerelse-abb0",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-klassevaerelse-abb0"
+  },
+  {
+   "slug": "matematikpuslespil-addition-kokkenredskaber-e183",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-kokkenredskaber-e183"
+  },
+  {
+   "slug": "matematikpuslespil-addition-koretojer-81ca",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-koretojer-81ca"
+  },
+  {
+   "slug": "matematikpuslespil-addition-krybdyr-og-padder-24d7",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-krybdyr-og-padder-24d7"
+  },
+  {
+   "slug": "matematikpuslespil-addition-legetoj-893f",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-legetoj-893f"
+  },
+  {
+   "slug": "matematikpuslespil-addition-mobler-733e",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-mobler-733e"
+  },
+  {
+   "slug": "matematikpuslespil-addition-morgenmad-b667",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-morgenmad-b667"
+  },
+  {
+   "slug": "matematikpuslespil-addition-musik-d6ac",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-musik-d6ac"
+  },
+  {
+   "slug": "matematikpuslespil-addition-paske-9f92",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-paske-9f92"
+  },
+  {
+   "slug": "matematikpuslespil-addition-postkontor-19f9",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-postkontor-19f9"
+  },
+  {
+   "slug": "matematikpuslespil-addition-rummet-3034",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-rummet-3034"
+  },
+  {
+   "slug": "matematikpuslespil-addition-rundt-i-huset-7b59",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-rundt-i-huset-7b59"
+  },
+  {
+   "slug": "matematikpuslespil-addition-skovdyr-ad39",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-skovdyr-ad39"
+  },
+  {
+   "slug": "matematikpuslespil-addition-strand-d278",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-strand-d278"
+  },
+  {
+   "slug": "matematikpuslespil-addition-thanksgiving-8c8c",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-thanksgiving-8c8c"
+  },
+  {
+   "slug": "matematikpuslespil-addition-tilbehor-3d57",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-tilbehor-3d57"
+  },
+  {
+   "slug": "matematikpuslespil-addition-ting-der-flyver-db30",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-ting-der-flyver-db30"
+  },
+  {
+   "slug": "matematikpuslespil-addition-toj-c402",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-toj-c402"
+  },
+  {
+   "slug": "matematikpuslespil-addition-traeer-002a",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-traeer-002a"
+  },
+  {
+   "slug": "matematikpuslespil-addition-vaerktoj-d05b",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-vaerktoj-d05b"
+  },
+  {
+   "slug": "matematikpuslespil-addition-zoodyr-75a9",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-zoodyr-75a9"
+  }
+ ]
+}

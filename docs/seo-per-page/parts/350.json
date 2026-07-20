@@ -1,0 +1,636 @@
+{
+ "part": 350,
+ "locale": "fi",
+ "classes": [
+  "addition::mixed",
+  "more-less::check-cross"
+ ],
+ "splitOf": null,
+ "count": 78,
+ "pages": [
+  {
+   "slug": "yhteenlasku-sekoitettu-aamiainen-9a2a",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-aamiainen-9a2a"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-ajoneuvot-e2ec",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-ajoneuvot-e2ec"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-ammatit-3d47",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-ammatit-3d47"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-asusteet-41d1",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-asusteet-41d1"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-avaruus-7aea",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-avaruus-7aea"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-dinosaurukset-838c",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-dinosaurukset-838c"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-elaimet-15b5",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-elaimet-15b5"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-elaintarhan-elaimet-b72f",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-elaintarhan-elaimet-b72f"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-hedelmat-9c66",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-hedelmat-9c66"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-huonekalut-7f5b",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-huonekalut-7f5b"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-hyonteiset-ja-otokat-2b5d",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-hyonteiset-ja-otokat-2b5d"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-jalkiruoat-ja-makeiset-d345",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-jalkiruoat-ja-makeiset-d345"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-joulu-7bf1",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-joulu-7bf1"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-keittiovalineet-a51f",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-keittiovalineet-a51f"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-kiitospaiva-8f53",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-kiitospaiva-8f53"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-kodin-ymparilla-9935",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-kodin-ymparilla-9935"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-kukat-22da",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-kukat-22da"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-leipomo-d0d1",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-leipomo-d0d1"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-leirielama-7d5b",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-leirielama-7d5b"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-lelut-c2f5",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-lelut-c2f5"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-lemmikit-ca5d",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-lemmikit-ca5d"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-lentavat-asiat-9396",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-lentavat-asiat-9396"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-linnut-05b8",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-linnut-05b8"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-linnut-2-548a",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-linnut-2-548a"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-luokkahuone-3ffd",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-luokkahuone-3ffd"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-maatilan-elaimet-1327",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-maatilan-elaimet-1327"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-matelijat-ja-sammakkoelaimet-7526",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-matelijat-ja-sammakkoelaimet-7526"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-merielama-8f12",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-merielama-8f12"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-metsan-elaimet-6dbf",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-metsan-elaimet-6dbf"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-muodot-70dd",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-muodot-70dd"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-musiikki-4f7c",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-musiikki-4f7c"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-postitoimisto-ef19",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-postitoimisto-ef19"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-puut-3921",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-puut-3921"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-ruokakaupassa-87ba",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-ruokakaupassa-87ba"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-sairaala-c122",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-sairaala-c122"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-sekalaista-5fb7",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "miscellaneous",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-sekalaista-5fb7"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-tyokalut-208b",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-tyokalut-208b"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-vaatteet-29d1",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-vaatteet-29d1"
+  },
+  {
+   "slug": "yhteenlasku-sekoitettu-vihannekset-cf21",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-sekoitettu-vihannekset-cf21"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-aamiainen-91bf",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "breakfast",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-aamiainen-91bf"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-ajoneuvot-ab8d",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "vehicles",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-ajoneuvot-ab8d"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-ammatit-8bed",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "occupations",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-ammatit-8bed"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-asusteet-10da",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "accessories",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-asusteet-10da"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-avaruus-c525",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "space",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-avaruus-c525"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-dinosaurukset-05c7",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "dinosaurs",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-dinosaurukset-05c7"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-elaimet-9e4e",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "animals",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-elaimet-9e4e"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-elaintarhan-elaimet-a623",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "zoo_animals",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-elaintarhan-elaimet-a623"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-hedelmat-e7e7",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "fruits",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-hedelmat-e7e7"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-huonekalut-867b",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "furniture",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-huonekalut-867b"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-hyonteiset-ja-otokat-56cb",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "insects_and_bugs",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-hyonteiset-ja-otokat-56cb"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-jalkiruoat-ja-makeiset-ee53",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "desserts_and_sweets",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-jalkiruoat-ja-makeiset-ee53"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-joulu-5985",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "christmas",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-joulu-5985"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-keittiovalineet-a4ec",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "kitchen_tools",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-keittiovalineet-a4ec"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-kiitospaiva-aeee",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "thanksgivinng",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-kiitospaiva-aeee"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-kodin-ymparilla-2b22",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "around_the_house",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-kodin-ymparilla-2b22"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-kukat-247d",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "flowers",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-kukat-247d"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-leipomo-d429",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "bakery",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-leipomo-d429"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-leirielama-d214",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "camping",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-leirielama-d214"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-lelut-ccc3",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "toys",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-lelut-ccc3"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-lemmikit-76f8",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "pets",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-lemmikit-76f8"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-lentavat-asiat-c1f9",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "things_that_fly",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-lentavat-asiat-c1f9"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-linnut-2-f426",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "birds_2",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-linnut-2-f426"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-linnut-85f7",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "birds",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-linnut-85f7"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-luokkahuone-e2d3",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "classroom",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-luokkahuone-e2d3"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-maatilan-elaimet-2850",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "farm_animals",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-maatilan-elaimet-2850"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-matelijat-ja-sammakkoelaimet-cb24",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "reptiles_and_amphibians",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-matelijat-ja-sammakkoelaimet-cb24"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-merielama-fd0b",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "ocean_life",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-merielama-fd0b"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-metsan-elaimet-2ea6",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "forest_creatures",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-metsan-elaimet-2ea6"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-muodot-5ac7",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "shapes",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-muodot-5ac7"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-musiikki-e637",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "music",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-musiikki-e637"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-paasiainen-a3c5",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "easter",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-paasiainen-a3c5"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-postitoimisto-0c3f",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "post_office",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-postitoimisto-0c3f"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-puut-1aa2",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "tree",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-puut-1aa2"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-ranta-337f",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "beach",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-ranta-337f"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-ruokakaupassa-b642",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "at_the_supermarket",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-ruokakaupassa-b642"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-tyokalut-1c2f",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "tools",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-tyokalut-1c2f"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-vaatteet-deaf",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "clothing",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-vaatteet-deaf"
+  },
+  {
+   "slug": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-vihannekset-3263",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "vegetables",
+   "level": "esikoulu",
+   "deck": "enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-vihannekset-3263"
+  }
+ ]
+}

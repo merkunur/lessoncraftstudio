@@ -1,0 +1,796 @@
+{
+ "part": 108,
+ "locale": "pt",
+ "classes": [
+  "code-addition::null",
+  "math-worksheet::four-symbols-add-sub"
+ ],
+ "splitOf": null,
+ "count": 98,
+ "pages": [
+  {
+   "slug": "adicao-com-codigo-acampamento-7440",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "camping",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-acampamento-7440"
+  },
+  {
+   "slug": "adicao-com-codigo-acessorios-7e67",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "accessories",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-acessorios-7e67"
+  },
+  {
+   "slug": "adicao-com-codigo-animais-628e",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "animals",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-animais-628e"
+  },
+  {
+   "slug": "adicao-com-codigo-animais-da-fazenda-49ce",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-animais-da-fazenda-49ce"
+  },
+  {
+   "slug": "adicao-com-codigo-animais-de-estimacao-2536",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "pets",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-animais-de-estimacao-2536"
+  },
+  {
+   "slug": "adicao-com-codigo-animais-do-zoologico-f25e",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-animais-do-zoologico-f25e"
+  },
+  {
+   "slug": "adicao-com-codigo-arvores-eecd",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "tree",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-arvores-eecd"
+  },
+  {
+   "slug": "adicao-com-codigo-atividades-da72",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "activities",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-atividades-da72"
+  },
+  {
+   "slug": "adicao-com-codigo-brinquedos-9844",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "toys",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-brinquedos-9844"
+  },
+  {
+   "slug": "adicao-com-codigo-cafe-da-manha-d37b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-cafe-da-manha-d37b"
+  },
+  {
+   "slug": "adicao-com-codigo-clima-52b6",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "weather",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-clima-52b6"
+  },
+  {
+   "slug": "adicao-com-codigo-coisas-que-voam-318f",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-coisas-que-voam-318f"
+  },
+  {
+   "slug": "adicao-com-codigo-cores-0e68",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "colors",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-cores-0e68"
+  },
+  {
+   "slug": "adicao-com-codigo-correios-2c05",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "post_office",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-correios-2c05"
+  },
+  {
+   "slug": "adicao-com-codigo-criaturas-da-floresta-821e",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-criaturas-da-floresta-821e"
+  },
+  {
+   "slug": "adicao-com-codigo-dia-de-acao-de-gracas-c481",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-dia-de-acao-de-gracas-c481"
+  },
+  {
+   "slug": "adicao-com-codigo-dinossauros-1789",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-dinossauros-1789"
+  },
+  {
+   "slug": "adicao-com-codigo-diversos-cc48",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-diversos-cc48"
+  },
+  {
+   "slug": "adicao-com-codigo-emocoes-cf37",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "emotions",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-emocoes-cf37"
+  },
+  {
+   "slug": "adicao-com-codigo-espaco-1c84",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "space",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-espaco-1c84"
+  },
+  {
+   "slug": "adicao-com-codigo-ferramentas-3b14",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "tools",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-ferramentas-3b14"
+  },
+  {
+   "slug": "adicao-com-codigo-flores-cfe6",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "flowers",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-flores-cfe6"
+  },
+  {
+   "slug": "adicao-com-codigo-formas-7d42",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "shapes",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-formas-7d42"
+  },
+  {
+   "slug": "adicao-com-codigo-frutas-715e",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "fruits",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-frutas-715e"
+  },
+  {
+   "slug": "adicao-com-codigo-hospital-8349",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "hospital",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-hospital-8349"
+  },
+  {
+   "slug": "adicao-com-codigo-insetos-e-bichos-bbc4",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-insetos-e-bichos-bbc4"
+  },
+  {
+   "slug": "adicao-com-codigo-inverno-e2e3",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "winter",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-inverno-e2e3"
+  },
+  {
+   "slug": "adicao-com-codigo-moveis-7239",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "furniture",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-moveis-7239"
+  },
+  {
+   "slug": "adicao-com-codigo-musica-bf73",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "music",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-musica-bf73"
+  },
+  {
+   "slug": "adicao-com-codigo-natal-f79d",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "christmas",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-natal-f79d"
+  },
+  {
+   "slug": "adicao-com-codigo-no-supermercado-33dc",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-no-supermercado-33dc"
+  },
+  {
+   "slug": "adicao-com-codigo-padaria-c2ea",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-padaria-c2ea"
+  },
+  {
+   "slug": "adicao-com-codigo-partes-do-corpo-b070",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-partes-do-corpo-b070"
+  },
+  {
+   "slug": "adicao-com-codigo-pascoa-4078",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "easter",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-pascoa-4078"
+  },
+  {
+   "slug": "adicao-com-codigo-passaros-2-ebdc",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-passaros-2-ebdc"
+  },
+  {
+   "slug": "adicao-com-codigo-passaros-4a74",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "birds",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-passaros-4a74"
+  },
+  {
+   "slug": "adicao-com-codigo-pela-casa-bb9a",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-pela-casa-bb9a"
+  },
+  {
+   "slug": "adicao-com-codigo-praia-f5c1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "beach",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-praia-f5c1"
+  },
+  {
+   "slug": "adicao-com-codigo-primavera-09c3",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "spring",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-primavera-09c3"
+  },
+  {
+   "slug": "adicao-com-codigo-profissoes-87c4",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "occupations",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-profissoes-87c4"
+  },
+  {
+   "slug": "adicao-com-codigo-repteis-e-anfibios-1034",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-repteis-e-anfibios-1034"
+  },
+  {
+   "slug": "adicao-com-codigo-roupas-f716",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "clothing",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-roupas-f716"
+  },
+  {
+   "slug": "adicao-com-codigo-sala-de-aula-f70b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "classroom",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-sala-de-aula-f70b"
+  },
+  {
+   "slug": "adicao-com-codigo-sobremesas-e-doces-c23a",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-sobremesas-e-doces-c23a"
+  },
+  {
+   "slug": "adicao-com-codigo-utensilios-de-cozinha-98e6",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-utensilios-de-cozinha-98e6"
+  },
+  {
+   "slug": "adicao-com-codigo-vegetais-fc50",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-vegetais-fc50"
+  },
+  {
+   "slug": "adicao-com-codigo-veiculos-34a6",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-veiculos-34a6"
+  },
+  {
+   "slug": "adicao-com-codigo-verao-dab5",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "summer",
+   "level": "2o-ano",
+   "deck": "adicao-com-codigo-verao-dab5"
+  },
+  {
+   "slug": "adicao-com-codigo-vida-marinha-7d31",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "1o-ano",
+   "deck": "adicao-com-codigo-vida-marinha-7d31"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-acampamento-1113",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "camping",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-acampamento-1113"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-acessorios-c6ee",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "accessories",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-acessorios-c6ee"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-animais-8f1c",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "animals",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-animais-8f1c"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-animais-da-fazenda-7656",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "farm_animals",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-animais-da-fazenda-7656"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-animais-de-estimacao-ae90",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "pets",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-animais-de-estimacao-ae90"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-animais-do-zoologico-1a93",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "zoo_animals",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-animais-do-zoologico-1a93"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-arvores-f699",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "tree",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-arvores-f699"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-atividades-9fd1",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "activities",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-atividades-9fd1"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-brinquedos-f6b2",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "toys",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-brinquedos-f6b2"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-cafe-da-manha-08c0",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "breakfast",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-cafe-da-manha-08c0"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-clima-5862",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "weather",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-clima-5862"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-coisas-que-voam-6e0d",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "things_that_fly",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-coisas-que-voam-6e0d"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-cores-3a42",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "colors",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-cores-3a42"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-correios-09e7",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "post_office",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-correios-09e7"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-criaturas-da-floresta-2a44",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "forest_creatures",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-criaturas-da-floresta-2a44"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-dia-de-acao-de-gracas-cd07",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "thanksgivinng",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-dia-de-acao-de-gracas-cd07"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-dinossauros-d9f9",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "dinosaurs",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-dinossauros-d9f9"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-diversos-ba63",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "miscellaneous",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-diversos-ba63"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-emocoes-5c62",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "emotions",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-emocoes-5c62"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-espaco-fa6d",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "space",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-espaco-fa6d"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-ferramentas-0097",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "tools",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-ferramentas-0097"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-flores-6b8a",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "flowers",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-flores-6b8a"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-formas-f07d",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "shapes",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-formas-f07d"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-frutas-a2a1",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "fruits",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-frutas-a2a1"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-hospital-86e5",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "hospital",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-hospital-86e5"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-insetos-e-bichos-12d7",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "insects_and_bugs",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-insetos-e-bichos-12d7"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-inverno-00ec",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "winter",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-inverno-00ec"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-moveis-a6ac",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "furniture",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-moveis-a6ac"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-musica-0ca1",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "music",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-musica-0ca1"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-natal-8ae2",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "christmas",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-natal-8ae2"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-no-supermercado-b92a",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "at_the_supermarket",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-no-supermercado-b92a"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-padaria-6ff6",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-padaria-6ff6"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-partes-do-corpo-d962",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "body_parts",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-partes-do-corpo-d962"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-pascoa-74a5",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "easter",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-pascoa-74a5"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-passaros-2-a34c",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "birds_2",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-passaros-2-a34c"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-passaros-6709",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "birds",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-passaros-6709"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-pela-casa-5cd1",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "around_the_house",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-pela-casa-5cd1"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-praia-ebbf",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "beach",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-praia-ebbf"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-primavera-fee2",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "spring",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-primavera-fee2"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-profissoes-e6ac",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "occupations",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-profissoes-e6ac"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-repteis-e-anfibios-8833",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "reptiles_and_amphibians",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-repteis-e-anfibios-8833"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-roupas-c8f3",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "clothing",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-roupas-c8f3"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-sala-de-aula-1046",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "classroom",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-sala-de-aula-1046"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-sobremesas-e-doces-dfdd",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "desserts_and_sweets",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-sobremesas-e-doces-dfdd"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-utensilios-de-cozinha-4872",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "kitchen_tools",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-utensilios-de-cozinha-4872"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-vegetais-91a0",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "vegetables",
+   "level": "2o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-vegetais-91a0"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-veiculos-a0a4",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "vehicles",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-veiculos-a0a4"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-verao-a07e",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "summer",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-verao-a07e"
+  },
+  {
+   "slug": "atividade-de-matematica-4-simbolos-soma-sub-vida-marinha-76e1",
+   "type": "math-worksheet",
+   "mode": "four-symbols-add-sub",
+   "theme": "ocean_life",
+   "level": "1o-ano",
+   "deck": "atividade-de-matematica-4-simbolos-soma-sub-vida-marinha-76e1"
+  }
+ ]
+}

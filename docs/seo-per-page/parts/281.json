@@ -1,0 +1,652 @@
+{
+ "part": 281,
+ "locale": "da",
+ "classes": [
+  "subtraction::cross-out",
+  "subtraction::mixed"
+ ],
+ "splitOf": null,
+ "count": 80,
+ "pages": [
+  {
+   "slug": "subtraktion-streg-over-bageri-339a",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-bageri-339a"
+  },
+  {
+   "slug": "subtraktion-streg-over-blomster-b084",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-blomster-b084"
+  },
+  {
+   "slug": "subtraktion-streg-over-bondegardsdyr-0945",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-bondegardsdyr-0945"
+  },
+  {
+   "slug": "subtraktion-streg-over-camping-5006",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-camping-5006"
+  },
+  {
+   "slug": "subtraktion-streg-over-desserter-og-slik-c875",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "desserts_and_sweets",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-desserter-og-slik-c875"
+  },
+  {
+   "slug": "subtraktion-streg-over-dinosaurer-7400",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "dinosaurs",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-dinosaurer-7400"
+  },
+  {
+   "slug": "subtraktion-streg-over-dyr",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-dyr"
+  },
+  {
+   "slug": "subtraktion-streg-over-erhverv-285d",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-erhverv-285d"
+  },
+  {
+   "slug": "subtraktion-streg-over-former-c821",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-former-c821"
+  },
+  {
+   "slug": "subtraktion-streg-over-frugter-2995",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-frugter-2995"
+  },
+  {
+   "slug": "subtraktion-streg-over-fugle-2-50a1",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-fugle-2-50a1"
+  },
+  {
+   "slug": "subtraktion-streg-over-fugle-2096",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-fugle-2096"
+  },
+  {
+   "slug": "subtraktion-streg-over-grontsager-d3eb",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-grontsager-d3eb"
+  },
+  {
+   "slug": "subtraktion-streg-over-havliv-6b6d",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-havliv-6b6d"
+  },
+  {
+   "slug": "subtraktion-streg-over-hospital-0859",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-hospital-0859"
+  },
+  {
+   "slug": "subtraktion-streg-over-i-supermarkedet-bf5f",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-i-supermarkedet-bf5f"
+  },
+  {
+   "slug": "subtraktion-streg-over-insekter-og-kryb-9537",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-insekter-og-kryb-9537"
+  },
+  {
+   "slug": "subtraktion-streg-over-jul-224c",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-jul-224c"
+  },
+  {
+   "slug": "subtraktion-streg-over-kaeledyr-0656",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-kaeledyr-0656"
+  },
+  {
+   "slug": "subtraktion-streg-over-klassevaerelse-a276",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-klassevaerelse-a276"
+  },
+  {
+   "slug": "subtraktion-streg-over-kokkenredskaber-27ce",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-kokkenredskaber-27ce"
+  },
+  {
+   "slug": "subtraktion-streg-over-koretojer-0522",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-koretojer-0522"
+  },
+  {
+   "slug": "subtraktion-streg-over-krybdyr-og-padder-3216",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-krybdyr-og-padder-3216"
+  },
+  {
+   "slug": "subtraktion-streg-over-legetoj-b31a",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-legetoj-b31a"
+  },
+  {
+   "slug": "subtraktion-streg-over-mobler-4e4b",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-mobler-4e4b"
+  },
+  {
+   "slug": "subtraktion-streg-over-morgenmad-558f",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-morgenmad-558f"
+  },
+  {
+   "slug": "subtraktion-streg-over-musik-bc38",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-musik-bc38"
+  },
+  {
+   "slug": "subtraktion-streg-over-paske-58af",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-paske-58af"
+  },
+  {
+   "slug": "subtraktion-streg-over-postkontor-d38b",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-postkontor-d38b"
+  },
+  {
+   "slug": "subtraktion-streg-over-rummet-ed2f",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-rummet-ed2f"
+  },
+  {
+   "slug": "subtraktion-streg-over-rundt-i-huset-c48f",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-rundt-i-huset-c48f"
+  },
+  {
+   "slug": "subtraktion-streg-over-skovdyr-be1b",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-skovdyr-be1b"
+  },
+  {
+   "slug": "subtraktion-streg-over-strand-c946",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-strand-c946"
+  },
+  {
+   "slug": "subtraktion-streg-over-thanksgiving-6f3c",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-thanksgiving-6f3c"
+  },
+  {
+   "slug": "subtraktion-streg-over-tilbehor-41ce",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-tilbehor-41ce"
+  },
+  {
+   "slug": "subtraktion-streg-over-ting-der-flyver-dd3d",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-ting-der-flyver-dd3d"
+  },
+  {
+   "slug": "subtraktion-streg-over-toj-24d5",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-toj-24d5"
+  },
+  {
+   "slug": "subtraktion-streg-over-traeer-4f8f",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-traeer-4f8f"
+  },
+  {
+   "slug": "subtraktion-streg-over-vaerktoj-0d3a",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-vaerktoj-0d3a"
+  },
+  {
+   "slug": "subtraktion-streg-over-zoodyr-c343",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-zoodyr-c343"
+  },
+  {
+   "slug": "subtraktion-blandet-bageri-18ed",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-bageri-18ed"
+  },
+  {
+   "slug": "subtraktion-blandet-blomster-3184",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-blomster-3184"
+  },
+  {
+   "slug": "subtraktion-blandet-bondegardsdyr-82e0",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-bondegardsdyr-82e0"
+  },
+  {
+   "slug": "subtraktion-blandet-camping-3554",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-camping-3554"
+  },
+  {
+   "slug": "subtraktion-blandet-desserter-og-slik-7412",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-desserter-og-slik-7412"
+  },
+  {
+   "slug": "subtraktion-blandet-dinosaurer-86f0",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-dinosaurer-86f0"
+  },
+  {
+   "slug": "subtraktion-blandet-dyr-0a26",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-dyr-0a26"
+  },
+  {
+   "slug": "subtraktion-blandet-erhverv-c845",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-erhverv-c845"
+  },
+  {
+   "slug": "subtraktion-blandet-former-719a",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-former-719a"
+  },
+  {
+   "slug": "subtraktion-blandet-frugter-2d18",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-frugter-2d18"
+  },
+  {
+   "slug": "subtraktion-blandet-fugle-2-8208",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-fugle-2-8208"
+  },
+  {
+   "slug": "subtraktion-blandet-fugle-47b1",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-fugle-47b1"
+  },
+  {
+   "slug": "subtraktion-blandet-grontsager-db04",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-grontsager-db04"
+  },
+  {
+   "slug": "subtraktion-blandet-havliv-e508",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-havliv-e508"
+  },
+  {
+   "slug": "subtraktion-blandet-hospital-50f2",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-hospital-50f2"
+  },
+  {
+   "slug": "subtraktion-blandet-i-supermarkedet-7834",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-i-supermarkedet-7834"
+  },
+  {
+   "slug": "subtraktion-blandet-insekter-og-kryb-cab3",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-insekter-og-kryb-cab3"
+  },
+  {
+   "slug": "subtraktion-blandet-jul-47a5",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-jul-47a5"
+  },
+  {
+   "slug": "subtraktion-blandet-kaeledyr-cb58",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-kaeledyr-cb58"
+  },
+  {
+   "slug": "subtraktion-blandet-klassevaerelse-bc1e",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-klassevaerelse-bc1e"
+  },
+  {
+   "slug": "subtraktion-blandet-kokkenredskaber-c505",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-kokkenredskaber-c505"
+  },
+  {
+   "slug": "subtraktion-blandet-koretojer-68fd",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-koretojer-68fd"
+  },
+  {
+   "slug": "subtraktion-blandet-krybdyr-og-padder-d90b",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-krybdyr-og-padder-d90b"
+  },
+  {
+   "slug": "subtraktion-blandet-legetoj-707f",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-legetoj-707f"
+  },
+  {
+   "slug": "subtraktion-blandet-mobler-a10d",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-mobler-a10d"
+  },
+  {
+   "slug": "subtraktion-blandet-morgenmad-2d8f",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-morgenmad-2d8f"
+  },
+  {
+   "slug": "subtraktion-blandet-musik-da73",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-musik-da73"
+  },
+  {
+   "slug": "subtraktion-blandet-paske-a9ca",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-paske-a9ca"
+  },
+  {
+   "slug": "subtraktion-blandet-postkontor-5534",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-postkontor-5534"
+  },
+  {
+   "slug": "subtraktion-blandet-rummet-15c7",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-rummet-15c7"
+  },
+  {
+   "slug": "subtraktion-blandet-rundt-i-huset-9d11",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-rundt-i-huset-9d11"
+  },
+  {
+   "slug": "subtraktion-blandet-skovdyr-0832",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-skovdyr-0832"
+  },
+  {
+   "slug": "subtraktion-blandet-strand-d05b",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-strand-d05b"
+  },
+  {
+   "slug": "subtraktion-blandet-thanksgiving-fb5a",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-thanksgiving-fb5a"
+  },
+  {
+   "slug": "subtraktion-blandet-tilbehor-c73f",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-tilbehor-c73f"
+  },
+  {
+   "slug": "subtraktion-blandet-ting-der-flyver-94ce",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-ting-der-flyver-94ce"
+  },
+  {
+   "slug": "subtraktion-blandet-toj-0297",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-toj-0297"
+  },
+  {
+   "slug": "subtraktion-blandet-traeer-4e7e",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-traeer-4e7e"
+  },
+  {
+   "slug": "subtraktion-blandet-vaerktoj-f2f9",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-vaerktoj-f2f9"
+  },
+  {
+   "slug": "subtraktion-blandet-zoodyr-3302",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "subtraktion-blandet-zoodyr-3302"
+  }
+ ]
+}

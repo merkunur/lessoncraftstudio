@@ -1,0 +1,668 @@
+{
+ "part": 126,
+ "locale": "pt",
+ "classes": [
+  "addition::image-image",
+  "addition::image-number"
+ ],
+ "splitOf": null,
+ "count": 82,
+ "pages": [
+  {
+   "slug": "adicao-imagem-imagem-acampamento-2cb8",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "camping",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-acampamento-2cb8"
+  },
+  {
+   "slug": "adicao-imagem-imagem-acessorios-43bd",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "accessories",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-acessorios-43bd"
+  },
+  {
+   "slug": "adicao-imagem-imagem-animais",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "animals",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-animais"
+  },
+  {
+   "slug": "adicao-imagem-imagem-animais-da-fazenda-0f10",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "farm_animals",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-animais-da-fazenda-0f10"
+  },
+  {
+   "slug": "adicao-imagem-imagem-animais-de-estimacao-baf8",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "pets",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-animais-de-estimacao-baf8"
+  },
+  {
+   "slug": "adicao-imagem-imagem-animais-do-zoologico-24d8",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "zoo_animals",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-animais-do-zoologico-24d8"
+  },
+  {
+   "slug": "adicao-imagem-imagem-arvores-24a9",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "tree",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-arvores-24a9"
+  },
+  {
+   "slug": "adicao-imagem-imagem-brinquedos-6677",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "toys",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-brinquedos-6677"
+  },
+  {
+   "slug": "adicao-imagem-imagem-cafe-da-manha-7a1d",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "breakfast",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-cafe-da-manha-7a1d"
+  },
+  {
+   "slug": "adicao-imagem-imagem-coisas-que-voam-6e05",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "things_that_fly",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-coisas-que-voam-6e05"
+  },
+  {
+   "slug": "adicao-imagem-imagem-correios-11a9",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "post_office",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-correios-11a9"
+  },
+  {
+   "slug": "adicao-imagem-imagem-criaturas-da-floresta-0cc0",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "forest_creatures",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-criaturas-da-floresta-0cc0"
+  },
+  {
+   "slug": "adicao-imagem-imagem-dia-de-acao-de-gracas-1207",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "thanksgivinng",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-dia-de-acao-de-gracas-1207"
+  },
+  {
+   "slug": "adicao-imagem-imagem-dinossauros-4ae9",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "dinosaurs",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-dinossauros-4ae9"
+  },
+  {
+   "slug": "adicao-imagem-imagem-diversos-fa3f",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "miscellaneous",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-diversos-fa3f"
+  },
+  {
+   "slug": "adicao-imagem-imagem-espaco-6049",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "space",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-espaco-6049"
+  },
+  {
+   "slug": "adicao-imagem-imagem-ferramentas-1dff",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "tools",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-ferramentas-1dff"
+  },
+  {
+   "slug": "adicao-imagem-imagem-flores-a7d3",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "flowers",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-flores-a7d3"
+  },
+  {
+   "slug": "adicao-imagem-imagem-formas-d91e",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "shapes",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-formas-d91e"
+  },
+  {
+   "slug": "adicao-imagem-imagem-frutas-8fca",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "fruits",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-frutas-8fca"
+  },
+  {
+   "slug": "adicao-imagem-imagem-hospital-dc77",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "hospital",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-hospital-dc77"
+  },
+  {
+   "slug": "adicao-imagem-imagem-insetos-e-bichos-203b",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "insects_and_bugs",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-insetos-e-bichos-203b"
+  },
+  {
+   "slug": "adicao-imagem-imagem-moveis-5eb1",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "furniture",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-moveis-5eb1"
+  },
+  {
+   "slug": "adicao-imagem-imagem-musica-e2c1",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "music",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-musica-e2c1"
+  },
+  {
+   "slug": "adicao-imagem-imagem-natal-c5ae",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "christmas",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-natal-c5ae"
+  },
+  {
+   "slug": "adicao-imagem-imagem-no-supermercado-6074",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "at_the_supermarket",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-no-supermercado-6074"
+  },
+  {
+   "slug": "adicao-imagem-imagem-padaria-e24e",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-padaria-e24e"
+  },
+  {
+   "slug": "adicao-imagem-imagem-pascoa-049b",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "easter",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-pascoa-049b"
+  },
+  {
+   "slug": "adicao-imagem-imagem-passaros-2-ef30",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "birds_2",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-passaros-2-ef30"
+  },
+  {
+   "slug": "adicao-imagem-imagem-passaros-9f3b",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "birds",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-passaros-9f3b"
+  },
+  {
+   "slug": "adicao-imagem-imagem-pela-casa-0bd6",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "around_the_house",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-pela-casa-0bd6"
+  },
+  {
+   "slug": "adicao-imagem-imagem-praia-6196",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "beach",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-praia-6196"
+  },
+  {
+   "slug": "adicao-imagem-imagem-profissoes-460c",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "occupations",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-profissoes-460c"
+  },
+  {
+   "slug": "adicao-imagem-imagem-repteis-e-anfibios-2339",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "reptiles_and_amphibians",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-repteis-e-anfibios-2339"
+  },
+  {
+   "slug": "adicao-imagem-imagem-roupas-2ebf",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "clothing",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-roupas-2ebf"
+  },
+  {
+   "slug": "adicao-imagem-imagem-sala-de-aula-57f3",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "classroom",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-sala-de-aula-57f3"
+  },
+  {
+   "slug": "adicao-imagem-imagem-sobremesas-e-doces-1c3d",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "desserts_and_sweets",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-sobremesas-e-doces-1c3d"
+  },
+  {
+   "slug": "adicao-imagem-imagem-utensilios-de-cozinha-18e9",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "kitchen_tools",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-utensilios-de-cozinha-18e9"
+  },
+  {
+   "slug": "adicao-imagem-imagem-vegetais-475a",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "vegetables",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-vegetais-475a"
+  },
+  {
+   "slug": "adicao-imagem-imagem-veiculos-0efc",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "vehicles",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-veiculos-0efc"
+  },
+  {
+   "slug": "adicao-imagem-imagem-vida-marinha-e438",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "ocean_life",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-vida-marinha-e438"
+  },
+  {
+   "slug": "adicao-imagem-numero-acampamento-9a35",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "camping",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-acampamento-9a35"
+  },
+  {
+   "slug": "adicao-imagem-numero-acessorios-2d5a",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "accessories",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-acessorios-2d5a"
+  },
+  {
+   "slug": "adicao-imagem-numero-animais-a26e",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "animals",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-animais-a26e"
+  },
+  {
+   "slug": "adicao-imagem-numero-animais-da-fazenda-5102",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "farm_animals",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-animais-da-fazenda-5102"
+  },
+  {
+   "slug": "adicao-imagem-numero-animais-de-estimacao-b715",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "pets",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-animais-de-estimacao-b715"
+  },
+  {
+   "slug": "adicao-imagem-numero-animais-do-zoologico-b315",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "zoo_animals",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-animais-do-zoologico-b315"
+  },
+  {
+   "slug": "adicao-imagem-numero-arvores-dfea",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "tree",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-arvores-dfea"
+  },
+  {
+   "slug": "adicao-imagem-numero-brinquedos-97ec",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "toys",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-brinquedos-97ec"
+  },
+  {
+   "slug": "adicao-imagem-numero-cafe-da-manha-a3b6",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "breakfast",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-cafe-da-manha-a3b6"
+  },
+  {
+   "slug": "adicao-imagem-numero-coisas-que-voam-fd6f",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "things_that_fly",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-coisas-que-voam-fd6f"
+  },
+  {
+   "slug": "adicao-imagem-numero-correios-b469",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "post_office",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-correios-b469"
+  },
+  {
+   "slug": "adicao-imagem-numero-criaturas-da-floresta-3d98",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "forest_creatures",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-criaturas-da-floresta-3d98"
+  },
+  {
+   "slug": "adicao-imagem-numero-dia-de-acao-de-gracas-ce25",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "thanksgivinng",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-dia-de-acao-de-gracas-ce25"
+  },
+  {
+   "slug": "adicao-imagem-numero-dinossauros-b04e",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "dinosaurs",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-dinossauros-b04e"
+  },
+  {
+   "slug": "adicao-imagem-numero-diversos-1d99",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "miscellaneous",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-diversos-1d99"
+  },
+  {
+   "slug": "adicao-imagem-numero-espaco-fde1",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "space",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-espaco-fde1"
+  },
+  {
+   "slug": "adicao-imagem-numero-ferramentas-3c14",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "tools",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-ferramentas-3c14"
+  },
+  {
+   "slug": "adicao-imagem-numero-flores-8323",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "flowers",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-flores-8323"
+  },
+  {
+   "slug": "adicao-imagem-numero-formas-1bf0",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "shapes",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-formas-1bf0"
+  },
+  {
+   "slug": "adicao-imagem-numero-frutas-96e0",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "fruits",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-frutas-96e0"
+  },
+  {
+   "slug": "adicao-imagem-numero-hospital-21a3",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "hospital",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-hospital-21a3"
+  },
+  {
+   "slug": "adicao-imagem-numero-insetos-e-bichos-2377",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "insects_and_bugs",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-insetos-e-bichos-2377"
+  },
+  {
+   "slug": "adicao-imagem-numero-moveis-b432",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "furniture",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-moveis-b432"
+  },
+  {
+   "slug": "adicao-imagem-numero-musica-0d0d",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "music",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-musica-0d0d"
+  },
+  {
+   "slug": "adicao-imagem-numero-natal-384e",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "christmas",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-natal-384e"
+  },
+  {
+   "slug": "adicao-imagem-numero-no-supermercado-0442",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "at_the_supermarket",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-no-supermercado-0442"
+  },
+  {
+   "slug": "adicao-imagem-numero-padaria-63b5",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-padaria-63b5"
+  },
+  {
+   "slug": "adicao-imagem-numero-pascoa-5be3",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "easter",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-pascoa-5be3"
+  },
+  {
+   "slug": "adicao-imagem-numero-passaros-2-3ff7",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "birds_2",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-passaros-2-3ff7"
+  },
+  {
+   "slug": "adicao-imagem-numero-passaros-33a7",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "birds",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-passaros-33a7"
+  },
+  {
+   "slug": "adicao-imagem-numero-pela-casa-f9d2",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "around_the_house",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-pela-casa-f9d2"
+  },
+  {
+   "slug": "adicao-imagem-numero-praia-fe53",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "beach",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-praia-fe53"
+  },
+  {
+   "slug": "adicao-imagem-numero-profissoes-d9d9",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "occupations",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-profissoes-d9d9"
+  },
+  {
+   "slug": "adicao-imagem-numero-repteis-e-anfibios-fa49",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "reptiles_and_amphibians",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-repteis-e-anfibios-fa49"
+  },
+  {
+   "slug": "adicao-imagem-numero-roupas-5a98",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "clothing",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-roupas-5a98"
+  },
+  {
+   "slug": "adicao-imagem-numero-sala-de-aula-03c3",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "classroom",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-sala-de-aula-03c3"
+  },
+  {
+   "slug": "adicao-imagem-numero-sobremesas-e-doces-1cef",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "desserts_and_sweets",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-sobremesas-e-doces-1cef"
+  },
+  {
+   "slug": "adicao-imagem-numero-utensilios-de-cozinha-accc",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "kitchen_tools",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-utensilios-de-cozinha-accc"
+  },
+  {
+   "slug": "adicao-imagem-numero-vegetais-019a",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "vegetables",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-vegetais-019a"
+  },
+  {
+   "slug": "adicao-imagem-numero-veiculos-348d",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "vehicles",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-veiculos-348d"
+  },
+  {
+   "slug": "adicao-imagem-numero-vida-marinha-93ce",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "ocean_life",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-vida-marinha-93ce"
+  }
+ ]
+}

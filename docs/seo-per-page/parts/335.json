@@ -1,0 +1,764 @@
+{
+ "part": 335,
+ "locale": "fi",
+ "classes": [
+  "shadow-match::make-whole",
+  "treasure-hunt::cardinal-arrows"
+ ],
+ "splitOf": null,
+ "count": 94,
+ "pages": [
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-aamiainen-c662",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "breakfast",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-aamiainen-c662"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-ajoneuvot-79f3",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "vehicles",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-ajoneuvot-79f3"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-aktiviteetit-9faf",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "activities",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-aktiviteetit-9faf"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-ammatit-f194",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "occupations",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-ammatit-f194"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-asusteet-c561",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "accessories",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-asusteet-c561"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-avaruus-bcc5",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "space",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-avaruus-bcc5"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-dinosaurukset-d5f8",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "dinosaurs",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-dinosaurukset-d5f8"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-elaimet-2976",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "animals",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-elaimet-2976"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-elaintarhan-elaimet-6b87",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "zoo_animals",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-elaintarhan-elaimet-6b87"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-hedelmat-e1a2",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "fruits",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-hedelmat-e1a2"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-huonekalut-75e6",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "furniture",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-huonekalut-75e6"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-hyonteiset-ja-otokat-bdb5",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "insects_and_bugs",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-hyonteiset-ja-otokat-bdb5"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-jalkiruoat-ja-makeiset-d73c",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "desserts_and_sweets",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-jalkiruoat-ja-makeiset-d73c"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-joulu-becc",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "christmas",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-joulu-becc"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-keittiovalineet-b89a",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "kitchen_tools",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-keittiovalineet-b89a"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-kesa-b059",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "summer",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-kesa-b059"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-kevat-f63a",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "spring",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-kevat-f63a"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-kiitospaiva-3287",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "thanksgivinng",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-kiitospaiva-3287"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-kodin-ymparilla-24d7",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "around_the_house",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-kodin-ymparilla-24d7"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-kukat-aa14",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "flowers",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-kukat-aa14"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-leipomo-498d",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "bakery",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-leipomo-498d"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-leirielama-a011",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "camping",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-leirielama-a011"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-lelut-18a2",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "toys",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-lelut-18a2"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-lemmikit-c173",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "pets",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-lemmikit-c173"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-lentavat-asiat-0de8",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "things_that_fly",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-lentavat-asiat-0de8"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-linnut-2-c7f3",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "birds_2",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-linnut-2-c7f3"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-linnut-770c",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "birds",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-linnut-770c"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-luokkahuone-498a",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "classroom",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-luokkahuone-498a"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-maatilan-elaimet-9b57",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "farm_animals",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-maatilan-elaimet-9b57"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-matelijat-ja-sammakkoelaimet-6c7f",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "reptiles_and_amphibians",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-matelijat-ja-sammakkoelaimet-6c7f"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-merielama-dc0c",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "ocean_life",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-merielama-dc0c"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-metsan-elaimet-c219",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "forest_creatures",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-metsan-elaimet-c219"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-muodot-e629",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "shapes",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-muodot-e629"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-musiikki-bd6f",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "music",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-musiikki-bd6f"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-paasiainen-8990",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "easter",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-paasiainen-8990"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-postitoimisto-5c43",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "post_office",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-postitoimisto-5c43"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-puut-b809",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "tree",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-puut-b809"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-ranta-233d",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "beach",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-ranta-233d"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-ruokakaupassa-9066",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "at_the_supermarket",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-ruokakaupassa-9066"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-ruumiinosat-fc51",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "body_parts",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-ruumiinosat-fc51"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-saa-bd77",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "weather",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-saa-bd77"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-sairaala-d210",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "hospital",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-sairaala-d210"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-talvi-4f5d",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "winter",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-talvi-4f5d"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-tunteet-b495",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "emotions",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-tunteet-b495"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-tyokalut-a3cf",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "tools",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-tyokalut-a3cf"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-vaatteet-91d0",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "clothing",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-vaatteet-91d0"
+  },
+  {
+   "slug": "yhdista-varjot-tee-kokonaiseksi-vihannekset-d73a",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "vegetables",
+   "level": "esikoulu",
+   "deck": "yhdista-varjot-tee-kokonaiseksi-vihannekset-d73a"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-aamiainen-1581",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "breakfast",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-aamiainen-1581"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-ajoneuvot-9457",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "vehicles",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-ajoneuvot-9457"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-aktiviteetit-9ec1",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "activities",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-aktiviteetit-9ec1"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-ammatit-28f6",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "occupations",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-ammatit-28f6"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-asusteet-cbfd",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "accessories",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-asusteet-cbfd"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-avaruus-3502",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "space",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-avaruus-3502"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-dinosaurukset-3c99",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "dinosaurs",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-dinosaurukset-3c99"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-elaimet",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "animals",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-elaimet"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-elaintarhan-elaimet-6bf5",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "zoo_animals",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-elaintarhan-elaimet-6bf5"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-hedelmat-b7af",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "fruits",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-hedelmat-b7af"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-huonekalut-d934",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "furniture",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-huonekalut-d934"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-hyonteiset-ja-otokat-e0ed",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "insects_and_bugs",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-hyonteiset-ja-otokat-e0ed"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-jalkiruoat-ja-makeiset-1d20",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "desserts_and_sweets",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-jalkiruoat-ja-makeiset-1d20"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-joulu-a99a",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "christmas",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-joulu-a99a"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-keittiovalineet-1867",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "kitchen_tools",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-keittiovalineet-1867"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-kesa-6a0c",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "summer",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-kesa-6a0c"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-kevat-e976",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "spring",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-kevat-e976"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-kiitospaiva-3f42",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "thanksgivinng",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-kiitospaiva-3f42"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-kodin-ymparilla-04d1",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "around_the_house",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-kodin-ymparilla-04d1"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-kukat-f957",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "flowers",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-kukat-f957"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-leipomo-14a2",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "bakery",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-leipomo-14a2"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-leirielama-c175",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "camping",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-leirielama-c175"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-lelut-fa0b",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "toys",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-lelut-fa0b"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-lemmikit-c0c0",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "pets",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-lemmikit-c0c0"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-lentavat-asiat-eb6e",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "things_that_fly",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-lentavat-asiat-eb6e"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-linnut-2-a609",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "birds_2",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-linnut-2-a609"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-luokkahuone-d419",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "classroom",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-luokkahuone-d419"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-maatilan-elaimet-00ab",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "farm_animals",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-maatilan-elaimet-00ab"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-matelijat-ja-sammakkoelaimet-912e",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "reptiles_and_amphibians",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-matelijat-ja-sammakkoelaimet-912e"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-merielama-cec3",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "ocean_life",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-merielama-cec3"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-metsan-elaimet-2c81",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "forest_creatures",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-metsan-elaimet-2c81"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-muodot-b2d4",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "shapes",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-muodot-b2d4"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-musiikki-eee9",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "music",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-musiikki-eee9"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-paasiainen-dd45",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "easter",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-paasiainen-dd45"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-postitoimisto-7afe",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "post_office",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-postitoimisto-7afe"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-puut-0213",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "tree",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-puut-0213"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-ranta-7f13",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "beach",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-ranta-7f13"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-ruokakaupassa-b24e",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "at_the_supermarket",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-ruokakaupassa-b24e"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-ruumiinosat-ed61",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "body_parts",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-ruumiinosat-ed61"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-saa-9018",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "weather",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-saa-9018"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-sairaala-9cfe",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "hospital",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-sairaala-9cfe"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-talvi-fdfe",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "winter",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-talvi-fdfe"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-tunteet-5f6a",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "emotions",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-tunteet-5f6a"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-tyokalut-12b3",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "tools",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-tyokalut-12b3"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-vaatteet-6c6b",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "clothing",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-vaatteet-6c6b"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-varit-2b25",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "colors",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-varit-2b25"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-vihannekset-7828",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "vegetables",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-vihannekset-7828"
+  }
+ ]
+}

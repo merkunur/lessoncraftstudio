@@ -1,0 +1,620 @@
+{
+ "part": 71,
+ "locale": "de",
+ "classes": [
+  "addition::mixed",
+  "bingo::null"
+ ],
+ "splitOf": null,
+ "count": 76,
+ "pages": [
+  {
+   "slug": "addition-gemischt-accessoires-ebc3",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-accessoires-ebc3"
+  },
+  {
+   "slug": "addition-gemischt-backerei-b863",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-backerei-b863"
+  },
+  {
+   "slug": "addition-gemischt-bauernhoftiere-f32e",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-bauernhoftiere-f32e"
+  },
+  {
+   "slug": "addition-gemischt-baume-6a2b",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-baume-6a2b"
+  },
+  {
+   "slug": "addition-gemischt-berufe-8979",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-berufe-8979"
+  },
+  {
+   "slug": "addition-gemischt-blumen-23eb",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-blumen-23eb"
+  },
+  {
+   "slug": "addition-gemischt-camping-3388",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-camping-3388"
+  },
+  {
+   "slug": "addition-gemischt-desserts-und-sussigkeiten-00ea",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-desserts-und-sussigkeiten-00ea"
+  },
+  {
+   "slug": "addition-gemischt-dinge-die-fliegen-bfa5",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-dinge-die-fliegen-bfa5"
+  },
+  {
+   "slug": "addition-gemischt-dinosaurier-9618",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-dinosaurier-9618"
+  },
+  {
+   "slug": "addition-gemischt-erntedankfest-247c",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-erntedankfest-247c"
+  },
+  {
+   "slug": "addition-gemischt-fahrzeuge-ccf4",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-fahrzeuge-ccf4"
+  },
+  {
+   "slug": "addition-gemischt-formen-5989",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-formen-5989"
+  },
+  {
+   "slug": "addition-gemischt-fruchte-d8ba",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-fruchte-d8ba"
+  },
+  {
+   "slug": "addition-gemischt-fruhstuck-f460",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-fruhstuck-f460"
+  },
+  {
+   "slug": "addition-gemischt-gemuse-cd88",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-gemuse-cd88"
+  },
+  {
+   "slug": "addition-gemischt-haustiere-20d2",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-haustiere-20d2"
+  },
+  {
+   "slug": "addition-gemischt-im-supermarkt-1d73",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-im-supermarkt-1d73"
+  },
+  {
+   "slug": "addition-gemischt-insekten-und-kafer-cfd6",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-insekten-und-kafer-cfd6"
+  },
+  {
+   "slug": "addition-gemischt-klassenzimmer-fb97",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-klassenzimmer-fb97"
+  },
+  {
+   "slug": "addition-gemischt-kleidung-b5c8",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-kleidung-b5c8"
+  },
+  {
+   "slug": "addition-gemischt-krankenhaus-a587",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-krankenhaus-a587"
+  },
+  {
+   "slug": "addition-gemischt-kuchenwerkzeuge-fa5f",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-kuchenwerkzeuge-fa5f"
+  },
+  {
+   "slug": "addition-gemischt-meeresleben-1598",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-meeresleben-1598"
+  },
+  {
+   "slug": "addition-gemischt-mobel-5019",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-mobel-5019"
+  },
+  {
+   "slug": "addition-gemischt-musik-1d9c",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-musik-1d9c"
+  },
+  {
+   "slug": "addition-gemischt-ostern-58e7",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-ostern-58e7"
+  },
+  {
+   "slug": "addition-gemischt-postamt-8fd0",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-postamt-8fd0"
+  },
+  {
+   "slug": "addition-gemischt-rund-ums-haus-943e",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-rund-ums-haus-943e"
+  },
+  {
+   "slug": "addition-gemischt-spielzeug-e1af",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-spielzeug-e1af"
+  },
+  {
+   "slug": "addition-gemischt-strand-c3de",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-strand-c3de"
+  },
+  {
+   "slug": "addition-gemischt-tiere-452f",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-tiere-452f"
+  },
+  {
+   "slug": "addition-gemischt-vogel-af41",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-vogel-af41"
+  },
+  {
+   "slug": "addition-gemischt-waldtiere-85c9",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-waldtiere-85c9"
+  },
+  {
+   "slug": "addition-gemischt-weihnachten-d058",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-weihnachten-d058"
+  },
+  {
+   "slug": "addition-gemischt-weltraum-2094",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-weltraum-2094"
+  },
+  {
+   "slug": "addition-gemischt-werkzeuge-31c7",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-werkzeuge-31c7"
+  },
+  {
+   "slug": "addition-gemischt-zootiere-ee26",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "addition-gemischt-zootiere-ee26"
+  },
+  {
+   "slug": "bingo-accessoires-1952",
+   "type": "bingo",
+   "mode": null,
+   "theme": "accessories",
+   "level": "vorschule",
+   "deck": "bingo-accessoires-1952"
+  },
+  {
+   "slug": "bingo-aktivitaten-b576",
+   "type": "bingo",
+   "mode": null,
+   "theme": "activities",
+   "level": "vorschule",
+   "deck": "bingo-aktivitaten-b576"
+  },
+  {
+   "slug": "bingo-backerei-ad6a",
+   "type": "bingo",
+   "mode": null,
+   "theme": "bakery",
+   "level": "vorschule",
+   "deck": "bingo-backerei-ad6a"
+  },
+  {
+   "slug": "bingo-bauernhoftiere-8f91",
+   "type": "bingo",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "vorschule",
+   "deck": "bingo-bauernhoftiere-8f91"
+  },
+  {
+   "slug": "bingo-berufe-5417",
+   "type": "bingo",
+   "mode": null,
+   "theme": "occupations",
+   "level": "vorschule",
+   "deck": "bingo-berufe-5417"
+  },
+  {
+   "slug": "bingo-blumen-520b",
+   "type": "bingo",
+   "mode": null,
+   "theme": "flowers",
+   "level": "vorschule",
+   "deck": "bingo-blumen-520b"
+  },
+  {
+   "slug": "bingo-camping-b7d5",
+   "type": "bingo",
+   "mode": null,
+   "theme": "camping",
+   "level": "vorschule",
+   "deck": "bingo-camping-b7d5"
+  },
+  {
+   "slug": "bingo-desserts-und-sussigkeiten-44ab",
+   "type": "bingo",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "vorschule",
+   "deck": "bingo-desserts-und-sussigkeiten-44ab"
+  },
+  {
+   "slug": "bingo-dinge-die-fliegen-164f",
+   "type": "bingo",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "vorschule",
+   "deck": "bingo-dinge-die-fliegen-164f"
+  },
+  {
+   "slug": "bingo-fahrzeuge-c612",
+   "type": "bingo",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "vorschule",
+   "deck": "bingo-fahrzeuge-c612"
+  },
+  {
+   "slug": "bingo-farben-a288",
+   "type": "bingo",
+   "mode": null,
+   "theme": "colors",
+   "level": "vorschule",
+   "deck": "bingo-farben-a288"
+  },
+  {
+   "slug": "bingo-formen-a752",
+   "type": "bingo",
+   "mode": null,
+   "theme": "shapes",
+   "level": "vorschule",
+   "deck": "bingo-formen-a752"
+  },
+  {
+   "slug": "bingo-fruchte-ec24",
+   "type": "bingo",
+   "mode": null,
+   "theme": "fruits",
+   "level": "vorschule",
+   "deck": "bingo-fruchte-ec24"
+  },
+  {
+   "slug": "bingo-fruhling-7b37",
+   "type": "bingo",
+   "mode": null,
+   "theme": "spring",
+   "level": "vorschule",
+   "deck": "bingo-fruhling-7b37"
+  },
+  {
+   "slug": "bingo-fruhstuck-b454",
+   "type": "bingo",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "vorschule",
+   "deck": "bingo-fruhstuck-b454"
+  },
+  {
+   "slug": "bingo-gemuse-afa3",
+   "type": "bingo",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "vorschule",
+   "deck": "bingo-gemuse-afa3"
+  },
+  {
+   "slug": "bingo-haustiere-6b89",
+   "type": "bingo",
+   "mode": null,
+   "theme": "pets",
+   "level": "vorschule",
+   "deck": "bingo-haustiere-6b89"
+  },
+  {
+   "slug": "bingo-im-supermarkt-e6dc",
+   "type": "bingo",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "vorschule",
+   "deck": "bingo-im-supermarkt-e6dc"
+  },
+  {
+   "slug": "bingo-klassenzimmer-f2d0",
+   "type": "bingo",
+   "mode": null,
+   "theme": "classroom",
+   "level": "vorschule",
+   "deck": "bingo-klassenzimmer-f2d0"
+  },
+  {
+   "slug": "bingo-kleidung-1924",
+   "type": "bingo",
+   "mode": null,
+   "theme": "clothing",
+   "level": "vorschule",
+   "deck": "bingo-kleidung-1924"
+  },
+  {
+   "slug": "bingo-korperteile-eb35",
+   "type": "bingo",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "vorschule",
+   "deck": "bingo-korperteile-eb35"
+  },
+  {
+   "slug": "bingo-krankenhaus-ad30",
+   "type": "bingo",
+   "mode": null,
+   "theme": "hospital",
+   "level": "vorschule",
+   "deck": "bingo-krankenhaus-ad30"
+  },
+  {
+   "slug": "bingo-kuchenwerkzeuge-cec6",
+   "type": "bingo",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "vorschule",
+   "deck": "bingo-kuchenwerkzeuge-cec6"
+  },
+  {
+   "slug": "bingo-meeresleben-e4f5",
+   "type": "bingo",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "vorschule",
+   "deck": "bingo-meeresleben-e4f5"
+  },
+  {
+   "slug": "bingo-mobel-08f3",
+   "type": "bingo",
+   "mode": null,
+   "theme": "furniture",
+   "level": "vorschule",
+   "deck": "bingo-mobel-08f3"
+  },
+  {
+   "slug": "bingo-ostern-0147",
+   "type": "bingo",
+   "mode": null,
+   "theme": "easter",
+   "level": "vorschule",
+   "deck": "bingo-ostern-0147"
+  },
+  {
+   "slug": "bingo-rund-ums-haus-e331",
+   "type": "bingo",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "vorschule",
+   "deck": "bingo-rund-ums-haus-e331"
+  },
+  {
+   "slug": "bingo-sommer-71c2",
+   "type": "bingo",
+   "mode": null,
+   "theme": "summer",
+   "level": "vorschule",
+   "deck": "bingo-sommer-71c2"
+  },
+  {
+   "slug": "bingo-spielzeug-79e4",
+   "type": "bingo",
+   "mode": null,
+   "theme": "toys",
+   "level": "vorschule",
+   "deck": "bingo-spielzeug-79e4"
+  },
+  {
+   "slug": "bingo-strand-6329",
+   "type": "bingo",
+   "mode": null,
+   "theme": "beach",
+   "level": "vorschule",
+   "deck": "bingo-strand-6329"
+  },
+  {
+   "slug": "bingo-tiere-de6f",
+   "type": "bingo",
+   "mode": null,
+   "theme": "animals",
+   "level": "vorschule",
+   "deck": "bingo-tiere-de6f"
+  },
+  {
+   "slug": "bingo-vogel-2-11a9",
+   "type": "bingo",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "vorschule",
+   "deck": "bingo-vogel-2-11a9"
+  },
+  {
+   "slug": "bingo-waldtiere-67c8",
+   "type": "bingo",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "vorschule",
+   "deck": "bingo-waldtiere-67c8"
+  },
+  {
+   "slug": "bingo-weihnachten-46b0",
+   "type": "bingo",
+   "mode": null,
+   "theme": "christmas",
+   "level": "vorschule",
+   "deck": "bingo-weihnachten-46b0"
+  },
+  {
+   "slug": "bingo-weltraum-71db",
+   "type": "bingo",
+   "mode": null,
+   "theme": "space",
+   "level": "vorschule",
+   "deck": "bingo-weltraum-71db"
+  },
+  {
+   "slug": "bingo-wetter-4e33",
+   "type": "bingo",
+   "mode": null,
+   "theme": "weather",
+   "level": "vorschule",
+   "deck": "bingo-wetter-4e33"
+  },
+  {
+   "slug": "bingo-winter-0734",
+   "type": "bingo",
+   "mode": null,
+   "theme": "winter",
+   "level": "vorschule",
+   "deck": "bingo-winter-0734"
+  },
+  {
+   "slug": "bingo-zootiere-6e03",
+   "type": "bingo",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "vorschule",
+   "deck": "bingo-zootiere-6e03"
+  }
+ ]
+}

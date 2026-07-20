@@ -1,0 +1,596 @@
+{
+ "part": 320,
+ "locale": "no",
+ "classes": [
+  "alphabet-train::letter-hint",
+  "big-small::findBig"
+ ],
+ "splitOf": null,
+ "count": 73,
+ "pages": [
+  {
+   "slug": "alfabettoget-bokstavhint-4-juli-f495",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "4th_of_july",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-4-juli-f495"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-aktiviteter-4934",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "activities",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-aktiviteter-4934"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-bakeri-e285",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-bakeri-e285"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-blomster-b4f7",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-blomster-b4f7"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-camping-4e48",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "camping",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-camping-4e48"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-dinosaurer-593e",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-dinosaurer-593e"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-dyr-42ed",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-dyr-42ed"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-dyrehagedyr-4620",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-dyrehagedyr-4620"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-frokost-ab33",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-frokost-ab33"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-frukter-c166",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-frukter-c166"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-fugler-2-41a6",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-fugler-2-41a6"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-gardsdyr-1a17",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "farm_animals",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-gardsdyr-1a17"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-gronnsaker-3d7f",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "vegetables",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-gronnsaker-3d7f"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-havliv-8b50",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "ocean_life",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-havliv-8b50"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-i-supermarkedet-3b3d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-i-supermarkedet-3b3d"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-jul-1d88",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-jul-1d88"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-kjaeledyr-28f9",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "pets",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-kjaeledyr-28f9"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-kjokkenredskaper-9dda",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-kjokkenredskaper-9dda"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-kjoretoy-ad77",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-kjoretoy-ad77"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-klaer-7e55",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-klaer-7e55"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-klasserom-2721",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-klasserom-2721"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-kroppsdeler-c70a",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "body_parts",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-kroppsdeler-c70a"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-leker-16fa",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-leker-16fa"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-paske-9e14",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-paske-9e14"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-rundt-i-huset-8e8a",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "around_the_house",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-rundt-i-huset-8e8a"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-skogsdyr-86ca",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "forest_creatures",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-skogsdyr-86ca"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-sommer-8f43",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "summer",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-sommer-8f43"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-strand-a832",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-strand-a832"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-sykehus-52a8",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-sykehus-52a8"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-thanksgiving-f7a9",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "thanksgivinng",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-thanksgiving-f7a9"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-tilbehor-5661",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-tilbehor-5661"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-ting-som-flyr-05ef",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-ting-som-flyr-05ef"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-traer-a9f0",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-traer-a9f0"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-var-7a6b",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "spring",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-var-7a6b"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-verdensrommet-dae0",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-verdensrommet-dae0"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-vinter-0b25",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "winter",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-vinter-0b25"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-yrker-3f0a",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-yrker-3f0a"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-bakeri-f96e",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-bakeri-f96e"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-blomster-4129",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-blomster-4129"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-camping-8398",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "camping",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-camping-8398"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-desserter-og-godteri-b1aa",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "desserts_and_sweets",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-desserter-og-godteri-b1aa"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-dinosaurer-af75",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-dinosaurer-af75"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-dyr-b37e",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-dyr-b37e"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-dyrehagedyr-d679",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-dyrehagedyr-d679"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-former-cf0a",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "shapes",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-former-cf0a"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-frokost-85a9",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-frokost-85a9"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-frukter-5c87",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-frukter-5c87"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-fugler-2-79e7",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-fugler-2-79e7"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-gardsdyr-b747",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "farm_animals",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-gardsdyr-b747"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-gronnsaker-3a02",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "vegetables",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-gronnsaker-3a02"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-havliv-d08e",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "ocean_life",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-havliv-d08e"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-i-supermarkedet-9810",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-i-supermarkedet-9810"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-jul-3419",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-jul-3419"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-kjaeledyr-36fc",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "pets",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-kjaeledyr-36fc"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-kjokkenredskaper-dfaf",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-kjokkenredskaper-dfaf"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-kjoretoy-5dc3",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-kjoretoy-5dc3"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-klaer-c7fc",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-klaer-c7fc"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-klasserom-c247",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-klasserom-c247"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-kroppsdeler-d257",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "body_parts",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-kroppsdeler-d257"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-leker-c48e",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-leker-c48e"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-mobler-708f",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "furniture",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-mobler-708f"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-musikk-e5ad",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "music",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-musikk-e5ad"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-paske-4c6c",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-paske-4c6c"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-rundt-i-huset-5c60",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "around_the_house",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-rundt-i-huset-5c60"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-skogsdyr-fab8",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "forest_creatures",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-skogsdyr-fab8"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-strand-c6bc",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-strand-c6bc"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-sykehus-d5a8",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-sykehus-d5a8"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-tilbehor-4ff9",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-tilbehor-4ff9"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-ting-som-flyr-814c",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-ting-som-flyr-814c"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-traer-4bdf",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-traer-4bdf"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-verdensrommet-1fe3",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-verdensrommet-1fe3"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-verktoy-bad3",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "tools",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-verktoy-bad3"
+  },
+  {
+   "slug": "stor-liten-finn-den-store-yrker-fe32",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "stor-liten-finn-den-store-yrker-fe32"
+  }
+ ]
+}

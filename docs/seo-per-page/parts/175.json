@@ -1,0 +1,780 @@
+{
+ "part": 175,
+ "locale": "it",
+ "classes": [
+  "math-worksheet::three-symbols-add-sub",
+  "pattern-worksheet::null"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-abbigliamento-90ff",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "clothing",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-abbigliamento-90ff"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-accessori-fd0a",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "accessories",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-accessori-fd0a"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-al-supermercato-64d0",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "at_the_supermarket",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-al-supermercato-64d0"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-alberi-7c38",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "tree",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-alberi-7c38"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-animali-91b6",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "animals",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-animali-91b6"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-animali-della-fattoria-efba",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "farm_animals",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-animali-della-fattoria-efba"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-animali-dello-zoo-2c46",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "zoo_animals",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-animali-dello-zoo-2c46"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-animali-domestici-15ed",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "pets",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-animali-domestici-15ed"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-attivita-d783",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "activities",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-attivita-d783"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-attrezzi-5b0d",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "tools",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-attrezzi-5b0d"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-aula-352f",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "classroom",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-aula-352f"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-campeggio-86e7",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "camping",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-campeggio-86e7"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-colazione-d731",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "breakfast",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-colazione-d731"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-colori-2fe9",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "colors",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-colori-2fe9"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-cose-che-volano-0f22",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "things_that_fly",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-cose-che-volano-0f22"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-creature-della-foresta-a0d9",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "forest_creatures",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-creature-della-foresta-a0d9"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-dinosauri-0535",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "dinosaurs",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-dinosauri-0535"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-dolci-e-dolciumi-4cc9",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "desserts_and_sweets",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-dolci-e-dolciumi-4cc9"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-emozioni-c92b",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "emotions",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-emozioni-c92b"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-estate-b9e0",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "summer",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-estate-b9e0"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-fiori-1dd6",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "flowers",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-fiori-1dd6"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-forme-43ff",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "shapes",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-forme-43ff"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-frutta-7a63",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "fruits",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-frutta-7a63"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-giocattoli-24a2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "toys",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-giocattoli-24a2"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-giorno-del-ringraziamento-cd7d",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "thanksgivinng",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-giorno-del-ringraziamento-cd7d"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-in-giro-per-casa-dee5",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "around_the_house",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-in-giro-per-casa-dee5"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-insetti-e-scarafaggi-9cd9",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "insects_and_bugs",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-insetti-e-scarafaggi-9cd9"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-inverno-6ca4",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "winter",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-inverno-6ca4"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-meteo-1450",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "weather",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-meteo-1450"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-mobili-fbb4",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "furniture",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-mobili-fbb4"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-musica-adfd",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "music",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-musica-adfd"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-natale-79e6",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "christmas",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-natale-79e6"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-ospedale-0295",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "hospital",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-ospedale-0295"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-panetteria-aa3c",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "bakery",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-panetteria-aa3c"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-parti-del-corpo-af01",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "body_parts",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-parti-del-corpo-af01"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-pasqua-45d0",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "easter",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-pasqua-45d0"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-primavera-c2ca",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "spring",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-primavera-c2ca"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-professioni-78eb",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "occupations",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-professioni-78eb"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-rettili-e-anfibi-a676",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "reptiles_and_amphibians",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-rettili-e-anfibi-a676"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-spazio-dd0d",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "space",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-spazio-dd0d"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-spiaggia-f48a",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "beach",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-spiaggia-f48a"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-uccelli-2-0e0e",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "birds_2",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-uccelli-2-0e0e"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-uccelli-89a0",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "birds",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-uccelli-89a0"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-ufficio-postale-3f47",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "post_office",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-ufficio-postale-3f47"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-utensili-da-cucina-edbb",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "kitchen_tools",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-utensili-da-cucina-edbb"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-veicoli-ac94",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "vehicles",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-veicoli-ac94"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-verdure-c79a",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "vegetables",
+   "level": "classe-seconda",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-verdure-c79a"
+  },
+  {
+   "slug": "scheda-di-matematica-3-simboli-add-sott-vita-oceanica-ca14",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "ocean_life",
+   "level": "classe-prima",
+   "deck": "scheda-di-matematica-3-simboli-add-sott-vita-oceanica-ca14"
+  },
+  {
+   "slug": "scheda-di-modelli-abbigliamento-9b75",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "clothing",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-abbigliamento-9b75"
+  },
+  {
+   "slug": "scheda-di-modelli-accessori-02f6",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "accessories",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-accessori-02f6"
+  },
+  {
+   "slug": "scheda-di-modelli-al-supermercato-437d",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-al-supermercato-437d"
+  },
+  {
+   "slug": "scheda-di-modelli-alberi-b9c4",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "tree",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-alberi-b9c4"
+  },
+  {
+   "slug": "scheda-di-modelli-animali-924c",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "animals",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-animali-924c"
+  },
+  {
+   "slug": "scheda-di-modelli-animali-della-fattoria-62b2",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-animali-della-fattoria-62b2"
+  },
+  {
+   "slug": "scheda-di-modelli-animali-dello-zoo-c323",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-animali-dello-zoo-c323"
+  },
+  {
+   "slug": "scheda-di-modelli-animali-domestici-c6ac",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "pets",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-animali-domestici-c6ac"
+  },
+  {
+   "slug": "scheda-di-modelli-attivita-6194",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "activities",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-attivita-6194"
+  },
+  {
+   "slug": "scheda-di-modelli-attrezzi-e670",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "tools",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-attrezzi-e670"
+  },
+  {
+   "slug": "scheda-di-modelli-aula-730f",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "classroom",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-aula-730f"
+  },
+  {
+   "slug": "scheda-di-modelli-campeggio-f954",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "camping",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-campeggio-f954"
+  },
+  {
+   "slug": "scheda-di-modelli-colazione-36f3",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-colazione-36f3"
+  },
+  {
+   "slug": "scheda-di-modelli-colori-293d",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "colors",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-colori-293d"
+  },
+  {
+   "slug": "scheda-di-modelli-cose-che-volano-180a",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-cose-che-volano-180a"
+  },
+  {
+   "slug": "scheda-di-modelli-creature-della-foresta-6353",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-creature-della-foresta-6353"
+  },
+  {
+   "slug": "scheda-di-modelli-dinosauri-b5ee",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-dinosauri-b5ee"
+  },
+  {
+   "slug": "scheda-di-modelli-dolci-e-dolciumi-b6ce",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-dolci-e-dolciumi-b6ce"
+  },
+  {
+   "slug": "scheda-di-modelli-emozioni-0086",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "emotions",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-emozioni-0086"
+  },
+  {
+   "slug": "scheda-di-modelli-estate-278a",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "summer",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-estate-278a"
+  },
+  {
+   "slug": "scheda-di-modelli-fiori-8458",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "flowers",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-fiori-8458"
+  },
+  {
+   "slug": "scheda-di-modelli-forme-4112",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "shapes",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-forme-4112"
+  },
+  {
+   "slug": "scheda-di-modelli-frutta-4143",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "fruits",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-frutta-4143"
+  },
+  {
+   "slug": "scheda-di-modelli-giocattoli-d9a4",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "toys",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-giocattoli-d9a4"
+  },
+  {
+   "slug": "scheda-di-modelli-giorno-del-ringraziamento-dd46",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-giorno-del-ringraziamento-dd46"
+  },
+  {
+   "slug": "scheda-di-modelli-in-giro-per-casa-2e67",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-in-giro-per-casa-2e67"
+  },
+  {
+   "slug": "scheda-di-modelli-insetti-e-scarafaggi-17d1",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-insetti-e-scarafaggi-17d1"
+  },
+  {
+   "slug": "scheda-di-modelli-inverno-c478",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "winter",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-inverno-c478"
+  },
+  {
+   "slug": "scheda-di-modelli-meteo-e46a",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "weather",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-meteo-e46a"
+  },
+  {
+   "slug": "scheda-di-modelli-mobili-37c2",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "furniture",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-mobili-37c2"
+  },
+  {
+   "slug": "scheda-di-modelli-musica-aeae",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "music",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-musica-aeae"
+  },
+  {
+   "slug": "scheda-di-modelli-natale-fb9f",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "christmas",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-natale-fb9f"
+  },
+  {
+   "slug": "scheda-di-modelli-ospedale-5836",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "hospital",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-ospedale-5836"
+  },
+  {
+   "slug": "scheda-di-modelli-panetteria-8fde",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "bakery",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-panetteria-8fde"
+  },
+  {
+   "slug": "scheda-di-modelli-parti-del-corpo-2c5c",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-parti-del-corpo-2c5c"
+  },
+  {
+   "slug": "scheda-di-modelli-pasqua-6e11",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "easter",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-pasqua-6e11"
+  },
+  {
+   "slug": "scheda-di-modelli-primavera-5e62",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "spring",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-primavera-5e62"
+  },
+  {
+   "slug": "scheda-di-modelli-professioni-7e81",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "occupations",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-professioni-7e81"
+  },
+  {
+   "slug": "scheda-di-modelli-rettili-e-anfibi-7408",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-rettili-e-anfibi-7408"
+  },
+  {
+   "slug": "scheda-di-modelli-spazio-7a6a",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "space",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-spazio-7a6a"
+  },
+  {
+   "slug": "scheda-di-modelli-spiaggia-4dd7",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "beach",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-spiaggia-4dd7"
+  },
+  {
+   "slug": "scheda-di-modelli-uccelli-2-a962",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-uccelli-2-a962"
+  },
+  {
+   "slug": "scheda-di-modelli-uccelli-b93d",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "birds",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-uccelli-b93d"
+  },
+  {
+   "slug": "scheda-di-modelli-ufficio-postale-b58f",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "post_office",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-ufficio-postale-b58f"
+  },
+  {
+   "slug": "scheda-di-modelli-utensili-da-cucina-b18f",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-utensili-da-cucina-b18f"
+  },
+  {
+   "slug": "scheda-di-modelli-veicoli-b66b",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-veicoli-b66b"
+  },
+  {
+   "slug": "scheda-di-modelli-verdure-3203",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-verdure-3203"
+  },
+  {
+   "slug": "scheda-di-modelli-vita-oceanica-8e4c",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-vita-oceanica-8e4c"
+  }
+ ]
+}

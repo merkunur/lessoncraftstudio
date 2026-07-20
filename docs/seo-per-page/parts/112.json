@@ -1,0 +1,796 @@
+{
+ "part": 112,
+ "locale": "pt",
+ "classes": [
+  "pattern-train::abc",
+  "pattern-train::null"
+ ],
+ "splitOf": null,
+ "count": 98,
+ "pages": [
+  {
+   "slug": "trem-de-padroes-abc-acampamento-181a",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "camping",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-acampamento-181a"
+  },
+  {
+   "slug": "trem-de-padroes-abc-acessorios-5cea",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "accessories",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-acessorios-5cea"
+  },
+  {
+   "slug": "trem-de-padroes-abc-animais-da-fazenda-9c19",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "farm_animals",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-animais-da-fazenda-9c19"
+  },
+  {
+   "slug": "trem-de-padroes-abc-animais-da2c",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "animals",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-animais-da2c"
+  },
+  {
+   "slug": "trem-de-padroes-abc-animais-de-estimacao-a1ac",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "pets",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-animais-de-estimacao-a1ac"
+  },
+  {
+   "slug": "trem-de-padroes-abc-animais-do-zoologico-7727",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "zoo_animals",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-animais-do-zoologico-7727"
+  },
+  {
+   "slug": "trem-de-padroes-abc-arvores-e450",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "tree",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-arvores-e450"
+  },
+  {
+   "slug": "trem-de-padroes-abc-atividades-97b0",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "activities",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-atividades-97b0"
+  },
+  {
+   "slug": "trem-de-padroes-abc-brinquedos-6dc9",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "toys",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-brinquedos-6dc9"
+  },
+  {
+   "slug": "trem-de-padroes-abc-cafe-da-manha-39a5",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "breakfast",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-cafe-da-manha-39a5"
+  },
+  {
+   "slug": "trem-de-padroes-abc-clima-4187",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "weather",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-clima-4187"
+  },
+  {
+   "slug": "trem-de-padroes-abc-coisas-que-voam-ba6f",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "things_that_fly",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-coisas-que-voam-ba6f"
+  },
+  {
+   "slug": "trem-de-padroes-abc-cores-c077",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "colors",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-cores-c077"
+  },
+  {
+   "slug": "trem-de-padroes-abc-correios-3e84",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "post_office",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-correios-3e84"
+  },
+  {
+   "slug": "trem-de-padroes-abc-criaturas-da-floresta-2133",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "forest_creatures",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-criaturas-da-floresta-2133"
+  },
+  {
+   "slug": "trem-de-padroes-abc-dia-de-acao-de-gracas-dc71",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "thanksgivinng",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-dia-de-acao-de-gracas-dc71"
+  },
+  {
+   "slug": "trem-de-padroes-abc-dinossauros-532c",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "dinosaurs",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-dinossauros-532c"
+  },
+  {
+   "slug": "trem-de-padroes-abc-diversos-8078",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "miscellaneous",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-diversos-8078"
+  },
+  {
+   "slug": "trem-de-padroes-abc-emocoes-c0ef",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "emotions",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-emocoes-c0ef"
+  },
+  {
+   "slug": "trem-de-padroes-abc-espaco-5baa",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "space",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-espaco-5baa"
+  },
+  {
+   "slug": "trem-de-padroes-abc-ferramentas-0121",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "tools",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-ferramentas-0121"
+  },
+  {
+   "slug": "trem-de-padroes-abc-flores-286b",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "flowers",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-flores-286b"
+  },
+  {
+   "slug": "trem-de-padroes-abc-formas-9475",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "shapes",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-formas-9475"
+  },
+  {
+   "slug": "trem-de-padroes-abc-frutas-674b",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "fruits",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-frutas-674b"
+  },
+  {
+   "slug": "trem-de-padroes-abc-hospital-ebd5",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "hospital",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-hospital-ebd5"
+  },
+  {
+   "slug": "trem-de-padroes-abc-insetos-e-bichos-7cf9",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "insects_and_bugs",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-insetos-e-bichos-7cf9"
+  },
+  {
+   "slug": "trem-de-padroes-abc-inverno-eae3",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "winter",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-inverno-eae3"
+  },
+  {
+   "slug": "trem-de-padroes-abc-moveis-6208",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "furniture",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-moveis-6208"
+  },
+  {
+   "slug": "trem-de-padroes-abc-musica-1c75",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "music",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-musica-1c75"
+  },
+  {
+   "slug": "trem-de-padroes-abc-natal-1dda",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "christmas",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-natal-1dda"
+  },
+  {
+   "slug": "trem-de-padroes-abc-no-supermercado-4bff",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "at_the_supermarket",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-no-supermercado-4bff"
+  },
+  {
+   "slug": "trem-de-padroes-abc-padaria-3b22",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "bakery",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-padaria-3b22"
+  },
+  {
+   "slug": "trem-de-padroes-abc-partes-do-corpo-6b66",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "body_parts",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-partes-do-corpo-6b66"
+  },
+  {
+   "slug": "trem-de-padroes-abc-pascoa-4138",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "easter",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-pascoa-4138"
+  },
+  {
+   "slug": "trem-de-padroes-abc-passaros-2-8d19",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "birds_2",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-passaros-2-8d19"
+  },
+  {
+   "slug": "trem-de-padroes-abc-passaros-e03e",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "birds",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-passaros-e03e"
+  },
+  {
+   "slug": "trem-de-padroes-abc-pela-casa-0a11",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "around_the_house",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-pela-casa-0a11"
+  },
+  {
+   "slug": "trem-de-padroes-abc-praia-072d",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "beach",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-praia-072d"
+  },
+  {
+   "slug": "trem-de-padroes-abc-primavera-9944",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "spring",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-primavera-9944"
+  },
+  {
+   "slug": "trem-de-padroes-abc-profissoes-6285",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "occupations",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-profissoes-6285"
+  },
+  {
+   "slug": "trem-de-padroes-abc-repteis-e-anfibios-f6eb",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "reptiles_and_amphibians",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-repteis-e-anfibios-f6eb"
+  },
+  {
+   "slug": "trem-de-padroes-abc-roupas-e3d3",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "clothing",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-roupas-e3d3"
+  },
+  {
+   "slug": "trem-de-padroes-abc-sala-de-aula-11cb",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "classroom",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-sala-de-aula-11cb"
+  },
+  {
+   "slug": "trem-de-padroes-abc-sobremesas-e-doces-f370",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "desserts_and_sweets",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-sobremesas-e-doces-f370"
+  },
+  {
+   "slug": "trem-de-padroes-abc-utensilios-de-cozinha-0ab8",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "kitchen_tools",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-utensilios-de-cozinha-0ab8"
+  },
+  {
+   "slug": "trem-de-padroes-abc-vegetais-e76d",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "vegetables",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-vegetais-e76d"
+  },
+  {
+   "slug": "trem-de-padroes-abc-veiculos-e48f",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "vehicles",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-veiculos-e48f"
+  },
+  {
+   "slug": "trem-de-padroes-abc-verao-cdfe",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "summer",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-verao-cdfe"
+  },
+  {
+   "slug": "trem-de-padroes-abc-vida-marinha-24a8",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "ocean_life",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abc-vida-marinha-24a8"
+  },
+  {
+   "slug": "trem-de-padroes-acampamento-2e90",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "camping",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-acampamento-2e90"
+  },
+  {
+   "slug": "trem-de-padroes-acessorios-015b",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "accessories",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-acessorios-015b"
+  },
+  {
+   "slug": "trem-de-padroes-animais-020c",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "animals",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-animais-020c"
+  },
+  {
+   "slug": "trem-de-padroes-animais-da-fazenda-4374",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-animais-da-fazenda-4374"
+  },
+  {
+   "slug": "trem-de-padroes-animais-de-estimacao-d613",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "pets",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-animais-de-estimacao-d613"
+  },
+  {
+   "slug": "trem-de-padroes-animais-do-zoologico-74f4",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-animais-do-zoologico-74f4"
+  },
+  {
+   "slug": "trem-de-padroes-arvores-2723",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "tree",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-arvores-2723"
+  },
+  {
+   "slug": "trem-de-padroes-atividades-c637",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "activities",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-atividades-c637"
+  },
+  {
+   "slug": "trem-de-padroes-brinquedos-8822",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "toys",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-brinquedos-8822"
+  },
+  {
+   "slug": "trem-de-padroes-cafe-da-manha-f203",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-cafe-da-manha-f203"
+  },
+  {
+   "slug": "trem-de-padroes-clima-1adb",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "weather",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-clima-1adb"
+  },
+  {
+   "slug": "trem-de-padroes-coisas-que-voam-8f68",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-coisas-que-voam-8f68"
+  },
+  {
+   "slug": "trem-de-padroes-cores-995a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "colors",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-cores-995a"
+  },
+  {
+   "slug": "trem-de-padroes-correios-bbb4",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "post_office",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-correios-bbb4"
+  },
+  {
+   "slug": "trem-de-padroes-criaturas-da-floresta-5300",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-criaturas-da-floresta-5300"
+  },
+  {
+   "slug": "trem-de-padroes-dia-de-acao-de-gracas-bf20",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-dia-de-acao-de-gracas-bf20"
+  },
+  {
+   "slug": "trem-de-padroes-dinossauros-be2d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-dinossauros-be2d"
+  },
+  {
+   "slug": "trem-de-padroes-diversos-5479",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-diversos-5479"
+  },
+  {
+   "slug": "trem-de-padroes-emocoes-868d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "emotions",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-emocoes-868d"
+  },
+  {
+   "slug": "trem-de-padroes-espaco-815f",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "space",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-espaco-815f"
+  },
+  {
+   "slug": "trem-de-padroes-ferramentas-141a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "tools",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-ferramentas-141a"
+  },
+  {
+   "slug": "trem-de-padroes-flores-0e81",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "flowers",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-flores-0e81"
+  },
+  {
+   "slug": "trem-de-padroes-formas-a0c9",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "shapes",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-formas-a0c9"
+  },
+  {
+   "slug": "trem-de-padroes-frutas-2976",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "fruits",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-frutas-2976"
+  },
+  {
+   "slug": "trem-de-padroes-hospital-8610",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "hospital",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-hospital-8610"
+  },
+  {
+   "slug": "trem-de-padroes-insetos-e-bichos-f076",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-insetos-e-bichos-f076"
+  },
+  {
+   "slug": "trem-de-padroes-inverno-133d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "winter",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-inverno-133d"
+  },
+  {
+   "slug": "trem-de-padroes-moveis-d7a6",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "furniture",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-moveis-d7a6"
+  },
+  {
+   "slug": "trem-de-padroes-musica-4278",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "music",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-musica-4278"
+  },
+  {
+   "slug": "trem-de-padroes-natal-0535",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "christmas",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-natal-0535"
+  },
+  {
+   "slug": "trem-de-padroes-no-supermercado-b294",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-no-supermercado-b294"
+  },
+  {
+   "slug": "trem-de-padroes-padaria-33fe",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "bakery",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-padaria-33fe"
+  },
+  {
+   "slug": "trem-de-padroes-partes-do-corpo-9af2",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-partes-do-corpo-9af2"
+  },
+  {
+   "slug": "trem-de-padroes-pascoa-5976",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "easter",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-pascoa-5976"
+  },
+  {
+   "slug": "trem-de-padroes-passaros-2-0727",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-passaros-2-0727"
+  },
+  {
+   "slug": "trem-de-padroes-passaros-4730",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "birds",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-passaros-4730"
+  },
+  {
+   "slug": "trem-de-padroes-pela-casa-4e9f",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-pela-casa-4e9f"
+  },
+  {
+   "slug": "trem-de-padroes-praia-925f",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "beach",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-praia-925f"
+  },
+  {
+   "slug": "trem-de-padroes-primavera-6b21",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "spring",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-primavera-6b21"
+  },
+  {
+   "slug": "trem-de-padroes-profissoes-1856",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "occupations",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-profissoes-1856"
+  },
+  {
+   "slug": "trem-de-padroes-repteis-e-anfibios-23ce",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-repteis-e-anfibios-23ce"
+  },
+  {
+   "slug": "trem-de-padroes-roupas-5182",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "clothing",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-roupas-5182"
+  },
+  {
+   "slug": "trem-de-padroes-sala-de-aula-4a4d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "classroom",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-sala-de-aula-4a4d"
+  },
+  {
+   "slug": "trem-de-padroes-sobremesas-e-doces-534c",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-sobremesas-e-doces-534c"
+  },
+  {
+   "slug": "trem-de-padroes-utensilios-de-cozinha-41ed",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-utensilios-de-cozinha-41ed"
+  },
+  {
+   "slug": "trem-de-padroes-vegetais-f652",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-vegetais-f652"
+  },
+  {
+   "slug": "trem-de-padroes-veiculos-0813",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-veiculos-0813"
+  },
+  {
+   "slug": "trem-de-padroes-verao-e442",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "summer",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-verao-e442"
+  },
+  {
+   "slug": "trem-de-padroes-vida-marinha-5a90",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-vida-marinha-5a90"
+  }
+ ]
+}

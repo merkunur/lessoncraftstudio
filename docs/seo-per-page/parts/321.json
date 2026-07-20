@@ -1,0 +1,481 @@
+{
+ "part": 321,
+ "locale": "no",
+ "classes": [
+  "alphabet-train::null",
+  "odd-one-out::cross-theme",
+  "arrays-multiplication::arrays-repeated-addition",
+  "arrays-multiplication::multiply-and-divide",
+  "fractions::name-and-compare",
+  "fractions::partition-and-share",
+  "geometry::count-and-sort-shapes",
+  "geometry::quadrilaterals-and-area",
+  "geometry::shape-attributes",
+  "graphing-data::graphs-and-line-plots",
+  "graphing-data::read-picture-bar-graphs",
+  "graphing-data::scaled-graphs",
+  "measurement::compare-weight",
+  "measurement::length-units",
+  "measurement::measure-and-compare-length",
+  "measurement::volume-and-temperature",
+  "number-charts::hundreds-chart-skip-count",
+  "number-charts::number-patterns",
+  "number-charts::numbers-to-20",
+  "number-charts::skip-count-and-100-more-less",
+  "telling-time::hour-half-hour",
+  "telling-time::to-five-minutes",
+  "telling-time::to-the-minute"
+ ],
+ "splitOf": null,
+ "count": 56,
+ "pages": [
+  {
+   "slug": "alfabettoget-aktiviteter-5408",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "activities",
+   "level": "1-trinn",
+   "deck": "alfabettoget-aktiviteter-5408"
+  },
+  {
+   "slug": "alfabettoget-bakeri-8ddd",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bakeri-8ddd"
+  },
+  {
+   "slug": "alfabettoget-camping-f6dc",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "camping",
+   "level": "1-trinn",
+   "deck": "alfabettoget-camping-f6dc"
+  },
+  {
+   "slug": "alfabettoget-dyr-cd6c",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "alfabettoget-dyr-cd6c"
+  },
+  {
+   "slug": "alfabettoget-dyrehagedyr-feda",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "alfabettoget-dyrehagedyr-feda"
+  },
+  {
+   "slug": "alfabettoget-fugler-2-2bd0",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "alfabettoget-fugler-2-2bd0"
+  },
+  {
+   "slug": "alfabettoget-gardsdyr-238f",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "1-trinn",
+   "deck": "alfabettoget-gardsdyr-238f"
+  },
+  {
+   "slug": "alfabettoget-gronnsaker-469f",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "1-trinn",
+   "deck": "alfabettoget-gronnsaker-469f"
+  },
+  {
+   "slug": "alfabettoget-havliv-f3ec",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "1-trinn",
+   "deck": "alfabettoget-havliv-f3ec"
+  },
+  {
+   "slug": "alfabettoget-i-supermarkedet-c484",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "alfabettoget-i-supermarkedet-c484"
+  },
+  {
+   "slug": "alfabettoget-jul-5e46",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "alfabettoget-jul-5e46"
+  },
+  {
+   "slug": "alfabettoget-kjaeledyr-b217",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "pets",
+   "level": "1-trinn",
+   "deck": "alfabettoget-kjaeledyr-b217"
+  },
+  {
+   "slug": "alfabettoget-kjokkenredskaper-1452",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "alfabettoget-kjokkenredskaper-1452"
+  },
+  {
+   "slug": "alfabettoget-kjoretoy-caea",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "alfabettoget-kjoretoy-caea"
+  },
+  {
+   "slug": "alfabettoget-klaer-add8",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "alfabettoget-klaer-add8"
+  },
+  {
+   "slug": "alfabettoget-klasserom-d912",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "alfabettoget-klasserom-d912"
+  },
+  {
+   "slug": "alfabettoget-kroppsdeler-2221",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "1-trinn",
+   "deck": "alfabettoget-kroppsdeler-2221"
+  },
+  {
+   "slug": "alfabettoget-leker-eb73",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "alfabettoget-leker-eb73"
+  },
+  {
+   "slug": "alfabettoget-paske-4f66",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "alfabettoget-paske-4f66"
+  },
+  {
+   "slug": "alfabettoget-rundt-i-huset-d729",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "1-trinn",
+   "deck": "alfabettoget-rundt-i-huset-d729"
+  },
+  {
+   "slug": "alfabettoget-skogsdyr-950f",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "1-trinn",
+   "deck": "alfabettoget-skogsdyr-950f"
+  },
+  {
+   "slug": "alfabettoget-sommer-00c6",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "summer",
+   "level": "1-trinn",
+   "deck": "alfabettoget-sommer-00c6"
+  },
+  {
+   "slug": "alfabettoget-strand-ddbb",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "alfabettoget-strand-ddbb"
+  },
+  {
+   "slug": "alfabettoget-sykehus-4687",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "alfabettoget-sykehus-4687"
+  },
+  {
+   "slug": "alfabettoget-thanksgiving-1911",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "1-trinn",
+   "deck": "alfabettoget-thanksgiving-1911"
+  },
+  {
+   "slug": "alfabettoget-tilbehor-cb9d",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "alfabettoget-tilbehor-cb9d"
+  },
+  {
+   "slug": "alfabettoget-ting-som-flyr-c4f3",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "alfabettoget-ting-som-flyr-c4f3"
+  },
+  {
+   "slug": "alfabettoget-var-e7c5",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "spring",
+   "level": "1-trinn",
+   "deck": "alfabettoget-var-e7c5"
+  },
+  {
+   "slug": "alfabettoget-verdensrommet-04be",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "alfabettoget-verdensrommet-04be"
+  },
+  {
+   "slug": "alfabettoget-vinter-217a",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "winter",
+   "level": "1-trinn",
+   "deck": "alfabettoget-vinter-217a"
+  },
+  {
+   "slug": "alfabettoget-yrker-4d54",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "alfabettoget-yrker-4d54"
+  },
+  {
+   "slug": "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-999c",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-999c"
+  },
+  {
+   "slug": "hvilken-passer-ikke-pa-tvers-av-temaer-blomster-8013",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "hvilken-passer-ikke-pa-tvers-av-temaer-blomster-8013"
+  },
+  {
+   "slug": "hvilken-passer-ikke-pa-tvers-av-temaer-dinosaurer-92c9",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "hvilken-passer-ikke-pa-tvers-av-temaer-dinosaurer-92c9"
+  },
+  {
+   "slug": "hvilken-passer-ikke-pa-tvers-av-temaer-dyr-4949",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "hvilken-passer-ikke-pa-tvers-av-temaer-dyr-4949"
+  },
+  {
+   "slug": "rader-og-kolonner-3-trinn",
+   "type": "arrays-multiplication",
+   "mode": "arrays-repeated-addition",
+   "theme": "",
+   "level": "3-trinn",
+   "deck": "ganging-med-rader-dyr-g2209"
+  },
+  {
+   "slug": "gangetabellen-rader-kolonner-4-trinn",
+   "type": "arrays-multiplication",
+   "mode": "multiply-and-divide",
+   "theme": "",
+   "level": "4-trinn",
+   "deck": "ganging-med-rader-g3313"
+  },
+  {
+   "slug": "brok-tallinje-4-trinn",
+   "type": "fractions",
+   "mode": "name-and-compare",
+   "theme": "",
+   "level": "4-trinn",
+   "deck": "brok-g3315"
+  },
+  {
+   "slug": "brok-like-deler-3-trinn",
+   "type": "fractions",
+   "mode": "partition-and-share",
+   "theme": "",
+   "level": "3-trinn",
+   "deck": "brok-g2228"
+  },
+  {
+   "slug": "geometri-former-1-trinn",
+   "type": "geometry",
+   "mode": "count-and-sort-shapes",
+   "theme": "",
+   "level": "1-trinn",
+   "deck": "geometri-k075"
+  },
+  {
+   "slug": "geometri-omkrets-areal-4-trinn",
+   "type": "geometry",
+   "mode": "quadrilaterals-and-area",
+   "theme": "",
+   "level": "4-trinn",
+   "deck": "geometri-g3337"
+  },
+  {
+   "slug": "geometri-romfigurer-3-trinn",
+   "type": "geometry",
+   "mode": "shape-attributes",
+   "theme": "",
+   "level": "3-trinn",
+   "deck": "geometri-g2241"
+  },
+  {
+   "slug": "diagram-3-trinn",
+   "type": "graphing-data",
+   "mode": "graphs-and-line-plots",
+   "theme": "",
+   "level": "3-trinn",
+   "deck": "diagram-og-data-dyr-g2237"
+  },
+  {
+   "slug": "diagram-2-trinn",
+   "type": "graphing-data",
+   "mode": "read-picture-bar-graphs",
+   "theme": "",
+   "level": "2-trinn",
+   "deck": "diagram-og-data-dyr-g1144"
+  },
+  {
+   "slug": "diagram-4-trinn",
+   "type": "graphing-data",
+   "mode": "scaled-graphs",
+   "theme": "",
+   "level": "4-trinn",
+   "deck": "diagram-og-data-dyr-g3335"
+  },
+  {
+   "slug": "maling-tung-eller-lett-1-trinn",
+   "type": "measurement",
+   "mode": "compare-weight",
+   "theme": "",
+   "level": "1-trinn",
+   "deck": "maling-dyr-k038"
+  },
+  {
+   "slug": "maling-lengde-med-enheter-2-trinn",
+   "type": "measurement",
+   "mode": "length-units",
+   "theme": "",
+   "level": "2-trinn",
+   "deck": "maling-dyr-g1139"
+  },
+  {
+   "slug": "maling-med-linjal-3-trinn",
+   "type": "measurement",
+   "mode": "measure-and-compare-length",
+   "theme": "",
+   "level": "3-trinn",
+   "deck": "maling-leker-g2235"
+  },
+  {
+   "slug": "maling-temperatur-og-volum-4-trinn",
+   "type": "measurement",
+   "mode": "volume-and-temperature",
+   "theme": "",
+   "level": "4-trinn",
+   "deck": "maling-g3345"
+  },
+  {
+   "slug": "hundrerutenett-2-trinn",
+   "type": "number-charts",
+   "mode": "hundreds-chart-skip-count",
+   "theme": "",
+   "level": "2-trinn",
+   "deck": "hundrerute-g1130"
+  },
+  {
+   "slug": "tallmaskiner-4-trinn",
+   "type": "number-charts",
+   "mode": "number-patterns",
+   "theme": "",
+   "level": "4-trinn",
+   "deck": "hundrerute-g3328"
+  },
+  {
+   "slug": "tall-som-mangler-1-trinn",
+   "type": "number-charts",
+   "mode": "numbers-to-20",
+   "theme": "",
+   "level": "1-trinn",
+   "deck": "hundrerute-k021"
+  },
+  {
+   "slug": "tallfolger-3-trinn",
+   "type": "number-charts",
+   "mode": "skip-count-and-100-more-less",
+   "theme": "",
+   "level": "3-trinn",
+   "deck": "hundrerute-g2218"
+  },
+  {
+   "slug": "klokka-arbeidsark-2-trinn",
+   "type": "telling-time",
+   "mode": "hour-half-hour",
+   "theme": "",
+   "level": "2-trinn",
+   "deck": "klokka-g1148"
+  },
+  {
+   "slug": "klokka-fem-minutter-3-trinn",
+   "type": "telling-time",
+   "mode": "to-five-minutes",
+   "theme": "",
+   "level": "3-trinn",
+   "deck": "klokka-g2249"
+  },
+  {
+   "slug": "klokka-tidsdifferanse-4-trinn",
+   "type": "telling-time",
+   "mode": "to-the-minute",
+   "theme": "",
+   "level": "4-trinn",
+   "deck": "klokka-g3344"
+  }
+ ]
+}

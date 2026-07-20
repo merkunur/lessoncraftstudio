@@ -1,0 +1,504 @@
+{
+ "part": 106,
+ "locale": "pt",
+ "classes": [
+  "picture-sort::null"
+ ],
+ "splitOf": {
+  "class": "picture-sort::null",
+  "total": 122,
+  "chunk": 1,
+  "chunks": 2
+ },
+ "count": 61,
+ "pages": [
+  {
+   "slug": "ordenar-imagens-accessories-vs-activities-b089",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-activities",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-activities-b089"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-animals-08c9",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-animals",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-animals-08c9"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-around-the-house-c391",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-around_the_house",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-around-the-house-c391"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-at-the-supermarket-c046",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-at_the_supermarket",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-at-the-supermarket-c046"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-bakery-ac64",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-bakery",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-bakery-ac64"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-beach-4461",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-beach",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-beach-4461"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-birds-efc1",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-birds",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-birds-efc1"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-body-parts-7d3d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-body_parts",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-body-parts-7d3d"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-breakfast-905c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-breakfast",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-breakfast-905c"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-christmas-0043",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-christmas",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-christmas-0043"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-classroom-f12b",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-classroom",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-classroom-f12b"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-clothing-542f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-clothing",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-clothing-542f"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-colors-4d55",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-colors",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-colors-4d55"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-desserts-and-sweets-2c0e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-desserts_and_sweets",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-desserts-and-sweets-2c0e"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-dinosaurs-d6bd",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-dinosaurs",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-dinosaurs-d6bd"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-easter-f0f1",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-easter",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-easter-f0f1"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-emotions-c336",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-emotions",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-emotions-c336"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-farm-animals-797e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-farm_animals",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-farm-animals-797e"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-flowers-d2d2",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-flowers",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-flowers-d2d2"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-forest-creatures-6784",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-forest_creatures",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-forest-creatures-6784"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-fruits-fc1c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-fruits",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-fruits-fc1c"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-furniture-7f21",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-furniture",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-furniture-7f21"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-hospital-fd56",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-hospital",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-hospital-fd56"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-insects-and-bugs-f696",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-insects_and_bugs",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-insects-and-bugs-f696"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-kitchen-tools-80f9",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-kitchen_tools",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-kitchen-tools-80f9"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-music-0427",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-music",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-music-0427"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-occupations-6206",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-occupations",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-occupations-6206"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-ocean-life-de19",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-ocean_life",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-ocean-life-de19"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-pets-b706",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-pets",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-pets-b706"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-post-office-315d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-post_office",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-post-office-315d"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-reptiles-and-amphibians-cfc2",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-reptiles_and_amphibians",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-reptiles-and-amphibians-cfc2"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-shapes-4ebc",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-shapes",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-shapes-4ebc"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-space-01eb",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-space",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-space-01eb"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-spring-12d1",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-spring",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-spring-12d1"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-summer-3b6a",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-summer",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-summer-3b6a"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-thanksgiving-5a2d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-thanksgivinng",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-thanksgiving-5a2d"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-things-that-fly-5de5",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-things_that_fly",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-things-that-fly-5de5"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-tools-f1ca",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-tools",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-tools-f1ca"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-toys-2fad",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-toys",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-toys-2fad"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-tree-18d6",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-tree",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-tree-18d6"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-vegetables-b107",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-vegetables",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-vegetables-b107"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-vehicles-0723",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-vehicles",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-vehicles-0723"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-weather-6f05",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-weather",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-weather-6f05"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-winter-47ea",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-winter",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-winter-47ea"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-zoo-animals-fd8a",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-zoo_animals",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-zoo-animals-fd8a"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-activities-efac",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-activities",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-activities-efac"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-around-the-house-77c8",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-around_the_house",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-around-the-house-77c8"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-at-the-supermarket-f0f1",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-at_the_supermarket",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-at-the-supermarket-f0f1"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-bakery-054c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-bakery",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-bakery-054c"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-beach-5ebf",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-beach",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-beach-5ebf"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-body-parts-bae1",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-body_parts",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-body-parts-bae1"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-breakfast-aa7e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-breakfast",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-breakfast-aa7e"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-christmas-cb36",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-christmas",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-christmas-cb36"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-classroom-9206",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-classroom",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-classroom-9206"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-clothing-f180",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-clothing",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-clothing-f180"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-desserts-and-sweets-55eb",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-desserts_and_sweets",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-desserts-and-sweets-55eb"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-dinosaurs-e87e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-dinosaurs",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-dinosaurs-e87e"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-easter-66dd",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-easter",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-easter-66dd"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-emotions-ab78",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-emotions",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-emotions-ab78"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-flowers-463a",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-flowers",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-flowers-463a"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-fruits-0e95",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-fruits",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-fruits-0e95"
+  }
+ ]
+}

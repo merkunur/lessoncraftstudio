@@ -1,0 +1,764 @@
+{
+ "part": 304,
+ "locale": "no",
+ "classes": [
+  "prepositions::fillin",
+  "sudoku::medium"
+ ],
+ "splitOf": null,
+ "count": 94,
+ "pages": [
+  {
+   "slug": "preposisjoner-fyll-inn-aktiviteter-557e",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "activities",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-aktiviteter-557e"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-bakeri-be3e",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "bakery",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-bakeri-be3e"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-blomster-c32c",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "flowers",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-blomster-c32c"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-camping-5d44",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "camping",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-camping-5d44"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-desserter-og-godteri-830c",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "desserts_and_sweets",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-desserter-og-godteri-830c"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-dinosaurer-c8d1",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "dinosaurs",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-dinosaurer-c8d1"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-dyr-e062",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "animals",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-dyr-e062"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-dyrehagedyr-d28d",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "zoo_animals",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-dyrehagedyr-d28d"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-farger-6c65",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "colors",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-farger-6c65"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-folelser-e198",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "emotions",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-folelser-e198"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-former-96f2",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "shapes",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-former-96f2"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-frokost-0e3c",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "breakfast",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-frokost-0e3c"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-frukter-f1aa",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "fruits",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-frukter-f1aa"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-fugler-2-5e90",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "birds_2",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-fugler-2-5e90"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-fugler-52db",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "birds",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-fugler-52db"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-gronnsaker-bd46",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "vegetables",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-gronnsaker-bd46"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-havliv-b87e",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "ocean_life",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-havliv-b87e"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-i-supermarkedet-d480",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "at_the_supermarket",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-i-supermarkedet-d480"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-insekter-og-kryp-bf2c",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "insects_and_bugs",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-insekter-og-kryp-bf2c"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-jul-689a",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "christmas",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-jul-689a"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-kjaeledyr-602c",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "pets",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-kjaeledyr-602c"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-kjokkenredskaper-a611",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "kitchen_tools",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-kjokkenredskaper-a611"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-kjoretoy-52e9",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "vehicles",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-kjoretoy-52e9"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-klaer-724a",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "clothing",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-klaer-724a"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-klasserom-6462",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "classroom",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-klasserom-6462"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-kroppsdeler-3206",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "body_parts",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-kroppsdeler-3206"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-leker-f798",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "toys",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-leker-f798"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-mobler-80fb",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "furniture",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-mobler-80fb"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-musikk-9d4a",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "music",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-musikk-9d4a"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-paske-1ccc",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "easter",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-paske-1ccc"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-postkontor-c623",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "post_office",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-postkontor-c623"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-reptiler-og-amfibier-72d5",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "reptiles_and_amphibians",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-reptiler-og-amfibier-72d5"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-rundt-i-huset-5029",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "around_the_house",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-rundt-i-huset-5029"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-skogsdyr-4340",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "forest_creatures",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-skogsdyr-4340"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-sommer-c8f4",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "summer",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-sommer-c8f4"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-strand-3bef",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "beach",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-strand-3bef"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-sykehus-7647",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "hospital",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-sykehus-7647"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-thanksgiving-ac92",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "thanksgivinng",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-thanksgiving-ac92"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-tilbehor-e68c",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "accessories",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-tilbehor-e68c"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-ting-som-flyr-ecda",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "things_that_fly",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-ting-som-flyr-ecda"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-traer-4d65",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "tree",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-traer-4d65"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-vaer-7584",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "weather",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-vaer-7584"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-var-5e90",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "spring",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-var-5e90"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-verdensrommet-3ad1",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "space",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-verdensrommet-3ad1"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-verktoy-bcbb",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "tools",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-verktoy-bcbb"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-vinter-a1cc",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "winter",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-vinter-a1cc"
+  },
+  {
+   "slug": "preposisjoner-fyll-inn-yrker-6868",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "occupations",
+   "level": "3-trinn",
+   "deck": "preposisjoner-fyll-inn-yrker-6868"
+  },
+  {
+   "slug": "bildesudoku-middels-aktiviteter-d656",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "activities",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-aktiviteter-d656"
+  },
+  {
+   "slug": "bildesudoku-middels-bakeri-6902",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-bakeri-6902"
+  },
+  {
+   "slug": "bildesudoku-middels-blomster-e1e5",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-blomster-e1e5"
+  },
+  {
+   "slug": "bildesudoku-middels-camping-85b3",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "camping",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-camping-85b3"
+  },
+  {
+   "slug": "bildesudoku-middels-desserter-og-godteri-b185",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "desserts_and_sweets",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-desserter-og-godteri-b185"
+  },
+  {
+   "slug": "bildesudoku-middels-dinosaurer-8728",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-dinosaurer-8728"
+  },
+  {
+   "slug": "bildesudoku-middels-dyr-4e1e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-dyr-4e1e"
+  },
+  {
+   "slug": "bildesudoku-middels-dyrehagedyr-1207",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-dyrehagedyr-1207"
+  },
+  {
+   "slug": "bildesudoku-middels-farger-a260",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "colors",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-farger-a260"
+  },
+  {
+   "slug": "bildesudoku-middels-folelser-ff47",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "emotions",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-folelser-ff47"
+  },
+  {
+   "slug": "bildesudoku-middels-former-8d40",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "shapes",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-former-8d40"
+  },
+  {
+   "slug": "bildesudoku-middels-frokost-6dd1",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-frokost-6dd1"
+  },
+  {
+   "slug": "bildesudoku-middels-frukter-07df",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-frukter-07df"
+  },
+  {
+   "slug": "bildesudoku-middels-fugler-2-5164",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-fugler-2-5164"
+  },
+  {
+   "slug": "bildesudoku-middels-fugler-e85e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "birds",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-fugler-e85e"
+  },
+  {
+   "slug": "bildesudoku-middels-gardsdyr-ecd3",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "farm_animals",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-gardsdyr-ecd3"
+  },
+  {
+   "slug": "bildesudoku-middels-gronnsaker-debf",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "vegetables",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-gronnsaker-debf"
+  },
+  {
+   "slug": "bildesudoku-middels-havliv-7a9b",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "ocean_life",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-havliv-7a9b"
+  },
+  {
+   "slug": "bildesudoku-middels-i-supermarkedet-cc1f",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-i-supermarkedet-cc1f"
+  },
+  {
+   "slug": "bildesudoku-middels-insekter-og-kryp-2483",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "insects_and_bugs",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-insekter-og-kryp-2483"
+  },
+  {
+   "slug": "bildesudoku-middels-jul-db2e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-jul-db2e"
+  },
+  {
+   "slug": "bildesudoku-middels-kjaeledyr-f69d",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "pets",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-kjaeledyr-f69d"
+  },
+  {
+   "slug": "bildesudoku-middels-kjokkenredskaper-d53e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-kjokkenredskaper-d53e"
+  },
+  {
+   "slug": "bildesudoku-middels-kjoretoy-f202",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-kjoretoy-f202"
+  },
+  {
+   "slug": "bildesudoku-middels-klaer-99b2",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-klaer-99b2"
+  },
+  {
+   "slug": "bildesudoku-middels-klasserom-6679",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-klasserom-6679"
+  },
+  {
+   "slug": "bildesudoku-middels-leker-4024",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-leker-4024"
+  },
+  {
+   "slug": "bildesudoku-middels-mobler-7d6f",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "furniture",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-mobler-7d6f"
+  },
+  {
+   "slug": "bildesudoku-middels-musikk-6865",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "music",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-musikk-6865"
+  },
+  {
+   "slug": "bildesudoku-middels-paske-5e2f",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-paske-5e2f"
+  },
+  {
+   "slug": "bildesudoku-middels-postkontor-db6f",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "post_office",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-postkontor-db6f"
+  },
+  {
+   "slug": "bildesudoku-middels-reptiler-og-amfibier-0872",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-reptiler-og-amfibier-0872"
+  },
+  {
+   "slug": "bildesudoku-middels-rundt-i-huset-f505",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "around_the_house",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-rundt-i-huset-f505"
+  },
+  {
+   "slug": "bildesudoku-middels-skogsdyr-1b2d",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "forest_creatures",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-skogsdyr-1b2d"
+  },
+  {
+   "slug": "bildesudoku-middels-sommer-6cef",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "summer",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-sommer-6cef"
+  },
+  {
+   "slug": "bildesudoku-middels-strand-0a61",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-strand-0a61"
+  },
+  {
+   "slug": "bildesudoku-middels-sykehus-3ee5",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-sykehus-3ee5"
+  },
+  {
+   "slug": "bildesudoku-middels-thanksgiving-cce3",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "thanksgivinng",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-thanksgiving-cce3"
+  },
+  {
+   "slug": "bildesudoku-middels-tilbehor-6a92",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-tilbehor-6a92"
+  },
+  {
+   "slug": "bildesudoku-middels-ting-som-flyr-0da9",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-ting-som-flyr-0da9"
+  },
+  {
+   "slug": "bildesudoku-middels-traer-61ab",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-traer-61ab"
+  },
+  {
+   "slug": "bildesudoku-middels-vaer-9c6b",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "weather",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-vaer-9c6b"
+  },
+  {
+   "slug": "bildesudoku-middels-var-7259",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "spring",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-var-7259"
+  },
+  {
+   "slug": "bildesudoku-middels-verdensrommet-c548",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-verdensrommet-c548"
+  },
+  {
+   "slug": "bildesudoku-middels-verktoy-4aa0",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "tools",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-verktoy-4aa0"
+  },
+  {
+   "slug": "bildesudoku-middels-vinter-ab19",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "winter",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-vinter-ab19"
+  },
+  {
+   "slug": "bildesudoku-middels-yrker-0286",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "bildesudoku-middels-yrker-0286"
+  }
+ ]
+}

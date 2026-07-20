@@ -1,0 +1,780 @@
+{
+ "part": 203,
+ "locale": "nl",
+ "classes": [
+  "pattern-train::null",
+  "pattern-worksheet::null"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "patroontrein-accessoires-a16c",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "accessories",
+   "level": "kleuters",
+   "deck": "patroontrein-accessoires-a16c"
+  },
+  {
+   "slug": "patroontrein-activiteiten-48ae",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "activities",
+   "level": "kleuters",
+   "deck": "patroontrein-activiteiten-48ae"
+  },
+  {
+   "slug": "patroontrein-bakkerij-0380",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "bakery",
+   "level": "kleuters",
+   "deck": "patroontrein-bakkerij-0380"
+  },
+  {
+   "slug": "patroontrein-beroepen-0989",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "occupations",
+   "level": "kleuters",
+   "deck": "patroontrein-beroepen-0989"
+  },
+  {
+   "slug": "patroontrein-bloemen-e784",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "flowers",
+   "level": "kleuters",
+   "deck": "patroontrein-bloemen-e784"
+  },
+  {
+   "slug": "patroontrein-boerderijdieren-2e57",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "kleuters",
+   "deck": "patroontrein-boerderijdieren-2e57"
+  },
+  {
+   "slug": "patroontrein-bomen-54e5",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "tree",
+   "level": "kleuters",
+   "deck": "patroontrein-bomen-54e5"
+  },
+  {
+   "slug": "patroontrein-boswezens-302a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "kleuters",
+   "deck": "patroontrein-boswezens-302a"
+  },
+  {
+   "slug": "patroontrein-desserts-en-snoep-5fbd",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "kleuters",
+   "deck": "patroontrein-desserts-en-snoep-5fbd"
+  },
+  {
+   "slug": "patroontrein-dieren-51c0",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "animals",
+   "level": "kleuters",
+   "deck": "patroontrein-dieren-51c0"
+  },
+  {
+   "slug": "patroontrein-dierentuindieren-0d26",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "kleuters",
+   "deck": "patroontrein-dierentuindieren-0d26"
+  },
+  {
+   "slug": "patroontrein-dingen-die-vliegen-c52d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "kleuters",
+   "deck": "patroontrein-dingen-die-vliegen-c52d"
+  },
+  {
+   "slug": "patroontrein-dinosaurussen-6353",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "kleuters",
+   "deck": "patroontrein-dinosaurussen-6353"
+  },
+  {
+   "slug": "patroontrein-emoties-6613",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "emotions",
+   "level": "kleuters",
+   "deck": "patroontrein-emoties-6613"
+  },
+  {
+   "slug": "patroontrein-fruit-d4f6",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "fruits",
+   "level": "kleuters",
+   "deck": "patroontrein-fruit-d4f6"
+  },
+  {
+   "slug": "patroontrein-gereedschap-be6c",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "tools",
+   "level": "kleuters",
+   "deck": "patroontrein-gereedschap-be6c"
+  },
+  {
+   "slug": "patroontrein-groenten-86f4",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "kleuters",
+   "deck": "patroontrein-groenten-86f4"
+  },
+  {
+   "slug": "patroontrein-huisdieren-b72d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "pets",
+   "level": "kleuters",
+   "deck": "patroontrein-huisdieren-b72d"
+  },
+  {
+   "slug": "patroontrein-in-de-supermarkt-60e9",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "kleuters",
+   "deck": "patroontrein-in-de-supermarkt-60e9"
+  },
+  {
+   "slug": "patroontrein-insecten-en-beestjes-167e",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "kleuters",
+   "deck": "patroontrein-insecten-en-beestjes-167e"
+  },
+  {
+   "slug": "patroontrein-kamperen-4898",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "camping",
+   "level": "kleuters",
+   "deck": "patroontrein-kamperen-4898"
+  },
+  {
+   "slug": "patroontrein-kerstmis-a105",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "christmas",
+   "level": "kleuters",
+   "deck": "patroontrein-kerstmis-a105"
+  },
+  {
+   "slug": "patroontrein-keukengerei-effb",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "kleuters",
+   "deck": "patroontrein-keukengerei-effb"
+  },
+  {
+   "slug": "patroontrein-klaslokaal-a0b7",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "classroom",
+   "level": "kleuters",
+   "deck": "patroontrein-klaslokaal-a0b7"
+  },
+  {
+   "slug": "patroontrein-kleding-d44d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "clothing",
+   "level": "kleuters",
+   "deck": "patroontrein-kleding-d44d"
+  },
+  {
+   "slug": "patroontrein-kleuren-0927",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "colors",
+   "level": "kleuters",
+   "deck": "patroontrein-kleuren-0927"
+  },
+  {
+   "slug": "patroontrein-lente-fe35",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "spring",
+   "level": "kleuters",
+   "deck": "patroontrein-lente-fe35"
+  },
+  {
+   "slug": "patroontrein-lichaamsdelen-4d92",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "kleuters",
+   "deck": "patroontrein-lichaamsdelen-4d92"
+  },
+  {
+   "slug": "patroontrein-meubels-7285",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "furniture",
+   "level": "kleuters",
+   "deck": "patroontrein-meubels-7285"
+  },
+  {
+   "slug": "patroontrein-muziek-4cbf",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "music",
+   "level": "kleuters",
+   "deck": "patroontrein-muziek-4cbf"
+  },
+  {
+   "slug": "patroontrein-oceaanleven-42d2",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "kleuters",
+   "deck": "patroontrein-oceaanleven-42d2"
+  },
+  {
+   "slug": "patroontrein-ontbijt-562a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "kleuters",
+   "deck": "patroontrein-ontbijt-562a"
+  },
+  {
+   "slug": "patroontrein-pasen-2bc9",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "easter",
+   "level": "kleuters",
+   "deck": "patroontrein-pasen-2bc9"
+  },
+  {
+   "slug": "patroontrein-postkantoor-6743",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "post_office",
+   "level": "kleuters",
+   "deck": "patroontrein-postkantoor-6743"
+  },
+  {
+   "slug": "patroontrein-reptielen-en-amfibieen-f00c",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "kleuters",
+   "deck": "patroontrein-reptielen-en-amfibieen-f00c"
+  },
+  {
+   "slug": "patroontrein-rond-het-huis-f1e7",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "kleuters",
+   "deck": "patroontrein-rond-het-huis-f1e7"
+  },
+  {
+   "slug": "patroontrein-ruimte-43a3",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "space",
+   "level": "kleuters",
+   "deck": "patroontrein-ruimte-43a3"
+  },
+  {
+   "slug": "patroontrein-speelgoed-03cc",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "toys",
+   "level": "kleuters",
+   "deck": "patroontrein-speelgoed-03cc"
+  },
+  {
+   "slug": "patroontrein-strand-f300",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "beach",
+   "level": "kleuters",
+   "deck": "patroontrein-strand-f300"
+  },
+  {
+   "slug": "patroontrein-thanksgiving-2f3e",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "kleuters",
+   "deck": "patroontrein-thanksgiving-2f3e"
+  },
+  {
+   "slug": "patroontrein-voertuigen-bc14",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "kleuters",
+   "deck": "patroontrein-voertuigen-bc14"
+  },
+  {
+   "slug": "patroontrein-vogels-2-078a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "kleuters",
+   "deck": "patroontrein-vogels-2-078a"
+  },
+  {
+   "slug": "patroontrein-vogels-d28f",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "birds",
+   "level": "kleuters",
+   "deck": "patroontrein-vogels-d28f"
+  },
+  {
+   "slug": "patroontrein-vormen-433c",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "shapes",
+   "level": "kleuters",
+   "deck": "patroontrein-vormen-433c"
+  },
+  {
+   "slug": "patroontrein-weer-4b37",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "weather",
+   "level": "kleuters",
+   "deck": "patroontrein-weer-4b37"
+  },
+  {
+   "slug": "patroontrein-winter-9f9b",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "winter",
+   "level": "kleuters",
+   "deck": "patroontrein-winter-9f9b"
+  },
+  {
+   "slug": "patroontrein-ziekenhuis-3d58",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "hospital",
+   "level": "kleuters",
+   "deck": "patroontrein-ziekenhuis-3d58"
+  },
+  {
+   "slug": "patroontrein-zomer-39b6",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "summer",
+   "level": "kleuters",
+   "deck": "patroontrein-zomer-39b6"
+  },
+  {
+   "slug": "patroon-werkblad-accessoires-604e",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "accessories",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-accessoires-604e"
+  },
+  {
+   "slug": "patroon-werkblad-activiteiten-6ba9",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "activities",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-activiteiten-6ba9"
+  },
+  {
+   "slug": "patroon-werkblad-bakkerij-144f",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "bakery",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-bakkerij-144f"
+  },
+  {
+   "slug": "patroon-werkblad-beroepen-066d",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "occupations",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-beroepen-066d"
+  },
+  {
+   "slug": "patroon-werkblad-bloemen-d59a",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "flowers",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-bloemen-d59a"
+  },
+  {
+   "slug": "patroon-werkblad-boerderijdieren-fdad",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-boerderijdieren-fdad"
+  },
+  {
+   "slug": "patroon-werkblad-bomen-f75b",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "tree",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-bomen-f75b"
+  },
+  {
+   "slug": "patroon-werkblad-boswezens-03a9",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-boswezens-03a9"
+  },
+  {
+   "slug": "patroon-werkblad-desserts-en-snoep-05b7",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-desserts-en-snoep-05b7"
+  },
+  {
+   "slug": "patroon-werkblad-dieren-4d1f",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "animals",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-dieren-4d1f"
+  },
+  {
+   "slug": "patroon-werkblad-dierentuindieren-9ea0",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-dierentuindieren-9ea0"
+  },
+  {
+   "slug": "patroon-werkblad-dingen-die-vliegen-7556",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-dingen-die-vliegen-7556"
+  },
+  {
+   "slug": "patroon-werkblad-dinosaurussen-018f",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-dinosaurussen-018f"
+  },
+  {
+   "slug": "patroon-werkblad-emoties-a13d",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "emotions",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-emoties-a13d"
+  },
+  {
+   "slug": "patroon-werkblad-fruit-f9ee",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "fruits",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-fruit-f9ee"
+  },
+  {
+   "slug": "patroon-werkblad-gereedschap-375e",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "tools",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-gereedschap-375e"
+  },
+  {
+   "slug": "patroon-werkblad-groenten-7b6a",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-groenten-7b6a"
+  },
+  {
+   "slug": "patroon-werkblad-huisdieren-ae29",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "pets",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-huisdieren-ae29"
+  },
+  {
+   "slug": "patroon-werkblad-in-de-supermarkt-f1e8",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-in-de-supermarkt-f1e8"
+  },
+  {
+   "slug": "patroon-werkblad-insecten-en-beestjes-c5a1",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-insecten-en-beestjes-c5a1"
+  },
+  {
+   "slug": "patroon-werkblad-kamperen-b0e8",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "camping",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-kamperen-b0e8"
+  },
+  {
+   "slug": "patroon-werkblad-kerstmis-f6f0",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "christmas",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-kerstmis-f6f0"
+  },
+  {
+   "slug": "patroon-werkblad-keukengerei-f7af",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-keukengerei-f7af"
+  },
+  {
+   "slug": "patroon-werkblad-klaslokaal-4b5c",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "classroom",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-klaslokaal-4b5c"
+  },
+  {
+   "slug": "patroon-werkblad-kleding-dd28",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "clothing",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-kleding-dd28"
+  },
+  {
+   "slug": "patroon-werkblad-kleuren-d9f1",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "colors",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-kleuren-d9f1"
+  },
+  {
+   "slug": "patroon-werkblad-lente-d3f2",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "spring",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-lente-d3f2"
+  },
+  {
+   "slug": "patroon-werkblad-lichaamsdelen-dadd",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-lichaamsdelen-dadd"
+  },
+  {
+   "slug": "patroon-werkblad-meubels-58f4",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "furniture",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-meubels-58f4"
+  },
+  {
+   "slug": "patroon-werkblad-muziek-98ab",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "music",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-muziek-98ab"
+  },
+  {
+   "slug": "patroon-werkblad-oceaanleven-1c08",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-oceaanleven-1c08"
+  },
+  {
+   "slug": "patroon-werkblad-ontbijt-5f8b",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-ontbijt-5f8b"
+  },
+  {
+   "slug": "patroon-werkblad-pasen-4f7d",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "easter",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-pasen-4f7d"
+  },
+  {
+   "slug": "patroon-werkblad-postkantoor-a920",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "post_office",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-postkantoor-a920"
+  },
+  {
+   "slug": "patroon-werkblad-reptielen-en-amfibieen-655e",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-reptielen-en-amfibieen-655e"
+  },
+  {
+   "slug": "patroon-werkblad-rond-het-huis-0d80",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-rond-het-huis-0d80"
+  },
+  {
+   "slug": "patroon-werkblad-ruimte-77fa",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "space",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-ruimte-77fa"
+  },
+  {
+   "slug": "patroon-werkblad-speelgoed-4330",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "toys",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-speelgoed-4330"
+  },
+  {
+   "slug": "patroon-werkblad-strand-a70d",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "beach",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-strand-a70d"
+  },
+  {
+   "slug": "patroon-werkblad-thanksgiving-21bd",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-thanksgiving-21bd"
+  },
+  {
+   "slug": "patroon-werkblad-voertuigen-5cb8",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-voertuigen-5cb8"
+  },
+  {
+   "slug": "patroon-werkblad-vogels-2-6108",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-vogels-2-6108"
+  },
+  {
+   "slug": "patroon-werkblad-vogels-4041",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "birds",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-vogels-4041"
+  },
+  {
+   "slug": "patroon-werkblad-vormen-1ad1",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "shapes",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-vormen-1ad1"
+  },
+  {
+   "slug": "patroon-werkblad-weer-6b4a",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "weather",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-weer-6b4a"
+  },
+  {
+   "slug": "patroon-werkblad-winter-4cd7",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "winter",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-winter-4cd7"
+  },
+  {
+   "slug": "patroon-werkblad-ziekenhuis-f9f6",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "hospital",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-ziekenhuis-f9f6"
+  },
+  {
+   "slug": "patroon-werkblad-zomer-fb34",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "summer",
+   "level": "kleuters",
+   "deck": "patroon-werkblad-zomer-fb34"
+  }
+ ]
+}

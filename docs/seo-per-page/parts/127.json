@@ -1,0 +1,668 @@
+{
+ "part": 127,
+ "locale": "pt",
+ "classes": [
+  "math-puzzle::addition",
+  "math-puzzle::mixed"
+ ],
+ "splitOf": null,
+ "count": 82,
+ "pages": [
+  {
+   "slug": "quebra-cabeca-matematico-soma-acampamento-61ef",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "camping",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-acampamento-61ef"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-acessorios-bc54",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "accessories",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-acessorios-bc54"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-animais-86cd",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "animals",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-animais-86cd"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-animais-da-fazenda-6906",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "farm_animals",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-animais-da-fazenda-6906"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-animais-de-estimacao-f69a",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "pets",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-animais-de-estimacao-f69a"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-animais-do-zoologico-dec7",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "zoo_animals",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-animais-do-zoologico-dec7"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-arvores-e4f6",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "tree",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-arvores-e4f6"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-brinquedos-0b13",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "toys",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-brinquedos-0b13"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-cafe-da-manha-9d87",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "breakfast",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-cafe-da-manha-9d87"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-coisas-que-voam-a1fd",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "things_that_fly",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-coisas-que-voam-a1fd"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-correios-6070",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "post_office",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-correios-6070"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-criaturas-da-floresta-5ff4",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "forest_creatures",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-criaturas-da-floresta-5ff4"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-dia-de-acao-de-gracas-cffc",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "thanksgivinng",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-dia-de-acao-de-gracas-cffc"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-dinossauros-9772",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "dinosaurs",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-dinossauros-9772"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-diversos-18b8",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "miscellaneous",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-diversos-18b8"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-espaco-c77b",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "space",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-espaco-c77b"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-ferramentas-ef6a",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "tools",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-ferramentas-ef6a"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-flores-ab41",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "flowers",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-flores-ab41"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-formas-6886",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "shapes",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-formas-6886"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-frutas-1b9f",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "fruits",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-frutas-1b9f"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-hospital-e819",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "hospital",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-hospital-e819"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-insetos-e-bichos-88ed",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "insects_and_bugs",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-insetos-e-bichos-88ed"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-moveis-3987",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "furniture",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-moveis-3987"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-musica-8369",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "music",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-musica-8369"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-natal-c265",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "christmas",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-natal-c265"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-no-supermercado-9162",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "at_the_supermarket",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-no-supermercado-9162"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-padaria-8d3b",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-padaria-8d3b"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-pascoa-f85b",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "easter",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-pascoa-f85b"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-passaros-2-8f81",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "birds_2",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-passaros-2-8f81"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-passaros-add4",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "birds",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-passaros-add4"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-pela-casa-b068",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "around_the_house",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-pela-casa-b068"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-praia-60ac",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "beach",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-praia-60ac"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-profissoes-ed5c",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "occupations",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-profissoes-ed5c"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-repteis-e-anfibios-2228",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "reptiles_and_amphibians",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-repteis-e-anfibios-2228"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-roupas-319f",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "clothing",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-roupas-319f"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-sala-de-aula-fc95",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "classroom",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-sala-de-aula-fc95"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-sobremesas-e-doces-2152",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "desserts_and_sweets",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-sobremesas-e-doces-2152"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-utensilios-de-cozinha-dbe3",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "kitchen_tools",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-utensilios-de-cozinha-dbe3"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-vegetais-c4f1",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "vegetables",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-vegetais-c4f1"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-veiculos-d733",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "vehicles",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-veiculos-d733"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-vida-marinha-a967",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "ocean_life",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-vida-marinha-a967"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-acampamento-d503",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-acampamento-d503"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-acessorios-1d37",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-acessorios-1d37"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-animais",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-misto-animais"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-animais-da-fazenda-0c39",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-misto-animais-da-fazenda-0c39"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-animais-de-estimacao-c335",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-animais-de-estimacao-c335"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-animais-do-zoologico-66aa",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-animais-do-zoologico-66aa"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-arvores-2a58",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-misto-arvores-2a58"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-brinquedos-7bd6",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-brinquedos-7bd6"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-cafe-da-manha-008a",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-cafe-da-manha-008a"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-coisas-que-voam-0920",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-coisas-que-voam-0920"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-correios-eed2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-correios-eed2"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-criaturas-da-floresta-7ae8",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-criaturas-da-floresta-7ae8"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-dia-de-acao-de-gracas-248c",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-dia-de-acao-de-gracas-248c"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-dinossauros-56fc",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-misto-dinossauros-56fc"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-diversos-b066",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "miscellaneous",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-diversos-b066"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-espaco-35d4",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-espaco-35d4"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-ferramentas-7619",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-ferramentas-7619"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-flores-0102",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-flores-0102"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-formas-4c7e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-formas-4c7e"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-frutas-bfa8",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-frutas-bfa8"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-hospital-6a79",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-misto-hospital-6a79"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-insetos-e-bichos-c6ac",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-insetos-e-bichos-c6ac"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-moveis-064e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-misto-moveis-064e"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-musica-62a3",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-musica-62a3"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-natal-c019",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-natal-c019"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-no-supermercado-3fc5",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-no-supermercado-3fc5"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-padaria-20e8",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-padaria-20e8"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-pascoa-a0df",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-misto-pascoa-a0df"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-passaros-2-3f05",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-misto-passaros-2-3f05"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-passaros-f2b6",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-misto-passaros-f2b6"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-pela-casa-65fa",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-misto-pela-casa-65fa"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-praia-48ed",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-praia-48ed"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-profissoes-2854",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-profissoes-2854"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-repteis-e-anfibios-52b7",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-repteis-e-anfibios-52b7"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-roupas-4a5f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-misto-roupas-4a5f"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-sala-de-aula-b97a",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-misto-sala-de-aula-b97a"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-sobremesas-e-doces-337b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-sobremesas-e-doces-337b"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-utensilios-de-cozinha-3780",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-utensilios-de-cozinha-3780"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-vegetais-a735",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-vegetais-a735"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-veiculos-e241",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-misto-veiculos-e241"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-misto-vida-marinha-3bb1",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-misto-vida-marinha-3bb1"
+  }
+ ]
+}

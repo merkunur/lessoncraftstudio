@@ -1,0 +1,780 @@
+{
+ "part": 330,
+ "locale": "fi",
+ "classes": [
+  "pattern-train::abb",
+  "pattern-train::abc"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "kuviojuna-abb-aamiainen-e31e",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "breakfast",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-aamiainen-e31e"
+  },
+  {
+   "slug": "kuviojuna-abb-ajoneuvot-5f70",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "vehicles",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-ajoneuvot-5f70"
+  },
+  {
+   "slug": "kuviojuna-abb-aktiviteetit-b039",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "activities",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-aktiviteetit-b039"
+  },
+  {
+   "slug": "kuviojuna-abb-ammatit-6370",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "occupations",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-ammatit-6370"
+  },
+  {
+   "slug": "kuviojuna-abb-asusteet-2687",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "accessories",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-asusteet-2687"
+  },
+  {
+   "slug": "kuviojuna-abb-avaruus-11b5",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "space",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-avaruus-11b5"
+  },
+  {
+   "slug": "kuviojuna-abb-dinosaurukset-326c",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "dinosaurs",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-dinosaurukset-326c"
+  },
+  {
+   "slug": "kuviojuna-abb-elaimet-f25f",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "animals",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-elaimet-f25f"
+  },
+  {
+   "slug": "kuviojuna-abb-elaintarhan-elaimet-4355",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "zoo_animals",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-elaintarhan-elaimet-4355"
+  },
+  {
+   "slug": "kuviojuna-abb-hedelmat-5d34",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "fruits",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-hedelmat-5d34"
+  },
+  {
+   "slug": "kuviojuna-abb-huonekalut-5115",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "furniture",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-huonekalut-5115"
+  },
+  {
+   "slug": "kuviojuna-abb-hyonteiset-ja-otokat-de58",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "insects_and_bugs",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-hyonteiset-ja-otokat-de58"
+  },
+  {
+   "slug": "kuviojuna-abb-jalkiruoat-ja-makeiset-d9a3",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "desserts_and_sweets",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-jalkiruoat-ja-makeiset-d9a3"
+  },
+  {
+   "slug": "kuviojuna-abb-joulu-df66",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "christmas",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-joulu-df66"
+  },
+  {
+   "slug": "kuviojuna-abb-keittiovalineet-91bc",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "kitchen_tools",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-keittiovalineet-91bc"
+  },
+  {
+   "slug": "kuviojuna-abb-kesa-5442",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "summer",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-kesa-5442"
+  },
+  {
+   "slug": "kuviojuna-abb-kevat-bbff",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "spring",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-kevat-bbff"
+  },
+  {
+   "slug": "kuviojuna-abb-kiitospaiva-2378",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "thanksgivinng",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-kiitospaiva-2378"
+  },
+  {
+   "slug": "kuviojuna-abb-kodin-ymparilla-074b",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "around_the_house",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-kodin-ymparilla-074b"
+  },
+  {
+   "slug": "kuviojuna-abb-kukat-36f7",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "flowers",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-kukat-36f7"
+  },
+  {
+   "slug": "kuviojuna-abb-leipomo-e577",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "bakery",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-leipomo-e577"
+  },
+  {
+   "slug": "kuviojuna-abb-leirielama-1fa3",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "camping",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-leirielama-1fa3"
+  },
+  {
+   "slug": "kuviojuna-abb-lelut-d970",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "toys",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-lelut-d970"
+  },
+  {
+   "slug": "kuviojuna-abb-lemmikit-5262",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "pets",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-lemmikit-5262"
+  },
+  {
+   "slug": "kuviojuna-abb-lentavat-asiat-49b5",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "things_that_fly",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-lentavat-asiat-49b5"
+  },
+  {
+   "slug": "kuviojuna-abb-linnut-2-40bb",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "birds_2",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-linnut-2-40bb"
+  },
+  {
+   "slug": "kuviojuna-abb-linnut-d9b3",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "birds",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-linnut-d9b3"
+  },
+  {
+   "slug": "kuviojuna-abb-luokkahuone-eb1d",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "classroom",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-luokkahuone-eb1d"
+  },
+  {
+   "slug": "kuviojuna-abb-maatilan-elaimet-ffef",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "farm_animals",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-maatilan-elaimet-ffef"
+  },
+  {
+   "slug": "kuviojuna-abb-matelijat-ja-sammakkoelaimet-90c4",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "reptiles_and_amphibians",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-matelijat-ja-sammakkoelaimet-90c4"
+  },
+  {
+   "slug": "kuviojuna-abb-merielama-0fbf",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "ocean_life",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-merielama-0fbf"
+  },
+  {
+   "slug": "kuviojuna-abb-metsan-elaimet-f3e2",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "forest_creatures",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-metsan-elaimet-f3e2"
+  },
+  {
+   "slug": "kuviojuna-abb-muodot-d28e",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "shapes",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-muodot-d28e"
+  },
+  {
+   "slug": "kuviojuna-abb-musiikki-7629",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "music",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-musiikki-7629"
+  },
+  {
+   "slug": "kuviojuna-abb-paasiainen-1905",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "easter",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-paasiainen-1905"
+  },
+  {
+   "slug": "kuviojuna-abb-postitoimisto-1c3b",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "post_office",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-postitoimisto-1c3b"
+  },
+  {
+   "slug": "kuviojuna-abb-puut-71e2",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "tree",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-puut-71e2"
+  },
+  {
+   "slug": "kuviojuna-abb-ranta-7f2d",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "beach",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-ranta-7f2d"
+  },
+  {
+   "slug": "kuviojuna-abb-ruokakaupassa-7474",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "at_the_supermarket",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-ruokakaupassa-7474"
+  },
+  {
+   "slug": "kuviojuna-abb-ruumiinosat-1c53",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "body_parts",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-ruumiinosat-1c53"
+  },
+  {
+   "slug": "kuviojuna-abb-saa-a900",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "weather",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-saa-a900"
+  },
+  {
+   "slug": "kuviojuna-abb-sairaala-a3de",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "hospital",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-sairaala-a3de"
+  },
+  {
+   "slug": "kuviojuna-abb-talvi-91a0",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "winter",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-talvi-91a0"
+  },
+  {
+   "slug": "kuviojuna-abb-tunteet-0dda",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "emotions",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-tunteet-0dda"
+  },
+  {
+   "slug": "kuviojuna-abb-tyokalut-7fa8",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "tools",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-tyokalut-7fa8"
+  },
+  {
+   "slug": "kuviojuna-abb-vaatteet-b694",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "clothing",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-vaatteet-b694"
+  },
+  {
+   "slug": "kuviojuna-abb-varit-4863",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "colors",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-varit-4863"
+  },
+  {
+   "slug": "kuviojuna-abb-vihannekset-603b",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "vegetables",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abb-vihannekset-603b"
+  },
+  {
+   "slug": "kuviojuna-abc-aamiainen-d4d8",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "breakfast",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-aamiainen-d4d8"
+  },
+  {
+   "slug": "kuviojuna-abc-ajoneuvot-9f62",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "vehicles",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-ajoneuvot-9f62"
+  },
+  {
+   "slug": "kuviojuna-abc-aktiviteetit-115a",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "activities",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-aktiviteetit-115a"
+  },
+  {
+   "slug": "kuviojuna-abc-ammatit-4927",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "occupations",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-ammatit-4927"
+  },
+  {
+   "slug": "kuviojuna-abc-asusteet-c89f",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "accessories",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-asusteet-c89f"
+  },
+  {
+   "slug": "kuviojuna-abc-avaruus-05d9",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "space",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-avaruus-05d9"
+  },
+  {
+   "slug": "kuviojuna-abc-dinosaurukset-694b",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "dinosaurs",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-dinosaurukset-694b"
+  },
+  {
+   "slug": "kuviojuna-abc-elaimet-6293",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "animals",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-elaimet-6293"
+  },
+  {
+   "slug": "kuviojuna-abc-elaintarhan-elaimet-cff6",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "zoo_animals",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-elaintarhan-elaimet-cff6"
+  },
+  {
+   "slug": "kuviojuna-abc-hedelmat-46bb",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "fruits",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-hedelmat-46bb"
+  },
+  {
+   "slug": "kuviojuna-abc-huonekalut-1646",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "furniture",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-huonekalut-1646"
+  },
+  {
+   "slug": "kuviojuna-abc-hyonteiset-ja-otokat-0b94",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "insects_and_bugs",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-hyonteiset-ja-otokat-0b94"
+  },
+  {
+   "slug": "kuviojuna-abc-jalkiruoat-ja-makeiset-cb96",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "desserts_and_sweets",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-jalkiruoat-ja-makeiset-cb96"
+  },
+  {
+   "slug": "kuviojuna-abc-joulu-f460",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "christmas",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-joulu-f460"
+  },
+  {
+   "slug": "kuviojuna-abc-keittiovalineet-42a1",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "kitchen_tools",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-keittiovalineet-42a1"
+  },
+  {
+   "slug": "kuviojuna-abc-kesa-c019",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "summer",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-kesa-c019"
+  },
+  {
+   "slug": "kuviojuna-abc-kevat-6bed",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "spring",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-kevat-6bed"
+  },
+  {
+   "slug": "kuviojuna-abc-kiitospaiva-1434",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "thanksgivinng",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-kiitospaiva-1434"
+  },
+  {
+   "slug": "kuviojuna-abc-kodin-ymparilla-7264",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "around_the_house",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-kodin-ymparilla-7264"
+  },
+  {
+   "slug": "kuviojuna-abc-kukat-bc57",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "flowers",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-kukat-bc57"
+  },
+  {
+   "slug": "kuviojuna-abc-leipomo-62c9",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "bakery",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-leipomo-62c9"
+  },
+  {
+   "slug": "kuviojuna-abc-leirielama-6af4",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "camping",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-leirielama-6af4"
+  },
+  {
+   "slug": "kuviojuna-abc-lelut-2e20",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "toys",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-lelut-2e20"
+  },
+  {
+   "slug": "kuviojuna-abc-lemmikit-d74a",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "pets",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-lemmikit-d74a"
+  },
+  {
+   "slug": "kuviojuna-abc-lentavat-asiat-de99",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "things_that_fly",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-lentavat-asiat-de99"
+  },
+  {
+   "slug": "kuviojuna-abc-linnut-2-ac05",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "birds_2",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-linnut-2-ac05"
+  },
+  {
+   "slug": "kuviojuna-abc-linnut-3f67",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "birds",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-linnut-3f67"
+  },
+  {
+   "slug": "kuviojuna-abc-luokkahuone-d4a9",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "classroom",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-luokkahuone-d4a9"
+  },
+  {
+   "slug": "kuviojuna-abc-maatilan-elaimet-5779",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "farm_animals",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-maatilan-elaimet-5779"
+  },
+  {
+   "slug": "kuviojuna-abc-matelijat-ja-sammakkoelaimet-028c",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "reptiles_and_amphibians",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-matelijat-ja-sammakkoelaimet-028c"
+  },
+  {
+   "slug": "kuviojuna-abc-merielama-8098",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "ocean_life",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-merielama-8098"
+  },
+  {
+   "slug": "kuviojuna-abc-metsan-elaimet-a054",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "forest_creatures",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-metsan-elaimet-a054"
+  },
+  {
+   "slug": "kuviojuna-abc-muodot-49ca",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "shapes",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-muodot-49ca"
+  },
+  {
+   "slug": "kuviojuna-abc-musiikki-76cb",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "music",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-musiikki-76cb"
+  },
+  {
+   "slug": "kuviojuna-abc-paasiainen-50b4",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "easter",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-paasiainen-50b4"
+  },
+  {
+   "slug": "kuviojuna-abc-postitoimisto-3ae0",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "post_office",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-postitoimisto-3ae0"
+  },
+  {
+   "slug": "kuviojuna-abc-puut-4e55",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "tree",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-puut-4e55"
+  },
+  {
+   "slug": "kuviojuna-abc-ranta-b15d",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "beach",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-ranta-b15d"
+  },
+  {
+   "slug": "kuviojuna-abc-ruokakaupassa-7183",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "at_the_supermarket",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-ruokakaupassa-7183"
+  },
+  {
+   "slug": "kuviojuna-abc-ruumiinosat-1b45",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "body_parts",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-ruumiinosat-1b45"
+  },
+  {
+   "slug": "kuviojuna-abc-saa-d29f",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "weather",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-saa-d29f"
+  },
+  {
+   "slug": "kuviojuna-abc-sairaala-77d2",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "hospital",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-sairaala-77d2"
+  },
+  {
+   "slug": "kuviojuna-abc-talvi-ba04",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "winter",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-talvi-ba04"
+  },
+  {
+   "slug": "kuviojuna-abc-tunteet-db29",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "emotions",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-tunteet-db29"
+  },
+  {
+   "slug": "kuviojuna-abc-tyokalut-8bb7",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "tools",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-tyokalut-8bb7"
+  },
+  {
+   "slug": "kuviojuna-abc-vaatteet-c056",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "clothing",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-vaatteet-c056"
+  },
+  {
+   "slug": "kuviojuna-abc-varit-6843",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "colors",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-varit-6843"
+  },
+  {
+   "slug": "kuviojuna-abc-vihannekset-042f",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "vegetables",
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-vihannekset-042f"
+  }
+ ]
+}

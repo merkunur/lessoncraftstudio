@@ -1,0 +1,764 @@
+{
+ "part": 272,
+ "locale": "da",
+ "classes": [
+  "word-guess::easy",
+  "word-guess::normal"
+ ],
+ "splitOf": null,
+ "count": 94,
+ "pages": [
+  {
+   "slug": "gaet-ordet-let-aktiviteter-e95f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "activities",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-aktiviteter-e95f"
+  },
+  {
+   "slug": "gaet-ordet-let-bageri-011b",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-bageri-011b"
+  },
+  {
+   "slug": "gaet-ordet-let-blomster-f17e",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-blomster-f17e"
+  },
+  {
+   "slug": "gaet-ordet-let-bondegardsdyr-b4a6",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-bondegardsdyr-b4a6"
+  },
+  {
+   "slug": "gaet-ordet-let-camping-f9e3",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-camping-f9e3"
+  },
+  {
+   "slug": "gaet-ordet-let-desserter-og-slik-810f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "desserts_and_sweets",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-desserter-og-slik-810f"
+  },
+  {
+   "slug": "gaet-ordet-let-dyr-a2c6",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-dyr-a2c6"
+  },
+  {
+   "slug": "gaet-ordet-let-erhverv-5b73",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-erhverv-5b73"
+  },
+  {
+   "slug": "gaet-ordet-let-farver-a530",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "colors",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-farver-a530"
+  },
+  {
+   "slug": "gaet-ordet-let-folelser-2a3c",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "emotions",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-folelser-2a3c"
+  },
+  {
+   "slug": "gaet-ordet-let-forar-4c47",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-forar-4c47"
+  },
+  {
+   "slug": "gaet-ordet-let-former-c5ce",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-former-c5ce"
+  },
+  {
+   "slug": "gaet-ordet-let-frugter-fd0d",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-frugter-fd0d"
+  },
+  {
+   "slug": "gaet-ordet-let-fugle-2-7964",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-fugle-2-7964"
+  },
+  {
+   "slug": "gaet-ordet-let-fugle-5387",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-fugle-5387"
+  },
+  {
+   "slug": "gaet-ordet-let-grontsager-e88d",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-grontsager-e88d"
+  },
+  {
+   "slug": "gaet-ordet-let-havliv-8c6f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-havliv-8c6f"
+  },
+  {
+   "slug": "gaet-ordet-let-hospital-03bf",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-hospital-03bf"
+  },
+  {
+   "slug": "gaet-ordet-let-i-supermarkedet-9a61",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-i-supermarkedet-9a61"
+  },
+  {
+   "slug": "gaet-ordet-let-insekter-og-kryb-3672",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-insekter-og-kryb-3672"
+  },
+  {
+   "slug": "gaet-ordet-let-jul-a1a4",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-jul-a1a4"
+  },
+  {
+   "slug": "gaet-ordet-let-kaeledyr-b6f8",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-kaeledyr-b6f8"
+  },
+  {
+   "slug": "gaet-ordet-let-klassevaerelse-e3a3",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-klassevaerelse-e3a3"
+  },
+  {
+   "slug": "gaet-ordet-let-kokkenredskaber-45a7",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-kokkenredskaber-45a7"
+  },
+  {
+   "slug": "gaet-ordet-let-koretojer-ccf5",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-koretojer-ccf5"
+  },
+  {
+   "slug": "gaet-ordet-let-kropsdele-e2f4",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-kropsdele-e2f4"
+  },
+  {
+   "slug": "gaet-ordet-let-krybdyr-og-padder-bd24",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-krybdyr-og-padder-bd24"
+  },
+  {
+   "slug": "gaet-ordet-let-legetoj-3fa2",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-legetoj-3fa2"
+  },
+  {
+   "slug": "gaet-ordet-let-mobler-07be",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-mobler-07be"
+  },
+  {
+   "slug": "gaet-ordet-let-morgenmad-b18f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-morgenmad-b18f"
+  },
+  {
+   "slug": "gaet-ordet-let-musik-70d6",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-musik-70d6"
+  },
+  {
+   "slug": "gaet-ordet-let-paske-79cd",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-paske-79cd"
+  },
+  {
+   "slug": "gaet-ordet-let-postkontor-a821",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-postkontor-a821"
+  },
+  {
+   "slug": "gaet-ordet-let-rummet-583f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-rummet-583f"
+  },
+  {
+   "slug": "gaet-ordet-let-rundt-i-huset-61c2",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-rundt-i-huset-61c2"
+  },
+  {
+   "slug": "gaet-ordet-let-skovdyr-0f12",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-skovdyr-0f12"
+  },
+  {
+   "slug": "gaet-ordet-let-sommer-63ed",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "summer",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-sommer-63ed"
+  },
+  {
+   "slug": "gaet-ordet-let-strand-6a40",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-strand-6a40"
+  },
+  {
+   "slug": "gaet-ordet-let-thanksgiving-c44a",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-thanksgiving-c44a"
+  },
+  {
+   "slug": "gaet-ordet-let-tilbehor-7a55",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-tilbehor-7a55"
+  },
+  {
+   "slug": "gaet-ordet-let-ting-der-flyver-4f81",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-ting-der-flyver-4f81"
+  },
+  {
+   "slug": "gaet-ordet-let-toj-37b3",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-toj-37b3"
+  },
+  {
+   "slug": "gaet-ordet-let-traeer-019e",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-traeer-019e"
+  },
+  {
+   "slug": "gaet-ordet-let-vaerktoj-01fc",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-vaerktoj-01fc"
+  },
+  {
+   "slug": "gaet-ordet-let-vejr-d1d0",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-vejr-d1d0"
+  },
+  {
+   "slug": "gaet-ordet-let-vinter-1780",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-vinter-1780"
+  },
+  {
+   "slug": "gaet-ordet-let-zoodyr-c12b",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-let-zoodyr-c12b"
+  },
+  {
+   "slug": "gaet-ordet-normal-aktiviteter-01b9",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "activities",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-aktiviteter-01b9"
+  },
+  {
+   "slug": "gaet-ordet-normal-bageri-af83",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "bakery",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-bageri-af83"
+  },
+  {
+   "slug": "gaet-ordet-normal-blomster-4110",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "flowers",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-blomster-4110"
+  },
+  {
+   "slug": "gaet-ordet-normal-bondegardsdyr-f715",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "farm_animals",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-bondegardsdyr-f715"
+  },
+  {
+   "slug": "gaet-ordet-normal-camping-5dc5",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "camping",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-camping-5dc5"
+  },
+  {
+   "slug": "gaet-ordet-normal-desserter-og-slik-698a",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "desserts_and_sweets",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-desserter-og-slik-698a"
+  },
+  {
+   "slug": "gaet-ordet-normal-dyr-7b3a",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "animals",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-dyr-7b3a"
+  },
+  {
+   "slug": "gaet-ordet-normal-erhverv-7cd1",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "occupations",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-erhverv-7cd1"
+  },
+  {
+   "slug": "gaet-ordet-normal-farver-9d75",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "colors",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-farver-9d75"
+  },
+  {
+   "slug": "gaet-ordet-normal-folelser-2df0",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "emotions",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-folelser-2df0"
+  },
+  {
+   "slug": "gaet-ordet-normal-forar-cb49",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "spring",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-forar-cb49"
+  },
+  {
+   "slug": "gaet-ordet-normal-former-7245",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "shapes",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-former-7245"
+  },
+  {
+   "slug": "gaet-ordet-normal-frugter-ced3",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "fruits",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-frugter-ced3"
+  },
+  {
+   "slug": "gaet-ordet-normal-fugle-2-3a53",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "birds_2",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-fugle-2-3a53"
+  },
+  {
+   "slug": "gaet-ordet-normal-fugle-2684",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "birds",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-fugle-2684"
+  },
+  {
+   "slug": "gaet-ordet-normal-grontsager-fbf8",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "vegetables",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-grontsager-fbf8"
+  },
+  {
+   "slug": "gaet-ordet-normal-havliv-1019",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "ocean_life",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-havliv-1019"
+  },
+  {
+   "slug": "gaet-ordet-normal-hospital-b5a8",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "hospital",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-hospital-b5a8"
+  },
+  {
+   "slug": "gaet-ordet-normal-i-supermarkedet-0aec",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "at_the_supermarket",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-i-supermarkedet-0aec"
+  },
+  {
+   "slug": "gaet-ordet-normal-insekter-og-kryb-883e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "insects_and_bugs",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-insekter-og-kryb-883e"
+  },
+  {
+   "slug": "gaet-ordet-normal-jul-46cc",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "christmas",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-jul-46cc"
+  },
+  {
+   "slug": "gaet-ordet-normal-kaeledyr-24ea",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "pets",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-kaeledyr-24ea"
+  },
+  {
+   "slug": "gaet-ordet-normal-klassevaerelse-b792",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "classroom",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-klassevaerelse-b792"
+  },
+  {
+   "slug": "gaet-ordet-normal-kokkenredskaber-f283",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "kitchen_tools",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-kokkenredskaber-f283"
+  },
+  {
+   "slug": "gaet-ordet-normal-koretojer-19f4",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "vehicles",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-koretojer-19f4"
+  },
+  {
+   "slug": "gaet-ordet-normal-kropsdele-d47c",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "body_parts",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-kropsdele-d47c"
+  },
+  {
+   "slug": "gaet-ordet-normal-krybdyr-og-padder-e5f4",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-krybdyr-og-padder-e5f4"
+  },
+  {
+   "slug": "gaet-ordet-normal-legetoj-6a6a",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "toys",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-legetoj-6a6a"
+  },
+  {
+   "slug": "gaet-ordet-normal-mobler-c754",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "furniture",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-mobler-c754"
+  },
+  {
+   "slug": "gaet-ordet-normal-morgenmad-b45b",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "breakfast",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-morgenmad-b45b"
+  },
+  {
+   "slug": "gaet-ordet-normal-musik-f74b",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "music",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-musik-f74b"
+  },
+  {
+   "slug": "gaet-ordet-normal-paske-940f",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "easter",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-paske-940f"
+  },
+  {
+   "slug": "gaet-ordet-normal-postkontor-23d1",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "post_office",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-postkontor-23d1"
+  },
+  {
+   "slug": "gaet-ordet-normal-rummet-def1",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "space",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-rummet-def1"
+  },
+  {
+   "slug": "gaet-ordet-normal-rundt-i-huset-2919",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "around_the_house",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-rundt-i-huset-2919"
+  },
+  {
+   "slug": "gaet-ordet-normal-skovdyr-e301",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "forest_creatures",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-skovdyr-e301"
+  },
+  {
+   "slug": "gaet-ordet-normal-sommer-eab2",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "summer",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-sommer-eab2"
+  },
+  {
+   "slug": "gaet-ordet-normal-strand-729e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "beach",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-strand-729e"
+  },
+  {
+   "slug": "gaet-ordet-normal-thanksgiving-32d7",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "thanksgivinng",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-thanksgiving-32d7"
+  },
+  {
+   "slug": "gaet-ordet-normal-tilbehor-43c2",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "accessories",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-tilbehor-43c2"
+  },
+  {
+   "slug": "gaet-ordet-normal-ting-der-flyver-4ebe",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "things_that_fly",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-ting-der-flyver-4ebe"
+  },
+  {
+   "slug": "gaet-ordet-normal-toj-00f1",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "clothing",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-toj-00f1"
+  },
+  {
+   "slug": "gaet-ordet-normal-traeer-1af1",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "tree",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-traeer-1af1"
+  },
+  {
+   "slug": "gaet-ordet-normal-vaerktoj-2fa9",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "tools",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-vaerktoj-2fa9"
+  },
+  {
+   "slug": "gaet-ordet-normal-vejr-1038",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "weather",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-vejr-1038"
+  },
+  {
+   "slug": "gaet-ordet-normal-vinter-54e5",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "winter",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-vinter-54e5"
+  },
+  {
+   "slug": "gaet-ordet-normal-zoodyr-9d2c",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "zoo_animals",
+   "level": "2-klasse",
+   "deck": "gaet-ordet-normal-zoodyr-9d2c"
+  }
+ ]
+}

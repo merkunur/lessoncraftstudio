@@ -1,0 +1,780 @@
+{
+ "part": 201,
+ "locale": "nl",
+ "classes": [
+  "pattern-train::aab",
+  "pattern-train::aabb"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "patroontrein-aab-accessoires-5db1",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "accessories",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-accessoires-5db1"
+  },
+  {
+   "slug": "patroontrein-aab-activiteiten-b0d2",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "activities",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-activiteiten-b0d2"
+  },
+  {
+   "slug": "patroontrein-aab-bakkerij-f149",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "bakery",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-bakkerij-f149"
+  },
+  {
+   "slug": "patroontrein-aab-beroepen-97b3",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "occupations",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-beroepen-97b3"
+  },
+  {
+   "slug": "patroontrein-aab-bloemen-f652",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "flowers",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-bloemen-f652"
+  },
+  {
+   "slug": "patroontrein-aab-boerderijdieren-7e1c",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "farm_animals",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-boerderijdieren-7e1c"
+  },
+  {
+   "slug": "patroontrein-aab-bomen-a665",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "tree",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-bomen-a665"
+  },
+  {
+   "slug": "patroontrein-aab-boswezens-4341",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "forest_creatures",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-boswezens-4341"
+  },
+  {
+   "slug": "patroontrein-aab-desserts-en-snoep-429a",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "desserts_and_sweets",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-desserts-en-snoep-429a"
+  },
+  {
+   "slug": "patroontrein-aab-dieren-1d8d",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "animals",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-dieren-1d8d"
+  },
+  {
+   "slug": "patroontrein-aab-dierentuindieren-7907",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "zoo_animals",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-dierentuindieren-7907"
+  },
+  {
+   "slug": "patroontrein-aab-dingen-die-vliegen-b51a",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "things_that_fly",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-dingen-die-vliegen-b51a"
+  },
+  {
+   "slug": "patroontrein-aab-dinosaurussen-8330",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "dinosaurs",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-dinosaurussen-8330"
+  },
+  {
+   "slug": "patroontrein-aab-emoties-2351",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "emotions",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-emoties-2351"
+  },
+  {
+   "slug": "patroontrein-aab-fruit-95e3",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "fruits",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-fruit-95e3"
+  },
+  {
+   "slug": "patroontrein-aab-gereedschap-7cad",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "tools",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-gereedschap-7cad"
+  },
+  {
+   "slug": "patroontrein-aab-groenten-c864",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "vegetables",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-groenten-c864"
+  },
+  {
+   "slug": "patroontrein-aab-huisdieren-0591",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "pets",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-huisdieren-0591"
+  },
+  {
+   "slug": "patroontrein-aab-in-de-supermarkt-8b78",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "at_the_supermarket",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-in-de-supermarkt-8b78"
+  },
+  {
+   "slug": "patroontrein-aab-insecten-en-beestjes-4a4c",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "insects_and_bugs",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-insecten-en-beestjes-4a4c"
+  },
+  {
+   "slug": "patroontrein-aab-kamperen-187d",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "camping",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-kamperen-187d"
+  },
+  {
+   "slug": "patroontrein-aab-kerstmis-90bf",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "christmas",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-kerstmis-90bf"
+  },
+  {
+   "slug": "patroontrein-aab-keukengerei-d32b",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "kitchen_tools",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-keukengerei-d32b"
+  },
+  {
+   "slug": "patroontrein-aab-klaslokaal-ddb4",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "classroom",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-klaslokaal-ddb4"
+  },
+  {
+   "slug": "patroontrein-aab-kleding-11a4",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "clothing",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-kleding-11a4"
+  },
+  {
+   "slug": "patroontrein-aab-kleuren-6200",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "colors",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-kleuren-6200"
+  },
+  {
+   "slug": "patroontrein-aab-lente-ec03",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "spring",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-lente-ec03"
+  },
+  {
+   "slug": "patroontrein-aab-lichaamsdelen-edc9",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "body_parts",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-lichaamsdelen-edc9"
+  },
+  {
+   "slug": "patroontrein-aab-meubels-67fc",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "furniture",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-meubels-67fc"
+  },
+  {
+   "slug": "patroontrein-aab-muziek-032d",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "music",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-muziek-032d"
+  },
+  {
+   "slug": "patroontrein-aab-oceaanleven-600c",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "ocean_life",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-oceaanleven-600c"
+  },
+  {
+   "slug": "patroontrein-aab-ontbijt-33ad",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "breakfast",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-ontbijt-33ad"
+  },
+  {
+   "slug": "patroontrein-aab-pasen-0ab7",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "easter",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-pasen-0ab7"
+  },
+  {
+   "slug": "patroontrein-aab-postkantoor-a552",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "post_office",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-postkantoor-a552"
+  },
+  {
+   "slug": "patroontrein-aab-reptielen-en-amfibieen-f2f2",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "reptiles_and_amphibians",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-reptielen-en-amfibieen-f2f2"
+  },
+  {
+   "slug": "patroontrein-aab-rond-het-huis-0209",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "around_the_house",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-rond-het-huis-0209"
+  },
+  {
+   "slug": "patroontrein-aab-ruimte-7dc3",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "space",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-ruimte-7dc3"
+  },
+  {
+   "slug": "patroontrein-aab-speelgoed-5aa1",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "toys",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-speelgoed-5aa1"
+  },
+  {
+   "slug": "patroontrein-aab-strand-7ae5",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "beach",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-strand-7ae5"
+  },
+  {
+   "slug": "patroontrein-aab-thanksgiving-9fe4",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "thanksgivinng",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-thanksgiving-9fe4"
+  },
+  {
+   "slug": "patroontrein-aab-voertuigen-13d9",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "vehicles",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-voertuigen-13d9"
+  },
+  {
+   "slug": "patroontrein-aab-vogels-2-86fe",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "birds_2",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-vogels-2-86fe"
+  },
+  {
+   "slug": "patroontrein-aab-vogels-500a",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "birds",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-vogels-500a"
+  },
+  {
+   "slug": "patroontrein-aab-vormen-c728",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "shapes",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-vormen-c728"
+  },
+  {
+   "slug": "patroontrein-aab-weer-d240",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "weather",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-weer-d240"
+  },
+  {
+   "slug": "patroontrein-aab-winter-2036",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "winter",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-winter-2036"
+  },
+  {
+   "slug": "patroontrein-aab-ziekenhuis-cd15",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "hospital",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-ziekenhuis-cd15"
+  },
+  {
+   "slug": "patroontrein-aab-zomer-7a4f",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "summer",
+   "level": "kleuters",
+   "deck": "patroontrein-aab-zomer-7a4f"
+  },
+  {
+   "slug": "patroontrein-aabb-accessoires-67b1",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "accessories",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-accessoires-67b1"
+  },
+  {
+   "slug": "patroontrein-aabb-activiteiten-bb60",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "activities",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-activiteiten-bb60"
+  },
+  {
+   "slug": "patroontrein-aabb-bakkerij-b910",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "bakery",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-bakkerij-b910"
+  },
+  {
+   "slug": "patroontrein-aabb-beroepen-90f1",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "occupations",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-beroepen-90f1"
+  },
+  {
+   "slug": "patroontrein-aabb-bloemen-2dcf",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "flowers",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-bloemen-2dcf"
+  },
+  {
+   "slug": "patroontrein-aabb-boerderijdieren-d473",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "farm_animals",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-boerderijdieren-d473"
+  },
+  {
+   "slug": "patroontrein-aabb-bomen-d9ae",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "tree",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-bomen-d9ae"
+  },
+  {
+   "slug": "patroontrein-aabb-boswezens-997c",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "forest_creatures",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-boswezens-997c"
+  },
+  {
+   "slug": "patroontrein-aabb-desserts-en-snoep-dee5",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "desserts_and_sweets",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-desserts-en-snoep-dee5"
+  },
+  {
+   "slug": "patroontrein-aabb-dieren-dff3",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "animals",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-dieren-dff3"
+  },
+  {
+   "slug": "patroontrein-aabb-dierentuindieren-92f6",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "zoo_animals",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-dierentuindieren-92f6"
+  },
+  {
+   "slug": "patroontrein-aabb-dingen-die-vliegen-6697",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "things_that_fly",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-dingen-die-vliegen-6697"
+  },
+  {
+   "slug": "patroontrein-aabb-dinosaurussen-ec84",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "dinosaurs",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-dinosaurussen-ec84"
+  },
+  {
+   "slug": "patroontrein-aabb-emoties-267a",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "emotions",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-emoties-267a"
+  },
+  {
+   "slug": "patroontrein-aabb-fruit-1f59",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "fruits",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-fruit-1f59"
+  },
+  {
+   "slug": "patroontrein-aabb-gereedschap-bdbf",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "tools",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-gereedschap-bdbf"
+  },
+  {
+   "slug": "patroontrein-aabb-groenten-9bae",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "vegetables",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-groenten-9bae"
+  },
+  {
+   "slug": "patroontrein-aabb-huisdieren-9b6c",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "pets",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-huisdieren-9b6c"
+  },
+  {
+   "slug": "patroontrein-aabb-in-de-supermarkt-7c3c",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "at_the_supermarket",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-in-de-supermarkt-7c3c"
+  },
+  {
+   "slug": "patroontrein-aabb-insecten-en-beestjes-fdec",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "insects_and_bugs",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-insecten-en-beestjes-fdec"
+  },
+  {
+   "slug": "patroontrein-aabb-kamperen-4efc",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "camping",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-kamperen-4efc"
+  },
+  {
+   "slug": "patroontrein-aabb-kerstmis-5b7a",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "christmas",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-kerstmis-5b7a"
+  },
+  {
+   "slug": "patroontrein-aabb-keukengerei-71ca",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "kitchen_tools",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-keukengerei-71ca"
+  },
+  {
+   "slug": "patroontrein-aabb-klaslokaal-0a87",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "classroom",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-klaslokaal-0a87"
+  },
+  {
+   "slug": "patroontrein-aabb-kleding-a639",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "clothing",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-kleding-a639"
+  },
+  {
+   "slug": "patroontrein-aabb-kleuren-0021",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "colors",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-kleuren-0021"
+  },
+  {
+   "slug": "patroontrein-aabb-lente-5fcb",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "spring",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-lente-5fcb"
+  },
+  {
+   "slug": "patroontrein-aabb-lichaamsdelen-e64b",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "body_parts",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-lichaamsdelen-e64b"
+  },
+  {
+   "slug": "patroontrein-aabb-meubels-808a",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "furniture",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-meubels-808a"
+  },
+  {
+   "slug": "patroontrein-aabb-muziek-51b9",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "music",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-muziek-51b9"
+  },
+  {
+   "slug": "patroontrein-aabb-oceaanleven-857b",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "ocean_life",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-oceaanleven-857b"
+  },
+  {
+   "slug": "patroontrein-aabb-ontbijt-c6ae",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "breakfast",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-ontbijt-c6ae"
+  },
+  {
+   "slug": "patroontrein-aabb-pasen-24db",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "easter",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-pasen-24db"
+  },
+  {
+   "slug": "patroontrein-aabb-postkantoor-ed8b",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "post_office",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-postkantoor-ed8b"
+  },
+  {
+   "slug": "patroontrein-aabb-reptielen-en-amfibieen-f114",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "reptiles_and_amphibians",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-reptielen-en-amfibieen-f114"
+  },
+  {
+   "slug": "patroontrein-aabb-rond-het-huis-7848",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "around_the_house",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-rond-het-huis-7848"
+  },
+  {
+   "slug": "patroontrein-aabb-ruimte-c91c",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "space",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-ruimte-c91c"
+  },
+  {
+   "slug": "patroontrein-aabb-speelgoed-4321",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "toys",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-speelgoed-4321"
+  },
+  {
+   "slug": "patroontrein-aabb-strand-d1af",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "beach",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-strand-d1af"
+  },
+  {
+   "slug": "patroontrein-aabb-thanksgiving-3986",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "thanksgivinng",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-thanksgiving-3986"
+  },
+  {
+   "slug": "patroontrein-aabb-voertuigen-c6b4",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "vehicles",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-voertuigen-c6b4"
+  },
+  {
+   "slug": "patroontrein-aabb-vogels-2-9f4b",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "birds_2",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-vogels-2-9f4b"
+  },
+  {
+   "slug": "patroontrein-aabb-vogels-7259",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "birds",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-vogels-7259"
+  },
+  {
+   "slug": "patroontrein-aabb-vormen-f75c",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "shapes",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-vormen-f75c"
+  },
+  {
+   "slug": "patroontrein-aabb-weer-6eb6",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "weather",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-weer-6eb6"
+  },
+  {
+   "slug": "patroontrein-aabb-winter-73ff",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "winter",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-winter-73ff"
+  },
+  {
+   "slug": "patroontrein-aabb-ziekenhuis-7052",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "hospital",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-ziekenhuis-7052"
+  },
+  {
+   "slug": "patroontrein-aabb-zomer-c4a1",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "summer",
+   "level": "kleuters",
+   "deck": "patroontrein-aabb-zomer-c4a1"
+  }
+ ]
+}

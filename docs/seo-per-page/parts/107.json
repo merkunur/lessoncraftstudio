@@ -1,0 +1,504 @@
+{
+ "part": 107,
+ "locale": "pt",
+ "classes": [
+  "picture-sort::null"
+ ],
+ "splitOf": {
+  "class": "picture-sort::null",
+  "total": 122,
+  "chunk": 2,
+  "chunks": 2
+ },
+ "count": 61,
+ "pages": [
+  {
+   "slug": "ordenar-imagens-animals-vs-furniture-4c62",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-furniture",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-furniture-4c62"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-hospital-4df8",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-hospital",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-hospital-4df8"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-kitchen-tools-c9bc",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-kitchen_tools",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-kitchen-tools-c9bc"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-occupations-8245",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-occupations",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-occupations-8245"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-post-office-cf24",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-post_office",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-post-office-cf24"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-shapes-a146",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-shapes",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-shapes-a146"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-space-b48b",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-space",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-space-b48b"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-spring-48d1",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-spring",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-spring-48d1"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-summer-d77f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-summer",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-summer-d77f"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-thanksgiving-11c5",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-thanksgivinng",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-thanksgiving-11c5"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-tools-e3d4",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-tools",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-tools-e3d4"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-toys-a360",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-toys",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-toys-a360"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-tree-4455",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-tree",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-tree-4455"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-vegetables-c16f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-vegetables",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-vegetables-c16f"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-vehicles-b595",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-vehicles",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-vehicles-b595"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-weather-dccd",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-weather",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-weather-dccd"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-accessories-ecce",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-accessories",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-accessories-ecce"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-activities-0026",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-activities",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-activities-0026"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-animals-6524",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-animals",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-animals-6524"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-around-the-house-f17e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-around_the_house",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-around-the-house-f17e"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-at-the-supermarket-4a90",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-at_the_supermarket",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-at-the-supermarket-4a90"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-bakery-8499",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-bakery",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-bakery-8499"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-beach-ab54",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-beach",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-beach-ab54"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-birds-2-6a0e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-birds_2",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-birds-2-6a0e"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-birds-dc8d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-birds",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-birds-dc8d"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-body-parts-5d2f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-body_parts",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-body-parts-5d2f"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-breakfast-a87f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-breakfast",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-breakfast-a87f"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-christmas-0cc7",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-christmas",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-christmas-0cc7"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-classroom-2445",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-classroom",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-classroom-2445"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-clothing-b1e7",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-clothing",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-clothing-b1e7"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-colors-61f5",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-colors",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-colors-61f5"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-desserts-and-sweets-eb01",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-desserts_and_sweets",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-desserts-and-sweets-eb01"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-dinosaurs-e0b3",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-dinosaurs",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-dinosaurs-e0b3"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-easter-501f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-easter",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-easter-501f"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-emotions-d9d8",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-emotions",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-emotions-d9d8"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-farm-animals-c949",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-farm_animals",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-farm-animals-c949"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-flowers-3601",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-flowers",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-flowers-3601"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-forest-creatures-23b0",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-forest_creatures",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-forest-creatures-23b0"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-fruits-a790",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-fruits",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-fruits-a790"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-furniture-5904",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-furniture",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-furniture-5904"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-hospital-5ad6",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-hospital",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-hospital-5ad6"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-insects-and-bugs-67e8",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-insects_and_bugs",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-insects-and-bugs-67e8"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-kitchen-tools-7731",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-kitchen_tools",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-kitchen-tools-7731"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-music-ffad",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-music",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-music-ffad"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-occupations-e1d5",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-occupations",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-occupations-e1d5"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-ocean-life-dba4",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-ocean_life",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-ocean-life-dba4"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-pets-e585",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-pets",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-pets-e585"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-post-office-1a0e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-post_office",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-post-office-1a0e"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-reptiles-and-amphibians-4698",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-reptiles_and_amphibians",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-reptiles-and-amphibians-4698"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-shapes-d76d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-shapes",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-shapes-d76d"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-space-82d4",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-space",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-space-82d4"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-thanksgiving-0bcf",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-thanksgivinng",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-thanksgiving-0bcf"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-things-that-fly-8e72",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-things_that_fly",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-things-that-fly-8e72"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-tools-47cb",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-tools",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-tools-47cb"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-toys-1a82",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-toys",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-toys-1a82"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-tree-5e5d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-tree",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-tree-5e5d"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-vegetables-8903",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-vegetables",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-vegetables-8903"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-vehicles-12ec",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-vehicles",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-vehicles-12ec"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-weather-ee70",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-weather",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-weather-ee70"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-winter-7bd0",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-winter",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-winter-7bd0"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-zoo-animals-004c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-zoo_animals",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-zoo-animals-004c"
+  }
+ ]
+}

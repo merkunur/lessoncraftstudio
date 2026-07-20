@@ -1,0 +1,780 @@
+{
+ "part": 204,
+ "locale": "nl",
+ "classes": [
+  "treasure-hunt::cardinal-arrows",
+  "treasure-hunt::compass"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-accessoires-2551",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "accessories",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-accessoires-2551"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-activiteiten-8aaf",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "activities",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-activiteiten-8aaf"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-bakkerij-5530",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "bakery",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-bakkerij-5530"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-beroepen-3055",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "occupations",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-beroepen-3055"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-bloemen-fd3c",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "flowers",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-bloemen-fd3c"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-boerderijdieren-8774",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "farm_animals",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-boerderijdieren-8774"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-bomen-7576",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "tree",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-bomen-7576"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-boswezens-a18c",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "forest_creatures",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-boswezens-a18c"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-desserts-en-snoep-e890",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "desserts_and_sweets",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-desserts-en-snoep-e890"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-dieren",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "animals",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-dieren"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-dierentuindieren-1d16",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "zoo_animals",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-dierentuindieren-1d16"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-dingen-die-vliegen-b770",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "things_that_fly",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-dingen-die-vliegen-b770"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-dinosaurussen-9ec5",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "dinosaurs",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-dinosaurussen-9ec5"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-emoties-b771",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "emotions",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-emoties-b771"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-fruit-9d6e",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "fruits",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-fruit-9d6e"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-gereedschap-d601",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "tools",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-gereedschap-d601"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-groenten-7402",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "vegetables",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-groenten-7402"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-huisdieren-e66d",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "pets",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-huisdieren-e66d"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-in-de-supermarkt-9832",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "at_the_supermarket",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-in-de-supermarkt-9832"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-insecten-en-beestjes-fb0b",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "insects_and_bugs",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-insecten-en-beestjes-fb0b"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-kamperen-70b3",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "camping",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-kamperen-70b3"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-kerstmis-075e",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "christmas",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-kerstmis-075e"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-keukengerei-d7b7",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "kitchen_tools",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-keukengerei-d7b7"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-klaslokaal-2cca",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "classroom",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-klaslokaal-2cca"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-kleding-2a37",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "clothing",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-kleding-2a37"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-kleuren-a2d6",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "colors",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-kleuren-a2d6"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-lente-c792",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "spring",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-lente-c792"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-lichaamsdelen-fd10",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "body_parts",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-lichaamsdelen-fd10"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-meubels-aee9",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "furniture",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-meubels-aee9"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-muziek-3de7",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "music",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-muziek-3de7"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-oceaanleven-3519",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "ocean_life",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-oceaanleven-3519"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-ontbijt-d934",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "breakfast",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-ontbijt-d934"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-pasen-5014",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "easter",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-pasen-5014"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-postkantoor-40f6",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "post_office",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-postkantoor-40f6"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-reptielen-en-amfibieen-e145",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "reptiles_and_amphibians",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-reptielen-en-amfibieen-e145"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-rond-het-huis-6c7e",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "around_the_house",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-rond-het-huis-6c7e"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-ruimte-a149",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "space",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-ruimte-a149"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-speelgoed-8de3",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "toys",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-speelgoed-8de3"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-strand-6465",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "beach",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-strand-6465"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-thanksgiving-a3fd",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "thanksgivinng",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-thanksgiving-a3fd"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-voertuigen-c265",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "vehicles",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-voertuigen-c265"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-vogels-14dd",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "birds",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-vogels-14dd"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-vogels-2-6ff7",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "birds_2",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-vogels-2-6ff7"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-vormen-4b3b",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "shapes",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-vormen-4b3b"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-weer-f4a1",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "weather",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-weer-f4a1"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-winter-d2fa",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "winter",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-winter-d2fa"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-ziekenhuis-158f",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "hospital",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-ziekenhuis-158f"
+  },
+  {
+   "slug": "schatzoektocht-op-neer-links-rechts-zomer-547f",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "summer",
+   "level": "kleuters",
+   "deck": "schatzoektocht-op-neer-links-rechts-zomer-547f"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-accessoires-7351",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "accessories",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-accessoires-7351"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-activiteiten-e41d",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "activities",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-activiteiten-e41d"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-bakkerij-56fa",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "bakery",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-bakkerij-56fa"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-beroepen-3ea8",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "occupations",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-beroepen-3ea8"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-bloemen-e288",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "flowers",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-bloemen-e288"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-boerderijdieren-2526",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "farm_animals",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-boerderijdieren-2526"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-bomen-8d47",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "tree",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-bomen-8d47"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-boswezens-a887",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "forest_creatures",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-boswezens-a887"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-desserts-en-snoep-316e",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "desserts_and_sweets",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-desserts-en-snoep-316e"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-dieren-91f3",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "animals",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-dieren-91f3"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-dierentuindieren-9770",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "zoo_animals",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-dierentuindieren-9770"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-dingen-die-vliegen-4dc8",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "things_that_fly",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-dingen-die-vliegen-4dc8"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-dinosaurussen-8540",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "dinosaurs",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-dinosaurussen-8540"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-emoties-1def",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "emotions",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-emoties-1def"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-fruit-6431",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "fruits",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-fruit-6431"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-gereedschap-7b35",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "tools",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-gereedschap-7b35"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-groenten-4d93",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "vegetables",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-groenten-4d93"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-huisdieren-8ae2",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "pets",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-huisdieren-8ae2"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-in-de-supermarkt-2547",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "at_the_supermarket",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-in-de-supermarkt-2547"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-insecten-en-beestjes-aae6",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "insects_and_bugs",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-insecten-en-beestjes-aae6"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-kamperen-f171",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "camping",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-kamperen-f171"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-kerstmis-a6f3",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "christmas",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-kerstmis-a6f3"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-keukengerei-8831",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "kitchen_tools",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-keukengerei-8831"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-klaslokaal-55af",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "classroom",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-klaslokaal-55af"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-kleding-85c2",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "clothing",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-kleding-85c2"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-kleuren-7d40",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "colors",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-kleuren-7d40"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-lente-15ae",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "spring",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-lente-15ae"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-lichaamsdelen-112c",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "body_parts",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-lichaamsdelen-112c"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-meubels-8de0",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "furniture",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-meubels-8de0"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-muziek-2ee6",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "music",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-muziek-2ee6"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-oceaanleven-9af3",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "ocean_life",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-oceaanleven-9af3"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-ontbijt-8a4c",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "breakfast",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-ontbijt-8a4c"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-pasen-1fda",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "easter",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-pasen-1fda"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-postkantoor-9c98",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "post_office",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-postkantoor-9c98"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-reptielen-en-amfibieen-ca9e",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "reptiles_and_amphibians",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-reptielen-en-amfibieen-ca9e"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-rond-het-huis-031c",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "around_the_house",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-rond-het-huis-031c"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-ruimte-9ec4",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "space",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-ruimte-9ec4"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-speelgoed-63fc",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "toys",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-speelgoed-63fc"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-strand-66d0",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "beach",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-strand-66d0"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-thanksgiving-b960",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "thanksgivinng",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-thanksgiving-b960"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-voertuigen-3dfc",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "vehicles",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-voertuigen-3dfc"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-vogels-2-b47c",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "birds_2",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-vogels-2-b47c"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-vogels-aed9",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "birds",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-vogels-aed9"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-vormen-cc69",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "shapes",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-vormen-cc69"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-weer-c48b",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "weather",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-weer-c48b"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-winter-1942",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "winter",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-winter-1942"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-ziekenhuis-fca6",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "hospital",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-ziekenhuis-fca6"
+  },
+  {
+   "slug": "schatzoektocht-windrichtingen-zomer-52cd",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "summer",
+   "level": "kleuters",
+   "deck": "schatzoektocht-windrichtingen-zomer-52cd"
+  }
+ ]
+}

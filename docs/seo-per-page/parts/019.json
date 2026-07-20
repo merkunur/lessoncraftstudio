@@ -1,0 +1,584 @@
+{
+ "part": 19,
+ "locale": "en",
+ "classes": [
+  "crossword::null"
+ ],
+ "splitOf": {
+  "class": "crossword::null",
+  "total": 497,
+  "chunk": 5,
+  "chunks": 7
+ },
+ "count": 71,
+ "pages": [
+  {
+   "slug": "italian-crossword-body-parts-61d8",
+   "type": "crossword",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "language-beginner",
+   "deck": "italian-crossword-body-parts-61d8"
+  },
+  {
+   "slug": "italian-crossword-breakfast-29b2",
+   "type": "crossword",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "language-beginner",
+   "deck": "italian-crossword-breakfast-29b2"
+  },
+  {
+   "slug": "italian-crossword-camping-045e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "italian-crossword-camping-045e"
+  },
+  {
+   "slug": "italian-crossword-christmas-ceb4",
+   "type": "crossword",
+   "mode": null,
+   "theme": "christmas",
+   "level": "language-beginner",
+   "deck": "italian-crossword-christmas-ceb4"
+  },
+  {
+   "slug": "italian-crossword-classroom-2d9f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "classroom",
+   "level": "language-beginner",
+   "deck": "italian-crossword-classroom-2d9f"
+  },
+  {
+   "slug": "italian-crossword-clothing-2fac",
+   "type": "crossword",
+   "mode": null,
+   "theme": "clothing",
+   "level": "language-beginner",
+   "deck": "italian-crossword-clothing-2fac"
+  },
+  {
+   "slug": "italian-crossword-colors-90a5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "italian-crossword-colors-90a5"
+  },
+  {
+   "slug": "italian-crossword-desserts-and-sweets-f8fe",
+   "type": "crossword",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "language-beginner",
+   "deck": "italian-crossword-desserts-and-sweets-f8fe"
+  },
+  {
+   "slug": "italian-crossword-easter-bc45",
+   "type": "crossword",
+   "mode": null,
+   "theme": "easter",
+   "level": "language-beginner",
+   "deck": "italian-crossword-easter-bc45"
+  },
+  {
+   "slug": "italian-crossword-farm-animals-762e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "italian-crossword-farm-animals-762e"
+  },
+  {
+   "slug": "italian-crossword-flowers-3435",
+   "type": "crossword",
+   "mode": null,
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "italian-crossword-flowers-3435"
+  },
+  {
+   "slug": "italian-crossword-forest-creatures-0297",
+   "type": "crossword",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "italian-crossword-forest-creatures-0297"
+  },
+  {
+   "slug": "italian-crossword-fruits-5e1f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "italian-crossword-fruits-5e1f"
+  },
+  {
+   "slug": "italian-crossword-furniture-6bdd",
+   "type": "crossword",
+   "mode": null,
+   "theme": "furniture",
+   "level": "language-beginner",
+   "deck": "italian-crossword-furniture-6bdd"
+  },
+  {
+   "slug": "italian-crossword-hospital-0370",
+   "type": "crossword",
+   "mode": null,
+   "theme": "hospital",
+   "level": "language-beginner",
+   "deck": "italian-crossword-hospital-0370"
+  },
+  {
+   "slug": "italian-crossword-insects-and-bugs-ee38",
+   "type": "crossword",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "language-beginner",
+   "deck": "italian-crossword-insects-and-bugs-ee38"
+  },
+  {
+   "slug": "italian-crossword-kitchen-tools-8f47",
+   "type": "crossword",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "language-beginner",
+   "deck": "italian-crossword-kitchen-tools-8f47"
+  },
+  {
+   "slug": "italian-crossword-music-7bb5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "music",
+   "level": "language-beginner",
+   "deck": "italian-crossword-music-7bb5"
+  },
+  {
+   "slug": "italian-crossword-occupations-6dcc",
+   "type": "crossword",
+   "mode": null,
+   "theme": "occupations",
+   "level": "language-beginner",
+   "deck": "italian-crossword-occupations-6dcc"
+  },
+  {
+   "slug": "italian-crossword-ocean-life-25ae",
+   "type": "crossword",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "language-beginner",
+   "deck": "italian-crossword-ocean-life-25ae"
+  },
+  {
+   "slug": "italian-crossword-pets-aee3",
+   "type": "crossword",
+   "mode": null,
+   "theme": "pets",
+   "level": "language-beginner",
+   "deck": "italian-crossword-pets-aee3"
+  },
+  {
+   "slug": "italian-crossword-post-office-bbbc",
+   "type": "crossword",
+   "mode": null,
+   "theme": "post_office",
+   "level": "language-beginner",
+   "deck": "italian-crossword-post-office-bbbc"
+  },
+  {
+   "slug": "italian-crossword-shapes-2f82",
+   "type": "crossword",
+   "mode": null,
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "italian-crossword-shapes-2f82"
+  },
+  {
+   "slug": "italian-crossword-space-4ee2",
+   "type": "crossword",
+   "mode": null,
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "italian-crossword-space-4ee2"
+  },
+  {
+   "slug": "italian-crossword-spring-5f80",
+   "type": "crossword",
+   "mode": null,
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "italian-crossword-spring-5f80"
+  },
+  {
+   "slug": "italian-crossword-summer-b842",
+   "type": "crossword",
+   "mode": null,
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "italian-crossword-summer-b842"
+  },
+  {
+   "slug": "italian-crossword-thanksgiving-e699",
+   "type": "crossword",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "italian-crossword-thanksgiving-e699"
+  },
+  {
+   "slug": "italian-crossword-things-that-fly-d374",
+   "type": "crossword",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "italian-crossword-things-that-fly-d374"
+  },
+  {
+   "slug": "italian-crossword-tools-b222",
+   "type": "crossword",
+   "mode": null,
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "italian-crossword-tools-b222"
+  },
+  {
+   "slug": "italian-crossword-vehicles-783d",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "language-beginner",
+   "deck": "italian-crossword-vehicles-783d"
+  },
+  {
+   "slug": "italian-crossword-weather-903b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "italian-crossword-weather-903b"
+  },
+  {
+   "slug": "italian-crossword-winter-9a66",
+   "type": "crossword",
+   "mode": null,
+   "theme": "winter",
+   "level": "language-beginner",
+   "deck": "italian-crossword-winter-9a66"
+  },
+  {
+   "slug": "italian-crossword-zoo-animals-81af",
+   "type": "crossword",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "language-beginner",
+   "deck": "italian-crossword-zoo-animals-81af"
+  },
+  {
+   "slug": "norwegian-crossword-4th-of-july-2c9c",
+   "type": "crossword",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-4th-of-july-2c9c"
+  },
+  {
+   "slug": "norwegian-crossword-accessories-d97e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "accessories",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-accessories-d97e"
+  },
+  {
+   "slug": "norwegian-crossword-activities-230b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-activities-230b"
+  },
+  {
+   "slug": "norwegian-crossword-animals-6f4a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-animals-6f4a"
+  },
+  {
+   "slug": "norwegian-crossword-around-the-house-4469",
+   "type": "crossword",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-around-the-house-4469"
+  },
+  {
+   "slug": "norwegian-crossword-at-the-supermarket-47c8",
+   "type": "crossword",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-at-the-supermarket-47c8"
+  },
+  {
+   "slug": "norwegian-crossword-bakery-e5de",
+   "type": "crossword",
+   "mode": null,
+   "theme": "bakery",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-bakery-e5de"
+  },
+  {
+   "slug": "norwegian-crossword-beach-3e2e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "beach",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-beach-3e2e"
+  },
+  {
+   "slug": "norwegian-crossword-birds-2-4801",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-birds-2-4801"
+  },
+  {
+   "slug": "norwegian-crossword-birds-2c83",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-birds-2c83"
+  },
+  {
+   "slug": "norwegian-crossword-body-parts-e620",
+   "type": "crossword",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-body-parts-e620"
+  },
+  {
+   "slug": "norwegian-crossword-breakfast-38d3",
+   "type": "crossword",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-breakfast-38d3"
+  },
+  {
+   "slug": "norwegian-crossword-camping-729a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-camping-729a"
+  },
+  {
+   "slug": "norwegian-crossword-christmas-2e70",
+   "type": "crossword",
+   "mode": null,
+   "theme": "christmas",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-christmas-2e70"
+  },
+  {
+   "slug": "norwegian-crossword-classroom-210a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "classroom",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-classroom-210a"
+  },
+  {
+   "slug": "norwegian-crossword-clothing-97d9",
+   "type": "crossword",
+   "mode": null,
+   "theme": "clothing",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-clothing-97d9"
+  },
+  {
+   "slug": "norwegian-crossword-colors-67e2",
+   "type": "crossword",
+   "mode": null,
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-colors-67e2"
+  },
+  {
+   "slug": "norwegian-crossword-desserts-and-sweets-a649",
+   "type": "crossword",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-desserts-and-sweets-a649"
+  },
+  {
+   "slug": "norwegian-crossword-easter-7448",
+   "type": "crossword",
+   "mode": null,
+   "theme": "easter",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-easter-7448"
+  },
+  {
+   "slug": "norwegian-crossword-emotions-753e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-emotions-753e"
+  },
+  {
+   "slug": "norwegian-crossword-farm-animals-45e0",
+   "type": "crossword",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-farm-animals-45e0"
+  },
+  {
+   "slug": "norwegian-crossword-flowers-9690",
+   "type": "crossword",
+   "mode": null,
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-flowers-9690"
+  },
+  {
+   "slug": "norwegian-crossword-forest-creatures-ec51",
+   "type": "crossword",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-forest-creatures-ec51"
+  },
+  {
+   "slug": "norwegian-crossword-fruits-6bae",
+   "type": "crossword",
+   "mode": null,
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-fruits-6bae"
+  },
+  {
+   "slug": "norwegian-crossword-furniture-e091",
+   "type": "crossword",
+   "mode": null,
+   "theme": "furniture",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-furniture-e091"
+  },
+  {
+   "slug": "norwegian-crossword-hospital-fcb5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "hospital",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-hospital-fcb5"
+  },
+  {
+   "slug": "norwegian-crossword-insects-and-bugs-2c34",
+   "type": "crossword",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-insects-and-bugs-2c34"
+  },
+  {
+   "slug": "norwegian-crossword-kitchen-tools-eb82",
+   "type": "crossword",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-kitchen-tools-eb82"
+  },
+  {
+   "slug": "norwegian-crossword-music-4d88",
+   "type": "crossword",
+   "mode": null,
+   "theme": "music",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-music-4d88"
+  },
+  {
+   "slug": "norwegian-crossword-occupations-75a6",
+   "type": "crossword",
+   "mode": null,
+   "theme": "occupations",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-occupations-75a6"
+  },
+  {
+   "slug": "norwegian-crossword-ocean-life-17fe",
+   "type": "crossword",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-ocean-life-17fe"
+  },
+  {
+   "slug": "norwegian-crossword-pets-1ad4",
+   "type": "crossword",
+   "mode": null,
+   "theme": "pets",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-pets-1ad4"
+  },
+  {
+   "slug": "norwegian-crossword-post-office-be95",
+   "type": "crossword",
+   "mode": null,
+   "theme": "post_office",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-post-office-be95"
+  },
+  {
+   "slug": "norwegian-crossword-reptiles-and-amphibians-cada",
+   "type": "crossword",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-reptiles-and-amphibians-cada"
+  },
+  {
+   "slug": "norwegian-crossword-shapes-dc33",
+   "type": "crossword",
+   "mode": null,
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-shapes-dc33"
+  },
+  {
+   "slug": "norwegian-crossword-space-766f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-space-766f"
+  },
+  {
+   "slug": "norwegian-crossword-spring-76cd",
+   "type": "crossword",
+   "mode": null,
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-spring-76cd"
+  },
+  {
+   "slug": "norwegian-crossword-summer-54bb",
+   "type": "crossword",
+   "mode": null,
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-summer-54bb"
+  }
+ ]
+}

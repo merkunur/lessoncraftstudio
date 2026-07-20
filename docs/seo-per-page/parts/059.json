@@ -1,0 +1,764 @@
+{
+ "part": 59,
+ "locale": "de",
+ "classes": [
+  "sudoku::medium",
+  "word-guess::easy"
+ ],
+ "splitOf": null,
+ "count": 94,
+ "pages": [
+  {
+   "slug": "bilder-sudoku-mittel-accessoires-5eeb",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "accessories",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-accessoires-5eeb"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-aktivitaten-d8c8",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "activities",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-aktivitaten-d8c8"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-backerei-ce03",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "bakery",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-backerei-ce03"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-bauernhoftiere-7ad5",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "farm_animals",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-bauernhoftiere-7ad5"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-baume-564f",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "tree",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-baume-564f"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-berufe-cfa9",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "occupations",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-berufe-cfa9"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-blumen-377f",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "flowers",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-blumen-377f"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-camping-f64c",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "camping",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-camping-f64c"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-desserts-und-sussigkeiten-f53f",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "desserts_and_sweets",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-desserts-und-sussigkeiten-f53f"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-dinge-die-fliegen-a981",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "things_that_fly",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-dinge-die-fliegen-a981"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-dinosaurier-8e70",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "dinosaurs",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-dinosaurier-8e70"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-emotionen-c0ea",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "emotions",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-emotionen-c0ea"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-erntedankfest-9a1e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "thanksgivinng",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-erntedankfest-9a1e"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-fahrzeuge-79e4",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "vehicles",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-fahrzeuge-79e4"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-farben-948f",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "colors",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-farben-948f"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-formen-09bc",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "shapes",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-formen-09bc"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-fruchte-3f06",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "fruits",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-fruchte-3f06"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-fruhling-872a",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "spring",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-fruhling-872a"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-fruhstuck-cb72",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "breakfast",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-fruhstuck-cb72"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-gemuse-0d27",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "vegetables",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-gemuse-0d27"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-haustiere-e658",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "pets",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-haustiere-e658"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-im-supermarkt-4ac3",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "at_the_supermarket",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-im-supermarkt-4ac3"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-insekten-und-kafer-5f37",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "insects_and_bugs",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-insekten-und-kafer-5f37"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-klassenzimmer-51f3",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "classroom",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-klassenzimmer-51f3"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-kleidung-8d45",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "clothing",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-kleidung-8d45"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-korperteile-ccc3",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "body_parts",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-korperteile-ccc3"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-krankenhaus-615e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "hospital",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-krankenhaus-615e"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-kuchenwerkzeuge-ce68",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "kitchen_tools",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-kuchenwerkzeuge-ce68"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-meeresleben-4b4a",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "ocean_life",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-meeresleben-4b4a"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-mobel-3d3d",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "furniture",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-mobel-3d3d"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-musik-7fc1",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "music",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-musik-7fc1"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-ostern-91f6",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "easter",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-ostern-91f6"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-postamt-298f",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "post_office",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-postamt-298f"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-rund-ums-haus-cd5a",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "around_the_house",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-rund-ums-haus-cd5a"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-sommer-20cf",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "summer",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-sommer-20cf"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-spielzeug-26f9",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "toys",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-spielzeug-26f9"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-strand-628b",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "beach",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-strand-628b"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-tiere-9ccc",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "animals",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-tiere-9ccc"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-vogel-2-d9b2",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "birds_2",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-vogel-2-d9b2"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-vogel-8b75",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "birds",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-vogel-8b75"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-waldtiere-52d7",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "forest_creatures",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-waldtiere-52d7"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-weihnachten-c801",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "christmas",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-weihnachten-c801"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-weltraum-e90b",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "space",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-weltraum-e90b"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-werkzeuge-6da4",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "tools",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-werkzeuge-6da4"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-wetter-160b",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "weather",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-wetter-160b"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-winter-6014",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "winter",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-winter-6014"
+  },
+  {
+   "slug": "bilder-sudoku-mittel-zootiere-cec5",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "zoo_animals",
+   "level": "vorschule",
+   "deck": "bilder-sudoku-mittel-zootiere-cec5"
+  },
+  {
+   "slug": "wort-raten-leicht-accessoires-bdc2",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-accessoires-bdc2"
+  },
+  {
+   "slug": "wort-raten-leicht-aktivitaten-c4da",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "activities",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-aktivitaten-c4da"
+  },
+  {
+   "slug": "wort-raten-leicht-backerei-f501",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-backerei-f501"
+  },
+  {
+   "slug": "wort-raten-leicht-bauernhoftiere-c37d",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-bauernhoftiere-c37d"
+  },
+  {
+   "slug": "wort-raten-leicht-baume-0d62",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-baume-0d62"
+  },
+  {
+   "slug": "wort-raten-leicht-berufe-aba1",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-berufe-aba1"
+  },
+  {
+   "slug": "wort-raten-leicht-blumen-fff8",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-blumen-fff8"
+  },
+  {
+   "slug": "wort-raten-leicht-camping-ebfe",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-camping-ebfe"
+  },
+  {
+   "slug": "wort-raten-leicht-desserts-und-sussigkeiten-dd09",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "desserts_and_sweets",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-desserts-und-sussigkeiten-dd09"
+  },
+  {
+   "slug": "wort-raten-leicht-dinge-die-fliegen-2e5e",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-dinge-die-fliegen-2e5e"
+  },
+  {
+   "slug": "wort-raten-leicht-emotionen-3ab9",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "emotions",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-emotionen-3ab9"
+  },
+  {
+   "slug": "wort-raten-leicht-erntedankfest-0c27",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-erntedankfest-0c27"
+  },
+  {
+   "slug": "wort-raten-leicht-fahrzeuge-5a16",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-fahrzeuge-5a16"
+  },
+  {
+   "slug": "wort-raten-leicht-farben-6744",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "colors",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-farben-6744"
+  },
+  {
+   "slug": "wort-raten-leicht-formen-fbe3",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-formen-fbe3"
+  },
+  {
+   "slug": "wort-raten-leicht-fruchte-9b53",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-fruchte-9b53"
+  },
+  {
+   "slug": "wort-raten-leicht-fruhling-1406",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-fruhling-1406"
+  },
+  {
+   "slug": "wort-raten-leicht-fruhstuck-2d6f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-fruhstuck-2d6f"
+  },
+  {
+   "slug": "wort-raten-leicht-gemuse-f0ae",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-gemuse-f0ae"
+  },
+  {
+   "slug": "wort-raten-leicht-haustiere-6462",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-haustiere-6462"
+  },
+  {
+   "slug": "wort-raten-leicht-im-supermarkt-6c86",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-im-supermarkt-6c86"
+  },
+  {
+   "slug": "wort-raten-leicht-insekten-und-kafer-1839",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-insekten-und-kafer-1839"
+  },
+  {
+   "slug": "wort-raten-leicht-klassenzimmer-9275",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-klassenzimmer-9275"
+  },
+  {
+   "slug": "wort-raten-leicht-kleidung-8f54",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-kleidung-8f54"
+  },
+  {
+   "slug": "wort-raten-leicht-korperteile-657f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-korperteile-657f"
+  },
+  {
+   "slug": "wort-raten-leicht-krankenhaus-5a8b",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-krankenhaus-5a8b"
+  },
+  {
+   "slug": "wort-raten-leicht-kuchenwerkzeuge-4dd6",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-kuchenwerkzeuge-4dd6"
+  },
+  {
+   "slug": "wort-raten-leicht-meeresleben-8314",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-meeresleben-8314"
+  },
+  {
+   "slug": "wort-raten-leicht-mobel-4cab",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-mobel-4cab"
+  },
+  {
+   "slug": "wort-raten-leicht-musik-6f10",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-musik-6f10"
+  },
+  {
+   "slug": "wort-raten-leicht-ostern-cb6d",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-ostern-cb6d"
+  },
+  {
+   "slug": "wort-raten-leicht-postamt-a9c8",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-postamt-a9c8"
+  },
+  {
+   "slug": "wort-raten-leicht-reptilien-und-amphibien-eb11",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-reptilien-und-amphibien-eb11"
+  },
+  {
+   "slug": "wort-raten-leicht-rund-ums-haus-7607",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-rund-ums-haus-7607"
+  },
+  {
+   "slug": "wort-raten-leicht-sommer-3a09",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "summer",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-sommer-3a09"
+  },
+  {
+   "slug": "wort-raten-leicht-spielzeug-6677",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-spielzeug-6677"
+  },
+  {
+   "slug": "wort-raten-leicht-strand-fcf5",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-strand-fcf5"
+  },
+  {
+   "slug": "wort-raten-leicht-tiere-7e76",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-tiere-7e76"
+  },
+  {
+   "slug": "wort-raten-leicht-vogel-2-b74c",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-vogel-2-b74c"
+  },
+  {
+   "slug": "wort-raten-leicht-vogel-7268",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-vogel-7268"
+  },
+  {
+   "slug": "wort-raten-leicht-waldtiere-9b2e",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-waldtiere-9b2e"
+  },
+  {
+   "slug": "wort-raten-leicht-weihnachten-31d5",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-weihnachten-31d5"
+  },
+  {
+   "slug": "wort-raten-leicht-weltraum-6e5f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-weltraum-6e5f"
+  },
+  {
+   "slug": "wort-raten-leicht-werkzeuge-5e6b",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-werkzeuge-5e6b"
+  },
+  {
+   "slug": "wort-raten-leicht-wetter-ad0e",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-wetter-ad0e"
+  },
+  {
+   "slug": "wort-raten-leicht-winter-7efe",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-winter-7efe"
+  },
+  {
+   "slug": "wort-raten-leicht-zootiere-99b0",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "wort-raten-leicht-zootiere-99b0"
+  }
+ ]
+}

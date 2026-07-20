@@ -1,0 +1,748 @@
+{
+ "part": 339,
+ "locale": "fi",
+ "classes": [
+  "prepositions::multiplechoice",
+  "word-guess::normal"
+ ],
+ "splitOf": null,
+ "count": 92,
+ "pages": [
+  {
+   "slug": "prepositiot-monivalinta-aamiainen-acce",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "breakfast",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-aamiainen-acce"
+  },
+  {
+   "slug": "prepositiot-monivalinta-ajoneuvot-136e",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "vehicles",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-ajoneuvot-136e"
+  },
+  {
+   "slug": "prepositiot-monivalinta-aktiviteetit-fe9c",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "activities",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-aktiviteetit-fe9c"
+  },
+  {
+   "slug": "prepositiot-monivalinta-ammatit-8af1",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "occupations",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-ammatit-8af1"
+  },
+  {
+   "slug": "prepositiot-monivalinta-asusteet-2dab",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "accessories",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-asusteet-2dab"
+  },
+  {
+   "slug": "prepositiot-monivalinta-avaruus-c494",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "space",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-avaruus-c494"
+  },
+  {
+   "slug": "prepositiot-monivalinta-dinosaurukset-9e86",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "dinosaurs",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-dinosaurukset-9e86"
+  },
+  {
+   "slug": "prepositiot-monivalinta-elaimet-60fd",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "animals",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-elaimet-60fd"
+  },
+  {
+   "slug": "prepositiot-monivalinta-elaintarhan-elaimet-d6fc",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "zoo_animals",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-elaintarhan-elaimet-d6fc"
+  },
+  {
+   "slug": "prepositiot-monivalinta-hedelmat-0035",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "fruits",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-hedelmat-0035"
+  },
+  {
+   "slug": "prepositiot-monivalinta-huonekalut-99f1",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "furniture",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-huonekalut-99f1"
+  },
+  {
+   "slug": "prepositiot-monivalinta-hyonteiset-ja-otokat-e3b2",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "insects_and_bugs",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-hyonteiset-ja-otokat-e3b2"
+  },
+  {
+   "slug": "prepositiot-monivalinta-jalkiruoat-ja-makeiset-1d51",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "desserts_and_sweets",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-jalkiruoat-ja-makeiset-1d51"
+  },
+  {
+   "slug": "prepositiot-monivalinta-joulu-8505",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "christmas",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-joulu-8505"
+  },
+  {
+   "slug": "prepositiot-monivalinta-keittiovalineet-cd11",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "kitchen_tools",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-keittiovalineet-cd11"
+  },
+  {
+   "slug": "prepositiot-monivalinta-kesa-5fe2",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "summer",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-kesa-5fe2"
+  },
+  {
+   "slug": "prepositiot-monivalinta-kevat-b46f",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "spring",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-kevat-b46f"
+  },
+  {
+   "slug": "prepositiot-monivalinta-kiitospaiva-2519",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "thanksgivinng",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-kiitospaiva-2519"
+  },
+  {
+   "slug": "prepositiot-monivalinta-kodin-ymparilla-ca32",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "around_the_house",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-kodin-ymparilla-ca32"
+  },
+  {
+   "slug": "prepositiot-monivalinta-kukat-fa32",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "flowers",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-kukat-fa32"
+  },
+  {
+   "slug": "prepositiot-monivalinta-leipomo-dca8",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "bakery",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-leipomo-dca8"
+  },
+  {
+   "slug": "prepositiot-monivalinta-leirielama-1df4",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "camping",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-leirielama-1df4"
+  },
+  {
+   "slug": "prepositiot-monivalinta-lelut-f085",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "toys",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-lelut-f085"
+  },
+  {
+   "slug": "prepositiot-monivalinta-lemmikit-51fe",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "pets",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-lemmikit-51fe"
+  },
+  {
+   "slug": "prepositiot-monivalinta-lentavat-asiat-f851",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "things_that_fly",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-lentavat-asiat-f851"
+  },
+  {
+   "slug": "prepositiot-monivalinta-linnut-2-6b06",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "birds_2",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-linnut-2-6b06"
+  },
+  {
+   "slug": "prepositiot-monivalinta-luokkahuone-9992",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "classroom",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-luokkahuone-9992"
+  },
+  {
+   "slug": "prepositiot-monivalinta-matelijat-ja-sammakkoelaimet-5ffd",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "reptiles_and_amphibians",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-matelijat-ja-sammakkoelaimet-5ffd"
+  },
+  {
+   "slug": "prepositiot-monivalinta-merielama-ab5b",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "ocean_life",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-merielama-ab5b"
+  },
+  {
+   "slug": "prepositiot-monivalinta-metsan-elaimet-e612",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "forest_creatures",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-metsan-elaimet-e612"
+  },
+  {
+   "slug": "prepositiot-monivalinta-muodot-ad25",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "shapes",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-muodot-ad25"
+  },
+  {
+   "slug": "prepositiot-monivalinta-musiikki-f53f",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "music",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-musiikki-f53f"
+  },
+  {
+   "slug": "prepositiot-monivalinta-paasiainen-2744",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "easter",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-paasiainen-2744"
+  },
+  {
+   "slug": "prepositiot-monivalinta-postitoimisto-5167",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "post_office",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-postitoimisto-5167"
+  },
+  {
+   "slug": "prepositiot-monivalinta-puut-9bb8",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "tree",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-puut-9bb8"
+  },
+  {
+   "slug": "prepositiot-monivalinta-ranta-e137",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "beach",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-ranta-e137"
+  },
+  {
+   "slug": "prepositiot-monivalinta-ruokakaupassa-61c6",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "at_the_supermarket",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-ruokakaupassa-61c6"
+  },
+  {
+   "slug": "prepositiot-monivalinta-ruumiinosat-0594",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "body_parts",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-ruumiinosat-0594"
+  },
+  {
+   "slug": "prepositiot-monivalinta-saa-9974",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "weather",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-saa-9974"
+  },
+  {
+   "slug": "prepositiot-monivalinta-sairaala-3e51",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "hospital",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-sairaala-3e51"
+  },
+  {
+   "slug": "prepositiot-monivalinta-talvi-2a4f",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "winter",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-talvi-2a4f"
+  },
+  {
+   "slug": "prepositiot-monivalinta-tunteet-64dd",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "emotions",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-tunteet-64dd"
+  },
+  {
+   "slug": "prepositiot-monivalinta-tyokalut-c2e3",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "tools",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-tyokalut-c2e3"
+  },
+  {
+   "slug": "prepositiot-monivalinta-vaatteet-a327",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "clothing",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-vaatteet-a327"
+  },
+  {
+   "slug": "prepositiot-monivalinta-varit-2871",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "colors",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-varit-2871"
+  },
+  {
+   "slug": "prepositiot-monivalinta-vihannekset-cf37",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "vegetables",
+   "level": "esikoulu",
+   "deck": "prepositiot-monivalinta-vihannekset-cf37"
+  },
+  {
+   "slug": "arvaa-sana-normaali-aamiainen-284d",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "breakfast",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-aamiainen-284d"
+  },
+  {
+   "slug": "arvaa-sana-normaali-ajoneuvot-3fdb",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "vehicles",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-ajoneuvot-3fdb"
+  },
+  {
+   "slug": "arvaa-sana-normaali-aktiviteetit-7d8d",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "activities",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-aktiviteetit-7d8d"
+  },
+  {
+   "slug": "arvaa-sana-normaali-ammatit-869b",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "occupations",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-ammatit-869b"
+  },
+  {
+   "slug": "arvaa-sana-normaali-asusteet-79e1",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "accessories",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-asusteet-79e1"
+  },
+  {
+   "slug": "arvaa-sana-normaali-avaruus-e39f",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "space",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-avaruus-e39f"
+  },
+  {
+   "slug": "arvaa-sana-normaali-elaimet-3e3f",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "animals",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-elaimet-3e3f"
+  },
+  {
+   "slug": "arvaa-sana-normaali-elaintarhan-elaimet-a998",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "zoo_animals",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-elaintarhan-elaimet-a998"
+  },
+  {
+   "slug": "arvaa-sana-normaali-hedelmat-9765",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "fruits",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-hedelmat-9765"
+  },
+  {
+   "slug": "arvaa-sana-normaali-huonekalut-b9b6",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "furniture",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-huonekalut-b9b6"
+  },
+  {
+   "slug": "arvaa-sana-normaali-hyonteiset-ja-otokat-7433",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "insects_and_bugs",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-hyonteiset-ja-otokat-7433"
+  },
+  {
+   "slug": "arvaa-sana-normaali-jalkiruoat-ja-makeiset-887b",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "desserts_and_sweets",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-jalkiruoat-ja-makeiset-887b"
+  },
+  {
+   "slug": "arvaa-sana-normaali-joulu-d3f0",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "christmas",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-joulu-d3f0"
+  },
+  {
+   "slug": "arvaa-sana-normaali-keittiovalineet-6e59",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "kitchen_tools",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-keittiovalineet-6e59"
+  },
+  {
+   "slug": "arvaa-sana-normaali-kesa-3f03",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "summer",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-kesa-3f03"
+  },
+  {
+   "slug": "arvaa-sana-normaali-kevat-49cd",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "spring",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-kevat-49cd"
+  },
+  {
+   "slug": "arvaa-sana-normaali-kiitospaiva-bf95",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "thanksgivinng",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-kiitospaiva-bf95"
+  },
+  {
+   "slug": "arvaa-sana-normaali-kodin-ymparilla-0003",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "around_the_house",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-kodin-ymparilla-0003"
+  },
+  {
+   "slug": "arvaa-sana-normaali-kukat-7927",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "flowers",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-kukat-7927"
+  },
+  {
+   "slug": "arvaa-sana-normaali-leipomo-dadc",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "bakery",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-leipomo-dadc"
+  },
+  {
+   "slug": "arvaa-sana-normaali-leirielama-a8da",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "camping",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-leirielama-a8da"
+  },
+  {
+   "slug": "arvaa-sana-normaali-lelut-dff4",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "toys",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-lelut-dff4"
+  },
+  {
+   "slug": "arvaa-sana-normaali-lemmikit-b24c",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "pets",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-lemmikit-b24c"
+  },
+  {
+   "slug": "arvaa-sana-normaali-lentavat-asiat-30e8",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "things_that_fly",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-lentavat-asiat-30e8"
+  },
+  {
+   "slug": "arvaa-sana-normaali-linnut-821c",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "birds",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-linnut-821c"
+  },
+  {
+   "slug": "arvaa-sana-normaali-luokkahuone-1fe1",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "classroom",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-luokkahuone-1fe1"
+  },
+  {
+   "slug": "arvaa-sana-normaali-maatilan-elaimet-ccd8",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "farm_animals",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-maatilan-elaimet-ccd8"
+  },
+  {
+   "slug": "arvaa-sana-normaali-matelijat-ja-sammakkoelaimet-3846",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-matelijat-ja-sammakkoelaimet-3846"
+  },
+  {
+   "slug": "arvaa-sana-normaali-merielama-2465",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "ocean_life",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-merielama-2465"
+  },
+  {
+   "slug": "arvaa-sana-normaali-metsan-elaimet-5ffe",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "forest_creatures",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-metsan-elaimet-5ffe"
+  },
+  {
+   "slug": "arvaa-sana-normaali-muodot-2f2c",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "shapes",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-muodot-2f2c"
+  },
+  {
+   "slug": "arvaa-sana-normaali-musiikki-4d30",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "music",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-musiikki-4d30"
+  },
+  {
+   "slug": "arvaa-sana-normaali-paasiainen-aed1",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "easter",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-paasiainen-aed1"
+  },
+  {
+   "slug": "arvaa-sana-normaali-postitoimisto-d08e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "post_office",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-postitoimisto-d08e"
+  },
+  {
+   "slug": "arvaa-sana-normaali-puut-c7f4",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "tree",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-puut-c7f4"
+  },
+  {
+   "slug": "arvaa-sana-normaali-ranta-6a16",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "beach",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-ranta-6a16"
+  },
+  {
+   "slug": "arvaa-sana-normaali-ruokakaupassa-9041",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "at_the_supermarket",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-ruokakaupassa-9041"
+  },
+  {
+   "slug": "arvaa-sana-normaali-ruumiinosat-5846",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "body_parts",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-ruumiinosat-5846"
+  },
+  {
+   "slug": "arvaa-sana-normaali-saa-a936",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "weather",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-saa-a936"
+  },
+  {
+   "slug": "arvaa-sana-normaali-sairaala-f545",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "hospital",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-sairaala-f545"
+  },
+  {
+   "slug": "arvaa-sana-normaali-talvi-5892",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "winter",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-talvi-5892"
+  },
+  {
+   "slug": "arvaa-sana-normaali-tunteet-8286",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "emotions",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-tunteet-8286"
+  },
+  {
+   "slug": "arvaa-sana-normaali-tyokalut-7547",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "tools",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-tyokalut-7547"
+  },
+  {
+   "slug": "arvaa-sana-normaali-vaatteet-c533",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "clothing",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-vaatteet-c533"
+  },
+  {
+   "slug": "arvaa-sana-normaali-varit-644a",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "colors",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-varit-644a"
+  },
+  {
+   "slug": "arvaa-sana-normaali-vihannekset-c340",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "vegetables",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-normaali-vihannekset-c340"
+  }
+ ]
+}

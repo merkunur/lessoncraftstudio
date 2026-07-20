@@ -1,0 +1,568 @@
+{
+ "part": 80,
+ "locale": "es",
+ "classes": [
+  "crossword::null"
+ ],
+ "splitOf": {
+  "class": "crossword::null",
+  "total": 137,
+  "chunk": 1,
+  "chunks": 2
+ },
+ "count": 69,
+ "pages": [
+  {
+   "slug": "crucigrama-0360",
+   "type": "crossword",
+   "mode": null,
+   "theme": "flowers",
+   "level": "segundo-grado",
+   "deck": "crucigrama-0360"
+  },
+  {
+   "slug": "crucigrama-0798",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "segundo-grado",
+   "deck": "crucigrama-0798"
+  },
+  {
+   "slug": "crucigrama-0887",
+   "type": "crossword",
+   "mode": null,
+   "theme": "summer",
+   "level": "segundo-grado",
+   "deck": "crucigrama-0887"
+  },
+  {
+   "slug": "crucigrama-0a1f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "clothing",
+   "level": "segundo-grado",
+   "deck": "crucigrama-0a1f"
+  },
+  {
+   "slug": "crucigrama-0d02",
+   "type": "crossword",
+   "mode": null,
+   "theme": "winter",
+   "level": "segundo-grado",
+   "deck": "crucigrama-0d02"
+  },
+  {
+   "slug": "crucigrama-118f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "shapes",
+   "level": "segundo-grado",
+   "deck": "crucigrama-118f"
+  },
+  {
+   "slug": "crucigrama-12b0",
+   "type": "crossword",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "segundo-grado",
+   "deck": "crucigrama-12b0"
+  },
+  {
+   "slug": "crucigrama-1a83",
+   "type": "crossword",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "segundo-grado",
+   "deck": "crucigrama-1a83"
+  },
+  {
+   "slug": "crucigrama-1ba5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "segundo-grado",
+   "deck": "crucigrama-1ba5"
+  },
+  {
+   "slug": "crucigrama-2ace",
+   "type": "crossword",
+   "mode": null,
+   "theme": "hospital",
+   "level": "segundo-grado",
+   "deck": "crucigrama-2ace"
+  },
+  {
+   "slug": "crucigrama-4540",
+   "type": "crossword",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "segundo-grado",
+   "deck": "crucigrama-4540"
+  },
+  {
+   "slug": "crucigrama-49fd",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "segundo-grado",
+   "deck": "crucigrama-49fd"
+  },
+  {
+   "slug": "crucigrama-4f72",
+   "type": "crossword",
+   "mode": null,
+   "theme": "classroom",
+   "level": "segundo-grado",
+   "deck": "crucigrama-4f72"
+  },
+  {
+   "slug": "crucigrama-5cc0",
+   "type": "crossword",
+   "mode": null,
+   "theme": "occupations",
+   "level": "segundo-grado",
+   "deck": "crucigrama-5cc0"
+  },
+  {
+   "slug": "crucigrama-5ceb",
+   "type": "crossword",
+   "mode": null,
+   "theme": "furniture",
+   "level": "segundo-grado",
+   "deck": "crucigrama-5ceb"
+  },
+  {
+   "slug": "crucigrama-5d9b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "activities",
+   "level": "segundo-grado",
+   "deck": "crucigrama-5d9b"
+  },
+  {
+   "slug": "crucigrama-6338",
+   "type": "crossword",
+   "mode": null,
+   "theme": "spring",
+   "level": "segundo-grado",
+   "deck": "crucigrama-6338"
+  },
+  {
+   "slug": "crucigrama-68ec",
+   "type": "crossword",
+   "mode": null,
+   "theme": "camping",
+   "level": "segundo-grado",
+   "deck": "crucigrama-68ec"
+  },
+  {
+   "slug": "crucigrama-6ead",
+   "type": "crossword",
+   "mode": null,
+   "theme": "music",
+   "level": "segundo-grado",
+   "deck": "crucigrama-6ead"
+  },
+  {
+   "slug": "crucigrama-7277",
+   "type": "crossword",
+   "mode": null,
+   "theme": "fruits",
+   "level": "segundo-grado",
+   "deck": "crucigrama-7277"
+  },
+  {
+   "slug": "crucigrama-7a46",
+   "type": "crossword",
+   "mode": null,
+   "theme": "easter",
+   "level": "segundo-grado",
+   "deck": "crucigrama-7a46"
+  },
+  {
+   "slug": "crucigrama-7f81",
+   "type": "crossword",
+   "mode": null,
+   "theme": "colors",
+   "level": "segundo-grado",
+   "deck": "crucigrama-7f81"
+  },
+  {
+   "slug": "crucigrama-81c5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "christmas",
+   "level": "segundo-grado",
+   "deck": "crucigrama-81c5"
+  },
+  {
+   "slug": "crucigrama-98f3",
+   "type": "crossword",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "segundo-grado",
+   "deck": "crucigrama-98f3"
+  },
+  {
+   "slug": "crucigrama-99c2",
+   "type": "crossword",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "segundo-grado",
+   "deck": "crucigrama-99c2"
+  },
+  {
+   "slug": "crucigrama-9f1c",
+   "type": "crossword",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "segundo-grado",
+   "deck": "crucigrama-9f1c"
+  },
+  {
+   "slug": "crucigrama-a22f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "segundo-grado",
+   "deck": "crucigrama-a22f"
+  },
+  {
+   "slug": "crucigrama-a8d6",
+   "type": "crossword",
+   "mode": null,
+   "theme": "bakery",
+   "level": "segundo-grado",
+   "deck": "crucigrama-a8d6"
+  },
+  {
+   "slug": "crucigrama-b028",
+   "type": "crossword",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "segundo-grado",
+   "deck": "crucigrama-b028"
+  },
+  {
+   "slug": "crucigrama-b8cb",
+   "type": "crossword",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "segundo-grado",
+   "deck": "crucigrama-b8cb"
+  },
+  {
+   "slug": "crucigrama-bc8d",
+   "type": "crossword",
+   "mode": null,
+   "theme": "emotions",
+   "level": "segundo-grado",
+   "deck": "crucigrama-bc8d"
+  },
+  {
+   "slug": "crucigrama-c2d2",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "segundo-grado",
+   "deck": "crucigrama-c2d2"
+  },
+  {
+   "slug": "crucigrama-c9ae",
+   "type": "crossword",
+   "mode": null,
+   "theme": "space",
+   "level": "segundo-grado",
+   "deck": "crucigrama-c9ae"
+  },
+  {
+   "slug": "crucigrama-c9f9",
+   "type": "crossword",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "segundo-grado",
+   "deck": "crucigrama-c9f9"
+  },
+  {
+   "slug": "crucigrama-cb93",
+   "type": "crossword",
+   "mode": null,
+   "theme": "toys",
+   "level": "segundo-grado",
+   "deck": "crucigrama-cb93"
+  },
+  {
+   "slug": "crucigrama-cdc3",
+   "type": "crossword",
+   "mode": null,
+   "theme": "beach",
+   "level": "segundo-grado",
+   "deck": "crucigrama-cdc3"
+  },
+  {
+   "slug": "crucigrama-d3f2",
+   "type": "crossword",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "segundo-grado",
+   "deck": "crucigrama-d3f2"
+  },
+  {
+   "slug": "crucigrama-d916",
+   "type": "crossword",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "segundo-grado",
+   "deck": "crucigrama-d916"
+  },
+  {
+   "slug": "crucigrama-da30",
+   "type": "crossword",
+   "mode": null,
+   "theme": "pets",
+   "level": "segundo-grado",
+   "deck": "crucigrama-da30"
+  },
+  {
+   "slug": "crucigrama-dd92",
+   "type": "crossword",
+   "mode": null,
+   "theme": "weather",
+   "level": "segundo-grado",
+   "deck": "crucigrama-dd92"
+  },
+  {
+   "slug": "crucigrama-ddfc",
+   "type": "crossword",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "segundo-grado",
+   "deck": "crucigrama-ddfc"
+  },
+  {
+   "slug": "crucigrama-e1b5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "accessories",
+   "level": "segundo-grado",
+   "deck": "crucigrama-e1b5"
+  },
+  {
+   "slug": "crucigrama-e3eb",
+   "type": "crossword",
+   "mode": null,
+   "theme": "animals",
+   "level": "segundo-grado",
+   "deck": "crucigrama-e3eb"
+  },
+  {
+   "slug": "crucigrama-ef5d",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds",
+   "level": "segundo-grado",
+   "deck": "crucigrama-ef5d"
+  },
+  {
+   "slug": "crucigrama-f7f8",
+   "type": "crossword",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "segundo-grado",
+   "deck": "crucigrama-f7f8"
+  },
+  {
+   "slug": "crucigrama-f84f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "segundo-grado",
+   "deck": "crucigrama-f84f"
+  },
+  {
+   "slug": "ingles-crucigrama-4-de-julio-0a56",
+   "type": "crossword",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-4-de-julio-0a56"
+  },
+  {
+   "slug": "ingles-crucigrama-accesorios-2eea",
+   "type": "crossword",
+   "mode": null,
+   "theme": "accessories",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-accesorios-2eea"
+  },
+  {
+   "slug": "ingles-crucigrama-actividades-4d9e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-actividades-4d9e"
+  },
+  {
+   "slug": "ingles-crucigrama-alrededor-de-la-casa-0022",
+   "type": "crossword",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-alrededor-de-la-casa-0022"
+  },
+  {
+   "slug": "ingles-crucigrama-animales-37c6",
+   "type": "crossword",
+   "mode": null,
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-animales-37c6"
+  },
+  {
+   "slug": "ingles-crucigrama-animales-de-granja-62ba",
+   "type": "crossword",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-animales-de-granja-62ba"
+  },
+  {
+   "slug": "ingles-crucigrama-animales-del-zoologico-5520",
+   "type": "crossword",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-animales-del-zoologico-5520"
+  },
+  {
+   "slug": "ingles-crucigrama-aves-2-c643",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-aves-2-c643"
+  },
+  {
+   "slug": "ingles-crucigrama-aves-3fab",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-aves-3fab"
+  },
+  {
+   "slug": "ingles-crucigrama-campamento-1595",
+   "type": "crossword",
+   "mode": null,
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-campamento-1595"
+  },
+  {
+   "slug": "ingles-crucigrama-clima-1b28",
+   "type": "crossword",
+   "mode": null,
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-clima-1b28"
+  },
+  {
+   "slug": "ingles-crucigrama-colores-0fed",
+   "type": "crossword",
+   "mode": null,
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-colores-0fed"
+  },
+  {
+   "slug": "ingles-crucigrama-cosas-que-vuelan-31e0",
+   "type": "crossword",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-cosas-que-vuelan-31e0"
+  },
+  {
+   "slug": "ingles-crucigrama-criaturas-del-bosque-2599",
+   "type": "crossword",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-criaturas-del-bosque-2599"
+  },
+  {
+   "slug": "ingles-crucigrama-desayuno-7949",
+   "type": "crossword",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-desayuno-7949"
+  },
+  {
+   "slug": "ingles-crucigrama-dia-de-accion-de-gracias-a567",
+   "type": "crossword",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-dia-de-accion-de-gracias-a567"
+  },
+  {
+   "slug": "ingles-crucigrama-emociones-8820",
+   "type": "crossword",
+   "mode": null,
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-emociones-8820"
+  },
+  {
+   "slug": "ingles-crucigrama-en-el-supermercado-7ef9",
+   "type": "crossword",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-en-el-supermercado-7ef9"
+  },
+  {
+   "slug": "ingles-crucigrama-espacio-2978",
+   "type": "crossword",
+   "mode": null,
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-espacio-2978"
+  },
+  {
+   "slug": "ingles-crucigrama-flores-1dbe",
+   "type": "crossword",
+   "mode": null,
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-flores-1dbe"
+  },
+  {
+   "slug": "ingles-crucigrama-formas-69a3",
+   "type": "crossword",
+   "mode": null,
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-formas-69a3"
+  },
+  {
+   "slug": "ingles-crucigrama-frutas-15ed",
+   "type": "crossword",
+   "mode": null,
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-frutas-15ed"
+  },
+  {
+   "slug": "ingles-crucigrama-herramientas-dc20",
+   "type": "crossword",
+   "mode": null,
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-herramientas-dc20"
+  }
+ ]
+}

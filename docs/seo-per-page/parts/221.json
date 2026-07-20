@@ -1,0 +1,636 @@
+{
+ "part": 221,
+ "locale": "nl",
+ "classes": [
+  "addition::find-addend",
+  "more-less::check-cross"
+ ],
+ "splitOf": null,
+ "count": 78,
+ "pages": [
+  {
+   "slug": "optellen-zoek-de-optelterm-accessoires-4006",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "accessories",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-accessoires-4006"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-bakkerij-ce91",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "bakery",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-bakkerij-ce91"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-beroepen-3bcf",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "occupations",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-beroepen-3bcf"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-bloemen-036e",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "flowers",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-bloemen-036e"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-boerderijdieren-674b",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "farm_animals",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-boerderijdieren-674b"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-bomen-717e",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "tree",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-bomen-717e"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-boswezens-99d7",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "forest_creatures",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-boswezens-99d7"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-desserts-en-snoep-712f",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "desserts_and_sweets",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-desserts-en-snoep-712f"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-dieren-1b23",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "animals",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-dieren-1b23"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-dierentuindieren-3db2",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "zoo_animals",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-dierentuindieren-3db2"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-dingen-die-vliegen-43ca",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "things_that_fly",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-dingen-die-vliegen-43ca"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-dinosaurussen-9400",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "dinosaurs",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-dinosaurussen-9400"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-fruit-cf0b",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "fruits",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-fruit-cf0b"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-gereedschap-e35f",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "tools",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-gereedschap-e35f"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-groenten-aa70",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "vegetables",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-groenten-aa70"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-huisdieren-b327",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "pets",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-huisdieren-b327"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-in-de-supermarkt-80d6",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "at_the_supermarket",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-in-de-supermarkt-80d6"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-insecten-en-beestjes-8740",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "insects_and_bugs",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-insecten-en-beestjes-8740"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-kamperen-20de",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "camping",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-kamperen-20de"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-keukengerei-9327",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "kitchen_tools",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-keukengerei-9327"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-klaslokaal-27cb",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "classroom",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-klaslokaal-27cb"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-kleding-d155",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "clothing",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-kleding-d155"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-meubels-25ab",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "furniture",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-meubels-25ab"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-muziek-fc59",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "music",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-muziek-fc59"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-oceaanleven-513a",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "ocean_life",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-oceaanleven-513a"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-ontbijt-5ebd",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "breakfast",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-ontbijt-5ebd"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-pasen-40a2",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "easter",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-pasen-40a2"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-postkantoor-c107",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "post_office",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-postkantoor-c107"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-reptielen-en-amfibieen-f431",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "reptiles_and_amphibians",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-reptielen-en-amfibieen-f431"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-rond-het-huis-32cc",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "around_the_house",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-rond-het-huis-32cc"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-ruimte-3951",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "space",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-ruimte-3951"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-speelgoed-3728",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "toys",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-speelgoed-3728"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-strand-eab6",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "beach",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-strand-eab6"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-thanksgiving-00f6",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "thanksgivinng",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-thanksgiving-00f6"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-voertuigen-7db4",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "vehicles",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-voertuigen-7db4"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-vogels-2-0320",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "birds_2",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-vogels-2-0320"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-vogels-5563",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "birds",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-vogels-5563"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-vormen-f169",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "shapes",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-vormen-f169"
+  },
+  {
+   "slug": "optellen-zoek-de-optelterm-ziekenhuis-a76c",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "hospital",
+   "level": "groep-3",
+   "deck": "optellen-zoek-de-optelterm-ziekenhuis-a76c"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-accessoires-f6bb",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "accessories",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-accessoires-f6bb"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-bakkerij-d3da",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "bakery",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-bakkerij-d3da"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-beroepen-081c",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "occupations",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-beroepen-081c"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-bloemen-6fd4",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "flowers",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-bloemen-6fd4"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-boerderijdieren-e2c8",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "farm_animals",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-boerderijdieren-e2c8"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-bomen-ee14",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "tree",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-bomen-ee14"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-boswezens-8bfd",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "forest_creatures",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-boswezens-8bfd"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-desserts-en-snoep-fa4a",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "desserts_and_sweets",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-desserts-en-snoep-fa4a"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-dieren-732d",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "animals",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-dieren-732d"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-dierentuindieren-4126",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "zoo_animals",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-dierentuindieren-4126"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-dingen-die-vliegen-5ec3",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "things_that_fly",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-dingen-die-vliegen-5ec3"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-dinosaurussen-ea13",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "dinosaurs",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-dinosaurussen-ea13"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-fruit-124f",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "fruits",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-fruit-124f"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-gereedschap-4cf6",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "tools",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-gereedschap-4cf6"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-groenten-f99c",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "vegetables",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-groenten-f99c"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-huisdieren-9050",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "pets",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-huisdieren-9050"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-in-de-supermarkt-9e08",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "at_the_supermarket",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-in-de-supermarkt-9e08"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-insecten-en-beestjes-28f4",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "insects_and_bugs",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-insecten-en-beestjes-28f4"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-kamperen-4a98",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "camping",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-kamperen-4a98"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-kerstmis-7d79",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "christmas",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-kerstmis-7d79"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-keukengerei-b1d4",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "kitchen_tools",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-keukengerei-b1d4"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-klaslokaal-8b44",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "classroom",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-klaslokaal-8b44"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-kleding-5df0",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "clothing",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-kleding-5df0"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-meubels-8426",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "furniture",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-meubels-8426"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-muziek-9f8c",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "music",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-muziek-9f8c"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-ontbijt-8c60",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "breakfast",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-ontbijt-8c60"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-pasen-4402",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "easter",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-pasen-4402"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-postkantoor-0910",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "post_office",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-postkantoor-0910"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-reptielen-en-amfibieen-e724",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "reptiles_and_amphibians",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-reptielen-en-amfibieen-e724"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-rond-het-huis-0f03",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "around_the_house",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-rond-het-huis-0f03"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-ruimte-31e9",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "space",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-ruimte-31e9"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-speelgoed-0b6c",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "toys",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-speelgoed-0b6c"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-strand-2a2a",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "beach",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-strand-2a2a"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-thanksgiving-e818",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "thanksgivinng",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-thanksgiving-e818"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-voertuigen-a36d",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "vehicles",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-voertuigen-a36d"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-vogels-2-6a5b",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "birds_2",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-vogels-2-6a5b"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-vogels-62c9",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "birds",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-vogels-62c9"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-vormen-3651",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "shapes",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-vormen-3651"
+  },
+  {
+   "slug": "meer-minder-aankruisen-en-doorstrepen-ziekenhuis-72fd",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "hospital",
+   "level": "kleuters",
+   "deck": "meer-minder-aankruisen-en-doorstrepen-ziekenhuis-72fd"
+  }
+ ]
+}

@@ -1,0 +1,628 @@
+{
+ "part": 133,
+ "locale": "pt",
+ "classes": [
+  "subtraction::find-subtrahend",
+  "bingo::null"
+ ],
+ "splitOf": null,
+ "count": 77,
+ "pages": [
+  {
+   "slug": "subtracao-encontre-o-subtraendo-acampamento-d03e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "camping",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-acampamento-d03e"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-acessorios-77bc",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "accessories",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-acessorios-77bc"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-animais-de-estimacao-7873",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "pets",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-animais-de-estimacao-7873"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-animais-do-zoologico-1051",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "zoo_animals",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-animais-do-zoologico-1051"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-animais-ef37",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "animals",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-animais-ef37"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-arvores-c484",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "tree",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-arvores-c484"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-brinquedos-3039",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "toys",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-brinquedos-3039"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-cafe-da-manha-d927",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "breakfast",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-cafe-da-manha-d927"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-coisas-que-voam-7dde",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "things_that_fly",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-coisas-que-voam-7dde"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-correios-ffaa",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "post_office",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-correios-ffaa"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-dia-de-acao-de-gracas-d211",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "thanksgivinng",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-dia-de-acao-de-gracas-d211"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-dinossauros-8c90",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "dinosaurs",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-dinossauros-8c90"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-diversos-b3bb",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "miscellaneous",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-diversos-b3bb"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-espaco-e941",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "space",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-espaco-e941"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-ferramentas-443a",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "tools",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-ferramentas-443a"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-flores-8c48",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "flowers",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-flores-8c48"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-formas-6712",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "shapes",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-formas-6712"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-frutas-3078",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "fruits",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-frutas-3078"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-hospital-b66b",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "hospital",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-hospital-b66b"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-insetos-e-bichos-1e86",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "insects_and_bugs",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-insetos-e-bichos-1e86"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-moveis-1942",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "furniture",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-moveis-1942"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-musica-28ce",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "music",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-musica-28ce"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-natal-652c",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "christmas",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-natal-652c"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-no-supermercado-c3f6",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "at_the_supermarket",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-no-supermercado-c3f6"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-padaria-140b",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-padaria-140b"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-pascoa-9bad",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "easter",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-pascoa-9bad"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-passaros-2-c99f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "birds_2",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-passaros-2-c99f"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-passaros-a067",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "birds",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-passaros-a067"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-pela-casa-9dc9",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "around_the_house",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-pela-casa-9dc9"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-praia-4176",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "beach",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-praia-4176"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-profissoes-92ae",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "occupations",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-profissoes-92ae"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-repteis-e-anfibios-5666",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "reptiles_and_amphibians",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-repteis-e-anfibios-5666"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-roupas-9615",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "clothing",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-roupas-9615"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-sala-de-aula-8502",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "classroom",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-sala-de-aula-8502"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-sobremesas-e-doces-a5fb",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "desserts_and_sweets",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-sobremesas-e-doces-a5fb"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-utensilios-de-cozinha-e3b0",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "kitchen_tools",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-utensilios-de-cozinha-e3b0"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-vegetais-5a32",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "vegetables",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-vegetais-5a32"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-veiculos-fd6b",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "vehicles",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-veiculos-fd6b"
+  },
+  {
+   "slug": "subtracao-encontre-o-subtraendo-vida-marinha-04a0",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "ocean_life",
+   "level": "1o-ano",
+   "deck": "subtracao-encontre-o-subtraendo-vida-marinha-04a0"
+  },
+  {
+   "slug": "bingo-acampamento-4b37",
+   "type": "bingo",
+   "mode": null,
+   "theme": "camping",
+   "level": "educacao-infantil",
+   "deck": "bingo-acampamento-4b37"
+  },
+  {
+   "slug": "bingo-acessorios-098e",
+   "type": "bingo",
+   "mode": null,
+   "theme": "accessories",
+   "level": "educacao-infantil",
+   "deck": "bingo-acessorios-098e"
+  },
+  {
+   "slug": "bingo-animais",
+   "type": "bingo",
+   "mode": null,
+   "theme": "animals",
+   "level": "educacao-infantil",
+   "deck": "bingo-animais"
+  },
+  {
+   "slug": "bingo-animais-da-fazenda-68ac",
+   "type": "bingo",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "educacao-infantil",
+   "deck": "bingo-animais-da-fazenda-68ac"
+  },
+  {
+   "slug": "bingo-animais-de-estimacao-f449",
+   "type": "bingo",
+   "mode": null,
+   "theme": "pets",
+   "level": "educacao-infantil",
+   "deck": "bingo-animais-de-estimacao-f449"
+  },
+  {
+   "slug": "bingo-animais-do-zoologico-1aed",
+   "type": "bingo",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "educacao-infantil",
+   "deck": "bingo-animais-do-zoologico-1aed"
+  },
+  {
+   "slug": "bingo-atividades-fde1",
+   "type": "bingo",
+   "mode": null,
+   "theme": "activities",
+   "level": "educacao-infantil",
+   "deck": "bingo-atividades-fde1"
+  },
+  {
+   "slug": "bingo-brinquedos-f7c3",
+   "type": "bingo",
+   "mode": null,
+   "theme": "toys",
+   "level": "educacao-infantil",
+   "deck": "bingo-brinquedos-f7c3"
+  },
+  {
+   "slug": "bingo-cafe-da-manha-b795",
+   "type": "bingo",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "educacao-infantil",
+   "deck": "bingo-cafe-da-manha-b795"
+  },
+  {
+   "slug": "bingo-clima-0ac6",
+   "type": "bingo",
+   "mode": null,
+   "theme": "weather",
+   "level": "educacao-infantil",
+   "deck": "bingo-clima-0ac6"
+  },
+  {
+   "slug": "bingo-coisas-que-voam-0f13",
+   "type": "bingo",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "educacao-infantil",
+   "deck": "bingo-coisas-que-voam-0f13"
+  },
+  {
+   "slug": "bingo-cores-5b34",
+   "type": "bingo",
+   "mode": null,
+   "theme": "colors",
+   "level": "educacao-infantil",
+   "deck": "bingo-cores-5b34"
+  },
+  {
+   "slug": "bingo-criaturas-da-floresta-0575",
+   "type": "bingo",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "educacao-infantil",
+   "deck": "bingo-criaturas-da-floresta-0575"
+  },
+  {
+   "slug": "bingo-espaco-74e4",
+   "type": "bingo",
+   "mode": null,
+   "theme": "space",
+   "level": "educacao-infantil",
+   "deck": "bingo-espaco-74e4"
+  },
+  {
+   "slug": "bingo-flores-69ce",
+   "type": "bingo",
+   "mode": null,
+   "theme": "flowers",
+   "level": "educacao-infantil",
+   "deck": "bingo-flores-69ce"
+  },
+  {
+   "slug": "bingo-formas-abbd",
+   "type": "bingo",
+   "mode": null,
+   "theme": "shapes",
+   "level": "educacao-infantil",
+   "deck": "bingo-formas-abbd"
+  },
+  {
+   "slug": "bingo-frutas-259e",
+   "type": "bingo",
+   "mode": null,
+   "theme": "fruits",
+   "level": "educacao-infantil",
+   "deck": "bingo-frutas-259e"
+  },
+  {
+   "slug": "bingo-hospital-62ee",
+   "type": "bingo",
+   "mode": null,
+   "theme": "hospital",
+   "level": "educacao-infantil",
+   "deck": "bingo-hospital-62ee"
+  },
+  {
+   "slug": "bingo-inverno-8760",
+   "type": "bingo",
+   "mode": null,
+   "theme": "winter",
+   "level": "educacao-infantil",
+   "deck": "bingo-inverno-8760"
+  },
+  {
+   "slug": "bingo-moveis-120d",
+   "type": "bingo",
+   "mode": null,
+   "theme": "furniture",
+   "level": "educacao-infantil",
+   "deck": "bingo-moveis-120d"
+  },
+  {
+   "slug": "bingo-natal-b2a8",
+   "type": "bingo",
+   "mode": null,
+   "theme": "christmas",
+   "level": "educacao-infantil",
+   "deck": "bingo-natal-b2a8"
+  },
+  {
+   "slug": "bingo-no-supermercado-5277",
+   "type": "bingo",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "educacao-infantil",
+   "deck": "bingo-no-supermercado-5277"
+  },
+  {
+   "slug": "bingo-padaria-d39a",
+   "type": "bingo",
+   "mode": null,
+   "theme": "bakery",
+   "level": "educacao-infantil",
+   "deck": "bingo-padaria-d39a"
+  },
+  {
+   "slug": "bingo-partes-do-corpo-15b9",
+   "type": "bingo",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "educacao-infantil",
+   "deck": "bingo-partes-do-corpo-15b9"
+  },
+  {
+   "slug": "bingo-pascoa-a0a0",
+   "type": "bingo",
+   "mode": null,
+   "theme": "easter",
+   "level": "educacao-infantil",
+   "deck": "bingo-pascoa-a0a0"
+  },
+  {
+   "slug": "bingo-passaros-2-925e",
+   "type": "bingo",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "educacao-infantil",
+   "deck": "bingo-passaros-2-925e"
+  },
+  {
+   "slug": "bingo-pela-casa-d174",
+   "type": "bingo",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "educacao-infantil",
+   "deck": "bingo-pela-casa-d174"
+  },
+  {
+   "slug": "bingo-praia-c465",
+   "type": "bingo",
+   "mode": null,
+   "theme": "beach",
+   "level": "educacao-infantil",
+   "deck": "bingo-praia-c465"
+  },
+  {
+   "slug": "bingo-primavera-ce94",
+   "type": "bingo",
+   "mode": null,
+   "theme": "spring",
+   "level": "educacao-infantil",
+   "deck": "bingo-primavera-ce94"
+  },
+  {
+   "slug": "bingo-profissoes-f864",
+   "type": "bingo",
+   "mode": null,
+   "theme": "occupations",
+   "level": "educacao-infantil",
+   "deck": "bingo-profissoes-f864"
+  },
+  {
+   "slug": "bingo-roupas-2923",
+   "type": "bingo",
+   "mode": null,
+   "theme": "clothing",
+   "level": "educacao-infantil",
+   "deck": "bingo-roupas-2923"
+  },
+  {
+   "slug": "bingo-sala-de-aula-7ca6",
+   "type": "bingo",
+   "mode": null,
+   "theme": "classroom",
+   "level": "educacao-infantil",
+   "deck": "bingo-sala-de-aula-7ca6"
+  },
+  {
+   "slug": "bingo-sobremesas-e-doces-482c",
+   "type": "bingo",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "educacao-infantil",
+   "deck": "bingo-sobremesas-e-doces-482c"
+  },
+  {
+   "slug": "bingo-utensilios-de-cozinha-a35b",
+   "type": "bingo",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "educacao-infantil",
+   "deck": "bingo-utensilios-de-cozinha-a35b"
+  },
+  {
+   "slug": "bingo-vegetais-5db5",
+   "type": "bingo",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "educacao-infantil",
+   "deck": "bingo-vegetais-5db5"
+  },
+  {
+   "slug": "bingo-veiculos-ded6",
+   "type": "bingo",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "educacao-infantil",
+   "deck": "bingo-veiculos-ded6"
+  },
+  {
+   "slug": "bingo-verao-5b80",
+   "type": "bingo",
+   "mode": null,
+   "theme": "summer",
+   "level": "educacao-infantil",
+   "deck": "bingo-verao-5b80"
+  },
+  {
+   "slug": "bingo-vida-marinha-a00a",
+   "type": "bingo",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "educacao-infantil",
+   "deck": "bingo-vida-marinha-a00a"
+  }
+ ]
+}

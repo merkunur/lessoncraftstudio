@@ -1,0 +1,748 @@
+{
+ "part": 153,
+ "locale": "fr",
+ "classes": [
+  "word-guess::easy",
+  "word-scramble::easy"
+ ],
+ "splitOf": null,
+ "count": 92,
+ "pages": [
+  {
+   "slug": "devine-le-mot-facile-accessoires-8201",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "accessories",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-accessoires-8201"
+  },
+  {
+   "slug": "devine-le-mot-facile-action-de-grace-67f1",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "thanksgivinng",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-action-de-grace-67f1"
+  },
+  {
+   "slug": "devine-le-mot-facile-activites-bff9",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "activities",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-activites-bff9"
+  },
+  {
+   "slug": "devine-le-mot-facile-animaux-3363",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "animals",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-animaux-3363"
+  },
+  {
+   "slug": "devine-le-mot-facile-animaux-de-compagnie-f55c",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "pets",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-animaux-de-compagnie-f55c"
+  },
+  {
+   "slug": "devine-le-mot-facile-animaux-de-la-ferme-92e8",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "farm_animals",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-animaux-de-la-ferme-92e8"
+  },
+  {
+   "slug": "devine-le-mot-facile-animaux-du-zoo-c378",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "zoo_animals",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-animaux-du-zoo-c378"
+  },
+  {
+   "slug": "devine-le-mot-facile-arbres-f67b",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "tree",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-arbres-f67b"
+  },
+  {
+   "slug": "devine-le-mot-facile-au-supermarche-628e",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-au-supermarche-628e"
+  },
+  {
+   "slug": "devine-le-mot-facile-autour-de-la-maison-3097",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "around_the_house",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-autour-de-la-maison-3097"
+  },
+  {
+   "slug": "devine-le-mot-facile-boulangerie-762f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "bakery",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-boulangerie-762f"
+  },
+  {
+   "slug": "devine-le-mot-facile-camping-8d00",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "camping",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-camping-8d00"
+  },
+  {
+   "slug": "devine-le-mot-facile-choses-qui-volent-5aae",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "things_that_fly",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-choses-qui-volent-5aae"
+  },
+  {
+   "slug": "devine-le-mot-facile-couleurs-13e7",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "colors",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-couleurs-13e7"
+  },
+  {
+   "slug": "devine-le-mot-facile-creatures-de-la-foret-cc23",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "forest_creatures",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-creatures-de-la-foret-cc23"
+  },
+  {
+   "slug": "devine-le-mot-facile-desserts-et-sucreries-bd32",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "desserts_and_sweets",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-desserts-et-sucreries-bd32"
+  },
+  {
+   "slug": "devine-le-mot-facile-emotions-7097",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "emotions",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-emotions-7097"
+  },
+  {
+   "slug": "devine-le-mot-facile-espace-40b1",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "space",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-espace-40b1"
+  },
+  {
+   "slug": "devine-le-mot-facile-ete-8b1d",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "summer",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-ete-8b1d"
+  },
+  {
+   "slug": "devine-le-mot-facile-fleurs-f290",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "flowers",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-fleurs-f290"
+  },
+  {
+   "slug": "devine-le-mot-facile-formes-b4f6",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "shapes",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-formes-b4f6"
+  },
+  {
+   "slug": "devine-le-mot-facile-fruits-04ba",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "fruits",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-fruits-04ba"
+  },
+  {
+   "slug": "devine-le-mot-facile-hiver-12ce",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-hiver-12ce"
+  },
+  {
+   "slug": "devine-le-mot-facile-hopital-79c7",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "hospital",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-hopital-79c7"
+  },
+  {
+   "slug": "devine-le-mot-facile-insectes-et-bestioles-b5d1",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "insects_and_bugs",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-insectes-et-bestioles-b5d1"
+  },
+  {
+   "slug": "devine-le-mot-facile-jouets-db1f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "toys",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-jouets-db1f"
+  },
+  {
+   "slug": "devine-le-mot-facile-legumes-c448",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "vegetables",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-legumes-c448"
+  },
+  {
+   "slug": "devine-le-mot-facile-meteo-3822",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-meteo-3822"
+  },
+  {
+   "slug": "devine-le-mot-facile-metiers-b58b",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "occupations",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-metiers-b58b"
+  },
+  {
+   "slug": "devine-le-mot-facile-meubles-fa1b",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "furniture",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-meubles-fa1b"
+  },
+  {
+   "slug": "devine-le-mot-facile-musique-5c95",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "music",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-musique-5c95"
+  },
+  {
+   "slug": "devine-le-mot-facile-noel-e511",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "christmas",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-noel-e511"
+  },
+  {
+   "slug": "devine-le-mot-facile-oiseaux-2-8a3b",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "birds_2",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-oiseaux-2-8a3b"
+  },
+  {
+   "slug": "devine-le-mot-facile-oiseaux-68ba",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "birds",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-oiseaux-68ba"
+  },
+  {
+   "slug": "devine-le-mot-facile-outils-dbd0",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "tools",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-outils-dbd0"
+  },
+  {
+   "slug": "devine-le-mot-facile-paques-6563",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "easter",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-paques-6563"
+  },
+  {
+   "slug": "devine-le-mot-facile-parties-du-corps-aa54",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-parties-du-corps-aa54"
+  },
+  {
+   "slug": "devine-le-mot-facile-petit-dejeuner-b148",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "breakfast",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-petit-dejeuner-b148"
+  },
+  {
+   "slug": "devine-le-mot-facile-plage-a5b5",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "beach",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-plage-a5b5"
+  },
+  {
+   "slug": "devine-le-mot-facile-printemps-37fe",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-printemps-37fe"
+  },
+  {
+   "slug": "devine-le-mot-facile-reptiles-et-amphibiens-63d5",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-reptiles-et-amphibiens-63d5"
+  },
+  {
+   "slug": "devine-le-mot-facile-salle-de-classe-558e",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "classroom",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-salle-de-classe-558e"
+  },
+  {
+   "slug": "devine-le-mot-facile-ustensiles-de-cuisine-8b20",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "kitchen_tools",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-ustensiles-de-cuisine-8b20"
+  },
+  {
+   "slug": "devine-le-mot-facile-vehicules-1dec",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "vehicles",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-vehicules-1dec"
+  },
+  {
+   "slug": "devine-le-mot-facile-vetements-9a94",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "clothing",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-vetements-9a94"
+  },
+  {
+   "slug": "devine-le-mot-facile-vie-oceanique-85b0",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "ocean_life",
+   "level": "cp",
+   "deck": "devine-le-mot-facile-vie-oceanique-85b0"
+  },
+  {
+   "slug": "lettres-melangees-facile-accessoires-a4b8",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "accessories",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-accessoires-a4b8"
+  },
+  {
+   "slug": "lettres-melangees-facile-action-de-grace-8792",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "thanksgivinng",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-action-de-grace-8792"
+  },
+  {
+   "slug": "lettres-melangees-facile-activites-ff4f",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "activities",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-activites-ff4f"
+  },
+  {
+   "slug": "lettres-melangees-facile-animaux-14b4",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "animals",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-animaux-14b4"
+  },
+  {
+   "slug": "lettres-melangees-facile-animaux-de-compagnie-3c95",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "pets",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-animaux-de-compagnie-3c95"
+  },
+  {
+   "slug": "lettres-melangees-facile-animaux-de-la-ferme-bb61",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "farm_animals",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-animaux-de-la-ferme-bb61"
+  },
+  {
+   "slug": "lettres-melangees-facile-animaux-du-zoo-c536",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "zoo_animals",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-animaux-du-zoo-c536"
+  },
+  {
+   "slug": "lettres-melangees-facile-arbres-a4a1",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "tree",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-arbres-a4a1"
+  },
+  {
+   "slug": "lettres-melangees-facile-au-supermarche-0e34",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-au-supermarche-0e34"
+  },
+  {
+   "slug": "lettres-melangees-facile-autour-de-la-maison-5327",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "around_the_house",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-autour-de-la-maison-5327"
+  },
+  {
+   "slug": "lettres-melangees-facile-boulangerie-c4db",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "bakery",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-boulangerie-c4db"
+  },
+  {
+   "slug": "lettres-melangees-facile-bureau-de-poste-4b7f",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "post_office",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-bureau-de-poste-4b7f"
+  },
+  {
+   "slug": "lettres-melangees-facile-camping-7b06",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "camping",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-camping-7b06"
+  },
+  {
+   "slug": "lettres-melangees-facile-choses-qui-volent-22a8",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "things_that_fly",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-choses-qui-volent-22a8"
+  },
+  {
+   "slug": "lettres-melangees-facile-couleurs-4a59",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "colors",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-couleurs-4a59"
+  },
+  {
+   "slug": "lettres-melangees-facile-creatures-de-la-foret-d670",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "forest_creatures",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-creatures-de-la-foret-d670"
+  },
+  {
+   "slug": "lettres-melangees-facile-desserts-et-sucreries-5ead",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "desserts_and_sweets",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-desserts-et-sucreries-5ead"
+  },
+  {
+   "slug": "lettres-melangees-facile-emotions-bc2b",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "emotions",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-emotions-bc2b"
+  },
+  {
+   "slug": "lettres-melangees-facile-espace-af2d",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "space",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-espace-af2d"
+  },
+  {
+   "slug": "lettres-melangees-facile-ete-d785",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "summer",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-ete-d785"
+  },
+  {
+   "slug": "lettres-melangees-facile-fleurs-0299",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "flowers",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-fleurs-0299"
+  },
+  {
+   "slug": "lettres-melangees-facile-formes-e8db",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "shapes",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-formes-e8db"
+  },
+  {
+   "slug": "lettres-melangees-facile-fruits-85bf",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "fruits",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-fruits-85bf"
+  },
+  {
+   "slug": "lettres-melangees-facile-hiver-629b",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-hiver-629b"
+  },
+  {
+   "slug": "lettres-melangees-facile-hopital-f202",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "hospital",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-hopital-f202"
+  },
+  {
+   "slug": "lettres-melangees-facile-insectes-et-bestioles-191b",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "insects_and_bugs",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-insectes-et-bestioles-191b"
+  },
+  {
+   "slug": "lettres-melangees-facile-jouets-d5b1",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "toys",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-jouets-d5b1"
+  },
+  {
+   "slug": "lettres-melangees-facile-legumes-298a",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "vegetables",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-legumes-298a"
+  },
+  {
+   "slug": "lettres-melangees-facile-meteo-d0a1",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-meteo-d0a1"
+  },
+  {
+   "slug": "lettres-melangees-facile-metiers-0d3e",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "occupations",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-metiers-0d3e"
+  },
+  {
+   "slug": "lettres-melangees-facile-meubles-5a46",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "furniture",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-meubles-5a46"
+  },
+  {
+   "slug": "lettres-melangees-facile-musique-54c0",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "music",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-musique-54c0"
+  },
+  {
+   "slug": "lettres-melangees-facile-noel-e2f6",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "christmas",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-noel-e2f6"
+  },
+  {
+   "slug": "lettres-melangees-facile-oiseaux-2-d285",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "birds_2",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-oiseaux-2-d285"
+  },
+  {
+   "slug": "lettres-melangees-facile-oiseaux-83b0",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "birds",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-oiseaux-83b0"
+  },
+  {
+   "slug": "lettres-melangees-facile-paques-15b0",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "easter",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-paques-15b0"
+  },
+  {
+   "slug": "lettres-melangees-facile-parties-du-corps-0338",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-parties-du-corps-0338"
+  },
+  {
+   "slug": "lettres-melangees-facile-petit-dejeuner-e4f8",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "breakfast",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-petit-dejeuner-e4f8"
+  },
+  {
+   "slug": "lettres-melangees-facile-plage-658f",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "beach",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-plage-658f"
+  },
+  {
+   "slug": "lettres-melangees-facile-printemps-c570",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-printemps-c570"
+  },
+  {
+   "slug": "lettres-melangees-facile-reptiles-et-amphibiens-69c0",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-reptiles-et-amphibiens-69c0"
+  },
+  {
+   "slug": "lettres-melangees-facile-salle-de-classe-d07c",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "classroom",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-salle-de-classe-d07c"
+  },
+  {
+   "slug": "lettres-melangees-facile-ustensiles-de-cuisine-d2d2",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "kitchen_tools",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-ustensiles-de-cuisine-d2d2"
+  },
+  {
+   "slug": "lettres-melangees-facile-vehicules-4ade",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "vehicles",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-vehicules-4ade"
+  },
+  {
+   "slug": "lettres-melangees-facile-vetements-4353",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "clothing",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-vetements-4353"
+  },
+  {
+   "slug": "lettres-melangees-facile-vie-oceanique-e772",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "ocean_life",
+   "level": "cp",
+   "deck": "lettres-melangees-facile-vie-oceanique-e772"
+  }
+ ]
+}

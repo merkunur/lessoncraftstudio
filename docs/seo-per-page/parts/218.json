@@ -1,0 +1,652 @@
+{
+ "part": 218,
+ "locale": "nl",
+ "classes": [
+  "big-small::orderAsc",
+  "math-puzzle::addition"
+ ],
+ "splitOf": null,
+ "count": 80,
+ "pages": [
+  {
+   "slug": "groot-klein-oplopende-volgorde-accessoires-473a",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "accessories",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-accessoires-473a"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-bakkerij-2f54",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "bakery",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-bakkerij-2f54"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-beroepen-5bb0",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "occupations",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-beroepen-5bb0"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-bloemen-2430",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "flowers",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-bloemen-2430"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-boerderijdieren-8024",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "farm_animals",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-boerderijdieren-8024"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-bomen-5778",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "tree",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-bomen-5778"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-boswezens-7282",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "forest_creatures",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-boswezens-7282"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-desserts-en-snoep-6a45",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "desserts_and_sweets",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-desserts-en-snoep-6a45"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-dieren-8de3",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "animals",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-dieren-8de3"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-dierentuindieren-f7de",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "zoo_animals",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-dierentuindieren-f7de"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-dingen-die-vliegen-07a7",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "things_that_fly",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-dingen-die-vliegen-07a7"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-dinosaurussen-6681",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "dinosaurs",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-dinosaurussen-6681"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-fruit-76c8",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "fruits",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-fruit-76c8"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-gereedschap-9cef",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "tools",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-gereedschap-9cef"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-groenten-f64b",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "vegetables",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-groenten-f64b"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-huisdieren-b94a",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "pets",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-huisdieren-b94a"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-in-de-supermarkt-3714",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "at_the_supermarket",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-in-de-supermarkt-3714"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-insecten-en-beestjes-9363",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "insects_and_bugs",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-insecten-en-beestjes-9363"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-kamperen-5b38",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "camping",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-kamperen-5b38"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-kerstmis-b209",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "christmas",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-kerstmis-b209"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-keukengerei-e3e9",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "kitchen_tools",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-keukengerei-e3e9"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-kleding-36e8",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "clothing",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-kleding-36e8"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-lichaamsdelen-4363",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "body_parts",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-lichaamsdelen-4363"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-meubels-7243",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "furniture",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-meubels-7243"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-muziek-c6ef",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "music",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-muziek-c6ef"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-oceaanleven-40d0",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "ocean_life",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-oceaanleven-40d0"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-ontbijt-305c",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "breakfast",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-ontbijt-305c"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-pasen-0e9f",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "easter",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-pasen-0e9f"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-postkantoor-cc00",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "post_office",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-postkantoor-cc00"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-reptielen-en-amfibieen-9264",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "reptiles_and_amphibians",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-reptielen-en-amfibieen-9264"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-rond-het-huis-40a7",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "around_the_house",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-rond-het-huis-40a7"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-ruimte-0fea",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "space",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-ruimte-0fea"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-speelgoed-ae96",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "toys",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-speelgoed-ae96"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-strand-926b",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "beach",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-strand-926b"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-thanksgiving-5f97",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "thanksgivinng",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-thanksgiving-5f97"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-voertuigen-2cf9",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "vehicles",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-voertuigen-2cf9"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-vogels-2-6152",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "birds_2",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-vogels-2-6152"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-vogels-5ea9",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "birds",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-vogels-5ea9"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-vormen-53a9",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "shapes",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-vormen-53a9"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-ziekenhuis-de71",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "hospital",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-ziekenhuis-de71"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-accessoires-b7e3",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "accessories",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-accessoires-b7e3"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-bakkerij-2d66",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "bakery",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-bakkerij-2d66"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-beroepen-0d25",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "occupations",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-beroepen-0d25"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-bloemen-b78a",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "flowers",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-bloemen-b78a"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-boerderijdieren-ac30",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "farm_animals",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-boerderijdieren-ac30"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-bomen-2e68",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "tree",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-bomen-2e68"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-boswezens-007f",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "forest_creatures",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-boswezens-007f"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-desserts-en-snoep-6d4a",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "desserts_and_sweets",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-desserts-en-snoep-6d4a"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-dieren-89e2",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "animals",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-dieren-89e2"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-dierentuindieren-24b5",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "zoo_animals",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-dierentuindieren-24b5"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-dingen-die-vliegen-2bb6",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "things_that_fly",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-dingen-die-vliegen-2bb6"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-dinosaurussen-cd7e",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "dinosaurs",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-dinosaurussen-cd7e"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-fruit-8728",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "fruits",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-fruit-8728"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-gereedschap-573a",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "tools",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-gereedschap-573a"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-groenten-8102",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "vegetables",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-groenten-8102"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-huisdieren-64e6",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "pets",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-huisdieren-64e6"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-in-de-supermarkt-2ba1",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "at_the_supermarket",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-in-de-supermarkt-2ba1"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-insecten-en-beestjes-154b",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "insects_and_bugs",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-insecten-en-beestjes-154b"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-kamperen-2e58",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "camping",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-kamperen-2e58"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-kerstmis-802a",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "christmas",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-kerstmis-802a"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-keukengerei-9e65",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "kitchen_tools",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-keukengerei-9e65"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-klaslokaal-81f2",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "classroom",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-klaslokaal-81f2"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-kleding-f1e4",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "clothing",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-kleding-f1e4"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-meubels-f48d",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "furniture",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-meubels-f48d"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-muziek-5723",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "music",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-muziek-5723"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-oceaanleven-a909",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "ocean_life",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-oceaanleven-a909"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-ontbijt-7e83",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "breakfast",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-ontbijt-7e83"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-pasen-9005",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "easter",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-pasen-9005"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-postkantoor-6131",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "post_office",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-postkantoor-6131"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-reptielen-en-amfibieen-d90e",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "reptiles_and_amphibians",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-reptielen-en-amfibieen-d90e"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-rond-het-huis-cb72",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "around_the_house",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-rond-het-huis-cb72"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-ruimte-030f",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "space",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-ruimte-030f"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-speelgoed-2186",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "toys",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-speelgoed-2186"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-strand-1a23",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "beach",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-strand-1a23"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-thanksgiving-5902",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "thanksgivinng",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-thanksgiving-5902"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-voertuigen-29f2",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "vehicles",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-voertuigen-29f2"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-vogels-2-9d5f",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "birds_2",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-vogels-2-9d5f"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-vogels-af85",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "birds",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-vogels-af85"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-vormen-559f",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "shapes",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-vormen-559f"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-ziekenhuis-8ef2",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "hospital",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-ziekenhuis-8ef2"
+  }
+ ]
+}

@@ -1,0 +1,764 @@
+{
+ "part": 333,
+ "locale": "fi",
+ "classes": [
+  "code-addition::secret-word",
+  "find-objects::find-odd"
+ ],
+ "splitOf": null,
+ "count": 94,
+ "pages": [
+  {
+   "slug": "koodattu-yhteenlasku-salasana-aamiainen-8238",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "breakfast",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-aamiainen-8238"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-ajoneuvot-fec3",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "vehicles",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-ajoneuvot-fec3"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-aktiviteetit-2253",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "activities",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-aktiviteetit-2253"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-ammatit-8bdc",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "occupations",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-ammatit-8bdc"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-asusteet-81d6",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "accessories",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-asusteet-81d6"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-avaruus-1019",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "space",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-avaruus-1019"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-dinosaurukset-6be1",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "dinosaurs",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-dinosaurukset-6be1"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-elaimet-521c",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "animals",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-elaimet-521c"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-elaintarhan-elaimet-df6b",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "zoo_animals",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-elaintarhan-elaimet-df6b"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-hedelmat-afab",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "fruits",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-hedelmat-afab"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-huonekalut-bee6",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "furniture",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-huonekalut-bee6"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-hyonteiset-ja-otokat-7f79",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "insects_and_bugs",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-hyonteiset-ja-otokat-7f79"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-jalkiruoat-ja-makeiset-fd2a",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "desserts_and_sweets",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-jalkiruoat-ja-makeiset-fd2a"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-joulu-0cd2",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "christmas",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-joulu-0cd2"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-keittiovalineet-8d60",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "kitchen_tools",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-keittiovalineet-8d60"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-kesa-3669",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "summer",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-kesa-3669"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-kevat-2dee",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "spring",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-kevat-2dee"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-kodin-ymparilla-f1e2",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "around_the_house",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-kodin-ymparilla-f1e2"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-kukat-b1fe",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "flowers",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-kukat-b1fe"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-leipomo-c78a",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "bakery",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-leipomo-c78a"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-leirielama-faf6",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "camping",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-leirielama-faf6"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-lelut-8b4d",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "toys",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-lelut-8b4d"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-lemmikit-2c2d",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "pets",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-lemmikit-2c2d"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-lentavat-asiat-7881",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "things_that_fly",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-lentavat-asiat-7881"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-linnut-2-76a2",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "birds_2",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-linnut-2-76a2"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-linnut-aad4",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "birds",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-linnut-aad4"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-luokkahuone-408d",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "classroom",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-luokkahuone-408d"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-maatilan-elaimet-62d3",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "farm_animals",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-maatilan-elaimet-62d3"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-matelijat-ja-sammakkoelaimet-5e79",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-matelijat-ja-sammakkoelaimet-5e79"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-merielama-4021",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "ocean_life",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-merielama-4021"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-metsan-elaimet-1fa6",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "forest_creatures",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-metsan-elaimet-1fa6"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-muodot-5d8f",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "shapes",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-muodot-5d8f"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-musiikki-d9ca",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "music",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-musiikki-d9ca"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-paasiainen-8471",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "easter",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-paasiainen-8471"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-postitoimisto-ec89",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "post_office",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-postitoimisto-ec89"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-puut-53a6",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "tree",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-puut-53a6"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-ranta-673a",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "beach",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-ranta-673a"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-ruokakaupassa-86e5",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "at_the_supermarket",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-ruokakaupassa-86e5"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-ruumiinosat-1fa3",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "body_parts",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-ruumiinosat-1fa3"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-saa-1409",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "weather",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-saa-1409"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-sairaala-0725",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "hospital",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-sairaala-0725"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-talvi-eada",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "winter",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-talvi-eada"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-tunteet-5e7c",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "emotions",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-tunteet-5e7c"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-tyokalut-14aa",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "tools",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-tyokalut-14aa"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-vaatteet-bcba",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "clothing",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-vaatteet-bcba"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-varit-9c0d",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "colors",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-varit-9c0d"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-vihannekset-c889",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "vegetables",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-vihannekset-c889"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-aamiainen-705a",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "breakfast",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-aamiainen-705a"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-ajoneuvot-5082",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "vehicles",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-ajoneuvot-5082"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-aktiviteetit-0dd6",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "activities",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-aktiviteetit-0dd6"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-ammatit-a35c",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "occupations",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-ammatit-a35c"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-asusteet-8ea8",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "accessories",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-asusteet-8ea8"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-avaruus-a4f1",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "space",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-avaruus-a4f1"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-dinosaurukset-043a",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "dinosaurs",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-dinosaurukset-043a"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-elaimet-601c",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "animals",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-elaimet-601c"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-elaintarhan-elaimet-9ed9",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "zoo_animals",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-elaintarhan-elaimet-9ed9"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-hedelmat-5fe6",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "fruits",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-hedelmat-5fe6"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-huonekalut-1be1",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "furniture",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-huonekalut-1be1"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-hyonteiset-ja-otokat-962b",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "insects_and_bugs",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-hyonteiset-ja-otokat-962b"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-jalkiruoat-ja-makeiset-69bd",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "desserts_and_sweets",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-jalkiruoat-ja-makeiset-69bd"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-joulu-e555",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "christmas",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-joulu-e555"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-keittiovalineet-9250",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "kitchen_tools",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-keittiovalineet-9250"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-kesa-62c5",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "summer",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-kesa-62c5"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-kevat-6564",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "spring",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-kevat-6564"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-kiitospaiva-f816",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "thanksgivinng",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-kiitospaiva-f816"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-kodin-ymparilla-dd75",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "around_the_house",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-kodin-ymparilla-dd75"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-kukat-6e3e",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "flowers",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-kukat-6e3e"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-leipomo-b4c6",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "bakery",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-leipomo-b4c6"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-leirielama-ecd7",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "camping",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-leirielama-ecd7"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-lelut-16af",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "toys",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-lelut-16af"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-lemmikit-cc13",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "pets",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-lemmikit-cc13"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-lentavat-asiat-262b",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "things_that_fly",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-lentavat-asiat-262b"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-linnut-2-8595",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "birds_2",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-linnut-2-8595"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-luokkahuone-fc25",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "classroom",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-luokkahuone-fc25"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-maatilan-elaimet-df6e",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "farm_animals",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-maatilan-elaimet-df6e"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-matelijat-ja-sammakkoelaimet-5d0a",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "reptiles_and_amphibians",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-matelijat-ja-sammakkoelaimet-5d0a"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-merielama-c23d",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "ocean_life",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-merielama-c23d"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-metsan-elaimet-dd12",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "forest_creatures",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-metsan-elaimet-dd12"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-muodot-f58d",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "shapes",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-muodot-f58d"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-musiikki-29a7",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "music",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-musiikki-29a7"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-paasiainen-f220",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "easter",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-paasiainen-f220"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-postitoimisto-0853",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "post_office",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-postitoimisto-0853"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-puut-f544",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "tree",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-puut-f544"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-ranta-3c5a",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "beach",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-ranta-3c5a"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-ruokakaupassa-90eb",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "at_the_supermarket",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-ruokakaupassa-90eb"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-ruumiinosat-a492",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "body_parts",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-ruumiinosat-a492"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-saa-c587",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "weather",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-saa-c587"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-sairaala-f5c1",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "hospital",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-sairaala-f5c1"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-talvi-3cb5",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "winter",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-talvi-3cb5"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-tunteet-e17b",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "emotions",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-tunteet-e17b"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-tyokalut-b831",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "tools",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-tyokalut-b831"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-vaatteet-8ee9",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "clothing",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-vaatteet-8ee9"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-varit-26cf",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "colors",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-varit-26cf"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-vihannekset-c72c",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "vegetables",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-vihannekset-c72c"
+  }
+ ]
+}

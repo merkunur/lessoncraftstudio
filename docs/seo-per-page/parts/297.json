@@ -1,0 +1,780 @@
+{
+ "part": 297,
+ "locale": "no",
+ "classes": [
+  "pattern-train::aab",
+  "pattern-train::aabb"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "monstertoget-aab-aktiviteter-0493",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "activities",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-aktiviteter-0493"
+  },
+  {
+   "slug": "monstertoget-aab-bakeri-aee6",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-bakeri-aee6"
+  },
+  {
+   "slug": "monstertoget-aab-blomster-9344",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-blomster-9344"
+  },
+  {
+   "slug": "monstertoget-aab-camping-9b8a",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "camping",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-camping-9b8a"
+  },
+  {
+   "slug": "monstertoget-aab-desserter-og-godteri-d836",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "desserts_and_sweets",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-desserter-og-godteri-d836"
+  },
+  {
+   "slug": "monstertoget-aab-dinosaurer-6798",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-dinosaurer-6798"
+  },
+  {
+   "slug": "monstertoget-aab-dyr-0de8",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-dyr-0de8"
+  },
+  {
+   "slug": "monstertoget-aab-dyrehagedyr-77c4",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-dyrehagedyr-77c4"
+  },
+  {
+   "slug": "monstertoget-aab-farger-44b4",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "colors",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-farger-44b4"
+  },
+  {
+   "slug": "monstertoget-aab-folelser-942a",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "emotions",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-folelser-942a"
+  },
+  {
+   "slug": "monstertoget-aab-former-6b90",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "shapes",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-former-6b90"
+  },
+  {
+   "slug": "monstertoget-aab-frokost-b92c",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-frokost-b92c"
+  },
+  {
+   "slug": "monstertoget-aab-frukter-7cb9",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-frukter-7cb9"
+  },
+  {
+   "slug": "monstertoget-aab-fugler-08fb",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "birds",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-fugler-08fb"
+  },
+  {
+   "slug": "monstertoget-aab-fugler-2-00f2",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-fugler-2-00f2"
+  },
+  {
+   "slug": "monstertoget-aab-gardsdyr-a669",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "farm_animals",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-gardsdyr-a669"
+  },
+  {
+   "slug": "monstertoget-aab-gronnsaker-9e8e",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "vegetables",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-gronnsaker-9e8e"
+  },
+  {
+   "slug": "monstertoget-aab-havliv-bb68",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "ocean_life",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-havliv-bb68"
+  },
+  {
+   "slug": "monstertoget-aab-i-supermarkedet-4e8b",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-i-supermarkedet-4e8b"
+  },
+  {
+   "slug": "monstertoget-aab-insekter-og-kryp-1f6a",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "insects_and_bugs",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-insekter-og-kryp-1f6a"
+  },
+  {
+   "slug": "monstertoget-aab-jul-87cf",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-jul-87cf"
+  },
+  {
+   "slug": "monstertoget-aab-kjaeledyr-f578",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "pets",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-kjaeledyr-f578"
+  },
+  {
+   "slug": "monstertoget-aab-kjokkenredskaper-1159",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-kjokkenredskaper-1159"
+  },
+  {
+   "slug": "monstertoget-aab-kjoretoy-68be",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-kjoretoy-68be"
+  },
+  {
+   "slug": "monstertoget-aab-klaer-c971",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-klaer-c971"
+  },
+  {
+   "slug": "monstertoget-aab-klasserom-dbe0",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-klasserom-dbe0"
+  },
+  {
+   "slug": "monstertoget-aab-kroppsdeler-a586",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "body_parts",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-kroppsdeler-a586"
+  },
+  {
+   "slug": "monstertoget-aab-leker-0f99",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-leker-0f99"
+  },
+  {
+   "slug": "monstertoget-aab-mobler-26d8",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "furniture",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-mobler-26d8"
+  },
+  {
+   "slug": "monstertoget-aab-musikk-769d",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "music",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-musikk-769d"
+  },
+  {
+   "slug": "monstertoget-aab-paske-a1fa",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-paske-a1fa"
+  },
+  {
+   "slug": "monstertoget-aab-postkontor-e01f",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "post_office",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-postkontor-e01f"
+  },
+  {
+   "slug": "monstertoget-aab-reptiler-og-amfibier-e7ba",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-reptiler-og-amfibier-e7ba"
+  },
+  {
+   "slug": "monstertoget-aab-rundt-i-huset-55ed",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "around_the_house",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-rundt-i-huset-55ed"
+  },
+  {
+   "slug": "monstertoget-aab-skogsdyr-2faa",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "forest_creatures",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-skogsdyr-2faa"
+  },
+  {
+   "slug": "monstertoget-aab-sommer-d920",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "summer",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-sommer-d920"
+  },
+  {
+   "slug": "monstertoget-aab-strand-0f97",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-strand-0f97"
+  },
+  {
+   "slug": "monstertoget-aab-sykehus-20ee",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-sykehus-20ee"
+  },
+  {
+   "slug": "monstertoget-aab-thanksgiving-2577",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "thanksgivinng",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-thanksgiving-2577"
+  },
+  {
+   "slug": "monstertoget-aab-tilbehor-27a4",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-tilbehor-27a4"
+  },
+  {
+   "slug": "monstertoget-aab-ting-som-flyr-2ddb",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-ting-som-flyr-2ddb"
+  },
+  {
+   "slug": "monstertoget-aab-traer-4598",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-traer-4598"
+  },
+  {
+   "slug": "monstertoget-aab-vaer-78dc",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "weather",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-vaer-78dc"
+  },
+  {
+   "slug": "monstertoget-aab-var-e3dc",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "spring",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-var-e3dc"
+  },
+  {
+   "slug": "monstertoget-aab-verdensrommet-a8b2",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-verdensrommet-a8b2"
+  },
+  {
+   "slug": "monstertoget-aab-verktoy-8022",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "tools",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-verktoy-8022"
+  },
+  {
+   "slug": "monstertoget-aab-vinter-4cb7",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "winter",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-vinter-4cb7"
+  },
+  {
+   "slug": "monstertoget-aab-yrker-4e24",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-yrker-4e24"
+  },
+  {
+   "slug": "monstertoget-aabb-aktiviteter-79eb",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "activities",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-aktiviteter-79eb"
+  },
+  {
+   "slug": "monstertoget-aabb-bakeri-1521",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-bakeri-1521"
+  },
+  {
+   "slug": "monstertoget-aabb-blomster-2074",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-blomster-2074"
+  },
+  {
+   "slug": "monstertoget-aabb-camping-dc4e",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "camping",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-camping-dc4e"
+  },
+  {
+   "slug": "monstertoget-aabb-desserter-og-godteri-e062",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "desserts_and_sweets",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-desserter-og-godteri-e062"
+  },
+  {
+   "slug": "monstertoget-aabb-dinosaurer-2de5",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-dinosaurer-2de5"
+  },
+  {
+   "slug": "monstertoget-aabb-dyr-9f02",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-dyr-9f02"
+  },
+  {
+   "slug": "monstertoget-aabb-dyrehagedyr-b95f",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-dyrehagedyr-b95f"
+  },
+  {
+   "slug": "monstertoget-aabb-farger-839c",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "colors",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-farger-839c"
+  },
+  {
+   "slug": "monstertoget-aabb-folelser-20ba",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "emotions",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-folelser-20ba"
+  },
+  {
+   "slug": "monstertoget-aabb-former-2b15",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "shapes",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-former-2b15"
+  },
+  {
+   "slug": "monstertoget-aabb-frokost-c155",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-frokost-c155"
+  },
+  {
+   "slug": "monstertoget-aabb-frukter-fe14",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-frukter-fe14"
+  },
+  {
+   "slug": "monstertoget-aabb-fugler-2-53dc",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-fugler-2-53dc"
+  },
+  {
+   "slug": "monstertoget-aabb-fugler-e075",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "birds",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-fugler-e075"
+  },
+  {
+   "slug": "monstertoget-aabb-gardsdyr-4002",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "farm_animals",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-gardsdyr-4002"
+  },
+  {
+   "slug": "monstertoget-aabb-gronnsaker-81ed",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "vegetables",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-gronnsaker-81ed"
+  },
+  {
+   "slug": "monstertoget-aabb-havliv-22d7",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "ocean_life",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-havliv-22d7"
+  },
+  {
+   "slug": "monstertoget-aabb-i-supermarkedet-2655",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-i-supermarkedet-2655"
+  },
+  {
+   "slug": "monstertoget-aabb-insekter-og-kryp-c5ab",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "insects_and_bugs",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-insekter-og-kryp-c5ab"
+  },
+  {
+   "slug": "monstertoget-aabb-jul-e1a6",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-jul-e1a6"
+  },
+  {
+   "slug": "monstertoget-aabb-kjaeledyr-f891",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "pets",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-kjaeledyr-f891"
+  },
+  {
+   "slug": "monstertoget-aabb-kjokkenredskaper-624e",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-kjokkenredskaper-624e"
+  },
+  {
+   "slug": "monstertoget-aabb-kjoretoy-b78d",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-kjoretoy-b78d"
+  },
+  {
+   "slug": "monstertoget-aabb-klaer-4799",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-klaer-4799"
+  },
+  {
+   "slug": "monstertoget-aabb-klasserom-37e8",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-klasserom-37e8"
+  },
+  {
+   "slug": "monstertoget-aabb-kroppsdeler-081e",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "body_parts",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-kroppsdeler-081e"
+  },
+  {
+   "slug": "monstertoget-aabb-leker-6ea7",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-leker-6ea7"
+  },
+  {
+   "slug": "monstertoget-aabb-mobler-56f3",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "furniture",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-mobler-56f3"
+  },
+  {
+   "slug": "monstertoget-aabb-musikk-a8e1",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "music",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-musikk-a8e1"
+  },
+  {
+   "slug": "monstertoget-aabb-paske-9186",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-paske-9186"
+  },
+  {
+   "slug": "monstertoget-aabb-postkontor-07f9",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "post_office",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-postkontor-07f9"
+  },
+  {
+   "slug": "monstertoget-aabb-reptiler-og-amfibier-f745",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-reptiler-og-amfibier-f745"
+  },
+  {
+   "slug": "monstertoget-aabb-rundt-i-huset-1de0",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "around_the_house",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-rundt-i-huset-1de0"
+  },
+  {
+   "slug": "monstertoget-aabb-skogsdyr-8e8a",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "forest_creatures",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-skogsdyr-8e8a"
+  },
+  {
+   "slug": "monstertoget-aabb-sommer-c2bf",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "summer",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-sommer-c2bf"
+  },
+  {
+   "slug": "monstertoget-aabb-strand-72e2",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-strand-72e2"
+  },
+  {
+   "slug": "monstertoget-aabb-sykehus-2aa8",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-sykehus-2aa8"
+  },
+  {
+   "slug": "monstertoget-aabb-thanksgiving-813c",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "thanksgivinng",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-thanksgiving-813c"
+  },
+  {
+   "slug": "monstertoget-aabb-tilbehor-4839",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-tilbehor-4839"
+  },
+  {
+   "slug": "monstertoget-aabb-ting-som-flyr-bc31",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-ting-som-flyr-bc31"
+  },
+  {
+   "slug": "monstertoget-aabb-traer-a3f2",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-traer-a3f2"
+  },
+  {
+   "slug": "monstertoget-aabb-vaer-0470",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "weather",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-vaer-0470"
+  },
+  {
+   "slug": "monstertoget-aabb-var-e076",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "spring",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-var-e076"
+  },
+  {
+   "slug": "monstertoget-aabb-verdensrommet-bede",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-verdensrommet-bede"
+  },
+  {
+   "slug": "monstertoget-aabb-verktoy-cc29",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "tools",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-verktoy-cc29"
+  },
+  {
+   "slug": "monstertoget-aabb-vinter-8934",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "winter",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-vinter-8934"
+  },
+  {
+   "slug": "monstertoget-aabb-yrker-216d",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-yrker-216d"
+  }
+ ]
+}

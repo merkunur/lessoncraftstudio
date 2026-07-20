@@ -1,0 +1,764 @@
+{
+ "part": 306,
+ "locale": "no",
+ "classes": [
+  "word-scramble::easy",
+  "word-scramble::normal"
+ ],
+ "splitOf": null,
+ "count": 94,
+ "pages": [
+  {
+   "slug": "bokstavspill-lett-aktiviteter-395f",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "activities",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-aktiviteter-395f"
+  },
+  {
+   "slug": "bokstavspill-lett-bakeri-5295",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "bakery",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-bakeri-5295"
+  },
+  {
+   "slug": "bokstavspill-lett-blomster-63da",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "flowers",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-blomster-63da"
+  },
+  {
+   "slug": "bokstavspill-lett-camping-4d40",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "camping",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-camping-4d40"
+  },
+  {
+   "slug": "bokstavspill-lett-desserter-og-godteri-2362",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "desserts_and_sweets",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-desserter-og-godteri-2362"
+  },
+  {
+   "slug": "bokstavspill-lett-dyr-c2fd",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "animals",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-dyr-c2fd"
+  },
+  {
+   "slug": "bokstavspill-lett-dyrehagedyr-7bde",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "zoo_animals",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-dyrehagedyr-7bde"
+  },
+  {
+   "slug": "bokstavspill-lett-farger-8bda",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "colors",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-farger-8bda"
+  },
+  {
+   "slug": "bokstavspill-lett-folelser-aa51",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "emotions",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-folelser-aa51"
+  },
+  {
+   "slug": "bokstavspill-lett-former-0d5f",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "shapes",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-former-0d5f"
+  },
+  {
+   "slug": "bokstavspill-lett-frokost-8c5c",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "breakfast",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-frokost-8c5c"
+  },
+  {
+   "slug": "bokstavspill-lett-frukter-f643",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "fruits",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-frukter-f643"
+  },
+  {
+   "slug": "bokstavspill-lett-fugler-2-d268",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "birds_2",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-fugler-2-d268"
+  },
+  {
+   "slug": "bokstavspill-lett-fugler-8a83",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "birds",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-fugler-8a83"
+  },
+  {
+   "slug": "bokstavspill-lett-gardsdyr-cf4f",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "farm_animals",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-gardsdyr-cf4f"
+  },
+  {
+   "slug": "bokstavspill-lett-gronnsaker-562f",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "vegetables",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-gronnsaker-562f"
+  },
+  {
+   "slug": "bokstavspill-lett-havliv-1f7a",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "ocean_life",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-havliv-1f7a"
+  },
+  {
+   "slug": "bokstavspill-lett-i-supermarkedet-aa09",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-i-supermarkedet-aa09"
+  },
+  {
+   "slug": "bokstavspill-lett-insekter-og-kryp-92e1",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "insects_and_bugs",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-insekter-og-kryp-92e1"
+  },
+  {
+   "slug": "bokstavspill-lett-jul-83ba",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "christmas",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-jul-83ba"
+  },
+  {
+   "slug": "bokstavspill-lett-kjaeledyr-614f",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "pets",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-kjaeledyr-614f"
+  },
+  {
+   "slug": "bokstavspill-lett-kjokkenredskaper-9932",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "kitchen_tools",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-kjokkenredskaper-9932"
+  },
+  {
+   "slug": "bokstavspill-lett-kjoretoy-ee57",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "vehicles",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-kjoretoy-ee57"
+  },
+  {
+   "slug": "bokstavspill-lett-klaer-fb1e",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "clothing",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-klaer-fb1e"
+  },
+  {
+   "slug": "bokstavspill-lett-klasserom-dd5d",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "classroom",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-klasserom-dd5d"
+  },
+  {
+   "slug": "bokstavspill-lett-kroppsdeler-cdaa",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-kroppsdeler-cdaa"
+  },
+  {
+   "slug": "bokstavspill-lett-leker-71df",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "toys",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-leker-71df"
+  },
+  {
+   "slug": "bokstavspill-lett-mobler-3f72",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "furniture",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-mobler-3f72"
+  },
+  {
+   "slug": "bokstavspill-lett-musikk-cede",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "music",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-musikk-cede"
+  },
+  {
+   "slug": "bokstavspill-lett-paske-a71e",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "easter",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-paske-a71e"
+  },
+  {
+   "slug": "bokstavspill-lett-postkontor-646a",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "post_office",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-postkontor-646a"
+  },
+  {
+   "slug": "bokstavspill-lett-reptiler-og-amfibier-0697",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-reptiler-og-amfibier-0697"
+  },
+  {
+   "slug": "bokstavspill-lett-rundt-i-huset-aa3c",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "around_the_house",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-rundt-i-huset-aa3c"
+  },
+  {
+   "slug": "bokstavspill-lett-skogsdyr-2fd4",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "forest_creatures",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-skogsdyr-2fd4"
+  },
+  {
+   "slug": "bokstavspill-lett-sommer-a8bc",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "summer",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-sommer-a8bc"
+  },
+  {
+   "slug": "bokstavspill-lett-strand-e6b2",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "beach",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-strand-e6b2"
+  },
+  {
+   "slug": "bokstavspill-lett-sykehus-286a",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "hospital",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-sykehus-286a"
+  },
+  {
+   "slug": "bokstavspill-lett-thanksgiving-01b2",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "thanksgivinng",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-thanksgiving-01b2"
+  },
+  {
+   "slug": "bokstavspill-lett-tilbehor-4428",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "accessories",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-tilbehor-4428"
+  },
+  {
+   "slug": "bokstavspill-lett-ting-som-flyr-03d0",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "things_that_fly",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-ting-som-flyr-03d0"
+  },
+  {
+   "slug": "bokstavspill-lett-traer-8bbc",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "tree",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-traer-8bbc"
+  },
+  {
+   "slug": "bokstavspill-lett-vaer-22c4",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-vaer-22c4"
+  },
+  {
+   "slug": "bokstavspill-lett-var-e4e2",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-var-e4e2"
+  },
+  {
+   "slug": "bokstavspill-lett-verdensrommet-e33b",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "space",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-verdensrommet-e33b"
+  },
+  {
+   "slug": "bokstavspill-lett-verktoy-16c4",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "tools",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-verktoy-16c4"
+  },
+  {
+   "slug": "bokstavspill-lett-vinter-c24d",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-vinter-c24d"
+  },
+  {
+   "slug": "bokstavspill-lett-yrker-1766",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "occupations",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-yrker-1766"
+  },
+  {
+   "slug": "bokstavspill-normal-aktiviteter-e360",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "activities",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-aktiviteter-e360"
+  },
+  {
+   "slug": "bokstavspill-normal-bakeri-650d",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "bakery",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-bakeri-650d"
+  },
+  {
+   "slug": "bokstavspill-normal-blomster-222c",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "flowers",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-blomster-222c"
+  },
+  {
+   "slug": "bokstavspill-normal-camping-5617",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "camping",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-camping-5617"
+  },
+  {
+   "slug": "bokstavspill-normal-desserter-og-godteri-db28",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "desserts_and_sweets",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-desserter-og-godteri-db28"
+  },
+  {
+   "slug": "bokstavspill-normal-dyr-bf50",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "animals",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-dyr-bf50"
+  },
+  {
+   "slug": "bokstavspill-normal-dyrehagedyr-3e52",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "zoo_animals",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-dyrehagedyr-3e52"
+  },
+  {
+   "slug": "bokstavspill-normal-farger-be40",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "colors",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-farger-be40"
+  },
+  {
+   "slug": "bokstavspill-normal-folelser-f677",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "emotions",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-folelser-f677"
+  },
+  {
+   "slug": "bokstavspill-normal-former-4451",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "shapes",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-former-4451"
+  },
+  {
+   "slug": "bokstavspill-normal-frokost-1873",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "breakfast",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-frokost-1873"
+  },
+  {
+   "slug": "bokstavspill-normal-frukter-ed1a",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "fruits",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-frukter-ed1a"
+  },
+  {
+   "slug": "bokstavspill-normal-fugler-2-3599",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "birds_2",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-fugler-2-3599"
+  },
+  {
+   "slug": "bokstavspill-normal-fugler-ee97",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "birds",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-fugler-ee97"
+  },
+  {
+   "slug": "bokstavspill-normal-gardsdyr-3646",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "farm_animals",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-gardsdyr-3646"
+  },
+  {
+   "slug": "bokstavspill-normal-gronnsaker-8448",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "vegetables",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-gronnsaker-8448"
+  },
+  {
+   "slug": "bokstavspill-normal-havliv-28d1",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "ocean_life",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-havliv-28d1"
+  },
+  {
+   "slug": "bokstavspill-normal-i-supermarkedet-023e",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "at_the_supermarket",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-i-supermarkedet-023e"
+  },
+  {
+   "slug": "bokstavspill-normal-insekter-og-kryp-5ede",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "insects_and_bugs",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-insekter-og-kryp-5ede"
+  },
+  {
+   "slug": "bokstavspill-normal-jul-c436",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "christmas",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-jul-c436"
+  },
+  {
+   "slug": "bokstavspill-normal-kjaeledyr-1f02",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "pets",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-kjaeledyr-1f02"
+  },
+  {
+   "slug": "bokstavspill-normal-kjokkenredskaper-47cc",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "kitchen_tools",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-kjokkenredskaper-47cc"
+  },
+  {
+   "slug": "bokstavspill-normal-kjoretoy-fed8",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "vehicles",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-kjoretoy-fed8"
+  },
+  {
+   "slug": "bokstavspill-normal-klaer-bb32",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "clothing",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-klaer-bb32"
+  },
+  {
+   "slug": "bokstavspill-normal-klasserom-8529",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "classroom",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-klasserom-8529"
+  },
+  {
+   "slug": "bokstavspill-normal-kroppsdeler-3f21",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "body_parts",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-kroppsdeler-3f21"
+  },
+  {
+   "slug": "bokstavspill-normal-leker-c9ad",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "toys",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-leker-c9ad"
+  },
+  {
+   "slug": "bokstavspill-normal-mobler-3ba4",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "furniture",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-mobler-3ba4"
+  },
+  {
+   "slug": "bokstavspill-normal-musikk-8b03",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "music",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-musikk-8b03"
+  },
+  {
+   "slug": "bokstavspill-normal-paske-f240",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "easter",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-paske-f240"
+  },
+  {
+   "slug": "bokstavspill-normal-postkontor-1e84",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "post_office",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-postkontor-1e84"
+  },
+  {
+   "slug": "bokstavspill-normal-reptiler-og-amfibier-ce2b",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "reptiles_and_amphibians",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-reptiler-og-amfibier-ce2b"
+  },
+  {
+   "slug": "bokstavspill-normal-rundt-i-huset-864f",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "around_the_house",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-rundt-i-huset-864f"
+  },
+  {
+   "slug": "bokstavspill-normal-skogsdyr-3aa4",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "forest_creatures",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-skogsdyr-3aa4"
+  },
+  {
+   "slug": "bokstavspill-normal-sommer-78e1",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "summer",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-sommer-78e1"
+  },
+  {
+   "slug": "bokstavspill-normal-strand-afdf",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "beach",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-strand-afdf"
+  },
+  {
+   "slug": "bokstavspill-normal-sykehus-6a2b",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "hospital",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-sykehus-6a2b"
+  },
+  {
+   "slug": "bokstavspill-normal-thanksgiving-2156",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "thanksgivinng",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-thanksgiving-2156"
+  },
+  {
+   "slug": "bokstavspill-normal-tilbehor-778e",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "accessories",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-tilbehor-778e"
+  },
+  {
+   "slug": "bokstavspill-normal-ting-som-flyr-b5ec",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "things_that_fly",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-ting-som-flyr-b5ec"
+  },
+  {
+   "slug": "bokstavspill-normal-traer-4990",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "tree",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-traer-4990"
+  },
+  {
+   "slug": "bokstavspill-normal-vaer-f69a",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "weather",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-vaer-f69a"
+  },
+  {
+   "slug": "bokstavspill-normal-var-a911",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "spring",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-var-a911"
+  },
+  {
+   "slug": "bokstavspill-normal-verdensrommet-94e9",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "space",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-verdensrommet-94e9"
+  },
+  {
+   "slug": "bokstavspill-normal-verktoy-6eec",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "tools",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-verktoy-6eec"
+  },
+  {
+   "slug": "bokstavspill-normal-vinter-d56f",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "winter",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-vinter-d56f"
+  },
+  {
+   "slug": "bokstavspill-normal-yrker-fc45",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "occupations",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-yrker-fc45"
+  }
+ ]
+}

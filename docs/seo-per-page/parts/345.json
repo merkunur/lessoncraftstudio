@@ -1,0 +1,660 @@
+{
+ "part": 345,
+ "locale": "fi",
+ "classes": [
+  "subtraction::cross-out",
+  "bingo::null"
+ ],
+ "splitOf": null,
+ "count": 81,
+ "pages": [
+  {
+   "slug": "vahennyslasku-yliviivaa-aamiainen-fc35",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "breakfast",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-aamiainen-fc35"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-ajoneuvot-5413",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "vehicles",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-ajoneuvot-5413"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-ammatit-bf12",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "occupations",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-ammatit-bf12"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-asusteet-bf9c",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "accessories",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-asusteet-bf9c"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-avaruus-a0d3",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "space",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-avaruus-a0d3"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-dinosaurukset-69e0",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "dinosaurs",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-dinosaurukset-69e0"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-elaimet",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "animals",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-elaimet"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-elaintarhan-elaimet-68f3",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "zoo_animals",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-elaintarhan-elaimet-68f3"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-hedelmat-1804",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "fruits",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-hedelmat-1804"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-huonekalut-59ec",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "furniture",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-huonekalut-59ec"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-hyonteiset-ja-otokat-89bf",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "insects_and_bugs",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-hyonteiset-ja-otokat-89bf"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-jalkiruoat-ja-makeiset-57d5",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "desserts_and_sweets",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-jalkiruoat-ja-makeiset-57d5"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-joulu-6d60",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "christmas",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-joulu-6d60"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-keittiovalineet-de4c",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "kitchen_tools",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-keittiovalineet-de4c"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-kiitospaiva-9436",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "thanksgivinng",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-kiitospaiva-9436"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-kodin-ymparilla-24c9",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "around_the_house",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-kodin-ymparilla-24c9"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-kukat-910d",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "flowers",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-kukat-910d"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-leipomo-74b8",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "bakery",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-leipomo-74b8"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-leirielama-38c7",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "camping",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-leirielama-38c7"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-lelut-2a22",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "toys",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-lelut-2a22"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-lemmikit-baf7",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "pets",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-lemmikit-baf7"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-lentavat-asiat-30db",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "things_that_fly",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-lentavat-asiat-30db"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-linnut-1b83",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "birds",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-linnut-1b83"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-linnut-2-19b2",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "birds_2",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-linnut-2-19b2"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-luokkahuone-6782",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "classroom",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-luokkahuone-6782"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-maatilan-elaimet-6f2a",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "farm_animals",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-maatilan-elaimet-6f2a"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-matelijat-ja-sammakkoelaimet-3fed",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-matelijat-ja-sammakkoelaimet-3fed"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-merielama-fa12",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "ocean_life",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-merielama-fa12"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-metsan-elaimet-48ca",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "forest_creatures",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-metsan-elaimet-48ca"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-muodot-66d9",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "shapes",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-muodot-66d9"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-musiikki-d190",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "music",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-musiikki-d190"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-paasiainen-4b10",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "easter",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-paasiainen-4b10"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-postitoimisto-df5f",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "post_office",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-postitoimisto-df5f"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-puut-e8b6",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "tree",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-puut-e8b6"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-ranta-7f33",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "beach",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-ranta-7f33"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-ruokakaupassa-63cd",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "at_the_supermarket",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-ruokakaupassa-63cd"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-sairaala-3720",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "hospital",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-sairaala-3720"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-sekalaista-19da",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "miscellaneous",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-sekalaista-19da"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-tyokalut-4cd2",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "tools",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-tyokalut-4cd2"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-vaatteet-c2b7",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "clothing",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-vaatteet-c2b7"
+  },
+  {
+   "slug": "vahennyslasku-yliviivaa-vihannekset-13ec",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "vegetables",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-yliviivaa-vihannekset-13ec"
+  },
+  {
+   "slug": "bingo-aamiainen-4ca2",
+   "type": "bingo",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "esikoulu",
+   "deck": "bingo-aamiainen-4ca2"
+  },
+  {
+   "slug": "bingo-ajoneuvot-3fc2",
+   "type": "bingo",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "esikoulu",
+   "deck": "bingo-ajoneuvot-3fc2"
+  },
+  {
+   "slug": "bingo-aktiviteetit-2d40",
+   "type": "bingo",
+   "mode": null,
+   "theme": "activities",
+   "level": "esikoulu",
+   "deck": "bingo-aktiviteetit-2d40"
+  },
+  {
+   "slug": "bingo-ammatit-0e45",
+   "type": "bingo",
+   "mode": null,
+   "theme": "occupations",
+   "level": "esikoulu",
+   "deck": "bingo-ammatit-0e45"
+  },
+  {
+   "slug": "bingo-asusteet-baa3",
+   "type": "bingo",
+   "mode": null,
+   "theme": "accessories",
+   "level": "esikoulu",
+   "deck": "bingo-asusteet-baa3"
+  },
+  {
+   "slug": "bingo-avaruus-3c97",
+   "type": "bingo",
+   "mode": null,
+   "theme": "space",
+   "level": "esikoulu",
+   "deck": "bingo-avaruus-3c97"
+  },
+  {
+   "slug": "bingo-dinosaurukset-62d6",
+   "type": "bingo",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "esikoulu",
+   "deck": "bingo-dinosaurukset-62d6"
+  },
+  {
+   "slug": "bingo-elaimet",
+   "type": "bingo",
+   "mode": null,
+   "theme": "animals",
+   "level": "esikoulu",
+   "deck": "bingo-elaimet"
+  },
+  {
+   "slug": "bingo-elaintarhan-elaimet-06d0",
+   "type": "bingo",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "esikoulu",
+   "deck": "bingo-elaintarhan-elaimet-06d0"
+  },
+  {
+   "slug": "bingo-hedelmat-fb63",
+   "type": "bingo",
+   "mode": null,
+   "theme": "fruits",
+   "level": "esikoulu",
+   "deck": "bingo-hedelmat-fb63"
+  },
+  {
+   "slug": "bingo-huonekalut-b06f",
+   "type": "bingo",
+   "mode": null,
+   "theme": "furniture",
+   "level": "esikoulu",
+   "deck": "bingo-huonekalut-b06f"
+  },
+  {
+   "slug": "bingo-jalkiruoat-ja-makeiset-5958",
+   "type": "bingo",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "esikoulu",
+   "deck": "bingo-jalkiruoat-ja-makeiset-5958"
+  },
+  {
+   "slug": "bingo-joulu-0872",
+   "type": "bingo",
+   "mode": null,
+   "theme": "christmas",
+   "level": "esikoulu",
+   "deck": "bingo-joulu-0872"
+  },
+  {
+   "slug": "bingo-keittiovalineet-9670",
+   "type": "bingo",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "esikoulu",
+   "deck": "bingo-keittiovalineet-9670"
+  },
+  {
+   "slug": "bingo-kesa-1003",
+   "type": "bingo",
+   "mode": null,
+   "theme": "summer",
+   "level": "esikoulu",
+   "deck": "bingo-kesa-1003"
+  },
+  {
+   "slug": "bingo-kevat-ddce",
+   "type": "bingo",
+   "mode": null,
+   "theme": "spring",
+   "level": "esikoulu",
+   "deck": "bingo-kevat-ddce"
+  },
+  {
+   "slug": "bingo-kodin-ymparilla-296a",
+   "type": "bingo",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "esikoulu",
+   "deck": "bingo-kodin-ymparilla-296a"
+  },
+  {
+   "slug": "bingo-kukat-7db0",
+   "type": "bingo",
+   "mode": null,
+   "theme": "flowers",
+   "level": "esikoulu",
+   "deck": "bingo-kukat-7db0"
+  },
+  {
+   "slug": "bingo-leipomo-c4f8",
+   "type": "bingo",
+   "mode": null,
+   "theme": "bakery",
+   "level": "esikoulu",
+   "deck": "bingo-leipomo-c4f8"
+  },
+  {
+   "slug": "bingo-leirielama-7068",
+   "type": "bingo",
+   "mode": null,
+   "theme": "camping",
+   "level": "esikoulu",
+   "deck": "bingo-leirielama-7068"
+  },
+  {
+   "slug": "bingo-lelut-39c4",
+   "type": "bingo",
+   "mode": null,
+   "theme": "toys",
+   "level": "esikoulu",
+   "deck": "bingo-lelut-39c4"
+  },
+  {
+   "slug": "bingo-lemmikit-c3ac",
+   "type": "bingo",
+   "mode": null,
+   "theme": "pets",
+   "level": "esikoulu",
+   "deck": "bingo-lemmikit-c3ac"
+  },
+  {
+   "slug": "bingo-lentavat-asiat-917f",
+   "type": "bingo",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "esikoulu",
+   "deck": "bingo-lentavat-asiat-917f"
+  },
+  {
+   "slug": "bingo-linnut-2-a91a",
+   "type": "bingo",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "esikoulu",
+   "deck": "bingo-linnut-2-a91a"
+  },
+  {
+   "slug": "bingo-luokkahuone-1cf5",
+   "type": "bingo",
+   "mode": null,
+   "theme": "classroom",
+   "level": "esikoulu",
+   "deck": "bingo-luokkahuone-1cf5"
+  },
+  {
+   "slug": "bingo-maatilan-elaimet-0c70",
+   "type": "bingo",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "esikoulu",
+   "deck": "bingo-maatilan-elaimet-0c70"
+  },
+  {
+   "slug": "bingo-merielama-8ed2",
+   "type": "bingo",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "esikoulu",
+   "deck": "bingo-merielama-8ed2"
+  },
+  {
+   "slug": "bingo-metsan-elaimet-308e",
+   "type": "bingo",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "esikoulu",
+   "deck": "bingo-metsan-elaimet-308e"
+  },
+  {
+   "slug": "bingo-muodot-9b72",
+   "type": "bingo",
+   "mode": null,
+   "theme": "shapes",
+   "level": "esikoulu",
+   "deck": "bingo-muodot-9b72"
+  },
+  {
+   "slug": "bingo-paasiainen-5f2d",
+   "type": "bingo",
+   "mode": null,
+   "theme": "easter",
+   "level": "esikoulu",
+   "deck": "bingo-paasiainen-5f2d"
+  },
+  {
+   "slug": "bingo-puut-9435",
+   "type": "bingo",
+   "mode": null,
+   "theme": "tree",
+   "level": "esikoulu",
+   "deck": "bingo-puut-9435"
+  },
+  {
+   "slug": "bingo-ranta-d26f",
+   "type": "bingo",
+   "mode": null,
+   "theme": "beach",
+   "level": "esikoulu",
+   "deck": "bingo-ranta-d26f"
+  },
+  {
+   "slug": "bingo-ruokakaupassa-a9a7",
+   "type": "bingo",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "esikoulu",
+   "deck": "bingo-ruokakaupassa-a9a7"
+  },
+  {
+   "slug": "bingo-ruumiinosat-53df",
+   "type": "bingo",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "esikoulu",
+   "deck": "bingo-ruumiinosat-53df"
+  },
+  {
+   "slug": "bingo-saa-330d",
+   "type": "bingo",
+   "mode": null,
+   "theme": "weather",
+   "level": "esikoulu",
+   "deck": "bingo-saa-330d"
+  },
+  {
+   "slug": "bingo-sairaala-0c50",
+   "type": "bingo",
+   "mode": null,
+   "theme": "hospital",
+   "level": "esikoulu",
+   "deck": "bingo-sairaala-0c50"
+  },
+  {
+   "slug": "bingo-talvi-f5da",
+   "type": "bingo",
+   "mode": null,
+   "theme": "winter",
+   "level": "esikoulu",
+   "deck": "bingo-talvi-f5da"
+  },
+  {
+   "slug": "bingo-vaatteet-1dac",
+   "type": "bingo",
+   "mode": null,
+   "theme": "clothing",
+   "level": "esikoulu",
+   "deck": "bingo-vaatteet-1dac"
+  },
+  {
+   "slug": "bingo-varit-6f88",
+   "type": "bingo",
+   "mode": null,
+   "theme": "colors",
+   "level": "esikoulu",
+   "deck": "bingo-varit-6f88"
+  },
+  {
+   "slug": "bingo-vihannekset-edfe",
+   "type": "bingo",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "esikoulu",
+   "deck": "bingo-vihannekset-edfe"
+  }
+ ]
+}

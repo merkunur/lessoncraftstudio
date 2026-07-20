@@ -1,0 +1,496 @@
+{
+ "part": 289,
+ "locale": "no",
+ "classes": [
+  "picture-sort::null"
+ ],
+ "splitOf": {
+  "class": "picture-sort::null",
+  "total": 180,
+  "chunk": 1,
+  "chunks": 3
+ },
+ "count": 60,
+ "pages": [
+  {
+   "slug": "sorter-bilder-4th-of-july-vs-flowers-f47d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "4th_of_july-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-4th-of-july-vs-flowers-f47d"
+  },
+  {
+   "slug": "sorter-bilder-accessories-vs-animals-c829",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-accessories-vs-animals-c829"
+  },
+  {
+   "slug": "sorter-bilder-accessories-vs-bakery-c2fe",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-accessories-vs-bakery-c2fe"
+  },
+  {
+   "slug": "sorter-bilder-accessories-vs-flowers-c7b4",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-accessories-vs-flowers-c7b4"
+  },
+  {
+   "slug": "sorter-bilder-activities-vs-animals-33c0",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "activities-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-activities-vs-animals-33c0"
+  },
+  {
+   "slug": "sorter-bilder-activities-vs-bakery-64b0",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "activities-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-activities-vs-bakery-64b0"
+  },
+  {
+   "slug": "sorter-bilder-activities-vs-dinosaurs-4def",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "activities-vs-dinosaurs",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-activities-vs-dinosaurs-4def"
+  },
+  {
+   "slug": "sorter-bilder-activities-vs-flowers-099a",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "activities-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-activities-vs-flowers-099a"
+  },
+  {
+   "slug": "sorter-bilder-activities-vs-tree-e33d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "activities-vs-tree",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-activities-vs-tree-e33d"
+  },
+  {
+   "slug": "sorter-bilder-activities-vs-vehicles-7e9f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "activities-vs-vehicles",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-activities-vs-vehicles-7e9f"
+  },
+  {
+   "slug": "sorter-bilder-animals-vs-bakery-ff2d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-animals-vs-bakery-ff2d"
+  },
+  {
+   "slug": "sorter-bilder-animals-vs-dinosaurs-8953",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-dinosaurs",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-animals-vs-dinosaurs-8953"
+  },
+  {
+   "slug": "sorter-bilder-animals-vs-flowers-309e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-animals-vs-flowers-309e"
+  },
+  {
+   "slug": "sorter-bilder-animals-vs-tree-f758",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-tree",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-animals-vs-tree-f758"
+  },
+  {
+   "slug": "sorter-bilder-animals-vs-vehicles-03ab",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-vehicles",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-animals-vs-vehicles-03ab"
+  },
+  {
+   "slug": "sorter-bilder-around-the-house-vs-animals-35f0",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "around_the_house-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-around-the-house-vs-animals-35f0"
+  },
+  {
+   "slug": "sorter-bilder-around-the-house-vs-bakery-78e6",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "around_the_house-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-around-the-house-vs-bakery-78e6"
+  },
+  {
+   "slug": "sorter-bilder-around-the-house-vs-flowers-be2a",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "around_the_house-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-around-the-house-vs-flowers-be2a"
+  },
+  {
+   "slug": "sorter-bilder-at-the-supermarket-vs-animals-15dd",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-at-the-supermarket-vs-animals-15dd"
+  },
+  {
+   "slug": "sorter-bilder-at-the-supermarket-vs-bakery-5f2f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-at-the-supermarket-vs-bakery-5f2f"
+  },
+  {
+   "slug": "sorter-bilder-at-the-supermarket-vs-dinosaurs-2553",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-dinosaurs",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-at-the-supermarket-vs-dinosaurs-2553"
+  },
+  {
+   "slug": "sorter-bilder-at-the-supermarket-vs-flowers-11ba",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-at-the-supermarket-vs-flowers-11ba"
+  },
+  {
+   "slug": "sorter-bilder-at-the-supermarket-vs-tree-d866",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-tree",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-at-the-supermarket-vs-tree-d866"
+  },
+  {
+   "slug": "sorter-bilder-at-the-supermarket-vs-vehicles-b185",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-vehicles",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-at-the-supermarket-vs-vehicles-b185"
+  },
+  {
+   "slug": "sorter-bilder-bakery-vs-animals-4252",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-bakery-vs-animals-4252"
+  },
+  {
+   "slug": "sorter-bilder-bakery-vs-dinosaurs-9c7f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-dinosaurs",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-bakery-vs-dinosaurs-9c7f"
+  },
+  {
+   "slug": "sorter-bilder-bakery-vs-flowers-deaa",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-bakery-vs-flowers-deaa"
+  },
+  {
+   "slug": "sorter-bilder-bakery-vs-tree-f342",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-tree",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-bakery-vs-tree-f342"
+  },
+  {
+   "slug": "sorter-bilder-bakery-vs-vehicles-e0bc",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-vehicles",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-bakery-vs-vehicles-e0bc"
+  },
+  {
+   "slug": "sorter-bilder-beach-vs-animals-24fc",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "beach-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-beach-vs-animals-24fc"
+  },
+  {
+   "slug": "sorter-bilder-beach-vs-bakery-47b3",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "beach-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-beach-vs-bakery-47b3"
+  },
+  {
+   "slug": "sorter-bilder-beach-vs-flowers-9202",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "beach-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-beach-vs-flowers-9202"
+  },
+  {
+   "slug": "sorter-bilder-birds-vs-bakery-61b6",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "birds-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-birds-vs-bakery-61b6"
+  },
+  {
+   "slug": "sorter-bilder-birds-vs-dinosaurs-0619",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "birds-vs-dinosaurs",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-birds-vs-dinosaurs-0619"
+  },
+  {
+   "slug": "sorter-bilder-birds-vs-flowers-8531",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "birds-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-birds-vs-flowers-8531"
+  },
+  {
+   "slug": "sorter-bilder-birds-vs-tree-98c0",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "birds-vs-tree",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-birds-vs-tree-98c0"
+  },
+  {
+   "slug": "sorter-bilder-birds-vs-vehicles-2fe2",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "birds-vs-vehicles",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-birds-vs-vehicles-2fe2"
+  },
+  {
+   "slug": "sorter-bilder-body-parts-vs-animals-cbe6",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "body_parts-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-body-parts-vs-animals-cbe6"
+  },
+  {
+   "slug": "sorter-bilder-body-parts-vs-bakery-3f30",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "body_parts-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-body-parts-vs-bakery-3f30"
+  },
+  {
+   "slug": "sorter-bilder-body-parts-vs-flowers-7134",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "body_parts-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-body-parts-vs-flowers-7134"
+  },
+  {
+   "slug": "sorter-bilder-breakfast-vs-animals-6647",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "breakfast-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-breakfast-vs-animals-6647"
+  },
+  {
+   "slug": "sorter-bilder-breakfast-vs-dinosaurs-7d9b",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "breakfast-vs-dinosaurs",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-breakfast-vs-dinosaurs-7d9b"
+  },
+  {
+   "slug": "sorter-bilder-breakfast-vs-flowers-b934",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "breakfast-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-breakfast-vs-flowers-b934"
+  },
+  {
+   "slug": "sorter-bilder-breakfast-vs-tree-1544",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "breakfast-vs-tree",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-breakfast-vs-tree-1544"
+  },
+  {
+   "slug": "sorter-bilder-breakfast-vs-vehicles-44eb",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "breakfast-vs-vehicles",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-breakfast-vs-vehicles-44eb"
+  },
+  {
+   "slug": "sorter-bilder-camping-vs-animals-db31",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-camping-vs-animals-db31"
+  },
+  {
+   "slug": "sorter-bilder-camping-vs-bakery-11e6",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-camping-vs-bakery-11e6"
+  },
+  {
+   "slug": "sorter-bilder-camping-vs-dinosaurs-877b",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-dinosaurs",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-camping-vs-dinosaurs-877b"
+  },
+  {
+   "slug": "sorter-bilder-camping-vs-flowers-88d0",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-camping-vs-flowers-88d0"
+  },
+  {
+   "slug": "sorter-bilder-camping-vs-tree-3ea7",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-tree",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-camping-vs-tree-3ea7"
+  },
+  {
+   "slug": "sorter-bilder-camping-vs-vehicles-d1b2",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-vehicles",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-camping-vs-vehicles-d1b2"
+  },
+  {
+   "slug": "sorter-bilder-christmas-vs-animals-815c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "christmas-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-christmas-vs-animals-815c"
+  },
+  {
+   "slug": "sorter-bilder-christmas-vs-bakery-1add",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "christmas-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-christmas-vs-bakery-1add"
+  },
+  {
+   "slug": "sorter-bilder-christmas-vs-dinosaurs-21ce",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "christmas-vs-dinosaurs",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-christmas-vs-dinosaurs-21ce"
+  },
+  {
+   "slug": "sorter-bilder-christmas-vs-flowers-49da",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "christmas-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-christmas-vs-flowers-49da"
+  },
+  {
+   "slug": "sorter-bilder-christmas-vs-tree-f1a3",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "christmas-vs-tree",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-christmas-vs-tree-f1a3"
+  },
+  {
+   "slug": "sorter-bilder-christmas-vs-vehicles-94e9",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "christmas-vs-vehicles",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-christmas-vs-vehicles-94e9"
+  },
+  {
+   "slug": "sorter-bilder-classroom-vs-animals-d088",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "classroom-vs-animals",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-classroom-vs-animals-d088"
+  },
+  {
+   "slug": "sorter-bilder-classroom-vs-bakery-f556",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "classroom-vs-bakery",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-classroom-vs-bakery-f556"
+  },
+  {
+   "slug": "sorter-bilder-classroom-vs-flowers-0a51",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "classroom-vs-flowers",
+   "level": "1-trinn",
+   "deck": "sorter-bilder-classroom-vs-flowers-0a51"
+  }
+ ]
+}

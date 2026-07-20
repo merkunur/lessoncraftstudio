@@ -1,0 +1,628 @@
+{
+ "part": 253,
+ "locale": "sv",
+ "classes": [
+  "subtraction::image-number",
+  "subtraction::cross-out"
+ ],
+ "splitOf": null,
+ "count": 77,
+ "pages": [
+  {
+   "slug": "subtraktion-bild-nummer-bageri-92d9",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "bakery",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-bageri-92d9"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-blommor-2486",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "flowers",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-blommor-2486"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-bondgardsdjur-5fb6",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "farm_animals",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-bondgardsdjur-5fb6"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-camping-5acc",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "camping",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-camping-5acc"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-dinosaurier-40a3",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "dinosaurs",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-dinosaurier-40a3"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-djur-e7dd",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "animals",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-djur-e7dd"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-djurparksdjur-922c",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "zoo_animals",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-djurparksdjur-922c"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-efterratter-och-godis-9a49",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "desserts_and_sweets",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-efterratter-och-godis-9a49"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-faglar-0224",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "birds",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-faglar-0224"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-faglar-2-4159",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "birds_2",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-faglar-2-4159"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-fordon-abf6",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "vehicles",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-fordon-abf6"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-former-098d",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "shapes",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-former-098d"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-frukost-9003",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "breakfast",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-frukost-9003"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-frukter-c9ea",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "fruits",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-frukter-c9ea"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-gronsaker-3f34",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "vegetables",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-gronsaker-3f34"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-havsliv-55e2",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "ocean_life",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-havsliv-55e2"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-husdjur-556c",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "pets",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-husdjur-556c"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-i-snabbkopet-2a4b",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "at_the_supermarket",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-i-snabbkopet-2a4b"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-insekter-och-kryp-1298",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "insects_and_bugs",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-insekter-och-kryp-1298"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-jul-668b",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "christmas",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-jul-668b"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-klader-6b06",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "clothing",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-klader-6b06"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-klassrum-e3a8",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "classroom",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-klassrum-e3a8"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-koksredskap-f732",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "kitchen_tools",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-koksredskap-f732"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-leksaker-f8f4",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "toys",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-leksaker-f8f4"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-musik-5a15",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "music",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-musik-5a15"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-pask-0a0b",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "easter",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-pask-0a0b"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-postkontor-223e",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "post_office",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-postkontor-223e"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-reptiler-och-groddjur-37f1",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "reptiles_and_amphibians",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-reptiler-och-groddjur-37f1"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-runt-huset-58d2",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "around_the_house",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-runt-huset-58d2"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-rymden-6c44",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "space",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-rymden-6c44"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-saker-som-flyger-8fe3",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "things_that_fly",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-saker-som-flyger-8fe3"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-sjukhus-5851",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "hospital",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-sjukhus-5851"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-skogsdjur-b840",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "forest_creatures",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-skogsdjur-b840"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-strand-a1dc",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "beach",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-strand-a1dc"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-thanksgiving-406e",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "thanksgivinng",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-thanksgiving-406e"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-tillbehor-17a8",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "accessories",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-tillbehor-17a8"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-trad-3015",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "tree",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-trad-3015"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-verktyg-c791",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "tools",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-verktyg-c791"
+  },
+  {
+   "slug": "subtraktion-bild-nummer-yrken-9f21",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "occupations",
+   "level": "ak-1",
+   "deck": "subtraktion-bild-nummer-yrken-9f21"
+  },
+  {
+   "slug": "subtraktion-stryk-over-bageri-1bef",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "bakery",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-bageri-1bef"
+  },
+  {
+   "slug": "subtraktion-stryk-over-blommor-2356",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "flowers",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-blommor-2356"
+  },
+  {
+   "slug": "subtraktion-stryk-over-bondgardsdjur-c17d",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "farm_animals",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-bondgardsdjur-c17d"
+  },
+  {
+   "slug": "subtraktion-stryk-over-camping-ccc3",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "camping",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-camping-ccc3"
+  },
+  {
+   "slug": "subtraktion-stryk-over-dinosaurier-b5de",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "dinosaurs",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-dinosaurier-b5de"
+  },
+  {
+   "slug": "subtraktion-stryk-over-djur",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "animals",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-djur"
+  },
+  {
+   "slug": "subtraktion-stryk-over-djurparksdjur-90f8",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "zoo_animals",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-djurparksdjur-90f8"
+  },
+  {
+   "slug": "subtraktion-stryk-over-efterratter-och-godis-095f",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "desserts_and_sweets",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-efterratter-och-godis-095f"
+  },
+  {
+   "slug": "subtraktion-stryk-over-faglar-3eeb",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "birds",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-faglar-3eeb"
+  },
+  {
+   "slug": "subtraktion-stryk-over-fordon-c112",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "vehicles",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-fordon-c112"
+  },
+  {
+   "slug": "subtraktion-stryk-over-former-56fe",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "shapes",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-former-56fe"
+  },
+  {
+   "slug": "subtraktion-stryk-over-frukost-5527",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "breakfast",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-frukost-5527"
+  },
+  {
+   "slug": "subtraktion-stryk-over-frukter-795b",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "fruits",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-frukter-795b"
+  },
+  {
+   "slug": "subtraktion-stryk-over-gronsaker-2ea3",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "vegetables",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-gronsaker-2ea3"
+  },
+  {
+   "slug": "subtraktion-stryk-over-havsliv-8e9a",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "ocean_life",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-havsliv-8e9a"
+  },
+  {
+   "slug": "subtraktion-stryk-over-husdjur-5898",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "pets",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-husdjur-5898"
+  },
+  {
+   "slug": "subtraktion-stryk-over-i-snabbkopet-4515",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "at_the_supermarket",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-i-snabbkopet-4515"
+  },
+  {
+   "slug": "subtraktion-stryk-over-insekter-och-kryp-8dfc",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "insects_and_bugs",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-insekter-och-kryp-8dfc"
+  },
+  {
+   "slug": "subtraktion-stryk-over-jul-6686",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "christmas",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-jul-6686"
+  },
+  {
+   "slug": "subtraktion-stryk-over-klader-da7e",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "clothing",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-klader-da7e"
+  },
+  {
+   "slug": "subtraktion-stryk-over-klassrum-8bd5",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "classroom",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-klassrum-8bd5"
+  },
+  {
+   "slug": "subtraktion-stryk-over-leksaker-da46",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "toys",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-leksaker-da46"
+  },
+  {
+   "slug": "subtraktion-stryk-over-mobler-509f",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "furniture",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-mobler-509f"
+  },
+  {
+   "slug": "subtraktion-stryk-over-musik-64db",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "music",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-musik-64db"
+  },
+  {
+   "slug": "subtraktion-stryk-over-pask-9a52",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "easter",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-pask-9a52"
+  },
+  {
+   "slug": "subtraktion-stryk-over-postkontor-839e",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "post_office",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-postkontor-839e"
+  },
+  {
+   "slug": "subtraktion-stryk-over-reptiler-och-groddjur-1605",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "reptiles_and_amphibians",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-reptiler-och-groddjur-1605"
+  },
+  {
+   "slug": "subtraktion-stryk-over-runt-huset-2c32",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "around_the_house",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-runt-huset-2c32"
+  },
+  {
+   "slug": "subtraktion-stryk-over-rymden-41ee",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "space",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-rymden-41ee"
+  },
+  {
+   "slug": "subtraktion-stryk-over-saker-som-flyger-9128",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "things_that_fly",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-saker-som-flyger-9128"
+  },
+  {
+   "slug": "subtraktion-stryk-over-sjukhus-aa8c",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "hospital",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-sjukhus-aa8c"
+  },
+  {
+   "slug": "subtraktion-stryk-over-skogsdjur-d671",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "forest_creatures",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-skogsdjur-d671"
+  },
+  {
+   "slug": "subtraktion-stryk-over-strand-1bbf",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "beach",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-strand-1bbf"
+  },
+  {
+   "slug": "subtraktion-stryk-over-thanksgiving-d660",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "thanksgivinng",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-thanksgiving-d660"
+  },
+  {
+   "slug": "subtraktion-stryk-over-tillbehor-8ef5",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "accessories",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-tillbehor-8ef5"
+  },
+  {
+   "slug": "subtraktion-stryk-over-trad-69e3",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "tree",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-trad-69e3"
+  },
+  {
+   "slug": "subtraktion-stryk-over-verktyg-d4b5",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "tools",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-verktyg-d4b5"
+  },
+  {
+   "slug": "subtraktion-stryk-over-yrken-287b",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "occupations",
+   "level": "ak-1",
+   "deck": "subtraktion-stryk-over-yrken-287b"
+  }
+ ]
+}

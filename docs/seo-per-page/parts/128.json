@@ -1,0 +1,668 @@
+{
+ "part": 128,
+ "locale": "pt",
+ "classes": [
+  "math-puzzle::subtraction",
+  "more-less::check-cross"
+ ],
+ "splitOf": null,
+ "count": 82,
+ "pages": [
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-acampamento-36d6",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "camping",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-acampamento-36d6"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-acessorios-4e35",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "accessories",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-acessorios-4e35"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-animais-79b8",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "animals",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-animais-79b8"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-animais-da-fazenda-a857",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "farm_animals",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-animais-da-fazenda-a857"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-animais-de-estimacao-582e",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "pets",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-animais-de-estimacao-582e"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-animais-do-zoologico-c212",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "zoo_animals",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-animais-do-zoologico-c212"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-arvores-6710",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "tree",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-arvores-6710"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-brinquedos-ba33",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "toys",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-brinquedos-ba33"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-cafe-da-manha-bf6a",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "breakfast",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-cafe-da-manha-bf6a"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-coisas-que-voam-08f9",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "things_that_fly",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-coisas-que-voam-08f9"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-correios-778e",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "post_office",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-correios-778e"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-criaturas-da-floresta-e955",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "forest_creatures",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-criaturas-da-floresta-e955"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-dia-de-acao-de-gracas-f5a7",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "thanksgivinng",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-dia-de-acao-de-gracas-f5a7"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-dinossauros-4cdb",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "dinosaurs",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-dinossauros-4cdb"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-diversos-e710",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "miscellaneous",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-diversos-e710"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-espaco-3f84",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "space",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-espaco-3f84"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-ferramentas-74ac",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "tools",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-ferramentas-74ac"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-flores-535b",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "flowers",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-flores-535b"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-formas-d5ec",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "shapes",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-formas-d5ec"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-frutas-87fb",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "fruits",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-frutas-87fb"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-hospital-b8e3",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "hospital",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-hospital-b8e3"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-insetos-e-bichos-0c51",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "insects_and_bugs",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-insetos-e-bichos-0c51"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-moveis-cd26",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "furniture",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-moveis-cd26"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-musica-e19f",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "music",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-musica-e19f"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-natal-8330",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "christmas",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-natal-8330"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-no-supermercado-7b1d",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "at_the_supermarket",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-no-supermercado-7b1d"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-padaria-91f8",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-padaria-91f8"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-pascoa-4693",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "easter",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-pascoa-4693"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-passaros-2-d879",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "birds_2",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-passaros-2-d879"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-passaros-7535",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "birds",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-passaros-7535"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-pela-casa-5546",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "around_the_house",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-pela-casa-5546"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-praia-a6d8",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "beach",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-praia-a6d8"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-profissoes-c7e6",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "occupations",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-profissoes-c7e6"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-repteis-e-anfibios-e4a7",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "reptiles_and_amphibians",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-repteis-e-anfibios-e4a7"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-roupas-051a",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "clothing",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-roupas-051a"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-sala-de-aula-9a5b",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "classroom",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-sala-de-aula-9a5b"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-sobremesas-e-doces-da30",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "desserts_and_sweets",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-sobremesas-e-doces-da30"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-utensilios-de-cozinha-e911",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "kitchen_tools",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-utensilios-de-cozinha-e911"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-vegetais-3780",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "vegetables",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-vegetais-3780"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-veiculos-e90b",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "vehicles",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-veiculos-e90b"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-subtracao-vida-marinha-4909",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "ocean_life",
+   "level": "2o-ano",
+   "deck": "quebra-cabeca-matematico-subtracao-vida-marinha-4909"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-acampamento-a7f5",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "camping",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-acampamento-a7f5"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-acessorios-69be",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "accessories",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-acessorios-69be"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-animais-a24f",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "animals",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-animais-a24f"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-animais-da-fazenda-7aca",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "farm_animals",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-animais-da-fazenda-7aca"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-animais-de-estimacao-3e55",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "pets",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-animais-de-estimacao-3e55"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-animais-do-zoologico-3c17",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "zoo_animals",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-animais-do-zoologico-3c17"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-arvores-6dcf",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "tree",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-arvores-6dcf"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-brinquedos-f9eb",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "toys",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-brinquedos-f9eb"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-cafe-da-manha-f268",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "breakfast",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-cafe-da-manha-f268"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-coisas-que-voam-a825",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "things_that_fly",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-coisas-que-voam-a825"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-correios-f8fe",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "post_office",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-correios-f8fe"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-criaturas-da-floresta-0ffa",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "forest_creatures",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-criaturas-da-floresta-0ffa"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-dia-de-acao-de-gracas-7ac7",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "thanksgivinng",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-dia-de-acao-de-gracas-7ac7"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-dinossauros-4524",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "dinosaurs",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-dinossauros-4524"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-diversos-f6c6",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "miscellaneous",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-diversos-f6c6"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-espaco-de24",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "space",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-espaco-de24"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-ferramentas-83ba",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "tools",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-ferramentas-83ba"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-flores-5579",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "flowers",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-flores-5579"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-formas-4cf9",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "shapes",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-formas-4cf9"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-frutas-e388",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "fruits",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-frutas-e388"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-hospital-d0ed",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "hospital",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-hospital-d0ed"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-insetos-e-bichos-0f01",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "insects_and_bugs",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-insetos-e-bichos-0f01"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-moveis-9ded",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "furniture",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-moveis-9ded"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-musica-3989",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "music",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-musica-3989"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-natal-48c5",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "christmas",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-natal-48c5"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-no-supermercado-4794",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "at_the_supermarket",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-no-supermercado-4794"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-padaria-81ee",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "bakery",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-padaria-81ee"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-pascoa-15cf",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "easter",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-pascoa-15cf"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-passaros-2-7d32",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "birds_2",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-passaros-2-7d32"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-passaros-cc0c",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "birds",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-passaros-cc0c"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-pela-casa-4376",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "around_the_house",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-pela-casa-4376"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-praia-2308",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "beach",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-praia-2308"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-profissoes-5ccb",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "occupations",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-profissoes-5ccb"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-repteis-e-anfibios-30c5",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "reptiles_and_amphibians",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-repteis-e-anfibios-30c5"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-roupas-f0df",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "clothing",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-roupas-f0df"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-sala-de-aula-57d7",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "classroom",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-sala-de-aula-57d7"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-sobremesas-e-doces-9f8b",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "desserts_and_sweets",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-sobremesas-e-doces-9f8b"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-utensilios-de-cozinha-f27a",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "kitchen_tools",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-utensilios-de-cozinha-f27a"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-vegetais-87ab",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "vegetables",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-vegetais-87ab"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-veiculos-de36",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "vehicles",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-veiculos-de36"
+  },
+  {
+   "slug": "mais-ou-menos-marque-e-risque-grupos-vida-marinha-5cb4",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "ocean_life",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-vida-marinha-5cb4"
+  }
+ ]
+}

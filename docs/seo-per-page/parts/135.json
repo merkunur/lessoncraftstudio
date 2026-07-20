@@ -1,0 +1,232 @@
+{
+ "part": 135,
+ "locale": "pt",
+ "classes": [
+  "odd-one-out::cross-theme",
+  "arrays-multiplication::arrays-repeated-addition",
+  "arrays-multiplication::multiply-and-divide",
+  "fractions::name-and-compare",
+  "fractions::partition-and-share",
+  "geometry::count-and-sort-shapes",
+  "geometry::quadrilaterals-and-area",
+  "geometry::shape-attributes",
+  "graphing-data::graphs-and-line-plots",
+  "graphing-data::read-picture-bar-graphs",
+  "graphing-data::scaled-graphs",
+  "measurement::compare-weight",
+  "measurement::length-units",
+  "measurement::measure-and-compare-length",
+  "measurement::volume-and-temperature",
+  "number-charts::hundreds-chart-skip-count",
+  "number-charts::number-patterns",
+  "number-charts::numbers-to-20",
+  "number-charts::skip-count-and-100-more-less",
+  "telling-time::hour-half-hour",
+  "telling-time::to-five-minutes",
+  "telling-time::to-the-minute"
+ ],
+ "splitOf": null,
+ "count": 25,
+ "pages": [
+  {
+   "slug": "qual-e-diferente-multi-tema-animais-1a45",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "animals",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-multi-tema-animais-1a45"
+  },
+  {
+   "slug": "qual-e-diferente-multi-tema-arvores-75fd",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "tree",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-multi-tema-arvores-75fd"
+  },
+  {
+   "slug": "qual-e-diferente-multi-tema-dinossauros-6fcb",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "dinosaurs",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-multi-tema-dinossauros-6fcb"
+  },
+  {
+   "slug": "qual-e-diferente-multi-tema-flores-7777",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "flowers",
+   "level": "educacao-infantil",
+   "deck": "qual-e-diferente-multi-tema-flores-7777"
+  },
+  {
+   "slug": "disposicao-retangular-2-ano",
+   "type": "arrays-multiplication",
+   "mode": "arrays-repeated-addition",
+   "theme": "",
+   "level": "2o-ano",
+   "deck": "multiplicacao-formas-g2209"
+  },
+  {
+   "slug": "tabuada-disposicao-retangular-3-ano",
+   "type": "arrays-multiplication",
+   "mode": "multiply-and-divide",
+   "theme": "",
+   "level": "3o-ano",
+   "deck": "multiplicacao-g3313"
+  },
+  {
+   "slug": "fracoes-equivalentes-3-ano",
+   "type": "fractions",
+   "mode": "name-and-compare",
+   "theme": "",
+   "level": "3o-ano",
+   "deck": "fracoes-g3315"
+  },
+  {
+   "slug": "fracoes-partes-iguais-2-ano",
+   "type": "fractions",
+   "mode": "partition-and-share",
+   "theme": "",
+   "level": "2o-ano",
+   "deck": "fracoes-g2228"
+  },
+  {
+   "slug": "formas-geometricas-educacao-infantil",
+   "type": "geometry",
+   "mode": "count-and-sort-shapes",
+   "theme": "",
+   "level": "educacao-infantil",
+   "deck": "geometria-k075"
+  },
+  {
+   "slug": "quadrilateros-perimetro-area-3-ano",
+   "type": "geometry",
+   "mode": "quadrilaterals-and-area",
+   "theme": "",
+   "level": "3o-ano",
+   "deck": "geometria-g3337"
+  },
+  {
+   "slug": "solidos-geometricos-2-ano",
+   "type": "geometry",
+   "mode": "shape-attributes",
+   "theme": "",
+   "level": "2o-ano",
+   "deck": "geometria-g2241"
+  },
+  {
+   "slug": "atividades-graficos-2-ano",
+   "type": "graphing-data",
+   "mode": "graphs-and-line-plots",
+   "theme": "",
+   "level": "2o-ano",
+   "deck": "graficos-formas-g2240"
+  },
+  {
+   "slug": "atividades-graficos-1-ano",
+   "type": "graphing-data",
+   "mode": "read-picture-bar-graphs",
+   "theme": "",
+   "level": "1o-ano",
+   "deck": "graficos-formas-g1143"
+  },
+  {
+   "slug": "atividades-graficos-3-ano",
+   "type": "graphing-data",
+   "mode": "scaled-graphs",
+   "theme": "",
+   "level": "3o-ano",
+   "deck": "graficos-formas-g3334"
+  },
+  {
+   "slug": "comparar-peso-educacao-infantil",
+   "type": "measurement",
+   "mode": "compare-weight",
+   "theme": "",
+   "level": "educacao-infantil",
+   "deck": "medidas-frutas-k038"
+  },
+  {
+   "slug": "medir-comprimento-1-ano",
+   "type": "measurement",
+   "mode": "length-units",
+   "theme": "",
+   "level": "1o-ano",
+   "deck": "medidas-formas-g1139"
+  },
+  {
+   "slug": "medir-comprimento-regua-2-ano",
+   "type": "measurement",
+   "mode": "measure-and-compare-length",
+   "theme": "",
+   "level": "2o-ano",
+   "deck": "medidas-formas-g2235"
+  },
+  {
+   "slug": "temperatura-volume-3-ano",
+   "type": "measurement",
+   "mode": "volume-and-temperature",
+   "theme": "",
+   "level": "3o-ano",
+   "deck": "medidas-g3345"
+  },
+  {
+   "slug": "atividades-quadro-numerico-1-ano",
+   "type": "number-charts",
+   "mode": "hundreds-chart-skip-count",
+   "theme": "",
+   "level": "1o-ano",
+   "deck": "quadro-numerico-g1130"
+  },
+  {
+   "slug": "atividades-quadro-numerico-3-ano",
+   "type": "number-charts",
+   "mode": "number-patterns",
+   "theme": "",
+   "level": "3o-ano",
+   "deck": "quadro-numerico-g3328"
+  },
+  {
+   "slug": "atividades-quadro-numerico-educacao-infantil",
+   "type": "number-charts",
+   "mode": "numbers-to-20",
+   "theme": "",
+   "level": "educacao-infantil",
+   "deck": "quadro-numerico-k021"
+  },
+  {
+   "slug": "atividades-quadro-numerico-2-ano",
+   "type": "number-charts",
+   "mode": "skip-count-and-100-more-less",
+   "theme": "",
+   "level": "2o-ano",
+   "deck": "quadro-numerico-g2218"
+  },
+  {
+   "slug": "ver-as-horas-1-ano",
+   "type": "telling-time",
+   "mode": "hour-half-hour",
+   "theme": "",
+   "level": "1o-ano",
+   "deck": "ver-as-horas-g1148"
+  },
+  {
+   "slug": "que-horas-sao-2-ano",
+   "type": "telling-time",
+   "mode": "to-five-minutes",
+   "theme": "",
+   "level": "2o-ano",
+   "deck": "ver-as-horas-g2249"
+  },
+  {
+   "slug": "leitura-de-horas-3-ano",
+   "type": "telling-time",
+   "mode": "to-the-minute",
+   "theme": "",
+   "level": "3o-ano",
+   "deck": "ver-as-horas-g3344"
+  }
+ ]
+}

@@ -1,0 +1,780 @@
+{
+ "part": 295,
+ "locale": "no",
+ "classes": [
+  "code-addition::null",
+  "math-worksheet::three-symbols-add-sub"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "kodeaddisjon-aktiviteter-e6f9",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "activities",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-aktiviteter-e6f9"
+  },
+  {
+   "slug": "kodeaddisjon-bakeri-2cbf",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "bakery",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-bakeri-2cbf"
+  },
+  {
+   "slug": "kodeaddisjon-blomster-96f8",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "flowers",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-blomster-96f8"
+  },
+  {
+   "slug": "kodeaddisjon-camping-153f",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "camping",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-camping-153f"
+  },
+  {
+   "slug": "kodeaddisjon-desserter-og-godteri-ff06",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-desserter-og-godteri-ff06"
+  },
+  {
+   "slug": "kodeaddisjon-dinosaurer-c1b5",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-dinosaurer-c1b5"
+  },
+  {
+   "slug": "kodeaddisjon-dyr-c542",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "animals",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-dyr-c542"
+  },
+  {
+   "slug": "kodeaddisjon-dyrehagedyr-77a7",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-dyrehagedyr-77a7"
+  },
+  {
+   "slug": "kodeaddisjon-farger-4696",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "colors",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-farger-4696"
+  },
+  {
+   "slug": "kodeaddisjon-folelser-2505",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "emotions",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-folelser-2505"
+  },
+  {
+   "slug": "kodeaddisjon-former-3cdc",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "shapes",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-former-3cdc"
+  },
+  {
+   "slug": "kodeaddisjon-frokost-ef12",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-frokost-ef12"
+  },
+  {
+   "slug": "kodeaddisjon-frukter-8c9b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "fruits",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-frukter-8c9b"
+  },
+  {
+   "slug": "kodeaddisjon-fugler-00b8",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "birds",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-fugler-00b8"
+  },
+  {
+   "slug": "kodeaddisjon-fugler-2-ab40",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-fugler-2-ab40"
+  },
+  {
+   "slug": "kodeaddisjon-gardsdyr-6ba0",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-gardsdyr-6ba0"
+  },
+  {
+   "slug": "kodeaddisjon-gronnsaker-017a",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-gronnsaker-017a"
+  },
+  {
+   "slug": "kodeaddisjon-havliv-c656",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-havliv-c656"
+  },
+  {
+   "slug": "kodeaddisjon-i-supermarkedet-943a",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-i-supermarkedet-943a"
+  },
+  {
+   "slug": "kodeaddisjon-insekter-og-kryp-8c8e",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-insekter-og-kryp-8c8e"
+  },
+  {
+   "slug": "kodeaddisjon-jul-048b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "christmas",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-jul-048b"
+  },
+  {
+   "slug": "kodeaddisjon-kjaeledyr-6f83",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "pets",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-kjaeledyr-6f83"
+  },
+  {
+   "slug": "kodeaddisjon-kjokkenredskaper-08ee",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-kjokkenredskaper-08ee"
+  },
+  {
+   "slug": "kodeaddisjon-kjoretoy-db82",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-kjoretoy-db82"
+  },
+  {
+   "slug": "kodeaddisjon-klaer-3b62",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "clothing",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-klaer-3b62"
+  },
+  {
+   "slug": "kodeaddisjon-klasserom-ce3a",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "classroom",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-klasserom-ce3a"
+  },
+  {
+   "slug": "kodeaddisjon-kroppsdeler-4e35",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-kroppsdeler-4e35"
+  },
+  {
+   "slug": "kodeaddisjon-leker-0e76",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "toys",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-leker-0e76"
+  },
+  {
+   "slug": "kodeaddisjon-mobler-bfc4",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "furniture",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-mobler-bfc4"
+  },
+  {
+   "slug": "kodeaddisjon-musikk-c18b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "music",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-musikk-c18b"
+  },
+  {
+   "slug": "kodeaddisjon-paske-a7d8",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "easter",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-paske-a7d8"
+  },
+  {
+   "slug": "kodeaddisjon-postkontor-412d",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "post_office",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-postkontor-412d"
+  },
+  {
+   "slug": "kodeaddisjon-reptiler-og-amfibier-93c0",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-reptiler-og-amfibier-93c0"
+  },
+  {
+   "slug": "kodeaddisjon-rundt-i-huset-6ee3",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-rundt-i-huset-6ee3"
+  },
+  {
+   "slug": "kodeaddisjon-skogsdyr-b059",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-skogsdyr-b059"
+  },
+  {
+   "slug": "kodeaddisjon-sommer-31d7",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "summer",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-sommer-31d7"
+  },
+  {
+   "slug": "kodeaddisjon-strand-bfad",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "beach",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-strand-bfad"
+  },
+  {
+   "slug": "kodeaddisjon-sykehus-9de0",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "hospital",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-sykehus-9de0"
+  },
+  {
+   "slug": "kodeaddisjon-thanksgiving-ce3a",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-thanksgiving-ce3a"
+  },
+  {
+   "slug": "kodeaddisjon-tilbehor-d5d2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "accessories",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-tilbehor-d5d2"
+  },
+  {
+   "slug": "kodeaddisjon-ting-som-flyr-9ca9",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-ting-som-flyr-9ca9"
+  },
+  {
+   "slug": "kodeaddisjon-traer-5daf",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "tree",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-traer-5daf"
+  },
+  {
+   "slug": "kodeaddisjon-vaer-3af7",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "weather",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-vaer-3af7"
+  },
+  {
+   "slug": "kodeaddisjon-var-932e",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "spring",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-var-932e"
+  },
+  {
+   "slug": "kodeaddisjon-verdensrommet-e221",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "space",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-verdensrommet-e221"
+  },
+  {
+   "slug": "kodeaddisjon-verktoy-1741",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "tools",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-verktoy-1741"
+  },
+  {
+   "slug": "kodeaddisjon-vinter-d471",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "winter",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-vinter-d471"
+  },
+  {
+   "slug": "kodeaddisjon-yrker-ca7e",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "occupations",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-yrker-ca7e"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-aktiviteter-99b5",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "activities",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-aktiviteter-99b5"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-bakeri-ff4c",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "bakery",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-bakeri-ff4c"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-blomster-2278",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "flowers",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-blomster-2278"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-camping-4111",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "camping",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-camping-4111"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-desserter-og-godteri-9119",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "desserts_and_sweets",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-desserter-og-godteri-9119"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-dinosaurer-7b32",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "dinosaurs",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-dinosaurer-7b32"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-dyr-3e70",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "animals",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-dyr-3e70"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-dyrehagedyr-84eb",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "zoo_animals",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-dyrehagedyr-84eb"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-farger-75ac",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "colors",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-farger-75ac"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-folelser-dc3e",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "emotions",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-folelser-dc3e"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-former-1a4e",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "shapes",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-former-1a4e"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-frokost-f0be",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "breakfast",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-frokost-f0be"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-frukter-27b2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "fruits",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-frukter-27b2"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-fugler-2-8a7a",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "birds_2",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-fugler-2-8a7a"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-fugler-7325",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "birds",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-fugler-7325"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-gardsdyr-0b05",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "farm_animals",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-gardsdyr-0b05"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-gronnsaker-0806",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "vegetables",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-gronnsaker-0806"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-havliv-c6c8",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "ocean_life",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-havliv-c6c8"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-i-supermarkedet-9c59",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "at_the_supermarket",
+   "level": "3-trinn",
+   "deck": "matteark-3-symboler-add-sub-i-supermarkedet-9c59"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-insekter-og-kryp-32bd",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "insects_and_bugs",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-insekter-og-kryp-32bd"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-jul-2882",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "christmas",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-jul-2882"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-kjaeledyr-ecc4",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "pets",
+   "level": "3-trinn",
+   "deck": "matteark-3-symboler-add-sub-kjaeledyr-ecc4"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-kjokkenredskaper-462b",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "kitchen_tools",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-kjokkenredskaper-462b"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-kjoretoy-e3f2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "vehicles",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-kjoretoy-e3f2"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-klaer-ed30",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "clothing",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-klaer-ed30"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-klasserom-30d3",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "classroom",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-klasserom-30d3"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-kroppsdeler-1dd7",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "body_parts",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-kroppsdeler-1dd7"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-leker-4ec8",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "toys",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-leker-4ec8"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-mobler-3ed6",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "furniture",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-mobler-3ed6"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-musikk-78b1",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "music",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-musikk-78b1"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-paske-9ff1",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "easter",
+   "level": "3-trinn",
+   "deck": "matteark-3-symboler-add-sub-paske-9ff1"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-postkontor-6b69",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "post_office",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-postkontor-6b69"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-reptiler-og-amfibier-3baf",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "reptiles_and_amphibians",
+   "level": "3-trinn",
+   "deck": "matteark-3-symboler-add-sub-reptiler-og-amfibier-3baf"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-rundt-i-huset-c117",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "around_the_house",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-rundt-i-huset-c117"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-skogsdyr-5ccf",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "forest_creatures",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-skogsdyr-5ccf"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-sommer-d8e7",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "summer",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-sommer-d8e7"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-strand-48ce",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "beach",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-strand-48ce"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-sykehus-dd0e",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "hospital",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-sykehus-dd0e"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-thanksgiving-78a5",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "thanksgivinng",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-thanksgiving-78a5"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-tilbehor-b8d2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "accessories",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-tilbehor-b8d2"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-ting-som-flyr-d0f2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "things_that_fly",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-ting-som-flyr-d0f2"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-traer-0085",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "tree",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-traer-0085"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-vaer-2dda",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "weather",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-vaer-2dda"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-var-0bcf",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "spring",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-var-0bcf"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-verdensrommet-3e82",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "space",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-verdensrommet-3e82"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-verktoy-8547",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "tools",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-verktoy-8547"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-vinter-51c2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "winter",
+   "level": "2-trinn",
+   "deck": "matteark-3-symboler-add-sub-vinter-51c2"
+  },
+  {
+   "slug": "matteark-3-symboler-add-sub-yrker-cac9",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "occupations",
+   "level": "3-trinn",
+   "deck": "matteark-3-symboler-add-sub-yrker-cac9"
+  }
+ ]
+}

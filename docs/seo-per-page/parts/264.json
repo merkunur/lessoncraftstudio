@@ -1,0 +1,780 @@
+{
+ "part": 264,
+ "locale": "da",
+ "classes": [
+  "pattern-train::aabb",
+  "pattern-train::abb"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "monstertoget-aabb-aktiviteter-77f8",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "activities",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-aktiviteter-77f8"
+  },
+  {
+   "slug": "monstertoget-aabb-bageri-388f",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "bakery",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-bageri-388f"
+  },
+  {
+   "slug": "monstertoget-aabb-blomster-0c61",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "flowers",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-blomster-0c61"
+  },
+  {
+   "slug": "monstertoget-aabb-bondegardsdyr-72e7",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "farm_animals",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-bondegardsdyr-72e7"
+  },
+  {
+   "slug": "monstertoget-aabb-camping-e304",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "camping",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-camping-e304"
+  },
+  {
+   "slug": "monstertoget-aabb-desserter-og-slik-1f14",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "desserts_and_sweets",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-desserter-og-slik-1f14"
+  },
+  {
+   "slug": "monstertoget-aabb-dinosaurer-7ac7",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-dinosaurer-7ac7"
+  },
+  {
+   "slug": "monstertoget-aabb-dyr-da3f",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "animals",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-dyr-da3f"
+  },
+  {
+   "slug": "monstertoget-aabb-erhverv-9fb0",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "occupations",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-erhverv-9fb0"
+  },
+  {
+   "slug": "monstertoget-aabb-farver-0ee0",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "colors",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-farver-0ee0"
+  },
+  {
+   "slug": "monstertoget-aabb-folelser-1e1d",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "emotions",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-folelser-1e1d"
+  },
+  {
+   "slug": "monstertoget-aabb-forar-f886",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "spring",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-forar-f886"
+  },
+  {
+   "slug": "monstertoget-aabb-former-d86d",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "shapes",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-former-d86d"
+  },
+  {
+   "slug": "monstertoget-aabb-frugter-d16d",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "fruits",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-frugter-d16d"
+  },
+  {
+   "slug": "monstertoget-aabb-fugle-2-b746",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "birds_2",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-fugle-2-b746"
+  },
+  {
+   "slug": "monstertoget-aabb-fugle-9da5",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "birds",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-fugle-9da5"
+  },
+  {
+   "slug": "monstertoget-aabb-grontsager-895f",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "vegetables",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-grontsager-895f"
+  },
+  {
+   "slug": "monstertoget-aabb-havliv-42e9",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "ocean_life",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-havliv-42e9"
+  },
+  {
+   "slug": "monstertoget-aabb-hospital-1a26",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "hospital",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-hospital-1a26"
+  },
+  {
+   "slug": "monstertoget-aabb-i-supermarkedet-52c8",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "at_the_supermarket",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-i-supermarkedet-52c8"
+  },
+  {
+   "slug": "monstertoget-aabb-insekter-og-kryb-92d7",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "insects_and_bugs",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-insekter-og-kryb-92d7"
+  },
+  {
+   "slug": "monstertoget-aabb-jul-4272",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "christmas",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-jul-4272"
+  },
+  {
+   "slug": "monstertoget-aabb-kaeledyr-5aaf",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "pets",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-kaeledyr-5aaf"
+  },
+  {
+   "slug": "monstertoget-aabb-klassevaerelse-760c",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "classroom",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-klassevaerelse-760c"
+  },
+  {
+   "slug": "monstertoget-aabb-kokkenredskaber-581d",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "kitchen_tools",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-kokkenredskaber-581d"
+  },
+  {
+   "slug": "monstertoget-aabb-koretojer-68ad",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "vehicles",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-koretojer-68ad"
+  },
+  {
+   "slug": "monstertoget-aabb-kropsdele-a62c",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "body_parts",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-kropsdele-a62c"
+  },
+  {
+   "slug": "monstertoget-aabb-krybdyr-og-padder-013e",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "reptiles_and_amphibians",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-krybdyr-og-padder-013e"
+  },
+  {
+   "slug": "monstertoget-aabb-legetoj-ec52",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "toys",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-legetoj-ec52"
+  },
+  {
+   "slug": "monstertoget-aabb-mobler-6445",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "furniture",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-mobler-6445"
+  },
+  {
+   "slug": "monstertoget-aabb-morgenmad-2dc5",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "breakfast",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-morgenmad-2dc5"
+  },
+  {
+   "slug": "monstertoget-aabb-musik-0ae3",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "music",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-musik-0ae3"
+  },
+  {
+   "slug": "monstertoget-aabb-paske-e350",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "easter",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-paske-e350"
+  },
+  {
+   "slug": "monstertoget-aabb-postkontor-79e9",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "post_office",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-postkontor-79e9"
+  },
+  {
+   "slug": "monstertoget-aabb-rummet-9d5c",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "space",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-rummet-9d5c"
+  },
+  {
+   "slug": "monstertoget-aabb-rundt-i-huset-cb2a",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "around_the_house",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-rundt-i-huset-cb2a"
+  },
+  {
+   "slug": "monstertoget-aabb-skovdyr-3a6b",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "forest_creatures",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-skovdyr-3a6b"
+  },
+  {
+   "slug": "monstertoget-aabb-sommer-4fa8",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "summer",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-sommer-4fa8"
+  },
+  {
+   "slug": "monstertoget-aabb-strand-d452",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "beach",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-strand-d452"
+  },
+  {
+   "slug": "monstertoget-aabb-thanksgiving-3626",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "thanksgivinng",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-thanksgiving-3626"
+  },
+  {
+   "slug": "monstertoget-aabb-tilbehor-654b",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "accessories",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-tilbehor-654b"
+  },
+  {
+   "slug": "monstertoget-aabb-ting-der-flyver-acf3",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "things_that_fly",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-ting-der-flyver-acf3"
+  },
+  {
+   "slug": "monstertoget-aabb-toj-1bff",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "clothing",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-toj-1bff"
+  },
+  {
+   "slug": "monstertoget-aabb-traeer-8a3b",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "tree",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-traeer-8a3b"
+  },
+  {
+   "slug": "monstertoget-aabb-vaerktoj-01a1",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "tools",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-vaerktoj-01a1"
+  },
+  {
+   "slug": "monstertoget-aabb-vejr-1ce9",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "weather",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-vejr-1ce9"
+  },
+  {
+   "slug": "monstertoget-aabb-vinter-dbb6",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "winter",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-vinter-dbb6"
+  },
+  {
+   "slug": "monstertoget-aabb-zoodyr-00d1",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "zoo_animals",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-aabb-zoodyr-00d1"
+  },
+  {
+   "slug": "monstertoget-abb-aktiviteter-72e0",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "activities",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-aktiviteter-72e0"
+  },
+  {
+   "slug": "monstertoget-abb-bageri-9011",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "bakery",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-bageri-9011"
+  },
+  {
+   "slug": "monstertoget-abb-blomster-2fec",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "flowers",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-blomster-2fec"
+  },
+  {
+   "slug": "monstertoget-abb-bondegardsdyr-01d5",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "farm_animals",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-bondegardsdyr-01d5"
+  },
+  {
+   "slug": "monstertoget-abb-camping-7756",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "camping",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-camping-7756"
+  },
+  {
+   "slug": "monstertoget-abb-desserter-og-slik-09e1",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "desserts_and_sweets",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-desserter-og-slik-09e1"
+  },
+  {
+   "slug": "monstertoget-abb-dinosaurer-256e",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-dinosaurer-256e"
+  },
+  {
+   "slug": "monstertoget-abb-dyr-d804",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "animals",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-dyr-d804"
+  },
+  {
+   "slug": "monstertoget-abb-erhverv-2e44",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "occupations",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-erhverv-2e44"
+  },
+  {
+   "slug": "monstertoget-abb-farver-5e3a",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "colors",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-farver-5e3a"
+  },
+  {
+   "slug": "monstertoget-abb-folelser-9696",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "emotions",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-folelser-9696"
+  },
+  {
+   "slug": "monstertoget-abb-forar-90c8",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "spring",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-forar-90c8"
+  },
+  {
+   "slug": "monstertoget-abb-former-aa16",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "shapes",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-former-aa16"
+  },
+  {
+   "slug": "monstertoget-abb-frugter-8d0a",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "fruits",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-frugter-8d0a"
+  },
+  {
+   "slug": "monstertoget-abb-fugle-2-a789",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "birds_2",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-fugle-2-a789"
+  },
+  {
+   "slug": "monstertoget-abb-fugle-dfc4",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "birds",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-fugle-dfc4"
+  },
+  {
+   "slug": "monstertoget-abb-grontsager-42aa",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "vegetables",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-grontsager-42aa"
+  },
+  {
+   "slug": "monstertoget-abb-havliv-dcc2",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "ocean_life",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-havliv-dcc2"
+  },
+  {
+   "slug": "monstertoget-abb-hospital-e31b",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "hospital",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-hospital-e31b"
+  },
+  {
+   "slug": "monstertoget-abb-i-supermarkedet-f2a6",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "at_the_supermarket",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-i-supermarkedet-f2a6"
+  },
+  {
+   "slug": "monstertoget-abb-insekter-og-kryb-0b89",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "insects_and_bugs",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-insekter-og-kryb-0b89"
+  },
+  {
+   "slug": "monstertoget-abb-jul-8d06",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "christmas",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-jul-8d06"
+  },
+  {
+   "slug": "monstertoget-abb-kaeledyr-941a",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "pets",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-kaeledyr-941a"
+  },
+  {
+   "slug": "monstertoget-abb-klassevaerelse-0050",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "classroom",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-klassevaerelse-0050"
+  },
+  {
+   "slug": "monstertoget-abb-kokkenredskaber-8ca1",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "kitchen_tools",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-kokkenredskaber-8ca1"
+  },
+  {
+   "slug": "monstertoget-abb-koretojer-1331",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "vehicles",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-koretojer-1331"
+  },
+  {
+   "slug": "monstertoget-abb-kropsdele-ac79",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "body_parts",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-kropsdele-ac79"
+  },
+  {
+   "slug": "monstertoget-abb-krybdyr-og-padder-2885",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "reptiles_and_amphibians",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-krybdyr-og-padder-2885"
+  },
+  {
+   "slug": "monstertoget-abb-legetoj-0b39",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "toys",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-legetoj-0b39"
+  },
+  {
+   "slug": "monstertoget-abb-mobler-2be4",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "furniture",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-mobler-2be4"
+  },
+  {
+   "slug": "monstertoget-abb-morgenmad-9067",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "breakfast",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-morgenmad-9067"
+  },
+  {
+   "slug": "monstertoget-abb-musik-23c0",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "music",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-musik-23c0"
+  },
+  {
+   "slug": "monstertoget-abb-paske-be89",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "easter",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-paske-be89"
+  },
+  {
+   "slug": "monstertoget-abb-postkontor-5a31",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "post_office",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-postkontor-5a31"
+  },
+  {
+   "slug": "monstertoget-abb-rummet-bba6",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "space",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-rummet-bba6"
+  },
+  {
+   "slug": "monstertoget-abb-rundt-i-huset-368b",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "around_the_house",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-rundt-i-huset-368b"
+  },
+  {
+   "slug": "monstertoget-abb-skovdyr-3cc8",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "forest_creatures",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-skovdyr-3cc8"
+  },
+  {
+   "slug": "monstertoget-abb-sommer-a096",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "summer",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-sommer-a096"
+  },
+  {
+   "slug": "monstertoget-abb-strand-e9a6",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "beach",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-strand-e9a6"
+  },
+  {
+   "slug": "monstertoget-abb-thanksgiving-b93a",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "thanksgivinng",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-thanksgiving-b93a"
+  },
+  {
+   "slug": "monstertoget-abb-tilbehor-9993",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "accessories",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-tilbehor-9993"
+  },
+  {
+   "slug": "monstertoget-abb-ting-der-flyver-aeeb",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "things_that_fly",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-ting-der-flyver-aeeb"
+  },
+  {
+   "slug": "monstertoget-abb-toj-6f42",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "clothing",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-toj-6f42"
+  },
+  {
+   "slug": "monstertoget-abb-traeer-6014",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "tree",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-traeer-6014"
+  },
+  {
+   "slug": "monstertoget-abb-vaerktoj-b2bb",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "tools",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-vaerktoj-b2bb"
+  },
+  {
+   "slug": "monstertoget-abb-vejr-3ce6",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "weather",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-vejr-3ce6"
+  },
+  {
+   "slug": "monstertoget-abb-vinter-5896",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "winter",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-vinter-5896"
+  },
+  {
+   "slug": "monstertoget-abb-zoodyr-6894",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "zoo_animals",
+   "level": "boernehaveklasse",
+   "deck": "monstertoget-abb-zoodyr-6894"
+  }
+ ]
+}

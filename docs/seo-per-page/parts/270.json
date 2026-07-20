@@ -1,0 +1,764 @@
+{
+ "part": 270,
+ "locale": "da",
+ "classes": [
+  "grid-match::null",
+  "math-worksheet::two-symbols-add-sub"
+ ],
+ "splitOf": null,
+ "count": 94,
+ "pages": [
+  {
+   "slug": "gittermatch-aktiviteter-15df",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "activities",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-aktiviteter-15df"
+  },
+  {
+   "slug": "gittermatch-bageri-e512",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "bakery",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-bageri-e512"
+  },
+  {
+   "slug": "gittermatch-blomster-99e7",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "flowers",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-blomster-99e7"
+  },
+  {
+   "slug": "gittermatch-bondegardsdyr-5119",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-bondegardsdyr-5119"
+  },
+  {
+   "slug": "gittermatch-camping-b1af",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "camping",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-camping-b1af"
+  },
+  {
+   "slug": "gittermatch-desserter-og-slik-e141",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-desserter-og-slik-e141"
+  },
+  {
+   "slug": "gittermatch-dinosaurer-0b32",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-dinosaurer-0b32"
+  },
+  {
+   "slug": "gittermatch-dyr",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "animals",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-dyr"
+  },
+  {
+   "slug": "gittermatch-erhverv-ba38",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "occupations",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-erhverv-ba38"
+  },
+  {
+   "slug": "gittermatch-folelser-f5ee",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "emotions",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-folelser-f5ee"
+  },
+  {
+   "slug": "gittermatch-forar-c96f",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "spring",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-forar-c96f"
+  },
+  {
+   "slug": "gittermatch-former-713c",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "shapes",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-former-713c"
+  },
+  {
+   "slug": "gittermatch-frugter-155f",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "fruits",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-frugter-155f"
+  },
+  {
+   "slug": "gittermatch-fugle-2-0c06",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-fugle-2-0c06"
+  },
+  {
+   "slug": "gittermatch-fugle-2aeb",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "birds",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-fugle-2aeb"
+  },
+  {
+   "slug": "gittermatch-grontsager-3b54",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-grontsager-3b54"
+  },
+  {
+   "slug": "gittermatch-havliv-68cd",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-havliv-68cd"
+  },
+  {
+   "slug": "gittermatch-hospital-5cb3",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "hospital",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-hospital-5cb3"
+  },
+  {
+   "slug": "gittermatch-i-supermarkedet-4ef1",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-i-supermarkedet-4ef1"
+  },
+  {
+   "slug": "gittermatch-insekter-og-kryb-caca",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-insekter-og-kryb-caca"
+  },
+  {
+   "slug": "gittermatch-jul-5305",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "christmas",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-jul-5305"
+  },
+  {
+   "slug": "gittermatch-kaeledyr-3c23",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "pets",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-kaeledyr-3c23"
+  },
+  {
+   "slug": "gittermatch-klassevaerelse-47ae",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "classroom",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-klassevaerelse-47ae"
+  },
+  {
+   "slug": "gittermatch-kokkenredskaber-c3fb",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-kokkenredskaber-c3fb"
+  },
+  {
+   "slug": "gittermatch-koretojer-39e5",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-koretojer-39e5"
+  },
+  {
+   "slug": "gittermatch-kropsdele-0a32",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-kropsdele-0a32"
+  },
+  {
+   "slug": "gittermatch-krybdyr-og-padder-9c99",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-krybdyr-og-padder-9c99"
+  },
+  {
+   "slug": "gittermatch-legetoj-ff18",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "toys",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-legetoj-ff18"
+  },
+  {
+   "slug": "gittermatch-mobler-ace4",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "furniture",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-mobler-ace4"
+  },
+  {
+   "slug": "gittermatch-morgenmad-95c1",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-morgenmad-95c1"
+  },
+  {
+   "slug": "gittermatch-musik-2ea0",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "music",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-musik-2ea0"
+  },
+  {
+   "slug": "gittermatch-paske-58cb",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "easter",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-paske-58cb"
+  },
+  {
+   "slug": "gittermatch-postkontor-08ee",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "post_office",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-postkontor-08ee"
+  },
+  {
+   "slug": "gittermatch-rummet-59ab",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "space",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-rummet-59ab"
+  },
+  {
+   "slug": "gittermatch-rundt-i-huset-b720",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-rundt-i-huset-b720"
+  },
+  {
+   "slug": "gittermatch-skovdyr-c57a",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-skovdyr-c57a"
+  },
+  {
+   "slug": "gittermatch-sommer-f2d5",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "summer",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-sommer-f2d5"
+  },
+  {
+   "slug": "gittermatch-strand-cacb",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "beach",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-strand-cacb"
+  },
+  {
+   "slug": "gittermatch-thanksgiving-7114",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-thanksgiving-7114"
+  },
+  {
+   "slug": "gittermatch-tilbehor-9b87",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "accessories",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-tilbehor-9b87"
+  },
+  {
+   "slug": "gittermatch-ting-der-flyver-9d9a",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-ting-der-flyver-9d9a"
+  },
+  {
+   "slug": "gittermatch-toj-0faf",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "clothing",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-toj-0faf"
+  },
+  {
+   "slug": "gittermatch-traeer-a62c",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "tree",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-traeer-a62c"
+  },
+  {
+   "slug": "gittermatch-vaerktoj-2452",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "tools",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-vaerktoj-2452"
+  },
+  {
+   "slug": "gittermatch-vejr-481a",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "weather",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-vejr-481a"
+  },
+  {
+   "slug": "gittermatch-vinter-b2cc",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "winter",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-vinter-b2cc"
+  },
+  {
+   "slug": "gittermatch-zoodyr-5352",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "boernehaveklasse",
+   "deck": "gittermatch-zoodyr-5352"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-aktiviteter-f7d0",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "activities",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-aktiviteter-f7d0"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-bageri-bec4",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-bageri-bec4"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-blomster-01e0",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-blomster-01e0"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-bondegardsdyr-0b16",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-bondegardsdyr-0b16"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-camping-9855",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-camping-9855"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-dinosaurer-622d",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "dinosaurs",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-dinosaurer-622d"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-dyr-6091",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-dyr-6091"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-erhverv-e26b",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-erhverv-e26b"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-farver-c9c2",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "colors",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-farver-c9c2"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-folelser-8fed",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "emotions",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-folelser-8fed"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-forar-79a1",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "spring",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-forar-79a1"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-former-f9b6",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-former-f9b6"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-frugter-1a85",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-frugter-1a85"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-fugle-2-eb68",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-fugle-2-eb68"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-fugle-7671",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-fugle-7671"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-grontsager-5b6d",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-grontsager-5b6d"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-havliv-eb46",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-havliv-eb46"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-hospital-5270",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-hospital-5270"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-i-supermarkedet-421e",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-i-supermarkedet-421e"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-insekter-og-kryb-f2f3",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-insekter-og-kryb-f2f3"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-jul-4095",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-jul-4095"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-kaeledyr-cef2",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-kaeledyr-cef2"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-klassevaerelse-6ce8",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-klassevaerelse-6ce8"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-kokkenredskaber-e7ff",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-kokkenredskaber-e7ff"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-koretojer-0801",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-koretojer-0801"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-kropsdele-9868",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "body_parts",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-kropsdele-9868"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-krybdyr-og-padder-e0ed",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-krybdyr-og-padder-e0ed"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-legetoj-2165",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-legetoj-2165"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-mobler-4831",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-mobler-4831"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-morgenmad-0800",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-morgenmad-0800"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-musik-b35d",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-musik-b35d"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-paske-3009",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-paske-3009"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-postkontor-210b",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-postkontor-210b"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-rummet-e9a9",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-rummet-e9a9"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-rundt-i-huset-bf7f",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-rundt-i-huset-bf7f"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-skovdyr-defa",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-skovdyr-defa"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-sommer-55e4",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "summer",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-sommer-55e4"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-strand-e1c1",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-strand-e1c1"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-thanksgiving-980b",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-thanksgiving-980b"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-tilbehor-8c66",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-tilbehor-8c66"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-ting-der-flyver-70f7",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-ting-der-flyver-70f7"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-toj-b88f",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-toj-b88f"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-traeer-a50b",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-traeer-a50b"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-vaerktoj-2f6b",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-vaerktoj-2f6b"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-vejr-9364",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "weather",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-vejr-9364"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-vinter-7c91",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "winter",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-vinter-7c91"
+  },
+  {
+   "slug": "matematikark-2-symboler-add-sub-zoodyr-2c7d",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-zoodyr-2c7d"
+  }
+ ]
+}

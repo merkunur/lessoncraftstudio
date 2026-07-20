@@ -1,0 +1,780 @@
+{
+ "part": 177,
+ "locale": "it",
+ "classes": [
+  "sudoku::easy",
+  "sudoku::medium"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "sudoku-illustrato-facile-abbigliamento-fc4a",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "clothing",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-abbigliamento-fc4a"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-accessori-4aac",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "accessories",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-accessori-4aac"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-al-supermercato-f089",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-al-supermercato-f089"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-alberi-1235",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "tree",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-alberi-1235"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-animali-7118",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "animals",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-animali-7118"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-animali-della-fattoria-d012",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "farm_animals",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-animali-della-fattoria-d012"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-animali-dello-zoo-eb5c",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "zoo_animals",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-animali-dello-zoo-eb5c"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-animali-domestici-a0dc",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "pets",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-animali-domestici-a0dc"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-attivita-6b07",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "activities",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-attivita-6b07"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-attrezzi-5efc",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "tools",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-attrezzi-5efc"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-aula-9d1d",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "classroom",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-aula-9d1d"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-campeggio-d735",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "camping",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-campeggio-d735"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-colazione-518f",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "breakfast",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-colazione-518f"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-colori-cb61",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "colors",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-colori-cb61"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-cose-che-volano-6ec9",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "things_that_fly",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-cose-che-volano-6ec9"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-creature-della-foresta-2a5e",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "forest_creatures",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-creature-della-foresta-2a5e"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-dinosauri-6069",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "dinosaurs",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-dinosauri-6069"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-dolci-e-dolciumi-2292",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "desserts_and_sweets",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-dolci-e-dolciumi-2292"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-emozioni-e03f",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "emotions",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-emozioni-e03f"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-estate-75c4",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "summer",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-estate-75c4"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-fiori-3376",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "flowers",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-fiori-3376"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-forme-7e13",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "shapes",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-forme-7e13"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-frutta-4c6f",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "fruits",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-frutta-4c6f"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-giocattoli-cb72",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "toys",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-giocattoli-cb72"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-giorno-del-ringraziamento-4160",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "thanksgivinng",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-giorno-del-ringraziamento-4160"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-in-giro-per-casa-fb03",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "around_the_house",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-in-giro-per-casa-fb03"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-insetti-e-scarafaggi-d75b",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "insects_and_bugs",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-insetti-e-scarafaggi-d75b"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-inverno-88aa",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-inverno-88aa"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-meteo-b0b4",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-meteo-b0b4"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-mobili-fdd4",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "furniture",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-mobili-fdd4"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-musica-6552",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "music",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-musica-6552"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-natale-37a9",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "christmas",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-natale-37a9"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-ospedale-66a0",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "hospital",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-ospedale-66a0"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-panetteria-cdce",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "bakery",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-panetteria-cdce"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-parti-del-corpo-5c51",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-parti-del-corpo-5c51"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-pasqua-f8d8",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "easter",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-pasqua-f8d8"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-primavera-443e",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-primavera-443e"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-professioni-3bba",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "occupations",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-professioni-3bba"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-rettili-e-anfibi-84c4",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-rettili-e-anfibi-84c4"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-spazio-294a",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "space",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-spazio-294a"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-spiaggia-aa4a",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "beach",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-spiaggia-aa4a"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-uccelli-2-36dd",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "birds_2",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-uccelli-2-36dd"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-uccelli-faf7",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "birds",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-uccelli-faf7"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-ufficio-postale-a837",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "post_office",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-ufficio-postale-a837"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-utensili-da-cucina-5512",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "kitchen_tools",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-utensili-da-cucina-5512"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-veicoli-7472",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "vehicles",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-veicoli-7472"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-verdure-9219",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "vegetables",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-verdure-9219"
+  },
+  {
+   "slug": "sudoku-illustrato-facile-vita-oceanica-9840",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "ocean_life",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-facile-vita-oceanica-9840"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-abbigliamento-82cf",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "clothing",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-abbigliamento-82cf"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-accessori-ff3b",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "accessories",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-accessori-ff3b"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-al-supermercato-6d92",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "at_the_supermarket",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-al-supermercato-6d92"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-alberi-a1ba",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "tree",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-alberi-a1ba"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-animali-d5f3",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "animals",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-animali-d5f3"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-animali-della-fattoria-cb08",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "farm_animals",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-animali-della-fattoria-cb08"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-animali-dello-zoo-fcca",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "zoo_animals",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-animali-dello-zoo-fcca"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-animali-domestici-f782",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "pets",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-animali-domestici-f782"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-attivita-1c5f",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "activities",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-attivita-1c5f"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-attrezzi-66a0",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "tools",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-attrezzi-66a0"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-aula-65c4",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "classroom",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-aula-65c4"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-campeggio-ac68",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "camping",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-campeggio-ac68"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-colazione-f990",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "breakfast",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-colazione-f990"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-colori-3189",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "colors",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-colori-3189"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-cose-che-volano-5ddc",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "things_that_fly",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-cose-che-volano-5ddc"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-creature-della-foresta-2f24",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "forest_creatures",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-creature-della-foresta-2f24"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-dinosauri-ab86",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "dinosaurs",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-dinosauri-ab86"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-dolci-e-dolciumi-ba3b",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "desserts_and_sweets",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-dolci-e-dolciumi-ba3b"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-emozioni-8d10",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "emotions",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-emozioni-8d10"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-estate-4a55",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "summer",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-estate-4a55"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-fiori-83b7",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "flowers",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-fiori-83b7"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-forme-caee",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "shapes",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-forme-caee"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-frutta-c3db",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "fruits",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-frutta-c3db"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-giocattoli-37e1",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "toys",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-giocattoli-37e1"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-giorno-del-ringraziamento-767e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "thanksgivinng",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-giorno-del-ringraziamento-767e"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-in-giro-per-casa-8fe5",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "around_the_house",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-in-giro-per-casa-8fe5"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-insetti-e-scarafaggi-28bc",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "insects_and_bugs",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-insetti-e-scarafaggi-28bc"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-inverno-5392",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "winter",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-inverno-5392"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-meteo-a3fd",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "weather",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-meteo-a3fd"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-mobili-5481",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "furniture",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-mobili-5481"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-musica-1ed9",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "music",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-musica-1ed9"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-natale-369e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "christmas",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-natale-369e"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-ospedale-a63b",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "hospital",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-ospedale-a63b"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-panetteria-c6a7",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "bakery",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-panetteria-c6a7"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-parti-del-corpo-fc4b",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-parti-del-corpo-fc4b"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-pasqua-16f2",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "easter",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-pasqua-16f2"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-primavera-aad5",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "spring",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-primavera-aad5"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-professioni-17da",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "occupations",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-professioni-17da"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-rettili-e-anfibi-02b4",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "reptiles_and_amphibians",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-rettili-e-anfibi-02b4"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-spazio-8c7d",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "space",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-spazio-8c7d"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-spiaggia-0a81",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "beach",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-spiaggia-0a81"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-uccelli-2-f86a",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "birds_2",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-uccelli-2-f86a"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-uccelli-61cc",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "birds",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-uccelli-61cc"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-ufficio-postale-9995",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "post_office",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-ufficio-postale-9995"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-utensili-da-cucina-8472",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "kitchen_tools",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-utensili-da-cucina-8472"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-veicoli-7a65",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "vehicles",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-veicoli-7a65"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-verdure-3cf7",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "vegetables",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-verdure-3cf7"
+  },
+  {
+   "slug": "sudoku-illustrato-medio-vita-oceanica-8b0a",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "ocean_life",
+   "level": "infanzia",
+   "deck": "sudoku-illustrato-medio-vita-oceanica-8b0a"
+  }
+ ]
+}

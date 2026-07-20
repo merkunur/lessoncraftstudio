@@ -1,0 +1,668 @@
+{
+ "part": 311,
+ "locale": "no",
+ "classes": [
+  "big-small::orderAsc",
+  "chart-count::null"
+ ],
+ "splitOf": null,
+ "count": 82,
+ "pages": [
+  {
+   "slug": "stor-liten-stigende-rekkefolge-bakeri-e1d3",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-bakeri-e1d3"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-blomster-9b4b",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-blomster-9b4b"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-camping-2b47",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "camping",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-camping-2b47"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-desserter-og-godteri-3e41",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "desserts_and_sweets",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-desserter-og-godteri-3e41"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-dinosaurer-e107",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-dinosaurer-e107"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-dyr-a43f",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-dyr-a43f"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-dyrehagedyr-15b8",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-dyrehagedyr-15b8"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-former-51fc",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "shapes",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-former-51fc"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-frokost-3b48",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-frokost-3b48"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-frukter-e7ae",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-frukter-e7ae"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-fugler-2-16e7",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-fugler-2-16e7"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-fugler-b91c",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "birds",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-fugler-b91c"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-gardsdyr-d3fe",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "farm_animals",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-gardsdyr-d3fe"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-gronnsaker-2740",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "vegetables",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-gronnsaker-2740"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-havliv-fc91",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "ocean_life",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-havliv-fc91"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-i-supermarkedet-a503",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-i-supermarkedet-a503"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-insekter-og-kryp-81c0",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "insects_and_bugs",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-insekter-og-kryp-81c0"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-jul-6731",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-jul-6731"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-kjaeledyr-b524",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "pets",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-kjaeledyr-b524"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-kjokkenredskaper-5634",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-kjokkenredskaper-5634"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-kjoretoy-d325",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-kjoretoy-d325"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-klaer-cbf4",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-klaer-cbf4"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-klasserom-803b",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-klasserom-803b"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-kroppsdeler-76df",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "body_parts",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-kroppsdeler-76df"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-leker-2a2f",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-leker-2a2f"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-mobler-3caf",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "furniture",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-mobler-3caf"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-musikk-e104",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "music",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-musikk-e104"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-paske-cde8",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-paske-cde8"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-postkontor-ba32",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "post_office",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-postkontor-ba32"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-reptiler-og-amfibier-dcfc",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-reptiler-og-amfibier-dcfc"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-rundt-i-huset-431c",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "around_the_house",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-rundt-i-huset-431c"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-skogsdyr-2c1e",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "forest_creatures",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-skogsdyr-2c1e"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-strand-aa60",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-strand-aa60"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-sykehus-dbfe",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-sykehus-dbfe"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-thanksgiving-4717",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "thanksgivinng",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-thanksgiving-4717"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-tilbehor-b557",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-tilbehor-b557"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-ting-som-flyr-47b0",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-ting-som-flyr-47b0"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-traer-823a",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-traer-823a"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-verdensrommet-1375",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-verdensrommet-1375"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-verktoy-f07d",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "tools",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-verktoy-f07d"
+  },
+  {
+   "slug": "stor-liten-stigende-rekkefolge-yrker-46e4",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "stor-liten-stigende-rekkefolge-yrker-46e4"
+  },
+  {
+   "slug": "tell-i-diagram-bakeri-36fe",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "bakery",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-bakeri-36fe"
+  },
+  {
+   "slug": "tell-i-diagram-blomster-899e",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "flowers",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-blomster-899e"
+  },
+  {
+   "slug": "tell-i-diagram-camping-dae9",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "camping",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-camping-dae9"
+  },
+  {
+   "slug": "tell-i-diagram-desserter-og-godteri-9a85",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-desserter-og-godteri-9a85"
+  },
+  {
+   "slug": "tell-i-diagram-dinosaurer-13d0",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-dinosaurer-13d0"
+  },
+  {
+   "slug": "tell-i-diagram-dyr-40f2",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "animals",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-dyr-40f2"
+  },
+  {
+   "slug": "tell-i-diagram-dyrehagedyr-c058",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-dyrehagedyr-c058"
+  },
+  {
+   "slug": "tell-i-diagram-farger-305e",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "colors",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-farger-305e"
+  },
+  {
+   "slug": "tell-i-diagram-former-bfbc",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "shapes",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-former-bfbc"
+  },
+  {
+   "slug": "tell-i-diagram-frokost-8c40",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-frokost-8c40"
+  },
+  {
+   "slug": "tell-i-diagram-frukter-bb67",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "fruits",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-frukter-bb67"
+  },
+  {
+   "slug": "tell-i-diagram-fugler-2-c83a",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-fugler-2-c83a"
+  },
+  {
+   "slug": "tell-i-diagram-fugler-f187",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "birds",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-fugler-f187"
+  },
+  {
+   "slug": "tell-i-diagram-gardsdyr-43e7",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-gardsdyr-43e7"
+  },
+  {
+   "slug": "tell-i-diagram-gronnsaker-7680",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-gronnsaker-7680"
+  },
+  {
+   "slug": "tell-i-diagram-havliv-eb01",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-havliv-eb01"
+  },
+  {
+   "slug": "tell-i-diagram-i-supermarkedet-8026",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-i-supermarkedet-8026"
+  },
+  {
+   "slug": "tell-i-diagram-insekter-og-kryp-3d00",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-insekter-og-kryp-3d00"
+  },
+  {
+   "slug": "tell-i-diagram-jul-4406",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "christmas",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-jul-4406"
+  },
+  {
+   "slug": "tell-i-diagram-kjaeledyr-881c",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "pets",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-kjaeledyr-881c"
+  },
+  {
+   "slug": "tell-i-diagram-kjokkenredskaper-e99f",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-kjokkenredskaper-e99f"
+  },
+  {
+   "slug": "tell-i-diagram-kjoretoy-3040",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-kjoretoy-3040"
+  },
+  {
+   "slug": "tell-i-diagram-klaer-8692",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "clothing",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-klaer-8692"
+  },
+  {
+   "slug": "tell-i-diagram-klasserom-8658",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "classroom",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-klasserom-8658"
+  },
+  {
+   "slug": "tell-i-diagram-leker-38a4",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "toys",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-leker-38a4"
+  },
+  {
+   "slug": "tell-i-diagram-mobler-211f",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "furniture",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-mobler-211f"
+  },
+  {
+   "slug": "tell-i-diagram-musikk-666a",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "music",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-musikk-666a"
+  },
+  {
+   "slug": "tell-i-diagram-paske-923e",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "easter",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-paske-923e"
+  },
+  {
+   "slug": "tell-i-diagram-postkontor-ed4a",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "post_office",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-postkontor-ed4a"
+  },
+  {
+   "slug": "tell-i-diagram-reptiler-og-amfibier-c0f7",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-reptiler-og-amfibier-c0f7"
+  },
+  {
+   "slug": "tell-i-diagram-rundt-i-huset-a597",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-rundt-i-huset-a597"
+  },
+  {
+   "slug": "tell-i-diagram-skogsdyr-4b34",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-skogsdyr-4b34"
+  },
+  {
+   "slug": "tell-i-diagram-strand-8fa7",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "beach",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-strand-8fa7"
+  },
+  {
+   "slug": "tell-i-diagram-sykehus-6a94",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "hospital",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-sykehus-6a94"
+  },
+  {
+   "slug": "tell-i-diagram-thanksgiving-1caa",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-thanksgiving-1caa"
+  },
+  {
+   "slug": "tell-i-diagram-tilbehor-a40c",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "accessories",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-tilbehor-a40c"
+  },
+  {
+   "slug": "tell-i-diagram-ting-som-flyr-e915",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-ting-som-flyr-e915"
+  },
+  {
+   "slug": "tell-i-diagram-traer-1f4c",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "tree",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-traer-1f4c"
+  },
+  {
+   "slug": "tell-i-diagram-verdensrommet-c152",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "space",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-verdensrommet-c152"
+  },
+  {
+   "slug": "tell-i-diagram-verktoy-209f",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "tools",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-verktoy-209f"
+  },
+  {
+   "slug": "tell-i-diagram-yrker-7186",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "occupations",
+   "level": "2-trinn",
+   "deck": "tell-i-diagram-yrker-7186"
+  }
+ ]
+}

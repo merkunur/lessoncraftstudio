@@ -1,0 +1,652 @@
+{
+ "part": 347,
+ "locale": "fi",
+ "classes": [
+  "math-puzzle::mixed",
+  "math-puzzle::subtraction"
+ ],
+ "splitOf": null,
+ "count": 80,
+ "pages": [
+  {
+   "slug": "matematiikkapulma-sekoitettu-aamiainen-2f60",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-sekoitettu-aamiainen-2f60"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-ajoneuvot-9a43",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-ajoneuvot-9a43"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-ammatit-df11",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-ammatit-df11"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-asusteet-7549",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-sekoitettu-asusteet-7549"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-avaruus-a41d",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-avaruus-a41d"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-dinosaurukset-b8a5",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-dinosaurukset-b8a5"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-elaimet",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-sekoitettu-elaimet"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-elaintarhan-elaimet-2e02",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-elaintarhan-elaimet-2e02"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-hedelmat-81b4",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-hedelmat-81b4"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-huonekalut-c045",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-huonekalut-c045"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-hyonteiset-ja-otokat-3592",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-hyonteiset-ja-otokat-3592"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-jalkiruoat-ja-makeiset-3d91",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-jalkiruoat-ja-makeiset-3d91"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-joulu-15f6",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-joulu-15f6"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-keittiovalineet-ade1",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-sekoitettu-keittiovalineet-ade1"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-kiitospaiva-9805",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-kiitospaiva-9805"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-kodin-ymparilla-6b11",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-kodin-ymparilla-6b11"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-kukat-0d9c",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-sekoitettu-kukat-0d9c"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-leipomo-80d5",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-sekoitettu-leipomo-80d5"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-leirielama-2a83",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-leirielama-2a83"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-lelut-3fee",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-lelut-3fee"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-lemmikit-b2d7",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-sekoitettu-lemmikit-b2d7"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-lentavat-asiat-0f63",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-lentavat-asiat-0f63"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-linnut-2-a6e5",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-sekoitettu-linnut-2-a6e5"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-linnut-a060",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-linnut-a060"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-luokkahuone-b7b4",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-luokkahuone-b7b4"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-maatilan-elaimet-e329",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-maatilan-elaimet-e329"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-matelijat-ja-sammakkoelaimet-27a7",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-matelijat-ja-sammakkoelaimet-27a7"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-merielama-4b19",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-merielama-4b19"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-metsan-elaimet-10f5",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-sekoitettu-metsan-elaimet-10f5"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-muodot-b4bc",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-muodot-b4bc"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-musiikki-3e03",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-musiikki-3e03"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-paasiainen-05bc",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-sekoitettu-paasiainen-05bc"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-postitoimisto-ad32",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-postitoimisto-ad32"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-puut-2986",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-puut-2986"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-ranta-405a",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-ranta-405a"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-ruokakaupassa-c476",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-ruokakaupassa-c476"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-sairaala-fe34",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-sekoitettu-sairaala-fe34"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-tyokalut-f60f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-sekoitettu-tyokalut-f60f"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-vaatteet-9872",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-vaatteet-9872"
+  },
+  {
+   "slug": "matematiikkapulma-sekoitettu-vihannekset-4b02",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-vihannekset-4b02"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-aamiainen-c154",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "breakfast",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-aamiainen-c154"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-ajoneuvot-5faf",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "vehicles",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-ajoneuvot-5faf"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-ammatit-a95e",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "occupations",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-ammatit-a95e"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-asusteet-54e0",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "accessories",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-asusteet-54e0"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-avaruus-c403",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "space",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-avaruus-c403"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-dinosaurukset-8e9f",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "dinosaurs",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-dinosaurukset-8e9f"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-elaimet-a99b",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "animals",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-elaimet-a99b"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-elaintarhan-elaimet-17a7",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "zoo_animals",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-elaintarhan-elaimet-17a7"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-hedelmat-3aba",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "fruits",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-hedelmat-3aba"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-huonekalut-fbc4",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "furniture",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-huonekalut-fbc4"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-hyonteiset-ja-otokat-326f",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "insects_and_bugs",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-hyonteiset-ja-otokat-326f"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-jalkiruoat-ja-makeiset-eae5",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "desserts_and_sweets",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-jalkiruoat-ja-makeiset-eae5"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-joulu-4558",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "christmas",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-joulu-4558"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-keittiovalineet-db5f",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "kitchen_tools",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-keittiovalineet-db5f"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-kiitospaiva-2874",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "thanksgivinng",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-kiitospaiva-2874"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-kodin-ymparilla-6f99",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "around_the_house",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-kodin-ymparilla-6f99"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-kukat-df80",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "flowers",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-kukat-df80"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-leipomo-0283",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "bakery",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-leipomo-0283"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-leirielama-1b06",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "camping",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-leirielama-1b06"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-lelut-2d85",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "toys",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-lelut-2d85"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-lemmikit-8794",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "pets",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-lemmikit-8794"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-lentavat-asiat-d877",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "things_that_fly",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-lentavat-asiat-d877"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-linnut-2-145b",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "birds_2",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-linnut-2-145b"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-linnut-db76",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "birds",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-linnut-db76"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-luokkahuone-5453",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "classroom",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-luokkahuone-5453"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-maatilan-elaimet-c0da",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "farm_animals",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-maatilan-elaimet-c0da"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-matelijat-ja-sammakkoelaimet-218a",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-matelijat-ja-sammakkoelaimet-218a"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-merielama-c7a6",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "ocean_life",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-merielama-c7a6"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-metsan-elaimet-3180",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "forest_creatures",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-metsan-elaimet-3180"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-muodot-c7dc",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "shapes",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-muodot-c7dc"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-musiikki-db7b",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "music",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-musiikki-db7b"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-paasiainen-9b6c",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "easter",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-paasiainen-9b6c"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-postitoimisto-fd3c",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "post_office",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-postitoimisto-fd3c"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-puut-cf91",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "tree",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-puut-cf91"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-ranta-34aa",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "beach",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-ranta-34aa"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-ruokakaupassa-9c81",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "at_the_supermarket",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-ruokakaupassa-9c81"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-sairaala-62d5",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "hospital",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-sairaala-62d5"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-tyokalut-adc4",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "tools",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-tyokalut-adc4"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-vaatteet-083e",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "clothing",
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-vaatteet-083e"
+  },
+  {
+   "slug": "matematiikkapulma-vahennyslasku-vihannekset-69e9",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "vegetables",
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-vahennyslasku-vihannekset-69e9"
+  }
+ ]
+}

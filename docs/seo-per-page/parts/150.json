@@ -1,0 +1,764 @@
+{
+ "part": 150,
+ "locale": "fr",
+ "classes": [
+  "word-guess::normal",
+  "word-scramble::normal"
+ ],
+ "splitOf": null,
+ "count": 94,
+ "pages": [
+  {
+   "slug": "devine-le-mot-normal-accessoires-ee25",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "accessories",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-accessoires-ee25"
+  },
+  {
+   "slug": "devine-le-mot-normal-action-de-grace-0893",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "thanksgivinng",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-action-de-grace-0893"
+  },
+  {
+   "slug": "devine-le-mot-normal-activites-a263",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "activities",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-activites-a263"
+  },
+  {
+   "slug": "devine-le-mot-normal-animaux-5498",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "animals",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-animaux-5498"
+  },
+  {
+   "slug": "devine-le-mot-normal-animaux-de-compagnie-3b40",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "pets",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-animaux-de-compagnie-3b40"
+  },
+  {
+   "slug": "devine-le-mot-normal-animaux-de-la-ferme-3838",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "farm_animals",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-animaux-de-la-ferme-3838"
+  },
+  {
+   "slug": "devine-le-mot-normal-animaux-du-zoo-f2bc",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "zoo_animals",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-animaux-du-zoo-f2bc"
+  },
+  {
+   "slug": "devine-le-mot-normal-arbres-bdac",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "tree",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-arbres-bdac"
+  },
+  {
+   "slug": "devine-le-mot-normal-au-supermarche-b6ec",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "at_the_supermarket",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-au-supermarche-b6ec"
+  },
+  {
+   "slug": "devine-le-mot-normal-autour-de-la-maison-ba4e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "around_the_house",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-autour-de-la-maison-ba4e"
+  },
+  {
+   "slug": "devine-le-mot-normal-boulangerie-9798",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "bakery",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-boulangerie-9798"
+  },
+  {
+   "slug": "devine-le-mot-normal-bureau-de-poste-f925",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "post_office",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-bureau-de-poste-f925"
+  },
+  {
+   "slug": "devine-le-mot-normal-camping-caf5",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "camping",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-camping-caf5"
+  },
+  {
+   "slug": "devine-le-mot-normal-choses-qui-volent-398a",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "things_that_fly",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-choses-qui-volent-398a"
+  },
+  {
+   "slug": "devine-le-mot-normal-couleurs-87bb",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "colors",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-couleurs-87bb"
+  },
+  {
+   "slug": "devine-le-mot-normal-creatures-de-la-foret-bd6a",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "forest_creatures",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-creatures-de-la-foret-bd6a"
+  },
+  {
+   "slug": "devine-le-mot-normal-desserts-et-sucreries-5813",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "desserts_and_sweets",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-desserts-et-sucreries-5813"
+  },
+  {
+   "slug": "devine-le-mot-normal-emotions-a296",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "emotions",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-emotions-a296"
+  },
+  {
+   "slug": "devine-le-mot-normal-espace-695d",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "space",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-espace-695d"
+  },
+  {
+   "slug": "devine-le-mot-normal-ete-54f2",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "summer",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-ete-54f2"
+  },
+  {
+   "slug": "devine-le-mot-normal-fleurs-79c2",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "flowers",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-fleurs-79c2"
+  },
+  {
+   "slug": "devine-le-mot-normal-formes-f719",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "shapes",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-formes-f719"
+  },
+  {
+   "slug": "devine-le-mot-normal-fruits-812d",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "fruits",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-fruits-812d"
+  },
+  {
+   "slug": "devine-le-mot-normal-hiver-fc27",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "winter",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-hiver-fc27"
+  },
+  {
+   "slug": "devine-le-mot-normal-hopital-6bcc",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "hospital",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-hopital-6bcc"
+  },
+  {
+   "slug": "devine-le-mot-normal-insectes-et-bestioles-5d6c",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "insects_and_bugs",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-insectes-et-bestioles-5d6c"
+  },
+  {
+   "slug": "devine-le-mot-normal-jouets-f9c4",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "toys",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-jouets-f9c4"
+  },
+  {
+   "slug": "devine-le-mot-normal-legumes-0db1",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "vegetables",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-legumes-0db1"
+  },
+  {
+   "slug": "devine-le-mot-normal-meteo-bcc9",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "weather",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-meteo-bcc9"
+  },
+  {
+   "slug": "devine-le-mot-normal-metiers-b828",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "occupations",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-metiers-b828"
+  },
+  {
+   "slug": "devine-le-mot-normal-meubles-9808",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "furniture",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-meubles-9808"
+  },
+  {
+   "slug": "devine-le-mot-normal-musique-ae30",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "music",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-musique-ae30"
+  },
+  {
+   "slug": "devine-le-mot-normal-noel-5e8a",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "christmas",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-noel-5e8a"
+  },
+  {
+   "slug": "devine-le-mot-normal-oiseaux-2-c33f",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "birds_2",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-oiseaux-2-c33f"
+  },
+  {
+   "slug": "devine-le-mot-normal-oiseaux-6656",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "birds",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-oiseaux-6656"
+  },
+  {
+   "slug": "devine-le-mot-normal-outils-ef28",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "tools",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-outils-ef28"
+  },
+  {
+   "slug": "devine-le-mot-normal-paques-ae90",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "easter",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-paques-ae90"
+  },
+  {
+   "slug": "devine-le-mot-normal-parties-du-corps-99ec",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "body_parts",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-parties-du-corps-99ec"
+  },
+  {
+   "slug": "devine-le-mot-normal-petit-dejeuner-d40e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "breakfast",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-petit-dejeuner-d40e"
+  },
+  {
+   "slug": "devine-le-mot-normal-plage-b95b",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "beach",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-plage-b95b"
+  },
+  {
+   "slug": "devine-le-mot-normal-printemps-52c0",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "spring",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-printemps-52c0"
+  },
+  {
+   "slug": "devine-le-mot-normal-reptiles-et-amphibiens-4c49",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "reptiles_and_amphibians",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-reptiles-et-amphibiens-4c49"
+  },
+  {
+   "slug": "devine-le-mot-normal-salle-de-classe-23ee",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "classroom",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-salle-de-classe-23ee"
+  },
+  {
+   "slug": "devine-le-mot-normal-ustensiles-de-cuisine-c106",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "kitchen_tools",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-ustensiles-de-cuisine-c106"
+  },
+  {
+   "slug": "devine-le-mot-normal-vehicules-d115",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "vehicles",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-vehicules-d115"
+  },
+  {
+   "slug": "devine-le-mot-normal-vetements-e0ea",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "clothing",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-vetements-e0ea"
+  },
+  {
+   "slug": "devine-le-mot-normal-vie-oceanique-e917",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "ocean_life",
+   "level": "cp",
+   "deck": "devine-le-mot-normal-vie-oceanique-e917"
+  },
+  {
+   "slug": "lettres-melangees-normal-accessoires-b995",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "accessories",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-accessoires-b995"
+  },
+  {
+   "slug": "lettres-melangees-normal-action-de-grace-023d",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "thanksgivinng",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-action-de-grace-023d"
+  },
+  {
+   "slug": "lettres-melangees-normal-activites-29ac",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "activities",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-activites-29ac"
+  },
+  {
+   "slug": "lettres-melangees-normal-animaux-31f5",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "animals",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-animaux-31f5"
+  },
+  {
+   "slug": "lettres-melangees-normal-animaux-de-compagnie-55f8",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "pets",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-animaux-de-compagnie-55f8"
+  },
+  {
+   "slug": "lettres-melangees-normal-animaux-de-la-ferme-7838",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "farm_animals",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-animaux-de-la-ferme-7838"
+  },
+  {
+   "slug": "lettres-melangees-normal-animaux-du-zoo-67c1",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "zoo_animals",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-animaux-du-zoo-67c1"
+  },
+  {
+   "slug": "lettres-melangees-normal-arbres-7a6e",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "tree",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-arbres-7a6e"
+  },
+  {
+   "slug": "lettres-melangees-normal-au-supermarche-8cae",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "at_the_supermarket",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-au-supermarche-8cae"
+  },
+  {
+   "slug": "lettres-melangees-normal-autour-de-la-maison-ec4d",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "around_the_house",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-autour-de-la-maison-ec4d"
+  },
+  {
+   "slug": "lettres-melangees-normal-boulangerie-ca85",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "bakery",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-boulangerie-ca85"
+  },
+  {
+   "slug": "lettres-melangees-normal-bureau-de-poste-190c",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "post_office",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-bureau-de-poste-190c"
+  },
+  {
+   "slug": "lettres-melangees-normal-camping-bd89",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "camping",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-camping-bd89"
+  },
+  {
+   "slug": "lettres-melangees-normal-choses-qui-volent-13f8",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "things_that_fly",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-choses-qui-volent-13f8"
+  },
+  {
+   "slug": "lettres-melangees-normal-couleurs-e63e",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "colors",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-couleurs-e63e"
+  },
+  {
+   "slug": "lettres-melangees-normal-creatures-de-la-foret-422a",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "forest_creatures",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-creatures-de-la-foret-422a"
+  },
+  {
+   "slug": "lettres-melangees-normal-desserts-et-sucreries-db7a",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "desserts_and_sweets",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-desserts-et-sucreries-db7a"
+  },
+  {
+   "slug": "lettres-melangees-normal-emotions-92f5",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "emotions",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-emotions-92f5"
+  },
+  {
+   "slug": "lettres-melangees-normal-espace-d249",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "space",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-espace-d249"
+  },
+  {
+   "slug": "lettres-melangees-normal-ete-7480",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "summer",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-ete-7480"
+  },
+  {
+   "slug": "lettres-melangees-normal-fleurs-8485",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "flowers",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-fleurs-8485"
+  },
+  {
+   "slug": "lettres-melangees-normal-formes-22fd",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "shapes",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-formes-22fd"
+  },
+  {
+   "slug": "lettres-melangees-normal-fruits-4aae",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "fruits",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-fruits-4aae"
+  },
+  {
+   "slug": "lettres-melangees-normal-hiver-f581",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "winter",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-hiver-f581"
+  },
+  {
+   "slug": "lettres-melangees-normal-hopital-f481",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "hospital",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-hopital-f481"
+  },
+  {
+   "slug": "lettres-melangees-normal-insectes-et-bestioles-547c",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "insects_and_bugs",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-insectes-et-bestioles-547c"
+  },
+  {
+   "slug": "lettres-melangees-normal-jouets-aec2",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "toys",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-jouets-aec2"
+  },
+  {
+   "slug": "lettres-melangees-normal-legumes-3497",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "vegetables",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-legumes-3497"
+  },
+  {
+   "slug": "lettres-melangees-normal-meteo-8c4d",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "weather",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-meteo-8c4d"
+  },
+  {
+   "slug": "lettres-melangees-normal-metiers-178c",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "occupations",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-metiers-178c"
+  },
+  {
+   "slug": "lettres-melangees-normal-meubles-81ff",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "furniture",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-meubles-81ff"
+  },
+  {
+   "slug": "lettres-melangees-normal-musique-1282",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "music",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-musique-1282"
+  },
+  {
+   "slug": "lettres-melangees-normal-noel-ec76",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "christmas",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-noel-ec76"
+  },
+  {
+   "slug": "lettres-melangees-normal-oiseaux-2-745b",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "birds_2",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-oiseaux-2-745b"
+  },
+  {
+   "slug": "lettres-melangees-normal-oiseaux-5555",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "birds",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-oiseaux-5555"
+  },
+  {
+   "slug": "lettres-melangees-normal-outils-9179",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "tools",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-outils-9179"
+  },
+  {
+   "slug": "lettres-melangees-normal-paques-5ea2",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "easter",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-paques-5ea2"
+  },
+  {
+   "slug": "lettres-melangees-normal-parties-du-corps-748d",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "body_parts",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-parties-du-corps-748d"
+  },
+  {
+   "slug": "lettres-melangees-normal-petit-dejeuner-b201",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "breakfast",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-petit-dejeuner-b201"
+  },
+  {
+   "slug": "lettres-melangees-normal-plage-823f",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "beach",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-plage-823f"
+  },
+  {
+   "slug": "lettres-melangees-normal-printemps-57da",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "spring",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-printemps-57da"
+  },
+  {
+   "slug": "lettres-melangees-normal-reptiles-et-amphibiens-a30c",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "reptiles_and_amphibians",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-reptiles-et-amphibiens-a30c"
+  },
+  {
+   "slug": "lettres-melangees-normal-salle-de-classe-cfdc",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "classroom",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-salle-de-classe-cfdc"
+  },
+  {
+   "slug": "lettres-melangees-normal-ustensiles-de-cuisine-ee19",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "kitchen_tools",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-ustensiles-de-cuisine-ee19"
+  },
+  {
+   "slug": "lettres-melangees-normal-vehicules-5200",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "vehicles",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-vehicules-5200"
+  },
+  {
+   "slug": "lettres-melangees-normal-vetements-90cc",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "clothing",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-vetements-90cc"
+  },
+  {
+   "slug": "lettres-melangees-normal-vie-oceanique-163a",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "ocean_life",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-vie-oceanique-163a"
+  }
+ ]
+}

@@ -1,0 +1,652 @@
+{
+ "part": 247,
+ "locale": "sv",
+ "classes": [
+  "addition::image-image",
+  "addition::image-number"
+ ],
+ "splitOf": null,
+ "count": 80,
+ "pages": [
+  {
+   "slug": "addition-bild-bild-bageri-e2d9",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "bakery",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-bageri-e2d9"
+  },
+  {
+   "slug": "addition-bild-bild-blommor-eb73",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "flowers",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-blommor-eb73"
+  },
+  {
+   "slug": "addition-bild-bild-bondgardsdjur-52bc",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "farm_animals",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-bondgardsdjur-52bc"
+  },
+  {
+   "slug": "addition-bild-bild-camping-75a5",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "camping",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-camping-75a5"
+  },
+  {
+   "slug": "addition-bild-bild-dinosaurier-aa85",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "dinosaurs",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-dinosaurier-aa85"
+  },
+  {
+   "slug": "addition-bild-bild-djur",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "animals",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-djur"
+  },
+  {
+   "slug": "addition-bild-bild-djurparksdjur-0e24",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "zoo_animals",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-djurparksdjur-0e24"
+  },
+  {
+   "slug": "addition-bild-bild-efterratter-och-godis-4d05",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "desserts_and_sweets",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-efterratter-och-godis-4d05"
+  },
+  {
+   "slug": "addition-bild-bild-faglar-2-fe12",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "birds_2",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-faglar-2-fe12"
+  },
+  {
+   "slug": "addition-bild-bild-faglar-db19",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "birds",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-faglar-db19"
+  },
+  {
+   "slug": "addition-bild-bild-fordon-ec0d",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "vehicles",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-fordon-ec0d"
+  },
+  {
+   "slug": "addition-bild-bild-former-6eb5",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "shapes",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-former-6eb5"
+  },
+  {
+   "slug": "addition-bild-bild-frukost-f0c8",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "breakfast",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-frukost-f0c8"
+  },
+  {
+   "slug": "addition-bild-bild-frukter-2df6",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "fruits",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-frukter-2df6"
+  },
+  {
+   "slug": "addition-bild-bild-gronsaker-d9e4",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "vegetables",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-gronsaker-d9e4"
+  },
+  {
+   "slug": "addition-bild-bild-havsliv-167f",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "ocean_life",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-havsliv-167f"
+  },
+  {
+   "slug": "addition-bild-bild-husdjur-4e6c",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "pets",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-husdjur-4e6c"
+  },
+  {
+   "slug": "addition-bild-bild-i-snabbkopet-c339",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "at_the_supermarket",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-i-snabbkopet-c339"
+  },
+  {
+   "slug": "addition-bild-bild-insekter-och-kryp-21d1",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "insects_and_bugs",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-insekter-och-kryp-21d1"
+  },
+  {
+   "slug": "addition-bild-bild-jul-2c69",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "christmas",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-jul-2c69"
+  },
+  {
+   "slug": "addition-bild-bild-klader-7e2d",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "clothing",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-klader-7e2d"
+  },
+  {
+   "slug": "addition-bild-bild-klassrum-766d",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "classroom",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-klassrum-766d"
+  },
+  {
+   "slug": "addition-bild-bild-koksredskap-f748",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "kitchen_tools",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-koksredskap-f748"
+  },
+  {
+   "slug": "addition-bild-bild-leksaker-fc64",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "toys",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-leksaker-fc64"
+  },
+  {
+   "slug": "addition-bild-bild-mobler-89e7",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "furniture",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-mobler-89e7"
+  },
+  {
+   "slug": "addition-bild-bild-musik-39b4",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "music",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-musik-39b4"
+  },
+  {
+   "slug": "addition-bild-bild-pask-c04c",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "easter",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-pask-c04c"
+  },
+  {
+   "slug": "addition-bild-bild-postkontor-ed0c",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "post_office",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-postkontor-ed0c"
+  },
+  {
+   "slug": "addition-bild-bild-reptiler-och-groddjur-5ad8",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "reptiles_and_amphibians",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-reptiler-och-groddjur-5ad8"
+  },
+  {
+   "slug": "addition-bild-bild-runt-huset-1755",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "around_the_house",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-runt-huset-1755"
+  },
+  {
+   "slug": "addition-bild-bild-rymden-052a",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "space",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-rymden-052a"
+  },
+  {
+   "slug": "addition-bild-bild-saker-som-flyger-66d6",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "things_that_fly",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-saker-som-flyger-66d6"
+  },
+  {
+   "slug": "addition-bild-bild-sjukhus-cbbb",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "hospital",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-sjukhus-cbbb"
+  },
+  {
+   "slug": "addition-bild-bild-skogsdjur-8ec4",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "forest_creatures",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-skogsdjur-8ec4"
+  },
+  {
+   "slug": "addition-bild-bild-strand-90f2",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "beach",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-strand-90f2"
+  },
+  {
+   "slug": "addition-bild-bild-thanksgiving-f428",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "thanksgivinng",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-thanksgiving-f428"
+  },
+  {
+   "slug": "addition-bild-bild-tillbehor-9f47",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "accessories",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-tillbehor-9f47"
+  },
+  {
+   "slug": "addition-bild-bild-trad-e39b",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "tree",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-trad-e39b"
+  },
+  {
+   "slug": "addition-bild-bild-verktyg-f52f",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "tools",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-verktyg-f52f"
+  },
+  {
+   "slug": "addition-bild-bild-yrken-fdcb",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "occupations",
+   "level": "ak-1",
+   "deck": "addition-bild-bild-yrken-fdcb"
+  },
+  {
+   "slug": "addition-bild-nummer-bageri-7dfd",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "bakery",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-bageri-7dfd"
+  },
+  {
+   "slug": "addition-bild-nummer-blommor-265c",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "flowers",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-blommor-265c"
+  },
+  {
+   "slug": "addition-bild-nummer-bondgardsdjur-bdb4",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "farm_animals",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-bondgardsdjur-bdb4"
+  },
+  {
+   "slug": "addition-bild-nummer-camping-8900",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "camping",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-camping-8900"
+  },
+  {
+   "slug": "addition-bild-nummer-dinosaurier-c237",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "dinosaurs",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-dinosaurier-c237"
+  },
+  {
+   "slug": "addition-bild-nummer-djur-7cd1",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "animals",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-djur-7cd1"
+  },
+  {
+   "slug": "addition-bild-nummer-djurparksdjur-4dd4",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "zoo_animals",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-djurparksdjur-4dd4"
+  },
+  {
+   "slug": "addition-bild-nummer-efterratter-och-godis-3b1c",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "desserts_and_sweets",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-efterratter-och-godis-3b1c"
+  },
+  {
+   "slug": "addition-bild-nummer-faglar-14e3",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "birds",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-faglar-14e3"
+  },
+  {
+   "slug": "addition-bild-nummer-faglar-2-5b59",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "birds_2",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-faglar-2-5b59"
+  },
+  {
+   "slug": "addition-bild-nummer-fordon-6cb1",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "vehicles",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-fordon-6cb1"
+  },
+  {
+   "slug": "addition-bild-nummer-former-5b5f",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "shapes",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-former-5b5f"
+  },
+  {
+   "slug": "addition-bild-nummer-frukost-2081",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "breakfast",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-frukost-2081"
+  },
+  {
+   "slug": "addition-bild-nummer-frukter-58ce",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "fruits",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-frukter-58ce"
+  },
+  {
+   "slug": "addition-bild-nummer-gronsaker-2b46",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "vegetables",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-gronsaker-2b46"
+  },
+  {
+   "slug": "addition-bild-nummer-havsliv-bdd5",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "ocean_life",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-havsliv-bdd5"
+  },
+  {
+   "slug": "addition-bild-nummer-husdjur-f8b5",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "pets",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-husdjur-f8b5"
+  },
+  {
+   "slug": "addition-bild-nummer-i-snabbkopet-3340",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "at_the_supermarket",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-i-snabbkopet-3340"
+  },
+  {
+   "slug": "addition-bild-nummer-insekter-och-kryp-0d44",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "insects_and_bugs",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-insekter-och-kryp-0d44"
+  },
+  {
+   "slug": "addition-bild-nummer-jul-9ff9",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "christmas",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-jul-9ff9"
+  },
+  {
+   "slug": "addition-bild-nummer-klader-a1e2",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "clothing",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-klader-a1e2"
+  },
+  {
+   "slug": "addition-bild-nummer-klassrum-0720",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "classroom",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-klassrum-0720"
+  },
+  {
+   "slug": "addition-bild-nummer-koksredskap-7eee",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "kitchen_tools",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-koksredskap-7eee"
+  },
+  {
+   "slug": "addition-bild-nummer-leksaker-6c14",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "toys",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-leksaker-6c14"
+  },
+  {
+   "slug": "addition-bild-nummer-mobler-4ed5",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "furniture",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-mobler-4ed5"
+  },
+  {
+   "slug": "addition-bild-nummer-musik-366a",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "music",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-musik-366a"
+  },
+  {
+   "slug": "addition-bild-nummer-pask-a32b",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "easter",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-pask-a32b"
+  },
+  {
+   "slug": "addition-bild-nummer-postkontor-19e0",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "post_office",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-postkontor-19e0"
+  },
+  {
+   "slug": "addition-bild-nummer-reptiler-och-groddjur-5fb7",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "reptiles_and_amphibians",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-reptiler-och-groddjur-5fb7"
+  },
+  {
+   "slug": "addition-bild-nummer-runt-huset-55bb",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "around_the_house",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-runt-huset-55bb"
+  },
+  {
+   "slug": "addition-bild-nummer-rymden-bbb7",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "space",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-rymden-bbb7"
+  },
+  {
+   "slug": "addition-bild-nummer-saker-som-flyger-78d5",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "things_that_fly",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-saker-som-flyger-78d5"
+  },
+  {
+   "slug": "addition-bild-nummer-sjukhus-963a",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "hospital",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-sjukhus-963a"
+  },
+  {
+   "slug": "addition-bild-nummer-skogsdjur-8345",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "forest_creatures",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-skogsdjur-8345"
+  },
+  {
+   "slug": "addition-bild-nummer-strand-ac63",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "beach",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-strand-ac63"
+  },
+  {
+   "slug": "addition-bild-nummer-thanksgiving-006c",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "thanksgivinng",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-thanksgiving-006c"
+  },
+  {
+   "slug": "addition-bild-nummer-tillbehor-35b0",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "accessories",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-tillbehor-35b0"
+  },
+  {
+   "slug": "addition-bild-nummer-trad-8313",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "tree",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-trad-8313"
+  },
+  {
+   "slug": "addition-bild-nummer-verktyg-b505",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "tools",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-verktyg-b505"
+  },
+  {
+   "slug": "addition-bild-nummer-yrken-f15c",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "occupations",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-yrken-f15c"
+  }
+ ]
+}

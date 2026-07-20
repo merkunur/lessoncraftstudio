@@ -1,0 +1,652 @@
+{
+ "part": 312,
+ "locale": "no",
+ "classes": [
+  "addition::find-addend",
+  "addition::image-number"
+ ],
+ "splitOf": null,
+ "count": 80,
+ "pages": [
+  {
+   "slug": "addisjon-finn-ledd-bakeri-8c84",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "bakery",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-bakeri-8c84"
+  },
+  {
+   "slug": "addisjon-finn-ledd-blomster-d51a",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "flowers",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-blomster-d51a"
+  },
+  {
+   "slug": "addisjon-finn-ledd-camping-2eed",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "camping",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-camping-2eed"
+  },
+  {
+   "slug": "addisjon-finn-ledd-desserter-og-godteri-271d",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "desserts_and_sweets",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-desserter-og-godteri-271d"
+  },
+  {
+   "slug": "addisjon-finn-ledd-dinosaurer-6269",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "dinosaurs",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-dinosaurer-6269"
+  },
+  {
+   "slug": "addisjon-finn-ledd-dyr-5a2f",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "animals",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-dyr-5a2f"
+  },
+  {
+   "slug": "addisjon-finn-ledd-dyrehagedyr-3f8f",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "zoo_animals",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-dyrehagedyr-3f8f"
+  },
+  {
+   "slug": "addisjon-finn-ledd-former-6c68",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "shapes",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-former-6c68"
+  },
+  {
+   "slug": "addisjon-finn-ledd-frokost-03c9",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "breakfast",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-frokost-03c9"
+  },
+  {
+   "slug": "addisjon-finn-ledd-frukter-5086",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "fruits",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-frukter-5086"
+  },
+  {
+   "slug": "addisjon-finn-ledd-fugler-2-146a",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "birds_2",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-fugler-2-146a"
+  },
+  {
+   "slug": "addisjon-finn-ledd-fugler-842f",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "birds",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-fugler-842f"
+  },
+  {
+   "slug": "addisjon-finn-ledd-gardsdyr-2282",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "farm_animals",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-gardsdyr-2282"
+  },
+  {
+   "slug": "addisjon-finn-ledd-gronnsaker-f8d8",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "vegetables",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-gronnsaker-f8d8"
+  },
+  {
+   "slug": "addisjon-finn-ledd-havliv-1578",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "ocean_life",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-havliv-1578"
+  },
+  {
+   "slug": "addisjon-finn-ledd-i-supermarkedet-ffd8",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "at_the_supermarket",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-i-supermarkedet-ffd8"
+  },
+  {
+   "slug": "addisjon-finn-ledd-insekter-og-kryp-7bfd",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "insects_and_bugs",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-insekter-og-kryp-7bfd"
+  },
+  {
+   "slug": "addisjon-finn-ledd-jul-3ea5",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "christmas",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-jul-3ea5"
+  },
+  {
+   "slug": "addisjon-finn-ledd-kjaeledyr-adc8",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "pets",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-kjaeledyr-adc8"
+  },
+  {
+   "slug": "addisjon-finn-ledd-kjokkenredskaper-ce79",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "kitchen_tools",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-kjokkenredskaper-ce79"
+  },
+  {
+   "slug": "addisjon-finn-ledd-kjoretoy-29e4",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "vehicles",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-kjoretoy-29e4"
+  },
+  {
+   "slug": "addisjon-finn-ledd-klaer-e81b",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "clothing",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-klaer-e81b"
+  },
+  {
+   "slug": "addisjon-finn-ledd-klasserom-2e85",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "classroom",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-klasserom-2e85"
+  },
+  {
+   "slug": "addisjon-finn-ledd-leker-2a45",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "toys",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-leker-2a45"
+  },
+  {
+   "slug": "addisjon-finn-ledd-mobler-6aec",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "furniture",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-mobler-6aec"
+  },
+  {
+   "slug": "addisjon-finn-ledd-musikk-80a0",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "music",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-musikk-80a0"
+  },
+  {
+   "slug": "addisjon-finn-ledd-paske-7724",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "easter",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-paske-7724"
+  },
+  {
+   "slug": "addisjon-finn-ledd-postkontor-6ad8",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "post_office",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-postkontor-6ad8"
+  },
+  {
+   "slug": "addisjon-finn-ledd-reptiler-og-amfibier-ce77",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-reptiler-og-amfibier-ce77"
+  },
+  {
+   "slug": "addisjon-finn-ledd-rundt-i-huset-c69d",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "around_the_house",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-rundt-i-huset-c69d"
+  },
+  {
+   "slug": "addisjon-finn-ledd-skogsdyr-9a67",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "forest_creatures",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-skogsdyr-9a67"
+  },
+  {
+   "slug": "addisjon-finn-ledd-strand-ef19",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "beach",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-strand-ef19"
+  },
+  {
+   "slug": "addisjon-finn-ledd-sykehus-0410",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "hospital",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-sykehus-0410"
+  },
+  {
+   "slug": "addisjon-finn-ledd-thanksgiving-e1fe",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "thanksgivinng",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-thanksgiving-e1fe"
+  },
+  {
+   "slug": "addisjon-finn-ledd-tilbehor-9909",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "accessories",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-tilbehor-9909"
+  },
+  {
+   "slug": "addisjon-finn-ledd-ting-som-flyr-ab29",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "things_that_fly",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-ting-som-flyr-ab29"
+  },
+  {
+   "slug": "addisjon-finn-ledd-traer-ec1d",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "tree",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-traer-ec1d"
+  },
+  {
+   "slug": "addisjon-finn-ledd-verdensrommet-219b",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "space",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-verdensrommet-219b"
+  },
+  {
+   "slug": "addisjon-finn-ledd-verktoy-cc77",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "tools",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-verktoy-cc77"
+  },
+  {
+   "slug": "addisjon-finn-ledd-yrker-bd3b",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "occupations",
+   "level": "2-trinn",
+   "deck": "addisjon-finn-ledd-yrker-bd3b"
+  },
+  {
+   "slug": "addisjon-bilde-tall-bakeri-02f6",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "bakery",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-bakeri-02f6"
+  },
+  {
+   "slug": "addisjon-bilde-tall-blomster-a2b2",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "flowers",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-blomster-a2b2"
+  },
+  {
+   "slug": "addisjon-bilde-tall-camping-0e76",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "camping",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-camping-0e76"
+  },
+  {
+   "slug": "addisjon-bilde-tall-desserter-og-godteri-28fa",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "desserts_and_sweets",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-desserter-og-godteri-28fa"
+  },
+  {
+   "slug": "addisjon-bilde-tall-dinosaurer-24cb",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "dinosaurs",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-dinosaurer-24cb"
+  },
+  {
+   "slug": "addisjon-bilde-tall-dyr-db63",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "animals",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-dyr-db63"
+  },
+  {
+   "slug": "addisjon-bilde-tall-dyrehagedyr-c222",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "zoo_animals",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-dyrehagedyr-c222"
+  },
+  {
+   "slug": "addisjon-bilde-tall-former-4cc7",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "shapes",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-former-4cc7"
+  },
+  {
+   "slug": "addisjon-bilde-tall-frokost-4d84",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "breakfast",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-frokost-4d84"
+  },
+  {
+   "slug": "addisjon-bilde-tall-frukter-035a",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "fruits",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-frukter-035a"
+  },
+  {
+   "slug": "addisjon-bilde-tall-fugler-2-7336",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "birds_2",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-fugler-2-7336"
+  },
+  {
+   "slug": "addisjon-bilde-tall-fugler-e8a9",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "birds",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-fugler-e8a9"
+  },
+  {
+   "slug": "addisjon-bilde-tall-gardsdyr-0203",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "farm_animals",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-gardsdyr-0203"
+  },
+  {
+   "slug": "addisjon-bilde-tall-gronnsaker-302f",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "vegetables",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-gronnsaker-302f"
+  },
+  {
+   "slug": "addisjon-bilde-tall-havliv-9e04",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "ocean_life",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-havliv-9e04"
+  },
+  {
+   "slug": "addisjon-bilde-tall-i-supermarkedet-92cb",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "at_the_supermarket",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-i-supermarkedet-92cb"
+  },
+  {
+   "slug": "addisjon-bilde-tall-insekter-og-kryp-f8f8",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "insects_and_bugs",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-insekter-og-kryp-f8f8"
+  },
+  {
+   "slug": "addisjon-bilde-tall-jul-63d6",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "christmas",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-jul-63d6"
+  },
+  {
+   "slug": "addisjon-bilde-tall-kjaeledyr-5b83",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "pets",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-kjaeledyr-5b83"
+  },
+  {
+   "slug": "addisjon-bilde-tall-kjokkenredskaper-9221",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "kitchen_tools",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-kjokkenredskaper-9221"
+  },
+  {
+   "slug": "addisjon-bilde-tall-kjoretoy-c3a1",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "vehicles",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-kjoretoy-c3a1"
+  },
+  {
+   "slug": "addisjon-bilde-tall-klaer-6c25",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "clothing",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-klaer-6c25"
+  },
+  {
+   "slug": "addisjon-bilde-tall-klasserom-4141",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "classroom",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-klasserom-4141"
+  },
+  {
+   "slug": "addisjon-bilde-tall-leker-3bea",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "toys",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-leker-3bea"
+  },
+  {
+   "slug": "addisjon-bilde-tall-mobler-aee8",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "furniture",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-mobler-aee8"
+  },
+  {
+   "slug": "addisjon-bilde-tall-musikk-e439",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "music",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-musikk-e439"
+  },
+  {
+   "slug": "addisjon-bilde-tall-paske-ebad",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "easter",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-paske-ebad"
+  },
+  {
+   "slug": "addisjon-bilde-tall-postkontor-d5b2",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "post_office",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-postkontor-d5b2"
+  },
+  {
+   "slug": "addisjon-bilde-tall-reptiler-og-amfibier-09e9",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-reptiler-og-amfibier-09e9"
+  },
+  {
+   "slug": "addisjon-bilde-tall-rundt-i-huset-6953",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "around_the_house",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-rundt-i-huset-6953"
+  },
+  {
+   "slug": "addisjon-bilde-tall-skogsdyr-b46c",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "forest_creatures",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-skogsdyr-b46c"
+  },
+  {
+   "slug": "addisjon-bilde-tall-strand-30d0",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "beach",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-strand-30d0"
+  },
+  {
+   "slug": "addisjon-bilde-tall-sykehus-85b5",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "hospital",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-sykehus-85b5"
+  },
+  {
+   "slug": "addisjon-bilde-tall-thanksgiving-5719",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "thanksgivinng",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-thanksgiving-5719"
+  },
+  {
+   "slug": "addisjon-bilde-tall-tilbehor-e87b",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "accessories",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-tilbehor-e87b"
+  },
+  {
+   "slug": "addisjon-bilde-tall-ting-som-flyr-50d6",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "things_that_fly",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-ting-som-flyr-50d6"
+  },
+  {
+   "slug": "addisjon-bilde-tall-traer-f448",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "tree",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-traer-f448"
+  },
+  {
+   "slug": "addisjon-bilde-tall-verdensrommet-dfc3",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "space",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-verdensrommet-dfc3"
+  },
+  {
+   "slug": "addisjon-bilde-tall-verktoy-75f8",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "tools",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-verktoy-75f8"
+  },
+  {
+   "slug": "addisjon-bilde-tall-yrker-884e",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "occupations",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-yrker-884e"
+  }
+ ]
+}

@@ -1,0 +1,604 @@
+{
+ "part": 165,
+ "locale": "fr",
+ "classes": [
+  "bingo::null",
+  "picture-path::classic-maze"
+ ],
+ "splitOf": null,
+ "count": 74,
+ "pages": [
+  {
+   "slug": "loto-accessoires-36f8",
+   "type": "bingo",
+   "mode": null,
+   "theme": "accessories",
+   "level": "maternelle",
+   "deck": "loto-accessoires-36f8"
+  },
+  {
+   "slug": "loto-activites-38d5",
+   "type": "bingo",
+   "mode": null,
+   "theme": "activities",
+   "level": "maternelle",
+   "deck": "loto-activites-38d5"
+  },
+  {
+   "slug": "loto-animaux",
+   "type": "bingo",
+   "mode": null,
+   "theme": "animals",
+   "level": "maternelle",
+   "deck": "loto-animaux"
+  },
+  {
+   "slug": "loto-animaux-de-compagnie-0890",
+   "type": "bingo",
+   "mode": null,
+   "theme": "pets",
+   "level": "maternelle",
+   "deck": "loto-animaux-de-compagnie-0890"
+  },
+  {
+   "slug": "loto-animaux-de-la-ferme-e42b",
+   "type": "bingo",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "maternelle",
+   "deck": "loto-animaux-de-la-ferme-e42b"
+  },
+  {
+   "slug": "loto-animaux-du-zoo-2fa9",
+   "type": "bingo",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "maternelle",
+   "deck": "loto-animaux-du-zoo-2fa9"
+  },
+  {
+   "slug": "loto-au-supermarche-c8ef",
+   "type": "bingo",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "maternelle",
+   "deck": "loto-au-supermarche-c8ef"
+  },
+  {
+   "slug": "loto-autour-de-la-maison-ac7a",
+   "type": "bingo",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "maternelle",
+   "deck": "loto-autour-de-la-maison-ac7a"
+  },
+  {
+   "slug": "loto-boulangerie-1ef2",
+   "type": "bingo",
+   "mode": null,
+   "theme": "bakery",
+   "level": "maternelle",
+   "deck": "loto-boulangerie-1ef2"
+  },
+  {
+   "slug": "loto-camping-6a93",
+   "type": "bingo",
+   "mode": null,
+   "theme": "camping",
+   "level": "maternelle",
+   "deck": "loto-camping-6a93"
+  },
+  {
+   "slug": "loto-choses-qui-volent-e2e4",
+   "type": "bingo",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "maternelle",
+   "deck": "loto-choses-qui-volent-e2e4"
+  },
+  {
+   "slug": "loto-couleurs-443a",
+   "type": "bingo",
+   "mode": null,
+   "theme": "colors",
+   "level": "maternelle",
+   "deck": "loto-couleurs-443a"
+  },
+  {
+   "slug": "loto-creatures-de-la-foret-b569",
+   "type": "bingo",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "maternelle",
+   "deck": "loto-creatures-de-la-foret-b569"
+  },
+  {
+   "slug": "loto-desserts-et-sucreries-8746",
+   "type": "bingo",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "maternelle",
+   "deck": "loto-desserts-et-sucreries-8746"
+  },
+  {
+   "slug": "loto-espace-70bf",
+   "type": "bingo",
+   "mode": null,
+   "theme": "space",
+   "level": "maternelle",
+   "deck": "loto-espace-70bf"
+  },
+  {
+   "slug": "loto-ete-e1cc",
+   "type": "bingo",
+   "mode": null,
+   "theme": "summer",
+   "level": "maternelle",
+   "deck": "loto-ete-e1cc"
+  },
+  {
+   "slug": "loto-formes-f506",
+   "type": "bingo",
+   "mode": null,
+   "theme": "shapes",
+   "level": "maternelle",
+   "deck": "loto-formes-f506"
+  },
+  {
+   "slug": "loto-fruits-8078",
+   "type": "bingo",
+   "mode": null,
+   "theme": "fruits",
+   "level": "maternelle",
+   "deck": "loto-fruits-8078"
+  },
+  {
+   "slug": "loto-hiver-35b9",
+   "type": "bingo",
+   "mode": null,
+   "theme": "winter",
+   "level": "maternelle",
+   "deck": "loto-hiver-35b9"
+  },
+  {
+   "slug": "loto-hopital-0431",
+   "type": "bingo",
+   "mode": null,
+   "theme": "hospital",
+   "level": "maternelle",
+   "deck": "loto-hopital-0431"
+  },
+  {
+   "slug": "loto-jouets-aa38",
+   "type": "bingo",
+   "mode": null,
+   "theme": "toys",
+   "level": "maternelle",
+   "deck": "loto-jouets-aa38"
+  },
+  {
+   "slug": "loto-legumes-31b4",
+   "type": "bingo",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "maternelle",
+   "deck": "loto-legumes-31b4"
+  },
+  {
+   "slug": "loto-meteo-b52c",
+   "type": "bingo",
+   "mode": null,
+   "theme": "weather",
+   "level": "maternelle",
+   "deck": "loto-meteo-b52c"
+  },
+  {
+   "slug": "loto-metiers-bd51",
+   "type": "bingo",
+   "mode": null,
+   "theme": "occupations",
+   "level": "maternelle",
+   "deck": "loto-metiers-bd51"
+  },
+  {
+   "slug": "loto-meubles-580d",
+   "type": "bingo",
+   "mode": null,
+   "theme": "furniture",
+   "level": "maternelle",
+   "deck": "loto-meubles-580d"
+  },
+  {
+   "slug": "loto-noel-486b",
+   "type": "bingo",
+   "mode": null,
+   "theme": "christmas",
+   "level": "maternelle",
+   "deck": "loto-noel-486b"
+  },
+  {
+   "slug": "loto-oiseaux-2-e493",
+   "type": "bingo",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "maternelle",
+   "deck": "loto-oiseaux-2-e493"
+  },
+  {
+   "slug": "loto-paques-fb42",
+   "type": "bingo",
+   "mode": null,
+   "theme": "easter",
+   "level": "maternelle",
+   "deck": "loto-paques-fb42"
+  },
+  {
+   "slug": "loto-parties-du-corps-839a",
+   "type": "bingo",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "maternelle",
+   "deck": "loto-parties-du-corps-839a"
+  },
+  {
+   "slug": "loto-petit-dejeuner-59aa",
+   "type": "bingo",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "maternelle",
+   "deck": "loto-petit-dejeuner-59aa"
+  },
+  {
+   "slug": "loto-plage-26c4",
+   "type": "bingo",
+   "mode": null,
+   "theme": "beach",
+   "level": "maternelle",
+   "deck": "loto-plage-26c4"
+  },
+  {
+   "slug": "loto-printemps-1373",
+   "type": "bingo",
+   "mode": null,
+   "theme": "spring",
+   "level": "maternelle",
+   "deck": "loto-printemps-1373"
+  },
+  {
+   "slug": "loto-salle-de-classe-95b4",
+   "type": "bingo",
+   "mode": null,
+   "theme": "classroom",
+   "level": "maternelle",
+   "deck": "loto-salle-de-classe-95b4"
+  },
+  {
+   "slug": "loto-ustensiles-de-cuisine-c894",
+   "type": "bingo",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "maternelle",
+   "deck": "loto-ustensiles-de-cuisine-c894"
+  },
+  {
+   "slug": "loto-vehicules-d81f",
+   "type": "bingo",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "maternelle",
+   "deck": "loto-vehicules-d81f"
+  },
+  {
+   "slug": "loto-vetements-dca1",
+   "type": "bingo",
+   "mode": null,
+   "theme": "clothing",
+   "level": "maternelle",
+   "deck": "loto-vetements-dca1"
+  },
+  {
+   "slug": "loto-vie-oceanique-0bae",
+   "type": "bingo",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "maternelle",
+   "deck": "loto-vie-oceanique-0bae"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-accessoires-6fb6",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "accessories",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-accessoires-6fb6"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-action-de-grace-5505",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "thanksgivinng",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-action-de-grace-5505"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-activites-bc0e",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "activities",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-activites-bc0e"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-arbres-09e1",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "tree",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-arbres-09e1"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-au-supermarche-4fea",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "at_the_supermarket",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-au-supermarche-4fea"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-autour-de-la-maison-fbe7",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "around_the_house",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-autour-de-la-maison-fbe7"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-boulangerie-a6b7",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "bakery",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-boulangerie-a6b7"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-bureau-de-poste-b9d2",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "post_office",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-bureau-de-poste-b9d2"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-choses-qui-volent-2372",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "things_that_fly",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-choses-qui-volent-2372"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-couleurs-17ab",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "colors",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-couleurs-17ab"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-desserts-et-sucreries-6df3",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "desserts_and_sweets",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-desserts-et-sucreries-6df3"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-dinosaures-ee0a",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "dinosaurs",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-dinosaures-ee0a"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-emotions-73d5",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "emotions",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-emotions-73d5"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-espace-b68f",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "space",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-espace-b68f"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-ete-281b",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "summer",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-ete-281b"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-fleurs-efea",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "flowers",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-fleurs-efea"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-formes-67cb",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "shapes",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-formes-67cb"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-fruits-a92c",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "fruits",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-fruits-a92c"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-hiver-24aa",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "winter",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-hiver-24aa"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-hopital-6308",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "hospital",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-hopital-6308"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-jouets-44ac",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "toys",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-jouets-44ac"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-meteo-7bb6",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "weather",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-meteo-7bb6"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-metiers-3773",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "occupations",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-metiers-3773"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-meubles-3f00",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "furniture",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-meubles-3f00"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-musique-f295",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "music",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-musique-f295"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-noel-f8ac",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "christmas",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-noel-f8ac"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-outils-78ce",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "tools",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-outils-78ce"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-paques-827d",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "easter",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-paques-827d"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-parties-du-corps-7429",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "body_parts",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-parties-du-corps-7429"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-petit-dejeuner-664d",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "breakfast",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-petit-dejeuner-664d"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-plage-4c93",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "beach",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-plage-4c93"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-printemps-12bc",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "spring",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-printemps-12bc"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-salle-de-classe-2664",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "classroom",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-salle-de-classe-2664"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-ustensiles-de-cuisine-755c",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "kitchen_tools",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-ustensiles-de-cuisine-755c"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-vehicules-15bb",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "vehicles",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-vehicules-15bb"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-vetements-017b",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "clothing",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-vetements-017b"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-vie-oceanique-12fc",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "ocean_life",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-vie-oceanique-12fc"
+  }
+ ]
+}

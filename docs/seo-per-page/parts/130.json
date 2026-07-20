@@ -1,0 +1,668 @@
+{
+ "part": 130,
+ "locale": "pt",
+ "classes": [
+  "subtraction::image-number",
+  "subtraction::mixed"
+ ],
+ "splitOf": null,
+ "count": 82,
+ "pages": [
+  {
+   "slug": "subtracao-imagem-numero-acampamento-38ac",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "camping",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-acampamento-38ac"
+  },
+  {
+   "slug": "subtracao-imagem-numero-acessorios-5327",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "accessories",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-acessorios-5327"
+  },
+  {
+   "slug": "subtracao-imagem-numero-animais-4a99",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "animals",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-animais-4a99"
+  },
+  {
+   "slug": "subtracao-imagem-numero-animais-da-fazenda-bbb4",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "farm_animals",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-animais-da-fazenda-bbb4"
+  },
+  {
+   "slug": "subtracao-imagem-numero-animais-de-estimacao-1730",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "pets",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-animais-de-estimacao-1730"
+  },
+  {
+   "slug": "subtracao-imagem-numero-animais-do-zoologico-b924",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "zoo_animals",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-animais-do-zoologico-b924"
+  },
+  {
+   "slug": "subtracao-imagem-numero-arvores-fa46",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "tree",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-arvores-fa46"
+  },
+  {
+   "slug": "subtracao-imagem-numero-brinquedos-90b1",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "toys",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-brinquedos-90b1"
+  },
+  {
+   "slug": "subtracao-imagem-numero-cafe-da-manha-f364",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "breakfast",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-cafe-da-manha-f364"
+  },
+  {
+   "slug": "subtracao-imagem-numero-coisas-que-voam-5160",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "things_that_fly",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-coisas-que-voam-5160"
+  },
+  {
+   "slug": "subtracao-imagem-numero-correios-e5fd",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "post_office",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-correios-e5fd"
+  },
+  {
+   "slug": "subtracao-imagem-numero-criaturas-da-floresta-516f",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "forest_creatures",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-criaturas-da-floresta-516f"
+  },
+  {
+   "slug": "subtracao-imagem-numero-dia-de-acao-de-gracas-ddbf",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "thanksgivinng",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-dia-de-acao-de-gracas-ddbf"
+  },
+  {
+   "slug": "subtracao-imagem-numero-dinossauros-9daf",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "dinosaurs",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-dinossauros-9daf"
+  },
+  {
+   "slug": "subtracao-imagem-numero-diversos-653f",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "miscellaneous",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-diversos-653f"
+  },
+  {
+   "slug": "subtracao-imagem-numero-espaco-1061",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "space",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-espaco-1061"
+  },
+  {
+   "slug": "subtracao-imagem-numero-ferramentas-e57d",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "tools",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-ferramentas-e57d"
+  },
+  {
+   "slug": "subtracao-imagem-numero-flores-4f87",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "flowers",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-flores-4f87"
+  },
+  {
+   "slug": "subtracao-imagem-numero-formas-0e0c",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "shapes",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-formas-0e0c"
+  },
+  {
+   "slug": "subtracao-imagem-numero-frutas-e433",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "fruits",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-frutas-e433"
+  },
+  {
+   "slug": "subtracao-imagem-numero-hospital-7813",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "hospital",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-hospital-7813"
+  },
+  {
+   "slug": "subtracao-imagem-numero-insetos-e-bichos-85f9",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "insects_and_bugs",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-insetos-e-bichos-85f9"
+  },
+  {
+   "slug": "subtracao-imagem-numero-moveis-4d40",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "furniture",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-moveis-4d40"
+  },
+  {
+   "slug": "subtracao-imagem-numero-musica-dc13",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "music",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-musica-dc13"
+  },
+  {
+   "slug": "subtracao-imagem-numero-natal-68a7",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "christmas",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-natal-68a7"
+  },
+  {
+   "slug": "subtracao-imagem-numero-no-supermercado-6b0f",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "at_the_supermarket",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-no-supermercado-6b0f"
+  },
+  {
+   "slug": "subtracao-imagem-numero-padaria-850f",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-padaria-850f"
+  },
+  {
+   "slug": "subtracao-imagem-numero-pascoa-d481",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "easter",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-pascoa-d481"
+  },
+  {
+   "slug": "subtracao-imagem-numero-passaros-2-913e",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "birds_2",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-passaros-2-913e"
+  },
+  {
+   "slug": "subtracao-imagem-numero-passaros-7d7d",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "birds",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-passaros-7d7d"
+  },
+  {
+   "slug": "subtracao-imagem-numero-pela-casa-668b",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "around_the_house",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-pela-casa-668b"
+  },
+  {
+   "slug": "subtracao-imagem-numero-praia-234c",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "beach",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-praia-234c"
+  },
+  {
+   "slug": "subtracao-imagem-numero-profissoes-bf6e",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "occupations",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-profissoes-bf6e"
+  },
+  {
+   "slug": "subtracao-imagem-numero-repteis-e-anfibios-36b3",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "reptiles_and_amphibians",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-repteis-e-anfibios-36b3"
+  },
+  {
+   "slug": "subtracao-imagem-numero-roupas-a30b",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "clothing",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-roupas-a30b"
+  },
+  {
+   "slug": "subtracao-imagem-numero-sala-de-aula-680e",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "classroom",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-sala-de-aula-680e"
+  },
+  {
+   "slug": "subtracao-imagem-numero-sobremesas-e-doces-3825",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "desserts_and_sweets",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-sobremesas-e-doces-3825"
+  },
+  {
+   "slug": "subtracao-imagem-numero-utensilios-de-cozinha-2629",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "kitchen_tools",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-utensilios-de-cozinha-2629"
+  },
+  {
+   "slug": "subtracao-imagem-numero-vegetais-c436",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "vegetables",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-vegetais-c436"
+  },
+  {
+   "slug": "subtracao-imagem-numero-veiculos-9dff",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "vehicles",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-veiculos-9dff"
+  },
+  {
+   "slug": "subtracao-imagem-numero-vida-marinha-e5c8",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "ocean_life",
+   "level": "1o-ano",
+   "deck": "subtracao-imagem-numero-vida-marinha-e5c8"
+  },
+  {
+   "slug": "subtracao-misto-acampamento-bac9",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-acampamento-bac9"
+  },
+  {
+   "slug": "subtracao-misto-acessorios-06d5",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-acessorios-06d5"
+  },
+  {
+   "slug": "subtracao-misto-animais-6ccf",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-animais-6ccf"
+  },
+  {
+   "slug": "subtracao-misto-animais-da-fazenda-6c52",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-animais-da-fazenda-6c52"
+  },
+  {
+   "slug": "subtracao-misto-animais-de-estimacao-88cc",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-animais-de-estimacao-88cc"
+  },
+  {
+   "slug": "subtracao-misto-animais-do-zoologico-4109",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-animais-do-zoologico-4109"
+  },
+  {
+   "slug": "subtracao-misto-arvores-a625",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-arvores-a625"
+  },
+  {
+   "slug": "subtracao-misto-brinquedos-76c1",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-brinquedos-76c1"
+  },
+  {
+   "slug": "subtracao-misto-cafe-da-manha-33f4",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-cafe-da-manha-33f4"
+  },
+  {
+   "slug": "subtracao-misto-coisas-que-voam-1e00",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-coisas-que-voam-1e00"
+  },
+  {
+   "slug": "subtracao-misto-correios-d557",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-correios-d557"
+  },
+  {
+   "slug": "subtracao-misto-criaturas-da-floresta-9960",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-criaturas-da-floresta-9960"
+  },
+  {
+   "slug": "subtracao-misto-dia-de-acao-de-gracas-ec79",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-dia-de-acao-de-gracas-ec79"
+  },
+  {
+   "slug": "subtracao-misto-dinossauros-6329",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-dinossauros-6329"
+  },
+  {
+   "slug": "subtracao-misto-diversos-3950",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "miscellaneous",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-diversos-3950"
+  },
+  {
+   "slug": "subtracao-misto-espaco-e7bd",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-espaco-e7bd"
+  },
+  {
+   "slug": "subtracao-misto-ferramentas-6efa",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-ferramentas-6efa"
+  },
+  {
+   "slug": "subtracao-misto-flores-d551",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-flores-d551"
+  },
+  {
+   "slug": "subtracao-misto-formas-32e9",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-formas-32e9"
+  },
+  {
+   "slug": "subtracao-misto-frutas-ba5b",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-frutas-ba5b"
+  },
+  {
+   "slug": "subtracao-misto-hospital-792d",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-hospital-792d"
+  },
+  {
+   "slug": "subtracao-misto-insetos-e-bichos-5661",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-insetos-e-bichos-5661"
+  },
+  {
+   "slug": "subtracao-misto-moveis-7a47",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-moveis-7a47"
+  },
+  {
+   "slug": "subtracao-misto-musica-605e",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-musica-605e"
+  },
+  {
+   "slug": "subtracao-misto-natal-3a8a",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-natal-3a8a"
+  },
+  {
+   "slug": "subtracao-misto-no-supermercado-ab3e",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-no-supermercado-ab3e"
+  },
+  {
+   "slug": "subtracao-misto-padaria-b282",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-padaria-b282"
+  },
+  {
+   "slug": "subtracao-misto-pascoa-1eb4",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-pascoa-1eb4"
+  },
+  {
+   "slug": "subtracao-misto-passaros-2-360c",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-passaros-2-360c"
+  },
+  {
+   "slug": "subtracao-misto-passaros-8c81",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-passaros-8c81"
+  },
+  {
+   "slug": "subtracao-misto-pela-casa-c68a",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-pela-casa-c68a"
+  },
+  {
+   "slug": "subtracao-misto-praia-903f",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-praia-903f"
+  },
+  {
+   "slug": "subtracao-misto-profissoes-08ff",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-profissoes-08ff"
+  },
+  {
+   "slug": "subtracao-misto-repteis-e-anfibios-00a6",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-repteis-e-anfibios-00a6"
+  },
+  {
+   "slug": "subtracao-misto-roupas-0dc4",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-roupas-0dc4"
+  },
+  {
+   "slug": "subtracao-misto-sala-de-aula-0a99",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-sala-de-aula-0a99"
+  },
+  {
+   "slug": "subtracao-misto-sobremesas-e-doces-d083",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-sobremesas-e-doces-d083"
+  },
+  {
+   "slug": "subtracao-misto-utensilios-de-cozinha-0873",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-utensilios-de-cozinha-0873"
+  },
+  {
+   "slug": "subtracao-misto-vegetais-03bc",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-vegetais-03bc"
+  },
+  {
+   "slug": "subtracao-misto-veiculos-5136",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-veiculos-5136"
+  },
+  {
+   "slug": "subtracao-misto-vida-marinha-e86c",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "1o-ano",
+   "deck": "subtracao-misto-vida-marinha-e86c"
+  }
+ ]
+}

@@ -1,0 +1,780 @@
+{
+ "part": 54,
+ "locale": "de",
+ "classes": [
+  "prepositions::fillin",
+  "treasure-hunt::cardinal-arrows"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "praepositionen-luckentext-accessoires-2781",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-accessoires-2781"
+  },
+  {
+   "slug": "praepositionen-luckentext-aktivitaten-44b8",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "activities",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-aktivitaten-44b8"
+  },
+  {
+   "slug": "praepositionen-luckentext-backerei-20c1",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-backerei-20c1"
+  },
+  {
+   "slug": "praepositionen-luckentext-bauernhoftiere-dac8",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-bauernhoftiere-dac8"
+  },
+  {
+   "slug": "praepositionen-luckentext-baume-b0ba",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-baume-b0ba"
+  },
+  {
+   "slug": "praepositionen-luckentext-berufe-9fa3",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-berufe-9fa3"
+  },
+  {
+   "slug": "praepositionen-luckentext-blumen-5564",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-blumen-5564"
+  },
+  {
+   "slug": "praepositionen-luckentext-camping-246b",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-camping-246b"
+  },
+  {
+   "slug": "praepositionen-luckentext-desserts-und-sussigkeiten-71f6",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "desserts_and_sweets",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-desserts-und-sussigkeiten-71f6"
+  },
+  {
+   "slug": "praepositionen-luckentext-dinge-die-fliegen-7022",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-dinge-die-fliegen-7022"
+  },
+  {
+   "slug": "praepositionen-luckentext-dinosaurier-dfb3",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "dinosaurs",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-dinosaurier-dfb3"
+  },
+  {
+   "slug": "praepositionen-luckentext-emotionen-60e5",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "emotions",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-emotionen-60e5"
+  },
+  {
+   "slug": "praepositionen-luckentext-erntedankfest-eb3d",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-erntedankfest-eb3d"
+  },
+  {
+   "slug": "praepositionen-luckentext-fahrzeuge-d45b",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-fahrzeuge-d45b"
+  },
+  {
+   "slug": "praepositionen-luckentext-farben-d336",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "colors",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-farben-d336"
+  },
+  {
+   "slug": "praepositionen-luckentext-formen-68bf",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-formen-68bf"
+  },
+  {
+   "slug": "praepositionen-luckentext-fruchte-c567",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-fruchte-c567"
+  },
+  {
+   "slug": "praepositionen-luckentext-fruhling-5f78",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "spring",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-fruhling-5f78"
+  },
+  {
+   "slug": "praepositionen-luckentext-fruhstuck-3f12",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-fruhstuck-3f12"
+  },
+  {
+   "slug": "praepositionen-luckentext-gemuse-786f",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-gemuse-786f"
+  },
+  {
+   "slug": "praepositionen-luckentext-haustiere-078b",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-haustiere-078b"
+  },
+  {
+   "slug": "praepositionen-luckentext-im-supermarkt-e298",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-im-supermarkt-e298"
+  },
+  {
+   "slug": "praepositionen-luckentext-insekten-und-kafer-208c",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-insekten-und-kafer-208c"
+  },
+  {
+   "slug": "praepositionen-luckentext-klassenzimmer-56af",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-klassenzimmer-56af"
+  },
+  {
+   "slug": "praepositionen-luckentext-kleidung-8d57",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-kleidung-8d57"
+  },
+  {
+   "slug": "praepositionen-luckentext-korperteile-a7d3",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "body_parts",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-korperteile-a7d3"
+  },
+  {
+   "slug": "praepositionen-luckentext-krankenhaus-6d41",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-krankenhaus-6d41"
+  },
+  {
+   "slug": "praepositionen-luckentext-kuchenwerkzeuge-d3c0",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-kuchenwerkzeuge-d3c0"
+  },
+  {
+   "slug": "praepositionen-luckentext-meeresleben-1c5a",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-meeresleben-1c5a"
+  },
+  {
+   "slug": "praepositionen-luckentext-mobel-ad16",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-mobel-ad16"
+  },
+  {
+   "slug": "praepositionen-luckentext-musik-fc9b",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-musik-fc9b"
+  },
+  {
+   "slug": "praepositionen-luckentext-ostern-8455",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-ostern-8455"
+  },
+  {
+   "slug": "praepositionen-luckentext-postamt-a049",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-postamt-a049"
+  },
+  {
+   "slug": "praepositionen-luckentext-reptilien-und-amphibien-22d2",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-reptilien-und-amphibien-22d2"
+  },
+  {
+   "slug": "praepositionen-luckentext-rund-ums-haus-5de1",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-rund-ums-haus-5de1"
+  },
+  {
+   "slug": "praepositionen-luckentext-sommer-9f48",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "summer",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-sommer-9f48"
+  },
+  {
+   "slug": "praepositionen-luckentext-spielzeug-df93",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-spielzeug-df93"
+  },
+  {
+   "slug": "praepositionen-luckentext-strand-98a1",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-strand-98a1"
+  },
+  {
+   "slug": "praepositionen-luckentext-tiere-95c2",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-tiere-95c2"
+  },
+  {
+   "slug": "praepositionen-luckentext-vogel-2-49e5",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-vogel-2-49e5"
+  },
+  {
+   "slug": "praepositionen-luckentext-vogel-5aa6",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-vogel-5aa6"
+  },
+  {
+   "slug": "praepositionen-luckentext-waldtiere-f32f",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-waldtiere-f32f"
+  },
+  {
+   "slug": "praepositionen-luckentext-weihnachten-7a9b",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-weihnachten-7a9b"
+  },
+  {
+   "slug": "praepositionen-luckentext-weltraum-c469",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-weltraum-c469"
+  },
+  {
+   "slug": "praepositionen-luckentext-werkzeuge-157e",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-werkzeuge-157e"
+  },
+  {
+   "slug": "praepositionen-luckentext-wetter-d5c6",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "weather",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-wetter-d5c6"
+  },
+  {
+   "slug": "praepositionen-luckentext-winter-676d",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "winter",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-winter-676d"
+  },
+  {
+   "slug": "praepositionen-luckentext-zootiere-e158",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "praepositionen-luckentext-zootiere-e158"
+  },
+  {
+   "slug": "schatzsuche-4-juli",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "4th_of_july",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-4-juli-95f2"
+  },
+  {
+   "slug": "schatzsuche-accessoires",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "accessories",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-accessoires-5316"
+  },
+  {
+   "slug": "schatzsuche-aktivitaten",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "activities",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-aktivitaten-602e"
+  },
+  {
+   "slug": "schatzsuche-backerei",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "bakery",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-backerei-038c"
+  },
+  {
+   "slug": "schatzsuche-bauernhoftiere",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "farm_animals",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-bauernhoftiere-b903"
+  },
+  {
+   "slug": "schatzsuche-baume",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "tree",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-baume-8c40"
+  },
+  {
+   "slug": "schatzsuche-berufe",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "occupations",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-berufe-80e2"
+  },
+  {
+   "slug": "schatzsuche-blumen",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "flowers",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-blumen-13a7"
+  },
+  {
+   "slug": "schatzsuche-camping",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "camping",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-camping-9f0b"
+  },
+  {
+   "slug": "schatzsuche-desserts-und-sussigkeiten",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "desserts_and_sweets",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-desserts-und-sussigkeiten-14bd"
+  },
+  {
+   "slug": "schatzsuche-dinge-die-fliegen",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "things_that_fly",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-dinge-die-fliegen-c218"
+  },
+  {
+   "slug": "schatzsuche-dinosaurier",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "dinosaurs",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-dinosaurier-1720"
+  },
+  {
+   "slug": "schatzsuche-emotionen",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "emotions",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-emotionen-6ffb"
+  },
+  {
+   "slug": "schatzsuche-erntedankfest",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "thanksgivinng",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-erntedankfest-c80a"
+  },
+  {
+   "slug": "schatzsuche-fahrzeuge",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "vehicles",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-fahrzeuge-ea5f"
+  },
+  {
+   "slug": "schatzsuche-farben",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "colors",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-farben-e3e1"
+  },
+  {
+   "slug": "schatzsuche-formen",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "shapes",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-formen-c022"
+  },
+  {
+   "slug": "schatzsuche-fruchte",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "fruits",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-fruchte-fdc0"
+  },
+  {
+   "slug": "schatzsuche-fruhling",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "spring",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-fruhling-5c11"
+  },
+  {
+   "slug": "schatzsuche-fruhstuck",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "breakfast",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-fruhstuck-767f"
+  },
+  {
+   "slug": "schatzsuche-gemuse",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "vegetables",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-gemuse-c293"
+  },
+  {
+   "slug": "schatzsuche-haustiere",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "pets",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-haustiere-9158"
+  },
+  {
+   "slug": "schatzsuche-im-supermarkt",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "at_the_supermarket",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-im-supermarkt-89bb"
+  },
+  {
+   "slug": "schatzsuche-insekten-und-kafer",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "insects_and_bugs",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-insekten-und-kafer-b8e9"
+  },
+  {
+   "slug": "schatzsuche-klassenzimmer",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "classroom",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-klassenzimmer-c3d7"
+  },
+  {
+   "slug": "schatzsuche-kleidung",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "clothing",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-kleidung-1f7f"
+  },
+  {
+   "slug": "schatzsuche-korperteile",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "body_parts",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-korperteile-de9b"
+  },
+  {
+   "slug": "schatzsuche-krankenhaus",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "hospital",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-krankenhaus-ab38"
+  },
+  {
+   "slug": "schatzsuche-kuchenwerkzeuge",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "kitchen_tools",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-kuchenwerkzeuge-18d2"
+  },
+  {
+   "slug": "schatzsuche-meeresleben",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "ocean_life",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-meeresleben-04d7"
+  },
+  {
+   "slug": "schatzsuche-mobel",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "furniture",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-mobel-82de"
+  },
+  {
+   "slug": "schatzsuche-musik",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "music",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-musik-6e7a"
+  },
+  {
+   "slug": "schatzsuche-ostern",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "easter",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-ostern-8846"
+  },
+  {
+   "slug": "schatzsuche-postamt",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "post_office",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-postamt-dfc6"
+  },
+  {
+   "slug": "schatzsuche-rund-ums-haus",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "around_the_house",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-rund-ums-haus-f0a6"
+  },
+  {
+   "slug": "schatzsuche-sommer",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "summer",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-sommer-b848"
+  },
+  {
+   "slug": "schatzsuche-spielzeug",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "toys",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-spielzeug-8900"
+  },
+  {
+   "slug": "schatzsuche-strand",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "beach",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-strand-d75f"
+  },
+  {
+   "slug": "schatzsuche-tiere",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "animals",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-tiere"
+  },
+  {
+   "slug": "schatzsuche-vogel",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "birds",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-vogel-cdc5"
+  },
+  {
+   "slug": "schatzsuche-vogel-2",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "birds_2",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-vogel-2-4acf"
+  },
+  {
+   "slug": "schatzsuche-waldtiere",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "forest_creatures",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-waldtiere-79f4"
+  },
+  {
+   "slug": "schatzsuche-weihnachten",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "christmas",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-weihnachten-9484"
+  },
+  {
+   "slug": "schatzsuche-weltraum",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "space",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-weltraum-2033"
+  },
+  {
+   "slug": "schatzsuche-werkzeuge",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "tools",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-werkzeuge-9abb"
+  },
+  {
+   "slug": "schatzsuche-wetter",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "weather",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-wetter-38ed"
+  },
+  {
+   "slug": "schatzsuche-winter",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "winter",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-winter-cac1"
+  },
+  {
+   "slug": "schatzsuche-zootiere",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "zoo_animals",
+   "level": "vorschule",
+   "deck": "schatzsuche-hoch-runter-links-rechts-zootiere-ac40"
+  }
+ ]
+}

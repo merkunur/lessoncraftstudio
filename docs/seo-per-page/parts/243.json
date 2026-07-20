@@ -1,0 +1,716 @@
+{
+ "part": 243,
+ "locale": "sv",
+ "classes": [
+  "matching::letter",
+  "prepositions::multiplechoice"
+ ],
+ "splitOf": null,
+ "count": 88,
+ "pages": [
+  {
+   "slug": "matchning-bokstav-aktiviteter-9156",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "activities",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-aktiviteter-9156"
+  },
+  {
+   "slug": "matchning-bokstav-bageri-573f",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "bakery",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-bageri-573f"
+  },
+  {
+   "slug": "matchning-bokstav-bondgardsdjur-82a4",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "farm_animals",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-bondgardsdjur-82a4"
+  },
+  {
+   "slug": "matchning-bokstav-camping-9f3d",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "camping",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-camping-9f3d"
+  },
+  {
+   "slug": "matchning-bokstav-djur-75de",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "animals",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-djur-75de"
+  },
+  {
+   "slug": "matchning-bokstav-djurparksdjur-cc6e",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "zoo_animals",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-djurparksdjur-cc6e"
+  },
+  {
+   "slug": "matchning-bokstav-efterratter-och-godis-75df",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "desserts_and_sweets",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-efterratter-och-godis-75df"
+  },
+  {
+   "slug": "matchning-bokstav-faglar-2-7607",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "birds_2",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-faglar-2-7607"
+  },
+  {
+   "slug": "matchning-bokstav-faglar-3a2c",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "birds",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-faglar-3a2c"
+  },
+  {
+   "slug": "matchning-bokstav-farger-cc76",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "colors",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-farger-cc76"
+  },
+  {
+   "slug": "matchning-bokstav-fordon-f63d",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "vehicles",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-fordon-f63d"
+  },
+  {
+   "slug": "matchning-bokstav-former-ae01",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "shapes",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-former-ae01"
+  },
+  {
+   "slug": "matchning-bokstav-frukost-eee0",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "breakfast",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-frukost-eee0"
+  },
+  {
+   "slug": "matchning-bokstav-frukter-e2c2",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "fruits",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-frukter-e2c2"
+  },
+  {
+   "slug": "matchning-bokstav-gronsaker-34e3",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "vegetables",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-gronsaker-34e3"
+  },
+  {
+   "slug": "matchning-bokstav-havsliv-e02c",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "ocean_life",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-havsliv-e02c"
+  },
+  {
+   "slug": "matchning-bokstav-i-snabbkopet-f660",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "at_the_supermarket",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-i-snabbkopet-f660"
+  },
+  {
+   "slug": "matchning-bokstav-insekter-och-kryp-2538",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "insects_and_bugs",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-insekter-och-kryp-2538"
+  },
+  {
+   "slug": "matchning-bokstav-jul-24f9",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "christmas",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-jul-24f9"
+  },
+  {
+   "slug": "matchning-bokstav-kanslor-3258",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "emotions",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-kanslor-3258"
+  },
+  {
+   "slug": "matchning-bokstav-klader-0f64",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "clothing",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-klader-0f64"
+  },
+  {
+   "slug": "matchning-bokstav-klassrum-fff2",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "classroom",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-klassrum-fff2"
+  },
+  {
+   "slug": "matchning-bokstav-koksredskap-38af",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "kitchen_tools",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-koksredskap-38af"
+  },
+  {
+   "slug": "matchning-bokstav-kroppsdelar-0959",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "body_parts",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-kroppsdelar-0959"
+  },
+  {
+   "slug": "matchning-bokstav-leksaker-e171",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "toys",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-leksaker-e171"
+  },
+  {
+   "slug": "matchning-bokstav-mobler-d02b",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "furniture",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-mobler-d02b"
+  },
+  {
+   "slug": "matchning-bokstav-musik-1b77",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "music",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-musik-1b77"
+  },
+  {
+   "slug": "matchning-bokstav-pask-12cd",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "easter",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-pask-12cd"
+  },
+  {
+   "slug": "matchning-bokstav-postkontor-8aaf",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "post_office",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-postkontor-8aaf"
+  },
+  {
+   "slug": "matchning-bokstav-reptiler-och-groddjur-76f9",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "reptiles_and_amphibians",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-reptiler-och-groddjur-76f9"
+  },
+  {
+   "slug": "matchning-bokstav-runt-huset-e6db",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "around_the_house",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-runt-huset-e6db"
+  },
+  {
+   "slug": "matchning-bokstav-rymden-369f",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "space",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-rymden-369f"
+  },
+  {
+   "slug": "matchning-bokstav-saker-som-flyger-41c1",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "things_that_fly",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-saker-som-flyger-41c1"
+  },
+  {
+   "slug": "matchning-bokstav-sjukhus-14c0",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "hospital",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-sjukhus-14c0"
+  },
+  {
+   "slug": "matchning-bokstav-skogsdjur-3c1f",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "forest_creatures",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-skogsdjur-3c1f"
+  },
+  {
+   "slug": "matchning-bokstav-sommar-b25b",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "summer",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-sommar-b25b"
+  },
+  {
+   "slug": "matchning-bokstav-strand-ee4a",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "beach",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-strand-ee4a"
+  },
+  {
+   "slug": "matchning-bokstav-thanksgiving-6861",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "thanksgivinng",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-thanksgiving-6861"
+  },
+  {
+   "slug": "matchning-bokstav-tillbehor-95d8",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "accessories",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-tillbehor-95d8"
+  },
+  {
+   "slug": "matchning-bokstav-vader-39f4",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "weather",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-vader-39f4"
+  },
+  {
+   "slug": "matchning-bokstav-var-7b0a",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "spring",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-var-7b0a"
+  },
+  {
+   "slug": "matchning-bokstav-verktyg-d232",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "tools",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-verktyg-d232"
+  },
+  {
+   "slug": "matchning-bokstav-vinter-aba7",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "winter",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-vinter-aba7"
+  },
+  {
+   "slug": "matchning-bokstav-yrken-afe6",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "occupations",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-yrken-afe6"
+  },
+  {
+   "slug": "prepositioner-flerval-aktiviteter-1488",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "activities",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-aktiviteter-1488"
+  },
+  {
+   "slug": "prepositioner-flerval-bageri-15cc",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-bageri-15cc"
+  },
+  {
+   "slug": "prepositioner-flerval-blommor-d8e1",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "flowers",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-blommor-d8e1"
+  },
+  {
+   "slug": "prepositioner-flerval-bondgardsdjur-3cb3",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-bondgardsdjur-3cb3"
+  },
+  {
+   "slug": "prepositioner-flerval-camping-2b53",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-camping-2b53"
+  },
+  {
+   "slug": "prepositioner-flerval-dinosaurier-da39",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "dinosaurs",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-dinosaurier-da39"
+  },
+  {
+   "slug": "prepositioner-flerval-djur-dbb7",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-djur-dbb7"
+  },
+  {
+   "slug": "prepositioner-flerval-djurparksdjur-9691",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "zoo_animals",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-djurparksdjur-9691"
+  },
+  {
+   "slug": "prepositioner-flerval-efterratter-och-godis-3c92",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "desserts_and_sweets",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-efterratter-och-godis-3c92"
+  },
+  {
+   "slug": "prepositioner-flerval-faglar-2-c8dd",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-faglar-2-c8dd"
+  },
+  {
+   "slug": "prepositioner-flerval-faglar-88ad",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "birds",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-faglar-88ad"
+  },
+  {
+   "slug": "prepositioner-flerval-farger-8f3d",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "colors",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-farger-8f3d"
+  },
+  {
+   "slug": "prepositioner-flerval-fordon-2a31",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-fordon-2a31"
+  },
+  {
+   "slug": "prepositioner-flerval-frukost-f29d",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-frukost-f29d"
+  },
+  {
+   "slug": "prepositioner-flerval-frukter-e127",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-frukter-e127"
+  },
+  {
+   "slug": "prepositioner-flerval-gronsaker-29aa",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-gronsaker-29aa"
+  },
+  {
+   "slug": "prepositioner-flerval-havsliv-9984",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-havsliv-9984"
+  },
+  {
+   "slug": "prepositioner-flerval-husdjur-2d56",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-husdjur-2d56"
+  },
+  {
+   "slug": "prepositioner-flerval-i-snabbkopet-4437",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-i-snabbkopet-4437"
+  },
+  {
+   "slug": "prepositioner-flerval-jul-cdca",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-jul-cdca"
+  },
+  {
+   "slug": "prepositioner-flerval-kanslor-061b",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "emotions",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-kanslor-061b"
+  },
+  {
+   "slug": "prepositioner-flerval-klader-c108",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-klader-c108"
+  },
+  {
+   "slug": "prepositioner-flerval-klassrum-8ad4",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-klassrum-8ad4"
+  },
+  {
+   "slug": "prepositioner-flerval-koksredskap-0cb3",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-koksredskap-0cb3"
+  },
+  {
+   "slug": "prepositioner-flerval-kroppsdelar-2d71",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-kroppsdelar-2d71"
+  },
+  {
+   "slug": "prepositioner-flerval-leksaker-18c8",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-leksaker-18c8"
+  },
+  {
+   "slug": "prepositioner-flerval-mobler-846d",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-mobler-846d"
+  },
+  {
+   "slug": "prepositioner-flerval-musik-8a6a",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "music",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-musik-8a6a"
+  },
+  {
+   "slug": "prepositioner-flerval-pask-19cb",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-pask-19cb"
+  },
+  {
+   "slug": "prepositioner-flerval-postkontor-2e0c",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "post_office",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-postkontor-2e0c"
+  },
+  {
+   "slug": "prepositioner-flerval-runt-huset-8b3d",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "around_the_house",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-runt-huset-8b3d"
+  },
+  {
+   "slug": "prepositioner-flerval-rymden-4a3a",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "space",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-rymden-4a3a"
+  },
+  {
+   "slug": "prepositioner-flerval-saker-som-flyger-35cf",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-saker-som-flyger-35cf"
+  },
+  {
+   "slug": "prepositioner-flerval-sjukhus-b320",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-sjukhus-b320"
+  },
+  {
+   "slug": "prepositioner-flerval-skogsdjur-5fd7",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-skogsdjur-5fd7"
+  },
+  {
+   "slug": "prepositioner-flerval-sommar-ebcd",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-sommar-ebcd"
+  },
+  {
+   "slug": "prepositioner-flerval-strand-38eb",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-strand-38eb"
+  },
+  {
+   "slug": "prepositioner-flerval-thanksgiving-f776",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-thanksgiving-f776"
+  },
+  {
+   "slug": "prepositioner-flerval-tillbehor-e93a",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-tillbehor-e93a"
+  },
+  {
+   "slug": "prepositioner-flerval-trad-8360",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-trad-8360"
+  },
+  {
+   "slug": "prepositioner-flerval-vader-1416",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-vader-1416"
+  },
+  {
+   "slug": "prepositioner-flerval-verktyg-5865",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-verktyg-5865"
+  },
+  {
+   "slug": "prepositioner-flerval-vinter-327c",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "winter",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-vinter-327c"
+  },
+  {
+   "slug": "prepositioner-flerval-yrken-9f77",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "prepositioner-flerval-yrken-9f77"
+  }
+ ]
+}

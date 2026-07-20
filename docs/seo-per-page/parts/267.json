@@ -1,0 +1,780 @@
+{
+ "part": 267,
+ "locale": "da",
+ "classes": [
+  "prepositions::multiplechoice",
+  "sudoku::easy"
+ ],
+ "splitOf": null,
+ "count": 96,
+ "pages": [
+  {
+   "slug": "praepositioner-flervalg-aktiviteter-d67c",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "activities",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-aktiviteter-d67c"
+  },
+  {
+   "slug": "praepositioner-flervalg-bageri-be03",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-bageri-be03"
+  },
+  {
+   "slug": "praepositioner-flervalg-blomster-08c1",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-blomster-08c1"
+  },
+  {
+   "slug": "praepositioner-flervalg-bondegardsdyr-9512",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-bondegardsdyr-9512"
+  },
+  {
+   "slug": "praepositioner-flervalg-camping-4e0f",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-camping-4e0f"
+  },
+  {
+   "slug": "praepositioner-flervalg-desserter-og-slik-b6d1",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "desserts_and_sweets",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-desserter-og-slik-b6d1"
+  },
+  {
+   "slug": "praepositioner-flervalg-dinosaurer-bc12",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "dinosaurs",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-dinosaurer-bc12"
+  },
+  {
+   "slug": "praepositioner-flervalg-dyr-3bb2",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-dyr-3bb2"
+  },
+  {
+   "slug": "praepositioner-flervalg-erhverv-0d83",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-erhverv-0d83"
+  },
+  {
+   "slug": "praepositioner-flervalg-farver-7489",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "colors",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-farver-7489"
+  },
+  {
+   "slug": "praepositioner-flervalg-folelser-0ccd",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "emotions",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-folelser-0ccd"
+  },
+  {
+   "slug": "praepositioner-flervalg-forar-6ce4",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "spring",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-forar-6ce4"
+  },
+  {
+   "slug": "praepositioner-flervalg-former-35af",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-former-35af"
+  },
+  {
+   "slug": "praepositioner-flervalg-frugter-e5c9",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-frugter-e5c9"
+  },
+  {
+   "slug": "praepositioner-flervalg-fugle-2-402a",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-fugle-2-402a"
+  },
+  {
+   "slug": "praepositioner-flervalg-fugle-4845",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-fugle-4845"
+  },
+  {
+   "slug": "praepositioner-flervalg-grontsager-3bb3",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-grontsager-3bb3"
+  },
+  {
+   "slug": "praepositioner-flervalg-havliv-ea1b",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-havliv-ea1b"
+  },
+  {
+   "slug": "praepositioner-flervalg-hospital-47f2",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-hospital-47f2"
+  },
+  {
+   "slug": "praepositioner-flervalg-i-supermarkedet-0ad2",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-i-supermarkedet-0ad2"
+  },
+  {
+   "slug": "praepositioner-flervalg-insekter-og-kryb-502e",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-insekter-og-kryb-502e"
+  },
+  {
+   "slug": "praepositioner-flervalg-jul-fffd",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-jul-fffd"
+  },
+  {
+   "slug": "praepositioner-flervalg-kaeledyr-527f",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-kaeledyr-527f"
+  },
+  {
+   "slug": "praepositioner-flervalg-klassevaerelse-19f8",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-klassevaerelse-19f8"
+  },
+  {
+   "slug": "praepositioner-flervalg-kokkenredskaber-2115",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-kokkenredskaber-2115"
+  },
+  {
+   "slug": "praepositioner-flervalg-koretojer-25f1",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-koretojer-25f1"
+  },
+  {
+   "slug": "praepositioner-flervalg-kropsdele-809d",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "body_parts",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-kropsdele-809d"
+  },
+  {
+   "slug": "praepositioner-flervalg-krybdyr-og-padder-b071",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-krybdyr-og-padder-b071"
+  },
+  {
+   "slug": "praepositioner-flervalg-legetoj-4635",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-legetoj-4635"
+  },
+  {
+   "slug": "praepositioner-flervalg-mobler-1ff9",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-mobler-1ff9"
+  },
+  {
+   "slug": "praepositioner-flervalg-morgenmad-314d",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-morgenmad-314d"
+  },
+  {
+   "slug": "praepositioner-flervalg-musik-6d08",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-musik-6d08"
+  },
+  {
+   "slug": "praepositioner-flervalg-paske-622d",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-paske-622d"
+  },
+  {
+   "slug": "praepositioner-flervalg-postkontor-04c8",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-postkontor-04c8"
+  },
+  {
+   "slug": "praepositioner-flervalg-rummet-3609",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-rummet-3609"
+  },
+  {
+   "slug": "praepositioner-flervalg-rundt-i-huset-f911",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-rundt-i-huset-f911"
+  },
+  {
+   "slug": "praepositioner-flervalg-skovdyr-e527",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-skovdyr-e527"
+  },
+  {
+   "slug": "praepositioner-flervalg-sommer-a5db",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "summer",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-sommer-a5db"
+  },
+  {
+   "slug": "praepositioner-flervalg-strand-98a8",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-strand-98a8"
+  },
+  {
+   "slug": "praepositioner-flervalg-thanksgiving-0440",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-thanksgiving-0440"
+  },
+  {
+   "slug": "praepositioner-flervalg-tilbehor-ef06",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-tilbehor-ef06"
+  },
+  {
+   "slug": "praepositioner-flervalg-ting-der-flyver-70ce",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-ting-der-flyver-70ce"
+  },
+  {
+   "slug": "praepositioner-flervalg-toj-d001",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-toj-d001"
+  },
+  {
+   "slug": "praepositioner-flervalg-traeer-d2e7",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-traeer-d2e7"
+  },
+  {
+   "slug": "praepositioner-flervalg-vaerktoj-4192",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-vaerktoj-4192"
+  },
+  {
+   "slug": "praepositioner-flervalg-vejr-63f6",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "weather",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-vejr-63f6"
+  },
+  {
+   "slug": "praepositioner-flervalg-vinter-37d5",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "winter",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-vinter-37d5"
+  },
+  {
+   "slug": "praepositioner-flervalg-zoodyr-d98f",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "praepositioner-flervalg-zoodyr-d98f"
+  },
+  {
+   "slug": "billedsudoku-let-aktiviteter-920a",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "activities",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-aktiviteter-920a"
+  },
+  {
+   "slug": "billedsudoku-let-bageri-d426",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "bakery",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-bageri-d426"
+  },
+  {
+   "slug": "billedsudoku-let-blomster-ddf2",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "flowers",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-blomster-ddf2"
+  },
+  {
+   "slug": "billedsudoku-let-bondegardsdyr-b548",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "farm_animals",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-bondegardsdyr-b548"
+  },
+  {
+   "slug": "billedsudoku-let-camping-c48c",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "camping",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-camping-c48c"
+  },
+  {
+   "slug": "billedsudoku-let-desserter-og-slik-cbc4",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "desserts_and_sweets",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-desserter-og-slik-cbc4"
+  },
+  {
+   "slug": "billedsudoku-let-dinosaurer-6546",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-dinosaurer-6546"
+  },
+  {
+   "slug": "billedsudoku-let-dyr-85cb",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "animals",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-dyr-85cb"
+  },
+  {
+   "slug": "billedsudoku-let-erhverv-bf0a",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "occupations",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-erhverv-bf0a"
+  },
+  {
+   "slug": "billedsudoku-let-farver-6d63",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "colors",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-farver-6d63"
+  },
+  {
+   "slug": "billedsudoku-let-folelser-52a3",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "emotions",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-folelser-52a3"
+  },
+  {
+   "slug": "billedsudoku-let-forar-8c45",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-forar-8c45"
+  },
+  {
+   "slug": "billedsudoku-let-former-ad09",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "shapes",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-former-ad09"
+  },
+  {
+   "slug": "billedsudoku-let-frugter-b364",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "fruits",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-frugter-b364"
+  },
+  {
+   "slug": "billedsudoku-let-fugle-2-ae35",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "birds_2",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-fugle-2-ae35"
+  },
+  {
+   "slug": "billedsudoku-let-fugle-4313",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "birds",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-fugle-4313"
+  },
+  {
+   "slug": "billedsudoku-let-grontsager-1706",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "vegetables",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-grontsager-1706"
+  },
+  {
+   "slug": "billedsudoku-let-havliv-2b32",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "ocean_life",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-havliv-2b32"
+  },
+  {
+   "slug": "billedsudoku-let-hospital-5cbd",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "hospital",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-hospital-5cbd"
+  },
+  {
+   "slug": "billedsudoku-let-i-supermarkedet-e443",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-i-supermarkedet-e443"
+  },
+  {
+   "slug": "billedsudoku-let-insekter-og-kryb-ba75",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "insects_and_bugs",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-insekter-og-kryb-ba75"
+  },
+  {
+   "slug": "billedsudoku-let-jul-e534",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "christmas",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-jul-e534"
+  },
+  {
+   "slug": "billedsudoku-let-kaeledyr-329f",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "pets",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-kaeledyr-329f"
+  },
+  {
+   "slug": "billedsudoku-let-klassevaerelse-6bf2",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "classroom",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-klassevaerelse-6bf2"
+  },
+  {
+   "slug": "billedsudoku-let-kokkenredskaber-4f32",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "kitchen_tools",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-kokkenredskaber-4f32"
+  },
+  {
+   "slug": "billedsudoku-let-koretojer-f33a",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "vehicles",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-koretojer-f33a"
+  },
+  {
+   "slug": "billedsudoku-let-kropsdele-fe4b",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-kropsdele-fe4b"
+  },
+  {
+   "slug": "billedsudoku-let-krybdyr-og-padder-820a",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-krybdyr-og-padder-820a"
+  },
+  {
+   "slug": "billedsudoku-let-legetoj-3ae9",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "toys",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-legetoj-3ae9"
+  },
+  {
+   "slug": "billedsudoku-let-mobler-7198",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "furniture",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-mobler-7198"
+  },
+  {
+   "slug": "billedsudoku-let-morgenmad-68bb",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "breakfast",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-morgenmad-68bb"
+  },
+  {
+   "slug": "billedsudoku-let-musik-617c",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "music",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-musik-617c"
+  },
+  {
+   "slug": "billedsudoku-let-paske-eeb3",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "easter",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-paske-eeb3"
+  },
+  {
+   "slug": "billedsudoku-let-postkontor-96b2",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "post_office",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-postkontor-96b2"
+  },
+  {
+   "slug": "billedsudoku-let-rummet-3467",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "space",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-rummet-3467"
+  },
+  {
+   "slug": "billedsudoku-let-rundt-i-huset-573a",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "around_the_house",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-rundt-i-huset-573a"
+  },
+  {
+   "slug": "billedsudoku-let-skovdyr-ea66",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "forest_creatures",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-skovdyr-ea66"
+  },
+  {
+   "slug": "billedsudoku-let-sommer-11c7",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "summer",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-sommer-11c7"
+  },
+  {
+   "slug": "billedsudoku-let-strand-4129",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "beach",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-strand-4129"
+  },
+  {
+   "slug": "billedsudoku-let-thanksgiving-9b1d",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "thanksgivinng",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-thanksgiving-9b1d"
+  },
+  {
+   "slug": "billedsudoku-let-tilbehor-13a1",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "accessories",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-tilbehor-13a1"
+  },
+  {
+   "slug": "billedsudoku-let-ting-der-flyver-ce8e",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "things_that_fly",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-ting-der-flyver-ce8e"
+  },
+  {
+   "slug": "billedsudoku-let-toj-fd47",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "clothing",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-toj-fd47"
+  },
+  {
+   "slug": "billedsudoku-let-traeer-6526",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "tree",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-traeer-6526"
+  },
+  {
+   "slug": "billedsudoku-let-vaerktoj-521d",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "tools",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-vaerktoj-521d"
+  },
+  {
+   "slug": "billedsudoku-let-vejr-7489",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-vejr-7489"
+  },
+  {
+   "slug": "billedsudoku-let-vinter-6932",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-vinter-6932"
+  },
+  {
+   "slug": "billedsudoku-let-zoodyr-20f6",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "zoo_animals",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-zoodyr-20f6"
+  }
+ ]
+}

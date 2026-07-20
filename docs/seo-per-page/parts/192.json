@@ -1,0 +1,620 @@
+{
+ "part": 192,
+ "locale": "it",
+ "classes": [
+  "addition::find-addend",
+  "bingo::null"
+ ],
+ "splitOf": null,
+ "count": 76,
+ "pages": [
+  {
+   "slug": "addizione-trova-l-addendo-abbigliamento-2ed9",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "clothing",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-abbigliamento-2ed9"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-accessori-bb86",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "accessories",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-accessori-bb86"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-al-supermercato-d09e",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "at_the_supermarket",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-al-supermercato-d09e"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-alberi-6d30",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "tree",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-alberi-6d30"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-animali-9bba",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "animals",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-animali-9bba"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-animali-della-fattoria-f8d7",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "farm_animals",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-animali-della-fattoria-f8d7"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-animali-dello-zoo-ed21",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "zoo_animals",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-animali-dello-zoo-ed21"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-animali-domestici-bb8d",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "pets",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-animali-domestici-bb8d"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-attrezzi-a080",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "tools",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-attrezzi-a080"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-aula-b360",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "classroom",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-aula-b360"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-campeggio-c57a",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "camping",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-campeggio-c57a"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-colazione-b771",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "breakfast",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-colazione-b771"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-cose-che-volano-7eaa",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "things_that_fly",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-cose-che-volano-7eaa"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-creature-della-foresta-18e6",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "forest_creatures",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-creature-della-foresta-18e6"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-dinosauri-8e37",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "dinosaurs",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-dinosauri-8e37"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-fiori-e27a",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "flowers",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-fiori-e27a"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-forme-89d3",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "shapes",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-forme-89d3"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-frutta-ee07",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "fruits",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-frutta-ee07"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-giocattoli-cf89",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "toys",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-giocattoli-cf89"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-giorno-del-ringraziamento-0f29",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "thanksgivinng",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-giorno-del-ringraziamento-0f29"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-in-giro-per-casa-2048",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "around_the_house",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-in-giro-per-casa-2048"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-insetti-e-scarafaggi-6c40",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "insects_and_bugs",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-insetti-e-scarafaggi-6c40"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-mobili-3647",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "furniture",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-mobili-3647"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-musica-73b6",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "music",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-musica-73b6"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-natale-f330",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "christmas",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-natale-f330"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-ospedale-f887",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "hospital",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-ospedale-f887"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-panetteria-a217",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "bakery",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-panetteria-a217"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-pasqua-d3ec",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "easter",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-pasqua-d3ec"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-professioni-0c15",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "occupations",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-professioni-0c15"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-rettili-e-anfibi-fa01",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "reptiles_and_amphibians",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-rettili-e-anfibi-fa01"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-spazio-24f9",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "space",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-spazio-24f9"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-spiaggia-1058",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "beach",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-spiaggia-1058"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-uccelli-2-6000",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "birds_2",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-uccelli-2-6000"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-uccelli-d110",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "birds",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-uccelli-d110"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-ufficio-postale-bb72",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "post_office",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-ufficio-postale-bb72"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-utensili-da-cucina-a66a",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "kitchen_tools",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-utensili-da-cucina-a66a"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-varie-def4",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "miscellaneous",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-varie-def4"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-verdure-d0bb",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "vegetables",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-verdure-d0bb"
+  },
+  {
+   "slug": "addizione-trova-l-addendo-vita-oceanica-9cec",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "ocean_life",
+   "level": "infanzia",
+   "deck": "addizione-trova-l-addendo-vita-oceanica-9cec"
+  },
+  {
+   "slug": "bingo-abbigliamento-8683",
+   "type": "bingo",
+   "mode": null,
+   "theme": "clothing",
+   "level": "infanzia",
+   "deck": "bingo-abbigliamento-8683"
+  },
+  {
+   "slug": "bingo-accessori-7c7f",
+   "type": "bingo",
+   "mode": null,
+   "theme": "accessories",
+   "level": "infanzia",
+   "deck": "bingo-accessori-7c7f"
+  },
+  {
+   "slug": "bingo-al-supermercato-f2aa",
+   "type": "bingo",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "infanzia",
+   "deck": "bingo-al-supermercato-f2aa"
+  },
+  {
+   "slug": "bingo-animali",
+   "type": "bingo",
+   "mode": null,
+   "theme": "animals",
+   "level": "infanzia",
+   "deck": "bingo-animali"
+  },
+  {
+   "slug": "bingo-animali-della-fattoria-88ce",
+   "type": "bingo",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "infanzia",
+   "deck": "bingo-animali-della-fattoria-88ce"
+  },
+  {
+   "slug": "bingo-animali-dello-zoo-a068",
+   "type": "bingo",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "infanzia",
+   "deck": "bingo-animali-dello-zoo-a068"
+  },
+  {
+   "slug": "bingo-animali-domestici-93bc",
+   "type": "bingo",
+   "mode": null,
+   "theme": "pets",
+   "level": "infanzia",
+   "deck": "bingo-animali-domestici-93bc"
+  },
+  {
+   "slug": "bingo-attivita-5bd7",
+   "type": "bingo",
+   "mode": null,
+   "theme": "activities",
+   "level": "infanzia",
+   "deck": "bingo-attivita-5bd7"
+  },
+  {
+   "slug": "bingo-aula-4d5b",
+   "type": "bingo",
+   "mode": null,
+   "theme": "classroom",
+   "level": "infanzia",
+   "deck": "bingo-aula-4d5b"
+  },
+  {
+   "slug": "bingo-campeggio-77b0",
+   "type": "bingo",
+   "mode": null,
+   "theme": "camping",
+   "level": "infanzia",
+   "deck": "bingo-campeggio-77b0"
+  },
+  {
+   "slug": "bingo-colazione-0154",
+   "type": "bingo",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "infanzia",
+   "deck": "bingo-colazione-0154"
+  },
+  {
+   "slug": "bingo-colori-b21b",
+   "type": "bingo",
+   "mode": null,
+   "theme": "colors",
+   "level": "infanzia",
+   "deck": "bingo-colori-b21b"
+  },
+  {
+   "slug": "bingo-cose-che-volano-f3d0",
+   "type": "bingo",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "infanzia",
+   "deck": "bingo-cose-che-volano-f3d0"
+  },
+  {
+   "slug": "bingo-creature-della-foresta-5032",
+   "type": "bingo",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "infanzia",
+   "deck": "bingo-creature-della-foresta-5032"
+  },
+  {
+   "slug": "bingo-dolci-e-dolciumi-2eba",
+   "type": "bingo",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "infanzia",
+   "deck": "bingo-dolci-e-dolciumi-2eba"
+  },
+  {
+   "slug": "bingo-estate-9453",
+   "type": "bingo",
+   "mode": null,
+   "theme": "summer",
+   "level": "infanzia",
+   "deck": "bingo-estate-9453"
+  },
+  {
+   "slug": "bingo-fiori-07b7",
+   "type": "bingo",
+   "mode": null,
+   "theme": "flowers",
+   "level": "infanzia",
+   "deck": "bingo-fiori-07b7"
+  },
+  {
+   "slug": "bingo-forme-607b",
+   "type": "bingo",
+   "mode": null,
+   "theme": "shapes",
+   "level": "infanzia",
+   "deck": "bingo-forme-607b"
+  },
+  {
+   "slug": "bingo-frutta-85c2",
+   "type": "bingo",
+   "mode": null,
+   "theme": "fruits",
+   "level": "infanzia",
+   "deck": "bingo-frutta-85c2"
+  },
+  {
+   "slug": "bingo-giocattoli-1622",
+   "type": "bingo",
+   "mode": null,
+   "theme": "toys",
+   "level": "infanzia",
+   "deck": "bingo-giocattoli-1622"
+  },
+  {
+   "slug": "bingo-in-giro-per-casa-3305",
+   "type": "bingo",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "infanzia",
+   "deck": "bingo-in-giro-per-casa-3305"
+  },
+  {
+   "slug": "bingo-inverno-2d08",
+   "type": "bingo",
+   "mode": null,
+   "theme": "winter",
+   "level": "infanzia",
+   "deck": "bingo-inverno-2d08"
+  },
+  {
+   "slug": "bingo-meteo-0b56",
+   "type": "bingo",
+   "mode": null,
+   "theme": "weather",
+   "level": "infanzia",
+   "deck": "bingo-meteo-0b56"
+  },
+  {
+   "slug": "bingo-mobili-986e",
+   "type": "bingo",
+   "mode": null,
+   "theme": "furniture",
+   "level": "infanzia",
+   "deck": "bingo-mobili-986e"
+  },
+  {
+   "slug": "bingo-natale-9760",
+   "type": "bingo",
+   "mode": null,
+   "theme": "christmas",
+   "level": "infanzia",
+   "deck": "bingo-natale-9760"
+  },
+  {
+   "slug": "bingo-ospedale-cb52",
+   "type": "bingo",
+   "mode": null,
+   "theme": "hospital",
+   "level": "infanzia",
+   "deck": "bingo-ospedale-cb52"
+  },
+  {
+   "slug": "bingo-panetteria-75c4",
+   "type": "bingo",
+   "mode": null,
+   "theme": "bakery",
+   "level": "infanzia",
+   "deck": "bingo-panetteria-75c4"
+  },
+  {
+   "slug": "bingo-parti-del-corpo-c904",
+   "type": "bingo",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "bingo-parti-del-corpo-c904"
+  },
+  {
+   "slug": "bingo-pasqua-2e37",
+   "type": "bingo",
+   "mode": null,
+   "theme": "easter",
+   "level": "infanzia",
+   "deck": "bingo-pasqua-2e37"
+  },
+  {
+   "slug": "bingo-primavera-2834",
+   "type": "bingo",
+   "mode": null,
+   "theme": "spring",
+   "level": "infanzia",
+   "deck": "bingo-primavera-2834"
+  },
+  {
+   "slug": "bingo-spazio-8e2c",
+   "type": "bingo",
+   "mode": null,
+   "theme": "space",
+   "level": "infanzia",
+   "deck": "bingo-spazio-8e2c"
+  },
+  {
+   "slug": "bingo-spiaggia-dd1a",
+   "type": "bingo",
+   "mode": null,
+   "theme": "beach",
+   "level": "infanzia",
+   "deck": "bingo-spiaggia-dd1a"
+  },
+  {
+   "slug": "bingo-uccelli-2-0728",
+   "type": "bingo",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "infanzia",
+   "deck": "bingo-uccelli-2-0728"
+  },
+  {
+   "slug": "bingo-utensili-da-cucina-5356",
+   "type": "bingo",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "infanzia",
+   "deck": "bingo-utensili-da-cucina-5356"
+  },
+  {
+   "slug": "bingo-veicoli-c242",
+   "type": "bingo",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "infanzia",
+   "deck": "bingo-veicoli-c242"
+  },
+  {
+   "slug": "bingo-verdure-338c",
+   "type": "bingo",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "infanzia",
+   "deck": "bingo-verdure-338c"
+  },
+  {
+   "slug": "bingo-vita-oceanica-4c5e",
+   "type": "bingo",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "infanzia",
+   "deck": "bingo-vita-oceanica-4c5e"
+  }
+ ]
+}

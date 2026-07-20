@@ -1,0 +1,588 @@
+{
+ "part": 72,
+ "locale": "de",
+ "classes": [
+  "alphabet-train::null",
+  "big-small::findBig"
+ ],
+ "splitOf": null,
+ "count": 72,
+ "pages": [
+  {
+   "slug": "buchstabenzug-accessoires-134d",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "accessories",
+   "level": "vorschule",
+   "deck": "buchstabenzug-accessoires-134d"
+  },
+  {
+   "slug": "buchstabenzug-aktivitaten-f298",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "activities",
+   "level": "vorschule",
+   "deck": "buchstabenzug-aktivitaten-f298"
+  },
+  {
+   "slug": "buchstabenzug-bauernhoftiere-68fc",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "vorschule",
+   "deck": "buchstabenzug-bauernhoftiere-68fc"
+  },
+  {
+   "slug": "buchstabenzug-berufe-c650",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "occupations",
+   "level": "vorschule",
+   "deck": "buchstabenzug-berufe-c650"
+  },
+  {
+   "slug": "buchstabenzug-camping-41c0",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "camping",
+   "level": "vorschule",
+   "deck": "buchstabenzug-camping-41c0"
+  },
+  {
+   "slug": "buchstabenzug-desserts-und-sussigkeiten-98f3",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "vorschule",
+   "deck": "buchstabenzug-desserts-und-sussigkeiten-98f3"
+  },
+  {
+   "slug": "buchstabenzug-dinge-die-fliegen-fcf8",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "vorschule",
+   "deck": "buchstabenzug-dinge-die-fliegen-fcf8"
+  },
+  {
+   "slug": "buchstabenzug-emotionen-b7bb",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "emotions",
+   "level": "vorschule",
+   "deck": "buchstabenzug-emotionen-b7bb"
+  },
+  {
+   "slug": "buchstabenzug-erntedankfest-bbdf",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "vorschule",
+   "deck": "buchstabenzug-erntedankfest-bbdf"
+  },
+  {
+   "slug": "buchstabenzug-fahrzeuge-6730",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "vorschule",
+   "deck": "buchstabenzug-fahrzeuge-6730"
+  },
+  {
+   "slug": "buchstabenzug-formen-bd91",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "shapes",
+   "level": "vorschule",
+   "deck": "buchstabenzug-formen-bd91"
+  },
+  {
+   "slug": "buchstabenzug-fruchte-0964",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "fruits",
+   "level": "vorschule",
+   "deck": "buchstabenzug-fruchte-0964"
+  },
+  {
+   "slug": "buchstabenzug-fruhling-65cd",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "spring",
+   "level": "vorschule",
+   "deck": "buchstabenzug-fruhling-65cd"
+  },
+  {
+   "slug": "buchstabenzug-fruhstuck-75e3",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "vorschule",
+   "deck": "buchstabenzug-fruhstuck-75e3"
+  },
+  {
+   "slug": "buchstabenzug-gemuse-2ddf",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "vorschule",
+   "deck": "buchstabenzug-gemuse-2ddf"
+  },
+  {
+   "slug": "buchstabenzug-haustiere-f77b",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "pets",
+   "level": "vorschule",
+   "deck": "buchstabenzug-haustiere-f77b"
+  },
+  {
+   "slug": "buchstabenzug-im-supermarkt-e16f",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "vorschule",
+   "deck": "buchstabenzug-im-supermarkt-e16f"
+  },
+  {
+   "slug": "buchstabenzug-klassenzimmer-cfa2",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "classroom",
+   "level": "vorschule",
+   "deck": "buchstabenzug-klassenzimmer-cfa2"
+  },
+  {
+   "slug": "buchstabenzug-kleidung-1871",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "clothing",
+   "level": "vorschule",
+   "deck": "buchstabenzug-kleidung-1871"
+  },
+  {
+   "slug": "buchstabenzug-korperteile-13c1",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "vorschule",
+   "deck": "buchstabenzug-korperteile-13c1"
+  },
+  {
+   "slug": "buchstabenzug-krankenhaus-52e9",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "hospital",
+   "level": "vorschule",
+   "deck": "buchstabenzug-krankenhaus-52e9"
+  },
+  {
+   "slug": "buchstabenzug-kuchenwerkzeuge-02e4",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "vorschule",
+   "deck": "buchstabenzug-kuchenwerkzeuge-02e4"
+  },
+  {
+   "slug": "buchstabenzug-meeresleben-cfd3",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "vorschule",
+   "deck": "buchstabenzug-meeresleben-cfd3"
+  },
+  {
+   "slug": "buchstabenzug-musik-593b",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "music",
+   "level": "vorschule",
+   "deck": "buchstabenzug-musik-593b"
+  },
+  {
+   "slug": "buchstabenzug-ostern-46e2",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "easter",
+   "level": "vorschule",
+   "deck": "buchstabenzug-ostern-46e2"
+  },
+  {
+   "slug": "buchstabenzug-rund-ums-haus-938b",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "vorschule",
+   "deck": "buchstabenzug-rund-ums-haus-938b"
+  },
+  {
+   "slug": "buchstabenzug-sommer-a903",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "summer",
+   "level": "vorschule",
+   "deck": "buchstabenzug-sommer-a903"
+  },
+  {
+   "slug": "buchstabenzug-spielzeug-3d6d",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "toys",
+   "level": "vorschule",
+   "deck": "buchstabenzug-spielzeug-3d6d"
+  },
+  {
+   "slug": "buchstabenzug-strand-a14d",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "beach",
+   "level": "vorschule",
+   "deck": "buchstabenzug-strand-a14d"
+  },
+  {
+   "slug": "buchstabenzug-tiere",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "animals",
+   "level": "vorschule",
+   "deck": "buchstabenzug-tiere"
+  },
+  {
+   "slug": "buchstabenzug-vogel-2-31cb",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "vorschule",
+   "deck": "buchstabenzug-vogel-2-31cb"
+  },
+  {
+   "slug": "buchstabenzug-waldtiere-3fa9",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "vorschule",
+   "deck": "buchstabenzug-waldtiere-3fa9"
+  },
+  {
+   "slug": "buchstabenzug-weihnachten-a411",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "christmas",
+   "level": "vorschule",
+   "deck": "buchstabenzug-weihnachten-a411"
+  },
+  {
+   "slug": "buchstabenzug-werkzeuge-0bad",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "tools",
+   "level": "vorschule",
+   "deck": "buchstabenzug-werkzeuge-0bad"
+  },
+  {
+   "slug": "buchstabenzug-winter-49f0",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "winter",
+   "level": "vorschule",
+   "deck": "buchstabenzug-winter-49f0"
+  },
+  {
+   "slug": "buchstabenzug-zootiere-902c",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "vorschule",
+   "deck": "buchstabenzug-zootiere-902c"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-accessoires-20f9",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "accessories",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-accessoires-20f9"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-backerei-b12e",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "bakery",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-backerei-b12e"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-bauernhoftiere-ddb3",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "farm_animals",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-bauernhoftiere-ddb3"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-baume-1516",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "tree",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-baume-1516"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-berufe-6e40",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "occupations",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-berufe-6e40"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-blumen-6567",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "flowers",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-blumen-6567"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-camping-1213",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "camping",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-camping-1213"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-desserts-und-sussigkeiten-9495",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "desserts_and_sweets",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-desserts-und-sussigkeiten-9495"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-dinge-die-fliegen-51eb",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "things_that_fly",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-dinge-die-fliegen-51eb"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-dinosaurier-7ff7",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "dinosaurs",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-dinosaurier-7ff7"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-fahrzeuge-dc64",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "vehicles",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-fahrzeuge-dc64"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-formen-5dfb",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "shapes",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-formen-5dfb"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-fruchte-91d7",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "fruits",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-fruchte-91d7"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-fruhstuck-0fcb",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "breakfast",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-fruhstuck-0fcb"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-gemuse-ce88",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "vegetables",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-gemuse-ce88"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-haustiere-13b0",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "pets",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-haustiere-13b0"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-im-supermarkt-eefb",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "at_the_supermarket",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-im-supermarkt-eefb"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-klassenzimmer-121e",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "classroom",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-klassenzimmer-121e"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-kleidung-39ca",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "clothing",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-kleidung-39ca"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-korperteile-6518",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "body_parts",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-korperteile-6518"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-krankenhaus-1f79",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "hospital",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-krankenhaus-1f79"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-kuchenwerkzeuge-a533",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "kitchen_tools",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-kuchenwerkzeuge-a533"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-meeresleben-1784",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "ocean_life",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-meeresleben-1784"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-mobel-4ef2",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "furniture",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-mobel-4ef2"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-musik-db01",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "music",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-musik-db01"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-ostern-f7de",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "easter",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-ostern-f7de"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-rund-ums-haus-89eb",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "around_the_house",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-rund-ums-haus-89eb"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-spielzeug-92d5",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "toys",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-spielzeug-92d5"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-strand-c7c0",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "beach",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-strand-c7c0"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-tiere-e63a",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "animals",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-tiere-e63a"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-vogel-2-c0e4",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "birds_2",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-vogel-2-c0e4"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-waldtiere-a005",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "forest_creatures",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-waldtiere-a005"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-weihnachten-af06",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "christmas",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-weihnachten-af06"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-weltraum-0574",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "space",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-weltraum-0574"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-werkzeuge-4722",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "tools",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-werkzeuge-4722"
+  },
+  {
+   "slug": "gross-klein-grosses-finden-zootiere-132f",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "zoo_animals",
+   "level": "vorschule",
+   "deck": "gross-klein-grosses-finden-zootiere-132f"
+  }
+ ]
+}

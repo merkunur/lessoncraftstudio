@@ -1,0 +1,771 @@
+{
+ "part": 292,
+ "locale": "no",
+ "classes": [
+  "wordsearch::null"
+ ],
+ "splitOf": null,
+ "count": 95,
+ "pages": [
+  {
+   "slug": "engelsk-ordleting-4-juli-c1aa",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-4-juli-c1aa"
+  },
+  {
+   "slug": "engelsk-ordleting-aktiviteter-37df",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-aktiviteter-37df"
+  },
+  {
+   "slug": "engelsk-ordleting-bakeri-c88e",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "bakery",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-bakeri-c88e"
+  },
+  {
+   "slug": "engelsk-ordleting-blomster-d5bc",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-blomster-d5bc"
+  },
+  {
+   "slug": "engelsk-ordleting-camping-2aa0",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-camping-2aa0"
+  },
+  {
+   "slug": "engelsk-ordleting-desserter-og-godteri-57cc",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-desserter-og-godteri-57cc"
+  },
+  {
+   "slug": "engelsk-ordleting-dyr-732f",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-dyr-732f"
+  },
+  {
+   "slug": "engelsk-ordleting-dyrehagedyr-c6d9",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-dyrehagedyr-c6d9"
+  },
+  {
+   "slug": "engelsk-ordleting-farger-f2a9",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-farger-f2a9"
+  },
+  {
+   "slug": "engelsk-ordleting-folelser-cf7a",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-folelser-cf7a"
+  },
+  {
+   "slug": "engelsk-ordleting-former-2def",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-former-2def"
+  },
+  {
+   "slug": "engelsk-ordleting-frokost-5395",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-frokost-5395"
+  },
+  {
+   "slug": "engelsk-ordleting-frukter-216a",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-frukter-216a"
+  },
+  {
+   "slug": "engelsk-ordleting-fugler-2-8277",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-fugler-2-8277"
+  },
+  {
+   "slug": "engelsk-ordleting-fugler-6503",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-fugler-6503"
+  },
+  {
+   "slug": "engelsk-ordleting-gardsdyr-6a6b",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-gardsdyr-6a6b"
+  },
+  {
+   "slug": "engelsk-ordleting-gronnsaker-758c",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-gronnsaker-758c"
+  },
+  {
+   "slug": "engelsk-ordleting-havliv-ada5",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-havliv-ada5"
+  },
+  {
+   "slug": "engelsk-ordleting-i-supermarkedet-8f93",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-i-supermarkedet-8f93"
+  },
+  {
+   "slug": "engelsk-ordleting-insekter-og-kryp-2cee",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-insekter-og-kryp-2cee"
+  },
+  {
+   "slug": "engelsk-ordleting-jul-99fb",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "christmas",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-jul-99fb"
+  },
+  {
+   "slug": "engelsk-ordleting-kjaeledyr-e05f",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "pets",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-kjaeledyr-e05f"
+  },
+  {
+   "slug": "engelsk-ordleting-kjokkenredskaper-6b92",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-kjokkenredskaper-6b92"
+  },
+  {
+   "slug": "engelsk-ordleting-kjoretoy-9d4b",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-kjoretoy-9d4b"
+  },
+  {
+   "slug": "engelsk-ordleting-klaer-ed26",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "clothing",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-klaer-ed26"
+  },
+  {
+   "slug": "engelsk-ordleting-klasserom-e8d8",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "classroom",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-klasserom-e8d8"
+  },
+  {
+   "slug": "engelsk-ordleting-kroppsdeler-80a1",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-kroppsdeler-80a1"
+  },
+  {
+   "slug": "engelsk-ordleting-leker-94d0",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "toys",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-leker-94d0"
+  },
+  {
+   "slug": "engelsk-ordleting-mobler-c5ed",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "furniture",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-mobler-c5ed"
+  },
+  {
+   "slug": "engelsk-ordleting-musikk-b978",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "music",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-musikk-b978"
+  },
+  {
+   "slug": "engelsk-ordleting-paske-6c72",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "easter",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-paske-6c72"
+  },
+  {
+   "slug": "engelsk-ordleting-postkontor-5ad9",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "post_office",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-postkontor-5ad9"
+  },
+  {
+   "slug": "engelsk-ordleting-reptiler-og-amfibier-1af0",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-reptiler-og-amfibier-1af0"
+  },
+  {
+   "slug": "engelsk-ordleting-rundt-i-huset-e213",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-rundt-i-huset-e213"
+  },
+  {
+   "slug": "engelsk-ordleting-skogsdyr-23d9",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-skogsdyr-23d9"
+  },
+  {
+   "slug": "engelsk-ordleting-sommer-07e5",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-sommer-07e5"
+  },
+  {
+   "slug": "engelsk-ordleting-strand-acdd",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "beach",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-strand-acdd"
+  },
+  {
+   "slug": "engelsk-ordleting-sykehus-2ee1",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "hospital",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-sykehus-2ee1"
+  },
+  {
+   "slug": "engelsk-ordleting-thanksgiving-2225",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-thanksgiving-2225"
+  },
+  {
+   "slug": "engelsk-ordleting-tilbehor-d51b",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "accessories",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-tilbehor-d51b"
+  },
+  {
+   "slug": "engelsk-ordleting-ting-som-flyr-d84a",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-ting-som-flyr-d84a"
+  },
+  {
+   "slug": "engelsk-ordleting-traer-a469",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "tree",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-traer-a469"
+  },
+  {
+   "slug": "engelsk-ordleting-vaer-1ed0",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-vaer-1ed0"
+  },
+  {
+   "slug": "engelsk-ordleting-var-5d66",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-var-5d66"
+  },
+  {
+   "slug": "engelsk-ordleting-verdensrommet-5378",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-verdensrommet-5378"
+  },
+  {
+   "slug": "engelsk-ordleting-verktoy-d9ab",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-verktoy-d9ab"
+  },
+  {
+   "slug": "engelsk-ordleting-vinter-fad7",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "winter",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-vinter-fad7"
+  },
+  {
+   "slug": "engelsk-ordleting-yrker-9572",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "occupations",
+   "level": "language-beginner",
+   "deck": "engelsk-ordleting-yrker-9572"
+  },
+  {
+   "slug": "ordleting-aktiviteter-ef7d",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "activities",
+   "level": "2-trinn",
+   "deck": "ordleting-aktiviteter-ef7d"
+  },
+  {
+   "slug": "ordleting-bakeri-0f83",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "bakery",
+   "level": "2-trinn",
+   "deck": "ordleting-bakeri-0f83"
+  },
+  {
+   "slug": "ordleting-blomster-75c8",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "flowers",
+   "level": "2-trinn",
+   "deck": "ordleting-blomster-75c8"
+  },
+  {
+   "slug": "ordleting-camping-51eb",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "camping",
+   "level": "2-trinn",
+   "deck": "ordleting-camping-51eb"
+  },
+  {
+   "slug": "ordleting-desserter-og-godteri-dca7",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "2-trinn",
+   "deck": "ordleting-desserter-og-godteri-dca7"
+  },
+  {
+   "slug": "ordleting-dyr-9b27",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "animals",
+   "level": "2-trinn",
+   "deck": "ordleting-dyr-9b27"
+  },
+  {
+   "slug": "ordleting-dyrehagedyr-c3df",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "2-trinn",
+   "deck": "ordleting-dyrehagedyr-c3df"
+  },
+  {
+   "slug": "ordleting-farger-35d8",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "colors",
+   "level": "2-trinn",
+   "deck": "ordleting-farger-35d8"
+  },
+  {
+   "slug": "ordleting-folelser-9764",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "emotions",
+   "level": "2-trinn",
+   "deck": "ordleting-folelser-9764"
+  },
+  {
+   "slug": "ordleting-former-9ec1",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "shapes",
+   "level": "2-trinn",
+   "deck": "ordleting-former-9ec1"
+  },
+  {
+   "slug": "ordleting-frokost-5cfa",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "2-trinn",
+   "deck": "ordleting-frokost-5cfa"
+  },
+  {
+   "slug": "ordleting-frukter-3dba",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "fruits",
+   "level": "2-trinn",
+   "deck": "ordleting-frukter-3dba"
+  },
+  {
+   "slug": "ordleting-fugler-2-6cfc",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "2-trinn",
+   "deck": "ordleting-fugler-2-6cfc"
+  },
+  {
+   "slug": "ordleting-fugler-a70b",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "birds",
+   "level": "2-trinn",
+   "deck": "ordleting-fugler-a70b"
+  },
+  {
+   "slug": "ordleting-gardsdyr-c4c3",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "2-trinn",
+   "deck": "ordleting-gardsdyr-c4c3"
+  },
+  {
+   "slug": "ordleting-gronnsaker-528a",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "2-trinn",
+   "deck": "ordleting-gronnsaker-528a"
+  },
+  {
+   "slug": "ordleting-havliv-f615",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "2-trinn",
+   "deck": "ordleting-havliv-f615"
+  },
+  {
+   "slug": "ordleting-i-supermarkedet-47d4",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "2-trinn",
+   "deck": "ordleting-i-supermarkedet-47d4"
+  },
+  {
+   "slug": "ordleting-insekter-og-kryp-96c2",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "2-trinn",
+   "deck": "ordleting-insekter-og-kryp-96c2"
+  },
+  {
+   "slug": "ordleting-jul-84f1",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "christmas",
+   "level": "2-trinn",
+   "deck": "ordleting-jul-84f1"
+  },
+  {
+   "slug": "ordleting-kjaeledyr-f9f2",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "pets",
+   "level": "2-trinn",
+   "deck": "ordleting-kjaeledyr-f9f2"
+  },
+  {
+   "slug": "ordleting-kjokkenredskaper-5e2c",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "2-trinn",
+   "deck": "ordleting-kjokkenredskaper-5e2c"
+  },
+  {
+   "slug": "ordleting-kjoretoy-2837",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "2-trinn",
+   "deck": "ordleting-kjoretoy-2837"
+  },
+  {
+   "slug": "ordleting-klaer-b9f5",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "clothing",
+   "level": "2-trinn",
+   "deck": "ordleting-klaer-b9f5"
+  },
+  {
+   "slug": "ordleting-klasserom-0828",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "classroom",
+   "level": "2-trinn",
+   "deck": "ordleting-klasserom-0828"
+  },
+  {
+   "slug": "ordleting-kroppsdeler-c4e8",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "2-trinn",
+   "deck": "ordleting-kroppsdeler-c4e8"
+  },
+  {
+   "slug": "ordleting-leker-5921",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "toys",
+   "level": "2-trinn",
+   "deck": "ordleting-leker-5921"
+  },
+  {
+   "slug": "ordleting-mobler-dfc5",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "furniture",
+   "level": "2-trinn",
+   "deck": "ordleting-mobler-dfc5"
+  },
+  {
+   "slug": "ordleting-musikk-5fd4",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "music",
+   "level": "2-trinn",
+   "deck": "ordleting-musikk-5fd4"
+  },
+  {
+   "slug": "ordleting-paske-1c00",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "easter",
+   "level": "2-trinn",
+   "deck": "ordleting-paske-1c00"
+  },
+  {
+   "slug": "ordleting-postkontor-4acd",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "post_office",
+   "level": "2-trinn",
+   "deck": "ordleting-postkontor-4acd"
+  },
+  {
+   "slug": "ordleting-reptiler-og-amfibier-64e4",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "2-trinn",
+   "deck": "ordleting-reptiler-og-amfibier-64e4"
+  },
+  {
+   "slug": "ordleting-rundt-i-huset-f2c4",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "2-trinn",
+   "deck": "ordleting-rundt-i-huset-f2c4"
+  },
+  {
+   "slug": "ordleting-skogsdyr-1cdc",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "2-trinn",
+   "deck": "ordleting-skogsdyr-1cdc"
+  },
+  {
+   "slug": "ordleting-sommer-283b",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "summer",
+   "level": "2-trinn",
+   "deck": "ordleting-sommer-283b"
+  },
+  {
+   "slug": "ordleting-strand-50d8",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "beach",
+   "level": "2-trinn",
+   "deck": "ordleting-strand-50d8"
+  },
+  {
+   "slug": "ordleting-sykehus-adf3",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "hospital",
+   "level": "2-trinn",
+   "deck": "ordleting-sykehus-adf3"
+  },
+  {
+   "slug": "ordleting-thanksgiving-4034",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "2-trinn",
+   "deck": "ordleting-thanksgiving-4034"
+  },
+  {
+   "slug": "ordleting-tilbehor-8b7a",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "accessories",
+   "level": "2-trinn",
+   "deck": "ordleting-tilbehor-8b7a"
+  },
+  {
+   "slug": "ordleting-ting-som-flyr-ce58",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "2-trinn",
+   "deck": "ordleting-ting-som-flyr-ce58"
+  },
+  {
+   "slug": "ordleting-traer-d4a6",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "tree",
+   "level": "2-trinn",
+   "deck": "ordleting-traer-d4a6"
+  },
+  {
+   "slug": "ordleting-vaer-a74e",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "weather",
+   "level": "2-trinn",
+   "deck": "ordleting-vaer-a74e"
+  },
+  {
+   "slug": "ordleting-var-7b0e",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "spring",
+   "level": "2-trinn",
+   "deck": "ordleting-var-7b0e"
+  },
+  {
+   "slug": "ordleting-verdensrommet-86f4",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "space",
+   "level": "2-trinn",
+   "deck": "ordleting-verdensrommet-86f4"
+  },
+  {
+   "slug": "ordleting-verktoy-122b",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "tools",
+   "level": "2-trinn",
+   "deck": "ordleting-verktoy-122b"
+  },
+  {
+   "slug": "ordleting-vinter-b777",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "winter",
+   "level": "2-trinn",
+   "deck": "ordleting-vinter-b777"
+  },
+  {
+   "slug": "ordleting-yrker-b083",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "occupations",
+   "level": "2-trinn",
+   "deck": "ordleting-yrker-b083"
+  }
+ ]
+}

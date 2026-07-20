@@ -1,0 +1,684 @@
+{
+ "part": 342,
+ "locale": "fi",
+ "classes": [
+  "missing-pieces::two-missing",
+  "addition::find-addend"
+ ],
+ "splitOf": null,
+ "count": 84,
+ "pages": [
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-aamiainen-cb39",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "breakfast",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-aamiainen-cb39"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-ajoneuvot-fb1f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "vehicles",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-ajoneuvot-fb1f"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-aktiviteetit-45c5",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "activities",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-aktiviteetit-45c5"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-ammatit-69a8",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "occupations",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-ammatit-69a8"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-asusteet-9371",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "accessories",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-asusteet-9371"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-avaruus-c126",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "space",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-avaruus-c126"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-dinosaurukset-972e",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "dinosaurs",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-dinosaurukset-972e"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-elaimet-08a8",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "animals",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-elaimet-08a8"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-elaintarhan-elaimet-38aa",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "zoo_animals",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-elaintarhan-elaimet-38aa"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-hedelmat-e129",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "fruits",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-hedelmat-e129"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-huonekalut-4657",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "furniture",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-huonekalut-4657"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-hyonteiset-ja-otokat-6115",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "insects_and_bugs",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-hyonteiset-ja-otokat-6115"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-keittiovalineet-36d6",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "kitchen_tools",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-keittiovalineet-36d6"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-kesa-73ef",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "summer",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-kesa-73ef"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-kevat-0d54",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "spring",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-kevat-0d54"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-kiitospaiva-ed49",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "thanksgivinng",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-kiitospaiva-ed49"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-kodin-ymparilla-f06d",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "around_the_house",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-kodin-ymparilla-f06d"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-kukat-d5a3",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "flowers",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-kukat-d5a3"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-leipomo-0d7a",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "bakery",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-leipomo-0d7a"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-leirielama-a45f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "camping",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-leirielama-a45f"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-lelut-3dcc",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "toys",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-lelut-3dcc"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-lemmikit-124a",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "pets",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-lemmikit-124a"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-lentavat-asiat-0d1e",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "things_that_fly",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-lentavat-asiat-0d1e"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-linnut-2-9b6f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "birds_2",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-linnut-2-9b6f"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-linnut-b2ce",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "birds",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-linnut-b2ce"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-luokkahuone-71f7",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "classroom",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-luokkahuone-71f7"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-maatilan-elaimet-b1d5",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "farm_animals",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-maatilan-elaimet-b1d5"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-matelijat-ja-sammakkoelaimet-84ed",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "reptiles_and_amphibians",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-matelijat-ja-sammakkoelaimet-84ed"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-merielama-252c",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "ocean_life",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-merielama-252c"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-metsan-elaimet-2116",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "forest_creatures",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-metsan-elaimet-2116"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-musiikki-8500",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "music",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-musiikki-8500"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-paasiainen-bf74",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "easter",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-paasiainen-bf74"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-postitoimisto-22ba",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "post_office",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-postitoimisto-22ba"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-puut-0131",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "tree",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-puut-0131"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-ranta-ccf9",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "beach",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-ranta-ccf9"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-ruumiinosat-52fe",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "body_parts",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-ruumiinosat-52fe"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-saa-66c3",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "weather",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-saa-66c3"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-sairaala-1097",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "hospital",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-sairaala-1097"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-talvi-cbba",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "winter",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-talvi-cbba"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-tunteet-bb17",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "emotions",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-tunteet-bb17"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-tyokalut-d900",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "tools",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-tyokalut-d900"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-vaatteet-c06a",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "clothing",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-vaatteet-c06a"
+  },
+  {
+   "slug": "puuttuvat-palat-2-puuttuvaa-palaa-vihannekset-bf21",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "vegetables",
+   "level": "esikoulu",
+   "deck": "puuttuvat-palat-2-puuttuvaa-palaa-vihannekset-bf21"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-aamiainen-5123",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "breakfast",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-aamiainen-5123"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-ajoneuvot-a8ca",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "vehicles",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-ajoneuvot-a8ca"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-ammatit-e49b",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "occupations",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-ammatit-e49b"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-asusteet-ef16",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "accessories",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-asusteet-ef16"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-avaruus-9320",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "space",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-avaruus-9320"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-dinosaurukset-c534",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "dinosaurs",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-dinosaurukset-c534"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-elaimet-7870",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "animals",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-elaimet-7870"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-elaintarhan-elaimet-fd79",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "zoo_animals",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-elaintarhan-elaimet-fd79"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-hedelmat-306b",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "fruits",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-hedelmat-306b"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-huonekalut-658e",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "furniture",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-huonekalut-658e"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-hyonteiset-ja-otokat-3e76",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "insects_and_bugs",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-hyonteiset-ja-otokat-3e76"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-jalkiruoat-ja-makeiset-fceb",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "desserts_and_sweets",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-jalkiruoat-ja-makeiset-fceb"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-joulu-8d7a",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "christmas",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-joulu-8d7a"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-keittiovalineet-5045",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "kitchen_tools",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-keittiovalineet-5045"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-kiitospaiva-6e31",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "thanksgivinng",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-kiitospaiva-6e31"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-kodin-ymparilla-9845",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "around_the_house",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-kodin-ymparilla-9845"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-kukat-2364",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "flowers",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-kukat-2364"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-leipomo-bb77",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "bakery",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-leipomo-bb77"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-leirielama-3254",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "camping",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-leirielama-3254"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-lelut-5400",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "toys",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-lelut-5400"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-lemmikit-5cd0",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "pets",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-lemmikit-5cd0"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-lentavat-asiat-9090",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "things_that_fly",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-lentavat-asiat-9090"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-linnut-2-89c7",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "birds_2",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-linnut-2-89c7"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-linnut-bb7f",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "birds",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-linnut-bb7f"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-luokkahuone-d6d2",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "classroom",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-luokkahuone-d6d2"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-maatilan-elaimet-6abf",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "farm_animals",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-maatilan-elaimet-6abf"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-matelijat-ja-sammakkoelaimet-71da",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-matelijat-ja-sammakkoelaimet-71da"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-merielama-98b5",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "ocean_life",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-merielama-98b5"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-metsan-elaimet-e44e",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "forest_creatures",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-metsan-elaimet-e44e"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-muodot-6a26",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "shapes",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-muodot-6a26"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-musiikki-b0a5",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "music",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-musiikki-b0a5"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-paasiainen-3d27",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "easter",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-paasiainen-3d27"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-postitoimisto-a474",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "post_office",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-postitoimisto-a474"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-puut-48db",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "tree",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-puut-48db"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-ranta-d00c",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "beach",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-ranta-d00c"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-ruokakaupassa-8a5b",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "at_the_supermarket",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-ruokakaupassa-8a5b"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-sairaala-cad0",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "hospital",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-sairaala-cad0"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-sekalaista-7a86",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "miscellaneous",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-sekalaista-7a86"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-tyokalut-598d",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "tools",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-tyokalut-598d"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-vaatteet-514e",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "clothing",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-vaatteet-514e"
+  },
+  {
+   "slug": "yhteenlasku-etsi-yhteenlaskettava-vihannekset-3765",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "vegetables",
+   "level": "1-luokka",
+   "deck": "yhteenlasku-etsi-yhteenlaskettava-vihannekset-3765"
+  }
+ ]
+}

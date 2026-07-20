@@ -1,0 +1,636 @@
+{
+ "part": 282,
+ "locale": "da",
+ "classes": [
+  "addition::find-addend",
+  "addition::image-image"
+ ],
+ "splitOf": null,
+ "count": 78,
+ "pages": [
+  {
+   "slug": "addition-find-addend-bageri-b505",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-bageri-b505"
+  },
+  {
+   "slug": "addition-find-addend-blomster-0fc3",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-blomster-0fc3"
+  },
+  {
+   "slug": "addition-find-addend-bondegardsdyr-59b1",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-bondegardsdyr-59b1"
+  },
+  {
+   "slug": "addition-find-addend-camping-3e86",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-camping-3e86"
+  },
+  {
+   "slug": "addition-find-addend-dinosaurer-8041",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "dinosaurs",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-dinosaurer-8041"
+  },
+  {
+   "slug": "addition-find-addend-dyr-0637",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-dyr-0637"
+  },
+  {
+   "slug": "addition-find-addend-erhverv-8185",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-erhverv-8185"
+  },
+  {
+   "slug": "addition-find-addend-former-33b9",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-former-33b9"
+  },
+  {
+   "slug": "addition-find-addend-frugter-aff9",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-frugter-aff9"
+  },
+  {
+   "slug": "addition-find-addend-fugle-0a50",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-fugle-0a50"
+  },
+  {
+   "slug": "addition-find-addend-fugle-2-9b3e",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-fugle-2-9b3e"
+  },
+  {
+   "slug": "addition-find-addend-grontsager-1b69",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-grontsager-1b69"
+  },
+  {
+   "slug": "addition-find-addend-havliv-d9b9",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-havliv-d9b9"
+  },
+  {
+   "slug": "addition-find-addend-hospital-2941",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-hospital-2941"
+  },
+  {
+   "slug": "addition-find-addend-i-supermarkedet-eeff",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-i-supermarkedet-eeff"
+  },
+  {
+   "slug": "addition-find-addend-insekter-og-kryb-c304",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-insekter-og-kryb-c304"
+  },
+  {
+   "slug": "addition-find-addend-jul-2000",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-jul-2000"
+  },
+  {
+   "slug": "addition-find-addend-kaeledyr-f46e",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-kaeledyr-f46e"
+  },
+  {
+   "slug": "addition-find-addend-klassevaerelse-07dc",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-klassevaerelse-07dc"
+  },
+  {
+   "slug": "addition-find-addend-kokkenredskaber-8544",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-kokkenredskaber-8544"
+  },
+  {
+   "slug": "addition-find-addend-koretojer-bcef",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-koretojer-bcef"
+  },
+  {
+   "slug": "addition-find-addend-krybdyr-og-padder-0238",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-krybdyr-og-padder-0238"
+  },
+  {
+   "slug": "addition-find-addend-legetoj-a739",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-legetoj-a739"
+  },
+  {
+   "slug": "addition-find-addend-mobler-8653",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-mobler-8653"
+  },
+  {
+   "slug": "addition-find-addend-morgenmad-a636",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-morgenmad-a636"
+  },
+  {
+   "slug": "addition-find-addend-musik-7042",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-musik-7042"
+  },
+  {
+   "slug": "addition-find-addend-paske-a4f8",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-paske-a4f8"
+  },
+  {
+   "slug": "addition-find-addend-postkontor-0ac0",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-postkontor-0ac0"
+  },
+  {
+   "slug": "addition-find-addend-rummet-d635",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-rummet-d635"
+  },
+  {
+   "slug": "addition-find-addend-rundt-i-huset-ea2a",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-rundt-i-huset-ea2a"
+  },
+  {
+   "slug": "addition-find-addend-skovdyr-cc60",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-skovdyr-cc60"
+  },
+  {
+   "slug": "addition-find-addend-strand-0c30",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-strand-0c30"
+  },
+  {
+   "slug": "addition-find-addend-thanksgiving-a5b0",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-thanksgiving-a5b0"
+  },
+  {
+   "slug": "addition-find-addend-tilbehor-162e",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-tilbehor-162e"
+  },
+  {
+   "slug": "addition-find-addend-ting-der-flyver-9507",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-ting-der-flyver-9507"
+  },
+  {
+   "slug": "addition-find-addend-toj-7811",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-toj-7811"
+  },
+  {
+   "slug": "addition-find-addend-traeer-fee6",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-traeer-fee6"
+  },
+  {
+   "slug": "addition-find-addend-vaerktoj-2db6",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-vaerktoj-2db6"
+  },
+  {
+   "slug": "addition-find-addend-zoodyr-c1e1",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "addition-find-addend-zoodyr-c1e1"
+  },
+  {
+   "slug": "addition-billede-billede-bageri-ebb6",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-bageri-ebb6"
+  },
+  {
+   "slug": "addition-billede-billede-blomster-16f3",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-blomster-16f3"
+  },
+  {
+   "slug": "addition-billede-billede-bondegardsdyr-370f",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-bondegardsdyr-370f"
+  },
+  {
+   "slug": "addition-billede-billede-camping-4853",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-camping-4853"
+  },
+  {
+   "slug": "addition-billede-billede-dinosaurer-1558",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "dinosaurs",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-dinosaurer-1558"
+  },
+  {
+   "slug": "addition-billede-billede-dyr",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-dyr"
+  },
+  {
+   "slug": "addition-billede-billede-erhverv-6b8b",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-erhverv-6b8b"
+  },
+  {
+   "slug": "addition-billede-billede-former-02f7",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-former-02f7"
+  },
+  {
+   "slug": "addition-billede-billede-frugter-e226",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-frugter-e226"
+  },
+  {
+   "slug": "addition-billede-billede-fugle-2-9f91",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-fugle-2-9f91"
+  },
+  {
+   "slug": "addition-billede-billede-fugle-84d5",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-fugle-84d5"
+  },
+  {
+   "slug": "addition-billede-billede-grontsager-ebaa",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-grontsager-ebaa"
+  },
+  {
+   "slug": "addition-billede-billede-havliv-67d3",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-havliv-67d3"
+  },
+  {
+   "slug": "addition-billede-billede-hospital-9a5c",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-hospital-9a5c"
+  },
+  {
+   "slug": "addition-billede-billede-i-supermarkedet-39df",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-i-supermarkedet-39df"
+  },
+  {
+   "slug": "addition-billede-billede-insekter-og-kryb-f4af",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-insekter-og-kryb-f4af"
+  },
+  {
+   "slug": "addition-billede-billede-jul-a3b2",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-jul-a3b2"
+  },
+  {
+   "slug": "addition-billede-billede-kaeledyr-6ea2",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-kaeledyr-6ea2"
+  },
+  {
+   "slug": "addition-billede-billede-klassevaerelse-be06",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-klassevaerelse-be06"
+  },
+  {
+   "slug": "addition-billede-billede-kokkenredskaber-20b7",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-kokkenredskaber-20b7"
+  },
+  {
+   "slug": "addition-billede-billede-koretojer-2de0",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-koretojer-2de0"
+  },
+  {
+   "slug": "addition-billede-billede-krybdyr-og-padder-ad08",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-krybdyr-og-padder-ad08"
+  },
+  {
+   "slug": "addition-billede-billede-legetoj-cc3b",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-legetoj-cc3b"
+  },
+  {
+   "slug": "addition-billede-billede-mobler-89d2",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-mobler-89d2"
+  },
+  {
+   "slug": "addition-billede-billede-morgenmad-98a2",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-morgenmad-98a2"
+  },
+  {
+   "slug": "addition-billede-billede-musik-8771",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-musik-8771"
+  },
+  {
+   "slug": "addition-billede-billede-paske-d43c",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-paske-d43c"
+  },
+  {
+   "slug": "addition-billede-billede-postkontor-3efe",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-postkontor-3efe"
+  },
+  {
+   "slug": "addition-billede-billede-rummet-270a",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-rummet-270a"
+  },
+  {
+   "slug": "addition-billede-billede-rundt-i-huset-0210",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-rundt-i-huset-0210"
+  },
+  {
+   "slug": "addition-billede-billede-skovdyr-b6d5",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-skovdyr-b6d5"
+  },
+  {
+   "slug": "addition-billede-billede-strand-f152",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-strand-f152"
+  },
+  {
+   "slug": "addition-billede-billede-thanksgiving-ad7e",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-thanksgiving-ad7e"
+  },
+  {
+   "slug": "addition-billede-billede-tilbehor-484d",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-tilbehor-484d"
+  },
+  {
+   "slug": "addition-billede-billede-ting-der-flyver-31b1",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-ting-der-flyver-31b1"
+  },
+  {
+   "slug": "addition-billede-billede-toj-a6fd",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-toj-a6fd"
+  },
+  {
+   "slug": "addition-billede-billede-traeer-e01c",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-traeer-e01c"
+  },
+  {
+   "slug": "addition-billede-billede-vaerktoj-5472",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-vaerktoj-5472"
+  },
+  {
+   "slug": "addition-billede-billede-zoodyr-1774",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "addition-billede-billede-zoodyr-1774"
+  }
+ ]
+}

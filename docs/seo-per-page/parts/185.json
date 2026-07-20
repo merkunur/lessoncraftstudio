@@ -1,0 +1,692 @@
+{
+ "part": 185,
+ "locale": "it",
+ "classes": [
+  "find-and-count::letter-spotting",
+  "big-small::orderAsc"
+ ],
+ "splitOf": null,
+ "count": 85,
+ "pages": [
+  {
+   "slug": "trova-e-conta-trova-lettere-abbigliamento-9608",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "clothing",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-abbigliamento-9608"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-accessori-8070",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "accessories",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-accessori-8070"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-al-supermercato-81e5",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "at_the_supermarket",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-al-supermercato-81e5"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-animali-della-fattoria-b052",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-animali-della-fattoria-b052"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-animali-dello-zoo-218e",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "zoo_animals",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-animali-dello-zoo-218e"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-animali-domestici-4e35",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "pets",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-animali-domestici-4e35"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-animali-f91f",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "animals",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-animali-f91f"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-attivita-32f9",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "activities",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-attivita-32f9"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-attrezzi-c4d2",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "tools",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-attrezzi-c4d2"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-aula-4740",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "classroom",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-aula-4740"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-campeggio-ce01",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "camping",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-campeggio-ce01"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-colazione-6c58",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "breakfast",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-colazione-6c58"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-cose-che-volano-9072",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "things_that_fly",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-cose-che-volano-9072"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-creature-della-foresta-ec07",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-creature-della-foresta-ec07"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-dolci-e-dolciumi-622d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "desserts_and_sweets",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-dolci-e-dolciumi-622d"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-emozioni-014d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "emotions",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-emozioni-014d"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-estate-7817",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "summer",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-estate-7817"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-fiori-6994",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "flowers",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-fiori-6994"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-forme-6b3a",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "shapes",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-forme-6b3a"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-frutta-6e00",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "fruits",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-frutta-6e00"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-giocattoli-2d84",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "toys",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-giocattoli-2d84"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-giorno-del-ringraziamento-19b7",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "thanksgivinng",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-giorno-del-ringraziamento-19b7"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-in-giro-per-casa-f59c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "around_the_house",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-in-giro-per-casa-f59c"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-insetti-e-scarafaggi-00dc",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "insects_and_bugs",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-insetti-e-scarafaggi-00dc"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-inverno-1a9c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "winter",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-inverno-1a9c"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-meteo-0f7d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "weather",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-meteo-0f7d"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-mobili-fe48",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "furniture",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-mobili-fe48"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-musica-b1ae",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "music",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-musica-b1ae"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-natale-322e",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "christmas",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-natale-322e"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-ospedale-8d68",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "hospital",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-ospedale-8d68"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-panetteria-73cc",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "bakery",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-panetteria-73cc"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-parti-del-corpo-311e",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-parti-del-corpo-311e"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-pasqua-0728",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "easter",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-pasqua-0728"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-primavera-299d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "spring",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-primavera-299d"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-professioni-ff09",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "occupations",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-professioni-ff09"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-spazio-8386",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "space",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-spazio-8386"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-spiaggia-fd3a",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "beach",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-spiaggia-fd3a"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-uccelli-2-accb",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "birds_2",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-uccelli-2-accb"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-ufficio-postale-f7a3",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "post_office",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-ufficio-postale-f7a3"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-utensili-da-cucina-1a8d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "kitchen_tools",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-utensili-da-cucina-1a8d"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-veicoli-725f",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "vehicles",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-veicoli-725f"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-verdure-7b3e",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "vegetables",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-verdure-7b3e"
+  },
+  {
+   "slug": "trova-e-conta-trova-lettere-vita-oceanica-6f4e",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "ocean_life",
+   "level": "infanzia",
+   "deck": "trova-e-conta-trova-lettere-vita-oceanica-6f4e"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-abbigliamento-59da",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "clothing",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-abbigliamento-59da"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-accessori-7caf",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "accessories",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-accessori-7caf"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-al-supermercato-258f",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "at_the_supermarket",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-al-supermercato-258f"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-alberi-ff2b",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "tree",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-alberi-ff2b"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-animali-725c",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "animals",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-animali-725c"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-animali-della-fattoria-65a2",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "farm_animals",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-animali-della-fattoria-65a2"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-animali-dello-zoo-7670",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "zoo_animals",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-animali-dello-zoo-7670"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-animali-domestici-87f9",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "pets",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-animali-domestici-87f9"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-attrezzi-1f81",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "tools",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-attrezzi-1f81"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-aula-bb74",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "classroom",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-aula-bb74"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-campeggio-1790",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "camping",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-campeggio-1790"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-colazione-fd67",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "breakfast",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-colazione-fd67"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-cose-che-volano-ea7d",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "things_that_fly",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-cose-che-volano-ea7d"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-creature-della-foresta-9a92",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "forest_creatures",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-creature-della-foresta-9a92"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-dinosauri-c763",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "dinosaurs",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-dinosauri-c763"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-dolci-e-dolciumi-98a6",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "desserts_and_sweets",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-dolci-e-dolciumi-98a6"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-fiori-225e",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "flowers",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-fiori-225e"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-forme-9262",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "shapes",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-forme-9262"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-frutta-90ad",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "fruits",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-frutta-90ad"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-giocattoli-e01d",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "toys",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-giocattoli-e01d"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-giorno-del-ringraziamento-1f49",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "thanksgivinng",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-giorno-del-ringraziamento-1f49"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-in-giro-per-casa-c1ee",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "around_the_house",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-in-giro-per-casa-c1ee"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-insetti-e-scarafaggi-d8c0",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "insects_and_bugs",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-insetti-e-scarafaggi-d8c0"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-mobili-acb6",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "furniture",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-mobili-acb6"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-musica-3d58",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "music",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-musica-3d58"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-natale-41dd",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "christmas",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-natale-41dd"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-ospedale-e538",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "hospital",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-ospedale-e538"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-panetteria-0075",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "bakery",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-panetteria-0075"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-parti-del-corpo-77b7",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-parti-del-corpo-77b7"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-pasqua-3eb7",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "easter",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-pasqua-3eb7"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-professioni-6a42",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "occupations",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-professioni-6a42"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-rettili-e-anfibi-27bd",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "reptiles_and_amphibians",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-rettili-e-anfibi-27bd"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-spazio-8500",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "space",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-spazio-8500"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-spiaggia-7590",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "beach",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-spiaggia-7590"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-uccelli-2-3bc3",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "birds_2",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-uccelli-2-3bc3"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-uccelli-831d",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "birds",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-uccelli-831d"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-ufficio-postale-89a8",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "post_office",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-ufficio-postale-89a8"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-utensili-da-cucina-2c2c",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "kitchen_tools",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-utensili-da-cucina-2c2c"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-varie-207e",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "miscellaneous",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-varie-207e"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-veicoli-e76d",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "vehicles",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-veicoli-e76d"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-verdure-3be9",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "vegetables",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-verdure-3be9"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-vita-oceanica-21e4",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "ocean_life",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-vita-oceanica-21e4"
+  }
+ ]
+}

@@ -1,0 +1,660 @@
+{
+ "part": 190,
+ "locale": "it",
+ "classes": [
+  "subtraction::mixed",
+  "chart-count::null"
+ ],
+ "splitOf": null,
+ "count": 81,
+ "pages": [
+  {
+   "slug": "sottrazione-misto-abbigliamento-0da0",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-abbigliamento-0da0"
+  },
+  {
+   "slug": "sottrazione-misto-accessori-0033",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-accessori-0033"
+  },
+  {
+   "slug": "sottrazione-misto-al-supermercato-1823",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-al-supermercato-1823"
+  },
+  {
+   "slug": "sottrazione-misto-alberi-dcf5",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-alberi-dcf5"
+  },
+  {
+   "slug": "sottrazione-misto-animali-c4c5",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-animali-c4c5"
+  },
+  {
+   "slug": "sottrazione-misto-animali-della-fattoria-5144",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-animali-della-fattoria-5144"
+  },
+  {
+   "slug": "sottrazione-misto-animali-dello-zoo-fe1f",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-animali-dello-zoo-fe1f"
+  },
+  {
+   "slug": "sottrazione-misto-animali-domestici-dda1",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-animali-domestici-dda1"
+  },
+  {
+   "slug": "sottrazione-misto-attrezzi-e545",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-attrezzi-e545"
+  },
+  {
+   "slug": "sottrazione-misto-aula-77f3",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-aula-77f3"
+  },
+  {
+   "slug": "sottrazione-misto-campeggio-c58a",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-campeggio-c58a"
+  },
+  {
+   "slug": "sottrazione-misto-colazione-d797",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-colazione-d797"
+  },
+  {
+   "slug": "sottrazione-misto-cose-che-volano-81fb",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-cose-che-volano-81fb"
+  },
+  {
+   "slug": "sottrazione-misto-creature-della-foresta-e05c",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-creature-della-foresta-e05c"
+  },
+  {
+   "slug": "sottrazione-misto-dinosauri-f912",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-dinosauri-f912"
+  },
+  {
+   "slug": "sottrazione-misto-dolci-e-dolciumi-0589",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-dolci-e-dolciumi-0589"
+  },
+  {
+   "slug": "sottrazione-misto-fiori-a213",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-fiori-a213"
+  },
+  {
+   "slug": "sottrazione-misto-forme-e67b",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-forme-e67b"
+  },
+  {
+   "slug": "sottrazione-misto-frutta-f0d1",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-frutta-f0d1"
+  },
+  {
+   "slug": "sottrazione-misto-giocattoli-4c15",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-giocattoli-4c15"
+  },
+  {
+   "slug": "sottrazione-misto-giorno-del-ringraziamento-eddb",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-giorno-del-ringraziamento-eddb"
+  },
+  {
+   "slug": "sottrazione-misto-in-giro-per-casa-df81",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-in-giro-per-casa-df81"
+  },
+  {
+   "slug": "sottrazione-misto-insetti-e-scarafaggi-36e8",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-insetti-e-scarafaggi-36e8"
+  },
+  {
+   "slug": "sottrazione-misto-mobili-606b",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-mobili-606b"
+  },
+  {
+   "slug": "sottrazione-misto-musica-31b6",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-musica-31b6"
+  },
+  {
+   "slug": "sottrazione-misto-natale-6713",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-natale-6713"
+  },
+  {
+   "slug": "sottrazione-misto-ospedale-5d17",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-ospedale-5d17"
+  },
+  {
+   "slug": "sottrazione-misto-panetteria-a45f",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-panetteria-a45f"
+  },
+  {
+   "slug": "sottrazione-misto-pasqua-2213",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-pasqua-2213"
+  },
+  {
+   "slug": "sottrazione-misto-professioni-6eac",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-professioni-6eac"
+  },
+  {
+   "slug": "sottrazione-misto-rettili-e-anfibi-37b4",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-rettili-e-anfibi-37b4"
+  },
+  {
+   "slug": "sottrazione-misto-spazio-0ae9",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-spazio-0ae9"
+  },
+  {
+   "slug": "sottrazione-misto-spiaggia-6159",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-spiaggia-6159"
+  },
+  {
+   "slug": "sottrazione-misto-uccelli-2-8597",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-uccelli-2-8597"
+  },
+  {
+   "slug": "sottrazione-misto-uccelli-d892",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-uccelli-d892"
+  },
+  {
+   "slug": "sottrazione-misto-ufficio-postale-4581",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-ufficio-postale-4581"
+  },
+  {
+   "slug": "sottrazione-misto-utensili-da-cucina-c467",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-utensili-da-cucina-c467"
+  },
+  {
+   "slug": "sottrazione-misto-varie-d670",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "miscellaneous",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-varie-d670"
+  },
+  {
+   "slug": "sottrazione-misto-veicoli-cf69",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-veicoli-cf69"
+  },
+  {
+   "slug": "sottrazione-misto-verdure-f4ea",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-verdure-f4ea"
+  },
+  {
+   "slug": "sottrazione-misto-vita-oceanica-1b49",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-vita-oceanica-1b49"
+  },
+  {
+   "slug": "conteggio-grafico-abbigliamento-59b2",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "clothing",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-abbigliamento-59b2"
+  },
+  {
+   "slug": "conteggio-grafico-accessori-0385",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "accessories",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-accessori-0385"
+  },
+  {
+   "slug": "conteggio-grafico-al-supermercato-aeeb",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-al-supermercato-aeeb"
+  },
+  {
+   "slug": "conteggio-grafico-alberi-e265",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "tree",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-alberi-e265"
+  },
+  {
+   "slug": "conteggio-grafico-animali-9424",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "animals",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-animali-9424"
+  },
+  {
+   "slug": "conteggio-grafico-animali-dello-zoo-4ba0",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-animali-dello-zoo-4ba0"
+  },
+  {
+   "slug": "conteggio-grafico-animali-domestici-e0d8",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "pets",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-animali-domestici-e0d8"
+  },
+  {
+   "slug": "conteggio-grafico-attrezzi-29da",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "tools",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-attrezzi-29da"
+  },
+  {
+   "slug": "conteggio-grafico-aula-7705",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "classroom",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-aula-7705"
+  },
+  {
+   "slug": "conteggio-grafico-campeggio-46d6",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "camping",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-campeggio-46d6"
+  },
+  {
+   "slug": "conteggio-grafico-colazione-decf",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-colazione-decf"
+  },
+  {
+   "slug": "conteggio-grafico-colori-b41d",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "colors",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-colori-b41d"
+  },
+  {
+   "slug": "conteggio-grafico-cose-che-volano-ce5e",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-cose-che-volano-ce5e"
+  },
+  {
+   "slug": "conteggio-grafico-creature-della-foresta-a316",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-creature-della-foresta-a316"
+  },
+  {
+   "slug": "conteggio-grafico-dinosauri-80c5",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-dinosauri-80c5"
+  },
+  {
+   "slug": "conteggio-grafico-dolci-e-dolciumi-f377",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-dolci-e-dolciumi-f377"
+  },
+  {
+   "slug": "conteggio-grafico-fiori-c74c",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "flowers",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-fiori-c74c"
+  },
+  {
+   "slug": "conteggio-grafico-forme-5b81",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "shapes",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-forme-5b81"
+  },
+  {
+   "slug": "conteggio-grafico-frutta-1809",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "fruits",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-frutta-1809"
+  },
+  {
+   "slug": "conteggio-grafico-giocattoli-ebe3",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "toys",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-giocattoli-ebe3"
+  },
+  {
+   "slug": "conteggio-grafico-giorno-del-ringraziamento-07b4",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-giorno-del-ringraziamento-07b4"
+  },
+  {
+   "slug": "conteggio-grafico-in-giro-per-casa-17fb",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-in-giro-per-casa-17fb"
+  },
+  {
+   "slug": "conteggio-grafico-insetti-e-scarafaggi-33ec",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-insetti-e-scarafaggi-33ec"
+  },
+  {
+   "slug": "conteggio-grafico-mobili-65c2",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "furniture",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-mobili-65c2"
+  },
+  {
+   "slug": "conteggio-grafico-musica-4251",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "music",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-musica-4251"
+  },
+  {
+   "slug": "conteggio-grafico-natale-8c68",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "christmas",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-natale-8c68"
+  },
+  {
+   "slug": "conteggio-grafico-ospedale-6f81",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "hospital",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-ospedale-6f81"
+  },
+  {
+   "slug": "conteggio-grafico-panetteria-1d9b",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "bakery",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-panetteria-1d9b"
+  },
+  {
+   "slug": "conteggio-grafico-pasqua-c460",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "easter",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-pasqua-c460"
+  },
+  {
+   "slug": "conteggio-grafico-professioni-8019",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "occupations",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-professioni-8019"
+  },
+  {
+   "slug": "conteggio-grafico-rettili-e-anfibi-cea4",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-rettili-e-anfibi-cea4"
+  },
+  {
+   "slug": "conteggio-grafico-spazio-492e",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "space",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-spazio-492e"
+  },
+  {
+   "slug": "conteggio-grafico-spiaggia-297d",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "beach",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-spiaggia-297d"
+  },
+  {
+   "slug": "conteggio-grafico-uccelli-2-7135",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-uccelli-2-7135"
+  },
+  {
+   "slug": "conteggio-grafico-uccelli-bc37",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "birds",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-uccelli-bc37"
+  },
+  {
+   "slug": "conteggio-grafico-ufficio-postale-4992",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "post_office",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-ufficio-postale-4992"
+  },
+  {
+   "slug": "conteggio-grafico-utensili-da-cucina-c531",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-utensili-da-cucina-c531"
+  },
+  {
+   "slug": "conteggio-grafico-veicoli-1058",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-veicoli-1058"
+  },
+  {
+   "slug": "conteggio-grafico-verdure-7797",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-verdure-7797"
+  },
+  {
+   "slug": "conteggio-grafico-vita-oceanica-8760",
+   "type": "chart-count",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "classe-prima",
+   "deck": "conteggio-grafico-vita-oceanica-8760"
+  }
+ ]
+}

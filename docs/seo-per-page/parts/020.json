@@ -1,0 +1,584 @@
+{
+ "part": 20,
+ "locale": "en",
+ "classes": [
+  "crossword::null"
+ ],
+ "splitOf": {
+  "class": "crossword::null",
+  "total": 497,
+  "chunk": 6,
+  "chunks": 7
+ },
+ "count": 71,
+ "pages": [
+  {
+   "slug": "norwegian-crossword-thanksgiving-c609",
+   "type": "crossword",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-thanksgiving-c609"
+  },
+  {
+   "slug": "norwegian-crossword-things-that-fly-837e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-things-that-fly-837e"
+  },
+  {
+   "slug": "norwegian-crossword-tools-ea16",
+   "type": "crossword",
+   "mode": null,
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-tools-ea16"
+  },
+  {
+   "slug": "norwegian-crossword-toys-de90",
+   "type": "crossword",
+   "mode": null,
+   "theme": "toys",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-toys-de90"
+  },
+  {
+   "slug": "norwegian-crossword-vegetables-24ff",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-vegetables-24ff"
+  },
+  {
+   "slug": "norwegian-crossword-vehicles-f49a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-vehicles-f49a"
+  },
+  {
+   "slug": "norwegian-crossword-weather-7557",
+   "type": "crossword",
+   "mode": null,
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-weather-7557"
+  },
+  {
+   "slug": "norwegian-crossword-winter-f9db",
+   "type": "crossword",
+   "mode": null,
+   "theme": "winter",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-winter-f9db"
+  },
+  {
+   "slug": "norwegian-crossword-zoo-animals-8329",
+   "type": "crossword",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-zoo-animals-8329"
+  },
+  {
+   "slug": "portuguese-crossword-4th-of-july-52a6",
+   "type": "crossword",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-4th-of-july-52a6"
+  },
+  {
+   "slug": "portuguese-crossword-accessories-306c",
+   "type": "crossword",
+   "mode": null,
+   "theme": "accessories",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-accessories-306c"
+  },
+  {
+   "slug": "portuguese-crossword-activities-8da4",
+   "type": "crossword",
+   "mode": null,
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-activities-8da4"
+  },
+  {
+   "slug": "portuguese-crossword-animals-386f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-animals-386f"
+  },
+  {
+   "slug": "portuguese-crossword-around-the-house-48b7",
+   "type": "crossword",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-around-the-house-48b7"
+  },
+  {
+   "slug": "portuguese-crossword-at-the-supermarket-bf5a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-at-the-supermarket-bf5a"
+  },
+  {
+   "slug": "portuguese-crossword-bakery-eee0",
+   "type": "crossword",
+   "mode": null,
+   "theme": "bakery",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-bakery-eee0"
+  },
+  {
+   "slug": "portuguese-crossword-beach-a10f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "beach",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-beach-a10f"
+  },
+  {
+   "slug": "portuguese-crossword-birds-19c7",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-birds-19c7"
+  },
+  {
+   "slug": "portuguese-crossword-birds-2-8aa5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-birds-2-8aa5"
+  },
+  {
+   "slug": "portuguese-crossword-body-parts-7820",
+   "type": "crossword",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-body-parts-7820"
+  },
+  {
+   "slug": "portuguese-crossword-breakfast-48b7",
+   "type": "crossword",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-breakfast-48b7"
+  },
+  {
+   "slug": "portuguese-crossword-camping-bad0",
+   "type": "crossword",
+   "mode": null,
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-camping-bad0"
+  },
+  {
+   "slug": "portuguese-crossword-christmas-b8a3",
+   "type": "crossword",
+   "mode": null,
+   "theme": "christmas",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-christmas-b8a3"
+  },
+  {
+   "slug": "portuguese-crossword-classroom-046a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "classroom",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-classroom-046a"
+  },
+  {
+   "slug": "portuguese-crossword-clothing-15a8",
+   "type": "crossword",
+   "mode": null,
+   "theme": "clothing",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-clothing-15a8"
+  },
+  {
+   "slug": "portuguese-crossword-colors-eb80",
+   "type": "crossword",
+   "mode": null,
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-colors-eb80"
+  },
+  {
+   "slug": "portuguese-crossword-desserts-and-sweets-c38a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-desserts-and-sweets-c38a"
+  },
+  {
+   "slug": "portuguese-crossword-easter-4d5d",
+   "type": "crossword",
+   "mode": null,
+   "theme": "easter",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-easter-4d5d"
+  },
+  {
+   "slug": "portuguese-crossword-emotions-a3a1",
+   "type": "crossword",
+   "mode": null,
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-emotions-a3a1"
+  },
+  {
+   "slug": "portuguese-crossword-farm-animals-48da",
+   "type": "crossword",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-farm-animals-48da"
+  },
+  {
+   "slug": "portuguese-crossword-flowers-86a5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-flowers-86a5"
+  },
+  {
+   "slug": "portuguese-crossword-forest-creatures-f633",
+   "type": "crossword",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-forest-creatures-f633"
+  },
+  {
+   "slug": "portuguese-crossword-fruits-07fb",
+   "type": "crossword",
+   "mode": null,
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-fruits-07fb"
+  },
+  {
+   "slug": "portuguese-crossword-furniture-4677",
+   "type": "crossword",
+   "mode": null,
+   "theme": "furniture",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-furniture-4677"
+  },
+  {
+   "slug": "portuguese-crossword-hospital-b9a0",
+   "type": "crossword",
+   "mode": null,
+   "theme": "hospital",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-hospital-b9a0"
+  },
+  {
+   "slug": "portuguese-crossword-insects-and-bugs-c4a7",
+   "type": "crossword",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-insects-and-bugs-c4a7"
+  },
+  {
+   "slug": "portuguese-crossword-kitchen-tools-0369",
+   "type": "crossword",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-kitchen-tools-0369"
+  },
+  {
+   "slug": "portuguese-crossword-music-a9b1",
+   "type": "crossword",
+   "mode": null,
+   "theme": "music",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-music-a9b1"
+  },
+  {
+   "slug": "portuguese-crossword-occupations-e1c9",
+   "type": "crossword",
+   "mode": null,
+   "theme": "occupations",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-occupations-e1c9"
+  },
+  {
+   "slug": "portuguese-crossword-ocean-life-9ae1",
+   "type": "crossword",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-ocean-life-9ae1"
+  },
+  {
+   "slug": "portuguese-crossword-shapes-e318",
+   "type": "crossword",
+   "mode": null,
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-shapes-e318"
+  },
+  {
+   "slug": "portuguese-crossword-space-4fd5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-space-4fd5"
+  },
+  {
+   "slug": "portuguese-crossword-spring-e93a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-spring-e93a"
+  },
+  {
+   "slug": "portuguese-crossword-summer-fb47",
+   "type": "crossword",
+   "mode": null,
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-summer-fb47"
+  },
+  {
+   "slug": "portuguese-crossword-thanksgiving-81a6",
+   "type": "crossword",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-thanksgiving-81a6"
+  },
+  {
+   "slug": "portuguese-crossword-things-that-fly-9c33",
+   "type": "crossword",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-things-that-fly-9c33"
+  },
+  {
+   "slug": "portuguese-crossword-tools-3ca7",
+   "type": "crossword",
+   "mode": null,
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-tools-3ca7"
+  },
+  {
+   "slug": "portuguese-crossword-toys-80ef",
+   "type": "crossword",
+   "mode": null,
+   "theme": "toys",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-toys-80ef"
+  },
+  {
+   "slug": "portuguese-crossword-vegetables-12aa",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-vegetables-12aa"
+  },
+  {
+   "slug": "portuguese-crossword-vehicles-0652",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-vehicles-0652"
+  },
+  {
+   "slug": "portuguese-crossword-weather-22e6",
+   "type": "crossword",
+   "mode": null,
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-weather-22e6"
+  },
+  {
+   "slug": "portuguese-crossword-winter-72c5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "winter",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-winter-72c5"
+  },
+  {
+   "slug": "portuguese-crossword-zoo-animals-f6c4",
+   "type": "crossword",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "language-beginner",
+   "deck": "portuguese-crossword-zoo-animals-f6c4"
+  },
+  {
+   "slug": "spanish-crossword-4th-of-july-7835",
+   "type": "crossword",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-4th-of-july-7835"
+  },
+  {
+   "slug": "spanish-crossword-accessories-8a57",
+   "type": "crossword",
+   "mode": null,
+   "theme": "accessories",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-accessories-8a57"
+  },
+  {
+   "slug": "spanish-crossword-activities-d190",
+   "type": "crossword",
+   "mode": null,
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-activities-d190"
+  },
+  {
+   "slug": "spanish-crossword-animals-f17b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-animals-f17b"
+  },
+  {
+   "slug": "spanish-crossword-around-the-house-4298",
+   "type": "crossword",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-around-the-house-4298"
+  },
+  {
+   "slug": "spanish-crossword-at-the-supermarket-75ed",
+   "type": "crossword",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-at-the-supermarket-75ed"
+  },
+  {
+   "slug": "spanish-crossword-bakery-31d1",
+   "type": "crossword",
+   "mode": null,
+   "theme": "bakery",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-bakery-31d1"
+  },
+  {
+   "slug": "spanish-crossword-beach-5f63",
+   "type": "crossword",
+   "mode": null,
+   "theme": "beach",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-beach-5f63"
+  },
+  {
+   "slug": "spanish-crossword-birds-2-6455",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-birds-2-6455"
+  },
+  {
+   "slug": "spanish-crossword-body-parts-160c",
+   "type": "crossword",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-body-parts-160c"
+  },
+  {
+   "slug": "spanish-crossword-breakfast-8d71",
+   "type": "crossword",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-breakfast-8d71"
+  },
+  {
+   "slug": "spanish-crossword-camping-4e0d",
+   "type": "crossword",
+   "mode": null,
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-camping-4e0d"
+  },
+  {
+   "slug": "spanish-crossword-christmas-4652",
+   "type": "crossword",
+   "mode": null,
+   "theme": "christmas",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-christmas-4652"
+  },
+  {
+   "slug": "spanish-crossword-classroom-369b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "classroom",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-classroom-369b"
+  },
+  {
+   "slug": "spanish-crossword-clothing-4f28",
+   "type": "crossword",
+   "mode": null,
+   "theme": "clothing",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-clothing-4f28"
+  },
+  {
+   "slug": "spanish-crossword-colors-4ba9",
+   "type": "crossword",
+   "mode": null,
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-colors-4ba9"
+  },
+  {
+   "slug": "spanish-crossword-desserts-and-sweets-a042",
+   "type": "crossword",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-desserts-and-sweets-a042"
+  },
+  {
+   "slug": "spanish-crossword-easter-82fd",
+   "type": "crossword",
+   "mode": null,
+   "theme": "easter",
+   "level": "language-beginner",
+   "deck": "spanish-crossword-easter-82fd"
+  }
+ ]
+}

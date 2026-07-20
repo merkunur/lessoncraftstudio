@@ -1,0 +1,190 @@
+{
+ "part": 353,
+ "locale": "fi",
+ "classes": [
+  "fractions::name-and-compare",
+  "fractions::partition-and-share",
+  "geometry::count-and-sort-shapes",
+  "geometry::quadrilaterals-and-area",
+  "geometry::shape-attributes",
+  "graphing-data::graphs-and-line-plots",
+  "graphing-data::read-picture-bar-graphs",
+  "graphing-data::scaled-graphs",
+  "measurement::compare-weight",
+  "measurement::length-units",
+  "measurement::measure-and-compare-length",
+  "measurement::volume-and-temperature",
+  "number-charts::hundreds-chart-skip-count",
+  "number-charts::number-patterns",
+  "number-charts::numbers-to-20",
+  "number-charts::skip-count-and-100-more-less",
+  "odd-one-out::cross-theme",
+  "telling-time::hour-half-hour",
+  "telling-time::to-five-minutes",
+  "telling-time::to-the-minute"
+ ],
+ "splitOf": null,
+ "count": 20,
+ "pages": [
+  {
+   "slug": "murtoluvut-lukusuora-3-luokka",
+   "type": "fractions",
+   "mode": "name-and-compare",
+   "theme": "",
+   "level": "3-luokka",
+   "deck": "murtoluvut-g3315"
+  },
+  {
+   "slug": "murtoluvut-yhta-suuret-osat-2-luokka",
+   "type": "fractions",
+   "mode": "partition-and-share",
+   "theme": "",
+   "level": "2-luokka",
+   "deck": "murtoluvut-g2228"
+  },
+  {
+   "slug": "geometria-muodot-esikoulu",
+   "type": "geometry",
+   "mode": "count-and-sort-shapes",
+   "theme": "",
+   "level": "esikoulu",
+   "deck": "geometria-k075"
+  },
+  {
+   "slug": "geometria-piiri-ja-pinta-ala-3-luokka",
+   "type": "geometry",
+   "mode": "quadrilaterals-and-area",
+   "theme": "",
+   "level": "3-luokka",
+   "deck": "geometria-g3337"
+  },
+  {
+   "slug": "geometria-kappaleet-2-luokka",
+   "type": "geometry",
+   "mode": "shape-attributes",
+   "theme": "",
+   "level": "2-luokka",
+   "deck": "geometria-g2241"
+  },
+  {
+   "slug": "diagrammit-tehtavat-2-luokka",
+   "type": "graphing-data",
+   "mode": "graphs-and-line-plots",
+   "theme": "",
+   "level": "2-luokka",
+   "deck": "kaaviot-lelut-g2239"
+  },
+  {
+   "slug": "diagrammit-tehtavat-1-luokka",
+   "type": "graphing-data",
+   "mode": "read-picture-bar-graphs",
+   "theme": "",
+   "level": "1-luokka",
+   "deck": "kaaviot-lelut-g1142"
+  },
+  {
+   "slug": "diagrammit-tehtavat-3-luokka",
+   "type": "graphing-data",
+   "mode": "scaled-graphs",
+   "theme": "",
+   "level": "3-luokka",
+   "deck": "kaaviot-lelut-g3333"
+  },
+  {
+   "slug": "vertaa-painoa-raskas-vai-kevyt-esikoulu",
+   "type": "measurement",
+   "mode": "compare-weight",
+   "theme": "",
+   "level": "esikoulu",
+   "deck": "mittaaminen-elaimet-k038"
+  },
+  {
+   "slug": "mittaa-pituutta-yksikoilla-1-luokka",
+   "type": "measurement",
+   "mode": "length-units",
+   "theme": "",
+   "level": "1-luokka",
+   "deck": "mittaaminen-muodot-g1139"
+  },
+  {
+   "slug": "mittaa-viivaimella-2-luokka",
+   "type": "measurement",
+   "mode": "measure-and-compare-length",
+   "theme": "",
+   "level": "2-luokka",
+   "deck": "mittaaminen-lelut-g2235"
+  },
+  {
+   "slug": "lampotila-ja-tilavuus-3-luokka",
+   "type": "measurement",
+   "mode": "volume-and-temperature",
+   "theme": "",
+   "level": "3-luokka",
+   "deck": "mittaaminen-g3345"
+  },
+  {
+   "slug": "lukutaulu-100-1-luokka",
+   "type": "number-charts",
+   "mode": "hundreds-chart-skip-count",
+   "theme": "",
+   "level": "1-luokka",
+   "deck": "lukutaulu-g1130"
+  },
+  {
+   "slug": "lukujonot-lukukoneet-3-luokka",
+   "type": "number-charts",
+   "mode": "number-patterns",
+   "theme": "",
+   "level": "3-luokka",
+   "deck": "lukutaulu-g3328"
+  },
+  {
+   "slug": "puuttuvat-luvut-esikoulu",
+   "type": "number-charts",
+   "mode": "numbers-to-20",
+   "theme": "",
+   "level": "esikoulu",
+   "deck": "lukutaulu-k021"
+  },
+  {
+   "slug": "lukujonot-2-luokka",
+   "type": "number-charts",
+   "mode": "skip-count-and-100-more-less",
+   "theme": "",
+   "level": "2-luokka",
+   "deck": "lukutaulu-g2218"
+  },
+  {
+   "slug": "mika-ei-kuulu-aiheiden-valilla-ajoneuvot-1b37",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "vehicles",
+   "level": "esikoulu",
+   "deck": "mika-ei-kuulu-aiheiden-valilla-ajoneuvot-1b37"
+  },
+  {
+   "slug": "kellonajat-tehtavat-1-luokka",
+   "type": "telling-time",
+   "mode": "hour-half-hour",
+   "theme": "",
+   "level": "1-luokka",
+   "deck": "kellonajat-g1148"
+  },
+  {
+   "slug": "kellonajat-viisi-minuuttia-2-luokka",
+   "type": "telling-time",
+   "mode": "to-five-minutes",
+   "theme": "",
+   "level": "2-luokka",
+   "deck": "kellonajat-g2249"
+  },
+  {
+   "slug": "kellonajat-aikavali-3-luokka",
+   "type": "telling-time",
+   "mode": "to-the-minute",
+   "theme": "",
+   "level": "3-luokka",
+   "deck": "kellonajat-g3344"
+  }
+ ]
+}

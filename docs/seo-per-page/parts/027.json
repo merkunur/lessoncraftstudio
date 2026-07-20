@@ -1,0 +1,427 @@
+{
+ "part": 27,
+ "locale": "en",
+ "classes": [
+  "math-worksheet::three-symbols-add-sub"
+ ],
+ "splitOf": null,
+ "count": 52,
+ "pages": [
+  {
+   "slug": "math-worksheet-4th-of-july",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "4th_of_july",
+   "level": "grade-2",
+   "deck": "math-worksheet-4th-of-july-001"
+  },
+  {
+   "slug": "math-worksheet-accessories",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "accessories",
+   "level": "grade-2",
+   "deck": "math-worksheet-accessories-001"
+  },
+  {
+   "slug": "math-worksheet-activities",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "activities",
+   "level": "grade-2",
+   "deck": "math-worksheet-activities-001"
+  },
+  {
+   "slug": "math-worksheet-animals",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "animals",
+   "level": "grade-2",
+   "deck": "math-worksheet-animals-001"
+  },
+  {
+   "slug": "math-worksheet-around-the-house",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "around_the_house",
+   "level": "grade-2",
+   "deck": "math-worksheet-around-the-house-001"
+  },
+  {
+   "slug": "math-worksheet-at-the-supermarket",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "at_the_supermarket",
+   "level": "grade-2",
+   "deck": "math-worksheet-at-the-supermarket-001"
+  },
+  {
+   "slug": "math-worksheet-bakery",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "bakery",
+   "level": "grade-2",
+   "deck": "math-worksheet-bakery-001"
+  },
+  {
+   "slug": "math-worksheet-beach",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "beach",
+   "level": "grade-2",
+   "deck": "math-worksheet-beach-001"
+  },
+  {
+   "slug": "math-worksheet-birds",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "birds",
+   "level": "grade-2",
+   "deck": "math-worksheet-birds-001"
+  },
+  {
+   "slug": "math-worksheet-birds-2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "birds_2",
+   "level": "grade-2",
+   "deck": "math-worksheet-birds-2-001"
+  },
+  {
+   "slug": "math-worksheet-body-parts",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "body_parts",
+   "level": "grade-2",
+   "deck": "math-worksheet-body-parts-001"
+  },
+  {
+   "slug": "math-worksheet-breakfast",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "breakfast",
+   "level": "grade-2",
+   "deck": "math-worksheet-breakfast-001"
+  },
+  {
+   "slug": "math-worksheet-camping",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "camping",
+   "level": "grade-2",
+   "deck": "math-worksheet-camping-001"
+  },
+  {
+   "slug": "math-worksheet-christmas",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "christmas",
+   "level": "grade-2",
+   "deck": "math-worksheet-christmas-001"
+  },
+  {
+   "slug": "math-worksheet-classroom",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "classroom",
+   "level": "grade-2",
+   "deck": "math-worksheet-classroom-001"
+  },
+  {
+   "slug": "math-worksheet-clothing",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "clothing",
+   "level": "grade-2",
+   "deck": "math-worksheet-clothing-001"
+  },
+  {
+   "slug": "math-worksheet-colors",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "colors",
+   "level": "grade-2",
+   "deck": "math-worksheet-colors-001"
+  },
+  {
+   "slug": "math-worksheet-desserts-and-sweets",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "desserts_and_sweets",
+   "level": "grade-2",
+   "deck": "math-worksheet-desserts-and-sweets-001"
+  },
+  {
+   "slug": "math-worksheet-dinosaurs",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "dinosaurs",
+   "level": "grade-2",
+   "deck": "math-worksheet-dinosaurs-001"
+  },
+  {
+   "slug": "math-worksheet-easter",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "easter",
+   "level": "grade-2",
+   "deck": "math-worksheet-easter-001"
+  },
+  {
+   "slug": "math-worksheet-emotions",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "emotions",
+   "level": "grade-2",
+   "deck": "math-worksheet-emotions-001"
+  },
+  {
+   "slug": "math-worksheet-faces-bw",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "faces_bw",
+   "level": "grade-2",
+   "deck": "math-worksheet-faces-bw-001"
+  },
+  {
+   "slug": "math-worksheet-farm-animals",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "farm_animals",
+   "level": "grade-2",
+   "deck": "math-worksheet-farm-animals-001"
+  },
+  {
+   "slug": "math-worksheet-flowers",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "flowers",
+   "level": "grade-2",
+   "deck": "math-worksheet-flowers-001"
+  },
+  {
+   "slug": "math-worksheet-forest-creatures",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "forest_creatures",
+   "level": "grade-2",
+   "deck": "math-worksheet-forest-creatures-001"
+  },
+  {
+   "slug": "math-worksheet-fruits",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "fruits",
+   "level": "grade-2",
+   "deck": "math-worksheet-fruits-001"
+  },
+  {
+   "slug": "math-worksheet-furniture",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "furniture",
+   "level": "grade-2",
+   "deck": "math-worksheet-furniture-001"
+  },
+  {
+   "slug": "math-worksheet-hospital",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "hospital",
+   "level": "grade-2",
+   "deck": "math-worksheet-hospital-001"
+  },
+  {
+   "slug": "math-worksheet-insects-and-bugs",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "insects_and_bugs",
+   "level": "grade-2",
+   "deck": "math-worksheet-insects-and-bugs-001"
+  },
+  {
+   "slug": "math-worksheet-kitchen-tools",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "kitchen_tools",
+   "level": "grade-2",
+   "deck": "math-worksheet-kitchen-tools-001"
+  },
+  {
+   "slug": "math-worksheet-miscellaneous",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "miscellaneous",
+   "level": "grade-2",
+   "deck": "math-worksheet-miscellaneous-001"
+  },
+  {
+   "slug": "math-worksheet-music",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "music",
+   "level": "grade-2",
+   "deck": "math-worksheet-music-001"
+  },
+  {
+   "slug": "math-worksheet-occupations",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "occupations",
+   "level": "grade-2",
+   "deck": "math-worksheet-occupations-001"
+  },
+  {
+   "slug": "math-worksheet-ocean-life",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "ocean_life",
+   "level": "grade-2",
+   "deck": "math-worksheet-ocean-life-001"
+  },
+  {
+   "slug": "math-worksheet-pets",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "pets",
+   "level": "grade-2",
+   "deck": "math-worksheet-pets-001"
+  },
+  {
+   "slug": "math-worksheet-post-office",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "post_office",
+   "level": "grade-2",
+   "deck": "math-worksheet-post-office-001"
+  },
+  {
+   "slug": "math-worksheet-reptiles-and-amphibians",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "reptiles_and_amphibians",
+   "level": "grade-2",
+   "deck": "math-worksheet-reptiles-and-amphibians-001"
+  },
+  {
+   "slug": "math-worksheet-shapes",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "shapes",
+   "level": "grade-2",
+   "deck": "math-worksheet-shapes-001"
+  },
+  {
+   "slug": "math-worksheet-space",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "space",
+   "level": "grade-2",
+   "deck": "math-worksheet-space-001"
+  },
+  {
+   "slug": "math-worksheet-spring",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "spring",
+   "level": "grade-2",
+   "deck": "math-worksheet-spring-001"
+  },
+  {
+   "slug": "math-worksheet-summer",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "summer",
+   "level": "grade-2",
+   "deck": "math-worksheet-summer-001"
+  },
+  {
+   "slug": "math-worksheet-thanksgiving",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "thanksgiving",
+   "level": "grade-2",
+   "deck": "math-worksheet-thanksgiving-001"
+  },
+  {
+   "slug": "math-worksheet-things-that-fly",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "things_that_fly",
+   "level": "grade-2",
+   "deck": "math-worksheet-things-that-fly-001"
+  },
+  {
+   "slug": "math-worksheet-tools",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "tools",
+   "level": "grade-2",
+   "deck": "math-worksheet-tools-001"
+  },
+  {
+   "slug": "math-worksheet-toys",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "toys",
+   "level": "grade-2",
+   "deck": "math-worksheet-toys-001"
+  },
+  {
+   "slug": "math-worksheet-trees",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "tree",
+   "level": "grade-2",
+   "deck": "math-worksheet-tree-001"
+  },
+  {
+   "slug": "math-worksheet-valentine-bw",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "valentine_bw",
+   "level": "grade-2",
+   "deck": "math-worksheet-valentine-bw-001"
+  },
+  {
+   "slug": "math-worksheet-vegetables",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "vegetables",
+   "level": "grade-2",
+   "deck": "math-worksheet-vegetables-001"
+  },
+  {
+   "slug": "math-worksheet-vehicles",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "vehicles",
+   "level": "grade-2",
+   "deck": "math-worksheet-vehicles-001"
+  },
+  {
+   "slug": "math-worksheet-weather",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "weather",
+   "level": "grade-2",
+   "deck": "math-worksheet-weather-001"
+  },
+  {
+   "slug": "math-worksheet-winter",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "winter",
+   "level": "grade-2",
+   "deck": "math-worksheet-winter-001"
+  },
+  {
+   "slug": "math-worksheet-zoo-animals",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "zoo_animals",
+   "level": "grade-2",
+   "deck": "math-worksheet-zoo-animals-001"
+  }
+ ]
+}

@@ -1,0 +1,812 @@
+{
+ "part": 83,
+ "locale": "es",
+ "classes": [
+  "addition::mixed",
+  "big-small::orderAsc"
+ ],
+ "splitOf": null,
+ "count": 100,
+ "pages": [
+  {
+   "slug": "suma-mixto-4-de-julio-eda1",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "4th_of_july",
+   "level": "primer-grado",
+   "deck": "suma-mixto-4-de-julio-eda1"
+  },
+  {
+   "slug": "suma-mixto-accesorios-72d1",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "primer-grado",
+   "deck": "suma-mixto-accesorios-72d1"
+  },
+  {
+   "slug": "suma-mixto-actividades-3ad1",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "activities",
+   "level": "primer-grado",
+   "deck": "suma-mixto-actividades-3ad1"
+  },
+  {
+   "slug": "suma-mixto-alrededor-de-la-casa-fa70",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "primer-grado",
+   "deck": "suma-mixto-alrededor-de-la-casa-fa70"
+  },
+  {
+   "slug": "suma-mixto-animales-834f",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "primer-grado",
+   "deck": "suma-mixto-animales-834f"
+  },
+  {
+   "slug": "suma-mixto-animales-de-granja-9775",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "primer-grado",
+   "deck": "suma-mixto-animales-de-granja-9775"
+  },
+  {
+   "slug": "suma-mixto-animales-del-zoologico-d478",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "primer-grado",
+   "deck": "suma-mixto-animales-del-zoologico-d478"
+  },
+  {
+   "slug": "suma-mixto-arboles-24b0",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "primer-grado",
+   "deck": "suma-mixto-arboles-24b0"
+  },
+  {
+   "slug": "suma-mixto-aves-2-1cd8",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "primer-grado",
+   "deck": "suma-mixto-aves-2-1cd8"
+  },
+  {
+   "slug": "suma-mixto-aves-de84",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "primer-grado",
+   "deck": "suma-mixto-aves-de84"
+  },
+  {
+   "slug": "suma-mixto-campamento-fa3a",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "primer-grado",
+   "deck": "suma-mixto-campamento-fa3a"
+  },
+  {
+   "slug": "suma-mixto-clima-5e0d",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "weather",
+   "level": "primer-grado",
+   "deck": "suma-mixto-clima-5e0d"
+  },
+  {
+   "slug": "suma-mixto-colores-5407",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "colors",
+   "level": "primer-grado",
+   "deck": "suma-mixto-colores-5407"
+  },
+  {
+   "slug": "suma-mixto-cosas-que-vuelan-1487",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "primer-grado",
+   "deck": "suma-mixto-cosas-que-vuelan-1487"
+  },
+  {
+   "slug": "suma-mixto-criaturas-del-bosque-a039",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "primer-grado",
+   "deck": "suma-mixto-criaturas-del-bosque-a039"
+  },
+  {
+   "slug": "suma-mixto-desayuno-ef38",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "primer-grado",
+   "deck": "suma-mixto-desayuno-ef38"
+  },
+  {
+   "slug": "suma-mixto-dia-de-accion-de-gracias-e979",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "primer-grado",
+   "deck": "suma-mixto-dia-de-accion-de-gracias-e979"
+  },
+  {
+   "slug": "suma-mixto-dinosaurios-cce7",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "primer-grado",
+   "deck": "suma-mixto-dinosaurios-cce7"
+  },
+  {
+   "slug": "suma-mixto-emociones-4d70",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "emotions",
+   "level": "primer-grado",
+   "deck": "suma-mixto-emociones-4d70"
+  },
+  {
+   "slug": "suma-mixto-en-el-supermercado-87ff",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "primer-grado",
+   "deck": "suma-mixto-en-el-supermercado-87ff"
+  },
+  {
+   "slug": "suma-mixto-espacio-b4e1",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "primer-grado",
+   "deck": "suma-mixto-espacio-b4e1"
+  },
+  {
+   "slug": "suma-mixto-flores-1c31",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "primer-grado",
+   "deck": "suma-mixto-flores-1c31"
+  },
+  {
+   "slug": "suma-mixto-formas-920c",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "primer-grado",
+   "deck": "suma-mixto-formas-920c"
+  },
+  {
+   "slug": "suma-mixto-frutas-055f",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "primer-grado",
+   "deck": "suma-mixto-frutas-055f"
+  },
+  {
+   "slug": "suma-mixto-herramientas-a45b",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "primer-grado",
+   "deck": "suma-mixto-herramientas-a45b"
+  },
+  {
+   "slug": "suma-mixto-hospital-1777",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "primer-grado",
+   "deck": "suma-mixto-hospital-1777"
+  },
+  {
+   "slug": "suma-mixto-insectos-y-bichos-1a8d",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "primer-grado",
+   "deck": "suma-mixto-insectos-y-bichos-1a8d"
+  },
+  {
+   "slug": "suma-mixto-invierno-7b0e",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "winter",
+   "level": "primer-grado",
+   "deck": "suma-mixto-invierno-7b0e"
+  },
+  {
+   "slug": "suma-mixto-juguetes-c8f4",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "primer-grado",
+   "deck": "suma-mixto-juguetes-c8f4"
+  },
+  {
+   "slug": "suma-mixto-mascotas-f374",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "primer-grado",
+   "deck": "suma-mixto-mascotas-f374"
+  },
+  {
+   "slug": "suma-mixto-miscelaneo-ebe9",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "miscellaneous",
+   "level": "primer-grado",
+   "deck": "suma-mixto-miscelaneo-ebe9"
+  },
+  {
+   "slug": "suma-mixto-muebles-ed4f",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "primer-grado",
+   "deck": "suma-mixto-muebles-ed4f"
+  },
+  {
+   "slug": "suma-mixto-musica-e08d",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "primer-grado",
+   "deck": "suma-mixto-musica-e08d"
+  },
+  {
+   "slug": "suma-mixto-navidad-043b",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "primer-grado",
+   "deck": "suma-mixto-navidad-043b"
+  },
+  {
+   "slug": "suma-mixto-ocupaciones-6948",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "primer-grado",
+   "deck": "suma-mixto-ocupaciones-6948"
+  },
+  {
+   "slug": "suma-mixto-oficina-de-correos-8289",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "primer-grado",
+   "deck": "suma-mixto-oficina-de-correos-8289"
+  },
+  {
+   "slug": "suma-mixto-panaderia-fc70",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "primer-grado",
+   "deck": "suma-mixto-panaderia-fc70"
+  },
+  {
+   "slug": "suma-mixto-partes-del-cuerpo-a849",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "body_parts",
+   "level": "primer-grado",
+   "deck": "suma-mixto-partes-del-cuerpo-a849"
+  },
+  {
+   "slug": "suma-mixto-pascua-05ed",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "primer-grado",
+   "deck": "suma-mixto-pascua-05ed"
+  },
+  {
+   "slug": "suma-mixto-playa-8fd5",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "primer-grado",
+   "deck": "suma-mixto-playa-8fd5"
+  },
+  {
+   "slug": "suma-mixto-postres-y-dulces-5b4d",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "primer-grado",
+   "deck": "suma-mixto-postres-y-dulces-5b4d"
+  },
+  {
+   "slug": "suma-mixto-primavera-bb7b",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "spring",
+   "level": "primer-grado",
+   "deck": "suma-mixto-primavera-bb7b"
+  },
+  {
+   "slug": "suma-mixto-reptiles-y-anfibios-4398",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "primer-grado",
+   "deck": "suma-mixto-reptiles-y-anfibios-4398"
+  },
+  {
+   "slug": "suma-mixto-ropa-99c6",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "primer-grado",
+   "deck": "suma-mixto-ropa-99c6"
+  },
+  {
+   "slug": "suma-mixto-salon-de-clases-4028",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "primer-grado",
+   "deck": "suma-mixto-salon-de-clases-4028"
+  },
+  {
+   "slug": "suma-mixto-utensilios-de-cocina-e84a",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "primer-grado",
+   "deck": "suma-mixto-utensilios-de-cocina-e84a"
+  },
+  {
+   "slug": "suma-mixto-vehiculos-e4ba",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "primer-grado",
+   "deck": "suma-mixto-vehiculos-e4ba"
+  },
+  {
+   "slug": "suma-mixto-verano-9969",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "summer",
+   "level": "primer-grado",
+   "deck": "suma-mixto-verano-9969"
+  },
+  {
+   "slug": "suma-mixto-verduras-c7b1",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "primer-grado",
+   "deck": "suma-mixto-verduras-c7b1"
+  },
+  {
+   "slug": "suma-mixto-vida-marina-73b1",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "primer-grado",
+   "deck": "suma-mixto-vida-marina-73b1"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-4-de-julio-c3ea",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "4th_of_july",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-4-de-julio-c3ea"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-accesorios-6a68",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "accessories",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-accesorios-6a68"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-actividades-6435",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "activities",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-actividades-6435"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-alrededor-de-la-casa-da60",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "around_the_house",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-alrededor-de-la-casa-da60"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-animales-d93a",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "animals",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-animales-d93a"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-animales-de-granja-ca7f",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "farm_animals",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-animales-de-granja-ca7f"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-animales-del-zoologico-0801",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "zoo_animals",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-animales-del-zoologico-0801"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-arboles-a13c",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "tree",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-arboles-a13c"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-aves-2-7c76",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "birds_2",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-aves-2-7c76"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-aves-8bf9",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "birds",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-aves-8bf9"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-campamento-18d3",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "camping",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-campamento-18d3"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-clima-4691",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "weather",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-clima-4691"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-colores-8167",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "colors",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-colores-8167"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-cosas-que-vuelan-4a28",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "things_that_fly",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-cosas-que-vuelan-4a28"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-criaturas-del-bosque-1099",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "forest_creatures",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-criaturas-del-bosque-1099"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-desayuno-7816",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "breakfast",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-desayuno-7816"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-dia-de-accion-de-gracias-5540",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "thanksgivinng",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-dia-de-accion-de-gracias-5540"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-dinosaurios-44ba",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "dinosaurs",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-dinosaurios-44ba"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-emociones-23aa",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "emotions",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-emociones-23aa"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-en-el-supermercado-8881",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "at_the_supermarket",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-en-el-supermercado-8881"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-espacio-e05e",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "space",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-espacio-e05e"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-flores-e302",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "flowers",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-flores-e302"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-formas-4557",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "shapes",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-formas-4557"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-frutas-85e8",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "fruits",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-frutas-85e8"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-herramientas-b1b1",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "tools",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-herramientas-b1b1"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-hospital-a444",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "hospital",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-hospital-a444"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-insectos-y-bichos-ad1d",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "insects_and_bugs",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-insectos-y-bichos-ad1d"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-invierno-20dd",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "winter",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-invierno-20dd"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-juguetes-430a",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "toys",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-juguetes-430a"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-mascotas-73bd",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "pets",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-mascotas-73bd"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-miscelaneo-2b05",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "miscellaneous",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-miscelaneo-2b05"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-muebles-a6e9",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "furniture",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-muebles-a6e9"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-musica-ebcf",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "music",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-musica-ebcf"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-navidad-4bc4",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "christmas",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-navidad-4bc4"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-ocupaciones-d01c",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "occupations",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-ocupaciones-d01c"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-oficina-de-correos-6370",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "post_office",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-oficina-de-correos-6370"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-panaderia-3329",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "bakery",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-panaderia-3329"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-partes-del-cuerpo-2e9c",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "body_parts",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-partes-del-cuerpo-2e9c"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-pascua-c4f9",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "easter",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-pascua-c4f9"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-playa-3b7f",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "beach",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-playa-3b7f"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-postres-y-dulces-0efa",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "desserts_and_sweets",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-postres-y-dulces-0efa"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-primavera-55ab",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "spring",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-primavera-55ab"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-reptiles-y-anfibios-3db8",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "reptiles_and_amphibians",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-reptiles-y-anfibios-3db8"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-ropa-2062",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "clothing",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-ropa-2062"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-salon-de-clases-59e3",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "classroom",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-salon-de-clases-59e3"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-utensilios-de-cocina-1878",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "kitchen_tools",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-utensilios-de-cocina-1878"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-vehiculos-1a76",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "vehicles",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-vehiculos-1a76"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-verano-3e08",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "summer",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-verano-3e08"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-verduras-153f",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "vegetables",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-verduras-153f"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-vida-marina-b6b0",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "ocean_life",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-vida-marina-b6b0"
+  }
+ ]
+}

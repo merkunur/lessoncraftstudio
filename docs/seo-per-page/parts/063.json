@@ -1,0 +1,732 @@
+{
+ "part": 63,
+ "locale": "de",
+ "classes": [
+  "pattern-worksheet::null",
+  "shadow-match::find-shadow"
+ ],
+ "splitOf": null,
+ "count": 90,
+ "pages": [
+  {
+   "slug": "muster-arbeitsblatt-accessoires-a84e",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "accessories",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-accessoires-a84e"
+  },
+  {
+   "slug": "muster-arbeitsblatt-aktivitaten-35d9",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "activities",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-aktivitaten-35d9"
+  },
+  {
+   "slug": "muster-arbeitsblatt-backerei-742b",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "bakery",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-backerei-742b"
+  },
+  {
+   "slug": "muster-arbeitsblatt-bauernhoftiere-840c",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-bauernhoftiere-840c"
+  },
+  {
+   "slug": "muster-arbeitsblatt-baume-7019",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "tree",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-baume-7019"
+  },
+  {
+   "slug": "muster-arbeitsblatt-berufe-158f",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "occupations",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-berufe-158f"
+  },
+  {
+   "slug": "muster-arbeitsblatt-blumen-c2b5",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "flowers",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-blumen-c2b5"
+  },
+  {
+   "slug": "muster-arbeitsblatt-camping-87fc",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "camping",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-camping-87fc"
+  },
+  {
+   "slug": "muster-arbeitsblatt-desserts-und-sussigkeiten-31b7",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-desserts-und-sussigkeiten-31b7"
+  },
+  {
+   "slug": "muster-arbeitsblatt-dinge-die-fliegen-873f",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-dinge-die-fliegen-873f"
+  },
+  {
+   "slug": "muster-arbeitsblatt-dinosaurier-5cda",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-dinosaurier-5cda"
+  },
+  {
+   "slug": "muster-arbeitsblatt-emotionen-7bbb",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "emotions",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-emotionen-7bbb"
+  },
+  {
+   "slug": "muster-arbeitsblatt-erntedankfest-4141",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-erntedankfest-4141"
+  },
+  {
+   "slug": "muster-arbeitsblatt-fahrzeuge-d425",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-fahrzeuge-d425"
+  },
+  {
+   "slug": "muster-arbeitsblatt-farben-797b",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "colors",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-farben-797b"
+  },
+  {
+   "slug": "muster-arbeitsblatt-formen-43ee",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "shapes",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-formen-43ee"
+  },
+  {
+   "slug": "muster-arbeitsblatt-fruchte-5c57",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "fruits",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-fruchte-5c57"
+  },
+  {
+   "slug": "muster-arbeitsblatt-fruhling-8e24",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "spring",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-fruhling-8e24"
+  },
+  {
+   "slug": "muster-arbeitsblatt-fruhstuck-bce5",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-fruhstuck-bce5"
+  },
+  {
+   "slug": "muster-arbeitsblatt-gemuse-8284",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-gemuse-8284"
+  },
+  {
+   "slug": "muster-arbeitsblatt-haustiere-54f1",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "pets",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-haustiere-54f1"
+  },
+  {
+   "slug": "muster-arbeitsblatt-im-supermarkt-4bde",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-im-supermarkt-4bde"
+  },
+  {
+   "slug": "muster-arbeitsblatt-insekten-und-kafer-172b",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-insekten-und-kafer-172b"
+  },
+  {
+   "slug": "muster-arbeitsblatt-klassenzimmer-b20e",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "classroom",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-klassenzimmer-b20e"
+  },
+  {
+   "slug": "muster-arbeitsblatt-kleidung-8781",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "clothing",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-kleidung-8781"
+  },
+  {
+   "slug": "muster-arbeitsblatt-korperteile-77e3",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-korperteile-77e3"
+  },
+  {
+   "slug": "muster-arbeitsblatt-krankenhaus-81fc",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "hospital",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-krankenhaus-81fc"
+  },
+  {
+   "slug": "muster-arbeitsblatt-kuchenwerkzeuge-083f",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-kuchenwerkzeuge-083f"
+  },
+  {
+   "slug": "muster-arbeitsblatt-meeresleben-8317",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-meeresleben-8317"
+  },
+  {
+   "slug": "muster-arbeitsblatt-mobel-70f0",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "furniture",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-mobel-70f0"
+  },
+  {
+   "slug": "muster-arbeitsblatt-musik-242b",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "music",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-musik-242b"
+  },
+  {
+   "slug": "muster-arbeitsblatt-ostern-4213",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "easter",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-ostern-4213"
+  },
+  {
+   "slug": "muster-arbeitsblatt-postamt-8034",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "post_office",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-postamt-8034"
+  },
+  {
+   "slug": "muster-arbeitsblatt-rund-ums-haus-5279",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-rund-ums-haus-5279"
+  },
+  {
+   "slug": "muster-arbeitsblatt-sommer-0604",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "summer",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-sommer-0604"
+  },
+  {
+   "slug": "muster-arbeitsblatt-spielzeug-8b89",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "toys",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-spielzeug-8b89"
+  },
+  {
+   "slug": "muster-arbeitsblatt-strand-02db",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "beach",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-strand-02db"
+  },
+  {
+   "slug": "muster-arbeitsblatt-tiere-e989",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "animals",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-tiere-e989"
+  },
+  {
+   "slug": "muster-arbeitsblatt-vogel-2-db1e",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-vogel-2-db1e"
+  },
+  {
+   "slug": "muster-arbeitsblatt-vogel-790e",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "birds",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-vogel-790e"
+  },
+  {
+   "slug": "muster-arbeitsblatt-waldtiere-084e",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-waldtiere-084e"
+  },
+  {
+   "slug": "muster-arbeitsblatt-werkzeuge-ba41",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "tools",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-werkzeuge-ba41"
+  },
+  {
+   "slug": "muster-arbeitsblatt-wetter-db86",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "weather",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-wetter-db86"
+  },
+  {
+   "slug": "muster-arbeitsblatt-winter-d49d",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "winter",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-winter-d49d"
+  },
+  {
+   "slug": "muster-arbeitsblatt-zootiere-b983",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "vorschule",
+   "deck": "muster-arbeitsblatt-zootiere-b983"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-accessoires-6b4d",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "accessories",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-accessoires-6b4d"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-aktivitaten-d78e",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "activities",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-aktivitaten-d78e"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-backerei-2645",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "bakery",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-backerei-2645"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-bauernhoftiere-7ac9",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "farm_animals",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-bauernhoftiere-7ac9"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-baume-13fb",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "tree",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-baume-13fb"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-berufe-6db2",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "occupations",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-berufe-6db2"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-blumen-e858",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "flowers",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-blumen-e858"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-camping-36bc",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "camping",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-camping-36bc"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-desserts-und-sussigkeiten-1f7c",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "desserts_and_sweets",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-desserts-und-sussigkeiten-1f7c"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-dinge-die-fliegen-75d1",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "things_that_fly",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-dinge-die-fliegen-75d1"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-dinosaurier-60f4",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "dinosaurs",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-dinosaurier-60f4"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-erntedankfest-7561",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "thanksgivinng",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-erntedankfest-7561"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-fahrzeuge-4325",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "vehicles",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-fahrzeuge-4325"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-fruchte-0159",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "fruits",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-fruchte-0159"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-fruhling-439c",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "spring",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-fruhling-439c"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-fruhstuck-ade6",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "breakfast",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-fruhstuck-ade6"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-gemuse-105b",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "vegetables",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-gemuse-105b"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-haustiere-0bfc",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "pets",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-haustiere-0bfc"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-im-supermarkt-0768",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "at_the_supermarket",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-im-supermarkt-0768"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-insekten-und-kafer-4515",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "insects_and_bugs",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-insekten-und-kafer-4515"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-klassenzimmer-ac19",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "classroom",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-klassenzimmer-ac19"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-kleidung-b357",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "clothing",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-kleidung-b357"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-korperteile-49b5",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "body_parts",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-korperteile-49b5"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-krankenhaus-3363",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "hospital",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-krankenhaus-3363"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-kuchenwerkzeuge-48be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "kitchen_tools",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-kuchenwerkzeuge-48be"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-meeresleben-8419",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "ocean_life",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-meeresleben-8419"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-mobel-5a36",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "furniture",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-mobel-5a36"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-musik-0266",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "music",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-musik-0266"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-ostern-a4ce",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "easter",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-ostern-a4ce"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-postamt-da0c",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "post_office",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-postamt-da0c"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-reptilien-und-amphibien-8d6c",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "reptiles_and_amphibians",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-reptilien-und-amphibien-8d6c"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-rund-ums-haus-e4d6",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "around_the_house",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-rund-ums-haus-e4d6"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-sommer-8b75",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "summer",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-sommer-8b75"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-spielzeug-c723",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "toys",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-spielzeug-c723"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-strand-57dc",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "beach",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-strand-57dc"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-tiere",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "animals",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-tiere"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-vogel-2-7881",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "birds_2",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-vogel-2-7881"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-vogel-9062",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "birds",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-vogel-9062"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-waldtiere-a6ec",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "forest_creatures",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-waldtiere-a6ec"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-weihnachten-8077",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "christmas",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-weihnachten-8077"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-weltraum-27e5",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "space",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-weltraum-27e5"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-werkzeuge-88dd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "tools",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-werkzeuge-88dd"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-wetter-f1ec",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "weather",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-wetter-f1ec"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-winter-bca2",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "winter",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-winter-bca2"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-zootiere-8f4a",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "zoo_animals",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-zootiere-8f4a"
+  }
+ ]
+}

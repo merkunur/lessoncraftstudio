@@ -1,0 +1,764 @@
+{
+ "part": 336,
+ "locale": "fi",
+ "classes": [
+  "treasure-hunt::compass",
+  "word-guess::easy"
+ ],
+ "splitOf": null,
+ "count": 94,
+ "pages": [
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-aamiainen-d1e1",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "breakfast",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-aamiainen-d1e1"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-ajoneuvot-b3a8",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "vehicles",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-ajoneuvot-b3a8"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-aktiviteetit-c1e3",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "activities",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-aktiviteetit-c1e3"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-ammatit-46ac",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "occupations",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-ammatit-46ac"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-asusteet-2290",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "accessories",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-asusteet-2290"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-avaruus-cfbb",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "space",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-avaruus-cfbb"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-dinosaurukset-7865",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "dinosaurs",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-dinosaurukset-7865"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-elaimet-ff9d",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "animals",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-elaimet-ff9d"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-elaintarhan-elaimet-7102",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "zoo_animals",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-elaintarhan-elaimet-7102"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-hedelmat-5083",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "fruits",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-hedelmat-5083"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-huonekalut-edd9",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "furniture",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-huonekalut-edd9"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-hyonteiset-ja-otokat-5ede",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "insects_and_bugs",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-hyonteiset-ja-otokat-5ede"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-jalkiruoat-ja-makeiset-294d",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "desserts_and_sweets",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-jalkiruoat-ja-makeiset-294d"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-joulu-eb7f",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "christmas",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-joulu-eb7f"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-keittiovalineet-fa81",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "kitchen_tools",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-keittiovalineet-fa81"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-kesa-ddb3",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "summer",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-kesa-ddb3"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-kevat-a03b",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "spring",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-kevat-a03b"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-kiitospaiva-c3fb",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "thanksgivinng",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-kiitospaiva-c3fb"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-kodin-ymparilla-9453",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "around_the_house",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-kodin-ymparilla-9453"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-kukat-c095",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "flowers",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-kukat-c095"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-leipomo-916a",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "bakery",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-leipomo-916a"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-leirielama-987d",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "camping",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-leirielama-987d"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-lelut-e1d6",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "toys",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-lelut-e1d6"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-lemmikit-b15e",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "pets",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-lemmikit-b15e"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-lentavat-asiat-0ac2",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "things_that_fly",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-lentavat-asiat-0ac2"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-linnut-2-e8b4",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "birds_2",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-linnut-2-e8b4"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-luokkahuone-d53c",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "classroom",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-luokkahuone-d53c"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-maatilan-elaimet-4002",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "farm_animals",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-maatilan-elaimet-4002"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-matelijat-ja-sammakkoelaimet-8127",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "reptiles_and_amphibians",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-matelijat-ja-sammakkoelaimet-8127"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-merielama-d200",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "ocean_life",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-merielama-d200"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-metsan-elaimet-395b",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "forest_creatures",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-metsan-elaimet-395b"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-muodot-9788",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "shapes",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-muodot-9788"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-musiikki-7196",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "music",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-musiikki-7196"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-paasiainen-cd2b",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "easter",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-paasiainen-cd2b"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-postitoimisto-4f61",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "post_office",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-postitoimisto-4f61"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-puut-512a",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "tree",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-puut-512a"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-ranta-978e",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "beach",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-ranta-978e"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-ruokakaupassa-d5f0",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "at_the_supermarket",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-ruokakaupassa-d5f0"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-ruumiinosat-30f3",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "body_parts",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-ruumiinosat-30f3"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-saa-23b9",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "weather",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-saa-23b9"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-sairaala-0f40",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "hospital",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-sairaala-0f40"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-talvi-0d7f",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "winter",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-talvi-0d7f"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-tunteet-72e5",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "emotions",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-tunteet-72e5"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-tyokalut-2238",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "tools",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-tyokalut-2238"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-vaatteet-5aa7",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "clothing",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-vaatteet-5aa7"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-varit-7eff",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "colors",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-varit-7eff"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-vihannekset-5161",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "vegetables",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-vihannekset-5161"
+  },
+  {
+   "slug": "arvaa-sana-helppo-aamiainen-11c0",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "breakfast",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-aamiainen-11c0"
+  },
+  {
+   "slug": "arvaa-sana-helppo-ajoneuvot-e514",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "vehicles",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-ajoneuvot-e514"
+  },
+  {
+   "slug": "arvaa-sana-helppo-aktiviteetit-b00e",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "activities",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-aktiviteetit-b00e"
+  },
+  {
+   "slug": "arvaa-sana-helppo-ammatit-e621",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "occupations",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-ammatit-e621"
+  },
+  {
+   "slug": "arvaa-sana-helppo-asusteet-3c66",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "accessories",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-asusteet-3c66"
+  },
+  {
+   "slug": "arvaa-sana-helppo-avaruus-51e1",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "space",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-avaruus-51e1"
+  },
+  {
+   "slug": "arvaa-sana-helppo-dinosaurukset-793f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "dinosaurs",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-dinosaurukset-793f"
+  },
+  {
+   "slug": "arvaa-sana-helppo-elaimet-3195",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "animals",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-elaimet-3195"
+  },
+  {
+   "slug": "arvaa-sana-helppo-elaintarhan-elaimet-da9f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "zoo_animals",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-elaintarhan-elaimet-da9f"
+  },
+  {
+   "slug": "arvaa-sana-helppo-hedelmat-da27",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "fruits",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-hedelmat-da27"
+  },
+  {
+   "slug": "arvaa-sana-helppo-huonekalut-f07d",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "furniture",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-huonekalut-f07d"
+  },
+  {
+   "slug": "arvaa-sana-helppo-hyonteiset-ja-otokat-3872",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "insects_and_bugs",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-hyonteiset-ja-otokat-3872"
+  },
+  {
+   "slug": "arvaa-sana-helppo-jalkiruoat-ja-makeiset-6b22",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "desserts_and_sweets",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-jalkiruoat-ja-makeiset-6b22"
+  },
+  {
+   "slug": "arvaa-sana-helppo-joulu-4997",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "christmas",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-joulu-4997"
+  },
+  {
+   "slug": "arvaa-sana-helppo-keittiovalineet-21b3",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "kitchen_tools",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-keittiovalineet-21b3"
+  },
+  {
+   "slug": "arvaa-sana-helppo-kesa-0a5f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "summer",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-kesa-0a5f"
+  },
+  {
+   "slug": "arvaa-sana-helppo-kevat-263d",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-kevat-263d"
+  },
+  {
+   "slug": "arvaa-sana-helppo-kiitospaiva-9c33",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "thanksgivinng",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-kiitospaiva-9c33"
+  },
+  {
+   "slug": "arvaa-sana-helppo-kodin-ymparilla-db4e",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "around_the_house",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-kodin-ymparilla-db4e"
+  },
+  {
+   "slug": "arvaa-sana-helppo-kukat-a7da",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "flowers",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-kukat-a7da"
+  },
+  {
+   "slug": "arvaa-sana-helppo-leipomo-2083",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "bakery",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-leipomo-2083"
+  },
+  {
+   "slug": "arvaa-sana-helppo-leirielama-02da",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "camping",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-leirielama-02da"
+  },
+  {
+   "slug": "arvaa-sana-helppo-lelut-554c",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "toys",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-lelut-554c"
+  },
+  {
+   "slug": "arvaa-sana-helppo-lemmikit-720a",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "pets",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-lemmikit-720a"
+  },
+  {
+   "slug": "arvaa-sana-helppo-lentavat-asiat-7c13",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "things_that_fly",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-lentavat-asiat-7c13"
+  },
+  {
+   "slug": "arvaa-sana-helppo-linnut-bb9e",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "birds",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-linnut-bb9e"
+  },
+  {
+   "slug": "arvaa-sana-helppo-luokkahuone-9fea",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "classroom",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-luokkahuone-9fea"
+  },
+  {
+   "slug": "arvaa-sana-helppo-maatilan-elaimet-35f8",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "farm_animals",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-maatilan-elaimet-35f8"
+  },
+  {
+   "slug": "arvaa-sana-helppo-matelijat-ja-sammakkoelaimet-c06c",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-matelijat-ja-sammakkoelaimet-c06c"
+  },
+  {
+   "slug": "arvaa-sana-helppo-merielama-a53c",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "ocean_life",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-merielama-a53c"
+  },
+  {
+   "slug": "arvaa-sana-helppo-metsan-elaimet-0a04",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "forest_creatures",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-metsan-elaimet-0a04"
+  },
+  {
+   "slug": "arvaa-sana-helppo-muodot-1243",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "shapes",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-muodot-1243"
+  },
+  {
+   "slug": "arvaa-sana-helppo-musiikki-8f4d",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "music",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-musiikki-8f4d"
+  },
+  {
+   "slug": "arvaa-sana-helppo-paasiainen-5890",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "easter",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-paasiainen-5890"
+  },
+  {
+   "slug": "arvaa-sana-helppo-postitoimisto-96f8",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "post_office",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-postitoimisto-96f8"
+  },
+  {
+   "slug": "arvaa-sana-helppo-puut-9db8",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "tree",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-puut-9db8"
+  },
+  {
+   "slug": "arvaa-sana-helppo-ranta-6d36",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "beach",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-ranta-6d36"
+  },
+  {
+   "slug": "arvaa-sana-helppo-ruokakaupassa-f786",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-ruokakaupassa-f786"
+  },
+  {
+   "slug": "arvaa-sana-helppo-ruumiinosat-876f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-ruumiinosat-876f"
+  },
+  {
+   "slug": "arvaa-sana-helppo-saa-052f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-saa-052f"
+  },
+  {
+   "slug": "arvaa-sana-helppo-sairaala-6b27",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "hospital",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-sairaala-6b27"
+  },
+  {
+   "slug": "arvaa-sana-helppo-talvi-076b",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-talvi-076b"
+  },
+  {
+   "slug": "arvaa-sana-helppo-tunteet-58c0",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "emotions",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-tunteet-58c0"
+  },
+  {
+   "slug": "arvaa-sana-helppo-tyokalut-2a21",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "tools",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-tyokalut-2a21"
+  },
+  {
+   "slug": "arvaa-sana-helppo-vaatteet-0caa",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "clothing",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-vaatteet-0caa"
+  },
+  {
+   "slug": "arvaa-sana-helppo-varit-a673",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "colors",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-varit-a673"
+  },
+  {
+   "slug": "arvaa-sana-helppo-vihannekset-d89f",
+   "type": "word-guess",
+   "mode": "easy",
+   "theme": "vegetables",
+   "level": "1-luokka",
+   "deck": "arvaa-sana-helppo-vihannekset-d89f"
+  }
+ ]
+}

@@ -1,0 +1,652 @@
+{
+ "part": 279,
+ "locale": "da",
+ "classes": [
+  "addition::mixed",
+  "math-puzzle::subtraction"
+ ],
+ "splitOf": null,
+ "count": 80,
+ "pages": [
+  {
+   "slug": "addition-blandet-bageri-e02f",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "addition-blandet-bageri-e02f"
+  },
+  {
+   "slug": "addition-blandet-blomster-b33d",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "addition-blandet-blomster-b33d"
+  },
+  {
+   "slug": "addition-blandet-bondegardsdyr-4c19",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "addition-blandet-bondegardsdyr-4c19"
+  },
+  {
+   "slug": "addition-blandet-camping-b05c",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "addition-blandet-camping-b05c"
+  },
+  {
+   "slug": "addition-blandet-desserter-og-slik-aae4",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "1-klasse",
+   "deck": "addition-blandet-desserter-og-slik-aae4"
+  },
+  {
+   "slug": "addition-blandet-dinosaurer-d9b4",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "1-klasse",
+   "deck": "addition-blandet-dinosaurer-d9b4"
+  },
+  {
+   "slug": "addition-blandet-dyr-8523",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "addition-blandet-dyr-8523"
+  },
+  {
+   "slug": "addition-blandet-erhverv-2100",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "addition-blandet-erhverv-2100"
+  },
+  {
+   "slug": "addition-blandet-former-e15a",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "addition-blandet-former-e15a"
+  },
+  {
+   "slug": "addition-blandet-frugter-c754",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "addition-blandet-frugter-c754"
+  },
+  {
+   "slug": "addition-blandet-fugle-2-fafb",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "addition-blandet-fugle-2-fafb"
+  },
+  {
+   "slug": "addition-blandet-fugle-7aeb",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "addition-blandet-fugle-7aeb"
+  },
+  {
+   "slug": "addition-blandet-grontsager-03aa",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "addition-blandet-grontsager-03aa"
+  },
+  {
+   "slug": "addition-blandet-havliv-04d2",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "addition-blandet-havliv-04d2"
+  },
+  {
+   "slug": "addition-blandet-hospital-a09c",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "addition-blandet-hospital-a09c"
+  },
+  {
+   "slug": "addition-blandet-i-supermarkedet-8069",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "addition-blandet-i-supermarkedet-8069"
+  },
+  {
+   "slug": "addition-blandet-insekter-og-kryb-9256",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "addition-blandet-insekter-og-kryb-9256"
+  },
+  {
+   "slug": "addition-blandet-jul-99b7",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "addition-blandet-jul-99b7"
+  },
+  {
+   "slug": "addition-blandet-kaeledyr-6003",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "addition-blandet-kaeledyr-6003"
+  },
+  {
+   "slug": "addition-blandet-klassevaerelse-3fb0",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "addition-blandet-klassevaerelse-3fb0"
+  },
+  {
+   "slug": "addition-blandet-kokkenredskaber-f5b2",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "addition-blandet-kokkenredskaber-f5b2"
+  },
+  {
+   "slug": "addition-blandet-koretojer-d603",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "addition-blandet-koretojer-d603"
+  },
+  {
+   "slug": "addition-blandet-krybdyr-og-padder-c789",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "addition-blandet-krybdyr-og-padder-c789"
+  },
+  {
+   "slug": "addition-blandet-legetoj-69b8",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "addition-blandet-legetoj-69b8"
+  },
+  {
+   "slug": "addition-blandet-mobler-aefa",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "addition-blandet-mobler-aefa"
+  },
+  {
+   "slug": "addition-blandet-morgenmad-726a",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "addition-blandet-morgenmad-726a"
+  },
+  {
+   "slug": "addition-blandet-musik-7bbe",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "addition-blandet-musik-7bbe"
+  },
+  {
+   "slug": "addition-blandet-paske-5bdc",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "addition-blandet-paske-5bdc"
+  },
+  {
+   "slug": "addition-blandet-postkontor-49ad",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "addition-blandet-postkontor-49ad"
+  },
+  {
+   "slug": "addition-blandet-rummet-f286",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "addition-blandet-rummet-f286"
+  },
+  {
+   "slug": "addition-blandet-rundt-i-huset-133f",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "addition-blandet-rundt-i-huset-133f"
+  },
+  {
+   "slug": "addition-blandet-skovdyr-f2e1",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "addition-blandet-skovdyr-f2e1"
+  },
+  {
+   "slug": "addition-blandet-strand-10bd",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "addition-blandet-strand-10bd"
+  },
+  {
+   "slug": "addition-blandet-thanksgiving-1760",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "addition-blandet-thanksgiving-1760"
+  },
+  {
+   "slug": "addition-blandet-tilbehor-4faf",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "addition-blandet-tilbehor-4faf"
+  },
+  {
+   "slug": "addition-blandet-ting-der-flyver-5414",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "addition-blandet-ting-der-flyver-5414"
+  },
+  {
+   "slug": "addition-blandet-toj-75f8",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "addition-blandet-toj-75f8"
+  },
+  {
+   "slug": "addition-blandet-traeer-7ab6",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "addition-blandet-traeer-7ab6"
+  },
+  {
+   "slug": "addition-blandet-vaerktoj-64b1",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "addition-blandet-vaerktoj-64b1"
+  },
+  {
+   "slug": "addition-blandet-zoodyr-09a6",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "addition-blandet-zoodyr-09a6"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-bageri-1422",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-subtraktion-bageri-1422"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-blomster-a0e2",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-subtraktion-blomster-a0e2"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-bondegardsdyr-8072",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-subtraktion-bondegardsdyr-8072"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-camping-c5f3",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "camping",
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-subtraktion-camping-c5f3"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-dinosaurer-a436",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "dinosaurs",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-subtraktion-dinosaurer-a436"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-diverse-581c",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "miscellaneous",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-subtraktion-diverse-581c"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-dyr-c1f8",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-subtraktion-dyr-c1f8"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-erhverv-66e4",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "occupations",
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-subtraktion-erhverv-66e4"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-former-fa18",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-subtraktion-former-fa18"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-frugter-abe0",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-subtraktion-frugter-abe0"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-fugle-2-590c",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-subtraktion-fugle-2-590c"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-fugle-eaa5",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-subtraktion-fugle-eaa5"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-grontsager-0440",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-subtraktion-grontsager-0440"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-havliv-cfcf",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-subtraktion-havliv-cfcf"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-hospital-2106",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "hospital",
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-subtraktion-hospital-2106"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-i-supermarkedet-6e74",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "at_the_supermarket",
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-subtraktion-i-supermarkedet-6e74"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-insekter-og-kryb-adcf",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-subtraktion-insekter-og-kryb-adcf"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-jul-65e9",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "christmas",
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-subtraktion-jul-65e9"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-kaeledyr-d9b2",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "pets",
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-subtraktion-kaeledyr-d9b2"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-klassevaerelse-79aa",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "classroom",
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-subtraktion-klassevaerelse-79aa"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-kokkenredskaber-b4c9",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "kitchen_tools",
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-subtraktion-kokkenredskaber-b4c9"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-koretojer-5be2",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "vehicles",
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-subtraktion-koretojer-5be2"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-krybdyr-og-padder-43a2",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-subtraktion-krybdyr-og-padder-43a2"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-legetoj-6825",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "toys",
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-subtraktion-legetoj-6825"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-mobler-7ace",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-subtraktion-mobler-7ace"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-morgenmad-7b41",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-subtraktion-morgenmad-7b41"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-musik-e67d",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "music",
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-subtraktion-musik-e67d"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-paske-38b9",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-subtraktion-paske-38b9"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-postkontor-0c56",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-subtraktion-postkontor-0c56"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-rummet-cd3a",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "space",
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-subtraktion-rummet-cd3a"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-rundt-i-huset-9cdb",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "around_the_house",
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-subtraktion-rundt-i-huset-9cdb"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-skovdyr-e4c9",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "forest_creatures",
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-subtraktion-skovdyr-e4c9"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-strand-3f3e",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "beach",
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-subtraktion-strand-3f3e"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-thanksgiving-1d72",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-subtraktion-thanksgiving-1d72"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-tilbehor-c552",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "accessories",
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-subtraktion-tilbehor-c552"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-ting-der-flyver-dc41",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-subtraktion-ting-der-flyver-dc41"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-toj-47fe",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "clothing",
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-subtraktion-toj-47fe"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-traeer-cd81",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-subtraktion-traeer-cd81"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-vaerktoj-32a2",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-subtraktion-vaerktoj-32a2"
+  },
+  {
+   "slug": "matematikpuslespil-subtraktion-zoodyr-46d9",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-subtraktion-zoodyr-46d9"
+  }
+ ]
+}

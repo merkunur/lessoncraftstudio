@@ -1,0 +1,747 @@
+{
+ "part": 229,
+ "locale": "sv",
+ "classes": [
+  "crossword::null"
+ ],
+ "splitOf": null,
+ "count": 92,
+ "pages": [
+  {
+   "slug": "engelska-korsord-4-juli-8797",
+   "type": "crossword",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-4-juli-8797"
+  },
+  {
+   "slug": "engelska-korsord-aktiviteter-2829",
+   "type": "crossword",
+   "mode": null,
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-aktiviteter-2829"
+  },
+  {
+   "slug": "engelska-korsord-bageri-6c05",
+   "type": "crossword",
+   "mode": null,
+   "theme": "bakery",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-bageri-6c05"
+  },
+  {
+   "slug": "engelska-korsord-blommor-858c",
+   "type": "crossword",
+   "mode": null,
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-blommor-858c"
+  },
+  {
+   "slug": "engelska-korsord-bondgardsdjur-bd3a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-bondgardsdjur-bd3a"
+  },
+  {
+   "slug": "engelska-korsord-camping-06ec",
+   "type": "crossword",
+   "mode": null,
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-camping-06ec"
+  },
+  {
+   "slug": "engelska-korsord-djur-123e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-djur-123e"
+  },
+  {
+   "slug": "engelska-korsord-djurparksdjur-62c4",
+   "type": "crossword",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-djurparksdjur-62c4"
+  },
+  {
+   "slug": "engelska-korsord-efterratter-och-godis-408f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-efterratter-och-godis-408f"
+  },
+  {
+   "slug": "engelska-korsord-faglar-2-5913",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-faglar-2-5913"
+  },
+  {
+   "slug": "engelska-korsord-faglar-c349",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-faglar-c349"
+  },
+  {
+   "slug": "engelska-korsord-farger-0db0",
+   "type": "crossword",
+   "mode": null,
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-farger-0db0"
+  },
+  {
+   "slug": "engelska-korsord-fordon-c336",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-fordon-c336"
+  },
+  {
+   "slug": "engelska-korsord-former-0755",
+   "type": "crossword",
+   "mode": null,
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-former-0755"
+  },
+  {
+   "slug": "engelska-korsord-frukost-2538",
+   "type": "crossword",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-frukost-2538"
+  },
+  {
+   "slug": "engelska-korsord-frukter-c735",
+   "type": "crossword",
+   "mode": null,
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-frukter-c735"
+  },
+  {
+   "slug": "engelska-korsord-gronsaker-e31b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-gronsaker-e31b"
+  },
+  {
+   "slug": "engelska-korsord-havsliv-85cb",
+   "type": "crossword",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-havsliv-85cb"
+  },
+  {
+   "slug": "engelska-korsord-husdjur-5320",
+   "type": "crossword",
+   "mode": null,
+   "theme": "pets",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-husdjur-5320"
+  },
+  {
+   "slug": "engelska-korsord-i-snabbkopet-8ebc",
+   "type": "crossword",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-i-snabbkopet-8ebc"
+  },
+  {
+   "slug": "engelska-korsord-insekter-och-kryp-9bff",
+   "type": "crossword",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-insekter-och-kryp-9bff"
+  },
+  {
+   "slug": "engelska-korsord-jul-9b2e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "christmas",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-jul-9b2e"
+  },
+  {
+   "slug": "engelska-korsord-kanslor-13fd",
+   "type": "crossword",
+   "mode": null,
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-kanslor-13fd"
+  },
+  {
+   "slug": "engelska-korsord-klader-1844",
+   "type": "crossword",
+   "mode": null,
+   "theme": "clothing",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-klader-1844"
+  },
+  {
+   "slug": "engelska-korsord-klassrum-b7fe",
+   "type": "crossword",
+   "mode": null,
+   "theme": "classroom",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-klassrum-b7fe"
+  },
+  {
+   "slug": "engelska-korsord-koksredskap-6611",
+   "type": "crossword",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-koksredskap-6611"
+  },
+  {
+   "slug": "engelska-korsord-kroppsdelar-8526",
+   "type": "crossword",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-kroppsdelar-8526"
+  },
+  {
+   "slug": "engelska-korsord-leksaker-73a9",
+   "type": "crossword",
+   "mode": null,
+   "theme": "toys",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-leksaker-73a9"
+  },
+  {
+   "slug": "engelska-korsord-mobler-ac13",
+   "type": "crossword",
+   "mode": null,
+   "theme": "furniture",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-mobler-ac13"
+  },
+  {
+   "slug": "engelska-korsord-musik-0d62",
+   "type": "crossword",
+   "mode": null,
+   "theme": "music",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-musik-0d62"
+  },
+  {
+   "slug": "engelska-korsord-pask-833a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "easter",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-pask-833a"
+  },
+  {
+   "slug": "engelska-korsord-postkontor-1e7d",
+   "type": "crossword",
+   "mode": null,
+   "theme": "post_office",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-postkontor-1e7d"
+  },
+  {
+   "slug": "engelska-korsord-reptiler-och-groddjur-773c",
+   "type": "crossword",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-reptiler-och-groddjur-773c"
+  },
+  {
+   "slug": "engelska-korsord-runt-huset-f10e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-runt-huset-f10e"
+  },
+  {
+   "slug": "engelska-korsord-rymden-882f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-rymden-882f"
+  },
+  {
+   "slug": "engelska-korsord-saker-som-flyger-f9ca",
+   "type": "crossword",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-saker-som-flyger-f9ca"
+  },
+  {
+   "slug": "engelska-korsord-sjukhus-c0df",
+   "type": "crossword",
+   "mode": null,
+   "theme": "hospital",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-sjukhus-c0df"
+  },
+  {
+   "slug": "engelska-korsord-skogsdjur-ffda",
+   "type": "crossword",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-skogsdjur-ffda"
+  },
+  {
+   "slug": "engelska-korsord-sommar-420a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-sommar-420a"
+  },
+  {
+   "slug": "engelska-korsord-strand-ca2c",
+   "type": "crossword",
+   "mode": null,
+   "theme": "beach",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-strand-ca2c"
+  },
+  {
+   "slug": "engelska-korsord-thanksgiving-a567",
+   "type": "crossword",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-thanksgiving-a567"
+  },
+  {
+   "slug": "engelska-korsord-tillbehor-ba03",
+   "type": "crossword",
+   "mode": null,
+   "theme": "accessories",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-tillbehor-ba03"
+  },
+  {
+   "slug": "engelska-korsord-vader-2139",
+   "type": "crossword",
+   "mode": null,
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-vader-2139"
+  },
+  {
+   "slug": "engelska-korsord-var-6c15",
+   "type": "crossword",
+   "mode": null,
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-var-6c15"
+  },
+  {
+   "slug": "engelska-korsord-verktyg-0dd1",
+   "type": "crossword",
+   "mode": null,
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-verktyg-0dd1"
+  },
+  {
+   "slug": "engelska-korsord-vinter-acbc",
+   "type": "crossword",
+   "mode": null,
+   "theme": "winter",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-vinter-acbc"
+  },
+  {
+   "slug": "engelska-korsord-yrken-967c",
+   "type": "crossword",
+   "mode": null,
+   "theme": "occupations",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-yrken-967c"
+  },
+  {
+   "slug": "korsord-aktiviteter-d0b5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "activities",
+   "level": "ak-2",
+   "deck": "korsord-aktiviteter-d0b5"
+  },
+  {
+   "slug": "korsord-bageri-2dc0",
+   "type": "crossword",
+   "mode": null,
+   "theme": "bakery",
+   "level": "ak-2",
+   "deck": "korsord-bageri-2dc0"
+  },
+  {
+   "slug": "korsord-blommor-51d5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "flowers",
+   "level": "ak-2",
+   "deck": "korsord-blommor-51d5"
+  },
+  {
+   "slug": "korsord-bondgardsdjur-dc15",
+   "type": "crossword",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "ak-2",
+   "deck": "korsord-bondgardsdjur-dc15"
+  },
+  {
+   "slug": "korsord-camping-acef",
+   "type": "crossword",
+   "mode": null,
+   "theme": "camping",
+   "level": "ak-2",
+   "deck": "korsord-camping-acef"
+  },
+  {
+   "slug": "korsord-djur-2d18",
+   "type": "crossword",
+   "mode": null,
+   "theme": "animals",
+   "level": "ak-2",
+   "deck": "korsord-djur-2d18"
+  },
+  {
+   "slug": "korsord-djurparksdjur-a809",
+   "type": "crossword",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "ak-2",
+   "deck": "korsord-djurparksdjur-a809"
+  },
+  {
+   "slug": "korsord-efterratter-och-godis-b23e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "ak-2",
+   "deck": "korsord-efterratter-och-godis-b23e"
+  },
+  {
+   "slug": "korsord-faglar-2-7309",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "ak-2",
+   "deck": "korsord-faglar-2-7309"
+  },
+  {
+   "slug": "korsord-faglar-572d",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds",
+   "level": "ak-2",
+   "deck": "korsord-faglar-572d"
+  },
+  {
+   "slug": "korsord-farger-017d",
+   "type": "crossword",
+   "mode": null,
+   "theme": "colors",
+   "level": "ak-2",
+   "deck": "korsord-farger-017d"
+  },
+  {
+   "slug": "korsord-fordon-8735",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "ak-2",
+   "deck": "korsord-fordon-8735"
+  },
+  {
+   "slug": "korsord-former-13f1",
+   "type": "crossword",
+   "mode": null,
+   "theme": "shapes",
+   "level": "ak-2",
+   "deck": "korsord-former-13f1"
+  },
+  {
+   "slug": "korsord-frukost-2785",
+   "type": "crossword",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "ak-2",
+   "deck": "korsord-frukost-2785"
+  },
+  {
+   "slug": "korsord-gronsaker-9ee6",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "ak-2",
+   "deck": "korsord-gronsaker-9ee6"
+  },
+  {
+   "slug": "korsord-havsliv-bda0",
+   "type": "crossword",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "ak-2",
+   "deck": "korsord-havsliv-bda0"
+  },
+  {
+   "slug": "korsord-husdjur-22e9",
+   "type": "crossword",
+   "mode": null,
+   "theme": "pets",
+   "level": "ak-2",
+   "deck": "korsord-husdjur-22e9"
+  },
+  {
+   "slug": "korsord-i-snabbkopet-73f5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "ak-2",
+   "deck": "korsord-i-snabbkopet-73f5"
+  },
+  {
+   "slug": "korsord-insekter-och-kryp-8b26",
+   "type": "crossword",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "ak-2",
+   "deck": "korsord-insekter-och-kryp-8b26"
+  },
+  {
+   "slug": "korsord-jul-495e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "christmas",
+   "level": "ak-2",
+   "deck": "korsord-jul-495e"
+  },
+  {
+   "slug": "korsord-kanslor-1afc",
+   "type": "crossword",
+   "mode": null,
+   "theme": "emotions",
+   "level": "ak-2",
+   "deck": "korsord-kanslor-1afc"
+  },
+  {
+   "slug": "korsord-klader-d043",
+   "type": "crossword",
+   "mode": null,
+   "theme": "clothing",
+   "level": "ak-2",
+   "deck": "korsord-klader-d043"
+  },
+  {
+   "slug": "korsord-klassrum-c21f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "classroom",
+   "level": "ak-2",
+   "deck": "korsord-klassrum-c21f"
+  },
+  {
+   "slug": "korsord-koksredskap-36c6",
+   "type": "crossword",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "ak-2",
+   "deck": "korsord-koksredskap-36c6"
+  },
+  {
+   "slug": "korsord-kroppsdelar-85be",
+   "type": "crossword",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "ak-2",
+   "deck": "korsord-kroppsdelar-85be"
+  },
+  {
+   "slug": "korsord-leksaker-28b8",
+   "type": "crossword",
+   "mode": null,
+   "theme": "toys",
+   "level": "ak-2",
+   "deck": "korsord-leksaker-28b8"
+  },
+  {
+   "slug": "korsord-mobler-6fff",
+   "type": "crossword",
+   "mode": null,
+   "theme": "furniture",
+   "level": "ak-2",
+   "deck": "korsord-mobler-6fff"
+  },
+  {
+   "slug": "korsord-musik-e019",
+   "type": "crossword",
+   "mode": null,
+   "theme": "music",
+   "level": "ak-2",
+   "deck": "korsord-musik-e019"
+  },
+  {
+   "slug": "korsord-pask-7028",
+   "type": "crossword",
+   "mode": null,
+   "theme": "easter",
+   "level": "ak-2",
+   "deck": "korsord-pask-7028"
+  },
+  {
+   "slug": "korsord-postkontor-f3be",
+   "type": "crossword",
+   "mode": null,
+   "theme": "post_office",
+   "level": "ak-2",
+   "deck": "korsord-postkontor-f3be"
+  },
+  {
+   "slug": "korsord-runt-huset-4328",
+   "type": "crossword",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "ak-2",
+   "deck": "korsord-runt-huset-4328"
+  },
+  {
+   "slug": "korsord-rymden-e18d",
+   "type": "crossword",
+   "mode": null,
+   "theme": "space",
+   "level": "ak-2",
+   "deck": "korsord-rymden-e18d"
+  },
+  {
+   "slug": "korsord-saker-som-flyger-10e6",
+   "type": "crossword",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "ak-2",
+   "deck": "korsord-saker-som-flyger-10e6"
+  },
+  {
+   "slug": "korsord-sjukhus-71e2",
+   "type": "crossword",
+   "mode": null,
+   "theme": "hospital",
+   "level": "ak-2",
+   "deck": "korsord-sjukhus-71e2"
+  },
+  {
+   "slug": "korsord-skogsdjur-e097",
+   "type": "crossword",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "ak-2",
+   "deck": "korsord-skogsdjur-e097"
+  },
+  {
+   "slug": "korsord-sommar-3fd1",
+   "type": "crossword",
+   "mode": null,
+   "theme": "summer",
+   "level": "ak-2",
+   "deck": "korsord-sommar-3fd1"
+  },
+  {
+   "slug": "korsord-strand-43fa",
+   "type": "crossword",
+   "mode": null,
+   "theme": "beach",
+   "level": "ak-2",
+   "deck": "korsord-strand-43fa"
+  },
+  {
+   "slug": "korsord-thanksgiving-f9e5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "ak-2",
+   "deck": "korsord-thanksgiving-f9e5"
+  },
+  {
+   "slug": "korsord-tillbehor-12d1",
+   "type": "crossword",
+   "mode": null,
+   "theme": "accessories",
+   "level": "ak-2",
+   "deck": "korsord-tillbehor-12d1"
+  },
+  {
+   "slug": "korsord-trad-f513",
+   "type": "crossword",
+   "mode": null,
+   "theme": "tree",
+   "level": "ak-2",
+   "deck": "korsord-trad-f513"
+  },
+  {
+   "slug": "korsord-vader-d94f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "weather",
+   "level": "ak-2",
+   "deck": "korsord-vader-d94f"
+  },
+  {
+   "slug": "korsord-var-15eb",
+   "type": "crossword",
+   "mode": null,
+   "theme": "spring",
+   "level": "ak-2",
+   "deck": "korsord-var-15eb"
+  },
+  {
+   "slug": "korsord-verktyg-83f3",
+   "type": "crossword",
+   "mode": null,
+   "theme": "tools",
+   "level": "ak-2",
+   "deck": "korsord-verktyg-83f3"
+  },
+  {
+   "slug": "korsord-vinter-9b0c",
+   "type": "crossword",
+   "mode": null,
+   "theme": "winter",
+   "level": "ak-2",
+   "deck": "korsord-vinter-9b0c"
+  },
+  {
+   "slug": "korsord-yrken-987d",
+   "type": "crossword",
+   "mode": null,
+   "theme": "occupations",
+   "level": "ak-2",
+   "deck": "korsord-yrken-987d"
+  }
+ ]
+}

@@ -1,0 +1,636 @@
+{
+ "part": 251,
+ "locale": "sv",
+ "classes": [
+  "bingo::null",
+  "more-less::check-cross"
+ ],
+ "splitOf": null,
+ "count": 78,
+ "pages": [
+  {
+   "slug": "bingo-aktiviteter-d8cd",
+   "type": "bingo",
+   "mode": null,
+   "theme": "activities",
+   "level": "forskola",
+   "deck": "bingo-aktiviteter-d8cd"
+  },
+  {
+   "slug": "bingo-bageri-3379",
+   "type": "bingo",
+   "mode": null,
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "bingo-bageri-3379"
+  },
+  {
+   "slug": "bingo-blommor-e87a",
+   "type": "bingo",
+   "mode": null,
+   "theme": "flowers",
+   "level": "forskola",
+   "deck": "bingo-blommor-e87a"
+  },
+  {
+   "slug": "bingo-bondgardsdjur-adf6",
+   "type": "bingo",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "bingo-bondgardsdjur-adf6"
+  },
+  {
+   "slug": "bingo-camping-6fb8",
+   "type": "bingo",
+   "mode": null,
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "bingo-camping-6fb8"
+  },
+  {
+   "slug": "bingo-djur",
+   "type": "bingo",
+   "mode": null,
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "bingo-djur"
+  },
+  {
+   "slug": "bingo-djurparksdjur-96c8",
+   "type": "bingo",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "forskola",
+   "deck": "bingo-djurparksdjur-96c8"
+  },
+  {
+   "slug": "bingo-efterratter-och-godis-ee47",
+   "type": "bingo",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "forskola",
+   "deck": "bingo-efterratter-och-godis-ee47"
+  },
+  {
+   "slug": "bingo-faglar-2-5e0c",
+   "type": "bingo",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "bingo-faglar-2-5e0c"
+  },
+  {
+   "slug": "bingo-farger-3dec",
+   "type": "bingo",
+   "mode": null,
+   "theme": "colors",
+   "level": "forskola",
+   "deck": "bingo-farger-3dec"
+  },
+  {
+   "slug": "bingo-fordon-a103",
+   "type": "bingo",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "bingo-fordon-a103"
+  },
+  {
+   "slug": "bingo-former-4f7c",
+   "type": "bingo",
+   "mode": null,
+   "theme": "shapes",
+   "level": "forskola",
+   "deck": "bingo-former-4f7c"
+  },
+  {
+   "slug": "bingo-frukost-3d32",
+   "type": "bingo",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "bingo-frukost-3d32"
+  },
+  {
+   "slug": "bingo-frukter-0565",
+   "type": "bingo",
+   "mode": null,
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "bingo-frukter-0565"
+  },
+  {
+   "slug": "bingo-gronsaker-6526",
+   "type": "bingo",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "bingo-gronsaker-6526"
+  },
+  {
+   "slug": "bingo-havsliv-cae4",
+   "type": "bingo",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "bingo-havsliv-cae4"
+  },
+  {
+   "slug": "bingo-husdjur-bce0",
+   "type": "bingo",
+   "mode": null,
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "bingo-husdjur-bce0"
+  },
+  {
+   "slug": "bingo-i-snabbkopet-4101",
+   "type": "bingo",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "bingo-i-snabbkopet-4101"
+  },
+  {
+   "slug": "bingo-jul-b306",
+   "type": "bingo",
+   "mode": null,
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "bingo-jul-b306"
+  },
+  {
+   "slug": "bingo-klader-2538",
+   "type": "bingo",
+   "mode": null,
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "bingo-klader-2538"
+  },
+  {
+   "slug": "bingo-klassrum-9a87",
+   "type": "bingo",
+   "mode": null,
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "bingo-klassrum-9a87"
+  },
+  {
+   "slug": "bingo-koksredskap-3a03",
+   "type": "bingo",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "bingo-koksredskap-3a03"
+  },
+  {
+   "slug": "bingo-kroppsdelar-2538",
+   "type": "bingo",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "bingo-kroppsdelar-2538"
+  },
+  {
+   "slug": "bingo-leksaker-0748",
+   "type": "bingo",
+   "mode": null,
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "bingo-leksaker-0748"
+  },
+  {
+   "slug": "bingo-mobler-d7ab",
+   "type": "bingo",
+   "mode": null,
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "bingo-mobler-d7ab"
+  },
+  {
+   "slug": "bingo-pask-25c8",
+   "type": "bingo",
+   "mode": null,
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "bingo-pask-25c8"
+  },
+  {
+   "slug": "bingo-runt-huset-49d1",
+   "type": "bingo",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "forskola",
+   "deck": "bingo-runt-huset-49d1"
+  },
+  {
+   "slug": "bingo-rymden-a1fa",
+   "type": "bingo",
+   "mode": null,
+   "theme": "space",
+   "level": "forskola",
+   "deck": "bingo-rymden-a1fa"
+  },
+  {
+   "slug": "bingo-saker-som-flyger-cd17",
+   "type": "bingo",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "bingo-saker-som-flyger-cd17"
+  },
+  {
+   "slug": "bingo-sjukhus-4f36",
+   "type": "bingo",
+   "mode": null,
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "bingo-sjukhus-4f36"
+  },
+  {
+   "slug": "bingo-skogsdjur-9882",
+   "type": "bingo",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "bingo-skogsdjur-9882"
+  },
+  {
+   "slug": "bingo-sommar-2ab6",
+   "type": "bingo",
+   "mode": null,
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "bingo-sommar-2ab6"
+  },
+  {
+   "slug": "bingo-strand-dda3",
+   "type": "bingo",
+   "mode": null,
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "bingo-strand-dda3"
+  },
+  {
+   "slug": "bingo-tillbehor-587a",
+   "type": "bingo",
+   "mode": null,
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "bingo-tillbehor-587a"
+  },
+  {
+   "slug": "bingo-trad-7cf9",
+   "type": "bingo",
+   "mode": null,
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "bingo-trad-7cf9"
+  },
+  {
+   "slug": "bingo-vader-ebb4",
+   "type": "bingo",
+   "mode": null,
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "bingo-vader-ebb4"
+  },
+  {
+   "slug": "bingo-var-f731",
+   "type": "bingo",
+   "mode": null,
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "bingo-var-f731"
+  },
+  {
+   "slug": "bingo-vinter-b84a",
+   "type": "bingo",
+   "mode": null,
+   "theme": "winter",
+   "level": "forskola",
+   "deck": "bingo-vinter-b84a"
+  },
+  {
+   "slug": "bingo-yrken-31d4",
+   "type": "bingo",
+   "mode": null,
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "bingo-yrken-31d4"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-bageri-646e",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-bageri-646e"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-blommor-36bd",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "flowers",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-blommor-36bd"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-bondgardsdjur-8380",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-bondgardsdjur-8380"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-camping-9ddb",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-camping-9ddb"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-dinosaurier-6108",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "dinosaurs",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-dinosaurier-6108"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-djur-0d91",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-djur-0d91"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-djurparksdjur-e0d5",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "zoo_animals",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-djurparksdjur-e0d5"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-efterratter-och-godis-1509",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "desserts_and_sweets",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-efterratter-och-godis-1509"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-faglar-2-b408",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-faglar-2-b408"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-faglar-bb81",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "birds",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-faglar-bb81"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-fordon-fc72",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-fordon-fc72"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-former-4fe9",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "shapes",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-former-4fe9"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-frukost-e7a2",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-frukost-e7a2"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-frukter-3d10",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-frukter-3d10"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-gronsaker-c206",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-gronsaker-c206"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-havsliv-b825",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-havsliv-b825"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-husdjur-512e",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-husdjur-512e"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-i-snabbkopet-9370",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-i-snabbkopet-9370"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-insekter-och-kryp-37b9",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "insects_and_bugs",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-insekter-och-kryp-37b9"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-jul-fb18",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-jul-fb18"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-klader-e93b",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-klader-e93b"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-klassrum-f455",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-klassrum-f455"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-koksredskap-10d1",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-koksredskap-10d1"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-leksaker-1caf",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-leksaker-1caf"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-mobler-2553",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-mobler-2553"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-musik-b8d4",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "music",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-musik-b8d4"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-pask-2f79",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-pask-2f79"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-postkontor-fe45",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "post_office",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-postkontor-fe45"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-runt-huset-3aa4",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "around_the_house",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-runt-huset-3aa4"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-rymden-88b2",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "space",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-rymden-88b2"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-saker-som-flyger-70dd",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-saker-som-flyger-70dd"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-sjukhus-5e35",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-sjukhus-5e35"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-skogsdjur-194a",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-skogsdjur-194a"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-strand-6c9e",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-strand-6c9e"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-thanksgiving-5df4",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-thanksgiving-5df4"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-tillbehor-1e57",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-tillbehor-1e57"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-trad-ae18",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-trad-ae18"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-verktyg-cb5c",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-verktyg-cb5c"
+  },
+  {
+   "slug": "mer-mindre-bocka-och-stryk-grupper-yrken-4de7",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "mer-mindre-bocka-och-stryk-grupper-yrken-4de7"
+  }
+ ]
+}

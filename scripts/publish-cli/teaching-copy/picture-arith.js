@@ -99,6 +99,95 @@ L.en = {
   list: function (a) { return a.length > 1 ? a.slice(0, -1).join(', ') + ' and ' + a[a.length - 1] : a[0]; },
 };
 
+/* ------------------------------------------------------------------ Dutch */
+L.nl = {
+  headings: ['Wat je op dit blad oefent', 'Zo gebruik je het in de klas'],
+  modes: {
+    'addition/image-image': 'Zes sommen per blad: je leerling telt beide groepjes plaatjes, telt ze bij elkaar op en schrijft het antwoord op de lijn.',
+    'addition/image-number': 'Zes sommen per blad: je leerling telt het groepje plaatjes, telt daar het gedrukte getal bij op en noteert het antwoord.',
+    'addition/find-addend': 'Zes sommen per blad waarin één getal ontbreekt; je leerling zoekt welk getal erbij hoort om de optelling kloppend te maken.',
+    'addition/mixed': 'Zes sommen per blad in wisselende presentaties, zodat je leerling bij elke som opnieuw bekijkt hoe die is opgebouwd.',
+    'subtraction/image-number': 'Zes sommen per blad: je leerling telt de plaatjes, haalt het gedrukte getal eraf en noteert het antwoord.',
+    'subtraction/cross-out': 'Zes sommen per blad: je leerling streept het gevraagde aantal plaatjes door, telt wat overblijft en schrijft het antwoord op.',
+    'subtraction/find-subtrahend': 'Zes sommen per blad waarin het afgetrokken getal ontbreekt; je leerling zoekt welk getal eraf moet om bij het antwoord uit te komen.',
+    'subtraction/mixed': 'Zes sommen per blad in wisselende presentaties, zodat je leerling per som opnieuw bepaalt hoe die som werkt.',
+  },
+  range: 'Alle getallen en alle antwoorden blijven binnen het getalgebied t/m 10.',
+  mixedNote: 'Gemengd slaat op de wisselende presentatie van de sommen; de bewerking blijft op het hele blad dezelfde.',
+  bridgeNote: 'Doordat één hoeveelheid als gedrukt getal staat en alleen de andere is afgebeeld, verschuift je leerling van alles tellen naar doortellen.',
+  check: 'Bij dit blad hoort een apart antwoordblad in pdf; in de online versie ziet je leerling per som meteen of het antwoord klopt.',
+  objects: function (list) { return 'Afgebeeld zijn ' + list + '.'; },
+  uses: [
+    'Zet het blad in de rekenhoek of op de weektaak, zodat je leerling er tijdens de rekenronde zelfstandig aan werkt.',
+    'Gebruik het in de oefenfase of geef het mee naar huis, kort nadat je de bewerking klassikaal hebt geïntroduceerd.',
+    'Laat twee leerlingen samenwerken: de een verwoordt de som hardop, de ander schrijft, halverwege wisselen ze van rol.',
+    'Houd een stapel achter de hand voor leerlingen die vroeg klaar zijn en tijdens het vrije werken verder willen.',
+    'Handig voor een invalles: de opdracht staat in één zin uitgelegd en vraagt vooraf geen voorbereiding van de leerkracht.',
+  ],
+  chips: { add: 'Optellen met plaatjes', sub: 'Aftrekken met plaatjes', range: 'Getalgebied t/m 10' },
+  list: function (a) { return a.length > 1 ? a.slice(0, -1).join(', ') + ' en ' + a[a.length - 1] : a[0]; },
+};
+
+/* ----------------------------------------------------------------- French */
+L.fr = {
+  headings: ['Ce que la fiche travaille', 'Utilisation en classe'],
+  modes: {
+    'addition/image-number': "Six calculs : les élèves comptent la collection illustrée, puis ajoutent le nombre écrit à côté et notent la somme.",
+    'addition/image-image': "Six calculs : les élèves comptent chacune des deux collections illustrées, réunissent les deux quantités et écrivent la somme.",
+    'addition/find-addend': "Six calculs : la somme est donnée, un terme manque, et les élèves cherchent le nombre qui complète l'addition.",
+    'addition/mixed': "Six calculs d'addition dont la présentation change d'une case à l'autre : collections illustrées, nombre écrit, terme manquant.",
+    'subtraction/image-number': "Six calculs : les élèves comptent la collection illustrée, retirent le nombre écrit et notent ce qui reste.",
+    'subtraction/cross-out': "Six calculs : les élèves barrent sur l'illustration le nombre d'objets indiqué, puis comptent ceux qui restent.",
+    'subtraction/find-subtrahend': "Six calculs : le résultat est donné, le nombre retiré manque, et les élèves cherchent ce qui complète la soustraction.",
+    'subtraction/mixed': "Six calculs de soustraction dont la présentation change d'une case à l'autre : objets à barrer, nombre écrit, nombre manquant.",
+  },
+  range: "Tous les nombres et tous les résultats restent dans les dix premiers nombres, le domaine de calcul du CP.",
+  mixedNote: "La présentation varie d'un calcul à l'autre, mais l'opération reste la même sur toute la fiche.",
+  bridgeNote: "Une seule collection est illustrée, l'autre quantité est un nombre écrit : les élèves quittent le comptage de tout pour surcompter à partir d'une quantité gardée en tête.",
+  check: "Un corrigé est fourni en PDF séparé, et la version interactive dans le navigateur vérifie chaque réponse au fur et à mesure.",
+  // The reviewer wrote `this.list(list)` here; `list` arrives already joined by build(),
+  // so re-joining a string would spell it letter by letter.
+  objects: function (list) { return "Les collections sont illustrées avec " + list + "."; },
+  uses: [
+    "À poser dans un atelier de calcul ou dans le plan de travail, comme tâche courte que les élèves mènent seuls.",
+    "En phase d'entraînement après la séance de découverte, ou à donner à la maison pour réactiver le calcul du jour.",
+    "En binôme : chacun traite trois calculs, puis les deux élèves confrontent leurs écritures avant de rendre la fiche.",
+    "Pour les élèves qui terminent tôt, une fiche tenue à disposition prolonge le travail sans mobiliser l'enseignant.",
+    "Pour un remplacement, une fiche imprimée d'avance donne une activité mathématique cadrée sans préparation particulière.",
+  ],
+  chips: { add: 'Addition', sub: 'Soustraction', range: "Nombres jusqu'à 10" },
+  list: function (a) { return a.length > 1 ? a.slice(0, -1).join(', ') + ' et ' + a[a.length - 1] : a[0]; },
+};
+
+/* ----------------------------------------------------------------- Spanish */
+L.es = {
+  headings: ['Qué practica esta ficha', 'Cómo llevarla al aula'],
+  modes: {
+    'addition/image-number': 'Seis sumas: una cantidad dibujada, otra escrita; el alumno cuenta la colección y sigue contando desde ese número.',
+    'addition/image-image': 'Seis sumas con las dos cantidades dibujadas: el alumno cuenta cada colección y escribe el total.',
+    'addition/find-addend': 'Seis sumas a las que les falta un sumando: el alumno averigua qué cantidad hay que añadir para llegar al total indicado.',
+    'addition/mixed': 'Seis sumas presentadas de formas distintas: unas con las dos colecciones dibujadas, otras con una cantidad escrita.',
+    'subtraction/image-number': 'Seis restas: la cantidad de partida dibujada y la que se quita escrita; el alumno cuenta hacia atrás.',
+    'subtraction/cross-out': 'Seis restas sobre una colección dibujada: el alumno tacha los elementos que se van y cuenta los que quedan.',
+    'subtraction/find-subtrahend': 'Seis restas a las que les falta el número que se quita: el alumno decide cuánto hay que retirar para llegar al resultado.',
+    'subtraction/mixed': 'Seis restas presentadas de formas distintas: unas se resuelven tachando dibujos, otras con la cantidad escrita.',
+  },
+  range: 'Todos los números y todos los resultados se mantienen dentro del 10.',
+  mixedNote: 'Varía la presentación de cada operación, no la operación: una ficha de suma contiene solo sumas.',
+  bridgeNote: 'Una cantidad dibujada y otra escrita hacen pasar de contarlo todo a contar a partir de una.',
+  check: 'El solucionario va en un PDF aparte; la versión del navegador comprueba cada respuesta mientras el alumno trabaja.',
+  objects: function (list) { return 'Las cantidades se representan con dibujos de ' + list + '.'; },
+  uses: [
+    'Colócala en el rincón de matemáticas como tarea del plan de trabajo semanal, con lápiz y ficha ya preparados.',
+    'Repártela como práctica al cerrar la sesión de cálculo o como deberes breves que se revisan al día siguiente.',
+    'Por parejas, uno cuenta en voz alta y el otro escribe; después intercambian los papeles en la siguiente operación.',
+    'Tenla impresa para quien termina antes: seis operaciones ocupan lo justo sin abrir ningún contenido nuevo.',
+    'En una clase de sustitución funciona sin explicación previa: el dibujo indica qué contar y la consigna cabe en una frase.',
+  ],
+  chips: { add: 'Suma hasta 10', sub: 'Resta hasta 10', range: 'Números hasta el 10' },
+  list: function (a) { return a.length > 1 ? a.slice(0, -1).join(', ') + ' y ' + a[a.length - 1] : a[0]; },
+};
+
 /* ------------------------------------------------------------------ build */
 
 function digits(ordinal, radices) {
@@ -117,9 +206,30 @@ function build(f, ordinal, locale) {
   if (!modeSentence) return null;
 
   var ops = (f.operations || []).map(function (o) { return o.text; });
-  var d = digits(ordinal, [t.uses.length, 3]);
-  // 3 or 4 objects named, rotating — the second digit previously selected nothing
-  var nouns = (f.depictedNouns || []).slice(0, 3 + (d[1] % 2));
+  /* TWO use sentences, rotated as an ORDERED PAIR: 5 sentences give 20 combinations rather
+   * than 5, and each block carries a second variable sentence instead of one.
+   *
+   * Widening the noun list alone was not enough. The pairs that still collided were all
+   * `image-number` and `mixed` — precisely the two modes that carry an EXTRA fixed sentence
+   * (the counting-on note, the mixed-means-presentation note), so their fixed share is the
+   * largest in the family and the per-deck variation the smallest. More fixed text needs more
+   * rotation, and a second classroom situation is worth reading in its own right. */
+  var d = digits(ordinal, [t.uses.length, t.uses.length - 1, 3]);
+
+  /* 4, 5 or 6 objects named, rotating. Was 3-4, which German and English cleared but Spanish
+   * and French did not: their fixed sentences are longer, so the same per-deck variation was a
+   * smaller share of the block and same-shape pairs reached 0.84. Every deck in this family
+   * carries exactly six nouns, so widening costs nothing and gives the teacher the whole
+   * picture inventory rather than a sample of it.
+   *
+   * The trailing-number strip is §20.5: `Cartero 2` is a filename artefact (the second cartero
+   * image in the theme), not a word any Spanish teacher would write. */
+  var useA = d[0];
+  var useB = (useA + 1 + d[1]) % t.uses.length;   // never equal to useA
+
+  var nouns = (f.depictedNouns || []).slice(0, 6).map(function (n) {
+    return String(n).replace(/\s+\d+$/, '');
+  }).filter(function (n, i, a) { return n && a.indexOf(n) === i; });
 
   var extras = [];
   if (/\/mixed$/.test(key)) extras.push(t.mixedNote);
@@ -130,7 +240,7 @@ function build(f, ordinal, locale) {
   if (nouns.length) { block1 += ' ' + t.objects(t.list(nouns)); named = nouns.slice(); }
 
   return {
-    shapes: { block1: key, block3: 'U' + d[0] },
+    shapes: { block1: key, block3: 'U' + useA },
     // Recorded so the verifier can assert on DATA rather than parse prose (see F2).
     namedObjects: named,
     chipRange: t.chips.range,
@@ -142,7 +252,7 @@ function build(f, ordinal, locale) {
     heading3: t.headings[1],
     block1: block1,
     block2: null,
-    block3: t.uses[d[0]],
+    block3: t.uses[useA],
     blockExtras: t.check,
   };
 }
